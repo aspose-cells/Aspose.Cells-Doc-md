@@ -1,53 +1,54 @@
-﻿---
-title: Özet Tablo ve Kaynak Veriler
+---
+title: Pivot Tablosu ve Kaynak Veri
 type: docs
 weight: 110
 url: /tr/java/pivot-table-and-source-data/
 ---
-## **Pivot Tablonun Kaynak Verileri**
-Tasarım zamanında bilinmeyen farklı veri kaynaklarından (veritabanı gibi) veri alan pivot tablolarla Microsoft Excel raporları oluşturmak istediğiniz zamanlar olabilir. Bu makale, bir pivot tablonun veri kaynağını dinamik olarak değiştirmek için bir yaklaşım sunar.
-## **Pivot Tablonun Kaynak Verilerini Değiştirme**
+
+## **Pivot Tablosunun Kaynak Verisi**
+Bazen, tasarım zamanında bilinmeyen farklı veri kaynaklarından (örneğin bir veritabanı) gelen verileri alan bir pivot tablosu oluşturmak istersiniz. Bu makale, bir pivot tablosunun veri kaynağını dinamik olarak değiştirmenin bir yaklaşımını sağlar.
+## **Bir Pivot Tablosunun Veri Kaynağını Değiştirme**
 1. Yeni bir tasarımcı şablonu oluşturma.
-1. Aşağıdaki ekran görüntüsündeki gibi yeni bir tasarımcı şablon dosyası oluşturun.
- 1. Ardından adlandırılmış bir aralık tanımlayın,**Veri kaynağı** , bu hücre aralığını ifade eder.
+   1. Aşağıdaki ekran görüntüsünde olduğu gibi yeni bir tasarımcı şablonu dosyası oluşturun.
+   1. Ardından bu hücre aralığına atıfta bulunan **DataSource** adlı bir adlandırılmış aralık tanımlayın. 
 
-      **Bir tasarımcı şablonu oluşturma ve adlandırılmış bir aralık tanımlama, DataSource** 
+      **Bir tasarımcı şablon oluşturma ve DataSource adlı adlandırılmış aralık tanımlama** 
 
-![yapılacaklar:resim_alternatif_metin](pivot-table-and-source-data_1.png)
+![todo:image_alt_text](pivot-table-and-source-data_1.png)
 
-1. Bu adlandırılmış aralığa göre Pivot Tablo Oluşturma.
- 1. Microsoft Excel'de seçin**Veri** , o zamanlar**Pivot tablo** ve**Özet Grafik Raporu**.
- 1. İlk adımda oluşturulan adlandırılmış aralığa dayalı olarak bir pivot tablo oluşturun.
+1. Bu adlandırılmış aralığa dayalı bir Özet Tablo Oluşturma.
+   1. Microsoft Excel'de **Veri**'yi seçin, ardından **Özet Tablo** ve **Özet Tablo Grafik Raporu'nu** seçin.
+   1. İlk adımda oluşturulan adlandırılmış aralığa dayalı bir özet tablo oluşturun. 
 
-      **DataSource adlı aralığa dayalı bir pivot tablo oluşturma** 
+      **DataSource** adlı adlandırılmış aralığa dayalı bir özet tablo oluşturma 
 
-![yapılacaklar:resim_alternatif_metin](pivot-table-and-source-data_2.png)
+![todo:image_alt_text](pivot-table-and-source-data_2.png)
 
-1.  Tablo satırını ve sütununu özetlemek için ilgili alanı sürükleyin, ardından aşağıdaki ekran görüntüsündeki gibi elde edilen pivot tabloyu oluşturun.
+1. İlgili alanı özet tablo satır ve sütununa sürükleyin, ardından aşağıdaki ekran görüntüsünde olduğu gibi sonuç özet tablosunu oluşturun. 
 
-   **Karşılık gelen bir alana dayalı bir pivot tablo oluşturma** 
+   **İlgili alana dayalı bir özet tablo oluşturmak** 
 
-![yapılacaklar:resim_alternatif_metin](pivot-table-and-source-data_3.png)
+![todo:image_alt_text](pivot-table-and-source-data_3.png)
 
-1.  Pivot tabloya sağ tıklayın ve seçin**Tablo Seçenekleri**.
- 1. Kontrol**Açıkken yenile** içinde**veri seçenekleri** ayarlar.
+1. Özet tabloyu sağ tıklayın ve **Tablo Seçenekleri**'ni seçin.
+   1. **Veri seçenekleri** ayarlarında **Açılışta yenile**'yi işaretleyin. 
 
-      **Pivot tablo seçeneklerini ayarlama** 
+      **Özet tablo seçeneklerini ayarlama** 
 
-![yapılacaklar:resim_alternatif_metin](pivot-table-and-source-data_4.png)
+![todo:image_alt_text](pivot-table-and-source-data_4.png)
 
 
 
-Artık bu dosyayı tasarımcı şablon dosyanız olarak kaydedebilirsiniz.
+Şimdi bu dosyayı tasarımcı şablon dosyanız olarak kaydedebilirsiniz.
 
-1. Yeni verileri doldurma ve bir pivot tablonun kaynak verilerini değiştirme.
-1. Tasarımcı şablonu oluşturulduktan sonra, pivot tablonun kaynak verilerini değiştirmek için aşağıdaki kodu kullanın.
+1. Yeni veri eklenmesi ve özet tablonun kaynak verisinin değiştirilmesi.
+   1. Tasarımcı şablon oluşturulduktan sonra, özet tablonun kaynak verisini değiştirmek için aşağıdaki kodu kullanın.
 
-Aşağıdaki örnek kodu çalıştırmak, pivot tablonun kaynak verilerini değiştirir ve pivot tablo aşağıdaki gibi görünür.
+Örnek kodu aşağıdaki gibi çalıştırmak, özet tablonun kaynak verisini değiştirir ve özet tablosu aşağıdaki gibi görünür.
 
-**Dinamik olarak değiştirilen pivot tablo** 
+**Dinamik olarak değiştirilen özet tablo** 
 
-![yapılacaklar:resim_alternatif_metin](pivot-table-and-source-data_5.png)
+![todo:image_alt_text](pivot-table-and-source-data_5.png)
 
 
 

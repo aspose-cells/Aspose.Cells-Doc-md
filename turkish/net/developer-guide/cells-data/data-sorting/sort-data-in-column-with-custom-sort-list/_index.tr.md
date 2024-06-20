@@ -1,21 +1,22 @@
 ---
-title: Özel Sıralama Listesiyle Sütundaki Verileri Sıralama
+title: Özel Sıralama Listesi ile Sütunda Verileri Sıralama
 type: docs
 weight: 290
 url: /tr/net/sort-data-in-column-with-custom-sort-list/
-description: Aspose.Cells for .NET API'i kullanarak özel bir liste kullanarak sütundaki verileri nasıl sıralayacağınızı öğrenin.
-keywords: Sort Data in Column with Custom Sort List, Sort data by custom list.
+description: Aspose.Cells for .NET API sını kullanarak özel bir liste kullanarak sütunda veri nasıl sıralanacağını öğrenin.
+keywords: Özel Sıralama Listesi ile Sütunda Veri Sıralama, Özel liste ile veri sırala.
 ---
-##  **Olası Kullanım Senaryoları**
 
- Özel bir liste kullanarak sütundaki verileri sıralayabilirsiniz. Bu kullanılarak yapılabilir[**DataSorter.AddKey(int anahtarı, SortOrder sırası, String özelList)**](https://reference.aspose.com/cells/net/aspose.cells.datasorter/addkey/methods/2)yöntem. Ancak bu yöntem yalnızca özel listedeki öğelerin içinde virgül bulunmadığında çalışır. "USA,US", "China,CN" vb. gibi virgülleri varsa, o zaman [**DataSorter.AddKey Method (Int32, SortOrder,String[])**)](https://reference. aspose.com/cells/net/aspose.cells.datasorter/addkey/methods/3) yöntemi. Burada son parametre String değil, bir String Dizisidir.
+## **Olası Kullanım Senaryoları**
 
-##  **Özel Sıralama Listesiyle Sütundaki Verileri Sıralama**
+Sütunda veri özel bir liste kullanarak sıralanabilir. Bu [**DataSorter.AddKey(int key, SortOrder order, String customList)**](https://reference.aspose.com/cells/net/aspose.cells.datasorter/addkey/methods/2) yöntemi kullanılarak yapılabilir. Ancak, özel listedeki öğelerin içinde virgül gibi karakterler bulunmuyorsa. Eğer "ABD,US", "Çin,CN" gibi virgül içeren öğeler varsa, o zaman [**DataSorter.AddKey Method (Int32, SortOrder,String[])**)](https://reference.aspose.com/cells/net/aspose.cells.datasorter/addkey/methods/3) yöntemini kullanmalısınız. Burada, son parametre String değil, String dizisidir.
 
-Aşağıdaki örnek kod, [**DataSorter.AddKey Method (Int32, SortOrder,String[])**)](https://reference.aspose.com/cells/net/aspose.cells.datasorter/addkey) nasıl kullanılacağını açıklamaktadır Verileri özel sıralama listesiyle sıralamak için /methods/3) yöntemini kullanın. Lütfen bkz[örnek Excel dosyası](50528327.xlsx) Bu kodda kullanılan ve[Excel dosyasının çıktısı](50528328.xlsx) onun tarafından oluşturulmuştur. Aşağıdaki ekran görüntüsü, örnek Excel dosyasındaki kodun yürütme üzerindeki etkisini göstermektedir.
+## **Özel Sıralama Listesi ile Sütunda Verileri Sıralama**
 
-![yapılacak şey:image_alt_text](sort-data-in-column-with-custom-sort-list_1.png)
+Aşağıdaki örnek kod, özel sıralama listesi ile veri sıralama işlemini açıklar. Bu kodda kullanılan [**DataSorter.AddKey Method (Int32, SortOrder,String[])**)](https://reference.aspose.com/cells/net/aspose.cells.datasorter/addkey/methods/3) yöntemini görmek için lütfen bu kodun kullandığı [örnek Excel dosyasını](50528327.xlsx) ve bu işlem sonucunda oluşturulan [çıktı Excel dosyasını](50528328.xlsx) inceleyin.
 
-##  **Basit kod**
+![todo:image_alt_text](sort-data-in-column-with-custom-sort-list_1.png)
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SortDataInColumnWithCustomSortList.cs" >}}

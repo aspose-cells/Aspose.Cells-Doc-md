@@ -1,28 +1,29 @@
-﻿---
-title: 範囲を削除
+---
+title: 範囲の削除
 type: docs
 weight: 25
 url: /ja/java/delete-ranges-from-Excel/
 ---
-## **序章**
 
-Excel では、範囲を選択して削除し、他のデータを左または上にシフトできます。
+## **紹介**
 
-**![シフト オプション](delete-range.png)**
+Excelでは、範囲を選択して削除し、他のデータを左にシフトすることができます。
 
-## **Aspose.Cells を使用して範囲を削除する**
+**![シフトオプション](delete-range.png)**
 
-Aspose.Cells提供[Cells.DeleteRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRange(int,%20int,%20int,%20int,%20int)範囲を削除するメソッド。
+## **Aspose.Cellsを使用した範囲の削除**
 
-## **範囲を削除して Cells 左にシフト**
+Aspose.Cellsは、[Cells.DeleteRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRange(int,%20int,%20int,%20int,%20int))メソッドを使用して範囲を削除する機能を提供します。
 
-範囲を削除し、Aspose.Cells を含む次のコードのようにセルをシフトします。
+## **範囲の削除と左にセルをシフト**
+
+Aspose.Cellsを使用して範囲を削除し、左にセルをシフトするコードは次の通りです:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Delete-Range-Left.java" >}}
 
-## **範囲を削除して Cells 上にシフト**
+## **範囲の削除と上にセルをシフト**
 
-範囲を削除し、Aspose.Cells を含む次のコードのようにセルを上にシフトします。
+Aspose.Cellsを使用して範囲を削除し、上にセルをシフトするコードは次の通りです:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Delete-Range-Up.java" >}}
 

@@ -1,36 +1,37 @@
 ---
-title: Excel で互換性チェッカーを無効にする
+title: Excelでの互換性チェッカーを無効にする
 type: docs
 weight: 170
 url: /ja/net/disable-compatibility-checker-in-excel/
-description: この記事では、Aspose.Cells for .NET API を通じて互換性チェッカーを無効にする方法を説明します。
-keywords: C# Disable Compatibility Checker, Excel Disable Compatibility Checker in C#, Disable Compatibility Checker in Workbook. 
+description: この記事では、Aspose.Cells for .NET APIを使用して互換性チェッカーを無効にする方法が説明されています。
+keywords: C#で互換性チェッカーを無効にする、Excelで互換性チェッカーを無効にする、Workbookで互換性チェッカーを無効にする。 
 ---
-##  C# の Excel ワークシートで互換性チェッカーを無効にする
+
+## C#でExcelワークシートで互換性チェッカーを無効にする 
 
 {{% alert color="primary" %}}
 
-Microsoft 以前のファイル形式でファイルを保存する際の Excel の互換性チェック フラグにより、機能上の問題や忠実度の損失が発生する可能性があります。互換性チェックは、Microsoft Office Excel 2007 および Microsoft Excel 2010 の機能です。
+Microsoft Excelの互換性チェッカーは、以前のファイル形式でファイルを保存すると機能の問題や精度の低下が引き起こされる可能性があるとして警告を出します。互換性チェッカーはMicrosoft Office Excel 2007およびMicrosoft Excel 2010の機能です。
 
-Excel 2007 または Excel 2010 の以前のバージョン (Excel 97 から Excel 2003) でブックを保存すると、互換性チェックによってブックがスキャンされ、以前のバージョンでサポートされていない機能が含まれているかどうかが確認されます。互換性問題の処理方法を決定できるように、互換性チェッカーにはオプションを含むダイアログ ボックスが表示されます。また、ワークブックの問題に関するレポートを作成したり、機能を無効にしたりするために使用することもできます。
+以前のバージョンのワークブックをExcel 2007またはExcel 2010からExcel 97からExcel 2003に保存する場合、互換性チェッカーは、以前のバージョンではサポートされていない機能が含まれていないかどうかをワークブックをスキャンします。互換性の問題についての決定を支援するために、互換性チェッカーはオプションを含むダイアログボックスを表示します。また、ワークブックの問題に関するレポートを作成したり、機能を無効にすることもできます。
 
-場合によっては、特定のスプレッドシートの互換性チェッカーを無効にする必要があります。 Aspose.Cells' API を使用すると、これをプログラムで実行できるため、ユーザーが Microsoft Excel にファイルを手動で再保存するときに表示される互換性チェック ダイアログ ボックスにイライラしたり混乱したりすることがなくなります。
+特定のスプレッドシートで互換性チェッカーを無効にする必要がある場合があります。Aspose.CellsのAPIを使用すると、ユーザーが手動でMicrosoft Excelでファイルを再保存する際に互換性チェッカーダイアログボックスが表示されず、ユーザーが混乱したりイライラしたりしないように、これをプログラムで行うことができます。
 
 {{% /alert %}}
 
-##  **Microsoft Excel を使用して互換性チェッカーを無効にする方法**
+## **Microsoft Excelを使用して互換性チェッカーを無効にする方法**
 
-Microsoft Excel (たとえば、Microsoft Excel 2007/2010) で互換性チェッカーを無効にするには:
+Microsoft Excel（例: Microsoft Excel 2007/2010）で互換性チェッカーを無効にする場合:
 
--  (Excel 2007) Office ボタンで、 をクリックします。**準備**してから**互換性チェッカーを実行**し、**このブックを保存するときに互換性をチェックするをオフにします**オプション。
-- (Excel 2010) [ファイル] タブで、 をクリックします。**[情報]**、[**問題の確認**]、[**互換性の確認**] をクリックし、最後に [**このブックを保存するときに互換性を確認する] のチェックを外します。**オプション。
+- （Excel 2007）[Office] ボタンをクリックし、「準備」、[互換性の確認] をクリックし、「このブックを保存するときに互換性を確認する」オプションをクリアします.
+- (Excel 2010) ファイルタブをクリックし**情報**、**問題の確認**、**互換性を確認**をクリックし、最後に**このブックを保存する場合に互換性をチェック**のチェックを外します。
 
-##  **Aspose.Cells API を使用して互換性チェッカーを無効にする方法**
+## **Aspose.Cells APIを使用して互換性チェッカーを無効にする方法**
 
-をセットする[**Workbook.Settings.CheckComptilibility**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcompatibility)財産を**間違い**Microsoft Excel の互換性チェッカーを無効にします。
+Microsoft Excelの互換性チェッカーを無効にするには、[**Workbook.Settings.CheckComptiliblity**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcompatibility)プロパティを**False**に設定します。
 
-###  **コード例**
+### **コード例**
 
-次のコード例は、Aspose.Cells for .NET で互換性チェッカーを無効にする方法を示しています。
+後続するコード例は、Aspose.Cells for .NETを使用して互換性チェッカーを無効にする方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DisableCompatibilityChecker-1.cs" >}}

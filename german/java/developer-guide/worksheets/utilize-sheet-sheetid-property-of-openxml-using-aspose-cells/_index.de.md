@@ -1,18 +1,19 @@
-﻿---
-title: Verwenden Sie die Sheet.SheetId-Eigenschaft von OpenXml mit Aspose.Cells
+---
+title: Verwenden Sie die Sheet.SheetId Eigenschaft von OpenXml mit Aspose.Cells
 type: docs
 weight: 80
 url: /de/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
 ---
-## **Mögliche Nutzungsszenarien**
 
-*Sheet.SheetId*Eigentum befindet sich innerhalb der*DocumentFormat.OpenXml.Spreadsheet*Namespace und ist Teil von OpenXml. Sie können diese Eigenschaft und ihren Wert im Inneren sehen*Arbeitsmappe.xml*wie im folgenden Screenshot gezeigt. Aspose.Cells bietet die entsprechende Eigenschaft als[**Arbeitsblatt.TabId**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TabId).
+## **Mögliche Verwendungsszenarien**
 
-![todo: Bild_alt_Text](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
+Die *Sheet.SheetId*-Eigenschaft befindet sich im *DocumentFormat.OpenXml.Spreadsheet*-Namespace und ist Teil von OpenXml. Sie können diese Eigenschaft und ihren Wert wie in der folgenden Abbildung im *workbook.xml* sehen. Aspose.Cells bietet die entsprechende Eigenschaft als [**Worksheet.TabId**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TabId) an.
 
-## **Verwenden Sie die Sheet.SheetId-Eigenschaft von OpenXml mit Aspose.Cells**
+![todo:image_alt_text](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
 
-Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](51740740.xlsx), liest seine Blatt- oder Registerkarten-ID, weist ihr dann eine neue Registerkarten-ID zu und speichert sie unter[Excel-Datei ausgeben](51740739.xlsx). Bitte beachten Sie auch die Konsolenausgabe des unten angegebenen Codes als Referenz.
+## **Verwenden Sie die *Sheet.SheetId*-Eigenschaft von OpenXml mit Aspose.Cells**
+
+Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](51740740.xlsx), liest ihre Tabellen- oder Registerkarten-ID und weist ihr eine neue Tabellen-ID zu, dann speichert sie sie als [Ausgabe-Excel-Datei](51740739.xlsx). Bitte sehen Sie sich auch die Konsolenausgabe des untenstehenden Codes als Referenz an.
 
 ## **Beispielcode**
 
@@ -20,7 +21,7 @@ Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](51740740.xlsx), liest 
 
 ## **Konsolenausgabe**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Sheet or Tab Id: 1297
 

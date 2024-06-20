@@ -1,28 +1,29 @@
-﻿---
-title: ワークシートで Cells をマージまたはマージ解除する
+---
+title: ワークシート内のセルを結合または結合を解除する
 type: docs
 weight: 40
 url: /ja/net/merge-or-unmerge-cells-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-ワークシートで作業しているときに、ワークシートの上部にまたがる単一のセルにタイトル/見出しを作成する必要があることがよくあります。請求書を作成していて、合計値または要約値の列を少なくしたい場合があります。 2 つ以上のセルから 1 つのセルを作成する場合は、セルを結合します。 VSTO と Aspose.Cells for .NET を個別に使用してタスクを実行します。
+ワークシートを操作する際に、一つのセルにタイトルや見出しを作成する必要があります。請求書を作成し、合計値や概要値のための少ない列を作成したい場合などに、セルを結合します。VSTOとAspose.Cells for .NETを個別に使用してこのタスクを実行します。
 
 {{% /alert %}}
 
 ## **説明**
 
-既存の Excel ファイルを開き、ワークブックの最初のワークシートのいくつかのセルを結合して、Excel ファイルを保存します。
+既存のExcelファイルを開き、ブック内の最初のワークシートでセルを結合してExcelファイルを保存します。
 
-## **合併 Cells**
+## **セルの結合**
 
-以下は、VSTO (C#、VB) および Aspose.Cells for .NET (C#、VB) の並列コード スニペットです。
+VSTO(C#, VB)とAspose.Cells for .NET(C#, VB)向けの並列のコードスニペットは以下の通りです。
 
 ### **1) VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -86,7 +87,7 @@ excelApp.Quit();
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -122,15 +123,15 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 {{< /highlight >}}
 
-## **Cells のマージ解除**
+## **セルの結合を解除する**
 
-セルの結合を解除するには、VSTO (C#、VB) および Aspose.Cells for .NET (C#、VB) の次のコード行を使用します。
+セルの結合を解除するには、VSTO(C#, VB)とAspose.Cells for .NET(C#, VB)向けの次のコードを使用します。
 
 ### **1) VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Get the A1 cell (Merged Cell).
 
@@ -148,7 +149,7 @@ rng1.UnMerge();     
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Get the A1 cell (Merged Cell).
 

@@ -1,43 +1,44 @@
-﻿---
-title: إخفاء أوراق العمل وإظهارها في مصنف
+---
+title: إخفاء وإظهار ورقات العمل في مصنف
 type: docs
 weight: 80
 url: /ar/net/hide-and-unhide-worksheets-in-a-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-عند تقديم المصنفات إلى العملاء أو عند إجراء عرض تقديمي ، قد يكون من المفيد إخفاء أوراق العمل في مصنف. يقترح النهج المنظم لنمذجة جداول البيانات أن البيانات والصيغ والتصورات مثل المخططات يتم الاحتفاظ بها في أوراق منفصلة. يحافظ هذا الأسلوب على التخطيط نظيفًا وبسيطًا ويجعل التنقل في المصنف أسهل. عند تقديم النتائج ، قد ترغب في إخفاء البيانات أو أوراق الصيغ من العرض لتجنب تشتيت الانتباه.
+عند عرض مصنفات العمل للعملاء أو عند إجراء عرض تقديمي، يمكن أن يكون من المفيد إخفاء ورقات العمل في مصنف. يوحي النهج المنظم لنمذجة الجداول باستمرارية البيانات، الصيغ، والتصوير المرئي مثل الرسوم البيانية على أوراق منفصلة. يحافظ هذا النهج على ترتيب نظيف وبسيط ويجعل المصنف أسهل في التنقل. خلال عرض النتائج، قد ترغب في إخفاء ورقات البيانات أو الصيغة لتجنب التشتت.
 
-يمكن للمستخدمين الذين يعملون في Microsoft Excel إخفاء أوراق العمل وإظهارها بسهولة. تتوفر نفس الميزات للمطورين الذين يبرمجون باستخدام جداول بيانات Excel. هناك طرق مختلفة للعمل مع جداول البيانات من داخل تطبيقات البرامج. إحدى الطرق هي استخدام VSTO ، والأخرى هي Aspose.Cells for .NET.
+يمكن لمستخدمي Microsoft Excel إخفاء ومن ثم إظهار (عرض) ورقات العمل بسهولة. تتوفر نفس الميزات للمطورين الذين يبرمجون باستخدام جداول البيانات في Excel. هناك طرق مختلفة للعمل مع جداول البيانات من داخل تطبيقات البرامج. أحد الأساليب هو استخدام VSTO، والآخر هو Aspose.Cells for .NET.
 
 {{% /alert %}}
 
-## **أوراق العمل المخفية والغير مخفية**
+## **إخفاء وإظهار ورقات العمل**
 
- يقارن هذا المقال[إخفاء](/cells/ar/net/hide-and-unhide-worksheets-in-a-workbook/) و[غير مختبئ](/cells/ar/net/hide-and-unhide-worksheets-in-a-workbook/) أوراق العمل مع[VSTO](/cells/ar/net/hide-and-unhide-worksheets-in-a-workbook/) ، باستخدام C# أو Visual Basic ، لأداء نفس المهمة مع[Aspose.Cells](/cells/ar/net/hide-and-unhide-worksheets-in-a-workbook/)، مرة أخرى باستخدام إما C# أو Visual Basic. يتيح لك Aspose.Cells العمل بدون تثبيت Microsoft Excel.
+هذه المقالة تقارن [إخفاء](/cells/ar/net/hide-and-unhide-worksheets-in-a-workbook/) و [إظهار](/cells/ar/net/hide-and-unhide-worksheets-in-a-workbook/) ورقات العمل بـ [VSTO](/cells/ar/net/hide-and-unhide-worksheets-in-a-workbook/) باستخدام C# أو Visual Basic، وأداء نفس المهمة باستخدام [Aspose.Cells](/cells/ar/net/hide-and-unhide-worksheets-in-a-workbook/)، مرة أخرى باستخدام إما C# أو Visual Basic. Aspose.Cells تتيح لك العمل بدون تثبيت Microsoft Excel.
 
-خطوات إخفاء ورقة العمل هي:
+خطوات إخفاء الورقة العمل هي:
 
 1. فتح ملف.
-1. احصل على ورقة عمل.
-1. إخفاء ورقة العمل.
-1. حفظ الملف.
+2. الحصول على ورقة العمل.
+3. إخفاء الورقة العمل.
+4. حفظ الملف.
 
- إلى[إظهار](/cells/ar/net/hide-and-unhide-worksheets-in-a-workbook/) ورقة عمل مرة أخرى ، ما عليك سوى تبديل الرؤية للورقة المخفية.
+ل [إظهار](/cells/ar/net/hide-and-unhide-worksheets-in-a-workbook/) ورقة عمل مرة أخرى، ما عليك سوى تبديل الرؤية على الورقة المخفية.
 
- توضح نماذج التعليمات البرمجية أدناه أولاً كيفية إخفاء ورقة العمل. تظهر العينات الأولى العملية باستخدام[VSTO](/cells/ar/net/hide-and-unhide-worksheets-in-a-workbook/) ، باستخدام C# أو Visual Basic ، مقارنة باستخدام[Aspose.Cells](/cells/ar/net/hide-and-unhide-worksheets-in-a-workbook/)، مرة أخرى باستخدام إما C# أو Visual Basics.
+توضح عينات الكود أدناه أولاً كيفية إخفاء ورقة العمل. توضح العينات الأولى العملية باستخدام [VSTO](/cells/ar/net/hide-and-unhide-worksheets-in-a-workbook/)، باستخدام إما C# أو Visual Basic، مقارنة بحيثية [Aspose.Cells](/cells/ar/net/hide-and-unhide-worksheets-in-a-workbook/)، مرة أخرى باستخدام إما C# أو Visual Basic.
 
- تُظهر المجموعة الثانية من نماذج التعليمات البرمجية السطر المستخدم لإظهار ورقة العمل بتنسيق[VSTO](/cells/ar/net/hide-and-unhide-worksheets-in-a-workbook/) أو[Aspose.Cells](/cells/ar/net/hide-and-unhide-worksheets-in-a-workbook/).
+توضح مجموعة العينات الثانية الخط المستخدم لإظهار ورقة العمل في [VSTO](/cells/ar/net/hide-and-unhide-worksheets-in-a-workbook/) أو [Aspose.Cells](/cells/ar/net/hide-and-unhide-worksheets-in-a-workbook/).
 
-## **أوراق العمل المخفية**
+## **إخفاء الأوراق العمل**
 
-فيما يلي نماذج التعليمات البرمجية لـ VSTO و Aspose.Cells التي توضح كيفية إخفاء ورقة عمل في مصنف.
+أدناه أمثلة برمجية لـ VSTO و Aspose.Cells توضح كيفية إخفاء ورقة عمل في سجل عمل.
 
-### **أوراق العمل المخفية باستخدام VSTO**
+### **إخفاء ورقات العمل مع VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -108,11 +109,11 @@ excelApp.Quit();
 {{< /highlight >}}
 
 
-### **إخفاء أوراق العمل بالرقم Aspose.Cells for .NET**
+### **إخفاء ورقات العمل مع Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -156,15 +157,15 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 {{< /highlight >}}
 
-## **عدم إخفاء أوراق العمل**
+## **إظهار ورقات العمل**
 
-فيما يلي نماذج التعليمات البرمجية لـ VSTO و Aspose.Cells التي توضح كيفية إظهار ورقة عمل في مصنف.
+أدناه أمثلة برمجية لـ VSTO و Aspose.Cells توضح كيفية إظهار ورقة العمل في سجل عمل.
 
-### **إظهار ورقة عمل باستخدام VSTO**
+### **إظهار ورقة عمل مع VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -177,11 +178,11 @@ objSheet.Visible = Excel.XlSheetVisibility.xlSheetVisible;
 {{< /highlight >}}
 
 
-### **إظهار ورقة عمل بالرقم Aspose.Cells for .NET**
+### **إظهار ورقة عمل برقم Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Unhide the worksheet.
 

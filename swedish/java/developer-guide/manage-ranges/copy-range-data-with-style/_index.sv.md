@@ -1,26 +1,27 @@
-﻿---
-title: Kopiera intervalldata med stil
+---
+title: Kopiera dataområde med stil
 type: docs
 weight: 340
 url: /sv/java/copy-range-data-with-style/
 ---
+
 {{% alert color="primary" %}} 
 
-[Kopiera endast intervalldata](/cells/sv/java/copy-range-data-only/) förklarade hur man kopierar data från ett cellområde till ett annat område. Aspose.Cells kan också kopiera ett intervall komplett med formatering. Den här artikeln förklarar hur.
+[Kopiera endast räckviddsdata](/cells/sv/java/kopiera-rangedata-endast/) förklarade hur du kopierar data från en radie av celler till en annan radie. Aspose.Cells kan också kopiera en radie komplett med formatering. Denna artikel förklarar hur.
 
 {{% /alert %}} 
-## **Kopiera intervalldata med stil**
-Aspose.Cells tillhandahåller en rad klasser och metoder för att arbeta med intervall, till exempel,[createRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\)), [StilFlagga](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag), [appliceraStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#applyStyle\(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag\)), etc.
+## **Kopiera områdesdata med stil**
+Aspose.Cells tillhandahåller ett utbud av klasser och metoder för att arbeta med intervall, till exempel [createRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\)), [StyleFlag](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag), [applyStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#applyStyle\(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag\)), osv.
 
 Detta exempel:
 
 1. Skapar en arbetsbok.
-1. Fyller ett antal celler i det första kalkylbladet med data.
-1. Skapar ett intervall.
-1. Skapar ett stilobjekt med specificerade formateringsattribut.
-1. Tillämpar stilen på dataintervallet.
-1. Skapar ett andra cellområde.
-1. Kopierar data med formateringen från det första intervallet till det andra intervallet.
+1. Fyller ett antal celler i den första arbetsboken med data.
+1. Skapar en radie.
+1. Skapa ett stilobjekt med angivna formateringsattribut.
+1. Tillämpa stilen på dataområdet.
+1. Skapar en andra cellintervall.
+1. Kopierar data med formatering från det första området till det andra området.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyRangeDataWithStyle-CopyRangeDataWithStyle.java" >}}
 

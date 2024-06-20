@@ -1,13 +1,14 @@
-﻿---
-title: Разделить Cells на рабочем листе
+---
+title: Разделить ячейки на листе
 type: docs
 weight: 90
 url: /ru/net/split-cells-in-worksheet/
 ---
-## **Aspose.Cells - Разделить Cells на рабочем листе**
+
+## **Aspose.Cells - Разделить ячейки на листе**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
 
 
@@ -29,10 +30,10 @@ workbook.Save("output-Split.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Разделить Cells в рабочем листе**
+## **NPOI - HSSF XSSF - Разделить ячейки на листе**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
 
 
@@ -59,6 +60,6 @@ file.Close();
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Работа с рабочими листами](/cells/ru/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Для получения дополнительной информации посетите [Работа с листами](/cells/ru/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

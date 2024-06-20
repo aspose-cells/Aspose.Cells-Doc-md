@@ -1,29 +1,30 @@
-﻿---
-title: Mostrar viñetas configurando Cell Valor usando HTML
+---
+title: Mostrar Viñetas al Establecer el Valor de la Celda usando HTML
 type: docs
 weight: 120
 url: /es/java/display-bullets-by-setting-cell-value-using/
-description: Aprenda a agregar viñetas a Excel Cells usando HTML y Aspose.Cells for Java API.
-keywords: add bullets in excel, add bullets in excel java, display bullets in excel, display bullets in excel java, add bullets in excel with html, add bullets in excel with html java, display bullets in excel with html, display bullets in excel with html java, display bullets in excel using html, add bullets in excel using html
+description: Aprende cómo agregar viñetas a las Celdas de Excel usando HTML y la API Aspose.Cells for Java.
+keywords: agregar viñetas en excel, agregar viñetas en excel java, mostrar viñetas en excel, mostrar viñetas en excel java, agregar viñetas en excel con html, agregar viñetas en excel con html java, mostrar viñetas en excel con html, mostrar viñetas en excel con html java, mostrar viñetas en excel usando html, agregar viñetas en excel usando html
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells ahora admite mostrar viñetas con el código HTML. Este artículo explicará cómo mostrar viñetas configurando el valor de la celda usando HTML. Usaremos[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) propiedad para establecer el valor de la celda con nuestro HTML.
+Aspose.Cells ahora soporta mostrar viñetas con código HTML. Este artículo explicará cómo mostrar viñetas al establecer el valor de la celda usando HTML. Usaremos la propiedad [**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) para establecer el valor de la celda con nuestro HTML.
 
 {{% /alert %}}
 
-## **Mostrar viñetas configurando Cell Valor usando HTML**
+## **Mostrar Viñetas al Establecer el Valor de la Celda usando HTML**
 
-El siguiente código usa el código HTML para establecer el valor de la celda. Una vez que ejecute este código, obtendrá el resultado como se muestra en la imagen a continuación.
+El siguiente código utiliza código HTML para establecer el valor de la celda. Una vez que ejecutes este código, obtendrás la salida como se muestra en la imagen a continuación.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DisplayBullets-DisplayBullets.java" >}}
 
-## **Producción**
+## **Salida**
 
-La siguiente captura de pantalla muestra el resultado del código de ejemplo anterior.
+La siguiente captura de pantalla muestra la salida del código de muestra anterior.
 
-![todo:imagen_alternativa_texto](display-bullets-by-setting-cell-value-using-html_1.png)
+![todo:image_alt_text](display-bullets-by-setting-cell-value-using-html_1.png)
 
 ## Artículos relacionados
 
-- [Agregar HTML texto enriquecido dentro del Cell](/cells/es/java/adding-html-rich-text-inside-the-cell/)
+- [Añadir Texto Enriquecido HTML dentro de la Celda](/cells/es/java/adding-html-rich-text-inside-the-cell/)

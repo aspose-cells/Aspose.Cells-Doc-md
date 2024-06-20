@@ -1,47 +1,48 @@
 ---
-title: Schriftart für Überschriften und Hauptthema
-description: Aspose.Cells ist eine .NET-Bibliothek für die Arbeit mit Tabellenkalkulationsdateien. Es unterstützt das Festlegen von Schriftarten für Überschriften und Textthemen in Excel-Dokumenten, sodass Benutzer das Erscheinungsbild und den Stil des Dokuments anpassen können. In diesem Artikel wird erläutert, wie Sie die Bibliothek Aspose.Cells verwenden, um mit Schriftarten für Überschriften und Textthemen in Excel-Dokumenten zu arbeiten.
-keywords: Aspose.Cells, Excel Document, Heading, Body, Theme Font, Appearance, Style
+title: Überschriften und Textkörper Thema Schriftart
+description: Aspose.Cells ist eine .NET Bibliothek zum Arbeiten mit Tabellenkalkulationsdateien. Sie unterstützt das Festlegen von Überschriften und Körperschriftarten Themen in Excel Dokumenten, was es Benutzern ermöglicht, das Aussehen und den Stil des Dokuments anzupassen. Dieser Artikel wird vorstellen, wie man mit der Aspose.Cells Bibliothek Überschriften und Körperschriftarten Themen in Excel Dokumenten verwenden kann.
+keywords: Aspose.Cells, Excel Dokument, Überschrift, Körper, Themen Schriftart, Aussehen, Stil
 type: docs
 weight: 120
 url: /de/net/headings-and-body-theme-font/
 ---
+
 {{% alert color="primary" %}}
 
- Die Standardschriftart ändert sich automatisch, wenn die Regoin-Einstellung geändert wird.
+Die Standard-Schriftart ändert sich automatisch, wenn die Regionseinstellung geändert wird. 
 
-Wenn die Standardschriftart geändert wird, ändern sich auch die Zeilenhöhe und die Spaltenbreite, und es kann sogar zu Störungen im Seitenlayout kommen.
+Wenn die Standard-Schriftart geändert wird, ändert sich auch die Zeilenhöhe und Spaltenbreite, und es kann sogar die Seitenlayout durcheinander bringen.
 
-Was hat dazu geführt, dass sich die Standardschriftart geändert hat?
+Was hat die Änderung der Standard-Schriftart verursacht?
 
-Wenn eine Excel-Designschriftart festgelegt ist, wechselt Excel basierend auf der aktuellen Sprachumgebung automatisch zwischen verschiedenen Schriftarten.
+Wenn die Excel-Themenschriftart festgelegt ist, wechselt Excel automatisch zwischen verschiedenen Schriftarten basierend auf der aktuellen Sprachumgebung.
 
 
 {{% /alert %}}
 
-##  **Schriftarten für Überschriften und Hauptthemen in Excel**
+## **Überschriften- und Textkörper-Themenschriftart in Excel**
 
-Wählen Sie in Excel die Registerkarte „Startseite“ aus, klicken Sie auf das Dropdown-Feld „Schriftart“. Oben sehen Sie „Themenschriftarten“ mit zwei Themenschriftarten: Calibri Light (Überschriften) und Calibri (Textkörper) mit englischer Regionseinstellung.
+In Excel wählen Sie die Registerkarte Start, klicken Sie auf das Schriftarten-Dropdown-Feld, Sie sehen "Themenschriften" mit zwei Themen-Schriftarten: Calibri Light (Überschriften) und Calibri (Textkörper) oben mit Englischer Regionseinstellung.
 
-**![Themenschriftarten](Theme-Fonts.png)**
+**![Themenschriften](Theme-Fonts.png)**
 
-Wenn „Themenschriftart“ ausgewählt ist, wird der Schriftartname in verschiedenen Regionen unterschiedlich angezeigt.
-Wenn Sie nicht möchten, dass die Schriftart in verschiedenen Regionen automatisch geändert wird, wählen Sie nicht die beiden Design-Schriftarten aus.
+Wenn die Themen-Schriftart ausgewählt wird, wird der Schriftname je nach Region unterschiedlich angezeigt.
+Wenn Sie nicht möchten, dass die Schriftart in verschiedenen Regionen automatisch geändert wird, wählen Sie nicht die beiden Themen-Schriftarten.
 
 
-##  **Überschriften und Textkörperschrift programmgesteuert ändern**
- Mit Aspose.Cells für .Net können wir überprüfen, ob die Standardschriftart eine Themenschriftart ist, oder die Themenschriftart mit festlegen[**Font.SchemeType**](https://reference.aspose.com/cells/net/aspose.cells/font/schemetype/) Eigentum.
+## **Überschriften- und Textkörper-Schriftart programmgesteuert ändern**
+Mit Aspose.Cells für .Net können wir überprüfen, ob die Standard-Schriftart eine Themen-Schriftart ist oder eine Themen-Schriftart mit [**Font.SchemeType**](https://reference.aspose.com/cells/net/aspose.cells/font/schemetype/)-Eigenschaft setzen.
 
-Der folgende Beispielcode zeigt, wie man die Designschriftart manipuliert.
+Der folgende Beispielcode zeigt, wie man Schriftarten im Design manipuliert.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Headings-and-body-font.cs" >}}
 
 
-##  **Ruft die Schriftart des lokalen Designs dynamisch programmgesteuert ab**
-Manchmal befinden sich unsere Server und Benutzercomputer nicht in derselben Region. Wie können wir die gleiche Schriftart erhalten, die Benutzer für die Dateiverarbeitung wünschen?
+## **Dynamisch erhält lokale Design-Schriftart programmgesteuert**
+Manchmal befinden sich unsere Server und die Rechner der Benutzer nicht in der gleichen Region. Wie können wir dieselbe Schriftart, die Benutzer für die Dateiverarbeitung möchten, erhalten?
 
- Wir müssen die regionalen Systemeinstellungen festlegen, bevor wir die Datei laden[**LoadOptions.Region**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/region/) Eigentum
+Wir müssen die regionalen Einstellungen des Systems setzen, bevor die Datei mit der Eigenschaft [**LoadOptions.Region**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/region/) geladen wird
 
-Der folgende Beispielcode zeigt, wie Sie eine lokale Designschriftart erhalten.
+Der folgende Beispielcode zeigt, wie man lokale Design-Schriftarten erhält.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Local-Theme-Font.cs" >}}

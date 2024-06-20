@@ -1,58 +1,59 @@
 ---
-title: 改ページの管理
+title: ページブレークの管理
 type: docs
 weight: 30
 url: /ja/net/managing-page-breaks/
-description: この記事では、サンプル コードを提供し、C# API または .NET ライブラリを使用してプログラムで Excel ワークシートの改ページを追加、改ページをクリア、または特定の改ページを削除する方法を説明します。
-keywords: page breaks c#, excel page breaks c#, clear page break c#, delete specific page break c#
+description: この記事では、C# APIまたは.NETライブラリを使用してExcelワークシートにページブレークを追加、ページブレークをクリア、または特定のページブレークを削除する方法についてのサンプルコードと説明が提供されています。
+keywords: C#でページブレーク、Excelページブレーク、ページブレークのクリア、特定のページブレークを削除
 ---
+
 {{% alert color="primary" %}}
 
-定義によれば、改ページはテキストの流れの中で、あるページが終了して次のページが始まる場所です。 Microsoft Excel では、ワークシートの選択したセルに改ページを追加できます。
+定義によると、ページブレークはテキストフローの中で１つのページが終わり、次のページが始まる場所です。Microsoft Excelでは、ユーザーは任意の選択したワークシートのセルにページブレークを追加できます。
 
-印刷時に改ページが追加されるセルの位置、ページが終了し、改ページ後の残りのデータが次のページに印刷されます。簡単に言うと、改ページは、仕様に従ってワークシートを複数のページに分割します。 Aspose.Cells を使用して、実行時にワークシートに改ページを追加することもできます。 Aspose.Cells を使用すると、開発者は 2 種類の改ページを追加できます。
+ページブレークが追加されるセルの位置によっては、ページが終了し、ページブレークの後のデータの残りが次のページで印刷されます。単純に言えば、ページブレークは、指定に応じてワークシートを複数のページに分割します。Aspose.Cellsを使用して、実行時にワークシートにページブレークを追加することもできます。Aspose.Cellsでは、以下の2種類のページブレークを追加できます。
 
-- 水平改ページ
-- 垂直改ページ
+- 水平ページブレーク
+- 垂直ページブレーク
 
-残りの説明では、Aspose.Cells を使用してワークシートに水平または垂直の改ページを追加する方法について説明します。
+後続の議論では、Aspose.Cellsを使用して、どのようにしてワークシートに水平または垂直のページブレークを追加できるかについて説明します。
 
 {{% /alert %}}
 
-##  **改ページ**
+## **ページブレーク**
 
-Aspose.Cells は、[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Excel ファイルを表すクラス。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Excel ファイル内の各ワークシートへのアクセスを許可するコレクション。
+Aspose.CellsはExcelファイルを表す[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには、Excelファイル内の各ワークシートにアクセスするための[**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)コレクションが含まれています。
 
-ワークシートは次のように表されます。[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスは、ワークシートの管理に使用される幅広いプロパティとメソッドを提供します。
+ワークシートは[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスによって表されます。[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスは、ワークシートを管理するために使用される幅広い範囲のプロパティとメソッドを提供しています。
 
-改ページを追加するには、[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス'[**水平改ページ**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks)と[**垂直改ページ**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)プロパティ。
+ページブレークを追加するには、[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスの[**HorizontalPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks)および[**VerticalPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)プロパティを使用します。
 
-の[**水平改ページ**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks)と[**垂直改ページ**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)プロパティは、複数の改ページを含む可能性のあるコレクションです。各コレクションには、水平および垂直の改ページを管理するためのいくつかのメソッドが含まれています。
+[**HorizontalPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks)および[**VerticalPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)プロパティは、いくつかのページブレークを含む可能性があるコレクションであり、各コレクションには水平および垂直ページブレークを管理するためのいくつかのメソッドが含まれています。
 
-###  **改ページの追加**
+### **ページブレークの追加**
 
-ワークシートに改ページを追加するには、次のコマンドを呼び出して、指定したセルに垂直および水平の改ページを挿入します。[**horizontalPageBreakCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/add/index)と[**verticalPageBreakCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/add/index)メソッド。各**追加**このメソッドは、ブレークを追加するセルの名前を受け取ります。
+ワークシートにページブレークを追加するには、各**Add**メソッドに追加するページブレークが配置されるセルの名前を指定して呼び出します。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-AddingPageBreaks-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-改ページ プレビュー モードまたは印刷プレビュー モードでは、これらの改ページがどのように機能するかを確認できます。
+ページビューモードまたは印刷プレビューモードで、これらの改ページがどのように動作するかを確認できます。
 
 {{% /alert %}}
 
-###  **すべての改ページをクリアする**
+### **すべてのページの改ページをクリアする**
 
-ワークシート内のすべての改ページをクリアするには、[**水平PageBreakコレクション**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection)と[**垂直ページブレークコレクション**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection)コレクション」[**Clear()**](https://docs.microsoft.com/en-us/dotnet/api/system.collections.collectionbase.clear?redirectedfrom=MSDN&view=netframework-4.7.2#System_Collections_CollectionBase_Clear)メソッド。
+ワークシートのすべてのページブレークをクリアするには、各[**HorizontalPageBreakCollection**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection)および[**VerticalPageBreakCollection**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection)コレクションの[**Clear()**](https://docs.microsoft.com/en-us/dotnet/api/system.collections.collectionbase.clear?redirectedfrom=MSDN&view=netframework-4.7.2#System_Collections_CollectionBase_Clear)メソッドを呼び出します。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-ClearAllPageBreaks-1.cs" >}}
 
-###  **特定の改ページの削除**
+### **特定の改ページを削除する**
 
-特定の改ページを削除するには、[**horizontalPageBreakCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/removeat)と[**verticalPageBreakCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/removeat)メソッド。各**削除場所**このメソッドは、削除される改ページのインデックスを取得します。
+特定のページブレークを削除するには、各**RemoveAt**メソッドに削除されるページブレークのインデックスを指定して呼び出します。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-RemoveSpecificPageBreak-1.cs" >}}
 
-##  **知っておくべき重要なこと**
+## **重要なこと**
 
-設定すると**ページに合わせる**プロパティ（つまり、[**ページに合わせる背の高い**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall)と[**ページ幅に合わせる**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)ページ設定設定では、改ページ設定が影響を受けるため、ワークシートを印刷する場合、改ページ設定は設定されていますが、考慮されません。
+ページ設定の設定で**FitToPages**プロパティ（すなわち[**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall)および[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)）を設定すると、ページブレークの設定が影響を受けます。そのため、ワークシートを印刷する場合、ページブレークの設定は考慮されませんが、それらはまだ設定されています。

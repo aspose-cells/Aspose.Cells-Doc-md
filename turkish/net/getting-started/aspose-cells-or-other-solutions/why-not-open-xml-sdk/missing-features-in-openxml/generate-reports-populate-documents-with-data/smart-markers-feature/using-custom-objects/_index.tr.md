@@ -1,12 +1,13 @@
-﻿---
-title: Aspose.Cells'de Anonim Türler veya Özel Nesneler Kullanma
+---
+title: Aspose.Cells te Anonim Tipler veya Özel Nesneler Kullanımı
 type: docs
 weight: 30
 url: /tr/net/using-anonymous-types-or-custom-objects-in-aspose-cells/
 ---
-Aspose.Cells, akıllı işaretleyicilerdeki anonim türleri veya özel nesneleri de destekler. Aşağıdaki örnekte Ürün sınıfı kullanımdan önce tanımlanmalıdır.
 
-{{< highlight "csharp" >}}
+Aspose.Cells ayrıca akıllı işaretçilerde anonim tipleri veya özel nesneleri destekler. Aşağıdaki örnekte, Ürün sınıfı kullanılmadan önce tanımlanması gerekmektedir.
+
+{{< highlight csharp >}}
 
  //Instantiate the workbookdesigner object.
 
@@ -47,5 +48,5 @@ report.Process(false);
 report.Workbook.Save("Smart Marker Customobjects.xls");
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Custom%20Objects%20%28Aspose.Cells%29.zip)

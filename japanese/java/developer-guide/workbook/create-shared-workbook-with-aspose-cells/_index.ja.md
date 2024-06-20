@@ -1,20 +1,21 @@
-﻿---
-title: Aspose.Cells で共有ワークブックを作成
+---
+title: Aspose.Cellsで共有ブックを作成する
 type: docs
 weight: 40
 url: /ja/java/create-shared-workbook-with-aspose-cells/
 ---
-## **考えられる使用シナリオ**
 
-Microsoft Excel では、次のスクリーンショットに示すようにブックを共有できます。ワークブックを共有すると、複数のユーザーがネットワーク上でワークブックを編集できます。 Aspose.Cells を使用すると、共有ワークブックを作成できます[**Workbook.Settings.Shared**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Shared)財産。
+## **可能な使用シナリオ**
 
-![todo:画像_代替_文章](create-shared-workbook-with-aspose-cells_1.png)
+Microsoft Excelでは、以下のスクリーンショットに示すようにブックを共有することができます。ブックを共有すると、複数のユーザーがネットワーク上でブックを編集できます。Aspose.Cellsを使用すると、[**Workbook.Settings.Shared**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Shared)プロパティを使用して共有ブックを作成できます。
 
-## **Aspose.Cells で共有ワークブックを作成**
+![todo:image_alt_text](create-shared-workbook-with-aspose-cells_1.png)
 
-次のサンプル コードは、設定によって共有ブックを作成します。[**Workbook.Settings.Shared**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Shared)プロパティとして**真実**.いつ開くか[出力エクセルファイル](55541801.xlsx)Microsoft Excel では、*共有*このスクリーンショットに示すように、出力ワークブック名を付けます。
+## **Aspose.Cellsで共有ブックを作成する**
 
-![todo:画像_代替_文章](create-shared-workbook-with-aspose-cells_2.png)
+以下のサンプルコードは、**true**として[**Workbook.Settings.Shared**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Shared)プロパティを設定することで、共有ブックを作成します。Microsoft Excelで[出力Excelファイル](55541801.xlsx)を開くと、出力ブック名に*Shared*が表示されます。
+
+![todo:image_alt_text](create-shared-workbook-with-aspose-cells_2.png)
 
 ## **サンプルコード**
 

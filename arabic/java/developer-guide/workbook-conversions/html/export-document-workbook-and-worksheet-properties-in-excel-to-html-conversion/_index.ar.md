@@ -1,19 +1,20 @@
-﻿---
-title: تصدير مصنف الوثيقة وخصائص ورقة العمل في Excel لتحويل HTML
+---
+title: تصدير خصائص ورقة عمل ومصنف الوثيقة في تحويل Excel إلى HTML
 type: docs
 weight: 50
 url: /ar/java/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-عندما يتم تصدير ملف Excel Microsoft إلى HTML باستخدام Microsoft Excel أو Aspose.Cells ، فإنه يقوم أيضًا بتصدير أنواع مختلفة من خصائص المستند ودفتر العمل وورقة العمل كما هو موضح في لقطة الشاشة التالية. يمكنك تجنب تصدير هذه الخصائص عن طريق تعيين ملف[**HtmlSaveOptions.ExportDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportDocumentProperties), [**HtmlSaveOptions.ExportWorkbookProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportWorkbookProperties)و[**HtmlSaveOptions.ExportWorksheetProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportWorksheetProperties)مثل**خاطئة**. القيمة الافتراضية لهذه الخصائص هي**حقيقي**. توضح لقطة الشاشة التالية كيف تبدو هذه الخصائص في HTML المُصدَّر.
+## **سيناريوهات الاستخدام المحتملة**
 
-![ما يجب القيام به: image_بديل_نص](export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion_1.png)
+عندما يتم تصدير ملف Microsoft Excel إلى HTML باستخدام Microsoft Excel أو Aspose.Cells، تتم أيضًا تصدير أنواع مختلفة من خصائص المستند وجدول البيانات والجدول كما هو موضح في لقطة الشاشة التالية. يمكنك تجنب تصدير هذه الخصائص عن طريق ضبط الـ [**HtmlSaveOptions.ExportDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportDocumentProperties) والـ [**HtmlSaveOptions.ExportWorkbookProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportWorkbookProperties) والـ [**HtmlSaveOptions.ExportWorksheetProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportWorksheetProperties) على **false**. القيمة الافتراضية لهذه الخصائص هي **true**. تظهر اللقطة الشاشة التالية كيف تبدو هذه الخصائص في الملف HTML المصدر.
 
-## **تصدير خصائص المستند والمصنف وورقة العمل في Excel إلى تحويل HTML**
+![todo:image_alt_text](export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion_1.png)
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](61767784.xlsx)وتحويله إلى HTML ولا يقوم بتصدير خصائص المستند ، والمصنف ، وورقة العمل بتنسيق[الإخراج HTML](61767783.zip).
+## **تصدير خصائص الوثيقة والمصنف وورق العمل في تحويل Excel إلى HTML**
 
-## **عينة من الرموز**
+الكود عينة التالي يحمل [ملف إكسل عينة](61767784.xlsx) ويحوله إلى HTML ولا يصدر خصائص المستند وجدول البيانات في [ملف HTML المصدر](61767783.zip).
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-ExportDocumentWorkbookAndWorksheetPropertiesInHTML.java" >}}

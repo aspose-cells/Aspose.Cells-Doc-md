@@ -1,13 +1,14 @@
-﻿---
-title: Ta bort Slicer
+---
+title: Ta bort slicer
 type: docs
 weight: 40
 url: /sv/python-java/removing-slicer/
 ---
-## **Ta bort Slicer**
- För att ta bort skivaren i Microsoft Excel, väljer du helt enkelt skivaren och trycker på*Radera* knapp. För att spara med Aspose.Cells for Python via Java, använd metoden Worksheet.getSlicers().remove(). Det kommer att ta bort skivaren från kalkylbladet.
 
-Följande kodavsnitt laddar[exempel på Excel-fil](106364970.xlsx)som innehåller en befintlig skivare. Den kommer åt skivaren, tar bort den och sparar[utdata Excel-fil](106364971.xlsx). Följande skärmdump visar skivan som kommer att tas bort.
+## **Ta bort slicer**
+För att ta bort slicer i Microsoft Excel, väljer du helt enkelt slicern och trycker på *Radera*-knappen. För att uppnå samma sak med Aspose.Cells för Python via Java, använd metoden Worksheet.getSlicers().remove(). Detta tar bort slicern från arksamligen. 
+
+Följande kodsnutt laddar in [prov Excel-filen](106364970.xlsx) som innehåller en befintlig slicer. Den får åtkomst till slicern, tar bort den och sparar [utdata Excel-filen](106364971.xlsx). Skärmbilden visar slicern som kommer att tas bort.
 
 ![todo:image_alt_text](Removing-Slicer-using-Aspose.Cells.png)
 ## **Exempelkod**

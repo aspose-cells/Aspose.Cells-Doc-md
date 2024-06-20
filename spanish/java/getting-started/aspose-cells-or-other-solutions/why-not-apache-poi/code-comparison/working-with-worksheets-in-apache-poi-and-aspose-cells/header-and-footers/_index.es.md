@@ -1,17 +1,18 @@
-﻿---
-title: Encabezado y pies de página
+---
+title: Encabezados y Pies de Página
 type: docs
 weight: 60
 url: /es/java/header-and-footers/
 ---
-## **Aspose.Cells - Encabezado y pie de página**
-La clase PageSetup proporciona el método setHeader para agregar un encabezado y setFooter para agregar un pie de página a una hoja de trabajo. El script se utiliza como argumento para todos los métodos mencionados anteriormente. Representa el script que se utilizará para el encabezado o pie de página.
 
-**Encabezamiento**
+## **Aspose.Cells - Encabezados y Pies de Página**
+La clase PageSetup proporciona el método setHeader para añadir un encabezado y setFooter para añadir un pie de página a una hoja de cálculo. El script se utiliza como argumento para todos los métodos mencionados anteriormente. Representa el script que se utilizará para el encabezado o pie de página.
+
+**Encabezado**
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtaining the reference of the PageSetup of the worksheet
 
@@ -33,11 +34,11 @@ pageSetup.setHeader(2, "&\"Times New Roman,Bold\"&12&F");
 
 {{< /highlight >}}
 
-**Pie de página**
+**Pie de Página**
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Setting a string at the left footer and changing the font of the footer
 
@@ -49,7 +50,7 @@ pageSetup.setFooter(1, "&G");
 
 FileInputStream fis = new FileInputStream("data/footer.png");
 
-byte[]picData = new byte[fis.available()];
+byte[] picData = new byte[fis.available()];
 
 fis.read(picData);
 
@@ -62,12 +63,12 @@ fis.close();
 pageSetup.setFooter(2, "&Pof&N");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Encabezado y pie de página**
-La clase de encabezado está disponible para ajustar el encabezado en las hojas de cálculo.
+## **Apache POI SS - HSSF XSSF - Encabezados y pies de página**
+La clase Header está disponible para ajustar el encabezado en hojas de cálculo.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Header header = sheet.getHeader();
 
@@ -80,13 +81,13 @@ header.setRight(HSSFHeader.font("Stencil-Normal", "Italic") +
                 HSSFHeader.fontSize((short) 16) + "Right w/ Stencil-Normal Italic font and size 16");
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/headerandfooter)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Configuración de encabezados y pies de página](/java/setting-headers-and-footers).
+Para más detalles, visita [Configurar Encabezados y Pies de Página](/java/setting-headers-and-footers).
 
 {{% /alert %}}

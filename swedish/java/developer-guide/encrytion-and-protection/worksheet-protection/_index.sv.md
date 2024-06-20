@@ -1,207 +1,208 @@
-﻿---
-title: Skydda och ta bort skydd arbetsblad
+---
+title: Skydda och avskydda kalkylblad
 type: docs
 weight: 50
 url: /sv/java/protect-and-unprotect-worksheet/
 ---
-## **Skydda arbetsblad**
 
-När ett kalkylblad är skyddat är de åtgärder en användare kan vidta begränsade. De kan till exempel inte mata in data, infoga eller ta bort rader eller kolumner etc. De allmänna skyddsalternativen i Microsoft Excel är:
+## **Skydda kalkylblad**
+
+När ett kalkylblad är skyddat är användarens åtgärder begränsade. Till exempel kan de inte mata in data, infoga eller ta bort rader eller kolumner osv. De generella skyddsalternativen i Microsoft Excel är:
 
 - Innehåll
-- Föremål
+- Objekt
 - Scenarier
 
-Skyddade kalkylblad döljer eller skyddar inte känslig data, så det skiljer sig från filkryptering. I allmänhet är kalkylbladsskydd lämpligt för presentationsändamål. Det hindrar slutanvändaren från att ändra data, innehåll och formatering i kalkylbladet.
+Skyddade kalkylblad döljer inte eller skyddar känsliga data, så det skiljer sig från filkryptering. I allmänhet är kalkylbladsskydd lämpligt för presentationsändamål. Det förhindrar att slutanvändaren ändrar data, innehåll och formatering i kalkylbladet.
 
 ### **Lägga till eller ta bort skydd**
 
- Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , som representerar en Microsoft Excel-fil. Klassen Workbook innehåller en WorksheetCollection som gör det möjligt att komma åt varje kalkylblad i en Excel-fil. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass.
+Aspose.Cells tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), som representerar en Microsoft Excel-fil. Workbook-klassen innehåller en WorksheetCollection som möjliggör åtkomst till varje kalkylblad i en Excel-fil. Ett kalkylblad representeras av klassen [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
- Worksheet-klassen tillhandahåller[**Skydda**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect(int)) metod som används för att tillämpa skydd på ett kalkylblad. Protect-metoden accepterar följande parametrar:
+Arbetsboken-klassen tillhandahåller metoden [**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect(int)) som används för att tillämpa skydd på ett kalkylblad. Metoden Protect accepterar följande parametrar:
 
--  Skyddstyp, den typ av skydd som ska tillämpas på kalkylbladet. Skyddstyp appliceras med hjälp av[**ProtectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ProtectionType) uppräkning.
-- Nytt lösenord, det nya lösenordet som används för att skydda kalkylbladet.
-- Old Password, det gamla lösenordet, om kalkylbladet redan är lösenordsskyddat. Om kalkylbladet inte redan är skyddat, skicka bara en noll.
+- Skyddstyp, typen av skydd som ska tillämpas på kalkylbladet. Skyddstypen tillämpas med hjälp av [**ProtectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ProtectionType)-uppräkningen.
+- Nya lösenordet, det nya lösenordet som används för att skydda kalkylbladet.
+- Gammalt lösenord, det gamla lösenordet, om kalkylbladet redan är lösenordsskyddat. Om kalkylbladet inte redan är skyddat med lösenord, skicka bara en null.
 
-ProtectionType-uppräkningen innehåller följande fördefinierade skyddstyper:
+SkyddsType-uppräkningen innehåller följande fördefinierade skyddstyper:
 
-|**Skyddstyper**|**Beskrivning**|
-|:- |:- |
-|[**ALLT**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#ALL)|Användaren kan inte ändra något i detta kalkylblad|
-|[**INNEHÅLL**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#CONTENTS)|Användaren kan inte ange data i detta kalkylblad|
-|[**FÖREMÅL**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#OBJECTS)|Användaren kan inte ändra ritobjekt|
-|[**SCENARIER**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#SCENARIOS)|Användaren kan inte ändra sparade scenarier|
-|[**STRUKTURERA**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#STRUCTURE)|Användaren kan inte ändra sparad struktur|
-|[**FÖNSTER**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#WINDOWS)|Användaren kan inte ändra sparade fönster|
-|[**INGEN**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#NONE)|Inget skydd|
+|**Skydds typer**|**Beskrivning**|
+| :- | :- |
+|[**ALL**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#ALL)|Användaren kan inte ändra någonting på den här arbetsbladet|
+|[**CONTENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#CONTENTS)|Användaren kan inte mata in data på detta arbetsblad|
+|[**OBJECTS**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#OBJECTS)|Användaren kan inte ändra ritobjekt|
+|[**SCENARIOS**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#SCENARIOS)|Användaren kan inte ändra sparade scenarier|
+|[**STRUCTURE**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#STRUCTURE)|Användaren kan inte ändra sparad struktur|
+|[**WINDOWS**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#WINDOWS)|Användaren kan inte ändra sparade fönster|
+|[**NONE**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#NONE)|Inget skydd|
 
-Exemplet nedan visar hur man skyddar ett kalkylblad med ett lösenord.
+Nedan följer ett exempel på hur man skyddar ett arbetsblad med lösenord.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ProtectingWorksheet-ProtectingWorksheet.java" >}}
 
-Efter att ovanstående kod har använts för att skydda kalkylbladet, kontrollera skyddet på kalkylbladet genom att öppna det. När du öppnar filen och försöker lägga till några data till kalkylbladet, visas följande dialogruta:
+Efter ovanstående kod används för att skydda arbetsbladet, kontrollera skyddet på arbetsbladet genom att öppna den. När du öppnar filen och försöker lägga till lite data på arbetsbladet, visas följande dialogruta:
 
-**En dialogruta som varnar om att en användare inte kan ändra kalkylbladet** 
+**En dialogruta som varnar för att användaren inte kan ändra arbetsbladet** 
 
 ![todo:image_alt_text](protect-and-unprotect-worksheet_1.png)
 
-För att arbeta med kalkylbladet, avskydda kalkylbladet genom att välja**Skydd** , då**Avskydda arket** från**Verktyg** menyalternativ som visas nedan.
+För att arbeta med arbetsbladet, avskydda arbetsbladet genom att välja **Skydd**, sedan **Avskydda blad** från **Verktyg** menyobjekt som visas nedan.
 
-**Välja Unprotect Sheet menyalternativ** 
+**Val av Unprotect Sheet-menyalternativ** 
 
 ![todo:image_alt_text](protect-and-unprotect-worksheet_2.png)
 
-En dialogruta öppnas som frågar efter ett lösenord.
+En dialogruta öppnas som ber om ett lösenord.
 
-**Ange lösenord för att avskydda kalkylbladet** 
+**Ange lösenord för att avskydda arbetsbladet** 
 
 ![todo:image_alt_text](protect-and-unprotect-worksheet_3.png)
 
-### **Skydda några Cells**
+### **Skydda några celler**
 
- Det kan finnas vissa scenarier där du bara behöver låsa några få celler i kalkylbladet. Om du vill låsa vissa specifika celler i kalkylbladet måste du låsa upp alla andra celler i kalkylbladet. Alla celler i ett kalkylblad är redan initierade för låsning, du kan kontrollera detta genom att öppna valfri Excel-fil i MS Excel och klicka på**Format | Cells...** att visa**Format Cells** dialogrutan och klicka sedan på fliken Skydd och se en kryssruta märkt "Låst" är markerad som standard.
+Det kan finnas vissa scenarier där du behöver låsa några celler endast i arbetsbladet. Om du vill låsa vissa specifika celler i arbetsbladet måste du låsa upp alla andra celler i arbetsbladet. Alla celler i ett arbetsblad är redan initialiserade för låsning, du kan kontrollera detta genom att öppna vilken Excel-fil som helst i MS Excel och klicka på **Format | Cells...** för att visa dialogrutan **Formatera celler** och sedan klicka på fliken Skydd och se en kryssruta med etiketten "Låst" är markerad som standard.
 
-Följande är de två metoderna för att genomföra uppgiften.
+Följande är de två tillvägagångssätten för att genomföra uppgiften.
 
-**Metod 1:**
+**Metod1:**
 
-Följande punkter beskriver hur du låser några celler med MS Excel. Denna metod gäller för Microsoft Office Excel 97, 2000, 2002, 2003 och senare versioner.
+Följande punkter beskriver hur man låser några celler med hjälp av MS Excel. Denna metod gäller för Microsoft Office Excel 97, 2000, 2002, 2003 och senare versioner.
 
-1. Markera hela kalkylbladet genom att klicka på knappen Välj alla (den grå rektangeln direkt ovanför radnumret för rad 1 och till vänster om kolumn bokstaven A).
-1. Klicka på Cells på Format-menyn, klicka på fliken Skydd och avmarkera sedan kryssrutan Låst.
+1. Markera hela arbetsbladet genom att klicka på Välj allt-knappen (den grå rektangeln direkt ovanför radnumret för rad 1 och till vänster om kolumnbrev A).
+1. Klicka på Cellerna på menyn Format, klicka på fliken Skydd och avmarkera sedan rutan för Låst.
 
- Detta låser upp alla celler i kalkylbladet
-
-{{% alert color="primary" %}}
-
-Om kommandot celler inte är tillgängligt kan delar av kalkylbladet redan vara låst. Peka på Skydd på Verktyg-menyn och klicka sedan på Ta bort skydd för ark .
-
-{{% /alert %}}
-
-1. Markera bara de celler du vill låsa och upprepa steg 2, men den här gången markerar du kryssrutan Låst.
-1.  På**Verktyg** menyn, välj**Skydd** , klick**Skydda ark** , och klicka sedan**OK**.
+   Det låser upp alla cellerna på arbetsbladet
 
 {{% alert color="primary" %}}
 
-I dialogrutan Skydda ark har du möjlighet att ange ett lösenord och välja de element som du vill att användarna ska kunna ändra.
+Om cellkommandot inte är tillgängligt, kan delar av arbetsbladet redan vara låsta. På menyn Verktyg, peka på Skydd och klicka sedan på Avskydda blad.
 
 {{% /alert %}}
 
-**Metod 2:**
+1. Markera bara de celler du vill låsa och upprepa steg 2, men välj den här gången rutan bredvid Låst.
+1. På **Verktyg**-menyn väljer du **Skydd**, klickar på **Skydda blad** och klickar sedan på **OK**.
 
-den här metoden använder vi Aspose.Cells API endast för att utföra uppgiften.
+{{% alert color="primary" %}}
 
-Följande exempel visar hur du skyddar några få celler i kalkylbladet. Den låser upp alla celler i kalkylbladet först och låser sedan 3 celler (A1, B1, C1) i det. Slutligen skyddar det kalkylbladet. En rad/kolumn har en stil API som dessutom innehåller en uppsättning låst metod. Du kan använda den här metoden för att låsa eller låsa upp raden/kolumnen.
+I dialogrutan Skydda blad har du möjlighet att ange ett lösenord och välja de element som du vill att användarna ska kunna ändra.
+
+{{% /alert %}}
+
+**Metod2:**
+
+I denna metod använder vi endast Aspose.Cells API för att utföra uppgiften.
+
+Följande exempel visar hur du låser några celler i arbetsbladet. Det låser upp alla celler i arbetsbladet först och sedan låser 3 celler (A1, B1, C1) i det. Till slut skyddas arbetsbladet. En rad/kolumn har en Style API som ytterligare innehåller en metod satt låst. Du kan använda den här metoden för att låsa upp eller låsa en rad/kolumn.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ProtectingSpecificCellsinaWorksheet-ProtectingSpecificCellsinaWorksheet.java" >}}
 
-### **Skydda en rad i arbetsbladet**
+### **Skydda en rad i kalkylarket**
 
- Aspose.Cells låter dig enkelt låsa valfri rad i kalkylbladet. Här kan vi använda oss av[**appliceraStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag) ) metod av[**Rad**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) klass för att tillämpa stil på en viss rad i kalkylbladet. Denna metod tar två argument: a[**Stil**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objekt och[**StilFlagga**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct som har alla medlemmar relaterade till tillämpad formatering.
+Aspose.Cells låter dig enkelt låsa vilken rad som helst i kalkylarket. Här kan vi använda metoden [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) av klassen [**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) för att tillämpa stil på en särskild rad i kalkylarket. Denna metod tar två argument: ett [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objekt och [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct som har alla medlemmar relaterade till tillämpad formatering.
 
-Följande exempel visar hur man skyddar en rad i kalkylbladet. Den låser upp alla celler i kalkylbladet först och låser sedan den första raden i det. Slutligen skyddar det kalkylbladet. En rad/kolumn har stilen API som dessutom innehåller en setCellLocked-metod. Du kan låsa eller låsa upp raden/kolumnen med StyleFlag-strukturen.
+Följande exempel visar hur man skyddar en rad i kalkylarket. Det låser upp alla celler i kalkylarket först och låser sedan den första raden i det. Slutligen skyddar det kalkylarket. En rad/kolumn har en Style API som ytterligare innehåller en setCellLocked-metod . Du kan låsa eller låsa upp rad/kolumn med hjälp av StyleFlag struct.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ProtectRowWorksheet-ProtectRowWorksheet.java" >}}
 
-### **Skydda en kolumn i arbetsbladet**
+### **Skydda en kolumn i kalkylarket**
 
- Aspose.Cells låter dig enkelt låsa valfri kolumn i kalkylbladet. Här kan vi använda oss av[**appliceraStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag) ) metod av[**Kolumn**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) klass för att tillämpa stil på en viss kolumn i kalkylbladet. Denna metod tar två argument: a[**Stil**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objekt och[**StilFlagga**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct som har alla medlemmar relaterade till tillämpad formatering.
+Aspose.Cells låter dig enkelt låsa vilken kolumn som helst i kalkylarket. Här kan vi använda metoden [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) av klassen [**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) för att tillämpa stil på en särskild kolumn i kalkylarket. Denna metod tar två argument: ett [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objekt och [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct som har alla medlemmar relaterade till tillämpad formatering.
 
-Följande exempel visar hur man skyddar en kolumn i kalkylbladet. Det låser upp alla celler i kalkylbladet först och låser sedan den första kolumnen i det. Slutligen skyddar det kalkylbladet. En rad/kolumn har en stil API som dessutom innehåller en uppsättning låst metod. Du kan låsa eller låsa upp raden/kolumnen med StyleFlag-strukturen.
+Följande exempel visar hur man skyddar en kolumn i kalkylarket. Det låser upp alla celler i kalkylarket först och låser sedan den första kolumnen i det. Slutligen skyddar det kalkylarket. En rad/kolumn har en Style API som ytterligare innehåller en setLocked-metod . Du kan låsa eller låsa upp rad/kolumn med hjälp av StyleFlag struct.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ProtectColumnWorksheet-ProtectColumnWorksheet.java" >}}
 
-## **Ta bort skyddet av ett arbetsblad**
+## **Avskydda ett kalkylblad**
 
-[Skydda arbetsblad](/cells/sv/java/protect-and-unprotect-worksheet/#protect-worksheets) och[Avancerade skyddsinställningar sedan Excel XP](/cells/sv/java/protect-and-unprotect-worksheet/#advanced-protection-settings-since-excel-xp) diskuterade olika metoder för att skydda arbetsblad. Vad händer om en utvecklare behöver ta bort skyddet från ett skyddat kalkylblad vid körning så att vissa ändringar kan göras i filen? Detta kan enkelt göras med Aspose.Cells.
+[Skydda arbetsblad](/cells/sv/java/protect-and-unprotect-worksheet/#protect-worksheets) och [Avancerade skyddsinställningar sedan Excel XP](/cells/sv/java/protect-and-unprotect-worksheet/#advanced-protection-settings-since-excel-xp) diskuterade olika metoder för att skydda arbetsblad. Vad händer om en utvecklare behöver ta bort skydd från ett skyddat arbetsblad under körning så att vissa ändringar kan göras i filen? Detta kan enkelt göras med Aspose.Cells.
 
-### **Använder Microsoft Excel**
+### **Använda Microsoft Excel**
 
-Så här tar du bort skyddet från ett kalkylblad:
+För att ta bort skydd från ett arbetsblad:
 
- Från**Verktyg** menyn, välj**Skydd** följd av**Avskydda arket**.
+Från **Verktyg**-menyn väljer du **Skydd** följt av **Avskydda blad**.
 
-**Välj Unprotect Sheet** 
+**Välja Avskydda blad** 
 
 ![todo:image_alt_text](protect-and-unprotect-worksheet_4.png)
 
-Skyddet tas bort om inte kalkylbladet är lösenordsskyddat. I det här fallet uppmanas en dialogruta att ange lösenordet.
+Skyddet tas bort, om inte arbetsbladet är lösenordsskyddat. I så fall uppmanar en dialogruta efter lösenordet.
 
-**Ange lösenord för att avskydda kalkylbladet** 
+**Ange lösenord för att avskydda arbetsbladet** 
 
 ![todo:image_alt_text](protect-and-unprotect-worksheet_5.png)
 
-### **Använder Aspose.Cells**
+### **Använda Aspose.Cells**
 
- Ett kalkylblad kan oskyddas genom att anropa[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass'[**Avskydda**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect() ) metod. De[**Avskydda**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect()) metod kan användas på två sätt, som beskrivs nedan.
+Ett arbetsblad kan avskyddas genom att anropa [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klassens [**Unprotect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect--) metod. Metoden [**Unprotect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect--) kan användas på två sätt, beskrivna nedan.
 
 ### **Avskydda ett enkelt skyddat arbetsblad**
 
-Ett enkelt skyddat kalkylblad är ett som inte är skyddat med ett lösenord. Sådana kalkylblad kan oskyddas genom att anropa unprotect-metoden utan att skicka en parameter.
+Ett enkelt skyddat arbetsblad är ett som inte är skyddat med ett lösenord. Sådana arbetsblad kan avskyddas genom att anropa avskydda metoden utan att skicka en parameter.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-UnprotectingSimplyProtectedWorksheet-UnprotectingSimplyProtectedWorksheet.java" >}}
 
-### **Avskydda ett lösenordsskyddat kalkylblad**
+### **Avskydda ett lösenordsskyddat arbetsblad**
 
-Ett lösenordsskyddat kalkylblad är ett som är skyddat med ett lösenord. Sådana kalkylblad kan oskyddas genom att anropa en överbelastad version av Unprotect-metoden som tar lösenordet som en parameter.
+Ett lösenordsskyddat arbetsblad är ett som är skyddat med ett lösenord. Sådana arbetsblad kan avskyddas genom att anropa en överbelastad version av avskydda metoden som tar lösenordet som en parameter.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-UnprotectProtectSheet-UnprotectProtectSheet.java" >}}
 
 ## **Avancerade skyddsinställningar sedan Excel XP**
 
-[Skydda arbetsblad](/cells/sv/java/protect-and-unprotect-worksheet/#protect-worksheets) diskuterade att skydda ett kalkylblad i Microsoft Excel 97 och 2000. Men sedan utgivningen av Excel 2002 eller XP har Microsoft lagt till många avancerade skyddsinställningar. Dessa skyddsinställningar begränsar eller tillåter användare att:
+[Skydda arbetsblad](/cells/sv/java/protect-and-unprotect-worksheet/#protect-worksheets) diskuterade skydd av ett arbetsblad i Microsoft Excel 97 och 2000. Men sedan lanseringen av Excel 2002 eller XP har Microsoft lagt till många avancerade skyddsinställningar. Dessa skyddsinställningar begränsar eller tillåter användare att:
 
 - Ta bort rader eller kolumner.
 - Redigera innehåll, objekt eller scenarier.
 - Formatera celler, rader eller kolumner.
 - Infoga rader, kolumner eller hyperlänkar.
 - Välj låsta eller olåsta celler.
-- Använd pivottabeller och mycket mer.
+- Använd pivottabeller och mycket annat.
 
 Aspose.Cells stöder alla avancerade skyddsinställningar som erbjuds av Excel XP och senare versioner.
 
 ### **Avancerade skyddsinställningar med Excel XP och senare versioner**
 
-Så här visar du skyddsinställningarna i Excel XP:
+För att visa de tillgängliga skyddsinställningarna i Excel XP:
 
-1.  Från**Verktyg** menyn, välj**Skydd** följd av**Skydda ark**.
- En dialogruta visas.
+1. Från **Verktyg**-menyn väljer du **Skydd** följt av **Skydda blad**.
+   En dialogruta visas.
 
    **Dialog för att visa skyddsalternativ i Excel XP**
 
 ![todo:image_alt_text](protect-and-unprotect-worksheet_6.png)
 
-1. Tillåt eller begränsa kalkylbladsfunktioner eller använd ett lösenord.
+1. Tillåt eller begränsa arbetsbladsfunktioner eller tillämpa ett lösenord.
 
-### **Avancerade skyddsinställningar med Aspose.Cells**
+### **Avancerade skyddsinställningar med hjälp av Aspose.Cells**
 
-Aspose.Cells stöder alla avancerade skyddsinställningar.
+Aspose.Cells stödjer alla avancerade skyddsinställningar.
 
- Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , som representerar en Microsoft Excel-fil. Klassen Workbook innehåller en WorksheetCollection-samling som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass.
+Aspose.Cells tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), som representerar en Microsoft Excel-fil. Workbook-klassen innehåller en WorksheetCollection-samling som tillåter åtkomst till varje arbetsblad i Excel-filen. Ett arbetsblad representeras av klassen [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
- Klassen Worksheet tillhandahåller skyddsegenskapen som används för att tillämpa dessa avancerade skyddsinställningar. Skyddsegendomen är i själva verket ett föremål för[**Skydd**](https://reference.aspose.com/cells/java/com.aspose.cells/protection) klass som kapslar in flera booleska egenskaper för att inaktivera eller aktivera begränsningar.
+Worksheet-klassen tillhandahåller egenskapen Protection som används för att tillämpa dessa avancerade skyddsinställningar. Egenskapen Protection är faktiskt en instans av klassen [**Protection**](https://reference.aspose.com/cells/java/com.aspose.cells/protection) som kapslar in flera booleska egenskaper för att inaktivera eller aktivera restriktioner.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AdvancedProtectionSettingsUsingAsposeCells-AdvancedProtectionSettingsUsingAsposeCells.java" >}}
 
-Nedan finns ett litet exempel på applikation. Den öppnar en Excel-fil och använder de flesta av de avancerade skyddsinställningarna som stöds av Excel XP och senare versioner.
+Nedan finns en liten exempelapplikation. Den öppnar en Excel-fil och använder de flesta av de avancerade skyddsinställningarna som stöds av Excel XP och senare versioner.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AdvancedProtection-AdvancedProtection.java" >}}
 
 {{% alert color="primary" %}}
 
-Spara filen i formatet EXCEL97TO2003 eller XLSX eftersom dessa avancerade skyddsinställningar endast stöds av MS Excel XP och senare versioner.
+Spara filen i formatet EXCEL97TO2003 eller XLSX eftersom dessa avancerade skyddsinställningar bara stöds av MS Excel XP och senare versioner.
 
 {{% /alert %}}
 
-### **Cell Låsningsproblem**
+### **Cellåsningsproblem**
 
-Om du vill hindra användare från att redigera celler måste cellerna låsas innan några skyddsinställningar tillämpas. Annars kan cellerna redigeras även om kalkylbladet är skyddat. I Microsoft Excel XP kan celler låsas genom följande dialogruta:
+Om du vill begränsa användare från att redigera celler måste cellerna låsas innan några skyddsinställningar tillämpas. Annars kan cellerna redigeras även om arbetsbladet är skyddat. I Microsoft Excel XP kan celler låsas med följande dialog:
 
 **Dialog för att låsa celler i Excel XP** 
 
 ![todo:image_alt_text](protect-and-unprotect-worksheet_7.png)
 
-Det är möjligt att låsa celler med Aspose.Cells API också. Varje cell har en stil API som dessutom innehåller en setLocked-metod. Använd den för att låsa eller låsa upp celler.
+Det är möjligt att låsa celler med hjälp av Aspose.Cells API också. Varje cell har en Style API som ytterligare innehåller en setLocked-metod. Använd den för att låsa eller låsa upp celler.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-LockCell-LockCell.java" >}}

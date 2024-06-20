@@ -1,33 +1,34 @@
-﻿---
-title: Exportieren Sie Daten aus Arbeitsblättern in xlsx4j
+---
+title: Daten aus Arbeitsblättern in xlsx4j exportieren
 type: docs
 weight: 20
 url: /de/java/export-data-from-worksheets-in-xlsx4j/
 ---
-## **Aspose.Cells – Exportieren von Daten aus Arbeitsblättern**
-Aspose.Cells ermöglicht seinen Benutzern nicht nur den Import von Daten in Arbeitsblätter aus externen Datenquellen, sondern auch den Export von Arbeitsblattdaten in ein Array.
+
+## **Aspose.Cells - Daten aus Arbeitsblättern exportieren**
+Aspose.Cells ermöglicht es den Benutzern nicht nur, Daten aus externen Datenquellen in Arbeitsblätter zu importieren, sondern auch, Arbeitsblattdaten in ein Array zu exportieren.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //Erstellen eines Dateistroms, der die zu öffnende Excel-Datei enthält
+ //Creating a file stream containing the Excel file to be opened
 
 FileInputStream fstream = new FileInputStream(dataDir + "workbook.xls");
 
-//Instanziieren eines Workbook-Objekts
+//Instantiating a Workbook object
 
-Arbeitsmappe Arbeitsmappe = neue Arbeitsmappe (fstream);
+Workbook workbook = new Workbook(fstream);
 
-//Auf das erste Arbeitsblatt in der Excel-Datei zugreifen
+//Accessing the first worksheet in the Excel file
 
-Arbeitsblatt Arbeitsblatt = workbook.getWorksheets().get(0);
+Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Exportieren des Inhalts von 7 Zeilen und 2 Spalten beginnend mit der 1. Zelle in Array.
+//Exporting the contents of 7 rows and 2 columns starting from 1st cell to Array.
 
-Objekt dataTable [][]= worksheet.getCells().exportArray(4,0,7,8);
+Object dataTable [][] = worksheet.getCells().exportArray(4,0,7,8);
 
- für (int i = 0 ; i< dataTable.length ; i++)
+for (int i = 0 ; i < dataTable.length ; i++)
 
 {
 
@@ -36,13 +37,13 @@ Objekt dataTable [][]= worksheet.getCells().exportArray(4,0,7,8);
 }
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/exportdatafromworksheets/AsposeExportDataFromWorksheets.java)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Exportieren von Daten aus Arbeitsblättern](/java/exporting-data-from-worksheets).
+Für weitere Details, besuchen Sie [Daten aus Arbeitsblättern exportieren](/java/exporting-data-from-worksheets).
 
 {{% /alert %}}

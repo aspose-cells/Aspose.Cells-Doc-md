@@ -1,29 +1,30 @@
-﻿---
-title: Visualizzazione dell'intervallo Cell come etichette dati
+---
+title: Mostrare l intervallo di celle come etichette dati
 type: docs
 weight: 110
 url: /it/java/showing-cell-range-as-the-data-labels/
 ---
-## Mostra l'intervallo di celle come etichette dati in MS Excel
 
-In Microsoft Excel 2013 è possibile visualizzare l'intervallo Cell per le etichette dati. È possibile selezionare questa opzione seguendo questi passaggi
+## Mostra l'intervallo della cella come etichette dati in MS Excel
 
-- Seleziona Etichette dati della serie e fai clic con il pulsante destro del mouse per aprire il menu a comparsa.
--  Clicca il**Formato etichette dati...** e lo mostrerà**Opzioni etichetta**.
--  Selezionare o deselezionare la casella di controllo**L'etichetta contiene - Valore da Cells**.
+In Microsoft Excel 2013, è possibile visualizzare l'Intervallo delle celle per le etichette dati. È possibile selezionare questa opzione seguendo questi passaggi
 
-### **Casella di controllo per mostrare l'intervallo Cell come etichette dati**
+- Seleziona le Etichette dati della Serie e fai clic con il pulsante destro del mouse per aprire il menu a comparsa.
+- Fai clic su **Formato etichette dati...** e si aprirà **Opzioni etichetta**.
+- Seleziona o deseleziona la casella di controllo **L'etichetta contiene - Valore dalle celle**.
 
-Lo screenshot seguente evidenzia questa opzione come riferimento.
+### **Casella di controllo per mostrare l'intervallo della cella come etichette dati**
 
-![cose da fare:immagine_alt_testo](showing-cell-range-as-the-data-labels_1.png)
+Lo screenshot seguente evidenzia questa opzione per il tuo riferimento.
 
-## Mostra l'intervallo di celle come etichette dati con Aspose.Cells
+![todo:image_alt_text](showing-cell-range-as-the-data-labels_1.png)
 
- Aspose.Cells fornisce il[**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) metodo per selezionare o deselezionare la casella di controllo**L'etichetta contiene - Valore da Cells** come mostrato nello screenshot qui sopra.
+## Mostra l'intervallo della cella come etichette dati con Aspose.Cells
 
-## Java codice per mostrare l'intervallo di celle come etichette dati
+Aspose.Cells fornisce il metodo [**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) per selezionare o deselezionare la casella di controllo **L'etichetta contiene - Valore dalle celle** come mostrato nello screenshot sopra.
 
- Il codice di esempio riportato di seguito accede alle etichette dei dati della serie di grafici e quindi imposta[**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) metodo su true per verificare**L'etichetta contiene - Valore da Cells** opzione.
+## Codice Java per mostrare l'intervallo della cella come etichette dati
+
+Il codice di esempio sottostante accede alle Etichette dati della Serie del grafico e imposta il metodo [**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) su true per selezionare l'opzione **L'etichetta contiene - Valore dalle celle**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ShowCellRangeAsTheDataLabels-ShowCellRangeAsTheDataLabels.java" >}}

@@ -1,7 +1,8 @@
-﻿---
-title: Agregue la función de clasificación para representar el elemento de la tabla
+---
+title: Agregar función de clasificación para renderizar el elemento de tabla
 type: docs
 weight: 130
 url: /es/reportingservices/add-sorting-feature-for-rendering-table-item/
 ---
-Aspose.Cells for Reporting Services ordena los datos de los elementos de la tabla para el archivo de Excel exportado mediante la configuración de clasificación de tablas agregadas en el archivo de configuración de Reporting Services Aspose.Cells.
+
+Aspose.Cells for Reporting Services ordena los datos del elemento de tabla para el archivo Excel exportado a través de la configuración de agregar clasificación de tabla en el archivo de configuración de servicios de informes de Aspose.Cells.

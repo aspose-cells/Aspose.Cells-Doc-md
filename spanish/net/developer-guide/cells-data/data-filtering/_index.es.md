@@ -1,158 +1,159 @@
 ---
-title: Filtrado de datos
+title: Filtrado de Datos
 type: docs
 weight: 85
 url: /es/net/data-filtering/
-description: Aprenda a agregar un filtro de datos utilizando Aspose.Cells for .NET API.
-keywords: Add Filter by Color, Add Date Filters, Add Number Filters, Add Dynamic Filter, Add Text Filters, Add custom filter with Contains, Add custom filter with NotContains, Add custom filter with BeginsWith, Add custom filter with EndsWith
+description: Aprende cómo agregar filtros de datos utilizando la API Aspose.Cells for .NET.
+keywords: Agregar filtro por color, agregar filtros de fecha, agregar filtros de números, agregar filtro dinámico, agregar filtros de texto, agregar filtro personalizado con Contiene, agregar filtro personalizado con NoContiene, agregar filtro personalizado con ComienzaCon, agregar filtro personalizado con TerminaCon
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel proporciona algunas buenas funciones para filtrar automáticamente los datos de la hoja de trabajo. Aspose.Cells es totalmente compatible con las funciones de filtro automático de Microsoft Excel. Este artículo explica cómo utilizar las funciones de Microsoft Excel y cómo codificarlas utilizando Aspose.Cells.
+Microsoft Excel proporciona algunas funciones buenas para el autofiltrado de datos en hojas de trabajo. Aspose.Cells es compatible completamente con las funciones de autofiltrado de Microsoft Excel. Este artículo explica cómo usar las funciones en Microsoft Excel y cómo codificarlas usando Aspose.Cells.
 
 {{% /alert %}}
 
-##  **Autofiltrar datos**
+## **Datos de Autofiltro**
 
-El filtrado automático es la forma más rápida de seleccionar solo aquellos elementos de la hoja de trabajo que desea mostrar en una lista. La función de filtro automático permite a los usuarios filtrar elementos en una lista según un criterio establecido. Filtrar según texto, números o fechas.
+El autofiltrado es la forma más rápida de seleccionar solo aquellos elementos de la hoja de cálculo que desea mostrar en una lista. La función de autofiltro permite a los usuarios filtrar elementos en una lista según un criterio establecido. Filtrar según texto, números o fechas.
 
-###  **Autofiltro en Microsoft Excel**
+### **Autofiltro en Microsoft Excel**
 
-Para activar la función de filtro automático en Microsoft Excel:
+Para activar la función de autofiltro en Microsoft Excel:
 
-1. Haga clic en la fila del encabezado en una hoja de trabajo.
-1.  Desde el**Datos** menú, seleccione**Filtrar** y luego *Autofiltro**.
+1. Haz clic en la fila de encabezado en una hoja de cálculo.
+1. Desde el menú **Datos**, selecciona **Filtrar** y luego **Autofiltro**.
 
-Cuando aplica un filtro automático a una hoja de trabajo, los interruptores de filtro (flechas negras) aparecen a la derecha de los encabezados de las columnas.
+Cuando aplicas un autofiltro a una hoja de cálculo, aparecen interruptores de filtro (flechas negras) a la derecha de los encabezados de las columnas.
 
-1. Haga clic en una flecha de filtro para ver una lista de opciones de filtro.
+1. Haz clic en una flecha de filtro para ver una lista de opciones de filtro.
 
 Algunas de las opciones de autofiltro son:
 
 |**Opciones**|**Descripción**|
 | :- | :- |
-|Todo|Muestra todos los elementos de la lista una vez.|
-|Costumbre|Personalice los criterios de filtro como contiene/no contiene|
-|Filtrar por color|Filtros basados en color de relleno.|
-|Filtros de fecha|Filtra filas según diferentes criterios en la fecha|
-|Filtros numéricos|Diferentes tipos de filtros en números como comparación, promedios y Top 10, etc.|
-|Filtros de texto|Diferentes filtros como comienza con, termina con, contiene, etc.|
-|Espacios en blanco/no espacios en blanco|Estos filtros se pueden implementar a través de Filtro de texto en blanco|
+|All|Mostrar todos los elementos en la lista una vez.|
+|Custom|Personalizar criterios de filtro como contiene/no contiene|
+|Filter by Color|Filtros basados en el color rellenado|
+|Date Filters|Filtrar filas basadas en diferentes criterios en la fecha|
+|Number Filters|Diferentes tipos de filtro en números como comparación, promedios y Top 10, etc.|
+|Text Filters|Diferentes filtros como comienza con, termina con, contiene, etc,|
+|Blanks/Non Blanks|Estos filtros pueden implementarse a través de Filtro de Texto en Blanco|
 
-Los usuarios filtran manualmente los datos de su hoja de cálculo en Microsoft Excel usando estas opciones.
+Los usuarios filtran manualmente sus datos de hoja de cálculo en Microsoft Excel utilizando estas opciones.
 
-###  **Autofiltro con Aspose.Cells**
+### **Autofiltro con Aspose.Cells**
 
-Aspose.Cells proporciona una clase, Libro de trabajo, que representa un archivo de Excel. La clase Libro de trabajo contiene una colección de Hojas de trabajo que permite el acceso a cada hoja de trabajo en el archivo de Excel.
+Aspose.Cells proporciona una clase, Workbook que representa un archivo de Excel. La clase Workbook contiene una colección de Worksheets que permite el acceso a cada hoja de cálculo en el archivo de Excel.
 
-Una hoja de trabajo está representada por la clase Hoja de trabajo. La clase Worksheet proporciona una amplia gama de propiedades y métodos para administrar hojas de trabajo. Para crear un filtro automático, utilice la propiedad Autofiltro de la clase Hoja de trabajo. La propiedad AutoFilter es un objeto de la clase AutoFilter, que proporciona la propiedad Range para especificar el rango de celdas que componen una fila de encabezado. Se aplica un filtro automático al rango de celdas que es la fila del encabezado.
+Una hoja de cálculo está representada por la clase Worksheet. La clase Worksheet proporciona una amplia gama de propiedades y métodos para gestionar hojas de cálculo. Para crear un autofiltro, utilice la propiedad AutoFilter de la clase Worksheet. La propiedad AutoFilter es un objeto de la clase AutoFilter, que proporciona la propiedad Range para especificar el rango de celdas que forman una fila de encabezado. Un autofiltro se aplica al rango de celdas que es la fila de encabezado.
 
-En cada hoja de trabajo, solo puede especificar un rango de filtro. Esto está limitado por Microsoft Excel. Para el filtrado de datos personalizado, utilice el método AutoFilter.Custom.
+En cada hoja de cálculo, solo se puede especificar un rango de filtro. Esto está limitado por Microsoft Excel. Para el filtrado personalizado de datos, utilice el método AutoFilter.Custom.
 
-En el ejemplo que se muestra a continuación, hemos creado el mismo Autofiltro usando Aspose.Cells que creamos usando Microsoft Excel en la sección anterior.
+En el ejemplo dado a continuación, hemos creado el mismo Autofiltro utilizando Aspose.Cells como lo creamos utilizando Microsoft Excel en la sección anterior.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-AutofilterData-1.cs" >}}
 
-####  **Diferentes tipos de filtro**
+#### **Diferentes tipos de filtro**
 
-Aspose.Cells proporciona múltiples opciones para aplicar diferentes tipos de filtros, como filtro de color, filtro de fecha, filtro de números, filtro de texto, filtros en blanco y filtros ninguno en blanco.
+Aspose.Cells ofrece múltiples opciones para aplicar diferentes tipos de filtros como Filtro de Color, Filtro de Fecha, Filtro de Número, Filtro de Texto, Filtros en Blanco y Filtros no en Blanco.
 
-#####  **Color de relleno**
+##### **Color de relleno**
 
-Aspose.Cells proporciona una función AddFillColorFilter para filtrar datos según la propiedad del color de relleno de las celdas. En el ejemplo que se muestra a continuación, se utiliza un archivo de plantilla que tiene diferentes colores de relleno en la primera columna de la hoja para probar la función de filtrado de color. Los archivos de muestra se pueden descargar desde los siguientes enlaces.
+Aspose.Cells provee una función AddFillColorFilter para filtrar datos basados en la propiedad de color de relleno de las celdas. En el ejemplo dado a continuación, se utiliza un archivo de plantilla con diferentes colores de relleno en la primera columna de la hoja para probar la función de filtrado por color. Los archivos de muestra se pueden descargar desde los siguientes enlaces.
 
-1. [Celdas de colores.xlsx](72417315.xlsx)
-1. [Celdas de colores filtradas.xlsx](72417316.xlsx)
+1. [ColouredCells.xlsx](72417315.xlsx)
+1. [FilteredColouredCells.xlsx](72417316.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterColor-1.cs" >}}
 
-#####  **Fecha**
+##### **Fecha**
 
-Se pueden implementar diferentes tipos de filtros de fecha, como filtrar todas las filas que tienen fechas en enero de 2018. El siguiente código de muestra demuestra este filtro usando la función AddDateFilter. A continuación se proporcionan archivos de muestra.
+Se pueden implementar diferentes tipos de filtros de fecha como filtrar todas las filas que tienen fechas en enero de 2018. El siguiente ejemplo de código demuestra este filtro mediante la función AddDateFilter. Se proporcionan los archivos de ejemplo a continuación.
 
-1. [Fecha.xlsx](72417317.xlsx)
-1. [Fecha filtrada.xlsx](72417318.xlsx)
+1. [Date.xlsx](72417317.xlsx)
+1. [FilteredDate.xlsx](72417318.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterDate-1.cs" >}}
 
-#####  **Fecha dinámica**
+##### **Fecha dinámica**
 
-A veces se requieren filtros dinámicos basados en la fecha, como todas las celdas que tienen fechas en enero, independientemente del año. En este caso, la función DynamicFilter se utiliza como se indica en el siguiente código de muestra. A continuación se proporcionan archivos de muestra.
+A veces se requieren filtros dinámicos basados en la fecha, como todas las celdas que tienen fechas en enero, independientemente del año. En este caso, se utiliza la función DynamicFilter según se muestra en el siguiente ejemplo de código. Se proporcionan los archivos de ejemplo a continuación.
 
-1. [Fecha.xlsx](72417317.xlsx)
-1. [Fecha dinámica filtrada.xlsx](72417319.xlsx)
+1. [Date.xlsx](72417317.xlsx)
+1. [FilteredDynamicDate.xlsx](72417319.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterDynamicFilter-1.cs" >}}
 
-#####  **Número**
+##### **Número**
 
-Se pueden aplicar filtros personalizados usando Aspose.Cells, como seleccionar celdas que tengan un número dentro de un rango determinado. El siguiente ejemplo demuestra el uso de la función Custom() para filtrar números. A continuación se proporcionan archivos de muestra.
+Se pueden aplicar filtros personalizados utilizando Aspose.Cells como seleccionar celdas que tengan números dentro de un rango dado. El siguiente ejemplo demuestra el uso de la función Custom() para filtrar números. Los archivos de muestra se dan a continuación.
 
-1. [Número.xlsx](72417320.xlsx)
-1. [Número filtrado.xlsx](72417321.xlsx)
+1. [Number.xlsx](72417320.xlsx)
+1. [FilteredNumber.xlsx](72417321.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterNumber-1.cs" >}}
 
-#####  **Texto**
+##### **Texto**
 
-Si una columna contiene texto y se deben seleccionar celdas que contengan un texto particular, se puede utilizar la función Filter(). En el siguiente ejemplo, el archivo de plantilla contiene una lista de países y se debe seleccionar la fila que contiene el nombre de un país en particular. El siguiente código muestra el filtrado de texto. A continuación se proporcionan archivos de muestra.
+Si una columna contiene texto y se deben seleccionar celdas que contienen un texto particular, se puede utilizar la función Filtro(). En el siguiente ejemplo, el archivo de plantilla contiene una lista de países y se debe seleccionar una fila que contenga el nombre de un país en particular. El siguiente código demuestra la filtración de texto. Los archivos de ejemplo se muestran a continuación.
 
-1. [Texto.xlsx](72417322.xlsx)
-1. [Texto filtrado.xlsx](72417323.xlsx)
+1. [Text.xlsx](72417322.xlsx)
+1. [FilteredText.xlsx](72417323.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterText-1.cs" >}}
 
-#####  **espacios en blanco**
+##### **Vacíos**
 
-Si una columna contiene texto de modo que pocas celdas están en blanco y se requiere un filtro para seleccionar aquellas filas solo donde hay celdas en blanco, la función MatchBlanks() se puede usar como se muestra a continuación. A continuación se proporcionan archivos de muestra.
+Si una columna contiene texto y algunas celdas están en blanco, y se requiere un filtro para seleccionar solo aquellas filas donde las celdas en blanco están presentes, se puede utilizar la función CoincidirBlancos() como se demuestra a continuación. Los archivos de ejemplo se muestran a continuación.
 
-1. [En blanco.xlsx](72417324.xlsx)
-1. [Filtrado en blanco.xlsx](72417325.xlsx)
+1. [EnBlanco.xlsx](72417324.xlsx)
+1. [EnBlancoFiltrado.xlsx](72417325.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterBlank-1.cs" >}}
 
-#####  **No espacios en blanco**
+##### **No vacíos**
 
-Cuando se van a filtrar celdas que contienen texto, utilice la función de filtro MatchNonBlanks como se muestra a continuación. A continuación se proporcionan archivos de muestra.
+Cuando se deben filtrar celdas que contienen texto, utilizar la función de filtro CoincidirNoVacios como se demuestra a continuación. Los archivos de ejemplo se muestran a continuación.
 
-1. [En blanco.xlsx](72417324.xlsx)
-1. [FiltradoNonBlank.xlsx](72417326.xlsx)
+1. [EnBlanco.xlsx](72417324.xlsx)
+1. [NoVaciosFiltrado.xlsx](72417326.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterNonBlank-1.cs" >}}
 
-#####  **Filtro personalizado con Contiene**
+##### **Filtro personalizado con Contiene**
 
-Excel proporciona filtros personalizados, como filas de filtro que contienen una cadena específica. Esta característica está disponible en Aspose.Cells y se demuestra a continuación filtrando los nombres en el archivo de muestra. A continuación se proporcionan archivos de muestra.
+Excel proporciona filtros personalizados como filtrar filas que contienen alguna cadena específica. Esta función está disponible en Aspose.Cells y se demuestra a continuación filtrando los nombres en el archivo de muestra. Se proporcionan archivos de ejemplo a continuación.
 
-1. [fuenteSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx)
+1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx)
 1. [outSourseSampleCountryNames.xlsx](outSourseSampleCountryNames.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterCustom-Contains-1.cs" >}}
 
-#####  **Filtro personalizado con NotContains**
+##### **Filtro personalizado con NoContiene**
 
-Excel proporciona filtros personalizados, como filas de filtro, que no contienen ninguna cadena específica. Esta función está disponible en Aspose.Cells y se demuestra a continuación filtrando los nombres en el archivo de muestra que se proporciona a continuación.
+Excel proporciona filtros personalizados como filtrar filas que no contienen alguna cadena específica. Esta función está disponible en Aspose.Cells y se demuestra a continuación filtrando los nombres en el archivo de muestra proporcionado a continuación.
 
-1. [fuenteSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
+1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterCustom-NotContains-1.cs" >}}
 
-#####  **Filtro personalizado con BeginsWith**
+##### **Filtro personalizado que comienza con**
 
-Excel proporciona filtros personalizados, como filas de filtro que comienzan con una cadena específica. Esta función está disponible en Aspose.Cells y se demuestra a continuación filtrando los nombres en el archivo de muestra que se proporciona a continuación.
+Excel proporciona filtros personalizados como filtrar filas que comienzan con una cadena específica. Esta función está disponible en Aspose.Cells y se demuestra a continuación filtrando los nombres en el archivo de muestra proporcionado a continuación.
 
-1. [fuenteSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
+1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-AutofilterBeginsWith-1.cs" >}}
 
-#####  **Filtro personalizado con EndsWith**
+##### **Filtro personalizado que termina con**
 
-Excel proporciona filtros personalizados, como filas de filtro que terminan con una cadena específica. Esta función está disponible en Aspose.Cells y se demuestra a continuación filtrando los nombres en el archivo de muestra que se proporciona a continuación.
+Excel proporciona filtros personalizados como filtrar filas que terminan con cierta cadena específica. Esta función está disponible en Aspose.Cells y se muestra a continuación filtrando los nombres en el archivo de muestra proporcionado a continuación.
 
-1. [fuenteSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
+1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-AutofilterEndsWith-1.cs" >}}
 
-##  **Temas avanzados**
-- [Aplique el filtro avanzado de Excel Microsoft para mostrar registros que cumplan criterios complejos](/cells/es/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
-- [Obtenga todos los índices de filas ocultas después de actualizar el Autofiltro](/cells/es/net/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+## **Temas avanzados**
+- [Aplicar Filtro Avanzado de Microsoft Excel para Mostrar Registros que Cumplen Criterios Complejos](/cells/es/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
+- [Obtener Todos los Índices de Filas Ocultas Después de Actualizar el Autofiltro](/cells/es/net/get-all-hidden-rows-indices-after-refreshing-autofilter/)

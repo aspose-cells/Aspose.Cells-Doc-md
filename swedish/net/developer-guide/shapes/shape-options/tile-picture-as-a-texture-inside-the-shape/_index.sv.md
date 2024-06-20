@@ -1,16 +1,17 @@
-﻿---
-title: Kakelbild som en textur inuti formen
+---
+title: Använda bild som texture i en form
 type: docs
 weight: 1700
 url: /sv/net/tile-picture-as-a-texture-inside-the-shape/
 ---
-## **Möjliga användningsscenarier**
 
-När bilden är liten och inte täcker hela formens yta utan att tappa dess kvalitet, då har du möjlighet att kakla den. Kakelsättning fyller formytan med en liten bild genom att upprepa dem som om de vore brickor.
+## **Möjliga användningsscenario**
 
-## **Kakelbild som en textur inuti formen**
+När bilden är liten och täcker inte hela ytan av formen utan att förlora kvalitet, har du möjlighet att använda den som texture. Texturen fyller formens yta med en liten bild genom att upprepa dem som om de är kakel.
 
- Du kan fylla formytan med en bild och kakla den med hjälp av[**Shape.Fill.TextureFill.IsTiling**](https://reference.aspose.com/cells/net/aspose.cells.drawing/texturefill/properties/istiling) egendom och ställa in den**Sann** . Se följande exempelkod, dess[exempel på Excel-fil](46465050.xlsx) samt skärmdumpen som referens.
+## **Använda bild som texture i en form**
+
+Du kan fylla formytan med någon bild och kachelera den med [**Shape.Fill.TextureFill.IsTiling**](https://reference.aspose.com/cells/net/aspose.cells.drawing/texturefill/properties/istiling) egenskapen och ställa in den som **true**. Se följande exempelkod, dess [exempel-Excelfil](46465050.xlsx) samt skärmbilden för referens.
 
 ## **Skärmdump**
 

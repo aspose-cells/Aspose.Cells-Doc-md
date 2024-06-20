@@ -1,8 +1,8 @@
 ---
-title: NumPy و Pandas
+title: NumPy، Pandas وبيانات Python
 type: docs
 weight: 30
 url: /ar/python-net/convert-numpy-pandas-to-excel/
-description: قم بتحويل NumPy أو Pandas إلى Excel باستخدام Aspose.Cells for Python via .NET API.
-keywords: Python Convert NumPy array or Pandas to Excel, Import NumPy array or Pandas to Excel in Python via NET, Python Convert NumPy array or Pandas to xlsx, Load for import NumPy array or Pandas to Excel.
+description: تحويل NumPy أو Pandas إلى إكسل باستخدام واجهة تطبيقات Aspose.Cells لبرمجة Python via .NET.
+keywords: تحويل مصفوفة NumPy أو Pandas إلى إكسل بواسطة Python، استيراد مصفوفة NumPy أو Pandas إلى إكسل في Python via NET، تحويل مصفوفة NumPy أو Pandas إلى xlsx بواسطة Python، تحميل لاستيراد مصفوفة NumPy أو Pandas إلى إكسل.
 ---

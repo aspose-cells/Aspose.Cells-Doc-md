@@ -1,19 +1,20 @@
-﻿---
-title: Ajuster la hauteur de ligne et la largeur de colonne dans Ruby
+---
+title: Ajuster la hauteur de ligne et la largeur de colonne en Ruby
 type: docs
 weight: 10
 url: /fr/java/adjusting-row-height-and-column-width-in-ruby/
 ---
-## **Aspose.Cells - Réglage de la hauteur de ligne et de la largeur de colonne**
-### **Définition de la hauteur de ligne**
-Il est possible de définir la hauteur d'une seule ligne en appelant la méthode setRowHeight de la collection Cells. La méthode setRowHeight prend les paramètres suivants :
 
-- **Indice de ligne**, l'index de la ligne dont vous modifiez la hauteur.
-- **Hauteur de ligne**, la hauteur de ligne à appliquer sur la ligne.
+## **Aspose.Cells - Ajustement de la hauteur de ligne et de la largeur de colonne**
+### **Définir la hauteur de la ligne**
+Il est possible de définir la hauteur d'une seule ligne en appelant la méthode setRowHeight de la collection Cells. La méthode setRowHeight prend les paramètres suivants:
 
-**Code rubis**
+- **Index de ligne**, l'index de la ligne pour laquelle vous modifiez la hauteur.
+- **Hauteur de la ligne**, la hauteur de la ligne à appliquer sur la ligne.
 
-{{< highlight "ruby" >}}
+**Code Ruby**
+
+{{< highlight ruby >}}
 
  def set_row_height()
 
@@ -44,15 +45,15 @@ Il est possible de définir la hauteur d'une seule ligne en appelant la méthode
 end
 
 {{< /highlight >}}
-### **Définition de la largeur de colonne**
-Définissez la largeur d'une colonne en appelant la méthode setColumnWidth de la collection Cells. La méthode setColumnWidth prend les paramètres suivants :
+### **Définir la largeur de colonne**
+Définissez la largeur d'une colonne en appelant la méthode setColumnWidth de la collection Cells. La méthode setColumnWidth prend les paramètres suivants:
 
-- **Indice de colonne**, l'index de la colonne dont vous modifiez la largeur.
-- **Largeur de colonne**, la largeur de colonne souhaitée.
+- Index de la colonne, l'index de la colonne dont vous changez la largeur.
+- Largeur de colonne, la largeur de colonne souhaitée.
 
-**Code rubis**
+**Code Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def set_column_width()
 
@@ -83,7 +84,7 @@ Définissez la largeur d'une colonne en appelant la méthode setColumnWidth de l
 end
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Réglage de la hauteur des lignes et de la largeur des colonnes (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Ajustement de la hauteur de ligne et de la largeur de colonne (Aspose.Cells)** à partir de l'un des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

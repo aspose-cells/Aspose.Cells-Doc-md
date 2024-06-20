@@ -1,15 +1,16 @@
-﻿---
-title: Заморозить панели в Ruby
+---
+title: Заморозить области на Ruby
 type: docs
 weight: 50
 url: /ru/java/freeze-panes-in-ruby/
 ---
-## **Aspose.Cells - Замораживание панелей**
- Чтобы заморозить области в табличном документе с помощью**Aspose.Cells Java для рубина** , просто вызовите**Замерзшие оконные стекла** модуль.
 
-**Рубиновый код**
+## **Aspose.Cells - Заморозить области**
+Чтобы заморозить области в документе электронной таблицы с помощью **Aspose.Cells Java для Ruby**, просто вызовите модуль **FreezePanes**.
 
-{{< highlight "ruby" >}}
+**Код на Ruby**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -34,7 +35,7 @@ workbook.save(data_dir + "output.xls")
 puts "Apply freeze panes settings, please check the output file."
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Стоп-кадр (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Заморозить области (Aspose.Cells)** с любого из указанных ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/freezepanes.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/freezepanes.rb)

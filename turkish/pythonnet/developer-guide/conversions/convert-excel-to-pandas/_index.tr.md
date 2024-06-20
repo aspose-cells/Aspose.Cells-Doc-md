@@ -1,28 +1,29 @@
 ---
-title: Excel'i Pandas DataFrame'e dönüştürün
+title: Excel i Pandas DataFrame e dönüştür
 type: docs
 weight: 30
 url: /tr/python-net/convert-excel-to-pandas-dataframe/
-description: Aspose.Cells for Python via .NET API'i kullanarak Pandaları Excel'e dönüştürün.
-keywords: Python Convert Excel to Pandas DataFrame, Export Excel to Pandas DataFrame in Python via NET, Python Convert xlsx to  Pandas DataFrame, Save excel to Pandas DataFrame.
+description: Aspose.Cells for Python via .NET API sini kullanarak Pandas ı Excel e dönüştürün.
+keywords: Python Excel i Pandas DataFrame e Dönüştür, Python da Excel i Pandas DataFrame e Aktar via NET, Python xlsx i Pandas DataFrame e dönüştür, Excel i Pandas DataFrame e Kaydet.
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET API'i kullanarak Excel, TSV, CSV, Json ve birçok farklı formatı pandas DataFrame'e dönüştürebilirsiniz.
+Aspose.Cells for Python via .NET API'sını kullanarak Excel, TSV, CSV, Json ve çok farklı formatları pandas DataFrame'e dönüştürebilirsiniz.
 
 {{% /alert %}}
 
-##  **Json verileri aracılığıyla Excel'i Pandas DataFrame'e dönüştürün**
-Aşağıda, Aspose.Cells for Python via .NET kullanılarak json verileri aracılığıyla excel verilerinin pandas DataFrame'e nasıl aktarılacağını gösteren örnek bir kod pasajı verilmiştir:
-1. Bir Çalışma Kitabı oluşturun ve bazı değerler ekleyin.
+## **JSON verisi aracılığıyla Excel'i Pandas DataFrame'e dönüştür.**
+Aspose.Cells for Python via .NET kullanarak excel verilerini JSON verisi aracılığıyla pandas DataFrame'e nasıl aktaracağınızı gösteren örnek kod parçacığı:
+1. Bir çalışma kitabı oluşturun ve bazı değerler ekleyin.
 1. Excel verilerini JSON dizesine aktarın.
-1. JSON verilerini okumak için pandalar kitaplığını kullanın.
+1. pandas kütüphanesini kullanarak JSON verilerini okuyun.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-by-json.py" >}}
 
-##  **Pandas DataFrame'i doğrudan Excel'e dönüştürün**
-Excel verilerinin doğrudan Aspose.Cells for Python via .NET kullanılarak pandas DataFrame'e nasıl aktarılacağını gösteren örnek bir kod pasajını burada bulabilirsiniz:
-1. Bir Çalışma Kitabı oluşturun ve bazı değerler ekleyin.
-1. Excel verilerini çaprazlayın ve Aspose.Cells for Python via .NET'i kullanarak verileri Pandas DataFrame'e aktarın.
+## **Pandas DataFrame'yi doğrudan Excel'e dönüştürün**
+Aspose.Cells for Python via .NET kullanarak excel verilerini doğrudan pandas DataFrame'e nasıl aktaracağınızı gösteren örnek kod parçacığı:
+1. Bir çalışma kitabı oluşturun ve bazı değerler ekleyin.
+1. Excel verilerini dolaşın ve Aspose.Cells for Python via .NET kullanarak verileri Pandas DataFrame'e aktarın.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-directly.py" >}}

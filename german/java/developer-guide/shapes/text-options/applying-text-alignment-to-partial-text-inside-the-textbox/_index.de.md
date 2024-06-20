@@ -1,19 +1,20 @@
-﻿---
-title: So wenden Sie die Textausrichtung auf das Textfeld an / setzen sie
-linktitle: Textausrichtung auf Textfeld anwenden/einstellen
+---
+title: Wie man die Textausrichtung für Textfeld anwendet/einstellt
+linktitle: Textausrichtung für Textfeld anwenden/einstellen
 type: docs
 weight: 20
 url: /de/java/applying-text-alignment-to-partial-text-inside-the-textbox/
-description: So wenden Sie die Textausrichtung auf das Textfeld in Aspose.cells an / setzen sie.
-keywords: apply/set alignment TextBox Worksheet Excel Aspose
+description: Wie man die Textausrichtung für Textfeld in Aspose.Cells anwendet/einstellt
+keywords: Anwendung/ Einstellung der Ausrichtung des Textfelds Arbeitsblatt Excel Aspose
 ---
-TextBoxen können die Ausdruckskraft unserer Dokumente und Diagramme verbessern, und das Anwenden unterschiedlicher Ausrichtungen auf verschiedene Teile einer TextBox kann dazu beitragen, interessante Punkte für die Leser hervorzuheben. Die Standardausrichtung von TextBox erfüllt jedoch nicht alle unsere Anforderungen. Dazu müssen Sie möglicherweise jede TextBox an Ihre Zielanforderungen anpassen. Wenn Sie nicht viele TextBox-Objekte anpassen müssen, haben Sie Glück. Wenn so viele TextBoxen angepasst werden müssen, werden Sie wahrscheinlich in Schwierigkeiten geraten. Mach dir jetzt keine Sorgen,[Aspose.Cells](https://products.aspose.com/cells/) bietet eine solche API-Schnittstelle, um Ihnen dabei zu helfen.
 
-Der folgende Beispielcode wendet die Textausrichtung auf eine TextBox an.
+TextBoxen können die Ausdruckskraft unserer Dokumente und Diagramme verbessern, und das Anwenden unterschiedlicher Ausrichtungen auf verschiedene Teile eines TextBoxes kann dazu beitragen, interessante Punkte für die Leser hervorzuheben. Aber die Standardausrichtung des TextBoxes entspricht nicht allen unseren Bedürfnissen. Dafür müssen Sie möglicherweise jedes TextBox anpassen, um Ihre Zielanforderungen zu erfüllen. Wenn Sie nicht viele TextBox-Objekte anpassen müssen, haben Sie Glück. Wenn es so viele TextBox-Objekte zum Anpassen gibt, denke ich, werden Sie in Schwierigkeiten geraten. Keine Sorge jetzt, [Aspose.Cells](https://products.aspose.com/cells/) bietet eine solche API-Schnittstelle, die Ihnen helfen kann, genau das zu tun.
+
+Der folgende Beispielcode wendet die Textausrichtung auf ein TextBox an.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ApplyAlignmentToTextBox.java" >}}
 
-Sie können auch die Textausrichtung von Text innerhalb einer TextBox-Form mit dem entsprechenden HTML-Text ändern. Der folgende Beispielcode wendet die Textausrichtung auf Teiltext innerhalb der TextBox an.
+Sie können auch die Textausrichtung für einen Teil des Textes innerhalb einer TextBox-Form mit dem entsprechenden HTML-Text ändern. Der folgende Beispielcode wendet die Textausrichtung auf einen Teil des Textes innerhalb des TextBox an.
 
 [Quelldatei](SampleTextboxExcel2016.xlsx)
 

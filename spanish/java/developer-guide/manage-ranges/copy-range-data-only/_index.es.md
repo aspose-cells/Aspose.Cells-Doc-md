@@ -1,23 +1,24 @@
-﻿---
-title: Copiar solo datos de rango
+---
+title: Copiar Solo Datos de Rango
 type: docs
 weight: 330
 url: /es/java/copy-range-data-only/
 ---
+
 {{% alert color="primary" %}} 
 
- A veces, necesita copiar datos de un rango de celdas a otro, copiando solo los datos, no el formato. Aspose.Cells ofrece esta característica proporcionando el[Range.copyData](https://reference.aspose.com/cells/java/com.aspose.cells/range#copyData\(com.aspose.cells.Range\)) método.
+A veces, necesitas copiar datos de un rango de celdas a otro, copiando solo los datos, no el formato. Aspose.Cells ofrece esta característica al proveer el método [Range.copyData](https://reference.aspose.com/cells/java/com.aspose.cells/range#copyData\(com.aspose.cells.Range\)).
 
 {{% /alert %}} 
 ## **Copiar solo datos de rango**
 Este ejemplo muestra cómo:
 
 1. Crear un libro de trabajo.
-1. Agregue datos a las celdas en la primera hoja de trabajo.
-1. Crea un rango.
-1. Cree un objeto de estilo con atributos de formato especificados.
-1. Aplique el formato de estilo al rango.
-1. Cree otro rango de celdas.
-1.  Copie los datos del primer rango a este segundo rango usando el[Range.copyData](https://reference.aspose.com/cells/java/com.aspose.cells/range#copyData\(com.aspose.cells.Range\)) método.
+1. Agregar datos a las celdas en la primera hoja de cálculo.
+1. Crear un rango.
+1. Crear un objeto de estilo con atributos de formato específicos.
+1. Aplica el formato de estilo al rango.
+1. Crear otro rango de celdas.
+1. Copiar datos del primer rango a este segundo rango usando el método [Range.copyData](https://reference.aspose.com/cells/java/com.aspose.cells/range#copyData\(com.aspose.cells.Range\)).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyRangeDataOnly-CopyRangeDataOnly.java" >}}

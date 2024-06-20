@@ -1,46 +1,49 @@
 ---
-title: EnableClipboardCopyPaste ve PasteType GridDesktop Özelliklerinin Kopyala Yapıştırma Davranışı
+title: EnableClipboardCopyPaste ve PasteType GridDesktop Özellikleri Kopyalama Yapıştırma Davranışı
 type: docs
 weight: 80
-url: /tr/net/copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties/
+url: /tr/net/aspose-cells-griddesktop/copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties/
+keywords: kopyala,yapıştır,GridPasteType
+description: Bu makale, GridPasteType ın kullanımını yapıştırma işlemini Aspose.Cells.GridDesktop.GridDesktop.PasteType özelliğini kullanarak nasıl yapılacağını açıklar.
 ---
-##  **Olası Kullanım Senaryoları**
-GridDesktop, Aspose.Cells.GridDesktop.GridDesktop.PasteType özelliği ile farklı türde kopyala yapıştır türü seçenekleri sunar. Bu seçenekler Aspose.Cells.GridDesktop.Data.GridPasteType numaralandırmasıyla belirtilir. Bunlardan bazıları aşağıdaki gibidir
+
+## **Olası Kullanım Senaryoları**
+GridDesktop, Aspose.Cells.GridDesktop.GridDesktop.PasteType özelliği ile belirli kopya yapıştır türü seçenekleri sağlar. Bu seçenekler, Aspose.Cells.GridDesktop.Data.GridPasteType numaralandırmasıyla belirtilir. Bunlardan bazıları şunlardır
 
 - GridPasteType.All
 
-Kaynak hücrelerden hedef hücrelere kadar her şeyi kopyalayıp yapıştırır.
+Kaynak hücrelerden hedef hücrelere her şeyi kopyalar ve yapıştırır.
 
 - GridPasteType.Formulas
 
-Formülleri kaynak hücrelerden hedef hücrelere kopyalayıp yapıştırır.
+Kaynak hücrelerden hedef hücrelere formülleri kopyalar ve yapıştırır.
 
 - GridPasteType.Comments
 
-Yorumları kaynak hücrelerden hedef hücrelere kopyalayıp yapıştırır.
+Kaynak hücrelerden hedef hücrelere yorumları kopyalar ve yapıştırır.
 
 - GridPasteType.RowHeights
 
-Satır yüksekliklerini kaynak hücrelerden hedef hücrelere kopyalayıp yapıştırır.
+Kaynak hücrelerden hedef hücrelere satır yüksekliklerini kopyalar ve yapıştırır.
 
 - GridPasteType.ColumnWidths
 
-Sütun genişliklerini kaynak hücrelerden hedef hücrelere kopyalayıp yapıştırır.
+Kaynak hücrelerden hedef hücrelere sütun genişliklerini kopyalar ve yapıştırır.
 
-vesaire.
-##  **PasteType Özelliğini Etkinleştirmek için EnableClipboardCopyPaste Özelliğini True Olarak Ayarlayın**
-Aspose.Cells.GridDesktop.GridDesktop.PasteType özelliği yalnızca Aspose.Cells.GridDesktop.GridDesktop.EnableClipboardCopyPaste özelliğini bu ekran görüntüsünde gösterildiği gibi true olarak ayarlarsanız çalışır.
+vb.
+## **EnableClipboardCopyPaste Özelliğini True Ayarlayarak PasteType Özelliğini Etkinleştirin**
+Aspose.Cells.GridDesktop.GridDesktop.PasteType özelliği, özelliğini true olarak ayarlarsanız sadece Aspose.Cells.GridDesktop.GridDesktop.EnableClipboardCopyPaste özelliği olarak çalışır, bu ekran görüntüsünde gösterildiği gibi.
 
-![yapılacak şey:image_alt_text](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_1.png)
-##  **EnableClipboardCopyPaste ve PasteType Özelliklerinin Davranışı**
-EnableClipboardCopyPaste'in yanlış ve PasteType'ın Tümü olduğu göz önüne alındığında, aşağıdaki ekran görüntüsü B3 hücresinin kopyalanıp C5 hücresine yapıştırıldığını gösterir.
+![todo:image_alt_text](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_1.png)
+## **EnableClipboardCopyPaste ve PasteType Özelliklerinin Davranışı**
+EnableClipboardCopyPaste false ve PasteType All olduğunda, B3 hücresinin kopyalandığı ve C5 hücresine yapıştırıldığı aşağıdaki ekran görüntüsünde gösterildiği gibi.
 
-![yapılacak şey:image_alt_text](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_3.png)
+![todo:image_alt_text](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_3.png)
 
-EnableClipboardCopyPaste'in doğru ve PasteType'ın All olduğu göz önüne alındığında, Windows'tan bir görüntü kopyaladıktan sonra. Aşağıdaki ekran görüntüsü, B3 hücresi kopyalanıp C5 hücresine yapıştırıldığında görüntüyü C5 hücresine de kopyaladığını göstermektedir.
+EnableClipboardCopyPaste true ve PasteType All olduğunda, Windows'tan bir resmi kopyaladıktan sonra B3 hücresinin C5 hücresine yapıştırıldığı aşağıdaki ekran görüntüsünde gösterildiği gibi, aynı zamanda resmi C5 hücresine de kopyalar.
 
-![yapılacak:görüntüyü kopyala](copyimage.png)
+![yapılacak:resmi kopyala](resmikopya.png)
 
-![yapılacaklar: kopyaladıktan sonra yapıştır](aftercopy.png)
+![yapıştırdıktan sonra kopya](yapıştırması.png)
 
 

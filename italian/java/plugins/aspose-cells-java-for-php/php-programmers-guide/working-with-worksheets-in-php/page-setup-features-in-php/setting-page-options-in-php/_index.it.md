@@ -1,16 +1,17 @@
-﻿---
-title: Impostazione delle opzioni della pagina in Php
+---
+title: Impostazione delle opzioni di pagina in Php
 type: docs
 weight: 10
 url: /it/java/setting-page-options-in-php/
 ---
-## **Aspose.Cells - Impostazione Opzioni Pagina**
-### **Orientamento della pagina**
- Per applicare le impostazioni di orientamento della pagina utilizzando**Aspose.Cells Java for PHP** , chiamata**orientamento_pagina** metodo di**impostazione della pagina** modulo.
+
+## **Aspose.Cells - Impostazione delle opzioni di pagina**
+### **Orientamento pagina**
+Per applicare le impostazioni di orientamento della pagina usando **Aspose.Cells Java per PHP**, chiama il metodo **page_orientation** del modulo **pagesetup**.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function page_orientation($dataDir=null)
 
@@ -46,11 +47,11 @@ url: /it/java/setting-page-options-in-php/
 
 {{< /highlight >}}
 ### **Fattore di scala**
- Per applicare il ridimensionamento utilizzando**Aspose.Cells Java for PHP** , chiamata**ridimensionamento** metodo di**impostazione della pagina** modulo.
+Per applicare il ridimensionamento usando **Aspose.Cells Java per PHP**, chiama il metodo **scaling** del modulo **pagesetup**.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function scaling($dataDir=null)
 
@@ -85,6 +86,6 @@ url: /it/java/setting-page-options-in-php/
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Impostazione opzioni pagina (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Opzioni della pagina Impostazioni (Aspose.Cells)** da uno dei siti di codice sociale di seguito indicati:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/PageSetupFeatures/SettingPageOptions.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/PageSetupFeatures/SettingPageOptions.php)

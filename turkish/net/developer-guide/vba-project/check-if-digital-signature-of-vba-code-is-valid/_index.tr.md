@@ -1,17 +1,18 @@
-﻿---
-title: VBA Kodunun Dijital İmzasının Geçerli olup olmadığını kontrol edin
+---
+title: VBA Kodunun Dijital İmzasının Geçerli Olup Olmadığını Kontrol Et
 type: docs
 weight: 120
 url: /tr/net/check-if-digital-signature-of-vba-code-is-valid/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells, VBA kodunun dijital imzasının geçerli olup olmadığını kontrol etmenizi sağlar.[**Workbook.VbaProject.IsValidSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isvalidsigned) Emlak. geri dönecek**doğru** imza geçerliyse aksi takdirde geri döner**YANLIŞ**. VBA kodunu değiştirdiğinizde, VBA kodunun dijital imzası geçersiz hale gelir.
+Aspose.Cells, VBA kodunun dijital imzasının [**Workbook.VbaProject.IsValidSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isvalidsigned) özelliğini kullanarak geçerli olup olmadığını kontrol etmenizi sağlar. İmza geçerliyse **true** döndürecek, aksi takdirde **false** döndürecektir. VBA kodunun dijital imzası değiştirildiğinde geçersiz hale gelir.
 
 {{% /alert %}}
 
-## **C#'de VBA Kodunun Dijital İmzasının Geçerli olup olmadığını kontrol edin**
+## **C#'da VBA Kodunun Dijital İmzasının Geçerli Olup Olmadığını Kontrol Et**
 
- Aşağıdaki kod, bu özelliğin kullanımını gösterir.[örnek excel dosyası](5115030.xlsm)verilen bağlantıdan indirebilirsiniz. Aynı excel dosyasının geçerli bir imzası var ama VBA kodunu değiştirip çalışma kitabını kaydedip tekrar kontrol ettiğimizde imzasının geçersiz olduğunu görüyoruz.
+Aşağıdaki kod, sağlanan bağlantıdan indirebileceğiniz [örnek excel dosyası](5115030.xlsm) kullanarak bu özelliğin kullanımını göstermektedir. Aynı excel dosyasının geçerli bir imzası vardır ancak VBA kodunu değiştirip çalıştırdıktan sonra imzanın geçersiz olduğunu buluruz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-CheckVbaSignatureIsValid-CheckVbaSignatureIsValid.cs" >}}

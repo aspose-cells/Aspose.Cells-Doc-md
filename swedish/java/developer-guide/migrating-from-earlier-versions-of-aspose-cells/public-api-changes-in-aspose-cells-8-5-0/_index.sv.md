@@ -1,27 +1,28 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.5.0
+---
+title: Offentliga API ändringar i Aspose.Cells 8.5.0
 type: docs
 weight: 170
 url: /sv/java/public-api-changes-in-aspose-cells-8-5-0/
 ---
+
 {{% alert color="primary" %}} 
 
- Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.4.2 till 8.5.0 som kan vara av intresse för modul-/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder,[lagt till klasser etc.](/cells/sv/java/public-api-changes-in-aspose-cells-8-5-0/), men också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Detta dokument beskriver ändringarna i Aspose.Cells API från version 8.4.2 till 8.5.0 som kan vara av intresse för modul-/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade allmänna metoder, [tillagda klasser etc.](/cells/sv/java/public-api-changes-in-aspose-cells-8-5-0/), utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
-## **Lade till API:er**
-### **Ändrade parametrar för ICustomFunction.CalculateCustomFunction**
-Om en parameter för den anpassade funktionen är cellreferens, används i den gamla versionen Aspose.Cells API:er för att konvertera cellreferensen till ett cellvärde eller en objektmatris med alla cellvärden i det refererade området. För många funktioner och användare krävs dock inte cellvärdesmatrisen för alla celler i det refererade området, de behöver bara en enda cell som motsvarar formelns position, eller behöver bara referensen i sig istället för cellvärdet eller värdematrisen . För vissa situationer ökade hämtning av alla cellvärden till och med risken för cirkulära referensfel.
+## **Tillagda API:er**
+### **Ändrade ICustomFunction.CalculateCustomFunction-parametrar**
+Om en parameter för den anpassade funktionen är en cellreferens användes i äldre versioner Aspose.Cells API för att konvertera cellreferensen till ett cellvärde eller en objektarray av alla cellvärden i det angivna området. Men för många funktioner och användare är inte cellvärdesarrayen för alla celler i det angivna området nödvändig, de behöver bara en enskild cell som motsvarar formelns position, eller bara behöver själva referensen istället för cellvärdet eller värdearrayen. För vissa situationer ökade det till och med risken för cirkulär referensfel.
 
-För att stödja en sådan typ av krav har Aspose.Cells for Java 8.5.0 ändrat parametervärdet till "paramsList" för refererat område. Sedan v8.5.0 lägger API bara in ReferredArea-objektet i "paramsList" när motsvarande parameter är en referens eller dess beräknade resultat är referens. Om du behöver själva referensen kan du använda ReferredArea direkt. Om du behöver få ett enskilt cellvärde från referensen som motsvarar formelns position, kan du använda metoden ReferredArea.getValue(rowOffset, int colOffset). Om du behöver en cellvärdesarray för hela området kan du använda metoden ReferredArea.getValues.
+För att stödja sådana krav har Aspose.Cells for Java 8.5.0 ändrat parametervärdet till "paramsList" för det angivna området. Sedan v8.5.0 sätter API:et bara ReferredArea-objektet i "paramsList" när den motsvarande parametern är en referens eller dess beräknade resultat är en referens. Om du behöver referensen själv kan du använda ReferredArea direkt. Om du behöver få ett enskilt cellvärde från referensen som motsvarar formelns position kan du använda ReferredArea.getValue(rowOffset, int colOffset)-metoden. Om du behöver cellvärdesarrayen för hela området kan du använda ReferredArea.getValues-metoden.
 
-Nu när Aspose.Cells for Java 8.5.0 ger ReferredArea i "paramsList", kommer ReferredAreaCollection i "contextObjects" inte att behövas längre (i gamla versioner kunde den inte alltid ge en-till-en-karta till parametrarna för den anpassade funktionen), så den här versionen har också tagit bort den från "contextObjects" nu.
+Nu när Aspose.Cells for Java 8.5.0 ger ReferredArea i "paramsList" behövs inte längre ReferredAreaCollection i "contextObjects" (i äldre versioner kunde den inte alltid ge en-ett-mappning till den anpassade funktionens parametrar), så denna version har också tagit bort den från "contextObjects" nu.
 
-Denna ändring kräver ändringar av koden för implementeringen för ICustomFunction lite när du behöver värdet/värdena för referensparametern.
+Denna förändring kräver lite justeringar av kodimplementationen för ICustomFunction när du behöver värdet/värdena för referensparametern.
 
-**Gammal implementering**
+**Gammal implementation**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public object CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)
 
@@ -47,9 +48,9 @@ Denna ändring kräver ändringar av koden för implementeringen för ICustomFun
 
 {{< /highlight >}}
 
-**Ny implementering**
+**Ny implementation**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public object CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)
 
@@ -98,31 +99,31 @@ Denna ändring kräver ändringar av koden för implementeringen för ICustomFun
 }
 
 {{< /highlight >}}
-### **Klassberäkningsalternativ har lagts till**
- Aspose.Cells for Java 8.5.0 har exponerat klassen CalculationOptions för att lägga till mer flexibilitet och utökningsbarhet för formelberäkningsmotorn. Den nyligen tillagda klassen har följande egenskaper.
+### **Klassen CalculationOptions tillagd**
+Aspose.Cells for Java 8.5.0 har exponerat klassen CalculationOptions för att lägga till mer flexibilitet och utbyggnad för formelberäkningsmotorn. Den nyss tillagda klassen har följande egenskaper. 
 
-1. CalculationOptions.CalcStackSize: Angav stackstorleken för att beräkna celler rekursivt. -1 anger att beräkningen kommer att använda WorkbookSettings.CalcStackSize för motsvarande arbetsbok.
+1. CalculationOptions.CalcStackSize: Specificerar stackstorleken för att beräkna celler rekursivt. -1 anger att beräkningen kommer att använda WorkbookSettings.CalcStackSize för motsvarande arbetsbok.
 1. CalculationOptions.CustomFunction: Utökar formelberäkningsmotorn med anpassad formel.
-1. CalculationOptions.IgnoreError: Boolesk typvärde indikerar om fel ska döljas vid beräkning av formlerna, där felen kan bero på funktionen som inte stöds, extern länk eller mer.
-1. CalculationOptions.PrecisionStrategy: CalculationPrecisionStrategy-typvärde som anger strategin för bearbetningsprecision i beräkningen.
-### **Uppräkning BeräkningPrecisionStrategy tillagd**
-Aspose.Cells for Java 8.5.0 har exponerat uppräkningen CalculationPrecisionStrategy för att lägga till mer flexibilitet till formelberäkningsmotorn för att få önskade resultat. Denna uppräkning strategier hanteringen av beräkningsprecisionen. På grund av precisionsproblemet med IEEE 754 Floating-Point Arithmetic, kanske vissa till synes enkla formler inte beräknas för att ge förväntade resultat, därför har den senaste API-byggnaden exponerat följande fält för att få önskade resultat enligt urvalet.
+1. CalculationOptions.IgnoreError: Booleskt värde som indikerar om fel ska döljas vid beräkning av formler, där felen kan bero på otillåten funktion, extern länk eller mer.
+1. CalculationOptions.PrecisionStrategy: Värdet CalculationPrecisionStrategy som specifierar strategin för att hantera beräkningsprecisionen.
+### **Enumeration CalculationPrecisionStrategy tillagd**
+Aspose.Cells for Java 8.5.0 har exponerat enumen CalculationPrecisionStrategy för att lägga till mer flexibilitet i formelberäkningsmotorn för att få önskade resultat. Denna enum strategisera beräkningsprecisionens hantering. På grund av precisionproblemet med IEEE 754 Floating-Point Arithmetic kan vissa tillsynes enkla formler inte beräknas för att ge förväntade resultat, därför har den senaste API-versionen exponerat följande fält för att få önskade resultat enligt valet.
 
-1. CalculationPrecisionStrategy.DECIMAL: Använder decimal som operand där det är möjligt, och är mest ineffektivt utifrån prestandaöverväganden.
-1. CalculationPrecisionStrategy.ROUND: Avrundar beräkningsresultaten enligt signifikant siffra.
-1. CalculationPrecisionStrategy.NONE: Ingen strategi tillämpas därför under beräkningen använder motorn det ursprungliga dubbelvärdet som operand och returnerar resultatet direkt. Det här alternativet är mest effektivt och kan användas i de flesta fall.
-### **Metoder tillagda för att använda beräkningsalternativ**
-Med lanseringen av v8.5.0 har Aspose.Cells API lagt till överbelastningsversioner av calculateFormula-metoden enligt listan nedan.
+1. CalculationPrecisionStrategy.DECIMAL: Använder decimal som operand när det är möjligt och är mest ineffektivt med avseende på prestanda.
+1. CalculationPrecisionStrategy.ROUND: Avrundar beräkningsresultaten enligt signifikanta siffror.
+1. CalculationPrecisionStrategy.NONE: Ingen strategi tillämpas därför under beräkningen använder motorn det ursprungliga dubbla värdet som operand och returnerar resultatet direkt. Detta alternativ är mest effektivt och är tillämpligt för de flesta fall.
+### **Metoder tillagda för att använda CalculationOptions**
+Med släppet av v8.5.0 har Aspose.Cells API lagt till överbelastningsversioner av calculateFormula-metoden som listas nedan.
 
 - Workbook.calculateFormula(CalculationOptions)
-- Worksheet.calculateFormula(CalculationOptions-alternativ, bool rekursiv)
+- Worksheet.calculateFormula(CalculationOptions options, bool recursive)
 - Cell.calculate(CalculationOptions)
-### **Uppräkningsfält PasteType.ROW_HEIGHTS har lagts till**
-Aspose.Cells API:er har tillhandahållit PasteType.ROW_HEIGHTS uppräkningsfält för att kopiera radhöjderna samtidigt som intervallen kopieras. När du ställer in egenskapen PasteOptions.PasteType till ((PasteType.ROW_HEIGHTS}} höjderna på alla rader inom källområdet kommer att kopieras till destinationsområdet.
+### **Enum Field PasteType.ROW_HEIGHTS tillagd**
+Aspose.Cells API har tillhandahållit fältet PasteType.ROW_HEIGHTS i enumen för att kopiera radhöjder vid kopiering av områden. Genom att ställa in PasteOptions.PasteType-egenskapen till ((PasteType.ROW_HEIGHTS}} kommer höjderna för alla rader i källområdet att kopieras till destinationsområdet.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -169,12 +170,12 @@ dstSheet.getCells().get("D4").putValue("Row heights of source range copied to de
 workbook.save("output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
-### **Property SheetRender.PageScale tillagd**
-När du ställer in Skalning av sidinställningar med**Passar till n sida/sidor bred och m hög** option, Microsoft Excel beräknar skalfaktorn för sidinställningar. Samma kan uppnås med egenskapen SheetRender.PageScale exponerad av Aspose.Cells for Java 8.5.0. Den här egenskapen returnerar ett dubbelt värde som kan konverteras till procentuellt värde. Till exempel, om den returnerar 0,507968245 betyder det att skalfaktorn är 51 %.
+### **Tillagd SheetRender.PageScale-egenskap**
+När du ställer in siduppställningsskalningen med alternativet **Anpassa till n sidor bredvid m höga** beräknar Microsoft Excel skalfaktorn för siduppställning. Samma kan uppnås med hjälp av SheetRender.PageScale-egenskapen exponerad av Aspose.Cells for Java 8.5.0. Denna egenskap returnerar ett dubbelvärde som kan konverteras till procentvärde. Om det till exempel returnerar 0.507968245 betyder det att skalfaktorn är 51%.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -207,20 +208,20 @@ SheetRender sr = new SheetRender(worksheet, new ImageOrPrintOptions());
 System.out.println(sr.getPageScale());
 
 {{< /highlight >}}
-### **Uppräkning CellValueFormatStrategy tillagd**
- Aspose.Cells for Java 8.5.0 har lagt till en ny uppräkning CellValueFormatStrategy för att hantera situationer där cellvärden måste extraheras med eller utan formatering. Enumeration CellValueFormatStrategy har följande fält.
+### **Enum CellValueFormatStrategy tillagd**
+Aspose.Cells for Java 8.5.0 har lagt till en ny enum CellValueFormatStrategy för att hantera situationer där cellvärden måste extraheras med eller utan tillämpad formatering. Enum CellValueFormatStrategy har följande fält. 
 
 1. CellValueFormatStrategy.CELL_STYLE: Endast formaterad med cellens ursprungliga format.
 1. CellValueFormatStrategy.DISPLAY_STYLE: Formaterad med cellens visade stil.
 1. CellValueFormatStrategy.NONE: Ej formaterad.
-### **Metod Cell.getStringValue Added**
-För att kunna använda uppräkningen CellValueFormatStrategy har v8.5.0 avslöjat metoden Cell.getStringValue som kan acceptera en parameter av typen CellValueFormatStrategy och returnerar värdet beror på det angivna alternativet.
+### **Lade till Cell.getStringValue-metod**
+För att använda CellValueFormatStrategy-uppräkningen, har v8.5.0 exponerat Cell.getStringValue-metoden som kan acceptera en parameter av typ CellValueFormatStrategy och returnera värdet beroende på det angivna alternativet.
 
-Följande kodavsnitt visar hur man använder den nyligen exponerade metoden Cells.getStringValue.
+Följande kodsnutt visar hur man använder den nyexponerade Cells.getStringValue-metoden.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook
 

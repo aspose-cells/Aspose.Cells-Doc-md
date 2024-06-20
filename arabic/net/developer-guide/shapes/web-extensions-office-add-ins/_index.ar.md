@@ -1,43 +1,48 @@
-﻿---
-title: ملحقات الويب - الوظائف الإضافية للمكتب
+---
+title: الإضافات الإلكترونية للويب  إضافات Office
 type: docs
 weight: 130
 url: /ar/net/web-extensions-office-add-ins/
 ---
-تعمل ملحقات الويب على توسيع تطبيقات Office والتفاعل مع المحتوى في مستندات Office. تضيف ملحقات الويب وظائف إضافية إلى عميل Office لتحسين تجربة المستخدم والإنتاجية.
 
-يوفر Aspose.Cells أيضًا القدرة على العمل مع ملحقات الويب.
+ملحقات الويب توسع تطبيقات Office وتتفاعل مع محتوى مستندات Office. تضيف ملحقات الويب وظائف إضافية إلى عميل Office لتحسين تجربة المستخدم وزيادة الإنتاجية.
+
+توفر Aspose.Cells أيضًا القدرة على العمل مع ملحقات الويب.
 
 ## **إضافة ملحق ويب**
 
- يمكنك إضافة ملحقات ويب (وظائف Office الإضافية) في Excel بالنقر فوق**إدراج** علامة التبويب ثم النقر فوق**محل**/**احصل على الوظائف الإضافية** حلقة الوصل. في مربع الوظائف الإضافية ، استعرض للوصول إلى الوظيفة الإضافية التي تريدها وقم بإضافتها.
+يمكنك إضافة ملحقات الويب (ملحقات Office) في Excel عن طريق النقر فوق علامة التبويب **إدراج** ثم النقر فوق الرابط **متجر**/**الحصول على الملحقات**. في مربع الملحقات، تصفح الإضافة التي تريدها وأضفها.
 
-يوفر Aspose.Cells أيضًا ميزة إضافة ملحقات ويب باستخدام امتداد[**WebExtension**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) و[**WebExtensionTaskPane**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane) الطبقات. يوضح نموذج التعليمات البرمجية التالي استخدام[**WebExtension**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) و[**WebExtensionTaskPane**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane)فئات لإضافة امتداد ويب إلى ملف Excel. الرجاء مراجعة[إخراج ملف Excel](89849869.xlsx)التي تم إنشاؤها بواسطة رمز كمرجع.
+توفر Aspose.Cells أيضًا ميزة إضافة ملحقات الويب باستخدام فئات [**WebExtension**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) و [**WebExtensionTaskPane**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane). يوضح الكود العيني الأتي استخدام فئات [**WebExtension**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) و [**WebExtensionTaskPane**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane) لإضافة ملحق ويب إلى ملف Excel. يرجى الرجوع إلى [ملف Excel الناتج](89849869.xlsx) الذي تم إنشاؤه بواسطة الكود للإشارة.
 
-### **عينة من الرموز**
+### **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AddWebExtension-1.cs" >}}
 
 ## **الوصول إلى معلومات ملحق الويب**
 
- يوفر Aspose.Cells إمكانية الوصول إلى معلومات ملحقات الويب في ملف Excel. يوضح نموذج التعليمات البرمجية التالي كيفية الوصول إلى معلومات امتداد الويب عن طريق تحميل ملف[نموذج لملف Excel](89849870.xlsx). يرجى الاطلاع على إخراج وحدة التحكم التي تم إنشاؤها بواسطة الرمز كمرجع.
+توفر Aspose.Cells القدرة على الوصول إلى معلومات ملحقات الويب في ملف Excel. يوضح الكود العيني الأتي كيفية الوصول إلى معلومات ملحق الويب عن طريق تحميل [ملف Excel عيني](89849870.xlsx). يرجى الاطلاع على مخرجات وحدة التحكم التي تم إنشاؤها بواسطة الكود للإشارة.
 
-### **عينة من الرموز**
+### **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AccessWebExtensionInformation-1.cs" >}}
 
-### **إخراج وحدة التحكم**
+### **مخرجات الوحدة**
 
-العرض: 350
+{{< highlight java >}}
 
-غير مرئي: صحيح
+Width: 350
 
-IsLocked: خطأ
+IsVisible: True
 
-DockState: صحيح
+IsLocked: False
+
+DockState: right
 
 StoreName: en-US
 
-نوع المتجر: OMEX
+StoreType: OMEX
 
 WebExtension.Id: 95D7ECE8-1355-492B-B6BF-27D25D0B0EEF
+
+{{< /highlight >}}

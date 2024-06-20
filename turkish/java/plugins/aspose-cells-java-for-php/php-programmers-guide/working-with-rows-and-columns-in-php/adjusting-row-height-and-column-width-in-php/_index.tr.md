@@ -1,19 +1,20 @@
-﻿---
-title: PHP'de Satır Yüksekliği ve Sütun Genişliğini Ayarlama
+---
+title: PHP de Sıra Yüksekliğini ve Sütun Genişliğini Ayarlama
 type: docs
 weight: 10
 url: /tr/java/adjusting-row-height-and-column-width-in-php/
 ---
+
 ## **Aspose.Cells - Satır Yüksekliğini ve Sütun Genişliğini Ayarlama**
-### **Satır Yüksekliğini Ayarlama**
-Cells koleksiyonunun setRowHeight yöntemini çağırarak tek bir satırın yüksekliğini ayarlamak mümkündür. setRowHeight yöntemi aşağıdaki parametreleri alır:
+### **Satır Yüksekliğini Ayarlamak**
+Tek bir satırın yüksekliğini belirlemek için  Cells koleksiyonunun setRowHeight metodunu çağırarak yapılabilir. setRowHeight metodu şu parametreleri alır:
 
-- **Satır dizini**, yüksekliğini değiştirdiğiniz satırın dizini.
-- **Satır yüksekliği**, satıra uygulanacak satır yüksekliği.
+- **Satır dizini**, yüksekliği değiştirdiğiniz satırın dizini.
+- **Satır yüksekliği**, satıra uygulanan satır yüksekliği.
 
-**PHP Kodu**
+PHP Kodu
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function set_row_height($dataDir)
 
@@ -43,14 +44,14 @@ Cells koleksiyonunun setRowHeight yöntemini çağırarak tek bir satırın yük
 
 {{< /highlight >}}
 ### **Sütun Genişliğini Ayarlama**
-Cells koleksiyonunun setColumnWidth yöntemini çağırarak bir sütunun genişliğini ayarlayın. setColumnWidth yöntemi aşağıdaki parametreleri alır:
+Bir sütunun genişliğini, Hücreler koleksiyonunun setColumnWidth method'unu çağırarak ayarlayın. setColumnWidth method'u aşağıdaki parametreleri alır:
 
-- **Sütun dizini**, genişliğini değiştirdiğiniz sütunun dizini.
+- **Sütun dizini**, genişliği değiştirdiğiniz sütunun dizini.
 - **Sütun genişliği**, istenen sütun genişliği.
 
-**PHP Kodu**
+PHP Kodu
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function set_column_width($dataDir)
 
@@ -80,6 +81,6 @@ Cells koleksiyonunun setColumnWidth yöntemini çağırarak bir sütunun genişl
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Satır Yüksekliğini ve Sütun Genişliğini Ayarlama (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıda belirtilen sosyal kodlama sitelerinden **Satır Yüksekliğini ve Sütun Genişliğini Ayarlama (Aspose.Cells)** dosyasını indirebilirsiniz:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

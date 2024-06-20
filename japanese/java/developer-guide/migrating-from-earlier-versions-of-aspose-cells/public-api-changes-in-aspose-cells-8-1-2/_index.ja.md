@@ -1,21 +1,22 @@
-﻿---
-title: パブリック API Aspose.Cells の変更点 8.1.2
+---
+title: Aspose.Cells 8.1.2でのパブリックAPIの変更
 type: docs
 weight: 70
 url: /ja/java/public-api-changes-in-aspose-cells-8-1-2/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、バージョン 8.1.1 から 8.1.2 への Aspose.Cells API の変更点について説明します。これは、モジュール/アプリケーション開発者にとって興味深いものです。これには、新規および更新されたパブリック メソッドだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
+このドキュメントでは、Aspose.Cellsのバージョン8.1.1から8.1.2へのAPIの変更について説明しており、モジュール/アプリケーション開発者に興味を持たれる可能性があります。新しいおよび更新されたパブリックメソッドだけでなく、Aspose.Cellsの内部の動作に変更がある場合についても説明しています。
 
 {{% /alert %}} 
-## **フォントの置換が発生した場合の警告のサポートを追加**
-Aspose.Cells for Java 8.1.2 では、WarningInfo および WarningType クラス、IWarningCallback インターフェイス、SaveOptions.WarningCallback および ImageOrPrintOptions.WarningCallback プロパティが追加され、スプレッドシートを画像、XPS および PDF 形式に変換するときにフォントの置換が発生したときに開発者が警告を受け取ることができるようになりました。
+## **フォントの代替が発生した場合に警告が表示されるサポートが追加されました**
+Aspose.Cells for Java 8.1.2では、スプレッドシートを画像、XPSおよびPDF形式に変換する際にフォントの代替が発生した場合に開発者が警告を受け取るためのWarningInfoおよびWarningTypeクラス、IWarningCallbackインターフェース、SaveOptions.WarningCallbackおよびImageOrPrintOptions.WarningCallbackプロパティが追加されました。 
 
 {{% alert color="primary" %}} 
 
-の詳細記事をご確認ください[スプレッドシートのレンダリング中にフォントの置換に関する警告が表示される](http://aspose.com/docs/display/cellsjava/Get+Warnings+for+Font+Substitution+while+Rendering+Excel+File)詳細については。
+詳細な記事は[スプレッドシートのレンダリング中にフォントの代替に対する警告を取得](http://aspose.com/docs/display/cellsjava/Get+Warnings+for+Font+Substitution+while+Rendering+Excel+File)をご確認ください。
 
 {{% /alert %}}
-## **古い PdfSaveOptions.ChartImageType プロパティを削除**
-Aspose.Cells for Java 8.1.2 では、廃止された PdfSaveOptions.ChartImageType プロパティがパブリック API から削除されました。
+## **非推奨のPdfSaveOptions.ChartImageTypeプロパティが削除されました**
+Aspose.Cells for Java 8.1.2では、公開APIから非推奨のPdfSaveOptions.ChartImageTypeプロパティが削除されました。

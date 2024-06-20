@@ -1,35 +1,34 @@
 ---
-title: Frigör rader eller kolumner
-linktitle: Frigör rutor
+title: Avfrys rader eller kolumner
+linktitle: Avfrys fönster
 type: docs
 weight: 190
 url: /sv/net/unfreeze-rows-or-columns-of-excel-worksheet
-description: den här artikeln kommer du att lära dig hur du låser upp rader, kolumner eller rutor i Excel-kalkylblad programmatiskt med hjälp av C# Library med .NET API.
-keywords: Unfreeze panes, Unfreeze rows, Unfreeze columns, unFreeze window.
+description: I den här artikeln kommer du att lära dig hur man avfryser rader, kolumner eller fönster för Excel ark programmatiskt med C# biblioteket med .NET API.
+keywords: Avfrys fönster, Avfrys rader, Avfrys kolumner, Avfrys fönster.
 ---
-{{% alert color="primary" %}}
 
-I den här artikeln kommer vi att lära oss hur man låser upp rader, kolumner och rutor.
-Om kalkylblad i Excel-filer är frysta, ibland vill vi frysa kalkylblad eller justera frysta rader, kolumner eller rutor.
+## **Introduktion**
 
-{{% /alert %}}
+I den här artikeln kommer vi att lära oss hur man avfryser rader, kolumner och delar. Om kalkylbladen i Excel-filerna är frysta vill vi ibland avfrysa kalkylarket eller justera frysta rader, kolumner eller delar.
 
-##  **I Excel**
 
-1. Klicka på fliken Visa > Frys rutor > Unfreeze Panes.
+## **I Excel**
 
-**![unfreeze rutor i Excel](Unfreeze-Panes.png)**
+1. Klicka på fliken Visa > Frys fönster > Avfrys fönster.
 
+**![avfrysta fönster i Excel](Avfrys-Fönster.png)**
 
 
 
-##  **Avfrysa rader, kolumner eller rutor med Aspose.Cells för .Net**
- Det är enkelt att låsa upp rutor med Aspose.Cells för .Net. Vänligen använd[**Arbetsblad.UnFreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/unfreezepanes)metod för att frigöra rutor.
 
-1. Konstruera arbetsbok för att öppna den frysta filen.
-2. Lås upp rutor med metoden Worksheet.UnFreezePanes().
+## **Avfrys rader, kolumner eller fönster med Aspose.Cells för .Net**
+Det är enkelt att avfrysa fönster med Aspose.Cells för .Net. Använd [**Worksheet.UnFreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/unfreezepanes)-metoden för att avfrysa fönster.
+
+1. Konstruera arbetsboken för att öppna den frysta filen.
+2. Avfrysa fönster med metoden Worksheet.UnFreezePanes().
 3. Spara filen.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Unfreeze-Pane.cs" >}}
 
- Bifogad[exempel på Excel-källfil](Frozen.xlsx).
+Bifogad [provkälla för Excel-filen](Fryst.xlsx).

@@ -1,17 +1,18 @@
-﻿---
-title: ワークシートにハイパーリンクを挿入
+---
+title: ワークシートにハイパーリンクを挿入する
 type: docs
 weight: 20
 url: /ja/java/insert-hyperlinks-in-worksheet/
 ---
-## **Aspose.Cells - ワークシートにハイパーリンクを挿入する**
-**同じファイルに Cell へのリンクを追加する**
 
-Hyperlink コレクションの Add メソッドを呼び出すことで、同じ Excel ファイル内のセルにハイパーリンクを追加できます。 Add メソッドは、内部ハイパーリンクと外部ハイパーリンクの両方に対して機能します。
+## **Aspose.Cells - ワークシートにハイパーリンクを挿入する**
+同一ファイル内のセルにリンクを追加する
+
+セルにハイパーリンクを追加するには、HyperlinkコレクションのAddメソッドを呼び出します。Addメソッドは、内部および外部の両方のハイパーリンクに対して機能します。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtaining the reference of the first worksheet.
 
@@ -48,18 +49,18 @@ hyperlinks.add("A2",1 ,1, "Sheet1!B9");
 
 {{< /highlight >}}
 
-**外部ファイルへのリンクの追加**
+外部ファイルへのリンクを追加する
 
-Hyperlinks コレクションの Add メソッドを呼び出すことにより、外部の Excel ファイルにハイパーリンクを追加することができます。 Add メソッドは、次のパラメーターを取ります。
+外部Excelファイルにハイパーリンクを追加することが可能で、HyperlinksコレクションのAddメソッドを呼び出します。Addメソッドには以下のパラメータが必要です:
 
-- Cell name、ハイパーリンクが追加されるセルの名前。
+- セル名、ハイパーリンクが追加されるセルの名前。
 - 行数、このハイパーリンク範囲の行数。
-- 列数、このハイパーリンク範囲内の列数。
-- URL、ターゲットのアドレス、外部 Excel ファイル。
+- 列数、このハイパーリンク範囲の列数。
+ - URL、対象のアドレス、外部のExcelファイル。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  cell = cells.get("A3");
 
@@ -74,10 +75,10 @@ hyperlinks = sheet.getHyperlinks();
 hyperlinks.add("A3", 1, 1, "book1.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - ワークシートへのハイパーリンクの挿入**
+## **Apache POI SS - HSSF XSSF - ワークシートにハイパーリンクを挿入する**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  CellStyle hlink_style = wb.createCellStyle();
 
@@ -158,7 +159,7 @@ cell.setHyperlink(link2);
 cell.setCellStyle(hlink_style);
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/hyperlink)

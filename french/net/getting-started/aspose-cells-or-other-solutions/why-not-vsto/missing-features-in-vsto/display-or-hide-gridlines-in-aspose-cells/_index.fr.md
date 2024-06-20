@@ -1,38 +1,39 @@
-﻿---
-title: Afficher ou masquer le quadrillage dans Aspose.Cells
+---
+title: Affichage ou masquage des quadrillages dans Aspose.Cells
 type: docs
 weight: 50
 url: /fr/net/display-or-hide-gridlines-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Toutes les feuilles de calcul Excel ont un quadrillage par défaut. Ils aident à délimiter les cellules, de sorte qu'il est facile d'entrer des données dans des cellules particulières. Le quadrillage nous permet de visualiser une feuille de calcul comme une collection de cellules, où chaque cellule est facilement identifiable.
+Toutes les feuilles de calcul Excel ont des quadrillages par défaut. Ils permettent de délimiter les cellules, ce qui facilite l'entrée de données dans des cellules particulières. Les quadrillages nous permettent de visualiser une feuille de calcul comme une collection de cellules, où chaque cellule est facilement identifiable.
 
 {{% /alert %}}
 
-## **Contrôle de la visibilité du quadrillage**
+## **Contrôler la visibilité des quadrillages**
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Feuilles de travail**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel.
+Aspose.Cells fournit une classe, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), qui représente un fichier Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) contient une collection [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) qui permet d'accéder à chaque feuille de calcul du fichier Excel.
 
- Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) La classe fournit un large éventail de propriétés et de méthodes pour gérer une feuille de calcul. Pour contrôler la visibilité des lignes de grille, utilisez la[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe'[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) la propriété.[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) est une propriété booléenne, ce qui signifie qu'elle ne peut stocker qu'un**vrai** ou alors**faux** évaluer.
+Une feuille de calcul est représentée par la classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). La classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) fournit une large gamme de propriétés et de méthodes pour gérer une feuille de calcul. Pour contrôler la visibilité des quadrillages, utilisez la propriété [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) de la classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) est une propriété booléenne, ce qui signifie qu'elle ne peut stocker qu'une valeur **true** ou **false**.
 
- Un exemple complet est donné ci-dessous qui démontre l'utilisation de la[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) propriété de la[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class pour masquer le quadrillage de la première feuille de calcul du fichier Excel.
+Un exemple complet est donné ci-dessous qui démontre l'utilisation de la propriété [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) de la classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) pour masquer les quadrillages de la première feuille de calcul du fichier Excel.
 
-Dans la capture d'écran ci-dessous, vous pouvez voir que le fichier Book1.xls contient trois feuilles de calcul : Sheet1, Sheet2 et Sheet3. Toutes les feuilles de calcul ont un quadrillage.
+Sur la capture d'écran ci-dessous, vous pouvez voir que le fichier Book1.xls contient trois feuilles de calcul : Sheet1, Sheet2 et Sheet3. Toutes les feuilles de calcul ont des quadrillages.
 
-**Book1.xls : vue feuille de calcul avant modification** 
+** Book1.xls : vue de la feuille de calcul avant modification ** 
 
-![tâche : image_autre_texte](display-or-hide-gridlines-in-aspose-cells_1.png)
+![todo:image_alt_text](display-or-hide-gridlines-in-aspose-cells_1.png)
 
-Le fichier Book1.xls est ouvert à l'aide de la classe Workbook et le quadrillage de la première feuille de calcul est masqué. Le fichier modifié est enregistré sous output.xls.
+Le fichier Book1.xls est ouvert en utilisant la classe Workbook et les lignes de la grille sur la première feuille de calcul sont cachées. Le fichier modifié est enregistré sous le nom de output.xls.
 
-**Output.xls : feuille de calcul après modification** 
+**Output.xls : feuille de calcul après modification** 
 
-![tâche : image_autre_texte](display-or-hide-gridlines-in-aspose-cells_2.png)
+![todo:image_alt_text](display-or-hide-gridlines-in-aspose-cells_2.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -62,10 +63,10 @@ fstream.Close();
 
 {{< /highlight >}}
 
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Gridlines)
 
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

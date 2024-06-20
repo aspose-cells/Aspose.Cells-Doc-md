@@ -1,23 +1,24 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.4.2
+---
+title: Offentliga API ändringar i Aspose.Cells 8.4.2
 type: docs
 weight: 160
 url: /sv/java/public-api-changes-in-aspose-cells-8-4-2/
 ---
+
 {{% alert color="primary" %}} 
 
- Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.4.1 till 8.4.2 som kan vara av intresse för modul-/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder,[lagt till klasser etc.](/cells/sv/java/public-api-changes-in-aspose-cells-8-4-2/), men också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Detta dokument beskriver förändringarna i Aspose.Cells API från version 8.4.1 till 8.4.2 som kan vara av intresse för modul-/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, [tillagda klasser etc.](/cells/sv/java/public-api-changes-in-aspose-cells-8-4-2/), utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
-## **Lade till API:er**
-### **Förbättrad mekanism för att skapa diagram**
-Klassen com.aspose.cells.charts.Chart har avslöjat metoden setChartDataRange för att underlätta arbetet med att skapa diagram. Metoden setChartDataRange accepterar två parametrar, där den första parametern är av typen sträng som anger det cellområde från vilket dataserien ska plottas. Den andra parametern är av typen Boolean som anger plotorienteringen, det vill säga; om du vill plotta diagramdataserien från ett intervall av cellvärden efter rad eller kolumner.
+## **Tillagda API:er**
+### **Förbättrad diagramskapningsmekanism**
+Klassen com.aspose.cells.charts.Chart har exponerat setChartDataRange-metoden för att underlätta uppgiften med diagramskapning. setChartDataRange-metoden accepterar två parametrar, där första parametern är av typen sträng som specificerar cellområdet från vilket dataserierna ska plottas. Den andra parametern är av typen Boolesk som specificerar plottorienteringen, det vill säga; om dataserierna ska plottas från en rad- eller kolumnvärdespalett.
 
-Följande kodavsnitt visar hur man skapar ett kolumndiagram med några rader kod förutsatt att diagrammets plotseriedata finns på samma kalkylblad från cell A1 till D4.
+Följande kodsnutt visar hur man skapar ett kolumnschema med några få rader kod under förutsättning att diagrammets plottseriedata finns på samma kalkylblad från cell A1 till D4.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Add a new chart of type Column to chart collection
 
@@ -33,14 +34,14 @@ chart.setChartDataRange("A1:D4", true);
 
 {{< /highlight >}}
 
-### **Metod VbaModuleCollection.add Tillagd**
-Aspose.Cells for Java 8.4.2 har avslöjat metoden VbaModuleCollection.add för att lägga till en ny VBA-modul till instansen av Workbook. Metoden VbaModuleCollection.add accepterar en parameter av typ av kalkylblad för att lägga till en kalkylbladsspecifik modul.
+### **Tillagd VbaModuleCollection.add-metod**
+Aspose.Cells for Java 8.4.2 har exponerat VbaModuleCollection.add-metoden för att lägga till en ny VBA-modul till instansen av Workbook. VbaModuleCollection.add-metoden accepterar en parameter av typen Worksheet för att lägga till en arbetsboksspecifik modul.
 
-Följande kodavsnitt visar hur man använder metoden VbaModuleCollection.add.
+Följande kodsnutt visar hur man använder VbaModuleCollection.add-metoden.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create new workbook
 
@@ -72,14 +73,14 @@ workbook.save(output, SaveFormat.XLSM);
 
 {{< /highlight >}}
 
-### **Överbelastad metod Cells.copyColumns tillagd**
-Aspose.Cells for Java 8.4.2 har avslöjat en överbelastad version av metoden Cells.copyColumns för att upprepa källkolumnerna till destinationen. Den nyligen exponerade metoden accepterar 5 parametrar totalt, där de första 4 parametrarna är desamma som för den vanliga metoden Cells.copyColumns. Den sista parametern av typen int anger dock antalet destinationskolumner som källkolumnerna måste upprepas på.
+### **Överlagd metod Cells.copyColumns tillagd**
+Aspose.Cells for Java 8.4.2 har exponerat en överlagd version av Cells.copyColumns-metoden för att upprepa kälkolumnerna till destinationskolumnerna. Den nyexponerade metoden accepterar totalt 5 parametrar, där de första 4 parametrarna är desamma som för den vanliga Cells.copyColumns-metoden. Det sista parametern av typen int specificerar antalet destinationskolumner till vilka kälkolumnerna ska upprepas.
 
-Följande kodavsnitt visar hur man använder den nyligen exponerade metoden Cells.copyColumns.
+Följande kodsnutt visar hur man använder den nyexponerade Cells.copyColumns-metoden.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load an existing workbook
 
@@ -109,17 +110,17 @@ workbook.save(output);
 
 {{< /highlight >}}
 
-### **Uppräkningsfält PasteType.DEFAULT & PasteType.ALL_EXCEPT_BORDERS har lagts till**
-Med lanseringen av v8.4.2 har Aspose.Cells API lagt till 2 nya uppräkningsfält för PasteType som beskrivs nedan.
+### **Uppräkningsfälten PasteType.DEFAULT & PasteType.ALL_EXCEPT_BORDERS tillagda**
+Med frisläppandet av v8.4.2 har Aspose.Cells API lagt till 2 nya uppräkningsfält för PasteType enligt detaljerna nedan.
 
-- PasteType.DEFAULT: Fungerar på samma sätt som Excels "Alla"-funktion för att klistra in cellintervall.
-- PasteType.ALL_BORTSETT FRÅN_BORDERS: Fungerar liknande Excels "Alla utom ramar"-funktionalitet för att klistra in cellintervall.
+- PasteType.DEFAULT: Fungerar liknande Excel's "All"-funktionalitet för att klistra in området av celler.
+- PasteType.ALL_EXCEPT_BORDERS: Fungerar liknande Excel's "All except borders"-funktionalitet för att klistra in området av celler.
 
-Följande exempelkod visar användningen av fältet PasteType.DEFAULT.
+Följande exempelkod demonstrerar användningen av PasteType.DEFAULT-fältet.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load an existing workbook
 
@@ -157,6 +158,6 @@ workbook.save(output);
 
 {{% alert color="primary" %}} 
 
-Från och med släppet av Aspose.Cells for Java 8.4.2, beter sig den registrerade uppräkningen PasteType.ALL annorlunda jämfört med Excels "Alla"-funktion för att klistra in cellintervall. Nu kopierar PasteType.ALL också kolumnbredderna till destinationsintervallet i motsats till Excels "Alla"-funktionalitet. För att efterlikna Excels "Alla" beteende, använd PasteType.DEFAULT.
+Från och med frisläppandet av Aspose.Cells for Java 8.4.2 beter sig uppräkningfältet PasteType.ALL annorlunda jämfört med Excels  "All"-funktionalitet för att klistra in området av celler. Nu kopierar även PasteType.ALL kolumnbredderna till destinationsområdet till skillnad från Excels "All"-funktionalitet. För att efterlikna Excels "All"-beteende, använd PasteType.DEFAULT.
 
 {{% /alert %}}

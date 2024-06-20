@@ -1,80 +1,81 @@
 ---
 title: Настройки шрифта
-description: Aspose.Cells — это библиотека .NET для работы с файлами электронных таблиц. Он поддерживает настройку параметров шрифта ячеек, позволяя пользователям настраивать стиль шрифта и свойства ячеек. В этой статье рассказывается, как использовать библиотеку Aspose.Cells для установки настроек шрифта ячейки.
-keywords: Aspose.Cells, Cells, Font Settings, Styles, Properties
+description: Aspose.Cells  это .NET библиотека для работы с файлами электронных таблиц. Она поддерживает настройку шрифтов ячеек, позволяя пользователям настраивать стиль и свойства шрифта ячеек. В этой статье будет рассмотрено, как использовать библиотеку Aspose.Cells для настройки шрифта ячейки.
+keywords: Aspose.Cells, Ячейки, Настройки шрифта, Стили, Свойства
 type: docs
 weight: 30
 url: /ru/net/cells-font-settings/
 ---
+
 {{% alert color="primary" %}}
 
-Внешний вид текста можно контролировать, изменяя настройки шрифта. Настройки шрифта могут включать имя, стиль, размер, цвет и другие эффекты шрифтов. Как и Microsoft Excel, Aspose.Cells также поддерживает настройку шрифта ячеек.
+Внешний вид и ощущение текста могут быть управляемыми путем изменения настроек шрифта. Настройки шрифта могут включать имя, стиль, размер, цвет и другие эффекты шрифтов. Как и Microsoft Excel, Aspose.Cells также поддерживает настройку шрифта ячеек.
 
 {{% /alert %}}
 
-##  **Настройка параметров шрифта**
+## **Настройка настроек шрифта**
 
- Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) который представляет файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс содержит[**Рабочие листы**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)коллекция, которая обеспечивает доступ к каждому листу в файле Excel. Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) сорт.[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) класс обеспечивает[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) коллекция. Каждый предмет в[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) коллекция представляет собой объект[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)сорт.
+Aspose.Cells предоставляет класс [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), который представляет файл Microsoft Excel. Класс [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) содержит коллекцию [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets), которая позволяет получить доступ к каждому листу в файле Excel. Лист представлен классом [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). Класс [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) предоставляет коллекцию [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). Каждый элемент в коллекции [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) представляет объект класса [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell).
 
- Aspose.Cells обеспечивает[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)сорт'[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) и[**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) методы, которые используются для получения и установки стиля форматирования ячейки.[**Стиль**](https://reference.aspose.com/cells/net/aspose.cells/style)Класс предоставляет свойства для настройки параметров шрифта.
+Aspose.Cells предоставляет методы класса [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) для получения и установки стиля форматирования ячейки. Класс [**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) предоставляет свойства для настройки настроек шрифта.
 
-###  **Установка имени шрифта**
+### **Установка названия шрифта**
 
- Разработчики могут применять любой шрифт к тексту внутри ячейки, используя[**Стиль.Шрифт**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) объекты[Имя](https://reference.aspose.com/cells/net/aspose.cells/font/properties/name)свойство.
+Разработчики могут применить любой шрифт к тексту внутри ячейки, используя свойство [Name](https://reference.aspose.com/cells/net/aspose.cells/font/properties/name) объекта [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontName-1.cs" >}}
 
-###  **Установка стиля шрифта на полужирный**
+### **Установка стиля шрифта на жирный**
 
- Разработчики могут сделать текст жирным, установив[**Стиль.Шрифт**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) объекты[**IsBold**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/isbold)свойство в *true**.
+Разработчики могут сделать текст жирным, установив свойство [**IsBold**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/isbold) объекта [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) в **true**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontStyle-SetFontStyle.cs" >}}
 
-###  **Настройка размера шрифта**
+### **Установка размера шрифта**
 
-Установите размер шрифта с помощью[**Стиль.Шрифт**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)объекты[**Размер**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/size)свойство.
+Установите размер шрифта с помощью свойства [**Size**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/size) объекта [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontSize-SetFontSize.cs" >}}
 
-###  **Настройка цвета шрифта**
+### **Установка цвета шрифта**
 
-Использовать[**Стиль.Шрифт**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) объекты[**Цвет**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color)свойство для установки цвета шрифта. Выберите любой цвет из перечисления Цвет (часть структуры .NET) и назначьте его[**Цвет**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color)свойство.
+Используйте свойство [**Color**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color) объекта [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) для установки цвета шрифта. Выберите любой цвет из перечисления Color (часть .NET framework) и присвойте его свойству [**Color**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontColor-SetFontColor.cs" >}}
 
-###  **Настройка типа подчеркивания шрифта**
+### **Установка типа подчеркивания шрифта**
 
-Использовать[**Стиль.Шрифт**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)объекты[**Подчеркнуть**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/underline)свойство подчеркивать текст. Aspose.Cells предлагает различные предопределенные типы подчеркивания шрифта в[**ШрифтUnderlineType**](https://reference.aspose.com/cells/net/aspose.cells/fontunderlinetype) перечисление.
+Используйте свойство [**Underline**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/underline) объекта [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) для подчеркивания текста. Aspose.Cells предлагает различные предопределенные типы шрифтов в перечислении [**FontUnderlineType**](https://reference.aspose.com/cells/net/aspose.cells/fontunderlinetype).
 
 |**Типы подчеркивания шрифта**|**Описание**|
 | :- | :- |
-|Бухгалтерский учет|Единое бухгалтерское подчеркивание|
-|Двойной|Двойное подчеркивание|
-|Двойной учет|Двойное учетное подчеркивание|
-|Никто|Без подчеркивания|
-|Одинокий|Одно подчеркивание|
+|Accounting| Одиночная линия подчеркивания для учета
+|Double| Двойное подчеркивание
+|DoubleAccounting| Двойная линия подчеркивания для учета
+|None| Без подчеркивания
+|Single| Одиночная линия подчеркивания
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontUnderlineType-1.cs" >}}
 
-###  **Настройка эффекта вычеркивания**
+### **Установка эффекта зачеркивания**
 
-Примените зачеркивание, установив[**Стиль.Шрифт**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) объекты[**Исчеркаут**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/isstrikeout)свойство в *true**.
+Примените зачеркивание, установив свойство [**IsStrikeout**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/isstrikeout) объекта [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) в **true**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingStrikeOutEffect-SetStrikeout.cs" >}}
 
-###  **Настройка эффекта индекса**
+### **Установка эффекта нижнего индекса**
 
-Примените нижний индекс, установив[**Стиль.Шрифт**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)объекты[**Иссубскрипт**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript)свойство в *true**.
+Примените нижний индекс, установив свойство [**IsSubScript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript) объекта [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) в **true**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingSubScriptEffect-SetSubscript.cs" >}}
 
-###  **Настройка эффекта надстрочного индекса для шрифта**
+### **Установка верхнего индекса на шрифт**
 
- Разработчики могут применить к шрифту эффект надстрочного индекса, установив параметр[**IsSuperscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) собственность[**Стиль.Шрифт**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)возражать против *истины**.
+Разработчики могут применить эффект верхнего индекса к шрифту, установив свойство [**IsSuperscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) объекта [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) в **true**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingSuperScriptEffect-SetSuperscript.cs" >}}
 
-##  **Предварительные темы**
-- [Применение эффектов надстрочного и подстрочного индекса к шрифтам](/cells/ru/net/apply-superscript-and-subscript-effects-on-fonts/)
-- [Получите список шрифтов, используемых в электронной таблице или книге.](/cells/ru/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
+## **Продвинутые темы**
+- [Применить эффект верхнего и нижнего индекса к шрифтам](/cells/ru/net/apply-superscript-and-subscript-effects-on-fonts/)
+- [Получение списка используемых шрифтов в электронной таблице или книге](/cells/ru/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 

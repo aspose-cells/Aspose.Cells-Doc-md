@@ -1,16 +1,19 @@
-﻿---
-title: コントロール内およびコントロールと Excel の間で GridDesktop の行をコピーして貼り付ける
+---
+title: GridDesktop内およびコントロールとエクセル間で行のコピーと貼り付け
 type: docs
 weight: 70
-url: /ja/net/copy-and-paste-rows-in-griddesktop-within-the-control-and-between-the-control-and-excel/
+url: /ja/net/aspose-cells-griddesktop/copy-and-paste-rows-in-griddesktop-within-the-control-and-between-the-control-and-excel/
+keywords: GridDesktop, コピー, 貼り付け
+description: この記事では、GridDesktopでのコピーと貼り付けを紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-コントロール内またはコントロールと Excel の間で GridDesktop の行のコピー アンド ペーストを有効にする場合は、GridDesktop.ClipboardCopyPaste プロパティを true に設定してください。このプロパティは、設計時またはコードで設定できます。このプロパティのデフォルト値は false です。現在、セル値のコピーと貼り付けのみが可能で、書式や枠線スタイルなどのセルのその他の設定はコピーされません。
+GridDesktop内のコントロール間、またはコントロールとエクセル間で行のコピーと貼り付けを有効にしたい場合は、GridDesktop.ClipboardCopyPaste プロパティを true に設定してください。このプロパティはデザインタイムまたはコードで設定できます。既定値は false です。現在、このプロパティはセルの値のコピーと貼り付けにのみ対応しており、セルの書式、境界スタイルなどの他の設定はコピーされません。
 
 {{% /alert %}} 
-## **デザイン モードおよびランタイムでの GridDesktop.ClipboardCopyPaste プロパティの設定**
-次のサンプル コードでは、GridDesktop.ClipboardCopyPaste プロパティを設定します。**実行時間**.
+## **デザインモードと実行時でのGridDesktop.ClipboardCopyPasteプロパティの設定**
+次のサンプルコードは、**実行時**でGridDesktop.ClipboardCopyPasteプロパティを設定します。
 
 
 

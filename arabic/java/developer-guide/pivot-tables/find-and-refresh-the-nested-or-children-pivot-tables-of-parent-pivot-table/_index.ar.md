@@ -1,19 +1,20 @@
-﻿---
-title: ابحث عن الجداول المتداخلة أو الجداول المحورية التابعة للجدول المحوري الأصل وقم بتحديثها
+---
+title: العثور وتحديث جداول الدوران المدمجة أو الفرعية لجدول الدوران الأم
 type: docs
 weight: 50
 url: /ar/java/find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-في بعض الأحيان ، يستخدم أحد الجداول المحورية جدولًا محوريًا آخر كمصدر بيانات ، لذلك يطلق عليه الجدول المحوري الفرعي أو الجدول المحوري المتداخل. يمكنك العثور على الجداول المحورية الفرعية للجدول المحوري الأصل باستخدام[**PivotTable.getChildren ()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getChildren()) طريقة.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **ابحث عن الجداول المتداخلة أو الجداول المحورية التابعة للجدول المحوري الأصل وقم بتحديثها**
+في بعض الأحيان، يستخدم جدول دوران واحد جدول دوران آخر كمصدر بيانات، لذا يطلق عليه جدول دوران فرعي أو مدمج. يمكنك العثور على جداول الدوران الفرعية لجدول دوران أم باستخدام الطريقة [**PivotTable.getChildren()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getChildren--).
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](61767766.xlsx)التي تحتوي على ثلاثة جداول محورية. الجدولان المحوريان السفليان هما جدولان ثانويان للجدول المحوري أعلاه كما هو موضح في لقطة الشاشة هذه. يعثر الرمز على الجدول المحوري للأطفال باستخدام[**PivotTable.getChildren ()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getChildren()) ثم تحديثها واحدة تلو الأخرى.
+## **العثور وتحديث جداول الدوران المدمجة أو الفرعية لجدول الدوران الأم**
 
-![ما يجب القيام به: image_بديل_نص](find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table_1.png)
+تحميل الشفرة العينية التالية [ملف Excel عيني](61767766.xlsx) الذي يحتوي على ثلاثة جداول دوران. الجدولان الدورانان السفليان هما جداول دوران فرعية للجدول أعلاه كما هو موضح في هذه اللقطة. الشفرة تجد جداول الدوران الفرعية باستخدام الطريقة [**PivotTable.getChildren()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getChildren--) ثم تقوم بتحديثها واحداً تلو الآخر.
 
-## **عينة من الرموز**
+![todo:image_alt_text](find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "PivotTables-FindAndRefreshNestedOrChildrenPivotTables.java" >}}

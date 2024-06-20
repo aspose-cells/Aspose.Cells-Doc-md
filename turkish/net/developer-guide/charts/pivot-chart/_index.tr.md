@@ -1,37 +1,37 @@
 ---
-title: Aspose.Cells kullanarak PivotChart nasıl eklenir?
+title: Aspose.Cells Kullanarak Bir PivotChart Nasıl Eklenir
 linktitle: Pivot Grafik
 type: docs
 weight: 100
 url: /tr/net/how-to-add-pivot-chart/
-description: Aspose.Cells'i kullanarak PivotChart nasıl eklenir?
+description: Aspose.Cells ı Kullanarak Bir PivotChart Nasıl Eklenir.
 keywords: PivotChart
 ---
-##  PivotChart Nedir?
+## PivotChart Nedir
 
-Excel'deki PivotChart, PivotTable'dan oluşturulan verilerin grafiksel temsilidir. Bilgileri grafik biçiminde özetleyip görüntüleyerek kullanıcıların verileri dinamik olarak görselleştirmelerine ve analiz etmelerine olanak tanır. PivotChart'lar etkileşimlidir ve verilerin farklı perspektiflerini gösterecek şekilde kolayca değiştirilebilir; bu da onu Excel'de veri analizi ve sunumu için güçlü bir araç haline getirir.
+Excel'de bir PivotChart, bir PivotTable'dan oluşturulan verilerin grafiksel bir temsilidir. Kullanıcılara verileri dinamik olarak görselleştirmelerine ve analiz etmelerine olanak tanır. Veriyi özetleyerek ve bilgileri grafik formunda göstererek PivotChart'lar etkileşimlidir ve verinin farklı perspektiflerini göstermek için kolayca değiştirilebilir, bu da Excel'de veri analizi ve sunum için güçlü bir araç yapar.
 
-##  Aspose.Cells kullanarak PivotChart nasıl eklenir?
+## Aspose.Cells kullanarak PivotChart ekleme
 
-###  **Pivot Tablo Ekleme**
+### **Pivot Tablo Ekleme**
 
-Aspose.Cells'i kullanarak bir pivot tablo oluşturmak için:
+Aspose.Cells kullanarak bir pivot tablosu oluşturmak için:
 
-1. Cell nesnesinin PutValue/setValue yöntemini kullanarak çalışma sayfası hücrelerine bazı veriler ekleyin. Ayrıca halihazırda verilerle doldurulmuş bir şablon dosyası da kullanırsınız. Veriler pivot tablonun veri kaynağı olarak kullanılacaktır.
-1. PivotTables koleksiyonunun ekleme yöntemini (Çalışma Sayfası nesnesinde kapsüllenmiş) çağırarak çalışma sayfasına bir pivot tablo ekleyin.
-1. PivotTable koleksiyonundan yeni PivotTable nesnesine dizinini ileterek erişin. # Tabloyu yönetmek için PivotTable nesnesinde kapsüllenmiş pivot tablo nesnelerinden herhangi birini kullanın.
+1. Bir Hücre nesnesi'nin PutValue/setValue yöntemini kullanarak bir çalışma sayfasındaki hücrelere bazı veriler ekleyin. Ayrıca zaten verilerle doldurulmuş bir şablon dosyası kullanabilirsiniz. Veriler, pivot tablosunun veri kaynağı olarak kullanılacaktır.
+1. PivotTables koleksiyonunun add yöntemini (Worksheet nesnesinde kapsüllenmiş) çağırarak çalışma sayfasına bir pivot tablosu ekleyin.
+1. Yeni PivotTable nesnesine PivotTables koleksiyonundan endeksini geçerek erişin. # PivotTable nesnesinde kapsanan herhangi bir pivot tablo nesnesini kullanarak tabloyu yönetin.
 
 Kod örnekleri aşağıda verilmiştir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreatePivotTablesPivotCharts-CreatePivotTable-1.cs" >}}
 
-###  **Pivot Grafik Ekleme**
+### **Pivot Grafik Ekleme**
 
-Aspose.Cells'i kullanarak PivotChart oluşturmak için:
+Aspose.Cells kullanarak bir PivotChart oluşturmak için:
 
 1. Bir grafik ekleyin.
-1. Grafiğin PivotSource'unu e-tablodaki mevcut bir pivot tabloya başvuracak şekilde ayarlayın.
-1. Diğer nitelikleri ayarlayın.
+1. Grafik PivotSource'unu elektronik tabloda zaten mevcut bir pivot çizelgesine atıf yapacak şekilde ayarlayın.
+1. Diğer özellikleri ayarlayın.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreatePivotTablesPivotCharts-CreatePivotChart-1.cs" >}}
 

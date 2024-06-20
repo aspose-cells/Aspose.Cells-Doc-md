@@ -1,15 +1,16 @@
-﻿---
-title: Php'de Çalışma Sayfalarını Koruma
+---
+title: PHP de Çalışsayı Koruma
 type: docs
 weight: 10
 url: /tr/java/protecting-worksheets-in-php/
 ---
+
 ## **Aspose.Cells - Çalışma Sayfalarını Koruma**
- Çalışma sayfasını kullanarak korumak için**Aspose.Cells Java for PHP** , Arama**koruma_çalışma sayfası** yöntemi**koruma** modül.
+**Aspose.Cells Java for PHP** kullanarak çalışsayıyı korumak için **protection** modülünün **protect_worksheet** yöntemini çağırın.
 
-**PHP Kodu**
+PHP Kodu
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -41,6 +42,6 @@ $excel->save($dataDir . "output.xls");  
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Çalışma Sayfalarını Koruma (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir sosyal kodlama sitesinden **Çalışma Sayfalarını Koruma (Aspose.Cells)** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/SecurityFeatures/ProtectingWorksheet.php)

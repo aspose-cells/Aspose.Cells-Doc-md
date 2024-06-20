@@ -1,17 +1,18 @@
 ---
-title: إضافة تنسيقات شرطية بمقياس ثنائي الألوان وتنسيقات شرطية بمقياس ثلاثي الألوان
-description: كيفية استخدام مكتبة Aspose.Cells في C# لإضافة التنسيق الشرطي لنسبتي الألوان وثلاث نسب الألوان. ومن خلال ضبط هذه المعايير، يمكنك التحكم بشكل أكبر في كيفية ظهور الخلايا وشكلها.
-keywords: Aspose.Cells, Conditional Formatting, C#, Color Ratio, Two Color Scale, Three Color Scale
+title: إضافة التدرج اللوني ثنائي اللون والثلاثي اللون وتنسيقهما الشرطي
+description: كيفية استخدام مكتبة Aspose.Cells في C# لإضافة تنسيق شرطي لنسبتي اللونين والثلاثة ألوان. من خلال ضبط هذه الشروط، تحصل على مزيد من التحكم في كيفية ظهور الخلايا وتبدو.
+keywords: Aspose.Cells، التنسيق الشرطي، C#، نسبة الألوان، مقياس اللون المزدوج، مقياس اللون الثلاثي
 type: docs
 weight: 20
 url: /ar/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/
 ---
+
 {{% alert color="primary" %}}
 
-**2- مقياس الألوان** و**3-مقياس الألوان**تتم إضافة التنسيقات الشرطية بنفس الطريقة باستثناء الاختلاف بينها[**FormatCondition.ColorScale.Is3ColorScale**](https://reference.aspose.com/cells/net/aspose.cells/colorscale/properties/is3colorscale) ملكية. هذه الخاصية**خطأ شنيع** لمقياس اللونين و**حقيقي** للتنسيقات الشرطية بمقياس الألوان الثلاثة.
+**إضافة الدالة المشروطة بمقياسي لون** و**مقياس اللون الثلاثي** تمت إضافتهم بنفس الطريقة باستثناء اختلافهم في خاصية [**FormatCondition.ColorScale.Is3ColorScale**](https://reference.aspose.com/cells/net/aspose.cells/colorscale/properties/is3colorscale). يكون هذه الخاصية **false** لـ مقياس اللون المزدوج و **true** لـ مقياس اللون الثلاثي للدوال المشروطة.
 
 {{% /alert %}}
 
- يضيف نموذج التعليمات البرمجية التالي التنسيقات الشرطية بمقياس 2 لون و3 ألوان. فهو يولد[إخراج ملف إكسل](5115058.xlsx).
+يقوم الكود العيني التالي بإضافة الدوال المشروطة بمقياسي اللون والدالة المشروطة بمقياس اللون الثلاثي. يولد [ملف الإكسيل الناتج](5115058.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageConditionalFormatting-AddColorScales-AddColorScales.cs" >}}

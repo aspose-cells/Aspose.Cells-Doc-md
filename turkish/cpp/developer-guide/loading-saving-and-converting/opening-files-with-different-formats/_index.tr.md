@@ -3,80 +3,82 @@ title: Farklı Formatlardaki Dosyaları Açma
 type: docs
 weight: 30
 url: /tr/cpp/opening-files-with-different-formats/
-description: Aspose.Cells for .NET API, XLSX, HTML, CSV, ODS, TSV, SXC, FODS vb. farklı formatları açmanıza/okumanıza olanak tanır.
-keywords: open xlsx files, open html files, read fods files, read ods files, read sxc files, open csv files, Tab Delimited, SpreadsheetML, tsv, mhtml
+
+description: Aspose.Cells for .NET API ile XLSX, HTML, CSV, ODS, TSV, SXC, FODS vb. gibi farklı formatlardaki dosyaları açabilirsiniz.
+keywords: xlsx dosyalarını aç, html dosyalarını aç, fods dosyalarını oku, ods dosyalarını oku, sxc dosyalarını oku, csv dosyalarını aç, Tab Delimited, SpreadsheetML, tsv, mhtml
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells'i kullanarak farklı formatlardaki dosyaları açabilirsiniz.**Aspose.Cells** Microsoft Excel elektronik tabloları (XLS, XLSX, XLSM, XLSB), SpreadsheetML, Virgülle ayrılmış değerler (CSV), Sekmeyle Ayrılmış veya Sekmeyle ayrılmış değerler (TSV) dosyaları vb. gibi çeşitli dosya formatlarını açabilir.
+Aspose.Cells kullanarak XLS, XLSX, XLSM, XLSB gibi Microsoft Excel elektronik tabloları, SpreadsheetML, CSV, Tab Delimited veya TSV dosyaları gibi bir dizi dosya formatını açabilirsiniz.
 
-Desteklenen tüm dosya formatlarını bilmeniz gerekiyorsa lütfen aşağıdaki sayfalara bakın:
-[Desteklenen Dosya Formatları](https://docs.aspose.com/cells/cpp/supported-file-formats/)
+Desteklenen tüm dosya formatlarını öğrenmeniz gerekiyorsa lütfen aşağıdaki sayfalara bakın:
+[Desteklenen Dosya Biçimleri](https://docs.aspose.com/cells/cpp/supported-file-formats/)
 
 {{% /alert %}}
 
-##  **Farklı Formatlardaki Dosyaları Açma**
+## **Farklı Biçimlerde Dosyaları Açma**
 
-Aspose.Cells, geliştiricilerin SpreadsheetML, Virgülle ayrılmış değerler (CSV), Sekmeyle Ayrılmış veya Sekmeyle ayrılmış değerler (TSV), ODS dosyaları gibi farklı formatlardaki elektronik tablo dosyalarını açmasına olanak tanır. Bu tür dosyaları açmak için geliştiriciler, farklı Microsoft Excel sürümlerindeki dosyaları açarken kullandıkları yöntemin aynısını kullanabilir.
+Aspose.Cells, Elektronik Tablo Dosyalarını Elektronik Tablo Dili (SpreadsheetML), Virgülle Ayrılmış Değerler (CSV), Sekmeyle Ayrılmış veya Sekmeyle Ayrılmış Değerler (TSV), ODS dosyaları gibi farklı biçimlerde açmak için geliştiricilere olanak tanır. Bu tür dosyaları açmak için geliştiriciler, farklı Microsoft Excel sürümlerini açarken kullandıkları metodolojiyi kullanabilirler.
 
-###  **SpreadsheetML Dosyalarını Açma**
+### **Elektronik Tablo Dili (SpreadsheetML) Dosyalarını Açma**
 
-SpreadsheetML dosyaları, biçimlendirme, formüller vb. gibi tüm bilgileri içeren elektronik tabloların XML temsilleridir. Microsoft Excel XP'den beri, Microsoft Excel'e, elektronik tablolarınızı SpreadsheetML dosyalarına aktaran bir XML dışa aktarma seçeneği eklenmiştir.
+SpreadsheetML dosyaları, elektronik tabloların biçimlendirme, formüller vb. gibi tüm bilgilerini içeren XML temsilleridir. Microsoft Excel XP'den beri, Microsoft Excel'e bir XML dışa aktarma seçeneği eklenmiştir. Bu seçenek elektronik tablolarınızı SpreadsheetML dosyalarına dışa aktarır.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenSpreadsheetMLFile-new.cpp" >}}
 
-###  **HTML Dosyalarını Açma**
+### **HTML Dosyalarını Açma**
 
-Aspose.Cells, HTML dosyasını Çalışma Kitabı nesnesinde açmanıza olanak tanır. HTML dosyası Microsoft Excel odaklı olmalı yani MS-Excel onu açabilmelidir.
+Aspose.Cells, HTML dosyasını Workbook nesnesine açmanıza olanak tanır. HTML dosyası, Microsoft Excel odaklı olmalıdır yani MS-Excel'in açabilmesi gerekmektedir.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenHTMLFile-new.cpp" >}}
 
-###  **CSV Dosyalarını Açma**
+### **CSV Dosyalarını Açma**
 
-Virgülle Ayrılmış Değerler (CSV) dosyaları, değerlerin virgülle ayrıldığı kayıtları içerir. Veriler, her sütunun virgül karakteriyle ayrıldığı ve çift tırnak karakteriyle alıntılandığı bir tablo olarak depolanır. Bir alan değeri çift tırnak karakteri içeriyorsa, bir çift çift tırnak karakteriyle çıkış yapılır. Elektronik tablo verilerini CSV'e aktarmak için Microsoft Excel'i de kullanabilirsiniz.
+Virgülle Ayrılmış Değerler (CSV) dosyaları, değerlerin virgülle ayrıldığı kayıtları içerir. Veri, her sütunun virgül karakteriyle ayrıldığı ve çift tırnak karakteriyle alıntılanmış bir tablo olarak saklanır. Bir alan değeri çift tırnak karakteri içeriyorsa, çift tırnak karakteriyle kaçış yapılır. Elektronik tablo verilerini CSV'ye aktarmak için Microsoft Excel'i de kullanabilirsiniz.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenCSVFile-new.cpp" >}}
 
-####  **CSV dosyalarını açma ve geçersiz karakterleri değiştirme**
+#### **CSV Dosyalarını Açma ve Geçersiz Karakterleri Değiştirme**
 
-Excel'de özel karakterler içeren CSV dosyası açıldığında karakterler otomatik olarak değiştirilmektedir. Aynı işlem aşağıda verilen kod örneğinde gösterilen Aspose.Cells API ile de yapılmaktadır.
+Excel'de, özel karakter içeren CSV dosyası açıldığında karakterler otomatik olarak değiştirilir. Aynı işlem, kod örneğinde gösterildiği gibi Aspose.Cells API tarafından da yapılır.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenCSVFileAndReplaceInvalidCharacters-new.cpp" >}}
 
-Bu özelliğin test edilmesi için aşağıdaki bağlantılardan örnek kaynak dosyası indirilebilir.
+Bu özelliği test etmek için örnek kaynak dosyasını aşağıdaki bağlantılardan indirebilirsiniz.
 
-[Geçersiz Karakterler.csv](InvalidCharacters.csv)
+[InvalidCharacters.csv](InvalidCharacters.csv)
 
-###  **Metin Dosyalarını Özel Ayırıcıyla Açma**
+### **Özel Ayraçlı Metin Dosyalarını Açma**
 
-Metin dosyaları, elektronik tablo verilerini biçimlendirmeden tutmak için kullanılır. Dosya, bazı özelleştirilmiş sınırlayıcılara sahip olabilen bir tür düz metin dosyasıdır.
+Metin dosyaları biçimlendirme olmadan elektronik tablo verilerini tutmak için kullanılır. Dosya, özelleştirilmiş ayraçlar içerebilen bir tür düz metin dosyasıdır.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenTextFilewithCustomSeparator-new.cpp" >}}
 
-Bu özelliğin test edilmesi için aşağıdaki bağlantılardan örnek kaynak dosyası indirilebilir.
+Bu özelliği test etmek için örnek kaynak dosyasını aşağıdaki bağlantılardan indirebilirsiniz.
 
 [CustomSeparator.txt](CustomSeparator.txt)
 
-###  **Sekmeyle Sınırlandırılmış Dosyaları Açma**
+### **Sekmeyle Ayrılmış Dosyaları Açma**
 
-Sekmeyle ayrılmış (Metin) dosyası elektronik tablo verilerini içerir ancak herhangi bir biçimlendirme içermez. Veriler, tablolarda ve e-tablolarda olduğu gibi satırlar ve sütunlar halinde düzenlenir. Temel olarak sekmeyle ayrılmış dosya, her sütun arasında bir sekme bulunan özel bir tür düz metin dosyasıdır.
+Sekmeyle Ayrılmış (Metin) dosyası biçimlendirme olmadan elektronik tablo verileri içerir. Veri, tablolar ve elektronik tablolar gibi satırlar ve sütunlar halinde düzenlenir. Temelde, sekmeyle ayrılmış dosya, her sütun arasında bir sekme olan bir tür düz metin dosyasıdır.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenTabDelimitedFile-new.cpp" >}}
 
-###  **Sekmeyle Ayrılmış Değerler (TSV) Dosyalarını Açma**
+### **Sekmeyle Ayrılmış Değerler (TSV) Dosyalarını Açma**
 
-Sekmeyle ayrılmış değerler (TSV) dosyası elektronik tablo verilerini içeriyor ancak herhangi bir biçimlendirme içermiyor. Verilerin tablolar ve e-tablolardaki gibi satırlar ve sütunlar halinde düzenlendiği Sekmeyle Ayrılmış dosyayla aynıdır.
+Sekmeyle ayrılmış değerler (TSV) dosyası biçimlendirme olmadan elektronik tablo verileri içerir. Veri, tablolar ve elektronik tablolar gibi satırlar ve sütunlar halinde düzenlenir. Veri, tablo ve elektronik tablo gibi satırlar ve sütunlar halinde düzenlenir.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenTSVFile-new.cpp" >}}
 
-###  **SXC Dosyalarını Açma**
+### **SXC Dosyalarını Açma**
 
-StarOffice Calc, Microsoft Excel'e benzer ve formülleri, grafikleri, işlevleri ve makroları destekler. Bu yazılımla oluşturulan elektronik tablolar SXC uzantısıyla kaydedilir. SXC dosyası aynı zamanda OpenOffice.org Calc elektronik tablo dosyaları için de kullanılır. Aspose.Cells, aşağıdaki kod örneğinde gösterildiği gibi SXC dosyasını okuyabilir.
+StarOffice Calc, Microsoft Excel'e benzer ve formülleri, grafikleri, işlevleri ve makroları destekler. Bu yazılım ile oluşturulan elektronik tablolar, SXC uzantısı ile kaydedilir. Aspose.Cells, aşağıdaki kod örneği ile SXC dosyalarını okuyabilir.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenSXCFile-new.cpp" >}}
 
-###  **FODS Dosyalarını Açma**
+### **FODS Dosyalarını Açma**
 
-FODS dosyası, OpenDocument XML'de herhangi bir sıkıştırma olmadan kaydedilen elektronik tablodur. Aspose.Cells, aşağıdaki kod örneğinde gösterildiği gibi FODS dosyasını okuyabilir.
+FODS dosyası, sıkıştırma olmadan OpenDocument XML formatında kaydedilen bir elektronik tablodur. Aspose.Cells, aşağıdaki kod örneği ile FODS dosyalarını okuyabilir.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenFODSFile-new.cpp" >}}

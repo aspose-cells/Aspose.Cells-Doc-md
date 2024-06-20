@@ -1,6 +1,8 @@
-﻿---
-title: Utilisation des feuilles de calcul GridWeb
+---
+title: Travailler avec les feuilles de calcul de GridWeb
 type: docs
 weight: 40
-url: /fr/net/working-with-gridweb-worksheets/
+url: /fr/net/aspose-cells-gridweb/working-with-gridweb-worksheets/
 ---
+
+

@@ -1,15 +1,16 @@
-﻿---
-title: PHP でのドキュメント プロパティの管理
+---
+title: PHPでのドキュメントプロパティの管理
 type: docs
 weight: 70
 url: /ja/java/managing-document-properties-in-php/
 ---
-## **Aspose.Cells - カスタム プロパティの追加**
-Aspose.Cells Java for PHP を使用してカスタム ドキュメント プロパティを追加するには、次のように呼び出します。**add_custom_property**の方法**書類**モジュール。
 
-**PHP コード**
+## **Aspose.Cells - カスタムプロパティを追加する**
+Aspose.Cells Java for PHPを使用してカスタムドキュメントプロパティを追加するには、**Document**モジュールの**add_custom_property**メソッドを呼び出します。
 
-{{< highlight "php" >}}
+**PHPコード**
+
+{{< highlight php >}}
 
  //Instantiate a Workbook object by excel file path
 
@@ -45,7 +46,7 @@ $customProperties->remove("Publisher");
 $workbook->save($dataDir . "Test_Workbook_RemovedProperty.xls");
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ドキュメント プロパティへのアクセス (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから、**Aspose.Cells**を使用してドキュメントのプロパティにアクセスするファイルをダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)

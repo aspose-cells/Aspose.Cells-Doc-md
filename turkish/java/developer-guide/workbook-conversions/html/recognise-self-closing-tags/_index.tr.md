@@ -1,10 +1,11 @@
-﻿---
-title: Kendi kendine kapanan etiketleri tanıyın
+---
+title: Kendinden kapanan etiketleri tanıyın
 type: docs
 weight: 120
 url: /tr/java/recognise-self-closing-tags/
 ---
-HTML, \ gibi boş etiketler için çeşitli etiket biçimlendirmesine sahip olabilir<td>\</td> veya \<td/>. Aspose.Cells şu anda bu biçimlerin her ikisini de desteklerken daha önce yalnızca \ destekliyordu.<td>\</td>etiketler gibi. Ekteki örnek HTML dosyası Excel dosyasına dönüştürülerek bu özellik test edilebilir. Örnek HTML dosyası ve çıktı dosyaları test için aşağıdaki linklerden indirilebilir.
+
+HTML can have variety of tags formatting for empty tags like \<td>\</td> or \<td/>. Aspose.Cells supports both these formats now whereas earlier it was supporting only \<td>\</td> like tags. This feature can be tested by converting the attached sample HTML file to Excel file. The sample HTML file and output files can be downloaded from the following links for testing.
 
 [sampleSelfClosingTags.html](74776600)
 

@@ -1,68 +1,69 @@
 ---
-title: Открытие различных файлов версий Excel Microsoft
+title: Открыть файлы разных версий Microsoft Excel
 type: docs
 weight: 20
 url: /ru/net/opening-different-microsoft-excel-versions-files/
-description: В этой статье объясняется, как открывать файлы различных версий Excel с помощью Aspose.Cells for .NET API.
-keywords: C# Open Different Microsoft Excel file, How do I open Encrypted Excel Files.
+description: Эта статья объясняет, как открывать файлы разных версий Excel, используя Aspose.Cells for .NET API.
+keywords: C# Открыть разные файлы Microsoft Excel, Как открыть зашифрованные файлы Excel.
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells может открыть ряд различных файлов версий Excel Microsoft, таких как Microsoft Excel 95/97 – 2003, SpreadsheetML, Открытие Microsoft Excel 2007/2010/2013/2016/2019 и Office 365 XLSX или Зашифрованные файлы Excel.
+Aspose.Cells может открывать файлы разных версий Microsoft Excel, такие как Microsoft Excel 95/97 - 2003, SpreadsheetML, открытие файлов Microsoft Excel 2007/2010/2013/2016/2019 и Office 365 XLSX или зашифрованных файлов Excel.
 
 {{% /alert %}}
 
-##  **Как открыть файлы разных версий Excel Microsoft**
+## **Как открыть файлы разных версий Microsoft Excel**
 
- Приложению часто приходится иметь возможность открывать файлы Excel Microsoft, созданные в разных версиях, например Microsoft Excel 95,97 или Microsoft Excel 2007/2010/2013/2016/2019 и Office 365. Возможно, вам потребуется загрузить файл в любом из нескольких форматов, включая XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited или TSV, CSV, ODS и так далее. Используйте конструктор или укажите**[Рабочая книга](https://reference.aspose.com/cells/net/aspose.cells/workbook)**сорт'**[Формат файла](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat)** атрибут типа, который определяет формат с помощью**[FileFormatType](https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**перечисление.
+Приложение часто должно иметь возможность открывать файлы Microsoft Excel, созданные в различных версиях, например, Microsoft Excel 95,97 или Microsoft Excel 2007/2010/2013/2016/2019 и Office 365. Вам может понадобиться загрузить файл в любом из нескольких форматов, включая XLS, XLSX, XLSM, XLSB, SpreadsheetML, разделенные табуляцией или TSV, CSV, ODS и т. д. Используйте конструктор, или укажите тип атрибута [**FileFormat**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat) класса [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), указав формат с использованием перечисления [**FileFormatType**](https://reference.aspose.com/cells/net/aspose.cells/fileformattype).
 
-**[FileFormatType](https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**перечисление содержит множество предопределенных форматов файлов, некоторые из которых приведены ниже.
+Перечисление [**FileFormatType**](https://reference.aspose.com/cells/net/aspose.cells/fileformattype) содержит множество предопределенных форматов файлов, некоторые из которых приведены ниже.
 
 |**Типы форматов файлов**|**Описание**|
 | :- | :- |
-|CSV-файл|Представляет файл CSV.|
-|Excel97To2003|Представляет файл Excel 97–2003.|
-|XLSX|Представляет файл Excel 2007/2010/2013/2016/2019 и Office 365 XLSX.|
-|XLSM|Представляет файл Excel 2007/2010/2013/2016/2019 и Office 365 XLSM.|
-|XLTX|Представляет файл шаблона Excel 2007/2010/2013/2016/2019 и Office 365 XLTX.|
-|XLTM|Представляет файл XLTM Excel 2007/2010/2013/2016/2019 и Office 365 с поддержкой макросов.|
-|XLSB|Представляет двоичный файл Excel 2007/2010/2013/2016/2019 и Office 365 XLSB.|
-|SpreadsheetML|Представляет файл SpreadsheetML.|
-|Цв|Представляет файл значений, разделенных табуляцией.|
-|TabDelimited|Представляет текстовый файл с разделителями табуляции.|
-|Коэффициенты|Представляет файл ODS.|
-|HTML|Представляет файл HTML.|
-|Мhtml|Представляет файл MHTML.|
+|Csv|Представляет файл CSV|
+|Excel97To2003|Представляет файл Excel 97 - 2003|
+|Xlsx|Представляет файл Excel 2007/2010/2013/2016/2019 и Office 365 XLSX|
+|Xlsm|Представляет файл Excel 2007/2010/2013/2016/2019 и Office 365 XLSM|
+|Xltx|Представляет файл шаблон Excel 2007/2010/2013/2016/2019 и Office 365 XLTX|
+|Xltm|Представляет макрос-возможный файл Excel 2007/2010/2013/2016/2019 и Office 365 XLTM|
+|Xlsb|Представляет бинарный файл Excel 2007/2010/2013/2016/2019 и Office 365 XLSB|
+|SpreadsheetML|Представляет файл SpreadsheetML|
+|Tsv|Представляет файл со значениями, разделенными знаком табуляции|
+|TabDelimited|Представляет файл текста с табуляцией|
+|Ods|Представляет файл ODS|
+|Html|Представляет файл HTML|
+|Mhtml|Представляет файл MHTML|
 
-###  **Открыть файлы Excel 95/5.0 Microsoft**
+### **Открыть файлы Microsoft Excel 95/5.0**
 
-Чтобы открыть файл Microsoft Excel 95/5.0, используйте**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**и установите связанный атрибут для**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**класс для загружаемого файла шаблона. Образец файла для тестирования этой функции можно скачать по следующей ссылке:
+Для открытия файла Microsoft Excel 95/5.0 используйте [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) и установите соответствующий атрибут для класса [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) для загрузки шаблонного файла. Образец файла для тестирования этой функции можно скачать по следующей ссылке:
 
 [Файл Excel95](Excel95.xls)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel95Files-1.cs" >}}
 
-###  **Открыть Microsoft файлы Excel 97 - 2003**
+### **Открыть файлы Microsoft Excel 97 - 2003**
 
- Чтобы открыть файл Microsoft Excel 97 – 2003, используйте**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** и установите связанный атрибут для**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**класс для загружаемого файла шаблона.
+Для открытия файла Microsoft Excel 97 - 2003 используйте [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) и установите соответствующий атрибут для класса [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) для загрузки шаблонного файла.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel972003Files-1.cs" >}}
 
-###  **Откройте Microsoft файлы Excel 2007/2010/2013/2016/2019 и Office 365 XLSX.**
+### **Открыть файлы Microsoft Excel 2007/2010/2013/2016/2019 и Office 365 XLSX**
 
-Чтобы открыть формат Microsoft Excel 2007/2010/2013/2016/2019 и Office 365, то есть XLSX или XLSB, укажите путь к файлу. Вы также можете использовать**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** и установите соответствующий атрибут/параметры**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**класс для загружаемого файла шаблона.
+Для открытия формата Microsoft Excel 2007/2010/2013/2016/2019 и Office 365, то есть XLSX или XLSB, укажите путь к файлу. Вы также можете использовать [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) и установить соответствующие атрибуты/опции класса [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) для загрузки шаблонного файла.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel2007XlsxFiles-1.cs" >}}
 
-###  **Открыть зашифрованные файлы Excel**
+### **Открыть зашифрованные файлы Excel**
 
- Можно создавать зашифрованные файлы Excel, используя Microsoft Excel. Чтобы открыть зашифрованный файл, используйте команду**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**и установите его атрибуты и параметры (например, укажите пароль) для загружаемого файла шаблона.
-Образец файла для тестирования этой функции можно скачать по следующей ссылке:
+С помощью Microsoft Excel можно создавать зашифрованные файлы. Чтобы открыть зашифрованный файл, используйте [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) и установите его атрибуты и опции (например, укажите пароль) для загрузки шаблонного файла.
+Образец файла для тестирования этой функции может быть загружен по следующей ссылке:
 
-[Зашифрованный Excel](EncryptedExcel.xlsx)
+[Encrypted Excel](EncryptedExcel.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningEncryptedExcelFiles-1.cs" >}}
 
-Aspose.Cells также поддерживает открытие файлов Excel 2007, 2010, 2013, 2016, 2019, Office 365, защищенных паролем.
+Aspose.Cells также поддерживает открытие защищенных паролем файлов Microsoft Excel 2007, 2010, 2013, 2016, 2019, Office 365.
 
 

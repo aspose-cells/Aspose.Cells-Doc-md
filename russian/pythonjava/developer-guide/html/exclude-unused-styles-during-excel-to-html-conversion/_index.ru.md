@@ -1,16 +1,17 @@
-﻿---
-title: Исключить неиспользуемые стили во время преобразования Excel в HTML
+---
+title: Исключить неиспользуемые стили во время конвертации Excel в HTML
 type: docs
 weight: 30
 url: /ru/python-java/exclude-unused-styles-during-excel-to-html-conversion/
 ---
+
 ## **Исключить неиспользуемые стили во время преобразования Excel в HTML**
-Microsoft Файлы Excel могут содержать множество неиспользуемых стилей. Когда эти файлы экспортируются в формат HTML, неиспользуемые стили также экспортируются. Это приводит к увеличению размера вывода HTML. Aspose.Cells for Python via Java поддерживает исключение этих стилей при преобразовании файла Excel в HTML. Для этого API предоставляет[HtmlSaveOptions.ExcludeUnusedStyles](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExcludeUnusedStyles)имущество. Установка значения[HtmlSaveOptions.ExcludeUnusedStyles](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExcludeUnusedStyles) собственность на**Истинный** исключит все неиспользуемые стили из вывода HTML.
+Файлы Microsoft Excel могут содержать множество неиспользуемых стилей. При экспорте этих файлов в формат HTML также экспортируются неиспользуемые стили. Это приводит к увеличению размера выходного HTML. Aspose.Cells для Python via Java поддерживает исключение этих стилей во время конвертации файла Excel в HTML. Для этого API предоставляет свойство ExcludeUnusedStyles в HtmlSaveOptions. Установка значения свойства ExcludeUnusedStyles в True исключит все неиспользуемые стили из выходного HTML.
 
-На следующем снимке экрана показаны неиспользуемые стили в файле HTML, которые будут удалены путем установки значения[HtmlSaveOptions.ExcludeUnusedStyles](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExcludeUnusedStyles) собственность на**Истинный**.
+На следующем снимке экрана показаны неиспользуемые стили в HTML-файле, которые будут удалены путем установки значения свойства ExcludeUnusedStyles в True.
 
-![дело:изображение_альтернативный_текст](HtmlSaveOptions-Exclude-Unused-Styles.png)
+![todo:image_alt_text](HtmlSaveOptions-Exclude-Unused-Styles.png)
 
-В следующем примере кода показано удаление неиспользуемых стилей во время преобразования Excel в HTML.
+В следующем образце кода демонстрируется удаление неиспользуемых стилей во время конвертации Excel в HTML.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "HTML-ExcludeUnusedStylesInExcelToHTML.py" >}}

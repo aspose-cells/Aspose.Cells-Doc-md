@@ -1,54 +1,55 @@
-﻿---
-title: Добавление новых рабочих листов в рабочую книгу и активация листа в VSTO и Aspose.Cells
+---
+title: Добавление новых рабочих листов в книгу и активация листа в VSTO и Aspose.Cells
 type: docs
 weight: 30
 url: /ru/net/adding-new-worksheets-to-workbook-and-activating-a-sheet-in-vsto-and-aspose-cells/
 ---
+
 ## **Совет по миграции:**
-1. Добавьте новые рабочие листы в существующий файл Excel Microsoft.
-1. Заполните данные в ячейки каждого нового рабочего листа.
-1. Активируйте лист в книге.
-1. Сохранить как файл Excel Microsoft.
+1. Добавьте новые листы в существующий файл Microsoft Excel.
+1. Заполните данные в ячейки каждого нового листа.
+1. Активируйте лист в рабочей книге.
+1. Сохраните как файл Microsoft Excel.
 
 Ниже приведены параллельные фрагменты кода для VSTO (C#) и Aspose.Cells for .NET (C#), которые показывают, как выполнить эти задачи.
 
-**ВСТО**
+**VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
-// инициировать объект приложения
+ //intiate application object
 
-Excel.Приложение excelApp = Приложение;
+Excel.Application excelApp = Application;
 
-// Указываем путь к файлу excel шаблона.
+//Specify the template excel file path.
 
-строка myPath = "Book1.xls";
+string myPath = "Book1.xls";
 
-//Открываем файл excel.
+//Open the excel file.
 
 excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
-Отсутствует.Значение, Отсутствует.Значение,
+Missing.Value, Missing.Value,
 
-Отсутствует.Значение, Отсутствует.Значение,
+Missing.Value, Missing.Value,
 
-Отсутствует.Значение, Отсутствует.Значение,
+Missing.Value, Missing.Value,
 
-Отсутствует.Значение, Отсутствует.Значение,
+Missing.Value, Missing.Value,
 
-Отсутствует.Значение, Отсутствует.Значение,
+Missing.Value, Missing.Value,
 
-Отсутствующее.Значение, Отсутствующее.Значение);
+Missing.Value, Missing.Value);
 
-// Объявить объект Worksheet.
+//Declare a Worksheet object.
 
 Excel.Worksheet newWorksheet;
 
-//Добавить 5 новых рабочих листов в рабочую книгу и заполнить некоторые данные
+//Add 5 new worksheets to the workbook and fill some data
 
-//в ячейки.
+//into the cells.
 
- для (целое я = 1; я< 6; i++){
+for (int i = 1; i < 6; i++){
 
                 //Add a worksheet to the workbook.
 
@@ -88,35 +89,35 @@ excelApp.Quit();
 
 **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Создаем экземпляр лицензии и устанавливаем файл лицензии
+ //Instantiate an instance of license and set the license file
 
-//по своему пути
+//through its path
 
 Aspose.Cells.License license = new Aspose.Cells.License();
 
-лицензия.SetLicense("Aspose.Total.lic");
+license.SetLicense("Aspose.Total.lic");
 
-// Указываем путь к файлу excel шаблона.
+//Specify the template excel file path.
 
-строка myPath = "Book1.xls";
+string myPath = "Book1.xls";
 
-//Создание новой книги.
+//Instantiate a new Workbook.
 
-//Открываем файл excel.
+//Open the excel file.
 
-Книга рабочей книги = новая рабочая книга (мой путь);
+Workbook workbook = new Workbook(myPath);
 
-// Объявить объект Worksheet.
+//Declare a Worksheet object.
 
-Рабочий лист новыйРабочий лист;
+Worksheet newWorksheet;
 
-//Добавить 5 новых рабочих листов в рабочую книгу и заполнить некоторые данные
+//Add 5 new worksheets to the workbook and fill some data
 
-//в ячейки.
+//into the cells.
 
- для (целое я = 0; я< 5; i++){
+for (int i = 0; i < 5; i++){
 
                 //Add a worksheet to the workbook.
 
@@ -145,7 +146,7 @@ workbook.Worksheets.ActiveSheetIndex = 0;
 workbook.Save("out_My_Book1.xls");
 
 {{< /highlight >}}
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Adding.New.Worksheets.to.Workbook.and.Activating.a.Sheet.Aspose.Cells.zip)
-- [Источникфорж](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip/скачать)
-- [Битбакет](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip)
+## **Загрузить образец кода**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Adding.New.Worksheets.to.Workbook.and.Activating.a.Sheet.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip)

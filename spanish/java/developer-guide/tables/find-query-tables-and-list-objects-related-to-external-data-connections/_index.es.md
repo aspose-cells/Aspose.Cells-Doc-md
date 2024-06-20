@@ -1,22 +1,23 @@
-﻿---
-title: Encuentre tablas de consulta y objetos de lista relacionados con conexiones de datos externas
+---
+title: Encuentra Tablas de Consulta y Objetos Lista relacionados con Conexiones de Datos Externos
 type: docs
 weight: 20
 url: /es/java/find-query-tables-and-list-objects-related-to-external-data-connections/
 ---
-## **Encuentre tablas de consulta y objetos de lista relacionados con conexiones de datos externas**
 
-A veces, necesita encontrar tablas de consulta y objetos de lista relacionados con alguna conexión de datos externa. Las tablas de consulta están relacionadas con el objeto de conexión de datos externos con ID de conexión, mientras que los objetos de lista están relacionados con una tabla de consulta.
+## **Buscar Tablas de Consulta y Objetos de Lista relacionados con Conexiones de Datos Externos**
 
- El siguiente código de ejemplo explica cómo puede encontrar tablas de consulta y objetos de lista relacionados con la conexión de datos externos. El código utiliza el[ejemplo de archivo de Excel](5472550.xlsm) que puede descargar desde el enlace proporcionado. También puede ver el resultado de este código de muestra al final de este artículo.
+A veces, necesitas descubrir las Tablas de Consulta y Objetos Lista relacionados con alguna Conexión de Datos Externos. Las Tablas de Consulta están relacionadas con el objeto Conexión de Datos Externos con el Id de Conexión, mientras que los Objetos Lista están relacionados con una Tabla de Consulta.
+
+El siguiente código de ejemplo explica cómo puedes encontrar Tablas de Consulta y Objetos Lista relacionados con Conexión de Datos Externos. El código utiliza el [archivo de Excel de ejemplo](5472550.xlsm) que puedes descargar desde el enlace proporcionado. También puedes ver la salida de este código de ejemplo en la parte inferior de este artículo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-FindReferenceCellsFromExternalConnection-FindReferenceCellsFromExternalConnection.java" >}}
 
-## **Salida de consola**
+## **Salida de la consola**
 
- Aquí está la salida de la consola del código de muestra anterior usando este[ejemplo de archivo de Excel](5472550.xlsm).
+Aquí está la salida de consola del código de ejemplo anterior utilizando este [archivo de Excel de ejemplo](5472550.xlsm).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 connection: AAPL Connection
 

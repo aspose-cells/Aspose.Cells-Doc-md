@@ -1,18 +1,19 @@
-﻿---
-title: Tabla dinámica Ocultar y ordenar datos
+---
+title: Ocultar y ordenar datos de la tabla dinámica
 type: docs
 weight: 120
 url: /es/net/pivot-table-hide-and-sort-data/
 ---
-## **Tabla dinámica Ocultar y ordenar datos**
-Aspose.Cells admite ocultar y ordenar datos en la tabla dinámica. El siguiente fragmento de código demuestra esta función ordenando la columna Puntuación en orden descendente y luego ocultando las filas con una puntuación inferior a 60.
+
+## **Ocultar y ordenar datos de la tabla dinámica**
+Aspose.Cells soporta ocultar y clasificar datos en la tabla dinámica. El siguiente fragmento de código muestra esta característica al ordenar la columna de puntuación en orden descendente y luego ocultar las filas con una puntuación inferior a 60.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTables-PivotTableSortAndHide-1.cs" >}}
 
-Los archivos de Excel de origen y salida utilizados en el fragmento de código se adjuntan como referencia.
+Se adjuntan los archivos de Excel de origen y de salida utilizados en el fragmento de código como referencia.
 
-[Archivo fuente](96928093.xlsx)
+[Archivo de origen](96928093.xlsx)
 
 [Archivo de salida](96928094.xlsx)

@@ -1,16 +1,17 @@
-﻿---
-title: Ställ in radavstånd för stycket i en form eller textruta
+---
+title: Ställ in radavstånd för stycket i en shape eller textbox
 type: docs
 weight: 810
 url: /sv/java/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/
 ---
+
 {{% alert color="primary" %}} 
 
-Du kan ställa in radutrymmet för stycket, dess mellanrum före och mellanslag efter att du har använt TextParagraph.LineSpace, TextParagraph.SpaceBefore och TextParagraph.SpaceAfter.
+Du kan ställa in radavståndet för stycket, avståndet före och avståndet efter med hjälp av egenskaperna TextParagraph.LineSpace, TextParagraph.SpaceBefore och TextParagraph.SpaceAfter.
 
 {{% /alert %}} 
-## **Ställ in radavstånd för stycket i en form eller textruta**
- Följande exempelkod förklarar användningen av nämnda egenskaper. Vänligen ladda ner[output excel-fil](5473432.xlsx) genereras av koden för din referens.
+## **Ställ in radavstånd för stycket i en shape eller textbox**
+Följande exempelkod förklarar hur de nämnda egenskaperna används. Var god ladda ner [utdata Excel-filen](5473432.xlsx) genererad av koden för referens.
 
 
 

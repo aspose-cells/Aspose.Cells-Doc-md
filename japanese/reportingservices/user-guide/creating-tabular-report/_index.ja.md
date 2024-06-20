@@ -1,49 +1,50 @@
-﻿---
-title: 表形式レポートの作成
+---
+title: タブル型レポートの作成
 type: docs
 weight: 70
 url: /ja/reportingservices/creating-tabular-report/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells レポート テンプレートのテーブルは、ヘッダー、テーブル データ行、行グループ、およびフッターで構成されます。サンプルテーブルを以下に示します。
+Aspose.Cells レポート テンプレートのテーブルは、ヘッダー、表データ行、行グループ、およびフッターで構成されています。次に示すのはサンプルテーブルです。
 
-**テーブルの例** 
+**サンプルのテーブル** 
 
-![todo:画像_代替_文章](creating-tabular-report_1.png)
+![todo:image_alt_text](creating-tabular-report_1.png)
 #### **テーブル ヘッダー**
-通常、テーブル ヘッダーには、各テーブル列のタイトルと、静的テキスト、レポート パラメータ、グローバル レポート変数などのその他のテキスト項目が含まれます。テーブル ヘッダーはオプションです。ヘッダーを使用する場合、行がヘッダーであることを示すために、ヘッダー タグをテーブル データの最初の列の左側に配置する必要があります。
-#### **テーブル データ行**
-テーブル データ行は、スマート マーカーを含むセルの行です。テーブルには、単一のデータ行のみを含めることができます。
+テーブルヘッダーには通常、各テーブル列のタイトルやその他のテキスト項目（静的テキスト、レポートパラメータ、グローバルレポート変数など）が含まれます。テーブルヘッダーはオプションです。ヘッダーを使用する場合は、ヘッダータグをテーブルデータの最初の列の左側に配置して、その行がヘッダーであることを示す必要があります。
+#### **テーブルデータ行**
+テーブルデータ行はスマートマーカーを含むセルの行です。テーブルには単一のデータ行のみを含めることができます。
 #### **行グループ**
-行グループはテーブル データ行のすぐ後に続き、グループ タグとグループ データ行の 2 つの部分で構成されます。
+行グループは通常、テーブルデータ行の直後に続き、グループタグとグループデータ行の 2 つのパーツで構成されています。 
 
-グループ タグは、行が行グループのデータ行であることを示すために、最初のテーブル データ列の左側に配置する必要があります。グループ タグの形式は ##group{GroupColumn} です。たとえば、##group{SalesOrderNumber} のようになります。ここで、SalesOrderNumber はデータ セットの列名の 1 つです。テーブルには 1 つの行グループのみを含めることができますが、行グループには複数のグループ データ行を含めることができます。上記のサンプルに示すように、グループ タグは最初のデータ行にのみ配置できます。
+グループタグは、行グループのデータ行であることを示すために、テーブルデータ列の最初の左側に配置されます。グループタグの形式は ##group{GroupColumn} であり、SalesOrderNumber など、データセットの列名の一つです。テーブルには 1 つの行グループのみを含めることができますが、行グループには 1 つ以上のグループデータ行を含めることができます。グループタグは、サンプルの最初のデータ行にのみ配置できます。
 
-グループ タグは、レンダリング時に出力 Microsoft Excel ファイルから削除されます。行グループはオプションです。
+レンダリング時には出力のMicrosoft Excelファイルからグループタグが削除されます。行グループは任意です。
 #### **フッター**
-フッターは行グループの後に続き、フッター タグ、フッター データ行、フッター テキスト領域の 3 つの部分で構成されます。
+フッターは行グループの後に配置され、フッタータグ、フッターデータ行、およびフッターテキストエリアから構成されます。 
 
-フッター タグは、行がテーブル フッターであることを示すテーブル データ列の最初の列の左側に配置する必要があります。テーブルには複数のフッター データ行を含めることができ、各フッター行はフッター タグでマークする必要があります。
+フッタータグは、テーブルデータ列の最初の列の左側に配置されるべきであり、その行がテーブルフッターであることを示します。1つのテーブルには複数のフッターデータ行を含めることができ、各フッター行はフッタータグでマークする必要があります。 
 
-上記のサンプルに示すように、フッター テキスト領域には、静的テキスト、レポート パラメーター、およびグローバル レポート変数を含めることができます。
+フッターテキストエリアには静的テキスト、レポートパラメータ、グローバルレポート変数を含めることができます。上記のサンプルに示されています。
 
-フッター タグは、レンダリング時に出力 Microsoft Excel ファイルから削除されます。フッターはオプションです。
+レンダリング時には出力のMicrosoft Excelファイルからフッタータグが削除されます。フッターは任意です。
 
-サンプル テンプレートの出力を以下に示します。
+サンプルテンプレートの出力は以下に示されています。
 
-**サンプル テンプレート** 
+サンプルテンプレート 
 
-![todo:画像_代替_文章](creating-tabular-report_2.png)
+![todo:image_alt_text](creating-tabular-report_2.png)
 
 {{% /alert %}} 
-###### **このセクションには、次のトピックが含まれています。**
-- [テーブルレポート作成の準備](/cells/ja/reportingservices/preparing-for-creating-table-report/)
-- [テーブルの基本情報を追加する](/cells/ja/reportingservices/adding-base-information-for-table/)
-- [Reporting Services 式の追加](/cells/ja/reportingservices/adding-reporting-services-formulas/)
-- [テーブル グループの追加](/cells/ja/reportingservices/adding-table-group/)
-- [テーブル フッターの追加](/cells/ja/reportingservices/adding-table-footers/)
-- [レポート パラメータをレポートに追加する](/cells/ja/reportingservices/adding-report-parameters-to-report/)
-- [レポートへの Reporting Services グローバル変数の追加](/cells/ja/reportingservices/adding-reporting-services-global-variables-to-report/)
-- [レポート属性の設定](/cells/ja/reportingservices/setting-report-attributes/)
-- [レポート属性の変更](/cells/ja/reportingservices/modifying-report-attributes/)
+###### **このセクションには以下のトピックが含まれています:** 
+- [テーブルレポートの作成の準備](/cells/ja/reportingservices/preparing-for-creating-table-report/)
+- [テーブルの基本情報を追加](/cells/ja/reportingservices/adding-base-information-for-table/)
+- [レポートサービスの数式を追加](/cells/ja/reportingservices/adding-reporting-services-formulas/)
+- [テーブルグループを追加](/cells/ja/reportingservices/adding-table-group/)
+- [テーブルフッターを追加](/cells/ja/reportingservices/adding-table-footers/)
+- [レポートにレポートパラメータを追加](/cells/ja/reportingservices/adding-report-parameters-to-report/)
+- [レポートにレポートサービスのグローバル変数を追加](/cells/ja/reportingservices/adding-reporting-services-global-variables-to-report/)
+- [レポート属性を設定](/cells/ja/reportingservices/setting-report-attributes/)
+- [レポート属性を変更](/cells/ja/reportingservices/modifying-report-attributes/)

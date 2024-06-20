@@ -1,32 +1,33 @@
 ---
-title: Пользовательские цвета срезов или секторов в круговой диаграмме
-description: Узнайте, как использовать Aspose.Cells for .NET для настройки цветов срезов и секторов на круговой диаграмме. Наше руководство покажет, как назначить уникальные цвета каждому срезу, сектору или легиону для улучшения визуальной привлекательности и представления данных.
-keywords: Aspose.Cells for .NET, Pie Chart, Custom Slice Colors, Custom Sector Colors, Visual Appeal, Data Representation.
+title: Настройка цветов круговой диаграммы
+description: Узнайте, как использовать Aspose.Cells for .NET для настройки цветов сегментов и секторов в круговой диаграмме. Наше руководство покажет, как назначить уникальные цвета для каждого сегмента, сектора или легиона для улучшения визуального обращения и представления данных.
+keywords: Aspose.Cells for .NET, Круговая диаграмма, настраиваемые цвета сегментов, настраиваемые цвета секторов, визуальное обращение, представление данных.
 type: docs
 weight: 60
 url: /ru/net/custom-slice-or-sector-colors-in-pie-chart/
 ---
+
 {{% alert color="primary" %}}
 
-В этой статье объясняется, как добавлять пользовательские цвета к фрагментам/секторам круговой диаграммы. По умолчанию круговые диаграммы используют шаблон Excel по умолчанию Microsoft. Чтобы использовать другие цвета, переопределите цвета на диаграмме.
+В этой статье объясняется, как добавить пользовательские цвета к сегментам/секторам круговой диаграммы. По умолчанию круговые диаграммы используют шаблон Microsoft Excel по умолчанию. Чтобы использовать другие цвета, перепределите цвета в диаграмме.
 
 {{% /alert %}}
 
-Чтобы установить собственный цвет для отдельных фрагментов или секторов круговой диаграммы:
+Чтобы установить пользоватский цвет для отдельных секторов или секторов круговой диаграммы:
 
-1.  Доступ к[**Ряд**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) объекты[**Чартпойнт**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint).
-1. Назначьте цвет по вашему выбору, используя[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor)свойство.
+1. Обратитесь к [**Series**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) обьекту [**ChartPoint**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint).
+1. Назначьте цвет вашего выбора, используя свойство [**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor).
 
 В этой статье также объясняется, как:
 
-- Данные категории диаграммы.
+- Категорийные данные диаграммы.
 - Заголовок диаграммы, связанный с ячейкой.
 - Настройки шрифта заголовка диаграммы.
-- Позиция легенды.
+- Положение легенды.
 
 {{% alert color="primary" %}}
 
-[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor) не относится только к круговым диаграммам, но может использоваться для всех типов диаграмм.
+[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor) не является специфичным для круговых диаграмм, но может быть использован для всех типов диаграмм.
 
 {{% /alert %}}
 

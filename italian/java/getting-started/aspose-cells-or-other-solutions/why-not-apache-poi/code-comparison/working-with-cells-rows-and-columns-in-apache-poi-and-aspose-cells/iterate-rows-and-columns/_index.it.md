@@ -1,34 +1,35 @@
 ---
-title: Itera righe e colonne
+title: Iterare Righe e Colonne
 type: docs
 weight: 50
 url: /it/java/iterate-rows-and-columns/
-description: Scopri come ripetere righe e colonne tramite le API Aspose.Cells for Java.
-keywords: How to Iterate Rows and Columns in Java, Iterate Rows using Java, Java Iterate Columns. 
+description: Scopri come Iterare Righe e Colonne attraverso le Aspose.Cells for Java API.
+keywords: Come Iterare Righe e Colonne in Java, Iterare Righe utilizzando Java, Java Iterare Colonne. 
 ---
-##  **Come ripetere righe e colonne utilizzando Aspose.Cells for Java**
 
-Righe e colonne possono essere ripetute utilizzando la raccolta di righe e colonne.
+## **Come Iterare Righe e Colonne Usando Aspose.Cells for Java**
+
+Le Righe e le Colonne possono essere iterate utilizzando le collezioni di righe e colonne.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //Accedi all'intervallo di visualizzazione massimo
+ //Access the Maximum Display Range
 
-Intervallo intervallo = worksheet.getCells().getMaxDisplayRange();
+Range range = worksheet.getCells().getMaxDisplayRange();
 
 int tcols = range.getColumnCount();
 
 int trows = range.getRowCount();
 
-System.out.println("Righe totali:" + trows);
+System.out.println("Total Rows:" + trows);
 
-System.out.println("Col. totali:" + tcols);
+System.out.println("Total Cols:" + tcols);
 
-RowCollection righe = cellule.getRows();
+RowCollection rows = cells.getRows();
 
- for (int i = 0 ; i< rows.getCount() ; i++)
+for (int i = 0 ; i < rows.getCount() ; i++)
 
 {
 
@@ -46,13 +47,13 @@ RowCollection righe = cellule.getRows();
 
 {{< /highlight >}}
 
-##  **Apache POI SS - HSSF XSSF - Itera righe e colonne**
+## **Apache POI SS - HSSF XSSF - Iterare Righe e Colonne**
 
-Le righe e Cells possono essere ripetute sul foglio. Il codice di esempio è menzionato di seguito:
+Le Righe e le celle possono essere iterate nel Foglio. Il codice di esempio è menzionato di seguito:
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = WorkbookFactory.create(inStream);
 
@@ -74,11 +75,11 @@ for (Row row : sheet)
 
 {{< /highlight >}}
 
-##  **Scarica il codice in esecuzione**
+## **Scarica il codice in esecuzione**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 
-##  **Scarica il codice di esempio**
+## **Scarica il codice di esempio**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/iterate)
 

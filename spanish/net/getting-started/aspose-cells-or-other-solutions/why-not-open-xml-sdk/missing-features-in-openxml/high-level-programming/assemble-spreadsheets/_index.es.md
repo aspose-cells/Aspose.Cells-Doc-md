@@ -1,30 +1,31 @@
-﻿---
-title: ensamblar hojas de cálculo
+---
+title: Ensamblar Hojas de Cálculo
 type: docs
 weight: 10
 url: /es/net/assemble-spreadsheets/
 ---
+
 Esta sección describe cómo:
 
-Cree un nuevo archivo de Excel desde cero y agréguele una hoja de trabajo.
+Crear un nuevo archivo de Excel desde cero y agregar una hoja de trabajo.
 
-- Agregue hojas de trabajo a las hojas de cálculo del diseñador.
-- Acceda a las hojas de trabajo usando el nombre de la hoja.
-- Elimine una hoja de trabajo de un archivo de Excel usando su nombre de hoja.
-- Elimine una hoja de trabajo de un archivo de Excel usando su índice de hoja.
-- Aspose.Cells proporciona una clase, Workbook, que representa un archivo de Excel. La clase Libro de trabajo contiene una colección de Hojas de trabajo que permite acceder a cada hoja de trabajo en el archivo de Excel.
+- Agregar hojas de trabajo a hojas de cálculo diseñadas.
+- Acceda a las hojas de cálculo utilizando el nombre de la hoja.
+- Elimine una hoja de cálculo de un archivo de Excel utilizando su nombre de hoja.
+- Elimine una hoja de cálculo de un archivo de Excel utilizando su índice de hoja.
+- Aspose.Cells proporciona una clase, Workbook que representa un archivo de Excel. La clase Workbook contiene una colección de Worksheets que permite el acceso a cada hoja de cálculo en el archivo de Excel.
 
-Una hoja de trabajo está representada por la clase Worksheet. La clase Worksheet proporciona una amplia gama de propiedades y métodos para administrar hojas de trabajo.
-## **Agregar hojas de trabajo a un nuevo archivo de Excel**
-Para crear un nuevo archivo de Excel mediante programación:
+Una hoja de cálculo está representada por la clase Worksheet. La clase Worksheet proporciona una amplia gama de propiedades y métodos para administrar las hojas de cálculo.
+## **Añadir hojas de cálculo a un nuevo archivo de Excel**
+Para crear un nuevo archivo de Excel programáticamente:
 
 - Cree un objeto de la clase Workbook.
-- Llame al método Add de la colección Worksheets. Una hoja de trabajo vacía se agrega al archivo de Excel * automáticamente. Se puede hacer referencia a ella pasando el índice de hoja de la nueva hoja de trabajo a la colección Hojas de trabajo.
-- Obtenga una referencia de la hoja de trabajo.
-- Realizar el trabajo en las hojas de trabajo.
-- Guarde el nuevo archivo de Excel con nuevas hojas de trabajo llamando al método Guardar de la clase Workbook.
+- Llame al método Add de la colección Worksheets. Se agrega automáticamente una hoja de cálculo vacía al archivo de Excel. Se puede hacer referencia pasando el índice de hoja de cálculo de la nueva hoja de cálculo a la colección Worksheets.
+- Obtener una referencia de la hoja de cálculo.
+- Realizar trabajo en las hojas de cálculo.
+- Guarde el nuevo archivo de Excel con nuevas hojas de cálculo llamando al método Save de la clase Workbook.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -47,10 +48,10 @@ worksheet.Name = "My Worksheet";
 workbook.Save("Adding Worksheet.xls");
 
 {{< /highlight >}}
-## **Adición de hojas de trabajo a una hoja de cálculo de Designer**
-El proceso de agregar hojas de trabajo a una hoja de cálculo de diseñador es el mismo que el de agregar una nueva hoja de trabajo, excepto que el archivo de Excel ya existe, por lo que debe abrirse antes de agregar las hojas de trabajo. La clase Workbook puede abrir una hoja de cálculo de diseñador.
+## **Añadir hojas de cálculo a una hoja de cálculo de diseñador**
+El proceso de añadir hojas de cálculo a una hoja de cálculo de diseñador es el mismo que el de añadir una nueva hoja de cálculo, excepto que el archivo de Excel ya existe, por lo que debe abrirse antes de que se añadan las hojas de cálculo. Una hoja de cálculo de diseñador puede abrirse mediante la clase Workbook.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -83,10 +84,10 @@ workbook.Save("Designer Spreadsheet.xls");
 fstream.Close();
 
 {{< /highlight >}}
-## **Acceder a las hojas de trabajo usando el nombre de la hoja**
-Acceda u obtenga cualquier hoja de trabajo especificando su nombre o índice.
+## **Acceso a las hojas de cálculo usando el nombre de la hoja**
+Acceda o obtenga cualquier hoja de cálculo especificando su nombre o índice.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -103,10 +104,10 @@ Workbook workbook = new Workbook(fstream);
 Worksheet worksheet = workbook.Worksheets["Sheet1"];
 
 {{< /highlight >}}
-## **Eliminación de hojas de trabajo usando el nombre de la hoja**
-Para eliminar hojas de trabajo de un archivo, llame al método RemoveAt de la colección Worksheets. Pase el nombre de la hoja al método RemoveAt para eliminar una hoja de trabajo específica.
+## **Eliminar hojas de cálculo utilizando el nombre de la hoja**
+Para eliminar hojas de cálculo de un archivo, llame al método RemoveAt de la colección Worksheets. Pase el nombre de la hoja al método RemoveAt para eliminar una hoja de cálculo específica.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -125,10 +126,10 @@ workbook.Worksheets.RemoveAt("Sheet3");
 workbook.Save("WorksHeet Operations.xls");
 
 {{< /highlight >}}
-## **Eliminación de hojas de cálculo mediante el índice de hojas**
-La eliminación de hojas de trabajo por nombre funciona bien cuando se conoce el nombre de la hoja de trabajo. Si no conoce el nombre de la hoja de trabajo, use una versión sobrecargada del método RemoveAt que toma el índice de la hoja de trabajo en lugar de su nombre de hoja.
+## **Eliminar hojas de cálculo utilizando el índice de la hoja**
+Eliminar hojas de cálculo por nombre funciona bien cuando se conoce el nombre de la hoja de cálculo. Si no conoce el nombre de la hoja de cálculo, utilice una versión sobrecargada del método RemoveAt que tome el índice de la hoja de cálculo en lugar de su nombre de hoja.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //creating a file stream containing the Excel file to be opened
 
@@ -147,6 +148,6 @@ workbook.Worksheets.RemoveAt(1);
 workbook.Save("WorksHeet Operations.xls");
 
 {{< /highlight >}}
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Assemble%20Worksheet%20%28Aspose.Cells%29.zip)

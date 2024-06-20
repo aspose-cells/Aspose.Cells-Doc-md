@@ -1,16 +1,19 @@
-﻿---
-title: Agregar o quitar elementos del menú contextual en GridWeb
+---
+title: Agregar o Quitar Elementos del Menú Contextual en GridWeb
 type: docs
 weight: 130
-url: /es/net/add-or-remove-context-menu-items-in-gridweb/
+url: /es/net/aspose-cells-gridweb/add-or-remove-context-menu-items-in-gridweb/
+keywords: GridWeb, menú contextual, menú
+description: Este artículo presenta cómo agregar o quitar elementos del menú contextual en GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Puede agregar elementos del menú contextual usando el marcado ASP.NET o usando el código .NET. También puede eliminar elementos del menú contextual utilizando el código .NET. Utilice los métodos GridWeb.CustomCommandButtons.Add() y GridWeb.CustomCommandButtons.Remove() o RemoveAt() para estos fines.
+Puedes agregar elementos al menú contextual usando la marcación de ASP.NET o utilizando el código .NET. También puedes quitar elementos del menú contextual usando el código .NET. Por favor, usa los métodos GridWeb.CustomCommandButtons.Add() y GridWeb.CustomCommandButtons.Remove() o RemoveAt() para estos propósitos.
 
 {{% /alert %}} 
-## **Agregue el elemento del menú contextual usando el marcado ASP.NET**
-El siguiente marcado ASP.NET agrega un elemento de menú contextual en GridWeb.
+## **Agregar Elemento al Menú Contextual usando la Marcación de ASP.NET**
+El siguiente marcado de ASP.NET agrega un elemento de menú contextual en GridWeb.
 
 
 
@@ -18,7 +21,7 @@ El siguiente marcado ASP.NET agrega un elemento de menú contextual en GridWeb.
 
 
 
-Aquí está el marcado ASP.NET completo que crea un GridWeb con el elemento de menú contextual anterior. Tenga en cuenta el atributo OnCustomCommand="GridWeb1_CustomCommand". Es el nombre del controlador de eventos que se llamará cuando se haga clic en el elemento del menú contextual.
+Aquí está el marcado completo de ASP.NET que crea un GridWeb con el elemento de menú contextual anterior. Por favor, tenga en cuenta el atributo OnCustomCommand="GridWeb1_CustomCommand". Es el nombre del controlador de eventos que se llamará cuando se haga clic en su elemento de menú contextual.
 
 
 
@@ -26,28 +29,28 @@ Aquí está el marcado ASP.NET completo que crea un GridWeb con el elemento de m
 
 
 
-Así es como se ve el elemento del menú contextual después de agregarlo usando el marcado ASP.NET anterior.
+Así es como se ve el elemento de menú contextual después de ser agregado usando el marcado de ASP.NET anterior.
 
-![todo:imagen_alternativa_texto](add-or-remove-context-menu-items-in-gridweb_1.png)
+![todo:image_alt_text](add-or-remove-context-menu-items-in-gridweb_1.png)
 
-Este es el código del controlador de eventos que se ejecuta cuando se hace clic en el elemento del menú contextual. El código primero verifica el nombre del comando, si coincide con nuestro comando, agrega un texto en la celda A1 de la hoja de trabajo GridWeb activa y establece el ancho de la primera columna en 40 unidades para que el texto sea visible.
+Este es el código del controlador de eventos que se ejecuta cuando se hace clic en el elemento de menú contextual. El código primero verifica el nombre del comando, si coincide con nuestro comando, agrega un texto en la celda A1 de la hoja de cálculo activa de GridWeb y ajusta el ancho de la primera columna a 40 unidades para que el texto sea visible.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-InitContextMenuItem.aspx-HandleContextMenuItemCommand.cs" >}}
 
 
-Así es como se ve GridWeb cuando hace clic en el elemento del menú contextual.
+Así es como se ve el GridWeb cuando se hace clic en el elemento de menú contextual.
 
-![todo:imagen_alternativa_texto](add-or-remove-context-menu-items-in-gridweb_2.png)
-## **Agregar elementos del menú contextual en Aspose.Cells.GridWeb usando código**
-Este código muestra cómo agregar un elemento de menú contextual dentro de GridWeb usando código.
+![todo:image_alt_text](add-or-remove-context-menu-items-in-gridweb_2.png)
+## **Agregar elementos de menú contextual en Aspose.Cells.GridWeb usando código**
+Este código muestra cómo agregar un elemento de menú contextual dentro de un GridWeb usando código.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-AddRemoveContextMenuItem.aspx-AddContextMenuItem.cs" >}}
-## **Eliminar elementos del menú contextual en Aspose.Cells.GridWeb usando código**
-Este código muestra cómo eliminar un elemento del menú contextual mediante los métodos CustomCommandButtons.Remove() y CustomCommandButtons.RemoveAt().
+## **Eliminar elementos de menú contextual en Aspose.Cells.GridWeb usando código**
+Este código muestra cómo eliminar un elemento de menú contextual utilizando los métodos CustomCommandButtons.Remove() y CustomCommandButtons.RemoveAt().
 
 
 

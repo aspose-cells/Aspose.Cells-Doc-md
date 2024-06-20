@@ -1,37 +1,40 @@
-﻿---
+---
 title: Aspose.Cells for Java
 type: docs
 weight: 20
 url: /sv/java/
 is_root: true
-description: Aspose.Cells for Java är ett klassbibliotek som stöder att skapa, uppdatera och spara Excel-filer. Och Aspose.Cells for Java stöder även konvertering av filer till PDF, DOCX, PPTX, JSON,XPS, HTML, 304153481, PPTX, JSON.
+description: Aspose.Cells for Java är ett klassbibliotek som stödjer skapande, uppdatering och sparning av Excel filer. Och Aspose.Cells for Java stödjer också konvertering av filer till PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Ren text och populära bildformat inklusive TIFF, JPG, PNG, BMP och SVG.
+keywords: Aspose.Cells for Java skapa, reparera, modifiera, tolka, slå samman, konvertera JSON Excel XML PDF HTML TSV SQL TXT PNG JPEG och fler format.
 ---
+
 {{% alert color="primary" %}}
 
 **![todo:image_alt_text](home_1.png)**
 
 **Välkommen till Aspose.Cells for Java**
 
- Aspose.Cells for Java är ett programmeringsklassbibliotek som tillåter programutvecklare att manipulera och bearbeta kalkylbladsfiler i sina egna applikationer.
+Aspose.Cells for Java är ett programmeringsklassbibliotek som gör det möjligt för programutvecklare att manipulera och behandla kalkylbladsfiler i sina egna applikationer.
 
- kombination med API:er och GUI-kontroller snabbar Aspose.Cells for Java upp Microsoft Excel®-programmering och konvertering.
+Kombinerat med API:er och GUI-kontroller snabbar Aspose.Cells for Java upp programmering och konvertering av Microsoft Excel®.
 
-Aspose.Cells for Java stöder de populära kalkylarksfilformaten (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) som ditt företag använder varje dag. Det tillåter också export av Excel-filer till PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, vanlig text och populära bildformat inklusive TIFF, JPG, PNG, BMP and SVG.
+Aspose.Cells for Java stödjer de populära kalkylbladsformaten (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) som ditt företag använder varje dag. Det tillåter också export av Excel-filer till PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Ren text och populära bildformat inklusive TIFF, JPG, PNG, BMP och SVG.
 
 
 {{% /alert %}}
 
 ## **Aspose.Cells for Java Resurser**
 
-Följande är länkarna till några användbara resurser som du kan behöva för att utföra dina uppgifter.
+Här är länkar till några användbara resurser som du kan behöva för att utföra dina uppgifter.
 
-- [Aspose.Cells for Java Onlinedokumentation](/cells/sv/java/)
+- [Aspose.Cells for Java Online Dokumentation](/cells/sv/java/)
 - [Aspose.Cells for Java Funktioner](/cells/sv/java/feature-overview/)
 - [Aspose.Cells for Java Begränsningar](/cells/sv/java/aspose-cells-features/)
-- [Aspose.Cells for Java Release Notes](https://releases.aspose.com/cells/java/release-notes/)
-- [Aspose.Cells for Java Produktsida](https://products.aspose.com/cells/java/)
-- [Ladda ner Aspose.Cells for Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
-- [Installera Aspose.Cells for Java från Maven Repository](/cells/sv/java/installation/)
+- [Aspose.Cells for Java Versionsanteckningar](https://releases.aspose.com/cells/java/release-notes/)
+- [Aspose.Cells for Java Produkt Sida](https://products.aspose.com/cells/java/)
+- [Ladda ned Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
+- [Aspose.Cells for Java Maven Repositorium](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
+- [Installera Aspose.Cells for Java från Maven Repositorium](/cells/sv/java/installation/)
 - [Aspose.Cells for Java API Referensguide](https://reference.aspose.com/cells/java)
-- [Aspose.Cells for Java Gratis supportforum](https://forum.aspose.com/c/cells/9)
-- [Aspose.Cells for Java Betald Support Helpdesk](https://helpdesk.aspose.com/)
+- [Aspose.Cells for Java Gratis Supportforum](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells for Java Betald support hjälpdesk](https://helpdesk.aspose.com/)

@@ -1,80 +1,81 @@
 ---
-title: Impostazioni dei caratteri
-description: Aspose.Cells è una libreria .NET per lavorare con file di fogli di calcolo. Supporta l'impostazione delle impostazioni del carattere delle celle, consentendo agli utenti di personalizzare lo stile del carattere e le proprietà delle celle. Questo articolo introdurrà come utilizzare la libreria Aspose.Cells per configurare le impostazioni dei caratteri della cella.
-keywords: Aspose.Cells, Cells, Font Settings, Styles, Properties
+title: Impostazioni del carattere
+description: Aspose.Cells è una libreria .NET per lavorare con file di fogli di calcolo. Supporta l impostazione delle impostazioni del carattere delle celle, consentendo agli utenti di personalizzare lo stile e le proprietà del carattere delle celle. Questo articolo introdurrà come utilizzare la libreria Aspose.Cells per impostare le impostazioni del carattere delle celle.
+keywords: Aspose.Cells, Celle, Impostazioni del Carattere, Stili, Proprietà
 type: docs
 weight: 30
 url: /it/net/cells-font-settings/
 ---
+
 {{% alert color="primary" %}}
 
-L'aspetto di un testo può essere controllato modificando le impostazioni del carattere. Le impostazioni dei caratteri possono includere nome, stile, dimensione, colore e altri effetti dei caratteri. Proprio come Microsoft Excel, anche Aspose.Cells supporta la configurazione delle impostazioni dei caratteri delle celle.
+L'aspetto di un testo può essere controllato modificando le impostazioni del carattere. Le impostazioni del carattere possono includere il nome, lo stile, le dimensioni, il colore e altri effetti dei font. Proprio come Microsoft Excel, Aspose.Cells supporta anche la configurazione delle impostazioni del carattere delle celle.
 
 {{% /alert %}}
 
-##  **Configurazione delle impostazioni dei caratteri**
+## **Configurazione delle Impostazioni del Carattere**
 
- Aspose.Cells fornisce una lezione,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) che rappresenta un file Excel Microsoft. IL[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene a[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)raccolta che consente l'accesso a ciascun foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. IL[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collezione. Ogni elemento in[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) la raccolta rappresenta un oggetto del[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)classe.
+Aspose.Cells fornisce una classe, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) che rappresenta un file Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) contiene una collezione [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) che consente l'accesso a ciascun foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato dalla classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). La classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) fornisce una collezione [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). Ciascun elemento nella collezione [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) rappresenta un oggetto della classe [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell).
 
- Aspose.Cells fornisce il[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)classe'[**Ottieni Stile**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) E[**Imposta stile**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) metodi utilizzati per ottenere e impostare lo stile di formattazione di una cella. IL[**Stile**](https://reference.aspose.com/cells/net/aspose.cells/style)La classe fornisce proprietà per la configurazione delle impostazioni dei caratteri.
+Aspose.Cells fornisce i metodi [**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) e [**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) della classe [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) utilizzati per ottenere e impostare lo stile di formattazione di una cella. La classe [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) fornisce proprietà per configurare le impostazioni del carattere.
 
-###  **Impostazione del nome del carattere**
+### **Impostazione del nome del carattere**
 
- Gli sviluppatori possono applicare qualsiasi carattere al testo all'interno di una cella utilizzando il file[**Stile.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) dell'oggetto[Nome](https://reference.aspose.com/cells/net/aspose.cells/font/properties/name)proprietà.
+Gli sviluppatori possono applicare qualsiasi carattere al testo all'interno di una cella utilizzando la proprietà [Name](https://reference.aspose.com/cells/net/aspose.cells/font/properties/name) dell'oggetto [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontName-1.cs" >}}
 
-###  **Impostazione dello stile del carattere su Grassetto**
+### **Impostare lo stile del carattere su Grassetto**
 
- Gli sviluppatori possono rendere il testo in grassetto impostando il file[**Stile.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) dell'oggetto[**È grassetto**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/isbold)proprietà su *true**.
+Gli sviluppatori possono rendere il testo in grassetto impostando la proprietà [**IsBold**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/isbold) dell'oggetto [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) su **true**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontStyle-SetFontStyle.cs" >}}
 
-###  **Impostazione della dimensione del carattere**
+### **Impostazione della dimensione del carattere**
 
-Imposta la dimensione del carattere con[**Stile.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)dell'oggetto[**Misurare**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/size)proprietà.
+Imposta la dimensione del carattere con la proprietà [**Size**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/size) dell'oggetto [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontSize-SetFontSize.cs" >}}
 
-###  **Impostazione del colore del carattere**
+### **Impostazione del colore del carattere**
 
-Usa il[**Stile.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) dell'oggetto[**Colore**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color)proprietà per impostare il colore del carattere. Seleziona un colore qualsiasi dall'enumerazione Color (parte del framework .NET) e assegnalo a[**Colore**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color)proprietà.
+Utilizzare la proprietà [**Color**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color) dell'oggetto [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) per impostare il colore del carattere. Selezionare qualsiasi colore dall'enumerazione Color (parte del framework .NET) e assegnarlo alla proprietà [**Color**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontColor-SetFontColor.cs" >}}
 
-###  **Impostazione del tipo di sottolineatura del carattere**
+### **Impostazione del tipo sottolineato del carattere**
 
-Usa il[**Stile.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)dell'oggetto[**Sottolineare**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/underline)proprietà per sottolineare il testo. Aspose.Cells offre vari tipi di sottolineatura di caratteri predefiniti nel file[**FontUnderlineType**](https://reference.aspose.com/cells/net/aspose.cells/fontunderlinetype) enumerazione.
+Utilizzare la proprietà [**Underline**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/underline) dell'oggetto [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) per sottolineare il testo. Aspose.Cells offre vari tipi predefiniti di sottolineatura nel'enumerazione [**FontUnderlineType**](https://reference.aspose.com/cells/net/aspose.cells/fontunderlinetype).
 
-|**Tipi di sottolineatura dei caratteri**|**Descrizione**|
+|**Tipi di sottolineatura del carattere**|**Descrizione**|
 | :- | :- |
-|Contabilità|Un'unica sottolineatura contabile|
-|Doppio|Doppia sottolineatura|
-|Doppia contabilità|Doppia sottolineatura contabile|
-|Nessuno|Nessuna sottolineatura|
-|Separare|Una sola sottolineatura|
+|Accounting|Un solo sottolineatura contabile|
+|Double|Doppia sottolineatura|
+|DoubleAccounting|Doppia sottolineatura contabile|
+|None|Nessuna sottolineatura|
+|Single|Una singola sottolineatura|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontUnderlineType-1.cs" >}}
 
-###  **Impostazione dell'effetto barrato**
+### **Impostazione dell'effetto barrato**
 
-Applicare la barratura impostando il file[**Stile.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) dell'oggetto[**È Strikeout**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/isstrikeout)proprietà su *true**.
+Applicare il barrato impostando la proprietà [**IsStrikeout**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/isstrikeout) dell'oggetto [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) su **true**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingStrikeOutEffect-SetStrikeout.cs" >}}
 
-###  **Impostazione dell'effetto dell'indice**
+### **Impostazione dell'effetto pedice**
 
-Applicare l'indice impostando il file[**Stile.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)dell'oggetto[**IsSubScript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript)proprietà su *true**.
+Applica il pedice impostando la proprietà [**IsSubScript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript) dell'oggetto [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) su **true**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingSubScriptEffect-SetSubscript.cs" >}}
 
-###  **Impostazione dell'effetto apice sul carattere**
+### **Impostazione dell'effetto esponente sulla font**
 
- Gli sviluppatori possono applicare l'effetto apice sul carattere impostando il file[**È apice**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) proprietà del[**Stile.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)obiettare a *true**.
+I programmatori possono applicare l'effetto esponente sulla font impostando la proprietà [**IsSuperscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) dell'oggetto [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) su **true**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingSuperScriptEffect-SetSuperscript.cs" >}}
 
-##  **Argomenti avanzati**
-- [Applica effetti di apice e pedice sui caratteri](/cells/it/net/apply-superscript-and-subscript-effects-on-fonts/)
-- [Ottieni un elenco di caratteri utilizzati in un foglio di calcolo o in una cartella di lavoro](/cells/it/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
+## **Argomenti avanzati**
+- [Applica gli effetti esponente e pedice sulle font](/cells/it/net/apply-superscript-and-subscript-effects-on-fonts/)
+- [Ottieni un elenco di font utilizzati in un foglio di calcolo o di lavoro](/cells/it/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 

@@ -1,15 +1,16 @@
-﻿---
-title: Gestión de propiedades de documentos en Ruby
+---
+title: Gestionar Propiedades del Documento en Ruby
 type: docs
 weight: 90
 url: /es/java/managing-document-properties-in-ruby/
 ---
-## **Aspose.Cells - Acceso a las propiedades del documento**
-Los desarrolladores pueden hacer uso de la**Índice**o**Nombre** de la propiedad para obtener una propiedad específica de un**propiedades personalizadas**colección como se demuestra a continuación en el ejemplo.
 
-**código rubí**
+## **Aspose.Cells - Acceder a Propiedades del Documento**
+Los desarrolladores pueden hacer uso del **Índice** o el **Nombre** de la propiedad para obtener una propiedad específica de una colección de **propiedades personalizadas**, como se muestra a continuación en el ejemplo.
 
-{{< highlight "ruby" >}}
+**Código Ruby**
+
+{{< highlight ruby >}}
 
  def get_properties()
 
@@ -36,12 +37,12 @@ Los desarrolladores pueden hacer uso de la**Índice**o**Nombre** de la propiedad
 end
 
 {{< /highlight >}}
-## **Aspose.Cells - Adición de propiedades personalizadas**
-Para agregar propiedades de documentos personalizadas usando Aspose.Cells Java para Ruby, llame**agregar_propiedad_personalizada** metodo de la**Documento** módulo.
+## **Aspose.Cells - Agregar Propiedades Personalizadas**
+Para agregar propiedades de documento personalizadas usando Aspose.Cells Java para Ruby, llame al método **add_custom_property** del módulo **Documento**.
 
-**código rubí**
+**Código Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_custom_property()
 
@@ -70,12 +71,12 @@ Para agregar propiedades de documentos personalizadas usando Aspose.Cells Java p
 end   
 
 {{< /highlight >}}
-## **Aspose.Cells - Eliminación de propiedades personalizadas**
- Para eliminar propiedades de documentos personalizadas usando Aspose.Cells Java para Ruby, llame**eliminar_propiedad_personalizada** metodo de la**Documento** módulo.
+## **Aspose.Cells - Eliminar Propiedades Personalizadas**
+Para eliminar propiedades de documento personalizadas utilizando Aspose.Cells Java para Ruby, llama al método **remove_custom_property** del módulo **Document**.
 
-**código rubí**
+**Código Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_custom_property()
 
@@ -104,7 +105,7 @@ end   
 end   
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Acceso a las propiedades del documento (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Accediendo a las propiedades del documento (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/document.rb)

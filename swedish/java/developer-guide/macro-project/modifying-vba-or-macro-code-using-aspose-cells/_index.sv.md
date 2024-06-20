@@ -1,24 +1,25 @@
-﻿---
-title: Ändra VBA eller makrokod med Aspose.Cells
+---
+title: Modifiera VBA eller Makrokod med Aspose.Cells
 type: docs
 weight: 90
 url: /sv/java/modifying-vba-or-macro-code-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Du kan ändra VBA eller makrokod med Aspose.Cells. Aspose.Cells har lagt till följande klasser för att läsa och ändra VBA-projektet i Excel-filen.
+Du kan ändra VBA- eller Makrokod med Aspose.Cells. Aspose.Cells har lagt till följande klasser för att läsa och ändra VBA-projektet i Excel-filen.
 
 - VbaProject
 - VbaModuleCollection
 - VbaModule
 
-Den här artikeln visar dig hur du ändrar VBA- eller makrokoden i källfilen i Excel med Aspose.Cells.
+Den här artikeln visar hur du ändrar VBA eller makrokoden inne i käll-Excel-filen med hjälp av Aspose.Cells.
 
 {{% /alert %}} 
 ## **Exempel**
-Följande exempelkod laddar källfilen i Excel som har en följande VBA- eller makrokod inuti
+Följande provkod laddar käll-Excel-filen som har följande VBA- eller makrokod inuti den
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub Button1_Click()
 
@@ -28,9 +29,9 @@ End Sub
 
 {{< /highlight >}}
 
-Efter exekvering av Aspose.Cells exempelkod kommer VBA- eller makrokoden att ändras så här
+Efter att Aspose.Cells provkoden har körts kommer VBA- eller makrokoden att modifieras på detta sätt
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub Button1_Click()
 
@@ -40,7 +41,7 @@ End Sub
 
 {{< /highlight >}}
 
- Du kan ladda ner[käll Excel-fil](5472596.xlsm) och den[utdata Excel-fil](5472597.xlsm) från de angivna länkarna.
+Du kan ladda ner [käll-excel-filen](5472596.xlsm) och [output-excel-filen](5472597.xlsm) från de angivna länkarna.
 
 
 

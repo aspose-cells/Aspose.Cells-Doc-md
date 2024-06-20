@@ -1,47 +1,50 @@
-﻿---
-title: Apertura di un file Excel
+---
+title: Apertura di un file di Excel
 type: docs
 weight: 10
-url: /it/net/opening-an-excel-file/
+url: /it/net/aspose-cells-griddesktop/openg-an-excel-file/
+keywords: GridDesktop,apri,file
+description: Questo articolo introduce come aprire un file in GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Una caratteristica unica di Aspose.Cells Grid Suite è la sua compatibilità con i file Excel. In questo argomento, dimostreremo come gli utenti possono aprire i file Excel nelle loro applicazioni Windows utilizzando il controllo Aspose.Cells.GridDesktop.
+Una caratteristica unica della suite di griglie Aspose.Cells è la sua compatibilità con i file di Excel. In questo argomento, dimostreremo come gli utenti possano aprire file di Excel nelle loro applicazioni Windows utilizzando il controllo Aspose.Cells.GridDesktop.
 
 {{% /alert %}} 
-## **introduzione**
- Per aprire un file Excel utilizzando Aspose.Cells.GridDesktop devi creare un'applicazione desktop con GridDesktop Control al suo interno. Se non sai come aggiungere il controllo Aspose.Cells.GridDesktop al tuo Windows Form, dovresti fare riferimento a[Come usare Aspose.Cells.GridDesktop](/cells/it/net/how-to-use-aspose-cells-griddesktop/)
+## **Introduzione**
+Per aprire un file di Excel utilizzando Aspose.Cells.GridDesktop è necessario creare un'applicazione desktop con il controllo GridDesktop al suo interno. Se non sai come aggiungere il controllo Aspose.Cells.GridDesktop al tuo modulo Windows, dovresti fare riferimento a [Come usare Aspose.Cells.GridDesktop](/cells/it/net/how-to-use-aspose-cells-griddesktop/)
 
-Aspose.Cells.GridDesktop offre tre modi diversi per aprire un file Excel.
+Aspose.Cells.GridDesktop fornisce tre diversi modi per aprire un file di Excel.
 
 1. **Apertura da un file**
 1. **Apertura di un file CSV**
 1. **Apertura da un flusso**
-## **Apertura del file Excel**
-In questo esempio creare un'applicazione desktop e procedere come segue.
+## **Apertura file Excel**
+In questo esempio, creare un'applicazione desktop e eseguire le seguenti operazioni.
 
-- Aggiungere un controllo GridControl al form.
-- Aggiungi tre pulsanti con le proprietà del testo impostate come segue:
-  - **Apri File Excel**
-  - **Apri il file CSV**
-  - **Apri da Stream**
+- Aggiungi un controllo GridControl al modulo.
+- Aggiungi tre pulsanti con le loro proprietà di testo impostate come segue:
+  - **Apri file di Excel**
+  - **Apri file CSV**
+  - **Apri da un flusso**
 ### **Apertura da un file**
- Per caricare il contenuto da un file Excel nel controllo Aspose.Cells.GridDesktop, sarà necessario chiamare un metodo del controllo per specificare il percorso del file Excel. Successivamente, il controllo Aspose.Cells.GridDesktop troverà automaticamente il file dal percorso specificato e ne visualizzerà il contenuto. Il frammento di codice per caricare il contenuto di un file Excel è fornito nell'esempio seguente. Crea l'evento Click di**Apri File Excel** pulsante e incollare il seguente codice al suo interno.
+Per caricare il contenuto da un file Excel nel controllo Aspose.Cells.GridDesktop, sarà necessario chiamare un metodo del controllo per specificare il percorso del file Excel. Dopo di che, il controllo Aspose.Cells.GridDesktop troverà automaticamente il file dal percorso specificato e ne visualizzerà i contenuti. Il frammento di codice per caricare i contenuti di un file Excel è fornito nel seguente esempio. Creare l'evento di clic del pulsante **Apri file Excel** e incollare il seguente codice al suo interno.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithGrid-OpeningExcelFile-OpeningExcelFile.cs" >}}
 
 
-Il suddetto frammento di codice può essere utilizzato dagli sviluppatori in qualsiasi modo desiderino. Ad esempio, se vuoi caricare automaticamente un file Excel quando viene caricato un Windows Form, puoi aggiungere questo codice sotto l'evento Load del tuo Form.
+Il frammento di codice sopra può essere utilizzato dai programmatori in qualsiasi modo desiderino. Ad esempio, se si desidera caricare automaticamente un file Excel quando un form di Windows si avvia, è possibile aggiungere questo codice nell'evento di caricamento del form.
 ### **Apertura di un file CSV**
-Aspose.Cells. Il controllo GridDesktop supporta anche il caricamento del file CSV. Crea l'evento Click di**Apri il file CSV** pulsante e incollare il seguente codice al suo interno.
+Il controllo Aspose.Cells.GridDesktop supporta anche il caricamento di file CSV. Creare l'evento di clic del pulsante **Apri file CSV** e incollare il seguente codice al suo interno.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithGrid-OpeningExcelFile-OpeningCSVFile.cs" >}}
-### **Apertura da un flusso**
- Nella nostra discussione precedente, abbiamo discusso del caricamento di un file Excel utilizzando il relativo percorso file, ma il controllo Aspose.Cells.GridDesktop supporta anche il caricamento di file Excel da un flusso. Crea l'evento Click di**Apri da Stream** pulsante e incollare il seguente codice al suo interno.
+### **Apertura da uno stream**
+Nella nostra precedente discussione, abbiamo parlato del caricamento di un file Excel utilizzando il suo percorso ma il controllo Aspose.Cells.GridDesktop supporta anche il caricamento di file Excel da uno stream. Creare l'evento di clic del pulsante **Apri da Stream** e incollare il seguente codice al suo interno.
 
 
 
@@ -49,10 +52,10 @@ Aspose.Cells. Il controllo GridDesktop supporta anche il caricamento del file CS
 
 
 
-L'utilizzo di file come flusso è un approccio migliore per vietare qualsiasi tipo di accesso ai file o problemi di violazione della condivisione perché questo approccio garantisce la chiusura di tutte le connessioni ai file chiudendo il flusso.
+Utilizzare un file come stream è un approccio migliore per evitare problemi di accesso o condivisione del file in quanto questo approccio garantisce la chiusura di tutte le connessioni ai file chiudendo lo stream.
 
 {{% alert color="primary" %}} 
 
-IMPORTANTE: un punto importante da discutere è che il controllo Aspose.Cells.GridDesktop contiene anche un metodo denominato LoadFromExcel, utilizzato anche per caricare il contenuto di un file Excel nella griglia. Ma questo metodo è ormai obsoleto. Pertanto, si consiglia a tutti gli sviluppatori di utilizzare il metodo ImportExcelFile che è più robusto ed efficiente di quello obsoleto.
+IMPORTANTE: Un punto importante da discutere è che il controllo Aspose.Cells.GridDesktop contiene anche un metodo chiamato LoadFromExcel, che è anche utilizzato per caricare i contenuti di un file Excel nel Grid. Tuttavia, questo metodo è ora obsoleto. Pertanto, si consiglia a tutti i programmatori di utilizzare il metodo ImportExcelFile che è più robusto ed efficiente rispetto a quello obsoleto.
 
 {{% /alert %}}

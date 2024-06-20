@@ -1,22 +1,23 @@
 ---
-title: Regroupement et dissociation de lignes et de colonnes dans Python
+title: Regrouper et dégrouper des lignes et des colonnes en Python
 type: docs
 weight: 40
 url: /fr/java/grouping-and-ungrouping-rows-and-columns-in-python/
-description: Découvrez comment regrouper et dissocier des lignes et des colonnes via le Aspose.Cells for Python via Java API.
-keywords: How to Group and Ungroup Rows and Columns in Python Via Java, Group Rows and Columns using Python Via Java, Python Via Java Ungroup Rows and Columns. 
+description: Apprenez à regrouper et dégrouper des lignes et des colonnes à travers l API Aspose.Cells pour Python via Java.
+keywords: Comment regrouper et dégrouper des lignes et des colonnes en Python via Java, regrouper des lignes et des colonnes en utilisant Python via Java, dégrouper des lignes et des colonnes en Python via Java. 
 ---
-##  **Gestion des groupes et des dissociations des lignes et des colonnes dans Aspose.Cells for Python via Java**
-###  **Comment regrouper des lignes et des colonnes dans Python**
-Il est possible de regrouper des lignes ou des colonnes en appelant les méthodes groupRows et groupColumns de la collection Cells. Les deux méthodes prennent les paramètres suivants :
 
-- Index de première ligne/colonne, première ligne ou colonne du groupe.
-- Index de la dernière ligne/colonne, la dernière ligne ou colonne du groupe.
-- Est masqué, un paramètre booléen qui spécifie s'il faut masquer ou non les lignes/colonnes après le regroupement.
+## **Gestion du regroupement et du dégroupement des lignes et des colonnes dans Aspose.Cells pour Python via Java**
+### **Comment regrouper des lignes et des colonnes en Python**
+Il est possible de regrouper des lignes ou des colonnes en appelant les méthodes groupRows et groupColumns de la collection Cells. Les deux méthodes prennent les paramètres suivants:
 
-**Python Code**
+- Indice de la première ligne/colonne, la première ligne ou colonne du groupe.
+- Indice de la dernière ligne/colonne, la dernière ligne ou colonne du groupe.
+- Est caché, un paramètre booléen qui spécifie s'il faut masquer ou non les lignes/colonnes après le regroupement.
 
-{{< highlight "python" >}}
+**Code Python**
+
+{{< highlight python >}}
 
  def group_rows_columns(self):
 
@@ -45,15 +46,15 @@ workbook.save(self.dataDir + "Group Rows And Columns.xls")
 print "Group Rows And Columns Successfully." 
 
 {{< /highlight >}}
-###  **Comment dissocier les lignes et les colonnes à l'aide de Python**
-Dissociez les lignes ou les colonnes groupées en appelant les méthodes UngroupRows et UngroupColumns de la collection Cells. Les deux méthodes prennent les mêmes paramètres :
+### **Comment dégrouper des lignes et des colonnes à l'aide de Python**
+Dégrouper les lignes ou les colonnes groupées en appelant les méthodes UngroupRows et UngroupColumns de la collection Cells. Les deux méthodes prennent les mêmes paramètres:
 
-- Index de première ligne ou de colonne, première ligne/colonne à dissocier.
-- Index de la dernière ligne ou colonne, la dernière ligne/colonne à dissocier.
+- Indice de la première ligne ou colonne, la première ligne/colonne à dissocier.
+- Indice de la dernière ligne ou colonne, la dernière ligne/colonne à dissocier.
 
-**Python Code**
+**Code Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def ungroup_rows_columns(self):
 
@@ -82,7 +83,7 @@ workbook.save(self.dataDir + "Ungroup Rows And Columns.xls")
 print "Ungroup Rows And Columns Successfully." 
 
 {{< /highlight >}}
-##  **Télécharger le code d'exécution**
- Télécharger**Regrouper et dissocier les lignes et les colonnes (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Grouper et Dégrouper des lignes et des colonnes (Aspose.Cells)** à partir de l'un des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

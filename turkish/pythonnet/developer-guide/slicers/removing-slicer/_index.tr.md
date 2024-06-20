@@ -1,19 +1,22 @@
 ---
-title: Dilimleyiciyi Çıkarma
+title: Dilimleyici Kaldırma
 type: docs
 weight: 30
 url: /tr/python-net/removing-slicer/
+description: Aspose.Cells for Python via .NET ile dilimleyiciyi nasıl kaldıracağınızı öğrenin.
+keywords: Aspose.Cells for Python Excel, Excel Python kütüphanesi, Excel siz Python da dilimleyici kaldırma, Aspose.Cells for Python ile Dilimleyici Kaldırma, Aspose.Cells for python excel kütüphanesi ile dilimleyici kaldırma.
 ---
-##  **Olası Kullanım Senaryoları**
 
- Microsoft Excel'de dilimleyiciyi kaldırmak istiyorsanız onu seçip tuşuna basmanız yeterlidir.*Silmek* düğme. Benzer şekilde, Aspose.Cells for Python via .NET API'i programlı olarak kullanarak kaldırmak istiyorsanız lütfen şunu kullanın:[**Worksheet.slicers.remove()**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicercollection/)yöntem. Dilimleyiciyi çalışma sayfasından kaldıracaktır.
+## **Olası Kullanım Senaryoları**
 
-##  **Dilimleyiciyi Çıkarma**
+Microsoft Excel'de dilimleyiciyi kaldırmak istiyorsanız, yalnızca seçin ve *Sil* tuşuna basın. Benzer şekilde, Aspose.Cells for Python via .NET API'sını kullanarak kaldırmak istiyorsanız, lütfen [**Worksheet.slicers.remove()**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicercollection/) yöntemini kullanın. Bu, dilimleyiciyi kaldıracaktır.
 
-Aşağıdaki örnek kod,[örnek Excel dosyası](67338478.xlsx)mevcut bir dilimleyiciyi içerir. Dilimleyicilere erişir ve ardından onu kaldırır. Son olarak çalışma kitabını şu şekilde kaydeder:[Excel dosyasının çıktısı](67338477.xlsx). Aşağıdaki ekran görüntüsü örnek kodun yürütülmesinden sonra kaldırılacak dilimleyiciyi göstermektedir.
+## **Aspose.Cells for Python Excel Kütüphanesi ile Dilimleyiciyi Nasıl Kaldırırız**
 
-![yapılacak şey:image_alt_text](removing-slicer_1.png)
+Aşağıdaki örnek kod, mevcut bir süzgeç içeren [örnek Excel dosyasını](67338478.xlsx) yükler. Süzgeçlere erişir ve ardından kaldırır. Son olarak, çalışma kitabını [çıktı Excel dosyası](67338477.xlsx) olarak kaydeder. Aşağıdaki ekran görüntüsü, örnek kodun yürütülmesinden sonra kaldırılacak süzgeci gösterir.
 
-##  **Basit kod**
+![todo:image_alt_text](removing-slicer_1.png)
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-RemovingSlicer.py" >}}

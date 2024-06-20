@@ -1,17 +1,18 @@
-﻿---
-title: Actualiser et calculer le tableau croisé dynamique ayant des éléments calculés
+---
+title: Actualiser et calculer un tableau croisé dynamique avec des éléments calculés
 type: docs
 weight: 130
 url: /fr/java/refresh-and-calculate-pivot-table-having-calculated-items/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells prend désormais en charge l'actualisation et le calcul du tableau croisé dynamique ayant des éléments calculés. Veuillez utiliser[**Tableau croisé dynamique.refreshData()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#refreshData() ) et[**Tableau croisé dynamique.caclulateData()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#calculateData()) comme d'habitude pour exécuter cette fonction.
+Aspose.Cells prend désormais en charge le rafraîchissement et le calcul des tableaux croisés dynamiques ayant des éléments calculés. Veuillez utiliser [**PivotTable.refreshData()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#refreshData--) et [**PivotTable.caclulateData()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#calculateData--) comme d'habitude pour effectuer cette fonction.
 
 {{% /alert %}}
 
-## **Actualiser et calculer le tableau croisé dynamique ayant des éléments calculés**
+## **Actualiser et calculer un tableau croisé dynamique avec des éléments calculés**
 
- L'exemple de code suivant charge le[fichier excel source](5473428.xlsx)qui contient un tableau croisé dynamique comportant trois éléments calculés tels que "add", "div", "div2". Nous changeons d'abord la valeur de la cellule D2 en 20, puis actualisons et calculons le tableau croisé dynamique à l'aide des API Aspose.Cells et enregistrons le classeur au format PDF. Les résultats dans le[sortie PDF](5473431.pdf) montre que Aspose.Cells a actualisé et calculé le tableau croisé dynamique ayant calculé les éléments avec succès. Vous pouvez le vérifier en utilisant Microsoft Excel en mettant manuellement la valeur 20 dans la cellule D2, puis en actualisant le tableau croisé dynamique via la touche de raccourci Alt + F5 ou en cliquant sur le bouton Actualiser du tableau croisé dynamique.
+Le code d'exemple suivant charge le [fichier Excel source](5473428.xlsx) qui contient un tableau croisé dynamique ayant trois éléments calculés tels que "add", "div", "div2". Nous changeons d'abord la valeur de la cellule D2 à 20, puis rafraîchissons et calculons le tableau croisé dynamique à l'aide des APIs Aspose.Cells et enregistrons le classeur au format PDF. Les résultats dans le [fichier PDF de sortie](5473431.pdf) montrent qu'Aspose.Cells a rafraîchi et calculé avec succès le tableau croisé dynamique ayant des éléments calculés. Vous pouvez le vérifier en utilisant Microsoft Excel en mettant manuellement la valeur 20 dans la cellule D2, puis en rafraîchissant le tableau croisé via la touche de raccourci Alt+F5 ou en cliquant sur le bouton Rafraîchir du tableau croisé dynamique.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RefreshCalculatePivotTablehavingCalculatedItems-RefreshCalculatePivotTablehavingCalculatedItems.java" >}}

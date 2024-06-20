@@ -1,20 +1,21 @@
-﻿---
-title: Aspose.Cells でワードアートの透かしをロックする
+---
+title: Aspose.Cells で WordArt ウォーターマークをロックする
 type: docs
 weight: 40
 url: /ja/net/locking-wordart-watermark-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells API を使用すると、ワードアートがワークシート上で移動および配置できるオブジェクトになる方法で、ワークシートにワードアートの透かしを追加できます。編集、移動、選択などの操作に対してワードアート オブジェクトをロックすることもできます。この記事では、透かしのいくつかの側面をロックするための Shape.SetLockedProperty メソッドの使用法について説明します。
+Aspose.Cells API は、ワークシート上に WordArt ウォーターマークを追加することを可能にし、WordArt をワークシート上で移動および配置可能なオブジェクトにします。また、編集、移動、選択などの WordArt オブジェクトをロックすることも可能です。この記事では、Shape.SetLockedProperty メソッドの使用方法を説明します。
 
 {{% /alert %}} 
 
-Aspose.Cells API を使用すると、透かしの特定の側面をロックして、ユーザーの操作を制限または完全にブロックできます。次のコード スニペットは、Aspose.Cells for .NET API を使用して、スプレッドシートを最初から作成することにより、透かしの選択、移動、編集、およびサイズ変更をロックする方法を示しています。
+Aspose.Cells API では、ユーザーの操作を制限したり完全にブロックしたりするために、ウォーターマークの特定の側面をロックすることができます。次のコードスニペットは、Aspose.Cells for .NET API の使用方法を示しており、スプレッドシートをゼロから作成してウォーターマークの選択、移動、編集、サイズ変更をロックしています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -74,6 +75,6 @@ workbook.Save(FileName);
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Locking%20WordArt%20Watermark)
-## **実行例をダウンロード**
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Locking%20WordArt%20Watermark)
+## **実行例のダウンロード**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

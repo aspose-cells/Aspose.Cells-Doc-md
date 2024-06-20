@@ -1,35 +1,36 @@
-﻿---
-title: Genel API Aspose.Cells 8.3.2'deki değişiklikler
+---
+title: Aspose.Cells 8.3.2 de Genel API Değişiklikleri
 type: docs
 weight: 120
 url: /tr/net/public-api-changes-in-aspose-cells-8-3-2/
 ---
-{{% alert color="primary" %}} 
-
- Bu belge, Aspose.Cells API sürümünde 8.3.1'den 8.3.2'ye modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri içermez,[eklenen sınıflar vb.](/cells/tr/net/public-api-changes-in-aspose-cells-8-3-2/) ve[kaldırılan sınıflar vb.](/cells/tr/net/public-api-changes-in-aspose-cells-8-3-2/), aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklaması.
-
-{{% /alert %}} 
-## **Eklenen API'ler**
-### **PivotItem'in Mutlak Konumunu Ayarlama Mekanizması**
- Özelliği sağlamak için[PivotItem'in Mutlak Konumlandırması](/cells/tr/net/specifying-the-absolute-position-of-the-pivot-item/)Aspose.Cells for .NET 8.3.2, aşağıda listelenen bir dizi özelliği ve yardımcı yöntemi ortaya çıkarmıştır.
-
-- PivotItem.Position özelliği, üst düğümden bağımsız olarak tüm PivotItem'lerdeki konum dizinini belirtmek için kullanılabilir.
-- PivotItem.PositionInSameParentNode özelliği, aynı üst düğüm altındaki PivotItems içindeki konum dizinini belirtmek için kullanılabilir.
-- PivotItem.Move(int count, bool isSameParent) yöntemi, count değerine göre öğeyi yukarı veya aşağı taşımak için kullanılabilir; burada count, PivotItem'i yukarı veya aşağı taşımak için konum sayısıdır. Sayım değeri sıfırdan küçükse, öğe yukarı taşınır, burada sayım değeri sıfırdan büyükse, PivotItem aşağı hareket eder, Boolean tipi isSameParent parametresi, taşıma işleminin aynı üst düğümde gerçekleştirilip gerçekleştirilmeyeceğini belirtir. ya da değil.
 
 {{% alert color="primary" %}} 
 
-Lütfen dikkat, PivotItem.Position, PivotItem.PositionInSameParentNode özellikleri ve PivotItem.Move(int count, bool isSameParent) yöntemini kullanmadan önce PivotTable.RefreshData ve PivotTable.CalculateData yöntemlerini çağırmak gerekir.
+Bu belge, sürüm 8.3.1'den 8.3.2'ye Aspose.Cells API'sinde yapılacak değişiklikleri, modül/uygulama geliştiricilerinin ilgisini çekebileceklerini açıklamaktadır. Sadece yeni ve güncellenmiş genel yöntemleri, [eklenen sınıflar vs.](/cells/tr/net/public-api-changes-in-aspose-cells-8-3-2/) ve [kaldırılan sınıflar vs.](/cells/tr/net/public-api-changes-in-aspose-cells-8-3-2/) değil, aynı zamanda Aspose.Cells'in arka planda işlevlerindeki herhangi bir değişikliği açıklamaktadır.
 
 {{% /alert %}} 
-### **Sınıf İmza Satırı Eklendi**
-Aspose.Cells for .NET 8.3.2 İmza Satırının MS Excel'in eşdeğer özelliğini taklit etmesi için destek sağlar. Aspose.Cells for .NET numaralı bu sürüm, SignatureLine sınıfını ve Picture.SignatureLine özelliğini bu amaçla kullanıma sunmuştur.
+## **Eklenen API'lar**
+### **PivotItem'ın Mutlak Konumunu Ayarlama Mekanizması**
+Aspose.Cells for .NET 8.3.2, [PivotItem'ın Mutlak Konumlandırma](/cells/tr/net/specifying-the-absolute-position-of-the-pivot-item/) özelliğini sağlamak için aşağıda listelenen bir dizi özelliği ve yardımcı yöntemleri ortaya çıkarmıştır.
 
-Aşağıdaki örnek kod, çalışma kitabına Picture.SignatureLine özelliğini kullanarak bir İmza Satırı ekler.
+- PivotItem.Position özelliği, üst düğümünden bağımsız olarak tüm PivotItem'ların konum dizinini belirtmek için kullanılabilir.
+- PivotItem.PositionInSameParentNode özelliği, aynı üst düğüm altındaki PivotItem'ların konum dizinini belirtmek için kullanılabilir.
+- PivotItem.Move(int count, bool isSameParent) yöntemi, PivotItem'ın belirli sayıda konumu yukarı veya aşağı taşımak için kullanılabilir, burada count, PivotItem'ın yukarı veya aşağı taşınacak konumu belirler. Eğer count değeri sıfırdan küçükse, öğe yukarı taşınır, count değeri sıfırdan büyükse, PivotItem aşağı taşınır, Boolean tipindeki isSameParent parametresi taşıma işleminin aynı üst düğümde gerçekleştirilip gerçekleştirilmeyeceğini belirtir.
+
+{{% alert color="primary" %}} 
+
+Lütfen, PivotItem.Position, PivotItem.PositionInSameParentNode özelliklerini ve PivotItem.Move(int count, bool isSameParent) yöntemini kullanmadan önce PivotTable.RefreshData ve PivotTable.CalculateData yöntemlerini çağırmak gereklidir.
+
+{{% /alert %}} 
+### **Class SignatureLine Eklendi**
+Aspose.Cells for .NET 8.3.2, MS Excel'in eşdeğer özelliğini taklit etmek için Signature Line'ı destekler. Bu sürümde Aspose.Cells for .NET, bu amaçla SignatureLine sınıfını ve Picture.SignatureLine özelliğini açığa çıkarmıştır.
+
+Aşağıdaki örnek kod, Picture.SignatureLine özelliğini kullanarak bir İmza Satırı ekler.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -60,14 +61,14 @@ pic.SignatureLine = s;
 {{< /highlight >}}
 
 
-### **Yöntem Chart.HasAxis Eklendi**
-v8.3.2 sürümüyle birlikte Aspose.Cells API, grafiğin belirli bir ekseni olup olmadığını belirlemek için Chart.HasAxis(AxisType eksenType, bool isPrimary) yöntemini sağladı.
+### **Chart.HasAxis Yöntemi Eklendi**
+v8.3.2'nin piyasaya sürülmesiyle, Aspose.Cells API, belirli bir eksenin grafikte var olup olmadığını belirlemek için Chart.HasAxis(AxisType axisType, bool isPrimary) yöntemini sağlamıştır.
 
-Aşağıdaki örnek kod, örnek grafiğin Birincil, İkincil ve Değer eksenine sahip olup olmadığını belirlemek için Chart.HasAxis yönteminin kullanımını gösterir.
+Aşağıdaki örnek kod, Chart.HasAxis yönteminin kullanımını göstermektedir; örnek grafikte Birincil, İkincil ve Değer eksenlerinin olup olmadığını belirler.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -102,12 +103,12 @@ Console.WriteLine("Has Secondary Value Axis: " + ret);
 {{< /highlight >}}
 
 
-### **Yöntem WorkbookSettings.CheckWriteProtectedPassword Eklendi**
-Yöntem WorkbookSettings.CheckWriteProtectedPassword, geliştiricilerin elektronik tabloyu değiştirmek için verilen bir parolanın doğru olup olmadığını kontrol etmelerini sağlar.
+### **WorkbookSettings.CheckWriteProtectedPassword Yöntemi Eklendi**
+WorkbookSettings.CheckWriteProtectedPassword yöntemi, geliştiricilere İtibarı değiştirmek için verilen şifrenin doğru olup olmadığını kontrol etme olanağı sağlar.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify password to open inside the load options
 
@@ -128,14 +129,14 @@ Console.WriteLine("Is 567 correct Password to modify: " + ret);
 {{< /highlight >}}
 
 
-### **Aşırı Yükleme Yöntemleri WorkbookRender.ToPrinter & SheetRender.ToPrinter Eklendi**
-Aspose.Cells for .NET 8.3.2, sırasıyla çalışma kitabı ve çalışma sayfasının sayfa aralığını yazdırmak için WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) ve SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) yöntemlerini sağlamıştır.
+### **Overload Yöntemler WorkbookRender.ToPrinter & SheetRender.ToPrinter Eklendi**
+Aspose.Cells for .NET 8.3.2, WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) ve SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) yöntemlerini sağlamıştır; sırasıyla çalışma kitabının ve çalışma sayfasının sayfa aralığını yazdırmak için.
 
-Aşağıdaki örnek kod, çalışma kitabının ve çalışma sayfasının 2-5 sayfalarını yazdırmak için yukarıda belirtilen yöntemlerin kullanımını göstermektedir.
+Aşağıdaki örnek kod, belirtilen yöntemlerin kullanımını, elektronik tablonun ve çalışma sayfasının 2-5 sayfalarını yazdırmak için göstermektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -164,32 +165,32 @@ sr.ToPrinter(printerName, 1, 4);
 {{< /highlight >}}
 
 
-### **Yöntem Worksheet.RefreshPivotTables Eklendi**
-Yeni eklenen yöntem Worksheet.RefreshPivotTables, belirli bir elektronik tablodaki tüm Pivot Tabloları tek bir çağrıda yenilemeye olanak tanır.
+### **Worksheet.RefreshPivotTables Yöntemi Eklendi**
+Yeni eklenen yöntem Worksheet.RefreshPivotTables, verilen bir elektronik tabloda yer alan tüm Pivot Tablolarını tek bir çağrıda yenilemeye olanak tanır.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  worksheet.RefreshPivotTables();
 
 {{< /highlight >}}
 
 
-### **Yöntem Workbook.GetNamedStyle Eklendi**
-Aspose.Cells for .NET API, dizeyi parametre olarak kabul eden ve iletilen parametreye göre Style nesnesini alan Workbook.GetNamedStyle yöntemini kullanıma sundu.
-### **Yöntem Cells.ImportTwoDimensionArray Eklendi**
-Aspose.Cells for .NET API, Cells.ImportTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions) yöntemini göstererek iki boyutlu dizileri elektronik tablo hücrelerine içe aktarmayı mümkün kılmıştır. Bahsedilen yöntem, iki boyutlu bir veri dizisini, TxtLoadOptions'da tanımlanan daha esnek seçeneklerle bir çalışma sayfasına aktarır.
-### **Özellikler OnePagePerSheet, PageIndex & PageCount Eklendi**
-Aspose.Cells for .NET 8.3.2, XpsSaveOptions sınıfı için OnePagePerSheet, PageIndex & PageCount özelliklerini kullanıma sundu. Kullanıcı, OnePagePerSheet özelliğini kullanarak bir elektronik tablonun tüm içeriğini tek bir XPS sayfasına sığdırabilir ve/veya PageCount özelliğini kullanarak yazdırılacak sayfa sayısını alabilir. PageIndex özelliği, kaydedilecek ilk sayfanın 0 tabanlı dizinini alır/ayarlar.
-### **Özellikler NumberDecimalSeparator & NumberGroupSeparator Eklendi**
-Aspose.Cells for .NET 8.3.2, elektronik tablolardaki sayısal değerleri biçimlendirmek ve ayrıştırmak için kullanılan özel ayırıcıları alabilen/ayarlayabilen NumberDecimalSeparator & NumberGroupSeparator özelliklerini tanıttı.
+### **Workbook.GetNamedStyle Yöntemi Eklendi**
+Aspose.Cells for .NET API, parametre olarak bir dize kabul eden ve parametreye göre Stil nesnesini alabilen Workbook.GetNamedStyle yöntemini açığa çıkarmıştır.
+### **Cells.ImportTwoDimensionArray Yöntemi Eklendi**
+Aspose.Cells for .NET API, Cells.ImportTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions) yöntemini açığa çıkararak iki boyutlu dizilerin elektronik tablo hücrelerine aktarılmasını mümkün kılmıştır. Söz konusu yöntem, TxtLoadOptions içinde tanımlanan daha esnek seçenekler ile veri iki boyutlu bir diziden bir çalışma sayfasına aktarır.
+### **OnePagePerSheet, PageIndex ve PageCount Özellikleri Eklendi**
+Aspose.Cells for .NET 8.3.2, XpsSaveOptions sınıfı için OnePagePerSheet, PageIndex & PageCount özelliklerini açığa çıkarmıştır. Kullanıcı, OnePagePerSheet özelliğini kullanarak bir elektronik tablonun tüm içeriğini XPS'nin tek bir sayfasına sığdırabilir ve/veya PageCount özelliğini kullanarak yazdırılacak sayfa sayısını alabilir. PageIndex özelliği, kaydedilecek ilk sayfanın 0 tabanlı dizinini alır/ayarlar.
+### **NumberDecimalSeparator ve NumberGroupSeparator Özellikleri Eklendi**
+Aspose.Cells for .NET 8.3.2, sayısal değerlerin biçimlendirilmesi ve ayrıştırılmasında kullanılan özel ayraçları almak/ayarlamak için NumberDecimalSeparator & NumberGroupSeparator özelliklerini tanıtmıştır.
 
-Aşağıdaki örnek kod, Aspose.Cells API kullanılarak Özel Ayırıcıların nasıl belirtileceğini gösterir. Aşağıdaki kod, özel Ondalık ve Grup ayırıcılarını sırasıyla nokta ve boşluk olarak belirtir.
+Aşağıdaki örnek kod, Aspose.Cells API kullanarak Özel Ayraçlarını belirtmek için nasıl kullanılacağını açıklar. Aşağıdaki kod, Özel Ondalık ve Grup ayraçlarını sırasıyla nokta ve boşluk olarak belirtir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook workbook = new Workbook();
 
@@ -202,12 +203,12 @@ workbook.Settings.NumberGroupSeparator = ' ';
 {{< /highlight >}}
 
 
-### **Özellik PdfSaveOptions.IsFontSubstitutionCharGranularity Eklendi**
-Aspose.Cells for .NET 8.3.2, bazı Unicode karakterlerinin belirli bir yazı tipi ailesi kullanılarak görüntülenememesi sorununun üstesinden gelmek için PdfSaveOptions.IsFontSubstitutionCharGranularity özelliğini ortaya çıkardı. PdfSaveOptions.IsFontSubstitutionCharGranularity özelliği true olarak ayarlandığında, yalnızca belirli bir karakterin görüntülenemeyen yazı tipi görüntülenebilir yazı tipine değiştirilir ve kelimenin veya cümlenin geri kalanı orijinal yazı tipinde kalmalıdır.
+### **PdfSaveOptions.IsFontSubstitutionCharGranularity Özelliği Eklendi**
+Aspose.Cells for .NET 8.3.2, bazı Unicode karakterlerinin belirli bir yazıtipi kullanılarak gösterilememesi sorununun üstesinden gelmek için PdfSaveOptions.IsFontSubstitutionCharGranularity özelliğini açığa çıkarmıştır. PdfSaveOptions.IsFontSubstitutionCharGranularity özelliği true olarak ayarlandığında, gösterilemeyen belirli karakterin yazıtipi yalnızca değiştirilerek gösterilebilir hale gelir, cümlenin geri kalanı ise orijinal yazıtipiyle kalır.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Save to Pdf after setting PdfSaveOptions.IsFontSubstitutionCharGranularity to true
 
@@ -218,17 +219,17 @@ opts.IsFontSubstitutionCharGranularity = true;
 {{< /highlight >}}
 
 
-## **Kaldırılan API'ler**
+## **Removed APIs**
 ### **Kaldırılan Eski Yöntemler**
-Aşağıdaki yöntemler Kamudan kaldırıldı API.
+Aşağıdaki yöntemler Genel API'dan kaldırılmıştır.
 
-- Workbook.Open & Workbook.Save yöntemleri.
+- Workbook.Open ve Workbook.Save yöntemleri.
 - Workbook.SetOleSize yöntemi.
 - Workbook.LoadData yöntemi.
-- WorkbookDesigner.Open & WorkbookDesigner.Save yöntemleri.
+- WorkbookDesigner.Open ve WorkbookDesigner.Save yöntemleri.
 - WorksheetCollection.DeleteName yöntemi.
-### **Eski Mülkler Kaldırıldı**
-Aşağıdaki mülkler Kamudan kaldırıldı API.
+### **Kaldırılan Eski Özellikler**
+Aşağıdaki özellikler Genel API'dan kaldırılmıştır.
 
 - Workbook.IsProtected özelliği.
 - Workbook.Language özelliği.
@@ -265,9 +266,9 @@ Aşağıdaki mülkler Kamudan kaldırıldı API.
 - SaveOptions.PdfImageCompression özelliği.
 - TxtSaveOptions.AlwaysQuoted özelliği.
 ## **Eski API'ler**
-### **Property Workbook.SaveOptions Kullanımdan Kalktı**
-Uygun SaveOptions özellikleri ayarlandıktan sonra, bir SaveOptions nesnesinin Workbook.Save yöntemine iletilmesi gerekir.
-### **Property Workbook.Styles & Class StyleCollection Kullanımdan Kaldırıldı**
-StyleCollection.Add yöntemiyle bir Stil oluşturmak yerine Workbook örneği için stil oluşturmak ve işlemek üzere Workbook.CreateStyle yönteminin kullanılması önerilir. Ayrıca Workbook.GetNamedStyle(string) yöntemi, StyleCollection[string] yerine adlandırılmış stil almak için kullanılabilir.
-### **Yöntem PivotItem.Move(int sayısı) Eskimiş**
-Aspose.Cells 8.3.2 sürümüyle birlikte API, PivotItem'i üst düğüm içinde taşımak için count için tamsayı parametresini ve boolean parametresini kabul eden PivotItem.Move yöntemine başka bir aşırı yükleme getirdi.
+### **Eski Workbook.SaveOptions Özelliği**
+SaveOptions'un uygun SaveOptions özelliklerini ayarladıktan sonra Workbook.Save yöntemine geçirilmesi gereken bir SaveOptions nesnesi.
+### **Eski Workbook.Styles Özelliği ve StyleCollection Sınıfı**
+Bir StyleCollection.Add yöntemi ile Stil oluşturmak yerine Workbook.CreateStyle yönteminin kullanılması önerilir
+### **Eski PivotItem.Move(int count) Yöntemi**
+Aspose.Cells 8.3.2'nin yayınlanmasıyla, API, PivotItem.Move yönteminin, sayıyı taşımak için bir integer parametresi ve ebeveyn düğüm içinde bir PivotItem'ı taşımak için boolean parametresini kabul eden başka bir aşırı yükleme ile tanıtmıştır.

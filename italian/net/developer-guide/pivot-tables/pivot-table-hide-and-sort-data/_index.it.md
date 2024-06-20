@@ -1,11 +1,12 @@
-﻿---
-title: Tabella pivot Nascondi e ordina i dati
+---
+title: Nascondere e ordinare i dati della tabella pivot
 type: docs
 weight: 120
 url: /it/net/pivot-table-hide-and-sort-data/
 ---
-## **Tabella pivot Nascondi e ordina i dati**
-Aspose.Cells supporta l'occultamento e l'ordinamento dei dati nella tabella pivot. Il seguente frammento di codice illustra questa funzionalità ordinando la colonna Punteggio in ordine decrescente e quindi nascondendo le righe con un punteggio inferiore a 60.
+
+## **Nascondi e ordina i datidelle tabelle pivot**
+Aspose.Cells supporta la nascosta e l'ordinamento dei dati nella tabella pivot. Il seguente snippet di codice dimostra questa funzione ordinando la colonna Score in ordine decrescente e quindi nascondendo le righe con punteggio inferiore a 60.
 
 
 
@@ -13,6 +14,6 @@ Aspose.Cells supporta l'occultamento e l'ordinamento dei dati nella tabella pivo
 
 I file excel di origine e di output utilizzati nello snippet di codice sono allegati per riferimento.
 
-[File sorgente](96928093.xlsx)
+[File di origine](96928093.xlsx)
 
-[File di uscita](96928094.xlsx)
+[File di output](96928094.xlsx)

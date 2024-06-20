@@ -1,48 +1,49 @@
-﻿---
-title: LightCells'i Kullanma API
+---
+title: LightCells API sını Kullanma
 type: docs
 weight: 160
 url: /tr/net/using-lightcells-api/
 ---
+
 {{% alert color="primary" %}} 
 
-Bazen, çalışma sayfasında çok sayıda veri veya içerik içeren büyük Microsoft Excel dosyalarını okumanız ve yazmanız gerekir. LightCells API, devasa Excel elektronik tabloları oluşturmak için kullanışlıdır: onunla daha az belleğe ihtiyacınız olur ve daha iyi performans ve verimlilik elde edersiniz.
+Bazen büyük bir veri veya içeriğe sahip büyük Microsoft Excel dosyalarını okumak ve yazmak isteyebilirsiniz. Hafif Hücreler API'sı, bu iş için kullanışlıdır: daha az bellek kullanarak daha iyi performans ve verimlilik elde edersiniz.
 
 {{% /alert %}} 
-# Olay Odaklı Mimari
-Aspose.Cells, belleğe eksiksiz bir veri modeli bloğu oluşturmadan (Cell koleksiyonunu kullanarak vb.) temel olarak hücre verilerini tek tek işlemek için tasarlanmış LightCells API'i sağlar. Olay güdümlü modda çalışır.
+# Olay Tabanlı Mimari
+Aspose.Cells, özellikle bellekte bir veri modeli bloğu oluşturmadan hücre verilerini bir bir işlemek için tasarlanmış olan LightCells API'sını sağlar (Hücre koleksiyonu vb. kullanılmadan). Olay temelli modda çalışır.
 
-Çalışma kitaplarını kaydetmek için, kaydederken hücre içeriğini hücre hücre sağlayın ve bileşen bunu doğrudan çıktı dosyasına kaydeder.
+Çalışma kitaplarını kaydetmek için kaydederken hücre içeriğini hücre hücre sağlayın ve bileşen bunu doğrudan çıktı dosyasına kaydeder.
 
-Şablon dosyalarını okurken, bileşen her hücreyi ayrıştırır ve değerlerini birer birer sağlar.
+Şablon dosyalarını okurken bileşen her hücreyi ayrı ayrı ayrıştırır ve değerlerini tek tek sağlar.
 
-Her iki prosedürde de bir Cell nesnesi işlenir ve sonra atılır, Çalışma Kitabı nesnesi koleksiyonu tutmaz. Bu nedenle, bu modda, aksi takdirde çok fazla bellek kullanacak olan büyük bir veri kümesine sahip Microsoft Excel dosyasını içe ve dışa aktarırken bellek kaydedilir.
+Her iki süreçte de bir Cell nesnesi işlenir ve ardından atılır, Workbook nesnesi koleksiyonu tutmaz. Bu modda, dolayısıyla, çok miktarda bellek kullanan büyük veri kümesi barındıran Microsoft Excel dosyasının içe aktarımı ve dışa aktarımı sırasında bellek kaydedilir.
 
-LightCells API, XLSX ve XLS dosyaları için hücreleri aynı şekilde işlese de (aslında hafızadaki tüm hücreleri yüklemez, bir hücreyi işler ve sonra onu atar), XLSX dosyaları için hafızayı XLS dosyalarına göre daha etkili bir şekilde kaydeder. iki biçimin farklı veri modelleri ve yapıları.
+LightCells API, XLSX ve XLS dosyaları için hücreleri aynı şekilde işlemesine rağmen (bütün hücreleri belleğe yüklemez ama bir hücreyi işler ve ardından atar), XLSX dosyaları için XLS dosyalarına göre belleği daha etkili bir şekilde saklar çünkü iki formatın farklı veri modelleri ve yapıları vardır.
 
- Yine de,**XLS dosyaları için** , daha fazla bellek kazanmak için geliştiriciler, Kaydetme işlemi sırasında oluşturulan geçici verileri kaydetmek için geçici bir konum belirtebilir. yaygın olarak,**XLSX dosyasını kaydetmek için LightCells API kullanmak %50 veya daha fazla bellek tasarrufu sağlayabilir** ortak yolu kullanmaktansa,**XLS'i kaydetmek, yaklaşık %20-40 bellek tasarrufu sağlayabilir**.
-## Büyük Bir Excel Dosyası Yazmak
-Aspose.Cells, programınızda uygulanması gereken LightCellsDataProvider adlı bir arabirim sağlar. Arayüz, büyük elektronik tablo dosyalarını hafif modda kaydetmek için veri sağlayıcıyı temsil eder.
+Ancak, **XLS dosyaları için**, geliştiriciler kayıt işlemi sırasında oluşturulan geçici veri için bir geçici konum belirtebilirler. Genellikle **LightCells API'nin kullanılması XLSX dosyası için% 50 veya daha fazla bellek tasarrufu sağlayabilirken**, **XLS için kullanılması% 20-40'a kadar bellek tasarrufu sağlayabilir**.
+## Büyük Bir Excel Dosyası Yazma
+Aspose.Cells, hafif modda büyük elektronik tablo dosyalarını kaydetmek için uygulamanızda uygulanması gereken bir arayüz olan LightCellsDataProvider'ı sağlar.
 
-Bir çalışma kitabını bu modda kaydederken, çalışma kitabındaki her çalışma sayfasını kaydederken StartSheet(int) kontrol edilir. Bir sayfa için, StartSheet(int) true ise, bu sayfanın satırlarının ve hücrelerinin tüm verilerinin ve özelliklerinin kaydedilmesi bu uygulama tarafından sağlanır. İlk olarak, kaydedilecek bir sonraki satır indeksini almak için NextRow() çağrılır. Geçerli bir satır dizini döndürülürse (satırların kaydedilmesi için satır dizini artan düzende olmalıdır), bu durumda, StartRow(Row) ile özelliklerini ayarlamak üzere uygulama için bu satırı temsil eden bir Row nesnesi sağlanır.
+Bu modu kullanarak bir çalışma kitabını kaydederken, StartSheet(int), çalışma kitabındaki her çalışma sayfasını kaydederken kontrol edilir. Bir sayfa için, StartSheet(int) doğruysa, o sayfanın tüm verileri ve sıraların ve hücrelerin özellikleri bu sayfanın verilerini uygulayarak kaydedilir. İlk olarak, bir sonraki satırın indeksini kaydedilecek bir satır indeksini almak için NextRow() çağrılır. Geçerli bir satır indeksi döndürülürse (kaydedilecek satırların ilerleyen sıralı olması gerekir), o zaman bu satırı temsil eden bir Satır nesnesi, özelliklerini StartRow(Satır) ile ayarlamak için uygulamaya sağlanır.
 
-Bir satır için önce NextCell() kontrol edilir. Geçerli bir sütun dizini döndürülürse (bir satırdaki tüm hücrelerin kaydedilmesi için sütun dizini artan düzende olmalıdır), o zaman bu hücreyi temsil eden bir Cell nesnesi, StartCell(Cell) tarafından veri ve özelliklerini ayarlamak üzere uygulama için sağlanır. Hücrenin verileri ayarlandıktan sonra, hücre doğrudan oluşturulan elektronik tablo dosyasına kaydedilir ve bir sonraki hücre kontrol edilerek işlenir.
-### Büyük Bir Excel Dosyası Yazmak:Örnek
-LightCells API'in çalışmasını görmek için lütfen aşağıdaki örnek koda bakın. İhtiyaçlarınıza göre kod segmentlerini ekleyin ve kaldırın veya güncelleyin.
+Bir satır için, önce NextCell() kontrol edilir. Geçerli bir sütun indeksi döndürülürse (bir satırdaki tüm hücrelerin sıralı sütun indeks olması gerekir), o zaman o hücreyi temsil eden bir Hücre nesnesi, verilerini ve özelliklerini StartCell(Hücre) ile uygulamaya ayarlamak için sağlanır. Hücre verisi ayarlandıktan sonra, hücre doğrudan oluşturulan elektronik tablo dosyasına kaydedilir ve bir sonraki hücre kontrol edilir ve işlenir.
+### Büyük Bir Excel Dosyası Yazma:Örnek
+Lütfen LightCells API'nin çalışmasını görmek için aşağıdaki örnek kodu inceleyin. Kod segmentlerini ihtiyacınıza göre ekleyin, kaldırın veya güncelleyin.
 
- Program ile büyük bir dosya oluşturur**10.000 (10000x30 matris) kayıt** bir çalışma sayfasında ve bunları sahte verilerle doldurur. Main() yönteminde rowsCount ve colsCount değişkenlerini değiştirerek kendi matrisinizi belirtebilirsiniz.
+Program, bir çalışma sayfasında **10.000 (10000x30 matris) kayıt** içeren büyük bir dosya oluşturur ve bu kayıtlara sahte veri doldurur. Main() yöntemindeki rowsCount ve colsCount değişkenlerini değiştirerek kendi matrisinizi belirtebilirsiniz.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingLightCellsAPI-WritingLargeExcelFile.cs" >}}
 ## Büyük Excel Dosyalarını Okuma
-Aspose.Cells, programınızda uygulanması gereken LightCellsDataHandler adlı bir arabirim sağlar. Arayüz, büyük elektronik tablo dosyalarını hafif modda okumak için Veri sağlayıcıyı temsil eder.
+Aspose.Cells, büyük elektronik tablo dosyalarını hafif modda okumak için uygulanması gereken LightCellsDataHandler arabirimini sağlar.
 
-Bu modda bir çalışma kitabı okurken, çalışma kitabındaki her çalışma sayfasını okurken StartSheet kontrol edilir. Bir sayfa için, StartSheet true değerini döndürürse, sayfanın satır ve sütunlarındaki hücrelerin tüm verileri ve özellikleri bu arayüzün uygulanmasıyla kontrol edilir ve işlenir. Her satır için, işlenmesi gerekip gerekmediğini kontrol etmek için StartRow çağrılır. Bir satırın işlenmesi gerekiyorsa, önce özellikleri okunur ve geliştirici, ProcessRow ile özelliklerine erişebilir. Satırdaki hücrelerin de işlenmesi gerekiyorsa, ProcessRow true döndürmeli ve ardından bir hücrenin işlenmesi gerekip gerekmediğini kontrol etmek için satırdaki mevcut her hücre için StartCell çağrılmalıdır. Bir hücrenin işlenmesi gerekiyorsa, bu arayüzün uygulanmasıyla hücreyi işlemek için ProcessCell çağrılır.
+Bu modda bir çalışma kitabını okurken, StartSheet her çalışma sayfasını okurken kontrol edilir. Bir sayfa için, StartSheet doğruysa, sayfanın sıralarındaki hücrelerin tüm verileri ve özellikleri bu arabirimin uygulaması tarafından kontrol edilir ve işlenir. Her satır için, satırın işlenmesi gerekip gerekmediğini kontrol etmek için StartRow çağrılır. Bir satırın işlenmesi gerekiyorsa, önce özellikleri okunur ve geliştirici, özelliklerine ProcessRow ile erişebilir. Eğer satırın hücreleri de işlenmesi gerekiyorsa, o zaman ProcessRow true döndürmeli ve sonra satırın her mevcut hücresi için işlenmesi gerekip gerekmediğini kontrol etmek için StartCell çağrılır. Bir hücrenin işlenmesi gerekiyorsa, o zaman hücreyi bu arabirimin uygulaması tarafından işlemek için ProcessCell çağrılır.
 ### Büyük Excel Dosyalarını Okuma:Örnek
-LightCells API'in çalışmasını görmek için lütfen aşağıdaki örnek koda bakın. İhtiyaçlarınıza göre kod segmentlerini ekleyin ve kaldırın veya güncelleyin.
+Lütfen LightCells API'nin çalışmasını görmek için aşağıdaki örnek kodu inceleyin. Kod segmentlerini ihtiyacınıza göre ekleyin, kaldırın veya güncelleyin.
 
-Program, bir çalışma sayfasında milyonlarca kayıt içeren devasa bir dosyayı okur. Çalışma kitabındaki her sayfayı okumak biraz zaman alır. Örnek kod, dosyayı okur ve her çalışma sayfasındaki toplam hücre sayısını, dize sayısını ve formül sayısını alır.
+Program, bir çalışma kitabında milyonlarca kayıt içeren büyük bir dosyayı okur. Her çalışma sayfasını okumak biraz zaman alır. Örnek kod, dosyayı okur ve her çalışma sayfasında toplam hücre sayısını, dize sayısını ve formül sayısını alır.
 
 
 

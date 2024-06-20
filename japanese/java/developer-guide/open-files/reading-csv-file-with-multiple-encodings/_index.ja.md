@@ -1,40 +1,41 @@
-﻿---
-title: 複数のエンコーディングを持つ CSV ファイルの読み取り
+---
+title: 複数のエンコーディングでのCSVファイルの読み込み
 type: docs
 weight: 140
 url: /ja/java/reading-csv-file-with-multiple-encodings/
 ---
+
 {{% alert color="primary" %}} 
 
-CSV ファイルに複数のエンコーディング (Unicode、ANSI、UTF8、UTF7 など) が含まれている場合があります。 Aspose.Cells を使用すると、そのような CSV ファイルをロードして、PDF や XLSX などの他の形式に変換できます。
+CSVファイルにはUnicode、ANSI、UTF8、UTF7など複数のエンコーディングが含まれる場合があります。Aspose.Cellsを使用すると、これらのCSVファイルを読み込んで他の形式（例：PDFまたはXLSX）に変換することができます。
 
 {{% /alert %}} 
 
- Aspose.Cells は TxtLoadOptions.setMultiEncoded() メソッドを提供します。これを設定する必要があります。**真実**複数のエンコーディングで CSV ファイルを適切にロードします。
+Aspose.CellsはTxtLoadOptions.setMultiEncoded()メソッドを提供しており、複数のエンコーディングを持つCSVファイルを適切に読み込むには**true**に設定する必要があります。
 
-次のスクリーンショットは、2 行を含むサンプル CSV ファイルを示しています。最初の行は**ANSI**エンコーディングと2行目は**ユニコード**エンコーディング
+以下のスクリーンショットは、2行を含むサンプルCSVファイルを示しています。最初の行は**ANSI**エンコーディングで、2番目の行は**Unicode**エンコーディングです。
 
 **入力ファイル** 
 
-![todo:画像_代替_文章](reading-csv-file-with-multiple-encodings_1.png)
+![todo:image_alt_text](reading-csv-file-with-multiple-encodings_1.png)
 
-次のスクリーンショットは、TxtLoadOptions.setMultiEncoded() メソッドを true に設定せずに、上記の CSV ファイルから変換された XLSX ファイルを示しています。ご覧のとおり、Unicode テキストは適切に変換されていません。
+以下のスクリーンショットは、TxtLoadOptions.setMultiEncoded()メソッドをtrueに設定せずに上記のCSVファイルから変換されたXLSXファイルを示しています。Unicodeテキストが正しく変換されていないことがわかります。
 
-**出力ファイル 1: 複数のエンコードに対応していません** 
+**出力ファイル1： 複数のエンコーディングに対する対応なし** 
 
-![todo:画像_代替_文章](reading-csv-file-with-multiple-encodings_2.png)
+![todo:image_alt_text](reading-csv-file-with-multiple-encodings_2.png)
 
-次のスクリーンショットは、TxtLoadOptions.setMultiEncoded() メソッドを true に設定した後、上記の CSV ファイルから変換された XSLX ファイルを示しています。ご覧のとおり、Unicode テキストは適切に変換されています。
+以下のスクリーンショットは、TxtLoadOptions.setMultiEncoded()メソッドをtrueに設定した後、上記のCSVファイルから変換されたXSLXファイルを示しています。Unicodeテキストが正しく変換されていることがわかります。
 
-**出力ファイル 2: IsMultiEncoded が true に設定されている** 
+**出力ファイル2：IsMultiEncodedがtrueに設定されています** 
 
-![todo:画像_代替_文章](reading-csv-file-with-multiple-encodings_3.png)
+![todo:image_alt_text](reading-csv-file-with-multiple-encodings_3.png)
 
-以下は、上記の CSV ファイルを XLSX 形式に正しく変換するサンプル コードです。
+以下は、上記のCSVファイルを正しくXLSX形式に変換するサンプルコードです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  String filePath = "F:\\Downloads\\MutliEncoded.csv";
 

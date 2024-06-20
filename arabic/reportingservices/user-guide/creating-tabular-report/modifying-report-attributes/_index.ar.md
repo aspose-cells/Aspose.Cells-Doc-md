@@ -1,34 +1,35 @@
-﻿---
+---
 title: تعديل سمات التقرير
 type: docs
 weight: 90
 url: /ar/reportingservices/modifying-report-attributes/
 ---
+
 لتعديل سمات تقرير:
 
-1.  انقر**تعديل السمة**على Aspose.Cells.Report.Designer شريط الأدوات (
+1. انقر على **تعديل السمة** في شريط أدوات Aspose.Cells.Report.Designer (
 
-![ما يجب القيام به: image_بديل_نص](modifying-report-attributes_1.png)
+![todo:image_alt_text](modifying-report-attributes_1.png)
 
 ).
-يتم سرد التقارير المتاحة في اللوحة اليمنى.
+يتم سرد التقارير المتاحة في اللوحة اليسرى. 
 
-1.  حدد تقرير وانقر**يُعدِّل**. 
+1. حدد تقريرًا وانقر على **تعديل**. 
 
-   **اختيار تقرير** 
+   **تحديد تقرير** 
 
-![ما يجب القيام به: image_بديل_نص](modifying-report-attributes_2.png)
-
-
+![todo:image_alt_text](modifying-report-attributes_2.png)
 
 
-1.  تعديل سمات التقرير.
+
+
+1. قم بتعديل سمات التقرير. 
 
    **تعديل السمات** 
 
-![ما يجب القيام به: image_بديل_نص](modifying-report-attributes_3.png)
+![todo:image_alt_text](modifying-report-attributes_3.png)
 
 
 
 
-1.  انقر**يقترف** لانهاء.
+1. انقر **التأكيد** لإنهاء.

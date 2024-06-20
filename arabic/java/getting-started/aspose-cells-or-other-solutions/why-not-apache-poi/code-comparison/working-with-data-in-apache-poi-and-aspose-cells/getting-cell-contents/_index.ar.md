@@ -1,49 +1,50 @@
-﻿---
-title: الحصول على Cell محتويات
+---
+title: الحصول على محتويات الخلية
 type: docs
 weight: 10
 url: /ar/java/getting-cell-contents/
 ---
-## **Aspose.Cells - الحصول على Cell المحتويات**
-طريقة Cells.get () متاحة للوصول إلى الخلايا.
+
+## **Aspose.Cells - الحصول على محتويات الخلية**
+الطريقة Cells.get() متوفرة للوصول إلى الخلايا.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- // الوصول إلى ورقة العمل الأولى في ملف Excel
+ //Accessing the first worksheet in the Excel file
 
-ورقة عمل ورقة العمل = workbook.getWorksheets (). get (0)؛
+Worksheet worksheet = workbook.getWorksheets().get(0);
 
-Cells خلايا = workheet.getCells () ،
+Cells cells = worksheet.getCells();
 
-// الوصول إلى أقصى نطاق عرض
+//Access the Maximum Display Range
 
-نطاق المدى = workheet.getCells (). getMaxDisplayRange () ؛
+Range range = worksheet.getCells().getMaxDisplayRange();
 
-int tcols = range.getColumnCount () ،
+int tcols = range.getColumnCount();
 
-int trows = range.getRowCount () ،
+int trows = range.getRowCount();
 
-System.out.println ("إجمالي الصفوف:" + trows) ؛
+System.out.println("Total Rows:" + trows);
 
-System.out.println ("إجمالي الأعمدة:" + tcols) ؛
+System.out.println("Total Cols:" + tcols);
 
-// قيمة الوصول Cell B4
-
-//=====================================================
-
-System.out.println (cell.get ("B4"). getValue ()) ؛
-
-Cell خلية = cell.get (3،1) ؛ // قيمة الوصول Cell B4
-
-System.out.println (cell.getValue ()) ،
+// Access value of Cell B4
 
 //=====================================================
 
-صفوف RowCollection = cells.getRows () ،
+System.out.println(cells.get("B4").getValue());
 
- لـ (int i = 0 ؛ i< rows.getCount() ; i++)
+Cell cell = cells.get(3,1); //Access value of Cell B4
+
+System.out.println(cell.getValue());
+
+//=====================================================
+
+RowCollection rows = cells.getRows();
+
+for (int i = 0 ; i < rows.getCount() ; i++)
 
 {
 
@@ -64,12 +65,12 @@ System.out.println (cell.getValue ()) ،
 }
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - الحصول على Cell المحتويات**
-توفر Apache POI فئة Cell للوصول إلى الخصائص المختلفة للخلايا.
+## **Apache POI SS - HSSF XSSF - الحصول على محتويات الخلية**
+يوفر Apache POI فئة Cell للوصول إلى خصائص مختلفة للخلايا.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sheet sheet1 = wb.getSheetAt(0);
 
@@ -128,13 +129,13 @@ for (Row row : sheet1) {
 }
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/ src / main / java / com / aspose / cells / أمثلة / featurescomparison / datahandling / getcellcontent)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/gettingcellcontent)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[ميزات معالجة البيانات باستخدام Aspose.Cells](/cells/ar/java/data-handling-features-using-aspose-cells/)
+لمزيد من التفاصيل، قم بزيارة [ميزات معالجة البيانات باستخدام Aspose.Cells](/cells/ar/java/data-handling-features-using-aspose-cells/)
 
 {{% /alert %}}

@@ -1,11 +1,12 @@
-﻿---
-title: Akıştan elektronik tablo belgesi açma
+---
+title: Akıştan Elektronik Tablo Belgesi Aç
 type: docs
 weight: 110
 url: /tr/net/open-a-spreadsheet-document-from-a-stream/
 ---
-## **OpenXML Excel'i aç**
-{{< highlight "csharp" >}}
+
+## **OpenXML Excel**
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -73,7 +74,7 @@ public static void OpenAndAddToSpreadsheetStream(Stream stream)
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -98,7 +99,7 @@ public static void OpenAndAddToSpreadsheetStream(Stream stream)
 }
 
 {{< /highlight >}}
-## **Çalışan Kod Örneği İndir**
+## **Çalışan Kod Örneğini İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-## **Basit kod**
+## **Örnek Kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/Aspose.Cells%20VS%20OpenXML/Open%20from%20a%20stream/OpenXML%20Spreadshhets)

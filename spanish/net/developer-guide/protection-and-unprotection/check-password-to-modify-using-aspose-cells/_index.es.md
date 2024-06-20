@@ -1,33 +1,34 @@
-﻿---
-title: Verifique la contraseña para modificar usando Aspose.Cells
+---
+title: Verificar Contraseña para modificar con Aspose.Cells
 type: docs
 weight: 2400
 url: /es/net/check-password-to-modify-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- A veces, es necesario comprobar si la contraseña proporcionada coincide con la**Contraseña para modificar** programáticamente. Aspose.Cells proporciona el método WorkbookSettings.WriteProtection.ValidatePassword() que puede usar para verificar si la contraseña dada para modificar es correcta o no.
+A veces, necesitas verificar si la contraseña proporcionada coincide con la **Contraseña para modificar** programáticamente. Aspose.Cells proporciona el método WorkbookSettings.WriteProtection.ValidatePassword() que puedes usar para verificar si la Contraseña para modificar proporcionada es correcta o no.
 
 {{% /alert %}}
 
-## **Consultar Contraseña a modificar en Microsoft Excel**
+## **Verificar Contraseña para modificar en Microsoft Excel**
 
- Puedes asignar**Contraseña para abrir** y**Contraseña para modificar** mientras crea sus libros de trabajo en Microsoft Excel. Consulte esta captura de pantalla que muestra la interfaz Microsoft que proporciona Excel para especificar estas contraseñas.
+Puedes asignar **Contraseña para abrir** y **Contraseña para modificar** al crear tus libros de trabajo en Microsoft Excel. Por favor, mira esta captura de pantalla que muestra la interfaz que Microsoft Excel proporciona para especificar estas contraseñas.
 
-|![todo:imagen_alternativa_texto](check-password-to-modify-using-aspose-cells_1.png)|
-|:- |
+|![todo:image_alt_text](check-password-to-modify-using-aspose-cells_1.png)|
+| :- |
 
-## **Verifique la contraseña para modificar usando Aspose.Cells**
+## **Verificar contraseña para modificar usando Aspose.Cells**
 
- Los siguientes códigos de muestra cargan el[Excel fuente](5112232.xlsx) expediente. Tiene una Contraseña para abrir como 1234 y una Contraseña para modificar como 5678. El código primero comprueba si 567 es la Contraseña para modificar correcta y devuelve falso y luego comprueba si 5678 es la Contraseña para modificar y devuelve verdadero.
+Los siguientes códigos de muestra cargan el archivo de Excel fuente. Tiene una contraseña para abrir como 1234 y una contraseña para modificar como 5678. El código primero verifica si 567 es la contraseña correcta para modificar y devuelve falso, luego verifica si 5678 es la contraseña para modificar y devuelve verdadero.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CheckPasswordToModify-CheckPasswordToModifyUsingAsposeCells.cs" >}}
 
-### **Salida de consola**
+### **Salida de la consola**
 
- Aquí está la salida de la consola del código de muestra anterior después de cargar el[Excel fuente](5112232.xlsx) expediente.
+Aquí está la salida de la consola del código de muestra anterior después de cargar el archivo de Excel fuente.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is 567 correct Password to modify: False
 

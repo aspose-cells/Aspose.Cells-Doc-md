@@ -1,41 +1,42 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.8.0
+---
+title: Изменения в публичном API в Aspose.Cells 8.8.0
 type: docs
 weight: 260
 url: /ru/net/public-api-changes-in-aspose-cells-8-8-0/
 ---
-{{% alert color="primary" %}} 
-
-В этом документе описаны изменения в Aspose.Cells API с версии 8.7.2 до 8.8.0, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные общедоступные методы, добавленные и удаленные классы и т. д., но и описание любых изменений в поведении за кулисами в Aspose.Cells.
-
-{{% /alert %}} 
-## **Добавлены API**
-### **Получить Cell ссылки для внешнего подключения**
-Aspose.Cells for .NET 8.8.0 предоставляет следующие новые свойства, которые полезны при получении ссылок на целевые и выходные ячейки для внешних подключений, хранящихся в электронной таблице.
-
-1. QueryTable.ConnectionId: получает идентификатор соединения таблицы запросов.
-1. ExternalConnection.Id: получает идентификатор внешнего подключения.
-1. ListObject.QueryTable: получает связанную таблицу запросов.
 
 {{% alert color="primary" %}} 
 
- Дополнительные сведения об этой функции см. в подробной статье о[Поиск таблиц запросов и список объектов, связанных с подключениями к внешним данным](/cells/ru/net/find-query-tables-and-list-objects-related-to-external-data-connections/)
+Этот документ описывает изменения в API Aspose.Cells с версии 8.7.2 до 8.8.0, которые могут быть интересны разработчикам модулей/приложений. Он включает не только новые и обновленные публичные методы, добавленные и удаленные классы и т. д., но также описание любых изменений в поведении внутри Aspose.Cells.
 
 {{% /alert %}} 
-### **Добавлено свойство HTMLLoadOptions.KeepPrecision.**
-Aspose.Cells for .NET 8.8.0 добавлено свойство HTMLLoadOptions.KeepPrecision для управления преобразованием длинных числовых значений в экспоненциальное представление при импорте файлов HTML. По умолчанию любое значение длиннее 15 цифр преобразуется в экспоненциальное представление, если данные импортируются из строки или файла HTML. Однако теперь пользователи могут управлять этим поведением с помощью свойства HTMLLoadOptions.KeepPrecision. Если для указанного свойства установлено значение true, значения будут импортированы так, как они есть в источнике.
+## **Добавленные API**
+### **Получить ссылки на ячейки для внешнего подключения**
+Aspose.Cells for .NET 8.8.0 добавил следующие новые свойства, которые помогают получить ссылки на целевые и выходные ячейки для внешних соединений, сохраненных в электронной таблице.
+
+1. QueryTable.ConnectionId: Получает идентификатор подключения таблицы запросов.
+1. ExternalConnection.Id: Получает идентификатор внешнего подключения.
+1. ListObject.QueryTable: Получает связанную таблицу запросов.
 
 {{% alert color="primary" %}} 
 
- Дополнительные сведения об этой функции см. в подробной статье о[ Избегайте преобразования больших числовых значений в экспоненциальное представление](/cells/ru/net/avoid-exponential-notation-of-large-numbers-while-importing-from/)
+Для получения дополнительной информации об этой функции ознакомьтесь со статьей по [Поиск таблиц запросов и объектов списка, связанных с внешними подключениями данным](/cells/ru/net/find-query-tables-and-list-objects-related-to-external-data-connections/)
+
+{{% /alert %}} 
+### **Добавлено свойство HTMLLoadOptions.KeepPrecision**
+Aspose.Cells for .NET 8.8.0 добавил свойство HTMLLoadOptions.KeepPrecision для управления конвертацией длинных числовых значений в экспоненциальную запись при импорте HTML-файлов. По умолчанию любое значение длиннее 15 цифр преобразуется в экспоненциальную запись при импорте данных из HTML-строки или файла. Однако теперь пользователи могут управлять этим поведением с помощью свойства HTMLLoadOptions.KeepPrecision. Если это свойство установлено в true, значения будут импортированы в том виде, в котором они есть в источнике.
+
+{{% alert color="primary" %}} 
+
+Для получения дополнительной информации об этой функции ознакомьтесь со статьей по [Избегание преобразования больших числовых значений в экспоненциальную запись](/cells/ru/net/avoid-exponential-notation-of-large-numbers-while-importing-from/)
 
 {{% /alert %}} 
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string html = @" 
 
@@ -57,7 +58,7 @@ Aspose.Cells for .NET 8.8.0 добавлено свойство HTMLLoadOptions.
 
 ";
 
-byte[]byteArray = Encoding.UTF8.GetBytes(html);
+byte[] byteArray = Encoding.UTF8.GetBytes(html);
 
 HTMLLoadOptions loadOptions = new Aspose.Cells.HTMLLoadOptions(LoadFormat.Html);
 
@@ -76,12 +77,12 @@ workbook.Save(dir + "output.xlsx");
 {{< /highlight >}}
 
 
-### **Добавлено свойство HTMLLoadOptions.DeleteRedundantSpaces.**
-Aspose.Cells for .NET 8.8.0 предоставил свойство HTMLLoadOptions.DeleteRedundantSpaces, чтобы сохранить или удалить лишние пробелы после тега разрыва строки (<br>Тег) при импорте данных из строки или файла HTML. Свойство HTMLLoadOptions.DeleteRedundantSpaces имеет значение по умолчанию false, что означает, что все лишние пробелы будут сохранены и импортированы в объект Workbook, однако, если установлено значение true, API удалит все лишние пробелы, идущие после тега разрыва строки.
+### **Добавлено свойство HTMLLoadOptions.DeleteRedundantSpaces**
+Aspose.Cells for .NET 8.8.0 has exposed the HTMLLoadOptions.DeleteRedundantSpaces property in order to keep or delete the extra spaces after the line break tag (<br> Tag) while importing the data from the HTML string or file. The HTMLLoadOptions.DeleteRedundantSpaces property has the default value as false that means, all extra spaces will be preserved and imported to the Workbook object, however, when set to true, the API will delete all the redundant spaces coming after the line break tag.
 
 {{% alert color="primary" %}} 
 
- Дополнительные сведения об этой функции см. в подробной статье о[Удалить избыточные пространства из HTML](/cells/ru/net/delete-redundant-spaces-after-line-break-while-importing/)
+Для получения более подробной информации о этой функции пожалуйста, прочтите подробную статью о [Удаление избыточных пробелов из HTML](/cells/ru/net/delete-redundant-spaces-after-line-break-while-importing/)
 
 {{% /alert %}} 
 
@@ -89,7 +90,7 @@ Aspose.Cells for .NET 8.8.0 предоставил свойство HTMLLoadOpti
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string html = @" 
 
@@ -121,7 +122,7 @@ Aspose.Cells for .NET 8.8.0 предоставил свойство HTMLLoadOpti
 
 ";
 
-byte[]byteArray = Encoding.UTF8.GetBytes(html);
+byte[] byteArray = Encoding.UTF8.GetBytes(html);
 
 HTMLLoadOptions loadOptions = new Aspose.Cells.HTMLLoadOptions(LoadFormat.Html);
 
@@ -137,11 +138,11 @@ workbook.Save(dir + "output.xlsx");
 
 
 ### **Добавлено свойство Style.QuotePrefix**
-Aspose.Cells for .NET 8.8.0 предоставило свойство Style.QuotePrefix, чтобы определить, начинается ли значение ячейки с одинарной кавычки.
+Aspose.Cells for .NET 8.8.0 предоставил свойство Style.QuotePrefix для определения, начинается ли значение ячейки с символа одиночной кавычки.
 
 {{% alert color="primary" %}} 
 
- Дополнительные сведения об этой функции см. в подробной статье о[Обнаружение одиночной кавычки в начале значения Cell](/cells/ru/net/find-if-the-cell-value-starts-with-single-quote-mark/)
+Для получения более подробной информации о этой функции пожалуйста, прочтите подробную статью о [Обнаружении одиночной кавычки в начале значения ячейки](/cells/ru/net/find-if-the-cell-value-starts-with-single-quote-mark/)
 
 {{% /alert %}} 
 
@@ -149,7 +150,7 @@ Aspose.Cells for .NET 8.8.0 предоставило свойство Style.Quot
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook();
 

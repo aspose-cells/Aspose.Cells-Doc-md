@@ -1,13 +1,14 @@
-﻿---
-title: Apache POI ve Aspose.Cells'de Tarih Cell'i oluşturun
+---
+title: Apache POI ve Aspose.Cells te Tarih Hücresi Oluşturma
 type: docs
 weight: 90
 url: /tr/java/create-date-cell-in-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Oluşturma Tarihi Cell**
+
+## **Aspose.Cells - Tarih Hücresi Oluşturma**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -34,10 +35,10 @@ style.setCustom("d-mmm-yy");
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS (HSSF + XSSF) - Oluşturma Tarihi Cell**
+## **Apache POI SS (HSSF + XSSF) - Tarih Hücresi Oluşturma**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -87,16 +88,16 @@ cell.setCellStyle(cellStyle);
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- Şunun için çalışan örnekleri indirin:**Aspose.Cells ve Apache POI'de Tarih Cell'i oluşturun** aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir sosyal kodlama sitesinden **Aspose.Cells ve Apache POI'de Tarih Hücresi Oluşturma** için çalışan örnekleri indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
-## **Kaynak Kodunu İndir**
- için kaynak kodunu indirin**Aspose.Cells ve Apache POI'de Tarih Cell'i oluşturun** aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+## **Kaynak Kodu İndir**
+Herhangi bir sosyal kodlama sitesinden **Aspose.Cells ve Apache POI'de Tarih Hücresi Oluşturma** için kaynak kodunu indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Cells'e Veri Ekleme](/cells/tr/java/add-data-in-cells/).
+Daha fazla bilgi için [Hücrelere Veri Eklemek](/cells/tr/java/hucrelere-veri-ekleme/) sayfasını ziyaret edin.
 
 {{% /alert %}}

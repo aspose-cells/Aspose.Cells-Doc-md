@@ -1,23 +1,24 @@
-﻿---
-title: العمل مع تنسيقات عرض البيانات DataField في Pivot Table
+---
+title: العمل مع تنسيقات عرض البيانات لحقل البيانات في جدول الإحصائيات المحورية
 type: docs
 weight: 140
 url: /ar/net/working-with-data-display-formats-of-datafield-in-pivot-table/
 ---
+
 {{% alert color="primary" %}}
 
-يدعم Aspose.Cells كل تنسيقات عرض البيانات الخاصة بـ DataField.
+تدعم Aspose.Cells جميع تنسيقات عرض البيانات لحقل البيانات.
 
 {{% /alert %}}
 
-## **خيار تنسيق العرض "الترتيب من الأصغر إلى الأكبر" و "الترتيب من الأكبر إلى الأصغر"**
+## **"ترتيب من الأصغر إلى الأكبر" و "ترتيب من الأكبر إلى الأصغر" خيار شكل العرض**
 
-ASpose.Cells يوفر القدرة على تحديد خيار نسق العرض للحقول المحورية. لهذا ، يوفر API الامتداد[**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat) خاصية. لترتيب من الأكبر إلى الأصغر ، يمكنك تعيين[**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat)ملكية ل[**PivotFieldDataDisplayFormat.RankLargestToSmallest**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfielddatadisplayformat). يوضح مقتطف التعليمات البرمجية التالي تعيين خيارات تنسيق العرض.
+يوفر ASpose.Cells القدرة على تعيين خيار تنسيق العرض لحقول الجدول المحوري. لهذا، توفر واجهة برمجة التطبيقات العقارية [**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat). لتحديد الترتيب من الأكبر إلى الأصغر، قد تقوم بتعيين خاصية [**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat) إلى [**PivotFieldDataDisplayFormat.RankLargestToSmallest**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfielddatadisplayformat). المقتطف البرمجي التالي يوضح ضبط خيارات تنسيق العرض.
 
-يمكن تنزيل عينة من ملفات المصدر والمخرجات من هنا لاختبار نموذج التعليمات البرمجية:
+يمكن تنزيل ملفات الأصل والإخراج العينية من هنا لاختبار كود العينة:
 
-[مصدر ملف Excel](101089332.xlsx)
+[ملف إكسل المصدر](101089332.xlsx)
 
-[إخراج ملف Excel](101089333.xlsx)
+[ملف إكسل الإخراج](101089333.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTables-PivotTableDataDisplayFormatRanking-1.cs" >}}

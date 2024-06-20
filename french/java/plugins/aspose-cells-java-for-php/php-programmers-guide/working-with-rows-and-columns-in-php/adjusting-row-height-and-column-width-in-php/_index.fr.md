@@ -1,19 +1,20 @@
-﻿---
-title: Ajuster la hauteur des lignes et la largeur des colonnes en PHP
+---
+title: Ajustement de la hauteur de ligne et de la largeur de colonne en PHP
 type: docs
 weight: 10
 url: /fr/java/adjusting-row-height-and-column-width-in-php/
 ---
-## **Aspose.Cells - Réglage de la hauteur de ligne et de la largeur de colonne**
-### **Définition de la hauteur de ligne**
-Il est possible de définir la hauteur d'une seule ligne en appelant la méthode setRowHeight de la collection Cells. La méthode setRowHeight prend les paramètres suivants :
 
-- **Indice de ligne**, l'index de la ligne dont vous modifiez la hauteur.
-- **Hauteur de ligne**, la hauteur de ligne à appliquer sur la ligne.
+## **Aspose.Cells - Ajustement de la hauteur de ligne et de la largeur de colonne**
+### **Définir la hauteur de la ligne**
+Il est possible de définir la hauteur d'une seule ligne en appelant la méthode setRowHeight de la collection Cells. La méthode setRowHeight prend les paramètres suivants:
+
+- **Index de ligne**, l'index de la ligne pour laquelle vous modifiez la hauteur.
+- **Hauteur de la ligne**, la hauteur de la ligne à appliquer sur la ligne.
 
 **Code PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function set_row_height($dataDir)
 
@@ -42,15 +43,15 @@ Il est possible de définir la hauteur d'une seule ligne en appelant la méthode
 }
 
 {{< /highlight >}}
-### **Définition de la largeur de colonne**
-Définissez la largeur d'une colonne en appelant la méthode setColumnWidth de la collection Cells. La méthode setColumnWidth prend les paramètres suivants :
+### **Définir la largeur de colonne**
+Définissez la largeur d'une colonne en appelant la méthode setColumnWidth de la collection Cells. La méthode setColumnWidth prend les paramètres suivants:
 
-- **Indice de colonne**, l'index de la colonne dont vous modifiez la largeur.
-- **Largeur de colonne**, la largeur de colonne souhaitée.
+- Index de la colonne, l'index de la colonne dont vous changez la largeur.
+- Largeur de colonne, la largeur de colonne souhaitée.
 
 **Code PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function set_column_width($dataDir)
 
@@ -79,7 +80,7 @@ Définissez la largeur d'une colonne en appelant la méthode setColumnWidth de l
 }
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Réglage de la hauteur des lignes et de la largeur des colonnes (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Ajustement de la hauteur de ligne et de la largeur de colonne (Aspose.Cells)** à partir de l'un des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

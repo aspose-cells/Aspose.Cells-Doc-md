@@ -1,15 +1,16 @@
-﻿---
-title: Congela i riquadri in Ruby
+---
+title: Blocca Riquadri in Ruby
 type: docs
 weight: 50
 url: /it/java/freeze-panes-in-ruby/
 ---
-## **Aspose.Cells - Congelamento Riquadri**
- Per bloccare i riquadri nel documento del foglio di calcolo utilizzando**Aspose.Cells Java per Rubino** , semplicemente invocare**FreezePanes** modulo.
 
-**Codice Rubino**
+## **Aspose.Cells - Fissa i riquadri**
+Per Bloccare i Riquadri nel Documento del Foglio di Calcolo usando **Aspose.Cells Java per Ruby**, basta invocare il modulo **FreezePanes**.
 
-{{< highlight "ruby" >}}
+**Codice Ruby**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -35,6 +36,6 @@ puts "Apply freeze panes settings, please check the output file."
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Blocca riquadri (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Blocca Riquadri (Aspose.Cells)** da uno dei siti di codice sociale sotto indicati:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/freezepanes.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/freezepanes.rb)

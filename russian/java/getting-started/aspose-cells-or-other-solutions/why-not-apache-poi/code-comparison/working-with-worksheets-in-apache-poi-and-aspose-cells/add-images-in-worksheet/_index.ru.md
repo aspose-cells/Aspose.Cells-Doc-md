@@ -1,15 +1,16 @@
-﻿---
-title: Добавить изображения в рабочий лист
+---
+title: Добавить изображения в лист
 type: docs
 weight: 20
 url: /ru/java/add-images-in-worksheet/
 ---
-## **Aspose.Cells - Добавить изображения в рабочий лист**
-Класс Picture доступен для работы с изображениями на рабочем листе.
+
+## **Aspose.Cells - Добавить изображения в лист**
+Класс Picture доступен для работы с изображениями в рабочем листе
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Get the first worksheet
 
@@ -41,18 +42,18 @@ pic.setPlacement(PlacementType.FREE_FLOATING);
 
 
 {{< /highlight >}}
-## **Apache POI SS — HSSF XSSF — добавление изображений в рабочий лист**
-Класс Picture доступен для работы с изображениями на рабочем листе.
+## **Apache POI SS - HSSF XSSF - Добавление изображений в рабочий лист**
+Класс Picture доступен для работы с изображениями в рабочем листе
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //add picture data to this workbook.
 
 InputStream is = new FileInputStream(dataDir + "aspose.jpg");
 
-byte[]bytes = IOUtils.toByteArray(is);
+byte[] bytes = IOUtils.toByteArray(is);
 
 int pictureIdx = wb.addPicture(bytes, Workbook.PICTURE_TYPE_JPEG);
 
@@ -87,13 +88,13 @@ Picture pict = drawing.createPicture(anchor, pictureIdx);
 pict.resize();
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/addiimages)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/addimages)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Добавить гиперссылки на изображения](/java/add-image-hyperlinks).
+Дополнительные сведения см. на странице [Добавление гиперссылок на изображение](/java/add-image-hyperlinks).
 
 {{% /alert %}}

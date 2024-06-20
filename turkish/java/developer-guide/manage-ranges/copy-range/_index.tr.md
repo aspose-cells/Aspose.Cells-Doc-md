@@ -1,33 +1,34 @@
-﻿---
-title: Excel Aralıklarını Kopyala
-linktitle: Aralıkları Kopyala
+---
+title: Excel in Kopyalanması
+linktitle: Kopya Aralıkları
 type: docs
 weight: 30
 url: /tr/java/copy-ranges-of-Excel/
 ---
+
 ## **Giriş**
 
-Excel'de bir aralık seçebilir, aralığı kopyalayabilir ve ardından belirli seçeneklerle aynı çalışma sayfasına, diğer çalışma sayfalarına veya diğer dosyalara yapıştırabilirsiniz.
+Excel'de bir aralığı seçebilir, ardından bu aralığı belirli seçeneklerle aynı çalışma sayfasına, diğer çalışma sayfalarına veya diğer dosyalara yapıştırabilirsiniz.
 
-## **Aspose.Cells Kullanarak Aralıkları Kopyala**
+## **Aspose.Cells Kullanarak Aralıkları Kopyalama**
 
- Aspose.Cells biraz aşırı yük sağlıyor[Aralık.Kopya](https://reference.aspose.com/cells/java/com.aspose.cells/range) aralığı kopyalama yöntemleri.
-## **Aralığı Kopyala**
+Aspose.Cells, aralığı kopyalamak için bazı aşırı yüklemeye sahip [Range.Copy](https://reference.aspose.com/cells/java/com.aspose.cells/range) yöntemleri sağlar.
+## **Aralık Kopyalama**
 
-İki aralık oluşturma: kaynak aralık, hedef aralık, ardından kaynak aralığın Range.Copy yöntemiyle hedef aralığa kopyalanması.
+İki aralık oluşturarak: kaynak aralık, hedef aralık, ardından Range.Copy yöntemi ile kaynak aralığı hedef aralığa kopyalama.
 
-Aşağıdaki koda bakın:
+Aşağıdaki kodu görün:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Copy-Range.java" >}}
 
-## **Aralığı Seçeneklerle Yapıştır**
+## **Seçeneklerle Aralık Yapıştırma**
 
-Aspose.Cells, aralığın belirli bir türle yapıştırılmasını destekler.
+Aspose.Cells, belirli bir türle aralığı yapıştırmayı destekler.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Paste-Range.java" >}}
 
-## **Yalnızca Aralığın Verilerini Kopyalayın.**
-Ayrıca Range.CopyData yöntemi ile aşağıdaki kodlar gibi verileri kopyalayabilirsiniz:
+## **Yalnızca Aralığın Verilerini Kopyalama.**
+Ayrıca aşağıdaki kodları kullanarak verileri Range.CopyData yöntemiyle kopyalayabilirsiniz:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Copy-Range-Data.java" >}}
 

@@ -1,21 +1,22 @@
 ---
-title: 各ワークシートを別の PDF ファイルに保存
+title: 異なるPDFファイルにそれぞれのワークシートを保存する
 type: docs
 weight: 130
 url: /ja/net/save-each-worksheet-to-a-different-pdf-file/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells は、XLS ファイル (画像、グラフなどが含まれる) から PDF ドキュメントへの変換をサポートしています。 Aspose.Cells for .NET は独立して機能してスプレッドシートを PDF に変換できます。変換に Aspose.PDF for .NET を使用する必要はありません。変換はプロセス全体がメモリ内で実行できるため、ソフトウェアで一時ファイルを作成したり使用したりする必要はありません。
+Aspose.Cellsは、画像、グラフなどを含むXLSファイルをPDFドキュメントに変換する機能をサポートしています。Aspose.Cells for .NETを使用してスプレッドシートをPDFに変換するためには、Aspose.PDF for .NETを使用する必要はありません。この変換では、一時ファイルを作成または使用するためのソフトウェアが必要ではなく、プロセス全体をメモリで行うことができます。
 
 {{% /alert %}} 
-##  **各ワークシートを別の PDF ファイルに保存**
-各ワークシートをテンプレート Excel ファイルに保存して、異なる PDF ファイルを生成する必要がある場合は、これを簡単に実行できます。 1 つのシートのインデックスを次のように設定してみるとよいでしょう。**[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/)**オプションを一度に PDF にレンダリングします。
+## **異なるPDFファイルごとに各ワークシートを保存**
+テンプレートExcelファイルの各ワークシートを保存して異なるPDFファイルを生成する必要がある場合は、これを簡単に実現できます。 1回に1シートインデックスを[**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/)オプションに設定して、PDFにレンダリングします。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SaveEachWorksheetToDifferentPDF-1.cs" >}}
 
 {{% alert color="primary" %}} 
 
-スプレッドシートに数式が含まれている場合は、次のように呼び出すのが最善です。[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)スプレッドシートを PDF 形式にレンダリングする直前。そうすることで、式に依存する値が再計算され、PDF に正しい値が表示されるようになります。
+スプレッドシートに数式が含まれている場合、PDF形式に変換する直前に [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) を呼び出すことが最善です。これにより、数式に依存する値が再計算され、PDFで正しい値がレンダリングされます。
 
 {{% /alert %}}

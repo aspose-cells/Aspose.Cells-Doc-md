@@ -1,15 +1,16 @@
-﻿---
-title: PHP'de Yeni Excel Dosyasına Çalışma Sayfaları Ekleme
+---
+title: Yeni Excel Dosyasına Sayfa Ekleme
 type: docs
 weight: 20
 url: /tr/net/add-worksheets-to-new-excel-file-in-php/
 ---
-## **Çalışma Sayfalarını Yeni Excel Dosyasına Ekleme**
-Çalışma Sayfalarını Yeni Excel Dosyasına Ekleme
 
-**PHP Kodu**
+## **Yeni Excel Dosyasına Sayfa Ekleme**
+Yeni Excel Dosyasına Sayfa Ekleme
 
-{{< highlight "php" >}}
+PHP Kodu
+
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -37,6 +38,6 @@ url: /tr/net/add-worksheets-to-new-excel-file-in-php/
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Çalışma Sayfalarını Yeni Excel Dosyasına Ekle (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+**Yeni Excel Dosyasına Sayfa Ekleme (Aspose.Cells)**'ı aşağıdaki sosyal kodlama sitelerinden indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/AddingWorksheetsToNewExcelFile.php)

@@ -1,54 +1,55 @@
-﻿---
-title: إخفاء وإظهار الصفوف والأعمدة
+---
+title: إخفاء وعرض الصفوف والأعمدة
 type: docs
 weight: 60
 url: /ar/net/hiding-and-showing-rows-and-columns/
 ---
+
 {{% alert color="primary" %}}
 
-في بعض الأحيان ، يكون من المنطقي إخفاء صفوف أو أعمدة معينة في ورقة عمل وعرضها لاحقًا. يوفر Microsoft Excel هذه الميزة وكذلك يفعل Aspose.Cells.
+في بعض الأحيان، من المنطقي إخفاء بعض الصفوف أو الأعمدة في ورقة عمل وعرضها لاحقًا. يوفر Microsoft Excel هذه الميزة وكذلك Aspose.Cells.
 
 {{% /alert %}}
 
 ## **التحكم في رؤية الصفوف والأعمدة**
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) ، يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة تحتوي على[**ورقة العمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) يسمح للمطورين بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فئة توفر أ[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) مجموعة تمثل جميع الخلايا في ورقة العمل. ال[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)توفر المجموعة عدة طرق لإدارة الصفوف أو الأعمدة في ورقة العمل. تمت مناقشة القليل من هذه أدناه.
+توفر Aspose.Cells فئة، [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)، التي تمثل ملف Microsoft Excel. تحتوي الفئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) على [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) يسمح للمطورين بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). توفر الفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) التي تمثل جميع الخلايا في ورقة العمل. توفر مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) عدة طرق لإدارة الصفوف أو الأعمدة في ورقة العمل. يتم مناقشة بعض هذه الأساليب أدناه.
 
 ### **إخفاء الصفوف والأعمدة**
 
- يمكن للمطورين إخفاء صف أو عمود عن طريق استدعاء[**HideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderow) و[**HideColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumn) طرق[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)جمع على التوالي. تأخذ كلتا الطريقتين فهرس الصف والعمود كمعامل لإخفاء الصف أو العمود المحدد.
+يمكن للمطورين إخفاء صف أو عمود عن طريق استدعاء طرق [**HideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderow) و[**HideColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumn) من مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) على التوالي. تأخذ كلا الطريقين فهم فهرس الصف والعمود كمعلمة لإخفاء الصف أو العمود المحدد.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-HidingRowsAndColumns-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-من الممكن أيضًا إخفاء صف أو عمود عن طريق ضبط ارتفاع الصف أو عرض العمود على 0 على التوالي.
+من الممكن أيضًا إخفاء صف أو عمود عن طريق تعيين ارتفاع الصف أو عرض العمود إلى 0 على التوالي.
 
 {{% /alert %}}
 
-### **إظهار الصفوف والأعمدة**
+### **عرض الصفوف والأعمدة**
 
- يمكن للمطورين إظهار أي صف أو عمود مخفي عن طريق استدعاء[**UnhideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderow) و[**UnhideColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumn) طرق[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)جمع على التوالي. تأخذ كلتا الطريقتين معلمتين:
+يمكن للمطورين عرض أي صف أو عمود مخفي عن طريق استدعاء طرق [**UnhideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderow) و[**UnhideColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumn) من مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) على التوالي. تأخذ كلا الطريقين معلمتين:
 
-- **فهرس الصف أو العمود** - فهرس صف أو عمود يُستخدم لإظهار الصف أو العمود المحدد.
-- **ارتفاع الصف أو عرض العمود** - ارتفاع الصف أو عرض العمود المخصص للصف أو العمود بعد الإخفاء.
+- **فهرس الصف أو العمود** - فهرس الصف أو العمود المستخدم لعرض الصف أو العمود المحدد.
+- **ارتفاع الصف أو عرض العمود** - ارتفاع الصف أو عرض العمود المعين للصف أو العمود بعد عرضه.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-UnhidingRowsAndColumns-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-أثناء جعل عمود مخفي مرئيًا ، إذا كنت بحاجة إلى استعادته إلى العرض المعين مسبقًا أو عرضه الأصلي ، فيرجى إظهار العمود بعرض سلبي. على سبيل المثال: ورقة عمل .Cells.UnhideColumn (5، -1)
+أثناء جعل العمود المخفي مرئيًا، إذا كنت بحاجة إلى استعادته إلى العرض المعين سابقًا أو إلى عرضه الأصلي، يرجى عرض العمود بعرض سلبي. على سبيل المثال: worksheet.Cells.UnhideColumn(5, -1)
 
 {{% /alert %}}
 
-### **إخفاء صفوف وأعمدة متعددة**
+### **إخفاء عدة صفوف وأعمدة**
 
- يمكن للمطورين إخفاء صفوف أو أعمدة متعددة مرة واحدة عن طريق استدعاء[**إخفاء الصفوف**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderows) و[**HideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumns) طرق[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)جمع على التوالي. تأخذ كلتا الطريقتين صف البداية أو فهرس العمود وعدد الصفوف أو الأعمدة التي يجب إخفاؤها كمعلمات.
+يمكن للمطورين إخفاء عدة صفوف أو أعمدة دفعة واحدة عن طريق استدعاء طرق [**HideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderows) و[**HideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumns) من مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) على التوالي. تأخذ كلا الطريقين فهرس الصف أو العمود البدء وعدد الصفوف أو الأعمدة التي يجب إخفاؤها كمعلمات.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-HidingMultipleRowsAndColumns-1.cs" >}}
 
 {{% alert color="primary" %}}
 
- من الممكن أيضًا استخدام ملف[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) صف دراسي'[**إظهار الصفوف**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) و[**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns)طرق لإظهار العديد من الصفوف والأعمدة.
+من الممكن أيضًا استخدام طرق [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) و[**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) فئة [**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns) لجعل عدة صفوف وأعمدة مرئية.
 
 {{% /alert %}}

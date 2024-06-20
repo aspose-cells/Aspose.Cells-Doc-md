@@ -1,24 +1,25 @@
 ---
-title: チャートのワークシートを取得する
-description: Aspose.Cells for .NET を使用して Excel グラフに関連付けられたワークシートを取得する方法を学習します。このガイドでは、ワークシートにアクセスして操作を実行し、グラフの基礎となるデータを操作する方法を説明します。
-keywords: Aspose.Cells for .NET, Excel charts, worksheets, data manipulation, underlying data, operations.
+title: チャートのワークシートを取得
+description: Aspose.Cells for .NETを使用してExcelチャートに関連付けられたワークシートを取得する方法を学んでください。当社のガイドでは、ワークシートにアクセスし、チャートの基礎データを操作するための操作を示します。
+keywords: Aspose.Cells for .NET、Excelチャート、ワークシート、データ操作、基礎データ、操作。
 type: docs
 weight: 1000
 url: /ja/net/get-worksheet-of-the-chart/
 ---
+
 {{% alert color="primary" %}}
 
-場合によっては、チャートの参照からワークシートにアクセスしたいことがあります。 Aspose.Cells は、[**チャート.ワークシート**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet)グラフを含むワークシートの参照を返すプロパティ。
+時には、チャートの参照からワークシートにアクセスしたい場合があります。Aspose.Cellsは、チャートを含むワークシートの参照を返す[**Chart.Worksheet**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet)プロパティを提供しています。
 
 {{% /alert %}}
 
-次の例は、[**チャート.ワークシート**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet)財産。このコードは、まずワークシートの名前を出力し、次にワークシート上の最初のグラフにアクセスします。次に、次のコマンドを使用してワークシート名を再度出力します。[**チャート.ワークシート**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet)財産。
+以下の例は、[**Chart.Worksheet**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet)プロパティを使用する方法を示しています。コードはまずワークシートの名前を印刷し、次にワークシート上の最初のチャートにアクセスし、その後再度[**Chart.Worksheet**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet)プロパティを使用してワークシート名を印刷します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GetWorksheetOfTheChart-GetWorksheetOfTheChart.cs" >}}
 
-以下は、サンプル コードの結果として得られるコンソール出力です。ご覧のとおり、どちらの場合も同じワークシート名が出力されます。
+以下はサンプルコードのコンソール出力です。同じワークシート名が2回印刷されることがわかります。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Sheet Name: Portfolio
 

@@ -1,26 +1,27 @@
-﻿---
-title: Erstellen Sie ein transparentes Bild des Excel-Arbeitsblatts
+---
+title: Create Transparent Image of Excel Worksheet
 type: docs
 weight: 80
 url: /de/java/create-transparent-image-of-excel-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
- Manchmal müssen Sie das Bild Ihres Arbeitsblatts als transparentes Bild generieren. Sie möchten Transparenz auf alle Zellen anwenden, die keine Füllfarben haben. Aspose.Cells bietet die[**ImageOrPrintOptions.setTransparent()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Transparent) -Eigenschaft, um Transparenz auf das Arbeitsblattbild anzuwenden. Wenn diese Eigenschaft ist**FALSCH** , dann werden Zellen ohne Füllfarben mit weißer Farbe gezeichnet und wenn ja**wahr**, Zellen ohne Füllfarben werden transparent gezeichnet.
+Manchmal müssen Sie das Bild Ihres Arbeitsblatts als transparentes Bild generieren. Sie möchten die Transparenz auf alle Zellen anwenden, die keine Füllfarben haben. Aspose.Cells bietet die Eigenschaft [**ImageOrPrintOptions.setTransparent()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Transparent) zur Anwendung von Transparenz auf das Arbeitsblattbild. Wenn diese Eigenschaft **false** ist, werden Zellen ohne Füllfarben mit weißer Farbe gezeichnet, und wenn sie **true** ist, werden Zellen ohne Füllfarben transparent gezeichnet.
 
 {{% /alert %}}
 
-Im folgenden Arbeitsblattbild wurde keine Transparenz angewendet. Die Zellen ohne Füllfarben werden weiß gezeichnet.
+In der folgenden Arbeitsblattansicht wurde keine Transparenz angewendet. Die Zellen ohne Füllfarben sind weiß gezeichnet.
 
-**Arbeitsblattbild ohne Anwenden von Transparenz**
+**Arbeitsblattbild ohne Anwendung von Transparenz**
 
-![todo: Bild_alt_Text](create-transparent-image-of-excel-worksheet_1.png)
+![todo:image_alt_text](create-transparent-image-of-excel-worksheet_1.png)
 
-Während im folgenden Arbeitsblattbild Transparenz angewendet wurde. Die Zellen ohne Füllfarben sind transparent.
+Während in der folgenden Arbeitsblattansicht Transparenz angewendet wurde. Die Zellen ohne Füllfarben sind transparent.
 
-**Arbeitsblattbild nach dem Anwenden von Transparenz**
+**Arbeitsblattbild nach Anwendung der Transparenz**
 
-![todo: Bild_alt_Text](create-transparent-image-of-excel-worksheet_2.png)
+![todo:image_alt_text](create-transparent-image-of-excel-worksheet_2.png)
 
 Sie können den folgenden Beispielcode verwenden, um ein transparentes Bild Ihres Excel-Arbeitsblatts zu generieren.
 

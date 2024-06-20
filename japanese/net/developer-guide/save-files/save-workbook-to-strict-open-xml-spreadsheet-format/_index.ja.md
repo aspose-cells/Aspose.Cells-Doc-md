@@ -1,18 +1,19 @@
-﻿---
-title: ワークブックを厳密な Open XML スプレッドシート形式で保存する
+---
+title: 厳密なOpen XMLスプレッドシート形式へのブックの保存
 type: docs
 weight: 150
 url: /ja/net/save-workbook-to-strict-open-xml-spreadsheet-format/
 ---
-## **考えられる使用シナリオ**
 
-Aspose.Cells では、ワークブックを保存できます*Strict Open XML スプレッドシート*フォーマット。その目的のために、それは**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance)**財産。その値を**[OoxmlCompliance.Iso29500_2008_Strict](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)**の場合、出力 Excel ファイルは Strict Open XML スプレッドシート形式で保存されます。
+## **可能な使用シナリオ**
 
-## **ワークブックを厳密な Open XML スプレッドシート形式で保存する**
+Aspose.Cellsを使用すると、ブックを*Strict Open XML Spreadsheet*形式で保存できます。そのために、[**Workbook.Settings.Compliance**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance)プロパティを提供しています。その値を[**OoxmlCompliance.Iso29500_2008_Strict**](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)に設定すると、出力ExcelファイルはStrict Open XMLスプレッドシート形式で保存されます。
 
-次のサンプル コードは、ワークブックを作成し、**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance)**プロパティとして**[OoxmlCompliance.Iso29500_2008_Strict](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)**そしてそれをとして保存します[出力エクセルファイル](67338272.xlsx) .出力された Excel ファイルを Microsoft Excel で開き、[名前を付けて保存...] ダイアログ ボックスを開くと、その形式が次のように表示されます。*Strict Open XML スプレッドシート*このスクリーンショットに示すように。
+## **ストリクトなOpen XMLスプレッドシート形式でワークブックを保存**
 
-![todo:画像_代替_文章](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
+次のサンプルコードは、ブックを作成し、[**Workbook.Settings.Compliance**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance)プロパティの値を[**OoxmlCompliance.Iso29500_2008_Strict**](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)に設定して[出力Excelファイル](67338272.xlsx)として保存します。出力ExcelファイルをMicrosoft Excelで開いて、名前を付けて保存...ダイアログボックスを開くと、その形式が*Strict Open XML Spreadsheet*として表示されます。
+
+![todo:image_alt_text](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
 
 ## **サンプルコード**
 

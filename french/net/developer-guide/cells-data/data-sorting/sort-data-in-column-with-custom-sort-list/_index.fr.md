@@ -3,19 +3,20 @@ title: Trier les données dans une colonne avec une liste de tri personnalisée
 type: docs
 weight: 290
 url: /fr/net/sort-data-in-column-with-custom-sort-list/
-description: Découvrez comment trier les données dans la colonne à l'aide d'une liste personnalisée en utilisant le Aspose.Cells for .NET API.
-keywords: Sort Data in Column with Custom Sort List, Sort data by custom list.
+description: Apprenez à trier les données dans la colonne en utilisant une liste personnalisée en utilisant l API Aspose.Cells for .NET.
+keywords: Trier les données dans une colonne avec une liste de tri personnalisée, trier les données par liste personnalisée.
 ---
-##  **Scénarios d'utilisation possibles**
 
- Vous pouvez trier les données dans la colonne à l'aide d'une liste personnalisée. Cela peut être fait en utilisant[**DataSorter.AddKey (clé int, ordre SortOrder, String customList)**](https://reference.aspose.com/cells/net/aspose.cells.datasorter/addkey/methods/2)méthode. Cependant, cette méthode ne fonctionne que si les éléments de la liste personnalisée ne contiennent pas de virgules. S'ils ont des virgules comme "USA, US", "China, CN", etc., vous devez utiliser [**DataSorter.AddKey Method (Int32, SortOrder,String[])**)](https://reference. aspose.com/cells/net/aspose.cells.datasorter/addkey/methods/3). Ici, le dernier paramètre n'est pas String mais un Array of Strings.
+## **Scénarios d'utilisation possibles**
 
-##  **Trier les données dans une colonne avec une liste de tri personnalisée**
+Vous pouvez trier les données dans la colonne en utilisant une liste personnalisée. Cela peut être fait en utilisant la méthode [**DataSorter.AddKey(int key, SortOrder order, String customList)**](https://reference.aspose.com/cells/net/aspose.cells.datasorter/addkey/methods/2). Cependant, cette méthode fonctionne uniquement si les éléments de la liste personnalisée n'ont pas de virgules à l'intérieur. S'ils ont des virgules comme "USA,US", "Chine,CN" etc., alors vous devez utiliser [** DataSorter.AddKey Méthode (Int32, SortOrder, String[])**)](https://reference.aspose.com/cells/net/aspose.cells.datasorter/addkey/methods/3) méthode. Ici, le dernier paramètre n'est pas une chaîne mais un tableau de chaînes.
 
-L'exemple de code suivant explique comment utiliser la [**DataSorter.AddKey Method (Int32, SortOrder,String[])**)](https://reference.aspose.com/cells/net/aspose.cells.datasorter/addkey /methods/3) pour trier les données avec une liste de tri personnalisée. Veuillez consulter le[exemple de fichier Excel](50528327.xlsx) utilisé dans ce code et[sortie du fichier Excel](50528328.xlsx) généré par celui-ci. La capture d'écran suivante montre l'effet du code sur l'exemple de fichier Excel lors de l'exécution.
+## **Trier les données dans une colonne avec une liste de tri personnalisée**
 
-![tâche : image_alt_text](sort-data-in-column-with-custom-sort-list_1.png)
+Le code d'exemple suivant explique comment utiliser la méthode [**DataSorter.AddKey (Int32, SortOrder, String[])**)](https://reference.aspose.com/cells/net/aspose.cells.datasorter/addkey/methods/3) pour trier les données avec une liste de tri personnalisée. Veuillez consulter le [fichier Excel d'exemple](50528327.xlsx) utilisé dans ce code et le [fichier Excel de sortie](50528328.xlsx) généré par celui-ci. La capture d'écran suivante montre l'effet du code sur le fichier Excel d'exemple lors de l'exécution.
 
-##  **Exemple de code**
+![todo:image_alt_text](sort-data-in-column-with-custom-sort-list_1.png)
+
+## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SortDataInColumnWithCustomSortList.cs" >}}

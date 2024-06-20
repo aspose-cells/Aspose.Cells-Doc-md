@@ -1,33 +1,34 @@
 ---
-title: حدد كيفية عبور السلسلة في الإخراج PDF والصورة
+title: تحديد كيفية عبور السلسلة في ملف PDF الناتج والصورة
 type: docs
 weight: 120
 url: /ar/python-net/specify-how-to-cross-string-in-output-pdf-and-image/
-description: تعلم كيفية عبور السلسلة في الإخراج PDF والصورة مع Aspose.Cells for Python via .NET API.
-keywords: Python Cross String in output PDF and image
+description: تعلم كيفية عبور النص في ملف PDF وصورة الإخراج باستخدام واجهة برمجة التطبيقات Aspose.Cells for Python via .NET.
+keywords: عبور النص بلغة Python في ملف PDF وصورة الإخراج
 ---
-##  **سيناريوهات الاستخدام المحتملة**
 
-عندما تحتوي خلية على نص أو سلسلة ولكنها أكبر من عرض الخلية، فإن السلسلة تفيض إذا كانت الخلية التالية في العمود التالي فارغة أو فارغة. عندما تقوم بحفظ ملف Excel الخاص بك في PDF/Image، يمكنك التحكم في هذا التجاوز عن طريق تحديد النوع المتقاطع باستخدام[**نوع النص المتقاطع**](https://reference.aspose.com/cells/python-net/aspose.cells/textcrosstype/)تعداد. لديها القيم التالية
+## **سيناريوهات الاستخدام المحتملة**
 
-- *TextCrossType.DEFAULT**: عرض نص مثل MS Excel والذي يعتمد على الخلية التالية. إذا كانت الخلية التالية فارغة، فسيتم تقاطع السلسلة أو سيتم اقتطاعها.
+عندما تحتوي خلية على نص أو سلسلة نصية ولكنها أكبر من عرض الخلية، فإن السلسلة ستتجاوز إذا كانت الخلية التالية في العمود التالي فارغة أو تكون سلسلة فارغة. عند حفظ ملف Excel الخاص بك إلى PDF/صورة، يمكنك التحكم في هذا التجاوز عن طريق تحديد نوع التقاطع باستخدام تعداد [**TextCrossType**](https://reference.aspose.com/cells/python-net/aspose.cells/textcrosstype/). يحتوي على القيم التالية
 
-- *TextCrossType.CROSS_KEEP**: عرض السلسلة مثل تصدير MS Excel PDF/Image
+- **TextCrossType.DEFAULT**: عرض النص مثل MS Excel والذي يعتمد على الخلية التالية. إذا كانت الخلية التالية فارغة، سيعبر النص أو سيتم قصه.
 
-- *TextCrossType.CROSS_OVERRIDE**: عرض النص بالكامل عن طريق عبور الخلايا الأخرى وتجاوز نص الخلايا المتقاطعة
+- **TextCrossType.CROSS_KEEP**: عرض النص مثل MS Excel عند تصديرها إلى صيغة PDF/صورة.
 
-- *TextCrossType.STRICT_IN_CELL**: عرض السلسلة فقط ضمن عرض الخلية.
+- **TextCrossType.CROSS_OVERRIDE**: عرض كامل النص عن طريق عبور الخلايا الأخرى وتجاوز النص المتقاطع للخلايا.
 
-##  **حدد كيفية عبور السلسلة في الإخراج PDF/الصورة باستخدام TextCrossType**
+- **TextCrossType.STRICT_IN_CELL**: عرض النص فقط ضمن عرض الخلية.
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل ملف Excel النموذجي وحفظه بتنسيق PDF/Image عن طريق تحديد مختلف[**نوع النص المتقاطع**](https://reference.aspose.com/cells/python-net/aspose.cells/textcrosstype/)يمكن تنزيل نموذج ملف Excel وملفات الإخراج من الروابط التالية:
+## **تحديد كيفية عبور السلسلة في ملف PDF/صورة الناتج باستخدام TextCrossType**
 
-[SampleCrossType.xlsx](81920905.xlsx)
+يحمل الكود النموذجي التالي ملف Excel النموذجي ويحفظه بتنسيق PDF/صورة عن طريق تحديد [**TextCrossType**](https://reference.aspose.com/cells/python-net/aspose.cells/textcrosstype/) مختلفة. يمكن تنزيل ملف Excel النموذجي والملفات الناتجة من الروابط التالية:
 
-[OutputCrossType.pdf](81920903.pdf)
+[sampleCrossType.xlsx](81920905.xlsx)
 
-[OutputCrossType.png](81920904.png)
+[outputCrossType.pdf](81920903.pdf)
 
-###  عينة من الرموز
+[outputCrossType.png](81920904.png)
+
+### مثال على الكود
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-RenderUsingTextCrossType-1.py" >}}

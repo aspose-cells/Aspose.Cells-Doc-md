@@ -1,52 +1,53 @@
-﻿---
-title: テーブル グループの追加
+---
+title: テーブルグループを追加
 type: docs
 weight: 40
 url: /ja/reportingservices/adding-table-group/
 ---
-テーブル グループを追加するには、次の手順に従います。
+
+テーブルグループを追加するには、以下の手順に従います:
 
 
 
-1) 以下に示すように、テーブル データ行の下のテーブル データ列の最初の列の左側にあるグループ タグ セルを選択します。
+1) テーブルデータ列の最初の列の左にあるグループタグセルを選択します。
 
-![todo:画像_代替_文章](adding-table-group_1.png)
-
-
+![todo:image_alt_text](adding-table-group_1.png)
 
 
 
 
 
- 2) で「SalesOrderNumber」を選択します。**グループを設定**グループ フィールドを設定するコンボ ボックス。
+
+
+2) **Set Group**コンボボックスで”SalesOrderNumber”を選択してグループフィールドを設定します。
 
 
 
-![todo:画像_代替_文章](adding-table-group_2.png)
+![todo:image_alt_text](adding-table-group_2.png)
 
 
 
-結果を以下に示します。
+結果は以下に示されています。
 
 
 
-![todo:画像_代替_文章](adding-table-group_3.png)
+![todo:image_alt_text](adding-table-group_3.png)
 
 
 
-3) 上記の手順に従って、グループ データ行を追加します。グループ データ行には、静的テキスト、データ マーカー、Reporting Service 式などを含めることができます。サンプルでは、次に示すように、結合された静的テキスト セルと Reporting Services 数式セルを含むグループ行を追加します。
+3) 上記の手順に従ってグループデータ行を追加します。グループデータ行には静的テキスト、データマーカー、Reporting Serviceの数式などが含まれることがあります。このサンプルでは、マージされた静的テキストセルとReporting Servicesの数式セルを含むグループ行を追加しています。
 
 
 
-![todo:画像_代替_文章](adding-table-group_4.png)
+![todo:image_alt_text](adding-table-group_4.png)
 
 
 
-4) テーブルには複数のグループ データ行が許可されます。以下に示すように、グループ データ行を再度追加できます。
+4) テーブルには複数のグループデータ行を追加できます。以下に、もう一つのグループデータ行を追加した例が示されています。
 
 
 
-![todo:画像_代替_文章](adding-table-group_5.png)
+![todo:image_alt_text](adding-table-group_5.png)
 
 
 

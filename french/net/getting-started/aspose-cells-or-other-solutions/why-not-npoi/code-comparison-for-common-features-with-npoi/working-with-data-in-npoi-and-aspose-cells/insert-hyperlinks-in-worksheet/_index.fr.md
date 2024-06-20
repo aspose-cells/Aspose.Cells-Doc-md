@@ -1,17 +1,18 @@
-﻿---
-title: Insérer des liens hypertexte dans la feuille de calcul
+---
+title: Insérer des liens hypertexte dans une feuille de calcul
 type: docs
 weight: 20
 url: /fr/net/insert-hyperlinks-in-worksheet/
 ---
-## **Aspose.Cells - Insérer des hyperliens dans la feuille de calcul**
-**Ajout d'un lien vers un Cell dans le même fichier**
 
-Il est possible d'ajouter des liens hypertexte aux cellules d'un même fichier Excel en appelant la méthode Add de la collection Hyperlink. La méthode Add fonctionne pour les liens hypertexte internes et externes.
+## **Aspose.Cells - Insérer des liens hypertexte dans une feuille de calcul**
+**Ajouter un lien vers une cellule dans le même fichier**
+
+Il est possible d'ajouter des liens hypertexte aux cellules dans le même fichier Excel en appelant la méthode Add de la collection Hyperlink. La méthode Add fonctionne à la fois pour les liens hypertexte internes et externes.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -66,16 +67,16 @@ workbook.Save("test.xlsx");
 
 **Ajouter un lien vers un fichier externe**
 
-Il est possible d'ajouter des liens hypertexte aux cellules d'un même fichier Excel en appelant la méthode Add de la collection Hyperlink. La méthode Add fonctionne pour les liens hypertexte internes et externes. Une version de la méthode surchargée prend les paramètres suivants :
+Il est possible d'ajouter des hyperliens aux cellules dans le même fichier Excel en appelant la méthode Add de la collection Hyperlink. La méthode Add fonctionne à la fois pour les hyperliens internes et externes. Une version de la méthode surchargée prend les paramètres suivants :
 
-- Cell nom, le nom de la cellule à laquelle le lien hypertexte sera ajouté.
+- Nom de la cellule, le nom de la cellule à laquelle le lien hypertexte sera ajouté.
 - Nombre de lignes, le nombre de lignes dans cette plage de liens hypertexte.
 - Nombre de colonnes, le nombre de colonnes dans cette plage de liens hypertexte.
 - URL, l'adresse de la cellule cible.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -96,10 +97,10 @@ worksheet.Hyperlinks.Add("B3", 1, 1, "Sheet2!B9");
 workbook.Save("C:\\book1.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Insérer des hyperliens dans la feuille de calcul**
+## **NPOI - HSSF XSSF - Insérer des liens hypertexte dans la feuille de calcul**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -192,13 +193,13 @@ workbook.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Insérer des liens hypertexte dans la feuille de calcul** forment l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez le formulaire **Insérer des liens hypertexte dans une feuille de calcul** à partir de l'un des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Insert.Hyperlinks.In.Worksheet.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Ajout d'hyperliens aux données de lien](/cells/fr/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
+Pour plus de détails, visitez [Ajouter des liens hypertexte pour lier des données](/cells/fr/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
 
 {{% /alert %}}

@@ -1,13 +1,14 @@
-﻿---
+---
 title: Neues Arbeitsblatt erstellen
 type: docs
 weight: 50
 url: /de/net/create-new-worksheet/
 ---
-## **Aspose.Cells – Neues Arbeitsblatt erstellen**
+
+## **Aspose.Cells - Neues Arbeitsblatt erstellen**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -28,7 +29,7 @@ workbook.Save("newWorksheet.xls");
 ## **NPOI - HSSF XSSF - Neues Arbeitsblatt erstellen**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -74,13 +75,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Neues Arbeitsblatt erstellen** Bilden Sie eine der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie das **Erstellen eines neuen Arbeitsblatts** von einer der unten genannten sozialen Codeseiten herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Create.New.Worksheet.zip)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Arbeiten mit Arbeitsblättern](/cells/de/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Für weitere Details besuchen Sie [Arbeiten mit Tabellenblättern](/cells/de/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

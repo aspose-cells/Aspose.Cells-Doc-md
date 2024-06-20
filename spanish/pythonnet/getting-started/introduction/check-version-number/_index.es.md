@@ -1,30 +1,31 @@
-﻿---
-title: Comprobar el número de versión
+---
+title: Verificar número de versión
 type: docs
 weight: 80
 url: /es/python-net/check-version-number/
 ---
+
 {{% alert color="primary" %}}
 
-¿Se pregunta qué versión de Aspose.Cells está utilizando? Publicamos nuevas versiones de Aspose.Cells, tanto para presentar nuevas funciones como para solucionar problemas, de forma regular. El número de versión consta del número de versión principal, el número de versión secundaria y el número de versión de revisión. Cada número debe ser un número entero de 0 en adelante. El formato es el siguiente:
+¿Te gustaría saber qué versión de Aspose.Cells estás usando? Publicamos nuevas versiones de Aspose.Cells, tanto para introducir nuevas funciones como para solucionar problemas, de forma regular. El número de versión consta de un número de versión principal, un número de versión secundaria y un número de versión de corrección. Cada número debe ser un entero de 0 hacia arriba. El formato es el siguiente:
 
-mayor.menor.revisión
+mayor.menor.corrección
 
 Cuando lanzamos una nueva compilación de Aspose.Cells, actualizamos el número de versión.
 
-Este artículo explica cómo verificar qué versión de Aspose.Cells está instalada en el sistema manualmente y usando el Aspose.Cells API.
+Este artículo explica cómo comprobar manualmente qué versión de Aspose.Cells está instalada en el sistema y cómo hacerlo utilizando la API de Aspose.Cells.
 
 {{% /alert %}}
 
-## **Comprobar el número de versión manualmente**
+## **Verificar número de versión manualmente**
 
-Para averiguar qué versión de Aspose.Cells está utilizando manualmente:
+Para averiguar qué versión de Aspose.Cells estás utilizando manualmente:
 
-1.  Haga clic derecho en el archivo Aspose.Cells.dll y seleccione**Propiedades**.
-1. Haga clic en la pestaña Versión (o Detalles) para comprobar el número de versión.
+1. Haz clic con el botón derecho en el archivo Aspose.Cells.dll y selecciona **Propiedades**.
+1. Haz clic en la pestaña Versión (o Detalles) para comprobar el número de versión.
 
-## **Verifique el número de versión usando el Aspose.Cells API**
+## **Verificar número de versión utilizando la API de Aspose.Cells**
 
-Para averiguar qué versión de Aspose.Cells está usando a través de API, use el método estático GetVersion de la clase CellsHelper para obtener el número de versión de Aspose.Cell.
+Para averiguar qué versión de Aspose.Cells estás utilizando a través de la API, utiliza el método estático GetVersion de la clase CellsHelper para obtener el número de versión de Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CheckVersionNumber.py" >}}

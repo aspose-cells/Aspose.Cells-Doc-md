@@ -1,28 +1,29 @@
-﻿---
-title: Workbook の AutoRecover プロパティを設定する方法
+---
+title: ワークブックのAutoRecoverプロパティを設定する方法
 type: docs
 weight: 220
 url: /ja/net/how-to-set-autorecover-property-of-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells を使用して、ブックの AutoRecover プロパティを設定できます。このプロパティのデフォルト値は**真実**.設定すると**間違い**ワークブックでは、Microsoft Excel はその Excel ファイルの自動回復 (自動保存) を無効にします。
+Aspose.Cellsを使用してブックのAutoRecoverプロパティを設定できます。このプロパティのデフォルト値は**true**です。ブックに**false**を設定すると、Microsoft ExcelはそのExcelファイルのAutoRecover（自動保存）を無効にします。
 
-Aspose.Cells提供[**Workbook.Settings.AutoRecover**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover)このオプションを有効または無効にするプロパティ。
+Aspose.Cellsは、このオプションを有効または無効にするための[**Workbook.Settings.AutoRecover**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover)プロパティを提供しています。
 
 {{% /alert %}}
 
-次のコードは、使用方法を説明しています[**Workbook.Settings.AutoRecover**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover)ブックのプロパティ。コードは最初にこのプロパティのデフォルト値を読み取ります。**真実** 、次にそれを次のように設定します**間違い**ブックを保存します。次に、ワークブックを再度読み取り、このプロパティの値を読み取ります。**間違い**現時点では。
+以下のコードは、ブックの[**Workbook.Settings.AutoRecover**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover)プロパティの使用方法を説明しています。コードはまずこのプロパティのデフォルト値である**true**を読み取り、それを**false**と設定してブックを保存します。その後、ブックを再度読み取り、このプロパティの値を読み取ります。この時点での値は**false**です。
 
-## C# Workbook の AutoRecover プロパティを設定するコード
+## ブックのAutoRecoverプロパティを設定するC#コード
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-SetAutoRecovery-SetAutoRecovery.cs" >}}
 
 ## **出力**
 
-上記のサンプル コードのコンソール出力を次に示します。
+上記のサンプルコードのコンソール出力は次の通りです。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 AutoRecover: True
 

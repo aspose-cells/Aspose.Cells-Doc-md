@@ -1,15 +1,16 @@
-﻿---
+---
 title: Dividi riquadri in Php
 type: docs
 weight: 70
 url: /it/java/split-panes-in-php/
 ---
-## **Aspose.Cells - Riquadri divisi**
- Per dividere i riquadri utilizzando**Aspose.Cells Java for PHP** , semplicemente invocare**SplitPanes** modulo.
+
+## **Aspose.Cells - Dividi riquadri**
+Per dividere i riquadri usando **Aspose.Cells Java per PHP**, invoca semplicemente il modulo **SplitPanes**.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $saveFormat = new SaveFormat();
 
@@ -33,6 +34,6 @@ $book->save($dataDir . "book.out.xls", $saveFormat->EXCEL_97_TO_2003);
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Riquadri divisi (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Dividere i riquadri (Aspose.Cells)** da uno qualsiasi dei siti di codici sociali menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/SplitPanes.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/SplitPanes.php)

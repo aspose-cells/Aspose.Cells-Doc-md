@@ -1,16 +1,17 @@
-﻿---
-title: Infoga Cell Kommentarer
+---
+title: Infoga cellkommentarer
 type: docs
 weight: 40
 url: /sv/java/insert-cell-comments/
 ---
-## **Aspose.Cells - Infoga Cell Kommentarer**
 
-Lägg till en kommentar till en cell genom att anropa Shapes-samlingens addComments-metod (inkapslad i Worksheet-objektet). Det nya kommentarobjektet kan nås från kommentarsamlingen genom att skicka kommentarsindexet. Efter att ha kommit åt Comment-objektet, anpassa kommentarsnoteringen genom att använda Comment-objektets setNote-metod.
+## **Aspose.Cells - Infoga cellkommentarer**
+
+Lägg till en kommentar till en cell genom att anropa Shapes-samlingens addComments-metod (som är inkapslad i Worksheet-objektet). Den nya Comment-objektet kan kommas åt från Comments-samlingen genom att överföra kommentarindexet. Efter att ha kommit åt Comment-objektet, anpassa kommentarnoteringen genom att använda Comment-objektets setNote-metod.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -30,13 +31,13 @@ comment.setNote("Hello Aspose!");
 
 {{< /highlight >}}
 
-## **Apache POI SS - HSSF & XSSF - Infoga Cell Kommentarer**
+## **Apache POI SS - HSSF & XSSF - Infoga cellkommentarer**
 
-Nedanstående exempel visar hur kommentarer kan infogas med Apache POI API
+Nedan visas exempel på hur kommentarer kan infogas med hjälp av Apache POI API
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new XSSFWorkbook(); //or new HSSFWorkbook();
 
@@ -80,11 +81,11 @@ cell.setCellComment(comment);
 
 {{< /highlight >}}
 
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/addcomments)
 

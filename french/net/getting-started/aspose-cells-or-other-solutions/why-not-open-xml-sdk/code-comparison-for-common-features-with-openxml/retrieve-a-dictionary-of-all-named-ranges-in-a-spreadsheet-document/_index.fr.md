@@ -1,11 +1,12 @@
-﻿---
-title: Récupérer un dictionnaire de toutes les plages nommées dans un document de feuille de calcul
+---
+title: Récupérer un dictionnaire de toutes les plages nommées dans un document de tableur
 type: docs
 weight: 120
 url: /fr/net/retrieve-a-dictionary-of-all-named-ranges-in-a-spreadsheet-document/
 ---
+
 ## **OpenXML Excel**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -59,7 +60,7 @@ public static Dictionary<String, String> GetDefinedNames(String fileName)
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -108,7 +109,7 @@ public static Dictionary<String, String> GetDefinedNames(String fileName)
 }
 
 {{< /highlight >}}
-## **Télécharger l'exemple de code d'exécution**
+## **Télécharger un exemple de code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-## **Exemple de code**
+## **Code d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/Aspose.Cells%20VS%20OpenXML/Retrieve%20a%20dictionary%20of%20all%20named%20ranges)

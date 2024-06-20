@@ -1,18 +1,19 @@
-﻿---
-title: Exportieren Sie Dokument-Arbeitsmappen- und Arbeitsblatt-Eigenschaften in Excel in HTML-Konvertierung
+---
+title: Dokumentarbeitsmappen und Arbeitsblatteigenschaften beim Konvertieren von Excel in HTML exportieren
 type: docs
 weight: 50
 url: /de/net/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Wenn die Excel-Datei Microsoft mit Microsoft Excel oder Aspose.Cells nach HTML exportiert wird, werden auch verschiedene Arten von Dokument-, Arbeitsmappen- und Arbeitsblatteigenschaften exportiert, wie im folgenden Screenshot gezeigt. Sie können den Export dieser Eigenschaften vermeiden, indem Sie die[**HtmlSaveOptions.ExportDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportdocumentproperties), [**HtmlSaveOptions.ExportWorkbookProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworkbookproperties)und[**HtmlSaveOptions.ExportWorksheetProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworksheetproperties) als**FALSCH** . Der Standardwert dieser Eigenschaften ist**wahr**. Der folgende Screenshot zeigt, wie diese Eigenschaften im exportierten HTML aussehen.
+## **Mögliche Verwendungsszenarien**
 
-![todo: Bild_alt_Text](export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion_1.png)
+Wenn eine Microsoft Excel-Datei mithilfe von Microsoft Excel oder Aspose.Cells in HTML exportiert wird, werden auch verschiedene Arten von Dokument-, Arbeitsmappen- und Arbeitsblatt-Eigenschaften exportiert, wie im folgenden Screenshot gezeigt. Sie können verhindern, dass diese Eigenschaften exportiert werden, indem Sie die [**HtmlSaveOptions.ExportDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportdocumentproperties), [**HtmlSaveOptions.ExportWorkbookProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworkbookproperties) und [**HtmlSaveOptions.ExportWorksheetProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworksheetproperties) auf **false** setzen. Der Standardwert dieser Eigenschaften ist **true**. Der folgende Screenshot zeigt, wie diese Eigenschaften in der exportierten HTML aussehen.
 
-## **Exportieren Sie Dokument-, Arbeitsmappen- und Arbeitsblatteigenschaften in Excel in die HTML-Konvertierung**
+![todo:image_alt_text](export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion_1.png)
 
- Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](61767776.xlsx) und konvertiert es in HTML und exportiert die Dokument-, Arbeitsmappen- und Arbeitsblatteigenschaften nicht in[Ausgang HTML](61767779.zip).
+## **Dokument-, Arbeitsmappen- und Arbeitsblatteigenschaften beim Konvertieren von Excel in HTML exportieren**
+
+Der folgende Beispielscode lädt die [Beispiel-Excel-Datei](61767776.xlsx) und konvertiert sie in HTML und exportiert die Dokument-, Arbeitsmappen- und Arbeitsblatt-Eigenschaften nicht in der [Ausgabe-HTML](61767779.zip).
 
 ## **Beispielcode**
 

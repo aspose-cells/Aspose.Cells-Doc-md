@@ -1,13 +1,14 @@
-﻿---
-title: Ocultar filas y columnas en la hoja de trabajo
+---
+title: Ocultar Filas y Columnas en Hoja de Cálculo
 type: docs
 weight: 60
 url: /es/net/hiding-rows-and-columns-in-worksheet/
 ---
-## **Aspose.Cells - Ocultar filas y columnas en la hoja de trabajo**
+
+## **Aspose.Cells - Ocultar Filas y Columnas en Hoja de Cálculo**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook();
 
@@ -34,10 +35,10 @@ worksheet.Cells.HideColumn(0);
 workbook.Save("Output-HideRowsandColumns.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Ocultar filas y columnas en la hoja de trabajo**
+## **NPOI - HSSF XSSF - Ocultar Filas y Columnas en Hoja de Cálculo**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -63,13 +64,13 @@ file.Close();
 
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Ocultar filas y columnas en la hoja de trabajo** formar cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar Ocultar Filas y Columnas en la Hoja de Trabajo de cualquier de los siguientes sitios de codificación social:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Hiding.Rows.and.Columns.zip)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Trabajar con hojas de trabajo](/cells/es/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Para más detalles, visita [Trabajando con Hojas de Cálculo](/cells/es/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

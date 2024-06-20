@@ -1,20 +1,21 @@
 ---
-title: Skapa volym-Hög-Låg-Stäng(VHLC) aktiediagram
-description: Lär dig hur du skapar ett volym-hög-låg-stäng aktiediagram med hjälp av Aspose.Cells for .NET. Vår guide kommer att demonstrera hur du plottar aktiemarknadsdata, inklusive volym, höga, låga och stängda kurser, på ett diagram för bättre analys och visualisering.
-keywords: Aspose.Cells for .NET, Volume-High-Low-Close Stock Chart, Stock Market Data, Analysis, Visualization.
+title: Skapa Volym Öppen Hög Låg Stäng (VOHLC) Aktiediagram
+description: Lär dig hur man skapar ett volym öppen hög låg stäng aktiediagram med hjälp av Aspose.Cells for .NET. Vår guide kommer att visa hur man ritar aktiemarknadsdata, inklusive volym, högsta, lägsta och slutpriser, på ett diagram för bättre analys och visualisering.
+keywords: Aspose.Cells for .NET, Volym Öppen Hög Låg Stäng Aktiediagram, Aktiemarknadsdata, Analys, Visualisering.
 type: docs
 weight: 183
 url: /sv/net/create-volume-high-low-close-stock-chart/
 ---
-##  **Möjliga användningsscenarier**
-Det tredje aktiediagrammet vi kommer att titta på är diagrammet Volym Hög Låg Stäng. Återigen är det viktigt att upprepa att du måste ha uppgifterna i rätt ordning. Om du behöver ordna om din datatabell bör du göra det innan du ställer in ditt diagram.
-Detta diagram inkluderar en kolumn för volym omedelbart efter den första (kategori) kolumnen, och diagrammen inkluderar ett kolumndiagram på den primära axeln som visar denna volym, medan priserna flyttas till den sekundära axeln.
+
+## **Möjliga användningsscenario**
+Det tredje aktiediagrammet vi ska titta på är Volym Hög Låg Stäng-diagrammet. Det är återigen viktigt att upprepa att data måste vara i rätt ordning. Om du behöver omorganisera din datatabell, bör du göra det innan du skapar ditt diagram.
+Detta diagram inkluderar en kolumn för volym omedelbart efter den första (kategori) kolumnen, och diagrammen inkluderar ett kolumnsdiagram på primäraxeln som visar denna volym, medan priserna flyttas till sekundäraxeln.
 
 ![todo:image_alt_text](data.png)
-##  **Volym-Hög-Låg-Stäng (VHLC) aktiediagram**
+## **Volym-Öppen-Hög-Låg-Stäng (VOHLC) aktiediagram**
 
 ![todo:image_alt_text](sample.png)
-##  **Exempelkod**
- Följande exempelkod laddar[exempel på Excel-fil](Volume-High-Low-Close.xlsx) och genererar[utdata Excel-fil](out.xlsx).
+## **Exempelkod**
+Följande exempelkod laddar den [exempelfil för Excel](Volume-Open-High-Low-Close.xlsx) och genererar den [utfärdade Excelfilen](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-volume-high-low-close-stock-chart.cs" >}}

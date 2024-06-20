@@ -1,30 +1,31 @@
-﻿---
-title: نسخ أوراق العمل بين المصنفات
+---
+title: نسخ أوراق العمل بين دفاتر العمل
 type: docs
 weight: 10
 url: /ar/net/copy-worksheets-between-workbooks/
 ---
-يوفر Aspose.Cells طريقة ، Aspose.Cells.Worksheet.Copy () تستخدم لنسخ البيانات والتنسيق من ورقة عمل مصدر إلى ورقة عمل أخرى داخل المصنفات أو بينها. تأخذ الطريقة كائن ورقة العمل المصدر كمعلمة.
 
-يوضح المثال التالي كيفية نسخ ورقة عمل من مصنف إلى مصنف آخر.
+توفر Aspose.Cells طريقة ، Aspose.Cells.Worksheet.Copy() المستخدمة لنسخ البيانات والتنسيق من ورقة عمل مصدر إلى ورقة عمل أخرى داخل أو بين دفاتر العمل. تأخذ الطريقة كائن ورقة العمل المصدر كمعلمة.
 
-{{< highlight "csharp" >}}
+يظهر المثال التالي كيفية نسخ ورقة عمل من دفتر عمل إلى دفتر عمل آخر.
 
-string FilePath = @ ".. \ .. \ .. \ Sample Files \"؛
+{{< highlight csharp >}}
 
-string FileName = FilePath + "نسخ الورقة بين Workbook.xlsx"؛
+ string FilePath = @"..\..\..\Sample Files\";
 
-// إنشاء مصنف جديد.
+string FileName = FilePath + "Copy Sheet between Workbook.xlsx";
 
-المصنف excelWorkbook0 = مصنف جديد () ؛
+//Create a new Workbook.
 
-// احصل على ورقة العمل الأولى في الكتاب.
+Workbook excelWorkbook0 = new Workbook();
 
-ورقة العمل ws0 = excelWorkbook0.Worksheets [0] ؛
+//Get the first worksheet in the book.
 
-// ضع بعض البيانات في صفوف الرأس (A1: A4)
+Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
- لـ (int i = 0 ؛ i< 5; i++)
+//Put some data into header rows (A1:A4)
+
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -75,24 +76,24 @@ ws1.Copy(ws0);
 excelWorkbook1.Save(FileName);
 
 {{< /highlight >}}
-## **تنزيل نموذج التعليمات البرمجية**
+## **تحميل رمز عينة**
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20between%20Workbooks%20%28Aspose.Cells%29.zip)
 
-يوضح المثال التالي كيفية نسخ ورقة عمل من مصنف إلى مصنف آخر.
+يظهر المثال التالي كيفية نسخ ورقة عمل من دفتر عمل إلى دفتر عمل آخر.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- // إنشاء مصنف جديد.
+ //Create a new Workbook.
 
-المصنف excelWorkbook0 = مصنف جديد () ؛
+Workbook excelWorkbook0 = new Workbook();
 
-// احصل على ورقة العمل الأولى في الكتاب.
+//Get the first worksheet in the book.
 
-ورقة العمل ws0 = excelWorkbook0.Worksheets [0] ؛
+Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
-// ضع بعض البيانات في صفوف الرأس (A1: A4)
+//Put some data into header rows (A1:A4)
 
- لـ (int i = 0 ؛ i< 5; i++)
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -144,6 +145,6 @@ excelWorkbook1.Save("copyworksheet.xls");
 
 
 {{< /highlight >}}
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+## **تحميل رمز عينة**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Sheet%20between%20Workbook%20%28Aspose.Cells%29.zip)

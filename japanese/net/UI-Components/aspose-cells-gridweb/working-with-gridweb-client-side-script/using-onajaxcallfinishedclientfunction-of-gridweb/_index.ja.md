@@ -1,19 +1,22 @@
-﻿---
-title: GridWebのOnAjaxCallFinishedClientFunctionを利用する
+---
+title: GridWebのOnAjaxCallFinishedClientFunctionの使用
 type: docs
 weight: 20
-url: /ja/net/using-onajaxcallfinishedclientfunction-of-gridweb/
+url: /ja/net/aspose-cells-gridweb/using-onajaxcallfinishedclientfunction-of-gridweb/
+keywords: GridWeb,ajacall,onajaxcallfinishedclientfunction,OnAjaxCallFinishedClientFunction 
+description: この記事では、GridWebでOnAjaxCallFinishedClientFunctionを使用する方法について紹介します。
 ---
-## **考えられる使用シナリオ**
-OnAjaxCallFinishedClientFunction は、ユーザーがデータを GridWeb ワークシートにコピーするときに呼び出されるクライアント側関数です。この関数は、大量のセルが更新され、それらの更新されたセルをクライアント側 (つまり、FireFox、Google Chrome などの Web ブラウザー) で追跡したい場合に役立ちます。
-## **GridWebのOnAjaxCallFinishedClientFunctionを利用する**
-次のサンプル コードでは、OnAjaxCallFinishedClientFunction クライアント関数を使用する方法について説明します。スクリーンショットは、コードが実行されたときの Google Chrome と FireFox のコンソール出力を示しています。コードを実行したら、GridWeb ワークシート内の複数のセルにまたがるデータをコピーして貼り付け、スクリーンショットに示すように Web ブラウザー コンソールを確認してください。
-## **Google Chrome コンソール出力**
-![todo:画像_代替_文章](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
-## **FireFox コンソール出力**
-![todo:画像_代替_文章](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
+
+## **可能な使用シナリオ**
+OnAjaxCallFinishedClientFunctionは、ユーザーがデータをGridWebのワークシートにコピーするときに呼び出されるクライアント側の関数です。この関数は、大量のセルが更新され、それらの更新されたセルをクライアント側（たとえばFireFox、Google ChromeなどのWebブラウザ）で追跡したいときに役立ちます。
+## **GridWebのOnAjaxCallFinishedClientFunctionの使用**
+次のサンプルコードは、OnAjaxCallFinishedClientFunctionクライアント関数を使用する方法を説明しています。スクリーンショットでは、コードを実行したときにGoogle ChromeとFireFoxでコンソール出力が表示されています。コードを実行した後、GridWebワークシート内に複数のセルにわたるデータをコピー/貼り付けし、その後、スクリーンショットに表示されているようにWebブラウザのコンソールをチェックしてください。
+## **Google Chromeのコンソール出力**
+![todo:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
+## **FireFoxのコンソール出力**
+![todo:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
 ## **サンプルコード**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //-------------------------------------------------------
 

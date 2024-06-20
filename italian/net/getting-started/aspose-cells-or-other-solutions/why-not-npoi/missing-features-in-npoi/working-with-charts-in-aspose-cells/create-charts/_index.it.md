@@ -1,15 +1,16 @@
-﻿---
+---
 title: Crea grafici
 type: docs
 weight: 20
 url: /it/net/create-charts/
 ---
-## **Aspose.Cells - Crea Grafici**
-È possibile aggiungere una varietà di grafici ai fogli di calcolo con Aspose.Cells. Aspose.Cells fornisce molti oggetti grafici flessibili.
+
+## **Aspose.Cells - Crea grafici**
+È possibile aggiungere una varietà di grafici ai fogli di calcolo con Aspose.Cells. Aspose.Cells fornisce molti oggetti di grafici flessibili.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -69,12 +70,12 @@ workbook.Save("Chart_Aspose.xls");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Crea grafici** formare uno dei siti di social coding sotto indicati:
+Scarica **Crea grafici** da uno dei siti di codice sociale qui sotto:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Create.Charts.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Create.Charts.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Come creare un grafico](/cells/it/net/create-charts/).
+Per maggiori dettagli, visita [Come creare un grafico](/cells/it/net/create-charts/).
 
 {{% /alert %}}

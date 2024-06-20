@@ -1,15 +1,16 @@
-﻿---
-title: Разделить панели в Php
+---
+title: Разбить панели в Php
 type: docs
 weight: 70
 url: /ru/java/split-panes-in-php/
 ---
-## **Aspose.Cells - Разделенные панели**
- Чтобы разделить панели с помощью**Aspose.Cells Java for PHP** , просто вызовите**Разделенные панели** модуль.
+
+## **Aspose.Cells - Разделить панели**
+Для разделения панелей с помощью **Aspose.Cells Java для PHP** просто вызовите модуль **SplitPanes**.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $saveFormat = new SaveFormat();
 
@@ -32,7 +33,7 @@ $book->getWorksheets()->get(0)->split();
 $book->save($dataDir . "book.out.xls", $saveFormat->EXCEL_97_TO_2003);
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Разделенные панели (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачайте **Разделить панели (Aspose.Cells)** с любого из нижеуказанных сайтов для социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/SplitPanes.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/SplitPanes.php)

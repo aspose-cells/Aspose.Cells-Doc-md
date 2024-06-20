@@ -1,27 +1,28 @@
-﻿---
-title: عام API التغييرات في Aspose.Cells 8.4.0
+---
+title: تغييرات الواجهة العامة في Aspose.Cells 8.4.0
 type: docs
 weight: 130
 url: /ar/net/public-api-changes-in-aspose-cells-8-4-0/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.3.2 إلى 8.4.0 والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ،[الفئات المضافة وما إلى ذلك.](/cells/ar/net/public-api-changes-in-aspose-cells-8-4-0/) و[الفئات المحذوفة وما إلى ذلك.](/cells/ar/net/public-api-changes-in-aspose-cells-8-4-0/)ولكن أيضًا وصف لأية تغييرات في السلوك خلف الكواليس عام Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات العامة لـ Aspose.Cells من الإصدار 8.3.2 إلى 8.4.0 التي قد تكون مثيرة لاهتمام مطوري الوحدات/التطبيقات. إنه يشمل ليس فقط الطرق العامة الجديدة والمحدثة و [الفئات المضافة الخ](/cells/ar/net/public-api-changes-in-aspose-cells-8-4-0/) و [الفئات المحذوفة الخ](/cells/ar/net/public-api-changes-in-aspose-cells-8-4-0/)، ولكن أيضاً وصف لأي تغييرات في السلوك الكامن في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **آلية لتعديل VBA / Macro Code في جداول البيانات**
- من أجل توفير ميزة[معالجة التعليمات البرمجية لـ VBA / الماكرو](/cells/ar/net/modifying-vba-or-macro-code-using-aspose-cells/)، أظهر Aspose.Cells for .NET 8.4.0 سلسلة من الفئات والخصائص الجديدة في مساحة الاسم Aspose.Cells.Vba. فيما يلي بعض التفاصيل المهمة لهذه الفئات الجديدة.
+## **واجهات برمجة التطبيقات الجديدة**
+### **آلية تعديل رموز VBA/Macro في جداول البيانات**
+من أجل توفير وظيفة [تلاعب بكود VBA/ماكرو](/cells/ar/net/modifying-vba-or-macro-code-using-aspose-cells/)، قد عرضت Aspose.Cells for .NET 8.4.0 سلسلة من الفئات والخصائص الجديدة في فضاء Aspose.Cells.Vba. عدد من التفاصيل الهامة لهذه الفئات الجديدة هي كالتالي.
 
-- يمكن استخدام فئة VbaProject لجلب مشروع VBA من جدول بيانات معين.
-- تمثل فئة VbaModuleCollection مجموعة وحدات VBA النمطية التي تعد جزءًا من مشروع VbaProject المحدد.
+- يمكن استخدام فئة VbaProject لاسترداد مشروع VBA من جدول بيانات معين.
+- تمثل فئة VbaModuleCollection مجموعة الوحدات VBA التي تشكل جزءًا من VbaProject معين.
 - تمثل فئة VbaModule وحدة واحدة من VbaModuleCollection.
 
-يوضح مقتطف التعليمات البرمجية التالي كيفية تعديل مقاطع التعليمات البرمجية لـ VBA ديناميكيًا.
+يظهر مقتطف الكود التالي كيفية تعديل الأكواد VBA بشكل ديناميكي.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source Excel file
 
@@ -56,17 +57,17 @@ workbook.Save("output.xlsm");
 {{< /highlight >}}
 
 
-### **القدرة على إزالة الجدول المحوري**
-كشف Aspose.Cells for .NET 8.4.0 طريقتين لمجموعة PivotTableCollection لتوفير ميزة إزالة Pivot Table من جدول بيانات معين. تفاصيل الطرق المذكورة هي كما يلي.
+### **القدرة على إزالة جدول الدوران**
+Aspose.Cells for .NET 8.4.0 عرضت طريقتين لـ PivotTableCollection لتوفير وظيفة إزالة جدول محور من ورقة عمل معينة. تفاصيل الطرق المذكورة سابقًا هي كالتالي.
 
-- يقبل أسلوب PivotTableCollection.Remove كائن PivotTable ويزيله من المجموعة.
-- يقبل أسلوب PivotTableCollection.RemoveAt قيمة عدد صحيح تستند إلى فهرس صفري ويزيل PivotTable معين من المجموعة.
+- تقبل طريقة PivotTableCollection.Remove كائن PivotTable وتقوم بإزالته من المجموعة.
+- تقبل طريقة PivotTableCollection.RemoveAt قيمة صحيفة استنادية بناءً على الصفر وتقوم بإزالة الجدول المحوري المعين من المجموعة.
 
-يوضح مقتطف التعليمات البرمجية التالي كيفية إزالة PivotTable باستخدام كلتا الطريقتين المذكورتين أعلاه.
+يوضح مقتطف الكود التالي كيفية إزالة جدول الدوران باستخدام الارتباطين المذكورة أعلاه.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source Excel file
 
@@ -95,24 +96,24 @@ workbook.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **دعم لتخطيطات الجدول المحوري المختلفة**
-Aspose.Cells for .NET 8.4.0 يوفر الدعم لمختلف المخططات المعرفة مسبقًا للجداول المحورية. لتوفير هذه الميزة ، كشفت واجهات برمجة التطبيقات Aspose.Cells ثلاث طرق لفئة PivotTable كما هو مفصل أدناه.
+### **دعم تخطيطات جدول الدوران المختلفة**
+Aspose.Cells for .NET 8.4.0 يوفر الدعم لتخطيطات محددة مختلفة لجداول Pivot. من أجل توفير هذه الميزة ، فإن واجهات برمجة التطبيقات Aspose.Cells قد كشفت عن ثلاثة طرق لفئة PivotTable كما هو موضح أدناه.
 
-- يعرض أسلوب PivotTable.ShowInCompactForm الجدول المحوري في التخطيط المضغوط.
-- يعرض أسلوب PivotTable.ShowInOutlineForm الجدول المحوري في تخطيط المخطط التفصيلي.
-- يعرض أسلوب PivotTable.ShowInTabularForm الجدول المحوري في تخطيط جدولي.
+- تقوم طريقة PivotTable.ShowInCompactForm بعرض جدول Pivot في التخطيط المضغوط.
+- تقوم طريقة PivotTable.ShowInOutlineForm بعرض جدول Pivot في تخطيط المخطط.
+- تقوم طريقة PivotTable.ShowInTabularForm بعرض جدول Pivot في التخطيط الجدولي.
 
 {{% alert color="primary" %}} 
 
-من المهم استدعاء PivotTable.RefreshData & PivotTable.CalculateData بعد تعيين أي من التخطيطات المذكورة أعلاه.
+من المهم استدعاء PivotTable.RefreshData و PivotTable.CalculateData بعد ضبط أي من التخطيطات المذكورة أعلاه.
 
 {{% /alert %}} 
 
-يعيّن نموذج التعليمات البرمجية التالي تخطيطات مختلفة لجدول Pivot ويخزن النتيجة على القرص.
+يقوم المقتطف البرمجي التالي بتعيين تخطيطات مختلفة لجدول دوران ويخزن النتيجة على القرص.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -171,19 +172,19 @@ workbook.Save("TabularForm.xlsx");
 {{< /highlight >}}
 
 
-### **Class TxtLoadStyle الإستراتيجية والممتلكات TxtLoadOptions.LoadStyle الإستراتيجية المضافة**
-كشف Aspose.Cells for .NET 8.4.0 عن فئة TxtLoadStyleStrategy و TxtLoadOptions.LoadStyleStrategy من أجل تحديد استراتيجية تنسيق القيم التي تم تحليلها أثناء تحويل قيمة السلسلة إلى رقم أو وقت تاريخ.
-### **الطريقة DataBar.ToImage مضافة**
-مع إصدار v8.4.0 ، قدم Aspose.Cells API طريقة DataBar.ToImage لحفظ أشرطة البيانات المنسقة شرطيًا في تنسيق صورة. تقبل طريقة {DataBar.ToImage}} معلمتين على النحو المفصل أدناه.
+### **تمت إضافة فئة TxtLoadStyleStrategy وخاصية TxtLoadOptions.LoadStyleStrategy**
+قامت Aspose.Cells for .NET 8.4.0 بكشف فئة TxtLoadStyleStrategy وخاصية TxtLoadOptions.LoadStyleStrategy لتحديد استراتيجية تنسيق القيم المحللة أثناء تحويل القيمة النصية إلى رقم أو تاريخ.
+### **تمت إضافة DataBar.ToImage Method**
+مع إصدار v8.4.0 ، قدمت واجهة برمجة التطبيقات Aspose.Cells طريقة DataBar.ToImage لحفظ شريط بيانات الشروط بتنسيق الصورة. تقبل الطريقة {DataBar.ToImage}} معلمتين كما هو موضح أدناه.
 
-- المعلمة الأولى من النوع Aspose.Cells.Cell التي تم تطبيق التنسيق الشرطي عليها.
-- المعلمة الثانية من النوع Aspose.Cells.Rendering.ImageOrPrintOptions لتعيين معلمات مختلفة للصورة الناتجة.
+- المعلمة الأولى هي من نوع Aspose.Cells.Cell التي تم تطبيق التنسيق الشرطي عليها.
+- المعلمة الثانية هي من نوع Aspose.Cells.Rendering.ImageOrPrintOptions من أجل ضبط معلمات مختلفة للصورة الناتجة.
 
-يوضح نموذج التعليمات البرمجية التالي استخدام أسلوب DataBar.ToImage لتقديم DataBar بتنسيق صورة.
+الكود النموذجي التالي يوضح استخدام طريقة DataBar.ToImage لعرض شريط البيانات بتنسيق صورة.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -213,7 +214,7 @@ opts.ImageFormat = ImageFormat.Png;
 
 //Get the image bytes of the databar
 
-byte[]imgBytes = dbar.ToImage(cell, opts);
+byte[] imgBytes = dbar.ToImage(cell, opts);
 
 //Write image bytes on the disk
 
@@ -222,24 +223,24 @@ File.WriteAllBytes("databar.png", imgBytes);
 {{< /highlight >}}
 
 
-### **تمت إضافة الخاصية Border.ThemeColor**
-تسمح واجهات برمجة التطبيقات Aspose.Cells باستخراج بيانات التنسيق المتعلقة بالموضوع من جداول البيانات. مع إصدار Aspose.Cells for .NET 8.4.0 ، كشف API خاصية Border.ThemeColor التي يمكن استخدامها لاسترداد سمات لون النسق لحدود Cell.
-### **تمت إضافة خاصية DrawObject.ImageBytes**
-كشف Aspose.Cells for .NET 8.4.0 الخاصية DrawObject.ImageBytes للحصول على بيانات الصورة من Chart أو Shape.
-### **تمت إضافة الخاصية HtmlSaveOptions.ExportBogusRowData**
-قدم Aspose.Cells for .NET 8.4.0 خاصية {HtmlSaveOptions.ExportBogusRowData}}. تحدد خاصية النوع المنطقي ما إذا كان API سيضخ بيانات زائفة للصف السفلي أثناء تصدير جدول البيانات إلى تنسيق HTML.
+### **تمت إضافة خاصية Border.ThemeColor.**
+تسمح واجهات برمجة التطبيقات Aspose.Cells باستخراج بيانات التنسيق ذات الصلة بالنوع من ورق الجداول. مع إصدار Aspose.Cells for .NET 8.4.0 ، فقد كشفت الواجهة عن خاصية Border.ThemeColor التي يمكن استخدامها لاسترداد سمات لون النمط الخاص بحدود الخلية.
+### **تمت إضافة خاصية DrawObject.ImageBytes.**
+قامت Aspose.Cells for .NET 8.4.0 بكشف الخاصية DrawObject.ImageBytes للحصول على بيانات الصورة من الرسم البياني أو الشكل.
+### **تمت إضافة خاصية HtmlSaveOptions.ExportBogusRowData.**
+قدمت Aspose.Cells for .NET 8.4.0 الخاصية {HtmlSaveOptions.ExportBogusRowData}}. تحدد الخاصية من نوع Boolean ما إذا كانت واجهة برمجة التطبيقات ستدخل بيانات الصف الباطل أثناء تصدير جدول البيانات إلى تنسيق HTML.
 
 {{% alert color="primary" %}} 
 
-القيمة الافتراضية هي الحقيقية.
+القيمة الافتراضية هي صحيحة.
 
 {{% /alert %}} 
 
-يوضح نموذج التعليمات البرمجية التالي استخدام الخاصية المذكورة.
+الكود عينة التالية توضح استخدام الخاصية المذكورة سابقًا.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an object of HtmlSaveOptions class
 
@@ -260,16 +261,16 @@ workbook.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **تمت إضافة الخاصية HtmlSaveOptions.CellCssPrefix**
-تسمح الخاصية المضافة حديثًا HtmlSaveOptions.CellCssPrefix بتعيين البادئة لملفات CSS أثناء تصدير جداول البيانات إلى تنسيق HTML.
+### **تمت إضافة خاصية HtmlSaveOptions.CellCssPrefix.**
+خاصية HtmlSaveOptions.CellCssPrefix الجديدة تسمح بتعيين البادئة لملفات CSS أثناء تصدير جداول البيانات إلى تنسيق HTML.
 
 {{% alert color="primary" %}} 
 
-القيمة الافتراضية هي سلسلة فارغة).
+القيمة الافتراضية هي "" (سلسلة فارغة).
 
 {{% /alert %}}
-## **واجهات برمجة التطبيقات المهجورة**
-### **طرق Cells. GetCellByIndex & Row.GetCellByIndex قديمة**
-استخدم طريقة GetEnumerator لتكرار كل الخلايا بدلاً من ذلك.
-### **خاصية DrawObject.Image قديمة**
+## **واجهات برمجة التطبيقات المهملة**
+### **واجهات برمجة التطبيقات المهجورة Cells.GetCellByIndex & Row.GetCellByIndex**
+استخدم الطريقة GetEnumerator لتكرار جميع الخلايا بدلاً من ذلك.
+### **واجهات برمجة التطبيقات المهملة DrawObject.Image**
 استخدم خاصية DrawObject.ImageBytes للحصول على بيانات الصورة بدلاً من ذلك.

@@ -1,23 +1,24 @@
-﻿---
-title: Genel API Aspose.Cells 9.0.0'daki değişiklikler
+---
+title: Aspose.Cells 9.0.0 da Genel API Değişiklikleri
 type: docs
 weight: 330
 url: /tr/net/public-api-changes-in-aspose-cells-9-0-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek 8.9.2 sürümünden 9.0.0 sürümüne Aspose.Cells API üzerindeki değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek şekilde Aspose.Cells API'sindeki 8.9.2 sürümünden 9.0.0 sürümüne kadar olan değişiklikleri açıklar. Yeni ve güncellenmiş genel yöntemlerin yanı sıra eklenen ve kaldırılan sınıflar vb. gibi konuları içerir, ayrıca Aspose.Cells'in arka planda olan herhangi bir değişikliğin açıklamasını içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **Shape.TextOptions Özelliği Eklendi**
-Aspose.Cells for .NET, bir Shape'in metinsel bölümlerinin görünümünü kontrol etmek için Shape sınıfı için TextOptions özelliğini kullanıma sundu.
+## **Eklenen API'lar**
+### **Eklenen Shape.TextOptions Özelliği**
+Aspose.Cells for .NET, Shape sınıfı için metinsel kısımların görünümünü kontrol etmek amacıyla TextOptions özelliğini sunmuştur.
 
 İşte Shape.TextOptions özelliğinin basit kullanım senaryosu.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize an instance of Workbook
 
@@ -49,19 +50,19 @@ textbox.TextOptions.IsItalic = true;
 
 
 ### **LoadOptions.CultureInfo Özelliği Eklendi**
-Aspose.Cells for .NET 9.0.0, bir Workbook örneğine belge yüklerken bir CultureInfo örneğinin enjekte edilmesine izin veren LoadOptions.CultureInfo özelliğini kullanıma sundu.
+Aspose.Cells for .NET 9.0.0, LoadOptions.CultureInfo özelliğini ortamın yüklenme anında CultureInfo örneğine enjekte etmeye olanak tanıyor.
 
-İşte yukarıda belirtilen özelliklerin basit kullanım senaryosu.
+Yukarıdaki özelliklerin basit kullanım senaryosu aşağıda gösterilmektedir.
 
 {{% alert color="primary" %}} 
 
- Ayrıntılı makaleyi kontrol edin[Elektronik Tabloyu Belirli CultureInfo ile Yükleme](/cells/tr/net/load-the-workbook-with-specific-system-culture-info/).
+[Belirli Bir CultureInfo ile Elektronik Tablo Yükleme](/cells/tr/net/belirli-sistem-culture-info-ile-elektronik-tabloyu-yukleme/) hakkındaki detaylı makaleyi kontrol edin.
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of CultureInfo and populate its properties
 
@@ -86,20 +87,20 @@ var book = new Workbook(dir + "input.html", options);
 {{< /highlight >}}
 
 
-### **ChartPoint.IsInSecondaryPlot Özelliği Eklendi**
-Aspose.Cells for .NET, ChartPoint.IsInSecondaryPlot özelliğini ortaya çıkardı ve bu özellik, bir ChartPoint'in Pasta veya Çubuk grafiğinin ikincil çiziminde bulunup bulunmadığını algılamak için kullanılabilir.
+### **Eklenen ChartPoint.IsInSecondaryPlot Özelliği**
+Aspose.Cells for .NET, ChartPoint.IsInSecondaryPlot özelliğini ekleyerek bir ChartPoint'un bir Pasta veya Sütun grafiğinin ikincil parçasında olup olmadığını belirlemek için kullanılabiliyor.
 
 İşte Shape.Line özelliğinin basit kullanım senaryosu.
 
 {{% alert color="primary" %}} 
 
- Ayrıntılı makaleyi kontrol edin[Bir DataPoint bulmak, İkinci Çizimde bulunur](/cells/tr/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/).
+[Bir DataPoint'in İkinci Parçada Olup Olmadığını Bulma](/cells/tr/net/pasta-vb-pasta-grafiginde-dataponit-lerin-ikinci-parça-da-olup-olmadığını-bulmak/) hakkındaki detaylı makaleyi kontrol edin.
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load an existing spreadsheet containing a Pie chart
 
@@ -136,20 +137,20 @@ foreach (ChartPoint point in series.Points)
 {{< /highlight >}}
 
 
-### **OleObject.ClassIdentifier özelliği eklendi**
-Aspose.Cells for .NET 9.0.0, bir OleObject yüklemek için uygulama davranışını belirtmek üzere kullanılabilen OleObject.ClassIdentifier özelliğini kullanıma sundu. Örneğin, bir PPT dosyası bir elektronik tabloya 2 farklı görünümle gömülebilir, yani; sunum görünümü veya slayt görünümü, oysa her iki görünüm de farklı sınıf tanımlayıcı değerlerine sahiptir.
+### **Eklenen OleObject.ClassIdentifier özelliği**
+Aspose.Cells for .NET 9.0.0, OleObject.ClassIdentifier özelliğini kullanarak bir OleObject'in yüklenmesi için uygulama davranışını belirtmek için kullanılabiliyor. Örneğin, bir PPT dosyası, sunum görünümü veya slayt görünümü olmak üzere 2 farklı görünümde elektronik tabloya gömülebilir, her iki görünümün de farklı class identifier değerleri bulunuyor.
 
-OleObject.ClassIdentifier özelliğinin basit kullanım senaryosu aşağıdadır.
+OleObject.ClassIdentifier özelliğinin basit kullanım senaryosu aşağıdaki gibidir.
 
 {{% alert color="primary" %}} 
 
- Ayrıntılı makaleyi kontrol edin[OleObject.ClassIdentifier'ı kullanma](/cells/tr/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/).
+[OleObject.ClassIdentifier Kullanımı](/cells/tr/net/gömülü-ole-nesnesinin-class-identifier-değerini-getirme-veya-ayarlama/) hakkındaki detaylı makaleyi kontrol edin.
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a spreadsheet containing a presentation as OleObject
 
@@ -165,13 +166,13 @@ int height = 0;
 
 int width = 0;
 
-byte[]imageData = null;
+byte[] imageData = null;
 
 int x = 0;
 
 int y = 0;
 
-byte[]objData = null;
+byte[] objData = null;
 
 string progID = "";
 
@@ -181,7 +182,7 @@ string sourceFullName = "";
 
 bool isDisplayAsIcon = false;
 
-byte[]classId = null;
+byte[] classId = null;
 
 // Get the first worksheet from the collection
 
@@ -266,24 +267,24 @@ if (classId != null)
 book.Save(dir  + "output.xls");
 
 {{< /highlight >}}
-## **Eski API'ler**
-### **Eski Worksheet.SetBackground Yöntemi**
+## **Eskimiş API'lar**
+### **Eskimiş Worksheet.SetBackground Yöntemi**
 Lütfen bunun yerine Worksheet.BackgroundImage özelliğini kullanın.
-### **Eski LineShape.BeginArrowheadStyle & ArcShape.BeginArrowheadStyle Özellikler**
+### **Eskimiş LineShape.BeginArrowheadStyle & ArcShape.BeginArrowheadStyle Özellikleri**
 Lütfen alternatif olarak Shape.Line.BeginArrowheadStyle özelliğini kullanın.
-### **Eskimiş LineShape.EndArrowheadStyle & ArcShape.EndArrowheadStyle Özellikler**
+### **Eskimiş LineShape.EndArrowheadStyle & ArcShape.EndArrowheadStyle Özellikleri**
 Lütfen alternatif olarak Shape.Line.EndArrowheadStyle özelliğini kullanın.
-### **Eski LineShape.BeginArrowheadWidth & ArcShape.BeginArrowheadWidth Özellikler**
+### **Eskimiş LineShape.BeginArrowheadWidth & ArcShape.BeginArrowheadWidth Özellikleri**
 Lütfen alternatif olarak Shape.Line.BeginArrowheadWidth özelliğini kullanın.
-### **Eski LineShape.BeginArrowheadLength & ArcShape.BeginArrowheadLength Özellikler**
+### **Eskimiş LineShape.BeginArrowheadLength & ArcShape.BeginArrowheadLength Özellikleri**
 Lütfen bunun yerine Shape.Line.BeginArrowheadLength özelliğini kullanın.
-### **Eskimiş LineShape.EndArrowheadWidth & ArcShape.EndArrowheadWidth Özellikler**
+### **Eskimiş LineShape.EndArrowheadWidth & ArcShape.EndArrowheadWidth Özellikleri**
 Lütfen bunun yerine Shape.Line.EndArrowheadWidth özelliğini kullanın.
-### **Eski LineShape.EndArrowheadLength & ArcShape.EndArrowheadLength Özellikler**
+### **Eskimiş LineShape.EndArrowheadLength & ArcShape.EndArrowheadLength Özellikleri**
 Lütfen bunun yerine Shape.Line.EndArrowheadLength özelliğini kullanın.
-## **Silinmiş API'ler**
+## **Silinmiş API'lar**
 ### **Silinmiş Worksheet.CopyConditionalFormatting Yöntemi**
-### **Silinmiş Workbook.CheckWriteProtectedPassword Yöntemi**
-## **Yeniden adlandırılan API'ler**
-### **Workbook.RemoveDigitallySign Yöntemi yeniden adlandırıldı**
-Workbook.RemoveDigitalSign yöntemi, Workbook.RemoveDigitalSignature olarak yeniden adlandırıldı.
+### **Silinmiş Workbook.CheckWriteProtectedPassword Metodu**
+## **Adı Değişen API'lar**
+### **Yeniden Adlandırılmış Workbook.RemoveDigitallySign Metodu**
+Workbook.RemoveDigitallySign metodu Workbook.RemoveDigitalSignature olarak yeniden adlandırıldı.

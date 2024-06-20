@@ -1,42 +1,43 @@
-﻿---
-title: Wie und wo man Iteratoren verwendet
-linktitle: Daten iterieren
+---
+title: Wie und wo Iteratoren verwenden
+linktitle: Daten durchlaufen
 type: docs
 weight: 640
 url: /de/java/how-and-where-to-use-iterators/
 ---
+
 {{% alert color="primary" %}} 
 
-Ein Objekt einer Iteratorschnittstelle kann verwendet werden, um alle Elemente einer Sammlung zu durchlaufen. Iteratoren können verwendet werden, um die Daten in einer Sammlung zu untersuchen, aber sie können nicht verwendet werden, um die zugrunde liegende Sammlung zu ändern. Um einen Iterator zu verwenden, um den Inhalt einer Sammlung zu durchlaufen, müssen im Allgemeinen die folgenden Schritte ausgeführt werden:
+Ein Objekt einer Iterator-Schnittstelle kann verwendet werden, um alle Elemente einer Sammlung zu durchlaufen. Iteratoren können verwendet werden, um die Daten in einer Sammlung zu inspizieren, aber sie können nicht verwendet werden, um die zugrunde liegende Sammlung zu ändern. Im Allgemeinen müssen folgende Schritte unternommen werden, um einen Iterator zum Durchlaufen des Inhalts einer Sammlung zu verwenden:
 
-1. Rufen Sie einen Iterator für den Beginn der Auflistung ab, indem Sie die Iteratormethode der Auflistung aufrufen.
-1. Richten Sie eine Schleife ein, die die hasNext-Methode aufruft. Lassen Sie die Schleife durchlaufen, solange die hasNext-Methode true zurückgibt.
-1. Rufen Sie innerhalb der Schleife jedes Element ab, indem Sie die nächste Methode aufrufen.
+1. Einen Iterator am Anfang der Sammlung erhalten, indem die Iterator-Methode der Sammlung aufgerufen wird.
+1. Eine Schleife einrichten, die die hasNext-Methode aufruft. Die Schleife iteriert, solange die hasNext-Methode true zurückgibt.
+1. Innerhalb der Schleife jedes Element erhalten, indem die next-Methode aufgerufen wird.
 
-Aspose.Cells APIs bieten eine Reihe von Iteratoren, aber dieser Artikel behandelt hauptsächlich die drei unten aufgeführten Typen.
+Aspose.Cells-APIs bieten eine Vielzahl von Iteratoren, jedoch behandelt dieser Artikel hauptsächlich die unten aufgeführten drei Arten.
 
-1. Cells Iterator
-1. Zeilen-Iterator
-1. Spalten-Iterator
+1. Cells-Iterator
+1. Rows-Iterator
+1. Columns-Iterator
 
 {{% /alert %}} 
-## **Verwendung von Iteratoren**
-### **Cells Iterator**
-Es gibt verschiedene Möglichkeiten, auf den Iterator der Zellen zuzugreifen, und je nach Anwendungsanforderungen kann jede dieser Methoden verwendet werden. Hier sind die Methoden, die den Iterator der Zellen zurückgeben.
+## **Wie man Iteratoren verwendet**
+### **Cells-Iterator**
+Es gibt verschiedene Möglichkeiten, auf den Zellen-Iterator zuzugreifen, und man kann je nach den Anforderungen der Anwendung eine dieser Methoden verwenden. Hier sind die Methoden, die den Zellen-Iterator zurückgeben.
 
 1. Cells.iterator
 1. Row.iterator
 1. Range.iterator
 
-Alle oben genannten Methoden geben den Iterator zurück, der es ermöglicht, die Sammlung von Zellen, die initialisiert wurden, zu durchlaufen.
+Alle oben genannten Methoden geben den Iterator zurück, der es ermöglicht, die Sammlung von Zellen zu durchlaufen, die initialisiert wurden.
 
 {{% alert color="primary" %}} 
 
-Beim Durchlaufen der Zellen sollte die Sammlung nicht geändert werden (Operationen, die dazu führen, dass ein neuer Cell instanziiert oder ein bestehender Cell gelöscht wird). Andernfalls ist der Iterator möglicherweise nicht in der Lage, alle Zellen korrekt zu durchlaufen (einige Elemente werden möglicherweise wiederholt durchlaufen oder übersprungen).
+Beim Durchlaufen der Zellen sollte die Sammlung nicht verändert werden (Operationen, die dazu führen, dass eine neue Zelle instantiiert oder eine vorhandene Zelle gelöscht wird). Andernfalls kann der Iterator nicht in der Lage sein, alle Zellen korrekt zu durchlaufen (einige Elemente können wiederholt oder übersprungen durchlaufen werden).
 
 {{% /alert %}} 
 
-Das folgende Codebeispiel veranschaulicht die Implementierung der Iterator-Klasse für eine Cells-Auflistung.
+Das folgende Codebeispiel demonstriert die Implementierung der Iterator-Klasse für eine Zellensammlung.
 
 
 
@@ -49,8 +50,8 @@ Das folgende Codebeispiel veranschaulicht die Implementierung der Iterator-Klass
 
 
 
-##### **Zeilen-Iterator**
-Auf den Rows-Iterator kann zugegriffen werden, während die RowCollection.iterator-Methode verwendet wird. Das folgende Codebeispiel veranschaulicht die Implementierung der Iterator for RowCollection-Klasse.
+##### **Reihen Iterator**
+Der Reihen-Iterator kann beim Verwenden der RowCollection.iterator-Methode aufgerufen werden. Das folgende Codebeispiel demonstriert die Implementierung des Iterators für die RowCollection-Klasse.
 
 
 
@@ -61,8 +62,8 @@ Auf den Rows-Iterator kann zugegriffen werden, während die RowCollection.iterat
 
 
 
-##### **Spalten-Iterator**
-Auf den Columns-Iterator kann mit der ColumnCollection.iterator-Methode zugegriffen werden. Das folgende Codebeispiel veranschaulicht die Implementierung der Iterator for ColumnCollection-Klasse.
+##### **Spalten Iterator**
+Der Spalten-Iterator kann beim Verwenden der ColumnCollection.iterator-Methode aufgerufen werden. Das folgende Codebeispiel demonstriert die Implementierung des Iterators für die ColumnCollection-Klasse.
 
 
 
@@ -73,11 +74,11 @@ Auf den Columns-Iterator kann mit der ColumnCollection.iterator-Methode zugegrif
 
 
 
-#### **Wo man Iteratoren verwendet**
-Um die Vorteile der Verwendung von Iteratoren zu erörtern, nehmen wir ein Echtzeitbeispiel.
+#### **Wo Iteratoren verwendet werden sollen**
+Um die Vorteile der Verwendung von Iteratoren zu diskutieren, betrachten wir ein reales Beispiel.
 ##### **Szenario**
-Eine Anwendungsanforderung besteht darin, alle Zellen in einem bestimmten Arbeitsblatt zu durchlaufen, um ihre Werte zu lesen. Es könnte mehrere Möglichkeiten geben, dieses Ziel umzusetzen. Einige werden unten demonstriert.
-###### **Anzeigebereich verwenden**
+Eine Anwendungsanforderung besteht darin, alle Zellen in einem gegebenen Arbeitsblatt zu durchlaufen, um ihre Werte zu lesen. Es könnte mehrere Möglichkeiten geben, dieses Ziel zu erreichen. Einige sind unten dargestellt.
+###### **Die Anzeigebereich verwenden**
 
 
 
@@ -98,14 +99,14 @@ Eine Anwendungsanforderung besteht darin, alle Zellen in einem bestimmten Arbeit
 
 
 
-Wie Sie feststellen können, verwenden beide oben genannten Ansätze eine mehr oder weniger ähnliche Logik, das heißt; Schleife über alle Zellen in der Sammlung, um die Zellenwerte zu lesen. Dies könnte aus einer Reihe von Gründen problematisch sein, wie unten diskutiert wird.
+Wie Sie beobachten können, verwenden beide oben genannten Ansätze mehr oder weniger ähnliche Logik, nämlich; Schleife über alle Zellen in der Sammlung, um die Zellwerte zu lesen. Dies könnte aus verschiedenen Gründen problematisch sein, wie unten diskutiert.
 
-1. Die APIs wie MaxRow, MaxDataRow, MaxColumn, MaxDataColumn und MaxDisplayRange benötigen zusätzliche Zeit, um die entsprechenden Statistiken zu sammeln. Falls die Datenmatrix (Zeilen x Spalten) groß ist, kann die Verwendung dieser APIs zu Leistungseinbußen führen.
-1. In den meisten Fällen werden nicht alle Zellen in einem bestimmten Bereich instanziiert. In solchen Situationen ist es nicht so effizient, jede Zelle in der Matrix zu prüfen, als nur die initialisierten Zellen zu prüfen.
-1. Der Zugriff auf eine Zelle in einer Schleife als Cells.get(rowIndex, columnIndex) bewirkt, dass alle Zellobjekte in einem Bereich instanziiert werden, was schließlich zu OutOfMemoryError führen kann.
+1. Die APIs wie MaxRow, MaxDataRow, MaxColumn, MaxDataColumn & MaxDisplayRange benötigen zusätzliche Zeit, um die entsprechenden Statistiken zu sammeln. Wenn die Datenmatrix (Zeilen x Spalten) groß ist, könnte die Verwendung dieser APIs eine Leistungsstrafe verhängen.
+1. In den meisten Fällen sind nicht alle Zellen in einem bestimmten Bereich instanziiert. In solchen Situationen ist es nicht so effizient, jede Zelle in der Matrix zu überprüfen, im Vergleich dazu nur die initialisierten Zellen zu überprüfen.
+1. Der Zugriff auf eine Zelle in einer Schleife wie Cells.get(rowIndex, columnIndex) führt dazu, dass alle Zellenobjekte in einem Bereich instanziiert werden, was letztendlich zu einem OutOfMemoryError führen kann.
 ##### **Fazit**
-Basierend auf den oben genannten Fakten sind im Folgenden die möglichen Szenarien aufgeführt, in denen Iteratoren verwendet werden sollten.
+Basierend auf den oben genannten Fakten sind folgende mögliche Szenarien, in denen Iteratoren verwendet werden sollten.
 
-1. Nur-Lese-Zugriff auf die Zellsammlung ist erforderlich, das heißt; Voraussetzung ist, dass nur die Zellen inspiziert werden.
-1. Eine große Anzahl von Zellen muss durchquert werden.
+1. Schreibgeschützter Zugriff auf die Zellsammlung ist erforderlich, d.h. es ist nur erforderlich, die Zellen zu inspizieren.
+1. Eine große Anzahl von Zellen muss durchlaufen werden.
 1. Es sollen nur initialisierte Zellen/Zeilen/Spalten durchlaufen werden.

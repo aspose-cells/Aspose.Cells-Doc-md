@@ -1,26 +1,27 @@
-﻿---
-title: API العام التغييرات في Aspose.Cells 8.7.0
+---
+title: تغييرات الواجهة البرمجية العامة في Aspose.Cells 8.7.0
 type: docs
 weight: 240
 url: /ar/java/public-api-changes-in-aspose-cells-8-7-0/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.6.3 إلى 8.7.0 والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ، والفئات المضافة والمحذوفة وما إلى ذلك ، بل يشمل أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات Aspose.Cells من الإصدار 8.6.3 إلى 8.7.0 التي قد تكون مثيرة لاهتمام لمطوري الوحدة/التطبيق. يتضمن ليس فقط الطرق الجديدة والمحدثة، الفئات المضافة والمحذوفة إلخ، ولكن أيضاً وصفاً لأي تغييرات في السلوك في الخلفية في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **دعم تحسين PDF**
- توفر واجهات برمجة التطبيقات Aspose.Cells بالفعل ميزة تحويل جداول البيانات إلى PDF. مع هذا الإصدار من API ، يمكن للمستخدمين الآن[تحسين الحجم الناتج PDF](/cells/ar/java/save-excel-into-pdf-with-standard-or-minimum-size/)أيضًا. كشف Aspose.Cells for Java 8.7.0 عن خاصية PdfSaveOptions.OptimizationType جنبًا إلى جنب مع تعداد PdfOptimizationType من أجل تسهيل اختيار خوارزمية التحسين المطلوبة للمستخدمين أثناء تصدير جداول البيانات إلى تنسيق PDF. هناك قيمتان محتملتان لخاصية PdfSaveOptions.OptimizationType كما هو مفصل أدناه.
+## **واجهات برمجة التطبيقات الجديدة**
+### **دعم لتحسين ملفات PDF**
+توفر واجهات برمجة التطبيقات Aspose.Cells بالفعل ميزة تحويل جداول البيانات إلى PDF. مع هذا الإصدار من الواجهة البرمجية، يمكن للمستخدمين الآن [تحسين حجم ملف PDF الناتج](/cells/ar/java/save-excel-into-pdf-with-standard-or-minimum-size/) أيضاً. قدمت Aspose.Cells for Java 8.7.0 خاصية PdfSaveOptions.OptimizationType جنبًا إلى جنب مع تعداد PdfOptimizationType من أجل تسهيل عملية اختيار خوارزمية التحسين المطلوبة أثناء تصدير جداول البيانات إلى تنسيق PDF. هناك قيمتان ممكنتان لخاصية PdfSaveOptions.OptimizationType كما هو مفصل أدناه. 
 
-1. PdfOptimizationType.MINIMUM_SIZE: يتم اختراق الجودة لحجم الملف الناتج.
-1. PdfOptimizationType.STANDARD: لا يتم المساس بالجودة لذا سيكون حجم الملف الناتج كبيرًا.
+1. PdfOptimizationType.MINIMUM_SIZE: يتم التنازل عن الجودة من أجل حجم الملف الناتج.
+1. PdfOptimizationType.STANDARD: لا يتم التنازل عن الجودة لذا سيكون حجم الملف الناتج كبيرًا.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of PdfSaveOptions
 
@@ -41,14 +42,14 @@ Workbook book = new Workbook(inFilePath);
 book.save(outFilePath, pdfSaveOptions);
 
 {{< /highlight >}}
-### **الكشف عن مشروع VBA الموقع رقميًا**
- يمكن استخدام خاصية VbaProject.isSigned المكشوفة حديثًا في ملفات[اكتشاف ما إذا كان مشروع VBA في مصنف تم توقيعه رقميًا](/cells/ar/java/check-if-vba-code-is-signed/). الخاصية VbaProject.isSigned هي من النوع Boolean ، والتي ترجع صحيحًا إذا تم توقيع مشروع VBA رقميًا والعكس صحيح.
+### **كشف توقيع مشروع VBA بواسطة الأرقام**
+ تم فتح خاصية VbaProject.isSigned الجديدة للاستخدام في [الكشف عما إذا كان مشروع VBA في جدول بيانات موقعي يحمل توقيعًا رقميًا](/cells/ar/java/check-if-vba-code-is-signed/). تعتبر خاصية VbaProject.isSigned من نوع Boolean وتعيد قيمة صحيحة إذا كان مشروع VBA حاملًا لتوقيع رقمي والعكس صحيح.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -77,14 +78,14 @@ else
 }
 
 {{< /highlight >}}
-### **طريقة الحماية**
-عززت واجهات برمجة التطبيقات Aspose.Cells فئة الحماية من خلال إدخال طريقة التحقق من كلمة المرور التي تسمح بتحديد كلمة مرور كمثيل من السلسلة و[يتحقق من استخدام نفس كلمة المرور لحماية ورقة العمل](/cells/ar/java/verify-password-used-to-protect-the-worksheet/). تعيد طريقة Protection.verifyPassword صحيحًا إذا كانت كلمة المرور المحددة تتطابق مع كلمة المرور المستخدمة لحماية ورقة العمل المحددة ، و false إذا كانت كلمة المرور المحددة غير متطابقة. يستخدم الجزء التالي من التعليمات البرمجية طريقة Protection.verifyPassword جنبًا إلى جنب مع حقل Protection.isProtectedWithPassword لاكتشاف حماية كلمة المرور والتحقق من كلمة المرور.
+### **إضافة طريقة Protection.verifyPassword**
+ قامت واجهات برمجة التطبيقات Aspose.Cells بتعزيز فئة الحماية عن طريق إدخال طريقة verifyPassword التي تسمح بتحديد كلمة مرور كنوع String و[التحقق مما إذا كانت نفس كلمة المرور قد تم استخدامها لحماية ورقة البيانات](/cells/ar/java/verify-password-used-to-protect-the-worksheet/). تعيد طريقة Protection.verifyPassword قيمة صحيحة إذا كانت كلمة المرور المحددة مطابقة لكلمة المرور المستخدمة لحماية ورقة البيانات المعطاة وتعيد قيمة خاطئة إذا كانت كلمة المرور المحددة غير مطابقة. يستخدم الكود التالي طريقة Protection.verifyPassword بالاشتراك مع حقل Protection.isProtectedWithPassword للكشف عن حماية كلمة المرور والتحقق منها.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load a spreadsheet
 
@@ -121,14 +122,14 @@ if (sheet.getProtection().isProtectedWithPassword())
 }
 
 {{< /highlight >}}
-### **حماية الملكية. isProtectedWith تمت إضافة كلمة المرور**
- كشف هذا الإصدار من Aspose.Cells for Java أيضًا عن حقل Protection.isProtectedWithPassword الذي يمكن أن يكون مفيدًا في[الكشف عما إذا كانت ورقة العمل محمية بكلمة مرور أم لا](/cells/ar/java/detect-if-worksheet-is-password-protected/).
+### **إضافة خاصية Protection.isProtectedWithPassword**
+كما فتح هذا الإصدار من Aspose.Cells for Java الحقل Protection.isProtectedWithPassword الذي يمكن أن يكون مفيدًا في [الكشف عما إذا كانت ورقة البيانات محمية بكلمة مرور أم لا](/cells/ar/java/detect-if-worksheet-is-password-protected/).
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -161,14 +162,14 @@ else
 }
 
 {{< /highlight >}}
-### **تمت إضافة خاصية ColorScale.Is3ColorScale**
- كشف Aspose.Cells for Java 8.7.0 خاصية ColorScale.Is3ColorScale التي يمكن استخدامها[إنشاء تنسيق شرطي 2-Color Scale](/cells/ar/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/). الخاصية المذكورة هي من النوع Boolean مع القيمة الافتراضية لـ true مما يعني أن التنسيق الشرطي سيكون من 3-Color Scale افتراضيًا. ومع ذلك ، سيؤدي تبديل الخاصية ColorScale.Is3ColorScale إلى false إلى إنشاء تنسيق شرطي لـ 2-Color Scale.
+### **إضافة خاصية ColorScale.Is3ColorScale**
+فتح إصدار 8.7.0 من Aspose.Cells for Java خاصية ColorScale.Is3ColorScale التي يمكن استخدامها لـ [إنشاء تنسيق مشروط بمقياس ألوان مزدوج](/cells/ar/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/). تعتبر الخاصية المذكورة من نوع Boolean بقيمة افتراضية صحيحة مما يعني أن التنسيق المشروط سيكون بمقياس ألوان ثلاثي افتراضيًا. ومع ذلك، سينتج تبديل خاصية ColorScale.Is3ColorScale إلى خطأ تنسيق مشروط بمقياس ألوان ثنائي.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -211,14 +212,14 @@ formatCondition.getColorScale().setIs3ColorScale(false);
 //Set other necessary properties
 
 {{< /highlight >}}
-### **تمت إضافة الخاصية TxtLoadOptions.HasFormula**
- Aspose.Cells for Java 8.7.0 قدم دعمًا لـ[تحديد الصيغ وتحليلها أثناء تحميل CSV/TXT الملفات ذات البيانات العادية المحددة](/cells/ar/java/load-or-import-csv-file-with-formulas/). تعرض خاصية TxtLoadOptions.HasFormula المكشوفة حديثًا عند ضبطها على true توجه API لتحليل الصيغ من ملف الإدخال المحدد وتعيينها على الخلايا ذات الصلة دون الحاجة إلى أي معالجة إضافية.
+### **تمت إضافة خاصية TxtLoadOptions.HasFormula.**
+قدمت Aspose.Cells for Java 8.7.0 دعمًا لتحديد وتحليل الصيغ أثناء تحميل ملفات CSV/TXT التي تحتوي على بيانات نصية محددة. يوجّه الخيار الجديد TxtLoadOptions.HasFormula الواجهة إلى تحليل الصيغ من الملف المحدد الذي تم إدخاله وتعيينها للخلايا ذات الصلة دون الحاجة إلى أي معالجة إضافية.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of TxtLoadOptions
 
@@ -245,14 +246,14 @@ book.calculateFormula();
 book.save(outFilePath);
 
 {{< /highlight >}}
-### **تمت إضافة خاصية DataLabels.ResizeShapeToFitText**
- ميزة أخرى مفيدة كشفها Aspose.Cells for Java 8.7.0 هي خاصية DataLabels.ResizeShapeToFitText التي يمكنها تمكين[تغيير حجم الشكل لاحتواء النص](/cells/ar/java/resize-chart-s-data-label-shape-to-fit-text/)ميزة تطبيق Excel لتسميات بيانات الرسم البياني.
+### **تمت إضافة خاصية DataLabels.ResizeShapeToFitText.**
+ميزة مفيدة أخرى قد قدمتها Aspose.Cells for Java 8.7.0 هي خاصية DataLabels.ResizeShapeToFitText التي يمكنها تمكين ميزة تعديل حجم الشكل ليلائم النص في تطبيق Excel لتسميات بيانات الرسم البياني.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook containing the Chart
 
@@ -279,6 +280,6 @@ labels.setResizeShapeToFitText(true);
 chart.calculate();
 
 {{< /highlight >}}
-## **إزالة واجهات برمجة التطبيقات**
-### **مصنف الخاصية تمت إزالة خيارات الحفظ**
-تم وضع علامة على الخاصية Workbook.SaveOptions قديمة بعض الوقت. مع هذا الإصدار ، تمت إزالته تمامًا من API العام ، لذلك يُنصح باستخدام Workbook.save (Stream ، SaveOptions) أو Workbook.save (سلسلة ، SaveOptions) كطريقة بديلة.
+## **تمت إزالة واجهات برمجة التطبيقات**
+### **تمت إزالة خاصية Workbook.SaveOptions.**
+تم وضع خاصية Workbook.SaveOptions على لائحة التشويه منذ فترة. مع هذا الإصدار، تمت إزالتها بالكامل من واجهة برمجة التطبيقات العامة لذلك يُنصح باستخدام طريقة Workbook.save(Stream, SaveOptions) أو Workbook.save(string, SaveOptions) كبديل.

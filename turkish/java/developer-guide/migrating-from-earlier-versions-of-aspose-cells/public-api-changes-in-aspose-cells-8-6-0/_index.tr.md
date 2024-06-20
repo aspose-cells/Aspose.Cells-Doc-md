@@ -1,23 +1,24 @@
-﻿---
-title: Genel API Aspose.Cells 8.6.0'daki değişiklikler
+---
+title: Aspose.Cells 8.6.0 de Yapılan Genel API Değişiklikleri
 type: docs
 weight: 200
 url: /tr/java/public-api-changes-in-aspose-cells-8-6-0/
 ---
+
 {{% alert color="primary" %}} 
 
- Bu belge, Aspose.Cells API sürüm 8.5.2'den 8.6.0'a modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri içermez,[eklenen sınıflar vb.](/cells/tr/java/public-api-changes-in-aspose-cells-8-6-0/), aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklaması.
+Bu belge, Aspose.Cells API'sının 8.5.2'den 8.6.0'a sürümünde modül/uygulama geliştiricilerinin ilgisini çekebilecek değişiklikleri açıklar. Yeni ve güncellenmiş genel yöntemler, [eklenen sınıflar vb.](/cells/tr/java/public-api-changes-in-aspose-cells-8-6-0/) yanı sıra Aspose.Cells'in arka plandaki davranışındaki herhangi bir değişikliğin açıklamasını içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **Çalışma Kitabı Nesnesi Oluşturmadan Meta Veri Manipülasyonu Desteği**
-Aspose.Cells for Java API'in bu sürümü, WorkbookMetadata & MetadataOptions adlı iki yeni sınıfı ve artık bir Workbook örneği oluşturmadan belge özelliklerini (meta veriler) değiştirmeye izin veren yeni bir MetadataType numaralandırmasını ortaya çıkardı. WorkbookMetadata sınıfı hafiftir ve kullanımı çok kolay, etkili bir mekanizma sağlar.[genel performansı etkilemeden belge özelliklerini okuyun, yazın ve güncelleyin](/cells/tr/java/using-workbookmetadata/). 
+## **Eklenen API'lar**
+### **Belge Oluşturmadan Metaveri Manipülasyon Desteği**
+Bu Aspose.Cells for Java API sürümü, WorkbookMetadata ve MetadataOptions adında iki yeni sınıfı ve belge örneği oluşturmadan belge özelliklerini (meta veri) manipüle etmeyi sağlayan yeni bir Metaveri Türü adlı yeni bir numaralandırmayı açığa çıkardı. WorkbookMetadata sınıfı hafif ve [genel performansı etkilemeden belge özelliklerini okuma, yazma ve güncelleme imkanı sağlar](/cells/tr/java/using-workbookmetadata/). 
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Open Workbook metadata while specifying the appropriate MetadataType
 
@@ -34,14 +35,14 @@ metaWorkbook.getCustomDocumentProperties().add("test", "test");
 metaWorkbook.save(filePath);
 
 {{< /highlight >}}
-### **Özellik HtmlSaveOptions.ExportFrameScriptsAndProperties Eklendi**
-Aspose.Cells for Java 8.6.0, elektronik tabloları HTML biçimine dönüştürürken ek komut dosyalarının oluşturulmasını etkilemek için kullanılabilecek HtmlSaveOptions.ExportFrameScriptsAndProperties özelliğini kullanıma sundu. Varsayılan ayarlarla, Aspose.Cells API'leri, Excel uygulamasının dışa aktarımı yaptığı gibi elektronik tabloyu HTML biçiminde dışa aktarır, yani; ortaya çıkan HTML, tarayıcı türünü algılayan ve düzeni buna göre ayarlayan çerçeveleri ve koşullu yorumları içerir. HtmlSaveOptions.ExportFrameScriptsAndProperties özelliğinin varsayılan değeri true'dur, yani; dışa aktarma Excel standartlarına göre yapılır. Özellik false olarak ayarlanırsa API[çerçeveler ve koşullu yorumlarla ilgili komut dosyalarını oluşturun](/cells/tr/java/disable-exporting-frame-scripts-and-document-properties/). Bu durumda, ortaya çıkan HTML herhangi bir tarayıcıda doğru bir şekilde görüntülenebilir, ancak Aspose.Cells API'leri kullanılarak geri alınamaz.
+### **HtmlSaveOptions.ExportFrameScriptsAndProperties Özelliği Eklendi**
+Aspose.Cells for Java 8.6.0, HtmlSaveOptions.ExportFrameScriptsAndProperties özelliğini ortaya çıkardı; bu özellik, elektronik tabloların HTML biçimine dönüştürülürken ek scriptlerin oluşturulmasını etkilemek için kullanılabilir. Varsayılan ayarlarla, Aspose.Cells API'leri elektronik tabloyu Excel uygulamasının dışa aktarımı gibi HTML biçiminde dışa aktarır; yani sonuçta oluşan HTML, tarayıcı türünü algılayan ve düzeni buna göre ayarlayan çerçeveler ve koşullu yorumlar içerir. HtmlSaveOptions.ExportFrameScriptsAndProperties özelliğinin varsayılan değeri true'dur, bu da dışa aktarımın Excel standartlarına göre yapıldığı anlamına gelir. Eğer özellik false olarak ayarlanırsa, API çerçeveler ve koşullu yorumlarla ilgili scriptleri oluşturmayacak. Bu durumda oluşan HTML, herhangi bir tarayıcıda doğru şekilde görüntülenebilir, ancak Aspose.Cells API'leri kullanılarak içe aktarılamaz.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the spreadsheet
 
@@ -58,14 +59,14 @@ options.setExportFrameScriptsAndProperties(false);
 book.save("output.html", options)
 
 {{< /highlight >}}
-### **Özellik Shape.MarcoName Eklendi**
-Aspose.Cells for Java 8.6.0, kullanılabilecek Shape.MarcoName özelliğini kullanıma sundu.[form kontrolüne VBA modülü atama](/cells/tr/java/assign-macro-code-to-form-control/) etkileşimi sağlamak için böyle bir Düğme. Özellik string türündedir, bu nedenle modül adını kabul edebilir ve onu kontrole atar.
+### **Shape.MarcoName Özelliği Eklendi**
+Aspose.Cells for Java 8.6.0, Shape.MarcoName özelliğini ortaya çıkardı; bu özellik, bir Düğme gibi bir form kontrolüne bir VBA modülü atamak için kullanılabilir. Özellik, string tipindedir bu nedenle modül adını kabul edebilir ve denetim'e atar.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a new Workbook object
 
@@ -114,5 +115,5 @@ button.setMacroName(module.getName() + ".ShowMessage" );
 workbook.save("output.xlsm");
 
 {{< /highlight >}}
-### **Özellik OoxmlSaveOptions.UpdateZoom Eklendi**
-v8.6.0'ın piyasaya sürülmesiyle, Aspose.Cells for Java API, Çalışma Sayfası ölçeklendirmesini kontrol etmek için PageSetup.FitToPagesWide ve/veya PageSetup.FitToPagesTall özellikleri kullanılmışsa PageSetup.Zoom'u güncellemek için kullanılabilecek OoxmlSaveOptions.UpdateZoom özelliğini kullanıma sundu.
+### **OoxmlSaveOptions.UpdateZoom Özelliği Eklendi**
+V8.6.0 sürümüyle beraber, Aspose.Cells for Java API'sı OoxmlSaveOptions.UpdateZoom özelliğini ortaya çıkarmıştır; bu özellik, SayfaDüzeni.Zoom'u güncellemek için kullanılabilir eğer SayfaDüzeni.FitToPagesWide ve/veya SayfaDüzeni.FitToPagesTall özellikleri, Çalışsayfa ölçeklendirmesini kontrol etmek üzere kullanılmışsa.

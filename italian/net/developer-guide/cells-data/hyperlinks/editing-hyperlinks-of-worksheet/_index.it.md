@@ -1,17 +1,18 @@
 ---
-title: Modifica dei collegamenti ipertestuali del foglio di lavoro
+title: Modifica collegamenti ipertestuali del foglio di calcolo
 type: docs
 weight: 330
 url: /it/net/editing-hyperlinks-of-worksheet/
-description: Scopri come modificare i collegamenti ipertestuali del foglio di lavoro tramite Aspose.Cells for .NET API.
-keywords: Edit Hyperlinks, Edit Hyperlinks of Worksheet, Edit hyperlink of Cell, Access all the hyperlinks of the worksheet
+description: Impara come modificare i collegamenti ipertestuali del foglio di lavoro tramite l API Aspose.Cells for .NET.
+keywords: Modifica collegamenti ipertestuali, Modifica collegamenti ipertestuali del foglio di lavoro, Modifica collegamento ipertestuale nella cella, Accedi a tutti i collegamenti ipertestuali del foglio di lavoro
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells permette di accedere a tutti i collegamenti ipertestuali del foglio di lavoro utilizzando il[**Foglio di lavoro.Collegamenti ipertestuali**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) collezione. Puoi accedere a ciascun collegamento ipertestuale di questa raccolta uno per uno e modificarne le proprietà.
+Aspose.Cells ti consente di accedere a tutti i collegamenti ipertestuali del foglio di lavoro utilizzando la collezione [**Worksheet.Hyperlinks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks). Puoi accedere a ciascun collegamento ipertestuale da questa collezione uno per uno e modificarne le proprietà.
 
 {{% /alert %}}
 
- Il codice di esempio seguente accede a tutti i collegamenti ipertestuali del foglio di lavoro e li modifica[**Collegamento ipertestuale.Indirizzo**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/address)immobile al sito Aspose.
+Il codice di esempio seguente accede a tutti i collegamenti ipertestuali del foglio di lavoro e cambia la loro proprietà [**Hyperlink.Address**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/address) al sito web Aspose.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-EditingHyperlinksOfWorksheet-EditingHyperlinksOfWorksheet.cs" >}}

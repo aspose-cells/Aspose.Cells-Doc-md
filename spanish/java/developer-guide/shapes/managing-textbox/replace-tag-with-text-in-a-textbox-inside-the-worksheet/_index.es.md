@@ -1,12 +1,13 @@
-﻿---
-title: Reemplace la etiqueta con texto en un cuadro de texto dentro de la hoja de trabajo
+---
+title: Reemplazar etiqueta con texto en un cuadro de texto dentro de la hoja de cálculo
 type: docs
 weight: 150
 url: /es/java/replace-tag-with-text-in-a-textbox-inside-the-worksheet/
 ---
-## **Posibles escenarios de uso**
-Los cuadros de texto pueden tener etiquetas que se pueden reemplazar con algún texto en tiempo de ejecución para configurarlos de acuerdo con el requisito. Las etiquetas pueden ser alguna etiqueta encerrada entre paréntesis angulares '<' and '>. Puede haber múltiples etiquetas dentro de un solo cuadro de texto. El archivo de muestra se puede descargar desde el siguiente enlace.
 
-[ejemploReplaceTagWithText.xlsx](79527956.xlsx)
+## **Escenarios de uso posibles**
+Text boxes can have tags that can be replaced with some text at run time to configure them according to the requirement. Tags can be some label enclosed in angle brackets '<' and '>'. There can be multiple tags within a single textbox. The sample file can be downloaded from the following link.
+
+[sampleReplaceTagWithText.xlsx](79527956.xlsx)
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-ReplaceTagWithTextInTextBox-1.java" >}}

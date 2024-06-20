@@ -1,20 +1,23 @@
-﻿---
-title: Skapa hierarkiskt vyblad
+---
+title: Skapa hierarkisk vyark
 type: docs
 weight: 30
-url: /sv/net/creating-hierarchical-view-sheet/
+url: /sv/net/aspose-cells-gridweb/create-hierarchical-view-sheet/
+keywords: GridWeb, hierarkisk
+description: Denna artikel introducerar hur man skapar hierarkisk vy i GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
- Databindning är en kraftfull och användarvänlig GridWeb-funktion. Data som lagras i databastabeller hämtas till en datauppsättning och fylls med data
+Data binding är en kraftfull och användarvänlig GridWeb-funktion. Data som lagras i databastabeller hämtas till en DataSet och fylls med data 
 
- representerar datatabellerna. Med hjälp av databindningsfunktionen kan du skapa en hierarkisk vy (en master-child-vy) av sammanlänkade data och
+som representerar datatabellerna. Genom att använda data bindning-funktionen kan du skapa en hierarkisk vy (en huvud-barnvy) av sammanlänkade data och 
 
- visa den i kontrollen för att göra den mer elegant.
+visa den i kontrollen för att göra den mer elegant. 
 
- Det här ämnet diskuterar att skapa ett hierarkiskt vyblad. Några av raderna i arket har barnvyer. När en användare klickar på radens**Bygga ut**
+I detta ämne diskuteras skapandet av ett hierarkiskt vyblad. Några av raderna i bladet har underordnade vyer. När en användare klickar på radens **Expand**
 
- knapp{{< emoticons/cross >}} , expanderas den underordnade vytabellen för den raden nedåt. Den här funktionen är mycket användbar för att skapa en hierarkisk vyrapport.
+button {{< emoticons/cross >}}, the child view table of that row is expanded down. This feature is very helpful for building a hierarchical view report. 
 
 **En tabell med en hierarkisk vy** 
 
@@ -22,52 +25,52 @@ url: /sv/net/creating-hierarchical-view-sheet/
 
 {{% /alert %}} 
 ## **Skapa relationer för datatabeller**
-Till exempel använder du ADO.Net API och extraherar data från databastabellerna. För att skapa hierarkiskt vyblad måste du designa en datauppsättning
+Till exempel kan du använda ADO.Net API och extrahera data från databastabellerna. För att skapa hierarkisk vy måste du designa en DataSet
 
- objekt baserat på vissa tabeller och skapa en relation mellan dem först. Använd VS.NET**Dataset Designer** att skapa relationen. I
+objekt baserat på några tabeller och skapa en relation mellan dem först. Använd VS.NET's **DataSet Designer** för att skapa relationen. I 
 
- I det här exemplet finns det tre datatabeller: kunder, beställningar, beställningsdetaljer. Arket visar all kundinformation som standard. När
+detta exempel finns det tre DataTables: Customers, Orders, Order Details. Bladet visar all kundinformation som standard. När 
 
- användaren utökar en kund, rutnätet visar alla beställningar som kunden har lagt. När användaren utökar en beställning visar rutnätet detaljerna
+användaren expanderar en kund visar griden alla ordrar som kunden har lagt. När användaren expanderar en order visar griden detaljerna 
 
-av den ordningen. Uppgifterna är hierarkiska: beställningsdetaljer listas under beställningar och beställningar under kunder.
+av den ordern. Datat är hierarkiskt: orderdetaljer listas under ordrar, och ordrar listas under kunder.
 
-För att detta ska fungera måste följande till relationer upprättas mellan datatabellerna:
+För att detta ska fungera, måste följande relationer etableras mellan datatabellerna:
 
-1.  Skapa en främmande nyckel på DataTable Orders, nyckelfältet är CustomerID
+1. Skapa en främmande nyckel på DataTable Orders; nyckelfältet är CustomerID 
 
 ![todo:image_alt_text](creating-hierarchical-view-sheet_2.png)
 
 
 
 
-1. Skapa en främmande nyckel på DataTable Order Details, nyckelfältet är OrderID.
+1. Skapa en främmande nyckel på DataTable Order Details; nyckelfältet är OrderID. 
 
 ![todo:image_alt_text](creating-hierarchical-view-sheet_3.png)
 
 
 
- DataSet Designer ser nu ut så här:
+DataSet Designer ser nu ut så här: 
 
 ![todo:image_alt_text](creating-hierarchical-view-sheet_4.png)
-### **Bind arbetsblad**
- Använd nu**Arbetsbladsdesigner** för att ställa in DataSource och DataMember för kalkylbladet och konfigurera datafältets bindningskolumner.
+### **Binda kalkylblad**
+Använd nu **Worksheets Designer** för att ställa in DataKällan och DataMedlem för kalkylarket och konfigurera datafältsbindningskolumner. 
 
- Kontrollen lägger automatiskt till en +-ikon för varje rad som motsvarar en post vars bindningsobjekt (vanligtvis ett DataRowView-objekt) har
+Kontrollen lägger automatiskt till en + ikon för varje rad som motsvarar en post vars bindande objekt (vanligtvis en DataRowView-objekt) har 
 
- barns synpunkter. När du klickar på +-ikonen expanderas posten för att visa barnvyn. I exemplet nedan används**Arbetsbladsdesigner** att binda
+underordnade vyer. När + ikonen klickas expanderas posten för att visa underordnad vy. Exemplet nedan använder **Worksheets Designer** för att binda 
 
- kalkylblad till rotöverordnade DataTable-kunder.
+kalkylarket till huvudförälder DataTable Customers. 
 
 ![todo:image_alt_text](creating-hierarchical-view-sheet_5.png)
-### **Anpassa underordnade tabeller Bind kolumner**
- Kontrollen tillhandahåller en händelse som heter GridWeb.BindingChildView som utvecklare använder för att anpassa de underordnade tabellernas bindningskolumner. Detta exempel
+### **Anpassa de underordnade tabellernas bindningskolumner**
+Kontrollen tillhandahåller ett event med namnet GridWeb.BindingChildView som utvecklare använder för att anpassa de underordnade tabellernas bindningskolumner. Detta exempel 
 
- måste visa beställningsinformationen'**Enhetspris** fältet i ett valutaformat. Lägg till en händelsehanterare för att ändra bindkolumns nummerformat.
+behöver visa orderdetaljernas **UnitPrice**-fält i valutaformat. Lägg till en händelsehanterare för att ändra bindningskolumnens nummerformat. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Handles the BindingChildView event to set the UnitPrice column.
 
@@ -93,7 +96,7 @@ private void GridWeb1_BindingChildView(Aspose.Cells.GridWeb.GridWeb childGrid, A
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Handles the BindingChildView event to set the UnitPrice column.
 
@@ -114,38 +117,38 @@ End Sub
 
 
 {{< /highlight >}}
-### **Ladda data från databas och bindning**
-Som beskrivs i[Bindning av kalkylblad till en datauppsättning med hjälp av GridWebs kalkylbladsdesigner](/cells/sv/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/),
- du måste lägga till kod i blocket Page_Load för att ladda data till datamängden från en databas och binda datamängden till bladet i
+### **Ladda data från databasen och binda**
+Som beskrivet i [Bindning kalkylblad till en DataSet med hjälp av GridWeb's Worksheets Designer](/cells/sv/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/),
+du behöver lägga till kod i Page_Load-blocket för att ladda data till DataSet från en databas och binda DataSet till arket i 
 
- Nästa steg.
+nästa steg. 
 
 Klassen Asppose.Grid.Web.Data.WebWorksheet har några användbara egenskaper.
 
-- Till exempel, egenskapen EnableCreateBindColumnHeader används för att skapa rubrikerna för den bundna kolumnen i arket, eller kolumnen
+- Till exempel används egenskapen EnableCreateBindColumnHeader för att skapa rubrikerna för den bundna kolumnen inom arket, eller kolumn
 
- rubriker visar de bundna kolumnnamnen. Det tar värdena**Sann** eller**falsk**. 
+huvuden visar de bundna kolumnnamnen. Den tar värdena **true** eller **false**. 
 
-- Egenskaperna BindStartRow och BindStartColumn anger positionen i arket GridWeb-kontroll som källan ska vara bunden till.
-- Egenskapen EnableExpandChildView används för att inaktivera den utökade underordnade vyn för kalkylbladet. Som standard är det satt till sant.
+- Egenskaperna BindStartRow och BindStartColumn specificerar positionen i GridWeb-kontrollens ark som källan ska bindas till.
+- Egenskapen EnableExpandChildView används för att inaktivera den utökade underordnade vyn för arbetsbladet. Som standard är den inställd på true.
 
- Klassen har också några användbara metoder.
+Klassen har också några användbara metoder. 
 
-- Metoden DataBind() binder ett ark med källan.
-- CreateNewBindRow() lägger till en ny rad och binder den till datakällan.
-- DeleteBindRow() tar bort en bunden rad.
-- Metoden SetRowExpand() ställer in den utökade raden och visar innehållet i den underordnade vyn i databindningsläget.
-- Metoden GetRowExpand() får ett booleskt värde som indikerar om raden expanderas eller inte.
+- DataBind() - metoden binder ett ark med källan.
+- Metoden CreateNewBindRow() lägger till en ny rad och binder den till datakällan.
+- Metoden DeleteBindRow() tar bort en bunden rad.
+- Metoden SetRowExpand() anger den utökade raden och visar innehållet i barnvyn i databindningsläge.
+- Metoden GetRowExpand() returnerar ett Booleskt värde som indikerar om raden är utökad eller inte.
 
- I koden nedan är DataSet-objektet "dataSet21" fyllt med data baserat på tre tabeller. Kundtabellen filtreras för att göra den till
+I koden nedan fylls DataSet-objektet "dataSet21" med data baserat på tre tabeller. Kund-tabellen filtreras för att göra den till 
 
- första tabellen i den hierarkiska displayen. Ett WebWorksheet-objekt med namnet "sheet" skapas, vilket rensar arket först och sedan ställer in det
+första tabellen i den hierarkiska visningen. Ett WebWorksheet-objekt med namnet "sheet" skapas, som rensar arket först och sedan sätter det 
 
- kopplat till datakällan.
+länkas till datakällan. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private void Page_Load(object sender, System.EventArgs e)
 
@@ -199,7 +202,7 @@ private void BindWithoutInSheetHeaders()
 
         dataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'";
 
-        WebWorksheet sheet = GridWeb1.WebWorksheets[0];
+        WebWorksheet sheet = GridWeb1.WorkSheets[0];
 
         // Clears the sheet.
 
@@ -235,53 +238,53 @@ private void BindWithoutInSheetHeaders()
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- Private Sub Page_Load(ByVal avsändare Som System.Object, ByVal e As System.EventArgs) Hanterar MyBase.Load
+ Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
- 'Sätt in användarkod för att initiera sidan här
+    'Put user code to initialize the page here
 
- Om inte IsPostBack Då
+    If Not IsPostBack Then
 
- BindWithoutInSheetHeaders()
+        BindWithoutInSheetHeaders()
 
- Avsluta om
+    End If
 
-Avsluta Sub
+End Sub
 
 Private Sub BindWithoutInSheetHeaders()
 
- Dim db As DemoDatabase2 = New DemoDatabase2()
+    Dim db As DemoDatabase2 = New DemoDatabase2()
 
-Dim sökväg As String = MapPath(".")
+    Dim path As String = MapPath(".")
 
- path = path.Substring(0, path.LastIndexOf("\"))
+    path = path.Substring(0, path.LastIndexOf("\"))
 
- path = path.Substring(0, path.LastIndexOf("\"))
+    path = path.Substring(0, path.LastIndexOf("\"))
 
- db.OleDbConnection1.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Datakälla=" + sökväg + "\Databas\Northwind.mdb"
+    db.OleDbConnection1.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + path + "\Database\Northwind.mdb"
 
- Prova
+    Try
 
- ' Ansluter till databasen och hämtar data.
+        ' Connects to database and fetches data.
 
- ' Kundtabell.
+        ' Customers Table.
 
- db.OleDbDataAdapter1.Fill(DataSet21)
+        db.OleDbDataAdapter1.Fill(DataSet21)
 
- ' Beställningstabell.
+        ' Orders Table.
 
- db.OleDbDataAdapter2.Fill(DataSet21)
+        db.OleDbDataAdapter2.Fill(DataSet21)
 
- ' OrderDetailTable.
+        ' OrderDetailTable.
 
- db.OleDbDataAdapter3.Fill(DataSet21)
+        db.OleDbDataAdapter3.Fill(DataSet21)
 
- ' Filtrera data
+        ' Filter data
 
- DataSet21.Customers.DefaultView.RowFilter = "Kund-ID<'BSAAA'"
+        DataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'"
 
-        Dim sheet As WebWorksheet = GridWeb1.WebWorksheets(0)
+        Dim sheet As WebWorksheet = GridWeb1.WorkSheets(0)
 
         ' Clears the sheet.
 

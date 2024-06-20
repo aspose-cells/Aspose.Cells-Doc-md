@@ -1,45 +1,46 @@
-﻿---
-title: パブリック API Aspose.Cells 17.1.0 の変更点
+---
+title: Aspose.Cells 17.1.0 の公開API変更
 type: docs
 weight: 370
 url: /ja/net/public-api-changes-in-aspose-cells-17-1-0/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 16.12.0 から 17.1.0 への Aspose.Cells API への変更について説明します。新規および更新されたパブリック メソッド、追加および削除されたクラスなどだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
+この文書は、バージョン16.12.0から17.1.0へのAspose.Cells APIの変更について、モジュール/アプリケーション開発者に興味を持たれる可能性のあるものを記載しています。新しいメソッドや更新された公開メソッド、追加および削除されたクラスなどだけでなく、Aspose.Cellsの裏側の挙動の変更の説明も含まれています。
 
 {{% /alert %}} 
-## **追加された API**
-### **Excel 2016 グラフのサポート**
-Aspose.Cells API は、ChartType 列挙を拡張することにより、いくつかの Excel 2016 グラフのサポートを追加しました。 Aspose.Cells 17.1.0 のリリースで、次の新しいフィールドが追加されました。
+## **APIの追加**
+### **Excel 2016 チャートのサポート**
+Aspose.CellsのAPIは、ChartType列挙型を拡張していくつかのExcel 2016 チャートのサポートを追加しました。Aspose.Cells17.1.0のリリースと共に、以下の新しいフィールドが追加されています。
 
-- ChartType.BoxWhisker: シリーズはボックスとウィスカーとして配置されます。
-- ChartType.Funnel: シリーズはじょうごとしてレイアウトされます。
-- ChartType.ParetoLine: シリーズはパレート線としてレイアウトされます。
+- ChartType.BoxWhisker: シリーズは箱ひげとして配置されます。
+- ChartType.Funnel: シリーズはファンネルとして配置されます。
+- ChartType.ParetoLine: シリーズはパレートラインとして配置されます。
 - ChartType.Sunburst: シリーズはサンバーストとして配置されます。
-- ChartType.Treemap: シリーズはツリーマップとして配置されます。
-- ChartType.Waterfall: シリーズはウォーターフォールとしてレイアウトされます。
+- ChartType.Treemap: シリーズはツリーマップとしてレイアウトされます。
+- ChartType.Waterfall: シリーズはウォーターフォールとして配置されます。
 - ChartType.Histogram: シリーズはヒストグラムとして配置されます。
 
 {{% alert color="primary" %}} 
 
-の詳細記事をチェック[Excel 2016 グラフの種類の読み取り](/cells/ja/net/read-and-manipulate-excel-2016-charts/)
+[Excel 2016 チャートタイプの読み取り](/cells/ja/net/read-and-manipulate-excel-2016-charts/)に関する詳細な記事を確認してください。
 
 {{% /alert %}} 
-### **LoadFilter.LoadDataFilterOptions プロパティのセッターを追加**
-Aspose.Cells 17.1.0 では、LoadFilter.LoadDataFilterOptions プロパティのセッターが追加され、m_LoadDataFilterOptions インスタンス変数が置き換えられました。ユーザーは、LoadFilter クラスの独自の実装で LoadDataFilterOptions プロパティを変更して、テンプレート ファイルの読み込み動作を変更できます。
+### **LoadFilter.LoadDataFilterOptions プロパティのセッターが追加されました**
+Aspose.Cells17.1.0では、LoadFilter.LoadDataFilterOptions プロパティのセッターが追加され、m_LoadDataFilterOptions インスタンス変数を置き換えるためにLoadFilterクラスのユーザーは自分の実装でLoadDataFilterOptionsプロパティを変更できます
 
-簡単な使用シナリオを次に示します。
+以下は単純な使用シナリオです。
 
 {{% alert color="primary" %}} 
 
-の詳細記事をチェック[カスタム テンプレート フィルタリング](/cells/ja/net/filter-objects-while-loading-workbook-or-worksheet/)
+[カスタムテンプレートフィルタリング](/cells/ja/net/filter-objects-while-loading-workbook-or-worksheet/)に関する詳細な記事を確認してください。
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class CustomFilter : Aspose.Cells.LoadFilter
 
@@ -76,20 +77,20 @@ Aspose.Cells 17.1.0 では、LoadFilter.LoadDataFilterOptions プロパティの
 {{< /highlight >}}
 
 
-### **CellsHelper.SignificantDigits プロパティを追加**
-Aspose.Cells 17.1.0 は、スプレッドシートの数値の有効桁数を取得または設定できる CellsHelper クラスから SignificantDigits プロパティを公開しました。 CellsHelper.SignificantDigits プロパティのデフォルト値は 17 ですが、結果を XLSX ファイル形式で保存する必要がある場合にのみ適用されます。
+### **CellsHelper.SignificantDigits プロパティが追加されました。**
+Aspose.Cells 17.1.0 では，CellsHelper クラスから SignificantDigits プロパティが公開され，スプレッドシート内の数値の有効桁数を取得または設定できます。CellsHelper.SignificantDigits プロパティのデフォルト値は17であり，結果をXLSXファイル形式で保存する場合のみ適用されます。
 
-CellsHelper.SignificantDigits プロパティの使用法を示す簡単なシナリオを次に示します。
+CellsHelper.SignificantDigits プロパティの使用法をデモンストレーションするシンプルなシナリオです。
 
 {{% alert color="primary" %}} 
 
-の詳細記事をチェック[有効桁数の設定](/cells/ja/net/specifying-significant-digits-to-be-stored-in-excel-file/)
+[Excel ファイルに格納される有効桁数の指定](/cells/ja/net/specifying-significant-digits-to-be-stored-in-excel-file/)に関する詳細な記事を確認してください。
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Specify the number of significant digits
 
@@ -98,20 +99,20 @@ CellsHelper.SignificantDigits = 15;
 {{< /highlight >}}
 
 
-### **GlowEffect.Color プロパティを追加**
-Aspose.Cells 17.1.0 では、グロー効果の色を取得するために使用できる GlowEffect.Color プロパティが追加されました。
+### **GlowEffect.Color プロパティが追加されました。**
+Aspose.Cells 17.1.0 に GlowEffect.Color プロパティが追加され，グローエフェクトの色を取得するのに使用できます。
 
-次のスニペットでは、GlowEffect.Color プロパティを使用しています。
+以下のコードは GlowEffect.Color プロパティを使用しています。
 
 {{% alert color="primary" %}} 
 
-の詳細記事をチェック[シェイプのグロー カラーの読み取り](/cells/ja/net/read-color-of-shape-s-glow-effect/)
+「形状の発光色」の詳細な記事は[こちら](/cells/ja/net/read-color-of-shape-s-glow-effect/)をご確認ください
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Read the source excel file
 
@@ -134,26 +135,26 @@ var color = glow.Color;
 {{< /highlight >}}
 
 
-### **PageSetup.PaperWidth & PaperHeight プロパティを追加**
-Aspose.Cells 17.1.0 では、PageSetup クラスの PaperWidth および PaperHeight プロパティが公開されました。 PageSetup.PaperWidth および PageSetup.PaperHeight プロパティは double 型で、ページの向きを考慮して用紙の幅と高さをインチ単位で表します。
+### **PageSetup.PaperWidth 及び PaperHeight プロパティが追加されました。**
+Aspose.Cells 17.1.0 では，PageSetup クラスに PaperWidth 及び PaperHeight プロパティが公開されました。PageSetup.PaperWidth 及び PageSetup.PaperHeight プロパティは，インチ単位でペーパーの幅と高さを表す double 型です。
 
 {{% alert color="primary" %}} 
 
-の詳細記事をチェック[ワークシートの用紙サイズの取得](/cells/ja/net/get-paper-width-and-height-of-page-setup-of-worksheet/)
+ワークシートの用紙サイズの詳細な記事は[こちら](/cells/ja/net/get-paper-width-and-height-of-page-setup-of-worksheet/)をご確認ください
 
 {{% /alert %}} 
-### **WorkbookSettings.CheckCustomNumberFormat プロパティを追加**
-Aspose.Cells 17.1.0 では、CheckCustomNumberFormat プロパティが WorkbookSettings クラスに追加されました。 CheckCustomNumberFormat は、Style.Custom プロパティが適切に設定されているかどうかを確認するのに役立ちます。 Style.Custom プロパティが不適切に設定されている場合、つまり、値が有効なパターンに対応していない場合、Aspose.Cells API は適切なメッセージとともに CellsException をスローします。
+### **WorkbookSettings.CheckCustomNumberFormat プロパティが追加されました。**
+Aspose.Cells 17.1.0 に WorkbookSettings クラスに CheckCustomNumberFormat プロパティが追加されました。CheckCustomNumberFormat は Style.Custom プロパティが適切に設定されているかどうかを確認するのに役立ちます。Style.Custom プロパティが適切に設定されていない場合，つまり，値が有効なパターンに対応していないと，Aspose.Cells API は適切なメッセージとともに CellsException をスローします。
 
 {{% alert color="primary" %}} 
 
-の詳細記事をチェック[カスタム形式の確認](/cells/ja/net/check-custom-number-format-when-setting-style-custom-property/)
+カスタムフォーマットの詳細な記事は[こちら](/cells/ja/net/check-custom-number-format-when-setting-style-custom-property/)をご確認ください
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook
 
@@ -192,8 +193,8 @@ cell.SetStyle(style);
 {{< /highlight >}}
 
 
-### **DisplayUnitType.Percentage フィールドを追加**
-Aspose.Cells 17.1.0 では、Percentage フィールドも DisplayUnitType 列挙に公開されています。 DisplayUnitType.Percentage フィールドは、グラフの値が 0.01 で除算されることを示します。
-## **削除された API**
-### **インスタンス変数 m_LoadDataFilterOptions が削除されました**
-このリリースでは、m_LoadDataFilterOptions インスタンス変数が削除されました。代わりに LoadFilter.LoadDataFilterOptions プロパティを使用することをお勧めします。
+### **DisplayUnitType.Percentageフィールドを追加しました**
+Aspose.Cells 17.1.0では、DisplayUnitType列挙体にPercentageフィールドも公開されました。DisplayUnitType.Percentageフィールドは、チャート上の値を0.01で除算することを示します。
+## **API が削除されました**
+### **Instance Variable m_LoadDataFilterOptions が削除されました。**
+このリリースでは，m_LoadDataFilterOptions インスタンス変数が削除されました。LoadFilter.LoadDataFilterOptions プロパティを使用することを推奨します。

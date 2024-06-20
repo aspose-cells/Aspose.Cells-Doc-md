@@ -1,6 +1,8 @@
-﻿---
-title: Руководство для программистов PHP
+---
+title: Руководство программиста по PHP
 type: docs
 weight: 10
 url: /ru/net/php-programmers-guide/
 ---
+
+

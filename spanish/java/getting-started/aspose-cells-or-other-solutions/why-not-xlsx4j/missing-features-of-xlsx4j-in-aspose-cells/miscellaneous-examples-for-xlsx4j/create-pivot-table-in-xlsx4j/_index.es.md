@@ -1,19 +1,20 @@
-﻿---
+---
 title: Crear tabla dinámica en xlsx4j
 type: docs
 weight: 20
 url: /es/java/create-pivot-table-in-xlsx4j/
 ---
+
 ## **Aspose.Cells - Crear tabla dinámica**
 Para crear una tabla dinámica usando Aspose.Cells:
 
-1. Agregue algunos datos a las celdas de una hoja de cálculo mediante el método PutValue/setValue de un objeto Cell. También utiliza un archivo de plantilla ya lleno de datos. Los datos se utilizarán como fuente de datos de la tabla dinámica.
-1. Agregue una tabla dinámica a la hoja de trabajo llamando al método add de la colección PivotTables (encapsulado en el objeto Worksheet).
-1. Acceda al nuevo objeto PivotTable de la colección PivotTables pasando su índice. # Use cualquiera de los objetos de la tabla dinámica encapsulados en el objeto PivotTable para administrar la tabla.
+1. Agregar algunos datos a las celdas de una hoja de cálculo utilizando el método PutValue/setValue de un objeto Cell. También puede usar un archivo de plantilla ya lleno con datos. Los datos se utilizarán como origen de datos de la tabla dinámica.
+1. Agregar una tabla dinámica a la hoja de cálculo llamando al método add de la colección PivotTables (encapsulada en el objeto Worksheet).
+1. Acceder al nuevo objeto PivotTable desde la colección PivotTables pasando su índice. # Utilizar cualquiera de los objetos de tabla dinámica encapsulados en el objeto PivotTable para gestionar la tabla.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -157,13 +158,13 @@ workbook.save(dataDir + "AsposePivotTable.xls");
 
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/tables/createpivottable/AsposeCreatePivotTable.java)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Crear tablas dinámicas y gráficos dinámicos](/cells/es/java/create-pivot-tables-and-pivot-charts).
+Para más detalles, visita [Crear Tablas Dinámicas y Gráficos Dinámicos](/cells/es/java/crear-tablas-dinamicas-y-graficos-dinamicos).
 
 {{% /alert %}}

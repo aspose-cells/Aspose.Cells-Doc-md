@@ -1,17 +1,18 @@
-﻿---
+---
 title: Druckbereich festlegen
 type: docs
 weight: 30
 url: /de/net/set-print-area/
 ---
-## **Aspose.Cells - Druckbereich festlegen**
-Standardmäßig enthält nur der Druckbereich alle Bereiche des Arbeitsblatts, die Daten enthalten. Entwickler können einen bestimmten Druckbereich des Arbeitsblatts festlegen.
 
-Um einen bestimmten Druckbereich auszuwählen, verwenden Sie die[Seiteneinrichtung](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)der PrintArea-Eigenschaft der Klasse. Weisen Sie dieser Eigenschaft einen Zellbereich zu, der den Druckbereich definiert.
+## **Aspose.Cells - Druckbereich festlegen**
+Standardmäßig umfasst nur der Druckbereich alle Bereiche des Arbeitsblatts, die Daten enthalten. Entwickler können einen spezifischen Druckbereich des Arbeitsblatts festlegen.
+
+Verwenden Sie die Klasse [PageSetup](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) und die Eigenschaft PrintArea, um einen bestimmten Druckbereich auszuwählen. Weisen Sie dieser Eigenschaft einen Zellenbereich zu, der den Druckbereich definiert.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -60,12 +61,12 @@ pageSetup.PrintArea = "A1:F20";
 workbook.Save("test.xlsx");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Druckbereich festlegen**
-Die Workbook.setPrintArea-Methode ist verfügbar, um die Seiteneigenschaften des Druckbereichs festzulegen.
+## **NPOI - HSSF XSSF - Druckbereich einstellen**
+Die Methode Workbook.setPrintArea ist verfügbar, um Seiteneigenschaften des Druckbereichs festzulegen.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -123,13 +124,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Druckbereich festlegen** Bilden Sie eine der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie das Formular **Druckbereich einstellen** von einer der unten genannten Social-Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Set.Print.Area.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Druckoptionen einstellen](/cells/de/net/setting-print-options/).
+Für weitere Details besuchen Sie [Druckoptionen festlegen](/cells/de/net/setting-print-options/).
 
 {{% /alert %}}

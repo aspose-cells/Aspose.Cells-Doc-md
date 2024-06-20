@@ -1,18 +1,19 @@
-﻿---
-title: ボーダー スタイルが Web ブラウザーでサポートされていない場合に、同様のボーダー スタイルをエクスポートする
+---
+title: Webブラウザでサポートされていない場合の類似の境界線スタイルをHTMLにエクスポートする
 type: docs
 weight: 70
 url: /ja/net/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/
 ---
-## **考えられる使用シナリオ**
 
-Microsoft Excel は、Web ブラウザでサポートされていないある種の破線枠をサポートしています。このような Excel ファイルを Aspose.Cells を使用して HTML に変換すると、そのような境界線が削除されます。ただし、Aspose.Cells は、そのような境界線の表示をサポートすることもできます[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportsimilarborderstyle)財産。その値を次のように設定してください**真実**サポートされていない境界線も HTML ファイルにエクスポートされます。
+## **可能な使用シナリオ**
 
-## **ボーダー スタイルが Web ブラウザーでサポートされていない場合に、同様のボーダー スタイルをエクスポートする**
+Microsoft ExcelはWebブラウザでサポートされていない一部の破線ボーダーをサポートしています。Aspose.Cellsを使用してこのようなExcelファイルをHTMLに変換すると、そのようなボーダーは削除されます。ただし、Aspose.Cellsは[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportsimilarborderstyle)プロパティもサポートし、その値を**true**に設定すると、サポートされていないボーダーもHTMLファイルにエクスポートされます。
 
-次のサンプル コードは、[サンプル Excel ファイル](64716806.xlsx)次のスクリーンショットに示すように、サポートされていない境界線が含まれています。スクリーンショットは、[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportsimilarborderstyle)内部のプロパティ[出力 HTML](64716804.zip).
+## **Webブラウザでサポートされていない場合の類似の境界線スタイルをHTMLにエクスポートする**
 
-![todo:画像_代替_文章](export-similar-border-style-when-border-style-is-not-supported-by-web-browsers_1.png)
+次のサンプルコードは、[サンプルExcelファイル](64716806.xlsx)を読み込み、{0}プロパティを{1}に設定した後、[output HTML](64716804.zip)に保存します。スクリーンショットは、**default output**から**{2}**が出力されたHTMLへの影響を示しています。
+
+![todo:image_alt_text](export-similar-border-style-when-border-style-is-not-supported-by-web-browsers_1.png)
 
 ## **サンプルコード**
 

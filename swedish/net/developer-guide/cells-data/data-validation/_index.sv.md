@@ -3,127 +3,128 @@ title: Datavalidering
 type: docs
 weight: 90
 url: /sv/net/data-validation/
-description: Lär dig hur du lägger till datavalidering genom Aspose.Cells for .NET API.
-keywords: Add Data Validation, Get Validation Value, Add Whole Number Data Validation, Add List Data Validation, Add Date Data Validation, Add Time Data Validation, Add Text Length Data Validation, Add CellArea to existing Validation, Check if validation in cell is dropdown, Add Custom Valication  
+description: Lär dig hur man lägger till datavalidering genom Aspose.Cells for .NET API.
+keywords: Lägg till datavalidering, Hämta valideringsvärde, Lägg till heltalsdatavalidering, Lägg till listdatavalidering, Lägg till datumdatavalidering, Lägg till tidsdatavalidering, Lägg till textlängdsdatavalidering, Lägg till CellArea till befintlig validering, Kontrollera om valideringen i cellen är rullgardinsmeny, Lägg till anpassad validering  
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel tillhandahåller några bra funktioner för att automatiskt filtrera eller validera kalkylbladsdata. Aspose.Cells stöder fullt ut Microsoft Excels datavalidering och AutoFilter-funktioner. Den här artikeln förklarar hur du använder funktionerna i Microsoft Excel och hur du kodar dem med Aspose.Cells.
+Microsoft Excel erbjuder några bra funktioner för att automatiskt filtrera eller validera arbetsbladsdata. Aspose.Cells stödjer fullt ut Microsoft Excels datavaliderings- och autofiltreringsfunktioner. Den här artikeln förklarar hur man använder funktionerna i Microsoft Excel och hur man kodar dem med hjälp av Aspose.Cells.
 
 {{% /alert %}}
 
-##  **Datavalideringstyper och exekvering**
+## **Datavalideringstyper och utförande**
 
-Datavalidering är möjligheten att sätta regler för data som skrivs in på ett kalkylblad. Använd till exempel validering för att säkerställa att en kolumn märkt DATUM bara innehåller datum, eller att en annan kolumn bara innehåller siffror. Du kan till och med se till att en kolumn märkt DATUM endast innehåller datum inom ett visst intervall. Med datavalidering kan du styra vad som skrivs in i celler i kalkylbladet.
+Datavalidering är förmågan att ställa regler om data som skrivs in på ett arbetsblad. Använd till exempel validering för att säkerställa att en kolumn märkt DATUM endast innehåller datum, eller att en annan kolumn endast innehåller siffror. Du skulle även kunna säkerställa att en kolumn märkt DATUM endast innehåller datum inom ett visst intervall. Med datavalidering kan du kontrollera vad som skrivs in i celler på arbetsbladet.
 
-Microsoft Excel stöder ett antal olika typer av datavalidering. Varje typ används för att styra vilken typ av data som matas in i en cell eller cellintervall. Nedan illustrerar kodavsnitt hur man validerar det:
+Microsoft Excel stöder ett antal olika typer av datavalidering. Varje typ används för att styra vilken typ av data som skrivs in i en cell eller cellområde. Nedan illustrerar kodsnuttar hur man validerar att:
 
-- Numbers är hela, det vill säga att de inte har en decimaldel.
-- Decimaltal följer rätt struktur. Kodexemplet definierar att ett cellområde ska ha två decimaler.
-- Värden är begränsade till en lista med värden. Listvalidering definierar en separat lista med värden som kan tillämpas på en cell eller cellintervall.
-- Datum faller inom ett specifikt intervall.
+- Siffror är hela, det vill säga att de inte har en decimaldel.
+- Decimaltal följer rätt struktur. Kodexemplet definierar att en rad celler ska ha två decimaler.
+- Värden är begränsade till en lista med värden. Listvalidering definierar en separat lista med värden som kan tillämpas på en cell eller cellområde.
+- Datum ligger inom ett specifikt intervall.
 - En tid ligger inom ett specifikt intervall.
 - En text är inom en given teckenlängd.
 
-###  **Datavalidering med Microsoft Excel**
+### **Datavalidering med Microsoft Excel**
 
-Så här skapar du valideringar med Microsoft Excel:
+För att skapa valideringar med Microsoft Excel:
 
-1. I ett kalkylblad väljer du de celler som du vill tillämpa validering på.
-1.  Från**Data** menyn, välj *Validering**. Valideringsdialogrutan kommer att visas.
-1.  Klicka på**inställningar** fliken och ange inställningar.
+1. I ett kalkylblad, välj de celler till vilka du vill applicera validering.
+1. Från menyn **Data**, välj **Validering**. Valideringsdialogen visas.
+1. Klicka på fliken **Inställningar** och ange inställningar.
 
-###  **Datavalidering med Aspose.Cells**
+### **Datavalidering med Aspose.Cells**
 
-Datavalidering är en kraftfull funktion för att validera informationen som skrivs in i kalkylblad. Med datavalidering kan utvecklare ge användarna en lista med valmöjligheter, begränsa datainmatningar till en specifik typ eller storlek, etc.
- I Aspose.Cells, vardera[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)klass har en[**Valideringar**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/validations) egendom som representerar en samling av[**Godkännande**](https://reference.aspose.com/cells/net/aspose.cells/validation) föremål. För att ställa in validering, ställ in några av[**Godkännande**](https://reference.aspose.com/cells/net/aspose.cells/validation)klassegenskaper enligt följande:
+Datavalidering är en kraftfull funktion för att validera information som matas in i kalkylblad. Med datavalidering kan utvecklare tillhandahålla användare med en lista över val, begränsa datamatare till en specifik typ eller storlek, osv.
+I Aspose.Cells, har varje [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass en [**Validations**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/validations) egenskap som representerar en samling av [**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation) objekt. För att ställa in validering, ställ in några av [**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation) klassens egenskaper enligt följande:
 
-- Typ – representerar valideringstypen, som kan specificeras genom att använda ett av de fördefinierade värdena i[**ValidationType**](https://reference.aspose.com/cells/net/aspose.cells/validationtype)uppräkning.
--  Operatör – representerar den operatör som ska användas i valideringen, som kan specificeras genom att använda ett av de fördefinierade värdena i[**Operatörstyp**](https://reference.aspose.com/cells/net/aspose.cells/operatortype)uppräkning.
-- Formel1 – representerar värdet eller uttrycket som är associerat med den första delen av datavalideringen.
-- Formel2 – representerar värdet eller uttrycket som är associerat med den andra delen av datavalideringen.
+- Typ - representerar valideringstypen, vilket kan specificeras genom att använda en av de fördefinierade värdena i ​​[**ValidationType**](https://reference.aspose.com/cells/net/aspose.cells/validationtype) uppräkningen.
+- Operator - representerar operatören som ska användas i valideringen, vilket kan specificeras genom att använda en av de fördefinierade värdena i [**OperatorType**](https://reference.aspose.com/cells/net/aspose.cells/operatortype) uppräkningen.
+- Formel1 - representerar värdet eller uttrycket associerat med den första delen av datavalideringen.
+- Formel2 - representerar värdet eller uttrycket associerat med den andra delen av datavalideringen.
 
- När[**Godkännande**](https://reference.aspose.com/cells/net/aspose.cells/validation) objektets egenskaper har konfigurerats kan utvecklare använda[**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)struktur för att lagra information om cellintervallet som kommer att valideras med den skapade valideringen.
+När [**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation) objektets egenskaper har konfigurerats, kan utvecklare använda [**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) strukturen för att lagra information om cellområdet som kommer att valideras med den skapade valideringen.
 
-####  **Typer av datavalidering**
+#### **Typer av Datavalidering**
 
- De[**ValidationType**](https://reference.aspose.com/cells/net/aspose.cells/validationtype)uppräkning har följande medlemmar:
+[**ValidationType**](https://reference.aspose.com/cells/net/aspose.cells/validationtype) uppräkning har följande medlemmar:
 
-|**Medlemsnamn**|**Beskrivning**|
+| **Medlemsnamn** | **Beskrivning** |
 | :- | :- |
-|Valfritt värde|Betecknar ett värde av vilken typ som helst.|
-|Heltal|Betecknar valideringstyp för heltal.|
-|Decimal|Betecknar valideringstyp för decimaltal.|
-|Lista|Betecknar valideringstyp för rullgardinsmenyn.|
-|Datum|Betecknar valideringstyp för datum.|
-|Tid|Betecknar valideringstyp för tid.|
-|TextLängd|Betecknar valideringstyp för textens längd.|
-|Beställnings|Anger anpassad valideringstyp.|
+|AnyValue|Betecknar ett värde av valfri typ.
+|WholeNumber|Betecknar valideringstyp för heltal.
+|Decimal|Betecknar valideringstyp för decimaltal.
+|List|Betecknar valideringstyp för nedrullningslistan.
+|Date|Betecknar valideringstyp för datum.
+|Time|Betecknar valideringstyp för tid.
+|TextLength|Betecknar valideringstyp för längden av text.
+|Custom|Betecknar anpassad valideringstyp.
 
-#####  **Helnummerdatavalidering**
+##### **Heltalsdatavalidering**
 
-Med denna typ av validering kan användare endast ange heltal inom ett specificerat intervall i de validerade cellerna. Kodexemplen som följer visar hur man implementerar WholeNumber-valideringstypen. Exemplet skapar samma datavalidering med Aspose.Cells som vi skapade med Microsoft Excel ovan.
+Med den här typen av validering kan användare bara mata in heltal inom ett specificerat intervall i de validerade cellerna. Kodexemplen nedan visar hur man implementerar valideringstypen Heltal. Exemplet skapar samma datavalidering med Aspose.Cells som vi skapade med Microsoft Excel ovan.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-WholeNumberDataValidation-1.cs" >}}
 
-#####  **Listdatavalidering**
+##### **Listvalidering**
 
-Denna typ av validering tillåter användaren att ange värden från en rullgardinslista. Det ger en lista: en serie rader som innehåller data. I exemplet läggs ett andra kalkylblad till som innehåller listkällan. Användare kan bara välja värden från listan. Valideringsområdet är cellområdet A1:A5 i det första kalkylbladet.
+Denna typ av validering tillåter användaren att mata in värden från en nedrullningslista. Det tillhandahåller en lista: en serie rader som innehåller data. I exemplet läggs ett andra kalkylblad till för att hålla listkällan. Användare kan endast välja värden från listan. Valideringsområdet är cellområdet A1:A5 i det första kalkylbladet.
 
- Det är viktigt här att du ställer in[**Validation.InCellDropDown**](https://reference.aspose.com/cells/net/aspose.cells/validation/properties/incelldropdown)egendom till *sant**.
+Det är viktigt här att du ställer in [**Validation.InCellDropDown**](https://reference.aspose.com/cells/net/aspose.cells/validation/properties/incelldropdown) egenskapen till **true**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-ListDataValidation-1.cs" >}}
 
-#####  **Datum Validering av data**
+##### **Datumdata validering**
 
-Med denna typ av validering anger användare datumvärden inom ett specificerat intervall, eller uppfyller specifika kriterier, i de validerade cellerna. I exemplet är användaren begränsad till att ange datum mellan 1970 och 1999. Här är valideringsområdet B1-cellen.
+Med denna typ av validering anger användare datumvärden inom ett angivet intervall eller enligt specifika kriterier i de validerade cellerna. I exemplet är användaren begränsad att ange datum mellan 1970 och 1999. Här är valideringsområdet cell B1.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-DateDataValidation-1.cs" >}}
 
-#####  **Tidsdatavalidering**
+##### **Tidsdata validering**
 
-Med denna typ av validering kan användare ange tider inom ett specificerat intervall, eller uppfylla vissa kriterier, i de validerade cellerna. I exemplet är användaren begränsad att ange tider mellan 09:00 och 11:30. Här är valideringsområdet B1-cellen.
+Med denna typ av validering kan användare ange tider inom ett angivet intervall eller enligt vissa kriterier i de validerade cellerna. I exemplet är användaren begränsad att ange tider mellan 09:00 och 11:30 förmiddag. Här är valideringsområdet cell B1.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-TimeDataValidation-1.cs" >}}
 
-#####  **Textlängd Datavalidering**
+##### **Textlängd data validering**
 
-Med denna typ av validering kan användare ange textvärden av en angiven längd i de validerade cellerna. I exemplet är användaren begränsad till att ange strängvärden med högst 5 tecken. Valideringsområdet är B1-cellen.
+Med denna typ av validering kan användare ange textvärden av en angiven längd i de validerade cellerna. I exemplet är användaren begränsad att ange strängvärden med högst 5 tecken. Valideringsområdet är cell B1.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-TextLengthDataValidation-1.cs" >}}
 
-###  **Regler för datavalidering**
+### **Data valideringsregler**
 
- När datavalideringar implementeras kan valideringen kontrolleras genom att tilldela olika värden i cellerna.[**Cell.GetValidationValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) kan användas för att hämta valideringsresultatet. Följande exempel visar denna funktion med olika värden. Exempelfilen kan laddas ner från följande länk för testning:
+När datavalideringar implementeras, kan valideringen kontrolleras genom att tilldela olika värden i cellerna. [**Cell.GetValidationValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) kan användas för att hämta valideringsresultatet. Följande exempel demonstrerar denna funktion med olika värden. Exempelfilen kan laddas ned från länken nedan för testning:
 
 [sampleDataValidationRules.xlsx](77496339.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DataValidationRules-1.cs" >}}
 
-##  **Kontrollera om validering i cellen är rullgardinsmenyn**
+## **Kontrollera om valideringen i cellen är rullgardinsmeny**
 
- Som vi har sett finns det många typer av valideringar som kan implementeras inom en cell. Om du vill kontrollera om validering är rullgardinsmeny eller inte,[**Validation.InCellDropDown**](https://reference.aspose.com/cells/net/aspose.cells/validation/properties/incelldropdown)egenskap kan användas för att testa detta. Följande exempelkod visar användningen av den här egenskapen. En provfil för testning kan laddas ner från följande länk:
+Som vi har sett finns det många typer av valideringar som kan implementeras i en cell. Om du vill kontrollera om valideringen är en rullgardinsmeny eller inte, kan [**Validation.InCellDropDown**](https://reference.aspose.com/cells/net/aspose.cells/validation/properties/incelldropdown)-egenskapen användas för att testa detta. Följande kodexempel demonstrerar användningen av denna egenskap. En exempelfil för testning kan laddas ned från länken nedan:
 
 [sampleValidation.xlsx](79527947.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CheckIfValidationInCellDropDown-1.cs" >}}
 
-##  **Lägg till CellArea till befintlig validering**
+## **Lägg till CellArea till befintlig validering**
 
- Det kan finnas fall där du kanske vill lägga till[**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)att existera[**Godkännande**](https://reference.aspose.com/cells/net/aspose.cells/validation). När du lägger till[**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) använder sig av[**Validation.AddArea(CellArea cellArea)**](https://reference.aspose.com/cells/net/aspose.cells/validation/methods/addarea), Aspose.Cells kontrollerar alla befintliga områden för att se om det nya området redan finns. Om filen har ett stort antal valideringar tar detta en prestandaträff. För att övervinna detta tillhandahåller API[**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) metod. De*check Intersection* parametern anger om skärningspunkten mellan ett givet område och befintliga valideringsområden ska kontrolleras. Ställer in den på**falsk** kommer att inaktivera kontrollen av andra områden. De*checkEdge*parametern indikerar om de applicerade områdena ska kontrolleras. Om det nya området blir det övre vänstra området byggs interna inställningar om. Om du är säker på att det nya området inte är det övre vänstra området kan du ställa in denna parameter som *falskt**.
+Det kan finnas fall där du vill lägga till [**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) till befintlig [**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation). När du lägger till [**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) med hjälp av [**Validation.AddArea(CellArea cellArea)**](https://reference.aspose.com/cells/net/aspose.cells/validation/methods/addarea), kontrollerar Aspose.Cells alla befintliga områden för att se om det nya området redan finns. Om filen har många valideringar påverkar detta prestandan. För att komma runt detta tillhandahåller API:et metoden [**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1). Parametern *checkIntersection* indikerar om det ska kontrolleras om det nya området korsar andra valideringsområden. Om den sätts till **false** inaktiveras kontrollen av andra områden. Parametern *checkEdge* indikerar om de tillämpade områdena ska kontrolleras. Om det nya området blir det översta vänstra området byggs interna inställningar om. Om du är säker på att det nya området inte är det översta vänstra området kan du ställa in denna parameter som **false**.
 
-Följande kodavsnitt visar användningen av[**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) metod för att lägga till nytt[**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)att existera[**Godkännande**](https://reference.aspose.com/cells/net/aspose.cells/validation).
+Följande kodsnutt demonstrerar användningen av [**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1)-metoden för att lägga till ny [**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) till befintlig [**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddValidationArea-1.cs" >}}
 
-Käll- och utdata Excel-filerna bifogas som referens.
+Käll- och utdataexcelfilerna är bilagda som referens.
 
-[Källfilen](96928093.xlsx)
+[Källfil](96928093.xlsx)
 
 [Utdatafil](96928220.xlsx)
 
 
-##  **Förhandsämnen**
-- [Få Cell Validering i ODS filer](/cells/sv/net/get-cell-validation-in-ods-files/)
-- [Få validering tillämpad på en Cell](/cells/sv/net/get-validation-applied-on-a-cell/)
-- [Verifiera att Cell-värdet uppfyller reglerna för datavalidering](/cells/sv/net/verify-that-cell-value-satisfies-data-validation-rules/)
+## **Fortsatta ämnen**
+- [Hämta cellvalidering i ODS-filer](/cells/sv/net/get-cell-validation-in-ods-files/)
+- [Få validering som tillämpas på en cell](/cells/sv/net/get-validation-applied-on-a-cell/)
+- [Verifiera att cellvärdet uppfyller datavalideringsreglerna](/cells/sv/net/verify-that-cell-value-satisfies-data-validation-rules/)

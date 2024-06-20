@@ -1,13 +1,14 @@
 ---
-title: ICustomFunction Özelliğini Kullanma
+title: ICustomFunction Özelliği Kullanımı
 type: docs
 weight: 20
 url: /tr/cpp/using-icustomfunction-feature/
 ---
-##  **Modası geçmiş**
-Bunun yerine AbstractCalculationEngine'i kullanın.
 
-**Yeni sürümde bu sınıfın yerini AbstractCalculationEngine almıştır ancak işlev hâlâ geliştirilmektedir, bu nedenle bizi izlemeye devam edin.**
+## **Eski**
+Yerine AbstractCalculationEngine kullanın.
 
-**başvurmak** [AbstractCalculationEngine Özelliğini Kullanma](../using-abstractcalculationengine-feature/)
+**Bu sınıf, yeni sürümde AbstractCalculationEngine tarafından değiştirildi, ancak fonksiyon hala geliştirilmektedir, takipte kalın.**
+
+**bkz** [AbstractCalculationEngine Özelliği Kullanımı](../using-abstractcalculationengine-feature/)
 

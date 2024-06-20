@@ -1,34 +1,35 @@
-﻿---
-title: Ändern von Berichtsattributen
+---
+title: Berichtsattribute ändern
 type: docs
 weight: 90
 url: /de/reportingservices/modifying-report-attributes/
 ---
-So ändern Sie die Attribute eines Berichts:
 
-1.  Klicken**Attribut ändern**auf der Symbolleiste Aspose.Cells.Report.Designer (
+Um die Attribute eines Berichts zu ändern:
 
-![todo: Bild_alt_Text](modifying-report-attributes_1.png)
+1. Klicken Sie auf **Attribut ändern** in der Aspose.Cells.Report.Designer-Symbolleiste (
+
+![todo:image_alt_text](modifying-report-attributes_1.png)
 
 ).
-Verfügbare Berichte sind im linken Bereich aufgelistet.
+Verfügbare Berichte werden im linken Bereich aufgelistet. 
 
-1.  Wählen Sie einen Bericht aus und klicken Sie darauf**Ändern**. 
+1. Wählen Sie einen Bericht aus und klicken Sie auf **Ändern**. 
 
-   **Auswählen eines Berichts** 
+   **Auswahl eines Berichts** 
 
-![todo: Bild_alt_Text](modifying-report-attributes_2.png)
-
-
-
-
-1.  Ändern Sie die Berichtsattribute.
-
-   **Ändern der Attribute** 
-
-![todo: Bild_alt_Text](modifying-report-attributes_3.png)
+![todo:image_alt_text](modifying-report-attributes_2.png)
 
 
 
 
-1.  Klicken**Begehen** beenden.
+1. Ändern Sie die Berichtsattribute. 
+
+   **Attributänderung** 
+
+![todo:image_alt_text](modifying-report-attributes_3.png)
+
+
+
+
+1. Klicken Sie auf **Bestätigen**, um den Vorgang abzuschließen.

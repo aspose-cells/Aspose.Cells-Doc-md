@@ -1,14 +1,15 @@
-﻿---
+---
 title: Elektronik Tabloda Bul ve Değiştir
 type: docs
 weight: 30
 url: /tr/net/find-and-replace-in-spreadsheet/
 ---
-![yapılacaklar:resim_alternatif_metin](Find_and_Replace.png)
 
-Bul butonuna tıkladığımızda aşağıdaki kod:
+![todo:image_alt_text](Find_and_Replace.png)
 
-{{< highlight "csharp" >}}
+Bul düğmesine tıkladığımızda aşağıdaki kod çalıştırılır:
+
+{{< highlight csharp >}}
 
  if (TXBX_Find.Text != "")
 
@@ -54,9 +55,9 @@ Bul butonuna tıkladığımızda aşağıdaki kod:
 
 {{< /highlight >}}
 
-Değiştir düğmesine tıklandığında aşağıdaki kod yürütülür:
+Değiştir düğmesine tıkladığımızda aşağıdaki kod çalıştırılır:
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  if (TXBX_Find.Text != "" && TXBX_Replace.Text!="")
 
@@ -108,7 +109,7 @@ Değiştir düğmesine tıklandığında aşağıdaki kod yürütülür:
 
 {{< /highlight >}}
 
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Find%20and%20replace%20%28Aspose.Cells%29.zip)

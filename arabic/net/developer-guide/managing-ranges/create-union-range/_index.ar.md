@@ -1,16 +1,17 @@
-﻿---
-title: إنشاء نطاق الاتحاد
+---
+title: إنشاء مجموعة الاتحاد
 type: docs
 weight: 360
 url: /ar/net/create-union-range/
 ---
-## **إنشاء نطاق الاتحاد**
- يوفر Aspose.Cells القدرة على تكوين Union Range باستخدام[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange)طريقة. ال[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange)الطريقة تقبل معلمتين ، العنوان لإنشاء نطاق الاتحاد وفهرس ورقة العمل. ال[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange) طريقة إرجاع أ[UnionRange](https://reference.aspose.com/cells/net/aspose.cells/unionrange) موضوع.
 
-يوضح مقتطف التعليمات البرمجية التالي إنشاء نطاق الاتحاد باستخدام[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange)طريقة. يتم إرفاق ملف الإخراج الذي تم إنشاؤه بواسطة الرمز كمرجع.
+## **إنشاء مجموعة الاتحاد**
+توفر Aspose.Cells القدرة على إنشاء مجموعة الاتحاد باستخدام [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange) الأسلوب. تقبل الأسلوب [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange) معلمتين، عنوان إنشاء مجموعة الاتحاد وفهرس ورقة العمل. يعيد الأسلوب [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange) كائن [UnionRange](https://reference.aspose.com/cells/net/aspose.cells/unionrange).
 
-- [ملف إلاخراج](106364952.xlsx)
+توضح مقطع الكود التالي إنشاء مجموعة الاتحاد باستخدام [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange) الأسلوب. الملف الناتج الذي تم إنشاؤه بواسطة الكود مرفق للإشارة.
+
+- [ملف الناتج](106364952.xlsx)
 
 
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-UpdatePowerQueryFormulaItem-1.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "CreateUnionRange.cs" >}}

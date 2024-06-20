@@ -1,44 +1,45 @@
 ---
-title: Creazione di un grafico a torta con linee guida
-description: Scopri come utilizzare Aspose.Cells for .NET per creare un grafico a torta con linee direttrici in Microsoft Excel. La nostra guida mostrerà come aggiungere linee guida che collegano i punti dati alla legenda e migliorano la chiarezza generale del tuo grafico.
-keywords: Aspose.Cells for .NET, Pie Chart, Leader Lines, Microsoft Excel, Data Visualization, Chart Customization.
-linktitle: Grafico a torta
+title: Creazione di un Grafico a Torta con Linee di Guida
+description: Scopri come utilizzare il Aspose.Cells for .NET per creare un grafico a torta con linee guida in Microsoft Excel. La nostra guida dimostrerà come aggiungere linee guida che collegano i punti dati alla leggenda e migliorano la chiarezza complessiva del grafico.
+keywords: Aspose.Cells for .NET, Grafico a Torta, Linee Guida, Microsoft Excel, Visualizzazione dei Dati, Personalizzazione del Grafico.
+linktitle: Grafico a Torta
 type: docs
 weight: 45
 url: /it/net/creating-pie-chart-with-leader-lines/
 ---
+
 {{% alert color="primary" %}}
 
-Questo articolo spiega come creare da zero un grafico a torta con linee direttrici utilizzando Aspose.Cells for .NET API. In Excel, l'opzione "Mostra linee direttrici" è impostata per impostazione predefinita, quindi quando crei un grafico a torta in Excel vengono visualizzate le linee direttrici. Tuttavia, durante la creazione di un grafico simile con le API Aspose.Cells, è necessario impostare esplicitamente il file[**Serie.HasLeaderLines**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/hasleaderlines) proprietà.
+Questo articolo spiega come creare un grafico a torta con linee guida da zero utilizzando l'API Aspose.Cells for .NET. In Excel, l'opzione 'Mostra capi di linea' è impostata per impostazione predefinita, quindi quando si crea un grafico a torta in Excel, i capi di linea sono mostrati. Tuttavia, mentre si crea un grafico simile con le API Aspose.Cells, è necessario impostare esplicitamente la proprietà [**Series.HasLeaderLines**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/hasleaderlines).
 
 {{% /alert %}}
 
- Per dimostrare l'utilizzo di Aspose.Cells for .NET API per creare un grafico a torta con linee direttrici, creeremo prima un nuovo[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) e inserisci alcuni dati che fungeranno da origine dati della serie. Una volta che i dati saranno a posto, aggiungeremo a[**Grafico**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) di tipo[**ChartType.Pie**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)alla raccolta di grafici e impostarne i diversi aspetti per ottenere la visualizzazione del grafico desiderata.
+Per dimostrare l'uso dell'API Aspose.Cells for .NET per creare un grafico a torta con linee guida, creeremo prima un nuovo [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) e inseriremo alcuni dati che serviranno come origine dei dati della serie. Una volta che i dati sono posizionati, aggiungeremo una [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) di tipo [**ChartType.Pie**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) alla collezione dei grafici e ne imposteremo gli aspetti differenti per ottenere la vista desiderata del grafico.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreatePieChartWithLeaderLines-CreateWorkbook.cs" >}}
 
-Finora abbiamo creato un grafico a torta e ne abbiamo definito i diversi aspetti. Ora attiveremo le linee guida per il grafico. Tieni presente che per mostrare le linee guida dobbiamo spostare leggermente le etichette dei dati.
+Finora abbiamo creato un grafico a torta e ne abbiamo impostato gli aspetti differenti. Ora stiamo per attivare i capi di linea per il grafico. Si noti, per mostrare i capi di linea, dobbiamo spostare leggermente le etichette dei dati.
 
-La seguente parte di codice attiva le linee guida, aggiorna il grafico e quindi calcola le posizioni delle etichette dati per spostarle di conseguenza.
+Il seguente pezzo di codice attiva i capi di linea, aggiorna il grafico e quindi calcola le posizioni delle etichette dei dati per spostarle di conseguenza.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreatePieChartWithLeaderLines-TurnOnLeaderLines.cs" >}}
 
-Infine, il codice seguente salva il grafico in formato immagine e la cartella di lavoro in formato XLSX.
+Infine, il seguente codice salva il grafico in formato immagine e il workbook in formato XLSX.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreatePieChartWithLeaderLines-SaveChartInImageAndWorkbookInXLSX.cs" >}}
 
 |**Grafico a torta risultante**|
 | :- |
-|![cose da fare:immagine_alt_testo](creating-pie-chart-with-leader-lines_1.png)|
+|![todo:image_alt_text](creating-pie-chart-with-leader-lines_1.png)|
 
-##  **Argomenti avanzati**
-- [Colori personalizzati delle sezioni o dei settori nel grafico a torta](/cells/it/net/custom-slice-or-sector-colors-in-pie-chart/)
-- [Scopri se i punti dati si trovano nella seconda torta o nella barra di un grafico a torta o a barra della torta](/cells/it/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
+## **Argomenti avanzati**
+- [Colori delle fette personalizzate in un grafico a torta](/cells/it/net/custom-slice-or-sector-colors-in-pie-chart/)
+- [Verifica se i punti dati sono nel secondo grafico a torta o a barre su un grafico di torta o barre di un grafico a torta](/cells/it/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
 
-##  articoli Correlati
+## Articoli correlati
 
 - [Creazione di grafici](/cells/it/net/creating-charts/)
-- [Grafici personalizzati](/cells/it/net/customizing-charts/)
+- [Personalizzazione dei grafici](/cells/it/net/customizing-charts/)
 - [Formattazione dei dati nei grafici](/cells/it/net/data-formatting-in-charts/)
-- [Impostazione dell'aspetto della carta](/cells/it/net/setting-chart-appearance/)
+- [Impostazione dell'aspetto del grafico](/cells/it/net/setting-chart-appearance/)
 

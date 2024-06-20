@@ -1,23 +1,24 @@
-﻿---
+---
 title: Получить диапазон с внешними ссылками
 type: docs
 weight: 140
 url: /ru/java/get-range-with-external-links/
 ---
+
 ## **Получить диапазон с внешними ссылками**
 
-Файлы Excel часто обращаются к данным из других файлов Excel с помощью внешних ссылок. Aspose.Cells предоставляет возможность получить эти внешние ссылки с помощью[**Имя.GetReferredAreas**](https://reference.aspose.com/cells/java/com.aspose.cells/name#getReferredAreas(boolean)) метод.[**Имя.GetReferredAreas**](https://reference.aspose.com/cells/java/com.aspose.cells/name#getReferredAreas(boolean)) возвращает массив типа[**ReferredArea**](https://reference.aspose.com/cells/java/com.aspose.cells/ReferredArea).[**ReferredArea**](https://reference.aspose.com/cells/java/com.aspose.cells/ReferredArea)класс предоставляет[**ИмяВнешнегоФайла**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#ExternalFileName)свойство, которое возвращает имя внешнего файла.[**ReferredArea**](https://reference.aspose.com/cells/java/com.aspose.cells/ReferredArea)класс предоставляет следующие члены.
+Многократно файлы Excel получают доступ к данным из других файлов Excel с использованием внешних ссылок. Aspose.Cells предоставляет возможность получить эти внешние ссылки, используя метод [**Name.GetReferredAreas**](https://reference.aspose.com/cells/java/com.aspose.cells/name#getReferredAreas(boolean)). Метод [**Name.GetReferredAreas**](https://reference.aspose.com/cells/java/com.aspose.cells/name#getReferredAreas(boolean)) возвращает массив типа [**ReferredArea**](https://reference.aspose.com/cells/java/com.aspose.cells/ReferredArea). Класс [**ReferredArea**](https://reference.aspose.com/cells/java/com.aspose.cells/ReferredArea) предоставляет свойство [**ExternalFileName**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#ExternalFileName), которое возвращает имя внешнего файла. Класс [**ReferredArea**](https://reference.aspose.com/cells/java/com.aspose.cells/ReferredArea) выдает следующие члены.
 
-- [**Конечная колонка**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#EndColumn): Конечный столбец области
-- [**Конечная строка**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#EndRow): Конечная строка области
-- [**ИмяВнешнегоФайла**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#ExternalFileName): получить имя внешнего файла, если это внешняя ссылка
+- [**EndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#EndColumn): Конечный столбец области
+- [**EndRow**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#EndRow): Конечная строка области
+- [**ExternalFileName**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#ExternalFileName): Получить имя внешнего файла, если это внешняя ссылка
 - [**IsArea**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#IsArea): Указывает, является ли это областью
-- [**Исэкстерналлинк**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#IsExternalLink): указывает, является ли это внешней ссылкой
-- [**имя листа**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#SheetName): Указывает, на каком листе находится эта ссылка.
-- [**СтартКолонка**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#StartColumn): Начальный столбец области
-- [**StartRow**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#StartRow): Начальный ряд области
+- [**IsExternalLink**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#IsExternalLink): Указывает, является ли это внешней ссылкой
+- [**SheetName**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#SheetName): Указывает, в каком листе находится эта ссылка
+- [**StartColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#StartColumn): Начальный столбец области
+- [**StartRow**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#StartRow): Начальная строка области
 
-Пример кода, приведенный ниже, демонстрирует использование[**Имя.GetReferredAreas**](https://reference.aspose.com/cells/java/com.aspose.cells/name#getReferredAreas(boolean)) метод получения диапазонов с внешними ссылками.
+Приведенный ниже образец кода демонстрирует использование метода [**Name.GetReferredAreas**](https://reference.aspose.com/cells/java/com.aspose.cells/name#getReferredAreas(boolean)) для получения диапазонов с внешними ссылками.
 
 ## **Образец кода**
 

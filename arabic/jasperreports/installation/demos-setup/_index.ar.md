@@ -1,28 +1,29 @@
-﻿---
+---
 title: إعداد العروض التوضيحية
 type: docs
 weight: 40
 url: /ar/jasperreports/demos-setup/
 ---
+
 {{% alert color="primary" %}}
 
-يتضمن Aspose.Cells for JasperReports عددًا من المشاريع التجريبية لمساعدتك على بدء تصدير التقارير إلى تنسيقات مستندات Excel Microsoft من التطبيق الخاص بك.
+يتضمن Aspose.Cells for JasperReports عددًا من مشاريع العرض التوضيحي لمساعدتك في بدء تصدير التقارير إلى تنسيقات مستند Microsoft Excel من تطبيقك.
 
-العروض التوضيحية المقدمة مع Aspose.Cells for JasperReports هي عروض توضيحية قياسية لـ JasperReports تم تعديلها لتوضيح استخدام المصدرين الجدد.
+يتم توفير العروض التوضيحية المقدمة مع Aspose.Cells for JasperReports من خلال عروض تجريبية قياسية لـ JasperReports تم تعديلها لتوضيح استخدام المصدرات الجديدة.
 
 {{% /alert %}}
 
-لتشغيل Aspose.Cells for JasperReports العروض التوضيحية ، قم بتنفيذ الخطوات التالية:
+لتشغيل العروض التوضيحية لـ Aspose.Cells for JasperReports، قم بأداء الخطوات التالية:
 
-1.  تنزيل JasperReports (على سبيل المثال<https://sourceforge.net/projects/jasperreports/files/archive/>). تأكد من تنزيل المشروع المؤرشف بالكامل باستخدام كود المصدر والعروض التوضيحية ، وليس مجرد JAR واحد.
-1. قم بفك ضغط المشروع المؤرشف في مكان ما على القرص الثابت لديك ، على سبيل المثال C: \.
-1.  انسخ جميع مجلدات العرض التوضيحي من المجلد التجريبي الخاص بـ**Aspose.Cells.JasperReports.zip** إلى**\ <InstallDir> \ تجريبي \ عينات**، أين "\<InstallDir>"هو الموقع الذي قمت بفك حزم JasperReports إليه. هذه الخطوة مطلوبة لأن البرامج النصية للبناء التجريبي تعتمد على بنية مجلد JasperReports ، وإلا فستحتاج إلى تعديل البرامج النصية للبناء.
-1.  ينسخ**aspose.cells.jasperreports.jar** من مجلد \ lib Aspose.Cells.JasperReports.zip إلى**\ <InstallDir> \ lib**.
-1.  قم بإعداد أداة بناء النمل ومدير تبعية اللبلاب ، انظر**\ <InstallDir> \ readme.txt**.
-1.  تعديل**build.xml** في**\ <InstallDir> \ تجريبي \ عينات**، أضف aspose.cells.jasperreports.jar إلى مسار الفصل الدراسي:
-   **\ <path id = "project-classpath"> ... \ <pathelement location = "../../ lib / aspose.cells.jasperreports.jar" /> </path>**.
-1.  قم بتغيير الدليل الحالي إلى**\ <InstallDir> \ demo \ hsqldb** وقم بتشغيل سطر الأوامر التالي:
-   **نملة runServer**
-1.  قم بتغيير الدليل الحالي إلى أحد العروض التوضيحية Aspose.Cells for JasperReports ، على سبيل المثال**\ <InstallDir> \ demo \ sample \ ac.charts** وقم بتشغيل الأوامر التالية في سطر الأوامر:
-   **اختبار النمل** - لإنتاج ملفات التقارير باستخدام المصدر Aspose XLS.
-1.  افتح أحد المستندات الناتجة لعرضها ، على سبيل المثال**\ <InstallDir> \ demo \ sample \ ac.charts \ build \ Reports \ AreaChartReport.xls** في Microsoft Excel أو تطبيق آخر.
+1. Download JasperReports (e.g <https://sourceforge.net/projects/jasperreports/files/archive/>). Make sure to download the entire archived project with the source code and demos, not just a single JAR.
+1. قم بفك تجميع المشروع المؤرشف إلى موقع ما على القرص الصلب الخاص بك، على سبيل المثال C:\.
+1. Copy all demo folders from the \demo folder of **Aspose.Cells.JasperReports.zip** to **\<InstallDir>\demo\samples**, where "\<InstallDir>" is the location you have unpacked JasperReports to. This step is required because demo build scripts rely on the JasperReports’ folder structure, otherwise you will need to modify build scripts.
+1. Copy **aspose.cells.jasperreports.jar** from the \lib folder of Aspose.Cells.JasperReports.zip to **\<InstallDir>\lib**.
+1. Prepare Ant Build Tool and Ivy Dependency Manager, see **\<InstallDir>\readme.txt**.
+1. Modify the **build.xml** at **\<InstallDir>\demo\samples**, add the aspose.cells.jasperreports.jar into the classpath:
+   **\<path id="project-classpath"> ... \<pathelement location="../../lib/aspose.cells.jasperreports.jar"/> </path>**.
+1. Change the current directory to **\<InstallDir>\demo\hsqldb** and run the following command line:
+   **ant runServer**
+1. Change the current directory to one of the Aspose.Cells for JasperReports demos, for example **\<InstallDir>\demo\samples\ac.charts** and run the following commands in the command line:
+   **اختبار النملة** - لإنتاج ملفات تقارير باستخدام مصدر التصدير Aspose XLS.
+1. Open one of the resulting documents to view, for example **\<InstallDir>\demo\samples\ac.charts\build\reports\AreaChartReport.xls** in Microsoft Excel or another application.

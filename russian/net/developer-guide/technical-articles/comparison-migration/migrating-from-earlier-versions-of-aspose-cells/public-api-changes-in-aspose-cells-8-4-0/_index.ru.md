@@ -1,27 +1,28 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.4.0
+---
+title: Изменения в общедоступном API в Aspose.Cells 8.4.0
 type: docs
 weight: 130
 url: /ru/net/public-api-changes-in-aspose-cells-8-4-0/
 ---
+
 {{% alert color="primary" %}} 
 
-В этом документе описаны изменения в Aspose.Cells API с версии 8.3.2 до 8.4.0, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные публичные методы,[добавлены классы и т.д.](/cells/ru/net/public-api-changes-in-aspose-cells-8-4-0/) и[удалены классы и т.д.](/cells/ru/net/public-api-changes-in-aspose-cells-8-4-0/), но и описание любых изменений в поведении за кулисами в Aspose.Cells.
+Данный документ описывает изменения в API Aspose.Cells с версии 8.3.2 до 8.4.0, которые могут быть интересны разработчикам модуля/приложения. В нем содержатся не только новые и обновленные публичные методы, [добавленные классы и т.д.](/cells/ru/net/public-api-changes-in-aspose-cells-8-4-0/) и [удаленные классы и т.д.](/cells/ru/net/public-api-changes-in-aspose-cells-8-4-0/), но также описание любых изменений в поведении за кулисами в Aspose.Cells.
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Механизм изменения кода VBA/макро в электронных таблицах**
- Для обеспечения возможности[Манипуляции с кодом VBA/макро](/cells/ru/net/modifying-vba-or-macro-code-using-aspose-cells/), Aspose.Cells for .NET 8.4.0 представил ряд новых классов и свойств в пространстве имен Aspose.Cells.Vba. Вот несколько важных деталей этих новых классов.
+## **Добавленные API**
+### **Механизм изменения кода VBA/Macro в электронных таблицах**
+Для предоставления функции [Манипуляция кодом VBA/Macro](/cells/ru/net/modifying-vba-or-macro-code-using-aspose-cells/), Aspose.Cells for .NET 8.4.0 предоставил ряд новых классов и свойств в пространстве имен Aspose.Cells.Vba. Несколько важных деталей этих новых классов следующие.
 
-- Класс VbaProject можно использовать для извлечения проекта VBA из данной электронной таблицы.
-- Класс VbaModuleCollection представляет коллекцию модулей VBA, которые являются частью данного VbaProject.
-- Класс VbaModule представляет один модуль из коллекции VbaModuleCollection.
+- Класс VbaProject может быть использован для извлечения проекта VBA из заданной электронной таблицы.
+- Класс VbaModuleCollection представляет коллекцию VBA-модулей, которые являются частью заданного VbaProject.
+- Класс VbaModule представляет один модуль из VbaModuleCollection.
 
-В следующем фрагменте кода показано, как динамически изменять сегменты кода VBA.
+Далее приведен фрагмент кода, показывающий, как динамически изменить сегменты кода VBA.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source Excel file
 
@@ -57,16 +58,16 @@ workbook.Save("output.xlsm");
 
 
 ### **Возможность удалить сводную таблицу**
-Aspose.Cells for .NET 8.4.0 предоставляет два метода для PivotTableCollection, чтобы обеспечить функцию удаления сводной таблицы из данной электронной таблицы. Детали вышеупомянутых способов следующие.
+Aspose.Cells for .NET 8.4.0 предоставил два метода для коллекции PivotTable для предоставления функции удаления сводной таблицы из заданной электронной таблицы. Подробности указанных методов следующие.
 
-- Метод PivotTableCollection.Remove принимает объект сводной таблицы и удаляет его из коллекции.
-- Метод PivotTableCollection.RemoveAt принимает целочисленное значение на основе нулевого индекса и удаляет конкретную сводную таблицу из коллекции.
+- Метод PivotTableCollection.Remove принимает объект PivotTable и удаляет его из коллекции.
+- Метод PivotTableCollection.RemoveAt принимает значение целочисленного типа на основе нулевого индекса и удаляет конкретную сводную таблицу из коллекции.
 
-В следующем фрагменте кода показано, как удалить сводную таблицу, используя оба вышеупомянутых метода.
+Далее показан фрагмент кода, показывающий, как удалить сводную таблицу с использованием обоих вышеупомянутых методов.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source Excel file
 
@@ -96,23 +97,23 @@ workbook.Save("output.xlsx");
 
 
 ### **Поддержка различных макетов сводных таблиц**
-Aspose.Cells for .NET 8.4.0 обеспечивает поддержку различных предопределенных макетов для сводных таблиц. Чтобы обеспечить эту функцию, API-интерфейсы Aspose.Cells предоставили три метода для класса сводной таблицы, как подробно описано ниже.
+Aspose.Cells for .NET 8.4.0 предоставляет поддержку различных предопределенных макетов для сводных таблиц. Для реализации этой функции API Aspose.Cells предоставляет три метода для класса PivotTable, подробности о которых приведены ниже.
 
 - Метод PivotTable.ShowInCompactForm отображает сводную таблицу в компактном макете.
-- Метод PivotTable.ShowInOutlineForm отображает сводную таблицу в макете Outline.
-- Метод PivotTable.ShowInTabularForm отображает сводную таблицу в виде таблицы.
+- Метод PivotTable.ShowInOutlineForm отображает сводную таблицу в макете контура.
+- Метод PivotTable.ShowInTabularForm отображает сводную таблицу в табличном макете.
 
 {{% alert color="primary" %}} 
 
-Важно вызывать PivotTable.RefreshData и PivotTable.CalculateData после установки любого из вышеупомянутых макетов.
+Важно вызывать методы PivotTable.RefreshData и PivotTable.CalculateData после установки любого из вышеупомянутых макетов.
 
 {{% /alert %}} 
 
-Следующий пример кода задает различные макеты для сводной таблицы и сохраняет результат на диске.
+В следующем примере кода устанавливаются различные компоновки для сводной таблицы и результат сохраняется на диск.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -171,19 +172,19 @@ workbook.Save("TabularForm.xlsx");
 {{< /highlight >}}
 
 
-### **Добавлен класс TxtLoadStyleStrategy и свойство TxtLoadOptions.LoadStyleStrategy.**
-Aspose.Cells for .NET 8.4.0 предоставляет класс TxtLoadStyleStrategy и свойство TxtLoadOptions.LoadStyleStrategy для указания стратегии форматирования проанализированных значений при преобразовании строкового значения в число или дату и время.
-### **Добавлен метод DataBar.ToImage**
-С выпуском v8.4.0 Aspose.Cells API предоставил метод DataBar.ToImage для сохранения условно отформатированных панелей данных в формате изображения. Метод {DataBar.ToImage}} принимает два параметра, как описано ниже.
+### **Добавлены класс TxtLoadStyleStrategy и свойство TxtLoadOptions.LoadStyleStrategy.**
+Aspose.Cells for .NET 8.4.0 предоставил класс TxtLoadStyleStrategy и свойство TxtLoadOptions.LoadStyleStrategy для указания стратегии форматирования разобранных значений при преобразовании строкового значения в число или дату.
+### **Добавлен метод DataBar.ToImage.**
+С выпуском v8.4.0 API Aspose.Cells предоставил метод DataBar.ToImage для сохранения условно отформатированных DataBars в формате изображения. Метод DataBar.ToImage принимает два параметра, подробности которых приведены ниже.
 
-- Первый параметр имеет тип Aspose.Cells.Cell, к которому было применено условное форматирование.
+- Первый параметр имеет тип Aspose.Cells.Cell, на который было применено условное форматирование.
 - Второй параметр имеет тип Aspose.Cells.Rendering.ImageOrPrintOptions для установки различных параметров результирующего изображения.
 
-В следующем примере кода показано использование метода DataBar.ToImage для отображения панели данных в формате изображения.
+Следующий пример кода демонстрирует использование метода DataBar.ToImage для отображения DataBar в формате изображения.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -213,7 +214,7 @@ opts.ImageFormat = ImageFormat.Png;
 
 //Get the image bytes of the databar
 
-byte[]imgBytes = dbar.ToImage(cell, opts);
+byte[] imgBytes = dbar.ToImage(cell, opts);
 
 //Write image bytes on the disk
 
@@ -222,24 +223,24 @@ File.WriteAllBytes("databar.png", imgBytes);
 {{< /highlight >}}
 
 
-### **Добавлено свойство Border.ThemeColor**
-Aspose.Cells API позволяют извлекать данные форматирования, связанные с темой, из электронных таблиц. В выпуске Aspose.Cells for .NET 8.4.0 API предоставил свойство Border.ThemeColor, которое можно использовать для получения атрибутов цвета темы границ Cell.
-### **Добавлено свойство DrawObject.ImageBytes**
-Aspose.Cells for .NET 8.4.0 предоставляет свойство DrawObject.ImageBytes для получения данных изображения из диаграммы или формы.
+### **Добавлено свойство Border.ThemeColor.**
+API Aspose.Cells позволяет извлекать данные форматирования, связанные с темами, из электронных таблиц. С выпуском Aspose.Cells for .NET 8.4.0 API предоставил свойство Border.ThemeColor, которое можно использовать для извлечения цветовых атрибутов темы границ ячеек.
+### **Добавлено свойство DrawObject.ImageBytes.**
+Aspose.Cells for .NET 8.4.0 предоставил свойство DrawObject.ImageBytes для получения данных изображения из графика или формы.
 ### **Добавлено свойство HtmlSaveOptions.ExportBogusRowData.**
-Aspose.Cells for .NET 8.4.0 предоставляет свойство {HtmlSaveOptions.ExportBogusRowData}}. Свойство логического типа определяет, будет ли API вводить фиктивные данные нижней строки при экспорте электронной таблицы в формат HTML.
+Aspose.Cells for .NET 8.4.0 предоставил свойство {HtmlSaveOptions.ExportBogusRowData}}. Это логическое свойство определяет, вставит ли API ложные данные для нижней строки при экспорте электронной таблицы в формат HTML.
 
 {{% alert color="primary" %}} 
 
-Значение по умолчанию верно.
+Значение по умолчанию - true.
 
 {{% /alert %}} 
 
-Следующий пример кода иллюстрирует использование вышеупомянутого свойства.
+В следующем примере кода иллюстрируется использование вышеупомянутого свойства.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an object of HtmlSaveOptions class
 
@@ -261,15 +262,15 @@ workbook.Save("output.xlsx");
 
 
 ### **Добавлено свойство HtmlSaveOptions.CellCssPrefix.**
-Недавно добавленное свойство HtmlSaveOptions.CellCssPrefix позволяет установить префикс для файлов CSS при экспорте электронных таблиц в формат HTML.
+Новое свойство HtmlSaveOptions.CellCssPrefix позволяет установить префикс для CSS-файлов при экспорте таблиц в формат HTML.
 
 {{% alert color="primary" %}} 
 
-Значение по умолчанию — "" (пустая строка).
+Значение по умолчанию - "" (пустая строка).
 
 {{% /alert %}}
 ## **Устаревшие API**
-### **Методы Cells.GetCellByIndex и Row.GetCellByIndex устарели**
-Вместо этого используйте метод GetEnumerator для перебора всех ячеек.
+### **Устарели методы Cells.GetCellByIndex и Row.GetCellByIndex**
+Используйте метод GetEnumerator для перебора всех ячеек вместо них.
 ### **Свойство DrawObject.Image устарело**
-Вместо этого используйте свойство DrawObject.ImageBytes для получения данных изображения.
+Используйте свойство DrawObject.ImageBytes для получения данных изображения вместо этого.

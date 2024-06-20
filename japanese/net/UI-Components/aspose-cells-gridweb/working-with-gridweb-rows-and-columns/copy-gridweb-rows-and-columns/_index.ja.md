@@ -1,39 +1,42 @@
-﻿---
-title: GridWeb の行と列をコピーする
+---
+title: GridWebの行と列をコピー
 type: docs
 weight: 80
-url: /ja/net/copy-gridweb-rows-and-columns/
+url: /ja/net/aspose-cells-gridweb/copy-gridweb-rows-and-columns/
+keywords: GridWeb,コピー
+description: 本記事では、GridWebで行と列をコピーする方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb コンポーネントは、GridCells クラスを使用しながら行と列をコピーする手段を提供します。この記事では、Aspose.Cells.GridWeb によって公開された API を使用して、GridWeb インターフェイスで行と列をコピーする方法を示します。
+Aspose.Cells.GridWebコンポーネントは、GridCellsクラスを使用して行と列をコピーする手段を提供します。この記事では、Aspose.Cells.GridWebが公開するAPIの使用方法について説明します。 
 
-GridCells.CopyRow、GridCells.CopyColumn、GridCells.CopyRows、および GridCells.CopyColumns メソッドは、コンテンツ、スタイリング、数式をソースの行と列からコピー先にコピーします。
+GridCells.CopyRow、GridCells.CopyColumn、GridCells.CopyRowsおよびGridCells.CopyColumnsメソッドは、ソースの行と列からコンテンツ、スタイル、および数式を宛先にコピーします。
 
 {{% /alert %}} 
 ## **行と列のコピー**
-Aspose.Cells.GridWeb コンポーネントについてまだよく知らない場合は、[Aspose.Cells.GridWebのご紹介](https://docs.aspose.com/cells/net/browsers-capabilities/)および詳細な記事[Aspose.Cells.GridWeb コンポーネントを WebForms アプリケーションに追加する方法](https://docs.aspose.com/cells/net/add-gridweb-to-web-form/).
+Aspose.Cells.GridWebコンポーネントにまだ慣れていない場合、[Aspose.Cells.GridWebの概要](https://docs.aspose.com/cells/net/aspose-cells-gridweb/browsers-capabilities/)や[WebフォームアプリケーションにAspose.Cells.GridWebコンポーネントを追加する方法](https://docs.aspose.com/cells/net/aspose-cells-gridweb/add-gridweb-to-web-form/)に関する詳細な記事をご覧になることを強くお勧めします。
 ### **単一行のコピー**
-例を単純にするために、この記事では 1 行の既存のスプレッドシートと、その行のすべての値を合計する単純な数式を使用します。行をコピーする前に、スプレッドシートが Aspose.Cells.GridWeb インターフェイスにどのように表示されるかを次に示します。
+例を単純にするために、既存のスプレッドシートとその行の合計を計算する単純な数式を使用しています。行をコピーする前のAspose.Cells.GridWebインターフェースでスプレッドシートが表示されます。
 
-![todo:画像_代替_文章](copy-gridweb-rows-and-columns_1.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_1.png)
 
-コード スニペットは、以下に示すように単純です。アクティブなワークシート順序の GridCells オブジェクトにアクセスして、最初の行を次の行にコピーします。
+コードスニペットは以下のように示されています。これにより、アクティブワークシートのGridCellsオブジェクトにアクセスし、最初の行を次の行にコピーすることができます。
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-RowsAndColumns-CopyRowsColumns.aspx-CopyRow.cs" >}}
 
 
-行のコピー操作後に Aspose.Cells.GridWeb がどのように見えるかを次に示します。
+行のコピー操作の後のAspose.Cells.GridWebの表示例です。
 
-![todo:画像_代替_文章](copy-gridweb-rows-and-columns_2.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_2.png)
 ### **単一列のコピー**
-次の例では、1 つの列と列内のすべての値を合計する単純な数式を含む既存のスプレッドシートを使用します。列をコピーする前に、スプレッドシートが Aspose.Cells.GridWeb インターフェイスにどのように表示されるかを次に示します。
+次の例では、既存のスプレッドシートとその列の合計を計算する単純な数式を使用しています。列をコピーする前のAspose.Cells.GridWebインターフェースでスプレッドシートが表示されます。
 
-![todo:画像_代替_文章](copy-gridweb-rows-and-columns_3.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_3.png)
 
-上記の例と同様に、次のコード スニペットは、アクティブなワークシート順序の GridCells オブジェクトにアクセスして、最初の列のコピーを後続の列に作成します。
+上記の例と同様に、次のコードスニペットは、アクティブワークシートのGridCellsオブジェクトにアクセスして、最初の列を次の列にコピーすることができます。
 
 
 
@@ -41,17 +44,17 @@ Aspose.Cells.GridWeb コンポーネントについてまだよく知らない�
 
 
 
-列のコピー操作後の Aspose.Cells.GridWeb の外観を次に示します。
+列のコピー操作の後のAspose.Cells.GridWebの表示例です。
 
-![todo:画像_代替_文章](copy-gridweb-rows-and-columns_4.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_4.png)
 
 {{% alert color="primary" %}} 
 
-ループ内で GridCells.CopyRow および GridCells.CopyColumn メソッドを使用して、ソースの行と列をそれぞれ複数の行と列にコピーできます。
+GridCells.CopyRowおよびGridCells.CopyColumnメソッドを使用して、ソースの行と列を複数の行および列にコピーするためにループで使用することができます。
 
 {{% /alert %}} 
-### **複数行のコピー**
-GridCells.CopyRows メソッドを使用して、複数の行を新しい宛先にコピーすることもできます。このメソッドは、整数型の追加パラメーターを使用して、コピーするソース行の数を指定します。
+### **複数の行のコピー**
+GridCells.CopyRowsメソッドを使用して、新しい宛先に複数の行をコピーすることができます。また、コピーするソース行の数を指定するための整数の追加パラメータがあります。
 
 
 
@@ -59,13 +62,13 @@ GridCells.CopyRows メソッドを使用して、複数の行を新しい宛先�
 
 
 
-行のコピー操作の前後に Aspose.Cells.GridWeb がどのように見えるかを次に示します。
+Aspose.Cells.GridWebの見た目は、行のコピー操作前後で以下のようになります。
 
-![todo:画像_代替_文章](copy-gridweb-rows-and-columns_5.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_5.png)
 
-![todo:画像_代替_文章](copy-gridweb-rows-and-columns_6.png)
-### **複数の列のコピー**
-GridCells クラスは CopyColumns メソッドも提供します。このメソッドは、整数型の追加パラメーターを使用して、コピーするソース列の数を指定します。
+![todo:image_alt_text](copy-gridweb-rows-and-columns_6.png)
+### **複数の列をコピー**
+GridCellsクラスは、追加の整数型のパラメータを取るCopyColumnsメソッドも提供しており、これによりコピーするソース列の数を指定できます。
 
 
 
@@ -73,8 +76,8 @@ GridCells クラスは CopyColumns メソッドも提供します。このメソ
 
 
 
-行のコピー操作の前後に Aspose.Cells.GridWeb がどのように見えるかを次に示します。
+Aspose.Cells.GridWebの見た目は、行のコピー操作前後で以下のようになります。
 
-![todo:画像_代替_文章](copy-gridweb-rows-and-columns_7.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_7.png)
 
-![todo:画像_代替_文章](copy-gridweb-rows-and-columns_8.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_8.png)

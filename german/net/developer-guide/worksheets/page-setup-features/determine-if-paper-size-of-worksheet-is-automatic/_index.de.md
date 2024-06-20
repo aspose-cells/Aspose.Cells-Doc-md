@@ -1,35 +1,36 @@
 ---
-title: Stellen Sie fest, ob die Papiergröße des Arbeitsblatts auf „Automatisch“ eingestellt ist
+title: Feststellen, ob das Papierformat des Arbeitsblatts automatisch ist
 type: docs
 weight: 90
 url: /de/net/determine-if-paper-size-of-worksheet-is-automatic/
-description: In diesem Artikel wird erläutert, wie Sie den Beispielcode der Bibliothek C#, API oder .NET verwenden, um programmgesteuert zu bestimmen, ob die Papiergröße des Arbeitsblatts automatisch ist.
-keywords: determine if paper size of worksheet automatic c#
+description: Dieser Artikel erklärt, wie der C# API oder .NET Bibliotheksbeispielcode verwendet wird, um festzustellen, ob das Papierformat des Arbeitsblatts programmgesteuert automatisch ist.
+keywords: Bestimmen Sie, ob die Papiergröße des Arbeitsblatts automatisch in C# festgelegt ist
 ---
-##  **Mögliche Nutzungsszenarien**
 
- Meistens wird die Papiergröße des Arbeitsblatts automatisch eingestellt. Wenn es automatisch ist, wird es oft als *Buchstabe* eingestellt. Manchmal legt der Benutzer das Papierformat des Arbeitsblatts entsprechend seinen Anforderungen fest. In diesem Fall erfolgt die Papiergröße nicht automatisch. Mithilfe von können Sie herausfinden, ob das Arbeitsblattpapierformat automatisch eingestellt wird oder nicht[**Worksheet.PageSetup.IsAutomaticPaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/isautomaticpapersize)Eigentum.
+## **Mögliche Verwendungsszenarien**
 
-##  **Stellen Sie fest, ob die Papiergröße des Arbeitsblatts auf „Automatisch“ eingestellt ist**
+Die meiste Zeit ist die Papiergröße des Arbeitsblatts automatisch. Wenn sie automatisch ist, wird sie oft als *Brief* eingestellt. Manchmal legt der Benutzer die Papiergröße des Arbeitsblatts entsprechend seinen Anforderungen fest. In diesem Fall ist die Papiergröße nicht automatisch. Sie können über die [**Worksheet.PageSetup.IsAutomaticPaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/isautomaticpapersize)-Eigenschaft feststellen, ob die Papiergröße des Arbeitsblatts automatisch ist oder nicht.
 
-Der unten angegebene Beispielcode lädt die folgenden zwei Excel-Dateien
+## **Feststellen, ob die Papiergröße des Arbeitsblatts automatisch ist**
+
+Der folgende Beispielscode lädt die folgenden beiden Excel-Dateien
 
 - [samplePageSetupIsAutomaticPaperSize-False.xlsx](48496681.xlsx)
 - [samplePageSetupIsAutomaticPaperSize-True.xlsx](48496682.xlsx)
 
-und finden Sie heraus, ob das Papierformat ihres ersten Arbeitsblatts automatisch ist oder nicht. In Microsoft Excel können Sie über das Fenster „Seite einrichten“ überprüfen, ob das Papierformat automatisch eingestellt wird oder nicht, wie in diesem Screenshot gezeigt.
+und überprüft, ob die Papiergröße ihres ersten Arbeitsblatts automatisch ist oder nicht. In Microsoft Excel können Sie über das Dialogfeld Seitenlayout wie in diesem Screenshot gezeigt feststellen, ob die Papiergröße automatisch ist oder nicht.
 
 ![todo:image_alt_text](determine-if-paper-size-of-worksheet-is-automatic_1.png)
 
-##  **Beispielcode**
+## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-DetermineIfPaperSizeOfWorksheetIsAutomatic.cs" >}}
 
-##  **Konsolenausgabe**
+## **Konsolenausgabe**
 
-Hier ist die Konsolenausgabe des obigen Beispielcodes, wenn er mit den angegebenen Beispiel-Excel-Dateien ausgeführt wird.
+Hier ist die Konsolenausgabe des obigen Beispielscodes, wenn er mit den angegebenen Beispieldateien ausgeführt wird.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 First Worksheet of First Workbook - IsAutomaticPaperSize: False
 

@@ -1,15 +1,16 @@
-﻿---
-title: Hello World içinde Python
+---
+title: Python da Merhaba Dünya
 type: docs
 weight: 10
 url: /tr/java/hello-world-in-python/
 ---
+
 ## **Aspose.Cells - Hello World**
-Hello World, Python'de Aspose.Cells Java kullanarak, Document sınıfının HelloWorld() yöntemini çağırmanız ve sona eklenecek ikinci belgeyi belirtmeniz yeterlidir.
+Python'da Aspose.Cells Java kullanarak Merhaba Dünya, sadece Document sınıfının HelloWorld() yöntemini çağırın ve sona eklemek için ikinci belgeyi belirtin.
 
-**Python Kod**
+**Python Kodu**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  workbook = self.Workbook()
 
@@ -27,6 +28,6 @@ print "Document has been saved, please check the output file.";
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Hello World (Aspose.Cells)** aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir sosyal kodlama sitesinden **Merhaba Dünya (Aspose.Cells)**'ı indirin
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

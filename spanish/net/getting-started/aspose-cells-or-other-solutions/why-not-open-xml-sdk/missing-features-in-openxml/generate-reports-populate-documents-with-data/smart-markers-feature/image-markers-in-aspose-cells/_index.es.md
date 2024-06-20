@@ -1,23 +1,24 @@
-﻿---
+---
 title: Marcadores de imagen en Aspose.Cells
 type: docs
 weight: 20
 url: /es/net/image-markers-in-aspose-cells/
 ---
-Los marcadores inteligentes Aspose.Cells también admiten marcadores de imagen. Esta sección le muestra cómo insertar imágenes usando marcadores inteligentes.
-## **Parámetros de imagen**
-Parámetros de marcadores inteligentes para la gestión de imágenes.
 
-- **Imagen:FitToCell** - Ajuste automático de la imagen a la altura de la fila y al ancho de la columna de la celda.
-- **Imagen:EscalaN** - Escalar alto y ancho al N por ciento.
-- **Imagen:Ancho:NinAltura:Nin** - Renderice la imagen N pulgadas de alto y N pulgadas de ancho. Tú también puedes
- Especifique las posiciones Izquierda y Superior (en puntos).
+Aspose.Cells admite marcadores inteligentes de imágenes. Esta sección te muestra cómo insertar imágenes usando marcadores inteligentes.
+## **Parámetros de la Imagen**
+Parámetros de marcadores inteligentes para gestionar imágenes.
 
-{{< highlight "csharp" >}}
+- **Imagen:AjustarACelda** - Ajusta automáticamente la imagen a la altura de la fila y al ancho de la columna de la celda.
+- **Imagen:EscalarN** - Escala la altura y el ancho al N por ciento.
+- **Imagen:Ancho:Npulg&Alto:Npulg** - Renderiza la imagen con N pulgadas de alto y N pulgadas de ancho. También puedes especificar las posiciones Izquierda y Arriba (en puntos).
+  especificar las posiciones Izquierda y Arriba (en puntos).
+
+{{< highlight csharp >}}
 
  //Get the image data.
 
-byte[]imageData = File.ReadAllBytes("Thumbnail.jpg");
+byte[] imageData = File.ReadAllBytes("Thumbnail.jpg");
 
 //Create a datatable.
 
@@ -35,7 +36,7 @@ dc.DataType = typeof(object);
 
 DataRow row = t.NewRow();
 
-row[0]= imageData;
+row[0] = imageData;
 
 t.Rows.Add(row);
 
@@ -45,7 +46,7 @@ imageData = File.ReadAllBytes("Desert.jpg");
 
 row = t.NewRow();
 
-row[0]= imageData;
+row[0] = imageData;
 
 t.Rows.Add(row);
 
@@ -70,5 +71,5 @@ designer.Process();
 designer.Workbook.Save("out_ImageSmartBook.xls");
 
 {{< /highlight >}}
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Image%20Markers%20%28Aspose.Cells%29.zip)

@@ -1,15 +1,16 @@
-﻿---
-title: Entfernen von Arbeitsblättern unter Verwendung des Blattnamens in PHP
+---
+title: Arbeitsblätter anhand des Blattnamens in PHP entfernen
 type: docs
 weight: 40
 url: /de/net/removing-worksheets-using-sheet-name-in-php/
 ---
-## **Arbeitsblätter mit Blattnamen entfernen**
-Arbeitsblätter mit Blattnamen entfernen
+
+## **Arbeitsblätter anhand des Blattnamens entfernen**
+Arbeitsblätter anhand des Blattnamens entfernen
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -32,7 +33,7 @@ Arbeitsblätter mit Blattnamen entfernen
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Arbeitsblätter mit Blattnamen entfernen (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+**Arbeitsblätter anhand des Blattnamens entfernen (Aspose.Cells)** von einer der unten genannten sozialen Coding-Websites herunterladen:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/RemovingWorksheetsUsingSheetName.php)

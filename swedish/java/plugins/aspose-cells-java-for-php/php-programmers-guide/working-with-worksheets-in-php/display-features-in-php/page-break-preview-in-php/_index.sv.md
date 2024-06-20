@@ -1,15 +1,16 @@
-﻿---
-title: Förhandsvisning av sidbrytning i Php
+---
+title: Sidbrytning i förhandsgranskning i Php
 type: docs
 weight: 60
 url: /sv/java/page-break-preview-in-php/
 ---
-## **Aspose.Cells - Förhandsgranskning av sidbrytning**
- För att ställa in kalkylblad till förhandsgranskning av sidbrytning med**Aspose.Cells Java for PHP** , helt enkelt åberopa**PageBreakPreview** modul.
+
+## **Aspose.Cells - Sidbrytningsgranskning**
+För att ställa in arbetsblad till sidobrytningsförhandsgranskning med **Aspose.Cells Java for PHP**, helt enkelt anropa **PageBreakPreview**-modulen.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -30,7 +31,7 @@ $worksheet->setPageBreakPreview(true);
 $workbook->save($dataDir . "output.xls");
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Förhandsgranskning av sidbrytning (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Sidbrytningsgranskning (Aspose.Cells)** från någon av sociala kodningsplatserna nedan:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/PageBreakPreview.php)

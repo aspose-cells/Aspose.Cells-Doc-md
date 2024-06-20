@@ -1,15 +1,16 @@
-﻿---
-title: Skydda arbetsblad i Ruby
+---
+title: Skydd av kalkylblad i Ruby
 type: docs
 weight: 10
 url: /sv/java/protecting-worksheets-in-ruby/
 ---
-## **Aspose.Cells - Skydda arbetsblad**
- För att skydda kalkylblad med hjälp av**Aspose.Cells Java för Ruby** , ringa upp**protect_worksheet** metod av**skydd** modul.
 
-**Ruby kod**
+## **Aspose.Cells - Skydd av kalkylblad**
+För att skydda kalkylblad med **Aspose.Cells Java för Ruby**, anropa **protect_worksheet**-metoden i **protection**-modulen.
 
-{{< highlight "ruby" >}}
+**Ruby-kod**
+
+{{< highlight ruby >}}
 
  def protect_worksheet()
 
@@ -54,7 +55,7 @@ url: /sv/java/protecting-worksheets-in-ruby/
 end   
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Skyddande arbetsblad (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Skydda kalkylblad (Aspose.Cells)** från någon av nedan nämnda sociala kodbaser:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/protection.rb)

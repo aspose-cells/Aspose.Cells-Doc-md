@@ -1,19 +1,22 @@
-﻿---
-title: Använda OnAjaxCallFinishedClientFunction av GridWeb
+---
+title: Användning av OnAjaxCallFinishedClientFunction från GridWeb
 type: docs
 weight: 20
-url: /sv/net/using-onajaxcallfinishedclientfunction-of-gridweb/
+url: /sv/net/aspose-cells-gridweb/using-onajaxcallfinishedclientfunction-of-gridweb/
+keywords: GridWeb,ajacall,onajaxcallfinishedclientfunction,OnAjaxCallFinishedClientFunction 
+description: Denna artikel introducerar hur man arbetar med OnAjaxCallFinishedClientFunction i GridWeb.
 ---
-## **Möjliga användningsscenarier**
-OnAjaxCallFinishedClientFunction är en funktion på klientsidan som anropas när användaren kopierar vissa data till GridWeb-kalkylbladet. Den här funktionen är användbar när en stor del av cellerna uppdateras och du vill hålla koll på de uppdaterade cellerna på klientsidan (dvs i webbläsare som FireFox, Google Chrome etc.).
-## **Använda OnAjaxCallFinishedClientFunction av GridWeb**
-Följande exempelkod förklarar hur du använder OnAjaxCallFinishedClientFunction-klientfunktionen. Skärmbilderna visar konsolutgången i Google Chrome och FireFox när koden exekveras. När du har kört koden, kopiera/klistra in lite data som spänner över flera celler i GridWeb-arbetsbladet och kontrollera sedan webbläsarkonsolen som visas i skärmdumpar.
-## **Google Chrome Console-utgång**
+
+## **Möjliga användningsscenario**
+OnAjaxCallFinishedClientFunction är en klientfunktion som anropas när användaren kopierar några data till GridWeb-kalkylarket. Denna funktion är användbar när många celler uppdateras och du vill hålla koll på dessa uppdaterade celler på klientsidan (dvs. i webbläsare som FireFox, Google Chrome osv.).
+## **Användning av OnAjaxCallFinishedClientFunction från GridWeb**
+Följande exempelkod förklarar hur man använder OnAjaxCallFinishedClientFunction-klientfunktionen. Skärmbilderna visar konsoloutput i Google Chrome och FireFox när koden körs. När du har kört koden, vänligen kopiera/klistra in några data som spänner över flera celler i GridWeb-kalkylarket och kontrollera sedan webbläsarkonsolen enligt skärmbilderna.
+## **Google Chrome Konsoloutput**
 ![todo:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
-## **FireFox-konsolutgång**
+## **FireFox Konsoloutput**
 ![todo:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
 ## **Exempelkod**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //-------------------------------------------------------
 

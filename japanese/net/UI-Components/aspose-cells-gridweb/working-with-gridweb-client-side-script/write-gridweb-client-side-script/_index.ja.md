@@ -1,32 +1,35 @@
-﻿---
-title: GridWeb クライアント側スクリプトの記述
+---
+title: GridWebクライアント側スクリプトを記述する
 type: docs
 weight: 10
-url: /ja/net/write-gridweb-client-side-script/
+url: /ja/net/aspose-cells-gridweb/write-gridweb-client-side-script/
+keywords: GridWeb,client,js,javascript
+description: この記事では、GridWebでクライアントjs apiを使用する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-開発者は、Aspose.Cells.GridWeb コントロールのクライアント側スクリプトを作成できます。これは、クライアント側で JavaScript 関数を呼び出して、GridWeb コントロールに関連する特定のタスクを実行できることを意味します。たとえば、開発者は JavaScript 関数を記述して、GridWeb データをサーバーに送信したり、検証エラーが発生したときにアラート メッセージを表示したりできます。
+開発者はAspose.Cells.GridWebコントロールのためにクライアント側スクリプトを書くことができます。これは、JavaScript関数をクライアント側で呼び出して、GridWebコントロールに関連する特定のタスクを実行することが可能であることを意味します。たとえば、開発者はJavaScript関数を書いて、GridWebデータをサーバーに送信したり、検証エラーが発生したときにアラートメッセージを表示することができます。
 
-このトピックでは、例を使用してこの機能について説明します。
+このトピックでは、例を使用してこの機能を説明します。
 
 {{% /alert %}} 
-## **Aspose.Cells.GridWeb のクライアント側スクリプトの作成**
+## **Aspose.Cells.GridWebのクライアント側スクリプトの記述**
 ### **基本情報**
-Aspose.Cells.GridWeb は、クライアント側のスクリプトをサポートするために特別に作成された 2 つのプロパティを提供します。
+Aspose.Cells.GridWebは、クライアント側スクリプトをサポートするために特別に作成された2つのプロパティを提供します:
 
 - OnSubmitClientFunction
 - OnValidationErrorClientFunction
 
-ASPX ページで JavaScript 関数を作成し、これらの関数の名前を OnSubmitClientFunction および OnValidationErrorClientFunction プロパティに割り当てます。
+ASPXページでJavaScript関数を作成し、これらの関数の名前をOnSubmitClientFunctionおよびOnValidationErrorClientFunctionプロパティに割り当てます。
 
 {{% alert color="primary" %}} 
 
-OnSubmitClientFunction プロパティに割り当てられる JavaScript 関数は、以下に示すように適切に定義する必要があります。
+OnSubmitClientFunctionプロパティに割り当てるJavaScript関数は、以下に示すように適切に定義する必要があります:
 
 **JavaScript**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  function function_name(arg, cancelEdit)
 
@@ -40,51 +43,51 @@ OnSubmitClientFunction プロパティに割り当てられる JavaScript 関数
 
 {{< /highlight >}}
 
-[arg] パラメータは、コントロールによって生成されたコマンドを表します。コマンドは「保存」、「送信」、「元に戻す」などで、[cancelEdit] パラメータはブール値で、ユーザー入力がキャンセルされたかどうかを示します。
+[arg]パラメータはコントロールによって生成されたコマンドを表し、そのコマンドは「保存」「送信」「元に戻す」などです。また、[cancelEdit]パラメータは、ユーザー入力がキャンセルされたかどうかを示すブール値です。
 
-OnSubmitClientFunction プロパティに割り当てられた JavaScript 関数は、GridWeb データをサーバーに送信する前に、GridWeb コントロールによって毎回呼び出されます。同様に、関数が OnValidationErrorClientFunction プロパティに割り当てられている場合、検証エラーが発生するたびにその関数が呼び出されます。
+OnSubmitClientFunctionプロパティに割り当てられた任意のJavaScript関数は、GridWebコントロールがサーバーにGridWebデータを送信する前に常に呼び出されます。同様に、OnValidationErrorClientFunctionプロパティに関数が割り当てられている場合は、検証エラーが発生するたびにその関数が呼び出されます。
 
 {{% /alert %}} 
 ### **クライアント側スクリプトの関数**
-Aspose.Cells.GridWeb は、特にクライアント側スクリプト用の機能も公開しています。これらの関数を JavaScript 関数内で使用して、Aspose.Cells.GridWeb をより詳細に制御できます。これらのクライアント側関数には、次のものがあります。
+Aspose.Cells.GridWebは、特にクライアント側スクリプトのための関数も公開しています。これらのクライアント側関数は、以下を含みます:
 
-|**機能**|**説明**|
-|:- |:- |
-|updateData(bool cancelEdit)|サーバーに投稿する前に、Aspose.Cells.GridWeb のすべてのクライアント データを更新します。 cancelEdit パラメータが true の場合、GridWeb はすべてのユーザー入力を破棄します。|
-|validateAll()|ユーザー入力に検証エラーがあるかどうかを確認するために使用されます。エラーがある場合、関数は false を返し、それ以外の場合は true を返します。|
-|submit(string arg, bool cancelEdit)|この関数を呼び出して、データをサーバーにポストバックまたは送信します。この関数は、データの更新とユーザー入力の検証の両方のタスクを実行します。この関数は、サーバー側でコマンド イベントを発生させることもできます。 arg パラメータを使用してコマンドを渡します。例: SAVE コマンドは、**セーブ**ボタンをクリックし、CCMD:MYCOMMAND コマンドが CustomCommand イベントを発生させます。|
-|setActiveCell(int 行、int 列)|特定のセルをアクティブにするために使用されます。|
-|setCellValue(int 行、int 列、文字列値)|行番号と列番号を使用して指定された任意のセルに値を入力するために使用されます。|
-|getCellValue(int 行、int 列)|指定されたセルの値を返します。|
-|getActiveRow()|getActiveColumn() 関数と組み合わせて使用し、アクティブ セルの位置を決定します。|
-|getActiveColumn()|getActiveRow() 関数と組み合わせて使用し、アクティブ セルの位置を決定します。|
-|getSelectRange()|最後に選択された範囲を返します。|
-|setSelectRange()|指定された範囲を選択します。|
-|clearSelections()|現在アクティブなセルを除くすべての選択をクリアします。|
-|getCellsArray()|これは、getCellName()、getCellValueByCell()、getCellRow()、および getCellColumn() などの他の関連関数とともに使用されます。この関数の使用法に関する詳細については、この記事をお読みください。[クライアント側で GridWeb セルの値を読み取る](/cells/ja/net/read-the-values-of-the-gridweb-cells-on-client-side/)|
-Aspose.Cells.GridWeb で動作するクライアント側スクリプトを含むテスト アプリケーションを作成するには、次の手順に従います。
+|**関数**|**説明**|
+| :- | :- |
+|updateData(bool cancelEdit)| Aspose.Cells.GridWebのすべてのクライアントデータを更新してからサーバーに投稿します。 cancelEditパラメータがtrueの場合、GridWebはすべてのユーザー入力を破棄します。
+|validateAll()| ユーザー入力に検証エラーがあるかどうかをチェックするために使用します。エラーがある場合はfalseを返し、それ以外の場合はtrueを返します。
+|submit(string arg, bool cancelEdit)| この関数を呼び出して、ポストバックまたはデータをサーバーに送信します。この関数は、データを更新し、ユーザー入力を検証するという両方のタスクを実行します。この関数はさらに、サーバーサイドでコマンドイベントを発生させることもできます。コマンドを渡す場合は、argパラメータを使用します。たとえば、SAVEコマンドはGridWebコントロールのコマンドバーの**保存**ボタンをクリックするために使用され、CCMD:MYCOMMANDコマンドはカスタムコマンドイベントを発生させます。
+|setActiveCell(int row, int column)| 特定のセルをアクティブにするために使用します。
+|setCellValue(int row, int column, string value)| 行と列の数を指定して、任意のセルに値を入れるために使用します。
+|getCellValue(int row, int column)| 指定されたセルの値を返します。
+|getActiveRow()| getActiveColumn()関数とともに使用して、アクティブなセルの位置を決定するために使用します。
+|getActiveColumn()| getActiveRow()関数とともに使用して、アクティブなセルの位置を決定するために使用します。
+|getSelectRange()| 最後に選択された範囲を返します。
+|setSelectRange()| 指定された範囲を選択します。
+|clearSelections()|現在のアクティブなセルを除くすべての選択を解除します。
+|getCellsArray()|getCellName()、getCellValuuByCell()、getCellRow()およびgetCellColumn()などの他の関連関数とともに使用されます。この関数の使用方法に関する詳細については、以下の記事を参照してください：[クライアントサイドでGridWebセルの値を読み取る](/cells/ja/net/aspose-cells-gridweb/read-the-values-of-the-gridweb-cells-on-client-side/)
+Aspose.Cells.GridWebと連動するクライアントサイドスクリプトを含むテストアプリケーションを作成するには、以下の手順に従ってください：
 
-1. GridWeb によって呼び出される JavaScript 関数を作成します。
-これらの関数は、ASP.NET ページの<script></script>鬼ごっこ。
-1. 関数の名前を OnSubmitClientFunction および OnValidationErrorClientFunction プロパティに割り当てます。
+1. GridWebによって呼び出されるJavaScript関数を作成します。
+   These functions will be added to the ASP.NET page's <script></script> tag.
+1. OnSubmitClientFunctionとOnValidationErrorClientFunctionプロパティに関数の名前を割り当てます。
 
-コード例の出力を以下に示します。
+コード例の出力は以下のようになります：
 
-**C1 セルに追加された検証** 
+**C1セルにバリデーションが追加されました** 
 
-![todo:画像_代替_文章](write-gridweb-client-side-script_1.png)
+![todo:image_alt_text](write-gridweb-client-side-script_1.png)
 
-無効な値を追加してクリック**セーブ**.検証エラーが発生し、ValidationErrorFunction が実行されます。
+無効な値を追加して**保存**をクリックします。バリデーションエラーが発生し、ValidationErrorFunctionが実行されます。
 
-**検証エラーで呼び出される ValidationErrorFunction** 
+**バリデーションエラーが発生したときにValidationErrorFunctionが呼び出されます** 
 
-![todo:画像_代替_文章](write-gridweb-client-side-script_2.png)
+![todo:image_alt_text](write-gridweb-client-side-script_2.png)
 
-有効な値を入力するまで、データはサーバーに送信されません。有効な値を入力してクリックします**セーブ**ConfirmFunction が実行されます。
+有効な値を入力するまで、データはサーバーに送信されません。有効な値を入力して**保存**をクリックします。ConfirmFunctionが実行されます。
 
-**GridWeb データをサーバーに送信する前に呼び出される ConfirmFunction** 
+サーバーにデータを送信する前に**ConfirmFunction**が呼び出されます 
 
-![todo:画像_代替_文章](write-gridweb-client-side-script_3.png)
+![todo:image_alt_text](write-gridweb-client-side-script_3.png)
 
 
 

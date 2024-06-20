@@ -1,18 +1,19 @@
-﻿---
-title: Lägg till underrapportobjekt
+---
+title: Lägg till en underrapport
 type: docs
 weight: 20
 url: /sv/reportingservices/add-sub-report-item/
 ---
-Så här lägger du till underrapportobjekt:
 
-1. Välj cellen som ska referera till underrapportobjektet.
-1.  Klick**Delrapport** (
+För att lägga till en underrapport:
+
+1. Välj cellen som kommer att referera till underrapporten.
+1. Klicka på **Underrapport** (
 
 ![todo:image_alt_text](add-sub-report-item_1.png)
 
 ).
- Delrapportformuläret visas.
+Underrapportformuläret visas. 
 
 **Underrapportformuläret** 
 
@@ -21,27 +22,27 @@ Så här lägger du till underrapportobjekt:
 
 
 
-1.  Klick**Lägg till underrapport**.
- Formuläret Hämta rapport visas.
-1.  Välj en rapport.
+1. Klicka på **Lägg till underrapport**.
+   Hämta Rapport-formuläret visas.
+1. Välj en rapport. 
 
-   **Välja en rapport** 
+   **Val av rapport** 
 
 ![todo:image_alt_text](add-sub-report-item_3.png)
 
 
 
 
-1.  Klick**Stänga**. 
+1. Klicka på **Stäng**. 
 
-   **En delrapport har valts ut** 
+   **En underrapport har valts** 
 
 ![todo:image_alt_text](add-sub-report-item_4.png)
 
 
 
 
-1.  Dubbelklicka på parameterlistan för att visa dialogrutan Redigera formel.
+1. Dubbelklicka på parametrarlistan för att visa dialogrutan Redigera formel. 
 
    **Dialogrutan Redigera formel** 
 
@@ -50,17 +51,17 @@ Så här lägger du till underrapportobjekt:
 
 
 
-1.  Redigera och/eller uppdatera ett parametervärde.
+1. Redigera och/eller uppdatera ett parameter värde. 
 
-   **Namnge delrapporten** 
+   **Namngivning av underrapport** 
 
 ![todo:image_alt_text](add-sub-report-item_6.png)
 
 
 
 
-1.  Klick**Infoga delrapport**. 
+1. Klicka på **Infoga underrapport**. 
 
-   **Delrapporten infogas i en rapporttabell** 
+   **Underrapporten infogad i en rapporttabell** 
 
 ![todo:image_alt_text](add-sub-report-item_7.png)

@@ -1,35 +1,36 @@
-﻿---
-title: Filtrera data automatiskt
+---
+title: Automatisk filterdata
 type: docs
 weight: 120
 url: /sv/net/auto-filter-data/
 ---
+
 {{% alert color="primary" %}}
 
-För att få en förståelse för vilken data som finns i ett intervall är det ofta lättare att sortera och filtrera data än att titta på kolumner med oordnad data. Sortering organiserar data i antingen stigande eller fallande ordning, vilket gör det lättare att hitta specifika värden. Genom att filtrera data kan du bara visa vissa värden. Det hjälper till att fokusera på särskilda artiklar i försäljningsregister, till exempel.
+Att förstå vilka data som finns i en serie, är det ofta lättare att sortera och filtrera datan än att titta på kolumner av oordnad data. Sortering organiserar data antingen i stigande eller fallande ordning, vilket gör det lättare att hitta specifika värden. Att filtrera datan tillåter dig att endast visa vissa värden. Det hjälper till att fokusera på specifika poster i försäljningsposter, till exempel.
 
-Användare av Microsoft Excel kan tillämpa automatisk filtrering på kolumner. Automatisk filtrering lägger till en meny högst upp i kolumnen, från vilken du kan sortera kolumndata. Den här funktionen är också tillgänglig för utvecklare som arbetar med Excel-kalkylblad, antingen via VSTO eller Aspose.Cells for .NET.
+Användare av Microsoft Excel kan tillämpa automatisk filtrering på kolumner. Automatisk filtrering lägger till en meny längst upp i kolumnen, varifrån du kan sortera eller filtrera kolumndata. Denna funktion är också tillgänglig för utvecklare som arbetar med Excel-ark, antingen genom VSTO eller Aspose.Cells for .NET.
 
 {{% /alert %}}
 
 ## **Automatisk filtrering av data**
 
-Så här tillämpar du automatisk filtrering på en kolumn:
+För att tillämpa automatisk filtrering på en kolumn:
 
 1. Skapa en arbetsbok.
-1. Skaffa ett arbetsblad.
+1. Hämta ett arbetsblad.
 1. Lägg till exempeldata.
-1. Använd autofilter.
-1. Autopassa kolumner för att göra skärmen attraktiv.
+1. Tillämpa automatisk filtrering.
+1. Justera kolumnbredderna för att göra visningen attraktiv.
 1. Spara kalkylarket.
 
- Kodexemplen i den här artikeln visar hur du utför dessa steg med[VSTO](/cells/sv/net/auto-filter-data/) med antingen C# eller Visual Basic, eller med[Apose.Cells](/cells/sv/net/auto-filter-data/), igen med antingen C# eller Visual Basic.
+Kodproverna i den här artikeln visar hur man utför dessa steg med [VSTO](/cells/sv/net/auto-filter-data/) med antingen C# eller Visual Basic, eller genom att använda [Apose.Cells](/cells/sv/net/auto-filter-data/), också med antingen C# eller Visual Basic.
 
 ### **Automatisk filtrering av data med VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
@@ -57,27 +58,27 @@ Excel.Worksheet sheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Add data into A1 and B1 Cells as headers.
 
-sheet.Cells[1, 1]= "Product ID";
+sheet.Cells[1, 1] = "Product ID";
 
-sheet.Cells[1, 2]= "Product Name";
+sheet.Cells[1, 2] = "Product Name";
 
 //Add data into details cells.
 
-sheet.Cells[2, 1]= 1;
+sheet.Cells[2, 1] = 1;
 
-sheet.Cells[3, 1]= 2;
+sheet.Cells[3, 1] = 2;
 
-sheet.Cells[4, 1]= 3;
+sheet.Cells[4, 1] = 3;
 
-sheet.Cells[5, 1]= 4;
+sheet.Cells[5, 1] = 4;
 
-sheet.Cells[2, 2]= "Apples";
+sheet.Cells[2, 2] = "Apples";
 
-sheet.Cells[3, 2]= "Bananas";
+sheet.Cells[3, 2] = "Bananas";
 
-sheet.Cells[4, 2]= "Grapes";
+sheet.Cells[4, 2] = "Grapes";
 
-sheet.Cells[5, 2]= "Oranges";
+sheet.Cells[5, 2] = "Oranges";
 
 //Enable Auto-filter.           
 
@@ -109,7 +110,7 @@ objBook.SaveCopyAs("e:\\test2\\vsto_autofilter.xlsx");
 
 {{< /highlight >}}
 
-**Auto-filter applicerat med VSTO** 
+**Automatiskt filter tillämpat med VSTO** 
 
 ![todo:image_alt_text](auto-filter-data_1.png)
 
@@ -117,7 +118,7 @@ objBook.SaveCopyAs("e:\\test2\\vsto_autofilter.xlsx");
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -169,6 +170,6 @@ objBook.Save("e:\\test2\\aspose-cells_autofilter.xlsx");
 
 {{< /highlight >}}
 
-**Autofilter applicerat med Aspose.Cells for .NET** 
+**Automatiskt filter tillämpat med Aspose.Cells for .NET** 
 
 ![todo:image_alt_text](auto-filter-data_2.png)

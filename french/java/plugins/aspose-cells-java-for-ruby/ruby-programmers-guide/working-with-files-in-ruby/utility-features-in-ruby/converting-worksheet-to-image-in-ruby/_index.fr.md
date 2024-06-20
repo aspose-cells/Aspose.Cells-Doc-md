@@ -1,45 +1,46 @@
-﻿---
-title: Conversion d'une feuille de calcul en image dans Ruby
+---
+title: Conversion de feuille de calcul en image en Ruby
 type: docs
 weight: 60
 url: /fr/java/converting-worksheet-to-image-in-ruby/
 ---
-## **Aspose.Cells - Conversion de la feuille de calcul en image**
-Pour convertir une feuille de calcul en image à l'aide de Aspose.Cells for Java dans Ruby, appelez simplement le module Converter.
 
-**Code rubis**
+## **Aspose.Cells - Conversion de feuille de calcul en image**
+Pour convertir une feuille de calcul en image en utilisant Aspose.Cells for Java en Ruby, il suffit d'invoquer le module Convertisseur.
 
-{{< highlight "ruby" >}}
+**Code Ruby**
 
- feuille de travail def_à_image (classeur)
+{{< highlight ruby >}}
 
-#Créer un objet pour ImageOptions
+ def worksheet_to_image(workbook)
 
-img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
+    #Create an object for ImageOptions
 
-
-
-# Définir le type d'image
-
-image_format = Rjb :: import('com.aspose.cells.ImageFormat')
-
-image_options.setImageFormat(image_format.getPng())
+    img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
 
 
 
-# Obtenez la première feuille de calcul.
+    # Set the image type
 
-feuille = classeur.getWorksheets().get(0)
+    image_format = Rjb::import('com.aspose.cells.ImageFormat')
 
-# Créer un objet SheetRender pour la feuille cible
-
-sr = Rjb :: import('com.aspose.cells.SheetRender').new(sheet, img_options)
+    img_options.setImageFormat(image_format.getPng())
 
 
 
-j = 0
+    # Get the first worksheet.
 
- tandis que j< sr.getPageCount()
+    sheet = workbook.getWorksheets().get(0)
+
+    # Create a SheetRender object for the target sheet
+
+    sr = Rjb::import('com.aspose.cells.SheetRender').new(sheet, img_options)
+
+
+
+    j = 0
+
+    while j < sr.getPageCount()
 
         # Generate an image for the worksheet
 
@@ -54,7 +55,7 @@ j = 0
 end 
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Conversion d'une feuille de calcul en image (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Converting Worksheet to Image (Aspose.Cells)** depuis l'un des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

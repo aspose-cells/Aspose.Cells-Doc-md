@@ -1,18 +1,21 @@
-﻿---
-title: Använder namngivna intervall
+---
+title: Använd namngivna områden
 type: docs
 weight: 110
-url: /sv/net/using-named-ranges/
+url: /sv/net/aspose-cells-griddesktop/use-named-ranges/
+keywords: GridDesktop,namngivna områden,namn
+description: Denna artikel introducerar de namngivna områdena i GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
- Normalt använder du etiketterna för kolumner och rader på ett kalkylblad för att referera till cellerna i dessa kolumner och rader. Men du kan skapa beskrivande namn för att representera celler, cellintervall, formler eller konstanta värden. Ordet**namn**kan hänvisa till en teckensträng som representerar en cell, cellintervall, formel eller konstant värde. Använd till exempel lättförståeliga namn, som Produkter, för att referera till svårförståeliga intervall, till exempel Sales!C20:C30 för att representera en cell, cellintervall, formel eller konstant värde. Etiketter kan användas i formler som refererar till data på samma kalkylblad; om du vill representera ett intervall på ett annat kalkylblad kan du använda ett namn.**Namngivna Ranges** är bland de mest kraftfulla funktionerna i Microsoft. Användare kan tilldela ett namn till ett namngivet område så att detta cellområde kan refereras med dess namn i formlerna.**Aspose.Cells.GridDesktop** stöder denna funktion.
+Normalt sett använder du kolumn- och radetiketter på ett blad för att hänvisa till cellerna inom de kolumnerna och raderna. Men du kan skapa beskrivande namn för att representera celler, cellintervall, formler eller konstanta värden. Ordet **Namn** kan referera till en sträng av tecken som representerar en cell, cellintervall, formel eller konstant värde. Använd lättförståeliga namn, exempelvis Produkter, för att hänvisa till svåra att förstå intervall, som Försäljning!C20:C30 för att representera en cell, cellintervall, formel eller konstant värde. Etiketter kan användas i formler som hänvisar till data på samma blad; om du vill representera ett intervall på ett annat blad kan du använda ett namn. **Namngivna områden** är bland de mest kraftfulla funktionerna i Microsoft. Användare kan tilldela ett namn till ett namngivet område så att detta cellintervall kan hänvisas till med sitt namn i formlerna. **Aspose.Cells.GridDesktop** stödjer denna funktion.
 
 {{% /alert %}} 
-## **Lägga till/refera till namngivna intervall i formler**
-GridDesktop-kontrollen stöder import/export av namngivna intervall i Excel-filerna, den tillhandahåller två klasser (**namn** och**Namnsamling**) för att arbeta med namngivna intervall.
+## **Lägga till/hänvisa namngivna områden i formler**
+GridDesktop-kontrollen stöder att importera/exportera namngivna områden i Excel-filerna, den ger två klasser (**Namn** och **NamnCollection**) för att arbeta med namngivna områden.
 
-Följande kodavsnitt hjälper dig hur du använder dem.
+Följande kodsnutt hjälper dig att använda dem.
 
 
 

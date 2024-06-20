@@ -1,20 +1,21 @@
-﻿---
-title: Excel ドキュメントを作成したアプリケーションのバージョン番号を取得する
+---
+title: Excelドキュメントを作成したアプリケーションのバージョン番号を取得する
 type: docs
 weight: 150
 url: /ja/java/get-the-version-number-of-the-application-that-created-the-excel-document/
 ---
+
 {{% alert color="primary" %}}
 
-多くの場合、Microsoft Excel ドキュメントを作成したアプリケーションのバージョン番号を知る必要があります。 Aspose.Cells は[**Workbook.getBuiltInDocumentProperties().getVersion()**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version)この目的のためのプロパティ。
+しばしば、Microsoft Excelドキュメントを作成したアプリケーションのバージョン番号が必要となります。Aspose.Cellsはこのために[**Workbook.getBuiltInDocumentProperties().getVersion()**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version)プロパティを提供しています。
 
 {{% /alert %}}
 
-次のサンプル コードは、[**Workbook.getBuiltInDocumentProperties().getVersion()**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version)財産。 Microsoft Excel 2003、2007、2010、および 2013 で作成された Excel ファイルを読み込み、これらの Excel ドキュメントを作成したアプリケーションのバージョン番号を出力します。
+次のサンプルコードでは、[**Workbook.getBuiltInDocumentProperties().getVersion()**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version)プロパティの使用方法を示しています。これは、Microsoft Excel 2003、2007、2010、2013で作成したExcelファイルをロードして、これらのExcelドキュメントを作成したアプリケーションのバージョン番号を出力します。
 
-参考までに、サンプル コードが作成するコンソール出力を以下に示します。
+参照のために、以下はサンプルコードのコンソール出力です。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Excel 2003 XLS Version: 726502
 

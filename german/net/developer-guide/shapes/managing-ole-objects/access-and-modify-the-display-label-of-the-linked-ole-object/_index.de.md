@@ -1,18 +1,19 @@
-﻿---
-title: Greifen Sie auf das Anzeigeetikett des verknüpften Ole-Objekts zu und ändern Sie es
+---
+title: Auf das Anzeigen des verknüpften Ole Objekts zugreifen und es ändern
 type: docs
 weight: 100
 url: /de/net/access-and-modify-the-display-label-of-the-linked-ole-object/
 ---
-## **Mögliche Nutzungsszenarien**
 
- Microsoft Mit Excel können Sie die Anzeigebezeichnung des Ole-Objekts ändern, wie im folgenden Screenshot gezeigt. Sie können auch auf das Anzeigelabel des Ole-Objekts zugreifen oder es ändern, indem Sie Aspose.Cells-APIs mit verwenden[**OleObject.Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/label)Eigentum.
+## **Mögliche Verwendungsszenarien**
 
-![todo: Bild_alt_Text](access-and-modify-the-display-label-of-the-linked-ole-object_1.png)
+Microsoft Excel ermöglicht es Ihnen, das Anzeigelabel des Ole-Objekts wie im folgenden Screenshot gezeigt zu ändern. Sie können auch über die Aspose.Cells-APIs auf das Anzeigelabel des Ole-Objekts zugreifen oder es ändern mit der Eigenschaft [**OleObject.Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/label).
 
-## **Greifen Sie auf das Anzeigeetikett des verknüpften Ole-Objekts zu und ändern Sie es**
+![todo:image_alt_text](access-and-modify-the-display-label-of-the-linked-ole-object_1.png)
 
-Bitte sehen Sie sich den folgenden Beispielcode an, er lädt die[Beispiel-Excel-Datei](64716810.xlsx)das das Ole-Objekt enthält. Der Code greift auf das Ole-Objekt zu und ändert seine Bezeichnung von Beispiel-APIs in Aspose-APIs. Bitte sehen Sie sich die unten angegebene Konsolenausgabe an, die die Auswirkung des Beispielcodes auf die Beispiel-Excel-Datei als Referenz zeigt.
+## **Auf das Anzeigen des verknüpften Ole-Objekts zugreifen und es ändern**
+
+Bitte sehen Sie sich den folgenden Beispielcode an. Es lädt die [Beispieldatei Excel](64716810.xlsx), die das Ole-Objekt enthält. Der Code ruft das Ole-Objekt auf und ändert sein Label von 'Sample APIs' in 'Aspose APIs'. Bitte sehen Sie sich die unten angezeigte Konsolenausgabe an, die die Auswirkung des Beispielcodes auf die Beispieldatei Excel zeigt.
 
 ## **Beispielcode**
 
@@ -20,7 +21,7 @@ Bitte sehen Sie sich den folgenden Beispielcode an, er lädt die[Beispiel-Excel-
 
 ## **Konsolenausgabe**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Ole Object Label - Before: Sample APIs
 

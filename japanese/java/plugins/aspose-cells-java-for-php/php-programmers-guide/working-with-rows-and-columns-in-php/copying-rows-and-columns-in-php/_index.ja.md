@@ -1,22 +1,23 @@
-﻿---
-title: PHP での行と列のコピー
+---
+title: PHPで行と列のコピー
 type: docs
 weight: 30
 url: /ja/java/copying-rows-and-columns-in-php/
 ---
+
 ## **Aspose.Cells - 行と列のコピー**
 ### **行のコピー**
-Aspose.Cells は、Cells クラスの copyRow メソッドを提供します。このメソッドは、数式、値、コメント、セル形式、非表示のセル、画像、およびその他の描画オブジェクトを含むすべての種類のデータをソース行から宛先行にコピーします。
+Aspose.CellsはCellsクラスのcopyRowメソッドを提供しています。このメソッドは、ソース行から宛先行に数式、値、コメント、セルフォーマット、非表示セル、画像、および他の描画オブジェクトを含む、すべての種類のデータをコピーします。
 
-copyRow メソッドは、次のパラメーターを取ります。
+copyRowメソッドには、次のパラメーターがあります：
 
-- ソース Cells オブジェクト、
-- ソース行インデックス、および
-- 宛先行インデックス。
+- ソースのCellsオブジェクト
+- ソースの行インデックス、および
+- 宛先の行インデックス。
 
-**PHP コード**
+**PHPコード**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function copy_rows($dataDir)
 
@@ -46,17 +47,17 @@ copyRow メソッドは、次のパラメーターを取ります。
 
 {{< /highlight >}}
 ### **列のコピー**
-Aspose.Cells は Cells クラスの copyColumn メソッドを提供します。このメソッドは、式 (更新された参照を含む) を含むすべてのタイプのデータ、および値、コメント、セル形式、非表示のセル、画像、およびその他の描画オブジェクトをソース列から宛先列にコピーします。
+Aspose.CellsはCellsクラスのcopyColumnメソッドを提供しており、このメソッドは、数式（参照を更新）、値、コメント、セルフォーマット、非表示セル、画像、および他の描画オブジェクトを含む、ソース列から宛先列にすべての種類のデータをコピーします。
 
-copyColumn メソッドは、次のパラメーターを取ります。
+copyColumnメソッドには、次のパラメーターがあります：
 
-- ソース Cells オブジェクト、
-- ソース列インデックス、および
-- 宛先列のインデックス。
+- ソースのCellsオブジェクト
+- ソースの列インデックス、および
+- 宛先の列インデックス。
 
-**PHP コード**
+**PHPコード**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function copy_columns($dataDir)
 
@@ -124,7 +125,7 @@ copyColumn メソッドは、次のパラメーターを取ります。
 }
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**行と列のコピー (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下に挙げるどのソーシャルコーディングサイトから、**行と列のコピー（Aspose.Cells）**をダウンロードしてください：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

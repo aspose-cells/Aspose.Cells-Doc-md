@@ -1,29 +1,30 @@
 ---
-title: Определить тип гиперссылки
+title: Обнаружение типа гиперссылки
 type: docs
 weight: 160
 url: /ru/net/detect-hyperlink-type/
-description: Узнайте, как определить тип гиперссылки с помощью Aspose.Cells for .NET API.
-keywords: Detect hyperlink type, Detect the type of hyperlink, Get the type of hyperlink
+description: Узнайте, как определить тип гиперссылки через API Aspose.Cells for .NET.
+keywords: Определить тип гиперссылки, Определить тип гиперссылки, Получить тип гиперссылки
 ---
-##  **Определить тип гиперссылки**
 
- Файл Excel может иметь различные типы гиперссылок, например внешние, ссылку на ячейку, путь к файлу и т. д. Aspose.Cells поддерживает функцию определения типа гиперссылки. Типы гиперссылок представлены[**Таргетмодетипе**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)Перечисление.[**Таргетмодетипе**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)Перечисление имеет следующие члены.
+## **Обнаружение типа гиперссылки**
 
-- Внешний: Внешняя ссылка
-- FilePath: локальный и полный путь к файлам\папкам.
+В электронной таблице Excel могут быть разные типы гиперссылок, такие как внешние, ссылки на ячейки, пути к файлам и т. д. Aspose.Cells поддерживает возможность определить тип гиперссылки. Типы гиперссылок представлены перечислением [**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype). Перечисление [**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype) имеет следующие элементы.
+
+- Внешние: внешняя ссылка
+- Путь к файлу: Локальный и полный путь к файлам\папкам.
 - Электронная почта: Электронная почта
-- CellReference: ссылка на ячейку или именованный диапазон.
+- СсылкаНаКлетку: Ссылка на клетку или именованный диапазон.
 
- Чтобы проверить тип гиперссылки,[**Гиперссылка**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) класс обеспечивает[**Тип ссылки**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) свойство с возвращаемым типом[**Таргетмодетипе**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype). Следующий фрагмент кода демонстрирует использование[**Тип ссылки**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)свойство, используя это[исходный файл Excel](94896195.xlsx).
+Для проверки типа гиперссылки, класс [**Hyperlink**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) предоставляет свойство [**LinkType**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) с возвращаемым типом [**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype). В следующем фрагменте кода демонстрируется использование свойства [**LinkType**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype), используя этот [исходный файл Excel](94896195.xlsx).
 
-###  Исходный код
+### Исходный код
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-DetectLinkTypes-1.cs" >}}
 
-Ниже приведен вывод, сгенерированный фрагментом кода, приведенным выше.
+Ниже приведен вывод, сгенерированный указанным выше фрагментом кода.
 
-###  Консольный вывод
+### Вывод в консоли
 ```
 LinkTypes.xlsx: FilePath </br>
 C:\Windows\System32\cmd.exe: FilePath </br>

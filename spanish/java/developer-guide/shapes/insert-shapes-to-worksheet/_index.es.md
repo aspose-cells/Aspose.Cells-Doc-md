@@ -1,56 +1,58 @@
-﻿---
-title: Insertar formas en la hoja de trabajo en Aspose.Cells
+---
+title: Insertar formas en una hoja de cálculo en Aspose.Cells
 type: docs
 weight: 5
 url: /es/java/insert-shapes-to-worksheet-in-aspose-cells/
 ---
+
+
 {{% alert color="primary" %}}
 
-A veces, necesita insertar algunas formas necesarias en la hoja de trabajo. Es posible que deba insertar la misma forma en diferentes posiciones de la hoja de trabajo. O necesita insertar formas por lotes en la hoja de trabajo.
+A veces necesitas insertar algunas formas necesarias en la hoja de cálculo. Puedes necesitar insertar la misma forma en diferentes posiciones de la hoja de cálculo. O necesitas insertar formas en lotes en la hoja de cálculo.
 
- ¡No te preocupes![Aspose.Cells](https://products.aspose.com/cells/)soporta todas estas operaciones.
+¡No te preocupes! [Aspose.Cells](https://products.aspose.com/cells/) soporta todas estas operaciones.
 
 {{% /alert %}}
 
 Las formas en Excel se dividen principalmente en los siguientes tipos:
 - **Líneas**
 - **Rectángulos**
-- **Formas básicas**
-- **flechas de bloque**
-- **Formas de ecuación**
-- **diagramas de flujo**
-- **estrellas y pancartas**
-- **Rótulos**
+- **Formas Básicas**
+- **Flechas en Bloque**
+- **Formas de Ecuaciones**
+- **Diagramas de Flujo**
+- **Estrellas y Banderas**
+- **Llamadas**
 
- Este documento guía seleccionará una o dos formas de cada tipo para hacer muestras. A través de estos ejemplos, aprenderá a usar[Aspose.Cells](https://products.aspose.com/cells/) para insertar la forma especificada en la hoja de cálculo.
+Este documento guía seleccionará una o dos formas de cada tipo para hacer ejemplos. A través de estos ejemplos, aprenderás cómo usar [Aspose.Cells](https://products.aspose.com/cells/) para insertar la forma especificada en la hoja de cálculo.
 
 
 
 ## **Insertar una línea en la hoja de trabajo**
 
- La forma de la línea pertenece a la**líneas** categoría.
+La forma de la línea pertenece a la categoría de **líneas**.
 
-***En Microsoft Excel (por ejemplo 2007):***
+***En Microsoft Excel (por ejemplo, 2007):***
 
-- Seleccione la celda donde desea insertar la línea
-- Haga clic en el menú Insertar y haga clic en Formas.
-- Luego, seleccione la línea de 'Formas usadas recientemente' o 'Líneas'
+- Selecciona la celda donde deseas insertar la línea
+- Haga clic en el menú Insertar y luego en Formas.
+- Luego, selecciona la línea de 'Formas utilizadas recientemente' o 'Líneas'
 
 ![](line.png)
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar una línea en la hoja de cálculo.
+Puedes utilizar el siguiente método para insertar una línea en la hoja de cálculo.
 
 {{% alert color="primary" %}}
 
-[Forma pública addShape (int tipo, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- El método devuelve un[Forma](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objeto.
+El método devuelve un objeto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
 {{% /alert %}}
 
-El siguiente ejemplo muestra cómo insertar una línea en una hoja de trabajo.
+El siguiente ejemplo muestra cómo insertar una línea en una hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-Line.java" >}}
 
@@ -62,25 +64,25 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 ## **Insertar una flecha de línea en la hoja de trabajo**
 
- La forma de flecha de línea pertenece a la**Líneas** categoría. Es un caso especial de línea.
+La forma de la flecha de línea pertenece a la categoría **Líneas**. Es un caso especial de línea.
 
-***En Microsoft Excel (por ejemplo 2007):***
+***En Microsoft Excel (por ejemplo, 2007):***
 
 - Seleccione la celda donde desea insertar la flecha de línea
-- Haga clic en el menú Insertar y haga clic en Formas.
+- Haga clic en el menú Insertar y luego en Formas.
 - Luego, seleccione la flecha de línea de 'Formas usadas recientemente' o 'Líneas'
 
 ![](line_arrow1.png)
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar una flecha de línea en la hoja de trabajo.
+Puede utilizar el siguiente método para insertar una flecha de línea en la hoja de cálculo.
 
 {{% alert color="primary" %}}
 
-[Forma pública addShape (int tipo, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- El método devuelve un[Forma](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objeto.
+El método devuelve un objeto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
 {{% /alert %}}
 
@@ -96,25 +98,25 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 ## **Insertar un rectángulo en la hoja de trabajo**
 
- La forma de rectángulo pertenece a la**Rectángulos** categoría.
+La forma del rectángulo pertenece a la categoría de **Rectángulos**.
 
-***En Microsoft Excel (por ejemplo 2007):***
+***En Microsoft Excel (por ejemplo, 2007):***
 
-- Seleccione la celda donde desea insertar el rectángulo
-- Haga clic en el menú Insertar y haga clic en Formas.
-- Luego, seleccione el rectángulo de 'Formas usadas recientemente' o 'Rectángulos'
+- Selecciona la celda donde deseas insertar el rectángulo
+- Haga clic en el menú Insertar y luego en Formas.
+- Luego, selecciona el rectángulo de 'Formas usadas recientemente' o 'Rectángulos'
 
 ![](rectangle.png)
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar un rectángulo en la hoja de cálculo.
+Puedes utilizar el siguiente método para insertar un rectángulo en la hoja de cálculo.
 
 {{% alert color="primary" %}}
 
-[Forma pública addShape (int tipo, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- El método devuelve un[Forma](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objeto.
+El método devuelve un objeto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
 {{% /alert %}}
 
@@ -130,29 +132,29 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 ## **Insertar un cubo en la hoja de trabajo**
 
-La forma de cubo pertenece a la**Formas básicas** categoría.
+La forma del cubo pertenece a la categoría de **Formas básicas**.
 
-***En Microsoft Excel (por ejemplo 2007):***
+***En Microsoft Excel (por ejemplo, 2007):***
 
-- Seleccione la celda donde desea insertar el cubo
-- Haga clic en el menú Insertar y haga clic en Formas.
--  Luego, seleccione el Cubo de**Formas básicas**
+- Selecciona la celda donde deseas insertar el cubo
+- Haga clic en el menú Insertar y luego en Formas.
+- Luego, selecciona el Cubo de **Formas básicas**
 
 ![](cube.png)
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar un cubo en la hoja de cálculo.
+Puede utilizar el siguiente método para insertar un cubo en la hoja de cálculo.
 
 {{% alert color="primary" %}}
 
-[Forma pública addAutoShape (int tipo, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- El método devuelve un[Forma](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objeto.
+El método devuelve un objeto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
 {{% /alert %}}
 
-El siguiente ejemplo muestra cómo insertar un cubo en una hoja de trabajo.
+El siguiente ejemplo muestra cómo insertar un cubo en una hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-Cube.java" >}}
 
@@ -162,31 +164,31 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 
 
-## **Insertar una flecha cuádruple de llamada en la hoja de trabajo**
+## **Insertar una flecha de llamada en la hoja de trabajo**
 
- La forma de la flecha cuádruple de llamada pertenece a la**flechas de bloque** categoría.
+La forma de la flecha de cuadro de referencia pertenece a la categoría **Flechas de bloque**.
 
-***En Microsoft Excel (por ejemplo 2007):***
+***En Microsoft Excel (por ejemplo, 2007):***
 
-- Seleccione la celda donde desea insertar la flecha cuádruple de llamada
-- Haga clic en el menú Insertar y haga clic en Formas.
--  Luego, seleccione la flecha cuádruple de llamada de**flechas de bloque**
+- Seleccione la celda donde desea insertar la flecha de cuadro de referencia
+- Haga clic en el menú Insertar y luego en Formas.
+- Luego, seleccione la flecha de cuadro de referencia de **Flechas de bloque**
 
 ![](callout_quad_arrow.png)
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar una flecha cuádruple de llamada en la hoja de trabajo.
+Puede utilizar el siguiente método para insertar una flecha de cuadro de referencia en la hoja de cálculo.
 
 {{% alert color="primary" %}}
 
-[Forma pública addAutoShape (int tipo, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- El método devuelve un[Forma](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objeto.
+El método devuelve un objeto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
 {{% /alert %}}
 
-El siguiente ejemplo muestra cómo insertar una flecha cuádruple de llamada en una hoja de cálculo.
+El siguiente ejemplo muestra cómo insertar una flecha de cuadro de referencia en una hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-CalloutQuadArrow.java" >}}
 
@@ -198,29 +200,29 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 ## **Insertar un signo de multiplicación en la hoja de trabajo**
 
- La forma del signo de multiplicación pertenece a la**Formas de ecuación** categoría.
+La forma del signo de multiplicación pertenece a la categoría **Formas de ecuaciones**.
 
-***En Microsoft Excel (por ejemplo 2007):***
+***En Microsoft Excel (por ejemplo, 2007):***
 
 - Seleccione la celda donde desea insertar el signo de multiplicación
-- Haga clic en el menú Insertar y haga clic en Formas.
--  Luego, seleccione el signo de multiplicación de**Formas de ecuación**
+- Haga clic en el menú Insertar y luego en Formas.
+- Luego, seleccione el signo de multiplicación de **Formas de ecuaciones**
 
 ![](multiplication_sign.png)
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar un signo de multiplicación en la hoja de cálculo.
+Puede utilizar el siguiente método para insertar un signo de multiplicación en la hoja de cálculo.
 
 {{% alert color="primary" %}}
 
-[Forma pública addAutoShape (int tipo, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- El método devuelve un[Forma](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objeto.
+El método devuelve un objeto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
 {{% /alert %}}
 
-El siguiente ejemplo muestra cómo insertar el signo de multiplicación en una hoja de cálculo.
+El siguiente ejemplo muestra cómo insertar un signo de multiplicación en una hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-MultiplicationSign.java" >}}
 
@@ -230,31 +232,31 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 
 
-## **Insertar un multidocumento en la hoja de trabajo**
+## **Insertar un documento múltiple en la hoja de trabajo**
 
- La forma de multidocumento pertenece a la**diagramas de flujo** categoría.
+La forma del multidocumento pertenece a la categoría **Flujogramas**.
 
-***En Microsoft Excel (por ejemplo 2007):***
+***En Microsoft Excel (por ejemplo, 2007):***
 
 - Seleccione la celda donde desea insertar el multidocumento
-- Haga clic en el menú Insertar y haga clic en Formas.
--  Luego, seleccione el multidocumento de**diagramas de flujo**
+- Haga clic en el menú Insertar y luego en Formas.
+- Luego, selecciona el multidocumento de **Flujogramas**
 
 ![](multidocument.png)
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar un multidocumento en la hoja de trabajo.
+Puedes usar el siguiente método para insertar un multidocumento en la hoja de cálculo.
 
 {{% alert color="primary" %}}
 
-[Forma pública addAutoShape (int tipo, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- El método devuelve un[Forma](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objeto.
+El método devuelve un objeto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
 {{% /alert %}}
 
-El siguiente ejemplo muestra cómo insertar varios documentos en una hoja de cálculo.
+El siguiente ejemplo muestra cómo insertar un multidocumento en una hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-Multidocument.java" >}}
 
@@ -266,25 +268,25 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 ## **Insertar una estrella de cinco puntas en la hoja de trabajo**
 
- La forma de estrella de cinco puntas pertenece a la**estrellas y pancartas** categoría.
+La forma de la estrella de cinco puntas pertenece a la categoría de **Estrellas y Banderas**.
 
-***En Microsoft Excel (por ejemplo 2007):***
+***En Microsoft Excel (por ejemplo, 2007):***
 
-- Seleccione la celda donde desea insertar la estrella de cinco puntas
-- Haga clic en el menú Insertar y haga clic en Formas.
--  Luego, seleccione la estrella de cinco puntas de**estrellas y pancartas**
+- Selecciona la celda donde desees insertar la estrella de cinco puntas
+- Haga clic en el menú Insertar y luego en Formas.
+- Luego, selecciona la estrella de cinco puntas de **Estrellas y Banderas**
 
 ![](star_5_points.png)
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar una estrella de cinco puntas en la hoja de trabajo.
+Puedes usar el siguiente método para insertar una estrella de cinco puntas en la hoja de cálculo.
 
 {{% alert color="primary" %}}
 
-[Forma pública addAutoShape (int tipo, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- El método devuelve un[Forma](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objeto.
+El método devuelve un objeto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
 {{% /alert %}}
 
@@ -298,31 +300,31 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 
 
-## **Insertar una nube de burbujas de pensamiento en la hoja de trabajo**
+## **Insertar una nube de burbuja de pensamiento en la hoja de trabajo**
 
- La forma de la nube de burbujas de pensamiento pertenece a la**Rótulos** categoría.
+La forma de un globo de pensamiento pertenece a la categoría de **Llamadas**.
 
-***En Microsoft Excel (por ejemplo 2007):***
+***En Microsoft Excel (por ejemplo, 2007):***
 
-- Seleccione la celda donde desea insertar la nube de burbujas de pensamiento
-- Haga clic en el menú Insertar y haga clic en Formas.
--  Luego, seleccione la nube de burbujas de pensamiento de**Rótulos**
+- Seleccione la celda donde desea insertar el globo de pensamiento
+- Haga clic en el menú Insertar y luego en Formas.
+- Luego, seleccione el globo de pensamiento de **Llamadas**
 
 ![](thought_bubble_cloud.png)
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar una nube de burbujas de pensamiento en la hoja de trabajo.
+Puede utilizar el siguiente método para insertar un globo de pensamiento en la hoja de cálculo.
 
 {{% alert color="primary" %}}
 
-[Forma pública addAutoShape (int tipo, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- El método devuelve un[Forma](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objeto.
+El método devuelve un objeto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
 {{% /alert %}}
 
-El siguiente ejemplo muestra cómo insertar una nube de burbujas de pensamiento en una hoja de cálculo.
+El siguiente ejemplo muestra cómo insertar un globo de pensamiento en una hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-ThoughtBubbleCloud.java" >}}
 

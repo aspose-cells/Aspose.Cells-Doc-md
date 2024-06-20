@@ -1,15 +1,16 @@
-﻿---
-title: Utilisation des polices dans Apache POI et Aspose.Cells
+---
+title: Travailler avec les polices dans Apache POI et Aspose.Cells
 type: docs
 weight: 30
 url: /fr/java/working-with-fonts-in-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Travailler avec des polices**
-Aspose.Cells fournit une classe,[Cahier](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)qui représente un fichier Excel Microsoft. La classe Workbook contient une WorksheetCollection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)classe. La classe Worksheet fournit une collection Cells. Chaque pièce de la collection Cells représente un objet de la[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)classe.
+
+## **Aspose.Cells - Travailler avec les polices**
+Aspose.Cells fournit une classe, [Workbook](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook) qui représente un fichier Microsoft Excel. La classe Workbook contient une WorksheetCollection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par la classe [Worksheet](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet). La classe Worksheet fournit une collection de Cells. Chaque élément de la collection Cells représente un objet de la classe [Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell).
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Adding some value to cell
 
@@ -40,12 +41,12 @@ font.setStrikeout(true);
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Utilisation des polices**
-Apache POI SS fournit une classe de police pour définir divers paramètres de police.
+## **Apache POI SS - HSSF XSSF - Travailler avec les polices**
+Apache POI SS fournit la classe Font pour définir divers paramètres de police.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Create a new font and alter it.
 
@@ -74,13 +75,13 @@ cell.setCellValue("This is a test of fonts");
 cell.setCellStyle(style);
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/formatting/fonts)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Gestion des paramètres de police](http://docs.aspose.com:8082/docs/display/cellsjava/Dealing+with+Font+Settings).
+Pour plus de détails, visitez [Gérer les paramètres de police](http://docs.aspose.com:8082/docs/display/cellsjava/Dealing+with+Font+Settings)
 
 {{% /alert %}}

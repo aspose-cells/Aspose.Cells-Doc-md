@@ -1,34 +1,35 @@
-﻿---
-title: Insérer une image d'arrière-plan dans Excel
+---
+title: Insérer une image d arrière plan dans Excel
 type: docs
 weight: 90
 url: /fr/java/insert-background-image-to-excel/
-description: Comment insérer une image d'arrière-plan dans Excel en utilisant Aspose.Cells for Java
+description: "Comment insérer une image de fond dans Excel en utilisant Aspose.Cells for Java."
 ---
+
 {{% alert color="primary" %}} 
 
-Vous pouvez rendre une feuille de calcul plus attrayante en ajoutant une image comme arrière-plan de feuille de calcul. Cette fonctionnalité peut être très efficace si vous avez un graphique d'entreprise spécial qui ajoute une touche d'arrière-plan sans masquer les données sur la feuille. Vous pouvez définir une image d'arrière-plan pour une feuille en utilisant Aspose.Cells API.
+Vous pouvez rendre une feuille de calcul plus attrayante en ajoutant une image en arrière-plan. Cette fonctionnalité peut être très efficace si vous avez une illustration graphique d'entreprise spéciale qui ajoute une touche de fond sans obscurcir les données sur la feuille. Vous pouvez configurer une image d'arrière-plan pour une feuille à l'aide de l'API Aspose.Cells.
 
 {{% /alert %}} 
 
-## **Définition de l'arrière-plan de la feuille dans Microsoft Excel**
+## **Configuration de l'arrière-plan de la feuille dans Microsoft Excel**
 
-Pour définir l'image d'arrière-plan d'une feuille dans Microsoft Excel (par exemple, Microsoft Excel 2019) :
+Pour définir une image d'arrière-plan de la feuille dans Microsoft Excel (par exemple, Microsoft Excel 2019) :
 
-1.  Du**Mise en page** menu, trouvez le**Mise en page** option, puis cliquez sur le**Arrière plan** option.
-1. Sélectionnez une image pour définir l'image d'arrière-plan de la feuille.
+1. Dans le menu **Mise en page**, recherchez l'option **Configuration de la page**, puis cliquez sur l'option **Arrière-plan**.
+1. Sélectionnez une image pour définir l'arrière-plan de la feuille.
 
-   **Définition d'un arrière-plan de feuille**
+   **Configuration d'un arrière-plan de feuille**
 
-![tâche : image_autre_texte](set-background-picture-for-a-worksheet_1.jpg)
+![todo:image_alt_text](set-background-picture-for-a-worksheet_1.jpg)
 
-## **Réglage de l'arrière-plan de la feuille avec Aspose.Cells**
+## **Configuration de l'arrière-plan de la feuille avec Aspose.Cells**
 
-Le code ci-dessous définit une image d'arrière-plan à l'aide d'une image d'un flux.
+Le code ci-dessous définit une image d'arrière-plan à l'aide d'une image provenant d'un flux.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-SetBackgroundPictureforWorksheet-1.java" >}}
 
-## Articles Liés
+## Articles Connexes
 
 - [Travailler avec l'arrière-plan dans les fichiers ODS](/cells/fr/java/working-with-background-in-ods-files/)
 

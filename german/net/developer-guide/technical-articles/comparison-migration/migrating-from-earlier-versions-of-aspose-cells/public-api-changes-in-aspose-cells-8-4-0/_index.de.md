@@ -1,27 +1,28 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 8.4.0
+---
+title: Öffentliche API Änderungen in Aspose.Cells 8.4.0
 type: docs
 weight: 130
 url: /de/net/public-api-changes-in-aspose-cells-8-4-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 8.3.2 zu 8.4.0, die für Modul-/Anwendungsentwickler von Interesse sein könnten. Es enthält nicht nur neue und aktualisierte öffentliche Methoden,[zusätzliche Klassen usw.](/cells/de/net/public-api-changes-in-aspose-cells-8-4-0/) und[Klassen entfernt usw.](/cells/de/net/public-api-changes-in-aspose-cells-8-4-0/), sondern auch eine Beschreibung etwaiger Verhaltensänderungen hinter den Kulissen in Aspose.Cells.
+Dieses Dokument beschreibt die Änderungen an der Aspose.Cells-API von Version 8.3.2 auf 8.4.0, die für Modulentwickler/Anwendungsprogrammierer interessant sein könnten. Es umfasst nicht nur neue und aktualisierte öffentliche Methoden, [hinzugefügte Klassen usw.](/cells/de/net/public-api-changes-in-aspose-cells-8-4-0/) und [entfernte Klassen usw.](/cells/de/net/public-api-changes-in-aspose-cells-8-4-0/), sondern auch eine Beschreibung möglicher Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
 
 {{% /alert %}} 
-## **APIs hinzugefügt**
-### **Mechanismus zum Ändern des VBA/Makrocodes in Tabellenkalkulationen**
- Um die Funktion bereitzustellen[VBA/Makrocode-Manipulation](/cells/de/net/modifying-vba-or-macro-code-using-aspose-cells/), Aspose.Cells for .NET 8.4.0 hat eine Reihe neuer Klassen und Eigenschaften im Aspose.Cells.VBA-Namespace verfügbar gemacht. Einige der wichtigen Details dieser neuen Klassen sind wie folgt.
+## **Hinzugefügte APIs**
+### **Mechanismus zur Modifizierung des VBA-/Makro-Codes in Arbeitsblättern**
+Um die Funktion zur [Manipulation des VBA/Makro-Codes](/cells/de/net/modifying-vba-or-macro-code-using-aspose-cells/) bereitzustellen, hat die Aspose.Cells for .NET 8.4.0 eine Reihe neuer Klassen und Eigenschaften im Namensraum Aspose.Cells.Vba freigelegt. Einige wichtige Details dieser neuen Klassen sind wie folgt.
 
-- Die VbaProject-Klasse kann verwendet werden, um das VBA-Projekt aus einer bestimmten Tabelle abzurufen.
-- Die VbaModuleCollection-Klasse stellt die Sammlung von VBA-Modulen dar, die Teil eines bestimmten VbaProject sind.
+- Die VbaProject-Klasse kann verwendet werden, um das VBA-Projekt aus einem bestimmten Arbeitsblatt abzurufen.
+- Die VbaModuleCollection-Klasse repräsentiert die Sammlung von VBA-Modulen, die Teil eines bestimmten VbaProject sind.
 - Die VbaModule-Klasse repräsentiert ein einzelnes Modul aus der VbaModuleCollection.
 
-Der folgende Codeausschnitt zeigt, wie die VBA-Codesegmente dynamisch geändert werden.
+Der folgende Code-Schnipsel zeigt, wie die VBA-Codeabschnitte dynamisch geändert werden.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source Excel file
 
@@ -56,17 +57,17 @@ workbook.Save("output.xlsm");
 {{< /highlight >}}
 
 
-### **Möglichkeit zum Entfernen der Pivot-Tabelle**
-Aspose.Cells for .NET 8.4.0 hat zwei Methoden für die PivotTableCollection bereitgestellt, um die Funktion zum Entfernen von Pivot-Tabellen aus einer bestimmten Tabelle bereitzustellen. Die Einzelheiten der oben genannten Verfahren sind wie folgt.
+### **Fähigkeit, Pivot-Tabelle zu entfernen**
+Aspose.Cells for .NET 8.4.0 hat zwei Methoden für die PivotTableCollection freigelegt, um die Funktion zum Entfernen von Pivot-Tabellen aus einer bestimmten Tabelle bereitzustellen. Die Details der genannten Methoden sind wie folgt.
 
-- Die PivotTableCollection.Remove-Methode akzeptiert ein PivotTable-Objekt und entfernt es aus der Auflistung.
-- Die PivotTableCollection.RemoveAt-Methode akzeptiert einen nullindexbasierten ganzzahligen Wert und entfernt die bestimmte PivotTable aus der Auflistung.
+- Die Methode PivotTableCollection.Remove akzeptiert ein Objekt von PivotTable und entfernt es aus der Sammlung.
+- Die Methode PivotTableCollection.RemoveAt akzeptiert einen nullbasierten ganzzahligen Wert und entfernt die jeweilige PivotTabelle aus der Sammlung.
 
-Der folgende Codeausschnitt zeigt, wie die PivotTable mit den beiden oben genannten Methoden entfernt wird.
+Der folgende Code-Schnipsel zeigt, wie die PivotTable mithilfe beider oben genannter Methoden entfernt werden können.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source Excel file
 
@@ -95,24 +96,24 @@ workbook.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **Unterstützung für verschiedene Pivot-Tabellen-Layouts**
-Aspose.Cells for .NET 8.4.0 bietet Unterstützung für verschiedene vordefinierte Layouts für Pivot-Tabellen. Um diese Funktion bereitzustellen, haben die Aspose.Cells-APIs drei Methoden für die PivotTable-Klasse verfügbar gemacht, wie unten beschrieben.
+### **Unterstützung für verschiedene Pivot-Tabellenlayouts**
+Aspose.Cells for .NET 8.4.0 bietet Unterstützung für verschiedene vordefinierte Layouts für Pivot-Tabellen. Um diese Funktion bereitzustellen, haben die Aspose.Cells-APIs drei Methoden für die PivotTable-Klasse freigelegt, wie unten detailliert beschrieben.
 
-- Die PivotTable.ShowInCompactForm-Methode rendert die Pivot-Tabelle im kompakten Layout.
-- Die PivotTable.ShowInOutlineForm-Methode rendert die Pivot-Tabelle im Gliederungslayout.
-- Die PivotTable.ShowInTabularForm-Methode rendert die Pivot-Tabelle im tabellarischen Layout.
+- Die Methode PivotTable.ShowInCompactForm rendert die Pivot-Tabelle im kompakten Layout.
+- Die Methode PivotTable.ShowInOutlineForm rendert die Pivot-Tabelle im Gliederungs-Layout.
+- Die Methode PivotTable.ShowInTabularForm rendert die Pivot-Tabelle im tabellarischen Layout.
 
 {{% alert color="primary" %}} 
 
-Es ist wichtig, PivotTable.RefreshData & PivotTable.CalculateData aufzurufen, nachdem eines der oben genannten Layouts festgelegt wurde.
+Es ist wichtig, die Methoden PivotTable.RefreshData und PivotTable.CalculateData aufzurufen, nachdem eines der oben genannten Layouts festgelegt wurde.
 
 {{% /alert %}} 
 
-Der folgende Beispielcode legt verschiedene Layouts für eine Pivot-Tabelle fest und speichert das Ergebnis auf dem Datenträger.
+Der folgende Beispielcode setzt verschiedene Layouts für eine Pivot-Tabelle und speichert das Ergebnis auf der Festplatte.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -171,19 +172,19 @@ workbook.Save("TabularForm.xlsx");
 {{< /highlight >}}
 
 
-### **Klasse TxtLoadStyleStrategy & Eigenschaft TxtLoadOptions.LoadStyleStrategy Hinzugefügt**
-Aspose.Cells for .NET 8.4.0 hat die TxtLoadStyleStrategy-Klasse und die TxtLoadOptions.LoadStyleStrategy-Eigenschaft verfügbar gemacht, um die Strategie zum Formatieren der geparsten Werte beim Konvertieren des Zeichenfolgenwerts in eine Zahl oder Datumszeit anzugeben.
-### **Methode DataBar.ToImage Hinzugefügt**
-Mit der Veröffentlichung von v8.4.0 hat der Aspose.Cells API die DataBar.ToImage-Methode bereitgestellt, um die bedingt formatierten DataBars im Bildformat zu speichern. Die Methode {DataBar.ToImage}} akzeptiert zwei Parameter, wie unten beschrieben.
+### **Die Klasse TxtLoadStyleStrategy & die Eigenschaft TxtLoadOptions.LoadStyleStrategy wurden hinzugefügt.**
+Aspose.Cells for .NET 8.4.0 hat die Klasse TxtLoadStyleStrategy und das Attribut TxtLoadOptions.LoadStyleStrategy freigelegt, um die Strategie zur Formatierung der analysierten Werte beim Konvertieren von Zeichenfolgen in Zahlen oder Datum/Zeit festzulegen.
+### **Methode 'DataBar.ToImage' hinzugefügt.**
+Mit der Version v8.4.0 bietet die Aspose.Cells API die Methode DataBar.ToImage zum Speichern der bedingt formatierten DataBars im Bildformat an. Die Methode {DataBar.ToImage}} akzeptiert zwei Parameter wie unten detailliert.
 
-- Der erste Parameter ist vom Typ Aspose.Cells.Cell, auf den bedingte Formatierung angewendet wurde.
-- Der zweite Parameter ist vom Typ Aspose.Cells.Rendering.ImageOrPrintOptions, um verschiedene Parameter des resultierenden Bildes einzustellen.
+- Der erste Parameter ist vom Typ Aspose.Cells.Cell, auf den die bedingte Formatierung angewendet wurde.
+- Der zweite Parameter ist vom Typ Aspose.Cells.Rendering.ImageOrPrintOptions, um verschiedene Parameter des resultierenden Bildes festzulegen.
 
-Der folgende Beispielcode veranschaulicht die Verwendung der DataBar.ToImage-Methode zum Rendern des DataBar im Bildformat.
+Der folgende Beispielcode zeigt die Verwendung der Methode DataBar.ToImage zum Rendern der DataBar im Bildformat an.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -213,7 +214,7 @@ opts.ImageFormat = ImageFormat.Png;
 
 //Get the image bytes of the databar
 
-byte[]imgBytes = dbar.ToImage(cell, opts);
+byte[] imgBytes = dbar.ToImage(cell, opts);
 
 //Write image bytes on the disk
 
@@ -222,24 +223,24 @@ File.WriteAllBytes("databar.png", imgBytes);
 {{< /highlight >}}
 
 
-### **Eigenschaft Border.ThemeColor hinzugefügt**
-Aspose.Cells APIs ermöglichen das Extrahieren themenbezogener Formatierungsdaten aus den Tabellenkalkulationen. Mit der Veröffentlichung von Aspose.Cells for .NET 8.4.0 hat API die Border.ThemeColor-Eigenschaft verfügbar gemacht, die verwendet werden kann, um die Themenfarbattribute von Cell-Rahmen abzurufen.
-### **Eigenschaft DrawObject.ImageBytes hinzugefügt**
-Aspose.Cells for .NET 8.4.0 hat die DrawObject.ImageBytes-Eigenschaft bereitgestellt, um die Bilddaten von Chart oder Shape abzurufen.
-### **Eigenschaft HtmlSaveOptions.ExportBogusRowData Hinzugefügt**
-Aspose.Cells for .NET 8.4.0 hat die Eigenschaft {HtmlSaveOptions.ExportBogusRowData}} bereitgestellt. Die Eigenschaft Boolescher Typ bestimmt, ob API beim Exportieren der Tabelle in das HTML-Format falsche Daten in der unteren Zeile einfügt.
+### **Eigenschaft Border.ThemeColor hinzugefügt.**
+Aspose.Cells APIs erlauben das Extrahieren von themenbezogenen Formatierungsdaten aus den Tabellenkalkulationen. Mit der Version Aspose.Cells for .NET 8.4.0 hat die API die Eigenschaft Border.ThemeColor freigelegt, die genutzt werden kann, um die Themafarbeigenschaften der Zellgrenzen abzurufen.
+### **Eigenschaft DrawObject.ImageBytes hinzugefügt.**
+Aspose.Cells for .NET 8.4.0 hat die Eigenschaft DrawObject.ImageBytes freigelegt, um die Bilddaten von Diagramm oder Form zu erhalten.
+### **Eigenschaft HtmlSaveOptions.ExportBogusRowData hinzugefügt.**
+Aspose.Cells for .NET 8.4.0 hat die {HtmlSaveOptions.ExportBogusRowData}}-Eigenschaft bereitgestellt. Die Eigenschaft vom Typ Boolean bestimmt, ob die API falsche untere Zeilendaten einfügt, während die Tabelle in das HTML-Format exportiert wird.
 
 {{% alert color="primary" %}} 
 
-Der Standardwert ist wahr.
+Der Standardwert ist true.
 
 {{% /alert %}} 
 
-Der folgende Beispielcode veranschaulicht die Verwendung der oben genannten Eigenschaft.
+Der folgende Beispielcode veranschaulicht die Verwendung der genannten Eigenschaft.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an object of HtmlSaveOptions class
 
@@ -260,16 +261,16 @@ workbook.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **Eigenschaft HtmlSaveOptions.CellCssPrefix Hinzugefügt**
-Die neu hinzugefügte Eigenschaft HtmlSaveOptions.CellCssPrefix ermöglicht das Festlegen des Präfixes für die CSS-Dateien beim Exportieren von Tabellenkalkulationen in das Format HTML.
+### **Eigenschaft HtmlSaveOptions.CellCssPrefix hinzugefügt**
+Die neu hinzugefügte Eigenschaft HtmlSaveOptions.CellCssPrefix ermöglicht das Festlegen des Präfix für die CSS-Dateien beim Export von Tabellenkalkulationen im HTML-Format.
 
 {{% alert color="primary" %}} 
 
-Der Standardwert ist "" (leerer String).
+Der Standardwert ist "" (Leerzeichen).
 
 {{% /alert %}}
 ## **Veraltete APIs**
-### **Methoden Cells.GetCellByIndex & Row.GetCellByIndex Veraltet**
-Verwenden Sie stattdessen die GetEnumerator-Methode, um alle Zellen zu durchlaufen.
-### **Eigenschaft DrawObject.Image Veraltet**
-Verwenden Sie stattdessen die DrawObject.ImageBytes-Eigenschaft, um Bilddaten abzurufen.
+### **Veraltete Methoden Cells.GetCellByIndex & Row.GetCellByIndex**
+Verwenden Sie die GetEnumerator-Methode, um alle Zellen iterativ zu durchlaufen.
+### **Veraltete DrawObject.Image Eigenschaft**
+Verwenden Sie stattdessen die DrawObject.ImageBytes-Eigenschaft, um Bilddaten zu erhalten.

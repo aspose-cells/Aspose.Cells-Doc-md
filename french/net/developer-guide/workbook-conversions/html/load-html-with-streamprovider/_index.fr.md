@@ -1,20 +1,21 @@
-﻿---
-title: Charger Html dans Excel avec StreamProvider
+---
+title: Charger du HTML dans Excel avec StreamProvider
 type: docs
 weight: 80
 url: /fr/net/convert-html-to-excel-with-streamprovider/
 ---
+
 {{% alert color="primary" %}} 
 
-Lors du chargement de fichiers html contenant des ressources externes, nous sommes souvent confrontés aux deux problèmes suivants :
-1. Lorsque le flux html est chargé, les images et les ressources externes référencées par le fichier html ne peuvent pas être obtenues via des chemins relatifs.
-1. Les chemins de ressources externes référencés dans les fichiers html doivent être mappés
+Lors du chargement de fichiers HTML contenant des ressources externes, nous rencontrons souvent les deux problèmes suivants :
+1. Lorsque le flux HTML est chargé, les images et les ressources externes référencées par le fichier HTML ne peuvent pas être obtenues via des chemins relatifs.
+1. Les chemins des ressources externes référencés dans les fichiers HTML doivent être mappés
 
- Cet article explique comment mettre en œuvre[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) interface de réglage du[HtmlLoadOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/streamprovider/) la propriété. En implémentant cette interface, vous pourrez charger des ressources externes lors du chargement de flux Html ou ces ressources externes sont relatives.
+Cet article explique comment implémenter l'interface [IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) pour définir la propriété [HtmlLoadOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/streamprovider/). En implémentant cette interface, vous pourrez charger des ressources externes lors du chargement de flux HTML ou ces ressources externes seront relatives.
 
 {{% /alert %}} 
 
- Ceci est le code principal montrant l'utilisation de[HtmlLoadOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/streamprovider/)la propriété
+Il s'agit du code principal montrant l'utilisation de la propriété [HtmlLoadOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/streamprovider/)
 
 
 

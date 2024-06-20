@@ -1,39 +1,40 @@
-﻿---
-title: Impostare la proprietà DefaultFont di PdfSaveOptions e ImageOrPrintOptions in modo che abbia la priorità
+---
+title: Impostare la proprietà DefaultFont di PdfSaveOptions e ImageOrPrintOptions per avere la priorità
 type: docs
 weight: 30
 url: /it/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/
 ---
-## **Possibili scenari di utilizzo**
 
- Durante l'impostazione del**Carattere predefinito** proprietà di[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions) e[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) , potresti aspettarti che il salvataggio su PDF o l'immagine lo imposti**Carattere predefinito** a tutto il testo nella cartella di lavoro che ha un carattere mancante (non installato).
+## **Possibili Scenari di Utilizzo**
 
- Generalmente, quando si salva in PDF o in un'immagine, Aspose.Cells tenterà prima di impostare il carattere predefinito della cartella di lavoro (ovvero,[**Cartella di lavoro.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) ). Se il carattere predefinito della cartella di lavoro non è ancora in grado di mostrare/visualizzare correttamente il testo, allora Aspose.Cells tenterà di eseguire il rendering con il carattere indicato contro**Carattere predefinito** attributo in[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions).
+Mentre imposti la proprietà **DefaultFont** di [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions) e [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), potresti aspettarti che il salvataggio in PDF o immagine imposti quel **DefaultFont** a tutti i testi nel foglio di lavoro che hanno un tipo di carattere mancante (non installato).
 
-Per far fronte alle tue aspettative, abbiamo una proprietà booleana denominata "**CheckWorkbookDefaultFont** " in[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) . Puoi impostarlo su false per disabilitare il tentativo del carattere predefinito della cartella di lavoro o lasciare che il file**Carattere predefinito** sistemarsi[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) avere la precedenza.
+In generale, quando si salva in PDF o immagine, Aspose.Cells cercherà prima di impostare il tipo di carattere predefinito del foglio di calcolo (cioè, [**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font)). Se il tipo di carattere predefinito del foglio di calcolo non riesce ancora a mostrare/renderizzare il testo correttamente, allora Aspose.Cells proverà a renderizzare con il tipo di carattere menzionato contro l'attributo **DefaultFont** in [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions).
+
+Per soddisfare le tue aspettative, abbiamo una proprietà booleana chiamata "**CheckWorkbookDefaultFont**" in [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions). Puoi impostarla su falso per disabilitare il tentativo del tipo di carattere predefinito del foglio di calcolo o lasciare che l'impostazione **DefaultFont** in [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) abbia la priorità.
 
 ## **Impostare la proprietà DefaultFont di PdfSaveOptions/ImageOrPrintOptions**
 
-Il codice di esempio seguente apre un file Excel. La cella A1 (nel primo foglio di lavoro) ha un testo impostato su "Christmas Time Font text". Il nome del font è "Christmas Time Personal Use" che non è installato sulla macchina. Prepariamo**Carattere predefinito**attributo di[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)al "Times New Roman". Abbiamo anche impostato**CheckWorkbookDefaultFont**Proprietà booleana a "**falso**" che assicura che il testo della cella A1 sia reso con il carattere "Times New Roman" e non dovrebbe utilizzare il carattere predefinito della cartella di lavoro ("Calibri" in questo caso). Il codice esegue il rendering del primo foglio di lavoro nei formati immagine PNG e TIFF. Infine esegue il rendering nel formato di file PDF.
+Il codice di esempio seguente apre un file Excel. La cella A1 (nel primo foglio di lavoro) ha un testo impostato su "Testo del font di Natale". Il nome del font è "Christmas Time Personal Use" che non è installato sulla macchina. Impostiamo l'attributo **DefaultFont** di [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) su "Times New Roman". Impostiamo anche la proprietà booleana **CheckWorkbookDefaultFont** su "**false**" che assicura che il testo della cella A1 venga reso con il font "Times New Roman" e non utilizzi il font predefinito del foglio di lavoro ("Calibri" in questo caso). Il codice rende il primo foglio di lavoro nei formati immagine PNG e TIFF. Infine, lo rende nel formato di file PDF.
 
 {{% alert color="primary" %}}
 
- Il valore predefinito di***CheckWorkbookDefaultFont*** attributo è**VERO**.
+Il valore predefinito dell'attributo ***CheckWorkbookDefaultFont*** è **true**.
 
 {{% /alert %}}
 
-Questo è lo screenshot del[file modello](49446914.xlsx)utilizzato nel codice di esempio.
+Questa è la schermata del [file di modello](49446914.xlsx) usato nel codice di esempio.
 
-![cose da fare:immagine_alt_testo](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
+![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
 
-Questa è l'immagine di output PNG dopo aver impostato il file[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)proprietà a "Times New Roman".
+Questa è l'immagine PNG di output dopo aver impostato la proprietà [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) su "Times New Roman".
 
-![cose da fare:immagine_alt_testo](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
+![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
 
-Guarda l'uscita[TIFF](out1_imageTIFF.tiff)immagine dopo aver impostato il[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)proprietà a "Times New Roman".
+Guarda l'immagine di output [TIFF](out1_imageTIFF.tiff) dopo aver impostato la proprietà [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) su "Times New Roman".
 
-Guarda l'uscita[PDF](out1_pdf.pdf)file dopo aver impostato il file[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DefaultFont)proprietà a "Times New Roman".
+Guarda il file di output [PDF](out1_pdf.pdf) dopo aver impostato la proprietà [**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DefaultFont) su "Times New Roman".
 
-## **Codice d'esempio**
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Fonts-SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions-1.java" >}}

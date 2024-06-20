@@ -1,5 +1,5 @@
 ---
-title: 格式化列表对象 - 表格
+title: 格式化列表对象  表格
 type: docs
 weight: 50
 url: /zh/java/format-a-list-object-table/

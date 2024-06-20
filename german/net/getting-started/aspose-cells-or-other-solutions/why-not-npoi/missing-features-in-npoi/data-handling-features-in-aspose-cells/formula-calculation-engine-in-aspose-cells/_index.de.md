@@ -1,15 +1,16 @@
-﻿---
-title: Formelberechnungsmodul in Aspose.Cells
+---
+title: Formelberechnungsmaschine in Aspose.Cells
 type: docs
 weight: 30
 url: /de/net/formula-calculation-engine-in-aspose-cells/
 ---
-## **Aspose.Cells - Formelberechnungsmodul**
-Die Formelberechnungs-Engine ist in Aspose.Cells eingebettet. Sie kann nicht nur die aus einer Designer-Tabellendatei importierte Formel neu berechnen, sondern unterstützt auch die Berechnung der Ergebnisse von zur Laufzeit hinzugefügten Formeln.
+
+## **Aspose.Cells - Formelberechnungsmaschine**
+Die Formelberechnungsmaschine ist in Aspose.Cells eingebettet. Sie kann nicht nur die aus einer Designer-Tabellendatei importierte Formel neu berechnen, sondern unterstützt auch das Berechnen der Ergebnisse von zur Laufzeit hinzugefügten Formeln.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -58,13 +59,13 @@ book.CalculateFormula();
 book.Save("AsposeFormulaEngine.xls");
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Formel-Berechnungs-Engine** Bilden Sie eine der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Formelberechnungsmaschine** von einer der unten aufgeführten sozialen Code-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Formula.Calculation.Engine.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Formel-Berechnungs-Engine](/cells/de/net/formula-calculation-engine/).
+Für weitere Details besuchen Sie [Formelberechnungsmaschine](/cells/de/net/formula-calculation-engine/).
 
 {{% /alert %}}

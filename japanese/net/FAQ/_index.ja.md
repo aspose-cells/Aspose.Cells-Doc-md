@@ -1,51 +1,49 @@
-﻿---
+---
 title: よくある質問
 type: docs
 weight: 100
 url: /ja/net/faq/
 ---
-## **Workbook.CalculateFormula で System.StackOverFlowException を修正する方法は?**
-Workbook.CalculateFormula メソッドで System.StackOverFlowException が発生することがあります。この例外は通常、IIS の既定のスタック サイズが小さすぎる (265k のみ) ために発生します。このエラーを修正するには、スタック サイズを増やした別のスレッドを作成し、その中に Workbook.CalculateFormula 関連のコードを移動します。
+
+## **Workbook.CalculateFormulaでSystem.StackOverFlowExceptionを修正する方法**
+ユーザーは、Workbook.CalculateFormulaメソッドでSystem.StackOverFlowExceptionに遭遇することがあります。この例外は通常、IISのデフォルトのスタックサイズが小さすぎる（265kのみ）ために発生します。スタックサイズを増やした別のスレッドを作成し、それに関連するコードを移動することでこのエラーを修正できます。
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Controllers-GridWebFAQController-FixStackOverflowException.cs" >}}
-## **Excel を PDF にレンダリングする際の線の太さの問題**
-Excel ファイルを PDF に変換すると、出力 PDF の線の太さが異なる場合があります。この問題は Aspose.Cells が原因ではありません。**アドビリーダー**その設定時に**「滑らかな線画」**と**「細い線を強調」**チェックされます。これらのオプションをオフにすると、PDF が表示されます。
+## **ExcelをPDFに変換する際の線の太さの問題**
+ExcelファイルをPDFに変換すると、出力されるPDFの線の太さが異なることがあります。この問題はAspose.Cellsによるものではなく、Adobe Readerの設定の"スムースラインアート"と"細い線を強調する"のチェックによるものです。これらのオプションをオフにすると、PDFが正常に表示されます。
 
-チェックする場合**「滑らかな線画」**と**「細い線を強調」**、線の太さが違います。次の手順を参照してください。
+"スムースラインアート"と"細い線を強調する"のチェックを外すと、線の太さが異なります。次の手順を参照してください:
 
-- 後藤**編集**
-- 選択する**環境設定**
-- の中に**ページ表示**カテゴリー チェック**「滑らかな線画」**と**「細い線を強調」**
+- "編集"に移動
+- "設定"を選択
+- "ページ表示"カテゴリで"スムースラインアート"と"細い線を強調する"をチェック
 
-チェックを外した場合**「滑らかな線画」**と**「細い線を強調」**、線の太さは同じです。これを実現するには、以下の手順に従ってください。
+"スムースラインアート"と"細い線を強調する"のチェックを外すと、線の太さが同じになります。次の手順に従ってください:
 
-- 後藤**編集**
-- 選択する**環境設定**
-- の中に**ページ表示**カテゴリのチェックを外します**「滑らかな線画」**と**「細い線を強調」**
-## **大きなスプレッドシートのロード中に System.OutOfMemoryException を修正する方法は?**
-大規模なスプレッドシートのロード中に Workbook コンストラクターが System.OutOfMemoryException をスローする可能性はかなりあります。この例外は、スプレッドシートをメモリに完全にロードするには使用可能なメモリが不足していることを示唆しています。[メモリ設定](/cells/ja/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/).
+- "編集"に移動
+- "設定"を選択
+- "ページ表示"カテゴリで"スムースラインアート"と"細い線を強調する"のチェックを外す
+## **大規模なスプレッドシートを読み込む際のSystem.OutOfMemoryExceptionの修正方法**
+大規模なスプレッドシートを読み込む際にWorkbookコンストラクタがSystem.OutOfMemoryExceptionをスローする可能性があります。この例外は、利用可能なメモリがスプレッドシートを完全に読み込むのに十分でないことを示唆しています。したがって、[メモリ設定](/cells/ja/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)を有効にしてスプレッドシートを読み込む必要があります。
 
-Aspose.Cells API は、スプレッドシートのロードおよび処理中のメモリ消費を最適化するためのメモリ設定を提供します。これらのオプションは、以下に示すように Workbook オブジェクトに巨大なデータ セットを含む大きなスプレッドシートを効率的に読み込むのにも役立ちます。
+Aspose.Cells APIは、大規模なスプレッドシートを効率的に読み込むためのメモリ設定を提供しています。以下に示すように、これらのオプションは、大量のデータセットを含む大規模なスプレッドシートを効率的にWorkbookオブジェクトに読み込むのに役立ちます。
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-KnowledgeBase-FAQs-FixOutOfMemoryException-1.cs" >}}
 
-## **特定のワークブックに必要なスタック サイズを決定する**
-ただし、Aspose.Cells 数式計算エンジンが強化されており、ほとんどの場合、スタック サイズを小さく指定しなくても、特定のテンプレート ファイルに対して正常に計算されたすべての数式を取得できるはずです。それでも、Workbook.CalculateFormula メソッドで StackOverFlowException が発生することは避けられない場合があります。ユーザーが数式の計算を追跡するための新しい API を提供します。 「AbstractCalculationMonitor」という名前のクラスを追加し、プロパティを提供しました。*CalculationOptions.CalculationMonitor*問題に対処/追跡します。
+## **特定のワークブックに必要なスタックサイズを決定する**
+Aspose.Cellsの数式計算エンジンを強化していますが、ほとんどの場合、より小さなスタックサイズを指定せずに与えられたテンプレートファイルのすべての数式を正常に計算できるはずです。ただし、Workbook.CalculateFormulaメソッドでStackOverFlowExceptionが発生することがあります。この問題に対処するために、ユーザー向けに数式計算をトラッキングする新しいAPIを提供しています。"AbstractCalculationMonitor"というクラスを追加し、*CalculationOptions.CalculationMonitor*プロパティを提供しています。
 
-ユーザーは、API を使用して自分でスタック サイズをトレースできます。すべてのセルのスタックをチェックすると、確実にパフォーマンスが大幅に低下することに注意してください。参照用にサンプル コード セグメントを参照してください。
+ユーザーはAPIを使用してスタックサイズを自分でトレースすることができます。ただし、すべてのセルのスタックを確認すると、パフォーマンスが著しく低下します。参考のためにサンプルコードセグメントをご覧ください:
 
-`     `public class MyCalculationMonitor : AbstractCalculationMonitor
-" StackOverflowException のリスクがあるため、式の計算を停止します");  ` `}  ` `}  ` `} 
-
-
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "CalculationMonitor-CustomStackTrace.cs" >}}
 
 {{% alert color="primary" %}} 
 
-実行時に使用されるスタック サイズを取得するより良い方法はありません。提供した上記のコードは単なる例です。性能は確実に大幅に低下します。そのため、ユーザー (実際に使用したいユーザー) は、さまざまなシナリオや要件に応じてコードを最適化できると考えています。再帰セルの数が一定数に達したときにスタックをチェックする、1 つの再帰セルのスタックの平均増加率を収集し、スタックをチェックする頻度を決定する、など。
+実行時に使用されるスタックサイズを取得するよりよい方法はありません。上記のコードはあくまで参考例です。パフォーマンスは確実に著しく低下します。したがって、スタックを確認するユーザー（本当に使用したいユーザー）によるコードの最適化が必要と考えられます。たとえば、再帰セルの数がある数値に達したときにスタックを確認し、1つの再帰セルの平均増加率を収集し、スタックを確認する頻度を決定することなどがあります。
 
 {{% /alert %}}
 

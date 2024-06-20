@@ -1,62 +1,63 @@
-﻿---
-title: Çalışma Sayfalarını Çalışma Kitapları İçinde ve Çalışma Kitapları Arasında Kopyalama ve Taşıma
+---
+title: Çalışma Kitapları Arasında ve İçinde Çalışma Sayfalarını Kopyalayın ve Taşıyın
 type: docs
 weight: 20
 url: /tr/java/copy-and-move-worksheets-within-and-between-workbooks/
 ---
+
 {{% alert color="primary" %}}
 
-Bazen, ortak biçimlendirme ve veri girişi içeren bir dizi çalışma sayfasına ihtiyacınız olur. Örneğin, üç aylık bütçelerle çalışıyorsanız, aynı sütun başlıklarını, satır başlıklarını ve formülleri içeren sayfalardan oluşan bir çalışma kitabı oluşturmak isteyebilirsiniz. Bunu yapmanın bir yolu var: bir sayfa oluşturup ardından onu üç kez kopyalayarak.
+Bazen, ortak biçimlendirme ve veri girişi gerektiren sayısız çalışma sayfasına ihtiyacınız olabilir. Örneğin, üç aylık bütçelerle çalışıyorsanız, aynı sütun başlıklarını, satır başlıklarını ve formülleri içeren sayfaları olan bir çalışma kitabı oluşturmak isteyebilirsiniz. Bunu yapmanın bir yolu vardır: bir sayfa oluşturarak ve ardından bunu üç kez kopyalayarak.
 
-Aspose.Cells, çalışma kitaplarının içinde veya arasında çalışma sayfalarının kopyalanmasını veya taşınmasını destekler. Veriler, biçimlendirme, tablolar, matrisler, çizelgeler, resimler ve diğer nesneleri içeren çalışma sayfaları en yüksek hassasiyetle kopyalanır.
+Aspose.Cells, çalışma kitapları arasında veya içinde çalışma sayfalarını kopyalama veya taşımayı destekler. Veri, biçimlendirme, tablolar, matrisler, grafikler, resimler ve diğer nesnelerin yanı sıra sayfalar en yüksek hassasiyetle kopyalanır.
 
 {{% /alert %}}
 
 ## **Çalışma Sayfalarını Kopyalama ve Taşıma**
 
-Bu makalede, Aspose.Cells'in aşağıdaki amaçlarla nasıl kullanılacağı açıklanmaktadır:
+Bu makale, Aspose.Cells'ı kullanarak şunları nasıl yapılacağını açıklar:
 
-- [Çalışma kitabı içindeki çalışma sayfasını kopyalama](/cells/tr/java/copy-and-move-worksheets-within-and-between-workbooks/#copying-a-worksheet-within-a-workbook).
-- [Çalışma sayfasını çalışma kitabı içinde taşıma](/cells/tr/java/copy-and-move-worksheets-within-and-between-workbooks/#moving-a-worksheet-with-in-a-workbook).
-- [Çalışma kitapları arasında çalışma sayfası kopyalama](/cells/tr/java/copy-and-move-worksheets-within-and-between-workbooks/#copying-a-worksheet-between-workbooks).
-- [Bir çalışma sayfasını çalışma kitapları arasında taşıma](/cells/tr/java/copy-and-move-worksheets-within-and-between-workbooks/#moving-a-worksheet-between-workbooks).
+- [Çalışma kitabı içinde bir çalışma sayfasını kopyalama](/cells/tr/java/copy-and-move-worksheets-within-and-between-workbooks/#copying-a-worksheet-within-a-workbook).
+- [Çalışma kitabı içinde bir çalışma sayfasını taşıma](/cells/tr/java/copy-and-move-worksheets-within-and-between-workbooks/#moving-a-worksheet-with-in-a-workbook).
+- [Çalışma kitapları arasında bir çalışma sayfasını kopyalama](/cells/tr/java/copy-and-move-worksheets-within-and-between-workbooks/#copying-a-worksheet-between-workbooks).
+- [Çalışma kitapları arasında bir çalışma sayfasını taşıma](/cells/tr/java/copy-and-move-worksheets-within-and-between-workbooks/#moving-a-worksheet-between-workbooks).
 
-### **Çalışma Kitabındaki Çalışma Sayfasını Kopyalama**
+### **Bir Çalışma Sayfasını Bir Çalışma Kitabı İçinde Kopyalama**
 
-İlk adımlar tüm örnekler için aynıdır.
+Tüm örnekler için ilk adımlar aynıdır.
 
-1. Microsoft Excel'de bazı verilerle iki çalışma kitabı oluşturun. Bu örneğin amaçları doğrultusunda, Microsoft Excel'de iki yeni çalışma kitabı oluşturduk ve çalışma sayfalarına bazı veriler girdik.
+1. Microsoft Excel'de bazı veriler içeren iki çalış kitabı oluşturun. Bu örneğin amaçları için, Microsoft Excel'de iki yeni çalışma kitabı oluşturduk ve çalışma sayfalarına bazı veriler girdik.
 
 - FirstWorkbook.xls (3 çalışma sayfası)
-- SecondWorkbook.xls (1 çalışma sayfası).
+- SecondWorkbook.xls (1 çalışma sayfası)
 
   **FirstWorkbook.xls**
 
-![yapılacaklar:resim_alternatif_metin](copy-and-move-worksheets-within-and-between-workbooks_1.png)
+![todo:image_alt_text](copy-and-move-worksheets-within-and-between-workbooks_1.png)
 
 **SecondWorkbook.xls**
 
-![yapılacaklar:resim_alternatif_metin](copy-and-move-worksheets-within-and-between-workbooks_2.png)
+![todo:image_alt_text](copy-and-move-worksheets-within-and-between-workbooks_2.png)
 
-1. Aspose.Cells'i indirin ve yükleyin:
-   1. [İndir Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
- 1. Geliştirme bilgisayarınızda sıkıştırılmış dosyayı açın.
- Herşey[Aspose](http://www.aspose.com/) bileşenler kurulduğunda değerlendirme modunda çalışır. Değerlendirme modunun zaman sınırı yoktur ve yalnızca üretilen belgelere filigran ekler.
+1. Aspose.Cells'i indirin ve kurun:
+   1. [Aspose.Cells for Java'yi indirin](https://downloads.aspose.com/cells/java).
+   1. Geliştirme bilgisayarınızda zip dosyasını açın.
+      Tüm [Aspose](http://www.aspose.com/) bileşenleri yüklendiğinde değerlendirme modunda çalışır. Değerlendirme modunun bir zaman limiti yoktur ve yalnızca üretilen belgelere filigran enjekte eder.
 1. Bir proje oluşturun:
- 1. Eclipse gibi bir Java düzenleyici kullanarak bir proje oluşturun veya bir metin düzenleyici kullanarak basit bir program oluşturun.
-1. Bir sınıf yolu ekleyin:
-1. Aspose.Cells.jar ve dom4j_1.6.1.jar'ı Aspose.Cells.zip'ten çıkarın.
- 1. Eclipse'de projenin sınıf yolunu ayarlayın:
- 1. Eclipse'de projenizi seçin ve menülere tıklayın**Proje** , o zamanlar**Özellikler**.
- 1. Seçin**Java Derleme Yolu** iletişim kutusunun sol tarafında, ardından Kitaplıklar sekmesini seçin,
- 1. tıklayın**JAR ekle** veya**Harici JAR'lar Ekle** Aspose.Cells.jar ve dom4j_1.6.1.jar'ı seçip derleme yollarına eklemek için.
+   1. Eclipse gibi bir Java düzenleyici kullanarak bir proje oluşturun veya metin düzenleyici kullanarak basit bir program oluşturun.
+1. Bir sınıf yolunu ekleyin:
+   1. Aspose.Cells.jar ve dom4j_1.6.1.jar dosyalarını Aspose.Cells.zip'ten çıkartın.
+   1. Eclipse'te proje classpath'ini ayarlayın:
+      Eclipse'de projenizi seçin ve ardından **Proje**, sonra **Özellikler** düğmelerine tıklayın.
+      Açılan iletişim kutusunun sol tarafında **Java Yapı Yolu**'nu seçin, ardından Kütüphaneler sekmesini seçin.
+      **JAR Ekle** veya **Harici JAR'ları Ekle**'ye tıklayarak Aspose.Cells.jar ve dom4j_1.6.1.jar'ı seçin ve yapı yollarına ekleyin.
 
 {{% alert color="primary" %}}
 
-Veya sınıf yolunu çalışma zamanında Windows'de bir DOS isteminde ayarlayabilirsiniz.
+Veya Windows'ta bir DOS komut isteminden çalışma zamanında sınıf yolunu ayarlayabilirsiniz.
 Örneğin:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath %classpath%;e:\Aspose.Cells.jar; ClassName
 
@@ -64,59 +65,59 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath
 
 {{% /alert %}}
 
-1. Çalışma sayfasını bir çalışma kitabı içinde kopyalama:
-Görevi gerçekleştirmek için tarafından kullanılan kod aşağıdadır. FirstWorkbook.xls içindeki Copy çalışma sayfasını kopyalar.
+1. Çalış kitabı içinde ki çalışma sayfasını kopyalayın:
+   Aşağıda görevi tamamlamak için kullanılan kod. Bu, FirstWorkbook.xls içindeki Kopyala çalışma sayfasını kopyalar.
 
-Kodun çalıştırılması, FirstWorkbook.xls içindeki Copy adlı çalışma sayfasını Last Sheet yeni adıyla taşır.
+Kodun çalıştırılması, Kopyala olarak adlandırılan çalışma sayfasını FirstWorkbook.xls içinde yeni adı Son Sayfa ile taşır.
 
-**Çıktı dosyası**
+**Çıkış dosyası**
 
-![yapılacaklar:resim_alternatif_metin](copy-and-move-worksheets-within-and-between-workbooks_3.png)
+![todo:image_alt_text](copy-and-move-worksheets-within-and-between-workbooks_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-CopyWithinWorkbook-1.java" >}}
 
-### **Çalışma Kitabında Çalışma Sayfasını Taşıma**
+### **Çalışma Kitabı İçinde Bir Çalışma Sayfası Taşıma**
 
-Görevi gerçekleştirmek için kullanılan kod aşağıdadır.
+Aşağıdaki kod, görevi tamamlamak için kullanılan kod.
 
-Kodun yürütülmesi, çalışma sayfasını FirstWorkbook.xls'de dizin 1'den dizin 2'ye taşır.
+Kodun çalıştırılması, Move olarak adlandırılan çalışma sayfasını FirstWorkbook.xls içindeki 1. indexten 2. indexe taşır.
 
-**Çıktı dosyası**
+**Çıkış dosyası**
 
-![yapılacaklar:resim_alternatif_metin](copy-and-move-worksheets-within-and-between-workbooks_4.png)
+![todo:image_alt_text](copy-and-move-worksheets-within-and-between-workbooks_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-MoveWorksheet-1.java" >}}
 
-### **Çalışma Kitapları Arasında Çalışma Sayfası Kopyalama**
+### **Çalışma Kitapları Arasında Bir Çalışma Sayfası Kopylama**
 
-Kodun çalıştırılması, Copy to SecondWorkbook.xls çalışma sayfasını Sheet2 yeni adıyla kopyalar.
+Kodun çalıştırılması, Kopya olarak adlandırılan çalışma sayfasını SecondWorkbook.xls içine Sheet2 olarak kopyalar.
 
-**Çıktı dosyası**
+**Çıkış dosyası**
 
-![yapılacaklar:resim_alternatif_metin](copy-and-move-worksheets-within-and-between-workbooks_5.png)
+![todo:image_alt_text](copy-and-move-worksheets-within-and-between-workbooks_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-CopyWorksheetsBetweenWorkbooks-1.java" >}}
 
-### **Çalışma Sayfasını Çalışma Kitapları Arasında Taşıma**
+### **Çalışma Kitapları Arasında Bir Çalışma Sayfası Taşıma**
 
-Kodun çalıştırılması, taşıma çalışma sayfasını FirstWorkbook.xls'den Sheet3 yeni adıyla SecondWorkbook.xls'ye taşır.
+Kodu çalıştırmak, FirstWorkbook.xls'den Sheet3 adıyla ikinci çalışma kitabı olan SecondWorkbook.xls'ye çalışma sayfasını taşır.
 
-**Çıktı FirstWorkbook.xls**
+**FirstWorkbook.xls Çıktısı**
 
-![yapılacaklar:resim_alternatif_metin](copy-and-move-worksheets-within-and-between-workbooks_6.png)
+![todo:image_alt_text](copy-and-move-worksheets-within-and-between-workbooks_6.png)
 
-**SecondWorkbook.xls çıktısı**
+**SecondWorkbook.xls Çıktısı**
 
-![yapılacaklar:resim_alternatif_metin](copy-and-move-worksheets-within-and-between-workbooks_7.png)
+![todo:image_alt_text](copy-and-move-worksheets-within-and-between-workbooks_7.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-MoveWorksheet-1.java" >}}
 
-## **Çözüm**
+## **Sonuç**
 
 {{% alert color="primary" %}}
 
-Bu makalede, Aspose.Cells kullanılarak çalışma sayfalarının çalışma kitaplarının içinde ve arasında nasıl kopyalanacağı ve taşınacağı açıklanmaktadır.
+Bu makale, Aspose.Cells kullanarak çalışma kitapları arasında ve içinde çalışma sayfalarını kopyalama ve taşıma işlemlerini açıklar.
 
- Aspose.Cells, yıllarca süren araştırma, tasarım ve dikkatli ayarlamadan yararlanmıştır. Soru, görüş ve önerilerinizi şu adrese bekliyoruz:[Aspose.Cells Forum](https://forum.aspose.com/c/cells/9). Hızlı yanıt garantisi veriyoruz.
+Aspose.Cells yılların araştırmasından, tasarımından ve dikkatli ayarlama süreçlerinden yararlanmıştır. [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9) adresinden soru, yorum ve önerilerinizi bekliyoruz. Hızlı bir yanıt garantisi veriyoruz.
 
 {{% /alert %}}

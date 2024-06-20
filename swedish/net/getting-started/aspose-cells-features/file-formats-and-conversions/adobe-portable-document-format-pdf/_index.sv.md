@@ -1,25 +1,26 @@
-﻿---
+---
 title: Adobe Portable Document Format - PDF
 type: docs
 weight: 40
 url: /sv/net/adobe-portable-document-format-pdf/
 ---
+
 {{% alert color="primary" %}} 
 
- Alla dokument som laddas in i Aspose.Cells kan konverteras till PDF som överensstämmer med[PDF 1.5](https://docs.fileformat.com/pdf/) eller[PDF/A-1b](https://docs.fileformat.com/pdf/a/)Specifikation. Aspose.Cells gör mycket för att troget konvertera Microsoft Excel-dokument till PDF. För det mesta kommer utseendet på det slutliga PDF-dokumentet inte att skiljas från det ursprungliga Microsoft Excel-dokumentet.
+Varje dokument som laddas in i Aspose.Cells kan konverteras till PDF som följer [PDF 1.5](https://docs.fileformat.com/pdf/) eller [PDF/A-1b](https://docs.fileformat.com/pdf/a/) specifikationerna. Aspose.Cells går långt för att troget konvertera Microsoft Excel-dokument till PDF. De flesta gånger kommer utseendet på det slutliga PDF-dokumentet vara svårt att skilja från det ursprungliga Microsoft Excel-dokumentet.
 
 {{% /alert %}} 
 ## **PDF i Aspose.Cells**
-Aspose-lösningen stöder grundligt följande dokumentfunktioner vid konvertering till PDF:
+Aspose-lösningen stöder noggrant följande dokumentfunktioner vid konvertering till PDF:
 
-- Cell Data- och textformatering
+- Celledata och textformatering
 - Diagram och pivottabeller
-- Sidhuvud/sidfot
+- Huvuden/Fötter
 - Villkorlig formatering
-- Kanter, kantfärger
-- Bilder, textrutor och ritningsformer
+- Kantlinjer, kantfärger
+- Bilder, textlådor och ritningsformer
 - Bokmärken
 - Hyperlänkar
-- Sammanslagna Cells, Sidbrytningar, Skriv ut titlar
+- Sammanfogade celler, Sidbrytningar, Trycktitlar
 
- Du kan också se[detaljerad specifikation](https://docs.aspose.com/cells/net/convert-excel-workbook-to-pdf/) om hur Aspose.Cells konverterar ett dokument till PDF.
+Du kan också se [detaljerad specifikation](https://docs.aspose.com/cells/net/convert-excel-workbook-to-pdf/) om hur Aspose.Cells konverterar ett dokument till PDF.

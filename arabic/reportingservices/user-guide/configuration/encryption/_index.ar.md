@@ -1,14 +1,15 @@
-﻿---
+---
 title: التشفير
 type: docs
 weight: 40
 url: /ar/reportingservices/encryption/
 ---
-Aspose.Cells for Reporting Services يدعم ثلاثة أنواع من التشفير: XOR و WEAK ENCRYPTION و Microsoft مزود تشفير قوي. راجع معلومات تكوين التشفير في ملف**Aspose.Cells.ReportingServices.xml** ملف.
 
- عندما تكون قيمة التشفير**إيقاف**، Aspose.Cells for Reporting Services يقوم بإيقاف تشغيل ميزات التشفير.
+Aspose.Cells for Reporting Services يدعم ثلاثة أنواع من التشفير: XOR، تشفير ضعيف، و Microsoft Strong Cryptographic Provider. انظر معلومات تكوين التشفير في ملف **Aspose.Cells.ReportingServices.xml**.
 
-{{< highlight "java" >}}
+عندما تكون قيمة التشفير **معطلة**, يقوم Aspose.Cells for Reporting Services بإيقاف ميزات التشفير.
+
+{{< highlight java >}}
 
    < Encryption value="off">
 
@@ -26,22 +27,22 @@ Aspose.Cells for Reporting Services يدعم ثلاثة أنواع من التش
 
 {{< /highlight >}}
 
- عندما تكون قيمة التشفير**تشغيل**، Aspose.Cells for Reporting Services يقوم بتشغيل التشفير.
+عندما تكون قيمة التشفير **مفعلة**, يقوم Aspose.Cells for Reporting Services بتشغيل التشفير.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Encryption value="on">
 
 {{< /highlight >}}
 
-هناك أربع معاملات في قسم التشفير:
+هناك أربعة معلمات في قسم التشفير:
 
-- **تقرير اسم**: يشير إلى تقرير يحتاج إلى تشفير. إذا تُركت المعلمة فارغة ، فإن جميع التقارير تستخدم نفس طريقة التشفير.
-- **كلمة المرور**: يحدد كلمة المرور. لا يمكن أن يكون فارغا.
-- **نوع التشفير**: يحدد نوع التشفير. لا يمكن أن يكون فارغا.
-- **طول المفتاح**: يحدد طول المفتاح. لا يمكن أن يكون فارغا.
+- **اسم التقرير**: يشير إلى تقرير يحتاج إلى تشفير. إذا تم ترك المعلمة فارغة، فإن جميع التقارير تستخدم نفس طريقة التشفير.
+- **كلمة المرور**: يحدد كلمة المرور. لا يمكن أن تكون فارغة.
+- **نوع_التشفير**: يحدد نوع التشفير. لا يمكن أن يكون فارغًا.
+- **طول_المفتاح**: يحدد طول المفتاح. لا يمكن أن يكون فارغًا.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Encryption value="on">
 

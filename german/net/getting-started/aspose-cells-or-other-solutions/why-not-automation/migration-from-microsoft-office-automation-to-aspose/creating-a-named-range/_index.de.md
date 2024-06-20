@@ -1,39 +1,40 @@
-﻿---
+---
 title: Erstellen eines benannten Bereichs
 type: docs
 weight: 70
 url: /de/net/creating-a-named-range/
 ---
+
 {{% alert color="primary" %}}
 
-Mit Aspose.Cells for .NET können Entwickler die meisten Aufgaben ausführen, die Benutzer in Microsoft Excel über ihre Anwendungen ausführen können. In diesem Artikel wird erläutert, wie Sie einen benannten Bereich programmgesteuert anwenden.
+Aspose.Cells for .NET ermöglicht Entwicklern, die meisten Aufgaben, die Benutzer in Microsoft Excel durch ihre Anwendungen ausführen können, programmgesteuert auszuführen. Dieser Artikel erklärt, wie man programmgesteuert einen benannten Bereich anwendet.
 
-Ein benannter Bereich ist eine Excel-Funktion, mit der Sie einer Zelle oder einem Zellbereich in einer Excel-Tabelle einen Namen zuweisen können. Sie können dann den Namen in Formeln verwenden, um auf die Zelle (oder den Bereich) zu verweisen. Sinnvoll benannte Bereiche erleichtern das Verständnis von Formeln.
+Ein benannter Bereich ist eine Excel-Funktion, die es Ihnen ermöglicht, einer Zelle oder einem Zellenbereich in einem Excel-Tabellenblatt einen Namen zuzuweisen. Sie können den Namen dann in Formeln verwenden, um auf die Zelle (oder den Bereich) zu verweisen. Sinnvoll benannte Bereiche erleichtern das Verständnis von Formeln.
 
-Ein benannter Bereich muss innerhalb seines Bereichs eindeutig sein, verwenden Sie also nicht denselben Namen für mehrere Bereiche in einem Arbeitsblatt. Beschreibende Bereichsnamen helfen dabei, dies zu vermeiden: OrderSubTotal ist beispielsweise aussagekräftiger als SubTotal und wird auch weniger wahrscheinlich auf einem Blatt dupliziert.
+Ein benannter Bereich muss innerhalb seines Geltungsbereichs eindeutig sein, verwenden Sie also nicht denselben Namen für mehrere Bereiche in einem Tabellenblatt. Beschreibende Bereichsnamen helfen dabei, dies zu vermeiden: zum Beispiel ist OrderSubTotal aussagekräftiger als SubTotal und auch weniger wahrscheinlich dupliziert zu werden auf einem Tabellenblatt.
 
 {{% /alert %}}
 
 ## **Erstellen eines benannten Bereichs**
 
-So erstellen Sie einen benannten Bereich:
+Um einen benannten Bereich zu erstellen:
 
-1. Erstellen Sie das Arbeitsblatt:
- 1. Instanziieren Sie ein Anwendungsobjekt.
- (Nur VSTO.)
- 1. Fügen Sie eine Arbeitsmappe hinzu.
- 1. Holen Sie sich das erste Blatt.
+1. Richten Sie das Arbeitsblatt ein:
+   1. Instanziieren Sie ein Application-Objekt.
+      (Nur VSTO.)
+   1. Fügen Sie ein Arbeitsbuch hinzu.
+   1. Holen Sie sich das erste Blatt.
 1. Erstellen Sie einen benannten Bereich:
- 1. Definieren Sie einen Bereich.
- 1. Benennen Sie den Bereich.
-1. Speicher die Datei.
+   1. Definieren Sie einen Bereich.
+   1. Benennen Sie den Bereich.
+1. Speichern Sie die Datei.
 
- Die folgenden Codebeispiele zeigen, wie Sie diese Schritte mit ausführen[VSTO](/cells/de/net/creating-a-named-range/) entweder mit C# oder Visual Basic. Die folgenden Codebeispiele zeigen, wie man dasselbe mit macht[Aspose.Cells for .NET](/cells/de/net/creating-a-named-range/), wieder entweder mit C# oder Visual Basic.
+Die untenstehenden Codebeispiele zeigen, wie Sie diese Schritte mithilfe von [VSTO](/cells/de/net/creating-a-named-range/) mit entweder C# oder Visual Basic durchführen können. Die folgenden Codebeispiele zeigen, wie Sie dasselbe mithilfe von [Aspose.Cells for .NET](/cells/de/net/creating-a-named-range/) tun können, wiederum mit entweder C# oder Visual Basic.
 ### **Erstellen eines benannten Bereichs mit VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -97,32 +98,32 @@ xl.Quit();
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-mit Aspose.Cells;
+using Aspose.Cells;
 
 .......
 
 
-//Instanziieren eines Workbook-Objekts
+//Instantiating a Workbook object
 
-Arbeitsmappe Arbeitsmappe = neue Arbeitsmappe();
+Workbook workbook = new Workbook();
 
-//Auf das erste Arbeitsblatt in der Excel-Datei zugreifen
+//Accessing the first worksheet in the Excel file
 
-Arbeitsblatt Arbeitsblatt = Arbeitsmappe.Arbeitsblätter[0];
+Worksheet worksheet = workbook.Worksheets[0];
 
-//Einen benannten Bereich erstellen
+//Creating a named range
 
-Bereichsbereich = Arbeitsblatt.Cells.CreateRange("A1", "B4");
+Range range = worksheet.Cells.CreateRange("A1", "B4");
 
-//Festlegen des Namens des benannten Bereichs
+//Setting the name of the named range
 
-Bereich.Name = "Testbereich";
+range.Name = "Test_Range";
 
- for (int zeile = 0; zeile< range.RowCount; row++)
+for (int row = 0; row < range.RowCount; row++)
 
 {
 

@@ -1,15 +1,16 @@
-﻿---
-title: Anzeigen und Ausblenden von Registerkarten der Arbeitsmappe mit Aspose.Cells
+---
+title: Anzeigen und Ausblenden von Registerkarten des Arbeitsblatts mithilfe von Aspose.Cells
 type: docs
 weight: 50
 url: /de/java/display-and-hide-tabs-of-workbook-using-aspose-cells/
 ---
-## **Aspose.Cells – Registerkarten der Arbeitsmappe anzeigen und ausblenden**
-Aspose.Cells stellt eine Klasse Workbook bereit, die eine Microsoft Excel-Datei darstellt. Die Workbook-Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten einer Excel-Datei. Um die Sichtbarkeit von Registerkarten in einer Excel-Datei zu steuern, können Entwickler die setShowTabs-Methode der Workbook-Klasse verwenden.
+
+## **Aspose.Cells - Anzeigen und Ausblenden von Registerkarten der Arbeitsmappe**
+Aspose.Cells bietet eine Klasse namens Workbook, die eine Microsoft Excel-Datei repräsentiert. Die Workbook-Klasse bietet eine Vielzahl von Eigenschaften und Methoden zur Verwaltung einer Excel-Datei. Um die Sichtbarkeit von Registerkarten in einer Excel-Datei zu steuern, können Entwickler die Methode setShowTabs der Workbook-Klasse verwenden.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object by excel file path
 
@@ -34,7 +35,7 @@ workbook.getSettings().setShowTabs(true);
 workbook.save(dataDir + "AsposeDisplayTabs.xls");
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeDisplayAndHideTabs.java)

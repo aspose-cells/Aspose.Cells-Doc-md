@@ -1,20 +1,21 @@
-﻿---
-title: كيفية إصلاح خطأ java.lang.OutOfMemoryError أثناء تحميل جداول البيانات الكبيرة
+---
+title: كيفية إصلاح java.lang.OutOfMemoryError أثناء تحميل جداول بيانات كبيرة
 type: docs
 weight: 20
 url: /ar/java/how-to-fix-the-java-lang-outofmemoryerror-while-loading-large-spreadsheets/
 ---
+
 {{% alert color="primary" %}} 
 
- هناك احتمالات معقولة أن يقوم مُنشئ المصنف بإلقاء خطأ java.lang.OutOfMemoryError أثناء تحميل جداول بيانات كبيرة. يشير هذا الاستثناء إلى أن الذاكرة المتوفرة غير كافية لتحميل جدول البيانات بالكامل في الذاكرة ، وبالتالي يجب تحميل جدول البيانات أثناء تمكين[تفضيلات الذاكرة](/cells/ar/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/).
+هناك فرص كبيرة لأن يطرح مُنشئ الورقة (Workbook) استثناء java.lang.OutOfMemoryError أثناء تحميل جداول بيانات كبيرة. يُقترح هذا الاستثناء أن الذاكرة المتاحة غير كافية لتحميل الجدول بالكامل في الذاكرة لذا يتعين تحميل الجدول بتمكين [تفضيلات الذاكرة](/cells/ar/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/).
 
 {{% /alert %}} 
-## **كيفية إصلاح خطأ java.lang.OutOfMemoryError أثناء تحميل جدول بيانات كبير**
-توفر واجهات برمجة التطبيقات Aspose.Cells تفضيلات الذاكرة لتحسين استهلاك الذاكرة أثناء تحميل جداول البيانات ومعالجتها. هذه الخيارات مفيدة أيضًا في التحميل الفعال لجداول البيانات الكبيرة التي تحتوي على مجموعات بيانات ضخمة في كائن المصنف كما هو موضح أدناه.
+## **كيفية إصلاح java.lang.OutOfMemoryError أثناء تحميل جدول بيانات كبيرة**
+تقدم واجهات برمجة التطبيقات لـ Aspose.Cells تفضيلات الذاكرة لتحسين استهلاك الذاكرة أثناء تحميل ومعالجة الجداول. هذه الخيارات أيضًا مفيدة في تحميل الجداول الكبيرة التي تحتوي على مجموعات بيانات ضخمة بشكل كفء في كائن Workbook كما هو موضح أدناه. 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify the LoadOptions
 

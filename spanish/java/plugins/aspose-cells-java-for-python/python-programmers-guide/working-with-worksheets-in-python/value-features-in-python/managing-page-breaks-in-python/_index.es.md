@@ -1,16 +1,17 @@
-﻿---
-title: Gestión de saltos de página en Python
+---
+title: Gestionar Saltos de Página en Python
 type: docs
 weight: 20
 url: /es/java/managing-page-breaks-in-python/
 ---
-## **Aspose.Cells - Gestión de saltos de página**
-### **Adición de saltos de página**
- Para agregar saltos de página usando**Aspose.Cells Java para rubí** , llamada**add_page_breaks** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
+
+## **Aspose.Cells - Gestionar Saltos de Página**
+### **Añadir Saltos de Página**
+Para añadir saltos de página usando **Aspose.Cells Java para Ruby**, llame al método **add_page_breaks** del módulo **pagebreaks**. A continuación, puede ver un ejemplo de código.
 
 **Código Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def add_page_breaks(self):
 
@@ -38,12 +39,12 @@ print "Add page breaks, please check the output file."
 
 
 {{< /highlight >}}
-### **Borrar todos los saltos de página**
- Para borrar todos los saltos de página usando**Aspose.Cells Java for Python** , llamada**clear_all_page_breaks** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
+### **Borrar Todos los Saltos de Página**
+Para borrar todos los saltos de página usando **Aspose.Cells Java para Python**, llame al método **clear_all_page_breaks** del módulo **pagebreaks**. A continuación, puede ver un ejemplo de código.
 
 **Código Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
 
 
@@ -66,12 +67,12 @@ print "Clear all page breaks, please check the output file."
 
 
 {{< /highlight >}}
-### **Eliminación de un salto de página específico**
- Para eliminar un salto de página específico usando**Aspose.Cells Java for Python** , llamada**remove_page_break** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
+### **Eliminar Salto de Página Específico**
+Para eliminar un salto de página específico usando **Aspose.Cells Java para Python**, llame al método **remove_page_break** del módulo **pagebreaks**. A continuación, puede ver un ejemplo de código.
 
 **Código Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
 
 
@@ -101,7 +102,7 @@ print "Remove page break, please check the output file."
 
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Gestión de saltos de página (Aspose.Cells)** de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Gestionando saltos de página (Aspose.Cells)** desde cualquiera de los siguientes sitios de codificación social:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

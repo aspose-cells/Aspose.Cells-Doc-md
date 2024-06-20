@@ -1,36 +1,49 @@
-﻿---
-title: الاستعلام Cell مناطق مناوبة لمسار مخطط XML باستخدام طريقة Worksheet.XmlMapQuery
+---
+title: الاستعلام عن مناطق الخلايا المرتبطة بمسار خريطة XML باستخدام طريقة Worksheet.XmlMapQuery
 type: docs
 weight: 60
 url: /ar/java/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يمكنك الاستعلام عن مناطق الخلايا التي تم تعيينها إلى مسار مخطط XML باستخدام Aspose.Cells باستخدام[**Worksheet.xmlMapQuery ()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)) طريقة. إذا كان المسار موجودًا ، فسيعيد قائمة مناطق الخلايا المتعلقة بهذا المسار داخل خريطة XML. المعلمة الأولى من[**Worksheet.xmlMapQuery ()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)) طريقة تحديد مسار عنصر XML وتحدد المعلمة الثانية مخطط XML الذي تريد الاستعلام عنه.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **الاستعلام Cell مناطق مناوبة لمسار مخطط XML باستخدام طريقة Worksheet.XmlMapQuery**
+يمكنك استعلام مجالات الخلية المتوافقة مع مسار map XML باستخدام الـ [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)). إذا كان المسار موجودًا، فسيُعيد قائمة مجالات الخليّة المتعلقة بذلك المسار داخل خريطة XML. تحدد المعلمة الأولى للـ [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)) مسار العنصر XML والمعلمة الثانية تحدد Map XML الذي تريد الاستعلام عنه.
 
-توضح لقطة الشاشة التالية Microsoft Excel الذي يعرض خريطة XML داخل ملف[نموذج لملف Excel](55541818.xlsx)المستخدمة في الكود. يستعلم الرمز عن مخطط XML مرتين ويطبع قائمة مناطق الخلايا التي تم إرجاعها بواسطة ملف[**Worksheet.xmlMapQuery ()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)) على وحدة التحكم كما هو موضح أدناه.
+## **استعلام عن مجالات الخلية المرتبطة بمسار خريطة XML باستخدام طريقة Worksheet.XmlMapQuery**
 
-![ما يجب القيام به: image_بديل_نص](query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method_1.png)
+تُظهر اللقطة الشاشة التالية عرض Map XML داخل Microsoft Excel في [ملف الإكسل النموذجي](55541818.xlsx) المستخدم في الشفرة. تستعلم الشفرة خريطة XML مرتين وتطبع قائمة مجالات الخلية المعادة من الـ [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)) على واجهة السطر كما هو مُبيَّن أدناه.
 
-## **عينة من الرموز**
+![todo:image_alt_text](query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-XmlMaps-QueryCellAreasMappedToXmlMapPath.java" >}}
 
-## **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Query Xml Map from Path - /MiscData
 
-Aspose.Cells.CellArea(A1:A8)[0,0,7,0]Aspose.Cells.CellArea(B1:B8)[0,1,7,1]Aspose.Cells.CellArea(C1:C8)[0,2,7,2]Aspose.Cells.CellArea(D1:D8)[0,3,7,3]Aspose.Cells.CellArea(E1:E8)[0,4,7,4]Query Xml Map from Path - /MiscData/row/Color
+Aspose.Cells.CellArea(A1:A8)[0,0,7,0]
 
-Aspose.Cells.CellArea(D1:D8)[0,3,7,3]{{< /highlight >}}
+Aspose.Cells.CellArea(B1:B8)[0,1,7,1]
 
-## **احصل على مسار XML من قائمة كائن / جدول**
+Aspose.Cells.CellArea(C1:C8)[0,2,7,2]
 
-يمكن استيراد بيانات XML إلى أوراق العمل. أحيانًا يكون مسار XML مطلوبًا من ListObjects في ورقة العمل. تتوفر هذه الميزة في Excel باستخدام تعبير مثل Sheet1.ListObjects (1) .XmlMap.DataBinding. تتوفر نفس الميزة في Aspose.Cells عن طريق الاتصال[**ListObject.getXmlMap (). getDataBinding (). getUrl ()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmldatabinding#Url). المثال التالي يوضح هذه الميزة. يمكن تنزيل ملف النموذج وملفات المصدر الأخرى من الروابط التالية:
+Aspose.Cells.CellArea(D1:D8)[0,3,7,3]
+
+Aspose.Cells.CellArea(E1:E8)[0,4,7,4]
+
+Query Xml Map from Path - /MiscData/row/Color
+
+Aspose.Cells.CellArea(D1:D8)[0,3,7,3]
+
+{{< /highlight >}}
+
+## **الحصول على مسار XML من جدول الكائن/الجدول**
+
+يمكن استيراد البيانات الخاصة بـ XML إلى أوراق العمل. في بعض الأحيان يكون مطلوبًا مسار XML من ListObjects للورقة العمل. يتوفر هذا الميزة في Excel عن طريق استخدام تعبير مثل Sheet1.ListObjects(1).XmlMap.DataBinding. نفس الميزة متاحة في Aspose.Cells عن طريق استدعاء [**ListObject.getXmlMap().getDataBinding().getUrl()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmldatabinding#Url). يظهر المثال التالي هذه الميزة. يمكن تحميل ملف القالب وغيرها من ملفات المصدر من الروابط التالية:
 
 1. [XMLData.xlsx](XMLData.xlsx)
 1. [CountryList.xml](CountryList.xml)

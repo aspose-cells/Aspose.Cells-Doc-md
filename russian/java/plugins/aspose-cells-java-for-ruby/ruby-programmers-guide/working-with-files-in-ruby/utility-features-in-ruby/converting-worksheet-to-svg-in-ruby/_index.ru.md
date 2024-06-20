@@ -1,37 +1,38 @@
-﻿---
-title: Преобразование рабочего листа в SVG в Ruby
+---
+title: Преобразование Листа в SVG в Ruby
 type: docs
 weight: 70
 url: /ru/java/converting-worksheet-to-svg-in-ruby/
 ---
-## **Aspose.Cells - Преобразование рабочего листа в SVG**
-Чтобы преобразовать рабочий лист в SVG, используя Aspose.Cells for Java в Ruby, просто вызовите рабочий лист_к_Метод svg() модуля Converter.
 
-**Рубиновый код**
+## **Aspose.Cells - Преобразование Листа в SVG**
+Чтобы преобразовать Лист в SVG, используя Aspose.Cells for Java в Ruby, просто вызовите метод worksheet_to_svg() модуля Converter.
 
-{{< highlight "ruby" >}}
+**Код на Ruby**
 
- рабочий лист определения_к_svg (книга)
+{{< highlight ruby >}}
 
-# Преобразование каждого рабочего листа в формат svg на одной странице.
+ def worksheet_to_svg(workbook)
 
-img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').новый
+    # Convert each worksheet into svg format in a single page.
 
-save_format = Rjb::import('com.aspose.cells.SaveFormat')
+    img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
 
-изображение_options.setSaveFormat (сохранить_формат.SVG)
+    save_format = Rjb::import('com.aspose.cells.SaveFormat')
 
-img_options.setOnePagePerSheet (истина)
+    img_options.setSaveFormat(save_format.SVG)
+
+    img_options.setOnePagePerSheet(true)
 
 
 
-# Конвертируем каждый рабочий лист в формат svg
+    # Convert each worksheet into svg format
 
-sheet_count = рабочая книга.getWorksheets().getCount()
+    sheet_count = workbook.getWorksheets().getCount()
 
-я=0
+    i=0
 
- в то время как я< sheet_count
+    while i < sheet_count
 
         sheet = workbook.getWorksheets().get(i)
 
@@ -54,7 +55,7 @@ sheet_count = рабочая книга.getWorksheets().getCount()
 end 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Преобразование рабочего листа в SVG (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите **Преобразование Листа в SVG (Aspose.Cells)** с любого из указанных ниже сайтов для социального программирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

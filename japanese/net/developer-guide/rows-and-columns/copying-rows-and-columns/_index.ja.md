@@ -3,97 +3,98 @@ title: 行と列のコピー
 type: docs
 weight: 40
 url: /ja/net/copying-rows-and-columns/
-description: この記事では、Aspose.Cells for .NET API を通じて行と列をコピーする方法を説明します。
-keywords: C# How to Copy Rows and Columns, Copy Rows in C#, Copy Columns using C#, How to Paste Rows and Columns using Aspose.Cells for .NET, Paste multiple rows and columns, How to Copy and paste Single Row or Column.
+description: この記事では、Aspose.Cells for .NETを使用して行と列をコピーする方法を示します。
+keywords: C# で Aspose.Cells for .NET を使用して行と列をコピーする方法、C# で行をコピーする方法、C# を使用して列をコピーする方法、Aspose.Cells for .NET を使用して行と列を貼り付ける方法、複数の行と列を貼り付ける方法、単一の行または列をコピーして貼り付ける方法。
 ---
-##  **導入**
 
-場合によっては、ワークシート全体をコピーせずに、ワークシート内の行と列をコピーする必要があります。 Aspose.Cells を使用すると、ワークブック内またはワークブック間で行と列をコピーできます。
-行 (または列) がコピーされると、そこに含まれるデータ (更新された参照を含む数式、値、コメント、書式設定、非表示セル、画像、その他の描画オブジェクトなど) もコピーされます。
+## **紹介**
 
-##  **Microsoft Excel で行と列をコピーする方法**
+時には、ワークシート全体をコピーせずに行や列をコピーする必要があります。Aspose.Cellsを使用すると、ワークブック内またはワークブック間で行や列をコピーすることができます。
+行（または列）をコピーすると、それに含まれるデータ（更新された参照を含む数式、値、コメント、書式設定、非表示セル、画像、その他の図形オブジェクトなど）がコピーされます。
 
-1. コピーする行または列を選択します。
-1. 行または列をコピーするには、**コピー**で**標準**ツールバー、または を押します**CTRL**+*C**。
-1. 選択内容をコピーする場所の下または右にある行または列を選択します。
-1. 行または列をコピーするときに、**Cellsをコピーしました**で**入れる**メニュー。
+## **Microsoft Excelで行や列をコピーする方法**
+
+1. コピーしたい行または列を選択します。
+1. 行または列をコピーする場合は、**標準**ツールバーの**コピー**をクリックするか、**CTRL**+**C**を押します。
+1. コピーする選択範囲の下または右側に行または列を選択します。
+1. 行または列をコピーする際に、**挿入**メニューで**コピーしたセル**をクリックします。
 
 {{% alert color="primary" %}}
 
-クリックすると**ペースト**で**標準**ツールバーまたはプレス**CTRL**+****挿入のコマンドをクリックする代わりに V****メニューでは、宛先セルの内容はすべて置き換えられます。
+**標準**ツールバーの**貼り付け**をクリックするか、**Insert**メニューのコマンドをクリックする代わりに**CTRL**+**V**を押すと、宛先セルの内容が置き換えられます。
 
 {{% /alert %}}
 
-##  **Microsoft Excel で貼り付けオプションを使用して行と列を貼り付ける方法**
+## **Microsoft Excelを使用した貼り付けオプションを使用した行や列の貼り付け方法**
 
-1. コピーするデータまたはその他の属性を含むセルを選択します。
-1. [ホーム] タブで、[*コピー**] をクリックします。
-1. 表示したい領域の最初のセルをクリックします。**ペースト**コピーしたもの。
-1.  [ホーム] タブで、次の矢印をクリックします。**貼り付け**し、**貼り付けを選択します**特別。
-1. を選択**オプション**あなたが欲しいのです。
+1. コピーしたいデータやその他の属性を含むセルを選択します。
+1. **コピー**をクリックしてHomeタブを選択します。
+1. **貼り付け**したいエリア内で最初のセルをクリックします。
+1. Homeタブで、**貼り付け**の横にある矢印をクリックし、**貼り付け**を選択します。
+1. 希望する**オプション**を選択します。
 
-##  **Aspose.Cells for .NET を使用して行と列をコピーする方法**
+## **Aspose.Cells for .NETを使用して行と列をコピーする方法**
 
-##  **単一行をコピーする方法**
+## **単一の行をコピーする方法**
 
- Aspose.Cells は、[**コピー行**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)の方法[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)クラス。このメソッドは、数式、値、コメント、セル形式、非表示セル、画像、その他の描画オブジェクトを含むすべての種類のデータをソース行から宛先行にコピーします。
+Aspose.Cellsは、[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) クラスの[**CopyRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow) メソッドを提供します。このメソッドは、数式、値、コメント、セルの書式、非表示セル、画像など、すべての種類のデータをコピーします。
 
-の[**コピー行**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)メソッドは次のパラメータを受け取ります。
+[**CopyRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)メソッドは以下のパラメーターを取ります:
 
-- 起源[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)物体、
-- ソース行インデックス、および
-- 宛先行インデックス。
+- ソースの[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)オブジェクト
+- ソースの行インデックス、および
+- 宛先の行インデックス。
 
-このメソッドを使用して、シート内の行をコピーしたり、別のシートに行をコピーしたりできます。の[**コピー行**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)このメソッドは Microsoft Excel と同様に機能します。したがって、たとえば、宛先行の高さを明示的に設定する必要はなく、その値もコピーされます。
+このメソッドを使用すると、シート内または他のシートへの行のコピーが可能です。この[**CopyRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow) メソッドはMicrosoft Excelと同様に動作します。つまり、例えば、宛先行の高さを明示的に設定する必要はありません。その値もコピーされます。
 
-次の例は、ワークシート内の行をコピーする方法を示しています。テンプレート Microsoft Excel ファイルを使用し、2 行目 (データ、書式設定、コメント、画像などを含む) をコピーし、同じワークシートの 12 行目に貼り付けます。
+以下の例は、ワークシート内の行をコピーする方法を示しています。テンプレートのMicrosoft Excelファイルを使用し、2番目の行（データ、書式設定、コメント、画像などを含む）を12番目の行に貼り付けます。
 
-を使用して、ソース行の高さを取得するステップをスキップできます。[**Cells.GetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/getrowheight)メソッドを使用して宛先行の高さを設定します。[**Cells.SetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight)としてのメソッド[**コピー行**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)このメソッドは行の高さを自動的に処理します。
+[**Cells.GetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/getrowheight) メソッドを使用してソース行の高さを取得し、[**Cells.SetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) メソッドを使用して宛先行の高さを設定する手順は省略できます。なぜなら、[**CopyRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow) メソッドが自動的に行の高さを処理するからです。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Copying-CopyingRows-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-行をコピーするときは、関連する画像、グラフ、またはその他の描画オブジェクトに注意することが重要です。これは Microsoft Excel でも同様です。
+行をコピーする際は、関連する画像、グラフ、またはその他の描画オブジェクトに注目することが重要です。これはMicrosoft Excelと同じです。
 
-1. ソース行インデックスが 5 の場合、画像やグラフなどが 3 つの行 (開始行インデックスは 4、終了行インデックスは 6) に含まれていればコピーされます。
-1. 宛先行にある既存の画像、グラフなどは削除されません。
+1. もしソース行インデックスが5であれば、画像、グラフなどはその3行に含まれている場合にコピーされます（開始行インデックスが4で終了行インデックスが6の場合）。
+1. 宛先行にある既存の画像やグラフなどは削除されません。
 
 {{% /alert %}}
 
-##  **複数の行をコピーする方法**
+## **複数の行をコピーする方法**
 
-を使用しながら、複数の行を新しい宛先にコピーすることもできます。[**Cells.CopyRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index)このメソッドは、整数型の追加パラメータを取得して、コピーするソース行の数を指定します。
+追加の整数型パラメーターを取るメソッド[**Cells.CopyRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index)を使用して、新しい宛先に複数の行をコピーすることもできます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRowsColumns-CopyingMultipleRows-1.cs" >}}
 
 
-##  **列をコピーする方法**
+## **列をコピーする方法**
 
- Aspose.Cells は、[**列のコピー**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn)の方法[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)クラスの場合、このメソッドは、更新された参照を含む数式、値、コメント、セル形式、非表示セル、画像、その他の描画オブジェクトを含むすべての種類のデータをソース列から宛先列にコピーします。
+Aspose.Cellsは[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)クラスの[**CopyColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn)メソッドを提供しており、このメソッドは、ソース列から宛先列へ数式（更新された参照を含む）、値、コメント、セル形式、非表示セル、画像、および他の描画オブジェクトなどを含むあらゆるタイプのデータをコピーします。
 
-の[**列のコピー**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn)メソッドは次のパラメータを受け取ります。
+[**CopyColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn)メソッドは以下のパラメーターを取ります:
 
-- 起源[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)物体、
-- ソース列インデックス、および
-- 宛先列のインデックス。
+- ソースの[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)オブジェクト
+- ソースの列インデックス、および
+- 宛先の列インデックス。
 
-使用[**列のコピー**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn)シート内または別のシートに列をコピーするメソッド。
+シート内または他のシートへの列のコピーには[**CopyColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn)メソッドを使用します。
 
-この例では、ワークシートから列をコピーし、別のブックのワークシートに貼り付けます。
+この例では、ワークシートから列をコピーして別のブック内のワークシートに貼り付けます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Copying-CopyingColumns-1.cs" >}}
 
-##  **複数の列をコピーする方法**
+## **複数の列をコピーする方法**
 
-に似ている[**Cells.CopyRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index)メソッドと同様に、Aspose.Cells API は[**Cells.CopyColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumns/index)メソッドを使用して、複数のソース列を新しい場所にコピーします。
+[**Cells.CopyRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index)メソッドと同様に、Aspose.CellsのAPIは新しい位置に複数のソース列をコピーするための[**Cells.CopyColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumns/index)メソッドも提供しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRowsColumns-CopyingMultipleColumns-1.cs" >}}
 
 
-##  **貼り付けオプションを使用して行と列を貼り付ける方法**
+## **貼り付けオプションを使用して行と列を貼り付ける方法**
 
- Aspose.Cells が提供するようになりました[**貼り付けオプション**](https://reference.aspose.com/cells/net/aspose.cells/pasteoptions)機能使用時[**行のコピー**](https://reference.aspose.com/cells/net/aspose.cells.cells/copyrows/methods/2)そして[**列のコピー**](https://reference.aspose.com/cells/net/aspose.cells.cells/copycolumns/methods/1)。 Excel と同様に、適切な貼り付けオプションを設定できます。
+Aspose.Cellsは現在、関数[**CopyRows**](https://reference.aspose.com/cells/net/aspose.cells.cells/copyrows/methods/2)および[**CopyColumns**](https://reference.aspose.com/cells/net/aspose.cells.cells/copycolumns/methods/1)を使用して[**PasteOptions**](https://reference.aspose.com/cells/net/aspose.cells/pasteoptions)を提供しています。これにより、Excelと同様の適切な貼り付けオプションを設定することができます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Copying-PastingRowsColumnsWithPasteOptions-1.cs" >}}
 

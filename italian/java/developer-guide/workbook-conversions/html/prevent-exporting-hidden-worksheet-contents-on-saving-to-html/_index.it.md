@@ -1,23 +1,24 @@
-﻿---
-title: Impedisci l'esportazione di contenuti nascosti del foglio di lavoro durante il salvataggio in HTML
+---
+title: Prevenire l esportazione del contenuto del foglio di lavoro nascosto durante il salvataggio in HTML
 type: docs
 weight: 90
 url: /it/java/prevent-exporting-hidden-worksheet-contents-on-saving-to/
 ---
+
 {{% alert color="primary" %}}
 
-È possibile salvare le cartelle di lavoro di Excel in HTML. Tuttavia, se la cartella di lavoro contiene fogli di lavoro nascosti, Aspose.Cells per impostazione predefinita esporta il contenuto del foglio di lavoro nascosto nell'output HTML (_ files) directory che contiene file come fogli di lavoro, immagini, tabstrip.htm, stylesheet.css, ecc. A volte, l'esportazione del contenuto dei fogli di lavoro nascosti in questo modo non è appropriata. Ad esempio, se il foglio di lavoro nascosto contiene immagini che non devono essere esportate nel file_cartella dei file.
+È possibile salvare i fogli di lavoro di Excel in HTML. Tuttavia, se il foglio di lavoro contiene fogli di lavoro nascosti, Aspose.Cells esporta per impostazione predefinita il contenuto del foglio di lavoro nascosto nella directory di output HTML (_files) che contiene file come fogli di lavoro, immagini, tabstrip.htm, stylesheet.css, ecc. A volte, esportare il contenuto dei fogli di lavoro nascosti in questo modo non è appropriato. Ad esempio, se il foglio di lavoro nascosto contiene immagini che non dovrebbero essere esportate nella directory _files.
 
 {{% /alert %}}
 
-Aspose.Cells fornisce il[**HtmlSaveOptions.ExportHiddenWorksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHiddenWorksheet) proprietà. Per impostazione predefinita, il[**Esporta foglio di lavoro nascosto**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHiddenWorksheet) proprietà è impostata su**VERO**. Se lo imposti su**falso**, quindi Aspose.Cells non esporterà i contenuti nascosti del foglio di lavoro.
+Aspose.Cells fornisce la proprietà [**HtmlSaveOptions.ExportHiddenWorksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHiddenWorksheet). Per impostazione predefinita, la proprietà [**ExportHiddenWorksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHiddenWorksheet) è impostata su **true**. Se la si imposta su **false**, allora Aspose.Cells non esporterà i contenuti nascosti del foglio di calcolo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PreventExportingHiddenWorksheetContent-PreventExportingHiddenWorksheetContent.java" >}}
 
-Oltre a controllare se esportare o meno fogli di lavoro nascosti, è anche possibile configurare impostazioni aggiuntive per l'esportazione della cartella di lavoro in HTML. I seguenti articoli illustrano altre funzionalità supportate da Aspose.Cells per l'esportazione di cartelle di lavoro in HTML.
+Oltre al controllo se esportare o meno fogli di calcolo nascosti, è possibile anche configurare impostazioni aggiuntive per esportare il workbook in HTML. Gli articoli seguenti mostrano altre funzionalità supportate da Aspose.Cells per l'esportazione di workbook in HTML.
 
 - [Converti Excel in HTML con intestazioni](/cells/it/java/convert-excel-to-html-with-headings/)
-- [Escludi stili inutilizzati durante la conversione da Excel a HTML](/cells/it/java/exclude-unused-styles-during-excel-to-html-conversion/)
-- [Esporta commenti durante il salvataggio del file Excel in HTML](/cells/it/java/export-comments-while-saving-excel-file-to-html/)
-- [Nascondere il contenuto sovrapposto con CrossHideRight durante il salvataggio in HTML](/cells/it/java/hiding-overlaid-content-with-crosshideright-while-saving-to-html/)
-- [Esporta uno stile del bordo simile quando lo stile del bordo non è supportato dai browser web](/cells/it/java/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/)
+- [Escludere Stili Non Utilizzati durante la conversione da Excel a HTML](/cells/it/java/exclude-unused-styles-during-excel-to-html-conversion/)
+- [Esporta commenti durante il salvataggio del file di Excel in HTML](/cells/it/java/export-comments-while-saving-excel-file-to-html/)
+- [Nascondere il Contenuto Sovrapposto con CrossHideRight durante il salvataggio in HTML](/cells/it/java/hiding-overlaid-content-with-crosshideright-while-saving-to-html/)
+- [Esporta uno stile di bordo simile quando lo stile di bordo non è supportato dai browser Web](/cells/it/java/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/)

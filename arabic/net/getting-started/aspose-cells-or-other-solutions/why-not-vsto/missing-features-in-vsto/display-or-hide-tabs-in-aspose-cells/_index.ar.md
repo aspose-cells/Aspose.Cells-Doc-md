@@ -1,41 +1,42 @@
-﻿---
-title: عرض أو إخفاء علامات التبويب في Aspose.Cells
+---
+title: عرض أو إخفاء علامات تبويب في Aspose.Cells
 type: docs
 weight: 80
 url: /ar/net/display-or-hide-tabs-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-إذا نظرت عن كثب إلى الجزء السفلي من ملف Excel Microsoft ، فسترى عددًا من عناصر التحكم. وتشمل هذه:
+إذا نظرت عن كثب في أسفل ملف Microsoft Excel، سترى عددًا من الضوابط. تشمل هذه:
 
-- علامات تبويب الأوراق.
-- أزرار التمرير لعلامة التبويب.
+- ألسنة الصفحات.
+- أزرار تمرير الألسنة.
 
-تمثل علامات تبويب الأوراق أوراق العمل في ملف Excel. انقر فوق أي علامة تبويب للتبديل إلى ورقة العمل هذه. كلما زاد عدد أوراق العمل في المصنف ، زاد عدد علامات تبويب الأوراق. إذا كان ملف Excel يحتوي على عدد جيد من أوراق العمل ، فأنت بحاجة إلى أزرار للتنقل خلالها. لذلك ، يوفر Microsoft Excel أزرار تمرير علامة التبويب للتمرير عبر علامات تبويب الأوراق.
+تمثل ألسنة الصفحات الأوراق العمل في ملف الإكسل. انقر على أي علامة تبويب للانتقال إلى تلك الورقة العمل. كلما زاد عدد الأوراق العمل في الدفتر الحسابي، زادت ألسنة الصفحة. إذا كان لديك عدد جيد من الأوراق العمل في دفتر العمل، يلزمك الأزرار للتنقل خلالها. لذا، يوفر مايكروسوفت إكسل أزرار تمرير الألسنة للتمرير من خلال ألسنة الصفحات.
 
-**علامات تبويب الأوراق وأزرار التمرير لعلامة التبويب** 
+**علامات الورقة وأزرار تمرير العلامة التبويبية** 
 
-![ما يجب القيام به: image_بديل_نص](display-or-hide-tabs-in-aspose-cells_1.png)
+![todo:image_alt_text](display-or-hide-tabs-in-aspose-cells_1.png)
 
-باستخدام Aspose.Cells ، يمكن للمطورين التحكم في رؤية علامات تبويب الأوراق وأزرار تمرير علامات التبويب في ملفات Excel.
+باستخدام Aspose.Cells، يمكن للمطورين التحكم في رؤية علامات الجدول وأزرار التمرير في ملفات Excel. 
 
 {{% /alert %}} 
 
-يوجد أدناه مثال كامل يفتح ملف Excel (book1.xls) ، ويخفي علامات التبويب الخاصة به ويحفظ الملف المعدل كـ output.xls.
+أدناه مثال كامل يفتح ملف Excel (book1.xls)، يخفي علامات تبويبه ويحفظ الملف المعدل بوصفه output.xls.
 
-يمكنك أن ترى أن ملف Book1.xls يحتوي على علامات تبويب في الشكل أدناه. بعد تنفيذ رمز المثال ، يتم إخفاء علامات التبويب ، كما ترى من لقطة شاشة ملف output.xls أدناه.
+يمكنك أن ترى أن ملف Book1.xls يحتوي على علامات تبويب في الشكل أدناه. بعد تنفيذ كود المثال، تم إخفاء الألسنة، كما يمكنك رؤية من لقطة الشاشة للملف output.xls أدناه.
 
-**book1.xls: ملف Excel قبل أي تعديل** 
+**Book1.xls: ملف Excel قبل أي تعديل** 
 
-![ما يجب القيام به: image_بديل_نص](display-or-hide-tabs-in-aspose-cells_2.png)
+![todo:image_alt_text](display-or-hide-tabs-in-aspose-cells_2.png)
 
 **output.xls: ملف Excel بعد التعديل** 
 
-![ما يجب القيام به: image_بديل_نص](display-or-hide-tabs-in-aspose-cells_3.png)
+![todo:image_alt_text](display-or-hide-tabs-in-aspose-cells_3.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -54,10 +55,10 @@ workbook.Save("output.xls");
 
 
 {{< /highlight >}}
-## **التحكم في عرض شريط الجدولة**
+## **السيطرة على عرض شريط التبويب**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Adjusting the sheet tab bar width
 
@@ -66,7 +67,7 @@ workbook.Worksheets.SheetTabBarWidth = 800;
 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Tabs)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Tabs)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

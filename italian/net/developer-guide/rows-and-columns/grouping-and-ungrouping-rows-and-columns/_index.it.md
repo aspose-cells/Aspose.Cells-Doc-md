@@ -1,63 +1,64 @@
-﻿---
-title: Raggruppamento e separazione di righe e colonne
+---
+title: Raggruppamento e Sgrovigliamento di Righe e Colonne
 type: docs
 weight: 50
 url: /it/net/grouping-and-ungrouping-rows-and-columns/
 ---
-## **introduzione**
 
-In un file Excel Microsoft, puoi creare una struttura per i dati per mostrare e nascondere i livelli di dettaglio con un solo clic del mouse.
+## **Introduzione**
 
- Clicca il**Simboli di contorno**, 1,2,3, + e - per visualizzare rapidamente solo le righe o le colonne che forniscono riepiloghi o intestazioni per le sezioni in un foglio di lavoro, oppure è possibile utilizzare i simboli per visualizzare i dettagli sotto un singolo riepilogo o intestazione come mostrato di seguito nella figura :
+In un file Microsoft Excel, è possibile creare un'outline per i dati che consente di mostrare e nascondere livelli di dettaglio con un singolo clic del mouse.
 
-|**Raggruppamento di righe e colonne.**|
-|:- |
-|![cose da fare:immagine_alt_testo](grouping-and-ungrouping-rows-and-columns_1.png)|
+Fare clic sui **Simboli di Riepilogo**, 1,2,3, + e - per visualizzare rapidamente solo le righe o colonne che forniscono riepiloghi o intestazioni per sezioni in un foglio di lavoro, oppure è possibile utilizzare i simboli per vedere i dettagli sotto un riepilogo o intestazione individuale come mostrato di seguito nella figura:
 
-## **Gestione di gruppo di righe e colonne**
+|**Raggruppamento di Righe e Colonne**|
+| :- |
+|![todo:image_alt_text](grouping-and-ungrouping-rows-and-columns_1.png)|
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Raccolta di fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)raccolta che rappresenta tutte le celle del foglio di lavoro.
+## **Gestione gruppi di righe e colonne**
 
- Il[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection fornisce diversi metodi per gestire righe o colonne in un foglio di lavoro, alcuni di questi sono discussi di seguito in modo più dettagliato.
+Aspose.Cells fornisce una classe, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) che rappresenta un file Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) contiene un [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato dalla classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). La classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) fornisce una collezione [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) che rappresenta tutte le celle nel foglio di lavoro.
 
-### **Raggruppamento di righe e colonne**
+La raccolta [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) fornisce diversi metodi per gestire righe o colonne in un foglio di lavoro, alcuni di questi sono discussi di seguito in modo più dettagliato.
 
- È possibile raggruppare righe o colonne chiamando il metodo[**GroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/grouprows/index) e[**Raggruppacolonne**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/groupcolumns/index) metodi del[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collezione. Entrambi i metodi accettano i seguenti parametri:
+### **Raggruppamento di Righe e Colonne**
 
-- Indice prima riga/colonna, la prima riga o colonna nel gruppo.
-- Indice dell'ultima riga/colonna, l'ultima riga o colonna del gruppo.
+È possibile raggruppare righe o colonne chiamando i metodi [**GroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/grouprows/index) e [**GroupColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/groupcolumns/index) della raccolta [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Entrambi i metodi prendono i seguenti parametri:
+
+- Indice della prima riga/colonna, la prima riga o colonna nel gruppo.
+- Indice dell'ultima riga/colonna, l'ultima riga o colonna nel gruppo.
 - È nascosto, un parametro booleano che specifica se nascondere o meno righe/colonne dopo il raggruppamento.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-GroupingRowsAndColumns-1.cs" >}}
 
-#### **Impostazioni di gruppo**
+#### **Impostazioni di raggruppamento**
 
-Microsoft Excel consente di configurare le impostazioni di gruppo per la visualizzazione:
+Microsoft Excel consente di configurare le impostazioni di raggruppamento per la visualizzazione:
 
-- Righe di riepilogo sotto i dettagli.
-- Colonne di riepilogo a destra dei dettagli.
+- Le righe di riassunto sotto il dettaglio.
+- Le colonne di riepilogo a destra del dettaglio.
 
- Gli sviluppatori possono configurare queste impostazioni di gruppo utilizzando il file[**Schema**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/outline) proprietà del[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe.
+Gli sviluppatori possono configurare queste impostazioni di gruppo utilizzando la proprietà [**Outline**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/outline) della classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet).
 
-### **Riepilogo righe al di sotto del dettaglio**
+### **Riepiloghi delle Righe al di Sotto del Dettaglio**
 
- È possibile controllare se le righe di riepilogo vengono visualizzate sotto i dettagli impostando il[**Schema**](https://reference.aspose.com/cells/net/aspose.cells/outline) classe'[**RiepilogoRigaSotto**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow) proprietà a**VERO** o**falso**.
+È possibile controllare se le righe di riepilogo vengono visualizzate sotto i dettagli impostando la proprietà [**SummaryRowBelow**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow) della classe [**Outline**](https://reference.aspose.com/cells/net/aspose.cells/outline) su **true** o **false**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowBelow-1.cs" >}}
 
-### **Colonne di riepilogo a destra del dettaglio**
+### **Colonne sommario a destra dei dettagli**
 
- Gli sviluppatori possono anche controllare la visualizzazione delle colonne di riepilogo a destra dei dettagli impostando l'estensione[**Riepilogo Colonna Destra**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summarycolumnright) proprietà di[**Schema**](https://reference.aspose.com/cells/net/aspose.cells/outline) classe a**VERO** o**falso**.
+I developer possono anche controllare la visualizzazione delle colonne riepilogative a destra dei dettagli impostando la proprietà [**SummaryColumnRight**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summarycolumnright) della classe [**Outline**](https://reference.aspose.com/cells/net/aspose.cells/outline) su **true** o **false**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowRight-1.cs" >}}
 
-## **Separazione di righe e colonne**
+## **Separazione delle righe e delle colonne**
 
- Per separare eventuali righe o colonne raggruppate, chiama il metodo[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) della collezione[**SeparaRighe**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) e[**Separacolonne**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungroupcolumns)metodi. Entrambi i metodi accettano due parametri:
+Per annullare il raggruppamento di qualsiasi riga o colonna raggruppata, chiamare i metodi [**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) e [**UngroupColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungroupcolumns) della collezione [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Entrambi i metodi richiedono due parametri:
 
-- Indice della prima riga o colonna, la prima riga/colonna da separare.
-- Indice dell'ultima riga o colonna, l'ultima riga/colonna da separare.
+- Indice della prima riga o colonna, la prima riga/colonna da sraggruppare.
+- Indice dell'ultima riga o colonna, l'ultima riga/colonna da sraggruppare.
 
-[**SeparaRighe**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) ha un sovraccarico che accetta un terzo parametro booleano. Impostandolo su**VERO**rimuove tutte le informazioni raggruppate. In caso contrario, vengono rimosse solo le informazioni sul gruppo esterno.
+[**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) ha un sovraccarico che richiede un terzo parametro booleano. Impostandolo su **true** si rimuovono tutte le informazioni raggruppate. In caso contrario, viene rimossa solo l'informazione esterna del gruppo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-UngroupingRowsAndColumns-1.cs" >}}

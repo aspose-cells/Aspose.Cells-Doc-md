@@ -1,44 +1,45 @@
-﻿---
+---
 title: Функция консолидации
 type: docs
 weight: 20
 url: /ru/java/consolidation-function/
-description: Примените ConsolidationFunction к полям данных сводной таблицы.
+description: Применить функцию консолидации к данным полей сводной таблицы.
 ---
+
 ## **Функция консолидации**
 
- Aspose.Cells можно использовать для применения ConsolidationFunction к полям данных (или полям значений) сводной таблицы. В Microsoft Excel можно щелкнуть правой кнопкой мыши поле значения и выбрать**Настройки поля значения...** вариант, а затем выберите вкладку**Суммировать значения по**. Оттуда вы можете выбрать любую функцию консолидации по вашему выбору, такую как сумма, количество, среднее, максимальное, минимальное, продукт, отчетливое количество и т. д.
+Aspose.Cells можно использовать для применения функции объединения к полям данных (или значениям) сводной таблицы. В Microsoft Excel вы можете щелкнуть правой кнопкой мыши на поле значения, затем выбрать опцию **Настройки поля значения...**, а затем выбрать вкладку **Сводные значения по**. Оттуда вы можете выбрать любую функцию объединения по своему выбору, такую как Сумма, Количество, Среднее, Максимум, Минимум, Произведение, Уникальное количество и т. д.
 
- Aspose.Cells предоставляет[**Функция консолидации**](https://reference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction) перечисление для поддержки следующих функций консолидации.
+Aspose.Cells предоставляет перечисление [**ConsolidationFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction) для поддержки следующих функций консолидации.
 
-- Функция консолидации.SUM
-- Функция консолидации.COUNT
+- ConsolidationFunction.SUM
+- ConsolidationFunction.COUNT
 - ConsolidationFunction.AVERAGE
-- Функция консолидации.MAX
-- Функция консолидации.МИН
-- Функция консолидации.PRODUCT
-- Функция консолидации.COUNT_NUMS
-- Функция консолидации.STD_DEV
-- Функция консолидации.STD_DEVP
-- Функция консолидации.VAR
-- Функция консолидации.VARP
-- Функция консолидации.DISTINCT_COUNT
+- ConsolidationFunction.MAX
+- ConsolidationFunction.MIN
+- ConsolidationFunction.PRODUCT
+- ConsolidationFunction.COUNT_NUMS
+- ConsolidationFunction.STD_DEV
+- ConsolidationFunction.STD_DEVP
+- ConsolidationFunction.VAR
+- ConsolidationFunction.VARP
+- ConsolidationFunction.DISTINCT_COUNT
 
-### **Применение ConsolidationFunction к полям данных сводной таблицы**
+### **Применение функции консолидации к данным полей сводной таблицы**
 
- Применяется следующий код**СРЕДНИЙ** функцию консолидации в первое поле данных (или поле значения) и**STD_DEV** функцию консолидации во второе поле данных (или поле значения).
+Следующий код применяет функцию консолидации **AVERAGE** к первому полю данных (или значению) и функцию консолидации **STD_DEV** ко второму полю данных (или значению).
 
-Образец исходного файла и выходные файлы можно загрузить отсюда для тестирования примера кода:
+Образец исходного файла и выходных файлов можно загрузить отсюда для тестирования образца кода:
 
 [Исходный файл Excel](source.xlsx)
 
-[Выходной файл Excel](output.xlsx)
+[Файл Excel вывода](output.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-ConsolidationFunction.java" >}}
 
 {{% alert color="primary" %}}
 
-Функция консолидации DistinctCount поддерживается только Microsoft Excel 2013.
+Функция консолидации Уникальное количество поддерживается только Microsoft Excel 2013.
 
 {{% /alert %}}
 

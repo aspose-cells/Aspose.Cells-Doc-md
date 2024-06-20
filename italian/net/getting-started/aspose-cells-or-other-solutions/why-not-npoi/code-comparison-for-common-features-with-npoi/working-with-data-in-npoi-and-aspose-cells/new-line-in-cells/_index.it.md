@@ -1,17 +1,18 @@
-﻿---
-title: Nuova Linea allo Cells
+---
+title: Nuova Linea nelle Celle
 type: docs
 weight: 30
 url: /it/net/new-line-in-cells/
 ---
-## **Aspose.Cells - Nuova Linea Cells**
-Per garantire che il testo in una cella possa essere letto, è possibile applicare interruzioni di riga esplicite e ritorno a capo automatico. Il ritorno a capo trasforma una riga in più righe in una cella, che le interruzioni di riga esplicite inseriscono nelle interruzioni esattamente dove le desideri.
 
-Per disporre il testo in una cella, utilizzare la proprietà Aspose.Cells.Style.IsTextWrapped.
+## **Aspose.Cells - Nuova Linea nelle Celle**
+Per garantire che il testo in una cella possa essere letto, possono essere applicati ritorni a capo espliciti e a capo automatico del testo. Il ritorno a capo del testo trasforma una riga in più in una cella, mentre i ritorni a capo espliciti inseriscono spazi esattamente dove si desidera.
+
+Per andare a capo nel testo di una cella, utilizzare la proprietà Aspose.Cells.Style.IsTextWrapped.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -34,12 +35,12 @@ sheet.Cells[2, 2].SetStyle(style);
 workbook.Save("test.xlsx");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Nuova Linea in Cells**
-CellStyle.setWrapText dovrebbe essere vero per il testo a capo.
+## **NPOI - HSSF XSSF - Nuova riga nelle celle**
+CellStyle.setWrapText dovrebbe essere vero per il testo a capo automatico.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -67,12 +68,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Nuova Linea allo Cells** formare uno dei siti di social coding sotto indicati:
+Scarica **Nuova riga nelle celle** da uno dei siti di codice sociale menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/New.Line.In.Cells.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/New.Line.In.Cells.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Interruzioni di riga e ritorno a capo del testo](/cells/it/net/line-breaks-and-text-wrapping/).
+Per ulteriori dettagli, visita [Interruzioni di linea e testo avvolgente](/cells/it/net/line-breaks-and-text-wrapping/).
 
 {{% /alert %}}

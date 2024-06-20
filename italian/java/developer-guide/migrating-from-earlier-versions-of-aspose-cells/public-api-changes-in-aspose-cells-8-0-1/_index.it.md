@@ -1,20 +1,21 @@
-﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.0.1
+---
+title: Modifiche all API pubblica in Aspose.Cells 8.0.1
 type: docs
 weight: 30
 url: /it/java/public-api-changes-in-aspose-cells-8-0-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Queste pagine elencano le modifiche API pubbliche introdotte in Aspose.Cells 8.0.1. Include non solo metodi pubblici nuovi e obsoleti, ma anche una descrizione di eventuali modifiche nel comportamento dietro le quinte in Aspose.Cells che potrebbero influire sul codice esistente. Qualsiasi comportamento introdotto che potrebbe essere visto come una regressione e modifica il comportamento esistente è particolarmente importante ed è documentato qui.
+Questa pagina elenca le modifiche all'API pubblica introdotte in Aspose.Cells 8.0.1. Essa include non solo nuovi metodi pubblici e obsoleti, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells che possono influire sul codice esistente. Qualsiasi comportamento introdotto che possa essere considerato come una regressione e modifichi il comportamento esistente è particolarmente importante e viene documentato qui.
 
 {{% /alert %}} 
-## **Proprietà MemorySetting Aggiunta alla classe Cells**
-Cells ha esposto i metodi setMemorySetting e getMemorySetting che possono essere utilizzati per ottimizzare l'utilizzo della memoria per i dati delle celle e quindi ridurre il costo complessivo della memoria. L'esempio seguente mostra come scrivere dati di grandi dimensioni in un foglio di lavoro in modalità ottimizzata.
+## **Aggiunta la proprietà MemorySetting alla classe Cells**
+La classe Cells ha esposto i metodi setMemorySetting e getMemorySetting che possono essere utilizzati per ottimizzare l'uso della memoria per i dati delle celle, riducendo così il costo complessivo della memoria. L'esempio seguente mostra come scrivere dati voluminosi in un foglio di lavoro in modalità ottimizzata.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook
 
@@ -38,10 +39,10 @@ cells.setMemorySetting(MemorySetting.MEMORY_PREFERENCE);
 
 {{% alert color="primary" %}} 
 
- Le impostazioni della memoria non funzioneranno per il foglio predefinito creato automaticamente dalla cartella di lavoro. Per modificare le impostazioni di memoria dei fogli esistenti, applicare manualmente le impostazioni di memoria prima di eseguire qualsiasi manipolazione dei dati.
+Le impostazioni di memoria non funzioneranno per il foglio predefinito creato automaticamente dal Workbook. Per cambiare le impostazioni di memoria dei fogli esistenti, si prega di applicare manualmente le impostazioni di memoria prima di eseguire qualsiasi manipolazione dati. 
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Si prega di controllare l'articolo dettagliato su[Ottimizzazione della memoria mentre si lavora con set di dati di grandi dimensioni](/cells/it/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
+Si prega di controllare l'articolo dettagliato su [Ottimizzazione della memoria durante il lavoro con grandi set di dati](/cells/it/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
 
 {{% /alert %}}

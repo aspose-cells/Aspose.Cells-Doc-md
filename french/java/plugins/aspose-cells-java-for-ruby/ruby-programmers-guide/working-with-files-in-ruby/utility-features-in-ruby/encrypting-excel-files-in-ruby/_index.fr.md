@@ -1,15 +1,16 @@
-﻿---
-title: Crypter des fichiers Excel en Ruby
+---
+title: Chiffrer les fichiers Excel en Ruby
 type: docs
 weight: 80
 url: /fr/java/encrypting-excel-files-in-ruby/
 ---
-## **Aspose.Cells - Chiffrement des fichiers Excel**
-Pour appliquer le cryptage aux fichiers Excel à l'aide de Aspose.Cells for Java dans Ruby, appelez simplement le module Encrypt.
 
-**Code rubis**
+## **Aspose.Cells - Chiffrer les fichiers Excel**
+Pour appliquer le chiffrement aux fichiers Excel en utilisant Aspose.Cells for Java en Ruby, il suffit d'invoquer le module Chiffrer.
 
-{{< highlight "ruby" >}}
+**Code Ruby**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -38,7 +39,7 @@ workbook.save(data_dir + "encrypt.xls")
 puts "Apply encryption, please check the output file."
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Chiffrement des fichiers Excel (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Encrypting Excel Files (Aspose.Cells)** à partir de l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/encrypt.rb)

@@ -1,26 +1,27 @@
-﻿---
-title: Genel API Aspose.Cells 16.11.0'daki değişiklikler
+---
+title: Aspose.Cells 16.11.0 daki Genel API Değişiklikleri
 type: docs
 weight: 360
 url: /tr/java/public-api-changes-in-aspose-cells-16-11-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek 16.10.0 sürümünden 16.11.0 sürümüne Aspose.Cells API değişikliklerini açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, Aspose.Cells API'sindeki değişiklikleri 16.10.0'dan 16.11.0'a modül / uygulama geliştiricileri için ilginç olabilecek şekilde açıklar. Yeni ve güncellenmiş genel metotlar, eklenen ve kaldırılan sınıflar vb. yanı sıra Aspose.Cells'in arkasındaki davranışta herhangi bir değişikliğin açıklamasını içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **Küreselleştirme Ayarları Desteği**
-Aspose.Cells 16.11.0, Aspose.Cells API'lerini Alt Toplamlar için özel etiketler kullanmaya zorlamak amacıyla WorkbookSettings.GlobalizationSettings özelliğiyle birlikte GlobalizationSettings sınıfını kullanıma sundu. GlobalizationSettings sınıfı, etiketlere istenen adları vermek için özel uygulamada geçersiz kılınabilen aşağıdaki yöntemlere sahiptir.**Toplam** & **Genel Toplam**.
+## **Eklenen API'lar**
+### **Küreselleşme Ayarları Desteği**
+Aspose.Cells 16.11.0, Aspose.Cells API'larını custom etiketler kullanmaya zorlamak için GlobalizationSettings sınıfını ve WorkbookSettings.GlobalizationSettings özelliğini açığa çıkardı. GlobalizationSettings sınıfı, aşağıdaki yöntemleri içerir ve özelleştirilmiş uygulamasında istenilen adları **Toplam** ve **Genel Toplam** için döndürmek için bu şekilde üzerine yazılabilir.
 
 - GlobalizationSettings.getTotalName: Fonksiyonun toplam adını alır.
-- GlobalizationSettings.getGrandTotalName: İşlevin genel toplam adını alır.
+- GlobalizationSettings.getGrandTotalName: Fonksiyonun genel toplam adını alır.
 
-İşte GlobalizationSettings sınıfını genişleten ve birleştirme işlevi Ortalama için özel etiketler döndürmek üzere yukarıda belirtilen yöntemlerini geçersiz kılan basit bir özel sınıf.
+Bu, GlobalizationSettings sınıfını genişleten ve konsolidasyon fonksiyonu Ortalama için özel etiketler döndürmek için yukarıdaki yöntemlerinin üzerine yazıldığı basit bir özel sınıfın kullanım senaryosudur.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class CustomSettings extends GlobalizationSettings
 
@@ -72,11 +73,11 @@ Aspose.Cells 16.11.0, Aspose.Cells API'lerini Alt Toplamlar için özel etiketle
 
 {{< /highlight >}}
 
-Aşağıdaki kod parçacığı, mevcut bir elektronik tabloyu yükler ve çalışma sayfasında zaten mevcut olan verilere Ortalama türündeki Alt Toplamı ekler. CustomSettings sınıfı ve onun getTotalName & getGrandTotalName yöntemleri, çalışma sayfasına Alt Toplam eklenirken çağrılır.
+Aşağıdaki kod parçacığı, mevcut bir elektronik tabloyu yükler ve çalışma sayfasında zaten mevcut verilere Ortalama türünde bir Öz-toplam ekler. Özelleştirilmiş Ayarlar sınıfı ve getTotalName & getGrandTotalName yöntemleri, çalışma sayfasına Öz-toplam eklerken çağrılacaktır.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Loads an existing spreadsheet containing some data
 
@@ -96,7 +97,7 @@ Worksheet sheet = book.getWorksheets().get(0);
 
 //Adds SubTotal of type Average to the worksheet
 
-sheet.getCells().subtotal(CellArea.createCellArea("A2", "B9"), 0, ConsolidationFunction.AVERAGE, new int[]{ 0,1 });
+sheet.getCells().subtotal(CellArea.createCellArea("A2", "B9"), 0, ConsolidationFunction.AVERAGE, new int[] { 0,1 });
 
 //Calculates Formulas
 
@@ -112,11 +113,11 @@ book.save(dir + "output.xlsx");
 
 {{< /highlight >}}
 
-GlobalizationSettings sınıfı ayrıca, Pasta grafikler için "Diğer" etiketlerinin adını almak için yararlı olan getOtherName yöntemini de sunar. İşte GlobalizationSettings.getOtherName yönteminin basit bir kullanım senaryosu.
+GlobalizationSettings sınıfı, ayrıca, Pasta grafikleri için "Diğer" etiketlerinin adını almak için faydalı olan getOtherName yöntemini sunar. Burada, GlobalizationSettings.getOtherName yönteminin basit kullanım senaryosu bulunmaktadır.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class CustomSettings extends GlobalizationSettings
 
@@ -160,11 +161,11 @@ GlobalizationSettings sınıfı ayrıca, Pasta grafikler için "Diğer" etiketle
 
 {{< /highlight >}}
 
-Aşağıdaki kod parçacığı, Pasta grafiği içeren mevcut bir elektronik tabloyu yükler ve yukarıda oluşturulan CustomSettings sınıfını kullanırken grafiği resme dönüştürür.
+Aşağıdaki kod parçacığı, yukarıda oluşturulan Özel Ayarlar sınıfını kullanarak bir Pasta grafik içeren mevcut bir elektronik tabloyu yükler ve grafikleri görüntüler.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Loads an existing spreadsheet containing a pie chart
 
@@ -193,14 +194,14 @@ chart.calculate();
 chart.toImage(dir + "output.png", new ImageOrPrintOptions());
 
 {{< /highlight >}}
-### **CellsFactory Sınıfı Eklendi**
-Aspose.Cells 16.11.0, şu anda bir yöntemi olan CellsFactory sınıfını kullanıma açtı, yani; CreateStyle. CellsFactory.createStyle yöntemi, çalışma kitabı stilleri havuzuna eklemeden bir Style sınıfı örneği oluşturmak için kullanılabilir.
+### **Eklenen CellsFactory Sınıfı**
+Aspose.Cells 16.11.0, şu anda yalnızca bir yönteme sahip olan CellsFactory sınıfını açığa çıkardı, yani; createStyle. CellsFactory.createStyle yöntemi, bunu çalışma kitabı stiller havuzuna eklemeksizin Style sınıfından bir örnek oluşturmak için kullanılabilir.
 
-İşte CellsFactory.createStyle yönteminin basit kullanım senaryosu.
+CellsFactory.createStyle yönteminin basit kullanım senaryosu burada.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initializes the CellsFactory class
 
@@ -211,22 +212,22 @@ CellsFactory factory = new CellsFactory();
 Style style = factory.createStyle();
 
 {{< /highlight >}}
-### **Workbook.AbsolutePath Özelliği Eklendi**
-Aspose.Cells 16.11.0, workbook.xml dosyasında saklanan mutlak çalışma kitabı yolunun alınmasına veya ayarlanmasına izin veren Workbook.AbsolutePath özelliğini kullanıma sundu. Bu özellik, yalnızca harici bağlantıları güncellerken kullanışlıdır.
-### **GridHyperlinkCollection.getHyperlink Yöntemi Eklendi**
-Aspose.Cells.GridWeb 16.11.0, getHyperlink yöntemini GridHyperlinkCollection sınıfına maruz bıraktı; bu sınıf, bir GridCell örneğini veya satır sütun indekslerine karşılık gelen bir tamsayı çiftini geçirerek GridHyperlink örneğini almaya olanak tanır.
+### **Eklenen Workbook.AbsolutePath Özelliği**
+Aspose.Cells 16.11.0, Workbook.AbsolutePath özelliğini, depolanan workbook.xml dosyasında bulunan mutlak çalışma kitabı yolunu almak veya ayarlamak için kullanılmasını sağlar. Bu özellik, yalnızca dış bağlantıları güncellerken faydalıdır.
+### **Eklenen GridHyperlinkCollection.getHyperlink Yöntemi**
+Aspose.Cells.GridWeb 16.11.0, GridHyperlinkCollection sınıfına getHyperlink yöntemini açıkladı. Bu, bir GridCell örneğini geçerek GridHyperlink örneğini veya satır sütun dizinlerine karşılık gelen bir çift geçerek almak için kullanılır.
 
 {{% alert color="primary" %}} 
 
-Belirtilen hücrede köprü bulunmaması durumunda getHyperlink yöntemi null değerini döndürür.
+Belirtilen hücrede hiçbir hyperlink bulunamadıysa, getHyperlink yöntemi null değer döndürecektir.
 
 {{% /alert %}} 
 
-İşte getHyperlink yönteminin basit kullanım senaryosu.
+getHyperlink yönteminin basit kullanım senaryosu burada.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Gets the active worksheet from the collection
 
@@ -245,17 +246,17 @@ GridHyperlink link = links.getHyperlink(sheet.getCells().get("A1"));
 link = links.getHyperlink(0, 3);
 
 {{< /highlight >}}
-## **Eski API'ler**
-### **Eski Stil Oluşturucu**
-Lütfen alternatif olarak cellFactory.createStyle yöntemini kullanın.
-## **Silinmiş API'ler**
-### **Cell.getConditionalStyle Yöntemi Silindi**
-Lütfen bunun yerine Cell.getConditionalFormattingResult yöntemini kullanın.
-### **Cells.getMaxDataRowInColumn(int sütunu) Yöntem Silindi**
+## **Eskimiş API'lar**
+### **Eski Style Constructor Obsoleted**
+Alternatif olarak cellsFactory.createStyle yöntemini kullanınız.
+## **Silinmiş API'lar**
+### **Silinen Cell.getConditionalStyle Yöntemi**
+Lütfen Cell.getConditionalFormattingResult yöntemini kullanın.
+### **Silinen Cells.getMaxDataRowInColumn(int column) Yöntemi**
 Lütfen alternatif olarak Cells.getLastDataRow(int) yöntemini kullanın.
-### **PageSetup.Draft Özelliği Silindi**
-Bunun yerine PageSetup.PrintDraft özelliğinin kullanılması önerilir.
-### **Silinmiş AutoFilter.FilterColumnCollection Özelliği**
-Aynı hedefe ulaşmak için lütfen AutoFilter.FilterColumns özelliğini kullanmayı düşünün.
-### **TickLabels.Rotation Özelliği Silindi**
-Lütfen bunun yerine TickLabels.RotationAngle özelliğini kullanın.
+### **Silinen PageSetup.Draft Özelliği**
+PageSetup.PrintDraft özelliğini kullanmanız önerilir.
+### **Silinen AutoFilter.FilterColumnCollection Özelliği**
+Aynı hedefi elde etmek için lütfen AutoFilter.FilterColumns özelliğini düşünün.
+### **Silinen TickLabels.Rotation Özelliği**
+Lütfen TickLabels.RotationAngle özelliğini kullanın.

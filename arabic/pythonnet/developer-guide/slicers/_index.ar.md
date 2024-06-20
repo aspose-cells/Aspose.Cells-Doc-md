@@ -1,37 +1,39 @@
 ---
-title: إدراج القطاعة
-linktitle: تقطيع اللحم
+title: إدراج القُطار
+linktitle: قاطعات
 type: docs
 weight: 170
 url: /ar/python-net/create-slicer/
-description: إدارة شرائح ملفات Excel باستخدام Aspose.Cells.
+description: إدارة القاطعات في ملفات Excel باستخدام Aspose.Cells
+keywords: Aspose.Cells for Python Excel، مكتبة Excel Python، Python Create Slicer without Excel، Add Slicer via Aspose.Cells for Python، إدراج Slicer باستخدام Aspose.Cells for Python.
 ---
-##  **سيناريوهات الاستخدام المحتملة**
 
-يتم استخدام أداة التقطيع لتصفية البيانات بسرعة. يمكن استخدامه لتصفية البيانات في جدول أو جدول محوري. Microsoft يتيح لك Excel إنشاء أداة تقطيع عن طريق تحديد جدول أو جدول محوري ثم النقر فوق *إدراج > أداة تقطيع الشرائح*. Aspose.Cells for Python via .NET يتيح لك أيضًا إنشاء أداة تقطيع باستخدام[**ورقة العمل.slicers.add()**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicercollection/add/#aspose.cells.pivot.PivotTable-int-int-aspose.cells.pivot.PivotField)طريقة.
+## **سيناريوهات الاستخدام المحتملة**
 
-##  **إنشاء القطاعة إلى جدول محوري**
+يتم استخدام المقطع لتصفية البيانات بسرعة. يمكن استخدامه لتصفية البيانات في الجدول أو الجدول المحوري. يسمح برنامج Microsoft Excel لك بإنشاء مقطع عن طريق تحديد جدول أو جدول محوري ومن ثم النقر فوق *إدراج > مقطع* . كما يسمح Aspose.Cells for Python via .NET بإنشاء مقطع باستخدام الطريقة [**Worksheet.slicers.add()**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicercollection/add/#aspose.cells.pivot.PivotTable-int-int-aspose.cells.pivot.PivotField).
 
- الرجاء مراجعة نموذج التعليمات البرمجية التالي. يقوم بتحميل[عينة من ملف إكسل](67338470.xlsx) الذي يحتوي على الجدول المحوري. ثم يقوم بعد ذلك بإنشاء قطاعة البيانات بناءً على الحقل المحوري الأساسي الأول. وأخيرا، فإنه يحفظ المصنف في[الإخراج XLSX](67338471.xlsx) و[الإخراج XLSB](67338472.xlsb) شكل. تُظهر لقطة الشاشة التالية أداة التقطيع التي تم إنشاؤها بواسطة Aspose.Cells في ملف Excel الناتج.
+## **كيفية إنشاء مقطع لجدول محوري باستخدام مكتبة Aspose.Cells for Python Excel**
 
-![ما يجب القيام به:image_alt_text](create-slicer-to-a-pivot-table_1.png)
+يرجى الاطلاع على الكود النموذجي التالي. يحمل [ملف Excel النموذجي](67338470.xlsx) الذي يحتوي على الجدول المحوري. ثم يقوم بإنشاء المقطع على أساس حقل الجدول المحوري الأساسي الأول. وأخيرًا ، يحفظ المصنف في [XLSX الناتج](67338471.xlsx) و[XLSB الناتج](67338472.xlsb) تنسيق. تُظهر لقطة الشاشة التالية المقطع الذي تم إنشاؤه بواسطة Aspose.Cells في ملف Excel الناتج.
 
-###  **عينة من الرموز**
+![todo:image_alt_text](create-slicer-to-a-pivot-table_1.png)
+
+### **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-CreateSlicerToPivotTable.py" >}}
 
-##  **إنشاء القطاعة لجدول Excel**
+## **كيفية إنشاء مقطع لجدول Excel باستخدام مكتبة Aspose.Cells for Python Excel**
 
- الرجاء مراجعة نموذج التعليمات البرمجية التالي. يقوم بتحميل[عينة من ملف إكسل](sampleCreateSlicerToExcelTable.xlsx) الذي يحتوي على جدول. ثم يقوم بإنشاء مقسم طريقة العرض بناءً على العمود الأول. وأخيرا، فإنه يحفظ المصنف في[الإخراج XLSX](outputCreateSlicerToExcelTable.xlsx) شكل.
+يرجى الاطلاع على رمز العينة التالي. يقوم بتحميل ملف Excel العيني ([sampleCreateSlicerToExcelTable.xlsx](sampleCreateSlicerToExcelTable.xlsx)) الذي يحتوي على جدول. ثم يقوم بإنشاء المُقطَّع بناءً على العمود الأول. أخيرًا، يحفظ برنامج العمل بتنسيق [XLSX](outputCreateSlicerToExcelTable.xlsx).
 
-###  **عينة من الرموز**
+### **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Examples-CSharp-Slicers-CreateSlicerToExcelTable-1.py" >}}
 
-##  **مواضيع متقدمة**
-- [تغيير خصائص القطاعة](/cells/ar/python-net/change-slicer-properties/)
-- [ارسم القطاعة أثناء تقديم Excel إلى PDF](/cells/ar/python-net/draw-slicer-while-rendering-excel-to-pdf/)
-- [قاطع التنسيق](/cells/ar/python-net/formatting-slicer/)
-- [إزالة القطاعة](/cells/ar/python-net/removing-slicer/)
-- [تقديم القطاعة](/cells/ar/python-net/rendering-slicer/)
-- [تحديث القطاعة](/cells/ar/python-net/updating-slicer/)
+## **مواضيع متقدمة**
+- [تغيير خصائص المنقي](/cells/ar/python-net/change-slicer-properties/)
+- [رسم المنقي أثناء تحويل Excel إلى PDF](/cells/ar/python-net/draw-slicer-while-rendering-excel-to-pdf/)
+- [تنسيق المنقي](/cells/ar/python-net/formatting-slicer/)
+- [إزالة قالب التصفية](/cells/ar/python-net/removing-slicer/)
+- [تقديم المقطع](/cells/ar/python-net/rendering-slicer/)
+- [تحديث المقسم](/cells/ar/python-net/updating-slicer/)

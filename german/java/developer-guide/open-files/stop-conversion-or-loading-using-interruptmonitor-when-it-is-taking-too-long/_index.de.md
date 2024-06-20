@@ -1,18 +1,19 @@
-﻿---
-title: Stoppen Sie die Konvertierung oder das Laden mit InterruptMonitor, wenn es zu lange dauert
+---
+title: Konvertierung oder Laden mit InterruptMonitor stoppen, wenn es zu lange dauert
 type: docs
 weight: 100
 url: /de/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Aspose.Cells ermöglicht es Ihnen, die Konvertierung der Arbeitsmappe in verschiedene Formate wie PDF, HTML usw. zu stoppen[**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)Objekt, wenn es zu lange dauert. Der Konvertierungsprozess ist häufig sowohl CPU- als auch speicherintensiv und es ist oft sinnvoll, ihn anzuhalten, wenn die Ressourcen begrenzt sind. Sie können verwenden[**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)sowohl zum Stoppen der Konvertierung als auch zum Stoppen des Ladens riesiger Arbeitsmappen. Bitte verwende[**Workbook.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#InterruptMonitor)Eigenschaft zum Stoppen der Konvertierung und[**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#InterruptMonitor)Eigenschaft zum Laden einer riesigen Arbeitsmappe.
+## **Mögliche Verwendungsszenarien**
 
-## **Stoppen Sie die Konvertierung oder das Laden mit InterruptMonitor, wenn es zu lange dauert**
+Aspose.Cells ermöglicht es Ihnen, die Konvertierung von Arbeitsmappen in verschiedene Formate wie PDF, HTML usw. mit dem [**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)-Objekt zu stoppen, wenn es zu lange dauert. Der Konvertierungsprozess ist oft sowohl CPU- als auch speicherintensiv und es ist oft nützlich, ihn anzuhalten, wenn die Ressourcen begrenzt sind. Sie können [**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor) sowohl zum Stoppen der Konvertierung als auch zum Stoppen des Ladens riesiger Arbeitsmappen verwenden. Verwenden Sie [**Workbook.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#InterruptMonitor) Eigenschaft, um die Konvertierung zu stoppen, und [**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#InterruptMonitor) Eigenschaft, um riesige Arbeitsmappen zu laden.
 
-Der folgende Beispielcode erläutert die Verwendung von[**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)Objekt. Der Code konvertiert eine ziemlich große Excel-Datei in PDF. Es dauert einige Sekunden (dh*mehr als 30 Sekunden*), um es aufgrund dieser Codezeilen konvertieren zu lassen.
+## ** Konvertierung oder Laden mit InterruptMonitor stoppen, wenn es zu lange dauert**
 
-{{< highlight "java" >}}
+Der folgende Beispielcode erläutert die Verwendung des [**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)-Objekts. Der Code konvertiert eine ziemlich große Excel-Datei in PDF. Es dauert mehrere Sekunden (d. h. *länger als 30 Sekunden*), um sie zu konvertieren, weil diese Zeilen Code vorhanden sind.
+
+{{< highlight java >}}
 
 //Access cell AB1000000 and add some text inside it.
 
@@ -22,9 +23,9 @@ cell.putValue("This is text.");
 
 {{< /highlight >}}
 
-Wie du siehst**AB1000000**ist eine ziemlich weiter entfernte Zelle in der Datei XLSX. Allerdings ist die*WaitForWhileAndThenInterrupt()*Methode unterbricht die Konvertierung nach 10 Sekunden und Programm endet/beendet. Bitte verwenden Sie den folgenden Code, um den Beispielcode auszuführen.
+Wie Sie sehen, befindet sich **AB1000000** ziemlich weit entfernt in der XLSX-Datei. Die *WaitForWhileAndThenInterrupt()*-Methode unterbricht jedoch die Konvertierung nach 10 Sekunden, und das Programm endet/terminiert. Bitte verwenden Sie den folgenden Code, um den Beispielcode auszuführen.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 new StopConversionOrLoadingUsingInterruptMonitor().testRun();
 

@@ -1,15 +1,16 @@
-﻿---
-title: xlsx4j'de Elektronik Tabloya Yorum Ekleme
+---
+title: xlsx4j ile Elektronik Tabloda Yorum Ekle
 type: docs
 weight: 10
 url: /tr/java/add-comments-in-spreadsheet-in-xlsx4j/
 ---
-## **Aspose.Cells - Elektronik Tabloya Yorum Ekle**
-Shapes koleksiyonunun addComments yöntemini (Worksheet nesnesinde kapsüllenmiş) çağırarak bir hücreye yorum ekleyin. Yeni Yorum nesnesine, yorum dizini geçirilerek Yorumlar koleksiyonundan erişilebilir. Yorum nesnesine eriştikten sonra, Yorum nesnesinin setNote yöntemini kullanarak yorum notunu özelleştirin.
+
+## **Aspose.Cells - Elektronik Tabloda Yorum Ekle**
+Bir hücreye yorum eklemek için Worksheet nesnesinde bulunan Shapes koleksiyonunun addComments yöntemini çağırarak bir yorum ekleyin. Yeni Comment nesnesi, yorum dizinini geçirerek Comments koleksiyonundan erişilebilir. Comment nesnesine erişildikten sonra, setNote yöntemi kullanılarak yorum notu özelleştirilebilir.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -30,14 +31,14 @@ Comment comment = worksheet.getComments().get(commentIndex);
 comment.setNote("Hello Aspose!");
 
 {{< /highlight >}}
-## **xlsx4j - Elektronik Tabloya Yorum Ekle**
-CommentsPart sınıfı, xlsx4j kullanarak elektronik tabloya yorum eklemek için kullanılabilir.
+## **xlsx4j - Elektronik Tabloda Yorum Ekle**
+Yorumları xlsx4j kullanarak elektronik tabloya eklemek için CommentsPart sınıfı mevcuttur.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) {
+ public static void main(String[] args) {
 
     try {
 
@@ -240,11 +241,11 @@ public static org.docx4j.vml.root.Xml getVml(int row, int col) throws JAXBExcept
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/addcomments)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Yorum Ekleme](/java/adding-comments).
+Daha fazla ayrıntı için [Yorum Ekleme](/java/adding-comments) sayfasını ziyaret edin.
 
 {{% /alert %}}

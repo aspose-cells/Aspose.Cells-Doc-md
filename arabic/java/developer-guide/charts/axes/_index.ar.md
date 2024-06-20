@@ -1,36 +1,37 @@
-﻿---
-title: إدارة محاور مخططات Excel
+---
+title: إدارة محاور رسومات Excel
 linktitle: المحاور
 type: docs
 weight: 50
 url: /ar/java/chart-axes/
 ---
+
 {{% alert color="primary" %}}
 
-في مخططات Excel ، هناك ثلاثة أنواع من المحاور:
-1. المحور الأفقي (الفئة): المحور العاشر
-1. المحور العمودي (القيمة): المحور ص
-1. العمق (السلسلة) المحور: المحور Z
+في رسوم بيانية Excel، هناك 3 أنواع من المحاور:
+1. المحور الأفقي (الفئة): محور X
+1. المحور الرأسي (القيمة): محور Y
+1. المحور العمق (السلسلة): محور Z
 
 
 
 {{% /alert %}}
 
 ## **خيارات المحور**
- يسمح Aspose.Cells أيضًا بإدارة محاور الرسم البياني في وقت التشغيل ， مع[محور](https://reference.aspose.com/cells/java/com.aspose.cells/Axis) كائن ، يمكنك تغيير جميع خيارات المحور كما هو الحال في Excel.
+تتيح Aspose.Cells أيضًا إدارة محاور الرسم البياني في وقت التشغيل، باستخدام [محور](https://reference.aspose.com/cells/java/com.aspose.cells/Axis) ، يمكنك تغيير جميع خيارات المحور كما هو الحال في Excel.
 
-|![ما يجب القيام به: image_بديل_نص](chart_axes.png)|
+|![todo:image_alt_text](chart_axes.png)|
 
-## **إدارة محاور س وص**
+## **إدارة محاور X و Y**
 
-في مخطط Excel ، يعد المحاور الأفقية والعمودية أكثر المحاور شيوعًا لاستخدامها.
+في رسم بياني Excel، المحاور الأفقية والرأسية هما المحاور الأكثر شيوعًا للاستخدام.
 
-يوضح مقتطف الشفرة التالي كيفية تعيين خيارات محوري X و Y.
+يوضح مقتطف الكود التالي كيفية ضبط خيارات محاور X و Y.
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Chart-XY-Axes.java" >}}
 
-## **موضوعات مسبقة**
-- [تغيير اتجاه تسمية التجزئة](/cells/ar/java/change-tick-label-direction/)
-- [حدد المحور الموجود في المخطط](/cells/ar/java/determine-which-axis-exists-in-the-chart/)
-- [التعامل مع الوحدات التلقائية لمحور المخطط مثل Microsoft Excel](/cells/ar/java/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
+## **مواضيع متقدمة**
+- [تغيير اتجاه التسمية التلقائية](/cells/ar/java/change-tick-label-direction/)
+- [تحديد أي محور موجود في الرسم البياني](/cells/ar/java/determine-which-axis-exists-in-the-chart/)
+- [التعامل مع الوحدات التلقائية لمحور الرسم البياني مثل Microsoft Excel](/cells/ar/java/handle-automatic-units-of-chart-axis-like-microsoft-excel/)

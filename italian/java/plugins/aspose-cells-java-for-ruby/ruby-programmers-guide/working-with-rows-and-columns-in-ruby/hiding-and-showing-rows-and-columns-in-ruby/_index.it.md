@@ -1,16 +1,17 @@
-﻿---
-title: Nascondere e mostrare righe e colonne in Ruby
+---
+title: Nascondere e Mostrare Righe e Colonne in Ruby
 type: docs
 weight: 50
 url: /it/java/hiding-and-showing-rows-and-columns-in-ruby/
 ---
+
 ## **Aspose.Cells - Controllo della visibilità di righe e colonne**
 ### **Nascondere righe e colonne**
-Gli sviluppatori possono nascondere una riga o una colonna chiamando rispettivamente i metodi HideRow e HideColumn della raccolta Cells. Entrambi i metodi accettano l'indice riga/colonna come parametro per nascondere la riga o colonna specifica.
+Gli sviluppatori possono nascondere una riga o colonna chiamando rispettivamente i metodi HideRow e HideColumn della collezione Cells. Entrambi i metodi accettano l'indice di riga/colonna come parametro per nascondere la riga o colonna specifica.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def hide_rows_columns()
 
@@ -43,15 +44,15 @@ Gli sviluppatori possono nascondere una riga o una colonna chiamando rispettivam
 end
 
 {{< /highlight >}}
-### **Visualizzazione di righe e colonne**
-Gli sviluppatori possono visualizzare qualsiasi riga o colonna nascosta chiamando rispettivamente i metodi UnhideRow e UnhideColumn della raccolta Cells. Entrambi i metodi accettano due parametri:
+### **Mostrare righe e colonne**
+Gli sviluppatori possono mostrare qualsiasi riga o colonna nascosta chiamando rispettivamente i metodi UnhideRow e UnhideColumn della collezione Cells. Entrambi i metodi accettano due parametri:
 
-- **Indice riga o colonna**- l'indice di una riga o di una colonna utilizzato per mostrare la riga o la colonna specifica.
-- **Altezza riga o larghezza colonna**- l'altezza della riga o la larghezza della colonna assegnata alla riga o alla colonna dopo che è stata mostrata.
+- **Indice di riga o colonna** - l'indice di una riga o colonna che viene utilizzato per mostrare la riga o colonna specifica.
+- **Altezza riga o larghezza colonna** - l'altezza della riga o la larghezza della colonna assegnata alla riga o alla colonna dopo che è stata mostrata.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def unhide_rows_columns()
 
@@ -85,6 +86,6 @@ end
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Controllo della visibilità di righe e colonne (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Controllo della visibilità delle righe e delle colonne (Aspose.Cells)** da uno dei siti di codifica sociali di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

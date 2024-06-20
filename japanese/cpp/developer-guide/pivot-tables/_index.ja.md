@@ -1,4 +1,4 @@
-﻿---
+---
 title: ピボットテーブル
 type: docs
 weight: 50

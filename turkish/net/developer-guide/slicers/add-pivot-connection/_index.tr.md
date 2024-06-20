@@ -1,20 +1,21 @@
-﻿---
-title: Pivot Bağlantı Ekle
+---
+title: Pivot Bağlantısı Ekleme
 type: docs
 weight: 30
 url: /tr/net/add-pivot-connection/
-description: Aspose.Cells kitaplığı ile pivot bağlantısını nasıl ekleyeceğinizi öğrenin.
-keywords: Add pivot connection without office 2013, office 2016, office 2019 and office 365.
+description: Aspose.Cells kütüphanesi ile pivot bağlantısı nasıl ekleneceğini öğrenin.
+keywords: Ofis 2013, Ofis 2016, Ofis 2019 ve Ofis 365 olmadan pivot bağlantısı ekleme.
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Dilimleyici ve pivot tabloyu Excel'de ilişkilendirmek istiyorsanız, dilimleyiciye sağ tıklayıp "Bağlantıları Raporla..." öğesini seçmeniz gerekir. Seçenek listesinde, onay kutusu üzerinde işlem yapabilirsiniz. Benzer şekilde, programlı olarak Aspose.Cells API kullanarak dilimleyici ve pivot tabloyu ilişkilendirmek istiyorsanız, lütfen[**Slicer.AddPivotConnection(PivotTable pivotu)**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/addpivotconnection/)yöntem. Dilimleyici ve pivot tabloyu ilişkilendirir.
+Excel'de dilimleyici ve pivot tabloyu ilişkilendirmek istiyorsanız, dilimleyiciye sağ tıklayarak "Rapor Bağlantıları..." öğesini seçmeniz gerekmektedir. Seçenek listesinde onay kutusunda işlem yapabilirsiniz. Benzer şekilde, Aspose.Cells API'sını kullanarak dilimleyici ve pivot tablo ilişkilendirmek istiyorsanız, [**Slicer.AddPivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/addpivotconnection/) yöntemini kullanmalısınız. Bu, dilimleyici ve pivot tabloyu ilişkilendirecektir.
 
-## **İlişkili Dilimleyici ve PivotTable**
+## **Dilimleyiciyi ve Pivot Tablosunu İlişkilendir**
 
-Aşağıdaki örnek kod,[örnek excel dosyası](add-pivot-connection.xlsx)mevcut bir dilimleyici içerir. Dilimleyici'ye erişir ve ardından Dilimleyici ile PivotTable'ı ilişkilendirir. Son olarak, çalışma kitabını şu şekilde kaydeder:[çıktı excel dosyası](add-pivot-connection-out.xlsx). 
+Aşağıdaki örnek kod önceden var olan bir dilimleyici içeren [örnek Excel dosyasını](add-pivot-connection.xlsx) yükler. Slicer'a erişir ve sonra Slicer'ı ve PivotTabloyu ilişkilendirir. Son olarak, çalışma kitabını [çıkış Excel dosyası](add-pivot-connection-out.xlsx) olarak kaydeder. 
 
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-Adding-Pivot-Connection.cs" >}}

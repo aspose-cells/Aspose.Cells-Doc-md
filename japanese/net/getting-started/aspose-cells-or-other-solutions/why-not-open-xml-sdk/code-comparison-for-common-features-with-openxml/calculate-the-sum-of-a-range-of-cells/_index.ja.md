@@ -1,13 +1,14 @@
-﻿---
+---
 title: セル範囲の合計を計算する
 type: docs
 weight: 10
 url: /ja/net/calculate-the-sum-of-a-range-of-cells/
 ---
-## **OpenXML エクセル**
-コードで使用する必要がある名前空間は次のとおりです。
 
-{{< highlight "csharp" >}}
+## **OpenXML Excel**
+以下はコードで使用する必要がある名前空間です：
+
+{{< highlight csharp >}}
 
  using DocumentFormat.OpenXml;
 
@@ -17,9 +18,9 @@ using DocumentFormat.OpenXml.Spreadsheet;
 
 {{< /highlight >}}
 
-以下はコードです：
+以下がコードです：
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -334,7 +335,7 @@ private static Cell InsertCellInWorksheet(string columnName, uint rowIndex, Work
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -383,5 +384,5 @@ private static void CalculateSumOfCellRange(string docName, string worksheetName
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-- [ソースフォージ](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Calculate%20the%20sum%20of%20a%20range%20of%20cells%20\(Aspose.Cells\).zip/ダウンロード)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Calculate%20the%20sum%20of%20a%20range%20of%20cells%20\(Aspose.Cells\)。ジップ）
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Calculate%20the%20sum%20of%20a%20range%20of%20cells%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Calculate%20the%20sum%20of%20a%20range%20of%20cells%20\(Aspose.Cells\).zip)

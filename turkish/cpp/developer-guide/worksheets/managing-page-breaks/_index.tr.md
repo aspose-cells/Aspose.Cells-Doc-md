@@ -1,24 +1,25 @@
 ---
-title: Sayfa Sonlarını Yönetme
+title: Sayfa Kesmelerinin Yönetimi
 type: docs
 weight: 30
 url: /tr/cpp/managing-page-breaks/
 ---
+
 {{% alert color="primary" %}} 
 
-Tanıma göre sayfa sonu, metin akışında bir sayfanın bitip diğerinin başladığı yerdir. Microsoft Excel, kullanıcıların çalışma sayfasının seçilen herhangi bir hücresine sayfa sonları eklemesine olanak tanır.
+Tanıma göre, bir sayfa kesmesi, metin akışının bir sayfanın bittiği ve diğerinin başladığı yeridir. Microsoft Excel kullanıcılarına herhangi bir seçili hücreye sayfa kesmeleri eklemelerine izin verir.
 
-Yazdırma sırasında sayfa sonunun eklendiği, sayfanın bittiği ve sayfa sonundan sonraki tüm verilerin bir sonraki sayfaya yazdırıldığı hücrenin konumu. Basit bir ifadeyle sayfa sonları, çalışma sayfanızı spesifikasyonlarınıza göre birden fazla sayfaya böler. Ayrıca çalışma zamanında Aspose.Cells'i kullanarak çalışma sayfalarınıza sayfa sonları ekleyebilirsiniz. Aspose.Cells, geliştiricilerin iki tür sayfa sonu eklemesine olanak tanır:
+Sayfa kesmesi eklenen hücrenin konumu, sayfa biter ve sayfa kesesinden sonraki tüm veri bir sonraki sayfada yazdırılır. Basılırken sayfa kesesi sonra çalışağı veri bölümlendirir. Basitçe, sayfa kesmeleri belirlemelerinize göre çalışma sayfanızı birden çok sayfaya böler. Aspose.Cells, geliştiricilere sayfa kesi eklemeleri . Yatay sayfa kesisi ve dikey sayfa kesisi ekleyebilirsiniz:
 
-- Yatay sayfa sonu
-- Dikey sayfa sonu
+- Yatay sayfa kesmesi
+- Dikey sayfa kesmesi
 
-Tartışmanın geri kalanında Aspose.Cells'i kullanarak çalışma sayfalarınıza nasıl yatay veya dikey sayfa sonları ekleyebileceğinizi açıklayacağız.
+Tartışmanın geri kalanında, Aspose.Cells kullanarak çalışma sayfalarınıza yatay veya dikey sayfa kesme nasıl ekleyebileceğinizi açıklayacağız.
 
 {{% /alert %}} 
-##  **Sayfa Sonları**
- Aspose.Cells bir sınıf sağlıyor[Çalışma kitabı](https://reference.aspose.com/cells/cpp/aspose.cells/workbook) bu bir Excel dosyasını temsil eder.[Çalışma kitabı](https://reference.aspose.com/cells/cpp/aspose.cells/workbook) sınıf bir içerir[Çalışma sayfaları](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection)Excel dosyasındaki her çalışma sayfasına erişime izin veren koleksiyon.
+## **Sayfa Sonları**
+ Aspose.Cells, bir Excel dosyasını temsil eden [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook) sınıfını sağlar. [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook) sınıfı, Excel dosyasındaki her çalışma sayfasına erişime izin veren bir [Worksheets](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection) koleksiyon içerir.
 
-Bir çalışma sayfası şu şekilde temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) sınıf.[Çalışma kağıdı](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/)class, bir çalışma sayfasını yönetmek için kullanılan çok çeşitli yöntemler sağlar. Sayfa sonlarını eklemek için şunu kullanın:[Sayfa Sonu Ekle](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/addpagebreaks) yöntemi[Çalışma kağıdı](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/)sınıf.
-###  **Sayfa Sonu Ekleme**
+Sayfa, [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) sınıfı tarafından temsil edilir. [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) sınıfı, bir çalışma sayfasını yönetmek için kullanılan geniş bir yöntem yelpazesi sağlar. Sayfa kesmelerini eklemek için [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet) sınıfının [AddPageBreaks](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/addpagebreaks) yöntemini kullanın.
+### **Sayfa Kesmeleri Eklemek**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManagingPageBreaks-AddingPageBreaks-new.cpp" >}}

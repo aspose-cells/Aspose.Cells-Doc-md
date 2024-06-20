@@ -1,18 +1,19 @@
 ---
-title: Esporta grafico a SVG con attributo viewBox
+title: Esporta il grafico in SVG con attributo viewBox
 type: docs
 weight: 280
 url: /it/python-net/export-chart-to-svg-with-viewbox-attribute/
-description: Esporta il grafico in SVG con l'attributo viewBox utilizzando Aspose.Cells for Python via .NET API.
-keywords: Python Export Chart to SVG with viewBox attribute, Export Chart to SVG with viewBox attribute in Python via NET, Python Convert Chart to SVG with viewBox attribute.
+description: Esporta il grafico in SVG con attributo viewBox utilizzando Aspose.Cells per Python via .NET API.
+keywords: Python Esporta il grafico in SVG con attributo viewBox, Esportare il grafico in SVG con attributo viewBox in Python via NET, Convertire il grafico in SVG con attributo viewBox in Python.
 ---
+
 {{% alert color="primary" %}}
 
- Per impostazione predefinita, quando il grafico viene esportato nel formato SVG, il file**viewBox** l'attributo non è incluso nel relativo XML. Tuttavia, Aspose.Cells for Python via .NET fornisce[**ImageOrPrintOptions.svg_fit_to_view_port**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/svg_fit_to_view_port/) proprietà che, quando impostata su**VERO** esporta il grafico a SVG con l'attributo viewBox.
+Per impostazione predefinita, quando il grafico viene esportato in formato SVG, l'attributo **viewBox** non è incluso nel suo XML. Tuttavia, Aspose.Cells for Python via .NET fornisce la proprietà [**ImageOrPrintOptions.svg_fit_to_view_port**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/svg_fit_to_view_port/) che, quando impostata su **true**, esporta il grafico in SVG con l'attributo viewBox.
 
 {{% /alert %}}
 
-##  Esporta grafico a SVG con attributo viewBox
+## Esportare il grafico in SVG con attributo viewBox
 
 Il seguente codice di esempio esporta il grafico nel formato SVG con l'attributo viewBox.
 
@@ -20,9 +21,9 @@ Il seguente codice di esempio esporta il grafico nel formato SVG con l'attributo
 
 {{% alert color="primary" %}}
 
- Se apri lo SVG del grafico nel blocco note, troverai il**viewBox** attributo simile a questo.
+Se apri l'SVG del grafico in notepad, troverai l'attributo **viewBox** simile a questo.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <svg xmlns="http://www.w3.org/2000/svg"
 

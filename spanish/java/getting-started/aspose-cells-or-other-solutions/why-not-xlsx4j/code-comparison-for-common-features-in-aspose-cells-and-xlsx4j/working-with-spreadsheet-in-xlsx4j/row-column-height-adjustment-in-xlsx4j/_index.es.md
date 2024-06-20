@@ -1,23 +1,24 @@
-﻿---
-title: Ajuste de altura de columna de fila en xlsx4j
+---
+title: Ajuste de altura de fila y columna en xlsx4j
 type: docs
 weight: 50
 url: /es/java/row-column-height-adjustment-in-xlsx4j/
 ---
-## **Aspose.Cells - Ajuste de altura de columna de fila**
+
+## **Aspose.Cells - Ajuste de altura de fila y columna**
 Es posible establecer la altura de una sola fila llamando al método setRowHeight de la colección Cells. El método setRowHeight toma los siguientes parámetros:
 
-- **Índice de fila**, el índice de la fila cuya altura está cambiando.
-- **Altura de la fila**, el alto de fila que se aplicará en la fila.
+- **Índice de fila**, el índice de la fila a la que le estás cambiando la altura.
+- **Altura de fila**, la altura de fila para aplicar en la fila.
 
 Establezca el ancho de una columna llamando al método setColumnWidth de la colección Cells. El método setColumnWidth toma los siguientes parámetros:
 
-- **índice de columna**, el índice de la columna cuyo ancho está cambiando.
-- **Ancho de columna**, el ancho de columna deseado.
+- **Índice de la columna**, el índice de la columna cuyo ancho se va a cambiar.
+- **Ancho de la columna**, el ancho de columna deseado.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -44,12 +45,12 @@ cells.setRowHeight(1, 40);
 cells.setColumnWidth(1, 17.5);
 
 {{< /highlight >}}
-## **xlsx4j - Ajuste de altura de columna de fila**
-Row.setHt se usa para establecer una altura personalizada para las filas usando xlsx4j. setCustomHeight debe establecerse en TRUE.
+## **xlsx4j - Ajuste de altura de fila y columna**
+Row.setHt se utiliza para establecer una altura personalizada para las filas utilizando xlsx4j. setCustomHeight debe establecerse en TRUE.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  SpreadsheetMLPackage pkg = SpreadsheetMLPackage.createPackage();
 
@@ -88,13 +89,13 @@ row.getC().add(cell2);
 sheetData.getRow().add(row);
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/adjustheight)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Ajuste de altura de fila y ancho de columna](/java/adjusting-row-height-and-volumn-width).
+Para más detalles, visita [Ajustar altura de fila y ancho de columna](/java/ajustar-altura-fila-ancho-columna).
 
 {{% /alert %}}

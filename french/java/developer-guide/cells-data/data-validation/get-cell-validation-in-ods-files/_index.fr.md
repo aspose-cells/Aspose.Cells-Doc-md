@@ -1,15 +1,16 @@
-﻿---
-title: Obtenir la validation Cell dans les fichiers ODS
+---
+title: Obtenir la validation de la cellule dans les fichiers ODS
 type: docs
 weight: 190
 url: /fr/java/get-cell-validation-in-ods-files/
 ---
-## **Obtenir la validation Cell dans les fichiers ODS**
 
-Avec Aspose.Cells, vous pouvez obtenir la validation appliquée à une cellule dans les fichiers ODS. Pour cela, le API fournit le[**ObtenirValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation()) méthode de la[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)classe.
+## **Obtenir la validation de la cellule dans les fichiers ODS**
 
-L'exemple de code suivant illustre l'utilisation de[**ObtenirValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation()) en chargeant la méthode[référence ODS](SampleBook1.ods)fichier et lecture de la validation de la cellule A9.
+Avec Aspose.Cells, vous pouvez obtenir la validation appliquée à une cellule dans les fichiers ODS. Pour cela, l'API fournit la méthode [**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) de la classe [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell).
 
-### **Exemple de code**
+L'exemple de code suivant démontre l'utilisation de la méthode [**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) en chargeant le [fichier ODS source](SampleBook1.ods) et en lisant la validation de la cellule A9.
+
+### **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-GetCellValidationInODS-1.java" >}}

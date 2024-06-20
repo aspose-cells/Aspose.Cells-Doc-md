@@ -1,28 +1,29 @@
-﻿---
-title: حذف النطاقات
+---
+title: حذف المجموعات
 type: docs
 weight: 105
 url: /ar/net/delete-ranges-from-Excel/
 ---
+
 ## **مقدمة**
 
-في Excel ، يمكنك تحديد نطاق ، ثم حذفه ونقل البيانات الأخرى لليسار أو لأعلى.
+في Excel، يمكنك تحديد مجموعة، ثم حذفها وتحريك البيانات الأخرى يسارًا أو لأعلى.
 
-**! [خيارات التحول] (delete-range.png)**
+**![خيارات التحريك](delete-range.png)**
 
 ## **حذف النطاقات باستخدام Aspose.Cells**
 
- يوفر Aspose.Cells[Cells.DeleteRange](https://reference.aspose.com/cells/net/aspose.cells/cells/insertrange/) طريقة لحذف النطاق.
+توفر Aspose.Cells [Cells.DeleteRange](https://reference.aspose.com/cells/net/aspose.cells/cells/deleterange/) الطريقة لحذف نطاق.
 
-## **حذف النطاقات والتحويل Cells لليسار**
+## **حذف النطاقات وتحريك الخلايا لليسار**
 
-حذف راناج وإزاحة الخلايا المتروكة مثل الرموز التالية مع Aspose.Cells:
+حذف نطاق وتحريك الخلايا لليسار مثلما في الشفرات التالية باستخدام Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Delete-Range-Left.cs" >}}
 
-## **حذف النطاقات والتحويل Cells لأعلى**
+## **حذف النطاقات وتحريك الخلايا لأعلى**
 
-احذف راناج وقم بإزاحة الخلايا للأعلى على النحو التالي مع الرموز التالية مع Aspose.Cells:
+حذف نطاق وتحريك الخلايا لأعلى مثلما في الشفرات التالية باستخدام Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Delete-Range-up.cs" >}}
 

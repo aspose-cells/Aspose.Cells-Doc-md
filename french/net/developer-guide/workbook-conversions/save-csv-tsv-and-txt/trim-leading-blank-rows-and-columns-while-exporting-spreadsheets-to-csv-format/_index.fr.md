@@ -1,35 +1,36 @@
-﻿---
-title: Coupez les premières lignes et colonnes vides lors de l'exportation des feuilles de calcul au format CSV
+---
+title: Supprimer les lignes et colonnes vides initiales lors de l exportation de feuilles de calcul au format CSV
 type: docs
 weight: 100
 url: /fr/net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/
 ---
+
 ## **Scénarios d'utilisation possibles**
 
-Parfois, votre fichier Excel ou CSV comporte des colonnes ou des lignes vides. Par exemple, considérons cette ligne
+Parfois, votre fichier Excel ou CSV contient des colonnes ou des lignes vides initiales. Par exemple, considérez cette ligne
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  ,,,data1,data2
 
 {{< /highlight >}}
 
-Ici, les trois premières cellules ou colonnes sont vides. Lorsque vous ouvrez un tel fichier CSV dans Microsoft Excel, puis Microsoft Excel ignore ces premières lignes et colonnes vides.
+Ici, les trois premières cellules ou colonnes sont vides. Lorsque vous ouvrez un tel fichier CSV dans Microsoft Excel, Microsoft Excel ignore ces lignes et colonnes vides initiales.
 
- Par défaut, Aspose.Cells ne supprime pas les premières colonnes et lignes vides lors de l'enregistrement, mais si vous souhaitez les supprimer comme le fait Microsoft Excel, alors Aspose.Cells fournit**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn)** la propriété. Veuillez le régler sur**vrai**puis toutes les premières lignes et colonnes vides seront supprimées lors de l'enregistrement.
+Par défaut, Aspose.Cells ne supprime pas les colonnes et lignes vides de tête lors de l'enregistrement, mais si vous souhaitez les supprimer comme le fait Microsoft Excel, alors Aspose.Cells fournit la propriété [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn). Veuillez la définir sur **true** et ensuite toutes les colonnes et lignes vides de tête seront supprimées lors de l'enregistrement.
 
 {{% alert color="primary" %}}
 
- Avant la publication de Aspose.Cells for .NET 20.4, la valeur par défaut de**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn)** a été**faux** . Depuis la version 20.4, la valeur par défaut de**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn)** est**vrai.**
+Avant la publication de Aspose.Cells for .NET 20.4, la valeur par défaut de [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn) était **false**. Depuis la version 20.4, la valeur par défaut de [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn) est **true.**
 
 {{% /alert %}}
 
-## **Coupez les premières lignes et colonnes vides lors de l'exportation des feuilles de calcul au format CSV**
+## **Supprimer les lignes et colonnes vides en tête lors de l'exportation de feuilles de calcul au format CSV**
 
- L'exemple de code suivant charge le[fichier excel source](sampleTrimBlankColumns.xlsx) qui a deux premières colonnes vides. Il enregistre d'abord le fichier Excel au format CSV sans aucune modification, puis il définit**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn)** propriété à**vrai** et l'enregistre à nouveau. La capture d'écran montre le[fichier excel source](sampleTrimBlankColumns.xlsx), [fichier de sortie CSV sans rognage](outputWithoutTrimBlankColumns.csv), et le[fichier de sortie CSV avec rognage](outputTrimBlankColumns.csv).
+Le code d'exemple suivant charge le [fichier Excel source](sampleTrimBlankColumns.xlsx) qui contient deux premières colonnes vides. Il enregistre d'abord le fichier Excel au format CSV sans aucun changement, puis définit la propriété [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn) sur **true** et l'enregistre à nouveau. La capture d'écran montre le [fichier Excel source](sampleTrimBlankColumns.xlsx), le [fichier CSV en sortie sans suppression](outputWithoutTrimBlankColumns.csv) et le [fichier CSV en sortie avec suppression](outputTrimBlankColumns.csv).
 
-![tâche : image_autre_texte](trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format_1.png)
+![todo:image_alt_text](trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format_1.png)
 
-## **Exemple de code**
+## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-TrimLeadingBlankRowsAndColumnsWhileExportingSpreadsheetsToCSVFormat.cs" >}}

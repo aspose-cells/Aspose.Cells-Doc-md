@@ -1,16 +1,17 @@
-﻿---
-title: Zeilen und Spalten automatisch anpassen in PHP
+---
+title: Zeilen und Spalten in PHP automatisch anpassen
 type: docs
 weight: 20
 url: /de/java/autofit-rows-and-columns-in-php/
 ---
-## **Aspose.Cells – Zeilen und Spalten automatisch anpassen**
+
+## **Aspose.Cells - Zeilen und Spalten automatisch anpassen**
 ### **Zeile automatisch anpassen**
-Der einfachste Ansatz zum automatischen Anpassen der Breite und Höhe einer Zeile besteht darin, die autoFitRow-Methode der Worksheet-Klasse aufzurufen. Die autoFitRow-Methode nimmt einen Zeilenindex (der Zeile, deren Größe geändert werden soll) als Parameter.
+Der einfachste Ansatz zum automatischen Anpassen der Breite und Höhe einer Zeile besteht darin, die Methode autoFitRow der Klasse Worksheet aufzurufen. Die Methode autoFitRow nimmt einen Zeilenindex (der Zeile, die angepasst werden soll) als Parameter an.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function autofit_row($dataDir)
 
@@ -44,11 +45,11 @@ Der einfachste Ansatz zum automatischen Anpassen der Breite und Höhe einer Zeil
 
 {{< /highlight >}}
 ### **Spalte automatisch anpassen**
-Die einfachste Möglichkeit, die Breite und Höhe einer Spalte automatisch anzupassen, besteht darin, die autoFitColumn-Methode der Worksheet-Klasse aufzurufen. Die autoFitColumn-Methode nimmt den Spaltenindex (der Spalte, deren Größe geändert werden soll) als Parameter.
+Der einfachste Weg, die Breite und Höhe einer Spalte automatisch anzupassen, besteht darin, die Methode autoFitColumn der Klasse Worksheet aufzurufen. Die Methode autoFitColumn erhält den Spaltenindex (der Spalte, die gerade angepasst wird) als Parameter.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function autofit_column($dataDir)
 
@@ -81,7 +82,7 @@ Die einfachste Möglichkeit, die Breite und Höhe einer Spalte automatisch anzup
 }
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Zeilen und Spalten automatisch anpassen (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Autofit Rows and Columns (Aspose.Cells)** von einer der unten genannten sozialen Plattformen herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

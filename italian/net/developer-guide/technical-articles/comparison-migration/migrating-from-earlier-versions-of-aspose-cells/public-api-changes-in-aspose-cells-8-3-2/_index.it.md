@@ -1,35 +1,36 @@
-﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.3.2
+---
+title: Modifiche alle API pubbliche in Aspose.Cells 8.3.2
 type: docs
 weight: 120
 url: /it/net/public-api-changes-in-aspose-cells-8-3-2/
 ---
+
 {{% alert color="primary" %}} 
 
- Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.3.1 alla 8.3.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-3-2/) e[classi rimosse ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-3-2/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche apportate all'API Aspose.Cells dalla versione 8.3.1 alla 8.3.2 che possono interessare gli sviluppatori di moduli/applicazioni. Include non solo nuovi metodi pubblici e aggiornati, [classi aggiunte ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-3-2/) e [classi rimosse ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-3-2/), ma anche una descrizione di eventuali modifiche nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
-### **Meccanismo per impostare la posizione assoluta di PivotItem**
- Al fine di fornire la funzionalità[Posizionamento assoluto di PivotItem](/cells/it/net/specifying-the-absolute-position-of-the-pivot-item/)Aspose.Cells for .NET 8.3.2 ha esposto una serie di proprietà e metodi di supporto elencati di seguito.
+### **Meccanismo per impostare la posizione assoluta della PivotItem**
+Al fine di fornire la funzione [Posizionamento assoluto di PivotItem](/cells/it/net/specifying-the-absolute-position-of-the-pivot-item/), il Aspose.Cells for .NET 8.3.2 ha esposto una serie di proprietà e metodi di aiuto come elencato di seguito.
 
-- La proprietà PivotItem.Position può essere utilizzata per specificare l'indice di posizione in tutti i PivotItem indipendentemente dal nodo padre.
-- La proprietà PivotItem.PositionInSameParentNode può essere utilizzata per specificare l'indice di posizione nei PivotItems sotto lo stesso nodo padre.
-- Il metodo PivotItem.Move(int count, bool isSameParent) può essere usato per spostare l'elemento verso l'alto o verso il basso in base al valore del conteggio, dove count è il numero della posizione per spostare l'oggetto PivotItem verso l'alto o verso il basso. Se il valore del conteggio è minore di zero, l'elemento verrà spostato verso l'alto dove, come se il valore del conteggio fosse maggiore di zero, il PivotItem si sposterà verso il basso, il parametro di tipo booleano isSameParent specifica se l'operazione di spostamento deve essere eseguita nello stesso nodo padre o no.
+- La proprietà PivotItem.Position può essere utilizzata per specificare l'indice di posizione in tutti i PivotItem indipendentemente dal nodo genitore.
+- La proprietà PivotItem.PositionInSameParentNode può essere utilizzata per specificare l'indice di posizione nei PivotItem sotto lo stesso nodo genitore.
+- Il metodo PivotItem.Move(int count, bool isSameParent) può essere utilizzato per spostare l'elemento su o giù in base al valore del conteggio, dove il conteggio è il numero di posizioni per spostare il PivotItem su o giù. Se il valore del conteggio è inferiore a zero, l'elemento verrà spostato su di posizione, mentre se il valore del conteggio è maggiore di zero, il PivotItem si sposterà in basso; il parametro di tipo booleano isSameParent specifica se l'operazione di spostamento deve essere eseguita nello stesso nodo genitore o no.
 
 {{% alert color="primary" %}} 
 
 Si noti che è necessario chiamare i metodi PivotTable.RefreshData e PivotTable.CalculateData prima di utilizzare le proprietà PivotItem.Position, PivotItem.PositionInSameParentNode e il metodo PivotItem.Move(int count, bool isSameParent).
 
 {{% /alert %}} 
-### **Classe SignatureLine Aggiunta**
-Aspose.Cells for .NET 8.3.2 fornisce il supporto per la riga della firma per imitare la funzionalità equivalente di MS Excel. Questa versione di Aspose.Cells for .NET ha esposto la classe SignatureLine e la proprietà Picture.SignatureLine per questo scopo.
+### **Firma di classe SignatureLine aggiunta**
+Aspose.Cells for .NET 8.3.2 fornisce il supporto per la Signature Line per emulare la funzione equivalente di MS Excel. Questa versione di Aspose.Cells for .NET ha esposto la classe SignatureLine e la proprietà Picture.SignatureLine a tale scopo.
 
-Il codice di esempio seguente aggiunge una riga della firma utilizzando la proprietà Picture.SignatureLine alla cartella di lavoro.
+Il seguente codice di esempio aggiunge una Signature Line utilizzando la proprietà Picture.SignatureLine al workbook.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -60,14 +61,14 @@ pic.SignatureLine = s;
 {{< /highlight >}}
 
 
-### **Metodo Chart.HasAxis Aggiunto**
-Con il rilascio di v8.3.2, il Aspose.Cells API ha fornito il metodo Chart.HasAxis(AxisType axisType, bool isPrimary) per determinare se il grafico ha o meno un asse particolare.
+### **Aggiunto il metodo Chart.HasAxis**
+Con il rilascio della v8.3.2, l'API Aspose.Cells ha fornito il metodo Chart.HasAxis(AxisType axisType, bool isPrimary) per determinare se il grafico ha un particolare asse o no.
 
-Il seguente codice di esempio illustra l'utilizzo del metodo Chart.HasAxis per determinare se il grafico di esempio ha l'asse Primario, Secondario e Valore.
+Il seguente codice di esempio dimostra l'uso del metodo Chart.HasAxis per determinare se il grafico di esempio ha un asse primario, secondario e del valore.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -102,12 +103,12 @@ Console.WriteLine("Has Secondary Value Axis: " + ret);
 {{< /highlight >}}
 
 
-### **Metodo WorkbookSettings.CheckWriteProtectedPassword aggiunto**
-Metodo WorkbookSettings.CheckWriteProtectedPassword consente agli sviluppatori di verificare se una determinata password per modificare il foglio di calcolo è corretta o meno.
+### **Aggiunto il metodo WorkbookSettings.CheckWriteProtectedPassword**
+Il metodo WorkbookSettings.CheckWriteProtectedPassword consente agli sviluppatori di verificare se una password fornita per modificare il foglio di calcolo è corretta o meno.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify password to open inside the load options
 
@@ -128,14 +129,14 @@ Console.WriteLine("Is 567 correct Password to modify: " + ret);
 {{< /highlight >}}
 
 
-### **Metodi di sovraccarico WorkbookRender.ToPrinter e SheetRender.ToPrinter aggiunti**
-Aspose.Cells for .NET 8.3.2 ha fornito i metodi WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) e SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) per stampare rispettivamente l'intervallo di pagine della cartella di lavoro e del foglio di lavoro.
+### **Sovraccarico dei metodi WorkbookRender.ToPrinter e SheetRender.ToPrinter Aggiunti**
+Aspose.Cells for .NET 8.3.2 ha fornito i metodi WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) e SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) per stampare la gamma di pagine del workbook e del foglio di calcolo rispettivamente.
 
-Il seguente codice di esempio illustra l'utilizzo dei metodi suddetti per stampare le pagine 2-5 della cartella di lavoro e del foglio di lavoro.
+Il seguente codice di esempio illustra l'uso dei suddetti metodi per stampare le pagine 2-5 del workbook e del foglio di calcolo.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -164,32 +165,32 @@ sr.ToPrinter(printerName, 1, 4);
 {{< /highlight >}}
 
 
-### **Metodo Worksheet.RefreshPivotTables Aggiunto**
-Il metodo appena aggiunto Worksheet.RefreshPivotTables consente di aggiornare tutte le tabelle pivot in un determinato foglio di calcolo in una singola chiamata.
+### **Aggiunto il metodo Worksheet.RefreshPivotTables**
+Il metodo appena aggiunto Worksheet.RefreshPivotTables consente di aggiornare tutte le tabelle pivot in un foglio di calcolo specifico in un'unica chiamata.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  worksheet.RefreshPivotTables();
 
 {{< /highlight >}}
 
 
-### **Metodo Workbook.GetNamedStyle Aggiunto**
-Aspose.Cells for .NET API ha esposto il metodo Workbook.GetNamedStyle che accetta la stringa come parametro e recupera l'oggetto Style in base al parametro passato.
+### **Metodo Workbook.GetNamedStyle aggiunto**
+L'API Aspose.Cells for .NET ha esposto il metodo Workbook.GetNamedStyle che accetta la stringa come parametro e recupera l'oggetto Style in base al parametro passato.
 ### **Metodo Cells.ImportTwoDimensionArray aggiunto**
-Aspose.Cells for .NET API ha reso possibile l'importazione di array bidimensionali nelle celle del foglio di calcolo esponendo il metodo Cells.ImportTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions). Il suddetto metodo importa una matrice di dati a due dimensioni in un foglio di lavoro con opzioni più flessibili definite in TxtLoadOptions.
-### **Proprietà OnePagePerSheet, PageIndex e PageCount aggiunto**
-Aspose.Cells for .NET 8.3.2 ha esposto le proprietà OnePagePerSheet, PageIndex e PageCount per la classe XpsSaveOptions. L'utente può inserire tutto il contenuto di un foglio di calcolo in una singola pagina di XPS utilizzando la proprietà OnePagePerSheet e/o recuperare il numero di pagine da stampare utilizzando la proprietà PageCount. La proprietà PageIndex ottiene/imposta l'indice in base 0 della prima pagina da salvare.
-### **Proprietà NumberDecimalSeparator e NumberGroupSeparator aggiunti**
-Aspose.Cells for .NET 8.3.2 ha introdotto le proprietà NumberDecimalSeparator e NumberGroupSeparator che possono ottenere/impostare i separatori personalizzati utilizzati per la formattazione e l'analisi dei valori numerici nei fogli di calcolo.
+L'API Aspose.Cells for .NET ha reso possibile l'importazione di matrici bidimensionali nelle celle del foglio di calcolo esponendo il metodo Cells.ImportTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions). Il suddetto metodo importa una matrice bidimensionale di dati in un foglio di lavoro con opzioni più flessibili definite in TxtLoadOptions.
+### **Proprietà OnePagePerSheet, PageIndex e PageCount aggiunte**
+L'API Aspose.Cells for .NET 8.3.2 ha esposto le proprietà OnePagePerSheet, PageIndex e PageCount per la classe XpsSaveOptions. L'utente può adattare tutti i contenuti di un foglio di calcolo su una singola pagina di XPS utilizzando la proprietà OnePagePerSheet e/o recuperare il numero di pagine da stampare utilizzando la proprietà PageCount. La proprietà PageIndex ottiene/imposta l'indice a base 0 della prima pagina da salvare.
+### **Proprietà NumberDecimalSeparator e NumberGroupSeparator aggiunte**
+L'API Aspose.Cells for .NET 8.3.2 ha introdotto le proprietà NumberDecimalSeparator e NumberGroupSeparator che possono ottenere/impostare i separatori personalizzati utilizzati per formattare e analizzare i valori numerici nei fogli di calcolo.
 
-Il codice di esempio seguente illustra come specificare i separatori personalizzati utilizzando Aspose.Cells API. Il codice seguente specifica i separatori decimali e di gruppo personalizzati rispettivamente come punto e spazio.
+Il seguente codice di esempio illustra come specificare i separatori personalizzati utilizzando l'API Aspose.Cells. Il codice seguente specifica i separatori Decimal e Group personalizzati come rispettivamente punto e spazio.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook workbook = new Workbook();
 
@@ -203,11 +204,11 @@ workbook.Settings.NumberGroupSeparator = ' ';
 
 
 ### **Proprietà PdfSaveOptions.IsFontSubstitutionCharGranularity aggiunta**
-Aspose.Cells for .NET 8.3.2 ha esposto la proprietà PdfSaveOptions.IsFontSubstitutionCharGranularity per ovviare al problema per cui alcuni caratteri Unicode non possono essere visualizzati utilizzando una specifica famiglia di font. Quando la proprietà PdfSaveOptions.IsFontSubstitutionCharGranularity è impostata su true, solo il carattere di un carattere specifico che non è visualizzabile verrà modificato in carattere visualizzabile e il resto della parola o della frase deve rimanere nel carattere originale.
+L'API Aspose.Cells for .NET 8.3.2 ha esposto la proprietà PdfSaveOptions.IsFontSubstitutionCharGranularity per superare il problema in cui alcuni caratteri Unicode non possono essere visualizzati utilizzando una famiglia di caratteri specifica. Quando la proprietà PdfSaveOptions.IsFontSubstitutionCharGranularity è impostata su true, solo il carattere specifico che non è visualizzabile cambierà il font in un font visualizzabile e il resto della parola o della frase dovrebbe rimanere nel font originale.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Save to Pdf after setting PdfSaveOptions.IsFontSubstitutionCharGranularity to true
 
@@ -220,15 +221,15 @@ opts.IsFontSubstitutionCharGranularity = true;
 
 ## **API rimosse**
 ### **Metodi obsoleti rimossi**
-seguenti metodi sono stati rimossi dal pubblico API.
+I seguenti metodi sono stati rimossi dall'API pubblica.
 
 - Metodi Workbook.Open e Workbook.Save.
 - Metodo Workbook.SetOleSize.
 - Metodo Workbook.LoadData.
 - Metodi WorkbookDesigner.Open e WorkbookDesigner.Save.
 - Metodo WorksheetCollection.DeleteName.
-### **Proprietà obsolete rimosse**
-Le seguenti proprietà sono state rimosse dal pubblico API.
+### **Proprietà obsolette rimosse**
+Le seguenti proprietà sono state rimosse dall'API pubblica.
 
 - Proprietà Workbook.IsProtected.
 - Proprietà Workbook.Language.
@@ -254,7 +255,7 @@ Le seguenti proprietà sono state rimosse dal pubblico API.
 - Proprietà WorksheetCollection.WindowHeight.
 - Proprietà WorksheetCollection.WindowHeightInch.
 - Proprietà WorksheetCollection.WindowHeightCM.
-- Proprietà Worksheet.HPPageBreaks.
+- Proprietà Worksheet.HPageBreaks.
 - Proprietà Worksheet.VPageBreaks.
 - Proprietà HtmlSaveOptions.DisplayHTMLCrossString.
 - Proprietà HtmlSaveOptions.ExportChartImageFormat.
@@ -265,9 +266,9 @@ Le seguenti proprietà sono state rimosse dal pubblico API.
 - Proprietà SaveOptions.PdfImageCompression.
 - Proprietà TxtSaveOptions.AlwaysQuoted.
 ## **API obsolete**
-### **Proprietà Workbook.SaveOptions Obsoleto**
-Un oggetto di SaveOptions deve essere passato al metodo Workbook.Save dopo aver impostato le proprietà SaveOptions appropriate.
-### **Property Workbook.Styles & Class StyleCollection Obsoleto**
-Si consiglia di usare il metodo Workbook.CreateStyle per creare e modificare lo stile per l'istanza di Workbook invece di creare uno Style con il metodo StyleCollection.Add. Inoltre, il metodo Workbook.GetNamedStyle(string) può essere utilizzato per ottenere uno stile con nome invece di StyleCollection[string].
-### **Metodo PivotItem.Move(int count) Obsoleto**
-Con il rilascio di Aspose.Cells 8.3.2, API ha introdotto un altro overload del metodo PivotItem.Move che accetta il parametro integer per il conteggio e il parametro booleano per spostare un PivotItem all'interno del nodo padre.
+### **Proprietà Workbook.SaveOptions obsoleta**
+Un oggetto di tipo SaveOptions deve essere passato al metodo Workbook.Save dopo aver impostato correttamente le proprietà di SaveOptions.
+### **Proprietà Workbook.Styles e classe StyleCollection obsoleti**
+È consigliabile utilizzare il metodo Workbook.CreateStyle per creare e manipolare uno stile per un'istanza di Workbook anziché creare uno stile con il metodo StyleCollection.Add. Inoltre, è possibile utilizzare il metodo Workbook.GetNamedStyle(string) per ottenere uno stile nominato anziché StyleCollection[string].
+### **Metodo PivotItem.Move(int count) obsoleto**
+Con il rilascio di Aspose.Cells 8.3.2, l'API ha introdotto un'altra sovraccarica del metodo PivotItem.Move che accetta il parametro integer per il conteggio e il parametro booleano per spostare un PivotItem all'interno del nodo padre.

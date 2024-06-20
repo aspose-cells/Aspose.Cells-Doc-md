@@ -1,18 +1,19 @@
-﻿---
-title: Makro dem Formularsteuerelement zuweisen
+---
+title: Weisen Sie einem Formularsteuerelement einen Makrocode zu.
 type: docs
 weight: 60
 url: /de/net/assign-macro-to-form-control/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells ermöglicht es Ihnen, einem Formularsteuerelement wie einem Button einen Makrocode zuzuweisen. Bitte verwenden Sie die[**Shape.MarcoName**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/macroname) -Eigenschaft, um einem Formularsteuerelement in der Arbeitsmappe einen neuen Makrocode zuzuweisen.
+Mit Aspose.Cells können Sie einem Formularsteuerelement wie einer Schaltfläche einen Makrocode zuweisen. Verwenden Sie die Eigenschaft [**Shape.MarcoName**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/macroname), um einem Formularsteuerelement in der Arbeitsmappe einen neuen Makrocode zuzuweisen.
 
 {{% /alert %}}
 
-Der folgende Beispielcode erstellt eine neue Arbeitsmappe, weist einer Formularschaltfläche einen Makrocode zu und speichert die Ausgabe im Format XLSM. Sobald Sie die Ausgabedatei XLSM in Microsoft Excel öffnen, sehen Sie den folgenden Makrocode.
+Der folgende Beispielcode erstellt eine neue Arbeitsmappe, weist einer Schaltfläche ein Makro zu und speichert die Ausgabe im XLSM-Format. Wenn Sie die Ausgabedatei in Microsoft Excel öffnen, wird der folgende Makrocode angezeigt.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub ShowMessage()
 
@@ -22,7 +23,7 @@ End Sub
 
 {{< /highlight >}}
 
-## **Weisen Sie dem Formularsteuerelement in C# ein Makro zu**
+## **Makro einem Formularsteuerelement in C# zuweisen**
 
 Hier ist der Beispielcode zum Generieren der Ausgabedatei XLSM mit Makrocode.
 

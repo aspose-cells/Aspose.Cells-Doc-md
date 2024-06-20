@@ -1,24 +1,25 @@
 ---
-title: Как создать водопадную диаграмму
+title: Как создать диаграмму водопада
 type: docs
 weight: 160
 url: /ru/net/creating-waterfall-chart/
-description: Создайте каскадные диаграммы в Excel с помощью C# и Aspose.Cells for .NET API.
-keywords: c# create waterfall chart in excel, c# creating waterfall chart in excel, creating waterfall chart in excel with c#, create waterfall chart in excel with c#, create waterfall chart in excel c#, create waterfall chart excel c#, create waterfall chart in excel programmatically, how to create waterfall chart in excel with c#
+description: Создайте диаграммы водопада в Excel с помощью C# и Aspose.Cells for .NET API.
+keywords: c# создать диаграмму водопада в Excel, c# создание диаграммы водопада в Excel, создание диаграммы водопада в Excel с помощью c#, создать диаграмму водопада в Excel с помощью c#, создать диаграмму водопада в Excel c#, создать диаграмму водопада Excel c#, создать диаграмму водопада в Excel программно, как создать диаграмму водопада в Excel с помощью c#
 ---
+
 {{% alert color="primary" %}}
 
-Водопадная диаграмма — это особый тип диаграммы, который обычно используется для демонстрации того, как начальная позиция увеличивается или уменьшается. Microsoft В Excel имеется множество предопределенных типов диаграмм, включая столбчатые, линейные, круговые, столбчатые, радарные и т. д., но каскадная диаграмма выходит за рамки базовых диаграмм и может быть создана с использованием существующих типов диаграмм с небольшой или большей настройкой.
+Диаграмма водопада - это особый тип диаграммы, который обычно используется для демонстрации увеличения или уменьшения начальной позиции. Microsoft Excel имеет множество предопределенных типов диаграмм, включая столбцы, линию, круговую, столбчатую, радиальную и т. д., но диаграмма водопада выходит за рамки базовых графиков и может быть создана с использованием существующих типов диаграмм с небольшим или большим произвольным выбором.
 
 {{% /alert %}} 
 
- Aspose.Cells API позволяет создавать каскадную диаграмму с помощью линейной диаграммы. API также позволяет настроить внешний вид диаграммы, придав ей форму водопада, установив[**Серия.UpBars**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/upbars) & [**Серия.DownBars**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/downbars)характеристики.
+API Aspose.Cells позволяет создавать диаграмму водопада с помощью линейной диаграммы. API также позволяет настраивать внешний вид диаграммы, чтобы придать ей форму водопада, установив свойства [**Series.UpBars**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/upbars) и [**Series.DownBars**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/downbars).
 
-Ниже приведен фрагмент кода, демонстрирующий использование Aspose.Cells for .NET API для создания каскадной диаграммы с нуля.
+Приведенный ниже фрагмент кода демонстрирует использование API Aspose.Cells for .NET для создания диаграммы водопада с нуля.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateWaterfallChart-1.cs" >}}
 
-##  Статьи по Теме
+## Связанные статьи
 
 - [Создание диаграмм](/cells/ru/net/creating-charts/)
-- [Настройка диаграмм](/cells/ru/net/customizing-charts/)
+- [Настраивание диаграмм](/cells/ru/net/customizing-charts/)
