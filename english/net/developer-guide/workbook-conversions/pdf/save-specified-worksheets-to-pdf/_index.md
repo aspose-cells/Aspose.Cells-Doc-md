@@ -28,6 +28,12 @@ If you want to export desired/custom multiple sheets to pdf, you can achieve thi
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-MultiSheetsToPdf.cs" >}}
 
+## **Reorder Worksheets to PDF**
+
+If you want to reorder sheets(e.g. in reverse order) to pdf without modify the source file, you can achieve this by passing reodered sheet indices to [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/) option.
+
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-ReorderSheetsToPdf.cs" >}}
+
 {{% alert color="primary" %}} 
 
 If your spreadsheet contains formulas, it is best to call [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
