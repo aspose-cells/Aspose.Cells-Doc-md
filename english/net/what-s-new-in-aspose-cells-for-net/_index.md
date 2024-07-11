@@ -17,6 +17,8 @@ This page describes the most interesting new Aspose.Cells features introduced in
 * Improve the display of TreeMap Chart
 * Support converting picture of "overed cell" to "in cell"
 * Support to load local Office cloud font by default
+* Support to keep json schema when importing json data
+* Support exporting to AZW3 format file
 * Support to auto set height after setting wrap for cell for GridJS
 * Support json generation using stream writer way for GridJS
 
