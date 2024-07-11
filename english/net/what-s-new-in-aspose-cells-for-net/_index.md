@@ -8,6 +8,18 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 24.7
+* Support DROP function in formulas
+* Improve the performance of calculating LET and MAKEARRAY functions with complex parameters
+* Support outline of the star characters in chart
+* Support making an object as decorative
+* Supporting swapping series
+* Improve the display of TreeMap Chart
+* Support converting picture of "overed cell" to "in cell"
+* Support to load local Office cloud font by default
+* Support to auto set height after setting wrap for cell for GridJS
+* Support json generation using stream writer way for GridJS
+
 ## Aspose.Cells for .NET 24.6
 * Enhancements for rendering: color saturation and color temperature adjustment, duotones, Webp images
 * Enhancements for PivotTable: merging range, "Show Values as" of PivotField
