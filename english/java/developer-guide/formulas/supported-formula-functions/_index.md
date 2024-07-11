@@ -148,6 +148,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |DOLLARDE|**Financial**: Converts a dollar price, expressed as a fraction, into a dollar price, expressed as a decimal number
 |DOLLARFR|**Financial**: Converts a dollar price, expressed as a decimal number, into a dollar price, expressed as a fraction
 |DPRODUCT|**Database**: Multiplies the values in a particular field of records that match the criteria in a database
+|DROP|**Lookup and reference**: Excludes a specified number of rows or columns from the start or end of an array
 |DSTDEV|**Database**: Estimates the standard deviation based on a sample of selected database entries
 |DSTDEVP|**Database**: Calculates the standard deviation based on the entire population of selected database entries
 |DSUM|**Database**: Adds the numbers in the field column of records in the database that match the criteria
