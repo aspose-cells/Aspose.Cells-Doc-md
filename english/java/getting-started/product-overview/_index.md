@@ -98,6 +98,8 @@ Moreover, there are also a number of unique features that the developers can onl
 - Enterprise Web Application
 - Linux
 - Unix
+- Windows
+- Mac
 ## **Success Stories**
 Below are some of the testimonials from Aspose.Cells customers.
 

@@ -9,7 +9,7 @@ keywords: Python Excel Library, Python Show and Hide Gridlines, How to Show and 
 
 {{% alert color="primary" %}}
 
-Aspose.Cells supports hiding and showing Gridlines of the worksheet which are visible by default. It also provides controlling visibility of Row Column Headers of the worksheet.
+Aspose.Cells for Python via .NET supports hiding and showing Gridlines of the worksheet which are visible by default. It also provides controlling visibility of Row Column Headers of the worksheet.
 
 {{% /alert %}}
 
@@ -19,42 +19,42 @@ All Excel worksheets have gridlines by default. They help delineate cells so tha
 
 ### **Controlling the Visibility of the Gridlines**
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows developers to access each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides a wide range of properties and methods for managing a worksheet. To control the visibility of gridlines, use the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) property. [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) is a Boolean property, which means that it can only store a **true** or **false** value.
+Aspose.Cells for Python via .NET provides a class, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/) class contains a [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets/) collection that allows developers to access each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/python-et/aspose.cells/worksheet/) class. The [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/) class provides a wide range of properties and methods for managing a worksheet. To control the visibility of gridlines, use the [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/) class [**is_gridlines_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_gridlines_visible/) property. [**is_gridlines_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_gridlines_visible/) is a Boolean property, which means that it can only store a **true** or **false** value.
 
 #### **Making Gridlines Visible**
 
-Make the gridlines visible by setting the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) property to **true**.
+Make the gridlines visible by setting the [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class [**is_gridlines_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_gridlines_visible/) property to **true**.
 
 #### **Hiding Gridlines**
 
-Hide gridlines by setting the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) property to **false**.
+Hide gridlines by setting the [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class [**is_gridlines_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_gridlines_visible/) property to **false**.
 
-A complete example is given below that demonstrates the use of the [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) property by opening an excel file(book1.xls), hiding the gridlines on the first worksheet and saving the modified file as output.xls.
+A complete example is given below that demonstrates the use of the [**is_gridlines_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_gridlines_visible/) property by opening an excel file(book1.xls), hiding the gridlines on the first worksheet and saving the modified file as output.xls.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Views-Display-DisplayHideGridlines-1.py" >}}
 
 ## **Show and Hide Row Column Headers**
 
-All worksheets in an Excel file are composed of cells that are arranged in rows and columns. All rows and columns have unique values that are used to identify them and to identify individual cells. For example, rows are numbered – 1, 2, 3, 4, etc. – and columns are ordered alphabetically – A, B, C, D, etc. The row and column values are displayed in the headers. Using Aspose.Cells, developers can control the visibility of these row and column headers.
+All worksheets in an Excel file are composed of cells that are arranged in rows and columns. All rows and columns have unique values that are used to identify them and to identify individual cells. For example, rows are numbered – 1, 2, 3, 4, etc. – and columns are ordered alphabetically – A, B, C, D, etc. The row and column values are displayed in the headers. Using Aspose.Cells for Python via .NET, developers can control the visibility of these row and column headers.
 
 ### **Controlling the Visibility of the Worksheets**
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows developers to access each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides a wide range of properties and methods for managing a worksheet. To control the visibility of row and column headers, use the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) property. [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) is a Boolean property, which means that it can only store a **true** or **false** value.
+Aspose.Cells for Python via .NET provides a class, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/pytho-net/aspose.cells/workbook/) class contains a [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets/) collection that allows developers to access each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/) class. The [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/) class provides a wide range of properties and methods for managing a worksheet. To control the visibility of row and column headers, use the [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/) class [**is_row_column_headers_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_row_column_headers_visible/) property. [**is_row_column_headers_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_row_column_headers_visible/) is a Boolean property, which means that it can only store a **true** or **false** value.
 
 #### **Making Row/Column Headers Visible**
 
-Make row and column headers visible by setting the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) property to **true**.
+Make row and column headers visible by setting the [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class [**is_row_column_headers_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_row_column_headers_visible/) property to **true**.
 
 #### **Hiding Row/Column Headers**
 
-Hide row and column headers by setting the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) property to **false**.
+Hide row and column headers by setting the [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class [**is_row_column_headers_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_row_column_headers_visible/) property to **false**.
 
-A complete example is given below that shows how to use the [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) property by opening an excel file(book1.xls), hiding the row and column headers on the first worksheet and saving the modified file as output.xls.
+A complete example is given below that shows how to use the [**is_row_column_headers_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_row_column_headers_visible/) property by opening an excel file(book1.xls), hiding the row and column headers on the first worksheet and saving the modified file as output.xls.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Views-Display-DisplayHideRowColumnHeaders-1.py" >}}
 
 {{% alert color="primary" %}}
 
-It is also possible to use the [**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) and [**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns) methods of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) class to make multiple rows and columns visible.
+It is also possible to use the [**unhide_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_rows) and [**unhide_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_columns) methods of the [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) class to make multiple rows and columns visible.
 
 {{% /alert %}}

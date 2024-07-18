@@ -23,7 +23,7 @@ This example uses a template Microsoft Excel file called **MergeTrial**. It has 
 
 ![todo:image_alt_text](detect-merged-cells-in-a-worksheet_1.png)
 
-Aspose.Cells provides the [**Cells.getMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MergedCells) method which is used to get an ArrayList of merged cell areas.
+Aspose.Cells provides the [**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--) method which is used to get all merged cells.
 
 When the code below is executed, it clears the contents of the sheet and unmerges all the cell areas before saving the file again.
 
