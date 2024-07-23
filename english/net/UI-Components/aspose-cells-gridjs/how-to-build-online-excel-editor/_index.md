@@ -2,14 +2,19 @@
 title: how to run Aspose.Cells.GridJs in docker
 type: docs
 weight: 250
-url: /net/aspose-cells-gridjs/docker/
+url: /net/aspose-cells-gridjs/how-to-build-online-excel-editor/
 keywords: GridJs,docker
-description: This article introduce how to run GridJs in docker.
+description: This article introduce how to run GridJs in docker to build an online excel editor or viewer application.
 aliases:
+  - /net/aspose-cells-gridjs/docker/
   - /net/aspose-cells-gridjs/run-aspose-cells-gridjs-in-docker/
+  - /net/aspose-cells-gridjs/run-gridjs-in-docker/
   - /net/aspose-cells-gridjs/how-to-build-online-excel-editor-using-gridjs/
   - /net/aspose-cells-gridjs/how-to-build-web-spreadsheet-editor-using-gridjs/
   - /net/aspose-cells-gridjs/how-to-build-web-excel-editor-using-gridjs/
+  - /net/aspose-cells-gridjs/how-to-build-online-excel-viewer-using-gridjs/
+  - /net/aspose-cells-gridjs/how-to-build-web-spreadsheet-viewer-using-gridjs/
+  - /net/aspose-cells-gridjs/how-to-build-web-excel-viewer-using-gridjs/
 ---
 
 # Docker Guide

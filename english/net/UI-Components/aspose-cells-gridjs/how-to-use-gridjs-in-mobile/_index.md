@@ -2,11 +2,11 @@
 title: Aspose.Cells.GridJs Working in mobile
 type: docs
 weight: 250
-url: /net/aspose-cells-gridjs/mobile/
+url: /net/aspose-cells-gridjs/how-to-use-gridjs-in-mobile/
 description: This article describes how to use GridJs in mobile device.
 keywords: GridJs,mobile spreadsheet editor, mobile spreadsheet viewer,excel,view,edit,mobile
 aliases:
-  - /net/aspose-cells-gridjs/how-to-use-gridjs-in-mobile/
+  - /net/aspose-cells-gridjs/mobile/
 ---
 
 ## Use GridJs in mobile device

@@ -2,11 +2,11 @@
 title: Working with GridJs Client Side
 type: docs
 weight: 250
-url: /net/aspose-cells-gridjs/client/
+url: /net/aspose-cells-gridjs/how-to-use-gridjs-client-api/
 keywords: GridJs,custom,logo,setting,api
 description: This article introduce the client javascript APIs  or functions  in GridJs.
 aliases:
-  - /net/aspose-cells-gridjs/how-to-use-gridjs-client-api/
+  - /net/aspose-cells-gridjs/client/
   - /net/aspose-cells-gridjs/work-with-client-api/
   - /net/aspose-cells-gridjs/use-js-api/
   - /net/aspose-cells-gridjs/gridjs-spreadsheet-api/

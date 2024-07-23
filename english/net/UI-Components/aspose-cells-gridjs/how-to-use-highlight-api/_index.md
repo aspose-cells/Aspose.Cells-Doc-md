@@ -2,11 +2,11 @@
 title: Working with GridJs Highlight feature
 type: docs
 weight: 250
-url: /net/aspose-cells-gridjs/highlight/
+url: /net/aspose-cells-gridjs/how-to-use-highlight-api/
 description: This article describes how to use highlight on cell text, cell ranges ,shapes and pictures in GridJs.
 keywords: GridJs,highlight, highlight spreadsheet,redaction,remarks
 aliases:
-  - /net/aspose-cells-gridjs/how-to-use-highlight-api/
+  - /net/aspose-cells-gridjs/highlight/
   - /net/aspose-cells-gridjs/how-to-highlight/
   - /net/aspose-cells-gridjs/work-with-highlight-api/
   - /net/aspose-cells-gridjs/work-with-highlight-apis/
