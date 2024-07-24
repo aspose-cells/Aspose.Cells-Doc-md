@@ -6,11 +6,11 @@ weight: 140
 url: /net/how-to-run-aspose-cells-python-via-net-in-docker/
 ---
 
-## Preface；
+## Preface:
 
 More and more users are using our company's various products in Docker, and they encounter various issues. This article briefly introduces how to use Aspose.Cells for Python via .NET in a Docker environment based on Debian Linux.
 
-## Example；
+## Example:
 
 We illustrate the usage with a simple example. In this case, the functionality is very straightforward, just opening an Excel file containing Japanese text in aspose_test.py. Here, we use python:3.11 as the base image, and the corresponding Dockerfile is as follows:
 
