@@ -21,7 +21,7 @@ The following example shows how to optimize memory usage while working with larg
 
 //This example shows how to optimize memory usage while working with large data in Aspose.Cells for Node.js via C++
 
-const { Workbook, FileFormatType, MemorySetting } = require("aspose.cells");
+const { Workbook, FileFormatType, MemorySetting } = require("aspose.cells.node");
 
 var workbook = new Workbook(FileFormatType.Xlsx);
 

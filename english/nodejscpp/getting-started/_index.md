@@ -21,10 +21,10 @@ Aspose.Cells for Node.js via C++ is a powerful and robust library designed for h
 
 
 ## **Install from NPM**
-You can easily use Aspose.Cells for Node.js via C++ from [NPM](https://www.npmjs.com/package/aspose.cells) with the following command.
+You can easily use Aspose.Cells for Node.js via C++ from [NPM](https://www.npmjs.com/package/aspose.cells.node) with the following command.
 {{< highlight java >}}
 
- $ npm install aspose.cells
+ $ npm install aspose.cells.node
 
 {{< /highlight >}}
 
@@ -35,7 +35,7 @@ If you encounter any problems during the installation process, please refer to h
 
 {{< highlight cpp >}}
 
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 
 var workbook = new AsposeCells.Workbook(AsposeCells.FileFormatType.Xlsx);
 workbook.getWorksheets().get(0).getCells().get("A1").putValue("Hello World");
