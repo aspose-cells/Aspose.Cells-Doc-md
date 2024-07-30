@@ -5,6 +5,9 @@ weight: 250
 url: /it/net/aspose-cells-gridjs/storage/
 description: Questo articolo descrive l elaborazione generale dei file per GridJs.
 keywords: file cache, archiviazione, GridJs, archiviazione di GridJs, uid di GridJs, scarica, uniqueid
+aliases:
+  - /net/aspose-cells-gridjs/storage-introduction/
+  - /net/aspose-cells-gridjs/work-with-storage/
 ---
 
 

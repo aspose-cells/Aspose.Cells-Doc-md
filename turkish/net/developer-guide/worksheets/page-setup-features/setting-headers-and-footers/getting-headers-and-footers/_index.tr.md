@@ -24,7 +24,7 @@ Grafik sayfaları veya grafikler gibi diğer sayfa türleri için, başlık ve a
 
 
 ## **Aspose.Cells for .Net ile Başlık ve Altlıkların Alınması**
-[**Worksheet.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetHeader/) ve [**Worksheet.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetFooter/) yöntemleri ile, .Net geliştiricileri dosyalardan başlık veya altlık alabilir.
+[**Worksheet.PageSetup.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getheader/) ve [**Worksheet.PageSetup.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getfooter/) yöntemleri ile, .Net geliştiricileri dosyalardan başlık veya altlık alabilir.
 
 1. Dosyayı açmak için Workbook'u oluşturun.
 2. Başlık veya altlık almak istediğiniz çalışma sayfasını alır.
@@ -39,7 +39,7 @@ Başlık veya altlık metni özel komutları içerebilir, örneğin sayfa numara
 
 Başlık ve altlık dizeleri ABNF gramerini kullanarak oluşturulur. Görüntüleyici olmadan anlamak kolay değildir.
 
-Aspose.Cells for .Net, başlık ve altlıkları komut listesi olarak ayrıştırmak için [**Worksheet.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetCommands/) metodu sağlar.
+Aspose.Cells for .Net, başlık ve altlıkları komut listesi olarak ayrıştırmak için [**Worksheet.PageSetup.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getcommands/) metodu sağlar.
 
 Aşağıdaki kodlar başlık veya altlığı komut listesi olarak ayrıştırmayı ve komutları işlemeyi açıklar:
 

@@ -98,6 +98,8 @@ Aspose.Cells 可以与任何类型的应用程序一起使用，无论是 Java W
 - 企业Web应用程序
 - Linux
 - Unix
+- Windows
+- Mac
 ## **成功案例**
 以下是Aspose.Cells客户的一些推荐信。
 

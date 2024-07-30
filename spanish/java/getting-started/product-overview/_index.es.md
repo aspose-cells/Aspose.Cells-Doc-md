@@ -98,6 +98,8 @@ Además, también hay una serie de características únicas que los desarrollado
 - Aplicación web empresarial
 - Linux
 - Unix
+- Windows
+- Mac
 ## **Historias de Éxito**
 A continuación se muestran algunos de los testimonios de los clientes de Aspose.Cells
 

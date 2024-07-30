@@ -98,6 +98,8 @@ Darüber hinaus gibt es auch eine Reihe von einzigartigen Funktionen, die die En
 - Unternehmens-Webanwendung
 - Linux
 - Unix
+- Windows
+- Mac
 ## **Erfolgsgeschichten**
 Nachfolgend finden Sie einige Testimonials von Aspose.Cells-Kunden.
 

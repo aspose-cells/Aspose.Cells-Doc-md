@@ -4,51 +4,49 @@ linktitle: Wie man ein Gantt Diagramm erstellt
 type: docs
 weight: 72
 url: /de/net/how-to-create-gantt-chart/
-description: Wie man ein Gantt Diagramm in Aspose.Cells erstellt
-keywords: Gantt Diagramm in Excel einfügen mit Aspose
+description: Lernen Sie, wie man ein Gantt Diagramm mit Aspose.Cells for .NET API erstellt.
+keywords: C# ein Gantt Diagramm erstellen, ein Gantt Diagramm hinzufügen, ein Gantt Diagramm einfügen
 ---
-## Was ist ein Gantt-Diagramm
 
-Ein Gantt-Diagramm hilft Ihnen, Ihre Projekt-Aufgaben zu planen und dann Ihren Fortschritt zu verfolgen.
+## **Was ist ein Gantt-Diagramm**
 
-## Gantt-Diagramm in Excel hinzufügen
+Ein Gantt-Diagramm ist ein Typ von Balkendiagramm, das einen Projektzeitplan veranschaulicht. Es zeigt die Start- und Enddaten der verschiedenen Elemente eines Projekts. Jede Aufgabe oder Aktivität wird durch eine Leiste dargestellt, deren Länge ihrer Dauer entspricht. Gantt-Diagramme zeigen auch Abhängigkeiten zwischen Aufgaben an, was es Projektmanagern ermöglicht, die Reihenfolge zu visualisieren, in der Aufgaben abgeschlossen werden müssen. Sie werden in der Projektplanung weit verbreitet eingesetzt, um Projekte effektiv zu planen, zu terminieren und zu verfolgen.
 
-Müssen Sie den Status für einen einfachen Projektzeitplan mit einem Gantt-Diagramm anzeigen? Obwohl Excel keinen vordefinierten Gantt-Diagrammtyp hat, können Sie einen simulieren, indem Sie ein gestapeltes Balkendiagramm anpassen, um die Start- und Enddaten von Aufgaben anzuzeigen, wie hier:
+## **Wie man ein Gantt-Diagramm in Excel erstellt**
 
-![todo:image_alt_text](00.png)
+Sie können ein Gantt-Diagramm in Excel erstellen, indem Sie diese Schritte befolgen:
+1. Fügen Sie einige Daten für das Gantt-Diagramm hinzu. 
+<br>
+<img src="00.png" width=50% />
+1. Wählen Sie die Daten aus und gehen Sie zu Einfügen --> Diagramme --> Säulen- oder Balkendiagramm einfügen --> Gestapeltes Balkendiagramm. In unserem Beispiel handelt es sich um B1:B7, und fügen Sie dann das **Gestapelte Balken**-Diagramm ein.
+<br>
+<img src="1.png" width=50% />
 
-![todo:image_alt_text](0.png)
+1. Wählen Sie das Diagramm aus, **Daten auswählen**->**Hinzufügen**, und legen Sie die **Serienname** und den **Serienwert** wie folgt fest.
+<br>
+<img src="2.png" width=50% />
 
-## Wie man erstellt
+1. Wählen Sie das Diagramm aus, bearbeiten Sie die **Horizontale(Kategorie) Achsenbeschriftungen**.
+<br>
+<img src="3.png" width=50% />
 
-- Wählen Sie die Daten, die Sie diagrammieren möchten. In unserem Beispiel ist das B1:B7, und dann Einfügen **Gestapeltes Balken**-Diagramm.
+1. **Achse formatieren** die Y-Achse, wählen Sie **Kategorien in umgekehrter Reihenfolge** aus.
+1. Wählen Sie die **Blaue Serie** aus und setzen Sie die **Füllung->Keine Füllung**.
+1. **Achse formatieren** die X-Achse, legen Sie das **Minimum und Maximum**(1/5/2019:43470,1/30/2019:43494) fest.
+<br>
+<img src="4.png" width=50% />
 
-![todo:image_alt_text](1.png)
+1. **Datenbeschriftungen hinzufügen** für das Diagramm, nun erhalten Sie ein Gantt-Diagramm.
+<br>
+<img src="0.png" width=50% />
 
-- Wählen Sie das Diagramm aus, **Daten auswählen**->**Hinzufügen**, setzen Sie den **Serienname** und die **Serienwerte** wie folgt
 
-![todo:image_alt_text](2.png)
+## **So fügen Sie ein Gantt-Diagramm in Aspose.Cells hinzu**
+Bitte sehen Sie den folgenden Beispielcode. Es lädt die [Beispieldatei Excel](sample.xlsx), die einige Beispieldaten enthält. Dann erstellt es das gestapelte Balkendiagramm basierend auf den anfänglichen Daten und setzt relevante Eigenschaften. Schließlich speichert es die Arbeitsmappe im [Ausgabe-XLSX-Format](result.xlsx). Der folgende Screenshot zeigt das Gantt-Diagramm, das von Aspose.Cells in der Ausgabe-Excel-Datei erstellt wurde.
+<br>
+<img src="5.png" width=60% />
 
-- Wählen Sie das Diagramm aus, Bearbeiten Sie die **Horizontale (Kategorie) Achsenbeschriftungen**
-
-![todo:image_alt_text](3.png)
-
-- **Achse formatieren** die Y-Achse, wählen Sie **Kategorien in umgekehrter Reihenfolge**
-- Wählen Sie die **Blaue Serie** aus und setzen Sie die **Füllung->Keine Füllung**
-- **Achse formatieren** die X-Achse, setzen Sie das **Minimum und Maximum** (1/5/2019:43470, 1/30/2019:43494)
-
-![todo:image_alt_text](4.png)
-
-- **Datenbeschriftungen hinzufügen** für das Diagramm
-Jetzt haben Sie ein Gantt-Diagramm.
-
-## Fügen Sie ein Gantt-Diagramm in Aspose.Cells ein
-
-Der folgende Beispielcode erstellt ein Gantt-Diagramm, indem er eine [Beispieldatei](Beispiel.xlsx) öffnet
+### **Beispielcode**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-gantt-chart.cs" >}}
-
-Sie erhalten eine Datei, die der [Ergebnisdatei](result.xlsx) ähnelt. In der Datei sehen Sie folgendes:
-
-![todo:image_alt_text](5.png)
 

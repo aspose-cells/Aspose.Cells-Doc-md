@@ -5,6 +5,9 @@ weight: 250
 url: /ja/net/aspose-cells-gridjs/settings/
 description: この記事では、GridJsの設定について説明しています。
 keywords: GridJs,settings,GridWorkbookSettings
+aliases:
+  - /net/aspose-cells-gridjs/how-to-use-setting/
+  - /net/aspose-cells-gridjs/work-with-setting/
 ---
 
 

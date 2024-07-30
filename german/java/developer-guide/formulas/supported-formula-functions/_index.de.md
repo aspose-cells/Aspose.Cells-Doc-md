@@ -148,6 +148,7 @@ Der Formelberechnungsmotor von Aspose.Cells ermöglicht es Ihnen, die Ergebnisse
 |DOLLARDE|**Financial**: Konvertiert einen Dollarkurs, der als Bruch dargestellt ist, in einen Dollarkurs, der als Dezimalzahl dargestellt ist
 |DOLLARFR|**Financial**: Konvertiert einen Dollarkurs, der als Dezimalzahl dargestellt ist, in einen Dollarkurs, der als Bruch dargestellt ist
 |DPRODUCT|**Database**: Multipliziert die Werte in einem bestimmten Feld von Datensätzen, die den Kriterien in einer Datenbank entsprechen
+|DROP|**Suche und Verweis**: Schließt eine bestimmte Anzahl von Zeilen oder Spalten am Anfang oder Ende eines Arrays aus
 |DSTDEV|**Database**: Schätzt die Standardabweichung basierend auf einer Stichprobe aus ausgewählten Datenbankeinträgen
 |DSTDEVP|**Database**: Berechnet die Standardabweichung basierend auf der gesamten Population ausgewählter Datenbankeinträge
 |DSUM|**Database**: Addiert die Zahlen in der Spalte mit den Datensätzen in der Datenbank, die den Kriterien entsprechen

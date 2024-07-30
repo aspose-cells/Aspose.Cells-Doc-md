@@ -98,6 +98,8 @@ url: /ar/java/product-overview/
 - تطبيق ويب مؤسسي
 - Linux
 - Unix
+- Windows
+- Mac
 ## **قصص النجاح**
 فيما يلي بعض الشهادات من عملاء Aspose.Cells.
 

@@ -66,7 +66,7 @@ Das folgende Codebeispiel erläutert, wie eine gesamte Arbeitsmappe in Textforma
 
 Wenn der Code ausgeführt wird, konvertiert er die Daten aller Blätter in der Arbeitsmappe in das TXT-Format.
 
-Sie können das gleiche Beispiel anpassen, um Ihre Datei als CSV zu speichern. Standardmäßig ist [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) ein Komma, geben Sie also keinen Separator an, wenn Sie im CSV-Format speichern.
+Sie können das gleiche Beispiel ändern, um Ihre Datei in CSV zu speichern. Standardmäßig ist [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) ein Komma, geben Sie also keinen Separator an, wenn Sie im CSV-Format speichern. Beachten Sie: Wenn Sie die Evaluierungsversion verwenden und selbst wenn der Parameter der Methode [**TxtSaveOptions.setExportAllSheets(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions/#setExportAllSheets-boolean-) auf true festgelegt ist, exportiert das Programm trotzdem nur ein Arbeitsblatt.
 
 **Beispiel:**
 

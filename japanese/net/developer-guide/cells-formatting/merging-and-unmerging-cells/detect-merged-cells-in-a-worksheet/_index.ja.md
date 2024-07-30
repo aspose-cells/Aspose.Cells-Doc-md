@@ -15,6 +15,6 @@ Aspose.Cells を使用して、ワークシート内の結合セル領域を取�
 
 {{% /alert %}}
 
-このコンポーネントは、[**Cells.MergedCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/mergedcells) 属性を提供し、結合セル領域の ArrayList を取得できます。以下のコード例は、ワークシートで結合セルを検出する方法を示しています。
+コンポーネントはすべての結合セルを取得できる[**Cells.GetMergedAreas()**](https://reference.aspose.com/cells/net/aspose.cells/cells/getmergedareas/)メソッドを提供します。次のコードサンプルは、ワークシート内の結合セルを検出する方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DetectMergedCells-1.cs" >}}

@@ -45,7 +45,7 @@ In diesem Beispiel verwende ich Ubuntu, um zu zeigen, wie Sie Aspose.Cells auf L
 2. Öffnen Sie die Datei "AsposeCellsTest.csproj" und fügen Sie die folgenden Zeilen für Aspose.Cells-Paketverweise ein:
 {{< highlight plain >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="24.6" />
+    <PackageReference Include="Aspose.Cells" Version="24.7" />
   </ItemGroup>
 {{< /highlight >}}
 3. Öffnen Sie das Projekt mit VSCode auf Ubuntu:

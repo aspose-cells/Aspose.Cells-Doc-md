@@ -23,7 +23,7 @@ Este ejemplo utiliza un archivo plantilla de Microsoft Excel llamado **MergeTria
 
 ![todo:image_alt_text](detect-merged-cells-in-a-worksheet_1.png)
 
-Aspose.Cells proporciona el método [**Cells.getMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MergedCells) que se usa para obtener un ArrayList de áreas de celdas fusionadas.
+Aspose.Cells proporciona el método [**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--) que se utiliza para obtener todas las celdas combinadas.
 
 Cuando se ejecuta el código a continuación, se borra el contenido de la hoja y se deshacen todas las áreas de celdas fusionadas antes de guardar el archivo nuevamente.
 

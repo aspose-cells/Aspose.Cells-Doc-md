@@ -5,6 +5,9 @@ weight: 250
 url: /sv/net/aspose-cells-gridjs/storage/
 description: Denna artikel beskriver den allmänna filhanteringen för GridJs.
 keywords: filcache,lager,GridJs,GridJs lager,GridJs uid,hämta,unikt id
+aliases:
+  - /net/aspose-cells-gridjs/storage-introduction/
+  - /net/aspose-cells-gridjs/work-with-storage/
 ---
 
 

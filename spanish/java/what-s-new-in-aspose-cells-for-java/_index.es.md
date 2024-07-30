@@ -8,6 +8,20 @@ url: /es/java/what-s-new-in-aspose-cells-for-java/
 
 Esta página describe las nuevas características más interesantes de Aspose.Cells introducidas en versiones recientes.
 
+## Aspose.Cells for Java 24.7
+* Soporte para la función DROP en fórmulas
+* Mejorar el rendimiento de los cálculos de LET y MAKEARRAY con parámetros complejos
+* Soporte para el contorno de los caracteres de estrella en el gráfico
+* Soporte para hacer un objeto como decorativo
+* Soportar el intercambio de series
+* Mejorar la visualización del gráfico de TreeMap
+* Soporte para convertir la imagen de la celda "superpuesta" a "en celda"
+* Soporte para cargar fuente local de Office en la nube de forma predeterminada
+* Soporte para mantener el esquema JSON al importar datos JSON
+* Soporte para exportar a formato de archivo AZW3
+* Soporte para ajustar automáticamente la altura después de configurar el ajuste de texto para la celda para GridJS
+* Soporte para la generación de JSON utilizando el método del escritor de transmisión para GridJS
+
 ## Aspose.Cells for Java 24.6
 * Mejoras para la representación: ajuste de saturación de color y temperatura de color, duotonos, imágenes Webp
 * Mejoras para Tabla dinámica: rango de fusión, "Mostrar valores como" de Campo de la Tabla dinámica

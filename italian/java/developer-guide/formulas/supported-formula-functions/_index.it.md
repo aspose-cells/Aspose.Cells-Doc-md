@@ -148,6 +148,7 @@ Il motore di calcolo delle formule di Aspose.Cells ti consente di impostare, leg
 |DOLLARDE|**Finanziario**: Converte un prezzo in dollari, espresso come frazione, in un prezzo in dollari, espresso come numero decimale
 |DOLLARFR|**Finanziario**: Converte un prezzo in dollari, espresso come numero decimale, in un prezzo in dollari, espresso come frazione
 |DPRODUCT|**Database**: Moltiplica i valori in un campo specifico dei record che corrispondono ai criteri in un database
+|DROP|**Ricerca e riferimento**: Esclude un numero specificato di righe o colonne dall'inizio o dalla fine di un array
 |DSTDEV|**Database**: Calcola la deviazione standard in base a un campione di voci del database selezionate
 |DSTDEVP|**Database**: Calcola la deviazione standard sulla base dell'intera popolazione di voci del database selezionate
 |DSUM|**Database**: Aggiunge i numeri nella colonna dei campi dei record nel database che corrispondono ai criteri

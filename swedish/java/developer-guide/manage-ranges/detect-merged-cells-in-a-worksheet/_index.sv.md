@@ -23,7 +23,7 @@ Detta exempel använder en mall för Microsoft Excel-filen kallad **MergeTrial**
 
 ![todo:image_alt_text](detect-merged-cells-in-a-worksheet_1.png)
 
-Aspose.Cells tillhandahåller [**Cells.getMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MergedCells)-metoden som används för att få en ArrayList med sammanslagna cellområden.
+Aspose.Cells tillhandahåller [**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--)-metoden som används för att hämta alla sammanfogade celler.
 
 När koden nedan körs rensar den innehållet i arket och delar upp alla cellområden innan filen sparas igen.
 

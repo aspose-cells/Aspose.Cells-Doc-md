@@ -38,3 +38,8 @@ Aspose.Cellsを使用すると、Excelファイルのオープン、保存、管
 - [Aspose.Cellsを使用してApple Inc.が開発したNumbersスプレッドシートを読む](/cells/ja/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [時間がかかりすぎる場合はInterruptMonitorを使用して変換または読み込みを停止してください](/cells/ja/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [LightCells APIの使用](/cells/ja/net/using-lightcells-api/)
+- [CSVをJSONに変換](/cells/ja/net/convert-csv-to-json/)
+- [ExcelをJSONに変換する](/cells/ja/net/convert-excel-to-json/)
+- [JSONをCSVに変換](/cells/ja/net/convert-json-to-csv/)
+- [JSONをExcelに変換する](/cells/ja/net/convert-json-to-excel/)
+- [ExcelをHTMLに変換する](/cells/ja/net/convert-excel-to-html/)

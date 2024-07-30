@@ -15,21 +15,23 @@ Aspose.Cells stellt die Methode [CellsHelper.cellIndexToName](https://reference.
 
 {{% alert color="primary" %}} 
 
-Im Gegensatz zu Microsoft Excel, wo die Zeilen- und Spaltenindizes bei 1 beginnen, zählt Aspose.Cells die Zeilen- und Spaltenindizes ab 0.
+Microsoft Excel beginnt mit der Zählung von Zeilen- und Spaltenindizes bei 1. Im Gegensatz zu Microsoft Excel beginnt Aspose.Cells mit der Zählung von Zeilen- und Spaltenindizes bei 0.
 
 {{% /alert %}} 
 
 Der folgende Beispielcode veranschaulicht, wie [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) verwendet wird, um den Zellnamen bei bekanntem Zeilen- und Spaltenindex abzurufen. Der Code generiert die folgende Ausgabe:
 
+{{< highlight java >}}
 
+Cell Name at [0, 0]: A1
 
-Zellname bei [0, 0]: A1
+Cell Name at [4, 0]: A5
 
-Zellname bei [4, 0]: A5
+Cell Name at [0, 4]: E1
 
-Zellname bei [0, 4]: E1
+Cell Name at [2, 2]: C3
 
-Zellname bei [2, 2]: C3
+{{< /highlight >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-IndexToName-1.java" >}}
 ## **So erhalten Sie Zeilen- und Spaltenindizes aus dem Zellnamen**
@@ -39,17 +41,19 @@ Aspose.Cells stellt die Methode [CellsHelper.cellNameToIndex](https://reference.
 
 {{% alert color="primary" %}} 
 
-Im Gegensatz zu Microsoft Excel, wo die Zeilen- und Spaltenindizes bei 1 beginnen, zählt Aspose.Cells die Zeilen- und Spaltenindizes ab 0.
+Microsoft Excel beginnt mit der Zählung von Zeilen- und Spaltenindizes bei 1. Im Gegensatz zu Microsoft Excel beginnt Aspose.Cells mit der Zählung von Zeilen- und Spaltenindizes bei 0.
 
 {{% /alert %}} 
 
 Der folgende Beispielcode veranschaulicht, wie [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) verwendet wird, um den Zeilen- und Spaltenindex aus dem Zellnamen zu erhalten. Der Code generiert die folgende Ausgabe:
 
+{{< highlight java >}}
 
+Row Index of Cell C6: 5
 
-Zeilenindex der Zelle C6: 5
+Column Index of Cell C6: 2
 
-Spaltenindex der Zelle C6: 2
+{{< /highlight >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-NameToIndex-1.java" >}}
 ## **So erstellen Sie sichere Blattnamen**

@@ -9,7 +9,22 @@ keywords: PivotChart
 ---
 ## PivotChart Nedir
 
-Excel'de bir PivotChart, bir PivotTable'dan oluşturulan verilerin grafiksel bir temsilidir. Kullanıcılara verileri dinamik olarak görselleştirmelerine ve analiz etmelerine olanak tanır. Veriyi özetleyerek ve bilgileri grafik formunda göstererek PivotChart'lar etkileşimlidir ve verinin farklı perspektiflerini göstermek için kolayca değiştirilebilir, bu da Excel'de veri analizi ve sunum için güçlü bir araç yapar.
+Bir özet tabloyundaki verilerin görsel temsilidir. Özet tabloları, özet verileri özetleme, analiz etme, keşfetme ve sunma şekli sağlar. Pivot grafiklerinin bazı temel özellikleri ve yönleri şunlardır:
+
+1. Dinamik Veri Temsili: Pivot grafikleri otomatik olarak özet tablosundaki değişiklikleri yansıtmak için güncellenir. Özet tablosunda alan ekler veya kaldırırsanız, pivot grafikleri buna göre güncellenir.
+
+1. Etkileşimli: Pivot grafikleri etkileşimli olup, kullanıcıların veriyi filtrelemesine, sıralamasına ve derinlemesine incelemesine olanak tanır. Bu, veri kümesinin farklı yönlerini keşfetmeyi kolaylaştırır.
+
+1. Esnek Düzen: Kullanıcılar, verilerin nasıl görüntülendiği konusunda esneklik sağlayan alanları sürükleyip bırakarak pivot grafiklerinin düzenini değiştirebilirler.
+
+1. Çeşitli Grafik Türleri: Verinin doğası ve kazanmak istediğiniz içgörülere bağlı olarak bar grafikleri, çizgi grafikleri, pasta grafikleri ve daha fazlası gibi çeşitli grafik tipleri kullanılarak pivot grafikleri oluşturulabilir.
+
+1. Özümseme: Pivot grafikleri büyük miktarda veriyi özetler ve toplamları, ortalamaları, sayıları veya diğer özet istatistikleri gösterebilir.
+
+1. Filtreleme: Belirli kriterleri karşılayan verileri yalnızca görüntülemek için filtreleme yetenekleri sunarlar.
+
+<br>
+Pivot grafikleri, karmaşık veri kümelerinin net ve öz bir görsel özetini sağlamak için iş zekası ve veri analizi alanında yaygın olarak kullanılır. Veri odaklı kararlar almak için güçlü bir araçtır.
 
 ## Aspose.Cells kullanarak PivotChart ekleme
 

@@ -66,7 +66,7 @@ Aspose.Cells APIでは、Excelファイルを表す[**Workbook**](https://refere
 
 コードが実行されると、ワークブックのすべてのシートのデータがTXT形式に変換されます。
 
-同じ例を修正してファイルをCSV形式に保存することもできます。デフォルトでは、[**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator)はカンマなので、CSV形式で保存する場合はセパレータを指定しないでください。
+同じ例を修正してファイルを CSV に保存できます。デフォルトでは、[**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) はコンマですので、CSV 形式に保存する場合はセパレーターを指定しないでください。ご注意ください：評価版を使用しており、かつメソッド [**TxtSaveOptions.setExportAllSheets(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions/#setExportAllSheets-boolean-) のパラメーターが true に設定されていても、プログラムは引き続きワークシートを1つだけエクスポートします。
 
 **例:**
 

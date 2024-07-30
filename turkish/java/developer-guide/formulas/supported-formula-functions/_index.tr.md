@@ -148,6 +148,7 @@ Aspose.Cells Formül Hesaplama Motoru, aşağıdaki formüllerin ve fonksiyonlar
 |DOLLARDE|**Finansal**: Bir kesir olarak ifade edilen dolar fiyatını, ondalık bir sayı olarak ifade edilen dolar fiyatına dönüştürür
 |DOLLARFR|**Finansal**: Ondalık bir sayı olarak ifade edilen dolar fiyatını, bir kesir olarak ifade edilen dolar fiyatına dönüştürür
 |DPRODUCT|**Veritabanı**: Bir veritabanındaki belirli bir alanın değerlerini eşleşen kriterlere çarpar
+|DROP|**Arama ve referans**: Dizinin başında veya sonundan belirli sayıda satır veya sütunu hariç tutar
 |DSTDEV|**Veritabanı**: Seçilen veritabanı girişlerinin bir örneğine dayanarak standart sapmayı tahmin eder
 |DSTDEVP|**Veritabanı**: Seçilen veritabanı girişlerinin genel nüfusuna dayanarak standart sapmayı hesaplar
 |DSUM|**Veritabanı**: Veritabanında belirli bir alanın numaralarını eşleşen kriterlere sahip kayıtların numaralarını ekler

@@ -9,7 +9,22 @@ keywords: PivotChart
 ---
 ## Cosa è un PivotChart
 
-Un PivotChart in Excel è una rappresentazione grafica dei dati creata da una tabella pivot. Consente agli utenti di visualizzare e analizzare dinamicamente i dati riassumendo e visualizzando le informazioni in forma di grafico. I PivotCharts sono interattivi e possono essere facilmente modificati per mostrare diverse prospettive dei dati, rendendoli uno strumento potente per l'analisi e la presentazione dei dati in Excel.
+Un grafico pivot è una rappresentazione visuale dei dati in una tabella pivot. I grafici pivot forniscono un modo per riassumere, analizzare, esplorare e presentare i dati di sintesi. Ecco alcune caratteristiche chiave e aspetti dei grafici pivot:
+
+1. Rappresentazione dinamica dei dati: I grafici pivot si aggiornano automaticamente per riflettere le modifiche nella tabella pivot. Se aggiungi o rimuovi campi nella tabella pivot, anche il grafico pivot viene aggiornato di conseguenza.
+
+1. Interattivo: I grafici pivot sono interattivi, consentono agli utenti di filtrare, ordinare e approfondire nei dati. Ciò facilita l'esplorazione di diversi aspetti dell'insieme di dati.
+
+1. Layout flessibile: Gli utenti possono cambiare il layout del grafico pivot trascinando e rilasciando campi, offrendo così flessibilità nella visualizzazione dei dati.
+
+1. Diversi tipi di grafico: I grafici pivot possono essere creati utilizzando vari tipi di grafico come grafici a barre, grafici a linee, grafici a torta e altro ancora, a seconda della natura dei dati e delle informazioni che si desidera ottenere.
+
+1. Sintesi: I grafici pivot riassumono grandi quantitativi di dati e possono mostrare totali, medie, conteggi o altre statistiche di sintesi.
+
+1. Filtraggio: Forniscono funzionalità di filtraggio, consentendo di visualizzare solo i dati che soddisfano determinati criteri.
+
+<br>
+I grafici pivot sono comunemente utilizzati nell'intelligence aziendale e nell'analisi dei dati per fornire un riepilogo visivo chiaro e conciso di complessi set di dati. Sono uno strumento potente per prendere decisioni basate sui dati.
 
 ## Come aggiungere un PivotChart utilizzando Aspose.Cells
 

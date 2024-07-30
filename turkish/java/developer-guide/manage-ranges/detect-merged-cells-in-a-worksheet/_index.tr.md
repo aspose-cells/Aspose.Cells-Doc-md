@@ -23,7 +23,7 @@ Bu örnek, **MergeTrial** adlı bir şablon Microsoft Excel dosyasını kullanı
 
 ![todo:image_alt_text](detect-merged-cells-in-a-worksheet_1.png)
 
-Aspose.Cells, bir ArrayList of merged cell areas (birleştirilmiş hücre alanlarının bir ArrayList'ini) almak için kullanılan [**Cells.getMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MergedCells) method'unu sağlar.
+Aspose.Cells, tüm birleştirilmiş hücreleri almak için kullanılan [**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--) yöntemini sağlar.
 
 Aşağıdaki kod çalıştırıldığında, dosyayı tekrar kaydetmeden önce sayfanın içeriğini temizler ve tüm hücre alanlarını tekrar birleştirir.
 

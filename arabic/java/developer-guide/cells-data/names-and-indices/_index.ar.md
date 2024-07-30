@@ -15,21 +15,23 @@ keywords: تحويل الفهرس في جافا إلى اسم الخلية، ت�
 
 {{% alert color="primary" %}} 
 
-على عكس Microsoft Excel، حيث تبدأ فهارس الصف والعمود من 1، تبدأ Aspose.Cells في عد هذه الفهارس من 0.
+تبدأ Microsoft Excel في عد فهرس الصفوف والأعمدة من 1. على عكس Microsoft Excel ، تبدأ Aspose.Cells في عد فهرس الصفوف والأعمدة من 0.
 
 {{% /alert %}} 
 
 يوضح الكود المصدري التالي كيفية استخدام [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) للوصول إلى اسم الخلية المعروف فيها فهرس الصف والعمود. يولد الكود الناتج التالي.
 
+{{< highlight java >}}
 
+Cell Name at [0, 0]: A1
 
-اسم الخلية في [0، 0]: A1
+Cell Name at [4, 0]: A5
 
-اسم الخلية في [4، 0]: A5
+Cell Name at [0, 4]: E1
 
-اسم الخلية في [0، 4]: E1
+Cell Name at [2, 2]: C3
 
-اسم الخلية في [2، 2]: C3
+{{< /highlight >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-IndexToName-1.java" >}}
 ## **كيفية الحصول على فهرس الصف والعمود من اسم الخلية**
@@ -39,17 +41,19 @@ keywords: تحويل الفهرس في جافا إلى اسم الخلية، ت�
 
 {{% alert color="primary" %}} 
 
-على عكس Microsoft Excel، حيث تبدأ فهارس الصف والعمود من 1، تبدأ Aspose.Cells في عد هذه الفهارس من 0.
+تبدأ Microsoft Excel في عد فهرس الصفوف والأعمدة من 1. على عكس Microsoft Excel ، تبدأ Aspose.Cells في عد فهرس الصفوف والأعمدة من 0.
 
 {{% /alert %}} 
 
 يوضح الكود عينة التالي كيفية استخدام [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) للحصول على فهرس الصف والعمود من اسم الخلية. يولّد الكود الناتج التالي.
 
+{{< highlight java >}}
 
+Row Index of Cell C6: 5
 
-فهرس الصف للخلية C6: 5
+Column Index of Cell C6: 2
 
-فهرس العمود للخلية C6: 2
+{{< /highlight >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-NameToIndex-1.java" >}}
 ## **كيفية إنشاء أسماء جداول آمنة**

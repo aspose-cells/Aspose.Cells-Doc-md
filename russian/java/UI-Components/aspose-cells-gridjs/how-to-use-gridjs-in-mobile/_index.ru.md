@@ -1,0 +1,26 @@
+---
+title: Aspose.Cells.GridJs работает на мобильных устройствах
+type: docs
+weight: 250
+url: /ru/java/aspose-cells-gridjs/how-to-use-gridjs-in-mobile/
+description: Эта статья описывает, как использовать GridJs на мобильном устройстве.
+keywords: GridJs, мобильный редактор электронных таблиц, мобильный просмотрщик электронных таблиц, Excel, просмотр, редактирование, мобильный
+aliases:
+  - /java/aspose-cells-gridjs/mobile/
+---
+
+## Использование GridJs на мобильном устройстве
+
+Вы можете плавно использовать GridJs на мобильном устройстве. 
+
+Клиентская библиотека GridJs может адаптироваться под мобильный экран.
+
+Запустите [демонстрацию GridJs ](https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs "демонстрацию GridJs")
+
+Порт по умолчанию для демонстрационного проекта - 8080. 
+
+Откройте браузер на мобильном устройстве и введите url http://yourip:8080/gridjsdemo/index . 
+
+![todo:навигация по экрану на мобильном устройстве](gridjs_edit_on_mobile.png)
+
+Затем мы можем выполнять операции редактирования, как на ПК.

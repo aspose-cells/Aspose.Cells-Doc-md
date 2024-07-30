@@ -24,7 +24,7 @@ description: تشرح هذه المقالة كيفية الحصول على ال�
 
 
 ## **الحصول على رؤوس وتذييلات باستخدام Aspose.Cells for .Net**
-باستخدام الأساليب [**Worksheet.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetHeader/) و[**Worksheet.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetFooter/)، يمكن لمطور .Net ببساطة الحصول على رؤوس أو تذييلات من الملف.
+باستخدام الأساليب [**Worksheet.PageSetup.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getheader/) و[**Worksheet.PageSetup.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getfooter/)، يمكن لمطور .Net ببساطة الحصول على رؤوس أو تذييلات من الملف.
 
 1. إنشاء سجل العمل لفتح الملف.
 2. الحصول على ورقة العمل حيث ترغب في الحصول على رؤوس أو تذييلات.
@@ -39,7 +39,7 @@ description: تشرح هذه المقالة كيفية الحصول على ال�
 
 يتم بناء سلاسل الرأس والتذييل باستخدام قواعد البناء الخاصة بنظام ABNF. ليس من السهل فهمها بدون المشاهد.
 
-توفر Aspose.Cells for .Net الأسلوب [**Worksheet.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetCommands/) لتحليل رؤوس وتذييلات كقائمة أوامر.
+توفر Aspose.Cells for .Net الأسلوب [**Worksheet.PageSetup.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getcommands/) لتحليل رؤوس وتذييلات كقائمة أوامر.
 
 توضح الأكواد التالية كيفية تحليل رأس أو تذييل كقائمة أوامر ومعالجة الأوامر:
 

@@ -10,11 +10,7 @@ Lorsque vous copiez des lignes ou une plage contenant des graphiques vers une no
 ## **Changer la source de données du graphique vers la feuille de calcul de destination lors de la copie des lignes ou de la plage**
 Le code d'exemple suivant explique l'utilisation de la propriété CopyOptions.ReferToDestinationSheet lors de la copie de lignes ou d'une plage contenant un graphique vers une nouvelle feuille de calcul. Le code utilise le [fichier Excel d'exemple](5472284.xlsx) et génère le [fichier Excel de sortie](5472283.xlsx). La capture d'écran montre que la source de données du graphique dans le [fichier Excel de sortie](5472283.xlsx) fait maintenant référence à DestSheet au lieu de Feuil1.
 
-![todo:image_alt_text](change-data-source-of-the-chart_1.png)
-
-
-
-
+![todo:image_alt_text](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
 
 
 

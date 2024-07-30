@@ -15,21 +15,23 @@ Aspose.Cells は、開発者が行と列のインデックスを指定すると�
 
 {{% alert color="primary" %}} 
 
-Microsoft Excelでは行と列のインデックスが1から始まりますが、Aspose.Cellsでは行と列のインデックスが0から数え始めます。
+Microsoft Excelは行と列のインデックスを1から数えます。Microsoft Excelとは異なり、Aspose.Cellsは行と列のインデックスを0から数えます。
 
 {{% /alert %}} 
 
 以下のサンプルコードは、[CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) を使用して既知の行と列のインデックスでセル名にアクセスする方法を示しています。コードは以下の出力を生成します。
 
+{{< highlight java >}}
 
+Cell Name at [0, 0]: A1
 
-[0, 0] のセル名: A1
+Cell Name at [4, 0]: A5
 
-[4, 0] のセル名: A5
+Cell Name at [0, 4]: E1
 
-[0, 4] のセル名: E1
+Cell Name at [2, 2]: C3
 
-[2, 2] のセル名: C3
+{{< /highlight >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-IndexToName-1.java" >}}
 ## **セル名から行と列のインデックスを取得する方法**
@@ -39,17 +41,19 @@ Aspose.Cellsは、[CellsHelper.cellNameToIndex](https://reference.aspose.com/cel
 
 {{% alert color="primary" %}} 
 
-Microsoft Excelでは行と列のインデックスが1から始まりますが、Aspose.Cellsでは行と列のインデックスが0から数え始めます。
+Microsoft Excelは行と列のインデックスを1から数えます。Microsoft Excelとは異なり、Aspose.Cellsは行と列のインデックスを0から数えます。
 
 {{% /alert %}} 
 
 次のサンプルコードは、[CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\))を使用してセルの名前から行と列のインデックスを取得する方法を示しています。コードは次の出力を生成します。
 
+{{< highlight java >}}
 
+Row Index of Cell C6: 5
 
-セルC6の行インデックス：5
+Column Index of Cell C6: 2
 
-セルC6の列インデックス：2
+{{< /highlight >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-NameToIndex-1.java" >}}
 ## **安全なシート名の作成方法**

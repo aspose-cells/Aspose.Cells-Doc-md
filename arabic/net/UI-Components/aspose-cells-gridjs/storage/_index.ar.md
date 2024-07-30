@@ -5,6 +5,9 @@ weight: 250
 url: /ar/net/aspose-cells-gridjs/storage/
 description: يصف هذا المقال معالجة الملف العام لـ GridJs.
 keywords: مخزن الملف، التخزين، GridJs، تخزين GridJs، معرف فريد، تنزيل، معرف فريد
+aliases:
+  - /net/aspose-cells-gridjs/storage-introduction/
+  - /net/aspose-cells-gridjs/work-with-storage/
 ---
 
 

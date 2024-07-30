@@ -24,7 +24,7 @@ Para otros tipos de hojas, como hojas de gráficos o gráficos, solo puedes inse
 
 
 ## **Obteniendo Encabezados y Pies de Página usando Aspose.Cells para .Net**
-Con los métodos [**Worksheet.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetHeader/) y [**Worksheet.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetFooter/), el desarrollador .Net puede obtener fácilmente encabezados o pies de página del archivo.
+Con los métodos [**Worksheet.PageSetup.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getheader/) y [**Worksheet.PageSetup.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getfooter/), el desarrollador .Net puede obtener fácilmente encabezados o pies de página del archivo.
 
 1. Construir un libro de trabajo para abrir el archivo.
 2. Obtiene la hoja de cálculo donde deseas obtener encabezados o pie de página.
@@ -39,7 +39,7 @@ Los comandos especiales están representados por una sola letra con un ampersand
 
 Las cadenas de encabezado y pie de página se construyen utilizando la gramática ABNF. No es fácil de entender sin visor.
 
-Aspose.Cells para .Net proporciona el método [**Worksheet.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetCommands/) para analizar encabezados y pies de página como lista de comandos.
+Aspose.Cells para .Net proporciona el método [**Worksheet.PageSetup.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getcommands/) para analizar encabezados y pies de página como lista de comandos.
 
 Los siguientes códigos muestran cómo analizar un encabezado o pie de página como lista de comandos y procesar comandos:
 

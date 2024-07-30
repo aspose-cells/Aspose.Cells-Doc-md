@@ -1,54 +1,52 @@
 ---
-title: Hur skapar man Gantt diagram
-linktitle: Hur skapar man Gantt diagram
+title: Hur man skapar en Gantt diagram
+linktitle: Hur man skapar en Gantt diagram
 type: docs
 weight: 72
 url: /sv/net/how-to-create-gantt-chart/
-description: Hur man skapar Gantt diagram i Aspose.Cells.
-keywords: skapa/infoga Gantt diagram Excel Aspose
+description: Lär dig hur du skapar ett Gantt diagram med Aspose.Cells for .NET API.
+keywords: C# skapa ett Gantt diagram, lägg till ett Gantt diagram, infoga ett Gantt diagram
 ---
-## Vad är Gantt-diagram
 
-Ett Gantt-diagram hjälper dig att schemalägga dina projektuppgifter och sedan hjälper dig att följa din framsteg.
+## **Vad är Gantt-diagram**
 
-## Lägg till Gantt-diagram i Excel
+Ett Gantt-diagram är en typ av stapeldiagram som illustrerar ett projektschema. Det visar start- och slutdatum för olika delar av ett projekt. Varje uppgift eller aktivitet representeras av en stapel, där längden motsvarar dess varaktighet. Gantt-diagram indikerar också beroenden mellan uppgifter, vilket gör det möjligt för projektledare att visualisera sekvensen i vilken uppgifter måste slutföras. De används mycket inom projektledning för att planera, schemalägga och spåra projekt effektivt.
 
-Behöver du visa status för en enkel projektschema med ett Gantt-diagram? Även om Excel inte har en fördefinierad Gantt-diagramtyp kan du simulera en genom att anpassa ett stapeldiagram för att visa start- och slutförancedatum för uppgifter, som så här:
+## **Hur man skapar ett Gantt-diagram i Excel**
 
-![todo:image_alt_text](00.png)
+Du kan skapa ett Gantt-diagram i Excel genom att följa dessa steg:
+1. Lägg till lite data för Gantt-diagram. 
+<br>
+<img src="00.png" width=50% />
+1. Välj datan och gå till Infoga --> Diagram --> Infoga stapel- eller stapeldiagram --> Staplad stapeldiagram. I vårt exempel är det B1:B7, och sedan Infoga **Staplad stapeldiagram**.
+<br>
+<img src="1.png" width=50% />
 
-![todo:image_alt_text](0.png)
+1. Välj diagrammet, **Välj data**->**Lägg till**, ange **Serie namn** och **Serie värden** enligt följande.
+<br>
+<img src="2.png" width=50% />
 
-## Hur man skapar
+1. Välj diagrammet, redigera **Horisontell(Kategories) Axel Etiketter**.
+<br>
+<img src="3.png" width=50% />
 
-- Välj data du vill rita. I vårt exempel är det B1:B7, och sedan infoga **Stapeldiagram**.
+1. **Formatera axel** Y-axeln, välj **Kategorier i omvänd ordning**.
+1. Välj **Blå Serie** och ange **Fyllnad->Ingen fyllnad**.
+1. **Formatera axel** X-axeln, ange **Minimum och Maxinum**(1/5/2019:43470,1/30/2019:43494).
+<br>
+<img src="4.png" width=50% />
 
-![todo:image_alt_text](1.png)
+1. **Lägg till datamarkörer** för diagrammet, nu får du en gantt-diagram.
+<br>
+<img src="0.png" width=50% />
 
-- Välj diagrammet, **Välj data**->**Lägg till**, ange **Serienamn** och **Serievärden** enligt följande
 
-![todo:image_alt_text](2.png)
+## **Så här lägger du till ett Gantt-diagram i Aspose.Cells**
+Se följande exempelkod. Den laddar den [exempel Excel-filen](sample.xlsx) som innehåller lite exempeldata. Den skapar sedan stapeldiagram baserat på den inledande datan och ställer in relevanta egenskaper. Slutligen sparar den arbetsboken till [utdata XLSX-formatet](result.xlsx). På följande skärmdump visas Gantt-diagrammet skapat av Aspose.Cells i utdata Excel-filen.
+<br>
+<img src="5.png" width=60% />
 
-- Välj diagrammet, Redigera **Horisontella (Kategorier) axel etiketter**
-
-![todo:image_alt_text](3.png)
-
-- **Formatera axeln** Y-axel, välj **Kategorier i omvänd ordning**
-- Välj **Blå Serie** och ange **Fyllning->Ingen fyllning**
-- **Formatera axeln** X-axeln, ställ in **Mininum och Maxinum**(1/5/2019:43470,1/30/2019:43494)
-
-![todo:image_alt_text](4.png)
-
-- **Lägg till Dataetiketter** för diagrammet
-Nu har du fått ett gantt-diagram.
-
-## Lägg till Gantt-diagram i Aspose.Cells
-
-Följande exemplarkod skapar ett Gantt-diagram genom att öppna en [exempelfil](sample.xlsx)
+### **Exempelkod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-gantt-chart.cs" >}}
-
-Du får en fil liknande [resultatfil](result.xlsx). I filen ser du följande:
-
-![todo:image_alt_text](5.png)
 

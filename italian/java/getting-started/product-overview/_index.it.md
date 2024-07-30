@@ -98,6 +98,8 @@ Inoltre, ci sono anche diverse funzionalità uniche che gli sviluppatori possono
 - Applicazione Web Enterprise
 - Linux
 - Unix
+- Windows
+- Mac
 ## **Casi di successo**
 Di seguito alcuni dei testimoni dei clienti di Aspose.Cells.
 

@@ -45,7 +45,7 @@ NuGet - самый простой способ скачать и установ�
 2. Откройте файл "AsposeCellsTest.csproj", добавьте в него следующие строки для ссылок на пакет Aspose.Cells:
 {{< highlight plain >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="24.6" />
+    <PackageReference Include="Aspose.Cells" Version="24.7" />
   </ItemGroup>
 {{< /highlight >}}
 3. Откройте проект в VSCode на Ubuntu:

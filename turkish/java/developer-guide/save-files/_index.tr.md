@@ -66,7 +66,7 @@ Aşağıdaki kod örneği, bir çalışma kitabını metin formatına kaydetmeni
 
 Kod çalıştırıldığında, çalışma kitabındaki tüm sayfaların verilerini TXT formatına dönüştürür.
 
-Aynı örneği CSV'ye kaydetmek için değiştirebilirsiniz. Varsayılan olarak, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) bir virgüldür, bu nedenle CSV biçimine kaydederken bir ayraç belirtmeyin.
+Aynı örneği CSV'ye kaydetmek için değiştirebilirsiniz. Varsayılan olarak, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) bir virgüldür, bu nedenle CSV formatına kaydederken bir ayraç belirtmeyin. Lütfen dikkat: Değerlendirme sürümünü kullanıyorsanız ve [**TxtSaveOptions.setExportAllSheets(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions/#setExportAllSheets-boolean-) parametresi true olarak ayarlanmış olsa bile, program yine de yalnızca bir çalışma sayfasını dışa aktaracaktır.
 
 **Örnek:**
 

@@ -5,6 +5,9 @@ weight: 250
 url: /ru/net/aspose-cells-gridjs/storage/
 description: Эта статья описывает обработку общего файла для GridJs.
 keywords: кэш файлов, хранение, GridJs, хранение GridJs, идентификатор, загрузка, уникальный идентификатор
+aliases:
+  - /net/aspose-cells-gridjs/storage-introduction/
+  - /net/aspose-cells-gridjs/work-with-storage/
 ---
 
 

@@ -148,6 +148,7 @@ El motor de cálculo de fórmulas de Aspose.Cells te permite establecer, leer y 
 |DOLLARDE|**Financiero**: Convierte un precio en dólares, expresado como fracción, en un precio en dólares, expresado como un número decimal
 |DOLLARFR|**Financiero**: Convierte un precio en dólares, expresado como un número decimal, en un precio en dólares, expresado como una fracción
 |DPRODUCT|**Base de datos**: Multiplica los valores en un campo particular de registros que coinciden con los criterios en una base de datos
+|SOLTAR|**Búsqueda y referencia**: Excluye un número especificado de filas o columnas desde el inicio o fin de una matriz
 |DSTDEV|**Base de datos**: Estima la desviación estándar en función de una muestra de entradas de la base de datos seleccionada
 |DSTDEVP|**Base de datos**: Calcula la desviación estándar en función de toda la población de entradas de la base de datos seleccionada
 |DSUM|**Base de datos**: Suma los números en la columna de campo de registros en la base de datos que coinciden con el criterio

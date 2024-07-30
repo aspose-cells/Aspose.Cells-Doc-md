@@ -59,7 +59,7 @@ Aspose.Cells提供了[**Workbook**](https://reference.aspose.com/cells/net/aspos
 
 执行代码后，将会将工作簿中所有工作表的数据转换为TXT格式。
 
-您可以修改相同的示例以将文件保存为CSV格式。默认情况下，[**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator)为逗号，因此在保存为CSV格式时不需要指定分隔符。
+您可以修改相同的示例将文件保存为CSV格式。默认情况下，[**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator)是逗号，因此如果保存为CSV格式，则不需要指定分隔符。请注意：如果您使用的是评估版本，即使[**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/)属性设置为true，程序仍然只会导出一个工作表。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 

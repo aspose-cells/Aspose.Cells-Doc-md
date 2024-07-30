@@ -52,7 +52,7 @@ Daha sonra pom.xml dosyanızda Aspose.Cells for Java API bağımlılığını a�
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.6</version>
+            <version>24.7</version>
 
         </dependency>
 
@@ -62,7 +62,7 @@ Daha sonra pom.xml dosyanızda Aspose.Cells for Java API bağımlılığını a�
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.6</version>
+            <version>24.7</version>
 
             <classifier>javadoc</classifier>
 

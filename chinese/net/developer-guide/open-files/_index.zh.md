@@ -38,3 +38,8 @@ description: 使用Aspose.Cells，很容易创建、打开和管理Excel、CSV�
 - [使用 Aspose.Cells 读取由 Apple Inc. 开发的 Numbers 电子表格](/cells/zh/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [在转换或加载花费太长时间时使用InterruptMonitor停止转换或加载](/cells/zh/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [使用LightCells API](/cells/zh/net/using-lightcells-api/)
+- [将CSV转换为JSON](/cells/zh/net/convert-csv-to-json/)
+- [将Excel转换为JSON](/cells/zh/net/convert-excel-to-json/)
+- [将JSON转换为CSV](/cells/zh/net/convert-json-to-csv/)
+- [将JSON转换为Excel](/cells/zh/net/convert-json-to-excel/)
+- [将Excel转换为Html](/cells/zh/net/convert-excel-to-html/)

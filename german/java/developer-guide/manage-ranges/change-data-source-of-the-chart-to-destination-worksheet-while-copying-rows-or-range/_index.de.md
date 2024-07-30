@@ -10,11 +10,7 @@ Wenn Sie Zeilen oder einen Bereich, die Diagramme enthalten, auf ein neues Tabel
 ## **Ändern der Datenquelle des Diagramms zur Zieltabelle beim Kopieren von Zeilen oder Bereichen**
 Der folgende Beispielcode erläutert die Verwendung der Eigenschaft CopyOptions.ReferToDestinationSheet beim Kopieren von Zeilen oder Bereichen mit Diagramm auf ein neues Tabellenblatt. Der Code verwendet die [Beispiel-Excel-Datei](5472284.xlsx) und generiert die [Ausgabe-Excel-Datei](5472283.xlsx). Der Screenshot zeigt, dass die Datenquelle des Diagramms in der [Ausgabe-Excel-Datei](5472283.xlsx) jetzt auf DestSheet anstatt auf Sheet1 verweist.
 
-![todo:image_alt_text](change-data-source-of-the-chart_1.png)
-
-
-
-
+![todo:image_alt_text](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
 
 
 

@@ -10,11 +10,7 @@ url: /ru/java/change-data-source-of-the-chart-to-destination-worksheet-while-cop
 ## **Изменение источника данных диаграммы на целевой лист при копировании строк или диапазона**
 Следующий образец кода объясняет использование свойства CopyOptions.ReferToDestinationSheet при копировании строк или диапазона, содержащего диаграмму, на новый лист. Код использует [образец файла Excel](5472284.xlsx) и генерирует [выводной файл Excel](5472283.xlsx). На скриншоте показано, что исходный источник данных диаграммы в [выводном файле Excel](5472283.xlsx) теперь ссылается на DestSheet вместо Sheet1.
 
-![todo:image_alt_text](change-data-source-of-the-chart_1.png)
-
-
-
-
+![todo:image_alt_text](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
 
 
 

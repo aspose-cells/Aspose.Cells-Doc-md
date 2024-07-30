@@ -66,7 +66,7 @@ El siguiente ejemplo de código explica cómo guardar un libro de trabajo comple
 
 Cuando el código se ejecuta, convierte los datos de todas las hojas en el libro de trabajo al formato TXT.
 
-Puedes modificar el mismo ejemplo para guardar tu archivo en CSV. Por defecto, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) es una coma, así que no especifiques un separador al guardar en formato CSV.
+Puedes modificar el mismo ejemplo para guardar tu archivo en CSV. Por defecto, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) es una coma, así que no especifiques un separador al guardar en formato CSV. Ten en cuenta: Si estás usando la versión de evaluación e incluso si el parámetro del método [**TxtSaveOptions.setExportAllSheets(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions/#setExportAllSheets-boolean-) está configurado en true, el programa seguirá exportando solo una hoja de trabajo.
 
 **Ejemplo:**
 

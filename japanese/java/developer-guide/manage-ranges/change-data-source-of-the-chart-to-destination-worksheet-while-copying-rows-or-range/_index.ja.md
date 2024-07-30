@@ -10,11 +10,7 @@ url: /ja/java/change-data-source-of-the-chart-to-destination-worksheet-while-cop
 ## **行や範囲をコピーする際に、チャートのデータソースを宛先ワークシートに変更する**
 行または範囲に含まれるチャートを新しいワークシートにコピーする際にCopyOptions.ReferToDestinationSheetプロパティの使用方法を示したサンプルコードです。コードでは[サンプルエクセルファイル](5472284.xlsx)が使用され、[出力エクセルファイル](5472283.xlsx)が生成されます。スクリーンショットでは、[出力エクセルファイル](5472283.xlsx)内のチャートのデータソースがSheet1ではなくDestSheetを参照していることが示されています。
 
-![todo:image_alt_text](change-data-source-of-the-chart_1.png)
-
-
-
-
+![todo:image_alt_text](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
 
 
 

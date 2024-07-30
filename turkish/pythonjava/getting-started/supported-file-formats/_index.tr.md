@@ -45,3 +45,4 @@ url: /tr/python-java/supported-file-formats/
 |[Epub](https://docs.fileformat.com/ebook/epub/)|.epub uzantılı dosyalar, yayıncılar ve tüketiciler için standart bir dijital yayın biçimi sağlayan bir e-kitap dosya biçimidir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Xml](https://docs.fileformat.com/web/xml/)|XML, HTML'ye benzer ancak nesneleri tanımlamak için etiketler kullanan Genişletilebilir İşaretleme Dili anlamına gelir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Open Document Template Sheet (OTS) dosya.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW, Amazon'un Kindle cihazları için geliştirdiği dijital bir e-kitap dosya formatıdır. AZW3 aynı zamanda Kindle Format 8 (KF8) olarak da bilinir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

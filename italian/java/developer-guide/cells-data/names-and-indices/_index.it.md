@@ -15,21 +15,23 @@ Aspose.Cells fornisce il metodo [CellsHelper.cellIndexToName](https://reference.
 
 {{% alert color="primary" %}} 
 
-A differenza di Microsoft Excel, dove gli indici di riga e colonna partono da 1, Aspose.Cells inizia a contare gli indici di riga e colonna da 0.
+Microsoft Excel inizia a contare gli indici di riga e colonna da 1. A differenza di Microsoft Excel, Aspose.Cells inizia a contare gli indici di riga e colonna da 0.
 
 {{% /alert %}} 
 
 Il seguente codice di esempio illustra come utilizzare [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) per accedere al nome della cella dato un indice di riga e colonna noto. Il codice genera l'output seguente.
 
+{{< highlight java >}}
 
+Cell Name at [0, 0]: A1
 
-Nome Cellula a [0, 0]: A1
+Cell Name at [4, 0]: A5
 
-Nome Cellula a [4, 0]: A5
+Cell Name at [0, 4]: E1
 
-Nome Cellula a [0, 4]: E1
+Cell Name at [2, 2]: C3
 
-Nome Cellula a [2, 2]: C3
+{{< /highlight >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-IndexToName-1.java" >}}
 ## **Come ottenere gli indici di riga e colonna dal Nome della Cellula**
@@ -39,17 +41,19 @@ Aspose.Cells fornisce il metodo [CellsHelper.cellNameToIndex](https://reference.
 
 {{% alert color="primary" %}} 
 
-A differenza di Microsoft Excel, dove gli indici di riga e colonna partono da 1, Aspose.Cells inizia a contare gli indici di riga e colonna da 0.
+Microsoft Excel inizia a contare gli indici di riga e colonna da 1. A differenza di Microsoft Excel, Aspose.Cells inizia a contare gli indici di riga e colonna da 0.
 
 {{% /alert %}} 
 
 Il seguente codice di esempio illustra come utilizzare [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) per ottenere l'indice di riga e colonna dal nome della cella. Il codice genera l'output seguente.
 
+{{< highlight java >}}
 
+Row Index of Cell C6: 5
 
-Indice di riga della cella C6: 5
+Column Index of Cell C6: 2
 
-Indice di colonna della cella C6: 2
+{{< /highlight >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-NameToIndex-1.java" >}}
 ## **Come creare nomi di foglio sicuri**

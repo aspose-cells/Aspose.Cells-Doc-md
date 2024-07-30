@@ -15,6 +15,6 @@ Aspose.Cells позволяет получить области объедине
 
 {{% /alert %}}
 
-Компонент предоставляет атрибут [**Cells.MergedCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/mergedcells), который может получить ArrayList объединенных ячеек. Ниже приведен пример кода, показывающий, как обнаружить объединенные ячейки в рабочем листе.
+Компонент предоставляет метод [**Cells.GetMergedAreas()**](https://reference.aspose.com/cells/net/aspose.cells/cells/getmergedareas/), который может получить все объединенные ячейки. В следующем фрагменте кода показано, как обнаружить объединенные ячейки в листе.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DetectMergedCells-1.cs" >}}

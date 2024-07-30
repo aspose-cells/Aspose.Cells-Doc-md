@@ -59,7 +59,7 @@ Aspose.CellsでWorkbookをPDFファイルに保存する方法のコードは次
 
 コードを実行すると、ワークブックのすべてのシートのデータがTXT形式に変換されます。
 
-同じ例を修正してファイルをCSV形式で保存することもできます。デフォルトでは、[**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator)はコンマなので、CSV形式に保存する場合は区切り文字を指定しないでください。
+同じ例を修正してファイルを CSV に保存できます。デフォルトでは、[**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) はコンマですので、CSV 形式に保存する場合はセパレーターを指定しないでください。ご注意ください：評価版 を使用している場合、かつ [**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/) プロパティが true に設定されていても、プログラムは引き続きワークシートを1つだけエクスポートします。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 

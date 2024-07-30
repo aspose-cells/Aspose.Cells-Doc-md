@@ -23,7 +23,7 @@ Cet exemple utilise un fichier Microsoft Excel modèle appelé **MergeTrial**. I
 
 ![todo:image_alt_text](detect-merged-cells-in-a-worksheet_1.png)
 
-Aspose.Cells fournit la méthode [**Cells.getMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MergedCells) qui est utilisée pour obtenir un ArrayList de zones de cellules fusionnées.
+Aspose.Cells fournit la méthode [**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--) qui est utilisée pour obtenir toutes les cellules fusionnées.
 
 Lorsque le code ci-dessous est exécuté, il efface le contenu de la feuille et dé-fusionne toutes les zones de cellules avant d'enregistrer à nouveau le fichier.
 

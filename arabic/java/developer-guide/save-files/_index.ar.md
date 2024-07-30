@@ -66,7 +66,7 @@ url: /ar/java/saving-excel-files-to-csv-pdf-and-other-formats/
 
 عند تنفيذ الكود، يحول بيانات جميع الأوراق في كتاب العمل إلى تنسيق نصي.
 
-يمكنك تعديل نفس المثال لحفظ ملفك بتنسيق CSV. بشكل افتراضي، [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) هو فاصلة، لذلك لا تحدد فاصل إذا كنت تريد الحفظ بتنسيق CSV.
+يمكنك تعديل نفس المثال لحفظ ملفك إلى CSV. افتراضيًا، [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) هو فاصلة، لذلك لا تحدد فاصلة عند الحفظ بتنسيق CSV. يرجى ملاحظة: إذا كنت تستخدم النسخة التقييمية وحتى إذا تم تعيين معلمة الأسلوب [**TxtSaveOptions.setExportAllSheets(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions/#setExportAllSheets-boolean-) على القيمة true، فإن البرنامج سيقوم فقط بتصدير ورقة عمل واحدة.
 
 **مثال:**
 

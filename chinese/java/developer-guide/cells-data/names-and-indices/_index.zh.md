@@ -15,21 +15,23 @@ Aspose.Cells 提供了 [CellsHelper.cellIndexToName](https://reference.aspose.co
 
 {{% alert color="primary" %}} 
 
-与Microsoft Excel不同，Aspose.Cells从0开始计算行和列索引。
+Microsoft Excel 从 1 开始计算行和列索引。与 Microsoft Excel 不同，Aspose.Cells 从 0 开始计算行和列索引。
 
 {{% /alert %}} 
 
 以下示例代码说明如何使用 [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) 访问已知行和列索引处的单元格名称。该代码生成以下输出。
 
+{{< highlight java >}}
 
+Cell Name at [0, 0]: A1
 
-[0, 0]处的单元格名称：A1
+Cell Name at [4, 0]: A5
 
-[4, 0]处的单元格名称：A5
+Cell Name at [0, 4]: E1
 
-[0, 4]处的单元格名称：E1
+Cell Name at [2, 2]: C3
 
-[2, 2]处的单元格名称：C3
+{{< /highlight >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-IndexToName-1.java" >}}
 ## **如何从单元格名称获取行和列索引**
@@ -39,17 +41,19 @@ Aspose.Cells提供了[CellsHelper.cellNameToIndex](https://reference.aspose.com/
 
 {{% alert color="primary" %}} 
 
-与Microsoft Excel不同，Aspose.Cells从0开始计算行和列索引。
+Microsoft Excel 从 1 开始计算行和列索引。与 Microsoft Excel 不同，Aspose.Cells 从 0 开始计算行和列索引。
 
 {{% /alert %}} 
 
 以下示例代码说明如何使用[CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\))获取单元格名称的行和列索引。代码生成以下输出。
 
+{{< highlight java >}}
 
+Row Index of Cell C6: 5
 
-单元格C6的行索引：5
+Column Index of Cell C6: 2
 
-单元格C6的列索引：2
+{{< /highlight >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-NameToIndex-1.java" >}}
 ## **如何创建安全的工作表名称**

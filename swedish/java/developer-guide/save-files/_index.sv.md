@@ -66,7 +66,7 @@ Följande kodexempel förklarar hur du sparar en hel arbetsbok i textformat. Lad
 
 När koden körs konverterar den data från alla kalkylblad i arbetsboken till TXT-format.
 
-Du kan ändra samma exempel för att spara din fil till CSV. Som standard är [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) ett kommatecken, så ange inte en avskiljare om du sparar till CSV-format.
+Du kan modifiera samma exempel för att spara din fil till CSV. Som standard är [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) ett kommatecken, så ange inte en avskiljare om du sparar till CSV-format. Observera: Om du använder utvärderingsversionen och även om parametern för metoden [**TxtSaveOptions.setExportAllSheets(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions/#setExportAllSheets-boolean-) är inställd på true kommer programmet ändå bara exportera ett kalkylblad.
 
 **Exempel:**
 

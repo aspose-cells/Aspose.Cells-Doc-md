@@ -45,3 +45,4 @@ url: /fr/java/supported-file-formats/
 |[Epub](https://docs.fileformat.com/ebook/epub/)|Les fichiers avec l'extension .epub sont un format de fichier de livre électronique qui fournit un format de publication numérique standard pour les éditeurs et les consommateurs.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Xml](https://docs.fileformat.com/web/xml/)|XML signifie Extensible Markup Language qui est similaire à HTML mais différent en utilisant des balises pour définir des objets.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Fichier de modèle de document ouvert (OTS).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW est un format de fichier de livre électronique développé par Amazon pour ses appareils Kindle. AZW3, également connu sous le nom de Kindle Format 8 (KF8).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

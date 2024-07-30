@@ -5,6 +5,9 @@ weight: 250
 url: /zh/net/aspose-cells-gridjs/storage/
 description: 本文描述了 GridJs 的一般文件处理。
 keywords: 文件缓存, 存储, GridJs, GridJs 存储, GridJs uid, 下载, 唯一标识
+aliases:
+  - /net/aspose-cells-gridjs/storage-introduction/
+  - /net/aspose-cells-gridjs/work-with-storage/
 ---
 
 

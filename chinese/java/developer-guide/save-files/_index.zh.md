@@ -66,7 +66,7 @@ Aspose.Cells API提供了一个名为[**Workbook**](https://reference.aspose.com
 
 当代码执行时，将工作簿中所有工作表的数据转换为TXT格式。
 
-您可以修改相同的示例以将文件保存为CSV。默认情况下，[**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator)是一个逗号，因此在保存为CSV格式时不要指定分隔符。
+您可以修改相同的示例将文件保存为CSV格式。默认情况下，[**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator)是逗号，因此如果保存为CSV格式，则不需要指定分隔符。请注意：如果您使用的是评估版本，即使方法的参数[**TxtSaveOptions.setExportAllSheets(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions/#setExportAllSheets-boolean-)设置为true，程序仍然只会导出一个工作表。
 
 **示例：**
 

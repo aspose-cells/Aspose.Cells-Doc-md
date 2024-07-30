@@ -24,7 +24,7 @@ För andra bladtyper, såsom kalkylblad eller diagram, kan du infoga headers och
 
 
 ## **Hämta sidhuvuden och sidfötter med hjälp av Aspose.Cells för .Net**
-Med [**Worksheet.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetHeader/) och [**Worksheet.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetFooter/) metoder kan .Net-utvecklare enkelt hämta sidhuvuden eller sidfötter från filen.
+Med [**Worksheet.PageSetup.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getheader/) och [**Worksheet.PageSetup.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getfooter/) metoder kan .Net-utvecklare enkelt hämta sidhuvuden eller sidfötter från filen.
 
 1. Konstruera Arbetsbok för att öppna filen.
 2. Hämta kalkylarket där du vill hämta sidhuvuden eller sidfot.
@@ -39,7 +39,7 @@ Specialkommandon representeras av enstaka bokstav med ett ledande et-tecken ("&"
 
 Sidhuvud- och sidfotsträngarna är konstruerade med hjälp av ABNF-grammatik. Det är inte lätt att förstå utan en visningsapparat.
 
-Aspose.Cells för .Net tillhandahåller [**Worksheet.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetCommands/) metod för att parsa sidhuvuden och sidfötter som kommandolista.
+Aspose.Cells för .Net tillhandahåller [**Worksheet.PageSetup.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getcommands/) metod för att parsa sidhuvuden och sidfötter som kommandolista.
 
 Följande koder visar hur man parsa sidhuvud eller sidfot som kommandolista och bearbeta kommandon:
 

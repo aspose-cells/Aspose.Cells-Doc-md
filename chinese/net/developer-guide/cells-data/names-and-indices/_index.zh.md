@@ -14,7 +14,7 @@ Aspose.Cells提供了CellsHelper.CellIndexToName方法，允许开发人员在�
 
 {{% alert color="primary" %}} 
 
-与Microsoft Excel不同，Aspose.Cells从0开始计算行列索引，而不是从1开始。
+Microsoft Excel 从 1 开始计算行和列索引。与 Microsoft Excel 不同，Aspose.Cells 从 0 开始计算行和列索引。
 
 {{% /alert %}} 
 
@@ -29,7 +29,7 @@ Aspose.Cells提供了CellsHelper.CellNameToIndex方法，允许开发人员从�
 
 {{% alert color="primary" %}} 
 
-与Microsoft Excel不同，Aspose.Cells从0开始计算行列索引，而不是从1开始。
+Microsoft Excel 从 1 开始计算行和列索引。与 Microsoft Excel 不同，Aspose.Cells 从 0 开始计算行和列索引。
 
 {{% /alert %}} 
 

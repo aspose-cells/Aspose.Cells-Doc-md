@@ -24,7 +24,7 @@ Für andere Blatttypen wie Diagrammblätter oder Diagramme können Header und Fu
 
 
 ## **Header und Fußzeilen mit Aspose.Cells für .Net erhalten**
-Mit den Methoden [**Worksheet.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetHeader/) und [**Worksheet.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetFooter/) kann ein .Net-Entwickler ganz einfach Header oder Footer aus der Datei erhalten.
+Mit den Methoden [**Worksheet.PageSetup.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getheader/) und [**Worksheet.PageSetup.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getfooter/) kann ein .Net-Entwickler ganz einfach Header oder Footer aus der Datei erhalten.
 
 1. Arbeitsmappe erstellen, um die Datei zu öffnen.
 2. Holen Sie sich das Arbeitsblatt, von dem aus Sie Header oder Footer erhalten möchten.
@@ -39,7 +39,7 @@ Spezielle Befehle werden durch einen einzelnen Buchstaben mit einem vorangestell
 
 Die Header- und Fußzeichenketten werden mithilfe der ABNF-Grammatik konstruiert. Ohne Betrachter ist es nicht einfach zu verstehen.
 
-Aspose.Cells für .Net stellt die Methode [**Worksheet.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetCommands/) bereit, um Kopf- und Fußzeilen als Befehlsliste zu parsen.
+Aspose.Cells für .Net stellt die Methode [**Worksheet.PageSetup.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getcommands/) bereit, um Kopf- und Fußzeilen als Befehlsliste zu parsen.
 
 Der folgende Code zeigt, wie der Kopf oder der Fuß als Befehlsliste geparst und Befehle verarbeitet werden:
 

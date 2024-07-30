@@ -23,7 +23,7 @@ Questo esempio utilizza un file modello di Microsoft Excel chiamato **MergeTrial
 
 ![todo:image_alt_text](detect-merged-cells-in-a-worksheet_1.png)
 
-Aspose.Cells fornisce il metodo [**Cells.getMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MergedCells) che viene utilizzato per ottenere un ArrayList di aree di celle unite.
+Aspose.Cells fornisce il metodo [**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--) che viene utilizzato per ottenere tutte le celle unite.
 
 Quando viene eseguito il codice seguente, cancella i contenuti del foglio e separa tutte le aree delle celle prima di salvare nuovamente il file.
 

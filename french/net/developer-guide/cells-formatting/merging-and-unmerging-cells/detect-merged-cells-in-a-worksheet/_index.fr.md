@@ -15,6 +15,6 @@ Aspose.Cells vous permet d'obtenir les zones de cellules fusionnées dans une fe
 
 {{% /alert %}}
 
-Le composant fournit l'attribut [**Cells.MergedCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/mergedcells) qui peut obtenir une liste ArrayList des zones de cellules fusionnées. Le code d'exemple suivant vous montre comment détecter les cellules fusionnées dans une feuille de calcul.
+Le composant fournit la méthode [**Cells.GetMergedAreas()**](https://reference.aspose.com/cells/net/aspose.cells/cells/getmergedareas/) qui peut obtenir toutes les cellules fusionnées. L'exemple de code suivant vous montre comment détecter les cellules fusionnées dans une feuille de calcul.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DetectMergedCells-1.cs" >}}

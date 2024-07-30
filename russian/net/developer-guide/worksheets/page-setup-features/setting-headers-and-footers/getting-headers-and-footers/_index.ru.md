@@ -24,7 +24,7 @@ description: Эта статья объясняет, как программно
 
 
 ## **Получение заголовков и колонтитулов с помощью Aspose.Cells for .Net**
-С помощью методов [**Worksheet.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetHeader/) и [**Worksheet.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetFooter/) .Net-разработчик может легко получить заголовки или колонтитулы из файла.
+С помощью методов [**Worksheet.PageSetup.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getheader/) и [**Worksheet.PageSetup.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getfooter/) .Net-разработчик может легко получить заголовки или колонтитулы из файла.
 
 1. Создайте рабочую книгу для открытия файла.
 2. Получить лист, где вы хотите получить заголовки или колонтитулы.
@@ -39,7 +39,7 @@ description: Эта статья объясняет, как программно
 
 Строки заголовка и колонтитула конструируются с использованием грамматики ABNF. Это не так легко понять без просмотрщика.
 
-Aspose.Cells for .Net предоставляет метод [**Worksheet.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetCommands/) для разбора заголовков и колонтитулов в виде списка команд.
+Aspose.Cells for .Net предоставляет метод [**Worksheet.PageSetup.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getcommands/) для разбора заголовков и колонтитулов в виде списка команд.
 
 Следующий код demonstriruet как разобрать заголовок или колонтитул в виде списка команд и обработать команды:
 

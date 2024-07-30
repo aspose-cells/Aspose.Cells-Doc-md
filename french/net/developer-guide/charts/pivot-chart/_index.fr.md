@@ -9,7 +9,22 @@ keywords: Tableau croisé dynamique
 ---
 ## Qu'est-ce qu'un tableau croisé dynamique
 
-Un tableau croisé dynamique dans Excel est une représentation graphique des données créée à partir d'un tableau croisé dynamique. Il permet aux utilisateurs de visualiser et d'analyser les données de manière dynamique en résumant et en affichant les informations sous forme de graphique. Les tableaux croisés dynamiques sont interactifs et peuvent être facilement modifiés pour montrer différentes perspectives des données, ce qui en fait un outil puissant pour l'analyse et la présentation de données dans Excel.
+Un graphique croisé dynamique est une représentation visuelle des données dans un tableau croisé dynamique. Les graphiques croisés dynamiques permettent de résumer, d'analyser, d'explorer et de présenter des données récapitulatives. Voici quelques caractéristiques clés et aspects des graphiques croisés dynamiques :
+
+1. Représentation dynamique des données : Les graphiques croisés dynamiques se mettent à jour automatiquement pour refléter les modifications dans le tableau croisé dynamique. Si vous ajoutez ou supprimez des champs dans le tableau croisé dynamique, le graphique croisé dynamique est mis à jour en conséquence.
+
+1. Interactif : Les graphiques croisés dynamiques sont interactifs, permettant aux utilisateurs de filtrer, de trier et de creuser dans les données. Cela facilite l'exploration des différents aspects de l'ensemble de données.
+
+1. Mise en page flexible : Les utilisateurs peuvent modifier la disposition du graphique croisé dynamique en faisant glisser et déposer des champs, ce qui offre une flexibilité dans la visualisation des données.
+
+1. Divers types de graphiques : Les graphiques croisés dynamiques peuvent être créés en utilisant divers types de graphiques tels que les graphiques en barres, les graphiques linéaires, les graphiques circulaires, etc., en fonction de la nature des données et des informations que vous souhaitez obtenir.
+
+1. Résumé : Les graphiques croisés dynamiques résument de grandes quantités de données et peuvent afficher des totaux, des moyennes, des comptages ou d'autres statistiques récapitulatives.
+
+1. Filtrage : Ils offrent des capacités de filtrage, vous permettant d'afficher uniquement les données qui répondent à certains critères.
+
+<br>
+Les graphiques croisés dynamiques sont couramment utilisés dans l'intelligence commerciale et l'analyse de données pour fournir un résumé visuel clair et concis d'ensembles de données complexes. Ils sont un outil puissant pour prendre des décisions basées sur les données.
 
 ## Comment ajouter un tableau croisé dynamique à l'aide d'Aspose.Cells
 

@@ -10,11 +10,7 @@ url: /ar/java/change-data-source-of-the-chart-to-destination-worksheet-while-cop
 ## **تغيير مصدر البيانات للرسم البياني إلى ورقة العمل الوجهة أثناء نسخ الصفوف أو النطاق**
 الكود العيني التالي يشرح استخدام خاصية CopyOptions.ReferToDestinationSheet أثناء نسخ الصفوف أو النطاق الذي يحتوي على رسم بياني إلى ورقة عمل جديدة. يستخدم الكود [ملف الإكسل العيني](5472284.xlsx) ويولد [ملف الإكسل الناتج](5472283.xlsx). توضح اللقطة الشاشة أن مصدر البيانات للرسم البياني في [ملف الإكسل الناتج](5472283.xlsx) الآن يشير إلى DestSheet بدلاً من Sheet1.
 
-![todo:image_alt_text](change-data-source-of-the-chart_1.png)
-
-
-
-
+![todo:image_alt_text](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
 
 
 

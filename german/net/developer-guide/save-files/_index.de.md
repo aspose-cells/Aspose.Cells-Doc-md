@@ -59,7 +59,7 @@ Das folgende Codebeispiel erläutert, wie eine gesamte Arbeitsmappe in Textforma
 
 Beim Ausführen des Codes werden die Daten aller Blätter in der Arbeitsmappe in das TXT-Format konvertiert
 
-Sie können dasselbe Beispiel ändern, um Ihre Datei im CSV-Format zu speichern. Standardmäßig ist [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) ein Komma, daher geben Sie keinen Trennzeichen an, wenn Sie im CSV-Format speichern.
+Sie können das gleiche Beispiel ändern, um Ihre Datei in CSV zu speichern. Standardmäßig ist [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) ein Komma, geben Sie also keinen Separator an, wenn Sie im CSV-Format speichern. Beachten Sie: Wenn Sie die Evaluierungsversion verwenden und selbst wenn die [**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/) Eigenschaft auf true gesetzt ist, exportiert das Programm trotzdem nur ein Arbeitsblatt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 

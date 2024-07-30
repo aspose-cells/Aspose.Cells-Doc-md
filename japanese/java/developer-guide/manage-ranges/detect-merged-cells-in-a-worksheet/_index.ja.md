@@ -23,7 +23,7 @@ Aspose.Cellsを使用してワークシート内の結合セル領域を特定�
 
 ![todo:image_alt_text](detect-merged-cells-in-a-worksheet_1.png)
 
-Aspose.Cellsは、結合セル領域のArrayListを取得するために使用される[**Cells.getMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MergedCells)メソッドを提供します。
+Aspose.Cellsは、すべての結合セルを取得するために使用される[**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--)メソッドを提供します。
 
 下記のコードを実行すると、シートの内容をクリアし、すべてのセル領域のマージを解除してファイルを再保存します。
 

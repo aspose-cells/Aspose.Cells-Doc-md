@@ -15,21 +15,23 @@ Aspose.Cells fournit la méthode [CellsHelper.cellIndexToName](https://reference
 
 {{% alert color="primary" %}} 
 
-Contrairement à Microsoft Excel, où les indices de ligne et de colonne commencent à partir de 1, Aspose.Cells commence à compter les indices de ligne et de colonne à partir de 0.
+Microsoft Excel commence à compter les indices de lignes et de colonnes à partir de 1. Contrairement à Microsoft Excel, Aspose.Cells commence à compter les indices de lignes et de colonnes à partir de 0.
 
 {{% /alert %}} 
 
 Le code d'exemple suivant illustre comment utiliser [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) pour accéder au nom de la cellule donné à un index de ligne et de colonne connu. Le code génère la sortie suivante.
 
+{{< highlight java >}}
 
+Cell Name at [0, 0]: A1
 
-Nom de la cellule à [0, 0]: A1
+Cell Name at [4, 0]: A5
 
-Nom de la cellule à [4, 0]: A5
+Cell Name at [0, 4]: E1
 
-Nom de la cellule à [0, 4]: E1
+Cell Name at [2, 2]: C3
 
-Nom de la cellule à [2, 2]: C3
+{{< /highlight >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-IndexToName-1.java" >}}
 ## **Comment obtenir les indices de ligne et de colonne à partir du nom de la cellule**
@@ -39,17 +41,19 @@ Aspose.Cells fournit la méthode [CellsHelper.cellNameToIndex](https://reference
 
 {{% alert color="primary" %}} 
 
-Contrairement à Microsoft Excel, où les indices de ligne et de colonne commencent à partir de 1, Aspose.Cells commence à compter les indices de ligne et de colonne à partir de 0.
+Microsoft Excel commence à compter les indices de lignes et de colonnes à partir de 1. Contrairement à Microsoft Excel, Aspose.Cells commence à compter les indices de lignes et de colonnes à partir de 0.
 
 {{% /alert %}} 
 
 Le code d'exemple suivant illustre comment utiliser [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) pour obtenir l'indice de ligne et de colonne à partir du nom de la cellule. Le code génère la sortie suivante.
 
+{{< highlight java >}}
 
+Row Index of Cell C6: 5
 
-Indice de ligne de la cellule C6: 5
+Column Index of Cell C6: 2
 
-Indice de colonne de la cellule C6: 2
+{{< /highlight >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-NameToIndex-1.java" >}}
 ## **Comment créer des noms de feuille sécurisés**

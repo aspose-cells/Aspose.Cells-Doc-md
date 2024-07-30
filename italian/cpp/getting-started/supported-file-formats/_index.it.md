@@ -45,3 +45,4 @@ url: /it/cpp/supported-file-formats/
 |[Epub](https://docs.fileformat.com/ebook/epub/)|I file con estensione .epub sono un formato di file per e-book che fornisce un formato standard di pubblicazione digitale per editori e consumatori.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Xml](https://docs.fileformat.com/web/xml/)|XML sta per Extensible Markup Language che è simile all'HTML ma differisce nell'uso dei tag per definire gli oggetti.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|File del Modello del Documento Aperto (OTS).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW è un formato di file di ebook digitale sviluppato da Amazon per i suoi dispositivi Kindle. AZW3, anche conosciuto come Kindle Format 8 (KF8).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

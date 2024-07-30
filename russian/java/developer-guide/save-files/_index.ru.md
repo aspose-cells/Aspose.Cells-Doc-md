@@ -66,7 +66,7 @@ Aspose.Cells API предоставляет класс с именем [**Workbo
 
 При выполнении кода конвертируются данные всех листов книги в формат TXT.
 
-Вы можете изменить тот же пример, чтобы сохранить свой файл в CSV. По умолчанию, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) это запятая, поэтому не указывайте разделитель при сохранении в формат CSV.
+Вы можете изменить тот же пример для сохранения файла в формат CSV. По умолчанию [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) - это запятая, поэтому не указывайте разделитель при сохранении в формат CSV. Обратите внимание: если вы используете оценочную версию и даже если параметр метода [**TxtSaveOptions.setExportAllSheets(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions/#setExportAllSheets-boolean-) установлен в true, программа все равно будет экспортировать только один лист.
 
 **Пример:**
 

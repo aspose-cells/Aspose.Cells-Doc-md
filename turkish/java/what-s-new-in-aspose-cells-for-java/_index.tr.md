@@ -8,6 +8,20 @@ url: /tr/java/what-s-new-in-aspose-cells-for-java/
 
 Bu sayfa, son sürümlerde tanıtılan en ilginç yeni Aspose.Cells özelliklerini açıklar.
 
+## Aspose.Cells for Java 24.7
+* Formüllerde DROP fonksiyonunu destekleme
+* Karmaşık parametrelerle LET ve MAKEARRAY fonksiyonlarının hesaplanma performansını iyileştirme
+* Grafikte yıldız karakterlerinin konturunu destekleme
+* Bir nesneyi dekoratif olarak kullanmayı destekleme
+* Serilerin yerini değiştirme desteği
+* TreeMap Grafik Şemasının görüntüsünü iyileştirin
+* "Kapalı hücre" resminin "hücre içinde" dönüştürülmesini destekleme
+* Yerel Ofis bulut fontunu varsayılan olarak yükleme desteği
+* Json verilerini içe aktarırken json şemasını koruma desteği
+* AZW3 biçim dosyasına dışa aktarma desteği
+* GridJS için hücreyi sardıktan sonra yüksekliği otomatik olarak ayarlama desteği
+* GridJS için akış yazar yöntemi kullanarak json oluşturma desteği
+
 ## Aspose.Cells for Java 24.6
 * Rendere için geliştirmeler: renk doygunluğu ve renk sıcaklığı ayarı, iki tonlu, Webp görüntüleri
 * PivotTable için geliştirmeler: aralığın birleştirilmesi, PivotField'ın "Değerleri Göster"

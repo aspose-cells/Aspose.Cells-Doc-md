@@ -38,3 +38,8 @@ Mit Aspose.Cells ist es einfach, Excel-Dateien zu öffnen, zu speichern und zu v
 - [Zahlen-Tabellenkalkulation von Apple Inc. mit Aspose.Cells lesen](/cells/de/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [ Konvertierung oder Laden mit InterruptMonitor stoppen, wenn es zu lange dauert](/cells/de/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [Verwendung der LightCells-API](/cells/de/net/using-lightcells-api/)
+- [Konvertieren von CSV in JSON](/cells/de/net/convert-csv-to-json/)
+- [In-Excel-in-JSON-konvertieren](/cells/de/net/convert-excel-to-json/)
+- [JSON in CSV konvertieren](/cells/de/net/convert-json-to-csv/)
+- [JSON-in-Excel-konvertieren](/cells/de/net/convert-json-to-excel/)
+- [Convert-Excel-to-Html](/cells/de/net/convert-excel-to-html/)

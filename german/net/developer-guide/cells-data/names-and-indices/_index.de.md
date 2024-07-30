@@ -14,7 +14,7 @@ Aspose.Cells bietet die Methode CellsHelper.CellIndexToName, mit der Entwickler 
 
 {{% alert color="primary" %}} 
 
-Im Gegensatz zu Microsoft Excel, wo Zeilen- und Spaltenindizes bei 1 beginnen, beginnt Aspose.Cells mit dem Zählen von Zeilen- und Spaltenindizes bei 0.
+Microsoft Excel beginnt mit der Zählung von Zeilen- und Spaltenindizes bei 1. Im Gegensatz zu Microsoft Excel beginnt Aspose.Cells mit der Zählung von Zeilen- und Spaltenindizes bei 0.
 
 {{% /alert %}} 
 
@@ -29,7 +29,7 @@ Aspose.Cells bietet die Methode CellsHelper.CellNameToIndex, mit der Entwickler 
 
 {{% alert color="primary" %}} 
 
-Im Gegensatz zu Microsoft Excel, wo Zeilen- und Spaltenindizes bei 1 beginnen, beginnt Aspose.Cells mit dem Zählen von Zeilen- und Spaltenindizes bei 0.
+Microsoft Excel beginnt mit der Zählung von Zeilen- und Spaltenindizes bei 1. Im Gegensatz zu Microsoft Excel beginnt Aspose.Cells mit der Zählung von Zeilen- und Spaltenindizes bei 0.
 
 {{% /alert %}} 
 

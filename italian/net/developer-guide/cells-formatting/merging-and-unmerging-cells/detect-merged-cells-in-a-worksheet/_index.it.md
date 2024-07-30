@@ -15,6 +15,6 @@ Aspose.Cells consente di ottenere le aree di celle unite in un foglio di lavoro.
 
 {{% /alert %}}
 
-Il componente fornisce l'attributo [**Cells.MergedCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/mergedcells) che può ottenere un ArrayList di aree di celle unite. Il seguente esempio di codice mostra come rilevare le celle unite in un foglio di lavoro.
+Il componente fornisce il metodo che può ottenere tutte le celle unite. Il seguente esempio di codice mostra come individuare le celle unite in un foglio di lavoro.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DetectMergedCells-1.cs" >}}

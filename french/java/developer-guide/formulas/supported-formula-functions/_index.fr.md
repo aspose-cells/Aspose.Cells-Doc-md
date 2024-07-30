@@ -148,6 +148,7 @@ Le moteur de calcul des formules d'Aspose.Cells vous permet de définir, lire et
 |DOLLARDE|**Financial**: Convertit un prix en dollars, exprimé en fraction, en un prix en dollars, exprimé en nombre décimal
 |DOLLARFR|**Financial**: Convertit un prix en dollars, exprimé en nombre décimal, en un prix en dollars, exprimé en fraction
 |DPRODUCT|**Database**: Multiplie les valeurs dans un champ particulier des enregistrements correspondant aux critères dans une base de données
+|SUPPRIMER|**Recherche et référence**: Exclut un nombre spécifié de lignes ou de colonnes du début ou de la fin d'un tableau
 |DSTDEV|**Database**: Estime l'écart type sur un échantillon des entrées de base de données sélectionnées
 |DSTDEVP|**Database**: Calcule l'écart type sur l'ensemble de la population des entrées de base de données sélectionnées
 |DSUM|**Database**: Ajoute les nombres dans la colonne de champ des enregistrements dans la base de données qui correspondent aux critères

@@ -45,3 +45,4 @@ url: /ar/python-net/supported-file-formats/
 |[Epub](https://docs.fileformat.com/ebook/epub/)|الملفات ذات امتداد .epub هي ملفات كتب إلكترونية توفر تنسيق نشر رقمي قياسي للناشرين والمستهلكين.
 |[Xml](https://docs.fileformat.com/web/xml/)|XML تعني لغة الترميز القابلة للتوسع وهي مشابهة لـ HTML ولكنها مختلفة في استخدام العلامات لتعريف الكائنات.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|ملف قالب ورقة العمل الرئيسية (OTS).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW هو تنسيق ملف الكتاب الإلكتروني الرقمي الذي طوّرته Amazon لأجهزة Kindle الخاصة بها. AZW3، المعروف أيضًا باسم Kindle Format 8 (KF8).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

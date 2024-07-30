@@ -38,3 +38,8 @@ Con Aspose.Cells, è semplice aprire, salvare e gestire file Excel.
 - [Leggi i fogli di calcolo di Numbers sviluppati da Apple Inc. utilizzando Aspose.Cells](/cells/it/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Interrompere la conversione o il caricamento utilizzando InterruptMonitor quando sta impiegando troppo tempo](/cells/it/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [Utilizzo di API LightCells](/cells/it/net/using-lightcells-api/)
+- [Convertire CSV in JSON](/cells/it/net/convert-csv-to-json/)
+- [Converti-Excel-in-JSON](/cells/it/net/convert-excel-to-json/)
+- [Convertire JSON in CSV](/cells/it/net/convert-json-to-csv/)
+- [Converti-JSON-in-Excel](/cells/it/net/convert-json-to-excel/)
+- [Converti-Excel-in-Html](/cells/it/net/convert-excel-to-html/)

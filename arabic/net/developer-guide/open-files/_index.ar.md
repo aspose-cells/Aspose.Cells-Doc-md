@@ -38,3 +38,8 @@ description: مع Aspose.Cells، من السهل إنشاء، فتح وإدار�
 - [قراءة جدول بيانات الأرقام المطور من قبل Apple Inc. باستخدام Aspose.Cells](/cells/ar/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [توقّف عن التحويل أو التحميل باستخدام InterruptMonitor عندما يستغرق وقتًا طويلاً](/cells/ar/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [استخدام واجهة برمجة التطبيقات LightCells](/cells/ar/net/using-lightcells-api/)
+- [تحويل CSV إلى JSON](/cells/ar/net/convert-csv-to-json/)
+- [تحويل-Excel-إلى-JSON](/cells/ar/net/convert-excel-to-json/)
+- [تحويل JSON إلى CSV](/cells/ar/net/convert-json-to-csv/)
+- [تحويل JSON إلى Excel](/cells/ar/net/convert-json-to-excel/)
+- [تحويل ملف Excel إلى Html](/cells/ar/net/convert-excel-to-html/)

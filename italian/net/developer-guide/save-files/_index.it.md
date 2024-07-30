@@ -59,7 +59,7 @@ L'esempio di codice seguente spiega come salvare un intero workbook in formato t
 
 Quando il codice viene eseguito, converte i dati di tutti i fogli nel workbook nel formato TXT.
 
-È possibile modificare lo stesso esempio per salvare il file in formato CSV. Per impostazione predefinita, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) è la virgola, quindi non specificare un separatore se si salva in formato CSV.
+Puoi modificare lo stesso esempio per salvare il tuo file in CSV. Per default, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) è una virgola, quindi non specificare un separatore se si salva nel formato CSV. Nota: Se stai usando la versione di valutazione e anche se la proprietà [**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/) è impostata su true, il programma esporterà comunque solo un foglio di lavoro.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 

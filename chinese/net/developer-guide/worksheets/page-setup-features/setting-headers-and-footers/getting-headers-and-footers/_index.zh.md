@@ -24,7 +24,7 @@ description: 本文介绍了如何使用C# API或.NET库从Excel或OpenOffice文
 
 
 ## **使用Aspose.Cells for .Net获取页眉和页脚**
-通过[**Worksheet.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetHeader/)和[**Worksheet.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetFooter/)方法，.Net开发人员可以轻松从文件中获取页眉或页脚。
+通过[**Worksheet.PageSetup.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getheader/)和[**Worksheet.PageSetup.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getfooter/)方法，.Net开发人员可以轻松从文件中获取页眉或页脚。
 
 1.构建工作簿以打开文件。
 2. 获取要从中获取页眉或页脚的工作表。
@@ -39,7 +39,7 @@ description: 本文介绍了如何使用C# API或.NET库从Excel或OpenOffice文
 
 头部和底部字符串使用ABNF语法构建。没有查看器很难理解。
 
-Aspose.Cells for .Net提供[**Worksheet.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetCommands/)方法，以将页眉和页脚解析为命令列表。
+Aspose.Cells for .Net提供[**Worksheet.PageSetup.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getcommands/)方法，以将页眉和页脚解析为命令列表。
 
 以下是如何解析页眉或页脚为命令列表并处理命令的代码：
 

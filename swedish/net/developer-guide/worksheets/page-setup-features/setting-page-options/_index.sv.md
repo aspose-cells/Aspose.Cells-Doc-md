@@ -88,7 +88,7 @@ Ange pappersstorleken som arbetsarken ska skrivas ut på med hjälp av klassens 
 |PaperEnvelopeC4|Envelope C4 (229 mm x 324 mm)|
 |PaperEnvelopeC6 |Envelope C6 (114 mm x 162 mm)|
 |PaperEnvelopeC65|Envelope C65 (114 mm x 229 mm)|
-|PaperEnvelopeB4|Envelope B4 (250 mm x 353 mm|
+|PaperEnvelopeB4|Envelope B4 (250 mm x 353 mm)|
 |PaperEnvelopeB5|Envelope B5 (176 mm x 250 mm)|
 |PaperEnvelopeB6|Envelope B6 (176 mm x 125 mm)|
 |PaperEnvelopeItaly|Envelope Italy (110 mm x 230 mm)|

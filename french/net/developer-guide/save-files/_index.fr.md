@@ -59,7 +59,7 @@ L'exemple de code suivant explique comment enregistrer un classeur entier au for
 
 Lorsque le code est exécuté, il convertit les données de toutes les feuilles du classeur au format TXT
 
-Vous pouvez modifier le même exemple pour enregistrer votre fichier au format CSV. Par défaut, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) est une virgule, donc ne spécifiez pas de séparateur si vous enregistrez au format CSV.
+Vous pouvez modifier le même exemple pour enregistrer votre fichier au format CSV. Par défaut, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) est une virgule, donc ne spécifiez pas de séparateur lors de l'enregistrement au format CSV. Veuillez noter : Si vous utilisez la version d'évaluation et même si la propriété [**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/) est définie sur true, le programme n'exportera toujours qu'une seule feuille de calcul.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 

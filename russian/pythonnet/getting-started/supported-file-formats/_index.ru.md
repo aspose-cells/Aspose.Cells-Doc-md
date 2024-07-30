@@ -45,3 +45,4 @@ url: /ru/python-net/supported-file-formats/
 |[Epub](https://docs.fileformat.com/ebook/epub/)|Файлы с расширением .epub - это формат электронных книг, который предоставляет стандартный цифровой формат публикации для издателей и потребителей.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Xml](https://docs.fileformat.com/web/xml/)|XML означает расширяемый язык разметки, который похож на HTML, но отличается использованием тегов для определения объектов.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Файл шаблона для открытого документа (OTS).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW — это цифровой формат электронных книг, разработанный компанией Amazon для своих устройств Kindle. AZW3, также известный как Kindle Format 8 (KF8).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

@@ -66,7 +66,7 @@ L'exemple de code suivant explique comment enregistrer un classeur entier au for
 
 Lorsque le code est exécuté, il convertit les données de toutes les feuilles du classeur au format TXT.
 
-Vous pouvez modifier le même exemple pour enregistrer votre fichier au format CSV. Par défaut, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) est une virgule, alors ne spécifiez pas de séparateur si vous enregistrez au format CSV.
+Vous pouvez modifier le même exemple pour enregistrer votre fichier au format CSV. Par défaut, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) est une virgule, donc ne spécifiez pas de séparateur lors de l'enregistrement au format CSV. Veuillez noter : Si vous utilisez la version d'évaluation et même si le paramètre de méthode [**TxtSaveOptions.setExportAllSheets(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions/#setExportAllSheets-boolean-) est défini sur true, le programme n'exportera toujours qu'une seule feuille de calcul.
 
 **Exemple :**
 

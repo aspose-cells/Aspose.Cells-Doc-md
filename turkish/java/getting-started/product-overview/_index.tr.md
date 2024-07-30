@@ -98,6 +98,8 @@ Ayrıca, Aspose.Cells'te geliştiricilerin yalnızca CSV ve SpreadsheetML biçim
 - Kurumsal Web Uygulaması
 - Linux
 - Unix
+- Windows
+- Mac
 ## **Başarı Hikayeleri**
 Aşağıda Aspose.Cells müşterilerinden bazı referanslar bulunmaktadır.
 

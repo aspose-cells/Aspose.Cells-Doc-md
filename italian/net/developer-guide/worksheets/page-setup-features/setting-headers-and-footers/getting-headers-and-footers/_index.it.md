@@ -24,7 +24,7 @@ Per altri tipi di fogli, come fogli grafico o grafici, è possibile inserire sol
 
 
 ## **Ottenere Intestazioni e Piè di Pagina usando Aspose.Cells per .Net**
-Con i metodi [**Worksheet.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetHeader/) e [**Worksheet.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetFooter/), lo sviluppatore .Net può semplicemente ottenere intestazioni o piè di pagina dal file.
+Con i metodi [**Worksheet.PageSetup.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getheader/) e [**Worksheet.PageSetup.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getfooter/), lo sviluppatore .Net può semplicemente ottenere intestazioni o piè di pagina dal file.
 
 1. Costruire il Workbook per aprire il file.
 2. Ottiene il foglio di lavoro in cui si desidera ottenere l'intestazione o il piè di pagina.
@@ -39,7 +39,7 @@ I comandi speciali sono rappresentati da una singola lettera con un e commercial
 
 Le stringhe di intestazione e piè di pagina sono costruite utilizzando la grammatica ABNF. Non è facile da capire senza visualizzatore .
 
-Aspose.Cells per .Net fornisce il metodo [**Worksheet.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetCommands/) per analizzare intestazioni e piè di pagina come elenco di comandi.
+Aspose.Cells per .Net fornisce il metodo [**Worksheet.PageSetup.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getcommands/) per analizzare intestazioni e piè di pagina come elenco di comandi.
 
 I seguenti codici mostrano come analizzare l'intestazione o il piè di pagina come elenco di comandi e processarli:
 

@@ -10,11 +10,7 @@ När du kopierar rader eller område som innehåller diagram till ny arbetsblad,
 ## **Ändra datakällan för diagrammet till destinationskalkylbladet samtidigt som du kopierar rader eller område**
 Följande exempelkod förklarar användningen av CopyOptions.ReferToDestinationSheet-egenskapen när du kopierar rader eller område som innehåller diagram till nytt arbetsblad. Koden använder den [prov Excel-filen](5472284.xlsx) och genererar den [utdata Excel-filen](5472283.xlsx). Skärmbilden visar att datakällan för diagrammet i [utdata Excel-filen](5472283.xlsx) nu hänvisar till DestSheet istället för Sheet1.
 
-![todo:image_alt_text](change-data-source-of-the-chart_1.png)
-
-
-
-
+![todo:image_alt_text](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
 
 
 

@@ -5,6 +5,9 @@ weight: 250
 url: /zh/net/aspose-cells-gridjs/settings/
 description: 本文描述了GridJs的设置。
 keywords: GridJs, 设置, GridWorkbookSettings
+aliases:
+  - /net/aspose-cells-gridjs/how-to-use-setting/
+  - /net/aspose-cells-gridjs/work-with-setting/
 ---
 
 

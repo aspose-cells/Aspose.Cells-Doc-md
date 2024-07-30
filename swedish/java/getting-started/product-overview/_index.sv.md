@@ -98,6 +98,8 @@ Dessutom finns det också ett antal unika funktioner som utvecklarna endast kan 
 - Företagswebbapplikation
 - Linux
 - Unix
+- Windows
+- Mac
 ## **Framgångshistorier**
 Nedan är några av de vittnesmål från Aspose.Cells kunder.
 

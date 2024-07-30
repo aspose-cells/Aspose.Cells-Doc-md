@@ -8,6 +8,20 @@ url: /zh/java/what-s-new-in-aspose-cells-for-java/
 
 本页面描述了最近发布的Aspose.Cells新功能中最有趣的内容。
 
+## Aspose.Cells for Java 24.7
+* 在公式中支持DROP功能
+* 改善对于复杂参数的LET和MAKEARRAY函数计算性能
+* 在图表中支持星型字符的轮廓
+* 支持将对象制作为装饰品
+* 支持交换系列
+* 改进TreeMap图表的显示
+* 支持将"覆盖单元格"的图片转换为"单元格内"
+* 默认支持加载本地Office云字体
+* 在导入JSON数据时支持保留JSON模式
+* 支持导出为AZW3格式文件
+* 支持在为GridJS的单元格设置自动换行后自动设置高度
+* 支持使用流写入方式生成JSON数据
+
 ## Aspose.Cells for Java 24.6
 * 渲染增强功能：颜色饱和度和色温调整，双色调，Webp 图片
 * 透视表增强功能：合并区域，透视字段的“显示数值为”

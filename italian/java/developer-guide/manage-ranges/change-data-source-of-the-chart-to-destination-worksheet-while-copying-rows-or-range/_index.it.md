@@ -10,11 +10,7 @@ Quando si copiano righe o intervalli che contengono grafici in un nuovo foglio d
 ## **Modifica dell'origine dei dati del grafico al foglio di lavoro di destinazione durante la copia delle righe o dell'intervallo**
 Il codice di esempio seguente spiega l'uso della proprietà CopyOptions.ReferToDestinationSheet durante la copia di righe o intervalli contenenti il grafico in un nuovo foglio di lavoro. Il codice utilizza il [file di esempio Excel](5472284.xlsx) e genera il [file di Excel di output](5472283.xlsx). La schermata mostra che l'origine dati del grafico nel [file di Excel di output](5472283.xlsx) ora si riferisce a DestSheet anziché Sheet1.
 
-![todo:image_alt_text](change-data-source-of-the-chart_1.png)
-
-
-
-
+![todo:image_alt_text](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
 
 
 

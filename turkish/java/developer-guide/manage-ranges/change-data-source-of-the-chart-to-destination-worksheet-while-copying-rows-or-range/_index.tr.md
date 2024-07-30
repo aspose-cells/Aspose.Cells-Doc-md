@@ -10,11 +10,7 @@ Grafik içeren satırları veya aralığı yeni çalışma sayfasına kopyaladı
 ## **Satırları veya Aralıkları Kopyalarken Grafiğin Veri Kaynağını Hedef Çalışma Sayfasına Değiştirme**
 Aşağıdaki örnek kod, grafik içeren satırları veya aralığı yeni çalışma sayfasına kopyalarken CopyOptions.ReferToDestinationSheet özelliğinin kullanımını açıklar. Kod, [örnek excel dosyasını](5472284.xlsx) kullanır ve [çıktı excel dosyasını](5472283.xlsx) oluşturur. Ekran görüntüsü, [çıktı excel dosyasındaki](5472283.xlsx) grafik veri kaynağının ArtSeyre yapılması gösterir.
 
-![todo:image_alt_text](change-data-source-of-the-chart_1.png)
-
-
-
-
+![todo:image_alt_text](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
 
 
 

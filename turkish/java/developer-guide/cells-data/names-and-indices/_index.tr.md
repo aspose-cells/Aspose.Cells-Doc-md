@@ -15,21 +15,23 @@ Aspose.Cells, geliştiricilere satır ve sütun indeksini sağladıklarında hü
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel'de satır ve sütun indislerinin 1'den başladığına karşın, Aspose.Cells satır ve sütun indislerini 0'dan başlatır.
+Microsoft Excel, satır ve sütun indislerini 1'den başlatır. Microsoft Excel'in aksine, Aspose.Cells satır ve sütun indislerini 0'dan başlatır.
 
 {{% /alert %}} 
 
 Aşağıdaki örnek kod, [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) kullanımını gösterir. Bilinen bir satır ve sütun indeksindeki hücre adını erişmek için bu kod, aşağıdaki çıktıyı üretir.
 
+{{< highlight java >}}
 
+Cell Name at [0, 0]: A1
 
-[0, 0] Konumundaki Hücre Adı: A1
+Cell Name at [4, 0]: A5
 
-[4, 0] Konumundaki Hücre Adı: A5
+Cell Name at [0, 4]: E1
 
-[0, 4] Konumundaki Hücre Adı: E1
+Cell Name at [2, 2]: C3
 
-[2, 2] Konumundaki Hücre Adı: C3
+{{< /highlight >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-IndexToName-1.java" >}}
 ## **Hücre Adından Satır ve Sütun İndekslerini Nasıl Alınır**
@@ -39,17 +41,19 @@ Aspose.Cells, geliştiricilere hücre adından satır ve sütun indeksini alabil
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel'de satır ve sütun indislerinin 1'den başladığına karşın, Aspose.Cells satır ve sütun indislerini 0'dan başlatır.
+Microsoft Excel, satır ve sütun indislerini 1'den başlatır. Microsoft Excel'in aksine, Aspose.Cells satır ve sütun indislerini 0'dan başlatır.
 
 {{% /alert %}} 
 
 Aşağıdaki örnek kod, [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) kullanımını gösterir. Hücre adından satır ve sütun indeksini almak için bu kod, aşağıdaki çıktıyı üretir.
 
+{{< highlight java >}}
 
+Row Index of Cell C6: 5
 
-C6 Hücresinin Satır İndeksi: 5
+Column Index of Cell C6: 2
 
-C6 Hücresinin Sütun İndeksi: 2
+{{< /highlight >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-NameToIndex-1.java" >}}
 ## **Güvenli sayfa adları nasıl oluşturulur**

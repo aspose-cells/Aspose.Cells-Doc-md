@@ -14,7 +14,7 @@ url: /ar/net/converting-worksheet-to-image-in-aspose-cells/
 
 {{< highlight csharp >}}
 
- //Create a new Workbook object
+//Create a new Workbook object
 
 //Open a template excel file
 
@@ -28,9 +28,9 @@ Worksheet sheet = book.Worksheets[0];
 
 ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
 
-//Specify the image format
+//Specify the image type
 
-imgOptions.ImageFormat = System.Drawing.Imaging.ImageFormat.Jpeg;
+imgOptions.ImageType = ImageType.Jpeg;
 
 //Render the sheet with respect to specified image/print options
 

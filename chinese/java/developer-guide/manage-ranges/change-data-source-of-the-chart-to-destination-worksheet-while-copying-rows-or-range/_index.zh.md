@@ -10,11 +10,7 @@ url: /zh/java/change-data-source-of-the-chart-to-destination-worksheet-while-cop
 ## **复制行或区域时更改图表的数据源到目标工作表**
 以下示例代码解释了在将包含图表的行或范围复制到新工作表时使用CopyOptions.ReferToDestinationSheet属性。该代码使用[示例Excel文件](5472284.xlsx)并生成[输出Excel文件](5472283.xlsx)。屏幕截图显示了[输出Excel文件](5472283.xlsx)中图表的数据源现在指向DestSheet而不是Sheet1。
 
-![todo:image_alt_text](change-data-source-of-the-chart_1.png)
-
-
-
-
+![todo:image_alt_text](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
 
 
 

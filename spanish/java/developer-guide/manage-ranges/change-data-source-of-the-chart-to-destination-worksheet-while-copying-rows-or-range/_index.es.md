@@ -10,11 +10,7 @@ Cuando copias filas o un rango que contiene gráficos a una nueva hoja de trabaj
 ## **Cambiar la fuente de datos del gráfico a la hoja de trabajo de destino al copiar filas o rango**
 El siguiente código de muestra explica el uso de la propiedad CopyOptions.ReferToDestinationSheet al copiar filas o rango que contienen un gráfico a una nueva hoja de trabajo. El código utiliza el [archivo de Excel de muestra](5472284.xlsx) y genera el [archivo de Excel de salida](5472283.xlsx). La captura de pantalla muestra que la fuente de datos del gráfico en el [archivo de Excel de salida](5472283.xlsx) ahora se refiere a DestSheet en lugar de Hoja1.
 
-![todo:image_alt_text](change-data-source-of-the-chart_1.png)
-
-
-
-
+![todo:image_alt_text](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
 
 
 

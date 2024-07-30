@@ -7,7 +7,7 @@ url: /de/net/converting-worksheet-to-image-file-by-page/
 
 {{< highlight csharp >}}
 
- Workbook book = new Workbook("Sheet to Image by Page.xls");
+Workbook book = new Workbook("Sheet to Image by Page.xls");
 
 Worksheet sheet = book.Worksheets[0];
 
@@ -17,7 +17,8 @@ options.HorizontalResolution = 200;
 
 options.VerticalResolution = 200;
 
-options.ImageFormat = System.Drawing.Imaging.ImageFormat.Tiff;
+//Specify the image type
+options.ImageType = ImageType.Tiff;
 
 //Sheet2Image By Page conversion
 

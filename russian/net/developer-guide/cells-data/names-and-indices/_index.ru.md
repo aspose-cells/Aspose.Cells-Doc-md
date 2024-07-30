@@ -14,7 +14,7 @@ Aspose.Cells предоставляет метод CellsHelper.CellIndexToName, 
 
 {{% alert color="primary" %}} 
 
-В отличие от Microsoft Excel, где индексы строк и столбцов начинаются с 1, Aspose.Cells начинает считать индексы строк и столбцов с 0.
+Microsoft Excel начинает отсчет индексов строк и столбцов с 1. В отличие от Microsoft Excel, Aspose.Cells начинает отсчет индексов строк и столбцов с 0.
 
 {{% /alert %}} 
 
@@ -29,7 +29,7 @@ Aspose.Cells предоставляет метод CellsHelper.CellNameToIndex, 
 
 {{% alert color="primary" %}} 
 
-В отличие от Microsoft Excel, где индексы строк и столбцов начинаются с 1, Aspose.Cells начинает считать индексы строк и столбцов с 0.
+Microsoft Excel начинает отсчет индексов строк и столбцов с 1. В отличие от Microsoft Excel, Aspose.Cells начинает отсчет индексов строк и столбцов с 0.
 
 {{% /alert %}} 
 

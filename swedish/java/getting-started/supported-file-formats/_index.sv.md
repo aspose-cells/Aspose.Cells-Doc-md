@@ -45,3 +45,4 @@ url: /sv/java/supported-file-formats/
 |[Epub](https://docs.fileformat.com/ebook/epub/)|Filer med .epub-förlängning är ett e-boksfilformat som tillhandahåller ett standardiserat digitalt publiceringsformat för utgivare och konsumenter.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Xml](https://docs.fileformat.com/web/xml/)|XML står för Extensible Markup Language som liknar HTML men skiljer sig i användningen av taggar för att definiera objekt.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Öppen dokumentmall (OTS) fil.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW är ett digitalt e-boksfilformat utvecklat av Amazon för sina Kindle-enheter. AZW3, även känt som Kindle Format 8 (KF8).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

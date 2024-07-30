@@ -14,7 +14,7 @@ Aspose.Cells proporciona el método CellsHelper.CellIndexToName que permite a lo
 
 {{% alert color="primary" %}} 
 
-A diferencia de Microsoft Excel, donde los índices de fila y columna comienzan desde 1, Aspose.Cells comienza a contar los índices de fila y columna desde 0.
+Microsoft Excel comienza a contar los índices de filas y columnas desde 1. A diferencia de Microsoft Excel, Aspose.Cells comienza a contar los índices de filas y columnas desde 0.
 
 {{% /alert %}} 
 
@@ -29,7 +29,7 @@ Aspose.Cells proporciona el método CellsHelper.CellNameToIndex que permite a lo
 
 {{% alert color="primary" %}} 
 
-A diferencia de Microsoft Excel, donde los índices de fila y columna comienzan desde 1, Aspose.Cells comienza a contar los índices de fila y columna desde 0.
+Microsoft Excel comienza a contar los índices de filas y columnas desde 1. A diferencia de Microsoft Excel, Aspose.Cells comienza a contar los índices de filas y columnas desde 0.
 
 {{% /alert %}} 
 

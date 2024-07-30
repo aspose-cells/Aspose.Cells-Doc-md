@@ -14,7 +14,7 @@ Aspose.Cells tillhandahåller CellsHelper.CellIndexToName-metoden som tillåter 
 
 {{% alert color="primary" %}} 
 
-Till skillnad från Microsoft Excel, där rad- och kolumnindex börjar från 1, börjar Aspose.Cells att räkna rad- och kolumnindex från 0.
+Microsoft Excel börjar räkna rad- och kolumnindex från 1. Till skillnad från Microsoft Excel börjar Aspose.Cells räkna rad- och kolumnindex från 0.
 
 {{% /alert %}} 
 
@@ -29,7 +29,7 @@ Aspose.Cells tillhandahåller CellsHelper.CellNameToIndex-metoden som tillåter 
 
 {{% alert color="primary" %}} 
 
-Till skillnad från Microsoft Excel, där rad- och kolumnindex börjar från 1, börjar Aspose.Cells att räkna rad- och kolumnindex från 0.
+Microsoft Excel börjar räkna rad- och kolumnindex från 1. Till skillnad från Microsoft Excel börjar Aspose.Cells räkna rad- och kolumnindex från 0.
 
 {{% /alert %}} 
 

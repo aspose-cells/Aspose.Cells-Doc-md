@@ -5,6 +5,9 @@ weight: 250
 url: /tr/net/aspose-cells-gridjs/storage/
 description: Bu makale, GridJs için genel dosya işleme işlemlerini açıklar.
 keywords: dosya önbelleği, depolama, GridJs, GridJs depolama, GridJs uid, indir, benzersiz kimlik
+aliases:
+  - /net/aspose-cells-gridjs/storage-introduction/
+  - /net/aspose-cells-gridjs/work-with-storage/
 ---
 
 

@@ -98,6 +98,8 @@ Aspose.Cells は、ネイティブの Excel ファイルの作成や読み込み
 - エンタープライズWebアプリケーション
 - Linux
 - Unix
+- Windows
+- Mac
 ## **成功事例**
 以下は、Aspose.Cellsの顧客からのいくつかの推薦文です。
 

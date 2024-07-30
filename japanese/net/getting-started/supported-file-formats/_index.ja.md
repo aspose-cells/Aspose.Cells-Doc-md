@@ -45,3 +45,4 @@ url: /ja/net/supported-file-formats/
 |[Epub](https://docs.fileformat.com/ebook/epub/)|.epub拡張子のファイルは、出版社および消費者向けの標準的なデジタル出版形式を提供する電子書籍ファイル形式です。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Xml](https://docs.fileformat.com/web/xml/)|XMLは、HTMLに似ていますが、オブジェクトを定義するためにタグを使用する点が異なります。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Open Document Template Sheet (OTS) ファイル。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW は、Amazon の Kindle デバイス用に開発されたデジタル電子書籍ファイル形式です。AZW3 は Kindle Format 8 (KF8) とも呼ばれます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

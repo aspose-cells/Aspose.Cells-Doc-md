@@ -45,3 +45,4 @@ url: /zh/cpp/supported-file-formats/
 |[Epub](https://docs.fileformat.com/ebook/epub/)|.epub扩展名的文件是一种为出版商和消费者提供标准数字出版格式的电子书文件格式。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Xml](https://docs.fileformat.com/web/xml/)|XML代表可扩展标记语言，类似于HTML，但使用标签定义对象。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Open Document Template Sheet(OTS)文件。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW是亚马逊为其Kindle设备开发的数字电子书文件格式。AZW3，也被称为Kindle Format 8 (KF8)。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

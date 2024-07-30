@@ -14,7 +14,7 @@ Aspose.Cells は CellsHelper.CellIndexToName メソッドを提供し、開発�
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel では行と列のインデックスは1から始まりますが、Aspose.Cells では行と列のインデックスは0から始まります。
+Microsoft Excelは行と列のインデックスを1から数えます。Microsoft Excelとは異なり、Aspose.Cellsは行と列のインデックスを0から数えます。
 
 {{% /alert %}} 
 
@@ -29,7 +29,7 @@ Aspose.Cells は CellsHelper.CellNameToIndex メソッドを提供し、開発�
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel では行と列のインデックスは1から始まりますが、Aspose.Cells では行と列のインデックスは0から始まります。
+Microsoft Excelは行と列のインデックスを1から数えます。Microsoft Excelとは異なり、Aspose.Cellsは行と列のインデックスを0から数えます。
 
 {{% /alert %}} 
 

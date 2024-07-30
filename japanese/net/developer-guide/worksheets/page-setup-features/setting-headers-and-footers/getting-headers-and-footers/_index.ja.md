@@ -24,7 +24,7 @@ description: この記事では、C# APIまたは.NETライブラリを使用し
 
 
 ## **Aspose.Cells for .Netを使用してヘッダーとフッターを取得する**
- [**Worksheet.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetHeader/)と[**Worksheet.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetFooter/)メソッドを使用すると、.Net開発者は簡単にファイルからヘッダーまたはフッターを取得できます。
+ [**Worksheet.PageSetup.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getheader/)と[**Worksheet.PageSetup.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getfooter/)メソッドを使用すると、.Net開発者は簡単にファイルからヘッダーまたはフッターを取得できます。
 
 1. ファイルを開くためのワークブックを作成します。
 2. ヘッダーやフッターを取得したいワークシートを取得します。
@@ -39,7 +39,7 @@ description: この記事では、C# APIまたは.NETライブラリを使用し
 
 ヘッダーとフッターの文字列は、ABNF文法を使用して構築されます。これはビューアなしには理解することが難しいです。
 
-Aspose.Cells for .Netは、ヘッダーとフッターをコマンドリストとして解析するための[**Worksheet.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetCommands/)メソッドを提供します。
+Aspose.Cells for .Netは、ヘッダーとフッターをコマンドリストとして解析するための[**Worksheet.PageSetup.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getcommands/)メソッドを提供します。
 
 以下のコードは、ヘッダーまたはフッターをコマンドリストとして解析し、コマンドを処理する方法を示しています:
 

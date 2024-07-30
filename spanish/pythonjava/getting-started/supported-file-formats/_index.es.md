@@ -45,3 +45,4 @@ url: /es/python-java/supported-file-formats/
 |[Epub](https://docs.fileformat.com/ebook/epub/)|Los archivos con extensión .epub son un formato de archivo de libros electrónicos que proporciona un formato estándar de publicación digital para editores y consumidores.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Xml](https://docs.fileformat.com/web/xml/)|XML significa Lenguaje de Marcado Extensible, similar a HTML pero diferente en el uso de etiquetas para definir objetos.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Archivo de Plantilla de Documento Abierto (OTS).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW es un formato de archivo de libro digital desarrollado por Amazon para sus dispositivos Kindle. AZW3, también conocido como Kindle Format 8 (KF8).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

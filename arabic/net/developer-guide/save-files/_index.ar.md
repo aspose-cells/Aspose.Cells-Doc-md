@@ -59,7 +59,7 @@ keywords: ‏Aspose.Cells Save Excel إلى PDF، HTML، JSON، CSV، TXT، XML�
 
 عند تنفيذ الكود ، يتم تحويل بيانات كافة الأوراق في دفتر العمل إلى تنسيق TXT.
 
-يمكنك تعديل نفس المثال لحفظ ملفك إلى CSV. بشكل افتراضي، [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) هو الفاصلة، لذا لا تحدد فاصلًا عند حفظ التنسيق إلى CSV.
+يمكنك تعديل نفس المثال لحفظ ملفك إلى CSV. افتراضيًا، [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) هي فاصلة، لذا لا تحدد فاصلة عند الحفظ بتنسيق CSV. يرجى ملاحظة: إذا كنت تستخدم النسخة التقييمية وحتى إذا تم تعيين خاصية [**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/) على القيمة true، فإن البرنامج سيقوم فقط بتصدير ورقة عمل واحدة.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 

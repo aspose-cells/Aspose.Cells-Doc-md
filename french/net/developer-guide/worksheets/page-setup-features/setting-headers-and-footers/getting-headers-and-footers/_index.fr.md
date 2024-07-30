@@ -24,7 +24,7 @@ Pour d'autres types de feuilles, tels que les feuilles de graphique ou les graph
 
 
 ## **Obtenir des en-têtes et des pieds de page en utilisant Aspose.Cells pour .Net**
-Avec les méthodes [**Worksheet.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetHeader/) et [**Worksheet.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetFooter/), le développeur .Net peut simplement obtenir des en-têtes ou des pieds de page à partir du fichier.
+Avec les méthodes [**Worksheet.PageSetup.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getheader/) et [**Worksheet.PageSetup.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getfooter/), le développeur .Net peut simplement obtenir des en-têtes ou des pieds de page à partir du fichier.
 
 1. Construisez un classeur pour ouvrir le fichier.
 2. Obtenez la feuille de calcul où vous souhaitez obtenir les en-têtes ou les pieds de page.
@@ -39,7 +39,7 @@ Les commandes spéciales sont représentées par une seule lettre avec un esperl
 
 Les chaînes d'en-tête et de pied de page sont construites en utilisant la grammaire ABNF. Ce n'est pas facile à comprendre sans visionneuse .
 
-Aspose.Cells pour .Net fournit la méthode [**Worksheet.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetCommands/) pour analyser les en-têtes et les pieds de page en tant que liste de commandes.
+Aspose.Cells pour .Net fournit la méthode [**Worksheet.PageSetup.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/getcommands/) pour analyser les en-têtes et les pieds de page en tant que liste de commandes.
 
 Le code suivant montre comment analyser l'en-tête ou le pied de page en tant que liste de commandes et traiter les commandes :
 

@@ -98,6 +98,8 @@ De plus, il existe également un certain nombre de fonctionnalités uniques que 
 - Application web d'entreprise
 - Linux
 - Unix
+- Windows
+- Mac
 ## **Témoignages de réussite**
 Voici quelques témoignages de clients Aspose.Cells.
 

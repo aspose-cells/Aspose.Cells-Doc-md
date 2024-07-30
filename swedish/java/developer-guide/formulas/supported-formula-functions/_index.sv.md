@@ -148,6 +148,7 @@ Aspose.Cells' Formel Beräkningsmotor låter dig ange, läsa och beräkna result
 |DOLLARDE|**Ekonomi**: Konverterar ett dollapris, uttryckt som en bråkdel, till ett dollapris uttryckt som ett decimaltal
 |DOLLARFR|**Ekonomi**: Konverterar ett dollapris, uttryckt som ett decimaltal, till ett dollapris uttryckt som en bråkdel
 |DPRODUCT|**Databas**: Multipliserar värdena i ett särskilt fält av poster som matchar kriterierna i en databas
+|DROP|**Sökning och referens**: Exkluderar ett angivet antal rader eller kolumner från början eller slutet av en matris
 |DSTDEV|**Databas**: Beräknar standardavvikelsen baserat på ett urval av valda databasposter
 |DSTDEVP|**Databas**: Beräknar standardavvikelsen baserat på hela populationen av valda databasposter
 |DSUM|**Databas**: Adderar siffrorna i fältkolumnen för poster i databasen som matchar kriterierna

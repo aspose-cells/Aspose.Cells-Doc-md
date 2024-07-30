@@ -59,7 +59,7 @@ Följande kodexempel förklarar hur du sparar en hel arbetsbok i textformat. Lad
 
 När koden körs konverterar den datan i alla arbetsblad i arbetsboken till TXT-format.
 
-Du kan ändra samma exempel för att spara din fil som CSV. Som standard är [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) komma, så ange inte ett separator om du sparar i CSV-format.
+Du kan modifiera samma exempel för att spara din fil till CSV. Som standard är [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) kommatecken, så ange inte en avskiljare om du sparar till CSV-format. Observera: Om du använder utvärderingsversionen och även om egenskapen [**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/) är inställd på true kommer programmet ändå bara exportera ett kalkylblad.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 

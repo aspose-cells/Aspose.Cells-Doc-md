@@ -5,6 +5,9 @@ weight: 250
 url: /ja/net/aspose-cells-gridjs/storage/
 description: この記事では、GridJsの一般的なファイル処理について説明します。
 keywords: ファイルキャッシュ、ストレージ、GridJs、GridJsストレージ、GridJs uid、ダウンロード、uniqueid
+aliases:
+  - /net/aspose-cells-gridjs/storage-introduction/
+  - /net/aspose-cells-gridjs/work-with-storage/
 ---
 
 

@@ -38,3 +38,8 @@ Aspose.Cells ile Excel dosyalarını açmak, kaydetmek ve yönetmek kolaydır.
 - [Numbers Elektronik Tablosu, Apple Inc. tarafından geliştirildi.](/cells/tr/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Çok uzun sürüyorsa, Duraklatma İzleyiciyi kullanarak dönüşümü veya yüklemeyi durdurun](/cells/tr/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [LightCells API'sını Kullanma](/cells/tr/net/using-lightcells-api/)
+- [CSV'yi JSON'a dönüştür](/cells/tr/net/convert-csv-to-json/)
+- [Excel'i JSON'a dönüştür](/cells/tr/net/convert-excel-to-json/)
+- [JSON'ı CSV'ye dönüştür](/cells/tr/net/convert-json-to-csv/)
+- [JSON'ı Excel'e dönüştür](/cells/tr/net/convert-json-to-excel/)
+- [Excel'i HTML'ye dönüştür](/cells/tr/net/convert-excel-to-html/)

@@ -59,7 +59,7 @@ El siguiente ejemplo de código explica cómo guardar un libro de trabajo comple
 
 Cuando se ejecuta el código, convierte los datos de todas las hojas del libro de trabajo al formato TXT.
 
-Puede modificar el mismo ejemplo para guardar su archivo en CSV. De forma predeterminada, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) es la coma, por lo que no especifique un separador al guardar en formato CSV.
+Puedes modificar el mismo ejemplo para guardar tu archivo en CSV. Por defecto, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) es una coma, así que no especifiques un separador al guardar en formato CSV. Ten en cuenta: Si estás usando la versión de evaluación e incluso si la propiedad [**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/) está configurada en true, el programa seguirá exportando solo una hoja de trabajo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 

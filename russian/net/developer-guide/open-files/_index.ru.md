@@ -38,3 +38,8 @@ description: С помощью Aspose.Cells просто создавайте, �
 - [Чтение таблицы чисел, разработанной Apple Inc. с использованием Aspose.Cells](/cells/ru/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Прекратите преобразование или загрузку с использованием объекта InterruptMonitor, если это занимает слишком много времени](/cells/ru/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [Использование API LightCells](/cells/ru/net/using-lightcells-api/)
+- [Преобразовать CSV в JSON](/cells/ru/net/convert-csv-to-json/)
+- [Преобразовать Excel в JSON](/cells/ru/net/convert-excel-to-json/)
+- [Преобразовать JSON в CSV](/cells/ru/net/convert-json-to-csv/)
+- [Преобразовать JSON в Excel](/cells/ru/net/convert-json-to-excel/)
+- [Convert-Excel-to-Html](/cells/ru/net/convert-excel-to-html/)

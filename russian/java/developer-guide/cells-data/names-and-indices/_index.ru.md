@@ -15,21 +15,23 @@ Aspose.Cells предоставляет метод [CellsHelper.cellIndexToName]
 
 {{% alert color="primary" %}} 
 
-В отличие от Microsoft Excel, где индексы строки и столбца начинаются с 1, в Aspose.Cells индексы строки и столбца начинаются с 0.
+Microsoft Excel начинает отсчет индексов строк и столбцов с 1. В отличие от Microsoft Excel, Aspose.Cells начинает отсчет индексов строк и столбцов с 0.
 
 {{% /alert %}} 
 
 В следующем примере кода показано, как использовать [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)), чтобы получить имя ячейки в известном индексе строки и столбца. Код генерирует следующий вывод.
 
+{{< highlight java >}}
 
+Cell Name at [0, 0]: A1
 
-Имя ячейки в [0, 0]: A1
+Cell Name at [4, 0]: A5
 
-Имя ячейки в [4, 0]: A5
+Cell Name at [0, 4]: E1
 
-Имя ячейки в [0, 4]: E1
+Cell Name at [2, 2]: C3
 
-Имя ячейки в [2, 2]: C3
+{{< /highlight >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-IndexToName-1.java" >}}
 ## **Как получить индексы строки и столбца из имени ячейки**
@@ -39,17 +41,19 @@ Aspose.Cells предоставляет метод [CellsHelper.cellNameToIndex]
 
 {{% alert color="primary" %}} 
 
-В отличие от Microsoft Excel, где индексы строки и столбца начинаются с 1, в Aspose.Cells индексы строки и столбца начинаются с 0.
+Microsoft Excel начинает отсчет индексов строк и столбцов с 1. В отличие от Microsoft Excel, Aspose.Cells начинает отсчет индексов строк и столбцов с 0.
 
 {{% /alert %}} 
 
 В следующем примере кода показано, как использовать [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) для получения индекса строки и столбца из имени ячейки. Код генерирует следующий вывод.
 
+{{< highlight java >}}
 
+Row Index of Cell C6: 5
 
-Индекс строки ячейки C6: 5
+Column Index of Cell C6: 2
 
-Индекс столбца ячейки C6: 2
+{{< /highlight >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-NameToIndex-1.java" >}}
 ## **Как создать безопасные имена листов**
