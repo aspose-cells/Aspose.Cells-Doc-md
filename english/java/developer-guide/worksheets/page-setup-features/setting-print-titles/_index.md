@@ -4,7 +4,7 @@ type: docs
 weight: 200
 url: /java/how-to-set-print-titles/
 description: This article shows you code explaining how to set print titles using Aspose.Cells library.
-keywords: Java How to Set Print Titles, Set and Clear Print Titles using Java, How to Clear Print Titles in Java, How to add print titles using Java, how to remove print titles using Java, How to Set Print Titles in Excel, How to Clear Print Titles in Excel.
+keywords: Print rows and columns repeatedly, Java How to Set Print Titles, Set and Clear Print Titles using Java, How to Clear Print Titles in Java, How to add print titles using Java, how to remove print titles using Java, How to Set Print Titles in Excel, How to Clear Print Titles in Excel.
 ---
 
 ## **Possible Usage Scenarios**

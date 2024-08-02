@@ -4,7 +4,7 @@ type: docs
 weight: 200
 url: /net/how-to-set-print-area/
 description: This article shows you code explaining how to set print area using Aspose.Cells library.
-keywords: C# How to Set Print Area, Set and Clear Print Area using C#, How to Clear Print Area in C#, How to add print area using C#, how to remove print area using C#, How to Set Print Area in Excel, How to Clear Print Area in Excel.
+keywords: Limit printing range, Set Print Range, Clear Print Range, Set and Clear Print Range using C#, C# How to Set Print Area, Set and Clear Print Area using C#, How to Clear Print Area in C#, How to add print area using C#, how to remove print area using C#, How to Set Print Area in Excel, How to Clear Print Area in Excel.
 ---
 
 ## **Possible Usage Scenarios**
@@ -47,6 +47,13 @@ To clear the print area in Excel, follow these steps:
 <br>
 This action will remove any previously set print area, allowing the entire worksheet to be printed.
 
+## **What Happens After Clearing the Print Area**
+
+Clearing the print area in a spreadsheet application like Excel using Aspose.Cells will result in the entire worksheet being included when you print the document. If a print area is set, only the specified range of cells will be printed. By clearing the print area, you ensure that no specific range is defined, and the default printing behavior, which includes the entire sheet, will take effect.
+
+1. Default Printing Behavior: The entire worksheet will be considered for printing. This means all cells with data or formatting will be printed.
+1. No Print Area Limits: Previously defined print area limits will be removed. If there were specific rows and columns designated for printing, they will no longer be constrained to those limits.
+1. Full Content Print: All content, including headers, footers, and any other data within the worksheet, will be included in the print job.
 
 ## **How to Set Print Area Using Aspose.Cells**
 
