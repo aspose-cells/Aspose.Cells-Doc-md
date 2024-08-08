@@ -8,6 +8,15 @@ url: /java/what-s-new-in-aspose-cells-for-java/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 24.8
+* Support new functions: VALUETOTEXT, ARRAYTOTEXT
+* Support sorting pivot table by pivot field item
+* Support to visit all cells that contain "Place in Cell" pictures
+* Support to keep document properties without encryption when encrypting file
+* Support editing formulas with blank spaces for GridWeb
+* Support configuration to show or hide invisible shapes in GridJs
+* Improve features of GridJs such as settings, editing formulas, input checking
+
 ## Aspose.Cells for Java 24.7
 * Support DROP function in formulas
 * Improve the performance of calculating LET and MAKEARRAY functions with complex parameters
