@@ -36,6 +36,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |ANCHORARRAY|**Lookup and reference**: Returns the entire spilled range for the dynamic array in cell
 |AND|**Logical**: Returns TRUE if all of its arguments are TRUE
 |AREAS|**Lookup and reference**: Returns the number of areas in a reference
+|ARRAYTOTEXT|**Text**: Returns an array of text values from any specified range
 |ASC|**Text**: Changes full-width (double-byte) English letters or katakana within a character string to half-width (single-byte) characters
 |ASIN|**Math and trigonometry**: Returns the arcsine of a number
 |ASINH|**Math and trigonometry**: Returns the inverse hyperbolic sine of a number
@@ -515,6 +516,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |**Function**|**Summary**|
 | :- | :- |
 |VALUE|**Text**: Converts a text argument to a number
+|VALUETOTEXT|**Text**: Returns text from any specified value
 |VAR|**Compatibility**: Estimates variance based on a sample
 |VAR.P|**Statistical**: Calculates variance based on the entire population
 |VAR.S|**Statistical**: Estimates variance based on a sample
