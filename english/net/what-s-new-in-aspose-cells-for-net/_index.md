@@ -8,6 +8,17 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 24.8
+* Support new functions: VALUETOTEXT, ARRAYTOTEXT
+* Support GridWeb for .NET6.0 on Linux
+* Support sorting pivot table by pivot field item
+* Support showing details of value in the data region for pivot table
+* Support to visit all cells that contain "Place in Cell" pictures
+* Support to keep document properties without encryption when encrypting file
+* Support editing formulas with blank spaces for GridWeb
+* Support configuration to show or hide invisible shapes in GridJs
+* Improve features of GridJs such as settings, editing formulas, input checking
+
 ## Aspose.Cells for .NET 24.7
 * Support DROP function in formulas
 * Improve the performance of calculating LET and MAKEARRAY functions with complex parameters
