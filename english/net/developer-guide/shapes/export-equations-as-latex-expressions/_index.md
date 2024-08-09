@@ -1,5 +1,5 @@
 ---
-title: How to export equations to other types of expressions
+title: How to export excel equations to other types of expressions
 linktitle: export equation
 type: docs
 weight: 100
@@ -14,9 +14,9 @@ Sample file:[Sample.xlsx](Sample.xlsx)
 
 ## Export equations as LaTeX expressions
 
-If you want to export equations in Excel as LaTeX expressions, you can use the ToLaTeX() method. 
+If you want to export equations in Excel as LaTeX expressions, you can use the [ToLaTeX()](https://reference.aspose.com/cells/net/aspose.cells.drawing.equations/equationnode/tolatex/) method. 
 
-The following sample code shows how to use the ToLaTeX() method and insert the generated results into HTML:
+The following sample code shows how to use the [ToLaTeX()](https://reference.aspose.com/cells/net/aspose.cells.drawing.equations/equationnode/tolatex/) method and insert the generated results into HTML:
 
 ### C#-To-LaTeX
 
@@ -24,13 +24,13 @@ The following sample code shows how to use the ToLaTeX() method and insert the g
 
 ## Export equations as MathML expressions
 
-If you want to export equations in Excel as MathML expressions, you can use the ToMathML() method. 
+If you want to export equations in Excel as MathML expressions, you can use the [ToMathML()](https://reference.aspose.com/cells/net/aspose.cells.drawing.equations/equationnode/tomathml/) method. 
 
-The following sample code shows how to use the ToMathML() method and insert the generated results into HTML:
+The following sample code shows how to use the [ToMathML()](https://reference.aspose.com/cells/net/aspose.cells.drawing.equations/equationnode/tomathml/) method and insert the generated results into HTML:
 
 ### C#-To-MathML
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Export-equations-as-MathML-expressions.cs" >}}
 
 
-![](3.png)
+
