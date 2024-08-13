@@ -1,10 +1,10 @@
 ---
-title: How to Set FitToPagesWide and FitToPagesTall
+title: How to Print Excel as Fitted Pages Wide and Tall
 type: docs
 weight: 200
-url: /net/how-to-set-fittopagestall-and-fittopageswide/
+url: /net/how-to-print-excel-as-fitted-pages-wide-and-tall/
 description: This article shows you code explaining how to How to Set FitToPagesWide and FitToPagesTall using Aspose.Cells library.
-keywords: C# How to Set FitToPagesWide and FitToPagesTall, How to add FitToPagesWide and FitToPagesTall in C#, How to Set FitToPagesWide and FitToPagesTall in Excel, How to Clear FitToPagesWide and FitToPagesTall in Excel.
+keywords: C# How to Set FitToPagesWide and FitToPagesTall, How to add FitToPagesWide and FitToPagesTall in C#, How to Set FitToPagesWide and FitToPagesTall in Excel, How to Clear FitToPagesWide and FitToPagesTall in Excel, How to Print Excel as Fitted Pages Wide and Tall, How to Print Worksheet as One Page, How to Print All Columns of Worksheet in One Page.
 ---
 
 ## **Introduction**
@@ -20,7 +20,7 @@ Here are some reasons to set FitToPagesWide and FitToPagesTall:
 1. Consistency: If you're printing multiple sheets or reports, using these settings helps maintain a consistent format, making it easier to compare and analyze printed documents.
 1. Professional Presentation: Properly scaling and fitting content to a specified number of pages can result in a more professional and polished presentation of your data.
 
-## **How to Set FitToPagesWide and FitToPagesTall in Excel**
+## **How to Print File as Fitted Pages Wide and Tall in Excel**
 
 To set the FitToPagesWide and FitToPagesTall settings in Microsoft Excel, follow these steps:
 
@@ -35,7 +35,7 @@ To set the FitToPagesWide and FitToPagesTall settings in Microsoft Excel, follow
 1. Click OK to apply the settings.
 
 
-## **How to Set FitToPagesWide and FitToPagesTall Using Aspose.Cells**
+## **How to Print Excel as Fitted Pages Wide and Tall Using Aspose.Cells**
 
 To set FitToPagesWide and FitToPagesTall in a specified worksheet: First, load the [sample file](input.xlsx), and then you need to modify the [**Worksheet.PageSetup.FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/fittopagestall/) and [**Worksheet.PageSetup.FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/fittopageswide/) properties of the [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/) object for the desired worksheet. Here is an example in C#:
 
@@ -44,3 +44,25 @@ To set FitToPagesWide and FitToPagesTall in a specified worksheet: First, load t
 The output result:
 <br>
 <img src="1.png" width=60% />
+
+
+## **How to Print Worksheet as One Page Using Aspose.Cells**
+
+To print Worksheet as one page: First, load the [sample file](sample.xlsx), and then you need to set the [**PdfSaveOptions.OnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/onepagepersheet/) property of the [**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/) object. Here is an example in C#:
+
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Worksheets-PageSetup-OnePagePerSheet.cs" >}}
+
+The output result:
+<br>
+<img src="3.png" width=60% />
+
+
+## **How to Print All Columns of Worksheet in One Page Using Aspose.Cells**
+
+To print all columns of Worksheet in one page: First, load the [sample file](sample.xlsx), and then you need to set the [**PdfSaveOptions.AllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/allcolumnsinonepagepersheet/) property of the [**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/) object. Here is an example in C#:
+
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Worksheets-PageSetup-AllColumnsInOnePagePerSheet.cs" >}}
+
+The output result:
+<br>
+<img src="4.png" width=60% />
