@@ -1,0 +1,14 @@
+---
+title: Inserting a WAV file as an Ole Object
+type: docs
+weight: 70
+url: /python-net/inserting-a-wav-file-as-an-ole-object/
+---
+
+{{% alert color="primary" %}} 
+
+Aspose.Cells for Python via .NET provides the functionality to add different types of OLE objects to the excel worksheets. We will see in the following code examples, how to add a wav file as an OLE object using simple APIs provided by Aspose.Cells for Python via .NET. 
+
+{{% /alert %}} 
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-InsertingWAVFile-1.py" >}}
