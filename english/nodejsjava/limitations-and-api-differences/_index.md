@@ -26,7 +26,7 @@ The following list (with sample code segments) shows some differences between As
 
  var aspose = aspose || {};
 
-aspose.cells = require("aspose.cells");
+aspose.cells = require("aspose.cells.java");
 
 {{< /highlight >}}
 ### **Instantiating a new Workbook**
@@ -88,7 +88,7 @@ workbook.save(“result.xlsx”);
 
  var aspose = aspose || {};
 
-aspose.cells = require("aspose.cells");
+aspose.cells = require("aspose.cells.java");
 
 var fs = require("fs");
 

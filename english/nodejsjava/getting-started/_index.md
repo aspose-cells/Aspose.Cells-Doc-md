@@ -13,7 +13,7 @@ Aspose.Cells for Node.js via Java is platform-independent API and can be used o
 You can easily use Aspose.Cells for Node.js via Java from [NPM](https://www.npmjs.com/package/aspose.cells) with the following command.
 {{< highlight java >}}
 
- $ npm install aspose.cells
+ $ npm install aspose.cells.java
 
 {{< /highlight >}}
 
@@ -48,7 +48,7 @@ $ npm install java
 
  var aspose = aspose || {};
 
-aspose.cells = require("aspose.cells");
+aspose.cells = require("aspose.cells.java");
 
 var workbook = new aspose.cells.Workbook(aspose.cells.FileFormatType.XLSX);
 
@@ -91,7 +91,7 @@ console.log("hello world");
 
  var aspose = aspose || {};
 
-aspose.cells = require("aspose.cells");
+aspose.cells = require("aspose.cells.java");
 
 var workbook = new aspose.cells.Workbook(aspose.cells.FileFormatType.XLSX);
 
@@ -151,7 +151,7 @@ console.log("hello world");
 
  var aspose = aspose || {};
 
-aspose.cells = require("aspose.cells");
+aspose.cells = require("aspose.cells.java");
 
 var workbook = new aspose.cells.Workbook(aspose.cells.FileFormatType.XLSX);
 
