@@ -7,7 +7,7 @@ url: /python-net/send-shape-front-or-back-inside-the-worksheet/
 
 ## **Possible Usage Scenarios**
 
-When there are multiple shapes present in the same location then how will they be visible is decided by their z-order positions. Aspose.Cells provides [**Shape.to_front_or_back()**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/to_front_or_back) method which changes the z-order position of the shape. If you want to send shape to back you will use a negative number like -1, -2, -3, etc. and if you want to send shape to the front, you will use a positive number like 1, 2, 3, etc.
+When there are multiple shapes present in the same location then how will they be visible is decided by their z-order positions. Aspose.Cells for Python via .NET provides [**Shape.to_front_or_back()**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/to_front_or_back) method which changes the z-order position of the shape. If you want to send shape to back you will use a negative number like -1, -2, -3, etc. and if you want to send shape to the front, you will use a positive number like 1, 2, 3, etc.
 
 ## **Send Shape Front or Back inside the Worksheet**
 
@@ -17,4 +17,4 @@ The following sample code explains the usage of [**Shape.to_front_or_back()**](h
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-SendShapeFrontOrBackInWorksheet.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-SendShapeFrontOrBackInWorksheet.py" >}}

@@ -16,7 +16,7 @@ The following example shows how to add a WordArt shape to set a background water
 
 
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddWordArtWatermarkToWorksheet-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-WordArt-AddWordArtWatermarkToWorksheet-1.py" >}}
 
 ## **Advance topics**
 - [Add Word Art Text with Built-in Styles](/cells/python-net/add-word-art-text-with-built-in-styles/)
