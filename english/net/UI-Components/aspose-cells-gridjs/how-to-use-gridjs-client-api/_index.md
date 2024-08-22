@@ -32,7 +32,7 @@ xs = x_spreadsheet(id, options)
 	    showToolbar:   means whether to show toolbar
 	    showFileName:  whether to show the filename 
 	    local:         support multiple language for menus ,the locale can be:
-	                        en, cn, es, pt, de, ru, nl, 
+	                        en, zh, es, pt, de, ru, nl, 
 	                   for  English,Chinese,Spanish,Portuguese,German,Russian,Dutch
 			        ar, fr,id,it,ja
                            for  Arabic,French,Indonesian,Italian,Japanese
