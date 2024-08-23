@@ -30,6 +30,8 @@ xs = x_spreadsheet(id, options)
 	    mode: read means readonly spread sheet/edit means we can edit the spread sheet
             allowSelectTextInTextBoxInReadMode: whether allow select text in TextBox control when in read mode,the default value is false
 	    showToolbar:   means whether to show toolbar
+	    showCheckSyntaxButton: whether to show syntax checking & spell correction button in toolbar
+	    checkSyntax:   whether to do syntax checking & spell correction for user input for text content
 	    showFileName:  whether to show the filename 
 	    local:         support multiple language for menus ,the locale can be:
 	                        en, zh, es, pt, de, ru, nl, 
@@ -116,6 +118,15 @@ xs.setOleDownloadInfo(oleActionUrl);
     for example: 
             const oleDownloadUrl = "/GridJs2/Ole";
             xs.setOleDownloadInfo(oleDownloadUrl);
+```
+- set info for syntax checking & spell correction operation for server side action
+```javascript
+xs.setSyntaxCheckUrl(checkUrl);
+// the parameters are:
+	checkUrl: the  syntax checking & spell correction operation action URL in the server side controller
+    for example: 
+            const checkurl = "/GridJs2/CheckSyntax";
+            xs.setSyntaxCheckUrl(checkurl);
 ```
   
 
