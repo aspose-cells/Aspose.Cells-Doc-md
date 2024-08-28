@@ -17,7 +17,7 @@ Please see the following sample code and its [source excel file](22774108.xlsx) 
 
 ## C# code to read color of shapes glow effect
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ReadColorOfShapesGlowEffect.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Options-ReadColorOfShapesGlowEffect.py" >}}
 
 ## Console Output
 
