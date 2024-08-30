@@ -3,13 +3,16 @@ title: Working with GridJs Client Side
 type: docs
 weight: 250
 url: /java/aspose-cells-gridjs/how-to-use-gridjs-client-api/
-keywords: GridJs,custom,logo,setting,api
+keywords: GridJs,custom,logo,setting,api,js api,client api
 description: This article introduce the client javascript APIs  or functions  in GridJs.
 aliases:
   - /java/aspose-cells-gridjs/client/
   - /java/aspose-cells-gridjs/work-with-client-api/
   - /java/aspose-cells-gridjs/use-js-api/
   - /java/aspose-cells-gridjs/gridjs-spreadsheet-api/
+  - /java/aspose-cells-gridjs/client-api/
+  - /java/aspose-cells-gridjs/js-api/
+  - /java/aspose-cells-gridjs/javascript-api/
 ---
 
 # Working with GridJs Client Side
@@ -27,21 +30,22 @@ xs = x_spreadsheet(id, options)
 	    updateMode:  currently we only support 'server'
 	    updateUrl:  set the server side  url for update action based on json
 		view: set the view size for the sheet,for example `{width: () => 1000, height: ()=> 500}`
-	    mode: read means readonly spread sheet/edit means we can edit the spread sheet
-            allowSelectTextInTextBoxInReadMode: whether allow select text in TextBox control when in read mode,the default value is false
+	    mode:        can be read or edit,   read means readonly spread sheet/edit means we can edit the spread sheet
+	    allowSelectTextInTextBoxInReadMode:   whether allow select text in TextBox control when in read mode,it is optional,the default value is false
 	    showToolbar:   means whether to show toolbar
-	    showCheckSyntaxButton: whether to show syntax checking & spell correction button in toolbar
-	    checkSyntax:   whether to do syntax checking & spell correction for user input for text content
+	    showCheckSyntaxButton: whether to show syntax checking & spell correction button in toolbar,it is optional,the default value is false
+	    checkSyntax:   whether to perform syntax checking & spell correction for user input for text content,work with setSyntaxCheckUrl,it is optional,the default value is false
+	    showFormulaExplain: whether to show formula explanation ,work with setFormulaExplainUrl,it is optional,the default value is false
 	    showFileName:  whether to show the filename 
-	    local:         support multiple language for menus ,the locale can be:
+	    local:         set the localization info for menus &toolbars ,support multiple language,the value can be:
 	                        en, zh, es, pt, de, ru, nl, 
 	                   for  English,Chinese,Spanish,Portuguese,German,Russian,Dutch
 			        ar, fr,id,it,ja
                            for  Arabic,French,Indonesian,Italian,Japanese
 			        ko,th,tr,vi,cht
                            for  Korean,Thai,Turkey,Vietnamese,Traditional Chinese                  
-	    showContextmenu:   means whether to show contextmenu on right click on a cell
-            loadingGif:  the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
+	    showContextmenu:   means whether to show contextmenu on right click on a cell,it is optional,the default value is true
+	    loadingGif:  the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
 	for example the below code init a x_spreadsheet object.
 	xs = x_spreadsheet('#gridjs-demo', {
 			updateMode:'server',
@@ -95,7 +99,7 @@ xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActio
             const imageuploadurl1 = "/GridJs2/AddImage";
             const imageuploadurl2 = "/GridJs2/AddImageByURL";
             const imagecopyurl = "/GridJs2/CopyImage";  
-	    const basiczorder = 5678;
+            const basiczorder = 5678;
     xs.setImageInfo(imageurl, imageuploadurl1, imageuploadurl2, imagecopyurl, basiczorder);
 ```
 
@@ -127,6 +131,16 @@ xs.setSyntaxCheckUrl(checkUrl);
     for example: 
             const checkurl = "/GridJs2/CheckSyntax";
             xs.setSyntaxCheckUrl(checkurl);
+```
+
+- set info for formula explanation for server side action
+```javascript
+xs.setFormulaExplainUrl(formulaExplainUrl);
+// the parameters are:
+	formulaExplainUrl: the  formula explanation  action URL in the server side controller
+    for example: 
+            const formulaExplainUrl = "/GridJs2/FormulaExplain";
+            xs.setFormulaExplainUrl(formulaExplainUrl);
 ```
   
 

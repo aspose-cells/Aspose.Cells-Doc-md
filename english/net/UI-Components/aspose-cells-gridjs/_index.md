@@ -20,3 +20,4 @@ url: /net/aspose-cells-gridjs/
 - [Settings for GridJs](/cells/net/aspose-cells-gridjs/settings/)
 - [Custom Context Menu](/cells/net/aspose-cells-gridjs/how-to-custom-context-menu/)
 - [Syntax Checking & Spell Correction](/cells/net/aspose-cells-gridjs/how-to-do-syntax-checking/)
+- [Show Formula Explanation](/cells/net/aspose-cells-gridjs/how-to-show-formula-explanation/)

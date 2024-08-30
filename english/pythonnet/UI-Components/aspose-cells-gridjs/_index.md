@@ -19,3 +19,4 @@ url: /python-net/aspose-cells-gridjs/
 - [Settings for GridJs](/cells/python-net/aspose-cells-gridjs/settings/)
 - [Custom Context Menu](/cells/python-net/aspose-cells-gridjs/custommenu/)
 - [Syntax Checking & Spell Correction](/cells/python-net/aspose-cells-gridjs/how-to-do-syntax-checking/)
+- [Show Formula Explanation](/cells/python-net/aspose-cells-gridjs/how-to-show-formula-explanation/)
