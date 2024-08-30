@@ -2,13 +2,13 @@
 title: show formula explanation for GridJs  
 type: docs
 weight: 250
-url: /python-net/aspose-cells-gridjs/how-to-do-syntax-checking/
+url: /python-net/aspose-cells-gridjs/how-to-show-formula-explanation/
 description: This article describes how to show formula explanation for GridJs.
 keywords: GridJs,formula,formula explanation,show formula explanation,formula interpreter
 aliases:
   - /python-net/aspose-cells-gridjs/show-formula-explanation/
   - /python-net/aspose-cells-gridjs/display-formula-explanation/
-  - /python-net/aspose-cells-gridjs/how-to-show-formula-explanation/
+  - /python-net/aspose-cells-gridjs/how-to-display-formula-explanation/
   - /python-net/aspose-cells-gridjs/formula-explanation/
   - /python-net/aspose-cells-gridjs/formula-interpreter/
 ---
