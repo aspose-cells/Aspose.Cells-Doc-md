@@ -4,8 +4,8 @@ linktitle: How to create a Gantt chart
 type: docs
 weight: 72
 url: /python-net/how-to-create-gantt-chart/
-description: Learn how to create a Gantt chart with Aspose.Cells for .NET API.
-keywords: C# create a Gantt chart, add a Gantt chart, insert a Gantt chart
+description: Learn how to create a Gantt chart with Aspose.Cells for Python via .NET API.
+keywords: Python create a Gantt chart, add a Gantt chart, insert a Gantt chart
 ---
 
 ## **What is Gantt chart**
@@ -41,12 +41,12 @@ You can create a Gantt chart in Excel by following these steps:
 <img src="0.png" width=50% />
 
 
-## **How to Add a Gantt Chart in Aspose.Cells**
-Please see the following sample code. It loads the [sample Excel file](sample.xlsx) that contains some sample data. It then creates the stacked bar chart based on the initial data and sets relevant properties. Finally, it saves the workbook to [output XLSX format](result.xlsx). The following screenshot shows the Gantt chart created by Aspose.Cells in the output Excel file.
+## **How to Add a Gantt Chart in Aspose.Cells for Python Excel Library**
+Please see the following sample code. It loads the [sample Excel file](sample.xlsx) that contains some sample data. It then creates the stacked bar chart based on the initial data and sets relevant properties. Finally, it saves the workbook to [output XLSX format](result.xlsx). The following screenshot shows the Gantt chart created by Aspose.Cells for Python via .NET in the output Excel file.
 <br>
 <img src="5.png" width=60% />
 
 ### **Sample Code**
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-gantt-chart.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-gantt-chart.py" >}}
 

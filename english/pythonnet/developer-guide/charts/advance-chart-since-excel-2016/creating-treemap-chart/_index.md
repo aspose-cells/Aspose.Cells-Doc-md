@@ -1,7 +1,7 @@
 ---
 title: How to create TreeMap chart
-description: Learn how to create a Treemap chart in Aspose.Cells for .NET. Our guide will help you understand the various properties and formatting options available for Treemap charts, including colors, labels, and data representation.
-keywords: Aspose.Cells for .NET, Treemap chart, create, properties, formatting, colors, labels, data representation, circular chart, hierarchical charting.
+description: Learn how to create a Treemap chart in Aspose.Cells for Python via .NET. Our guide will help you understand the various properties and formatting options available for Treemap charts, including colors, labels, and data representation.
+keywords: Aspose.Cells for Python via .NET, Treemap chart, create, properties, formatting, colors, labels, data representation, circular chart, hierarchical charting.
 type: docs
 weight: 161
 url: /python-net/creating-treemap-chart/
@@ -18,4 +18,4 @@ After running the code below, you will see the TreeMap chart as shown below.
 ## **Sample Code**
 The following sample code loads the [sample Excel file](treemap.xlsx) and generates the [output Excel file](out.xlsx).
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-treemap-chart.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-treemap-chart.py" >}}

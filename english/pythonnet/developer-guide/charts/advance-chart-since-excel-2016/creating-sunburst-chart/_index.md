@@ -1,7 +1,7 @@
 ---
 title: How to create Sunburst chart
-description: Learn how to create a sunburst chart in Aspose.Cells for .NET, a chart that presents data in a circle. Our guide will help you set up various properties and formatting of your chart, including data labels, legends, colors, and more.
-keywords: Aspose.Cells for .NET, sunburst chart, create, set properties, data labels, legend, format, color, circle, data rendering.
+description: Learn how to create a sunburst chart in Aspose.Cells for Python via .NET, a chart that presents data in a circle. Our guide will help you set up various properties and formatting of your chart, including data labels, legends, colors, and more.
+keywords: Aspose.Cells for Python via .NET, sunburst chart, create, set properties, data labels, legend, format, color, circle, data rendering.
 type: docs
 weight: 162
 url: /python-net/creating-sunburst-chart/
@@ -18,4 +18,4 @@ After running the code below, you will see the Sunburst chart as shown below.
 ## **Sample Code**
 The following sample code loads the [sample Excel file](sunburst.xlsx) and generates the [output Excel file](out.xlsx).
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-sunburst-chart.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-sunburst-chart.py" >}}

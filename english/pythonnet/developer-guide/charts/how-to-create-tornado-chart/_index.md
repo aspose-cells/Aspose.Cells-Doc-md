@@ -3,8 +3,8 @@ title: How to create a tornado chart
 type: docs
 weight: 73
 url: /python-net/create-tornado-chart/
-description: Learn how to create a tornado chart with Aspose.Cells for .NET API.
-keywords: C# create a tornado chart, add a tornado chart, insert a tornado chart
+description: Learn how to create a tornado chart with Aspose.Cells for Python via .NET API.
+keywords: Python create a tornado chart, add a tornado chart, insert a tornado chart
 ---
 
 ## **Introduction**
@@ -28,11 +28,11 @@ You can create a tornado chart in Excel by following these steps:
 <br>
 <img src="5.png" width=70% />
 
-## **How to Add a Tornado Chart in Aspose.Cells**
-Please see the following sample code. It loads the [sample Excel file](sample.xlsx) that contains some sample data. It then creates the stacked bar chart based on the initial data and sets relevant properties. Finally, it saves the workbook to [output XLSX format](out.xlsx). The following screenshot shows the tornado chart created by Aspose.Cells in the output Excel file.
+## **How to Add a Tornado Chart in Aspose.Cells for Python Excel Library**
+Please see the following sample code. It loads the [sample Excel file](sample.xlsx) that contains some sample data. It then creates the stacked bar chart based on the initial data and sets relevant properties. Finally, it saves the workbook to [output XLSX format](out.xlsx). The following screenshot shows the tornado chart created by Aspose.Cells for Python via .NET in the output Excel file.
 <br>
 <img src="6.png" width=70% />
 
 ### **Sample Code**
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-tornado-chart.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-tornado-chart.py" >}}
