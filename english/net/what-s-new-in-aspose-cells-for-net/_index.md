@@ -8,6 +8,20 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 24.9
+* Support to create Checkbox for cell and render Checkbox to pdf
+* Support to export equation content to MathML and LaTex
+* Support to export cell address when saving HTML
+* Support parsing feature property bags of xlsx
+* Optimization for releasing image resources when saving PDF
+* Support to get formulas of pivot calculated item/field
+* Improvement for performance of calculating grouped pivot field
+* Support to detect OLE(Object Linking and Embedding) format
+* Enhancement of formulas in GridJs: show formulas and formula explanation, use formulas as parameters for setting verification
+* Support for syntax checking and spell correction for user input in GridJs
+* Support to show time control for mobile device when cell format is time in GridJs
+* Improve effect of validation editing and failure prompts of GridJs for mobile device
+
 ## Aspose.Cells for .NET 24.8
 * Support new functions: VALUETOTEXT, ARRAYTOTEXT
 * Support GridWeb for .NET6.0 on Linux
