@@ -1,7 +1,7 @@
 ---
 title: Read Axis Labels after Calculating the Chart
-description: Learn how to read axis labels in Aspose.Cells for .NET after calculating the chart. Our guide will show you how to access and retrieve axis labels, including their formatting and positioning.
-keywords: Aspose.Cells for .NET, chart, axis labels, calculation, reading, accessing, retrieving, formatting, positioning.
+description: Learn how to read axis labels in Aspose.Cells for Python via .NET after calculating the chart. Our guide will show you how to access and retrieve axis labels, including their formatting and positioning.
+keywords: Aspose.Cells for Python via .NET, chart, axis labels, calculation, reading, accessing, retrieving, formatting, positioning.
 type: docs
 weight: 90
 url: /python-net/read-axis-labels-after-calculating-the-chart/
@@ -17,7 +17,7 @@ Please see the following sample code that loads the [sample Excel file](ReadAxi
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Charts-ReadAxisLabelsAfterCalculatingTheChart.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ReadAxisLabelsAfterCalculatingTheChart.py" >}}
 
 ## **Console Output**
 

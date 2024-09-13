@@ -1,7 +1,7 @@
 ---
 title: Manage DataLabels of Excel Charts
-description: Learn how to effectively manage data labels in Excel charts using Aspose.Cells for .NET. Our comprehensive guide covers various management tasks, including adding, removing, and modifying labels to enhance chart readability and usability.
-keywords: Aspose.Cells for .NET, Excel charts, data labels, management, readability, usability, adding, removing, modifying.
+description: Learn how to effectively manage data labels in Excel charts using Aspose.Cells for Python via .NET. Our comprehensive guide covers various management tasks, including adding, removing, and modifying labels to enhance chart readability and usability.
+keywords: Aspose.Cells for Python via .NET, Excel charts, data labels, management, readability, usability, adding, removing, modifying.
 linktitle: DataLabels
 type: docs
 weight: 50
@@ -16,17 +16,17 @@ We can easily know the value, percentage, etc. of each series
 {{% /alert %}}
 
 ## **DataLabels Options**
-Aspose.Cells also allows to manage chart's datalabels at runtime，with [DataLabels](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/) object, it's simple to move, update and format datalabels of the chart.
+Aspose.Cells for Python via .NET also allows to manage chart's datalabels at runtime，with [DataLabels](https://reference.aspose.com/cells/python-net/aspose.cells.charts/datalabels/) object, it's simple to move, update and format datalabels of the chart.
 
 |![todo:image_alt_text](chart_datalabels.png)|
 
 ## **Manage the DataLabels of Chart**
-It's simple to manage datalabels of the chart with Aspose.Cells [DataLabels](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/).
+It's simple to manage datalabels of the chart with Aspose.Cells for Python via .NET [DataLabels](https://reference.aspose.com/cells/python-net/aspose.cells.charts/datalabels/).
 
 The following code snippet demonstrates how to manage DataLabels:
 
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "chart_datalabels.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-datalabels.py" >}}
 
 ## **Advance topics**
 - [Adding Custom Labels to Data Points in the Series of the Chart](/cells/python-net/adding-custom-labels-to-data-points-in-the-series-of-the-chart/)
