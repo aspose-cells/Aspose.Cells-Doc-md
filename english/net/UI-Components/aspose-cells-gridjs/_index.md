@@ -21,3 +21,4 @@ url: /net/aspose-cells-gridjs/
 - [Custom Context Menu](/cells/net/aspose-cells-gridjs/how-to-custom-context-menu/)
 - [Syntax Checking & Spell Correction](/cells/net/aspose-cells-gridjs/how-to-do-syntax-checking/)
 - [Show Formula Explanation](/cells/net/aspose-cells-gridjs/how-to-show-formula-explanation/)
+- [Lazy Loading](/cells/net/aspose-cells-gridjs/how-to-do-lazy-loading/)
