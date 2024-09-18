@@ -30,7 +30,7 @@ By adopting this approach, we not only optimize the initial load time but also m
 ## Set Config Option for lazy loading.
 for example:
 ```python 
-       Config.lazy_loading = True
+       Config.set_lazy_loading(True)
 ```
 ## Set action URL for lazy loading.
 for example:
