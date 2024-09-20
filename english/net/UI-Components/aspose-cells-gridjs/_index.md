@@ -22,3 +22,4 @@ url: /net/aspose-cells-gridjs/
 - [Syntax Checking & Spell Correction](/cells/net/aspose-cells-gridjs/how-to-do-syntax-checking/)
 - [Show Formula Explanation](/cells/net/aspose-cells-gridjs/how-to-show-formula-explanation/)
 - [Lazy Loading](/cells/net/aspose-cells-gridjs/how-to-do-lazy-loading/)
+- [Customize Menus & Toolbars](/cells/net/aspose-cells-gridjs/how-to-customize-menus/)
