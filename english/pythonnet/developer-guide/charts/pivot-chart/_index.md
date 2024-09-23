@@ -1,10 +1,10 @@
 ---
-title: How to add a PivotChart using Aspose.Cells
+title: How to add a PivotChart using Aspose.Cells for Python via .NET
 linktitle: Pivot Chart
 type: docs
 weight: 100
 url: /python-net/how-to-add-pivot-chart/
-description: How to add a PivotChart using Aspose.Cells.
+description: How to add a PivotChart using Aspose.Cells for Python via .NET.
 keywords: PivotChart
 ---
 ## What is PivotChart
@@ -26,11 +26,11 @@ A pivot chart is a visual representation of the data in a pivot table. Pivot cha
 <br>
 Pivot charts are commonly used in business intelligence and data analysis to provide a clear and concise visual summary of complex data sets. They are a powerful tool for making data-driven decisions.
 
-## How to add a PivotChart using Aspose.Cells
+## How to add a PivotChart using Aspose.Cells for Python Excel Library
 
 ### **Adding a Pivot Table**
 
-To create a pivot table using Aspose.Cells:
+To create a pivot table using Aspose.Cells for Python via .NET:
 
 1. Add some data to a worksheet cells using a Cell object's PutValue/setValue method. You also use a template file already filled with data. The data will be used as the pivot table's data source.
 1. Add a pivot table to the worksheet by calling the PivotTables collection's add method (encapsulated in the Worksheet object).
@@ -38,15 +38,15 @@ To create a pivot table using Aspose.Cells:
 
 Code examples are given below.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreatePivotTablesPivotCharts-CreatePivotTable-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-CreatePivotTable-1.py" >}}
 
 ### **Adding a Pivot Chart**
 
-To create a PivotChart using Aspose.Cells:
+To create a PivotChart using Aspose.Cells for Python via .NET:
 
 1. Add a chart.
 1. Set the PivotSource of the chart to refer to an existing pivot table in the spreadsheet.
 1. Set other attributes.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreatePivotTablesPivotCharts-CreatePivotChart-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-CreatePivotChart-1.py" >}}
 

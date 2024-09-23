@@ -13,12 +13,12 @@ A PivotChart in Excel is a graphical representation of data created from a Pivot
 
 ## How to manage PivotChart with PivotOptions
 
-By using Aspose.Cells, you can use [**Aspose.Cells.Charts.PivotOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/pivot_options) to manage PivotChart.
+By using Aspose.Cells for Python via .NET, you can use [**PivotOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/pivotoptions) to manage PivotChart.
 
 Sample file and code:
 [Sample File](Sample.xlsx)
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotOptions.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-PivotOptions.py" >}}
 
 With the example code above, you can check the result file with the following effect, as shown in the figure:
 
