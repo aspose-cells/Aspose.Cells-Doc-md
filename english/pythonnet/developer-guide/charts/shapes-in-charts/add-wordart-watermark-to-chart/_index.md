@@ -1,7 +1,7 @@
 ---
 title: Add WordArt Watermark to Chart
-description: Learn how to use Aspose.Cells for .NET to add a WordArt watermark to a chart in Microsoft Excel. Our guide will demonstrate how to create and position a WordArt watermark to enhance the visual appeal and uniqueness of your chart.
-keywords: Aspose.Cells for .NET, WordArt Watermark, Chart Watermark, Microsoft Excel, Visual Appeal, Chart Uniqueness.
+description: Learn how to use Aspose.Cells for Python via .NET to add a WordArt watermark to a chart in Microsoft Excel. Our guide will demonstrate how to create and position a WordArt watermark to enhance the visual appeal and uniqueness of your chart.
+keywords: Aspose.Cells for Python via.NET, WordArt Watermark, Chart Watermark, Microsoft Excel, Visual Appeal, Chart Uniqueness.
 type: docs
 weight: 50
 url: /python-net/add-wordart-watermark-to-chart/
@@ -19,4 +19,4 @@ The following example shows how to add a WordArt shape as a watermark for an exi
 
 
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-AddWordArtWatermarkToChart-AddWordArtWatermarkToChart.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-AddWordArtWatermarkToChart.py" >}}

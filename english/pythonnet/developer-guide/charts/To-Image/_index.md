@@ -1,7 +1,7 @@
 ---
 title: Chart to Image
-description: Learn how to use Aspose.Cells for .NET to convert a chart to an image format, such as JPEG or PNG. Our guide will demonstrate how to export a chart from Microsoft Excel and save it as a standalone image for further use and manipulation.
-keywords: Aspose.Cells for .NET, Chart to Image, Microsoft Excel, Image Conversion, Export, Standalone Image.
+description: Learn how to use Aspose.Cells for Python via .NET to convert a chart to an image format, such as JPEG or PNG. Our guide will demonstrate how to export a chart from Microsoft Excel and save it as a standalone image for further use and manipulation.
+keywords: Aspose.Cells for Python via .NET, Chart to Image, Microsoft Excel, Image Conversion, Export, Standalone Image.
 linktitle: Chart to Image
 type: docs
 weight: 46
@@ -10,17 +10,17 @@ url: /python-net/chart-to-image/
 
 ## **Rendering Charts**
 
-Aspose.Cells APIs support to convert the Excel Charts to images formats without requiring any additional tools or applications. In order to provide rendering support, the [**Chart**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart) class has exposed [**to_image**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/to_image) methods with a verity of overloads to best suit the application requirements.
+Aspose.Cells for Python via .NET APIs support to convert the Excel Charts to images formats without requiring any additional tools or applications. In order to provide rendering support, the [**Chart**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart) class has exposed [**to_image**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/to_image) methods with a verity of overloads to best suit the application requirements.
 
 ### **Rendering Charts to Images**
 
 The [**Chart.to_image**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/to_image) method has a verity of overloads to support simple as well as advanced rendering. If the application requirement is to render the chart in its default dimensions, we suggest you use the [**Chart.to_image**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/to_image) method as follow.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImage.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ChartRendering-ChartRenderingChartToImage.py" >}}
 
-It is also possible to render the charts to images with advanced settings. Aspose.Cells APIs have exposed an overload version of [**Chart.to_image**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/to_image) method that could accept an instance of [**image_or_print_options**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/image_or_print_options), while allowing to specify parameters such as resolution, smoothing mode, image format and so on.
+It is also possible to render the charts to images with advanced settings. Aspose.Cells for Python via .NET APIs have exposed an overload version of [**Chart.to_image**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/to_image) method that could accept an instance of [**ImageOrPrintOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/), while allowing to specify parameters such as resolution, smoothing mode, image format and so on.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.py" >}}
 
 ## **Supported Chart Types for Rendering**
 
