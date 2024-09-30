@@ -5,6 +5,7 @@ weight: 2000
 url: /net/change-adjustment-values-of-the-shape/
 ---
 
+
 {{% alert color="primary" %}}
 
 Aspose.Cells provides [**Shape.Geometry.ShapeAdjustValues**](https://reference.aspose.com/cells/net/aspose.cells.drawing/geometry/properties/shapeadjustvalues) property to make changes to the adjustment points with shapes. In the Microsoft Excel UI, adjustments display as yellow diamond nodes. For example:
@@ -18,6 +19,16 @@ This article will explain the use of [**Shape.Geometry.ShapeAdjustValues**](http
 
 {{% /alert %}}
 
+## **Change Adjustment Values**
+
 The below code sample shows how to change adjustment values of the shape.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ChangeShapesAdjustmentValues-1.cs" >}}
+
+## **How to set or change the RoundedRectangularCallout tip point in excel**
+
+The following code example shows how to set or change a rounded rectangle callout tip point position in Excel.
+
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Articles-ManageChartsAndShapes-ChangeShapesAdjustmentValues-2.cs" >}}
+
+
