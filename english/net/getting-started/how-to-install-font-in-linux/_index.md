@@ -22,7 +22,7 @@ There are two ways to install fonts on Linux, as described below:
 
 ### Copy the font files to the Linux system path
 
-1. Put a folder named "fonts" into your programme folder, copy the font files you need into this folder.
+1. Put a folder named "fonts" into your program directory, copy the font files you need into this folder.
 2. Add the following command to your Linux Dockerfile:
 ```
 COPY fonts/ /usr/share/fonts
@@ -31,8 +31,8 @@ COPY fonts/ /usr/share/fonts
 
 ### Set Font Folder with Aspose.Cells API
 In some cases, you may not be able to control or modify the Linux system directory. For example, on cloud servers. In this case, you can use the second scenario.
-1. Put a folder named "fonts" into your programme folder, copy the font files you need into this folder.
-2. In your programme code, call Aspose.Cells API:
+1. Put a folder named "fonts" into your program directory copy the font files you need into this folder.
+2. In your program code, call Aspose.Cells API:
 ```
 Aspose.Cells.FontConfigs.SetFontFolder("fonts", true);
 ```
