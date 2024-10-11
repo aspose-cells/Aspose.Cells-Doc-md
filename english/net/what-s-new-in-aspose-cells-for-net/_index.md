@@ -18,7 +18,7 @@ This page describes the most interesting new Aspose.Cells features introduced in
 * Support to get or update server side info for GridWeb for .Net6
 * Support to set different number format types for GridJs
 * Support Lazy loading for GridJs
-* Improve splitting text for rich text cell values
+* Improve splitting text for rich text cell values for GridJs
 
 ## Aspose.Cells for .NET 24.9
 * Support to create Checkbox for cell and render Checkbox to pdf

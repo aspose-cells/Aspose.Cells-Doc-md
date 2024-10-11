@@ -8,6 +8,17 @@ url: /java/what-s-new-in-aspose-cells-for-java/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 24.10
+* Support to get source of pivot table from corresponding external connection
+* Support to create compact pivot tables
+* Improve converting pivot area to range
+* Support to read CHM file
+* Support to ignore disorder cells/rows instead of giving exception when importing OOXML template files
+* Support more options for deleting blank rows/columns
+* Support to set different number format types for GridJs
+* Support Lazy loading for GridJs
+* Improve splitting text for rich text cell values for GridJs
+
 ## Aspose.Cells for Java 24.9
 * Support to create Checkbox for cell and render Checkbox to pdf
 * Support to export equation content to MathML and LaTex
