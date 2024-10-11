@@ -7,7 +7,7 @@ url: /python-net/excel-to-html-use-presentationpreference-option-for-better-layo
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells provides a useful HtmlSaveOptions.PresentationPreference property for developers who need to render better layout when saving a Microsoft Excel file to HTML or MHT format. The default value of the property is false. We recommend setting this property to true to get a more attractive presentation of Excel reports.
+Aspose.Cells for Python via .NET provides a useful HtmlSaveOptions.PresentationPreference property for developers who need to render better layout when saving a Microsoft Excel file to HTML or MHT format. The default value of the property is false. We recommend setting this property to true to get a more attractive presentation of Excel reports.
 
 {{% /alert %}} 
 
@@ -15,4 +15,4 @@ Please see the sample code below that demonstrates how to render an HTML file fr
 
 
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsePresentationPreferenceOption-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-UsePresentationPreferenceOption-1.py" >}}

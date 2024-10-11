@@ -7,7 +7,7 @@ url: /python-net/export-worksheet-css-separately-in-output/
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells provides the feature to export worksheet CSS separately when you convert your Excel file to HTML. Please use [**HtmlSaveOptions.export_worksheet_css_separately**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/export_worksheet_css_separately) property for this purpose and set it to **true** while saving Excel file to HTML format.
+Aspose.Cells for Python via .NET provides the feature to export worksheet CSS separately when you convert your Excel file to HTML. Please use [**HtmlSaveOptions.export_worksheet_css_separately**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/export_worksheet_css_separately) property for this purpose and set it to **true** while saving Excel file to HTML format.
 
 ## **Export Worksheet CSS Separately in Output HTML**
 
@@ -15,14 +15,14 @@ The following sample code creates an Excel file, adds some text in cell **B5**�
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-ExportWorksheetCSSSeparatelyInOutputHTML.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ExportWorksheetCSSSeparatelyInOutputHTML.py" >}}
 
 ## **Export single sheet workbook to HTML**
 
-When a workbook with multiple sheets is converted to HTML using Aspose.Cells, it creates an HTML file along with a folder containing CSS and multiple HTML files. When this HTML file is opened in the browser, the tabs are visible. The same behavior is required for a workbook with single worksheet when it is converted to HTML. Earlier no separate folder was created for single sheet workbooks and only HTML file was created. Such HTML file does not show tab when opened in browser. MS Excel creates proper folder and HTML for a single sheet also and hence same behavior is implemented using Aspose.Cells APIs. The sample file can be downloaded from the following link for using in the sample code below:
+When a workbook with multiple sheets is converted to HTML using Aspose.Cells for Python via .NET, it creates an HTML file along with a folder containing CSS and multiple HTML files. When this HTML file is opened in the browser, the tabs are visible. The same behavior is required for a workbook with single worksheet when it is converted to HTML. Earlier no separate folder was created for single sheet workbooks and only HTML file was created. Such HTML file does not show tab when opened in browser. MS Excel creates proper folder and HTML for a single sheet also and hence same behavior is implemented using Aspose.Cells for Python via .NET APIs. The sample file can be downloaded from the following link for using in the sample code below:
 
 [sampleSingleSheet.xlsx](79527937.xlsx)
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-SetSingleSheetTabNameInHtml-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-SetSingleSheetTabNameInHtml-1.py" >}}

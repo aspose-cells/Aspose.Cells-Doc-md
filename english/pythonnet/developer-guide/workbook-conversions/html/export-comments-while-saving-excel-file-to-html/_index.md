@@ -7,7 +7,7 @@ url: /python-net/export-comments-while-saving-excel-file-to/
 
 ## **Possible Usage Scenarios**
 
-When you save your Excel file into HTML, comments are not exported. However, Aspose.Cells provides this feature using the [**HtmlSaveOptions.is_export_comments**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/is_export_comments) property. If you set it **true**, then HTML will also display comments present in your Excel file.
+When you save your Excel file into HTML, comments are not exported. However, Aspose.Cells for Python via .NET provides this feature using the [**HtmlSaveOptions.is_export_comments**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/is_export_comments) property. If you set it **true**, then HTML will also display comments present in your Excel file.
 
 ## **Export Comments while Saving Excel file to HTML**
 
@@ -17,4 +17,4 @@ The following sample code explains the usage of [**HtmlSaveOptions.is_export_co
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ExportCommentsWhileSavingExcelFileToHtml.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ExportCommentsWhileSavingExcelFileToHtml.py" >}}

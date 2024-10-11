@@ -7,11 +7,11 @@ url: /python-net/disable-downlevel-revealed-comments-while-saving-to/
 
 ## **Possible Usage Scenarios**
 
-When you save your Excel file to HTML, then Aspose.Cells reveals Downlevel Conditional Comments. These conditional comments are mostly relevant to older versions of Internet Explorer and are irrelevant to modern Web Browsers. You can read about them in detail at the following link.
+When you save your Excel file to HTML, then Aspose.Cells for Python via .NET reveals Downlevel Conditional Comments. These conditional comments are mostly relevant to older versions of Internet Explorer and are irrelevant to modern Web Browsers. You can read about them in detail at the following link.
 
 - [Conditional comment - Downlevel-revealed conditional comment](https://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment)
 
-Aspose.Cells allows you to eliminate these Downlevel Revealed Comments by setting the [**HtmlSaveOptions.disable_downlevel_revealed_comments**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/disable_downlevel_revealed_comments) property to **true**.
+Aspose.Cells for Python via .NET allows you to eliminate these Downlevel Revealed Comments by setting the [**HtmlSaveOptions.disable_downlevel_revealed_comments**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/disable_downlevel_revealed_comments) property to **true**.
 
 ## **Disable Downlevel Revealed Comments while saving to HTML**
 
@@ -21,4 +21,4 @@ The following sample code shows the usage of [**HtmlSaveOptions.disable_downlev
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-DisableDownlevelRevealedCommentsWhileSavingToHTML.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-DisableDownlevelRevealedCommentsWhileSavingToHTML.py" >}}
