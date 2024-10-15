@@ -13,4 +13,4 @@ HTML can have variety of tags formatting for empty tags like \<td>\</td> or \<td
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-RecognizeSelfClosingTags-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-RecognizeSelfClosingTags-1.py" >}}

@@ -10,7 +10,7 @@ The Aspose.Cells API provides support for exporting spreadsheets to HTML and  fo
 
 The code example below shows how to save a workbook as an HTML file using C#:
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-HTML.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-Convert-Excel-to-HTML.py" >}}
 
 
 ## **Converting Excel Workbook to MHTML Files**
@@ -18,7 +18,7 @@ MHTML combines normal HTML with external resources (that is, content that is usu
 
 The code example below shows how to save a workbook as an MHTML file using C#:
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-MHTML.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-Convert-Excel-to-MHTML.py" >}}
 
 ## **Advance topics**
 - [AutoFit Columns and Rows while loading HTML in Workbook](/cells/python-net/autofit-columns-and-rows-while-loading-html-in-workbook/)
@@ -41,14 +41,10 @@ The code example below shows how to save a workbook as an MHTML file using C#:
 - [Export similar Border Style when Border Style is not supported by Web Browsers](/cells/python-net/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/)
 - [Export Worksheet CSS Separately in Output HTML](/cells/python-net/export-worksheet-css-separately-in-output/)
 - [Hiding Overlaid Content with CrossHideRight while saving to HTML](/cells/python-net/hiding-overlaid-content-with-crosshideright-while-saving-to/)
-- [Load Html to Excel with StreamProvider](/cells/python-net/convert-html-to-excel-with-streamprovider/)
 - [Prefix Table Elements Styles with HtmlSaveOptions.TableCssId property](/cells/python-net/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/)
 - [Prevent Exporting Hidden Worksheet Contents on Saving to HTML](/cells/python-net/prevent-exporting-hidden-worksheet-contents-on-saving-to/)
-- [Provide exported worksheet html file path via IFilePathProvider interface](/cells/python-net/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/)
 - [Recognise Self Closing Tags](/cells/python-net/recognise-self-closing-tags/)
 - [Render Gradient Fill for the WordArt while Converting Spreadsheets to HTML](/cells/python-net/render-gradient-fill-for-the-wordart-while-converting-spreadsheets-to/)
-- [Save Html With StreamProvider](/cells/python-net/convert-excel-to-html-with-streamprovider/)
 - [Set column width to scalable unit like em or percent](/cells/python-net/set-column-width-to-scalable-unit-like-em-or-percent/)
 - [Set Default Font while rendering spreadsheet to HTML](/cells/python-net/set-default-font-while-rendering-spreadsheet-to/)
 - [Specify how to cross string in output HTML using HtmlCrossType](/cells/python-net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
-- [Support the layout of DIV tags while loading HTML to excel workbook](/cells/python-net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
