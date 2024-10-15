@@ -66,3 +66,4 @@ To clear the print titles in a specified worksheet: First, load the [sample file
 The output result:
 <br>
 <img src="2.png" width=60% />
+{{< app/cells/assistant language="csharp" >}}

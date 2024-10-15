@@ -26,3 +26,4 @@ The following sample code explains the usage of mentioned properties. Please dow
 
 
 
+{{< app/cells/assistant language="java" >}}

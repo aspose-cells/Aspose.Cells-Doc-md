@@ -53,3 +53,4 @@ Developers can hide multiple rows or columns at once by calling the [**HideRows*
 It is also possible to use the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) class' [**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) and [**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns) methods to make multiple rows and columns visible.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

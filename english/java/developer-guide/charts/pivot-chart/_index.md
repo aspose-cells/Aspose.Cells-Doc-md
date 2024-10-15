@@ -72,3 +72,4 @@ Aspose.Cells has benefited from years of research, design and careful tuning.
 We welcome your queries, comments and suggestions at [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9). We warranty a prompt reply.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

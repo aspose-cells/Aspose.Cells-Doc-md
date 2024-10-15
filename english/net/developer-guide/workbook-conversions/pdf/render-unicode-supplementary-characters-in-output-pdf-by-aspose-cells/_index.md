@@ -27,3 +27,4 @@ The following screenshot shows how Aspose.Cells rendered the [source excel file]
 You can use this sample code to convert [source excel file](5115563.xlsx) into [output PDF](5115564.pdf).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderUnicodeInOutput-RenderUnicodeInOutput.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

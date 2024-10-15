@@ -27,3 +27,4 @@ Insert a ranage and shift cells down as the following codes with Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Insert-Range-Down.java" >}}
 
+{{< app/cells/assistant language="java" >}}

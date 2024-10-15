@@ -73,3 +73,4 @@ Please note the following:
 - The string "FontDirSet" should be the complete path to the folder containing the required fonts.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

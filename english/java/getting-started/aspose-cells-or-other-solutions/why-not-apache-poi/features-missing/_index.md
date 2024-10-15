@@ -40,3 +40,4 @@ This includes following abundant features of Aspose.Cells as compared to Apache 
   - [Convert Spreadsheet to PDF using Aspose.Cells](/cells/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
 
 **Note:** Many more examples are yet to be available soon.
+{{< app/cells/assistant language="java" >}}

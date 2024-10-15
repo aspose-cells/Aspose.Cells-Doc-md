@@ -34,3 +34,4 @@ Protect the authenticity of a document's content, you can add a digital signatur
 - [Detect File Format of Encrypted Office Open XML - OOXML Files](/cells/net/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Encrypting Excel Files](/cells/net/encrypting-excel-files/)
 - [How to Detect a File Format and Check if the File is Encrypted](/cells/net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="csharp" >}}

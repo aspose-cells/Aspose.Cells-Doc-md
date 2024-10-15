@@ -72,3 +72,4 @@ this is first name which is cre
 ` `<> + (adj.Private _ " Private"
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

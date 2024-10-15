@@ -18,3 +18,4 @@ Aspose.Cells provides a [**DataLabels.IsTextWrapped**](https://reference.aspose.
 The below code sample shows how to disable text wrapping for the data labels of the chart.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-DisableTextWrappingForDataLabels-DisableTextWrappingForDataLabels.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

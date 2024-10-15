@@ -108,3 +108,4 @@ The reading order is set with the [**TextDirection**](https://reference.aspose.c
 ## **Advance topics**
 - [Change Cells Alignment and Keep Existing Formatting](/cells/java/change-cells-alignment-and-keep-existing-formatting/)
 - [Line Breaks and Text Wrapping](/cells/java/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="java" >}}

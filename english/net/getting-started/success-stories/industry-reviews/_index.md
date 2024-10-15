@@ -18,3 +18,4 @@ Steve C. Orr is a Microsoft Certified Solution Developer (MCSD) and a Microsoft 
 David McAmis is the Technical Editor at Builder AU. He currently lives and works in Sydney, Australia, where he enjoys being the "token American" and chasing kangaroos and wallabies for fun. David has written a number of books and more than 100 articles that have appeared in magazines and journals.
 
 **Review Published**: [First Look: Aspose.Excel](https://www.zdnet.com/article/first-look-aspose-excel/)
+{{< app/cells/assistant language="csharp" >}}

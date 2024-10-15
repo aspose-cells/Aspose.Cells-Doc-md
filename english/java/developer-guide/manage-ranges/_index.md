@@ -79,3 +79,4 @@ Now please run the following example, see how it works in Aspose.Cells:
 - [Named Ranges](/cells/java/named-ranges/)
 - [Search and Replace Data in a Range](/cells/java/search-and-replace-data-in-a-range/)
 
+{{< app/cells/assistant language="java" >}}

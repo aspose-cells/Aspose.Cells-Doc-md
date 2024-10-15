@@ -20,3 +20,4 @@ The following example shows how to create a [**Range**](https://reference.aspose
 After running the above code, we can have the generated excel file containing the formatted table; here is the screenshot of the file.
 
 ![todo:image_alt_text](create-table-by-using-border-lines-for-a-range_1.png)
+{{< app/cells/assistant language="java" >}}

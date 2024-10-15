@@ -34,3 +34,4 @@ Aspose.Cells provides additional options while converting Table to Range through
 The sample code given below demonstrates the use of [**TableToRangeOptions**](https://reference.aspose.com/cells/net/aspose.cells.tables/tabletorangeoptions) class.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-ConvertTableToRangeWithOptions-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

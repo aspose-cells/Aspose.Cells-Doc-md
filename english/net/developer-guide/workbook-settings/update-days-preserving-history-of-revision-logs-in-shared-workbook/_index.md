@@ -18,3 +18,4 @@ The following sample code creates an empty workbook, then shares it and updates 
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-UpdateDaysPreservingHistoryOfRevisionLogsInSharedWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

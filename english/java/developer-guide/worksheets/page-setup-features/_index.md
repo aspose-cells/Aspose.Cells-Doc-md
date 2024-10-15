@@ -301,3 +301,4 @@ Please see this article related to this topic.
 - [Implement Custom Paper Size of Worksheet for Rendering](/cells/java/implement-custom-paper-size-of-worksheet-for-rendering/)
 - [Page Setup and Printing Options](/cells/java/page-setup-and-printing-options/)
 - [Remove Existing PrinterSettings of Worksheets in Excel file](/cells/java/remove-existing-printersettings-of-worksheets-in-excel-file/)
+{{< app/cells/assistant language="java" >}}

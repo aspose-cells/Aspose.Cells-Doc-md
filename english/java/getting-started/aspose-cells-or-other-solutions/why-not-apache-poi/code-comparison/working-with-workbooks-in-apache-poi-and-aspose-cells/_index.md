@@ -11,3 +11,4 @@ url: /java/working-with-workbooks-in-apache-poi-and-aspose-cells/
 - [Create New Workbook](/cells/java/create-new-workbook/)
 - [Page Setup - Fit to Page Setting](/cells/java/page-setup-fit-to-page-setting/)
 - [Set Print Area](/cells/java/set-print-area/)
+{{< app/cells/assistant language="java" >}}

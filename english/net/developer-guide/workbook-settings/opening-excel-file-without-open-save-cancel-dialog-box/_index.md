@@ -38,3 +38,4 @@ In Windows Explorer:
 | :- |
 |![todo:image_alt_text](opening-excel-file-without-open-save-cancel-dialog-box_2.png)|
 This setting allows files to run directly in the web browser, without the Open-Save-Cancel dialog showing when downloading or opening the file.
+{{< app/cells/assistant language="csharp" >}}

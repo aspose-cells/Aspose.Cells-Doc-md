@@ -19,3 +19,4 @@ This chart include a column for volume immediately after the first (category) co
 The following sample code loads the [sample Excel file](Volume-High-Low-Close.xlsx) and generates the [output Excel file](out.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-create-volume-high-low-close-stock-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

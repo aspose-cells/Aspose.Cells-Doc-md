@@ -8,3 +8,4 @@ url: /net/working-with-worksheets-in-aspose-cells/
  **This section includes the following topics:** 
 - [Save Each Worksheet to Different PDF](/cells/net/save-each-worksheet-to-different-pdf/)
 - [Set Worksheet Tab Color in Aspose.Cells](/cells/net/set-worksheet-tab-color-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

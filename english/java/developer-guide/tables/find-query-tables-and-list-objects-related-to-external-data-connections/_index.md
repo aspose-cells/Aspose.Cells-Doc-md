@@ -48,3 +48,4 @@ querytable hp?s=UWTI+Historical+Prices
 refersto: =Sheet1!$H$1:$N$69
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

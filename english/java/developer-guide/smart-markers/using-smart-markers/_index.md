@@ -169,3 +169,4 @@ Sometimes, it may be required to get the notifications about the cell reference 
 For sample code and detail explanation, please see this article.
 
 - [Getting Notifications while Merging Data with Smart Markers](/cells/java/getting-notifications-while-merging-data-with-smart-markers/)
+{{< app/cells/assistant language="java" >}}

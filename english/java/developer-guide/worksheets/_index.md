@@ -72,3 +72,4 @@ Well, in such circumstances, developers can use an overloaded version of [**remo
 - [Utilize Sheet.SheetId property of OpenXml using Aspose.Cells](/cells/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [Working with Background in ODS Files](/cells/java/working-with-background-in-ods-files/)
 - [Worksheet Views](/cells/java/worksheet-views/)
+{{< app/cells/assistant language="java" >}}

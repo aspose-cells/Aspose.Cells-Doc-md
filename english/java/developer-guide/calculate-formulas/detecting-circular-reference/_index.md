@@ -1,4 +1,4 @@
-﻿---
+---
 title: Detecting Circular Reference
 type: docs
 weight: 70
@@ -28,3 +28,4 @@ The source sample file can be downloaded from the following link:
 Definition of *CircularMonitor* class which is derived from [**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) class is as follows:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DetectCircularReference-2.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -31,3 +31,4 @@ A scenario is named what-if model that includes variable input cells linked toge
 Please check the detailed article on [How to Create, Manipulate or Remove Scenarios from Worksheets](/cells/net/create-manipulate-or-remove-scenarios-from-worksheets/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

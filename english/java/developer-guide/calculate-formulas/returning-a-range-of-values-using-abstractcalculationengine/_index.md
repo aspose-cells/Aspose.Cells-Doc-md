@@ -22,3 +22,4 @@ Create a class with a function *CalculateCustomFunction*. This class extends [*
 Now use the above function into your program.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ReturningRangeOfValues-1.java" >}}
+{{< app/cells/assistant language="java" >}}

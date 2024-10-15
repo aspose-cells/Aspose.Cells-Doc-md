@@ -190,3 +190,4 @@ Set the print quality of the worksheets to be printed with the [**PageSetup**](h
 Start the numbering of worksheet pages using the [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) class' [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) property. The [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) property sets the page number of the first worksheet page and the next pages are numbered in ascending order.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetFirstPageNumber-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

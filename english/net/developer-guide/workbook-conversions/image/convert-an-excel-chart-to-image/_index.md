@@ -71,3 +71,4 @@ First create a column chart in Microsoft Excel and convert it to an image file, 
 1. Convert the chart to an image dynamically. Following is the code used by the component to accomplish the task. The code is similar to the previous one:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertExcelChartToImage-ConvertingColumnChartToImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -43,3 +43,4 @@ Finally, the following code saves the chart in image format and the workbook in 
 - [Data Formatting in Charts](/cells/net/data-formatting-in-charts/)
 - [Setting Chart Appearance](/cells/net/setting-chart-appearance/)
 
+{{< app/cells/assistant language="csharp" >}}

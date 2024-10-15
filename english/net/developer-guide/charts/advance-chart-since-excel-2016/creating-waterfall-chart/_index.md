@@ -23,3 +23,4 @@ Below provided code snippet demonstrates the usage of Aspose.Cells for .NET API 
 
 - [Creating Charts](/cells/net/creating-charts/)
 - [Cusomizing Charts](/cells/net/customizing-charts/)
+{{< app/cells/assistant language="csharp" >}}

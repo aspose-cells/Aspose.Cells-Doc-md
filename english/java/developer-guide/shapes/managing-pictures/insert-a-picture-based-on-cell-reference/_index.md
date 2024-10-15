@@ -24,3 +24,4 @@ Below is a screenshot of the file the code below generates.
 ## Sample Code
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-InsertPictureCellReference-InsertPictureCellReference.java" >}}
+{{< app/cells/assistant language="java" >}}

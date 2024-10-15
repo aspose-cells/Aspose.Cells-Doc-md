@@ -221,3 +221,4 @@ Sometimes, it may be required to get the notifications about the cell reference 
 - [Using Image Markers while Grouping Data in Smart Markers](/cells/net/using-image-markers-while-grouping-data-in-smart-markers/)
 
 
+{{< app/cells/assistant language="csharp" >}}

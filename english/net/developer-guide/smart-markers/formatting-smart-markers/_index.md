@@ -22,3 +22,4 @@ While working with Smart Markers' grouping data feature, sometimes you need to a
 This example uses a [data file](96927971.xlsx) and a [template file](96927972.xlsx) with a few markers in the cells. When executing the code, Aspose.Cells adds some custom labels to the summary rows for the grouped data.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-AddCustomLabels-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

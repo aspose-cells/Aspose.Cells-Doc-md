@@ -102,3 +102,4 @@ Apply superscript to text with the [Font](https://reference.aspose.com/cells/jav
 ## **Advance topics**
 - [Apply Superscript and Subscript Effects on Fonts](/cells/java/apply-superscript-and-subscript-effects-on-fonts/)
 - [Get a List of Fonts used in a Spreadsheet or Workbook](/cells/java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
+{{< app/cells/assistant language="java" >}}

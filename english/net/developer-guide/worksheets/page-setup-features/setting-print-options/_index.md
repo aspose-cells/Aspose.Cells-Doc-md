@@ -95,3 +95,4 @@ The pre-defined values of the [**PrintOrderType**](https://reference.aspose.com/
 |OverThenDown|Represents printing order as over then down.|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPageOrder-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

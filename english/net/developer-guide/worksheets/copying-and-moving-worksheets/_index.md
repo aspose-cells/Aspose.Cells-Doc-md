@@ -54,3 +54,4 @@ Aspose.Cells provides a method [**Aspose.Cells.Worksheet.MoveTo()**](https://ref
 The following example shows how to move a worksheet to another location within the workbook.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-MoveWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

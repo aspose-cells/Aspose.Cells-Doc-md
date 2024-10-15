@@ -46,3 +46,4 @@ Start saving page index 8 of pages 10</br>
 End saving page index 8 of pages 10
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

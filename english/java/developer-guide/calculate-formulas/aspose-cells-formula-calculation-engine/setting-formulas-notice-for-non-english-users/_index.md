@@ -17,3 +17,4 @@ There are two tips that non-English users must follow when creating formulas wit
    For some language options or settings, the delimiter for function parameters is a semicolon but Aspose.Cells uses the English style comma. For example, use "=IF (C5=0,0,C3/C4)" not "=IF(C5=0;0;C3/C4)" 
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

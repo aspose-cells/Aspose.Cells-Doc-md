@@ -62,3 +62,4 @@ Once, it loads the [source excel file](5115255.xlsx) with a custom filter, it ta
 This is how to use the CustomLoadFilter class as per worksheet names.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-CustomFilteringPerWorksheet-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

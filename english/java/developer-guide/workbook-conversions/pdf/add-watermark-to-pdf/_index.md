@@ -19,3 +19,4 @@ You can add image watermark to pdf just by specifying image bytes of an image. A
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-AddImageWatermarkToPdf.java" >}}
 
+{{< app/cells/assistant language="java" >}}

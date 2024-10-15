@@ -110,3 +110,4 @@ Based on above mentioned facts, following are the possible scenarios where itera
 1. Readonly access of the cell collection is required, that is; requirement is to only inspect the cells.
 1. Large number of cells are to be traversed.
 1. Only initialized cells/rows/columns are to be traversed.
+{{< app/cells/assistant language="java" >}}

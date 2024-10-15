@@ -18,3 +18,4 @@ Please see the following sample code, its [source Excel file](50528370.xlsx), a
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-AddPDFBookmarksWithNamedDestinations.java" >}}
+{{< app/cells/assistant language="java" >}}

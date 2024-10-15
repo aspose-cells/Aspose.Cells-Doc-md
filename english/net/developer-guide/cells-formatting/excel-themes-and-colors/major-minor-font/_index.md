@@ -46,3 +46,4 @@ We have to set the system regional settings before loading the file with [**Load
 The following sample code shows how to get local theme font.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Local-Theme-Font.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

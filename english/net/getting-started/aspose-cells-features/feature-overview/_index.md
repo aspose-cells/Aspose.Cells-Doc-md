@@ -111,3 +111,4 @@ You can use Aspose.Cells for .NET to implement PageSetup options for your worksh
 |Specify your margins and page centering.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Create or edit your header and/or footer.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Set print area, print titles, or turn on gridlines, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< app/cells/assistant language="csharp" >}}

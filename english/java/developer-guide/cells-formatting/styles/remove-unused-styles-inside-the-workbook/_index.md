@@ -16,3 +16,4 @@ The following code explains the usage of [Workbook.removeUnusedStyles()](https:/
 ![todo:image_alt_text](remove-unused-styles-inside-the-workbook_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RemoveUnusedStyles-RemoveUnusedStyles.java" >}}
+{{< app/cells/assistant language="java" >}}

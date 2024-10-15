@@ -340,3 +340,4 @@ dt = worksheet.Cells.ExportDataTable(0, 0, 1, 1, opts);
 Console.WriteLine("Export Data Table with Format Strategy as None: " + dt.Rows[0][0].ToString());
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

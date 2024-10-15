@@ -58,3 +58,4 @@ Following are the sample files which can be downloaded for testing this feature:
 ## **Advance topics**
 - [Sort Data in Column with Custom Sort List](/cells/net/sort-data-in-column-with-custom-sort-list/)
 - [Specifying Sort Warning While Sorting Data](/cells/net/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="csharp" >}}

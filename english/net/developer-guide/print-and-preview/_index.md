@@ -74,3 +74,4 @@ Worksheet page count: 1
 - [Render Worksheet to Graphic Context](/cells/net/render-worksheet-to-graphic-context/)
 - [Specify Individual or Private Set of Fonts for Workbook Rendering](/cells/net/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)
 - [Specify Job or Document Name while printing with Aspose.Cells](/cells/net/specify-job-or-document-name-while-printing-with-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

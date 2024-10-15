@@ -133,3 +133,4 @@ Developers can remove split panes using the [Worksheet](https://reference.aspose
 - [Show and Hide Elements](/cells/java/show-and-hide-elements/)
 - [Show Formulas instead of Values in a Worksheet](/cells/java/show-formulas-instead-of-values-in-a-worksheet/)
 - [Use Error Checking Options](/cells/java/use-error-checking-options/)
+{{< app/cells/assistant language="java" >}}

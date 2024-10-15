@@ -49,3 +49,4 @@ The following screenshots show the PDF pages. Note that headers and footers are 
 |The first worksheet **(Sales Forecast)**|The second worksheet **(Sales Report)**|
 |![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted3.png)|![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted4.png)|
 |The third worksheet **(Data Entry)**|The last worksheet **(Image)**|
+{{< app/cells/assistant language="csharp" >}}

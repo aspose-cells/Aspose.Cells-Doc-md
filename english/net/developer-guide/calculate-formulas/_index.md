@@ -1,4 +1,4 @@
-﻿---
+---
 title: Calculate Formulas
 description: This article introduces how to use Aspose.Cells library to calculate formulas in Microsoft Excel. By loading an existing Excel file or creating a new Excel file, we can use the methods provided by Aspose.Cells to calculate the formula and get the result. Finally, we save the modified Excel file to disk.
 keywords: Aspose.Cells, Excel, formulas, calculations, Direct Calculation of Formula, Calculate Formulas repeatedly, add formulas.
@@ -74,3 +74,4 @@ By default the calculation chain is disabled. Because creating the chain also ne
 - [Setting Formula Calculation Mode of Workbook](/cells/net/setting-formula-calculation-mode-of-workbook/)
 - [Using FormulaText function in Aspose.Cells](/cells/net/using-formulatext-function-in-aspose-cells/)
 - [Using ICustomFunction Feature](/cells/net/using-icustomfunction-feature/)
+{{< app/cells/assistant language="csharp" >}}

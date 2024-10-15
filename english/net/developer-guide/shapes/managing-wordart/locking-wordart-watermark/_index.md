@@ -14,3 +14,4 @@ Aspose.Cells APIs allow adding WordArt watermarks on the worksheet in a way that
 Aspose.Cells APIs allow locking certain aspects of the watermark so that the user interaction could be limited or completely blocked. The following code snippet demonstrates the usage of Aspose.Cells for .NET API to lock selection, movement, editing, and re-sizing of the watermark by creating a spreadsheet from scratch.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-LockingWordartWatermark-LockingWordartWatermark.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

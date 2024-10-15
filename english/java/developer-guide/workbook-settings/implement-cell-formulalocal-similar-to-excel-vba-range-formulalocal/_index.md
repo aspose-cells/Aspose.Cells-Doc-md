@@ -19,3 +19,4 @@ The following sample code explains how to implement [GlobalizationSettings.getL
 Formula Local: =UserFormulaLocal_AVERAGE(B1:B2,B5)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

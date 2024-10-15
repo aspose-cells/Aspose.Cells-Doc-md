@@ -23,3 +23,4 @@ Use the following Aspose.Cells methods to delete empty rows and columns:
 ## C# code to Delete Blank Columns
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DeleteBlankRowsColumns-DeletingBlankColumns-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

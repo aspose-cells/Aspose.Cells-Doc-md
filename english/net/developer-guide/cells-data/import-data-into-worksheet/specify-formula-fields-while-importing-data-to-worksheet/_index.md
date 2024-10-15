@@ -20,3 +20,4 @@ Please see the following sample code that explains how to specify the formula fi
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-SpecifyFormulaFieldsWhileImportingDataToWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -26,3 +26,4 @@ Below is the console output of the above code using the [sample excel file](5472
 Is VBA Code Project Signed: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

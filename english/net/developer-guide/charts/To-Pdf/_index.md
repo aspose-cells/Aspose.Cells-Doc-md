@@ -20,3 +20,4 @@ You can create chart Pdf with your desired page size using Aspose.Cells and spec
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Charts-CreateChartPDFWithDesiredPageSize.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

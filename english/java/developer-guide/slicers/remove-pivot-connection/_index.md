@@ -19,3 +19,4 @@ The following sample code loads the [sample Excel file](remove-pivot-connection
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Slicers-Removing-Pivot-Connection.java" >}}
+{{< app/cells/assistant language="java" >}}

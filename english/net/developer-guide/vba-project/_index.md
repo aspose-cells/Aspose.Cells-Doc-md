@@ -89,3 +89,4 @@ You can download the [source Excel file](5112508.xlsm) and the [output Excel fil
 - [Find out if VBA Project is Protected](/cells/net/find-out-if-vba-project-is-protected/)
 - [Password Protect the VBA Project of Excel Workbook](/cells/net/password-protect-the-vba-project-of-excel-workbook/)
 
+{{< app/cells/assistant language="csharp" >}}

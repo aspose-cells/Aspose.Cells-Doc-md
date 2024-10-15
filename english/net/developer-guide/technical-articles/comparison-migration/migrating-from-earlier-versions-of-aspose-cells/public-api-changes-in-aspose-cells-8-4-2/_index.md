@@ -158,3 +158,4 @@ workbook.Save(output);
 Starting from the release of Aspose.Cells for .NET 8.4.2, the enumeration filed PasteType.All behaves differently as compared to Excel's "All" functionality to paste range of cells. Now, the PasteType.All also copies the column widths onto the destination range as opposed to Excel's "All" functionality. In order to mimic the Excel's "All" behavior, please use the PasteType.Default.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -42,3 +42,4 @@ All examples of Aspose.Cells for .NET are hosted on [GitHub](https://github.com
 - **Data** folder at the root folder of **Examples_GridWeb** contains input files used by examples. It is mandatory that you download the **Data** folder along with the examples project.
 - Open and run **Examples.aspx** in the examples project.
 - Click on the example in the browser that you want to run from within the project.
+{{< app/cells/assistant language="csharp" >}}

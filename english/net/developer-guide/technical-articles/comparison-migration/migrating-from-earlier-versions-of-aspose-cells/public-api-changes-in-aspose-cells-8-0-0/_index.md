@@ -135,3 +135,4 @@ A new constant Ooxml has been added to the FileFormatType class to represent the
 With Aspose.Cells for Java, the FilterColumnCollection property has been marked obsoleted. It is suggested to use AuotFilter.FilterColumns property instead.
 ## **Replaced SeriesCollection.SecondCatergoryData with SeriesCollection.SecondCategoryData**
 We have basically corrected the typo error in property name for SeriesCollection.SecondCatergoryData. You may use SeriesCollection.SecondCategoryData property now onward, whereas the original property SeriesCollection.SecondCatergoryData has been marked obsoleted.
+{{< app/cells/assistant language="csharp" >}}

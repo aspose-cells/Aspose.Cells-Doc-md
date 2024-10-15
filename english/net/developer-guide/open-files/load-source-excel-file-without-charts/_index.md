@@ -16,3 +16,4 @@ Aspose.Cells allows you to load your excel file without charts. Please use [**Lo
 The following sample code loads the sample excel file without charts and saves it in output PDF format.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-LoadTemplateWithoutCharts.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

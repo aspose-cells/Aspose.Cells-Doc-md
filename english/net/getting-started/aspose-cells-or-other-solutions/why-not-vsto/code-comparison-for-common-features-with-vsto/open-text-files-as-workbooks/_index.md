@@ -40,3 +40,4 @@ Below are comparison code example for opening textfile as Workbooks:
 {{< /highlight >}}
 ##**Download**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/OpenTextFilesAsWorkbooks.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

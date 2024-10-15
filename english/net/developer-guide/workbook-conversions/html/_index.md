@@ -52,3 +52,4 @@ The code example below shows how to save a workbook as an MHTML file using C#:
 - [Set Default Font while rendering spreadsheet to HTML](/cells/net/set-default-font-while-rendering-spreadsheet-to/)
 - [Specify how to cross string in output HTML using HtmlCrossType](/cells/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
 - [Support the layout of DIV tags while loading HTML to excel workbook](/cells/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
+{{< app/cells/assistant language="csharp" >}}

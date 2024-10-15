@@ -42,3 +42,4 @@ You can also use the [**WorkbookRender.toPrinter**](https://reference.aspose.com
 ## Related Articles
 
 - [Specify Job or Document Name while printing with Aspose.Cells](/cells/java/specify-job-or-document-name-while-printing-with-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

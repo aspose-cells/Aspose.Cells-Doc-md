@@ -36,3 +36,4 @@ BoxWhisker
 
 ## **Advance topics**
 - [Creating Waterfall Chart](/cells/java/creating-waterfall-chart/)
+{{< app/cells/assistant language="java" >}}

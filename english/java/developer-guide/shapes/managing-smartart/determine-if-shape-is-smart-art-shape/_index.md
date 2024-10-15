@@ -26,3 +26,4 @@ The following sample code loads the [sample Excel file](55541805.xlsx) contain
 Is Smart Art Shape: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

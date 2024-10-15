@@ -23,3 +23,4 @@ The sample code given below demonstrates the use of [**Name.GetReferredAreas**](
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-GetRangeWithExternalLinks-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

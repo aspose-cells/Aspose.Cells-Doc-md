@@ -141,3 +141,4 @@ The following example demonstrates removing comments in column A1 by loading the
 Please note that by removing comment with Aspose.Cells, the author is not removed automatically. If you need to remove the author as well, please use the RemoveAt method of [**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthorcollection) class as shown in the example above.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

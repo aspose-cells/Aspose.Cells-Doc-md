@@ -121,3 +121,4 @@ To remove custom properties using Aspose.Cells, call the [**DocumentPropertyColl
 - [Setting ScaleCrop and LinksUpToDate properties of Built-In Document Properties](/cells/net/setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties/)
 - [Specify Document Version of the Excel File using BuiltIn Document Properties](/cells/net/specify-document-version-of-the-excel-file-using-builtin-document-properties/)
 - [Specify the Language of the Excel File using BuiltIn Document Properties](/cells/net/specify-the-language-of-the-excel-file-using-builtin-document-properties/)
+{{< app/cells/assistant language="csharp" >}}

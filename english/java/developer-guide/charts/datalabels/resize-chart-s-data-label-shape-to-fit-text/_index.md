@@ -26,3 +26,4 @@ The chart looks as follows before executing the code.
 The chart looks as follows after executing the code.
 
 ![todo:image_alt_text](resize-chart-s-data-label-shape-to-fit-text_3.png)
+{{< app/cells/assistant language="java" >}}

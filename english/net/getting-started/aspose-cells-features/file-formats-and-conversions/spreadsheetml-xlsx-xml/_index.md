@@ -171,3 +171,4 @@ Consider the following example. Some cells contain the text “Hello World” in
 
 
 Implementing even a simple find and replace operation in an Office Open XML document is difficult. Our advice: remember that open and standard does not mean simple, and use Aspose.Cells.
+{{< app/cells/assistant language="csharp" >}}

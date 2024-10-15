@@ -74,3 +74,4 @@ This article has covered the key points on why Aspose components are a better ch
 
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

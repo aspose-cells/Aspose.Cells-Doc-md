@@ -65,3 +65,4 @@ Specify the [**FindOptions.LookInType**](https://reference.aspose.com/cells/net/
 - [Find Cells with Specific Style](/cells/net/find-cells-with-specific-style/)
 - [Find if the cell value starts with single quote mark](/cells/net/find-if-the-cell-value-starts-with-single-quote-mark/)
 - [Search Data using Original Values](/cells/net/search-data-using-original-values/)
+{{< app/cells/assistant language="csharp" >}}

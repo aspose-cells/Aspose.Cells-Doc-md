@@ -69,3 +69,4 @@ Download **Formula Calculation Engine** form any of the below mentioned social c
 For more details, visit [Formula Calculation Engine](/cells/net/formula-calculation-engine/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

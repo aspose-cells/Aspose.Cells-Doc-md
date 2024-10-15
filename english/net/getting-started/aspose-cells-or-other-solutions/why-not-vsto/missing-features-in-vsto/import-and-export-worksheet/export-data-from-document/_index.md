@@ -15,3 +15,4 @@ This section has following topics:
 
 - [Columns Containing Non-Strongly Typed Data](/cells/net/columns-containing-non-strongly-typed-data/)
 - [Columns Containing Strongly Typed Data](/cells/net/columns-containing-strongly-typed-data/)
+{{< app/cells/assistant language="csharp" >}}

@@ -74,3 +74,4 @@ Download **Convert Chart to Images** form any of the below mentioned social codi
 For more details, visit [Converting Chart to Image](/cells/net/converting-chart-to-image-in-svg-format/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

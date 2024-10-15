@@ -105,3 +105,4 @@ Aspose.Cells provides [**Range.Copy()**](https://reference.aspose.com/cells/net/
 The following example shows how to copy a source range of cells to another named range.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CopyNamedRanges-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

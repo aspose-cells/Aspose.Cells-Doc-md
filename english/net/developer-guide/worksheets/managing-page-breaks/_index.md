@@ -57,3 +57,4 @@ To remove a specific page break, call the [**HorizontalPageBreakCollection.Remov
 ## **Important to know**
 
 When you set **FitToPages** properties (that is [**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) and [**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)) in page setup settings, the page break settings are affected, so, if you print the worksheet, the page break settings are not considered although they are still set.
+{{< app/cells/assistant language="csharp" >}}

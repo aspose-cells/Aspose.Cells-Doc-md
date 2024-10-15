@@ -48,3 +48,4 @@ Aspose.Cells also provides this feature. Below is a code sample that creates an 
 - [How to set comment background](/cells/net/how-to-set-comment-background/)
 - [Threaded Comments](/cells/net/threaded-comments/)
 
+{{< app/cells/assistant language="csharp" >}}

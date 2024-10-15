@@ -28,3 +28,4 @@ When a given worksheet has many columns, the rendered PDF file may show the cont
 If your spreadsheet contains formulas, it is best to call [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

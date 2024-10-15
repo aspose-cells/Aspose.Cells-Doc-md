@@ -202,3 +202,4 @@ To see a list of supported chart types, read the [Chart Types](/cells/java/char
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="java" >}}

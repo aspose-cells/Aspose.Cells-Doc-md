@@ -182,3 +182,4 @@ The code samples that follow show how to add a pie chart to a spreadsheet using 
 **Pie chart created with Aspose.Cells for .NET** 
 
 ![todo:image_alt_text](create-a-pie-chart_2.png)
+{{< app/cells/assistant language="csharp" >}}

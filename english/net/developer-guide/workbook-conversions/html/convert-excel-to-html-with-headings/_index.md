@@ -14,3 +14,4 @@ Aspose.Cells provides the option to export headings while converting Excel to HT
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-PrintHeadings-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -103,3 +103,4 @@ The following example creates a new workbook from the scratch, inserts "Hello Wo
 The following example opens an existing Microsoft Excel template file "Sample.xlsx", inserts "Hello World!" into cell A1 in the first worksheet and saves as Excel file.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

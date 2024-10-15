@@ -113,3 +113,4 @@ Download **Working With Colors** form any of the below mentioned social coding s
 For more details, visit [Data Formating Features](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

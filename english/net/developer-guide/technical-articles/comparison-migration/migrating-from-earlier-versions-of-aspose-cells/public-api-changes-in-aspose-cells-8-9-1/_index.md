@@ -286,3 +286,4 @@ It is advised to use the FontConfigs.SetFontFolder(string, bool) method with fol
 Use FontConfigs.SetFontFolders(string[], bool) method with folder recursive to false instead.
 ### **Obsoleted CellsHelper.FontFiles Property**
 Use FontConfigs.SetFontSources(FontSourceBase[]) method instead.
+{{< app/cells/assistant language="csharp" >}}

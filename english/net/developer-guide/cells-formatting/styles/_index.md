@@ -56,3 +56,4 @@ cell.SetStyle(style);
 - [Using Built-in Styles](/cells/net/using-built-in-styles/)
 
 
+{{< app/cells/assistant language="csharp" >}}

@@ -10,3 +10,4 @@ Why do users choose Aspose.Cells to work with documents? The shortest answer we 
 
 This section compares Aspose.Cells components and some other systems.
 
+{{< app/cells/assistant language="csharp" >}}

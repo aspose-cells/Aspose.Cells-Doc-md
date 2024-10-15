@@ -59,3 +59,4 @@ Click inside your data and use **CTRL + T** or use the Home tab, **Format as Tab
 The following sample code loads the [sample Excel file](TableFilters.xlsx) shows the same featrue using Aspsoe.Cells.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "TableFilters.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

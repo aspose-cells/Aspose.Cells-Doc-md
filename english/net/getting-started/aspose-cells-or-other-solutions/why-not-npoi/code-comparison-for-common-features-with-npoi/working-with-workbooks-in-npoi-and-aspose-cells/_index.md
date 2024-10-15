@@ -10,3 +10,4 @@ This section has the following topics:
 - [Add Data in Cells](/cells/net/add-data-in-cells/)
 - [Create New Workbook](/cells/net/create-new-workbook/)
 - [Set Print Area](/cells/net/set-print-area/)
+{{< app/cells/assistant language="csharp" >}}

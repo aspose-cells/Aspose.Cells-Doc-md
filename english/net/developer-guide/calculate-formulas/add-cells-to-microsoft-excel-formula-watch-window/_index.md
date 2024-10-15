@@ -20,3 +20,4 @@ The following sample code sets the formula of cells C1 and E1 and adds both of t
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Formulas-AddCellsToMicrosoftExcelFormulaWatchWindow.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

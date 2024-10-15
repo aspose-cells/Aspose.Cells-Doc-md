@@ -206,3 +206,4 @@ If you want to restrict users from editing cells the cells must be locked before
 It is possible to lock cells using the Aspose.Cells API too. Each cell has a Style API that further contains a setLocked method. Use it lock or unlock cells.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-LockCell-LockCell.java" >}}
+{{< app/cells/assistant language="java" >}}

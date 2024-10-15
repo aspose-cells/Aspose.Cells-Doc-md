@@ -22,3 +22,4 @@ You can download the [source Excel file](5472956.xlsx) and the [output PDF](547
 ### Java code to refresh the values of linked shapes
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RefreshValuesOfLinkedShapes-RefreshValuesOfLinkedShapes.java" >}}
+{{< app/cells/assistant language="java" >}}

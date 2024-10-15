@@ -36,3 +36,4 @@ book.save(dataDir + "AsposeHTMLSpreadsheet.html", save);
 For more details, visit [Converting Excel Files to HTML](/cells/java/converting-workbook-to-different-formats/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

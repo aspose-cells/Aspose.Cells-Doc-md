@@ -18,3 +18,4 @@ Aspose.Cells now supports fetching the refresh date and refresh by who informati
 **Sample Code**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-GetPivotTableRefreshDate-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

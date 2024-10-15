@@ -26,3 +26,4 @@ This is the output image after setting the [**ImageOrPrintOptions.DefaultFont**]
 ## Sample Code
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-SetDefaultFontWhileRenderingSpreadsheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

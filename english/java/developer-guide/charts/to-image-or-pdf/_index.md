@@ -131,3 +131,4 @@ In case you try to render the non-supported chart types to image or PDF, you may
 - [Converting Chart to Image in SVG Format](/cells/java/converting-chart-to-image-in-svg-format/)
 - [Create Chart PDF with Desired Page Size](/cells/java/create-chart-pdf-with-desired-page-size/)
 - [Export Chart to SVG with viewBox attribute](/cells/java/export-chart-to-svg-with-viewbox-attribute/)
+{{< app/cells/assistant language="java" >}}

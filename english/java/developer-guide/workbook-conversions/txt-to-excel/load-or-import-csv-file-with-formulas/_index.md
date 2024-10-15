@@ -24,3 +24,4 @@ The code first loads the CSV file, then import it again at cell D4. Finally, it 
 ![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LoadOrImportCSVFile-LoadOrImportCSVFile.java" >}}
+{{< app/cells/assistant language="java" >}}

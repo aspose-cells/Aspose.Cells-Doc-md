@@ -18,3 +18,4 @@ The following screenshot highlights the effect of this code on [sample excel fil
 ![todo:image_alt_text](set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-Settextofchartlegend-Settextofchartlegend.java" >}}
+{{< app/cells/assistant language="java" >}}

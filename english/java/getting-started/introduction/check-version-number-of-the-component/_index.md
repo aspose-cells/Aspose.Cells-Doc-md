@@ -29,3 +29,4 @@ You may also use the following APIs to get the version number of the product.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-introduction-CheckVersionNumberOfComponent-CheckVersionNumberOfComponent.java" >}}
 
+{{< app/cells/assistant language="java" >}}

@@ -28,3 +28,4 @@ The code examples below apply strong encryption on a file and set a password.
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SettingStrongEncryptionType-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

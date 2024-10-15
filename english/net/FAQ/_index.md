@@ -47,3 +47,4 @@ There is no better way to get the stack size used at runtime. The above code we 
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="csharp" >}}

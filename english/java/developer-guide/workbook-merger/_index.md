@@ -69,3 +69,4 @@ You may find the [Combine Multiple Worksheets into a Single Worksheet](/cells/ja
 - [Merge Multiple Worksheets into a Single Worksheet](/cells/java/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Merge Files](/cells/java/merge-files/)
 
+{{< app/cells/assistant language="java" >}}

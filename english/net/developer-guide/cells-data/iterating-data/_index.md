@@ -83,3 +83,4 @@ Based on above-mentioned facts, the following are the possible scenarios where e
 1. Read-only access of the cell collection is required, that is; the requirement is to only inspect the cells.
 1. A large number of cells are to be traversed.
 1. Only initialized cells/rows/columns to be traversed.
+{{< app/cells/assistant language="csharp" >}}

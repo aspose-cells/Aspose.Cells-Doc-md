@@ -28,3 +28,4 @@ Please check the detailed article on [Verify that Cell Value Satisfies Data Vali
 {{% /alert %}}
 ## **Added overload ToPrinter(PrinterSettings printerSettings) method for WorkbookRender class**
 You can use the overloaded method to render workbook to Printer via PrinterSettings.
+{{< app/cells/assistant language="csharp" >}}

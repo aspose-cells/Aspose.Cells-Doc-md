@@ -14,3 +14,4 @@ The Source file used in the following code snippet is attached for your referenc
 [Source File](GetTextWidthSample.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-CellsHelperClass-GetTextWidth-1.java" >}}
+{{< app/cells/assistant language="java" >}}

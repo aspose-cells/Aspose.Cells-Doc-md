@@ -18,3 +18,4 @@ We will display this data on two types of chart,the first chart is XY (Scatter) 
 ![todo:image_alt_text](compare.png)
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "X-axis-vs-category-axis.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

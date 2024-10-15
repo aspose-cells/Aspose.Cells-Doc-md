@@ -9,3 +9,4 @@ With the increasing prevalence of high-resolution screens, images generated at t
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Image-ExcelToHighResolutionImage.java" >}}
 
+{{< app/cells/assistant language="java" >}}

@@ -63,3 +63,4 @@ The [**PivotFieldCollection**](https://reference.aspose.com/cells/net/aspose.cel
 The code sample below shows how to clear all the pivot fields in a data area.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ClearPivotFields-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

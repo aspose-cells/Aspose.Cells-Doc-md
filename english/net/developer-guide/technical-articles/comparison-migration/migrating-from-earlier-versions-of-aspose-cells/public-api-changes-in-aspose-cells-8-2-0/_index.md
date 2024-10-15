@@ -31,3 +31,4 @@ The signatures of aforesaid methods are as follow:
 Please check the detailed article on [Auto Fit Rows and Columns](http://aspose.com/docs/display/cellsnet/AutoFit+Rows+and+Columns).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

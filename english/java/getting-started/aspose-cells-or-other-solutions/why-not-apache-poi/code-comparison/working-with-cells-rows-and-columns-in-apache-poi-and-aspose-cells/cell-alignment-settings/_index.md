@@ -137,3 +137,4 @@ private static void createCell(HSSFWorkbook wb, HSSFRow row, int column, int ali
 For more details, visit [Configuring Alignment Settings](/cells/java/data-formatting/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

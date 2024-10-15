@@ -38,3 +38,4 @@ See the output [PDF](48496673.pdf) file after setting the [**PdfSaveOptions.D
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Fonts-SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

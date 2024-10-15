@@ -36,3 +36,4 @@ Please see the following sample code. It loads the [sample Excel file](sampleCre
 - [Removing Slicer](/cells/net/removing-slicer/)
 - [Rendering Slicer](/cells/net/rendering-slicer/)
 - [Updating Slicer](/cells/net/updating-slicer/)
+{{< app/cells/assistant language="csharp" >}}

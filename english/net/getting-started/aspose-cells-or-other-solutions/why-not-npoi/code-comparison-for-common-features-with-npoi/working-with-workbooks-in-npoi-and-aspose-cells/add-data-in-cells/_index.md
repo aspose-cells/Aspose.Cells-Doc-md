@@ -91,3 +91,4 @@ Download **Add Data in Cells** form any of the below mentioned social coding sit
 For more details, visit [Adding Data to Cells](/cells/net/add-data-in-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

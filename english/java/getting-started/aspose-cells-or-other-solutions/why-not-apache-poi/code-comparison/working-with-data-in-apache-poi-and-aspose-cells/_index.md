@@ -12,3 +12,4 @@ url: /java/working-with-data-in-apache-poi-and-aspose-cells/
 - [New Line in Cells](/cells/java/new-line-in-cells/)
 - [Create Pivot Tables using Apache POI and Aspose.Cells](/cells/java/create-pivot-tables-using-apache-poi-and-aspose-cells/)
 - [Create Charts using Apache POI and Aspose.Cells](/cells/java/create-charts-using-apache-poi-and-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

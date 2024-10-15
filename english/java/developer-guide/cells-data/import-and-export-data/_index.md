@@ -105,3 +105,4 @@ Spreadsheets stores data as a sequence of rows and columns. Use the [**exportArr
 ## **Advance topics**
 - [Import Data from Microsoft Access Database ResultSet Object to the Worksheet](/cells/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
 - [Specify Formula Fields while Importing Data to Worksheet](/cells/java/specify-formula-fields-while-importing-data-to-worksheet/)
+{{< app/cells/assistant language="java" >}}

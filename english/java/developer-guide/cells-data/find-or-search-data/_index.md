@@ -60,3 +60,4 @@ Aspose.Cells allows you to search with regular expressions.
 ## **Advance topics**
 - [Find cells with specific style](/cells/java/find-cells-with-specific-style/)
 - [Search Data using Original Values](/cells/java/search-data-using-original-values/)
+{{< app/cells/assistant language="java" >}}

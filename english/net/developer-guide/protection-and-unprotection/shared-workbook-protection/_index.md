@@ -20,3 +20,4 @@ The following sample code creates a workbook and protects it while enabling shar
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-PasswordProtectOrUnprotectSharedWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

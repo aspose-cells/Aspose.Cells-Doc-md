@@ -75,3 +75,4 @@ Hide scroll bars by setting the [**Workbook**](https://reference.aspose.com/cell
 Below is a complete code that opens an Excel file, book1.xls, hides both scroll bars and then saves the modified file as output.xls.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-DisplayHideScrollBars-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

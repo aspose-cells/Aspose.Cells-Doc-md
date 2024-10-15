@@ -12,3 +12,4 @@ The following sample code loads the [sample Excel file](67338485.xlsx) that co
 
 ![todo:image_alt_text](rendering-slicer_1)
 ## **Sample Code**
+{{< app/cells/assistant language="java" >}}

@@ -28,3 +28,4 @@ It is possible that a given worksheet does not have any populated cells, however
 ## **Programming Sample**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-DetectEmptyWorksheets-DetectEmptyWorksheets.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

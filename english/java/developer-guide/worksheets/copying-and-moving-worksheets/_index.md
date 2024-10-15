@@ -52,3 +52,4 @@ Aspose.Cells provides a method, [**Worksheet.moveTo()**](https://reference.aspos
 The following example shows how to move a worksheet to another location within the workbook.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-MoveWorksheet-MoveWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

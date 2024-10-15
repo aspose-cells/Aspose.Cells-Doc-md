@@ -26,3 +26,4 @@ The following sample code loads the [sample Excel file](51740740.xlsx), reads i
 Sheet or Tab Id: 1297
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -24,3 +24,4 @@ The following sample code shows how to use text wrapping and explicit line break
 You can use ‘\n’ in Java to insert the explicit line breaks in a cell.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UseExplicitLineBreaks-UseExplicitLineBreaks.java" >}}
+{{< app/cells/assistant language="java" >}}

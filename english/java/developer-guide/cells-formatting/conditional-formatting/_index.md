@@ -58,3 +58,4 @@ Aspose.Cells supports applying conditional formatting at runtime.
 - [Apply Conditional Formatting in Worksheets](/cells/java/apply-conditional-formatting-in-worksheets/)
 - [Apply Shading to Alternate Rows and Columns with Conditional Formatting](/cells/java/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
 
+{{< app/cells/assistant language="java" >}}

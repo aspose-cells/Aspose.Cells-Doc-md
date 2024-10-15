@@ -208,3 +208,4 @@ If you are interested in [formatting a portion of Rich Text in a cell](/cells/ja
 - [Number Settings](/cells/java/cells-number-settings/)
 - [Preserve Single Quote Prefix of Cell Value or Range](/cells/java/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Styling and Data Formatting](/cells/java/styling-and-data-formatting/)
+{{< app/cells/assistant language="java" >}}

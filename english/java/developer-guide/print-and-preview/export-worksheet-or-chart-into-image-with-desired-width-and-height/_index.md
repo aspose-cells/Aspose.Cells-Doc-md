@@ -22,3 +22,4 @@ The following code exports the worksheet into an image with 400x400 size.
 - [Chart Rendering](/cells/java/chart-rendering/)
 - [Converting Worksheet to Different Image Formats](/cells/java/converting-worksheet-to-different-image-formats/)
 - [Export Chart to SVG with viewBox attribute](/cells/java/export-chart-to-svg-with-viewbox-attribute/)
+{{< app/cells/assistant language="java" >}}

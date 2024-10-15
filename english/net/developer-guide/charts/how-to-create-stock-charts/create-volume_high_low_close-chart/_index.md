@@ -19,3 +19,4 @@ This chart include a column for volume immediately after the first (category) co
 The following sample code loads the [sample Excel file](Volume-High-Low-Close.xlsx) and generates the [output Excel file](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-volume-high-low-close-stock-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

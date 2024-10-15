@@ -26,3 +26,4 @@ The following code examples show how to apply super and subscript to text.
 ### C# code to Apply Subscript effect on text
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplySuperscriptAndSubscript-SettingSubscriptEffect-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

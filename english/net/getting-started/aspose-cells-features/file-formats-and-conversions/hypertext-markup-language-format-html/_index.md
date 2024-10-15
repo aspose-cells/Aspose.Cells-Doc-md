@@ -27,3 +27,4 @@ Please see the subsection **Opening HTML Files** in this article that explains h
 Please see the following documentation article that explains how to convert/save your workbooks/spreadsheets into HTML format.
 
 - [Converting Excel Files to HTML](/cells/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktohtml)
+{{< app/cells/assistant language="csharp" >}}

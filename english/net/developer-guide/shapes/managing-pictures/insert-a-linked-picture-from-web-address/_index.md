@@ -25,3 +25,4 @@ Aspose.Cells for .NET supports adding a linked image using the [**ShapeCollectio
 The following example shows how to add linked picture from web address to a worksheet.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertLinkedPicture-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -231,3 +231,4 @@ For a full list of which 2D and 3D charts are supported, see [Supported chart ty
 
 ## **Advance topics**
 - [Set Picture as Background Fill in the Chart](/cells/java/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="java" >}}

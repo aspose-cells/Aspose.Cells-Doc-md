@@ -66,3 +66,4 @@ If you want to restrict users from editing cells the cells must be locked before
 It is possible to lock cells using the Aspose.Cells API too. Each cell can get [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) formatting that contains a Boolean property, [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked). Set the [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) property to **true** or **false** to lock or unlock the cell.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -37,3 +37,4 @@ In this example, we create an Excel workbook, add some sample data, access the f
 ![todo:image_alt_text](format-range.png)
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Range-FormatRanges.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -53,3 +53,4 @@ Download **Calculate Sub Totals** form any of the below mentioned social coding 
 For more details, visit [Creating Subtotals](/cells/net/creating-subtotals/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

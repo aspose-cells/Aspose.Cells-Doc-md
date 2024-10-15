@@ -134,3 +134,4 @@ Download **Set Print Area** form any of the below mentioned social coding sites:
 For more details, visit [Setting Print Options](/cells/net/setting-print-options/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

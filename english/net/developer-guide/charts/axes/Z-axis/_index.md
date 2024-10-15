@@ -15,3 +15,4 @@ Please see the following sample code that create a new Excel file and put values
 ![todo:image_alt_text](excel.png)
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ZAxis.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

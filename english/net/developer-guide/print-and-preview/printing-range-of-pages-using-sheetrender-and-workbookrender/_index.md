@@ -18,3 +18,4 @@ The following sample code illustrates the use of WorkbookRender.ToPrinter(string
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-PrintingRangeOfPages-PrintingSpecificRangeOfPages.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

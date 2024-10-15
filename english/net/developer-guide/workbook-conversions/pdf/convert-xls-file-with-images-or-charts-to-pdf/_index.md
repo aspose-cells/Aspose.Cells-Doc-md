@@ -20,3 +20,4 @@ Aspose.Cells supports converting XLS files that contain images and charts to PDF
 If the spreadsheet contains formulas, it is best to call the [Workbook.CalculateFormula](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) method just before rendering to PDF. Doing so ensures that formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

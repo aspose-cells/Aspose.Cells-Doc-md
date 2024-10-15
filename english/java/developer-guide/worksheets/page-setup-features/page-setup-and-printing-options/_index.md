@@ -100,3 +100,4 @@ This article shows how to set page setup and sheet print options using Aspose.Ce
 Aspose.Cells benefits from years of research, design and careful tuning. We heartily welcome your queries, comments and suggestions at [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9). We warranty a prompt reply.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

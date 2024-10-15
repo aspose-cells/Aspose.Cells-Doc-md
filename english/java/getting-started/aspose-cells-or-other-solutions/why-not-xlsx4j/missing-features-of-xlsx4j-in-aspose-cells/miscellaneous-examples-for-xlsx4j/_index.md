@@ -10,3 +10,4 @@ url: /java/miscellaneous-examples-for-xlsx4j/
 - [Create Pivot Table in xlsx4j](/cells/java/create-pivot-table-in-xlsx4j/)
 - [Printing Workbooks in xlsx4j](/cells/java/printing-workbooks-in-xlsx4j/)
 - [Set Print Titles in xlsx4j](/cells/java/set-print-titles-in-xlsx4j/)
+{{< app/cells/assistant language="java" >}}

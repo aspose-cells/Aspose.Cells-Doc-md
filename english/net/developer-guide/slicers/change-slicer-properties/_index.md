@@ -16,3 +16,4 @@ Please see the following sample code. It loads the [sample Excel file](sampleCre
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Slicers-ChangeSlicerProperties-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

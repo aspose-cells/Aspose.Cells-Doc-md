@@ -18,3 +18,4 @@ The following sample code creates a workbook and sets the value of the [**Workb
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "LoadingSavingConvertingAndManaging-SaveWorkbookToStrictOpenXMLSpreadsheetFormat.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -45,3 +45,4 @@ Aspose components are highly scalable and lightning fast. They are a true .NET s
 - [Import and Export Worksheet](/cells/net/import-and-export-worksheet/)
 - [Print and Preview workbook](/cells/net/print-and-preview/)
 - And other.
+{{< app/cells/assistant language="csharp" >}}

@@ -17,3 +17,4 @@ The following screenshot shows the effect of the sample code on the [sample exce
 The following sample code updates the value of ActiveX ComboBox Control present inside the [sample excel file](5473374.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UpdateActiveXComboBoxControl-UpdateActiveXComboBoxControl.java" >}}
+{{< app/cells/assistant language="java" >}}

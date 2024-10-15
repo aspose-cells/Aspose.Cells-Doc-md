@@ -87,3 +87,4 @@ The following example shows how to activate a worksheet and make an active cell 
 - [Utilize Sheet.SheetId property of OpenXml using Aspose.Cells](/cells/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [Worksheet Views](/cells/net/worksheet-views/)
 
+{{< app/cells/assistant language="csharp" >}}

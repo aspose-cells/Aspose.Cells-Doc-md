@@ -51,3 +51,4 @@ To remove the worksheet splitting, just click the Split button again.
 Aspose.Cells for .Net provides a [**Worksheet.RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/removesplit/) method to remove split setting.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Remove-Split.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -58,3 +58,4 @@ After executing the code below and opening the file, check the header of the wor
 1. Select the **Header/Footer** tab.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

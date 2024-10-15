@@ -26,3 +26,4 @@ If the [OnePagePerSheet](https://reference.aspose.com/cells/net/aspose.cells/pdf
 If your spreadsheet contains formulas, it is best to call [Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) just before rendering the spreadsheet to PDF. This ensures that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

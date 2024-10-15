@@ -29,3 +29,4 @@ The following image shows the output Excel file generated with the sample code. 
 - [Merging and splitting cells](/cells/java/merging-and-unmerging-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -23,3 +23,4 @@ This section includes the following Code Comparison Examples:
   - [Row Column Height Adjustment in xlsx4j](/cells/java/row-column-height-adjustment-in-xlsx4j/)
 
 **Note:** Many more code comparisons are yet to be available soon. 
+{{< app/cells/assistant language="java" >}}

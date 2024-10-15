@@ -28,3 +28,4 @@ Below is the console output of the above sample code.
 0.012345
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -32,3 +32,4 @@ Please see the following sample code that describes how you can perform the task
 - [Add Digital Signature to an already signed Excel file](/cells/net/add-digital-signature-to-an-already-signed-excel-file/)
 - [Add Signature line to the worksheet](/cells/net/add-signature-line/)
 - [Support for XAdES Signature](/cells/net/support-for-xades-signature/)
+{{< app/cells/assistant language="csharp" >}}

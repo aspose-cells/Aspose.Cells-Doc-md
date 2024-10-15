@@ -181,3 +181,4 @@ FODS file is spreadsheet saved in OpenDocument XML without any compression. Asp
 - [Reading CSV File with Multiple Encodings](/cells/java/reading-csv-file-with-multiple-encodings/)
 - [Stop conversion or loading using InterruptMonitor when it is taking too long](/cells/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [Using LightCells API](/cells/java/using-lightcells-api/)
+{{< app/cells/assistant language="java" >}}

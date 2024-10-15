@@ -21,3 +21,4 @@ Please see the following sample code. It loads the [sample Excel file](input.xls
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Timelines-CreateTimelineToPivotTable.java" >}}
 
+{{< app/cells/assistant language="java" >}}

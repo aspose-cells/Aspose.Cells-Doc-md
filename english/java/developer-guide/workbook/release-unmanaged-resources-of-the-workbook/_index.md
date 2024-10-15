@@ -14,3 +14,4 @@ Aspose.Cells provides [Workbook.dispose()](https://reference.aspose.com/cells/ja
 The following sample code shows how to make use of the [Workbook.dispose()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#dispose\(\)) method.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReleaseUnmanagedResources-ReleaseUnmanagedResources.java" >}}
+{{< app/cells/assistant language="java" >}}

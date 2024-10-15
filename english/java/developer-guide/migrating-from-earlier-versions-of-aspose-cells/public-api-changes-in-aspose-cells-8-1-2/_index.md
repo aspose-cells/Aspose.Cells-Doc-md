@@ -20,3 +20,4 @@ Please check the detailed article on [Getting Warnings for Font Substitution whi
 {{% /alert %}}
 ## **Deleted Obsolete PdfSaveOptions.ChartImageType Property**
 Aspose.Cells for Java 8.1.2 has removed the obsolete PdfSaveOptions.ChartImageType property from the public API.
+{{< app/cells/assistant language="java" >}}

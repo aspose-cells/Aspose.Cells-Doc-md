@@ -34,3 +34,4 @@ The following sample code creates an empty workbook and then saves it as PDF aft
        at Aspose.Cells.Workbook.Save(String fileName, SaveOptions saveOptions)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

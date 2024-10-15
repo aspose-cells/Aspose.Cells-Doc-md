@@ -66,3 +66,4 @@ workbook.save("d:\\files\\out_test.xls");
 
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -125,3 +125,4 @@ Download **Getting Cell Contents** form any of the below mentioned social coding
 For more details, visit [Data Handling Features](/cells/net/data-handling-features-in-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

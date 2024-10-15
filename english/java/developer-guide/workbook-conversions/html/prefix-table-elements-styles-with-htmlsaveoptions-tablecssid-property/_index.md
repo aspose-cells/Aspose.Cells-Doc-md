@@ -34,3 +34,4 @@ The following sample code explains how to make use of [**HtmlSaveOptions.TableC
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty.java" >}}
+{{< app/cells/assistant language="java" >}}

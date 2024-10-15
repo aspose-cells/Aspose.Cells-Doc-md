@@ -66,3 +66,4 @@ To print all columns of Worksheet in one page: First, load the [sample file](sam
 The output result:
 <br>
 <img src="4.png" width=60% />
+{{< app/cells/assistant language="csharp" >}}

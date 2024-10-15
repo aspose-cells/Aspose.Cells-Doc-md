@@ -11,3 +11,4 @@ This section includes the following topics:
 - [Add WordArt Watermark to Worksheet in Aspose.Cells](/cells/net/add-wordart-watermark-to-worksheet-in-aspose-cells/)
 - [Copy Shapes between Worksheets in Aspose.Cells](/cells/net/copy-shapes-between-worksheets-in-aspose-cells/)
 - [Locking WordArt Watermark in Aspose.Cells](/cells/net/locking-wordart-watermark-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

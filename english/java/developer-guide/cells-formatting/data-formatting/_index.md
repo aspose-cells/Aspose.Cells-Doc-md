@@ -403,3 +403,4 @@ If the requirement is to set the display format of numbers & dates for a complet
 Please check the detailed article on [Setting Display Formats of Numbers and [Dates](/cells/java/data-formatting/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

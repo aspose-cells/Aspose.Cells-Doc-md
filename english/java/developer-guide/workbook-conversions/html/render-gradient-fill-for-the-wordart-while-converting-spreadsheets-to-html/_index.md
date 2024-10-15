@@ -13,3 +13,4 @@ Earlier, Aspose.Cells APIs were not capable of rendering gradient fill of the Wo
 The following sample code converts the source excel file into the output HTML forma[t](). The source excel file contains a word art object with gradient fill as shown in the above screenshot.
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RenderGradientFillHTML-RenderGradientFillHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

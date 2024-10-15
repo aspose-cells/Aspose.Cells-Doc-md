@@ -30,3 +30,4 @@ The sample code below shows how to use the [**PdfSaveOptions.setAllColumnsInOneP
 If your spreadsheet contains formulas, it is best to call [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) method just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

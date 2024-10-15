@@ -47,3 +47,4 @@ The following example will show you in details how to set localized region to ac
 - [How to Set Chinese Region for Chart](/cells/net/convert-chart-to-image-for-chinese-region/)
 - [How to Set Japanese Region for Chart](/cells/net/convert-chart-to-image-for-japanese-region/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -266,3 +266,4 @@ It is advised to use the PageSetup.PrintDraft property instead.
 Please consider using AutoFilter.FilterColumns property to achieve the same goal.
 ### **Deleted TickLabels.Rotation Property**
 Please use TickLabels.RotationAngle property instead.
+{{< app/cells/assistant language="csharp" >}}

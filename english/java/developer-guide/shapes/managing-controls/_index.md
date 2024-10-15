@@ -335,3 +335,4 @@ The following example shows how to add oval shapes to the worksheet. The example
 ## **Advance topics**
 - [Add ActiveX Controls using Aspose.Cells](/cells/java/add-activex-controls-using-aspose-cells/)
 - [Remove ActiveX Control](/cells/java/remove-activex-control/)
+{{< app/cells/assistant language="java" >}}

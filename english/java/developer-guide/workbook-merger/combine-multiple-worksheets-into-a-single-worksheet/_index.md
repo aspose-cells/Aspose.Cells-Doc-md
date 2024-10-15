@@ -59,3 +59,4 @@ The following code snippet shows how to combine multiple worksheets into a singl
 You may find the [Combine Multiple Workbooks into a Single Workbook](/cells/java/combine-multiple-workbooks-into-a-single-workbook/) article useful for more information.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -102,3 +102,4 @@ Welcome to your new app.
 }
 
 ```
+{{< app/cells/assistant language="csharp" >}}

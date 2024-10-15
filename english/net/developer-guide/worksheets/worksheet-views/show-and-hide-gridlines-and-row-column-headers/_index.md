@@ -57,3 +57,4 @@ A complete example is given below that shows how to use the [**IsRowColumnHeade
 It is also possible to use the [**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) and [**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns) methods of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) class to make multiple rows and columns visible.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

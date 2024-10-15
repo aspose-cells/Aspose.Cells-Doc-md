@@ -22,3 +22,4 @@ If you change the value of cell B1 to 100, the values of Data Table which are fi
 Here is the sample code used to generate the [output PDF](5472577.pdf) from the [source excel file](5472579.xlsx). Please read the comments for more information.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculationOfArrayFormula-CalculationOfArrayFormula.java" >}}
+{{< app/cells/assistant language="java" >}}

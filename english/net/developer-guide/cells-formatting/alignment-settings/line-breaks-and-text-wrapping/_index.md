@@ -24,3 +24,4 @@ To wrap text in a cell, use the [**Aspose.Cells.Style.IsTextWrapped**](https://r
 You can use ‘\n’ in C# and ‘ vbLf’ in VB.NET to insert explicit line breaks in a cell.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-UseExplicitLineBreaks-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

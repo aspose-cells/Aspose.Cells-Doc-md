@@ -22,3 +22,4 @@ and gets locked rows and columns with  [**Worksheet.GetFreezedPanes**](https://r
 3. Gets the locked row and columns
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Is-Worksheet-Frozen.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

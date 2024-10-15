@@ -63,3 +63,4 @@ The example below adds sample data to a worksheet, adds a [**ListObject**](https
 - [Set the Comment of Table or List Object inside the Worksheet](/cells/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
 - [Tables and Ranges](/cells/net/tables-and-ranges/)
 
+{{< app/cells/assistant language="csharp" >}}

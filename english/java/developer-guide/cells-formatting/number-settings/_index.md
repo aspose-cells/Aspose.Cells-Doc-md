@@ -81,3 +81,4 @@ If you use the [**Custom**](https://reference.aspose.com/cells/java/com.aspose.c
 - [Check Custom Number Format when Setting Style.Custom Property](/cells/java/check-custom-number-format-when-setting-style-custom-property/)
 - [Specify Custom Number Decimal and Group Separators for Workbook](/cells/java/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [Specifying DBNum Custom Pattern Formatting](/cells/java/specifying-dbnum-custom-pattern-formatting/)
+{{< app/cells/assistant language="java" >}}

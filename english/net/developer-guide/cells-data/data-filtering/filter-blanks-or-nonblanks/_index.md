@@ -52,3 +52,4 @@ Please see the following sample code that loads the [sample Excel file](sample.x
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Filter-non-blanks.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

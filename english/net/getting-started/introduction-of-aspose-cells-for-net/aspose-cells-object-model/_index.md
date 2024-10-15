@@ -121,3 +121,4 @@ Each Worksheet object contains a SparklineGroupCollection object that represents
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_15.png)|
 A SparklineGroup object represents a sparkline group in the worksheet. Developers can set the style of sparkline group and other related properties using SparklineGroup object.
+{{< app/cells/assistant language="csharp" >}}

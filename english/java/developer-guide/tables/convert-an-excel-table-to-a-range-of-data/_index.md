@@ -42,3 +42,4 @@ Aspose.Cells provides additional options while converting Table to Range through
 The sample code given below demonstrates the use of [**TableToRangeOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/TableToRangeOptions) class.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Tables-ConvertTableToRangeWithOptions-1.java" >}}
+{{< app/cells/assistant language="java" >}}

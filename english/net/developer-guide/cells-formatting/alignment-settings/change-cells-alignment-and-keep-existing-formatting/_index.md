@@ -20,3 +20,4 @@ The following sample code loads the [sample Excel file](67338585.xlsx), creates 
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-ChangeCellsAlignmentAndKeepExistingFormatting.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

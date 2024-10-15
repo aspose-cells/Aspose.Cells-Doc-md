@@ -98,3 +98,4 @@ Aspose.Cells supports saving files to JSON or XML.
 - [Adjust workbook compression level](/cells/net/adjust-workbook-compression-level/)
 - [Save Workbook to Strict Open XML Spreadsheet Format](/cells/net/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [Saving File to Response Object](/cells/net/saving-file-to-response-object/)
+{{< app/cells/assistant language="csharp" >}}

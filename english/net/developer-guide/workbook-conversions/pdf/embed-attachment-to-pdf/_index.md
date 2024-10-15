@@ -13,3 +13,4 @@ Generally, while converting to pdf, the Ole Object will be rendered as an icon o
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-EmbedAttachmentToPdf.cs" >}}
 
 ![embedded-attachment.png](embedded-attachment.png)
+{{< app/cells/assistant language="csharp" >}}

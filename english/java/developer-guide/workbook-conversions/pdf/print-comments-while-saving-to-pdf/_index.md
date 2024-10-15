@@ -32,3 +32,4 @@ The following sample code illustrates how to use [**PrintCommentsType**](https:/
 ## Related Articles
 
 - [Convert Excel file to PDF format compatible with PDFA-1a](/cells/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+{{< app/cells/assistant language="java" >}}

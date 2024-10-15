@@ -40,3 +40,4 @@ A complete example is given below to demonstrate how to create a chart and apply
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-Applying3DFormat.java" >}}
+{{< app/cells/assistant language="java" >}}

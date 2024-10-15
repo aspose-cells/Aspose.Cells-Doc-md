@@ -38,3 +38,4 @@ Also you can copy the data with Range.CopyData method as the following codes:
 - [Copy Row Heights of Source Range to Destination Range](/cells/net/copy-row-heights-of-source-range-to-destination-range/)
 
 
+{{< app/cells/assistant language="csharp" >}}

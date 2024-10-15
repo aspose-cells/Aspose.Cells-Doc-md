@@ -331,3 +331,4 @@ The following example shows how to insert thought bubble cloud to a worksheet.
 Execute the above code, you will get the following results:
 
 ![](thought_bubble_cloud2.png)
+{{< app/cells/assistant language="java" >}}

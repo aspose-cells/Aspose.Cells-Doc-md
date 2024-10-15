@@ -33,3 +33,4 @@ Unprotecting workbook structure is easy with Aspose.Cells API.
 {{% alert color="primary" %}}
 Note: a correct password is required.
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -39,3 +39,4 @@ The following codes show how to render the max diplay range to html:
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Get-Max-Display-Range.cs" >}}
 
 Here is [source excel file](Book1.xlsx).
+{{< app/cells/assistant language="csharp" >}}

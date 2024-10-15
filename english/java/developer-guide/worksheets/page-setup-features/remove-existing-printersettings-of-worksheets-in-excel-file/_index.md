@@ -49,3 +49,4 @@ Paper Size: 8
 Printer settings of this worksheet are now removed by setting it null.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

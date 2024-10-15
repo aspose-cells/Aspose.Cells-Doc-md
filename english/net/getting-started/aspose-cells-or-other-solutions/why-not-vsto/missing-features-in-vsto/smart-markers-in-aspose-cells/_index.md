@@ -12,3 +12,4 @@ This section has following topics:
 - [Smart Markers feature](/cells/net/smart-markers-feature/)
 - [Using Anonymous Types or Custom Objects](/cells/net/using-anonymous-types-or-custom-objects/)
 - [Using Nested Objects](/cells/net/using-nested-objects/)
+{{< app/cells/assistant language="csharp" >}}

@@ -30,3 +30,4 @@ Aspose.Cells provides the same functionality as Microsoft Excel for adding workb
 - [Format and Modify Named Ranges](/cells/net/format-and-modify-named-ranges/)
 - [Get Range with External Links](/cells/net/get-range-with-external-links/)
 - [Implementing Non-Sequential Ranges](/cells/net/implementing-non-sequential-ranges/)
+{{< app/cells/assistant language="csharp" >}}

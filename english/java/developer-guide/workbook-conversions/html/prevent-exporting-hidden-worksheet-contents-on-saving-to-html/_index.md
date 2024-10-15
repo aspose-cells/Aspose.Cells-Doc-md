@@ -22,3 +22,4 @@ Other than controlling whether to export hidden worksheets or not, you may also 
 - [Export Comments while Saving Excel file to HTML](/cells/java/export-comments-while-saving-excel-file-to-html/)
 - [Hiding Overlaid Content with CrossHideRight while saving to HTML](/cells/java/hiding-overlaid-content-with-crosshideright-while-saving-to-html/)
 - [Export similar Border Style when Border Style is not supported by Web Browsers](/cells/java/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/)
+{{< app/cells/assistant language="java" >}}

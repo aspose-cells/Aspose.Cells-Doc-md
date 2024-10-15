@@ -32,3 +32,4 @@ options.setMemorySetting(MemorySetting.MEMORY_PREFERENCE);
 Workbook book = new Workbook("sample.xlsx", options);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -16,3 +16,4 @@ The following sample code illustrates how to implement Errors and Boolean Value 
 ![todo:image_alt_text](implement-errors-and-boolean-value-in-russian-or-any-other-language_1.png)
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-WorkbookSettings-ImplementErrorsAndBooleanValueInRussianOrAnyOtherLanguage.java" >}}
+{{< app/cells/assistant language="java" >}}

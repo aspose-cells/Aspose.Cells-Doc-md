@@ -13,3 +13,4 @@ The following sample code adds Word Art texts with different Built-in Styles. Pl
 ![todo:image_alt_text](add-word-art-text-with-built-in-styles_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddWordArtTextWithBuiltinStyle-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

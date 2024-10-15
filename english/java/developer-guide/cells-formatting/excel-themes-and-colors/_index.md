@@ -61,3 +61,4 @@ The following output is generated when executing the code.
 
 ## **Advance topics**
 - [Extract Theme Data from Excel File](/cells/java/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="java" >}}

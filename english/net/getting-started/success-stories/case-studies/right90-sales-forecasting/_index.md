@@ -28,3 +28,4 @@ We use the following Aspose.Cells features to create rich UI Excel worksheets:
 The Aspose.Cells component allowed us to quickly build and read Excel workbooks, giving our manufacturing customers another easy and intuitive way to capture, update and rollup their sales forecasts with Right90.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

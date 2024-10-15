@@ -46,3 +46,4 @@ Ignore blank: true
 ## Related Articles
 
 - [Data Validation](/cells/java/data-validation/)
+{{< app/cells/assistant language="java" >}}

@@ -34,3 +34,4 @@ As you see **J1000000** is quite a farther cell in XLSX file. However, the **Wai
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Example-StopConversionOrLoadingUsingInterruptMonitor.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

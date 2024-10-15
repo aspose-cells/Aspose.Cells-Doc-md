@@ -24,3 +24,4 @@ The following sample code formats the entire pivot table with a light blue color
 ![todo:image_alt_text](format-pivot-table-cells_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FormatPivotTableCells-FormatPivotTableCells.java" >}}
+{{< app/cells/assistant language="java" >}}

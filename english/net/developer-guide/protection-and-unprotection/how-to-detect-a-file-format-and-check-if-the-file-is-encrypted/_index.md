@@ -14,3 +14,4 @@ Sometimes you need to detect a file's format before opening it because the file 
 The following sample code illustrates how to detect a file format (using the file path) and check its extension. You can also determine whether the file is encrypted.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-DetectFileFormatAndEncryption-DetectFileFormatAndEncryption.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

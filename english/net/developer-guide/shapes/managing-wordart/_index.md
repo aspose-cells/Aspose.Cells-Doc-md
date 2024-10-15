@@ -22,3 +22,4 @@ The following example shows how to add a WordArt shape to set a background water
 - [Add Word Art Text with Built-in Styles](/cells/net/add-word-art-text-with-built-in-styles/)
 - [Locking WordArt Watermark](/cells/net/locking-wordart-watermark/)
 - [Set preset WordArt style to the text of the shape](/cells/net/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="csharp" >}}

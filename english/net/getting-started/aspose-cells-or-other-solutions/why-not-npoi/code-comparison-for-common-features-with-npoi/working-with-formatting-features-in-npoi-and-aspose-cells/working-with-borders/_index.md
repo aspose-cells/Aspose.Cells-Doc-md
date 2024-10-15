@@ -90,3 +90,4 @@ Download **Working With Borders** form any of the below mentioned social coding 
 For more details, visit [Data Formating Features](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

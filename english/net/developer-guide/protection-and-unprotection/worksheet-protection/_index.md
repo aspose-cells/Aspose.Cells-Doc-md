@@ -38,3 +38,4 @@ Unprotecting worksheet is easy with Aspose.Cells API. If worksheet is password-p
 - [Protecting Worksheets](/cells/net/protecting-worksheets/)
 - [Unprotect a Worksheet](/cells/net/unprotect-a-worksheet/)
 - [Verify Password Used to Protect the Worksheet](/cells/net/verify-password-used-to-protect-the-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

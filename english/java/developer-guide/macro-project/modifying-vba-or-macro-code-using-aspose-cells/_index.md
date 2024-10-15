@@ -56,3 +56,4 @@ You can download the [source Excel file](5472596.xlsm) and the [output Excel fil
 
 
 
+{{< app/cells/assistant language="java" >}}

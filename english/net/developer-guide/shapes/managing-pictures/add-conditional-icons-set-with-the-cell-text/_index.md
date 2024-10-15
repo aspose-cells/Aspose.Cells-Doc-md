@@ -16,3 +16,4 @@ The following code sample shows how to add conditional icons set with the Cell T
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddConditionalIconsSet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -699,3 +699,4 @@ Download **Convert Worksheet to CSV** from any of the below mentioned social cod
 For more details, visit [Saving Files](/cells/java/saving-excel-files-to-csv-pdf-and-other-formats/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

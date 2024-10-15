@@ -31,3 +31,4 @@ The code below does the actual work of finding and extracting OLE objects as DOC
 This article shows how to extract OLE objects from a workbook using Aspose.Cells. Hopefully, it will give you some insight that will allow you to use these options in your own scenarios.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -21,3 +21,4 @@ The following code snippet removes the whitespace around the data in the output 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RemoveWhitespaceAroundData-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

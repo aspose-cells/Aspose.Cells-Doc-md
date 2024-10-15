@@ -17,3 +17,4 @@ The source and output excel files used in the code snippet are attached for refe
 [Source File](PivotTableHideAndSortSample.xlsx)
 
 [Output File](PivotTableHideAndSort_out.xlsx)
+{{< app/cells/assistant language="java" >}}

@@ -21,3 +21,4 @@ The following sample code demonstrated how to make use of [**Picture.SignatureLi
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Add-Signature-Line.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

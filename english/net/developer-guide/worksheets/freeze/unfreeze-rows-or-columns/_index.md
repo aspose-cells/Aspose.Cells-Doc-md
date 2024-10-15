@@ -32,3 +32,4 @@ It's simple to unfreeze panes with Aspose.Cells for .Net. Please use the [**Work
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Unfreeze-Pane.cs" >}}
 
 Attached [sample source Excel file](Frozen.xlsx).
+{{< app/cells/assistant language="csharp" >}}

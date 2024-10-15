@@ -42,3 +42,4 @@ Aspose.Cells.FontConfigs.SetFontFolder("fonts", true);
 
 - [How to Run Aspose.Cells for .Net6](https://docs.aspose.com/cells/net/how-to-run-aspose-cells-for-net6/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -29,3 +29,4 @@ Clear filter in Pivot Table using Aspose.Cells. Please see the following sample 
 
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-Clear-filter-in-PivotTable.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

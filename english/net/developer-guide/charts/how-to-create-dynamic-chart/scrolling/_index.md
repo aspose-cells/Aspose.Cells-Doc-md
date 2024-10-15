@@ -32,3 +32,4 @@ In the generated file, you can operate on the scroll bar, while the chart dynami
 ```
 
 You can try changing the number "10" to "15" in cell "Sheet1!$H$20", and the dynamic chart will count the latest 15 sets of data. Now we have created a dynamic scrolling chart using Aspose.Cells successfully.
+{{< app/cells/assistant language="csharp" >}}

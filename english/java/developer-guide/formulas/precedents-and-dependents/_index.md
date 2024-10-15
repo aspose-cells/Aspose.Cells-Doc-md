@@ -1,4 +1,4 @@
-﻿---
+---
 title: Precedents and Dependents
 type: docs
 weight: 230
@@ -61,3 +61,4 @@ The following example demonstrates how to trace the precedents and dependents ac
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-TracingDependenciesInCalculation.java" >}}
+{{< app/cells/assistant language="java" >}}

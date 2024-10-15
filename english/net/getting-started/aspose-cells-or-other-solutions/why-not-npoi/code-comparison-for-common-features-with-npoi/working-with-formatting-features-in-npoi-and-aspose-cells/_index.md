@@ -10,3 +10,4 @@ This section has the following topics:
 - [Working With Borders](/cells/net/working-with-borders/)
 - [Working With Colors](/cells/net/working-with-colors/)
 - [Working With Fonts](/cells/net/working-with-fonts/)
+{{< app/cells/assistant language="csharp" >}}

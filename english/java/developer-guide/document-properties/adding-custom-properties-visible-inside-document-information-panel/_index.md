@@ -26,3 +26,4 @@ The following sample code adds two custom properties. The first property is with
 - [Using Custom XML Parts in Aspose.Cells](/cells/java/using-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

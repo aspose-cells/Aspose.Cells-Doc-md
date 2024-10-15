@@ -20,3 +20,4 @@ The following sample code loads the [sample excel file](5115151.xlsx) and implem
 Now use above created class in the code like below:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-TotalsInOtherLanguages-UsingGlobalizationSettings.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

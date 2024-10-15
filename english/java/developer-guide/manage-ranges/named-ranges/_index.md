@@ -103,3 +103,4 @@ The following example shows how to remove a named range with its contents.
 
 
 borderColors 
+{{< app/cells/assistant language="java" >}}

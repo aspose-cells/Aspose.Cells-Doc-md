@@ -24,3 +24,4 @@ This example:
 1. Copies data with the formatting from the first range to the second range.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeDataWithStyle-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -14,3 +14,4 @@ Aspose.Cells provides the ability to get the unique id of a worksheet by using t
 ### Source Code
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-GetWorksheetUniqueId-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

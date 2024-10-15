@@ -40,3 +40,4 @@ This section includes the following topics
 - [Image Markers in Aspose.Cells](/cells/net/image-markers-in-aspose-cells/)
 - [Using Anonymous Types or Custom Objects in Aspose.Cells](/cells/net/using-anonymous-types-or-custom-objects-in-aspose-cells/)
 - [Using Nested Objects in Aspose.Cells](/cells/net/using-nested-objects-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

@@ -34,3 +34,4 @@ The following code snippet demonstrates how to manage DataLabels:
 - [Rich Text Custom Data Label of Chart Point](/cells/java/rich-text-custom-data-label-of-chart-point/)
 - [Set the Shape Type of Data Labels of Chart](/cells/java/set-the-shape-type-of-data-labels-of-chart/)
 - [Showing Cell Range as the Data Labels](/cells/java/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="java" >}}

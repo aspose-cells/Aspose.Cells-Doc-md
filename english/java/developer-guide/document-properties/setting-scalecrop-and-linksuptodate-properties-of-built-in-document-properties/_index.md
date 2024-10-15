@@ -21,3 +21,4 @@ The possible values for this element are defined by the W3C XML Schema boolean d
 The following sample code sets the [ScaleCrop](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#ScaleCrop) and [LinksUpToDate](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#LinksUpToDate) extended built-in document properties of the workbook. Please check the [output excel file](5472494.xlsx) generated with this code, change its extension to .zip and extract its contents and view the aap.xml as shown in the screenshot above.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingScaleCropLinksUpToDate-SettingScaleCropLinksUpToDate.java" >}}
+{{< app/cells/assistant language="java" >}}

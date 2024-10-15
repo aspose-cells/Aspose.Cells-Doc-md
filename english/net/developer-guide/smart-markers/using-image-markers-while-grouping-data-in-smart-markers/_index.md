@@ -23,3 +23,4 @@ Then it fills the data source with data and calls the [WorkbookDesigner.Process(
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingImageMarkersWhileGroupingDataInSmartMarkers-UsingImageMarkersWhileGroupingDataInSmartMarkers.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

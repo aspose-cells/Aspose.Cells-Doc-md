@@ -18,3 +18,4 @@ The following sample code explains the usage of the [**Workbook.Settings.MaxRow
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Formulas-SpecifyMaximumRowsOfSharedFormula.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

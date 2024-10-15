@@ -48,3 +48,4 @@ So this function does not exist in Aspose.Cells .NET5 and .Netstandard version, 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoStream-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

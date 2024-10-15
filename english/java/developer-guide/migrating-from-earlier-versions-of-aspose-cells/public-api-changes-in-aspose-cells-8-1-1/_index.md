@@ -34,3 +34,4 @@ Please check the detailed article on [How to Create, Manipulate or Remove Scenar
 {{% /alert %}}
 ## **Change in Behavior for CellsException**
 With previous releases of the Aspose.Cells for Java API, when a possibly damaged spreadsheet was loaded in an instance of Workbook, the API tended to throw a generic message without mentioning where the problem could be. We have changed this behavior for 8.1.1 so that the API throws an exception with a meaningful message that points out where (which cell) and what (formula expression) causes the exception when reading the template file.
+{{< app/cells/assistant language="java" >}}

@@ -68,3 +68,4 @@ You can't re-specify the script path by adding the following lines of code into 
 These settings might be compulsory in some cases / scenarios if you are using Aspose.Cells.GridWeb control in File System Websites or MS Ajax extensions etc.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -15,3 +15,4 @@ The following code snippet demonstrates creating a Union Range by using the [Wo
 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "CreateUnionRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

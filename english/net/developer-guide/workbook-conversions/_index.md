@@ -142,3 +142,4 @@ The following code example demonstrates exporting active worksheet to PPTX by us
 - [Convert Excel to CSV,TSV and Txt](/cells/net/convert-excel-to-csv-tsv-and-txt/)
 - [Track Document Conversion Progress](/cells/net/track-document-conversion-progress/)
 - [Convert CSV, TSV and TXT to Excel](/cells/net/convert-csv-tsv-and-txt-to-excel/)
+{{< app/cells/assistant language="csharp" >}}

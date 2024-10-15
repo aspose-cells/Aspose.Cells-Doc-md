@@ -38,3 +38,4 @@ Following are some ways to achieve this.
 You will need to restart your computer for the change to take effect. This change affects all accounts on the computer, not just yours.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

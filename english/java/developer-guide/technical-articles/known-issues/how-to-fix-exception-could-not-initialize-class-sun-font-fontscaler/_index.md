@@ -49,3 +49,4 @@ You are likely to resolve the problem by integrating the following JAR into your
 - <http://www.java2s.com/Code/JarDownload/ae/ae-awt.jar.zip>
 
 
+{{< app/cells/assistant language="java" >}}

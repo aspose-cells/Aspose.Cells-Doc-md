@@ -18,3 +18,4 @@ The following code sample shows how to read icon sets that are used for conditio
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-GetIconSetsDataBars-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

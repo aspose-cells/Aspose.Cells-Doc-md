@@ -20,3 +20,4 @@ After running the code below, you will see the Combo chart as shown below.
 The following sample code loads the [sample Excel file](combo.xlsx) and generates the [output Excel file](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-combo-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

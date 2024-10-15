@@ -19,3 +19,4 @@ You can add image watermark to pdf just by specifying image bytes of an image. A
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-AddImageWatermarkToPdf.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

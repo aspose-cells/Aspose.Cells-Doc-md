@@ -28,3 +28,4 @@ Gear Type Shape Text: Good
 Gear Type Shape Text: Excellent
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

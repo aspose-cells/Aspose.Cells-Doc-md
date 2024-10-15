@@ -30,3 +30,4 @@ Note: [shape.IsLocked](https://reference.aspose.com/cells/java/com.aspose.cells/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Lock-Or-Unlock-Shapes-2.java" >}}
 
+{{< app/cells/assistant language="java" >}}

@@ -49,3 +49,4 @@ Aspose.Cells is a powerful library for working with Excel files programmatically
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Worksheets-scale-a-worksheet-scale-to-percentage.cs" >}}
 <br>
 <img src="2.png" width=60% />
+{{< app/cells/assistant language="csharp" >}}

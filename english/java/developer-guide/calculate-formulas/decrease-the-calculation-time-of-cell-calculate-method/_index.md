@@ -27,3 +27,4 @@ This is the console output of the above sample code when executed with the given
 Recursive false: 16 seconds
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

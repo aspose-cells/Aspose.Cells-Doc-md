@@ -34,3 +34,4 @@ The following sample code illustrates how to prevent users from printing excel f
 1. Save the sample file to [xlsm format](out.xlsm).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "VBA-Prevent-printing-excel.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

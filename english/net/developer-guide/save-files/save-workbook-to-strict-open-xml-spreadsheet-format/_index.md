@@ -18,3 +18,4 @@ The following sample code creates a workbook and sets the value of the [**Workb
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "LoadingSavingConvertingAndManaging-SaveWorkbookToStrictOpenXMLSpreadsheetFormat.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

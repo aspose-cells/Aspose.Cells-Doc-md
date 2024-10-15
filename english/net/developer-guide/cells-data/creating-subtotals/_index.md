@@ -35,3 +35,4 @@ The code snippets that follow show how to add subtotals to a worksheet with Aspo
 
 ## **Advance topics**
 - [Applying Subtotal and Changing Direction of Outline Summary Rows below Detail](/cells/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+{{< app/cells/assistant language="csharp" >}}

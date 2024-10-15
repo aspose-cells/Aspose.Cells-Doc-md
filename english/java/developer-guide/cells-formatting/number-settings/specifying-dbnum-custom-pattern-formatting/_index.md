@@ -14,3 +14,4 @@ Aspose.Cells supports the *DBNum* custom pattern formatting. For example, if y
 The following sample code illustrates how to specify *DBNum* custom pattern formatting. Please check its [output PDF](43352082.pdf) for more help.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SpecifyingDBNumCustomPatternFormatting.java" >}}
+{{< app/cells/assistant language="java" >}}

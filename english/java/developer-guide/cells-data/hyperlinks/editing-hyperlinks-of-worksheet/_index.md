@@ -14,3 +14,4 @@ Aspose.Cells allows you to access all the hyperlinks of the worksheet using the 
 The following sample code accesses all the hyperlinks of the worksheet and changes their [Hyperlink.Address](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#Address) property to the Aspose website.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-EditingHyperlinksOfWorksheet-EditingHyperlinksOfWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

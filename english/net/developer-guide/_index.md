@@ -381,3 +381,4 @@ This Developer Guide provides information on using Aspose.Cells in a variety of 
 </div>
 {{< /tab >}}
 {{< /tabs >}}
+{{< app/cells/assistant language="csharp" >}}

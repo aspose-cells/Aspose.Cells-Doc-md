@@ -372,3 +372,4 @@ The **Shift Cells Right** and **Shift Cells Down** are handled by JSF backend be
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

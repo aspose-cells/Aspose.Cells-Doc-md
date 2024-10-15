@@ -33,3 +33,4 @@ The code below sets a background image using an image from a stream.
 
 - [Working with Background in ODS Files](/cells/java/working-with-background-in-ods-files/)
 
+{{< app/cells/assistant language="java" >}}

@@ -46,3 +46,4 @@ url: /java/supported-file-formats/
 |[Xml](https://docs.fileformat.com/web/xml/)|XML stands for Extensible Markup Language that is similar to HTML but different in using tags for defining objects.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Open Document Template Sheet(OTS) file.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW is a digital ebook file format developed by Amazon for its Kindle devices. AZW3, also known as Kindle Format 8 (KF8).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< app/cells/assistant language="java" >}}

@@ -34,3 +34,4 @@ Category data is used for the labeling of chart data and can be added to [**Seri
 - [Create Dynamic Charts](/cells/net/create-dynamic-charts/)
 - [Easy way for Chart Setup using Chart.SetChartDataRange method](/cells/net/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [Find Type of X and Y Values of Points in Chart Series](/cells/net/find-type-of-x-and-y-values-of-points-in-chart-series/)
+{{< app/cells/assistant language="csharp" >}}

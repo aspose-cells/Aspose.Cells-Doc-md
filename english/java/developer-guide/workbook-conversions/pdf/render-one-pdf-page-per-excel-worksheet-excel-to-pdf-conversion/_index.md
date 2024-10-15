@@ -24,3 +24,4 @@ If the [**PdfSaveOptions.OnePagePerSheet**](https://reference.aspose.com/cells/j
 If your spreadsheet contains formulas, it is best to call the [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) method just before rendering the spreadsheet to PDF. This ensures that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

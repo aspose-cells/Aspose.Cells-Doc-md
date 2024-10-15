@@ -11,3 +11,4 @@ Some users may receive "Security Exception" error while trying to use Aspose.Cel
 Aspose.Cells has to call some **Win32 GDI APIs** to provide some important features. If the web server has a strict trust level, this security exception may be thrown.
 ### **Solution**
 Please try to create a new permission set to give Aspose.Cells.dll security permission with "Allow calls to unmanaged assemblies" enabled.
+{{< app/cells/assistant language="csharp" >}}

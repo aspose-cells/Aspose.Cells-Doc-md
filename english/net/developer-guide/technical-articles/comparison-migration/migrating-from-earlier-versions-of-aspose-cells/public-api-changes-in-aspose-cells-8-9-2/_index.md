@@ -164,3 +164,4 @@ Please use Shape.Line property instead.
 Please use Shape.Fill property instead.
 ### **Obsoleted FontSetting.ShapeFont Property**
 Please use FontSetting.TextOptions property instead.
+{{< app/cells/assistant language="csharp" >}}

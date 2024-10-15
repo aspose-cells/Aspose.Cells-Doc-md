@@ -107,3 +107,4 @@ Generally Aspose.Cells for Java uses Java's ImageIO to load raster images, curre
 Please check the following to get quick technical support
 
 [Aspose.Cells - Forums](https://forum.aspose.com/c/cells/9)
+{{< app/cells/assistant language="java" >}}

@@ -27,3 +27,4 @@ If the spreadsheet contains formulas, it is best to call the [**Workbook.calcula
 
 - [Convert Excel file to PDF format compatible with PDFA-1a](/cells/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [Chart Rendering](/cells/java/chart-rendering/)
+{{< app/cells/assistant language="java" >}}

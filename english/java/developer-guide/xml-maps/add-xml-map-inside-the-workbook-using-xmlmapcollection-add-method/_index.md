@@ -18,3 +18,4 @@ The following sample code adds XML Map inside the workbook using the [**XmlMapCo
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddXMLMapInsideWorkbook-AddXMLMapInsideWorkbook.java" >}}
+{{< app/cells/assistant language="java" >}}

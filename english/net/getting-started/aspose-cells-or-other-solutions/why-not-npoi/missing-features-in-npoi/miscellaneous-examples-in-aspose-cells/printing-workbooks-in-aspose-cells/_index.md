@@ -45,3 +45,4 @@ Download **Printing Workbooks** form any of the below mentioned social coding si
 For more details, visit [Printing Workbooks](/cells/net/printing-workbooks/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

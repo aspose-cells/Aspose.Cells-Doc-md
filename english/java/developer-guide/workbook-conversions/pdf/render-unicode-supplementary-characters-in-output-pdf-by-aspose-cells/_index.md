@@ -23,3 +23,4 @@ The following screenshot shows how Aspose.Cells rendered the [source excel file]
 You can use this sample code to convert the [source excel file](5473390.xlsx) into [output PDF](5473391.pdf).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-RenderUnicodeSupplimentaryCharacterToPDF-1.java" >}}
+{{< app/cells/assistant language="java" >}}

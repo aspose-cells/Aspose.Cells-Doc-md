@@ -50,3 +50,4 @@ An exception will be thrown if you try to open non-native Excel files or other f
 There are fair chances that the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) constructor may throw *System.OutOfMemoryException* while loading large spreadsheets. This exception suggests that the available memory is insufficient to completely load the spreadsheet into the memory therefore the spreadsheet has to be loaded while enabling the Memory Preferences.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

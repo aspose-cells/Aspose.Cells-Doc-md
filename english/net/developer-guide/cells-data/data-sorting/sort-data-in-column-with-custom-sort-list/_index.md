@@ -20,3 +20,4 @@ The following sample code explains how to use [**DataSorter.AddKey Method (Int3
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SortDataInColumnWithCustomSortList.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

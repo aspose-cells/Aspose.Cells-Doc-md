@@ -18,3 +18,4 @@ The following sample code explains the usage of the [**Workbook.Settings.WriteP
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Worksheets-SpecifyAuthorWhileWriteProtectingWorkbook.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -34,3 +34,4 @@ The sample code below creates an XLSX file from scratch using [**Aspose.Cells**]
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HowToInsertPictureOrImageInComment.java" >}}
 
+{{< app/cells/assistant language="java" >}}

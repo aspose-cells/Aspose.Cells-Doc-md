@@ -28,3 +28,4 @@ The following sample code implements the [**beforeCalculate()**](https://refere
 0----7----1----B8
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

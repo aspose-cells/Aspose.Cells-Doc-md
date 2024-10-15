@@ -50,3 +50,4 @@ Below are the steps involved how to create a spreadsheet and format different ce
 1. Add the following code to the project:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FormatWorksheetCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

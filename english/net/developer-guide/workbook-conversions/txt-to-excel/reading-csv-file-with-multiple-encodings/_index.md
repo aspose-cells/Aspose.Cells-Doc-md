@@ -38,3 +38,4 @@ Below is the sample code that converts the above CSV file into XLSX format prope
 ## Related Articles
 
 - [Opening CSV Files](/cells/net/opening-files-with-different-formats/#opening-csv-files)
+{{< app/cells/assistant language="csharp" >}}

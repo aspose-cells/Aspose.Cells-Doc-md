@@ -18,3 +18,4 @@ The following sample code loads the [sample Excel file](61767873.xlsx) which h
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Workbook-FilterDefinedNamesWhileLoadingWorkbook.java" >}}
+{{< app/cells/assistant language="java" >}}

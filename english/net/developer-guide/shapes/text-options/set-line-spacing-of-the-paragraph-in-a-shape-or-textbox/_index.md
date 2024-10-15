@@ -14,3 +14,4 @@ You can set the line space of the paragraph, its space before and space after us
 The following sample code explains the usage of the mentioned properties.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SetTextboxOrShapeParagraphLineSpacing-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

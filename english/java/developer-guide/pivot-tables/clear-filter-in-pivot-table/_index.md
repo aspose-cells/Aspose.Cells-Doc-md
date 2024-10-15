@@ -25,3 +25,4 @@ Please see the following sample code. It sets the data and creates a PivotTable 
 
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "PivotTables-Clear-filter-in-PivotTable.java" >}}
+{{< app/cells/assistant language="java" >}}

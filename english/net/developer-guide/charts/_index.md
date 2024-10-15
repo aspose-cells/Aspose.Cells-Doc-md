@@ -194,3 +194,4 @@ In order to create a line with the data marker chart, [**ChartType**](https://re
 - [Manage Titles of Excel Charts](/cells/net/chart-and-axis-titles/)
 - [Chart Rendering](/cells/net/chart-rendering/)
 - [Get Equation Text of Chart Trendline](/cells/net/get-equation-text-of-chart-trendline/)
+{{< app/cells/assistant language="csharp" >}}

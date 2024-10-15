@@ -17,3 +17,4 @@ The following code snippet demonstrates the use of the [**DigitalSignature**](h
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-XAdESSignatureSupport-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

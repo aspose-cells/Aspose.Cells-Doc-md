@@ -24,3 +24,4 @@ Stock charts are a specific chart used to track the changes in price of traded a
 The below set of data shows the daily trading information for a stock.  We are going to use this data to create each of the 4 stock charts available in Aspose.Cells. 
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="java" >}}

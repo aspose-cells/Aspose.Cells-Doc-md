@@ -35,3 +35,4 @@ The following example shows how to activate a worksheet and make an active cell 
 In **evaluation** mode, that is; without setting a valid license, the active worksheet will always be the one containing the evaluation watermark. This behavior can only be overridden by setting the license at the start of the application.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

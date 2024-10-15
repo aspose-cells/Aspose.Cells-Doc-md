@@ -37,3 +37,4 @@ This includes following abundant features of Aspose.Cells as compared to xlsx4j:
   - [Set Worksheet Tab Color in xlsx4j](/cells/java/set-worksheet-tab-color-in-xlsx4j/)
 
 **Note:** Many more examples are yet to be available soon.
+{{< app/cells/assistant language="java" >}}

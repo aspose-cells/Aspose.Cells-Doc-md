@@ -76,3 +76,4 @@ It is possible to add hyperlinks to external Excel files by calling the [Hyperli
 - [Get Hyperlinks in Range](/cells/java/get-hyperlinks-in-range/)
 
 
+{{< app/cells/assistant language="java" >}}

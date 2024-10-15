@@ -155,3 +155,4 @@ Excel provides custom filters like filter rows which end with some specific stri
 - [Apply Advanced Filter of Microsoft Excel to Display Records Meeting Complex Criteria](/cells/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Get All Hidden Rows Indices after Refreshing AutoFilter](/cells/java/get-all-hidden-rows-indices-after-refreshing-autofilter/)
 
+{{< app/cells/assistant language="java" >}}

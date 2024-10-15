@@ -26,3 +26,4 @@ The following code snippet demonstrates this by adding data with Smart Markers i
 The implementation of *DataObject* class is given below
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HelperClasses-DataObject-1.java" >}}
+{{< app/cells/assistant language="java" >}}

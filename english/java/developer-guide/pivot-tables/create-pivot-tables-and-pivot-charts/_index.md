@@ -103,3 +103,4 @@ We welcome your queries, comments and suggestions at [Aspose.Cells Forum](https:
 - [Refresh and Calculate Pivot Table having Calculated Items](/cells/java/refresh-and-calculate-pivot-table-having-calculated-items/)
 - [Disable Pivot Table Ribbons](/cells/java/disable-pivot-table-ribbons/)
 
+{{< app/cells/assistant language="java" >}}

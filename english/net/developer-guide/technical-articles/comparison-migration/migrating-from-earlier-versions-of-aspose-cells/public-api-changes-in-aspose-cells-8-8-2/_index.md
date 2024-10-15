@@ -53,3 +53,4 @@ cells.DeleteBlankColumns(options);
 cells.DeleteBlankRows(options);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

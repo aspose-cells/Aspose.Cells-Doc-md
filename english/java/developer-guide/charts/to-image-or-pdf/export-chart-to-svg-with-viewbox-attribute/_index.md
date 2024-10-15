@@ -29,3 +29,4 @@ If you open the chart's SVG in notepad, you will find the **viewBox** attribute 
 
 - [Chart Rendering](/cells/java/chart-rendering/)
 - [Export Worksheet or Chart into Image with Desired Width and Height](/cells/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+{{< app/cells/assistant language="java" >}}

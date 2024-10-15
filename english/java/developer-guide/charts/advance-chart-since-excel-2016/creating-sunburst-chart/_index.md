@@ -19,3 +19,4 @@ After running the code below, you will see the Sunburst chart as shown below.
 The following sample code loads the [sample Excel file](sunburst.xlsx) and generates the [output Excel file](out.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "create-sunburst-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -109,3 +109,4 @@ Data from a range can be exported to [**DataTable**](https://docs.microsoft.com/
 - [Export Visible Rows Data from Worksheet](/cells/net/export-visible-rows-data-from-worksheet/)
 - [Ignore Hidden Columns while Exporting Worksheet Data to Data Table](/cells/net/ignore-hidden-columns-while-exporting-worksheet-data-to-data-table/)
 - [Rename duplicate columns automatically while exporting worksheet data](/cells/net/rename-duplicate-columns-automatically-while-exporting-worksheet-data/)
+{{< app/cells/assistant language="csharp" >}}

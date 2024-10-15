@@ -132,3 +132,4 @@ The source and output excel files are attached for reference.
 - [Get Cell Validation in ODS Files](/cells/java/get-cell-validation-in-ods-files/)
 - [Get Validation Applied on a Cell](/cells/java/get-validation-applied-on-a-cell/)
 - [Verify that Cell Value Satisfies Data Validation Rules](/cells/java/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="java" >}}

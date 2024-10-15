@@ -224,3 +224,4 @@ The Book1.xls file is opened using the [**Workbook**](https://reference.aspose.c
 - [Adding borders to cells to create a table](/cells/java/create-table-by-using-border-lines-for-a-range/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

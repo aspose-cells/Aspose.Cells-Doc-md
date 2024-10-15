@@ -16,3 +16,4 @@ The sample source file can be downloaded from the following link:
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ReplaceTextInSmartArt-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

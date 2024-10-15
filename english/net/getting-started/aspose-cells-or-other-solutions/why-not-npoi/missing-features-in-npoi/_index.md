@@ -27,3 +27,4 @@ This includes following abundant features of Aspose.Cells as compared to NPOI:
   - [Set Worksheet Tab Color in Aspose.Cells](/cells/net/set-worksheet-tab-color-in-aspose-cells/)
 
 **Note:** Many more examples are yet to be available soon.
+{{< app/cells/assistant language="csharp" >}}

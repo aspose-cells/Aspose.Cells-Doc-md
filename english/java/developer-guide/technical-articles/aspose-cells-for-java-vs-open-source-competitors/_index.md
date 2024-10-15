@@ -148,3 +148,4 @@ The following table attempts to provide a feature overview on how Aspose.Cells f
 |Insert controls into charts | | |Supported |
 |Formula Calculation Engine |  |  |Supported |
 |Find API |Supported |Supported |Supported |
+{{< app/cells/assistant language="java" >}}

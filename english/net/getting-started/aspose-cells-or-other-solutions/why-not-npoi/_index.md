@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Cells or NPOI
 linktitle: Why Not NPOI
 description: "Perform a large number of tasks with Excel files faster and more conveniently than NPOI using C#."
@@ -63,3 +63,4 @@ Aspose components provide many powerful time-saving functions. For example, [Asp
 
 * [More about Apache POI](https://poi.apache.org/)
 
+{{< app/cells/assistant language="csharp" >}}

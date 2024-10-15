@@ -43,3 +43,4 @@ These string numbers have been converted to numbers using [**Cells.ConvertString
 The following sample code illustrates how to convert all string numeric data to actual numbers in all worksheets.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ConvertStringToNumericValue-ConvertTextNumericDatatoNumber.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

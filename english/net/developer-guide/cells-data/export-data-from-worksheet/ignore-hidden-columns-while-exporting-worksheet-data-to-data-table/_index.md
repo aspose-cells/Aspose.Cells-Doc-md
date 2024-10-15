@@ -16,3 +16,4 @@ Sometimes, you want to ignore hidden columns while exporting worksheet data to a
 The following sample code explains the usage of [**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns) property in ignoring the hidden columns while exporting the worksheet entire data to the data table.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-IgnoreHiddenColumnsDataTable-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

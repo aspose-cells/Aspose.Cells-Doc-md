@@ -16,3 +16,4 @@ The following sample code loads the [source excel file](5115471.xlsx) which cont
 If you open the [output excel file](5115467.xlsx) and click the Developer > Source button, you will see the cells are linked with XML Map elements and they will also be highlighted by Microsoft Excel as shown in this image.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LinkCellsToXmlMapElements-LinkCellsToXmlMapElements.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

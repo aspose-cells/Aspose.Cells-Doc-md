@@ -173,3 +173,4 @@ When the drop-down selector's value is changed, the event is handled on server b
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

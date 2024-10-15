@@ -29,3 +29,4 @@ Aspose.Cells provides the [**PivotTable.DisplayNullString**](https://reference.a
 ## Related Articles
 
 - [Formatting Pivot Table](/cells/net/formatting-pivot-table/)
+{{< app/cells/assistant language="csharp" >}}

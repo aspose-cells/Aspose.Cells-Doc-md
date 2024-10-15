@@ -44,3 +44,4 @@ Preserve Formatting: False
 Aspose.Cells provides option to read the address i.e. result range of cells for a query table. Following code demonstrates this feature by reading the address of result range for a query table. Sample file can be downloaded [here](72417290.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAddressOfResultRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

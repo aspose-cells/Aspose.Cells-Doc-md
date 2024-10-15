@@ -22,3 +22,4 @@ The following code snippet demonstrates this by adding data with Smart Markers i
 The implementation of *DataObject* class is given below
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AllowLeadingApostrophe-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

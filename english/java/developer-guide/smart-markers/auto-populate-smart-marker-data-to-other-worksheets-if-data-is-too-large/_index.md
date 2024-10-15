@@ -16,3 +16,4 @@ The following sample code has a data source which has 21 records. We want to sho
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "SmartMarkers-AutoPopulateSmartMarkerDataToOtherWorksheets.java" >}}
+{{< app/cells/assistant language="java" >}}

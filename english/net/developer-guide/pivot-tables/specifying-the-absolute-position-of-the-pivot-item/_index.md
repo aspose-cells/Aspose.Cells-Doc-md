@@ -24,3 +24,4 @@ The following sample code creates a Pivot Table and then it specifies the Pivot 
 Please note, it is necessary to call the PivotTable.RefreshData and PivotTable.CalculateData methods before using [**PivotItem.Position**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/position), [**PivotItem.PositionInSameParentNode**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/positioninsameparentnode) properties and [**PivotItem.Move(int count, bool isSameParent)**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/methods/move) method.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

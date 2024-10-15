@@ -56,3 +56,4 @@ You can use any source workbooks. These images are just for illustration purpose
 ## **Advance topics**
 - [Combine Multiple Worksheets into a Single Worksheet](/cells/net/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Merge Files](/cells/net/merge-files/)
+{{< app/cells/assistant language="csharp" >}}

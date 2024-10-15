@@ -22,3 +22,4 @@ The following code explains the use of [**Cell.GetWidthOfValue()**](https://refe
 
 ## **Advance topics**
 - [Get Text Width of Cell Value](/cells/net/get-text-width-of-cell-value/)
+{{< app/cells/assistant language="csharp" >}}

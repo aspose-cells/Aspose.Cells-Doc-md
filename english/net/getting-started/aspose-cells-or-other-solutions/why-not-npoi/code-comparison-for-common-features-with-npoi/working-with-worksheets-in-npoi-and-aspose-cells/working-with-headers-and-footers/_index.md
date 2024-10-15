@@ -84,3 +84,4 @@ Download **Working with Headers and Footers** form any of the below mentioned so
 For more details, visit [Working with Worksheets](/cells/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

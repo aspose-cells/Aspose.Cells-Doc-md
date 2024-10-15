@@ -34,3 +34,4 @@ Developers can unhide any hidden row or column by calling the [UnhideRow](https:
 While making a hidden column/row visible, if you need to restore it to previously assigned width or height, or its original width or height, please unhide the column or row with negative width or height. For example, worksheet.getCells().unhideColumn(5, -1)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

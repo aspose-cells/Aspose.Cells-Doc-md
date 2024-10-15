@@ -18,3 +18,4 @@ The following sample code loads the [sample Excel file](64716919.xlsx) that ha
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-RotateTextWithShapeInsideWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -29,3 +29,4 @@ After running the code the output file contains a pale red WordArt watermark.
 - [Add WordArt Watermark to Chart](/cells/java/add-wordart-watermark-to-chart/)
 - [Locking WordArt Watermark](/cells/java/locking-wordart-watermark/)
 - [Set preset WordArt style to the text of the shape](/cells/java/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="java" >}}

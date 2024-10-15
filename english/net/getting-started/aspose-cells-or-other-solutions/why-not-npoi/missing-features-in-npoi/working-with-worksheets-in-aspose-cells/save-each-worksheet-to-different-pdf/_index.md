@@ -65,3 +65,4 @@ Download **Save Each Worksheet to Different PDF** form any of the below mentione
 For more details, visit [Save Each Worksheet to a Different PDF File](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -46,3 +46,4 @@ If you have an issue with Aspose.Cells, follow these simple steps to make sure i
 - Have a look through the forums, this documentation and API Reference before reporting the issue; maybe your question was already answered.
 - When reporting an issue, please include the original document and possibly a fragment of your code that causes the problem. If you need to attach multiple files, zip them into one. It is safe to attach your documents in Aspose.Forums when thread is private since only you and Aspose staff members will have access to the attached files.
 - Please try to report one issue per thread. If you have another issue, report it in a separate thread.
+{{< app/cells/assistant language="csharp" >}}

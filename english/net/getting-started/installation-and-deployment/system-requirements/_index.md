@@ -226,3 +226,4 @@ To use these  controls, the machine to run Aspose.Cells.GridDesktop and Aspose.C
 - Linux (Ubuntu, openSUSE, CentOS, Debian, Alpine and others)
 ### **Mac**
 - Mac OS X, macOS High Sierra, etc.
+{{< app/cells/assistant language="csharp" >}}

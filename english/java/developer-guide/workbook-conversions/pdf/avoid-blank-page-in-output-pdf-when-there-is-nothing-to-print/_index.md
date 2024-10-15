@@ -34,3 +34,4 @@ The following sample code creates an empty workbook and then saves it as output 
 	at com.aspose.cells.Workbook.save(Unknown Source)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -24,3 +24,4 @@ The following sample code first adds four Custom XML Parts using [**Workbook.ge
 Found: CustomXmlPart ID Sport
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

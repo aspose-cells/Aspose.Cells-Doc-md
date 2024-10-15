@@ -217,3 +217,4 @@ The **Formats**, **Contents** and **Both** are handled by JSF backend bean **Wor
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -13,3 +13,4 @@ The following sample code explains the usage of the [TextToColumns](https://ref
 ![todo:image_alt_text](convert-text-to-columns-using-aspose-cells_1.png)
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-ConvertTexttoCols-ConvertTexttoCols.java" >}}
+{{< app/cells/assistant language="java" >}}

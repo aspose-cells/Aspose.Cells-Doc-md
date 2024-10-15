@@ -205,7 +205,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |GAMMADIST|**Compatibility**: Returns the gamma distribution
 |GAMMA.INV|**Statistical**: Returns the inverse of the gamma cumulative distribution
 |GAMMAINV|**Compatibility**: Returns the inverse of the gamma cumulative distribution
-|GAMMALN|**Statistical**: Returns the natural logarithm of the gamma function, ¦£(x)
+|GAMMALN|**Statistical**: Returns the natural logarithm of the gamma function, ï¿½ï¿½(x)
 |GCD|**Math and trigonometry**: Returns the greatest common divisor
 |GEOMEAN|**Statistical**: Returns the geometric mean
 |GESTEP|**Engineering**: Tests whether a number is greater than a threshold value
@@ -559,3 +559,4 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |Z.TEST|**Statistical**: Returns the one-tailed probability-value of a z-test
 |ZTEST|**Compatibility**: Returns the one-tailed probability-value of a z-test
 
+{{< app/cells/assistant language="csharp" >}}

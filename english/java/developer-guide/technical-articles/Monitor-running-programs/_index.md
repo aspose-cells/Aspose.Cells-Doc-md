@@ -12,3 +12,4 @@ The following sample code shows how to monitor a running program. This code can 
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-TechnicalArticles-MonitorRunningPrograms.java" >}}
+{{< app/cells/assistant language="java" >}}

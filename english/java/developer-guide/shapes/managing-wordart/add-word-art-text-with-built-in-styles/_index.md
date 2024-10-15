@@ -13,3 +13,4 @@ The following sample code adds Word Art texts with different Built-in Styles. Pl
 ![todo:image_alt_text](add-word-art-text-with-built-in-styles_1.png)
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddWordArtText-AddWordArtText.java" >}}
+{{< app/cells/assistant language="java" >}}

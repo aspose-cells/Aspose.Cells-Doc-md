@@ -11,3 +11,4 @@ Earlier, Aspose.Cells could not render Office Add-Ins when Excel file is saved t
 The following sample code saves the [sample Excel file](60489783.xlsx) which contains the Office Add-Ins. Please see the [output PDF generated with the previous version i.e. 17.11](60489781.pdf) and the [output PDF generated with newer version i.e. 17.12 and onward](60489782.pdf). The previous version output PDF is blank but the newer version output PDF shows the Office Add-In.
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Rendering-RenderOfficeAdd_InsWhileConvertingExcelToPdf.java" >}}
+{{< app/cells/assistant language="java" >}}

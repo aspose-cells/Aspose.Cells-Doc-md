@@ -40,3 +40,4 @@ Please see the following sample code to find how to identify merged cell areas i
 ## **Related Articles**
 
 - [Merging and splitting cells](/cells/java/merging-and-unmerging-cells/).
+{{< app/cells/assistant language="java" >}}

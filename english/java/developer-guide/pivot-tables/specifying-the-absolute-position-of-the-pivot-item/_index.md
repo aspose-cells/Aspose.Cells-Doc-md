@@ -22,3 +22,4 @@ Please note, it is necessary to call the [**PivotTable.refreshData**](https://re
 The following sample code creates a Pivot Table and then it specifies the Pivot Items positions in the same parent node.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SpecifyAbsolutePositionOfPivotItem-SpecifyAbsolutePositionOfPivotItem.java" >}}
+{{< app/cells/assistant language="java" >}}

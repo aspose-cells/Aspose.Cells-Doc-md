@@ -14,3 +14,4 @@ With option [PdfSaveOptions.GridlineTypes](https://reference.aspose.com/cells/ja
 
 ![solid-gridline.png](solid-gridline.png)
 
+{{< app/cells/assistant language="java" >}}

@@ -33,3 +33,4 @@ The following parameters are allowed:
 - copystyle - Copy the base cell's style to all the cells in that column.
 
 The parameters **noadd** and skip can be combined to insert data on alternating rows. Because the template is processed from bottom to top, you should add noadd on the first row to avoid extra rows from being inserted before the alternate row.
+{{< app/cells/assistant language="csharp" >}}

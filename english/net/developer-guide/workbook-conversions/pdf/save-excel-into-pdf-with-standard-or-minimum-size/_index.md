@@ -19,3 +19,4 @@ The following sample code shows how you can save Excel into PDF with Standard or
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-SaveExcelIntoPdfWithOptimizedSize-SaveExcelIntoPdfWithOptimizedSize.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

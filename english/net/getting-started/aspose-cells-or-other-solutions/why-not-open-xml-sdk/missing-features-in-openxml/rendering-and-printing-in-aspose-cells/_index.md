@@ -10,3 +10,4 @@ This section includes the following topics
 - [Convert charts to images](/cells/net/convert-charts-to-images/)
 - [Print spreadsheets](/cells/net/print-spreadsheets/)
 - [Specify image resolution, quality, compression and other options](/cells/net/specify-image-resolution-quality-compression-and-other-options/)
+{{< app/cells/assistant language="csharp" >}}

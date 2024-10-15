@@ -18,3 +18,4 @@ The following sample code enforces Aspose.Cells to use 15 significant digits whi
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-SignificantDigits-SignificantDigits.java" >}}
+{{< app/cells/assistant language="java" >}}

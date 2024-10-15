@@ -51,3 +51,4 @@ To open tab-delimited files, developers should use the [**LoadOptions**](https
 - [Load or Import CSV file with Formulas](/cells/java/load-or-import-csv-file-with-formulas/)
 - [Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format](/cells/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
 
+{{< app/cells/assistant language="java" >}}

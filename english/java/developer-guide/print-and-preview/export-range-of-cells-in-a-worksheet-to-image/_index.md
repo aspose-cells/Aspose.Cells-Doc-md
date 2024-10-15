@@ -28,3 +28,4 @@ Executing the code creates an image of the range E8:H10 only.
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ExportRangeofCells-1.java" >}}
 
 You may also find the article [Converting Worksheet to Different Image Formats](/cells/java/converting-worksheet-to-different-image-formats/) helpful.
+{{< app/cells/assistant language="java" >}}

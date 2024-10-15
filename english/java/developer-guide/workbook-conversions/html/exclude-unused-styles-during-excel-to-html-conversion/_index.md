@@ -18,3 +18,4 @@ The following sample code creates a workbook and also creates an unused named st
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-ExcludeUnusedStylesInExcelToHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

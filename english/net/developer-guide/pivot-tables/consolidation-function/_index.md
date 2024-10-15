@@ -35,3 +35,4 @@ The following code applies **Average** consolidation function to the first data 
 DistinctCount consolidation function is supported by Microsoft Excel 2013 only.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -12,3 +12,4 @@ This article demonstrates how you can insert a web image directly into a [**Work
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-InsertWebImageFromURL-InsertWebImageFromURL.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -40,3 +40,4 @@ Category data is used for the labeling of chart data and can be added to [**Seri
 - [Easy way for Chart Setup using Chart.setChartDataRange method](/cells/java/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [Find Type of X and Y Values of Points in Chart Series](/cells/java/find-type-of-x-and-y-values-of-points-in-chart-series/)
 - [Set the Values Format Code of Chart Series](/cells/java/set-the-values-format-code-of-chart-series/)
+{{< app/cells/assistant language="java" >}}

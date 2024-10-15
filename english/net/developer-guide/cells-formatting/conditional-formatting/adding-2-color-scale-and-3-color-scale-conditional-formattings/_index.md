@@ -16,3 +16,4 @@ url: /net/adding-2-color-scale-and-3-color-scale-conditional-formattings/
 The following sample code adds 2-Color and 3-Color Scale Conditional Formattings. It generates the [output excel file](5115058.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageConditionalFormatting-AddColorScales-AddColorScales.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

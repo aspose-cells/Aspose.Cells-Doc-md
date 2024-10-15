@@ -42,3 +42,4 @@ Worksheets.size() (Old) -> WorksheetCollection.getCount() (New), ...,etc.
 
 4) Boolean properties' getter methods in v2.5.4 or prior whose names starting with 'is' are changed. In v7.0.0 these are started with "get":
 e.g., PageSetup.isBlackAndWhite() (Old) -> PageSetup.getBlackAndWhite() (New), ...,etc.
+{{< app/cells/assistant language="java" >}}

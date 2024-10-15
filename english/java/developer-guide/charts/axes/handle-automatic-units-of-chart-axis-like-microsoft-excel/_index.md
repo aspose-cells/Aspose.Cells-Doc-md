@@ -13,3 +13,4 @@ The following sample code loads the [sample Excel file](61767769.xlsx) and gen
 ![todo:image_alt_text](handle-automatic-units-of-chart-axis-like-microsoft-excel_1.png)
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.java" >}}
+{{< app/cells/assistant language="java" >}}

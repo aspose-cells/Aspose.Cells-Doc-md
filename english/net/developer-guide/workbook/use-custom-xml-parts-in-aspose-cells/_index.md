@@ -24,3 +24,4 @@ The following sample code makes use of [**Workbook.ContentTypeProperties.Add()**
 ## Related Article
 
 - [Adding Custom Properties visible inside Document Information Panel](/cells/net/adding-custom-properties-visible-inside-document-information-panel/)
+{{< app/cells/assistant language="csharp" >}}

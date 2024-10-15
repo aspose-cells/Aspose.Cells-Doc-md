@@ -18,3 +18,4 @@ This section has the following topics:
 - [Split Cells in Worksheet](/cells/net/split-cells-in-worksheet/)
 - [Working with Freeze Panes](/cells/net/working-with-freeze-panes/)
 - [Working with Headers and Footers](/cells/net/working-with-headers-and-footers/)
+{{< app/cells/assistant language="csharp" >}}

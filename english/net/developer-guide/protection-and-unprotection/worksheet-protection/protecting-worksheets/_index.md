@@ -104,3 +104,4 @@ The following example shows how to protect a column in the worksheet. It unlocks
 The following example shows how to allow users to edit a range in a protected worksheet.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-EditRangesWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

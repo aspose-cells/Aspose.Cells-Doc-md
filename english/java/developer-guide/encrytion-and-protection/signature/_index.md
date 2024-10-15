@@ -34,3 +34,4 @@ In case the specified password does not match with the password of certificate t
 The following code snippet demonstrates the usage of Aspose.Cells for Java API to validate the spreadsheet.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ValidatingSpreadsheets-ValidatingSpreadsheets.java" >}}
+{{< app/cells/assistant language="java" >}}

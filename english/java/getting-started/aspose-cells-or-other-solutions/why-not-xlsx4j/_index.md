@@ -140,3 +140,4 @@ This section includes the following topics
     - [Display and Hide Tabs of Workbook in xlsx4j](/cells/java/display-and-hide-tabs-of-workbook-in-xlsx4j/)
     - [Save Each Worksheet to Different PDF in xlsx4j](/cells/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
     - [Set Worksheet Tab Color in xlsx4j](/cells/java/set-worksheet-tab-color-in-xlsx4j/)
+{{< app/cells/assistant language="java" >}}

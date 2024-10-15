@@ -14,3 +14,4 @@ Generally, while converting to pdf, the Ole Object will be rendered as an icon o
 
 ![embedded-attachment.png](embedded-attachment.png)
 
+{{< app/cells/assistant language="java" >}}

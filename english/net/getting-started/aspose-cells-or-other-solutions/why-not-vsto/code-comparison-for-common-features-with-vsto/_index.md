@@ -32,3 +32,4 @@ This section has following topics:
 - [Sort Data in Worksheets](/cells/net/sort-data-in-worksheets/)
 - [Use Formulas Functions to Process Data in VSTO and Aspose.Cells](/cells/net/use-formulas-functions-to-process-data-in-vsto-and-aspose-cells/)
 - [Wrapping Cell Text in VSTO and Aspose.Cells](/cells/net/wrapping-cell-text-in-vsto-and-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

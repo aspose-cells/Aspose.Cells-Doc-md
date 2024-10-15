@@ -112,3 +112,4 @@ Remove split panes using the [**RemoveSplit**](https://reference.aspose.com/cell
 - [Show Formulas Instead of Values in a Worksheet](/cells/net/show-formulas-instead-of-values-in-a-worksheet/)
 - [Use Error Checking Options](/cells/net/use-error-checking-options/)
 
+{{< app/cells/assistant language="csharp" >}}

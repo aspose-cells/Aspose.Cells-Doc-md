@@ -28,3 +28,4 @@ As you can see in the screenshots, the newer version expands the right-aligned t
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithHTMLFormat-ExpandTextFromRightToLeft-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

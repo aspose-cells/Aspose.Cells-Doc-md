@@ -25,3 +25,4 @@ After executing the code, Aspose.Cells auto-fits rows for merged cells.
 
 - [Autofit Rows and Columns](/cells/java/autofit-rows-and-columns/)
 - [Adjusting Row Height and Column Width](/cells/java/adjusting-row-height-and-column-width/)
+{{< app/cells/assistant language="java" >}}

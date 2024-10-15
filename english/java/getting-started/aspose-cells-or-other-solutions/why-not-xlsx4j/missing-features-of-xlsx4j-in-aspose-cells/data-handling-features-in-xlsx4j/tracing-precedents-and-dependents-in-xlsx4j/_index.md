@@ -118,3 +118,4 @@ for (int i = 0; i< dependents.length; i++)
 For more details, visit [Tracing Precedents and Dependents](/java/tracing-precedents-and-dependents).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -24,3 +24,4 @@ After you create a chart in a worksheet, then you can set category axis for it. 
 
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "chart-CategoryAxis-settings.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

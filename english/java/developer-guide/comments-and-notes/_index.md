@@ -48,3 +48,4 @@ Aspose.Cells also provides this feature. Below is a code sample that creates an 
 - [How to set comment background](/cells/java/how-to-set-comment-background/)
 - [Threaded Comments](/cells/java/threaded-comments/)
 
+{{< app/cells/assistant language="java" >}}

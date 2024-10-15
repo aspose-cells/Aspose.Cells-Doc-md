@@ -18,3 +18,4 @@ You can use Aspose.Cells to create rich text custom data label of the chart poin
 The following code accesses the first chart point of the first series, sets its text and then sets the font of the first 10 characters by settings it's color to red and boldness to **true**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RichTextCustomDataLabel-RichTextCustomDataLabelOfChartPoint.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

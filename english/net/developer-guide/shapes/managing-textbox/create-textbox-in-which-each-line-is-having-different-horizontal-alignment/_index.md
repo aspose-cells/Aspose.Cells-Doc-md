@@ -14,3 +14,4 @@ You can set the horizontal alignment of your paragraph text using the [**TextPar
 The following sample code creates three lines and sets the horizontal alignment of each of them.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateTextBoxWithDifferentHorizontalAlignment-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

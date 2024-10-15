@@ -49,3 +49,4 @@ To format a number as a date in Excel, follow these steps:
 To format numbers as date in Aspose.Cells for .NET library for working with Excel files, you can apply date formatting to cells programmatically. Here's how you can do it using C# with Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Numbers-format-date.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

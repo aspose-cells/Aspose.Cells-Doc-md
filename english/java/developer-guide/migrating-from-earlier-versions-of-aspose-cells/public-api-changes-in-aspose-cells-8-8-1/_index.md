@@ -199,3 +199,4 @@ Aspose.Cells.GridWeb has also provided the ability to remove the data validation
 ## **Obsoleted APIs**
 ### **Obsoleted Shape.TextFrame Property**
 It is advised to use the Shape.TextBody.TextAlignment property instead.
+{{< app/cells/assistant language="java" >}}

@@ -26,3 +26,4 @@ The following sample code creates three lines and sets the horizontal alignment 
 
 
 
+{{< app/cells/assistant language="java" >}}

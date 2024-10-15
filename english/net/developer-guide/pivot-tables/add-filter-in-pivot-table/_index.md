@@ -15,3 +15,4 @@ Please see the following sample code. It sets the data and creates a PivotTable 
 
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-Add-filter-in-PivotTable.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

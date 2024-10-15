@@ -42,3 +42,4 @@ These string numbers have been converted to numbers using [**Cells.convertString
 The following sample code illustrates how to convert all string numeric data to actual numbers in all worksheets.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConvertTextNumericDatatoNumber-ConvertTextNumericDatatoNumber.java" >}}
+{{< app/cells/assistant language="java" >}}

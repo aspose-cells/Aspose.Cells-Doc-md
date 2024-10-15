@@ -106,3 +106,4 @@ You can use Aspose.Cells for Java to implement page setup options for worksheets
 |Set print area, print titles, or turn on gridlines etc.|Yes|
 
 
+{{< app/cells/assistant language="java" >}}

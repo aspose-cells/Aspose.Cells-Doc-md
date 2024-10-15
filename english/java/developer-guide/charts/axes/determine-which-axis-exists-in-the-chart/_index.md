@@ -40,3 +40,4 @@ Has Primary Value Axis: true
 Has Secondary Value Axis: false
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

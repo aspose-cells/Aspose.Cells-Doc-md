@@ -28,3 +28,4 @@ The following sample code loads the [source excel file](5472520.xlsx) and access
 
 
 
+{{< app/cells/assistant language="java" >}}

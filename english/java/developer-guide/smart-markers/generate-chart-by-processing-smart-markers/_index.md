@@ -144,3 +144,4 @@ Once the data is in place, all we need to do is to create a chart based on the d
 The final chart looks as follow.
 
 ![todo:image_alt_text](generate-chart-by-processing-smart-markers_3.png)
+{{< app/cells/assistant language="java" >}}

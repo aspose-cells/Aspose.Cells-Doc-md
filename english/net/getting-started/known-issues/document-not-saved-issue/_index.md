@@ -29,3 +29,4 @@ This problem may occur when the following conditions are true:
 - The template contains an embedded object.
 ### **Solution**
 To save your work, you must first delete the embedded objects in your workbook.
+{{< app/cells/assistant language="csharp" >}}

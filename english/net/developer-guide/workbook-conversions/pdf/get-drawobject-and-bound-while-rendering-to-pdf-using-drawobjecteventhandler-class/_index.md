@@ -42,3 +42,4 @@ Please see the following sample code. It loads the [sample Excel file](64716821.
 ----------------------
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

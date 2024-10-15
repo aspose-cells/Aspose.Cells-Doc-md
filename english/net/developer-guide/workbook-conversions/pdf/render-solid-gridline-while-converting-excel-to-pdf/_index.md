@@ -13,3 +13,4 @@ With option [PdfSaveOptions.GridlineTypes](https://reference.aspose.com/cells/ne
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-SolidGridlineInPdf.cs" >}}
 
 ![solid-gridline.png](solid-gridline.png)
+{{< app/cells/assistant language="csharp" >}}

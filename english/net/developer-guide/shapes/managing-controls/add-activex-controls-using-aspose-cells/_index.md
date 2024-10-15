@@ -29,3 +29,4 @@ Once, you have added the ActiveX control inside the shape collection, you can th
 The following sample code adds Toggle Button ActiveX Control using Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddActiveXControls-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

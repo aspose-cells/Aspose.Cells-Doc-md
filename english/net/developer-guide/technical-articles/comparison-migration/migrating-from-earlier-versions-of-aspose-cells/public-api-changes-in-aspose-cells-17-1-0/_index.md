@@ -198,3 +198,4 @@ Aspose.Cells 17.1.0 has also exposed the Percentage field to the DisplayUnitType
 ## **Removed APIs**
 ### **Instance Variable m_LoadDataFilterOptions Removed**
 This release has removed the m_LoadDataFilterOptions instance variable. It is advised to use the LoadFilter.LoadDataFilterOptions property instead.
+{{< app/cells/assistant language="csharp" >}}

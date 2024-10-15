@@ -77,3 +77,4 @@ Download **New Line in Cells** form any of the below mentioned social coding sit
 For more details, visit [Line Breaks and Text Wrapping](/cells/net/line-breaks-and-text-wrapping/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

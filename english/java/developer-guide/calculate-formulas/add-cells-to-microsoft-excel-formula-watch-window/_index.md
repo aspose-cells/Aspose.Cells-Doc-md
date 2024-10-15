@@ -18,3 +18,4 @@ The following sample code sets the formula of cells C1 and E1 and adds both of t
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Formulas-AddCellsToMicrosoftExcelFormulaWatchWindow.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -12,3 +12,4 @@ Please see the following sample code that loads the [sample Excel file](6471691
 
 ![todo:image_alt_text](create-chart-pdf-with-desired-page-size_1.png)
 ## **Sample Code**
+{{< app/cells/assistant language="java" >}}

@@ -26,3 +26,4 @@ In order to demonstrate the usage of Aspose.Cells for Java API to create a pie c
 
 - [Creating and Customizing Charts](/cells/java/creating-and-customizing-charts/)
 - [Chart Formatting](/cells/java/chart-formatting/)
+{{< app/cells/assistant language="java" >}}

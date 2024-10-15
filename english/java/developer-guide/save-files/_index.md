@@ -128,3 +128,4 @@ The following code example demonstrates exporting active worksheet to Markdown b
 - [Save Workbook to Strict Open XML Spreadsheet Format](/cells/java/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [Track Conversion Progress of Excel to TIFF](/cells/java/track-conversion-progress-of-excel-to-tiff/)
 - [Track Document Conversion Progress](/cells/java/track-document-conversion-progress/)
+{{< app/cells/assistant language="java" >}}

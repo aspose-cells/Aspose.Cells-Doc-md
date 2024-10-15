@@ -16,3 +16,4 @@ The following code snippet shows you how to combine multiple worksheets into a s
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CombineMultipleWorksheetsSingleWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

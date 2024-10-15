@@ -41,3 +41,4 @@ The following sample code shows how to make use of the [**Workbook.ImportXml()*
 - [Link Cells to XML Map Elements](/cells/net/link-cells-to-xml-map-elements/)
 - [Query Cell Areas Mapped to XML Map Path using Worksheet.XmlMapQuery method](/cells/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 
+{{< app/cells/assistant language="csharp" >}}

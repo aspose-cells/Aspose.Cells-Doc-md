@@ -31,3 +31,4 @@ The sample code below describes how to secure PDFs with Aspose.Cells.
 If the spreadsheet contains formulas, it is best to call [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) just before rendering it to PDF. This ensures that formula dependent values are recalculated and the correct values are rendered in the PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

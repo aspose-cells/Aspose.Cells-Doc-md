@@ -35,3 +35,4 @@ This section has following topics:
   - [Using Anonymous Types or Custom Objects](/cells/net/using-anonymous-types-or-custom-objects/)
   - [Using Nested Objects](/cells/net/using-nested-objects/)
 - [Tracing Precedents and Dependents in Aspose.Cells](/cells/net/tracing-precedents-and-dependents-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

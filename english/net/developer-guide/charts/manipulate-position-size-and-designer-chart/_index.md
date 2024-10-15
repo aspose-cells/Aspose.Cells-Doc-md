@@ -45,3 +45,4 @@ In this example, we will manipulate a line chart. We will add some data series t
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-ModifyLineChart-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

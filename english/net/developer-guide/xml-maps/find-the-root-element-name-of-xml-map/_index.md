@@ -24,3 +24,4 @@ The following sample code loads the [sample Excel file](55541789.xlsx) and acces
 Root Element Name Of Xml Map: MiscData
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

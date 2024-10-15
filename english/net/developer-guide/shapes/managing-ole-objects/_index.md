@@ -43,3 +43,4 @@ Aspose.Cells supports extracting objects of uncommon types like MOL(Molecular da
 - [Get or Set the Class Identifier of the Embedded OLE Object](/cells/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 - [Inserting a WAV file as an Ole Object](/cells/net/inserting-a-wav-file-as-an-ole-object/)
 
+{{< app/cells/assistant language="csharp" >}}

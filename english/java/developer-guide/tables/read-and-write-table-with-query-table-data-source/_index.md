@@ -15,3 +15,4 @@ The source and output excel files are attached for reference.
 [Source File](SampleTableWithQueryTable.xls)
 
 [Output File](SampleTableWithQueryTable_out.xls)
+{{< app/cells/assistant language="java" >}}

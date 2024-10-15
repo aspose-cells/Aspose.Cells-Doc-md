@@ -34,3 +34,4 @@ To implement file encryption in Microsoft Excel (for example 2007):
 The code example below applies strong encryption on a file and sets a password.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ApplyingEncryption-ApplyingEncryption.java" >}}
+{{< app/cells/assistant language="java" >}}

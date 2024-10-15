@@ -60,3 +60,4 @@ Aspose.Cells offers more flexibility than other solutions and provides outstandi
 We welcome your queries, comments and suggestions at [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9). We warranty a prompt reply.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

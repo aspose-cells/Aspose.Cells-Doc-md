@@ -75,3 +75,4 @@ Aspose.Cells for .NET supports the popular spreadsheet (XLS, XLSX, XLSM, XLSB, X
 			</ul>
 	</div>
 </div>
+{{< app/cells/assistant language="csharp" >}}

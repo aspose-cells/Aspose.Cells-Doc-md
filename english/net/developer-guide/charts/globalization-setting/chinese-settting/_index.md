@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convert Chart to Image for Chinese Region
 description: Learn how to use Aspose.Cells for .NET sets Chinese configuration for charts. Our guide will demonstrate how to configure charts to support Chinese characters and formats, including fonts, sizes, text directions, and more.
 keywords: Aspose.Cells for .NET, Charts, Chinese Configuration, Fonts, Font Size, Text Direction, Support.
@@ -51,3 +51,4 @@ After the above operation, we can get an output chart picture with Chinese Regio
 |Legend Total Name|汇总|Total|
 |Other Name|其他|Other|
 |Series Name|系列|Series|
+{{< app/cells/assistant language="csharp" >}}

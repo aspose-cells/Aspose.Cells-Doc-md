@@ -15,3 +15,4 @@ Aspose.Cells allows you to load a light-weight version of workbook into memory t
 The following sample code uses [**WorkbookMetadata**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata) class to edit custom document properties of a workbook. Once you open the workbook using [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class, you will be able to read the document properties. Here is a sample code using the [**WorkbookMetadata**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata) class.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingWorkbookMetadata-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

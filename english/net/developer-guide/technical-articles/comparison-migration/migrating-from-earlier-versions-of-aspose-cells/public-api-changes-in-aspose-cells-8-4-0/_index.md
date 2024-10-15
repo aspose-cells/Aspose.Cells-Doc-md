@@ -274,3 +274,4 @@ The default value is "" (empty string).
 Use the GetEnumerator method to iterate all cells instead.
 ### **Obsoleted DrawObject.Image Property**
 Use the DrawObject.ImageBytes property to get image data instead.
+{{< app/cells/assistant language="csharp" >}}

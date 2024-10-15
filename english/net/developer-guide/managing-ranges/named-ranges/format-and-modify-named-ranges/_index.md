@@ -60,3 +60,4 @@ Aspose.Cells provides [**Range.Merge()**](https://reference.aspose.com/cells/net
 Aspose.Cells provides the [**NameCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/namecollection/methods/removeat) method to erase the name of the range. To clear the contents of the range, use [**Cells.ClearRange()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/clearrange/index) method. The following example shows how to remove a named range with its contents.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-RemoveANamedRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

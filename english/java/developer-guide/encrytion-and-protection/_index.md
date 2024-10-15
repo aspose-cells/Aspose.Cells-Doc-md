@@ -33,3 +33,4 @@ Protect the authenticity of a document's content, you can add a digital signatur
 - [How to Detect a File Format and Check if the File is Encrypted](/cells/java/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
 
 
+{{< app/cells/assistant language="java" >}}

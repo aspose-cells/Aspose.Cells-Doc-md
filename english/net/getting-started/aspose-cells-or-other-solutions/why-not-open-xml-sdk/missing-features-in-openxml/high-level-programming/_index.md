@@ -13,3 +13,4 @@ This section includes the following topics
   - [Copy Worksheets within a Workbook](/cells/net/copy-worksheets-within-a-workbook/)
   - [Move Worksheets within Workbook](/cells/net/move-worksheets-within-workbook/)
 - [Find and Replace in Spreadsheet](/cells/net/find-and-replace-in-spreadsheet/)
+{{< app/cells/assistant language="csharp" >}}

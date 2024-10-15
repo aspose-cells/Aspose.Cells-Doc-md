@@ -37,3 +37,4 @@ Developers can position the pictures absolutely by using the [**setUpperDeltaX**
 - [Insert a Linked Picture from Web Address](/cells/java/insert-a-linked-picture-from-web-address/)
 - [Insert a Picture based on Cell Reference](/cells/java/insert-a-picture-based-on-cell-reference/)
 - [Insert Web Image from a URL into an Excel Worksheet](/cells/java/insert-web-image-from-a-url-into-an-excel-worksheet/)
+{{< app/cells/assistant language="java" >}}

@@ -79,3 +79,4 @@ Download **Create Charts** form any of the below mentioned social coding sites:
 For more details, visit [How to Create a Chart](/cells/net/create-charts/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

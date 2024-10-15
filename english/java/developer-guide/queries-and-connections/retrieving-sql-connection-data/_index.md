@@ -38,3 +38,4 @@ If the ExternalConnection object contains SQL connection data, it can be type-ca
 
 
 
+{{< app/cells/assistant language="java" >}}

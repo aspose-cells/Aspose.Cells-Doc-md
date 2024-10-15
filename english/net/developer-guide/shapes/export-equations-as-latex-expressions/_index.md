@@ -34,3 +34,4 @@ The following sample code shows how to use the [ToMathML()](https://reference.as
 
 
 
+{{< app/cells/assistant language="csharp" >}}

@@ -52,3 +52,4 @@ This example uses a simple template Excel file in which a style called Percent h
 The modifications are automatically applied to the range the style was applied to.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ModifyExistingStyle-ModifyThroughSampleExcelFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

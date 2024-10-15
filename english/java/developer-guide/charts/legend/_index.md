@@ -21,3 +21,4 @@ The following code snippet demonstrates how to manage legend:
 
 ## **Advance topics**
 - [Set text of chart legend entry fill to none using Aspose.Cells](/cells/java/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

@@ -381,3 +381,4 @@ book.Save(outFilePath, pdfSaveOptions);
 ## **Removed APIs**
 ### **Property Workbook.SaveOptions Removed**
 The Workbook.SaveOptions property was marked obsoleted some time back. With this release, it has been completely removed from the public API therefore it is advised to use the Workbook.Save(Stream, SaveOptions) or Workbook.Save(string, SaveOptions) method as alternative.
+{{< app/cells/assistant language="csharp" >}}

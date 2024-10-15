@@ -34,3 +34,4 @@ When the code runs, the connection details are printed to the console.
 
 
 
+{{< app/cells/assistant language="java" >}}

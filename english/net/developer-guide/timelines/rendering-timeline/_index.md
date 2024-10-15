@@ -17,3 +17,4 @@ The following sample code loads the [sample Excel file](input.xlsx) that conta
 ### **Sample Code**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Timelines-RenderingTimeline.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

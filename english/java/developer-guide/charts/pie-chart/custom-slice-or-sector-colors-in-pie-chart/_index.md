@@ -34,3 +34,4 @@ This article also explains how to set:
 ![todo:image_alt_text](custom-slice-or-sector-colors-in-pie-chart_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomSliceOrSectorColorsPieChart-CustomSliceOrSectorColorsPieChart.java" >}}
+{{< app/cells/assistant language="java" >}}

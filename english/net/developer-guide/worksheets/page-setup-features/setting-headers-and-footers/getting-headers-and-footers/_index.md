@@ -44,3 +44,4 @@ Aspose.Cells for .Net provides [**Worksheet.PageSetup.GetCommands**](https://ref
 The following codes how to parse header or footer as command list and process commands:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Parses-Header-Footer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

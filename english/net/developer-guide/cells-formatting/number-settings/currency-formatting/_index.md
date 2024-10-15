@@ -47,3 +47,4 @@ To format numbers as currency in Excel, follow these steps:
 To format numbers as currency in Aspose.Cells for .NET library for working with Excel files, you can apply currency formatting to cells programmatically. Here's how you can do it using C# with Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Numbers-format-currency.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -18,3 +18,4 @@ The following sample code loads the [sample Excel file](67338478.xlsx) that co
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-RemovingSlicer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

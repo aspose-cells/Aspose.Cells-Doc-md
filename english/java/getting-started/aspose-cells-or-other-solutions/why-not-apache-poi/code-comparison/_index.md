@@ -51,3 +51,4 @@ This section includes the following Code Comparison Examples:
   - [Working with Fonts in Apache POI and Aspose.Cells](/cells/java/working-with-fonts-in-apache-poi-and-aspose-cells/)
 
 **Note:** Many more code comparisons are yet to be available soon. 
+{{< app/cells/assistant language="java" >}}

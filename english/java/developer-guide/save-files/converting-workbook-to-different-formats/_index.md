@@ -189,3 +189,4 @@ The table below lists all features that are fully or partially supported when ex
 |Page Setup|Scaling|Yes| |
 |Row Height/Column Width| |Yes| |
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

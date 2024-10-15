@@ -74,3 +74,4 @@ The signatures of aforesaid methods are as follow:
 If a cell is merged then the *AutoFit* methods will not be applied, which is the same behavior as in Microsoft Excel. Moreover, if the text in a cell is wrapped, the [autoFitColumn](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int\)) method will not be applied either. Another thing you need to know is that the *AutoFit* methods are time-consuming. So, you should call these methods as seldom as possible to ensure the efficiency of your application.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

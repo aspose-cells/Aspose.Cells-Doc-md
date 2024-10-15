@@ -35,3 +35,4 @@ The following code snippet demonstrates how to manage DataLabels:
 - [Rich Text Custom Data Label of Chart Point](/cells/net/rich-text-custom-data-label-of-chart-point/)
 - [Set the Shape Type of Data Labels of Chart](/cells/net/set-the-shape-type-of-data-labels-of-chart/)
 - [Showing Cell Range as the Data Labels](/cells/net/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="csharp" >}}

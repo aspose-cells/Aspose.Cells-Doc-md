@@ -26,3 +26,4 @@ The following image shows the formula instead of the calculated value, enabled b
 ![todo:image_alt_text](show-formulas-instead-of-values-in-a-worksheet_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ShowFormulas-ShowFormulas.java" >}}
+{{< app/cells/assistant language="java" >}}

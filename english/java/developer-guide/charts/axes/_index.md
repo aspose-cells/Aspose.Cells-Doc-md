@@ -35,3 +35,4 @@ The following code snippet demonstrates how to set the options of X and Y axes 
 - [Change Tick Label Direction](/cells/java/change-tick-label-direction/)
 - [Determine which Axis exists in the Chart](/cells/java/determine-which-axis-exists-in-the-chart/)
 - [Handle Automatic Units of Chart Axis like Microsoft Excel](/cells/java/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
+{{< app/cells/assistant language="java" >}}

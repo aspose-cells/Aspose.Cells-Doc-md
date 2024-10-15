@@ -15,3 +15,4 @@ url: /java/tracing-precedents-and-dependents-using-aspose-cells/
 For more details, visit [Tracing Precedents and Dependents](/cells/java/precedents-and-dependents).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

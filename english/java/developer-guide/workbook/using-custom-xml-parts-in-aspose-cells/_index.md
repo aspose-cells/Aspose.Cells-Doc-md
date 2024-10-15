@@ -26,3 +26,4 @@ The following sample code makes use of [Workbook.getContentTypeProperties().add(
 - [Adding Custom Properties visible inside Document Information Panel](/cells/java/adding-custom-properties-visible-inside-document-information-panel/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -30,3 +30,4 @@ Because SVG is an XML-based format, you can also open the output chart image in 
 ![todo:image_alt_text](converting-chart-to-image-in-svg-format_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConvertCharttoImageinSVGFormat-ConvertCharttoImageinSVGFormat.java" >}}
+{{< app/cells/assistant language="java" >}}

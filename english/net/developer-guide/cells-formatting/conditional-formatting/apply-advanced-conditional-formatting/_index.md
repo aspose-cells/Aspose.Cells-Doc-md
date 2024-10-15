@@ -30,3 +30,4 @@ Aspose.Cells lets you calculate the color selected by Microsoft Excel when Color
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ComputeColorChoosenByMSExcel-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

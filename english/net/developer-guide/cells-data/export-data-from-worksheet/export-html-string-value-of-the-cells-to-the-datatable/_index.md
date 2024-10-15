@@ -21,3 +21,4 @@ The following sample code illustrates how to export HTML string value of the cel
  <Font Style="FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #00b0f0;Background-Color: #ffe699;">Crow</Font>
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

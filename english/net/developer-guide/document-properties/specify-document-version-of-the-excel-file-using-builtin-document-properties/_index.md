@@ -18,3 +18,4 @@ The following sample code creates a workbook and changes its built-in document p
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "LoadingSavingConvertingAndManaging-SpecifyDocumentVersionOfExcelFile.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

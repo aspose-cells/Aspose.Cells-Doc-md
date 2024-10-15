@@ -241,3 +241,4 @@ This page describes the most interesting new Aspose.Cells features introduced in
 * Improve performance while converting Excel to HTML.
 
 
+{{< app/cells/assistant language="java" >}}

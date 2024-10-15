@@ -38,3 +38,4 @@ This section includes the following topics
 - [Set External Links in Formulas in Aspose.Cells](/cells/net/set-external-links-in-formulas-in-aspose-cells/)
 - [Setting Formula Calculation Mode of Workbook in Aspose.Cells](/cells/net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/)
 - [Setting Shared Formula in Aspose.Cells](/cells/net/setting-shared-formula-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

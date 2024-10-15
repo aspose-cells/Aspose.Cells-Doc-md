@@ -47,3 +47,4 @@ In the output PDF or image file by Aspose.Cells, an evaluation watermark would b
 <br>
 <image src="3.png" width="70%" />
 <br>
+{{< app/cells/assistant language="java" >}}

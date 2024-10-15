@@ -65,3 +65,4 @@ for(int i = al.size()-1 ; i > -1; i--)
 For more details, visit [Detect Merged Cells in a Worksheet](/cells/java/detect-merged-cells-in-a-worksheet).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

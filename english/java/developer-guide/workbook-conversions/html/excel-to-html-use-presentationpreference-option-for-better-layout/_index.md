@@ -20,3 +20,4 @@ You may the find the following articles regarding Excel to HTML conversion helpf
 - [Disable Downlevel Revealed Comments while saving to HTML](/cells/java/disable-downlevel-revealed-comments-while-saving-to-html/)
 - [Export Document Workbook and Worksheet Properties in Excel to HTML conversion](/cells/java/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/)
 - [Export print area range to HTML](/cells/java/export-print-area-range-to-html/)
+{{< app/cells/assistant language="java" >}}

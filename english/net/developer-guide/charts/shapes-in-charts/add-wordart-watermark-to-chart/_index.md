@@ -20,3 +20,4 @@ The following example shows how to add a WordArt shape as a watermark for an exi
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-AddWordArtWatermarkToChart-AddWordArtWatermarkToChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

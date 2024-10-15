@@ -26,3 +26,4 @@ The following output is generated when the code is executed.
 ![todo:image_alt_text](format-a-list-object-table_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-FormataListObject-FormataListObject.java" >}}
+{{< app/cells/assistant language="java" >}}

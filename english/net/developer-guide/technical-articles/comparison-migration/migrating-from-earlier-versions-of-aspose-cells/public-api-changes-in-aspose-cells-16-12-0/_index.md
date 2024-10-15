@@ -227,3 +227,4 @@ Please use Title.RotationAngle property as an alternative.
 It is advised to use the DataLabels.BackgroundMode property instead.
 ### **Deleted DisplayUnitLabel.Rotation Property**
 Please consider using DisplayUnitLabel.RotationAngle property to achieve the same goal.
+{{< app/cells/assistant language="csharp" >}}

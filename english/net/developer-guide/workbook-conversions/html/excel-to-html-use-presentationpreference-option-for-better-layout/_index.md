@@ -16,3 +16,4 @@ Please see the sample code below that demonstrates how to render an HTML file fr
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsePresentationPreferenceOption-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

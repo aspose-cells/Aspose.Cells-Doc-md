@@ -32,3 +32,4 @@ This article also explains how to:
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomSliceSectorColorsPieChart-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -21,3 +21,4 @@ The following sample code loads the [sample Excel file](pivot_format.xlsx) that 
 
 - [Formatting Pivot Table](/cells/net/formatting-pivot-table/)
 - [Working with data display formats of DataField in Pivot Table](/cells/net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="csharp" >}}

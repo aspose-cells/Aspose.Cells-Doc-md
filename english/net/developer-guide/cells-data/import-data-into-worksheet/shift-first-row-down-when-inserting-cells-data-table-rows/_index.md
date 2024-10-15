@@ -22,3 +22,4 @@ The following sample code illustrates how to shift the first row down when inse
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-ShiftFirstRowDownWhenInsertingCellsDataTableRows.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

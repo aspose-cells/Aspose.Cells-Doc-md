@@ -22,3 +22,4 @@ The sample code loads the source Excel file and then sends it to the printer by 
 ## Related Articles
 
 - [Printing Workbooks](/cells/java/printing-workbooks/)
+{{< app/cells/assistant language="java" >}}

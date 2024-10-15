@@ -32,3 +32,4 @@ After the execution of the code, the output file looks like the below. All "sear
 ## Related Articles
 
 - [Find or Search Data](/cells/java/find-or-search-data/)
+{{< app/cells/assistant language="java" >}}

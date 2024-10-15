@@ -19,3 +19,4 @@ The result of this test was very good. If you have, for example 100 requests for
 Now we have solved the issue that was causing our clients too much time. The usability of our products is higher. 
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

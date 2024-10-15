@@ -147,3 +147,4 @@ If your spreadsheet contains formulas, it is best to call [**Workbook.CalculateF
 - [Save Specified Worksheets to PDF](/cells/net/save-specified-worksheets-to-pdf/)
 - [Secure PDF Documents](/cells/net/secure-pdf-documents/)
 - [Specify how to cross string in output PDF and image](/cells/net/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="csharp" >}}

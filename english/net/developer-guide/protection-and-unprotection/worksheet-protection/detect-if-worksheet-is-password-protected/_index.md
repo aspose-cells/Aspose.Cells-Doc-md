@@ -14,3 +14,4 @@ It is possible to protect the workbooks and worksheets separately. For instance,
 Aspose.Cells for .NET 8.7.0 has exposed the [**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword) property to detect if a worksheet is password protected or not. Boolean type [**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword) property returns **true** if [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) is password-protected and **false** if not.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CheckIfPasswordProtected-CheckIfPasswordProtected.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -18,3 +18,4 @@ Please see the following sample code, its [source Excel file](50528348.xlsx), an
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-AddPDFBookmarksWithNamedDestinations.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

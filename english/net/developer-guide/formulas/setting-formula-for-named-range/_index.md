@@ -27,3 +27,4 @@ Here is another example that uses a named range to sum values from 2 cells in di
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CalculatingSumUsingNamedRange-CalculatingSumUsingNamedRangeOnDifferentSheets.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

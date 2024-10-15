@@ -18,3 +18,4 @@ The following sample code loads the [sample Excel file](61767766.xlsx) that co
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "PivotTables-FindAndRefreshNestedOrChildrenPivotTables.java" >}}
+{{< app/cells/assistant language="java" >}}

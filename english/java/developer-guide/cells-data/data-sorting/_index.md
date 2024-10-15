@@ -78,3 +78,4 @@ Following are the sample files which can be downloaded for testing this feature:
 - [Sort Data in Column with Custom Sort List](/cells/java/sort-data-in-column-with-custom-sort-list/)
 - [Specifying Sort Warning While Sorting Data](/cells/java/specifying-sort-warning-while-sorting-data/)
 
+{{< app/cells/assistant language="java" >}}

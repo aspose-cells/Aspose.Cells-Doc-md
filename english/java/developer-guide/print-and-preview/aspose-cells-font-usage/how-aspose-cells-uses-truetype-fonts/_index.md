@@ -53,3 +53,4 @@ Check the detailed articles on
 - [How to get warnings when font substitution occurs](/cells/java/get-warnings-for-font-substitution-while-rendering-excel-file/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -26,3 +26,4 @@ Here is the console output of the above sample code.
  =SUM(B1:B10)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -10,3 +10,4 @@ url: /java/known-issues/
 - [How to Fix the java.lang.OutOfMemoryError while Loading Large Spreadsheets](/cells/java/how-to-fix-the-java-lang-outofmemoryerror-while-loading-large-spreadsheets/)
 - [java.lang.ClassNotFoundException org.bouncycastle.jce.provider.BouncyCastleProvider](/cells/java/java-lang-classnotfoundexception-org-bouncycastle-jce-provider-bouncycastleprovider/)
 - [How to fix exception - Could not initialize class sun.font.FontScaler](/cells/java/how-to-fix-exception-could-not-initialize-class-sun-font-fontscaler/)
+{{< app/cells/assistant language="java" >}}

@@ -16,3 +16,4 @@ The following sample code adds XML Map inside the workbook using the [**XmlMapCo
 ![add-xml-map](add-xml-map.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddXmlMapInsideWorkbook-AddXmlMapInsideWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -41,3 +41,4 @@ Download **Set Print Titles** form any of the below mentioned social coding site
 For more details, visit [Setting Print Options](/cells/net/setting-print-options/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

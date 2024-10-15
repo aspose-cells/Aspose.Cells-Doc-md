@@ -48,3 +48,4 @@ The above code snippet uses the existing instance of the [**Workbook**](https://
 Once the data is in place, all we need to do is to create a chart based on the data source. In order to keep the example simple, we will use the [**Chart.SetChartDataRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange) method so that we do not have to configure the chart further.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-CreationOfChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

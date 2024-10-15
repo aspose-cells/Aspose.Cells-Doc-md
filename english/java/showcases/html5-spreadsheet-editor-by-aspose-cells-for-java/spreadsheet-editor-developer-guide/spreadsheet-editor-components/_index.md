@@ -46,3 +46,4 @@ It is responsible to cleanup all acquired resources when they are no more requir
 It creates instances of spreadsheet and keep them in memory as long as they are needed.
 ### **CellsService**
 The **CellsService** manages cache of rows, columns, cells, formatting, and structure of worksheets.
+{{< app/cells/assistant language="java" >}}

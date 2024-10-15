@@ -41,3 +41,4 @@ Some Excel fiels corrupt because some defined names are duplicate. So we can rem
 
 
 
+{{< app/cells/assistant language="csharp" >}}

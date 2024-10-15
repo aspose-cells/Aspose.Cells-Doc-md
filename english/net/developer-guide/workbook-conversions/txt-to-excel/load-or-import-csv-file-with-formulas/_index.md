@@ -28,3 +28,4 @@ The code first loads the CSV file, then import it again at cell D4. Finally, it 
 |![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)|
 | :- |
 
+{{< app/cells/assistant language="csharp" >}}

@@ -34,3 +34,4 @@ It's up to developers how they use Aspose.Cells but there are few common scenari
 We have discussed few of the most common scenarios of using Aspose.Cells in web based environment. But Aspose.Cells is equally useful in desktop based applications also.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

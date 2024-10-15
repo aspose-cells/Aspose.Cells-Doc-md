@@ -36,3 +36,4 @@ To load a spreadsheet into an embedded editor **url** parameter. For example:
 </iframe>
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

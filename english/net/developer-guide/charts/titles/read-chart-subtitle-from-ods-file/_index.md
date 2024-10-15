@@ -22,3 +22,4 @@ Aspose.Cells provides you with the ability to read chart subtitles in ODS files 
 Chart Subtitle: Sample Chart Subtitle
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

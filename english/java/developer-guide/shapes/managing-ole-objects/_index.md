@@ -55,3 +55,4 @@ Aspose.Cells supports extracting objects of uncommon types like MOL(Molecular da
 - [Automatically refresh OLE object via Microsoft Excel using Aspose.Cells](/cells/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)
 - [Extract OLE Objects from Workbook](/cells/java/extract-ole-objects-from-workbook/)
 - [Get or Set the Class Identifier of the Embedded OLE Object](/cells/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
+{{< app/cells/assistant language="java" >}}

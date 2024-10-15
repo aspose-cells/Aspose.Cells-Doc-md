@@ -12,3 +12,4 @@ Normally, [named ranges](/cells/java/named-ranges/) are rectangular with cells c
 The code sample below shows how to create a named non-sequential range with Aspose.Cells for Java.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ImplementingNonSequentialRanges-ImplementingNonSequentialRanges.java" >}}
+{{< app/cells/assistant language="java" >}}

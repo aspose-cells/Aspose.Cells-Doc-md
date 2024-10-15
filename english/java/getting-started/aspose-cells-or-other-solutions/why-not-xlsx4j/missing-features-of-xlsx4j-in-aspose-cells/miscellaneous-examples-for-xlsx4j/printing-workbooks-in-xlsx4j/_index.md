@@ -61,3 +61,4 @@ wr.toPrinter("Samsung ML-1520 Series");
 For more details, visit [Printing Workbooks ](/cells/java/printing-workbooks).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

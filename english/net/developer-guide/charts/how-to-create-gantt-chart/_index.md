@@ -50,3 +50,4 @@ Please see the following sample code. It loads the [sample Excel file](sample.xl
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-gantt-chart.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

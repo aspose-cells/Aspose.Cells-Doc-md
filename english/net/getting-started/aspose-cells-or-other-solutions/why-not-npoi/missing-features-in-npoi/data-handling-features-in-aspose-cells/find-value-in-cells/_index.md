@@ -49,3 +49,4 @@ Download **Find Value in Cells** form any of the below mentioned social coding s
 For more details, visit [Find or Search Data](/cells/net/find-or-search-data/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

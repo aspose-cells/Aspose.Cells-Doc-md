@@ -102,3 +102,4 @@ The instructions provided above will install the Microsoft TTFs package includin
 On Ubuntu, go to the Synaptic Package Manager. Find and install the **ttf-mscorefonts-installer** package.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

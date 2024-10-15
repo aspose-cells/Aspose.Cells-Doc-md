@@ -19,3 +19,4 @@ Or edit your code to use "inline" if you are using "attachment" option in your c
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-KnowledgeBase-KnownIssues-PivotTableIssue.aspx-PivotTableIssue.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

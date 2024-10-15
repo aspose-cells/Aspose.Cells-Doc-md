@@ -46,3 +46,4 @@ The memory settings will not work for the default sheet automatically created by
 Please check the detailed article on [Optimizing Memory while Working with Large Data Sets](/cells/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

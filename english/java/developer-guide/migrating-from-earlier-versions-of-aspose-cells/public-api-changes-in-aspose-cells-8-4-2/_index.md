@@ -161,3 +161,4 @@ workbook.save(output);
 Starting from the release of Aspose.Cells for Java 8.4.2, the enumeration filed PasteType.ALL behaves differently as compared to Excel's "All" functionality to paste range of cells. Now, the PasteType.ALL also copies the column widths onto the destination range as opposed to Excel's "All" functionality. In order to mimic the Excel's "All" behavior, please use the PasteType.DEFAULT.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

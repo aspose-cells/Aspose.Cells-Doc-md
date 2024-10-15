@@ -43,3 +43,4 @@ With Aspose.Cells, it is simple to open, save and mange Excel files.
 - [Convert JSON to CSV](/cells/net/convert-json-to-csv/)
 - [Convert-JSON-to-Excel](/cells/net/convert-json-to-excel/)
 - [Convert-Excel-to-Html](/cells/net/convert-excel-to-html/)
+{{< app/cells/assistant language="csharp" >}}

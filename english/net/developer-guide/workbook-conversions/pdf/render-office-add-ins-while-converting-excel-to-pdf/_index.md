@@ -16,3 +16,4 @@ The following sample code saves the [sample Excel file](60489769.xlsx) which con
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-RenderOfficeAdd_InsWhileConvertingExcelToPdf.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -60,3 +60,4 @@ The following sample code illustrates how to access the [MaxDisplayRange](https:
 {{< /highlight >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AccessingMaximumDisplayRangeofWorksheet-AccessingMaximumDisplayRangeofWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

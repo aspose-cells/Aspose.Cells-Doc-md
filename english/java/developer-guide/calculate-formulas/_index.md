@@ -70,3 +70,4 @@ By default the calculation chain is disabled. Because creating the chain also ne
 - [Returning a Range of Values using AbstractCalculationEngine](/cells/java/returning-a-range-of-values-using-abstractcalculationengine/)
 - [Returning a Range of Values using ICustomFunction](/cells/java/returning-a-range-of-values-using-icustomfunction/)
 - [Using ICustomFunction Feature](/cells/java/using-icustomfunction-feature/)
+{{< app/cells/assistant language="java" >}}

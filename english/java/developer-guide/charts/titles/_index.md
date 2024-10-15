@@ -31,3 +31,4 @@ The following code snippet demonstrates how to set titles to charts and axes.
 
 ## **Advance topics**
 - [Read Chart Subtitle from ODS File](/cells/java/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="java" >}}

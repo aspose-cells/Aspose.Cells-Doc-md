@@ -58,3 +58,4 @@ A simple way to convert active worksheet in a workbook is to set the active shee
 - [Export Chart to SVG with viewBox attribute](/cells/java/export-chart-to-svg-with-viewbox-attribute/)
 - [Export Worksheet or Chart into Image with Desired Width and Height](/cells/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
 - [Converting Worksheet to Image and Worksheet to Image by Page](/cells/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)
+{{< app/cells/assistant language="java" >}}

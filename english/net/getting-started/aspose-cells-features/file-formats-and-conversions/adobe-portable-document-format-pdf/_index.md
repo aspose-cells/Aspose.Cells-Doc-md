@@ -24,3 +24,4 @@ The Aspose solution thoroughly supports the following document features when con
 - Merged Cells, Page Breaks, Print Titles
 
 You can also see the [detailed specification](https://docs.aspose.com/cells/net/convert-excel-workbook-to-pdf/) about how Aspose.Cells converts a document to PDF.
+{{< app/cells/assistant language="csharp" >}}

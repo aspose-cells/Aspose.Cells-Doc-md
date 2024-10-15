@@ -31,3 +31,4 @@ In order to apply the shading to alternative columns, all you have to do is to c
 The resultant spreadsheet, in this case, will look like the following image.
 
 ![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)
+{{< app/cells/assistant language="java" >}}

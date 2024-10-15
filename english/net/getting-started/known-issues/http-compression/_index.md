@@ -21,3 +21,4 @@ You can use one of the following workarounds to solve this problem:
 - Save the generated file in your server and provide a link to your users.
 
 If you do wish to use HTTP Compression, please always use *OpenInExcel* option instead of *OpenInBrowser* option when you know you've enabled IIS compression.
+{{< app/cells/assistant language="csharp" >}}

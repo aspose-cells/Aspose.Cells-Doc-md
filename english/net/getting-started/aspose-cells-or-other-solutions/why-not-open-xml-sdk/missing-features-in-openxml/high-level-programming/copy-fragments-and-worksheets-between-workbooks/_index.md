@@ -23,3 +23,4 @@ This section includes the following topics
 - [Copy Worksheets between Workbooks](/cells/net/copy-worksheets-between-workbooks/)
 - [Copy Worksheets within a Workbook](/cells/net/copy-worksheets-within-a-workbook/)
 - [Move Worksheets within Workbook](/cells/net/move-worksheets-within-workbook/)
+{{< app/cells/assistant language="csharp" >}}

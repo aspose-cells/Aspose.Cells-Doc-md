@@ -20,3 +20,4 @@ The following code accesses the first chart point of the first series, sets its 
 ## Related Articles
 
 - [Set the Shape Type of Data Labels of Chart](/cells/java/set-the-shape-type-of-data-labels-of-chart/)
+{{< app/cells/assistant language="java" >}}

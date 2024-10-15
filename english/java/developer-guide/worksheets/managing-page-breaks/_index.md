@@ -54,3 +54,4 @@ To remove a specific page break in the worksheet, call the [**HorizontalPageBrea
 **Important to know**: When you set the fit to page properties (that is [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) and [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide)) in the page setup settings, the page break settings are affected, so, if you print the worksheet, the page break settings are not considered although they still exist in the file.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

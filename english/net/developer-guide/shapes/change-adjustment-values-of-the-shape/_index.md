@@ -32,3 +32,4 @@ The following code example shows how to set or change a rounded rectangle callou
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Articles-ManageChartsAndShapes-ChangeShapesAdjustmentValues-2.cs" >}}
 
 
+{{< app/cells/assistant language="csharp" >}}

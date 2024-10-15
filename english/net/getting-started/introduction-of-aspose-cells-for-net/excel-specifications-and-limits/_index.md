@@ -191,3 +191,4 @@ If the Allow changes by more than one user... setting is on for a workbook, then
 |Cells that can be highlighted|32,767
 |Colors used to identify changes made by different users when change highlighting is turned on|32 (each user is identified by a separate color; changes made by the current user are highlighted with navy blue)
 |Excel tables in the workbook|0 (zero) Note: A workbook that contains one or more Excel tables cannot have the Allow changes by more than one user... setting enabled.
+{{< app/cells/assistant language="csharp" >}}

@@ -150,3 +150,4 @@ Aspose.Cells.GridWeb for Java 8.6.2 has exposed the following two new events.
 
 1. AjaxCallFinished: Fires when the AJAX update of the control finished. (EnableAJAX should be set to true).
 1. CellModifiedOnAjax: Fires when the cell is modified in AJAX call.
+{{< app/cells/assistant language="java" >}}

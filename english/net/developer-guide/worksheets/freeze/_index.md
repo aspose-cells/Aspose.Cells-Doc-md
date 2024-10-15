@@ -40,3 +40,4 @@ It's simple to freeze panes with Aspose.Cells for .Net. Please use the [**Worksh
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Pane.cs" >}}
 
 Attached [sample source Excel file](Freeze.xlsx).
+{{< app/cells/assistant language="csharp" >}}

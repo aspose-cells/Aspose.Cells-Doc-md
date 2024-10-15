@@ -84,3 +84,4 @@ DistinctCount consolidation function is supported by Microsoft Excel 2013 only.
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-ConsolidationFunctions-ConsolidationFunctions.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -18,3 +18,4 @@ The following code loads the workbook and checks if its VBA project is signed us
 ## Sample Code
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CheckVbaProjectSigned-CheckVbaProjectSigned.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -15,3 +15,4 @@ url: /java/working-with-worksheets-using-aspose-cells/
 - [Read CSV File With Multiple Encodings](/cells/java/read-csv-file-with-multiple-encodings/)
 - [Save Each Worksheet to Different PDF using Aspose.Cells](/cells/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
 - [Set Worksheet Tab Color in Aspose.Cells](/cells/java/set-worksheet-tab-color-in-aspose-cells/)
+{{< app/cells/assistant language="java" >}}
