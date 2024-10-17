@@ -1,6 +1,6 @@
 ---
 title: Setting Dynamic Array Formulas
-description: How to use Aspose.Cells library to calculate dynamic array formulas in Microsoft Excel. By loading an existing Excel file or creating a new Excel file, we can use the method provided by Aspose.Cells to calculate the dynamic array formula and get the result. Finally, we save the modified Excel file to disk.
+description: How to use Aspose.Cells for Python via .NET library to calculate dynamic array formulas in Microsoft Excel. By loading an existing Excel file or creating a new Excel file, we can use the method provided by Aspose.Cells for Python via .NET to calculate the dynamic array formula and get the result. Finally, we save the modified Excel file to disk.
 keywords: Dynamic Array Formulas, Dynamic Array Formulas in Excel, Set dynamic array formulas, Calculation of dynamic array formulas, operate dynamic array formulas of Excel.
 type: docs
 weight: 70
@@ -127,10 +127,10 @@ If you want to clear the spilled data, you can delete the formula from the origi
 
 By following these steps, you can set up dynamic array formulas in Excel to efficiently analyze and manipulate arrays of data, allowing for easier data analysis and reporting tasks.
 
-## **How to Set and Refresh Dynamic Array Formulas Using Aspose.Cells**
-Please see the following sample code that loads the [sample Excel file](dynamicArrayFormula.xlsx) which contains some dummy data. After loading the file, call the [Cell.SetDynamicArrayFormula](https://reference.aspose.com/cells/net/aspose.cells/cell/setdynamicarrayformula/#setdynamicarrayformula) function to set dynamic array formula and  [Workbook.RefreshDynamicArrayFormulas](https://reference.aspose.com/cells/net/aspose.cells/workbook/refreshdynamicarrayformulas/#refreshdynamicarrayformulas) function to refresh dynamic array formulas before calling formula calculation, and finally save the workbook as [output Excel file](out.xlsx). 
+## **How to Set and Refresh Dynamic Array Formulas Using Aspose.Cells for Python via .NET**
+Please see the following sample code that loads the [sample Excel file](dynamicArrayFormula.xlsx) which contains some dummy data. After loading the file, call the [**Cell.set_dynamic_array_formula**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-aspose.cells.FormulaParseOptions-bool) function to set dynamic array formula and  [**Workbook.refresh_dynamic_array_formulas**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/refresh_dynamic_array_formulas/#bool) function to refresh dynamic array formulas before calling formula calculation, and finally save the workbook as [output Excel file](out.xlsx). 
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Formulas-dynamic-array-formulas.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Formulas-dynamic-array-formulas.py" >}}
 
 The output snapshot:
 <br>

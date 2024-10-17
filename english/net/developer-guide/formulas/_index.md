@@ -11,7 +11,7 @@ keywords: How to calculate formulas in C#, Formulas and Functions using C#, C# M
 
 ## **Introduction**
 
-One of the of Microsoft Excel's compelling features is its ability to process data with formulas and functions. Microsoft Excel provides a set of built-in functions and formulas that helps users to perform complex calculations quickly. Aspose.Cells also provides a huge set of built-in functions and formulas that help developers compute values easily. Aspose.Cells also supports add-in functions. Moreover, Aspose.Cells support array and R1C1 formulas in Aspose.Cells.
+One of the of Microsoft Excel's compelling features is its ability to process data with formulas and functions. Microsoft Excel provides a set of built-in functions and formulas that helps users to perform complex calculations quickly. Aspose.Cells also provides a huge set of built-in functions and formulas that help developers compute values easily. Aspose.Cells also supports add-in functions. Moreover, Aspose.Cells supports array and R1C1 formulas.
 
 ## **How to Use Formulas and Functions**
 

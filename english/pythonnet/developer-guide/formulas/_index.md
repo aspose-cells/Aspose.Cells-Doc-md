@@ -4,18 +4,18 @@ linktitle: Formulas
 type: docs
 weight: 122
 url: /python-net/using-formulas-or-functions-to-process-data/
-description: Aspose.Cells can simply get, set and calculate formulas of excel files.
-description: Learn how to Manage formulas of Excel files through the Aspose.Cells for NET APIs.
-keywords: How to calculate formulas in C#, Formulas and Functions using C#, C# Manage Built-in Functions, How to Use Add-in Functions with C#, How to Use Array Formula via C#, How to Use R1C1 Formula in C#.
+description: Aspose.Cells for Python via .NET can simply get, set and calculate formulas of excel files.
+description: Learn how to Manage formulas of Excel files through the Aspose.Cells for Python via .NET for NET APIs.
+keywords: How to calculate formulas in Python, Formulas and Functions using Python, Python Manage Built-in Functions, How to Use Add-in Functions with Python, How to Use Array Formula via Python, How to Use R1C1 Formula in Python.
 ---
 
 ## **Introduction**
 
-One of the of Microsoft Excel's compelling features is its ability to process data with formulas and functions. Microsoft Excel provides a set of built-in functions and formulas that helps users to perform complex calculations quickly. Aspose.Cells also provides a huge set of built-in functions and formulas that help developers compute values easily. Aspose.Cells also supports add-in functions. Moreover, Aspose.Cells support array and R1C1 formulas in Aspose.Cells.
+One of the of Microsoft Excel's compelling features is its ability to process data with formulas and functions. Microsoft Excel provides a set of built-in functions and formulas that helps users to perform complex calculations quickly. Aspose.Cells for Python via .NET also provides a huge set of built-in functions and formulas that help developers compute values easily. Aspose.Cells for Python via .NET also supports add-in functions. Moreover, Aspose.Cells for Python via .NET supports array and R1C1 formulas.
 
 ## **How to Use Formulas and Functions**
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) class contains a [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class provides a [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells.worksheet/cells) collection. Each item in the Cells collection represents an object of the [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) class.
+Aspose.Cells for Python via .NET provides a class, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) class contains a [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class provides a [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells) collection. Each item in the Cells collection represents an object of the [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) class.
 
 It is possible to apply formulas to cells using properties and methods offered by the [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) class, discussed in more detail below.
 
@@ -26,9 +26,9 @@ It is possible to apply formulas to cells using properties and methods offered b
 
 ## **How to Use Built-in Functions**
 
-Built-in functions or formulas are provided as ready-made functions to reduce developers' efforts and time. See [a list of built-in functions](/cells/python-net/supported-formula-functions/) supported by Aspose.Cells. The functions are listed in alphabetical order. More functions will be supported in future.
+Built-in functions or formulas are provided as ready-made functions to reduce developers' efforts and time. See [a list of built-in functions](/cells/python-net/supported-formula-functions/) supported by Aspose.Cells for Python via .NET. The functions are listed in alphabetical order. More functions will be supported in future.
 
-Aspose.Cells supports most of the formulas or functions offered by Microsoft Excel. Developers can use these formulas through the API or [designer spreadsheet](/cells/python-net/what-is-a-designer-spreadsheet/). Aspose.Cells supports a huge set of mathematical, string, Boolean, date/time, statistical, database, lookup and reference formulas.
+Aspose.Cells for Python via .NET supports most of the formulas or functions offered by Microsoft Excel. Developers can use these formulas through the API or [designer spreadsheet](/cells/net/what-is-a-designer-spreadsheet/). Aspose.Cells for Python via .NET supports a huge set of mathematical, string, Boolean, date/time, statistical, database, lookup and reference formulas.
 
 Use the [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) class' [**formula**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/formula) property to add a formula to a cell. **Complex formulas**, for example
 
@@ -38,17 +38,17 @@ Use the [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/ce
 
 {{< /highlight >}}
 
-, are also supported in Aspose.Cells. When applying a formula to a cell, always begin the string with an equal sign (=) as you do when creating a formula in Microsoft Excel and use a comma (,) to delimit function parameters.
+, are also supported in Aspose.Cells for Python via .NET. When applying a formula to a cell, always begin the string with an equal sign (=) as you do when creating a formula in Microsoft Excel and use a comma (,) to delimit function parameters.
 
-In the example below, a complex formula is applied to the first cell of a worksheet's [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) collection. The formula uses a built-in **IF** function provided by Aspose.Cells.
+In the example below, a complex formula is applied to the first cell of a worksheet's [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) collection. The formula uses a built-in **IF** function provided by Aspose.Cells for Python via .NET.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingBuiltinfunction-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Formulas-ProcessDataUsingBuiltinfunction-1.py" >}}
 
 ## **How to Use Add-in Functions**
 
 We can have some user defined formulas that we want to include as an excel add-in. When setting the cell.Formula function built-in functions work fine however there is a need to set the custom functions or formulas using the add-in functions.
 
-Aspose.Cells provides features to register add in functions using [**worksheets.register_add_in_function()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheetcollection/register_add_in_function). Afterwards when we set cell.Formula = anyFunctionFromAddIn, the output Excel file contains the calculated value from the AddIn function.
+Aspose.Cells for Python via .NET provides features to register add in functions using [**worksheets.register_add_in_function()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheetcollection/register_add_in_function). Afterwards when we set cell.Formula = anyFunctionFromAddIn, the output Excel file contains the calculated value from the AddIn function.
 
 Following XLAM file shall be downloaded for registering the add in function in the below sample code. Similarly the output file "test_udf.xlsx" can be downloaded to check the output.
 
@@ -56,7 +56,7 @@ Following XLAM file shall be downloaded for registering the add in function in t
 
 [test_udf.xlsx](81920909.xlsx)
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-RegisterAndCallFuncFromAddIn-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Formulas-RegisterAndCallFuncFromAddIn-1.py" >}}
 
 ## **How to Use Array Formula**
 
@@ -70,13 +70,13 @@ It is possible to apply an array formula to a cell by calling the [**Cell**](htt
 - **Number of Rows**, the number of rows to populate result of the array formula.
 - **Number of Columns**, the number of columns to populate result of the array formula.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingArrayFunction-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Formulas-ProcessDataUsingArrayFunction-1.py" >}}
 
 ## **How to Use R1C1 Formula**
 
 Add an **R1C1** reference style formula to a cell with the [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) class' [**r1c1_formula**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/r1c1_formula) property.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingR1C1-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Formulas-ProcessDataUsingR1C1-1.py" >}}
 
 ## **Advance topics**
 - [Precedents and Dependents](/cells/python-net/precedents-and-dependents/)

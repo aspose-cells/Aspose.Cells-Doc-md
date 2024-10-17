@@ -10,7 +10,7 @@ keywords: formula function calculate
 
 {{% alert color="primary" %}}
 
-Aspose.Cells APIs support most of the standard functions and Excel's built-in formula. Below, you can find all the supported functions in alphabetical order.
+Aspose.Cells for Python via .NET APIs support most of the standard functions and Excel's built-in formula. Below, you can find all the supported functions in alphabetical order.
 
 | | | | | | | | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -19,7 +19,7 @@ Aspose.Cells APIs support most of the standard functions and Excel's built-in fo
 
 {{% /alert %}}
 
-Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate the results of the following formulas and functions.
+Aspose.Cells for Python via .NET' Formula Calculation Engine allows you to set, read and calculate the results of the following formulas and functions.
 
 ###### **A**
 |**Function**|**Summary**|
