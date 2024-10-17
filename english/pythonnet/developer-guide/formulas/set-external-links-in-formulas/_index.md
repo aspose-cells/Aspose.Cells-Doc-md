@@ -16,4 +16,4 @@ The sample code below shows how to include external files in formulas.
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Formulas-SetExternalLinksInFormulas-1.py" >}}
-{{< app/cells/assistant language="csharp" >}}
+

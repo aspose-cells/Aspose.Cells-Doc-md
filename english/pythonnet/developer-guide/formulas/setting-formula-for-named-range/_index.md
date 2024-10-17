@@ -27,4 +27,3 @@ Here is another example that uses a named range to sum values from 2 cells in di
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Formulas-CalculatingSumUsingNamedRangeOnDifferentSheets.py" >}}
-{{< app/cells/assistant language="csharp" >}}

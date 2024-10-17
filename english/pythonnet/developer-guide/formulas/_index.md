@@ -88,4 +88,4 @@ Add an **R1C1** reference style formula to a cell with the [**Cell**](https://re
 - [Specify Maximum Rows of Shared Formula](/cells/python-net/specify-maximum-rows-of-shared-formula/)
 - [Supported Excel Functions](/cells/python-net/supported-formula-functions/)
 
-{{< app/cells/assistant language="csharp" >}}
+
