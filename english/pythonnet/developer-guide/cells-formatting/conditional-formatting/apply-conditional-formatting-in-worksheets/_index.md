@@ -1,7 +1,7 @@
 ---
 title: Apply Conditional Formatting in Worksheets
-description: How to use Aspose.Cells library in C# to apply conditional formatting in worksheets. By adjusting these criteria, you have more control over how cells look and appear.
-keywords: Aspose.Cells, Conditional Formatting, C#, Worksheet, Formatting
+description: How to use Aspose.Cells for Python via .NET library to apply conditional formatting in worksheets. By adjusting these criteria, you have more control over how cells look and appear.
+keywords: Aspose.Cells, Conditional Formatting, Python, Worksheet, Formatting
 type: docs
 weight: 130
 url: /python-net/apply-conditional-formatting-in-worksheets/
@@ -22,17 +22,17 @@ This article shows how to create a console application, add conditional formatti
 ## **Using Aspose.Cells to Apply Conditional Formatting Based on Cell Value**
 
 1. **Download and Install Aspose.Cells**.
-   1. Download Aspose.Cells for .NET.
+   1. Download Aspose.Cells for Python via .NET.
 1. Install it on your development computer.
    All Aspose components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.
 1. **Create a project**.
-   Start Visual Studio.NET and create a new console application. This example creates a C# console application, but you can use VB.NET too.
+   Start Visual Studio.NET and create a new console application. This example creates a Python console application, but you can use VB.NET too.
 1. **Add references**.
-   Add a reference to Aspose.Cells to your project, for example add a reference to ….\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll
+   Add a reference to Aspose.Cells to your project.
 1. *Apply conditional formatting based on cell value.
    Below is the code used to accomplish the task. I applies conditional formatting on a cell.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplyConditionalFormatting-ApplyConditionalFormattingCellValue-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-ApplyConditionalFormattingCellValue-1.py" >}}
 
 When the above code is executed, conditional formatting is applied to cell “A1” in first worksheet of the output file (output.xls). The conditional formatting applied to A1 depends on the cell value. If the cell value of A1 is between 50 and 100 the background color is red due to the conditional formatting applied.
 
@@ -41,7 +41,7 @@ When the above code is executed, conditional formatting is applied to cell “A1
 1. Applying conditional formatting depending on formula (Code Snippet)
    Below is the code to accomplish the task. It applies conditional formatting on B3.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplyConditionalFormatting-ApplyConditionalFormattingFormula-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-ApplyConditionalFormattingFormula-1.py" >}}
 
 When the above code is executed, conditional formatting is applied to cell “B3” in the first worksheet of the output file (output.xls). The conditional formatting applied depends on the formula which calculates the value of “B3” as sum of B1 & B2.
-{{< app/cells/assistant language="csharp" >}}
+

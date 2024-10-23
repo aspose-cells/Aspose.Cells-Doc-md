@@ -1,7 +1,7 @@
 ---
 title: Change the format of a cell
-description: How to use Aspose.Cells library in C# to change the formatting of cells, including font, color, border, etc. By adjusting these properties, you have more control over how cells look and appear.
-keywords: Aspose.Cells, cell formatting, C#, font, color, border
+description: How to use Aspose.Cells for Python via .NET library to change the formatting of cells, including font, color, border, etc. By adjusting these properties, you have more control over how cells look and appear.
+keywords: Aspose.Cells for Python via .NET library, cell formatting, Python, font, color, border
 type: docs
 weight: 20
 url: /python-net/how-to-change-format-of-cell/
@@ -27,15 +27,15 @@ To change the format of a single cell in Excel, follow these steps:
 
 ## **How to change the format of a cell Using C#**
 
-To change the format of a cell using Aspose.Cells, you can use You can use the following methods:
-1. [Cell.SetStyle(Style style)](https://reference.aspose.com/cells/net/aspose.cells/cell/setstyle/#setstyle)
-2. [Cell.SetStyle(Style style, bool explicitFlag)](https://reference.aspose.com/cells/net/aspose.cells/cell/setstyle/#setstyle_2)
-3. [Cell.SetStyle(Style style, StyleFlag flag)](https://reference.aspose.com/cells/net/aspose.cells/cell/setstyle/#setstyle_1)
+To change the format of a cell using Aspose.Cells for Python via .NET, you can use You can use the following methods:
+1. [Cell.set_style(style)](https://reference.aspose.com/cells/python-net/aspose.cells/cell/set_style/#aspose.cells.Style)
+2. [Cell.set_style(style, explicit_flag)](https://reference.aspose.com/cells/python-net/aspose.cells/cell/set_style/#aspose.cells.Style-bool)
+3. [Cell.set_style(style, flag)](https://reference.aspose.com/cells/python-net/aspose.cells/cell/set_style/#aspose.cells.Style-aspose.cells.StyleFlag)
 
 
 ## **Sample Code**
 In this example, we create an Excel workbook, add some sample data, access the first worksheet, and get two cells("A2" and "B3"). Then, we get the style of the cell, set various formatting options (e.g., font color, bold), and change the format to the cell. Finally, we save the workbook to a new file.
 ![todo:image_alt_text](change-format.png)
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-change-format.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-Cells-change-format.py" >}}
+
