@@ -3,7 +3,7 @@ title: Excel Themes and Colors
 type: docs
 weight: 100
 url: /python-net/excel-themes-and-colors/
-description: C# code to use Excel Color Scheme with Aspose.Cells for .NET API
+description: C# code to use Excel Color Scheme with Aspose.Cells for Python via .NET API
 keywords: C# to Create and Apply Color Schemes, c# programmatically Create a Custom Color Scheme, programmatically how to Apply a Custom Color Scheme, c# how to Use Color Scheme in excel
 ---
 
@@ -34,25 +34,25 @@ You can create your own color set to give your document a fresh, unique look or 
 
 1. Click on the "Save" button to save your custom color scheme. Your custom color scheme will now be available in the "Colors" drop-down menu for future use.
 
-## **How to Create and Apply Color Scheme in Aspose.Cells**
-Aspose.Cells provides features for customizing themes and colors.
+## **How to Create and Apply Color Scheme in Aspose.Cells for Python via .NET**
+Aspose.Cells for Python via .NET provides features for customizing themes and colors.
 
-### **How to Create Custom Color Theme in Aspose.Cells**
+### **How to Create Custom Color Theme in Aspose.Cells for Python via .NET**
 If theme colors are used in the file, we don't need to modify each cell individually, we just need to modify the colors in the theme.
 
 The following example shows how to apply custom themes with your desired colors. We use a sample template file manually created in Microsoft Excel 2007.
 
 The following example loads a template XLSX file, defines colors for different theme color types, applies the custom colors and saves the excel file.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-CustomizeThemes-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-CustomizeThemes-1.py" >}}
 
-### **How to Apply Theme Colors in Aspose.Cells**
+### **How to Apply Theme Colors in Aspose.Cells for Python via .NET**
 
 The following example applies a cell’s foreground and font colors based on the default theme (of the workbook) color types. It also saves the excel file to disk.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-UtilizeThemeColors-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-UtilizeThemeColors-1.py" >}}
 
-### **How to Get and Set Theme Colors in Aspose.Cells**
+### **How to Get and Set Theme Colors in Aspose.Cells for Python via .NET**
  Below are a few methods and properties that implement theme colors.
 
 - [**Style.foreground_theme_color**](https://reference.aspose.com/cells/python-net/aspose.cells/style/foreground_theme_color): Used to set the foreground color.
@@ -65,8 +65,8 @@ The following example shows how to get and set theme colors.
 
 The following example uses a template XLSX file, gets the colors for different theme color types, changes the colors and saves the Microsoft Excel file.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-GetSetThemeColors-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-GetSetThemeColors-1.py" >}}
 
 ## **Advance topics**
 - [Extract Theme Data from Excel File](/cells/python-net/extract-theme-data-from-excel-file/)
-{{< app/cells/assistant language="csharp" >}}
+

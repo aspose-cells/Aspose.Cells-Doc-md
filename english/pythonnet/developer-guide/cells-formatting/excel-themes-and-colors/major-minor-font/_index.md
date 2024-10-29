@@ -1,7 +1,7 @@
 ---
 title: Headings And Body Theme Font
-description: Aspose.Cells is a .NET library for working with spreadsheet files. It supports setting heading and body theme fonts in Excel documents, enabling users to customize the appearance and style of the document. This article will introduce how to use the Aspose.Cells library to work with heading and body theme fonts in Excel documents.
-keywords: Aspose.Cells, Excel Document, Heading, Body, Theme Font, Appearance, Style
+description: Aspose.Cells is a Python library for working with spreadsheet files. It supports setting heading and body theme fonts in Excel documents, enabling users to customize the appearance and style of the document. This article will introduce how to use the Aspose.Cells for Python via .NET library to work with heading and body theme fonts in Excel documents.
+keywords: Aspose.Cells for Python via .NET, Excel Document, Heading, Body, Theme Font, Appearance, Style
 type: docs
 weight: 120
 url: /python-net/headings-and-body-theme-font/
@@ -31,11 +31,11 @@ If you do not want that the font is automitally changed in different regions, do
 
 
 ## **Changing Headings And Body Font Programally**
-With Aspose.Cells for .Net , we can check whether the default font is theme font or set theme font with  [**Font.scheme_type**](https://reference.aspose.com/cells/python-net/aspose.cells/font/scheme_type) property.
+With Aspose.Cells for Python via .NET , we can check whether the default font is theme font or set theme font with  [**Font.scheme_type**](https://reference.aspose.com/cells/python-net/aspose.cells/font/scheme_type) property.
 
 The following sample code shows how to manipulate theme font.
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Headings-and-body-font.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-Headings-and-body-font.py" >}}
 
 
 ## **Dynamically Gets Local Theme Font Programally**
@@ -45,5 +45,5 @@ We have to set the system regional settings before loading the file with [**Load
 
 The following sample code shows how to get local theme font.
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Local-Theme-Font.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-Local-Theme-Font.py" >}}
+

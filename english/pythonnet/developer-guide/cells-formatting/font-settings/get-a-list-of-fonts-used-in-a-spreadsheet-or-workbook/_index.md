@@ -1,7 +1,7 @@
 ---
 title: Get a List of Fonts used in a Spreadsheet or Workbook
-description: Aspose.Cells is a .NET library for working with spreadsheet files. It supports getting a list of fonts used in a spreadsheet or workbook, allowing users to get font information used in a document. This article will show you how to use the Aspose.Cells library to get a list of fonts.
-keywords: Aspose.Cells, Spreadsheet, Workbook, Font, List
+description: Aspose.Cells is a Python library for working with spreadsheet files. It supports getting a list of fonts used in a spreadsheet or workbook, allowing users to get font information used in a document. This article will show you how to use the Aspose.Cells for Python via .NET library to get a list of fonts.
+keywords: Aspose.Cells for Python via .NET, Spreadsheet, Workbook, Font, List
 type: docs
 weight: 20
 url: /python-net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/
@@ -9,11 +9,11 @@ url: /python-net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/
 
 ## **Possible Usage Scenarios**
 
-It is often necessary to know the fonts being used in your workbook for rendering purposes. When you convert your workbook into PDF or image, then Aspose.Cells requires that all the needed fonts are installed on your system or present in your **fonts directory**. If Aspose.Cells is unable to find the needed font, it tries to replace it with some other suitable font which is present on your system or in your font directory and can substitute your actual font. This not only results in the undesired rendering of PDF or images but also takes processing time for finding suitable fonts.
+It is often necessary to know the fonts being used in your workbook for rendering purposes. When you convert your workbook into PDF or image, then Aspose.Cells for Python via .NET requires that all the needed fonts are installed on your system or present in your **fonts directory**. If Aspose.Cells for Python via .NET is unable to find the needed font, it tries to replace it with some other suitable font which is present on your system or in your font directory and can substitute your actual font. This not only results in the undesired rendering of PDF or images but also takes processing time for finding suitable fonts.
 
 In order to deal with such cases, you should know what fonts are being used by your workbook, then either install those fonts on your system in case of Windows environment or place it in your fonts directory in case of windows or Linux environment.
 
-Aspose.Cells provides the [**Workbook.get_fonts**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/get_fonts) method which returns the list of all the fonts used in your workbook or spreadsheet.
+Aspose.Cells for Python via .NET provides the [**Workbook.get_fonts**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/get_fonts) method which returns the list of all the fonts used in your workbook or spreadsheet.
 
 ## **Get a List of Fonts used in a Spreadsheet or Workbook**
 
@@ -23,7 +23,7 @@ The following sample code loads the source excel file and retrieves the list of 
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Fonts-GetListOfFontsUsedInSpreadsheetOrWorkbook.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-GetListOfFontsUsedInSpreadsheetOrWorkbook.py" >}}
 
 ## **Console Output**
 
@@ -92,4 +92,4 @@ Aspose.Cells.Font [ Calibri; 20; Regular; Color [A=255, R=55, G=98, B=104] ]
 Aspose.Cells.Font [ Calibri; 11; Regular; Color [A=255, R=55, G=98, B=104] ]
 
 {{< /highlight >}}
-{{< app/cells/assistant language="csharp" >}}
+
