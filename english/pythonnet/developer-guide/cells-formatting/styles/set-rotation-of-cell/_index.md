@@ -3,13 +3,13 @@ title: How to Rotate Text of Cell
 type: docs
 weight: 80
 url: /python-net/how-to-rotate-text-of-cell/
-description: C# code to rotate text of Cell with Aspose.Cells for .NET API
-keywords: c# rotate text of Cell, c# programmatically rotate text of Cell in workbook, programmatically set cell rotation angle in workbook, c# how to rotate text of Cell in excel
+description: C# code to rotate text of Cell with Aspose.Cells for Python via .NET API
+keywords: Python rotate text of Cell, Python programmatically rotate text of Cell in workbook, programmatically set cell rotation angle in workbook, Python how to rotate text of Cell in excel
 ---
 
-## **Rotate Text of Cell in Aspose.Cells**
+## **Rotate Text of Cell in Aspose.Cells for Python via .NET**
 
-Aspose.Cells is a powerful .NET and Java component that enables developers to work with Excel spreadsheets programmatically. One of the features provided by Aspose.Cells is the ability to rotate cells, allowing you to customize the orientation of text and improve the visual presentation of your data. In this document, we will explore how to rotate cells using Aspose.Cells.
+Aspose.Cells for Python via .NET is a powerful .NET and Java component that enables developers to work with Excel spreadsheets programmatically. One of the features provided by Aspose.Cells for Python via .NET is the ability to rotate cells, allowing you to customize the orientation of text and improve the visual presentation of your data. In this document, we will explore how to rotate cells using Aspose.Cells for Python via .NET.
 
 ## **How to Rotate Text of Cell in Excel**
 To rotate a cell in Excel, you can use the following steps:
@@ -21,12 +21,12 @@ To rotate a cell in Excel, you can use the following steps:
 ![todo:image_alt_text](alignment.png)
 1. Once you have selected the desired rotation, click "OK" to apply the changes. The selected cell(s) will now be rotated based on your chosen rotation angle or orientation.
 
-## **How to Rotate Text of Cell using Aspose.Cells API**
+## **How to Rotate Text of Cell using Aspose.Cells for Python via .NET API**
 
-[**Style.rotation_angle**](https://reference.aspose.com/cells/python-net/aspose.cells/style/rotation_angle) property makes it convenient to rotate cells. To rotate cells in Aspose.Cells, you need to follow these steps:
+[**Style.rotation_angle**](https://reference.aspose.com/cells/python-net/aspose.cells/style/rotation_angle) property makes it convenient to rotate cells. To rotate cells in Aspose.Cells for Python via .NET, you need to follow these steps:
 1. Load the Excel Workbook
 <br>
-First, you need to load the Excel workbook using Aspose.Cells. You can use the Workbook class to open an existing Excel file or create a new one. 
+First, you need to load the Excel workbook using Aspose.Cells for Python via .NET. You can use the Workbook class to open an existing Excel file or create a new one. 
 
 1. Access the Worksheet
 <br>
@@ -40,7 +40,7 @@ Now that you have access to the worksheet, you can rotate the cells by modifying
 <br>
 After rotating the cells, you can save the modified workbook back to a file or stream using the Save method.
 
-## **C# Sample Code**
+## **Python Sample Code**
 
 Please see the following code, it creates a workbook object and set different rotation angles for several cells. The screenshot shows the result after the execution of the sample code.
 <br>
@@ -48,5 +48,5 @@ Please see the following code, it creates a workbook object and set different ro
 
 
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-rotate-text.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-Cells-rotate-text.py" >}}
+

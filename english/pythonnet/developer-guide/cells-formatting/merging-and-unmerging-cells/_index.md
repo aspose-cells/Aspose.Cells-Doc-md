@@ -1,7 +1,7 @@
 ---
 title: Merging and Unmerging Cells
-description: Aspose.Cells is a .NET library for working with spreadsheet files, which supports merging and unmerging cells. This article will introduce how to merge and unmerge cells using the Aspose.Cells library, and how to customize the merged cell style.
-keywords: Aspose.Cells, NET library, spreadsheet, merge cells, unmerge cells, style settings, custom styles
+description: Aspose.Cells is a Python library for working with spreadsheet files, which supports merging and unmerging cells. This article will introduce how to merge and unmerge cells using the Aspose.Cells for Python via .NET library, and how to customize the merged cell style.
+keywords: Aspose.Cells for Python via .NET, NET library, spreadsheet, merge cells, unmerge cells, style settings, custom styles
 type: docs
 weight: 190
 url: /python-net/merging-and-unmerging-cells/
@@ -9,7 +9,7 @@ url: /python-net/merging-and-unmerging-cells/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells supports this feature and can also merge cells in a worksheet. You may unmerge, or split, the merged cells too. A merged cell's cell reference is the reference for the top left cell in the original selected range.
+Aspose.Cells for Python via .NET supports this feature and can also merge cells in a worksheet. You may unmerge, or split, the merged cells too. A merged cell's cell reference is the reference for the top left cell in the original selected range.
 
 {{% /alert %}} 
 ## **Introduction**
@@ -28,31 +28,31 @@ The following steps describe how to merge cells in the worksheet using MS Excel.
 1. Copy the data you want into the upper-leftmost cell within the range.
 1. Select the cells you want to merge.
 1. To merge cells in a row or column and center the cell contents, click **Merge and Center** icon on the **Formatting** toolbar.
-### **Merging Cells with Aspose.Cells**
+
+### **Merging Cells with Aspose.Cells for Python via .NET**
 The Aspose.Cells.Cells Class has some useful methods for the task. For example, the method Merge() merges the cells into a single cell within a specified range.
 
 The following example shows how to merge cells (C6:E7) in a worksheet.
 
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-MergingCellsInWorksheet.-1.py" >}}
 
-
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Merging-MergingCellsInWorksheet.-1.cs" >}}
 ## **Unmerging (Splitting) Merged Cells**
 ### **Using Microsoft Excel**
 The following steps describe how to split merged cells using Microsoft Excel.
 
-1. Select the merged cell.
-   When cells have been combined, **Merge and Center** is selected on the **Formatting** toolbar.
+1. Select the merged cell. When cells have been combined, **Merge and Center** is selected on the **Formatting** toolbar.
 1. Click **Merge and Center** on the **Formatting** toolbar.
-### **Using Aspose.Cells**
+
+### **Using Aspose.Cells for Python via .NET**
 The class Aspose.Cells.Cells has a method named UnMerge() that splits the cells into their original state. The method unmerges the cells using the cell's reference in the merged cell range.
 
 The following example shows how to split the merged cells (C6). The example uses the file created in the previous example and splits the merged cells.
 
 
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Merging-UnMergingtheMergedCells-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-UnMergingtheMergedCells-1.py" >}}
 
 
 ## **Advance topics**
 - [Detect Merged Cells in a Worksheet](/cells/python-net/detect-merged-cells-in-a-worksheet/)
-{{< app/cells/assistant language="csharp" >}}
+

@@ -1,7 +1,7 @@
 ---
 title: Get and Set Style for cells
-description: Discover how to perform data formatting and styling in Aspose.Cells for .NET, including text formatting, number formatting, date formatting, and other styling options. Our guide will help you create professional-looking spreadsheets with attractive formatting.
-keywords: Aspose.Cells for .NET, data formatting, styling, text formatting, number formatting, date formatting, styling options, spreadsheets, attractive formatting, professional-looking.
+description: Discover how to perform data formatting and styling in Aspose.Cells for Python via .NET, including text formatting, number formatting, date formatting, and other styling options. Our guide will help you create professional-looking spreadsheets with attractive formatting.
+keywords: Aspose.Cells for Python via .NET, data formatting, styling, text formatting, number formatting, date formatting, styling options, spreadsheets, attractive formatting, professional-looking.
 linktitle: Styles
 type: docs
 weight: 50
@@ -10,25 +10,25 @@ url: /python-net/styling-and-data-formatting/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells for .NET 4.4.2 introduced two new methods for formatting cells: Cell.GetStyle and Cell.SetStyle. This article examines the Cell.GetStyle/SetStyle approach to help you judge which technique best suits you.
+Aspose.Cells for Python via .NET introduced two new methods for formatting cells: Cell.GetStyle and Cell.SetStyle. This article examines the Cell.GetStyle/SetStyle approach to help you judge which technique best suits you.
 
 {{% /alert %}} 
+
 ## **Formatting Cells**
 There are two ways to format a cell, illustrated below.
+
 ### **Using GetStyle()**
 With following piece of code, a Style object is initiated for each cell when formatting it. If ta lot of cells are being formatted, a large amount of memory is consumed because the Style object is a large object. These Style objects won't be freed until the Workbook.Save method is called.
 
 
+**Python**
 
-**C#**
+{{< highlight python >}}
 
-{{< highlight csharp >}}
-
-cell.GetStyle().Font.IsBold = true;
-
-
+cell.get_style().font.is_bold = True
 
 {{< /highlight >}}
+
 ### **Using SetStyle()**
 The first approach is easy and straight-forward so why did we add the second approach?
 
@@ -38,15 +38,14 @@ When calling the Cell.SetStyle method, the Style object isn't saved for each cel
 
 
 
-**C#**
+**Python**
 
-{{< highlight csharp >}}
+{{< highlight python >}}
 
-Style style = cell.GetStyle();
+style = cell.get_style()
+style.font.is_bold = True
+cell.set_style(style)
 
-style.Font.IsBold = true;
-
-cell.SetStyle(style);
 {{< /highlight >}}
 
 ## **Advance topics**
@@ -56,4 +55,3 @@ cell.SetStyle(style);
 - [Using Built-in Styles](/cells/python-net/using-built-in-styles/)
 
 
-{{< app/cells/assistant language="csharp" >}}

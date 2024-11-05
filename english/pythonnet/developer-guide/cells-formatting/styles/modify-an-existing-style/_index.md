@@ -1,6 +1,6 @@
 ---
 title: Modify an Existing Style
-description: Aspose.Cells is a .NET library for working with spreadsheet files that allows users to modify existing cell styles. This article will introduce how to modify an existing cell style with the Aspose.Cells library so that users can change the appearance of the cells as they need.
+description: Aspose.Cells is a Python library for working with spreadsheet files that allows users to modify existing cell styles. This article will introduce how to modify an existing cell style with the Aspose.Cells for Python via .NET library so that users can change the appearance of the cells as they need.
 keywords: Modify existing styles, customize the look and feel of your application, guides, tutorials, help documentation, development documentation, API references, sample code, downloads, support.
 type: docs
 weight: 90
@@ -15,7 +15,7 @@ You can also use an existing style, save it with the workbook and use to format 
 
 When cells aren't explicitly formatted, the **Normal** style (the workbook's default style) is applied. Microsoft Excel predefines several styles in addition to the Normal style including Comma, Currency, and Percent.
 
-Aspose.Cells allows modifying any of these styles or any other style that you define with your desired attributes.
+Aspose.Cells for Python via .NET allows modifying any of these styles or any other style that you define with your desired attributes.
 
 {{% /alert %}}
 
@@ -31,7 +31,7 @@ To update a style in Microsoft Excel 97-2003:
 1. Under **Style includes**, specify the style features you want.
 1. Click **OK** to save the style and apply it to the selected range.
 
-## **Using Aspose.Cells**
+## **Using Aspose.Cells for Python via .NET**
 
 The following examples demonstrate how to use [**Style.update**](https://reference.aspose.com/cells/python-net/aspose.cells/style/update) method.
 
@@ -39,7 +39,7 @@ The following examples demonstrate how to use [**Style.update**](https://referen
 
 This example creates a [**Style**](https://reference.aspose.com/cells/python-net/aspose.cells/style) object, applies it to a range of cells and modifies the [**Style**](https://reference.aspose.com/cells/python-net/aspose.cells/style) object. The modifications are automatically applied to the cell and the range the style was applied to.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ModifyExistingStyle-ModifyThroughStyleObject-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-ModifyThroughStyleObject-1.py" >}}
 
 ### **Modifying an Existing Style**
 
@@ -51,5 +51,5 @@ This example uses a simple template Excel file in which a style called Percent h
 
 The modifications are automatically applied to the range the style was applied to.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ModifyExistingStyle-ModifyThroughSampleExcelFile-1.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-ModifyThroughSampleExcelFile-1.py" >}}
+
