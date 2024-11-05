@@ -36,6 +36,7 @@ xs = x_spreadsheet(id, options)
 	    showCheckSyntaxButton: whether to show syntax checking & spell correction button in toolbar,it is optional,the default value is false
 	    checkSyntax:   whether to perform syntax checking & spell correction for user input for text content,work with setSyntaxCheckUrl,it is optional,the default value is false
 	    showFormulaExplain: whether to show formula explanation ,work with setFormulaExplainUrl,it is optional,the default value is false
+	    showNonEditableSymbolInCell: whether to show the client side none editable symbol in cell,the default value is false,if set to true,after click right context menu "Disable editing",the selected area which disable edit will show the symbol
 	    showFileName:  whether to show the filename 
 	    local:         set the localization info for menus &toolbars ,support multiple language,the value can be:
 	                        en, zh, es, pt, de, ru, nl, 
