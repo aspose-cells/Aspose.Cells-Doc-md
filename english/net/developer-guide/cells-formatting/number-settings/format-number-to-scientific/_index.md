@@ -84,63 +84,28 @@ Install-Package Aspose.Cells
 
 ### Step 2: Create a New Workbook or Open an Existing One
 
-You can either create a new workbook or open an existing one. Here's how to create a new workbook:
+You can either create a new workbook or open an existing one. 
 
-```csharp
-var workbook = new Aspose.Cells.Workbook();
-```
-
-To open an existing workbook, use:
-
-```csharp
-var workbook = new Aspose.Cells.Workbook("path_to_your_file.xlsx");
-```
 
 ### Step 3: Access the Desired Worksheet
 
-If you're working with a new workbook, you can access the default worksheet like this:
-
-```csharp
-var worksheet = workbook.Worksheets[0];
-```
-
-If you're working with an existing workbook or want to access a different worksheet, you can do so by name or index:
-
-```csharp
-var worksheet = workbook.Worksheets["Sheet1"]; // By name
-// or
-var worksheet = workbook.Worksheets[0]; // By index
-```
+You need to access the worksheet where you want to format numbers to scientific. If you're working with a new workbook, you'll likely be working with the first worksheet.
 
 ### Step 4: Format the Cell to Scientific Notation
 
-To format a cell to display its number in scientific notation, you'll need to set its custom format. Here's how to do it:
-
-```csharp
-// Access the cell you want to format, for example, cell "A1"
-var cell = worksheet.Cells["A1"];
-
-// Set the value of the cell
-cell.PutValue(12345.6789, true); // The second parameter ensures the value is set as a number
-
-// Set the custom format of the cell to scientific notation
-cell.Style.Custom = "0.00E+00";
-
-// Optionally, if you're working with an existing style and want to apply it to other cells, remember to update the style:
-// workbook.CreateStyle() or worksheet.Cells.Rows[rowIndex].Style for existing styles
-// Apply the style using cell.SetStyle(styleObject, flag);
-```
+To format a cell to display its number in scientific notation, you'll need to set its custom format.
 
 ### Step 5: Save the Workbook
 
-After formatting the cells as needed, don't forget to save your workbook:
+After formatting the cells as needed, don't forget to save your workbook. This will save your workbook with the cells formatted in scientific notation as specified.
 
-```csharp
-workbook.Save("path_to_your_output_file.xlsx");
-```
+### Sample Code
 
-This will save your workbook with the cells formatted in scientific notation as specified.
+Here's a code snippet demonstrating these steps:
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-FormatNumberToScientific.cs" >}}
 
 ### Conclusion
 
 By following these steps, you can format numbers to scientific notation in Aspose.Cells for .NET. Remember, you can customize the format string (`"0.00E+00"`) as needed to adjust the number of decimal places or other aspects of the scientific notation display.
+
+{{< app/cells/assistant language="csharp" >}}

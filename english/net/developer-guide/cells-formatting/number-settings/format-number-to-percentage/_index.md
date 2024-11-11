@@ -77,68 +77,28 @@ Install-Package Aspose.Cells
 
 ### Step 2: Create a New Workbook or Open an Existing One
 
-You can either create a new workbook or open an existing one. Here's how to create a new workbook:
+You can either create a new workbook or open an existing one. 
 
-```csharp
-// Create a new workbook
-var workbook = new Aspose.Cells.Workbook();
-```
-
-To open an existing workbook:
-
-```csharp
-// Open an existing workbook
-var workbook = new Aspose.Cells.Workbook("path/to/your/excel/file.xlsx");
-```
 
 ### Step 3: Access the Worksheet
 
-You need to access the worksheet where you want to format numbers to percentages. If you're working with a new workbook, you'll likely be working with the first worksheet:
-
-```csharp
-// Access the first worksheet
-var worksheet = workbook.Worksheets[0];
-```
+You need to access the worksheet where you want to format numbers to percentages. If you're working with a new workbook, you'll likely be working with the first worksheet.
 
 ### Step 4: Apply Percentage Formatting
 
-To format a cell or a range of cells to display numbers as percentages, you'll need to set the cell's or range's style number format to a percentage format. Here's how to format a single cell:
-
-```csharp
-// Access a specific cell, for example, cell "A1"
-var cell = worksheet.Cells["A1"];
-
-// Set the cell value
-cell.PutValue(0.25, true); // The second parameter 'true' converts it to a percentage
-
-// Get the cell's style
-var style = cell.GetStyle();
-
-// Set the number format to percentage
-style.Number = 9; // Number 9 corresponds to the percentage format
-
-// Apply the style to the cell
-cell.SetStyle(style);
-```
-
-For a range of cells, you would loop through the range and apply the style to each cell individually.
+To format a cell or a range of cells to display numbers as percentages, you'll need to set the cell's or range's style number format to a percentage format. For a range of cells, you would loop through the range and apply the style to each cell individually.
 
 ### Step 5: Save the Workbook
 
-Finally, save the workbook to a file or stream:
+Finally, save the workbook to a file or stream.
 
-```csharp
-// Save the workbook to a file
-workbook.Save("path/to/your/updated_excel_file.xlsx");
-```
+### Sample Code
 
-Or, if you want to save it in a specific format:
-
-```csharp
-// Save the workbook to a file in a specific format, e.g., XLSX
-workbook.Save("path/to/your/updated_excel_file.xlsx", Aspose.Cells.SaveFormat.Xlsx);
-```
+Here's a code snippet demonstrating these steps:
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-FormatNumberToPercentage.cs" >}}
 
 ### Conclusion
 
 By following these steps, you can easily format numbers to percentages in Aspose.Cells for .NET. Aspose.Cells offers a wide range of features for manipulating Excel files, including formatting cells, working with formulas, and much more, making it a powerful tool for .NET developers working with Excel data.
+
+{{< app/cells/assistant language="csharp" >}}

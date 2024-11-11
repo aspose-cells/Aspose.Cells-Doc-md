@@ -84,60 +84,26 @@ Install-Package Aspose.Cells
 
 ### Step 2: Create a New Workbook or Open an Existing One
 
-You can either create a new workbook or open an existing one. Here's how you can create a new workbook:
+You can either create a new workbook or open an existing one.
 
-```csharp
-// Create a new workbook
-var workbook = new Aspose.Cells.Workbook();
-```
-
-Or open an existing workbook:
-
-```csharp
-// Open an existing workbook
-var workbook = new Aspose.Cells.Workbook("path/to/your/excel/file.xlsx");
-```
 
 ### Step 3: Access the Worksheet
 
-You need to access the worksheet where you want to format numbers as fractions. If you're working with a new workbook, you'll likely be working with the first worksheet:
-
-```csharp
-// Get the first worksheet
-var worksheet = workbook.Worksheets[0];
-```
+You need to access the worksheet where you want to format numbers as fractions. If you're working with a new workbook, you'll likely be working with the first worksheet.
 
 ### Step 4: Apply Fractional Number Format
 
 To format a cell as a fraction, you need to set its `Style.Number` property to a specific number format code. Aspose.Cells supports various fraction formats, such as "1/2", "1/4", "2/4", etc.
 
-Here's how you can format a cell to display numbers as fractions:
-
-```csharp
-// Access the cell you want to format
-var cell = worksheet.Cells["A1"];
-
-// Set the cell value
-cell.PutValue(0.5, true); // The second parameter ensures the value is set as a numeric value
-
-// Get the style of the cell
-var style = cell.GetStyle();
-
-// Set the number format to fraction (e.g., "# ?/?")
-style.Custom = "# ?/?";
-
-// Apply the style to the cell
-cell.SetStyle(style);
-```
-
 ### Step 5: Save the Workbook
 
 After applying the fractional format, save the workbook to a file:
 
-```csharp
-// Save the workbook
-workbook.Save("path/to/your/output/file.xlsx");
-```
+### Sample Code
+
+Here's a code snippet demonstrating these steps:
+
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-FormatNumberToFraction.cs" >}}
 
 ### Additional Notes
 
@@ -145,3 +111,5 @@ workbook.Save("path/to/your/output/file.xlsx");
 - Aspose.Cells supports a wide range of number formats, including decimal, percentage, currency, and more. You can customize the format to meet your specific requirements.
 
 By following these steps, you can easily format numbers as fractions in Aspose.Cells for .NET. This can be particularly useful for financial, statistical, or educational applications where precise fractional values are necessary.
+
+{{< app/cells/assistant language="csharp" >}}

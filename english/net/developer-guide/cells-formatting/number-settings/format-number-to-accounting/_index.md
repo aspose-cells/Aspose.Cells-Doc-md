@@ -77,36 +77,12 @@ Here's a basic example of how to apply an accounting number format to a cell in 
 
 4. **Apply Accounting Format**: Set the number format of the cell's style to an accounting format.
 
-Here's a code snippet demonstrating these steps:
+4. **Sample Code**: Here's a code snippet demonstrating these steps.
 
-```csharp
-// Create a new Workbook or load an existing one
-var workbook = new Aspose.Cells.Workbook();
-
-// Access the first worksheet in the workbook
-var worksheet = workbook.Worksheets[0];
-
-// Access a specific cell, for example, cell A1
-var cell = worksheet.Cells["A1"];
-
-// Put some numeric value in the cell
-cell.PutValue(1234.56);
-
-// Get the style of the cell
-var style = cell.GetStyle();
-
-// Set the number format to accounting. 
-// The format code "_(\$* #,##0.00_);_(\$* (#,##0.00);_(\$* \"-\"??_);_(@_)" is an example for US currency.
-// You might need to adjust the format code according to your specific requirements and locale.
-style.Custom = "_(\$* #,##0.00_);_(\$* (#,##0.00);_(\$* \"-\"??_);_(@_)";
-
-// Apply the style to the cell
-cell.SetStyle(style);
-
-// Save the workbook
-workbook.Save("FormattedWorkbook.xlsx");
-```
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-FormatNumberToAccounting.cs" >}}
 
 This example demonstrates how to format a single cell to display numbers in an accounting format with US dollars. The format string can be adjusted to meet different currency symbols or accounting formats as needed. The key part is the `style.Custom` property, where you specify the custom number format code for accounting.
 
 Remember, the exact format string might need to be adjusted based on your locale and the specific accounting format requirements you have (e.g., using a different currency symbol, showing more or fewer decimal places, etc.).
+
+{{< app/cells/assistant language="csharp" >}}

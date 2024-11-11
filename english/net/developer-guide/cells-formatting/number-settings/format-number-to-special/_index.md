@@ -83,45 +83,16 @@ Install-Package Aspose.Cells
 ```
 
 ### Step 2: Create a Workbook and Access a Worksheet
-
-```csharp
-// Create a new workbook
-var workbook = new Aspose.Cells.Workbook();
-
-// Access the first worksheet (worksheets are 0-indexed)
-var worksheet = workbook.Worksheets[0];
-```
+You can either create a new workbook or open an existing one. 
 
 ### Step 3: Access or Add Data to a Cell
-
-```csharp
-// Access the cell at the first row and first column (A1)
-var cell = worksheet.Cells["A1"];
-
-// Set the value of the cell
-cell.PutValue(1234567890); // Example value
-```
+You need to access the worksheet where you want to format numbers to special. If you're working with a new workbook, you'll likely be working with the first worksheet.
 
 ### Step 4: Format the Number to a Special Format
-
-```csharp
-// Get the style of the cell
-var style = cell.GetStyle();
-
-// Set the custom number format
-// For example, format as a phone number
-style.Custom = "(###) ###-####";
-
-// Apply the style to the cell
-cell.SetStyle(style);
-```
+To format a cell to display its number in special notation, you'll need to set its custom format.
 
 ### Step 5: Save the Workbook
-
-```csharp
-// Save the workbook to a file
-workbook.Save("FormattedNumbers.xlsx");
-```
+After formatting the cells as needed, don't forget to save your workbook. This will save your workbook with the cells formatted in scientific notation as specified.
 
 ### Custom Number Formats
 
@@ -134,6 +105,13 @@ The `style.Custom` property allows you to define custom number formats. Here are
 
 You can create virtually any number format by specifying the format string according to your needs.
 
+### Sample Code
+
+Here's a code snippet demonstrating these steps:
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-FormatNumberToSpecial.cs" >}}
+
 ### Conclusion
 
 Formatting numbers to special formats in Aspose.Cells for .NET involves setting the custom number format of a cell's style. This allows for a wide range of formatting options, enabling you to display data exactly how you need it. Remember, the key to custom formats is the format string you provide, which dictates how the number will be displayed.
+
+{{< app/cells/assistant language="csharp" >}}

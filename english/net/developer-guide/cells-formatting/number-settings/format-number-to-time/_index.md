@@ -84,59 +84,19 @@ Install-Package Aspose.Cells
 
 ### Step 2: Create a New Workbook or Open an Existing One
 
-You can either create a new workbook or open an existing one. Here's how to create a new workbook:
-
-```csharp
-// Create a new workbook
-var workbook = new Aspose.Cells.Workbook();
-```
-
-To open an existing workbook:
-
-```csharp
-// Open an existing workbook
-var workbook = new Aspose.Cells.Workbook("path/to/your/excel/file.xlsx");
-```
+You can either create a new workbook or open an existing one.
 
 ### Step 3: Access the Worksheet
 
-You need to access the worksheet where you want to format numbers to time. If you're working with a new workbook, you'll likely be working with the first sheet:
-
-```csharp
-// Get the first worksheet
-var worksheet = workbook.Worksheets[0];
-```
+You need to access the worksheet where you want to format numbers to time. If you're working with a new workbook, you'll likely be working with the first sheet.
 
 ### Step 4: Apply Time Format to a Cell
 
-To format a number as time, you'll use the `Style` object associated with a cell. You can specify the time format using custom number format strings. Here's an example of formatting a cell to display time in the format of hours and minutes:
-
-```csharp
-// Access the cell you want to format (e.g., "A1")
-var cell = worksheet.Cells["A1"];
-
-// Put a numeric value representing time in the cell
-// For example, 0.5 represents 12 hours (half a day)
-cell.PutValue(0.5, true);
-
-// Get the style of the cell
-var style = cell.GetStyle();
-
-// Set the custom number format for time (HH:MM)
-style.Custom = "HH:MM";
-
-// Apply the style to the cell
-cell.SetStyle(style);
-```
+To format a number as time, you'll use the `Style` object associated with a cell. You can specify the time format using custom number format strings. Here's an example of formatting a cell to display time in the format of hours and minutes.
 
 ### Step 5: Save the Workbook
 
-After applying the desired formats, don't forget to save your workbook:
-
-```csharp
-// Save the workbook
-workbook.Save("path/to/your/updated_excel_file.xlsx");
-```
+After applying the desired formats, don't forget to save your workbook.
 
 ### Custom Time Formats
 
@@ -146,6 +106,13 @@ You can use different custom formats depending on your needs. Here are a few exa
 - `"HH:MM:SS"`: Hours, minutes, and seconds
 - `"HH:MM AM/PM"`: Hours and minutes with AM or PM
 
+### Sample Code
+
+Here's a code snippet demonstrating these steps:
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-FormatNumberToTime.cs" >}}
+
 ### Conclusion
 
 Formatting numbers to time in Aspose.Cells for .NET involves setting a custom number format for the cells where you want to display time. By following the steps outlined above, you can easily apply time formats to cells in your Excel files using Aspose.Cells. Remember, the key is to use the correct custom format string that matches your desired time format.
+
+{{< app/cells/assistant language="csharp" >}}
