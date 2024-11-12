@@ -8,6 +8,20 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 24.11
+* Support xlsx to pcl conversion
+* Support to get source of external source for PivotTable
+* Support to get table relationships in excel sheet
+* Support to get formatted string of cells in multi-threads
+* Support "PlaceInCell" picture for MemoryPreference mode and formula calculation
+* Support importing/exporting rich values such as errors, entities
+* Support adding SignatureLine just like in Excel
+* Improvement for generated SVG to make it behavior in the same way for different frameworks
+* Enhancement for adding free form shapes
+* Support to set number format type for different data types such as date, time, currency... for GridJs
+* Support to render borders for row/column's style for GridJs
+* Enhancement for rendering and editing of GridJs
+
 ## Aspose.Cells for .NET 24.10
 * Support to get source of pivot table from corresponding external connection
 * Support to create compact pivot tables
