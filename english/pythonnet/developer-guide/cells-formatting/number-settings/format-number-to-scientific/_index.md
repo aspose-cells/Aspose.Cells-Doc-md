@@ -3,7 +3,7 @@ title: How to Format Number to Scientific
 type: docs
 weight: 10
 url: /python-net/how-to-format-number-to-scientific/
-description: This article will introduce how to Format Number to Scientificusing Aspose.Cells for .NET API.
+description: This article will introduce how to Format Number to Scientificusing Aspose.Cells for Python via .NET API.
 keywords: Convert a numeral to its scientific notation representation, Transform a figure into the format of scientific notation, Change a number to be expressed in the form of scientific notation, Format a numeric value into its equivalent scientific notation, Adapt a quantity to be displayed in scientific notation format, Format Number to Scientific
 ---
 
@@ -69,17 +69,17 @@ For an even faster method, you can use a keyboard shortcut:
 
 Formatting numbers to scientific notation in Excel is straightforward and can be done quickly through the Format Cells dialog. This feature is particularly useful for working with datasets that contain very large or very small numbers, making them easier to read and interpret.
 
-## **How to Format Number to Scientific in Aspose.Cells for .NET**
-To format numbers to scientific notation in Aspose.Cells for .NET, you can use the `Style.Custom` property of a cell. Aspose.Cells allows you to define custom formatting for the data in your worksheets, including scientific notation.
+## **How to Format Number to Scientific in Aspose.Cells for Python via .NET**
+To format numbers to scientific notation in Aspose.Cells for Python via .NET, you can use the `Style.Custom` property of a cell. Aspose.Cells allows you to define custom formatting for the data in your worksheets, including scientific notation.
 
 Here's a step-by-step guide on how to do it:
 
 ### Step 1: Install Aspose.Cells
 
-First, ensure you have Aspose.Cells for .NET installed in your project. If you haven't installed it yet, you can get it via NuGet Package Manager. Run the following command in the Package Manager Console:
+First, ensure you have Aspose.Cells for Python via .NET installed in your project. You can easily use Aspose.Cells for Python via .NET from pypi with the following command.
 
-```
-Install-Package Aspose.Cells
+```powershell
+$ pip install aspose-cells-python
 ```
 
 ### Step 2: Create a New Workbook or Open an Existing One
@@ -102,10 +102,9 @@ After formatting the cells as needed, don't forget to save your workbook. This w
 ### Sample Code
 
 Here's a code snippet demonstrating these steps:
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-FormatNumberToScientific.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-FormatNumberToScientific.py" >}}
 
 ### Conclusion
 
-By following these steps, you can format numbers to scientific notation in Aspose.Cells for .NET. Remember, you can customize the format string (`"0.00E+00"`) as needed to adjust the number of decimal places or other aspects of the scientific notation display.
+By following these steps, you can format numbers to scientific notation in Aspose.Cells for Python via .NET. Remember, you can customize the format string (`"0.00E+00"`) as needed to adjust the number of decimal places or other aspects of the scientific notation display.
 
-{{< app/cells/assistant language="csharp" >}}

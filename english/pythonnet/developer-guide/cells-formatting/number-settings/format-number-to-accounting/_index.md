@@ -3,7 +3,7 @@ title: How to Format Number to Accounting
 type: docs
 weight: 10
 url: /python-net/how-to-format-number-to-accounting/
-description: This article will introduce how to Format Number to Accountingusing Aspose.Cells for .NET API.
+description: This article will introduce how to Format Number to Accountingusing Aspose.Cells for Python via .NET API.
 keywords: Convert numerical values into an accounting format, Apply accounting formatting to numeric data, Transform numbers into an accounting representation, Format figures according to accounting standards, Adjust numerical entries to follow accounting format conventions, Format Number to Accounting
 ---
 
@@ -64,12 +64,12 @@ While the accounting format is designed for financial statements and aligns the 
 
 Formatting numbers as accounting in Excel helps present financial data more clearly and professionally. Whether you're preparing financial statements or managing budgets, using the accounting format can make your data easier to read and understand.
 
-## **How to Format Number to Accounting in Aspose.Cells for .NET**
-To format numbers to accounting format in Aspose.Cells for .NET, you can use the `Style` object associated with a cell or range of cells. The `Style` object allows you to set various formatting options, including number formats. The accounting format typically has a format code that can vary depending on the specific requirements (like whether to show currency symbols, decimal places, etc.).
+## **How to Format Number to Accounting in Aspose.Cells for Python via .NET**
+To format numbers to accounting format in Aspose.Cells for Python via .NET, you can use the `Style` object associated with a cell or range of cells. The `Style` object allows you to set various formatting options, including number formats. The accounting format typically has a format code that can vary depending on the specific requirements (like whether to show currency symbols, decimal places, etc.).
 
-Here's a basic example of how to apply an accounting number format to a cell in Aspose.Cells for .NET:
+Here's a basic example of how to apply an accounting number format to a cell in Aspose.Cells for Python via .NET:
 
-1. **Reference Aspose.Cells**: Make sure you have Aspose.Cells for .NET referenced in your project. You can obtain it from NuGet or the Aspose website.
+1. **Reference Aspose.Cells**: Make sure you have Aspose.Cells for Python via .NET referenced in your project.
 
 2. **Create or Open a Workbook**: You start by creating a new workbook or opening an existing one.
 
@@ -79,10 +79,10 @@ Here's a basic example of how to apply an accounting number format to a cell in 
 
 4. **Sample Code**: Here's a code snippet demonstrating these steps.
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-FormatNumberToAccounting.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-FormatNumberToAccounting.py" >}}
 
 This example demonstrates how to format a single cell to display numbers in an accounting format with US dollars. The format string can be adjusted to meet different currency symbols or accounting formats as needed. The key part is the `style.Custom` property, where you specify the custom number format code for accounting.
 
 Remember, the exact format string might need to be adjusted based on your locale and the specific accounting format requirements you have (e.g., using a different currency symbol, showing more or fewer decimal places, etc.).
 
-{{< app/cells/assistant language="csharp" >}}
+

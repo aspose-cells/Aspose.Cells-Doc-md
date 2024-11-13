@@ -3,7 +3,7 @@ title: Specify Custom Number Decimal and Group Separators for Workbook
 type: docs
 weight: 110
 url: /python-net/specify-custom-number-decimal-and-group-separators-for-workbook/
-description: Change Number decimal and group separator in MS Excel and with C# code by using the Aspose.Cells for .NET API.
+description: Change Number decimal and group separator in MS Excel and with C# code by using the Aspose.Cells for Python via .NET API.
 keywords: specify custom decimal separator excel, specify custom decimal separator excel c#, specify custom group separator excel, specify custom group separator excel c#, specify custom decimal and group separator excel, specify custom decimal and group separator excel c#, change decimal and group separator excel c#, change decimal and group separator excel, change decimal separator excel, change decimal separator excel c#, change group separator excel, change group separator excel c#
 ---
 
@@ -11,7 +11,7 @@ keywords: specify custom decimal separator excel, specify custom decimal separat
 
 In Microsoft Excel, you can specify the Custom Decimal and Thousands Separators instead of using System Separators from the **Advanced Excel Options** as shown in the screenshot below.
 
-Aspose.Cells provides the [**WorkbookSettings.NumberDecimalSeparator**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/numberdecimalseparator) and [**WorkbookSettings.NumberGroupSeparator**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/numbergroupseparator) properties to set the custom separators for formatting/parsing numbers.
+Aspose.Cells for Pytho via .NET provides the [**WorkbookSettings.number_decimal_separator**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/number_decimal_separator/) and [**WorkbookSettings.number_group_separator**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/number_group_separator/) properties to set the custom separators for formatting/parsing numbers.
 
 {{% /alert %}}
 
@@ -21,11 +21,11 @@ The following screenshot shows the **Advanced Excel Options** and highlights the
 
 ![todo:image_alt_text](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
 
-## **Specifying Custom Separators using Aspose.Cells**
+## **Specifying Custom Separators using Aspose.Cells for Python via .NET**
 
-The following sample code illustrates how to specify the Custom Separators using Aspose.Cells API. It specifies the Custom Number Decimal and Group Separators as dot and space respectively.
+The following sample code illustrates how to specify the Custom Separators using Aspose.Cells for Python via .NET API. It specifies the Custom Number Decimal and Group Separators as dot and space respectively.
 
 ### C# code to specify custom Number Decimal and Group Separators
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-CustomDecimalAndGroupSeparator-CustomDecimalAndGroupSeparator.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-CustomDecimalAndGroupSeparator.py" >}}
+

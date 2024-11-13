@@ -1,14 +1,14 @@
 ---
 title: List of Supported Number Formats
-description: Aspose.Cells is a .NET library for processing spreadsheet files, which supports a range of number formats. This article provides a list of supported number formats so that users can select the appropriate format according to their needs.
-keywords: Aspose.Cells, .NET library, spreadsheet, number format, list, supported
+description: Aspose.Cells is a Python library for processing spreadsheet files, which supports a range of number formats. This article provides a list of supported number formats so that users can select the appropriate format according to their needs.
+keywords: Aspose.Cells, Python Excel library, spreadsheet, number format, list, supported
 type: docs
 weight: 30
 url: /python-net/list-of-supported-number-formats/
 ---
 
-## **Aspose.Cells**
-Aspose.Cells component offers some built-in number formats to configure the display formats of the numbers and dates. These built-in number formats can be applied by using the **Number** property of the **Style** object. All built-in number formats are given unique numeric values. Developers can assign any desired numeric value to the *Number* property of **Style** object and hence the display format is applied. This approach is more faster. The built-in number formats supported by Aspose.Cells component are given below:
+## **Aspose.Cells for Python via .NET**
+Aspose.Cells for Python via .NET component offers some built-in number formats to configure the display formats of the numbers and dates. These built-in number formats can be applied by using the **Number** property of the **Style** object. All built-in number formats are given unique numeric values. Developers can assign any desired numeric value to the *Number* property of **Style** object and hence the display format is applied. This approach is more faster. The built-in number formats supported by Aspose.Cells for Python via .NET component are given below:
 
 |**Value**|**Type**|**Format String**|
 | :- | :- | :- |
@@ -188,4 +188,3 @@ Aspose.Cells.GridWeb also supports 59 types of number formats which are listed b
 |EasternTime5 |tth?mm? |
 |EasternTime6 |tth?mm?ss? |
 
-{{< app/cells/assistant language="csharp" >}}

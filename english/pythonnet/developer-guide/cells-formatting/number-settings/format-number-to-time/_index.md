@@ -3,7 +3,7 @@ title: How to Format Number to Time
 type: docs
 weight: 10
 url: /python-net/how-to-format-number-to-time/
-description: This article will introduce how to Format Number to Timeusing Aspose.Cells for .NET API.
+description: This article will introduce how to Format Number to Timeusing Aspose.Cells for Python via .NET API.
 keywords: Convert numerical values into time format, Transform digits into a time representation, Change numbers to a readable time format, Format numeric data into time notation, Adapt numerical input to a time structure, Format Number to Time
 ---
 
@@ -71,15 +71,15 @@ If you have a number representing seconds and want to convert it to a time forma
 
 By following these steps and adjusting based on your specific data and needs, you can effectively format numbers as time in Excel.
 
-## **How to Format Number to Time in Aspose.Cells for .NET**
-Formatting numbers to time in Aspose.Cells for .NET is a straightforward process that involves applying a custom number format to a cell or range of cells. Aspose.Cells is a powerful library that allows you to work with Excel files in .NET applications without needing Microsoft Excel installed. Here's how you can format numbers to time:
+## **How to Format Number to Time in Aspose.Cells for Python via .NET**
+Formatting numbers to time in Aspose.Cells for Python via .NET is a straightforward process that involves applying a custom number format to a cell or range of cells. Aspose.Cells is a powerful library that allows you to work with Excel files in .NET applications without needing Microsoft Excel installed. Here's how you can format numbers to time:
 
 ### Step 1: Install Aspose.Cells
 
-First, ensure you have Aspose.Cells for .NET installed in your project. If you're using NuGet Package Manager, you can install it by running the following command in the Package Manager Console:
+First, ensure you have Aspose.Cells for Python via .NET installed in your project. You can easily use Aspose.Cells for Python via .NET from pypi with the following command.
 
 ```powershell
-Install-Package Aspose.Cells
+$ pip install aspose-cells-python
 ```
 
 ### Step 2: Create a New Workbook or Open an Existing One
@@ -109,10 +109,9 @@ You can use different custom formats depending on your needs. Here are a few exa
 ### Sample Code
 
 Here's a code snippet demonstrating these steps:
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-FormatNumberToTime.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-FormatNumberToTime.py" >}}
 
 ### Conclusion
 
-Formatting numbers to time in Aspose.Cells for .NET involves setting a custom number format for the cells where you want to display time. By following the steps outlined above, you can easily apply time formats to cells in your Excel files using Aspose.Cells. Remember, the key is to use the correct custom format string that matches your desired time format.
+Formatting numbers to time in Aspose.Cells for Python via .NET involves setting a custom number format for the cells where you want to display time. By following the steps outlined above, you can easily apply time formats to cells in your Excel files using Aspose.Cells. Remember, the key is to use the correct custom format string that matches your desired time format.
 
-{{< app/cells/assistant language="csharp" >}}

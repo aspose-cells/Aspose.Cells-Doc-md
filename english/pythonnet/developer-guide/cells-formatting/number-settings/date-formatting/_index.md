@@ -3,7 +3,7 @@ title: How to Format Number as Date
 type: docs
 weight: 10
 url: /python-net/format-number-to-date/
-description: This article will introduce how to format number to date using Aspose.Cells for .NET API.
+description: This article will introduce how to format number to date using Aspose.Cells for Python via .NET API.
 keywords: format number as date, cell number settings, format number to date, date settings, date format.
 ---
 
@@ -44,9 +44,9 @@ To format a number as a date in Excel, follow these steps:
 <img src="2.png" width=60% />
 1. Click OK to apply the date format.
 
-## **How to Format Number to Date in Aspose.Cells**
+## **How to Format Number to Date in Aspose.Cells for Python via .NET**
 
-To format numbers as date in Aspose.Cells for .NET library for working with Excel files, you can apply date formatting to cells programmatically. Here's how you can do it using C# with Aspose.Cells:
+To format numbers as date in Aspose.Cells for Python via .NET library for working with Excel files, you can apply date formatting to cells programmatically. Here's how you can do it using Python with Aspose.Cells:
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Numbers-format-date.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-Numbers-format-date.py" >}}
+

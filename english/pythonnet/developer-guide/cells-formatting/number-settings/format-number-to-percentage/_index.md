@@ -3,7 +3,7 @@ title: How to Format Number to Percentage
 type: docs
 weight: 10
 url: /python-net/how-to-format-number-to-percentage/
-description: This article will introduce how to Format Number to Percentageusing Aspose.Cells for .NET API.
+description: This article will introduce how to Format Number to Percentageusing Aspose.Cells for Python via .NET API.
 keywords: Convert a number into a percentage format, Transform numerical values into percentages, Change numbers to be displayed as percentages, Formatting numbers as percentages, Adjusting numerical figures to percentage representation, Format Number to Percentage
 ---
 
@@ -64,15 +64,15 @@ For a quick format change without using the mouse:
 
 Remember, when you format a number as a percentage, Excel is essentially multiplying the cell value by 100. So, if you're entering data that you want to display as a percentage, you should enter it as a decimal (e.g., enter "0.1" for 10%).
 
-## **How to Format Number to Percentage in Aspose.Cells for .NET**
-Formatting numbers to percentages in Aspose.Cells for .NET is a straightforward process. Aspose.Cells is a powerful library that allows you to create, manipulate, and convert Excel files in .NET applications without needing Microsoft Excel installed on your system. Here's how you can format numbers to percentages using Aspose.Cells for .NET:
+## **How to Format Number to Percentage in Aspose.Cells for Python via .NET**
+Formatting numbers to percentages in Aspose.Cells for Python via .NET is a straightforward process. Aspose.Cells is a powerful library that allows you to create, manipulate, and convert Excel files in .NET applications without needing Microsoft Excel installed on your system. Here's how you can format numbers to percentages using Aspose.Cells for Python via .NET:
 
-### Step 1: Install Aspose.Cells for .NET
+### Step 1: Install Aspose.Cells for Python via .NET
 
-First, ensure you have Aspose.Cells for .NET installed in your project. If you haven't installed it yet, you can get it via NuGet. Run the following command in the NuGet Package Manager Console:
+First, ensure you have Aspose.Cells for Python via .NET installed in your project. You can easily use Aspose.Cells for Python via .NET from pypi with the following command.
 
 ```powershell
-Install-Package Aspose.Cells
+$ pip install aspose-cells-python
 ```
 
 ### Step 2: Create a New Workbook or Open an Existing One
@@ -95,10 +95,10 @@ Finally, save the workbook to a file or stream.
 ### Sample Code
 
 Here's a code snippet demonstrating these steps:
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-FormatNumberToPercentage.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-FormatNumberToPercentage.py" >}}
 
 ### Conclusion
 
-By following these steps, you can easily format numbers to percentages in Aspose.Cells for .NET. Aspose.Cells offers a wide range of features for manipulating Excel files, including formatting cells, working with formulas, and much more, making it a powerful tool for .NET developers working with Excel data.
+By following these steps, you can easily format numbers to percentages in Aspose.Cells for Python via .NET. Aspose.Cells offers a wide range of features for manipulating Excel files, including formatting cells, working with formulas, and much more, making it a powerful tool for .NET developers working with Excel data.
 
-{{< app/cells/assistant language="csharp" >}}
+

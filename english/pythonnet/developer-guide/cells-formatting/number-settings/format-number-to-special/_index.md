@@ -3,7 +3,7 @@ title: How to Format Number to Special
 type: docs
 weight: 10
 url: /python-net/how-to-format-number-to-special/
-description: This article will introduce how to Format Number to Specialusing Aspose.Cells for .NET API.
+description: This article will introduce how to Format Number to Specialusing Aspose.Cells for Python via .NET API.
 keywords: Format a number to a special pattern, Apply a specific pattern to format numbers, Customize number formatting to a unique style, Adjust the presentation of numbers to a distinct format, Transform numbers to follow a particular formatting rule, Format Number to Special
 ---
 
@@ -67,19 +67,17 @@ If the built-in special formats don't meet your needs, you can create a custom f
 
 Remember, the custom format feature is very powerful and allows for a wide range of formatting options beyond just special number formats. You can combine conditions, colors, and more to create highly customized displays of your data in Excel.
 
-## **How to Format Number to Special in Aspose.Cells for .NET**
-In Aspose.Cells for .NET, formatting numbers to a special format involves using the `Style` object associated with a cell. The `Style` object allows you to specify various formatting options, including number formats. Special number formats can include formats like dates, times, phone numbers, zip codes, or any custom number format you wish to apply.
+## **How to Format Number to Special in Aspose.Cells for Python via .NET**
+In Aspose.Cells for Python via .NET, formatting numbers to a special format involves using the `Style` object associated with a cell. The `Style` object allows you to specify various formatting options, including number formats. Special number formats can include formats like dates, times, phone numbers, zip codes, or any custom number format you wish to apply.
 
-Here's a step-by-step guide on how to format a number to a special format using Aspose.Cells for .NET:
+Here's a step-by-step guide on how to format a number to a special format using Aspose.Cells for Python via .NET:
 
 ### Step 1: Add Aspose.Cells to Your Project
 
-First, ensure that you have Aspose.Cells for .NET added to your project. You can obtain it via NuGet Package Manager or download it directly from the Aspose website.
-
-If you're using NuGet Package Manager Console, you can install it by running:
+First, ensure you have Aspose.Cells for Python via .NET installed in your project. You can easily use Aspose.Cells for Python via .NET from pypi with the following command.
 
 ```powershell
-Install-Package Aspose.Cells
+$ pip install aspose-cells-python
 ```
 
 ### Step 2: Create a Workbook and Access a Worksheet
@@ -108,10 +106,9 @@ You can create virtually any number format by specifying the format string accor
 ### Sample Code
 
 Here's a code snippet demonstrating these steps:
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-FormatNumberToSpecial.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-FormatNumberToSpecial.py" >}}
 
 ### Conclusion
 
-Formatting numbers to special formats in Aspose.Cells for .NET involves setting the custom number format of a cell's style. This allows for a wide range of formatting options, enabling you to display data exactly how you need it. Remember, the key to custom formats is the format string you provide, which dictates how the number will be displayed.
+Formatting numbers to special formats in Aspose.Cells for Python via .NET involves setting the custom number format of a cell's style. This allows for a wide range of formatting options, enabling you to display data exactly how you need it. Remember, the key to custom formats is the format string you provide, which dictates how the number will be displayed.
 
-{{< app/cells/assistant language="csharp" >}}

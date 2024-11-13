@@ -3,7 +3,7 @@ title: How to Format Number as Currency
 type: docs
 weight: 10
 url: /python-net/format-number-to-currency/
-description: This article will introduce how to format number to currency using Aspose.Cells for .NET API.
+description: This article will introduce how to format number to currency using Aspose.Cells for Python via .NET API.
 keywords: format number as currency, cell number settings, format number to currency, currency settings, currency format.
 ---
 
@@ -42,9 +42,9 @@ To format numbers as currency in Excel, follow these steps:
 1. You can customize the following: Decimal places, Symbol, Negative numbers.
 1. Click OK to apply the formatting.
 
-## **How to Format Number to Currency in Aspose.Cells**
+## **How to Format Number to Currency in Aspose.Cells for Python via .NET**
 
-To format numbers as currency in Aspose.Cells for .NET library for working with Excel files, you can apply currency formatting to cells programmatically. Here's how you can do it using C# with Aspose.Cells:
+To format numbers as currency in Aspose.Cells for Python .NET library for working with Excel files, you can apply currency formatting to cells programmatically. Here's how you can do it using Python with Aspose.Cells:
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Numbers-format-currency.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-Numbers-format-currency.py" >}}
+

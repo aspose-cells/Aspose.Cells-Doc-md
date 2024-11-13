@@ -3,7 +3,7 @@ title: How to Format Number to Fraction
 type: docs
 weight: 10
 url: /python-net/how-to-format-number-to-fraction/
-description: This article will introduce how to Format Number to Fractionusing Aspose.Cells for .NET API.
+description: This article will introduce how to Format Number to Fractionusing Aspose.Cells for Python via .NET API.
 keywords: Convert a numeral into a fraction representation, Transform a digit into its fractional equivalent, Change a number into its corresponding fraction form, Format a numeric value into a fraction, Express a number as a fraction, Format Number to Fraction
 ---
 
@@ -69,17 +69,17 @@ Alternatively, you can use the Ribbon to quickly apply some fraction formats:
 
 By following these steps, you can effectively format numbers as fractions in Excel, making your data easier to read and interpret.
 
-## **How to Format Number to Fraction in Aspose.Cells for .NET**
-Formatting numbers to fractions in Aspose.Cells for .NET is a straightforward process. Aspose.Cells is a powerful library that allows you to work with Excel files in .NET applications without needing Microsoft Excel installed. It provides a wide range of features, including formatting numbers as fractions.
+## **How to Format Number to Fraction in Aspose.Cells for Python via .NET**
+Formatting numbers to fractions in Aspose.Cells for Python via .NET is a straightforward process. Aspose.Cells for Python via .NET is a powerful library that allows you to work with Excel files in .NET applications without needing Microsoft Excel installed. It provides a wide range of features, including formatting numbers as fractions.
 
-Here's a step-by-step guide on how to format numbers to fractions in Aspose.Cells for .NET:
+Here's a step-by-step guide on how to format numbers to fractions in Aspose.Cells for Python via .NET:
 
-### Step 1: Install Aspose.Cells for .NET
+### Step 1: Install Aspose.Cells for Python via .NET
 
-First, ensure you have Aspose.Cells for .NET installed in your project. If you're using NuGet Package Manager, you can install it by running the following command in the Package Manager Console:
+First, ensure you have Aspose.Cells for Python via .NET installed in your project. You can easily use Aspose.Cells for Python via .NET from pypi with the following command.
 
 ```powershell
-Install-Package Aspose.Cells
+$ pip install aspose-cells-python
 ```
 
 ### Step 2: Create a New Workbook or Open an Existing One
@@ -103,13 +103,12 @@ After applying the fractional format, save the workbook to a file:
 
 Here's a code snippet demonstrating these steps:
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-FormatNumberToFraction.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-FormatNumberToFraction.py" >}}
 
 ### Additional Notes
 
 - The `Custom` property of the style object allows you to specify the exact fraction format. For example, `"# ??/???"` can display fractions with up to three digits in the denominator.
 - Aspose.Cells supports a wide range of number formats, including decimal, percentage, currency, and more. You can customize the format to meet your specific requirements.
 
-By following these steps, you can easily format numbers as fractions in Aspose.Cells for .NET. This can be particularly useful for financial, statistical, or educational applications where precise fractional values are necessary.
+By following these steps, you can easily format numbers as fractions in Aspose.Cells for Python via .NET. This can be particularly useful for financial, statistical, or educational applications where precise fractional values are necessary.
 
-{{< app/cells/assistant language="csharp" >}}
