@@ -97,9 +97,7 @@ To use these  controls, the machine to run Aspose.Cells.GridDesktop and Aspose.C
 {{% /alert %}} 
 ### **Aspose.Cells.GridDesktop**
 #### **.NET Framework**
-- .NET Framework 2.0
-- .NET Framework 3.0
-- .NET Framework 3.5
+
 - .NET Framework 4.0
 - .NET Framework 4.5
 - .NET Framework 4.5.1
@@ -142,9 +140,6 @@ To use these  controls, the machine to run Aspose.Cells.GridDesktop and Aspose.C
 - Microsoft Windows 11
 ### **Aspose.Cells.GridWeb**
 #### **.NET Framework**
-- .NET Framework 2.0
-- .NET Framework 3.0
-- .NET Framework 3.5
 - .NET Framework 4.0
 - .NET Framework 4.5
 - .NET Framework 4.5.1
@@ -157,10 +152,12 @@ To use these  controls, the machine to run Aspose.Cells.GridDesktop and Aspose.C
 - .NET Framework 4.8
 - .NET Framework 4.8.1
 ### **.NET Core**
-- .NET 6.0 windows 
+- .NET 6.0 windows and non-windows systems
 - .NET 7.0 windows
+- .NET 8.0 windows
 #### **The nuget packages referenced by Aspose.Cells.GridWeb For .NET Core**
-- System.Drawing.Common, 7.0.0.
+- System.Drawing.Common, 7.0.0 (on windows system).
+- SkiaSharp, 2.88.3 (on non-windows systems).
 - System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.3.
 #### **Development Tools**
