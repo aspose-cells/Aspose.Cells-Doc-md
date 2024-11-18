@@ -11,9 +11,29 @@ aliases:
   - /net/aspose-cells-gridjs/work-with-context-menu/
   - /net/aspose-cells-gridjs/work-with-context-menus/
 ---
+# Custom build-in context menus
+We have some build in context menu items ,for example insert/delete row/column and so on.
+for example:to delete "Delete row","Link","Hide" menu items in context menus,assume the div id of GridJs is "gridjs-divid"
+```javascript
+   //get context menus parent dom
+   const menus=document.querySelector("#gridjs-divid > div > div.x-spreadsheet-sheet > div.x-spreadsheet-contextmenu");
+   var childs = menus.childNodes;
+   for (var i = childs.length - 1; i >= 0; i--)
+   {  
+     // check the item text
+     if(childs[i].childNodes[0]?.textContent==="Delete row"||childs[i].childNodes[0]?.textContent==="Link"||childs[i].childNodes[0]?.textContent==="Hide")
+       {
+         menus.removeChild(childs[i]);
+       }
+   }
+```
+After call this function 
 
-# Custom context menus
-We have some build in context menu items ,for example insert/delete row/column and so on
+![todo:the screen for customize build-in menu items](gridjs_customize_build_in_context_menu.png)
+
+
+# Custom self-defined context menus
+We have some build in context menu items ,for example insert/delete row/column and so on.
 However if user want to custom context menu items.
 We support set context menu items in load options.
 for example:

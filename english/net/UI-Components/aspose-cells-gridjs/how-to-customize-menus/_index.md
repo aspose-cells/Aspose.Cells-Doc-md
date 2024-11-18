@@ -38,6 +38,7 @@ for example:to keep File menu only,assume the div id of GridJs is "gridjs-divid"
 
 ```
 After call this function 
+
 ![todo:the screen for customize menubar](gridjs_customize_menubar.png)
 
  
@@ -69,6 +70,7 @@ for example:to keep "Download As XLSX" menu item in File menu only,assume the di
 
 ```
 After call this function 
+
 ![todo:the screen for customize menubar item](gridjs_customize_menu.png)
 
 ## customize toolbar items 
@@ -91,6 +93,7 @@ for example:to keep zoom button only,assume the div id of GridJs is "gridjs-divi
 
 ```
 After call this function 
+
 ![todo:the screen for customize toolbar](gridjs_customize_toolbar.png)
 
 
