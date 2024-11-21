@@ -7,7 +7,7 @@ url: /python-net/how-to-get-odata-connection-information/
 
 ## **Get OData Connection Information**
 
-There might be cases where developers need to extract OData information from the excel file. Aspose.Cells provides the [**Workbook.DataMashup**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/datamashup) property which returns the DataMashup information present in the Excel file. This information is represented by the [**DataMashup**](https://reference.aspose.com/cells/net/aspose.cells.querytables/datamashup) class. The [**DataMashup**](https://reference.aspose.com/cells/net/aspose.cells.querytables/datamashup) class provides the [**PowerQueryFormulas**](https://reference.aspose.com/cells/net/aspose.cells.querytables/datamashup/properties/powerqueryformulas) property that returns the [**PowerQueryFormulaCollction**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulacollction) collection. From the [**PowerQueryFormulaCollction**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulacollction), you can get access to [**PowerQueryFormula**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformula) and [**PowerQueryFormulaItem**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem).
+There might be cases where developers need to extract OData information from the excel file. Aspose.Cells for Python via .NET provides the [**Workbook.data_mashup**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/data_mashup) property which returns the DataMashup information present in the Excel file. This information is represented by the [**DataMashup**](https://reference.aspose.com/cells/python-net/aspose.cells.querytables/datamashup) class. The [**DataMashup**](https://reference.aspose.com/cells/python-net/aspose.cells.querytables/datamashup) class provides the [**power_query_formulas**](https://reference.aspose.com/cells/python-net/aspose.cells.querytables/datamashup/power_query_formulas) property that returns the [**PowerQueryFormulaCollction**](https://reference.aspose.com/cells/python-net/aspose.cells.querytables/powerqueryformulacollection/) collection. From the [**PowerQueryFormulaCollction**](https://reference.aspose.com/cells/python-net/aspose.cells.querytables/powerqueryformulacollection/), you can get access to [**PowerQueryFormula**](https://reference.aspose.com/cells/python-net/aspose.cells.querytables/powerqueryformula) and [**PowerQueryFormulaItem**](https://reference.aspose.com/cells/python-net/aspose.cells.querytables/powerqueryformulaitem).
 
 The following code snippet demonstrates the use of these classes to retrieve the OData information.
 
@@ -17,7 +17,7 @@ The Source file used in the following code snippet is attached for your referenc
 
 ### **Sample Code**
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-GetOdataDetails-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Connections-GetOdataDetails-1.py" >}}
 
 ### **Console Output**
 
@@ -34,4 +34,4 @@ Name: Orders_table
 Value: Source{[Name="Orders",Signature="table"]}[Data]
 
 {{< /highlight >}}
-{{< app/cells/assistant language="csharp" >}}
+

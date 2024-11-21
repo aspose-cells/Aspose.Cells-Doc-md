@@ -15,7 +15,7 @@ You can access external data connection of any type using the Workbook.DataConne
 
 The following code shows how to work with external data connection of type **WebQuery**. It uses the [sample excel file](5112365.xlsx) which you can download from the provided link. You can also see the console output of this code further below.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-GetDataConnection-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Connections-GetDataConnection-1.py" >}}
 
 ## Console Output
 
@@ -26,4 +26,4 @@ Here is the console output of the above code with this [sample excel file](51123
 Web Query URL: https://docs.aspose.com/cells/net/
 
 {{< /highlight >}}
-{{< app/cells/assistant language="csharp" >}}
+

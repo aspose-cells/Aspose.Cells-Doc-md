@@ -7,7 +7,7 @@ url: /python-net/reading-and-writing-query-table-of-worksheet/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells provides Worksheet.QueryTables collection which returns the object of type QueryTable by index. It has the following two properties
+Aspose.Cells for Python via .NET provides Worksheet.QueryTables collection which returns the object of type QueryTable by index. It has the following two properties
 
 - QueryTable.AdjustColumnWidth
 - QueryTable.PreserveFormatting
@@ -25,7 +25,7 @@ You can download the source Excel file used in this code and the output Excel fi
 - [Source Excel File](5115533.xlsx)
 - [Output Excel File](5115537.xlsx)
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAndWritingQueryTable.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Connections-ReadingAndWritingQueryTable.py" >}}
 
 ### Console Output
 
@@ -41,7 +41,7 @@ Preserve Formatting: False
 
 ## Retrieve query table result range
 
-Aspose.Cells provides option to read the address i.e. result range of cells for a query table. Following code demonstrates this feature by reading the address of result range for a query table. Sample file can be downloaded [here](72417290.xlsx).
+Aspose.Cells for Python via .NET provides option to read the address i.e. result range of cells for a query table. Following code demonstrates this feature by reading the address of result range for a query table. Sample file can be downloaded [here](72417290.xlsx).
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAddressOfResultRange.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Connections-ReadingAddressOfResultRange.py" >}}
+
