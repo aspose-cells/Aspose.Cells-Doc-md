@@ -7,7 +7,7 @@ url: /python-net/adjust-workbook-compression-level/
 
 ## **Adjust Workbook Compression Level**
 
-Developers can adjust the compression level of the workbook when working with larger workbooks. Developers may prioritize smaller file sizes over processing time or vice versa. Aspose.Cells provides [**OoxmlCompressionType**](https://reference.aspose.com/cells/python-net/aspose.cells/ooxml_compression_type) enumeration which you can use to set the compression level of the workbook. The [**OoxmlCompressionType**](https://reference.aspose.com/cells/python-net/aspose.cells/ooxml_compression_type) enumeration provides the following members.
+Developers can adjust the compression level of the workbook when working with larger workbooks. Developers may prioritize smaller file sizes over processing time or vice versa. Aspose.Cells for Python via .NET provides [**OoxmlCompressionType**](https://reference.aspose.com/cells/python-net/aspose.cells/ooxmlcompressiontype) enumeration which you can use to set the compression level of the workbook. The [**OoxmlCompressionType**](https://reference.aspose.com/cells/python-net/aspose.cells/ooxmlcompressiontype) enumeration provides the following members.
 
 - Level1: The fastest but least effective compression.
 - Level2: A little slower, but better, than level 1.
@@ -19,7 +19,7 @@ Developers can adjust the compression level of the workbook when working with la
 - Level8: Better compression than Level7!
 - Level9: The "best" compression, where best means greatest reduction in the size of the input data stream. This is also the slowest compression.
 
-The following code snippet demonstrates the use of [**OoxmlCompressionType**](https://reference.aspose.com/cells/python-net/aspose.cells/ooxml_compression_type) enumeration and compares the conversion time for Level1, Level6, and Level9. You may also compare the sizes of the generated files.
+The following code snippet demonstrates the use of [**OoxmlCompressionType**](https://reference.aspose.com/cells/python-net/aspose.cells/ooxmlcompressiontype) enumeration and compares the conversion time for Level1, Level6, and Level9. You may also compare the sizes of the generated files.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AdjustCompressionLevel-1.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Save-files-AdjustCompressionLevel-1.py" >}}
+

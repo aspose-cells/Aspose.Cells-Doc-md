@@ -3,11 +3,11 @@ title: Disable Compatibility Checker in Excel
 type: docs
 weight: 170
 url: /python-net/disable-compatibility-checker-in-excel/
-description: This article shows how to disable compatibility checker through the Aspose.Cells for .NET API.
-keywords: C# Disable Compatibility Checker, Excel Disable Compatibility Checker in C#, Disable Compatibility Checker in Workbook. 
+description: This article shows how to disable compatibility checker through the Aspose.Cells for Python via .NET API.
+keywords: Python Disable Compatibility Checker, Excel Disable Compatibility Checker in C#, Disable Compatibility Checker in Workbook. 
 ---
 
-## Disable Compatibility Checker in Excel Worksheets in C# 
+## Disable Compatibility Checker in Excel Worksheets in Python 
 
 {{% alert color="primary" %}}
 
@@ -15,7 +15,7 @@ Microsoft Excel's Compatibility Checker flags when saving a file in an earlier f
 
 When you save a workbook in a previous version, Excel 97 through Excel 2003, from Excel 2007 or Excel 2010, the Compatibility Checker scans the workbook to see if it contains features that are not supported by the earlier version. To help you make decisions about how to handle compatibility issues, the Compatibility Checker displays dialog boxes with options. It can also be used to create a report on any issues in the workbook, or disable the feature.
 
-Sometimes, you need to disable the Compatibility Checker for a particular spreadsheet. With Aspose.Cells' APIs you can do this programmatically so that users don't get frustrated or confused by the Compatibility Checker dialog box popping up when they re-save the file in Microsoft Excel manually.
+Sometimes, you need to disable the Compatibility Checker for a particular spreadsheet. With Aspose.Cells for Python via .NET' APIs you can do this programmatically so that users don't get frustrated or confused by the Compatibility Checker dialog box popping up when they re-save the file in Microsoft Excel manually.
 
 {{% /alert %}}
 
@@ -28,11 +28,11 @@ To disable the Compatibility Checker in Microsoft Excel (for example Microsoft E
 
 ## **How to Disable Compatibility Checker using Aspose.Cells APIs**
 
-Set the [**Workbook.Settings.CheckComptiliblity**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcompatibility) property to **False** to disable Microsoft Excel's Compatibility Checker.
+Set the [**Workbook.settings.check_compatibility**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/check_compatibility) property to **False** to disable Microsoft Excel's Compatibility Checker.
 
 ### **Code Examples**
 
-The code examples that follow show how to disable the Compatibility Checker with Aspose.Cells for .NET.
+The code examples that follow show how to disable the Compatibility Checker with Aspose.Cells for Python via .NET.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DisableCompatibilityChecker-1.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "WorkbookSettings-DisableCompatibilityChecker-1.py" >}}
+
