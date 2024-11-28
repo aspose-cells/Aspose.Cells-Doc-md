@@ -197,5 +197,5 @@ app/
 
 You can start the container using the following command
 ```
-docker run --rm -p 127.0.0.1:5000:5000 gunicorn_flask:v1.0
+docker run --rm -p 127.0.0.1:5000:5000 gunicorn_flask:v1.0 # gunicorn_flask:v1.0 - Image built by Dockerfile
 ```
