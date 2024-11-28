@@ -11,7 +11,7 @@ This beginner's topic shows how developers can create a simple first application
 
 {{% /alert %}}
 
-### **Creating the Hello World Application**
+## **Creating the Hello World Application**
 
 To create the Hello World application using Aspose.Cells API:
 
@@ -26,7 +26,7 @@ To create the Hello World application using Aspose.Cells API:
 
 The examples below demonstrate the above steps.
 
-#### **Creating a Workbook**
+### **Creating a Workbook**
 
 The following example creates a new workbook from scratch, writes the words "Hello World!" into cell A1 on the first worksheet, and saves the file.
 
@@ -36,7 +36,7 @@ The following example creates a new workbook from scratch, writes the words "Hel
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "CreatingHelloWorldFile.py" >}}
 
-#### **Opening an Existing File**
+### **Opening an Existing File**
 
 The following example opens an existing Microsoft Excel template file called **book1.xls**, writes the words "Hello World!" in cell A1 in the first worksheet, and saves the workbook as a new file.
 
