@@ -4,13 +4,13 @@ linktitle: Macro Project
 type: docs
 weight: 200
 url: /python-net/manage-vba-project/
-description: Add VBA Module and Modify VBA or Macro with Aspose.Cells library.
+description: Add VBA Module and Modify VBA or Macro with Aspose.Cells for Python via .NET library.
 ---
 
-## **Add a VBA Module in C#**
+## **Add a VBA Module in Python**
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to add a new VBA Module and Macro Code using Aspose.Cells. Please use the [**Workbook.VbaProject.Modules.Add()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbamodulecollection/methods/add/index) method to add the new VBA Module inside the workbook
+Aspose.Cells allows you to add a new VBA Module and Macro Code using Aspose.Cells for Python via .NET. Please use the [**Workbook.vba_project.modules.add()**](https://reference.aspose.com/cells/python-net/aspose.cells.vba/vbamodulecollection/add/) method to add the new VBA Module inside the workbook
 
 {{% /alert %}}
 
@@ -28,20 +28,20 @@ End Sub
 
 Here is the sample code to generate the output XLSM file with VBA Module and Macro Code.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddVBAModuleOrCode-AddVBAModuleOrCode.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "VBAProject-AddVBAModuleOrCode.py" >}}
 
-## **Modify VBA or Macro in C#**
+## **Modify VBA or Macro in Python**
 
 {{% alert color="primary" %}} 
 
-You can modify VBA or Macro Code using Aspose.Cells. Aspose.Cells has added the following namespace and classes to read and modify the VBA project in the Excel file.
+You can modify VBA or Macro Code using Aspose.Cells for Python via .NET. Aspose.Cells for Python via .NET has added the following namespace and classes to read and modify the VBA project in the Excel file.
 
 - Aspose.Cells.Vba
 - VbaProject
 - VbaModuleCollection
 - VbaModule
 
-This article will show you how to change the VBA or Macro Code inside the source Excel file using Aspose.Cells.
+This article will show you how to change the VBA or Macro Code inside the source Excel file using Aspose.Cells for Python via .NET.
 
 {{% /alert %}} 
 
@@ -57,7 +57,7 @@ End Sub
 
 {{< /highlight >}}
 
-After the execution of Aspose.Cells sample code, the VBA or Macro code will be modified like this
+After the execution of Aspose.Cells for Python via .NET sample code, the VBA or Macro code will be modified like this
 
 {{< highlight java >}}
 
@@ -73,7 +73,7 @@ You can download the [source Excel file](5112508.xlsm) and the [output Excel fil
 
 
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-ModifyingVBAOrMacroCode-ModifyingVBAOrMacroCode.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "VBAProject-ModifyingVBAOrMacroCode.py" >}}
 
 ## **Advance topics**
 - [Add a library reference to VBA project in workbook](/cells/python-net/add-a-library-reference-to-vba-project-in-workbook/)
@@ -87,4 +87,3 @@ You can download the [source Excel file](5112508.xlsm) and the [output Excel fil
 - [Find out if VBA Project is Protected](/cells/python-net/find-out-if-vba-project-is-protected/)
 - [Password Protect the VBA Project of Excel Workbook](/cells/python-net/password-protect-the-vba-project-of-excel-workbook/)
 
-{{< app/cells/assistant language="csharp" >}}

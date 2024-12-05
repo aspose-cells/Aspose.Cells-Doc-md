@@ -7,13 +7,13 @@ url: /python-net/export-vba-certificate-to-file-or-stream/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to export VBA Digital Certificate to stream such as file or memory stream. You can access the raw data of the VBA digital certificate using the [**Workbook.VbaProject.CertRawData**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/certrawdata) property.
+Aspose.Cells for Python via .NET allows you to export VBA Digital Certificate to stream such as file or memory stream. You can access the raw data of the VBA digital certificate using the [**Workbook.vba_project.cert_raw_data**](https://reference.aspose.com/cells/python-net/aspose.cells.vba/vbaproject/cert_raw_data) property.
 
 {{% /alert %}}
 
-## **Export VBA Certificate to File or Stream in C#**
+## **Export VBA Certificate to File or Stream in Python**
 
 Please see the following sample code that saves the raw data of the VBA Certificate into a file. You can download the [sample excel file used in this code](5115031.xlsm) from the provided link.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-ExportVBACertificateToFile-ExportVBACertificateToFile.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "VBAProject-ExportVBACertificateToFile.py" >}}
+

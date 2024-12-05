@@ -7,7 +7,7 @@ url: /python-net/link-cells-to-xml-map-elements/
 
 ## **Possible Usage Scenarios**
 
-You can link your cells to XML Map elements using Aspose.Cells. Please use the [**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/linktoxmlmap) method for this purpose.
+You can link your cells to XML Map elements using Aspose.Cells for Python via .NET. Please use the [**Cells.link_to_xml_map()**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/link_to_xml_map) method for this purpose.
 
 ## **Link Cells to Xml Map Elements**
 
@@ -15,5 +15,5 @@ The following sample code loads the [source excel file](5115471.xlsx) which cont
 
 If you open the [output excel file](5115467.xlsx) and click the Developer > Source button, you will see the cells are linked with XML Map elements and they will also be highlighted by Microsoft Excel as shown in this image.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LinkCellsToXmlMapElements-LinkCellsToXmlMapElements.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "XmlMaps-LinkCellsToXmlMapElements.py" >}}
+
