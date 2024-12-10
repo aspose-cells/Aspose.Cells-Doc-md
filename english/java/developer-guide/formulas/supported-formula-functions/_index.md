@@ -70,6 +70,8 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |BITOR|**Engineering**: Returns a bitwise OR of 2 numbers
 |BITRSHIFT|**Engineering**: Returns a value number shifted right by shift_amount bits
 |BITXOR|**Engineering**: Returns a bitwise 'Exclusive Or' of two numbers
+|BYCOL|**Logical**: Applies a LAMBDA to each column and returns an array of the results
+|BYROW|**Logical**: Applies a LAMBDA to each row and returns an array of the results
 
 ###### **C**
 |**Function**|**Summary**|
