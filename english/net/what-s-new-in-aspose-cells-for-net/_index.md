@@ -8,6 +8,18 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 24.12
+* Support notification of formula changes when inserting/deleting cell range
+* Support lambda functions of BYROW and BYCOL
+* Support to render LinearGradientBrush, PathGradientBrush, HatchBrush and TextrueBrush to pcl
+* Support to place inline styling/formatting instead of css when saving html
+* Support to add font color, cell color as data sorter key
+* Support to update order and add group to PowerQueryFormulas
+* Enhancements for filters of PivotField such as multiple filters, filter whole day
+* Support refreshing formula reference after inserting/deleteing row/column in GridJs
+* Support update monitor for GridJs
+* Support center alignement across columns for GridJs
+
 ## Aspose.Cells for .NET 24.11
 * Support xlsx to pcl conversion
 * Support to get source of external source for PivotTable
