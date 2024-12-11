@@ -13,9 +13,8 @@ Sometimes, you need to find out Query Tables and List Objects related to some Ex
 ## **Find Query Tables and List Objects related to External Data Connections**
 The following sample codes with [sample excel file](5115493.xlsm) explain how to find Query Tables and List Objects related to External Data Connection.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindQueryTablesAndListObjectsOfExternalDataConnections-FindQueryTablesAndListObjectsOfExternalDataConnections.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Tables-FindQueryTablesAndListObjectsOfExternalDataConnections.py" >}}
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindQueryTablesAndListObjectsOfExternalDataConnections-PrintTables.cs" >}}
 
 The following is the console output of running the above sample codes with this [sample excel file](5115493.xlsm).
 
@@ -51,4 +50,4 @@ refersto: =Sheet1!$H$1:$N$69
 
 
 {{< /highlight >}}
-{{< app/cells/assistant language="csharp" >}}
+

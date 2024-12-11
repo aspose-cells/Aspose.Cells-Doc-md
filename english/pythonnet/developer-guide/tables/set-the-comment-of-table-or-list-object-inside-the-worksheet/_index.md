@@ -7,7 +7,7 @@ url: /python-net/set-the-comment-of-table-or-list-object-inside-the-worksheet/
 
 {{% alert color="primary" %}}
 
-You can set the comment of the Table or List Object inside the worksheet using the [**ListObject.Comment**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/comment) property. The comment will be visible inside the xl/tables/tableName.xml file.
+You can set the comment of the Table or List Object inside the worksheet using the [**ListObject.comment**](https://reference.aspose.com/cells/python-net/aspose.cells.tables/listobject/comment) property. The comment will be visible inside the xl/tables/tableName.xml file.
 
 {{% /alert %}}
 
@@ -15,5 +15,5 @@ You can set the comment of the Table or List Object inside the worksheet using t
 
 The following sample code loads the [source excel file](5115514.xlsx), sets the comment of the first table or list object inside the worksheet.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-SetCommentOfTableOrListObject-1.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Tables-SetCommentOfTableOrListObject-1.py" >}}
+
