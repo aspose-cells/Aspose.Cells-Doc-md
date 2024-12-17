@@ -4,7 +4,7 @@ linktitle: Sparklines
 type: docs
 weight: 160
 url:  /python-net/creating-sparklines/
-description: Create sparkline for Excel using Aspose.Cells.
+description: Create sparkline for Excel using Aspose.Cells for Python via .NET.
 ---
 
 ## **Insert a sparkline**
@@ -14,12 +14,12 @@ Sparkline is a tiny chart in a worksheet cell that provides a visual representat
 
 {{% /alert %}} 
 
-It’s simple to create a sparkline with Aspose.Cells with the following example codes:
+It’s simple to create a sparkline with Aspose.Cells for Python via .NET with the following example codes:
 
 
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-InsertSparkline.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Sparklines-InsertSparkline.py" >}}
 
 ## **Advance topics**
 - [Using Sparklines and Settings 3D Format](/cells/python-net/using-sparklines-and-settings-3d-format/)
-{{< app/cells/assistant language="csharp" >}}
+

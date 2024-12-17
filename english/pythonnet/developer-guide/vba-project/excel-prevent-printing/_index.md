@@ -3,7 +3,7 @@ title: How to Prevent Users from Printing Excel File
 type: docs
 weight: 600
 url: /python-net/how-to-prevent-printing-excel/
-description: Learn how to How to prevent users from printing excel through the Aspose.Cells for .NET API.
+description: Learn how to How to prevent users from printing excel through the Aspose.Cells for Python via .NET API.
 keywords: excel printing, prevent printing excel, how to prevent users from printing excel, excel prevent printing, prevent printing workbook, Prevent users from printing the whole workbook with VBA. 
 ---
 
@@ -23,7 +23,7 @@ You can apply the following VBA code to protect your specific file to be printed
 <br>
 <img src="3.png" width=70% />
 
-## **How to Prevent Users from Printing Excel File using Aspose.Cells for .NET**
+## **How to Prevent Users from Printing Excel File using Aspose.Cells for Python via .NET**
 
 The following sample code illustrates how to prevent users from printing excel file:
 
@@ -33,5 +33,5 @@ The following sample code illustrates how to prevent users from printing excel f
 1. Set the codes property of VbaModule.
 1. Save the sample file to [xlsm format](out.xlsm).
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "VBA-Prevent-printing-excel.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "VBAProject-Prevent-printing-excel.py" >}}
+

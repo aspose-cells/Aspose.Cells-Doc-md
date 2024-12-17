@@ -7,7 +7,7 @@ url: /python-net/assign-macro-to-form-control/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to assign a Macro Code to a Form Control like a Button. Please use the [**Shape.MarcoName**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/macroname) property to assign a new Macro Code to a Form Control inside the workbook.
+Aspose.Cells for Python via .NET allows you to assign a Macro Code to a Form Control like a Button. Please use the [**Shape.macro_name**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/macro_name) property to assign a new Macro Code to a Form Control inside the workbook.
 
 {{% /alert %}}
 
@@ -23,9 +23,8 @@ End Sub
 
 {{< /highlight >}}
 
-## **Assign Macro to Form Control in C#**
+## **Assign Macro to Form Control in Python**
 
 Here is the sample code to generate the output XLSM file with Macro Code.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AssignMacroToFormControl-1.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "VBAProject-AssignMacroToFormControl-1.py" >}}
