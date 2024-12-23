@@ -16,8 +16,10 @@ Add filter in Pivot Table in Excel, follow these steps:
 1. Select the PivotTable that you want to clear filter to. 
 2. Click on the drop-down arrow for the filter you want to add in the pivot table.
 3. Select the "Top 10" from the drop-down menu.
+<br>
 <img src="3.png" width=80% />
-4. Set the show mode and the number of filters..
+4. Set the show mode and the number of filters.
+<br>
 <img src="4.png" width=80% />
 
 ## **Add Filter in Pivot Table**
@@ -32,8 +34,10 @@ Clear filter in Pivot Table in Excel, follow these steps:
 1. Select the PivotTable that you want to clear filter to. 
 2. Click on the drop-down arrow for the filter you want to clear in the pivot table.
 3. Select the "Clear Filter" from the drop-down menu.
+<br>
 <img src="1.png" width=80% />
 4. If you want to clear all filters from the pivot table, you can also click on the "Clear Filters" button in PivotTable Analyze tab on the ribbon in Excel.
+<br>
 <img src="2.png" width=80% />
 
 ## **Clear Filter in Pivot Table**
