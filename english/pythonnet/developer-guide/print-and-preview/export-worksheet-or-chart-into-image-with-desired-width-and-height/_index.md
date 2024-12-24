@@ -7,11 +7,11 @@ url: /python-net/export-worksheet-or-chart-into-image-with-desired-width-and-hei
 
 {{% alert color="primary" %}}
 
-You can use Aspose.Cells to export your worksheet or chart into an image with the desired width and height. It provides [**ImageOrPrintOptions.SetDesiredSize()**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/methods/setdesiredsize) method to set the desired width and height of the exported image. The width and height are specified in the unit of pixels.
+You can use Aspose.Cells for Python via .NET to export your worksheet or chart into an image with the desired width and height. It provides [**ImageOrPrintOptions.set_desired_size()**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/set_desired_size) method to set the desired width and height of the exported image. The width and height are specified in the unit of pixels.
 
 {{% /alert %}}
 
 The following code exports the worksheet into an image with 400x400 size.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-WorksheetToImageDesiredSize-1.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-WorksheetToImageDesiredSize-1.py" >}}
+

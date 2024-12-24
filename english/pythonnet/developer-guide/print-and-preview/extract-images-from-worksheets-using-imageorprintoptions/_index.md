@@ -7,7 +7,7 @@ url: /python-net/extract-images-from-worksheets-using-imageorprintoptions/
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel users can add images to spreadsheets. With Aspose.Cells, it's possible to read images from Microsoft Excel files and save them to a local drive. This article shows how.
+Microsoft Excel users can add images to spreadsheets. With Aspose.Cells for Python via .NET, it's possible to read images from Microsoft Excel files and save them to a local drive. This article shows how.
 
 {{% /alert %}} 
 
@@ -15,5 +15,4 @@ The sample code below shows how to extract images from an Excel file and save th
 
 
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExtractImagesFromWorksheets-1.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-ExtractImagesFromWorksheets-1.py" >}}

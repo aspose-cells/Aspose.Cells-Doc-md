@@ -7,15 +7,15 @@ url: /python-net/page-setup-and-printing-options/
 
 {{% alert color="primary" %}}
 
-Sometimes, developers need to configure page setup and print settings to control the printing process. Page setup and print settings offer various options and are fully supported in Aspose.Cells.
+Sometimes, developers need to configure page setup and print settings to control the printing process. Page setup and print settings offer various options and are fully supported in Aspose.Cells for Python via .NET.
 
-This article shows how to create a console application in Visual Studio.Net, and apply page setup and printing options to a worksheet with a few simple lines of code using the Aspose.Cells API.
+This article shows how to create a console application in Visual Studio.Net, and apply page setup and printing options to a worksheet with a few simple lines of code using the Aspose.Cells for Python via .NET API.
 
 {{% /alert %}}
 
 ## **Working with Page and Print Settings**
 
-For this example, we created a workbook in Microsoft Excel and use Aspose.Cells to set page setup and print options.
+For this example, we created a workbook in Microsoft Excel and use Aspose.Cells for Python via .NET to set page setup and print options.
 
 ### **Using Aspose.Cells to set Page Setup Options**
 
@@ -35,20 +35,8 @@ First create a simple worksheet in Microsoft Excel. Then apply page setup option
 | :- |
 |![todo:image_alt_text](page-setup-and-printing-options_2.png)|
 
-1. Download and install Aspose.Cells:
-   1. [Download](https://downloads.aspose.com/cells/net) Aspose.Cells for .Net.
-   1. Install it on your development computer.
-      All Aspose components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.
-1. Create a project:
-   1. Start Visual Studio. Net.
-   1. Create a new console application.
-      This example will show a C# console application, but you can use VB.NET too.
-1. Add references:
-   1. This example uses Aspose.Cells so add a reference to that component to the project. For example:
-      …\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll
-1. Write the application that invokes the API:
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PageSetupAndPrintingOptions-SettingPageSetup-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-SettingPageSetup-1.py" >}}
 
 ### **Setting Print options**
 
@@ -74,5 +62,4 @@ Executing the code changes the print options.
 | :- |
 |![todo:image_alt_text](page-setup-and-printing-options_4.png)|
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PageSetupAndPrintingOptions-SettingPrintingOptions-1.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-SettingPrintingOptions-1.py" >}}
