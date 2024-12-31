@@ -1,3 +1,13 @@
+---
+title: how to work with Cells AI
+type: docs
+weight: 200
+url: /net/aspose-cells-gridjs/how-to-build-online-excel-editor/
+keywords:AI,spreadsheet,AI features,AI power,Excel AI,OpenAI,Cells AI
+description: This article is a Step-by-Step guide to use AI-powered features for processing spreadsheet files.
+---
+
+
 # New User Guide: Working with Cells AI
 
 Welcome to Cells AI! This guide will walk you through the basic steps to configure and use the Cells AI library.
