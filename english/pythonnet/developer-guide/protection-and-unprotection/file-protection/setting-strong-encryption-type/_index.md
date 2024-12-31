@@ -11,9 +11,10 @@ Microsoft Excel (97-2007/2010) enables you to encrypt and password protect sprea
 
 To overcome this problem, use one of the strong encryption types provided by Microsoft Excel. You can change the encryption type to the strongest available CSP. For strong encryption, a minimum key length of 128 bits is required, for example, 'Microsoft Strong Cryptographic Provider'.
 
-You can also encrypt and password protect Excel files with strong encryption type using the Aspose.Cells API.
+You can also encrypt and password protect Excel files with strong encryption type using the Aspose.Cells for Python via .NET API.
 
 {{% /alert %}} 
+
 ## **Applying Encryption with Microsoft Excel**
 To implement file encryption in Microsoft Excel (for example 2007):
 
@@ -22,10 +23,10 @@ To implement file encryption in Microsoft Excel (for example 2007):
 1. Enter a value for the **Password to open** field.
 1. Click **Advanced**.
 1. Choose the encryption type and confirm the password.
+
 ## **Applying Encryption with Aspose.Cells**
 The code examples below apply strong encryption on a file and set a password.
 
 
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-SettingStrongEncryptionType-1.py" >}}
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SettingStrongEncryptionType-1.cs" >}}
-{{< app/cells/assistant language="csharp" >}}

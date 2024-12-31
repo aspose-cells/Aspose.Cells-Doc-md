@@ -7,7 +7,7 @@ url: /python-net/password-protect-or-unprotect-the-shared-workbook/
 
 ## **Possible Usage Scenarios**
 
-You can protect or unprotect the shared workbook with Microsoft Excel as shown in the following screenshot. Aspose.Cells also supports this feature with the [**Workbook.protect_shared_workbook()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/protect_shared_workbook) and [**Workbook.unprotect_shared_workbook()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/unprotect_shared_workbook) methods.
+You can protect or unprotect the shared workbook with Microsoft Excel as shown in the following screenshot. Aspose.Cells for Python via .NET also supports this feature with the [**Workbook.protect_shared_workbook()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/protect_shared_workbook) and [**Workbook.unprotect_shared_workbook()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/unprotect_shared_workbook) methods.
 
 ![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_1.png)
 
@@ -19,5 +19,5 @@ The following sample code creates a workbook and protects it while enabling shar
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-PasswordProtectOrUnprotectSharedWorkbook.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-PasswordProtectOrUnprotectSharedWorkbook.py" >}}
+

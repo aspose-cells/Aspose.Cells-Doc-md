@@ -13,9 +13,9 @@ url: /python-net/detect-file-format-of-encrypted-office-open-xml-ooxml-files/
 
 
 
-Aspose.Cells provides a way to detect the file format of encrypted **Microsoft Open XML** files. To identify the file type, use the [FileFormatUtil.DetectFileFormat](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/detectfileformat/index) method as shown below in the code example.
+Aspose.Cells for Python via .NET provides a way to detect the file format of encrypted **Microsoft Open XML** files. To identify the file type, use the [FileFormatUtil.detect_file_format](https://reference.aspose.com/cells/python-net/aspose.cells/fileformatutil/detect_file_format/#str) method as shown below in the code example.
 
 
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-DetectFileFormatOfEncryptedFiles-1.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-DetectFileFormatOfEncryptedFiles-1.py" >}}
+

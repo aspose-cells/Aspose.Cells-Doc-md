@@ -1,5 +1,5 @@
 ---
-title: Check Password to modify using Aspose.Cells
+title: Check Password to modify using Aspose.Cells for Python via .NET
 type: docs
 weight: 2400
 url: /python-net/check-password-to-modify-using-aspose-cells/
@@ -7,7 +7,7 @@ url: /python-net/check-password-to-modify-using-aspose-cells/
 
 {{% alert color="primary" %}}
 
-Sometimes, you need to check if the given password matches with the **Password to modify** programmatically. Aspose.Cells provides WorkbookSettings.WriteProtection.ValidatePassword() method which you can use to check if the given Password to modify is correct or not.
+Sometimes, you need to check if the given password matches with the **Password to modify** programmatically. Aspose.Cells for Python via .NET provides WorkbookSettings.write_protection.validate_password() method which you can use to check if the given Password to modify is correct or not.
 
 {{% /alert %}}
 
@@ -18,11 +18,11 @@ You can assign **Password to open** and **Password to modify** while creating yo
 |![todo:image_alt_text](check-password-to-modify-using-aspose-cells_1.png)|
 | :- |
 
-## **Check Password to modify using Aspose.Cells**
+## **Check Password to modify using Aspose.Cells for Python via .NET**
 
 The following sample codes load the [source Excel](5112232.xlsx) file. It has a Password to open as 1234 and Password to modify as 5678. The code first checks if 567 is correct Password to modify and it returns false and then it checks if 5678 is Password to modify and it returns true.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CheckPasswordToModify-CheckPasswordToModifyUsingAsposeCells.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-CheckPasswordToModifyUsingAsposeCells.py" >}}
 
 ### **Console Output**
 
@@ -35,4 +35,4 @@ Is 567 correct Password to modify: False
 Is 5678 correct Password to modify: True
 
 {{< /highlight >}}
-{{< app/cells/assistant language="csharp" >}}
+

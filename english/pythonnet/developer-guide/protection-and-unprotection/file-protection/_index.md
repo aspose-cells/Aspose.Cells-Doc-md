@@ -3,14 +3,14 @@ title: Encrypt and Decrypt Excel files
 type: docs
 weight: 10
 url: /python-net/encrypt-and-decrypt-excel-files/
-description: How to encrypt and decrypt excel files using C#. Lock and unlock Excel files.
+description: How to encrypt and decrypt excel files using Python. Lock and unlock Excel files.
 ---
 
 {{% alert color="primary" %}}
 
 Microsoft Excel (97 - 365) enables you to encrypt and password protect your spreadsheets. It uses algorithms provided by a cryptographic service provider, or CSP, a set of cryptographic algorithms with different properties. The default CSP is 'Office 97/2000 Compatible' or 'Weak Encryption (XOR)'. It's important to choose the proper encryption key length. Some CSPs don't support more than 40 or 56 bits. That's considered to be weak encryption. For strong encryption, a minimum key length of 128 bits is required. Microsoft Windows contains CSPs that offer strong encryption types as well, for example the 'Microsoft Strong Cryptographic Provider'. To give you an idea, 128 bits encryption is what banks use to encrypt the connection with their Internet Banking systems.
 
-Aspose.Cells allows you to encrypt and password protect Microsoft Excel files with your desired encryption type.
+Aspose.Cells for Python via .NET allows you to encrypt and password protect Microsoft Excel files with your desired encryption type.
 
 {{% /alert %}}
 
@@ -25,21 +25,21 @@ To set file encryption settings in Microsoft Excel (here Microsoft Excel 2003):
 
 ## **Encrypting Excel file with Aspose.Cells**
 
-The following example shows how to encrypt and password protect an excel file using the Aspose.Cells API.
+The following example shows how to encrypt and password protect an excel file using the Aspose.Cells for Python via .NET API.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-EncryptingFiles-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-EncryptingFiles-1.py" >}}
 
 ### **Specifying Password to modify Option**
 
-The following example shows how to set the **Password to modify** Microsoft Excel option for an existing file using the Aspose.Cells API.
+The following example shows how to set the **Password to modify** Microsoft Excel option for an existing file using the Aspose.Cells for Python via .NET API.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-EncryptingFiles-SpecifyPasswordToModifyOption.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-SpecifyPasswordToModifyOption.py" >}}
 
 
 ## **Decrypting Excel file with Aspose.Cells**
-It is very to open password-protect excel file and decrypt using the Aspose.Cells API as following codes:
+It is very to open password-protect excel file and decrypt using the Aspose.Cells for Python via .NET API as following codes:
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Decrypt-Excel-File.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-Decrypt-Excel-File.py" >}}
 
 
 ## **Advance topics**
@@ -48,4 +48,3 @@ It is very to open password-protect excel file and decrypt using the Aspose.Cell
 - [Specify Author while Write Protecting Workbook](/cells/python-net/specify-author-while-write-protecting-workbook/)
 - [Verify Password of Encrypted Files](/cells/python-net/verify-password-of-encrypted-excel-and-ods-files/)
 
-{{< app/cells/assistant language="csharp" >}}
