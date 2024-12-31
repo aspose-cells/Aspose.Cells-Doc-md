@@ -133,20 +133,20 @@ The following code example demonstrates exporting active worksheet to PPTX by us
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToPptx-1.cs" >}}
 
 ## **Convert Excel Workbook to EPUB**
-`
+
 The Aspose.Cells API provides support for converting spreadsheets to EPUB format. To export the workbook to EPUB, pass [**SaveFormat.Epub**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) as the second parameter of [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) method. You may also use [**EBookSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/ebooksaveoptions) class to specify additional settings for exporting worksheet to Epub.
 
 The following code example demonstrates exporting active worksheet to EPUB by using [**SaveFormat.Epub**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) enumeration member.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToEpubFiles-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToEPUB-1.cs" >}}
 
 ## **Convert Excel Workbook to AZW3**
-`
+
 The Aspose.Cells API provides support for converting spreadsheets to AZW3 format. To export the workbook to AZW3, pass [**SaveFormat.Azw3**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) as the second parameter of [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) method. You may also use [**EBookSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/ebooksaveoptions) class to specify additional settings for exporting worksheet to AZW3.
 
 The following code example demonstrates exporting active worksheet to AZW3 by using [**SaveFormat.Azw3**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) enumeration member.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToAzw3-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToAZW3-1.cs" >}}
 
 ## **Advance topics**
 - [Convert Revision of XLSB to XLSM](/cells/net/convert-revision-of-xlsb-to-xlsm/)
