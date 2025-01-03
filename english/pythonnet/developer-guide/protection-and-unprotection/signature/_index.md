@@ -4,7 +4,7 @@ linktitle: Signature
 type: docs
 weight: 140
 url: /python-net/assign-and-validate-digital-signatures/
-description: Excel file digital signature, verification. To protect the authenticity of a workbook's content of Excel file, you can add a digital signature using C# codes with Aspose.Cells for .Net.
+description: Excel file digital signature, verification. To protect the authenticity of a workbook's content of Excel file, you can add a digital signature using C# codes with Aspose.Cells for Python via .NET.
 keywords: Excel file digital signature, Add digital signature for Excel, How to validate digital signature.
 ---
 
@@ -20,11 +20,11 @@ Use the Digital Signature dialog to attach a digital signature. The Digital Sign
 
 ## **How to Add Digital Signature for Excel**
 
-Aspose.Cells provides the [**Aspose.Cells.DigitalSignatures**](https://reference.aspose.com/cells/python-net/aspose.cells.digitalsignatures/digitalsignature) namespace to perform the job (assign and validate digital signatures). The namespace has some useful features for adding and validating digital signatures.
+Aspose.Cells for Python via .NET provides the [**Aspose.Cells.DigitalSignatures**](https://reference.aspose.com/cells/python-net/aspose.cells.digitalsignatures/digitalsignature) namespace to perform the job (assign and validate digital signatures). The namespace has some useful features for adding and validating digital signatures.
 
-Please see the following sample code that describes how you can perform the task using the Aspose.Cells for .NET API.
+Please see the following sample code that describes how you can perform the task using the Aspose.Cells for Python via .NET API.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-AssignAndValidateDigitalSignatures-AssignAndValidateDigitalSignatures.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-AssignAndValidateDigitalSignatures.py" >}}
 
 
 
@@ -32,4 +32,4 @@ Please see the following sample code that describes how you can perform the task
 - [Add Digital Signature to an already signed Excel file](/cells/python-net/add-digital-signature-to-an-already-signed-excel-file/)
 - [Add Signature line to the worksheet](/cells/python-net/add-signature-line/)
 - [Support for XAdES Signature](/cells/python-net/support-for-xades-signature/)
-{{< app/cells/assistant language="csharp" >}}
+

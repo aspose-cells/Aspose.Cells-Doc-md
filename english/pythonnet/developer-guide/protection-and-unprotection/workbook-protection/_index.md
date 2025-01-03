@@ -21,17 +21,17 @@ To prevent other users from viewing hidden worksheets, adding, moving, deleting,
 1. Select **OK**, re-enter the password to confirm it, and then select **OK** again.
 
 
-## **Protect Workbook Structure Using Aspose.Cell for .Net**
+## **Protect Workbook Structure Using Aspose.Cells for Python via .NET**
 Only need the following simple lines of code to implement protecting workbook structure of Excel files.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Example-Protect-Workbook-Structure.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-Protect-Workbook-Structure.py" >}}
 
-## **Unprotect Workbook Structure Using Aspose.Cell for .Net**
-Unprotecting workbook structure is easy with Aspose.Cells API.
+## **Unprotect Workbook Structure Using Aspose.Cells for Python via .NET**
+Unprotecting workbook structure is easy with Aspose.Cells for Python via .NET API.
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Example-Unprotect-Workbook-Structure.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-Unprotect-Workbook-Structure.py" >}}
 
 {{% alert color="primary" %}}
 Note: a correct password is required.
 {{% /alert %}}
-{{< app/cells/assistant language="csharp" >}}
+
