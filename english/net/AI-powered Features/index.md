@@ -1,5 +1,5 @@
 ---
-title: how to work with Cells AI
+title: AI-powered Features
 type: docs
 weight: 200
 keywords: AI,spreadsheet,AI features,AI power,Excel AI,OpenAI,Cells AI
