@@ -22,7 +22,7 @@ These protection settings restrict or allow users to:
 - Select locked or unlocked cells.
 - Use pivot tables and much more.
 
-Aspose.Cells supports all the advanced protection settings offered by Excel XP or later versions.
+Aspose.Cells for Python via .NET supports all the advanced protection settings offered by Excel XP or later versions.
 
 ### **Advanced Protection Settings Using Excel XP and Later Versions**
 
@@ -37,17 +37,17 @@ To view the protection settings available in Excel 2016
 
 Following the steps mention above will show a dialog where you can allow or restrict worksheets features or apply a password to the worksheet.
 
-### **Advanced Protection Settings Using Aspose.Cells**
+### **Advanced Protection Settings Using Aspose.Cells for Python via .NET**
 
-Aspose.Cells supports all of the advanced protection settings.
+Aspose.Cells for Python via .NET supports all of the advanced protection settings.
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) class contains a [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheetcollection) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class.
+Aspose.Cells for Python via .NET provides a class, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) class contains a [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheetcollection) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class.
 
 The [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class provides the [**protection**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/protection) property that is used to apply these advanced protection settings. The [**Protection**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/protection) property is in fact an object of the [**Protection**](https://reference.aspose.com/cells/python-net/aspose.cells/protection) class that encapsulates several Boolean properties for disabling or enabling restrictions.
 
 Below is a small example application. It opens an Excel file and uses most of the advanced protection settings supported by Excel XP and later versions.
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-AdvancedProtectionSettings-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-AdvancedProtectionSettings-1.py" >}}
 
 {{% alert color="primary" %}}
 
@@ -63,7 +63,7 @@ If you want to restrict users from editing cells the cells must be locked before
 | :- |
 |![todo:image_alt_text](advanced-protection-settings-since-excel-xp_1.png)|
 
-It is possible to lock cells using the Aspose.Cells API too. Each cell can get [**Style**](https://reference.aspose.com/cells/python-net/aspose.cells/style) formatting that contains a Boolean property, [**is_locked**](https://reference.aspose.com/cells/python-net/aspose.cells/style/is_locked). Set the [**is_locked**](https://reference.aspose.com/cells/python-net/aspose.cells/style/is_locked) property to **true** or **false** to lock or unlock the cell.
+It is possible to lock cells using the Aspose.Cells for Python via .NET API too. Each cell can get [**Style**](https://reference.aspose.com/cells/python-net/aspose.cells/style) formatting that contains a Boolean property, [**is_locked**](https://reference.aspose.com/cells/python-net/aspose.cells/style/is_locked). Set the [**is_locked**](https://reference.aspose.com/cells/python-net/aspose.cells/style/is_locked) property to **true** or **false** to lock or unlock the cell.
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-LockCell-1.py" >}}
+

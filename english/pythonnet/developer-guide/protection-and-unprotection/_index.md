@@ -4,13 +4,13 @@ linktitle: Encryption and Protection
 type: docs
 weight: 68
 url: /python-net/protect-and-unprotect/
-alias: [/net/security-features/]
+alias: [/python-net/security-features/]
 description: This snippet introduces how to encrypt and decrypt excel files, protect and unprotect the data in excel files using CSharp codes.
 ---
 
 
 {{% alert color="primary" %}}
-Aspose.Cells for .Net offers a wide range of protection and unprotection from file to data level like MS Excel:
+Aspose.Cells for Python via .NET offers a wide range of protection and unprotection from file to data level like MS Excel:
 {{% /alert %}}
 
 
@@ -34,4 +34,4 @@ Protect the authenticity of a document's content, you can add a digital signatur
 - [Detect File Format of Encrypted Office Open XML - OOXML Files](/cells/python-net/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Encrypting Excel Files](/cells/python-net/encrypting-excel-files/)
 - [How to Detect a File Format and Check if the File is Encrypted](/cells/python-net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
-{{< app/cells/assistant language="csharp" >}}
+
