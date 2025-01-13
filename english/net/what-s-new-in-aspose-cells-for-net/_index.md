@@ -8,6 +8,20 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 25.1
+* Support NET9
+* Support to skip calculation in user's custom engine for dynamic array formula which uses custom function
+* Support to get expression of external table reference in user's custom engine
+* Support to save autoshapes and free shapes to ods file
+* Support to read and write forms setting in the table
+* Support Format 2 subtable in cmap table of font
+* Simplify importing of list of rows data into cells
+* Upgrade dependency to remove vulnerability
+* Support more events for inserting/deleting/updating cells for GridJs
+* Support localized decimal separator for GridJs
+* Support searching for filter list for GridJs
+* Support multiple instances in one page for GridJs
+
 ## Aspose.Cells for .NET 24.12
 * Support notification of formula changes when inserting/deleting cell range
 * Support lambda functions of BYROW and BYCOL
