@@ -3,18 +3,18 @@ title: Combine Multiple Workbooks into a Single Workbook
 linktitle: Workbook Merger
 type: docs
 weight: 66
-url: /net/combine-multiple-workbooks-into-a-single-workbook/
+url: /python-net/combine-multiple-workbooks-into-a-single-workbook/
 ---
 
 {{% alert color="primary" %}}
 
-Sometimes, you need to combine workbooks with various content like images, charts and data into a single workbook. Aspose.Cells supports this feature. This article shows how to create a console application in Visual Studio and combine workbooks with a few, simple lines of code using Aspose.Cells.
+Sometimes, you need to combine workbooks with various content like images, charts and data into a single workbook. Aspose.Cells for Python via .NET supports this feature. This article shows how to create a console application in Visual Studio and combine workbooks with a few, simple lines of code using Aspose.Cells for Python via .NET.
 
 {{% /alert %}}
 
 ## **Combining Workbooks with Images and Charts**
 
-The example code combines two workbooks into a single workbook using Aspose.Cells. The code loads the source workbooks, uses the [**Workbook.combine()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/combine) method to combine them and saves the output workbook.
+The example code combines two workbooks into a single workbook using Aspose.Cells for Python via .NET. The code loads the source workbooks, uses the [**Workbook.combine()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/combine) method to combine them and saves the output workbook.
 
 ### **Source Workbooks**
 
@@ -51,9 +51,9 @@ You can use any source workbooks. These images are just for illustration purpose
 
 ![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CombineMultipleWorkbooksSingleWorkbook-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Merge-Workbooks-CombineMultipleWorkbooksSingleWorkbook-1.py" >}}
 
 ## **Advance topics**
-- [Combine Multiple Worksheets into a Single Worksheet](/cells/net/combine-multiple-worksheets-into-a-single-worksheet/)
-- [Merge Files](/cells/net/merge-files/)
-{{< app/cells/assistant language="csharp" >}}
+- [Combine Multiple Worksheets into a Single Worksheet](/cells/python-net/combine-multiple-worksheets-into-a-single-worksheet/)
+- [Merge Files](/cells/python-net/merge-files/)
+

@@ -7,7 +7,7 @@ url: /python-net/specify-document-version-of-the-excel-file-using-builtin-docume
 
 ## **Possible Usage Scenarios**
 
-You can change the **Version number** of Excel file by right-clicking the file and then selecting Properties > Details and then editing the **Version number** field. Please use [**BuiltInDocumentPropertyCollection.document_version**](https://reference.aspose.com/cells/python-net/aspose.cells.properties/builtindocumentpropertycollection/document_version) property to change it programmatically using Aspose.Cells APIs.
+You can change the **Version number** of Excel file by right-clicking the file and then selecting Properties > Details and then editing the **Version number** field. Please use [**BuiltInDocumentPropertyCollection.document_version**](https://reference.aspose.com/cells/python-net/aspose.cells.properties/builtindocumentpropertycollection/document_version) property to change it programmatically using Aspose.Cells for Python via .NET APIs.
 
 ## **Specify Document Version of the Excel File using BuiltIn Document Properties**
 
@@ -17,5 +17,5 @@ The following sample code creates a workbook and changes its built-in document p
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "LoadingSavingConvertingAndManaging-SpecifyDocumentVersionOfExcelFile.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Document-Properties-SpecifyDocumentVersionOfExcelFile.py" >}}
+

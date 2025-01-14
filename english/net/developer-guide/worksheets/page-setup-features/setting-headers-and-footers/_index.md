@@ -32,6 +32,7 @@ Script commands are special commands that allow you to set header and footer for
 |&T|The current time|
 |&A|The worksheet name|
 |&F|The file name without its path|
+|&&Text|Shows &Text. For example: &&WO will be displayed as &WO|
 |&"\<FontName>"|Represents a font name. For example: &"Arial"|
 |&"\<FontName>, \<FontStyle>"|Represents font name with style. For example: &"Arial,Bold"|
 |&\<FontSize>|Represents font size. For example: “&14abc”. But, if this command is followed by a plain number to be printed in the header, this should be separated with a space character from the font size. For example: “&14 123”.|

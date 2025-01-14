@@ -7,7 +7,7 @@ url: /python-net/specify-the-language-of-the-excel-file-using-builtin-document-p
 
 ## **Possible Usage Scenarios**
 
-You can change the Language of Excel file by right-clicking the file and then selecting Properties > Details and then editing the Language field. Please use [**BuiltInDocumentPropertyCollection.language**](https://reference.aspose.com/cells/python-net/aspose.cells.properties/builtindocumentpropertycollection/language) property to change it programmatically using Aspose.Cells APIs.
+You can change the Language of Excel file by right-clicking the file and then selecting Properties > Details and then editing the Language field. Please use [**BuiltInDocumentPropertyCollection.language**](https://reference.aspose.com/cells/python-net/aspose.cells.properties/builtindocumentpropertycollection/language) property to change it programmatically using Aspose.Cells for Python via .NET APIs.
 
 ## **Specify the Language of the Excel File using BuiltIn Document Properties**
 
@@ -17,5 +17,5 @@ The following sample code creates a workbook and changes its built-in document p
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DocumentProperties-SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Document-Properties-SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.py" >}}
+
