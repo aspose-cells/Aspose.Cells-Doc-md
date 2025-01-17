@@ -23,3 +23,4 @@ url: /net/aspose-cells-gridjs/
 - [Show Formula Explanation](/cells/net/aspose-cells-gridjs/how-to-show-formula-explanation/)
 - [Lazy Loading](/cells/net/aspose-cells-gridjs/how-to-do-lazy-loading/)
 - [Customize Menus & Toolbars](/cells/net/aspose-cells-gridjs/how-to-customize-menus/)
+- [Localization](/cells/net/aspose-cells-gridjs/localization/)
