@@ -166,6 +166,7 @@ Script commands are special commands provided by Aspose.Cells that allow develop
 |&T|The current time.|
 |&A|The worksheet's name.|
 |&F|The file name without the path.|
+|&&Text|Shows &Text. For example: &&WO will be displayed as &WO|
 |&"\<FontName>"|A font name. For example: &"Arial"|
 |&"\<FontName>, \<FontStyle>"|A font name with a style. For example: &"Arial,Bold"|
 |&\<FontSize>|Represents font size. For example: “&14abc”. But, if this command is followed by a plain number to be printed in the header, this should be separated with a space character from the font size. For example: “&14 123”.|

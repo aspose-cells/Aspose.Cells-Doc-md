@@ -2,8 +2,8 @@
 title: How to Format Number as Currency
 type: docs
 weight: 10
-url: /java/format-number-to-currency/
-description: This article will introduce how to format number to currency using Aspose.Cells for Java API.
+url: /nodejs-cpp/format-number-to-currency/
+description: This article will introduce how to format number to currency using Aspose.Cells for Node.js via C++ API.
 keywords: format number as currency, cell number settings, format number to currency, currency settings, currency format.
 ---
 
@@ -44,7 +44,6 @@ To format numbers as currency in Excel, follow these steps:
 
 ## **How to Format Number to Currency in Aspose.Cells**
 
-To format numbers as currency in Aspose.Cells for Java library for working with Excel files, you can apply currency formatting to cells programmatically. Here's how you can do it using Aspose.Cells for Java:
+To format numbers as currency in Aspose.Cells for Node.js via C++ library for working with Excel files, you can apply currency formatting to cells programmatically. Here's how you can do it using Aspose.Cells for Node.js via C++:
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Cells-Formatting-FormatNumberToCurrency.java" >}}
-{{< app/cells/assistant language="java" >}}
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FormatNumberToCurrency.js" >}}
