@@ -36,9 +36,10 @@ Let's use the VS2022 tool as an example to create the first Blazor WebAssembly A
 
    *Please note, the version of the added package "SkiaSharp.Views.Blazor" should be corresponding to the version of "SkiaSharp" referenced by Aspose.Cells for .NET. The versions of Aspose.Cells for .NET and the corresponding referenced "SKiaSharp" versions are described as following:*
 
-   | Aspose.Cells for .NET  | SkiaSharp |
-   | :--------------------: | :-------: |
-   |       >= 25.1.1        |  3.116.1  |
+   | Aspose.Cells for .NET |                SkiaSharp                |
+   | :-------------------: | :-------------------------------------: |
+   |       = 25.1.1        |                 3.116.1                 |
+   |       >=25.1.2        | 2.88.9(net6.0, net8.0), 3.116.1(net9.0) |
 
 4. Navigate to "Home.razor" file in "Pages" folder in the project, write code to add some data and shapes, and render into an image for display.
 

@@ -71,12 +71,13 @@ apk update && apk add fontconfig
 
 *Please note, the version of the added package "SkiaSharp.NativeAssets.Linux" or "SkiaSharp.NativeAssets.Linux.NoDependencies" should be corresponding to the version of "SkiaSharp" referenced by Aspose.Cells for .NET. The versions of Aspose.Cells for .NET and the corresponding referenced "SKiaSharp" versions are described as following:*
 
-| Aspose.Cells for .NET  | SkiaSharp |
-| :--------------------: | :-------: |
-| >= 22.10.1 && <= 22.11 |  2.88.0   |
-|  >= 22.12 && <= 23.9   |  2.88.3   |
-|  >= 23.10 && <= 24.12  |  2.88.6   |
-|       >= 25.1.1        |  3.116.1  |
+| Aspose.Cells for .NET  |                SkiaSharp                |
+| :--------------------: | :-------------------------------------: |
+| >= 22.10.1 && <= 22.11 |                 2.88.0                  |
+|  >= 22.12 && <= 23.9   |                 2.88.3                  |
+|  >= 23.10 && <= 24.12  |                 2.88.6                  |
+|        = 25.1.1        |                 3.116.1                 |
+|        >=25.1.2        | 2.88.9(net6.0, net8.0), 3.116.1(net9.0) |
 
 
 
