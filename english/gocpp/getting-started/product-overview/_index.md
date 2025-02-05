@@ -9,7 +9,7 @@ url: /go-cpp/product-overview/
 
 **![todo:image_alt_text](product-overview_1)**
 
-**Welcome to the Aspose.Cells for Go documentation section**
+**Welcome to the Aspose.Cells for Go via C++ documentation section**
 
 Aspose.Cells for Go via C++ is a native Go library that enables Go developers to create, manipulate and convert spreadsheets programmatically without requiring Office Automation or Microsoft Excel application.
 
