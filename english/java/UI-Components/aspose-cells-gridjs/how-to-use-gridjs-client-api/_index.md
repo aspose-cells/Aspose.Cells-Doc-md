@@ -25,30 +25,10 @@ We developed GridJs client based on [x-spreadsheet](https://github.com/myliang/x
 xs = x_spreadsheet(id, options)
     // the parameters are:
     id:the html node id ,for example :'#gridjs-demo' for the html  <div id="gridjs-demo"></div>
-    options:the load options,
-     // the parameters for options:
-	    updateMode:  currently we only support 'server'
-	    updateUrl:  set the server side  url for update action based on json
-		view: set the view size for the sheet,for example `{width: () => 1000, height: ()=> 500}`
-	    mode:        can be read or edit,   read means readonly spread sheet/edit means we can edit the spread sheet
-	    allowSelectTextInTextBoxInReadMode:   whether allow select text in TextBox control when in read mode,it is optional,the default value is false
-	    showToolbar:   means whether to show toolbar
-	    showCheckSyntaxButton: whether to show syntax checking & spell correction button in toolbar,it is optional,the default value is false
-	    checkSyntax:   whether to perform syntax checking & spell correction for user input for text content,work with setSyntaxCheckUrl,it is optional,the default value is false
-	    showFormulaExplain: whether to show formula explanation which applied on this cell when mouse move to the cell ,work together with setFormulaExplainUrl,it is optional,the default value is false
-	    showFormulaTip: whether to show the existed formula which applied on this cell when mouse move to the cell,it is optional,the default value is false
-	    showNonEditableSymbolInCell: whether to show the client side none editable symbol in cell,it is optional,the default value is false,if set to true,after click right context menu "Disable editing",the selected area which disable edit will show the symbol
-	    showFileName:  whether to show the filename 
-	    local:         set the localization info for menus &toolbars ,support multiple language,the value can be:
-	                        en, zh, es, pt, de, ru, nl, 
-	                   for  English,Chinese,Spanish,Portuguese,German,Russian,Dutch
-			        ar, fr,id,it,ja
-                           for  Arabic,French,Indonesian,Italian,Japanese
-			        ko,th,tr,vi,cht
-                           for  Korean,Thai,Turkey,Vietnamese,Traditional Chinese                  
-	    showContextmenu:   means whether to show contextmenu on right click on a cell,it is optional,the default value is true
-	    loadingGif:  the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
-	for example the below code init a x_spreadsheet object.
+    options: the load options
+     
+
+for example the below code init a gridjs_spreadsheet object.
 	xs = x_spreadsheet('#gridjs-demo', {
 			updateMode:'server',
 			updateUrl:'/GridJs2/UpdateCell',
@@ -58,6 +38,26 @@ xs = x_spreadsheet(id, options)
 			showContextmenu: true
 			})
 ```
+the parameters for load options:
+
+| Parameter | Description | Default Value | Optional |
+| --- | --- | --- | --- |
+| `allowSelectTextInTextBoxInReadMode` | Whether to allow text selection in TextBox controls when in read mode.<br>The default value is false. | `false` | Yes |
+| `checkSyntax` | Whether to perform syntax checking & spell correction for user input for text content.<br>Works with setSyntaxCheckUrl.<br>The default value is false. | `false` | Yes |
+| `loadingGif` | The loading GIF URL when loading images/shapes.<br>The default value is content/img/updating.gif. | `content/img/updating.gif` | Yes |
+| `local` | Set localization info for menus & toolbars, supporting multiple languages.<br>Possible values include:<br>- `en, zh, es, pt, de, ru, nl` (for English, Chinese, Spanish, Portuguese, German, Russian, Dutch)<br>- `ar, fr, id, it, ja` (for Arabic, French, Indonesian, Italian, Japanese)<br>- `ko, th, tr, vi, cht` (for Korean, Thai, Turkey, Vietnamese, Traditional Chinese) | `en` | Yes |
+| `mode` | Can be `read` or `edit`; `read` means a read-only spreadsheet; `edit` means the spreadsheet can be edited. | None | No |
+| `searchHighlightColor` | The highlight background color for the search term.<br>The color must include an alpha channel for transparency. | `#dbe71338` | Yes |
+| `showCheckSyntaxButton` | Whether to show syntax checking & spell correction buttons in the toolbar.<br>The default value is false. | `false` | Yes |
+| `showContextmenu` | Whether to show the context menu on right-click on a cell.<br>The default value is true. | `true` | Yes |
+| `showFileName` | Whether to show the filename. | `true` | Yes |
+| `showFormulaExplain` | Whether to show formula explanations applied to this cell when the mouse moves over it.<br>Works together with setFormulaExplainUrl.<br>The default value is false. | `false` | Yes |
+| `showFormulaTip` | Whether to show the existing formula applied to this cell when the mouse moves over it.<br>The default value is false. | `false` | Yes |
+| `showNonEditableSymbolInCell` | Whether to show a client-side non-editable symbol in the cell.<br>If set to true, after clicking the right context menu "Disable editing", the selected area which disables edit will show the symbol.<br>The default value is false. | `false` | Yes |
+| `showToolbar` | Whether to show the toolbar. | `true` | Yes |
+| `updateMode` | Currently, only supports `server`. | `server` | No |
+| `updateUrl` | Set the server-side URL for update actions based on JSON. | None | No |
+| `view` | Set the view size for the sheet, e.g., `{width: () => 1000, height: ()=> 500}`. | `{width: () => document.documentElement.clientWidth, height: () => document.documentElement.clientHeight }` | Yes |
     
 -  load with json data
 ```javascript
