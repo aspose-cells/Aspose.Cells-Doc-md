@@ -182,14 +182,107 @@ The example that follows shows how this works.
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-UsingNestedObjects-1.cs" >}}
+
+## **Using JSON Data**
+Aspose.Cells supports json data in smart markers, json data can be nested hierarchically. Please check [template file](smartmarker.xlsx), [json file](smartmarker.json) and the screenshot of the output excel file generated with the following code.
+
+|**The first worksheet of the smartmarker.xlsx file showing smart markers.**|
+| :- |
+|![todo:image_alt_text](jsontemplate.png)|
+
+|**The screenshot of the output excel file.**|
+| :- |
+|![todo:image_alt_text](jsonresult.png)|
+
+Json data as follows:
+```json data
+{
+    "EntityCin" : "EntityCin Test",
+    "EntityName" : "EntityName Test",
+    "FirstName" : "FirstName Test",
+    "MiddleName" : "MiddleName Test",
+    "LastName" : "LastName Test",
+    "DOB" : "2025-02-08",
+    "SSN" : "11111111",
+    "Directors" : [
+        {
+            "id" : "director id 1",
+            "FirstName" : "director first 1",
+            "MiddleName" : "director middle 1",
+            "LastName" : "director last 1",
+            "Reportees" : [
+                {
+                    "id" : "aaa",
+                    "FirstName" : "first aaa",
+                    "MiddleName" : "middle aaa",
+                    "LastName" : "last aaa",
+                    "Department" : "aaa department",
+                    "City" : "aaa city",
+                    "GST" : "Yes",
+                    "ITR" : "No"
+                },
+                {
+                    "id" : "bbb",
+                    "FirstName" : "first bbb",
+                    "MiddleName" : "middle bbb",
+                    "LastName" : "last bbb",
+                    "Department" : "bbb department",
+                    "City" : "bbb city",
+                    "GST" : "Yes",
+                    "ITR" : "Yes"
+                },
+                {
+                    "id" : "ccc",
+                    "FirstName" : "first ccc",
+                    "MiddleName" : "middle ccc",
+                    "LastName" : "last ccc",
+                    "Department" : "ccc department",
+                    "City" : "ccc city",
+                    "GST" : "No",
+                    "ITR" : "No"
+                }
+            ]
+        },
+        {
+            "id" : "director id 2",
+            "FirstName" : "director first 2",
+            "MiddleName" : "director middle 2",
+            "LastName" : "director last 2",
+            "Reportees" : [
+                {
+                    "id" : "eee",
+                    "FirstName" : "first eee",
+                    "MiddleName" : "middle eee",
+                    "LastName" : "last eee",
+                    "Department" : "eee department",
+                    "City" : "eee city",
+                    "GST" : "Yes",
+                    "ITR" : "No"
+                },
+                {
+                    "id" : "fff",
+                    "FirstName" : "first fff",
+                    "MiddleName" : "middle fff",
+                    "LastName" : "last fff",
+                    "Department" : "fff department",
+                    "City" : "fff city",
+                    "GST" : "No",
+                    "ITR" : "No"
+                }
+            ]
+        }
+    ]
+}
+```
+The example that follows shows how this works.
+
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "SmartMarkers-Using-JSON-Data.cs" >}}
+
 ## **Using Generic List as Nested Object**
 Aspose.Cells now also supports using generic list as a nested object. Please check the screenshot of the output excel file generated with the following code. As you can see in the screenshot a Teacher object contains multiple nested Student objects.
 
 |![todo:image_alt_text](using-smart-markers_8.png)|
 | :- |
-
-
-
 
 {{< gist  "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-SmartMarkers-UsingGenericList-1.cs" >}}
 ## **Using HTML property of Smart Markers**
