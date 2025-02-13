@@ -7,13 +7,13 @@ url: /nodejs-cpp/working-with-data-display-formats-of-datafield-in-pivot-table/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells supports all the data display formats of DataField.
+Aspose.Cells for Node.js via C++ supports all the data display formats of DataField.
 
 {{% /alert %}}
 
 ## **"Rank Smallest to Largest" and "Rank Largest to Smallest" display format option**
 
-ASpose.Cells provides the ability to set the display format option for pivot fields. For this, the API provides the [**PivotShowValuesSetting.setCalculationType**](https://reference.aspose.com/cells/nodejs-cpp/pivotshowvaluessetting/#setCalculationType-number-) property. To rank largest to smallest, you may set the [**PivotShowValuesSetting.setCalculationType**](https://reference.aspose.com/cells/nodejs-cpp/pivotshowvaluessetting/#setCalculationType-number-) property to [**PivotFieldDataDisplayFormat.RankLargestToSmallest**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfielddatadisplayformat). The following code snippet demonstrates setting the display format options.
+ASpose.Cells provides the ability to set the display format option for pivot fields. For this, the API provides the [**PivotShowValuesSetting.setCalculationType**](https://reference.aspose.com/cells/nodejs-cpp/pivotshowvaluessetting/#setCalculationType-pivotfielddatadisplayformat-) property. To rank largest to smallest, you may set the [**PivotShowValuesSetting.setCalculationType**](https://reference.aspose.com/cells/nodejs-cpp/pivotshowvaluessetting/#setCalculationType-pivotfielddatadisplayformat-) property to [**PivotFieldDataDisplayFormat.RankLargestToSmallest**](https://reference.aspose.com/cells/nodejs-cpp/pivotfielddatadisplayformat/). The following code snippet demonstrates setting the display format options.
 
 Sample source and output files can be downloaded from here for testing the sample code:
 
@@ -21,5 +21,5 @@ Sample source and output files can be downloaded from here for testing the sampl
 
 [Output Excel File](101089333.xlsx)
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTables-PivotTableDataDisplayFormatRanking-1.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-PivotTableDataDisplayFormatRanking-1.js" >}}
+
