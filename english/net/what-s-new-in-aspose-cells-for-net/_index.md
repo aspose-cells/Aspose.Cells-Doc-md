@@ -8,6 +8,16 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 25.2
+* Provide async APIs for time-consumed operations of loading, saving, formula calculation
+* Support to set rich text for cell while saving with LightCells
+* Support reading dif format file
+* Support reading and writing dbf (dBase) format file
+* Support WPS Compatible embedded image
+* Support to set readonly area in GridJs
+* Support to copy number format setting from ms excel to GridJS
+* Enhancement for automatic operations in GridJS for user's convenience, such as extending blank row/column, page scrolling, ...
+
 ## Aspose.Cells for .NET 25.1
 * Support NET9
 * Support to skip calculation in user's custom engine for dynamic array formula which uses custom function
