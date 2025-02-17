@@ -33,14 +33,14 @@ Aspose.Cells now provides high fidelity rendering of spreadsheet pages.
 |Render worksheet pages to raster images (Multipage TIFF, GIF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Render spreadsheet pages to vector images (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Specify image resolution, quality, compression and other options.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Print spreadsheet pages using the C++ printing infrastructure.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Print spreadsheet pages using the C++ printing infrastructure.|{{< emoticons/cross >}}|{{< emoticons/cross >}}|
 |Update page numbers and other fields before rendering or printing.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Spreadsheet Content Features**
 Aspose.Cells provides a rich object model that consists of over 100 public classes/interfaces, which allow you to programmatically generate, combine, modify, parse or otherwise examine loaded spreadsheets. Some key features are given in the below table.
 
 |**Feature**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
-|Import/export data from an Array, ArrayList, ResultSet etc.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Import/export data from an Array, ArrayList, ResultSet etc.|{{< emoticons/cross >}}|{{< emoticons/cross >}}|
 |Add a copy of existing worksheet (all contents including images, charts, other objects etc.)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Copy or move worksheets within or between workbooks|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Insert images|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
