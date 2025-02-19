@@ -1,5 +1,5 @@
 ---  
-title: Get Cell Validation in ODS Files with Node.js via C++  
+title: Get Cell Validation in ODS Files
 type: docs  
 weight: 180  
 url: /nodejs-cpp/get-cell-validation-in-ods-files/  
@@ -9,29 +9,13 @@ keywords: Get Cell Validation Node.js via C++, Obtain Cell Validation Node.js vi
 
 ## **Get Cell Validation in ODS Files**  
 
-With Aspose.Cells for Node.js via C++, you can get the validation applied to a cell in ODS files. For this, the API provides the [**getValidation**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getvalidation) method of the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell/) class.  
+With Aspose.Cells for Node.js via C++, you can get the validation applied to a cell in ODS files. For this, the API provides the [**Cell.getValidation()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getValidation--) method of the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell/) class.  
 
-The following code sample demonstrates the use of the [**getValidation**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getvalidation) method by loading the [source ODS](101089354.ods) file and reading the validation of the cell A9.  
+The following code sample demonstrates the use of the [**Cell.getValidation()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getValidation--) method by loading the [source ODS](101089354.ods) file and reading the validation of the cell A9.  
 
 ### **Sample Code**  
 
-```javascript
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-DataValidation-GetValidationInODSFile.js" >}}
 
-// The path to the documents directory.
-const sourceDir = path.join(__dirname, "data");
 
-// Load source Excel file
-const workbook = new AsposeCells.Workbook(path.join(sourceDir, "SampleBook1.ods"));
-
-// Access first worksheet
-const worksheet = workbook.getWorksheets().get(0);
-
-const cell = worksheet.getCells().get("A9");
-
-if (cell.getValidation() !== null) {
-    console.log(cell.getValidation().getType());
-}
-```  
   

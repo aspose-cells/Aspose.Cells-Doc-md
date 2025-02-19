@@ -1,5 +1,5 @@
 ---
-title: Data Filtering with Node.js via C++
+title: Data Filtering
 type: docs
 weight: 85
 url: /nodejs-cpp/data-filtering/
@@ -50,26 +50,7 @@ In each worksheet, you can only specify one filter range. This is limited by Mic
 
 In the example given below, we have created the same AutoFilter using Aspose.Cells for Node.js via C++ as we created using Microsoft Excel in the above section.
 
-```javascript
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
-
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-
-// Instantiating a Workbook object
-// Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(dataDir + "book1.xls");
-
-// Accessing the first worksheet in the Excel file
-const worksheet = workbook.getWorksheets().get(0);
-
-// Creating AutoFilter by giving the cells range of the heading row
-worksheet.getAutoFilter().setRange("A1:B1");
-
-// Saving the modified Excel file
-workbook.save(dataDir + "output.out.xls");
-```
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter.js" >}}
 
 #### **Different types of Filter**
 
@@ -82,43 +63,8 @@ Aspose.Cells provides a function AddFillColorFilter to filter data based upon th
 1. [ColouredCells.xlsx](72417315.xlsx)
 1. [FilteredColouredCells.xlsx](72417316.xlsx)
 
-```javascript
-const AsposeCells = require("aspose.cells.node");
-const path = require("path");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-FillColor.js" >}}
 
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-
-// Source directory
-const sourceDir = dataDir;
-
-// Output directory
-const outputDir = dataDir;
-
-// Instantiating a Workbook object
-// Opening the Excel file through the file stream
-let workbook = new AsposeCells.Workbook(path.join(sourceDir, "ColouredCells.xlsx"));
-
-// Instantiating a CellsColor object for foreground color
-let clrForeground = workbook.createCellsColor();
-clrForeground.color = AsposeCells.Color.fromArgb(255, 0, 0); // Red color
-
-// Instantiating a CellsColor object for background color
-let clrBackground = workbook.createCellsColor();
-clrBackground.color = AsposeCells.Color.fromArgb(255, 255, 255); // White color
-
-// Accessing the first worksheet in the Excel file
-let worksheet = workbook.getWorksheets().get(0);
-
-// Call AddFillColorFilter function to apply the filter
-worksheet.getAutoFilter().addFillColorFilter(0, AsposeCells.BackgroundType.Solid, clrForeground, clrBackground);
-
-// Call refresh function to update the worksheet
-worksheet.getAutoFilter().refresh();
-
-// Saving the modified Excel file
-workbook.save(path.join(outputDir, "FilteredColouredCells.xlsx"));
-```
 
 ##### **Date**
 
@@ -127,30 +73,8 @@ Different types of date filters can be implemented like filtering all the rows h
 1. [Date.xlsx](72417317.xlsx)
 1. [FilteredDate.xlsx](72417318.xlsx)
 
-```javascript
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-Date.js" >}}
 
-// The path to the documents directory.
-const sourceDir = path.join(__dirname, "data");
-const outputDir = path.join(__dirname, "output");
-
-// Instantiating a Workbook object
-// Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(path.join(sourceDir, "Date.xlsx"));
-
-// Accessing the first worksheet in the Excel file
-const worksheet = workbook.getWorksheets().get(0);
-
-// Call AddDateFilter function to apply the filter
-worksheet.getAutoFilter().addDateFilter(0, AsposeCells.DateTimeGroupingType.Month, 2018, 1, 0, 0, 0, 0);
-
-// Call refresh function to update the worksheet
-worksheet.getAutoFilter().refresh();
-
-// Saving the modified Excel file
-workbook.save(path.join(outputDir, "FilteredDate.xlsx"));
-```
 
 ##### **Dynamic Date**
 
@@ -159,30 +83,8 @@ Sometimes dynamic filters are required based on date like all the cells having d
 1. [Date.xlsx](72417317.xlsx)
 1. [FilteredDynamicDate.xlsx](72417319.xlsx)
 
-```javascript
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-DynamicFilter.js" >}}
 
-// The path to the documents directory.
-const sourceDir = path.join(__dirname, "data/");
-const outputDir = path.join(__dirname, "output/");
-
-// Instantiating a Workbook object
-// Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(`${sourceDir}Date.xlsx`);
-
-// Accessing the first worksheet in the Excel file
-const worksheet = workbook.getWorksheets().get(0);
-
-// Call DynamicFilter function to apply the filter
-worksheet.getAutoFilter().dynamicFilter(0, AsposeCells.DynamicFilterType.January);
-
-// Call refresh function to update the worksheet
-worksheet.getAutoFilter().refresh();
-
-// Saving the modified Excel file
-workbook.save(`${outputDir}FilteredDynamicDate.xlsx`);
-```
 
 ##### **Number**
 
@@ -191,30 +93,8 @@ Custom filters can be applied using Aspose.Cells like selecting cells having num
 1. [Number.xlsx](72417320.xlsx)
 1. [FilteredNumber.xlsx](72417321.xlsx)
 
-```javascript
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-Number.js" >}}
 
-// The path to the documents directory.
-const sourceDir = path.join(__dirname, "data");
-const outputDir = path.join(__dirname, "data");
-
-// Instantiating a Workbook object
-// Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(path.join(sourceDir, "Number.xlsx"));
-
-// Accessing the first worksheet in the Excel file
-const worksheet = workbook.getWorksheets().get(0);
-
-// Call Custom function to apply the filter
-worksheet.getAutoFilter().custom(0, AsposeCells.FilterOperatorType.GreaterOrEqual, 5, true, AsposeCells.FilterOperatorType.LessOrEqual, 10);
-
-// Call refresh function to update the worksheet
-worksheet.getAutoFilter().refresh();
-
-// Saving the modified Excel file
-workbook.save(path.join(outputDir, "FilteredNumber.xlsx"));
-```
 
 ##### **Text**
 
@@ -223,30 +103,8 @@ If a column contains text and cells are to be selected containing particular tex
 1. [Text.xlsx](72417322.xlsx)
 1. [FilteredText.xlsx](72417323.xlsx)
 
-```javascript
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-Text.js" >}}
 
-// The path to the documents directory.
-const sourceDir = path.join(__dirname, "data");
-const outputDir = path.join(__dirname, "output");
-
-// Instantiating a Workbook object
-// Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(path.join(sourceDir, "Text.xlsx"));
-
-// Accessing the first worksheet in the Excel file
-const worksheet = workbook.getWorksheets().get(0);
-
-// Call Filter function to apply the filter
-worksheet.getAutoFilter().filter(0, "Angola");
-
-// Call refresh function to update the worksheet
-worksheet.getAutoFilter().refresh();
-
-// Saving the modified Excel file
-workbook.save(path.join(outputDir, "FilteredText.xlsx"));
-```
 
 ##### **Blanks**
 
@@ -255,35 +113,8 @@ If a column contains text such that few cells are blank, and filter is required 
 1. [Blank.xlsx](72417324.xlsx)
 1. [FilteredBlank.xlsx](72417325.xlsx)
 
-```javascript
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-Blanks.js" >}}
 
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-
-// Source directory
-const sourceDir = path.join(dataDir, "source/");
-
-// Output directory
-const outputDir = path.join(dataDir, "output/");
-
-// Instantiating a Workbook object
-// Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(sourceDir + "Blank.xlsx");
-
-// Accessing the first worksheet in the Excel file
-const worksheet = workbook.getWorksheets().get(0);
-
-// Call MatchBlanks function to apply the filter
-worksheet.getAutoFilter().matchBlanks(0);
-
-// Call refresh function to update the worksheet
-worksheet.getAutoFilter().refresh();
-
-// Saving the modified Excel file
-workbook.save(outputDir + "FilteredBlank.xlsx");
-```
 
 ##### **Non Blanks**
 
@@ -292,34 +123,8 @@ When cells having any text are to be filtered, use MatchNonBlanks filter functio
 1. [Blank.xlsx](72417324.xlsx)
 1. [FilteredNonBlank.xlsx](72417326.xlsx)
 
-```javascript
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-NonBlanks.js" >}}
 
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-
-// Source directory
-const sourceDir = dataDir + "/"; // Assuming sourceDir is stored here
-// Output directory
-const outputDir = dataDir + "/"; // Assuming outputDir is stored here
-
-// Instantiating a Workbook object
-// Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(sourceDir + "Blank.xlsx");
-
-// Accessing the first worksheet in the Excel file
-const worksheet = workbook.getWorksheets().get(0);
-
-// Call MatchNonBlanks function to apply the filter
-worksheet.getAutoFilter().matchNonBlanks(0);
-
-// Call refresh function to update the worksheet
-worksheet.getAutoFilter().refresh();
-
-// Saving the modified Excel file
-workbook.save(outputDir + "FilteredNonBlank.xlsx");
-```
 
 ##### **Custom filter with Contains**
 
@@ -328,31 +133,8 @@ Excel provides custom filters like filter rows which contain some specific strin
 1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx)
 1. [outSourseSampleCountryNames.xlsx](outSourseSampleCountryNames.xlsx).
 
-```javascript
-const AsposeCells = require("aspose.cells.node");
-const path = require("path");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-Custom-Contains.js" >}}
 
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-
-// Instantiating a Workbook object containing sample data
-let workbook = new AsposeCells.Workbook(path.join(dataDir, "sourseSampleCountryNames.xlsx"));
-
-// Accessing the first worksheet in the Excel file
-let worksheet = workbook.getWorksheets().get(0);
-
-// Creating AutoFilter by giving the cells range
-worksheet.getAutoFilter().setRange("A1:A18");
-
-// Initialize filter for rows containing string "Ba"
-worksheet.getAutoFilter().custom(0, AsposeCells.FilterOperatorType.Contains, "Ba");
-
-// Refresh the filter to show/hide filtered rows
-worksheet.getAutoFilter().refresh();
-
-// Saving the modified Excel file
-workbook.save(path.join(dataDir, "outSourseSampleCountryNames.xlsx"));
-```
 
 ##### **Custom filter with NotContains**
 
@@ -360,31 +142,8 @@ Excel provides custom filters like filter rows which do not contain some specifi
 
 1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
 
-```javascript
-const AsposeCells = require("aspose.cells.node");
-const path = require("path");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-Custom-NotContains.js" >}}
 
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-
-// Instantiating a Workbook object containing sample data
-const workbook = new AsposeCells.Workbook(path.join(dataDir, "sourseSampleCountryNames.xlsx"));
-
-// Accessing the first worksheet in the Excel file
-const worksheet = workbook.getWorksheets().get(0);
-
-// Creating AutoFilter by giving the cells range
-worksheet.getAutoFilter().setRange("A1:A18");
-
-// Initialize filter for rows containing string "Ba"
-worksheet.getAutoFilter().custom(0, AsposeCells.FilterOperatorType.NotContains, "Be");
-
-// Refresh the filter to show/hide filtered rows
-worksheet.getAutoFilter().refresh();
-
-// Saving the modified Excel file
-workbook.save(path.join(dataDir, "outSourseSampleCountryNames.xlsx"));
-```
 
 ##### **Custom filter with BeginsWith**
 
@@ -392,32 +151,8 @@ Excel provides custom filters like filter rows which begin with some specific st
 
 1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
 
-```javascript
-const AsposeCells = require("aspose.cells.node");
-const path = require("path");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-Custom-BeginsWith.js" >}}
 
-// The path to the documents directory.
-const sourceDir = path.join(__dirname, "data/");
-const outputDir = path.join(__dirname, "output/");
-
-// Instantiating a Workbook object containing sample data
-let workbook = new AsposeCells.Workbook(sourceDir + "sourseSampleCountryNames.xlsx");
-
-// Accessing the first worksheet in the Excel file
-let worksheet = workbook.getWorksheets().get(0);
-
-// Creating AutoFilter by giving the cells range
-worksheet.getAutoFilter().setRange("A1:A18");
-
-// Initialize filter for rows starting with string "Ba"
-worksheet.getAutoFilter().custom(0, AsposeCells.FilterOperatorType.BeginsWith, "Ba");
-
-// Refresh the filter to show/hide filtered rows
-worksheet.getAutoFilter().refresh();
-
-// Saving the modified Excel file
-workbook.save(outputDir + "outSourseSampleCountryNames.xlsx");
-```
 
 ##### **Custom filter with EndsWith**
 
@@ -425,32 +160,8 @@ Excel provides custom filters like filter rows which end with some specific stri
 
 1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
 
-```javascript
-const AsposeCells = require("aspose.cells.node");
-const path = require("path");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-Custom-EndsWith.js" >}}
 
-// The path to the documents directory.
-const sourceDir = path.join(__dirname, "data/");
-const outputDir = path.join(__dirname, "output/");
-
-// Instantiating a Workbook object containing sample data
-const workbook = new AsposeCells.Workbook(sourceDir + "sourseSampleCountryNames.xlsx");
-
-// Accessing the first worksheet in the Excel file
-const worksheet = workbook.getWorksheets().get(0);
-
-// Creating AutoFilter by giving the cells range
-worksheet.getAutoFilter().setRange("A1:A18");
-
-// Initialize filter for rows end with string "ia"
-worksheet.getAutoFilter().custom(0, AsposeCells.FilterOperatorType.BeginsWith, "ia");
-
-// Refresh the filter to show/hide filtered rows
-worksheet.getAutoFilter().refresh();
-
-// Saving the modified Excel file
-workbook.save(outputDir + "outSourseSampleCountryNames.xlsx");
-```
 
 ## **Advance topics**
 - [Apply Advanced Filter of Microsoft Excel to Display Records Meeting Complex Criteria](/cells/nodejs-cpp/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)

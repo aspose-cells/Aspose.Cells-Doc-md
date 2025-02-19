@@ -1,5 +1,5 @@
 ---
-title: How to Filter Blanks or Non-Blanks with Node.js via C++
+title: How to Filter Blanks or Non-Blanks
 type: docs
 weight: 85
 url: /nodejs-cpp/how-to-filter-blanks-and-non-blanks/
@@ -40,64 +40,16 @@ In Excel, you can easily filter blanks or non-blanks using the filtering options
 <image src="5.png" width="70%" />
 
 ## **How to Filter Blanks using Aspose.Cells for Node.js via C++**
-If a column contains text such that few cells are blank, and filter is required to select those rows only where blank cells are present, [AutoFilter.matchBlanks(int fieldIndex)](https://reference.aspose.com/cells/nodejs-cpp/autofilter/#matchBlanks-int-) and [AutoFilter.addFilter(int fieldIndex, string criteria)](https://reference.aspose.com/cells/nodejs-cpp/autofilter/#addFilter-int-string-) functions can be used as demonstrated below. 
+If a column contains text such that few cells are blank, and filter is required to select those rows only where blank cells are present, [**AutoFilter.matchBlanks(number)**](https://reference.aspose.com/cells/nodejs-cpp/autofilter/#matchBlanks-number-) and [**AutoFilter.addFilter(number, string)**](https://reference.aspose.com/cells/nodejs-cpp/autofilter/#addFilter-number-string-) functions can be used as demonstrated below. 
 
 Please see the following sample code that loads the [sample Excel file](sample.xlsx) which contains some dummy data. The sample code uses three methods to filter blanks. It then saves the workbook as [output Excel file](FilteredBlanks.xlsx). 
 
-```javascript
-const AsposeCells = require("aspose.cells.node");
-const path = require("path");
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-FilterBlanks.js" >}}
 
-// Instantiating a Workbook object
-// Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(path.join(dataDir, "sample.xlsx"));
-
-// Accessing the first worksheet in the Excel file
-const worksheet = workbook.getWorksheets().get(0);
-
-// Method 1: Call MatchBlanks function to apply the filter
-// worksheet.getAutoFilter().matchBlanks(1);
-
-// Method 2: Call AddFilter function and set criteria to ""
-// worksheet.getAutoFilter().addFilter(1, "");
-
-// Method 3: Call AddFilter function and set criteria to null
-worksheet.getAutoFilter().addFilter(1, null);
-
-// Call refresh function to update the worksheet
-worksheet.getAutoFilter().refresh();
-
-// Saving the modified Excel file
-workbook.save(path.join(dataDir, "FilteredBlanks.xlsx"));
-```
 
 ## **How to Filter Non-Blanks using Aspose.Cells for Node.js via C++**
 
 Please see the following sample code that loads the [sample Excel file](sample.xlsx) which contains some dummy data. After loading the file, call the [AutoFilter.matchNonBlanks(int fieldIndex)](https://reference.aspose.com/cells/nodejs-cpp/autofilter/#matchNonBlanks-int-) function to filter non-blank data, and finally save the workbook as [output Excel file](FilteredNonBlanks.xlsx). 
 
-```javascript
-const AsposeCells = require("aspose.cells.node");
-const path = require("path");
-
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-
-// Instantiating a Workbook object
-// Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(path.join(dataDir, "sample.xlsx"));
-
-// Accessing the first worksheet in the Excel file
-const worksheet = workbook.getWorksheets().get(0);
-
-// Call MatchNonBlanks function to apply the filter
-worksheet.getAutoFilter().matchNonBlanks(1);
-
-// Call refresh function to update the worksheet
-worksheet.getAutoFilter().refresh();
-
-// Saving the modified Excel file
-workbook.save(path.join(dataDir, "FilteredNonBlanks.xlsx"));
-```
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-FilterNonBlanks.js" >}}
 

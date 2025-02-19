@@ -1,5 +1,5 @@
 ---  
-title: Apply Advanced Filter of Microsoft Excel to Display Records Meeting Complex Criteria with Node.js via C++  
+title: Apply Advanced Filter of Microsoft Excel to Display Records Meeting Complex Criteria
 type: docs  
 weight: 280  
 url: /nodejs-cpp/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/  
@@ -13,7 +13,7 @@ Microsoft Excel allows you to apply *Advanced Filter* on worksheet data to displ
 
 ![todo:image_alt_text](1.png)  
 
-Aspose.Cells for Node.js via C++ also allows you to apply the Advanced Filter using the [**Worksheet.advancedFilter()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/methods/advancedfilter) method. Just like Microsoft Excel, it accepts the following parameters.  
+Aspose.Cells for Node.js via C++ also allows you to apply the Advanced Filter using the [**Worksheet.advanced_Filter()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#advanced_Filter-boolean-string-string-string-boolean-) method. Just like Microsoft Excel, it accepts the following parameters.  
 
 **isFilter**  
 
@@ -43,26 +43,6 @@ The following sample code applies the advanced filter on the [Sample Excel File]
 
 ## **Sample Code**  
 
-```javascript
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-AdvancedFilter.js" >}}
 
-// The path to the documents directory.
-const sourceDir = path.join(__dirname, "data");
-const outputDir = path.join(__dirname, "output");
-
-// Load your source workbook
-const wb = new AsposeCells.Workbook(path.join(sourceDir, "sampleAdvancedFilter.xlsx"));
-
-// Access first worksheet
-const ws = wb.getWorksheets().get(0);
-
-// Apply advanced filter on range A5:D19 and criteria range is A1:D2
-// Besides, we want to filter in place
-// And, we want all filtered records not just unique records
-ws.advancedFilter(true, "A5:D19", "A1:D2", "", false);
-
-// Save the workbook in xlsx format
-wb.save(path.join(outputDir, "outputAdvancedFilter.xlsx"), AsposeCells.SaveFormat.Xlsx);
-```  
   
