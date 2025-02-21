@@ -32,30 +32,26 @@ Create a file named `Dockerfile` in your project [directory](https://github.com/
 Here is a sample [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs/Dockerfile) for GridJs demo with java application:
 
 ```dockerfile
-# Use the jdk8 image
-FROM eclipse/ubuntu_jdk8
+# Use the maven image to build jar file
+FROM maven:3.8.6-amazoncorretto-17 AS build
 WORKDIR /usr/src/app
  
 
 # copy local Maven files to container
-COPY mvnw .
 COPY .mvn .mvn
 COPY pom.xml .
 COPY src src
 
 # build application with maven
-RUN ./mvnw package -DskipTests
+RUN mvn  package -DskipTests
 
-# Set the user
-USER root
+ 
+# Use the jdk8 image as the basic docker image
+FROM eclipse/ubuntu_jdk8
+WORKDIR /app
+# copy build jar file to target container 
+COPY --from=build /usr/src/app/target/*.jar /app/app.jar
 
-#RUN ls -l *
-
-# copy the build output jar to container
-COPY  target/*.jar /app/app.jar
-
-# delete build source to reduce storage usage
-RUN rm -rf target && rm -rf .mvn && rm -rf src
 # web port
 EXPOSE 8080
 # if you want display better like in windows ,you need to install kinds of fonts in /usr/share/fonts/ 
@@ -65,6 +61,8 @@ EXPOSE 8080
 # COPY fonts/* /usr/share/fonts/
 # the basic file path which contains the spread sheet files 
 RUN mkdir -p /app/wb
+# the file path to store the uploaded files
+RUN mkdir -p /app/uploads
 # the cache file path for GridJs
 RUN mkdir -p /app/grid_cache/streamcache
 # we provide some sample spread sheet files in demo 
@@ -85,11 +83,20 @@ you can replace gridjs-demo-java with the name you want to give your Docker imag
 Once the image is built, you can run a container using the following command:
 
 ```bash
-docker run -d -p 8080:80 --name gridjs-demo-container  gridjs-demo-java
+docker run -d -p 8080:80   -v C:/path/to/license.txt:/app/license --name gridjs-demo-container  gridjs-demo-java
 ```
+
+or just run the demo in trial mode:
+
+
+```bash
+docker run -d -p 8080:80  --name gridjs-demo-container  gridjs-demo-java
+```
+
 Explanation of Docker Run Command Options
 -d: Run the container in detached mode (in the background).
 -p 8080:80: Map port 80 in the container to port 8080 on the host machine.
+-v C:/path/to/license.txt:/app/license:  Map license file path on the host machine to the file path in container.
 --name gridjs-demo-container: Assign a name to the container.
 
 ## Step 5: Verify the Container is Running
