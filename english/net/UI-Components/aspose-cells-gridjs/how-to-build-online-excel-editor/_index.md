@@ -65,6 +65,8 @@ WORKDIR /app
 # COPY fonts/* /usr/share/fonts/
 # the basic file path which contains the spread sheet files 
 RUN mkdir -p /app/wb
+# the file path to store the uploaded files
+RUN mkdir -p /app/uploads
 # the cache file path for GridJs
 RUN mkdir -p /app/grid_cache
 # we provide some sample spread sheet files in demo 
@@ -87,11 +89,21 @@ you can replace gridjs-demo-net6 with the name you want to give your Docker imag
 Once the image is built, you can run a container using the following command:
 
 ```bash
+docker run -d -p 24262:80 -v C:/path/to/license.txt:/app/license --name gridjs-demo-container  gridjs-demo-net6
+```
+
+or just run the demo in trial mode:
+
+
+```bash
 docker run -d -p 24262:80 --name gridjs-demo-container  gridjs-demo-net6
 ```
+
+
 Explanation of Docker Run Command Options
 -d: Run the container in detached mode (in the background).
 -p 24262:80: Map port 80 in the container to port 24262 on the host machine.
+-v C:/path/to/license.txt:/app/license:  Map license file path on the host machine to the file path in container.
 --name gridjs-demo-container: Assign a name to the container.
 
 ## Step 5: Verify the Container is Running
