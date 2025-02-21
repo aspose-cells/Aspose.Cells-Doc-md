@@ -32,8 +32,8 @@ Create a file named `Dockerfile` in your project [directory](https://github.com/
 Here is a sample [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/blob/main/Examples_GridJs_Python_Net/Dockerfile) for GridJs demo with python application:
 
 ```dockerfile
-# use Python 3.11 as parent image
-FROM python:3.11-slim  
+# use Python 3.13 as parent image
+FROM python:3.13-slim
 # web port
 EXPOSE 2022
 
@@ -61,7 +61,11 @@ COPY . /app
   
  
 RUN pip install --no-cache-dir -r requirements.txt  
+# the basic file path which contains the spread sheet files 
 RUN mkdir -p /app/wb
+# the file path to store the uploaded files
+RUN mkdir -p /app/uploads
+# the cache file path for GridJs
 RUN mkdir -p /app/grid_cache/  
 COPY wb/*.xlsx /app/wb/
 
@@ -82,11 +86,20 @@ you can replace gridjs-demo-python with the name you want to give your Docker im
 Once the image is built, you can run a container using the following command:
 
 ```bash
+docker run -d -p 2022:2022   -v C:/path/to/license.txt:/app/license  --name gridjs-demo-container  gridjs-demo-python
+```
+
+or just run the demo in trial mode:
+
+
+```bash
 docker run -d -p 2022:2022 --name gridjs-demo-container  gridjs-demo-python
 ```
+
 Explanation of Docker Run Command Options
 -d: Run the container in detached mode (in the background).
 -p 2022:2022: Map port 2022 in the container to port 2022 on the host machine.
+-v C:/path/to/license.txt:/app/license:  Map license file path on the host machine to the file path in container.
 --name gridjs-demo-container: Assign a name to the container.
 
 ## Step 5: Verify the Container is Running
