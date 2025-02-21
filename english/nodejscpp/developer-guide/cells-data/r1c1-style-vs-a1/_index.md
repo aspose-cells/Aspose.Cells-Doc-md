@@ -1,5 +1,5 @@
 ---
-title: Excel – R1C1 Reference Style vs. A1 with Node.js via C++
+title: Excel – R1C1 Reference Style vs. A1
 type: docs
 weight: 30
 url: /nodejs-cpp/r1c1-reference-style-vs-a1/

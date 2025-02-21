@@ -1,5 +1,5 @@
 ---
-title: How to Lock Cells to Protect Them with Node.js via C++
+title: How to Lock Cells to Protect Them
 type: docs
 weight: 130
 url: /nodejs-cpp/how-to-lock-cells-to-protect-them/
@@ -38,40 +38,8 @@ Here's how you can lock cells in Microsoft Excel:
 
 Aspose.Cells is a powerful library for working with Excel files programmatically. To lock cells using Aspose.Cells for Node.js via C++, you need to follow these steps: load [sample file](sample.xlsx), unlock all cells first (since, by default, all cells are locked but not enforced until the worksheet is protected), then lock the specific cells you want to protect, and finally protect the worksheet to enforce the locking.
 
-```javascript
-const AsposeCells = require("aspose.cells.node");
-const path = require("path");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-lock-cells-to-protect-them.js" >}}
 
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-
-// Load the Excel file
-let workbook = new AsposeCells.Workbook(path.join(dataDir, "sample.xlsx"));
-
-// Access the first worksheet
-let sheet = workbook.getWorksheets().get(0);
-
-// Unlock all cells first
-let unlockStyle = workbook.createStyle();
-unlockStyle.setLocked(false);
-
-let styleFlag = new AsposeCells.StyleFlag();
-styleFlag.setLocked(true);
-sheet.getCells().applyStyle(unlockStyle, styleFlag);
-
-// Lock specific cells (e.g., A1 and B2)
-let lockStyle = workbook.createStyle();
-lockStyle.setLocked(true);
-
-sheet.getCells().get("A1").setStyle(lockStyle);
-sheet.getCells().get("B2").setStyle(lockStyle);
-
-// Protect the worksheet to enforce the locking
-sheet.protect(AsposeCells.ProtectionType.All);
-
-// Save the modified workbook
-workbook.save(path.join(dataDir, "output_locked.xlsx"));
-```
 
 ## **Output Result**
 This code ensures that only the specified cells (A1 and B2 in this example) are locked, and the worksheet is protected to enforce these settings. All other cells in the worksheet remain unlocked and editable.

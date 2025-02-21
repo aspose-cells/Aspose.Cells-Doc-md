@@ -1,5 +1,5 @@
 ---
-title: Add Image Hyperlinks with Node.js via C++
+title: Add Image Hyperlinks
 type: docs
 weight: 140
 url: /nodejs-cpp/add-image-hyperlinks/
@@ -15,49 +15,5 @@ Hyperlinks are useful for accessing information on other worksheets, or on websi
 
 Aspose.Cells for Node.js via C++ allows you to add hyperlinks to images in spreadsheets at runtime. It is possible to set and modify the link's screen tip and address. The following sample code illustrates how to add an image hyperlink into a worksheet.
 
-```javascript
-const AsposeCells = require("aspose.cells.node");
-const path = require("path");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Hyperlinks-AddImageHyperlinks.js" >}}
 
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-
-// Create directory if it is not already present.
-const fs = require("fs");
-if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir);
-}
-
-// Instantiate a new workbook
-let workbook = new AsposeCells.Workbook();
-
-// Get the first worksheet
-let worksheet = workbook.getWorksheets().get(0);
-
-// Insert a string value to a cell
-worksheet.getCells().get("C2").putValue("Image Hyperlink");
-
-// Set the 4th row height
-worksheet.getCells().setRowHeight(3, 100);
-
-// Set the C column width
-worksheet.getCells().setColumnWidth(2, 21);
-
-// Add a picture to the C4 cell
-let index = worksheet.getPictures().add(3, 2, 4, 3, path.join(dataDir, "aspose-logo.jpg"));
-
-// Get the picture object
-let pic = worksheet.getPictures().get(index);
-
-// Set the placement type
-pic.setPlacement(AsposeCells.Drawing.PlacementType.FreeFloating);
-
-// Add an image hyperlink
-let hlink = pic.addHyperlink("http://www.aspose.com/");
-
-// Specify the screen tip
-hlink.setScreenTip("Click to go to Aspose site");
-let outputFilePath = path.join(dataDir, "ImageHyperlink.out.xls");
-// Save the Excel file
-workbook.save(outputFilePath);
-```
