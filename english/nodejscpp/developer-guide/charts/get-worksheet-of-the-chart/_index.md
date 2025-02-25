@@ -1,0 +1,50 @@
+---
+title: Get Worksheet of the Chart with Node.js via C++
+linktitle: Get Worksheet of the Chart
+description: Learn how to retrieve the worksheet associated with an Excel chart using Aspose.Cells for Node.js via C++. Access and manipulate the underlying data of the chart efficiently.
+keywords: Aspose.Cells for Node.js, Excel charts, worksheets, data manipulation, underlying data, operations, Node.js via C++
+type: docs
+weight: 1000
+url: /nodejs-cpp/get-worksheet-of-the-chart/
+---
+
+{{% alert color="primary" %}}
+
+Sometimes, you want to access a worksheet from a chart's reference. Aspose.Cells provides the [**Chart.worksheet**](https://reference.aspose.com/cells/nodejs-cpp/chart/#worksheet) property which returns the reference of the worksheet that contains the chart.
+
+{{% /alert %}}
+
+The following example shows how to use the [**Chart.worksheet**](https://reference.aspose.com/cells/nodejs-cpp/chart/#worksheet) property. The code first prints the name of the worksheet, then accesses the first chart on the worksheet. It then prints the worksheet name again, using the [**Chart.worksheet**](https://reference.aspose.com/cells/nodejs-cpp/chart/#worksheet) property.
+
+```javascript
+const path = require("path");
+const AsposeCells = require("aspose.cells.node");
+
+// The path to the documents directory.
+const dataDir = path.join(__dirname, "data");
+
+// Loads the workbook which contains hidden external links
+const workbook = new AsposeCells.Workbook(path.join(dataDir, "sample.xlsx"));
+
+// Access first worksheet of the workbook
+const worksheet = workbook.getWorksheets().get(0);
+
+// Print worksheet name
+console.log("Sheet Name: " + worksheet.getName());
+
+// Access the first chart inside this worksheet
+const chart = worksheet.getCharts().get(0);
+
+// Access the chart's sheet and display its name again
+console.log("Chart's Sheet Name: " + chart.getWorksheet().getName());
+```
+
+Below is the console output that the sample code results in. As you can see, it prints the same worksheet name both times.
+
+{{< highlight javascript >}}
+
+Sheet Name: Portfolio
+
+Chart's Sheet Name: Portfolio
+
+{{< /highlight >}}
