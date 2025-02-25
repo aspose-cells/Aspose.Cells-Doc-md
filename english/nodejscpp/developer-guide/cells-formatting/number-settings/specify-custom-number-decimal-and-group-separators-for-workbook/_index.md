@@ -1,5 +1,5 @@
 ---
-title: Specify Custom Number Decimal and Group Separators for Workbook with Node.js via C++
+title: Specify Custom Number Decimal and Group Separators for Workbook
 linktitle: Specify Custom Number Decimal and Group Separators for Workbook
 type: docs
 weight: 110
@@ -12,7 +12,7 @@ keywords: specify custom decimal separator excel node.js via C++, specify custom
 
 In Microsoft Excel, you can specify the Custom Decimal and Thousands Separators instead of using System Separators from the **Advanced Excel Options** as shown in the screenshot below.
 
-Aspose.Cells provides the [**WorkbookSettings.numberDecimalSeparator**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#numberDecimalSeparator-string-) and [**WorkbookSettings.numberGroupSeparator**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#numberGroupSeparator-string-) properties to set the custom separators for formatting/parsing numbers.
+Aspose.Cells provides the [**WorkbookSettings.setNumberDecimalSeparator(string)**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#setNumberDecimalSeparator-string-) and [**WorkbookSettings.setNumberGroupSeparator(string)**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#setNumberGroupSeparator-string-) methods to set the custom separators for formatting/parsing numbers.
 
 {{% /alert %}}
 
@@ -28,33 +28,6 @@ The following sample code illustrates how to specify the Custom Separators using
 
 ### Node.js code to specify custom Number Decimal and Group Separators
 
-```javascript
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-NumberSetting-SpecifyCustomNumberDecimalAndGroupSeparators.js" >}}
 
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "sample.xlsx");
-// Loads the workbook which contains hidden external links
-const workbook = new AsposeCells.Workbook(filePath);
 
-// Specify custom separators
-workbook.getSettings().setNumberDecimalSeparator('.');
-workbook.getSettings().setNumberGroupSeparator(' ');
-
-const worksheet = workbook.getWorksheets().get(0);
-
-// Set cell value
-const cell = worksheet.getCells().get("A1");
-cell.putValue(123456.789);
-
-// Set custom cell style
-const style = cell.getStyle();
-style.setCustom("#,##0.000;[Red]#,##0.000");
-cell.setStyle(style);
-
-worksheet.autoFitColumns();
-
-// Save workbook as pdf
-workbook.save(path.join(dataDir, "CustomSeparator_out.pdf"));
-```

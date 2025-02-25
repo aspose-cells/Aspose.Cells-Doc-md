@@ -1,5 +1,5 @@
 ---
-title: List of Supported Number Formats with Node.js via C++
+title: List of Supported Number Formats
 linktitle: List of Supported Number Formats
 description: Aspose.Cells is a Node.js library for processing spreadsheet files, which supports a range of number formats. This article provides a list of supported number formats so that users can select the appropriate format according to their needs.
 keywords: Aspose.Cells, Node.js library, spreadsheet, number format, list, supported

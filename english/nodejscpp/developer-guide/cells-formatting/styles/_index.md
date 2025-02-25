@@ -1,5 +1,5 @@
 ---
-title: Get and Set Style for cells with Node.js via C++
+title: Get and Set Style for cells
 description: Discover how to perform data formatting and styling in Aspose.Cells for Node.js via C++, including text formatting, number formatting, date formatting, and other styling options. Our guide will help you create professional-looking spreadsheets with attractive formatting.
 keywords: Aspose.Cells for Node.js via C++, data formatting, styling, text formatting, number formatting, date formatting, styling options, spreadsheets, attractive formatting, professional-looking.
 linktitle: Styles
@@ -21,7 +21,7 @@ With the following piece of code, a Style object is initiated for each cell when
 **JavaScript**
 
 {{< highlight javascript >}}
-cell.getStyle().font.isBold = true;
+cell.getStyle().getFont().setIsBold(true);
 {{< /highlight >}}
 ### **Using setStyle()**
 The first approach is easy and straight-forward so why did we add the second approach?
@@ -35,7 +35,7 @@ When calling the Cell.setStyle method, the Style object isn't saved for each cel
 {{< highlight javascript >}}
 let style = cell.getStyle();
 
-style.font.isBold = true;
+style.getFont().setIsBold(true);
 
 cell.setStyle(style);
 {{< /highlight >}}

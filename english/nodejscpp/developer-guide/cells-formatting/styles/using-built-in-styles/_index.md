@@ -1,5 +1,5 @@
 ---  
-title: Using Built-in Styles with Node.js via C++  
+title: Using Built-in Styles
 linktitle: Using Built-in Styles  
 type: docs  
 weight: 80  
@@ -14,85 +14,62 @@ Aspose.Cells provides a vast collection of re-usable styles to format a cell in 
 
 ## **How to use Built-in Styles**  
 
-The method [**Workbook.createBuiltinStyle**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#createBuiltinStyle) and the enumeration [**BuiltinStyleType**](https://reference.aspose.com/cells/nodejs-cpp/builtinstyletype) make it convenient to use built-in styles. Here is a list of all possible built-in styles:  
+The method [**Workbook.createBuiltinStyle(BuiltinStyleType)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#createBuiltinStyle-builtinstyletype-) and the enumeration [**BuiltinStyleType**](https://reference.aspose.com/cells/nodejs-cpp/builtinstyletype) make it convenient to use built-in styles. Here is a list of all possible built-in styles:  
 
-- TWENTY_PERCENT_ACCENT_1  
-- TWENTY_PERCENT_ACCENT_2  
-- TWENTY_PERCENT_ACCENT_3  
-- TWENTY_PERCENT_ACCENT_4  
-- TWENTY_PERCENT_ACCENT_5  
-- TWENTY_PERCENT_ACCENT_6  
-- FORTY_PERCENT_ACCENT_1  
-- FORTY_PERCENT_ACCENT_2  
-- FORTY_PERCENT_ACCENT_3  
-- FORTY_PERCENT_ACCENT_4  
-- FORTY_PERCENT_ACCENT_5  
-- FORTY_PERCENT_ACCENT_6  
-- SIXTY_PERCENT_ACCENT_1  
-- SIXTY_PERCENT_ACCENT_2  
-- SIXTY_PERCENT_ACCENT_3  
-- SIXTY_PERCENT_ACCENT_4  
-- SIXTY_PERCENT_ACCENT_5  
-- SIXTY_PERCENT_ACCENT_6  
-- ACCENT_1  
-- ACCENT_2  
-- ACCENT_3  
-- ACCENT_4  
-- ACCENT_5  
-- ACCENT_6  
-- BAD  
-- CALCULATION  
-- CHECK_CELL  
-- COMMA  
-- COMMA_1  
-- CURRENCY  
-- CURRENCY_1  
-- EXPLANATORY_TEXT  
-- GOOD  
-- HEADER_1  
-- HEADER_2  
-- HEADER_3  
-- HEADER_4  
-- HYPERLINK  
-- FOLLOWED_HYPERLINK  
-- INPUT  
-- LINKED_CELL  
-- NEUTRAL  
-- NORMAL  
-- NOTE  
-- OUTPUT  
-- PERCENT  
-- TITLE  
-- TOTAL  
-- WARNING_TEXT  
-- ROW_LEVEL  
-- COLUMN_LEVEL  
+- TwentyPercentAccent1
+- TwentyPercentAccent2
+- TwentyPercentAccent3
+- TwentyPercentAccent4
+- TwentyPercentAccent5
+- TwentyPercentAccent6
+- FortyPercentAccent1
+- FortyPercentAccent2
+- FortyPercentAccent3
+- FortyPercentAccent4
+- FortyPercentAccent5
+- FortyPercentAccent6
+- SixtyPercentAccent1
+- SixtyPercentAccent2
+- SixtyPercentAccent3
+- SixtyPercentAccent4
+- SixtyPercentAccent5
+- SixtyPercentAccent6
+- Accent1
+- Accent2
+- Accent3
+- Accent4
+- Accent5
+- Accent6
+- Bad
+- Calculation
+- CheckCell
+- Comma
+- Comma1
+- Currency
+- Currency1
+- ExplanatoryText
+- Good
+- Header1
+- Header2
+- Header3
+- Header4
+- Hyperlink
+- FollowedHyperlink
+- Input
+- LinkedCell
+- Neutral
+- Normal
+- Note
+- Output
+- Percent
+- Title
+- Total
+- WarningText
+- RowLevel
+- ColumnLevel
+
 
 ## Node.js code to use built-in styles  
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Styles-UseBuiltInStyles.js" >}}
 
-```javascript
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
-
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-const output1Path = path.join(dataDir, "Output.xlsx");
-const output2Path = path.join(dataDir, "Output.out.ods");
-
-const workbook = new AsposeCells.Workbook();
-const style = workbook.createBuiltinStyle(AsposeCells.BuiltinStyleType.Title);
-
-const cell = workbook.getWorksheets().get(0).getCells().get("A1");
-cell.putValue("Aspose");
-cell.setStyle(style);
-
-const worksheet = workbook.getWorksheets().get(0);
-worksheet.autoFitColumn(0);
-worksheet.autoFitRow(0);
-
-workbook.save(output1Path);
-console.log(`File saved ${output1Path}`);
-workbook.save(output2Path);
-console.log(`File saved ${output2Path}`);
-```  
   

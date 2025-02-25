@@ -1,5 +1,5 @@
 ---  
-title: How to Rotate Text of Cell with Node.js via C++  
+title: How to Rotate Text of Cell
 linktitle: How to Rotate Text of Cell  
 type: docs  
 weight: 80  
@@ -24,7 +24,7 @@ To rotate a cell in Excel, you can use the following steps:
 
 ## **How to Rotate Text of Cell using Aspose.Cells API**
 
-[**Style.rotationAngle**](https://reference.aspose.com/cells/nodejs-cpp/style/#rotationangle) property makes it convenient to rotate cells. To rotate cells in Aspose.Cells, you need to follow these steps:
+[**Style.setRotationAngle(number)**](https://reference.aspose.com/cells/nodejs-cpp/style/#setRotationAngle-number-) property makes it convenient to rotate cells. To rotate cells in Aspose.Cells, you need to follow these steps:
 1. Load the Excel Workbook  
 <br>
 First, you need to load the Excel workbook using Aspose.Cells. You can use the Workbook class to open an existing Excel file or create a new one. 
@@ -47,62 +47,6 @@ Please see the following code, it creates a workbook object and sets different r
 <br>
 <img src="rotation.png" width=80% />
 
-```javascript
-const AsposeCells = require("aspose.cells.node");
-const path = require("path");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Styles-SetRotationOfCell.js" >}}
 
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "sample.xlsx");
-// Loads the workbook which contains hidden external links
-const workbook = new AsposeCells.Workbook(filePath);
-
-// Obtaining the reference of the newly added worksheet
-const worksheet = workbook.getWorksheets().get(0);
-
-// Row index of the cell
-let row = 0;
-// Column index of the cell
-let column = 0; 
-
-let a1 = worksheet.getCells().get(row, column);
-a1.putValue("a1 rotate text");
-let a1Style = a1.getStyle();
-
-// Set the rotation angle in degrees
-a1Style.setRotationAngle(45); 
-a1.setStyle(a1Style);
-
-// set Column index of the cell
-column = 1;
-let b1 = worksheet.getCells().get(row, column);
-b1.putValue("b1 rotate text");
-let b1Style = b1.getStyle();
-
-// Set the rotation angle in degrees
-b1Style.setRotationAngle(255);
-b1.setStyle(b1Style);
-
-// set Column index of the cell
-column = 2;
-let c1 = worksheet.getCells().get(row, column);
-c1.putValue("c1 rotate text");
-let c1Style = c1.getStyle();
-
-// Set the rotation angle in degrees
-c1Style.setRotationAngle(-90);
-c1.setStyle(c1Style);
-
-// set Column index of the cell
-column = 3;
-let d1 = worksheet.getCells().get(row, column);
-d1.putValue("d1 rotate text");
-let d1Style = d1.getStyle();
-
-// Set the rotation angle in degrees
-d1Style.setRotationAngle(-90);
-d1.setStyle(d1Style);
-
-workbook.save("out.xlsx");
-```  
   
