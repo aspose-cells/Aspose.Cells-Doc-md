@@ -20,6 +20,12 @@ Below is the process that Aspose.Cells APIs follow behind the scene.
 1. If API cannot locate the font defined under [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/properties/defaultfontname) property, it attempts to select the most suitable fonts from all of the available fonts.
 1. Finally, if API cannot find any fonts on the file system, it renders the spreadsheet using Arial.
 
+{{% alert color="primary" %}}
+
+Generally, the Aspose.Cells APIs scan the operating system’s default font directories on Windows, Linux, MacOS by default. Starting from [Aspose.Cells for .NET 24.7](https://releases.aspose.com/cells/net/release-notes/2024/aspose-cells-for-net-24-7-release-notes/), the APIs additionally scan Office cached cloud font directories by default.
+
+{{% /alert %}}
+
 ## **Set Custom Font Folders**
 
 Aspose.Cells APIs search the operating system's default font directory for the required fonts. In case the required fonts are not available in the system's font directory then the APIs search through the custom (user defined) directories. The [**FontConfigs**](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs) class has exposed a number of ways to set custom font directories as detailed below.

@@ -22,7 +22,13 @@ Below is the process that Aspose.Cells APIs follow behind the scene.
 
 {{% alert color="primary" %}}
 
-The Aspose.Cells APIs always scans the operating system's default font directory with one exception, that is; when JVM arguments **-DAspose.Cells.FontDirExc="YourFontDir"** are set. In that case, the Aspose.Cells APIs will skip scanning the operating system's default font directory and only search the path as specified in the aforementioned JVM arguments.
+Generally, the Aspose.Cells APIs scan the operating system’s default font directories on Windows, Linux, MacOS by default. Starting from [Aspose.Cells for Java 24.7](https://releases.aspose.com/cells/java/release-notes/2024/aspose-cells-for-java-24-7-release-notes/), the APIs additionally scan Office cached cloud font directories by default.
+
+{{% /alert %}}
+
+{{% alert color="primary" %}}
+
+The Aspose.Cells APIs always scan the operating system's default font directory with one exception, that is; when JVM arguments **-DAspose.Cells.FontDirExc="YourFontDir"** are set. In that case, the Aspose.Cells APIs will skip scanning the operating system's default font directory and only search the path as specified in the aforementioned JVM arguments.
 
 {{% /alert %}}
 
