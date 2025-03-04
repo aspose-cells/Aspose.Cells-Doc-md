@@ -38,7 +38,7 @@ worksheet.getCells().get("B3").putValue(3);
 worksheet.getCells().get("C2").putValue(2);
 worksheet.getCells().get("C3").putValue(3);
 // Add a chart to the worksheet
-const chartIndex = worksheet.getCharts().add(AsposeCells.Charts.ChartType.Column3D, 9, 6, 25, 16);
+const chartIndex = worksheet.getCharts().add(AsposeCells.ChartType.Column3D, 9, 6, 25, 16);
 // Access the instance of the newly added chart
 const chart = worksheet.getCharts().get(chartIndex);
 // Calculate the chart

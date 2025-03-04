@@ -25,7 +25,7 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const outDir = RunExamples.Get_OutputDirectory();
+const outDir = path.join(__dirname, "output");
 
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);

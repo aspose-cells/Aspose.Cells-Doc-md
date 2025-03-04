@@ -56,9 +56,6 @@ worksheet.getCells().insertRow(2);
 
 // Saving the modified Excel file
 workbook.save(path.join(dataDir, "output.out.xls"));
-
-// Closing the file stream to free all resources
-fstream.close();
 ```
 
 ### **How to Insert Multiple Rows**
@@ -73,28 +70,16 @@ const path = require("path");
 const fs = require("fs");
 const AsposeCells = require("aspose.cells.node");
 
-// The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "book1.xls");
 
-// Creating a file stream containing the Excel file to be opened
-const fstream = fs.createReadStream(filePath);
+const fileData = fs.readFileSync(filePath);
+const workbook = new AsposeCells.Workbook(fileData);
 
-// Instantiating a Workbook object
-// Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(fstream);
-
-// Accessing the first worksheet in the Excel file
 const worksheet = workbook.getWorksheets().get(0);
-
-// Inserting 10 rows into the worksheet starting from 3rd row
 worksheet.getCells().insertRows(2, 10);
 
-// Saving the modified Excel file
 workbook.save(path.join(dataDir, "output.out.xls"));
-
-// Closing the file stream to free all resources
-fstream.close();
 ```
 
 ### **How to Insert a Row with Formatting**
@@ -133,9 +118,6 @@ worksheet.getCells().insertRows(2, 1, insertOptions);
 
 // Saving the modified Excel file
 workbook.save(path.join(dataDir, "InsertingARowWithFormatting.out.xls"));
-
-// Closing the file stream to free all resources
-fstream.close();
 ```
 
 ### **How to Insert a Column**
@@ -166,9 +148,6 @@ worksheet.getCells().insertColumn(1);
 
 // Saving the modified Excel file
 workbook.save(path.join(dataDir, "output.out.xls"));
-
-// Closing the file stream to free all resources
-fileStream.close();
 ```
 
 ## **Delete Rows and Columns**
@@ -189,12 +168,12 @@ const AsposeCells = require("aspose.cells.node");
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "Book1.xlsx");
 
-// Creating a file stream containing the Excel file to be opened
-const fstream = fs.createReadStream(filePath);
+// Read file contents as Uint8Array
+const fileContent = fs.readFileSync(filePath);
+const fileBuffer = new Uint8Array(fileContent);
 
-// Instantiating a Workbook object
-// Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(fstream);
+// Instantiating a Workbook object with file buffer
+const workbook = new AsposeCells.Workbook(fileBuffer);
 
 // Accessing the first worksheet in the Excel file
 const worksheet = workbook.getWorksheets().get(0);
@@ -204,9 +183,6 @@ worksheet.getCells().deleteRows(2, 10);
 
 // Saving the modified Excel file
 workbook.save(path.join(dataDir, "output.xlsx"));
-
-// Closing the file stream to free all resources
-fstream.close();
 ```
 
 

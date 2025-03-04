@@ -31,8 +31,15 @@ const workbook = new AsposeCells.Workbook(filePath);
 // Access the first worksheet
 const worksheet = workbook.getWorksheets().get(0);
 
+// Check if there are any charts before accessing
+const charts = worksheet.getCharts();
+if (charts.getCount() === 0) {
+console.log("No charts found in the worksheet.");
+return;
+}
+
 // Access the chart
-const chart = worksheet.getCharts().get(0);
+const chart = charts.get(0);
 
 // Determine which axis exists in chart
 let ret = chart.hasAxis(AsposeCells.AxisType.Category, true);

@@ -39,7 +39,7 @@ const fonts = workbook.getFonts();
 
 // Print all the fonts
 for (let i = 0; i < fonts.length; i++) {
-    console.log(fonts[i].toString());
+console.log(fonts[i].toString());
 }
 ```
 

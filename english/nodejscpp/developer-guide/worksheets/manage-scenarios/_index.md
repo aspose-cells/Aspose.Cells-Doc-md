@@ -29,24 +29,24 @@ const workbook = new AsposeCells.Workbook(path.join(dataDir, "aspose-sample.xlsx
 const worksheet = workbook.getWorksheets().get(0);
 
 if (worksheet.getScenarios().getCount() > 0) {
-    // Remove the existing first scenario from the sheet
-    worksheet.getScenarios().removeAt(0);
+// Remove the existing first scenario from the sheet
+worksheet.getScenarios().removeAt(0);
 
-    // Create a scenario
-    const i = worksheet.getScenarios().add("MyScenario");
-    // Get the scenario
-    const scenario = worksheet.getScenarios().get(i);
-    // Add comment to it
-    scenario.setComment("Test scenario is created.");
-    // Get the input cells for the scenario
-    const sic = scenario.getInputCells();
-    // Add the scenario on B4 (as changing cell) with default value
-    sic.add(3, 1, "1100000");
+// Create a scenario
+const i = worksheet.getScenarios().add("MyScenario");
+// Get the scenario
+const scenario = worksheet.getScenarios().get(i);
+// Add comment to it
+scenario.setComment("Test scenario is created.");
+// Get the input cells for the scenario
+const sic = scenario.getInputCells();
+// Add the scenario on B4 (as changing cell) with default value
+sic.add(3, 1, "1100000");
 
-    const outputFilePath = path.join(dataDir, "outBk_scenarios1.out.xlsx");
+const outputFilePath = path.join(dataDir, "outBk_scenarios1.out.xlsx");
 
-    // Save the Excel file.
-    workbook.save(outputFilePath);
-    console.log("\nProcess completed successfully.\nFile saved at " + outputFilePath);
+// Save the Excel file.
+workbook.save(outputFilePath);
+console.log("\nProcess completed successfully.\nFile saved at " + outputFilePath);
 }
 ```

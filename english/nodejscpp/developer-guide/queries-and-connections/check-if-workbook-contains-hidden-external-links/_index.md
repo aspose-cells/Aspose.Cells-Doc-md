@@ -30,10 +30,10 @@ const links = workbook.getWorksheets().getExternalLinks();
 
 // Print all the external links and check their IsVisible property
 for (let i = 0; i < links.getCount(); i++) {
-    console.log("Data Source: " + links.get(i).getDataSource());
-    console.log("Is Referred: " + links.get(i).getIsReferred());
-    console.log("Is Visible: " + links.get(i).getIsVisible());
-    console.log();
+console.log("Data Source: " + links.get(i).getDataSource());
+console.log("Is Referred: " + links.get(i).getIsReferred());
+console.log("Is Visible: " + links.get(i).getIsVisible());
+console.log();
 }
 ```  
 

@@ -42,11 +42,11 @@ const shapes = groupShape.getGroupedShapes();
 
 // Extract the text of gear type shapes and print them on console.
 for (let i = 0; i < shapes.length; i++) {
-    const s = shapes[i];
+const s = shapes[i];
 
-    if (s.getType() === AsposeCells.Drawing.AutoShapeType.Gear9 || s.getType() === AsposeCells.Drawing.AutoShapeType.Gear6) {
-        console.log("Gear Type Shape Text: " + s.getText());
-    }
+if (s.getType() === AsposeCells.AutoShapeType.Gear9 || s.getType() === AsposeCells.AutoShapeType.Gear6) {
+console.log("Gear Type Shape Text: " + s.getText());
+}
 }
 ```
 

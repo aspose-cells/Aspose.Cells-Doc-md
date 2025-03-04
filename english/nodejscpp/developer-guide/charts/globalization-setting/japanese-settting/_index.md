@@ -22,60 +22,60 @@ Code example:
 const AsposeCells = require("aspose.cells.node");
 
 class ChartJapaneseSettings extends AsposeCells.ChartGlobalizationSettings {
-    getAxisTitleName() {
-        return "軸タイトル";
-    }
+getAxisTitleName() {
+return "軸タイトル";
+}
 
-    getAxisUnitName(type) {
-        switch (type) {
-            case AsposeCells.DisplayUnitType.None:
-                return '';
-            case AsposeCells.DisplayUnitType.Hundreds:
-                return "百";
-            case AsposeCells.DisplayUnitType.Thousands:
-                return "千";
-            case AsposeCells.DisplayUnitType.TenThousands:
-                return "万";
-            case AsposeCells.DisplayUnitType.HundredThousands:
-                return "10万";
-            case AsposeCells.DisplayUnitType.Millions:
-                return "百万";
-            case AsposeCells.DisplayUnitType.TenMillions:
-                return "千万";
-            case AsposeCells.DisplayUnitType.HundredMillions:
-                return "億";
-            case AsposeCells.DisplayUnitType.Billions:
-                return "10億";
-            case AsposeCells.DisplayUnitType.Trillions:
-                return "兆";
-            default:
-                return '';
-        }
-    }
+getAxisUnitName(type) {
+switch (type) {
+case AsposeCells.DisplayUnitType.None:
+return '';
+case AsposeCells.DisplayUnitType.Hundreds:
+return "百";
+case AsposeCells.DisplayUnitType.Thousands:
+return "千";
+case AsposeCells.DisplayUnitType.TenThousands:
+return "万";
+case AsposeCells.DisplayUnitType.HundredThousands:
+return "10万";
+case AsposeCells.DisplayUnitType.Millions:
+return "百万";
+case AsposeCells.DisplayUnitType.TenMillions:
+return "千万";
+case AsposeCells.DisplayUnitType.HundredMillions:
+return "億";
+case AsposeCells.DisplayUnitType.Billions:
+return "10億";
+case AsposeCells.DisplayUnitType.Trillions:
+return "兆";
+default:
+return '';
+}
+}
 
-    getChartTitleName() {
-        return "グラフ タイトル";
-    }
+getChartTitleName() {
+return "グラフ タイトル";
+}
 
-    getLegendDecreaseName() {
-        return "削減";
-    }
+getLegendDecreaseName() {
+return "削減";
+}
 
-    getLegendIncreaseName() {
-        return "ぞうか";
-    }
+getLegendIncreaseName() {
+return "ぞうか";
+}
 
-    getLegendTotalName() {
-        return "すべての";
-    }
+getLegendTotalName() {
+return "すべての";
+}
 
-    getOtherName() {
-        return "その他";
-    }
+getOtherName() {
+return "その他";
+}
 
-    getSeriesName() {
-        return "シリーズ";
-    }
+getSeriesName() {
+return "シリーズ";
+}
 }
 ```  
 

@@ -25,74 +25,18 @@ const path = require('path');
 const AsposeCells = require("aspose.cells.node");
 
 class HtmlAttachedStreamProvider {
-    static isHRef(picPath) {
-        // This handles http://, https:// file:// and probably ftp://.
-        return picPath.startsWith("http://") ||
-               picPath.startsWith("https://") ||
-               picPath.startsWith("file://") ||
-               picPath.startsWith("ftp://");
-    }
-
-    static getStreamFromHref(href) {
-        try {
-            const request = require('http').get(href, (response) => {
-                const dstStream = [];
-                response.on('data', (chunk) => {
-                    dstStream.push(chunk);
-                });
-                response.on('end', () => {
-                    return Buffer.concat(dstStream);
-                });
-            });
-            request.on('error', (err) => {
-                // ignored
-            });
-            return null; // Placeholder; needs proper async handling
-        } catch {
-            return null;
-        }
-    }
-
-    initStream(options) {
-        let absolutePath = null;
-        switch (options.defaultPath) {
-            case "/Files/Image1.png":
-                absolutePath = path.join("D:/filetemp/G1.png");
-                break;
-            case "/Files/Image2.png":
-                absolutePath = path.join("D:/filetemp/E1.png");
-                break;
-            case "https://www.aspose.com/templates/aspose/img/products/cells/aspose_cells-for-net.svg":
-                absolutePath = path.join("D:/filetemp/F1.png");
-                break;
-            default:
-                break;
-        }
-        if (absolutePath === null) {
-            if (HtmlAttachedStreamProvider.isHRef(options.defaultPath)) {
-                options.stream = HtmlAttachedStreamProvider.getStreamFromHref(options.defaultPath);
-            } else if (fs.existsSync(options.defaultPath)) {
-                options.stream = fs.createReadStream(options.defaultPath);
-            }
-            return;
-        }
-        options.stream = fs.createReadStream(absolutePath);
-    }
-
-    closeStream(options) {
-        if (options.stream != null) {
-            options.stream.close();
-        }
-    }
+static isHRef(picPath) {
+// This handles http://, https:// file:// and probably ftp://.
+return picPath.startsWith("http://") ||
+picPath.startsWith("https://") ||
+picPath.startsWith("file://") ||
+picPath.startsWith("ftp://");
 }
 
-async function main() {
-    const attachedStreamProvider = new HtmlAttachedStreamProvider();
-    const options = new AsposeCells.HtmlLoadOptions();
-    options.streamProvider = attachedStreamProvider;
-    const workbook = new AsposeCells.Workbook("html1.html", options);
-    await workbook.saveAsync("dest.xlsx");
-}
-
-main().catch(console.error);
+static getStreamFromHref(href) {
+try {
+const request = require('http').get(href, (response) => {
+const dstStream = [];
+response.on('data', (chunk) => {
+dstStream.push(chunk);
 ```

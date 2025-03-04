@@ -53,7 +53,6 @@ cell.putValue("This is some text.");
 
 // Set the style of the cell - font color is Red
 const st = cell.getStyle();
-st.setFont(new AsposeCells.Font());
 st.getFont().setColor(AsposeCells.Color.Red);
 cell.setStyle(st);
 

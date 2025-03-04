@@ -40,8 +40,11 @@ const worksheets = workbook.getWorksheets();
 
 // Deleted a named range by text.
 worksheets.getNames().remove("NamedRange");
-// Deleted a defined name by index.
+
+// Deleted a defined name by index. Ensure to check the count before removal.
+if (worksheets.getNames().getCount() > 0) {
 worksheets.getNames().removeAt(0);
+}
 
 // Save the workbook to retain the changes.
 workbook.save("Book2.xlsx");

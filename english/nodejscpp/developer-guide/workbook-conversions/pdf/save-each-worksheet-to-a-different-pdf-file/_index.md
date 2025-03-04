@@ -33,13 +33,13 @@ const pdfSaveOptions = new AsposeCells.PdfSaveOptions();
 
 // Take PDFs of each sheet
 for (let j = 0; j < sheetCount; j++) {
-    const ws = workbook.getWorksheets().get(j);
+const ws = workbook.getWorksheets().get(j);
 
-    // set worksheet to output
-    const sheetSet = new AsposeCells.SheetSet([ws.getIndex()]);
-    pdfSaveOptions.setSheetSet(sheetSet);
+// set worksheet to output
+const sheetSet = new AsposeCells.SheetSet([ws.getIndex()]);
+pdfSaveOptions.setSheetSet(sheetSet);
 
-    workbook.save(path.join(dataDir, `worksheet-${ws.getName()}.out.pdf`), pdfSaveOptions);
+workbook.save(path.join(dataDir, `worksheet-${ws.getName()}.out.pdf`), pdfSaveOptions);
 }
 ```  
 

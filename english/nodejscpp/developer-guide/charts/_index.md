@@ -46,7 +46,7 @@ worksheet.getCells().get("C3").putValue(100);
 worksheet.getCells().get("C4").putValue(150);
 
 // Adding a chart to the worksheet
-const chartIndex = worksheet.getCharts().add(AsposeCells.Charts.ChartType.Column, 5, 0, 15, 5);
+const chartIndex = worksheet.getCharts().add(AsposeCells.ChartType.Column, 5, 0, 15, 5);
 
 // Accessing the instance of the newly added chart
 const chart = worksheet.getCharts().get(chartIndex);
@@ -220,7 +220,7 @@ worksheet.getCells().get("B2").putValue(20);
 worksheet.getCells().get("B3").putValue(50);
 
 // Adding a chart to the worksheet
-const chartIndex = worksheet.getCharts().add(AsposeCells.Charts.ChartType.Pyramid, 5, 0, 15, 5);
+const chartIndex = worksheet.getCharts().add(AsposeCells.ChartType.Pyramid, 5, 0, 15, 5);
 
 // Accessing the instance of the newly added chart
 const chart = worksheet.getCharts().get(chartIndex);
@@ -261,7 +261,7 @@ worksheet.getCells().get("B2").putValue(20);
 worksheet.getCells().get("B3").putValue(50);
 
 // Adding a chart to the worksheet
-const chartIndex = worksheet.getCharts().add(AsposeCells.Charts.ChartType.Line, 5, 0, 15, 5);
+const chartIndex = worksheet.getCharts().add(AsposeCells.ChartType.Line, 5, 0, 15, 5);
 
 // Accessing the instance of the newly added chart
 const chart = worksheet.getCharts().get(chartIndex);
@@ -301,13 +301,13 @@ worksheet.getCells().get(0, 1).putValue("Y");
 // Random data shall be used for generating the chart
 // Create random data and save in the cells
 for (let i = 1; i < 21; i++) {
-    worksheet.getCells().get(i, 0).putValue(i);
-    worksheet.getCells().get(i, 1).putValue(0.8);
+worksheet.getCells().get(i, 0).putValue(i);
+worksheet.getCells().get(i, 1).putValue(0.8);
 }
 
 for (let i = 21; i < 41; i++) {
-    worksheet.getCells().get(i, 0).putValue(i - 20);
-    worksheet.getCells().get(i, 1).putValue(0.9);
+worksheet.getCells().get(i, 0).putValue(i - 20);
+worksheet.getCells().get(i, 1).putValue(0.9);
 }
 // Add a chart to the worksheet
 const idx = worksheet.getCharts().add(AsposeCells.ChartType.LineWithDataMarkers, 1, 3, 20, 20);
@@ -331,7 +331,7 @@ chart.getTitle().setText("Sample Chart");
 chart.setType(AsposeCells.ChartType.LineWithDataMarkers);
 
 // Set Properties of categoryaxis title
-chart.getCategoryAxis().setTitle(AsposeCells.TitleType.Text, "Units");
+chart.getCategoryAxis().getTitle().setText("Units");
 
 //Set Properties of nseries
 const s2_idx = chart.getNSeries().add("A2:A2", true);

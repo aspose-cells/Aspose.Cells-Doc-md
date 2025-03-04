@@ -24,40 +24,40 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 class MyStreamProvider {
-    closeStream(options) {
-        console.log("-----Close Stream-----");
-    }
+closeStream(options) {
+console.log("-----Close Stream-----");
+}
 
-    initStream(options) {
-        const sourceDir = runExamples.getSourceDirectory();
-        console.log("-----Init Stream-----");
+initStream(options) {
+const sourceDir = path.join(__dirname, "data");
+console.log("-----Init Stream-----");
 
-        // Read the new image in a memory stream and assign it to Stream property
-        const fs = require("fs");
-        const bts = fs.readFileSync(path.join(sourceDir, "newPdfSaveOptions_StreamProvider.png"));
-        options.stream = bts; // Assigning the byte array to the stream property
-    }
+// Read the new image in a memory stream and assign it to Stream property
+const fs = require("fs");
+const bts = fs.readFileSync(path.join(sourceDir, "newPdfSaveOptions_StreamProvider.png"));
+options.stream = bts; // Assigning the byte array to the stream property
+}
 }
 
 async function run() {
-    // Source directory
-    const sourceDir = runExamples.getSourceDirectory();
+// Source directory
+const sourceDir = path.join(__dirname, "data");
 
-    // Output directory
-    const outputDir = runExamples.getOutputDirectory();
+// Output directory
+const outputDir = path.join(__dirname, "output");
 
-    // Load source Excel file containing external image
-    const workbook = new AsposeCells.Workbook(path.join(sourceDir, "samplePdfSaveOptions_StreamProvider.xlsx"));
+// Load source Excel file containing external image
+const workbook = new AsposeCells.Workbook(path.join(sourceDir, "samplePdfSaveOptions_StreamProvider.xlsx"));
 
-    // Specify Pdf Save Options - Stream Provider
-    const opts = new AsposeCells.PdfSaveOptions();
-    opts.setOnePagePerSheet(true);
+// Specify Pdf Save Options - Stream Provider
+const opts = new AsposeCells.PdfSaveOptions();
+opts.setOnePagePerSheet(true);
 
-    workbook.getSettings().setResourceProvider(new MyStreamProvider());
+workbook.getSettings().setResourceProvider(new MyStreamProvider());
 
-    // Save the workbook to Pdf
-    await workbook.saveAsync(path.join(outputDir, "outputPdfSaveOptions_StreamProvider.pdf"), opts);
+// Save the workbook to Pdf
+await workbook.saveAsync(path.join(outputDir, "outputPdfSaveOptions_StreamProvider.pdf"), opts);
 
-    console.log("ControlLoadingOfExternalResourcesInExcelToPDF executed successfully.\r\n");
+console.log("ControlLoadingOfExternalResourcesInExcelToPDF executed successfully.\r\n");
 }
 ```

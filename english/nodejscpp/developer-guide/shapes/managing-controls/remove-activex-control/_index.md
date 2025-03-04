@@ -18,10 +18,10 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.getSourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 
 // Output directory
-const outputDir = RunExamples.getOutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 // Create a workbook
 const wb = new AsposeCells.Workbook(path.join(sourceDir, "sampleUpdateActiveXComboBoxControl.xlsx"));
@@ -31,8 +31,8 @@ const shape = wb.getWorksheets().get(0).getShapes().get(0);
 
 // Access ActiveX ComboBox Control and update its value
 if (shape.getActiveXControl() != null) {
-    // Remove Shape ActiveX Control
-    shape.removeActiveXControl();
+// Remove Shape ActiveX Control
+shape.removeActiveXControl();
 }
 
 // Save the workbook

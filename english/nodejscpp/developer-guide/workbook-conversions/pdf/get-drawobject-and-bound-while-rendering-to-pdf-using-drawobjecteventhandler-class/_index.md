@@ -32,35 +32,35 @@ Please see the following sample code. It loads the [sample Excel file](64716821.
 const AsposeCells = require("aspose.cells.node");
 
 class ClsDrawObjectEventHandler extends AsposeCells.DrawObjectEventHandler {
-    draw(drawObject, x, y, width, height) {
-        console.log("");
+draw(drawObject, x, y, width, height) {
+console.log("");
 
-        // Print the coordinates and the value of Cell object
-        if (drawObject.getType() === AsposeCells.DrawObjectEnum.Cell) {
-            console.log(`[X]: ${x} [Y]: ${y} [Width]: ${width} [Height]: ${height} [Cell Value]: ${drawObject.getCell().getStringValue()}`);
-        }
+// Print the coordinates and the value of Cell object
+if (drawObject.getType() === AsposeCells.DrawObjectEnum.Cell) {
+console.log(`[X]: ${x} [Y]: ${y} [Width]: ${width} [Height]: ${height} [Cell Value]: ${drawObject.getCell().getStringValue()}`);
+}
 
-        // Print the coordinates and the shape name of Image object
-        if (drawObject.getType() === AsposeCells.DrawObjectEnum.Image) {
-            console.log(`[X]: ${x} [Y]: ${y} [Width]: ${width} [Height]: ${height} [Shape Name]: ${drawObject.getShape().getName()}`);
-        }
+// Print the coordinates and the shape name of Image object
+if (drawObject.getType() === AsposeCells.DrawObjectEnum.Image) {
+console.log(`[X]: ${x} [Y]: ${y} [Width]: ${width} [Height]: ${height} [Shape Name]: ${drawObject.getShape().getName()}`);
+}
 
-        console.log("----------------------");
-    }
+console.log("----------------------");
+}
 }
 
 async function run() {
-    // Load sample Excel file
-    const workbook = new AsposeCells.Workbook("sampleGetDrawObjectAndBoundUsingDrawObjectEventHandler.xlsx");
+// Load sample Excel file
+const workbook = new AsposeCells.Workbook("sampleGetDrawObjectAndBoundUsingDrawObjectEventHandler.xlsx");
 
-    // Specify Pdf save options
-    const opts = new AsposeCells.PdfSaveOptions();
+// Specify Pdf save options
+const opts = new AsposeCells.PdfSaveOptions();
 
-    // Assign the instance of DrawObjectEventHandler class
-    opts.setDrawObjectEventHandler(new ClsDrawObjectEventHandler());
+// Assign the instance of DrawObjectEventHandler class
+opts.setDrawObjectEventHandler(new ClsDrawObjectEventHandler());
 
-    // Save to Pdf format with Pdf save options
-    await workbook.saveAsync("outputGetDrawObjectAndBoundUsingDrawObjectEventHandler.pdf", opts);
+// Save to Pdf format with Pdf save options
+await workbook.saveAsync("outputGetDrawObjectAndBoundUsingDrawObjectEventHandler.pdf", opts);
 }
 
 run();

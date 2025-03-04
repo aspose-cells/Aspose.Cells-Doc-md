@@ -34,10 +34,14 @@ const cell = sheet.getCells().get("A1");
 // Get the conditional formatting result object
 const cfr = cell.getConditionalFormattingResult();
 
+if (cfr && !cfr.isNull()) {
 // Get the icon set
 const icon = cfr.getConditionalFormattingIcon();
 
+if (icon && !icon.isNull()) {
 // Create the image file based on the icon's image data
 require("fs").writeFileSync(path.join(dataDir, "imgIcon.out.jpg"), icon.getImageData());
+}
+}
 ```  
   

@@ -24,14 +24,20 @@ const AsposeCells = require("aspose.cells.node");
 const path = require("path");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 
 // Output directory
-const outputDir = RunExamples.Get_OutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 const filePath = path.join(sourceDir, "sampleUseWorkbookRenderForImageConversion.xlsx");
 const workbook = new AsposeCells.Workbook(filePath);
 const opts = new AsposeCells.ImageOrPrintOptions();
+
+// Define TestTiffPageSavingCallback
+class TestTiffPageSavingCallback {
+// Implement required methods for the callback here
+}
+
 opts.setPageSavingCallback(new TestTiffPageSavingCallback());
 opts.setImageType(AsposeCells.ImageType.Tiff);
 
@@ -45,23 +51,23 @@ The following is the code for the *TestTiffPageSavingCallback* custom class.
 const AsposeCells = require("aspose.cells.node");
 
 class TestTiffPageSavingCallback {
-    pageStartSaving(args) {
-        console.log(`Start saving page index ${args.pageIndex} of pages ${args.pageCount}`);
+pageStartSaving(args) {
+console.log(`Start saving page index ${args.pageIndex} of pages ${args.pageCount}`);
 
-        // Don't output pages before page index 2.
-        if (args.pageIndex < 2) {
-            args.setIsToOutput(false);
-        }
-    }
+// Don't output pages before page index 2.
+if (args.pageIndex < 2) {
+args.setIsToOutput(false);
+}
+}
 
-    pageEndSaving(args) {
-        console.log(`End saving page index ${args.pageIndex} of pages ${args.pageCount}`);
+pageEndSaving(args) {
+console.log(`End saving page index ${args.pageIndex} of pages ${args.pageCount}`);
 
-        // Don't output pages after page index 8.
-        if (args.pageIndex >= 8) {
-            args.setHasMorePages(false);
-        }
-    }
+// Don't output pages after page index 8.
+if (args.pageIndex >= 8) {
+args.setHasMorePages(false);
+}
+}
 }
 ```
 

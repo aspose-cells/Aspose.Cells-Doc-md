@@ -23,120 +23,120 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 class CustomPivotTableGlobalizationSettings extends AsposeCells.PivotGlobalizationSettings {
-    // Gets the name of "Total" label in the PivotTable.
-    getTextOfTotal() {
-        console.log("---------GetPivotTotalName-------------");
-        return "AsposeGetPivotTotalName";
-    }
+// Gets the name of "Total" label in the PivotTable.
+getTextOfTotal() {
+console.log("---------GetPivotTotalName-------------");
+return "AsposeGetPivotTotalName";
+}
 
-    // Gets the name of "Grand Total" label in the PivotTable.
-    getTextOfGrandTotal() {
-        console.log("---------GetPivotGrandTotalName-------------");
-        return "AsposeGetPivotGrandTotalName";
-    }
+// Gets the name of "Grand Total" label in the PivotTable.
+getTextOfGrandTotal() {
+console.log("---------GetPivotGrandTotalName-------------");
+return "AsposeGetPivotGrandTotalName";
+}
 
-    // Gets the name of "(Multiple Items)" label in the PivotTable.
-    getTextOfMultipleItems() {
-        console.log("---------GetMultipleItemsName-------------");
-        return "AsposeGetMultipleItemsName";
-    }
+// Gets the name of "(Multiple Items)" label in the PivotTable.
+getTextOfMultipleItems() {
+console.log("---------GetMultipleItemsName-------------");
+return "AsposeGetMultipleItemsName";
+}
 
-    // Gets the name of "(All)" label in the PivotTable.
-    getTextOfAll() {
-        console.log("---------GetAllName-------------");
-        return "AsposeGetAllName";
-    }
+// Gets the name of "(All)" label in the PivotTable.
+getTextOfAll() {
+console.log("---------GetAllName-------------");
+return "AsposeGetAllName";
+}
 
-    // Gets the name of "Column Labels" label in the PivotTable.
-    getTextOfColumnLabels() {
-        console.log("---------GetColumnLabelsOfPivotTable-------------");
-        return "AsposeGetColumnLabelsOfPivotTable";
-    }
+// Gets the name of "Column Labels" label in the PivotTable.
+getTextOfColumnLabels() {
+console.log("---------GetColumnLabelsOfPivotTable-------------");
+return "AsposeGetColumnLabelsOfPivotTable";
+}
 
-    // Gets the name of "Row Labels" label in the PivotTable.
-    getTextOfRowLabels() {
-        console.log("---------GetRowLabelsNameOfPivotTable-------------");
-        return "AsposeGetRowLabelsNameOfPivotTable";
-    }
+// Gets the name of "Row Labels" label in the PivotTable.
+getTextOfRowLabels() {
+console.log("---------GetRowLabelsNameOfPivotTable-------------");
+return "AsposeGetRowLabelsNameOfPivotTable";
+}
 
-    // Gets the name of "(blank)" label in the PivotTable.
-    getTextOfEmptyData() {
-        console.log("---------GetEmptyDataName-------------");
-        return "(blank)AsposeGetEmptyDataName";
-    }
+// Gets the name of "(blank)" label in the PivotTable.
+getTextOfEmptyData() {
+console.log("---------GetEmptyDataName-------------");
+return "(blank)AsposeGetEmptyDataName";
+}
 
-    // Gets the name of PivotFieldSubtotalType type in the PivotTable.
-    getTextOfSubTotal(subTotalType) {
-        console.log("---------GetSubTotalName-------------");
+// Gets the name of PivotFieldSubtotalType type in the PivotTable.
+getTextOfSubTotal(subTotalType) {
+console.log("---------GetSubTotalName-------------");
 
-        switch (subTotalType) {
-            case AsposeCells.PivotFieldSubtotalType.Sum:
-                return "AsposeSum";
+switch (subTotalType) {
+case AsposeCells.PivotFieldSubtotalType.Sum:
+return "AsposeSum";
 
-            case AsposeCells.PivotFieldSubtotalType.Count:
-                return "AsposeCount";
+case AsposeCells.PivotFieldSubtotalType.Count:
+return "AsposeCount";
 
-            case AsposeCells.PivotFieldSubtotalType.Average:
-                return "AsposeAverage";
+case AsposeCells.PivotFieldSubtotalType.Average:
+return "AsposeAverage";
 
-            case AsposeCells.PivotFieldSubtotalType.Max:
-                return "AsposeMax";
+case AsposeCells.PivotFieldSubtotalType.Max:
+return "AsposeMax";
 
-            case AsposeCells.PivotFieldSubtotalType.Min:
-                return "AsposeMin";
+case AsposeCells.PivotFieldSubtotalType.Min:
+return "AsposeMin";
 
-            case AsposeCells.PivotFieldSubtotalType.Product:
-                return "AsposeProduct";
+case AsposeCells.PivotFieldSubtotalType.Product:
+return "AsposeProduct";
 
-            case AsposeCells.PivotFieldSubtotalType.CountNums:
-                return "AsposeCount";
+case AsposeCells.PivotFieldSubtotalType.CountNums:
+return "AsposeCount";
 
-            case AsposeCells.PivotFieldSubtotalType.Stdev:
-                return "AsposeStdDev";
+case AsposeCells.PivotFieldSubtotalType.Stdev:
+return "AsposeStdDev";
 
-            case AsposeCells.PivotFieldSubtotalType.Stdevp:
-                return "AsposeStdDevp";
+case AsposeCells.PivotFieldSubtotalType.Stdevp:
+return "AsposeStdDevp";
 
-            case AsposeCells.PivotFieldSubtotalType.Var:
-                return "AsposeVar";
+case AsposeCells.PivotFieldSubtotalType.Var:
+return "AsposeVar";
 
-            case AsposeCells.PivotFieldSubtotalType.Varp:
-                return "AsposeVarp";
-        }
+case AsposeCells.PivotFieldSubtotalType.Varp:
+return "AsposeVarp";
+}
 
-        return "AsposeSubTotalName";
-    }
+return "AsposeSubTotalName";
+}
 }
 
 async function run() {
-    // The path to the documents directory.
-    const dataDir = path.join(__dirname, "data");
-    
-    // Load your excel file
-    const workbook = new AsposeCells.Workbook(path.join(dataDir, "samplePivotTableGlobalizationSettings.xlsx"));
+// The path to the documents directory.
+const dataDir = path.join(__dirname, "data");
 
-    // Setting Custom Pivot Table Globalization Settings
-    workbook.getSettings().getGlobalizationSettings().setPivotSettings(new CustomPivotTableGlobalizationSettings());
+// Load your excel file
+const workbook = new AsposeCells.Workbook(path.join(dataDir, "samplePivotTableGlobalizationSettings.xlsx"));
 
-    // Hide first worksheet that contains the data of the pivot table
-    workbook.getWorksheets().get(0).setIsVisible(false);
+// Setting Custom Pivot Table Globalization Settings
+workbook.getSettings().getGlobalizationSettings().setPivotSettings(new CustomPivotTableGlobalizationSettings());
 
-    // Access second worksheet
-    const ws = workbook.getWorksheets().get(1);
+// Hide first worksheet that contains the data of the pivot table
+workbook.getWorksheets().get(0).setIsVisible(false);
 
-    // Access the pivot table, refresh and calculate its data
-    const pt = ws.getPivotTables().get(0);
-    pt.setRefreshDataFlag(true);
-    pt.refreshData();
-    pt.calculateData();
-    pt.setRefreshDataFlag(false);
+// Access second worksheet
+const ws = workbook.getWorksheets().get(1);
 
-    // Pdf save options - save entire worksheet on a single pdf page
-    const options = new AsposeCells.PdfSaveOptions();
-    options.setOnePagePerSheet(true);
+// Access the pivot table, refresh and calculate its data
+const pt = ws.getPivotTables().get(0);
+pt.setRefreshDataFlag(true);
+pt.refreshData();
+pt.calculateData();
+pt.setRefreshDataFlag(false);
 
-    // Save the output pdf 
-    workbook.save(path.join(dataDir, "outputPivotTableGlobalizationSettings.pdf"), options);
+// Pdf save options - save entire worksheet on a single pdf page
+const options = new AsposeCells.PdfSaveOptions();
+options.setOnePagePerSheet(true);
+
+// Save the output pdf 
+workbook.save(path.join(dataDir, "outputPivotTableGlobalizationSettings.pdf"), options);
 }
 
 run().catch(console.error);

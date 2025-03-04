@@ -51,6 +51,7 @@ The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) cla
 Below is a small example application. It opens an Excel file and uses most of the advanced protection settings supported by Excel XP and later versions.
 
 ```javascript
+try {
 const path = require("path");
 const fs = require("fs");
 const AsposeCells = require("aspose.cells.node");
@@ -62,9 +63,11 @@ const filePath = path.join(dataDir, "book1.xls");
 // Creating a file stream containing the Excel file to be opened
 const fstream = fs.createReadStream(filePath);
 
-// Instantiating a Workbook object
-// Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(fstream);
+// Reading the file stream into a buffer
+const fileBuffer = [];
+fstream.on('data', chunk => fileBuffer.push(chunk));
+fstream.on('end', () => {
+const workbook = new AsposeCells.Workbook(Buffer.concat(fileBuffer));
 
 // Accessing the first worksheet in the Excel file
 const worksheet = workbook.getWorksheets().get(0);

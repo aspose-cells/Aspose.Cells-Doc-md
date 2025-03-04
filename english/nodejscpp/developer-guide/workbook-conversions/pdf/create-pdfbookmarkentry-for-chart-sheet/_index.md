@@ -65,7 +65,6 @@ ent4.setText("Bookmark-IV-Chart2");
 
 // Arrange all Bookmark Entries
 const lst = [];
-ent1.setSubEntry(lst);
 lst.push(ent2);
 lst.push(ent3);
 lst.push(ent4);

@@ -72,7 +72,7 @@ workbook.save(path.join(dataDir, "SampleOutput_out.pdf"));
 
 // Save to Pdf after setting PdfSaveOptions.IsFontSubstitutionCharGranularity to true
 const opts = new AsposeCells.PdfSaveOptions();
-opts.setFontSubstitutionCharGranularity(true);
+opts.setIsFontSubstitutionCharGranularity(true);
 workbook.save(path.join(dataDir, "SampleOutput2_out.pdf"), opts);
 ```
 

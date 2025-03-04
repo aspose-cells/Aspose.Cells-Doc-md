@@ -55,18 +55,18 @@ const filePath = path.join(dataDir, "book1.xlsx");
 
 // Define Color array (of 12 colors) for Theme.
 const carr = [
-    new AsposeCells.Color("AntiqueWhite"), // Background1
-    new AsposeCells.Color("Brown"), // Text1
-    new AsposeCells.Color("AliceBlue"), // Background2
-    new AsposeCells.Color("Yellow"), // Text2
-    new AsposeCells.Color("YellowGreen"), // Accent1
-    new AsposeCells.Color("Red"), // Accent2
-    new AsposeCells.Color("Pink"), // Accent3
-    new AsposeCells.Color("Purple"), // Accent4
-    new AsposeCells.Color("PaleGreen"), // Accent5
-    new AsposeCells.Color("Orange"), // Accent6
-    new AsposeCells.Color("Green"), // Hyperlink
-    new AsposeCells.Color("Gray") // Followed Hyperlink
+new AsposeCells.Color("AntiqueWhite"), // Background1
+new AsposeCells.Color("Brown"), // Text1
+new AsposeCells.Color("AliceBlue"), // Background2
+new AsposeCells.Color("Yellow"), // Text2
+new AsposeCells.Color("YellowGreen"), // Accent1
+new AsposeCells.Color("Red"), // Accent2
+new AsposeCells.Color("Pink"), // Accent3
+new AsposeCells.Color("Purple"), // Accent4
+new AsposeCells.Color("PaleGreen"), // Accent5
+new AsposeCells.Color("Orange"), // Accent6
+new AsposeCells.Color("Green"), // Hyperlink
+new AsposeCells.Color("Gray") // Followed Hyperlink
 ];
 
 // Instantiate a Workbook.
@@ -75,7 +75,7 @@ const workbook = new AsposeCells.Workbook(filePath);
 
 // Set the custom theme with specified colors.
 workbook.customTheme("CustomeTheme1", carr);
-            
+
 // Save as the excel file.
 workbook.save(path.join(dataDir, "output.out.xlsx"));
 ```  
@@ -89,11 +89,6 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-
-// Create directory if it is not already present.
-if (!require("fs").existsSync(dataDir)) {
-    require("fs").mkdirSync(dataDir);
-}
 
 // Instantiate a Workbook.
 const workbook = new AsposeCells.Workbook();

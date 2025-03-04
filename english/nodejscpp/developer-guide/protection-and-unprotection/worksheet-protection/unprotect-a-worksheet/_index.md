@@ -37,7 +37,7 @@ const workbook = new AsposeCells.Workbook(filePath);
 
 // Accessing the first worksheet in the Excel file
 const worksheet = workbook.getWorksheets().get(0);
-            
+
 // Unprotecting the worksheet without a password
 worksheet.unprotect();
 

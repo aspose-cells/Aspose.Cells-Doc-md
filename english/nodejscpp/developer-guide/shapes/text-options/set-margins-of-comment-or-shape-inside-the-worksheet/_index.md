@@ -34,18 +34,18 @@ const ws = workbook.getWorksheets().get(0);
 
 const shapes = ws.getShapes();
 for (let i = 0; i < shapes.getCount(); i++) {
-    const sh = shapes.get(i);
-    // Access the text alignment
-    const txtAlign = sh.getTextBody().getTextAlignment();
+const sh = shapes.get(i);
+// Access the text alignment
+const txtAlign = sh.getTextBody().getTextAlignment();
 
-    // Set auto margin false
-    txtAlign.setIsAutoMargin(false);
+// Set auto margin false
+txtAlign.setIsAutoMargin(false);
 
-    // Set the top, left, bottom and right margins
-    txtAlign.setTopMarginPt(10);
-    txtAlign.setLeftMarginPt(10);
-    txtAlign.setBottomMarginPt(10);
-    txtAlign.setRightMarginPt(10);
+// Set the top, left, bottom and right margins
+txtAlign.setTopMarginPt(10);
+txtAlign.setLeftMarginPt(10);
+txtAlign.setBottomMarginPt(10);
+txtAlign.setRightMarginPt(10);
 }
 
 // Save the output Excel file

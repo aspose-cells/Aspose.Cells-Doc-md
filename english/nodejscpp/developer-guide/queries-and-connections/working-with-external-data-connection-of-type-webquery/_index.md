@@ -27,11 +27,14 @@ const filePath = path.join(dataDir, "WebQuerySample.xlsx");
 // Loads the workbook which contains hidden external links
 const workbook = new AsposeCells.Workbook(filePath);
 
-const connection = workbook.getDataConnections().get(0);
+const connections = workbook.getDataConnections();
+if (connections.getCount() > 0) {
+const connection = connections.get(0);
 
 if (connection instanceof AsposeCells.WebQueryConnection) {
-    const webQuery = connection;
-    console.log("Web Query URL: " + webQuery.getUrl());
+const webQuery = connection;
+console.log("Web Query URL: " + webQuery.getUrl());
+}
 }
 ```
 

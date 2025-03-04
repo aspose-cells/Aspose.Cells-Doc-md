@@ -100,7 +100,7 @@ const shape = worksheet.getShapes().get("TextBox 1");
 
 // Unlock the specified shape
 if (!worksheet.getProtection().getAllowEditingObject() && shape.isLocked()) {
-    shape.setIsLocked(false);
+shape.setIsLocked(false);
 }
 
 workbook.save("UnLocked.xlsx", AsposeCells.SaveFormat.Xlsx);

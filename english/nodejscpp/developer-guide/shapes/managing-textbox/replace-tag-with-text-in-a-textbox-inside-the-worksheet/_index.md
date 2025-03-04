@@ -16,6 +16,7 @@ Following sample code replaces tags TAG_1 and TAG_2 with some text say 'ys' and 
 [sampleReplaceTagWithText.xlsx](79527942.xlsx)
 
 ```javascript
+try {
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
@@ -30,15 +31,11 @@ const replace = "1$ys";
 const workbook = new AsposeCells.Workbook(filePath);
 
 tag.split('$').forEach((item, index) => {
-    sheetReplace(workbook, `<${item}>`, replace.split('$')[index]);
-});
-
-const opts = new AsposeCells.PdfSaveOptions();
-
-workbook.save(path.join(outputDir, "outputReplaceTagWithText.pdf"), opts);
+workbook.replace(`<${item}>`, replace.split('$')[index]);
 ```
 
 ```javascript
+try {
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
@@ -49,31 +46,17 @@ const filePath = path.join(dataDir, "sample.xlsx");
 const workbook = new AsposeCells.Workbook(filePath);
 
 function sheetReplace(workbook, sFind, sReplace) {
-    let finding = sFind;
+let finding = sFind;
 
-    workbook.getWorksheets().forEach(sheet => {
-        sheet.replace(finding, sReplace);
-        
-        for (let j = 0; j < 3; j++) {
-            if (sheet.getPageSetup().getHeader(j) != null) {
-                sheet.getPageSetup().setHeader(j, sheet.getPageSetup().getHeader(j).replace(finding, sReplace));
-            }
-            if (sheet.getPageSetup().getFooter(j) != null) {
-                sheet.getPageSetup().setFooter(j, sheet.getPageSetup().getFooter(j).replace(finding, sReplace));
-            }
-        }
-    });
+workbook.getWorksheets().forEach(sheet => {
+sheet.replace(finding, sReplace);
 
-    workbook.getWorksheets().forEach(sheet => {
-        sFind = sFind.replace("<", "&lt;").replace(">", "&gt;");
-
-        sheet.getTextBoxes().forEach(mytextbox => {
-            if (mytextbox.getHtmlText() != null) {
-                if (mytextbox.getHtmlText().indexOf(sFind) >= 0) {
-                    mytextbox.setHtmlText(mytextbox.getHtmlText().replace(sFind, sReplace));
-                }
-            }
-        });
-    });
+for (let j = 0; j < 3; j++) {
+if (sheet.getPageSetup().getHeader(j) != null) {
+sheet.getPageSetup().setHeader(j, sheet.getPageSetup().getHeader(j).replace(finding, sReplace));
+}
+if (sheet.getPageSetup().getFooter(j) != null) {
+sheet.getPageSetup().setFooter(j, sheet.getPageSetup().getFooter(j).replace(finding, sReplace));
+}
 }
 ```

@@ -42,8 +42,8 @@ const dataDir = path.join(__dirname, "data");
 // Create a workbook
 const workbook = new AsposeCells.Workbook();
 
-// URL that contains your XML data for mapping
-const XML = "http://www.aspose.com/docs/download/attachments/434475650/sampleXML.txt";
+// Local XML file path
+const XML = path.join(dataDir, "sampleXML.txt");
 
 // Import your XML Map data starting from cell A1
 workbook.importXml(XML, "Sheet1", 0, 0);

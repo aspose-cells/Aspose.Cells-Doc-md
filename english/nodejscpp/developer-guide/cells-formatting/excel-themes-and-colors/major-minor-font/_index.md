@@ -46,7 +46,7 @@ let defaultStyle = workbook.getDefaultStyle();
 
 let schemeType = defaultStyle.getFont().getSchemeType();
 if (schemeType === AsposeCells.FontSchemeType.Major || schemeType === AsposeCells.FontSchemeType.Minor) {
-    console.log("It's theme font");
+console.log("It's theme font");
 }
 
 // Change theme font to normal font

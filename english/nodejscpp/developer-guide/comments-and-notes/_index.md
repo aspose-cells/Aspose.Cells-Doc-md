@@ -23,11 +23,6 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 
-// Create directory if it is not already present.
-if (!require("fs").existsSync(dataDir)){
-    require("fs").mkdirSync(dataDir);
-}
-
 // Instantiating a Workbook object
 const workbook = new AsposeCells.Workbook();
 
@@ -55,16 +50,12 @@ workbook.save(path.join(dataDir, "book1.out.xls"));
 It is also possible to format comments' appearance by configuring their height, width and font settings.
 
 ```javascript
+const fs = require("fs");
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-
-// Create directory if it is not already present.
-if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir);
-}
 
 // Instantiating a Workbook object
 const workbook = new AsposeCells.Workbook();
@@ -124,11 +115,6 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 
-// Create directory if it is not already present.
-if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir);
-}
-
 // Instantiate a Workbook
 const workbook = new AsposeCells.Workbook();
 
@@ -146,7 +132,7 @@ const bmpPath = path.join(dataDir, "logo.jpg");
 const bmpData = fs.readFileSync(bmpPath);
 
 // Set image data to the shape associated with the comment
-comment.getCommentShape().getFill().getImageData().setData(bmpData);
+comment.getCommentShape().getFill().setImageData(bmpData);
 
 // Save the workbook
 workbook.save(path.join(dataDir, "book1.out.xlsx"), AsposeCells.SaveFormat.Xlsx);

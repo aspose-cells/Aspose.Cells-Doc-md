@@ -21,41 +21,41 @@ The following sample code explains how to implement [**GlobalizationSettings.get
 const AsposeCells = require("aspose.cells.node");
 
 class GS extends AsposeCells.GlobalizationSettings {
-    getLocalFunctionName(standardName) {
-        // Change the SUM function name as per your needs.
-        if (standardName === "SUM") {
-            return "UserFormulaLocal_SUM";
-        }
+getLocalFunctionName(standardName) {
+// Change the SUM function name as per your needs.
+if (standardName === "SUM") {
+return "UserFormulaLocal_SUM";
+}
 
-        // Change the AVERAGE function name as per your needs.
-        if (standardName === "AVERAGE") {
-            return "UserFormulaLocal_AVERAGE";
-        }
+// Change the AVERAGE function name as per your needs.
+if (standardName === "AVERAGE") {
+return "UserFormulaLocal_AVERAGE";
+}
 
-        return "";
-    }
+return "";
+}
 }
 
 function run() {
-    // Create workbook
-    const wb = new AsposeCells.Workbook();
+// Create workbook
+const wb = new AsposeCells.Workbook();
 
-    // Assign GlobalizationSettings implementation class
-    wb.getSettings().setGlobalizationSettings(new GS());
+// Assign GlobalizationSettings implementation class
+wb.getSettings().setGlobalizationSettings(new GS());
 
-    // Access first worksheet
-    const ws = wb.getWorksheets().get(0);
+// Access first worksheet
+const ws = wb.getWorksheets().get(0);
 
-    // Access some cell
-    const cell = ws.getCells().get("C4");
+// Access some cell
+const cell = ws.getCells().get("C4");
 
-    // Assign SUM formula and print its FormulaLocal
-    cell.setFormula("SUM(A1:A2)");
-    console.log("Formula Local: " + cell.getFormulaLocal());
+// Assign SUM formula and print its FormulaLocal
+cell.setFormula("SUM(A1:A2)");
+console.log("Formula Local: " + cell.getFormulaLocal());
 
-    // Assign AVERAGE formula and print its FormulaLocal
-    cell.setFormula("=AVERAGE(B1:B2, B5)");
-    console.log("Formula Local: " + cell.getFormulaLocal());
+// Assign AVERAGE formula and print its FormulaLocal
+cell.setFormula("=AVERAGE(B1:B2, B5)");
+console.log("Formula Local: " + cell.getFormulaLocal());
 }
 
 // Call the run function

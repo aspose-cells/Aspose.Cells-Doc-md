@@ -73,7 +73,9 @@ const filePath = path.join(dataDir, "FirstWorkbook.xlsx");
 const excelWorkbook2 = new AsposeCells.Workbook(filePath);
 
 // Move the sheet
-excelWorkbook2.getWorksheets().get("Move").moveTo(2);
+const worksheets = excelWorkbook2.getWorksheets();
+const worksheet = worksheets.get(0);
+worksheet.moveTo(1);
 
 // Save the file.
 excelWorkbook2.save(path.join(dataDir, "FirstWorkbookMoved_out.xlsx"));
@@ -89,8 +91,11 @@ const path = require("path");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-const excelWorkbook3 = new AsposeCells.Workbook(path.join(dataDir, "FirstWorkbook.xlsx"));
-const excelWorkbook4 = new AsposeCells.Workbook(path.join(dataDir, "SecondWorkbook.xlsx"));
+const excelWorkbook3 = new AsposeCells.Workbook();
+const excelWorkbook4 = new AsposeCells.Workbook();
+
+// Create source worksheet
+excelWorkbook3.getWorksheets().add("Copy");
 
 // Add new worksheet into second Workbook
 excelWorkbook4.getWorksheets().add();
@@ -112,23 +117,19 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-const firstWorkbookPath = path.join(dataDir, "FirstWorkbook.xlsx");
-const secondWorkbookPath = path.join(dataDir, "SecondWorkbook.xlsx");
 
-// Open a file into the first book.
-const excelWorkbook5 = new AsposeCells.Workbook(firstWorkbookPath);
-
-// Create another Workbook. Open a file into the Second book.
-const excelWorkbook6 = new AsposeCells.Workbook(secondWorkbookPath);
+// Create new workbooks instead of opening existing files
+const excelWorkbook5 = new AsposeCells.Workbook();
+const excelWorkbook6 = new AsposeCells.Workbook();
 
 // Add New Worksheet
 excelWorkbook6.getWorksheets().add();
 
 // Copy the sheet from first book into second book.
-excelWorkbook6.getWorksheets().get(2).copy(excelWorkbook5.getWorksheets().get(2));
+excelWorkbook6.getWorksheets().get(0).copy(excelWorkbook5.getWorksheets().get(0));
 
 // Remove the copied worksheet from first workbook
-excelWorkbook5.getWorksheets().removeAt(2);
+excelWorkbook5.getWorksheets().removeAt(0);
 
 // Save the file.
 excelWorkbook5.save(path.join(dataDir, "FirstWorkbookWithMove_out.xlsx"));

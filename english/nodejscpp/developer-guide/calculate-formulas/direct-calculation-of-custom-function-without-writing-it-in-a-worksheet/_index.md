@@ -20,40 +20,40 @@ Please see the following sample code that illustrates the usage of this method. 
 const AsposeCells = require("aspose.cells.node");
 
 class CustomEngine extends AsposeCells.AbstractCalculationEngine {
-    // Override the Calculate method with custom logic
-    calculate(data) {
-        // Check the formula name and calculate it yourself
-        if (data.getFunctionName() === "MyCompany.CustomFunction") {
-            // This is our calculated value
-            data.setCalculatedValue("Aspose.Cells.");
-        }
-    }
+// Override the Calculate method with custom logic
+calculate(data) {
+// Check the formula name and calculate it yourself
+if (data.getFunctionName() === "MyCompany.CustomFunction") {
+// This is our calculated value
+data.setCalculatedValue("Aspose.Cells.");
+}
+}
 }
 
 class ImplementDirectCalculationOfCustomFunction {
-    static run() {
-        // Create a workbook
-        const wb = new AsposeCells.Workbook();
+static run() {
+// Create a workbook
+const wb = new AsposeCells.Workbook();
 
-        // Access first worksheet
-        const ws = wb.getWorksheets().get(0);
+// Access first worksheet
+const ws = wb.getWorksheets().get(0);
 
-        // Add some text in cell A1
-        ws.getCells().get("A1").putValue("Welcome to ");
+// Add some text in cell A1
+ws.getCells().get("A1").putValue("Welcome to ");
 
-        // Create a calculation options with custom engine
-        const opts = new AsposeCells.CalculationOptions();
-        opts.setCustomEngine(new CustomEngine());
+// Create a calculation options with custom engine
+const opts = new AsposeCells.CalculationOptions();
+opts.setCustomEngine(new CustomEngine());
 
-        // This line shows how you can call your own custom function without
-        // a need to write it in any worksheet cell
-        // After the execution of this line, it will return
-        // Welcome to Aspose.Cells.
-        const ret = ws.calculateFormula("=A1 & MyCompany.CustomFunction()", opts);
+// This line shows how you can call your own custom function without
+// a need to write it in any worksheet cell
+// After the execution of this line, it will return
+// Welcome to Aspose.Cells.
+const ret = ws.calculateFormula("=A1 & MyCompany.CustomFunction()", opts);
 
-        // Print the calculated value
-        console.log("Calculated Value: " + ret);
-    }
+// Print the calculated value
+console.log("Calculated Value: " + ret);
+}
 }
 
 // Example invocation

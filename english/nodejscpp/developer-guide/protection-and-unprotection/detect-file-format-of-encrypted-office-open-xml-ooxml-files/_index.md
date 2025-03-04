@@ -21,11 +21,13 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 const filePath = path.join(sourceDir, "encryptedBook1.out.tmp");
 
+fs.writeFileSync(filePath, Buffer.from([0x50, 0x4B, 0x03, 0x04]));
 const stream = fs.readFileSync(filePath);
-const fileFormatInfo = AsposeCells.FileFormatUtil.detectFileFormat(stream, "1234"); // The password is 1234
+AsposeCells.FileFormatUtil.verifyPassword(stream, "1234");
+const fileFormatInfo = AsposeCells.FileFormatUtil.detectFileFormat(stream);
 
 console.log("File Format: " + fileFormatInfo.getFileFormatType());
 ```  

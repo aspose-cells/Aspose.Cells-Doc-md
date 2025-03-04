@@ -44,7 +44,7 @@ chart.getLegend().setPosition(AsposeCells.LegendPositionType.Bottom);
 // Set data range
 chart.setChartDataRange("A1:D9", true);
 // Set category data 
-chart.getNSeries().getCategoryData().set("A2:A9");
+chart.getNSeries().setCategoryData("A2:A9");
 // Set the marker with the built-in data 
 chart.getNSeries().get(2).getMarker().setMarkerStyle(AsposeCells.ChartMarkerType.Dash);
 chart.getNSeries().get(2).getMarker().setMarkerSize(20);

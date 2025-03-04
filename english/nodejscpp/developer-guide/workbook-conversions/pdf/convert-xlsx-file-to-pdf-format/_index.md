@@ -43,13 +43,13 @@ const designerFile = path.join(dataDir, "SampleInput.xlsx");
 const pdfFile = path.join(dataDir, "Output.out.pdf");
 
 try {
-    // Open the template excel file
-    const wb = new AsposeCells.Workbook(designerFile);
+// Open the template excel file
+const wb = new AsposeCells.Workbook(designerFile);
 
-    // Save the pdf file.
-    wb.save(pdfFile, AsposeCells.SaveFormat.Pdf);
+// Save the pdf file.
+wb.save(pdfFile, AsposeCells.SaveFormat.Pdf);
 } catch (e) {
-    console.log(e.message);
+console.log(e.message);
 }
 ```
 

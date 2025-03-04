@@ -17,26 +17,18 @@ Aspose.Cells for Node.js via C++ supports loading Ods, Sxc and Fods which are su
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
-// Load your source ods file
-const odsFilePath = path.join(__dirname, "book1.ods");
-let workbook = new AsposeCells.Workbook(odsFilePath);
+// Load Excel workbook
+const excelFilePath = path.join(__dirname, "book1.xlsx");
+let workbook = new AsposeCells.Workbook(excelFilePath);
 
-// Save as xlsx file
-workbook.save("ods_out.xlsx");
+// Save as ods file
+workbook.save("ods_out.ods");
 
-// Load your source sxc file
-const sxcFilePath = path.join(__dirname, "book1.sxc");
-workbook = new AsposeCells.Workbook(sxcFilePath);
+// Save as sxc file
+workbook.save("sxc_out.sxc");
 
-// Save as xls file
-workbook.save("sxc_out.xls");
-
-// Load your source fods file
-const fodsFilePath = path.join(__dirname, "book1.fods");
-workbook = new AsposeCells.Workbook(fodsFilePath);
-
-// Save as xlsb file
-workbook.save("fods_out.xlsb");
+// Save as fods file
+workbook.save("fods_out.fods");
 ```
 
 ## **Convert Excel to Ods (OpenOffice / LibreOffice Calc)**

@@ -26,9 +26,9 @@ const AsposeCells = require("aspose.cells.node");
 const path = require("path");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 // Output directory
-const outputDir = RunExamples.Get_OutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 // Open the template file
 const workbook = new AsposeCells.Workbook(path.join(sourceDir, "Book1.xlsx"));

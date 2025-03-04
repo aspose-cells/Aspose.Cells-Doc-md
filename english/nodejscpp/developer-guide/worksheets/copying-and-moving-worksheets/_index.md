@@ -102,12 +102,12 @@ const ws0 = excelWorkbook0.getWorksheets().get(0);
 
 // Put some data into header rows (A1:A4)
 for (let i = 0; i < 5; i++) {
-    ws0.getCells().get(i, 0).putValue(`Header Row ${i}`);
+ws0.getCells().get(i, 0).putValue(`Header Row ${i}`);
 }
 
 // Put some detail data (A5:A999)
 for (let i = 5; i < 1000; i++) {
-    ws0.getCells().get(i, 0).putValue(`Detail Row ${i}`);
+ws0.getCells().get(i, 0).putValue(`Detail Row ${i}`);
 }
 
 // Define a pagesetup object based on the first worksheet.

@@ -65,6 +65,7 @@ Aspose.Cells for Node.js via C++ provides [**Worksheet.pageSetup.getCommands**](
 The following codes show how to parse the header or footer as a command list and process commands:
 
 ```javascript
+try {
 const AsposeCells = require("aspose.cells.node");
 const path = require("path");
 
@@ -78,13 +79,12 @@ const sheet = workbook.getWorksheets().get(0);
 
 // Gets left section of header
 const headerSection = sheet.getPageSetup().getHeader(0);
-const commands = sheet.getPageSetup().getCommands(headerSection);
+const commands = sheet.getPageSetup().getCommands(headerSection) || [];
 
 commands.forEach(c => {
-    switch (c.getType()) {
-        case AsposeCells.HeaderFooterCommandType.SheetName:
-            // embedded the name of the sheet to header or footer
-            break;
-    }
-});
+switch (c.getType()) {
+case AsposeCells.HeaderFooterCommandType.SheetName:
+// embedded the name of the sheet to header or footer
+break;
+}
 ```

@@ -27,58 +27,58 @@ const AsposeCells = require("aspose.cells.node");
 
 // Create a new class derived from AbstractCalculationEngine
 class CustomEngine extends AsposeCells.AbstractCalculationEngine {
-    // Override the Calculate method with custom logic
-    calculate(data) {
-        // Check the formula name and change the implementation
-        if (data.getFunctionName().toUpperCase() === "TODAY") {
-            // Assign the CalculationData.CalculatedValue: add one day offset for the date
-            data.setCalculatedValue(AsposeCells.CellsHelper.getDoubleFromDateTime(new Date(), false) + 1.0);
-        }
-    }
-    get processBuiltInFunctions() {
-        return true;
-    }
+// Override the Calculate method with custom logic
+calculate(data) {
+// Check the formula name and change the implementation
+if (data.getFunctionName().toUpperCase() === "TODAY") {
+// Assign the CalculationData.CalculatedValue: add one day offset for the date
+data.setCalculatedValue(AsposeCells.CellsHelper.getDoubleFromDateTime(new Date(), false) + 1.0);
+}
+}
+get processBuiltInFunctions() {
+return true;
+}
 }
 
 class ImplementCustomCalculationEngine {
-    static run() {
-        // Create an instance of Workbook
-        const workbook = new AsposeCells.Workbook();
+static run() {
+// Create an instance of Workbook
+const workbook = new AsposeCells.Workbook();
 
-        // Access first Worksheet from the collection
-        const sheet = workbook.getWorksheets().get(0);
+// Access first Worksheet from the collection
+const sheet = workbook.getWorksheets().get(0);
 
-        // Access Cell A1 and put a formula to sum values of B1 to B2
-        const a1 = sheet.getCells().get("A1");
-        const style = a1.getStyle();
-        style.setNumber(14);
-        a1.setStyle(style);
-        
-        a1.setFormula("=TODAY()");
+// Access Cell A1 and put a formula to sum values of B1 to B2
+const a1 = sheet.getCells().get("A1");
+const style = a1.getStyle();
+style.setNumber(14);
+a1.setStyle(style);
 
-        // Calculate all formulas in the Workbook 
-        workbook.calculateFormula();
+a1.setFormula("=TODAY()");
 
-        // The result of A1 should be 20 as per default calculation engine
-        console.log("The value of A1 with default calculation engine: " + a1.getStringValue());
+// Calculate all formulas in the Workbook 
+workbook.calculateFormula();
 
-        // Create an instance of CustomEngine
-        const engine = new CustomEngine();
+// The result of A1 should be 20 as per default calculation engine
+console.log("The value of A1 with default calculation engine: " + a1.getStringValue());
 
-        // Create an instance of CalculationOptions
-        const opts = new AsposeCells.CalculationOptions();
+// Create an instance of CustomEngine
+const engine = new CustomEngine();
 
-        // Assign the CalculationOptions.CustomEngine property to the instance of CustomEngine
-        opts.setCustomEngine(engine);
+// Create an instance of CalculationOptions
+const opts = new AsposeCells.CalculationOptions();
 
-        // Recalculate all formulas in Workbook using the custom calculation engine
-        workbook.calculateFormula(opts);
+// Assign the CalculationOptions.CustomEngine property to the instance of CustomEngine
+opts.setCustomEngine(engine);
 
-        // The result of A1 will be 50 as per custom calculation engine
-        console.log("The value of A1 with custom calculation engine: " + a1.getStringValue());
+// Recalculate all formulas in Workbook using the custom calculation engine
+workbook.calculateFormula(opts);
 
-        console.log("Press any key to continue...");
-    }
+// The result of A1 will be 50 as per custom calculation engine
+console.log("The value of A1 with custom calculation engine: " + a1.getStringValue());
+
+console.log("Press any key to continue...");
+}
 }
 
 // Call the run method to execute the example

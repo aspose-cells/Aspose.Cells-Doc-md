@@ -16,17 +16,18 @@ Sample file for testing this feature can be downloaded from the following link:
 ```javascript
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
+const fs = require("fs");
 
-// The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const sourceFilePath = path.join(dataDir, "sampleNamedRangeTest.xlsm");
 const outputFilePath = path.join(dataDir, "sampleOutputNamedRangeTest.xlsm");
 
-// Initialize the name and formula
+const wb = new AsposeCells.Workbook();
+wb.save(sourceFilePath);
+
 const name = "HasFormula";
 const value = "=GET.CELL(48, INDIRECT(\"ZS\",FALSE))";
 
-// Load the workbook
 const wbSource = new AsposeCells.Workbook(sourceFilePath);
 const wsCol = wbSource.getWorksheets();
 
@@ -34,7 +35,6 @@ const nameIndex = wsCol.getNames().add(name);
 const namedRange = wsCol.getNames().get(nameIndex);
 namedRange.setRefersTo(value);
 
-// Save the workbook
 wbSource.save(outputFilePath);
 ```  
   

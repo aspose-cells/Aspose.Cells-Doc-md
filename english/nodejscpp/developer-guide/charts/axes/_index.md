@@ -55,7 +55,7 @@ worksheet.getCells().get("B3").putValue(32);
 worksheet.getCells().get("B4").putValue(50);
 
 // Adding a chart to the worksheet
-const chartIndex = worksheet.getCharts().add(AsposeCells.Charts.ChartType.Column, 5, 0, 15, 5);
+const chartIndex = worksheet.getCharts().add(AsposeCells.ChartType.Column, 5, 0, 15, 5);
 
 // Accessing the instance of the newly added chart
 const chart = worksheet.getCharts().get(chartIndex);

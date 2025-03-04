@@ -20,10 +20,10 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 
 // Output directory
-const outputDir = RunExamples.Get_OutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 // Instantiate and open an Excel file
 const filePath = path.join(sourceDir, "sampleGenerateThumbnailOfWorksheet.xlsx");
@@ -42,26 +42,15 @@ imgOptions.setHorizontalResolution(200);
 // One page per sheet is enabled
 imgOptions.setOnePagePerSheet(true);
 
+// Set desired thumbnail dimensions
+imgOptions.setDesiredSize(600, 600, true);
+
 // Get the first worksheet
 const sheet = book.getWorksheets().get(0);
 
 // Render the sheet with respect to specified image/print options
 const sr = new AsposeCells.SheetRender(sheet, imgOptions);
 
-// Render the image for the sheet
-const bmp = sr.toImage(0);
-
-// Create a bitmap
-const thumb = new Bitmap(600, 600);
-
-// Get the graphics for the bitmap
-const gr = System.Drawing.Graphics.FromImage(thumb);
-
-if (bmp !== null) {
-    // Draw the image
-    gr.drawImage(bmp, 0, 0, 600, 600);
-}
-
-// Save the thumbnail
-thumb.Save(path.join(outputDir, "outputGenerateThumbnailOfWorksheet.bmp"));
+// Save the thumbnail directly
+sr.toImage(0, path.join(outputDir, "outputGenerateThumbnailOfWorksheet.jpg"));
 ```

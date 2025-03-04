@@ -40,9 +40,9 @@ const workbook = new AsposeCells.Workbook(path.join(dataDir, "SampleWorkbookWith
 const worksheet = workbook.getWorksheets().get(0);
 
 /*
- * For print no comments use "PrintCommentsType.PrintNoComments"
- * and for print the comments as displayed on sheet use "PrintCommentsType.PrintInPlace"
- * For Print the comments at the end of sheet we use "PrintCommentsType.PrintSheetEnd"
+* For print no comments use "PrintCommentsType.PrintNoComments"
+* and for print the comments as displayed on sheet use "PrintCommentsType.PrintInPlace"
+* For Print the comments at the end of sheet we use "PrintCommentsType.PrintSheetEnd"
 */
 worksheet.getPageSetup().setPrintComments(AsposeCells.PrintCommentsType.PrintSheetEnd);
 

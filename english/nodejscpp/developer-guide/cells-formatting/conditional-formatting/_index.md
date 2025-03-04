@@ -51,27 +51,24 @@ const worksheet = workbook.getWorksheets().get(0);
 let totalRowCount = 0;
 
 for (let i = 0; i < workbook.getWorksheets().getCount(); i++) {
-    const sourceSheet = workbook.getWorksheets().get(i);
+const sourceSheet = workbook.getWorksheets().get(i);
 
-    const sourceRange = sourceSheet.getCells().getMaxDisplayRange();
-    
-    const destRange = worksheet.getCells().createRange(
-        sourceRange.getFirstRow() + totalRowCount, 
-        sourceRange.getFirstColumn(),
-        sourceRange.getRowCount(), 
-        sourceRange.getColumnCount()
-    );
+const sourceRange = sourceSheet.getCells().getMaxDisplayRange();
 
-    destRange.copy(sourceRange);
+const destRange = worksheet.getCells().createRange(
+sourceRange.getFirstRow() + totalRowCount, 
+sourceRange.getFirstColumn(),
+sourceRange.getRowCount(), 
+sourceRange.getColumnCount()
+);
 
-    totalRowCount += sourceRange.getRowCount();
+destRange.copy(sourceRange);
+
+totalRowCount += sourceRange.getRowCount();
 }
 
 // Saving the modified Excel file
 workbook.save(path.join(dataDir, "output.xls"));
-
-// Closing the file stream to free all resources
-fileStream.close();
 ```
 
 ## **Applying Conditional Formatting at Runtime**
@@ -97,28 +94,30 @@ const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "Book1.xlsx");
 
 // Instantiating a Workbook object
-const workbook = new AsposeCells.Workbook();
+const workbook = new AsposeCells.Workbook(filePath);
 const sheet = workbook.getWorksheets().get(0);
 
 // Adds an empty conditional formatting
-const index = sheet.getConditionalFormattings().getCount();
-const fcs = sheet.getConditionalFormattings().get(index);
+const fcs = sheet.getConditionalFormattings();
+const index = fcs.getCount();
+
+fcs.add();
 
 // Sets the conditional format range.
 let ca = AsposeCells.CellArea.createCellArea(0, 0, 0, 0);
-fcs.addArea(ca);
+fcs.get(index).addArea(ca);
 
 ca = AsposeCells.CellArea.createCellArea(1, 1, 1, 1);
-fcs.addArea(ca);
+fcs.get(index).addArea(ca);
 
 // Adds condition.
-const conditionIndex = fcs.addCondition(AsposeCells.FormatConditionType.CellValue, AsposeCells.OperatorType.Between, "=A2", "100");
+const conditionIndex = fcs.get(index).addCondition(AsposeCells.FormatConditionType.CellValue, AsposeCells.OperatorType.Between, "=A2", "100");
 
 // Adds condition.
-const conditionIndex2 = fcs.addCondition(AsposeCells.FormatConditionType.CellValue, AsposeCells.OperatorType.Between, "50", "100");
+const conditionIndex2 = fcs.get(index).addCondition(AsposeCells.FormatConditionType.CellValue, AsposeCells.OperatorType.Between, "50", "100");
 
 // Sets the background color.
-const fc = fcs.get(conditionIndex);
+const fc = fcs.get(index).get(conditionIndex);
 fc.getStyle().setBackgroundColor(AsposeCells.Color.Red);
 
 // Saving the Excel file
@@ -133,11 +132,6 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-
-// Create directory if it is not already present.
-if (!require("fs").existsSync(dataDir)) {
-    require("fs").mkdirSync(dataDir);
-}
 
 // Instantiating a Workbook object
 const workbook = new AsposeCells.Workbook();
@@ -178,37 +172,37 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 async function run() {
-    // The path to the documents directory.
-    const dataDir = path.join(__dirname, "data");
-    
-    // Instantiating a Workbook object
-    const workbook = new AsposeCells.Workbook();
-    const sheet = workbook.getWorksheets().get(0);
-    
-    // Adds an empty conditional formatting
-    const index = sheet.getConditionalFormattings().add();
-    const fcs = sheet.getConditionalFormattings().get(index);
-    
-    // Sets the conditional format range.
-    const ca = AsposeCells.CellArea.createCellArea(0, 0, 5, 3);
-    fcs.addArea(ca);
-    
-    // Adds condition.
-    const conditionIndex = fcs.addCondition(AsposeCells.FormatConditionType.CellValue, AsposeCells.OperatorType.Between, "50", "100");
-    
-    // Sets the background color.
-    const fc = fcs.get(conditionIndex);
-    fc.getStyle().getBorders().get(AsposeCells.BorderType.LeftBorder).setLineStyle(AsposeCells.CellBorderType.Dashed);
-    fc.getStyle().getBorders().get(AsposeCells.BorderType.RightBorder).setLineStyle(AsposeCells.CellBorderType.Dashed);
-    fc.getStyle().getBorders().get(AsposeCells.BorderType.TopBorder).setLineStyle(AsposeCells.CellBorderType.Dashed);
-    fc.getStyle().getBorders().get(AsposeCells.BorderType.BottomBorder).setLineStyle(AsposeCells.CellBorderType.Dashed);
+// The path to the documents directory.
+const dataDir = path.join(__dirname, "data");
 
-    fc.getStyle().getBorders().get(AsposeCells.BorderType.LeftBorder).setColor(new AsposeCells.Color(0, 255, 255));
-    fc.getStyle().getBorders().get(AsposeCells.BorderType.RightBorder).setColor(new AsposeCells.Color(0, 255, 255));
-    fc.getStyle().getBorders().get(AsposeCells.BorderType.TopBorder).setColor(new AsposeCells.Color(0, 255, 255));
-    fc.getStyle().getBorders().get(AsposeCells.BorderType.BottomBorder).setColor(new AsposeCells.Color(255, 255, 0));
-    
-    await workbook.saveAsync(path.join(dataDir, "output.xlsx"));
+// Instantiating a Workbook object
+const workbook = new AsposeCells.Workbook();
+const sheet = workbook.getWorksheets().get(0);
+
+// Adds an empty conditional formatting
+const index = sheet.getConditionalFormattings().add();
+const fcs = sheet.getConditionalFormattings().get(index);
+
+// Sets the conditional format range.
+const ca = AsposeCells.CellArea.createCellArea(0, 0, 5, 3);
+fcs.addArea(ca);
+
+// Adds condition.
+const conditionIndex = fcs.addCondition(AsposeCells.FormatConditionType.CellValue, AsposeCells.OperatorType.Between, "50", "100");
+
+// Sets the background color.
+const fc = fcs.get(conditionIndex);
+fc.getStyle().getBorders().get(AsposeCells.BorderType.LeftBorder).setLineStyle(AsposeCells.CellBorderType.Dashed);
+fc.getStyle().getBorders().get(AsposeCells.BorderType.RightBorder).setLineStyle(AsposeCells.CellBorderType.Dashed);
+fc.getStyle().getBorders().get(AsposeCells.BorderType.TopBorder).setLineStyle(AsposeCells.CellBorderType.Dashed);
+fc.getStyle().getBorders().get(AsposeCells.BorderType.BottomBorder).setLineStyle(AsposeCells.CellBorderType.Dashed);
+
+fc.getStyle().getBorders().get(AsposeCells.BorderType.LeftBorder).setColor(new AsposeCells.Color(0, 255, 255));
+fc.getStyle().getBorders().get(AsposeCells.BorderType.RightBorder).setColor(new AsposeCells.Color(0, 255, 255));
+fc.getStyle().getBorders().get(AsposeCells.BorderType.TopBorder).setColor(new AsposeCells.Color(0, 255, 255));
+fc.getStyle().getBorders().get(AsposeCells.BorderType.BottomBorder).setColor(new AsposeCells.Color(255, 255, 0));
+
+await workbook.saveAsync(path.join(dataDir, "output.xlsx"));
 }
 
 run().catch(console.error);

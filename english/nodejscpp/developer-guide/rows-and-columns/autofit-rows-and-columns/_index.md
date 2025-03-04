@@ -28,12 +28,12 @@ const AsposeCells = require("aspose.cells.node");
 const dataDir = path.join(__dirname, "data");
 const inputPath = path.join(dataDir, "Book1.xlsx");
 
-// Creating a file stream containing the Excel file to be opened
+// Reading the Excel file into a buffer
 const fs = require("fs");
-const fstream = fs.createReadStream(inputPath);
+const fileBuffer = fs.readFileSync(inputPath);
 
-// Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(fstream);
+// Opening the Excel file through the buffer
+const workbook = new AsposeCells.Workbook(fileBuffer);
 
 // Accessing the first worksheet in the Excel file
 const worksheet = workbook.getWorksheets().get(0);
@@ -44,9 +44,6 @@ worksheet.autoFitRow(1);
 // Saving the modified Excel file
 const outputPath = path.join(dataDir, "output.xlsx");
 workbook.save(outputPath);
-
-// Closing the file stream to free all resources
-fstream.close();
 ```  
 
 ### **How to AutoFit Row in a Range of Cells**  
@@ -67,12 +64,12 @@ const path = require("path");
 const dataDir = path.join(__dirname, "data");
 const inputPath = path.join(dataDir, "Book1.xlsx");
 
-// Creating a file stream containing the Excel file to be opened
+// Reading the Excel file into a buffer
 const fs = require("fs");
-const fstream = fs.createReadStream(inputPath);
+const fileData = fs.readFileSync(inputPath);
 
-// Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(fstream);
+// Opening the Excel file through the buffer
+const workbook = new AsposeCells.Workbook(fileData);
 
 // Accessing the first worksheet in the Excel file
 const worksheet = workbook.getWorksheets().get(0);
@@ -82,9 +79,6 @@ worksheet.autoFitRow(1, 0, 5);
 
 // Saving the modified Excel file
 workbook.save(path.join(dataDir, "output.xlsx"));
-
-// Closing the file stream to free all resources
-fstream.close();
 ```  
 
 ### **How to AutoFit Column in a Range of Cells**  
@@ -107,22 +101,16 @@ const inputPath = path.join(dataDir, "Book1.xlsx");
 
 // Creating a file stream containing the Excel file to be opened
 const fs = require("fs");
-const fstream = fs.createReadStream(inputPath);
-
-// Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(fstream);
+const workbook = new AsposeCells.Workbook(fs.readFileSync(inputPath));
 
 // Accessing the first worksheet in the Excel file
 const worksheet = workbook.getWorksheets().get(0);
 
 // Auto-fitting the Column of the worksheet
-worksheet.autoFitColumn(4, 4, 6);
+worksheet.autoFitColumn(4);
 
 // Saving the modified Excel file
 workbook.save(path.join(dataDir, "output.xlsx"));
-
-// Closing the file stream to free all resources
-fstream.close();
 ```  
 
 ### **How to AutoFit Rows for Merged Cells**  

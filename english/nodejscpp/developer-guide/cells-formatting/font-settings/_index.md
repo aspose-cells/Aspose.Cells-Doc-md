@@ -29,12 +29,6 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 
-// Create directory if it is not already present.
-const fs = require("fs");
-if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir);
-}
-
 // Instantiating a Workbook object
 const workbook = new AsposeCells.Workbook();
 
@@ -203,11 +197,6 @@ const path = require("path");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const outputPath = path.join(dataDir, "out.xlsx");
-
-// Create directory if it is not already present.
-if (!require("fs").existsSync(dataDir)){
-    require("fs").mkdirSync(dataDir);
-}
 
 // Instantiating a Workbook object
 const workbook = new AsposeCells.Workbook();

@@ -29,9 +29,9 @@ const ws = wb.getWorksheets().get(0);
 
 // Fill worksheet with some integer values
 for (let r = 0; r < 10; r++) {
-    for (let c = 0; c < 10; c++) {
-        ws.getCells().get(r, c).putValue(r * 1);
-    }
+for (let c = 0; c < 10; c++) {
+ws.getCells().get(r, c).putValue(r * 1);
+}
 }
 
 // Save your workbook in HTML format and export gridlines

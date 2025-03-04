@@ -44,34 +44,23 @@ The following code example demonstrates the implementation of the `IEnumerator` 
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
-// The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "sample.xlsx");
-// Loads the workbook which contains hidden external links
 const workbook = new AsposeCells.Workbook(filePath);
 
-// Get the enumerator from Cells collection
-const cellEnumerator = workbook.getWorksheets().get(0).getCells().getEnumerator();
-// Traverse cells in the collection
-while (cellEnumerator.moveNext()) {
-    const cell = cellEnumerator.getCurrent();
-    console.log(`${cell.getName()} ${cell.getValue()}`);
+const cells = workbook.getWorksheets().get(0).getCells().getEnumerator();
+for (const cell of cells) {
+console.log(`${cell.getName()} ${cell.getValue()}`);
 }
 
-// Get enumerator from an object of Row
-const rowEnumerator = workbook.getWorksheets().get(0).getCells().getRows().get(0).getEnumerator();
-// Traverse cells in the given row
-while (rowEnumerator.moveNext()) {
-    const cell = rowEnumerator.getCurrent();
-    console.log(`${cell.getName()} ${cell.getValue()}`);
+const rowCells = workbook.getWorksheets().get(0).getCells().getRows().get(0).getEnumerator();
+for (const cell of rowCells) {
+console.log(`${cell.getName()} ${cell.getValue()}`);
 }
 
-// Get enumerator from an object of Range
-const rangeEnumerator = workbook.getWorksheets().get(0).getCells().createRange("A1:B10").getEnumerator();
-// Traverse cells in the range
-while (rangeEnumerator.moveNext()) {
-    const cell = rangeEnumerator.getCurrent();
-    console.log(`${cell.getName()} ${cell.getValue()}`);
+const rangeCells = workbook.getWorksheets().get(0).getCells().createRange("A1:B10").getEnumerator();
+for (const cell of rangeCells) {
+console.log(`${cell.getName()} ${cell.getValue()}`);
 }
 ```  
 
@@ -89,13 +78,14 @@ const filePath = path.join(dataDir, "sample.xlsx");
 // Loads the workbook which contains hidden external links
 const workbook = new AsposeCells.Workbook(filePath);
 
-// Get the enumerator for RowCollection
-const rowsEnumerator = workbook.getWorksheets().get(0).getCells().getRows().getEnumerator();
+// Get RowCollection and iterate using index
+const rows = workbook.getWorksheets().get(0).getCells().getRows();
+const rowCount = rows.getCount();
 
 // Traverse rows in the collection
-while (rowsEnumerator.moveNext()) {
-    const row = rowsEnumerator.getCurrent();
-    console.log(row.getIndex());
+for (let i = 0; i < rowCount; i++) {
+const row = rows.get(i);
+console.log(row.getIndex());
 }
 ```  
 
@@ -113,12 +103,13 @@ const filePath = path.join(dataDir, "sample.xlsx");
 // Loads the workbook which contains hidden external links
 const workbook = new AsposeCells.Workbook(filePath);
 
-// Get the enumerator for ColumnsCollection
-const colsEnumerator = workbook.getWorksheets().get(0).getCells().getColumns().getEnumerator();
-// Traverse columns in the collection
-while (colsEnumerator.moveNext()) {
-    const col = colsEnumerator.getCurrent();
-    console.log(col.getIndex());
+// Get columns collection
+const columns = workbook.getWorksheets().get(0).getCells().getColumns();
+// Traverse columns using index
+const count = columns.getCount();
+for (let i = 0; i < count; i++) {
+const col = columns.get(i);
+console.log(col.getIndex());
 }
 ```  
 
@@ -150,10 +141,10 @@ const displayRange = cells.getMaxDisplayRange();
 
 // Loop over all cells in the MaxDisplayRange
 for (let row = displayRange.getFirstRow(); row < displayRange.getRowCount(); row++) {
-    for (let col = displayRange.getFirstColumn(); col < displayRange.getColumnCount(); col++) {
-        // Read the Cell value
-        console.log(displayRange.get(row, col).getStringValue());
-    }
+for (let col = displayRange.getFirstColumn(); col < displayRange.getColumnCount(); col++) {
+// Read the Cell value
+console.log(displayRange.get(row, col).getStringValue());
+}
 }
 ```  
 
@@ -176,13 +167,13 @@ const maxDataColumn = cells2.getMaxDataColumn();
 
 // Loop over all cells
 for (let row = 0; row <= maxDataRow; row++) {
-    for (let col = 0; col <= maxDataColumn; col++) {
-        // Read the Cell value
-        const currentCell = cells2.checkCell(row, col);
-        if (currentCell) {
-            console.log(currentCell.getStringValue());
-        }
-    }
+for (let col = 0; col <= maxDataColumn; col++) {
+// Read the Cell value
+const currentCell = cells2.checkCell(row, col);
+if (currentCell) {
+console.log(currentCell.getStringValue());
+}
+}
 }
 ```  
 

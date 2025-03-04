@@ -41,7 +41,7 @@ sheet.getCells().get(2, 1).putValue(8);
 sheet.getCells().get(2, 2).putValue(9);
 
 // Generate the chart
-const chartIndex = sheet.getCharts().add(AsposeCells.Charts.ChartType.ScatterConnectedByLinesWithDataMarker, 5, 1, 24, 10);
+const chartIndex = sheet.getCharts().add(AsposeCells.ChartType.ScatterConnectedByLinesWithDataMarker, 5, 1, 24, 10);
 const chart = sheet.getCharts().get(chartIndex);
 
 chart.getTitle().setText("Test");
@@ -57,8 +57,8 @@ let series = chart.getNSeries().get(0);
 
 let pointCount = series.getPoints().getCount();
 for (let i = 0; i < pointCount; i++) {
-    const pointIndex = series.getPoints().get(i);
-    pointIndex.getDataLabels().setText("Series 1" + "\n" + "Point " + i);
+const pointIndex = series.getPoints().get(i);
+pointIndex.getDataLabels().setText("Series 1" + "\n" + "Point " + i);
 }
 
 // Insert series
@@ -68,8 +68,8 @@ series = chart.getNSeries().get(1);
 
 pointCount = series.getPoints().getCount();
 for (let i = 0; i < pointCount; i++) {
-    const pointIndex = series.getPoints().get(i);
-    pointIndex.getDataLabels().setText("Series 2" + "\n" + "Point " + i);
+const pointIndex = series.getPoints().get(i);
+pointIndex.getDataLabels().setText("Series 2" + "\n" + "Point " + i);
 }
 
 workbook.save(path.join(dataDir, "output_out.xlsx"), AsposeCells.SaveFormat.Xlsx);

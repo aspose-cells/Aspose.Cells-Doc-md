@@ -30,30 +30,19 @@ The sample code below describes how to secure PDFs with Aspose.Cells.
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
-// The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "input.xlsx");
-// Open an Excel file
 const workbook = new AsposeCells.Workbook(filePath);
 
-// Instantiate PDFSaveOptions to manage security attributes
 const saveOption = new AsposeCells.PdfSaveOptions();
-
 saveOption.setSecurityOptions(new AsposeCells.PdfSecurityOptions());
-// Set the user password
+
 saveOption.getSecurityOptions().setUserPassword("user");
-
-// Set the owner password
 saveOption.getSecurityOptions().setOwnerPassword("owner");
-
-// Disable extracting content permission
 saveOption.getSecurityOptions().setExtractContentPermission(false);
-
-// Disable print permission
 saveOption.getSecurityOptions().setPrintPermission(false);
 
-// Save the PDF document with encrypted settings
-workbook.save(path.join(dataDir, "securepdf_test.out.pdf"), AsposeCells.SaveFormat.Pdf, saveOption);
+workbook.save(path.join(dataDir, "securepdf_test.out.pdf"), saveOption);
 ```
 
 {{% alert color="primary" %}}

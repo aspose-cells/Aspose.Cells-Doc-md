@@ -31,18 +31,18 @@ const destSheet = destWorkbook.getWorksheets().get(0);
 let TotalRowCount = 0;
 
 for (let i = 0; i < workbook.getWorksheets().getCount(); i++) {
-    const sourceSheet = workbook.getWorksheets().get(i);
+const sourceSheet = workbook.getWorksheets().get(i);
 
-    const sourceRange = sourceSheet.getCells().getMaxDisplayRange();
-    const destRange = destSheet.getCells().createRange(
-        sourceRange.getFirstRow() + TotalRowCount,
-        sourceRange.getFirstColumn(),
-        sourceRange.getRowCount(),
-        sourceRange.getColumnCount()
-    );
+const sourceRange = sourceSheet.getCells().getMaxDisplayRange();
+const destRange = destSheet.getCells().createRange(
+sourceRange.getFirstRow() + TotalRowCount,
+sourceRange.getFirstColumn(),
+sourceRange.getRowCount(),
+sourceRange.getColumnCount()
+);
 
-    destRange.copy(sourceRange);
-    TotalRowCount += sourceRange.getRowCount();
+destRange.copy(sourceRange);
+TotalRowCount += sourceRange.getRowCount();
 }
 
 const outputFilePath = path.join(dataDir, "Output.out.xlsx");

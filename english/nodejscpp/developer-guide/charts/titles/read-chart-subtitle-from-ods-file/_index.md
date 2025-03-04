@@ -19,7 +19,7 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 // Load excel file containing charts
 const filePath = path.join(sourceDir, "SampleChart.ods");
 const workbook = new AsposeCells.Workbook(filePath);

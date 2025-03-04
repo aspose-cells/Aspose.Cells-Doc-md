@@ -125,7 +125,7 @@ sheet3.getCells().get(0, 0).setStyle(style3);
 const options3 = new AsposeCells.AutoFitterOptions();
 
 // Only expands the height of each row.
-options3.setAutoFitMergedCellsType(AsposeCells.AutoFitterOptions.AutoFitMergedCellsType.EachLine);
+options3.setAutoFitMergedCellsType(AsposeCells.AutoFitMergedCellsType.EachLine);
 
 // Autofit rows in the sheet (including the merged cells)
 sheet3.autoFitRows(options3);
@@ -155,7 +155,7 @@ sheet4.getCells().get(0, 0).setStyle(style4);
 const options4 = new AsposeCells.AutoFitterOptions();
 
 // Ignore merged cells.
-options4.setAutoFitMergedCellsType(AsposeCells.AutoFitterMergedCellsType.None);
+options4.setAutoFitMergedCellsType(AsposeCells.AutoFitMergedCellsType.None);
 
 // Autofit rows in the sheet (not including the merged cells)
 sheet4.autoFitRows(options4);

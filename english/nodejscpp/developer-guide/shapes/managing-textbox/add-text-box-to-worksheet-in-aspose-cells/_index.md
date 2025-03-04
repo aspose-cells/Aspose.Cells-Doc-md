@@ -43,9 +43,6 @@ const path = require("path");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-if (!require("fs").existsSync(dataDir)) {
-    require("fs").mkdirSync(dataDir);
-}
 
 // Create an object of the Workbook class
 const workbook = new AsposeCells.Workbook();

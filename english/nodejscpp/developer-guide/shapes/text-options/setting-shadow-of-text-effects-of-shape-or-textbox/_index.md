@@ -28,7 +28,7 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Output directory
-const outputDir = RunExamples.Get_OutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 // Create workbook object
 const wb = new AsposeCells.Workbook();
@@ -44,7 +44,7 @@ tb.setText("This text has the following settings.\n\nText Effects > Shadow > Off
 
 // Set all the text runs shadow to preset offset bottom
 for (let i = 0; i < tb.getTextBody().getCount(); i++) {
-    tb.getTextBody().get(i).getTextOptions().getShadow().setPresetType(AsposeCells.PresetShadowType.OffsetBottom);
+tb.getTextBody().get(i).getTextOptions().getShadow().setPresetType(AsposeCells.PresetShadowType.OffsetBottom);
 }
 
 // Set the font color and size of the textbox

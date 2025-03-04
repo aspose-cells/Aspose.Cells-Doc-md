@@ -31,17 +31,17 @@ const ms = workbook.saveToStream();
 // Now load the workbook from memory stream with A5 paper size
 const opts = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx);
 opts.setPaperSize(AsposeCells.PaperSizeType.PaperA5);
-workbook = new AsposeCells.Workbook(ms, opts);
+let workbookA5 = new AsposeCells.Workbook(ms, opts);
 
 // Save the workbook in pdf format
-workbook.save(path.join(dataDir, "LoadWorkbookWithPrinterSize-a5_out.pdf"));
+workbookA5.save(path.join(dataDir, "LoadWorkbookWithPrinterSize-a5_out.pdf"));
 
 // Now load the workbook again from memory stream with A3 paper size
 ms.position = 0;
 opts.setPaperSize(AsposeCells.PaperSizeType.PaperA3);
-workbook = new AsposeCells.Workbook(ms, opts);
+let workbookA3 = new AsposeCells.Workbook(ms, opts);
 
 // Save the workbook in pdf format
-workbook.save(path.join(dataDir, "LoadWorkbookWithPrinterSize-a3_out.pdf"));
+workbookA3.save(path.join(dataDir, "LoadWorkbookWithPrinterSize-a3_out.pdf"));
 ```  
   

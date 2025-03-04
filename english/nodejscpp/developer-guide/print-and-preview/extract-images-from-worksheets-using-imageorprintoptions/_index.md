@@ -22,9 +22,9 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 // Output directory
-const outputDir = RunExamples.Get_OutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 // Open a template Excel file
 const workbook = new AsposeCells.Workbook(path.join(sourceDir, "sampleExtractImagesFromWorksheets.xlsx"));
@@ -37,14 +37,14 @@ const pic = worksheet.getPictures().get(0);
 
 // Set the output image file path
 const picformat = pic.getImageType().toString();
-            
+
 // Note: you may evaluate the image format before specifying the image path
 // Define ImageOrPrintOptions
 const printoption = new AsposeCells.ImageOrPrintOptions();
 
 // Specify the image format
 printoption.setImageType(AsposeCells.ImageType.Jpeg);
-            
+
 // Save the image
 pic.toImage(path.join(outputDir, "outputExtractImagesFromWorksheets.jpg"), printoption);
 ```

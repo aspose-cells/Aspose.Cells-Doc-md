@@ -22,9 +22,17 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 // Output directory
-const outputDir = RunExamples.Get_OutputDirectory();
+const outputDir = path.join(__dirname, "output");
+
+// Define TestPageSavingCallback class
+class TestPageSavingCallback {
+// Implement the required methods of this callback as needed
+onPageSaving(pageIndex, fileName) {
+console.log(`Saving page ${pageIndex} to ${fileName}`);
+}
+}
 
 const workbook = new AsposeCells.Workbook(path.join(sourceDir, "PagesBook1.xlsx"));
 
@@ -40,23 +48,23 @@ The following is the code for the *TestPageSavingCallback* custom class.
 const AsposeCells = require("aspose.cells.node");
 
 class TestPageSavingCallback {
-    pageStartSaving(args) {
-        console.log(`Start saving page index ${args.getPageIndex()} of pages ${args.getPageCount()}`);
+pageStartSaving(args) {
+console.log(`Start saving page index ${args.getPageIndex()} of pages ${args.getPageCount()}`);
 
-        // don't output pages before page index 2.
-        if (args.getPageIndex() < 2) {
-            args.setIsToOutput(false);
-        }
-    }
+// don't output pages before page index 2.
+if (args.getPageIndex() < 2) {
+args.setIsToOutput(false);
+}
+}
 
-    pageEndSaving(args) {
-        console.log(`End saving page index ${args.getPageIndex()} of pages ${args.getPageCount()}`);
+pageEndSaving(args) {
+console.log(`End saving page index ${args.getPageIndex()} of pages ${args.getPageCount()}`);
 
-        // don't output pages after page index 8.
-        if (args.getPageIndex() >= 8) {
-            args.setHasMorePages(false);
-        }
-    }
+// don't output pages after page index 8.
+if (args.getPageIndex() >= 8) {
+args.setHasMorePages(false);
+}
+}
 }
 ```  
 

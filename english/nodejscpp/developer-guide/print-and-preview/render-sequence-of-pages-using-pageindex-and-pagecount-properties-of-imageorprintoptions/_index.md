@@ -26,9 +26,9 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 // Output directory
-const outputDir = RunExamples.Get_OutputDirectory();
+const outputDir = path.join(__dirname, "output");
 // Load the sample Excel file
 const workbook = new AsposeCells.Workbook(path.join(sourceDir, "sampleImageOrPrintOptions_PageIndexPageCount.xlsx"));
 // Access the first worksheet
@@ -43,7 +43,7 @@ opts.setImageType(AsposeCells.ImageType.Png);
 const sheetRender = new AsposeCells.SheetRender(worksheet, opts);
 // Print all the pages as images
 for (let i = opts.getPageIndex(); i < sheetRender.getPageCount(); i++) {
-    sheetRender.toImage(i, path.join(outputDir, `outputImage-${i + 1}.png`));
+sheetRender.toImage(i, path.join(outputDir, `outputImage-${i + 1}.png`));
 }
 ```  
   

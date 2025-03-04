@@ -37,19 +37,25 @@ wkSheet.getCells().clear();
 // Get merged areas
 const areas = wkSheet.getCells().getMergedAreas();
 
+// Check if areas is null or not
+if (!areas || areas.length === 0) {
+console.warn("No merged areas to unmerge.");
+return;
+}
+
 // Define some variables
 let frow, fcol, erow, ecol, trows, tcols;
 // Loop through the arraylist and get each cellarea
 // To unmerge it
 for (let i = 0; i < areas.length; i++) {
-    frow = areas[i].startRow;
-    fcol = areas[i].startColumn;
-    erow = areas[i].endRow;
-    ecol = areas[i].endColumn;
+frow = areas[i].startRow;
+fcol = areas[i].startColumn;
+erow = areas[i].endRow;
+ecol = areas[i].endColumn;
 
-    trows = erow - frow + 1;
-    tcols = ecol - fcol + 1;
-    wkSheet.getCells().unMerge(frow, fcol, trows, tcols);
+trows = erow - frow + 1;
+tcols = ecol - fcol + 1;
+wkSheet.getCells().unMerge(frow, fcol, trows, tcols);
 }
 
 const outputFilePath = path.join(dataDir, "MergeTrial.out.xlsx");

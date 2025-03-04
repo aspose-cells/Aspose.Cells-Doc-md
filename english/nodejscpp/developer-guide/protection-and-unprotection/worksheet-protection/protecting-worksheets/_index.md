@@ -58,12 +58,9 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "book1.xls");
-// Creating a file stream containing the Excel file to be opened
-const fstream = fs.createReadStream(filePath);
 
-// Instantiating a Workbook object
-// Opening the Excel file through the file stream
-const excel = new AsposeCells.Workbook(fstream);
+// Instantiating a Workbook object with file buffer
+const excel = new AsposeCells.Workbook(fs.readFileSync(filePath));
 
 // Accessing the first worksheet in the Excel file
 const worksheet = excel.getWorksheets().get(0);
@@ -73,9 +70,6 @@ worksheet.protect(AsposeCells.ProtectionType.All, "aspose", null);
 
 // Saving the modified Excel file in default format
 excel.save(path.join(dataDir, "output.out.xls"), AsposeCells.SaveFormat.Excel97To2003);
-
-// Closing the file stream to free all resources
-fstream.close();
 ```
 
 After the above code is used to protect the worksheet, you can check the protection on the worksheet by opening it. Once you open the file and try to add some data to the worksheet, you will see the following dialog:
@@ -117,12 +111,6 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 
-// Create directory if it is not already present.
-const fs = require("fs");
-if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir);
-}
-
 // Create a new workbook.
 const wb = new AsposeCells.Workbook();
 
@@ -137,10 +125,10 @@ const styleflag = new AsposeCells.StyleFlag();
 
 // Loop through all the columns in the worksheet and unlock them.
 for (let i = 0; i <= 255; i++) {
-    style = sheet.getCells().getColumns().get((i)).getStyle();
-    style.setIsLocked(false);
-    styleflag.setLocked(true);
-    sheet.getCells().getColumns().get((i)).applyStyle(style, styleflag);
+style = sheet.getCells().getColumns().get((i)).getStyle();
+style.setIsLocked(false);
+styleflag.setLocked(true);
+sheet.getCells().getColumns().get((i)).applyStyle(style, styleflag);
 }
 
 // Lock the three cells...i.e. A1, B1, C1.
@@ -174,11 +162,6 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 
-// Create directory if it is not already present.
-if (!require("fs").existsSync(dataDir)) {
-    require("fs").mkdirSync(dataDir);
-}
-
 // Create a new workbook.
 const wb = new AsposeCells.Workbook();
 
@@ -193,10 +176,10 @@ const flag = new AsposeCells.StyleFlag();
 
 // Loop through all the columns in the worksheet and unlock them.
 for (let i = 0; i <= 255; i++) {
-    style = sheet.getCells().getColumns().get(i).getStyle();
-    style.setIsLocked(false);
-    flag.setLocked(true);
-    sheet.getCells().getColumns().get(i).applyStyle(style, flag);
+style = sheet.getCells().getColumns().get(i).getStyle();
+style.setIsLocked(false);
+flag.setLocked(true);
+sheet.getCells().getColumns().get(i).applyStyle(style, flag);
 }
 
 // Get the first row style.
@@ -231,11 +214,6 @@ const path = require("path");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 
-// Create directory if it is not already present.
-if (!require("fs").existsSync(dataDir)) {
-    require("fs").mkdirSync(dataDir);
-}
-
 // Create a new workbook.
 const wb = new AsposeCells.Workbook();
 
@@ -250,10 +228,10 @@ const flag = new AsposeCells.StyleFlag();
 
 // Loop through all the columns in the worksheet and unlock them.
 for (let i = 0; i <= 255; i++) {
-    style = sheet.getCells().getColumns().get(i).getStyle();
-    style.setIsLocked(false);
-    flag.setLocked(true);
-    sheet.getCells().getColumns().get(i).applyStyle(style, flag);
+style = sheet.getCells().getColumns().get(i).getStyle();
+style.setIsLocked(false);
+flag.setLocked(true);
+sheet.getCells().getColumns().get(i).applyStyle(style, flag);
 }
 
 // Get the first column style.
@@ -282,12 +260,6 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-
-// Create directory if it is not already present.
-const fs = require("fs");
-if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir);
-}
 
 // Instantiate a new Workbook
 const book = new AsposeCells.Workbook();

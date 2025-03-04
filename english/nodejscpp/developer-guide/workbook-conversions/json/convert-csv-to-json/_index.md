@@ -27,7 +27,7 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.getSourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 
 const loadOptions = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Csv);
 // Load CSV file

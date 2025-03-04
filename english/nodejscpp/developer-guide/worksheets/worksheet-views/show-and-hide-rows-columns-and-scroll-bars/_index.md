@@ -31,12 +31,11 @@ const AsposeCells = require("aspose.cells.node");
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "book1.xls");
 
-// Creating a file stream containing the Excel file to be opened
-const fstream = fs.createReadStream(filePath);
+// Reading the Excel file into a buffer
+const fileBuffer = fs.readFileSync(filePath);
 
-// Instantiating a Workbook object
-// Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(fstream);
+// Instantiating a Workbook object with file buffer
+const workbook = new AsposeCells.Workbook(fileBuffer);
 
 // Accessing the first worksheet in the Excel file
 const worksheet = workbook.getWorksheets().get(0);
@@ -49,9 +48,6 @@ worksheet.getCells().unhideColumn(1, 8.5);
 
 // Saving the modified Excel file
 workbook.save(path.join(dataDir, "output.xls"));
-
-// Closing the file stream to free all resources
-fstream.close();
 ```  
 
 {{% alert color="primary" %}}  
@@ -67,31 +63,20 @@ const path = require("path");
 const fs = require("fs");
 const AsposeCells = require("aspose.cells.node");
 
-// The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "book1.xls");
 
-// Creating a file stream containing the Excel file to be opened
-const fstream = fs.createReadStream(filePath);
+const fileBuffer = fs.readFileSync(filePath);
 
-// Instantiating a Workbook object
-// Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(fstream);
+const workbook = new AsposeCells.Workbook(fileBuffer);
 
-// Accessing the first worksheet in the Excel file
 const worksheet = workbook.getWorksheets().get(0);
 
-// Hiding the 3rd row of the worksheet
 worksheet.getCells().hideRow(2);
 
-// Hiding the 2nd column of the worksheet
 worksheet.getCells().hideColumn(1);
 
-// Saving the modified Excel file
 workbook.save(path.join(dataDir, "output.out.xls"));
-
-// Closing the file stream to free all resources
-fstream.close();
 ```  
 
 {{% alert color="primary" %}}  
@@ -181,8 +166,5 @@ workbook.getSettings().setIsHScrollBarVisible(false);
 
 // Saving the modified Excel file
 workbook.save(path.join(dataDir, "output.xls"));
-
-// Closing the file stream to free all resources
-fstream.close();
 ```  
   

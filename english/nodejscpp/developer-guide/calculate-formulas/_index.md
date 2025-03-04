@@ -20,15 +20,11 @@ To calculate the results of formulas, the user may call the [**calculateFormula*
 
 ```javascript
 const path = require("path");
+const fs = require("fs");
 const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-
-// Create directory if it is not already present.
-if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir);
-}
 
 // Instantiating a Workbook object
 const workbook = new AsposeCells.Workbook();
@@ -83,11 +79,6 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-
-// Create directory if it is not already present.
-if (!require("fs").existsSync(dataDir)) {
-    require("fs").mkdirSync(dataDir);
-}
 
 // Create a workbook
 const workbook = new AsposeCells.Workbook();

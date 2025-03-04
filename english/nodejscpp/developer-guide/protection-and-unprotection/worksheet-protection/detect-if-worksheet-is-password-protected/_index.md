@@ -31,8 +31,8 @@ const sheet = book.getWorksheets().get(0);
 
 // Check if Worksheet is password protected
 if (sheet.getProtection().isProtectedWithPassword()) {
-    console.log("Worksheet is password protected");
+console.log("Worksheet is password protected");
 } else {
-    console.log("Worksheet is not password protected");
+console.log("Worksheet is not password protected");
 }
 ```

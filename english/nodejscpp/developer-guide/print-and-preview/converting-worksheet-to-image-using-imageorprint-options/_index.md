@@ -48,10 +48,10 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 
 // Output directory
-const outputDir = RunExamples.Get_OutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 // Open template
 const filePath = path.join(sourceDir, "sampleWorksheetToAnImage.xlsx");
@@ -61,7 +61,7 @@ const workbook = new AsposeCells.Workbook(filePath);
 const sheet = workbook.getWorksheets().get(0);
 
 // Apply different Image and Print options
-const options = new AsposeCells.Rendering.ImageOrPrintOptions();
+const options = new AsposeCells.ImageOrPrintOptions(); // Corrected: Added the instantiation for ImageOrPrintOptions.
 
 // Set Horizontal Resolution
 options.setHorizontalResolution(300);
@@ -70,10 +70,10 @@ options.setHorizontalResolution(300);
 options.setVerticalResolution(300);
 
 // Set TiffCompression
-options.setTiffCompression(AsposeCells.Rendering.TiffCompression.CompressionLZW);
+options.setTiffCompression(AsposeCells.TiffCompression.CompressionLZW);
 
 // Set Image Format
-options.setImageType(AsposeCells.Drawing.ImageType.Tiff);
+options.setImageType(AsposeCells.ImageType.Tiff);
 
 // Set printing page type
 options.setPrintingPage(AsposeCells.PrintingPageType.Default);
@@ -95,9 +95,9 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 // Output directory
-const outputDir = RunExamples.Get_OutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 // Open a template excel file
 const filePath = path.join(sourceDir, "sampleSpecificPagesToImages.xlsx");
@@ -122,7 +122,8 @@ const idxPage = 3;
 const bitmap = sr.toImage(idxPage);
 
 // Save the image file
-bitmap.save(path.join(outputDir, `outputSpecificPagesToImage_${idxPage + 1}.jpg`));
+const fs = require("fs");
+fs.writeFileSync(path.join(outputDir, `outputSpecificPagesToImage_${idxPage + 1}.jpg`), bitmap);
 ```  
 
 ## **Image conversion using WorkbookRender**  
@@ -134,10 +135,10 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 
 // Output directory
-const outputDir = RunExamples.Get_OutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 const filePath = path.join(sourceDir, "sampleUseWorkbookRenderForImageConversion.xlsx");
 const workbook = new AsposeCells.Workbook(filePath);

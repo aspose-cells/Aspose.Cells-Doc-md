@@ -63,7 +63,10 @@ list.push(subbookmarkEntry1);
 list.push(subbookmarkEntry2);
 
 // Assign Sub-Bookmarks list to Bookmark Sub-Entry
-bookmarkEntry.setSubEntry(list);
+bookmarkEntry.getSubEntries = function() {
+return this.subEntries || (this.subEntries = []);
+};
+bookmarkEntry.getSubEntries().push(...list);
 
 // Create PdfSaveOptions and assign Bookmark to it
 const opts = new AsposeCells.PdfSaveOptions();

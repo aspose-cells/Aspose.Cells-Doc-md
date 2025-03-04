@@ -44,7 +44,7 @@ const workbook = new AsposeCells.Workbook();
 const sheet = workbook.getWorksheets().get(0);
 
 // Set the background image for the worksheet.
-sheet.setBackgroundImage(fs.readFileSync(backgroundImagePath));
+sheet.setBackgroundImage(fs.readFileSync(backgroundImagePath).buffer);
 
 // Save the Excel file
 workbook.save("outputBackImageSheet.xlsx");

@@ -22,13 +22,6 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 
-// Create directory if it is not already present.
-// Use fs to check if the directory exists
-const fs = require("fs");
-if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir);
-}
-
 // Instantiate a new Workbook
 const workbook = new AsposeCells.Workbook();
 
@@ -37,7 +30,7 @@ const sheet = workbook.getWorksheets().get(0);
 
 // Add Watermark
 const wordart = sheet.getShapes().addTextEffect(AsposeCells.MsoPresetTextEffect.TextEffect1,
-    "CONFIDENTIAL", "Arial Black", 50, false, true, 18, 8, 1, 1, 130, 800);
+"CONFIDENTIAL", "Arial Black", 50, false, true, 18, 8, 1, 1, 130, 800);
 
 // Get the fill format of the word art
 const wordArtFormat = wordart.getFill();            

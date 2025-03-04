@@ -32,12 +32,6 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 
-// Create directory if it is not already present.
-const fs = require("fs");
-if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir);
-}
-
 // Instantiating a Workbook object
 const workbook = new AsposeCells.Workbook();
 
@@ -193,14 +187,20 @@ const dataDir = path.join(__dirname, "data");
 // Instantiate a new Workbook.
 const workbook = new AsposeCells.Workbook();
 
+// Add a worksheet if collection is empty
+const worksheets = workbook.getWorksheets();
+if (worksheets.getCount() === 0) {
+worksheets.add();
+}
+
 // Get the first worksheet in the workbook.
-const worksheet1 = workbook.getWorksheets().get(0);
+const worksheet1 = worksheets.get(0);
 
 // Get the cells in the worksheet.
 const cells = worksheet1.getCells();
 
 // Input data into B2 cell.
-cells.checkCell(1, 1).putValue("Hello World!");
+cells.get(1, 1).putValue("Hello World!");
 
 // Set the first sheet as an active sheet.
 workbook.getWorksheets().setActiveSheetIndex(0);

@@ -39,10 +39,10 @@ opts.setOutputBlankPageWhenNothingToPrint(false);
 const ms = new Uint8Array();
 
 try {
-    // Save to Pdf format. It will throw exception.
-    wb.save(ms, opts);
+// Save to Pdf format. It will throw exception.
+wb.save(ms, opts);
 } catch (ex) {
-    console.error("Exception Message: " + ex.message + "\r\n");
+console.error("Exception Message: " + ex.message + "\r\n");
 }
 ```
 

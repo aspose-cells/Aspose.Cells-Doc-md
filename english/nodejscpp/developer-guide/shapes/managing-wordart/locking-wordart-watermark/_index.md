@@ -30,7 +30,7 @@ const sheet = workbook.getWorksheets().get(0);
 
 // Add Watermark
 const wordart = sheet.getShapes().addTextEffect(AsposeCells.MsoPresetTextEffect.TextEffect1,
-  "CONFIDENTIAL", "Arial Black", 50, false, true, 18, 8, 1, 1, 130, 800);
+"CONFIDENTIAL", "Arial Black", 50, false, true, 18, 8, 1, 1, 130, 800);
 
 // Lock Shape Aspects
 wordart.setIsLocked(true);

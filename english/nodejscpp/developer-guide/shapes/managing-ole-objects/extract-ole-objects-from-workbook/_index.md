@@ -62,43 +62,43 @@ const oles = workbook.getWorksheets().get(0).getOleObjects();
 
 // Loop through all the oleobjects and extract each object in the worksheet.
 for (let i = 0; i < oles.getCount(); i++) {
-    const ole = oles.get(i);
-    // Specify the output filename.
-    let fileName = path.join(dataDir, "outOle" + i + ".");
-    // Specify each file format based on the oleobject format type.
-    switch (ole.getFileFormatType()) {
-        case AsposeCells.FileFormatType.Doc:
-            fileName += "doc";
-            break;
-        case AsposeCells.FileFormatType.Excel97To2003:
-            fileName += "Xlsx";
-            break;
-        case AsposeCells.FileFormatType.Ppt:
-            fileName += "Ppt";
-            break;
-        case AsposeCells.FileFormatType.Pdf:
-            fileName += "Pdf";
-            break;
-        case AsposeCells.FileFormatType.Unknown:
-            fileName += "Jpg";
-            break;
-        default:
-            //........
-            break;
-    }
-    // Save the oleobject as a new excel file if the object type is xls.
-    if (ole.getFileFormatType() === AsposeCells.FileFormatType.Xlsx) {
-        const ms = Buffer.from(ole.getObjectData());
-        if (ole.getObjectData() != null) {
-            const oleBook = new AsposeCells.Workbook(ms);
-            oleBook.getSettings().setIsHidden(false);
-            oleBook.save(path.join(dataDir, "outOle" + i + ".out.xlsx"));
-        }
-    } else {
-        if (ole.getObjectData() != null) {
-            fs.writeFileSync(fileName, ole.getObjectData());
-        }
-    }
+const ole = oles.get(i);
+// Specify the output filename.
+let fileName = path.join(dataDir, "outOle" + i + ".");
+// Specify each file format based on the oleobject format type.
+switch (ole.getFileFormatType()) {
+case AsposeCells.FileFormatType.Doc:
+fileName += "doc";
+break;
+case AsposeCells.FileFormatType.Excel97To2003:
+fileName += "Xlsx";
+break;
+case AsposeCells.FileFormatType.Ppt:
+fileName += "Ppt";
+break;
+case AsposeCells.FileFormatType.Pdf:
+fileName += "Pdf";
+break;
+case AsposeCells.FileFormatType.Unknown:
+fileName += "Jpg";
+break;
+default:
+//........
+break;
+}
+// Save the oleobject as a new excel file if the object type is xls.
+if (ole.getFileFormatType() === AsposeCells.FileFormatType.Xlsx) {
+const ms = Buffer.from(ole.getObjectData());
+if (ole.getObjectData() != null) {
+const oleBook = new AsposeCells.Workbook(ms);
+oleBook.getSettings().setIsHidden(false);
+oleBook.save(path.join(dataDir, "outOle" + i + ".out.xlsx"));
+}
+} else {
+if (ole.getObjectData() != null) {
+fs.writeFileSync(fileName, ole.getObjectData());
+}
+}
 }
 ```  
   

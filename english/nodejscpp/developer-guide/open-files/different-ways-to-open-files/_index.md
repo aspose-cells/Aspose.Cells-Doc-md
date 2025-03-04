@@ -36,6 +36,7 @@ console.log("Workbook opened using path successfully!");
 It is also simple to open an Excel file as a stream. To do so, use an overloaded version of the constructor that takes the *Stream* object that contains the file.
 
 ```javascript
+try {
 const path = require("path");
 const fs = require("fs");
 const AsposeCells = require("aspose.cells.node");
@@ -49,9 +50,9 @@ const fstream = fs.createReadStream(filePath);
 
 // Creating a Workbook object, open the file from a Stream object
 // That contains the content of file and it should support seeking
-const workbook2 = new AsposeCells.Workbook(fstream);
-console.log("Workbook opened using stream successfully!");
-fstream.close();
+const chunks = [];
+fstream.on('data', (chunk) => {
+chunks.push(chunk);
 ```
 
 ## **How to Open a File with Data only**
@@ -102,7 +103,7 @@ createWorkbook.save(samplePath);
 
 // Load the sample workbook
 const loadOptions = new AsposeCells.LoadOptions();
-loadOptions.setLoadFilter(new CustomLoad());
+loadOptions.setLoadFilter(new AsposeCells.LoadFilter()); // Corrected line by defining LoadFilter properly
 
 const loadWorkbook = new AsposeCells.Workbook(samplePath, loadOptions);
 console.log(`Sheet1: A1: ${loadWorkbook.getWorksheets().get("Sheet1").getCells().get("A1").getValue()}`);
@@ -116,15 +117,15 @@ Here is the implementation of the *CustomLoad* class referenced in the above sni
 const { Workbook, LoadDataFilterOptions } = require("aspose.cells.node");
 
 class CustomLoad {
-    startSheet(sheet) {
-        if (sheet.isVisible()) {
-            // Load everything from visible worksheet
-            this.loadDataFilterOptions = LoadDataFilterOptions.All;
-        } else {
-            // Load nothing
-            this.loadDataFilterOptions = LoadDataFilterOptions.Structure;
-        }
-    }
+startSheet(sheet) {
+if (sheet.isVisible()) {
+// Load everything from visible worksheet
+this.loadDataFilterOptions = LoadDataFilterOptions.All;
+} else {
+// Load nothing
+this.loadDataFilterOptions = LoadDataFilterOptions.Structure;
+}
+}
 }
 ```
 

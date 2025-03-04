@@ -40,83 +40,63 @@ const AsposeCells = require("aspose.cells.node");
 const path = require("path");
 
 class StopConversionOrLoadingUsingInterruptMonitor {
-    // Output directory
-    static outputDir = StopConversionOrLoadingUsingInterruptMonitor.getOutputDirectory();
+// Output directory
+static outputDir = StopConversionOrLoadingUsingInterruptMonitor.getOutputDirectory();
 
-    constructor() {
-        // Create InterruptMonitor object
-        this.im = new AsposeCells.InterruptMonitor();
-    }
-
-    // This function will create workbook and convert it to Pdf format
-    async createWorkbookAndConvertItToPdfFormat(threadObj) {
-        const monitorThread = threadObj;
-
-        // Create a workbook object
-        const wb = new AsposeCells.Workbook();
-
-        // Assign it InterruptMonitor object
-        wb.setInterruptMonitor(this.im);
-
-        // Access first worksheet
-        const ws = wb.getWorksheets().get(0);
-
-        // Access cell J1000000 and add some text inside it.
-        const cell = ws.getCells().get("J1000000");
-        cell.putValue("This is text.");
-
-        try {
-            // Save the workbook to Pdf format
-            await wb.saveAsync(path.join(StopConversionOrLoadingUsingInterruptMonitor.outputDir, "output_InterruptMonitor.pdf"));
-
-            // Show successful message
-            console.log("Excel to PDF - Successful Conversion");
-
-            // Stop monitor thread
-            monitorThread.interrupt();
-        } catch (ex) {
-            if (ex.code === AsposeCells.ExceptionType.Interrupted) {
-                console.log("Conversion process is interrupted - Message: " + ex.message);
-            } else {
-                throw ex;
-            }
-        }
-    }
-
-    // This function will interrupt the conversion process after 10s
-    waitForWhileAndThenInterrupt() {
-        try {
-            setTimeout(() => {
-                this.im.interrupt();
-            }, 1000 * 10);
-        } catch (e) {
-            console.log("Monitor thread is interrupted - Message: " + e.message);
-        }
-    }
-
-    async testRun() {
-        const monitorThread = new Promise((resolve) => {
-            this.waitForWhileAndThenInterrupt();
-            resolve();
-        });
-        const conversionThread = new Promise((resolve) => this.createWorkbookAndConvertItToPdfFormat(monitorThread));
-
-        await Promise.all([monitorThread, conversionThread]);
-    }
-
-    static getOutputDirectory() {
-        // Implement your output directory logic here
-        return path.join(__dirname, "output");
-    }
-
-    static async run() {
-        const instance = new StopConversionOrLoadingUsingInterruptMonitor();
-        await instance.testRun();
-        console.log("StopConversionOrLoadingUsingInterruptMonitor executed successfully.");
-    }
+constructor() {
+// Create InterruptMonitor object
+this.im = new AsposeCells.InterruptMonitor();
 }
 
-// Execute the run method
-StopConversionOrLoadingUsingInterruptMonitor.run();
+// This function will create workbook and convert it to Pdf format
+async createWorkbookAndConvertItToPdfFormat(threadObj) {
+const monitorThread = threadObj;
+
+// Create a workbook object
+const wb = new AsposeCells.Workbook();
+
+// Assign it InterruptMonitor object
+wb.setInterruptMonitor(this.im);
+
+// Access first worksheet
+const ws = wb.getWorksheets().get(0);
+
+// Access cell J1000000 and add some text inside it.
+const cell = ws.getCells().get("J1000000");
+cell.putValue("This is text.");
+
+try {
+// Save the workbook to Pdf format
+await wb.saveAsync(path.join(StopConversionOrLoadingUsingInterruptMonitor.outputDir, "output_InterruptMonitor.pdf"));
+
+// Show successful message
+console.log("Excel to PDF - Successful Conversion");
+
+// Stop monitor thread
+monitorThread.interrupt();
+} catch (ex) {
+if (ex.code === AsposeCells.ExceptionType.Interrupted) {
+console.log("Conversion process is interrupted - Message: " + ex.message);
+} else {
+throw ex;
+}
+}
+}
+
+// This function will interrupt the conversion process after 10s
+waitForWhileAndThenInterrupt() {
+try {
+setTimeout(() => {
+this.im.interrupt();
+}, 1000 * 10);
+} catch (e) {
+console.log("Monitor thread is interrupted - Message: " + e.message);
+}
+}
+
+async testRun() {
+const monitorThread = new Promise((resolve) => {
+this.waitForWhileAndThenInterrupt();
+resolve();
 ```  
   

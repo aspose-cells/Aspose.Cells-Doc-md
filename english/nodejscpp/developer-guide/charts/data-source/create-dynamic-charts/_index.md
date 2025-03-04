@@ -140,7 +140,7 @@ const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "sample.xlsx");
 
 // Create a workbook object
-const workbook = new AsposeCells.Workbook();
+const workbook = new AsposeCells.Workbook(filePath);
 
 // Get the first worksheet
 const worksheet = workbook.getWorksheets().get(0);
@@ -152,10 +152,10 @@ const range = worksheet.getCells().createRange("C21", "C24");
 range.setName("MyRange");
 
 // Fill different cells with data in the range
-range.checkCell(0, 0).putValue("North");
-range.checkCell(1, 0).putValue("South");
-range.checkCell(2, 0).putValue("East");
-range.checkCell(3, 0).putValue("West");
+range.get(0, 0).putValue("North");
+range.get(1, 0).putValue("South");
+range.get(2, 0).putValue("East");
+range.get(3, 0).putValue("West");
 
 const comboBox = worksheet.getShapes().addComboBox(15, 0, 2, 0, 17, 64);
 comboBox.setInputRange("=MyRange");

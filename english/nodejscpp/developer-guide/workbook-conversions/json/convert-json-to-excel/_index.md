@@ -63,10 +63,10 @@ const path = require("path");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const inputJson = JSON.stringify([
-    { BEFORE: 'before cell', TEST: 'asd1', AFTER: 'after cell' },
-    { BEFORE: 'before cell', TEST: 'asd2', AFTER: 'after cell' },
-    { BEFORE: 'before cell', TEST: 'asd3', AFTER: 'after cell' },
-    { BEFORE: 'before cell', TEST: 'asd4', AFTER: 'after cell' }
+{ BEFORE: 'before cell', TEST: 'asd1', AFTER: 'after cell' },
+{ BEFORE: 'before cell', TEST: 'asd2', AFTER: 'after cell' },
+{ BEFORE: 'before cell', TEST: 'asd3', AFTER: 'after cell' },
+{ BEFORE: 'before cell', TEST: 'asd4', AFTER: 'after cell' }
 ]);
 const sheetName = "Sheet1";
 const row = 3;

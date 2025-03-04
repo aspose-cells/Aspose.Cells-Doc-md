@@ -20,19 +20,14 @@ Aspose.Cells for Node.js via C++ provides the [**FindOptions.setRange()**](https
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
-// The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "input.xlsx");
 
-// Loads the workbook which contains hidden external links
 const workbook = new AsposeCells.Workbook(filePath);
 const worksheet = workbook.getWorksheets().get(0);
 
-// Specify the range where you want to search
-// Here the range is E3:H6
 const area = AsposeCells.CellArea.createCellArea("E9", "H15");
 
-// Specify Find options
 const opts = new AsposeCells.FindOptions();
 opts.setLookInType(AsposeCells.LookInType.Values);
 opts.setLookAtType(AsposeCells.LookAtType.EntireContent);
@@ -41,19 +36,12 @@ opts.setRange(area);
 let cell = null;
 
 do {
-    // Search the cell with value search within range
-    cell = worksheet.getCells().find("search", cell, opts);
-
-    // If no such cell found, then break the loop
-    if (cell === null) {
-        break;
-    }
-
-    // Replace the cell with value replace
-    cell.putValue("replace");
-
+cell = worksheet.getCells().find("search", cell, opts);
+if (cell === null || cell.isNull()) {
+break;
+}
+cell.putValue("replace");
 } while (true);
 
-// Save the workbook
 workbook.save(path.join(dataDir, "output.out.xlsx"));
 ```

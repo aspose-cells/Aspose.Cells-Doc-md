@@ -28,35 +28,35 @@ const path = require("path");
 
 // Russian Globalization
 class RussianGlobalization extends AsposeCells.GlobalizationSettings {
-    getErrorValueString(err) {
-        switch (err.toUpperCase()) {
-            case "#NAME?":
-                return "#RussianName-имя?";
-        }
-        return "RussianError-ошибка";
-    }
+getErrorValueString(err) {
+switch (err.toUpperCase()) {
+case "#NAME?":
+return "#RussianName-имя?";
+}
+return "RussianError-ошибка";
+}
 
-    getBooleanValueString(bv) {
-        return bv ? "RussianTrue-правда" : "RussianFalse-ложный";
-    }
+getBooleanValueString(bv) {
+return bv ? "RussianTrue-правда" : "RussianFalse-ложный";
+}
 }
 
 //--------------------------------
 //--------------------------------
 
 class ImplementErrorsAndBooleanValueInRussianOrAnyOtherLanguage {
-    static run() {
-        // Load the source workbook
-        const workbook = new AsposeCells.Workbook("sampleRussianGlobalization.xlsx");
+static run() {
+// Load the source workbook
+const workbook = new AsposeCells.Workbook("sampleRussianGlobalization.xlsx");
 
-        // Set GlobalizationSettings in Russian Language
-        workbook.getSettings().setGlobalizationSettings(new RussianGlobalization());
+// Set GlobalizationSettings in Russian Language
+workbook.getSettings().setGlobalizationSettings(new RussianGlobalization());
 
-        // Calculate the formula
-        workbook.calculateFormula();
+// Calculate the formula
+workbook.calculateFormula();
 
-        // Save the workbook in pdf format
-        workbook.save("outputRussianGlobalization.pdf");
-    }
+// Save the workbook in pdf format
+workbook.save("outputRussianGlobalization.pdf");
+}
 }
 ```

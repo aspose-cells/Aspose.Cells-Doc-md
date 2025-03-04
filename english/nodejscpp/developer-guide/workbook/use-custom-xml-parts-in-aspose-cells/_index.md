@@ -31,26 +31,26 @@ const filePath = path.join(dataDir, "output.xlsx");
 
 // The sample XML that will be injected to Workbook
 const booksXML = `<catalog>
-   <book>
-      <title>Complete C#</title>
-      <price>44</price>
-   </book>
-   <book>
-      <title>Complete Java</title>
-      <price>76</price>
-   </book>
-   <book>
-      <title>Complete SharePoint</title>
-      <price>55</price>
-   </book>
-   <book>
-      <title>Complete PHP</title>
-      <price>63</price>
-   </book>
-   <book>
-      <title>Complete VB.NET</title>
-      <price>72</price>
-   </book>
+<book>
+<title>Complete C#</title>
+<price>44</price>
+</book>
+<book>
+<title>Complete Java</title>
+<price>76</price>
+</book>
+<book>
+<title>Complete SharePoint</title>
+<price>55</price>
+</book>
+<book>
+<title>Complete PHP</title>
+<price>63</price>
+</book>
+<book>
+<title>Complete VB.NET</title>
+<price>72</price>
+</book>
 </catalog>`;
 
 // Create an instance of Workbook class

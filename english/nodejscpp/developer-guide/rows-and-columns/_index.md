@@ -28,6 +28,7 @@ It is possible to set the height of a single row by calling the [**Cells**](http
 - **Row height**, the row height to apply on the row.
 
 ```javascript
+try {
 const path = require("path");
 const fs = require("fs");
 const AsposeCells = require("aspose.cells.node");
@@ -38,9 +39,15 @@ const filePath = path.join(dataDir, "book1.xls");
 // Creating a file stream containing the Excel file to be opened
 const fstream = fs.createReadStream(filePath);
 
+// Reading the file stream into a buffer
+const chunks = [];
+fstream.on('data', chunk => chunks.push(chunk));
+fstream.on('end', () => {
+const buffer = Buffer.concat(chunks);
+
 // Instantiating a Workbook object
 // Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(fstream);
+const workbook = new AsposeCells.Workbook(buffer);
 
 // Accessing the first worksheet in the Excel file
 const worksheet = workbook.getWorksheets().get(0);
@@ -142,8 +149,8 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
-const outDir = RunExamples.Get_OutputDirectory();
+const sourceDir = path.join(__dirname, "data");
+const outDir = path.join(__dirname, "output");
 
 // Load source Excel file
 const workbook = new AsposeCells.Workbook(path.join(sourceDir, "Book1.xlsx"));
@@ -168,11 +175,6 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-
-// Create directory if it is not already present.
-if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir);
-}
 
 // Creating a file stream containing the Excel file to be opened
 const filePath = path.join(dataDir, "book1.xls");

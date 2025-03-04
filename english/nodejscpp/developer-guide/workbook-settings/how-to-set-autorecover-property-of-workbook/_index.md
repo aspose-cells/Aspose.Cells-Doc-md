@@ -37,10 +37,10 @@ workbook.getSettings().setAutoRecover(false);
 workbook.save(path.join(dataDir, "output_out.xlsx"));
 
 // Read the saved workbook again
-workbook = new AsposeCells.Workbook(path.join(dataDir, "output_out.xlsx"));
+const workbook2 = new AsposeCells.Workbook(path.join(dataDir, "output_out.xlsx"));
 
 // Read AutoRecover property
-console.log("AutoRecover: " + workbook.getSettings().getAutoRecover());
+console.log("AutoRecover: " + workbook2.getSettings().getAutoRecover());
 ```  
 
 ## **Output**  

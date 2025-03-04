@@ -38,12 +38,12 @@ const AsposeCells = require("aspose.cells.node");
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "book1.xls");
 
-// Creating a file stream containing the Excel file to be opened
-const fstream = fs.createReadStream(filePath);
+// Reading the Excel file into a buffer
+const fileData = fs.readFileSync(filePath);
 
 // Instantiating a Workbook object
-// Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(fstream);
+// Opening the Excel file through the file data
+const workbook = new AsposeCells.Workbook(fileData);
 
 // Accessing the first worksheet in the Excel file
 const worksheet = workbook.getWorksheets().get(0);
@@ -53,9 +53,6 @@ worksheet.setIsGridlinesVisible(false);
 
 // Saving the modified Excel file
 workbook.save(path.join(dataDir, "output.xls"));
-
-// Closing the file stream to free all resources
-fstream.close();
 ```  
 
 ## **Show and Hide Row Column Headers**  
@@ -78,18 +75,14 @@ A complete example is given below that shows how to use the [**IsRowColumnHeader
 
 ```javascript
 const path = require("path");
-const fs = require("fs");
 const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "book1.xls");
 
-// Creating a file stream containing the Excel file to be opened
-const fstream = fs.createReadStream(filePath);
-
-// Instantiating a Workbook object
-const workbook = new AsposeCells.Workbook(fstream);
+// Instantiating a Workbook object with file path
+const workbook = new AsposeCells.Workbook(filePath);
 
 // Accessing the first worksheet in the Excel file
 const worksheet = workbook.getWorksheets().get(0);
@@ -99,9 +92,6 @@ worksheet.setIsRowColumnHeadersVisible(false);
 
 // Saving the modified Excel file
 workbook.save(path.join(dataDir, "output.xls"));
-
-// Closing the file stream to free all resources
-fstream.close();
 ```  
 
 {{% alert color="primary" %}}  

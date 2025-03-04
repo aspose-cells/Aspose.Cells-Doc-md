@@ -36,9 +36,6 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-if (!require("fs").existsSync(dataDir)) {
-    require("fs").mkdirSync(dataDir);
-}
 
 // Loads the workbook which contains hidden external links
 const workbook = new AsposeCells.Workbook();
@@ -47,13 +44,13 @@ const sheet = workbook.getWorksheets().get(0);
 const moduleIdx = workbook.getVbaProject().getModules().add(sheet);
 const module = workbook.getVbaProject().getModules().get(moduleIdx);
 module.setCodes(
-    "Sub ShowMessage()" + "\r\n" +
-    "    MsgBox \"Welcome to Aspose!\"" + "\r\n" +
-    "End Sub"
+"Sub ShowMessage()" + "\r\n" +
+"    MsgBox \"Welcome to Aspose!\"" + "\r\n" +
+"End Sub"
 );
 
 const button = sheet.getShapes().addButton(2, 0, 2, 0, 28, 80);
-button.setPlacement(AsposeCells.Drawing.PlacementType.FreeFloating);
+button.setPlacement(AsposeCells.PlacementType.FreeFloating);
 button.getFont().setName("Tahoma");
 button.getFont().setIsBold(true);
 button.getFont().setColor(AsposeCells.Color.Blue);
@@ -62,5 +59,5 @@ button.setText("Aspose");
 button.setMacroName(sheet.getName() + ".ShowMessage");
 
 const outputFilePath = path.join(dataDir, "Output.out.xlsm");
-workbook.save(outputFilePath);            
+workbook.save(outputFilePath);
 ```

@@ -32,10 +32,6 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-// Create directory if it is not already present.
-if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir);
-}
 
 // Instantiating a Workbook object
 const workbook = new AsposeCells.Workbook();
@@ -55,7 +51,7 @@ worksheet.getCells().get("B2").putValue(32);
 worksheet.getCells().get("B3").putValue(50);
 
 // Adding a chart to the worksheet
-const chartIndex = worksheet.getCharts().add(AsposeCells.Charts.ChartType.Column, 5, 0, 15, 5);
+const chartIndex = worksheet.getCharts().add(AsposeCells.ChartType.Column, 5, 0, 15, 5);
 
 // Accessing the instance of the newly added chart
 const chart = worksheet.getCharts().get(chartIndex);
@@ -76,7 +72,7 @@ chart.getNSeries().get(0).getArea().setForegroundColor(AsposeCells.Color.Red);
 chart.getNSeries().get(0).getPoints().get(0).getArea().setForegroundColor(AsposeCells.Color.Cyan);
 
 // Filling the area of the 2nd SeriesCollection with a gradient
-chart.getNSeries().get(1).getArea().getFillFormat().setOneColorGradient(AsposeCells.Color.Lime, 1, AsposeCells.Drawing.GradientStyleType.Horizontal, 1);
+chart.getNSeries().get(1).getArea().getFillFormat().setOneColorGradient(AsposeCells.Color.Lime, 1, AsposeCells.GradientStyleType.Horizontal, 1);
 
 // Setting the title of a chart
 chart.getTitle().setText("Title");

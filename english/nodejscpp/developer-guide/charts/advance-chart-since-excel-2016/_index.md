@@ -35,14 +35,14 @@ const sheet = workbook.getWorksheets().get(0);
 
 // Access all charts one by one and read their types
 for (let i = 0; i < sheet.getCharts().getCount(); i++) {
-    // Access the chart
-    const ch = sheet.getCharts().get(i);
+// Access the chart
+const ch = sheet.getCharts().get(i);
 
-    // Print chart type
-    console.log(ch.getType());
+// Print chart type
+console.log(ch.getType());
 
-    // Change the title of the charts as per their types
-    ch.getTitle().setText("Chart Type is " + ch.getType().toString());
+// Change the title of the charts as per their types
+ch.getTitle().setText("Chart Type is " + ch.getType().toString());
 }
 
 // Save the workbook

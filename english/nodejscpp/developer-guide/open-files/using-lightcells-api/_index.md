@@ -41,65 +41,65 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 class TestDataProvider {
-    constructor(workbook, maxRows, maxColumns) {
-        this._workbook = workbook;
-        this.maxRows = maxRows;
-        this.maxColumns = maxColumns;
-        this._row = -1;
-        this._column = -1;
-    }
+constructor(workbook, maxRows, maxColumns) {
+this._workbook = workbook;
+this.maxRows = maxRows;
+this.maxColumns = maxColumns;
+this._row = -1;
+this._column = -1;
+}
 
-    isGatherString() {
-        return false;
-    }
+isGatherString() {
+return false;
+}
 
-    nextCell() {
-        this._column++;
-        if (this._column < this.maxColumns) {
-            return this._column;
-        } else {
-            this._column = -1;
-            return -1;
-        }
-    }
+nextCell() {
+this._column++;
+if (this._column < this.maxColumns) {
+return this._column;
+} else {
+this._column = -1;
+return -1;
+}
+}
 
-    nextRow() {
-        this._row++;
-        if (this._row < this.maxRows) {
-            this._column = -1;
-            return this._row;
-        } else {
-            return -1;
-        }
-    }
+nextRow() {
+this._row++;
+if (this._row < this.maxRows) {
+this._column = -1;
+return this._row;
+} else {
+return -1;
+}
+}
 
-    startCell(cell) {
-        cell.putValue(this._row + this._column);
-        if (this._row !== 1) {
-            cell.setFormula("=Rand() + A2");
-        }
-    }
+startCell(cell) {
+cell.putValue(this._row + this._column);
+if (this._row !== 1) {
+cell.setFormula("=Rand() + A2");
+}
+}
 
-    startRow(row) {
-    }
+startRow(row) {
+}
 
-    startSheet(sheetIndex) {
-        return sheetIndex === 0;
-    }
+startSheet(sheetIndex) {
+return sheetIndex === 0;
+}
 }
 
 const run = async () => {
-    const dataDir = path.join(__dirname, "data");
-    
-    const rowsCount = 10000;
-    const colsCount = 30;
+const dataDir = path.join(__dirname, "data");
 
-    const workbook = new AsposeCells.Workbook();
-    const ooxmlSaveOptions = new AsposeCells.OoxmlSaveOptions();
+const rowsCount = 10000;
+const colsCount = 30;
 
-    ooxmlSaveOptions.setLightCellsDataProvider(new TestDataProvider(workbook, rowsCount, colsCount));
+const workbook = new AsposeCells.Workbook();
+const ooxmlSaveOptions = new AsposeCells.OoxmlSaveOptions();
 
-    await workbook.saveAsync(path.join(dataDir, "output.out.xlsx"), ooxmlSaveOptions);
+ooxmlSaveOptions.setLightCellsDataProvider(new TestDataProvider(workbook, rowsCount, colsCount));
+
+await workbook.saveAsync(path.join(dataDir, "output.out.xlsx"), ooxmlSaveOptions);
 };
 
 run();
@@ -119,61 +119,61 @@ const AsposeCells = require("aspose.cells.node");
 const path = require("path");
 
 class LightCellsDataHandlerVisitCells {
-    constructor() {
-        this.cellCount = 0;
-        this.formulaCount = 0;
-        this.stringCount = 0;
-    }
+constructor() {
+this.cellCount = 0;
+this.formulaCount = 0;
+this.stringCount = 0;
+}
 
-    get CellCount() {
-        return this.cellCount;
-    }
+get CellCount() {
+return this.cellCount;
+}
 
-    get FormulaCount() {
-        return this.formulaCount;
-    }
+get FormulaCount() {
+return this.formulaCount;
+}
 
-    get StringCount() {
-        return this.stringCount;
-    }
+get StringCount() {
+return this.stringCount;
+}
 
-    StartSheet(sheet) {
-        console.log("Processing sheet[" + sheet.getName() + "]");
-        return true;
-    }
+StartSheet(sheet) {
+console.log("Processing sheet[" + sheet.getName() + "]");
+return true;
+}
 
-    StartRow(rowIndex) {
-        return true;
-    }
+StartRow(rowIndex) {
+return true;
+}
 
-    ProcessRow(row) {
-        return true;
-    }
+ProcessRow(row) {
+return true;
+}
 
-    StartCell(column) {
-        return true;
-    }
+StartCell(column) {
+return true;
+}
 
-    ProcessCell(cell) {
-        this.cellCount++;
-        if (cell.isFormula()) {
-            this.formulaCount++;
-        } else if (cell.getType() === AsposeCells.CellValueType.IsString) {
-            this.stringCount++;
-        }
-        return false;
-    }
+ProcessCell(cell) {
+this.cellCount++;
+if (cell.isFormula()) {
+this.formulaCount++;
+} else if (cell.getType() === AsposeCells.CellValueType.IsString) {
+this.stringCount++;
+}
+return false;
+}
 }
 
 async function run() {
-    const dataDir = path.join(__dirname, "data");
-    const opts = new AsposeCells.LoadOptions();
-    const v = new LightCellsDataHandlerVisitCells();
-    opts.setLightCellsDataHandler(v);
-    const wb = new AsposeCells.Workbook(path.join(dataDir, "LargeBook1.xlsx"), opts);
-    const sheetCount = wb.getWorksheets().getCount();
-    console.log("Total sheets: " + sheetCount + ", cells: " + v.CellCount
-        + ", strings: " + v.StringCount + ", formulas: " + v.FormulaCount);
+const dataDir = path.join(__dirname, "data");
+const opts = new AsposeCells.LoadOptions();
+const v = new LightCellsDataHandlerVisitCells();
+opts.setLightCellsDataHandler(v);
+const wb = new AsposeCells.Workbook(path.join(dataDir, "LargeBook1.xlsx"), opts);
+const sheetCount = wb.getWorksheets().getCount();
+console.log("Total sheets: " + sheetCount + ", cells: " + v.CellCount
++ ", strings: " + v.StringCount + ", formulas: " + v.FormulaCount);
 }
 
 run();

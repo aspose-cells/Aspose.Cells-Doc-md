@@ -31,15 +31,15 @@ const workbook = new AsposeCells.Workbook(filePath);
 const PQFcoll = workbook.getDataMashup().getPowerQueryFormulas();
 
 for (let i = 0; i < PQFcoll.getCount(); i++) {
-    const PQF = PQFcoll.get(i);
-    console.log("Connection Name: " + PQF.getName());
-    const PQFIcoll = PQF.getPowerQueryFormulaItems();
+const PQF = PQFcoll.get(i);
+console.log("Connection Name: " + PQF.getName());
+const PQFIcoll = PQF.getPowerQueryFormulaItems();
 
-    for (let j = 0; j < PQFIcoll.getCount(); j++) {
-        const PQFI = PQFIcoll.get(j);
-        console.log("Name: " + PQFI.getName());
-        console.log("Value: " + PQFI.getValue());
-    }
+for (let j = 0; j < PQFIcoll.getCount(); j++) {
+const PQFI = PQFIcoll.get(j);
+console.log("Name: " + PQFI.getName());
+console.log("Value: " + PQFI.getValue());
+}
 }
 ```
 

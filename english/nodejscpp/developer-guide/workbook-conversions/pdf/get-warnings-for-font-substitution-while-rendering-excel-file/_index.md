@@ -38,23 +38,23 @@ const AsposeCells = require("aspose.cells.node");
 const path = require("path");
 
 class GetWarningsForFontSubstitution {
-    static warning(info) {
-        if (info.getType() === AsposeCells.WarningType.FontSubstitution) {
-            console.log("WARNING INFO: " + info.getDescription());
-        }
-    }
+static warning(info) {
+if (info.getType() === AsposeCells.WarningType.FontSubstitution) {
+console.log("WARNING INFO: " + info.getDescription());
+}
+}
 
-    static run() {
-        // The path to the documents directory.
-        const dataDir = path.join(__dirname, "data");
-        const filePath = path.join(dataDir, "source.xlsx");
-        const workbook = new AsposeCells.Workbook(filePath);
+static run() {
+// The path to the documents directory.
+const dataDir = path.join(__dirname, "data");
+const filePath = path.join(dataDir, "source.xlsx");
+const workbook = new AsposeCells.Workbook(filePath);
 
-        const options = new AsposeCells.PdfSaveOptions();
-        options.setWarningCallback(GetWarningsForFontSubstitution);
-        const outputFilePath = path.join(dataDir, "output_out.pdf");
-        workbook.save(outputFilePath, options);
-    }
+const options = new AsposeCells.PdfSaveOptions();
+options.setWarningCallback(GetWarningsForFontSubstitution);
+const outputFilePath = path.join(dataDir, "output_out.pdf");
+workbook.save(outputFilePath, options);
+}
 }
 ```  
 ## **Output**  

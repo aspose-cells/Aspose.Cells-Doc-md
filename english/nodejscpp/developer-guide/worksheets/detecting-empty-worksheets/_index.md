@@ -40,23 +40,23 @@ const book = new AsposeCells.Workbook(filePath);
 
 // Loop over all worksheets in the workbook
 for (let i = 0; i < book.getWorksheets().getCount(); i++) {
-    const sheet = book.getWorksheets().get(i);
-    // Check if worksheet has populated cells
-    if (sheet.getCells().getMaxDataRow() !== -1) {
-        console.log(`${sheet.getName()} is not empty because one or more cells are populated`);
-    }
-    // Check if worksheet has shapes
-    else if (sheet.getShapes().getCount() > 0) {
-        console.log(`${sheet.getName()} is not empty because there are one or more shapes`);
-    }
-    // Check if worksheet has empty initialized cells
-    else {
-        const range = sheet.getCells().getMaxDisplayRange();
-        const rangeIterator = range.getEnumerator();
-        if (rangeIterator.moveNext()) {
-            console.log(`${sheet.getName()} is not empty because one or more cells are initialized`);
-        }
-    }
+const sheet = book.getWorksheets().get(i);
+// Check if worksheet has populated cells
+if (sheet.getCells().getMaxDataRow() !== -1) {
+console.log(`${sheet.getName()} is not empty because one or more cells are populated`);
+}
+// Check if worksheet has shapes
+else if (sheet.getShapes().getCount() > 0) {
+console.log(`${sheet.getName()} is not empty because there are one or more shapes`);
+}
+// Check if worksheet has empty initialized cells
+else {
+const range = sheet.getCells().getMaxDisplayRange();
+const rangeIterator = range.getEnumerator();
+if (rangeIterator.moveNext()) {
+console.log(`${sheet.getName()} is not empty because one or more cells are initialized`);
+}
+}
 }
 ```  
   

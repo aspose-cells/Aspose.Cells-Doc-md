@@ -33,8 +33,8 @@ wb1.dispose();
 
 // Call Dispose method via a scoped approach
 (async () => {
-    const wb2 = new AsposeCells.Workbook();
-    // Any other code goes here
-    wb2.dispose();
+const wb2 = new AsposeCells.Workbook();
+// Any other code goes here
+wb2.dispose();
 })();
 ```

@@ -50,11 +50,6 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 
-// Create directory if it is not already present.
-if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir);
-}
-
 // Filter charts from the workbook.
 const lOptions = new AsposeCells.LoadOptions();
 lOptions.setLoadFilter(new AsposeCells.LoadFilter(AsposeCells.LoadDataFilterOptions.All & ~AsposeCells.LoadDataFilterOptions.Chart));
@@ -87,22 +82,22 @@ Once, it loads the [source excel file](5115255.xlsx) with a custom filter, it ta
 const AsposeCells = require("aspose.cells.node");
 
 class CustomLoadFilter extends AsposeCells.LoadFilter {
-    startSheet(sheet) {
-        if (sheet.getName() === "NoCharts") {
-            // Load everything and filter charts
-            this.loadDataFilterOptions = AsposeCells.LoadDataFilterOptions.All & ~AsposeCells.LoadDataFilterOptions.Chart;
-        }
+startSheet(sheet) {
+if (sheet.getName() === "NoCharts") {
+// Load everything and filter charts
+this.loadDataFilterOptions = AsposeCells.LoadDataFilterOptions.All & ~AsposeCells.LoadDataFilterOptions.Chart;
+}
 
-        if (sheet.getName() === "NoShapes") {
-            // Load everything and filter shapes
-            this.loadDataFilterOptions = AsposeCells.LoadDataFilterOptions.All & ~AsposeCells.LoadDataFilterOptions.Drawing;
-        }
+if (sheet.getName() === "NoShapes") {
+// Load everything and filter shapes
+this.loadDataFilterOptions = AsposeCells.LoadDataFilterOptions.All & ~AsposeCells.LoadDataFilterOptions.Drawing;
+}
 
-        if (sheet.getName() === "NoConditionalFormatting") {
-            // Load everything and filter conditional formatting
-            this.loadDataFilterOptions = AsposeCells.LoadDataFilterOptions.All & ~AsposeCells.LoadDataFilterOptions.ConditionalFormatting;
-        }
-    }
+if (sheet.getName() === "NoConditionalFormatting") {
+// Load everything and filter conditional formatting
+this.loadDataFilterOptions = AsposeCells.LoadDataFilterOptions.All & ~AsposeCells.LoadDataFilterOptions.ConditionalFormatting;
+}
+}
 }
 ```
 
@@ -113,34 +108,34 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 async function run() {
-    // Source directory
-    const sourceDir = runExamples.Get_SourceDirectory();
-    
-    // Output directory
-    const outputDir = runExamples.Get_OutputDirectory();
-    
-    // Filter worksheets using CustomLoadFilter class
-    const loadOpts = new AsposeCells.LoadOptions();
-    loadOpts.setLoadFilter(new CustomLoadFilter());
-    
-    // Load the workbook with filter defined in CustomLoadFilter class
-    const workbook = new AsposeCells.Workbook(path.join(sourceDir, "sampleCustomFilteringPerWorksheet.xlsx"), loadOpts);
-    
-    // Take the image of all worksheets one by one
-    for (let i = 0; i < workbook.getWorksheets().getCount(); i++) {
-        // Access worksheet at index i
-        const worksheet = workbook.getWorksheets().get(i);
-        
-        // Create an instance of ImageOrPrintOptions
-        // Render entire worksheet to image
-        const imageOpts = new AsposeCells.ImageOrPrintOptions();
-        imageOpts.setOnePagePerSheet(true);
-        imageOpts.setImageType(AsposeCells.ImageType.Png);
-        
-        // Convert worksheet to image
-        const render = new AsposeCells.SheetRender(worksheet, imageOpts);
-        render.toImage(0, path.join(outputDir, `outputCustomFilteringPerWorksheet_${worksheet.getName()}.png`));
-    }
+// Source directory
+const sourceDir = path.join(__dirname, "data");
+
+// Output directory
+const outputDir = path.join(__dirname, "output");
+
+// Filter worksheets using CustomLoadFilter class
+const loadOpts = new AsposeCells.LoadOptions();
+loadOpts.setLoadFilter(new CustomLoadFilter());
+
+// Load the workbook with filter defined in CustomLoadFilter class
+const workbook = new AsposeCells.Workbook(path.join(sourceDir, "sampleCustomFilteringPerWorksheet.xlsx"), loadOpts);
+
+// Take the image of all worksheets one by one
+for (let i = 0; i < workbook.getWorksheets().getCount(); i++) {
+// Access worksheet at index i
+const worksheet = workbook.getWorksheets().get(i);
+
+// Create an instance of ImageOrPrintOptions
+// Render entire worksheet to image
+const imageOpts = new AsposeCells.ImageOrPrintOptions();
+imageOpts.setOnePagePerSheet(true);
+imageOpts.setImageType(AsposeCells.ImageType.Png);
+
+// Convert worksheet to image
+const render = new AsposeCells.SheetRender(worksheet, imageOpts);
+render.toImage(0, path.join(outputDir, `outputCustomFilteringPerWorksheet_${worksheet.getName()}.png`));
+}
 }
 
 run();

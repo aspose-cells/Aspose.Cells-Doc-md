@@ -30,11 +30,6 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 
-// Create directory if it is not already present.
-if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir);
-}
-
 // Instantiate a new Workbook.
 const workbook = new AsposeCells.Workbook();
 
@@ -86,45 +81,45 @@ const oles = workbook.getWorksheets().get(0).getOleObjects();
 
 // Loop through all the oleobjects and extract each object.
 for (let i = 0; i < oles.getCount(); i++) {
-    const ole = oles.get(i);
+const ole = oles.get(i);
 
-    // Specify the output filename.
-    let fileName = path.join(dataDir, `ole_${i}.`);
+// Specify the output filename.
+let fileName = path.join(dataDir, `ole_${i}.`);
 
-    // Specify each file format based on the oleobject format type.
-    switch (ole.getFileFormatType()) {
-        case AsposeCells.FileFormatType.Doc:
-            fileName += "doc";
-            break;
-        case AsposeCells.FileFormatType.Xlsx:
-            fileName += "xlsx";
-            break;
-        case AsposeCells.FileFormatType.Ppt:
-            fileName += "ppt";
-            break;
-        case AsposeCells.FileFormatType.Pdf:
-            fileName += "pdf";
-            break;
-        case AsposeCells.FileFormatType.Unknown:
-            fileName += "jpg";
-            break;
-        default:
-            //........
-            break;
-    }
+// Specify each file format based on the oleobject format type.
+switch (ole.getFileFormatType()) {
+case AsposeCells.FileFormatType.Doc:
+fileName += "doc";
+break;
+case AsposeCells.FileFormatType.Xlsx:
+fileName += "xlsx";
+break;
+case AsposeCells.FileFormatType.Ppt:
+fileName += "ppt";
+break;
+case AsposeCells.FileFormatType.Pdf:
+fileName += "pdf";
+break;
+case AsposeCells.FileFormatType.Unknown:
+fileName += "jpg";
+break;
+default:
+//........
+break;
+}
 
-    // Save the oleobject as a new excel file if the object type is xls.
-    if (ole.getFileFormatType() === AsposeCells.FileFormatType.Xlsx) {
-        const ms = new Uint8Array(ole.getObjectData());
-        const oleBook = new AsposeCells.Workbook(ms);
-        oleBook.getSettings().setIsHidden(false);
-        oleBook.save(path.join(dataDir, `Excel_File${i}.out.xlsx`));
-    }
+// Save the oleobject as a new excel file if the object type is xls.
+if (ole.getFileFormatType() === AsposeCells.FileFormatType.Xlsx) {
+const ms = new Uint8Array(ole.getObjectData());
+const oleBook = new AsposeCells.Workbook(ms);
+oleBook.getSettings().setIsHidden(false);
+oleBook.save(path.join(dataDir, `Excel_File${i}.out.xlsx`));
+}
 
-    // Create the files based on the oleobject format types.
-    else {
-        fs.writeFileSync(fileName, ole.getObjectData());
-    }
+// Create the files based on the oleobject format types.
+else {
+fs.writeFileSync(fileName, ole.getObjectData());
+}
 }
 ```  
 
@@ -138,23 +133,27 @@ const fs = require("fs");
 const AsposeCells = require("aspose.cells.node");
 
 // Directories
-const sourceDir = RunExamples.Get_SourceDirectory();
-const outputDir = RunExamples.Get_OutputDirectory();
+const sourceDir = path.join(__dirname, "data");
+const outputDir = path.join(__dirname, "output");
 
 const filePath = path.join(sourceDir, "EmbeddedMolSample.xlsx");
 const workbook = new AsposeCells.Workbook(filePath);
 let index = 1;
 
 const worksheets = workbook.getWorksheets();
-for (let sheet of worksheets) {
-    const oles = sheet.getOleObjects();
-    for (let ole of oles) {
-        const fileName = path.join(outputDir, `OleObject${index}.mol`);
-        const fs = require("fs").createWriteStream(fileName);
-        fs.write(ole.getObjectData());
-        fs.end();
-        index++;
-    }
+const sheetCount = worksheets.getCount();
+for (let i = 0; i < sheetCount; i++) {
+const sheet = worksheets.get(i);
+const oles = sheet.getOleObjects();
+const oleCount = oles.getCount();
+for (let j = 0; j < oleCount; j++) {
+const ole = oles.get(j);
+const fileName = path.join(outputDir, `OleObject${index}.mol`);
+const fileStream = fs.createWriteStream(fileName);
+fileStream.write(Buffer.from(ole.getObjectData()));
+fileStream.end();
+index++;
+}
 }
 ```  
 

@@ -42,10 +42,10 @@ const scItems = slicer.getSlicerCache().getSlicerCacheItems();
 const items = slicer.getSlicerCache().getSlicerCacheItems();
 
 for (let i = 0; i < items.getCount(); i++) {
-    const item = items.get(i);
-    if (item.getValue() === "Pink" || item.getValue() === "Green") {
-        item.setSelected(false);
-    }
+const item = items.get(i);
+if (item.getValue() === "Pink" || item.getValue() === "Green") {
+item.setSelected(false);
+}
 }
 slicer.refresh();
 wb.save("out.xlsx");

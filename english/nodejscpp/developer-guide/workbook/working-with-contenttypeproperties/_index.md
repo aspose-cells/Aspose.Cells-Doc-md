@@ -22,7 +22,7 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 //source directory
-const outputDir = RunExamples.Get_OutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 const workbook = new AsposeCells.Workbook(AsposeCells.FileFormatType.Xlsx);
 let index = workbook.getContentTypeProperties().add("MK31", "Simple Data");

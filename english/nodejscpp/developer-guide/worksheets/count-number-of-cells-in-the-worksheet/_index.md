@@ -15,7 +15,7 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.getSourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 
 // Load source Excel file
 const filePath = path.join(sourceDir, "BookWithSomeData.xlsx");

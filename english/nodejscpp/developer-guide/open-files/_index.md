@@ -25,13 +25,13 @@ const dataDir = path.join(__dirname, "data");
 const licensePath = path.join(dataDir, "Aspose.Cells.lic");
 
 try {
-    // Create a License object
-    const license = new AsposeCells.License();
+// Create a License object
+const license = new AsposeCells.License();
 
-    // Set the license of Aspose.Cells to avoid the evaluation limitations
-    license.setLicense(licensePath);
+// Set the license of Aspose.Cells to avoid the evaluation limitations
+license.setLicense(licensePath);
 } catch (ex) {
-    console.log(ex.message);
+console.log(ex.message);
 }
 
 // Instantiate a Workbook object that represents Excel file.

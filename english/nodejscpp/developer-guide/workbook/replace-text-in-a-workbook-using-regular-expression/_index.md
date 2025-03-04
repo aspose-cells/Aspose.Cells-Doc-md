@@ -18,10 +18,10 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.getSourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 
 // Output directory
-const outputDir = RunExamples.getOutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 const filePath = path.join(sourceDir, "SampleRegexReplace.xlsx");
 const workbook = new AsposeCells.Workbook(filePath);

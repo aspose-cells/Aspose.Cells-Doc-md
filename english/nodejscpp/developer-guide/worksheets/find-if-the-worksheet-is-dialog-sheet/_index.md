@@ -38,7 +38,7 @@ const ws = workbook.getWorksheets().get(0);
 
 // Find if the sheet type is dialog and print the message
 if (ws.getType() === AsposeCells.SheetType.Dialog) {
-    console.log("Worksheet is a Dialog Sheet.");
+console.log("Worksheet is a Dialog Sheet.");
 }
 ```
 

@@ -43,7 +43,7 @@ console.log("Ole Object Label - Before: " + oleObject.getLabel());
 oleObject.setLabel("Aspose APIs");
 
 // Save workbook to memory stream
-const ms = wb.saveToStream(AsposeCells.SaveFormat.Xlsx);
+const ms = wb.save(AsposeCells.SaveFormat.Xlsx);
 
 // Set the workbook reference to null
 wb.dispose();

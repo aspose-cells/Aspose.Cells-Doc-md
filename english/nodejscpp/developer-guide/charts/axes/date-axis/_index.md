@@ -48,17 +48,17 @@ worksheet.getCells().get("B2").putValue(40);
 worksheet.getCells().get("B3").putValue(50);
 worksheet.getCells().get("B4").putValue(60);
 // Add a chart to the worksheet
-const chartIndex = worksheet.getCharts().add(AsposeCells.Charts.ChartType.Column, 9, 6, 21, 13);
+const chartIndex = worksheet.getCharts().add(AsposeCells.ChartType.Column, 9, 6, 21, 13);
 // Access the instance of the newly added chart
 const chart = worksheet.getCharts().get(chartIndex);
 // Add SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B4"
 chart.setChartDataRange("A1:B4", true);         
 // Set the Axis type to Date time
-chart.getCategoryAxis().setCategoryType(AsposeCells.Charts.CategoryType.TimeScale);
+chart.getCategoryAxis().setCategoryType(AsposeCells.CategoryType.TimeScale);
 // Set the base unit for CategoryAxis to days
 chart.getCategoryAxis().setBaseUnitScale(AsposeCells.TimeUnit.Days);
 // Set the direction for the axis text to be vertical
-chart.getCategoryAxis().getTickLabels().setDirectionType(AsposeCells.Charts.ChartTextDirectionType.Vertical);
+chart.getCategoryAxis().getTickLabels().setDirectionType(AsposeCells.ChartTextDirectionType.Vertical);
 // Fill the PlotArea area with nothing 
 chart.getPlotArea().getArea().getFillFormat().setFillType(AsposeCells.FillType.None);
 // Set max value of Y axis.

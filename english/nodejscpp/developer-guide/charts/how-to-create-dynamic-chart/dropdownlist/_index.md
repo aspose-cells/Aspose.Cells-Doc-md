@@ -56,11 +56,11 @@ sheet.getCells().get("M2").putValue("Dec");
 const allMonths = 12;
 const iCount = 3;
 for (let i = 0; i < iCount; i++) {
-    for (let j = 0; j < allMonths; j++) {
-        const _row = i + 2;
-        const _column = j + 1; 
-        sheet.getCells().get(_row, _column).putValue(50 * (i % 2) + 20 * (j % 3) + 10 * (i / 3) + 10);
-    }
+for (let j = 0; j < allMonths; j++) {
+const _row = i + 2;
+const _column = j + 1; 
+sheet.getCells().get(_row, _column).putValue(50 * (i % 2) + 20 * (j % 3) + 10 * (i / 3) + 10);
+}
 }
 
 // This is the Dropdownlist for Dynamic Data

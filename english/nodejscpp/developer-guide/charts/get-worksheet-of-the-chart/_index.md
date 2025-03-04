@@ -33,10 +33,15 @@ const worksheet = workbook.getWorksheets().get(0);
 console.log("Sheet Name: " + worksheet.getName());
 
 // Access the first chart inside this worksheet
-const chart = worksheet.getCharts().get(0);
+const charts = worksheet.getCharts();
+if (charts.getCount() > 0) {
+const chart = charts.get(0);
 
 // Access the chart's sheet and display its name again
 console.log("Chart's Sheet Name: " + chart.getWorksheet().getName());
+} else {
+console.log("No charts available in the worksheet.");
+}
 ```
 
 Below is the console output that the sample code results in. As you can see, it prints the same worksheet name both times.

@@ -18,21 +18,15 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 
-// Create directory if it is not already present.
-const fs = require('fs');
-if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir, { recursive: true });
-}
-
 // Instantiating a Workbook object.
 const workbook = new AsposeCells.Workbook(path.join(dataDir, "sample.xlsx"));
 
 // Export all XML data from all XML Maps from the Workbook.
 for (let i = 0; i < workbook.getWorksheets().getXmlMaps().getCount(); i++) {
-    // Access the XML Map.
-    const map = workbook.getWorksheets().getXmlMaps().get(i);
+// Access the XML Map.
+const map = workbook.getWorksheets().getXmlMaps().get(i);
 
-    // Exports its XML Data to file.
-    workbook.exportXml(map.getName(), path.join(dataDir, `${map.getName()}.xml`));
+// Exports its XML Data to file.
+workbook.exportXml(map.getName(), path.join(dataDir, `${map.getName()}.xml`));
 }
 ```

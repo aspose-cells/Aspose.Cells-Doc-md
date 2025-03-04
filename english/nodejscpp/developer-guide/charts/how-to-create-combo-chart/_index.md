@@ -45,33 +45,33 @@ chart.getLegend().setPosition(AsposeCells.LegendPositionType.Bottom);
 // Set data range
 chart.setChartDataRange("A1:E12", true);
 // Set category data 
-chart.getNSeries().get(0).setCategoryData("A2:A12");
+chart.getNSeries().get(0).setXValues("A2:A12");  // Corrected method
 
 // Set the Series[1] Series[2] and Series[3] to different Marker Style
 for (let j = 0; j < chart.getNSeries().getCount(); j++) {
-	switch (j) {
-		case 1:
-			chart.getNSeries().get(j).getMarker().setMarkerStyle(AsposeCells.ChartMarkerType.Circle);
-			chart.getNSeries().get(j).getMarker().setMarkerSize(15);
-			chart.getNSeries().get(j).getMarker().getArea().setFormatting(AsposeCells.FormattingType.Custom);
-			chart.getNSeries().get(j).getMarker().getArea().setForegroundColor(AsposeCells.Color.Pink);
-			chart.getNSeries().get(j).getBorder().setIsVisible(false);
-			break;
-		case 2:
-			chart.getNSeries().get(j).getMarker().setMarkerStyle(AsposeCells.ChartMarkerType.Dash);
-			chart.getNSeries().get(j).getMarker().setMarkerSize(15);
-			chart.getNSeries().get(j).getMarker().getArea().setFormatting(AsposeCells.FormattingType.Custom);
-			chart.getNSeries().get(j).getMarker().getArea().setForegroundColor(AsposeCells.Color.Orange);
-			chart.getNSeries().get(j).getBorder().setIsVisible(false);
-			break;
-		case 3:
-			chart.getNSeries().get(j).getMarker().setMarkerStyle(AsposeCells.ChartMarkerType.Square);
-			chart.getNSeries().get(j).getMarker().setMarkerSize(15);
-			chart.getNSeries().get(j).getMarker().getArea().setFormatting(AsposeCells.FormattingType.Custom);
-			chart.getNSeries().get(j).getMarker().getArea().setForegroundColor(AsposeCells.Color.LightBlue);
-			chart.getNSeries().get(j).getBorder().setIsVisible(false);
-			break;
-	}
+switch (j) {
+case 1:
+chart.getNSeries().get(j).getMarker().setMarkerStyle(AsposeCells.ChartMarkerType.Circle);
+chart.getNSeries().get(j).getMarker().setMarkerSize(15);
+chart.getNSeries().get(j).getMarker().getArea().setFormatting(AsposeCells.FormattingType.Custom);
+chart.getNSeries().get(j).getMarker().getArea().setForegroundColor(AsposeCells.Color.Pink);
+chart.getNSeries().get(j).getBorder().setIsVisible(false);
+break;
+case 2:
+chart.getNSeries().get(j).getMarker().setMarkerStyle(AsposeCells.ChartMarkerType.Dash);
+chart.getNSeries().get(j).getMarker().setMarkerSize(15);
+chart.getNSeries().get(j).getMarker().getArea().setFormatting(AsposeCells.FormattingType.Custom);
+chart.getNSeries().get(j).getMarker().getArea().setForegroundColor(AsposeCells.Color.Orange);
+chart.getNSeries().get(j).getBorder().setIsVisible(false);
+break;
+case 3:
+chart.getNSeries().get(j).getMarker().setMarkerStyle(AsposeCells.ChartMarkerType.Square);
+chart.getNSeries().get(j).getMarker().setMarkerSize(15);
+chart.getNSeries().get(j).getMarker().getArea().setFormatting(AsposeCells.FormattingType.Custom);
+chart.getNSeries().get(j).getMarker().getArea().setForegroundColor(AsposeCells.Color.LightBlue);
+chart.getNSeries().get(j).getBorder().setIsVisible(false);
+break;
+}
 }
 // Set the chart type for Series[0] 
 chart.getNSeries().get(0).setType(AsposeCells.ChartType.Line);

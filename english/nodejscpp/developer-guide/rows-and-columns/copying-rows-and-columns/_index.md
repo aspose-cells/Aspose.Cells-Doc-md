@@ -93,8 +93,8 @@ const filePath = path.join(dataDir, "aspose-sample.xlsx");
 // Create an instance of Workbook class by loading the existing spreadsheet
 const workbook = new AsposeCells.Workbook(filePath);
 
-// Get the cells collection of worksheet by name Rows
-const cells = workbook.getWorksheets().get("Rows").getCells();
+// Get the cells collection of first worksheet
+const cells = workbook.getWorksheets().get(0).getCells();
 
 // Copy the first 3 rows to 7th row
 cells.copyRows(cells, 0, 6, 3);
@@ -155,8 +155,9 @@ const dataDir = path.join(__dirname, "data");
 // Create an instance of Workbook class by loading the existing spreadsheet
 const workbook = new AsposeCells.Workbook(path.join(dataDir, "aspose-sample.xlsx"));
 
-// Get the cells collection of worksheet by name Columns
-const cells = workbook.getWorksheets().get("Columns").getCells();
+// Get the first worksheet's cells collection
+const worksheet = workbook.getWorksheets().get(0);
+const cells = worksheet.getCells();
 
 // Copy the first 3 columns to the 7th column
 cells.copyColumns(cells, 0, 6, 3);
@@ -174,8 +175,8 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
-const sourceDir = RunExamples.Get_SourceDirectory();
-const outputDir = RunExamples.Get_OutputDirectory();
+const sourceDir = path.join(__dirname, "data");
+const outputDir = path.join(__dirname, "output");
 
 // Load sample excel file
 const workbook = new AsposeCells.Workbook(path.join(sourceDir, "sampleChangeChartDataSource.xlsx"));

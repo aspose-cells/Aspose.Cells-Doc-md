@@ -21,19 +21,19 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 try {
-    // Get the template excel file path.
-    const designerFile = path.join(dataDir, "SampleInput.xls");
+// Get the template excel file path.
+const designerFile = path.join(dataDir, "SampleInput.xls");
 
-    // Specify the pdf file path.
-    const pdfFile = path.join(dataDir, "Output.out.pdf");
+// Specify the pdf file path.
+const pdfFile = path.join(dataDir, "Output.out.pdf");
 
-    // Open the template excel file
-    const wb = new AsposeCells.Workbook(designerFile);
+// Open the template excel file
+const wb = new AsposeCells.Workbook(designerFile);
 
-    // Save the pdf file.
-    wb.save(pdfFile, AsposeCells.SaveFormat.Pdf);
+// Save the pdf file.
+wb.save(pdfFile, AsposeCells.SaveFormat.Pdf);
 } catch (e) {
-    console.log(e.message);
+console.log(e.message);
 }
 ```
 

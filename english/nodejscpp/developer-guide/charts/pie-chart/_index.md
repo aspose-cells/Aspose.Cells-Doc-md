@@ -186,12 +186,12 @@ chart.calculate();
 // You need to move DataLabels a little leftward or rightward depending on their position to show leader lines
 const DELTA = 100;
 for (let i = 0; i < chart.getNSeries().get(0).getPoints().getCount(); i++) {
-    let X = chart.getNSeries().get(0).getPoints().get(i).getDataLabels().getX();
-    // If it is greater than 2000, then move the X position a little right otherwise move the X position a little left
-    if (X > 2000)
-        chart.getNSeries().get(0).getPoints().get(i).getDataLabels().setX(X + DELTA);
-    else
-        chart.getNSeries().get(0).getPoints().get(i).getDataLabels().setX(X - DELTA);
+let X = chart.getNSeries().get(0).getPoints().get(i).getDataLabels().getX();
+// If it is greater than 2000, then move the X position a little right otherwise move the X position a little left
+if (X > 2000)
+chart.getNSeries().get(0).getPoints().get(i).getDataLabels().setX(X + DELTA);
+else
+chart.getNSeries().get(0).getPoints().get(i).getDataLabels().setX(X - DELTA);
 }
 ```
 

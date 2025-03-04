@@ -33,8 +33,8 @@ worksheet.getCells().get("A1").putValue("2-Color Scale");
 worksheet.getCells().get("D1").putValue("3-Color Scale");
 
 for (let i = 2; i <= 15; i++) {
-    worksheet.getCells().get("A" + i).putValue(i);
-    worksheet.getCells().get("D" + i).putValue(i);
+worksheet.getCells().get("A" + i).putValue(i);
+worksheet.getCells().get("D" + i).putValue(i);
 }
 
 // Adding 2-Color Scale Conditional Formatting

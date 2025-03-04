@@ -20,15 +20,15 @@ The following sample code loads the [sample excel file](5115151.xlsx) and implem
 const AsposeCells = require("aspose.cells.node");
 
 class GlobalizationSettingsImp extends AsposeCells.GlobalizationSettings {
-    // This function will return the sub total name
-    getTotalName(functionType) {
-        return "Chinese Total - 可能的用法";
-    }
+// This function will return the sub total name
+getTotalName(functionType) {
+return "Chinese Total - 可能的用法";
+}
 
-    // This function will return the grand total name
-    getGrandTotalName(functionType) {
-        return "Chinese Grand Total - 可能的用法";
-    }
+// This function will return the grand total name
+getGrandTotalName(functionType) {
+return "Chinese Grand Total - 可能的用法";
+}
 }
 ```  
 

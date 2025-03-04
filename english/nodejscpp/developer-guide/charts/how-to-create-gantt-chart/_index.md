@@ -78,8 +78,10 @@ chart.getNSeries().setCategoryData("A2:A6");
 // Reverse the Horizontal(Category) Axis
 chart.getCategoryAxis().setIsPlotOrderReversed(true);
 // Set the value axis's MinValue and MaxValue
-chart.getValueAxis().setMinValue(worksheet.getCells().get("B2").getValue());
-chart.getValueAxis().setMaxValue(worksheet.getCells().get("D6").getValue());
+const minValue = parseFloat(worksheet.getCells().get("B2").getValue());
+const maxValue = parseFloat(worksheet.getCells().get("D6").getValue());
+chart.getValueAxis().setMinValue(isNaN(minValue) ? 0 : minValue);
+chart.getValueAxis().setMaxValue(isNaN(maxValue) ? 0 : maxValue);
 chart.getPlotArea().getArea().getFillFormat().setFillType(AsposeCells.FillType.None);
 // Show the DataLabels
 chart.getNSeries().get(1).getDataLabels().setShowValue(true);

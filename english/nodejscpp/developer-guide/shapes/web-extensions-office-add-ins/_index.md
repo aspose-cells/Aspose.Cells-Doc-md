@@ -23,7 +23,7 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const outDir = RunExamples.Get_OutputDirectory();
+const outDir = path.join(__dirname, "output");
 
 const workbook = new AsposeCells.Workbook();
 
@@ -57,7 +57,7 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 
 // Load sample Excel file
 const filePath = path.join(sourceDir, "WebExtensionsSample.xlsx");
@@ -66,14 +66,14 @@ const workbook = new AsposeCells.Workbook(filePath);
 const taskPanes = workbook.getWorksheets().getWebExtensionTaskPanes();
 
 for (let i = 0; i < taskPanes.getCount(); i++) {
-    const taskPane = taskPanes.get(i);
-    console.log("Width: " + taskPane.getWidth());
-    console.log("IsVisible: " + taskPane.isVisible());
-    console.log("IsLocked: " + taskPane.isLocked());
-    console.log("DockState: " + taskPane.getDockState());
-    console.log("StoreName: " + taskPane.getWebExtension().getReference().getStoreName());
-    console.log("StoreType: " + taskPane.getWebExtension().getReference().getStoreType());
-    console.log("WebExtension.Id: " + taskPane.getWebExtension().getId());
+const taskPane = taskPanes.get(i);
+console.log("Width: " + taskPane.getWidth());
+console.log("IsVisible: " + taskPane.isVisible());
+console.log("IsLocked: " + taskPane.isLocked());
+console.log("DockState: " + taskPane.getDockState());
+console.log("StoreName: " + taskPane.getWebExtension().getReference().getStoreName());
+console.log("StoreType: " + taskPane.getWebExtension().getReference().getStoreType());
+console.log("WebExtension.Id: " + taskPane.getWebExtension().getId());
 }
 ```
 

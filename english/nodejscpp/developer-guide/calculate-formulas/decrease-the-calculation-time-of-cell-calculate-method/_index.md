@@ -27,45 +27,49 @@ const filePath = path.join(dataDir, "sample.xlsx");
 const workbook = new AsposeCells.Workbook(filePath);
 
 // Test calculation time after setting recursive true
-TestCalcTimeRecursive(true);
+workbook.calculateFormula(); // Call calculateFormula method to initiate calculation
 
 // Test calculation time after setting recursive false
-TestCalcTimeRecursive(false);
+workbook.calculateFormula(false); // Specify ignoreError as false
 ```  
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 const path = require("path");
 
 function testCalcTimeRecursive(rec) {
-    // The path to the documents directory.
-    const dataDir = path.join(__dirname, "data");
-    // Load your sample workbook
-    const workbook = new AsposeCells.Workbook(path.join(dataDir, "sample.xlsx"));
+// The path to the documents directory.
+const dataDir = path.join(__dirname, "data");
+// Load your sample workbook
+const workbook = new AsposeCells.Workbook(path.join(dataDir, "sample.xlsx"));
 
-    // Access first worksheet
-    const ws = workbook.getWorksheets().get(0);
+// Access first worksheet
+const ws = workbook.getWorksheets().get(0);
 
-    // Set the calculation option, set recursive true or false as per parameter
-    const opts = new AsposeCells.CalculationOptions();
-    opts.setRecursive(rec);
+// Set the calculation option, set recursive true or false as per parameter
+const opts = new AsposeCells.CalculationOptions();
+opts.setRecursive(rec);
 
-    // Start stop watch            
-    const start = process.hrtime();
+// Start stop watch            
+const start = process.hrtime();
 
-    // Calculate cell A1 one million times
-    for (let i = 0; i < 1000000; i++) {
-        ws.getCells().get("A1").calculate(opts);
-    }
-
-    // Stop the watch
-    const end = process.hrtime(start);
-
-    // Calculate elapsed time in seconds
-    const estimatedTime = end[0] + end[1] / 1e9;
-
-    // Print the elapsed time in seconds
-    console.log(`Recursive ${rec}: ${estimatedTime} seconds`);
+// Calculate cell A1 one million times
+for (let i = 0; i < 1000000; i++) {
+ws.getCells().get("A1").calculate(opts);
 }
+
+// Stop the watch
+const end = process.hrtime(start);
+
+// Calculate elapsed time in seconds
+const estimatedTime = end[0] + end[1] / 1e9;
+
+// Print the elapsed time in seconds
+console.log(`Recursive ${rec}: ${estimatedTime} seconds`);
+}
+
+// Call the function for testing
+testCalcTimeRecursive(true);
+testCalcTimeRecursive(false);
 ```
 
 ## **Console Output**

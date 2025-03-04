@@ -39,12 +39,12 @@ const AsposeCells = require("aspose.cells.node");
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "book1.xls");
 
-// Creating a file stream containing the Excel file to be opened
+// Reading the Excel file into a buffer
 const fs = require("fs");
-const fstream = fs.createReadStream(filePath);
+const fileContent = fs.readFileSync(filePath);
 
-// Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(fstream);
+// Opening the Excel file through the buffer
+const workbook = new AsposeCells.Workbook(fileContent);
 
 // Accessing the first worksheet in the Excel file
 const worksheet = workbook.getWorksheets().get(0);
@@ -57,9 +57,6 @@ worksheet.getCells().groupColumns(0, 2, true);
 
 // Saving the modified Excel file
 workbook.save(path.join(dataDir, "output.xls"));
-
-// Closing the file stream to free all resources
-fstream.close();
 ```
 
 #### **Group Settings**
@@ -140,12 +137,11 @@ const AsposeCells = require("aspose.cells.node");
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "book1.xls");
 
-// Creating a file stream containing the Excel file to be opened
-const fstream = fs.createReadStream(filePath);
+// Reading Excel file into buffer
+const buffer = fs.readFileSync(filePath);
 
-// Instantiating a Workbook object
-// Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(fstream);
+// Instantiating a Workbook object with file content
+const workbook = new AsposeCells.Workbook(buffer);
 
 // Accessing the first worksheet in the Excel file
 const worksheet = workbook.getWorksheets().get(0);
@@ -158,7 +154,4 @@ worksheet.getCells().ungroupColumns(0, 2);
 
 // Saving the modified Excel file
 workbook.save(path.join(dataDir, "output.xls"));
-
-// Closing the file stream to free all resources
-fstream.close();
 ```

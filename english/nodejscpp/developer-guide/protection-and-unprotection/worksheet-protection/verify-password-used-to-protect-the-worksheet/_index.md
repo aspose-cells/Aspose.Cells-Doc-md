@@ -30,11 +30,11 @@ const sheet = workbook.getWorksheets().get(0);
 
 // Check if Worksheet is password protected
 if (sheet.getProtection().isProtectedWithPassword()) {
-    // Verify the password used to protect the Worksheet
-    if (sheet.getProtection().verifyPassword("1234")) {
-        console.log("Specified password has matched");
-    } else {
-        console.log("Specified password has not matched");
-    }
+// Verify the password used to protect the Worksheet
+if (sheet.getProtection().verifyPassword("1234")) {
+console.log("Specified password has matched");
+} else {
+console.log("Specified password has not matched");
+}
 }
 ```

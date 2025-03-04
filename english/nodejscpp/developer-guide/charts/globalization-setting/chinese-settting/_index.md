@@ -22,60 +22,60 @@ Code example:
 const AsposeCells = require("aspose.cells.node");
 
 class ChartChineseSettings extends AsposeCells.ChartGlobalizationSettings {
-    getAxisTitleName() {
-        return "坐标轴标题";
-    }
+getAxisTitleName() {
+return "坐标轴标题";
+}
 
-    getAxisUnitName(type) {
-        switch (type) {
-            case AsposeCells.DisplayUnitType.None:
-                return '';
-            case AsposeCells.DisplayUnitType.Hundreds:
-                return '百';
-            case AsposeCells.DisplayUnitType.Thousands:
-                return '千';
-            case AsposeCells.DisplayUnitType.TenThousands:
-                return '万';
-            case AsposeCells.DisplayUnitType.HundredThousands:
-                return '十万';
-            case AsposeCells.DisplayUnitType.Millions:
-                return '百万';
-            case AsposeCells.DisplayUnitType.TenMillions:
-                return '千万';
-            case AsposeCells.DisplayUnitType.HundredMillions:
-                return '亿';
-            case AsposeCells.DisplayUnitType.Billions:
-                return '十亿';
-            case AsposeCells.DisplayUnitType.Trillions:
-                return '兆';
-            default:
-                return '';
-        }
-    }
+getAxisUnitName(type) {
+switch (type) {
+case AsposeCells.DisplayUnitType.None:
+return '';
+case AsposeCells.DisplayUnitType.Hundreds:
+return '百';
+case AsposeCells.DisplayUnitType.Thousands:
+return '千';
+case AsposeCells.DisplayUnitType.TenThousands:
+return '万';
+case AsposeCells.DisplayUnitType.HundredThousands:
+return '十万';
+case AsposeCells.DisplayUnitType.Millions:
+return '百万';
+case AsposeCells.DisplayUnitType.TenMillions:
+return '千万';
+case AsposeCells.DisplayUnitType.HundredMillions:
+return '亿';
+case AsposeCells.DisplayUnitType.Billions:
+return '十亿';
+case AsposeCells.DisplayUnitType.Trillions:
+return '兆';
+default:
+return '';
+}
+}
 
-    getChartTitleName() {
-        return "图表标题";
-    }
+getChartTitleName() {
+return "图表标题";
+}
 
-    getLegendDecreaseName() {
-        return "减少";
-    }
+getLegendDecreaseName() {
+return "减少";
+}
 
-    getLegendIncreaseName() {
-        return "增加";
-    }
+getLegendIncreaseName() {
+return "增加";
+}
 
-    getLegendTotalName() {
-        return "汇总";
-    }
+getLegendTotalName() {
+return "汇总";
+}
 
-    getOtherName() {
-        return "其他";
-    }
+getOtherName() {
+return "其他";
+}
 
-    getSeriesName() {
-        return "系列";
-    }
+getSeriesName() {
+return "系列";
+}
 }
 ```  
 

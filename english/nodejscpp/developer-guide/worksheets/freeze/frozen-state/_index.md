@@ -21,6 +21,7 @@ Please use the [**Worksheet.paneState**](https://reference.aspose.com/cells/node
 3. Get the locked rows and columns.
 
 ```javascript
+try {
 const AsposeCells = require("aspose.cells.node");
 const path = require("path");
 
@@ -34,13 +35,11 @@ const sheet = workbook.getWorksheets().get(0);
 
 // Check whether worksheet is frozen.
 if (sheet.getPaneState() === AsposeCells.PaneStateType.Frozen || sheet.getPaneState() === AsposeCells.PaneStateType.FrozenSplit) {
-    let row, column, rows, columns;
-    // Gets locked rows and columns.
-    sheet.getFreezedPanes().forEach((value) => {
-        row = value[0];
-        column = value[1];
-        rows = value[2];
-        columns = value[3];
-    });
-}
+let row, column, rows, columns;
+// Gets locked rows and columns.
+sheet.getFreezedPanes().forEach((value) => {
+row = value[0];
+column = value[1];
+rows = value[2];
+columns = value[3];
 ```  

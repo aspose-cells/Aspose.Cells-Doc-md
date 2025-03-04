@@ -168,24 +168,24 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 async function downloadExcel(req, res) {
-    // The path to the documents directory.
-    const dataDir = path.join(__dirname, "data");
-    const filePath = path.join(dataDir, "Book1.xlsx");
-    // Load your source workbook
-    const workbook = new AsposeCells.Workbook(filePath);
-    // Save the workbook to a memory stream
-    const stream = workbook.save(AsposeCells.SaveFormat.Xlsx);
+// The path to the documents directory.
+const dataDir = path.join(__dirname, "data");
+const filePath = path.join(dataDir, "Book1.xlsx");
+// Load your source workbook
+const workbook = new AsposeCells.Workbook(filePath);
+// Save the workbook to a memory stream
+const stream = workbook.save(AsposeCells.SaveFormat.Xlsx);
 
-    // Set the content type and file name
-    const contentType = "application/octet-stream";
-    const fileName = "output.xlsx";
+// Set the content type and file name
+const contentType = "application/octet-stream";
+const fileName = "output.xlsx";
 
-    // Set the response headers
-    res.setHeader("Content-Disposition", `attachment; filename="${fileName}"`);
-    res.setHeader("Content-Type", contentType);
+// Set the response headers
+res.setHeader("Content-Disposition", `attachment; filename="${fileName}"`);
+res.setHeader("Content-Type", contentType);
 
-    // Write the file contents to the response body stream
-    res.send(stream);
+// Write the file contents to the response body stream
+res.send(stream);
 }
 ```
 

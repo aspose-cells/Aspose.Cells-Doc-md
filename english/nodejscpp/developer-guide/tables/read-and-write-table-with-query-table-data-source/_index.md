@@ -15,8 +15,8 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // The path to the source directory.
-const sourceDir = RunExamples.Get_SourceDirectory();
-const outputDir = RunExamples.Get_OutputDirectory();
+const sourceDir = path.join(__dirname, "data");
+const outputDir = path.join(__dirname, "output");
 
 // Load workbook object
 const workbook = new AsposeCells.Workbook(path.join(sourceDir, "SampleTableWithQueryTable.xls"));
@@ -27,7 +27,7 @@ const table = worksheet.getListObjects().get(0);
 
 // Check the data source type if it is query table
 if (table.getDataSourceType() === AsposeCells.TableDataSourceType.QueryTable) {
-    table.setShowTotals(true);
+table.setShowTotals(true);
 }
 
 // Save the file

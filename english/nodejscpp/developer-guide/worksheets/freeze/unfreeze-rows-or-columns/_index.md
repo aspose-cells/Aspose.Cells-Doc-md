@@ -33,15 +33,11 @@ It's simple to unfreeze panes with Aspose.Cells for Node.js via C++. Please use 
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
-// The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const frozenFilePath = path.join(dataDir, "Frozen.xlsx");
 
-// Instantiate a new Workbook.
 const workbook = new AsposeCells.Workbook(frozenFilePath); 
-// Unfreeze panes.
-workbook.getWorksheets().get(0).unfreezePanes(); 
-// Saving the file
+workbook.getWorksheets().get(0).unFreezePanes();
 workbook.save("Unfrozen.xlsx");
 ```
 

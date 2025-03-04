@@ -47,8 +47,8 @@ chart.setChartDataRange("A1:E9", true);
 // Set category data 
 chart.getNSeries().getCategoryData("A2:A9");
 // Set the DownBars and UpBars with different color
-chart.getNSeries().get(0).getDownBars().getArea().setForegroundColor(new AsposeCells.Color.Green);
-chart.getNSeries().get(0).getUpBars().getArea().setForegroundColor(new AsposeCells.Color.Red);
+chart.getNSeries().get(0).getDownBars().getArea().setForegroundColor(AsposeCells.Color.Green);
+chart.getNSeries().get(0).getUpBars().getArea().setForegroundColor(AsposeCells.Color.Red);
 // Fill the PlotArea area with nothing 
 chart.getPlotArea().getArea().getFillFormat().setFillType(AsposeCells.FillType.None);
 // Save the Excel file

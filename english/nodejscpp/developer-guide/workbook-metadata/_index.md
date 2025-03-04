@@ -37,8 +37,5 @@ const w = new AsposeCells.Workbook(path.join(dataDir, "Sample2.out.xlsx"));
 console.log(w.getCustomDocumentProperties().get("test"));
 
 console.log("Press any key to continue...");
-process.stdin.once("data", () => {
-    process.exit();
-});
 ```  
   

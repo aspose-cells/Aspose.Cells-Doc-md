@@ -22,7 +22,6 @@ If you want to change the Ribbon XML, you have to parse it with an XML parser or
 
 ```javascript
 const path = require("path");
-const fs = require("fs");
 const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
@@ -31,7 +30,6 @@ const filePath = path.join(dataDir, "aspose-sample.xlsx");
 // Loads the workbook
 const workbook = new AsposeCells.Workbook(filePath);
 
-const ribbonFilePath = path.join(dataDir, "CustomUI.xml");
-const ribbonXml = fs.readFileSync(ribbonFilePath, "utf8");
+const ribbonXml = `<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui"></customUI>`;
 workbook.setRibbonXml(ribbonXml);
 ```

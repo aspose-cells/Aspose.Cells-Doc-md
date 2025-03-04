@@ -15,44 +15,22 @@ Aspose.Cells for Node.js via C++ provides a simple and easy way to load images f
 ## Sample Code  
 
 ```javascript
+try {
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 const https = require("https");
 
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "webimagebook.out.xlsx");
-const url = "http://www.aspose.com/Images/aspose-logo.jpg";
+const url = "https://www.aspose.com/Images/aspose-logo.jpg"; // Changed http to https
 
 let objImage;
 
 https.get(url, (res) => {
-    const chunks = [];
+const chunks = [];
 
-    res.on("data", (chunk) => {
-        chunks.push(chunk);
-    });
-
-    res.on("end", async () => {
-        objImage = Buffer.concat(chunks);
-        
-        // Create a new workbook
-        const wb = new AsposeCells.Workbook();
-
-        // Get the first worksheet in the book
-        const sheet = wb.getWorksheets().get(0);
-
-        // Get the first worksheet pictures collection
-        const pictures = sheet.getPictures();
-
-        // Insert the picture from the stream to B2 cell
-        pictures.add(1, 1, objImage);
-
-        // Save the excel file
-        await wb.saveAsync(filePath);
-    });
-}).on("error", (err) => {
-    console.log(err.message);
-});
+res.on("data", (chunk) => {
+chunks.push(chunk);
 ```  
 
 {{% alert color="primary" %}}  

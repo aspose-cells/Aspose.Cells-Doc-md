@@ -23,10 +23,10 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 
 // Output directory
-const outputDir = RunExamples.Get_OutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 // Load source Excel file
 const filePath = path.join(sourceDir, "sampleRemoveExistingPrinterSettingsOfWorksheets.xlsx");
@@ -37,26 +37,26 @@ const sheetCount = wb.getWorksheets().getCount();
 
 // Iterate all sheets
 for (let i = 0; i < sheetCount; i++) {
-    // Access the i-th worksheet
-    const ws = wb.getWorksheets().get(i);
+// Access the i-th worksheet
+const ws = wb.getWorksheets().get(i);
 
-    // Access worksheet page setup
-    const ps = ws.getPageSetup();
+// Access worksheet page setup
+const ps = ws.getPageSetup();
 
-    // Check if printer settings for this worksheet exist
-    if (ps.getPrinterSettings() != null) {
-        // Print the following message
-        console.log("PrinterSettings of this worksheet exist.");
+// Check if printer settings for this worksheet exist
+if (ps.getPrinterSettings() != null) {
+// Print the following message
+console.log("PrinterSettings of this worksheet exist.");
 
-        // Print sheet name and its paper size
-        console.log("Sheet Name: " + ws.getName());
-        console.log("Paper Size: " + ps.getPaperSize());
+// Print sheet name and its paper size
+console.log("Sheet Name: " + ws.getName());
+console.log("Paper Size: " + ps.getPaperSize());
 
-        // Remove the printer settings by setting them null
-        ps.setPrinterSettings(null);
-        console.log("Printer settings of this worksheet are now removed by setting it null.");
-        console.log("");
-    } // if
+// Remove the printer settings by setting them null
+ps.setPrinterSettings(null);
+console.log("Printer settings of this worksheet are now removed by setting it null.");
+console.log("");
+} // if
 } // for
 
 // Save the workbook

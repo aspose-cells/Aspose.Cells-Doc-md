@@ -28,6 +28,7 @@ Make a worksheet visible by setting the [**Worksheet**](https://reference.aspose
 Hide a worksheet by setting the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class' [**isVisible**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isVisible) property to **false**.  
 
 ```javascript
+try {
 const AsposeCells = require("aspose.cells.node");
 const path = require("path");
 
@@ -40,7 +41,10 @@ const fs = require("fs");
 const fstream = fs.createReadStream(filePath);
 
 // Instantiating a Workbook object with opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(fstream);
+const chunks = [];
+fstream.on('data', chunk => chunks.push(chunk));
+fstream.on('end', () => {
+const workbook = new AsposeCells.Workbook(Buffer.concat(chunks)); // Fixed from stream to Blob
 
 // Accessing the first worksheet in the Excel file
 const worksheet = workbook.getWorksheets().get(0);
@@ -118,6 +122,6 @@ workbook.getSettings().setShowTabs(true);
 workbook.getSettings().setSheetTabBarWidth(800);
 
 // Saving the modified Excel file
-workbook.save(path.join(dataDir, "output.xls")); 
+workbook.save(path.join(dataDir, "output.xls"));
 ```  
   

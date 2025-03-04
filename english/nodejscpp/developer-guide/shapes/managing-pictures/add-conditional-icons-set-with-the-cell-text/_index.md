@@ -18,15 +18,12 @@ The following code sample shows how to add conditional icons set with the Cell T
 
 
 ```javascript
+try {
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-// Create directory if it is not already present.
-if (!require("fs").existsSync(dataDir)) {
-    require("fs").mkdirSync(dataDir);
-}
 
 // Instantiate a new Workbook
 const workbook = new AsposeCells.Workbook();
@@ -55,21 +52,16 @@ cells.get("C4").putValue(11.3326931937091);
 
 // Get the conditional icon's image data and add pictures
 const iconTypes = [
-    { type: AsposeCells.IconSetType.TrafficLights31, row: 1, column: 1 },
-    { type: AsposeCells.IconSetType.Arrows3, row: 1, column: 2 },
-    { type: AsposeCells.IconSetType.Symbols3, row: 2, column: 1 },
-    { type: AsposeCells.IconSetType.Stars3, row: 2, column: 2 },
-    { type: AsposeCells.IconSetType.Boxes5, row: 3, column: 1 },
-    { type: AsposeCells.IconSetType.Flags3, row: 3, column: 2 }
+{ type: AsposeCells.IconSetType.TrafficLights31, row: 1, column: 1 },
+{ type: AsposeCells.IconSetType.Arrows3, row: 1, column: 2 },
+{ type: AsposeCells.IconSetType.Symbols3, row: 2, column: 1 },
+{ type: AsposeCells.IconSetType.Stars3, row: 2, column: 2 },
+{ type: AsposeCells.IconSetType.Boxes5, row: 3, column: 1 },
+{ type: AsposeCells.IconSetType.Flags3, row: 3, column: 2 }
 ];
 
 iconTypes.forEach(icon => {
-    const imagedata = AsposeCells.ConditionalFormattingIcon.getIconImageData(icon.type, icon.type === AsposeCells.IconSetType.Flags3 ? 1 : 0);
-    const stream = new Uint8Array(imagedata);
-    worksheet.getPictures().add(icon.row, icon.column, stream);
-});
-
-const outputFilePath = path.join(dataDir, "outfile_cond_icons1.out.xlsx");
-// Save the Excel file
-workbook.save(outputFilePath);
+const imagedata = AsposeCells.ConditionalFormattingIcon.getIconImageData(icon.type, icon.type === AsposeCells.IconSetType.Flags3 ? 1 : 0);
+const stream = new Uint8Array(imagedata);
+worksheet.getPictures().add(icon.row, icon.column, stream);
 ```

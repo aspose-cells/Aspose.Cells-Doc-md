@@ -30,11 +30,6 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 
-// Create directory if it is not already present.
-if (!require("fs").existsSync(dataDir)) {
-    require("fs").mkdirSync(dataDir);
-}
-
 // Instantiate a new Workbook.
 const workbook = new AsposeCells.Workbook();
 
@@ -43,9 +38,9 @@ const cells = workbook.getWorksheets().get(0).getCells();
 
 // Fill some sample data into the cells.
 for (let i = 0; i < 50; i++) {
-    for (let j = 0; j < 10; j++) {
-        cells.checkCell(i, j).putValue(`${i},${j}`);
-    }
+for (let j = 0; j < 10; j++) {
+cells.get(i, j).putValue(`${i},${j}`);
+}
 }
 
 // Create a range (A1:D3).

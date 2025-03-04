@@ -18,10 +18,10 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.getSourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 
 // Output directory
-const outputDir = RunExamples.getOutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 // Create workbook object from source file
 const filePath = path.join(sourceDir, "sampleWorksheetToImageDesiredSize.xlsx");
