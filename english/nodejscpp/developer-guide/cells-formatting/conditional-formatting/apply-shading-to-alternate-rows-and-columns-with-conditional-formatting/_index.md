@@ -1,5 +1,5 @@
 ---
-title: Apply Shading to Alternate Rows and Columns with Conditional Formatting in Node.js via C++
+title: Apply Shading to Alternate Rows and Columns with Conditional Formatting
 linktitle: Apply Shading to Alternate Rows and Columns with Conditional Formatting
 description: How to use the Aspose.Cells library in Node.js via C++ to apply conditional formatting shadows for alternating rows and columns. By adjusting these criteria, you have more control over how cells look and appear.
 keywords: Aspose.Cells, Conditional Formatting, Node.js via C++, Alternate Rows, Alternate Columns, Shadows
@@ -22,49 +22,7 @@ This article makes use of Excel's built-in functions such as ROW, COLUMN & MOD. 
 
 Let's start writing some code to accomplish this goal with the help of Aspose.Cells for Node.js via C++ API.
 
-```javascript
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
-
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-
-// Create an instance of Workbook or load existing
-const book = new AsposeCells.Workbook();
-
-// Access the Worksheet on which desired rule has to be applied
-const sheet = book.getWorksheets().get(0);
-
-// Add FormatConditions to the instance of Worksheet
-let idx = sheet.getConditionalFormattings().add();
-
-// Access the newly added FormatConditions via its index
-const conditionCollection = sheet.getConditionalFormattings().get(idx);
-
-// Define a CellsArea on which conditional formatting will be applicable
-// The code creates a CellArea ranging from A1 to I20
-const area = AsposeCells.CellArea.createCellArea("A1", "I20");
-
-// Add area to the instance of FormatConditions
-conditionCollection.addArea(area);
-
-// Add a condition to the instance of FormatConditions
-// For this case, the condition type is expression, which is based on some formula
-idx = conditionCollection.addCondition(AsposeCells.FormatConditionType.Expression);
-
-// Access the newly added FormatCondition via its index
-const formatCondition = conditionCollection.get(idx);
-
-// Set the formula for the FormatCondition
-formatCondition.setFormula1("=MOD(ROW(),2)=0");
-
-// Set the background color and pattern for the FormatCondition's Style
-formatCondition.getStyle().setBackgroundColor(AsposeCells.Color.Blue);
-formatCondition.getStyle().setPattern(AsposeCells.BackgroundType.Solid);
-
-// Save the result on disk
-book.save(path.join(dataDir, "output_out.xlsx"));
-```
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-ConditionalFormatting-ApplyShadingToAlternateRowsAndColumns.js" >}}
 
 
 The following snapshot shows the resultant spreadsheet loaded in Excel application.

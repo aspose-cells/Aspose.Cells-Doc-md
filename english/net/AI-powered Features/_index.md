@@ -2,7 +2,8 @@
 title: AI-powered Features
 type: docs
 weight: 200
-keywords: AI,spreadsheet,AI features,AI power,Excel AI,OpenAI,Cells AI
+url: /net/ai-powered-features/
+keywords: AI,spreadsheet,AI features,AI power,Excel AI,OpenAI,Cells AI.
 description: This article is a Step-by-Step guide to use AI-powered features for processing spreadsheet files.
 ---
 
@@ -15,7 +16,7 @@ Welcome to Cells AI! This guide will walk you through the basic steps to configu
 1. [Configure AI Model](#configure-ai-model)
 2. [Create AI Instance](#create-ai-instance)
 3. [Process Files with AI](#process-files-with-ai)
-4. [Using Proxy Settings](#using-proxy-settings)
+4. [Using Proxy Settings](#use-proxy-settings-if-you-can-not-access-the-ai-server-directly)
 
 ---
 
@@ -121,7 +122,7 @@ await cellsAI.BuildSpreadsheet(userRequest, inputfile, outfile);
 // Get formula from the spreadsheet
 string formula = cellsAI.GetExcelFormula("c:/student.xlsx", "get the total score for Xiaomin");
 ```
-## Use Proxy Settings if You Can't Access the AI Server Directly
+## Use Proxy Settings if You Can not Access the AI Server Directly
 
 If you are working behind a proxy, you can configure proxy settings to allow Cells AI to connect to the server.
 

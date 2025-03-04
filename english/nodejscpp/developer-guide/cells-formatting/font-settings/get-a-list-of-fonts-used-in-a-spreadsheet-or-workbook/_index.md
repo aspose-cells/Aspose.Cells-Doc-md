@@ -1,5 +1,5 @@
 ---
-title: Get a List of Fonts used in a Spreadsheet or Workbook with Node.js via C++
+title: Get a List of Fonts used in a Spreadsheet or Workbook
 linktitle: Get a List of Fonts used in a Spreadsheet or Workbook
 description: Learn how to get a list of fonts used in a spreadsheet or workbook using Aspose.Cells for Node.js via C++. This article will show you how to retrieve font information from a document.
 keywords: Aspose.Cells, Node.js via C++, Spreadsheet, Workbook, Font, List
@@ -14,7 +14,7 @@ It is often necessary to know the fonts being used in your workbook for renderin
 
 In order to deal with such cases, you should know what fonts are being used by your workbook, then either install those fonts on your system in case of Windows environment or place it in your fonts directory in case of Windows or Linux environment.
 
-Aspose.Cells for Node.js via C++ provides the [**Workbook.getFonts**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getFonts) method which returns the list of all the fonts used in your workbook or spreadsheet.
+Aspose.Cells for Node.js via C++ provides the [**Workbook.getFonts**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getFonts--) method which returns the list of all the fonts used in your workbook or spreadsheet.
 
 ## **Get a List of Fonts used in a Spreadsheet or Workbook**
 
@@ -24,24 +24,8 @@ The following sample code loads the source excel file and retrieves the list of 
 
 ## **Sample Code**
 
-```javascript
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FontSettings-GetFontsListUsedInWorkbook.js" >}}
 
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-
-// Load source workbook
-const workbook = new AsposeCells.Workbook(path.join(dataDir, "sampleGetFonts.xlsx"));
-
-// Get all the fonts inside the workbook
-const fonts = workbook.getFonts();
-
-// Print all the fonts
-for (let i = 0; i < fonts.length; i++) {
-console.log(fonts[i].toString());
-}
-```
 
 ## **Console Output**
 

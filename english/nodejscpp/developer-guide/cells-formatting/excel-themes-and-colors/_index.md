@@ -1,5 +1,5 @@
 ---  
-title: Excel Themes and Colors with Node.js via C++  
+title: Excel Themes and Colors
 linktitle: Excel Themes and Colors  
 type: docs  
 weight: 100  
@@ -45,143 +45,32 @@ The following example shows how to apply custom themes with your desired colors.
 
 The following example loads a template XLSX file, defines colors for different theme color types, applies the custom colors, and saves the Excel file.  
 
-```javascript
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-ThemesAndColors-CreateCustomColorTheme.js" >}}
 
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "book1.xlsx");
 
-// Define Color array (of 12 colors) for Theme.
-const carr = [
-new AsposeCells.Color("AntiqueWhite"), // Background1
-new AsposeCells.Color("Brown"), // Text1
-new AsposeCells.Color("AliceBlue"), // Background2
-new AsposeCells.Color("Yellow"), // Text2
-new AsposeCells.Color("YellowGreen"), // Accent1
-new AsposeCells.Color("Red"), // Accent2
-new AsposeCells.Color("Pink"), // Accent3
-new AsposeCells.Color("Purple"), // Accent4
-new AsposeCells.Color("PaleGreen"), // Accent5
-new AsposeCells.Color("Orange"), // Accent6
-new AsposeCells.Color("Green"), // Hyperlink
-new AsposeCells.Color("Gray") // Followed Hyperlink
-];
-
-// Instantiate a Workbook.
-// Open the template file.
-const workbook = new AsposeCells.Workbook(filePath);
-
-// Set the custom theme with specified colors.
-workbook.customTheme("CustomeTheme1", carr);
-
-// Save as the excel file.
-workbook.save(path.join(dataDir, "output.out.xlsx"));
-```  
 
 ### **How to Apply Theme Colors in Aspose.Cells**  
 The following example applies a cell’s foreground and font colors based on the default theme (of the workbook) color types. It also saves the Excel file to disk.  
 
-```javascript
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
 
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-ThemesAndColors-ApplyThemeColors.js" >}}
 
-// Instantiate a Workbook.
-const workbook = new AsposeCells.Workbook();
-
-// Get cells collection in the first (default) worksheet.
-const cells = workbook.getWorksheets().get(0).getCells();
-
-// Get the D3 cell.
-const c = cells.get("D3");
-
-// Get the style of the cell.
-const s = c.getStyle();
-
-// Set foreground color for the cell from the default theme Accent2 color.
-s.setForegroundThemeColor(new AsposeCells.ThemeColor(AsposeCells.ThemeColorType.Accent2, 0.5));
-
-// Set the pattern type.
-s.setPattern(AsposeCells.BackgroundType.Solid);
-
-// Get the font for the style.
-const f = s.getFont();
-
-// Set the theme color.
-f.setThemeColor(new AsposeCells.ThemeColor(AsposeCells.ThemeColorType.Accent4, 0.1));
-
-// Apply style.
-c.setStyle(s);
-
-// Put a value.
-c.putValue("Testing1");
-
-// Save the excel file.
-workbook.save(path.join(dataDir, "output.out.xlsx"));
-```  
 
 ### **How to Get and Set Theme Colors in Aspose.Cells**  
 Below are a few methods and properties that implement theme colors.  
 
-- [**Style.ForegroundThemeColor**](https://reference.aspose.com/cells/nodejs-cpp/style/properties/foregroundthemecolor): Used to set the foreground color.  
-- [**Style.BackgroundThemeColor**](https://reference.aspose.com/cells/nodejs-cpp/style/properties/backgroundthemecolor): Used to set the background color.  
-- [**Font.ThemeColor**](https://reference.aspose.com/cells/nodejs-cpp/font/properties/themecolor): Used to set the font color.  
-- [**Workbook.getThemeColor**](https://reference.aspose.com/cells/nodejs-cpp/workbook/methods/getthemecolor): Used to get a theme color.  
-- [**Workbook.setThemeColor**](https://reference.aspose.com/cells/nodejs-cpp/workbook/methods/setthemecolor): Used to set a theme color.  
+- [**Style.setForegroundThemeColor**](https://reference.aspose.com/cells/nodejs-cpp/style/#setForegroundThemeColor-themecolor-): Used to set the foreground color.  
+- [**Style.setBackgroundThemeColor**](https://reference.aspose.com/cells/nodejs-cpp/style/#setBackgroundThemeColor-themecolor-): Used to set the background color.  
+- [**Font.setThemeColor**](https://reference.aspose.com/cells/nodejs-cpp/font/#setThemeColor-themecolor-): Used to set the font color.  
+- [**Workbook.getThemeColor**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getThemeColor-themecolortype-): Used to get a theme color.  
+- [**Workbook.setThemeColor**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#setThemeColor-themecolortype-color-): Used to set a theme color.  
 
 The following example shows how to get and set theme colors.  
 
 The following example uses a template XLSX file, gets the colors for different theme color types, changes the colors, and saves the Microsoft Excel file.  
 
-```javascript
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-ThemesAndColors-GetAndSetThemeColors.js" >}}
 
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "book1.xlsx");
-
-// Instantiate Workbook object.
-// Open an existing excel file.
-const workbook = new AsposeCells.Workbook(filePath);
-
-// Get the Background1 theme color.
-let c = workbook.getThemeColor(AsposeCells.ThemeColorType.Background1);
-
-// Print the color.
-console.log("theme color Background1: ", c);
-
-// Get the Accent2 theme color.
-c = workbook.getThemeColor(AsposeCells.ThemeColorType.Accent2);
-
-// Print the color.
-console.log("theme color Accent2: ", c);
-
-// Change the Background1 theme color.
-workbook.setThemeColor(AsposeCells.ThemeColorType.Background1, AsposeCells.Color.Red);
-
-// Get the updated Background1 theme color.
-c = workbook.getThemeColor(AsposeCells.ThemeColorType.Background1);
-
-// Print the updated color for confirmation.
-console.log("theme color Background1 changed to: ", c);
-
-// Change the Accent2 theme color.
-workbook.setThemeColor(AsposeCells.ThemeColorType.Accent2, AsposeCells.Color.Blue);
-
-// Get the updated Accent2 theme color.
-c = workbook.getThemeColor(AsposeCells.ThemeColorType.Accent2);
-
-// Print the updated color for confirmation.
-console.log("theme color Accent2 changed to: ", c);
-
-// Save the updated file.
-workbook.save(path.join(dataDir, "output.out.xlsx"));
-```  
 
 ## **Advance topics**  
 - [Extract Theme Data from Excel File](/cells/nodejs-cpp/extract-theme-data-from-excel-file/)  

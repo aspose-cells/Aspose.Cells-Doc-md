@@ -1,5 +1,5 @@
 ---
-title: Apply Superscript and Subscript Effects on Fonts with Node.js via C++
+title: Apply Superscript and Subscript Effects on Fonts
 linktitle: Apply Superscript and Subscript Effects on Fonts
 type: docs
 weight: 80
@@ -16,72 +16,15 @@ Aspose.Cells provides the functionality to apply superscript (text above the bas
 
 ## **Working with Superscript and Subscript**
 
-Apply the superscript effect by setting the [**Style.Font**](https://reference.aspose.com/cells/nodejs-cpp/font) object's [**isSuperscript**](https://reference.aspose.com/cells/nodejs-cpp/font/#isSuperscript) property to **true**. To apply subscript, set the [**Style.Font**](https://reference.aspose.com/cells/nodejs-cpp/font) object's [**isSubscript**](https://reference.aspose.com/cells/nodejs-cpp/font/#isSubscript) property to **true**.
+Apply the superscript effect by setting the [**Font**](https://reference.aspose.com/cells/nodejs-cpp/font) object's [**setIsSuperscript**](https://reference.aspose.com/cells/nodejs-cpp/font/#setIsSuperscript-boolean-) method to **true**. To apply subscript, set the [**Font**](https://reference.aspose.com/cells/nodejs-cpp/font) object's [**setIsSubscript**](https://reference.aspose.com/cells/nodejs-cpp/font/#setIsSubscript-boolean-) method to **true**.
 
 The following code examples show how to apply super and subscript to text.
 
 ### Node.js code to Apply Superscript effect on text
 
-```javascript
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FontSettings-ApplySuperscript.js" >}}
 
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-
-// Instantiating a Workbook object
-const workbook = new AsposeCells.Workbook();
-
-// Adding a new worksheet to the Excel object
-workbook.getWorksheets().add();
-
-// Obtaining the reference of the newly added worksheet by passing its sheet index
-const worksheet = workbook.getWorksheets().get(0);
-
-// Accessing the "A1" cell from the worksheet
-const cell = worksheet.getCells().get("A1");
-
-// Adding some value to the "A1" cell
-cell.putValue("Hello");
-
-// Setting the font Superscript
-const style = cell.getStyle();
-style.getFont().setIsSuperscript(true);
-cell.setStyle(style);
-
-// Saving the Excel file
-workbook.save(path.join(dataDir, "Superscript.out.xls"), AsposeCells.SaveFormat.Auto);
-```
 
 ### Node.js code to Apply Subscript effect on text
 
-```javascript
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
-
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-
-// Instantiating a Workbook object
-const workbook = new AsposeCells.Workbook();
-
-// Adding a new worksheet to the Excel object
-workbook.getWorksheets().add();
-
-// Obtaining the reference of the newly added worksheet by passing its sheet index
-const worksheet = workbook.getWorksheets().get(0);
-
-// Accessing the "A1" cell from the worksheet
-const cell = worksheet.getCells().get("A1");
-
-// Adding some value to the "A1" cell
-cell.putValue("Hello");
-
-// Setting the font Subscript
-const style = cell.getStyle();
-style.getFont().setIsSubscript(true);
-cell.setStyle(style);
-
-// Saving the Excel file
-workbook.save(path.join(dataDir, "Subscript.out.xls"), AsposeCells.SaveFormat.Auto);
-```
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FontSettings-ApplySubscript.js" >}}
