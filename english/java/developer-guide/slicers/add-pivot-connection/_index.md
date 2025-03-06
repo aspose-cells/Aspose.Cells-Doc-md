@@ -9,7 +9,7 @@ keywords: Add pivot connection without office 2013, office 2016, office 2019 and
 
 ## **Possible Usage Scenarios**
 
-If you want to associate slicer and pivot table in Excel, you need to right-click slicer and select "Report Connections..." item. In the option list, you can operate on the check box. Similarly, if you want to associate slicer and pivot table using Aspose.Cells Java API programmatically, please use the [**Slicer.addPivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#addPivotConnection(com.aspose.cells.PivotTable)/) method. It will associate slicer and pivot table.
+If you want to associate slicer and pivot table in Excel, you need to right-click slicer and select "Report Connections..." item. In the option list, you can operate on the check box. Similarly, if you want to associate slicer and pivot table using Aspose.Cells Java API programmatically, please use the [**Slicer.addPivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#addPivotConnection-com.aspose.cells.PivotTable-) method. It will associate slicer and pivot table.
 
 ## **Associate Slicer and PivotTable**
 

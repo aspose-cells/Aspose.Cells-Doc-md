@@ -19,9 +19,9 @@ Microsoft Excel allows you to print comments while printing or saving to PDF for
 
 Aspose.Cells provides the following enums to support the printing comments while saving PDF
 
-- [**PrintCommentsType.PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS)
-- [**PrintCommentsType.PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)
-- [**PrintCommentsType.PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_SHEET_END)
+- [**PrintCommentsType.PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-NO-COMMENTS)
+- [**PrintCommentsType.PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-IN-PLACE)
+- [**PrintCommentsType.PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-SHEET-END)
 
 ## Code Snippet
 

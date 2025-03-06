@@ -49,16 +49,16 @@ The [ValidationType](https://reference.aspose.com/cells/java/com.aspose.cells/V
 
 |**Member Name**|**Description**|
 | :- | :- |
-|[ANY_VALUE](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#ANY_VALUE)|Denotes a value of any type.|
-|[WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE_NUMBER)|Denotes validation type for whole numbers.|
+|[ANY_VALUE](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#ANY-VALUE)|Denotes a value of any type.|
+|[WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE-NUMBER)|Denotes validation type for whole numbers.|
 |[DECIMAL](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#DECIMAL)|Denotes validation type for decimal numbers.|
 |[LIST](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#LIST)|Denotes validation type for drop-down list.|
 |[DATE](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#DATE)|Denotes validation type for dates.|
 |[TIME](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TIME)|Denotes validation type for Time.|
-|[TEXT_LENGTH](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TEXT_LENGTH)|Denotes validation type for the length of the text.|
+|[TEXT_LENGTH](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TEXT-LENGTH)|Denotes validation type for the length of the text.|
 |[CUSTOM](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#CUSTOM)|Denotes custom validation type.|
 #### **Programming Sample: Whole Number Data Validation**
-With this type of validation, users can enter only whole numbers within a specified range into the validated cells. The code examples that follow show how to implement the [WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE_NUMBER) validation type. The example creates the same data validation using Aspose.Cells that we created using Microsoft Excel above.
+With this type of validation, users can enter only whole numbers within a specified range into the validated cells. The code examples that follow show how to implement the [WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE-NUMBER) validation type. The example creates the same data validation using Aspose.Cells that we created using Microsoft Excel above.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-WholeNumberDataValidation-WholeNumberDataValidation.java" >}}
 

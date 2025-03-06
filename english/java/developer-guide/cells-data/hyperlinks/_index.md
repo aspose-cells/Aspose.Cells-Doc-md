@@ -25,7 +25,7 @@ Aspose.Cells allows developers to add hyperlinks to Excel files either by using 
 
 Aspose.Cells provides a class, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) that represents a Microsoft Excel file. The [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) that allows access to each worksheet in the Excel file. A worksheet is represented by the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class. The [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class provides different methods for adding different hyperlinks to Excel files.
 ## **Adding Link to a URL**
-The [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class contains a [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) collection. Each item in the [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) collection represents a [Hyperlink](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink). Add hyperlinks to URLs by calling the [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Hyperlinks) collection's [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))method. The [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))method takes the following parameters:
+The [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class contains a [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) collection. Each item in the [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) collection represents a [Hyperlink](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink). Add hyperlinks to URLs by calling the [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Hyperlinks) collection's [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) method. The [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) method takes the following parameters:
 
 - Cell name, the name of the cell the hyperlink will be added to.
 - Number of rows, the number of rows in this hyperlink range.
@@ -44,7 +44,7 @@ In the above example, a hyperlink is added to a URL in an empty cell, **A1**. In
 
 
 ## **Adding a Link to a Cell in the Same File**
-It is possible to add hyperlinks to cells in the same Excel file by calling the [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) collection's [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))method. The [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))method works for both internal and external hyperlinks. One version of the overloaded method takes the following parameters:
+It is possible to add hyperlinks to cells in the same Excel file by calling the [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) collection's [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) method. The [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) method works for both internal and external hyperlinks. One version of the overloaded method takes the following parameters:
 
 - Cell name, the name of the cell the hyperlink will be added to.
 - Number of rows, the number of rows in this hyperlink range.
@@ -58,7 +58,7 @@ It is possible to add hyperlinks to cells in the same Excel file by calling the 
 
 
 ## **Adding a Link to an External File**
-It is possible to add hyperlinks to external Excel files by calling the [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) collection's [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))method. The [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))method takes the following parameters:
+It is possible to add hyperlinks to external Excel files by calling the [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) collection's [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) method. The [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) method takes the following parameters:
 
 - Cell name, the name of the cell the hyperlink will be added to.
 - Number of rows, the number of rows in this hyperlink range.

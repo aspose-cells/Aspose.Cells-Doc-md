@@ -73,7 +73,7 @@ To define your own customized format string for setting the display format, use 
 
 {{% alert color="primary" %}}
 
-If you use the [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) to set the number format, any previous format set using the [**Number**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number） is overridden and vice versa.
+If you use the [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) to set the number format, any previous format set using the [**Number**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number) is overridden and vice versa.
 
 {{% /alert %}}
 

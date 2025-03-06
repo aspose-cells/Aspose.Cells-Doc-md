@@ -47,9 +47,9 @@ Aspose.Cells also allows developers to set the worksheet zoom factor.
 ### **Controlling the Zoom Factor**
 Aspose.Cells provides a [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class that represents a Microsoft Excel file. The [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) that allows access to each worksheet in an Excel file.
 
-A worksheet is represented by the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class. The [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class provides a wide range of properties and methods for managing worksheets. To set a worksheet's zoom factor, use the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom)method.
+A worksheet is represented by the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class. The [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class provides a wide range of properties and methods for managing worksheets. To set a worksheet's zoom factor, use the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) method.
 
-A complete example is given below that demonstrates how to use the [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom)method to set the zoom factor of the first worksheet in an Excel file.
+A complete example is given below that demonstrates how to use the [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) method to set the zoom factor of the first worksheet in an Excel file.
 
 In the screenshot below, you can see the Book1.xls file in the default view.
 

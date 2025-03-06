@@ -11,8 +11,8 @@ Aspose.Cells provides you with the ability to change the chart tick label direct
 
 - [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
 - [**VERTICAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)
-- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)
-- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_270)
+- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90)
+- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-270)
 - [**STACKED**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#STACKED)
 
 The following image compares the source and output files
@@ -25,7 +25,7 @@ The following image compares the source and output files
 
 ![todo:image_alt_text](change-tick-label-direction_2.jpg)
 
-The following code snippet changes the tick label direction from [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90) to [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
+The following code snippet changes the tick label direction from [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90) to [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
 
 ### **Sample Code**
 

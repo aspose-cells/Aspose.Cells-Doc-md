@@ -22,7 +22,7 @@ When rows or columns are added, the content in the worksheet is shifted down or 
 
 {{% /alert %}} 
 ## **How to Insert a Row**
-Insert a row into at any location by calling the [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows-int-int-) method of the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection. The [insertRows ](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows-int-int-)method takes the index of the row where the new row will be inserted as the first argument, and the number of rows to be inserted as the second argument.
+Insert a row into at any location by calling the [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows-int-int-) method of the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection. The [insertRows ](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows-int-int-) method takes the index of the row where the new row will be inserted as the first argument, and the number of rows to be inserted as the second argument.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-InsertingARow-InsertingARow.java" >}}
 ## **How to Insert Multiple Rows**
@@ -35,8 +35,8 @@ To insert multiple rows into the worksheet, call the [insertRows](https://refere
 ## **How to Insert a Row with Formatting**
 To insert a row with formatting options, use the [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows-int-int-com.aspose.cells.InsertOptions-) overload that takes [InsertOptions](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions) as a parameter. Set the [CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/insertoptions#CopyFormatType) property of [InsertOptions](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions) class with [CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType) Enumeration. The [CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType) Enumeration has three members as listed below.
 
-- [SAME_AS_ABOVE](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_ABOVE): Formats the row same as the above row.
-- [SAME_AS_BELOW](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_BELOW):  Formats the row same as below row.
+- [SAME_AS_ABOVE](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME-AS-ABOVE): Formats the row same as the above row.
+- [SAME_AS_BELOW](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME-AS-BELOW):  Formats the row same as below row.
 - [CLEAR](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#CLEAR): Clears the formatting.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-InsertingARowWithFormatting-1.java" >}}

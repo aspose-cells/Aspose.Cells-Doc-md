@@ -11,7 +11,7 @@ Sometimes, you need to access data from a shape that is not built-in. Built-in s
 
 ## **A Non-Primitive Shape**
 
-In Aspose.Cells, non-primitive shapes are assigned the type [**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT_PRIMITIVE). You can check their type using the [**Shape.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType) method.
+In Aspose.Cells, non-primitive shapes are assigned the type [**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT-PRIMITIVE). You can check their type using the [**Shape.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType) method.
 
 Access the shape data using the [**Shape.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths) method. It returns all the connected paths that comprise the non-primitive shape. These paths are of the type ShapePath that holds a list of all the segments which in turn contain the points in each segment.
 

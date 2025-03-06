@@ -40,13 +40,13 @@ Moreover, the type of data contained in a cell can also be checked by using the 
 
 |**Cell Value Types**|**Description**|
 | :- | :- |
-|[IS_BOOL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_BOOL)|Specifies that the cell value is Boolean.|
-|[IS_DATE_TIME](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_DATE_TIME)|Specifies that the cell value is date/time.|
-|[IS_ERROR](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_ERROR)|Represents that the cell contains an error value|
-|[IS_NULL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_NULL)|Represents a blank cell.|
-|[IS_NUMERIC](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_NUMERIC)|Specifies that the cell value is numeric.|
-|[IS_STRING](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_STRING)|Specifies that the cell value is a string.|
-|[IS_UNKNOWN](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_UNKNOWN)|Specifies that the cell value is unknown.|
+|[IS_BOOL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-BOOL)|Specifies that the cell value is Boolean.|
+|[IS_DATE_TIME](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-DATE-TIME)|Specifies that the cell value is date/time.|
+|[IS_ERROR](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-ERROR)|Represents that the cell contains an error value|
+|[IS_NULL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-NULL)|Represents a blank cell.|
+|[IS_NUMERIC](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-NUMERIC)|Specifies that the cell value is numeric.|
+|[IS_STRING](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-STRING)|Specifies that the cell value is a string.|
+|[IS_UNKNOWN](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-UNKNOWN)|Specifies that the cell value is unknown.|
 You can also use the above pre-defined cell value types to compare with the type of the data present in each cell.
 
 

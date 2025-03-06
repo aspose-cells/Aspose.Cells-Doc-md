@@ -53,7 +53,7 @@ In the screenshot below, you can see that **Book1.xls** file contains three work
 
 **Setting VisibilityType**
 
-You can also hide the worksheets in a special way. This feature can h ide the worksheet so that the only way for you to make it visible again is by giving [**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY_HIDDEN) as parameter value for the [**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) method in the code ( it is to be noted here, the user s cannot make the object visible in MS Excel directly by using its menu options). Users can also use [**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) method to check whether a worksheet is marked as VeryHidden or not.
+You can also hide the worksheets in a special way. This feature can h ide the worksheet so that the only way for you to make it visible again is by giving [**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY-HIDDEN) as parameter value for the [**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) method in the code ( it is to be noted here, the user s cannot make the object visible in MS Excel directly by using its menu options). Users can also use [**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) method to check whether a worksheet is marked as VeryHidden or not.
 
 ## **Show or Hide Tabs**
 

@@ -62,7 +62,7 @@ To sort *LeftToRight*, use the [**DataSorter.SortLeftToRight**](https://referenc
 
 ## **Sorting data with background color**
 
-Excel provides the feature to sort data based on the background color. The same feature is provided using Aspose.Cells using [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) where [**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL_COLOR) can be used in [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-) to sort data based on the background color. All the cells which contain specified color in the [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-), function are placed on top or bottom according to the SortOrder setting and order of the rest of the cells is not changed at all.
+Excel provides the feature to sort data based on the background color. The same feature is provided using Aspose.Cells using [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) where [**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL-COLOR) can be used in [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-) to sort data based on the background color. All the cells which contain specified color in the [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-), function are placed on top or bottom according to the SortOrder setting and order of the rest of the cells is not changed at all.
 
 Following are the sample files which can be downloaded for testing this feature:
 

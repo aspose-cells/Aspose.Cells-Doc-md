@@ -67,7 +67,7 @@ To open Microsoft Excel 95 files, instantiate the [**Workbook**](https://referen
 
 ### **Opening Microsoft Excel 97 or later versions XLS Files**
 
-To open XLS files of Microsoft Excel XLS 97 or later versions, instantiate the [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) instance with the path or stream of the template file. Or use the [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) method and select the [**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003) value in the [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) enumeration.
+To open XLS files of Microsoft Excel XLS 97 or later versions, instantiate the [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) instance with the path or stream of the template file. Or use the [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) method and select the [**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL-97-TO-2003) value in the [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) enumeration.
 
 #### **Example**
 
@@ -89,7 +89,7 @@ Aspose.Cells allows developers to open spreadsheet files with different formats 
 
 SpreadsheetML files are the XML representations of your spreadsheets including all information about the spreadsheet such as formatting, formulae, etc. Since Microsoft Excel XP, an XML export option is added to Microsoft Excel that exports your spreadsheets to SpreadsheetML files.
 
-To open SpreadsheetML files, use the [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) class and select the [**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET_ML) value in the [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) enumeration.
+To open SpreadsheetML files, use the [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) class and select the [**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET-ML) value in the [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) enumeration.
 
 #### **Example**
 

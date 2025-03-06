@@ -11,11 +11,11 @@ When a cell contains text or string but it is larger than the width of the cell,
 
 - [**TextCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#DEFAULT): Display like MS Excel, depends on the next cell. If the next cell is null, the string will cross or it will be truncated.
 
-- [**TextCrossType. CROSS_KEEP**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_KEEP): Display the string like MS Excel exporting PDF/Image
+- [**TextCrossType. CROSS_KEEP**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS-KEEP): Display the string like MS Excel exporting PDF/Image
 
-- [**TextCrossType.CROSS_OVERRIDE**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_OVERRIDE): Display all the text by crossing other cells and override text of crossed cells
+- [**TextCrossType.CROSS_OVERRIDE**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS-OVERRIDE): Display all the text by crossing other cells and override text of crossed cells
 
-- [**TextCrossType.STRICT_IN_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#STRICT_IN_CELL): Only displaying the string within the width of cell.
+- [**TextCrossType.STRICT_IN_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#STRICT-IN-CELL): Only displaying the string within the width of cell.
 
 ## **Specify how to cross string in output PDF/Image using TextCrossType**
 

@@ -166,7 +166,7 @@ To create a bubble chart, the [**ChartType**](https://reference.aspose.com/cells
 
 #### **Line with Data Marker Chart**
 
-To create a line with a data marker chart, the [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) has to be set to [**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE_WITH_DATA_MARKERS) and few extra properties such as background area,Series Markers , Values & XValues need to be set accordingly. Upon executing the following code, a line with a data marker chart is added to the worksheet.
+To create a line with a data marker chart, the [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) has to be set to [**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE-WITH-DATA-MARKERS) and few extra properties such as background area,Series Markers , Values & XValues need to be set accordingly. Upon executing the following code, a line with a data marker chart is added to the worksheet.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-CreateLineWithDataMarkerChart-1.java" >}}
 

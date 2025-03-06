@@ -30,12 +30,12 @@ Developers can also specify the file format in which their files should be saved
 |[**XLTM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLTM)|Represents an Excel Macro-enabled template file|
 |[**XLAM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLAM)|Represents an Excel XLAM file|
 |[**TSV**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TSV)|Represents a Tab-separated values file|
-|[**TAB_DELIMITED**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TAB_DELIMITED)|Represents a Tab Delimited text file|
+|[**TAB_DELIMITED**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TAB-DELIMITED)|Represents a Tab Delimited text file|
 |[**HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML)|Represents an HTML file(s)|
-|[**M_HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#M_HTML)|Represents an MHTML file(s)|
+|[**M_HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#M-HTML)|Represents an MHTML file(s)|
 |[**ODS**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#ODS)|Represents an OpenDocument Spreadsheet file|
-|[**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#EXCEL_97_TO_2003)|Represents an XLS file that is the default format for Excel 1997 to 2003 revisions|
-|[**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SPREADSHEET_ML)|Represents a SpreadSheetML file|
+|[**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#EXCEL-97-TO-2003)|Represents an XLS file that is the default format for Excel 1997 to 2003 revisions|
+|[**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SPREADSHEET-ML)|Represents a SpreadSheetML file|
 |[**XLSB**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLSB)|Represents an Excel 2007 binary XLSB file|
 |[**UNKNOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#UNKNOWN)|Represents unrecognized format, cannot be saved.|
 |[**PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)|Represents a PDF Document|
