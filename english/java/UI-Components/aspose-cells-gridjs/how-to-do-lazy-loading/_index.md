@@ -38,7 +38,7 @@ for example:
  const lazyLoadingUrl = "/GridJs2/LazyLoading";
  xs.setLazyLoadingUrl(lazyLoadingUrl);
 ```
-After user click the other worksheet that is not the active one£¬the action of query data wil be triggered automatically by the spreadsheet application 
+After user click the other worksheet that is not the active one, the action of query data wil be triggered automatically by the spreadsheet application 
 
 ## Implement lazy loading action in Controller  in serverside .
 for example:
