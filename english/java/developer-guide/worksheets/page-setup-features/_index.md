@@ -173,13 +173,13 @@ Script commands are special commands provided by Aspose.Cells that allow develop
 
 ### **Set Headers and Footers**
 
-The [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) class provides method [**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String)) for adding a header and [**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String)) for adding a footer to a worksheet. The script is used as an argument for all the above mentioned methods. It represents the script to be used for header or footer. This script contains script commands to format headers or footers.
+The [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) class provides method [**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader-int-java.lang.String-) for adding a header and [**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter-int-java.lang.String-) for adding a footer to a worksheet. The script is used as an argument for all the above mentioned methods. It represents the script to be used for header or footer. This script contains script commands to format headers or footers.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetHeadersAndFooters-SetHeadersAndFooters.java" >}}
 
 ### **Insert a Graphic into a Header or Footer**
 
-The [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) class has the methods [**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[])) and [**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[])) for adding pictures to a worksheet's header and footer. These methods take two parameters:
+The [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) class has the methods [**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture-int-byte[]-) and [**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture-int-byte[]-) for adding pictures to a worksheet's header and footer. These methods take two parameters:
 
 - **Section**, the section of the header or footer where the picture will be placed. There are three sections: left, center and right, represented by the numeric values 0, 1 and 2 respectively.
 - **File InputStream**, the graphical data. The binary data should be written into the buffer of a byte array.
@@ -197,7 +197,7 @@ After executing the code and opening the file, check the worksheet's header in M
 
 ### **Insert a Graphic in the First Page Header Only**
 
-The [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) class also has other useful methods, for example [**setPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[])), [**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String)), [**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String)), for adding pictures into a worksheet's first page header/footer. The first page is a special page: it is common to want it to show special information, for example a company logo.
+The [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) class also has other useful methods, for example [**setPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture-boolean-boolean-boolean-int-byte[]-), [**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader-int-java.lang.String-), [**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter-int-java.lang.String-), for adding pictures into a worksheet's first page header/footer. The first page is a special page: it is common to want it to show special information, for example a company logo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-InsertGraphicinFirstPageHeaderOnly-InsertGraphicinFirstPageHeaderOnly.java" >}}
 

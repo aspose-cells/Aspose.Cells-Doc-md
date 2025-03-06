@@ -10,7 +10,7 @@ Sometimes, it may also be required by users to hide certain rows or columns of t
 ## **Controlling the Visibility of Rows & Columns**
 Aspose.Cells provides a class, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) that allows access to each worksheet in the Excel file. A worksheet is represented by the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class. The [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class provides a [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection that represents all cells in the worksheet. The [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)[ ](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collection provides several methods for managing rows or columns in a worksheet. Some of these are discussed below.
 ### **Hiding Rows or Columns**
-Developers can hide a row or column by calling the [HideRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#hideRow\(int\)) and [HideColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#hideColumn\(int\)) methods of the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection respectively. Both methods take the row/column index as a parameter to hide the specific row or column.
+Developers can hide a row or column by calling the [HideRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#hideRow-int-) and [HideColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#hideColumn-int-) methods of the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection respectively. Both methods take the row/column index as a parameter to hide the specific row or column.
 
 {{% alert color="primary" %}} 
 
@@ -20,7 +20,7 @@ Note: It is also possible to hide a row or column if we set the row height or co
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-HidingRowsandColumns-HidingRowsandColumns.java" >}}
 ### **Showing Rows and Columns**
-Developers can unhide any hidden row or column by calling the [UnhideRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unhideRow\(int,%20double\)) and [UnhideColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unhideColumn\(int,%20double\)) methods of the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection respectively. Both methods take two parameters:
+Developers can unhide any hidden row or column by calling the [UnhideRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unhideRow-int-double-) and [UnhideColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unhideColumn-int-double-) methods of the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection respectively. Both methods take two parameters:
 
 - **Row or column index** - the index of a row or column that is used to show the specific row or column.
 - **Row height or column width** - the row height or column width assigned to the row or column after it's shown.

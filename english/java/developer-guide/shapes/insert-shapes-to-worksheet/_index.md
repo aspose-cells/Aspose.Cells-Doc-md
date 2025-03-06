@@ -46,7 +46,7 @@ You can use the following method to insert a line in the worksheet.
 
 {{% alert color="primary" %}}
 
-[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)
 
 The method returns a [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) object.
 
@@ -80,7 +80,7 @@ You can use the following method to insert a line arrow in the worksheet.
 
 {{% alert color="primary" %}}
 
-[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)
 
 The method returns a [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) object.
 
@@ -114,7 +114,7 @@ You can use the following method to insert a rectangle in the worksheet.
 
 {{% alert color="primary" %}}
 
-[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)
 
 The method returns a [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) object.
 
@@ -148,7 +148,7 @@ You can use the following method to insert a cube in the worksheet.
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 The method returns a [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) object.
 
@@ -182,7 +182,7 @@ You can use the following method to insert a callout quad arrow in the worksheet
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 The method returns a [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) object.
 
@@ -216,7 +216,7 @@ You can use the following method to insert a multiplication sign in the workshee
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 The method returns a [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) object.
 
@@ -250,7 +250,7 @@ You can use the following method to insert a multidocument in the worksheet.
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 The method returns a [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) object.
 
@@ -284,7 +284,7 @@ You can use the following method to insert a Five-pointed star in the worksheet.
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 The method returns a [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) object.
 
@@ -318,7 +318,7 @@ You can use the following method to insert a thought bubble cloud in the workshe
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 The method returns a [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) object.
 

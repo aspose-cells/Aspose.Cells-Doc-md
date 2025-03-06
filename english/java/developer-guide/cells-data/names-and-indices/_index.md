@@ -11,7 +11,7 @@ keywords: Java Convert cell index to name, Convert cell name to row/column index
 ## **How to Get Cell Name from Row and Column Indices**
 It is possible to find a cell's name given the row and column index. This article explains how.
 
-Aspose.Cells provides the [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) method which allows developers to get a cell's name if they provide the row and column index.
+Aspose.Cells provides the [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName-int-int-) method which allows developers to get a cell's name if they provide the row and column index.
 
 {{% alert color="primary" %}} 
 
@@ -19,7 +19,7 @@ Microsoft Excel starts counting row and column indices from 1. Unlike Microsoft 
 
 {{% /alert %}} 
 
-The following sample code illustrates how to use [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) to access the cell's name given at a known row and column index. The code generates the following output.
+The following sample code illustrates how to use [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName-int-int-) to access the cell's name given at a known row and column index. The code generates the following output.
 
 {{< highlight java >}}
 
@@ -37,7 +37,7 @@ Cell Name at [2, 2]: C3
 ## **How to Get Row and Column Indices from Cell Name**
 It is possible to find a row and column index of the cell from its name. This article explains how.
 
-Aspose.Cells provides the [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) method which allows developers to get a row and column index from the cell's name.
+Aspose.Cells provides the [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex-java.lang.String-) method which allows developers to get a row and column index from the cell's name.
 
 {{% alert color="primary" %}} 
 
@@ -45,7 +45,7 @@ Microsoft Excel starts counting row and column indices from 1. Unlike Microsoft 
 
 {{% /alert %}} 
 
-The following sample code illustrates how to use [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) to get the row and column index from the cell's name. The code generates the following output.
+The following sample code illustrates how to use [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex-java.lang.String-) to get the row and column index from the cell's name. The code generates the following output.
 
 {{< highlight java >}}
 

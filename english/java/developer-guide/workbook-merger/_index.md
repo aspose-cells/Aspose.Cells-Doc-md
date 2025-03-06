@@ -16,7 +16,7 @@ Sometimes, you need to combine workbooks with various content like images, chart
 
 ## **Combining Workbooks**
 
-The example code combines two workbooks into a single workbook using Aspose.Cells for Java. The code loads the source workbooks, uses the [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) method to combine them and saves the output workbook.
+The example code combines two workbooks into a single workbook using Aspose.Cells for Java. The code loads the source workbooks, uses the [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine-com.aspose.cells.Workbook-) method to combine them and saves the output workbook.
 
 ### **Source Workbooks**
 

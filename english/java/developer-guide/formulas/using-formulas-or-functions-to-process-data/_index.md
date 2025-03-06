@@ -46,7 +46,7 @@ In the example below, a complex formula is applied to the first cell of a worksh
 
 We can have some user-defined formulas that we want to include as an excel add-in. When setting the [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) function built-in functions work fine however there is a need to set the custom functions or formulas using the add-in functions.
 
-Aspose.Cells provides features to register add in functions using [**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction(java.lang.String,%20java.lang.String,%20boolean)). Afterwards when we set [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) = anyFunctionFromAddIn, the output Excel file contains the calculated value from the AddIn function.
+Aspose.Cells provides features to register add in functions using [**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction-java.lang.String-java.lang.String-boolean-). Afterwards when we set [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) = anyFunctionFromAddIn, the output Excel file contains the calculated value from the AddIn function.
 
 Following the XLAM file shall be downloaded for registering the add-in function in the below sample code. Similarly, the output file "test_udf.xlsx" can be downloaded to check the output.
 
@@ -66,7 +66,7 @@ Array formulas are formulas that work with arrays, instead of individual numbers
 
 Some Microsoft Excel functions return arrays of values. To calculate multiple results with an array formula, enter the array into a range of cells with the same number of rows and columns as the array arguments.
 
-It is possible to apply an array formula to a cell by calling the [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class' [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) method. The [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) method takes the following parameters:
+It is possible to apply an array formula to a cell by calling the [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class' [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula-java.lang.String-int-int-) method. The [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula-java.lang.String-int-int-) method takes the following parameters:
 
 - **Array Formula**, the array formula.
 - **Number of Rows**, the number of rows to populate result of the array formula.

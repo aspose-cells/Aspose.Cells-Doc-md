@@ -7,7 +7,7 @@ url: /java/sort-data-in-column-with-custom-sort-list/
 
 ## **Possible Usage Scenarios**
 
-You can sort data in the column using a custom list. This can be done using [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int,%20java.lang.String)) method. However, this method works only if the items in the custom list do not have commas inside them. If they have commas like "USA, US", "China, CN" etc., then you must use [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int,%20java.lang.String)) method. Here, the last parameter is not String but an Array of Strings.
+You can sort data in the column using a custom list. This can be done using [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-java.lang.String-) method. However, this method works only if the items in the custom list do not have commas inside them. If they have commas like "USA, US", "China, CN" etc., then you must use [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-java.lang.String-) method. Here, the last parameter is not String but an Array of Strings.
 
 ## **Sort Data in Column with Custom Sort List**
 

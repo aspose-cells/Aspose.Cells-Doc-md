@@ -13,7 +13,7 @@ url: /java/detect-file-format-of-encrypted-office-open-xml-ooxml-files/
 
 
 
-Aspose.Cells provides a way to detect the file format of encrypted **Microsoft Open XML** files. To identify the file type, use the [FileFormatUtil.detectFileFormat](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#detectFileFormat\(java.lang.String,%20java.lang.String\)) method as shown below in the code example.
+Aspose.Cells provides a way to detect the file format of encrypted **Microsoft Open XML** files. To identify the file type, use the [FileFormatUtil.detectFileFormat](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#detectFileFormat-java.lang.String-java.lang.String-) method as shown below in the code example.
 
 
 

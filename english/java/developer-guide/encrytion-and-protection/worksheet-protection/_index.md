@@ -19,7 +19,7 @@ Protected worksheets don't hide or protect sensitive data, so it's different fro
 
 Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The Workbook class contains a WorksheetCollection that allows to access each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class.
 
-The Worksheet class provides the [**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect(int)) method that is used to apply protection to a worksheet. The Protect method accepts the following parameters:
+The Worksheet class provides the [**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect-int-) method that is used to apply protection to a worksheet. The Protect method accepts the following parameters:
 
 - Protection Type, the type of protection to apply on the worksheet. Protection type is applied with the help of the [**ProtectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ProtectionType) enumeration.
 - New Password, the new password used to protect the worksheet.
@@ -99,7 +99,7 @@ The following example exhibits how to protect a few cells in the worksheet. It u
 
 ### **Protect a Row in the Worksheet**
 
-Aspose.Cells allows you to easily lock any row in the worksheet. Here, we can make use of [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) method of [**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) class to apply Style to a particular row in the worksheet. This method takes two arguments: a [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) object and [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct which has all the members related to applied formatting.
+Aspose.Cells allows you to easily lock any row in the worksheet. Here, we can make use of [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) method of [**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) class to apply Style to a particular row in the worksheet. This method takes two arguments: a [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) object and [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct which has all the members related to applied formatting.
 
 The following example shows how to protect a row in the worksheet. It unlocks all the cells in the worksheet first and then locks the first row in it. Finally, it protects the worksheet. A row / column has a Style API that further contains a setCellLocked method . You can lock or unlock the row / column using the StyleFlag struct.
 
@@ -107,7 +107,7 @@ The following example shows how to protect a row in the worksheet. It unlocks al
 
 ### **Protect a Column in the Worksheet**
 
-Aspose.Cells allows you to easily lock any column in the worksheet. Here, we can make use of [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) method of [**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) class to apply Style to a particular column in the worksheet. This method takes two arguments: a [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) object and [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct which has all the members related to applied formatting.
+Aspose.Cells allows you to easily lock any column in the worksheet. Here, we can make use of [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) method of [**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) class to apply Style to a particular column in the worksheet. This method takes two arguments: a [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) object and [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct which has all the members related to applied formatting.
 
 The following example shows how to protect a column in the worksheet. It unlocks all the cells in the worksheet first and then locks the first column in it. Finally, it protects the worksheet. A row / column has a Style API that further contains a set Locked method . You can lock or unlock the row / column using the StyleFlag struct.
 

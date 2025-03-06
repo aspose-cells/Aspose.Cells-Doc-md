@@ -11,7 +11,7 @@ There is no direct option available to create custom paper sizes in MS Excel, ho
 
 ## **Implement Custom Paper Size of Worksheet for Rendering**
 
-Aspose.Cells allows you to implement your desired paper size of the worksheet by using the [**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize(double,%20double)) method of the [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup). The following sample code illustrates how to specify a custom paper size for the first worksheet in the workbook. Please also see the [output PDF](45056030.pdf) generated with the following code for a reference.
+Aspose.Cells allows you to implement your desired paper size of the worksheet by using the [**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize-double-double-) method of the [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup). The following sample code illustrates how to specify a custom paper size for the first worksheet in the workbook. Please also see the [output PDF](45056030.pdf) generated with the following code for a reference.
 
 ## **Screenshot**
 

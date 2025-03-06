@@ -15,7 +15,7 @@ Aspose.Cells allows you to export a worksheet from the workbook and convert it i
 
 Sometimes, it is useful to save a picture of a worksheet. Images can be shared online, inserted into other documents (reports written in Microsoft Word, for example, or PowerPoint presentations).
 
-Aspose.Cells provides image export through the [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) class. This class represents the worksheet that will be rendered to an image. The [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) class provides the [**toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream)) method for converting a worksheet to an image file. BMP, PNG, JPEG, TIFF, and EMF formats are supported.
+Aspose.Cells provides image export through the [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) class. This class represents the worksheet that will be rendered to an image. The [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) class provides the [**toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage-int-java.io.OutputStream-) method for converting a worksheet to an image file. BMP, PNG, JPEG, TIFF, and EMF formats are supported.
 
 {{% alert color="primary" %}}
 

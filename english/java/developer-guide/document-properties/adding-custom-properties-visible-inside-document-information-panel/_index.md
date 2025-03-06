@@ -9,7 +9,7 @@ url: /java/adding-custom-properties-visible-inside-document-information-panel/
 
 Aspose.Cells can be used to add custom properties inside the workbook object which are visible inside the Document Information Panel. You can open the Document Information Panel in Microsoft Excel using File > Info > Properties > Show Document Panel menu commands.
 
-Please use [**Workbook.getContentTypeProperties().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add(java.lang.Object)) method to add a custom property which will be visible in Document Information Panel
+Please use [**Workbook.getContentTypeProperties().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-) method to add a custom property which will be visible in Document Information Panel
 
 {{% /alert %}}
 

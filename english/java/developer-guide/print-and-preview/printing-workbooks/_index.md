@@ -23,19 +23,19 @@ After you finish creating your spreadsheet, you will probably want to print a ha
 
 ## Printing Workbooks using Aspose.Cells
 
-Aspose.Cells for Java provides a [**toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) method of the [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) class. By using the [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) method, you can provide the printer name as well as the print job name.
+Aspose.Cells for Java provides a [**toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-) method of the [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) class. By using the [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-) method, you can provide the printer name as well as the print job name.
 
 ## Sample Code
 
 ### Print Selected Worksheet
 
-The following code snippet demonstrates the use of the [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) method to print your selected worksheet.
+The following code snippet demonstrates the use of the [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-) method to print your selected worksheet.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingSelectedWorksheet-PrintingSelectedWorksheet.java" >}}
 
 ### Print Whole Workbook
 
-You can also use the [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String)) method to print the whole workbook. The following code snippet demonstrates the use of the [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String)) method to print the whole workbook.
+You can also use the [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter-java.lang.String-) method to print the whole workbook. The following code snippet demonstrates the use of the [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter-java.lang.String-) method to print the whole workbook.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingWholeWorkbook-PrintingWholeWorkbook.java" >}}
 

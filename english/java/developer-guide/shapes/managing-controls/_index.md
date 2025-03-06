@@ -16,7 +16,7 @@ One way to stress important information in a report is to use a text box. For ex
 - The [**getTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame) method returns a [**MsoTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame) object used to adjust the contents of the text box.
 - The [**setPlacement**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement) method specifies the placement type.
 - The [**setFont**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Font) method specifies the font attributes.
-- The [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink(java.lang.String)) method adds a hyperlink for the text box.
+- The [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink-java.lang.String-) method adds a hyperlink for the text box.
 - The [**FillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#FillFormat) property returns [**MsoFillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoFillFormat) object used to set the fill format for the text box.
 - The [**LineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#LineFormat) property returns the [**MsoLineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoLineFormat) object usually used to style and weight of the text box line.
 - The [**setText**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text) method specifies the input text for the text box.

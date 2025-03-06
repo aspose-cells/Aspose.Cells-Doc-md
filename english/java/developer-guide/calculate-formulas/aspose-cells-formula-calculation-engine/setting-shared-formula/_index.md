@@ -23,7 +23,7 @@ There are two options for adding formulas to the other cells (B3, B4, B5, and so
 
 Either do what you did for the first cell, effectively setting the formula for each cell, updating the cell reference accordingly (`A3*0.09`, `A4*0.09`, `A5*0.09` and so on ). This requires the cell references for each row to be updated. It also requires Aspose.Cells to parse each formula individually, which can be time-consuming for large spreadsheets and complex formulas. It also adds extra lines of codes although loops can cut them down somewhat.
 
-Another approach is to use a **shared formula**. With a shared formula, the formulas are automatically updated for the cell references in each row so that the tax would be calculated properly. The [Cell.setSharedFormula](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setSharedFormula\(java.lang.String,%20int,%20int\)) method is more efficient than the first method.
+Another approach is to use a **shared formula**. With a shared formula, the formulas are automatically updated for the cell references in each row so that the tax would be calculated properly. The [Cell.setSharedFormula](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setSharedFormula-java.lang.String-int-int-) method is more efficient than the first method.
 
 The following example demonstrates how to use it. The screenshot below shows the output file.
 

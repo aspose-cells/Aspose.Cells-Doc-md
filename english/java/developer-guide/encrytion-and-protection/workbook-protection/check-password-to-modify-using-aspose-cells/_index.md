@@ -11,7 +11,7 @@ You can assign a **Password to open** and a **Password to modify** while creatin
 
 ![todo:image_alt_text](check-password-to-modify-using-aspose-cells_1.png)
 
-Sometimes, you need to check if the given password matches with the **Password to modify** programmatically. Aspose.Cells provides [**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword(java.lang.String)) method which you can use to check if the given password to modify is correct or not.
+Sometimes, you need to check if the given password matches with the **Password to modify** programmatically. Aspose.Cells provides [**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword-java.lang.String-) method which you can use to check if the given password to modify is correct or not.
 
 {{% /alert %}}
 

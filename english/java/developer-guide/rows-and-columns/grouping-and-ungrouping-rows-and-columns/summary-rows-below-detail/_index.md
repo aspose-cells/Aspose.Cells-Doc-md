@@ -9,7 +9,7 @@ url: /java/applying-subtotal-and-changing-direction-of-outline-summary-rows-belo
 
 This article will explain how to apply Subtotal to data and changing the direction of Outline Summary Rows below Detail.
 
-You can apply Subtotal to data using [**Worksheet.Cells.subtotal()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal(com.aspose.cells.CellArea,%20int,%20int,%20int[])) method. It takes the following parameters.
+You can apply Subtotal to data using [**Worksheet.Cells.subtotal()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal-com.aspose.cells.CellArea-int-int-int[]-) method. It takes the following parameters.
 
 - **CellArea** - The range to apply subtotal on
 - **GroupBy** - The field to group by, as a zero-based integer offset

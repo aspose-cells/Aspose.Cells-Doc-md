@@ -81,7 +81,7 @@ An option to wrapping text in a field is to shrink the text size to fit a cell's
 
 ### **Merging Cells**
 
-Like Microsoft Excel, Aspose.Cells supports merging several cells into one. Aspose.Cells provides two approaches to this task. One way is to call the [**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) method. The method takes the following parameters to merge the cells:
+Like Microsoft Excel, Aspose.Cells supports merging several cells into one. Aspose.Cells provides two approaches to this task. One way is to call the [**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge-int-int-int-int-) method. The method takes the following parameters to merge the cells:
 
 - First row: the first row from where to start merging.
 - First column: the first column from where to start merging.

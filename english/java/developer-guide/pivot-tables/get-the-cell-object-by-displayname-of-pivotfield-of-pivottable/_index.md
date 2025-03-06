@@ -7,7 +7,7 @@ url: /java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells provides [PivotTable.getCellByDisplayName()](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getCellByDisplayName\(java.lang.String\)) method which you can use to access the cell object by the display name of the pivot field. This method is useful when you want to highlight or format your pivot field header. This article explains how to retrieve the cell object by the display name of the data field and then apply formatting to it.
+Aspose.Cells provides [PivotTable.getCellByDisplayName()](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getCellByDisplayName-java.lang.String-) method which you can use to access the cell object by the display name of the pivot field. This method is useful when you want to highlight or format your pivot field header. This article explains how to retrieve the cell object by the display name of the data field and then apply formatting to it.
 
 {{% /alert %}} 
 ## **Get the Cell object by DisplayName of PivotField of PivotTable**

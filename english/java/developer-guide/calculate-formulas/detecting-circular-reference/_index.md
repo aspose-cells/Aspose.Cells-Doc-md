@@ -15,9 +15,9 @@ Circular references can only be detected when the formula is calculated because 
 
 [**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell): Represents the calculation of relevant data about one cell being calculated
 
-[**AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)): will be invoked by formula calculation engine when encounter circular references, the element in the enumerator is [**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell) objects which represent all cells in one circle. The returned value denotes whether the formula engine needs to calculate those cells in circular after this call.
+[**AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular-java.util.Iterator-): will be invoked by formula calculation engine when encounter circular references, the element in the enumerator is [**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell) objects which represent all cells in one circle. The returned value denotes whether the formula engine needs to calculate those cells in circular after this call.
 
-User may gather those circular references in the implementation of [**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)) method.
+User may gather those circular references in the implementation of [**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular-java.util.Iterator-) method.
 
 The source sample file can be downloaded from the following link:
 

@@ -16,7 +16,7 @@ Sometimes you need to insert drawing objects like labels, text boxes, pictures a
 
 Labels provide a means for giving information to users about a spreadsheet's content. Aspose.Cells allows you to add and manipulate labels even into charts.
 
-The [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) class provides a method named [**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart(int,%20int,%20int,%20int)), used to add a label control to a chart. Below is a list of the parameters used for the method:
+The [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) class provides a method named [**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart-int-int-int-int-), used to add a label control to a chart. Below is a list of the parameters used for the method:
 
 - **top** – the vertical offset of the label from the upper left corner in units of 1/4000 of the chart area.
 - **left** – the vertical offset of the label from the upper left corner in units of 1/4000 of the chart area.
@@ -46,7 +46,7 @@ Below is the original code for adding a label to the chart. The following output
 
 ## **Adding TextBox Control to the Chart**
 
-One way to highlight important information in a report is to use a text box. For example, enter text to highlight the company name or to indicate the geographic region with the highest sales. The [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) class provides a method named [**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart(int,%20int,%20int,%20int)), which is used to add a text box control to a chart. Following is the parameters list used for the method:
+One way to highlight important information in a report is to use a text box. For example, enter text to highlight the company name or to indicate the geographic region with the highest sales. The [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) class provides a method named [**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart-int-int-int-int-), which is used to add a text box control to a chart. Following is the parameters list used for the method:
 
 - **top** – the vertical offset of the text box from the upper left corner in units of 1/4000 of the chart area.
 - **left** – the vertical offset of the text box from the upper left corner in units of 1/4000 of the chart area.
@@ -69,7 +69,7 @@ Below is the original code for adding a text box to the chart. The following out
 
 Aspose.Cells allows you to insert images into a chart. For example, add a picture to emphasize or give more meaning to a chart or its contents, or insert a brand image file.
 
-The [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) class provides a method named [**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart(int,%20int,%20java.io.InputStream,%20int,%20int)), which is used to add a picture object to the chart. Following is the parameters list used for the method:
+The [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) class provides a method named [**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart-int-int-java.io.InputStream-int-int-), which is used to add a picture object to the chart. Following is the parameters list used for the method:
 
 - **top** – the vertical offset of the picture from the upper left corner in units of 1/4000 of the chart area.
 - **left** – the vertical offset of the picture from the upper left corner in units of 1/4000 of the chart area.

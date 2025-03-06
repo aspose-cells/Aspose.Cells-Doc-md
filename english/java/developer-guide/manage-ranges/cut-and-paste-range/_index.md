@@ -7,7 +7,7 @@ url: /java/cut-and-paste-cells/
 
 ## **Cut and Paste Cells**
 
-Aspose.Cells provides you with the ability to cut and paste cells within a worksheet by using the [**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) method of the [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection. The [**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) accepts the following parameters.
+Aspose.Cells provides you with the ability to cut and paste cells within a worksheet by using the [**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells-com.aspose.cells.Range-int-int-int-) method of the [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection. The [**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells-com.aspose.cells.Range-int-int-int-) accepts the following parameters.
 
 - [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range): The range of cells to be cut.
 - Row Index: The index of the row to insert cells.

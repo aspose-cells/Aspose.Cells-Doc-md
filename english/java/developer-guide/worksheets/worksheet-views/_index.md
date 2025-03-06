@@ -77,14 +77,14 @@ Aspose.Cells also allows developers to apply freeze panes to worksheets at runti
 
 Aspose.Cells provides a [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class that represents a Microsoft Excel file. The [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) that allows access to each worksheet in an Excel file.
 
-A worksheet is represented by the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class. The [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class provides a wide range of properties and methods for managing worksheets. To configure freeze panes, call the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) method. The [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) method takes the following parameters:
+A worksheet is represented by the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class. The [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class provides a wide range of properties and methods for managing worksheets. To configure freeze panes, call the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) method. The [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) method takes the following parameters:
 
 - **Row**, the row index of the cell that the freeze will start from.
 - **Column**, the column index of the cell that the freeze will start from.
 - **Frozen rows**, the number of visible rows in the top pane.
 - **Frozen columns**, the number of visible columns in the left pane
 
-A complete example is given below that shows how to use the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) method to freeze rows and columns (starting from C4, represented by 4th row and 3rd column, where the rows and columns start from 0 indexes) of the first worksheet of the Excel file.
+A complete example is given below that shows how to use the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) method to freeze rows and columns (starting from C4, represented by 4th row and 3rd column, where the rows and columns start from 0 indexes) of the first worksheet of the Excel file.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FreezePanes-FreezePanes.java" >}}
 
@@ -106,7 +106,7 @@ If you need to split the screen to get two different views in the same worksheet
 The panes work simultaneously. If you make a change in one, the change simultaneously appears in the other. Aspose.Cells provides the split panes feature for the users.
 ### **Applying and Removing Split Panes**
 #### **Splitting Panes**
-Aspose.Cells provides a [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class that represents a Microsoft Excel file. The [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class provides a wide range of properties and methods for managing Excel files. To implement split views, use the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\)) method. To remove split panes, use the [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) method.
+Aspose.Cells provides a [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class that represents a Microsoft Excel file. The [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class provides a wide range of properties and methods for managing Excel files. To implement split views, use the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split--) method. To remove split panes, use the [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--) method.
 
 In the example, we use a simple template file that is loaded, then the set split panes feature is applied on a cell in the first worksheet. The updated file is saved.
 
@@ -122,7 +122,7 @@ After running the above code, the generated file has a split view.
 
 ![todo:image_alt_text](worksheet-views_9.png)
 #### **Removing Panes**
-Developers can remove split panes using the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) method.
+Developers can remove split panes using the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--) method.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovePanes-RemovePanes.java" >}}
 

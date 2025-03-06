@@ -7,7 +7,7 @@ url: /java/rich-text-custom-data-label-of-chart-point/
 
 {{% alert color="primary" %}}
 
-You can use Aspose.Cells to create rich text custom data label of the chart point. Aspose.Cells provides the [**DataLabels.characters()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#characters(int,%20int)) method to return the [**FontSetting**](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) object which can be used to set the font properties of the text like its color, boldness, etc.
+You can use Aspose.Cells to create rich text custom data label of the chart point. Aspose.Cells provides the [**DataLabels.characters()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#characters-int-int-) method to return the [**FontSetting**](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) object which can be used to set the font properties of the text like its color, boldness, etc.
 
 {{% /alert %}}
 

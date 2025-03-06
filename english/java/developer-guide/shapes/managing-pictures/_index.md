@@ -13,7 +13,7 @@ This article explains how to add pictures, and how to insert an image that shows
 
 Adding pictures to a spreadsheet is very easy. It only takes a few lines of code.
 
-Simply call the [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) method of the [**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) collection (encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) object). The [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) method takes the following parameters:
+Simply call the [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add-int-int-java.lang.String-) method of the [**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) collection (encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) object). The [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add-int-int-java.lang.String-) method takes the following parameters:
 
 - **Upper left row index**, the index of the upper left row.
 - **Upper left column index**, the index of the upper left column.

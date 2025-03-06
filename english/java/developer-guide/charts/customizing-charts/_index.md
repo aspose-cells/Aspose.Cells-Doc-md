@@ -131,7 +131,7 @@ To create a chart using Aspose.Cells:
 
 1. Add some data to worksheet cells with the [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) object's [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) method.
    This will be used as the data source for the chart.
-1. Add a chart to the worksheet by calling the [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) collection's [*add*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int)) method, encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) object.
+1. Add a chart to the worksheet by calling the [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) collection's [*add*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add-int-int-int-int-int-) method, encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) object.
 1. Specify the type of chart with the [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) enumeration.
    For example, the example uses the [**ChartType.PYRAMID**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#PYRAMID) value as the chart type.
 1. Access the new [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) object from the [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) collection by passing its index.

@@ -13,7 +13,7 @@ In Excel, you can select a range, then insert a range and shift other data right
 
 ## **Insert Ranges Using Aspose.Cells**
 
-Aspose.Cells provides [Cells.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange(com.aspose.cells.CellArea,%20int)) method to insert a range.
+Aspose.Cells provides [Cells.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange-com.aspose.cells.CellArea-int-) method to insert a range.
 
 ## **Insert Ranges And Shift Cells Right**
 

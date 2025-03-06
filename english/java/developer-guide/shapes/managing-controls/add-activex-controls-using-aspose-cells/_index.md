@@ -7,7 +7,7 @@ url: /java/add-activex-controls-using-aspose-cells/
 
 {{% alert color="primary" %}} 
 
-You can add ActiveX controls with Aspose.Cells using the [ShapeCollection.addActiveXControl()](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addActiveXControl\(int,%20int,%20int,%20int,%20int,%20int,%20int\)) method. This method takes a parameter [ControlType](https://reference.aspose.com/cells/java/com.aspose.cells/ControlType) which tells what type of ActiveX control needs to be added inside a worksheet. It has the following values.
+You can add ActiveX controls with Aspose.Cells using the [ShapeCollection.addActiveXControl()](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addActiveXControl-int-int-int-int-int-int-int-) method. This method takes a parameter [ControlType](https://reference.aspose.com/cells/java/com.aspose.cells/ControlType) which tells what type of ActiveX control needs to be added inside a worksheet. It has the following values.
 
 - [CHECK_BOX](https://reference.aspose.com/cells/java/com.aspose.cells/controltype#CHECK_BOX)
 - [COMBO_BOX](https://reference.aspose.com/cells/java/com.aspose.cells/controltype#COMBO_BOX)

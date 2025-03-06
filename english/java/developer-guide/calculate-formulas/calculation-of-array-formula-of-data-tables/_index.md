@@ -7,7 +7,7 @@ url: /java/calculation-of-array-formula-of-data-tables/
 
 {{% alert color="primary" %}} 
 
-You can create Data Table in Microsoft Excel using Data > What-If Analysis > Data Table.... Aspose.Cells now allows you to calculate the array formula of the data table. Please use [Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) as normal for calculating any type of formulas.
+You can create Data Table in Microsoft Excel using Data > What-If Analysis > Data Table.... Aspose.Cells now allows you to calculate the array formula of the data table. Please use [Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) as normal for calculating any type of formulas.
 
 {{% /alert %}} 
 ## **Calculation of Array Formula of Data Tables**

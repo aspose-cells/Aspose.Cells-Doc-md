@@ -15,7 +15,7 @@ Sometimes, you need to combine multiple worksheets into a single worksheet. This
 
 ## **How to Combine Worksheets**
 
-The sample below uses the [**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) method to copy all source worksheets into a single sheet inside a destination workbook.
+The sample below uses the [**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy-com.aspose.cells.Range-) method to copy all source worksheets into a single sheet inside a destination workbook.
 
 ### **Source Workbook**
 

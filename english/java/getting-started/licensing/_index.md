@@ -18,7 +18,7 @@ The license can be loaded from a stream or file in the following locations:
 1. Explicit path.
 1. The folder that contains the Aspose.Cells.jar.
 
-Use the [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) method to license the component. Often the easiest way to set a license is to put the license file in the same folder as Aspose.Cells.jar and specify just the file name without path as shown in the following example:
+Use the [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense-java.io.InputStream-) method to license the component. Often the easiest way to set a license is to put the license file in the same folder as Aspose.Cells.jar and specify just the file name without path as shown in the following example:
 
 ### **How to Apply a License from Disk**
 

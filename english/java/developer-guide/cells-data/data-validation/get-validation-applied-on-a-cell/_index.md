@@ -9,7 +9,7 @@ keywords: apply cell validation in excel with java, apply validation on a cell i
 
 {{% alert color="primary" %}}
 
-You can use Aspose.Cells API to get the validation applied to any cell. Aspose.Cells provides the [**Cell.getValidation()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) method for this purpose. If there is no validation on the cell, it returns null. Similarly, you can use the [**Worksheet.getValidations().getValidationInCell(int row, int column)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell(int,%20int)) method to acquire the validation applied to a cell by providing its row and column indices.
+You can use Aspose.Cells API to get the validation applied to any cell. Aspose.Cells provides the [**Cell.getValidation()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) method for this purpose. If there is no validation on the cell, it returns null. Similarly, you can use the [**Worksheet.getValidations().getValidationInCell(int row, int column)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell-int-int-) method to acquire the validation applied to a cell by providing its row and column indices.
 
 {{% /alert %}}
 

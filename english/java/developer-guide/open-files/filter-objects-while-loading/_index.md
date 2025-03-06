@@ -6,7 +6,7 @@ url: /java/filter-objects-while-loading-workbook-or-worksheet/
 ---
 
 ## **Possible Usage Scenarios**
-Please use [LoadOptions.LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#LoadFilter) property while filtering data from the workbook. But if you want to filter data from individual worksheets, then you will have to override [LoadFilter.startSheet](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#startSheet\(com.aspose.cells.Worksheet\)) method. Please provide the appropriate value from the [LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) enumeration while creating or working with [LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter).
+Please use [LoadOptions.LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#LoadFilter) property while filtering data from the workbook. But if you want to filter data from individual worksheets, then you will have to override [LoadFilter.startSheet](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#startSheet-com.aspose.cells.Worksheet-) method. Please provide the appropriate value from the [LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) enumeration while creating or working with [LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter).
 
 The [LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) enumeration has the following values.
 

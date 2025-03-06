@@ -18,7 +18,7 @@ Aspose.Cells provides a class, [Workbook](https://reference.aspose.com/cells/jav
 
 The [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection provides several methods to manage rows or columns in a worksheet, few of these are discussed below in more detail.
 ### **Grouping Rows & Columns**
-It is possible to group rows or columns by calling the [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows\(int,%20int,%20boolean\)) and [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns\(int,%20int,%20boolean\)) methods of the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection. Both methods take the following parameters:
+It is possible to group rows or columns by calling the [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows-int-int-boolean-) and [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns-int-int-boolean-) methods of the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection. Both methods take the following parameters:
 
 - First row/column index, the first row or column in the group.
 - Last row/column index, the last row or column in the group.
@@ -51,7 +51,7 @@ It is possible to control whether summary columns are displayed to the right of 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowRight-1.java" >}}
 ### **Ungrouping Rows & Columns**
-Ungroup grouped rows or columns by calling the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection's [UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows\(int,%20int\)) and [UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns\(int,%20int\)) methods. Both methods take the same parameters:
+Ungroup grouped rows or columns by calling the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection's [UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows-int-int-) and [UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns-int-int-) methods. Both methods take the same parameters:
 
 - First row or column index, the first row/column to be ungrouped.
 - Last row or column index, the last row/column to be ungrouped.

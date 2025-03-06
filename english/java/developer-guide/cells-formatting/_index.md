@@ -18,9 +18,9 @@ With Aspose.Cells, developers can add borders and customize what they look like 
 ### **Adding Borders to Cells**
 Aspose.Cells provides a class, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) that represents a Microsoft Excel file. The [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) class contains a [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) that allows access to each worksheet in the Excel file. A worksheet is represented by the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class. The [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class provides a [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection. Each item in the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection represents an object of the [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class.
 
-Aspose.Cells provides the [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) method in the [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class used to set a cell's formatting style. Also, the object of the [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) class is used and provides properties for configuring font settings.
+Aspose.Cells provides the [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle-com.aspose.cells.Style-) method in the [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class used to set a cell's formatting style. Also, the object of the [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) class is used and provides properties for configuring font settings.
 #### **Adding Borders to a Cell**
-Add borders to a cell with the [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) object's [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder\(int,%20int,%20com.aspose.cells.Color\)) method. The border type is passed as a parameter. All border types are pre-defined in the [BorderType](https://reference.aspose.com/cells/java/com.aspose.cells/BorderType) enumeration.
+Add borders to a cell with the [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) object's [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder-int-int-com.aspose.cells.Color-) method. The border type is passed as a parameter. All border types are pre-defined in the [BorderType](https://reference.aspose.com/cells/java/com.aspose.cells/BorderType) enumeration.
 
 |**Border Types**|**Description**|
 | :- | :- |
@@ -32,7 +32,7 @@ Add borders to a cell with the [Style](https://reference.aspose.com/cells/java/c
 |[TOP_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#TOP_BORDER)|The top border line|
 |[HORIZONTAL](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#HORIZONTAL)|Only for dynamic style, such as conditional formatting.|
 |[VERTICAL](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#VERTICAL)|Only for dynamic style, such as conditional formatting.|
-To set the line color, select a color using the [Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color) enumeration and pass it to the [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) object's [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder\(int,%20int,%20com.aspose.cells.Color\)) method's Color parameter. The line styles are pre-defined in the [CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType) enumeration.
+To set the line color, select a color using the [Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color) enumeration and pass it to the [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) object's [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder-int-int-com.aspose.cells.Color-) method's Color parameter. The line styles are pre-defined in the [CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType) enumeration.
 
 |**Line Styles**|**Description**|
 | :- | :- |
@@ -50,7 +50,7 @@ To set the line color, select a color using the [Color](https://reference.aspose
 |[SLANTED_DASH_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#SLANTED_DASH_DOT)|Represents slanted medium dash-dotted line|
 |[THICK](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#THICK)|Represents thick line|
 |[THIN](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#THIN)|Represents thin line|
-Select one of the above line styles and then assign it to the [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) object's [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder\(int,%20int,%20com.aspose.cells.Color\)) method.
+Select one of the above line styles and then assign it to the [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) object's [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder-int-int-com.aspose.cells.Color-) method.
 
 The following output is generated when executing the code below.
 
@@ -60,14 +60,14 @@ The following output is generated when executing the code below.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AddingBordersToCells-AddingBordersToCells.java" >}}
 #### **Adding Borders to a Range of Cells**
-It is possible to add borders to a range of cells rather than just a single cell. First, create a range of cells by calling the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection's [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\)) method, which takes the following parameters:
+It is possible to add borders to a range of cells rather than just a single cell. First, create a range of cells by calling the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection's [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-) method, which takes the following parameters:
 
 - **First Row**, the first row of the range.
 - **First Column**, the first column of the range.
 - **Number of Rows**, the number of rows in the range.
 - **Number of Columns**, the number of columns in the range.
 
-The [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\)) method returns a [Range](https://reference.aspose.com/cells/java/com.aspose.cells/Range) object, which contains the specified range. The [Range](https://reference.aspose.com/cells/java/com.aspose.cells/Range) object provides a [setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\)) method that takes the following parameters:
+The [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-) method returns a [Range](https://reference.aspose.com/cells/java/com.aspose.cells/Range) object, which contains the specified range. The [Range](https://reference.aspose.com/cells/java/com.aspose.cells/Range) object provides a [setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders-int-com.aspose.cells.Color-) method that takes the following parameters:
 
 - **CellBorderType**, the border line style, selected from the [CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType) enumeration.
 - **Color**, the border line color, selected from the [Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color) enumeration.
@@ -96,7 +96,7 @@ The palette only holds 56 colors. When you add a custom color to the palette, th
 
 {{% /alert %}} 
 
-Aspose.Cells provides a class, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), that represents a Microsoft Excel file. The class provides the [changePalette](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#changePalette\(com.aspose.cells.Color,%20int\)) method that takes the following parameters to add a custom color to modify the palette:
+Aspose.Cells provides a class, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), that represents a Microsoft Excel file. The class provides the [changePalette](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#changePalette-com.aspose.cells.Color-int-) method that takes the following parameters to add a custom color to modify the palette:
 
 - **Custom color**, the custom color to be added to the palette.
 - **Index**, the index of the color that will be replaced with the custom color. Should be between 0-55.
@@ -117,7 +117,7 @@ Aspose.Cells also supports these features in a flexible manner. In this topic, w
 ### **Setting Colors & Background Patterns**
 Aspose.Cells provides a class, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), that represents a Microsoft Excel file. The [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) class contains a [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) that allows access to each worksheet in the Excel file. A worksheet is represented by the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class. The [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class provides a [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection. Each item in the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection represents an object of the [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class.
 
-Aspose.Cells provides the [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) method in the [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class that is used to set a cell's formatting. Also, the object of the [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) class can be used to configure font settings.
+Aspose.Cells provides the [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle-com.aspose.cells.Style-) method in the [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class that is used to set a cell's formatting. Also, the object of the [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) class can be used to configure font settings.
 
 {{% alert color="primary" %}} 
 
@@ -177,7 +177,7 @@ Aspose.Cells supports this feature. This topic explains how to use this feature.
 ### **Formatting Selected Characters**
 Aspose.Cells provides a class, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), that represents a Microsoft Excel file. The [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) class contains a [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) that allows access to each worksheet in the Excel file. A worksheet is represented by the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class. The [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class provides a [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection. Each item in the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection represents an object of the [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class.
 
-The [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class provides [characters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#characters\(int,%20int\)) method that takes the following parameters to select a range of characters in a cell:
+The [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class provides [characters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#characters-int-int-) method that takes the following parameters to select a range of characters in a cell:
 
 - **Start Index**, the index of the character to start the selection from.
 - **Number of Characters**, the number of characters to select.
@@ -192,7 +192,7 @@ In the output file, in the A1" cell, the word 'Visit' is formatted with the defa
 
 {{% alert color="primary" %}} 
 
-If you are interested in [formatting a portion of Rich Text in a cell](/cells/java/access-and-update-the-portions-of-rich-text-of-cell/), consider using the [Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters\(\)) & Cell.setCharacters methods. The [Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters\(\)) method is to be used to access the portions of the text and then amendments can be done using the Cell.setCharacters method whereas the **get** method returns an array of [FontSetting](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) objects which can be manipulated to set various properties such as font name, font color, boldness, etc and **set** method can be used to apply the changes.
+If you are interested in [formatting a portion of Rich Text in a cell](/cells/java/access-and-update-the-portions-of-rich-text-of-cell/), consider using the [Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters--) & Cell.setCharacters methods. The [Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters--) method is to be used to access the portions of the text and then amendments can be done using the Cell.setCharacters method whereas the **get** method returns an array of [FontSetting](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) objects which can be manipulated to set various properties such as font name, font color, boldness, etc and **set** method can be used to apply the changes.
 
 {{% /alert %}}
 

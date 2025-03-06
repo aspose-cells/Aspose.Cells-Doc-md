@@ -21,7 +21,7 @@ Please see the following sample code that describes how to perform the task usin
 
 {{% alert color="primary" %}}
 
-Using the [**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)) option minimizes the size of the output PDF but it may affect the image quality a bit.
+Using the [**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample-int-int-) option minimizes the size of the output PDF but it may affect the image quality a bit.
 
 {{% /alert %}} {{% alert color="primary" %}}
 

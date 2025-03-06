@@ -7,7 +7,7 @@ url: /java/reading-and-writing-query-table-of-worksheet/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells provides [Worksheet.getQueryTables()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#QueryTables) collection which returns the [QueryTableCollection](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTableCollection). To get a specific [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable), use the [QueryTableCollection.get()](https://reference.aspose.com/cells/java/com.aspose.cells/querytablecollection#Item%20\(int\)) property and pass the index of the QueryTable. The [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) class has the following two properties for adjusting the QueryTable.
+Aspose.Cells provides [Worksheet.getQueryTables()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#QueryTables) collection which returns the [QueryTableCollection](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTableCollection). To get a specific [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable), use the [QueryTableCollection.get()](https://reference.aspose.com/cells/java/com.aspose.cells/querytablecollection#Item%20-int-) property and pass the index of the QueryTable. The [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) class has the following two properties for adjusting the QueryTable.
 
 - [QueryTable.getAdjustColumnWidth()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#AdjustColumnWidth)
 - [QueryTable.getPreserveFormatting()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting)
