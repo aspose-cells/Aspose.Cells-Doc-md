@@ -283,9 +283,7 @@ class OleDbDataAdapter {
 If you need to add your own custom labels to the Summary rows or you want to concatenate the field's name with a label, e.g "Subtotal of Orders", Aspose.Cells provides you Label and LabelPosition attributes, so you may place your custom labels in the Smart Markers while concatenating with the Subtotal rows in grouping data. See the document on how to Add Custom Labels to Concatenate with the Subtotal Rows in Smart Markers for your reference.  
 {{% /alert %}}  
 ## **Using Anonymous Types or Custom Objects**  
-Aspose.Cells also supports anonymous types or custom objects in smart markers. The example that follows shows how this works. For importing data from dynamic objects using Smart Markers, visit the following article:  
-
-[Importing from dynamic object as data source](/cells/nodejs-cpp/import-data-into-worksheet/#importdataintoworksheet-importingfromdynamicobjectasdatasource)  
+Aspose.Cells also supports anonymous types or custom objects in smart markers. The example that follows shows how this works.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");

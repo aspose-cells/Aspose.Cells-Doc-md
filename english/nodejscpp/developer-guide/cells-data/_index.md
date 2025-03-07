@@ -76,7 +76,6 @@ While working on worksheets, users may add different types of data in the cells.
 - [Get Cell String Value with and without Formatting](/cells/nodejs-cpp/get-cell-string-value-with-and-without-formatting/)
 - [Adding HTML Rich Text inside the Cell](/cells/nodejs-cpp/adding-html-rich-text-inside-the-cell/)
 - [Insert Hyperlinks into Excel or OpenOffice](/cells/nodejs-cpp/insert-hyperlinks-to-excel/)
-- [Import Data into Worksheet](/cells/nodejs-cpp/import-data-into-worksheet/)
 - [How and Where to Use Enumerators](/cells/nodejs-cpp/how-and-where-to-use-enumerators/)
 - [Measure the Width and Height of the Cell Value in Unit of Pixels](/cells/nodejs-cpp/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/)
 - [Reading Cell Values in Multiple Threads Simultaneously](/cells/nodejs-cpp/reading-cell-values-in-multiple-threads-simultaneously/)
