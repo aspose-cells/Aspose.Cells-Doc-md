@@ -161,7 +161,5 @@ By default, the calculation chain is disabled. Because creating the chain also n
 - [Implement Custom Calculation Engine to extend the Default Calculation Engine of Aspose.Cells](/cells/nodejs-cpp/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 - [Interrupt or Cancel the Formula Calculation of Workbook](/cells/nodejs-cpp/interrupt-or-cancel-the-formula-calculation-of-workbook/)
 - [Returning a Range of Values using AbstractCalculationEngine](/cells/nodejs-cpp/returning-a-range-of-values-using-abstractcalculationengine/)
-- [Returning a Range of Values using ICustomFunction](/cells/nodejs-cpp/returning-a-range-of-values-using-icustomfunction/)
 - [Setting Formula Calculation Mode of Workbook](/cells/nodejs-cpp/setting-formula-calculation-mode-of-workbook/)
 - [Using FormulaText function in Aspose.Cells](/cells/nodejs-cpp/using-formulatext-function-in-aspose-cells/)
-- [Using ICustomFunction Feature](/cells/nodejs-cpp/using-icustomfunction-feature/)
