@@ -35,7 +35,7 @@ if (data.getFunctionName().toUpperCase() === "TODAY") {
 data.setCalculatedValue(AsposeCells.CellsHelper.getDoubleFromDateTime(new Date(), false) + 1.0);
 }
 }
-get processBuiltInFunctions() {
+getProcessBuiltInFunctions() {
 return true;
 }
 }
