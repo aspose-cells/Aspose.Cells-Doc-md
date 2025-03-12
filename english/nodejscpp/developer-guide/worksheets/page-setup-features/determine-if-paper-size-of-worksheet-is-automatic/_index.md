@@ -10,7 +10,7 @@ keywords: determine if paper size of worksheet automatic Node.js via C++
 
 ## **Possible Usage Scenarios**
 
-Most of the time, the paper size of the worksheet is automatic. When it is automatic, it is often set as *Letter*. Sometimes the user sets the paper size of the worksheet as per their requirements. In this case, the paper size is not automatic. You can find if the worksheet paper size is automatic or not using the [**Worksheet.pageSetup.isAutomaticPaperSize**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/properties/isAutomaticPaperSize) property.
+Most of the time, the paper size of the worksheet is automatic. When it is automatic, it is often set as *Letter*. Sometimes the user sets the paper size of the worksheet as per their requirements. In this case, the paper size is not automatic. You can find if the worksheet paper size is automatic or not using the [**Worksheet.isAutomaticPaperSize()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#isAutomaticPaperSize--) property.
 
 ## **Determine if Paper Size of Worksheet is Automatic**
 

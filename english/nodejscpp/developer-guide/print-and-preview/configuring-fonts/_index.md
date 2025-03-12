@@ -16,23 +16,23 @@ Aspose.Cells APIs provide the facility to render the spreadsheets in image forma
 Below is the process that Aspose.Cells APIs follow behind the scene.
 
 1. The API tries to find the fonts on the file system matching the exact font name used in the spreadsheet.
-1. If API cannot find the fonts with the exact same name, it attempts to use the default font specified under the Workbook's [**DefaultStyle.Font**](https://reference.aspose.com/cells/nodejs-cpp/style/properties/font) property.
-1. If API cannot locate the font defined under the workbook's [**DefaultStyle.Font**](https://reference.aspose.com/cells/nodejs-cpp/style/properties/font) property, it attempts to use the font specified under [**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/properties/defaultfont) or [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/nodejs-cpp/rendering/imageorprintoptions/properties/defaultfont) property.
-1. If API cannot locate the font defined under [**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/properties/defaultfont) or [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/nodejs-cpp/rendering/imageorprintoptions/properties/defaultfont) property, it attempts to use the font specified under [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/properties/defaultfontname) property.
-1. If API cannot locate the font defined under [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/properties/defaultfontname) property, it attempts to select the most suitable fonts from all of the available fonts.
+1. If API cannot find the fonts with the exact same name, it attempts to use the default font specified under the Workbook's [**DefaultStyle.getFont()**](https://reference.aspose.com/cells/nodejs-cpp/style/#getFont--) property.
+1. If API cannot locate the font defined under the workbook's [**DefaultStyle.getFont()**](https://reference.aspose.com/cells/nodejs-cpp/style/#getFont--) property, it attempts to use the font specified under [**PdfSaveOptions.getDefaultFont()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getDefaultFont--) or [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/nodejs-cpp/rendering/imageorprintoptions/properties/defaultfont) property.
+1. If API cannot locate the font defined under [**PdfSaveOptions.getDefaultFont()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getDefaultFont--) or [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/nodejs-cpp/rendering/imageorprintoptions/properties/defaultfont) property, it attempts to use the font specified under [**FontConfigs.getDefaultFontName()**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/#getDefaultFontName--) property.
+1. If API cannot locate the font defined under [**FontConfigs.getDefaultFontName()**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/#getDefaultFontName--) property, it attempts to select the most suitable fonts from all of the available fonts.
 1. Finally, if API cannot find any fonts on the file system, it renders the spreadsheet using Arial.
 
 ## **Set Custom Font Folders**
 
 Aspose.Cells APIs search the operating system's default font directory for the required fonts. In case the required fonts are not available in the system's font directory, then the APIs search through the custom (user-defined) directories. The [**FontConfigs**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs) class has exposed a number of ways to set custom font directories as detailed below.
 
-1. [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/methods/setfontfolder): This method is useful if there is only one folder to be set.
-1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/methods/setfontfolders): This method is useful when the fonts reside in multiple folders and the user wishes to set all folders separately rather than combining all fonts in a single folder.
-1. [**FontConfigs.setFontSources**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/methods/setfontsources): This mechanism is useful when the user wishes to load fonts from multiple folders or a single font file or font data from an array of bytes.
+1. [**FontConfigs.setFontFolder(string, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/#setFontFolder-string-boolean-): This method is useful if there is only one folder to be set.
+1. [**FontConfigs.setFontFolders(string[], boolean)**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/#setFontFolders-stringarray-boolean-): This method is useful when the fonts reside in multiple folders and the user wishes to set all folders separately rather than combining all fonts in a single folder.
+1. [**FontConfigs.setFontSources(FontSourceBase[])**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/#setFontSources-fontsourcebasearray-): This mechanism is useful when the user wishes to load fonts from multiple folders or a single font file or font data from an array of bytes.
 
 {{% alert color="primary" %}}
 
-Both [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/methods/setfontfolder) & [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/methods/setfontfolders) methods accept a Boolean type second parameter. Passing **true** as the second parameter will direct the Aspose.Cells APIs to search the subfolders for the fonts files.
+Both [**FontConfigs.setFontFolder(string, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/#setFontFolder-string-boolean-) & [**FontConfigs.setFontFolders(string[], boolean)**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/#setFontFolders-stringarray-boolean-) methods accept a Boolean type second parameter. Passing **true** as the second parameter will direct the Aspose.Cells APIs to search the subfolders for the fonts files.
 
 {{% /alert %}}
 
@@ -81,7 +81,7 @@ If all of the above-mentioned methods are used to set the font sources, only the
 
 ## **Font Substitution Mechanism**
 
-Aspose.Cells APIs also provide the ability to specify the substitute font for rendering purposes. This mechanism is helpful when a required font is not available on the machine where conversion has to take place. Users can provide a list of font names as an alternative to the originally required font. In order to achieve this, the Aspose.Cells APIs have exposed the [**FontConfigs.setFontSubstitutes**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/methods/setfontsubstitutes) method which accepts 2 parameters. The first parameter is of type **string**, which should be the name of the font that needs to be substituted. The second parameter is an array of type **string**. Users can provide a list of font names as a substitution for the original font name (specified in the first parameter).
+Aspose.Cells APIs also provide the ability to specify the substitute font for rendering purposes. This mechanism is helpful when a required font is not available on the machine where conversion has to take place. Users can provide a list of font names as an alternative to the originally required font. In order to achieve this, the Aspose.Cells APIs have exposed the [**FontConfigs.setFontSubstitutes(string, string[])**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/#setFontSubstitutes-string-stringarray-) method which accepts 2 parameters. The first parameter is of type **string**, which should be the name of the font that needs to be substituted. The second parameter is an array of type **string**. Users can provide a list of font names as a substitution for the original font name (specified in the first parameter).
 
 Here is a simple usage scenario.
 
@@ -103,8 +103,8 @@ AsposeCells.FontConfigs.setFontSubstitutes("Arial", ["Times New Roman", "Calibri
 
 In addition to the above-mentioned methods, the Aspose.Cells APIs have also provided means to gather information on what sources and substitutions have been set.
 
-1. [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/methods/getfontsources) method returns an array of type [**FontSourceBase**](https://reference.aspose.com/cells/nodejs-cpp/fontsourcebase) containing the list of specified font sources. In case, no sources have been set, the [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/methods/getfontsources) method will return an empty array.
-1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/methods/getfontsubstitutes) method accepts a parameter of type **string** allowing to specify the font name for which substitution has been set. In case, no substitution has been set for the specified font name then the [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/methods/getfontsubstitutes) method will return null.
+1. [**FontConfigs.getFontSources()**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/#getFontSources--) method returns an array of type [**FontSourceBase**](https://reference.aspose.com/cells/nodejs-cpp/fontsourcebase) containing the list of specified font sources. In case, no sources have been set, the [**FontConfigs.getFontSources()**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/#getFontSources--) method will return an empty array.
+1. [**FontConfigs.getFontSubstitutes(string)**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/#getFontSubstitutes-string-) method accepts a parameter of type **string** allowing to specify the font name for which substitution has been set. In case, no substitution has been set for the specified font name then the [**FontConfigs.getFontSubstitutes(string)**](https://reference.aspose.com/cells/nodejs-cpp/fontconfigs/#getFontSubstitutes-string-) method will return null.
 
 ## **Advance topics**
 - [Set Default Font while rendering spreadsheet to images](/cells/nodejs-cpp/set-default-font-while-rendering-spreadsheet-to-images/)

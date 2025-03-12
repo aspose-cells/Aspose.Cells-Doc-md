@@ -9,7 +9,7 @@ description: Learn how to check if a VBA project in an Excel file is protected a
 
 ## Check if VBA Project is Protected and Locked for Viewing in Node.js
 
-Aspose.Cells allows you to check if the VBA (Visual Basic for Applications) Project of an Excel file is protected and locked for viewing. For this, the API provides the [**VbaProject.isLockedForViewing**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/properties/isLockedForViewing) property. If it is locked for viewing, then the [**VbaProject.isLockedForViewing**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/properties/isLockedForViewing) property returns **true**.
+Aspose.Cells allows you to check if the VBA (Visual Basic for Applications) Project of an Excel file is protected and locked for viewing. For this, the API provides the [**VbaProject.getIslockedForViewing()**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/#getIslockedForViewing--) property. If it is locked for viewing, then the [**VbaProject.getIslockedForViewing()**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/#getIslockedForViewing--) property returns **true**.
 
 ## **Sample Code**
 

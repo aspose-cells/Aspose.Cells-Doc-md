@@ -10,11 +10,11 @@ url: /nodejs-cpp/chart-to-image/
 
 ## **Rendering Charts**
 
-Aspose.Cells APIs support converting Excel Charts to image formats without requiring any additional tools or applications. In order to provide rendering support, the [**Chart**](https://reference.aspose.com/cells/nodejs-cpp/chart) class exposes [**toImage**](https://reference.aspose.com/cells/nodejs-cpp/chart/methods/toimage/index) methods with a variety of overloads to best suit the application requirements.
+Aspose.Cells APIs support converting Excel Charts to image formats without requiring any additional tools or applications. In order to provide rendering support, the [**Chart**](https://reference.aspose.com/cells/nodejs-cpp/chart) class exposes [**toImage(string)**](https://reference.aspose.com/cells/nodejs-cpp/chart/#toImage-string-) methods with a variety of overloads to best suit the application requirements.
 
 ### **Rendering Charts to Images**
 
-The [**Chart.toImage**](https://reference.aspose.com/cells/nodejs-cpp/chart/methods/toimage/index) method has a variety of overloads to support simple as well as advanced rendering. If the application requirement is to render the chart in its default dimensions, we suggest you use the [**Chart.toImage**](https://reference.aspose.com/cells/nodejs-cpp/chart/methods/toimage/index) method as follows.
+The [**Chart.toImage(string)**](https://reference.aspose.com/cells/nodejs-cpp/chart/#toImage-string-) method has a variety of overloads to support simple as well as advanced rendering. If the application requirement is to render the chart in its default dimensions, we suggest you use the [**Chart.toImage(string)**](https://reference.aspose.com/cells/nodejs-cpp/chart/#toImage-string-) method as follows.
 
 ```javascript
 const path = require("path");
@@ -53,7 +53,7 @@ const bitmap = chart.toImage();
 bitmap.save(path.join(dataDir, "chartBMP_out.bmp"), AsposeCells.ImageType.Bmp);
 ```
 
-It is also possible to render the charts to images with advanced settings. Aspose.Cells APIs have exposed an overload version of the [**Chart.toImage**](https://reference.aspose.com/cells/nodejs-cpp/chart/methods/toimage/index) method that accepts an instance of [**ImageOrPrintOptions**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions), while allowing to specify parameters such as resolution, smoothing mode, image format, and so on.
+It is also possible to render the charts to images with advanced settings. Aspose.Cells APIs have exposed an overload version of the [**Chart.toImage(string)**](https://reference.aspose.com/cells/nodejs-cpp/chart/#toImage-string-) method that accepts an instance of [**ImageOrPrintOptions**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions), while allowing to specify parameters such as resolution, smoothing mode, image format, and so on.
 
 ```javascript
 const path = require("path");

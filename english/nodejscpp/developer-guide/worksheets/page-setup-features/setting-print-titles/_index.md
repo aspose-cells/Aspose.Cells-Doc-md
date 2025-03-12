@@ -49,7 +49,7 @@ To clear print titles in Excel, you need to remove the rows or columns that are 
 
 ## **How to Set Print Titles Using Aspose.Cells for Node.js via C++**  
 
-To set print titles in a specified worksheet: First, load the [sample file](input.xlsx), and then you need to modify the [**Worksheet.PageSetup.PrintTitleRows**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/pagesetup/#printTitleRows-string) and [**Worksheet.PageSetup.PrintTitleColumns**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/pagesetup/#printTitleColumns-string) properties of the [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/) object for the desired worksheet. Setting these properties to a range string will set the print titles.  
+To set print titles in a specified worksheet: First, load the [sample file](input.xlsx), and then you need to modify the [**Worksheet.getPageSetup()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getPageSetup--) and [**Worksheet.getPageSetup()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getPageSetup--) properties of the [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/) object for the desired worksheet. Setting these properties to a range string will set the print titles.  
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
@@ -81,7 +81,7 @@ The output result:
 
 ## **How to Clear Print Titles Using Aspose.Cells for Node.js via C++**  
 
-To clear the print titles in a specified worksheet: First, load the [sample file](input.xlsx), and then you need to modify the [**Worksheet.PageSetup.PrintTitleRows**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/pagesetup/#printTitleRows-string) and [**Worksheet.PageSetup.PrintTitleColumns**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/pagesetup/#printTitleColumns-string) properties of the [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/) object for the desired worksheet. Setting these properties to an empty string will clear the print titles.  
+To clear the print titles in a specified worksheet: First, load the [sample file](input.xlsx), and then you need to modify the [**Worksheet.getPageSetup()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getPageSetup--) and [**Worksheet.getPageSetup()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getPageSetup--) properties of the [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/) object for the desired worksheet. Setting these properties to an empty string will clear the print titles.  
 
 ```javascript
 const path = require("path");

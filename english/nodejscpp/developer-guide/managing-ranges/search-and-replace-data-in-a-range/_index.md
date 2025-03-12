@@ -14,7 +14,7 @@ Sometimes you need to search for and replace specific data in a range ignoring a
 
 {{% /alert %}}
 
-Aspose.Cells for Node.js via C++ provides the [**FindOptions.setRange()**](https://reference.aspose.com/cells/nodejs-cpp/findoptions/methods/setRange) method for specifying a range when searching for data. Below code sample searches and replaces data in a range.
+Aspose.Cells for Node.js via C++ provides the [**FindOptions.setRange(CellArea)**](https://reference.aspose.com/cells/nodejs-cpp/findoptions/#setRange-cellarea-) method for specifying a range when searching for data. Below code sample searches and replaces data in a range.
 
 ```javascript
 const path = require("path");

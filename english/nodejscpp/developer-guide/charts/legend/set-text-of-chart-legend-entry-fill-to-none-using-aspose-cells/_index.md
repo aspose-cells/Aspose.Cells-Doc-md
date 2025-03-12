@@ -10,7 +10,7 @@ url: /nodejs-cpp/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 
 {{% alert color="primary" %}}
 
-If you want to set the text of the chart's legend entry fill to none so that it does not display inside the chart legend, please set the [**LegendEntry.IsTextNoFill**](https://reference.aspose.com/cells/nodejs-cpp/legendentry/properties/isTextNoFill) to **true**.
+If you want to set the text of the chart's legend entry fill to none so that it does not display inside the chart legend, please set the [**LegendEntry.isTextNoFill()**](https://reference.aspose.com/cells/nodejs-cpp/legendentry/#isTextNoFill--) to **true**.
 
 {{% /alert %}}
 

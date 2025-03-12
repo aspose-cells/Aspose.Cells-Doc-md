@@ -8,7 +8,7 @@ url: /nodejs-cpp/link-cells-to-xml-map-elements/
 
 ## **Possible Usage Scenarios**
 
-You can link your cells to XML Map elements using Aspose.Cells for Node.js via C++. Please use the [**Cells.linkToXmlMap()**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/linktoxmlmap) method for this purpose.
+You can link your cells to XML Map elements using Aspose.Cells for Node.js via C++. Please use the [**Cells.linkToXmlMap(string, number, number, string)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#linkToXmlMap-string-number-number-string-) method for this purpose.
 
 ## **Link Cells to XML Map Elements**
 

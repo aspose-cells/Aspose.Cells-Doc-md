@@ -11,12 +11,12 @@ description: Learn how to copy a VBA project, including Designer Storage, from o
 
 Aspose.Cells allows you to copy a VBA project from one Excel file into another Excel file. A VBA project consists of various types of modules i.e. Document, Procedural, Designer, etc. All modules can be copied with simple code, but for the Designer module, there is some extra data called Designer Storage that needs to be accessed or copied. The following two methods deal with Designer Storage.  
 
-- [**VbaModuleCollection.getDesignerStorage()**](https://reference.aspose.com/cells/nodejs-cpp/vbamodulecollection/methods/getdesignerstorage)  
+- [**VbaModuleCollection.getDesignerStorage(string)**](https://reference.aspose.com/cells/nodejs-cpp/vbamodulecollection/#getDesignerStorage-string-)  
 - [**VbaModuleCollection.addDesignerStorage()**](https://reference.aspose.com/cells/nodejs-cpp/vbamodulecollection/methods/adddesignerstorage)  
 
 ## **Copy VBA Macro UserForm DesignerStorage from Template to Target Workbook**  
 
-Please see the following sample code. It copies the VBA project from the [template Excel file](50528345.xlsm) into an empty workbook and saves it as the [output Excel file](50528346.xlsm). If you open the VBA project inside the template Excel file, you will see a User Form as shown below. The User Form consists of Designer Storage, so it will be copied using [**VbaModuleCollection.getDesignerStorage()**](https://reference.aspose.com/cells/nodejs-cpp/vbamodulecollection/methods/getdesignerstorage) and [**VbaModuleCollection.addDesignerStorage()**](https://reference.aspose.com/cells/nodejs-cpp/vbamodulecollection/methods/adddesignerstorage) methods.  
+Please see the following sample code. It copies the VBA project from the [template Excel file](50528345.xlsm) into an empty workbook and saves it as the [output Excel file](50528346.xlsm). If you open the VBA project inside the template Excel file, you will see a User Form as shown below. The User Form consists of Designer Storage, so it will be copied using [**VbaModuleCollection.getDesignerStorage(string)**](https://reference.aspose.com/cells/nodejs-cpp/vbamodulecollection/#getDesignerStorage-string-) and [**VbaModuleCollection.addDesignerStorage()**](https://reference.aspose.com/cells/nodejs-cpp/vbamodulecollection/methods/adddesignerstorage) methods.  
 
 **![todo:image_alt_text](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_1.png)**  
 

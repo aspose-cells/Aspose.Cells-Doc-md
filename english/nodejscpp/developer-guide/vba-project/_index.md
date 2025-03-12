@@ -10,7 +10,7 @@ description: Add VBA Module and Modify VBA or Macro with Aspose.Cells for Node.j
 ## **Add a VBA Module in Node.js**
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to add a new VBA Module and Macro Code using Aspose.Cells for Node.js via C++. Please use the [**Workbook.vbaProject.modules.add()**](https://reference.aspose.com/cells/nodejs-cpp/vbamodulecollection/methods/add/#) method to add the new VBA Module inside the workbook
+Aspose.Cells allows you to add a new VBA Module and Macro Code using Aspose.Cells for Node.js via C++. Please use the [**Workbook.add(Worksheet)**](https://reference.aspose.com/cells/nodejs-cpp/vbamodulecollection/#add-worksheet-) method to add the new VBA Module inside the workbook
 
 {{% /alert %}}
 

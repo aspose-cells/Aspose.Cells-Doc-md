@@ -9,7 +9,7 @@ description: Learn how to check the validity of a digital signature of VBA code 
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to check if the digital signature of the VBA code is valid using the [**Workbook.vbaProject.isValidSigned**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/properties/isValidSigned) property. It will return **true** if the signature is valid otherwise it will return **false**. The digital signature of the VBA code becomes invalid when you change the VBA code.
+Aspose.Cells allows you to check if the digital signature of the VBA code is valid using the [**Workbook.isValidSigned()**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/#isValidSigned--) property. It will return **true** if the signature is valid otherwise it will return **false**. The digital signature of the VBA code becomes invalid when you change the VBA code.
 
 {{% /alert %}}
 

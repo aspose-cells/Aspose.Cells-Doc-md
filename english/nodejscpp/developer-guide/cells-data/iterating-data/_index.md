@@ -26,9 +26,9 @@ Aspose.Cells APIs provide a bunch of enumerators however, this article mainly di
 
 There are various ways to access the Cells Enumerator, and one can use any of these methods based on the application requirements. Here are the methods that return the cells enumerator.  
 
-1. [**Cells.getEnumerator**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/getenumerator)  
-1. [**Row.getEnumerator**](https://reference.aspose.com/cells/nodejs-cpp/row/methods/getenumerator)  
-1. [**Range.getEnumerator**](https://reference.aspose.com/cells/nodejs-cpp/range/methods/getenumerator)  
+1. [**Cells.getEnumerator()**](https://reference.aspose.com/cells/nodejs-cpp/cells/#getEnumerator--)  
+1. [**Row.getEnumerator()**](https://reference.aspose.com/cells/nodejs-cpp/row/#getEnumerator--)  
+1. [**Range.getEnumerator()**](https://reference.aspose.com/cells/nodejs-cpp/range/#getEnumerator--)  
 
 All of the above-mentioned methods return the enumerator that allows traversing the collection of cells which have been initialized.  
 
@@ -66,7 +66,7 @@ console.log(`${cell.getName()} ${cell.getValue()}`);
 
 ### **Rows Enumerator**  
 
-The Rows Enumerator can be accessed while using the [**RowCollection.getEnumerator**](https://reference.aspose.com/cells/nodejs-cpp/rowcollection/methods/getenumerator) method. The following code example demonstrates the implementation of the `IEnumerator` interface for [**RowCollection**](https://reference.aspose.com/cells/nodejs-cpp/rowcollection).  
+The Rows Enumerator can be accessed while using the [**RowCollection.getEnumerator()**](https://reference.aspose.com/cells/nodejs-cpp/rowcollection/#getEnumerator--) method. The following code example demonstrates the implementation of the `IEnumerator` interface for [**RowCollection**](https://reference.aspose.com/cells/nodejs-cpp/rowcollection).  
 
 ```javascript
 const path = require("path");
@@ -179,7 +179,7 @@ console.log(currentCell.getStringValue());
 
 As you can observe that both of the above-mentioned approaches use more or less similar logic, that is; loop over all cells in the collection to read the cell values. This could be problematic for a number of reasons as discussed below.  
 
-1. APIs such as [**MaxRow**](https://reference.aspose.com/cells/nodejs-cpp/cells/properties/maxrow), [**MaxDataRow**](https://reference.aspose.com/cells/nodejs-cpp/cells/properties/maxdatarow), [**MaxColumn**](https://reference.aspose.com/cells/nodejs-cpp/cells/properties/maxcolumn), [**MaxDataColumn**](https://reference.aspose.com/cells/nodejs-cpp/cells/properties/maxdatacolumn) & [**MaxDisplayRange**](https://reference.aspose.com/cells/nodejs-cpp/cells/properties/maxdisplayrange) require extra time to gather the corresponding statistics. In case the data matrix (rows x columns) is large, using these APIs could impose a performance penalty.  
+1. APIs such as [**getMaxRow()**](https://reference.aspose.com/cells/nodejs-cpp/cells/#getMaxRow--), [**getMaxDataRow()**](https://reference.aspose.com/cells/nodejs-cpp/cells/#getMaxDataRow--), [**getMaxColumn()**](https://reference.aspose.com/cells/nodejs-cpp/cells/#getMaxColumn--), [**getMaxDataColumn()**](https://reference.aspose.com/cells/nodejs-cpp/cells/#getMaxDataColumn--) & [**getMaxDisplayRange()**](https://reference.aspose.com/cells/nodejs-cpp/cells/#getMaxDisplayRange--) require extra time to gather the corresponding statistics. In case the data matrix (rows x columns) is large, using these APIs could impose a performance penalty.  
 1. In most of the cases, not all cells in a given range are instantiated. In such situations to check every cell in the matrix is not so efficient as compared to check only the initialized cells.  
 1. Accessing a cell in a loop as Cells row, column will cause all cell objects in a range to be instantiated, which may eventually cause OutOfMemoryException.  
 

@@ -20,19 +20,19 @@ Aspose.Cells supports converting Excel files to PDF and maintains high visual fi
 {{% alert color="primary" %}}
 Aspose.Cells for Node.js via C++ directly writes the information about API and Version Number in output documents. For example, upon rendering Document to PDF, Aspose.Cells for Node.js via C++ populates **PDF Producer** field with value, e.g 'Aspose.Cells v23.2'.
 
-Please note that you can change this information in output Documents by [**PdfSaveOptions.Producer**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/producer/) property.
+Please note that you can change this information in output Documents by [**PdfSaveOptions.getProducer()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getProducer--) property.
 {{% /alert %}}
 
 ### **Direct Conversion**
 
-Aspose.Cells for Node.js via C++ supports conversion from spreadsheets to PDF independently of other software. Simply save an Excel file to PDF using the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class' [**save**](https://reference.aspose.com/cells/nodejs-cpp/workbook/methods/save/index) method. The [**save**](https://reference.aspose.com/cells/nodejs-cpp/workbook/methods/save/index) method provides the [**SaveFormat.Pdf**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) enumeration member that converts the native Excel files to PDF format.
+Aspose.Cells for Node.js via C++ supports conversion from spreadsheets to PDF independently of other software. Simply save an Excel file to PDF using the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class' [**save(string, SaveFormat)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveformat-) method. The [**save(string, SaveFormat)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveformat-) method provides the [**SaveFormat.Pdf**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) enumeration member that converts the native Excel files to PDF format.
 
 Follow the below steps to directly convert the Excel spreadsheets to PDF format:
 
 1. Instantiate an object of the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class by calling its empty constructor.
 1. You may open/load an existing template file or skip this step if you are creating the workbook from scratch.
 1. Do any work (input data, apply formatting, set formulas, insert pictures or other drawing objects, and so on) on the spreadsheet using Aspose.Cells' APIs.
-1. When the spreadsheet code is complete, call the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class' [**save**](https://reference.aspose.com/cells/nodejs-cpp/workbook/methods/save/index) method to save the spreadsheet.
+1. When the spreadsheet code is complete, call the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class' [**save(string, SaveFormat)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveformat-) method to save the spreadsheet.
 
 The file format should be PDF so select *Pdf* (a pre-defined value) from the [**SaveFormat**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) enumeration to generate the final PDF document.
 
@@ -56,7 +56,7 @@ workbook.save(path.join(dataDir, "output.pdf"), AsposeCells.SaveFormat.Pdf);
 
 You may also opt to use the [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions) class to set different attributes for the conversion. Setting different properties of the [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions) class gives you control over the print, font, security and compression settings for the output PDF. 
 
-The most important property is [**Compliance**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/properties/compliance) which enables you to set the PDF standards compliance level. Currently, you can save to PDF 1.4, PDF 1.5, PDF 1.6, PDF 1.7, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2b, PDF/A-2u, PDF/A-3a, PDF/A-2ab, and PDF/A-3u formats. Note that with the PDF/A format, an output file size is larger than a regular PDF file size.
+The most important property is [**getCompliance()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getCompliance--) which enables you to set the PDF standards compliance level. Currently, you can save to PDF 1.4, PDF 1.5, PDF 1.6, PDF 1.7, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2b, PDF/A-2u, PDF/A-3a, PDF/A-2ab, and PDF/A-3u formats. Note that with the PDF/A format, an output file size is larger than a regular PDF file size.
 
 #### **Saving Workbook to PDF/A Complied Files**
 
@@ -86,12 +86,12 @@ workbook.save(path.join(dataDir, "output.pdf"), pdfSaveOptions);
 ```
 
 {{% alert color="primary" %}}
-Please note, the [**Compliance**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/properties/compliance) property was added with the release of Aspose.Cells for Node.js via C++ 5.3.0.
+Please note, the [**getCompliance()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getCompliance--) property was added with the release of Aspose.Cells for Node.js via C++ 5.3.0.
 {{% /alert %}}
 
 #### **Set the PDF Creation Time**
 
-With the [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions) class, you can get or set the PDF creation time. The following code demonstrates the use of [**PdfSaveOptions.createdTime**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/properties/createdtime) property to set the creation time of the PDF file.
+With the [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions) class, you can get or set the PDF creation time. The following code demonstrates the use of [**PdfSaveOptions.getCreatedTime()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getCreatedTime--) property to set the creation time of the PDF file.
 
 ```javascript
 const path = require("path");
@@ -212,7 +212,7 @@ The table that follows lists all features that are fully or partially supported 
 |RTL (Right to Left) Language| |Yes| |
 
 {{% alert color="primary" %}}
-If your spreadsheet contains formulas, it is best to call [**Workbook.calculateFormula()](https://reference.aspose.com/cells/nodejs-cpp/workbook/methods/calculateformula) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If your spreadsheet contains formulas, it is best to call [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
 {{% /alert %}}
 
 ## **Advance topics**

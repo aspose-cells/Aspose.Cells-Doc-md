@@ -15,9 +15,9 @@ To fulfill these requirements, Aspose.Cells for Node.js via C++ provides a very 
 
 ### **Manage Rows and Columns**
 
-Aspose.Cells for Node.js via C++ provides a class [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), which represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection) collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/properties/cells) collection that represents all cells in the worksheet.
+Aspose.Cells for Node.js via C++ provides a class [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), which represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection) collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection that represents all cells in the worksheet.
 
-The [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/properties/cells) collection provides several methods for managing rows and columns in a worksheet. Some of these are discussed below.
+The [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection provides several methods for managing rows and columns in a worksheet. Some of these are discussed below.
 
 {{% alert color="primary" %}}
 
@@ -30,7 +30,7 @@ When rows or columns are added, the content in the worksheet is shifted down or 
 
 ### **How to Insert a Row**
 
-Insert a row into the worksheet at any location by calling the [**insertRow**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/insertrow) method of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/properties/cells) collection. The [**insertRow**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/insertrow) method takes the index of the row where the new row will be inserted.
+Insert a row into the worksheet at any location by calling the [**insertRow(number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertRow-number-) method of the [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection. The [**insertRow(number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertRow-number-) method takes the index of the row where the new row will be inserted.
 
 ```javascript
 const path = require("path");
@@ -60,7 +60,7 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 
 ### **How to Insert Multiple Rows**
 
-To insert multiple rows into a worksheet, call the [**insertRows**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/insertrows) method of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/properties/cells) collection. The [**insertRows**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/insertrows) method takes two parameters:
+To insert multiple rows into a worksheet, call the [**insertRows(number, number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertRows-number-number-boolean-) method of the [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection. The [**insertRows(number, number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertRows-number-number-boolean-) method takes two parameters:
 
 - Row index, the index of the row from where the new rows will be inserted.
 - Number of rows, the total number of rows that need to be inserted.
@@ -84,7 +84,7 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 
 ### **How to Insert a Row with Formatting**
 
-To insert a row with formatting options, use the [**insertRows**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/insertrows) overload that takes [**InsertOptions**](https://reference.aspose.com/cells/nodejs-cpp/insertoptions) as a parameter. Set the [**copyFormatType**](https://reference.aspose.com/cells/nodejs-cpp/insertoptions/properties/copyformattype) property of [**InsertOptions**](https://reference.aspose.com/cells/nodejs-cpp/insertoptions) class with [**CopyFormatType**](https://reference.aspose.com/cells/nodejs-cpp/insertoptions/properties/copyformattype) Enumeration. The [**CopyFormatType**](https://reference.aspose.com/cells/nodejs-cpp/insertoptions/properties/copyformattype) Enumeration has three members as listed below.
+To insert a row with formatting options, use the [**insertRows(number, number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertRows-number-number-boolean-) overload that takes [**InsertOptions**](https://reference.aspose.com/cells/nodejs-cpp/insertoptions) as a parameter. Set the [**CopyFormatType**](https://reference.aspose.com/cells/nodejs-cpp/copyformattype/) property of [**InsertOptions**](https://reference.aspose.com/cells/nodejs-cpp/insertoptions) class with [**CopyFormatType**](https://reference.aspose.com/cells/nodejs-cpp/copyformattype/) Enumeration. The [**CopyFormatType**](https://reference.aspose.com/cells/nodejs-cpp/copyformattype/) Enumeration has three members as listed below.
 
 - SameAsAbove: Formats the row same as the above row.
 - SameAsBelow:  Formats the row same as below row.
@@ -122,7 +122,7 @@ workbook.save(path.join(dataDir, "InsertingARowWithFormatting.out.xls"));
 
 ### **How to Insert a Column**
 
-Developers can also insert a column into the worksheet at any location by calling the [**insertColumn**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/insertcolumn) method of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/properties/cells) collection. The [**insertColumn**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/insertcolumn) method takes the index of the column where the new column will be inserted.
+Developers can also insert a column into the worksheet at any location by calling the [**insertColumn(number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertColumn-number-boolean-) method of the [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection. The [**insertColumn(number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertColumn-number-boolean-) method takes the index of the column where the new column will be inserted.
 
 ```javascript
 const fs = require('fs');
@@ -154,7 +154,7 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 
 ### **How to Delete Multiple Rows**
 
-To delete multiple rows from a worksheet, call the [**deleteRows**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/deleterows) method of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/properties/cells) collection. The [**deleteRows**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/deleterows) method takes two parameters:
+To delete multiple rows from a worksheet, call the [**deleteRows(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#deleteRows-number-number-) method of the [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection. The [**deleteRows(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#deleteRows-number-number-) method takes two parameters:
 
 - Row index, the index of the row from where the rows will be deleted.
 - Number of rows, the total number of rows that need to be deleted.
@@ -188,7 +188,7 @@ workbook.save(path.join(dataDir, "output.xlsx"));
 
 ### **How to Delete a Column**
 
-To delete a column from the worksheet at any location, call the [**deleteColumn**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/deletecolumn) method of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/properties/cells) collection. The [**deleteColumn**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/deletecolumn) method takes the index of the column to delete.
+To delete a column from the worksheet at any location, call the [**deleteColumn(number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#deleteColumn-number-boolean-) method of the [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection. The [**deleteColumn(number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#deleteColumn-number-boolean-) method takes the index of the column to delete.
 
 ```javascript
 const fs = require("fs");

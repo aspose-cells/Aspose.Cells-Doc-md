@@ -9,7 +9,7 @@ description: Learn how to set the shadow of text effects for any shape or TextBo
 
 {{% alert color="primary" %}}  
 
-You can set the **Shadow** of **Text Effects** of any Shape or TextBox. Please use the [**Shape.textBody**](https://reference.aspose.com/cells/nodejs-cpp/shape/properties/textBody) property. It presents the setting of the shape's text and returns [**FontSetting**](https://reference.aspose.com/cells/nodejs-cpp/fontsetting) objects. After accessing it, please set the **Shadow** via [**FontSetting.textOptions.shadow.presetType**](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect/properties/presetType) property. This property is of the type [**PresetShadowType**](https://reference.aspose.com/cells/nodejs-cpp/presetshadowtype) which has several values. Some of these are  
+You can set the **Shadow** of **Text Effects** of any Shape or TextBox. Please use the [**Shape.getTextBody()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getTextBody--) property. It presents the setting of the shape's text and returns [**FontSetting**](https://reference.aspose.com/cells/nodejs-cpp/fontsetting) objects. After accessing it, please set the **Shadow** via [**FontSetting.getPresetType()**](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect/#getPresetType--) property. This property is of the type [**PresetShadowType**](https://reference.aspose.com/cells/nodejs-cpp/presetshadowtype) which has several values. Some of these are  
 
 - OffsetDiagonalBottomRight  
 - OffsetBottom  
@@ -21,7 +21,7 @@ You can set the **Shadow** of **Text Effects** of any Shape or TextBox. Please u
 
 {{% /alert %}}  
 
-The following code snippet demonstrates the use of [**FontSetting.textOptions.shadow.presetType**](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect/properties/presetType) property to set shadow of text effects of Shape or TextBox.  
+The following code snippet demonstrates the use of [**FontSetting.getPresetType()**](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect/#getPresetType--) property to set shadow of text effects of Shape or TextBox.  
 
 ```javascript
 const path = require("path");

@@ -8,7 +8,7 @@ description: Learn how to get or set the class identifier of embedded OLE object
 ---  
 
 ## **Possible Usage Scenarios**  
-Aspose.Cells provides the [OleObject.classIdentifier](https://reference.aspose.com/cells/nodejs-cpp/oleobject/properties/classidentifier) property which you can use to get or set the class identifier of an embedded OLE object. OLE object class identifiers are actually GUIDs i.e., Globally Unique Identifiers. GUID is always 16 bytes long; therefore, class identifiers are also 16 bytes long. They are often found inside the Windows Registry and provide information to the host application about how to open embedded OLE objects containing various embedded resources inside the client application.
+Aspose.Cells provides the [OleObject.getClassIdentifier()](https://reference.aspose.com/cells/nodejs-cpp/oleobject/#getClassIdentifier--) property which you can use to get or set the class identifier of an embedded OLE object. OLE object class identifiers are actually GUIDs i.e., Globally Unique Identifiers. GUID is always 16 bytes long; therefore, class identifiers are also 16 bytes long. They are often found inside the Windows Registry and provide information to the host application about how to open embedded OLE objects containing various embedded resources inside the client application.
 
 ## **Get or Set the Class Identifier of the Embedded OLE Object**  
 The following screenshot shows the OLE object class identifier i.e., GUID which has been read from the [sample Excel file](5115190.xls) containing the embedded PowerPoint OLE object.

@@ -22,7 +22,7 @@ The [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection 
 
 ### **How to Set the Height of a Row**  
 
-It is possible to set the height of a single row by calling the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection's [**setRowHeight**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/setrowheight) method. The [**setRowHeight**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/setrowheight) method takes the following parameters as follows:
+It is possible to set the height of a single row by calling the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection's [**setRowHeight(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#setRowHeight-number-number-) method. The [**setRowHeight(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#setRowHeight-number-number-) method takes the following parameters as follows:
 
 - **Row index**, the index of the row that you're changing the height of.  
 - **Row height**, the row height to apply on the row.
@@ -64,7 +64,7 @@ fstream.close();
 
 ### **How to Set the Height of All Rows in a Worksheet**  
 
-If developers need to set the same row height for all rows in the worksheet, they can do it by using the [**standardHeight**](https://reference.aspose.com/cells/nodejs-cpp/cells/properties/standardheight) property of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection.  
+If developers need to set the same row height for all rows in the worksheet, they can do it by using the [**getStandardHeight()**](https://reference.aspose.com/cells/nodejs-cpp/cells/#getStandardHeight--) property of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection.  
 
 **Example:**  
 
@@ -103,7 +103,7 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 
 ### **How to Set the Width of a Column**  
 
-Set the width of a column by calling the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection's [**setColumnWidth**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/setcolumnwidth) method. The [**setColumnWidth**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/setcolumnwidth) method takes the following parameters:  
+Set the width of a column by calling the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection's [**setColumnWidth(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#setColumnWidth-number-number-) method. The [**setColumnWidth(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#setColumnWidth-number-number-) method takes the following parameters:  
 
 - **Column index**, the index of the column that you're changing the width of.  
 - **Column width**, the desired column width.  
@@ -139,7 +139,7 @@ fstream; // Note: No explicit close needed for fs.readFileSync
 
 ### **How to Set Column Width in Pixels**  
 
-Set the width of a column by calling the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection's [**setColumnWidthPixel**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/setcolumnwidthpixel) method. The [**setColumnWidthPixel**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/setcolumnwidthpixel) method takes the following parameters:  
+Set the width of a column by calling the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection's [**setColumnWidthPixel(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#setColumnWidthPixel-number-number-) method. The [**setColumnWidthPixel(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#setColumnWidthPixel-number-number-) method takes the following parameters:  
 
 - **Column index**, the index of the column that you're changing the width of.  
 - **Column width**, the desired column width in pixels.  
@@ -166,7 +166,7 @@ workbook.save(path.join(outDir, "SetColumnWidthInPixels_Out.xlsx"));
 
 ### **How to Set the Width of All Columns in a Worksheet**  
 
-To set the same column width for all columns in the worksheet, use the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection's [**standardWidth**](https://reference.aspose.com/cells/nodejs-cpp/cells/properties/standardwidth) property.  
+To set the same column width for all columns in the worksheet, use the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection's [**getStandardWidth()**](https://reference.aspose.com/cells/nodejs-cpp/cells/#getStandardWidth--) property.  
 
 ```javascript
 const path = require("path");

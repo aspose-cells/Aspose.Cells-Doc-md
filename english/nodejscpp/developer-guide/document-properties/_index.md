@@ -61,12 +61,12 @@ Aspose.Cells APIs support both types of document properties, built-in and custom
 
 Use the [**WorksheetCollection**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection) to access the file's document properties as described below.
 
-- To access built-in document properties, use [**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/properties/builtindocumentproperties).
-- To access custom document properties, use [**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/properties/customdocumentproperties).
+- To access built-in document properties, use [**WorksheetCollection.getBuiltInDocumentProperties()**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/#getBuiltInDocumentProperties--).
+- To access custom document properties, use [**WorksheetCollection.getCustomDocumentProperties()**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/#getCustomDocumentProperties--).
 
-Both the [**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/properties/builtindocumentproperties) and [**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/properties/customdocumentproperties) return the instance of [**Aspose.Cells.Properties.DocumentPropertyCollection**](https://reference.aspose.com/cells/nodejs-cpp/properties/documentpropertycollection). This collection contains [**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/nodejs-cpp/properties/documentproperty) objects, each of which represents a single built-in or custom document property.
+Both the [**WorksheetCollection.getBuiltInDocumentProperties()**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/#getBuiltInDocumentProperties--) and [**WorksheetCollection.getCustomDocumentProperties()**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/#getCustomDocumentProperties--) return the instance of [**Aspose.Cells.Properties.DocumentPropertyCollection**](https://reference.aspose.com/cells/nodejs-cpp/documentpropertycollection/). This collection contains [**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/nodejs-cpp/documentproperty/) objects, each of which represents a single built-in or custom document property.
 
-It is up to the application requirement how to access a property, that is; by using the index or name of the property from the [**DocumentPropertyCollection**](https://reference.aspose.com/cells/nodejs-cpp/properties/documentpropertycollection) as demonstrated in the example below.
+It is up to the application requirement how to access a property, that is; by using the index or name of the property from the [**DocumentPropertyCollection**](https://reference.aspose.com/cells/nodejs-cpp/documentpropertycollection/) as demonstrated in the example below.
 
 ```javascript
 const path = require("path");
@@ -91,15 +91,15 @@ const customProperty2 = customProperties.get(0);
 console.log(`${customProperty2.getName()} ${customProperty2.getValue()}`);
 ```
 
-The [**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/nodejs-cpp/properties/documentproperty) class allows to retrieve the name, value, and type of the document property:
+The [**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/nodejs-cpp/documentproperty/) class allows to retrieve the name, value, and type of the document property:
 
-- To get the property name, use [**DocumentProperty.Name**](https://reference.aspose.com/cells/nodejs-cpp/properties/documentproperty/properties/name).
-- To get the property value, use [**DocumentProperty.Value**](https://reference.aspose.com/cells/nodejs-cpp/properties/documentproperty/properties/value). [**DocumentProperty.Value**](https://reference.aspose.com/cells/nodejs-cpp/properties/documentproperty/properties/value) returns the value as an Object.
-- To get the property type, use [**DocumentProperty.Type**](https://reference.aspose.com/cells/nodejs-cpp/properties/documentproperty/properties/type). This returns one of the [**PropertyType**](https://reference.aspose.com/cells/nodejs-cpp/properties/propertytype) enumeration values. After you get the property type, use one of the **DocumentProperty.ToXXX** methods to obtain the value of the appropriate type instead of using [**DocumentProperty.Value**](https://reference.aspose.com/cells/nodejs-cpp/properties/documentproperty/properties/value). The **DocumentProperty.ToXXX** methods are described in the table below.
+- To get the property name, use [**DocumentProperty.getName()**](https://reference.aspose.com/cells/nodejs-cpp/documentproperty/#getName--).
+- To get the property value, use [**DocumentProperty.getValue()**](https://reference.aspose.com/cells/nodejs-cpp/documentproperty/#getValue--). [**DocumentProperty.getValue()**](https://reference.aspose.com/cells/nodejs-cpp/documentproperty/#getValue--) returns the value as an Object.
+- To get the property type, use [**DocumentProperty.getType()**](https://reference.aspose.com/cells/nodejs-cpp/documentproperty/#getType--). This returns one of the [**PropertyType**](https://reference.aspose.com/cells/nodejs-cpp/propertytype/) enumeration values. After you get the property type, use one of the **DocumentProperty.ToXXX** methods to obtain the value of the appropriate type instead of using [**DocumentProperty.getValue()**](https://reference.aspose.com/cells/nodejs-cpp/documentproperty/#getValue--). The **DocumentProperty.ToXXX** methods are described in the table below.
 
 {{% alert color="primary" %}}
 
-The [**DocumentProperty**](https://reference.aspose.com/cells/nodejs-cpp/properties/documentproperty) class also provides a set of methods that return the values of other data types.
+The [**DocumentProperty**](https://reference.aspose.com/cells/nodejs-cpp/documentproperty/) class also provides a set of methods that return the values of other data types.
 
 {{% /alert %}}
 
@@ -148,7 +148,7 @@ As we have described earlier at the beginning of this topic, developers can't ad
 
 ### **How to Add Custom Properties**
 
-Aspose.Cells APIs have exposed the [**Add**](https://reference.aspose.com/cells/nodejs-cpp/properties/customdocumentpropertycollection/methods/add/index) method for the [**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/nodejs-cpp/properties/customdocumentpropertycollection) class in order to add custom properties to the collection. The [**Add**](https://reference.aspose.com/cells/nodejs-cpp/properties/customdocumentpropertycollection/methods/add/index) method adds the property to the Excel file and returns a reference for the new document property as an [**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/nodejs-cpp/properties/documentproperty) object.
+Aspose.Cells APIs have exposed the [**add(string, string)**](https://reference.aspose.com/cells/nodejs-cpp/customdocumentpropertycollection/#add-string-string-) method for the [**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/nodejs-cpp/customdocumentpropertycollection/) class in order to add custom properties to the collection. The [**add(string, string)**](https://reference.aspose.com/cells/nodejs-cpp/customdocumentpropertycollection/#add-string-string-) method adds the property to the Excel file and returns a reference for the new document property as an [**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/nodejs-cpp/documentproperty/) object.
 
 ```javascript
 const path = require("path");
@@ -172,7 +172,7 @@ workbook.save(path.join(dataDir, "out_sample-document-properties.xlsx"));
 
 ### **How to Configure “Link to content” Custom Property**
 
-To create a custom property linked to the content of a given range, call the [**CustomDocumentPropertyCollection.AddLinkToContent**](https://reference.aspose.com/cells/nodejs-cpp/properties/customdocumentpropertycollection/methods/addlinktocontent) method and pass property name and source. You can check whether a property is configured as linked to content using the [**DocumentProperty.IsLinkedToContent**](https://reference.aspose.com/cells/nodejs-cpp/properties/documentproperty/properties/islinkedtocontent) property. Moreover, it is also possible to get the source range using the [**Source**](https://reference.aspose.com/cells/nodejs-cpp/properties/documentproperty/properties/source) property of the [**DocumentProperty**](https://reference.aspose.com/cells/nodejs-cpp/properties/documentproperty) class.
+To create a custom property linked to the content of a given range, call the [**CustomDocumentPropertyCollection.addLinkToContent(string, string)**](https://reference.aspose.com/cells/nodejs-cpp/customdocumentpropertycollection/#addLinkToContent-string-string-) method and pass property name and source. You can check whether a property is configured as linked to content using the [**DocumentProperty.isLinkedToContent()**](https://reference.aspose.com/cells/nodejs-cpp/documentproperty/#isLinkedToContent--) property. Moreover, it is also possible to get the source range using the [**getSource()**](https://reference.aspose.com/cells/nodejs-cpp/documentproperty/#getSource--) property of the [**DocumentProperty**](https://reference.aspose.com/cells/nodejs-cpp/documentproperty/) class.
 
 We use a simple template Microsoft Excel file in the example. The workbook has a defined named range labeled **MyRange** which refers to a cell value.
 
@@ -207,7 +207,7 @@ workbook.save(path.join(dataDir, "out_sample-document-properties.xlsx"));
 
 ### **How to Remove Custom Properties**
 
-To remove custom properties using Aspose.Cells, call the [**DocumentPropertyCollection.Remove**](https://reference.aspose.com/cells/nodejs-cpp/properties/documentpropertycollection/methods/remove) method and pass the name of the document property to be removed.
+To remove custom properties using Aspose.Cells, call the [**DocumentPropertyCollection.remove(string)**](https://reference.aspose.com/cells/nodejs-cpp/documentpropertycollection/#remove-string-) method and pass the name of the document property to be removed.
 
 ```javascript
 const path = require("path");

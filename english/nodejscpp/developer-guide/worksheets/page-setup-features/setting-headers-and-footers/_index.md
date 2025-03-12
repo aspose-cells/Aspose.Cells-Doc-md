@@ -40,7 +40,7 @@ Script commands are special commands that allow you to set header and footer for
 
 ### **Set Headers and Footers**
 
-The [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup) class provides two methods, [**setHeader**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/methods/setheader) and [**setFooter**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/methods/setfooter), used to add a header and footer to a worksheet. These methods take only two parameters:
+The [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup) class provides two methods, [**setHeader(number, string)**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#setHeader-number-string-) and [**setFooter(number, string)**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#setFooter-number-string-), used to add a header and footer to a worksheet. These methods take only two parameters:
 
 - **Section** – the section where the header or footer should be placed. There are three sections: left, center and right, represented by 0, 1 and 2 respectively.
 - **Script** – the script to be used for the header or footer. This script contains script commands to format headers or footers.
@@ -85,7 +85,7 @@ excel.save("SetHeadersAndFooters_out.xls");
 
 ### **Insert an Image into a Header or Footer**
 
-The [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup) class has two additional methods, [**setHeaderPicture**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/methods/setheaderpicture) and [**setFooterPicture**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/methods/setfooterpicture), used to add pictures into the header and footer. These methods take the parameters:
+The [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup) class has two additional methods, [**setHeaderPicture(number, number[])**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#setHeaderPicture-number-numberarray-) and [**setFooterPicture(number, number[])**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#setFooterPicture-number-numberarray-), used to add pictures into the header and footer. These methods take the parameters:
 
 - **Section** – the header or footer section where the picture will be placed. There are three sections, left, center and right, represented by the values 0, 1 and 2 respectively.
 - **Byte array** – the graphical data (the binary data should be written into the buffer of a byte array).

@@ -22,7 +22,7 @@ From the **Tools** menu, select **Protection** followed by **Unprotect Sheet**. 
 
 ### **Unprotecting a Simply Protected Worksheet Using Aspose.Cells**
 
-A worksheet can be unprotected by calling the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class' [**unprotect**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/methods/unprotect/index) method. A simply protected worksheet is one which is not protected with a password. Such worksheets can be unprotected by calling the [**unprotect**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/methods/unprotect/index) method without passing a parameter.
+A worksheet can be unprotected by calling the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class' [**unprotect()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#unprotect--) method. A simply protected worksheet is one which is not protected with a password. Such worksheets can be unprotected by calling the [**unprotect()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#unprotect--) method without passing a parameter.
 
 ```javascript
 const path = require("path");
@@ -47,7 +47,7 @@ workbook.save(path.join(dataDir, "output.xls"), AsposeCells.SaveFormat.Excel97To
 
 ### **Unprotecting a Password Protected Worksheet Using Aspose.Cells**
 
-A password protected worksheet is one that is protected with a password. Such worksheets can be unprotected by calling an overloaded version of the [**unprotect**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/unprotect/methods/1) method that takes the password as a parameter.
+A password protected worksheet is one that is protected with a password. Such worksheets can be unprotected by calling an overloaded version of the [**unprotect()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#unprotect--) method that takes the password as a parameter.
 
 ```javascript
 const path = require("path");

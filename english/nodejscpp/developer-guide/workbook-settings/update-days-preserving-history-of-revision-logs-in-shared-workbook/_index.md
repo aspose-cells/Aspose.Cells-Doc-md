@@ -9,7 +9,7 @@ description: Learn how to update the days for preserving revision log history in
 
 ## **Possible Usage Scenarios**
 
-When you share a workbook, you get an option saying ***Keep change history for N days*** as shown in the following screenshot. You can update the number of days for preserving history using Aspose.Cells for Node.js via C++ with [**WorksheetCollection.revisionLogs.daysPreservingHistory**](https://reference.aspose.com/cells/nodejs-cpp/revisionlogcollection/properties/daysPreservingHistory) property.
+When you share a workbook, you get an option saying ***Keep change history for N days*** as shown in the following screenshot. You can update the number of days for preserving history using Aspose.Cells for Node.js via C++ with [**WorksheetCollection.getDaysPreservingHistory()**](https://reference.aspose.com/cells/nodejs-cpp/revisionlogcollection/#getDaysPreservingHistory--) property.
 
 ![todo:image_alt_text](update-days-preserving-history-of-revision-logs-in-shared-workbook_1.png)
 

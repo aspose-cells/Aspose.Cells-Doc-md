@@ -17,8 +17,8 @@ OLE is supported by many different programs and is used to make content created 
 
 Aspose.Cells for Node.js via C++ supports adding, extracting, and manipulating OLE objects in worksheets. For this reason, Aspose.Cells has the [**OleObjectCollection**](https://reference.aspose.com/cells/nodejs-cpp/oleobjectcollection) class, used to add a new OLE Object to the collection. Another class, [**OleObject**](https://reference.aspose.com/cells/nodejs-cpp/oleobject), represents an OLE Object. It has some important members:  
 
-- The [**ImageData**](https://reference.aspose.com/cells/nodejs-cpp/oleobject/properties/imagedata) property specifies the image (icon) data of byte array type. The image will be displayed to show the OLE Object in the worksheet.  
-- The [**ObjectData**](https://reference.aspose.com/cells/nodejs-cpp/oleobject/properties/objectdata) property specifies the object data in the form of a byte array. This data will be shown in its related program when you double-click on the OLE Object icon.  
+- The [**getImageData()**](https://reference.aspose.com/cells/nodejs-cpp/oleobject/#getImageData--) property specifies the image (icon) data of byte array type. The image will be displayed to show the OLE Object in the worksheet.  
+- The [**getObjectData()**](https://reference.aspose.com/cells/nodejs-cpp/oleobject/#getObjectData--) property specifies the object data in the form of a byte array. This data will be shown in its related program when you double-click on the OLE Object icon.  
 
 The following example shows how to add an OLE Object(s) into a worksheet.  
 

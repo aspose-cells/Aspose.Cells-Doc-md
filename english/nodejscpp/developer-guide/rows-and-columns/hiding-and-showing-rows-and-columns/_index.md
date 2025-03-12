@@ -19,7 +19,7 @@ Aspose.Cells for Node.js via C++ provides a class, [**Workbook**](https://refere
 
 ### **Hiding Rows and Columns**
 
-Developers can hide a row or column by calling the [**hideRow**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/hideRow) and [**hideColumn**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/hideColumn) methods of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection respectively. Both methods take the row and column index as a parameter to hide the specific row or column.
+Developers can hide a row or column by calling the [**hideRow(number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#hideRow-number-) and [**hideColumn(number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#hideColumn-number-) methods of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection respectively. Both methods take the row and column index as a parameter to hide the specific row or column.
 
 ```javascript
 const path = require("path");
@@ -57,7 +57,7 @@ It is also possible to hide a row or column by setting the row height or column 
 
 ### **Showing Rows and Columns**
 
-Developers can show any hidden row or column by calling the [**unhideRow**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/unhideRow) and [**unhideColumn**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/unhideColumn) methods of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection respectively. Both methods take two parameters:
+Developers can show any hidden row or column by calling the [**unhideRow(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideRow-number-number-) and [**unhideColumn(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideColumn-number-number-) methods of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection respectively. Both methods take two parameters:
 
 - **Row or column index** - the index of a row or column that is used to show the specific row or column.
 - **Row height or column width** - the row height or column width assigned to the row or column after unhiding.
@@ -97,7 +97,7 @@ While making a hidden column visible, if you need to restore it to previously as
 
 ### **Hiding Multiple Rows and Columns**
 
-Developers can hide multiple rows or columns at once by calling the [**hideRows**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/hideRows) and [**hideColumns**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/hideColumns) methods of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection respectively. Both methods take the starting row or column index and the number of rows or columns that should be hidden as parameters.
+Developers can hide multiple rows or columns at once by calling the [**hideRows(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#hideRows-number-number-) and [**hideColumns(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#hideColumns-number-number-) methods of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection respectively. Both methods take the starting row or column index and the number of rows or columns that should be hidden as parameters.
 
 ```javascript
 const fs = require("fs");
@@ -130,6 +130,6 @@ workbook.save(path.join(dataDir, "outputxls"));
 
 {{% alert color="primary" %}}
 
-It is also possible to use the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) class' [**unhideRows**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/unhideRows) and [**unhideColumns**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/unhideColumns) methods to make multiple rows and columns visible.
+It is also possible to use the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) class' [**unhideRows(number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideRows-number-number-number-) and [**unhideColumns(number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideColumns-number-number-number-) methods to make multiple rows and columns visible.
 
 {{% /alert %}}

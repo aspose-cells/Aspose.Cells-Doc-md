@@ -46,7 +46,7 @@ Aspose.Cells for Node.js via C++ supports all of the advanced protection setting
 
 Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class.
 
-The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides the [**Protection**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/properties/protection) property that is used to apply these advanced protection settings. The [**Protection**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/properties/protection) property is in fact an object of the [**Protection**](https://reference.aspose.com/cells/nodejs-cpp/protection) class that encapsulates several Boolean properties for disabling or enabling restrictions.
+The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides the [**getProtection()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getProtection--) property that is used to apply these advanced protection settings. The [**getProtection()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getProtection--) property is in fact an object of the [**Protection**](https://reference.aspose.com/cells/nodejs-cpp/protection) class that encapsulates several Boolean properties for disabling or enabling restrictions.
 
 Below is a small example application. It opens an Excel file and uses most of the advanced protection settings supported by Excel XP and later versions.
 
@@ -126,7 +126,7 @@ fstream.close();
 
 {{% alert color="primary" %}}
 
-Please don't call the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class' [**Protect**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/methods/protect/index) method when using the [**Protection**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/properties/protection) property. Also, save the file to Excel97To2003 or Xlsx format because the advanced protection settings are only supported by Excel XP and later versions.
+Please don't call the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class' [**protect(ProtectionType)**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#protect-protectiontype-) method when using the [**getProtection()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getProtection--) property. Also, save the file to Excel97To2003 or Xlsx format because the advanced protection settings are only supported by Excel XP and later versions.
 
 {{% /alert %}}
 
@@ -138,7 +138,7 @@ If you want to restrict users from editing cells, the cells must be locked befor
 | :- |
 |![todo:image_alt_text](advanced-protection-settings-since-excel-xp_1.png)|
 
-It is possible to lock cells using the Aspose.Cells API too. Each cell can get [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) formatting that contains a Boolean property, [**IsLocked**](https://reference.aspose.com/cells/nodejs-cpp/style/properties/islocked). Set the [**IsLocked**](https://reference.aspose.com/cells/nodejs-cpp/style/properties/islocked) property to **true** or **false** to lock or unlock the cell.
+It is possible to lock cells using the Aspose.Cells API too. Each cell can get [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) formatting that contains a Boolean property, [**isLocked()**](https://reference.aspose.com/cells/nodejs-cpp/style/#isLocked--). Set the [**isLocked()**](https://reference.aspose.com/cells/nodejs-cpp/style/#isLocked--) property to **true** or **false** to lock or unlock the cell.
 
 ```javascript
 const path = require("path");

@@ -35,7 +35,7 @@ This is the output PNG image after setting the [**ImageOrPrintOptions.DefaultFon
 
 See the output [TIFF](48496672.tiff) image after setting the [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/nodejs-cpp/rendering/imageorprintoptions/defaultfont/) property to "Times New Roman".
 
-See the output [PDF](48496673.pdf) file after setting the [**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/properties/defaultfont) property to "Times New Roman".
+See the output [PDF](48496673.pdf) file after setting the [**PdfSaveOptions.getDefaultFont()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getDefaultFont--) property to "Times New Roman".
 
 ## **Sample Code**
 

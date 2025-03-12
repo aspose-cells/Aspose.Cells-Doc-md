@@ -55,7 +55,7 @@ console.log(e.message);
 
 {{% alert color="primary" %}}
 
-If the spreadsheet contains formulas, it is best to call  [Workbook.calculateFormula](https://reference.aspose.com/cells/nodejs-cpp/workbook/methods/calculateFormula) method just before rendering the spreadsheet to PDF. Doing so ensures that formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If the spreadsheet contains formulas, it is best to call  [Workbook.calculateFormula()](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) method just before rendering the spreadsheet to PDF. Doing so ensures that formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
 

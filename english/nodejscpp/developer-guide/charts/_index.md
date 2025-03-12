@@ -91,7 +91,7 @@ Aspose.Cells provides a special set of classes in the [**Aspose.Cells.Charts**](
 
 As mentioned above, all charting objects are instances of their respective classes and provide specific properties and methods to perform specific tasks. Use charting objects to create charts.
 
-Add any type of chart to a worksheet using the [**Charts**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/properties/charts) collection. Each item in the [**Charts**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/properties/charts) collection represents a [**Chart**](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.charts/chart) object. A [**Chart**](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.charts/chart) object encapsulates all other charting objects required to customize the appearance of the chart. The next section shows how to use a few basic charting objects to create a simple chart.
+Add any type of chart to a worksheet using the [**getCharts()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCharts--) collection. Each item in the [**getCharts()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCharts--) collection represents a [**Chart**](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.charts/chart) object. A [**Chart**](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.charts/chart) object encapsulates all other charting objects required to customize the appearance of the chart. The next section shows how to use a few basic charting objects to create a simple chart.
 
 ### **Create Chart Using Aspose.Cells**
 

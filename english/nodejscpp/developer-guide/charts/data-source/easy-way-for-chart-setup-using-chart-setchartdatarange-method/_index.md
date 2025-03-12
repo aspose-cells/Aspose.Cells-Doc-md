@@ -10,11 +10,11 @@ url: /nodejs-cpp/easy-way-for-chart-setup-using-chart-setchartdatarange-method/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells now provides [**Chart.SetChartDataRange()**](https://reference.aspose.com/cells/nodejs-cpp/chart/methods/setChartDataRange) method to set up chart easily. Using this method, you will now not need to add series and category axis data separately.
+Aspose.Cells now provides [**Chart.setChartDataRange(string, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/chart/#setChartDataRange-string-boolean-) method to set up chart easily. Using this method, you will now not need to add series and category axis data separately.
 
 {{% /alert %}}
 
-The following sample code explains the use [**Chart.SetChartDataRange()**](https://reference.aspose.com/cells/nodejs-cpp/chart/methods/setChartDataRange) method to set up chart easily.
+The following sample code explains the use [**Chart.setChartDataRange(string, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/chart/#setChartDataRange-string-boolean-) method to set up chart easily.
 
 ```javascript
 const path = require("path");

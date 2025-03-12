@@ -14,9 +14,9 @@ Aspose.Cells has an embedded formula calculation engine. Not only can it re-calc
 
 Aspose.Cells supports most of the formulas or functions that are part of Microsoft Excel (Read [a list of the functions supported by the calculation engine](/cells/nodejs-cpp/supported-formula-functions/)). Those functions can be used through the APIs or designer spreadsheets. Aspose.Cells supports a huge set of mathematical, string, boolean, date/time, statistical, database, lookup, and reference formulas.
 
-Use the [**Formula**](https://reference.aspose.com/cells/nodejs-cpp/cell/properties/formula) property or [**setFormula(...)**](https://reference.aspose.com/cells/nodejs-cpp/cell/setFormula/methods/2) methods of the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class to add a formula to a cell. When applying a formula, always begin the string with an equal sign (=) as you do when creating a formula in Microsoft Excel and use a comma (,) to delimit function parameters.
+Use the [**getFormula()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getFormula--) property or [**setFormula(string, object)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#setFormula-string-object-) methods of the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class to add a formula to a cell. When applying a formula, always begin the string with an equal sign (=) as you do when creating a formula in Microsoft Excel and use a comma (,) to delimit function parameters.
 
-To calculate the results of formulas, the user may call the [**calculateFormula**](https://reference.aspose.com/cells/nodejs-cpp/workbook/calculateFormula/methods/1) method of the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class which processes all formulas embedded in an Excel file. Or, the user may call the [**calculateFormula**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/methods/calculateFormula) method of the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class which processes all formulas embedded in a sheet. Or, the user may also call the [**calculate**](https://reference.aspose.com/cells/nodejs-cpp/cell/methods/calculate) method of the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class which processes the formula of one Cell:
+To calculate the results of formulas, the user may call the [**calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) method of the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class which processes all formulas embedded in an Excel file. Or, the user may call the [**calculateFormula(string)**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#calculateFormula-string-) method of the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class which processes all formulas embedded in a sheet. Or, the user may also call the [**calculate(CalculationOptions)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#calculate-calculationoptions-) method of the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class which processes the formula of one Cell:
 
 ```javascript
 const path = require("path");
@@ -71,7 +71,7 @@ Aspose.Cells has an embedded formula calculation engine. As well as calculating 
 
 Sometimes, you need to calculate formula results directly without adding them into a worksheet. The values of the cells used in the formula already exist in a worksheet, and all you need is to find the result of those values based on some Microsoft Excel formula without adding the formula in a worksheet.
 
-You can use Aspose.Cells' formula calculation engine APIs for [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) to [**calculate**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/calculateFormula/methods/3) the results of such formulas without adding them to the worksheet:
+You can use Aspose.Cells' formula calculation engine APIs for [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) to [**calculateFormula(string, FormulaParseOptions, CalculationOptions, number, number, CalculationData)**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#calculateFormula-string-formulaparseoptions-calculationoptions-number-number-calculationdata-) the results of such formulas without adding them to the worksheet:
 
 ```javascript
 const path = require("path");
@@ -112,7 +112,7 @@ Result of Sum(A1:A2): 50.0
 
 ## **How to Calculate Formulas repeatedly**
 
-When there are lots of formulas in the workbook, and the user needs to calculate them repeatedly while modifying only a small part of them, it may be helpful for performance to enable the formula calculation chain: [**formulaSettings.enableCalculationChain**](https://reference.aspose.com/cells/nodejs-cpp/formulaSettings/properties/enableCalculationChain).
+When there are lots of formulas in the workbook, and the user needs to calculate them repeatedly while modifying only a small part of them, it may be helpful for performance to enable the formula calculation chain: [**formulaSettings.getEnableCalculationChain()**](https://reference.aspose.com/cells/nodejs-cpp/formulasettings/#getEnableCalculationChain--).
 
 ```javascript
 const path = require("path");
@@ -146,7 +146,7 @@ workbook.calculateFormula();
 
 {{% alert color="primary" %}}
 
-By default, the calculation chain is disabled. Because creating the chain also needs extra time, the first time of calculating formulas ([**Workbook.calculateFormula(...)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/calculateFormula/methods/1)) may consume more CPU processing time and memory when compared with calculating formulas without a chain. If the user does not need to calculate formulas repeatedly, the default behavior (calculating the formula directly without creating a calculation chain) should be the better way.
+By default, the calculation chain is disabled. Because creating the chain also needs extra time, the first time of calculating formulas ([**Workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--)) may consume more CPU processing time and memory when compared with calculating formulas without a chain. If the user does not need to calculate formulas repeatedly, the default behavior (calculating the formula directly without creating a calculation chain) should be the better way.
 
 {{% /alert %}}
 

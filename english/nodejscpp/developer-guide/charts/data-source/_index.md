@@ -19,7 +19,7 @@ There are two types of data to deal with while working on charts using Aspose.Ce
 
 ### **Chart Data**
 
-Chart data is the data that we use as a data source to build our charts. We can add a range of the cells (containing chart data) by calling the [**SeriesCollection**](https://reference.aspose.com/cells/nodejs-cpp/seriescollection) object's [**add**](https://reference.aspose.com/cells/nodejs-cpp/seriescollection/methods/add) method.
+Chart data is the data that we use as a data source to build our charts. We can add a range of the cells (containing chart data) by calling the [**SeriesCollection**](https://reference.aspose.com/cells/nodejs-cpp/seriescollection) object's [**add(string, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/seriescollection/#add-string-boolean-) method.
 
 ```javascript
 const path = require("path");
@@ -68,7 +68,7 @@ workbook.save(path.join(dataDir, "output.xls"));
 
 ### **Category Data**
 
-Category data is used for the labeling of chart data and can be added to [**SeriesCollection**](https://reference.aspose.com/cells/nodejs-cpp/seriescollection) by using its [**categoryData**](https://reference.aspose.com/cells/nodejs-cpp/seriescollection/properties/categorydata) property. A complete example is given below to demonstrate the use of chart and category data. After executing the above example code, a column chart will be added to the worksheet as shown below.
+Category data is used for the labeling of chart data and can be added to [**SeriesCollection**](https://reference.aspose.com/cells/nodejs-cpp/seriescollection) by using its [**getCategoryData()**](https://reference.aspose.com/cells/nodejs-cpp/seriescollection/#getCategoryData--) property. A complete example is given below to demonstrate the use of chart and category data. After executing the above example code, a column chart will be added to the worksheet as shown below.
 
 ```javascript
 const path = require("path");

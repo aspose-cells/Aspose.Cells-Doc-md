@@ -80,7 +80,7 @@ Aspose.Cells.CellArea(D1:D8)[0,3,7,3]
 
 ## **Get XML path from List Object/Table**
 
-XML data can be imported to worksheets. Sometimes XML path is required from the ListObjects of the worksheet. This feature is available in Excel by using an expression like Sheet1.ListObjects(1).XmlMap.DataBinding. The same feature is available in Aspose.Cells for Node.js via C++ by calling [**ListObject.XmlMap.DataBinding.Url**](https://reference.aspose.com/cells/nodejs-cpp/listobject/properties/xmlmap).  The following example demonstrates this feature. Template file and other source files can be downloaded from the following links:
+XML data can be imported to worksheets. Sometimes XML path is required from the ListObjects of the worksheet. This feature is available in Excel by using an expression like Sheet1.ListObjects(1).XmlMap.DataBinding. The same feature is available in Aspose.Cells for Node.js via C++ by calling [**ListObject.getXmlMap()**](https://reference.aspose.com/cells/nodejs-cpp/listobject/#getXmlMap--).  The following example demonstrates this feature. Template file and other source files can be downloaded from the following links:
 
 1. [XML Data.xlsx](72417285.xlsx)
 1. [Country List.xml](72417287.xml)

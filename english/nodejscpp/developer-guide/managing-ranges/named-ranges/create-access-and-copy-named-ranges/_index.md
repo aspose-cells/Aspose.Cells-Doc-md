@@ -29,16 +29,16 @@ You cannot name a cell while you are changing the contents of the cell.
 ## **Working with Named Range Using Aspose.Cells**  
 
 Here, we use the Aspose.Cells API to do the task.  
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/nodejs-cpp/workbook/properties/worksheets) collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection.  
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**getWorksheets()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getWorksheets--) collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection.  
 
 ### **Create Named Range**  
 
-It is possible to create a named range by calling the overloaded [**createRange**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/createrange/index) method of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection. A typical version of [**createRange**](https://reference.aspose.com/cells/nodejs-cpp/cells/createrange/methods/3) method takes the following parameters:  
+It is possible to create a named range by calling the overloaded [**createRange(string, string)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#createRange-string-string-) method of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection. A typical version of [**createRange(string)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#createRange-string-) method takes the following parameters:  
 
 - Name of the upper left cell, the name of the top left cell in the range.  
 - Name of the lower right cell, the name of the bottom right cell in the range.  
 
-When the [**createRange**](https://reference.aspose.com/cells/nodejs-cpp/cells/createrange/methods/3) method is called, it returns the newly created range as an instance of the [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range) class. Use this [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range) object to configure the named range. For example, set the name of the range using the [**name**](https://reference.aspose.com/cells/nodejs-cpp/range/properties/name) property. The following example shows how to create a named range of cells that extends over B4:G14.  
+When the [**createRange(string)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#createRange-string-) method is called, it returns the newly created range as an instance of the [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range) class. Use this [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range) object to configure the named range. For example, set the name of the range using the [**getName()**](https://reference.aspose.com/cells/nodejs-cpp/range/#getName--) property. The following example shows how to create a named range of cells that extends over B4:G14.  
 
 ```javascript
 const path = require("path");
@@ -162,7 +162,7 @@ console.log("Column Count : " + range.getColumnCount());
 
 #### **Access a Specific Named Range**  
 
-Call the [**worksheets**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection) collection's [**getRangeByName**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/methods/getrangebyname) method to get a range by the specified name. A typical [**getRangeByName**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/methods/getrangebyname) method takes the name of the named range and returns the specified named range as an instance of the [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range) class. The following example shows how to access a specified range by its name.  
+Call the [**worksheets**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection) collection's [**getRangeByName(string)**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/#getRangeByName-string-) method to get a range by the specified name. A typical [**getRangeByName(string)**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/#getRangeByName-string-) method takes the name of the named range and returns the specified named range as an instance of the [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range) class. The following example shows how to access a specified range by its name.  
 
 ```javascript
 const path = require("path");
@@ -183,7 +183,7 @@ if (range !== null) {
 
 #### **Access All the Named Ranges in a Spreadsheet**  
 
-Call the [**worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection) collection's [**getNamedRanges**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/methods/getnamedranges) method to get all named ranges in a spreadsheet. The [**getNamedRanges**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/methods/getnamedranges) method returns an array of all named ranges in the [**worksheets**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection) collection.  
+Call the [**worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection) collection's [**getNamedRanges()**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/#getNamedRanges--) method to get all named ranges in a spreadsheet. The [**getNamedRanges()**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/#getNamedRanges--) method returns an array of all named ranges in the [**worksheets**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection) collection.  
 
 The following example shows how to access all the named ranges in a workbook.  
 
@@ -206,7 +206,7 @@ if (ranges != null) {
 
 ### **Copy Named Ranges**  
 
-Aspose.Cells provides [**range.copy()**](https://reference.aspose.com/cells/nodejs-cpp/range/methods/copy/index) method to copy a range of cells with formatting into another range.  
+Aspose.Cells provides [**range.copy(Range, PasteOptions)**](https://reference.aspose.com/cells/nodejs-cpp/range/#copy-range-pasteoptions-) method to copy a range of cells with formatting into another range.  
 
 The following example shows how to copy a source range of cells to another named range.  
 

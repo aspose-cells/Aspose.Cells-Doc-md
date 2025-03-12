@@ -14,7 +14,7 @@ One of the of Microsoft Excel's compelling features is its ability to process da
 
 ## **How to Use Formulas and Functions**
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/nodejs-cpp/workbook/properties/worksheets) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/properties/cells) collection. Each item in the Cells collection represents an object of the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**getWorksheets()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getWorksheets--) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection. Each item in the Cells collection represents an object of the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class.
 
 It is possible to apply formulas to cells using properties and methods offered by the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class, discussed in more detail below.
 
@@ -29,7 +29,7 @@ Built-in functions or formulas are provided as ready-made functions to reduce de
 
 Aspose.Cells supports most of the formulas or functions offered by Microsoft Excel. Developers can use these formulas through the API or [designer spreadsheet](/cells/nodejs-cpp/what-is-a-designer-spreadsheet/). Aspose.Cells supports a huge set of mathematical, string, Boolean, date/time, statistical, database, lookup and reference formulas.
 
-Use the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class' [**Formula**](https://reference.aspose.com/cells/nodejs-cpp/cell/properties/formula) property to add a formula to a cell. **Complex formulas**, for example
+Use the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class' [**getFormula()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getFormula--) property to add a formula to a cell. **Complex formulas**, for example
 
 {{< highlight java >}}
 
@@ -83,7 +83,7 @@ workbook.save(path.join(dataDir, "output.xls"));
 
 We can have some user defined formulas that we want to include as an excel add-in. When setting the cell.Formula function built-in functions work fine however there is a need to set the custom functions or formulas using the add-in functions.
 
-Aspose.Cells provides features to register add in functions using [**Worksheets.registerAddInFunction()**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/methods/registeraddinfunction/index). Afterwards when we set cell.Formula = anyFunctionFromAddIn, the output Excel file contains the calculated value from the AddIn function.
+Aspose.Cells provides features to register add in functions using [**Worksheets.registerAddInFunction(string, string, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/#registerAddInFunction-string-string-boolean-). Afterwards when we set cell.Formula = anyFunctionFromAddIn, the output Excel file contains the calculated value from the AddIn function.
 
 Following XLAM file shall be downloaded for registering the add in function in the below sample code. Similarly the output file "test_udf.xlsx" can be downloaded to check the output.
 
@@ -127,7 +127,7 @@ Array formulas are formulas that take arrays, instead of individual numbers, as 
 
 Some Microsoft Excel functions return arrays of values. To calculate multiple results with an array formula, enter the array into a range of cells with the same number of rows and columns as the array arguments.
 
-It is possible to apply an array formula to a cell by calling the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class' [**setArrayFormula()**](https://reference.aspose.com/cells/nodejs-cpp/cell/methods/setarrayformula) method. The [**setArrayFormula()**](https://reference.aspose.com/cells/nodejs-cpp/cell/methods/setarrayformula) method takes the following parameters:
+It is possible to apply an array formula to a cell by calling the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class' [**setArrayFormula(string, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#setArrayFormula-string-number-number-) method. The [**setArrayFormula(string, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#setArrayFormula-string-number-number-) method takes the following parameters:
 
 - **Array Formula**, the array formula.
 - **Number of Rows**, the number of rows to populate result of the array formula.
@@ -191,7 +191,7 @@ workbook.save(path.join(dataDir, "output.xls"));
 
 ## **How to Use R1C1 Formula**
 
-Add an **R1C1** reference style formula to a cell with the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class' [**R1C1Formula**](https://reference.aspose.com/cells/nodejs-cpp/cell/properties/r1c1formula) property.
+Add an **R1C1** reference style formula to a cell with the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class' [**getR1C1Formula()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getR1C1Formula--) property.
 
 ```javascript
 const path = require("path");

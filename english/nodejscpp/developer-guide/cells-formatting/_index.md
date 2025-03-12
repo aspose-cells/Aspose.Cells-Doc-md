@@ -12,7 +12,7 @@ url: /nodejs-cpp/cells-formatting/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells provides the [**GetStyle**](https://reference.aspose.com/cells/nodejs-cpp/cell/methods/getstyle) and [**SetStyle**](https://reference.aspose.com/cells/nodejs-cpp/cell/methods/setstyle) methods of the [Cell](https://reference.aspose.com/cells/nodejs-cpp/cell) class, used to get/set the formatting style of a cell. Aspose.Cells also provides a [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) class.
+Aspose.Cells provides the [**getStyle()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getStyle--) and [**setStyle(Style)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#setStyle-style-) methods of the [Cell](https://reference.aspose.com/cells/nodejs-cpp/cell) class, used to get/set the formatting style of a cell. Aspose.Cells also provides a [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) class.
 
 {{% /alert %}}
 
@@ -22,7 +22,7 @@ Apply different kinds of formatting styles on cells to set background or foregro
 
 ### **How to Use the GetStyle and SetStyle Methods**
 
-If developers need to apply different formatting styles to different cells then it's better to get the [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) of the cell using [**Cell.getStyle**](https://reference.aspose.com/cells/nodejs-cpp/cell/methods/getstyle) method, specify the style attributes and then apply the formatting using [**Cell.setStyle**](https://reference.aspose.com/cells/nodejs-cpp/cell/methods/setstyle) method. An example is given below to demonstrate this approach to apply various formatting on a cell.
+If developers need to apply different formatting styles to different cells then it's better to get the [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) of the cell using [**Cell.getStyle()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getStyle--) method, specify the style attributes and then apply the formatting using [**Cell.setStyle(Style)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#setStyle-style-) method. An example is given below to demonstrate this approach to apply various formatting on a cell.
 
 ```javascript
 const path = require("path");
@@ -78,7 +78,7 @@ workbook.save(path.join(dataDir, "book1.out.xls"));
 
 If developers need to apply the same formatting style to different cells then they can use [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object. Please follow the steps below to use the [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object:
 
-1. Add a [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object by calling the [**CreateStyle**](https://reference.aspose.com/cells/nodejs-cpp/workbook/methods/createstyle) method of the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class
+1. Add a [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object by calling the [**createStyle()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#createStyle--) method of the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class
 2. Access the newly added [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object
 3. Set the desired properties/attributes of the [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object to apply desired formatting settings
 4. Assign the configured [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object to your desired cells
@@ -178,14 +178,14 @@ Aspose.Cells supports this feature too. This topic explains how to use this feat
 
 ### **How to Format Selected Characters**
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains the [**Worksheets**](https://reference.aspose.com/cells/nodejs-cpp/workbook/properties/worksheets) collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/properties/cells) collection. Each item in the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/properties/cells) collection represents an object of the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains the [**getWorksheets()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getWorksheets--) collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection. Each item in the [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection represents an object of the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class.
 
-The [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class provides the [**Characters**](https://reference.aspose.com/cells/nodejs-cpp/cell/methods/characters) method that takes the following parameters to select a range of characters inside a cell:
+The [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class provides the [**characters(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#characters-number-number-) method that takes the following parameters to select a range of characters inside a cell:
 
 - **Start Index**, the index of the character that the selection starts from.
 - **Number of Characters**, the number of characters to select.
 
-The [**Characters**](https://reference.aspose.com/cells/nodejs-cpp/cell/methods/characters) method returns an instance of the [**FontSetting**](https://reference.aspose.com/cells/nodejs-cpp/fontsetting) class that allows developers to format the characters in the same way as they would a cell as shown below in the code example. In the output file, in the A1 cell, the word 'Visit' will be formatted with the default font but 'Aspose!' is bold and blue.
+The [**characters(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#characters-number-number-) method returns an instance of the [**FontSetting**](https://reference.aspose.com/cells/nodejs-cpp/fontsetting) class that allows developers to format the characters in the same way as they would a cell as shown below in the code example. In the output file, in the A1 cell, the word 'Visit' will be formatted with the default font but 'Aspose!' is bold and blue.
 
 ```javascript
 const path = require("path");
@@ -219,7 +219,7 @@ workbook.save(path.join(dataDir, "book1.out.xls"));
 
 {{% alert color="primary" %}}
 
-If you are interested in formatting a portion of Rich Text in a cell, consider using the [**Cell.getCharacters**](https://reference.aspose.com/cells/nodejs-cpp/cell/methods/getcharacters) & [**Cell.setCharacters**](https://reference.aspose.com/cells/nodejs-cpp/cell/methods/setcharacters) methods. The [**Cell.getCharacters**](https://reference.aspose.com/cells/nodejs-cpp/cell/methods/getcharacters) method is to be used to access the portions of the text and then amendments can be done using the [**Cell.setCharacters**](https://reference.aspose.com/cells/nodejs-cpp/cell/methods/setcharacters) method whereas the **Get** method returns an array of [**FontSetting**](https://reference.aspose.com/cells/nodejs-cpp/fontsetting) objects which can be manipulated to set various properties such as font name, font color, boldness, etc. and **Set** method can be used to apply the changes.
+If you are interested in formatting a portion of Rich Text in a cell, consider using the [**Cell.getCharacters()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getCharacters--) & [**Cell.setCharacters(FontSetting[])**](https://reference.aspose.com/cells/nodejs-cpp/cell/#setCharacters-fontsettingarray-) methods. The [**Cell.getCharacters()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getCharacters--) method is to be used to access the portions of the text and then amendments can be done using the [**Cell.setCharacters(FontSetting[])**](https://reference.aspose.com/cells/nodejs-cpp/cell/#setCharacters-fontsettingarray-) method whereas the **Get** method returns an array of [**FontSetting**](https://reference.aspose.com/cells/nodejs-cpp/fontsetting) objects which can be manipulated to set various properties such as font name, font color, boldness, etc. and **Set** method can be used to apply the changes.
 
 {{% /alert %}}
 
@@ -230,13 +230,13 @@ To address this issue, Aspose.Cells provides a simple, fast way discussed in det
 
 ### **Formatting Rows & Columns**
 
-Aspose.Cells provides a class, the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/nodejs-cpp/workbook/properties/worksheets) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/properties/cells) collection. The [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/properties/cells) collection provides a [**Rows**](https://reference.aspose.com/cells/nodejs-cpp/cells/properties/rows) collection.
+Aspose.Cells provides a class, the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**getWorksheets()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getWorksheets--) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection. The [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection provides a [**getRows()**](https://reference.aspose.com/cells/nodejs-cpp/cells/#getRows--) collection.
 
 ### **How to Format a Row**
 
-Each item in the [**Rows**](https://reference.aspose.com/cells/nodejs-cpp/cells/properties/rows) collection represents a [**Row**](https://reference.aspose.com/cells/nodejs-cpp/row) object. The [**Row**](https://reference.aspose.com/cells/nodejs-cpp/row) object offers the [**ApplyStyle**](https://reference.aspose.com/cells/nodejs-cpp/row/methods/applystyle) method used to set the row's formatting. To apply the same formatting to a row, use the [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object. The steps below show how to use it.
+Each item in the [**getRows()**](https://reference.aspose.com/cells/nodejs-cpp/cells/#getRows--) collection represents a [**Row**](https://reference.aspose.com/cells/nodejs-cpp/row) object. The [**Row**](https://reference.aspose.com/cells/nodejs-cpp/row) object offers the [**applyStyle(Style, StyleFlag)**](https://reference.aspose.com/cells/nodejs-cpp/row/#applyStyle-style-styleflag-) method used to set the row's formatting. To apply the same formatting to a row, use the [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object. The steps below show how to use it.
 
-1. Add a [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object to the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class by calling its [**CreateStyle**](https://reference.aspose.com/cells/nodejs-cpp/workbook/methods/createstyle) method.
+1. Add a [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object to the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class by calling its [**createStyle()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#createStyle--) method.
 2. Set the [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object's properties to apply formatting settings.
 3. Make the relevant attributes ON for the [**StyleFlag**](https://reference.aspose.com/cells/nodejs-cpp/styleflag) object.
 4. Assign the configured [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object to the [**Row**](https://reference.aspose.com/cells/nodejs-cpp/row) object.
@@ -295,7 +295,7 @@ workbook.save(path.join(dataDir, "book1.out.xls"));
 
 ### **How to Format a Column**
 
-The [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/properties/cells) collection also provides a [**Columns**](https://reference.aspose.com/cells/nodejs-cpp/cells/properties/columns) collection. Each item in the [**Columns**](https://reference.aspose.com/cells/nodejs-cpp/cells/properties/columns) collection represents a [**Column**](https://reference.aspose.com/cells/nodejs-cpp/column) object. Similar to a [**Row**](https://reference.aspose.com/cells/nodejs-cpp/row) object, the [**Column**](https://reference.aspose.com/cells/nodejs-cpp/column) object also offers the [**ApplyStyle**](https://reference.aspose.com/cells/nodejs-cpp/row/methods/applystyle) method for formatting a column.
+The [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection also provides a [**getColumns()**](https://reference.aspose.com/cells/nodejs-cpp/cells/#getColumns--) collection. Each item in the [**getColumns()**](https://reference.aspose.com/cells/nodejs-cpp/cells/#getColumns--) collection represents a [**Column**](https://reference.aspose.com/cells/nodejs-cpp/column) object. Similar to a [**Row**](https://reference.aspose.com/cells/nodejs-cpp/row) object, the [**Column**](https://reference.aspose.com/cells/nodejs-cpp/column) object also offers the [**applyStyle(Style, StyleFlag)**](https://reference.aspose.com/cells/nodejs-cpp/row/#applyStyle-style-styleflag-) method for formatting a column.
 
 ```javascript
 const path = require("path");

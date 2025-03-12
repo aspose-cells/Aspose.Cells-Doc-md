@@ -10,7 +10,7 @@ keywords: Aspose.Cells Node.js via C++, Update slicer Node.js, how to change the
 
 ## **Possible Usage Scenarios**
 
-If you want to update a slicer in Microsoft Excel, select or unselect its items, and it will then update the slicer table or pivot table accordingly. Please use [**Slicer.SlicerCache.slicerCacheItems**](https://reference.aspose.com/cells/nodejs-cpp/slicercache/properties/slicercacheitems) to select or unselect slicer items with Aspose.Cells and then call [**Slicer.refresh()**](https://reference.aspose.com/cells/nodejs-cpp/slicer/methods/refresh) method to update the slicer table or pivot table.
+If you want to update a slicer in Microsoft Excel, select or unselect its items, and it will then update the slicer table or pivot table accordingly. Please use [**Slicer.getSlicerCacheItems()**](https://reference.aspose.com/cells/nodejs-cpp/slicercache/#getSlicerCacheItems--) to select or unselect slicer items with Aspose.Cells and then call [**Slicer.refresh()**](https://reference.aspose.com/cells/nodejs-cpp/slicer/#refresh--) method to update the slicer table or pivot table.
 
 ## **How to Update Slicer**
 

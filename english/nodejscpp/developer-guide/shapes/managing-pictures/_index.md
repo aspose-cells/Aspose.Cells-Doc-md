@@ -58,7 +58,7 @@ There are two possible ways to control the positioning of pictures using Aspose.
 
 ### **Proportional Positioning**
 
-Developers can position the pictures proportional to row height and column width using the [**UpperDeltaX**](https://reference.aspose.com/cells/nodejs-cpp/shape/properties/upperDeltaX) and [**UpperDeltaY**](https://reference.aspose.com/cells/nodejs-cpp/shape/properties/upperDeltaY) properties of the [**Aspose.Cells.Drawing.Picture**](https://reference.aspose.com/cells/nodejs-cpp/drawing/picture) object. A [**Picture**](https://reference.aspose.com/cells/nodejs-cpp/drawing/picture) object can be obtained from the [**Pictures**](https://reference.aspose.com/cells/nodejs-cpp/picturecollection) collection by passing its picture index. This example places an image in the F6 cell.
+Developers can position the pictures proportional to row height and column width using the [**getUpperDeltaX()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getUpperDeltaX--) and [**getUpperDeltaY()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getUpperDeltaY--) properties of the [**Aspose.Cells.Drawing.Picture**](https://reference.aspose.com/cells/nodejs-cpp/drawing/picture) object. A [**Picture**](https://reference.aspose.com/cells/nodejs-cpp/drawing/picture) object can be obtained from the [**Pictures**](https://reference.aspose.com/cells/nodejs-cpp/picturecollection) collection by passing its picture index. This example places an image in the F6 cell.
 
 ```javascript
 const path = require("path");
@@ -98,7 +98,7 @@ workbook.save(path.join(dataDir, "book1.out.xls"));
 
 ### **Absolute Positioning**
 
-Developers can also position the pictures absolutely by using the [**Left**](https://reference.aspose.com/cells/nodejs-cpp/shape/properties/left) and [**Top**](https://reference.aspose.com/cells/nodejs-cpp/shape/properties/top) properties of the [**Picture**](https://reference.aspose.com/cells/nodejs-cpp/drawing/picture) object. This example places an image in cell F6, 60 pixels from the left and 10 pixels from the top of the cell.
+Developers can also position the pictures absolutely by using the [**getLeft()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getLeft--) and [**getTop()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getTop--) properties of the [**Picture**](https://reference.aspose.com/cells/nodejs-cpp/drawing/picture) object. This example places an image in cell F6, 60 pixels from the left and 10 pixels from the top of the cell.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");

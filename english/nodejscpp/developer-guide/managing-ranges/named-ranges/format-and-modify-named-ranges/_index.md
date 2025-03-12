@@ -72,7 +72,7 @@ workbook.save(path.join(dataDir, "rangestyles.out.xls"));
 
 ### **Adding Borders to a Named Range**
 
-It is possible to add borders to a range of cells instead of just a single cell. The [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range) object provides a [**SetOutlineBorder**](https://reference.aspose.com/cells/nodejs-cpp/range/methods/setoutlineborder) method that takes the following parameters to add a border to the range of cells:
+It is possible to add borders to a range of cells instead of just a single cell. The [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range) object provides a [**setOutlineBorder(BorderType, CellBorderType, CellsColor)**](https://reference.aspose.com/cells/nodejs-cpp/range/#setOutlineBorder-bordertype-cellbordertype-cellscolor-) method that takes the following parameters to add a border to the range of cells:
 
 - Border type, the type of border, selected from the [**BorderType**](https://reference.aspose.com/cells/nodejs-cpp/bordertype) enumeration.
 - Line style, the line style, selected from the [**CellBorderType**](https://reference.aspose.com/cells/nodejs-cpp/cellbordertype) enumeration.
@@ -184,7 +184,7 @@ workbook.save(path.join(dataDir, "output.xls"));
 
 ## **Rename a Named Range**
 
-Aspose.Cells allows you to rename a named range for your needs. You may get the named range and rename it by using [**Name.Text**](https://reference.aspose.com/cells/nodejs-cpp/name/properties/text) attribute. The following example shows how to rename a named range.
+Aspose.Cells allows you to rename a named range for your needs. You may get the named range and rename it by using [**Name.getText()**](https://reference.aspose.com/cells/nodejs-cpp/name/#getText--) attribute. The following example shows how to rename a named range.
 
 ```javascript
 const path = require("path");
@@ -272,7 +272,7 @@ workbook.save(path.join(dataDir, "rngUnion.out.xls"));
 
 ## **Intersection of Ranges**
 
-Aspose.Cells provides the [**Range.Intersect**](https://reference.aspose.com/cells/nodejs-cpp/range/methods/intersect) method to intersect two ranges. The method returns a [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range) object. To check whether a range intersects another range, use the [**Range.Intersect**](https://reference.aspose.com/cells/nodejs-cpp/range/methods/intersect) method that returns a Boolean value. The following example shows how to intersect the ranges.
+Aspose.Cells provides the [**Range.intersect(Range)**](https://reference.aspose.com/cells/nodejs-cpp/range/#intersect-range-) method to intersect two ranges. The method returns a [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range) object. To check whether a range intersects another range, use the [**Range.intersect(Range)**](https://reference.aspose.com/cells/nodejs-cpp/range/#intersect-range-) method that returns a Boolean value. The following example shows how to intersect the ranges.
 
 ```javascript
 const path = require("path");
@@ -323,7 +323,7 @@ workbook.save(path.join(dataDir, "rngIntersection.out.xls"));
 
 ## **Merge Cells in the Named Range**
 
-Aspose.Cells provides the [**Range.Merge()**](https://reference.aspose.com/cells/nodejs-cpp/range/methods/merge) method to merge the cells in the range. The following example shows how to merge the individual cells of a named range.
+Aspose.Cells provides the [**Range.merge()**](https://reference.aspose.com/cells/nodejs-cpp/range/#merge--) method to merge the cells in the range. The following example shows how to merge the individual cells of a named range.
 
 ```javascript
 const path = require("path");
@@ -378,7 +378,7 @@ wb1.save(path.join(dataDir, "mergingrange.out.xls"));
 
 ## **Remove a Named Range**
 
-Aspose.Cells provides the [**NameCollection.RemoveAt()**](https://reference.aspose.com/cells/nodejs-cpp/namecollection/methods/removeat) method to erase the name of the range. To clear the contents of the range, use [**Cells.ClearRange()**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/clearrange/index) method. The following example shows how to remove a named range with its contents.
+Aspose.Cells provides the [**NameCollection.removeAt(number)**](https://reference.aspose.com/cells/nodejs-cpp/namecollection/#removeAt-number-) method to erase the name of the range. To clear the contents of the range, use [**Cells.clearRange(CellArea)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#clearRange-cellarea-) method. The following example shows how to remove a named range with its contents.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");

@@ -15,13 +15,13 @@ Aspose.Cells APIs have exposed the [**GlobalizationSettings**](https://reference
 
 The [**GlobalizationSettings**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings) class currently offers the following 3 methods which can be overridden in a custom class to get desired labels for the Subtotals or to render custom text for the **Other** label of a Pie chart.
 
-1. [**GlobalizationSettings.getTotalName**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings/methods/getTotalName): Gets the total name of the function.
-1. [**GlobalizationSettings.getGrandTotalName**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings/methods/getGrandTotalName): Gets the grand total name of the function.
+1. [**GlobalizationSettings.getTotalName(ConsolidationFunction)**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings/#getTotalName-consolidationfunction-): Gets the total name of the function.
+1. [**GlobalizationSettings.getGrandTotalName(ConsolidationFunction)**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings/#getGrandTotalName-consolidationfunction-): Gets the grand total name of the function.
 1. [**GlobalizationSettings.getOtherName**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings/methods/getOtherName): Gets the name of "Other" labels for Pie charts.
 
 ### **Custom Labels for Subtotals**
 
-The [**GlobalizationSettings**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings) class can be used to customize the Subtotal labels by overriding the [**GlobalizationSettings.getTotalName**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings/methods/getTotalName) & [**GlobalizationSettings.getGrandTotalName**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings/methods/getGrandTotalName) methods as demonstrated ahead.
+The [**GlobalizationSettings**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings) class can be used to customize the Subtotal labels by overriding the [**GlobalizationSettings.getTotalName(ConsolidationFunction)**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings/#getTotalName-consolidationfunction-) & [**GlobalizationSettings.getGrandTotalName(ConsolidationFunction)**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings/#getGrandTotalName-consolidationfunction-) methods as demonstrated ahead.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
@@ -57,7 +57,7 @@ class CustomSettings extends AsposeCells.GlobalizationSettings {
 }
 ```
 
-In order to inject custom labels, it is required to assign the [**WorkbookSettings.GlobalizationSettings**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/properties/globalizationsettings) property to an instance of the **CustomSettings** class defined above before adding the Subtotals to the worksheet.
+In order to inject custom labels, it is required to assign the [**WorkbookSettings.getGlobalizationSettings()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getGlobalizationSettings--) property to an instance of the **CustomSettings** class defined above before adding the Subtotals to the worksheet.
 
 ```javascript
 const path = require("path");

@@ -13,7 +13,7 @@ You can save Excel workbooks to HTML. However, if the workbook contains hidden w
 
 {{% /alert %}}
 
-Aspose.Cells for Node.js via C++ provides the [**HtmlSaveOptions.exportHiddenWorksheet**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/properties/exporthiddenworksheet) property. By default, it is set to **true** and hidden worksheets are exported to HTML. If you set it **false**, Aspose.Cells will not export hidden worksheet contents.
+Aspose.Cells for Node.js via C++ provides the [**HtmlSaveOptions.getExportHiddenWorksheet()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getExportHiddenWorksheet--) property. By default, it is set to **true** and hidden worksheets are exported to HTML. If you set it **false**, Aspose.Cells will not export hidden worksheet contents.
 
 ```javascript
 const path = require("path");

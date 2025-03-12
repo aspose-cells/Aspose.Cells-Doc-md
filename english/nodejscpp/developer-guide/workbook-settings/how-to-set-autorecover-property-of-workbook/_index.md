@@ -10,10 +10,10 @@ description: Learn how to set the AutoRecover property of a workbook using Aspos
 {{% alert color="primary" %}}  
 You can use Aspose.Cells to set the AutoRecover property of the workbook. The default value of this property is **true**. When you set it **false** on a workbook, Microsoft Excel disables AutoRecover (Autosave) on that Excel file.  
 
-Aspose.Cells provides [**Workbook.settings.autoRecover**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/properties/autoRecover) property to enable or disable this option.  
+Aspose.Cells provides [**Workbook.getAutoRecover()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getAutoRecover--) property to enable or disable this option.  
 {{% /alert %}}  
 
-The following code explains how to use [**Workbook.settings.autoRecover**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/properties/autoRecover) property of the workbook. The code first reads the default value of this property which is **true**, then it sets it as **false** and saves the workbook. Then it reads the workbook again and reads the value of this property which is **false** at this time.  
+The following code explains how to use [**Workbook.getAutoRecover()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getAutoRecover--) property of the workbook. The code first reads the default value of this property which is **true**, then it sets it as **false** and saves the workbook. Then it reads the workbook again and reads the value of this property which is **false** at this time.  
 
 ## Node.js code to set the AutoRecover property of Workbook  
 

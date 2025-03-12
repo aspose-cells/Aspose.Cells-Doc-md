@@ -25,7 +25,7 @@ The [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection 
 
 ### **Grouping Rows and Columns**
 
-It is possible to group rows or columns by calling the [**groupRows**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/grouprows/#grouprows-number-number-boolean-) and [**groupColumns**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/groupcolumns/#groupcolumns-number-number-boolean-) methods of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection. Both methods take the following parameters:
+It is possible to group rows or columns by calling the [**groupRows(number, number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#groupRows-number-number-boolean-) and [**groupColumns(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#groupColumns-number-number-) methods of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection. Both methods take the following parameters:
 
 - First row/column index, the first row or column in the group.
 - Last row/column index, the last row or column in the group.
@@ -66,11 +66,11 @@ Microsoft Excel allows you to configure group settings for displaying:
 - Summary rows below detail.
 - Summary columns to the right of detail.
 
-Developers can configure these group settings using the [**outline**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/properties/outline) property of the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class.
+Developers can configure these group settings using the [**getOutline()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getOutline--) property of the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class.
 
 ### **Summary Rows to Below of Detail**
 
-It is possible to control whether summary rows are displayed below detail by setting the [**Outline**](https://reference.aspose.com/cells/nodejs-cpp/outline) class' [**summaryRowBelow**](https://reference.aspose.com/cells/nodejs-cpp/outline/properties/summaryrowbelow) property to **true** or **false**.
+It is possible to control whether summary rows are displayed below detail by setting the [**Outline**](https://reference.aspose.com/cells/nodejs-cpp/outline) class' [**getSummaryRowBelow()**](https://reference.aspose.com/cells/nodejs-cpp/outline/#getSummaryRowBelow--) property to **true** or **false**.
 
 ```javascript
 const path = require("path");
@@ -96,7 +96,7 @@ workbook.save(path.join(dataDir, "output.xls"));
 
 ### **Summary Columns to Right of Detail**
 
-Developers can also control displaying summary columns to the right of detail by setting the [**summaryColumnRight**](https://reference.aspose.com/cells/nodejs-cpp/outline/properties/summarycolumnright) property of [**Outline**](https://reference.aspose.com/cells/nodejs-cpp/outline) class to **true** or **false**.
+Developers can also control displaying summary columns to the right of detail by setting the [**getSummaryColumnRight()**](https://reference.aspose.com/cells/nodejs-cpp/outline/#getSummaryColumnRight--) property of [**Outline**](https://reference.aspose.com/cells/nodejs-cpp/outline) class to **true** or **false**.
 
 ```javascript
 const path = require("path");
@@ -121,12 +121,12 @@ workbook.save(path.join(dataDir, "output.xls"));
 
 ## **Ungrouping Rows and Columns**
 
-To ungroup any grouped rows or columns, call the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection's [**ungroupRows**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/ungrouprows/#ungrouprows-number-number-) and [**ungroupColumns**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/ungroupcolumns/#ungroupcolumns-number-number-) methods. Both methods take two parameters:
+To ungroup any grouped rows or columns, call the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection's [**ungroupRows(number, number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#ungroupRows-number-number-boolean-) and [**ungroupColumns(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#ungroupColumns-number-number-) methods. Both methods take two parameters:
 
 - First row or column index, the first row/column to be ungrouped.
 - Last row or column index, the last row/column to be ungrouped.
 
-[**ungroupRows**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/ungrouprows/#ungrouprows-number-number-) has an overload that takes a Boolean third parameter. Setting it to **true** removes all grouped information. Otherwise, only the outer group information is removed.
+[**ungroupRows(number, number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#ungroupRows-number-number-boolean-) has an overload that takes a Boolean third parameter. Setting it to **true** removes all grouped information. Otherwise, only the outer group information is removed.
 
 ```javascript
 const path = require("path");

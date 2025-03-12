@@ -9,13 +9,13 @@ description: Learn how to check if a VBA project in a workbook is signed using A
 
 {{% alert color="primary" %}}
 
-You can check if your VBA project is signed or not using Microsoft Excel via **Tools > Digital Signatures...** menu command. Similarly, you can check it programmatically using Aspose.Cells [**Workbook.VbaProject.isSigned**](https://reference.aspose.com/cells/nodejs-cpp/workbook/vbaproject/#isSigned) property.
+You can check if your VBA project is signed or not using Microsoft Excel via **Tools > Digital Signatures...** menu command. Similarly, you can check it programmatically using Aspose.Cells [**Workbook.getVbaProject()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getVbaProject--) property.
 
 {{% /alert %}}
 
 ## **Check if VBA project in a Workbook is Signed in Node.js**
 
-The following code loads the workbook and checks if its VBA project is signed using [**Workbook.VbaProject.isSigned**](https://reference.aspose.com/cells/nodejs-cpp/workbook/vbaproject/#isSigned) property. The property will return **true** if the project is signed otherwise it will return **false**.
+The following code loads the workbook and checks if its VBA project is signed using [**Workbook.getVbaProject()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getVbaProject--) property. The property will return **true** if the project is signed otherwise it will return **false**.
 
 ```javascript
 const path = require("path");

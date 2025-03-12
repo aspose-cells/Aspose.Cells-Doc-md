@@ -33,7 +33,7 @@ The [**horizontalPageBreaks**](https://reference.aspose.com/cells/nodejs-cpp/wor
 
 ### **Adding Page Breaks**
 
-To add a page break in a worksheet, insert vertical and horizontal page breaks at the specified cell by calling the [**HorizontalPageBreakCollection.add()**](https://reference.aspose.com/cells/nodejs-cpp/horizontalpagebreakcollection/methods/add) and [**VerticalPageBreakCollection.add()**](https://reference.aspose.com/cells/nodejs-cpp/verticalpagebreakcollection/methods/add) methods. Each **add** method takes the name of the cell where the break should be added.
+To add a page break in a worksheet, insert vertical and horizontal page breaks at the specified cell by calling the [**HorizontalPageBreakCollection.add(number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/horizontalpagebreakcollection/#add-number-number-number-) and [**VerticalPageBreakCollection.add(number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/verticalpagebreakcollection/#add-number-number-number-) methods. Each **add** method takes the name of the cell where the break should be added.
 
 ```javascript
 const path = require("path");
@@ -83,7 +83,7 @@ workbook.save(path.join(dataDir, "ClearAllPageBreaks_out.xls"));
 
 ### **Removing Specific Page Break**
 
-To remove a specific page break, call the [**HorizontalPageBreakCollection.removeAt()**](https://reference.aspose.com/cells/nodejs-cpp/horizontalpagebreakcollection/methods/removeAt) and [**VerticalPageBreakCollection.removeAt()**](https://reference.aspose.com/cells/nodejs-cpp/verticalpagebreakcollection/methods/removeAt) methods. Each **removeAt** method takes the index of the page break about to be removed.
+To remove a specific page break, call the [**HorizontalPageBreakCollection.removeAt(number)**](https://reference.aspose.com/cells/nodejs-cpp/horizontalpagebreakcollection/#removeAt-number-) and [**VerticalPageBreakCollection.removeAt(number)**](https://reference.aspose.com/cells/nodejs-cpp/verticalpagebreakcollection/#removeAt-number-) methods. Each **removeAt** method takes the index of the page break about to be removed.
 
 ```javascript
 const path = require("path");

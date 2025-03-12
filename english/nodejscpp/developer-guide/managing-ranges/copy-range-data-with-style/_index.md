@@ -13,7 +13,7 @@ description: Learn how to copy a range of cells with formatting using Aspose.Cel
 
 {{% /alert %}}  
 
-Aspose.Cells provides a range of classes and methods for working with ranges, for example, [**CreateRange()**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/createRange/#createrange-object-int-int-int-int-), [**StyleFlag**](https://reference.aspose.com/cells/nodejs-cpp/styleflag/) and [**ApplyStyle()**](https://reference.aspose.com/cells/nodejs-cpp/cells/methods/applyStyle/#applystyle-style-range-styleflag-).  
+Aspose.Cells provides a range of classes and methods for working with ranges, for example, [**createRange(string, string)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#createRange-string-string-), [**StyleFlag**](https://reference.aspose.com/cells/nodejs-cpp/styleflag/) and [**applyStyle(Style, StyleFlag)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#applyStyle-style-styleflag-).  
 
 This example:  
 

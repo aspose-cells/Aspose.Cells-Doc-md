@@ -128,7 +128,7 @@ If you want to clear the spilled data, you can delete the formula from the origi
 By following these steps, you can set up dynamic array formulas in Excel to efficiently analyze and manipulate arrays of data, allowing for easier data analysis and reporting tasks.
 
 ## **How to Set and Refresh Dynamic Array Formulas Using Aspose.Cells**  
-Please see the following sample code that loads the [sample Excel file](dynamicArrayFormula.xlsx) which contains some dummy data. After loading the file, call the [Cell.SetDynamicArrayFormula](https://reference.aspose.com/cells/nodejs-cpp/cell/setdynamicarrayformula/#setdynamicarrayformula) function to set dynamic array formula and [Workbook.refreshDynamicArrayFormulas](https://reference.aspose.com/cells/nodejs-cpp/workbook/refreshdynamicarrayformulas/#refreshdynamicarrayformulas) function to refresh dynamic array formulas before calling formula calculation, and finally, save the workbook as [output Excel file](out.xlsx).  
+Please see the following sample code that loads the [sample Excel file](dynamicArrayFormula.xlsx) which contains some dummy data. After loading the file, call the [Cell.setDynamicArrayFormula(string, FormulaParseOptions, boolean)](https://reference.aspose.com/cells/nodejs-cpp/cell/#setDynamicArrayFormula-string-formulaparseoptions-boolean-) function to set dynamic array formula and [Workbook.refreshDynamicArrayFormulas(boolean)](https://reference.aspose.com/cells/nodejs-cpp/workbook/#refreshDynamicArrayFormulas-boolean-) function to refresh dynamic array formulas before calling formula calculation, and finally, save the workbook as [output Excel file](out.xlsx).  
 
 ```javascript
 const path = require("path");
