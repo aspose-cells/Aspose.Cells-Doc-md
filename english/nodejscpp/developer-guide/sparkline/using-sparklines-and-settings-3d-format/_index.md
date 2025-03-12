@@ -20,7 +20,7 @@ To insert sparklines in Microsoft Excel 2010:
 
 Sparklines help you to see trends, for example, the win or loss record for a softball league. Sparklines can even sum up the entire season of each team in the league.
 ### **Sparklines using Aspose.Cells for Node.js via C++**
-Developers can create, delete or read sparklines (in the template file) using the API provided by Aspose.Cells for Node.js via C++. The classes that manage sparklines are contained in the [Aspose.Cells.Charts](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.charts) module, so you need to require this module before using these features.
+Developers can create, delete or read sparklines (in the template file) using the API provided by Aspose.Cells for Node.js via C++. The classes that manage sparklines are contained in the [SparklineGroupCollection](https://reference.aspose.com/cells/nodejs-cpp/sparklinegroupcollection/) module, so you need to require this module before using these features.
 
 By adding custom graphics for a given data range, developers have the freedom to add different types of tiny charts to selected cell areas.
 

@@ -64,7 +64,7 @@ Before creating charts, it's important to understand some basic concepts that ar
 
 #### **Charting Objects**
 
-Aspose.Cells provides a special set of classes in the [**Aspose.Cells.Charts**](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.charts) module used to create the charts supported by Aspose.Cells. These classes are used to create **charting objects**, which act as the chart building blocks. The charting objects are listed below:
+The charting objects are listed below:
 
 - Series, a single data series in a chart.
 - Axis, a chart's axis.
@@ -97,12 +97,12 @@ Add any type of chart to a worksheet using the [**getCharts()**](https://referen
 
 **Steps:**
 
-1. Add some data to worksheet cells with the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell/) object's [**putValue**](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.cell/methods/putvalue/index) method.
+1. Add some data to worksheet cells with the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell/) object's [**putValue(string)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#putValue-string-) method.
    This will be used as the data source for the chart.
-1. Add a chart to the worksheet by calling the [**Charts**](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.charts/chartcollection) collection's [**add**](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.charts/chartcollection/methods/add) method, encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/) object.
+1. Add a chart to the worksheet by calling the [**ChartCollection**](https://reference.aspose.com/cells/nodejs-cpp/chartcollection) collection's [**add**](https://reference.aspose.com/cells/nodejs-cpp/chartcollection/#add-charttype-number-number-number-number-) method, encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/) object.
 1. Specify the type of chart with the [**ChartType**](https://reference.aspose.com/cells/nodejs-cpp/charttype/) enumeration.
-   For example, the example below uses the [**ChartType.Pyramid**](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.charts/charttype) value as the chart type.
-1. Access the new [**Chart**](https://reference.aspose.com/cells/nodejs-cpp/chart/) object from the [**Charts**](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.charts/chartcollection) collection by passing its index.
+   For example, the example below uses the [**ChartType.Pyramid**](https://reference.aspose.com/cells/nodejs-cpp/charttype) value as the chart type.
+1. Access the new [**Chart**](https://reference.aspose.com/cells/nodejs-cpp/chart/) object from the [**Charts**](https://reference.aspose.com/cells/nodejs-cpp/chartcollection) collection by passing its index.
 1. Use any of the charting objects encapsulated in the [**Chart**](https://reference.aspose.com/cells/nodejs-cpp/chart/) object to manage the chart.
    The example below uses the [**SeriesCollection**](https://reference.aspose.com/cells/nodejs-cpp/seriescollection/) charting object to specify the chart's data source.
 
@@ -275,7 +275,7 @@ workbook.save(path.join(dataDir, "output.xls"));
 
 #### **Bubble Chart**
 
-In order to create a bubble chart, the [**ChartType**](https://reference.aspose.com/cells/nodejs-cpp/charttype/) has to be set to [**ChartType.Bubble**](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.charts/charttype) and a few extra properties such as BubbleSizes, Values & XValues need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet.
+In order to create a bubble chart, the [**ChartType**](https://reference.aspose.com/cells/nodejs-cpp/charttype/) has to be set to [**ChartType.Bubble**](https://reference.aspose.com/cells/nodejs-cpp/charttype) and a few extra properties such as BubbleSizes, Values & XValues need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet.
 
 #### **Line with Data Marker Chart**
 

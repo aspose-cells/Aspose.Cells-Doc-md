@@ -59,28 +59,6 @@ In page break preview or print preview modes, you can see how these page breaks 
 
 {{% /alert %}}
 
-### **Clearing All Page Breaks**
-
-To clear all page breaks in a worksheet, call the [**HorizontalPageBreakCollection**](https://reference.aspose.com/cells/nodejs-cpp/horizontalpagebreakcollection) and [**VerticalPageBreakCollection**](https://reference.aspose.com/cells/nodejs-cpp/verticalpagebreakcollection) collections' [**clear()**](https://reference.aspose.com/cells/nodejs-cpp/horizontalpagebreakcollection/methods/clear) methods.
-
-```javascript
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
-
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-
-// Instantiating a Workbook object
-const workbook = new AsposeCells.Workbook();
-
-// Clearing all page breaks
-workbook.getWorksheets().get(0).getHorizontalPageBreaks().clear();
-workbook.getWorksheets().get(0).getVerticalPageBreaks().clear();
-
-// Save the Excel file.
-workbook.save(path.join(dataDir, "ClearAllPageBreaks_out.xls"));
-```
-
 ### **Removing Specific Page Break**
 
 To remove a specific page break, call the [**HorizontalPageBreakCollection.removeAt(number)**](https://reference.aspose.com/cells/nodejs-cpp/horizontalpagebreakcollection/#removeAt-number-) and [**VerticalPageBreakCollection.removeAt(number)**](https://reference.aspose.com/cells/nodejs-cpp/verticalpagebreakcollection/#removeAt-number-) methods. Each **removeAt** method takes the index of the page break about to be removed.

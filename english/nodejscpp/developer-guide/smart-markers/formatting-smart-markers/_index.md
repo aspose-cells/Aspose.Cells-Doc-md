@@ -48,41 +48,4 @@ designer.process();
 workbook.save(path.join(dataDir, "output.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```  
 
-## **Adding Custom Labels**  
-### **Introduction**  
-While working with Smart Markers' grouping data feature, sometimes you need to add your own custom labels to the summary row. You also want to concatenate the Column's name with that Label, e.g "Sub Total of Orders". Aspose.Cells provides you Label and LabelPosition attributes, so you may place your custom labels in the Smart Markers while concatenating with the Subtotal rows in grouping data.  
-
-### **Adding custom Labels to concatenate with the Subtotal rows in Smart Markers**  
-This example uses a [data file](96927971.xlsx) and a [template file](96927972.xlsx) with a few markers in the cells. When executing the code, Aspose.Cells adds some custom labels to the summary rows for the grouped data.  
-
-```javascript
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
-
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-const workbook = new AsposeCells.Workbook(path.join(dataDir, "Book1.xlsx"));
-const designer = new AsposeCells.Workbook(path.join(dataDir, "SmartMarker_Designer.xlsx"));
-
-// Export data from the first worksheet to fill a data table
-const dt = workbook.getWorksheets().get(0).getCells().exportDataTable(0, 0, 11, 5, true);
-
-// Set the table name
-dt.setTableName("Report");
-
-// Instantiate a new WorkbookDesigner
-const d = new AsposeCells.WorkbookDesigner();
-
-// Specify the workbook to the designer book
-d.setWorkbook(designer);
-
-// Set the data source
-d.setDataSource(dt);
-
-// Process the smart markers
-d.process();
-
-// Save the Excel file
-designer.save(path.join(dataDir, "output.xlsx"), AsposeCells.SaveFormat.Xlsx);
-```  
   

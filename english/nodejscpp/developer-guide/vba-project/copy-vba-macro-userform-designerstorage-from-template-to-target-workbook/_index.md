@@ -12,7 +12,7 @@ description: Learn how to copy a VBA project, including Designer Storage, from o
 Aspose.Cells allows you to copy a VBA project from one Excel file into another Excel file. A VBA project consists of various types of modules i.e. Document, Procedural, Designer, etc. All modules can be copied with simple code, but for the Designer module, there is some extra data called Designer Storage that needs to be accessed or copied. The following two methods deal with Designer Storage.  
 
 - [**VbaModuleCollection.getDesignerStorage(string)**](https://reference.aspose.com/cells/nodejs-cpp/vbamodulecollection/#getDesignerStorage-string-)  
-- [**VbaModuleCollection.addDesignerStorage()**](https://reference.aspose.com/cells/nodejs-cpp/vbamodulecollection/methods/adddesignerstorage)  
+- [**VbaModuleCollection.addDesignerStorage(string, number[])**](https://reference.aspose.com/cells/nodejs-cpp/vbamodulecollection/#addDesignerStorage-string-numberarray-)  
 
 ## **Copy VBA Macro UserForm DesignerStorage from Template to Target Workbook**  
 

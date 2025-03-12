@@ -9,7 +9,7 @@ description: Learn how to filter VBA projects while loading Excel workbooks usin
 
 ## **Filter VBA Project while loading an Excel workbook in Node.js via C++**
 
-Some .xlsm/.xslb files have an extremely large amount of macros (or very, very long macros). Aspose.Cells for Node.js via C++ will unconditionally load this (meta) data when opening such workbooks. You may require to control this though [**LoadDataFilterOptions**](https://reference.aspose.com/cells/nodejs-cpp/loaddatafilteroptions) when you really only need to extract sheet names for a large number of workbooks, thus skipping over such unneeded content. This filter is provided by introducing a new option, [**LoadDataFilterOptions.VBA**](https://reference.aspose.com/cells/nodejs-cpp/loaddatafilteroptions/vba).
+Some .xlsm/.xslb files have an extremely large amount of macros (or very, very long macros). Aspose.Cells for Node.js via C++ will unconditionally load this (meta) data when opening such workbooks. You may require to control this though [**LoadDataFilterOptions**](https://reference.aspose.com/cells/nodejs-cpp/loaddatafilteroptions) when you really only need to extract sheet names for a large number of workbooks, thus skipping over such unneeded content. This filter is provided by introducing a new option, [**LoadDataFilterOptions.VBA**](https://reference.aspose.com/cells/nodejs-cpp/loaddatafilteroptions).
 
 ## **Sample Code**
 

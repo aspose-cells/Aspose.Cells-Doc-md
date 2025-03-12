@@ -214,7 +214,7 @@ workbook.save(path.join(dataDir, "RenamingRange.out.xlsx"));
 
 ## **Union of Ranges**
 
-Aspose.Cells provides [**Range.Union**](https://reference.aspose.com/cells/nodejs-cpp/range/methods/union) method to take the union for ranges; the method returns an [*Array*](https://docs.microsoft.com/en-gb/javascript/api/array?view=js-2023) object. The following example shows how to take union for ranges.
+Aspose.Cells provides [**Range.unionRang(Range)**](https://reference.aspose.com/cells/nodejs-cpp/range/#unionRang-range-) method to take the union for ranges; the method returns an [*Array*] object. The following example shows how to take union for ranges.
 
 ```javascript
 const path = require("path");

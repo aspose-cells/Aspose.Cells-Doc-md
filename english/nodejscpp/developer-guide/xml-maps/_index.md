@@ -57,5 +57,4 @@ workbook.save(path.join(dataDir, "output_out.xlsx"));
 - [Export XML Data linked to XML Map inside the Workbook](/cells/nodejs-cpp/export-xml-data-linked-to-xml-map-inside-the-workbook/)
 - [Find the Root Element Name of XML Map](/cells/nodejs-cpp/find-the-root-element-name-of-xml-map/)
 - [Link Cells to XML Map Elements](/cells/nodejs-cpp/link-cells-to-xml-map-elements/)
-- [Query Cell Areas Mapped to XML Map Path using Worksheet.xmlMapQuery() method](/cells/nodejs-cpp/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 
