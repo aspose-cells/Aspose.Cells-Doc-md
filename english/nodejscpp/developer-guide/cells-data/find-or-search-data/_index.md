@@ -21,7 +21,7 @@ Here, we are looking for the value "Oranges". Aspose.Cells also allows developer
 
 ### **Using Aspose.Cells for Node.js via C++**  
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#worksheets) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection that represents all cells in the worksheet. The [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection provides several methods for finding cells in a worksheet containing user-specified data. A few of these methods are discussed below in more detail.  
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Workbook.getWorksheets()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getWorksheets--) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection that represents all cells in the worksheet. The [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection provides several methods for finding cells in a worksheet containing user-specified data. A few of these methods are discussed below in more detail.  
 
 {{% alert color="primary" %}}  
 All Find methods return the references of the cells containing the specified data to search.  
@@ -42,7 +42,7 @@ The examples below use worksheet data for practicing find methods:
 
 ## **Finding Data or Formulas using FindOptions**  
 
-It is possible to find specified values using the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection's [**find**](https://reference.aspose.com/cells/nodejs-cpp/cells/#find-object-object-findoptions-) method with various [**FindOptions**](https://reference.aspose.com/cells/nodejs-cpp/findoptions). Typically, the [**find**](https://reference.aspose.com/cells/nodejs-cpp/cells/#find-object-cell-findoptions-) method accepts the following parameters:  
+It is possible to find specified values using the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection's [**Cells.find(object, Cell)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#find-object-cell-) method with various [**FindOptions**](https://reference.aspose.com/cells/nodejs-cpp/findoptions). Typically, the [**find**](https://reference.aspose.com/cells/nodejs-cpp/cells/#find-object-cell-findoptions-) method accepts the following parameters:  
 
 - **Search value**, the data or value to be searched for.  
 - **Previous cell**, the last cell that contained the same value. This parameter can be set to null when searching from the start.  

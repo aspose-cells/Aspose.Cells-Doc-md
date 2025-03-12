@@ -14,9 +14,9 @@ When creating a new worksheet or working with an existing worksheet, you might n
 
 {{% /alert %}}  
 
-Aspose.Cells for Node.js via C++ offers two methods for inserting and deleting rows: [**Cells.insertRows**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertRows-number-number) and [**Cells.deleteRows**](https://reference.aspose.com/cells/nodejs-cpp/cells/#deleteRows-number-number). These methods are optimized for performance and do the job very quickly.  
+Aspose.Cells for Node.js via C++ offers two methods for inserting and deleting rows: [**Cells.insertRows(number, number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertRows-number-number-boolean-) and [**Cells.deleteRows(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#deleteRows-number-number-). These methods are optimized for performance and do the job very quickly.  
 
-To insert or remove a number of rows, we recommend that you always use the [**Cells.insertRows**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertRows-number-number) and [**Cells.deleteRows**](https://reference.aspose.com/cells/nodejs-cpp/cells/#deleteRows-number-number) methods instead of using the [**Cells.insertRow**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertRow-number) or [**deleteRow**](https://reference.aspose.com/cells/nodejs-cpp/cells/#deleteRow-number) methods in a loop.  
+To insert or remove a number of rows, we recommend that you always use the [**Cells.insertRows(number, number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertRows-number-number-boolean-) and [**Cells.deleteRows(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#deleteRows-number-number-) methods instead of using the [**Cells.insertRow(number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertRow-number-) or [**Cells.deleteRow(number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#deleteRow-number-) methods in a loop.  
 
 Aspose.Cells works in the same way as Microsoft Excel does. When rows or columns are added, the worksheet content is shifted down and to the right. When rows or columns are removed, the worksheet content is shifted up or to the left. Any references in other worksheets and cells are updated when rows are added or removed.  
 

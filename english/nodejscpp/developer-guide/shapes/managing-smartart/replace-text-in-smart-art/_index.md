@@ -9,7 +9,7 @@ description: Learn how to replace text in smart art using Aspose.Cells for Node.
   
 ## **Possible Usage Scenarios**  
   
-Smart art is one of the major objects in a workbook. Many times there is a need to update the text in smart art. Aspose.Cells for Node.js via C++ provides this feature by setting the [**Shape.text**](https://reference.aspose.com/cells/nodejs-cpp/shape/#text-string-) property.  
+Smart art is one of the major objects in a workbook. Many times there is a need to update the text in smart art. Aspose.Cells for Node.js via C++ provides this feature by setting the [**Shape.getText()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getText--) property.  
   
 The sample source file can be downloaded from the following link:  
   

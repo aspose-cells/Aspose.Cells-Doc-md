@@ -8,10 +8,10 @@ description: Learn how to check if a workbook contains hidden external links usi
 ---  
 
 ## **Possible Usage Scenarios**  
-Sometimes, the workbook contains external links which are hidden and cannot be viewed in Microsoft Excel. Aspose.Cells retrieves all the external links whether they are visible or hidden. However, you can check the [ExternalLink.isVisible](https://reference.aspose.com/cells/nodejs-cpp/externallink/#isVisible) property to check if the external link is visible or not.
+Sometimes, the workbook contains external links which are hidden and cannot be viewed in Microsoft Excel. Aspose.Cells retrieves all the external links whether they are visible or hidden. However, you can check the [ExternalLink.isVisible()](https://reference.aspose.com/cells/nodejs-cpp/externallink/#isVisible--) property to check if the external link is visible or not.
 
 ## **Check if Workbook contains hidden External Links**  
-The following sample code loads the [source excel file](5115413.xlsx) which contains hidden external links. These links cannot be viewed in Microsoft Excel but they are present inside the workbook. After printing [ExternalLink.dataSource](https://reference.aspose.com/cells/nodejs-cpp/externallink/#dataSource) and [ExternalLink.isReferred](https://reference.aspose.com/cells/nodejs-cpp/externallink/#isReferred) property, it prints the [ExternalLink.isVisible](https://reference.aspose.com/cells/nodejs-cpp/externallink/#isVisible) property. In the console output below, you see all of its external links are not visible.
+The following sample code loads the [source excel file](5115413.xlsx) which contains hidden external links. These links cannot be viewed in Microsoft Excel but they are present inside the workbook. After printing [ExternalLink.getDataSource()](https://reference.aspose.com/cells/nodejs-cpp/externallink/#getDataSource--) and [ExternalLink.isReferred()](https://reference.aspose.com/cells/nodejs-cpp/externallink/#isReferred--) property, it prints the [ExternalLink.isVisible()](https://reference.aspose.com/cells/nodejs-cpp/externallink/#isVisible--) property. In the console output below, you see all of its external links are not visible.
 
 ### **Sample Code**  
 ```javascript

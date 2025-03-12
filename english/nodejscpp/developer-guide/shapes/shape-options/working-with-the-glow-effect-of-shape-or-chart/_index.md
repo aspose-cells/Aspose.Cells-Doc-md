@@ -8,14 +8,14 @@ description: Learn how to work with the glow effect of shapes or charts in Node.
 ---  
 
 ## **Possible Usage Scenarios**  
-Aspose.Cells provides the [Shape.Glow](https://reference.aspose.com/cells/nodejs-cpp/shape/#glow) property along with [GlowEffect](https://reference.aspose.com/cells/nodejs-cpp/gloweffect/) class to work with the glow effect of shape or chart. The [GlowEffect](https://reference.aspose.com/cells/nodejs-cpp/gloweffect/) class contains the following properties which can be set to achieve different results as per application requirements.  
+Aspose.Cells provides the [Shape.getGlow()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getGlow--) property along with [GlowEffect](https://reference.aspose.com/cells/nodejs-cpp/gloweffect/) class to work with the glow effect of shape or chart. The [GlowEffect](https://reference.aspose.com/cells/nodejs-cpp/gloweffect/) class contains the following properties which can be set to achieve different results as per application requirements.  
 
-- [GlowEffect.size](https://reference.aspose.com/cells/nodejs-cpp/gloweffect/#size)  
-- [GlowEffect.transparency](https://reference.aspose.com/cells/nodejs-cpp/gloweffect/#transparency)  
-- [GlowEffect.color](https://reference.aspose.com/cells/nodejs-cpp/gloweffect/#color)  
+- [GlowEffect.getSize()](https://reference.aspose.com/cells/nodejs-cpp/gloweffect/#getSize--)  
+- [GlowEffect.getTransparency()](https://reference.aspose.com/cells/nodejs-cpp/gloweffect/#getTransparency--)  
+- [GlowEffect.getColor()](https://reference.aspose.com/cells/nodejs-cpp/gloweffect/#getColor--)  
 
 ## **Working with the Glow Effect of Shape or Chart**  
-The following sample code loads the [source excel file](5115407.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of [Shape.Glow](https://reference.aspose.com/cells/nodejs-cpp/shape/#glow) property and then saves the workbook in [output excel file](5115414.xlsx).  
+The following sample code loads the [source excel file](5115407.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of [Shape.getGlow()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getGlow--) property and then saves the workbook in [output excel file](5115414.xlsx).  
 
 ```javascript
 const path = require("path");

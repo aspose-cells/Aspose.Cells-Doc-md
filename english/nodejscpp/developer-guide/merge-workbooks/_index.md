@@ -15,7 +15,7 @@ Sometimes, you need to combine workbooks with various content like images, chart
 
 ## **Combining Workbooks with Images and Charts**
 
-The example code combines two workbooks into a single workbook using Aspose.Cells for Node.js via C++. The code loads the source workbooks, uses the [**Workbook.combine()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#combine-void-) method to combine them, and saves the output workbook.
+The example code combines two workbooks into a single workbook using Aspose.Cells for Node.js via C++. The code loads the source workbooks, uses the [**Workbook.combine(Workbook)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#combine-workbook-) method to combine them, and saves the output workbook.
 
 ### **Source Workbooks**
 

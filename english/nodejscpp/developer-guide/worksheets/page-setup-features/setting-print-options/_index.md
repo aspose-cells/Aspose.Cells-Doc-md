@@ -33,7 +33,7 @@ Aspose.Cells for Node.js via C++ supports all the print options offered by Micro
 
 By default, the print area incorporates all areas of the worksheet that contain data. Developers can establish a specific print area of the worksheet.
 
-To select a specific print area, use the [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup) class' [**PrintArea**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#printArea) property. Assign a cell range that defines the print area to this property.
+To select a specific print area, use the [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup) class' [**PageSetup.getPrintArea()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getPrintArea--) property. Assign a cell range that defines the print area to this property.
 
 ```javascript
 const path = require("path");
@@ -57,7 +57,7 @@ workbook.save(path.join(dataDir, "SetPrintArea_out.xls"));
 
 ### **Set Print Titles**
 
-Aspose.Cells allows you to designate row and column headers to repeat on all pages of a printed worksheet. To do so, use the [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup) class' [**PrintTitleColumns**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#printTitleColumns) and [**PrintTitleRows**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#printTitleRows) properties.
+Aspose.Cells allows you to designate row and column headers to repeat on all pages of a printed worksheet. To do so, use the [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup) class' [**PageSetup.getPrintTitleColumns()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getPrintTitleColumns--) and [**PageSetup.getPrintTitleRows()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getPrintTitleRows--) properties.
 
 The rows or columns that will be repeated are defined by passing their row or column numbers. For example, rows are defined as $1:$2 and columns are defined as $A:$B.
 
@@ -88,14 +88,14 @@ workbook.save(path.join(dataDir, "SetPrintTitle_out.xls"));
 
 The [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup) class also provides several other properties to set general print options as follows:
 
-- [**PrintGridlines**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#printGridlines): a Boolean property that defines whether to print gridlines or not print.
-- [**PrintHeadings**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#printHeadings): a Boolean property that defines whether to print row and column headings or not.
-- [**BlackAndWhite**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#blackAndWhite): a Boolean property that defines whether to print the worksheet in black and white mode or not.
-- [**PrintComments**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#printComments): defines whether to display the print comments on the worksheet or at the end of the worksheet.
-- [**PrintDraft**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#printDraft): a boolean property that defines whether to print the sheet without graphics.
-- [**PrintErrors**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#printErrors): defines whether to print cell errors as displayed, blank, dash or N/A.
+- [**PageSetup.getPrintGridlines()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getPrintGridlines--): a Boolean property that defines whether to print gridlines or not print.
+- [**PageSetup.getPrintHeadings()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getPrintHeadings--): a Boolean property that defines whether to print row and column headings or not.
+- [**PageSetup.getBlackAndWhite()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getBlackAndWhite--): a Boolean property that defines whether to print the worksheet in black and white mode or not.
+- [**PageSetup.getPrintComments()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getPrintComments--): defines whether to display the print comments on the worksheet or at the end of the worksheet.
+- [**PageSetup.getPrintDraft()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getPrintDraft--): a boolean property that defines whether to print the sheet without graphics.
+- [**PageSetup.getPrintErrors()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getPrintErrors--): defines whether to print cell errors as displayed, blank, dash or N/A.
 
-To set the [**PrintComments**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#printComments) and [**PrintErrors**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#printErrors) properties, Aspose.Cells for Node.js via C++ also provides two enumerations, [**PrintCommentsType**](https://reference.aspose.com/cells/nodejs-cpp/printcommentstype) and [**PrintErrorsType**](https://reference.aspose.com/cells/nodejs-cpp/printerrorstype) that contain pre-defined values to be assigned to the [**PrintComments**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#printComments) and [**PrintErrors**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#printErrors) properties respectively.
+To set the [**PageSetup.getPrintComments()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getPrintComments--) and [**PageSetup.getPrintErrors()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getPrintErrors--) properties, Aspose.Cells for Node.js via C++ also provides two enumerations, [**PrintCommentsType**](https://reference.aspose.com/cells/nodejs-cpp/printcommentstype) and [**PrintErrorsType**](https://reference.aspose.com/cells/nodejs-cpp/printerrorstype) that contain pre-defined values to be assigned to the [**PageSetup.getPrintComments()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getPrintComments--) and [**PageSetup.getPrintErrors()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getPrintErrors--) properties respectively.
 
 The pre-defined values in the [**PrintCommentsType**](https://reference.aspose.com/cells/nodejs-cpp/printcommentstype) enumeration are listed below with their descriptions.
 
@@ -151,7 +151,7 @@ workbook.save(path.join(dataDir, "OtherPrintOptions_out.xls"));
 
 ### **Set Page Order**
 
-The [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup) class provides the [**Order**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#order) property that is used to order multiple pages of your worksheet to be printed. There are two possibilities to order the pages as follows.
+The [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup) class provides the [**PageSetup.getOrder()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getOrder--) property that is used to order multiple pages of your worksheet to be printed. There are two possibilities to order the pages as follows.
 
 - **Down then over:** prints all the pages down before printing any pages to the right.
 - **Over then down:** prints pages left to right before printing the pages below.

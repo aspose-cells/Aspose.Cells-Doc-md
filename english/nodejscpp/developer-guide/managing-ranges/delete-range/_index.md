@@ -15,7 +15,7 @@ In Excel, you can select a range, then delete it and shift other data left or up
 
 ## **Delete Ranges Using Aspose.Cells for Node.js via C++**  
 
-Aspose.Cells provides [Cells.deleteRange](https://reference.aspose.com/cells/nodejs-cpp/cells/#deleteRange-number-number-cellsdeleteoptions-) method to delete a range.  
+Aspose.Cells provides [Cells.deleteRange(number, number, number, number, ShiftType)](https://reference.aspose.com/cells/nodejs-cpp/cells/#deleteRange-number-number-number-number-shifttype-) method to delete a range.  
 
 ## **Delete Ranges And Shift Cells Left**  
 

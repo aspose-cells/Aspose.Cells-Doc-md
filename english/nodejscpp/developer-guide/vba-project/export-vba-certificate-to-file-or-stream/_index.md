@@ -9,7 +9,7 @@ description: Learn how to export VBA Digital Certificate to a file or stream usi
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to export VBA Digital Certificate to stream such as file or memory stream. You can access the raw data of the VBA digital certificate using the [**Workbook.vbaProject.certRawData**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/#certrawdata) property.
+Aspose.Cells allows you to export VBA Digital Certificate to stream such as file or memory stream. You can access the raw data of the VBA digital certificate using the [**VbaProject.getCertRawData()**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/#getCertRawData--) property.
 
 {{% /alert %}}
 

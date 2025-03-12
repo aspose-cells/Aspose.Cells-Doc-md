@@ -8,18 +8,18 @@ description: Learn how to work with the shadow effect of shapes or charts using 
 ---  
 
 ## **Possible Usage Scenarios**  
-Aspose.Cells for Node.js via C++ provides the [Shape.shadowEffect](https://reference.aspose.com/cells/nodejs-cpp/shape/#shadowEffect) property along with the [ShadowEffect](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect) class to work with the shadow effect of shape or chart. The [ShadowEffect](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect) class contains the following properties which can be set to achieve different results as per application requirements.  
+Aspose.Cells for Node.js via C++ provides the [Shape.getShadowEffect()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getShadowEffect--) property along with the [ShadowEffect](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect) class to work with the shadow effect of shape or chart. The [ShadowEffect](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect) class contains the following properties which can be set to achieve different results as per application requirements.  
 
-- [angle](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect/#angle)  
-- [blur](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect/#blur)  
-- [color](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect/#color)  
-- [distance](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect/#distance)  
-- [presetType](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect/#presetType)  
-- [size](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect/#size)  
-- [transparency](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect/#transparency)  
+- [ShadowEffect.getAngle()](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect/#getAngle--)  
+- [ShadowEffect.getBlur()](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect/#getBlur--)  
+- [ShadowEffect.getColor()](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect/#getColor--)  
+- [ShadowEffect.getDistance()](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect/#getDistance--)  
+- [ShadowEffect.getPresetType()](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect/#getPresetType--)  
+- [ShadowEffect.getSize()](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect/#getSize--)  
+- [ShadowEffect.getTransparency()](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect/#getTransparency--)  
 
 ## **Working with the Shadow Effect of Shape or Chart**  
-The following sample code loads the [source excel file](5115425.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of the [Shape.shadowEffect](https://reference.aspose.com/cells/nodejs-cpp/shape/#shadowEffect) property and then saves the workbook in the [output excel file](5115411.xlsx).  
+The following sample code loads the [source excel file](5115425.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of the [Shape.getShadowEffect()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getShadowEffect--) property and then saves the workbook in the [output excel file](5115411.xlsx).  
 
 ```javascript
 const path = require("path");

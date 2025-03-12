@@ -14,7 +14,7 @@ A waterfall chart is a special type of chart that is normally used to demonstrat
 
 {{% /alert %}} 
 
-Aspose.Cells APIs allow creating a waterfall chart with the help of the line chart. The API also allows customizing the chart appearance to give it the shape of the waterfall by setting the [**Series.UpBars**](https://reference.aspose.com/cells/nodejs-cpp/series/#upBars-boolean-) & [**Series.DownBars**](https://reference.aspose.com/cells/nodejs-cpp/series/#downBars-boolean-) properties.
+Aspose.Cells APIs allow creating a waterfall chart with the help of the line chart. The API also allows customizing the chart appearance to give it the shape of the waterfall by setting the [**Series.getUpBars()**](https://reference.aspose.com/cells/nodejs-cpp/series/#getUpBars--) & [**Series.getDownBars()**](https://reference.aspose.com/cells/nodejs-cpp/series/#getDownBars--) properties.
 
 Below provided code snippet demonstrates the usage of Aspose.Cells for Node.js via C++ to create a waterfall chart from scratch.
 

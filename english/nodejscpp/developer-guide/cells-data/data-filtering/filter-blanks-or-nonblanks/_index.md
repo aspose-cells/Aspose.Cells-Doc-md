@@ -49,7 +49,7 @@ Please see the following sample code that loads the [sample Excel file](sample.x
 
 ## **How to Filter Non-Blanks using Aspose.Cells for Node.js via C++**
 
-Please see the following sample code that loads the [sample Excel file](sample.xlsx) which contains some dummy data. After loading the file, call the [AutoFilter.matchNonBlanks(int fieldIndex)](https://reference.aspose.com/cells/nodejs-cpp/autofilter/#matchNonBlanks-int-) function to filter non-blank data, and finally save the workbook as [output Excel file](FilteredNonBlanks.xlsx). 
+Please see the following sample code that loads the [sample Excel file](sample.xlsx) which contains some dummy data. After loading the file, call the [AutoFilter.matchNonBlanks(number)](https://reference.aspose.com/cells/nodejs-cpp/autofilter/#matchNonBlanks-number-) function to filter non-blank data, and finally save the workbook as [output Excel file](FilteredNonBlanks.xlsx). 
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-FilterNonBlanks.js" >}}
 

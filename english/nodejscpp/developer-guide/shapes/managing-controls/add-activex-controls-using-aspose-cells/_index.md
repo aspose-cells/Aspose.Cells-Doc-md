@@ -9,7 +9,7 @@ description: Learn how to add ActiveX controls in a worksheet using Aspose.Cells
 
 {{% alert color="primary" %}}
 
-You can add ActiveX controls with Aspose.Cells using the [**ShapeCollection.addActiveXControl()**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addActiveXControl-controlType-number-number) method. This method takes a parameter [**ControlType**](https://reference.aspose.com/cells/nodejs-cpp/activexcontrols/#ControlType) which tells what type of ActiveX control needs to be added inside a worksheet. It has the following values.
+You can add ActiveX controls with Aspose.Cells using the [**ShapeCollection.addActiveXControl(ControlType, number, number, number, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addActiveXControl-controltype-number-number-number-number-number-number-) method. This method takes a parameter [**ControlType**](https://reference.aspose.com/cells/nodejs-cpp/controltype/) which tells what type of ActiveX control needs to be added inside a worksheet. It has the following values.
 
 - ControlType.CheckBox
 - ControlType.ComboBox
@@ -24,7 +24,7 @@ You can add ActiveX controls with Aspose.Cells using the [**ShapeCollection.addA
 - ControlType.ToggleButton
 - ControlType.Unknown
 
-Once you have added the ActiveX control inside the shape collection, you can then access the ActiveX control object via [**Shape.activeXControl**](https://reference.aspose.com/cells/nodejs-cpp/shape/#activeXControl) property and then set its various properties.
+Once you have added the ActiveX control inside the shape collection, you can then access the ActiveX control object via [**Shape.getActiveXControl()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getActiveXControl--) property and then set its various properties.
 
 {{% /alert %}}
 

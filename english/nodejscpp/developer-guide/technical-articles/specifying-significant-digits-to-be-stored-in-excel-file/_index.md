@@ -9,11 +9,11 @@ description: Learn how to specify significant digits to be stored in an Excel fi
 
 ## **Possible Usage Scenarios**  
 
-By default, Aspose.Cells for Node.js via C++ stores 17 significant digits of double values inside the Excel file, unlike MS-Excel which stores only 15 significant digits. You can change the default behavior of Aspose.Cells from 17 significant digits to 15 significant digits using the [**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/nodejs-cpp/cellshelper/#significantDigits) property.  
+By default, Aspose.Cells for Node.js via C++ stores 17 significant digits of double values inside the Excel file, unlike MS-Excel which stores only 15 significant digits. You can change the default behavior of Aspose.Cells from 17 significant digits to 15 significant digits using the [**CellsHelper.getSignificantDigits()**](https://reference.aspose.com/cells/nodejs-cpp/cellshelper/#getSignificantDigits--) property.  
 
 ## **Specifying Significant Digits to be stored in Excel file**  
 
-The following sample code enforces Aspose.Cells to use 15 significant digits while storing double values inside the Excel file. Please check the [output excel file](22774105.xlsx). Change its extension to .zip and unzip it and you will see, only 15 significant digits are stored inside the Excel file. The following screenshot explains the effect of [**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/nodejs-cpp/cellshelper/#significantDigits) property on the output Excel file.  
+The following sample code enforces Aspose.Cells to use 15 significant digits while storing double values inside the Excel file. Please check the [output excel file](22774105.xlsx). Change its extension to .zip and unzip it and you will see, only 15 significant digits are stored inside the Excel file. The following screenshot explains the effect of [**CellsHelper.getSignificantDigits()**](https://reference.aspose.com/cells/nodejs-cpp/cellshelper/#getSignificantDigits--) property on the output Excel file.  
 
 ![todo:image_alt_text](specifying-significant-digits-to-be-stored-in-excel-file_1.png)  
 

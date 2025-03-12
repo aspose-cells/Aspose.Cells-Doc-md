@@ -148,7 +148,7 @@ workbook.save(path.join(outputDir, "outFile.pdf"), pdfSaveOpt);
 
 #### **Export Custom properties to PDF**
 
-With the [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions) class, you can export the custom properties in the source workbook to the PDF. [**PdfCustomPropertiesExport**](https://reference.aspose.com/cells/nodejs-cpp/rendering/pdfcustompropertiesexport) enumerator is provided for specifying the way by which properties are exported. These properties can be observed in Adobe Acrobat Reader by clicking on File and then properties option as shown in the following image. Template file "sourceWithCustProps.xlsx"  can be downloaded [here](sourceWithCustProps.xlsx) for testing and output PDF file "outSourceWithCustProps" is available [here](outSourceWithCustProps.pdf) for analysis.
+With the [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions) class, you can export the custom properties in the source workbook to the PDF. [**PdfCustomPropertiesExport**](https://reference.aspose.com/cells/nodejs-cpp/pdfcustompropertiesexport/) enumerator is provided for specifying the way by which properties are exported. These properties can be observed in Adobe Acrobat Reader by clicking on File and then properties option as shown in the following image. Template file "sourceWithCustProps.xlsx"  can be downloaded [here](sourceWithCustProps.xlsx) for testing and output PDF file "outSourceWithCustProps" is available [here](outSourceWithCustProps.pdf) for analysis.
 
 ![todo:image_alt_text](convert-excel-workbook-to-pdf_1.png)
 

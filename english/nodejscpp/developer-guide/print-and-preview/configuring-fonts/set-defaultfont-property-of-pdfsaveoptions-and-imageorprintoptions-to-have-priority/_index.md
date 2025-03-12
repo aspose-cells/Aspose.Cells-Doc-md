@@ -9,15 +9,15 @@ description: Discover how to set the DefaultFont property of PdfSaveOptions and 
 
 ## **Possible Usage Scenarios**
 
-While setting the **DefaultFont** property of [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions) and [**ImageOrPrintOptions**](https://reference.aspose.com/cells/nodejs-cpp/rendering/imageorprintoptions), you might expect that saving to PDF or image would set that DefaultFont to all the text in a workbook that has a missing (not installed) font.
+While setting the **DefaultFont** property of [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions) and [**ImageOrPrintOptions**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/), you might expect that saving to PDF or image would set that DefaultFont to all the text in a workbook that has a missing (not installed) font.
 
-Generally, when saving to PDF or image, Aspose.Cells for Node.js via C++ will first try to set Workbook's default font (i.e., `Workbook.DefaultStyle.Font`). If workbook's default font still cannot show/render text properly, then Aspose.Cells will try to render with the font mentioned against DefaultFont attribute in [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/nodejs-cpp/rendering/imageorprintoptions).
+Generally, when saving to PDF or image, Aspose.Cells for Node.js via C++ will first try to set Workbook's default font (i.e., `Workbook.DefaultStyle.Font`). If workbook's default font still cannot show/render text properly, then Aspose.Cells will try to render with the font mentioned against DefaultFont attribute in [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/).
 
-To cope with your expectation, we have a Boolean property named "**CheckWorkbookDefaultFont**" in [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/nodejs-cpp/rendering/imageorprintoptions). You can set it to **false** to disable trying workbook's default font or let the **DefaultFont** setting in [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/nodejs-cpp/rendering/imageorprintoptions) to have priority.
+To cope with your expectation, we have a Boolean property named "**CheckWorkbookDefaultFont**" in [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/). You can set it to **false** to disable trying workbook's default font or let the **DefaultFont** setting in [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/) to have priority.
 
 ## **Set DefaultFont property of PdfSaveOptions/ImageOrPrintOptions**
 
-The following sample code opens an Excel file. The A1 cell (in the first worksheet) has a text set to "Christmas Time Font text". The font name is "Christmas Time Personal Use" that is not installed on the machine. We set **DefaultFont** attribute of [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/nodejs-cpp/rendering/imageorprintoptions) to "Times New Roman". We also set **CheckWorkbookDefaultFont** Boolean property to **"false"** which ensures that the text of A1 cell is rendered with "Times New Roman" font and should not use the default font of the workbook ("Calibri" in this case). The code renders the first worksheet to PNG and TIFF image formats. It finally renders to a PDF file format.
+The following sample code opens an Excel file. The A1 cell (in the first worksheet) has a text set to "Christmas Time Font text". The font name is "Christmas Time Personal Use" that is not installed on the machine. We set **DefaultFont** attribute of [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/) to "Times New Roman". We also set **CheckWorkbookDefaultFont** Boolean property to **"false"** which ensures that the text of A1 cell is rendered with "Times New Roman" font and should not use the default font of the workbook ("Calibri" in this case). The code renders the first worksheet to PNG and TIFF image formats. It finally renders to a PDF file format.
 
 {{% alert color="primary" %}}
 
@@ -29,11 +29,11 @@ This is the screenshot of the [template file](49446913.xlsx) used in the example
 
 ![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
 
-This is the output PNG image after setting the [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/nodejs-cpp/rendering/imageorprintoptions/defaultfont/) property to "Times New Roman".
+This is the output PNG image after setting the [**ImageOrPrintOptions.getDefaultFont()**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getDefaultFont--) property to "Times New Roman".
 
 ![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
 
-See the output [TIFF](48496672.tiff) image after setting the [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/nodejs-cpp/rendering/imageorprintoptions/defaultfont/) property to "Times New Roman".
+See the output [TIFF](48496672.tiff) image after setting the [**ImageOrPrintOptions.getDefaultFont()**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getDefaultFont--) property to "Times New Roman".
 
 See the output [PDF](48496673.pdf) file after setting the [**PdfSaveOptions.getDefaultFont()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getDefaultFont--) property to "Times New Roman".
 

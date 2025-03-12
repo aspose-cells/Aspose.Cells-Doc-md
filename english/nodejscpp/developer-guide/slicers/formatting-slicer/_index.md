@@ -8,7 +8,7 @@ url: /nodejs-cpp/formatting-slicer/
   
 ## **Possible Usage Scenarios**  
   
-You can format the slicer in Microsoft Excel by setting its number of columns or by setting its style etc. Aspose.Cells for Node.js via C++ also allows you to do this using the [**Slicer.numberOfColumns**](https://reference.aspose.com/cells/nodejs-cpp/slicer/#numberOfColumns) and [**Slicer.styleType**](https://reference.aspose.com/cells/nodejs-cpp/slicer/#styleType) properties.  
+You can format the slicer in Microsoft Excel by setting its number of columns or by setting its style etc. Aspose.Cells for Node.js via C++ also allows you to do this using the [**Slicer.getNumberOfColumns()**](https://reference.aspose.com/cells/nodejs-cpp/slicer/#getNumberOfColumns--) and [**Slicer.getStyleType()**](https://reference.aspose.com/cells/nodejs-cpp/slicer/#getStyleType--) properties.  
   
 ## **Formatting Slicer**  
   

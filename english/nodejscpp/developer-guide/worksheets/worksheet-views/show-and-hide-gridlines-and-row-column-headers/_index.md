@@ -17,17 +17,17 @@ All Excel worksheets have gridlines by default. They help delineate cells so tha
 
 ### **Controlling the Visibility of the Gridlines**  
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**worksheets**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#worksheets) collection that allows developers to access each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a wide range of properties and methods for managing a worksheet. To control the visibility of gridlines, use the [**IsGridlinesVisible**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#IsGridlinesVisible) property. [**IsGridlinesVisible**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#IsGridlinesVisible) is a Boolean property, which means that it can only store a **true** or **false** value.  
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Workbook.getWorksheets()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getWorksheets--) collection that allows developers to access each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a wide range of properties and methods for managing a worksheet. To control the visibility of gridlines, use the [**Worksheet.isGridlinesVisible()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isGridlinesVisible--) property. [**Worksheet.isGridlinesVisible()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isGridlinesVisible--) is a Boolean property, which means that it can only store a **true** or **false** value.  
 
 #### **Making Gridlines Visible**  
 
-Make the gridlines visible by setting the [**IsGridlinesVisible**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#IsGridlinesVisible) property to **true**.  
+Make the gridlines visible by setting the [**Worksheet.isGridlinesVisible()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isGridlinesVisible--) property to **true**.  
 
 #### **Hiding Gridlines**  
 
-Hide gridlines by setting the [**IsGridlinesVisible**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#IsGridlinesVisible) property to **false**.  
+Hide gridlines by setting the [**Worksheet.isGridlinesVisible()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isGridlinesVisible--) property to **false**.  
 
-A complete example is given below that demonstrates the use of the [**IsGridlinesVisible**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#IsGridlinesVisible) property by opening an excel file (book1.xls), hiding the gridlines on the first worksheet, and saving the modified file as output.xls.  
+A complete example is given below that demonstrates the use of the [**Worksheet.isGridlinesVisible()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isGridlinesVisible--) property by opening an excel file (book1.xls), hiding the gridlines on the first worksheet, and saving the modified file as output.xls.  
 
 ```javascript
 const fs = require("fs");
@@ -61,17 +61,17 @@ All worksheets in an Excel file are composed of cells that are arranged in rows 
 
 ### **Controlling the Visibility of the Worksheets**  
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**worksheets**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#worksheets) collection that allows developers to access each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a wide range of properties and methods for managing a worksheet. To control the visibility of row and column headers, use the [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#IsRowColumnHeadersVisible) property. [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#IsRowColumnHeadersVisible) is a Boolean property, which means that it can only store a **true** or **false** value.  
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Workbook.getWorksheets()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getWorksheets--) collection that allows developers to access each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a wide range of properties and methods for managing a worksheet. To control the visibility of row and column headers, use the [**Worksheet.isRowColumnHeadersVisible()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isRowColumnHeadersVisible--) property. [**Worksheet.isRowColumnHeadersVisible()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isRowColumnHeadersVisible--) is a Boolean property, which means that it can only store a **true** or **false** value.  
 
 #### **Making Row/Column Headers Visible**  
 
-Make row and column headers visible by setting the [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#IsRowColumnHeadersVisible) property to **true**.  
+Make row and column headers visible by setting the [**Worksheet.isRowColumnHeadersVisible()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isRowColumnHeadersVisible--) property to **true**.  
 
 #### **Hiding Row/Column Headers**  
 
-Hide row and column headers by setting the [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#IsRowColumnHeadersVisible) property to **false**.  
+Hide row and column headers by setting the [**Worksheet.isRowColumnHeadersVisible()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isRowColumnHeadersVisible--) property to **false**.  
 
-A complete example is given below that shows how to use the [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#IsRowColumnHeadersVisible) property by opening an excel file (book1.xls), hiding the row and column headers on the first worksheet, and saving the modified file as output.xls.  
+A complete example is given below that shows how to use the [**Worksheet.isRowColumnHeadersVisible()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isRowColumnHeadersVisible--) property by opening an excel file (book1.xls), hiding the row and column headers on the first worksheet, and saving the modified file as output.xls.  
 
 ```javascript
 const path = require("path");
@@ -95,6 +95,6 @@ workbook.save(path.join(dataDir, "output.xls"));
 ```  
 
 {{% alert color="primary" %}}  
-It is also possible to use the [**UnhideRows**](https://reference.aspose.com/cells/nodejs-cpp/cells/#UnhideRows) and [**UnhideColumns**](https://reference.aspose.com/cells/nodejs-cpp/cells/#UnhideColumns) methods of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) class to make multiple rows and columns visible.  
+It is also possible to use the [**Cells.unhideRows(number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideRows-number-number-number-) and [**Cells.unhideColumns(number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideColumns-number-number-number-) methods of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) class to make multiple rows and columns visible.  
 {{% /alert %}}  
   

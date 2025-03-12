@@ -9,7 +9,7 @@ description: Learn how to convert Excel files to HTML format with tooltips for c
 
 ## **Convert Excel to HTML with tooltip**
 
-There might be cases where the text is cut off in the generated HTML and you want to display the complete text as a tooltip on the hover event. Aspose.Cells for Node.js via C++ supports this by providing [**HtmlSaveOptions.addTooltipText**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#addTooltipText-boolean-) property. Setting the [**HtmlSaveOptions.addTooltipText**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#addTooltipText-boolean-) property to **true** will add the complete text as a tooltip in the generated HTML.
+There might be cases where the text is cut off in the generated HTML and you want to display the complete text as a tooltip on the hover event. Aspose.Cells for Node.js via C++ supports this by providing [**HtmlSaveOptions.getAddTooltipText()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getAddTooltipText--) property. Setting the [**HtmlSaveOptions.getAddTooltipText()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getAddTooltipText--) property to **true** will add the complete text as a tooltip in the generated HTML.
 
 The following image shows the tooltip in the generated HTML file.
 

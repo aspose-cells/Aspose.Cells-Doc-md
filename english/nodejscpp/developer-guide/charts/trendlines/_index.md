@@ -10,11 +10,11 @@ url: /nodejs-cpp/get-equation-text-of-chart-trendline/
 
 {{% alert color="primary" %}}
 
-You can retrieve the Equation Text of Chart Trendline using Aspose.Cells for Node.js via C++. Aspose.Cells provides [**Trendline.dataLabels.text**](https://reference.aspose.com/cells/nodejs-cpp/trendline/#dataLabels-text-string-) property which returns the Equation Text of chart trendline. To make use of this property, you will first have to call [**Chart.calculate()**](https://reference.aspose.com/cells/nodejs-cpp/chart/#calculate--) method.
+You can retrieve the Equation Text of Chart Trendline using Aspose.Cells for Node.js via C++. Aspose.Cells provides [**DataLabels.getText()**](https://reference.aspose.com/cells/nodejs-cpp/datalabels/#getText--) property which returns the Equation Text of chart trendline. To make use of this property, you will first have to call [**Chart.calculate()**](https://reference.aspose.com/cells/nodejs-cpp/chart/#calculate--) method.
 
 {{% /alert %}}
 
-The following screenshot shows the Chart with a Trendline and its Equation Text is shown in Red color. We will retrieve this text using the [**Trendline.dataLabels.text**](https://reference.aspose.com/cells/nodejs-cpp/trendline/#dataLabels-text-string-) property in the following sample code.
+The following screenshot shows the Chart with a Trendline and its Equation Text is shown in Red color. We will retrieve this text using the [**DataLabels.getText()**](https://reference.aspose.com/cells/nodejs-cpp/datalabels/#getText--) property in the following sample code.
 
 ![todo:image_alt_text](get-equation-text-of-chart-trendline_1.png)
 

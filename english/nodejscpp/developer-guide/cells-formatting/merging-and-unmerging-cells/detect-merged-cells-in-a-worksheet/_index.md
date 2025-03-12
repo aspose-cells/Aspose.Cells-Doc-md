@@ -16,7 +16,7 @@ Aspose.Cells for Node.js via C++ allows you to get merged cell areas in a worksh
 
 {{% /alert %}}
 
-The component provides the [**Cells.getMergedAreas()**](https://reference.aspose.com/cells/nodejs-cpp/cells/#getMergedAreas-array) method which can get all merged cells. The following code sample shows you how to detect merged cells in a worksheet.
+The component provides the [**Cells.getMergedAreas()**](https://reference.aspose.com/cells/nodejs-cpp/cells/#getMergedAreas--) method which can get all merged cells. The following code sample shows you how to detect merged cells in a worksheet.
 
 ```javascript
 const path = require("path");

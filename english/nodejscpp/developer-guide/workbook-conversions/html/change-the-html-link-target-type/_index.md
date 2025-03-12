@@ -17,7 +17,7 @@ Aspose.Cells allows you to change the HTML link target type. HTML link looks lik
 
 {{< /highlight >}}
 
-As you can see, the target attribute in the above HTML link is **_self**. You can control this target attribute using the [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#linkTargetType) property. This property takes the [**HtmlLinkTargetType**](https://reference.aspose.com/cells/nodejs-cpp/htmllinktargettype) enum which has the following values.
+As you can see, the target attribute in the above HTML link is **_self**. You can control this target attribute using the [**HtmlSaveOptions.getLinkTargetType()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getLinkTargetType--) property. This property takes the [**HtmlLinkTargetType**](https://reference.aspose.com/cells/nodejs-cpp/htmllinktargettype) enum which has the following values.
 
 - HtmlLinkTargetType.Blank
 - HtmlLinkTargetType.Parent
@@ -26,7 +26,7 @@ As you can see, the target attribute in the above HTML link is **_self**. You ca
 
 {{% /alert %}}
 
-The following code illustrates the usage of [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#linkTargetType) property. It changes the link target type to **blank**. By default, it is **parent**.
+The following code illustrates the usage of [**HtmlSaveOptions.getLinkTargetType()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getLinkTargetType--) property. It changes the link target type to **blank**. By default, it is **parent**.
 
 ```javascript
 const path = require("path");

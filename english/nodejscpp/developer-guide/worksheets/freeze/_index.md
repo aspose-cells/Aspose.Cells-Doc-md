@@ -28,7 +28,7 @@ As you can see, 1st Row and column A are Frozen, the second row is 32 and the se
 Freeze panes let you view your large data without keeping track of Row or Column label.  
 
 ## **Freeze Panes with Aspose.Cells for Node.js via C++**  
-It's simple to freeze panes with Aspose.Cells for Node.js via C++. Please use the [**Worksheet.freezePanes**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#freezePanes-number-number-) method to freeze panes at the selected Cell.  
+It's simple to freeze panes with Aspose.Cells for Node.js via C++. Please use the [**Worksheet.freezePanes(number, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#freezePanes-number-number-number-number-) method to freeze panes at the selected Cell.  
 1. Construct Workbook to open the file or create an empty file.  
 2. Freeze panes with Worksheet.freezePanes() method.  
 3. Save the file.  

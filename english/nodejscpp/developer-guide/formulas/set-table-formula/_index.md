@@ -8,7 +8,7 @@ description: Learn how to automatically propagate formulas in tables or list obj
 ---
 
 ## **Possible Usage Scenarios**
-Sometimes, you want a formula in your Table or List Object to automatically propagate to new rows while entering new data. This is the default behavior of Microsoft Excel. To achieve the same functionality with Aspose.Cells for Node.js via C++, please use [ListColumn.formula](https://reference.aspose.com/cells/nodejs-cpp/listcolumn/#formula-string) property.
+Sometimes, you want a formula in your Table or List Object to automatically propagate to new rows while entering new data. This is the default behavior of Microsoft Excel. To achieve the same functionality with Aspose.Cells for Node.js via C++, please use [ListColumn.getFormula()](https://reference.aspose.com/cells/nodejs-cpp/listcolumn/#getFormula--) property.
 
 ## **Propagate Formula in Table or List Object Automatically While Entering Data in New Rows**
 The following sample code creates a Table or List Object in such a way that the formula in column B will automatically propagate to new rows when you enter new data. Please check the [output excel file](5115469.xlsx) generated with this code. If you enter any number in cell A3, you will see that the formula in cell B2 automatically propagates to cell B3.

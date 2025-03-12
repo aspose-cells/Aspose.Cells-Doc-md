@@ -10,11 +10,11 @@ keywords: Add Signature line to the worksheet Node.js via C++, How to Add Signat
 
 ## **Introduction**
 
-Aspose.Cells provides the [**Picture.signatureLine**](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.drawing/picture/properties/signatureline) property to add the signature line of the worksheet.
+Aspose.Cells provides the [**Picture.getSignatureLine()**](https://reference.aspose.com/cells/nodejs-cpp/picture/#getSignatureLine--) property to add the signature line of the worksheet.
 
 ## **How to Add Signature Line to Worksheet**
 
-The following sample code demonstrates how to make use of [**Picture.signatureLine**](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.drawing/picture/properties/signatureline) property to add the signature line of the worksheet. The screenshot shows the effect of the sample code on the sample Excel file after execution.
+The following sample code demonstrates how to make use of [**Picture.getSignatureLine()**](https://reference.aspose.com/cells/nodejs-cpp/picture/#getSignatureLine--) property to add the signature line of the worksheet. The screenshot shows the effect of the sample code on the sample Excel file after execution.
 
 ![todo:image_alt_text](add-signature-line.png)
 

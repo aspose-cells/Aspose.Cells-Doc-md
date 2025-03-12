@@ -9,7 +9,7 @@ url: /nodejs-cpp/save-ods-file-in-odf-1-1-and-1-2-specifications/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells supports saving an ODS file (**OpenDocument Spreadsheet**) in the ODF (**OpenDocument Format**) 1.1, 1.2 and 1.3 specifications. Aspose.Cells has [**OdsSaveOptions.odfStrictVersion**](https://reference.aspose.com/cells/nodejs-cpp/odssaveoptions/#odfStrictVersion-number-) property that specifies the ODF version for saving ODS files. The default value of this property is [**OpenDocumentFormatVersionType.odf12**](https://reference.aspose.com/cells/nodejs-cpp/odssaveoptions/#opendocumentformatversiontype-), so the ODS file saved without this setting uses the 1.2 specifications.
+Aspose.Cells supports saving an ODS file (**OpenDocument Spreadsheet**) in the ODF (**OpenDocument Format**) 1.1, 1.2 and 1.3 specifications. Aspose.Cells has [**OdsSaveOptions.getOdfStrictVersion()**](https://reference.aspose.com/cells/nodejs-cpp/odssaveoptions/#getOdfStrictVersion--) property that specifies the ODF version for saving ODS files. The default value of this property is [**OpenDocumentFormatVersionType.odf12**](https://reference.aspose.com/cells/nodejs-cpp/odssaveoptions/#opendocumentformatversiontype-), so the ODS file saved without this setting uses the 1.2 specifications.
 
 {{% /alert %}}
 

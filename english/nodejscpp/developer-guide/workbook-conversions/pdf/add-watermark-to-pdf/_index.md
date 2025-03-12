@@ -11,7 +11,7 @@ While converting an Excel file to PDF, you may have requirements to add a waterm
 
 ##  **Add text watermark to PDF**
 
-You can easily add a text watermark to a PDF by specifying the text and the corresponding font. Also, you can set alignment, offset, rotation, opacity, foreground/background, and scale to page in [RenderingWatermark](https://reference.aspose.com/cells/nodejs-cpp/renderingwatermark/#).
+You can easily add a text watermark to a PDF by specifying the text and the corresponding font. Also, you can set alignment, offset, rotation, opacity, foreground/background, and scale to page in [RenderingWatermark](https://reference.aspose.com/cells/nodejs-cpp/renderingwatermark/).
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
@@ -63,7 +63,7 @@ wb.save("output_text_watermark.pdf", options);
 
 ## **Add image watermark to PDF**
 
-You can add an image watermark to a PDF just by specifying the image bytes of an image. Also, you can set alignment, offset, rotation, opacity, foreground/background, and scale to page in [RenderingWatermark](https://reference.aspose.com/cells/nodejs-cpp/renderingwatermark/#).
+You can add an image watermark to a PDF just by specifying the image bytes of an image. Also, you can set alignment, offset, rotation, opacity, foreground/background, and scale to page in [RenderingWatermark](https://reference.aspose.com/cells/nodejs-cpp/renderingwatermark/).
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");

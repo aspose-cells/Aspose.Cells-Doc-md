@@ -21,7 +21,7 @@ To set the formula calculation mode in Microsoft Excel:
 1. Select **Formulas** and then **Calculation Options**.  
 1. Select one of the options.  
 
-Aspose.Cells for Node.js via C++ also allows you to set the **Formula Calculation Mode** using [**FormulaSettings.calculationMode**](https://reference.aspose.com/cells/nodejs-cpp/formulasettings/#calculationMode) mode property. You can assign it the [**CalcModeType**](https://reference.aspose.com/cells/nodejs-cpp/calcmodetype) enumeration which has one of the following values:  
+Aspose.Cells for Node.js via C++ also allows you to set the **Formula Calculation Mode** using [**FormulaSettings.getCalculationMode()**](https://reference.aspose.com/cells/nodejs-cpp/formulasettings/#getCalculationMode--) mode property. You can assign it the [**CalcModeType**](https://reference.aspose.com/cells/nodejs-cpp/calcmodetype) enumeration which has one of the following values:  
 
 - CalcModeType.Automatic  
 - CalcModeType.AutomaticExceptTable  

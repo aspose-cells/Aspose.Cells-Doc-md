@@ -14,7 +14,7 @@ Microsoft Excel lets users auto-size the width and height of cells according to 
 
 ## **Auto Fitting**  
 
-Aspose.Cells provides a [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#worksheets) collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a wide range of properties and methods for managing a worksheet. This article looks at using the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class to autofit rows or columns.  
+Aspose.Cells provides a [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Workbook.getWorksheets()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getWorksheets--) collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a wide range of properties and methods for managing a worksheet. This article looks at using the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class to autofit rows or columns.  
 
 ### **AutoFit Row - Simple**  
 
@@ -115,7 +115,7 @@ workbook.save(path.join(dataDir, "output.xlsx"));
 
 ### **How to AutoFit Rows for Merged Cells**  
 
-With Aspose.Cells, it is possible to autofit rows even for cells that have been merged using the [**AutoFitterOptions**](https://reference.aspose.com/cells/nodejs-cpp/autofitteroptions) API. The [**AutoFitterOptions**](https://reference.aspose.com/cells/nodejs-cpp/autofitteroptions) class provides [**autoFitMergedCellsType**](https://reference.aspose.com/cells/nodejs-cpp/autofitteroptions/#autoFitMergedCellsType) property that can be used to autofit rows for merged cells. [**autoFitMergedCellsType**](https://reference.aspose.com/cells/nodejs-cpp/autofitteroptions/#autoFitMergedCellsType) accepts [**AutoFitMergedCellsType**](https://reference.aspose.com/cells/nodejs-cpp/autofitmergedcellstype) enumerable which has the following members.  
+With Aspose.Cells, it is possible to autofit rows even for cells that have been merged using the [**AutoFitterOptions**](https://reference.aspose.com/cells/nodejs-cpp/autofitteroptions) API. The [**AutoFitterOptions**](https://reference.aspose.com/cells/nodejs-cpp/autofitteroptions) class provides [**AutoFitterOptions.getAutoFitMergedCellsType()**](https://reference.aspose.com/cells/nodejs-cpp/autofitteroptions/#getAutoFitMergedCellsType--) property that can be used to autofit rows for merged cells. [**AutoFitterOptions.getAutoFitMergedCellsType()**](https://reference.aspose.com/cells/nodejs-cpp/autofitteroptions/#getAutoFitMergedCellsType--) accepts [**AutoFitMergedCellsType**](https://reference.aspose.com/cells/nodejs-cpp/autofitmergedcellstype) enumerable which has the following members.  
 
 - None: Ignore merged cells.  
 - FirstLine: Only expands the height of the first row.  

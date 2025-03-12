@@ -21,7 +21,7 @@ The following code example explains how to save an entire workbook into text for
 
 When the code is executed, it converts the data of all sheets in the workbook to the TXT format.
 
-You can modify the same example to save your file to CSV. By default, [**TxtSaveOptions.separator**](https://reference.aspose.com/cells/nodejs-cpp/txtsaveoptions/#separator-string-) is a comma, so do not specify a separator if saving to CSV format.
+You can modify the same example to save your file to CSV. By default, [**TxtSaveOptions.getSeparator()**](https://reference.aspose.com/cells/nodejs-cpp/txtsaveoptions/#getSeparator--) is a comma, so do not specify a separator if saving to CSV format.
 
 ```javascript
 const path = require("path");

@@ -14,11 +14,11 @@ Dialog Sheet is an old format of sheet that contains a dialog box. Such a sheet 
 
 ![todo:image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
 
-You can find if the sheet is a dialog sheet or some other type of sheet with [**Worksheet.type**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#type) property provided by Aspose.Cells for Node.js via C++. If it returns enumeration value [**SheetType.Dialog**](https://reference.aspose.com/cells/nodejs-cpp/sheettype), then it means you are dealing with a dialog sheet.
+You can find if the sheet is a dialog sheet or some other type of sheet with [**Worksheet.getType()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getType--) property provided by Aspose.Cells for Node.js via C++. If it returns enumeration value [**SheetType.Dialog**](https://reference.aspose.com/cells/nodejs-cpp/sheettype), then it means you are dealing with a dialog sheet.
 
 ## **Find if the Worksheet is Dialog Sheet**
 
-The following sample code loads the [sample Excel file](64716820.xlsx) that contains a dialog sheet. It checks the [**Worksheet.type**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#type) property, compares it with [**SheetType.Dialog**](https://reference.aspose.com/cells/nodejs-cpp/sheettype), and then prints the message. Please see the console output of the sample code given below for more help.
+The following sample code loads the [sample Excel file](64716820.xlsx) that contains a dialog sheet. It checks the [**Worksheet.getType()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getType--) property, compares it with [**SheetType.Dialog**](https://reference.aspose.com/cells/nodejs-cpp/sheettype), and then prints the message. Please see the console output of the sample code given below for more help.
 
 ## **Sample Code**
 

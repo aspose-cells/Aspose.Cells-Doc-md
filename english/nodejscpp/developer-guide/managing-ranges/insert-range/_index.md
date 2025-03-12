@@ -15,7 +15,7 @@ In Excel, you can select a range, then insert a range and shift other data right
 
 ## **Insert Ranges Using Aspose.Cells for Node.js via C++**
 
-Aspose.Cells for Node.js via C++ provides [Cells.insertRange](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertRange-Range-void-) method to insert a range.
+Aspose.Cells for Node.js via C++ provides [Cells.insertRange(CellArea, number, ShiftType, boolean)](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertRange-cellarea-number-shifttype-boolean-) method to insert a range.
 
 ## **Insert Ranges And Shift Cells Right**
 

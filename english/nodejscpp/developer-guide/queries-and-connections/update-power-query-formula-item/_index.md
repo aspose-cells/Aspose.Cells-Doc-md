@@ -13,7 +13,7 @@ There might be cases where the data source files are moved and the Excel file is
 
 ## **Updating Power Query Formula Item**
 
-Aspose.Cells API provides the ability to update Power Query Formula Items. The following code snippet demonstrates updating the data source file location in the Excel file by using the [**PowerQueryFormulaItem.value**](https://reference.aspose.com/cells/nodejs-cpp/powerqueryformulaitem/#value-string-) property. The source and output files attached for your reference.
+Aspose.Cells API provides the ability to update Power Query Formula Items. The following code snippet demonstrates updating the data source file location in the Excel file by using the [**PowerQueryFormulaItem.getValue()**](https://reference.aspose.com/cells/nodejs-cpp/powerqueryformulaitem/#getValue--) property. The source and output files attached for your reference.
 
 - [Source File 1](106364953.xlsx)
 - [Source File 2](106364954.xlsx)

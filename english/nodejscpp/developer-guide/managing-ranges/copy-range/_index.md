@@ -12,7 +12,7 @@ In Excel, you can select a range, copy the range, then paste it with specific op
 
 ## **Copy Ranges Using Aspose.Cells for Node.js via C++**
 
-Aspose.Cells for Node.js via C++ provides some overload [Range.copy](https://reference.aspose.com/cells/nodejs-cpp/range/#copy) methods to copy the range. And [Range.copyStyle(Range)](https://reference.aspose.com/cells/nodejs-cpp/range/#copyStyle-range-) only the copy style of the range; [Range.copyData(Range)](https://reference.aspose.com/cells/nodejs-cpp/range/#copyData-range-) only the copy value of the range.
+Aspose.Cells for Node.js via C++ provides some overload [Range.copy(Range, PasteOptions)](https://reference.aspose.com/cells/nodejs-cpp/range/#copy-range-pasteoptions-) methods to copy the range. And [Range.copyStyle(Range)](https://reference.aspose.com/cells/nodejs-cpp/range/#copyStyle-range-) only the copy style of the range; [Range.copyData(Range)](https://reference.aspose.com/cells/nodejs-cpp/range/#copyData-range-) only the copy value of the range.
 
 ## **Copy Range**
 

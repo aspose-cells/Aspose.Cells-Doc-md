@@ -7,10 +7,10 @@ url: /nodejs-cpp/working-with-the-threedformat-of-shape-or-chart/
 ---
 
 ## **Possible Usage Scenarios**
-Aspose.Cells for Node.js via C++ provides the [Shape.threeDFormat](https://reference.aspose.com/cells/nodejs-cpp/shape/#threeDFormat) property along with [ThreeDFormat](https://reference.aspose.com/cells/nodejs-cpp/threedformat) class to work with the 3-D Format of shape or chart. The [ThreeDFormat](https://reference.aspose.com/cells/nodejs-cpp/threedformat) class contains different properties which can be set to achieve different results as per application requirements.
+Aspose.Cells for Node.js via C++ provides the [Shape.getThreeDFormat()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getThreeDFormat--) property along with [ThreeDFormat](https://reference.aspose.com/cells/nodejs-cpp/threedformat) class to work with the 3-D Format of shape or chart. The [ThreeDFormat](https://reference.aspose.com/cells/nodejs-cpp/threedformat) class contains different properties which can be set to achieve different results as per application requirements.
 
 ## **Working with the ThreeDFormat of Shape or Chart**
-The following sample code loads the [source excel file](5115419.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of [Shape.threeDFormat](https://reference.aspose.com/cells/nodejs-cpp/shape/#threeDFormat) property and then saves the workbook in the [output excel file](5115410.xlsx).
+The following sample code loads the [source excel file](5115419.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of [Shape.getThreeDFormat()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getThreeDFormat--) property and then saves the workbook in the [output excel file](5115410.xlsx).
 
 ```javascript
 const path = require("path");

@@ -23,7 +23,7 @@ In this article, we will learn how to unfreeze rows, columns, and panes. If work
 
 
 ## **Unfreeze Rows, Columns or Panes with Aspose.Cells for Node.js via C++**
-It's simple to unfreeze panes with Aspose.Cells for Node.js via C++. Please use the [**Worksheet.unfreezePanes**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#unfreezePanes) method to unfreeze panes.
+It's simple to unfreeze panes with Aspose.Cells for Node.js via C++. Please use the [**Worksheet.unFreezePanes()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#unFreezePanes--) method to unfreeze panes.
 
 1. Construct Workbook to open the frozen file.
 2. Unfreeze panes with Worksheet.unfreezePanes() method.

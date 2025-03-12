@@ -120,7 +120,7 @@ workbook.save(outputFilePath, pdfSaveOptions);
 
 {{% alert color="primary" %}}
 
-If your spreadsheet has formulas, it is best to call [**Workbook.calculateFormula**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are refreshed & rendered correctly in PDF.
+If your spreadsheet has formulas, it is best to call [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are refreshed & rendered correctly in PDF.
 
 {{% /alert %}}
 

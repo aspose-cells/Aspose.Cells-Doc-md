@@ -8,7 +8,7 @@ description: Learn how to create a TextBox in which each line can have a differe
 ---
 
 {{% alert color="primary" %}}
-You can set the horizontal alignment of your paragraph text using the [**TextParagraph.AlignmentType**](https://reference.aspose.com/cells/nodejs-cpp/textparagraph/#alignmentType) property.
+You can set the horizontal alignment of your paragraph text using the [**TextParagraph.getAlignmentType()**](https://reference.aspose.com/cells/nodejs-cpp/textparagraph/#getAlignmentType--) property.
 {{% /alert %}}
 
 The following sample code creates three lines and sets the horizontal alignment of each of them.

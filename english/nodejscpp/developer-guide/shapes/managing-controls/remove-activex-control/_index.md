@@ -9,7 +9,7 @@ description: Learn how to remove ActiveX controls from workbooks using Aspose.Ce
 
 ## **Remove ActiveX Control**
 
-Aspose.Cells provides the ability to remove ActiveX Control from workbooks. For this, the API provides the [**Shape.removeActiveXControl**](https://reference.aspose.com/cells/nodejs-cpp/shape/#removeActiveXControl-) method. The following code snippet demonstrates the use of the [**Shape.removeActiveXControl**](https://reference.aspose.com/cells/nodejs-cpp/shape/#removeActiveXControl-) method to remove ActiveX Control.
+Aspose.Cells provides the ability to remove ActiveX Control from workbooks. For this, the API provides the [**Shape.removeActiveXControl()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#removeActiveXControl--) method. The following code snippet demonstrates the use of the [**Shape.removeActiveXControl()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#removeActiveXControl--) method to remove ActiveX Control.
 
 ## **Sample Code**
 

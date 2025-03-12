@@ -17,7 +17,7 @@ This article gives you a detailed understanding of how to copy shapes between wo
 
 ## **Copying a Picture from one Worksheet to Another**
 
-To copy a picture from one worksheet to another, use the [**Worksheet.pictures.add**](https://reference.aspose.com/cells/nodejs-cpp/picturecollection/#add-string) method as shown in the sample code below.
+To copy a picture from one worksheet to another, use the [**PictureCollection.add(number, number, number, number, Uint8Array)**](https://reference.aspose.com/cells/nodejs-cpp/picturecollection/#add-number-number-number-number-uint8array-) method as shown in the sample code below.
 
 ```javascript
 const path = require("path");
@@ -45,7 +45,7 @@ workbook.save(path.join(dataDir, "PictureCopied_out.xlsx"));
 
 ## **Copy a Chart from one Worksheet to Another**
 
-The following code demonstrates the use of [**Worksheet.shapes.addCopy**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addCopy-shape) method to copy a chart from one worksheet to another.
+The following code demonstrates the use of [**ShapeCollection.addCopy(Shape, number, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addCopy-shape-number-number-number-number-) method to copy a chart from one worksheet to another.
 
 ```javascript
 const path = require("path");
@@ -70,7 +70,7 @@ workbook.save(path.join(dataDir, "ChartCopied_out.xlsx"));
 
 ## **Copy Controls and Other Drawing Objects from One Worksheet to Another**
 
-To copy controls and other drawing objects, use the [**Worksheet.shapes.addCopy**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addCopy-shape) method as shown in the example below.
+To copy controls and other drawing objects, use the [**ShapeCollection.addCopy(Shape, number, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addCopy-shape-number-number-number-number-) method as shown in the example below.
 
 ```javascript
 const path = require("path");

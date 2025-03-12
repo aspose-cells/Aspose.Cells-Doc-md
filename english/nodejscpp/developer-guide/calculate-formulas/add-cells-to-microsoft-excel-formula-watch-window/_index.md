@@ -10,7 +10,7 @@ url: /nodejs-cpp/add-cells-to-microsoft-excel-formula-watch-window/
 
 ## **Possible Usage Scenarios**
 
-Microsoft Excel Watch Window is a useful tool to watch the cell values and its formulas conveniently in a window. You can open the *Watch Window* using Microsoft Excel by clicking the *Formulas > Watch* *Window*. It has the *Add Watch* button that can be used to add the cells for inspection. Similarly, you can use [**Worksheet.cellWatches.add()**](https://reference.aspose.com/cells/nodejs-cpp/cellwatchcollection/#add-string-string-) method to add cells into *Watch Window* using the Aspose.Cells API.
+Microsoft Excel Watch Window is a useful tool to watch the cell values and its formulas conveniently in a window. You can open the *Watch Window* using Microsoft Excel by clicking the *Formulas > Watch* *Window*. It has the *Add Watch* button that can be used to add the cells for inspection. Similarly, you can use [**CellWatchCollection.add(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cellwatchcollection/#add-number-number-) method to add cells into *Watch Window* using the Aspose.Cells API.
 
 ## **Add Cells to Microsoft Excel Formula Watch Window**
 

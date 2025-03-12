@@ -14,7 +14,7 @@ Aspose.Cells has a powerful calculation engine that can calculate almost all of 
 
 The following property and classes are used in implementing this feature.
 
-- [**CalculationOptions.customEngine**](https://reference.aspose.com/cells/nodejs-cpp/calculationoptions/#customEngine)
+- [**CalculationOptions.getCustomEngine()**](https://reference.aspose.com/cells/nodejs-cpp/calculationoptions/#getCustomEngine--)
 - [**AbstractCalculationEngine**](https://reference.aspose.com/cells/nodejs-cpp/abstractcalculationengine)
 - [**CalculationData**](https://reference.aspose.com/cells/nodejs-cpp/calculationdata)
 

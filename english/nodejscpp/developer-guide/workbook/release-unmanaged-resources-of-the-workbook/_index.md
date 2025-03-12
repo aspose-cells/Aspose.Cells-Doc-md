@@ -9,11 +9,11 @@ description: Learn how to release unmanaged resources of Workbook object using A
 
 {{% alert color="primary" %}}
 
-Aspose.Cells provides [**Workbook.dispose()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#dispose) method to release the unmanaged resources of the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) object. The dispose pattern is used only for objects that access unmanaged resources, such as file and pipe handles, registry handles, wait handles, or pointers to blocks of unmanaged memory. This is because the garbage collector is very efficient at reclaiming unused managed objects, but it is unable to reclaim unmanaged objects.
+Aspose.Cells provides [**Workbook.dispose()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#dispose--) method to release the unmanaged resources of the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) object. The dispose pattern is used only for objects that access unmanaged resources, such as file and pipe handles, registry handles, wait handles, or pointers to blocks of unmanaged memory. This is because the garbage collector is very efficient at reclaiming unused managed objects, but it is unable to reclaim unmanaged objects.
 
 {{% /alert %}}
 
-[**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) object now implements the *System.IDisposable* interface which has a single method [**dispose()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#dispose). You can either directly call the [**Workbook.dispose()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#dispose) method or you can use the *Using* statement to call this method automatically.
+[**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) object now implements the *System.IDisposable* interface which has a single method [**Workbook.dispose()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#dispose--). You can either directly call the [**Workbook.dispose()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#dispose--) method or you can use the *Using* statement to call this method automatically.
 
 ```javascript
 const path = require("path");

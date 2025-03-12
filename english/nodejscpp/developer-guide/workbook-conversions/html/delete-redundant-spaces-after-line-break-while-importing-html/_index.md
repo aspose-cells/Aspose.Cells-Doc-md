@@ -9,7 +9,7 @@ description: Learn how to delete redundant spaces after line breaks while import
 
 {{% alert color="primary" %}}
 
-Please use [**HTMLLoadOptions.deleteRedundantSpaces**](https://reference.aspose.com/cells/nodejs-cpp/htmlloadoptions/#deleteRedundantSpaces-boolean-) property and set it **true** to delete all the redundant spaces coming after the line break tag. By default, this property is **false** and redundant spaces are preserved in the output Excel files.
+Please use [**HtmlLoadOptions.getDeleteRedundantSpaces()**](https://reference.aspose.com/cells/nodejs-cpp/htmlloadoptions/#getDeleteRedundantSpaces--) property and set it **true** to delete all the redundant spaces coming after the line break tag. By default, this property is **false** and redundant spaces are preserved in the output Excel files.
 
 {{% /alert %}}
 
@@ -23,7 +23,7 @@ The following screenshot shows the effect of setting this property to **false** 
 
 ### Programming Sample
 
-The following sample code shows the usage of the [**HTMLLoadOptions.deleteRedundantSpaces**](https://reference.aspose.com/cells/nodejs-cpp/htmlloadoptions/#deleteRedundantSpaces-boolean-) property. Please set it **true** or **false** to get the output as shown in the above screenshot.
+The following sample code shows the usage of the [**HtmlLoadOptions.getDeleteRedundantSpaces()**](https://reference.aspose.com/cells/nodejs-cpp/htmlloadoptions/#getDeleteRedundantSpaces--) property. Please set it **true** or **false** to get the output as shown in the above screenshot.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");

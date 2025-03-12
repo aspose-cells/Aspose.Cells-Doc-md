@@ -9,7 +9,7 @@ url: /nodejs-cpp/rich-text-custom-data-label-of-chart-point/
 
 {{% alert color="primary" %}}
 
-You can use Aspose.Cells to create rich text custom data labels for chart points. Aspose.Cells provides the [**DataLabels.characters()**](https://reference.aspose.com/cells/nodejs-cpp/charttextframe/#characters) method to return the [**FontSetting**](https://reference.aspose.com/cells/nodejs-cpp/fontsetting) object which can be used to set the font properties of the text like its color, boldness, etc.
+You can use Aspose.Cells to create rich text custom data labels for chart points. Aspose.Cells provides the [**ChartTextFrame.characters(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/charttextframe/#characters-number-number-) method to return the [**FontSetting**](https://reference.aspose.com/cells/nodejs-cpp/fontsetting) object which can be used to set the font properties of the text like its color, boldness, etc.
 
 {{% /alert %}}
 

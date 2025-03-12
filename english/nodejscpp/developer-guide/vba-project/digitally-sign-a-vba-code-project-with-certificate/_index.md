@@ -9,7 +9,7 @@ description: Learn how to digitally sign a VBA Code Project with a certificate u
 
 {{% alert color="primary" %}}
 
-You can digitally sign your VBA code project using Aspose.Cells with its [**Workbook.VbaProject.sign()**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/#sign-string-void-) method. Please follow these steps to check if your Excel file is digitally signed with a certificate.
+You can digitally sign your VBA code project using Aspose.Cells with its [**VbaProject.sign(DigitalSignature)**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/#sign-digitalsignature-) method. Please follow these steps to check if your Excel file is digitally signed with a certificate.
 
 - Click **Visual Basic** from the **Developer** tab to open **Visual Basic for Applications IDE**
 - Click **Tools** > **Digital Signatures...** of **Visual Basic for Applications IDE**
@@ -20,7 +20,7 @@ and it will show the **Digital Signature Form** showing if the document is digit
 
 ## **Digitally Sign a VBA Code Project with Certificate in Node.js**
 
-The following sample code illustrates how to make use of [**Workbook.VbaProject.sign()**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/#sign-string-void-) method. Here are the input and output files of the sample code. You can use any Excel file and any certificate to test this code.
+The following sample code illustrates how to make use of [**VbaProject.sign(DigitalSignature)**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/#sign-digitalsignature-) method. Here are the input and output files of the sample code. You can use any Excel file and any certificate to test this code.
 
 - [Source Excel file](5115028.xlsm) used in the sample code.
 - [Sample pfx file](5115039.pfx) to create Digital Signature. Please install it on your computer to run this code. Its password is 1234.

@@ -10,7 +10,7 @@ keywords: Assign Macro to Form Control Node.js via C++, Macro Code for Form Cont
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to assign a Macro Code to a Form Control like a Button. Please use the [**Shape.macroName**](https://reference.aspose.com/cells/nodejs-cpp/shape/#macroName-string-) property to assign a new Macro Code to a Form Control inside the workbook.
+Aspose.Cells allows you to assign a Macro Code to a Form Control like a Button. Please use the [**Shape.getMacroName()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getMacroName--) property to assign a new Macro Code to a Form Control inside the workbook.
 
 {{% /alert %}}
 

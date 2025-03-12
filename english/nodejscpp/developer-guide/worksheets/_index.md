@@ -11,7 +11,7 @@ description: Add, remove, and activate worksheets using Aspose.Cells for Node.js
 Developers can easily create and manage worksheets in Microsoft Excel files programmatically using Aspose.Cells' flexible API. This topic describes approaches for adding and removing worksheets in Microsoft Excel files.  
 {{% /alert %}}  
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#worksheets) collection that allows access to each worksheet in the Excel file.  
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Workbook.getWorksheets()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getWorksheets--) collection that allows access to each worksheet in the Excel file.  
 
 A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a wide range of properties and methods for managing worksheets.  
 
@@ -20,10 +20,10 @@ A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/c
 To create a new Excel file programmatically:  
 
 1. Create an object of the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class.  
-1. Call the [**add**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/#add) method of the [**WorksheetCollection**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection) class. An empty worksheet is added to the Excel file automatically. It can be referenced by passing the sheet index of the new worksheet to the [**Worksheets**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#worksheets) collection.  
+1. Call the [**WorksheetCollection.add(SheetType)**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/#add-sheettype-) method of the [**WorksheetCollection**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection) class. An empty worksheet is added to the Excel file automatically. It can be referenced by passing the sheet index of the new worksheet to the [**Workbook.getWorksheets()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getWorksheets--) collection.  
 1. Obtain a worksheet reference.  
 1. Perform work on the worksheets.  
-1. Save the new Excel file with new worksheets by calling the [**Save**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save) method of the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class.  
+1. Save the new Excel file with new worksheets by calling the [**Workbook.save(string, SaveFormat)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveformat-) method of the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class.  
 
 ```javascript
 const path = require("path");
@@ -109,7 +109,7 @@ console.log(cell.getValue());
 
 ## **Removing Worksheets using Sheet Name**  
 
-To remove worksheets from a file, call the [**removeAt**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/#removeAt) method of the [**WorksheetCollection**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection) class. Pass the sheet name to the [**removeAt**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/#removeAt) method to remove a specific worksheet.  
+To remove worksheets from a file, call the [**WorksheetCollection.removeAt(string)**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/#removeAt-string-) method of the [**WorksheetCollection**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection) class. Pass the sheet name to the [**WorksheetCollection.removeAt(string)**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/#removeAt-string-) method to remove a specific worksheet.  
 
 ```javascript
 const fs = require("fs");
@@ -136,7 +136,7 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 
 ## **Removing Worksheets using Sheet Index**  
 
-Removing worksheets by name works well when the name of the worksheet is known. If you don't know the worksheet's name, use an overloaded version of the [**removeAt**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/#removeAt) method that takes the sheet index of the worksheet instead of its sheet name.  
+Removing worksheets by name works well when the name of the worksheet is known. If you don't know the worksheet's name, use an overloaded version of the [**WorksheetCollection.removeAt(string)**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/#removeAt-string-) method that takes the sheet index of the worksheet instead of its sheet name.  
 
 ```javascript
 const fs = require("fs");
@@ -171,9 +171,9 @@ An **active cell** is a selected cell, the cell into which data is entered when 
 
 ### **Activating Sheets and Making a Cell Active**  
 
-Aspose.Cells provides specific API calls for activating a sheet and a cell. For example, the [**worksheetCollection.activeSheetIndex**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/#activeSheetIndex) property is useful for setting the active sheet in a workbook. Similarly, [**worksheet.activeCell**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#activeCell) property is used to set and get an active cell in the worksheet.  
+Aspose.Cells provides specific API calls for activating a sheet and a cell. For example, the [**WorksheetCollection.getActiveSheetIndex()**](https://reference.aspose.com/cells/nodejs-cpp/worksheetcollection/#getActiveSheetIndex--) property is useful for setting the active sheet in a workbook. Similarly, [**Worksheet.getActiveCell()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getActiveCell--) property is used to set and get an active cell in the worksheet.  
 
-To make sure that the horizontal or vertical scrollbars are at the row and column index position you want to show specific data, use the [**worksheet.firstVisibleRow**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#firstVisibleRow) and [**worksheet.firstVisibleColumn**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#firstVisibleColumn) properties.  
+To make sure that the horizontal or vertical scrollbars are at the row and column index position you want to show specific data, use the [**Worksheet.getFirstVisibleRow()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getFirstVisibleRow--) and [**Worksheet.getFirstVisibleColumn()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getFirstVisibleColumn--) properties.  
 
 The following example shows how to activate a worksheet and make an active cell in it. In the generated output, the scrollbars will be scrolled to make the 2nd row and 2nd column as their first visible row and column.  
 

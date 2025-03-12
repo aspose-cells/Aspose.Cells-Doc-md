@@ -58,7 +58,7 @@ Clearing the print area in a spreadsheet application like Excel using Aspose.Cel
 
 ## **How to Set Print Area Using Aspose.Cells for Node.js via C++**
 
-To set the print area in a specified worksheet: First, load the [sample file](input.xlsx), and then you need to modify the [**Worksheet.PageSetup.PrintArea**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#printArea-string-) property of the [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/) object for the desired worksheet. Setting this property to a range string will set the print area.
+To set the print area in a specified worksheet: First, load the [sample file](input.xlsx), and then you need to modify the [**PageSetup.getPrintArea()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getPrintArea--) property of the [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/) object for the desired worksheet. Setting this property to a range string will set the print area.
 
 ```javascript
 const path = require("path");
@@ -87,7 +87,7 @@ The output result:
 
 ## **How to Clear Print Area Using Aspose.Cells for Node.js via C++**
 
-To clear the print area in a specified worksheet: First, load the [sample file](input.xlsx), and then you need to modify the [**Worksheet.PageSetup.PrintArea**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#printArea-string-) property of the [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/) object for the desired worksheet. Setting this property to an empty string will clear the print area.
+To clear the print area in a specified worksheet: First, load the [sample file](input.xlsx), and then you need to modify the [**PageSetup.getPrintArea()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getPrintArea--) property of the [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/) object for the desired worksheet. Setting this property to an empty string will clear the print area.
 
 ```javascript
 const path = require("path");

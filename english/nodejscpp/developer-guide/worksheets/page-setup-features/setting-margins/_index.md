@@ -16,18 +16,18 @@ Aspose.Cells fully supports Microsoft Excel's page setup options. Developers may
 
 ## **Setting Margins**
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains the [**Worksheets**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#worksheets) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains the [**Workbook.getWorksheets()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getWorksheets--) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class.
 
-The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides the [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#pageSetup) property used to set the page setup options for a worksheet. The [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#pageSetup) attribute is an object of the [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#pageSetup) class that enables developers to set different page layout options for a printed worksheet. The [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#pageSetup) class provides various properties and methods used to set page setup options.
+The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides the [**Worksheet.getPageSetup()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getPageSetup--) property used to set the page setup options for a worksheet. The [**Worksheet.getPageSetup()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getPageSetup--) attribute is an object of the [**Worksheet.getPageSetup()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getPageSetup--) class that enables developers to set different page layout options for a printed worksheet. The [**Worksheet.getPageSetup()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getPageSetup--) class provides various properties and methods used to set page setup options.
 
 ### **Page Margins**
 
-Set page margins (left, right, top, bottom) using [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#pageSetup) class members. A few of the methods are listed below which are used to specify page margins:
+Set page margins (left, right, top, bottom) using [**Worksheet.getPageSetup()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getPageSetup--) class members. A few of the methods are listed below which are used to specify page margins:
 
-- [**LeftMargin**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup#leftMargin)
-- [**RightMargin**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup#rightMargin)
-- [**TopMargin**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup#topMargin)
-- [**BottomMargin**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup#bottomMargin)
+- [**PageSetup.getLeftMargin()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getLeftMargin--)
+- [**PageSetup.getRightMargin()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getRightMargin--)
+- [**PageSetup.getTopMargin()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getTopMargin--)
+- [**PageSetup.getBottomMargin()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getBottomMargin--)
 
 ```javascript
 const path = require("path");
@@ -60,7 +60,7 @@ workbook.save(path.join(dataDir, "SetMargins_out.xls"));
 
 ### **Center on Page**
 
-It is possible to center something on a page horizontally and vertically. For this, there are some useful members of the [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#pageSetup) class, [**CenterHorizontally**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup#centerHorizontally) and [**CenterVertically**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup#centerVertically).
+It is possible to center something on a page horizontally and vertically. For this, there are some useful members of the [**Worksheet.getPageSetup()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getPageSetup--) class, [**PageSetup.getCenterHorizontally()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getCenterHorizontally--) and [**PageSetup.getCenterVertically()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getCenterVertically--).
 
 ```javascript
 const path = require("path");
@@ -91,7 +91,7 @@ workbook.save(path.join(dataDir, "CenterOnPage_out.xls"));
 
 ### **Header and Footer Margins**
 
-Set header and footer margins with the [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#pageSetup) class members such as [**HeaderMargin**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup#headerMargin) and [**FooterMargin**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup#footerMargin).
+Set header and footer margins with the [**Worksheet.getPageSetup()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getPageSetup--) class members such as [**PageSetup.getHeaderMargin()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getHeaderMargin--) and [**PageSetup.getFooterMargin()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFooterMargin--).
 
 ```javascript
 const path = require("path");

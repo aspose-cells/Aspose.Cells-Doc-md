@@ -23,13 +23,13 @@ In the rest of the discussion, we will describe how can you add horizontal or ve
 
 ## **Page Breaks**
 
-Aspose.Cells provides a [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#worksheets) collection that allows access to each worksheet in the Excel file.
+Aspose.Cells provides a [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Workbook.getWorksheets()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getWorksheets--) collection that allows access to each worksheet in the Excel file.
 
 A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a wide range of properties and methods used to manage a worksheet.
 
-To add the page breaks, use the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class' [**horizontalPageBreaks**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#horizontalPageBreaks) and [**verticalPageBreaks**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#verticalPageBreaks) properties.
+To add the page breaks, use the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class' [**Worksheet.getHorizontalPageBreaks()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getHorizontalPageBreaks--) and [**Worksheet.getVerticalPageBreaks()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getVerticalPageBreaks--) properties.
 
-The [**horizontalPageBreaks**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#horizontalPageBreaks) and [**verticalPageBreaks**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#verticalPageBreaks) properties are collections that may contain several page breaks. Each collection contains several methods for managing horizontal and vertical page breaks.
+The [**Worksheet.getHorizontalPageBreaks()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getHorizontalPageBreaks--) and [**Worksheet.getVerticalPageBreaks()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getVerticalPageBreaks--) properties are collections that may contain several page breaks. Each collection contains several methods for managing horizontal and vertical page breaks.
 
 ### **Adding Page Breaks**
 
@@ -106,4 +106,4 @@ workbook.save(path.join(dataDir, "RemoveSpecificPageBreak_out.xls"));
 
 ## **Important to know**
 
-When you set **fitToPages** properties (that is [**fitToPagesTall**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#fitToPagesTall) and [**fitToPagesWide**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#fitToPagesWide)) in page setup settings, the page break settings are affected, so, if you print the worksheet, the page break settings are not considered although they are still set.
+When you set **fitToPages** properties (that is [**PageSetup.getFitToPagesTall()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesTall--) and [**PageSetup.getFitToPagesWide()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesWide--)) in page setup settings, the page break settings are affected, so, if you print the worksheet, the page break settings are not considered although they are still set.

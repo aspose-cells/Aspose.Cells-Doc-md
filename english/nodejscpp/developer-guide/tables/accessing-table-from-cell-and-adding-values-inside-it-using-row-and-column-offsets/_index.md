@@ -8,13 +8,13 @@ url: /nodejs-cpp/accessing-table-from-cell-and-adding-values-inside-it-using-row
 
 {{% alert color="primary" %}}  
 
-Normally, you add values inside the Table or List Object using [**Cell.putValue()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#putValue-string) method. But sometimes, you might need to add values inside the Table or List Object using the row and column offsets.  
+Normally, you add values inside the Table or List Object using [**Cell.putValue(boolean)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#putValue-boolean-) method. But sometimes, you might need to add values inside the Table or List Object using the row and column offsets.  
 
-In order to access Table or List Object from a cell, use the [**Cell.getTable()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getTable) method. To add values inside it using the row and column offsets, use the [**ListObject.putCellValue()**](https://reference.aspose.com/cells/nodejs-cpp/listobject/#putCellValue-number-number-string) method.  
+In order to access Table or List Object from a cell, use the [**Cell.getTable()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getTable--) method. To add values inside it using the row and column offsets, use the [**ListObject.putCellValue(number, number, object)**](https://reference.aspose.com/cells/nodejs-cpp/listobject/#putCellValue-number-number-object-) method.  
 
 {{% /alert %}}  
 
-The following screenshot shows the source Excel file used inside the code. It contains the empty table and highlights the cell D5 which lies inside the table. We will access this table from cell D5 using [**Cell.getTable()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getTable) method and then add the values inside it using both [**Cell.putValue()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#putValue-string) and [**ListObject.putCellValue()**](https://reference.aspose.com/cells/nodejs-cpp/listobject/#putCellValue-number-number-string) methods.  
+The following screenshot shows the source Excel file used inside the code. It contains the empty table and highlights the cell D5 which lies inside the table. We will access this table from cell D5 using [**Cell.getTable()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getTable--) method and then add the values inside it using both [**Cell.putValue(boolean)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#putValue-boolean-) and [**ListObject.putCellValue(number, number, object)**](https://reference.aspose.com/cells/nodejs-cpp/listobject/#putCellValue-number-number-object-) methods.  
 
 ## Example  
 

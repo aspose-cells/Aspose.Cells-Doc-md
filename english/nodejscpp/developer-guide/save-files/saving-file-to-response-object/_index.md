@@ -19,10 +19,10 @@ It is also possible to generate a file dynamically and send it directly to a cli
 
 - Node.js response object.  
 - File name.  
-- [**ContentDisposition**](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells/contentdisposition), the content-disposition type of the output file.  
-- [**SaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells/saveoptions), the file format type  
+- [**ContentDisposition**](https://reference.aspose.com/cells/nodejs-cpp/contentdisposition/), the content-disposition type of the output file.  
+- [**SaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/saveoptions/), the file format type  
 
-The [**ContentDisposition**](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells/contentdisposition) enumeration determines whether the file being sent to the browser provides the option to open by itself directly in the browser or in an application associated with .xls/.xlsx or another extension.  
+The [**ContentDisposition**](https://reference.aspose.com/cells/nodejs-cpp/contentdisposition/) enumeration determines whether the file being sent to the browser provides the option to open by itself directly in the browser or in an application associated with .xls/.xlsx or another extension.  
 
 The enumeration contains the following pre-defined save types:  
 

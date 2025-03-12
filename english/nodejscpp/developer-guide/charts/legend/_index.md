@@ -9,12 +9,12 @@ url: /nodejs-cpp/chart-legend/
 ---
 
 ## **Legend Options**
-Aspose.Cells for Node.js via C++ also allows managing a chart's legend at runtime. The [Legend](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.charts/legend/) object can be moved, updated, and formatted.
+Aspose.Cells for Node.js via C++ also allows managing a chart's legend at runtime. The [Legend](https://reference.aspose.com/cells/nodejs-cpp/legend/) object can be moved, updated, and formatted.
 
 |![todo:image_alt_text](chart_legend.png)|
 
 ## **Setting the Legend of Chart**
-It's simple to manage the legend of the chart with Aspose.Cells [Legend](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.charts/legend/).
+It's simple to manage the legend of the chart with Aspose.Cells [Legend](https://reference.aspose.com/cells/nodejs-cpp/legend/).
 
 The following code snippet demonstrates how to manage the legend:
 

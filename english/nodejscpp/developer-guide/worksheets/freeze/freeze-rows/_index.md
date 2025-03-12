@@ -29,7 +29,7 @@ Freeze Rows let you view your large data without keeping track of the Row label.
 
 ## **Freeze Rows with Aspose.Cells for Node.js via C++**
 It's simple to freeze row(s) with Aspose.Cells for Node.js via C++. 
-Please use the [**Worksheet.freezePanes**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#freezePanes-number-number-) method to freeze row(s) at the selected row.
+Please use the [**Worksheet.freezePanes(number, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#freezePanes-number-number-number-number-) method to freeze row(s) at the selected row.
 1. Construct Workbook to open the file or create an empty file.
 2. Freeze the first row with Worksheet.freezePanes() method.
 3. Save the file.

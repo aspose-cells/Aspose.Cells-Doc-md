@@ -59,7 +59,7 @@ wb.save(path.join(dataDir, "CopyWithinWorkbook_out.xls"));
 
 ### **Copy Worksheets between Workbooks**
 
-Aspose.Cells provides a method, [**Aspose.Cells.Worksheet.copy()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#copy-object-), used to copy data and formatting from a source worksheet to another worksheet within or between workbooks. The method takes the source worksheet object as a parameter.
+Aspose.Cells provides a method, [**Worksheet.copy(Worksheet)**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#copy-worksheet-), used to copy data and formatting from a source worksheet to another worksheet within or between workbooks. The method takes the source worksheet object as a parameter.
 
 The following example shows how to copy a worksheet from one workbook to another workbook.
 

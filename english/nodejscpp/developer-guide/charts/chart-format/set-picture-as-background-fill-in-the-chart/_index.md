@@ -14,7 +14,7 @@ Aspose.Cells allows you to set a gradient, texture, pattern, or picture as fill 
 
 {{% /alert %}}
 
-To achieve this, Aspose.Cells provides the [**Chart.plotArea.area.fillFormat.imageData**](https://reference.aspose.com/cells/nodejs-cpp/chart/#plotArea) property. The following code sample demonstrates the use of [**Chart.plotArea.area.fillFormat.imageData**](https://reference.aspose.com/cells/nodejs-cpp/chart/#plotArea) property to set a picture as a background fill in the chart.
+To achieve this, Aspose.Cells provides the [**Chart.getPlotArea()**](https://reference.aspose.com/cells/nodejs-cpp/chart/#getPlotArea--) property. The following code sample demonstrates the use of [**Chart.getPlotArea()**](https://reference.aspose.com/cells/nodejs-cpp/chart/#getPlotArea--) property to set a picture as a background fill in the chart.
 
 ## Node.js code to set picture as background fill in the chart
 

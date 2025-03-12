@@ -24,7 +24,7 @@ To split up a worksheet into two or four parts, do as the following:
 
 To separate two areas of the spreadsheet vertically, select the column to the right of the column where you wish the split to appear and click the Split button in Excel.
 
-It's easy to split worksheet vertically on columns programmatically with Aspose.Cells for Node.js via C++, we only need to select one cell in the top row as active cell, then split with [**Worksheet.split**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#split-number-number-number-number) method.
+It's easy to split worksheet vertically on columns programmatically with Aspose.Cells for Node.js via C++, we only need to select one cell in the top row as active cell, then split with [**Worksheet.split()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#split--) method.
 
 ```javascript
 const path = require("path");
@@ -49,7 +49,7 @@ sheet.split();
 ## **Split worksheet horizontally on rows**
 To separate your Excel window horizontally, select the row below the row where you want the split to occur in Excel.
 
-It's easy to split worksheet horizontally on rows programmatically with Aspose.Cells for Node.js via C++, we only need to select one cell in the left column as active cell, then split with [**Worksheet.split**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#split-number-number-number-number) method.
+It's easy to split worksheet horizontally on rows programmatically with Aspose.Cells for Node.js via C++, we only need to select one cell in the left column as active cell, then split with [**Worksheet.split()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#split--) method.
 
 ```javascript
 const path = require("path");
@@ -75,7 +75,7 @@ workbook.save("dest.xlsx");
 ## **Split worksheet into four parts**
 To view four different sections of the same worksheet simultaneously, split your screen both vertically and horizontally in Excel.
 
-It's easy to split worksheet vertically on columns programmatically with Aspose.Cells for Node.js via C++, we only need to select one cell not in the first row and column as active cell, then split with [**Worksheet.split**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#split-number-number-number-number) method.
+It's easy to split worksheet vertically on columns programmatically with Aspose.Cells for Node.js via C++, we only need to select one cell not in the first row and column as active cell, then split with [**Worksheet.split()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#split--) method.
 
 ```javascript
 const path = require("path");
@@ -100,7 +100,7 @@ sheet.split();
 ## **How to remove split**
 To remove the worksheet splitting, just click the Split button again.
 
-Aspose.Cells for Node.js via C++ provides a [**Worksheet.removeSplit**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#removeSplit) method to remove split setting.
+Aspose.Cells for Node.js via C++ provides a [**Worksheet.removeSplit()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#removeSplit--) method to remove split setting.
 
 ```javascript
 const path = require("path");

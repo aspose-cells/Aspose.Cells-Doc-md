@@ -14,7 +14,7 @@ It is possible to protect the workbooks and worksheets separately. For instance,
 
 {{% /alert %}}
 
-Aspose.Cells for Node.js via C++ has exposed the [**Protection.isProtectedWithPassword**](https://reference.aspose.com/cells/nodejs-cpp/protection/#isProtectedWithPassword) property to detect if a worksheet is password protected or not. Boolean type [**Protection.isProtectedWithPassword**](https://reference.aspose.com/cells/nodejs-cpp/protection/#isProtectedWithPassword) property returns **true** if [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) is password-protected and **false** if not.
+Aspose.Cells for Node.js via C++ has exposed the [**Protection.isProtectedWithPassword()**](https://reference.aspose.com/cells/nodejs-cpp/protection/#isProtectedWithPassword--) property to detect if a worksheet is password protected or not. Boolean type [**Protection.isProtectedWithPassword()**](https://reference.aspose.com/cells/nodejs-cpp/protection/#isProtectedWithPassword--) property returns **true** if [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) is password-protected and **false** if not.
 
 ```javascript
 const path = require("path");

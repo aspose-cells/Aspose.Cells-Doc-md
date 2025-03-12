@@ -8,7 +8,7 @@ url: /nodejs-cpp/implement-subtotal-or-grand-total-labels-in-other-languages/
 
 ## **Possible Usage Scenarios**  
 
-Sometimes, you want to show subtotal and grand total labels in non-English languages like Chinese, Japanese, Arabic, Hindi, etc. Aspose.Cells for Node.js via C++ allows you to do this using the [**GlobalizationSettings**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings) class and [**Workbook.GlobalizationSettings**](https://reference.aspose.com/cells/nodejs-cpp/workbook-settings/#globalizationSettings) property. Please see this article on how to make use of [**GlobalizationSettings**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings) class  
+Sometimes, you want to show subtotal and grand total labels in non-English languages like Chinese, Japanese, Arabic, Hindi, etc. Aspose.Cells for Node.js via C++ allows you to do this using the [**GlobalizationSettings**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings) class and [**GlobalizationSettings**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings/) property. Please see this article on how to make use of [**GlobalizationSettings**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings) class  
 
 - [Using GlobalizationSettings Class for Custom Subtotal Labels and Other Label of Pie Chart](/cells/nodejs-cpp/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/)  
 

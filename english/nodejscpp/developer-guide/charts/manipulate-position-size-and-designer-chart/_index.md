@@ -9,15 +9,15 @@ url: /nodejs-cpp/manipulate-position-size-and-designer-chart/
 ---
 
 ## **Chart Position and Size**
-Sometimes, you want to change the position or size of the new or existing chart inside the worksheet. Aspose.Cells provides the [Chart.chartObject](https://reference.aspose.com/cells/nodejs-cpp/chart/#chartobject) property to achieve this. You can use its sub-properties to re-size the chart with new **height** and **width** or re-position it with new **X** and **Y** coordinates.
+Sometimes, you want to change the position or size of the new or existing chart inside the worksheet. Aspose.Cells provides the [Chart.getChartObject()](https://reference.aspose.com/cells/nodejs-cpp/chart/#getChartObject--) property to achieve this. You can use its sub-properties to re-size the chart with new **height** and **width** or re-position it with new **X** and **Y** coordinates.
 
 ### **Controlling Chart Position and Size**
 To change the chart's position (X, Y coordinates) or size (height, width), use these properties:
 
-1. [Chart.chartObject.X](https://reference.aspose.com/cells/nodejs-cpp/shape/#x)
-1. [Chart.chartObject.Y](https://reference.aspose.com/cells/nodejs-cpp/shape/#y)
-1. [Chart.chartObject.Height](https://reference.aspose.com/cells/nodejs-cpp/shape/#height)
-1. [Chart.chartObject.Width](https://reference.aspose.com/cells/nodejs-cpp/shape/#width)
+1. [Shape.getX()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getX--)
+1. [Shape.getY()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getY--)
+1. [Shape.getHeight()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getHeight--)
+1. [Shape.getWidth()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getWidth--)
 
 The following example explains the usage of the above APIs; it loads the existing workbook which contains a chart in its first worksheet. Then it re-sizes and re-positions the chart using Aspose.Cells.
 

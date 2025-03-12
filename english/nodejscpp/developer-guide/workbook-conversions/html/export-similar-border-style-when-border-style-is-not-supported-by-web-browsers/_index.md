@@ -9,11 +9,11 @@ description: Learn how to export borders that are not supported by web browsers 
 
 ## **Possible Usage Scenarios**  
 
-Microsoft Excel supports some types of dashed borders which are not supported by Web Browsers. When you convert such an Excel file into HTML using Aspose.Cells for Node.js via C++, such borders are removed. However, Aspose.Cells can also support the display of such borders with the [**HtmlSaveOptions.exportSimilarBorderStyle**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#exportSimilarBorderStyle-boolean-) property. Please set its value as **true** and the unsupported borders will also be exported to the HTML file.  
+Microsoft Excel supports some types of dashed borders which are not supported by Web Browsers. When you convert such an Excel file into HTML using Aspose.Cells for Node.js via C++, such borders are removed. However, Aspose.Cells can also support the display of such borders with the [**HtmlSaveOptions.getExportSimilarBorderStyle()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getExportSimilarBorderStyle--) property. Please set its value as **true** and the unsupported borders will also be exported to the HTML file.  
 
 ## **Export similar Border Style when Border Style is not supported by Web Browsers**  
 
-The following sample code loads the [sample Excel file](64716806.xlsx) that contains some unsupported borders as shown in the following screenshot. The screenshot further illustrates the effect of [**HtmlSaveOptions.exportSimilarBorderStyle**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#exportSimilarBorderStyle-boolean-) property inside the [output HTML](64716804.zip).  
+The following sample code loads the [sample Excel file](64716806.xlsx) that contains some unsupported borders as shown in the following screenshot. The screenshot further illustrates the effect of [**HtmlSaveOptions.getExportSimilarBorderStyle()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getExportSimilarBorderStyle--) property inside the [output HTML](64716804.zip).  
 
 ![todo:image_alt_text](export-similar-border-style-when-border-style-is-not-supported-by-web-browsers_1.png)  
 

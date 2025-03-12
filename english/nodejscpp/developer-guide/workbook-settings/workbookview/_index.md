@@ -11,14 +11,14 @@ keywords: How to Control Workbook View Node.js via C++, Set Excel View Node.js v
 ## **Possible Usage Scenarios**
 When you need to adjust the display of Excel pages, you need to know how to control each module, such as horizontal and vertical scrollbars, whether to hide open Excel files, and so on. Aspose.Cells for Node.js via C++ offers this feature. Aspose.Cells for Node.js via C++ provides the following properties and methods to help you to achieve your goals.
 
-- [**WorkbookSettings.isHScrollBarVisible**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#ishScrollBarVisible-)
-- [**WorkbookSettings.isVScrollBarVisible**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#isVScrollBarVisible-)
-- [**WorkbookSettings.isHidden**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#isHidden-)
-- [**WorkbookSettings.isMinimized**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#isMinimized-)
-- [**WorkbookSettings.windowHeight**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#windowHeight-)
-- [**WorkbookSettings.windowWidth**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#windowWidth-)
-- [**WorkbookSettings.windowLeft**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#windowLeft-)
-- [**WorkbookSettings.windowTop**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#windowTop-)
+- [**WorkbookSettings.isHScrollBarVisible()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#isHScrollBarVisible--)
+- [**WorkbookSettings.isVScrollBarVisible()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#isVScrollBarVisible--)
+- [**WorkbookSettings.isHidden()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#isHidden--)
+- [**WorkbookSettings.isMinimized()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#isMinimized--)
+- [**WorkbookSettings.getWindowHeight()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getWindowHeight--)
+- [**WorkbookSettings.getWindowWidth()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getWindowWidth--)
+- [**WorkbookSettings.getWindowLeft()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getWindowLeft--)
+- [**WorkbookSettings.getWindowTop()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getWindowTop--)
 
 ## **How to Control Workbook View using Aspose.Cells for Node.js via C++**
 This example shows how to:

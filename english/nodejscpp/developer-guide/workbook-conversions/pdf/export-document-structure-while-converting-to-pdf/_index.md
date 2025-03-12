@@ -9,7 +9,7 @@ description: Learn how to export document structure while converting an Excel fi
 
 PDF logical structure facilities provide a mechanism for incorporating information regarding the document content structure into a PDF file. Aspose.Cells for Node.js via C++ preserves information about the structure from a Microsoft Excel document, such as cell, row, table, worksheet, image, shape, header/footer, etc.
 
-With option [PdfSaveOptions.exportDocumentStructure](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#exportDocumentStructure) you can save to a tagged PDF with the document structure exported.
+With option [PdfSaveOptions.getExportDocumentStructure()](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getExportDocumentStructure--) you can save to a tagged PDF with the document structure exported.
 
 ```javascript
 const path = require("path");

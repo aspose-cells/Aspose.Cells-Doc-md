@@ -9,7 +9,7 @@ description: Learn how to load an Excel file without charts using Aspose.Cells f
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to load your Excel file without charts. Please use [**LoadOptions.loadFilter**](https://reference.aspose.com/cells/nodejs-cpp/loadoptions/#loadFilter) property for this purpose.
+Aspose.Cells allows you to load your Excel file without charts. Please use [**LoadOptions.getLoadFilter()**](https://reference.aspose.com/cells/nodejs-cpp/loadoptions/#getLoadFilter--) property for this purpose.
 
 {{% /alert %}}
 

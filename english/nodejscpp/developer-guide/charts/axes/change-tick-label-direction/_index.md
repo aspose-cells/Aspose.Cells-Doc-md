@@ -10,7 +10,7 @@ url: /nodejs-cpp/change-tick-label-direction/
 
 ## **Change Tick Label Direction**
 
-Aspose.Cells provides you with the ability to change the chart tick label direction by using the [**TickLabels.directionType**](https://reference.aspose.com/cells/nodejs-cpp/ticklabels/#directionType) property. The [**TickLabels.directionType**](https://reference.aspose.com/cells/nodejs-cpp/ticklabels/#directionType) property accepts the [**ChartTextDirectionType**](https://reference.aspose.com/cells/nodejs-cpp/charttextdirectiontype) enumeration value. The [**ChartTextDirectionType**](https://reference.aspose.com/cells/nodejs-cpp/charttextdirectiontype) enumeration provides the following members:
+Aspose.Cells provides you with the ability to change the chart tick label direction by using the [**TickLabels.getDirectionType()**](https://reference.aspose.com/cells/nodejs-cpp/ticklabels/#getDirectionType--) property. The [**TickLabels.getDirectionType()**](https://reference.aspose.com/cells/nodejs-cpp/ticklabels/#getDirectionType--) property accepts the [**ChartTextDirectionType**](https://reference.aspose.com/cells/nodejs-cpp/charttextdirectiontype) enumeration value. The [**ChartTextDirectionType**](https://reference.aspose.com/cells/nodejs-cpp/charttextdirectiontype) enumeration provides the following members:
 
 - Horizontal
 - Vertical

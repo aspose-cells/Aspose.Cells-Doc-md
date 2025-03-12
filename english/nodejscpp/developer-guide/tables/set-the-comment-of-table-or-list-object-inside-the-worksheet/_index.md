@@ -9,7 +9,7 @@ description: Learn how to set the comment of the table or list object inside the
 
 {{% alert color="primary" %}}
 
-You can set the comment of the Table or List Object inside the worksheet using the [**ListObject.comment**](https://reference.aspose.com/cells/nodejs-cpp/listobject/#comment-string) property. The comment will be visible inside the xl/tables/tableName.xml file.
+You can set the comment of the Table or List Object inside the worksheet using the [**ListObject.getComment()**](https://reference.aspose.com/cells/nodejs-cpp/listobject/#getComment--) property. The comment will be visible inside the xl/tables/tableName.xml file.
 
 {{% /alert %}}
 

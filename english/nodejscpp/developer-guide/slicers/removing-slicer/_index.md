@@ -8,7 +8,7 @@ url: /nodejs-cpp/removing-slicer/
 
 ## **Possible Usage Scenarios**
 
-If you want to remove a slicer in Excel, just select it and press the *Delete* button. Similarly, if you want to remove it using Aspose.Cells API programmatically, please use the [**Worksheet.slicers.remove()**](https://reference.aspose.com/cells/nodejs-cpp/slicercollection/#remove-string-) method. It will remove the slicer from the worksheet.
+If you want to remove a slicer in Excel, just select it and press the *Delete* button. Similarly, if you want to remove it using Aspose.Cells API programmatically, please use the [**SlicerCollection.remove(Slicer)**](https://reference.aspose.com/cells/nodejs-cpp/slicercollection/#remove-slicer-) method. It will remove the slicer from the worksheet.
 
 ## **Removing Slicer**
 

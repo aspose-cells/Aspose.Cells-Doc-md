@@ -18,7 +18,7 @@ You may want to know which row and column is this cell in.
 When you only need to manipulate a specific data on the worksheet by row and column index, you need to know the column and column indexes of that specific cell. 
 Aspose.Cells for Node.js via C++ offers this feature to get row and column index by the name of the row, column and cell. 
 Aspose.Cells for Node.js via C++ provides the following properties and methods to help you achieve your goals.
-- [**CellsHelper.cellNameToIndex**](https://reference.aspose.com/cells/nodejs-cpp/cellshelper/#cellNameToIndex-string-number-number-)
+- [**CellsHelper.cellNameToIndex(string)**](https://reference.aspose.com/cells/nodejs-cpp/cellshelper/#cellNameToIndex-string-)
 - [**CellsHelper.columnIndexToName**](https://reference.aspose.com/cells/nodejs-cpp/cellshelper/#columnIndexToName-number-)
 - [**CellsHelper.columnNameToIndex**](https://reference.aspose.com/cells/nodejs-cpp/cellshelper/#columnNameToIndex-string-)
 - [**CellsHelper.rowIndexToName**](https://reference.aspose.com/cells/nodejs-cpp/cellshelper/#rowIndexToName-number-)

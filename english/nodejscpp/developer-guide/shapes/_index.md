@@ -29,7 +29,7 @@ This guide document will select one or two shapes from each type to make samples
 ## **Adding Pictures in Excel Worksheet using Node.js**  
 
 Adding pictures to a spreadsheet is very easy. It only takes a few lines of code:  
-Simply call the [**Add**](https://reference.aspose.com/cells/nodejs-cpp/picturecollection/#add-int-int-string-) method of the [**Pictures**](https://reference.aspose.com/cells/nodejs-cpp/picturecollection) collection (encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) object). The [**Add**](https://reference.aspose.com/cells/nodejs-cpp/picturecollection/#add-int-int-string-) method takes the following parameters:  
+Simply call the [**PictureCollection.add(number, number, number, number, Uint8Array)**](https://reference.aspose.com/cells/nodejs-cpp/picturecollection/#add-number-number-number-number-uint8array-) method of the [**Pictures**](https://reference.aspose.com/cells/nodejs-cpp/picturecollection) collection (encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) object). The [**PictureCollection.add(number, number, number, number, Uint8Array)**](https://reference.aspose.com/cells/nodejs-cpp/picturecollection/#add-number-number-number-number-uint8array-) method takes the following parameters:  
 
 - **Upper left row index**, the index of the upper left row.  
 - **Upper left column index**, the index of the upper left column.  
@@ -63,8 +63,8 @@ workbook.save(path.join(dataDir, "output.xls"));
 
 Aspose.Cells supports adding, extracting, and manipulating OLE objects in worksheets. For this reason, Aspose.Cells has the [**OleObjectCollection**](https://reference.aspose.com/cells/nodejs-cpp/oleobjectcollection) class, used to add a new OLE Object to the collection list. Another class, [**OleObject**](https://reference.aspose.com/cells/nodejs-cpp/oleobject), represents an OLE Object. It has some important members:  
 
-- The [**ImageData**](https://reference.aspose.com/cells/nodejs-cpp/oleobject/#imagedata) property specifies the image (icon) data of byte array type. The image will be displayed to show the OLE Object in the worksheet.  
-- The [**ObjectData**](https://reference.aspose.com/cells/nodejs-cpp/oleobject/#objectdata) property specifies the object data in the form of a byte array. This data will be shown in its related program when you double-click on the OLE Object icon.  
+- The [**OleObject.getImageData()**](https://reference.aspose.com/cells/nodejs-cpp/oleobject/#getImageData--) property specifies the image (icon) data of byte array type. The image will be displayed to show the OLE Object in the worksheet.  
+- The [**OleObject.getObjectData()**](https://reference.aspose.com/cells/nodejs-cpp/oleobject/#getObjectData--) property specifies the object data in the form of a byte array. This data will be shown in its related program when you double-click on the OLE Object icon.  
 
 The following example shows how to add an OLE Object(s) into a worksheet.  
 
@@ -122,7 +122,7 @@ The shape of the line belongs to the **lines** category.
 You can use the following method to insert a line in the worksheet.  
 
 {{% alert color="primary" %}}  
-[**public LineShape AddLine(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addline-int-int-int-int-int-int-)  
+[**ShapeCollection.addLine(number, number, number, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addLine-number-number-number-number-number-number-)  
 The method returns a [LineShape](https://reference.aspose.com/cells/nodejs-cpp/lineshape) object.  
 {{% /alert %}}  
 
@@ -171,7 +171,7 @@ The shape of the line arrow belongs to the **Lines** category. It is a special c
 You can use the following method to insert a line arrow in the worksheet.  
 
 {{% alert color="primary" %}}  
-[**public LineShape AddLine(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addline-int-int-int-int-int-int-)  
+[**ShapeCollection.addLine(number, number, number, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addLine-number-number-number-number-number-number-)  
 The method returns a [LineShape](https://reference.aspose.com/cells/nodejs-cpp/lineshape) object.  
 {{% /alert %}}  
 
@@ -230,7 +230,7 @@ The shape of the rectangle belongs to the **Rectangles** category.
 You can use the following method to insert a rectangle in the worksheet.  
 
 {{% alert color="primary" %}}  
-[**public RectangleShape AddRectangle(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addrectangle-int-int-int-int-int-int-)  
+[**ShapeCollection.addRectangle(number, number, number, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addRectangle-number-number-number-number-number-number-)  
 The method returns a [RectangleShape](https://reference.aspose.com/cells/nodejs-cpp/rectangleshape) object.  
 {{% /alert %}}  
 
@@ -277,7 +277,7 @@ The shape of the cube belongs to the **Basic Shapes** category.
 You can use the following method to insert a cube in the worksheet.  
 
 {{% alert color="primary" %}}  
-[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addautoshape-autoshapetype-int-int-int-int-int-int-)  
+[**ShapeCollection.addAutoShape(AutoShapeType, number, number, number, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addAutoShape-autoshapetype-number-number-number-number-number-number-)  
 The method returns a [Shape](https://reference.aspose.com/cells/nodejs-cpp/shape) object.  
 {{% /alert %}}  
 
@@ -324,7 +324,7 @@ The shape of the callout quad arrow belongs to the **Block Arrows** category.
 You can use the following method to insert a callout quad arrow in the worksheet.  
 
 {{% alert color="primary" %}}  
-[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addautoshape-autoshapetype-int-int-int-int-int-int-)  
+[**ShapeCollection.addAutoShape(AutoShapeType, number, number, number, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addAutoShape-autoshapetype-number-number-number-number-number-number-)  
 The method returns a [Shape](https://reference.aspose.com/cells/nodejs-cpp/shape) object.  
 {{% /alert %}}  
 
@@ -371,7 +371,7 @@ The shape of the multiplication sign belongs to the **Equation Shapes** category
 You can use the following method to insert a multiplication sign in the worksheet.  
 
 {{% alert color="primary" %}}  
-[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addautoshape-autoshapetype-int-int-int-int-int-int-)  
+[**ShapeCollection.addAutoShape(AutoShapeType, number, number, number, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addAutoShape-autoshapetype-number-number-number-number-number-number-)  
 The method returns a [Shape](https://reference.aspose.com/cells/nodejs-cpp/shape) object.  
 {{% /alert %}}  
 
@@ -418,7 +418,7 @@ The shape of the multidocument belongs to the **FlowCharts** category.
 You can use the following method to insert a multidocument in the worksheet.  
 
 {{% alert color="primary" %}}  
-[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addautoshape-autoshapetype-int-int-int-int-int-int-)  
+[**ShapeCollection.addAutoShape(AutoShapeType, number, number, number, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addAutoShape-autoshapetype-number-number-number-number-number-number-)  
 The method returns a [Shape](https://reference.aspose.com/cells/nodejs-cpp/shape) object.  
 {{% /alert %}}  
 
@@ -465,7 +465,7 @@ The shape of the Five-pointed star belongs to the **Stars and Banners** category
 You can use the following method to insert a Five-pointed star in the worksheet.  
 
 {{% alert color="primary" %}}  
-[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addautoshape-autoshapetype-int-int-int-int-int-int-)  
+[**ShapeCollection.addAutoShape(AutoShapeType, number, number, number, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addAutoShape-autoshapetype-number-number-number-number-number-number-)  
 The method returns a [Shape](https://reference.aspose.com/cells/nodejs-cpp/shape) object.  
 {{% /alert %}}  
 
@@ -512,7 +512,7 @@ The shape of the thought bubble cloud belongs to the **Callouts** category.
 You can use the following method to insert a thought bubble cloud in the worksheet.  
 
 {{% alert color="primary" %}}  
-[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addautoshape-autoshapetype-int-int-int-int-int-int-)  
+[**ShapeCollection.addAutoShape(AutoShapeType, number, number, number, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addAutoShape-autoshapetype-number-number-number-number-number-number-)  
 The method returns a [Shape](https://reference.aspose.com/cells/nodejs-cpp/shape) object.  
 {{% /alert %}}  
 

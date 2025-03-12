@@ -9,7 +9,7 @@ description: Learn how to find the absolute position of a shape inside a workshe
 
 {{% alert color="primary" %}}
 
-Sometimes, you need to know the absolute position of a shape in a worksheet. Aspose.Cells for Node.js via C++ provides the [**Shape.leftToCorner**](https://reference.aspose.com/cells/nodejs-cpp/shape/#leftToCorner) and [**Shape.topToCorner**](https://reference.aspose.com/cells/nodejs-cpp/shape/#topToCorner) properties for this purpose. These properties return the absolute position of the shape inside the worksheet in pixels.
+Sometimes, you need to know the absolute position of a shape in a worksheet. Aspose.Cells for Node.js via C++ provides the [**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getLeftToCorner--) and [**Shape.getTopToCorner()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getTopToCorner--) properties for this purpose. These properties return the absolute position of the shape inside the worksheet in pixels.
 
 {{% /alert %}}
 

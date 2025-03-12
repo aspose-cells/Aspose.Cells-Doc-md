@@ -9,10 +9,10 @@ description: Learn how to implement Errors and Boolean values in different langu
 
 ## **Possible Usage Scenarios**
 
-If you are using Microsoft Excel in Russian Locale or Language or any other Locale or Language, it will display Errors and Boolean values according to that Locale or Language. You can achieve a similar behavior using Aspose.Cells for Node.js via C++ by using the [**Workbook.settings.globalizationSettings**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#globalizationSettings) property. You will have to override the following methods of the [**GlobalizationSettings**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings) class.
+If you are using Microsoft Excel in Russian Locale or Language or any other Locale or Language, it will display Errors and Boolean values according to that Locale or Language. You can achieve a similar behavior using Aspose.Cells for Node.js via C++ by using the [**WorkbookSettings.getGlobalizationSettings()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getGlobalizationSettings--) property. You will have to override the following methods of the [**GlobalizationSettings**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings) class.
 
-- [**GlobalizationSettings.getErrorValueString()**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings/#getErrorValueString)
-- [**GlobalizationSettings.getBooleanValueString()**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings/#getBooleanValueString)
+- [**GlobalizationSettings.getErrorValueString(string)**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings/#getErrorValueString-string-)
+- [**GlobalizationSettings.getBooleanValueString(boolean)**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings/#getBooleanValueString-boolean-)
 
 ## **Implement Errors and Boolean Value in Russian or Any Other Language**
 

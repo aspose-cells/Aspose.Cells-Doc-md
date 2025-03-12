@@ -10,7 +10,7 @@ url: /nodejs-cpp/creating-pie-chart-with-leader-lines/
 
 {{% alert color="primary" %}}
 
-This article explains how to create a pie chart with leader lines from scratch while using Aspose.Cells for Node.js via C++ API. In Excel, the 'Show leader lines' option is set by default so when you create a pie chart in Excel the leader lines are shown. However, while creating a similar chart with Aspose.Cells APIs, you have to explicitly set the [**Series.hasLeaderLines**](https://reference.aspose.com/cells/nodejs-cpp/series/#hasLeaderLines) property.
+This article explains how to create a pie chart with leader lines from scratch while using Aspose.Cells for Node.js via C++ API. In Excel, the 'Show leader lines' option is set by default so when you create a pie chart in Excel the leader lines are shown. However, while creating a similar chart with Aspose.Cells APIs, you have to explicitly set the [**Series.getHasLeaderLines()**](https://reference.aspose.com/cells/nodejs-cpp/series/#getHasLeaderLines--) property.
 
 {{% /alert %}}
 

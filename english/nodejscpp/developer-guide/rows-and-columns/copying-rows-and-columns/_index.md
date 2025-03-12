@@ -36,19 +36,19 @@ If you click **Paste** on the **Standard** toolbar or press **CTRL**+**V** inste
 
 ## **How to Copy Single Rows**  
 
-Aspose.Cells provides the [**copyRow**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyRow) method of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) class. This method copies all types of data including formulas, values, comments, cell formats, hidden cells, images and other drawing objects from the source row to the destination row.  
+Aspose.Cells provides the [**Cells.copyRow(Cells, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyRow-cells-number-number-) method of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) class. This method copies all types of data including formulas, values, comments, cell formats, hidden cells, images and other drawing objects from the source row to the destination row.  
 
-The [**copyRow**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyRow) method takes the following parameters:  
+The [**Cells.copyRow(Cells, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyRow-cells-number-number-) method takes the following parameters:  
 
 - the source [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) object,  
 - the source row index, and  
 - the destination row index.  
 
-Use this method to copy a row within a sheet, or to another sheet. The [**copyRow**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyRow) method works in a similar way to Microsoft Excel. So, for example, you don't need to set the height of the destination row explicitly, that value is copied too.  
+Use this method to copy a row within a sheet, or to another sheet. The [**Cells.copyRow(Cells, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyRow-cells-number-number-) method works in a similar way to Microsoft Excel. So, for example, you don't need to set the height of the destination row explicitly, that value is copied too.  
 
 The following example shows how to copy a row in a worksheet. It uses a template Microsoft Excel file and copies the second row (complete with data, formatting, comments, images and so on) and pastes it to the 12th row in the same worksheet.  
 
-You can skip the step that gets the source row height using the [**getRowHeight**](https://reference.aspose.com/cells/nodejs-cpp/cells/#getRowHeight) method and then sets the destination row height using the [**setRowHeight**](https://reference.aspose.com/cells/nodejs-cpp/cells/#setRowHeight) method as the [**copyRow**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyRow) method automatically takes care of the row height.  
+You can skip the step that gets the source row height using the [**Cells.getRowHeight(number, boolean, CellsUnitType)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#getRowHeight-number-boolean-cellsunittype-) method and then sets the destination row height using the [**Cells.setRowHeight(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#setRowHeight-number-number-) method as the [**Cells.copyRow(Cells, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyRow-cells-number-number-) method automatically takes care of the row height.  
 
 ```javascript
 const path = require("path");
@@ -80,7 +80,7 @@ When copying rows, it is important to note related images, charts or other drawi
 
 ## **How to Copy Multiple Rows**  
 
-You can also copy multiple rows onto a new destination while using the [**copyRows**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyRows) method which takes an additional parameter of type integer to specify the number of source rows to be copied.  
+You can also copy multiple rows onto a new destination while using the [**Cells.copyRows(Cells, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyRows-cells-number-number-number-) method which takes an additional parameter of type integer to specify the number of source rows to be copied.  
 
 ```javascript
 const path = require("path");
@@ -105,15 +105,15 @@ workbook.save(path.join(dataDir, "output_out.xlsx"));
 
 ## **How to Copy Columns**  
 
-Aspose.Cells provides the [**copyColumn**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyColumn) method of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) class, this method copies all types of data, including formulas - with updated references - and values, comments, cell formats, hidden cells, images and other drawing objects from the source column to the destination column.  
+Aspose.Cells provides the [**Cells.copyColumn(Cells, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyColumn-cells-number-number-) method of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) class, this method copies all types of data, including formulas - with updated references - and values, comments, cell formats, hidden cells, images and other drawing objects from the source column to the destination column.  
 
-The [**copyColumn**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyColumn) method takes the following parameters:  
+The [**Cells.copyColumn(Cells, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyColumn-cells-number-number-) method takes the following parameters:  
 
 - the source [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) object,  
 - source column index, and  
 - the destination column index.  
 
-Use the [**copyColumn**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyColumn) method to copy a column within a sheet or to another sheet.  
+Use the [**Cells.copyColumn(Cells, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyColumn-cells-number-number-) method to copy a column within a sheet or to another sheet.  
 
 This example copies a column from a worksheet and pastes it into a worksheet in another workbook.  
 
@@ -143,7 +143,7 @@ excelWorkbook1.save(path.join(dataDir, "output.xls"));
 
 ## **How to Copy Multiple Columns**  
 
-Similar to [**copyRows**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyRows) method, the Aspose.Cells APIs also provide the [**copyColumns**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyColumns) method in order to copy multiple source columns to a new location.  
+Similar to [**Cells.copyRows(Cells, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyRows-cells-number-number-number-) method, the Aspose.Cells APIs also provide the [**Cells.copyColumns(Cells, number, number, number, PasteOptions)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyColumns-cells-number-number-number-pasteoptions-) method in order to copy multiple source columns to a new location.  
 
 ```javascript
 const path = require("path");
@@ -168,7 +168,7 @@ workbook.save(path.join(dataDir, "output_out.xlsx"));
 
 ## **How to Paste Rows and Columns with Paste Options**  
 
-Aspose.Cells now provides [**PasteOptions**](https://reference.aspose.com/cells/nodejs-cpp/cells/#pasteOptions) while using functions [**copyRows**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyRows) and [**copyColumns**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyColumns). It allows to set appropriate paste option similar to Excel.  
+Aspose.Cells now provides [**PasteOptions**](https://reference.aspose.com/cells/nodejs-cpp/pasteoptions/) while using functions [**Cells.copyRows(Cells, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyRows-cells-number-number-number-) and [**Cells.copyColumns(Cells, number, number, number, PasteOptions)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#copyColumns-cells-number-number-number-pasteoptions-). It allows to set appropriate paste option similar to Excel.  
 
 ```javascript
 const path = require("path");

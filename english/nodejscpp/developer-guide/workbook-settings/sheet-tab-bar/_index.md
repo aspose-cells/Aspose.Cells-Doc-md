@@ -11,9 +11,9 @@ keywords: How to Control Sheet Tab Bar Node.js via C++, Operate Sheet Tab Bar No
 ## **Possible Usage Scenarios**  
 When you need to adjust the display of Excel sheet bar, you need to know how to control the sheet tab bar, such as hiding or showing the sheet tab bar, changing the sheet tab bar width, specifying the first visible tab, and so on. Aspose.Cells for Node.js via C++ supports these features. Aspose.Cells provides the following properties and methods to help you achieve your goals.
 
-- [**WorkbookSettings.showTabs**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#showTabs-boolean-)
-- [**WorkbookSettings.sheetTabBarWidth**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#sheetTabBarWidth-number-)
-- [**WorkbookSettings.firstVisibleTab**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#firstVisibleTab-number-)
+- [**WorkbookSettings.getShowTabs()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getShowTabs--)
+- [**WorkbookSettings.getSheetTabBarWidth()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getSheetTabBarWidth--)
+- [**WorkbookSettings.getFirstVisibleTab()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getFirstVisibleTab--)
 
 ## **How to Control Sheet Tab Bar using Aspose.Cells for Node.js via C++**  
 This example shows how to:

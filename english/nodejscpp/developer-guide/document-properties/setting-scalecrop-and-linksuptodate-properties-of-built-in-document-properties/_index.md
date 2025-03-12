@@ -8,7 +8,7 @@ description: Learn how to set ScaleCrop and LinksUpToDate properties of built-in
 ---
 
 ## **Possible Usage Scenarios**
-[ScaleCrop](https://reference.aspose.com/cells/nodejs-cpp/builtindocumentpropertycollection/#scalecrop-boolean-) and [LinksUpToDate](https://reference.aspose.com/cells/nodejs-cpp/builtindocumentpropertycollection/#linksuptodate-boolean-) are two extended built-in document properties defined inside the OpenXml format. The purpose of these properties are following.
+[BuiltInDocumentPropertyCollection.getScaleCrop()](https://reference.aspose.com/cells/nodejs-cpp/builtindocumentpropertycollection/#getScaleCrop--) and [BuiltInDocumentPropertyCollection.getLinksUpToDate()](https://reference.aspose.com/cells/nodejs-cpp/builtindocumentpropertycollection/#getLinksUpToDate--) are two extended built-in document properties defined inside the OpenXml format. The purpose of these properties are following.
 
 ## **1) ScaleCrop**
 This element indicates the display mode of the document thumbnail. Set this element to **TRUE** to enable scaling of the document thumbnail to the display. Set this element to **FALSE** to enable cropping of the document thumbnail to show only sections that fit the display.
@@ -24,7 +24,7 @@ The possible values for this element are defined by the W3C XML Schema boolean d
 ![todo:image_alt_text](setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties_1.png)
 
 ## **Setting ScaleCrop and LinksUpToDate properties of Built-In Document Properties**
-The following sample code sets the [ScaleCrop](https://reference.aspose.com/cells/nodejs-cpp/builtindocumentpropertycollection/#scalecrop-boolean-) and [LinksUpToDate](https://reference.aspose.com/cells/nodejs-cpp/builtindocumentpropertycollection/#linksuptodate-boolean-) extended built-in document properties of the workbook. Please check the [output excel file](5115500.xlsx) generated with this code, change its extension to .zip and extract its contents and view the app.xml as shown in the screenshot above.
+The following sample code sets the [BuiltInDocumentPropertyCollection.getScaleCrop()](https://reference.aspose.com/cells/nodejs-cpp/builtindocumentpropertycollection/#getScaleCrop--) and [BuiltInDocumentPropertyCollection.getLinksUpToDate()](https://reference.aspose.com/cells/nodejs-cpp/builtindocumentpropertycollection/#getLinksUpToDate--) extended built-in document properties of the workbook. Please check the [output excel file](5115500.xlsx) generated with this code, change its extension to .zip and extract its contents and view the app.xml as shown in the screenshot above.
 
 ```javascript
 const path = require("path");

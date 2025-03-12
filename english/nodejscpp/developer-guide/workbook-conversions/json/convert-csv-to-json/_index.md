@@ -12,9 +12,9 @@ keywords: Convert, Convert CSV to JSON, CSV to JSON, CSV, JSON, Convert CSV to J
 
 Aspose.Cells supports converting CSV to JSON. For this, the API provides [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/) and [**JsonUtility**](https://reference.aspose.com/cells/nodejs-cpp/jsonutility/) classes. The [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/) class provides the options for exporting range to JSON. The [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/) class has the following properties.
 
-- [**exportAsString**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/#exportAsString): This exports the string value of the cells to JSON.
-- [**hasHeaderRow**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/#hasHeaderRow): This indicates whether the range contains a header row.
-- [**indent**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/#indent): Indicates the indent.
+- [**ExportRangeToJsonOptions.getExportAsString()**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/#getExportAsString--): This exports the string value of the cells to JSON.
+- [**ExportRangeToJsonOptions.getHasHeaderRow()**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/#getHasHeaderRow--): This indicates whether the range contains a header row.
+- [**ExportRangeToJsonOptions.getIndent()**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/#getIndent--): Indicates the indent.
 
 The [**JsonUtility**](https://reference.aspose.com/cells/nodejs-cpp/jsonutility/) class exports the JSON using the export options set with the [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/) class.
 

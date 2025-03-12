@@ -8,7 +8,7 @@ description: Learn how to set formulas for named ranges in spreadsheets using As
 ---
 
 ## **Setting Formula for Named Range**
-Like the Excel application, Aspose.Cells APIs provide the ability to specify a formula for a named range while using its [RefersTo](https://reference.aspose.com/cells/nodejs-cpp/range/#RefersTo-string-) property. There could be numerous usability scenarios for this feature, a few of which are detailed as follows.
+Like the Excel application, Aspose.Cells APIs provide the ability to specify a formula for a named range while using its [Range.getRefersTo()](https://reference.aspose.com/cells/nodejs-cpp/range/#getRefersTo--) property. There could be numerous usability scenarios for this feature, a few of which are detailed as follows.
 
 ### **Setting a Simple Formula for Named Range**
 A simple formula could be a reference to another cell in the same (or different) worksheet. The following example creates a named range in a new spreadsheet and sets its reference to another cell.

@@ -18,7 +18,7 @@ In Excel charts, there are 3 kinds of Axes:
 {{% /alert %}}  
 
 ## **Axis Options**  
-Aspose.Cells for Node.js via C++ also allows you to manage chart's axes at runtime. With the [Axis](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.charts/axis/) object, you can change all options of Axis as done in Excel.  
+Aspose.Cells for Node.js via C++ also allows you to manage chart's axes at runtime. With the [Axis](https://reference.aspose.com/cells/nodejs-cpp/axis/) object, you can change all options of Axis as done in Excel.  
 
 |![todo:image_alt_text](chart_axes.png)|  
 

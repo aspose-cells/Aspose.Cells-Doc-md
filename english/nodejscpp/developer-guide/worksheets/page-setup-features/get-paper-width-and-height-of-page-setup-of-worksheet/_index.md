@@ -10,11 +10,11 @@ keywords: excel page setup paper width Node.js via C++, excel page setup paper h
 
 ## **Possible Usage Scenarios**
 
-Sometimes, you need to know the width and height of paper size as it has been set in the page setup of the worksheet. Please use the [**PageSetup.paperWidth**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#paperWidth-number-) and [**PageSetup.paperHeight**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#paperHeight-number-) properties for this purpose.
+Sometimes, you need to know the width and height of paper size as it has been set in the page setup of the worksheet. Please use the [**PageSetup.getPaperWidth()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getPaperWidth--) and [**PageSetup.getPaperHeight()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getPaperHeight--) properties for this purpose.
 
 ## **Get Paper Width and Height of Page Setup of Worksheet**
 
-The following sample code explains the usage of [**PageSetup.paperWidth**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#paperWidth-number-) and [**PageSetup.paperHeight**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#paperHeight-number-) properties. It first changes the paper size to *A2* and then finds the width and height of the paper, then it changes it to *A3*, *A4*, *Letter* and finds the width and height of the paper respectively.
+The following sample code explains the usage of [**PageSetup.getPaperWidth()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getPaperWidth--) and [**PageSetup.getPaperHeight()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getPaperHeight--) properties. It first changes the paper size to *A2* and then finds the width and height of the paper, then it changes it to *A3*, *A4*, *Letter* and finds the width and height of the paper respectively.
 
 ### **Sample Code**
 

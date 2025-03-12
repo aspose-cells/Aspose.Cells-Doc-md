@@ -26,7 +26,7 @@ Aspose.Cells for Node.js via C++ supports the same feature.
 ## **Setting Different Headers and Footers with Aspose.Cells for Node.js via C++**
 
 Aspose.Cells behaves the same as Excel.
-1. Sets the flags [PageSetup.isHFDiffOddEven](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#ishFDiffOddEven-) and [PageSetup.isHFDiffFirst](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#ishFDiffFirst-) 
+1. Sets the flags [PageSetup.isHFDiffOddEven()](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#isHFDiffOddEven--) and [PageSetup.isHFDiffFirst()](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#isHFDiffFirst--) 
 1. Enter different headers and footers.
 ```javascript
 const path = require("path");

@@ -9,7 +9,7 @@ description: Learn how to specify Far East and Latin font names in text options 
 
 ## **Possible Usage Scenarios**  
 
-Sometimes you want to display text in Far East language font e.g. Japanese, Chinese, Thai, etc. Aspose.Cells for Node.js via C++ provides [**TextOptions.farEastName**](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.drawing.texts/textoptions/properties/fareastname) property that can be used to specify the font name of Far East language. Besides, you can also specify the Latin font name using [**TextOptions.latinName**](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.drawing.texts/textoptions/properties/latinname) property.  
+Sometimes you want to display text in Far East language font e.g. Japanese, Chinese, Thai, etc. Aspose.Cells for Node.js via C++ provides [**TextOptions.getFarEastName()**](https://reference.aspose.com/cells/nodejs-cpp/textoptions/#getFarEastName--) property that can be used to specify the font name of Far East language. Besides, you can also specify the Latin font name using [**TextOptions.getLatinName()**](https://reference.aspose.com/cells/nodejs-cpp/textoptions/#getLatinName--) property.  
 
 ## **Specify the Far East and Latin Name of the Font in Text Options of Shape**  
 

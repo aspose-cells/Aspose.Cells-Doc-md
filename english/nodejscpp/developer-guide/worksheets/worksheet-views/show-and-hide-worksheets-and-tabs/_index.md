@@ -15,17 +15,17 @@ Aspose.Cells allows the user to show and hide elements of a workbook including w
 
 An Excel file can have one or more than one worksheets. Whenever we create an Excel file, we add worksheets to the Excel file in which we work. Each worksheet in an Excel file is independent from the other worksheet by having its own data and formatting settings etc. Sometimes, developers may require to make few worksheets hidden and others visible in the Excel file for their own interest. So, **Aspose.Cells** allows developers to control the visibility of the worksheets in their Excel files.  
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#worksheets) collection that allows access to each worksheet in the Excel file.  
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Workbook.getWorksheets()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getWorksheets--) collection that allows access to each worksheet in the Excel file.  
 
-A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a wide range of properties and methods to manage worksheets. To control a worksheet's visibility, use the [**isVisible**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isVisible) property of the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. [**isVisible**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isVisible) is a Boolean property, which means that it can only store a **true** or **false** value.  
+A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a wide range of properties and methods to manage worksheets. To control a worksheet's visibility, use the [**Worksheet.isVisible()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isVisible--) property of the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. [**Worksheet.isVisible()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isVisible--) is a Boolean property, which means that it can only store a **true** or **false** value.  
 
 ### **Making a Worksheet Visible**  
 
-Make a worksheet visible by setting the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class' [**isVisible**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isVisible) property to **true**.  
+Make a worksheet visible by setting the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class' [**Worksheet.isVisible()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isVisible--) property to **true**.  
 
 ### **Hiding a Worksheet**  
 
-Hide a worksheet by setting the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class' [**isVisible**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isVisible) property to **false**.  
+Hide a worksheet by setting the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class' [**Worksheet.isVisible()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isVisible--) property to **false**.  
 
 ```javascript
 try {
@@ -70,15 +70,15 @@ Sheet tabs represent the worksheets in the Excel file. Click any tab to switch t
 
 Using Aspose.Cells, developers can control the visibility of sheet tabs and tabs scrolling buttons in Excel files.  
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class provides a wide range of properties and methods to manage an Excel file. To control the visibility of tabs in an Excel file, developers can use the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class' [**workbookSettings.showTabs**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#showTabs) property. [**workbookSettings.showTabs**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#showTabs) is a Boolean property, which means that it can only store a **true** or **false** value.  
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class provides a wide range of properties and methods to manage an Excel file. To control the visibility of tabs in an Excel file, developers can use the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class' [**WorkbookSettings.getShowTabs()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getShowTabs--) property. [**WorkbookSettings.getShowTabs()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getShowTabs--) is a Boolean property, which means that it can only store a **true** or **false** value.  
 
 ### **Making Tabs Visible**  
 
-Make tabs visible with the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class' [**workbookSettings.showTabs**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#showTabs) property to **true**.  
+Make tabs visible with the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class' [**WorkbookSettings.getShowTabs()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getShowTabs--) property to **true**.  
 
 ### **Hiding Tabs**  
 
-Hide tabs in an Excel file by setting the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class' [**workbookSettings.showTabs**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#showTabs) property to **false**.  
+Hide tabs in an Excel file by setting the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class' [**WorkbookSettings.getShowTabs()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getShowTabs--) property to **false**.  
 
 Below is a complete example that opens an Excel file (book1.xls), hides its tabs and saves the modified file as output.xls. After the code execution, you will see that the tabs of the workbook are hidden.  
 

@@ -37,7 +37,7 @@ To set the FitToPagesWide and FitToPagesTall settings in Microsoft Excel, follow
 
 ## **How to Print Excel as Fitted Pages Wide and Tall Using Aspose.Cells for Node.js via C++**
 
-To set FitToPagesWide and FitToPagesTall in a specified worksheet: First, load the [sample file](input.xlsx), and then you need to modify the [**Worksheet.PageSetup.FitToPagesTall**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#fittopagestall-number) and [**Worksheet.PageSetup.FitToPagesWide**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#fittopageswide-number) properties of the [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/) object for the desired worksheet. Here is an example in Node.js:
+To set FitToPagesWide and FitToPagesTall in a specified worksheet: First, load the [sample file](input.xlsx), and then you need to modify the [**PageSetup.getFitToPagesTall()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesTall--) and [**PageSetup.getFitToPagesWide()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesWide--) properties of the [**PageSetup**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/) object for the desired worksheet. Here is an example in Node.js:
 
 ```javascript
 const path = require("path");
@@ -69,7 +69,7 @@ The output result:
 
 ## **How to Print Worksheet as One Page Using Aspose.Cells for Node.js via C++**
 
-To print Worksheet as one page: First, load the [sample file](sample.xlsx), and then you need to set the [**PdfSaveOptions.OnePagePerSheet**](https://reference.aspose.com/cells/nodejs-cpp/paginatedsaveoptions/#onepagepersheet-boolean) property of the [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/) object. Here is an example in Node.js:
+To print Worksheet as one page: First, load the [sample file](sample.xlsx), and then you need to set the [**PdfSaveOptions.getOnePagePerSheet()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getOnePagePerSheet--) property of the [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/) object. Here is an example in Node.js:
 
 ```javascript
 const path = require("path");
@@ -94,7 +94,7 @@ The output result:
 
 ## **How to Print All Columns of Worksheet in One Page Using Aspose.Cells for Node.js via C++**
 
-To print all columns of Worksheet in one page: First, load the [sample file](sample.xlsx), and then you need to set the [**PdfSaveOptions.AllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/nodejs-cpp/paginatedsaveoptions/#allcolumnsinonepagepersheet-boolean) property of the [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/) object. Here is an example in Node.js:
+To print all columns of Worksheet in one page: First, load the [sample file](sample.xlsx), and then you need to set the [**PdfSaveOptions.getAllColumnsInOnePagePerSheet()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getAllColumnsInOnePagePerSheet--) property of the [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/) object. Here is an example in Node.js:
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");

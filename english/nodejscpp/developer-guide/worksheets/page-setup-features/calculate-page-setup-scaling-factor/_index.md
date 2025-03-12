@@ -10,11 +10,11 @@ keywords: Fit to n page wide by m tall excel Node.js via C++, calculate page set
 
 {{% alert color="primary" %}}
 
-When you set Page Setup Scaling using **Fit to n page(s) wide by m tall** option, Microsoft Excel calculates the Page Setup Scaling Factor. You can calculate the same thing using [**SheetRender.pageScale**](https://reference.aspose.com/cells/nodejs-cpp/sheetrender/#pageScale) property. This property returns a double value that can be converted to percentage value. For example, if it returns 0.5 then it means scaling factor is 50%.
+When you set Page Setup Scaling using **Fit to n page(s) wide by m tall** option, Microsoft Excel calculates the Page Setup Scaling Factor. You can calculate the same thing using [**SheetRender.getPageScale()**](https://reference.aspose.com/cells/nodejs-cpp/sheetrender/#getPageScale--) property. This property returns a double value that can be converted to percentage value. For example, if it returns 0.5 then it means scaling factor is 50%.
 
 {{% /alert %}}
 
-The following sample code illustrates how to calculate page setup scaling factor using [**SheetRender.pageScale**](https://reference.aspose.com/cells/nodejs-cpp/sheetrender/#pageScale) property.
+The following sample code illustrates how to calculate page setup scaling factor using [**SheetRender.getPageScale()**](https://reference.aspose.com/cells/nodejs-cpp/sheetrender/#getPageScale--) property.
 
 ```javascript
 const path = require("path");

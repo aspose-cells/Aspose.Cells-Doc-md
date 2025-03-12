@@ -16,7 +16,7 @@ Aspose.Cells makes it possible to create and save files. This article explains t
 
 ## **Different Ways to Save Files**
 
-Aspose.Cells provides the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) which represents a Microsoft Excel file and provides the properties and methods necessary to work with Excel files. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class provides the [**save**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveformat) method used to save Excel files. The [**save**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveformat) method has many overloads that are used to save files in different ways.
+Aspose.Cells provides the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) which represents a Microsoft Excel file and provides the properties and methods necessary to work with Excel files. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class provides the [**Workbook.save(string, SaveFormat)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveformat-) method used to save Excel files. The [**Workbook.save(string, SaveFormat)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveformat-) method has many overloads that are used to save files in different ways.
 
 The file format that the file is saved to is decided by the [**SaveFormat**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) enumeration
 
@@ -41,7 +41,7 @@ The file format that the file is saved to is decided by the [**SaveFormat**](htt
 
 ## **How to Save File to Different Formats**
 
-To save files to a storage location, specify the file name (complete with storage path) and the desired file format (from the [**SaveFormat**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) enumeration) when calling the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) object's [**save**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveformat) method.
+To save files to a storage location, specify the file name (complete with storage path) and the desired file format (from the [**SaveFormat**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) enumeration) when calling the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) object's [**Workbook.save(string, SaveFormat)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveformat-) method.
 
 ```javascript
 const path = require("path");
@@ -114,7 +114,7 @@ The following code example explains how to save an entire workbook into text for
 
 When the code is executed, it converts the data of all sheets in the workbook to the TXT format.
 
-You can modify the same example to save your file to CSV. By default, [**TxtSaveOptions.separator**](https://reference.aspose.com/cells/nodejs-cpp/txtsaveoptions/#separator) is comma, so do not specify a separator if saving to CSV format. Please note: If you are using the evaluation version and even if the [**TxtSaveOptions.exportAllSheets**](https://reference.aspose.com/cells/nodejs-cpp/txtsaveoptions/#exportAllSheets) property is set to true, the program will still only export one worksheet.
+You can modify the same example to save your file to CSV. By default, [**TxtSaveOptions.getSeparator()**](https://reference.aspose.com/cells/nodejs-cpp/txtsaveoptions/#getSeparator--) is comma, so do not specify a separator if saving to CSV format. Please note: If you are using the evaluation version and even if the [**TxtSaveOptions.getExportAllSheets()**](https://reference.aspose.com/cells/nodejs-cpp/txtsaveoptions/#getExportAllSheets--) property is set to true, the program will still only export one worksheet.
 
 ```javascript
 const path = require("path");
@@ -161,7 +161,7 @@ wb.save(path.join(dataDir, "output.csv"), options);
 
 ## **How to Save File to a Stream**
 
-To save files to a stream, create a *MemoryStream* or *FileStream* object and save the file to that stream object by calling the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) object's [**save**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveformat) method. Specify the desired file format using the [**SaveFormat**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) enumeration when calling the [**save**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveformat) method.
+To save files to a stream, create a *MemoryStream* or *FileStream* object and save the file to that stream object by calling the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) object's [**Workbook.save(string, SaveFormat)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveformat-) method. Specify the desired file format using the [**SaveFormat**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) enumeration when calling the [**Workbook.save(string, SaveFormat)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveformat-) method.
 
 ```javascript
 const path = require("path");

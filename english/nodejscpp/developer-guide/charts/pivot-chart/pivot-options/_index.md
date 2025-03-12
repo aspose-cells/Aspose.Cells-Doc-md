@@ -13,7 +13,7 @@ A PivotChart in Excel is a graphical representation of data created from a Pivot
 
 ## How to manage PivotChart with PivotOptions
 
-By using Aspose.Cells for Node.js via C++, you can use [**Aspose.Cells.Charts.PivotOptions**](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.charts/pivotoptions/) to manage PivotChart.
+By using Aspose.Cells for Node.js via C++, you can use [**PivotOptions**](https://reference.aspose.com/cells/nodejs-cpp/pivotoptions/) to manage PivotChart.
 
 Sample file and code:
 [Sample File](Sample.xlsx)

@@ -20,7 +20,7 @@ To show the cell range as data labels in Microsoft Excel:
 1. Select **Format Data Labels**. Label options are displayed.  
 1. Select or clear the option **Label Contains - Value From Cells**.  
 
-The sample code below accesses a chart series data labels and sets the [**DataLabels.ShowCellRange**](https://reference.aspose.com/cells/nodejs-cpp/datalabels/#showCellRange-boolean-) property to **true** to select the **Label Contains - Value From Cells** option.  
+The sample code below accesses a chart series data labels and sets the [**DataLabels.getShowCellRange()**](https://reference.aspose.com/cells/nodejs-cpp/datalabels/#getShowCellRange--) property to **true** to select the **Label Contains - Value From Cells** option.  
 
 ```javascript
 const path = require("path");

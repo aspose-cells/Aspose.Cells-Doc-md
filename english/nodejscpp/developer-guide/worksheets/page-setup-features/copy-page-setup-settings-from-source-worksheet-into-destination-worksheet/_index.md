@@ -14,7 +14,7 @@ When you add a new sheet to a workbook, it contains the default *Page Setup sett
 
 ## **Copy Page Setup Settings from Source Worksheet into Destination Worksheet**
 
-The following sample code illustrates how to copy *Page Setup settings* from one worksheet to another using [**PageSetup.copy()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#copy) method. Please see the following sample code and its console output for a reference.
+The following sample code illustrates how to copy *Page Setup settings* from one worksheet to another using [**PageSetup.copy(PageSetup, CopyOptions)**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#copy-pagesetup-copyoptions-) method. Please see the following sample code and its console output for a reference.
 
 ## **Sample Code**
 

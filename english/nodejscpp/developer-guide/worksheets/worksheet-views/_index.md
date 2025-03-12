@@ -18,21 +18,21 @@ Normal view is a worksheet's default view. Page break preview is an editing view
 
 ### **Controlling View Modes**
 
-Aspose.Cells provides a [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#worksheets) collection that allows access to each worksheet in an Excel file.
+Aspose.Cells provides a [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Workbook.getWorksheets()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getWorksheets--) collection that allows access to each worksheet in an Excel file.
 
-A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a wide range of properties and methods for managing worksheets. To enable normal or page break preview modes, use the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class [**isPageBreakPreview**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isPageBreakPreview) property. [**isPageBreakPreview**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isPageBreakPreview) is a Boolean property, which means that it can only store a **true** or a **false** value.
+A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a wide range of properties and methods for managing worksheets. To enable normal or page break preview modes, use the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class [**Worksheet.isPageBreakPreview()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isPageBreakPreview--) property. [**Worksheet.isPageBreakPreview()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isPageBreakPreview--) is a Boolean property, which means that it can only store a **true** or a **false** value.
 
 #### **Enabling Normal View**
 
-Set a worksheet to normal view by setting the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class [**isPageBreakPreview**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isPageBreakPreview) property to **false**.
+Set a worksheet to normal view by setting the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class [**Worksheet.isPageBreakPreview()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isPageBreakPreview--) property to **false**.
 
 #### **Enabling Page Break Preview**
 
-Set any worksheet to page break preview by setting the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class [**isPageBreakPreview**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isPageBreakPreview) property to **true**. Doing so switches the worksheet from normal view to page break preview.
+Set any worksheet to page break preview by setting the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class [**Worksheet.isPageBreakPreview()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isPageBreakPreview--) property to **true**. Doing so switches the worksheet from normal view to page break preview.
 
-A complete example is given below that demonstrates how to use the [**isPageBreakPreview**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isPageBreakPreview) property to enable page break preview mode for the first worksheet of an Excel file.
+A complete example is given below that demonstrates how to use the [**Worksheet.isPageBreakPreview()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isPageBreakPreview--) property to enable page break preview mode for the first worksheet of an Excel file.
 
-The book1.xls file is opened by creating an instance of the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class. The view is switched to page break preview for the first worksheet by setting the [**isPageBreakPreview**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isPageBreakPreview) property to **true**. The modified file is saved as output.xls.
+The book1.xls file is opened by creating an instance of the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class. The view is switched to page break preview for the first worksheet by setting the [**Worksheet.isPageBreakPreview()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#isPageBreakPreview--) property to **true**. The modified file is saved as output.xls.
 
 ```javascript
 const path = require("path");
@@ -72,11 +72,11 @@ Microsoft Excel provides a feature that lets users set a worksheet's zoom or sca
 ### **Aspose.Cells & Zoom Factor**
 
 Aspose.Cells allows developers to set the worksheet zoom factor.
-Aspose.Cells provides a [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#worksheets) collection that allows access to each worksheet in an Excel file.
+Aspose.Cells provides a [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Workbook.getWorksheets()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getWorksheets--) collection that allows access to each worksheet in an Excel file.
 
-A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a wide range of properties and methods for managing worksheets. To set a worksheet's zoom factor, use the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class' [**zoom**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#zoom) property. The zoom factor is set by assigning a numeric (integer) value to the [**zoom**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#zoom) property.
+A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a wide range of properties and methods for managing worksheets. To set a worksheet's zoom factor, use the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class' [**Worksheet.getZoom()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getZoom--) property. The zoom factor is set by assigning a numeric (integer) value to the [**Worksheet.getZoom()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getZoom--) property.
 
-A complete example is given below that demonstrates how to use the [**zoom**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#zoom) property to set the zoom factor of the first worksheet of the Excel file.
+A complete example is given below that demonstrates how to use the [**Worksheet.getZoom()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getZoom--) property to set the zoom factor of the first worksheet of the Excel file.
 
 The book1.xls file is opened by creating an instance of the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class. The zoom factor of the first worksheet is set to 75 and the modified file is saved as output.xls.
 
@@ -119,9 +119,9 @@ Freeze panes is a feature provided by Microsoft Excel. Freezing panes allows you
 
 Aspose.Cells allows developers to apply freeze panes to worksheets at runtime.
 
-Aspose.Cells provides a [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#worksheets) collection that allows access to each worksheet in an Excel file.
+Aspose.Cells provides a [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Workbook.getWorksheets()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getWorksheets--) collection that allows access to each worksheet in an Excel file.
 
-A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a wide range of properties and methods for managing worksheets. To configure freeze panes, call the Worksheet class' [**freezePanes**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#freezePanes) method. The [**freezePanes**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#freezePanes) method takes the following parameters:
+A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a wide range of properties and methods for managing worksheets. To configure freeze panes, call the Worksheet class' [**Worksheet.freezePanes(number, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#freezePanes-number-number-number-number-) method. The [**Worksheet.freezePanes(number, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#freezePanes-number-number-number-number-) method takes the following parameters:
 
 - **Row**, the row index of the cell that the freeze will start from.
 - **Column**, the column index of the cell that the freeze will start from.
@@ -130,7 +130,7 @@ A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/c
 
 The book1.xls file is opened by calling the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class' constructor while instantiating it and a few rows and columns are frozen in the first worksheet. The modified file is saved as output.xls.
 
-A complete example is given below that shows how to use the [**freezePanes**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#freezePanes) method to freeze rows and columns (starting from C4, represented by the 4th row and 3rd column, where the rows and columns start from the 0 index) of the first worksheet of the Excel file.
+A complete example is given below that shows how to use the [**Worksheet.freezePanes(number, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#freezePanes-number-number-number-number-) method to freeze rows and columns (starting from C4, represented by the 4th row and 3rd column, where the rows and columns start from the 0 index) of the first worksheet of the Excel file.
 
 ```javascript
 const path = require("path");
@@ -170,7 +170,7 @@ The panes work simultaneously. If you make a change in one, the change simultane
 
 #### **Splitting Panes**
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class provides a wide range of properties and methods for managing an Excel file. To implement split views, use the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class' [**split**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#split). To remove the split panes, use the [**removeSplit**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#removeSplit) method.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class provides a wide range of properties and methods for managing an Excel file. To implement split views, use the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class' [**Worksheet.split()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#split--). To remove the split panes, use the [**Worksheet.removeSplit()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#removeSplit--) method.
 
 In the example, we use a simple template file that is loaded, then the set split panes feature is applied on a cell in the first worksheet. The updated file is saved.
 
@@ -199,7 +199,7 @@ After running the above code, the generated file will have a split view.
 
 #### **Removing Panes**
 
-Remove split panes using the [**removeSplit**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#removeSplit) method.
+Remove split panes using the [**Worksheet.removeSplit()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#removeSplit--) method.
 
 ```javascript
 const path = require("path");

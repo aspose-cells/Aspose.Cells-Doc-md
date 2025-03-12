@@ -121,7 +121,7 @@ Author: Aspose Test
   
 ### **Read Created Time of threaded comments**  
   
-Aspose.Cells provides [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/nodejs-cpp/commentcollection/#getthreadedcomments-string-) method to retrieve threaded comments for the specified column. [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/nodejs-cpp/commentcollection/#getthreadedcomments-string-) method accepts the column name as a parameter and returns the [**ThreadedCommentCollection**](https://reference.aspose.com/cells/nodejs-cpp/threadedcommentcollection). You can iterate over the [**ThreadedCommentCollection**](https://reference.aspose.com/cells/nodejs-cpp/threadedcommentcollection) and use the [**ThreadedComment.CreatedTime**](https://reference.aspose.com/cells/nodejs-cpp/threadedcomment/#createdtime) property.  
+Aspose.Cells provides [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/nodejs-cpp/commentcollection/#getthreadedcomments-string-) method to retrieve threaded comments for the specified column. [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/nodejs-cpp/commentcollection/#getthreadedcomments-string-) method accepts the column name as a parameter and returns the [**ThreadedCommentCollection**](https://reference.aspose.com/cells/nodejs-cpp/threadedcommentcollection). You can iterate over the [**ThreadedCommentCollection**](https://reference.aspose.com/cells/nodejs-cpp/threadedcommentcollection) and use the [**ThreadedComment.getCreatedTime()**](https://reference.aspose.com/cells/nodejs-cpp/threadedcomment/#getCreatedTime--) property.  
   
 The following example demonstrates reading the created time of threaded comments by loading the [sample Excel File](89849861.xlsx). Please see the console output generated by the code for reference.  
   
@@ -210,7 +210,7 @@ To remove threaded comments in Excel, right click on the cell containing the com
   
 ### **Remove Threaded comments using Aspose.Cells**  
   
-Aspose.Cells provides [**Comments.RemoveAt**](https://reference.aspose.com/cells/nodejs-cpp/commentcollection/#removeat-int-) method to remove comments for the specified column. [**Comments.RemoveAt**](https://reference.aspose.com/cells/nodejs-cpp/commentcollection/#removeat-int-) method accepts the column name as a parameter and removes the comments in that column.  
+Aspose.Cells provides [**CommentCollection.removeAt(string)**](https://reference.aspose.com/cells/nodejs-cpp/commentcollection/#removeAt-string-) method to remove comments for the specified column. [**CommentCollection.removeAt(string)**](https://reference.aspose.com/cells/nodejs-cpp/commentcollection/#removeAt-string-) method accepts the column name as a parameter and removes the comments in that column.  
   
 The following example demonstrates removing comments in column A1 by loading the [sample Excel File](89849861.xlsx). Please see the [output Excel file](89849864.xlsx) generated by the code for reference.  
   

@@ -8,7 +8,7 @@ url: /nodejs-cpp/copy-row-heights-of-source-range-to-destination-range/
 
 {{% alert color="primary" %}}  
 
-Sometimes users need to copy row heights of a source range to a destination range. Aspose.Cells for Node.js via C++ provides [**PasteType.RowHeights**](https://reference.aspose.com/cells/nodejs-cpp/pasetype) enum for this purpose. When you set the [**PasteOptions.pasteType**](https://reference.aspose.com/cells/nodejs-cpp/pasteoptions/#pasteType) property with [**PasteType.RowHeights**](https://reference.aspose.com/cells/nodejs-cpp/pasetype), the heights of all rows inside the source range will be copied to the destination range.  
+Sometimes users need to copy row heights of a source range to a destination range. Aspose.Cells for Node.js via C++ provides [**PasteType.RowHeights**](https://reference.aspose.com/cells/nodejs-cpp/pasetype) enum for this purpose. When you set the [**PasteOptions.getPasteType()**](https://reference.aspose.com/cells/nodejs-cpp/pasteoptions/#getPasteType--) property with [**PasteType.RowHeights**](https://reference.aspose.com/cells/nodejs-cpp/pasetype), the heights of all rows inside the source range will be copied to the destination range.  
 
 {{% /alert %}}  
 

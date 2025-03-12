@@ -9,7 +9,7 @@ description: Learn how to access a text box by name from the collection in Aspos
 
 ## Access the Text Box by the Name
 
-Earlier, text boxes were accessed by index from the [**Worksheet.TextBoxes**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#textBoxes) collection, but now you can also access the text box by name from this collection. This is a convenient and quick way to access your text box if you already know its name.
+Earlier, text boxes were accessed by index from the [**Worksheet.getTextBoxes()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getTextBoxes--) collection, but now you can also access the text box by name from this collection. This is a convenient and quick way to access your text box if you already know its name.
 
 The following sample code first creates a text box and assigns it some text and name. Then in the next lines, we access the same text box by its name and print its text.
 

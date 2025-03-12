@@ -18,7 +18,7 @@ Aspose.Cells provides a method [**Cell.getStringValue()**](https://reference.asp
 
 {{% /alert %}}
 
-The following sample code explains the use of [**Cell.getStringValue()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getStringValue) method.
+The following sample code explains the use of [**Cell.getStringValue()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getStringValue--) method.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-GetCellStringWithOrWithoutFormatting.js" >}}
 

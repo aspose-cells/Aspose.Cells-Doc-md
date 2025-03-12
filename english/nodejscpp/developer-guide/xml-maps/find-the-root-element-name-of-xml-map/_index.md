@@ -9,13 +9,13 @@ description: Learn how to find the root element name of an XML map in Excel usin
 
 ## **Possible Usage Scenarios**
 
-You can find the *Root Element Name of Xml Map* using Aspose.Cells for Node.js via C++ with the [**XmlMap.rootElementName**](https://reference.aspose.com/cells/nodejs-cpp/xmlmap/#rootElementName-string-) property. The following screenshot shows the root element name of the XML Map in Microsoft Excel.
+You can find the *Root Element Name of Xml Map* using Aspose.Cells for Node.js via C++ with the [**XmlMap.getRootElementName()**](https://reference.aspose.com/cells/nodejs-cpp/xmlmap/#getRootElementName--) property. The following screenshot shows the root element name of the XML Map in Microsoft Excel.
 
 ![todo:image_alt_text](find-the-root-element-name-of-xml-map_1.png)
 
 ## **Sample Code**
 
-The following sample code loads the [sample Excel file](55541789.xlsx) and accesses the first XML Map and prints its [**XmlMap.rootElementName**](https://reference.aspose.com/cells/nodejs-cpp/xmlmap/#rootElementName-string-) property. Please see the console output of the sample code given below.
+The following sample code loads the [sample Excel file](55541789.xlsx) and accesses the first XML Map and prints its [**XmlMap.getRootElementName()**](https://reference.aspose.com/cells/nodejs-cpp/xmlmap/#getRootElementName--) property. Please see the console output of the sample code given below.
 
 ```javascript
 const path = require("path");

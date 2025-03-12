@@ -9,7 +9,7 @@ description: Learn how to implement Cell.FormulaLocal similar to Excel VBA Range
 
 ## **Possible Usage Scenarios**
 
-Microsoft Excel Formulas may have different names in different locales or regions or languages. For example, **SUM** function is called **SUMME** in German. Aspose.Cells cannot work with non-English function names. In Microsoft Excel VBA, there is **Range.FormulaLocal** property that returns the name of the function as per its language or region. Aspose.Cells for Node.js via C++ also provides [**Cell.FormulaLocal**](https://reference.aspose.com/cells/nodejs-cpp/cell/#formulalocal) property for this purpose. However, this property will only work when you implement [**GlobalizationSettings.getLocalFunctionName(standardName)**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings/#getLocalFunctionName-string-) method.
+Microsoft Excel Formulas may have different names in different locales or regions or languages. For example, **SUM** function is called **SUMME** in German. Aspose.Cells cannot work with non-English function names. In Microsoft Excel VBA, there is **Range.FormulaLocal** property that returns the name of the function as per its language or region. Aspose.Cells for Node.js via C++ also provides [**Cell.getFormulaLocal()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getFormulaLocal--) property for this purpose. However, this property will only work when you implement [**GlobalizationSettings.getLocalFunctionName(standardName)**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings/#getLocalFunctionName-string-) method.
 
 ## **Implement Cell.FormulaLocal similar to Excel VBA Range.FormulaLocal**
 

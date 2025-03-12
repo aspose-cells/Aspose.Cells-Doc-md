@@ -8,11 +8,11 @@ url: /nodejs-cpp/get-the-version-number-of-the-application-that-created-the-exce
 
 {{% alert color="primary" %}}  
 
-Often you need to know the version number of the application that created a Microsoft Excel document. Aspose.Cells for Node.js via C++ provides the [**Workbook.BuiltInDocumentProperties.version**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#builtInDocumentProperties-version) property for this purpose.
+Often you need to know the version number of the application that created a Microsoft Excel document. Aspose.Cells for Node.js via C++ provides the [**Workbook.getBuiltInDocumentProperties()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getBuiltInDocumentProperties--) property for this purpose.
 
 {{% /alert %}}  
 
-The following sample code demonstrates the use of the [**Workbook.BuiltInDocumentProperties.version**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#builtInDocumentProperties-version) property. It loads Excel files created with Microsoft Excel 2003, 2007, 2010 and 2013 and prints the version number of the application that created these Excel documents.
+The following sample code demonstrates the use of the [**Workbook.getBuiltInDocumentProperties()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getBuiltInDocumentProperties--) property. It loads Excel files created with Microsoft Excel 2003, 2007, 2010 and 2013 and prints the version number of the application that created these Excel documents.
 
 ```javascript
 const path = require("path");

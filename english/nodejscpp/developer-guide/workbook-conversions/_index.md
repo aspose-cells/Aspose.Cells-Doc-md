@@ -187,13 +187,13 @@ Starting from 8.0.2, Aspose.Cells has exposed [**getImageOptions()**](https://re
 
 Below are details of some of the image settings that can be applied,  
 
-- [**ImageType**](https://reference.aspose.com/cells/nodejs-cpp/drawing/imagetype): Specifies the image type. Please note, all shapes, including charts, render as images in the output HTML.  
+- [**ImageType**](https://reference.aspose.com/cells/nodejs-cpp/imagetype/): Specifies the image type. Please note, all shapes, including charts, render as images in the output HTML.  
 - [**SmoothingMode**](https://reference.aspose.com/cells/nodejs-cpp/rendering/imageorprintoptions/properties/smoothingmode): Specifies the anti-aliasing for lines, curves & edges of filled areas.  
 - [**TextRenderingHint**](https://reference.aspose.com/cells/nodejs-cpp/rendering/imageorprintoptions/properties/textrenderinghint): Specifies the quality of text rendering.  
-- [**Quality**](https://reference.aspose.com/cells/nodejs-cpp/rendering/imageorprintoptions/properties/quality): Specifies the quality of the image between 0 to 100, when [**ImageType**](https://reference.aspose.com/cells/nodejs-cpp/drawing/imagetype) is specified as Jpeg.  
+- [**Quality**](https://reference.aspose.com/cells/nodejs-cpp/rendering/imageorprintoptions/properties/quality): Specifies the quality of the image between 0 to 100, when [**ImageType**](https://reference.aspose.com/cells/nodejs-cpp/imagetype/) is specified as Jpeg.  
 - [**VerticalResolution**](https://reference.aspose.com/cells/nodejs-cpp/rendering/imageorprintoptions/properties/verticalresolution): Gets or sets the vertical resolution of the image in dots per inch.  
 - [**HorizontalResolution**](https://reference.aspose.com/cells/nodejs-cpp/rendering/imageorprintoptions/properties/horizontalresolution): Gets or sets the horizontal resolution of the image in dots per inch.  
-- [**TiffCompression**](https://reference.aspose.com/cells/nodejs-cpp/rendering/imageorprintoptions/properties/tiffcompression): Gets or sets the compression type for the images when [**ImageType**](https://reference.aspose.com/cells/nodejs-cpp/drawing/imagetype) is specified as Tiff.  
+- [**TiffCompression**](https://reference.aspose.com/cells/nodejs-cpp/tiffcompression/): Gets or sets the compression type for the images when [**ImageType**](https://reference.aspose.com/cells/nodejs-cpp/imagetype/) is specified as Tiff.  
 - [**Transparent**](https://reference.aspose.com/cells/nodejs-cpp/rendering/imageorprintoptions/properties/transparent): Indicates if the background of an image should be transparent when ImageFormat is specified as Png.  
 
 The code below demonstrates how to use [**HtmlSaveOptions.getImageOptions()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getImageOptions--) to specify different preferences.  

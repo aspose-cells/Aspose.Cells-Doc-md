@@ -8,7 +8,7 @@ url: /nodejs-cpp/add-a-library-reference-to-vba-project-in-workbook/
 
 {{% alert color="primary" %}}  
 
-Sometimes, you need to add or register the library reference to the VBA project through code. You can do it using Aspose.Cells [**VbaProject.References.AddRegisteredReference()**](https://reference.aspose.com/cells/nodejs-cpp/vbaprojectreferencecollection/#addRegisteredReference-string-) method.  
+Sometimes, you need to add or register the library reference to the VBA project through code. You can do it using Aspose.Cells [**VbaProjectReferenceCollection.addRegisteredReference(string, string)**](https://reference.aspose.com/cells/nodejs-cpp/vbaprojectreferencecollection/#addRegisteredReference-string-string-) method.  
 
 {{% /alert %}}  
 
@@ -18,7 +18,7 @@ In Microsoft Excel, you can add a library reference to the VBA project by clicki
 
 ## **Add a library reference to the VBA project in a workbook using Aspose.Cells for Node.js via C++**  
 
-The following sample code adds or registers two library references to the VBA project of the workbook using [**VbaProject.References.AddRegisteredReference()**](https://reference.aspose.com/cells/nodejs-cpp/vbaprojectreferencecollection/#addRegisteredReference-string-) method.  
+The following sample code adds or registers two library references to the VBA project of the workbook using [**VbaProjectReferenceCollection.addRegisteredReference(string, string)**](https://reference.aspose.com/cells/nodejs-cpp/vbaprojectreferencecollection/#addRegisteredReference-string-string-) method.  
 
 ```javascript
 const path = require("path");

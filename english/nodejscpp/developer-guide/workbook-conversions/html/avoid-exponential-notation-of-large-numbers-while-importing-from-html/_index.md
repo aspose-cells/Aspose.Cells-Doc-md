@@ -9,11 +9,11 @@ description: Learn how to prevent large numbers from being converted to exponent
 
 {{% alert color="primary" %}}  
 
-Sometimes your HTML contains numbers like 1234567890123456, which are longer than 15 digits, and when you import your HTML to an Excel file, these numbers convert to exponential notation like 1.23457E+15. If you want your number to be imported as it is and not converted to exponential notation, then please use [**HTMLLoadOptions.keepPrecision**](https://reference.aspose.com/cells/nodejs-cpp/htmllooptions/#keepprecision-boolean-) property and set it **true** while loading your HTML.  
+Sometimes your HTML contains numbers like 1234567890123456, which are longer than 15 digits, and when you import your HTML to an Excel file, these numbers convert to exponential notation like 1.23457E+15. If you want your number to be imported as it is and not converted to exponential notation, then please use [**HtmlLoadOptions.getKeepPrecision()**](https://reference.aspose.com/cells/nodejs-cpp/htmlloadoptions/#getKeepPrecision--) property and set it **true** while loading your HTML.  
 
 {{% /alert %}}  
 
-The following sample code explains the usage of [**HTMLLoadOptions.keepPrecision**](https://reference.aspose.com/cells/nodejs-cpp/htmllooptions/#keepprecision-boolean-) property. The API will import the number as it is without converting it to exponential notation.  
+The following sample code explains the usage of [**HtmlLoadOptions.getKeepPrecision()**](https://reference.aspose.com/cells/nodejs-cpp/htmlloadoptions/#getKeepPrecision--) property. The API will import the number as it is without converting it to exponential notation.  
 
 ```javascript
 const path = require("path");

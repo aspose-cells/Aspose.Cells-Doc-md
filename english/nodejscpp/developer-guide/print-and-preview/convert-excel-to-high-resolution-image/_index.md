@@ -7,7 +7,7 @@ url: /nodejs-cpp/convert-excel-to-high-resolution-image/
 description: Learn how to convert Excel files to high-resolution images using Aspose.Cells for Node.js via C++.  
 ---  
 
-With the increasing prevalence of high-resolution screens, images generated at the default 96 DPI often appear blurry and unclear. To ensure clarity on high-resolution screens, it's essential to generate images at a higher DPI. Aspose.Cells for Node.js via C++ offers the functionality to set [**ImageOrPrintOptions.HorizontalResolution**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#horizontalResolution-number-) and [**ImageOrPrintOptions.VerticalResolution**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#verticalResolution-number-), allowing you to create high-quality images from Excel files that look sharp on high-resolution displays.  
+With the increasing prevalence of high-resolution screens, images generated at the default 96 DPI often appear blurry and unclear. To ensure clarity on high-resolution screens, it's essential to generate images at a higher DPI. Aspose.Cells for Node.js via C++ offers the functionality to set [**ImageOrPrintOptions.getHorizontalResolution()**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getHorizontalResolution--) and [**ImageOrPrintOptions.getVerticalResolution()**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getVerticalResolution--), allowing you to create high-quality images from Excel files that look sharp on high-resolution displays.  
 
 ```javascript
 const path = require("path");

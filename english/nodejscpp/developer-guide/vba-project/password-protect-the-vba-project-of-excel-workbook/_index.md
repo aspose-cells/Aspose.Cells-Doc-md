@@ -9,7 +9,7 @@ description: Learn how to password protect the VBA project of an Excel workbook 
 
 ## **Password Protect the VBA Project of Excel Workbook in Node.js**  
 
-You can password protect the VBA (Visual Basic for Applications) Project of a workbook with Aspose.Cells using [**VbaProject.protect()**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/#protect-string) method.  
+You can password protect the VBA (Visual Basic for Applications) Project of a workbook with Aspose.Cells using [**VbaProject.protect(boolean, string)**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/#protect-boolean-string-) method.  
 
 ## **Sample Code**  
 

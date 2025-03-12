@@ -212,7 +212,7 @@ The above code snippet uses the existing instance of the [**Workbook**](https://
 
 ## Creation of Chart  
 
-Once the data is in place, all we need to do is to create a chart based on the data source. In order to keep the example simple, we will use the [**Chart.setChartDataRange**](https://reference.aspose.com/cells/nodejs-cpp/charts/chart/methods/setchartdatarange) method so that we do not have to configure the chart further.  
+Once the data is in place, all we need to do is to create a chart based on the data source. In order to keep the example simple, we will use the [**Chart.setChartDataRange(string, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/chart/#setChartDataRange-string-boolean-) method so that we do not have to configure the chart further.  
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");

@@ -8,11 +8,11 @@ description: Learn how to save specified worksheets to PDF using Aspose.Cells fo
 ---
 
 
-By default, Aspose.Cells saves all **visible** worksheets in a workbook to a PDF file. With [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/nodejs-cpp/paginatedsaveoptions/#sheetSet) option, you can save specified worksheets to a PDF file. e.g. you can save the active worksheet to PDF, save all worksheets (both visible and hidden worksheets) to PDF, save custom multiple worksheets to PDF.
+By default, Aspose.Cells saves all **visible** worksheets in a workbook to a PDF file. With [**PdfSaveOptions.getSheetSet()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getSheetSet--) option, you can save specified worksheets to a PDF file. e.g. you can save the active worksheet to PDF, save all worksheets (both visible and hidden worksheets) to PDF, save custom multiple worksheets to PDF.
 
 ## **Save Active Worksheet to PDF**
 
-If you want to only export the active sheet to PDF, you can achieve this by passing [**SheetSet.Active**](https://reference.aspose.com/cells/nodejs-cpp/rendering/sheetset/#active) to [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/nodejs-cpp/paginatedsaveoptions/#sheetSet) option.
+If you want to only export the active sheet to PDF, you can achieve this by passing [**SheetSet.getActive()**](https://reference.aspose.com/cells/nodejs-cpp/sheetset/#getActive--) to [**PdfSaveOptions.getSheetSet()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getSheetSet--) option.
 
 The sheet `Sheet2` is the active sheet of the source file [sheetset-example.xlsx](sheetset-example.xlsx).
 
@@ -37,7 +37,7 @@ workbook.save("output.pdf", pdfSaveOptions);
 
 ## **Save All Worksheets to PDF**
 
-[**SheetSet.Visible**](https://reference.aspose.com/cells/nodejs-cpp/rendering/sheetset/#visible) indicates visible sheets in a workbook, and [**SheetSet.All**](https://reference.aspose.com/cells/nodejs-cpp/rendering/sheetset/#all) indicates all sheets including both visible sheets and hidden/invisible sheets in a workbook. If you want to export all sheets to PDF, you can just pass  [**SheetSet.All**](https://reference.aspose.com/cells/nodejs-cpp/rendering/sheetset/#all) to [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/nodejs-cpp/paginatedsaveoptions/#sheetSet) option.
+[**SheetSet.getVisible()**](https://reference.aspose.com/cells/nodejs-cpp/sheetset/#getVisible--) indicates visible sheets in a workbook, and [**SheetSet.getAll()**](https://reference.aspose.com/cells/nodejs-cpp/sheetset/#getAll--) indicates all sheets including both visible sheets and hidden/invisible sheets in a workbook. If you want to export all sheets to PDF, you can just pass  [**SheetSet.getAll()**](https://reference.aspose.com/cells/nodejs-cpp/sheetset/#getAll--) to [**PdfSaveOptions.getSheetSet()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getSheetSet--) option.
 
 The source file [sheetset-example.xlsx](sheetset-example.xlsx) contains all four sheets with hidden sheet `Sheet3`.
 
@@ -62,7 +62,7 @@ await workbook.saveAsync("output.pdf", pdfSaveOptions);
 
 ## **Save Specified Worksheets to PDF**
 
-If you want to export desired/custom multiple sheets to PDF, you can achieve this by passing multiple sheet indices to [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/nodejs-cpp/paginatedsaveoptions/#sheetSet) option.
+If you want to export desired/custom multiple sheets to PDF, you can achieve this by passing multiple sheet indices to [**PdfSaveOptions.getSheetSet()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getSheetSet--) option.
 
 ```javascript
 const path = require("path");
@@ -86,7 +86,7 @@ workbook.save("output.pdf", pdfSaveOptions);
 
 ## **Reorder Worksheets to PDF**
 
-If you want to reorder sheets (e.g. in reverse order) to PDF without modifying the source file, you can achieve this by passing reordered sheet indices to [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/nodejs-cpp/paginatedsaveoptions/#sheetSet) option.
+If you want to reorder sheets (e.g. in reverse order) to PDF without modifying the source file, you can achieve this by passing reordered sheet indices to [**PdfSaveOptions.getSheetSet()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getSheetSet--) option.
 
 ```javascript
 const path = require("path");

@@ -9,18 +9,18 @@ description: Learn how to get ranges with external links using Aspose.Cells for 
 
 ## **Get Range with External Links**
 
-A lot of times Excel files access data from other Excel files using external links. Aspose.Cells for Node.js via C++ provides the option to retrieve these external links by using the [**Name.getReferredAreas**](https://reference.aspose.com/cells/nodejs-cpp/name/#getReferredAreas) method. The [**Name.getReferredAreas**](https://reference.aspose.com/cells/nodejs-cpp/name/#getReferredAreas) method returns an array of type [**ReferredArea**](https://reference.aspose.com/cells/nodejs-cpp/referredarea). The [**ReferredArea**](https://reference.aspose.com/cells/nodejs-cpp/referredarea) class provides an [**externalFileName**](https://reference.aspose.com/cells/nodejs-cpp/referredarea/#externalFileName) property which returns the name of the external file. The [**ReferredArea**](https://reference.aspose.com/cells/nodejs-cpp/referredarea) class exposes the following members.
+A lot of times Excel files access data from other Excel files using external links. Aspose.Cells for Node.js via C++ provides the option to retrieve these external links by using the [**Name.getReferredAreas(boolean)**](https://reference.aspose.com/cells/nodejs-cpp/name/#getReferredAreas-boolean-) method. The [**Name.getReferredAreas(boolean)**](https://reference.aspose.com/cells/nodejs-cpp/name/#getReferredAreas-boolean-) method returns an array of type [**ReferredArea**](https://reference.aspose.com/cells/nodejs-cpp/referredarea). The [**ReferredArea**](https://reference.aspose.com/cells/nodejs-cpp/referredarea) class provides an [**ReferredArea.getExternalFileName()**](https://reference.aspose.com/cells/nodejs-cpp/referredarea/#getExternalFileName--) property which returns the name of the external file. The [**ReferredArea**](https://reference.aspose.com/cells/nodejs-cpp/referredarea) class exposes the following members.
 
-- [**endColumn**](https://reference.aspose.com/cells/nodejs-cpp/referredarea/#endColumn): The end column of the area
-- [**endRow**](https://reference.aspose.com/cells/nodejs-cpp/referredarea/#endRow): The end row of the area
-- [**externalFileName**](https://reference.aspose.com/cells/nodejs-cpp/referredarea/#externalFileName): Get the external file name if this is an external reference
-- [**isArea**](https://reference.aspose.com/cells/nodejs-cpp/referredarea/#isArea): Indicates whether this is an area
-- [**isExternalLink**](https://reference.aspose.com/cells/nodejs-cpp/referredarea/#isExternalLink): Indicates whether this is an external link
-- [**sheetName**](https://reference.aspose.com/cells/nodejs-cpp/referredarea/#sheetName): Indicates which sheet this reference is in
-- [**startColumn**](https://reference.aspose.com/cells/nodejs-cpp/referredarea/#startColumn): The start column of the area
-- [**startRow**](https://reference.aspose.com/cells/nodejs-cpp/referredarea/#startRow): The start row of the area
+- [**ReferredArea.getEndColumn()**](https://reference.aspose.com/cells/nodejs-cpp/referredarea/#getEndColumn--): The end column of the area
+- [**ReferredArea.getEndRow()**](https://reference.aspose.com/cells/nodejs-cpp/referredarea/#getEndRow--): The end row of the area
+- [**ReferredArea.getExternalFileName()**](https://reference.aspose.com/cells/nodejs-cpp/referredarea/#getExternalFileName--): Get the external file name if this is an external reference
+- [**ReferredArea.isArea()**](https://reference.aspose.com/cells/nodejs-cpp/referredarea/#isArea--): Indicates whether this is an area
+- [**ReferredArea.isExternalLink()**](https://reference.aspose.com/cells/nodejs-cpp/referredarea/#isExternalLink--): Indicates whether this is an external link
+- [**ReferredArea.getSheetName()**](https://reference.aspose.com/cells/nodejs-cpp/referredarea/#getSheetName--): Indicates which sheet this reference is in
+- [**ReferredArea.getStartColumn()**](https://reference.aspose.com/cells/nodejs-cpp/referredarea/#getStartColumn--): The start column of the area
+- [**ReferredArea.getStartRow()**](https://reference.aspose.com/cells/nodejs-cpp/referredarea/#getStartRow--): The start row of the area
 
-The sample code given below demonstrates the use of [**Name.getReferredAreas**](https://reference.aspose.com/cells/nodejs-cpp/name/#getReferredAreas) method to get Ranges with external links.
+The sample code given below demonstrates the use of [**Name.getReferredAreas(boolean)**](https://reference.aspose.com/cells/nodejs-cpp/name/#getReferredAreas-boolean-) method to get Ranges with external links.
 
 ## **Sample Code**
 

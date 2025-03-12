@@ -81,7 +81,7 @@ console.log("File data imported successfully!");
 
 ## **How to Load Visible Sheets only**
 
-While loading a [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), sometimes you may only need data in visible worksheets in a workbook. Aspose.Cells allows you to skip data in invisible worksheets while loading a workbook. To do this, create a custom function that inherits the [**LoadFilter**](https://reference.aspose.com/cells/nodejs-cpp/loadfilter) class and pass its instance to [**LoadOptions.loadFilter**](https://reference.aspose.com/cells/nodejs-cpp/loadoptions/#loadFilter) property.
+While loading a [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), sometimes you may only need data in visible worksheets in a workbook. Aspose.Cells allows you to skip data in invisible worksheets while loading a workbook. To do this, create a custom function that inherits the [**LoadFilter**](https://reference.aspose.com/cells/nodejs-cpp/loadfilter) class and pass its instance to [**LoadOptions.getLoadFilter()**](https://reference.aspose.com/cells/nodejs-cpp/loadoptions/#getLoadFilter--) property.
 
 ```javascript
 const path = require("path");

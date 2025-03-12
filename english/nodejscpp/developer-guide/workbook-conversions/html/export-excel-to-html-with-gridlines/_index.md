@@ -9,11 +9,11 @@ description: Learn how to export an Excel file to HTML format with GridLines usi
 
 {{% alert color="primary" %}}  
 
-If you want to export your Excel file into HTML with GridLines, then please use the [HtmlSaveOptions.exportGridLines](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#exportGridLines) property and set it **true**.
+If you want to export your Excel file into HTML with GridLines, then please use the [HtmlSaveOptions.getExportGridLines()](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getExportGridLines--) property and set it **true**.
 
 {{% /alert %}}  
 ## **Export Excel to HTML with GridLines**  
-The following sample code creates a workbook, fills its worksheet with some values, and then saves it in HTML format after setting the [HtmlSaveOptions.exportGridLines](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#exportGridLines) to **true**.  
+The following sample code creates a workbook, fills its worksheet with some values, and then saves it in HTML format after setting the [HtmlSaveOptions.getExportGridLines()](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getExportGridLines--) to **true**.  
 
 ```javascript
 const path = require("path");

@@ -14,9 +14,9 @@ Sample file: [Sample.xlsx](Sample.xlsx)
 
 ## Export equations as LaTeX expressions
 
-If you want to export equations in Excel as LaTeX expressions, you can use the [ToLaTeX()](https://reference.aspose.com/cells/nodejs-cpp/equationnode/#toLaTeX) method. 
+If you want to export equations in Excel as LaTeX expressions, you can use the [EquationNode.toLaTeX()](https://reference.aspose.com/cells/nodejs-cpp/equationnode/#toLaTeX--) method. 
 
-The following sample code shows how to use the [ToLaTeX()](https://reference.aspose.com/cells/nodejs-cpp/equationnode/#toLaTeX) method and insert the generated results into HTML:
+The following sample code shows how to use the [EquationNode.toLaTeX()](https://reference.aspose.com/cells/nodejs-cpp/equationnode/#toLaTeX--) method and insert the generated results into HTML:
 
 ### Node.js-To-LaTeX
 
@@ -47,9 +47,9 @@ fs.writeFileSync("result.html", sb.join(""));
 
 ## Export equations as MathML expressions
 
-If you want to export equations in Excel as MathML expressions, you can use the [ToMathML()](https://reference.aspose.com/cells/nodejs-cpp/equationnode/#toMathML) method. 
+If you want to export equations in Excel as MathML expressions, you can use the [EquationNode.toMathML()](https://reference.aspose.com/cells/nodejs-cpp/equationnode/#toMathML--) method. 
 
-The following sample code shows how to use the [ToMathML()](https://reference.aspose.com/cells/nodejs-cpp/equationnode/#toMathML) method and insert the generated results into HTML:
+The following sample code shows how to use the [EquationNode.toMathML()](https://reference.aspose.com/cells/nodejs-cpp/equationnode/#toMathML--) method and insert the generated results into HTML:
 
 ### Node.js-To-MathML
 

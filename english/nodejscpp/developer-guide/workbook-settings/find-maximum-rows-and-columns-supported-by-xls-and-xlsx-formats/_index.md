@@ -8,11 +8,11 @@ url: /nodejs-cpp/find-maximum-rows-and-columns-supported-by-xls-and-xlsx-formats
   
 ## **Possible Usage Scenarios**  
   
-There are different numbers of rows and columns supported by Excel formats. For example, XLS supports 65536 rows and 256 columns while XLSX supports 1048576 rows and 16384 columns. If you want to know how many rows and columns are supported by a given format, you can use [**Workbook.Settings.maxRow**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#maxrow) and [**Workbook.Settings.maxColumn**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#maxcolumn) properties.  
+There are different numbers of rows and columns supported by Excel formats. For example, XLS supports 65536 rows and 256 columns while XLSX supports 1048576 rows and 16384 columns. If you want to know how many rows and columns are supported by a given format, you can use [**WorkbookSettings.getMaxRow()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getMaxRow--) and [**WorkbookSettings.getMaxColumn()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getMaxColumn--) properties.  
   
 ## **Find Maximum Rows and Columns supported by XLS and XLSX formats**  
   
-The following sample code creates a workbook first in XLS and then in XLSX format. After creation, it prints the values of [**Workbook.Settings.maxRow**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#maxrow) and [**Workbook.Settings.maxColumn**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#maxcolumn) properties. Please see the console output of the code given below for your reference.  
+The following sample code creates a workbook first in XLS and then in XLSX format. After creation, it prints the values of [**WorkbookSettings.getMaxRow()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getMaxRow--) and [**WorkbookSettings.getMaxColumn()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getMaxColumn--) properties. Please see the console output of the code given below for your reference.  
   
 ## **Sample Code**  
   

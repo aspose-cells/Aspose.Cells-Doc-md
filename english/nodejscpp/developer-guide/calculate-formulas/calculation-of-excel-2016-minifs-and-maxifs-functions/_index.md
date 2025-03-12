@@ -13,7 +13,7 @@ Microsoft Excel 2016 supports MINIFS and MAXIFS functions. These functions are n
 ![todo:image_alt_text](calculation-of-excel-2016-minifs-and-maxifs-functions_1.png)
 
 ## **Calculation of Excel 2016 MINIFS and MAXIFS functions**
-The following sample code loads the [sample excel file](5115149.xlsx) and calls the [Workbook.calculateFormula()](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula) method to perform the formula calculation via Aspose.Cells for Node.js via C++, and then saves the results in the [output PDF](5115154.pdf).
+The following sample code loads the [sample excel file](5115149.xlsx) and calls the [Workbook.calculateFormula()](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) method to perform the formula calculation via Aspose.Cells for Node.js via C++, and then saves the results in the [output PDF](5115154.pdf).
 
 ```javascript
 const path = require("path");

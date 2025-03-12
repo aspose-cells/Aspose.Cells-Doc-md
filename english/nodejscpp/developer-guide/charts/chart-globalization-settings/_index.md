@@ -15,14 +15,14 @@ Aspose.Cells APIs have exposed the [**ChartGlobalizationSettings**](https://refe
 ## **Introduction to ChartGlobalizationSettings Class**  
 
 The [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/nodejs-cpp/chartglobalizationsettings/) class currently offers the following 8 methods which can be overridden in a custom class to translate such as AxisTitle name, AxisUnit name, ChartTitle name, and so on to different languages.  
-1. [**getAxisTitleName**](https://reference.aspose.com/cells/nodejs-cpp/chartglobalizationsettings/#getAxisTitleName): Gets the name of Title for Axis.  
-1. [**getAxisUnitName**](https://reference.aspose.com/cells/nodejs-cpp/chartglobalizationsettings/#getAxisUnitName): Gets the Name of Axis Unit.  
-1. [**getChartTitleName**](https://reference.aspose.com/cells/nodejs-cpp/chartglobalizationsettings/#getChartTitleName): Gets the name of Chart Title.  
-1. [**getLegendDecreaseName**](https://reference.aspose.com/cells/nodejs-cpp/chartglobalizationsettings/#getLegendDecreaseName): Gets the name of Decrease for Legend.  
-1. [**getLegendIncreaseName**](https://reference.aspose.com/cells/nodejs-cpp/chartglobalizationsettings/#getLegendIncreaseName): Gets the name of Increase for Legend.  
-1. [**getLegendTotalName**](https://reference.aspose.com/cells/nodejs-cpp/chartglobalizationsettings/#getLegendTotalName): Gets the name of Total for Legend.  
-1. [**getOtherName**](https://reference.aspose.com/cells/nodejs-cpp/chartglobalizationsettings/#getOtherName): Gets the name of "Other" labels for Chart.  
-1. [**getSeriesName**](https://reference.aspose.com/cells/nodejs-cpp/chartglobalizationsettings/#getSeriesName): Gets the name of Series in the Chart.  
+1. [**ChartGlobalizationSettings.getAxisTitleName()**](https://reference.aspose.com/cells/nodejs-cpp/chartglobalizationsettings/#getAxisTitleName--): Gets the name of Title for Axis.  
+1. [**ChartGlobalizationSettings.getAxisUnitName(DisplayUnitType)**](https://reference.aspose.com/cells/nodejs-cpp/chartglobalizationsettings/#getAxisUnitName-displayunittype-): Gets the Name of Axis Unit.  
+1. [**ChartGlobalizationSettings.getChartTitleName()**](https://reference.aspose.com/cells/nodejs-cpp/chartglobalizationsettings/#getChartTitleName--): Gets the name of Chart Title.  
+1. [**ChartGlobalizationSettings.getLegendDecreaseName()**](https://reference.aspose.com/cells/nodejs-cpp/chartglobalizationsettings/#getLegendDecreaseName--): Gets the name of Decrease for Legend.  
+1. [**ChartGlobalizationSettings.getLegendIncreaseName()**](https://reference.aspose.com/cells/nodejs-cpp/chartglobalizationsettings/#getLegendIncreaseName--): Gets the name of Increase for Legend.  
+1. [**ChartGlobalizationSettings.getLegendTotalName()**](https://reference.aspose.com/cells/nodejs-cpp/chartglobalizationsettings/#getLegendTotalName--): Gets the name of Total for Legend.  
+1. [**ChartGlobalizationSettings.getOtherName()**](https://reference.aspose.com/cells/nodejs-cpp/chartglobalizationsettings/#getOtherName--): Gets the name of "Other" labels for Chart.  
+1. [**ChartGlobalizationSettings.getSeriesName()**](https://reference.aspose.com/cells/nodejs-cpp/chartglobalizationsettings/#getSeriesName--): Gets the name of Series in the Chart.  
 
 ### **Custom language translation**  
 Here, we will create a waterfall chart based on the following data. The names of chart components will be displayed in English in the chart. We will use a Turkish language example to show how to display the Chart Title, Legend Increase/Decrease names, Total name, and Axis Title in Turkish.  

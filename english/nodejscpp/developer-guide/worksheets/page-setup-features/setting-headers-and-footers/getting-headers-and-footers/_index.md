@@ -25,7 +25,7 @@ For other sheet types, such as chart sheets, or charts, you can insert headers a
 
 
 ## **Getting Headers and Footers using Aspose.Cells for Node.js via C++**
-With [**Worksheet.pageSetup.getHeader**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getheader-string) and [**Worksheet.pageSetup.getFooter**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getfooter-string) methods, Node.js developers can simply get headers or footers from the file.
+With [**PageSetup.getHeader(number)**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getHeader-number-) and [**PageSetup.getFooter(number)**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFooter-number-) methods, Node.js developers can simply get headers or footers from the file.
 
 1. Construct a Workbook to open the file.
 2. Get the worksheet where you want to get headers or footer.
@@ -60,7 +60,7 @@ Special commands are represented by a single letter with a leading ampersand ("&
 
 The header and footer strings are constructed using ABNF grammar. It's not easy to understand without a viewer.
 
-Aspose.Cells for Node.js via C++ provides [**Worksheet.pageSetup.getCommands**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getcommands-string) method to parse headers and footers as a command list.
+Aspose.Cells for Node.js via C++ provides [**PageSetup.getCommands(string)**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getCommands-string-) method to parse headers and footers as a command list.
 
 The following codes show how to parse the header or footer as a command list and process commands:
 

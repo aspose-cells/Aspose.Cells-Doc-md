@@ -13,7 +13,7 @@ Microsoft Excel allows users to add comments to cells to add additional informat
 
 {{% /alert %}}
 
-Aspose.Cells for Node.js via C++ provides a [**Shape.textDirection**](https://reference.aspose.com/cells/nodejs-cpp/shape/#textDirection) property to set text direction for a comment. The following sample code demonstrates the use of [**Shape.textDirection**](https://reference.aspose.com/cells/nodejs-cpp/shape/#textDirection) property to set text direction for a comment.
+Aspose.Cells for Node.js via C++ provides a [**Shape.getTextDirection()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getTextDirection--) property to set text direction for a comment. The following sample code demonstrates the use of [**Shape.getTextDirection()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getTextDirection--) property to set text direction for a comment.
 
 ```javascript
 const path = require("path");

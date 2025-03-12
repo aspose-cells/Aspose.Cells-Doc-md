@@ -10,7 +10,7 @@ keywords: Remove pivot connection without office 2013, office 2016, office 2019 
 
 ## **Possible Usage Scenarios**
 
-If you want to disassociate a slicer and pivot table in Excel, you need to right-click the slicer and select "Report Connections..." item. In the option list, you can operate on the checkbox. Similarly, if you want to disassociate a slicer and pivot table using the Aspose.Cells API programmatically, please use the [**Slicer.removePivotConnection(pivotTable)**](https://reference.aspose.com/cells/nodejs-cpp/slicers/slicer/#removePivotConnection-pivotTable-) method. It will disassociate the slicer and pivot table.
+If you want to disassociate a slicer and pivot table in Excel, you need to right-click the slicer and select "Report Connections..." item. In the option list, you can operate on the checkbox. Similarly, if you want to disassociate a slicer and pivot table using the Aspose.Cells API programmatically, please use the [**Slicer.removePivotConnection(PivotTable)**](https://reference.aspose.com/cells/nodejs-cpp/slicer/#removePivotConnection-pivottable-) method. It will disassociate the slicer and pivot table.
 
 ## **Disassociate slicer and pivot table**
 

@@ -34,7 +34,7 @@ workbook.save(path.join(dataDir, "OutputFile.out.pdf"), pdfSaveOptions);
 
 {{% alert color="primary" %}}  
 
-If the [OnePagePerSheet](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#onePagePerSheet-boolean-) option is set to **true**, all the sheet content will be rendered to one PDF page.  
+If the [PdfSaveOptions.getOnePagePerSheet()](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getOnePagePerSheet--) option is set to **true**, all the sheet content will be rendered to one PDF page.  
 
 {{% /alert %}} {{% alert color="primary" %}}  
 

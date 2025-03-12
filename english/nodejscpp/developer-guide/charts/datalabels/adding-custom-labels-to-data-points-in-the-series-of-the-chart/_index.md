@@ -10,7 +10,7 @@ url: /nodejs-cpp/adding-custom-labels-to-data-points-in-the-series-of-the-chart/
 
 {{% alert color="primary" %}}  
 
-You can add custom labels to data points in the series of the chart. Aspose.Cells provides [**ChartPoint.dataLabels.text**](https://reference.aspose.com/cells/nodejs-cpp/chartpoint/#dataLabels) property to add these custom labels. This article will explain how to use this property to add custom labels to data points in the series of the chart.
+You can add custom labels to data points in the series of the chart. Aspose.Cells provides [**DataLabels.getText()**](https://reference.aspose.com/cells/nodejs-cpp/datalabels/#getText--) property to add these custom labels. This article will explain how to use this property to add custom labels to data points in the series of the chart.
 
 {{% /alert %}}  
 

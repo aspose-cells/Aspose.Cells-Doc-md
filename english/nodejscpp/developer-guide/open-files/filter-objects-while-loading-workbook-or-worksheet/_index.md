@@ -8,7 +8,7 @@ description: Learn how to filter data while loading workbooks or worksheets usin
 ---
 
 ## **Possible Usage Scenarios**
-Please use [LoadOptions.loadFilter](https://reference.aspose.com/cells/nodejs-cpp/loadoptions/#loadFilter-loadfilter) property while filtering data from the workbook. But if you want to filter data from individual worksheets, then you will have to override the [LoadFilter.startSheet](https://reference.aspose.com/cells/nodejs-cpp/loadfilter/#startSheet-number-) method. Please provide appropriate value from the [LoadDataFilterOptions](https://reference.aspose.com/cells/nodejs-cpp/loaddatafilteroptions) enumeration while creating or working with [LoadFilter](https://reference.aspose.com/cells/nodejs-cpp/loadfilter).
+Please use [LoadOptions.getLoadFilter()](https://reference.aspose.com/cells/nodejs-cpp/loadoptions/#getLoadFilter--) property while filtering data from the workbook. But if you want to filter data from individual worksheets, then you will have to override the [LoadFilter.startSheet(Worksheet)](https://reference.aspose.com/cells/nodejs-cpp/loadfilter/#startSheet-worksheet-) method. Please provide appropriate value from the [LoadDataFilterOptions](https://reference.aspose.com/cells/nodejs-cpp/loaddatafilteroptions) enumeration while creating or working with [LoadFilter](https://reference.aspose.com/cells/nodejs-cpp/loadfilter).
 
 The [LoadDataFilterOptions](https://reference.aspose.com/cells/nodejs-cpp/loaddatafilteroptions) enumeration has the following possible values.
 

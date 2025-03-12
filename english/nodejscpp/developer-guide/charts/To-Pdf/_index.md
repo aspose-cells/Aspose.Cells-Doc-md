@@ -10,7 +10,7 @@ url: /nodejs-cpp/chart-to-pdf/
 
 ## **Rendering Chart to PDF**
 
-In order to render the chart to PDF format, the Aspose.Cells APIs have exposed the [**Chart.toPdf**](https://reference.aspose.com/cells/nodejs-cpp/chart/#topdf) method with the ability to store the resultant PDF on disk path or Stream.
+In order to render the chart to PDF format, the Aspose.Cells APIs have exposed the [**Chart.toPdf(string)**](https://reference.aspose.com/cells/nodejs-cpp/chart/#toPdf-string-) method with the ability to store the resultant PDF on disk path or Stream.
 
 ```javascript
 const path = require("path");

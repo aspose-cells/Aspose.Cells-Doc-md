@@ -19,7 +19,7 @@ Aspose.Cells allows you to encrypt and decrypt ODS files. Decrypted ODS files ca
 1. Click the **OK** button to save the file.
 
 ## **Encrypt ODS file with Aspose.Cells for Node.js via C++**
-To encrypt an ODS file, load the file and set the [**WorkbookSettings.Password**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#password-string-) value to the actual password before saving it. The output encrypted ODS file can be opened in OpenOffice only.
+To encrypt an ODS file, load the file and set the [**WorkbookSettings.getPassword()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getPassword--) value to the actual password before saving it. The output encrypted ODS file can be opened in OpenOffice only.
 
 ```javascript
 const path = require("path");
@@ -40,7 +40,7 @@ workbook.save(path.join(outputDir, "outputEncryptedODSFile.ods"));
 ```
 
 ## **Decrypt ODS file with Aspose.Cells for Node.js via C++**
-To decrypt an ODS file, load the file by providing a password in the [**LoadOptions.Password**](https://reference.aspose.com/cells/nodejs-cpp/loadoptions/#password-string-). Once the file is loaded, set the [**WorkbookSettings.Password**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#password-string-) string to null.
+To decrypt an ODS file, load the file by providing a password in the [**LoadOptions.getPassword()**](https://reference.aspose.com/cells/nodejs-cpp/loadoptions/#getPassword--). Once the file is loaded, set the [**WorkbookSettings.getPassword()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getPassword--) string to null.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");

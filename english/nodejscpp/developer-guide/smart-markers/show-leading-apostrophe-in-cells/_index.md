@@ -6,7 +6,7 @@ weight: 70
 url: /nodejs-cpp/show-leading-apostrophe-in-cells/  
 ---  
 
-In Microsoft Excel, the leading apostrophe in the cell's value is hidden. Aspose.Cells for Node.js via C++ provides the feature to display the apostrophe by default. For this, the API provides [Workbook.Settings.quotePrefixToStyle](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#quoteprefixtostyle) property. This property indicates whether to set the [getQuotePrefix()](https://reference.aspose.com/cells/nodejs-cpp/style/#getQuotePrefix--) property when entering a string value starting with a single quote to the cell. Setting the [Workbook.Settings.quotePrefixToStyle](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#quoteprefixtostyle) property to **false** will display the leading apostrophe in the output Excel file.
+In Microsoft Excel, the leading apostrophe in the cell's value is hidden. Aspose.Cells for Node.js via C++ provides the feature to display the apostrophe by default. For this, the API provides [WorkbookSettings.getQuotePrefixToStyle()](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getQuotePrefixToStyle--) property. This property indicates whether to set the [getQuotePrefix()](https://reference.aspose.com/cells/nodejs-cpp/style/#getQuotePrefix--) property when entering a string value starting with a single quote to the cell. Setting the [WorkbookSettings.getQuotePrefixToStyle()](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getQuotePrefixToStyle--) property to **false** will display the leading apostrophe in the output Excel file.
 
 The following screenshot shows the output Excel file with the visible apostrophe.
 

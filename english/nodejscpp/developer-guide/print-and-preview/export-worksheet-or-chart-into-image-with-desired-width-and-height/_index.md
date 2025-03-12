@@ -8,7 +8,7 @@ description: Learn how to export a worksheet or chart to an image with specified
 ---  
 
 {{% alert color="primary" %}}  
-You can use Aspose.Cells for Node.js via C++ to export your worksheet or chart into an image with the desired width and height. It provides [**ImageOrPrintOptions.setDesiredSize()**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#setDesiredSize-number-number-) method to set the desired width and height of the exported image. The width and height are specified in the unit of pixels.  
+You can use Aspose.Cells for Node.js via C++ to export your worksheet or chart into an image with the desired width and height. It provides [**ImageOrPrintOptions.setDesiredSize(number, number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#setDesiredSize-number-number-boolean-) method to set the desired width and height of the exported image. The width and height are specified in the unit of pixels.  
 {{% /alert %}}  
 
 The following code exports the worksheet into an image with 400x400 size.  

@@ -17,12 +17,12 @@ In Excel charts, there are 2 kinds of title:
 {{% /alert %}}
 
 ## **Title Options**
-Aspose.Cells for Node.js via C++ also allows managing chart's titles at runtime. With the [Title](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.charts/title/) object, you can change text, font, and fill format for titles.
+Aspose.Cells for Node.js via C++ also allows managing chart's titles at runtime. With the [Title](https://reference.aspose.com/cells/nodejs-cpp/title/) object, you can change text, font, and fill format for titles.
 
 |![todo:image_alt_text](chart_title.png)|
 
 ## **Setting the Titles of Charts or Axes**
-You can use Microsoft Excel to set the titles of a chart and its axes in a WYSIWYG environment. Aspose.Cells for Node.js via C++ also allows developers to set the titles of a chart and its axes at runtime. All charts and their axes contain a [Title](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.charts/chart/properties/title) property that can be used to set their titles as shown below in an example.
+You can use Microsoft Excel to set the titles of a chart and its axes in a WYSIWYG environment. Aspose.Cells for Node.js via C++ also allows developers to set the titles of a chart and its axes at runtime. All charts and their axes contain a [Title](https://reference.aspose.com/cells/nodejs-cpp/title/) property that can be used to set their titles as shown below in an example.
 
 The following code snippet demonstrates how to set titles to charts and axes.
 

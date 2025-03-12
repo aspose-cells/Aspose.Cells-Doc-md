@@ -15,7 +15,7 @@ In this article, we will learn how to check the frozen state of an Excel workshe
 ## **Are Window Panes Frozen**
 With Aspose.Cells for Node.js via C++, we can check whether the window is frozen and how many rows and columns are locked.
 
-Please use the [**Worksheet.paneState**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#paneState) property to check the state of window panes and get locked rows and columns with the [**Worksheet.getFreezedPanes()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getFreezedPanes) method.
+Please use the [**Worksheet.getPaneState()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getPaneState--) property to check the state of window panes and get locked rows and columns with the [**Worksheet.getFreezedPanes()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getFreezedPanes--) method.
 1. Construct Workbook to open the file.
 2. Check whether the worksheet is frozen.
 3. Get the locked rows and columns.

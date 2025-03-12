@@ -9,13 +9,13 @@ description: Learn how to create a shared workbook using Aspose.Cells for Node.j
 
 ## **Possible Usage Scenarios**  
 
-Microsoft Excel allows you to share the workbook as shown in the following screenshot. When you share the workbook, more than one user can edit the workbook on the network. Aspose.Cells for Node.js via C++ enables you to create a shared workbook with the [**Workbook.settings.shared**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#shared) property.  
+Microsoft Excel allows you to share the workbook as shown in the following screenshot. When you share the workbook, more than one user can edit the workbook on the network. Aspose.Cells for Node.js via C++ enables you to create a shared workbook with the [**WorkbookSettings.getShared()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getShared--) property.  
 
 ![todo:image_alt_text](create-shared-workbook-with-aspose-cells_1.png)  
 
 ## **Create Shared Workbook with Aspose.Cells**  
 
-The following sample code creates a shared workbook by setting the [**Workbook.settings.shared**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#shared) property as **true**. When you open the [output Excel file](55541786.xlsx) in Microsoft Excel, you will see **Shared** with the output workbook name as shown in this screenshot.  
+The following sample code creates a shared workbook by setting the [**WorkbookSettings.getShared()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getShared--) property as **true**. When you open the [output Excel file](55541786.xlsx) in Microsoft Excel, you will see **Shared** with the output workbook name as shown in this screenshot.  
 
 ![todo:image_alt_text](create-shared-workbook-with-aspose-cells_2.png)  
 

@@ -9,7 +9,7 @@ description: Import data from XML files into Excel using Aspose.Cells for Node.j
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to import the XML map inside the workbook using the [**Workbook.importXml()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#importXml-string-) method. You can import XML Map using Microsoft Excel with the following steps:
+Aspose.Cells allows you to import the XML map inside the workbook using the [**Workbook.importXml(string, string, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#importXml-string-string-number-number-) method. You can import XML Map using Microsoft Excel with the following steps:
 
 - Select **Developer** tab
 - Click **Import** in the XML section and follow the required steps.
@@ -27,7 +27,7 @@ The following screenshot shows how to import XML Map using Microsoft Excel.
 
 ## **Import XML Map using Aspose.Cells for Node.js via C++**
 
-The following sample code shows how to make use of the [**Workbook.importXml()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#importXml-string-). It generates the [output excel file](5115036.xlsx) as shown in this screenshot.
+The following sample code shows how to make use of the [**Workbook.importXml(string, string, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#importXml-string-string-number-number-). It generates the [output excel file](5115036.xlsx) as shown in this screenshot.
 
 |![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_2.png)|
 | :- |
