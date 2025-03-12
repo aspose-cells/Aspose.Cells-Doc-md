@@ -271,7 +271,7 @@ workbook.save(path.join(dataDir, "book1.out.xls"));
 It is possible to customize the look of major gridlines. Hide or show gridlines, or define their color and other settings. Below, we show how to hide gridlines and how to change their color.
 
 #### **Hiding Major Gridlines**
-Developers can control the visibility of major gridlines by setting the [IsVisible](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.drawing/line/properties/isvisible) property of the [Line](https://reference.aspose.com/cells/nodejs-cpp/line/) object to **true** or **false**.
+Developers can control the visibility of major gridlines by setting the [isVisible()](https://reference.aspose.com/cells/nodejs-cpp/line/#isVisible--) property of the [Line](https://reference.aspose.com/cells/nodejs-cpp/line/) object to **true** or **false**.
 
 The following code snippet demonstrates how to hide major gridlines. After hiding the major gridlines, a column chart will be added to the worksheet will have not gridlines.
 
@@ -410,4 +410,4 @@ workbook.save(path.join(dataDir, "book1.out.xls"));
 - [Set the Values Format Code of Chart Series](/cells/nodejs-cpp/set-the-values-format-code-of-chart-series/)
 - [Set Picture as Background Fill in the Chart](/cells/nodejs-cpp/set-picture-as-background-fill-in-the-chart/)
 
-
+

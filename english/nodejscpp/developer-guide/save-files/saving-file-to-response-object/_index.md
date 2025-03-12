@@ -15,7 +15,7 @@ Aspose.Cells makes it possible to manipulate files. This article explains the va
 
 ## **Saving File to Response Object**  
 
-It is also possible to generate a file dynamically and send it directly to a client browser. In order to do so, use a special overloaded version of the [**Save**](https://reference.aspose.com/cells/nodejs-cpp/aspose.cells.workbook/#save-stream-string-contentDisposition-saveOptions-) method that accepts the following parameters:  
+It is also possible to generate a file dynamically and send it directly to a client browser. In order to do so, use a special overloaded version of the [**Save**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-stream-string-contentDisposition-saveOptions-) method that accepts the following parameters:  
 
 - Node.js response object.  
 - File name.  

@@ -15,9 +15,7 @@ url: /nodejs-cpp/filtering-charts-in-excel/
 ### **Steps to filter series from a chart in Excel**
 In Excel, we can filter out specific series from a chart, causing those filtered series not to be displayed in the chart. The original chart is shown in **Figure 1**. However, when we filter out **Testseries2** and **Testseries4**, the chart will appear as shown in **Figure 2**.
 
-In Aspose.Cells for Node.js via C++, we can perform a similar operation. For a [sample](seriesFiltered.xlsx) file like this, if we want to filter out **Testseries2** and **Testseries4**, we can execute the following code. Additionally, we will maintain two lists: one ([Chart.getNSeries()](https://reference.aspose.com/cells/nodejs-cpp/chart/#getNSeries--)) list to store all the selected series and another ([FilteredNSeries](https://reference.aspose.com/cells/nodejs-cpp/chart/#filteredseries)) to store the filtered series.
-
-Please **note** that in the code, when we set **chart.nSeries[0].isFiltered = true;**, the first series in [Chart.getNSeries()](https://reference.aspose.com/cells/nodejs-cpp/chart/#getNSeries--) will be removed and placed in the appropriate position within [FilteredNSeries](https://reference.aspose.com/cells/nodejs-cpp/chart/#filteredseries). Subsequently, the previous **nSeries[1]** will become the new first item in the list, and all the following series will shift forward by one position. This means that if we then run **chart.nSeries[1].isFiltered = true;**, we are effectively removing the original third series. This can sometimes lead to confusion, so we recommend following the operation in the code, which deletes series from the end to the beginning.
+In Aspose.Cells for Node.js via C++, we can perform a similar operation. For a [sample](seriesFiltered.xlsx) file like this, if we want to filter out **Testseries2** and **Testseries4**, we can execute the following code. Additionally, we will maintain two lists: one ([Chart.getNSeries()](https://reference.aspose.com/cells/nodejs-cpp/chart/#getNSeries--)) list to store all the selected series.
 
 ![todo:image_alt_text](Figure1.png)
 

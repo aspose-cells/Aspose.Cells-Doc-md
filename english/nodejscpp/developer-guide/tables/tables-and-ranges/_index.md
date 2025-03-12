@@ -46,7 +46,7 @@ The table features are no longer available after the table has been converted to
 
 ## **Convert Table to Range with Options**  
 
-Aspose.Cells provides additional options while converting Table to Range through the [**TableToRangeOptions**](https://reference.aspose.com/cells/nodejs-cpp/tabletorangeoptions/) class. The [**TableToRangeOptions**](https://reference.aspose.com/cells/nodejs-cpp/tabletorangeoptions/) class provides [**LastRow**](https://reference.aspose.com/cells/nodejs-cpp/aspose/cells/tables/tabletorangeoptions/properties/lastrow) property which allows you to set the last index of the table row. The table formatting will be retained up to the specified row index and the rest of the formatting will be removed.  
+Aspose.Cells provides additional options while converting Table to Range through the [**TableToRangeOptions**](https://reference.aspose.com/cells/nodejs-cpp/tabletorangeoptions/) class. The [**TableToRangeOptions**](https://reference.aspose.com/cells/nodejs-cpp/tabletorangeoptions/) class provides [**getLastRow()**](https://reference.aspose.com/cells/nodejs-cpp/tabletorangeoptions/#getLastRow--) property which allows you to set the last index of the table row. The table formatting will be retained up to the specified row index and the rest of the formatting will be removed.  
 
 The sample code given below demonstrates the use of [**TableToRangeOptions**](https://reference.aspose.com/cells/nodejs-cpp/tabletorangeoptions/) class.  
 

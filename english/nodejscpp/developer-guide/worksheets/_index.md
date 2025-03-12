@@ -226,8 +226,7 @@ workbook.save(path.join(dataDir, "output.xls"));
 - [Get worksheet unique id](/cells/nodejs-cpp/get-worksheet-unique-id/)  
 - [Create, Manipulate or Remove Scenarios from Worksheets](/cells/nodejs-cpp/create-manipulate-or-remove-scenarios-from-worksheets/)  
 - [Managing Page Breaks](/cells/nodejs-cpp/managing-page-breaks/)  
-- [Page Setup Features](/cells/nodejs-cpp/page-setup-features/)  
-- [Print multiple copies of a worksheet](/cells/nodejs-cpp/print-multiple-copies-of-a-worksheet/)  
+- [Page Setup Features](/cells/nodejs-cpp/page-setup-features/)   
 - [Utilize Sheet.SheetId property of OpenXml using Aspose.Cells](/cells/nodejs-cpp/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)  
 - [Worksheet Views](/cells/nodejs-cpp/worksheet-views/)  
 

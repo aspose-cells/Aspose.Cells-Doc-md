@@ -809,15 +809,11 @@ class Teacher {
     }
 }
 ```  
-## **Getting Notifications while Merging Data with Smart Markers**  
-Sometimes, it may be required to get notifications about the cell reference or the particular Smart Marker being processed before completion. This can be achieved using the WorkbookDesigner.CallBack property and ISmartMarkerCallBack  
 
 ## **Advance topics**  
 - [Adding Anonymous or Custom Object into SmartMarkers](/cells/nodejs-cpp/adding-anonymous-or-custom-object-into-smartmarkers/)  
 - [Auto Populate Smart Marker Data to Other Worksheets if Data is too Large](/cells/nodejs-cpp/auto-populate-smart-marker-data-to-other-worksheets-if-data-is-too-large/)  
-- [Formatting Smart Markers](/cells/nodejs-cpp/formatting-smart-markers/)  
-- [Getting Notifications while Merging Data with Smart Markers](/cells/nodejs-cpp/getting-notifications-while-merging-data-with-smart-markers/)  
-- [Set custom DataSource for WorkbookDesigner](/cells/nodejs-cpp/set-custom-datasource-for-workbookdesigner/)  
+- [Formatting Smart Markers](/cells/nodejs-cpp/formatting-smart-markers/)   
 - [Show leading apostrophe in cells](/cells/nodejs-cpp/show-leading-apostrophe-in-cells/)  
 - [Using Formula parameter in Smart Marker field](/cells/nodejs-cpp/using-formula-parameter-in-smart-marker-field/)  
 - [Using Image Markers while Grouping Data in Smart Markers](/cells/nodejs-cpp/using-image-markers-while-grouping-data-in-smart-markers/)  

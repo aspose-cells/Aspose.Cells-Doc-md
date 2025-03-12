@@ -9,11 +9,11 @@ description: Learn how to avoid blank pages in output PDF when there is nothing 
 
 ## **Possible Usage Scenarios**
 
-When the Excel file is empty and the user saves it to PDF using Aspose.Cells for Node.js via C++, it renders a blank page in the output PDF. Sometimes, this default behavior is undesirable. Aspose.Cells provides the [**PdfSaveOptions.getOutputBlankPageWhenNothingToPrint()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getOutputBlankPageWhenNothingToPrint--) property to handle this issue. If you set it to **false**, then [**CellsException**](https://reference.aspose.com/cells/nodejs-cpp/cellsexception/) will occur whenever there is nothing to print in the output PDF.
+When the Excel file is empty and the user saves it to PDF using Aspose.Cells for Node.js via C++, it renders a blank page in the output PDF. Sometimes, this default behavior is undesirable. Aspose.Cells provides the [**PdfSaveOptions.getOutputBlankPageWhenNothingToPrint()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getOutputBlankPageWhenNothingToPrint--) property to handle this issue. If you set it to **false**, then exception will occur whenever there is nothing to print in the output PDF.
 
 ## **Avoid Blank Page in Output PDF when there is Nothing to Print**
 
-The following sample code creates an empty workbook and then saves it as PDF after setting the [**PdfSaveOptions.getOutputBlankPageWhenNothingToPrint()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getOutputBlankPageWhenNothingToPrint--) property to **false**. Since there is nothing to print in the output PDF, the [**CellsException**](https://reference.aspose.com/cells/nodejs-cpp/cellsexception/) occurs as shown below.
+The following sample code creates an empty workbook and then saves it as PDF after setting the [**PdfSaveOptions.getOutputBlankPageWhenNothingToPrint()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getOutputBlankPageWhenNothingToPrint--) property to **false**. Since there is nothing to print in the output PDF, the exception occurs as shown below.
 
 ## **Sample Code**
 
@@ -50,7 +50,7 @@ console.error("Exception Message: " + ex.message + "\r\n");
 
 {{< highlight javascript >}}
 
- Aspose.Cells.CellsException was unhandled
+ exception was unhandled
 
   HResult=-2146232832
 

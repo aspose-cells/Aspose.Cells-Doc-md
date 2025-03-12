@@ -8,7 +8,7 @@ url: /nodejs-cpp/convert-the-smart-art-to-group-shape/
 
 ## **Possible Usage Scenarios**
 
-You can convert Smart Art Shape into Group Shape using the [**Shape.getResultOfSmartArt()**](https://reference.aspose.com/cells/nodejs-cpp/shapes/#getResultOfSmartArt) method. It will enable you to handle smart art shape like a group shape. Consequently, you will have access to the individual parts or shapes of the group shape.
+You can convert Smart Art Shape into Group Shape using the [**Shape.getResultOfSmartArt()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getResultOfSmartArt--) method. It will enable you to handle smart art shape like a group shape. Consequently, you will have access to the individual parts or shapes of the group shape.
 
 ## **Convert the Smart Art to Group Shape**
 

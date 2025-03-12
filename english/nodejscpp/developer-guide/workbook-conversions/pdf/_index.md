@@ -113,7 +113,7 @@ workbook.save(path.join(dataDir, "output.pdf"), options);
 
 #### **Set ContentCopyForAccessibility option**
 
-With the [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions) class, you can get or set the PDF [**accessibilityExtractContent**](https://reference.aspose.com/cells/nodejs-cpp/rendering/pdfsecurity/pdfsecurityoptions/properties/accessibilityextractcontent) option to control the content access in the converted PDF.
+With the [**PdfSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions) class, you can get or set the PDF [**getAccessibilityExtractContent()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsecurityoptions/#getAccessibilityExtractContent--) option to control the content access in the converted PDF.
 
 ```javascript
 const path = require("path");
@@ -220,7 +220,6 @@ If your spreadsheet contains formulas, it is best to call [**Workbook.calculateF
 - [Add PDF Bookmarks with Named Destinations](/cells/nodejs-cpp/add-pdf-bookmarks-with-named-destinations/)
 - [Avoid Blank Page in Output PDF when there is Nothing to Print](/cells/nodejs-cpp/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/)
 - [Change the Font on just the specific Unicode characters while saving to PDF](/cells/nodejs-cpp/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/)
-- [Control loading of External Resources in MS Excel Workbook while rendering to PDF](/cells/nodejs-cpp/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
 - [Convert XLSX File to PDF Format](/cells/nodejs-cpp/convert-xlsx-file-to-pdf-format/)
 - [Convert Excel file to PDF format compatible with PDFA-1a](/cells/nodejs-cpp/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [Convert XLS File with Images or Charts to PDF](/cells/nodejs-cpp/convert-xls-file-with-images-or-charts-to-pdf/)

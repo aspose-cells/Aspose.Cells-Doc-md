@@ -8,7 +8,7 @@ description: Learn how to read and write values of ActiveX ComboBox Control usin
 ---
 
 ## **Possible Usage Scenarios**
-You can read or write the values of ActiveX ComboBox Control using Aspose.Cells for Node.js via C++. Please access the ActiveX Control via [Shape.getActiveXControl()](https://reference.aspose.com/cells/nodejs-cpp/shapes/#getActiveXControl) property and check its type via [ActiveXControlBase.getType()](https://reference.aspose.com/cells/nodejs-cpp/activexcontrolbase/#getType--) property, it should return [ControlType.ComboBox](https://reference.aspose.com/cells/nodejs-cpp/controltype/) value and then typecast it into [ComboBoxActiveXControl](https://reference.aspose.com/cells/nodejs-cpp/comboboxactivexcontrol/) object and read or modify its various properties.
+You can read or write the values of ActiveX ComboBox Control using Aspose.Cells for Node.js via C++. Please access the ActiveX Control via [Shape.getActiveXControl()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getActiveXControl--) property and check its type via [ActiveXControlBase.getType()](https://reference.aspose.com/cells/nodejs-cpp/activexcontrolbase/#getType--) property, it should return [ControlType.ComboBox](https://reference.aspose.com/cells/nodejs-cpp/controltype/) value and then typecast it into [ComboBoxActiveXControl](https://reference.aspose.com/cells/nodejs-cpp/comboboxactivexcontrol/) object and read or modify its various properties.
 
 Please download the [sample excel file](5115124.xlsx) used in the following sample code.
 ## **Update ActiveX ComboBox Control**

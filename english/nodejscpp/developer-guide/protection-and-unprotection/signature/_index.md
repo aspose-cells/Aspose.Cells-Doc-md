@@ -18,7 +18,7 @@ Use the Digital Signature dialog to attach a digital signature. The Digital Sign
 
 ## **How to Add Digital Signature for Excel**  
 
-Aspose.Cells provides the [**Aspose.Cells.DigitalSignatures**](https://reference.aspose.com/cells/nodejs-cpp/digitalsignatures/#digitalsignature) module to perform the job (assign and validate digital signatures). The module has some useful features for adding and validating digital signatures.  
+Aspose.Cells provides the [**DigitalSignature**](https://reference.aspose.com/cells/nodejs-cpp/digitalsignature/) module to perform the job (assign and validate digital signatures). The module has some useful features for adding and validating digital signatures.  
 
 Please see the following sample code that describes how you can perform the task using the Aspose.Cells for Node.js via C++ API.  
 
