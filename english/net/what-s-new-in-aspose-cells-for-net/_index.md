@@ -8,6 +8,16 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 25.3
+* Support to get display style of one cell from cells without getting the cell object
+* Support to get binary content of used fonts in the workbook
+* Support to convert excel to workbook struct json
+* Support exporting (cell value, formatting, formula and comment) to Numbers file
+* Support placing inline styling/formatting inside HTML elements when saving HTML
+* Support highlighting selected sheet tab in the generated HTML
+* Support more shotcut keys for GridJs
+* Support pasting the content copied from excel to multiple target areas for GridJs
+
 ## Aspose.Cells for .NET 25.2
 * Provide async APIs for time-consumed operations of loading, saving, formula calculation
 * Support to set rich text for cell while saving with LightCells
