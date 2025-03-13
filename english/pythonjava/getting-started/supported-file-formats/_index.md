@@ -23,9 +23,10 @@ url: /python-java/supported-file-formats/
 |[MHTML](https://docs.fileformat.com/web/mhtml/)|MHTML file.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)|ODS (OpenDocument Spreadsheet).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |SpreadsheetML|Excel 2003 XML file.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Numbers](https://docs.fileformat.com/spreadsheet/numbers/)|The document is created by Apple's "Numbers" application which forms part of Apple's iWork office suite, a set of applications which run on the Mac OS X and iOS operating systems.|{{< emoticons/tick >}}||
+|[Numbers](https://docs.fileformat.com/spreadsheet/numbers/)|The document is created by Apple's "Numbers" application which forms part of Apple's iWork office suite, a set of applications which run on the Mac OS X and iOS operating systems.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[JSON](https://docs.fileformat.com/web/json/)|JavaScript Object Notation|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[DIF](https://docs.fileformat.com/spreadsheet/dif/)|Data Interchange Format.| |{{< emoticons/tick >}}|
+|[DIF](https://docs.fileformat.com/spreadsheet/dif/)|Data Interchange Format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[DBF](https://docs.fileformat.com/database/dbf/)|The file with .dbf extension is a database file used by a database management system application called dBASE.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[PDF](https://docs.fileformat.com/pdf/)|Adobe Portable Document Format.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XML Paper Specification Format.| |{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|Scalable Vector Graphics Format.| |{{< emoticons/tick >}}|
