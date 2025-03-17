@@ -16,52 +16,63 @@ aliases:
 
 
 # Working with GridJs Server Side
-## 0. set the right folder path in Config
- **`Config.FileCacheDirectory`** for the workbook cache file.
- **`Config.PictureCacheDirectory`**  for the image files cache in the workbook.
+## 1. add service in ConfigureServices in startup.cs 
+```C#
+   services.AddScoped<IGridJsService, GridJsService>();
+```
+## 2. Set the Path to Store Cache Files
 
-for the storage detail ,please check this [guide](/net/aspose-cells-gridjs/storage/)
+You can choose any of the following ways:
 
-## 1. Implement GridCacheForStream
+ Option 1: Set GridJsOptions in ConfigureServices in Startup.cs
+```C#
+   services.Configure<GridJsOptions>(options =>
+	{
+		options.FileCacheDirectory = TestConfig.TempDir;
+	});
+```
+
+ Option 2: Directly Set the Static Property
+```C#
+   Config.FileCacheDirectory = TestConfig.TempDir;
+```
+
+ Option 3: Define Your Own Cache Storage Rule by Implementing GridCacheForStream
+
 For local file storage ,here is an example:
 
 {{< gist "aspose-cells-gists" "fb32f5c7a98978432e5e05c50995a4ca" "LocalFileCache.cs" >}}
 
-For server side storage,we also provide an example.
-Please check: <https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
 
-## 2. Get json from the spreadsheet file.
+For server-side storage,we also provide an example.Please check: 
+
+<https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
+
+
+For more details about storage,  please refer to this [guide](/cells/net/aspose-cells-gridjs/storage/)
+
+
+## 3.  Implement Controller Actions
+
+### 1. Create a Controller that Extends GridJsControllerBase
+```C#
+public class GridJs2Controller : GridJsControllerBase
+```
+### 2 Get JSON in action
+
+There are two ways to get JSON data in your action:
+
+Option 1: Using GridJsWorkbook
 ```C#
 GridJsWorkbook wbj = new GridJsWorkbook();
-using (FileStream fs = new FileStream(path, FileMode.Open))
-{
-    wbj.ImportExcelFile(fs,GridJsWorkbook.GetGridLoadFormat(Path.GetExtension(path)));
-}
-String ret =wbj.ExportToJson();
+Workbook wb = new Workbook(fullFilePath); 
+wbj.ImportExcelFile(wb);
+String ret =wbj.ExportToJson(fileName);
 ```
-## 3. Get the images/shapes  from the spreadsheet file
+Option 2: Using IGridJsService in GridJsControllerBase
 ```C#
-//Gridjs will automatically zip all the images/shapes into a zip stream  and store it in cache using the cache implemention.
-//GridJsWorkbook.CacheImp.SaveStream(zipoutStream, fileid);
-
-//get the fileid in the cache,uid is the unique id for the spreadsheet  instance, sheetid is the sheet index,
-String fileid=(uniqueid + "." + (sheetid + '_batch.zip'))
-
-//get the zip file stream by the fileid
-Stream s=GridJsWorkbook.CacheImp.LoadStream(fileid), mimeType, fileid.Replace('/', '.')
-```
-## 4. Update spreadsheet file in cache
-```C#
-GridJsWorkbook gwb = new GridJsWorkbook();
-//p is the update json,uid is the unique id for the spreadsheet
-String ret = gwb.UpdateCell(p, uid);
-```
-## 5.  Save spreadsheet file in cache
-```C#
-GridJsWorkbook wb = new GridJsWorkbook();
-//p is the update json,uid is the unique id for the spreadsheet
-wb.MergeExcelFileFromJson(uid, p);
-wb.SaveToCacheWithFileName(uid, filename,password);
+ String uid= GridJsWorkbook.GetUidForFile(fileName)
+ StringBuilder ret= _gridJsService.DetailFileJsonWithUid(fullFilePath, uid);
 ```
 
 For detail info ,you can check the example here:
