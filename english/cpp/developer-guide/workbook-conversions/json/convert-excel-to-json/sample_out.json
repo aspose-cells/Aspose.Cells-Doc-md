@@ -1,0 +1,58 @@
+{
+"Sheet1":[
+ {
+  "City": "Chicago",
+  "Region": "Central",
+  "Store": 3055
+ },
+ {
+  "City": "New York",
+  "Region": "East",
+  "Store": 3036
+ },
+ {
+  "City": "Detroit",
+  "Region": "Central",
+  "Store": 3074
+ }
+],
+"Sheet2":[
+ {
+  "City2": "Seattle",
+  "Region2": "West",
+  "Store3": 3000
+ },
+ {
+  "City2": "philadelph",
+  "Region2": "East",
+  "Store3": 3082
+ },
+ {
+  "City2": "Detroit",
+  "Region2": "Central",
+  "Store3": 3074
+ }
+],
+"Sheet3":[
+ {
+  "City3": "Seattle",
+  "Region3": "West",
+  "Store3": 3166
+ },
+ {
+  "City3": "New York",
+  "Region3": "East",
+  "Store3": 3090
+ },
+ {
+  "City3": "Chicago",
+  "Region3": "Central",
+  "Store3": 3055
+ },
+ {
+  "City3": "New York",
+  "Region3": "East",
+  "Store3": 3090
+ }
+]
+}
