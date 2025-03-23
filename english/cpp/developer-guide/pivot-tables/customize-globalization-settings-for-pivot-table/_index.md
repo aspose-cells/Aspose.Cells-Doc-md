@@ -125,35 +125,3 @@ int main() {
     return 0;
 }
 ```
-
-```cpp
-// C++ implementation example
-class CustomPivotTableGlobalizationSettings : public Aspose::Cells::PivotGlobalizationSettings
-{
-public:
-    virtual System::String GetTextOfTotal() override { return u"AsposeTotal"; }
-    virtual System::String GetTextOfGrandTotal() override { return u"AsposeGrandTotal"; }
-    virtual System::String GetTextOfMultipleItems() override { return u"AsposeMultipleItems"; }
-    virtual System::String GetTextOfColumnLabels() override { return u"AsposeColumnLabels"; }
-    virtual System::String GetTextOfRowLabels() override { return u"AsposeRowLabels"; }
-    virtual System::String GetTextOfBlank() override { return u"AsposeBlank"; }
-};
-
-// Usage in main application
-{
-    // Load source workbook
-    auto workbook = System::MakeObject<Workbook>(u"40468488.xlsx");
-    
-    // Apply custom globalization settings
-    auto settings = System::MakeObject<CustomPivotTableGlobalizationSettings>();
-    workbook->GetSettings()->GetGlobalizationSettings()->SetPivotSettings(settings);
-    
-    // Refresh pivot tables
-    workbook->RefreshPivotTables();
-    
-    // Save as PDF
-    workbook->Save(u"40468487.pdf", SaveFormat::Pdf);
-}
-```
-
-Please note that you cannot instruct Aspose.Cells for C++ to change or remove this information from output documents.

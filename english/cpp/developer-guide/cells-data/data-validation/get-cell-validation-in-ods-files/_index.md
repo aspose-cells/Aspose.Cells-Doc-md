@@ -52,4 +52,4 @@ int main()
 }
 ```
 
-Please note that you cannot instruct Aspose.Cells for C++ to change or remove this information from output Documents.
+.

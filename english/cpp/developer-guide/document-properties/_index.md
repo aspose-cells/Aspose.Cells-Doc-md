@@ -50,7 +50,7 @@ Developers can dynamically manage the document properties using the Aspose.Cells
 
 Aspose.Cells for C++ directly writes the information about API and Version Number in output documents. For example, upon rendering Document to PDF, Aspose.Cells for C++ populates **Application** field with value 'Aspose.Cells' and **PDF Producer** field with the value, e.g 'Aspose.Cells v17.9'.
 
-Please note that you cannot instruct Aspose.Cells for C++ to change or remove this information from output Documents.
+.
 
 {{% /alert %}}
 

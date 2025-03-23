@@ -25,45 +25,6 @@ This example demonstrates how to:
 1. Create a second range
 1. Copy formatted data between ranges
 
-```cpp
-#include <Aspose.Cells.h>
-
-using namespace Aspose::Cells;
-using namespace Aspose::Cells::Drawing;
-
-void CopyRangeWithStyle() {
-    // Create new workbook
-    auto workbook = System::MakeObject<Workbook>();
-    auto worksheet = workbook->GetWorksheets()->Get(0);
-    auto cells = worksheet->GetCells();
-    
-    // Populate data cells
-    for (int i = 0; i < 4; i++) {
-        for (int j = 0; j < 2; j++) {
-            cells->Get(i, j)->PutValue(u"Cell(" + System::String::ValueOf(i) + u"," + System::String::ValueOf(j) + u")");
-        }
-    }
-    
-    // Create source range and apply style
-    auto range = cells->CreateRange(u"A1:B4");
-    auto style = workbook->CreateStyle();
-    style->SetPattern(BackgroundType_Solid);
-    style->SetForegroundColor(System::Drawing::Color::get_Yellow());
-    
-    auto styleFlag = System::MakeObject<StyleFlag>();
-    styleFlag->SetCellShading(true);
-    
-    range->ApplyStyle(style, styleFlag);
-    
-    // Create destination range and copy
-    auto range2 = cells->CreateRange(u"C1:D4");
-    range2->Copy(range);
-    
-    // Save modified workbook
-    workbook->Save(u"output_copy_style.xlsx");
-}
-```
-
 ```c++
 #include <iostream>
 #include "Aspose.Cells.h"
@@ -121,13 +82,3 @@ int main()
     Aspose::Cells::Cleanup();
 }
 ```
-
-**Key modifications for C++:**
-- Use `System::MakeObject` for object creation
-- Access collection elements with `->Get(index)` instead of indexers
-- Method calls use `->` operator instead of `.`
-- Enum values may use different naming conventions (e.g., `BackgroundType_Solid`)
-- String literals use `u` prefix for Unicode support
-- Explicit memory management through smart pointers
-
-Please note that you cannot instruct Aspose.Cells for C++ to change or remove this information from output Documents.

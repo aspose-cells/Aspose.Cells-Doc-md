@@ -21,10 +21,8 @@ The following code demonstrates the use of the [**AbstractCalculationEngine**](h
 Create a class with a function `CalculateCustomFunction`. This class implements [**AbstractCalculationEngine**](https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/).
 
 ```c++
+#include <iostream>
 #include "Aspose.Cells.h"
-#include <vector>
-#include <memory>
-
 using namespace Aspose::Cells;
 
 class CustomFunctionStaticValue : public AbstractCalculationEngine
@@ -32,40 +30,24 @@ class CustomFunctionStaticValue : public AbstractCalculationEngine
 public:
     void Calculate(CalculationData& data) override
     {
-        // Create a 2D vector to hold the static values
-        std::vector<std::vector<Object>> calculatedValue = {
-            { Object(DateTime(2015, 6, 12, 10, 6, 30)), Object(2) },
-            { Object(3.0), Object(U16String(u"Test")) }
-        };
+		Vector<Object> row1{Object(Date{2015, 6, 12, 10, 6, 30}) ,Object(2)};
+        Vector<Object> row2{ Object(3.0) ,Object(U16String(u"Test")) };
 
+        Vector<Vector<Object>> values{ row1 , row2 };
+        
+        // Create Object with the 2D Vector and set as calculated value
+        Object calculatedValue(values);
+        
         // Set the calculated value in the CalculationData object
-        data.SetCalculatedValue(Object(calculatedValue));
+        data.SetCalculatedValue(calculatedValue);
     }
 };
+
 ```
 
 Now use the above function in your program.
 
 ```c++
-c++
-#include <iostream>
-#include "Aspose.Cells.h"
-using namespace Aspose::Cells;
-
-class CustomFunctionStaticValue : public ICustomFunction
-{
-public:
-    virtual bool CalculateCustomFunction(const U16String& name, const System::SharedPtr<System::Collections::ArrayList>& paramsList, System::SharedPtr<System::Object>& result) override
-    {
-        if (name == u"MYFUNC")
-        {
-            result = System::MakeObject<double>(0.0);
-            return true;
-        }
-        return false;
-    }
-};
-
 int main()
 {
     Aspose::Cells::Startup();
@@ -83,7 +65,12 @@ int main()
     cell.SetStyle(style);
 
     CalculationOptions calculationOptions;
-    calculationOptions.SetCustomEngine(new CustomFunctionStaticValue());
+    
+    // Create and set custom engine with proper memory management
+    std::shared_ptr<CustomFunctionStaticValue> customEngine = 
+        std::make_shared<CustomFunctionStaticValue>();
+    calculationOptions.SetCustomEngine(customEngine.get());
+    
     workbook.CalculateFormula(calculationOptions);
 
     workbook.GetSettings().GetFormulaSettings().SetCalculationMode(CalcModeType::Manual);

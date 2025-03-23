@@ -15,22 +15,6 @@ It can be useful to generate thumbnails from worksheets. A thumbnail is a small 
 
 Aspose.Cells for C++ allows you to output worksheets to image files, making thumbnail generation straightforward. The following sample code demonstrates how to output worksheets to image files using C++.
 
-```cpp
-// Load source Excel file
-auto workbook = MakeObject<Workbook>(u"source.xlsx");
-
-// Access first worksheet
-auto worksheet = workbook->GetWorksheets()->Get(0);
-
-// Create image options
-auto options = MakeObject<ImageOrPrintOptions>();
-options->SetImageFormat(SaveFormat::Png);
-
-// Create sheet render and convert to image
-auto render = MakeObject<SheetRender>(worksheet, options);
-render->ToImage(0, u"worksheet_thumbnail.png");
-```
-
 ```c++
 #include <iostream>
 #include "Aspose.Cells.h"

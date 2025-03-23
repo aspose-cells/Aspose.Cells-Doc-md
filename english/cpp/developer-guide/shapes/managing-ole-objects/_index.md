@@ -101,46 +101,45 @@ int main()
         OleObject ole = oles.Get(i);
 
         // Specify the output filename
-        U16String fileName = srcDir + u"ole_" + U16String(std::to_wstring(i).c_str()) + u".";
+        U16String fileName = srcDir + u"ole_" + U16String(std::to_string(i).c_str()) + u".";
 
         // Specify each file format based on the oleobject format type
         switch (ole.GetFileFormatType())
         {
-            case FileFormatType::Doc:
-                fileName += u"doc";
-                break;
-            case FileFormatType::Xlsx:
-                fileName += u"Xlsx";
-                break;
-            case FileFormatType::Ppt:
-                fileName += u"Ppt";
-                break;
-            case FileFormatType::Pdf:
-                fileName += u"Pdf";
-                break;
-            case FileFormatType::Unknown:
-                fileName += u"Jpg";
-                break;
-            default:
-                // Handle other formats if needed
-                break;
+        case FileFormatType::Doc:
+            fileName += u"doc";
+            break;
+        case FileFormatType::Xlsx:
+            fileName += u"Xlsx";
+            break;
+        case FileFormatType::Ppt:
+            fileName += u"Ppt";
+            break;
+        case FileFormatType::Pdf:
+            fileName += u"Pdf";
+            break;
+        case FileFormatType::Unknown:
+            fileName += u"Jpg";
+            break;
+        default:
+            // Handle other formats if needed
+            break;
         }
 
         // Save the oleobject as a new excel file if the object type is xls
         if (ole.GetFileFormatType() == FileFormatType::Xlsx)
         {
             Vector<uint8_t> objectData = ole.GetObjectData();
-            auto ms = System::MakeObject<IO::MemoryStream>(objectData.ToArray());
-            Workbook oleBook(ms);
+            Workbook oleBook(objectData);
             oleBook.GetSettings().SetIsHidden(false);
-            oleBook.Save(srcDir + u"Excel_File" + U16String(std::to_wstring(i).c_str()) + u".out.xlsx");
+            oleBook.Save(srcDir + u"Excel_File" + U16String(std::to_string(i).c_str()) + u".out.xlsx");
         }
         else
         {
             // Create the files based on the oleobject format types
             std::ofstream fs(fileName.ToUtf8().c_str(), std::ios::binary);
             Vector<uint8_t> objectData = ole.GetObjectData();
-            fs.write(reinterpret_cast<const char*>(objectData.GetArray()), objectData.GetSize());
+            fs.write(reinterpret_cast<const char*>(objectData.GetData()), objectData.GetLength());
             fs.close();
         }
     }

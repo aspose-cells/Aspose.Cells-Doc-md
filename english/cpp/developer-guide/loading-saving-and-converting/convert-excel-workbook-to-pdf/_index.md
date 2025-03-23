@@ -14,7 +14,7 @@ Aspose.Cells supports converting Excel files to PDF and maintains high visual fi
 
 Aspose.Cells directly writes the information about API and Version Number in output documents. For example, upon rendering Document to PDF, Aspose.Cells for C++ populates the **Application** field with value 'Aspose.Cells' and **PDF Producer** field with value, e.g 'Aspose.Cells v18.5.0'.
 
-Please note that you cannot instruct Aspose.Cells for C++ to change or remove this information from output Documents.
+.
 
 {{% /alert %}} 
 ### **Direct Conversion**
