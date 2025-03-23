@@ -20,8 +20,6 @@ This example shows how to export data from the following worksheet. Rows 5, 6 an
 | :- |
 |![todo:image_alt_text](export-visible-rows-data-from-worksheet_1.png)|
 
-Once the data is exported to a data table using the [**Worksheet.Cells.ExportDataTable()**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/exportdatatable/) method with the [**ExportTableOptions.PlotVisibleRows**](https://reference.aspose.com/cells/cpp/aspose.cells/exporttableoptions/plotvisiblerows/) option, it will look like this. Hidden rows are plotted as blank rows.
-
 |**Hidden rows are exported to the data table as blank rows**|
 | :- |
 |![todo:image_alt_text](export-visible-rows-data-from-worksheet_2.png)|

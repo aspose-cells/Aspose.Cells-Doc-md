@@ -17,7 +17,6 @@ The [**GlobalizationSettings**](https://reference.aspose.com/cells/cpp/aspose.ce
 
 1. [**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/cpp/aspose.cells/globalizationsettings/gettotalname/): Gets the total name of the function.
 1. [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/cpp/aspose.cells/globalizationsettings/getgrandtotalname/): Gets the grand total name of the function.
-1. [**GlobalizationSettings.GetOtherName**](https://reference.aspose.com/cells/cpp/aspose.cells/globalizationsettings/getothername/): Gets the name of "Other" labels for Pie charts.
 
 ### **Custom Labels for Subtotals**
 
@@ -129,8 +128,6 @@ The [**GlobalizationSettings**](https://reference.aspose.com/cells/cpp/aspose.ce
 {{% /alert %}}
 
 ### **Custom Text for Other Label of Pie Chart**
-
-The [**GlobalizationSettings**](https://reference.aspose.com/cells/cpp/aspose.cells/globalizationsettings/) class offers [**GetOtherName**](https://reference.aspose.com/cells/cpp/aspose.cells/globalizationsettings/getothername/) method which is useful to give the "Other" label of Pie charts a custom value. The following snippet defines a custom class and overrides the [**GetOtherName**](https://reference.aspose.com/cells/cpp/aspose.cells/globalizationsettings/getothername/) method to get a custom label based on the system's culture identifier.
 
 ```c++
 #include "Aspose.Cells.h"

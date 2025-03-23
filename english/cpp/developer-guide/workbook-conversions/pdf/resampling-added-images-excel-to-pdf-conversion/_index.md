@@ -60,7 +60,7 @@ Using the [**SetImageResample**](https://reference.aspose.com/cells/cpp/aspose.c
 
 {{% alert color="primary" %}}
 
-If your spreadsheet contains formulas, it is best to call [**Calculate**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculate/) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If your spreadsheet contains formulas, it is best to call [**CalculateFormula**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
 

@@ -9,15 +9,15 @@ description: Generate a PDF that fits all worksheet columns onto a single page u
 
 {{% alert color="primary" %}}
 
-Sometimes you want to generate a PDF file that fits all a worksheet's columns onto one page. The [**PdfSaveOptions.GetAllColumnsInOnePagePerSheet()**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/.paginatedsaveoptions/getallcolumnsinonepagepersheet/) property provides this feature in a very easy-to-use manner. Complex calculations such as the height and width of the output PDF are handled internally and are based on the data in the worksheet.
+Sometimes you want to generate a PDF file that fits all a worksheet's columns onto one page. The [**PdfSaveOptions.PaginatedSaveOptions(PaginatedSaveOptions_Impl* impl)**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/~paginatedsaveoptions/) property provides this feature in a very easy-to-use manner. Complex calculations such as the height and width of the output PDF are handled internally and are based on the data in the worksheet.
 
 {{% /alert %}}
 
 ## **Fit Worksheet Columns on Single PDF Page**
 
-[**PdfSaveOptions.GetAllColumnsInOnePagePerSheet()**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/.paginatedsaveoptions/getallcolumnsinonepagepersheet/) ensures that all columns in a worksheet are rendered to a single PDF page, although rows may expand to several pages depending on the data in the worksheet.
+[**PdfSaveOptions.PaginatedSaveOptions(PaginatedSaveOptions_Impl* impl)**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/~paginatedsaveoptions/) ensures that all columns in a worksheet are rendered to a single PDF page, although rows may expand to several pages depending on the data in the worksheet.
 
-The sample code below shows how to use [**PdfSaveOptions.GetAllColumnsInOnePagePerSheet()**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/.paginatedsaveoptions/getallcolumnsinonepagepersheet/) property to render a large worksheet of 100 columns.
+The sample code below shows how to use [**PdfSaveOptions.PaginatedSaveOptions(PaginatedSaveOptions_Impl* impl)**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/~paginatedsaveoptions/) property to render a large worksheet of 100 columns.
 
 ```c++
 #include <iostream>

@@ -35,7 +35,7 @@ This is the output PNG image after setting the [**ImageOrPrintOptions.DefaultFon
 
 See the output [TIFF](48496672.tiff) image after setting the [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/defaultfont/) property to "Times New Roman".
 
-See the output [PDF](48496673.pdf) file after setting the [**PdfSaveOptions.GetDefaultFont()**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/.paginatedsaveoptions/getdefaultfont/) property to "Times New Roman".
+See the output [PDF](48496673.pdf) file after setting the [**PdfSaveOptions.PaginatedSaveOptions(PaginatedSaveOptions_Impl* impl)**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/~paginatedsaveoptions/) property to "Times New Roman".
 
 ## **Sample Code**
 

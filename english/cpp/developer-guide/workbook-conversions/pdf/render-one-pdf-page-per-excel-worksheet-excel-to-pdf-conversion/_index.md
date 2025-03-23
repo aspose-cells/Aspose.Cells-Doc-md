@@ -48,7 +48,7 @@ int main()
 
 {{% alert color="primary" %}} 
 
-If the [GetOnePagePerSheet()](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/.paginatedsaveoptions/getonepagepersheet/) option is set to **true**, all the sheet content will be rendered to one PDF page.
+If the [PaginatedSaveOptions(PaginatedSaveOptions_Impl* impl)](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/~paginatedsaveoptions/) option is set to **true**, all the sheet content will be rendered to one PDF page.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 

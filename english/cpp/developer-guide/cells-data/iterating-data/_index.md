@@ -121,9 +121,9 @@ int main()
 }
 ```
 
-### **Columns Enumerator**
+### **Columns Get**
 
-The Columns Enumerator can be accessed while using the [**ColumnCollection.GetEnumerator**](https://reference.aspose.com/cells/cpp/aspose.cells/columncollection/getenumerator/) method. The following code example demonstrates the implementation of the IEnumerator interface for [**ColumnCollection**](https://reference.aspose.com/cells/cpp/aspose.cells/columncollection/).
+The Columns can be accessed while using the [**ColumnCollection.Get**](https://reference.aspose.com/cells/cpp/aspose.cells/columncollection/get/) method. The following code example demonstrates the implementation of the Get method for [**ColumnCollection**](https://reference.aspose.com/cells/cpp/aspose.cells/columncollection/).
 
 ```c++
 c++

@@ -9,7 +9,7 @@ description: Learn how to render solid gridlines while converting Excel to PDF u
 
 For compatibility with older versions, Aspose.Cells renders gridlines as dotted lines by default while converting Excel to PDF. However, modern Excel renders gridlines as solid lines nowadays.
 
-With the option [PdfSaveOptions.GetGridlineType()](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/.paginatedsaveoptions/getgridlinetype/), Aspose.Cells can also render gridlines as solid lines.
+With the option [PdfSaveOptions.PaginatedSaveOptions(PaginatedSaveOptions_Impl* impl)](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/~paginatedsaveoptions/), Aspose.Cells can also render gridlines as solid lines.
 
 ```cpp
 #include <iostream>

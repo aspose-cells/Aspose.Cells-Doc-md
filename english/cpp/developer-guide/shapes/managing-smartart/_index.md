@@ -19,7 +19,7 @@ Aspose.Cells for C++ provides the [**SmartArt**](https://reference.aspose.com/ce
 To add a Smart Art diagram to a worksheet:
 
 1. Create a [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) object
-2. Access the target worksheet using [**GetIWorksheets()->GetObjectByIndex()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/getobjectbyindex/)
+2. Access the target worksheet using [**GetIWorksheets()->Get()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/get/)
 3. Add Smart Art using [**GetIShapes()->AddSmartArt()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/addsmartart/)
 4. Save the workbook with [**Save()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/)
 

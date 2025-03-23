@@ -236,7 +236,7 @@ int main()
 
 ## **Union of Ranges**
 
-Aspose.Cells provides [**Range.Union**](https://reference.aspose.com/cells/cpp/aspose.cells/range/union/) method to take the union for ranges, the method returns a [*std::vector*](https://en.cppreference.com/w/cpp/container/vector) object. The following example shows how to take union for ranges.
+Aspose.Cells provides [**Range.UnionRang**](https://reference.aspose.com/cells/cpp/aspose.cells/range/unionrang/) method to take the union for ranges, the method returns a [*std::vector*](https://en.cppreference.com/w/cpp/container/vector) object. The following example shows how to take union for ranges.
 
 ```c++
 #include <iostream>

@@ -63,32 +63,6 @@ void HideGridlines() {
 }
 ```
 
-## **Setting Workbook Properties**
-
-You can set various workbook properties such as the author, title, and subject using the [BuiltInDocumentProperties](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/builtindocumentproperties/) property of the [WorkbookSettings](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/) class.
-
-### **Example: Setting Workbook Properties**
-
-The following example demonstrates how to set the author and title of a workbook:
-
-```cpp
-#include <Aspose.Cells.h>
-
-using namespace Aspose::Cells;
-
-void SetWorkbookProperties() {
-    // Create a new workbook
-    Workbook workbook;
-
-    // Set the author and title
-    workbook.GetSettings()->GetBuiltInDocumentProperties()->SetAuthor("John Doe");
-    workbook.GetSettings()->GetBuiltInDocumentProperties()->SetTitle("Sample Workbook");
-
-    // Save the workbook
-    workbook.Save("output.xlsx");
-}
-```
-
 ## **Conclusion**
 
 Aspose.Cells for C++ provides a powerful and flexible API to manage the settings of Excel files programmatically. By using the [WorkbookSettings](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/) class, you can configure calculation options, display settings, and other workbook properties to meet your specific requirements.
