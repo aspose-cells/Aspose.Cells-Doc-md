@@ -24,10 +24,10 @@ The [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/workshee
 
 Set page margins (left, right, top, bottom) using [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class members. A few of the methods are listed below which are used to specify page margins:
 
-- [**LeftMargin**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/leftmargin/)
-- [**RightMargin**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/rightmargin/)
-- [**TopMargin**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/topmargin/)
-- [**BottomMargin**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/bottommargin/)
+- [**GetLeftMargin()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getleftmargin/)
+- [**GetRightMargin()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getrightmargin/)
+- [**GetTopMargin()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/gettopmargin/)
+- [**GetBottomMargin()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getbottommargin/)
 
 ```cpp
 #include <iostream>
@@ -73,7 +73,7 @@ int main()
 
 ### **Center on Page**
 
-It is possible to center something on a page horizontally and vertically. For this, there are some useful members of the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class, [**CenterHorizontally**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/centerhorizontally/) and [**CenterVertically**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/centervertically/).
+It is possible to center something on a page horizontally and vertically. For this, there are some useful members of the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class, [**GetCenterHorizontally()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getcenterhorizontally/) and [**GetCenterVertically()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getcentervertically/).
 
 ```cpp
 #include <iostream>
@@ -117,7 +117,7 @@ int main()
 
 ### **Header and Footer Margins**
 
-Set header and footer margins with the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class members such as [**HeaderMargin**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/headermargin/) and [**FooterMargin**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/footermargin/).
+Set header and footer margins with the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class members such as [**GetHeaderMargin()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getheadermargin/) and [**GetFooterMargin()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getfootermargin/).
 
 ```cpp
 #include <iostream>

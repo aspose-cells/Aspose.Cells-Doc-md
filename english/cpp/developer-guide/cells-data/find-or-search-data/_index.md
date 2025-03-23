@@ -154,7 +154,7 @@ int main()
 
 It is possible to find specified string values by calling the same [**Find**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/find/) method found in the [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection with various [**FindOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/findoptions/).
 
-Specify the [**FindOptions.LookInType**](https://reference.aspose.com/cells/cpp/aspose.cells/findoptions/lookintype/) and [**FindOptions.LookAtType**](https://reference.aspose.com/cells/cpp/aspose.cells/findoptions/lookattype/) properties. The following example code illustrates how to use these properties to find cells with various number of strings at the **beginning** or at the **center** or at the **end** of the cell's string.
+Specify the [**FindOptions.GetLookInType()**](https://reference.aspose.com/cells/cpp/aspose.cells/findoptions/getlookintype/) and [**FindOptions.GetLookAtType()**](https://reference.aspose.com/cells/cpp/aspose.cells/findoptions/getlookattype/) properties. The following example code illustrates how to use these properties to find cells with various number of strings at the **beginning** or at the **center** or at the **end** of the cell's string.
 
 ```cpp
 #include <iostream>

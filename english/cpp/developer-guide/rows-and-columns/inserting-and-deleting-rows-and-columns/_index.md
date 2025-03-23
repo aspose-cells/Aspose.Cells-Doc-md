@@ -15,9 +15,9 @@ To fulfill these requirements, Aspose.Cells provides a very simple set of classe
 
 ### **Manage Rows and Columns**
 
-Aspose.Cells provides a class [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class contains a [**Worksheets**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class. The [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class provides a [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/cells/) collection that represents all cells in the worksheet.
+Aspose.Cells provides a class [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class contains a [**Worksheets**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class. The [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class provides a [**GetCells()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getcells/) collection that represents all cells in the worksheet.
 
-The [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/cells/) collection provides several methods for managing rows and columns in a worksheet. Some of these are discussed below.
+The [**GetCells()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getcells/) collection provides several methods for managing rows and columns in a worksheet. Some of these are discussed below.
 
 {{% alert color="primary" %}}
 
@@ -29,7 +29,7 @@ When rows or columns are added, the content in the worksheet is shifted down or 
 
 ### **How to Insert a Row**
 
-Insert a row into the worksheet at any location by calling the [**InsertRow**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrow/) method of the [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/cells/) collection. The [**InsertRow**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrow/) method takes the index of the row where the new row will be inserted.
+Insert a row into the worksheet at any location by calling the [**InsertRow**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrow/) method of the [**GetCells()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getcells/) collection. The [**InsertRow**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrow/) method takes the index of the row where the new row will be inserted.
 
 ```c++
 #include <iostream>
@@ -72,7 +72,7 @@ int main()
 
 ### **How to Insert Multiple Rows**
 
-To insert multiple rows into a worksheet, call the [**InsertRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrows/) method of the [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/cells/) collection. The [**InsertRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrows/) method takes two parameters:
+To insert multiple rows into a worksheet, call the [**InsertRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrows/) method of the [**GetCells()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getcells/) collection. The [**InsertRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrows/) method takes two parameters:
 
 - Row index, the index of the row from where the new rows will be inserted.
 - Number of rows, the total number of rows that need to be inserted.
@@ -119,7 +119,7 @@ int main()
 
 ### **How to Insert a Row with Formatting**
 
-To insert a row with formatting options, use the [**InsertRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrows/) overload that takes [**InsertOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/insertoptions/) as a parameter. Set the [**CopyFormatType**](https://reference.aspose.com/cells/cpp/aspose.cells/insertoptions/copyformattype/) property of [**InsertOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/insertoptions/) class with [**CopyFormatType**](https://reference.aspose.com/cells/cpp/aspose.cells/insertoptions/copyformattype/) Enumeration. The [**CopyFormatType**](https://reference.aspose.com/cells/cpp/aspose.cells/insertoptions/copyformattype/) Enumeration has three members as listed below.
+To insert a row with formatting options, use the [**InsertRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrows/) overload that takes [**InsertOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/insertoptions/) as a parameter. Set the [**CopyFormatType**](https://reference.aspose.com/cells/cpp/aspose.cells/insertoptions/getcopyformattype/) property of [**InsertOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/insertoptions/) class with [**CopyFormatType**](https://reference.aspose.com/cells/cpp/aspose.cells/insertoptions/getcopyformattype/) Enumeration. The [**CopyFormatType**](https://reference.aspose.com/cells/cpp/aspose.cells/insertoptions/getcopyformattype/) Enumeration has three members as listed below.
 
 - SameAsAbove: Formats the row same as the above row.
 - SameAsBelow: Formats the row same as below row.
@@ -170,7 +170,7 @@ int main()
 
 ### **How to Insert a Column**
 
-Developers can also insert a column into the worksheet at any location by calling the [**InsertColumn**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertcolumn/) method of the [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/cells/) collection. The [**InsertColumn**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertcolumn/) method takes the index of the column where the new column will be inserted.
+Developers can also insert a column into the worksheet at any location by calling the [**InsertColumn**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertcolumn/) method of the [**GetCells()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getcells/) collection. The [**InsertColumn**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertcolumn/) method takes the index of the column where the new column will be inserted.
 
 ```cpp
 #include <iostream>
@@ -216,7 +216,7 @@ int main()
 
 ### **How to Delete Multiple Rows**
 
-To delete multiple rows from a worksheet, call the [**DeleteRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deleterows/) method of the [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/cells/) collection. The [**DeleteRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deleterows/) method takes two parameters:
+To delete multiple rows from a worksheet, call the [**DeleteRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deleterows/) method of the [**GetCells()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getcells/) collection. The [**DeleteRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deleterows/) method takes two parameters:
 
 - Row index, the index of the row from where the rows will be deleted.
 - Number of rows, the total number of rows that need to be deleted.
@@ -257,7 +257,7 @@ int main()
 
 ### **How to Delete a Column**
 
-To delete a column from the worksheet at any location, call the [**DeleteColumn**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deletecolumn/) method of the [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/cells/) collection. The [**DeleteColumn**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deletecolumn/) method takes the index of the column to delete.
+To delete a column from the worksheet at any location, call the [**DeleteColumn**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deletecolumn/) method of the [**GetCells()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getcells/) collection. The [**DeleteColumn**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deletecolumn/) method takes the index of the column to delete.
 
 ```cpp
 #include <iostream>

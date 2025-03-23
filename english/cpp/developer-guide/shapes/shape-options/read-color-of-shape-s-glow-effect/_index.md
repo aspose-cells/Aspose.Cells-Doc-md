@@ -9,7 +9,7 @@ description: Learn how to read the color of the glow effect of any shape using A
 
 ## Possible Usage Scenarios
 
-If you want to read the color of the glow effect of any shape, then please use the [**Shape.Glow.Color**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/gloweffect/color/) property. It will help you find the various properties relating to the color of the glow effect of the shape.
+If you want to read the color of the glow effect of any shape, then please use the [**Shape.Glow.Color**](https://reference.aspose.com/cells/cpp/aspose.cells/color/) property. It will help you find the various properties relating to the color of the glow effect of the shape.
 
 ## Read Color of the Glow Effect of Shape
 

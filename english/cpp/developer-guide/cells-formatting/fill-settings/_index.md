@@ -108,12 +108,12 @@ int main()
 
 {{% alert color="primary" %}}
 
-- To set a cell's foreground or background color, use the [**Style**](https://reference.aspose.com/cells/cpp/aspose.cells/style/) object's [**ForegroundColor**](https://reference.aspose.com/cells/cpp/aspose.cells/style/foregroundcolor/) or [**BackgroundColor**](https://reference.aspose.com/cells/cpp/aspose.cells/style/backgroundcolor/) properties. Both properties will take effect only if the [**Style**](https://reference.aspose.com/cells/cpp/aspose.cells/style/) object's [**Pattern**](https://reference.aspose.com/cells/cpp/aspose.cells/style/pattern/) property is configured.
-- The [**ForegroundColor**](https://reference.aspose.com/cells/cpp/aspose.cells/style/foregroundcolor/) property sets the cell's shade color.
-  The [**Pattern**](https://reference.aspose.com/cells/cpp/aspose.cells/style/pattern/) property specifies the type of background pattern used for the foreground or background color. Aspose.Cells provides an enumeration, [**BackgroundType**](https://reference.aspose.com/cells/cpp/aspose.cells/backgroundtype/). that contains a set of pre-defined types of background patterns.
+- To set a cell's foreground or background color, use the [**Style**](https://reference.aspose.com/cells/cpp/aspose.cells/style/) object's [**GetForegroundColor()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getforegroundcolor/) or [**GetBackgroundColor()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getbackgroundcolor/) properties. Both properties will take effect only if the [**Style**](https://reference.aspose.com/cells/cpp/aspose.cells/style/) object's [**GetPattern()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getpattern/) property is configured.
+- The [**GetForegroundColor()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getforegroundcolor/) property sets the cell's shade color.
+  The [**GetPattern()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getpattern/) property specifies the type of background pattern used for the foreground or background color. Aspose.Cells provides an enumeration, [**BackgroundType**](https://reference.aspose.com/cells/cpp/aspose.cells/backgroundtype/). that contains a set of pre-defined types of background patterns.
 - If you select *BackgroundType.None* value from the [**BackgroundType**](https://reference.aspose.com/cells/cpp/aspose.cells/backgroundtype/) enumeration, the foreground color is not applied.
   Likewise, the background color is not applied if you select the *BackgroundType.None* or *BackgroundType.Solid* values.
-- When retrieving cell's shading/fill color, if [**Style.Pattern**](https://reference.aspose.com/cells/cpp/aspose.cells/style/pattern/) is *BackgroundType.None*, [**Style.ForegroundColor**](https://reference.aspose.com/cells/cpp/aspose.cells/style/foregroundcolor/) will return *Color.Empty*.
+- When retrieving cell's shading/fill color, if [**Style.GetPattern()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getpattern/) is *BackgroundType.None*, [**Style.GetForegroundColor()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getforegroundcolor/) will return *Color.Empty*.
 
 {{% /alert %}}
 

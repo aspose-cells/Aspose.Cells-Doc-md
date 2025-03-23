@@ -9,7 +9,7 @@ url: /cpp/change-cells-alignment-and-keep-existing-formatting/
 
 ## **Possible Usage Scenarios**
 
-Sometimes, you want to change the alignment of multiple cells but also want to keep existing formatting. Aspose.Cells allows you to do it using the [**StyleFlag::Alignments**](https://reference.aspose.com/cells/cpp/aspose.cells/styleflag/properties/alignments) property. If you will set it **true**, changes in alignment will take place otherwise not. Please note, [**StyleFlag**](https://reference.aspose.com/cells/cpp/aspose.cells/styleflag) object is passed as a parameter to [**Range::ApplyStyle()**](https://reference.aspose.com/cells/cpp/aspose.cells/range/methods/applystyle) method which actually applies the formatting to a range of cells.
+Sometimes, you want to change the alignment of multiple cells but also want to keep existing formatting. Aspose.Cells allows you to do it using the [**GetAlignments()**](https://reference.aspose.com/cells/cpp/aspose.cells/styleflag/getalignments/) property. If you will set it **true**, changes in alignment will take place otherwise not. Please note, [**StyleFlag**](https://reference.aspose.com/cells/cpp/aspose.cells/styleflag) object is passed as a parameter to [**ApplyStyle(const Style\& style, const StyleFlag\& flag)**](https://reference.aspose.com/cells/cpp/aspose.cells/range/applystyle/) method which actually applies the formatting to a range of cells.
 
 ## **Change Cells Alignment and Keep Existing Formatting**
 

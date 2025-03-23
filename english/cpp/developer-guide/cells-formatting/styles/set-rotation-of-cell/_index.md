@@ -24,7 +24,7 @@ To rotate a cell in Excel, you can use the following steps:
 
 ## **How to Rotate Text of Cell using Aspose.Cells API**
 
-[**Style.RotationAngle**](https://reference.aspose.com/cells/cpp/aspose.cells/style/rotationangle/) property makes it convenient to rotate cells. To rotate cells in Aspose.Cells, you need to follow these steps:
+[**Style.GetRotationAngle()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getrotationangle/) property makes it convenient to rotate cells. To rotate cells in Aspose.Cells, you need to follow these steps:
 1. Load the Excel Workbook
 <br>
 First, you need to load the Excel workbook using Aspose.Cells. You can use the Workbook class to open an existing Excel file or create a new one. 

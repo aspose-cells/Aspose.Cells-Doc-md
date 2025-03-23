@@ -149,7 +149,7 @@ int main()
 
 Aspose.Cells allows developers to access a worksheet's maximum display range. The maximum display range - the range of cells between the first and last cell with content - is useful when you need to copy, select, or display the entire contents of a worksheet in an image.
 
-You can access a worksheet's maximum display range using [**Worksheet.Cells.MaxDisplayRange**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/maxdisplayrange/). The following sample code illustrates how to access the [**MaxDisplayRange**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/maxdisplayrange/) property.
+You can access a worksheet's maximum display range using [**Worksheet.GetMaxDisplayRange()**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getmaxdisplayrange/). The following sample code illustrates how to access the [**GetMaxDisplayRange()**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getmaxdisplayrange/) property.
 
 ```cpp
 #include <iostream>

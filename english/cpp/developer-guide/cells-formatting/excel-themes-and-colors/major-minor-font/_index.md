@@ -30,7 +30,7 @@ If Theme Font is selected, the font name will display differently in different r
 If you do not want the font to be automatically changed in different regions, don't select the two Theme Fonts.
 
 ## **Changing Headings And Body Font Programmatically**
-With Aspose.Cells for C++, we can check whether the default font is a theme font or set the theme font with the [**Font.SchemeType**](https://reference.aspose.com/cells/cpp/aspose.cells/font/schemetype/) property.
+With Aspose.Cells for C++, we can check whether the default font is a theme font or set the theme font with the [**Font.GetSchemeType()**](https://reference.aspose.com/cells/cpp/aspose.cells/font/getschemetype/) property.
 
 The following sample code shows how to manipulate theme font.
 
@@ -73,7 +73,7 @@ int main()
 ## **Dynamically Gets Local Theme Font Programmatically**
 Sometimes, our servers and users' machines are not in the same region. How can we obtain the same font that users want for file processing?
 
-We have to set the system regional settings before loading the file with the [**LoadOptions.Region**](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/region/) property.
+We have to set the system regional settings before loading the file with the [**LoadOptions.GetRegion()**](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/getregion/) property.
 
 The following sample code shows how to get the local theme font.
 

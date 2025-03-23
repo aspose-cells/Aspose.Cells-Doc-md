@@ -38,7 +38,7 @@ To create validations using Microsoft Excel:
 ### **Data Validation with Aspose.Cells**
 
 Data validation is a powerful feature for validating the information entered into worksheets. With data validation, developers can provide users with a list of choices, restrict data entries to a specific type or size, etc.
-In Aspose.Cells, each [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class has a [**Validations**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/validations/) property which represents a collection of [**Validation**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/) objects. To set up validation, set some of the [**Validation**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/) class' properties as follows:
+In Aspose.Cells, each [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class has a [**GetValidations()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getvalidations/) property which represents a collection of [**Validation**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/) objects. To set up validation, set some of the [**Validation**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/) class' properties as follows:
 
 - Type – represents the validation type, which may be specified by using one of the predefined values in the [**ValidationType**](https://reference.aspose.com/cells/cpp/aspose.cells/validationtype/) enumeration.
 - Operator – represents the operator to be used in the validation, which may be specified by using one of the predefined values in the [**OperatorType**](https://reference.aspose.com/cells/cpp/aspose.cells/operatortype/) enumeration.
@@ -135,7 +135,7 @@ int main()
 
 This type of validation allows the user to enter values from a drop-down list. It provides a list: a series of rows that contain data. In the example, a second worksheet is added to hold the list source. Users can only select values from the list. The validation area is the cell range A1:A5 in the first worksheet.
 
-It is important here that you set the [**Validation.InCellDropDown**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/incelldropdown/) property to **true**.
+It is important here that you set the [**Validation.GetInCellDropDown()**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/getincelldropdown/) property to **true**.
 
 ```cpp
 #include <iostream>
@@ -575,7 +575,7 @@ int main()
 
 ## **Check if validation in cell is dropdown**
 
-As we have seen there are many types of validations that can be implemented within a cell. If you want to check whether validation is dropdown or not, [**Validation.InCellDropDown**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/incelldropdown/) property can be used to test this. The following sample code demonstrates the usage of this property. A sample file for testing can be downloaded from the following link:
+As we have seen there are many types of validations that can be implemented within a cell. If you want to check whether validation is dropdown or not, [**Validation.GetInCellDropDown()**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/getincelldropdown/) property can be used to test this. The following sample code demonstrates the usage of this property. A sample file for testing can be downloaded from the following link:
 
 [sampleValidation.xlsx](79527947.xlsx)
 

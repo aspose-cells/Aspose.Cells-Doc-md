@@ -77,15 +77,15 @@ Sheet tabs represent the worksheets in the Excel file. Click any tab to switch t
 
 Using Aspose.Cells, developers can control the visibility of sheet tabs and tabs scrolling buttons in Excel files.
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/), that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class provides a wide range of properties and methods to manage an Excel file. To control the visibility of tabs in an Excel file, developers can use the [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class' [**WorkbookSettings.ShowTabs**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/showtabs/) property. [**WorkbookSettings.ShowTabs**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/showtabs/) is a Boolean property, which means that it can only store a **true** or **false** value.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/), that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class provides a wide range of properties and methods to manage an Excel file. To control the visibility of tabs in an Excel file, developers can use the [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class' [**WorkbookSettings.GetShowTabs()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getshowtabs/) property. [**WorkbookSettings.GetShowTabs()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getshowtabs/) is a Boolean property, which means that it can only store a **true** or **false** value.
 
 ### **Making Tabs Visible**
 
-Make tabs visible with the [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class' [**WorkbookSettings.ShowTabs**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/showtabs/) property to **true**.
+Make tabs visible with the [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class' [**WorkbookSettings.GetShowTabs()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getshowtabs/) property to **true**.
 
 ### **Hiding Tabs**
 
-Hide tabs in an Excel file by setting the [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class' [**WorkbookSettings.ShowTabs**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/showtabs/) property to **false**.
+Hide tabs in an Excel file by setting the [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class' [**WorkbookSettings.GetShowTabs()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getshowtabs/) property to **false**.
 
 Below is a complete example that opens an Excel file (book1.xls), hides its tabs and saves the modified file as output.xls. After the code execution, you will see that the tabs of the workbook are hidden.
 

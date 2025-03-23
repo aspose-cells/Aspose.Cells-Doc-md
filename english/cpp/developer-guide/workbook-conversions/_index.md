@@ -271,7 +271,7 @@ int main()
 
 ## **Setting the Image Preferences for HTML**
 
-Starting from 8.0.2, Aspose.Cells has exposed [**ImageOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/imageoptions/) for the [**HtmlSaveOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/) class, allowing developers to specify image preferences when saving spreadsheets to HTML format.
+Starting from 8.0.2, Aspose.Cells has exposed [**GetImageOptions()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/getimageoptions/) for the [**HtmlSaveOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/) class, allowing developers to specify image preferences when saving spreadsheets to HTML format.
 
 Below are details of some of the image settings that can be applied:
 
@@ -281,10 +281,10 @@ Below are details of some of the image settings that can be applied:
 - [**Quality**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/quality/): Specifies the quality of the image between 0 to 100 when [**ImageType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/imagetype/) is specified as Jpeg.
 - [**VerticalResolution**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/verticalresolution/): Gets or sets the vertical resolution of the image in dots per inch.
 - [**HorizontalResolution**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/horizontalresolution/): Gets or sets the horizontal resolution of the image in dots per inch.
-- [**TiffCompression**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/tiffcompression/): Gets or sets the compression type for the images when [**ImageType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/imagetype/) is specified as Tiff.
+- [**TiffCompression**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/tiffcompression/): Gets or sets the compression type for the images when [**ImageType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/imagetype/) is specified as Tiff.
 - [**Transparent**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/transparent/): Indicates if the background of an image should be transparent when ImageFormat is specified as Png.
 
-The code below demonstrates how to use [**HtmlSaveOptions.ImageOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/imageoptions/) to specify different preferences.
+The code below demonstrates how to use [**HtmlSaveOptions.GetImageOptions()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/getimageoptions/) to specify different preferences.
 
 ```cpp
 #include <iostream>
@@ -558,7 +558,7 @@ int main()
 
 ## **Convert Excel Workbook to EPUB**
 
-The Aspose.Cells API provides support for converting spreadsheets to EPUB format. To export the workbook to EPUB, pass [**SaveFormat.Epub**](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/) as the second parameter of [**Workbook.Save**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) method. You may also use [**EBookSaveOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/ebooksaveoptions/) class to specify additional settings for exporting the worksheet to EPUB.
+The Aspose.Cells API provides support for converting spreadsheets to EPUB format. To export the workbook to EPUB, pass [**SaveFormat.Epub**](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/) as the second parameter of [**Workbook.Save**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) method. You may also use [**EBookSaveOptions**](https://reference.aspose.com/cells/cpp/aspose.cells.saving/ebooksaveoptions/) class to specify additional settings for exporting the worksheet to EPUB.
 
 The following code example demonstrates exporting the active worksheet to EPUB by using [**SaveFormat.Epub**](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/) enumeration member.
 
@@ -598,7 +598,7 @@ int main()
 
 ## **Convert Excel Workbook to AZW3**
 
-The Aspose.Cells API provides support for converting spreadsheets to AZW3 format. To export the workbook to AZW3, pass [**SaveFormat.Azw3**](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/) as the second parameter of [**Workbook.Save**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) method. You may also use [**EBookSaveOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/ebooksaveoptions/) class to specify additional settings for exporting the worksheet to AZW3.
+The Aspose.Cells API provides support for converting spreadsheets to AZW3 format. To export the workbook to AZW3, pass [**SaveFormat.Azw3**](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/) as the second parameter of [**Workbook.Save**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) method. You may also use [**EBookSaveOptions**](https://reference.aspose.com/cells/cpp/aspose.cells.saving/ebooksaveoptions/) class to specify additional settings for exporting the worksheet to AZW3.
 
 The following code example demonstrates exporting the active worksheet to AZW3 by using [**SaveFormat.Azw3**](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/) enumeration member.
 

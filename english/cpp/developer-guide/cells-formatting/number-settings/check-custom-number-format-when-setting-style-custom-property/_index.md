@@ -9,11 +9,11 @@ url: /cpp/check-custom-number-format-when-setting-style-custom-property/
 
 ## **Possible Usage Scenarios**
 
-If you assign an invalid custom number format to [**Style.Custom**](https://reference.aspose.com/cells/cpp/aspose.cells/style/custom/) property, then Aspose.Cells will not throw any exception. But if you want that Aspose.Cells should check if the assigned custom number format is valid or not, then please set the [**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/checkcustomnumberformat/) property to **true**.
+If you assign an invalid custom number format to [**Style.GetCustom()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getcustom/) property, then Aspose.Cells will not throw any exception. But if you want that Aspose.Cells should check if the assigned custom number format is valid or not, then please set the [**Workbook.GetCheckCustomNumberFormat()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getcheckcustomnumberformat/) property to **true**.
 
 ## **Check Custom Number Format when setting Style.Custom property**
 
-The following sample code assigns an invalid custom number format to [**Style.Custom**](https://reference.aspose.com/cells/cpp/aspose.cells/style/custom/) property. Since we have already set [**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/checkcustomnumberformat/) property to **true**, therefore it throws an exception, e.g., Invalid number format. Please read the comments inside the code for more help.
+The following sample code assigns an invalid custom number format to [**Style.GetCustom()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getcustom/) property. Since we have already set [**Workbook.GetCheckCustomNumberFormat()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getcheckcustomnumberformat/) property to **true**, therefore it throws an exception, e.g., Invalid number format. Please read the comments inside the code for more help.
 
 ## **Sample Code**
 

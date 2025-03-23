@@ -14,7 +14,7 @@ Aspose.Cells has a powerful calculation engine that can calculate almost all of 
 
 The following property and classes are used in implementing this feature.
 
-- [**CalculationOptions.CustomEngine**](https://reference.aspose.com/cells/cpp/aspose.cells/calculationoptions/customengine/)
+- [**CalculationOptions.GetCustomEngine()**](https://reference.aspose.com/cells/cpp/aspose.cells/calculationoptions/getcustomengine/)
 - [**AbstractCalculationEngine**](https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/)
 - [**CalculationData**](https://reference.aspose.com/cells/cpp/aspose.cells/calculationdata/)
 

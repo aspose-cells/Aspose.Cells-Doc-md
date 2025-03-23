@@ -21,7 +21,7 @@ The following code example explains how to save an entire workbook into text for
 
 When the code is executed, it converts the data of all sheets in the workbook to the TXT format.
 
-You can modify the same example to save your file to CSV. By default, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/cpp/aspose.cells/txtsaveoptions/separator/) is a comma, so do not specify a separator if saving to CSV format.
+You can modify the same example to save your file to CSV. By default, [**TxtSaveOptions.GetSeparator()**](https://reference.aspose.com/cells/cpp/aspose.cells/txtsaveoptions/getseparator/) is a comma, so do not specify a separator if saving to CSV format.
 
 ```c++
 #include <iostream>

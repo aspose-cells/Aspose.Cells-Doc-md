@@ -14,9 +14,9 @@ Microsoft Excel provides a feature to add **Signature Line** in Excel workbooks.
 
 ## **How to Create Signature Line for Excel**
 
-Aspose.Cells also provides this feature and has exposed the [**Picture.SignatureLine**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/picture/signatureline/) property for this purpose. This article will explain how to use this property to add a Signature Line using Aspose.Cells.
+Aspose.Cells also provides this feature and has exposed the [**Picture.SignatureLine**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/signatureline/) property for this purpose. This article will explain how to use this property to add a Signature Line using Aspose.Cells.
 
-The following sample code adds a Signature Line using [**Picture.SignatureLine**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/picture/signatureline/) property and saves the workbook.
+The following sample code adds a Signature Line using [**Picture.SignatureLine**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/signatureline/) property and saves the workbook.
 
 ```cpp
 #include <iostream>

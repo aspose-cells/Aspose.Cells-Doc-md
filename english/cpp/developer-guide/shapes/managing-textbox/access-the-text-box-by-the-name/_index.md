@@ -9,7 +9,7 @@ description: Learn how to access a text box by its name using Aspose.Cells for C
 
 ## Access the Text Box by the Name
 
-Earlier, text boxes were accessed by index from the [**Worksheet.TextBoxes**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/textboxes/) collection, but now you can also access the text box by name from this collection. This is a convenient and quick way to access your text box if you already know its name.
+Earlier, text boxes were accessed by index from the [**Worksheet.GetTextBoxes()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/gettextboxes/) collection, but now you can also access the text box by name from this collection. This is a convenient and quick way to access your text box if you already know its name.
 
 The following sample code first creates a text box and assigns it some text and a name. Then, in the next lines, we access the same text box by its name and print its text.
 

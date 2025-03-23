@@ -40,7 +40,7 @@ It is possible to create a named range by calling the overloaded [**CreateRange*
 - Name of the upper left cell, the name of the top left cell in the range.
 - Name of the lower right cell, the name of the bottom right cell in the range.
 
-When the [**CreateRange**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/createrange/) method is called, it returns the newly created range as an instance of the [**Range**](https://reference.aspose.com/cells/cpp/aspose.cells/range/) class. Use this [**Range**](https://reference.aspose.com/cells/cpp/aspose.cells/range/) object to configure the named range. For example, set the name of the range using the [**Name**](https://reference.aspose.com/cells/cpp/aspose.cells/range/name/) property. The following example shows how to create a named range of cells that extends over B4:G14.
+When the [**CreateRange**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/createrange/) method is called, it returns the newly created range as an instance of the [**Range**](https://reference.aspose.com/cells/cpp/aspose.cells/range/) class. Use this [**Range**](https://reference.aspose.com/cells/cpp/aspose.cells/range/) object to configure the named range. For example, set the name of the range using the [**GetName()**](https://reference.aspose.com/cells/cpp/aspose.cells/range/getname/) property. The following example shows how to create a named range of cells that extends over B4:G14.
 
 ```cpp
 #include <iostream>

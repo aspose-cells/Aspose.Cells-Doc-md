@@ -13,7 +13,7 @@ It is possible to show formulas instead of calculated values in Microsoft Excel 
 
 {{% /alert %}}
 
-Aspose.Cells provides a [**Worksheet.ShowFormulas**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/showformulas/) property. Set this to **true** to set Microsoft Excel to display formulas.
+Aspose.Cells provides a [**Worksheet.GetShowFormulas()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getshowformulas/) property. Set this to **true** to set Microsoft Excel to display formulas.
 
 ```cpp
 #include <iostream>

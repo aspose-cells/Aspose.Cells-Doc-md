@@ -29,7 +29,7 @@ To disable the Compatibility Checker in Microsoft Excel (for example Microsoft E
 
 ## **How to Disable Compatibility Checker using Aspose.Cells APIs**
 
-Set the [**Workbook.Settings.CheckCompatibility**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/checkcompatibility/) property to **False** to disable Microsoft Excel's Compatibility Checker.
+Set the [**Workbook.GetCheckCompatibility()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getcheckcompatibility/) property to **False** to disable Microsoft Excel's Compatibility Checker.
 
 ### **Code Examples**
 

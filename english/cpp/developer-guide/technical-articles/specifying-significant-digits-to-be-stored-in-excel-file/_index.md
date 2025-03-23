@@ -9,11 +9,11 @@ description: Learn how to specify significant digits to be stored in Excel files
 
 ## **Possible Usage Scenarios**
 
-By default, Aspose.Cells stores 17 significant digits of double values inside the Excel file, unlike MS-Excel which stores only 15 significant digits. You can change the default behavior of Aspose.Cells from 17 significant digits to 15 significant digits using the [**CellsHelper::SignificantDigits**](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/significantdigits/) property.
+By default, Aspose.Cells stores 17 significant digits of double values inside the Excel file, unlike MS-Excel which stores only 15 significant digits. You can change the default behavior of Aspose.Cells from 17 significant digits to 15 significant digits using the [**GetSignificantDigits()**](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/getsignificantdigits/) property.
 
 ## **Specifying Significant Digits to be stored in Excel file**
 
-The following sample code enforces Aspose.Cells to use 15 significant digits while storing double values inside the Excel file. Please check the [output Excel file](22774105.xlsx). Change its extension to .zip and unzip it, and you will see that only 15 significant digits are stored inside the Excel file. The following screenshot explains the effect of the [**CellsHelper::SignificantDigits**](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/significantdigits/) property on the output Excel file.
+The following sample code enforces Aspose.Cells to use 15 significant digits while storing double values inside the Excel file. Please check the [output Excel file](22774105.xlsx). Change its extension to .zip and unzip it, and you will see that only 15 significant digits are stored inside the Excel file. The following screenshot explains the effect of the [**GetSignificantDigits()**](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/getsignificantdigits/) property on the output Excel file.
 
 ![todo:image_alt_text](specifying-significant-digits-to-be-stored-in-excel-file_1.png)
 

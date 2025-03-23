@@ -13,7 +13,7 @@ You can save Excel workbooks to HTML. However, if the workbook contains hidden w
 
 {{% /alert %}}
 
-Aspose.Cells provides the [**HtmlSaveOptions.ExportHiddenWorksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/exporthiddenworksheet/) property. By default, it is set to **true** and hidden worksheets are exported to HTML. If you set it **false**, Aspose.Cells will not export hidden worksheet contents.
+Aspose.Cells provides the [**HtmlSaveOptions.GetExportHiddenWorksheet()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/getexporthiddenworksheet/) property. By default, it is set to **true** and hidden worksheets are exported to HTML. If you set it **false**, Aspose.Cells will not export hidden worksheet contents.
 
 ```c++
 #include <iostream>

@@ -24,7 +24,7 @@ The [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/workshee
 
 ### **Page Orientation**
 
-Page orientation can be set to portrait or landscape using the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class' [**Orientation**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/orientation/) property. The [**Orientation**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/orientation/) property accepts one of the pre-defined values in the [**PageOrientationType**](https://reference.aspose.com/cells/cpp/aspose.cells/pageorientationtype/) enumeration, listed below.
+Page orientation can be set to portrait or landscape using the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class' [**GetOrientation()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getorientation/) property. The [**GetOrientation()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getorientation/) property accepts one of the pre-defined values in the [**PageOrientationType**](https://reference.aspose.com/cells/cpp/aspose.cells/pageorientationtype/) enumeration, listed below.
 
 |**Page Orientation Types**|**Description**|
 | :- | :- |
@@ -67,7 +67,7 @@ int main()
 
 ### **Scaling Factor**
 
-It is possible to reduce or enlarge a worksheet's size by adjusting the scaling factor with the [**PageSetup.Zoom**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/zoom/) property.
+It is possible to reduce or enlarge a worksheet's size by adjusting the scaling factor with the [**PageSetup.GetZoom()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getzoom/) property.
 
 ```cpp
 #include <iostream>
@@ -104,11 +104,11 @@ int main()
 
 ### **FitToPages Options**
 
-To fit the contents of the worksheet to a specific number of pages, use the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class' [**FitToPagesTall**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/fittopagestall/) and [**FitToPagesWide**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/fittopageswide/) properties. These properties are also used to scale worksheets.
+To fit the contents of the worksheet to a specific number of pages, use the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class' [**GetFitToPagesTall()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getfittopagestall/) and [**GetFitToPagesWide()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getfittopageswide/) properties. These properties are also used to scale worksheets.
 
 {{% alert color="primary" %}}
 
-You can either choose the [**FitToPagesTall**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/fittopagestall/)/[**FitToPagesWide**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/fittopageswide/) or the [**Zoom**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/zoom/) property but not both at the same time.
+You can either choose the [**GetFitToPagesTall()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getfittopagestall/)/[**GetFitToPagesWide()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getfittopageswide/) or the [**GetZoom()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getzoom/) property but not both at the same time.
 
 {{% /alert %}}
 
@@ -151,7 +151,7 @@ int main()
 
 ### **Paper Size**
 
-Set the paper size that the worksheets will be printed to using the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class' [**PaperSize**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/papersize/) property. The [**PaperSize**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/papersize/) property accepts one of the pre-defined values in the [**PaperSizeType**](https://reference.aspose.com/cells/cpp/aspose.cells/papersizetype/) enumeration, listed below.
+Set the paper size that the worksheets will be printed to using the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class' [**GetPaperSize()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getpapersize/) property. The [**GetPaperSize()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getpapersize/) property accepts one of the pre-defined values in the [**PaperSizeType**](https://reference.aspose.com/cells/cpp/aspose.cells/papersizetype/) enumeration, listed below.
 
 |**Paper Size Types**|**Description**|
 | :- | :- |
@@ -312,7 +312,7 @@ int main()
 
 ### **Print Quality**
 
-Set the print quality of the worksheets to be printed with the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class' [**PrintQuality**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/printquality/) property. The measuring unit for print quality is Dots Per Inches (DPI).
+Set the print quality of the worksheets to be printed with the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class' [**GetPrintQuality()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprintquality/) property. The measuring unit for print quality is Dots Per Inches (DPI).
 
 ```cpp
 #include <iostream>
@@ -350,7 +350,7 @@ int main()
 
 ### **First Page Number**
 
-Start the numbering of worksheet pages using the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class' [**FirstPageNumber**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/firstpagenumber/) property. The [**FirstPageNumber**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/firstpagenumber/) property sets the page number of the first worksheet page and the next pages are numbered in ascending order.
+Start the numbering of worksheet pages using the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class' [**GetFirstPageNumber()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getfirstpagenumber/) property. The [**GetFirstPageNumber()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getfirstpagenumber/) property sets the page number of the first worksheet page and the next pages are numbered in ascending order.
 
 ```cpp
 #include <iostream>

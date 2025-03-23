@@ -58,7 +58,7 @@ Clearing the print area in a spreadsheet application like Excel using Aspose.Cel
 
 ## **How to Set Print Area Using Aspose.Cells**
 
-To set print area in a specified worksheet: First, load the [sample file](input.xlsx), and then you need to modify the [**Worksheet.PageSetup.PrintArea**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/printarea/) property of the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) object for the desired worksheet. Setting this property to a range string will set the print area.
+To set print area in a specified worksheet: First, load the [sample file](input.xlsx), and then you need to modify the [**Worksheet.GetPrintArea()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprintarea/) property of the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) object for the desired worksheet. Setting this property to a range string will set the print area.
 
 ```cpp
 #include <iostream>
@@ -98,7 +98,7 @@ The output result:
 
 ## **How to Clear Print Area Using Aspose.Cells**
 
-To clear the print area in a specified worksheet: First, load the [sample file](input.xlsx), and then you need to modify the [**Worksheet.PageSetup.PrintArea**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/printarea/) property of the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) object for the desired worksheet. Setting this property to an empty string will clear the print area.
+To clear the print area in a specified worksheet: First, load the [sample file](input.xlsx), and then you need to modify the [**Worksheet.GetPrintArea()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprintarea/) property of the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) object for the desired worksheet. Setting this property to an empty string will clear the print area.
 
 ```cpp
 #include <iostream>

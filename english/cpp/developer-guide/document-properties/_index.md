@@ -60,10 +60,10 @@ Aspose.Cells APIs support both types of document properties, built-in and custom
 
 Use the [**WorksheetCollection**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) to access the file's document properties as described below.
 
-- To access built-in document properties, use [**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/builtindocumentproperties/).
-- To access custom document properties, use [**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/customdocumentproperties/).
+- To access built-in document properties, use [**WorksheetCollection.GetBuiltInDocumentProperties()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/getbuiltindocumentproperties/).
+- To access custom document properties, use [**WorksheetCollection.GetCustomDocumentProperties()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/getcustomdocumentproperties/).
 
-Both the [**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/builtindocumentproperties/) and [**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/customdocumentproperties/) return the instance of [**Aspose.Cells.Properties.DocumentPropertyCollection**](https://reference.aspose.com/cells/cpp/aspose.cells.properties/documentpropertycollection/). This collection contains [**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/cpp/aspose.cells.properties/documentproperty/) objects, each of which represents a single built-in or custom document property.
+Both the [**WorksheetCollection.GetBuiltInDocumentProperties()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/getbuiltindocumentproperties/) and [**WorksheetCollection.GetCustomDocumentProperties()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/getcustomdocumentproperties/) return the instance of [**Aspose.Cells.Properties.DocumentPropertyCollection**](https://reference.aspose.com/cells/cpp/aspose.cells.properties/documentpropertycollection/). This collection contains [**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/cpp/aspose.cells.properties/documentproperty/) objects, each of which represents a single built-in or custom document property.
 
 It is up to the application requirement how to access a property, that is; by using the index or name of the property from the [**DocumentPropertyCollection**](https://reference.aspose.com/cells/cpp/aspose.cells.properties/documentpropertycollection/) as demonstrated in the example below.
 
@@ -103,7 +103,7 @@ int main()
 
 The [**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/cpp/aspose.cells.properties/documentproperty/) class allows to retrieve the name, value, and type of the document property:
 
-- To get the property name, use [**DocumentProperty.Name**](https://reference.aspose.com/cells/cpp/aspose.cells.properties/documentproperty/name/).
+- To get the property name, use [**DocumentProperty.Name**](https://reference.aspose.com/cells/cpp/aspose.cells/name/).
 - To get the property value, use [**DocumentProperty.Value**](https://reference.aspose.com/cells/cpp/aspose.cells.properties/documentproperty/value/). [**DocumentProperty.Value**](https://reference.aspose.com/cells/cpp/aspose.cells.properties/documentproperty/value/) returns the value as an Object.
 - To get the property type, use [**DocumentProperty.Type**](https://reference.aspose.com/cells/cpp/aspose.cells.properties/documentproperty/type/). This returns one of the [**PropertyType**](https://reference.aspose.com/cells/cpp/aspose.cells.properties/propertytype/) enumeration values. After you get the property type, use one of the **DocumentProperty.ToXXX** methods to obtain the value of the appropriate type instead of using [**DocumentProperty.Value**](https://reference.aspose.com/cells/cpp/aspose.cells.properties/documentproperty/value/). The **DocumentProperty.ToXXX** methods are described in the table below.
 

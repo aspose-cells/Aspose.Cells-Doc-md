@@ -10,11 +10,11 @@ keywords: excel page setup paper width c++, excel page setup paper height c++
 
 ## **Possible Usage Scenarios**
 
-Sometimes, you need to know the width and height of paper size as it has been set in the page setup of the worksheet. Please use the [**PageSetup::get_PaperWidth**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/get_paperwidth/) and [**PageSetup::get_PaperHeight**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/get_paperheight/) methods for this purpose.
+Sometimes, you need to know the width and height of paper size as it has been set in the page setup of the worksheet. Please use the [**GetPaperWidth()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getpaperwidth/) and [**GetPaperHeight()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getpaperheight/) methods for this purpose.
 
 ## **Get Paper Width and Height of Page Setup of Worksheet**
 
-The following sample code explains the usage of [**PageSetup::get_PaperWidth**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/get_paperwidth/) and [**PageSetup::get_PaperHeight**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/get_paperheight/) methods. It first changes the paper size to *A2* and then finds the width and height of the paper, then it changes it to *A3*, *A4*, *Letter* and finds the width and height of paper respectively.
+The following sample code explains the usage of [**GetPaperWidth()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getpaperwidth/) and [**GetPaperHeight()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getpaperheight/) methods. It first changes the paper size to *A2* and then finds the width and height of the paper, then it changes it to *A3*, *A4*, *Letter* and finds the width and height of paper respectively.
 
 ### **Sample Code**
 

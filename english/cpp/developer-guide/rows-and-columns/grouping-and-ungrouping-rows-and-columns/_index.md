@@ -77,11 +77,11 @@ Microsoft Excel allows you to configure group settings for displaying:
 - Summary rows below detail.
 - Summary columns to the right of detail.
 
-Developers can configure these group settings using the [**Outline**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/outline/) property of the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class.
+Developers can configure these group settings using the [**GetOutline()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getoutline/) property of the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class.
 
 ### **Summary Rows to Below of Detail**
 
-It is possible to control whether summary rows are displayed below detail by setting the [**Outline**](https://reference.aspose.com/cells/cpp/aspose.cells/outline/) class' [**SummaryRowBelow**](https://reference.aspose.com/cells/cpp/aspose.cells/outline/summaryrowbelow/) property to **true** or **false**.
+It is possible to control whether summary rows are displayed below detail by setting the [**Outline**](https://reference.aspose.com/cells/cpp/aspose.cells/outline/) class' [**GetSummaryRowBelow()**](https://reference.aspose.com/cells/cpp/aspose.cells/outline/getsummaryrowbelow/) property to **true** or **false**.
 
 ```cpp
 #include <iostream>
@@ -129,7 +129,7 @@ int main()
 
 ### **Summary Columns to Right of Detail**
 
-Developers can also control displaying summary columns to the right of detail by setting the [**SummaryColumnRight**](https://reference.aspose.com/cells/cpp/aspose.cells/outline/summarycolumnright/) property of [**Outline**](https://reference.aspose.com/cells/cpp/aspose.cells/outline/) class to **true** or **false**.
+Developers can also control displaying summary columns to the right of detail by setting the [**GetSummaryColumnRight()**](https://reference.aspose.com/cells/cpp/aspose.cells/outline/getsummarycolumnright/) property of [**Outline**](https://reference.aspose.com/cells/cpp/aspose.cells/outline/) class to **true** or **false**.
 
 ```cpp
 #include <iostream>

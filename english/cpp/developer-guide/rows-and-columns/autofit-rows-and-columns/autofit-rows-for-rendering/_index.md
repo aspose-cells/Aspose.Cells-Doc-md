@@ -13,7 +13,7 @@ However, in some cases, autofitting row works fine in Normal view, but when you 
 
 ![text is clipped in printview](text_clipped_in_printview.png)
 
-If you want to prevent text being clipped in the saved PDF file, you can autofit row with the [AutoFitterOptions.ForRendering](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/forrendering/) option.
+If you want to prevent text being clipped in the saved PDF file, you can autofit row with the [AutoFitterOptions.GetForRendering()](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/getforrendering/) option.
 
 ```c++
 #include <iostream>

@@ -8,7 +8,7 @@ description: In this article, you will learn how to programmatically count numbe
 keywords: count number of excel worksheet cells c++, excel worksheet cells c++
 ---
 
-You may count the number of cells in the worksheet by using the [**Cells.Count**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/count/) or [**Cells.CountLarge**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/countlarge/) properties as shown in the code example given below.
+You may count the number of cells in the worksheet by using the [**Cells.GetCount()**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getcount/) or [**Cells.GetCountLarge()**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getcountlarge/) properties as shown in the code example given below.
 
 ```cpp
 #include <iostream>

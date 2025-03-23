@@ -22,7 +22,7 @@ Aspose.Cells provides the [**GetStyle**](https://reference.aspose.com/cells/cpp/
 
 #### **Adding Borders to a Cell**
 
-Developers can add borders to a cell by using the [**Style**](https://reference.aspose.com/cells/cpp/aspose.cells/style/) object's [**Borders**](https://reference.aspose.com/cells/cpp/aspose.cells/style/borders/) collection. The border type is passed as an index to the [**Borders**](https://reference.aspose.com/cells/cpp/aspose.cells/style/borders/) collection. All border types are pre-defined in the [**BorderType**](https://reference.aspose.com/cells/cpp/aspose.cells/bordertype/) enumeration.
+Developers can add borders to a cell by using the [**Style**](https://reference.aspose.com/cells/cpp/aspose.cells/style/) object's [**GetBorders()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getborders/) collection. The border type is passed as an index to the [**GetBorders()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getborders/) collection. All border types are pre-defined in the [**BorderType**](https://reference.aspose.com/cells/cpp/aspose.cells/bordertype/) enumeration.
 
 **Border enumeration**
 
@@ -35,7 +35,7 @@ Developers can add borders to a cell by using the [**Style**](https://reference.
 | RightBorder      | A right border line |
 | TopBorder        | A top border line |
 
-The [**Borders**](https://reference.aspose.com/cells/cpp/aspose.cells/style/borders/) collection stores all borders. Each border in the [**Borders**](https://reference.aspose.com/cells/cpp/aspose.cells/style/borders/) collection is represented by a [**Border**](https://reference.aspose.com/cells/cpp/aspose.cells/border/) object which provides two properties, [**Color**](https://reference.aspose.com/cells/cpp/aspose.cells/border/color/) and [**LineStyle**](https://reference.aspose.com/cells/cpp/aspose.cells/border/linestyle/) to set a border's line color and style respectively.
+The [**GetBorders()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getborders/) collection stores all borders. Each border in the [**GetBorders()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getborders/) collection is represented by a [**Border**](https://reference.aspose.com/cells/cpp/aspose.cells/border/) object which provides two properties, [**GetColor()**](https://reference.aspose.com/cells/cpp/aspose.cells/border/getcolor/) and [**GetLineStyle()**](https://reference.aspose.com/cells/cpp/aspose.cells/border/getlinestyle/) to set a border's line color and style respectively.
 
 To set a border's line color, select a color using the Color enumeration and assign it to the Border object's Color property.
 
@@ -60,7 +60,7 @@ The border's line style is set by selecting a line style from the [**CellBorderT
 | Thick                 | Thick line                   |
 | Thin                  | Thin line                    |
 
-Select one of the line styles and then assign it to the [**Border**](https://reference.aspose.com/cells/cpp/aspose.cells/border/) object's [**LineStyle**](https://reference.aspose.com/cells/cpp/aspose.cells/border/linestyle/) property.
+Select one of the line styles and then assign it to the [**Border**](https://reference.aspose.com/cells/cpp/aspose.cells/border/) object's [**GetLineStyle()**](https://reference.aspose.com/cells/cpp/aspose.cells/border/getlinestyle/) property.
 
 ```c++
 #include <iostream>

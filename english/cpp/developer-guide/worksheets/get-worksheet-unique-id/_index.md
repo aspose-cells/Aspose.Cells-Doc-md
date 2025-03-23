@@ -10,7 +10,7 @@ keywords: unique ID Excel worksheet C++, unique ID worksheet C++
 
 ## **Get Worksheet Unique ID**
 
-Aspose.Cells provides the ability to get the unique ID of a worksheet by using the [**Worksheet::get_UniqueId**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/get_uniqueid/) method. The following code snippet demonstrates the use of the [**Worksheet::get_UniqueId**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/get_uniqueid/) method to print the unique ID of a worksheet. The following code snippet uses this [sample excel file](105480213.xlsx).
+Aspose.Cells provides the ability to get the unique ID of a worksheet by using the [**GetUniqueId()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getuniqueid/) method. The following code snippet demonstrates the use of the [**GetUniqueId()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getuniqueid/) method to print the unique ID of a worksheet. The following code snippet uses this [sample excel file](105480213.xlsx).
 
 ### Source Code
 

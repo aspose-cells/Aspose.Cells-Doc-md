@@ -10,7 +10,7 @@ keywords: Get Hyperlinks in Range, Get all the hyperlinks in the selected range,
 
 ## **Get Hyperlinks in Range**
 
-The [**Range**](https://reference.aspose.com/cells/cpp/aspose.cells/range/) class provides a [**Hyperlinks**](https://reference.aspose.com/cells/cpp/aspose.cells/range/hyperlinks/) property which returns all the hyperlinks in the selected range. You may also delete the Hyperlink by calling the [**Hyperlink.Delete**](https://reference.aspose.com/cells/cpp/aspose.cells/hyperlink/delete/) method.
+The [**Range**](https://reference.aspose.com/cells/cpp/aspose.cells/range/) class provides a [**GetHyperlinks()**](https://reference.aspose.com/cells/cpp/aspose.cells/range/gethyperlinks/) property which returns all the hyperlinks in the selected range. You may also delete the Hyperlink by calling the [**Hyperlink.Delete**](https://reference.aspose.com/cells/cpp/aspose.cells/hyperlink/delete/) method.
 
 ```cpp
 #include <iostream>

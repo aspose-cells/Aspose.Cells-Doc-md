@@ -152,7 +152,7 @@ int main()
 
 ## **Encryption/Decryption of ODS file with Aspose.Cells**
 
-Aspose.Cells allows you to encrypt and decrypt ODS files. Decrypted ODS files can be opened both in Excel and OpenOffice, however encrypted ODS files can only be opened by OpenOffice after providing the password. Excel cannot open the encrypted ODS file and may raise a warning message. The encryption options are not applicable for ODS files unlike other file types. For encrypting an ODS file, load the file and set the [**WorkbookSettings.Password**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/password/) value to the actual password before saving it. The output encrypted ODS file can be opened in OpenOffice only.
+Aspose.Cells allows you to encrypt and decrypt ODS files. Decrypted ODS files can be opened both in Excel and OpenOffice, however encrypted ODS files can only be opened by OpenOffice after providing the password. Excel cannot open the encrypted ODS file and may raise a warning message. The encryption options are not applicable for ODS files unlike other file types. For encrypting an ODS file, load the file and set the [**WorkbookSettings.GetPassword()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getpassword/) value to the actual password before saving it. The output encrypted ODS file can be opened in OpenOffice only.
 
 ```c++
 #include <iostream>
@@ -187,7 +187,7 @@ int main()
 }
 ```
 
-For decrypting an ODS file, load the file by providing a password in the [**LoadOptions.Password**](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/password/). Once the file is loaded, set the [**WorkbookSettings.Password**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/password/) string to null.
+For decrypting an ODS file, load the file by providing a password in the [**LoadOptions.GetPassword()**](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/getpassword/). Once the file is loaded, set the [**WorkbookSettings.GetPassword()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getpassword/) string to null.
 
 ```c++
 #include <iostream>

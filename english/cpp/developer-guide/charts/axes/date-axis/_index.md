@@ -16,7 +16,7 @@ By default, Aspose.Cells determines the base units for the date axis based on th
 ## **Handle Date Axis like Microsoft Excel**
 Please see the following sample code that creates a new Excel file and puts values of the chart in the first worksheet. 
 Then we add a chart and set the type of the [**Axis**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/axis/) 
-to [**TimeScale**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/axis/categorytype/) and then set the base units to Days.
+to [**TimeScale**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/categorytype/) and then set the base units to Days.
 
 ![todo:image_alt_text](excel.png)
 

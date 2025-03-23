@@ -9,23 +9,23 @@ keywords: Get Max Column Index in Row, Get Max Row Index in Column, Get Max Data
 ---
 
 ## **Possible Usage Scenarios**
-When you only need to manipulate some data on the rows or columns, you need to know the data range of rows and columns. Aspose.Cells offers this feature. To obtain the maximum column index on a row, you can obtain the [Row.LastCell](https://reference.aspose.com/cells/cpp/aspose.cells/row/lastcell/) and [Row.LastDataCell](https://reference.aspose.com/cells/cpp/aspose.cells/row/lastdatacell/) properties, and then use the [Cell.Column](https://reference.aspose.com/cells/cpp/aspose.cells/cell/column/) property to obtain the maximum column index and maximum data column index. But in order to obtain the maximum row index and maximum row data index on a column, you need to create a range on the column, then traverse the range to find the last cell, and finally obtain the [Cell.Row](https://reference.aspose.com/cells/cpp/aspose.cells/cell/row/) attribute on the cell.
+When you only need to manipulate some data on the rows or columns, you need to know the data range of rows and columns. Aspose.Cells offers this feature. To obtain the maximum column index on a row, you can obtain the [Row.GetLastCell()](https://reference.aspose.com/cells/cpp/aspose.cells/row/getlastcell/) and [Row.GetLastDataCell()](https://reference.aspose.com/cells/cpp/aspose.cells/row/getlastdatacell/) properties, and then use the [Cell.GetColumn()](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getcolumn/) property to obtain the maximum column index and maximum data column index. But in order to obtain the maximum row index and maximum row data index on a column, you need to create a range on the column, then traverse the range to find the last cell, and finally obtain the [Cell.GetRow()](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getrow/) attribute on the cell.
 
 Aspose.Cells provides the following properties and methods to help you achieve your goals.
-- [**Row.LastCell**](https://reference.aspose.com/cells/cpp/aspose.cells/row/lastcell/)
-- [**Row.LastDataCell**](https://reference.aspose.com/cells/cpp/aspose.cells/row/lastdatacell/)
-- [**Cell.Column**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/column/)
-- [**Cell.Row**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/row/)
+- [**Row.GetLastCell()**](https://reference.aspose.com/cells/cpp/aspose.cells/row/getlastcell/)
+- [**Row.GetLastDataCell()**](https://reference.aspose.com/cells/cpp/aspose.cells/row/getlastdatacell/)
+- [**Cell.GetColumn()**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getcolumn/)
+- [**Cell.GetRow()**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getrow/)
 
 ## **Get Max Column Index in Row and Max Row Index in Column using Aspose.Cells**
 This example shows how to:
 
 1. Load the [sample file](sample.xlsx).
 1. Get the row that needs to get the maximum column index and maximum data column index.
-1. Get [Cell.Column](https://reference.aspose.com/cells/cpp/aspose.cells/cell/column/) attribute on the cell.
+1. Get [Cell.GetColumn()](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getcolumn/) attribute on the cell.
 1. Create a range based on column.
 1. Get iterator and traverse range.
-1. Get [Cell.Row](https://reference.aspose.com/cells/cpp/aspose.cells/cell/row/) attribute on the cell.
+1. Get [Cell.GetRow()](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getrow/) attribute on the cell.
 
 ```c++
 #include <iostream>

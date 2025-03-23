@@ -8,7 +8,7 @@ description: Learn how to filter objects like charts, shapes, and conditional fo
 ---
 
 ## **Possible Usage Scenarios**
-Please use [LoadOptions.LoadFilter](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/loadfilter/) property while filtering data from the workbook. But if you want to filter data from individual worksheets, then you will have to override the [LoadFilter.StartSheet](https://reference.aspose.com/cells/cpp/aspose.cells/loadfilter/startsheet/) method. Please provide appropriate value from the [LoadDataFilterOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loaddatafilteroptions/) enumeration while creating or working with [LoadFilter](https://reference.aspose.com/cells/cpp/aspose.cells/loadfilter/).
+Please use [LoadOptions.GetLoadFilter()](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/getloadfilter/) property while filtering data from the workbook. But if you want to filter data from individual worksheets, then you will have to override the [LoadFilter.StartSheet](https://reference.aspose.com/cells/cpp/aspose.cells/loadfilter/startsheet/) method. Please provide appropriate value from the [LoadDataFilterOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loaddatafilteroptions/) enumeration while creating or working with [LoadFilter](https://reference.aspose.com/cells/cpp/aspose.cells/loadfilter/).
 
 The [LoadDataFilterOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loaddatafilteroptions/) enumeration has the following possible values.
 

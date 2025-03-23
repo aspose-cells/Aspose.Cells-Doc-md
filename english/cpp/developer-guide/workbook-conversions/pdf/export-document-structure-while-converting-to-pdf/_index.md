@@ -9,7 +9,7 @@ description: Learn how to export document structure while converting to PDF with
 
 PDF logical structure facilities provide a mechanism for incorporating information regarding the document content structure into a PDF file. Aspose.Cells preserves information about the structure from a Microsoft Excel document, such as cell, row, table, worksheet, image, shape, header/footer, etc.  
 
-With option [PdfSaveOptions.ExportDocumentStructure](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/exportdocumentstructure/), you can save to a tagged PDF with document structure exported.  
+With option [PdfSaveOptions.GetExportDocumentStructure()](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/getexportdocumentstructure/), you can save to a tagged PDF with document structure exported.  
 
 ```c++
 #include <iostream>

@@ -92,7 +92,7 @@ int main()
 
 {{% alert color="primary" %}}
 
-If you want to sort *LeftToRight*, use the [**DataSorter.SortLeftToRight**](https://reference.aspose.com/cells/cpp/aspose.cells/datasorter/sortlefttoright/) attribute.
+If you want to sort *LeftToRight*, use the [**DataSorter.GetSortLeftToRight()**](https://reference.aspose.com/cells/cpp/aspose.cells/datasorter/getsortlefttoright/) attribute.
 
 {{% /alert %}}
 

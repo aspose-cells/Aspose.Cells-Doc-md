@@ -19,7 +19,7 @@ Aspose.Cells allows you to encrypt and decrypt ODS files. Decrypted ODS files ca
 1. Click the **OK** button to save the file.  
   
 ## **Encrypt ODS file with Aspose.Cells for C++**  
-For encrypting an ODS file, load the file and set the [**WorkbookSettings.Password**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/password/) value to the actual password before saving it. The output encrypted ODS file can be opened in OpenOffice only.  
+For encrypting an ODS file, load the file and set the [**WorkbookSettings.GetPassword()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getpassword/) value to the actual password before saving it. The output encrypted ODS file can be opened in OpenOffice only.  
   
 ```c++
 #include <iostream>
@@ -56,7 +56,7 @@ int main()
   
 ## **Decrypt ODS file with Aspose.Cells for C++**  
   
-For decrypting an ODS file, load the file by providing a password in the [**LoadOptions.Password**](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/password/) property. Once the file is loaded, set the [**WorkbookSettings.Password**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/password/) string to null.  
+For decrypting an ODS file, load the file by providing a password in the [**LoadOptions.GetPassword()**](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/getpassword/) property. Once the file is loaded, set the [**WorkbookSettings.GetPassword()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getpassword/) string to null.  
   
 ```c++
 #include <iostream>

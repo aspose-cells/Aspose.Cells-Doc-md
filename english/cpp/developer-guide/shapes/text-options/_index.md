@@ -44,7 +44,7 @@ void SetTextAlignment() {
 ```
 
 ### **Setting Text Orientation**
-You can also set the orientation of the text within a shape using the [**TextOrientationType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/textorientationtype/) property.
+You can also set the orientation of the text within a shape using the [**TextOrientationType**](https://reference.aspose.com/cells/cpp/aspose.cells/textorientationtype/) property.
 
 ```cpp
 #include <Aspose.Cells.h>

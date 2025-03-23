@@ -186,7 +186,7 @@ int main()
 
 ## **Rename a Named Range**
 
-Aspose.Cells allows you to rename a named range for your need. You may get the named range and rename it by using [**Name.Text**](https://reference.aspose.com/cells/cpp/aspose.cells/name/text/) attribute. The following example shows how to rename a named range.
+Aspose.Cells allows you to rename a named range for your need. You may get the named range and rename it by using [**Name.GetText()**](https://reference.aspose.com/cells/cpp/aspose.cells/name/gettext/) attribute. The following example shows how to rename a named range.
 
 ```cpp
 #include <iostream>

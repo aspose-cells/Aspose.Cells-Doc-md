@@ -9,13 +9,13 @@ description: Learn how to update references in other worksheets while deleting b
 
 {{% alert color="primary" %}}
 
-When you delete blank columns and rows in a worksheet, its references in other worksheets become invalid. If you want to avoid this behavior and ensure that references to the current worksheet in other worksheets are also updated, use the [**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/cpp/aspose.cells/deleteoptions/updatereference/) property and set it to **true**.
+When you delete blank columns and rows in a worksheet, its references in other worksheets become invalid. If you want to avoid this behavior and ensure that references to the current worksheet in other worksheets are also updated, use the [**DeleteOptions.GetUpdateReference()**](https://reference.aspose.com/cells/cpp/aspose.cells/deleteoptions/getupdatereference/) property and set it to **true**.
 
 {{% /alert %}}
 
 ## **Update references in other worksheets while deleting blank columns and rows in a worksheet**
 
-Please see the following sample code and its console output. The cell E3 in the second worksheet has a formula `=Sheet1!C3`, which refers to cell C3 in the first worksheet. If you set the [**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/cpp/aspose.cells/deleteoptions/updatereference/) property to **true**, this formula will be updated to `=Sheet1!A1` after deleting blank columns and rows in the first worksheet. However, if you set the [**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/cpp/aspose.cells/deleteoptions/updatereference/) property to **false**, the formula in cell E3 of the second worksheet will remain `=Sheet1!C3` and become invalid.
+Please see the following sample code and its console output. The cell E3 in the second worksheet has a formula `=Sheet1!C3`, which refers to cell C3 in the first worksheet. If you set the [**DeleteOptions.GetUpdateReference()**](https://reference.aspose.com/cells/cpp/aspose.cells/deleteoptions/getupdatereference/) property to **true**, this formula will be updated to `=Sheet1!A1` after deleting blank columns and rows in the first worksheet. However, if you set the [**DeleteOptions.GetUpdateReference()**](https://reference.aspose.com/cells/cpp/aspose.cells/deleteoptions/getupdatereference/) property to **false**, the formula in cell E3 of the second worksheet will remain `=Sheet1!C3` and become invalid.
 
 ### **Programming Sample**
 
@@ -79,7 +79,7 @@ int main()
 
 ### **Console Output**
 
-This is the console output of the above sample code when the [**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/cpp/aspose.cells/deleteoptions/updatereference/) property is set to **true**.
+This is the console output of the above sample code when the [**DeleteOptions.GetUpdateReference()**](https://reference.aspose.com/cells/cpp/aspose.cells/deleteoptions/getupdatereference/) property is set to **true**.
 
 {{< highlight java >}}
 
@@ -95,7 +95,7 @@ Cell Value: 4
 
 {{< /highlight >}}
 
-This is the console output of the above sample code when the [**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/cpp/aspose.cells/deleteoptions/updatereference/) property is set to **false**. As you can see, the formula in cell E3 of the second worksheet is not updated, and its cell value is now 0 instead of 4, which is invalid.
+This is the console output of the above sample code when the [**DeleteOptions.GetUpdateReference()**](https://reference.aspose.com/cells/cpp/aspose.cells/deleteoptions/getupdatereference/) property is set to **false**. As you can see, the formula in cell E3 of the second worksheet is not updated, and its cell value is now 0 instead of 4, which is invalid.
 
 {{< highlight java >}}
 

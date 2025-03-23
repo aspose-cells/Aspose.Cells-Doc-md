@@ -37,7 +37,7 @@ To set the FitToPagesWide and FitToPagesTall settings in Microsoft Excel, follow
 
 ## **How to Print Excel as Fitted Pages Wide and Tall Using Aspose.Cells**
 
-To set FitToPagesWide and FitToPagesTall in a specified worksheet: First, load the [sample file](input.xlsx), and then you need to modify the [**Worksheet.PageSetup.FitToPagesTall**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/fittopagestall/) and [**Worksheet.PageSetup.FitToPagesWide**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/fittopageswide/) properties of the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) object for the desired worksheet. Here is an example in C++:
+To set FitToPagesWide and FitToPagesTall in a specified worksheet: First, load the [sample file](input.xlsx), and then you need to modify the [**Worksheet.GetFitToPagesTall()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getfittopagestall/) and [**Worksheet.GetFitToPagesWide()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getfittopageswide/) properties of the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) object for the desired worksheet. Here is an example in C++:
 
 ```c++
 #include <iostream>
@@ -75,7 +75,7 @@ The output result:
 
 ## **How to Print Worksheet as One Page Using Aspose.Cells**
 
-To print Worksheet as one page: First, load the [sample file](sample.xlsx), and then you need to set the [**PdfSaveOptions.OnePagePerSheet**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/onepagepersheet/) property of the [**PdfSaveOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/) object. Here is an example in C++:
+To print Worksheet as one page: First, load the [sample file](sample.xlsx), and then you need to set the [**PdfSaveOptions.GetOnePagePerSheet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getonepagepersheet/) property of the [**PdfSaveOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/) object. Here is an example in C++:
 
 ```cpp
 #include <iostream>
@@ -111,7 +111,7 @@ The output result:
 
 ## **How to Print All Columns of Worksheet in One Page Using Aspose.Cells**
 
-To print all columns of Worksheet in one page: First, load the [sample file](sample.xlsx), and then you need to set the [**PdfSaveOptions.AllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/allcolumnsinonepagepersheet/) property of the [**PdfSaveOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/) object. Here is an example in C++:
+To print all columns of Worksheet in one page: First, load the [sample file](sample.xlsx), and then you need to set the [**PdfSaveOptions.GetAllColumnsInOnePagePerSheet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getallcolumnsinonepagepersheet/) property of the [**PdfSaveOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/) object. Here is an example in C++:
 
 ```c++
 #include <iostream>

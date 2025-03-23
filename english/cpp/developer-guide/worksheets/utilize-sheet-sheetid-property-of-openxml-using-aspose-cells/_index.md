@@ -10,7 +10,7 @@ keywords: sheet id property of openxml c++, sheet id excel worksheet c++
 
 ## **Possible Usage Scenarios**
 
-*Sheet.SheetId* property is found inside the *DocumentFormat.OpenXml.Spreadsheet* namespace and is part of OpenXml. You can see this property and its value inside *workbook.xml* as shown in the following screenshot. Aspose.Cells provides the equivalent property as [**Worksheet.TabId**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/tabid/).
+*Sheet.SheetId* property is found inside the *DocumentFormat.OpenXml.Spreadsheet* namespace and is part of OpenXml. You can see this property and its value inside *workbook.xml* as shown in the following screenshot. Aspose.Cells provides the equivalent property as [**Worksheet.GetTabId()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/gettabid/).
 
 ![todo:image_alt_text](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
 

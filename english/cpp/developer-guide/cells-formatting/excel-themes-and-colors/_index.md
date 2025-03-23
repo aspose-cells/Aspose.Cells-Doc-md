@@ -160,9 +160,9 @@ int main()
 ### **How to Get and Set Theme Colors in Aspose.Cells**
  Below are a few methods and properties that implement theme colors.
 
-- [**Style.ForegroundThemeColor**](https://reference.aspose.com/cells/cpp/aspose.cells/style/foregroundthemecolor/): Used to set the foreground color.
-- [**Style.BackgroundThemeColor**](https://reference.aspose.com/cells/cpp/aspose.cells/style/backgroundthemecolor/): Used to set the background color.
-- [**Font.ThemeColor**](https://reference.aspose.com/cells/cpp/aspose.cells/font/themecolor/): Used to set the font color.
+- [**Style.GetForegroundThemeColor()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getforegroundthemecolor/): Used to set the foreground color.
+- [**Style.GetBackgroundThemeColor()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getbackgroundthemecolor/): Used to set the background color.
+- [**Font.GetThemeColor()**](https://reference.aspose.com/cells/cpp/aspose.cells/font/getthemecolor/): Used to set the font color.
 - [**Workbook.GetThemeColor**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/getthemecolor/): Used to get a theme color.
 - [**Workbook.SetThemeColor**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/setthemecolor/): Used to set a theme color.
 

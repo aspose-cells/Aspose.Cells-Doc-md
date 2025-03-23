@@ -10,7 +10,7 @@ url: /cpp/adding-2-color-scale-and-3-color-scale-conditional-formattings/
 
 {{% alert color="primary" %}}
 
-**2-Color Scale** and **3-Color Scale** Conditional Formattings are added in the same way except they are differed by [**FormatCondition.ColorScale.Is3ColorScale**](https://reference.aspose.com/cells/cpp/aspose.cells/colorscale/is3colorscale/) property. This property is **false** for 2-Color Scale and **true** for 3-Color Scale Conditional Formattings.
+**2-Color Scale** and **3-Color Scale** Conditional Formattings are added in the same way except they are differed by [**FormatCondition.GetIs3ColorScale()**](https://reference.aspose.com/cells/cpp/aspose.cells/colorscale/getis3colorscale/) property. This property is **false** for 2-Color Scale and **true** for 3-Color Scale Conditional Formattings.
 
 {{% /alert %}}
 

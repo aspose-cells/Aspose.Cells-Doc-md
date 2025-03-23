@@ -12,7 +12,7 @@ keywords: specify custom decimal separator excel, specify custom decimal separat
 
 In Microsoft Excel, you can specify the Custom Decimal and Thousands Separators instead of using System Separators from the **Advanced Excel Options** as shown in the screenshot below.
 
-Aspose.Cells provides the [**WorkbookSettings.NumberDecimalSeparator**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/numberdecimalseparator/) and [**WorkbookSettings.NumberGroupSeparator**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/numbergroupseparator/) properties to set the custom separators for formatting/parsing numbers.
+Aspose.Cells provides the [**WorkbookSettings.GetNumberDecimalSeparator()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getnumberdecimalseparator/) and [**WorkbookSettings.GetNumberGroupSeparator()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getnumbergroupseparator/) properties to set the custom separators for formatting/parsing numbers.
 
 {{% /alert %}}
 

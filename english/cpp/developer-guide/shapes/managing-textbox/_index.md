@@ -74,7 +74,7 @@ void ModifyTextBox() {
 To remove a TextBox from a worksheet:
 
 1. Access the [Shapes](https://reference.aspose.com/cells/cpp/aspose.cells/drawing/shape/) collection of the worksheet.
-2. Use the [RemoveAt](https://reference.aspose.com/cells/cpp/aspose.cells/shapecollection/removeat) method to remove the TextBox by its index.
+2. Use the [RemoveAt(int32_t index)](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/removeat/) method to remove the TextBox by its index.
 
 ```cpp
 #include <aspose.cells.h>

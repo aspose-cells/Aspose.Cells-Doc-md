@@ -45,7 +45,7 @@ Aspose.Cells supports all of the advanced protection settings.
 
 Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class contains a [**Worksheets**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class.
 
-The [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class provides the [**Protection**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/protection/) property that is used to apply these advanced protection settings. The [**Protection**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/protection/) property is in fact an object of the [**Protection**](https://reference.aspose.com/cells/cpp/aspose.cells/protection/) class that encapsulates several Boolean properties for disabling or enabling restrictions.
+The [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class provides the [**GetProtection()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getprotection/) property that is used to apply these advanced protection settings. The [**GetProtection()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getprotection/) property is in fact an object of the [**Protection**](https://reference.aspose.com/cells/cpp/aspose.cells/protection/) class that encapsulates several Boolean properties for disabling or enabling restrictions.
 
 Below is a small example application. It opens an Excel file and uses most of the advanced protection settings supported by Excel XP and later versions.
 
@@ -129,7 +129,7 @@ int main()
 
 {{% alert color="primary" %}}
 
-Please don't call the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class' [**Protect**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/protect/) method when using the [**Protection**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/protection/) property. Also, save the file to Excel97To2003 or Xlsx format because the advanced protection settings are only supported by Excel XP and later versions.
+Please don't call the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class' [**Protect**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/protect/) method when using the [**GetProtection()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getprotection/) property. Also, save the file to Excel97To2003 or Xlsx format because the advanced protection settings are only supported by Excel XP and later versions.
 
 {{% /alert %}}
 

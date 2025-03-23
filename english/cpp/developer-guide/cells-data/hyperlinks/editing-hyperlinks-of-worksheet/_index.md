@@ -10,11 +10,11 @@ keywords: Edit Hyperlinks, Edit Hyperlinks of Worksheet, Edit hyperlink of Cell,
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to access all the hyperlinks of the worksheet using the [**Hyperlinks**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/hyperlinks/) collection. You can access each hyperlink from this collection one by one and edit its properties.
+Aspose.Cells allows you to access all the hyperlinks of the worksheet using the [**GetHyperlinks()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/gethyperlinks/) collection. You can access each hyperlink from this collection one by one and edit its properties.
 
 {{% /alert %}}
 
-The following sample code accesses all the hyperlinks of the worksheet and changes their [**Address**](https://reference.aspose.com/cells/cpp/aspose.cells/hyperlink/address/) property to the Aspose website.
+The following sample code accesses all the hyperlinks of the worksheet and changes their [**GetAddress()**](https://reference.aspose.com/cells/cpp/aspose.cells/hyperlink/getaddress/) property to the Aspose website.
 
 ```c++
 #include <iostream>

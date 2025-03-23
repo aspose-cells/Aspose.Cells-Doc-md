@@ -7,7 +7,7 @@ url: /cpp/show-leading-apostrophe-in-cells/
 description: Learn how to display leading apostrophes in cells using Aspose.Cells for C++.
 ---
 
-In Microsoft Excel, the leading apostrophe in the cell's value is hidden. Aspose.Cells provides the feature to display the apostrophe by default. For this, the API provides [Workbook.Settings.QuotePrefixToStyle](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/quoteprefixtostyle/) property. This property indicates whether to set the [QuotePrefix](https://reference.aspose.com/cells/cpp/aspose.cells/style/quoteprefix/) property when entering a string value starting with a single quote to the cell. Setting the [Workbook.Settings.QuotePrefixToStyle](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/quoteprefixtostyle/) property to **false** will display the leading apostrophe in the output Excel file.
+In Microsoft Excel, the leading apostrophe in the cell's value is hidden. Aspose.Cells provides the feature to display the apostrophe by default. For this, the API provides [Workbook.GetQuotePrefixToStyle()](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getquoteprefixtostyle/) property. This property indicates whether to set the [GetQuotePrefix()](https://reference.aspose.com/cells/cpp/aspose.cells/style/getquoteprefix/) property when entering a string value starting with a single quote to the cell. Setting the [Workbook.GetQuotePrefixToStyle()](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getquoteprefixtostyle/) property to **false** will display the leading apostrophe in the output Excel file.
 
 The following screenshot shows the output Excel file with the visible apostrophe.
 

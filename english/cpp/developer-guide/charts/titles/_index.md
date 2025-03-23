@@ -22,7 +22,7 @@ Aspose.Cells also allows you to manage chart titles at runtime. With the [Title]
 |![todo:image_alt_text](chart_title.png)|
 
 ## **Setting the Titles of Charts or Axes**
-You can use Microsoft Excel to set the titles of a chart and its axes in a WYSIWYG environment. Aspose.Cells also allows developers to set the titles of a chart and its axes at runtime. All charts and their axes contain a [Title](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/title/) property that can be used to set their titles, as shown in the example below.
+You can use Microsoft Excel to set the titles of a chart and its axes in a WYSIWYG environment. Aspose.Cells also allows developers to set the titles of a chart and its axes at runtime. All charts and their axes contain a [Title](https://reference.aspose.com/cells/cpp/aspose.cells.charts/title/) property that can be used to set their titles, as shown in the example below.
 
 The following code snippet demonstrates how to set titles for charts and axes.
 

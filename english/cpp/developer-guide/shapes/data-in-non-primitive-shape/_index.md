@@ -13,7 +13,7 @@ Sometimes, you need to access data from a shape that is not built-in. Built-in s
 
 ## **A Non-Primitive Shape**
 
-In Aspose.Cells, non-primitive shapes are assigned the type [**AutoShapeType.NotPrimitive**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/autoshapetype/). You can check their type using the [**Shape.AutoShapeType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/autoshapetype/) property.
+In Aspose.Cells, non-primitive shapes are assigned the type [**AutoShapeType.NotPrimitive**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/autoshapetype/). You can check their type using the [**Shape.AutoShapeType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/autoshapetype/) property.
 
 Access the shape data using the [**Shape.Paths**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/paths/) property. It returns all the connected paths that comprise the non-primitive shape. These paths are of the type [**ShapePath**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapepath/) that holds a list of all the segments which in turn contain the points in each segment.
 

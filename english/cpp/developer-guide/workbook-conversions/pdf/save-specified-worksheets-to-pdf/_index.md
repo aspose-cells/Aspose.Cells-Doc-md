@@ -7,11 +7,11 @@ url: /cpp/save-specified-worksheets-to-pdf/
 description: Export specific worksheets to PDF using Aspose.Cells with C++.  
 ---  
 
-By default, Aspose.Cells saves all **visible** worksheets in a workbook to a PDF file. With [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/sheetset/) option, you can save specified worksheets to a PDF file. e.g., you can save the active worksheet to PDF, save all worksheets (both visible and hidden worksheets) to PDF, or save custom multiple worksheets to PDF.
+By default, Aspose.Cells saves all **visible** worksheets in a workbook to a PDF file. With [**PdfSaveOptions.GetSheetSet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getsheetset/) option, you can save specified worksheets to a PDF file. e.g., you can save the active worksheet to PDF, save all worksheets (both visible and hidden worksheets) to PDF, or save custom multiple worksheets to PDF.
 
 ## **Save Active Worksheet to PDF**
 
-If you want to only export the active sheet to PDF, you can achieve this by passing [**SheetSet.Active**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetset/active/) to [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/sheetset/) option.
+If you want to only export the active sheet to PDF, you can achieve this by passing [**SheetSet.Active**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetset/active/) to [**PdfSaveOptions.GetSheetSet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getsheetset/) option.
 
 The sheet `Sheet2` is the active sheet of the source file [sheetset-example.xlsx](sheetset-example.xlsx).
 
@@ -44,7 +44,7 @@ int main()
 
 ## **Save All Worksheets to PDF**
 
-[**SheetSet.Visible**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetset/visible/) indicates visible sheets in a workbook, and [**SheetSet.All**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetset/all/) indicates all sheets including both visible sheets and hidden/invisible sheets in a workbook. If you want to export all sheets to PDF, you can just pass [**SheetSet.All**](https://reference.aspose.com/cells/cpp/aspose.cells/rendering/sheetset/all/) to [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/sheetset/) option.
+[**SheetSet.Visible**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetset/visible/) indicates visible sheets in a workbook, and [**SheetSet.All**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetset/all/) indicates all sheets including both visible sheets and hidden/invisible sheets in a workbook. If you want to export all sheets to PDF, you can just pass [**SheetSet.All**](https://reference.aspose.com/cells/cpp/aspose.cells/rendering/sheetset/all/) to [**PdfSaveOptions.GetSheetSet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getsheetset/) option.
 
 The source file [sheetset-example.xlsx](sheetset-example.xlsx) contains all four sheets with hidden sheet `Sheet3`.
 
@@ -80,7 +80,7 @@ int main()
 
 ## **Save Specified Worksheets to PDF**
 
-If you want to export desired/custom multiple sheets to PDF, you can achieve this by passing multiple sheet indices to [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/sheetset/) option.
+If you want to export desired/custom multiple sheets to PDF, you can achieve this by passing multiple sheet indices to [**PdfSaveOptions.GetSheetSet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getsheetset/) option.
 
 ```c++
 #include <iostream>
@@ -121,7 +121,7 @@ int main()
 
 ## **Reorder Worksheets to PDF**
 
-If you want to reorder sheets (e.g., in reverse order) to PDF without modifying the source file, you can achieve this by passing reordered sheet indices to [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/sheetset/) option.
+If you want to reorder sheets (e.g., in reverse order) to PDF without modifying the source file, you can achieve this by passing reordered sheet indices to [**PdfSaveOptions.GetSheetSet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getsheetset/) option.
 
 ```c++
 #include <iostream>

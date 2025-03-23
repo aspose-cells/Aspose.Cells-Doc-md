@@ -132,7 +132,7 @@ Result of Sum(A1:A2): 50.0
 
 ## **How to Calculate Formulas Repeatedly**
 
-When there are lots of formulas in the workbook and the user needs to calculate them repeatedly with modifying only a small part of them, it may be helpful for performance to enable the formula calculation chain: [**FormulaSettings.EnableCalculationChain**](https://reference.aspose.com/cells/cpp/aspose.cells/formulasettings/enablecalculationchain/).
+When there are lots of formulas in the workbook and the user needs to calculate them repeatedly with modifying only a small part of them, it may be helpful for performance to enable the formula calculation chain: [**FormulaSettings.GetEnableCalculationChain()**](https://reference.aspose.com/cells/cpp/aspose.cells/formulasettings/getenablecalculationchain/).
 
 ```c++
 #include <iostream>

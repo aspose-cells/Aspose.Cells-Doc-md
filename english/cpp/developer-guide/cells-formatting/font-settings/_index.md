@@ -16,13 +16,13 @@ The look and feel of a text can be controlled by changing font settings. The fon
 
 ## **Configuring Font Settings**
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class contains a [**Worksheets**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class. The [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class provides a [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/cells/) collection. Each item in the [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/cells/) collection represents an object of the [**Cell**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) class.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class contains a [**Worksheets**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class. The [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class provides a [**GetCells()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getcells/) collection. Each item in the [**GetCells()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getcells/) collection represents an object of the [**Cell**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) class.
 
 Aspose.Cells provides the [**Cell**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) class' [**GetStyle**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getstyle/) and [**SetStyle**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/setstyle/) methods which are used to get and set a cell's formatting style. The [**Style**](https://reference.aspose.com/cells/cpp/aspose.cells/style/) class provides properties for configuring font settings.
 
 ### **Setting Font Name**
 
-Developers can apply any font to text inside a cell by using the [**Style.Font**](https://reference.aspose.com/cells/cpp/aspose.cells/style/font/) object's [Name](https://reference.aspose.com/cells/cpp/aspose.cells/font/name/) property.
+Developers can apply any font to text inside a cell by using the [**Style.GetFont()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getfont/) object's [GetName()](https://reference.aspose.com/cells/cpp/aspose.cells/font/getname/) property.
 
 ```cpp
 #include <iostream>
@@ -74,7 +74,7 @@ int main()
 
 ### **Setting Font Style to Bold**
 
-Developers can make text bold by setting the [**Style.Font**](https://reference.aspose.com/cells/cpp/aspose.cells/style/font/) object's [**IsBold**](https://reference.aspose.com/cells/cpp/aspose.cells/font/isbold/) property to **true**.
+Developers can make text bold by setting the [**Style.GetFont()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getfont/) object's [**IsBold**](https://reference.aspose.com/cells/cpp/aspose.cells/font/isbold/) property to **true**.
 
 ```cpp
 #include <iostream>
@@ -121,7 +121,7 @@ int main() {
 
 ### **Setting Font Size**
 
-Set the font size with the [**Style.Font**](https://reference.aspose.com/cells/cpp/aspose.cells/style/font/) object's [**Size**](https://reference.aspose.com/cells/cpp/aspose.cells/font/size/) property.
+Set the font size with the [**Style.GetFont()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getfont/) object's [**GetSize()**](https://reference.aspose.com/cells/cpp/aspose.cells/font/getsize/) property.
 
 ```cpp
 #include <iostream>
@@ -168,7 +168,7 @@ int main() {
 
 ### **Setting Font Color**
 
-Use the [**Style.Font**](https://reference.aspose.com/cells/cpp/aspose.cells/style/font/) object's [**Color**](https://reference.aspose.com/cells/cpp/aspose.cells/font/color/) property to set the font color. Select any color from the Color enumeration (part of the C++ framework) and assign it to the [**Color**](https://reference.aspose.com/cells/cpp/aspose.cells/font/color/) property.
+Use the [**Style.GetFont()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getfont/) object's [**GetColor()**](https://reference.aspose.com/cells/cpp/aspose.cells/font/getcolor/) property to set the font color. Select any color from the Color enumeration (part of the C++ framework) and assign it to the [**GetColor()**](https://reference.aspose.com/cells/cpp/aspose.cells/font/getcolor/) property.
 
 ```c++
 #include <iostream>
@@ -212,7 +212,7 @@ int main()
 
 ### **Setting Font Underline Type**
 
-Use the [**Style.Font**](https://reference.aspose.com/cells/cpp/aspose.cells/style/font/) object's [**Underline**](https://reference.aspose.com/cells/cpp/aspose.cells/font/underline/) property to underline text. Aspose.Cells offers various pre-defined font underline types in the [**FontUnderlineType**](https://reference.aspose.com/cells/cpp/aspose.cells/fontunderlinetype/) enumeration.
+Use the [**Style.GetFont()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getfont/) object's [**GetUnderline()**](https://reference.aspose.com/cells/cpp/aspose.cells/font/getunderline/) property to underline text. Aspose.Cells offers various pre-defined font underline types in the [**FontUnderlineType**](https://reference.aspose.com/cells/cpp/aspose.cells/fontunderlinetype/) enumeration.
 
 |**Font Underline Types**|**Description**|
 | :- | :- |
@@ -272,7 +272,7 @@ int main()
 
 ### **Setting Strikeout Effect**
 
-Apply strikeout by setting the [**Style.Font**](https://reference.aspose.com/cells/cpp/aspose.cells/style/font/) object's [**IsStrikeout**](https://reference.aspose.com/cells/cpp/aspose.cells/font/isstrikeout/) property to **true**.
+Apply strikeout by setting the [**Style.GetFont()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getfont/) object's [**IsStrikeout**](https://reference.aspose.com/cells/cpp/aspose.cells/font/isstrikeout/) property to **true**.
 
 ```c++
 #include <iostream>
@@ -309,7 +309,7 @@ int main()
 
 ### **Setting Subscript Effect**
 
-Apply subscript by setting the [**Style.Font**](https://reference.aspose.com/cells/cpp/aspose.cells/style/font/) object's [**IsSubScript**](https://reference.aspose.com/cells/cpp/aspose.cells/font/issubscript/) property to **true**.
+Apply subscript by setting the [**Style.GetFont()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getfont/) object's [**IsSubScript**](https://reference.aspose.com/cells/cpp/aspose.cells/font/issubscript/) property to **true**.
 
 ```cpp
 #include <iostream>
@@ -362,7 +362,7 @@ int main()
 
 ### **Setting Superscript Effect on Font**
 
-Developers can apply the superscript effect on the font by setting the [**IsSuperscript**](https://reference.aspose.com/cells/cpp/aspose.cells/font/issuperscript/) property of the [**Style.Font**](https://reference.aspose.com/cells/cpp/aspose.cells/style/font/) object to **true**.
+Developers can apply the superscript effect on the font by setting the [**IsSuperscript**](https://reference.aspose.com/cells/cpp/aspose.cells/font/issuperscript/) property of the [**Style.GetFont()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getfont/) object to **true**.
 
 ```c++
 #include <iostream>

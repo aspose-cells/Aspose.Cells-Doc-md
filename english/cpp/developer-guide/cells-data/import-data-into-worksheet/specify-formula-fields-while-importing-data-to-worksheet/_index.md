@@ -10,7 +10,7 @@ keywords: Specify formula fields while importing data to Worksheet, Set formula 
 
 ## **Possible Usage Scenarios**
 
-You can specify formula fields when you import data into your worksheet using the [**ImportTableOptions.IsFormulas**](https://reference.aspose.com/cells/cpp/aspose.cells/importtableoptions/isformulas/). This property takes the Boolean array where the value **true** means the field is a formula field. For example, if the third field is a formula field, then the third value in the array will be **true**.
+You can specify formula fields when you import data into your worksheet using the [**ImportTableOptions.GetIsFormulas()**](https://reference.aspose.com/cells/cpp/aspose.cells/importtableoptions/getisformulas/). This property takes the Boolean array where the value **true** means the field is a formula field. For example, if the third field is a formula field, then the third value in the array will be **true**.
 
 ## **Specify Formula Fields while Importing Data to Worksheet**
 

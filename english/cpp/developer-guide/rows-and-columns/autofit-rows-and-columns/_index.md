@@ -154,7 +154,7 @@ int main()
 
 ### **How to AutoFit Rows for Merged Cells**
 
-With Aspose.Cells, it is possible to autofit rows even for cells that have been merged using the [**AutoFitterOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/) API. The [**AutoFitterOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/) class provides the [**AutoFitMergedCellsType**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/autofitmergedcellstype/) property that can be used to autofit rows for merged cells. [**AutoFitMergedCellsType**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/autofitmergedcellstype/) accepts the [**AutoFitMergedCellsType**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitmergedcellstype/) enumeration, which has the following members:
+With Aspose.Cells, it is possible to autofit rows even for cells that have been merged using the [**AutoFitterOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/) API. The [**AutoFitterOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/) class provides the [**GetAutoFitMergedCellsType()**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/getautofitmergedcellstype/) property that can be used to autofit rows for merged cells. [**GetAutoFitMergedCellsType()**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/getautofitmergedcellstype/) accepts the [**AutoFitMergedCellsType**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitmergedcellstype/) enumeration, which has the following members:
 
 - None: Ignore merged cells.
 - FirstLine: Only expands the height of the first row.

@@ -8,7 +8,7 @@ description: Learn how to set formulas for named ranges in Excel files using Asp
 ---
 
 ## **Setting Formula for Named Range**
-Like Excel application, Aspose.Cells APIs provide the ability to specify a formula for a named range while using its [RefersTo](https://reference.aspose.com/cells/cpp/aspose.cells/range/refersto/) property. There could be numerous usability scenarios for this feature, a few of which are detailed as follow.
+Like Excel application, Aspose.Cells APIs provide the ability to specify a formula for a named range while using its [GetRefersTo()](https://reference.aspose.com/cells/cpp/aspose.cells/range/getrefersto/) property. There could be numerous usability scenarios for this feature, a few of which are detailed as follow.
 
 ### **Setting a Simple Formula for Named Range**
 A simple formula could be a reference to another cell in the same (or different) worksheet. The following example creates a named range in a new spreadsheet and sets its reference to another cell.

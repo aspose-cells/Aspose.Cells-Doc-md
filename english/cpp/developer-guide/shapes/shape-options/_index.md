@@ -15,13 +15,13 @@ Developers can easily manage shape options in Microsoft Excel files programmatic
 
 Aspose.Cells provides a class [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) that represents a worksheet in an Excel file. You can use various shape classes in this API to work with graphics or drawing objects in Excel.
 
-A shape is represented by the [Shape](https://reference.aspose.com/cells/cpp/aspose.cells/shape/) class. The [Shape](https://reference.aspose.com/cells/cpp/aspose.cells/shape/) class provides extensive properties and methods for managing shapes within an Excel worksheet.
+A shape is represented by the [Shape](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/) class. The [Shape](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/) class provides extensive properties and methods for managing shapes within an Excel worksheet.
 
 ## **Adding Shapes to a Worksheet**  
 To add a shape to a worksheet:
 
 1. Obtain a reference to the desired worksheet.
-2. Create an instance of the [Shape](https://reference.aspose.com/cells/cpp/aspose.cells/shape/) class using the corresponding method in the worksheet.
+2. Create an instance of the [Shape](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/) class using the corresponding method in the worksheet.
 3. Specify the shape's properties, such as its position and dimensions.
 4. Append the shape to the worksheet.
 

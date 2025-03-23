@@ -55,7 +55,7 @@ public:
 };
 ```
 
-In order to inject custom labels, it is required to assign the [**WorkbookSettings.GlobalizationSettings**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/globalizationsettings/) property to an instance of the **CustomSettings** class defined above before adding the Subtotals to the worksheet.
+In order to inject custom labels, it is required to assign the [**WorkbookSettings.GetGlobalizationSettings()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getglobalizationsettings/) property to an instance of the **CustomSettings** class defined above before adding the Subtotals to the worksheet.
 
 ```cpp
 #include <iostream>

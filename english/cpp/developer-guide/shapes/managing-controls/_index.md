@@ -17,10 +17,10 @@ One way to stress important information in a report is to use a text box. For ex
 
 - The [**TextFrame**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/textframe/) property returns a [**MsoTextFrame**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/msotextframe/) object used to adjust the contents of the text box.
 - The [**Placement**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/placement/) property specifies the placement type.
-- The [**Font**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/font/) property specifies the font attributes.
+- The [**Font**](https://reference.aspose.com/cells/cpp/aspose.cells/font/) property specifies the font attributes.
 - The [**AddHyperlink**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/addhyperlink/) method adds a hyperlink for the text box.
-- The [**FillFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/fillformat/) property returns an [**MsoFillFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/msofillformat/) object used to set the fill format for the text box.
-- The [**LineFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/lineformat/) property returns the [**MsoLineFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/msolineformat/) object usually used to style and weight of the text box line.
+- The [**FillFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/fillformat/) property returns an [**MsoFillFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/msofillformat/) object used to set the fill format for the text box.
+- The [**LineFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/lineformat/) property returns the [**MsoLineFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/msolineformat/) object usually used to style and weight of the text box line.
 - The [**Text**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/text/) property specifies the input text for the text box.
 
 The following example creates two textboxes in the first worksheet of the workbook. The first text box is well-furnished with different format settings. The second is a simple one.
@@ -103,7 +103,7 @@ int main()
 
 ## **Manipulating Text Box Controls in Designer Spreadsheets**
 
-Aspose.Cells also lets you access textboxes in the designer worksheets and manipulate them. Use the [**Worksheet.TextBoxes**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/textboxes/) property to get the textboxes collection in the sheet.
+Aspose.Cells also lets you access textboxes in the designer worksheets and manipulate them. Use the [**Worksheet.GetTextBoxes()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/gettextboxes/) property to get the textboxes collection in the sheet.
 
 The following example uses the Microsoft Excel file that we created in the above example. It gets the text strings of the two textboxes and changes the text of the second textbox to save the file.
 
@@ -237,8 +237,8 @@ To place a Radio Button control in your worksheet, follow these steps:
 - The [**LinkedCell**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/linkedcell/) property specifies a cell which is linked to the radio button.
 - The [**Text**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/text/) property specifies the text string associated with the radio button. It is the label of the radio button.
 - The [**IsChecked**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/radiobutton/ischecked/) property specifies if the radio button is checked or not.
-- The [**FillFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/fillformat/) property specifies the fill format of the radio button.
-- The [**LineFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/lineformat/) property specifies the line format styles of the option button.
+- The [**FillFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/fillformat/) property specifies the fill format of the radio button.
+- The [**LineFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/lineformat/) property specifies the line format styles of the option button.
 
 The following example shows how to add radio buttons to a worksheet. The example adds three radio buttons representing age groups.
 
@@ -474,7 +474,7 @@ The [**ShapeCollection**](https://reference.aspose.com/cells/cpp/aspose.cells.dr
 
 - The [**LinkedCell**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/linkedcell/) method specifies a cell which is linked to the list box.
 - The [**InputRange**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/inputrange/) method specifies the worksheet range of cells used to fill the list box.
-- The [**SelectionType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/listbox/selectiontype/) method specifies the selection mode of the the list box.
+- The [**SelectionType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/selectiontype/) method specifies the selection mode of the the list box.
 - The [**Shadow**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/listbox/shadow/) method indicates whether the list box has 3D shading.
 
 The following example shows how to add a list box to the worksheet.
@@ -562,7 +562,7 @@ To place a button control in your worksheet:
 The [**ShapeCollection**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/) class provides a method named [**AddButton**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/addbutton/), used to add a button control to the worksheet. The method returns an [**Aspose::Cells::Drawing::Button**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/button/) object. The class [**Aspose::Cells::Drawing::Button**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/button/) represents a button. It has some important members:
 
 - The [**Text**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/text/) property specifies the caption of button.
-- The [**Font**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/font/) property specifies the font attributes for the label of the button control.
+- The [**Font**](https://reference.aspose.com/cells/cpp/aspose.cells/font/) property specifies the font attributes for the label of the button control.
 - The [**Placement**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/placement/) property specifies the [**PlacementType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/placementtype/), the way the button is attached to the cells in the worksheet.
 - The [**AddHyperlink**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/addhyperlink/) property adds a hyperlink for the button control. Clicking on the button will navigate to related URL.
 
@@ -631,7 +631,7 @@ int main()
 
 The [**ShapeCollection**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/) class provides a method named [**AddLine**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/addline/), which is used to add a line shape to the worksheet. The method returns a [**LineShape**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/lineshape/) object. The class [**LineShape**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/lineshape/) represents a line. It has some important members:
 
-- The [**LineFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/lineformat/) method specifies the format of a line.
+- The [**LineFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/lineformat/) method specifies the format of a line.
 - The [**Placement**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/placement/) method specifies the [**PlacementType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/placementtype/), the way the line is attached to the cells in the worksheet.
 
 The following example shows how to add lines to the worksheet. It creates three lines with different styles.
@@ -774,9 +774,9 @@ Aspose.Cells allows you to draw rectangle shapes in your worksheets. You may cre
 
 The [**ShapeCollection**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/) class provides a method named [**AddRectangle**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/addrectangle/), which is used to add a rectangle shape to a worksheet. The method returns [**Aspose.Cells.Drawing.RectangleShape**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/rectangleshape/) object. The class [**Aspose.Cells.Drawing.RectangleShape**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/rectangleshape/) represents a rectangle. It has some important members:
 
-- The [**LineFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/lineformat/) property specifies the line format attributes of a rectangle.
+- The [**LineFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/lineformat/) property specifies the line format attributes of a rectangle.
 - The [**Placement**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/placement/) property specifies the [**PlacementType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/placementtype/), the way the rectangle is attached to the cells in the worksheet.
-- The [**FillFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/fillformat/) property specifies the fill format styles of a rectangle.
+- The [**FillFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/fillformat/) property specifies the fill format styles of a rectangle.
 
 The following example shows how to add a rectangle to the worksheet.
 
@@ -830,9 +830,9 @@ Aspose.Cells allows you to draw arc shapes in your worksheets. You may create si
 
 The [**ShapeCollection**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/) class provides a method named [**AddArc**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/addarc/), which is used to add an arc shape to a worksheet. The method returns an [**Aspose.Cells.Drawing.ArcShape**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/arcshape/) object. The class [**Aspose.Cells.Drawing.ArcShape**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/arcshape/) represents an arc. It has some important members:
 
-- The [**LineFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/lineformat/) property specifies the line format attributes of an arc shape.
+- The [**LineFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/lineformat/) property specifies the line format attributes of an arc shape.
 - The [**Placement**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/placement/) property specifies the [**PlacementType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/placementtype/), the way the arc is attached to the cells in the worksheet.
-- The [**FillFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/fillformat/) property specifies the fill format styles of the shape.
+- The [**FillFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/fillformat/) property specifies the fill format styles of the shape.
 - The [**LowerRightRow**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/lowerrightrow/) property specifies the lower right corner row index.
 - The [**LowerRightColumn**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/lowerrightcolumn/) property specifies the lower right corner column index.
 
@@ -918,9 +918,9 @@ Aspose.Cells allows you to draw oval shapes in worksheets. Create simple and fil
 
 The [**ShapeCollection**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/) class provides a method named [**AddOval**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/addoval/), which is used to add an oval shape to a worksheet. The method returns an [**Aspose.Cells.Drawing.Oval**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/oval/) object. The class [**Aspose.Cells.Drawing.Oval**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/oval/) represents an oval shape. It has some important members:
 
-- The [**LineFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/lineformat/) property specifies the line format attributes of an oval shape.
+- The [**LineFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/lineformat/) property specifies the line format attributes of an oval shape.
 - The [**Placement**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/placement/) property specifies the [**PlacementType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/placementtype/), the way the oval is attached to the cells in the worksheet.
-- The [**FillFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/fillformat/) property specifies the fill format styles of the shape.
+- The [**FillFormat**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/fillformat/) property specifies the fill format styles of the shape.
 - The [**LowerRightRow**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/lowerrightrow/) property specifies the lower right corner row index.
 - The [**LowerRightColumn**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/lowerrightcolumn/) property specifies the lower right corner column index.
 

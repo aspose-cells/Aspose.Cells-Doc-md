@@ -8,7 +8,7 @@ description: Learn how to read or write values of ActiveX ComboBox Control using
 ---
 
 ## **Possible Usage Scenarios**
-You can read or write the values of ActiveX ComboBox Control using Aspose.Cells. Please access the ActiveX Control via [Shape.ActiveXControl](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/activexcontrol/) property and check its type via [ActiveXControl.Type](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.activexcontrols/activexcontrolbase/type/) property. It should return [ControlType.ComboBox](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.activexcontrols/controltype/) value, and then typecast it into [ComboBoxActiveXControl](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/) object to read or modify its various properties.
+You can read or write the values of ActiveX ComboBox Control using Aspose.Cells. Please access the ActiveX Control via [Shape.ActiveXControl](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.activexcontrols/activexcontrol/) property and check its type via [ActiveXControl.Type](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.activexcontrols/activexcontrolbase/type/) property. It should return [ControlType.ComboBox](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.activexcontrols/controltype/) value, and then typecast it into [ComboBoxActiveXControl](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/) object to read or modify its various properties.
 
 Please download the [sample excel file](5115124.xlsx) used in the following sample code.
 

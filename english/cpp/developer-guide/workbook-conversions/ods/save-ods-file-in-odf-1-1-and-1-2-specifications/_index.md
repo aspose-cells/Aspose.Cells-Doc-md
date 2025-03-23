@@ -9,7 +9,7 @@ url: /cpp/save-ods-file-in-odf-1-1-and-1-2-specifications/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells supports saving an ODS file (**OpenDocument Spreadsheet**) in the ODF (**OpenDocument Format**) 1.1, 1.2 and 1.3 specifications. Aspose.Cells has [**OdsSaveOptions.OdfStrictVersion**](https://reference.aspose.com/cells/cpp/aspose.cells/odssaveoptions/odfstrictversion/) property that specifies the ODF version for saving ODS files. The default value of this property is [**OpenDocumentFormatVersionType.Odf12**](https://reference.aspose.com/cells/cpp/aspose.cells.ods/opendocumentformatversiontype/), so the ODS file saved without this setting uses the 1.2 specifications.
+Aspose.Cells supports saving an ODS file (**OpenDocument Spreadsheet**) in the ODF (**OpenDocument Format**) 1.1, 1.2 and 1.3 specifications. Aspose.Cells has [**OdsSaveOptions.GetOdfStrictVersion()**](https://reference.aspose.com/cells/cpp/aspose.cells/odssaveoptions/getodfstrictversion/) property that specifies the ODF version for saving ODS files. The default value of this property is [**OpenDocumentFormatVersionType.Odf12**](https://reference.aspose.com/cells/cpp/aspose.cells.ods/opendocumentformatversiontype/), so the ODS file saved without this setting uses the 1.2 specifications.
 
 {{% /alert %}}
 

@@ -9,7 +9,7 @@ description: Learn how to catch and handle warnings while loading Excel files us
 
 ## **Possible Usage Scenarios**
 
-Sometimes the user tries to load a workbook that is somewhat corrupt but still loadable. In such cases, Aspose.Cells throws warnings while loading the workbook. You can catch these warnings by implementing the [**IWarningCallback**](https://reference.aspose.com/cells/cpp/aspose.cells/iwarningcallback/) interface and setting the [**LoadOptions.WarningCallback**](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/warningcallback/) property.
+Sometimes the user tries to load a workbook that is somewhat corrupt but still loadable. In such cases, Aspose.Cells throws warnings while loading the workbook. You can catch these warnings by implementing the [**IWarningCallback**](https://reference.aspose.com/cells/cpp/aspose.cells/iwarningcallback/) interface and setting the [**LoadOptions.GetWarningCallback()**](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/getwarningcallback/) property.
 
 ## **Get Warnings while Loading Excel File**
 

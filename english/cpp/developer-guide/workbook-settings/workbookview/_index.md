@@ -15,10 +15,10 @@ When you need to adjust the display of Excel pages, you need to know how to cont
 - [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/isvscrollbarvisible/)
 - [**WorkbookSettings.IsHidden**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/ishidden/)
 - [**WorkbookSettings.IsMinimized**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/isminimized/)
-- [**WorkbookSettings.WindowHeight**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/windowheight/)
-- [**WorkbookSettings.WindowWidth**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/windowwidth/)
-- [**WorkbookSettings.WindowLeft**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/windowleft/)
-- [**WorkbookSettings.WindowTop**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/windowtop/)
+- [**WorkbookSettings.GetWindowHeight()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getwindowheight/)
+- [**WorkbookSettings.GetWindowWidth()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getwindowwidth/)
+- [**WorkbookSettings.GetWindowLeft()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getwindowleft/)
+- [**WorkbookSettings.GetWindowTop()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getwindowtop/)
 
 ## **How to Control Workbook View using Aspose.Cells for C++**
 This example shows how to:

@@ -23,7 +23,7 @@ Aspose.Cells supports converting Excel files to PDF and maintains high visual fi
 
 Aspose.Cells for C++ directly writes the information about API and Version Number in output documents. For example, upon rendering a document to PDF, Aspose.Cells for C++ populates the **PDF Producer** field with a value, e.g., 'Aspose.Cells v23.2'.
 
-Please note that you can change this information in output documents by using the [**PdfSaveOptions.Producer**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/producer/) property.
+Please note that you can change this information in output documents by using the [**PdfSaveOptions.GetProducer()**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/getproducer/) property.
 
 {{% /alert %}}
 
@@ -78,7 +78,7 @@ int main()
 
 You may also opt to use the [**PdfSaveOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/) class to set different attributes for the conversion. Setting different properties of the [**PdfSaveOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/) class gives you control over the print, font, security, and compression settings for the output PDF.
 
-The most important property is [**Compliance**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/compliance/), which enables you to set the PDF standards compliance level. Currently, you can save to PDF 1.4, PDF 1.5, PDF 1.6, PDF 1.7, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2b, PDF/A-2u, PDF/A-3a, PDF/A-2ab, and PDF/A-3u formats. Note that with the PDF/A format, an output file size is larger than a regular PDF file size.
+The most important property is [**GetCompliance()**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/getcompliance/), which enables you to set the PDF standards compliance level. Currently, you can save to PDF 1.4, PDF 1.5, PDF 1.6, PDF 1.7, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2b, PDF/A-2u, PDF/A-3a, PDF/A-2ab, and PDF/A-3u formats. Note that with the PDF/A format, an output file size is larger than a regular PDF file size.
 
 #### **Saving Workbook to PDF/A Complied Files**
 
@@ -123,13 +123,13 @@ int main()
 
 {{% alert color="primary" %}}
 
-Please note, the [**Compliance**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/compliance/) property was added with the release of Aspose.Cells for C++ 5.3.0.
+Please note, the [**GetCompliance()**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/getcompliance/) property was added with the release of Aspose.Cells for C++ 5.3.0.
 
 {{% /alert %}}
 
 #### **Set the PDF Creation Time**
 
-With the [**PdfSaveOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/) class, you can get or set the PDF creation time. The following code demonstrates the use of the [**PdfSaveOptions.CreatedTime**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/createdtime/) property to set the creation time of the PDF file.
+With the [**PdfSaveOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/) class, you can get or set the PDF creation time. The following code demonstrates the use of the [**PdfSaveOptions.GetCreatedTime()**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/getcreatedtime/) property to set the creation time of the PDF file.
 
 ```c++
 #include <iostream>

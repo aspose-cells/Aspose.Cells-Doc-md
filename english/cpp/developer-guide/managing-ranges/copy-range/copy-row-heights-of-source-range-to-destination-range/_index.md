@@ -9,7 +9,7 @@ description: Learn how to copy row heights from a source range to a destination 
 
 {{% alert color="primary" %}}
 
-Sometimes, users need to copy row heights from a source range to a destination range. Aspose.Cells provides the [**PasteType::RowHeights**](https://reference.aspose.com/cells/cpp/aspose.cells/pastetype/) enum for this purpose. When you set the [**PasteOptions::PasteType**](https://reference.aspose.com/cells/cpp/aspose.cells/pasteoptions/pastetype/) property with the [**PasteType::RowHeights**](https://reference.aspose.com/cells/cpp/aspose.cells/pastetype/) enum, the heights of all rows inside the source range will be copied to the destination range.
+Sometimes, users need to copy row heights from a source range to a destination range. Aspose.Cells provides the [**PasteType::RowHeights**](https://reference.aspose.com/cells/cpp/aspose.cells/pastetype/) enum for this purpose. When you set the [**GetPasteType()**](https://reference.aspose.com/cells/cpp/aspose.cells/pasteoptions/getpastetype/) property with the [**PasteType::RowHeights**](https://reference.aspose.com/cells/cpp/aspose.cells/pastetype/) enum, the heights of all rows inside the source range will be copied to the destination range.
 
 {{% /alert %}}
 
