@@ -11,7 +11,7 @@ description: Learn how to specify the absolute position of pivot items in C++ us
 
 Sometimes, users need to specify the absolute position of the pivot items. Aspose.Cells API has exposed a few new properties and a method to achieve this requirement.
 
-- Added [**PivotItem.Position**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivotitem/position/) property that can be used to specify the position index in all the PivotItems regardless of the parent node. Added [**PivotItem.PositionInSameParentNode**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivotitem/positioninsameparentnode/) property that can be used to specify the position index in the PivotItems under the same parent node.
+- Added [**PivotItem.GetPosition()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivotitem/getposition/) property that can be used to specify the position index in all the PivotItems regardless of the parent node. Added [**PivotItem.GetPositionInSameParentNode()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivotitem/getpositioninsameparentnode/) property that can be used to specify the position index in the PivotItems under the same parent node.
 - Added [**PivotItem.Move(int count, bool isSameParent)**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivotitem/move/) method in order to move the item up or down based on the count value, where count is the number of positions to move the PivotItem up or down. If the count value is less than zero, the item will be moved up, whereas if the count value is larger than zero, the PivotItem will move down. The Boolean type `isSameParent` parameter specifies whether the moving operation has to be performed in the same parent node or not.
 - Obsoleted the `PivotItem.Move(int count)` method; therefore, it is suggested to use the newly added method [**PivotItem.Move(int count, bool isSameParent)**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivotitem/move/) instead.
 
@@ -91,6 +91,6 @@ int main()
 
 {{% alert color="primary" %}}
 
-Please note, it is necessary to call the `PivotTable.RefreshData` and `PivotTable.CalculateData` methods before using [**PivotItem.Position**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivotitem/position/), [**PivotItem.PositionInSameParentNode**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivotitem/positioninsameparentnode/) properties and [**PivotItem.Move(int count, bool isSameParent)**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivotitem/move/) method.
+Please note, it is necessary to call the `PivotTable.RefreshData` and `PivotTable.CalculateData` methods before using [**PivotItem.GetPosition()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivotitem/getposition/), [**PivotItem.GetPositionInSameParentNode()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivotitem/getpositioninsameparentnode/) properties and [**PivotItem.Move(int count, bool isSameParent)**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivotitem/move/) method.
 
 {{% /alert %}}

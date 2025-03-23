@@ -18,7 +18,7 @@ Aspose.Cells provides powerful features to manage shape text options in Excel fi
 Aspose.Cells allows you to customize the text within shapes in Excel files. The [**Shape**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/) class provides methods and properties to manage text options such as alignment, orientation, and formatting.
 
 ### **Setting Text Alignment**
-You can set the horizontal and vertical alignment of text within a shape using the [**TextHorizontalAlignment**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/texthorizontalalignment/) and [**TextVerticalAlignment**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/textverticalalignment/) properties.
+You can set the horizontal and vertical alignment of text within a shape using the [**GetTextHorizontalAlignment()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/gettexthorizontalalignment/) and [**GetTextVerticalAlignment()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/gettextverticalalignment/) properties.
 
 ```cpp
 #include <Aspose.Cells.h>

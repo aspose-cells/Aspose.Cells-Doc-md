@@ -10,11 +10,11 @@ keywords: Fit to n page wide by m tall excel c++, calculate page setup scaling f
 
 {{% alert color="primary" %}}
 
-When you set Page Setup Scaling using **Fit to n page(s) wide by m tall** option, Microsoft Excel calculates the Page Setup Scaling Factor. You can calculate the same thing using [**SheetRender.PageScale**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/pagescale/) property. This property returns a double value which can be converted to percentage value. For example, if it returns 0.5 then it means scaling factor is 50%.
+When you set Page Setup Scaling using **Fit to n page(s) wide by m tall** option, Microsoft Excel calculates the Page Setup Scaling Factor. You can calculate the same thing using [**SheetRender.GetPageScale()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/getpagescale/) property. This property returns a double value which can be converted to percentage value. For example, if it returns 0.5 then it means scaling factor is 50%.
 
 {{% /alert %}}
 
-The following sample code illustrates how to calculate page setup scaling factor using [**SheetRender.PageScale**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/pagescale/) property.
+The following sample code illustrates how to calculate page setup scaling factor using [**SheetRender.GetPageScale()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/getpagescale/) property.
 
 ```cpp
 #include <iostream>

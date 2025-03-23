@@ -10,7 +10,7 @@ url: /cpp/creating-pie-chart-with-leader-lines/
 
 {{% alert color="primary" %}}
 
-This article explains how to create a pie chart with leader lines from scratch while using Aspose.Cells for C++ API. In Excel, the 'Show leader lines' option is set by default so when you create a pie chart in Excel the leader lines are shown. However, while creating a similar chart with Aspose.Cells APIs, you have to explicitly set the [**Series.HasLeaderLines**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/series/hasleaderlines/) property.
+This article explains how to create a pie chart with leader lines from scratch while using Aspose.Cells for C++ API. In Excel, the 'Show leader lines' option is set by default so when you create a pie chart in Excel the leader lines are shown. However, while creating a similar chart with Aspose.Cells APIs, you have to explicitly set the [**Series.GetHasLeaderLines()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/series/gethasleaderlines/) property.
 
 {{% /alert %}}
 

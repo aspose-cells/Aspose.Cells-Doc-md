@@ -9,7 +9,7 @@ description: Learn how to assign a Macro Code to a Form Control like a Button us
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to assign a Macro Code to a Form Control like a Button. Please use the [**Shape.MarcoName**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/macroname/) property to assign a new Macro Code to a Form Control inside the workbook.
+Aspose.Cells allows you to assign a Macro Code to a Form Control like a Button. Please use the [**Shape.GetMacroName()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/getmacroname/) property to assign a new Macro Code to a Form Control inside the workbook.
 
 {{% /alert %}}
 

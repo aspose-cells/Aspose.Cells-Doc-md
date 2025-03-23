@@ -9,7 +9,7 @@ description: Learn how to access and modify the display label of linked Ole Obje
 
 ## **Possible Usage Scenarios**
 
-Microsoft Excel allows you to change the display label of the Ole Object as shown in the following screenshot. You can also access or modify the display label of the Ole object using Aspose.Cells APIs with the [**OleObject::get_Label**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/oleobject/get_label/) and [**OleObject::set_Label**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/oleobject/set_label/) methods.
+Microsoft Excel allows you to change the display label of the Ole Object as shown in the following screenshot. You can also access or modify the display label of the Ole object using Aspose.Cells APIs with the [**GetLabel()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/oleobject/getlabel/) and [**SetLabel(const U16String\& value)**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/oleobject/setlabel/) methods.
 
 ![todo:image_alt_text](access-and-modify-the-display-label-of-the-linked-ole-object_1.png)
 

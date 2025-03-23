@@ -82,7 +82,7 @@ int main()
 
 ### **Category Data**
 
-Category data is used for the labeling of chart data and can be added to [**SeriesCollection**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/seriescollection/) by using its [**CategoryData**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/seriescollection/categorydata/) property. A complete example is given below to demonstrate the use of chart and category data. After executing the above example code, a column chart will be added to the worksheet as shown below.
+Category data is used for the labeling of chart data and can be added to [**SeriesCollection**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/seriescollection/) by using its [**GetCategoryData()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/seriescollection/getcategorydata/) property. A complete example is given below to demonstrate the use of chart and category data. After executing the above example code, a column chart will be added to the worksheet as shown below.
 
 ```cpp
 #include <iostream>

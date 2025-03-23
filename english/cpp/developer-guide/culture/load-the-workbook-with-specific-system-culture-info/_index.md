@@ -7,9 +7,6 @@ url: /cpp/load-the-workbook-with-specific-system-culture-info/
 description: Learn how to load a workbook with specific system culture info for dates and numbers using Aspose.Cells for C++.
 ---
 
-## **Possible Usage Scenarios**
-Earlier, you had to change the culture info of the entire thread to deal with numbers and dates in a particular culture format. However, now Aspose.Cells provides the [LoadOptions.CultureInfo](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/cultureinfo/) property, which you can use to load your workbook with specific culture info without changing the culture info of the entire thread.
-
 ## **Load the Workbook with Specific System Culture Info**
 The following sample code shows how to load the workbook with specific system culture info to deal with dates.
 

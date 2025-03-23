@@ -9,15 +9,15 @@ url: /cpp/manipulate-position-size-and-designer-chart/
 ---
 
 ## **Chart Position and Size**
-Sometimes, you want to change the position or size of the new or existing chart inside the worksheet. Aspose.Cells provides the [Chart.ChartObject](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/chartobject/) property to achieve this. You can use its sub-properties to re-size the chart with new **height** and **width** or re-position it with new **X** and **Y** coordinates.
+Sometimes, you want to change the position or size of the new or existing chart inside the worksheet. Aspose.Cells provides the [Chart.GetChartObject()](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/getchartobject/) property to achieve this. You can use its sub-properties to re-size the chart with new **height** and **width** or re-position it with new **X** and **Y** coordinates.
 
 ### **Controlling Chart Position and Size**
 To change the chart's position (X, Y coordinates) or size (height, width), use these properties:
 
-1. [Chart.ChartObject.X](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/x/)
-1. [Chart.ChartObject.Y](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/y/)
-1. [Chart.ChartObject.Height](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/height/)
-1. [Chart.ChartObject.Width](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/width/)
+1. [Chart.GetX()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/getx/)
+1. [Chart.GetY()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/gety/)
+1. [Chart.GetHeight()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/getheight/)
+1. [Chart.GetWidth()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/getwidth/)
 
 The following example explains the usage of the above APIs, it loads the existing workbook which contains a chart in its first worksheet. Then it re-sizes and re-positions the chart using Aspose.Cells.
 

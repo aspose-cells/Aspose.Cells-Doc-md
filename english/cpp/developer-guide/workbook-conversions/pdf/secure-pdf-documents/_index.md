@@ -18,7 +18,7 @@ This article explains how to pass in PDF security options when saving spreadshee
 
 {{% /alert %}}
 
-Aspose.Cells provides [**PdfSecurityOptions**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering.pdfsecurityoptions/) for working with security. You can set owner and user passwords while saving to PDF. The owner password or user password will be required to open the encrypted PDF document for viewing.
+Aspose.Cells provides [**PdfSecurityOptions**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/) for working with security. You can set owner and user passwords while saving to PDF. The owner password or user password will be required to open the encrypted PDF document for viewing.
 
 - The user password can be null or empty string, in this case no password will be required from the user when opening the PDF document.
 - Opening the PDF document with the correct owner password allows full access (without any access restrictions specified) to the document.

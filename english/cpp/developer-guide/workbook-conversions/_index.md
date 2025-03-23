@@ -276,13 +276,11 @@ Starting from 8.0.2, Aspose.Cells has exposed [**GetImageOptions()**](https://re
 Below are details of some of the image settings that can be applied:
 
 - [**ImageType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/imagetype/): Specifies the image type. Please note, all shapes, including charts, render as images in the output HTML.
-- [**SmoothingMode**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/smoothingmode/): Specifies the anti-aliasing for lines, curves, and edges of filled areas.
-- [**TextRenderingHint**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/textrenderinghint/): Specifies the quality of text rendering.
-- [**Quality**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/quality/): Specifies the quality of the image between 0 to 100 when [**ImageType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/imagetype/) is specified as Jpeg.
-- [**VerticalResolution**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/verticalresolution/): Gets or sets the vertical resolution of the image in dots per inch.
-- [**HorizontalResolution**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/horizontalresolution/): Gets or sets the horizontal resolution of the image in dots per inch.
+- [**GetQuality()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/getquality/): Specifies the quality of the image between 0 to 100 when [**ImageType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/imagetype/) is specified as Jpeg.
+- [**GetVerticalResolution()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/getverticalresolution/): Gets or sets the vertical resolution of the image in dots per inch.
+- [**GetHorizontalResolution()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/gethorizontalresolution/): Gets or sets the horizontal resolution of the image in dots per inch.
 - [**TiffCompression**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/tiffcompression/): Gets or sets the compression type for the images when [**ImageType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/imagetype/) is specified as Tiff.
-- [**Transparent**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/transparent/): Indicates if the background of an image should be transparent when ImageFormat is specified as Png.
+- [**GetTransparent()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/gettransparent/): Indicates if the background of an image should be transparent when ImageFormat is specified as Png.
 
 The code below demonstrates how to use [**HtmlSaveOptions.GetImageOptions()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/getimageoptions/) to specify different preferences.
 

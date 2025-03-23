@@ -9,7 +9,7 @@ description: Determine the absolute position of a shape in a worksheet using Asp
 
 {{% alert color="primary" %}}
 
-Sometimes, you need to know the absolute position of a shape in a worksheet. Aspose.Cells provides the [**Shape.LeftToCorner**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/lefttocorner/) and [**Shape.TopToCorner**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/toptocorner/) properties for this purpose. These properties return the absolute position of the shape inside the worksheet in pixels.
+Sometimes, you need to know the absolute position of a shape in a worksheet. Aspose.Cells provides the [**Shape.GetLeftToCorner()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/getlefttocorner/) and [**Shape.GetTopToCorner()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/gettoptocorner/) properties for this purpose. These properties return the absolute position of the shape inside the worksheet in pixels.
 
 {{% /alert %}}
 

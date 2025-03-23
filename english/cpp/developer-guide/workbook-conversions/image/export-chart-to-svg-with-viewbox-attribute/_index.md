@@ -9,7 +9,7 @@ description: Export a chart to SVG format with viewBox attribute using Aspose.Ce
 
 {{% alert color="primary" %}}
 
-By default, when the chart is exported to SVG format, the **viewBox** attribute is not included in its XML. However, Aspose.Cells provides [**ImageOrPrintOptions.SVGFitToViewPort**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/svgfittoviewport/) property which when set to **true** exports the chart to SVG with viewBox attribute.
+By default, when the chart is exported to SVG format, the **viewBox** attribute is not included in its XML. However, Aspose.Cells provides [**ImageOrPrintOptions.GetSVGFitToViewPort()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/getsvgfittoviewport/) property which when set to **true** exports the chart to SVG with viewBox attribute.
 
 {{% /alert %}}
 

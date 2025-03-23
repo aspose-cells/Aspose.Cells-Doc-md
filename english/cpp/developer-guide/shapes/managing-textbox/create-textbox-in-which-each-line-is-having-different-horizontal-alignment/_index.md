@@ -9,7 +9,7 @@ description: Learn how to create a TextBox with different horizontal alignment f
 
 {{% alert color="primary" %}}
 
-You can set the horizontal alignment of your paragraph text using the [**TextParagraph.AlignmentType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textparagraph/alignmenttype/) property.
+You can set the horizontal alignment of your paragraph text using the [**TextParagraph.GetAlignmentType()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textparagraph/getalignmenttype/) property.
 
 {{% /alert %}}
 

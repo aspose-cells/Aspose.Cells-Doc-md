@@ -44,7 +44,7 @@ void AddTextBox() {
 ### **Modifying a TextBox**
 To modify an existing TextBox in a worksheet:
 
-1. Access the [Shapes](https://reference.aspose.com/cells/cpp/aspose.cells/drawing/shape/) collection of the worksheet.
+1. Access the [Shapes](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/) collection of the worksheet.
 2. Retrieve the TextBox shape using its index.
 3. Change the properties of the TextBox as needed.
 
@@ -73,7 +73,7 @@ void ModifyTextBox() {
 ### **Removing a TextBox from a Worksheet**
 To remove a TextBox from a worksheet:
 
-1. Access the [Shapes](https://reference.aspose.com/cells/cpp/aspose.cells/drawing/shape/) collection of the worksheet.
+1. Access the [Shapes](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/) collection of the worksheet.
 2. Use the [RemoveAt(int32_t index)](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/removeat/) method to remove the TextBox by its index.
 
 ```cpp

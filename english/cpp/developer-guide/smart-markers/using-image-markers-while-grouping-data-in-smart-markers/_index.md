@@ -16,8 +16,6 @@ The following sample creates a workbook and then adds the following smart marker
 &=Person.Photo(Picture:FitToCell)
 {{< /highlight >}}
 
-Then it fills the data source with data and calls the [WorkbookDesigner.Process()](https://reference.aspose.com/cells/cpp/aspose.cells/workbookdesigner/process/) method to process smart marker tags. The code uses these images i.e [moon.png](5115492.png) and [moon2.png](5115491.png) but you can use any image.
-
 ```cpp
 #include <iostream>
 #include <vector>

@@ -10,7 +10,7 @@ keywords: Aspose.Cells C++ Update slicer, C++ how to change the slicer, how to a
 
 ## **Possible Usage Scenarios**
 
-If you want to update a slicer in Microsoft Excel, select or unselect its items, it will then update the slicer table or pivot table accordingly. Please use [**Slicer.SlicerCache.SlicerCacheItems**](https://reference.aspose.com/cells/cpp/aspose.cells.slicers/slicercache/slicercacheitems/) to select or unselect slicer items with Aspose.Cells and then call [**Slicer.Refresh()**](https://reference.aspose.com/cells/cpp/aspose.cells.slicers/slicer/refresh/) method to update the slicer table or pivot table.
+If you want to update a slicer in Microsoft Excel, select or unselect its items, it will then update the slicer table or pivot table accordingly. Please use [**Slicer.GetSlicerCacheItems()**](https://reference.aspose.com/cells/cpp/aspose.cells.slicers/slicercache/getslicercacheitems/) to select or unselect slicer items with Aspose.Cells and then call [**Slicer.Refresh()**](https://reference.aspose.com/cells/cpp/aspose.cells.slicers/slicer/refresh/) method to update the slicer table or pivot table.
 
 ## **How to Update Slicer**
 

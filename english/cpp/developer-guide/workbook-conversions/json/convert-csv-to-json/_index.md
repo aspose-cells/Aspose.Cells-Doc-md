@@ -12,9 +12,9 @@ keywords: Convert, Convert CSV to JSON, CSV to JSON, CSV, JSON, Convert CSV to J
 
 Aspose.Cells supports converting CSV to JSON. For this, the API provides [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/) and [**JsonUtility**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/jsonutility/) classes. The [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/) class provides the options for exporting range to JSON. The [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/) class has the following properties.
 
-- [**ExportAsString**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/exportasstring/): This exports the string value of the cells to JSON.
-- [**HasHeaderRow**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/hasheaderrow/): This indicates whether the range contains a header row.
-- [**Indent**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/indent/): Indicates the indent.
+- [**GetExportAsString()**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/getexportasstring/): This exports the string value of the cells to JSON.
+- [**GetHasHeaderRow()**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/gethasheaderrow/): This indicates whether the range contains a header row.
+- [**GetIndent()**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/getindent/): Indicates the indent.
 
 The [**JsonUtility**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/jsonutility/) class exports the JSON using the export options set with the [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/) class.
 

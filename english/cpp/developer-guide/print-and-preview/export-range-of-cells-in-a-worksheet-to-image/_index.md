@@ -13,7 +13,7 @@ You can make an image of a worksheet using Aspose.Cells. However, sometimes you 
 
 ## **Export Range of Cells in a Worksheet to Image**
 
-To take an image of a range, set the print area to the desired range and then set all margins to 0. Also set [**ImageOrPrintOptions.OnePagePerSheet**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/onepagepersheet/) to **true**. The following code takes an image of the range D8:G16. Below is a screenshot of the [sample Excel file](47153160.xlsx) used in the code. You can try the code with any Excel file.
+To take an image of a range, set the print area to the desired range and then set all margins to 0. Also set [**ImageOrPrintOptions.GetOnePagePerSheet()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/getonepagepersheet/) to **true**. The following code takes an image of the range D8:G16. Below is a screenshot of the [sample Excel file](47153160.xlsx) used in the code. You can try the code with any Excel file.
 
 ## **Screenshot of Sample Excel File and its Exported Image**
 

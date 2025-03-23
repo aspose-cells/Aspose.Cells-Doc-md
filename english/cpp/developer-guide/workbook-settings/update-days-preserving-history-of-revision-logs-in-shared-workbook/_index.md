@@ -9,7 +9,7 @@ description: Learn how to update the number of days for preserving history in a 
 
 ## **Possible Usage Scenarios**
 
-When you share a workbook, you get an option saying ***Keep change history for N days*** as shown in the following screenshot. You can update the number of days for preserving history using Aspose.Cells with [**WorksheetCollection.RevisionLogs.DaysPreservingHistory**](https://reference.aspose.com/cells/cpp/aspose.cells.revisions/revisionlogcollection/dayspreservinghistory/) property.
+When you share a workbook, you get an option saying ***Keep change history for N days*** as shown in the following screenshot. You can update the number of days for preserving history using Aspose.Cells with [**WorksheetCollection.GetDaysPreservingHistory()**](https://reference.aspose.com/cells/cpp/aspose.cells.revisions/revisionlogcollection/getdayspreservinghistory/) property.
 
 ![todo:image_alt_text](update-days-preserving-history-of-revision-logs-in-shared-workbook_1.png)
 

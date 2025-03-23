@@ -9,11 +9,11 @@ description: Learn how to retrieve the version number of the application that cr
 
 {{% alert color="primary" %}}
 
-Often you need to know the version number of the application that created a Microsoft Excel document. Aspose.Cells provides the [**Workbook.BuiltInDocumentProperties.Version**](https://reference.aspose.com/cells/cpp/aspose.cells.properties/builtindocumentpropertycollection/version/) property for this purpose.
+Often you need to know the version number of the application that created a Microsoft Excel document. Aspose.Cells provides the [**Workbook.GetVersion()**](https://reference.aspose.com/cells/cpp/aspose.cells.properties/builtindocumentpropertycollection/getversion/) property for this purpose.
 
 {{% /alert %}}
 
-The following sample code demonstrates the use of the [**Workbook.BuiltInDocumentProperties.Version**](https://reference.aspose.com/cells/cpp/aspose.cells.properties/builtindocumentpropertycollection/version/) property. It loads Excel files created with Microsoft Excel 2003, 2007, 2010, and 2013 and prints the version number of the application that created these Excel documents.
+The following sample code demonstrates the use of the [**Workbook.GetVersion()**](https://reference.aspose.com/cells/cpp/aspose.cells.properties/builtindocumentpropertycollection/getversion/) property. It loads Excel files created with Microsoft Excel 2003, 2007, 2010, and 2013 and prints the version number of the application that created these Excel documents.
 
 ```c++
 #include <iostream>

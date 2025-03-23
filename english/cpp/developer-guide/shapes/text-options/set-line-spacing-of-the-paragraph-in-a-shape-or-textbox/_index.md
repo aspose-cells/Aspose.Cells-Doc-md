@@ -9,7 +9,7 @@ description: Learn how to set line spacing, space before, and space after in a p
 
 {{% alert color="primary" %}}
 
-You can set the line space of the paragraph, its space before and space after using the [**TextParagraph.LineSpace**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textparagraph/linespace/), [**TextParagraph.SpaceBefore**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textparagraph/spacebefore/) and [**TextParagraph.SpaceAfter**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textparagraph/spaceafter/) properties of the [**TextParagraph**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textparagraph/) class.
+You can set the line space of the paragraph, its space before and space after using the [**TextParagraph.GetLineSpace()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textparagraph/getlinespace/), [**TextParagraph.GetSpaceBefore()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textparagraph/getspacebefore/) and [**TextParagraph.GetSpaceAfter()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textparagraph/getspaceafter/) properties of the [**TextParagraph**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textparagraph/) class.
 
 {{% /alert %}}
 

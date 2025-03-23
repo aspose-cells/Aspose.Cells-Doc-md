@@ -8,18 +8,18 @@ description: Learn how to manipulate the shadow effect of shapes or charts using
 ---
 
 ## **Possible Usage Scenarios**
-Aspose.Cells provides the [Shape::get_ShadowEffect()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/get_shadoweffect/) method along with the [ShadowEffect](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shadoweffect/) class to work with the shadow effect of shapes or charts. The [ShadowEffect](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shadoweffect/) class contains the following properties which can be set to achieve different results as per application requirements.
+Aspose.Cells provides the [GetShadowEffect()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/getshadoweffect/) method along with the [ShadowEffect](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shadoweffect/) class to work with the shadow effect of shapes or charts. The [ShadowEffect](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shadoweffect/) class contains the following properties which can be set to achieve different results as per application requirements.
 
-- [Angle](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shadoweffect/get_angle/)
-- [Blur](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shadoweffect/get_blur/)
-- [Color](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shadoweffect/get_color/)
-- [Distance](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shadoweffect/get_distance/)
-- [PresetType](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shadoweffect/get_presettype/)
-- [Size](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shadoweffect/get_size/)
-- [Transparency](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shadoweffect/get_transparency/)
+- [GetAngle()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shadoweffect/getangle/)
+- [GetBlur()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shadoweffect/getblur/)
+- [GetColor()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shadoweffect/getcolor/)
+- [GetDistance()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shadoweffect/getdistance/)
+- [GetPresetType()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shadoweffect/getpresettype/)
+- [GetSize()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shadoweffect/getsize/)
+- [GetTransparency()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shadoweffect/gettransparency/)
 
 ## **Working with the Shadow Effect of Shape or Chart**
-The following sample code loads the [source excel file](5115425.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of [Shape::get_ShadowEffect()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/get_shadoweffect/) property and then saves the workbook in the [output excel file](5115411.xlsx).
+The following sample code loads the [source excel file](5115425.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of [GetShadowEffect()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/getshadoweffect/) property and then saves the workbook in the [output excel file](5115411.xlsx).
 
 ```cpp
 #include <iostream>

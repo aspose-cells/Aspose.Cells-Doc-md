@@ -17,7 +17,7 @@ This article explains how to add custom colors to pie chart slices/sectors. By d
 To set a custom color for a pie chart's individual slices or sectors:
 
 1. Access the [**Series**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/series/) object's [**ChartPoint**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chartpoint/).
-1. Assign the color of your choice using the [**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/area/foregroundcolor/) property.
+1. Assign the color of your choice using the [**ChartPoint.GetForegroundColor()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/area/getforegroundcolor/) property.
 
 This article also explains how to:
 
@@ -28,7 +28,7 @@ This article also explains how to:
 
 {{% alert color="primary" %}}
 
-[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/area/foregroundcolor/) is not specific to pie charts but it can be used for all types of charts.
+[**ChartPoint.GetForegroundColor()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/area/getforegroundcolor/) is not specific to pie charts but it can be used for all types of charts.
 
 {{% /alert %}}
 

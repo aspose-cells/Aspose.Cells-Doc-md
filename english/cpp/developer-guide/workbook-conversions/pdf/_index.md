@@ -164,7 +164,7 @@ int main()
 
 #### **Set ContentCopyForAccessibility option**
 
-With the [**PdfSaveOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/) class, you can get or set the PDF [**AccessibilityExtractContent**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/accessibilityextractcontent/) option to control the content access in the converted PDF.
+With the [**PdfSaveOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/) class, you can get or set the PDF [**GetAccessibilityExtractContent()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/getaccessibilityextractcontent/) option to control the content access in the converted PDF.
 
 ```cpp
 #include <iostream>

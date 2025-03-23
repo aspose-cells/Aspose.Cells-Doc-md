@@ -11,7 +11,7 @@ By default, Aspose.Cells saves all **visible** worksheets in a workbook to a PDF
 
 ## **Save Active Worksheet to PDF**
 
-If you want to only export the active sheet to PDF, you can achieve this by passing [**SheetSet.Active**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetset/active/) to [**PdfSaveOptions.GetSheetSet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getsheetset/) option.
+If you want to only export the active sheet to PDF, you can achieve this by passing [**SheetSet.GetActive()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetset/getactive/) to [**PdfSaveOptions.GetSheetSet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getsheetset/) option.
 
 The sheet `Sheet2` is the active sheet of the source file [sheetset-example.xlsx](sheetset-example.xlsx).
 
@@ -44,7 +44,7 @@ int main()
 
 ## **Save All Worksheets to PDF**
 
-[**SheetSet.Visible**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetset/visible/) indicates visible sheets in a workbook, and [**SheetSet.All**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetset/all/) indicates all sheets including both visible sheets and hidden/invisible sheets in a workbook. If you want to export all sheets to PDF, you can just pass [**SheetSet.All**](https://reference.aspose.com/cells/cpp/aspose.cells/rendering/sheetset/all/) to [**PdfSaveOptions.GetSheetSet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getsheetset/) option.
+[**SheetSet.GetVisible()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetset/getvisible/) indicates visible sheets in a workbook, and [**SheetSet.GetAll()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetset/getall/) indicates all sheets including both visible sheets and hidden/invisible sheets in a workbook. If you want to export all sheets to PDF, you can just pass [**SheetSet.GetAll**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetset/getall/) to [**PdfSaveOptions.GetSheetSet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getsheetset/) option.
 
 The source file [sheetset-example.xlsx](sheetset-example.xlsx) contains all four sheets with hidden sheet `Sheet3`.
 

@@ -9,7 +9,7 @@ description: Learn how to check if VBA Project is protected and locked for viewi
 
 ## Check if VBA Project is Protected and Locked for Viewing in C++
 
-Aspose.Cells allows you to check if the VBA (Visual Basic for Applications) Project of an Excel file is protected and locked for viewing. For this, the API provides the [**VbaProject.IslockedForViewing**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbaproject/islockedforviewing/) property. If it is locked for viewing, then the [**VbaProject.IslockedForViewing**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbaproject/islockedforviewing/) property returns **true**.
+Aspose.Cells allows you to check if the VBA (Visual Basic for Applications) Project of an Excel file is protected and locked for viewing. For this, the API provides the [**VbaProject.GetIslockedForViewing()**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbaproject/getislockedforviewing/) property. If it is locked for viewing, then the [**VbaProject.GetIslockedForViewing()**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbaproject/getislockedforviewing/) property returns **true**.
 
 ## **Sample Code**
 
