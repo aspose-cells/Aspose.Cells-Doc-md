@@ -23,7 +23,6 @@ The [**GlobalizationSettings**](https://reference.aspose.com/cells/cpp/aspose.ce
 The [**GlobalizationSettings**](https://reference.aspose.com/cells/cpp/aspose.cells/globalizationsettings/) class can be used to customize the Subtotal labels by overriding the [**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/cpp/aspose.cells/globalizationsettings/gettotalname/) & [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/cpp/aspose.cells/globalizationsettings/getgrandtotalname/) methods as demonstrated ahead.
 
 ```c++
-c++
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
 

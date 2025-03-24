@@ -20,7 +20,6 @@ The following code sample loads the [source Excel file](95584311.xlsx) and print
 ## **Sample Code**
 
 ```c++
-c++
 #include <iostream>
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;

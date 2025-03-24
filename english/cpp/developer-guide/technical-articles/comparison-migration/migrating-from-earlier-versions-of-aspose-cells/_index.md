@@ -7,8 +7,6 @@ url: /cpp/migrating-from-earlier-versions-of-aspose-cells/
 description: Guide to migrate from earlier versions of Aspose.Cells to C++.
 ---
 
-.
-
 When migrating from earlier versions of Aspose.Cells, you may encounter some changes in the APIs and behaviors from previous versions. Below are key considerations and steps to help you smoothly transition to the latest version of Aspose.Cells.
 
 ## **Breaking Changes**

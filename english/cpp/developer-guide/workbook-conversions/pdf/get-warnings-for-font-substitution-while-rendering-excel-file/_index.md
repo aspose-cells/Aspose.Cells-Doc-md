@@ -37,7 +37,6 @@ You can download the source Excel file and the output PDF from the following lin
 The following code implements the `IWarningCallback` and sets the `PdfSaveOptions.WarningCallback` property with the implemented interface. Now, whenever any font will be substituted in any cell, Aspose.Cells will fire a warning inside the `WarningCallback.Warning()` method.
 
 ```c++
-c++
 #include <iostream>
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;

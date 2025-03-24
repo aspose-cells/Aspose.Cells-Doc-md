@@ -38,7 +38,6 @@ The sample code will only work when you set the Aspose.Cells license. If you try
 Please note that commenting out these lines inside the code will break the links in Sheet1.html, and Sheet2.html or Sheet3.html will not open when their links are clicked inside Sheet1.html.
 
 ```c++
-c++
 #include <iostream>
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;

@@ -50,8 +50,6 @@ Developers can dynamically manage the document properties using the Aspose.Cells
 
 Aspose.Cells for C++ directly writes the information about API and Version Number in output documents. For example, upon rendering Document to PDF, Aspose.Cells for C++ populates **Application** field with value 'Aspose.Cells' and **PDF Producer** field with the value, e.g 'Aspose.Cells v17.9'.
 
-.
-
 {{% /alert %}}
 
 ### **How to Access Document Properties**
@@ -219,7 +217,6 @@ To create a custom property linked to the content of a given range, call the [**
 We use a simple template Microsoft Excel file in the example. The workbook has a defined named range labeled **MyRange** which refers to a cell value.
 
 ```c++
-c++
 #include <iostream>
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;

@@ -20,7 +20,6 @@ Aspose.Cells supports displaying the contents of a worksheet cell in an image sh
 ### Code Example
 
 ```c++
-c++
 #include <iostream>
 #include <vector>
 #include "Aspose.Cells.h"

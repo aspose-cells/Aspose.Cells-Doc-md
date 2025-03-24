@@ -16,7 +16,6 @@ Following sample code replaces tags TAG_1 and TAG_2 with some text say 'ys' and 
 [sampleReplaceTagWithText.xlsx](79527942.xlsx)
 
 ```c++
-c++
 #include <iostream>
 #include <vector>
 #include "Aspose.Cells.h"

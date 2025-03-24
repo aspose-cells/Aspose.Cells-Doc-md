@@ -23,7 +23,6 @@ The following sample code illustrates how to implement Errors and Boolean Value 
 ## **Sample Code**
 
 ```c++
-c++
 #include <iostream>
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;

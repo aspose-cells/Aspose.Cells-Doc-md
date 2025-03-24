@@ -18,7 +18,6 @@ You can access external data connection of any type using the Workbook.DataConne
 The following code shows how to work with external data connection of type **WebQuery**. It uses the [sample excel file](5112365.xlsx) which you can download from the provided link. You can also see the console output of this code further below.
 
 ```c++
-c++
 #include <iostream>
 #include "Aspose.Cells.h"
 

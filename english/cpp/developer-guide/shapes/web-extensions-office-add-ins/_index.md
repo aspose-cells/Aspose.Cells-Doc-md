@@ -71,7 +71,6 @@ Aspose.Cells provides the ability to access the information of Web Extensions in
 ### **Sample Code**
 
 ```c++
-c++
 #include <iostream>
 #include "Aspose.Cells.h"
 

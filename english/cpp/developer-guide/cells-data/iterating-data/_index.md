@@ -126,7 +126,6 @@ int main()
 The Columns can be accessed while using the [**ColumnCollection.Get**](https://reference.aspose.com/cells/cpp/aspose.cells/columncollection/get/) method. The following code example demonstrates the implementation of the Get method for [**ColumnCollection**](https://reference.aspose.com/cells/cpp/aspose.cells/columncollection/).
 
 ```c++
-c++
 #include <iostream>
 #include <memory>
 #include "Aspose.Cells.h"

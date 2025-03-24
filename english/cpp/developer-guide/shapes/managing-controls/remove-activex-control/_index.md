@@ -14,7 +14,6 @@ Aspose.Cells provides the ability to remove ActiveX Control from workbooks. For 
 ## **Sample Code**
 
 ```c++
-c++
 #include <iostream>
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;

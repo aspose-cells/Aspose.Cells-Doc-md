@@ -80,7 +80,6 @@ int main() {
 The implementation of the *DataObject* class is given below.
 
 ```c++
-c++
 #ifndef DATA_OBJECT_H
 #define DATA_OBJECT_H
 

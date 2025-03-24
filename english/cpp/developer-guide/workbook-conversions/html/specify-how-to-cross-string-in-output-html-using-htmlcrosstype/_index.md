@@ -28,7 +28,6 @@ The following sample code loads the [sample Excel file](51740732.xlsx) and saves
 ## **Sample Code**
 
 ```c++
-c++
 #include <iostream>
 #include <string>
 #include "Aspose.Cells.h"
