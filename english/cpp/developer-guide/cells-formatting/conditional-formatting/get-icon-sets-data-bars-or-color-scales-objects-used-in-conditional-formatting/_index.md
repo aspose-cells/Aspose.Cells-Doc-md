@@ -16,7 +16,7 @@ Sometimes, you need to retrieve icon sets that are used in the conditional forma
 
 The following code sample shows how to read icon sets that are used for conditional formatting. With Aspose.Cells' simple API, the icon set's image data is saved as an image.
 
-```c++
+```cpp
 #include <iostream>
 #include <fstream>
 #include "Aspose.Cells.h"
@@ -57,7 +57,7 @@ int main()
 
     // Create the image file based on the icon's image data
     ofstream outputFile((outDir + u"imgIcon.out.jpg").ToUtf8(), ios::binary);
-    outputFile.write(reinterpret_cast<const char*>(imageData.GetData()), imageData.GetCount());
+    outputFile.write(reinterpret_cast<const char*>(imageData.GetData()), imageData.GetLength());
     outputFile.close();
 
     std::cout << "Icon image saved successfully!" << std::endl;

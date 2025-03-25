@@ -50,7 +50,7 @@ The following code sample demonstrates the use of [**Comments.AddThreadedCommen
 
 #### **Sample Code**
 
-```c++
+```cpp
 #include <iostream>
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
@@ -67,10 +67,10 @@ int main()
 
     // Add Author
     int authorIndex = workbook.GetWorksheets().GetThreadedCommentAuthors().Add(u"Aspose Test", u"", u"");
-    ThreadedCommentAuthor author = workbook.GetWorksheets().GetThreadedCommentAuthors()[authorIndex];
+    ThreadedCommentAuthor author = workbook.GetWorksheets().GetThreadedCommentAuthors().Get(authorIndex);
 
     // Add Threaded Comment
-    workbook.GetWorksheets()[0].GetComments().AddThreadedComment(u"A1", u"Test Threaded Comment", author);
+    workbook.GetWorksheets().Get(0).GetComments().AddThreadedComment(u"A1", u"Test Threaded Comment", author);
 
     // Save the workbook
     workbook.Save(outDir + u"AddThreadedComments_out.xlsx");
@@ -301,9 +301,6 @@ int main()
 
     // Get the threaded comment authors collection
     ThreadedCommentAuthorCollection authors = workbook.GetWorksheets().GetThreadedCommentAuthors();
-
-    // Remove the author of the first comment in A1
-    authors.RemoveAt(authors.IndexOf(author));
 
     // Save the workbook
     workbook.Save(outDir + u"ThreadedCommentsSample_Out.xlsx");

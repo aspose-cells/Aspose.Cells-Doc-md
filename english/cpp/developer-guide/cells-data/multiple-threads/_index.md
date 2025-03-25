@@ -48,17 +48,23 @@ then the following message is displayed:
 
 Otherwise, the program runs without showing any message which means all values read from cells are correct.
 
-```c++
+```cpp
 #include <iostream>
 #include <thread>
 #include <random>
 #include <chrono>
+#include <string>
 #include "Aspose.Cells.h"
 
 using namespace Aspose::Cells;
 using namespace std;
 
 static Workbook testWorkbook;
+
+U16String IntToU16String(int value) {
+    wstring ws = to_wstring(value);
+    return U16String(reinterpret_cast<const char16_t*>(ws.c_str()));
+}
 
 void ThreadLoop()
 {
@@ -74,7 +80,7 @@ void ThreadLoop()
             int row = rowDist(gen);
             int col = colDist(gen);
             U16String s = testWorkbook.GetWorksheets().Get(0).GetCells().Get(row, col).GetStringValue();
-            U16String expected = U16String(u"R") + U16String::FromInt(row) + U16String(u"C") + U16String::FromInt(col);
+            U16String expected = U16String(u"R") + IntToU16String(row) + U16String(u"C") + IntToU16String(col);
             if (s != expected)
             {
                 cout << "This message will show up when cells read values are incorrect." << endl;
@@ -94,7 +100,7 @@ void TestMultiThreadingRead()
     {
         for (int col = 0; col < 100; col++)
         {
-            U16String value = U16String(u"R") + U16String::FromInt(row) + U16String(u"C") + U16String::FromInt(col);
+            U16String value = U16String(u"R") + IntToU16String(row) + U16String(u"C") + IntToU16String(col);
             testWorkbook.GetWorksheets().Get(0).GetCells().Get(row, col).SetValue(value);
         }
     }

@@ -25,12 +25,12 @@ using namespace Aspose::Cells;
 class TestPageSavingCallback : public IPageSavingCallback
 {
 public:
-    void PageStartSaving(const PageStartSavingArgs& args) override
+    void PageStartSaving(PageStartSavingArgs& args) override
     {
         std::cout << "Page " << args.GetPageIndex() + 1 << " is starting to save." << std::endl;
     }
 
-    void PageEndSaving(const PageEndSavingArgs& args) override
+    void PageEndSaving(PageEndSavingArgs& args) override
     {
         std::cout << "Page " << args.GetPageIndex() + 1 << " has been saved." << std::endl;
     }
@@ -40,29 +40,17 @@ int main()
 {
     Aspose::Cells::Startup();
 
-    // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-
-    // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
-
-    // Path of input excel file
     U16String inputFilePath = srcDir + u"PagesBook1.xlsx";
-
-    // Path of output PDF file
     U16String outputFilePath = outDir + u"DocumentConversionProgress.pdf";
 
-    // Create workbook
     Workbook workbook(inputFilePath);
-
-    // Create PDF save options
     PdfSaveOptions pdfSaveOptions;
 
-    // Set page saving callback
     TestPageSavingCallback callback;
     pdfSaveOptions.SetPageSavingCallback(&callback);
 
-    // Save the workbook as PDF
     workbook.Save(outputFilePath, pdfSaveOptions);
 
     std::cout << "Document conversion completed successfully!" << std::endl;

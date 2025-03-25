@@ -291,12 +291,9 @@ int main()
     // Get the Allow Edit Ranges
     ProtectedRangeCollection allowRanges = sheet.GetAllowEditRanges();
 
-    // Define ProtectedRange
-    ProtectedRange protectedRange;
-
-    // Create the range
+    // Create the range and get the ProtectedRange
     int idx = allowRanges.Add(u"r2", 1, 1, 3, 3);
-    protectedRange = allowRanges.Get(idx);
+    ProtectedRange protectedRange = allowRanges.Get(idx);
 
     // Specify the password
     protectedRange.SetPassword(u"123");

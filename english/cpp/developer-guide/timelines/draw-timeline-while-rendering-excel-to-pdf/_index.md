@@ -47,8 +47,7 @@ using namespace Aspose::Cells;
 
 int main() {
     // Load the sample Excel file
-    Workbook workbook; 
-    workbook.Open(u"input.xlsx");
+    Workbook workbook(u"input.xlsx");
 
     // Save the workbook as a PDF file
     workbook.Save(u"output.pdf", SaveFormat::Pdf);

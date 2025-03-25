@@ -97,65 +97,55 @@ int main()
 {
     Aspose::Cells::Startup();
 
-    // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-
-    // Path of input excel file
     U16String inputFilePath = srcDir + u"book1.xls";
 
-    // Create workbook
     Workbook workbook(inputFilePath);
-
-    // Accessing first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
 
-    // Iterate through all cells in the worksheet
-    for (int i = 0; i < worksheet.GetCells().GetCount(); ++i)
+    int maxRow = worksheet.GetCells().GetMaxDataRow();
+    int maxCol = worksheet.GetCells().GetMaxDataColumn();
+
+    for (int row = 0; row <= maxRow; row++)
     {
-        Cell cell = worksheet.GetCells().Get(i);
-
-        // Variables to store values of different data types
-        U16String stringValue;
-        double doubleValue = 0.0;
-        bool boolValue = false;
-        Date dateTimeValue;
-
-        // Passing the type of the data contained in the cell for evaluation
-        switch (cell.GetType())
+        for (int col = 0; col <= maxCol; col++)
         {
-            // Evaluating the data type of the cell data for string value
-            case CellValueType::IsString:
-                stringValue = cell.GetStringValue();
-                std::cout << "String Value: " << stringValue.ToUtf8() << std::endl;
-                break;
+            Cell cell = worksheet.GetCells().Get(row, col);
 
-            // Evaluating the data type of the cell data for double value
-            case CellValueType::IsNumeric:
-                doubleValue = cell.GetDoubleValue();
-                std::cout << "Double Value: " << doubleValue << std::endl;
-                break;
+            U16String stringValue;
+            double doubleValue = 0.0;
+            bool boolValue = false;
 
-            // Evaluating the data type of the cell data for boolean value
-            case CellValueType::IsBool:
-                boolValue = cell.GetBoolValue();
-                std::cout << "Bool Value: " << boolValue << std::endl;
-                break;
+            switch (cell.GetType())
+            {
+                case CellValueType::IsString:
+                    stringValue = cell.GetStringValue();
+                    std::cout << "String Value: " << stringValue.ToUtf8() << std::endl;
+                    break;
 
-            // Evaluating the data type of the cell data for date/time value
-            case CellValueType::IsDateTime:
-                dateTimeValue = cell.GetDateTimeValue();
-                std::cout << "DateTime Value: " << dateTimeValue.ToString().ToUtf8() << std::endl;
-                break;
+                case CellValueType::IsNumeric:
+                    doubleValue = cell.GetDoubleValue();
+                    std::cout << "Double Value: " << doubleValue << std::endl;
+                    break;
 
-            // Evaluating the unknown data type of the cell data
-            case CellValueType::IsUnknown:
-                stringValue = cell.GetStringValue();
-                std::cout << "Unknown Value: " << stringValue.ToUtf8() << std::endl;
-                break;
+                case CellValueType::IsBool:
+                    boolValue = cell.GetBoolValue();
+                    std::cout << "Bool Value: " << boolValue << std::endl;
+                    break;
 
-            // Terminating the type checking if the type of the cell data is null
-            case CellValueType::IsNull:
-                break;
+                case CellValueType::IsDateTime:
+                    stringValue = cell.GetStringValue();
+                    std::cout << "DateTime Value: " << stringValue.ToUtf8() << std::endl;
+                    break;
+
+                case CellValueType::IsUnknown:
+                    stringValue = cell.GetStringValue();
+                    std::cout << "Unknown Value: " << stringValue.ToUtf8() << std::endl;
+                    break;
+
+                case CellValueType::IsNull:
+                    break;
+            }
         }
     }
 

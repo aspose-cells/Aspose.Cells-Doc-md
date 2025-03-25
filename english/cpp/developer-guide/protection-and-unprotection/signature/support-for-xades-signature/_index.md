@@ -16,8 +16,10 @@ Aspose.Cells provides support for signing workbooks with XAdES Signature. For th
 
 The following code snippet demonstrates the use of the [**DigitalSignature**](https://reference.aspose.com/cells/cpp/aspose.cells.digitalsignatures/digitalsignature/) class to sign the [source](101089323.xlsx) workbook.
 
-```c++
+```cpp
 #include <iostream>
+#include <chrono>
+#include <ctime>
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::DigitalSignatures;
@@ -26,40 +28,31 @@ int main()
 {
     Aspose::Cells::Startup();
 
-    // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-
-    // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
-
-    // Create workbook
     Workbook workbook(srcDir + u"sourceFile.xlsx");
-
-    // Password for the PFX file
     U16String password(u"pfxPassword");
-
-    // Path to the PFX file
     U16String pfxFile(u"pfxFile");
-
-    // Read PFX file into a byte vector
     Vector<uint8_t> pfxData;
-    // Assuming a function to read file into byte vector exists
-    // pfxData = ReadFileToByteVector(pfxFile);
 
-    // Create digital signature
-    DigitalSignature signature(pfxData, password, u"testXAdES", Date::Now());
+    auto now = std::chrono::system_clock::now();
+    std::time_t now_time = std::chrono::system_clock::to_time_t(now);
+    std::tm local_tm;
+    localtime_s(&local_tm, &now_time);
 
-    // Set XAdES type
+    int year = local_tm.tm_year + 1900;
+    int month = local_tm.tm_mon + 1;
+    int day = local_tm.tm_mday;
+    int hour = local_tm.tm_hour;
+    int minute = local_tm.tm_min;
+    int second = local_tm.tm_sec;
+    auto ms = std::chrono::duration_cast<std::chrono::milliseconds>(now.time_since_epoch()) % 1000;
+
+    DigitalSignature signature(pfxData, password, u"testXAdES", Date{ year, month, day, hour, minute, second, static_cast<int>(ms.count()) });
     signature.SetXAdESType(XAdESType::XAdES);
-
-    // Create digital signature collection
     DigitalSignatureCollection dsCollection;
     dsCollection.Add(signature);
-
-    // Set digital signature to the workbook
     workbook.SetDigitalSignature(dsCollection);
-
-    // Save the workbook
     workbook.Save(outDir + u"XAdESSignatureSupport_out.xlsx");
 
     std::cout << "Digital signature added successfully!" << std::endl;

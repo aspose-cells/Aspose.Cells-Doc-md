@@ -14,7 +14,7 @@ Sometimes, the workbook contains external links which are hidden and cannot be v
 The following sample code loads the [source excel file](5115413.xlsx) which contains hidden external links. These links cannot be viewed in Microsoft Excel but they are present inside the workbook. After printing [ExternalLink.GetDataSource()](https://reference.aspose.com/cells/cpp/aspose.cells/externallink/getdatasource/) and [ExternalLink.IsReferred](https://reference.aspose.com/cells/cpp/aspose.cells/externallink/isreferred/) property, it prints the [ExternalLink.IsVisible](https://reference.aspose.com/cells/cpp/aspose.cells/externallink/isvisible/) property. In the console output below, you see, all of its external links are not visible.
 
 ### **Sample Code**
-```c++
+```cpp
 #include <iostream>
 #include "Aspose.Cells.h"
 
@@ -38,8 +38,7 @@ int main()
     {
         ExternalLink link = links.Get(i);
         std::cout << "Data Source: " << link.GetDataSource().ToUtf8() << std::endl;
-        std::cout << "Is Referred: " << (link.GetIsReferred() ? "true" : "false") << std::endl;
-        std::cout << "Is Visible: " << (link.GetIsVisible() ? "true" : "false") << std::endl;
+        std::cout << "Is Visible: " << (link.IsVisible() ? "true" : "false") << std::endl;
         std::cout << std::endl;
     }
 

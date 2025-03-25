@@ -21,7 +21,7 @@ The following sample code loads the [sample Excel file](55541781.xlsx) and rende
 
 ## **Sample Code**
 
-```c++
+```cpp
 #include <iostream>
 #include <string>
 #include "Aspose.Cells.h"
@@ -49,7 +49,9 @@ int main()
     for (int i = opts.GetPageIndex(); i < sr.GetPageCount(); i++)
     {
         std::wstring pageNum = std::to_wstring(i + 1);
-        U16String filePath = outDir + U16String(u"outputImage-") + U16String(pageNum.c_str()) + U16String(u".png");
+        U16String filePath = outDir + U16String(u"outputImage-") + 
+            U16String(reinterpret_cast<const char16_t*>(pageNum.c_str())) + 
+            U16String(u".png");
         sr.ToImage(i, filePath);
     }
 

@@ -26,7 +26,7 @@ The following screenshot shows the output Excel file and its contents which were
 
 ## **Sample Code**
 
-```c++
+```cpp
 #include <iostream>
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
@@ -69,7 +69,7 @@ int main()
         }
         else
         {
-            std::wcout << reinterpret_cast<const wchar_t*>(vbaItem.GetName().data()) << std::endl;
+            std::wcout << reinterpret_cast<const wchar_t*>(vbaItem.GetName().GetData()) << std::endl;
 
             int vbaMod = 0;
             Worksheet sheet = targetSheets.GetSheetByCodeName(vbaItem.GetName());

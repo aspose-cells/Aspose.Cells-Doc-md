@@ -18,7 +18,7 @@ Aspose.Cells allows you to remove existing printer settings specified for differ
 ![todo:image_alt_text](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
 
 ## **Sample Code**
-```c++
+```cpp
 #include <iostream>
 #include "Aspose.Cells.h"
 
@@ -28,45 +28,30 @@ int main()
 {
     Aspose::Cells::Startup();
 
-    // Source directory
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-
-    // Output directory
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Load source Excel file
     Workbook wb(srcDir + u"sampleRemoveExistingPrinterSettingsOfWorksheets.xlsx");
 
-    // Get the sheet counts of the workbook
     int sheetCount = wb.GetWorksheets().GetCount();
 
-    // Iterate all sheets
     for (int i = 0; i < sheetCount; i++)
     {
-        // Access the i-th worksheet
         Worksheet ws = wb.GetWorksheets().Get(i);
-
-        // Access worksheet page setup
         PageSetup ps = ws.GetPageSetup();
 
-        // Check if printer settings for this worksheet exist
-        if (ps.GetPrinterSettings().GetSize() != 0)
+        if (ps.GetPrinterSettings().GetLength() != 0)
         {
-            // Print the following message
             std::cout << "PrinterSettings of this worksheet exist." << std::endl;
-
-            // Print sheet name and its paper size
             std::cout << "Sheet Name: " << ws.GetName().ToUtf8() << std::endl;
             std::cout << "Paper Size: " << static_cast<int>(ps.GetPaperSize()) << std::endl;
 
-            // Remove the printer settings by setting them null
             ps.SetPrinterSettings(Vector<uint8_t>());
             std::cout << "Printer settings of this worksheet are now removed by setting it null." << std::endl;
             std::cout << std::endl;
         }
     }
 
-    // Save the workbook
     wb.Save(outDir + u"outputRemoveExistingPrinterSettingsOfWorksheets.xlsx");
 
     Aspose::Cells::Cleanup();

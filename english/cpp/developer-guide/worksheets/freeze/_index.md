@@ -33,7 +33,7 @@ It's simple to freeze panes with Aspose.Cells for C++. Please use the [**Workshe
 2. Freeze panes with the Worksheet.FreezePanes() method.
 3. Save the file.
 
-```c++
+```cpp
 #include <iostream>
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
@@ -48,7 +48,7 @@ int main()
 
     // Freeze panes at the cell B2
     WorksheetCollection sheets = workbook.GetWorksheets();
-    sheets[0].FreezePanes(u"B2", 1, 1);
+    sheets.Get(0).FreezePanes(u"B2", 1, 1);
 
     // Save the file
     U16String outputFilePath(u"frozen.xlsx");

@@ -17,7 +17,7 @@ Aspose.Cells allows you to export VBA Digital Certificate to a stream such as a 
 
 Please see the following sample code that saves the raw data of the VBA Certificate into a file. You can download the [sample excel file used in this code](5115031.xlsm) from the provided link.
 
-```c++
+```cpp
 #include <iostream>
 #include <fstream>
 #include "Aspose.Cells.h"
@@ -47,7 +47,7 @@ int main()
     std::ofstream outFile(outputFilePath.ToUtf8(), std::ios::binary);
     if (outFile.is_open())
     {
-        outFile.write(reinterpret_cast<const char*>(certBytes.data()), certBytes.size());
+        outFile.write(reinterpret_cast<const char*>(certBytes.GetData()), certBytes.GetLength());
         outFile.close();
     }
 

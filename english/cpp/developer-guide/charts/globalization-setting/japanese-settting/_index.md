@@ -20,7 +20,7 @@ In this topic, we will show you how to set Japanese Region for a chart.
 First step, you need to define a class `ChartJapaneseSettings` that inherits from [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chartglobalizationsettings/). 
 Then, by overriding the related functions, you can set the text of the chart elements in your own language.
 Code example:
-```c++
+```cpp
 #include <iostream>
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
@@ -33,7 +33,7 @@ public:
 
     U16String GetAxisTitleName() override
     {
-        return U16String(u"軸タイトル");
+        return U16String(u"\u8EF8\u30BF\u30A4\u30C8\u30EB");
     }
 
     U16String GetAxisUnitName(DisplayUnitType type) override
@@ -43,23 +43,23 @@ public:
         case DisplayUnitType::None:
             return U16String(u"");
         case DisplayUnitType::Hundreds:
-            return U16String(u"百");
+            return U16String(u"\u767E");
         case DisplayUnitType::Thousands:
-            return U16String(u"千");
+            return U16String(u"\u5343");
         case DisplayUnitType::TenThousands:
-            return U16String(u"万");
+            return U16String(u"\u4E07");
         case DisplayUnitType::HundredThousands:
-            return U16String(u"10万");
+            return U16String(u"\u0031\u0030\u4E07");
         case DisplayUnitType::Millions:
-            return U16String(u"百万");
+            return U16String(u"\u767E\u4E07");
         case DisplayUnitType::TenMillions:
-            return U16String(u"千万");
+            return U16String(u"\u5343\u4E07");
         case DisplayUnitType::HundredMillions:
-            return U16String(u"億");
+            return U16String(u"\u5104");
         case DisplayUnitType::Billions:
-            return U16String(u"10億");
+            return U16String(u"\u0031\u0030\u5104");
         case DisplayUnitType::Trillions:
-            return U16String(u"兆");
+            return U16String(u"\u5146");
         default:
             return U16String(u"");
         }
@@ -67,32 +67,32 @@ public:
 
     U16String GetChartTitleName() override
     {
-        return U16String(u"グラフ タイトル");
+        return U16String(u"\u30B0\u30E9\u30D5\u0020\u30BF\u30A4\u30C8\u30EB");
     }
 
     U16String GetLegendDecreaseName() override
     {
-        return U16String(u"削減");
+        return U16String(u"\u524A\u6E1B");
     }
 
     U16String GetLegendIncreaseName() override
     {
-        return U16String(u"ぞうか");
+        return U16String(u"\u305E\u3046\u304B");
     }
 
     U16String GetLegendTotalName() override
     {
-        return U16String(u"すべての");
+        return U16String(u"\u3059\u3079\u3066\u306E");
     }
 
     U16String GetOtherName() override
     {
-        return U16String(u"その他");
+        return U16String(u"\u305D\u306E\u4ED6");
     }
 
     U16String GetSeriesName() override
     {
-        return U16String(u"シリーズ");
+        return U16String(u"\u30B7\u30EA\u30FC\u30BA");
     }
 };
 ```

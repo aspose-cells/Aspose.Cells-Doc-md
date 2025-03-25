@@ -84,21 +84,25 @@ Preserve Formatting: False
 
 Aspose.Cells provides an option to read the address (i.e., result range of cells) for a query table. The following code demonstrates this feature by reading the address of the result range for a query table. The sample file can be downloaded [here](72417290.xlsx).
 
-```c++
+```cpp
 #include <iostream>
+#include <locale>
+#include <codecvt>
 #include "Aspose.Cells.h"
 
 using namespace Aspose::Cells;
+
+std::string convert_u16_to_string(const char16_t* data) {
+    std::wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t> converter;
+    return converter.to_bytes(data);
+}
 
 int main()
 {
     Aspose::Cells::Startup();
 
-    // Create workbook from source excel file
     Workbook wb(u"Query TXT.xlsx");
-
-    // Display the address(range) of result range of query table
-    std::cout << wb.GetWorksheets().Get(0).GetQueryTables().Get(0).GetResultRange().GetAddress() << std::endl;
+    std::cout << convert_u16_to_string(wb.GetWorksheets().Get(0).GetQueryTables().Get(0).GetResultRange().GetAddress().GetData()) << std::endl;
 
     Aspose::Cells::Cleanup();
 }

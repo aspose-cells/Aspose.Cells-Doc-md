@@ -125,7 +125,7 @@ int main()
 
 The Columns can be accessed while using the [**ColumnCollection.Get**](https://reference.aspose.com/cells/cpp/aspose.cells/columncollection/get/) method. The following code example demonstrates the implementation of the Get method for [**ColumnCollection**](https://reference.aspose.com/cells/cpp/aspose.cells/columncollection/).
 
-```c++
+```cpp
 #include <iostream>
 #include <memory>
 #include "Aspose.Cells.h"
@@ -139,7 +139,7 @@ int main()
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
     Workbook book(srcDir + u"sample.xlsx");
 
-    auto& cells = book.GetWorksheets().Get(0).GetCells();
+    auto cells = book.GetWorksheets().Get(0).GetCells();
     auto columns = cells.GetColumns();
 
     for (int i = 0; i < columns.GetCount(); ++i)

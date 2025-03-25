@@ -30,26 +30,17 @@ int main()
 {
     Aspose::Cells::Startup();
 
-    // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-
-    // Load your sample workbook which contains embedded PowerPoint ole object
     Workbook wb(srcDir + u"sample.xls");
-
-    // Access its first worksheet
     Worksheet ws = wb.GetWorksheets().Get(0);
-
-    // Access first ole object inside the worksheet
     OleObject oleObj = ws.GetOleObjects().Get(0);
 
-    // Convert 16-bytes array into GUID
     Vector<uint8_t> classIdentifier = oleObj.GetClassIdentifier();
     GUID guid;
-    memcpy(&guid, classIdentifier.data(), sizeof(GUID));
+    memcpy(&guid, classIdentifier.GetData(), sizeof(GUID));
 
-    // Print the GUID
     char guidStr[39];
-    snprintf(guidStr, sizeof(guidStr), "{%08X-%04X-%04X-%02X%02X-%02X%02X%02X%02X%02X%02X}",
+    snprintf(guidStr, sizeof(guidStr), "{%08X-%04X-%04X-%02X%02X-%02X%02X%02X%02X}",
              guid.Data1, guid.Data2, guid.Data3,
              guid.Data4[0], guid.Data4[1], guid.Data4[2], guid.Data4[3],
              guid.Data4[4], guid.Data4[5], guid.Data4[6], guid.Data4[7]);

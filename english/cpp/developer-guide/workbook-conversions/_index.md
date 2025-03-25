@@ -122,36 +122,24 @@ int main()
 {
     Aspose::Cells::Startup();
 
-    // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-
-    // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Open an Excel file
     U16String inputFilePath = srcDir + u"Book1.xls";
     Workbook workbook(inputFilePath);
 
-    // Get the first worksheet
     Worksheet sheet = workbook.GetWorksheets().Get(0);
 
-    // Apply different Image and Print options
     ImageOrPrintOptions options;
+    options.SetImageType(ImageType::Png);
 
-    // Set the Format
-    options.SetSaveFormat(SaveFormat::Xps);
-
-    // Render the sheet with respect to specified printing options
     SheetRender sr(sheet, options);
+    sr.ToImage(0, outDir + u"out_image.png");
 
-    // Save
-    sr.ToImage(0, outDir + u"out_printingxps.out.xps");
-
-    // Export the whole workbook to XPS
     XpsSaveOptions xpsOptions;
     workbook.Save(outDir + u"out_whole_printingxps.out.xps", xpsOptions);
 
-    std::cout << "XPS files created successfully!" << std::endl;
+    std::cout << "Files created successfully!" << std::endl;
 
     Aspose::Cells::Cleanup();
 }
@@ -296,31 +284,15 @@ int main()
 {
     Aspose::Cells::Startup();
 
-    // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-
-    // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
-
-    // Path of input excel file
     U16String filePath = srcDir + u"Book1.xlsx";
 
-    // Load a spreadsheet to be converted
     Workbook book(filePath);
-
-    // Create an instance of HtmlSaveOptions
     HtmlSaveOptions saveOptions(SaveFormat::Html);
 
-    // Set the ImageFormat to PNG
     saveOptions.GetImageOptions().SetImageType(ImageType::Png);
 
-    // Set SmoothingMode to AntiAlias
-    saveOptions.GetImageOptions().SetSmoothingMode(SmoothingMode::AntiAlias);
-
-    // Set TextRenderingHint to AntiAlias
-    saveOptions.GetImageOptions().SetTextRenderingHint(TextRenderingHint::AntiAlias);
-
-    // Save spreadsheet to HTML while passing object of HtmlSaveOptions
     book.Save(outDir + u"output.html", saveOptions);
 
     std::cout << "Spreadsheet converted to HTML successfully!" << std::endl;

@@ -60,6 +60,7 @@ int main()
 
 ```cpp
 #include <iostream>
+#include <algorithm>
 #include "Aspose.Cells.h"
 
 using namespace Aspose::Cells;
@@ -68,22 +69,21 @@ using namespace Aspose::Cells::Tables;
 
 void PrintTables(Workbook workbook, ExternalConnection ec)
 {
-    // Iterate all the worksheets
     for (int j = 0; j < workbook.GetWorksheets().GetCount(); j++)
     {
         Worksheet worksheet = workbook.GetWorksheets().Get(j);
 
-        // Check all the query tables in a worksheet
         for (int k = 0; k < worksheet.GetQueryTables().GetCount(); k++)
         {
             QueryTable qt = worksheet.GetQueryTables().Get(k);
 
-            // Check if query table is related to this external connection
             if (ec.GetId() == qt.GetConnectionId() && qt.GetConnectionId() >= 0)
             {
-                // Print the query table name and print its refersto range
                 std::cout << "querytable " << qt.GetName().ToUtf8() << std::endl;
-                U16String n = qt.GetName().Replace(u'+', u'_').Replace(u'=', u'_');
+                std::u16string nameStr = qt.GetName().GetData();
+                std::replace(nameStr.begin(), nameStr.end(), u'+', u'_');
+                std::replace(nameStr.begin(), nameStr.end(), u'=', u'_');
+                U16String n(nameStr.c_str());
                 Name name = workbook.GetWorksheets().GetNames().Get(U16String(u"'") + worksheet.GetName() + U16String(u"'!") + n);
                 if (name)
                 {
@@ -96,21 +96,16 @@ void PrintTables(Workbook workbook, ExternalConnection ec)
             }
         }
 
-        // Iterate all the list objects in this worksheet
         for (int k = 0; k < worksheet.GetListObjects().GetCount(); k++)
         {
             ListObject table = worksheet.GetListObjects().Get(k);
 
-            // Check the data source type if it is query table
             if (table.GetDataSourceType() == TableDataSourceType::QueryTable)
             {
-                // Access the query table related to list object
                 QueryTable qt = table.GetQueryTable();
 
-                // Check if query table is related to this external connection
                 if (ec.GetId() == qt.GetConnectionId() && qt.GetConnectionId() >= 0)
                 {
-                    // Print the query table name and print its refersto range
                     std::cout << "querytable " << qt.GetName().ToUtf8() << std::endl;
                     std::cout << "Table " << table.GetDisplayName().ToUtf8() << std::endl;
                     std::cout << "refersto: " << worksheet.GetName().ToUtf8() << "!" 

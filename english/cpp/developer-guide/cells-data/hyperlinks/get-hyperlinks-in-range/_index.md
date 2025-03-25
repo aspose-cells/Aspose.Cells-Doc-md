@@ -21,36 +21,22 @@ int main()
 {
     Aspose::Cells::Startup();
 
-    // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-
-    // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Instantiate a Workbook object and open an Excel file
     Workbook workbook(srcDir + u"HyperlinksSample.xlsx");
-
-    // Get the first (default) worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-
-    // Create a range A2:B3
     Range range = worksheet.GetCells().CreateRange(u"A2", u"B3");
-
-    // Get Hyperlinks in range
     Vector<Hyperlink> hyperlinks = range.GetHyperlinks();
 
-    // Iterate through hyperlinks and print their details
-    for (const Hyperlink& link : hyperlinks)
+    for (int i = 0; i < hyperlinks.GetLength(); ++i)
     {
+        Hyperlink& link = hyperlinks[i];
         std::cout << link.GetArea().ToString().ToUtf8() << " : " << link.GetAddress().ToUtf8() << std::endl;
-
-        // To delete the link, use the Hyperlink.Delete() method
         link.Delete();
     }
 
-    // Save the workbook
     workbook.Save(outDir + u"HyperlinksSample_out.xlsx");
-
     std::cout << "Hyperlinks processed successfully!" << std::endl;
 
     Aspose::Cells::Cleanup();

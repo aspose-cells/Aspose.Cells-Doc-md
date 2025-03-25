@@ -45,16 +45,10 @@ int main()
 {
     Aspose::Cells::Startup();
 
-    // Create the workbook
     Workbook workbook;
-
-    // Get the first worksheet
     Worksheet ws = workbook.GetWorksheets().Get(0);
-
-    // Access the cells
     Cells cells = ws.GetCells();
 
-    // Setting the value to the cells
     Cell cell = cells.Get(u"A1");
     cell.PutValue(u"Fruit");
     cell = cells.Get(u"B1");
@@ -89,16 +83,10 @@ int main()
     cell = cells.Get(u"C5");
     cell.PutValue(60);
 
-    // Access the worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-
     Cell a2 = worksheet.GetCells().Get(u"A2");
-
-    // Get style of A2
     Style style = a2.GetStyle();
-
-    // Change the format
-    style.GetFont().SetColor(Color::Red);
+    style.GetFont().SetColor(Color::Red());
     style.GetFont().SetIsBold(true);
 
     StyleFlag flag;
@@ -106,17 +94,12 @@ int main()
     a2.SetStyle(style, flag);
 
     Cell b3 = worksheet.GetCells().Get(u"B3");
-    // Get style of B3
     Style style2 = b3.GetStyle();
-
-    // Change the format
-    style2.GetFont().SetColor(Color::Blue);
+    style2.GetFont().SetColor(Color::Blue());
     style2.GetFont().SetIsItalic(true);
     b3.SetStyle(style2);
 
-    // Save the modified workbook
     workbook.Save(u"output.xlsx");
-
     Aspose::Cells::Cleanup();
 }
 ```

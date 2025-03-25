@@ -57,39 +57,28 @@ int main() {
 using namespace Aspose::Cells;
 using namespace std::chrono;
 
-void TestCalcTimeRecursive(bool rec)
-{
-    // Source directory path
+void TestCalcTimeRecursive(bool rec) {
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-
-    // Load your sample workbook
     Workbook wb(srcDir + u"sample.xlsx");
-
-    // Access first worksheet
     Worksheet ws = wb.GetWorksheets().Get(0);
-
-    // Set the calculation option, set recursive true or false as per parameter
     CalculationOptions opts;
     opts.SetRecursive(rec);
 
-    // Start stop watch
     auto start = high_resolution_clock::now();
-
-    // Calculate cell A1 one million times
-    for (int i = 0; i < 1000000; i++)
-    {
+    for (int i = 0; i < 1000000; i++) {
         ws.GetCells().Get(u"A1").Calculate(opts);
     }
-
-    // Stop the watch
     auto stop = high_resolution_clock::now();
 
-    // Calculate elapsed time in seconds
     auto duration = duration_cast<milliseconds>(stop - start);
     long estimatedTime = duration.count() / 1000;
-
-    // Print the elapsed time in seconds
     std::cout << "Recursive " << rec << ": " << estimatedTime << " seconds" << std::endl;
+}
+
+int main() {
+    TestCalcTimeRecursive(true);
+    TestCalcTimeRecursive(false);
+    return 0;
 }
 ```
 

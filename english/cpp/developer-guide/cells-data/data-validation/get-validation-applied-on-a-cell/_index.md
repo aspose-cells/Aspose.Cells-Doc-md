@@ -48,8 +48,8 @@ int main()
     // Read various properties of the validation
     std::cout << "Reading Properties of Validation" << std::endl;
     std::cout << "--------------------------------" << std::endl;
-    std::cout << "Type: " << validation.GetType() << std::endl;
-    std::cout << "Operator: " << validation.GetOperator() << std::endl;
+    std::cout << "Type: " << static_cast<int>(validation.GetType()) << std::endl;
+    std::cout << "Operator: " << static_cast<int>(validation.GetOperator()) << std::endl;
     std::cout << "Formula1: " << validation.GetFormula1().ToUtf8() << std::endl;
     std::cout << "Formula2: " << validation.GetFormula2().ToUtf8() << std::endl;
     std::cout << "Ignore blank: " << validation.GetIgnoreBlank() << std::endl;

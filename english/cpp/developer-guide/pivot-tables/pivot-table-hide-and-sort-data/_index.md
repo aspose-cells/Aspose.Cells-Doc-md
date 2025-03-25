@@ -34,7 +34,7 @@ int main()
     PivotTable pivotTable = worksheet.GetPivotTables().Get(0);
     CellArea dataBodyRange = pivotTable.GetDataBodyRange();
     int currentRow = 3;
-    int rowsUsed = dataBodyRange.GetEndRow();
+    int rowsUsed = dataBodyRange.EndRow;
 
     // Sorting score in descending order
     PivotField field = pivotTable.GetRowFields().Get(0);

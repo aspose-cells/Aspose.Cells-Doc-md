@@ -66,8 +66,9 @@ The [**SheetRender**](https://reference.aspose.com/cells/cpp/aspose.cells.render
 
 The following code snippet shows how to convert a worksheet in an Excel file to an image file.
 
-```c++
+```cpp
 #include <iostream>
+#include <string>
 #include "Aspose.Cells.h"
 
 using namespace Aspose::Cells;
@@ -92,7 +93,9 @@ int main()
     SheetRender sr(sheet, options);
     for (int j = 0; j < sr.GetPageCount(); j++)
     {
-        U16String outputPath = outDir + U16String(u"outputConvertWorksheetToImageByPage_") + Convert::ToString(j + 1) + U16String(u".tif");
+        std::wstring numStr = std::to_wstring(j + 1);
+        U16String numU16Str(reinterpret_cast<const char16_t*>(numStr.c_str()));
+        U16String outputPath = outDir + U16String(u"outputConvertWorksheetToImageByPage_") + numU16Str + U16String(u".tif");
         sr.ToImage(j, outputPath);
     }
 

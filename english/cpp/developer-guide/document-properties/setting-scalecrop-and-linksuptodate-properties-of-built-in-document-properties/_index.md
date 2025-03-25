@@ -41,12 +41,6 @@ int main()
     // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Create directory if it is not already present.
-    if (!System::IO::Directory::Exists(outDir))
-    {
-        System::IO::Directory::CreateDirectory(outDir);
-    }
-
     // Instantiating a Workbook object.
     Workbook workbook;
 

@@ -52,18 +52,10 @@ To open an existing workbook:
 
 int main()
 {
-    // Open an existing workbook
     Aspose::Cells::Workbook workbook("input.xlsx");
-
-    // Access the first worksheet
     auto worksheet = workbook.GetWorksheets().Get(0);
-
-    // Modify the worksheet
-    worksheet->GetCells()->Get(0, 0)->SetValue("Hello, World!");
-
-    // Save the workbook
+    worksheet.GetCells().Get(0, 0).SetValue("Hello, World!");
     workbook.Save("output.xlsx");
-
     return 0;
 }
 ```
@@ -130,18 +122,10 @@ To rename a worksheet:
 
 int main()
 {
-    // Open an existing workbook
     Aspose::Cells::Workbook workbook("input.xlsx");
-
-    // Access the first worksheet
     auto worksheet = workbook.GetWorksheets().Get(0);
-
-    // Rename the worksheet
-    worksheet->SetName("RenamedSheet");
-
-    // Save the workbook
+    worksheet.SetName("RenamedSheet");
     workbook.Save("output.xlsx");
-
     return 0;
 }
 ```

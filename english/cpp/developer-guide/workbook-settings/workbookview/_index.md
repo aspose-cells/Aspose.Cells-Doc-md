@@ -81,7 +81,7 @@ int main()
     // Apply style to cell E10
     cell = cells.Get(u"E10");
     Style temp = workbook.CreateStyle();
-    temp.GetFont().SetColor(Color::Red);
+    temp.GetFont().SetColor(Color::Red());
     cell.SetStyle(temp);
 
     // Hide horizontal and vertical scrollbars

@@ -89,16 +89,9 @@ int main()
     // Create workbook
     Workbook workbook;
 
-    // Simulate HttpResponse object (assuming it's a placeholder in the original code)
-    HttpResponse* Response = nullptr;
-
-    if (Response != nullptr)
-    {
-        // Save in Xlsx format
-        OoxmlSaveOptions saveOptions;
-        workbook.Save(*Response, outputFilePath, ContentDisposition::Attachment, saveOptions);
-        Response->End();
-    }
+    // Save in Xlsx format
+    OoxmlSaveOptions saveOptions;
+    workbook.Save(outputFilePath, saveOptions);
 
     Aspose::Cells::Cleanup();
     return 0;

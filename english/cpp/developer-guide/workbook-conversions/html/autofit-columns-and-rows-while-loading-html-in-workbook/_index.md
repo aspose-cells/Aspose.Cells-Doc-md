@@ -19,7 +19,7 @@ The following sample code first loads the sample HTML into Workbook without any 
 
 ## **Sample Code**
 
-```c++
+```cpp
 #include <iostream>
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
@@ -38,7 +38,9 @@ int main()
     U16String sampleHtml(u"<html><body><table><tr><td>This is sample text.</td><td>Some text.</td></tr><tr><td>This is another sample text.</td><td>Some text.</td></tr></table></body></html>");
 
     // Convert HTML string to memory stream
-    Vector<uint8_t> ms = sampleHtml.ToUtf8();
+    std::string utf8Data = sampleHtml.ToUtf8();
+    Vector<uint8_t> ms(utf8Data.size());
+    std::memcpy(ms.GetData(), utf8Data.data(), utf8Data.size());
 
     // Load memory stream into workbook
     Workbook wb(ms);

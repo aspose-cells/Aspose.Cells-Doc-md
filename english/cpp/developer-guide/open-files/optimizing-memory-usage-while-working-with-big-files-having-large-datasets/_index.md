@@ -63,12 +63,6 @@ int main()
 {
     Aspose::Cells::Startup();
 
-    // Source directory path
-    U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-
-    // Output directory path
-    U16String outDir(u"..\\Data\\02_OutputDirectory\\");
-
     // Instantiate a new Workbook
     Workbook wb;
 
@@ -94,6 +88,7 @@ int main()
     // .........
 
     Aspose::Cells::Cleanup();
+    return 0;
 }
 ```
 

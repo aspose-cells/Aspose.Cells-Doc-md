@@ -43,43 +43,29 @@ Following is the code used by the component to accomplish the task. It converts 
 
 ```cpp
 #include <iostream>
+#include <fstream>
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Drawing;
+
+std::string convert_u16_to_string(const U16String& u16str);
 
 int main()
 {
     Aspose::Cells::Startup();
 
-    // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-
-    // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Open a template excel file
     Workbook book(srcDir + u"sampleConvertWorksheettoImageFile.xlsx");
-
-    // Get the first worksheet
     Worksheet sheet = book.GetWorksheets().Get(0);
 
-    // Define ImageOrPrintOptions
     ImageOrPrintOptions imgOptions;
     imgOptions.SetOnePagePerSheet(true);
-
-    // Specify the image format
     imgOptions.SetImageType(ImageType::Jpeg);
 
-    // Render the sheet with respect to specified image/print options
     SheetRender sr(sheet, imgOptions);
-
-    // Render the image for the sheet
-    Vector<uint8_t> imageData = sr.ToImage(0);
-
-    // Save the image file
-    std::ofstream outFile(outDir + u"outputConvertWorksheettoImageFile.jpg", std::ios::binary);
-    outFile.write(reinterpret_cast<const char*>(imageData.data()), imageData.size());
-    outFile.close();
+    sr.ToImage(0, outDir + u"outputConvertWorksheettoImageFile.jpg");
 
     std::cout << "Worksheet converted to image successfully!" << std::endl;
 
@@ -99,14 +85,28 @@ Now, convert the template file's worksheet Sheet1 to image files (one file per p
 
 Following is the code used by the component to accomplish the task. It converts Sheet1 in Testbook2.xlsx to image files by page.
 
-```c++
+```cpp
 #include <iostream>
 #include <string>
+#include <sstream>
 #include "Aspose.Cells.h"
 
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Drawing;
 using namespace Aspose::Cells::Rendering;
+
+std::u16string intToU16String(int value) {
+    std::u16string result;
+    if (value == 0) {
+        result.push_back(u'0');
+        return result;
+    }
+    while (value > 0) {
+        result.insert(result.begin(), static_cast<char16_t>(u'0' + (value % 10)));
+        value /= 10;
+    }
+    return result;
+}
 
 int main()
 {
@@ -127,7 +127,7 @@ int main()
     SheetRender sr(sheet, options);
     for (int j = 0; j < sr.GetPageCount(); j++)
     {
-        std::wstring pageNum = std::to_wstring(j + 1);
+        std::u16string pageNum = intToU16String(j + 1);
         U16String fileName = outDir + U16String(u"outputConvertWorksheetToImageByPage_") + U16String(pageNum.c_str()) + U16String(u".tif");
         sr.ToImage(j, fileName);
     }

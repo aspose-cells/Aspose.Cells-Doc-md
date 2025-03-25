@@ -21,7 +21,7 @@ Aspose.Cells API provides the ability to update Power Query Formula Items. The f
 
 ## **Sample Code**
 
-```c++
+```cpp
 #include <iostream>
 #include "Aspose.Cells.h"
 
@@ -31,37 +31,29 @@ int main()
 {
     Aspose::Cells::Startup();
 
-    // Source and output directories
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Load the workbook
     Workbook workbook(srcDir + u"SamplePowerQueryFormula.xlsx");
-
-    // Get the DataMashup object
     DataMashup mashupData = workbook.GetDataMashup();
 
-    // Iterate through PowerQueryFormulas
-    auto powerQueryFormulas = mashupData.GetPowerQueryFormulas();
-    for (auto& formula : powerQueryFormulas)
+    PowerQueryFormulaCollection powerQueryFormulas = mashupData.GetPowerQueryFormulas();
+    for (int i = 0; i < powerQueryFormulas.GetCount(); ++i)
     {
-        // Iterate through PowerQueryFormulaItems
-        auto powerQueryFormulaItems = formula.GetPowerQueryFormulaItems();
-        for (auto& item : powerQueryFormulaItems)
+        PowerQueryFormula formula = powerQueryFormulas.Get(i);
+        PowerQueryFormulaItemCollection powerQueryFormulaItems = formula.GetPowerQueryFormulaItems();
+        for (int j = 0; j < powerQueryFormulaItems.GetCount(); ++j)
         {
-            // Check if the item name is "Source"
+            PowerQueryFormulaItem item = powerQueryFormulaItems.Get(j);
             if (item.GetName() == u"Source")
             {
-                // Update the item value
                 U16String newValue = u"Excel.Workbook(File.Contents(\"" + srcDir + u"SamplePowerQueryFormulaSource.xlsx" + u"\"), null, true)";
                 item.SetValue(newValue);
             }
         }
     }
 
-    // Save the output workbook
     workbook.Save(outDir + u"SamplePowerQueryFormula_out.xlsx");
-
     std::cout << "PowerQueryFormula updated successfully!" << std::endl;
 
     Aspose::Cells::Cleanup();

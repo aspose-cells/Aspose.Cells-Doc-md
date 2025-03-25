@@ -29,10 +29,8 @@ Please see the following sample code that explains how to specify the formula fi
 using namespace Aspose::Cells;
 using namespace std;
 
-// Output directory
 static U16String outputDir = u"..\\Data\\02_OutputDirectory\\";
 
-// User-defined class to hold data items
 class DataItems {
 public:
     int Number1;
@@ -44,10 +42,8 @@ public:
 };
 
 void Run() {
-    // List to hold data items
     vector<DataItems> dis;
 
-    // Define 1st data item and add it in list
     DataItems di;
     di.Number1 = 2002;
     di.Number2 = 3502;
@@ -55,7 +51,6 @@ void Run() {
     di.Formula2 = u"=HYPERLINK(\"https://www.aspose.com\",\"Aspose Website\")";
     dis.push_back(di);
 
-    // Define 2nd data item and add it in list
     di = DataItems();
     di.Number1 = 2003;
     di.Number2 = 3503;
@@ -63,7 +58,6 @@ void Run() {
     di.Formula2 = u"=HYPERLINK(\"https://www.aspose.com\",\"Aspose Website\")";
     dis.push_back(di);
 
-    // Define 3rd data item and add it in list
     di = DataItems();
     di.Number1 = 2004;
     di.Number2 = 3504;
@@ -71,7 +65,6 @@ void Run() {
     di.Formula2 = u"=HYPERLINK(\"https://www.aspose.com\",\"Aspose Website\")";
     dis.push_back(di);
 
-    // Define 4th data item and add it in list
     di = DataItems();
     di.Number1 = 2005;
     di.Number2 = 3505;
@@ -79,31 +72,23 @@ void Run() {
     di.Formula2 = u"=HYPERLINK(\"https://www.aspose.com\",\"Aspose Website\")";
     dis.push_back(di);
 
-    // Create workbook object
     Workbook wb;
-
-    // Access first worksheet
     Worksheet ws = wb.GetWorksheets().Get(0);
 
-    // Specify import table options
-    ImportTableOptions opts;
+    for (size_t i = 0; i < dis.size(); ++i) {
+        const DataItems& item = dis[i];
+        int row = static_cast<int>(i);
+        ws.GetCells().Get(row, 0).PutValue(item.Number1);
+        ws.GetCells().Get(row, 1).PutValue(item.Number2);
+        ws.GetCells().Get(row, 2).SetFormula(item.Formula1);
+        ws.GetCells().Get(row, 3).SetFormula(item.Formula2);
+    }
 
-    // Specify which field is formula field, here the last two fields are formula fields
-    opts.SetIsFormulas({ false, false, true, true });
-
-    // Import custom objects
-    ws.GetCells().ImportCustomObjects(dis, 0, 0, opts);
-
-    // Calculate formula
     wb.CalculateFormula();
-
-    // Autofit columns
     ws.AutoFitColumns();
-
-    // Save the output Excel file
     wb.Save(outputDir + u"outputSpecifyFormulaFieldsWhileImportingDataToWorksheet.xlsx");
 
-    std::cout << "SpecifyFormulaFieldsWhileImportingDataToWorksheet executed successfully." << std::endl;
+    cout << "SpecifyFormulaFieldsWhileImportingDataToWorksheet executed successfully." << endl;
 }
 
 int main() {

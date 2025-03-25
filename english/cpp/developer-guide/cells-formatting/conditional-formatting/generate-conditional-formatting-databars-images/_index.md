@@ -27,40 +27,27 @@ int main()
 {
     Aspose::Cells::Startup();
 
-    // Source directory
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-
-    // Output directory
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Create workbook object from source excel file
     Workbook workbook(srcDir + u"sampleGenerateDatabarImage.xlsx");
-
-    // Access first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-
-    // Access the cell which contains conditional formatting databar
     Cell cell = worksheet.GetCells().Get(u"C1");
 
-    // Create and get the conditional formatting of the worksheet
     int idx = worksheet.GetConditionalFormattings().Add();
     FormatConditionCollection fcc = worksheet.GetConditionalFormattings().Get(idx);
     fcc.AddCondition(FormatConditionType::DataBar);
     fcc.AddArea(CellArea::CreateCellArea(u"C1", u"C4"));
 
-    // Access the conditional formatting databar
     DataBar dbar = fcc.Get(0).GetDataBar();
 
-    // Create image or print options
     ImageOrPrintOptions opts;
     opts.SetImageType(ImageType::Png);
 
-    // Get the image bytes of the databar
     Vector<uint8_t> imgBytes = dbar.ToImage(cell, opts);
 
-    // Write image bytes on the disk
     std::ofstream outFile((outDir + u"outputGenerateDatabarImage.png").ToUtf8(), std::ios::binary);
-    outFile.write(reinterpret_cast<const char*>(imgBytes.data()), imgBytes.size());
+    outFile.write(reinterpret_cast<const char*>(imgBytes.GetData()), imgBytes.GetLength());
     outFile.close();
 
     Aspose::Cells::Cleanup();

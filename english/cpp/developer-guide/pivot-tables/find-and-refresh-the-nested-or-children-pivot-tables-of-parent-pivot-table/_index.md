@@ -42,11 +42,11 @@ int main()
     Vector<PivotTable> ptChildren = ptParent.GetChildren();
 
     // Refresh all the children pivot table
-    int count = ptChildren.get_Count();
+    int count = ptChildren.GetLength();
     for (int idx = 0; idx < count; idx++)
     {
         // Access the child pivot table
-        PivotTable ptChild = ptChildren.get_Item(idx);
+        PivotTable ptChild = ptChildren[idx];
 
         // Refresh the child pivot table
         ptChild.RefreshData();

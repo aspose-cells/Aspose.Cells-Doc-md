@@ -53,17 +53,12 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Drawing;
 
 void SetTextOrientation() {
-    // Load the Excel file
     Workbook workbook("example.xlsx");
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
 
-    // Access the shape
-    Shape shape = worksheet.GetShapes().Get(0);
+    TextBox textbox = worksheet.GetTextBoxes().Get(0);
+    textbox.SetTextOrientationType(TextOrientationType::ClockWise);
 
-    // Set text orientation
-    shape.SetTextOrientation(TextOrientationType::Clockwise);
-
-    // Save the workbook
     workbook.Save("output.xlsx");
 }
 ```
@@ -90,7 +85,7 @@ void FormatText() {
 
     // Set font properties
     font.SetSize(14);
-    font.SetColor(Color::GetRed());
+    font.SetColor(Color::Red());
     font.SetBold(true);
 
     // Save the workbook

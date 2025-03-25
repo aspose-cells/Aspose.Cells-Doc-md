@@ -85,7 +85,7 @@ int main() {
 
     Range range = worksheet.GetCells().CreateRange(u"A1:C3");
     Style style = workbook.CreateStyle();
-    style.GetFont().SetColor(Color::GetRed());
+    style.GetFont().SetColor(Color::Red());
     style.GetFont().SetIsBold(true);
 
     StyleFlag flag;
@@ -94,7 +94,7 @@ int main() {
 
     Range range2 = worksheet.GetCells().CreateRange(u"A4:C5");
     Style style2 = workbook.CreateStyle();
-    style2.GetFont().SetColor(Color::GetBlue());
+    style2.GetFont().SetColor(Color::Blue());
     style2.GetFont().SetIsItalic(true);
     range2.SetStyle(style2);
 

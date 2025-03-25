@@ -49,17 +49,10 @@ You can set the page orientation to either portrait or landscape using the `Page
 using namespace Aspose::Cells;
 
 void SetPageOrientation() {
-    // Create a new workbook
     Workbook workbook;
-
-    // Access the first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-
-    // Set page orientation to landscape
     PageSetup pageSetup = worksheet.GetPageSetup();
-    pageSetup.SetOrientation(PageOrientationType_Landscape);
-
-    // Save the workbook
+    pageSetup.SetOrientation(PageOrientationType::Landscape);
     workbook.Save("PageOrientation.xlsx");
 }
 ```
@@ -74,17 +67,10 @@ You can set the paper size for printing using the `PageSetup` class. The followi
 using namespace Aspose::Cells;
 
 void SetPaperSize() {
-    // Create a new workbook
     Workbook workbook;
-
-    // Access the first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-
-    // Set paper size to A4
     PageSetup pageSetup = worksheet.GetPageSetup();
-    pageSetup.SetPaperSize(PaperSizeType_A4);
-
-    // Save the workbook
+    pageSetup.SetPaperSize(PaperSizeType::PaperA4);
     workbook.Save("PaperSize.xlsx");
 }
 ```
@@ -225,17 +211,10 @@ You can set the print order for a worksheet using the `PageSetup` class. The fol
 using namespace Aspose::Cells;
 
 void SetPrintOrder() {
-    // Create a new workbook
     Workbook workbook;
-
-    // Access the first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-
-    // Set print order
     PageSetup pageSetup = worksheet.GetPageSetup();
-    pageSetup.SetOrder(PrintOrderType_OverThenDown);
-
-    // Save the workbook
+    pageSetup.SetOrder(PrintOrderType::OverThenDown);
     workbook.Save("PrintOrder.xlsx");
 }
 ```
@@ -325,17 +304,10 @@ You can control whether the worksheet is printed in draft quality using the `Pag
 using namespace Aspose::Cells;
 
 void SetPrintDraft() {
-    // Create a new workbook
     Workbook workbook;
-
-    // Access the first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-
-    // Enable draft quality printing
     PageSetup pageSetup = worksheet.GetPageSetup();
-    pageSetup.SetDraft(true);
-
-    // Save the workbook
+    pageSetup.SetPrintDraft(true);
     workbook.Save("PrintDraft.xlsx");
 }
 ```
@@ -350,17 +322,10 @@ You can control whether comments are printed using the `PageSetup` class. The fo
 using namespace Aspose::Cells;
 
 void SetPrintComments() {
-    // Create a new workbook
     Workbook workbook;
-
-    // Access the first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-
-    // Enable printing of comments
     PageSetup pageSetup = worksheet.GetPageSetup();
-    pageSetup.SetPrintComments(PrintCommentsType_AsDisplayed);
-
-    // Save the workbook
+    pageSetup.SetPrintComments(PrintCommentsType::PrintInPlace);
     workbook.Save("PrintComments.xlsx");
 }
 ```
@@ -375,17 +340,10 @@ You can control how errors are printed using the `PageSetup` class. The followin
 using namespace Aspose::Cells;
 
 void SetPrintErrors() {
-    // Create a new workbook
     Workbook workbook;
-
-    // Access the first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-
-    // Set error printing option
     PageSetup pageSetup = worksheet.GetPageSetup();
-    pageSetup.SetPrintErrors(PrintErrorsType_Blank);
-
-    // Save the workbook
+    pageSetup.SetPrintErrors(PrintErrorsType::PrintErrorsBlank);
     workbook.Save("PrintErrors.xlsx");
 }
 ```
@@ -501,18 +459,11 @@ You can control whether the page number is printed using the `PageSetup` class. 
 
 using namespace Aspose::Cells;
 
-void SetPrintPageNumber() {
-    // Create a new workbook
+void SetPrintPrintPageNumber() {
     Workbook workbook;
-
-    // Access the first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-
-    // Enable printing of the page number
     PageSetup pageSetup = worksheet.GetPageSetup();
-    pageSetup.SetPrintPageNumber(true);
-
-    // Save the workbook
+    pageSetup.SetHeader(0, "&P");
     workbook.Save("PrintPageNumber.xlsx");
 }
 ```

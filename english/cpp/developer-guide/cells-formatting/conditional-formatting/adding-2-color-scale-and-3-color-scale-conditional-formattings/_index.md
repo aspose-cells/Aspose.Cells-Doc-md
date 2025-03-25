@@ -43,8 +43,9 @@ int main()
 
     for (int i = 2; i <= 15; i++)
     {
-        worksheet.GetCells().Get(U16String(u"A") + U16String::FromInt(i)).PutValue(i);
-        worksheet.GetCells().Get(U16String(u"D") + U16String::FromInt(i)).PutValue(i);
+        int row = i - 1;
+        worksheet.GetCells().Get(row, 0).PutValue(i); // Column A (0)
+        worksheet.GetCells().Get(row, 3).PutValue(i); // Column D (3)
     }
 
     // Adding 2-Color Scale Conditional Formatting
@@ -57,8 +58,8 @@ int main()
 
     FormatCondition fc = worksheet.GetConditionalFormattings().Get(idx).Get(0);
     fc.GetColorScale().SetIs3ColorScale(false);
-    fc.GetColorScale().SetMaxColor(Color::LightBlue);
-    fc.GetColorScale().SetMinColor(Color::LightGreen);
+    fc.GetColorScale().SetMaxColor(Color::LightBlue());
+    fc.GetColorScale().SetMinColor(Color::LightGreen());
 
     // Adding 3-Color Scale Conditional Formatting
     ca = CellArea::CreateCellArea(u"D2", u"D15");
@@ -70,9 +71,9 @@ int main()
 
     fc = worksheet.GetConditionalFormattings().Get(idx).Get(0);
     fc.GetColorScale().SetIs3ColorScale(true);
-    fc.GetColorScale().SetMaxColor(Color::LightBlue);
-    fc.GetColorScale().SetMidColor(Color::Yellow);
-    fc.GetColorScale().SetMinColor(Color::LightGreen);
+    fc.GetColorScale().SetMaxColor(Color::LightBlue());
+    fc.GetColorScale().SetMidColor(Color::Yellow());
+    fc.GetColorScale().SetMinColor(Color::LightGreen());
 
     // Save the workbook
     workbook.Save(outDir + u"output_out.xlsx");

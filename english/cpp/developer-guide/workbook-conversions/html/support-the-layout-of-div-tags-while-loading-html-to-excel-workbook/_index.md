@@ -20,20 +20,29 @@ The following sample code illustrates the usage of the [GetSupportDivTag()](http
 #include <memory>
 #include <vector>
 #include <string>
+#include <fstream>
+#include <codecvt>
+#include <locale>
 #include "Aspose.Cells.h"
 
 using namespace Aspose::Cells;
+
+std::string convert_u16_to_string(const char16_t* data) {
+    std::wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t> converter;
+    return converter.to_bytes(data);
+}
 
 int main()
 {
     Aspose::Cells::Startup();
 
-    // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
 
-    // HTML content to be exported
     U16String export_html = uR"(
         <html>
+        <head>
+            <meta charset="UTF-8">
+        </head>
         <body>
             <table>
                 <tr>
@@ -63,22 +72,21 @@ int main()
         </body>
         </html>)";
 
-    // Convert HTML string to UTF-8 encoded bytes
-    std::vector<uint8_t> htmlBytes(export_html.begin(), export_html.end());
+    std::string html_utf8 = convert_u16_to_string(export_html.GetData());
+    U16String tempHtmlPath = srcDir + u"temp.html";
+    std::ofstream tempFile(convert_u16_to_string(tempHtmlPath.GetData()).c_str(), std::ios::binary);
+    tempFile.write(html_utf8.data(), html_utf8.size());
+    tempFile.close();
 
-    // Specify HTML load options, support div tag layouts
-    HtmlLoadOptions loadOptions(LoadFormat::Html);
+    HtmlLoadOptions loadOptions;
     loadOptions.SetSupportDivTag(true);
 
-    // Create workbook object from the html using load options
-    Workbook wb(htmlBytes, loadOptions);
+    Workbook wb(tempHtmlPath, loadOptions);
 
-    // Auto fit rows and columns of first worksheet
     Worksheet ws = wb.GetWorksheets().Get(0);
     ws.AutoFitRows();
     ws.AutoFitColumns();
 
-    // Save the workbook in xlsx format
     U16String outputPath = srcDir + u"DivTagsLayout_out.xlsx";
     wb.Save(outputPath, SaveFormat::Xlsx);
 

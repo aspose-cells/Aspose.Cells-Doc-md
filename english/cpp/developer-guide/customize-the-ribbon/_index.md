@@ -20,10 +20,12 @@ If you want to change the Ribbon XML, you have to parse it with an XML parser or
 
 {{% /alert %}} 
 
-```c++
+```cpp
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <codecvt>
+#include <locale>
 #include "Aspose.Cells.h"
 
 using namespace Aspose::Cells;
@@ -32,13 +34,10 @@ int main()
 {
     Aspose::Cells::Startup();
 
-    // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
 
-    // Create workbook
     Workbook wb(srcDir + u"aspose-sample.xlsx");
 
-    // Open CustomUI.xml file
     std::ifstream file((srcDir + u"CustomUI.xml").ToUtf8());
     if (!file.is_open())
     {
@@ -46,12 +45,14 @@ int main()
         return -1;
     }
 
-    // Read the entire content of the file
     std::string ribbonXml((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
     file.close();
 
-    // Set the Ribbon XML to the workbook
-    wb.SetRibbonXml(U16String::FromUtf8(ribbonXml));
+    std::wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t> converter;
+    std::u16string utf16Xml = converter.from_bytes(ribbonXml);
+    U16String xmlStr(reinterpret_cast<const char16_t*>(utf16Xml.c_str()));
+
+    wb.SetRibbonXml(xmlStr);
 
     std::cout << "Ribbon XML set successfully!" << std::endl;
 

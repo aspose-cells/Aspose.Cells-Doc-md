@@ -17,7 +17,7 @@ The sample source file can be downloaded from the following link:
 
 ## **Sample Code**
 
-```c++
+```cpp
 #include <iostream>
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
@@ -50,9 +50,9 @@ int main()
                 GroupShape smartArtGroup = shape.GetResultOfSmartArt();
                 auto groupedShapes = smartArtGroup.GetGroupedShapes();
 
-                for (int k = 0; k < groupedShapes.GetCount(); ++k)
+                for (int k = 0; k < groupedShapes.GetLength(); ++k)
                 {
-                    Shape smartArtShape = groupedShapes.Get(k);
+                    Shape smartArtShape = groupedShapes[k];
                     smartArtShape.SetText(u"ReplacedText");
                 }
             }
