@@ -17,7 +17,7 @@ You can access external data connection of any type using the Workbook.DataConne
 
 The following code shows how to work with external data connection of type **WebQuery**. It uses the [sample excel file](5112365.xlsx) which you can download from the provided link. You can also see the console output of this code further below.
 
-```c++
+```cpp
 #include <iostream>
 #include "Aspose.Cells.h"
 
@@ -38,16 +38,16 @@ int main()
     Workbook workbook(inputFilePath);
 
     // Get the first external connection from the workbook
-    ExternalConnection* connection = workbook.GetDataConnections().Get(0);
+    ExternalConnection connection = workbook.GetDataConnections().Get(0);
 
     // Check if the connection is a WebQueryConnection
-    if (connection->GetClassType() == ExternalConnectionClassType::WebQueryConnection)
+    if (connection.GetClassType() == ExternalConnectionClassType::WebQuery)
     {
         // Cast to WebQueryConnection
-        WebQueryConnection* webQuery = static_cast<WebQueryConnection*>(connection);
+        WebQueryConnection webQuery(connection);
 
         // Print the URL of the web query
-        std::cout << "Web Query URL: " << webQuery->GetUrl().ToUtf8() << std::endl;
+        std::cout << "Web Query URL: " << webQuery.GetUrl().ToUtf8() << std::endl;
     }
 
     Aspose::Cells::Cleanup();

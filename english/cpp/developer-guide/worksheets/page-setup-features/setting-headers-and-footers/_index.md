@@ -148,8 +148,11 @@ int main()
         // Creating a PageSetup object to get the page settings of the first worksheet of the workbook
         PageSetup pageSetup = workbook.GetWorksheets().Get(0).GetPageSetup();
 
+        // Convert std::vector to Aspose::Cells::Vector
+        Aspose::Cells::Vector<uint8_t> asposeBinaryData(binaryData.data(), static_cast<int32_t>(binaryData.size()));
+
         // Setting the logo/picture in the central section of the page header
-        pageSetup.SetHeaderPicture(1, binaryData);
+        pageSetup.SetHeaderPicture(1, asposeBinaryData);
 
         // Setting the script for the logo/picture
         pageSetup.SetHeader(1, u"&G");

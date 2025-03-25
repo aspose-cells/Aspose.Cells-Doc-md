@@ -127,8 +127,37 @@ Aspose.Cells provides the [**OdsPageBackground**](https://reference.aspose.com/c
 
 ```cpp
 #include <iostream>
+#include <fstream>
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+
+Vector<uint8_t> GetDataFromFile(const U16String& file)
+{
+    std::string f = file.ToUtf8();
+    // open a file 
+    std::ifstream fileStream(f, std::ios::binary);
+
+    if (!fileStream.is_open()) {
+        std::cerr << "Failed to open the file." << std::endl;
+        return 1;
+    }
+
+    // Get file size
+    fileStream.seekg(0, std::ios::end);
+    std::streampos fileSize = fileStream.tellg();
+    fileStream.seekg(0, std::ios::beg);
+
+    // Read file contents into uint8_t array
+    uint8_t* buffer = new uint8_t[fileSize];
+    fileStream.read(reinterpret_cast<char*>(buffer), fileSize);
+    fileStream.close();
+
+    Vector<uint8_t>data(buffer, fileSize);
+    delete[] buffer;
+
+    return data;
+}
+
 
 int main()
 {
@@ -167,8 +196,7 @@ int main()
     background.SetType(OdsPageBackgroundType::Graphic);
 
     // Read the background image file
-    std::ifstream file((srcDir + u"background.jpg").ToUtf8(), std::ios::binary);
-    std::vector<uint8_t> graphicData((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
+    Vector<uint8_t> graphicData = GetDataFromFile(U16String(srcDir + u"background.jpg"));
 
     // Set graphic data and type
     background.SetGraphicData(graphicData);

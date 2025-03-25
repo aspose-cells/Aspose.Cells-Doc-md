@@ -19,7 +19,7 @@ Please see the following sample code and its [source excel file](22774108.xlsx) 
 
 ## C++ code to read color of shapes glow effect
 
-```c++
+```cpp
 #include <iostream>
 #include "Aspose.Cells.h"
 
@@ -30,23 +30,20 @@ int main()
 {
     Aspose::Cells::Startup();
 
-    // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-
-    // Read the source excel file
     Workbook book(srcDir + u"sourceGlowEffectColor.xlsx");
-
-    // Access first worksheet
     Worksheet sheet = book.GetWorksheets().Get(0);
-
-    // Access the shape
     Shape shape = sheet.GetShapes().Get(0);
-
-    // Read the glow effect color and its various properties
     GlowEffect effect = shape.GetGlow();
     CellsColor color = effect.GetColor();
 
-    std::cout << "Color: " << color.GetColor().ToArgb() << std::endl;
+    Color clr = color.GetColor();
+    uint32_t argb = (static_cast<uint32_t>(clr.a) << 24) | 
+                    (static_cast<uint32_t>(clr.r) << 16) | 
+                    (static_cast<uint32_t>(clr.g) << 8) | 
+                    static_cast<uint32_t>(clr.b);
+
+    std::cout << "Color: " << argb << std::endl;
     std::cout << "ColorIndex: " << color.GetColorIndex() << std::endl;
     std::cout << "IsShapeColor: " << color.IsShapeColor() << std::endl;
     std::cout << "Transparency: " << color.GetTransparency() << std::endl;

@@ -48,7 +48,7 @@ int main()
 
     // Set the styles of both cells to Times New Roman
     Style styleObject = workbook.CreateStyle();
-    styleObject.GetFont().SetColor(Color::Red);
+    styleObject.GetFont().SetColor(Color::Red());
     styleObject.GetFont().SetName(u"Times New Roman");
     cell1.SetStyle(styleObject);
     cell2.SetStyle(styleObject);

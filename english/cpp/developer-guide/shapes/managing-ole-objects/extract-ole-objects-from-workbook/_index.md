@@ -46,7 +46,7 @@ Start **Visual Studio** and create a new console application. This example will 
 
 The code below does the actual work of finding and extracting OLE objects. The OLE objects (DOC, XLS, and PDF files) are saved to disk.
 
-```c++
+```cpp
 #include <iostream>
 #include <fstream>
 #include <memory>
@@ -75,7 +75,7 @@ int main()
         OleObject ole = oles.Get(i);
 
         // Specify the output filename
-        U16String fileName = srcDir + u"outOle" + U16String(std::to_wstring(i).c_str()) + u".";
+        U16String fileName = srcDir + u"outOle" + U16String(std::to_string(i).c_str()) + u".";
 
         // Specify each file format based on the oleobject format type
         switch (ole.GetFileFormatType())
@@ -104,21 +104,21 @@ int main()
         if (ole.GetFileFormatType() == FileFormatType::Xlsx)
         {
             Vector<uint8_t> objectData = ole.GetObjectData();
-            if (!objectData.empty())
+            if (objectData.GetLength() > 0)
             {
                 Workbook oleBook(objectData);
                 oleBook.GetSettings().SetIsHidden(false);
-                oleBook.Save(srcDir + u"outOle" + U16String(std::to_wstring(i).c_str()) + u".out.xlsx");
+                oleBook.Save(srcDir + u"outOle" + U16String(std::to_string(i).c_str()) + u".out.xlsx");
             }
         }
         // Create the files based on the oleobject format types
         else
         {
             Vector<uint8_t> objectData = ole.GetObjectData();
-            if (!objectData.empty())
+            if (objectData.GetLength() > 0)
             {
                 std::ofstream fs(fileName.ToUtf8().c_str(), std::ios::binary);
-                fs.write(reinterpret_cast<const char*>(objectData.data()), objectData.size());
+                fs.write(reinterpret_cast<const char*>(objectData.GetData()), objectData.GetLength());
                 fs.close();
             }
         }

@@ -31,51 +31,64 @@ The code below sets a background image using an image from a stream.
 ```c++
 #include <iostream>
 #include <fstream>
-#include <vector>
 #include "Aspose.Cells.h"
+
+using namespace Aspose::Cells;
+
+Vector<uint8_t> GetDataFromFile(const U16String& file)
+{
+	std::string f = file.ToUtf8();
+	// open a file 
+	std::ifstream fileStream(f, std::ios::binary);
+
+	if (!fileStream.is_open()) {
+		std::cerr << "Failed to open the file." << std::endl;
+		return 1;
+	}
+
+	// Get file size
+	fileStream.seekg(0, std::ios::end);
+	std::streampos fileSize = fileStream.tellg();
+	fileStream.seekg(0, std::ios::beg);
+
+	// Read file contents into uint8_t array
+	uint8_t* buffer = new uint8_t[fileSize];
+	fileStream.read(reinterpret_cast<char*>(buffer), fileSize);
+	fileStream.close();
+
+	Vector<uint8_t>data(buffer, fileSize);
+	delete[] buffer;
+
+	return data;
+}
 
 using namespace Aspose::Cells;
 
 int main()
 {
-    Aspose::Cells::Startup();
+	Aspose::Cells::Startup();
 
-    // Create a new Workbook
-    Workbook workbook;
+	// Create a new Workbook
+	Workbook workbook;
 
-    // Get the first worksheet
-    Worksheet sheet = workbook.GetWorksheets().Get(0);
+	// Get the first worksheet
+	Worksheet sheet = workbook.GetWorksheets().Get(0);
 
-    // Read the background image file
-    std::ifstream file("background.jpg", std::ios::binary);
-    if (!file.is_open()) {
-        std::cerr << "Failed to open background image file." << std::endl;
-        return -1;
-    }
+	Vector<uint8_t> buffer = GetDataFromFile(U16String(u"background.jpg"));
 
-    file.seekg(0, std::ios::end);
-    std::streamsize size = file.tellg();
-    file.seekg(0, std::ios::beg);
+	// Set the background image for the worksheet
+	sheet.SetBackgroundImage(buffer);
 
-    std::vector<uint8_t> buffer(size);
-    if (!file.read(reinterpret_cast<char*>(buffer.data()), size) {
-        std::cerr << "Failed to read background image file." << std::endl;
-        return -1;
-    }
+	// Save the Excel file
+	workbook.Save(u"outputBackImageSheet.xlsx");
 
-    // Set the background image for the worksheet
-    sheet.SetBackgroundImage(buffer);
+	// Save the HTML file
+	workbook.Save(u"outputBackImageSheet.html", SaveFormat::Html);
 
-    // Save the Excel file
-    workbook.Save(u"outputBackImageSheet.xlsx");
+	std::cout << "Files saved successfully." << std::endl;
 
-    // Save the HTML file
-    workbook.Save(u"outputBackImageSheet.html", SaveFormat::Html);
-
-    std::cout << "Files saved successfully." << std::endl;
-
-    Aspose::Cells::Cleanup();
-    return 0;
+	Aspose::Cells::Cleanup();
+	return 0;
 }
 ```
 

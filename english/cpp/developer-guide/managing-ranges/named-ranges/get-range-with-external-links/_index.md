@@ -34,29 +34,22 @@ int main()
 {
     Aspose::Cells::Startup();
 
-    // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-
-    // Load source Excel file
     Workbook workbook(srcDir + u"SampleExternalReferences.xlsx");
 
-    // Get the collection of named ranges
     WorksheetCollection sheets = workbook.GetWorksheets();
-    Vector<Name> namedRanges = sheets.GetNames();
+    NameCollection namedRanges = sheets.GetNames();
 
-    // Iterate through each named range
-    for (const Name& namedRange : namedRanges)
+    for (int i = 0; i < namedRanges.GetCount(); ++i)
     {
-        // Get the referred areas for the named range
+        Name namedRange = namedRanges.Get(i);
         Vector<ReferredArea> referredAreas = namedRange.GetReferredAreas(true);
 
-        // Check if referred areas exist
         if (!referredAreas.IsNull())
         {
-            // Iterate through each referred area
-            for (const ReferredArea& referredArea : referredAreas)
+            for (int j = 0; j < referredAreas.GetLength(); ++j)
             {
-                // Print the data in Referred Area
+                ReferredArea referredArea = referredAreas[j];
                 std::cout << "IsExternalLink: " << referredArea.IsExternalLink() << std::endl;
                 std::cout << "IsArea: " << referredArea.IsArea() << std::endl;
                 std::cout << "SheetName: " << referredArea.GetSheetName().ToUtf8() << std::endl;

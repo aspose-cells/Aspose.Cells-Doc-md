@@ -77,8 +77,8 @@ void ChartGlobalizationSettingsTest()
     Workbook workbook(pathName);
 
     // Set custom chartGlobalizationSettings, here is TurkeyChartGlobalizationSettings
-    auto globalizationSettings = std::make_shared<TurkeyChartGlobalizationSettings>();
-    workbook.GetSettings().GetGlobalizationSettings().SetChartSettings(globalizationSettings.get());
+    TurkeyChartGlobalizationSettings* globalizationSettings = new TurkeyChartGlobalizationSettings();
+    workbook.GetSettings().GetGlobalizationSettings()->SetChartSettings(globalizationSettings);
 
     // Get the worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
@@ -100,7 +100,7 @@ void ChartGlobalizationSettingsTest()
     Vector<U16String> legendEntriesLabels = chart.GetLegend().GetLegendLabels();
 
     // Output the name of the Legend
-    for (int i = 0; i < legendEntriesLabels.GetCount(); i++)
+    for (int i = 0; i < legendEntriesLabels.GetLength(); i++)
     {
         std::cout << "\nWorkbook chart legend: " << legendEntriesLabels[i].ToUtf8() << std::endl;
     }
@@ -108,6 +108,8 @@ void ChartGlobalizationSettingsTest()
     // Output the name of the Axis title
     Title categoryAxisTitle = chart.GetCategoryAxis().GetTitle();
     std::cout << "\nWorkbook category axis title: " << categoryAxisTitle.GetText().ToUtf8() << std::endl;
+
+    delete globalizationSettings;
 }
 
 int main()

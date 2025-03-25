@@ -21,32 +21,40 @@ Aspose.Cells now supports fetching the refresh date and refresh by who informati
 
 ```cpp
 #include <iostream>
+#include <codecvt>
+#include <locale>
 #include "Aspose.Cells.h"
 
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 
+std::string Date_To_String(const Aspose::Cells::Date& date) {
+    char buffer[100];
+    snprintf(buffer, sizeof(buffer), "%04d-%02d-%02d %02d:%02d:%02d",
+             date.year, date.month, date.day, date.hour, date.minute, date.second);
+    return buffer;
+}
+
+std::string convert_u16_to_string(const char16_t* str) {
+    std::wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t> converter;
+    return converter.to_bytes(str);
+}
+
 int main()
 {
     Aspose::Cells::Startup();
 
-    // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
 
-    // Create workbook object from source excel file
     Workbook workbook(srcDir + u"sourcePivotTable.xlsx");
 
-    // Access first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
 
-    // Access first pivot table inside the worksheet
     PivotTable pivotTable = worksheet.GetPivotTables().Get(0);
 
-    // Access pivot table refresh by who
-    std::cout << "Pivot table refresh by who = " << pivotTable.GetRefreshedByWho().ToUtf8() << std::endl;
+    std::cout << "Pivot table refresh by who = " << convert_u16_to_string(pivotTable.GetRefreshedByWho().GetData()) << std::endl;
 
-    // Access pivot table refresh date
-    std::cout << "Pivot table refresh date = " << pivotTable.GetRefreshDate().ToString().ToUtf8() << std::endl;
+    std::cout << "Pivot table refresh date = " << Date_To_String(pivotTable.GetRefreshDate()) << std::endl;
 
     Aspose::Cells::Cleanup();
 }

@@ -19,39 +19,35 @@ The following code sample loads the [source Excel file](95584311.xlsx) and print
 
 ## **Sample Code**
 
-```c++
+```cpp
 #include <iostream>
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
 
 class TestTiffPageSavingCallback : public IPageSavingCallback {
 public:
-    void PageSaving(PageSavingArgs* args) override {
-        // Implement page saving callback logic here
+    void PageStartSaving(PageStartSavingArgs& args) override {
+        // Implement page start saving logic here
+    }
+
+    void PageEndSaving(PageEndSavingArgs& args) override {
+        // Implement page end saving logic here
     }
 };
 
 int main() {
     Aspose::Cells::Startup();
 
-    // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-
-    // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Create workbook from source file
     Workbook workbook(srcDir + u"sampleUseWorkbookRenderForImageConversion.xlsx");
 
-    // Create image or print options
     ImageOrPrintOptions opts;
     opts.SetPageSavingCallback(new TestTiffPageSavingCallback());
     opts.SetImageType(Aspose::Cells::Drawing::ImageType::Tiff);
 
-    // Create workbook renderer
     WorkbookRender wr(workbook, opts);
-
-    // Save the rendered image to output file
     wr.ToImage(outDir + u"DocumentConversionProgressForTiff_out.tiff");
 
     std::cout << "Document converted to TIFF successfully!" << std::endl;

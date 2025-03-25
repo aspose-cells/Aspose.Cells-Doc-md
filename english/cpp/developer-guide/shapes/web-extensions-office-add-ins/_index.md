@@ -92,15 +92,14 @@ int main()
     // Iterate through each task pane and print its properties
     for (int i = 0; i < taskPanes.GetCount(); ++i)
     {
-        WebExtensionTaskPane* taskPane = taskPanes.Get(i);
+        WebExtensionTaskPane taskPane = taskPanes.Get(i);
 
-        std::cout << "Width: " << taskPane->GetWidth() << std::endl;
-        std::cout << "IsVisible: " << taskPane->IsVisible() << std::endl;
-        std::cout << "IsLocked: " << taskPane->IsLocked() << std::endl;
-        std::cout << "DockState: " << taskPane->GetDockState().ToUtf8() << std::endl;
-        std::cout << "StoreName: " << taskPane->GetWebExtension()->GetReference()->GetStoreName().ToUtf8() << std::endl;
-        std::cout << "StoreType: " << taskPane->GetWebExtension()->GetReference()->GetStoreType().ToUtf8() << std::endl;
-        std::cout << "WebExtension.Id: " << taskPane->GetWebExtension()->GetId().ToUtf8() << std::endl;
+        std::cout << "Width: " << taskPane.GetWidth() << std::endl;
+        std::cout << "IsVisible: " << taskPane.IsVisible() << std::endl;
+        std::cout << "IsLocked: " << taskPane.IsLocked() << std::endl;
+        std::cout << "DockState: " << taskPane.GetDockState().ToUtf8() << std::endl;
+        std::cout << "StoreName: " << taskPane.GetWebExtension().GetReference().GetStoreName().ToUtf8() << std::endl;
+        std::cout << "WebExtension.Id: " << taskPane.GetWebExtension().GetId().ToUtf8() << std::endl;
     }
 
     Aspose::Cells::Cleanup();

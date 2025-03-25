@@ -105,48 +105,49 @@ using namespace Aspose::Cells::Charts;
 
 void AddCustomLabels() {
     // Create workbook object
-    intrusive_ptr<Workbook> workbook = Factory::CreateWorkbook();
+    Workbook workbook;
     
     // Access first worksheet
-    intrusive_ptr<Worksheet> worksheet = workbook->GetWorksheets()->Get(0);
+    Worksheet worksheet = workbook.GetWorksheets().Get(0);
     
     // Add sample data
-    worksheet->GetCells()->Get(u"A1")->PutValue(u"X");
-    worksheet->GetCells()->Get(u"A2")->PutValue(1);
-    worksheet->GetCells()->Get(u"A3")->PutValue(2);
-    worksheet->GetCells()->Get(u"A4")->PutValue(3);
-    worksheet->GetCells()->Get(u"B1")->PutValue(u"Y");
-    worksheet->GetCells()->Get(u"B2")->PutValue(4);
-    worksheet->GetCells()->Get(u"B3")->PutValue(3);
-    worksheet->GetCells()->Get(u"B4")->PutValue(2);
-    worksheet->GetCells()->Get(u"C1")->PutValue(u"Point Name");
-    worksheet->GetCells()->Get(u"C2")->PutValue(u"Point A");
-    worksheet->GetCells()->Get(u"C3")->PutValue(u"Point B");
-    worksheet->GetCells()->Get(u"C4")->PutValue(u"Point C");
+    worksheet.GetCells().Get(u"A1").PutValue(u"X");
+    worksheet.GetCells().Get(u"A2").PutValue(1);
+    worksheet.GetCells().Get(u"A3").PutValue(2);
+    worksheet.GetCells().Get(u"A4").PutValue(3);
+    worksheet.GetCells().Get(u"B1").PutValue(u"Y");
+    worksheet.GetCells().Get(u"B2").PutValue(4);
+    worksheet.GetCells().Get(u"B3").PutValue(3);
+    worksheet.GetCells().Get(u"B4").PutValue(2);
+    worksheet.GetCells().Get(u"C1").PutValue(u"Point Name");
+    worksheet.GetCells().Get(u"C2").PutValue(u"Point A");
+    worksheet.GetCells().Get(u"C3").PutValue(u"Point B");
+    worksheet.GetCells().Get(u"C4").PutValue(u"Point C");
     
     // Add chart
-    int chartIndex = worksheet->GetCharts()->Add(ChartType::ScatterConnectedByLinesWithDataMarker, 5, 0, 20, 8);
-    intrusive_ptr<Chart> chart = worksheet->GetCharts()->Get(chartIndex);
+    int chartIndex = worksheet.GetCharts().Add(ChartType::ScatterConnectedByLinesWithDataMarker, 5, 0, 20, 8);
+    Chart chart = worksheet.GetCharts().Get(chartIndex);
     
     // Set data source
-    chart->GetNSeries()->Add(u"=Sheet1!$B$2:$B$4", true);
-    chart->GetNSeries()->Get(0)->SetXValues(u"=Sheet1!$A$2:$A$4");
+    chart.GetNSeries().Add(u"=Sheet1!$B$2:$B$4", true);
+    chart.GetNSeries().Get(0).SetXValues(u"=Sheet1!$A$2:$A$4");
     
     // Enable data labels
-    intrusive_ptr<DataLabels> dataLabels = chart->GetNSeries()->Get(0)->GetDataLabels();
-    dataLabels->SetShowValue(true);
+    DataLabels dataLabels = chart.GetNSeries().Get(0).GetDataLabels();
+    dataLabels.SetShowValue(true);
     
     // Add custom labels
-    for (int i = 0; i < chart->GetNSeries()->Get(0)->GetPoints()->GetCount(); i++) {
-        intrusive_ptr<ChartPoint> point = chart->GetNSeries()->Get(0)->GetPoints()->Get(i);
-        intrusive_ptr<DataLabel> dataLabel = point->GetDataLabel();
-        dataLabel->SetText(
-            u"Series: " + chart->GetNSeries()->Get(0)->GetName() + 
-            u"\nPoint: " + worksheet->GetCells()->Get(i + 1, 2)->GetStringValue()
+    int pointCount = chart.GetNSeries().Get(0).GetPoints().GetCount();
+    for (int i = 0; i < pointCount; i++) {
+        ChartPoint point = chart.GetNSeries().Get(0).GetPoints().Get(i);
+        DataLabels dataLabel = point.GetDataLabels();
+        dataLabel.SetText(
+            u"Series: " + chart.GetNSeries().Get(0).GetName() + 
+            u"\nPoint: " + worksheet.GetCells().Get(i + 1, 2).GetStringValue()
         );
     }
     
     // Save workbook
-    workbook->Save(u"output.xlsx");
+    workbook.Save(u"output.xlsx");
 }
 ```

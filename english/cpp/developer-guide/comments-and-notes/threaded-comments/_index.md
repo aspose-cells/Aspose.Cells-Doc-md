@@ -153,6 +153,8 @@ The following example demonstrates reading the created time of threaded comments
 
 ```cpp
 #include <iostream>
+#include <iomanip>
+#include <sstream>
 #include "Aspose.Cells.h"
 
 using namespace Aspose::Cells;
@@ -162,25 +164,29 @@ int main()
 {
     Aspose::Cells::Startup();
 
-    // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
 
-    // Create workbook
     Workbook workbook(srcDir + u"ThreadedCommentsSample.xlsx");
 
-    // Access first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
 
-    // Get Threaded Comments
     ThreadedCommentCollection threadedComments = worksheet.GetComments().GetThreadedComments(u"A1");
 
-    // Iterate through threaded comments
     for (int i = 0; i < threadedComments.GetCount(); i++)
     {
         ThreadedComment comment = threadedComments.Get(i);
         cout << "Comment: " << comment.GetNotes().ToUtf8() << endl;
         cout << "Author: " << comment.GetAuthor().GetName().ToUtf8() << endl;
-        cout << "Created Time: " << comment.GetCreatedTime().ToString().ToUtf8() << endl;
+        Date createdTime = comment.GetCreatedTime();
+        ostringstream oss;
+        oss << setfill('0') 
+            << setw(4) << createdTime.year << "-"
+            << setw(2) << createdTime.month << "-"
+            << setw(2) << createdTime.day << " "
+            << setw(2) << createdTime.hour << ":"
+            << setw(2) << createdTime.minute << ":"
+            << setw(2) << createdTime.second;
+        cout << "Created Time: " << oss.str() << endl;
     }
 
     Aspose::Cells::Cleanup();

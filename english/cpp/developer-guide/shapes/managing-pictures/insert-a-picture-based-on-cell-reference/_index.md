@@ -19,7 +19,7 @@ Aspose.Cells supports displaying the contents of a worksheet cell in an image sh
 
 ### Code Example
 
-```c++
+```cpp
 #include <iostream>
 #include <vector>
 #include "Aspose.Cells.h"
@@ -40,9 +40,8 @@ int main()
     cells.Get(U16String(u"C10")).PutValue(U16String(u"C10"));
 
     Aspose::Cells::Vector<uint8_t> imagedata = ConditionalFormattingIcon::GetIconImageData(IconSetType::TrafficLights31, 0);
-    intrusive_ptr<MemoryStream> stream = new MemoryStream(imagedata);
-
-    Picture pic = workbook.GetWorksheets().Get(0).GetShapes().AddPicture(0, 3, stream, 10, 10);
+    
+    Picture pic = workbook.GetWorksheets().Get(0).GetShapes().AddPicture(0, 3, imagedata, 10, 10);
     pic.SetFormula(U16String(u"A1:C10"));
 
     workbook.GetWorksheets().Get(0).GetShapes().UpdateSelectedValue();

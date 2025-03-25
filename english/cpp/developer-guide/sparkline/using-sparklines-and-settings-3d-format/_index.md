@@ -100,12 +100,6 @@ int main()
     // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Create directory if it is not already present
-    if (!System::IO::Directory::Exists(srcDir))
-    {
-        System::IO::Directory::CreateDirectory(srcDir);
-    }
-
     // Instantiate a new Workbook
     Workbook book;
 
@@ -133,10 +127,10 @@ int main()
     Chart chart = book.GetWorksheets().Get(2).GetCharts().Get(0);
 
     // Set the background/foreground color for PlotArea/ChartArea
-    chart.GetPlotArea().GetArea().SetBackgroundColor(Color::White);
-    chart.GetChartArea().GetArea().SetBackgroundColor(Color::White);
-    chart.GetPlotArea().GetArea().SetForegroundColor(Color::White);
-    chart.GetChartArea().GetArea().SetForegroundColor(Color::White);
+    chart.GetPlotArea().GetArea().SetBackgroundColor(Color::White());
+    chart.GetChartArea().GetArea().SetBackgroundColor(Color::White());
+    chart.GetPlotArea().GetArea().SetForegroundColor(Color::White());
+    chart.GetChartArea().GetArea().SetForegroundColor(Color::White());
 
     // Hide the Legend
     chart.SetShowLegend(false);
@@ -170,9 +164,9 @@ int main()
     fmt3d.SetLightingAngle(20);
 
     // Specify Series background/foreground and line color
-    ser.GetArea().SetBackgroundColor(Color::Maroon);
-    ser.GetArea().SetForegroundColor(Color::Maroon);
-    ser.GetBorder().SetColor(Color::Maroon);
+    ser.GetArea().SetBackgroundColor(Color::Maroon());
+    ser.GetArea().SetForegroundColor(Color::Maroon());
+    ser.GetBorder().SetColor(Color::Maroon());
 
     // Save the Excel file
     book.Save(outDir + u"3d_format.out.xlsx");

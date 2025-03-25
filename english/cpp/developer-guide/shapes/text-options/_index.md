@@ -36,7 +36,7 @@ void SetTextAlignment() {
 
     // Set text alignment
     shape.SetTextHorizontalAlignment(TextAlignmentType::Center);
-    shape.SetTextVerticalAlignment(TextAlignmentType::Middle);
+    shape.SetTextVerticalAlignment(TextAlignmentType::Center);
 
     // Save the workbook
     workbook.Save("output.xlsx");
@@ -81,12 +81,12 @@ void FormatText() {
     Shape shape = worksheet.GetShapes().Get(0);
 
     // Access the font of the shape's text
-    Font font = shape.GetTextBody().GetParagraphs().Get(0).GetRuns().Get(0).GetFont();
+    Font font = shape.GetTextBody().GetParagraphEnumerator().GetCurrent().GetFont();
 
     // Set font properties
     font.SetSize(14);
     font.SetColor(Color::Red());
-    font.SetBold(true);
+    font.SetIsBold(true);
 
     // Save the workbook
     workbook.Save("output.xlsx");

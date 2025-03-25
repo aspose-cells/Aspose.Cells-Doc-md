@@ -19,6 +19,7 @@ In this topic, we will show you how to set Chinese Region for a chart.
 
 First step, you need to define a class "ChartChineseSetttings" that inherits from [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chartglobalizationsettings/). 
 Then, by overriding the related functions, you can set the text of the chart elements in your own language.
+
 Code example:
 ```c++
 #include <iostream>
@@ -99,31 +100,19 @@ public:
 	}
 };
 
+//Config Chinese Setting For Chart
+//In this step, you will use the class "ChartChineseSetttings" you defined in the previous step.
 int main()
 {
+	Workbook wb("Chinese.xls");
+	ChartChineseSettings* chartChineseSettings = new ChartChineseSettings();
+	wb.GetSettings().GetGlobalizationSettings()->SetChartSettings(chartChineseSettings);
+	Chart chart0 = wb.GetWorksheets().Get(0).GetCharts().Get(0);
+	chart0.ToImage("Output.png");
+	delete chartChineseSettings;
 	return 0;
 }
-```
 
-## **Config Chinese Setting For Chart**
-
-In this step, you will use the class "ChartChineseSetttings" you defined in the previous step.
-Code example:
-
-```cpp
-#include <Aspose.Cells.h>
-
-using namespace Aspose::Cells;
-using namespace Aspose::Cells::Charts;
-
-int main()
-{
-    Workbook wb("Chinese.xls");
-    wb.GetSettings()->GetGlobalizationSettings()->SetChartSettings(new ChartChineseSetttings());
-    Chart chart0 = wb.GetWorksheets()->Get(0)->GetCharts()->Get(0);
-    chart0.ToImage("Output.png");
-    return 0;
-}
 ```
 
 Then you can see the effect in the output image, the elements in the chart will be rendered according to your settings.

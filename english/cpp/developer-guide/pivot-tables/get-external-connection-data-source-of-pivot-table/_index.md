@@ -43,8 +43,10 @@ int main()
     Vector<ExternalConnection> connections = pivotTable.GetSourceDataConnections();
 
     // Iterate through each connection and print details
-    for (const auto& conn : connections)
+    int32_t connectionCount = connections.GetLength();
+    for (int32_t i = 0; i < connectionCount; ++i)
     {
+        ExternalConnection conn = connections[i];
         std::cout << "Name: " << conn.GetName().ToUtf8() << std::endl;
         std::cout << "Type: " << static_cast<int>(conn.GetSourceType()) << std::endl;
     }

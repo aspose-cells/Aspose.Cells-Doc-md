@@ -193,7 +193,7 @@ int main()
     // Get the cell and set its style
     Cell cell = worksheet.GetCells().Get(u"B16");
     Style style = cell.GetStyle();
-    style.GetFont().SetColor(Color::White);
+    style.GetFont().SetColor(Color::White());
     cell.SetStyle(style);
 
     // Set formula for cell C16
