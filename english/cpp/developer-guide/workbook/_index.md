@@ -24,8 +24,8 @@ To create a new workbook:
 ```cpp
 #include <Aspose.Cells.h>
 
-int main()
-{
+int main() {
+    Aspose::Cells::Startup();
     // Create a new workbook
     Aspose::Cells::Workbook workbook;
 
@@ -34,8 +34,10 @@ int main()
 
     // Save the workbook
     workbook.Save("output.xlsx");
+    Aspose::Cells::Cleanup();
 
     return 0;
+
 }
 ```
 
@@ -50,13 +52,15 @@ To open an existing workbook:
 ```cpp
 #include <Aspose.Cells.h>
 
-int main()
-{
+int main() {
+    Aspose::Cells::Startup();
     Aspose::Cells::Workbook workbook("input.xlsx");
     auto worksheet = workbook.GetWorksheets().Get(0);
     worksheet.GetCells().Get(0, 0).SetValue("Hello, World!");
     workbook.Save("output.xlsx");
+    Aspose::Cells::Cleanup();
     return 0;
+
 }
 ```
 
@@ -72,8 +76,8 @@ To add a new worksheet:
 ```cpp
 #include <Aspose.Cells.h>
 
-int main()
-{
+int main() {
+    Aspose::Cells::Startup();
     // Create a new workbook
     Aspose::Cells::Workbook workbook;
 
@@ -82,8 +86,10 @@ int main()
 
     // Save the workbook
     workbook.Save("output.xlsx");
+    Aspose::Cells::Cleanup();
 
     return 0;
+
 }
 ```
 
@@ -96,8 +102,8 @@ To remove a worksheet:
 ```cpp
 #include <Aspose.Cells.h>
 
-int main()
-{
+int main() {
+    Aspose::Cells::Startup();
     // Open an existing workbook
     Aspose::Cells::Workbook workbook("input.xlsx");
 
@@ -106,8 +112,10 @@ int main()
 
     // Save the workbook
     workbook.Save("output.xlsx");
+    Aspose::Cells::Cleanup();
 
     return 0;
+
 }
 ```
 
@@ -120,13 +128,15 @@ To rename a worksheet:
 ```cpp
 #include <Aspose.Cells.h>
 
-int main()
-{
+int main() {
+    Aspose::Cells::Startup();
     Aspose::Cells::Workbook workbook("input.xlsx");
     auto worksheet = workbook.GetWorksheets().Get(0);
     worksheet.SetName("RenamedSheet");
     workbook.Save("output.xlsx");
+    Aspose::Cells::Cleanup();
     return 0;
+
 }
 ```
 

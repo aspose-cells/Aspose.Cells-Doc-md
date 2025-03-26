@@ -76,9 +76,12 @@ void TestCalcTimeRecursive(bool rec) {
 }
 
 int main() {
+    Aspose::Cells::Startup();
     TestCalcTimeRecursive(true);
     TestCalcTimeRecursive(false);
+    Aspose::Cells::Cleanup();
     return 0;
+
 }
 ```
 

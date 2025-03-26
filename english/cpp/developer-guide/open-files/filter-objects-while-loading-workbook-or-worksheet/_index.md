@@ -93,7 +93,7 @@ Once, it loads the [source excel file](5115255.xlsx) with a custom filter, it ta
 - [NoShapes.png](5115256.png)
 - [NoConditionalFormatting.png](5115251.png)
 
-```c++
+```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
 
@@ -125,9 +125,11 @@ public:
 };
 
 // Add main function to serve as entry point
-int main()
-{
+int main() {
+    Aspose::Cells::Startup();
+    Aspose::Cells::Cleanup();
     return 0;
+
 }
 ```
 

@@ -46,12 +46,15 @@ int main()
 using namespace Aspose::Cells;
 
 int main() {
+    Aspose::Cells::Startup();
     // Load the sample Excel file
     Workbook workbook(u"input.xlsx");
 
     // Save the workbook as a PDF file
     workbook.Save(u"output.pdf", SaveFormat::Pdf);
+    Aspose::Cells::Cleanup();
     return 0;
+
 }
 ```
 

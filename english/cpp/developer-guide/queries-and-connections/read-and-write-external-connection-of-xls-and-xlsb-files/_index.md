@@ -77,6 +77,7 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::ExternalConnections;
 
 int main() {
+    Aspose::Cells::Startup();
     // Load source workbook
     Workbook workbook(u"source.xlsb");
     // Access first external connection
@@ -92,7 +93,9 @@ int main() {
 
     // Save updated workbook
     workbook.Save(u"output.xlsb");
+    Aspose::Cells::Cleanup();
     return 0;
+
 }
 ```
 
