@@ -54,10 +54,6 @@ int main()
     // Get the ColorScale resultant color object
     Aspose::Cells::Color c = cfr1.GetColorScaleResult();
 
-    // Read the color
-    std::cout << c.GetArgb() << std::endl;
-    std::cout << c.ToString().ToUtf8() << std::endl;
-
     Aspose::Cells::Cleanup();
 }
 ```

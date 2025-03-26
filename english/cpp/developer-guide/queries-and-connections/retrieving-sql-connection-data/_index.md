@@ -52,7 +52,7 @@ int main()
         connection = connections.Get(i);
 
         // Check if the Connection is DBConnection, then retrieve its various properties
-        if (connection.GetClassType() == ExternalConnectionClassType::DBConnection)
+        if (connection.GetClassType() == ExternalConnectionClassType::Database)
         {
             DBConnection dbConn = static_cast<DBConnection&>(connection);
 

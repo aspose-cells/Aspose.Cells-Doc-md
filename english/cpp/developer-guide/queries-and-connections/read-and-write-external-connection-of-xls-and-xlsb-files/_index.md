@@ -70,28 +70,29 @@ int main()
 **C++ Equivalent:**
 
 ```cpp
+#include <iostream>
 #include <Aspose.Cells.h>
 
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::ExternalConnections;
 
-void Run() {
+int main() {
     // Load source workbook
-    auto workbook = Factory::CreateWorkbook(u"source.xlsb");
-    
+    Workbook workbook(u"source.xlsb");
     // Access first external connection
-    auto conn = workbook->GetDataConnections()->Get(0);
-    
+    DBConnection conn(workbook.GetDataConnections().Get(0));
+
     // Output original connection details
-    std::cout << "Connection Name: " << conn->GetName().ToUtf8() << std::endl;
-    std::cout << "Command: " << conn->GetCommand().ToUtf8() << std::endl;
-    std::cout << "Connection Info: " << conn->GetConnectionInfo().ToUtf8() << std::endl;
-    
+    std::cout << "Connection Name: " << conn.GetName().ToUtf8() << std::endl;
+    std::cout << "Command: " << conn.GetCommand().ToUtf8() << std::endl;
+    std::cout << "Connection Info: " << conn.GetConnectionInfo().ToUtf8() << std::endl;
+
     // Modify connection name
-    conn->SetName(u"Cust_Modified");
-    
+    conn.SetName(u"Cust_Modified");
+
     // Save updated workbook
-    workbook->Save(u"output.xlsb");
+    workbook.Save(u"output.xlsb");
+    return 0;
 }
 ```
 
