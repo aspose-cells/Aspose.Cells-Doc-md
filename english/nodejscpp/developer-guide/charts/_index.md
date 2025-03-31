@@ -370,7 +370,6 @@ workbook.save(path.join(dataDir, "LineWithDataMarkerChart.xlsx"), AsposeCells.Sa
 - [Customizing Charts](/cells/nodejs-cpp/customizing-charts/)
 - [Set Data source for the chart](/cells/nodejs-cpp/data-formatting-in-charts/)
 - [Manage DataLabels of Excel Charts](/cells/nodejs-cpp/insert-datalabels-to-chart/)
-- [Generate Chart by Processing Smart Markers](/cells/nodejs-cpp/generate-chart-by-processing-smart-markers/)
 - [Get Worksheet of the Chart](/cells/nodejs-cpp/get-worksheet-of-the-chart/)
 - [Manage Legend of Excel Charts](/cells/nodejs-cpp/chart-legend/)
 - [Manipulate Position Size and Designer Chart](/cells/nodejs-cpp/manipulate-position-size-and-designer-chart/)

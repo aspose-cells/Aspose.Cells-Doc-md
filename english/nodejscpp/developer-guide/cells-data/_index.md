@@ -71,7 +71,6 @@ While working on worksheets, users may add different types of data in the cells.
 - [Data Filtering](/cells/nodejs-cpp/data-filtering/)
 - [Data Sorting](/cells/nodejs-cpp/sort-data-of-excel/)
 - [Data Validation](/cells/nodejs-cpp/data-validation/)
-- [Export Data from Worksheet](/cells/nodejs-cpp/export-data-from-worksheet/)
 - [Find or Search Data](/cells/nodejs-cpp/find-or-search-data/)
 - [Get Cell String Value with and without Formatting](/cells/nodejs-cpp/get-cell-string-value-with-and-without-formatting/)
 - [Adding HTML Rich Text inside the Cell](/cells/nodejs-cpp/adding-html-rich-text-inside-the-cell/)

@@ -206,49 +206,6 @@ workbook.save(path.join(outDir, "EditThreadedComments.xlsx"));
   
 To remove threaded comments in Excel, right click on the cell containing the comments and click the **Delete Comment** option as shown in the following image.  
   
-![todo:image_alt_text](threaded-comments_8.jpg)  
-  
-### **Remove Threaded comments using Aspose.Cells**  
-  
-Aspose.Cells provides [**CommentCollection.removeAt(string)**](https://reference.aspose.com/cells/nodejs-cpp/commentcollection/#removeAt-string-) method to remove comments for the specified column. [**CommentCollection.removeAt(string)**](https://reference.aspose.com/cells/nodejs-cpp/commentcollection/#removeAt-string-) method accepts the column name as a parameter and removes the comments in that column.  
-  
-The following example demonstrates removing comments in column A1 by loading the [sample Excel File](89849861.xlsx). Please see the [output Excel file](89849864.xlsx) generated by the code for reference.  
-  
-#### **Sample Code**  
-  
-```javascript
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
+![todo:image_alt_text](threaded-comments_8.jpg)   
 
-// Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
-const outDir = RunExamples.Get_OutputDirectory();
-
-const filePath = path.join(sourceDir, "ThreadedCommentsSample.xlsx");
-const workbook = new AsposeCells.Workbook(filePath);
-
-// Access first worksheet
-const worksheet = workbook.getWorksheets().get(0);
-
-const comments = worksheet.getComments();
-
-// Get Author of first comment in A1
-const author = worksheet.getComments().getThreadedComments("A1").get(0).getAuthor();
-
-// Remove Comments
-comments.removeAt("A1");
-
-const authors = workbook.getWorksheets().getThreadedCommentAuthors();
-
-// Remove Author of first comment in A1
-authors.removeAt(authors.indexOf(author));
-
-workbook.save(path.join(outDir, "ThreadedCommentsSample_Out.xlsx"));
-```  
-  
-{{% alert color="primary" %}}  
-  
-Please note that by removing a comment with Aspose.Cells, the author is not removed automatically. If you need to remove the author as well, please use the RemoveAt method of [**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/nodejs-cpp/threadedcommentauthorcollection) class as shown in the example above.  
-  
-{{% /alert %}}  
   

@@ -216,7 +216,6 @@ If your spreadsheet contains formulas, it is best to call [**Workbook.calculateF
 {{% /alert %}}
 
 ## **Advance topics**
-- [Add PDF Bookmarks](/cells/nodejs-cpp/add-pdf-bookmarks/)
 - [Add PDF Bookmarks with Named Destinations](/cells/nodejs-cpp/add-pdf-bookmarks-with-named-destinations/)
 - [Avoid Blank Page in Output PDF when there is Nothing to Print](/cells/nodejs-cpp/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/)
 - [Change the Font on just the specific Unicode characters while saving to PDF](/cells/nodejs-cpp/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/)
