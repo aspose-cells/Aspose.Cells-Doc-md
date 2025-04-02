@@ -91,7 +91,7 @@ const filePath = path.join(dataDir, "EncryptedBook1.xlsx");
 
 // Create a Stream object
 const fs = require("fs");
-const fstream = fs.createReadStream(filePath);
+const fstream = fs.readFileSync(filePath);
 
 const isPasswordValid = AsposeCells.FileFormatUtil.verifyPassword(fstream, "1234");
 
@@ -128,9 +128,9 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 // Output directory
-const outputDir = RunExamples.Get_OutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 // Open an encrypted ODS file
 const loadOptions = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Ods);
@@ -145,5 +145,5 @@ const workbook = new AsposeCells.Workbook(path.join(sourceDir, "sampleEncryptedO
 workbook.getSettings().setPassword(null);
 
 // Save the decrypted ODS file
-workbook.save(path.join(outputDir, "outputDecryptedODSFile.ods"));
+workbook.save(outputDir + "outputDecryptedODSFile.ods");
 ```

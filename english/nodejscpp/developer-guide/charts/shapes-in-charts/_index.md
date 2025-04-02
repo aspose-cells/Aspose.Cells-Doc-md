@@ -51,7 +51,7 @@ const label = chart.getShapes().addLabelInChart(100, 100, 350, 900);
 label.setText("A Label In Chart");
 
 // Set the Placement Type, the way the Label is attached to the cells.
-label.setPlacement(AsposeCells.Drawing.PlacementType.FreeFloating);
+label.setPlacement(AsposeCells.PlacementType.FreeFloating);
 
 // Save the excel file.
 workbook.save(path.join(dataDir, "chart.out.xls"));
@@ -118,7 +118,7 @@ const lineformat = textbox0.getLine();
 lineformat.setWeight(2);
 
 // Set the dash style to solid.
-lineformat.setDashStyle(AsposeCells.Drawing.MsoLineDashStyle.Solid);
+lineformat.setDashStyle(AsposeCells.MsoLineDashStyle.Solid);
 
 // Save the excel file.
 workbook.save(path.join(dataDir, "chart.out.xls"));
@@ -149,7 +149,7 @@ const AsposeCells = require("aspose.cells.node");
 const dataDir = path.join(__dirname, "data");
 
 // Open the existing file.
-const workbook = new AsposeCells.Workbook(path.join(dataDir, "chart.xls"));
+const workbook = new AsposeCells.Workbook(path.join(dataDir, "chart_shapes.xls"));
 
 // Get an image file to the stream.
 const stream = fs.readFileSync(path.join(dataDir, "logo.jpg"));
@@ -165,7 +165,7 @@ const pic0 = chart.getShapes().addPictureInChart(50, 50, stream, 40, 40);
 const lineformat = pic0.getLine();          
 
 // Set the dash style.
-lineformat.setDashStyle(AsposeCells.Drawing.MsoLineDashStyle.Solid);
+lineformat.setDashStyle(AsposeCells.MsoLineDashStyle.Solid);
 
 // Set the line weight.
 lineformat.setWeight(4);    
@@ -207,7 +207,7 @@ sheet.getCharts().get(0).getShapes().addShapeInChart(AsposeCells.MsoDrawingType.
 sheet.getCharts().get(0).getShapes().get(0).setText("CheckBox 1");
 
 // Save the excel file.
-workbook.save(path.join(outputDir, "InsertCheckboxInChartSheet_out.xlsx"));
+workbook.save(outputDir +"InsertCheckboxInChartSheet_out.xlsx");
 ```
 
 ## **Advance topics**

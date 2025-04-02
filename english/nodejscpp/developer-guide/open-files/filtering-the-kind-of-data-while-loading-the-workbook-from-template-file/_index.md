@@ -23,19 +23,20 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 
 // Output directory
-const outputDir = RunExamples.Get_OutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 // Set the load options, we only want to load shapes and do not want to load data
-const loadOptions = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx);
-loadOptions.setLoadFilter(AsposeCells.LoadDataFilterOptions.All & ~AsposeCells.LoadDataFilterOptions.Chart);
+const loadOptions = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx);            
+
+loadOptions.setLoadFilter(new AsposeCells.LoadFilter(AsposeCells.LoadDataFilterOptions.All & ~AsposeCells.LoadDataFilterOptions.Chart));
 
 // Create workbook object from sample excel file using load options
 const workbook = new AsposeCells.Workbook(path.join(sourceDir, "sampleFilterChars.xlsx"), loadOptions);
 
 // Save the output in pdf format
-workbook.save(path.join(outputDir, "sampleFilterChars_out.pdf"), AsposeCells.SaveFormat.Pdf);
+workbook.save(outputDir + "sampleFilterChars_out.pdf", AsposeCells.SaveFormat.Pdf);
 ```  
   

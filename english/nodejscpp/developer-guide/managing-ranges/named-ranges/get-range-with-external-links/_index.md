@@ -25,31 +25,34 @@ The sample code given below demonstrates the use of [**Name.getReferredAreas(boo
 ## **Sample Code**
 
 ```javascript
+try 
+{
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 
 // Load source Excel file
 const filePath = path.join(sourceDir, "SampleExternalReferences.xlsx");
 const workbook = new AsposeCells.Workbook(filePath);
-
+console.log(filePath);
 const names = workbook.getWorksheets().getNames();
-names.forEach(namedRange => {
-    const referredAreas = namedRange.getReferredAreas(true);
-    if (referredAreas) {
-        referredAreas.forEach(referredArea => {
-            // Print the data in Referred Area
-            console.log("IsExternalLink: " + referredArea.isExternalLink());
-            console.log("IsArea: " + referredArea.isArea());
-            console.log("SheetName: " + referredArea.getSheetName());
-            console.log("ExternalFileName: " + referredArea.getExternalFileName());
-            console.log("StartColumn: " + referredArea.getStartColumn());
-            console.log("StartRow: " + referredArea.getStartRow());
-            console.log("EndColumn: " + referredArea.getEndColumn());
-            console.log("EndRow: " + referredArea.getEndRow());
-        });
-    }
-});
+const namesCount = names.getCount();
+for (let i = 0; i < namesCount; i++) 
+{
+const namedRange = names.get(i);
+const referredAreas = namedRange.getReferredAreas(true);
+if (referredAreas) 
+{
+referredAreas.forEach(referredArea => {
+// Print the data in Referred Area
+console.log("IsExternalLink: " + referredArea.isExternalLink());
+console.log("IsArea: " + referredArea.isArea());
+console.log("SheetName: " + referredArea.getSheetName());
+console.log("ExternalFileName: " + referredArea.getExternalFileName());
+console.log("StartColumn: " + referredArea.getStartColumn());
+console.log("StartRow: " + referredArea.getStartRow());
+console.log("EndColumn: " + referredArea.getEndColumn());
+console.log("EndRow: " + referredArea.getEndRow());
 ```

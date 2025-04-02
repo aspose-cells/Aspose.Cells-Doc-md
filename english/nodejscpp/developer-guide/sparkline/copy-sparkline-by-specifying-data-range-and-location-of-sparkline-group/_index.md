@@ -28,7 +28,7 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 // Create workbook from source Excel file
-const workbook = new AsposeCells.Workbook(path.join(dataDir, "source.xlsx"));
+const workbook = new AsposeCells.Workbook(path.join(dataDir, "copy_sparkline.xlsx"));
 
 // Access first worksheet
 const worksheet = workbook.getWorksheets().get(0);
@@ -37,10 +37,10 @@ const worksheet = workbook.getWorksheets().get(0);
 const group = worksheet.getSparklineGroups().get(0);
 
 // Add Data Ranges and Locations inside this sparkline group
-group.getSparklines().add("D5:O5", 4, 15);
-group.getSparklines().add("D6:O6", 5, 15);
-group.getSparklines().add("D7:O7", 6, 15);
-group.getSparklines().add("D8:O8", 7, 15);
+group.getSparklines().add("Sheet1!D5:O5", 4, 15);
+group.getSparklines().add("Sheet1!D6:O6", 5, 15);
+group.getSparklines().add("Sheet1!D7:O7", 6, 15);
+group.getSparklines().add("Sheet1!D8:O8", 7, 15);
 
 // Save the workbook
 workbook.save(path.join(dataDir, "output_out.xlsx"));

@@ -36,7 +36,7 @@ const worksheet = workbook.getWorksheets().get(0);
 const chart = worksheet.getCharts().get(0);
 
 // Set image or print options
-const opts = new AsposeCells.Rendering.ImageOrPrintOptions();
+const opts = new AsposeCells.ImageOrPrintOptions();
 opts.setImageType(AsposeCells.ImageType.Svg);
 
 // Save the chart to svg format

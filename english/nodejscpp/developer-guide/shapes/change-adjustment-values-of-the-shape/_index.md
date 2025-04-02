@@ -29,7 +29,7 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 // Create workbook object from source excel file
-const workbook = new AsposeCells.Workbook(path.join(dataDir, "source.xlsx"));
+const workbook = new AsposeCells.Workbook(path.join(dataDir, "source_shapes.xlsx"));
 
 // Access first worksheet
 const worksheet = workbook.getWorksheets().get(0);
@@ -78,10 +78,10 @@ shapeGuides.add("adj2", -0.295);  // The distance between the tip point and the 
 shapeGuides.add("adj3", 0.16667); // Usually the default value
 
 // Save the workbook
-await workbook.saveAsync(path.join(filePath, "res.xlsx"), AsposeCells.SaveFormat.Xlsx);
+workbook.save(path.join(filePath, "res.xlsx"), AsposeCells.SaveFormat.Xlsx);
 
 // Read a new workbook
-workbook = await AsposeCells.Workbook.openAsync(path.join(filePath, "res.xlsx"));
+workbook = new AsposeCells.Workbook(path.join(filePath, "res.xlsx"));
 sheet = workbook.getWorksheets().get(0);
 
 // Get a RoundedRectangularCallout from the worksheet
@@ -90,7 +90,7 @@ shapeGuides = polygonShape.getGeometry().getShapeAdjustValues();
 shapeGuides.get(0).setValue(0.7);
 
 // Save the workbook
-await workbook.saveAsync(path.join(filePath, "res-resave.xlsx"), AsposeCells.SaveFormat.Xlsx);
+workbook.save(path.join(filePath, "res-resave.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```  
 
   

@@ -21,7 +21,7 @@ const AsposeCells = require("aspose.cells.node");
 const dataDir = path.join(__dirname, "data");
 
 // Create workbook object from your sample excel file
-const workbook = new AsposeCells.Workbook(path.join(dataDir, "sample.xlsx"));
+const workbook = new AsposeCells.Workbook(path.join(dataDir, "sample_oleobject.xlsx"));
 
 // Access first worksheet
 const sheet = workbook.getWorksheets().get(0);

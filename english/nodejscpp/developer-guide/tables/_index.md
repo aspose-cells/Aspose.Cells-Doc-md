@@ -62,7 +62,7 @@ listObjects.add(1, 1, 7, 5, true);
 listObjects.get(0).setShowTotals(true);
 
 // Calculate the total of the last (5th) list column.
-listObjects.get(0).getListColumns().get(4).setTotalsCalculation(AsposeCells.Tables.TotalsCalculation.Sum);
+listObjects.get(0).getListColumns().get(4).setTotalsCalculation(AsposeCells.TotalsCalculation.Sum);
 
 // Save the excel file.
 workbook.save(path.join(dataDir, "output.xls"));
@@ -87,11 +87,6 @@ const path = require("path");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 
-// Create directory if it is not already present.
-if (!require("fs").existsSync(dataDir)) {
-    require("fs").mkdirSync(dataDir);
-}
-
 // Create a workbook.
 const workbook = new AsposeCells.Workbook();
 
@@ -102,113 +97,115 @@ const sheet = workbook.getWorksheets().get(0);
 const cells = sheet.getCells();
 
 // Setting the value to the cells
-cells.checkCell(1, 1).putValue("Employee");
-cells.checkCell(1, 2).putValue("Quarter");
-cells.checkCell(1, 3).putValue("Product");
-cells.checkCell(1, 4).putValue("Continent");
-cells.checkCell(1, 5).putValue("Country");
-cells.checkCell(1, 6).putValue("Sale");
+cells.get(1, 1).putValue("Employee");
+cells.get(1, 2).putValue("Quarter");
+cells.get(1, 3).putValue("Product");
+cells.get(1, 4).putValue("Continent");
+cells.get(1, 5).putValue("Country");
+cells.get(1, 6).putValue("Sale");
 
-cells.checkCell(2, 1).putValue("David");
-cells.checkCell(3, 1).putValue("David");
-cells.checkCell(4, 1).putValue("David");
-cells.checkCell(5, 1).putValue("David");
-cells.checkCell(6, 1).putValue("James");
-cells.checkCell(7, 1).putValue("James");
-cells.checkCell(8, 1).putValue("James");
-cells.checkCell(9, 1).putValue("James");
-cells.checkCell(10, 1).putValue("James");
-cells.checkCell(11, 1).putValue("Miya");
-cells.checkCell(12, 1).putValue("Miya");
-cells.checkCell(13, 1).putValue("Miya");
-cells.checkCell(14, 1).putValue("Miya");
-cells.checkCell(15, 1).putValue("Miya");
-cells.checkCell(2, 2).putValue(1);
-cells.checkCell(3, 2).putValue(2);
-cells.checkCell(4, 2).putValue(3);
-cells.checkCell(5, 2).putValue(4);
-cells.checkCell(6, 2).putValue(1);
-cells.checkCell(7, 2).putValue(2);
-cells.checkCell(8, 2).putValue(3);
-cells.checkCell(9, 2).putValue(4);
-cells.checkCell(10, 2).putValue(4);
-cells.checkCell(11, 2).putValue(1);
-cells.checkCell(12, 2).putValue(1);
-cells.checkCell(13, 2).putValue(2);
-cells.checkCell(14, 2).putValue(2);
-cells.checkCell(15, 2).putValue(2);
+cells.get(2, 1).putValue("David");
+cells.get(3, 1).putValue("David");
+cells.get(4, 1).putValue("David");
+cells.get(5, 1).putValue("David");
+cells.get(6, 1).putValue("James");
+cells.get(7, 1).putValue("James");
+cells.get(8, 1).putValue("James");
+cells.get(9, 1).putValue("James");
+cells.get(10, 1).putValue("James");
+cells.get(11, 1).putValue("Miya");
+cells.get(12, 1).putValue("Miya");
+cells.get(13, 1).putValue("Miya");
+cells.get(14, 1).putValue("Miya");
+cells.get(15, 1).putValue("Miya");
+cells.get(2, 2).putValue(1);
+cells.get(3, 2).putValue(2);
+cells.get(4, 2).putValue(3);
+cells.get(5, 2).putValue(4);
+cells.get(6, 2).putValue(1);
+cells.get(7, 2).putValue(2);
+cells.get(8, 2).putValue(3);
+cells.get(9, 2).putValue(4);
+cells.get(10, 2).putValue(4);
+cells.get(11, 2).putValue(1);
+cells.get(12, 2).putValue(1);
+cells.get(13, 2).putValue(2);
+cells.get(14, 2).putValue(2);
+cells.get(15, 2).putValue(2);
 
-cells.checkCell(2, 3).putValue("Maxilaku");
-cells.checkCell(3, 3).putValue("Maxilaku");
-cells.checkCell(4, 3).putValue("Chai");
-cells.checkCell(5, 3).putValue("Maxilaku");
-cells.checkCell(6, 3).putValue("Chang");
-cells.checkCell(7, 3).putValue("Chang");
-cells.checkCell(8, 3).putValue("Chang");
-cells.checkCell(9, 3).putValue("Chang");
-cells.checkCell(10, 3).putValue("Chang");
-cells.checkCell(11, 3).putValue("Geitost");
-cells.checkCell(12, 3).putValue("Chai");
-cells.checkCell(13, 3).putValue("Geitost");
-cells.checkCell(14, 3).putValue("Geitost");
-cells.checkCell(15, 3).putValue("Geitost");
+cells.get(2, 3).putValue("Maxilaku");
+cells.get(3, 3).putValue("Maxilaku");
+cells.get(4, 3).putValue("Chai");
+cells.get(5, 3).putValue("Maxilaku");
+cells.get(6, 3).putValue("Chang");
+cells.get(7, 3).putValue("Chang");
+cells.get(8, 3).putValue("Chang");
+cells.get(9, 3).putValue("Chang");
+cells.get(10, 3).putValue("Chang");
+cells.get(11, 3).putValue("Geitost");
+cells.get(12, 3).putValue("Chai");
+cells.get(13, 3).putValue("Geitost");
+cells.get(14, 3).putValue("Geitost");
+cells.get(15, 3).putValue("Geitost");
 
-cells.checkCell(2, 4).putValue("Asia");
-cells.checkCell(3, 4).putValue("Asia");
-cells.checkCell(4, 4).putValue("Asia");
-cells.checkCell(5, 4).putValue("Asia");
-cells.checkCell(6, 4).putValue("Europe");
-cells.checkCell(7, 4).putValue("Europe");
-cells.checkCell(8, 4).putValue("Europe");
-cells.checkCell(9, 4).putValue("Europe");
-cells.checkCell(10, 4).putValue("Europe");
-cells.checkCell(11, 4).putValue("America");
-cells.checkCell(12, 4).putValue("America");
-cells.checkCell(13, 4).putValue("America");
-cells.checkCell(14, 4).putValue("America");
-cells.checkCell(15, 4).putValue("America");
+cells.get(2, 4).putValue("Asia");
+cells.get(3, 4).putValue("Asia");
+cells.get(4, 4).putValue("Asia");
+cells.get(5, 4).putValue("Asia");
+cells.get(6, 4).putValue("Europe");
+cells.get(7, 4).putValue("Europe");
+cells.get(8, 4).putValue("Europe");
+cells.get(9, 4).putValue("Europe");
+cells.get(10, 4).putValue("Europe");
+cells.get(11, 4).putValue("America");
+cells.get(12, 4).putValue("America");
+cells.get(13, 4).putValue("America");
+cells.get(14, 4).putValue("America");
+cells.get(15, 4).putValue("America");
 
-cells.checkCell(2, 5).putValue("China");
-cells.checkCell(3, 5).putValue("India");
-cells.checkCell(4, 5).putValue("Korea");
-cells.checkCell(5, 5).putValue("India");
-cells.checkCell(6, 5).putValue("France");
-cells.checkCell(7, 5).putValue("France");
-cells.checkCell(8, 5).putValue("Germany");
-cells.checkCell(9, 5).putValue("Italy");
-cells.checkCell(10, 5).putValue("France");
-cells.checkCell(11, 5).putValue("U.S.");
-cells.checkCell(12, 5).putValue("U.S.");
-cells.checkCell(13, 5).putValue("Brazil");
-cells.checkCell(14, 5).putValue("U.S.");
-cells.checkCell(15, 5).putValue("U.S.");
+cells.get(2, 5).putValue("China");
+cells.get(3, 5).putValue("India");
+cells.get(4, 5).putValue("Korea");
+cells.get(5, 5).putValue("India");
+cells.get(6, 5).putValue("France");
+cells.get(7, 5).putValue("France");
+cells.get(8, 5).putValue("Germany");
+cells.get(9, 5).putValue("Italy");
+cells.get(10, 5).putValue("France");
+cells.get(11, 5).putValue("U.S.");
+cells.get(12, 5).putValue("U.S.");
+cells.get(13, 5).putValue("Brazil");
+cells.get(14, 5).putValue("U.S.");
+cells.get(15, 5).putValue("U.S.");
 
-cells.checkCell(2, 6).putValue(2000);
-cells.checkCell(3, 6).putValue(500);
-cells.checkCell(4, 6).putValue(1200);
-cells.checkCell(5, 6).putValue(1500);
-cells.checkCell(6, 6).putValue(500);
-cells.checkCell(7, 6).putValue(1500);
-cells.checkCell(8, 6).putValue(800);
-cells.checkCell(9, 6).putValue(900);
-cells.checkCell(10, 6).putValue(500);
-cells.checkCell(11, 6).putValue(1600);
-cells.checkCell(12, 6).putValue(600);
-cells.checkCell(13, 6).putValue(2000);
-cells.checkCell(14, 6).putValue(500);
-cells.checkCell(15, 6).putValue(900);
+cells.get(2, 6).putValue(2000);
+cells.get(3, 6).putValue(500);
+cells.get(4, 6).putValue(1200);
+cells.get(5, 6).putValue(1500);
+cells.get(6, 6).putValue(500);
+cells.get(7, 6).putValue(1500);
+cells.get(8, 6).putValue(800);
+cells.get(9, 6).putValue(900);
+cells.get(10, 6).putValue(500);
+cells.get(11, 6).putValue(1600);
+cells.get(12, 6).putValue(600);
+cells.get(13, 6).putValue(2000);
+cells.get(14, 6).putValue(500);
+cells.get(15, 6).putValue(900);
 
 // Adding a new List Object to the worksheet
-const listObject = sheet.getListObjects().add("A1", "F15", true);
+const index = sheet.getListObjects().add("A1", "F15", true);
+
+const listObject = sheet.getListObjects().get(index);
 
 // Adding Default Style to the table
-listObject.setTableStyleType(AsposeCells.Tables.TableStyleType.TableStyleMedium10);
+listObject.setTableStyleType(AsposeCells.TableStyleType.TableStyleMedium10);
 
 // Show Total
 listObject.setShowTotals(true);
 
 // Set the Quarter field's calculation type
-listObject.getListColumns().get(1).setTotalsCalculation(AsposeCells.Tables.TotalsCalculation.Count);
+listObject.getListColumns().get(1).setTotalsCalculation(AsposeCells.TotalsCalculation.Count);
 
 // Saving the Excel file
 workbook.save(path.join(dataDir, "output.xlsx"));

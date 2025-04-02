@@ -26,19 +26,29 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Working directories
-const sourceDir = RunExamples.Get_SourceDirectory();
-const outputDir = RunExamples.Get_OutputDirectory();
+const sourceDir = path.join(__dirname, "data");
+const outputDir = path.join(__dirname, "output");
 
 const workbook = new AsposeCells.Workbook(path.join(sourceDir, "SamplePowerQueryFormula.xlsx"));
 const mashupData = workbook.getDataMashup();
-mashupData.getPowerQueryFormulas().forEach(formula => {
-    formula.getPowerQueryFormulaItems().forEach(item => {
-        if (item.getName() === "Source") {
-            item.setValue(`Excel.Workbook(File.Contents("${path.join(sourceDir, "SamplePowerQueryFormulaSource.xlsx")}", null, true)`);
-        }
-    });
-});
+
+const powerQueryFormulas = mashupData.getPowerQueryFormulas();
+const count = powerQueryFormulas.getCount();
+for (let i = 0; i < count; i++) 
+{
+const formula = powerQueryFormulas.get(i);
+const items = formula.getPowerQueryFormulaItems();
+const itemsCount = items.getCount();
+for (let j = 0; j < itemsCount; j++) 
+{
+const item = items.get(j);
+if (item.getName() === "Source") 
+{
+item.setValue(`Excel.Workbook(File.Contents("${path.join(sourceDir, "SamplePowerQueryFormulaSource.xlsx")}", null, true)`);
+}
+}
+}
 
 // Save the output workbook.
-workbook.save(path.join(outputDir, "SamplePowerQueryFormula_out.xlsx"));
+workbook.save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 ```

@@ -27,11 +27,6 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 
-// Create directory if it is not already present.
-if (!require("fs").existsSync(dataDir)) {
-    require("fs").mkdirSync(dataDir);
-}
-
 // Instantiating a Workbook object
 const workbook = new AsposeCells.Workbook();
 
@@ -66,11 +61,6 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-
-// Create directory if it is not already present.
-if (!require("fs").existsSync(dataDir)) {
-    require("fs").mkdirSync(dataDir);
-}
 
 // Instantiating a Workbook object
 const workbook = new AsposeCells.Workbook();
@@ -154,10 +144,13 @@ const cells = workbook.getWorksheets().get(0).getCells();
 cells.get("A1").putValue("A1");
 cells.get("C10").putValue("C10");
 
+const picts = workbook.getWorksheets().get(0).getPictures();
 // Add a blank picture to the D1 cell
-const pic = workbook.getWorksheets().get(0).getPictures().addPicture(0, 3, 10, 6, null);
+const picIndex = picts.add(0, 3, 10, 6, null);
+const pic = picts.get(picIndex);
 
 // Specify the formula that refers to the source range of cells
+
 pic.setFormula("A1:C10");
 
 // Update the shapes selected value in the worksheet

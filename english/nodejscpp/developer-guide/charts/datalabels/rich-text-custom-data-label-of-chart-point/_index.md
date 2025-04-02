@@ -24,7 +24,7 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 // Create a workbook from source Excel file
-const workbook = new AsposeCells.Workbook(path.join(dataDir, "sample.xlsx"));
+const workbook = new AsposeCells.Workbook(path.join(dataDir, "sample_custom_datalabel.xlsx"));
 
 // Access first worksheet
 const worksheet = workbook.getWorksheets().get(0);
@@ -39,7 +39,7 @@ const dlbls = chart.getNSeries().get(0).getPoints().get(0).getDataLabels();
 dlbls.setText("Rich Text Label");
 
 // Set the font setting of the first 10 characters
-const fntSetting = dlbls.getCharacters(0, 10);
+const fntSetting = dlbls.characters(0, 10);
 fntSetting.getFont().setColor(AsposeCells.Color.Red);
 fntSetting.getFont().setIsBold(true);
 

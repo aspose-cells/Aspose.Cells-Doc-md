@@ -30,9 +30,6 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "sample.xlsx");
-// Loads the workbook which contains hidden external links
-const workbook = new AsposeCells.Workbook(filePath);
 
 // Instantiate a new Workbook.
 const workbook = new AsposeCells.Workbook();
@@ -41,10 +38,12 @@ const workbook = new AsposeCells.Workbook();
 const cells = workbook.getWorksheets().get(0).getCells();
 
 // Fill some sample data into the cells.
-for (let i = 0; i < 50; i++) {
-    for (let j = 0; j < 10; j++) {
-        cells.get(i, j).putValue(`${i},${j}`);
-    }
+for (let i = 0; i < 50; i++)
+{
+for (let j = 0; j < 10; j++) 
+{
+cells.get(i, j).putValue(`${i},${j}`);
+}
 }
 
 // Create a range (A1:D3).

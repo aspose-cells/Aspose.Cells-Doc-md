@@ -86,12 +86,6 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 
-// Create directory if it is not already present.
-const fs = require("fs");
-if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir);
-}
-
 // Instantiate a new Workbook.
 const workbook = new AsposeCells.Workbook();
 
@@ -146,7 +140,7 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 // Instantiate a new Workbook.
-const workbook = new AsposeCells.Workbook(path.join(dataDir, "book1.xls"));
+const workbook = new AsposeCells.Workbook(path.join(dataDir, "book1_testrange.xls"));
 
 // Getting the specified named range
 const range = workbook.getWorksheets().getRangeByName("TestRange");
@@ -171,13 +165,14 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 // Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(path.join(dataDir, "book1.xls"));
+const workbook = new AsposeCells.Workbook(path.join(dataDir, "book1_testrange.xls"));
 
 // Getting the specified named range
 const range = workbook.getWorksheets().getRangeByName("TestRange");
 
-if (range !== null) {
-    console.log("Named Range : " + range.getRefersTo());
+if (range !== null) 
+{
+console.log("Named Range : " + range.getRefersTo());
 }
 ```  
 
@@ -200,7 +195,7 @@ const workbook = new AsposeCells.Workbook(path.join(dataDir, "book1.xls"));
 const ranges = workbook.getWorksheets().getNamedRanges();
 
 if (ranges != null) {
-    console.log("Total Number of Named Ranges: " + ranges.length);
+console.log("Total Number of Named Ranges: " + ranges.length);
 }
 ```  
 
@@ -215,10 +210,6 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-// Create directory if it is not already present.
-if (!require("fs").existsSync(dataDir)) {
-    require("fs").mkdirSync(dataDir);
-}
 
 // Instantiate a new Workbook.
 const workbook = new AsposeCells.Workbook();

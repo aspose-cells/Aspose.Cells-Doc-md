@@ -29,37 +29,69 @@ const path = require("path");
 
 // Defines a custom class derived from GlobalizationSettings class
 class CustomSettings extends AsposeCells.GlobalizationSettings {
-    // Overrides the GetTotalName method
-    getTotalName(functionType) {
-        // Checks the function type used to add the subtotals
-        switch (functionType) {
-            // Returns custom value based on the function type used to add the subtotals
-            case AsposeCells.ConsolidationFunction.Average:
-                return "AVG";
-            // Handle other cases as per requirement
-            default:
-                return super.getTotalName(functionType);
-        }
-    }
+// Overrides the GetTotalName method
+getTotalName(functionType) {
+// Checks the function type used to add the subtotals
+switch (functionType) {
+// Returns custom value based on the function type used to add the subtotals
+case AsposeCells.ConsolidationFunction.Average:
+return "AVG";
+// Handle other cases as per requirement
+default:
+return super.getTotalName(functionType);
+}
+}
 
-    // Overrides the GetGrandTotalName method
-    getGrandTotalName(functionType) {
-        // Checks the function type used to add the subtotals
-        switch (functionType) {
-            // Returns custom value based on the function type used to add the subtotals
-            case AsposeCells.ConsolidationFunction.Average:
-                return "GRD AVG";
-            // Handle other cases as per requirement
-            default:
-                return super.getGrandTotalName(functionType);
-        }
-    }
+// Overrides the GetGrandTotalName method
+getGrandTotalName(functionType) {
+// Checks the function type used to add the subtotals
+switch (functionType) {
+// Returns custom value based on the function type used to add the subtotals
+case AsposeCells.ConsolidationFunction.Average:
+return "GRD AVG";
+// Handle other cases as per requirement
+default:
+return super.getGrandTotalName(functionType);
+}
+}
 }
 ```
 
 In order to inject custom labels, it is required to assign the [**WorkbookSettings.getGlobalizationSettings()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#getGlobalizationSettings--) property to an instance of the **CustomSettings** class defined above before adding the Subtotals to the worksheet.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
+const path = require("path");
+// Defines a custom class derived from GlobalizationSettings class
+class CustomSettings extends AsposeCells.GlobalizationSettings {
+// Overrides the GetTotalName method
+getTotalName(functionType) {
+// Checks the function type used to add the subtotals
+switch (functionType) {
+// Returns custom value based on the function type used to add the subtotals
+case AsposeCells.ConsolidationFunction.Average:
+return "AVG";
+// Handle other cases as per requirement
+default:
+return super.getTotalName(functionType);
+}
+}
+
+// Overrides the GetGrandTotalName method
+getGrandTotalName(functionType) {
+// Checks the function type used to add the subtotals
+switch (functionType) {
+// Returns custom value based on the function type used to add the subtotals
+case AsposeCells.ConsolidationFunction.Average:
+return "GRD AVG";
+// Handle other cases as per requirement
+default:
+return super.getGrandTotalName(functionType);
+}
+}
+}
+
+try {
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
@@ -85,6 +117,10 @@ sheet.autoFitColumns();
 
 // Saves the workbook on disc
 workbook.save(path.join(dataDir, "output_out.xlsx"));
+} catch (error) {
+console.error(`Test failed: ${error.message}`);
+throw error;
+}
 ```
 
 {{% alert color="primary" %}}

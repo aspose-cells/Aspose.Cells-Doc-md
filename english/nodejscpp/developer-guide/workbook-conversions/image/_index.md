@@ -60,9 +60,9 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 // Output directory
-const outputDir = RunExamples.Get_OutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 const filePath = path.join(sourceDir, "sampleConvertWorksheetToImageByPage.xlsx");
 const workbook = new AsposeCells.Workbook(filePath);
@@ -76,8 +76,10 @@ options.setImageType(AsposeCells.ImageType.Tiff);
 
 // Sheet2Image By Page conversion
 const sr = new AsposeCells.SheetRender(sheet, options);
-for (let j = 0; j < sr.getPageCount(); j++) {
-    sr.toImage(j, path.join(outputDir, `outputConvertWorksheetToImageByPage_${j + 1}.tif`));
+for (let j = 0; j < sr.getPageCount(); j++) 
+{
+let path = "outputConvertWorksheetToImageByPage_" + (j + 1) + ".tif";
+sr.toImage(j, path);
 }
 ```  
 

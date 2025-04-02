@@ -40,6 +40,31 @@ Please note that commenting out these lines inside the code will break the links
 ```javascript
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
+// Implementation of IFilePathProvider interface
+class FilePathProvider extends AsposeCells.IFilePathProvider
+{
+// Constructor
+constructor() 
+{
+super();
+}
+
+// Gets the full path of the file by worksheet name when exporting worksheet to html separately.
+// So the references among the worksheets could be exported correctly.
+getFullName(sheetName) 
+{
+if (sheetName === "Sheet2")
+{
+return "file:///" + path.join("OtherSheets", "Sheet2.html");
+} 
+else if (sheetName === "Sheet3") 
+{
+return "file:///" + path.join("OtherSheets", "Sheet3.html");
+}
+
+return "";
+}
+}
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
@@ -49,7 +74,8 @@ const workbook = new AsposeCells.Workbook(filePath);
 
 // For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-.NET
 // If you will comment this line, then hyperlinks will be broken
-options.FilePathProvider = new FilePathProvider();
+const options = new AsposeCells.HtmlSaveOptions();
+options.setFilePathProvider(new FilePathProvider());
 ```
 
 Here is the complete sample code which you can execute with the provided [sample excel file](5115211.xlsx).
@@ -59,87 +85,98 @@ const fs = require("fs");
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
+// Implementation of IFilePathProvider interface
+class FilePathProvider extends AsposeCells.IFilePathProvider
+{
+// Constructor
+constructor() 
+{
+super();
+}
+
+// Gets the full path of the file by worksheet name when exporting worksheet to html separately.
+// So the references among the worksheets could be exported correctly.
+getFullName(sheetName) 
+{
+if (sheetName === "Sheet2")
+{
+return "file:///" + path.join("OtherSheets", "Sheet2.html");
+} 
+else if (sheetName === "Sheet3") 
+{
+return "file:///" + path.join("OtherSheets", "Sheet3.html");
+}
+
+return "";
+}
+}
+
 // This is the directory path which contains the sample.xlsx file
 const dirPath = path.join(__dirname, "data");
 
 // because Aspose.Cells will always make the warning worksheet as active sheet in Evaluation mode.
-setLicense();
+//setLicense();
 
 // Check if license is set, otherwise do not proceed
 const wb = new AsposeCells.Workbook();
 if (!wb.isLicensed()) {
-    console.log("You must set the license to execute this code successfully.");
+console.log("You must set the license to execute this code successfully.");
 } else {
-    // Test IFilePathProvider interface
-    testFilePathProvider();
+// Test IFilePathProvider interface
+testFilePathProvider();
 }
 
 function setLicense() {
-    const licPath = "Aspose.Cells.lic";
+const licPath = "Aspose.Cells.lic";
 
-    const lic = new AsposeCells.License();
-    lic.setLicense(licPath);
+const lic = new AsposeCells.License();
+lic.setLicense(licPath);
 
-    console.log(AsposeCells.CellsHelper.getVersion());
-    console.debug(AsposeCells.CellsHelper.getVersion());
+console.log(AsposeCells.CellsHelper.getVersion());
+console.debug(AsposeCells.CellsHelper.getVersion());
 
-    process.chdir(dirPath);
+process.chdir(dirPath);
 }
 
 function testFilePathProvider() {
-    // Create subdirectory for second and third worksheets
-    const otherSheetsDir = path.join(dirPath, "OtherSheets");
-    if (!fs.existsSync(otherSheetsDir)) {
-        fs.mkdirSync(otherSheetsDir);
-    }
-
-    // Load sample workbook from your directory
-    const wb = new AsposeCells.Workbook(path.join(dirPath, "Sample.xlsx"));
-
-    // Save worksheets to separate html files
-    // Because of IFilePathProvider, hyperlinks will not be broken.
-    for (let i = 0; i < wb.getWorksheets().getCount(); i++) {
-        // Set the active worksheet to current value of variable i
-        wb.getWorksheets().setActiveSheetIndex(i);
-
-        // Create html save option
-        const options = new AsposeCells.HtmlSaveOptions();
-        options.setExportActiveWorksheetOnly(true);
-        // If you will comment this line, then hyperlinks will be broken
-        options.setFilePathProvider(new FilePathProvider());
-        // Sheet actual index which starts from 1 not from 0
-        const sheetIndex = i + 1;
-
-        let filePath = "";
-
-        // Save first sheet to same directory and second and third worksheets to subdirectory
-        if (i === 0) {
-            filePath = path.join(dirPath, "Sheet1.html");
-        } else {
-            filePath = path.join(otherSheetsDir, `Sheet${sheetIndex}_out.html`);
-        }
-
-        // Save the worksheet to html file
-        wb.save(filePath, options);
-    }
+// Create subdirectory for second and third worksheets
+const otherSheetsDir = path.join(dirPath, "OtherSheets");
+if (!fs.existsSync(otherSheetsDir)) {
+fs.mkdirSync(otherSheetsDir);
 }
 
-// Implementation of IFilePathProvider interface
-class FilePathProvider {
-    // Constructor
-    constructor() {
-    }
+// Load sample workbook from your directory
+const wb = new AsposeCells.Workbook(path.join(dirPath, "Sample_filepath.xlsx"));
 
-    // Gets the full path of the file by worksheet name when exporting worksheet to html separately.
-    // So the references among the worksheets could be exported correctly.
-    getFullName(sheetName) {
-        if (sheetName === "Sheet2") {
-            return "file:///" + path.join("OtherSheets", "Sheet2.html");
-        } else if (sheetName === "Sheet3") {
-            return "file:///" + path.join("OtherSheets", "Sheet3.html");
-        }
+// Save worksheets to separate html files
+// Because of IFilePathProvider, hyperlinks will not be broken.
+for (let i = 0; i < wb.getWorksheets().getCount(); i++)
+{
+// Set the active worksheet to current value of variable i
+wb.getWorksheets().setActiveSheetIndex(i);
 
-        return "";
-    }
+// Create html save option
+const options = new AsposeCells.HtmlSaveOptions();
+options.setExportActiveWorksheetOnly(true);
+// If you will comment this line, then hyperlinks will be broken
+options.setFilePathProvider(new FilePathProvider());
+// Sheet actual index which starts from 1 not from 0
+const sheetIndex = i + 1;
+
+let filePath = "";
+
+// Save first sheet to same directory and second and third worksheets to subdirectory
+if (i === 0) 
+{
+filePath = path.join(dirPath, "Sheet1.html");
+} 
+else 
+{
+filePath = path.join(otherSheetsDir, `Sheet${sheetIndex}_out.html`);
+}
+
+// Save the worksheet to html file
+wb.save(filePath, options);
+}
 }
 ```

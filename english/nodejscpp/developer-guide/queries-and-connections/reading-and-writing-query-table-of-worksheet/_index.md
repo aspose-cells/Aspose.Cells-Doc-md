@@ -32,7 +32,7 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "Sample.xlsx");
+const filePath = path.join(dataDir, "Sample_queries.xlsx");
 // Create workbook from source excel file
 const workbook = new AsposeCells.Workbook(filePath);
 
@@ -75,7 +75,7 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "Query TXT.xlsx");
+const filePath = path.join(dataDir, "Sample_queries.xlsx");
 
 // Create workbook from source excel file
 const wb = new AsposeCells.Workbook(filePath);

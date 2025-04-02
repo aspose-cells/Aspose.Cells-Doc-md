@@ -29,6 +29,7 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "SampleSheet.xlsx");
+
 const workbook = new AsposeCells.Workbook(filePath);
 const worksheet = workbook.getWorksheets().get(0);
 const chart = worksheet.getCharts().get("Graphiq5");

@@ -39,6 +39,7 @@ To create a pivot table using Aspose.Cells for Node.js via C++:
 Code examples are given below.
 
 ```javascript
+try {
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
@@ -62,71 +63,43 @@ cells.get("E1").putValue("Country");
 cells.get("F1").putValue("Sale");
 
 const namesAndValues = [
-    ["David", 1, "Maxilaku", "Asia", "China", 2000],
-    ["David", 2, "Maxilaku", "Asia", "India", 500],
-    ["David", 3, "Chai", "Asia", "Korea", 1200],
-    ["David", 4, "Maxilaku", "Asia", "India", 1500],
-    ["James", 1, "Chang", "Europe", "France", 500],
-    ["James", 2, "Chang", "Europe", "France", 1500],
-    ["James", 3, "Chang", "Europe", "Germany", 800],
-    ["James", 4, "Chang", "Europe", "Italy", 900],
-    ["James", 4, "Chang", "Europe", "France", 500],
-    ["Miya", 1, "Geitost", "America", "U.S.", 1600],
-    ["Miya", 2, "Chai", "America", "U.S.", 600],
-    ["Miya", 3, "Geitost", "America", "Brazil", 2000],
-    ["Miya", 2, "Geitost", "America", "U.S.", 500],
-    ["Miya", 3, "Maxilaku", "America", "Canada", 900],
-    ["Miya", 4, "Geitost", "America", "U.S.", 700],
-    ["Miya", 5, "Geitost", "America", "U.S.", 1400],
-    ["Miya", 6, "Ikuru", "Europe", "Italy", 1350],
-    ["Miya", 7, "Ikuru", "Europe", "France", 300],
-    ["Miya", 8, "Ikuru", "Europe", "Italy", 500],
-    ["Miya", 9, "Ikuru", "America", "New Zealand", 1000],
-    ["Miya", 10, "Ipoh Coffee", "Oceania", "Australia", 1500],
-    ["Miya", 11, "Chocolade", "Oceania", "Australia", 500],
-    ["Miya", 12, "Chocolade", "Oceania", "New Zealand", 1500],
-    ["Miya", 13, "Chocolade", "Oceania", "S.Africa", 1600],
-    ["Miya", 14, "Chocolade", "Africa", "Egypt", 1000],
-    ["Miya", 15, "Chocolade", "Africa", "Egypt", 1200],
-    ["Miya", 16, "Chocolade", "Africa", "Egypt", 1300],
+["David", 1, "Maxilaku", "Asia", "China", 2000],
+["David", 2, "Maxilaku", "Asia", "India", 500],
+["David", 3, "Chai", "Asia", "Korea", 1200],
+["David", 4, "Maxilaku", "Asia", "India", 1500],
+["James", 1, "Chang", "Europe", "France", 500],
+["James", 2, "Chang", "Europe", "France", 1500],
+["James", 3, "Chang", "Europe", "Germany", 800],
+["James", 4, "Chang", "Europe", "Italy", 900],
+["James", 4, "Chang", "Europe", "France", 500],
+["Miya", 1, "Geitost", "America", "U.S.", 1600],
+["Miya", 2, "Chai", "America", "U.S.", 600],
+["Miya", 3, "Geitost", "America", "Brazil", 2000],
+["Miya", 2, "Geitost", "America", "U.S.", 500],
+["Miya", 3, "Maxilaku", "America", "Canada", 900],
+["Miya", 4, "Geitost", "America", "U.S.", 700],
+["Miya", 5, "Geitost", "America", "U.S.", 1400],
+["Miya", 6, "Ikuru", "Europe", "Italy", 1350],
+["Miya", 7, "Ikuru", "Europe", "France", 300],
+["Miya", 8, "Ikuru", "Europe", "Italy", 500],
+["Miya", 9, "Ikuru", "America", "New Zealand", 1000],
+["Miya", 10, "Ipoh Coffee", "Oceania", "Australia", 1500],
+["Miya", 11, "Chocolade", "Oceania", "Australia", 500],
+["Miya", 12, "Chocolade", "Oceania", "New Zealand", 1500],
+["Miya", 13, "Chocolade", "Oceania", "S.Africa", 1600],
+["Miya", 14, "Chocolade", "Africa", "Egypt", 1000],
+["Miya", 15, "Chocolade", "Africa", "Egypt", 1200],
+["Miya", 16, "Chocolade", "Africa", "Egypt", 1300],
 ];
 
 namesAndValues.forEach((item, index) => {
-    const rowIndex = index + 2;
-    cells.get(`A${rowIndex}`).putValue(item[0]);
-    cells.get(`B${rowIndex}`).putValue(item[1]);
-    cells.get(`C${rowIndex}`).putValue(item[2]);
-    cells.get(`D${rowIndex}`).putValue(item[3]);
-    cells.get(`E${rowIndex}`).putValue(item[4]);
-    cells.get(`F${rowIndex}`).putValue(item[5]);
-});
-
-// Adding a new sheet
-const sheet2 = workbook.getWorksheets().get(workbook.getWorksheets().add());
-sheet2.setName("PivotTable");
-// Getting the pivottables collection in the sheet
-const pivotTables = sheet2.getPivotTables();
-// Adding a PivotTable to the worksheet
-const index = pivotTables.add("=Data!A1:F30", "B3", "PivotTable1");
-// Accessing the instance of the newly added PivotTable
-const pivotTable = pivotTables.get(index);
-// Showing the grand totals
-pivotTable.setRowGrand(true);
-pivotTable.setColumnGrand(true);
-// Setting the PivotTable report is automatically formatted
-pivotTable.setIsAutoFormat(true);
-// Setting the PivotTable autoformat type.
-pivotTable.setAutoFormatType(AsposeCells.Pivot.PivotTableAutoFormatType.Report6);
-// Draging the fields to the row and column areas.
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, 0);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, 2);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, 1);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, 3);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, 5);
-// Setting the number format of the first data field
-pivotTable.getDataFields().get(0).setNumberFormat("$#,##0.00");
-// Saving the Excel file
-workbook.save(path.join(dataDir, "pivotTable_test.out.xlsx"));
+const rowIndex = index + 2;
+cells.get(`A${rowIndex}`).putValue(item[0]);
+cells.get(`B${rowIndex}`).putValue(item[1]);
+cells.get(`C${rowIndex}`).putValue(item[2]);
+cells.get(`D${rowIndex}`).putValue(item[3]);
+cells.get(`E${rowIndex}`).putValue(item[4]);
+cells.get(`F${rowIndex}`).putValue(item[5]);
 ```
 
 ### **Adding a Pivot Chart**
@@ -148,7 +121,8 @@ const dataDir = path.join(__dirname, "data");
 // Opening the excel file
 const workbook = new AsposeCells.Workbook(path.join(dataDir, "pivotTable_test.xlsx"));
 // Adding a new sheet
-const sheet3 = workbook.getWorksheets().add(AsposeCells.SheetType.Chart);
+const sheetIndex = workbook.getWorksheets().add(AsposeCells.SheetType.Chart);
+const sheet3 = workbook.getWorksheets().get(sheetIndex);
 sheet3.setName("PivotChart");
 // Adding a column chart
 const index = sheet3.getCharts().add(AsposeCells.ChartType.Column, 0, 5, 28, 16);

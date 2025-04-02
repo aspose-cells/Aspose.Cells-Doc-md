@@ -25,7 +25,7 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "SourceFile.xlsx");
+const filePath = path.join(dataDir, "SourceFile_activex.xlsx");
 // Create a workbook
 const wb = new AsposeCells.Workbook(filePath);
 
@@ -33,16 +33,19 @@ const wb = new AsposeCells.Workbook(filePath);
 const shape = wb.getWorksheets().get(0).getShapes().get(0);
 
 // Access ActiveX ComboBox Control and update its value
-if (shape.getActiveXControl() != null) {
-    // Access Shape ActiveX Control
-    const c = shape.getActiveXControl();
+if (shape.getActiveXControl() != null)
+{
+// Access Shape ActiveX Control
+const c = shape.getActiveXControl();
 
-    // Check if ActiveX Control is ComboBox Control
-    if (c.getType() === AsposeCells.ControlType.ComboBox) {
-        // Type cast ActiveXControl into ComboBoxActiveXControl and change its value
-        const comboBoxActiveX = new AsposeCells.ComboBoxActiveXControl(c);
-        comboBoxActiveX.setValue("This is combo box control with updated value.");
-    }
+if (c instanceof AsposeCells.ComboBoxActiveXControl)
+{
+// Type cast ActiveXControl into ComboBoxActiveXControl and change its value
+const comboBoxActiveX = new AsposeCells.ComboBoxActiveXControl(c);
+comboBoxActiveX.setValue("This is combo box control with updated value.");
+
+}
+
 }
 
 // Save the workbook

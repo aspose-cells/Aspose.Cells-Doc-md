@@ -22,16 +22,16 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 
 // Output directory
-const outputDir = RunExamples.Get_OutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 const options = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx);
-options.setCultureInfo(new Intl.Locale("ja-JP"));
+options.setLanguageCode(AsposeCells.CountryCode.Japan);
+options.setRegion(AsposeCells.CountryCode.Japan);
 
 const workbook = new AsposeCells.Workbook(path.join(sourceDir, "JapaneseDates.xlsx"), options);
-
-workbook.save(path.join(outputDir, "JapaneseDates.pdf"), AsposeCells.SaveFormat.Pdf);
+workbook.save(outputDir + "JapaneseDates.pdf", AsposeCells.SaveFormat.Pdf);
 ```  
   

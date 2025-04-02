@@ -24,7 +24,7 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "ReadAxisLabels.xlsx");
+const filePath = path.join(dataDir, "ReadAxisLabels_new.xlsx");
 
 // Load the Excel file containing chart
 const workbook = new AsposeCells.Workbook(filePath);
@@ -47,7 +47,7 @@ console.log("---------------------");
 
 // Iterate axis labels and print them one by one
 for (let i = 0; i < lstLabels.length; i++) {
-    console.log(lstLabels[i]);
+console.log(lstLabels[i]);
 }
 ```
 

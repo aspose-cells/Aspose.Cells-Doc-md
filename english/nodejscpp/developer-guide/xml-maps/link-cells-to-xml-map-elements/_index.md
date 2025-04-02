@@ -24,7 +24,7 @@ const AsposeCells = require("aspose.cells.node");
 const dataDir = path.join(__dirname, "data");
 
 // Load sample workbook
-const workbook = new AsposeCells.Workbook(path.join(dataDir, "sample.xlsx"));
+const workbook = new AsposeCells.Workbook(path.join(dataDir, "sample-xml-map.xlsx"));
 
 // Access the Xml Map inside it
 const map = workbook.getWorksheets().getXmlMaps().get(0);

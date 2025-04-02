@@ -26,7 +26,7 @@ const filePath = path.join(dataDir, "EncryptedBook1.xlsx");
 
 // Create a Stream object
 const fs = require("fs");
-const fstream = fs.createReadStream(filePath);
+const fstream = fs.readFileSync(filePath);
 
 const isPasswordValid = AsposeCells.FileFormatUtil.verifyPassword(fstream, "1234");
 

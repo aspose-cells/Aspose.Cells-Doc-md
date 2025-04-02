@@ -41,45 +41,61 @@ const target = new AsposeCells.Workbook();
 const templateFile = new AsposeCells.Workbook(path.join(sourceDir, "sampleDesignerForm.xlsm"));
 
 // Copy all template worksheets to target workbook
-templateFile.getWorksheets().forEach(ws => {
-    if (ws.getType() === AsposeCells.SheetType.Worksheet) {
-        const s = target.getWorksheets().add(ws.getName());
-        s.copy(ws);
+const sheets = templateFile.getWorksheets();
+const sheetCount = sheets.getCount();
+for (let i = 0; i < sheetCount; i++) {
+const ws = sheets.get(i);
+if (ws.getType() === AsposeCells.SheetType.Worksheet) 
+{
+const s = target.getWorksheets().add(ws.getName());
+s.copy(ws);
 
-        // Put message in cell A2 of the target worksheet
-        s.getCells().get("A2").putValue("VBA Macro and User Form copied from template to target.");
-    }
-});
+// Put message in cell A2 of the target worksheet
+s.getCells().get("A2").putValue("VBA Macro and User Form copied from template to target.");
+}
+}
+
 
 // Copy the VBA-Macro Designer UserForm from Template to Target 
-templateFile.getVbaProject().getModules().forEach(vbaItem => {
-    if (vbaItem.getName() === "ThisWorkbook") {
-        // Copy ThisWorkbook module code
-        target.getVbaProject().getModules().get("ThisWorkbook").setCodes(vbaItem.getCodes());
-    } else {
-        console.log(vbaItem.getName());
+const modules = templateFile.getVbaProject().getModules();
+const moduleCount = modules.getCount();
+for (let i = 0; i < moduleCount; i++) {
+const vbaItem = modules.get(i);
+if (vbaItem.getName() === "ThisWorkbook") 
+{
+// Copy ThisWorkbook module code
+target.getVbaProject().getModules().get("ThisWorkbook").setCodes(vbaItem.getCodes());
+} 
+else 
+{
+console.log(vbaItem.getName());
 
-        let vbaMod = 0;
-        const sheet = target.getWorksheets().getSheetByCodeName(vbaItem.getName());
-        if (sheet == null) {
-            vbaMod = target.getVbaProject().getModules().add(vbaItem.getType(), vbaItem.getName());
-        } else {
-            vbaMod = target.getVbaProject().getModules().add(sheet);
-        }
+let vbaMod = 0;
+const sheet = target.getWorksheets().getSheetByCodeName(vbaItem.getName());
+if (sheet.isNull()) 
+{
+vbaMod = target.getVbaProject().getModules().add(vbaItem.getType(), vbaItem.getName());
+} 
+else 
+{
+vbaMod = target.getVbaProject().getModules().add(sheet);
+}
 
-        target.getVbaProject().getModules().get(vbaMod).setCodes(vbaItem.getCodes());
+target.getVbaProject().getModules().get(vbaMod).setCodes(vbaItem.getCodes());
 
-        if (vbaItem.getType() === AsposeCells.VbaModuleType.Designer) {
-            // Get the data of the user form i.e. designer storage
-            const designerStorage = templateFile.getVbaProject().getModules().getDesignerStorage(vbaItem.getName());
+if (vbaItem.getType() === AsposeCells.VbaModuleType.Designer) 
+{
+// Get the data of the user form i.e. designer storage
+const designerStorage = modules.getDesignerStorage(vbaItem.getName());
 
-            // Add the designer storage to target Vba Project
-            target.getVbaProject().getModules().addDesignerStorage(vbaItem.getName(), designerStorage);
-        }
-    }
-});
+// Add the designer storage to target Vba Project
+target.getVbaProject().getModules().addDesignerStorage(vbaItem.getName(), designerStorage);
+}
+}
+}
+
 
 // Save the target workbook
-target.save(path.join(outputDir, "outputDesignerForm.xlsm"), AsposeCells.SaveFormat.Xlsm);
+target.save(outputDir + "outputDesignerForm.xlsm", AsposeCells.SaveFormat.Xlsm);
 ```  
   

@@ -42,16 +42,16 @@ Here is the implementation of the CustomLoad class.
 const AsposeCells = require("aspose.cells.node");
 
 class CustomLoad extends AsposeCells.LoadFilter {
-    startSheet(sheet) {
-        if (sheet.getName() === "Sheet2") {
-            // Load everything from worksheet "Sheet2"
-            this.setLoadDataFilterOptions(AsposeCells.LoadDataFilterOptions.All);
-        } else {
-            // Load nothing
-            this.setLoadDataFilterOptions(AsposeCells.LoadDataFilterOptions.Structure);
-        }
-    }
+startSheet(sheet) {
+if (sheet.getName() === "Sheet2") {
+// Load everything from worksheet "Sheet2"
+this.setLoadDataFilterOptions(AsposeCells.LoadDataFilterOptions.All);
+} else {
+// Load nothing
+this.setLoadDataFilterOptions(AsposeCells.LoadDataFilterOptions.Structure);
+}
+}
 }
 ```
 
-
+

@@ -37,7 +37,7 @@ const sheet = workbook.getWorksheets().get(0);
 const chart = sheet.getCharts().get(0);
 
 // Set text of second legend entry fill to none
-chart.getLegend().getLegendEntries().get(1).setIsOverLay(true);
+chart.getLegend().getLegendEntries().get(1).setIsTextNoFill(true);
 
 // Save the workbook in xlsx format
 workbook.save(path.join(dataDir, "ChartLegendEntry_out.xlsx"), AsposeCells.SaveFormat.Xlsx);

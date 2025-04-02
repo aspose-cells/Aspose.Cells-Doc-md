@@ -30,6 +30,6 @@ const wb = new AsposeCells.Workbook(filePath, lopts);
 // if the time cost of loading the template file exceeds one second, interruption will be required and exception will be thrown here
 // otherwise starts to monitor the save procedure
 monitor.startMonitor(1500); // time limit is 1.5 seconds
-await wb.saveAsync("result.xlsx");
+wb.save("result.xlsx");
 ```  
   

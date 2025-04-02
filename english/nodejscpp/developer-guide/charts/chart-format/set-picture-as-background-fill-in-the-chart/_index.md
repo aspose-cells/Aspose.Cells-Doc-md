@@ -64,7 +64,7 @@ sheet = workbook.getWorksheets().get(sheetIndex);
 sheet.setName("Chart");
 
 // Create chart
-let chartIndex = sheet.getCharts().add(AsposeCells.Charts.ChartType.Column, 1, 1, 25, 10);
+let chartIndex = sheet.getCharts().add(AsposeCells.ChartType.Column, 1, 1, 25, 10);
 const chart = sheet.getCharts().get(chartIndex);
 
 // Set some properties of chart plot area.
@@ -87,7 +87,7 @@ chart.getNSeries().setIsColorVaried(true);
 
 // Set the Legend.
 const legend = chart.getLegend();
-legend.setPosition(AsposeCells.Charts.LegendPositionType.Top);
+legend.setPosition(AsposeCells.LegendPositionType.Top);
 
 // Save the excel file
 workbook.save(path.join(dataDir, "column_chart_out.xls"));

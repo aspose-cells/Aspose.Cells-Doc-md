@@ -28,7 +28,7 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "Book1.xlsx");
+const filePath = path.join(dataDir, "SampleSheet.xlsx");
 
 // Loads the workbook
 const workbook = new AsposeCells.Workbook(filePath);
@@ -61,7 +61,7 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "Book1.xlsx");
+const filePath = path.join(dataDir, "SampleSheet.xlsx");
 
 // Instantiate a new Workbook.
 const workbook = new AsposeCells.Workbook(filePath);
@@ -94,7 +94,7 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "Book1.xlsx");
+const filePath = path.join(dataDir, "sample.xlsx");
 
 // Instantiate a new Workbook.
 const workbook = new AsposeCells.Workbook(filePath);

@@ -47,9 +47,9 @@ const AsposeCells = require("aspose.cells.node");
 const path = require("path");
 
 // The path to the documents directory.
-const sourceDir = RunExamples.getSourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 // Output directory
-const outputDir = RunExamples.getOutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 // Open an encrypted ODS file
 const loadOptions = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Ods);
@@ -64,5 +64,5 @@ const workbook = new AsposeCells.Workbook(path.join(sourceDir, "sampleEncryptedO
 workbook.getSettings().setPassword(null);
 
 // Save the decrypted ODS file
-workbook.save(path.join(outputDir, "outputDecryptedODSFile.ods"));
+workbook.save(outputDir + "outputDecryptedODSFile.ods");
 ```

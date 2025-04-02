@@ -35,25 +35,25 @@ chart.calculate();
 const series = chart.getNSeries().get(0);
 
 /* 
- * Print the data points of the chart series and 
- * check its IsInSecondaryPlot property to determine 
- * if data point is inside the bar or pie 
+* Print the data points of the chart series and 
+* check its IsInSecondaryPlot property to determine 
+* if data point is inside the bar or pie 
 */
 for (let i = 0; i < series.getPoints().getCount(); i++) {
-    // Access chart point
-    const chartPoint = series.getPoints().get(i);
+// Access chart point
+const chartPoint = series.getPoints().get(i);
 
-    // Skip null values
-    if (chartPoint.get_YValue() === null) continue;
+// Skip null values
+if (chartPoint.get_YValue() === null) continue;
 
-   /* 
-     * Print the chart point value and see if it is inside bar or pie.
-     * If the IsInSecondaryPlot is true, then the data point is inside bar 
-     * otherwise it is inside the pie. 
-   */
-    console.log("Value: " + chartPoint.get_YValue());
-    console.log("IsInSecondaryPlot: " + chartPoint.isInSecondaryPlot());
-    console.log();
+/* 
+* Print the chart point value and see if it is inside bar or pie.
+* If the IsInSecondaryPlot is true, then the data point is inside bar 
+* otherwise it is inside the pie. 
+*/
+console.log("Value: " + chartPoint.get_YValue());
+console.log("IsInSecondaryPlot: " + chartPoint.isInSecondaryPlot());
+console.log();
 }
 ```  
 ## **Console Output**  

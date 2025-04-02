@@ -36,28 +36,32 @@ const worksheet = workbook.getWorksheets().get(0);
 // Accessing the user defined shape
 const shape = worksheet.getShapes().get(0);
 
-if (shape.getAutoShapeType() === AsposeCells.AutoShapeType.NotPrimitive) {
-    // Access shape's data
-    const shapePathCollection = shape.getPaths();
+if (shape.getAutoShapeType() === AsposeCells.AutoShapeType.NotPrimitive) 
+{
+// Access shape's data
+const shapePathCollection = shape.getPaths();
 
-    // Access information of individual path
-    for (let i = 0; i < shapePathCollection.getCount(); i++) {
-        const shapePath = shapePathCollection.get(i);
-        // Access path segment list
-        const pathSegments = shapePath.getPathSegementList();
+// Access information of individual path
+for (let i = 0; i < shapePathCollection.getCount(); i++) 
+{
+const shapePath = shapePathCollection.get(i);
+// Access path segment list
+const pathSegments = shapePath.getPathSegementList();
 
-        // Access individual path segment
-        for (let j = 0; j < pathSegments.getCount(); j++) {
-            const pathSegment = pathSegments.get(j);
-            // Gets the points in path segment
-            const segmentPoints = pathSegment.getPoints();
+// Access individual path segment
+for (let j = 0; j < pathSegments.getCount(); j++)
+{
+const pathSegment = pathSegments.get(j);
+// Gets the points in path segment
+const segmentPoints = pathSegment.getPoints();
 
-            for (let k = 0; k < segmentPoints.getCount(); k++) {
-                const pathPoint = segmentPoints.get(k);
-                console.log("X: " + pathPoint.getX() + ", Y: " + pathPoint.getY());
-            }
-        }
-    }
+for (let k = 0; k < segmentPoints.getCount(); k++) 
+{
+const pathPoint = segmentPoints.get(k);
+console.log("X: " + pathPoint.getX() + ", Y: " + pathPoint.getY());
+}
+}
+}
 }
 ```  
   

@@ -43,12 +43,10 @@ const AsposeCells = require("aspose.cells.node");
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "book1.xls");
 
-// Creating a file stream containing the Excel file to be opened
-const fstream = fs.createReadStream(filePath);
 
 // Instantiating a Workbook object
 // Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(fstream);
+const workbook = new AsposeCells.Workbook(filePath);
 
 // Accessing the first worksheet in the Excel file
 const worksheet = workbook.getWorksheets().get(0);
@@ -58,9 +56,6 @@ worksheet.setIsPageBreakPreview(true);
 
 // Saving the modified Excel file
 workbook.save(path.join(dataDir, "output.xls"));
-
-// Closing the file stream to free all resources
-fstream.close();
 ```
 
 ## **Zoom Factor**
@@ -89,12 +84,9 @@ const AsposeCells = require("aspose.cells.node");
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "book1.xls");
 
-// Creating a file stream containing the Excel file to be opened
-const fstream = fs.readFileSync(filePath);
-
 // Instantiating a Workbook object
 // Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(fstream);
+const workbook = new AsposeCells.Workbook(filePath);
 
 // Accessing the first worksheet in the Excel file
 const worksheet = workbook.getWorksheets().get(0);
@@ -104,9 +96,6 @@ worksheet.setZoom(75);
 
 // Saving the modified Excel file
 workbook.save(path.join(dataDir, "output.xls"));
-
-// Closing the file stream to free all resources
-fstream.close();
 ```
 
 ## **Freeze Panes**
@@ -186,10 +175,10 @@ const filePath = path.join(dataDir, "Book1.xls");
 const book = new AsposeCells.Workbook(filePath);
 
 // Set the active cell
-book.getWorksheets().get(0).getCells().checkCell(20, 0).putValue(""); // Assuming A20 translates to row 20, column 0
+book.getWorksheets().get(0).setActiveCell("A20");
 
 // Split the worksheet window
-book.getWorksheets().get(0).getCells().split(0, 0, 0, 0); // Adjust split parameters as needed
+book.getWorksheets().get(0).split();
 
 // Save the excel file
 book.save(path.join(dataDir, "output.xls"));

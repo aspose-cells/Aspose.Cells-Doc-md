@@ -27,11 +27,12 @@ const outputDir = path.join(__dirname, "output");
 
 // Set the load options, we do not want to load VBA
 const loadOptions = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Auto);
-loadOptions.setLoadFilter(AsposeCells.LoadDataFilterOptions.All & ~AsposeCells.LoadDataFilterOptions.VBA);
+const loadFilter = new AsposeCells.LoadFilter(AsposeCells.LoadDataFilterOptions.All & ~AsposeCells.LoadDataFilterOptions.VBA);
+loadOptions.setLoadFilter(loadFilter);
 
 // Create workbook object from sample excel file using load options
 const book = new AsposeCells.Workbook(path.join(sourceDir, "sampleMacroEnabledWorkbook.xlsm"), loadOptions);
 
 // Save the output in pdf format
-book.save(path.join(outputDir, "OutputSampleMacroEnabledWorkbook.xlsm"), AsposeCells.SaveFormat.Xlsm);
+book.save(outputDir + "OutputSampleMacroEnabledWorkbook.xlsm", AsposeCells.SaveFormat.Xlsm);
 ```

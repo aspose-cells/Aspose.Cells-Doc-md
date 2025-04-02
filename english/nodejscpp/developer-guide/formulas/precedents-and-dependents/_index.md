@@ -55,12 +55,26 @@ const filePath = path.join(dataDir, "Book1.xlsx");
 const workbook = new AsposeCells.Workbook(filePath);
 const cells = workbook.getWorksheets().get(0).getCells();
 const cell = cells.get("B4");
-
+// Check if the cell object is not null before proceeding
+if (cell) 
+{
 const ret = cell.getPrecedents();
+if (!ret.isNull() && ret.getCount() > 0)
+{
 const area = ret.get(0);
 console.log(area.getSheetName());
 console.log(AsposeCells.CellsHelper.cellIndexToName(area.getStartRow(), area.getStartColumn()));
 console.log(AsposeCells.CellsHelper.cellIndexToName(area.getEndRow(), area.getEndColumn()));
+}
+else
+{
+console.error("No precedents found for the cell.");
+}
+} 
+else 
+{
+console.error("Cell B4 is null.");
+}
 ```
 ### **Tracing Dependents**
 Aspose.Cells lets you get dependent cells in spreadsheets. Aspose.Cells not only can retrieve cells that provide data regarding a simple formula but also find cells that provide data to complex formula dependents with named ranges.
@@ -79,11 +93,19 @@ const filePath = path.join(dataDir, "Book1.xlsx");
 const workbook = new AsposeCells.Workbook(filePath);
 const cells = workbook.getWorksheets().get(0).getCells();
 const cell = cells.get("B2");
-
+// Ensure dependents is an array
 const dependents = cell.getDependents(true);
 
-for (const c of dependents) {
-    console.log(c.getName());
+if (Array.isArray(dependents)) 
+{
+for (const c of dependents) 
+{
+console.log(c.getName());
+}
+} 
+else 
+{
+console.error("Dependents is not an array");
 }
 ```
 ### **Tracing Precedent and Dependent cells according to calculation chain**
@@ -97,7 +119,6 @@ The following example demonstrates how to trace the precedents and dependents ac
 ```javascript
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
-
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "sample.xlsx");
@@ -108,28 +129,30 @@ cells.get("A1").setFormula("=B1+SUM(B1:B10)+[Book1.xls]Sheet1!B2");
 cells.get("A2").setFormula("=IF(TRUE,B2,B1)");
 workbook.getSettings().getFormulaSettings().setEnableCalculationChain(true);
 workbook.calculateFormula();
+
 let en = cells.get("B1").getDependentsInCalculation(false);
 console.log("B1's calculation dependents:");
-while (en.moveNext()) {
-    let c = en.getCurrent();
-    console.log(c.getName());
+for (var cell of en) {
+console.log(cell.getName());
 }
+
+
 en = cells.get("B2").getDependentsInCalculation(false);
 console.log("B2's calculation dependents:");
-while (en.moveNext()) {
-    let c = en.getCurrent();
-    console.log(c.getName());
+for (var cell of en) {
+console.log(cell.getName());
 }
+
 en = cells.get("A1").getPrecedentsInCalculation();
 console.log("A1's calculation precedents:");
-while (en.moveNext()) {
-    let r = en.getCurrent();
-    console.log(r.toString());
+for (var area of en) {
+console.log(area.toString());
 }
+
+
 en = cells.get("A2").getPrecedentsInCalculation();
 console.log("A2's calculation precedents:");
-while (en.moveNext()) {
-    let r = en.getCurrent();
-    console.log(r.toString());
+for (var area of en) {
+console.log(area.toString());
 }
 ```

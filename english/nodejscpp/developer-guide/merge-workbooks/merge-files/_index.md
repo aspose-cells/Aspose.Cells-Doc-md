@@ -30,8 +30,8 @@ const dataDir = path.join(__dirname, "data");
 // Create an Array (length=2)
 const files = new Array(2);
 // Specify files with their paths to be merged
-files[0] = path.join(dataDir, "Book1.xls");
-files[1] = path.join(dataDir, "Book2.xls");
+files[0] = path.join(dataDir, "book1.xls");
+files[1] = path.join(dataDir, "Book2.xlsx");
 
 // Create a cachedFile for the process
 const cacheFile = path.join(dataDir, "test.txt");
@@ -41,7 +41,7 @@ const dest = path.join(dataDir, "output.xlsx");
 
 // Merge the files in the output file. Supports only .xls files
 AsposeCells.CellsHelper.mergeFiles(files, cacheFile, dest);
-
+console.log(cacheFile);
 // Now if you need to rename your sheets, you may load the output file
 const workbook = new AsposeCells.Workbook(path.join(dataDir, "output.xlsx"));
 
@@ -50,8 +50,8 @@ let i = 1;
 // Browse all the sheets to rename them accordingly
 const worksheets = workbook.getWorksheets();
 for (let j = 0; j < worksheets.getCount(); j++) {
-    worksheets.get(j).setName(`Sheet1${i}`);
-    i++;
+worksheets.get(j).setName(`Sheet1${i}`);
+i++;
 }
 
 // Re-save the file

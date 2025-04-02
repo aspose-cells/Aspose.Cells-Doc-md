@@ -35,10 +35,12 @@ const workbook = new AsposeCells.Workbook();
 const cells = workbook.getWorksheets().get(0).getCells();
 
 // Fill some sample data into the cells.
-for (let i = 0; i < 50; i++) {
-    for (let j = 0; j < 10; j++) {
-        cells.checkCell(i, j).putValue(i.toString() + "," + j.toString());
-    }
+for (let i = 0; i < 50; i++)
+{
+for (let j = 0; j < 10; j++) 
+{
+cells.get(i, j).putValue(i.toString() + "," + j.toString());
+}
 }
 
 // Create a range (A1:D3).
@@ -52,10 +54,22 @@ style.getFont().setName("Calibri");
 style.setForegroundColor(AsposeCells.Color.Yellow);
 style.setPattern(AsposeCells.BackgroundType.Solid);
 // Specify the border attributes.
-style.getBorders().setOutlineBorder(AsposeCells.BorderType.TopBorder, AsposeCells.CellBorderType.Thin, AsposeCells.Color.Blue);
-style.getBorders().setOutlineBorder(AsposeCells.BorderType.BottomBorder, AsposeCells.CellBorderType.Thin, AsposeCells.Color.Blue);
-style.getBorders().setOutlineBorder(AsposeCells.BorderType.LeftBorder, AsposeCells.CellBorderType.Thin, AsposeCells.Color.Blue);
-style.getBorders().setOutlineBorder(AsposeCells.BorderType.RightBorder, AsposeCells.CellBorderType.Thin, AsposeCells.Color.Blue);
+const top = style.getBorders().get(AsposeCells.BorderType.TopBorder);
+top.setLineStyle(AsposeCells.CellBorderType.Thin);
+top.setColor(AsposeCells.Color.Blue);
+
+const bottom = style.getBorders().get(AsposeCells.BorderType.BottomBorder);
+bottom.setLineStyle(AsposeCells.CellBorderType.Thin);
+bottom.setColor(AsposeCells.Color.Blue);
+
+const left = style.getBorders().get(AsposeCells.BorderType.LeftBorder);
+left.setLineStyle(AsposeCells.CellBorderType.Thin);
+left.setColor(AsposeCells.Color.Blue);
+
+const right = style.getBorders().get(AsposeCells.BorderType.RightBorder);
+right.setLineStyle(AsposeCells.CellBorderType.Thin);
+right.setColor(AsposeCells.Color.Blue);
+
 
 // Create the styleflag object.
 const flag1 = new AsposeCells.StyleFlag();

@@ -146,7 +146,7 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-const inputPath = path.join(dataDir, "book1.xls");
+const inputPath = path.join(dataDir, "sample1.xlsx");
 
 // Open an existing excel file.
 const wb = new AsposeCells.Workbook(inputPath);

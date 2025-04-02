@@ -47,14 +47,22 @@ const sheet = workbook.getWorksheets().get(0);
 
 // Use the following lines if you need to read the Sparklines
 // Read the Sparklines from the template file (if it has)
-sheet.getSparklineGroups().forEach(group => {
-    // Display the Sparklines group information e.g type, number of sparklines items
-    console.log(`sparkline group: type:${group.getType()}, sparkline items count:${group.getSparklines().getCount()}`);
-    group.getSparklines().forEach(sparkline => {
-        // Display the individual Sparkines and the data ranges
-        console.log(`sparkline: row:${sparkline.getRow()}, col:${sparkline.getColumn()}, dataRange:${sparkline.getDataRange()}`);
-    });
-});
+const sparklinesCount = sheet.getSparklineGroups().getCount();
+
+for (let i = 0; i < sparklinesCount; i++)
+{
+const group = sheet.getSparklineGroups().get(i);
+// Display the Sparklines group information e.g type, number of sparklines items
+console.log(`sparkline group: type:${group.getType()}, sparkline items count:${group.getSparklines().getCount()}`);
+const sparklineCount = sparklineGroup.getSparklines().getCount();
+for (let j = 0; j < sparklineCount; j++) 
+{
+const sparkline = sparklineGroup.getSparklines().get(j);
+// Display the individual Sparkines and the data ranges
+console.log(`sparkline: row:${sparkline.getRow()}, col:${sparkline.getColumn()}, dataRange:${sparkline.getDataRange()}`);
+}
+}
+
 
 // Add Sparklines
 // Define the CellArea D2:D10
@@ -83,12 +91,6 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "3d_format.out.xlsx");
-
-// Create directory if it is not already present.
-const fs = require('fs');
-if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir);
-}
 
 // Instantiate a new Workbook
 const book = new AsposeCells.Workbook();

@@ -26,7 +26,7 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "book1.xlsx");
+const filePath = path.join(dataDir, "table_ranges.xlsx");
 
 // Open an existing file that contains a table/list object in it
 const wb = new AsposeCells.Workbook(filePath);
@@ -56,7 +56,7 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "book1.xlsx");
+const filePath = path.join(dataDir, "table_ranges.xlsx");
 // Open an existing file that contains a table/list object in it
 const workbook = new AsposeCells.Workbook(filePath);
 

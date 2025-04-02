@@ -35,9 +35,9 @@ textbox.setText("Aspose File Format APIs");
 textbox.getFont().setSize(44);
 
 // Sets preset WordArt style to the text of the shape.
-const fntSetting = textbox.getEquationParagraph().getFont();
+const fntSetting = textbox.getRichFormattings()[0];
 fntSetting.setWordArtStyle(AsposeCells.PresetWordArtStyle.WordArtStyle3);
 
 // Save the workbook in xlsx format
-workbook.save(path.join(outputDir, "outputSetPresetWordArtStyle.xlsx"));
+workbook.save(outputDir + "outputSetPresetWordArtStyle.xlsx");
 ```

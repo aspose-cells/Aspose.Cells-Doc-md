@@ -44,10 +44,10 @@ const showDays = 10;
 let currentDay = 1;
 
 for (let i = 0; i < allDays; i++) {
-    const cellA = `A${i + 2}`;
-    const cellB = `B${i + 2}`;
-    sheet.getCells().get(cellA).putValue(i + 1);
-    sheet.getCells().get(cellB).putValue(50 * (i % 2) + 20 * (i % 3) + 10 * Math.floor(i / 3));
+const cellA = `A${i + 2}`;
+const cellB = `B${i + 2}`;
+sheet.getCells().get(cellA).putValue(i + 1);
+sheet.getCells().get(cellB).putValue(50 * (i % 2) + 20 * (i % 3) + 10 * Math.floor(i / 3));
 }
 
 // This is the Dynamic Scrolling Control Data
@@ -57,11 +57,11 @@ sheet.getCells().get("H19").putValue("Show Days");
 sheet.getCells().get("H20").putValue(showDays);
 
 // Set the dynamic range for the chart's data source. 
-let index = sheets.add("Sheet1!ChtScrollData");
+let index = sheets.getNames().add("Sheet1!ChtScrollData");
 sheets.getNames().get(index).setRefersTo("=OFFSET(Sheet1!$B$2,Sheet1!$G$20,0,Sheet1!$H$20,1)");
 
 // Set the dynamic range for the chart's data labels. 
-index = sheets.add("Sheet1!ChtScrollLabels");
+index = sheets.getNames().add("Sheet1!ChtScrollLabels");
 sheets.getNames().get(index).setRefersTo("=OFFSET(Sheet1!$A$2,Sheet1!$G$20,0,Sheet1!$H$20,1)");
 
 // Add a ScrollBar for the Dynamic Scrolling Chart

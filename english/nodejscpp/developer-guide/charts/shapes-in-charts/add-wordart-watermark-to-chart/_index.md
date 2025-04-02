@@ -34,7 +34,7 @@ const chart = workbook.getWorksheets().get(0).getCharts().get(0);
 
 // Add a WordArt watermark (shape) to the chart's plot area.
 const wordart = chart.getShapes().addTextEffectInChart(AsposeCells.MsoPresetTextEffect.TextEffect2,
-    "CONFIDENTIAL", "Arial Black", 66, false, false, 1200, 500, 2000, 3000);
+"CONFIDENTIAL", "Arial Black", 66, false, false, 1200, 500, 2000, 3000);
 
 // Get the shape's fill format.
 const wordArtFormat = wordart.getFill();

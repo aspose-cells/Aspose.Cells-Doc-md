@@ -50,11 +50,12 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "Excel95_5.0.xls");
+
 // Get the Excel file into stream
 const stream = fs.readFileSync(filePath);
 
 // Instantiate LoadOptions specified by the LoadFormat.
-const loadOptions1 = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Excel97To2003);
+const loadOptions1 = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Auto);
 
 // Create a Workbook object and opening the file from the stream
 const wbExcel95 = new AsposeCells.Workbook(stream, loadOptions1);

@@ -91,16 +91,19 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.getSourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 const filePath = path.join(sourceDir, "[20180220142533][ASPOSE_CELLS_TEST].csv");
 
+const loadOptions = new AsposeCells.TxtLoadOptions();
+loadOptions.setSeparator(';');
+loadOptions.setLoadFilter(new AsposeCells.LoadFilter(AsposeCells.LoadDataFilterOptions.CellData));
+loadOptions.setCheckExcelRestriction(false);
+loadOptions.setConvertNumericData(false);
+loadOptions.setConvertDateTimeData(false);
+
 // Load CSV file
-const workbook = new AsposeCells.Workbook(filePath, new AsposeCells.TxtLoadOptions());
-workbook.getSettings().setSeparator(';');
-workbook.getSettings().setLoadFilter(new AsposeCells.LoadFilter(AsposeCells.LoadDataFilterOptions.CellData));
-workbook.getSettings().setCheckExcelRestriction(false);
-workbook.getSettings().setConvertNumericData(false);
-workbook.getSettings().setConvertDateTimeData(false);
+const workbook = new AsposeCells.Workbook(filePath, loadOptions);
+
 
 console.log(workbook.getWorksheets().get(0).getName()); // (20180220142533)(ASPOSE_CELLS_T
 console.log(workbook.getWorksheets().get(0).getName().length); // 31
@@ -126,7 +129,7 @@ const txtLoadOptions = new AsposeCells.TxtLoadOptions();
 txtLoadOptions.setSeparator(",");
 
 // Specify the encoding type
-txtLoadOptions.setEncoding("utf-8");
+txtLoadOptions.setEncoding(AsposeCells.EncodingType.UTF8);
 
 // Create a Workbook object and opening the file from its path
 const wb = new AsposeCells.Workbook(filePath, txtLoadOptions);
@@ -164,7 +167,7 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 
 // Instantiate LoadOptions specified by the LoadFormat.
 const loadOptions = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Tsv);
@@ -190,7 +193,7 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 
 // Instantiate LoadOptions specified by the LoadFormat.
 const loadOptions = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Sxc);
@@ -216,7 +219,7 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 
 // Instantiate LoadOptions specified by the LoadFormat.
 const loadOptions = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Fods);

@@ -70,7 +70,7 @@ const wb = new AsposeCells.Workbook(sourceFilePath);
 const options = new AsposeCells.HtmlSaveOptions();
 
 // Set optional settings if required
-options.setEncoding(AsposeCells.EncodingType.Utf8);
+options.setEncoding(AsposeCells.EncodingType.UTF8);
 options.setExportImagesAsBase64(true);
 options.setExportGridLines(true);
 options.setExportSimilarBorderStyle(true);

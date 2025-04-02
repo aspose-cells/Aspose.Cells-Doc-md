@@ -55,7 +55,7 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const outDir = RunExamples.getOutputDirectory();
+const outDir = path.join(__dirname, "output");
 
 const workbook = new AsposeCells.Workbook();
 
@@ -66,7 +66,7 @@ const author = workbook.getWorksheets().getThreadedCommentAuthors().get(authorIn
 // Add Threaded Comment
 workbook.getWorksheets().get(0).getComments().addThreadedComment("A1", "Test Threaded Comment", author);
 
-workbook.save(path.join(outDir, "AddThreadedComments_out.xlsx"));
+workbook.save(outDir + "AddThreadedComments_out.xlsx");
 ```  
   
 ## **Read Threaded Comments**  
@@ -90,7 +90,7 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = __dirname; // Adjust as necessary
+const sourceDir = path.join(__dirname, "data"); // Adjust as necessary
 
 const filePath = path.join(sourceDir, "ThreadedCommentsSample.xlsx");
 
@@ -103,10 +103,12 @@ const worksheet = workbook.getWorksheets().get(0);
 // Get Threaded Comments
 const threadedComments = worksheet.getComments().getThreadedComments("A1");
 
-threadedComments.forEach(comment => {
-    console.log("Comment: " + comment.getNotes());
-    console.log("Author: " + comment.getAuthor().getName());
-});
+const count = threadedComments.getCount();
+for (let i = 0; i < count; i++) {
+const comment = threadedComments.get(i);
+console.log("Comment: " + comment.getNotes());
+console.log("Author: " + comment.getAuthor().getName());
+}
 ```  
   
 #### **Console Output**  
@@ -132,7 +134,7 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 const filePath = path.join(sourceDir, "ThreadedCommentsSample.xlsx");
 
 // Loads the workbook
@@ -144,11 +146,14 @@ const worksheet = workbook.getWorksheets().get(0);
 // Get Threaded Comments
 const threadedComments = worksheet.getComments().getThreadedComments("A1");
 
-threadedComments.forEach(comment => {
-    console.log("Comment: " + comment.getNotes());
-    console.log("Author: " + comment.getAuthor().getName());
-    console.log("Created Time: " + comment.getCreatedTime());
-});
+const count = threadedComments.getCount();
+
+for (let i = 0; i < count; i++) {
+const comment = threadedComments.get(i);
+console.log("Comment: " + comment.getNotes());
+console.log("Author: " + comment.getAuthor().getName());
+console.log("Created Time: " + comment.getCreatedTime());
+}
 ```  
   
 #### **Console Output**  
@@ -184,8 +189,8 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source and output directories
-const sourceDir = RunExamples.Get_SourceDirectory();
-const outDir = RunExamples.Get_OutputDirectory();
+const sourceDir = path.join(__dirname, "data");
+const outDir = path.join(__dirname, "output");
 
 const filePath = path.join(sourceDir, "ThreadedCommentsSample.xlsx");
 const workbook = new AsposeCells.Workbook(filePath);
@@ -197,7 +202,7 @@ const worksheet = workbook.getWorksheets().get(0);
 const comment = worksheet.getComments().getThreadedComments("A1").get(0);
 comment.setNotes("Updated Comment");
 
-workbook.save(path.join(outDir, "EditThreadedComments.xlsx"));
+workbook.save(outDir + "EditThreadedComments.xlsx");
 ```  
   
 ## **Remove Threaded Comments**  

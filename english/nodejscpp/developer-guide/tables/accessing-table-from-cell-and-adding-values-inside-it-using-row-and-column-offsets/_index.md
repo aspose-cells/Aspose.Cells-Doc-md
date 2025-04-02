@@ -40,7 +40,7 @@ const AsposeCells = require("aspose.cells.node");
 const dataDir = path.join(__dirname, "data");
 
 // Create workbook from source Excel file
-const workbook = new AsposeCells.Workbook(path.join(dataDir, "source.xlsx"));
+const workbook = new AsposeCells.Workbook(path.join(dataDir, "Accessing_Table.xlsx"));
 
 // Access first worksheet
 const worksheet = workbook.getWorksheets().get(0);

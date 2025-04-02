@@ -23,7 +23,7 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "sample.xlsx");
+const filePath = path.join(dataDir, "sample_wrap_label.xlsx");
 // Load the sample Excel file inside the workbook object
 const workbook = new AsposeCells.Workbook(filePath);
 

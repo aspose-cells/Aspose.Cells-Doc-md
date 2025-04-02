@@ -64,11 +64,6 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 
-// Create directory if it is not already present.
-if (!require("fs").existsSync(dataDir)) {
-    require("fs").mkdirSync(dataDir);
-}
-
 // Instantiating a Workbook object
 const workbook = new AsposeCells.Workbook();
 
@@ -87,7 +82,7 @@ worksheet.getCells().get("B2").putValue(20);
 worksheet.getCells().get("B3").putValue(50);
 
 // Adding a chart to the worksheet
-const chartIndex = worksheet.getCharts().add(AsposeCells.Charts.ChartType.Pyramid, 5, 0, 15, 5);
+const chartIndex = worksheet.getCharts().add(AsposeCells.ChartType.Pyramid, 5, 0, 15, 5);
 
 // Accessing the instance of the newly added chart
 const chart = worksheet.getCharts().get(chartIndex);
@@ -137,7 +132,7 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 // Open the existing file.
-const workbook = new AsposeCells.Workbook(path.join(dataDir, "Book1.xlsx"));
+const workbook = new AsposeCells.Workbook(path.join(dataDir, "sample.xlsx"));
 
 // Get the designer chart in the first worksheet.
 const chart = workbook.getWorksheets().get(0).getCharts().get(0);

@@ -25,8 +25,8 @@ const fs = require("fs");
 const AsposeCells = require("aspose.cells.node");
 
 // Source and output directories
-const sourceDir = RunExamples.getSourceDirectory();
-const outputDir = RunExamples.getOutputDirectory();
+const sourceDir = path.join(__dirname, "data");
+const outputDir = path.join(__dirname, "output");
 
 // Load source Excel file
 const filePath = path.join(sourceDir, "GraphicBackground.ods");
@@ -41,7 +41,7 @@ console.log("Background Type: " + background.getType().toString());
 console.log("Background Position: " + background.getGraphicPositionType().toString());
 
 // Save background image
-const imagePath = path.join(outputDir, "background.jpg");
+const imagePath = outputDir + "background.jpg";
 fs.writeFileSync(imagePath, Buffer.from(background.getGraphicData()));
 ```  
 
@@ -91,7 +91,7 @@ const background = worksheet.getPageSetup().getODSPageBackground();
 background.setColor(AsposeCells.Color.Azure);
 background.setType(AsposeCells.OdsPageBackgroundType.Color);
 
-workbook.save(path.join(outputDir, "ColoredBackground.ods"), AsposeCells.SaveFormat.Ods);
+workbook.save(outputDir + "ColoredBackground.ods", AsposeCells.SaveFormat.Ods);
 ```  
 
 ## **Add Graphic Background to ODS file**  
@@ -106,9 +106,9 @@ const fs = require("fs");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 // Output directory
-const outputDir = RunExamples.Get_OutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 // Instantiating a Workbook object
 const workbook = new AsposeCells.Workbook();
@@ -116,18 +116,18 @@ const workbook = new AsposeCells.Workbook();
 // Access first worksheet
 const worksheet = workbook.getWorksheets().get(0);
 
-worksheet.getCells().checkCell(0, 0).putValue(1);
-worksheet.getCells().checkCell(1, 0).putValue(2);
-worksheet.getCells().checkCell(2, 0).putValue(3);
-worksheet.getCells().checkCell(3, 0).putValue(4);
-worksheet.getCells().checkCell(4, 0).putValue(5);
-worksheet.getCells().checkCell(5, 0).putValue(6);
-worksheet.getCells().checkCell(0, 1).putValue(7);
-worksheet.getCells().checkCell(1, 1).putValue(8);
-worksheet.getCells().checkCell(2, 1).putValue(9);
-worksheet.getCells().checkCell(3, 1).putValue(10);
-worksheet.getCells().checkCell(4, 1).putValue(11);
-worksheet.getCells().checkCell(5, 1).putValue(12);
+worksheet.getCells().get(0, 0).putValue(1);
+worksheet.getCells().get(1, 0).putValue(2);
+worksheet.getCells().get(2, 0).putValue(3);
+worksheet.getCells().get(3, 0).putValue(4);
+worksheet.getCells().get(4, 0).putValue(5);
+worksheet.getCells().get(5, 0).putValue(6);
+worksheet.getCells().get(0, 1).putValue(7);
+worksheet.getCells().get(1, 1).putValue(8);
+worksheet.getCells().get(2, 1).putValue(9);
+worksheet.getCells().get(3, 1).putValue(10);
+worksheet.getCells().get(4, 1).putValue(11);
+worksheet.getCells().get(5, 1).putValue(12);
 
 const background = worksheet.getPageSetup().getODSPageBackground();
 
@@ -135,6 +135,6 @@ background.setType(AsposeCells.OdsPageBackgroundType.Graphic);
 background.setGraphicData(fs.readFileSync(path.join(sourceDir, "background.jpg")));
 background.setGraphicType(AsposeCells.OdsPageBackgroundGraphicType.Area);
 
-workbook.save(path.join(outputDir, "GraphicBackground.ods"), AsposeCells.SaveFormat.Ods);
+workbook.save(outputDir + "GraphicBackground.ods", AsposeCells.SaveFormat.Ods);
 ```  
   

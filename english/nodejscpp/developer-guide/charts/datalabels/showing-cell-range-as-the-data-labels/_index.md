@@ -28,7 +28,7 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "source.xlsx");
+const filePath = path.join(dataDir, "source_show_range.xlsx");
 
 // Create workbook from the source Excel file
 const workbook = new AsposeCells.Workbook(filePath);

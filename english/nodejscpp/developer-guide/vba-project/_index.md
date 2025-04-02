@@ -95,15 +95,18 @@ const dataDir = path.join(__dirname, "data");
 const workbook = new AsposeCells.Workbook(path.join(dataDir, "sample.xlsm"));
 
 // Change the VBA Module Code
-workbook.getVbaProject().getModules().forEach(module => {
-    let code = module.getCodes();
+const modules = workbook.getVbaProject().getModules();
+const moduleCount = modules.getCount();
+for (let i = 0; i < moduleCount; i++) {
+const module = modules.get(i);
+const code = module.getCodes();
+if (code.includes("This is test message.")) 
+{
+code = code.replace("This is test message.", "This is Aspose.Cells message.");
+module.setCodes(code);
+}
+}
 
-    // Replace the original message with the modified message
-    if (code.includes("This is test message.")) {
-        code = code.replace("This is test message.", "This is Aspose.Cells message.");
-        module.setCodes(code);
-    }
-});
 
 // Save the output Excel file
 workbook.save(path.join(dataDir, "output_out.xlsm"));

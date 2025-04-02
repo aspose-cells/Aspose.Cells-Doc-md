@@ -42,11 +42,6 @@ const outputDir = path.join(__dirname, "output");
 // Load template Excel file
 const workbook = new AsposeCells.Workbook(path.join(sourceDir, "sampleCrosssType.xlsx"));
 
-// Create file streams for saving the PDF and PNG files
-const fs = require("fs");
-const outputStream = fs.createWriteStream(path.join(outputDir, "outputCrosssType.pdf"));
-const outputStream2 = fs.createWriteStream(path.join(outputDir, "outputCrosssType.png"));
-
 // Initialize PDF save options
 const pdfSaveOptions = new AsposeCells.PdfSaveOptions();
 
@@ -54,7 +49,7 @@ const pdfSaveOptions = new AsposeCells.PdfSaveOptions();
 pdfSaveOptions.setTextCrossType(AsposeCells.TextCrossType.StrictInCell);
 
 // Save PDF file
-await workbook.saveAsync(outputStream, pdfSaveOptions);
+workbook.save(outputDir + "outputCrosssType.pdf", pdfSaveOptions);
 
 // Initialize image or print options
 const imageSaveOptions = new AsposeCells.ImageOrPrintOptions();
@@ -65,10 +60,6 @@ imageSaveOptions.setTextCrossType(AsposeCells.TextCrossType.StrictInCell);
 // Initialize sheet renderer object
 const sheetRenderer = new AsposeCells.SheetRender(workbook.getWorksheets().get(0), imageSaveOptions);
 
-// Create bitmap image from sheet renderer
-const bitmap = await sheetRenderer.toImageAsync(0);
-
-// Save PNG image
-fs.writeFileSync(outputStream2, bitmap);
+sheetRenderer.toImage(0, outputDir + "outputCrosssType.png");
 ```  
   

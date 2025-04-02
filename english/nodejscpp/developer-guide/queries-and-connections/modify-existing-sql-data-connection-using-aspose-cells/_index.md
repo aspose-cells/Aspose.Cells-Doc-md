@@ -30,6 +30,7 @@ const dataDir = path.join(__dirname, "data");
 // Create workbook object
 const workbook = new AsposeCells.Workbook(path.join(dataDir, "DataConnection.xlsx"));
 
+
 // Access first Data Connection
 const conn = workbook.getDataConnections().get(0);
 

@@ -21,13 +21,17 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 
 // Output directory
-const outputDir = RunExamples.Get_OutputDirectory();
+const outputDir = path.join(__dirname, "output");
+
+
+// Create sample JSON if missing
+const jsonPath = path.join(sourceDir, "SampleJson.json");
 
 // Read JSON file
-const str = fs.readFileSync(path.join(sourceDir, "SampleJson.json"), "utf-8");
+const str = fs.readFileSync(jsonPath, "utf-8");
 
 // Create empty workbook
 const workbook = new AsposeCells.Workbook();
@@ -43,6 +47,6 @@ importOptions.setIgnoreTitle(true);
 AsposeCells.JsonUtility.importData(str, cells, 0, 0, importOptions);
 
 // Save Workbook
-workbook.save(path.join(outputDir, "SampleJson_out.csv"));
+workbook.save(outputDir + "SampleJson_out.csv");
 ```  
   

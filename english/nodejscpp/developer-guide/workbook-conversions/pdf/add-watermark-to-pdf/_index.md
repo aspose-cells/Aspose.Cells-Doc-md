@@ -68,6 +68,7 @@ You can add an image watermark to a PDF just by specifying the image bytes of an
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 const path = require("path");
+const fs = require("fs");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
@@ -83,7 +84,7 @@ wb.getWorksheets().get(index).getCells().get("A1").putValue("Page3");
 wb.getWorksheets().get(index).getPageSetup().setPaperSize(AsposeCells.PaperSizeType.PaperA3);
 
 // Create a watermark from image (you need to prepare image bytes).
-const imageBytes = null;
+const imageBytes = fs.readFileSync(path.join(dataDir, "icon.svg"));
 const watermark = new AsposeCells.RenderingWatermark(imageBytes);
 
 // Specify offset to alignment.

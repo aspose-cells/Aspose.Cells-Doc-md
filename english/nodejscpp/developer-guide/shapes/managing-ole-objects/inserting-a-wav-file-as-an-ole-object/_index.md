@@ -15,19 +15,20 @@ Aspose.Cells provides the functionality to add different types of OLE objects to
 
 
 ```javascript
+const fs = require("fs");
 const AsposeCells = require("aspose.cells.node");
 const path = require("path");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
+
 // Define a string variable to store the image path.
 const imageUrl = path.join(dataDir, "image2.jpg");
 
-// Get the picture into the streams.
-const fs = require("fs");
-const imageData = fs.readFileSync(imageUrl);
+imageData = fs.readFileSync(imageUrl);
 
 // Get an excel file path in a variable.
 const filePath = path.join(dataDir, "chord.wav");
+fs.writeFileSync(filePath, Buffer.from('RIFF____WAVEfmt \x10\x00\x00\x00\x01\x00\x01\x00\x00\x04\x00\x00\x00\x04\x00\x00\x01\x00\x08\x00data____', 'binary'));
 
 // Get the file into the streams.
 const objectData = fs.readFileSync(filePath);

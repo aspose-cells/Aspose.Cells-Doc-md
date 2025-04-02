@@ -97,17 +97,13 @@ const workbook = new AsposeCells.Workbook(path.join(dataDir, "Book1.xls"));
 // Get the first worksheet
 const sheet = workbook.getWorksheets().get(0);
 
-// Apply different Image and Print options
-const options = new AsposeCells.Rendering.ImageOrPrintOptions();
 
-// Set the Format
-options.setSaveFormat(AsposeCells.SaveFormat.Xps);
+// Render the sheet to xps            
+const options = new AsposeCells.XpsSaveOptions();
+const sheetSet = new AsposeCells.SheetSet([sheet.getIndex()]);
+options.setSheetSet(sheetSet);
+workbook.save(path.join(dataDir, "out_printingxps.out.xps"), options);
 
-// Render the sheet with respect to specified printing options
-const sr = new AsposeCells.Rendering.SheetRender(sheet, options);
-
-// Save
-sr.toImage(0, path.join(dataDir, "out_printingxps.out.xps"));
 
 // Export the whole workbook to XPS
 workbook.save(path.join(dataDir, "out_whole_printingxps.out.xps"), new AsposeCells.XpsSaveOptions());
@@ -117,11 +113,14 @@ workbook.save(path.join(dataDir, "out_whole_printingxps.out.xps"), new AsposeCel
 Aspose.Cells supports converting Excel files to Ods, Sxc and Fods files. The code example below shows how to convert the [template](book1.xlsx) to Ods, Sxc and Fods file.  
 
 ```javascript
-const AsposeCells = require("aspose.cells.node");
 const path = require("path");
+const AsposeCells = require("aspose.cells.node");
+
+// The path to the documents directory.
+const dataDir = path.join(__dirname, "data");
 
 // Load your source workbook
-const filePath = path.join(__dirname, "book1.xlsx");
+const filePath = path.join(dataDir, "book1.xlsx");
 const workbook = new AsposeCells.Workbook(filePath);
 
 // Save as ods file 
@@ -309,7 +308,7 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-const sourceDir = path.join(dataDir, "source/");
+const sourceDir = dataDir;
 const outputDir = path.join(dataDir, "output/");
 
 // Open the template file

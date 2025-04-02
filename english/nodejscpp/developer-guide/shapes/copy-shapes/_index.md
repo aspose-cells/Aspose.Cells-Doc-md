@@ -25,7 +25,7 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "sample.xlsx");
+const filePath = path.join(dataDir, "sample_picture.xlsx");
 
 // Loads the workbook which contains hidden external links
 const workbook = new AsposeCells.Workbook(filePath);
@@ -53,7 +53,7 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "sample.xlsx");
+const filePath = path.join(dataDir, "sample_chart.xlsx");
 // Loads the workbook which contains hidden external links
 const workbook = new AsposeCells.Workbook(filePath);
 
@@ -78,7 +78,7 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "sample2.xlsx");
+const filePath = path.join(dataDir, "sample_control.xlsx");
 // Open the template file
 const workbook = new AsposeCells.Workbook(filePath);
 

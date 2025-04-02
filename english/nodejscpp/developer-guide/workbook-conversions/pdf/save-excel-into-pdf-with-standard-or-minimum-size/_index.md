@@ -33,5 +33,5 @@ const workbook = new AsposeCells.Workbook(filePath);
 const opts = new AsposeCells.PdfSaveOptions();
 opts.setOptimizationType(AsposeCells.PdfOptimizationType.MinimumSize);
 
-await workbook.saveAsync(path.join(dataDir, "OptimizedOutput_out.pdf"), opts);
+workbook.save(path.join(dataDir, "OptimizedOutput_out.pdf"), opts);
 ```

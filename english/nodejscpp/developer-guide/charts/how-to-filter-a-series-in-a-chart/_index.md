@@ -79,10 +79,11 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "sample.xlsx");
+
 // Loads the workbook which contains hidden external links
 const workbook = new AsposeCells.Workbook(filePath);
 
-// Create an instance of Workbook
+// Create an instance of Worksheet
 const sheet = workbook.getWorksheets().get("Sheet1");
 // Add data into details cells.
 sheet.getCells().get(0, 0).putValue("Fruits Name");
@@ -95,6 +96,7 @@ sheet.getCells().get(1, 1).putValue(5);
 sheet.getCells().get(2, 1).putValue(2);
 sheet.getCells().get(3, 1).putValue(1);
 sheet.getCells().get(4, 1).putValue(4);
+
 // Add a chart to the worksheet
 const chartIndex = sheet.getCharts().add(AsposeCells.ChartType.Column, 7, 7, 15, 15);
 // Access the instance of the newly added chart
@@ -137,7 +139,7 @@ const workbook = new AsposeCells.Workbook(filePath);
 // Access first worksheet
 const sheet = workbook.getWorksheets().get(0);
 // Access the instance of the newly added chart
-const chartIndex = sheet.getCharts().add(AsposeCells.Charts.ChartType.Column, 7, 7, 15, 15);
+const chartIndex = sheet.getCharts().add(AsposeCells.ChartType.Column, 7, 7, 15, 15);
 const chart = sheet.getCharts().get(chartIndex);
 // Set data range
 chart.setChartDataRange("A1:B7", true);
@@ -146,7 +148,7 @@ chart.toImage("TableFilters.before.png");
 // Add a new List Object to the worksheet
 const listObject = sheet.getListObjects().get(sheet.getListObjects().add("A1", "B7", true));
 // Add default style to the table
-listObject.setTableStyleType(AsposeCells.Tables.TableStyleType.TableStyleMedium10);
+listObject.setTableStyleType(AsposeCells.TableStyleType.TableStyleMedium10);
 // Show Total
 listObject.setShowTotals(false);
 // Add filters for a filter column.

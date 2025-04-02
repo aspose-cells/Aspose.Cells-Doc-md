@@ -43,9 +43,9 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.getSourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 // Output directory
-const outputDir = RunExamples.getOutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 // Open a template excel file
 const filePath = path.join(sourceDir, "sampleConvertWorksheettoImageFile.xlsx");
@@ -60,16 +60,14 @@ imgOptions.setOnePagePerSheet(true);
 
 // Specify the image format
 imgOptions.setImageType(AsposeCells.ImageType.Jpeg);
-            
+
 // Render the sheet with respect to specified image/print options
 const sr = new AsposeCells.SheetRender(sheet, imgOptions);
-            
-// Render the image for the sheet
-const bitmap = sr.toImage(0);
 
 // Save the image file
-const outputFilePath = path.join(outputDir, "outputConvertWorksheettoImageFile.jpg");
-bitmap.save(outputFilePath);
+const outputFilePath = outputDir + "outputConvertWorksheettoImageFile.jpg";
+
+sr.toImage(0, outputFilePath);
 ```  
 
 ## **Using Aspose.Cells for Node.js via C++ to Convert Worksheet to Image File by Page**  
@@ -89,9 +87,9 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 // Output directory
-const outputDir = RunExamples.Get_OutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 const filePath = path.join(sourceDir, "sampleConvertWorksheetToImageByPage.xlsx");
 const workbook = new AsposeCells.Workbook(filePath);
@@ -104,8 +102,9 @@ options.setImageType(AsposeCells.ImageType.Tiff);
 
 // Sheet2Image By Page conversion
 const sr = new AsposeCells.SheetRender(sheet, options);
-for (let j = 0; j < sr.getPageCount(); j++) {
-    sr.toImage(j, path.join(outputDir, `outputConvertWorksheetToImageByPage_${j + 1}.tif`));
+for (let j = 0; j < sr.getPageCount(); j++) 
+{
+sr.toImage(j, outputDir + "outputConvertWorksheetToImageByPage_" + (j + 1) + ".tif");
 }
 ```  
 

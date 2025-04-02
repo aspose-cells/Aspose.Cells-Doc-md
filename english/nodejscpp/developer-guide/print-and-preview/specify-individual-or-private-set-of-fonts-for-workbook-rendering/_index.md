@@ -37,10 +37,14 @@ fontConfigs.setFontFolder(customFontsDir, false);
 const opts = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx);
 opts.setFontConfigs(fontConfigs);
 
+const dataDir = path.join(__dirname, "data");
+const filePath = path.join(dataDir, "sampleSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.xlsx");
+// Output directory
+const outputDir = path.join(__dirname, "output");
 // Load the sample Excel file with individual font configs. 
-const wb = new AsposeCells.Workbook("sampleSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.xlsx", opts);
+const wb = new AsposeCells.Workbook(filePath, opts);
 
 // Save to PDF format.
-wb.save("outputSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.pdf", AsposeCells.SaveFormat.Pdf);
+wb.save(outputDir + "outputSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.pdf", AsposeCells.SaveFormat.Pdf);
 ```  
   

@@ -137,8 +137,8 @@ const customProperty2 = customProperties.get(1);
 // Checking the type of the document property and then storing the value of the
 // document property according to that type
 if (customProperty2.getType() === AsposeCells.PropertyType.String) {
-    const value = customProperty2.getValue().toString();
-    console.log(`${customProperty2.getName()} : ${value}`);
+const value = customProperty2.getValue().toString();
+console.log(`${customProperty2.getName()} : ${value}`);
 }
 ```
 

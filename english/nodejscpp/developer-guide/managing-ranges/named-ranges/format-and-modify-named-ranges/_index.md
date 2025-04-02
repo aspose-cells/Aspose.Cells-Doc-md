@@ -22,11 +22,6 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 
-// Create directory if it is not already present.
-if (!require("fs").existsSync(dataDir)) {
-    require("fs").mkdirSync(dataDir);
-}
-
 // Instantiate a new Workbook.
 const workbook = new AsposeCells.Workbook();
 
@@ -86,11 +81,6 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-
-// Create directory if it is not already present.
-if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir);
-}
 
 // Instantiating a Workbook object
 const workbook = new AsposeCells.Workbook();
@@ -194,7 +184,7 @@ const AsposeCells = require("aspose.cells.node");
 const dataDir = path.join(__dirname, "data");
 
 // Open an existing Excel file that has a (global) named range "TestRange" in it
-const workbook = new AsposeCells.Workbook(path.join(dataDir, "book1.xls"));
+const workbook = new AsposeCells.Workbook(path.join(dataDir, "book1_testrange.xls"));
 
 // Get the first worksheet
 const sheet = workbook.getWorksheets().get(0);
@@ -209,7 +199,7 @@ const name = workbook.getWorksheets().getNames().get("TestRange");
 name.setText("NewRange");
 
 // Save the Excel file
-workbook.save(path.join(dataDir, "RenamingRange.out.xlsx")); 
+workbook.save(path.join(dataDir, "RenamingRange.out.xlsx"));
 ```
 
 ## **Union of Ranges**
@@ -229,41 +219,41 @@ const workbook = new AsposeCells.Workbook(filePath);
 
 // Get the named ranges.
 const ranges = workbook.getWorksheets().getNamedRanges();
-            
+
 // Create a style object.
 const style = workbook.createStyle();
-            
+
 // Set the shading color with solid pattern type.
 style.setForegroundColor(AsposeCells.Color.Yellow);
 style.setPattern(AsposeCells.BackgroundType.Solid);
-            
+
 // Create a styleflag object.
 const flag = new AsposeCells.StyleFlag();
-            
+
 // Apply the cellshading.
 flag.setCellShading(true);
-            
+
 // Creates an array list.
 let al = [];
 
 // Get the array list collection apply the union operation.
 al = ranges[0].unionRanges([ranges[1]]);
-            
+
 // Define a range object.
 let rng;
 let frow, fcol, erow, ecol;
 
 for (let i = 0; i < al.length; i++)
 {
-    // Get a range.
-    rng = al[i];
-    frow = rng.getFirstRow();
-    fcol = rng.getFirstColumn();
-    erow = rng.getRowCount();
-    ecol = rng.getColumnCount();
-            
-    // Apply the style to the range.
-    rng.applyStyle(style, flag);
+// Get a range.
+rng = al[i];
+frow = rng.getFirstRow();
+fcol = rng.getFirstColumn();
+erow = rng.getRowCount();
+ecol = rng.getColumnCount();
+
+// Apply the style to the range.
+rng.applyStyle(style, flag);
 }
 
 // Save the excel file.
@@ -307,14 +297,14 @@ flag.setCellShading(true);
 
 // If first range intersects second range.
 if (isIntersect) {
-    // Create a range by getting the intersection.
-    const intersection = ranges[0].intersect(ranges[1]);
+// Create a range by getting the intersection.
+const intersection = ranges[0].intersect(ranges[1]);
 
-    // Name the range.
-    intersection.setName("Intersection");
+// Name the range.
+intersection.setName("Intersection");
 
-    // Apply the style to the range.
-    intersection.applyStyle(style, flag);
+// Apply the style to the range.
+intersection.applyStyle(style, flag);
 }
 
 // Save the excel file.
@@ -331,11 +321,6 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-
-// Create directory if it is not already present.
-if (!require("fs").existsSync(dataDir)) {
-    require("fs").mkdirSync(dataDir);
-}
 
 // Instantiate a new Workbook.
 const wb1 = new AsposeCells.Workbook();
@@ -386,11 +371,6 @@ const path = require("path");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-
-// Create directory if it is not already present.
-if (!require("fs").existsSync(dataDir)) {
-    require("fs").mkdirSync(dataDir);
-}
 
 // Instantiate a new Workbook.
 const workbook = new AsposeCells.Workbook();

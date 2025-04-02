@@ -32,13 +32,14 @@ const fs = require("fs");
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
-// Read icon resource file data
-const fileName = "icon.svg";
-const bytes = fs.readFileSync(fileName);
-
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "sample.xlsx");
+
+// Read icon resource file data
+const fileName = path.join(dataDir, "icon.svg");
+const bytes = fs.readFileSync(fileName).buffer;
+
 // Loads the workbook which contains hidden external links
 const workbook = new AsposeCells.Workbook(filePath);
 

@@ -30,21 +30,20 @@ The following sample code demonstrates how to make use of the [**Workbook.addDig
 const AsposeCells = require("aspose.cells.node");
 const path = require("path");
 
+const dataDir = path.join(__dirname, "data");
 // Certificate file path and password
-const certFileName = path.join(__dirname, "AsposeDemo.pfx");
+const certFileName = path.join(dataDir, "AsposeDemo.pfx");
 const password = "aspose";
 
 // Load the workbook which is already digitally signed to add new digital signature
-const workbook = new AsposeCells.Workbook(path.join(__dirname, "sampleDigitallySignedByCells.xlsx"));
+const workbook = new AsposeCells.Workbook(path.join(dataDir, "sampleDigitallySignedByCells.xlsx"));
 
 // Create the digital signature collection
 const dsCollection = new AsposeCells.DigitalSignatureCollection();
 
-// Create new certificate
-const certificate = new AsposeCells.X509Certificate(certFileName, password); // Adjust according to C++ addon specifics
 
 // Create new digital signature and add it in digital signature collection
-const signature = new AsposeCells.DigitalSignature(certificate, "Aspose.Cells added new digital signature in existing digitally signed workbook.", new Date());
+const signature = new AsposeCells.DigitalSignature(certFileName, password, "Aspose.Cells added new digital signature in existing digitally signed workbook.", new Date());
 dsCollection.add(signature);
 
 // Add digital signature collection inside the workbook

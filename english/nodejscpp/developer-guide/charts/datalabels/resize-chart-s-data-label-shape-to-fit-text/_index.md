@@ -34,18 +34,22 @@ const workbook = new AsposeCells.Workbook(filePath);
 // Access the Worksheet that contains the Chart
 const sheet = workbook.getWorksheets().get(0);
 
-sheet.getCharts().forEach((chart) => {
-    for (let index = 0; index < chart.getNSeries().getCount(); index++) {
-        // Access the DataLabels of indexed NSeries
-        const labels = chart.getNSeries().get(index).getDataLabels();
+for (let c = 0; c < sheet.getCharts().getCount(); c++) 
+{
+// Access the Chart
+const chart = sheet.getCharts().get(c);
 
-        // Set ResizeShapeToFitText property to true
-        labels.setIsResizeShapeToFitText(true);
-    }
+for (let index = 0; index < chart.getNSeries().getCount(); index++) {
+// Access the DataLabels of indexed NSeries
+const labels = chart.getNSeries().get(index).getDataLabels();
 
-    // Calculate Chart
-    chart.calculate();
-});
+// Set ResizeShapeToFitText property to true
+labels.setIsResizeShapeToFitText(true);
+}
+
+// Calculate Chart
+chart.calculate();
+}
 
 // Save the result
 workbook.save(path.join(dataDir, "output_out.xlsx"));

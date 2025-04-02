@@ -24,7 +24,7 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 // Open the template file.
-const workbook = new AsposeCells.Workbook(path.join(dataDir, "source.xlsx"));
+const workbook = new AsposeCells.Workbook(path.join(dataDir, "table_comment.xlsx"));
 // Access first worksheet.
 const worksheet = workbook.getWorksheets().get(0);
 // Access first list object or table.
@@ -32,5 +32,5 @@ const lstObj = worksheet.getListObjects().get(0);
 // Set the comment of the list object
 lstObj.setComment("This is Aspose.Cells comment.");
 // Save the workbook in xlsx format
-await workbook.saveAsync(path.join(dataDir, "SetCommentOfTableOrListObject_out.xlsx"), AsposeCells.SaveFormat.Xlsx);
+workbook.save(path.join(dataDir, "SetCommentOfTableOrListObject_out.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```

@@ -13,6 +13,7 @@ Earlier, you had to change the culture info of the entire thread to deal with nu
 The following sample code shows how to load the workbook with specific system culture info to deal with dates.
 
 ```javascript
+try {
 const AsposeCells = require("aspose.cells.node");
 const { Readable } = require('stream');
 
@@ -24,19 +25,8 @@ inputStream.push("<html><head><title>Test Culture</title></head><body><table><tr
 inputStream.push(null); // Signal end of stream
 
 const culture = new Intl.NumberFormat("en-GB", {
-    minimumFractionDigits: 2,
-    maximumFractionDigits: 2
-});
-
-const options = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Html);
-options.setParsingFormulaOnOpen(true);  // Simulating culture settings
-
-(async () => {
-    const workbook = new AsposeCells.Workbook(await inputStream.read(), options);
-    const cell = workbook.getWorksheets().get(0).getCells().get("A1");
-    console.assert(cell.getValueType() === AsposeCells.CellValueType.IsDateTime);
-    console.assert(cell.getDateTimeValue().getTime() === new Date(2016, 0, 10).getTime());
-})();
+minimumFractionDigits: 2,
+maximumFractionDigits: 2
 ```
 
 The following sample code shows how to load the workbook with specific system culture info to deal with numbers.
@@ -53,13 +43,13 @@ inputStream._read = () => {}; // No-op
 inputStream.push("<html><head><title>Test Culture</title></head><body><table><tr><td>1234,56</td></tr></table></body></html>");
 inputStream.push(null);
 
-const options = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Html);
-options.setCultureInfo(new Intl.Locale("en-GB"));
+const options = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Html);        
+options.setRegion(AsposeCells.CountryCode.UnitedKingdom);
 
 (async () => {
-    const workbook = new AsposeCells.Workbook(inputStream, options);
-    const cell = workbook.getWorksheets().get(0).getCells().get("A1");
-    console.assert(cell.getType() === AsposeCells.CellValueType.IsNumeric);
-    console.assert(cell.getDoubleValue() === 1234.56);
+const workbook = new AsposeCells.Workbook(inputStream, options);
+const cell = workbook.getWorksheets().get(0).getCells().get("A1");
+console.assert(cell.getType() === AsposeCells.CellValueType.IsNumeric);
+console.assert(cell.getDoubleValue() === 1234.56);
 })();
 ```

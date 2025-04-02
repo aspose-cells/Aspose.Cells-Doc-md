@@ -39,18 +39,17 @@ worksheet.getCells().get("B2").putValue(20);
 worksheet.getCells().get("B3").putValue(50);
 
 // Adding a chart to the worksheet
-const chartIndex = worksheet.getCharts().add(AsposeCells.Charts.ChartType.Column, 5, 0, 15, 5);
+const chartIndex = worksheet.getCharts().add(AsposeCells.ChartType.Column, 5, 0, 15, 5);
 // Accessing the instance of the newly added chart
 const chart = worksheet.getCharts().get(chartIndex);
 // Adding Series Collection (chart data source) to the chart ranging from "A1" cell to "B3"
 chart.getNSeries().add("A1:B3", true);
-            
+
 // Converting chart to image
 chart.toImage(path.join(dataDir, "chartEMF_out.emf"), AsposeCells.ImageType.Emf);
 
 // Converting chart to Bitmap
-const bitmap = chart.toImage();
-bitmap.save(path.join(dataDir, "chartBMP_out.bmp"), AsposeCells.ImageType.Bmp);
+chart.toImage(path.join(dataDir, "chartBMP_out.bmp"), AsposeCells.ImageType.Bmp);
 ```
 
 It is also possible to render the charts to images with advanced settings. Aspose.Cells APIs have exposed an overload version of the [**Chart.toImage(string)**](https://reference.aspose.com/cells/nodejs-cpp/chart/#toImage-string-) method that accepts an instance of [**ImageOrPrintOptions**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions), while allowing to specify parameters such as resolution, smoothing mode, image format, and so on.
@@ -78,7 +77,7 @@ worksheet.getCells().get("B2").putValue(20);
 worksheet.getCells().get("B3").putValue(50);
 
 // Adding a chart to the worksheet
-const chartIndex = worksheet.getCharts().add(AsposeCells.Charts.ChartType.Column, 5, 0, 15, 5);
+const chartIndex = worksheet.getCharts().add(AsposeCells.ChartType.Column, 5, 0, 15, 5);
 // Accessing the instance of the newly added chart
 const chart = worksheet.getCharts().get(chartIndex);
 // Adding Series Collection (chart data source) to the chart ranging from "A1" cell to "B3"
@@ -88,7 +87,7 @@ chart.getNSeries().add("A1:B3", true);
 const options = new AsposeCells.ImageOrPrintOptions();
 options.setVerticalResolution(300);
 options.setHorizontalResolution(300);
-options.setSmoothingMode(AsposeCells.Drawing.Drawing2D.SmoothingMode.AntiAlias);
+
 // Convert chart to image with additional settings
 chart.toImage(path.join(dataDir, "chartPNG_out.png"), options);
 ```

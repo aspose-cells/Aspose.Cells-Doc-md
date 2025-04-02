@@ -45,15 +45,17 @@ const workbook = new AsposeCells.Workbook();
 let response = null;
 
 if (response != null) {
-    // Save in Excel2003 XLS format
-    workbook.save(response, path.join(dataDir, "output.xls"), AsposeCells.ContentDisposition.Inline, new AsposeCells.XlsSaveOptions());
-    response.end();
+// Save in Excel2003 XLS format
+workbook.save(response, path.join(dataDir, "output.xls"), AsposeCells.ContentDisposition.Inline, new AsposeCells.XlsSaveOptions());
+response.end();
 }
 ```  
 
 ### **XLSX Files**  
 
 ```javascript
+try 
+{
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
@@ -63,15 +65,15 @@ const dataDir = path.join(__dirname, "data");
 const workbook = new AsposeCells.Workbook();
 
 if (Response != null) {
-    // Save in Xlsx format
-    workbook.save(Response, path.join(dataDir, "output.xlsx"), AsposeCells.ContentDisposition.Attachment, new AsposeCells.OoxmlSaveOptions());
-    Response.end();
-}
+// Save in Xlsx format
+workbook.saveAsync(Response, path.join(dataDir, "output.xlsx"), AsposeCells.ContentDisposition.Attachment, new AsposeCells.OoxmlSaveOptions()).then(() => {
+Response.end();
 ```  
 
 ### **PDF Files**  
 
 ```javascript
+try {
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
@@ -83,11 +85,9 @@ const filePath = path.join(dataDir, "output.pdf");
 const workbook = new AsposeCells.Workbook();
 
 if (Response != null) {
-    // Save in Pdf format
-    workbook.saveAsync(Response, filePath, AsposeCells.ContentDisposition.Attachment, new AsposeCells.PdfSaveOptions()).then(() => {
-        Response.end();
-    });
-}
+// Save in Pdf format
+workbook.saveAsync(Response, filePath, AsposeCells.ContentDisposition.Attachment, new AsposeCells.PdfSaveOptions()).then(() => {
+Response.end();
 ```  
 
 ### **Note**  
@@ -99,27 +99,27 @@ const path = require("path");
 const { Workbook, SaveFormat } = require("aspose.cells.node");
 
 async function downloadExcel(req, res) {
-    // The path to the documents directory.
-    const dataDir = RunExamples.GetDataDir(Object.getPrototypeOf(downloadExcel).constructor);
-    const filePath = path.join(dataDir, "Book1.xlsx");
-    // Load your source workbook
-    const workbook = new Workbook(filePath);
-    // Save the workbook to a memory stream
-    const stream = workbook.save(null, SaveFormat.Xlsx);
+// The path to the documents directory.
+const dataDir = path.join(__dirname, "data");
+const filePath = path.join(dataDir, "Book1.xlsx");
+// Load your source workbook
+const workbook = new Workbook(filePath);
+// Save the workbook to a memory stream
+const stream = workbook.save(null, SaveFormat.Xlsx);
 
-    // Set the content type and file name
-    const contentType = "application/octet-stream";
-    const fileName = "output.xlsx";
+// Set the content type and file name
+const contentType = "application/octet-stream";
+const fileName = "output.xlsx";
 
-    // Set the response headers
-    res.setHeader("Content-Disposition", `attachment; filename="${fileName}"`);
-    res.setHeader("Content-Type", contentType);
+// Set the response headers
+res.setHeader("Content-Disposition", `attachment; filename="${fileName}"`);
+res.setHeader("Content-Type", contentType);
 
-    // Write the file contents to the response body stream
-    res.end(stream);
+// Write the file contents to the response body stream
+res.end(stream);
 
-    // Return the response
-    return;
+// Return the response
+return;
 }
 ```  
 

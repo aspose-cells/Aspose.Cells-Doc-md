@@ -34,11 +34,9 @@ signatureLine.setSigner("Aspose.Cells");
 signatureLine.setTitle("signed by Aspose.Cells");
 wb.getWorksheets().get(0).getShapes().addSignatureLine(1, 1, signatureLine);
 
-const certificatePath = path.join(dataDir, "rsa2048.pfx");
-const certificate = new AsposeCells.Pkcs.X509Certificate2(certificatePath, "123456");
-const signature = new AsposeCells.DigitalSignature(certificate, "test Microsoft Office signature line", new Date());
-signature.setId(signatureLine.getId());
-signature.setProviderId(signatureLine.getProviderId());
+const certificatePath = path.join(dataDir, "AsposeDemo.pfx");
+const signature = new AsposeCells.DigitalSignature(certificatePath, "aspose", "test Microsoft Office signature line", new Date());
+
 
 const dsCollection = new AsposeCells.DigitalSignatureCollection();
 dsCollection.add(signature);

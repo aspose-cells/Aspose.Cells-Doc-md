@@ -28,8 +28,8 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source and output directories
-const sourceDir = RunExamples.Get_SourceDirectory();
-const outDir = RunExamples.Get_OutputDirectory();
+const sourceDir = path.join(__dirname, "data");
+const outDir = path.join(__dirname, "output");
 
 const filePath = path.join(sourceDir, "LargeSampleFile.xlsx");
 const workbook = new AsposeCells.Workbook(filePath);
@@ -37,19 +37,19 @@ const options = new AsposeCells.XlsbSaveOptions();
 
 options.setCompressionType(AsposeCells.OoxmlCompressionType.Level1);
 let watch = process.hrtime();
-await workbook.saveAsync(path.join(outDir, "LargeSampleFile_level_1_out.xlsb"), options);
+workbook.saveAsync(path.join(outDir, "LargeSampleFile_level_1_out.xlsb"), options);
 let elapsedMs = process.hrtime(watch);
 console.log("Level 1 Elapsed Time: " + (elapsedMs[0] * 1e3 + elapsedMs[1] / 1e6));
 
 watch = process.hrtime();
 options.setCompressionType(AsposeCells.OoxmlCompressionType.Level6);
-await workbook.saveAsync(path.join(outDir, "LargeSampleFile_level_6_out.xlsb"), options);
+workbook.saveAsync(path.join(outDir, "LargeSampleFile_level_6_out.xlsb"), options);
 elapsedMs = process.hrtime(watch);
 console.log("Level 6 Elapsed Time: " + (elapsedMs[0] * 1e3 + elapsedMs[1] / 1e6));
 
 watch = process.hrtime();
 options.setCompressionType(AsposeCells.OoxmlCompressionType.Level9);
-await workbook.saveAsync(path.join(outDir, "LargeSampleFile_level_9_out.xlsb"), options);
+workbook.saveAsync(path.join(outDir, "LargeSampleFile_level_9_out.xlsb"), options);
 elapsedMs = process.hrtime(watch);
 console.log("Level 9 Elapsed Time: " + (elapsedMs[0] * 1e3 + elapsedMs[1] / 1e6));
 ```  

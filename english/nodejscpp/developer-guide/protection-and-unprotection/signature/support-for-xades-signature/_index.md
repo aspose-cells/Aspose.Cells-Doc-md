@@ -21,22 +21,24 @@ const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
 // Source directory
-const sourceDir = RunExamples.Get_SourceDirectory();
+const sourceDir = path.join(__dirname, "data");
 // Output directory
-const outputDir = RunExamples.Get_OutputDirectory();
+const outputDir = path.join(__dirname, "output");
 
 const filePath = path.join(sourceDir, "sourceFile.xlsx");
 const workbook = new AsposeCells.Workbook(filePath);
 const password = "pfxPassword";
-const pfx = "pfxFile";
 
-const signature = new AsposeCells.DigitalSignature(AsposeCells.File.readAllBytes(pfx), password, "testXAdES", new Date());
+const pfx = path.join(sourceDir, "AsposeDemo.pfx");
+
+
+const signature = new AsposeCells.DigitalSignature(pfx, "aspose", "testXAdES", new Date());
 signature.setXAdESType(AsposeCells.XAdESType.XAdES);
 const dsCollection = new AsposeCells.DigitalSignatureCollection();
 dsCollection.add(signature);
 
 workbook.setDigitalSignature(dsCollection);
 
-workbook.save(path.join(outputDir, "XAdESSignatureSupport_out.xlsx"));
+workbook.save(outputDir + "XAdESSignatureSupport_out.xlsx");
 ```  
   

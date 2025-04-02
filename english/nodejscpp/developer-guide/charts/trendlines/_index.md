@@ -39,7 +39,7 @@ const chart = worksheet.getCharts().get(0);
 chart.calculate();
 
 // Access the Trendline
-const trendLine = chart.getNSeries().get(0).getTrendlines().get(0);
+const trendLine = chart.getNSeries().get(0).getTrendLines().get(0);
 
 // Read the Equation Text of Trendline
 console.log("Equation Text: " + trendLine.getDataLabels().getText());

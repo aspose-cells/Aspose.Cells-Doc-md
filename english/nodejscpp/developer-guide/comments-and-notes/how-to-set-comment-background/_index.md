@@ -56,11 +56,6 @@ const path = require("path");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 
-// Create directory if it is not already present.
-if (!require("fs").existsSync(dataDir)) {
-    require("fs").mkdirSync(dataDir);
-}
-
 // Instantiate a Workbook
 const workbook = new AsposeCells.Workbook();
 
@@ -79,7 +74,7 @@ const bmp = fs.readFileSync(path.join(dataDir, "image2.jpg"));
 const ms = Buffer.from(bmp);
 
 // Set image data to the shape associated with the comment
-comment.getCommentShape().getFill().getImageData().setData(ms);
+comment.getCommentShape().getFill().setImageData(ms);
 
 // Save the workbook
 const outputFilePath = path.join(dataDir, "commentwithpicture1.out.xlsx");

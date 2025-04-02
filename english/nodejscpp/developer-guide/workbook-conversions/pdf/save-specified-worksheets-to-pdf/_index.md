@@ -57,7 +57,7 @@ const pdfSaveOptions = new AsposeCells.PdfSaveOptions();
 pdfSaveOptions.setSheetSet(AsposeCells.SheetSet.getAll());
 
 // Save the pdf file with PdfSaveOptions
-await workbook.saveAsync("output.pdf", pdfSaveOptions);
+workbook.save("output.pdf", pdfSaveOptions);
 ```
 
 ## **Save Specified Worksheets to PDF**
