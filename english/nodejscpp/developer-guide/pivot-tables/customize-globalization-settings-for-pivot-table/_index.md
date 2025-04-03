@@ -115,6 +115,8 @@ const dataDir = path.join(__dirname, "data");
 // Load your excel file
 const workbook = new AsposeCells.Workbook(path.join(dataDir, "samplePivotTableGlobalizationSettings.xlsx"));
 
+workbook.getSettings().setGlobalizationSettings(new AsposeCells.GlobalizationSettings());
+
 // Setting Custom Pivot Table Globalization Settings
 workbook.getSettings().getGlobalizationSettings().setPivotSettings(new CustomPivotTableGlobalizationSettings());
 

@@ -50,12 +50,13 @@ console.log(wb2.isDigitallySigned);
 // Get digitalSignature collection from workbook
 const dsc2 = wb2.getDigitalSignature();
 const digitalSignatures = dsc2.getEnumerator();
-while (digitalSignatures.moveNext()) {
-    const dst = digitalSignatures.getCurrent();
+for (var dst of digitalSignatures)
+{
     console.log(dst.getComments()); // test for sign - OK
     console.log(dst.getSignTime()); // 11/25/2010 1:22:01 PM - OK
     console.log(dst.isValid()); // True - OK
 }
+
 ```  
 
 ## **Advance topics**  
