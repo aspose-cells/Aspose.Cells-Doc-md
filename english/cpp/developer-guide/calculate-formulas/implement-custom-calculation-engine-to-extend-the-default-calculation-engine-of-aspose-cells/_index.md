@@ -26,6 +26,8 @@ The following code implements the Custom Calculation Engine. It implements the i
 #include <iostream>
 #include <cwctype>
 #include "Aspose.Cells.h"
+#include <chrono>
+
 using namespace Aspose::Cells;
 
 class CustomEngine : public AbstractCalculationEngine
@@ -39,12 +41,21 @@ public:
         {
             upperName.push_back(std::towupper(funcName[i]));
         }
-        if (upperName == u"TODAY")
-        {
-            Date today;
-            double todayValue = CellsHelper::GetDoubleFromDateTime(today, false);
-            data.SetCalculatedValue(todayValue + 1.0);
-        }
+		if (upperName == u"TODAY")
+		{
+			auto now = std::chrono::system_clock::now();
+			std::time_t now_time = std::chrono::system_clock::to_time_t(now);
+			std::tm local_tm;
+			
+#ifdef _WIN32
+			localtime_s(&local_tm, &now_time);
+#else
+			localtime_r(&now_time, &local_tm);
+#endif
+
+            Date today{ local_tm.tm_year + 1900, local_tm.tm_mon + 1, local_tm.tm_mday };
+			data.SetCalculatedValue(Date{ today.year, today.month, today.day + 1 });
+		}
     }
 
     bool GetProcessBuiltInFunctions() override { return true; }
@@ -81,6 +92,7 @@ int main()
     Aspose::Cells::Cleanup();
     return 0;
 }
+
 ```
 
 ### **Result**
