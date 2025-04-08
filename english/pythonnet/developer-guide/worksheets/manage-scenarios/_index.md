@@ -24,6 +24,7 @@ Use the [**Worksheet.scenarios**](https://reference.aspose.com/cells/python-net/
 1. Open an Excel file containing scenarios
 2. Remove an existing scenario
 3. Add a new scenario
+
 4. Save the modified workbook
 
 ```python
@@ -62,42 +63,3 @@ if len(worksheet.scenarios) > 0:
     print(f"\nProcess completed successfully.\nFile saved at {output_path}")
 ```
 
-```python
-import clr
-clr.AddReference("Aspose.Cells")
-from Aspose.Cells import Workbook, SaveFormat
-
-# Load source workbook
-workbook = Workbook("scenarios.xlsx")
-
-# Access first worksheet
-worksheet = workbook.worksheets[0]
-
-# Remove existing scenario by index
-worksheet.scenarios.remove_at(0)
-
-# Add new scenario
-scenario_index = worksheet.scenarios.add("New Scenario")
-scenario = worksheet.scenarios[scenario_index]
-
-# Set scenario input cells
-scenario.input_cells.add(0, 0, "B1")
-scenario.input_cells.add(0, 1, "B2")
-
-# Save modified workbook
-workbook.save("output.xlsx", SaveFormat.XLSX)
-```
-
-**Key modifications:**
-- Method names converted to snake_case (RemoveAt → remove_at)
-- Property access using Python-style dot notation
-- Added Python.NET assembly reference
-- Used Python import statements
-- Maintained original functionality with Python syntax
-- Updated documentation links to Python.NET references
-
-**Note:** When working with scenarios in Python.NET:
-- Scenario indices are zero-based
-- Input cells are specified using (row, column) coordinates
-- Always validate scenario existence before removal
-- Use SaveFormat enum for output file format specification

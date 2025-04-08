@@ -33,44 +33,6 @@ class CustomFunctionStaticValue(AbstractCalculationEngine):
 
 Now use above function in your Python program:
 
-```python
-import clr
-clr.AddReference("Aspose.Cells")
-from Aspose.Cells import Workbook, CalculationOptions, AbstractCalculationEngine
-from Aspose.Cells.Cells import CellValueType
-
-# Implementation of custom calculation engine
-class CustomFunctionStaticValue(AbstractCalculationEngine):
-    def __init__(self):
-        super().__init__()
-        
-    def calculate_custom_function(self, function_name, params, context):
-        if function_name.upper() == "MYSTATICFUNC":
-            # Return 2D array with values
-            return [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-        return None
-
-# Main program
-def main():
-    # Load source workbook
-    workbook = Workbook("source.xlsx")
-    
-    # Initialize calculation engine
-    engine = CustomFunctionStaticValue()
-    
-    # Set calculation options
-    opts = CalculationOptions()
-    opts.custom_engine = engine
-    
-    # Calculate formula with custom engine
-    workbook.calculate_formula(opts)
-    
-    # Save result
-    workbook.save("output.xlsx")
-
-if __name__ == "__main__":
-    main()
-```
 
 ```python
 import os

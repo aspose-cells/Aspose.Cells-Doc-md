@@ -42,36 +42,6 @@ workbook.save(os.path.join(output_dir, "JapaneseDates.pdf"), SaveFormat.PDF)
 ```
 
 **Python.NET Conversion:**
-```python
-import clr
-clr.AddReference("Aspose.Cells")
-from Aspose.Cells import Workbook, SaveFormat, PdfSaveOptions
-from System.Globalization import CultureInfo
 
-# Load source workbook
-workbook = Workbook("90112015.xlsx")
-
-try:
-    # Set Japanese culture for date conversions
-    culture = CultureInfo("ja-JP", True)
-    culture.DateTimeFormat.Calendar = CultureInfo("ja-JP").DateTimeFormat.Calendar
-    workbook.settings.culture = culture
-
-    # Configure PDF save options
-    options = PdfSaveOptions()
-    options.OnePagePerSheet = True
-
-    # Save workbook with Japanese date formatting
-    workbook.save("90112016.pdf", options)
-except Exception as e:
-    print(f"Error during conversion: {e}")
-```
-
-Key modifications:
-1. Converted C# syntax to Python using clr imports
-2. Used snake_case for method names (save instead of Save)
-3. Added proper exception handling with Python try/except
-4. Maintained core functionality of culture settings and PDF conversion
-5. Updated API references to Python.NET conventions
 
 Note: Ensure Japanese language support is enabled in your environment for accurate era conversions. The [Workbook](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/) class and [PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/) provide the necessary functionality for this conversion.

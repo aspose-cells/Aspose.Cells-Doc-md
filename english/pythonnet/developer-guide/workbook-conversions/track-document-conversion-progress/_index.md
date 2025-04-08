@@ -43,39 +43,6 @@ workbook.save(os.path.join(output_dir, "DocumentConversionProgress.pdf"), pdf_sa
 ```
 
 ```python
-import os
-import clr
-from aspose.cells import Workbook, PdfSaveOptions
-from aspose.cells.rendering import IPageSavingCallback
-from abc import ABC, abstractmethod
-
-clr.AddReference("Aspose.Cells")
-
-class TestPageSavingCallback(IPageSavingCallback):
-    def page_start_saving(self, args):
-        print(f"Start saving page index {args.page_index} of pages {args.page_count}")
-        # Uncomment to skip specific pages
-        # if args.page_index == 3:
-        #     args.is_to_skip = True
-
-    def page_end_saving(self, args):
-        print(f"End saving page index {args.page_index} of pages {args.page_count}")
-
-# Load source workbook
-workbook = Workbook("94896151.xlsx")
-
-# Create PDF save options with callback
-pdf_save_options = PdfSaveOptions()
-pdf_save_options.page_saving_callback = TestPageSavingCallback()
-
-# Save workbook with progress tracking
-output_path = os.path.join("output", "output.pdf")
-workbook.save(output_path, pdf_save_options)
-```
-
-The following is the code for the *TestPageSavingCallback* custom class:
-
-```python
 from aspose.cells import IPageSavingCallback, PageStartSavingArgs, PageEndSavingArgs
 
 class TestPageSavingCallback(IPageSavingCallback):

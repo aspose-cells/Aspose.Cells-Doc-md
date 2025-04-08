@@ -32,46 +32,6 @@ To create massive spreadsheets efficiently:
 This example creates a 10,000x30 cell spreadsheet:
 
 ```python
-import clr
-clr.AddReference("Aspose.Cells")
-from Aspose.Cells import Workbook, SaveFormat, LightCellsDataProvider
-from System import Array
-import datetime
-
-class LargeFileDataProvider(LightCellsDataProvider):
-    def __init__(self, rows_count, cols_count):
-        self.rows_count = rows_count
-        self.cols_count = cols_count
-        self.row_index = -1
-        
-    def start_sheet(self, sheet_index):
-        return sheet_index == 0  # Process first worksheet
-
-    def next_row(self):
-        self.row_index += 1
-        return self.row_index if self.row_index < self.rows_count else -1
-
-    def start_row(self, row):
-        row.is_blank = False
-        row.height = 30
-
-    def next_cell(self):
-        if self.current_col_index < self.cols_count - 1:
-            self.current_col_index += 1
-            return self.current_col_index
-        return -1
-
-    def start_cell(self, cell):
-        cell.put_value(f"Row{self.row_index}_Col{self.current_col_index}")
-        cell.set_style(None)
-
-# Usage
-provider = LargeFileDataProvider(10000, 30)
-workbook = Workbook()
-workbook.save("large_file.xlsx", SaveFormat.Xlsx, provider)
-```
-
-```python
 import os
 from aspose.cells import Workbook, OoxmlSaveOptions, LightCellsDataProvider
 
@@ -147,43 +107,6 @@ For efficient processing of massive files:
 
 ### **Python.NET Implementation Example**
 This example analyzes cell statistics:
-
-```python
-import clr
-clr.AddReference("Aspose.Cells")
-from Aspose.Cells import Workbook, LoadFormat, LightCellsDataHandler
-from System import Array
-
-class LargeFileAnalyzer(LightCellsDataHandler):
-    def __init__(self):
-        self.cell_count = 0
-        self.string_count = 0
-        self.formula_count = 0
-
-    def start_sheet(self, worksheet):
-        return True  # Process all sheets
-
-    def start_row(self, row_index, row):
-        return True  # Process all rows
-
-    def process_row(self, row):
-        return True  # Process cells
-
-    def start_cell(self, column_index, cell):
-        self.cell_count += 1
-        if cell.is_string:
-            self.string_count += 1
-        elif cell.is_formula:
-            self.formula_count += 1
-        return True
-
-# Usage
-analyzer = LargeFileAnalyzer()
-workbook = Workbook("large_file.xlsx", LoadFormat.Xlsx, analyzer)
-print(f"Total Cells: {analyzer.cell_count}")
-print(f"String Cells: {analyzer.string_count}")
-print(f"Formula Cells: {analyzer.formula_count}")
-```
 
 ```python
 import os

@@ -16,32 +16,6 @@ It can be useful to generate thumbnails from worksheets. A thumbnail is a small 
 
 Aspose.Cells for Python via .NET allows you to output worksheets to image files, making thumbnail generation straightforward. The sample code below demonstrates how to output worksheets to image files:
 
-```python
-import clr
-clr.AddReference("Aspose.Cells")
-clr.AddReference("System.Drawing")
-
-from Aspose.Cells import Workbook, ImageOrPrintOptions, SheetRender
-from System.Drawing import Bitmap
-
-# Instantiate a new workbook
-workbook = Workbook("input.xlsx")
-
-# Get the first worksheet
-worksheet = workbook.worksheets[0]
-
-# Create image options
-img_options = ImageOrPrintOptions()
-img_options.set_desired_size(100, 100)  # Set thumbnail size
-img_options.vertical_resolution = 300
-img_options.horizontal_resolution = 300
-
-# Create sheet render
-sheet_render = SheetRender(worksheet, img_options)
-
-# Save thumbnail image
-sheet_render.to_image(0, "thumbnail.png")
-```
 
 ```python
 import os
@@ -95,12 +69,3 @@ os.makedirs(output_dir, exist_ok=True)
 # Save the thumbnail
 thumb.save(os.path.join(output_dir, "outputGenerateThumbnailOfWorksheet.bmp"))
 ```
-
-**Key modifications:**
-- Added Python.NET imports for CLR and System.Drawing
-- Converted PascalCase method names to snake_case (SetDesiredSize → set_desired_size)
-- Removed explicit type declarations in favor of Python's dynamic typing
-- Used Python-style object instantiation
-- Maintained original technical parameters (resolution, image size)
-- Updated API references to Python.NET conventions
-- Added proper path handling (though original example uses simple filename)

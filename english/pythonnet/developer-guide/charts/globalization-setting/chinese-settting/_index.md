@@ -74,20 +74,6 @@ class ChartChineseSetttings(ChartGlobalizationSettings):
 
 Use the custom **ChartChineseSettings** class to apply Chinese localization:
 
-```python
-from aspose.cells import Workbook
-from aspose.cells.charts import Chart
-import clr
-
-# Load workbook and apply Chinese settings
-wb = Workbook("Chinese.xls")
-wb.settings.globalization_settings.chart_settings = ChartChineseSettings()
-
-# Process chart and export
-chart0 = wb.worksheets[0].charts[0]
-chart0.to_image("Output.png")
-```
-
 This configuration ensures chart elements render with Chinese localization in the output image.
 
 ## **Implementation Notes**

@@ -59,9 +59,3 @@ workbook.calculate_formula()
 # Save the workbook in PDF format
 workbook.save("5115538.pdf", ac.SaveFormat.PDF)
 ```
-
-Key modifications from original C# implementation:
-- Method names converted to snake_case (`CalculateFormula` → `calculate_formula`)
-- `SaveFormat` enum uses uppercase naming convention (`Pdf` → `PDF`)
-- Removed explicit type declarations in favor of Python's dynamic typing
-- Simplified namespace references with Python import syntax

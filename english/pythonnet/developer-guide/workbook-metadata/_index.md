@@ -17,7 +17,8 @@ The following sample code uses [**WorkbookMetadata**](https://reference.aspose.c
 
 ```python
 import os
-from aspose.cells import Workbook, MetadataOptions, MetadataType, WorkbookMetadata
+from aspose.cells import Workbook
+from aspose.cells.metadata import MetadataOptions, MetadataType, WorkbookMetadata
 
 # The path to the documents directory.
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -42,18 +43,3 @@ print(w.custom_document_properties["test"])
 print("Press any key to continue...")
 ```
 
-```python
-from aspose.cells.metadata import WorkbookMetadata
-from aspose.cells import Workbook
-import clr
-
-# Edit metadata using WorkbookMetadata
-with WorkbookMetadata("input.xlsx") as meta:
-    meta.custom_document_properties.add("test", "test")
-    meta.save("output.xlsx")
-
-# Verify the property using Workbook
-with Workbook("output.xlsx") as w:
-    custom_props = w.custom_document_properties
-    print(custom_props["test"].value)
-```

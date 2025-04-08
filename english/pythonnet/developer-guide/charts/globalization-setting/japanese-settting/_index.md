@@ -64,22 +64,6 @@ class ChartJapaneseSetttings(ChartGlobalizationSettings):
 
 Use the custom settings class when rendering charts to images:
 
-```python
-from aspose.cells import Workbook
-from aspose.cells.charts import Chart
-import clr
-
-clr.AddReference("Aspose.Cells")
-
-# Load workbook and apply Japanese settings
-wb = Workbook("Japanese.xls")
-wb.settings.globalization_settings.chart_settings = ChartJapaneseSettings()
-
-# Convert chart to image
-chart0 = wb.worksheets[0].charts[0]
-chart0.to_image("Output.png")
-```
-
 This configuration ensures chart elements render with Japanese localization in the output image.
 
 ## **Localization Effects**

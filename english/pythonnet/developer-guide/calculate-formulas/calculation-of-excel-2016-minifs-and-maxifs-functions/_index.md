@@ -16,22 +16,6 @@ Microsoft Excel 2016 supports MINIFS and MAXIFS functions. These functions are n
 ## **Calculation of Excel 2016 MINIFS and MAXIFS functions**
 The following sample code loads the [sample excel file](5115149.xlsx) and calls the [workbook.calculate_formula()](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/) method to perform the formula calculation via Aspose.Cells, then saves the results in the [output PDF](5115154.pdf).
 
-```python
-import clr
-clr.AddReference("Aspose.Cells")
-from aspose.cells import Workbook
-
-# Load sample Excel file
-workbook = Workbook("5115149.xlsx")
-
-# Calculate formulas with Aspose.Cells
-workbook.calculate_formula()
-
-# Save results to PDF
-workbook.save("5115154.pdf")
-
-print("Formulas calculated and output saved successfully.")
-```
 
 ```python
 import os

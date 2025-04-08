@@ -18,41 +18,6 @@ Aspose.Cells for Python.NET supports calculating the IFNA Excel function. The IF
 
 The following code sample demonstrates how to calculate the IFNA function using Aspose.Cells for Python.NET:
 
-```python
-import clr
-clr.AddReference("Aspose.Cells")
-from aspose.cells import Workbook
-
-# Create new workbook instance
-workbook = Workbook()
-
-# Access first worksheet
-worksheet = workbook.worksheets[0]
-cells = worksheet.cells
-
-# Populate sample data
-cells.get("A1").put_value("Orange")
-cells.get("A2").put_value("Apple")
-cells.get("A3").put_value("Lemon")
-
-# Set formulas with potential errors
-cells.get("B1").formula = '=VLOOKUP("Mango", A1:A3, 1, FALSE)'
-cells.get("C1").formula = '=IFNA(B1, "Not found")'
-
-# Set formulas with valid lookups
-cells.get("B2").formula = '=VLOOKUP("Orange", A1:A3, 1, FALSE)'
-cells.get("C2").formula = '=IFNA(B2, "Not found")'
-
-# Calculate workbook formulas
-workbook.calculate_formula()
-
-# Display results
-print("C1 result:", cells.get("C1").string_value)  # Outputs "Not found"
-print("C2 result:", cells.get("C2").string_value)  # Outputs "Orange"
-
-# Save modified workbook
-workbook.save("output.xlsx")
-```
 
 ## **Console Output**
 The above code will produce the following console output:

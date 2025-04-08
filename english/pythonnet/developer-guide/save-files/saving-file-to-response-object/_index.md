@@ -51,23 +51,7 @@ if Response is not None:
 ```
 
 **Python.NET Equivalent:**
-```python
-import clr
-clr.AddReference("Aspose.Cells")
-from Aspose.Cells import Workbook, SaveFormat, ContentDisposition
-from System.IO import MemoryStream
 
-# Create workbook
-workbook = Workbook()
-
-# Save to stream
-stream = MemoryStream()
-workbook.save(stream, SaveFormat.EXCEL_97_TO_2003, ContentDisposition.ATTACHMENT, "output.xls")
-
-# Write stream to response (example using Django)
-# response = HttpResponse(stream.ToArray(), content_type="application/vnd.ms-excel")
-# response['Content-Disposition'] = 'attachment; filename="output.xls"'
-```
 
 ### **XLSX Files**
 ```python
