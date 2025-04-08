@@ -15,9 +15,9 @@ Sample file: [Sample.xlsx](Sample.xlsx)
 
 ## **Export Equations as LaTeX Expressions**
 
-To export equations in Excel as LaTeX expressions, use the [to_latex()](https://reference.aspose.com/cells/python-net/aspose.cells.drawing.equations/equationnode/to_latex/) method.
+To export equations in Excel as LaTeX expressions, use the [to_latex()](https://reference.aspose.com/cells/python-net/aspose.cells.drawing.equations/accentequationnode/to_la_te_x/) method.
 
-The following sample code demonstrates how to use the [to_latex()](https://reference.aspose.com/cells/python-net/aspose.cells.drawing.equations/equationnode/to_latex/) method and insert the generated results into HTML:
+The following sample code demonstrates how to use the [to_latex()](https://reference.aspose.com/cells/python-net/aspose.cells.drawing.equations/accentequationnode/to_la_te_x/) method and insert the generated results into HTML:
 
 ### Python Code
 

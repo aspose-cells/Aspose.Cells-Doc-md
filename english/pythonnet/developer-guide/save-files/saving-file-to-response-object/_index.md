@@ -12,17 +12,6 @@ Aspose.Cells for Python via .NET enables dynamic file generation and direct deli
 {{% /alert %}}
 
 ## **Saving File to Response Stream**
-To generate files dynamically and stream them to clients, use the `save` method with these parameters:
-- **Stream**: Output stream object
-- **File format**: Specified using `SaveFormat` enum
-- **Content disposition**: Determines browser handling via `ContentDisposition` enum
-
-The [**ContentDisposition**](https://reference.aspose.com/cells/python-net/aspose.cells/contentdisposition) enum offers two options:
-
-| **Type**     | **Description**                                                                 |
-|--------------|---------------------------------------------------------------------------------|
-| ATTACHMENT   | Prompts download with associated application                                   |
-| INLINE       | Offers browser preview or save option                                          |
 
 ### **XLS Files**
 ```python

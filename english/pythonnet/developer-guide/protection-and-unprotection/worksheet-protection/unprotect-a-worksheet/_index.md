@@ -28,7 +28,7 @@ A simply protected worksheet is one which is not protected with a password. Such
 
 ### **Unprotecting a Password Protected Worksheet Using Aspose.Cells for Python via .NET**
 
-A password protected worksheet is one that is protected with a password. Such worksheets can be unprotected by calling an overloaded version of the [**unprotect**](https://reference.aspose.com/cells/python-net/aspose.cells.worksheet/unprotect) method that takes the password as a parameter.
+A password protected worksheet is one that is protected with a password. Such worksheets can be unprotected by calling an overloaded version of the [**unprotect**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/unprotect/) method that takes the password as a parameter.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-UnprotectingPasswordProtectedWorksheet-1.py" >}}
 

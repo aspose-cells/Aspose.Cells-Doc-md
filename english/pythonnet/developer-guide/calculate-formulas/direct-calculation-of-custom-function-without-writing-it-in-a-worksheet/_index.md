@@ -10,7 +10,7 @@ keywords: python excel custom functions, python calculate formula, aspose.cells 
 
 ## **Direct Calculation of Custom Function Without Writing in Worksheet**
 
-This topic explains how to directly calculate custom functions without first writing them in a worksheet using the [**Worksheet.calculate_formula(formula, opts)**](https://reference.aspose.com/cells/python-net/aspose.cells.worksheet/calculate_formula/) method.
+This topic explains how to directly calculate custom functions without first writing them in a worksheet using the [**Worksheet.calculate_formula(formula, opts)**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/calculate_formula/) method.
 
 ### **Implementation Example**
 

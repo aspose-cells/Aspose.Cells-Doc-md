@@ -11,8 +11,8 @@ description: Learn how to render Excel worksheets to graphic contexts using Aspo
 
 Aspose.Cells can render worksheets to graphic contexts. The graphic context can be anything like an image file, screen, or printer. Please use one of the following methods to render worksheets to graphic contexts:
 
-- [**sheet_render.to_image(page_index, g, x, y)**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering.sheetrender/to_image/)
-- [**sheet_render.to_image(page_index, g, x, y, width, height)**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering.sheetrender/to_image/)
+- [**sheet_render.to_image(page_index, g, x, y)**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/to_image/)
+- [**sheet_render.to_image(page_index, g, x, y, width, height)**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/to_image/)
 
 {{% /alert %}}
 

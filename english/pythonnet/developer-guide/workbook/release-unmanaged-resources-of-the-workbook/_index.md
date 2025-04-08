@@ -9,11 +9,11 @@ description: Learn how to properly release unmanaged resources when working with
 
 {{% alert color="primary" %}}
 
-Aspose.Cells provides the [**workbook.dispose()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/dispose/) method to release unmanaged resources of the [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) object. This pattern is crucial for handling unmanaged resources like file handles, streams, or memory allocations that aren't automatically managed by Python's garbage collector.
+Aspose.Cells provides the [**workbook.close()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/close/) method to release unmanaged resources of the [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) object. This pattern is crucial for handling unmanaged resources like file handles, streams, or memory allocations that aren't automatically managed by Python's garbage collector.
 
 {{% /alert %}}
 
-The [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) class implements Python's context manager protocol for resource management. You can either explicitly call the [**dispose()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/dispose/) method or use Python's `with` statement to ensure proper cleanup.
+The [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) class implements Python's context manager protocol for resource management. You can either explicitly call the [**close()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/close/) method or use Python's `with` statement to ensure proper cleanup.
 
 ```python
 from aspose.cells import Workbook

@@ -49,5 +49,3 @@ Aspose.Cells automatically adapts to regional settings for:
 - Use Unicode encoding for multilingual content
 - Validate locale-specific formulas
 - Test number parsing with different regional settings
-
-For advanced scenarios, see our [API Reference](https://reference.aspose.com/cells/python-net/aspose.cells/cultureinfo/).
