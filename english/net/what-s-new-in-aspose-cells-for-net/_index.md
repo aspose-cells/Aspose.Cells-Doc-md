@@ -11,7 +11,7 @@ This page describes the most interesting new Aspose.Cells features introduced in
 ## Aspose.Cells for .NET 25.4
 * Support to specify sheet set to export to html
 * Support to get and set gridline color for worksheet
-* Support to export editable charts since Excel2016 to docx file
+* Support to export editable charts to docx file
 * Support reading and writing sensitivity label
 * Support to export more style attributes to Numbers
 * Support to import template files of markdown format
