@@ -9,13 +9,13 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
 ## Aspose.Cells for .NET 25.4
-* Support to specify sheet set to export to html
-* Support to get and set gridline color for worksheet
-* Support to export editable charts to docx file
-* Support reading and writing sensitivity label
-* Support to export more style attributes to Numbers
-* Support to import template files of markdown format
-* Support to detect whether there is any custom function used by formulas in Cell and Workbook
+* Supports specifying the sheet set to export to HTML
+* Supports getting and setting the gridline color of a worksheet
+* Supports exporting editable charts to DOCX files
+* Supports reading and writing sensitivity labels
+* Supports exporting more style attributes to Numbers
+* Supports importing template files in Markdown format
+* Supports detecting whether any custom function is used by formulas in `Cell` and `Workbook`
 
 ## Aspose.Cells for .NET 25.3
 * Support to get display style of one cell from cells without getting the cell object
