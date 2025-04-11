@@ -35,44 +35,44 @@ To add text-based conditional formatting in Excel, follow these steps:
 
 Aspose.Cells fully supports the conditional formatting provided by Microsoft Excel 2007 and later versions in XLSX format on cells at runtime. This examples demonstrate an exercise for advanced conditional formatting types including BeginsWith, ContainsBlank, ContainsText and so on.
 
-### **Sample Code for BeginsWith Type**
+### **Format Cell When the Value Starts With Specified Text**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-Advanced-Text-BeginsWith.cs" >}}
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-Advanced-Text.cs" >}}
-### **Sample Code for ContainsBlank Type**
+### **Format Cell When the Value Contains Blank**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-Advanced-Text-ContainsBlank.cs" >}}
 
-### **Sample Code for ContainsErrors Type**
+### **Format Cell When the Value Contains Errors**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-Advanced-Text-ContainsErrors.cs" >}}
 
-### **Sample Code for ContainsText Type**
+### **Format Cell When the Value Contains Specified Text**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-Advanced-Text-ContainsText.cs" >}}
 
-### **Sample Code for DuplicateValues Type**
+### **Format Cell When the Value Contains Duplicate Values**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-Advanced-Text-DuplicateValues.cs" >}}
 
-### **Sample Code for EndsWith Type**
+### **Format Cell When the Value Ends With Specified Text**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-Advanced-Text-EndsWith.cs" >}}
 
-### **Sample Code for NotContainsBlank Type**
+### **Format Cell When the Value Not Contains Blank**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-Advanced-Text-NotContainsBlank.cs" >}}
 
-### **Sample Code for NotContainsErrors Type**
+### **Format Cell When the Value Not Contains Errors**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-Advanced-Text-NotContainsErrors.cs" >}}
 
-### **Sample Code for NotContainsText Type**
+### **Format Cell When the Value Not Contains Specified Text**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-Advanced-Text-NotContainsText.cs" >}}
 
-### **Sample Code for UniqueValues Type**
+### **Format Cell When the Value Contains Unique Values**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-Formatting-Advanced-Text-UniqueValues.cs" >}}
 
