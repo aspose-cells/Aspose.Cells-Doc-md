@@ -40,9 +40,3 @@ The following chart elements will render according to your localization settings
 | Other Name                  | Other                             |
 | Series Name                 | Series                            |
 
-## **Operation Steps**
-
-These guides demonstrate setting localized regions for charts:
-
-- [How to Set Chinese Region for Chart](/cells/python-net/convert-chart-to-image-for-chinese-region/)
-- [How to Set Japanese Region for Chart](/cells/python-net/convert-chart-to-image-for-japanese-region/)

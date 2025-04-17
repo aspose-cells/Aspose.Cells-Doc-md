@@ -38,7 +38,7 @@ meta.save(os.path.join(data_dir, "Sample2.out.xlsx"))
 w = Workbook(os.path.join(data_dir, "Sample2.out.xlsx"))
 
 # Read document property
-print(w.custom_document_properties["test"])
+print(w.custom_document_properties.get("test"))
 
 print("Press any key to continue...")
 ```

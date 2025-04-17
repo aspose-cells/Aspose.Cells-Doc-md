@@ -20,13 +20,16 @@ The following sample code enforces Aspose.Cells to use 15 significant digits whi
 ## **Sample Code**
 
 ```python
-import aspose.cells as cells
+from aspose.cells import Workbook, CellsHelper
+import aspose.cells
+import os
+import pytest
 
 # Set significant digits to 15
-cells.CellsHelper.significant_digits = 15
+CellsHelper.set_significant_digits(15)
 
 # Create new workbook
-workbook = cells.Workbook()
+workbook = Workbook()
 
 # Access first worksheet
 worksheet = workbook.worksheets[0]
@@ -48,7 +51,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 data_dir = os.path.join(current_dir, "data")
 
 # Set significant digits to 15 like MS-Excel
-CellsHelper.significant_digits = 15
+CellsHelper.set_significant_digits(15)
 
 # Create workbook
 workbook = Workbook()

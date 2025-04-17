@@ -26,10 +26,13 @@ Aspose.Cells for Python via .NET supports all advanced conditional formatting fe
 This example demonstrates various advanced conditional formatting types with Python.NET:
 
 ```python
-import os
-from datetime import datetime
+from aspose.cells import Workbook
 from aspose.cells import Workbook, Worksheet, CellArea, FormatConditionType, IconSetType, FormatConditionValueType, BackgroundType, TimePeriodType
 from aspose.pydrawing import Color
+from datetime import datetime
+import aspose.cells
+import os
+import pytest
 
 class ConditionalFormatting:
     def __init__(self):
@@ -37,7 +40,9 @@ class ConditionalFormatting:
 
     @staticmethod
     def run():
-        data_dir = RunExamples.get_data_dir()
+        # The path to the documents directory
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        data_dir = os.path.join(current_dir, "data")
         obj = ConditionalFormatting()
         obj.do_test(data_dir)
 

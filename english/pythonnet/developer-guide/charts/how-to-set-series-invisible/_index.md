@@ -23,8 +23,11 @@ Use the following code to set series invisible using Aspose.Cells for Python via
 import os
 from aspose.cells import Workbook
 
-file_path = os.path.dirname(os.path.abspath(__file__))
-workbook = Workbook(os.path.join(file_path, "SeriesFiltered.xlsx"))
+current_dir = os.path.dirname(os.path.abspath(__file__))
+data_dir = os.path.join(current_dir, "data")
+
+# Load sample workbook
+workbook = Workbook(os.path.join(data_dir, "SeriesFiltered.xlsx"))
 
 # Access charts from first worksheet
 charts = workbook.worksheets[0].charts
@@ -39,7 +42,7 @@ n_series[1].is_filtered = True
 n_series[0].is_filtered = True
 
 # Save modified workbook
-workbook.save(os.path.join(file_path, "output.xlsx"))
+workbook.save(os.path.join(data_dir, "output.xlsx"))
 ```
 
 You can get the following [Input file](SeriesFiltered.xlsx) and [output file](output.xlsx).
