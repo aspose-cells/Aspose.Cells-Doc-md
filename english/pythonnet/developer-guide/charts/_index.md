@@ -170,7 +170,7 @@ In the above example, simply changing the [**ChartType**](https://reference.aspo
 
 #### **Bubble Chart**
 
-In order to create a bubble chart, the [**ChartType**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype) has to be set to [**chart_type.bubble**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart_type/bubble) and few extra properties such as BubbleSizes, Values & XValues need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet.
+In order to create a bubble chart, the [**ChartType**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype) has to be set to [**ChartType.BUBBLE**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype) and few extra properties such as BubbleSizes, Values & XValues need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet.
 
 #### **Line with Data Marker Chart**
 

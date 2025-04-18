@@ -65,7 +65,7 @@ Apply strikeout by setting the [**Style.font**](https://reference.aspose.com/ce
 
 ### **Setting Subscript Effect**
 
-Apply subscript by setting the [**Style.font**](https://reference.aspose.com/cells/python-net/aspose.cells/style/font) object's [**is_sub_script**](https://reference.aspose.com/cells/python-net/aspose.cells/font/is_sub_script) property to **true**.
+Apply subscript by setting the [**Style.font**](https://reference.aspose.com/cells/python-net/aspose.cells/style/font) object's [**is_subscript**](https://reference.aspose.com/cells/python-net/aspose.cells/font/is_subscript/) property to **true**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-SetSubscript.py" >}}
 
