@@ -19,7 +19,7 @@ Aspose.Cells for Python via .NET provides the [Shape.reflection](https://referen
 
 
 ## **Working with the Reflection Effect of Shape or Chart**
-The following sample code loads the [source excel file](5115424.xlsx) and accesses the first shape in the default worksheet and sets different properties of [Shape.Reflection](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/reflection) class and then saves the workbook in the [output excel file](5115423.xlsx).
+The following sample code loads the [source excel file](5115424.xlsx) and accesses the first shape in the default worksheet and sets different properties of [Shape.reflection](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/reflection/) class and then saves the workbook in the [output excel file](5115423.xlsx).
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Options-ReflactionEffectOfShape.py" >}}

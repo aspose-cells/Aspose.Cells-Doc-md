@@ -19,7 +19,7 @@ Microsoft Excel assumes that you want to print the entire worksheet area unless 
 
 ### **Print Using SheetRender**
 
-The [**SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/) class represents a worksheet and has the [**to_printer**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/to_printer/) method which can print a worksheet. The following sample code shows how to print a worksheet.
+The [**SheetRender**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/) class represents a worksheet and has the [**to_printer**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/to_printer/) method which can print a worksheet. The following sample code shows how to print a worksheet.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-PrintingExcelWorkbookUsingSheetRender.py" >}}
 

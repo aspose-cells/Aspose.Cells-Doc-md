@@ -7,7 +7,7 @@ url: /python-net/update-power-query-formula-item/
 
 ## **Usage Scenario**
 
-There might be cases where the data source files are moved and the excel file is unable to locate the file. In such cases, Aspose.Cells for Python via .NET API provides the option to update the Power Query Formula item by using the [*PowerQueryFormulaItem*](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem) class to update the location of the source file.
+There might be cases where the data source files are moved and the excel file is unable to locate the file. In such cases, Aspose.Cells for Python via .NET API provides the option to update the Power Query Formula item by using the [*PowerQueryFormulaItem*](https://reference.aspose.com/cells/python-net/aspose.cells.querytables/powerqueryformulaitem) class to update the location of the source file.
 
 ## **Updating Power Query Formula Item**
 

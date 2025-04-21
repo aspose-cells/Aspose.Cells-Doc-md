@@ -11,7 +11,7 @@ keywords: How to Manage Dates and Times, The 1900 date system, The 1904 date sys
 Dates and times are stored in cells as numbers. Thus, the values of cells that contain dates and times are of the numeric type. A number that specifies a date and time consists of the date (integer part) and time (fractional part) components. The Cell.DoubleValue property returns this number.
 
 ## **How to Display Dates and Times in Aspose.Cells**
-To display a number as a date and time, apply the required date and time format to a cell via the [Style.Number](https://reference.aspose.com/cells/net/aspose.cells/style/number/) or [Style.Custom]() property. The CellValue.DateTimeValue property returns the DateTime object, which specifies the date and time that is represented by the number contained in a cell.
+To display a number as a date and time, apply the required date and time format to a cell via the [Style.number](https://reference.aspose.com/cells/python-net/aspose.cells/style/number/) or [Style.Custom]() property. The CellValue.DateTimeValue property returns the DateTime object, which specifies the date and time that is represented by the number contained in a cell.
 <br>
 <image src="1.png" width="70%" />
 
@@ -19,7 +19,7 @@ To display a number as a date and time, apply the required date and time format 
 MS-Excel stores dates as numbers that are called serial values. A serial value is an integer that is the number of elapsed days from the first day in the date system. Excel supports the following date systems for serial values:
 
 1. The 1900 date system. The first date is January 1, 1900, and its serial value is 1. The last date is December 31, 9999, and its serial value is 2,958,465. This date system is used in the workbook by default.
-1. The 1904 date system. The first date is January 1, 1904, and its serial value is 0. The last date is December 31, 9999, and its serial value is 2,957,003. To use this date system in the workbook, set the [Workbook.Settings.Date1904](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/date1904/) property to true.
+1. The 1904 date system. The first date is January 1, 1904, and its serial value is 0. The last date is December 31, 9999, and its serial value is 2,957,003. To use this date system in the workbook, set the [**Workbook.settings.date1904**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/date1904/) property to true.
 
 
 This example shows that the serial values stored on the same date in different date systems are different.

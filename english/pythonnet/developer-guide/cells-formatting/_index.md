@@ -12,7 +12,7 @@ url: /python-net/cells-formatting/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET provides the [**get_style**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/get_style) and [**set_style**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/set_style) methods of the [Cell](https://reference.aspose.com/cells/net/aspose.cells/cell) class, used to get/set the formatting style of a cell. Aspose.Cells for Python via .NET also provides a [**Style**](https://reference.aspose.com/cells/python-net/aspose.cells/style) class.
+Aspose.Cells for Python via .NET provides the [**get_style**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/get_style) and [**set_style**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/set_style) methods of the [Cell](https://reference.aspose.com/cells/python-net/aspose.cells/cell) class, used to get/set the formatting style of a cell. Aspose.Cells for Python via .NET also provides a [**Style**](https://reference.aspose.com/cells/python-net/aspose.cells/style) class.
 
 {{% /alert %}}
 

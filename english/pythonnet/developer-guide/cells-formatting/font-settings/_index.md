@@ -21,7 +21,7 @@ Aspose.Cells provides the [**Cell**](https://reference.aspose.com/cells/python-n
 
 ### **Setting Font Name**
 
-Developers can apply any font to text inside a cell by using the [**Style.font**](https://reference.aspose.com/cells/python-net/aspose.cells/style/font) object's [Name](https://reference.aspose.com/cells/net/aspose.cells/font/properties/name) property.
+Developers can apply any font to text inside a cell by using the [**Style.font**](https://reference.aspose.com/cells/python-net/aspose.cells/style/font) object's [**name**](https://reference.aspose.com/cells/python-net/aspose.cells/font/name/) property.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-SettingFontName-1.py" >}}
 

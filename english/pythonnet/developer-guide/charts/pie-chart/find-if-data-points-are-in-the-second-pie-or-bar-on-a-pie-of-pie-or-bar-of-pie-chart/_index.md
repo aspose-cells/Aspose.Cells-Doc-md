@@ -19,7 +19,7 @@ The following sample code shows how to find if data points are in the second pie
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-FindDataPointsInPieBar.py" >}}
 ## **Console Output**
-Please see the following console output generated after the execution of the above sample code with the [sample excel file](5115193.xlsx). If [IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot) is **false**, the data point is inside the Pie or if it is **true**, then the data point is inside the Bar.
+Please see the following console output generated after the execution of the above sample code with the [sample excel file](5115193.xlsx). If [is_in_secondary_plot](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chartpoint/is_in_secondary_plot/) is **false**, the data point is inside the Pie or if it is **true**, then the data point is inside the Bar.
 
 
 
