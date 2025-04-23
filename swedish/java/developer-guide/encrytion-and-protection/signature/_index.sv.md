@@ -34,3 +34,4 @@ Om det angivna lösenordet inte matchar med lösenordet för certifikatet, kasta
 Följande kodsnutt visar användningen av Aspose.Cells for Java API för att validera kalkylarket.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ValidatingSpreadsheets-ValidatingSpreadsheets.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -27,10 +27,11 @@ etc.
 
 ## **Establecer el tipo de forma de las etiquetas de datos del gráfico**
 
-El siguiente código de ejemplo cambia el tipo de forma de las etiquetas de datos del gráfico a [**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT). Consulte el [archivo de Excel de ejemplo](60489794.xlsx) utilizado en este código y el [archivo de Excel de salida](60489793.xlsx) generado por él. La captura de pantalla muestra el efecto del código en el archivo de Excel de ejemplo.
+El siguiente código de ejemplo cambia el tipo de forma de las etiquetas de datos del gráfico a [**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE-ELLIPSE-CALLOUT). Consulte el [archivo de Excel de ejemplo](60489794.xlsx) utilizado en este código y el [archivo de Excel de salida](60489793.xlsx) generado por él. La captura de pantalla muestra el efecto del código en el archivo de Excel de ejemplo.
 
 ![todo:image_alt_text](set-the-shape-type-of-data-labels-of-chart_1.png)
 
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-SetShapeTypeOfDataLabelsOfChart.java" >}}
+{{< app/cells/assistant language="java" >}}

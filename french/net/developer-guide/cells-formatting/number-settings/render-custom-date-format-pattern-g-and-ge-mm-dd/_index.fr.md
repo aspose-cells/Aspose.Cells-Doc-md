@@ -16,3 +16,4 @@ Aspose.Cells est maintenant capable de rendre les motifs de format de date perso
 Le code d'exemple suivant convertit le fichier Excel source (5112361.xlsx) qui contient des valeurs de date avec des motifs de format personnalisés comme g et ge.mm.dd en un PDF de sortie (5112360.pdf).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-RenderCustomDateFormat-RenderCustomDateFormatPatterngandgemmdd.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

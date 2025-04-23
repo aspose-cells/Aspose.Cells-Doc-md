@@ -34,3 +34,4 @@ Senaryo, bir veya daha fazla formül tarafından birbirine bağlı değişken gi
 {{% /alert %}}
 ## **CellsException için Davranış Değişikliği**
 Önceki Aspose.Cells for Java API sürümlerinde, hasar görmüş bir elektronik tablo bir Workbook örneğinde yüklendiğinde, API genellikle sorunun nerede olabileceğini belirtmeden genel bir mesaj fırlatma eğilimindeydi. 8.1.1 için bu davranışı değiştirdik, böylece API, şablon dosyasını okurken hangi hücrede ve hangi formül ifadesinin istisnaya neden olduğunu belirten anlamlı bir mesajla istisna fırlatır.
+{{< app/cells/assistant language="java" >}}

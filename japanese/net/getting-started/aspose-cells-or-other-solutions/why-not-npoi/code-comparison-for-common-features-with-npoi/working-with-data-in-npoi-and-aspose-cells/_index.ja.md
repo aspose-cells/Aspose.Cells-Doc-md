@@ -10,3 +10,4 @@ url: /ja/net/working-with-data-in-npoi-and-aspose-cells/
 - [セルの内容を取得する](/cells/ja/net/getting-cell-contents/)
 - [ワークシートにハイパーリンクを挿入する](/cells/ja/net/insert-hyperlinks-in-worksheet/)
 - [セル内で改行を挿入する](/cells/ja/net/new-line-in-cells/)
+{{< app/cells/assistant language="csharp" >}}

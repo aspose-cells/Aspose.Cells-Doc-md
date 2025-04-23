@@ -23,3 +23,4 @@ Aspose.CellsはExcelファイルをOds、Sxc、Fodsファイルに変換する�
 ## **高度なトピック**
 - [ODF 1.1および1.2仕様でODSファイルを保存する](/cells/ja/net/save-ods-file-in-odf-1-1-and-1-2-specifications/)
 - [ODSファイルで背景を操作する](/cells/ja/net/working-with-background-in-ods-files/)
+{{< app/cells/assistant language="csharp" >}}

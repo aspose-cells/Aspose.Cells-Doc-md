@@ -23,3 +23,4 @@ El siguiente ejemplo ilustra el uso de Aspose.Cells para modificar la Conexión 
 - [Archivo de Excel de Salida](5112356.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ModifyingExistingDataConnection-ModifyingExistingDataConnection.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

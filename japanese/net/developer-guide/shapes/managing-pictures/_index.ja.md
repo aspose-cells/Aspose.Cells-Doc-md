@@ -53,3 +53,4 @@ Aspose.Cellsを使用すると、ワークシートのセルの内容を画像�
 - [セル参照に基づく画像の挿入](/cells/ja/net/insert-a-picture-based-on-cell-reference/)
 - [Web画像のURLをExcelワークシートに読み込む](/cells/ja/net/load-a-web-image-from-a-url-into-an-excel-worksheet/)
 
+{{< app/cells/assistant language="csharp" >}}

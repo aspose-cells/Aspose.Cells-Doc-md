@@ -30,3 +30,4 @@ Is Group Shape: false
 Is Group Shape: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

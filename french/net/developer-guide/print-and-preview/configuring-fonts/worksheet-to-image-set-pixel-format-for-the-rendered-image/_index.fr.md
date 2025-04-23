@@ -16,3 +16,4 @@ Veuillez consulter le code exemple ci-dessous qui montre comment définir le for
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SetPixelFormatRenderedImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

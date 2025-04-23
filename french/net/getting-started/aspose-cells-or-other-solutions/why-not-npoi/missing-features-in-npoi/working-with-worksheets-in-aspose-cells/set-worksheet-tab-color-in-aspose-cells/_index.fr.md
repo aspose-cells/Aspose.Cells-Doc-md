@@ -44,3 +44,4 @@ Téléchargez le formulaire **Définir la couleur d'onglet de feuille de calcul*
 Pour plus de détails, visitez [Définir la couleur d'onglet de feuille de calcul](/cells/fr/net/set-worksheet-tab-color/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

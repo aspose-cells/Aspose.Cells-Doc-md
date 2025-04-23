@@ -18,3 +18,4 @@ Aspose.Cells支持将工作表单元格的内容显示在图像形状中。您�
 ### 代码示例
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertPictureCellReference-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

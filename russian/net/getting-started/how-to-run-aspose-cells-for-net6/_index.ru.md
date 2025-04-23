@@ -14,8 +14,8 @@ url: /ru/net/how-to-run-aspose-cells-for-net6/
 Для продукта Apose.Cells мы провели оценку и завершили миграцию графической библиотеки. Мы используем SkiaSharp вместо System.Drawing.Common в системах, отличных от Windows, как предложено в официальной документации от Microsoft. Обратите внимание, что это важное изменение начнет действовать в Aspose.Cells 22.10.1 или более поздних версиях для .Net6.
 
 Для .netcore31 или ранее, для совместимости и стабильности в настоящее время мы все еще используем графическую библиотеку "System.Drawing.Common". Зависимости для .netcore31 или ранее следующие:
-- System.Drawing.Common, 4.7.0.
-- System.Security.Cryptography.Pkcs, 5.0.1.
+- System.Drawing.Common, 5.0.3.
+- System.Security.Cryptography.Pkcs, 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
 ## Запуск Aspose.Cells для .Net6 в Windows
@@ -39,15 +39,15 @@ url: /ru/net/how-to-run-aspose-cells-for-net6/
 2. Откройте директорию установки или директорию DLL, затем выберите шаг 3 или 4 ниже:
 
 3. Найдите подкаталог "net6.0-windows", добавьте Aspose.Cells.dll в него в ваше приложение .net6. Вручную добавьте следующие пакеты NuGet в ваш проект .net6:
-- System.Drawing.Common, 4.7.0.
-- System.Security.Cryptography.Pkcs, 6.0.3.
+- System.Drawing.Common, 6.0.0.
+- System.Security.Cryptography.Pkcs, 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
 Таким образом, вы будете использовать "System.Drawing.Common" в качестве зависимости на вашей системе Windows для проекта .Net6. В этой конфигурации результат рисования ближе к .netcore31 или ранее.
 
 4. Найдите подкаталог "net6.0", добавьте Aspose.Cells.dll в него в ваше приложение .net6. Вручную добавьте следующие пакеты NuGet в ваш проект .net6:
-- SkiaSharp, 2.88.6.
-- System.Security.Cryptography.Pkcs, 6.0.3.
+- SkiaSharp, 3.116.1.
+- System.Security.Cryptography.Pkcs, 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
 Таким образом, вы будете использовать "SkiaSharp" в качестве зависимости на вашей системе Windows для проекта .Net6. *Обратите внимание, что версия, использующая "SkiaSharp" в качестве зависимости, не поддерживает функцию печати на принтер.*
@@ -66,13 +66,24 @@ apt-get update && apt-get install -y libfontconfig1
 apk update && apk add fontconfig 
 ```
 
-2. Добавьте пакеты NuGet "SkiaSharp.NativeAssets.Linux 2.88.6" в ваш проект .net6.
+2. Добавьте пакет NuGet "SkiaSharp.NativeAssets.Linux 3.116.1" в ваш проект .net6.
+3. Или вы можете выбрать добавление пакетов NuGet "SkiaSharp.NativeAssets.Linux.NoDependencies 3.116.1" в ваш проект .net6 вместо двух указанных выше шагов.
 
-3. Или вы можете выбрать добавление пакетов NuGet "SkiaSharp.NativeAssets.Linux.NoDependencies 2.88.6" в ваш проект .net6, вместо двух шагов выше.
+*Обратите внимание, что версия добавляемого пакета "SkiaSharp.NativeAssets.Linux" или "SkiaSharp.NativeAssets.Linux.NoDependencies" должна соответствовать версии "SkiaSharp", указанной в Aspose.Cells for .NET. Варианты версий Aspose.Cells for .NET и связанные с ними версии "SKiaSharp" представлены ниже:*
+
+| Aspose.Cells for .NET  |                SkiaSharp                |
+| :--------------------: | :-------------------------------------: |
+| >= 22.10.1 && <= 22.11 |                 2.88.0                  |
+|  >= 22.12 && <= 23.9   |                 2.88.3                  |
+|  >= 23.10 && <= 24.12  |                 2.88.6                  |
+|        = 25.1.1        |                 3.116.1                 |
+|        >=25.1.2        | 2.88.9 (net6.0, net8.0), 3.116.1 (net9.0) |
+
+
 
 ### Пример Dockerfile для Ubuntu
 
-1. Добавьте пакеты NuGet "SkiaSharp.NativeAssets.Linux 2.88.6" в ваш проект .net6.
+1. Добавьте пакет NuGet "SkiaSharp.NativeAssets.Linux 3.116.1" в ваш проект .net6.
 
 2. Используйте следующий Dockerfile:
 {{< highlight plain >}}
@@ -108,7 +119,7 @@ ENTRYPOINT ["dotnet", "Ubuntu_Docker.dll"]
 
 ### Пример Dockerfile для Alpine
 
-1. Добавьте пакеты NuGet "SkiaSharp.NativeAssets.Linux 2.88.6" в ваш проект .net6.
+1. Добавьте пакет NuGet "SkiaSharp.NativeAssets.Linux 3.116.1" в ваш проект .net6.
 
 2. Используйте следующий Dockerfile:
 {{< highlight plain >}}
@@ -141,3 +152,4 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "Alpine_Docker.dll"]
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

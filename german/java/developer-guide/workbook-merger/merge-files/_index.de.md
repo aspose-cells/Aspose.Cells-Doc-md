@@ -7,7 +7,7 @@ url: /de/java/merge-files/
 
 ## **Einführung**
 
-Aspose.Cells bietet verschiedene Möglichkeiten, um Dateien zusammenzuführen. Für einfache Dateien mit Daten, Formatierungen und Formeln kann die Methode [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) verwendet werden, um mehrere Arbeitsmappen zu kombinieren, und die Methode [**Worksheet.copy(**)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)) kann verwendet werden, um Arbeitsblätter in eine neue Arbeitsmappe zu kopieren. Diese Methoden sind einfach zu verwenden und effektiv, aber wenn Sie viele Dateien zusammenführen müssen, könnte es sein, dass sie viele Systemressourcen verbrauchen. Verwenden Sie deshalb die statische Methode CellsHelper.mergeFiles, um mehrere Dateien effizient zusammenzuführen.
+Aspose.Cells bietet verschiedene Möglichkeiten zum Zusammenführen von Dateien. Für einfache Dateien mit Daten, Formatierungen und Formeln kann die Methode [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine-com.aspose.cells.Workbook-) verwendet werden, um mehrere Arbeitsmappen zu kombinieren, und die Methode [**Worksheet.copy(**)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy-com.aspose.cells.Worksheet-) zum Kopieren von Arbeitsblättern in eine neue Arbeitsmappe. Diese Methoden sind einfach zu verwenden und effektiv, aber wenn Sie viele Dateien zusammenführen möchten, kann es sein, dass sie viele Systemressourcen beanspruchen. Um dies zu vermeiden, verwenden Sie die statische Methode CellsHelper.mergeFiles, eine effizientere Möglichkeit, mehrere Dateien zusammenzuführen.
 
 ## **Dateien mit Aspose.Cells zusammenführen**
 
@@ -20,3 +20,4 @@ Die CellsHelper.mergeFiles-Methode unterstützt nur das Zusammenführen von Date
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-MergeFiles-MergeFiles.java" >}}
+{{< app/cells/assistant language="java" >}}

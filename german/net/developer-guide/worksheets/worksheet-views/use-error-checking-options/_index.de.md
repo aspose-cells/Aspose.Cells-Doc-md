@@ -35,3 +35,4 @@ Sie können die Fehlerprüfungsoptionen verwenden, um Zahlen, die als Text gespe
 Der folgende Beispielcode zeigt, wie Sie die Option zur Fehlerprüfung von als Text gespeicherten Zahlen für ein Arbeitsblatt in der Vorlage XLS-Datei mithilfe der Aspose.Cells-APIs deaktivieren.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ErrorCheckingOptions-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

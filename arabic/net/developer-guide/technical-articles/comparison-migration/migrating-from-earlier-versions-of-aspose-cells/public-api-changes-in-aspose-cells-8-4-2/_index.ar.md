@@ -158,3 +158,4 @@ workbook.Save(output);
 بدءًا من إصدار Aspose.Cells for .NET 8.4.2، يتصرف حقل التعداد PasteType.All بشكل مختلف عن وظيفة "الكل" في Excel لصق مجموعة من الخلايا. الآن، يقوم PasteType.All أيضًا بنسخ أعراض الأعمدة على مجموعة الوجهة بدلاً من وظيفة "الكل" في Excel. من أجل تقليد سلوك "الكل" في Excel، يرجى استخدام PasteType.Default.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

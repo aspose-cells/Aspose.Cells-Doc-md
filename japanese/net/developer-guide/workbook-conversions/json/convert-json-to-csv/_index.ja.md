@@ -14,3 +14,4 @@ Aspose.Cellsは、単純なJSONだけでなく、入れ子のJSONをCSVに変換
 ### **サンプルコード**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertJsonToCsv-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

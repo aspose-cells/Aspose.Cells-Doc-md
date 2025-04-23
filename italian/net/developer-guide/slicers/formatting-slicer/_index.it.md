@@ -18,3 +18,4 @@ Si prega di vedere il seguente codice, carica il [file Excel di esempio](6733847
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-FormattingSlicer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

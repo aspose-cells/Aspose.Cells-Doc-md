@@ -1,10 +1,10 @@
 ---
-title: cómo ejecutar Aspose.Cells.GridWeb para construir una aplicación de edición o visualización de hojas de cálculo en línea en docker
+title: cómo ejecutar Aspose.Cells.GridWeb para construir un editor o visor de hojas de cálculo en línea en docker
 type: docs
 weight: 250
 url: /es/java/aspose-cells-gridweb/how-to-build-online-excel-editor/
 keywords: GridWeb, docker
-description: Este artículo presenta cómo ejecutar GridWeb en docker para construir una aplicación de edición o visualización de Excel en línea.
+description: Este artículo introduce cómo ejecutar GridWeb en docker para construir una aplicación de editor o visor de Excel en línea.
 aliases:
   - /java/aspose-cells-gridweb/docker/
   - /java/aspose-cells-gridweb/run-aspose-cells-gridweb-in-docker/
@@ -21,15 +21,15 @@ aliases:
 
 ## Requisitos previos
 
-Asegúrese de tener Docker instalado en su máquina. Puede descargar e instalar Docker desde el [sitio web oficial de Docker](https://www.docker.com/get-started).
+Asegúrese de tener Docker instalado en su máquina. Puede descargar e instalar Docker desde la [página oficial de Docker](https://www.docker.com/get-started).
 
 ## Paso 1: Crear un Dockerfile
 
-Cree un archivo llamado `Dockerfile` en su proyecto [directorio](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/). El `Dockerfile` debe contener instrucciones sobre cómo construir su imagen Docker.
+Crea un archivo llamado `Dockerfile` en el [directorio](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/) de tu proyecto. El `Dockerfile` debe contener instrucciones sobre cómo construir tu imagen de Docker.
 
-## Paso 2: Escriba Dockerfile para GridWeb
+## Paso 2: Escribir Dockerfile para GridWeb
 
-Aquí hay un ejemplo de [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/Dockerfile) para la demostración de GridWeb con una aplicación java:
+Aquí hay un ejemplo de [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/Dockerfile) para la demo de GridWeb con la aplicación Java:
 
 ```dockerfile
 #spring boot3.3 shall use jdk17 above 
@@ -81,41 +81,41 @@ CMD ["sh", "-c", "java $JAVA_OPTS -jar /app/app.jar"]
 
 ```
 
-## Paso 3: Construyendo la Imagen de Docker
-Construya la imagen de Docker: Desde el terminal, ejecute el siguiente comando para construir su imagen de Docker:
+## Paso 3: Construir la imagen de Docker
+Construir la imagen de Docker: Desde la terminal, ejecute el siguiente comando para construir su imagen de Docker:
 ```bash
 docker build -t gridweb-demo-java .
 ```
-puede reemplazar gridweb-demo-java con el nombre que desee darle a su imagen Docker.
+puedes reemplazar gridweb-demo-java con el nombre que deseas darle a tu imagen de Docker.
 
-## Paso 4: Ejecutando un Contenedor Docker
-Una vez que la imagen esté construida, puede ejecutar un contenedor utilizando el siguiente comando:
+## Paso 4: Ejecutar un contenedor Docker
+Una vez que la imagen esté construida, puede ejecutar un contenedor usando el siguiente comando:
 
 ```bash
 docker run -d -p 8080:8080 --name gridweb-demo-container  gridweb-demo-java
 ```
 Explicación de las opciones del comando Docker Run
--d: Ejecutar el contenedor en modo desprendido (en segundo plano).
--p 8080:8080: Mapea el puerto 8080 en el contenedor al puerto 8080 en la máquina anfitriona.
---name gridweb-demo-container: Asignar un nombre al contenedor.
+-d: Ejecutar el contenedor en modo desacoplado (en segundo plano).
+-p 8080:8080: Mapea el puerto 8080 en el contenedor al puerto 8080 en la máquina host.
+--name gridweb-demo-container: Asigna un nombre al contenedor.
 
-## Paso 5: Verificar que el Contenedor se está Ejecutando
-Para verificar si su contenedor se está ejecutando, use el siguiente comando:
+## Paso 5: Verificar que el contenedor esté en ejecución
+Para verificar si su contenedor está en ejecución, utilice el siguiente comando:
 
 ```bash
 docker ps
 ```
-Esto listará todos los contenedores en ejecución. Debería ver su contenedor en la lista junto con su nombre y estado.
+Esto listará todos los contenedores en ejecución. Debería ver su contenedor listado junto con su nombre y estado.
 
-## Paso 6: Acceder a la Aplicación Web
+## Paso 6: Acceder a la aplicación web
 
-Abra un navegador web y vaya a `http://localhost:8080/gridwebdemo/index`. Debería ver su aplicación en funcionamiento.
+Abre un navegador web y ve a `http://localhost:8080/gridwebdemo/index`. Deberías ver tu aplicación en funcionamiento.
 
 
 
-## Comandos Adicionales
+## Comandos adicionales
 
-### Detener el Contenedor
+### Deteniendo el Contenedor
 
 Para detener un contenedor en ejecución, use el siguiente comando:
 
@@ -123,15 +123,15 @@ Para detener un contenedor en ejecución, use el siguiente comando:
 docker stop gridweb-demo-container
 ```
 
-### Eliminar un contenedor
-Para eliminar un contenedor detenido, utiliza el siguiente comando:
+### Eliminando un Contenedor
+Para eliminar un contenedor detenido, use el siguiente comando:
 
 ```bash
 docker rm  gridweb-demo-container
 ```
 
-### Eliminar una imagen
-Para eliminar una imagen, utiliza el siguiente comando:
+### Eliminando una Imagen
+Para eliminar una imagen, use el siguiente comando:
 
 ```bash
 docker rmi gridweb-demo-java

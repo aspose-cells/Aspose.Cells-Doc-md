@@ -54,3 +54,4 @@ Aspose.Cells fornisce un metodo [**Aspose.Cells.Worksheet.MoveTo()**](https://re
 L'esempio seguente mostra come spostare un foglio di lavoro in un'altra posizione all'interno del libro di lavoro.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-MoveWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -21,7 +21,7 @@ Aspose.Cellsを使用してチャートを作成する際に扱うデータに�
 
 ### **チャートデータ**
 
-チャートデータとは、チャートを作成するためのデータソースとして使用されるデータです。[**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)オブジェクトの[**Add**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add(java.lang.Object))メソッドを呼び出すことで、チャートデータを含むセルの範囲を追加できます。
+チャートデータとは、チャートを作成するためのデータソースとして使用されるデータです。[**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)オブジェクトの[**Add**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add-java.lang.Object-)メソッドを呼び出すことで、チャートデータを含むセルの範囲を追加できます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsData-SettingChartsData.java" >}}
 
@@ -40,3 +40,4 @@ Aspose.Cellsを使用してチャートを作成する際に扱うデータに�
 - [Chart.setChartDataRangeメソッドを使用したチャートセットアップの簡単な方法](/cells/ja/java/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [チャートシリーズのX値とY値のタイプを検索する](/cells/ja/java/find-type-of-x-and-y-values-of-points-in-chart-series/)
 - [チャートシリーズの値の形式コードを設定する](/cells/ja/java/set-the-values-format-code-of-chart-series/)
+{{< app/cells/assistant language="java" >}}

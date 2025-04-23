@@ -79,3 +79,4 @@ Kör nu följande exempel, se hur det fungerar i Aspose.Cells:
 - [Namngivna områden](/cells/sv/java/named-ranges/)
 - [Sök och ersätt data i ett område](/cells/sv/java/search-and-replace-data-in-a-range/)
 
+{{< app/cells/assistant language="java" >}}

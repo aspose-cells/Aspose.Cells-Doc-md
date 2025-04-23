@@ -20,6 +20,12 @@ Aspose.Cells API 提供了在图像格式中渲染电子表格以及将其转换
 1. 如果API无法找到[**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/properties/defaultfontname)属性下定义的字体，则尝试从所有可用字体中选择最合适的字体。
 1. 最后，如果API在文件系统中找不到任何字体，则使用Arial呈现电子表格。
 
+{{% alert color="primary" %}}
+
+通常，Aspose.Cells API 默认扫描Windows、Linux、MacOS操作系统的默认字体目录。从[Aspose.Cells for .NET24.7](https://releases.aspose.com/cells/net/release-notes/2024/aspose-cells-for-net-24-7-release-notes/)开始，API还会默认扫描Office缓存云字体目录。
+
+{{% /alert %}}
+
 ## **设置自定义字体文件夹**
 
 Aspose.Cells API会搜索操作系统的默认字体目录以获取所需的字体。如果系统的字体目录中没有所需的字体，则API将通过自定义（用户定义的）目录进行搜索。 [**FontConfigs**](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs) 类已公开了许多设置自定义字体目录的方式。
@@ -66,3 +72,4 @@ Aspose.Cells API 还提供了指定替代字体以进行渲染的能力。 当�
 - [设置 PdfSaveOptions 和 ImageOrPrintOptions 的 DefaultFont 属性具有优先级](/cells/zh/net/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [支持的字体格式](/cells/zh/net/supported-font-formats/)
 - [电子表格转图像 - 设置呈现图像的像素格式](/cells/zh/net/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
+{{< app/cells/assistant language="csharp" >}}

@@ -31,3 +31,4 @@ Die Signaturen der genannten Methoden lauten wie folgt:
 Bitte lesen Sie den ausführlichen Artikel zu [Anpassen von Zeilen und Spalten](http://aspose.com/docs/display/cellsjava/AutoFit+Rows+and+Columns).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

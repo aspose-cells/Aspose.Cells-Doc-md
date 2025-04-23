@@ -24,3 +24,4 @@ url: /zh/net/access-the-text-box-by-the-name/
 This is MyTextBox
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

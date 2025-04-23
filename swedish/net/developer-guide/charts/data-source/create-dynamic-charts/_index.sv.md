@@ -52,3 +52,4 @@ För att hålla demonstrationen enkel att förstå kommer vi att skapa arbetsbok
 1. Spara resultatet på disken.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-UsingDynamicFormula-CreateDynamicChartsUsingDynamicFormula.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -17,7 +17,7 @@ Utiliser l'option [**MemorySetting.MEMORY_PREFERENCE**](https://reference.aspose
 
 L'exemple suivant montre comment optimiser l'utilisation de la mémoire lors du travail avec de grandes données dans Aspose.Cells pour Node.js via Java.
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-nodejs-optimize-memory-usage-while-working-with-large-data.java" >}}
+{{< gist "aspose-cells-gists" "eb9faad10b8effdcfe82e35b25d5a3c0" "optimize-memory-usage-while-working-with-large-data.js" >}}
 
 ## **Attention**
 

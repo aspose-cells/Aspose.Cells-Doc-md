@@ -22,3 +22,4 @@ Hier ist die Konsolenausgabe des obigen Codes mit dieser [Beispiel-Excel-Datei](
  Web Query URL: http://www.aspose.com/docs/display/cellsnet/Home
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

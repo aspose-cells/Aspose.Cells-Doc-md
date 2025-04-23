@@ -105,3 +105,4 @@ Aspose.Cells fournit la méthode [**Range.Copy()**](https://reference.aspose.com
 L'exemple suivant montre comment copier une plage source de cellules dans une autre plage nommée.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CopyNamedRanges-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

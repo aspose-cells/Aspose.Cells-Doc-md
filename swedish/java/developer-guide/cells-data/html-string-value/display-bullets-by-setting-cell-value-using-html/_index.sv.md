@@ -28,3 +28,4 @@ Följande skärmbild visar utdata av ovanstående provkod.
 ## Relaterade artiklar
 
 - [Lägg till HTML Rich Text i cellen](/cells/sv/java/adding-html-rich-text-inside-the-cell/)
+{{< app/cells/assistant language="java" >}}

@@ -189,3 +189,4 @@ Aspose.Cells 17.1.0 hat auch das PERCENTAGE-Feld für die DisplayUnitType-Aufzä
 ## **Entfernte APIs**
 ### **Instanzvariable m_LoadDataFilterOptions wurde entfernt**
 In diesem Release wurde die Instanzvariable m_LoadDataFilterOptions entfernt. Es wird empfohlen, stattdessen die LoadFilter.LoadDataFilterOptions-Eigenschaft zu verwenden.
+{{< app/cells/assistant language="java" >}}

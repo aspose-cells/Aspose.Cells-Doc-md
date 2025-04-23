@@ -63,3 +63,4 @@ I exemplet nedan läggs provdata till ett kalkylblad, ett [**ListObject**](https
 - [Ange kommentaren för tabell eller listobjekt inne i kalkylbladet](/cells/sv/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
 - [Tabeller och områden](/cells/sv/net/tables-and-ranges/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -35,3 +35,4 @@ url: /ar/java/chart-axes/
 - [تغيير اتجاه التسمية التلقائية](/cells/ar/java/change-tick-label-direction/)
 - [تحديد أي محور موجود في الرسم البياني](/cells/ar/java/determine-which-axis-exists-in-the-chart/)
 - [التعامل مع الوحدات التلقائية لمحور الرسم البياني مثل Microsoft Excel](/cells/ar/java/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
+{{< app/cells/assistant language="java" >}}

@@ -39,3 +39,4 @@ El siguiente fragmento de código muestra cómo configurar las opciones de los e
 - [Manejar Unidades Automáticas del Eje del Gráfico como Microsoft Excel](/cells/es/net/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
 - [Leer etiquetas del eje después de calcular el gráfico](/cells/es/net/read-axis-labels-after-calculating-the-chart/)
 - [Cómo establecer el Eje de Categoría en el Gráfico de Excel](/cells/es/net/how-to-set-category-axis/)
+{{< app/cells/assistant language="csharp" >}}

@@ -31,3 +31,4 @@ Las firmas de los métodos antes mencionados son las siguientes:
 Por favor revise el artículo detallado en [Ajuste Automático de Filas y Columnas](http://aspose.com/docs/display/cellsnet/AutoFit+Rows+and+Columns)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

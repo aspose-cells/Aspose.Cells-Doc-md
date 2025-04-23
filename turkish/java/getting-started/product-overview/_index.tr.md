@@ -105,3 +105,4 @@ Aşağıda Aspose.Cells müşterilerinden bazı referanslar bulunmaktadır.
 
 **Lütfen kontrol edin:** 
 [Aspose.Cells Forumları - Referanslar](https://downloads.aspose.com/corporate/success-stories/aspose.cells/)
+{{< app/cells/assistant language="java" >}}

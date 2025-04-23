@@ -35,3 +35,4 @@ Bu bölümdeki konular şunlardır:
   - [Anonim Türler veya Özel Nesneler Kullanarak](/cells/tr/net/using-anonymous-types-or-custom-objects/)
   - [Yerleşik Nesneleri Kullanmak](/cells/tr/net/using-nested-objects/)
 - [Aspose.Cells'te Daha Öncekileri ve Bağımlıları Belirleme](/cells/tr/net/tracing-precedents-and-dependents-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

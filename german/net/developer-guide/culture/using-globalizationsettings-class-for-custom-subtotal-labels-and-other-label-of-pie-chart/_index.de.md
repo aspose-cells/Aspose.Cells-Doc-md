@@ -42,3 +42,4 @@ Die Klasse [**GlobalizationSettings**](https://reference.aspose.com/cells/net/as
 Der folgende Code lädt ein vorhandenes Tabellenblatt, das ein Kreisdiagramm enthält, und rendert das Diagramm zu einem Bild unter Verwendung der zuvor erstellten **CustomSettings**-Klasse.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomTextForLabels-UsingGlobalizationSettings.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

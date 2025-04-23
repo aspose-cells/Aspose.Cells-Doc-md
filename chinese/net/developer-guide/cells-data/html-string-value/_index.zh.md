@@ -26,3 +26,4 @@ Aspose.Cells支持将以Microsoft Excel为导向的HTML转换为XLS/XLSX格式�
 
 - [使用HTML设置单元格值显示项目符号](/cells/zh/net/display-bullets-by-setting-cell-value-using/)
 - [从单元格获取HTML5字符串](/cells/zh/net/get-html5-string-from-cell/)
+{{< app/cells/assistant language="csharp" >}}

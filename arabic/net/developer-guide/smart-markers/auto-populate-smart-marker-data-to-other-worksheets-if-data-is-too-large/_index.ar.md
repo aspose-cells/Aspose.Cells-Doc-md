@@ -11,3 +11,4 @@ url: /ar/net/auto-populate-smart-marker-data-to-other-worksheets-if-data-is-too-
 يحمل الكود العيني التالي مصدر بيانات يحتوي على 21 سجلًا. نريد عرض 15 سجلًا فقط في صفحة عمل واحدة، ثم ستنتقل بقية السجلات تلقائيًا إلى الصفحة العمل الثانية. يرجى ملاحظة أنه يجب أن تحتوي الصفحة العمل الثانية أيضًا على نفس علامة بيانات الذكية ويجب عليك استدعاء {WorkbookDesigner.Process(sheetIndex, isPreserved)} لكلتا الصفحتين. يرجى رؤية ملف الأكسل العيني الناتج الذي تم إنشاؤه بواسطة الكود للإحالة.
 ## **الكود المثالي**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-AutoPopulateSmartMarkerDataToOtherWorksheets.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

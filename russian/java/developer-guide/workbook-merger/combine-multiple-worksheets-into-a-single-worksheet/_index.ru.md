@@ -15,7 +15,7 @@ keywords: объединить несколько листов в один, об
 
 ## **Как объединить листы**
 
-В приведенном ниже образце использован метод [**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) для копирования всех исходных листов в один лист внутри целевой книги.
+В приведенном ниже образце использован метод [**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy-com.aspose.cells.Range-) для копирования всех исходных листов в один лист внутри целевой книги.
 
 ### **Исходная рабочая книга**
 
@@ -59,3 +59,4 @@ keywords: объединить несколько листов в один, об
 Вы можете найти полезной статью [Объединение нескольких рабочих книг в одну рабочую книгу](/cells/ru/java/combine-multiple-workbooks-into-a-single-workbook/) для получения дополнительной информации.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

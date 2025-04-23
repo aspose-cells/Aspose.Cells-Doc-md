@@ -23,22 +23,23 @@ Nachdem Sie Ihre Tabelle erstellt haben, möchten Sie wahrscheinlich eine gedruc
 
 ## Drucken von Arbeitsmappen mit Aspose.Cells
 
-Aspose.Cells for Java bietet eine [**toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) Methode der [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) Klasse. Durch Verwendung der [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) Methode können Sie den Druckernamen sowie den Druckauftragsnamen angeben.
+Aspose.Cells for Java bietet eine [**toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-) Methode der [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) Klasse. Durch Verwendung der [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-) Methode können Sie den Druckernamen sowie den Druckauftragsnamen angeben.
 
 ## Beispielcode
 
 ### Ausgewähltes Arbeitsblatt drucken
 
-Der folgende Code-Ausschnitt zeigt die Verwendung der [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) Methode zum Drucken Ihres ausgewählten Arbeitsblatts.
+Der folgende Code-Ausschnitt zeigt die Verwendung der [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-) Methode zum Drucken Ihres ausgewählten Arbeitsblatts.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingSelectedWorksheet-PrintingSelectedWorksheet.java" >}}
 
 ### Gesamtes Arbeitsbuch drucken
 
-Sie können auch die [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String)) Methode verwenden, um das gesamte Arbeitsbuch zu drucken. Der folgende Code-Ausschnitt zeigt die Verwendung der [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String)) Methode zum Drucken des gesamten Arbeitsbuchs.
+Sie können auch die [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter-java.lang.String-) Methode verwenden, um das gesamte Arbeitsbuch zu drucken. Der folgende Code-Ausschnitt zeigt die Verwendung der [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter-java.lang.String-) Methode zum Drucken des gesamten Arbeitsbuchs.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingWholeWorkbook-PrintingWholeWorkbook.java" >}}
 
 ## Verwandte Artikel
 
 - [Job- oder Dokumentnamen beim Drucken mit Aspose.Cells angeben](/cells/de/java/specify-job-or-document-name-while-printing-with-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

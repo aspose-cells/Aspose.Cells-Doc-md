@@ -18,3 +18,4 @@ Puoi utilizzare Aspose.Cells per creare etichette dati personalizzate di testo r
 Il codice seguente accede al primo punto del grafico della prima serie, imposta il suo testo e quindi imposta il carattere dei primi 10 caratteri impostando il suo colore su rosso e il grassetto su **true**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RichTextCustomDataLabel-RichTextCustomDataLabelOfChartPoint.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

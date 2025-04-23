@@ -97,3 +97,4 @@ fileOut.close();
 有关更多详细信息，请访问[添加数据到单元格](/java/adding-data-to-cells)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

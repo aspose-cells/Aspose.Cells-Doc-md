@@ -34,3 +34,4 @@ Aspose.Cells [DataLabels](https://reference.aspose.com/cells/java/com.aspose.cel
 - [チャートポイントのリッチテキストカスタムデータラベル](/cells/ja/java/rich-text-custom-data-label-of-chart-point/)
 - [チャートのデータラベルの形状タイプを設定する](/cells/ja/java/set-the-shape-type-of-data-labels-of-chart/)
 - [データラベルとしてセル範囲を表示する](/cells/ja/java/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="java" >}}

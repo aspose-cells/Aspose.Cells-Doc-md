@@ -18,3 +18,4 @@ El siguiente código de muestra crea el libro de trabajo vacío que tiene una ho
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-OutputBlankPageWhenThereIsNothingToPrint-1.java" >}}
+{{< app/cells/assistant language="java" >}}

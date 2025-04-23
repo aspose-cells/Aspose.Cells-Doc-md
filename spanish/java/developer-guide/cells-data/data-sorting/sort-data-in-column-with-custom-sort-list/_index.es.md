@@ -7,7 +7,7 @@ url: /es/java/sort-data-in-column-with-custom-sort-list/
 
 ## **Escenarios de uso posibles**
 
-Puede ordenar los datos en la columna utilizando una lista personalizada. Esto se puede hacer usando el método [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int,%20java.lang.String)). Sin embargo, este método solo funciona si los elementos en la lista personalizada no tienen comas en su interior. Si tienen comas como "USA, US", "China, CN", etc., entonces debe utilizar el método [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int,%20java.lang.String) Aquí, el último parámetro no es un String, sino un Array de Strings.
+Puedes ordenar datos en la columna usando una lista personalizada. Esto se puede hacer usando el método [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-java.lang.String-). Sin embargo, este método solo funciona si los elementos en la lista personalizada no contienen comas dentro de ellos. Si contienen comas como "USA, US", "China, CN", etc., entonces debes usar el método [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-java.lang.String-). Aquí, el último parámetro no es String sino un Arreglo de Strings.
 
 ## **Ordenar datos en una columna con lista de orden personalizado**
 
@@ -18,3 +18,4 @@ El siguiente código de ejemplo explica cómo utilizar el método DataSorter.Ad
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-SortDataInColumnWithCustomSortList.java" >}}
+{{< app/cells/assistant language="java" >}}

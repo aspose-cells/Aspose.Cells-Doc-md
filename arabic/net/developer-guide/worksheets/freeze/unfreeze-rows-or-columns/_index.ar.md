@@ -32,3 +32,4 @@ keywords: إلغاء تجميد النوافذ، إلغاء تجميد الصف�
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Unfreeze-Pane.cs" >}}
 
 المرفق [ملف إكسل عيني](Frozen.xlsx).
+{{< app/cells/assistant language="csharp" >}}

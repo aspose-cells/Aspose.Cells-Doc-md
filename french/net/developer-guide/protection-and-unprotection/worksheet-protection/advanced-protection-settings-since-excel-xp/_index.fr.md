@@ -66,3 +66,4 @@ Si vous souhaitez empêcher les utilisateurs de modifier des cellules, les cellu
 Il est possible de verrouiller des cellules en utilisant l'API Aspose.Cells également. Chaque cellule peut obtenir un formatage qui contient une propriété booléenne, [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked). Définissez la propriété [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) sur **true** ou **false** pour verrouiller ou déverrouiller la cellule.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

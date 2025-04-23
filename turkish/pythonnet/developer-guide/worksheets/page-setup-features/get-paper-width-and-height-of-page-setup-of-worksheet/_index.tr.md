@@ -3,8 +3,8 @@ title: Çalışma Sayfası Sayfa Ayarları Kağıt Genişliğini ve Yüksekliği
 type: docs
 weight: 50
 url: /tr/python-net/get-paper-width-and-height-of-page-setup-of-worksheet/
-description: Bu makalede, Aspsoe.Cells for Python via .NET API veya Kitaplığı ile python kodunu kullanarak Excel Çalışma Sayfası Sayfa Düzeni Kağıt Genişliği ve Kağıt Yüksekliğini nasıl alacağınızı öğreneceksiniz.
-keywords: Python Excel Kütüphanesi, Python excel sayfa düzeni kağıt genişliği, excel sayfa düzeni kağıt yüksekliği Python da.
+description: Bu makalede, Aspose.Cells for Python via .NET API veya Kütüphanesi kullanarak, Excel Sayfası Sayfa Kurulumu Kağıt Genişliği ve Kağıt Yüksekliği nasıl alınır, programatik olarak öğreneceksiniz.
+keywords: Python Excel Kütüphanesi, Python excel sayfa kurulumu kağıt genişliği, excel sayfa kurulumu kağıt yüksekliği Python ile.
 ---
 
 ## **Olası Kullanım Senaryoları**
@@ -13,7 +13,7 @@ Bazen, çalışma sayfasının sayfa ayarlarında ayarlanan kağıt boyutunun ge
 
 ## **Çalışma Sayfası Sayfa Ayarları Kağıt Genişliği ve Yüksekliğini Alma**
 
-Aşağıdaki örnek kod [**PageSetup.paper_width**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_width) ve [**PageSetup.paper_height**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_height) özelliklerinin kullanımını açıklar. Önce A2 boyutuna kağıdı değiştirir ve ardından kağıdın genişliğini ve yüksekliğini bulur, ardından sırasıyla *A3*, *A4*, *Mektup* kağıdına değiştirir ve kağıdın genişliğini ve yüksekliğini bulur.
+Aşağıdaki örnek kod, [**PageSetup.paper_width**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_width) ve [**PageSetup.paper_height**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_height) özelliklerinin kullanımını açıklar. İlk olarak kağıt boyutunu *A2* olarak değiştirir, sonra kağıdın genişlik ve yüksekliğini bulur, daha sonra sırasıyla *A3*, *A4*, *Letter* olarak değiştirir ve kağıdın genişliğini ve yüksekliğini bulur.
 
 ### **Örnek Kod**
 

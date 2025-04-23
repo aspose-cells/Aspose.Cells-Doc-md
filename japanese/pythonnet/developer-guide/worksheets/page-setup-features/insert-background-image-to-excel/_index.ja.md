@@ -3,17 +3,17 @@ title: Excelに背景画像を挿入する
 type: docs
 weight: 90
 url: /ja/python-net/insert-background-image-to-excel/
-description: この記事では、Aspose.Cells for Python via .NETのサンプルコードを使用して、Excelに背景画像を挿入する方法について説明します。
-keywords: Pythonエクセルライブラリ、Pythonでシートの背景を設定する方法、PythonでExcelに背景画像を挿入する方法。
+description: この記事では、Aspose.Cells for Python via .NETのサンプルコードを使用して、Excelの背景画像を挿入する方法を説明します。
+keywords: Python Excelライブラリを使い、PythonでExcelの背景を設定し、背景画像を挿入します。
 ---
 
 {{% alert color="primary" %}} 
 
-特別な法人グラフィックを追加し、データを覆わないヒントを追加する場合、ワークシートに画像を追加することでワークシートをより魅力的にすることができます。Aspose.Cells for Python via .NET APIを使用してシートに背景画像を設定できます。
+シートの背景に画像を追加することで、ワークシートをより魅力的にできます。この機能は、特定の企業用グラフィックを背景のヒントとして追加しつつ、シート上のデータを隠さない場合に非常に効果的です。Aspose.Cells for Python via .NET APIを使用して、シートの背景画像を設定できます。
 
 {{% /alert %}} 
 
-## **Microsoft Excelでシートの背景を設定する方法**
+## **Microsoft Excelでシート背景を設定する方法**
 
 1. **ページレイアウト**メニューから**ページの設定**オプションを見つけ、**背景**オプションをクリックします。
 
@@ -24,7 +24,7 @@ keywords: Pythonエクセルライブラリ、Pythonでシートの背景を設�
 
 ![todo:image_alt_text](insert-background-to-excel.jpg)
 
-## **Aspose.Cells for Pythonエクセルライブラリを使用してシートの背景を設定する方法**
+## **Aspose.Cells for Python Excelライブラリを使用してシート背景を設定する方法**
 
 以下のコードは、ストリームから画像を使用して背景画像を設定します。
 

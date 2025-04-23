@@ -3,8 +3,8 @@ title: ワークシートビュー
 type: docs
 weight: 40
 url: /ja/python-net/worksheet-views/
-description: この記事では、Aspose.Cells for Python via .NETAPIを使用してExcelワークブックおよびワークシートのページ区切りプレビューとの相互作用方法について説明します。スプリットペイン、フリーズペイン、およびズームファクターを使用して動作します。 
-keywords: Python Excelライブラリ、Pythonでのページ区切りプレビューの設定方法、ノーマルビューの有効化方法、ズームファクターの設定方法、ペインの固定方法、ペインの分割方法、ペインの削除方法
+description: この記事では、Aspose.Cells for Python via .NET APIを使用してExcelワークブックとワークシートのページ区切りプレビューを操作する方法について説明します。分割ペイン、固定ペイン、ズーム倍率の操作も含みます。 
+keywords: Python Excelライブラリ、Pythonのページ区切りプレビュの設定方法、Pythonの通常ビューの有効化方法、ズーム率の設定方法、ペインの固定・解除方法、ペインの分割方法
 ---
 
 ## **ページブレークプレビュー**
@@ -14,11 +14,11 @@ keywords: Python Excelライブラリ、Pythonでのページ区切りプレビ�
 - 通常の表示。
 - ページブレークプレビュー。
 
-通常表示はワークシートのデフォルト表示です。ページ区切りプレビューはワークシートを印刷時の表示として編集するビューです。ページ区切りプレビューは各ページにどのデータが表示されるかを示し、印刷エリアやページの区切りを調整できます。Aspose.Cells for Python via .NETの開発者は通常表示またはページ区切りプレビューモードを有効にできます。
+通常ビューはワークシートのデフォルトビューです。ページ区切りプレビューは、印刷されるときのワークシートの表示モードです。ページ区切りプレビューは、どのデータが各ページに収まるかを表示し、印刷範囲やページ区切りを調整できます。Aspose.Cells for Python via .NETを使用すると、開発者は通常ビューまたはページ区切りプレビューのモードを有効にできます。
 
 ### **表示モードの制御**
 
-Aspose.Cells for Python via .NETはMicrosoft Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)クラスにはExcelファイル内の各ワークシートにアクセスできる[**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets)コレクションが含まれています。
+Aspose.Cells for Python via .NETは、**[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)**クラスを提供し、Microsoft Excelファイルを表します。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)クラスには、Excelファイル内の各ワークシートにアクセスできる**[**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets)**コレクションが含まれています。
 
 ワークシートは[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)クラスで表されます。[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)クラスには、ワークシートを管理するための多くのプロパティやメソッドが含まれています。通常またはページ休止プレビューモードを有効にするには、[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)クラスの[**is_page_break_preview**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_page_break_preview)プロパティを使用します。[**is_page_break_preview**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_page_break_preview)はブールプロパティであり、**true** または **false** の値のいずれかを格納できるためです。
 
@@ -69,10 +69,10 @@ Aspose.CellsはMicrosoft Excelファイルを表す[**Workbook**](https://refere
 
 ワークシートは[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)クラスで表されます。 [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)クラスには、ワークシートを管理するための多くのプロパティとメソッドが提供されています。ウィンドウ枠を構成するには、Worksheetクラスの[**freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#int-int-int-int)メソッドを呼び出します。 [**freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#int-int-int-int)メソッドには、次のパラメータが指定されます:
 
-- **row**：フリーズが開始されるセルの行インデックス。
-- **column**：フリーズが開始されるセルの列インデックス。
-- **frozen_rows**：上部ペインの表示行数。
-- **frozen_columns**：左側ペインの表示列数。
+- **row**：フリーズを開始するセルの行インデックス。
+- **column**：フリーズを開始するセルの列インデックス。
+- **frozen_rows**：上部ペインに表示される行数。
+- **frozen_columns**：左側ペインに表示される列数。
 
 book1.xlsファイルは、[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)クラスのコンストラクタを呼び出してインスタンス化し、最初のワークシートでいくつかの行と列が固定されます。変更されたファイルはoutput.xlsとして保存されます。
 

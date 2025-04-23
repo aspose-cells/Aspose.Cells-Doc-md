@@ -16,3 +16,4 @@ Aspose.Cells låter dig exportera VBA Digital Certificate till ström som fil el
 Vänligen se följande exempelkod som sparar rådata för VBA-certifikatet i en fil. Du kan ladda ned [provexelfilen som används i denna kod](5115031.xlsm) från den angivna länken.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-ExportVBACertificateToFile-ExportVBACertificateToFile.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

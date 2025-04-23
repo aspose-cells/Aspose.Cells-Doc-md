@@ -28,3 +28,4 @@ Kontrollera den detaljerade artikeln om [Verifiera att Cellvärdet uppfyller dat
 {{% /alert %}}
 ## **Lägg till överbelastningsmetoden ToPrinter(PrinterSettings printerSettings) för WorkbookRender-klassen**
 Du kan använda den överbelastade metoden för att rendera arbetsbok till skrivare via PrinterSettings.
+{{< app/cells/assistant language="csharp" >}}

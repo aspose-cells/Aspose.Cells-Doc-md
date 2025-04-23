@@ -14,8 +14,6 @@ Aspose.Cells支持将Excel文件转换为PDF，并在转换过程中保持高度
 
 Aspose.Cells直接在输出文档中写入有关API和版本号的信息。例如，在将文档渲染为PDF时，Aspose.Cells for C++会填充“应用程序”字段的值为“Aspose.Cells”，填充“PDF制作者”字段的值为“例如Aspose.Cells v18.5.0”。
 
-请注意，您不能指示Aspose.Cells for C++更改或移除此信息以输出文档。
-
 {{% /alert %}} 
 ### **直接转换**
 Aspose.Cells 支持将电子表格独立地转换为 PDF，无需其他软件。只需使用 [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) 类的 [Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) 方法将Excel文件保存为PDF即可。 [Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) 方法提供了 [SaveFormat_Pdf](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/) 枚举成员，可将原生Excel文件转换为PDF格式。

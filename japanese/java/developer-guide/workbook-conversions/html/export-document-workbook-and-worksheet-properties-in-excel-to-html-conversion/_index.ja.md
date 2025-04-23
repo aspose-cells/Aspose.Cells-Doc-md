@@ -18,3 +18,4 @@ Microsoft ExcelファイルをMicrosoft ExcelまたはAspose.Cellsを使用し�
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-ExportDocumentWorkbookAndWorksheetPropertiesInHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -16,3 +16,4 @@ Aspose.Cells tillåter dig att ladda din excelfil utan diagram. Använd egenskap
 Följande exempelkod laddar exempel-Excel-filen utan diagram och sparar den i PDF-format.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-LoadTemplateWithoutCharts.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

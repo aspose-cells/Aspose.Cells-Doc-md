@@ -34,3 +34,4 @@ El siguiente código de muestra ilustra cómo evitar que los usuarios impriman u
 1. Guarde el archivo de muestra en [formato xlsm](out.xlsm).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "VBA-Prevent-printing-excel.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

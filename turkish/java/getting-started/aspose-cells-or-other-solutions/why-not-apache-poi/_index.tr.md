@@ -163,3 +163,4 @@ Bu bölüm aşağıdaki konuları içerir
 ## Ayrıca Bakınız
 
 * [Apache POI Hakkında Daha Fazla Bilgi](https://poi.apache.org/)
+{{< app/cells/assistant language="java" >}}

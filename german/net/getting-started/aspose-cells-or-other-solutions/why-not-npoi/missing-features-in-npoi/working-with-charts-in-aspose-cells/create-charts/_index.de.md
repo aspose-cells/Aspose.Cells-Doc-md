@@ -79,3 +79,4 @@ Laden Sie **Diagramme erstellen** von einer der unten genannten Social-Coding-We
 Für weitere Details besuchen Sie [Wie man ein Diagramm erstellt](/cells/de/net/create-charts/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

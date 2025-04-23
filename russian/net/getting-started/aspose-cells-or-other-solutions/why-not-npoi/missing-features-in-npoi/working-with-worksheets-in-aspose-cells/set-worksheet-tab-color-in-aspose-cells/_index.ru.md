@@ -44,3 +44,4 @@ workbook.Save("AsposeColoredTab_Out.xls");
 Дополнительные сведения см. в разделе [Настройка цвета вкладки листа](/cells/ru/net/set-worksheet-tab-color/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

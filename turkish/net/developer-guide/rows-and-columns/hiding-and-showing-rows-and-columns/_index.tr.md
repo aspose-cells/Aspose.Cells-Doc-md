@@ -53,3 +53,4 @@ Geliştiriciler, [**Cells**](https://reference.aspose.com/cells/net/aspose.cells
 Aynı şekilde birden fazla satır ve sütunu görünür hale getirmek için [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) sınıfının [**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) ve [**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns) metodları da kullanılabilir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

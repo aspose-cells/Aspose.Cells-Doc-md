@@ -22,3 +22,4 @@ Yukarıdaki kodun konsol çıktısı aşağıdaki [örnek excel dosyası](547294
  Web Query URL: http://www.aspose.com/docs/display/cellsnet/Home
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

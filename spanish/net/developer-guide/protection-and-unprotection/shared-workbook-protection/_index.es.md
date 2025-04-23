@@ -20,3 +20,4 @@ El siguiente código de ejemplo crea un libro de trabajo y lo protege mientras h
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-PasswordProtectOrUnprotectSharedWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

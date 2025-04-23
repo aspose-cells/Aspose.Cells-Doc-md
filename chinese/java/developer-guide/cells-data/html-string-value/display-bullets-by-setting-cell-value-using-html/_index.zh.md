@@ -28,3 +28,4 @@ Aspose.Cells现在支持使用HTML代码显示项目符号。本文将解释如�
 ## 相关文章
 
 - [在单元格内添加HTML富文本](/cells/zh/java/adding-html-rich-text-inside-the-cell/)
+{{< app/cells/assistant language="java" >}}

@@ -20,3 +20,4 @@ Vous pouvez créer un PDF de graphique avec votre taille de page souhaitée en u
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Charts-CreateChartPDFWithDesiredPageSize.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

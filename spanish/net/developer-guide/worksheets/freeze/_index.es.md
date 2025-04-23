@@ -40,3 +40,4 @@ Es sencillo congelar paneles con Aspose.Cells para .Net. Por favor, usa el méto
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Pane.cs" >}}
 
 Adjunto [archivo de Excel de origen de muestra](Freeze.xlsx).
+{{< app/cells/assistant language="csharp" >}}

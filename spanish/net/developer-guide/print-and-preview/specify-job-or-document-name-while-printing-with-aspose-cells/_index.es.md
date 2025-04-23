@@ -18,3 +18,4 @@ El código de muestra carga el archivo de Excel de origen y luego lo envía a la
 ## Código de Muestra
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-SpecifyJobWhilePrinting-SpecifyJobNameWhilePrinting.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

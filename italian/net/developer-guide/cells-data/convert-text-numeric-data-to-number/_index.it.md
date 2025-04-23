@@ -43,3 +43,4 @@ Questi numeri di stringa sono stati convertiti in numeri utilizzando [**Cells.Co
 Il seguente codice di esempio illustra come convertire tutti i dati numerici di stringa in numeri effettivi in tutte le schede.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ConvertStringToNumericValue-ConvertTextNumericDatatoNumber.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

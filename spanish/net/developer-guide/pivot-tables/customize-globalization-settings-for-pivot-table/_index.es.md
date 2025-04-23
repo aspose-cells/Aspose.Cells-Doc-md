@@ -18,3 +18,4 @@ El siguiente código de muestra explica cómo personalizar la configuración de 
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-CustomizePivotTableGlobalSettings-CustomizePivotTableGlobalSettings.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

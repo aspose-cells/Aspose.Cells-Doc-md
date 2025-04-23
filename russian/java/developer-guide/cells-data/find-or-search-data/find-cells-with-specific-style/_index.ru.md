@@ -47,3 +47,4 @@ Aspose.Cells for Java предоставляет возможность нахо
 ![todo:image_alt_text](find-cells-with-specific-style_2.png)
 
 **Фигура:** Файл вывода с найденными ячейками после поиска по стилю **A1**
+{{< app/cells/assistant language="java" >}}

@@ -12,3 +12,4 @@ Observa el siguiente código de muestra que carga el [archivo de Excel de muest
 
 ![todo:image_alt_text](create-chart-pdf-with-desired-page-size_1.png)
 ## **Código de muestra**
+{{< app/cells/assistant language="java" >}}

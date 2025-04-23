@@ -38,3 +38,4 @@ Aşağıdaki örnek, çizimden yeni bir çalışma kitabı oluşturur, A1 hücre
 Aşağıdaki örnek, "Sample.xlsx" adlı mevcut bir Microsoft Excel şablon dosyasını açar, ilk çalışma sayfasındaki A1 hücresine "Hello World!" metnini girer ve çalışma kitabını kaydeder.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -34,3 +34,4 @@ Skydda dokumentets äkthet, du kan lägga till en digital signatur.
 - [Upptäck filformat av krypterade Office Open XML - OOXML-filer](/cells/sv/net/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Kryptera Excel-filer](/cells/sv/net/encrypting-excel-files/)
 - [Hur man upptäcker ett filformat och kontrollerar om filen är krypterad](/cells/sv/net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="csharp" >}}

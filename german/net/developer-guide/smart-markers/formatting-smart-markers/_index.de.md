@@ -22,3 +22,4 @@ Bei der Arbeit mit der Smart Markers-Gruppendatenfunktion müssen Sie manchmal I
 Dieses Beispiel verwendet eine [Datendatei](96927971.xlsx) und eine [Vorlagendatei](96927972.xlsx) mit einigen Markern in den Zellen. Beim Ausführen des Codes fügt Aspose.Cells den Zusammenfassungszeilen für die gruppierten Daten einige benutzerdefinierte Beschriftungen hinzu.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-AddCustomLabels-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -17,7 +17,7 @@ Entwickler können Arbeitsblätter in Microsoft Excel-Dateien mithilfe der flexi
 
 Aspose.Cells bietet eine Klasse, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), die eine Excel-Datei repräsentiert. Die Klasse [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) enthält eine Sammlung von [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets/), die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht.
 
-Ein Arbeitsblatt wird durch die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) repräsentiert. Die Klasse [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern.
+Ein Arbeitsblatt wird durch die Klasse [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) repräsentiert. Die Klasse [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern.
 
 ## **Hinzufügen von Arbeitsblättern zu einer neuen Excel-Datei**
 

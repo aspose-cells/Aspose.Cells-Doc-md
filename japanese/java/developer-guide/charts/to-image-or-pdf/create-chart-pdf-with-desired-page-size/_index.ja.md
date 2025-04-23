@@ -12,3 +12,4 @@ Aspose.Cellsを使用して、希望のページサイズでチャートPDFを�
 
 ![todo:image_alt_text](create-chart-pdf-with-desired-page-size_1.png)
 ## **サンプルコード**
+{{< app/cells/assistant language="java" >}}

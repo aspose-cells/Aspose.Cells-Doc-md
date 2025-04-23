@@ -144,3 +144,4 @@ designer.process();
 Окончательная диаграмма выглядит следующим образом.
 
 ![todo:image_alt_text](generate-chart-by-processing-smart-markers_3.png)
+{{< app/cells/assistant language="java" >}}

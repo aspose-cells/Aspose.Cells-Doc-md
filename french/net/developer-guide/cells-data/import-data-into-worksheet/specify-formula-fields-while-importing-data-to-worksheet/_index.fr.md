@@ -20,3 +20,4 @@ Veuillez consulter le code d'exemple suivant qui explique comment spécifier le 
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-SpecifyFormulaFieldsWhileImportingDataToWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

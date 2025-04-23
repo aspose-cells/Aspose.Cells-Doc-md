@@ -27,3 +27,4 @@ Aperçu du fichier résultat:
 <br>
 <image src="result.png" width="70%" />
 
+{{< app/cells/assistant language="csharp" >}}

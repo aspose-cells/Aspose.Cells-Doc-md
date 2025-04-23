@@ -18,3 +18,4 @@ Cette section comprend les sujets suivants:
 - [Diviser les cellules dans la feuille de calcul](/cells/fr/net/split-cells-in-worksheet/)
 - [Travailler avec les volets gelés](/cells/fr/net/working-with-freeze-panes/)
 - [Travailler avec des en-têtes et des pieds de page](/cells/fr/net/working-with-headers-and-footers/)
+{{< app/cells/assistant language="csharp" >}}

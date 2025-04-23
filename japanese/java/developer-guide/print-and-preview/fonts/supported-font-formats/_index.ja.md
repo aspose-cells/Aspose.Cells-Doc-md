@@ -10,3 +10,4 @@ url: /ja/java/supported-font-formats/
 TrueTypeフォント||**TTF**|
 TrueTypeコレクション||**TTC**|
 OpenTypeフォント||**OTF**|
+{{< app/cells/assistant language="java" >}}

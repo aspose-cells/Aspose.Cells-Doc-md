@@ -26,3 +26,4 @@ Il codice di esempio seguente carica il [file di Excel di esempio](51740732.xlsx
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-SpecifyHtmlCrossTypeInOutputHTML.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

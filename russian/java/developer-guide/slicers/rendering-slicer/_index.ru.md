@@ -12,3 +12,4 @@ Aspose.Cells поддерживает рендеринг формы срезки
 
 ![todo:image_alt_text](rendering-slicer_1)
 ## **Образец кода**
+{{< app/cells/assistant language="java" >}}

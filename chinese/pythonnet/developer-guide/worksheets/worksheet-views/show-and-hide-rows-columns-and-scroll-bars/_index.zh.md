@@ -3,19 +3,19 @@ title: 显示和隐藏行、列和滚动条
 type: docs
 weight: 20
 url: /zh/python-net/show-and-hide-rows-columns-and-scroll-bars/
-description: 本文演示如何使用Aspose.Cells for Python via .NET API以编程方式显示和隐藏Excel工作表的行和列。滚动条的可见性可以调整，并且可以隐藏多行和列。
-keywords: Python Excel库，Python显示行和列，Python隐藏行和列，Python显示垂直滚动条，Python显示水平滚动条，Python隐藏垂直滚动条，Python隐藏水平滚动条，Python显示和隐藏行列和滚动条。
+description: 本文演示如何使用 Aspose.Cells for Python via .NET API 编程式地显示和隐藏 Excel 工作表的行和列。可以调节滚动条的可见性，并隐藏多个行和列。
+keywords: Python Excel库，Python显示行和列，Python隐藏行和列，Python显示垂直滚动条，Python显示水平滚动条，Python隐藏垂直滚动条，Python隐藏水平滚动条，Python显示和隐藏行列及滚动条。
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET提供了控制工作表的行、列和滚动条可见性的方法。
+Aspose.Cells for Python via .NET 提供了控制工作表的行、列和滚动条可见性的方法。
 
 {{% /alert %}}
 
 ## **显示和隐藏行和列**
 
-Aspose.Cells for Python via .NET提供一个表示Microsoft Excel文件的类[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)类包含一个[**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets)集合，允许开发人员访问Excel文件中的每个工作表。工作表由[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)类表示。[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)类提供了一个[**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells)集合，表示工作表中的所有单元格。[**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells)集合提供了几种用于管理工作表中的行或列的方法。以下将讨论其中的几种。
+Aspose.Cells for Python via .NET 提供了一个类，[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)，代表一个 Microsoft Excel 文件。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) 类含有一个 [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) 集合，允许开发者访问每个工作表。工作表由 [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) 类表示。[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) 类提供一个 [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells) 集合，表示工作表中的所有单元格。[**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells) 集合提供了管理工作表中行或列的若干方法，部分内容如下。
 
 ### **显示行和列**
 
@@ -57,11 +57,11 @@ Aspose.Cells for Python via .NET提供一个表示Microsoft Excel文件的类[**
 - 垂直滚动条
 - 水平滚动条
 
-Microsoft Excel还提供水平和垂直滚动条，以便用户可以滚动工作表内容。使用Aspose.Cells for Python via .NET，开发人员可以控制Excel文件中这两种类型滚动条的可见性。
+Microsoft Excel 还提供水平和垂直滚动条，用户可以滚动浏览工作表内容。使用 Aspose.Cells for Python via .NET，开发者可以控制这两种滚动条的可见性。
 
 ### **控制滚动条的可见性**
 
-Aspose.Cells for Python via .NET提供一个表示Excel文件的类[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)类提供了一系列用于管理Excel文件的属性和方法。要控制滚动条的可见性，可以使用[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)类的[**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible)和[**WorkbookSettings.is_h_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_h_scroll_bar_visible)属性。[**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible)和[**WorkbookSettings.is_h_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_h_scroll_bar_visible)是布尔属性，这意味着这些属性只能存储true或false值。
+Aspose.Cells for Python via .NET 提供一个类，[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)，代表一个 Excel 文件。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) 类提供了丰富的属性和方法用于管理 Excel 文件。要控制滚动条的可见性，使用 [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) 类的 [**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) 和 [**WorkbookSettings.is_h_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_h_scroll_bar_visible) 属性。[**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) 和 [**WorkbookSettings.is_h_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_h_scroll_bar_visible) 是布尔属性，只能存储 **true** 或 **false**。
 
 #### **显示滚动条**
 

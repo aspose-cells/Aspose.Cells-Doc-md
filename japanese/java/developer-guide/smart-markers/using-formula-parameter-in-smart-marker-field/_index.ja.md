@@ -11,3 +11,4 @@ url: /ja/java/using-formula-parameter-in-smart-marker-field/
 次のサンプルコードでは、変数Testとそのデータソース名もTestであるスマートマーカータグに数式を埋め込んだ完全なフィールドが**&=$Test(formula)**のようになります。また、コードの実行後には、[最終出力Excelファイル](47153156.xlsx)にA1からA5までのセルに数式が表示されます。
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-SmartMarkers-UsingFormulaParameterInSmartMarkerField.java" >}}
+{{< app/cells/assistant language="java" >}}

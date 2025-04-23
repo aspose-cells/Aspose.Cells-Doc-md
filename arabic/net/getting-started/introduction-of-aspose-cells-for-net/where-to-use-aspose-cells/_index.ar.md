@@ -34,3 +34,4 @@ url: /ar/net/where-to-use-aspose-cells/
 لقد ناقشنا بعض السيناريوهات الشائعة لاستخدام Aspose.Cells في بيئة الويب. ولكن Aspose.Cells مفيدة بنفس القدر في تطبيقات سطح المكتب أيضًا.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

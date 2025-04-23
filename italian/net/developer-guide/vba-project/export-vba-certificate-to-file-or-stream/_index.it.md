@@ -16,3 +16,4 @@ Aspose.Cells ti consente di esportare il certificato digitale VBA su un flusso c
 Consulta il seguente codice di esempio che salva i dati grezzi del certificato VBA in un file. Puoi scaricare il [file di esempio di Excel utilizzato in questo codice](5115031.xlsm) dal link fornito.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-ExportVBACertificateToFile-ExportVBACertificateToFile.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

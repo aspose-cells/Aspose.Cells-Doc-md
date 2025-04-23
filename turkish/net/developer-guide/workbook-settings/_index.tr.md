@@ -6,3 +6,4 @@ weight: 185
 url: /tr/net/workbook-settings/
 description: Microsoft Excel dosyalarının ayarlarını yönetme.
 ---
+{{< app/cells/assistant language="csharp" >}}

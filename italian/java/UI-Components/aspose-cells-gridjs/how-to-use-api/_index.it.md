@@ -17,10 +17,10 @@ aliases:
 
 # Lavorare con GridJs lato server
 ## 0. imposta il percorso della cartella corretta in Config
- **`Config.setFileCacheDirectory`** per il file di cache del foglio di lavoro (necessario).
- **`Config.setPictureCacheDirectory`** per i file immagine in cache nel workbook (opzionale, il valore predefinito è _piccache nella directory di cache dei file).
+ **`Config.setFileCacheDirectory`** per il file cache del workbook (obbligatorio).
+ **`Config.setPictureCacheDirectory`** per il cache delle immagini nel workbook (facoltativo, il valore predefinito è _piccache nella directory cache del file).
 
-per i dettagli di archiviazione, controllare questa [guida](/java/aspose-cells-gridjs/storage/)
+per i dettagli di archiviazione, consulta questa [guida](/java/aspose-cells-gridjs/storage/)
 
 ## 1. Implementa GridCacheForStream
 Per lo storage in file locale, ecco un esempio:

@@ -4,8 +4,8 @@ linktitle: 冻结窗格
 type: docs
 weight: 190
 url: /zh/python-net/how-to-freeze-panes-of-excel-worksheet
-description: 在本文中，您将学习如何使用Aspose.Cells for Python via .NET API以编程方式冻结Excel工作表。
-keywords: Python Excel库，Python冻结窗格，在Python中冻结窗口。
+description: 本文将介绍如何使用 Aspose.Cells for Python via .NET API 编程方式冻结 Excel 工作表的窗格。
+keywords: Python Excel 库，Python 冻结窗格，Python 中冻结窗口。
 ---
 
 ## **介绍**
@@ -31,8 +31,8 @@ keywords: Python Excel库，Python冻结窗格，在Python中冻结窗口。
 
 
 
-## **如何使用Aspose.Cells for Python Excel库冻结窗格**
-使用Aspose.Cells for Python via .NET，冻结窗格很简单。请使用[**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int)方法在选择的单元格上冻结窗格。
+## **如何使用 Aspose.Cells for Python Excel 库冻结窗格**
+使用 Aspose.Cells for Python via .NET 非常简单。请使用 [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) 方法在选定单元格处冻结窗格。
 1.构建工作簿以打开文件或创建一个空文件。
 2.使用Worksheet.FreezePanes()方法冻结窗格。
 3.保存文件。

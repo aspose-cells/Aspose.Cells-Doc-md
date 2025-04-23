@@ -32,3 +32,4 @@ url: /ar/net/insert-svg-to-excel/
 عند تنفيذ الكود أعلاه في مشروعك، ستحصل على النتائج التالية:
 
 ![](3.png)
+{{< app/cells/assistant language="csharp" >}}

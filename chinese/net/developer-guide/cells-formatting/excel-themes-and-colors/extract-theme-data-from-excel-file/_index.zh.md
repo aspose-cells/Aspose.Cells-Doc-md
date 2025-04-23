@@ -20,3 +20,4 @@ Aspose.Cells 允许用户从 Excel 文件中提取主题相关数据。例如，
 以下示例代码提取了应用于源工作簿的主题名称，然后提取了应用于单元格 A1 的主题颜色以及应用于单元格底部边框的主题颜色。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ExtractThemeData-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -9,7 +9,7 @@ url: /tr/java/adding-custom-properties-visible-inside-document-information-panel
 
 Aspose.Cells, Belge Bilgi Paneli'nde görünen çalışma kitabı nesnesi içine özel özellikler eklemek için kullanılabilir. Microsoft Excel'de Belge Bilgi Paneli'ni Aç > Bilgi > Özellikler > Belgeyi Göster menü komutlarını kullanarak açabilirsiniz.
 
-Lütfen Belge Bilgi Panelinde görünecek özel bir özellik eklemek için [**Workbook.getContentTypeProperties().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add(java.lang.Object)) yöntemini kullanın
+Lütfen Belge Bilgi Panelinde görünecek özel bir özellik eklemek için [**Workbook.getContentTypeProperties().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-) yöntemini kullanın
 
 {{% /alert %}}
 
@@ -26,3 +26,4 @@ Aşağıdaki örnek kod, herhangi bir tipe sahip olmayan ilk özellik ve ikinci 
 - [Aspose.Cells'te Özel XML Parçalarının Kullanımı](/cells/tr/java/using-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

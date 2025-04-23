@@ -71,3 +71,4 @@ Scarica **Riordina i fogli di lavoro** da uno dei siti di social coding menziona
 Per ulteriori dettagli, visita [Working with Worksheets](/cells/it/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -4,8 +4,8 @@ linktitle: Écran scindé
 type: docs
 weight: 190
 url: /fr/python-net/how-to-split-screen-of-excel-worksheet
-description: Dans cet article, vous apprendrez comment afficher certaines lignes et/ou colonnes dans des volets séparés en divisant la feuille de calcul en deux ou quatre parties de manière programmée en utilisant les APIs Aspose.Cells pour Python via .NET.
-keywords: Bibliothèque Python Excel, Congeler les lignes supérieures en Python, Congeler la ligne supérieure en Python, Diviser la feuille de calcul verticalement sur les colonnes en Python, Diviser la feuille de calcul horizontalement sur les lignes en Python, Diviser la feuille de calcul en quatre parties en Python Comment supprimer la division.
+description: Dans cet article, vous apprendrez comment afficher certaines lignes et/ou colonnes dans des volets séparés en divisant la feuille en deux ou quatre parties de manière programmatique en utilisant Aspose.Cells pour Python via .NET APIs.
+keywords: Bibliothèque Excel Python, Figer les lignes du haut en Python, Figer la première ligne en Python, Diviser la feuille verticalement sur les colonnes, Diviser la feuille horizontalement sur les lignes, Diviser la feuille en quatre parties, Comment supprimer la division.
 ---
 
 ## **Introduction**
@@ -20,34 +20,34 @@ Pour diviser une feuille de calcul en deux ou quatre parties, procédez comme su
 
 **![Écran partagé](Split-Screen.png)**
 
-## **Comment Diviser la Feuille de Calcul Verticalement par Colonnes**
+## **Comment diviser la feuille verticalement sur les colonnes**
 
 Pour séparer deux zones de la feuille de calcul verticalement, sélectionnez la colonne à droite de la colonne où vous souhaitez afficher la division et cliquez sur le bouton Fractionner dans Excel.
 
-Il est facile de diviser la feuille de calcul verticalement par colonnes de manière programmée avec Aspose.Cells pour Python via .NET, il suffit de sélectionner une cellule dans la ligne supérieure comme cellule active, puis
+Il est facile de diviser la feuille verticalement sur les colonnes de manière programmatique avec Aspose.Cells pour Python via .NET, il suffit de sélectionner une cellule dans la ligne supérieure comme cellule active, puis
 fractionner avec la méthode [**Worksheet.split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/split/).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Vertically-Split.py" >}}
 
-## **Comment Diviser la Feuille de Calcul Horizontalement par Lignes**
+## **Comment diviser la feuille horizontalement sur les lignes**
 Pour séparer votre fenêtre Excel horizontalement, sélectionnez la ligne en dessous de la ligne où vous souhaitez que la division se produise dans Excel.
 
-Il est facile de diviser la feuille de calcul horizontalement par lignes de manière programmée avec Aspose.Cells pour Python via .NET, il suffit de sélectionner une cellule dans la colonne de gauche comme cellule active, puis
+Il est facile de diviser la feuille horizontalement sur les lignes de manière programmatique avec Aspose.Cells pour Python via .NET, il suffit de sélectionner une cellule dans la colonne de gauche comme cellule active, puis
 fractionner avec la méthode [**Worksheet.split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/split/).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Horizontally-Split.py" >}}
 
-## **Comment Diviser la Feuille de Calcul en Quatre Parties**
+## **Comment diviser la feuille en quatre parties**
 Pour afficher quatre sections différentes de la même feuille de calcul simultanément, divisez votre écran à la fois verticalement et horizontalement dans Excel.
 
-Il est facile de diviser la feuille de calcul verticalement par colonnes de manière programmée avec Aspose.Cells pour Python via .NET, il suffit de sélectionner une cellule qui n'est pas dans la première ligne et colonne comme cellule active, puis
+Il est facile de diviser la feuille verticalement sur les colonnes de manière programmatique avec Aspose.Cells pour Python via .NET, il suffit de sélectionner une cellule qui n'est pas dans la première ligne et la première colonne comme cellule active, puis
 fractionner avec la méthode [**Worksheet.split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/split/).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Split-Four.py" >}}
 
-## **Comment Supprimer la Division**
+## **Comment supprimer la division**
 Pour supprimer la division de la feuille de calcul, il suffit de cliquer à nouveau sur le bouton Fractionner.
 
-Aspose.Cells pour Python via .NET fournit une méthode [**Worksheet.remove_split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/remove_split/) pour supprimer le paramètre de division.
+Aspose.Cells pour Python via .NET fournit une méthode [**Worksheet.remove_split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/remove_split/) pour supprimer la configuration de division.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Remove-Split.py" >}}

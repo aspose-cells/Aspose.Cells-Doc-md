@@ -31,3 +31,4 @@ url: /ar/net/public-api-changes-in-aspose-cells-8-2-0/
 يرجى التحقق من المقال المفصل عن [تناسب الصفوف والأعمدة تلقائياً](http://aspose.com/docs/display/cellsnet/AutoFit+Rows+and+Columns).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

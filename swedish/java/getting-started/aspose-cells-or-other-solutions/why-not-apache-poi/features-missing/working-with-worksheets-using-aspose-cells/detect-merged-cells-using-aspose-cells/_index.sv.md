@@ -65,3 +65,4 @@ for(int i = al.size()-1 ; i > -1; i--)
 För mer information, besök [Identifiera sammanslagna celler i ett kalkylblad](/cells/sv/java/identifiera-sammanslagna-celler-i-ett-kalkylblad).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

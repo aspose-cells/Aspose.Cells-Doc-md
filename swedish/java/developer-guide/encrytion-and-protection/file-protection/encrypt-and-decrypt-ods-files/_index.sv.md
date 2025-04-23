@@ -19,8 +19,9 @@ Aspose.Cells tillåter att kryptera och dekryptera ODS-fil. Dekrypterad ODS-fil 
 
 ## **Kryptera/Dekryptera ODS-fil:**
 
-För att kryptera en ODS-fil, ladda in filen och ange det faktiska lösenordet till [**WorkbookSettings.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password) innan du sparar det. Den krypterade utmatnings-ODS-filen kan endast öppnas i OpenOffice. För att dekryptera en ODS-fil, ladda in filen och ange lösenordet till [**LoadOptions.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#Password). När filen har laddats, anropa funktionen [**Workbook.unprotect()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotect(java.lang.String)) med det faktiska lösenordet som argument och till slut ange null till [**Workbook.getWorkbookSettings().setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password).
+För att kryptera en ODS-fil, ladda in filen och ange det faktiska lösenordet till [**WorkbookSettings.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password) innan du sparar det. Den krypterade utmatnings-ODS-filen kan endast öppnas i OpenOffice. För att dekryptera en ODS-fil, ladda in filen och ange lösenordet till [**LoadOptions.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#Password). När filen har laddats, anropa funktionen [**Workbook.unprotect()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotect-java.lang.String-) med det faktiska lösenordet som argument och till slut ange null till [**Workbook.getWorkbookSettings().setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password).
 
 ### **Exempelkod:**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-EncryptingODSFiles-EncryptingODSFiles.java" >}}
+{{< app/cells/assistant language="java" >}}

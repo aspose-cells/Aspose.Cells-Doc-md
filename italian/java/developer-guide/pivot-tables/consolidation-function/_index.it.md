@@ -43,3 +43,4 @@ La funzione di consolidamento DistinctCount è supportata solo da Microsoft Exce
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="java" >}}

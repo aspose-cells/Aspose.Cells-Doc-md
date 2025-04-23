@@ -194,3 +194,4 @@ För att skapa ett linjediagram med datamarkör, [**ChartType**](https://referen
 - [Hantera titlar för Excel-diagram](/cells/sv/net/chart-and-axis-titles/)
 - [Diagramrendering](/cells/sv/net/chart-rendering/)
 - [Få ekvationstext av diagramtrendlinje](/cells/sv/net/get-equation-text-of-chart-trendline/)
+{{< app/cells/assistant language="csharp" >}}

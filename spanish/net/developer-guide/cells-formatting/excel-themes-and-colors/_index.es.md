@@ -69,3 +69,4 @@ El siguiente ejemplo utiliza un archivo XLSX de plantilla, obtiene los colores p
 
 ## **Temas avanzados**
 - [Extraer datos de tema del archivo de Excel](/cells/es/net/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="csharp" >}}

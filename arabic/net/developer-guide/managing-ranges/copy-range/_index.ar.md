@@ -38,3 +38,4 @@ url: /ar/net/copy-ranges-of-Excel/
 - [نسخ أطوال الصفوف من النطاق المصدر إلى النطاق الهدف](/cells/ar/net/copy-row-heights-of-source-range-to-destination-range/)
 
 
+{{< app/cells/assistant language="csharp" >}}

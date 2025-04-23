@@ -73,3 +73,4 @@ Aspose.Cells for .NET'yi tamamen kaldırmak ve denetimlerin, ilgili demoların v
 - **Ekle/Kaldır Programlar**'ı tıklayın.
 - Aspose.Cells for .NET (sürüm)’ü seçin.
 - Aspose.Cells'ı kaldırmak için **Düzenle/Kaldır**'ı tıklayın.
+{{< app/cells/assistant language="csharp" >}}

@@ -18,7 +18,7 @@ keywords: Применить лицензию в Aspose.Cells for Java.
 1. Явный путь.
  1. Папка, содержащая файл Aspose.Cells.jar.
 
- Используйте метод [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) для лицензирования компонента. Часто самым простым способом установить лицензию является поместить файл лицензии в ту же папку, что и Aspose.Cells.jar, и указать только имя файла без пути, как показано в следующем примере:
+Используйте метод [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense-java.io.InputStream-) для лицензирования компонента. Часто самый простой способ установить лицензию — поместить файл лицензии в ту же папку, что и Aspose.Cells.jar, и указать только имя файла без пути, как показано в следующем примере:
 
 ### ** Как применить лицензию с диска**
 
@@ -99,3 +99,4 @@ double amountAfter = Metered.getConsumptionQuantity();
 System.out.println(amountAfter);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

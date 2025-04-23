@@ -19,3 +19,4 @@ Le résultat de ce test était très bon. Si vous avez, par exemple, 100 demande
 Maintenant, nous avons résolu le problème qui prenait trop de temps à nos clients. La convivialité de nos produits est meilleure. 
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

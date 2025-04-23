@@ -28,3 +28,4 @@ Aspose.CellsはExcelと同じように動作します。
 1. [PageSetup.IsHFDiffOddEven](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/ishfdiffoddeven/) および [PageSetup.IsHFDiffFirst](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/IsHFDiffFirst/) のフラグを設定します。 
 1. 異なるヘッダーとフッターを入力します。
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DiffHeaderFooter.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

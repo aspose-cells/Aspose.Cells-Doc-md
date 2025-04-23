@@ -133,3 +133,4 @@ En ny konstant Ooxml har lagts till klassen FileFormatType för att representera
 Med Aspose.Cells for Java har getFilterColumnCollection-metoden markerats som föråldrad. Det föreslås att istället använda AuotFilter.getFilterColumns-metoden.
 ## **Ersatt SeriesCollection.SecondCatergoryData med SeriesCollection.SecondCategoryData**
 Vi har i princip rättat till stavfel i metodnamnet för SeriesCollection.getSecondCatergoryData. Du kan använda SeriesCollection.getSecondCategoryData-metoden från och med nu, medan den ursprungliga metoden SeriesCollection.getSecondCatergoryData har markerats som föråldrad.
+{{< app/cells/assistant language="java" >}}

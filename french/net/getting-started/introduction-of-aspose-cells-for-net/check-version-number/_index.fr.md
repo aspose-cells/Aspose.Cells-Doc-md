@@ -29,3 +29,4 @@ Pour savoir quelle version d'Aspose.Cells vous utilisez manuellement:
 Pour savoir quelle version d'Aspose.Cells vous utilisez via l'API, utilisez la méthode statique GetVersion de la classe [CellsHelper](https://reference.aspose.com/cells/net/aspose.cells/cellshelper) pour obtenir le numéro de version d'Aspose.Cell.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-CheckVersionNumber-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -7,13 +7,13 @@ url: /ar/java/specify-job-or-document-name-while-printing-with-aspose-cells/
 
 {{% alert color="primary" %}}
 
-يمكنك تحديد اسم الوظيفة أو المستند أثناء طباعة مصنفك أو ورقة العمل باستخدام الكائنات [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) أو [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender). توفر Aspose.Cells الطرق [**WorkbookRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String,%20java.lang.String)) و [**SheetRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String,%20java.lang.String)) التي يمكنك استخدامها لتحديد اسم الوظيفة أثناء طباعة مصنفك أو ورقة العمل.
+يمكنك تحديد اسم الوظيفة أو المستند أثناء طباعة مصنفك أو ورقة العمل باستخدام الكائنات [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) أو [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender). توفر Aspose.Cells الطرق [**WorkbookRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter-java.lang.String-java.lang.String-) و [**SheetRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-java.lang.String-) التي يمكنك استخدامها لتحديد اسم الوظيفة أثناء طباعة مصنفك أو ورقة العمل.
 
 {{% /alert %}}
 
 ## **تحديد اسم المهمة أو المستند أثناء الطباعة باستخدام Aspose.Cells**
 
-يقوم كود العينة بتحميل ملف Excel المصدر ثم يرسله إلى الطابعة عن طريق تحديد اسم الوظيفة أو المستند باستخدام الطرق [**WorkbookRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String,%20java.lang.String)) و [**SheetRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String,%20java.lang.String)). تُظهر لقطة الشاشة كيف يبدو اسم الوظيفة في طابع الانتظار.
+يقوم كود العينة بتحميل ملف Excel المصدر ثم يرسله إلى الطابعة عن طريق تحديد اسم الوظيفة أو المستند باستخدام الطرق [**WorkbookRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter-java.lang.String-java.lang.String-) و [**SheetRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-java.lang.String-). تُظهر لقطة الشاشة كيف يبدو اسم الوظيفة في طابع الانتظار.
 
 ![todo:image_alt_text](specify-job-or-document-name-while-printing-with-aspose-cells_1.png)
 
@@ -22,3 +22,4 @@ url: /ar/java/specify-job-or-document-name-while-printing-with-aspose-cells/
 ## مقالات ذات صلة
 
 - [طباعة دفاتر العمل](/cells/ar/java/printing-workbooks/)
+{{< app/cells/assistant language="java" >}}

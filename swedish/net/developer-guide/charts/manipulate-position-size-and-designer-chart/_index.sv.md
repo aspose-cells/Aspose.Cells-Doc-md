@@ -45,3 +45,4 @@ I det här exemplet kommer vi att manipulera ett linjediagram. Vi kommer att lä
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-ModifyLineChart-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

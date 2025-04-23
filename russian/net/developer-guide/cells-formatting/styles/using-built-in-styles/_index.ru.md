@@ -72,3 +72,4 @@ Aspose.Cells предоставляет огромную коллекцию по
 ## C# код для использования встроенных стилей
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingBuiltinStyles-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

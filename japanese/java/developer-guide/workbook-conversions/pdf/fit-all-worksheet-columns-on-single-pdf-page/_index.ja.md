@@ -30,3 +30,4 @@ url: /ja/java/fit-all-worksheet-columns-on-single-pdf-page/
 スプレッドシートに数式が含まれている場合、PDF 形式に変換する直前に [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) メソッドを呼び出すことが最適です。これにより、数式に依存する値が再計算され、正しい値が PDF にレンダリングされます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

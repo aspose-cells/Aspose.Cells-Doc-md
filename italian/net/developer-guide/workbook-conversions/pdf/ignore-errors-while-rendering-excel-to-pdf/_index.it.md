@@ -18,3 +18,4 @@ Il seguente codice carica il [file Excel di esempio](55541778.xlsx) ma il file E
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-IgnoreErrorsWhileRenderingExcelToPdf.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

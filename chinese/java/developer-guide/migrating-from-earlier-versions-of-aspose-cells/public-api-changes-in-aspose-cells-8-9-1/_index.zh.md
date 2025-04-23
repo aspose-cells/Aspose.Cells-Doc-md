@@ -256,3 +256,4 @@ book.calculateFormula(options);
 建议使用 FontConfigs.setFontFolders(String[], boolean) 方法，将递归设置为 false。
 ### **已废弃 CellsHelper.FontFiles 属性**
 建议使用 FontConfigs.setFontSources(FontSourceBase[]) 方法。
+{{< app/cells/assistant language="java" >}}

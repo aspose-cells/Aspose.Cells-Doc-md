@@ -32,3 +32,4 @@ url: /ru/net/accessing-table-from-cell-and-adding-values-inside-it-using-row-and
 Следующий примерный код загружает исходный файл Excel, как показано на снимке экрана выше, добавляет значения в таблицу и создает выходной файл Excel, как показано выше.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-AccessTableFromCellAndAddValue-AccessTableFromCellAndAddValue.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

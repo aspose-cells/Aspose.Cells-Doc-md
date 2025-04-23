@@ -48,3 +48,4 @@ Microsoft Excel (97 - 365) يتيح لك تشفير وحماية كلمة مرو
 - [تحديد المؤلف أثناء حماية كتاب العمل](/cells/ar/net/specify-author-while-write-protecting-workbook/)
 - [التحقق من كلمة مرور الملفات المشفرة](/cells/ar/net/verify-password-of-encrypted-excel-and-ods-files/)
 
+{{< app/cells/assistant language="csharp" >}}

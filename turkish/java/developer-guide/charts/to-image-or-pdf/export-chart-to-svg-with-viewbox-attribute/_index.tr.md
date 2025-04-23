@@ -29,3 +29,4 @@ Grafiğin SVG'sini not defterinde açarsanız, benzer bir **viewBox** özniteli�
 
 - [Grafik Rendeleme](/cells/tr/java/chart-rendering/)
 - [Belirtilen Genişlik ve Yükseklikte Çalışsayısı veya Tabloyu Resme Dışa Aktarma](/cells/tr/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+{{< app/cells/assistant language="java" >}}

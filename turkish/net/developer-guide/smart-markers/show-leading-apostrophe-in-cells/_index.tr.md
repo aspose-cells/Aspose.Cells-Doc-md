@@ -22,3 +22,4 @@ Aşağıdaki kod parçası, kaynak excel dosyasına Akıllı İmlerle veri ekley
 *DataObject* sınıfının uygulaması aşağıda verilmiştir
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AllowLeadingApostrophe-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

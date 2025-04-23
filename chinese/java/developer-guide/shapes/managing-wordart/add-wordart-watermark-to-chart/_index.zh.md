@@ -30,3 +30,4 @@ url: /zh/java/add-wordart-watermark-to-chart/
 ### Java代码示例：向图表添加WordArt水印
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddWordArtWatermarkToChart-AddWordArtWatermarkToChart.java" >}}
+{{< app/cells/assistant language="java" >}}

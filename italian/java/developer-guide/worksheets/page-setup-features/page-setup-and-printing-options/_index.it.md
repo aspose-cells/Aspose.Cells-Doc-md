@@ -100,3 +100,4 @@ Questo articolo mostra come impostare le opzioni di impostazione pagina e di sta
 Aspose.Cells beneficia di anni di ricerca, design e accordatura attenta. Accogliamo con piacere le vostre richieste, commenti e suggerimenti su [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9). Garantiamo una risposta tempestiva.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

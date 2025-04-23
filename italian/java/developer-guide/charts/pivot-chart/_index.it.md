@@ -8,22 +8,22 @@ description: Come aggiungere un PivotChart utilizzando Aspose.Cells.
 keywords: PivotChart
 ---
 ## Cosa è un PivotChart
-Un grafico pivot è una rappresentazione visuale dei dati in una tabella pivot. I grafici pivot forniscono un modo per riassumere, analizzare, esplorare e presentare i dati di sintesi. Ecco alcune caratteristiche chiave e aspetti dei grafici pivot:
+Un grafico pivot è una rappresentazione visiva dei dati in una tabella pivot. I grafici pivot offrono un modo per riassumere, analizzare, esplorare e presentare dati riassuntivi. Ecco alcune caratteristiche e aspetti chiave dei grafici pivot:
 
-1. Rappresentazione dinamica dei dati: I grafici pivot si aggiornano automaticamente per riflettere le modifiche nella tabella pivot. Se aggiungi o rimuovi campi nella tabella pivot, anche il grafico pivot viene aggiornato di conseguenza.
+1. Rappresentazione Dinamica dei Dati: I grafici pivot si aggiornano automaticamente per riflettere le modifiche nella tabella pivot. Se aggiungi o rimuovi campi nella tabella pivot, il grafico pivot si aggiorna di conseguenza.
 
-1. Interattivo: I grafici pivot sono interattivi, consentono agli utenti di filtrare, ordinare e approfondire nei dati. Ciò facilita l'esplorazione di diversi aspetti dell'insieme di dati.
+1. Interattivo: I grafici pivot sono interattivi, permettendo agli utenti di filtrare, ordinare e approfondire i dati. Questo rende facile esplorare diversi aspetti del set di dati.
 
-1. Layout flessibile: Gli utenti possono cambiare il layout del grafico pivot trascinando e rilasciando campi, offrendo così flessibilità nella visualizzazione dei dati.
+1. Layout flessibile: gli utenti possono modificare il layout del grafico pivot trascinando e rilasciando i campi, offrendo flessibilità nella visualizzazione dei dati.
 
-1. Diversi tipi di grafico: I grafici pivot possono essere creati utilizzando vari tipi di grafico come grafici a barre, grafici a linee, grafici a torta e altro ancora, a seconda della natura dei dati e delle informazioni che si desidera ottenere.
+1. Tipi di grafico vari: i grafici pivot possono essere creati utilizzando vari tipi di grafico come grafici a barre, a linee, a torta e altri, a seconda della natura dei dati e delle intuizioni desiderate.
 
-1. Sintesi: I grafici pivot riassumono grandi quantitativi di dati e possono mostrare totali, medie, conteggi o altre statistiche di sintesi.
+1. Sintesi: i grafici pivot riassumono grandi quantità di dati e possono mostrare totali, medie, conteggi o altre statistiche di sintesi.
 
-1. Filtraggio: Forniscono funzionalità di filtraggio, consentendo di visualizzare solo i dati che soddisfano determinati criteri.
+1. Filtraggio: offrono capacità di filtraggio, consentendo di visualizzare solo i dati che soddisfano determinati criteri.
 
 <br>
-I grafici pivot sono comunemente utilizzati nell'intelligence aziendale e nell'analisi dei dati per fornire un riepilogo visivo chiaro e conciso di complessi set di dati. Sono uno strumento potente per prendere decisioni basate sui dati.
+I grafici pivot sono comunemente usati nelle strategie di business intelligence e analisi dei dati per fornire un riassunto visivo chiaro e conciso di insiemi di dati complessi. Sono uno strumento potente per prendere decisioni basate sui dati.
 
 ## Come aggiungere un PivotChart utilizzando Aspose.Cells
 ### **Creazione di una tabella pivot**
@@ -72,3 +72,4 @@ Aspose.Cells ha beneficiato di anni di ricerca, progettazione e sintonizzazione 
 Accogliamo con favore le tue domande, commenti e suggerimenti su [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9). Garantiamo una risposta tempestiva.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

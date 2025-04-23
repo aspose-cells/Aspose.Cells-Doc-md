@@ -85,3 +85,4 @@ Aspose.Cells предоставляет класс, [**Workbook**](https://refer
 
 
 
+{{< app/cells/assistant language="csharp" >}}

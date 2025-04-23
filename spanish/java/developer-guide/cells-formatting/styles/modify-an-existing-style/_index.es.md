@@ -56,3 +56,4 @@ Este ejemplo utiliza un archivo de Excel de plantilla simple en el que ya se ha 
 Las modificaciones se aplican automáticamente al rango al que se aplicó el estilo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ModifyExistingStyle-ModifyExistingStyle.java" >}}
+{{< app/cells/assistant language="java" >}}

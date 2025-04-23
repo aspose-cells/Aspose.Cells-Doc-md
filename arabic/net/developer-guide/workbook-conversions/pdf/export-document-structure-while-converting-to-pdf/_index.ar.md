@@ -12,3 +12,4 @@ url: /ar/net/export-document-structure-while-converting-to-pdf/
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-ExportDocumentStructureToPdf.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

@@ -20,3 +20,4 @@ Aspose.Cells поддерживает преобразование файлов 
 Если электронная таблица содержит формулы, лучше вызвать метод [Workbook.CalculateFormula](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) прямо перед рендерингом в PDF. Это гарантирует, что зависимые от формулы значения будут пересчитаны, и правильные значения будут отображены в PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

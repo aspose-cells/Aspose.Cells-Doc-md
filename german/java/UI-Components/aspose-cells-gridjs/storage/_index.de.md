@@ -15,11 +15,11 @@ aliases:
 ##  Der allgemeine Dateiprozess 
 Nach dem Import einer Tabellendatei erstellt GridJs eine Cache-Datei mit der angegebenen UID im Ordner **`Config.file_cache_directory`** ,
 
-GridJs erstellt eine Cache-Datei mit der angegebenen UID im Ordner **`Config.getFileCacheDirectory()`** ,
+GridJs erstellt eine Cache-Datei mit der angegebenen UID im Ordner `Config.getFileCacheDirectory()`,
 
-im Format von [Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/java/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat") ,
+im Format [Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/java/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat") ,
 
-GridJs speichert auch alle Formen/Bilder in einer Zip-Archivdatei im Ordner **`Config.getPictureCacheDirectory()`**, um sie später im Client-UI darzustellen.
+GridJs speichert außerdem alle Formen/Bilder in eine ZIP-Archivdatei im Ordner `Config.getPictureCacheDirectory()`, um Formen/Bilder später im Client-UI anzuzeigen.
 
 und nach jeder Aktualisierung im Client-UI
 
@@ -99,7 +99,7 @@ public class LocalFileCache extends GridCacheForStream {
 ```
 B. Wenn wir GridJsWorkbook.CacheImp nicht setzen,
 
-GridJs erstellt und speichert Dateien im Ordner **`Config.getFileCacheDirectory()`**, welcher der Standard-Cache-Ordner ist, den wir festlegen können.
+GridJs erstellt und speichert die Datei innerhalb des Ordners `Config.getFileCacheDirectory()`, welcher das Standard-Cache-Verzeichnis ist, das wir festlegen können.
 
 ### wie man die aktualisierte Ergebnisdatei erhält
 #### 1. eine spezifische UID für die Datei 
@@ -183,7 +183,7 @@ müssen wir vor der Speicheraktion eine Zusammenführungsoperation durchführen,
   //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
   wb.saveToCacheWithFileName(uid,filename,password);
 ```         
-#### 3. Holen Sie sich die Datei-URL aus dem Cache
+#### 3. Holen Sie sich die Date-URL aus dem Cache
 zum Beispiel: Bei der Download-Aktion können Sie es einfach aus dem Cache-Verzeichnis nach UID abrufen.
 ```JAVA
 //in controller  

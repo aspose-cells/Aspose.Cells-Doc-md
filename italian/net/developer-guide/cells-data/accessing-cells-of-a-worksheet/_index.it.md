@@ -56,3 +56,4 @@ Aspose.Cells consente agli sviluppatori di accedere alla massima gamma di visual
 È possibile accedere all'intervallo massimo di visualizzazione di un foglio di lavoro utilizzando [**Worksheet.Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange). Il seguente codice di esempio illustra come accedere alla proprietà [**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

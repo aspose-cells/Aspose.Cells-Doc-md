@@ -30,3 +30,4 @@ Aşağıdaki örnek kod, 100 sütunlu büyük bir çalışsayfayı [**PdfSaveOpt
 Elektronik tablonuzda formüller bulunuyorsa, en iyi şekilde [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) yöntemini elektronik tabloyu PDF biçimine dönüştürmeden hemen önce çağırmanız önerilir. Böylece formül bağımlı değerler yeniden hesaplanır ve doğru değerler PDF'de render edilir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

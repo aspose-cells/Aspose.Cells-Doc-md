@@ -7,7 +7,7 @@ url: /ja/java/calculation-of-array-formula-of-data-tables/
 
 {{% alert color="primary" %}} 
 
-Microsoft Excelでデータ > シミュレーション > データテーブル...を使用してデータテーブルを作成できます。Aspose.Cellsでは、データテーブルの配列式を計算することができます。任意の種類の数式を計算するために、[Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\))を通常通り使用してください。
+Microsoft ExcelでData > What-If Analysis > Data Table...を使用してデータテーブルを作成できます。Aspose.Cellsは現在、データテーブルの配列数式の計算をサポートしています。通常通り [Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--)を使用して任意のタイプの数式を計算してください。
 
 {{% /alert %}} 
 ## **データテーブルの配列式の計算**
@@ -22,3 +22,4 @@ Microsoft Excelでデータ > シミュレーション > データテーブル..
 こちらは、[ソースエクセルファイル](5472579.xlsx)から[出力PDF](5472577.pdf)を生成するために使用されたサンプルコードです。詳細についてはコメントをご覧ください。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculationOfArrayFormula-CalculationOfArrayFormula.java" >}}
+{{< app/cells/assistant language="java" >}}

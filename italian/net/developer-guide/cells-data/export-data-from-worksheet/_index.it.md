@@ -109,3 +109,4 @@ I dati da un intervallo possono essere esportati in [**DataTable**](https://docs
 - [Esporta dati righe visibili dal foglio di lavoro](/cells/it/net/export-visible-rows-data-from-worksheet/)
 - [Ignora le colonne nascoste durante l'esportazione dei dati del foglio di lavoro nel DataTable](/cells/it/net/ignore-hidden-columns-while-exporting-worksheet-data-to-data-table/)
 - [Rinomina automaticamente le colonne duplicate durante l'esportazione dei dati del foglio di lavoro](/cells/it/net/rename-duplicate-columns-automatically-while-exporting-worksheet-data/)
+{{< app/cells/assistant language="csharp" >}}

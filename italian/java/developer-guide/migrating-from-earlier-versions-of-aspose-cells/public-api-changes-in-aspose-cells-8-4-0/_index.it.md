@@ -270,3 +270,4 @@ Il valore predefinito è "" (stringa vuota).
 Usa il metodo getEnumerator per iterare tutte le celle.
 ### **Proprietà Image obsoleta di DrawObject**
 Utilizzare la proprietà DrawObject.ImageBytes per ottenere i dati dell'immagine invece.
+{{< app/cells/assistant language="java" >}}

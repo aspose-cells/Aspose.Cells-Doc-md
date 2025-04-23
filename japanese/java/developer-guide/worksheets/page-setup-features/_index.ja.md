@@ -166,19 +166,20 @@ Aspose.Cells により、ワークシートにランタイムでヘッダーや�
 |&T|現在時刻。
 |&A|ワークシートの名前。
 |&F|パスを除いたファイル名。
+|&&Text|は &Text を表示します。例： &&WO は &WO と表示されます|
 |&"\<FontName>"|フォント名。たとえば: &"Arial"
 |&"\<FontName>, \<FontStyle>"|スタイル付きのフォント名。たとえば: &"Arial,Bold"
-フォントサイズを表します。例: “&14abc”。ただし、このコマンドの後にヘッダーに印刷する通常の数値が続く場合は、フォントサイズからスペース文字で区切られる必要があります。例: “&14 123”。
+|&\<FontSize>|フォントサイズを表します。例：「&14abc」。ただし、このコマンドの後にヘッダーに印刷されるプレーンな数字が続く場合、その数字はフォントサイズとスペースで区切る必要があります。例：「&14 123」。|
 
 ### **ヘッダーやフッタの設定**
 
-[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) クラスにはワークシートにヘッダーを追加するためのメソッド [**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String)) とフッタを追加するための [**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String)) が提供されます。上記の全てのメソッドに対する引数としてスクリプトが使用されます。これは、ヘッダーやフッタを書式設定するためのスクリプトです。
+[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) クラスにはワークシートにヘッダーを追加するためのメソッド [**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader-int-java.lang.String-) とフッタを追加するための [**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter-int-java.lang.String-) が提供されます。上記の全てのメソッドに対する引数としてスクリプトが使用されます。これは、ヘッダーやフッタを書式設定するためのスクリプトです。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetHeadersAndFooters-SetHeadersAndFooters.java" >}}
 
 ### **ヘッダーやフッタにグラフィックを挿入**
 
-[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) クラスには、ワークシートのヘッダーやフッタに画像を追加するための [**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[])) と [**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[])) のメソッドがあります。これらのメソッドには2つのパラメータが必要です：
+[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) クラスには、ワークシートのヘッダーやフッタに画像を追加するための [**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture-int-byte[]-) と [**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture-int-byte[]-) のメソッドがあります。これらのメソッドには2つのパラメータが必要です：
 
 - **セクション**：画像を配置するヘッダーまたはフッタのセクション。0、1、2 の数値で表される左、中央、右の3つのセクションがあります。
 - **ファイル入力ストリーム**：グラフィカルデータ。バイナリデータはバイト配列のバッファに書き込まれるべきです。
@@ -196,7 +197,7 @@ Aspose.Cells により、ワークシートにランタイムでヘッダーや�
 
 ### **最初のページヘッダーにグラフィックを挿入する**
 
-[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスにはほかにも便利なメソッドがあり、たとえば[**setPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[]))、[**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String))、[**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String))です。ワークシートの最初のページヘッダー/フッターに図を追加するためのものです。最初のページは特別なページです：特別な情報を表示させたいということが一般的です。たとえば、会社のロゴなどです。
+[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスにはほかにも便利なメソッドがあり、たとえば[**setPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture-boolean-boolean-boolean-int-byte[]-)、[**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader-int-java.lang.String-)、[**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter-int-java.lang.String-)です。ワークシートの最初のページヘッダー/フッターに図を追加するためのものです。最初のページは特別なページです：特別な情報を表示させたいということが一般的です。たとえば、会社のロゴなどです。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-InsertGraphicinFirstPageHeaderOnly-InsertGraphicinFirstPageHeaderOnly.java" >}}
 
@@ -256,18 +257,18 @@ Aspose.Cells は、[**PrintComments**](https://reference.aspose.com/cells/java/c
 
 |**コメント印刷タイプ**|**説明**|
 | :- | :- |
-|[**PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)|ワークシート上に表示されているコメントを印刷することを指定します。
-|[**PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS)|コメントを印刷しないことを指定します。
-|[**PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_SHEET_END)|ワークシートの末尾にコメントを印刷することを指定します。
+|[**PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-IN-PLACE)| ワークシートに表示されているコメントを印刷する設定。 |
+|[**PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-NO-COMMENTS)| コメントを印刷しない設定。 |
+|[**PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-SHEET-END)|ワークシートの最後にコメントを印刷することを指定します。|
 
 [**PrintErrorsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType) 列挙体の事前定義値については以下に説明します。
 
 |**エラー印刷タイプ**|**説明**|
 | :- | :- |
-|[**PRINT_ERRORS_BLANK**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_BLANK)|エラーを印刷しないことを指定します。
-|[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DASH)|エラーを "--" として印刷することを指定します。
-|[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DISPLAYED)|表示されているようにエラーを印刷することを指定します。
-|[**PRINT_ERRORS_NA**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_NA)|エラーを "#N/A" として印刷することを指定します。
+|[**PRINT_ERRORS_BLANK**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-BLANK)|エラーを印刷しないことを指定します。|
+|[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-DASH)|エラーを「--」として印刷することを指定します。|
+|[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-DISPLAYED)|表示されたとおりにエラーを印刷することを指定します。|
+|[**PRINT_ERRORS_NA**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-NA)|エラーを「#N/A」として印刷することを指定します。|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-OtherPrintOptions-OtherPrintOptions.java" >}}
 
@@ -284,8 +285,8 @@ Aspose.Cells は、[**PrintOrderType**](https://reference.aspose.com/cells/java/
 
 |**印刷順序タイプ**|**説明**|
 | :- | :- |
-|[**DOWN_THEN_OVER**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN_THEN_OVER)|下に、次に右に印刷します。
-|[**OVER_THEN_DOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER_THEN_DOWN)|右に、次に下に印刷します。
+|[**DOWN_THEN_OVER**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN-THEN-OVER)|下にプリントし、その後横にプリントします。|
+|[**OVER_THEN_DOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER-THEN-DOWN)|横にプリントし、その後下にプリントします。|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPageOrder-SetPageOrder.java" >}}
 
@@ -301,3 +302,4 @@ Aspose.Cells は、[**PrintOrderType**](https://reference.aspose.com/cells/java/
 - [レンダリングのためのワークシートのカスタム用紙サイズを実装する](/cells/ja/java/implement-custom-paper-size-of-worksheet-for-rendering/)
 - [ページ設定および印刷オプション](/cells/ja/java/page-setup-and-printing-options/)
 - [Excelファイルのワークシートの既存のPrinterSettingsを削除する](/cells/ja/java/remove-existing-printersettings-of-worksheets-in-excel-file/)
+{{< app/cells/assistant language="java" >}}

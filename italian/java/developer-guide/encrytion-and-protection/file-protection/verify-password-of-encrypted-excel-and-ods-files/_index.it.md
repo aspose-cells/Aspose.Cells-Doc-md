@@ -12,10 +12,11 @@ Se i file Excel (xlsx, xlsb, xls, xlsm) e i file Open office (ODS) sono bloccati
 
 ## **Verifica la password del file crittografato**
 
-Per verificare la password del file crittografato, Aspose.Cells for Java fornisce il metodo [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)). Il metodo accetta due parametri, lo stream del file e la password che deve essere verificata.
-Il seguente frammento di codice dimostra l'uso del metodo [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) per verificare se la password fornita è valida o meno.
+Per verificare la password del file crittografato, Aspose.Cells for Java fornisce il metodo [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword-java.io.InputStream-java.lang.String-). Il metodo accetta due parametri, lo stream del file e la password che deve essere verificata.
+Il seguente frammento di codice dimostra l'uso del metodo [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword-java.io.InputStream-java.lang.String-) per verificare se la password fornita è valida o meno.
 
 ### **Codice di Esempio:**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-VerifyPassword-1.java" >}}
 
+{{< app/cells/assistant language="java" >}}

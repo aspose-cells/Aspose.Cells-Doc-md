@@ -31,3 +31,4 @@ url: /ja/net/unprotect-a-worksheet/
 パスワードで保護されたワークシートとは、パスワードで保護されたワークシートのことです。 そのようなワークシートは、パスワードをパラメータとして取る [**Unprotect**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/unprotect/methods/1) メソッドのオーバーロードバージョンを呼び出すことで保護解除できます。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Unprotect-UnprotectingPasswordProtectedWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -11,13 +11,13 @@ url: /ru/java/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
 
 - [**HtmlCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT): Отображать как в MS Excel, что зависит от следующей ячейки. Если следующая ячейка пуста, строка пересечется или будет усечена.
 
-- [**HtmlCrossType.MS_EXPORT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#MS_EXPORT): Отображать строку как MS Excel при экспортировании в HTML.
+- [**HtmlCrossType.MS_EXPORT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#MS-EXPORT): Отображать строку как MS Excel при экспортировании в HTML.
 
-- [**HtmlCrossType.CROSS**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS): Отображать пересечение строк HTML, производительность создания больших файлов HTML будет более чем в десять раз быстрее, чем установка значения в [**DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT) или [**FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL).
+- [**HtmlCrossType.CROSS**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS): Отображать пересечение строк HTML, производительность создания больших файлов HTML будет более чем в десять раз быстрее, чем установка значения в [**DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT) или [**FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT-TO-CELL).
 
-- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT): Отображать пересечение строк HTML и скрывать правую строку, когда тексты перекрываются.
+- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS-HIDE-RIGHT): Отображать пересечение строк HTML и скрывать правую строку, когда тексты перекрываются.
 
-- [**HtmlCrossType.FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL): Отображать только строку в пределах ширины ячейки.
+- [**HtmlCrossType.FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT-TO-CELL): Отображать только строку в пределах ширины ячейки.
 
 ## **Указать, как пересекать строку в выходном HTML с использованием HtmlCrossType**
 
@@ -28,3 +28,4 @@ url: /ru/java/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-SpecifyHtmlCrossTypeInOutputHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

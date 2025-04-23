@@ -34,3 +34,4 @@ Följande exempelkod illustrerar hur man förhindrar användare från att skriva
 1. Spara provfilen till [xlsm-format](out.xlsm).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "VBA-Prevent-printing-excel.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -16,3 +16,4 @@ La classe [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.c
 Quando si utilizza la funzione di foglio a immagine, l'immagine di output presenta spazi bianchi/vuoti, cioè un bordo, attorno ad essa per impostazione predefinita. È possibile rimuoverlo. Imposta i margini di configurazione pagina superiore, sinistra, inferiore e destra del foglio di lavoro di origine su 0 e specifica gli attributi [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) di conseguenza.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-RemoveWhitespaceAroundData-1.java" >}}
+{{< app/cells/assistant language="java" >}}

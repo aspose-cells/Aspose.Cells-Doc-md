@@ -16,3 +16,4 @@ Rapporter baserade på pivottabeller är användbara men benägna för fel om m�
 Följande kod visar den här funktionen genom att komma åt en pivottabell från ett blad och sedan ställa in [**EnableWizard**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/enablewizard) till **false**. Provfilen för pivottabell kan laddas ned från denna [länk](pivot_table_test.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-DisablePivotTableRibbon.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

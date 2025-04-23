@@ -11,13 +11,13 @@ url: /ar/java/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
 
 - [**HtmlCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT): العرض مثل MS Excel الذي يعتمد على الخلية التالية. إذا كانت الخلية التالية فارغة، سيتم تقاطع السلسلة أو سيتم قصها.
 
-- [**HtmlCrossType.MS_EXPORT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#MS_EXPORT): عرض السلسلة مثل تصدير MS Excel للصفحة HTML.
+- [**HtmlCrossType.MS_EXPORT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#MS-EXPORT): عرض السلسلة مثل تصدير MS Excel للصفحة HTML.
 
-- [**HtmlCrossType.CROSS**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS): عرض تقاطع السلسلة الخاص بـ HTML، وستكون الأداء في إنشاء ملفات HTML الكبيرة أكثر من عشر مرات أسرع من تعيين القيمة إلى [**DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT) أو [**FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL).
+- [**HtmlCrossType.CROSS**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS): عرض تقاطع السلسلة الخاص بـ HTML، وستكون الأداء في إنشاء ملفات HTML الكبيرة أكثر من عشر مرات أسرع من تعيين القيمة إلى [**DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT) أو [**FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT-TO-CELL).
 
-- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT): عرض تقاطع السلسلة الخاص بـ HTML وإخفاء السلسلة اليمنى عند تداخل النصوص.
+- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS-HIDE-RIGHT): عرض تقاطع السلسلة الخاص بـ HTML وإخفاء السلسلة اليمنى عند تداخل النصوص.
 
-- [**HtmlCrossType.FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL): إظهار السلسلة فقط ضمن عرض الخلية.
+- [**HtmlCrossType.FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT-TO-CELL): إظهار السلسلة فقط ضمن عرض الخلية.
 
 ## **تحديد كيفية تقاطع السلسلة في HTML الناتج باستخدام HtmlCrossType**
 
@@ -28,3 +28,4 @@ url: /ar/java/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-SpecifyHtmlCrossTypeInOutputHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

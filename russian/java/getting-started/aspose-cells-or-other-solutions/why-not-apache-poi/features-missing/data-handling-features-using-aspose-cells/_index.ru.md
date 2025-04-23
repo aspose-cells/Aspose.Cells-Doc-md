@@ -13,3 +13,4 @@ url: /ru/java/data-handling-features-using-aspose-cells/
 - [Расчетное ядро формул в Aspose.Cells](/cells/ru/java/formula-calculation-engine-in-aspose-cells/)
 - [Отслеживание предшественников и зависимых с использованием Aspose.Cells](/cells/ru/java/tracing-precedents-and-dependents-using-aspose-cells/)
 - [Сортировка данных в электронных таблицах](/cells/ru/java/sort-data-in-spreadsheets/)
+{{< app/cells/assistant language="java" >}}

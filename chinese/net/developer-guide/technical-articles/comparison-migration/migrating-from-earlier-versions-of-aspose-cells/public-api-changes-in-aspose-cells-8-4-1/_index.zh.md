@@ -299,3 +299,4 @@ renderer.ToImage(0, "output.svg");
 ## **弃用的API**
 ### **已过时的Workbook.ValidateFormula方法**
 使用Cell.Formula方法验证公式。
+{{< app/cells/assistant language="csharp" >}}

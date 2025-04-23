@@ -16,3 +16,4 @@ keywords: 特定のスタイルが適用されたセルを見つける、特定�
 この例のコードは、セルA1と同じスタイルのすべてのセルを見つけます。コードが実行された後、A1と同じスタイルのすべてのセルにはテキスト「Found」が含まれます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindCellsWithSpecificStyle-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

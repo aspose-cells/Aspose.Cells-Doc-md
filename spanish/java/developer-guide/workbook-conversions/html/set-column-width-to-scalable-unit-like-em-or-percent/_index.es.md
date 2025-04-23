@@ -14,3 +14,4 @@ Se pueden descargar archivos fuente de muestra y archivos de salida desde los si
 [outsampleForScalableColumns.zip](74776597.zip)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-SetScalableColumnWidth.java" >}}
+{{< app/cells/assistant language="java" >}}

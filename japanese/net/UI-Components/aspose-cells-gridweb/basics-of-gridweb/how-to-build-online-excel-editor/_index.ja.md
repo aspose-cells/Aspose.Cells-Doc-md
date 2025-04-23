@@ -1,10 +1,10 @@
 ---
-title: Docker で Aspose.Cells.GridWeb を実行する方法
+title: Aspose.Cells.GridWebをDockerで実行する方法
 type: docs
 weight: 250
 url: /ja/net/aspose-cells-gridweb/how-to-build-online-excel-editor/
 keywords: GridWeb、Docker
-description: この記事では、GridWeb を Docker で実行し、オンラインの Excel エディタまたはビューアー アプリケーションを構築する方法を紹介します。
+description: この記事では、Docker内でGridWebを実行し、オンラインExcelエディタまたはビューアアプリケーションを構築する方法を紹介します。
 aliases:
   - /net/aspose-cells-gridweb/docker/
   - /net/aspose-cells-gridweb/run-aspose-cells-gridweb-in-docker/
@@ -21,15 +21,15 @@ aliases:
 
 ## 前提条件
 
-マシンにDockerがインストールされていることを確認してください。 公式Dockerウェブサイト（https://www.docker.com/get-started）からDockerをダウンロードしてインストールできます。
+お使いのマシンにDockerをインストールしていることを確認してください。Dockerは[公式Dockerウェブサイト](https://www.docker.com/get-started)からダウンロードしてインストールできます。
 
-## ステップ1：Dockerfileを作成する
+## ステップ1：Dockerfileを作成
 
-プロジェクト [ディレクトリ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/)に `Dockerfile` という名前のファイルを作成します。 `Dockerfile` には、Docker イメージをビルドする手順が含まれている必要があります。
+プロジェクトの[ディレクトリ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/)に `Dockerfile`という名前のファイルを作成します。`Dockerfile`にはDockerイメージのビルド方法を記述します。
 
-## ステップ 2: GridWeb 用の Dockerfile を作成する
+## ステップ 2: GridWeb用のDockerfileを作成
 
-ASP.NET CoreアプリケーションのGridWebデモ用の[`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/Dockerfile)のサンプルです。
+こちらはASP.NET Coreアプリケーションを用いたGridWebデモ用の [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/Dockerfile)の例です。
 
 ```dockerfile
 # Use the official .NET6.0 runtime as a parent image
@@ -77,45 +77,45 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "GridWeb.Demo.NET6.0.dll"]
 ```
 
-## ステップ3: Dockerイメージのビルド
-Dockerイメージをビルドします。ターミナルから、以下のコマンドを実行してDockerイメージをビルドします。
+## ステップ 3: Dockerイメージのビルド
+Dockerイメージのビルド：ターミナルから次のコマンドを実行してDockerイメージを作成します：
 ```bash
 docker build -t gridweb-demo-net6 .
 ```
-gridweb-demo-net6を、Dockerイメージに付けたい名前で置き換えることができます。
+`gridweb-demo-net6`をあなたのDockerイメージ名に置き換えてください。
 
-## ステップ4: Dockerコンテナの実行
-イメージが作成されたら、以下のコマンドを使用してコンテナを実行できます。
+## ステップ 4: Dockerコンテナの実行
+イメージが作成されたら、次のコマンドを使用してコンテナを実行できます：
 
 ```bash
 docker run -d -p 24262:80 --name gridweb-demo-container  gridweb-demo-net6
 ```
-Docker Runコマンドオプションの説明
+Docker実行コマンドオプションの説明
 -d: コンテナをデタッチモード（バックグラウンド）で実行します。
--p 24262:80: コンテナのポート80をホストマシンのポート24262にマッピングします。
---name gridweb-demo-container: コンテナに名前を割り当てます。
+-p 24262:80: コンテナ内のポート80をホストのポート24262にマッピングします。
+--name gridweb-demo-container: コンテナに名前を付けます。
 
-## ステップ5: コンテナが実行されているか確認する
-コンテナが実行されているかどうかを確認するには、次のコマンドを使用します。
+## ステップ 5: コンテナが実行中か確認する
+コンテナが稼働しているかどうかを確認するには、次のコマンドを使用してください：
 
 ```bash
 docker ps
 ```
-これにはすべての実行中のコンテナがリストされます。 コンテナがその名前とステータスと共にリストされているはずです。
+これにより、すべての実行中のコンテナがリストされます。あなたのコンテナが名前とステータスとともに表示されるはずです。
 
-## ステップ6：Webアプリケーションにアクセス
+## ステップ 6: Webアプリケーションへアクセスする
 
-Webブラウザを開き、`http://localhost:24262/`に移動します。アプリケーションが実行されているのが確認できるはずです。
+ウェブブラウザを開き、`http://localhost:24262/`にアクセスしてください。アプリケーションが動作しているのが見えます。
 
-GridWebの一般的な開発ガイドが表示されます 
+GridWebの一般的な開発ガイドを見ることができます。 
 
-ページ内で[demo](http://localhost:24262/grid/index1 "demo")をクリックすると、スプレッドシートファイルの編集操作を行うことができます。
+ページ内の [デモ](http://localhost:24262/grid/index1 "デモ")をクリックすると、スプレッドシートファイルの編集操作が可能です。
 
-## その他のコマンド
+## 追加コマンド
 
 ### コンテナの停止
 
-実行中のコンテナを停止するには、次のコマンドを使用します:
+実行中のコンテナを停止するには、次のコマンドを使用します：
 
 ```bash
 docker stop gridweb-demo-container

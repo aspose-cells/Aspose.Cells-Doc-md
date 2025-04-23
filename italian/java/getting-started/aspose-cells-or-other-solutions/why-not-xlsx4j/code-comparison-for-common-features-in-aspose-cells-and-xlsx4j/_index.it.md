@@ -23,3 +23,4 @@ Questa sezione include i seguenti Esempi di Confronto del Codice:
   - [Regolazione dell'Altezza della Riga e della Colonna in xlsx4j](/cells/it/java/row-column-height-adjustment-in-xlsx4j/)
 
 **Nota:** Molti altri confronti di codice saranno presto disponibili. 
+{{< app/cells/assistant language="java" >}}

@@ -74,3 +74,4 @@ Ladda ner **Konvertera diagram till bilder** från någon av nedanstående socia
 För mer detaljer, besök [Konvertera diagram till bild](/cells/sv/net/converting-chart-to-image-in-svg-format/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

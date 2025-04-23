@@ -20,3 +20,4 @@ Skärmbilden visar effekten av att ange olika standardfontnamn via [HtmlSaveOpti
 Koden genererar [utdata HTML-fil med Courier New](5472568), [utdata HTML med Arial](5472567) och [utdata HTML-fil med Times New Roman](5472565).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToHTML-.java" >}}
+{{< app/cells/assistant language="java" >}}

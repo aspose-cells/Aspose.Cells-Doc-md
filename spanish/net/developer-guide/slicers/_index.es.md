@@ -36,3 +36,4 @@ Por favor, consulte el siguiente código de ejemplo. Carga el [archivo de Excel 
 - [Eliminar rebanador](/cells/es/net/removing-slicer/)
 - [Renderización de rebanador](/cells/es/net/rendering-slicer/)
 - [Actualización de rebanador](/cells/es/net/updating-slicer/)
+{{< app/cells/assistant language="csharp" >}}

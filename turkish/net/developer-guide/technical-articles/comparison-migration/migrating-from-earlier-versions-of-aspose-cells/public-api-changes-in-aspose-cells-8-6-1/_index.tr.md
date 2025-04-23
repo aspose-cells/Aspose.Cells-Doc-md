@@ -174,3 +174,4 @@ v8.6.1'in piyasaya sürülmesiyle, Aspose.Cells for .NET API'sı Cell.GetFormatC
 ## **Eskimiş API'lar**
 ### **Workbook.CheckWriteProtectedPassword Yöntemi Kullanımdan Kaldırıldı**
 V8.6.1'in piyasaya sürülmesiyle, Workbook.CheckWriteProtectedPassword yöntemi kullanımdan kaldırılmıştır. Önerilen, belirli bir şifre ile eşleşip eşleşmediğini kontrol eden ve True döndüren WorkbookSettings.WriteProtection.ValidatePassword yöntemini kullanmaktır.
+{{< app/cells/assistant language="csharp" >}}

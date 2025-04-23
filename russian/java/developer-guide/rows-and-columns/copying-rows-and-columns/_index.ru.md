@@ -23,15 +23,15 @@ url: /ru/java/copying-rows-and-columns/
 
 ## **Копирование одной строки**
 
-Aspose.Cells предоставляет метод [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) класса [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Этот метод копирует все типы данных, включая формулы, значения, комментарии, форматы ячеек, скрытые ячейки, изображения и другие объекты рисования из исходной строки в целевую строку.
+Aspose.Cells предоставляет метод [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-) класса [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Этот метод копирует все типы данных, включая формулы, значения, комментарии, форматы ячеек, скрытые ячейки, изображения и другие объекты рисования из исходной строки в целевую.
 
-Метод [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) принимает следующие параметры:
+Метод [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-) принимает следующие параметры:
 
 - объект исходных [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells),
 - индекс исходной строки, и
 - индекс строки назначения.
 
-Используйте этот метод для копирования строки в пределах одного рабочего листа или на другой рабочий лист. Метод [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) работает аналогично Microsoft Excel. Например, вам не нужно устанавливать высоту целевой строки явно, это значение тоже копируется.
+Используйте этот метод для копирования строки внутри листа или в другой лист. Метод [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-) работает аналогично Microsoft Excel. Например, вам не нужно явно задавать высоту целевой строки — это значение копируется вместе с остальными данными.
 
 В следующем примере показано, как скопировать строку на листе. Он использует шаблонный файл Microsoft Excel и копирует вторую строку (с данными, форматированием, комментариями, изображениями и т. д.) и вставляет ее в двенадцатую строку на том же листе.
 
@@ -56,7 +56,7 @@ Aspose.Cells предоставляет метод [copyRow](https://reference.a
 
 ## **Копирование нескольких строк**
 
-Вы также можете скопировать несколько строк в новое место, используя метод [**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int)), который принимает дополнительный параметр типа integer для указания количества копируемых строк.
+Вы также можете скопировать несколько строк в новое место, используя метод [**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-), который принимает дополнительный параметр типа integer для указания количества копируемых строк.
 
 Ниже приведен снимок входной электронной таблицы, содержащей 3 строки данных, тогда как фрагмент кода ниже копирует все 3 строки в новое расположение, начиная с 7-й строки.
 
@@ -70,15 +70,15 @@ Aspose.Cells предоставляет метод [copyRow](https://reference.a
 
 ## **Копирование одного столбца**
 
-Aspose.Cells предоставляет метод [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) класса [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells), этот метод копирует все типы данных, включая формулы - с обновленными ссылками - и значения, комментарии, форматы ячеек, скрытые ячейки, изображения и другие объекты рисования из исходного столбца в целевой столбец.
+Aspose.Cells предоставляет метод [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn-com.aspose.cells.Cells-int-int-) класса [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Этот метод копирует все типы данных, включая формулы с обновленными ссылками, значения, комментарии, форматы ячеек, скрытые ячейки, изображения и другие объекты рисования из исходного столбца в целевой.
 
-Метод [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) принимает следующие параметры:
+Метод [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn-com.aspose.cells.Cells-int-int-) принимает следующие параметры:
 
 - объект исходных [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells),
 - индекс исходного столбца, и
 - индекс столбца назначения.
 
-Используйте метод [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) для копирования столбца внутри листа или на другой лист.
+Используйте метод [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn-com.aspose.cells.Cells-int-int-) для копирования столбца внутри листа или в другой лист.
 
 В этом примере копируется столбец из листа и вставляется в лист другой книги.
 
@@ -90,7 +90,7 @@ Aspose.Cells предоставляет метод [copyColumn](https://referenc
 
 ## **Копирование нескольких столбцов**
 
-Подобно методу [**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int)), API Aspose.Cells также предоставляют метод [**Cells.copyColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns(com.aspose.cells.Cells,%20int,%20int,%20int)) для копирования нескольких исходных столбцов в новое место.
+Подобно методу [**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-), API Aspose.Cells также предоставляют метод [**Cells.copyColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns-com.aspose.cells.Cells-int-int-int-) для копирования нескольких исходных столбцов в новое место.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyingMultipleColumns-CopyingMultipleColumns.java" >}}
 
@@ -102,9 +102,10 @@ Aspose.Cells предоставляет метод [copyColumn](https://referenc
 
 
 ## **Вставка строк/столбцов с опциями вставки**
-Aspose.Cells теперь предоставляет [PasteOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PasteOptions) при использовании функций [CopyRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRows\(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.CopyOptions,%20com.aspose.cells.PasteOptions\)) и [CopyColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns\(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.PasteOptions\)). Это позволяет устанавливать соответствующие параметры вставки, аналогичные Excel.
+Теперь Aspose.Cells предоставляет [PasteOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PasteOptions), а также функции [CopyRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRows-com.aspose.cells.Cells-int-int-int-com.aspose.cells.CopyOptions-com.aspose.cells.PasteOptions-) и [CopyColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns-com.aspose.cells.Cells-int-int-int-com.aspose.cells.PasteOptions-). Это позволяет задавать подходящие параметры вставки, аналогичные Excel.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-PastingDataWithPasteOptions.java" >}}
 
+{{< app/cells/assistant language="java" >}}

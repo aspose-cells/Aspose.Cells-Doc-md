@@ -13,3 +13,4 @@ url: /ru/net/render-gradient-fill-for-the-wordart-while-converting-spreadsheets-
 Следующий образец кода преобразует [исходный файл Excel](22774111.xlsx) в [выходной формат HTML](22774109.zip). Исходный файл Excel содержит объект WordArt с градиентной заливкой, как показано на приведенном выше скриншоте.
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithHTMLFormat-RenderGradientFillToHTML.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

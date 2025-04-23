@@ -25,3 +25,4 @@ Aspose.Cells for .NETは、[**ShapeCollection.AddLinkedPicture(int upperLeftRow,
 次の例は、ワークシートにWebアドレスからリンクされた画像を追加する方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertLinkedPicture-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

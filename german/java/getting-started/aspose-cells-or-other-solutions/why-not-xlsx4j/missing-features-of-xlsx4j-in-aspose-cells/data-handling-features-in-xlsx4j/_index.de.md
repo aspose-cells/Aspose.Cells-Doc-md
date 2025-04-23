@@ -13,3 +13,4 @@ url: /de/java/data-handling-features-in-xlsx4j/
 - [Importieren von Daten in Arbeitsblätter in xlsx4j](/cells/de/java/import-data-to-worksheets-in-xlsx4j/)
 - [Daten sortieren in xlsx4j](/cells/de/java/sort-data-in-xlsx4j/)
 - [Vorgänger und Abhängigkeiten in xlsx4j nachverfolgen](/cells/de/java/tracing-precedents-and-dependents-in-xlsx4j/)
+{{< app/cells/assistant language="java" >}}

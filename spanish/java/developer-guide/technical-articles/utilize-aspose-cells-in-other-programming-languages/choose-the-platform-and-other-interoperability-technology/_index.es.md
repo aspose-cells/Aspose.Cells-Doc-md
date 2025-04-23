@@ -27,3 +27,4 @@ En la tabla anterior se puede ver que para algunos lenguajes de programación es
 |Aspose.Cells for Java via Java Puente o en Línea::Java |<p>**Ventajas**:</p><p>- Disponible en cualquier plataforma donde Java esté disponible.</p><p>- Fácil de llamar métodos estáticos, constructores con parámetros, métodos sobrecargados y usar valores enumerados.</p>|
 | |<p>**Desventajas**:</p><p>- Tiene lanzamientos menos frecuentes y menos características que Aspose.Cells for .NET.</p>|
 Tenga en cuenta que Aspose.Cells for Java está diseñado para aplicaciones Java y usarlo en otros lenguajes de programación está sujeto a algunas limitaciones técnicas o soluciones alternativas. 
+{{< app/cells/assistant language="java" >}}

@@ -17,7 +17,7 @@ keywords: تغيير نوع الوجهة لرابط HTML، نوع الوجهة �
 
 {{< /highlight >}}
 
-كما ترون، فإن سمة الوجهة في الرابط HTML أعلاه هي **_self**. يمكنك التحكم في هذه سمة الوجهة باستخدام ال [**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/). تأخذ هذه الخاصية ال [**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype) الذي يحتوي على القيم التالية.
+كما ترون، فإن سمة الوجهة في الرابط HTML أعلاه هي **_self**. يمكنك التحكم في هذه سمة الوجهة باستخدام ال [**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/). تأخذ هذه الخاصية ال [**HtmlLinkTargetType**](https://reference.aspose.com/cells/python-net/aspose.cells/htmllinktargettype) الذي يحتوي على القيم التالية.
 
 - HtmlLinkTargetType.BLANK
 - HtmlLinkTargetType.PARENT

@@ -58,3 +58,4 @@ Das Ausführen des Codes kopiert das Arbeitsblatt namens Kopie in SecondWorkbook
 Das Ausführen des Codes verschiebt das Arbeitsblatt namens Verschieben von FirstWorkbook.xlsx nach SecondWorkbook.xlsx mit dem Namen Blatt3.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CopyMoveWorksheets-MoveWorksheetsBetweenWorkbooks.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

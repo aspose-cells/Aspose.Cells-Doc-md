@@ -166,19 +166,20 @@ url: /ar/java/page-setup-features/
 |&T|الوقت الحالي.
 |&A|اسم ورقة العمل.
 |&F|اسم الملف بدون المسار.
+|&&Text|يعرض &Text. على سبيل المثال: &&WO سيتم عرضه كـ &WO|
 |&"\<FontName>"|اسم الخط. على سبيل المثال: &"Arial"|
 |&"\<FontName>, \<FontStyle>"|اسم الخط مع النمط. على سبيل المثال: &"Arial،Bold"|
 |&\<FontSize>| - يمثل حجم الخط. على سبيل المثال: “&14abc”. ولكن، إذا تبعت هذه الأمر برقم عادي يتم طباعته في الرأس، يجب أن يتم فصله بحرف مسافة عن حجم الخط. على سبيل المثال: “&14 123”.
 
 ### **تعيين رؤوس وتذييلات**
 
-توفر الـ [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) طريقة [**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String)) لإضافة رأس و [**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String)) لإضافة تذييل إلى صفحة العمل. يتم استخدام البرنامج النصي كوسيط لجميع الطرق المذكورة أعلاه. يُمثّل البرنامج النصي البرنامج النصي الذي سيُستخدم في رأس أو تذييل. يحتوي هذا البرنامج النصي على أوامر برمجية لتنسيق الرؤوس أو التذايلات.
+توفر الـ [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) طريقة [**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader-int-java.lang.String-) لإضافة رأس و [**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter-int-java.lang.String-) لإضافة تذييل إلى صفحة العمل. يتم استخدام البرنامج النصي كوسيط لجميع الطرق المذكورة أعلاه. يُمثّل البرنامج النصي البرنامج النصي الذي سيُستخدم في رأس أو تذييل. يحتوي هذا البرنامج النصي على أوامر برمجية لتنسيق الرؤوس أو التذايلات.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetHeadersAndFooters-SetHeadersAndFooters.java" >}}
 
 ### **إدراج رسم بياني في رأس أو تذييل**
 
-تحتوي الـ [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) على الطرق [**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[])) و [**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[])) لإضافة صور إلى رأس وتذييل صفحة العمل. تأخذ هذه الطرق معلمتين:
+تحتوي الـ [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) على الطرق [**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture-int-byte[]-) و [**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture-int-byte[]-) لإضافة صور إلى رأس وتذييل صفحة العمل. تأخذ هذه الطرق معلمتين:
 
 - **القسم**, قسم الرأس أو التذييل الذي سيتم وضع الصورة فيه. هناك ثلاثة أقسام: اليسار، الوسط، واليمين، يتمثل في القيم الرقمية 0، 1، و2 على التوالي.
 - **مدخل ملف التدفق**, البيانات الرسومية. يجب كتابة البيانات الثنائية في مخزن مصفوفة بايت.
@@ -196,7 +197,7 @@ url: /ar/java/page-setup-features/
 
 ### **إدراج رسم بياني في رأس الصفحة الأولى فقط**
 
-تحتوي الـ [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) أيضاً على طرق مفيدة أخرى، على سبيل المثال [**setPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[]))، [**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String))، [**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String))، لإضافة الصور إلى رأس/تذييل صفحة العمل الأولى. الصفحة الأولى هي صفحة خاصة: فمن مشترك أن ترغب في إظهار معلومات خاصة بها، على سبيل المثال شعار الشركة.
+تحتوي الـ [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) أيضاً على طرق مفيدة أخرى، على سبيل المثال [**setPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture-boolean-boolean-boolean-int-byte[]-)، [**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader-int-java.lang.String-)، [**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter-int-java.lang.String-)، لإضافة الصور إلى رأس/تذييل صفحة العمل الأولى. الصفحة الأولى هي صفحة خاصة: فمن مشترك أن ترغب في إظهار معلومات خاصة بها، على سبيل المثال شعار الشركة.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-InsertGraphicinFirstPageHeaderOnly-InsertGraphicinFirstPageHeaderOnly.java" >}}
 
@@ -256,18 +257,18 @@ url: /ar/java/page-setup-features/
 
 |**أنواع التعليقات المطبوعة**|**الوصف**|
 | :- | :- |
-|[**PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)|يحدد طباعة التعليقات كما هي معروضة على ورقة العمل.|
-|[**PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS)|يحدد عدم طباعة التعليقات.|
-|[**PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_SHEET_END)|يحدد طباعة التعليقات في نهاية ورقة العمل.|
+|[**PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-IN-PLACE)|تحدد طباعة التعليقات كما هو معروض على ورقة العمل.|
+|[**PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-NO-COMMENTS)|تحدد عدم طباعة التعليقات.|
+|[**PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-SHEET-END)|تحدد طباعة التعليقات في نهاية ورقة العمل.|
 
 توصف القيم المحددة مسبقاً في تعداد [**PrintErrorsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType) أدناه.
 
 | **أنواع أخطاء الطباعة** | **الوصف** |
 | :- | :- |
-|[**PRINT_ERRORS_BLANK**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_BLANK)|تحدد عدم طباعة الأخطاء.|
-|[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DASH)|تحدد طباعة الأخطاء على شكل علامة "--".|
-|[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DISPLAYED)|تحدد طباعة الأخطاء كما هي معروضة.|
-|[**PRINT_ERRORS_NA**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_NA)|تحدد طباعة الأخطاء على شكل "#N/A".|
+|[**PRINT_ERRORS_BLANK**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-BLANK)|تحدد عدم طباعة الأخطاء.|
+|[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-DASH)|تحدد طباعة الأخطاء على شكل "--".|
+|[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-DISPLAYED)|تحدد طباعة الأخطاء كما هو معروض.|
+|[**PRINT_ERRORS_NA**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-NA)|تحدد طباعة الأخطاء على شكل "#N/A".|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-OtherPrintOptions-OtherPrintOptions.java" >}}
 
@@ -284,8 +285,8 @@ url: /ar/java/page-setup-features/
 
 | **أنواع ترتيب الطباعة** | **الوصف** |
 | :- | :- |
-|[**DOWN_THEN_OVER**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN_THEN_OVER)|الطباعة لأسفل، ثم يمين.|
-|[**OVER_THEN_DOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER_THEN_DOWN)|الطباعة يمينًا، ثم أسفل.|
+|[**DOWN_THEN_OVER**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN-THEN-OVER)|طباعة إلى الأسفل، ثم إلى اليمين.|
+|[**OVER_THEN_DOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER-THEN-DOWN)|طباعة إلى اليمين، ثم إلى الأسفل.|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPageOrder-SetPageOrder.java" >}}
 
@@ -301,3 +302,4 @@ url: /ar/java/page-setup-features/
 - [تنفيذ حجم ورق مخصص لورقة العمل للتقديم](/cells/ar/java/implement-custom-paper-size-of-worksheet-for-rendering/)
 - [إعداد الصفحة وخيارات الطباعة](/cells/ar/java/page-setup-and-printing-options/)
 - [إزالة إعدادات الطابعة الحالية لورقات العمل في ملف Excel](/cells/ar/java/remove-existing-printersettings-of-worksheets-in-excel-file/)
+{{< app/cells/assistant language="java" >}}

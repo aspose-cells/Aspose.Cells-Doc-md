@@ -22,3 +22,4 @@ Smart Markersのグループ化データ機能を使用する場合、時々サ�
 この例では、セルにいくつかのマーカーが含まれる[テンプレートファイル](template.xlsx)が使用されます。コードを実行すると、Aspose.Cellsはグルーピングデータのサマリー行にカスタムラベルを追加します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-SmartMarkers-AddCustomLabels-1.java" >}}
+{{< app/cells/assistant language="java" >}}

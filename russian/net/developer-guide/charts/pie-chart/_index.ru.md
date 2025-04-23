@@ -43,3 +43,4 @@ url: /ru/net/creating-pie-chart-with-leader-lines/
 - [Форматирование данных в диаграммах](/cells/ru/net/data-formatting-in-charts/)
 - [Настройка внешнего вида диаграммы](/cells/ru/net/setting-chart-appearance/)
 
+{{< app/cells/assistant language="csharp" >}}

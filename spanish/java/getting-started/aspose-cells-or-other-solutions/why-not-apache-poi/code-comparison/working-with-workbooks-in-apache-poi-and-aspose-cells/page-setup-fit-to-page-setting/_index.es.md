@@ -67,3 +67,4 @@ ps.setFitWidth((short) 1);
 Para obtener más detalles, visita [Configuración de opciones de página](http://www.aspose.com/docs/display/cellsjava/Setting+Page+Options).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

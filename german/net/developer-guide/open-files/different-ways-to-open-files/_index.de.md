@@ -50,3 +50,4 @@ Es wird eine Ausnahme ausgelöst, wenn Sie versuchen, nicht native Excel-Dateien
 Es besteht eine faire Chance, dass der Konstruktor [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) eine *System.OutOfMemoryException* auslösen kann, während große Tabellenkalkulationen geladen werden. Diese Ausnahme deutet darauf hin, dass der verfügbare Speicher nicht ausreicht, um die Tabellenkalkulation vollständig in den Speicher zu laden, und daher muss die Tabellenkalkulation geladen werden, während die Arbeitsspeichereinstellungen aktiviert sind.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

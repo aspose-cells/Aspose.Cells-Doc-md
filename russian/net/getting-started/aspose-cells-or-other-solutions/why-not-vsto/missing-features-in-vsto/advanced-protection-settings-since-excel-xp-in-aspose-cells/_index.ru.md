@@ -134,3 +134,4 @@ fstream.Close();
 
 ## **Загрузить образец кода**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
+{{< app/cells/assistant language="csharp" >}}

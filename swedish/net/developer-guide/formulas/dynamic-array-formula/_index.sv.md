@@ -135,3 +135,4 @@ Vänligen se följande exemplarkod som laddar [prov Excelfil](dynamicArrayFormul
 Utgångsbild:
 <br>
 <image src="4.png" width="70%" />
+{{< app/cells/assistant language="csharp" >}}

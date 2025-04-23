@@ -18,3 +18,4 @@ Il seguente esempio di codice spiega come personalizzare le impostazioni di glob
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-CustomizeGlobalizationSettingsforPivotTable-1.java" >}}
+{{< app/cells/assistant language="java" >}}

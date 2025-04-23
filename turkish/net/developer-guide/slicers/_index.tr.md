@@ -36,3 +36,4 @@ Lütfen aşağıdaki örnek kodu görün. Bir tabloyu içeren [örnek Excel dosy
 - [Süzgeci Kaldırma](/cells/tr/net/removing-slicer/)
 - [Dilimleyiciyi Oluşturma](/cells/tr/net/rendering-slicer/)
 - [Dilimleyici Güncelleme](/cells/tr/net/updating-slicer/)
+{{< app/cells/assistant language="csharp" >}}

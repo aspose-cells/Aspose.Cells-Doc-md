@@ -45,3 +45,4 @@ Visual Studio.Netを起動し、新しいコンソールアプリケーション
 以下のコードは実際にOLEオブジェクトを検出して抽出する実際の作業を行います。OLEオブジェクト（DOC、XLS、PDFファイル）はディスクに保存されます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExtractOLEObjects-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

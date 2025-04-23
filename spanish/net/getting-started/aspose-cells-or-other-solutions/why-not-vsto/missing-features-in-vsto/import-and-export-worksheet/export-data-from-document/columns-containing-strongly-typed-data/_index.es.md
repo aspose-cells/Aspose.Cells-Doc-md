@@ -41,3 +41,4 @@ dataGridView1.DataSource = dataTable;
 fstream.Close();
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

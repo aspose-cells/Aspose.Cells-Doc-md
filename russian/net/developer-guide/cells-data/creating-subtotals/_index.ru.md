@@ -35,3 +35,4 @@ Aspose.Cells предоставляет класс, [**Workbook**](https://refer
 
 ## **Продвинутые темы**
 - [Применение промежуточных итогов и изменение направления сводных строк ниже деталей](/cells/ru/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+{{< app/cells/assistant language="csharp" >}}

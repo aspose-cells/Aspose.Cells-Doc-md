@@ -128,3 +128,4 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath
 Aspose.Cellsは解決策に対して他よりも柔軟性を提供し、特定のビジネスアプリケーション要件を満たすために優れた速度、効率性、信頼性を提供します。結果は、Aspose.Cellsが長年の研究、設計、注意深い調整の成果を得たことを示しています。
 
 [Aspose.Cellsフォーラム](https://forum.aspose.com/c/cells/9)でのお問い合わせ、コメント、提案を心より歓迎します。
+{{< app/cells/assistant language="java" >}}

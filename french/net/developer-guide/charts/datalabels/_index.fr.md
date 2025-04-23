@@ -35,3 +35,4 @@ L'extrait de code suivant démontre comment gérer les étiquettes de données :
 - [Étiquette de données personnalisée Rich Text du point de graphique](/cells/fr/net/rich-text-custom-data-label-of-chart-point/)
 - [Définir le type de forme des étiquettes de données du graphique](/cells/fr/net/set-the-shape-type-of-data-labels-of-chart/)
 - [Affichage de la plage de cellules sous forme d'étiquettes de données](/cells/fr/net/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="csharp" >}}

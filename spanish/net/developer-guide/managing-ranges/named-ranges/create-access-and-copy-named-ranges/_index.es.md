@@ -105,3 +105,4 @@ Aspose.Cells proporciona el método [**Range.Copy()**](https://reference.aspose.
 El siguiente ejemplo muestra cómo copiar un rango de celdas fuente en otro rango con nombre.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CopyNamedRanges-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

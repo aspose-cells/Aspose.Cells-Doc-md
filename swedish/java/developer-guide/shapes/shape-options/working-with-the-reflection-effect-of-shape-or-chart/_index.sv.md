@@ -24,3 +24,4 @@ Följande skärmbild visar Microsoft Excels gränssnitt för att ställa in *ref
 Följande kodexempel laddar [käll-excel-filen](5472529.xlsx) och får åtkomst till den första formen i den första arbetsboken och anger underegenskaperna för [Shape.ReflectionEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Reflection) egenskapen och sparar sedan arbetsboken i [utdata-excel-filen](5472539.xlsx).
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithReflectionEffect-WorkingWithReflectionEffect.java" >}}
+{{< app/cells/assistant language="java" >}}

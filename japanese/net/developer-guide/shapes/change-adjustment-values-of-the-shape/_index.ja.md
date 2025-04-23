@@ -5,6 +5,7 @@ weight: 2000
 url: /ja/net/change-adjustment-values-of-the-shape/
 ---
 
+
 {{% alert color="primary" %}}
 
 Aspose.Cells は、シェイプの調整ポイントを変更するための [**Shape.Geometry.ShapeAdjustValues**](https://reference.aspose.com/cells/net/aspose.cells.drawing/geometry/properties/shapeadjustvalues) プロパティを提供します。Microsoft Excel の UI では、調整は黄色のダイヤモンドノードとして表示されます。例:
@@ -18,6 +19,17 @@ Aspose.Cells は、シェイプの調整ポイントを変更するための [**
 
 {{% /alert %}}
 
+## **調整値の変更**
+
 以下のコードサンプルは、シェイプの調整値を変更する方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ChangeShapesAdjustmentValues-1.cs" >}}
+
+## **ExcelでRoundedRectangularCalloutの先端点を設定または変更する方法**
+
+以下のコード例は、Excelでラウンド長方形のコールアウトの先端点位置を設定または変更する方法を示しています。
+
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Articles-ManageChartsAndShapes-ChangeShapesAdjustmentValues-2.cs" >}}
+
+
+{{< app/cells/assistant language="csharp" >}}

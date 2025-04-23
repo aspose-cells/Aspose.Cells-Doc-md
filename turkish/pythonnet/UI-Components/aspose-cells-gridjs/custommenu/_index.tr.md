@@ -4,11 +4,36 @@ type: docs
 weight: 250
 url: /tr/python-net/aspose-cells-gridjs/custommenu/
 description: Bu makale, GridJs için bağlam menülerini nasıl yapılandıracağınızı açıklar.
-keywords: gridjs,menu,özel menü, bağlam menüsü
+keywords: GridJs, özel menü öğeleri, bağlam menüsü, özel, bağlam, menü
+aliases:
+  - /python-net/aspose-cells-gridjs/how-to-custom-context-menu/
+  - /python-net/aspose-cells-gridjs/how-to-custom-context-menus/
+  - /python-net/aspose-cells-gridjs/work-with-context-menu/
+  - /python-net/aspose-cells-gridjs/work-with-context-menus/
 ---
+# Özel yerleşik bağlam menüleri
+Birkaç yerleşik bağlam menü öğemiz var, örneğin satır/sütun ekle/sil ve diğerleri.
+örneğin: "Satır sil", "Bağlantı", "Gizle" menü öğelerini bağlam menülerinde silmek için, GridJs div kimliğinin "gridjs-divid" olduğunu varsayın
+```javascript
+   //get context menus parent dom
+   const menus=document.querySelector("#gridjs-divid > div > div.x-spreadsheet-sheet > div.x-spreadsheet-contextmenu");
+   var childs = menus.childNodes;
+   for (var i = childs.length - 1; i >= 0; i--)
+   {  
+     // check the item text
+     if(childs[i].childNodes[0]?.textContent==="Delete row"||childs[i].childNodes[0]?.textContent==="Link"||childs[i].childNodes[0]?.textContent==="Hide")
+       {
+         menus.removeChild(childs[i]);
+       }
+   }
+```
+Bu fonksiyon çağrıldıktan sonra 
 
-# Özel bağlam menüleri
-Örneğin, satır/sütun ekleme/silme ve benzeri bazı yerleşik bağlam menü öğelerimiz var
+![yapılacak:yerleşik menü öğelerini özelleştirme ekranı](gridjs_customize_build_in_context_menu.png)
+
+
+# Özel kendimiz tarafından tanımlanan bağlam menüleri
+Birkaç yerleşik bağlam menü öğemiz var, örneğin satır/sütun ekle/sil ve diğerleri.
 Ancak kullanıcı özel bağlam menü öğeleri istiyorsa.
 Yükleme seçeneklerinde bağlam menü öğelerini ayarlamayı destekliyoruz.
 örneğin:

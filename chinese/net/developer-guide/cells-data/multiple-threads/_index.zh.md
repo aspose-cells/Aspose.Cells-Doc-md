@@ -49,3 +49,4 @@ keywords: 同时在多个线程中读取单元格值，Aspose.Cells C# 多线程
 否则，程序将在不显示任何消息的情况下运行，这意味着从单元格中读取的所有值都是正确的。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ReadingCellValuesInMultipleThreadsSimultaneously-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

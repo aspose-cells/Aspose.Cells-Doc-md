@@ -28,3 +28,4 @@ End Sub
 Çıktı XLSM dosyasını Makro Kodu ile oluşturmak için örnek kod burada.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AssignMacroToFormControl-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

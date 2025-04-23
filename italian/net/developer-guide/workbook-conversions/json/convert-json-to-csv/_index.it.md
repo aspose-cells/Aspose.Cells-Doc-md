@@ -14,3 +14,4 @@ Il seguente esempio di codice dimostra l'uso delle classi [**JsonLayoutOptions*
 ### **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertJsonToCsv-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

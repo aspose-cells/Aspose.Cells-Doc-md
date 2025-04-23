@@ -15,3 +15,4 @@ url: /ar/net/create-union-range/
 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "CreateUnionRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

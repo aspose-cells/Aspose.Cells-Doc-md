@@ -18,7 +18,7 @@ Aspose.Cells proporciona una clase, [Workbook](https://reference.aspose.com/cell
 
 La colección [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) proporciona varios métodos para gestionar filas o columnas en una hoja de cálculo, algunos de los cuales se discuten a continuación con más detalle.
 ### **Agrupación de Filas y Columnas**
-Es posible agrupar filas o columnas llamando a los métodos [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows\(int,%20int,%20boolean\)) y [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns\(int,%20int,%20boolean\)) de la colección [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Ambos métodos toman los siguientes parámetros:
+Es posible agrupar filas o columnas llamando a los métodos [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows-int-int-boolean-) y [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns-int-int-boolean-) de la colección [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Ambos métodos aceptan los siguientes parámetros:
 
 - Índice de la primera fila/columna, la primera fila o columna del grupo.
 - Índice de la última fila/columna, la última fila o columna del grupo.
@@ -51,7 +51,7 @@ Es posible controlar si se muestran las columnas resumen a la derecha de los det
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowRight-1.java" >}}
 ### **Desagrupar Filas y Columnas**
-Desagrupar filas o columnas agrupadas llamando a los métodos [UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows\(int,%20int\)) y [UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns\(int,%20int\)) de la colección [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Ambos métodos toman los mismos parámetros:
+Desagrupar filas o columnas agrupadas llamando a los métodos [UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows-int-int-) y [UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns-int-int-) de la colección [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Ambos métodos aceptan los mismos parámetros:
 
 - Índice de la primera fila o columna, la primera fila/columna a desagrupar.
 - Índice de la última fila o columna, la última fila/columna a desagrupar.
@@ -59,3 +59,4 @@ Desagrupar filas o columnas agrupadas llamando a los métodos [UngroupRows](http
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-UngroupingRowsandColumns-UngroupingRowsandColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

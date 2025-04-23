@@ -20,3 +20,4 @@ Questo esempio crea un workbook, lo popola con dati e copia solo lo stile di un 
 1. Copia la formattazione del primo intervallo al secondo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyRangeStyleOnly-CopyRangeStyleOnly.java" >}}
+{{< app/cells/assistant language="java" >}}

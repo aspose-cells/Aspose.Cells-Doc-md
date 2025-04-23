@@ -20,3 +20,4 @@ I Microsoft Excel kan du lägga till en biblioteksreferens till VBA-projektet ge
 Följande exempelkod lägger till eller registrerar två biblioteksreferenser till VBA-projektet för arbetsboken med hjälp av [**VbaProject.References.AddRegisteredReference()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaprojectreferencecollection/methods/addregisteredreference) -metoden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddLibraryReferenceToVbaProject-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

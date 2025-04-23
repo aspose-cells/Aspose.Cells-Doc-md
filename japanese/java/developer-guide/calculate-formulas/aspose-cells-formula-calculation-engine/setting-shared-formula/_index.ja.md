@@ -23,7 +23,7 @@ Aspose.Cellsを使用すると、[Cell.Formula](https://reference.aspose.com/cel
 
 最初のセルに対して行ったことをその他のセル（A3*0.09、A4*0.09、A5*0.09など）に対して行い、それぞれの行のセル参照を更新するという方法があります。これには各行のセル参照の更新が必要です。また、Aspose.Cellsは個々の数式を解析する必要があり、大きなスプレッドシートや複雑な数式の場合には時間がかかる可能性があります。また、ループを使用してコード行を削減できますが、追加のコード行が追加されます。
 
-別のアプローチとして、**共有式**を使用する方法があります。共有式を使用すると、各行のセル参照に対して数式が自動的に更新されるため、税金が適切に計算されます。[Cell.setSharedFormula](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setSharedFormula\(java.lang.String,%20int,%20int\))メソッドは、最初の方法よりも効率的です。
+もう一つの方法は、**共有式**を使用することです。共有式を使用すると、数式は各行のセル参照に対して自動的に更新されるため、税金が正しく計算されます。[Cell.setSharedFormula](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setSharedFormula-java.lang.String-int-int-)メソッドは、最初の方法よりも効率的です。
 
 次の例では、その使用方法を示しています。スクリーンショットは、出力ファイルを示しています。
 
@@ -32,3 +32,4 @@ Aspose.Cellsを使用すると、[Cell.Formula](https://reference.aspose.com/cel
 ![todo:image_alt_text](setting-shared-formula_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingSharedFormula-SettingSharedFormula.java" >}}
+{{< app/cells/assistant language="java" >}}

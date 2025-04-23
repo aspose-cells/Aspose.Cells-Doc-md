@@ -98,3 +98,4 @@ Aspose.Cells ahora proporciona [**PasteOptions**](https://reference.aspose.com/c
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Copying-PastingRowsColumnsWithPasteOptions-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

@@ -27,3 +27,4 @@ Como puedes ver, el atributo de destino en el enlace HTML anterior es **_self**.
 El siguiente código ejemplifica el uso de la propiedad [HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType). Cambia el tipo de destino del enlace a **blanco**. De forma predeterminada, es **padre**. Puedes obtener el [archivo de Excel fuente](5472932.xlsx) desde este enlace, sin embargo, puedes usar cualquier archivo de Excel que contenga un hipervínculo HTML en su interior para ejecutar este código.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeHTMLLinkTargetType-ChangeHTMLLinkTargetType.java" >}}
+{{< app/cells/assistant language="java" >}}

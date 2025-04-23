@@ -372,3 +372,4 @@ Lo **Spostamento celle a destra** e **Spostamento celle in basso** sono gestiti 
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

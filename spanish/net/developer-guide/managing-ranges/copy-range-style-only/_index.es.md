@@ -20,3 +20,4 @@ Este ejemplo crea un libro de trabajo, lo llena con datos y copia solo el estilo
 1. Copiar el formato del primer rango al segundo rango.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeStyleOnly-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

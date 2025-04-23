@@ -135,3 +135,4 @@ url: /ar/java/aspose-cells-object-model/
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_15.png)|
 يمثل كائن مجموعة SparklineGroup مجموعة الخطوط الصغيرة في ورقة العمل. يمكن للمطورين تعيين نمط مجموعة الخطوط الصغيرة وخصائصها المتعلقة الأخرى باستخدام كائن مجموعة SparklineGroup.
+{{< app/cells/assistant language="java" >}}

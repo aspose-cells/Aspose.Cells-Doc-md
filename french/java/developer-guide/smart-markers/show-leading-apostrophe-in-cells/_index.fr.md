@@ -26,3 +26,4 @@ Le code suivant illustre ceci en ajoutant des données avec des marqueurs intell
 La mise en œuvre de la classe *DataObject* est donnée ci-dessous
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HelperClasses-DataObject-1.java" >}}
+{{< app/cells/assistant language="java" >}}

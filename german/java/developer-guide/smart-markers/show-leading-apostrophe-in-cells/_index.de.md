@@ -26,3 +26,4 @@ Der folgende Code-Ausschnitt zeigt dies, indem Daten mit Smart Markern in der Qu
 Die Implementierung der *DataObject* Klasse ist unten angegeben
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HelperClasses-DataObject-1.java" >}}
+{{< app/cells/assistant language="java" >}}

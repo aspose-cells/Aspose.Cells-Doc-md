@@ -87,3 +87,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 Si votre feuille de calcul contient des formules, il est préférable d'appeler la méthode Workbook.calculateFormula juste avant de rendre la feuille de calcul au format PDF. Cela permettra de recalculer les valeurs dépendantes des formules et de rendre les bonnes valeurs dans le PDF. 
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

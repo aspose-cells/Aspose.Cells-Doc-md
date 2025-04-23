@@ -16,3 +16,4 @@ Aspose.Cellsは、計算アイテムを持つピボットテーブルのリフ�
 以下のサンプルコードは、"add"、"div"、"div2"などの3つの計算アイテムを持つピボットテーブルを含む[ソースExcelファイル](5473428.xlsx)を読み込みます。まず、セル D2 の値を20に変更し、その後、Aspose.CellsのAPIを使用してピボットテーブルをリフレッシュおよび計算し、ワークブックをPDF形式で保存します。[出力PDF](5473431.pdf)の結果は、Aspose.Cellsが計算アイテムを持つピボットテーブルを正常にリフレッシュおよび計算したことを示しています。手動でセルD2に値20を入力し、Alt+F5ショートカットキーを使用するか、ピボットテーブルのリフレッシュボタンをクリックして、Microsoft Excelで検証できます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RefreshCalculatePivotTablehavingCalculatedItems-RefreshCalculatePivotTablehavingCalculatedItems.java" >}}
+{{< app/cells/assistant language="java" >}}

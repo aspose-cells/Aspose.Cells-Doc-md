@@ -17,3 +17,4 @@ Varsayılan olarak, Aspose.Cells tüm çalışma sayfasını belleğe yükler. Y
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LoadSpecificSheets-2.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

@@ -11,7 +11,7 @@ Aspose.Cellsは、ワークブックの数式計算を中断またはキャン�
 
 ## **ワークブックの数式計算を中断またはキャンセルする**
 
-次のサンプルコードはAbstractCalculationMonitor.interrupt()メソッドを実装しています。このメソッド内で、行と列のインデックスパラメータを使用してセル名を見つけます。セル名がB8の場合、AbstractCalculationMonitor.interrupt()メソッドを呼び出して計算プロセスを中断します。AbstractCalculationMonitorクラスの具象クラスが実装されると、そのインスタンスがAbstractCalculationMonitor.interrupt()プロパティに割り当てられます。最後に、[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions))をパラメータとして渡して[**CalculationOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationOptions)を呼び出します。
+次のサンプルコードはAbstractCalculationMonitor.interrupt()メソッドを実装しています。このメソッド内で、行と列のインデックスパラメータを使用してセル名を見つけます。セル名がB8の場合、AbstractCalculationMonitor.interrupt()メソッドを呼び出して計算プロセスを中断します。AbstractCalculationMonitorクラスの具象クラスが実装されると、そのインスタンスがAbstractCalculationMonitor.interrupt()プロパティに割り当てられます。最後に、[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula-com.aspose.cells.CalculationOptions-)をパラメータとして渡して[**CalculationOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationOptions)を呼び出します。
 
 ## **サンプルコード**
 
@@ -28,3 +28,4 @@ Aspose.Cellsは、ワークブックの数式計算を中断またはキャン�
 0----7----1----B8
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

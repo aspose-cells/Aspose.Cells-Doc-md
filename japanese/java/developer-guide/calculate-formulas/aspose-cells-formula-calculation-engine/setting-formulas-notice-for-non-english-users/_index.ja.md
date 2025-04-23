@@ -17,3 +17,4 @@ Aspose.CellsはMicrosoft Excelのほとんどの数式/関数をサポートし�
    一部の言語オプションや設定では、関数パラメータの区切り文字がセミコロンですが、Aspose.Cellsでは英語スタイルのカンマを使用します。たとえば、"=IF(C5=0,0,C3/C4)"を使用してください。"=IF(C5=0;0;C3/C4)"ではありません。 
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

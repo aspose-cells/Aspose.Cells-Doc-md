@@ -34,3 +34,4 @@ Aşağıdaki kod örneği, VeriEtiketlerini nasıl yöneteceğinizi göstermekte
 - [Grafik Noktasının Zengin Metin Özel Veri Etiketi](/cells/tr/java/rich-text-custom-data-label-of-chart-point/)
 - [Grafiğin Veri Etiketlerinin Şekil Türünü Ayarlama](/cells/tr/java/set-the-shape-type-of-data-labels-of-chart/)
 - [Veri Etiketleri Olarak Hücre Aralığını Gösterme](/cells/tr/java/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="java" >}}

@@ -381,3 +381,4 @@ Aspose.Cells允许您在工作表中绘制椭圆形状。创建简单和填充�
 - [使用Aspose.Cells添加ActiveX控件](/cells/zh/net/add-activex-controls-using-aspose-cells/)
 - [移除ActiveX控件](/cells/zh/net/remove-activex-control/)
 - [更新ActiveX ComboBox控件](/cells/zh/net/update-activex-combobox-control/)
+{{< app/cells/assistant language="csharp" >}}

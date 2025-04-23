@@ -44,3 +44,4 @@ Aspose.Cells for .Net提供[**Worksheet.PageSetup.GetCommands**](https://referen
 以下是如何解析页眉或页脚为命令列表并处理命令的代码：
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Parses-Header-Footer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -118,3 +118,4 @@ for (int i = 0; i< dependents.length; i++)
 Daha fazla bilgi için [Öncüleri ve Bağımlıları İzleme](/java/öncüleri-ve-bağımlıları-izleme) adresini ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

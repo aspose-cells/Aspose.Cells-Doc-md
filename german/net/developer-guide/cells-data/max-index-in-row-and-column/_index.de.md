@@ -27,3 +27,4 @@ Dieses Beispiel zeigt, wie Sie:
 1. Holen Sie sich das Attribut [Cell.Row](https://reference.aspose.com/cells/net/aspose.cells/cell/row/) der Zelle.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-max-index-of-row-and-column.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

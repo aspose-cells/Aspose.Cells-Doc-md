@@ -8,7 +8,7 @@ url: /sv/java/decrease-the-calculation-time-of-cell-calculate-method/
 
 Möjliga användningsscenario
 
-Normalt rekommenderar vi användare att anropa [Workbook.CalculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) metoden en gång och sedan få de beräknade värdena för enskilda celler. Men ibland vill användare inte beräkna hela arbetsboken. De vill bara beräkna en enskild cell. Aspose.Cells tillhandahåller [CalculationOptions.Recursive](https://reference.aspose.com/cells/java/com.aspose.cells/calculationoptions#Recursive) egenskap som du kan ställa in **falskt** och det kommer markant minska beräkningstiden för enskilda celler. Eftersom när den rekursiva egenskapen är inställd på **sant**, beräknas alla beroende celler om vid varje anrop. Men när den rekursiva egenskapen är inställd på **falskt**, beräknas beroende celler bara en gång och beräknas inte igen vid efterföljande anrop.
+Normalt rekommenderar vi användare att anropa [Workbook.CalculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) metoden en gång och sedan hämta de beräknade värdena för enskilda celler. Men ibland vill användare inte beräkna hela arbetsboken. De vill bara beräkna en enskild cell. Aspose.Cells tillhandahåller [CalculationOptions.Recursive](https://reference.aspose.com/cells/java/com.aspose.cells/calculationoptions#Recursive) egenskapen som du kan sätta till **false** vilket drastiskt minskar beräkningstiden för enskilda celler. För när den rekursiva egenskapen är inställd på **true**, så beräknas alla cellberoenden vid varje anrop. Men när den är inställd på **false**, beräknas beroende celler endast en gång och beräknas inte igen vid efterföljande anrop.
 ## **Minska beräkningstiden för Cell.Calculate() metoden**
 Följande provkod illustrerar användningen av [CalculationOptions.Recursive](https://reference.aspose.com/cells/java/com.aspose.cells/calculationoptions#Recursive) egenskap. Kör denna kod med den angivna [prov excel-filen](5472288.xlsx) och kontrollera dess konsol utmatning. Du kommer att se att inställning av den rekursiva egenskapen till **falskt** har minskat beräkningstiden markant. Läs även kommentarerna för en bättre förståelse av denna egenskap.
 
@@ -27,3 +27,4 @@ Detta är konsol utmatningen av ovanstående provkod när den körs med den angi
 Recursive false: 16 seconds
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

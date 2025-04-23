@@ -34,3 +34,4 @@ Aspose.Cellsは、[**TableToRangeOptions**](https://reference.aspose.com/cells/n
 以下のサンプルコードは、[**TableToRangeOptions**](https://reference.aspose.com/cells/net/aspose.cells.tables/tabletorangeoptions) クラスの使用例を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-ConvertTableToRangeWithOptions-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

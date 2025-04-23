@@ -24,3 +24,4 @@ Der folgende Beispielcode verwendet die [**Workbook.ContentTypeProperties.Add()*
 ## Verwandter Artikel
 
 - [Hinzufügen von benutzerdefinierten Eigenschaften, die im Dokumentinformationsfeld sichtbar sind](/cells/de/net/adding-custom-properties-visible-inside-document-information-panel/)
+{{< app/cells/assistant language="csharp" >}}

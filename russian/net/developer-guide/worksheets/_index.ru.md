@@ -87,3 +87,4 @@ Aspose.Cells предоставляет конкретные вызовы API д
 - [Использование свойства Sheet.SheetId из OpenXml с помощью Aspose.Cells](/cells/ru/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [Просмотр листов](/cells/ru/net/worksheet-views/)
 
+{{< app/cells/assistant language="csharp" >}}

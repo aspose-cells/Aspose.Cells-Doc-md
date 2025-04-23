@@ -9,7 +9,7 @@ url: /ja/java/determine-which-axis-exists-in-the-chart/
 
 ユーザーは、特定の軸がチャートに存在するかどうかを知る必要がある場合があります。たとえば、彼は、チャート内に2番目の値軸が存在するかどうかを知りたいと思っているかもしれません。円グラフ、パイエクスプロード、パイパイ、パイバー、パイ3D、パイ3Dエクスプロード、ドーナツ、ドーナツエクスプロードなどの一部のチャートには軸がありません。
 
-Aspose.Cellsは、特定の軸がチャートに存在するかどうかを判断するための[**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean))メソッドを提供します。
+Aspose.Cellsは、特定の軸がチャートに存在するかどうかを判断するための[**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis-int-boolean-)メソッドを提供します。
 
 {{% /alert %}}
 
@@ -19,7 +19,7 @@ Aspose.Cellsは、特定の軸がチャートに存在するかどうかを判�
 
 ![todo:image_alt_text](determine-which-axis-exists-in-the-chart_1.png)
 
-次のサンプルコードは、[**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean))の使用を示しています。サンプルチャートにプライマリおよびセカンダリカテゴリと値軸があるかどうかを判断します。コードのコンソール出力は、プライマリカテゴリと値軸に対してtrue、セカンダリカテゴリと値軸に対してfalseを表示します。
+次のサンプルコードは、[**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis-int-boolean-)の使用を示しています。サンプルチャートにプライマリおよびセカンダリカテゴリと値軸があるかどうかを判断します。コードのコンソール出力は、プライマリカテゴリと値軸に対してtrue、セカンダリカテゴリと値軸に対してfalseを表示します。
 
 ### チャート内に存在する軸を判断するためのJavaコード
 
@@ -40,3 +40,4 @@ Has Primary Value Axis: true
 Has Secondary Value Axis: false
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

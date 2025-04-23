@@ -7,7 +7,7 @@ url: /ru/java/track-conversion-progress-of-excel-to-tiff/
 
 ## **Возможные сценарии использования**
 
-Иногда преобразование больших файлов Excel может занимать некоторое время. Во время этого, вы можете показать процесс преобразования документа вместо простого экрана загрузки для улучшения удобства использования вашего приложения. Aspose.Cells поддерживает отслеживание процесса преобразования документа, предоставляя интерфейс [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback). Интерфейс [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) предоставляет методы [**PageStartSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs)) и [**PageEndSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs)), которые вы можете реализовать в своем собственном классе. Вы также можете контролировать, какие страницы рендерятся, как показано в пользовательском классе *TestTiffPageSavingCallback*.
+Иногда преобразование больших файлов Excel может занимать некоторое время. Во время этого, вы можете показать процесс преобразования документа вместо простого экрана загрузки для улучшения удобства использования вашего приложения. Aspose.Cells поддерживает отслеживание процесса преобразования документа, предоставляя интерфейс [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback). Интерфейс [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) предоставляет методы [**PageStartSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving-com.aspose.cells.PageStartSavingArgs-) и [**PageEndSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving-com.aspose.cells.PageEndSavingArgs-), которые вы можете реализовать в своем собственном классе. Вы также можете контролировать, какие страницы рендерятся, как показано в пользовательском классе *TestTiffPageSavingCallback*.
 
 ## **Отслеживание процесса преобразования Excel в TIFF**
 
@@ -46,3 +46,4 @@ Start saving page index 8 of pages 10</br>
 End saving page index 8 of pages 10
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

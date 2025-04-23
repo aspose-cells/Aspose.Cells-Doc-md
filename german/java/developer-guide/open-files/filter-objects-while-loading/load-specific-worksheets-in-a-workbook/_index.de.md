@@ -14,3 +14,4 @@ Standardmäßig lädt Aspose.Cells die gesamte Arbeitsmappe in den Speicher. Es 
 ## **Bestimmte Arbeitsblätter in einer Arbeitsmappe laden**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LoadSpecificWorksheetsinWorkbook-LoadSpecificWorksheetsinWorkbook.java" >}}
+{{< app/cells/assistant language="java" >}}

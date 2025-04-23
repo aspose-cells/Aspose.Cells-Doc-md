@@ -29,3 +29,4 @@ Si abres el SVG del gráfico en el bloc de notas, encontrarás el atributo **vie
 
 - [Representación de gráficos](/cells/es/java/chart-rendering/)
 - [Exportar hoja de cálculo o gráfico a imagen con ancho y alto deseados](/cells/es/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+{{< app/cells/assistant language="java" >}}

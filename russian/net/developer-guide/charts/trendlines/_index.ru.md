@@ -31,3 +31,4 @@ url: /ru/net/get-equation-text-of-chart-trendline/
 Equation Text: y = 8.1333x + 5
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

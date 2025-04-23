@@ -44,3 +44,4 @@ Preserve Formatting: False
 Aspose.Cells fornisce l'opzione di leggere l'indirizzo ossia l'intervallo di risultati delle celle per una tabella di query. Il codice seguente dimostra questa funzionalità leggendo l'indirizzo dell'intervallo di risultati per una tabella di query. È possibile scaricare il file di esempio [qui](72417290.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAddressOfResultRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

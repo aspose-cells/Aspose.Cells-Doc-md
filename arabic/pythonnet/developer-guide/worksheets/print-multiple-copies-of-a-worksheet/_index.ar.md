@@ -3,13 +3,13 @@ title: طباعة نسخ متعددة من ورقة العمل
 type: docs
 weight: 170
 url: /ar/python-net/print-multiple-copies-of-a-worksheet/
-description: يُظهر هذا المقال كيفية استخدام Aspose.Cells for Python via .NET API لطباعة نسخ متعددة من ورقة العمل في Excel برمجيًا.
-keywords: مكتبة بايثون لإكسل، طباعة نسخ إكسل متعددة، طباعة ورقات عمل باستخدام بايثون.
+description: يعرض هذا المقال كيف يمكنك استخدام API لـ Aspose.Cells لبايثون via .NET لطباعة نسخ متعددة من ورقة عمل إكسل برمجياً.
+keywords: مكتبة إكسل بايثون، طباعة نسخ متعددة من إكسل، طباعة أوراق العمل باستخدام بايثون.
 ---
 
 ## **طباعة عدة نسخ من ورقة العمل**
 
-یوفر Aspose.Cells for Python via .NET القدرة على طباعة عدة نسخ من ورقة العمل باستخدام الطريقة [**SheetRender.to_printer(printer_settings)**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/to_printer/#aspose.pydrawing.printing.PrinterSettings) . توضح مقتطفات الكود التالية استخدام الطريقة [**SheetRender.to_printer(printer_settings)**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/to_printer/#aspose.pydrawing.printing.PrinterSettings) لطباعة عدة نسخ من ورقة العمل. تستخدم مقتطفات الكود التالية هذه [ملف إكسل عيني](95584275.xlsx) .
+يقدم Aspose.Cells لـ بايثون via .NET القدرة على طباعة نسخ متعددة من ورقة العمل باستخدام [**SheetRender.to_printer(printer_settings)**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/to_printer/#aspose.pydrawing.printing.PrinterSettings). يُظهر مقتطف الكود التالي استخدام طريقة [**SheetRender.to_printer(printer_settings)**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/to_printer/#aspose.pydrawing.printing.PrinterSettings) للطباعة النسخ المتعددة من ورقة العمل. يستخدم المقتطف التالي من الكود هذا [ملف إكسل تجريبي](95584275.xlsx).
 
 ### مثال على الكود
 

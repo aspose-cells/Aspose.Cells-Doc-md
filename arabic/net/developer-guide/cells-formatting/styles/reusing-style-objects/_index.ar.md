@@ -26,3 +26,4 @@ url: /ar/net/reusing-style-objects/
 نظرًا لأن النهج [**Cell.GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle)/[**Cell.SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) يستخدم أقل من الذاكرة بكثير، وهو كفء، تمت إزالة خاصية Cell.Style القديمة التي كانت تستهلك الكثير من الذاكرة غير الضرورية مع إصدار Aspose.Cells 7.1.0.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

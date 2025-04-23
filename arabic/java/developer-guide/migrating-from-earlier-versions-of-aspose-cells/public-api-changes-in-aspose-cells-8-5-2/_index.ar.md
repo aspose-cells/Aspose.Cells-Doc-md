@@ -174,3 +174,4 @@ workbook.save("output.xlsx");
 دالة التجميع الفريدة Distinct Count مدعومة فقط في Microsoft Excel 2013.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

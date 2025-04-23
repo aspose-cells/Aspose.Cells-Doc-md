@@ -23,7 +23,7 @@ Aspose.Cells позволяет определить объединенные о
 
 ![todo:image_alt_text](detect-merged-cells-in-a-worksheet_1.png)
 
-Aspose.Cells предоставляет метод [**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--), который используется для получения всех объединенных ячеек.
+Aspose.Cells предоставляет метод [**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--), который используется для получения всех объединённых ячеек.
 
 Когда выполняется приведенный ниже код, он очищает содержимое листа и разъединяет все области ячеек перед повторным сохранением файла.
 
@@ -40,3 +40,4 @@ Aspose.Cells предоставляет метод [**Cells.getMergedCells()**](
 ## **Связанные статьи**
 
 - [Объединение и разбиение ячеек](/cells/ru/java/merging-and-unmerging-cells/).
+{{< app/cells/assistant language="java" >}}

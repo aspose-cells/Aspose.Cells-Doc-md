@@ -18,3 +18,4 @@ Aşağıdaki örnek kod, [**IndividualFontConfigs**](https://reference.aspose.c
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Fonts-SpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.java" >}}
+{{< app/cells/assistant language="java" >}}

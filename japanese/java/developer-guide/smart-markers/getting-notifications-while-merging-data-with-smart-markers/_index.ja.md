@@ -11,7 +11,7 @@ Aspose.CellsのAPIは[WorkbookDesigner](https://reference.aspose.com/cells/java/
 
 {{% /alert %}} 
 ## **スマートマーカーを使用してデータをマージする際の通知の取得**
-以下のコードは、[ISmartMarkerCallBack](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack)インターフェースの使用例を示し、新しいクラスを定義し、[WorkbookDesigner.process](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process\(\))メソッドのコールバックを処理します。
+次のコード例は、[ISmartMarkerCallBack](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack) インターフェースを使用して、新しいクラスを定義し、[WorkbookDesigner.process](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process--) メソッドのコールバックを処理する例を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SmartMarkerCallBack-SmartMarkerCallBack.java" >}}
 
@@ -21,3 +21,4 @@ Aspose.CellsのAPIは[WorkbookDesigner](https://reference.aspose.com/cells/java/
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetNotificationsWhileMergingData-GetNotificationsWhileMergingData.java" >}}
+{{< app/cells/assistant language="java" >}}

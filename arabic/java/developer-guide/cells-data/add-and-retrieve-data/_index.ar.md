@@ -40,15 +40,16 @@ url: /ar/java/add-and-retrieve-data/
 
 |**أنواع قيم الخلية**|**الوصف**|
 | :- | :- |
-|[IS_BOOL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_BOOL)|يحدد أن قيمة الخلية هي قيمة منطقية. |
-|[IS_DATE_TIME](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_DATE_TIME)|يحدد أن قيمة الخلية هي تاريخ/وقت. |
-|[IS_ERROR](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_ERROR)|يُمثل أن الخلية تحتوي على قيمة خطأ|
-|[IS_NULL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_NULL)|يُمثل خلية فارغة. |
-|[IS_NUMERIC](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_NUMERIC)|يحدد أن قيمة الخلية هي رقمية. |
-|[IS_STRING](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_STRING)|يحدد أن قيمة الخلية هي سلسلة نصية. |
-|[IS_UNKNOWN](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_UNKNOWN)|يحدد أن قيمة الخلية غير معروفة. |
+|[IS_BOOL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-BOOL)| يحدد أن قيمة الخلية بوليانية.|
+|[IS_DATE_TIME](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-DATE-TIME)| يحدد أن قيمة الخلية تاريخ/وقت.|
+|[IS_ERROR](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-ERROR)| يمثل أن الخلية تحتوي على قيمة خطأ|
+|[IS_NULL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-NULL)| يمثل خلية فارغة.|
+|[IS_NUMERIC](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-NUMERIC)| يحدد أن قيمة الخلية رقمية.|
+|[IS_STRING](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-STRING)| يحدد أن قيمة الخلية سلسلة.|
+|[IS_UNKNOWN](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-UNKNOWN)| يحدد أن قيمة الخلية غير معروفة.|
 يمكنك أيضًا استخدام أنواع قيم الخلية المُحددة مُسبقًا أعلاه للمقارنة مع نوع البيانات الموجودة في كل خلية. 
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-RetrievingDataFromCells-RetrievingDataFromCells.java" >}}
+{{< app/cells/assistant language="java" >}}

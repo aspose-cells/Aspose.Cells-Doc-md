@@ -32,3 +32,4 @@ Lütfen Aspose.Cells for .NET API'sını kullanarak bu görevi nasıl gerçekle�
 - [Daha önceden imzalanmış Excel dosyasına Dijital İmza ekleme](/cells/tr/net/add-digital-signature-to-an-already-signed-excel-file/)
 - [Çalışma sayfasına İmza satırı eklemek](/cells/tr/net/add-signature-line/)
 - [XAdES İmzası Desteği](/cells/tr/net/support-for-xades-signature/)
+{{< app/cells/assistant language="csharp" >}}

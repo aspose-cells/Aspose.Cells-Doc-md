@@ -42,3 +42,4 @@ url: /ar/net/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteve
 ----------------------
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -26,3 +26,4 @@ Om [OnePagePerSheet](https://reference.aspose.com/cells/net/aspose.cells/pdfsave
 Om din kalkylblad innehåller formler är det bäst att anropa [Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)-metoden precis innan du renderar kalkylarket till PDF. Det säkerställer att formelberoende värden beräknas om och de korrekta värdena renderas i PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

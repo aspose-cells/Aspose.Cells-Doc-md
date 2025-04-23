@@ -24,3 +24,4 @@ Creare una classe con una funzione *CalculateCustomFunction*. Questa classe impl
 Ora utilizza la funzione sopra nel tuo programma.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingAbstractCalculationEngine-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

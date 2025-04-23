@@ -43,3 +43,4 @@ sw.Close();
 从下面提到的任何社交编码网站下载**创建新工作簿**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Create.New.Workbook.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

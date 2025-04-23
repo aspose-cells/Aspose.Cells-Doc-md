@@ -14,3 +14,4 @@ Aspose.Cells 支持 *DBNum* 自定义模式格式。例如，如果您的单元
 以下示例代码说明了如何指定*DBNum*自定义模式格式。请检查其[output PDF](43352082.pdf)了解更多帮助。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SpecifyingDBNumCustomPatternFormatting.java" >}}
+{{< app/cells/assistant language="java" >}}

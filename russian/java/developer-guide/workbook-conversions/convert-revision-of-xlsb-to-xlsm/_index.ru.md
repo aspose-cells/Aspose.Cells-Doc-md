@@ -24,3 +24,4 @@ Aspose.Cells теперь поддерживает полное преобраз
 Вот код для преобразования файла XLSB в формат XLSM с использованием Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConvertRevisionOfXLSBtoXLSM-ConvertRevisionOfXLSBtoXLSM.java" >}}
+{{< app/cells/assistant language="java" >}}

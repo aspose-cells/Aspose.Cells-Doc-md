@@ -22,3 +22,4 @@ url: /ja/net/refresh-values-of-linked-shapes/
 ### リンクされた図形の値を更新するためのC＃コード
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RefreshValueOfLinkedShapes-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

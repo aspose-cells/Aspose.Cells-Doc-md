@@ -26,3 +26,4 @@ FormulaText是Excel 2013及以后的函数。不支持以前的版本，如Excel
  =SUM(B1:B10)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

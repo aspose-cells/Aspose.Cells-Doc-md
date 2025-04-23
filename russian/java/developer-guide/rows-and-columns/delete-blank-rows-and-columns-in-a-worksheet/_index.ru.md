@@ -11,11 +11,12 @@ url: /ru/java/delete-blank-rows-and-columns-in-a-worksheet/
 
 Используйте следующие методы Aspose.Cells для удаления пустых строк и столбцов:
 
-1. Чтобы удалить пустые строки, используйте метод [Cells.deleteBlankRows()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankRows\(\)).
-1. Чтобы удалить пустые столбцы, используйте метод [Cells.deleteBlankColumns()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankColumns\(\)).
+1. Для удаления пустых строк используйте метод [Cells.deleteBlankRows()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankRows--).
+1. Для удаления пустых столбцов используйте метод [Cells.deleteBlankColumns()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankColumns--).
 
 {{% /alert %}} 
 ## **Удаление пустых строк**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DeletingBlankRows-DeletingBlankRows.java" >}}
 ## **Удаление пустых столбцов**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DeletingBlankColumns-DeletingBlankColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

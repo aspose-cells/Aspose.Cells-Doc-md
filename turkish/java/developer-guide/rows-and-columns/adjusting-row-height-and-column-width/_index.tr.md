@@ -16,7 +16,7 @@ Aspose.Cells, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cell
 
 [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) kolleksiyonu, çalışma sayfasındaki satırları veya sütunları yönetmek için birçok yöntem sağlar. Bunlardan bazıları aşağıda daha detaylı bir şekilde tartışılmaktadır.
 ### **Satır Yüksekliğini Ayarlamak**
-Tek bir satırın yüksekliğini ayarlamak için [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) kolleksiyonunun [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\)) yöntemini çağırarak ayarlanabilir. [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\)) yöntemi aşağıdaki parametreleri alır:
+Bir hücre satırının yüksekliğini belirlemek için, [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunun [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight-int-double-) metodunu çağırabilirsiniz. [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight-int-double-) metodu aşağıdaki parametreleri alır:
 
 - **Satır dizini**, yüksekliği değiştirdiğiniz satırın dizini.
 - **Satır yüksekliği**, satıra uygulanan satır yüksekliği.
@@ -30,7 +30,7 @@ Bir çalışma sayfasındaki tüm satırlar için aynı satır yüksekliğini ay
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingHeightAllRows-SettingHeightAllRows.java" >}}
 ## **Sütunlarla Çalışmak**
 ### **Bir Sütunun Genişliğini Ayarlamak**
-Bir sütunun genişliğini, [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) kolleksiyonunun [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\)) yöntemini çağırarak ayarlayın. [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\)) yöntemi aşağıdaki parametreleri alır:
+Bir sütunun genişliğini ayarlamak için, [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunun [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth-int-double-) metodunu çağırabilirsiniz. [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth-int-double-) metodu aşağıdaki parametreleri alır:
 
 - **Sütun dizini**, genişliği değiştirdiğiniz sütunun dizini.
 - **Sütun genişliği**, istenen sütun genişliği.
@@ -44,3 +44,4 @@ Bir çalışma sayfasındaki tüm sütunlar için aynı sütun genişliğini aya
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingWidthOfAllColumns-SettingWidthOfAllColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

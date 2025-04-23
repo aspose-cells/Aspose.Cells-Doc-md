@@ -28,3 +28,4 @@ keywords: 元の値を使用してデータを検索する、元の値を使用�
 Aspose.Cells.Cell [ D4; ValueType : IsNumeric; Value : ---; Formula:=SUM(A1:A2)]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

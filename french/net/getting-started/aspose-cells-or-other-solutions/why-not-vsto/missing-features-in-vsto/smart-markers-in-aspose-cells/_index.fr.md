@@ -12,3 +12,4 @@ Cette section comporte les sujets suivants:
 - [Fonctionnalité de marqueurs intelligents](/cells/fr/net/smart-markers-feature/)
 - [Utilisation de types anonymes ou d'objets personnalisés](/cells/fr/net/using-anonymous-types-or-custom-objects/)
 - [Utilisation d'objets imbriqués](/cells/fr/net/using-nested-objects/)
+{{< app/cells/assistant language="csharp" >}}

@@ -66,3 +66,4 @@ Si desea restringir a los usuarios de editar celdas, las celdas deben estar bloq
 También es posible bloquear celdas mediante la API de Aspose.Cells. Cada celda puede obtener formato que contiene una propiedad booleana, [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked). Establezca la propiedad [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) en **true** o **false** para bloquear o desbloquear la celda.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -77,3 +77,4 @@ sheet.addMergedRegion(new CellRangeAddress(
 詳細については、[セルのマージおよび非マージ（分割）](/cells/ja/java/merging-and-unmerging-cells)を参照してください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

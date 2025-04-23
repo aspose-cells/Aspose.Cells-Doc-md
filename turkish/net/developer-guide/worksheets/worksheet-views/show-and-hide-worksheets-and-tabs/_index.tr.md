@@ -58,3 +58,4 @@ Aşağıda, bir Excel dosyasını (book1.xls) açan, sekmelerini gizleyen ve de�
 ### **Sekme Çubuğu Genişliğini Kontrol Etme**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-ControlTabBarWidth-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

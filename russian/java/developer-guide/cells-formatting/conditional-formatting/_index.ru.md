@@ -58,3 +58,4 @@ Aspose.Cells поддерживает применение условного ф
 - [Применение условного форматирования в рабочих листах](/cells/ru/java/apply-conditional-formatting-in-worksheets/)
 - [Применение заливки для чередующихся строк и столбцов с условным форматированием](/cells/ru/java/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
 
+{{< app/cells/assistant language="java" >}}

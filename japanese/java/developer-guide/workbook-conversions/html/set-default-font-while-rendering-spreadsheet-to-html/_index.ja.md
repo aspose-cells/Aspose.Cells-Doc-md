@@ -20,3 +20,4 @@ Aspose.Cellsを使用すると、スプレッドシートをHTMLにレンダリ�
 このコードは、Courier Newを使用した[出力HTMLファイル](5472568)、Arialを使用した[出力HTML](5472567)、およびTimes New Romanを使用した[出力HTMLファイル](5472565)を生成します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToHTML-.java" >}}
+{{< app/cells/assistant language="java" >}}

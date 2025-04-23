@@ -21,12 +21,19 @@ Koşullu biçimlendirme şunları yapabilir:
 
 Aspose.Cells, Microsoft Excel 2007 ve sonraki sürümlerin sağladığı koşullu biçimlendirmeleri XLSX formatında çalışma zamanında tamamen destekler. Bu örnek, farklı özelliklere sahip simge setleri, veri çubukları, renk skalaları, zaman periyotları, en üst/en alt ve diğer kurallara yönelik gelişmiş koşullu biçimlendirme türleri için bir egzersiz göstermektedir.
 
+- [**Adding Color Scale Conditional Formattings**](/cells/tr/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/)
+- [**Adding Above Average Conditional Formattings**](/cells/tr/net/how-to-add-above-average-conditional-formatting/)
+- [**Adding DataBars Conditional Formattings**](/cells/tr/net/how-to-add-databars-conditional-formatting/)
+- [**Adding IonSets Conditional Formattings**](/cells/tr/net/how-to-add-icon-sets-conditional-formatting/)
+- [**Adding Text Conditional Formattings**](/cells/tr/net/how-to-add-text-conditional-formatting/)
+- [**Adding TimePeriods Conditional Formattings**](/cells/tr/net/how-to-add-time-periods-conditional-formatting/)
+- [**Adding Top10 Conditional Formattings**](/cells/tr/net/how-to-add-top10-conditional-formatting/)
 
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConditionalFormatting-1.cs" >}}
 ### **Microsoft Excel'in Renk Skalası Koşullu Biçimlendirme Kullanıldığında Seçtiği Rengi Hesapla**
 Aspose.Cells, bir şablon dosyasında Renk Skalası koşullu biçimlendirme kullanıldığında seçilen rengi hesaplamanıza olanak tanır. Aşağıdaki örnek kodu kullanarak Microsoft Excel tarafından seçilen rengi nasıl hesaplayacağınızı öğrenin.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ComputeColorChoosenByMSExcel-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -24,3 +24,4 @@ Este ejemplo muestra cómo:
 1. Copiar datos del primer rango a este segundo rango.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeDataOnly-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

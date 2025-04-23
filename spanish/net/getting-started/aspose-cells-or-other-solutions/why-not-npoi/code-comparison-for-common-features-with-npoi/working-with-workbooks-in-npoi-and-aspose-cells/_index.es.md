@@ -10,3 +10,4 @@ Esta sección tiene los siguientes temas:
 - [Agregar datos en celdas](/cells/es/net/add-data-in-cells/)
 - [Crear nuevo libro de trabajo](/cells/es/net/create-new-workbook/)
 - [Establecer Área de Impresión](/cells/es/net/set-print-area/)
+{{< app/cells/assistant language="csharp" >}}

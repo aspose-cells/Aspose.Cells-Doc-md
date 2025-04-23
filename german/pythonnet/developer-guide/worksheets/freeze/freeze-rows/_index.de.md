@@ -4,15 +4,15 @@ linktitle: Zeilen einfrieren
 type: docs
 weight: 190
 url: /de/python-net/how-to-freeze-rows-of-excel-worksheet
-description: In diesem Artikel erfahren Sie, wie Sie oberste Zeilen von Excel Tabellenblättern programmgesteuert einfrieren können, indem Sie Aspose.Cells für Python via .NET APIs verwenden.
-keywords: Python Excel Bibliothek, Python Oberste Zeilen einfrieren, Python oberste Zeile einfrieren.
+description: In diesem Artikel lernst du, wie du die oberen Zeilen von Excel Arbeitsblättern programmgesteuert mit Aspose.Cells für Python via .NET fixierst.
+keywords: Python Excel Bibliothek, Python obere Zeilen fixieren, Python obere Zeile fixieren.
 ---
 
 ## **Einführung**
 
 In diesem Artikel erfahren Sie, wie man die oberen Zeilen fixiert. Wenn Sie eine große Menge an Daten unter einer gemeinsamen Überschrift haben und beim Scrollen des Arbeitsblatts die Überschrift nicht sehen können, können Sie die oberen Zeilen fixieren, damit Sie diesen fixierten Bereich auch bei Scrollen der restlichen Daten sehen können. Sie können so die Überschriften in den oberen Zeilen leicht sehen.
 
-## **Wie man Zeilen in Excel einfriert**
+## **Wie man Zeilen in Excel fixiert**
 
 **![Oberste Zeile(n) in Excel einfrieren](Freeze-Rows.png)**
 
@@ -31,8 +31,8 @@ Eingefrorene Zeilen ermöglichen es Ihnen, Ihre großen Daten ohne Überblick ü
 
 
 
-## **Wie man Zeilen mit Aspose.Cells für Python Excel-Bibliothek einfriert**
-Es ist einfach, Zeile(n) mit Aspose.Cells für Python via .NET einzufrieren. Verwenden Sie bitte die [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int)-Methode, um die Zeile(n) an der ausgewählten Zeile zu fixieren.
+## **So frieren Sie Zeilen mit Aspose.Cells für Python Excel Bibliothek ein**
+Es ist einfach, Zeile(n) mit Aspose.Cells für Python via .NET einzufrieren. Bitte verwenden Sie die [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) Methode, um Zeile(n) an der ausgewählten Zeile zu fixieren.
 1. Erstellen Sie eine Arbeitsmappe, um die Datei zu öffnen oder eine leere Datei zu erstellen.
 2. Friere die erste Zeile mit der Methode Worksheet.FreezePanes() ein.
 3. Die Datei speichern.

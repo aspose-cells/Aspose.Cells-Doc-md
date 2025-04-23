@@ -73,3 +73,4 @@ Console.ReadKey();
 ## **サンプルコードをダウンロード**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Get.Text.of.Specific.Cell.Aspose.Cells.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Get%20Text%20of%20Specific%20Cell)
+{{< app/cells/assistant language="csharp" >}}

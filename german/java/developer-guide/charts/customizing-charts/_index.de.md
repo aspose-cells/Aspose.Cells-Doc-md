@@ -131,7 +131,7 @@ Um ein Diagramm mit Aspose.Cells zu erstellen:
 
 1. Fügen Sie einige Daten zu Arbeitsblattzellen mit der [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)-Methode des Objekts [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) hinzu.
    Dies wird als Datenquelle für das Diagramm verwendet.
-1. Fügen Sie ein Diagramm zum Arbeitsblatt hinzu, indem Sie die Methode [*add*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int)) der Sammlung [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) aufrufen, die im Objekt [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) verkapselt ist.
+1. Fügen Sie ein Diagramm zum Arbeitsblatt hinzu, indem Sie die [*add*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add-int-int-int-int-int-) Methode der [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) Sammlung aufrufen, die im [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) Objekt eingebettet ist.
 1. Geben Sie mit der [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)-Aufzählung den Diagrammtyp an.
    Beispielsweise verwendet das Beispiel den Wert [**ChartType.PYRAMID**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#PYRAMID) als Diagrammtyp.
 1. Greifen Sie über die Indexübergabe auf das neue [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)-Objekt aus der [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection)-Sammlung zu.
@@ -166,7 +166,7 @@ Um ein Bubbel-Diagramm zu erstellen, muss das [**ChartType**](https://reference.
 
 #### **Liniendiagramm mit Datenmarkierungen**
 
-Um ein Linie mit Datenmarkern-Diagramm zu erstellen, muss das [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) auf [**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE_WITH_DATA_MARKERS) gesetzt werden und einige zusätzliche Eigenschaften wie Hintergrundbereich, Serienmarker, Werte & X-Werte entsprechend gesetzt werden. Nach Ausführung des folgenden Codes wird ein Linie mit Datenmarkern-Diagramm zum Arbeitsblatt hinzugefügt.
+Um ein Linie mit Datenmarkern-Diagramm zu erstellen, muss das [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) auf [**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE-WITH-DATA-MARKERS) gesetzt werden und einige zusätzliche Eigenschaften wie Hintergrundbereich, Serienmarker, Werte & X-Werte entsprechend gesetzt werden. Nach Ausführung des folgenden Codes wird ein Linie mit Datenmarkern-Diagramm zum Arbeitsblatt hinzugefügt.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-CreateLineWithDataMarkerChart-1.java" >}}
 
@@ -202,3 +202,4 @@ Um eine Liste der unterstützten Diagrammtypen zu sehen, lesen Sie den Artikel [
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="java" >}}

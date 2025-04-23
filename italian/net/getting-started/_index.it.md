@@ -45,7 +45,7 @@ In questo esempio, uso Ubuntu per mostrare come iniziare a utilizzare Aspose.Cel
 2. Apri il file "AsposeCellsTest.csproj" e aggiungi le seguenti righe come riferimenti al pacchetto Aspose.Cells:
 {{< highlight plain >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="24.7" />
+    <PackageReference Include="Aspose.Cells" Version="25.4" />
   </ItemGroup>
 {{< /highlight >}}
 3. Apri il progetto con VSCode su Ubuntu:
@@ -103,3 +103,4 @@ Nell'esempio seguente si crea un nuovo workbook da zero, si inserisce "Hello Wor
 L'esempio seguente apre un file modello esistente di Microsoft Excel "Sample.xlsx", inserisce "Ciao mondo!" nella cella A1 nel primo foglio di lavoro e salva come file Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -80,3 +80,4 @@ Solo puedes utilizar estilos de líneas delgadas para el borde del contorno. No 
 - [Generar imágenes de barras de datos de formato condicional](/cells/es/net/generate-conditional-formatting-databars-images/)
 - [Obtener conjuntos de iconos, barras de datos o escalas de colores utilizados en el formato condicional](/cells/es/net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
 
+{{< app/cells/assistant language="csharp" >}}

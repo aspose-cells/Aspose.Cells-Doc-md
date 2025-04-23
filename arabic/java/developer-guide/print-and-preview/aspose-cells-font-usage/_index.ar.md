@@ -4,3 +4,4 @@ type: docs
 weight: 100
 url: /ar/java/aspose-cells-font-usage/
 ---
+{{< app/cells/assistant language="java" >}}

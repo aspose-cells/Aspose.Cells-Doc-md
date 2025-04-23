@@ -521,3 +521,4 @@ if (Page.IsPostBack == false && GridWeb1.IsPostBack == false)
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

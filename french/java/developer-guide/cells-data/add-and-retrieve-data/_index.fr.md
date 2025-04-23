@@ -40,15 +40,16 @@ De plus, le type de données contenu dans une cellule peut également être vér
 
 |**Types de valeur de cellule**|**Description**|
 | :- | :- |
-|[IS_BOOL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_BOOL)| Indique que la valeur de la cellule est booléenne.
-|[IS_DATE_TIME](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_DATE_TIME)| Indique que la valeur de la cellule est une date/heure.
-|[IS_ERROR](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_ERROR)| Représente que la cellule contient une valeur d'erreur.
-|[IS_NULL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_NULL)| Représente une cellule vide.
-|[IS_NUMERIC](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_NUMERIC)| Indique que la valeur de la cellule est numérique.
-|[IS_STRING](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_STRING)| Indique que la valeur de la cellule est une chaîne de caractères.
-|[IS_UNKNOWN](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_UNKNOWN)| Indique que la valeur de la cellule est inconnue.
+|[IS_BOOL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-BOOL)|Spécifie que la valeur de la cellule est Booléenne.|
+|[IS_DATE_TIME](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-DATE-TIME)|Spécifie que la valeur de la cellule est une date/heure.|
+|[IS_ERROR](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-ERROR)|Représente que la cellule contient une erreur.|
+|[IS_NULL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-NULL)|Représente une cellule vide.|
+|[IS_NUMERIC](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-NUMERIC)|Spécifie que la valeur de la cellule est numérique.|
+|[IS_STRING](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-STRING)|Spécifie que la valeur de la cellule est une chaîne.|
+|[IS_UNKNOWN](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-UNKNOWN)|Spécifie que la valeur de la cellule est inconnue.|
 Vous pouvez également utiliser les types de valeur de cellule prédéfinis ci-dessus pour comparer avec le type de données présent dans chaque cellule.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-RetrievingDataFromCells-RetrievingDataFromCells.java" >}}
+{{< app/cells/assistant language="java" >}}

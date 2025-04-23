@@ -20,3 +20,4 @@ url: /ar/net/code-comparison-for-common-features-with-openxml/
 - [فتح مستند جدول بيانات من تيار](/cells/ar/net/open-a-spreadsheet-document-from-a-stream/)
 - [استرجاع قاموس لجميع النطاقات المسماة في مستند جدول بيانات](/cells/ar/net/retrieve-a-dictionary-of-all-named-ranges-in-a-spreadsheet-document/)
 - [استرجاع قيم الخلايا](/cells/ar/net/retrieve-the-values-of-cells/)
+{{< app/cells/assistant language="csharp" >}}

@@ -29,3 +29,4 @@ Une fois que vous avez ajouté le contrôle ActiveX à l'intérieur de la collec
 Le code d'exemple suivant ajoute le contrôle ActiveX du bouton bascule à l'aide d'Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddActiveXControls-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

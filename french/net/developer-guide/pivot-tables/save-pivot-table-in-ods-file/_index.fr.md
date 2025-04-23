@@ -14,3 +14,4 @@ Aspose.Cells offre la possibilité de sauvegarder un tableau croisé dynamique d
 Le fichier de sortie généré par le code ci-dessus est joint à titre de référence.
 
 [Fichier ODS de sortie](PivotTableSaveInODS_out.ods)
+{{< app/cells/assistant language="csharp" >}}

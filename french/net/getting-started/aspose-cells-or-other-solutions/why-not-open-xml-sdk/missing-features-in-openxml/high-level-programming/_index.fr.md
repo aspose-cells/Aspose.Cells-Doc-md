@@ -13,3 +13,4 @@ Cette section comprend les sujets suivants
   - [Copier des feuilles de calcul dans un classeur](/cells/fr/net/copy-worksheets-within-a-workbook/)
   - [Déplacer des feuilles de calcul dans un classeur](/cells/fr/net/move-worksheets-within-workbook/)
 - [Rechercher et remplacer dans la feuille de calcul](/cells/fr/net/find-and-replace-in-spreadsheet/)
+{{< app/cells/assistant language="csharp" >}}

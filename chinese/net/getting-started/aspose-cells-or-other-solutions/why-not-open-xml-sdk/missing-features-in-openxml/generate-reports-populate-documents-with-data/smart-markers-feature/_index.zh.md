@@ -40,3 +40,4 @@ url: /zh/net/smart-markers-feature-in-aspose-cells/
 - [在Aspose.Cells中使用图片标记](/cells/zh/net/image-markers-in-aspose-cells/)
 - [在Aspose.Cells中使用匿名类型或自定义对象](/cells/zh/net/using-anonymous-types-or-custom-objects-in-aspose-cells/)
 - [在Aspose.Cells中使用嵌套对象](/cells/zh/net/using-nested-objects-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

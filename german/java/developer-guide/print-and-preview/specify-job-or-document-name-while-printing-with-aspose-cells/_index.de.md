@@ -7,13 +7,13 @@ url: /de/java/specify-job-or-document-name-while-printing-with-aspose-cells/
 
 {{% alert color="primary" %}}
 
-Sie können den Job- oder Dokumentnamen beim Drucken Ihrer Arbeitsmappe oder Ihres Arbeitsblatts mithilfe der [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) oder [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) angeben. Aspose.Cells bietet die [**WorkbookRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String,%20java.lang.String)) und [**SheetRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String,%20java.lang.String)) Methoden, die Sie zum Angeben des Jobnamens beim Drucken Ihrer Arbeitsmappe oder Ihres Arbeitsblatts verwenden können.
+Sie können den Job- oder Dokumentnamen beim Drucken Ihrer Arbeitsmappe oder Ihres Arbeitsblatts mithilfe der [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) oder [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) angeben. Aspose.Cells bietet die [**WorkbookRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter-java.lang.String-java.lang.String-) und [**SheetRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-java.lang.String-) Methoden, die Sie zum Angeben des Jobnamens beim Drucken Ihrer Arbeitsmappe oder Ihres Arbeitsblatts verwenden können.
 
 {{% /alert %}}
 
 ## **Job- oder Dokumentnamen beim Drucken mit Aspose.Cells angeben**
 
-Der Beispielcode lädt die Quelldatei von Excel und sendet sie dann an den Drucker, indem der Job- oder Dokumentname mithilfe der Methoden [**WorkbookRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String,%20java.lang.String)) und [**SheetRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String,%20java.lang.String)) angegeben wird. Der Screenshot zeigt, wie der Jobname in der Druckerwarteschlange aussieht.
+Der Beispielcode lädt die Quelldatei von Excel und sendet sie dann an den Drucker, indem der Job- oder Dokumentname mithilfe der Methoden [**WorkbookRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter-java.lang.String-java.lang.String-) und [**SheetRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-java.lang.String-) angegeben wird. Der Screenshot zeigt, wie der Jobname in der Druckerwarteschlange aussieht.
 
 ![todo:image_alt_text](specify-job-or-document-name-while-printing-with-aspose-cells_1.png)
 
@@ -22,3 +22,4 @@ Der Beispielcode lädt die Quelldatei von Excel und sendet sie dann an den Druck
 ## Verwandte Artikel
 
 - [Arbeitsmappen drucken](/cells/de/java/printing-workbooks/)
+{{< app/cells/assistant language="java" >}}

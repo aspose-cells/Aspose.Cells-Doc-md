@@ -79,3 +79,4 @@ Bir hücre birleştirildiğinde, AutoFit metotları uygulanmaz, bu da Microsoft
 
 ## **Gelişmiş Konular**
 - [Birleştirilmiş Hücreler için Satırları Otomatik Uydurma](/cells/tr/net/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="csharp" >}}

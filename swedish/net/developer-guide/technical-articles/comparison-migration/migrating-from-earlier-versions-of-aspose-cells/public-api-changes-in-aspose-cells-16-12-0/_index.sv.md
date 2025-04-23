@@ -227,3 +227,4 @@ Vänligen använd Title.RotationAngle-egendom som ett alternativ.
 Det rekommenderas att använda DataLabels.BackgroundMode-egendomen istället.
 ### **Borttagen DisplayUnitLabel.Rotation-egendom**
 Överväg att använda DisplayUnitLabel.RotationAngle-egendom för att uppnå samma mål.
+{{< app/cells/assistant language="csharp" >}}

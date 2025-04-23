@@ -35,3 +35,4 @@ Aspose.Cells также позволяет управлять осями диа�
 - [Изменение направления меток делений](/cells/ru/java/change-tick-label-direction/)
 - [Определение существующих осей на графике](/cells/ru/java/determine-which-axis-exists-in-the-chart/)
 - [Обработка автоматических единиц оси диаграммы, как в Microsoft Excel](/cells/ru/java/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
+{{< app/cells/assistant language="java" >}}

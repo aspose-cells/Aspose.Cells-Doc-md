@@ -38,3 +38,4 @@ url: /ja/net/missing-features-in-openxml/
 - [Aspose.Cellsでの数式内の外部リンクの設定](/cells/ja/net/set-external-links-in-formulas-in-aspose-cells/)
 - [Aspose.Cellsでのワークブックの数式計算モードの設定](/cells/ja/net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/)
 - [Aspose.Cellsでの共有数式の設定](/cells/ja/net/setting-shared-formula-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

@@ -57,3 +57,4 @@ workbook.save(dataDir + "Aspose_PivotChart_Out.xls");
 Per ulteriori dettagli, visita [Crea tabelle pivot e grafici pivot](/cells/it/java/create-pivot-tables-and-pivot-charts/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

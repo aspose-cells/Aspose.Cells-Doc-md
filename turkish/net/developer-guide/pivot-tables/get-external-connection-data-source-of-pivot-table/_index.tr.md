@@ -16,3 +16,4 @@ Aspose.Cells, pivot tablosunun dış bağlantı veri kaynağını alabilme özel
 Kod örneğinde kullanılan kaynak dosya, referans için ekte bulunmaktadır.
 
 [Kaynak Dosya](104398862.xlsx)
+{{< app/cells/assistant language="csharp" >}}

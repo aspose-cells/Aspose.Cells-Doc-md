@@ -20,3 +20,4 @@ Le graphique suivant est créé avec le code d'exemple.
 ## Code Java pour définir une image en tant que remplissage d'arrière-plan dans le graphique
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetPictureAsBackgroundFillInChart-SetPictureAsBackgroundFillInChart.java" >}}
+{{< app/cells/assistant language="java" >}}

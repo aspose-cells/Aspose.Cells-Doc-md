@@ -20,3 +20,4 @@ Aspose.Cells, imaj ve grafik içeren XLS dosyalarını PDF belgelerine dönüşt
 Eğer elektronik tablo formüller içeriyorsa, PDF'ye dönüştürmeden hemen önce [Workbook.CalculateFormula](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) yöntemini çağırmak en iyisidir. Böylece formül bağımlı değerlerin tekrar hesaplanmasını sağlar ve doğru değerler PDF'de görüntülenir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

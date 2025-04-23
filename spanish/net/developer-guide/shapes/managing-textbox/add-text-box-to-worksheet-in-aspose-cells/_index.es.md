@@ -43,3 +43,4 @@ Obtendrás un archivo similar a [archivo de resultado](result.xlsx). En el archi
 
 ![](52449.png)
 
+{{< app/cells/assistant language="csharp" >}}

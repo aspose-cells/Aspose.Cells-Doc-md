@@ -62,3 +62,4 @@ url: /zh/net/filter-objects-while-loading-workbook-or-worksheet/
 这是如何根据工作表名称使用CustomLoadFilter类。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-CustomFilteringPerWorksheet-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

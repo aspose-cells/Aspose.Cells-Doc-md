@@ -51,3 +51,4 @@ Pour ouvrir des fichiers tabulés, les développeurs doivent utiliser la classe 
 - [Charger ou importer un fichier CSV avec des formules](/cells/fr/java/load-or-import-csv-file-with-formulas/)
 - [Supprimer les lignes et colonnes vides en tête lors de l'exportation de feuilles de calcul au format CSV](/cells/fr/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
 
+{{< app/cells/assistant language="java" >}}

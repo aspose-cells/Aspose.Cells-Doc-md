@@ -26,3 +26,4 @@ El siguiente código de ejemplo carga el [archivo de Excel de ejemplo](55541805
 Is Smart Art Shape: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

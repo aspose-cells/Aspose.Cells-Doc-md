@@ -11,3 +11,4 @@ url: /ja/java/propagate-formula-in-table-or-list-object-automatically-while-ente
 次のサンプルコードは、新しいデータを入力すると列Bの式が自動的に新しい行に伝播するような表やリストオブジェクトを作成します。このコードで生成された[出力エクセルファイル](5472519.xlsx)を確認してください。セルA3に数値を入力すると、セルB2の式が自動的にセルB3に伝播することが確認できます。
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PropagateFormulaInTableorListObject-PropagateFormulaInTableorListObject.java" >}}
+{{< app/cells/assistant language="java" >}}

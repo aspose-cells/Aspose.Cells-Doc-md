@@ -61,3 +61,4 @@ Die folgende Ausgabe wird bei der Ausführung des Codes generiert.
 
 ## **Erweiterte Themen**
 - [Extrahieren von Themen-Daten aus Excel-Datei](/cells/de/java/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="java" >}}

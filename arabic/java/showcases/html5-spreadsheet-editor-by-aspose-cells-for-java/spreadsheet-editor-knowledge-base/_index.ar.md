@@ -36,3 +36,4 @@ url: /ar/java/spreadsheet-editor-knowledge-base/
 </iframe>
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

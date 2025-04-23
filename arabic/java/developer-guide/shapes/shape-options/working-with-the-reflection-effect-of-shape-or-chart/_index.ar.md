@@ -24,3 +24,4 @@ url: /ar/java/working-with-the-reflection-effect-of-shape-or-chart/
 الكود المصدر أدناه يحمل [ملف Excel المصدري](5472529.xlsx) ويصل إلى الشكل الأول في الورقة العمل الأولى ويضبط الخصائص الفرعية لـ [Shape.ReflectionEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Reflection) ومن ثم يحفظ مصنف العمل في الملف الناتج للإكسل (5472539.xlsx).
 ## **الكود المثالي**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithReflectionEffect-WorkingWithReflectionEffect.java" >}}
+{{< app/cells/assistant language="java" >}}

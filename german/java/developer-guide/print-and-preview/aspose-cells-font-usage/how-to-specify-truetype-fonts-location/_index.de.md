@@ -73,3 +73,4 @@ Bitte beachten Sie Folgendes:
 - Der String "FontDirSet" sollte der vollständige Pfad zum Ordner sein, der die erforderlichen Schriftarten enthält.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

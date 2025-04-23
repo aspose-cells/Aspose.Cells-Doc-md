@@ -270,3 +270,4 @@ workbook.save("output.xlsx");
 Используйте метод getEnumerator для итерации всех ячеек вместо этого.
 ### **Свойство DrawObject.Image устарело**
 Используйте свойство DrawObject.ImageBytes для получения данных изображения вместо этого.
+{{< app/cells/assistant language="java" >}}

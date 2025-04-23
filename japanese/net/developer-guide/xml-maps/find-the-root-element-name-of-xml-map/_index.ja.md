@@ -24,3 +24,4 @@ Microsoft ExcelでXMLマップの*ルート要素名*を[**XmlMap.RootElementNam
 Root Element Name Of Xml Map: MiscData
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

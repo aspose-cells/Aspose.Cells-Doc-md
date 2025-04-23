@@ -38,3 +38,4 @@ workbook.save(dataDir + "EncodedNewFile_Out.xlsx", SaveFormat.XLSX);
 Para más detalles, visita [Lectura de archivos CSV con múltiples codificaciones](/cells/es/java/reading-csv-file-with-multiple-encodings).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

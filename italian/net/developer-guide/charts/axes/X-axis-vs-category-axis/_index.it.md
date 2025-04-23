@@ -18,3 +18,4 @@ Mostreremo questi dati su due tipi di grafico, il primo grafico è un grafico XY
 ![todo:image_alt_text](compare.png)
 ## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "X-axis-vs-category-axis.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

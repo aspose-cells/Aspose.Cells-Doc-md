@@ -34,3 +34,4 @@ Bitte überprüfen Sie die Konsolenausgabe des obigen Beispielcodes, der Wert (D
 [Direkte Berechnung einer benutzerdefinierten Funktion, ohne sie in einem Arbeitsblatt zu schreiben](/cells/de/net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

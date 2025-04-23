@@ -33,7 +33,7 @@ url: /ar/java/merging-and-unmerging-cells/
 
 ### **استخدام Aspose.Cells**
 
-تحتوي فئة [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) على طرق مفيدة للمهمة. على سبيل المثال، تقوم الطريقة [**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) بدمج الخلايا في خلية واحدة ضمن نطاق محدد من الخلايا.
+تحتوي فئة [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) على طرق مفيدة للمهمة. على سبيل المثال، تقوم الطريقة [**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge-int-int-int-int-) بدمج الخلايا في خلية واحدة ضمن نطاق محدد من الخلايا.
 
 الناتج التالي يتم إنشاؤه بعد تنفيذ الكود أدناه.
 
@@ -59,7 +59,7 @@ url: /ar/java/merging-and-unmerging-cells/
 
 #### **استخدام Aspose.Cells**
 
-تحتوي فئة [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) على طريقة تسمى [**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge(int,%20int,%20int,%20int)) لتقسيم الخلايا إلى حالتها الأصلية. تقوم الطريقة بفك دمج الخلايا باستخدام مرجع الخلية في نطاق الخلية المدمجة.
+تحتوي فئة [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) على طريقة تسمى [**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge-int-int-int-int-) لتقسيم الخلايا إلى حالتها الأصلية. تقوم الطريقة بفك دمج الخلايا باستخدام مرجع الخلية في نطاق الخلية المدمجة.
 
 #### **مثال الكود**
 
@@ -72,3 +72,4 @@ url: /ar/java/merging-and-unmerging-cells/
 - [العثور على الخلايا المدمجة وتقسيمها](/cells/ar/java/detect-merged-cells-in-a-worksheet/).
 - [دمج وتقسيم نطاق الخلية باستخدام الطرق Range.merge() و Range.unMerge()](/cells/ar/java/merge-or-unmerge-range-of-cells/).
 
+{{< app/cells/assistant language="java" >}}

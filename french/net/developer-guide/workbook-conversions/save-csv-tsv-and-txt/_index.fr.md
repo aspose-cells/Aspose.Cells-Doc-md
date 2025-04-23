@@ -34,3 +34,4 @@ Les fichiers texte contiennent des données de feuille de calcul sans mise en fo
 ## **Sujets avancés**
 - [Conserver les séparateurs pour les lignes vides lors de l'exportation de feuilles de calcul au format CSV](/cells/fr/net/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [Supprimer les lignes et colonnes vides en tête lors de l'exportation de feuilles de calcul au format CSV](/cells/fr/net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+{{< app/cells/assistant language="csharp" >}}

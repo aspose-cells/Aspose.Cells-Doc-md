@@ -50,3 +50,4 @@ url: /ar/java/create-dynamic-charts/
 1. حفظ النتيجة على القرص.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UsingDynamicFormulas-UsingDynamicFormulas.java" >}}
+{{< app/cells/assistant language="java" >}}

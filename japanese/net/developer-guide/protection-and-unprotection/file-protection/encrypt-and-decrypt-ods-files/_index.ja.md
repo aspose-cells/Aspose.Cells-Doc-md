@@ -27,3 +27,4 @@ ODSファイルを暗号化するには、ファイルを読み込んで保存�
 ODSファイルを復号化するには、[**LoadOptions.Password**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/password)によるパスワードの提供でファイルを読み込みます。ファイルが読み込まれたら、[**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password)文字列をnullに設定します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-DecryptingODSFiles-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

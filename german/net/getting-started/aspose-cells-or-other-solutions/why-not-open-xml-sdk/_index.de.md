@@ -79,3 +79,4 @@ Wenn Sie jedoch komplexe Operationen an Dokumenten durchführen müssen, wie ein
 - Konvertieren Sie ein Dokument in PDF oder XPS, sodass es genau so aussieht, als hätte Microsoft Excel es konvertiert.
 - Entwickeln Sie eine .NET- oder Java-Anwendung.
 
+{{< app/cells/assistant language="csharp" >}}

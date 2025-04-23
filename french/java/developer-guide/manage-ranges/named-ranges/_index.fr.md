@@ -29,24 +29,24 @@ Ici, nous utilisons l'API Aspose.Cells pour effectuer la tâche.
 
 Aspose.Cells fournit une classe, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), qui représente un fichier Microsoft Excel. La classe [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) contient une collection [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par la classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). La classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) fournit une collection [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells).
 
-Il est possible de créer une plage nommée en appelant la méthode surchargée [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\)) de la collection [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Une version typique de la méthode [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\)) prend les paramètres suivants :
+Il est possible de créer une plage nommée en appelant la méthode surchargeée [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-java.lang.String-java.lang.String-) de la collection [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). La méthode [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-java.lang.String-java.lang.String-) typique prend les paramètres suivants :
 
 - Nom de la cellule supérieure gauche, le nom de la cellule supérieure gauche dans la plage.
 - Nom de la cellule inférieure droite, le nom de la cellule inférieure droite de la plage.
 
-Lorsque la méthode [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\)) est appelée, elle renvoie la plage nommée nouvellement créée en tant qu'instance de la classe [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range).
+Lorsque la méthode [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-java.lang.String-java.lang.String-) est appelée, elle retourne la nouvelle plage nommée en tant qu'instance de la classe [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range).
 
 L'exemple suivant montre comment créer une plage nommée de cellules s'étendant sur B4:G14.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-CreateNamedRangeofCells-CreateNamedRangeofCells.java" >}}
 #### **Accès à toutes les plages nommées dans une feuille de calcul**
-Appelez la méthode [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\)) de la collection [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) pour obtenir toutes les plages nommées dans une feuille de calcul. La méthode [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\)) renvoie un tableau de toutes les plages nommées dans la collection [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection).
+Appelez la méthode [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges--) de la [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) pour obtenir toutes les plages nommées dans une feuille de calcul. La méthode [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges--) retourne un tableau de toutes les plages nommées dans la collection.
 
 L'exemple suivant montre comment accéder à toutes les plages nommées dans un classeur.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AccessAllNamedRanges-AccessAllNamedRanges.java" >}}
 #### **Accéder à une plage nommée spécifique**
-Appelez la méthode [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\)) de la collection [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) pour obtenir une plage spécifiée par son nom. Une méthode typique [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\)) prend le nom de la plage nommée et renvoie la plage nommée spécifiée en tant qu'instance de la classe [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range).
+Appelez la méthode [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName-java.lang.String-) de la collection [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) pour obtenir une plage spécifiée par nom. La méthode [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName-java.lang.String-) typique prend le nom de la plage nommée et retourne cette plage en tant qu'instance de la classe [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range).
 
 L'exemple suivant montre comment accéder à une plage spécifiée par son nom.
 
@@ -76,7 +76,7 @@ L'exemple suivant montre comment définir la couleur de remplissage solide (coul
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FormatRanges1-FormatRanges1.java" >}}
 #### **Format des plages... Ajout de bordures à une plage nommée**
-Il est possible d'ajouter des bordures à une plage de cellules au lieu d'une seule cellule. L'objet [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) fournit une méthode [setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\)) qui prend les paramètres suivants pour ajouter une bordure à la plage de cellules:
+Il est possible d'ajouter des bordures à une plage de cellules plutôt qu'à une seule cellule. L'objet [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) fournit une méthode [setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders-int-com.aspose.cells.Color-) qui accepte les paramètres suivants pour ajouter une bordure à la plage de cellules :
 
 - borderStyle: le type de bordure, sélectionné dans l'énumération [CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType).
 - borderColor: la couleur de ligne de la bordure, sélectionnée dans l'énumération [Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color).
@@ -90,16 +90,17 @@ Le résultat suivant serait généré après l'exécution du code ci-dessus :
 
 ![todo:image_alt_text](named-ranges_1.png)
 #### **Appliquer un style aux cellules dans une plage**
-Parfois, vous voulez appliquer un style aux cellules dans une [Plage](https://reference.aspose.com/cells/java/com.aspose.cells/range). Pour cela, vous pouvez parcourir les cellules de la plage et utiliser la méthode [Cell.setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) pour appliquer le style à la cellule.
+Parfois, vous souhaitez appliquer un style aux cellules d'une [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range). Pour cela, vous pouvez parcourir les cellules de la plage et utiliser la méthode [Cell.setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle-com.aspose.cells.Style-) pour appliquer le style à la cellule.
 
 L'exemple suivant montre comment appliquer des styles aux cellules dans une plage.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ConvertCellsAddresstoRangeorCellArea-ConvertCellsAddresstoRangeorCellArea.java" >}}
 #### **Supprimer une Plage Nommée**
-Aspose.Cells fournit la méthode [NameCollection.RemoveAt()](https://reference.aspose.com/cells/java/com.aspose.cells/namecollection#removeAt\(int\)) pour effacer le nom de la plage. Pour effacer le contenu de la plage, utilisez la méthode [Cells.ClearRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#clearRange\(com.aspose.cells.CellArea\)) .
+Aspose.Cells fournit la méthode [NameCollection.RemoveAt()](https://reference.aspose.com/cells/java/com.aspose.cells/namecollection#removeAt-int-) pour effacer le nom de la plage. Pour vider le contenu de la plage, utilisez la méthode [Cells.ClearRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#clearRange-com.aspose.cells.CellArea-)
 L'exemple suivant montre comment supprimer une plage nommée avec son contenu.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-RemoveANamedRange-RemoveANamedRange.java" >}}
 
 
 borderColors 
+{{< app/cells/assistant language="java" >}}

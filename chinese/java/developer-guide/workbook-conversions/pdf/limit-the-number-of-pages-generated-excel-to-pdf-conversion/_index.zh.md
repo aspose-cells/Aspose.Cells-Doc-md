@@ -22,3 +22,4 @@ url: /zh/java/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
 如果电子表格中包含公式，最好在将其渲染为 PDF 格式前调用 [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--)。这样做可以确保重新计算公式依赖的值，并在输出文件中呈现正确的值。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -15,3 +15,4 @@ Ci sono due suggerimenti che gli utenti non anglofoni devono seguire quando crea
 
 1. Le formule devono essere inserite in inglese. Per esempio, utilizzare l'inglese "=SUM()" e non il tedesco "=SUMME()".
 1. Utilizzare sempre una virgola (,) per delimitare i parametri delle funzioni. Per alcune opzioni o impostazioni linguistiche, il delimitatore per i parametri delle funzioni è un punto e virgola ma Aspose.Cells utilizza la virgola nello stile inglese. Per esempio, utilizzare "=IF(C5=0,0,C3/C4)" e non "=IF(C5=0;0;C3/C4)"
+{{< app/cells/assistant language="csharp" >}}

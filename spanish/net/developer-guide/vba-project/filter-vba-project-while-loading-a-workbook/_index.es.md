@@ -16,3 +16,4 @@ El siguiente código de muestra carga un libro de trabajo de manera que solo VBA
 [sampleMacroEnabledWorkbook.xlsm](79527938.xlsm)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilterVBAMacrosWhileLoadingWorkbook-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

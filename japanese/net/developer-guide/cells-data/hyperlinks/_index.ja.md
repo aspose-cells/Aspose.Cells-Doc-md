@@ -65,3 +65,4 @@ Aspose.Cellsは、Microsoft Excelファイルを表す[Workbook](https://referen
 - [ワークシートのハイパーリンクの編集](/cells/ja/net/editing-hyperlinks-of-worksheet/)
 - [範囲内のハイパーリンクを取得](/cells/ja/net/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -62,3 +62,4 @@ Una volta caricato il [file Excel di origine](5115255.xlsx) con un filtro person
 Così si utilizza la classe CustomLoadFilter come per i nomi dei fogli di lavoro.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-CustomFilteringPerWorksheet-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

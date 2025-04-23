@@ -26,3 +26,4 @@ Mientras que, en la siguiente imagen de la hoja de cálculo, se ha aplicado tran
 Puede usar el siguiente código de ejemplo para generar una imagen transparente de su hoja de cálculo de Excel.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CreateTransparentImage-1.java" >}}
+{{< app/cells/assistant language="java" >}}

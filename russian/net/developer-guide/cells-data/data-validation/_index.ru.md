@@ -128,3 +128,4 @@ Microsoft Excel поддерживает ряд различных типов п
 - [Получить проверку ячейки в файлах ODS](/cells/ru/net/get-cell-validation-in-ods-files/)
 - [Получить примененную проверку данных к ячейке](/cells/ru/net/get-validation-applied-on-a-cell/)
 - [Проверьте, что значение ячейки удовлетворяет правилам проверки данных](/cells/ru/net/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="csharp" >}}

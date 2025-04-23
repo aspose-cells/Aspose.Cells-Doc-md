@@ -15,7 +15,7 @@ Aspose.Cells låter dig exportera ett kalkylblad från arbetsboken och konverter
 
 Ibland är det användbart att spara en bild av ett kalkylblad. Bilder kan delas online, infogas i andra dokument (rapporter skrivna i Microsoft Word till exempel eller PowerPoint-presentationer).
 
-Aspose.Cells tillhandahåller bildexport genom [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)-klassen. Denna klass representerar kalkylbladet som kommer att renderas till en bild. [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)-klassen tillhandahåller [**toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream))-metoden för att konvertera ett kalkylblad till en bildfil. BMP, PNG, JPEG, TIFF och EMF-format stöds.
+Aspose.Cells tillhandahåller bildexport genom [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)-klassen. Denna klass representerar kalkylbladet som kommer att renderas till en bild. [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)-klassen tillhandahåller [**toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage-int-java.io.OutputStream-)-metoden för att konvertera ett kalkylblad till en bildfil. BMP, PNG, JPEG, TIFF och EMF-format stöds.
 
 {{% alert color="primary" %}}
 
@@ -58,3 +58,4 @@ Ett enkelt sätt att konvertera aktivt kalkylblad i en arbetsbok är att ställa
 - [Exportera diagram till SVG med viewBox-attribut](/cells/sv/java/export-chart-to-svg-with-viewbox-attribute/)
 - [Exportera Arbetsblad eller Diagram till Bild med önskad Bredd och Höjd](/cells/sv/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
 - [Konvertera kalkylblad till bild och kalkylblad till bild per sida](/cells/sv/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)
+{{< app/cells/assistant language="java" >}}

@@ -26,3 +26,4 @@ Dies ist das Ausgabebild nach Festlegen der Eigenschaft [**ImageOrPrintOptions.D
 ## Beispielcode
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-SetDefaultFontWhileRenderingSpreadsheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

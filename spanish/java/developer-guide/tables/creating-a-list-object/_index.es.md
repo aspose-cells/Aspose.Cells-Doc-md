@@ -53,3 +53,4 @@ Según el rango de celdas especificado, se crea un objeto Lista en la hoja de c�
 En el ejemplo que se muestra a continuación, hemos creado la misma [**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) utilizando la API de Aspose.Cells como la que creamos utilizando Microsoft Excel en la sección anterior.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-CreatingListObject-CreatingListObject.java" >}}
+{{< app/cells/assistant language="java" >}}

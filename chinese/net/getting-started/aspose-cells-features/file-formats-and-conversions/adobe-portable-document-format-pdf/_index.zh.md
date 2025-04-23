@@ -24,3 +24,4 @@ url: /zh/net/adobe-portable-document-format-pdf/
 - 合并单元格，分页符，打印标题
 
 您还可以查看有关Aspose.Cells如何将文档转换为PDF的[详细规范](https://docs.aspose.com/cells/net/convert-excel-workbook-to-pdf/)
+{{< app/cells/assistant language="csharp" >}}

@@ -95,3 +95,4 @@ private static void ListSheets(Workbook workbook)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/List.All.Worksheets.in.a.Workbook.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/p/asposevsto/wiki/Home/)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/List%20All%20Worksheets%20in%20a%20Workbook)
+{{< app/cells/assistant language="csharp" >}}

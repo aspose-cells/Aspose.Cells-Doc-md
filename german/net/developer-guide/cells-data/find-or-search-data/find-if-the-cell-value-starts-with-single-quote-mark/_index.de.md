@@ -16,3 +16,4 @@ Aspose.Cells bietet jetzt die [**Style.QuotePrefix**](https://reference.aspose.c
 Der folgende Beispielcode erklärt, dass die Zeichenfolgen wie Muster und 'Muster nicht mit der [**Cell.StringValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue)-Eigenschaft differenziert werden können. Daher müssen wir die [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix)-Eigenschaft verwenden, um sie zu unterscheiden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindIfCellValueStartsWithSingleQuote-FindIfCellValueStartsWithSingleQuote.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -10,11 +10,11 @@ Aspose.Cells API'leri, bir elektronik tabloda Alt Toplamlar için özel etiketle
 ## **GlobalizationSettings Sınıfı Tanıtımı**
 [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) sınıfı şu anda istenen etiketleri almak için özelleştirilebilen 3 yöntem sunmaktadır veya Pasta grafiği için **Diğer** etiketi oluşturulabilir.
 
-1. [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName(int)): Fonksiyonun toplam adını alır
-1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName(int)): Fonksiyonun genel toplam adını alır
-1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName()): Pasta grafiklerindeki "Diğer" etiketinin adını alır.
+1. [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName-int-): Fonksiyonun toplam adını alır.
+1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName-int-): Fonksiyonun genel toplam adını alır.
+1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--): Pie grafikler için "Diğer" etiketlerinin adını alır.
 ### **Alt toplamlar için özel etiketler**
-[GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) sınıfı, [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName(int)) ve [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName(int)) yöntemlerini geçersiz kılma yoluyla Alt Toplam etiketlerini özelleştirmek için kullanılabilir.
+[GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) sınıfı, [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName-int-) & [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName-int-) yöntemlerinin üzerine yazarak Alt toplam etiketlerini özelleştirmek için kullanılabilir, aşağıda gösterilmektedir.
 
 
 
@@ -33,7 +33,7 @@ Aspose.Cells API'leri, bir elektronik tabloda Alt Toplamlar için özel etiketle
 
 {{% /alert %}} 
 ### **Pasta Grafiği için Diğer Etiket için Özel Metin**
-[GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) sınıfı, Pasta grafiklerinin "Diğer" etiketine özel bir değer vermek için kullanışlı olan [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName()) yöntemini sunar. Aşağıdaki kod parçacığı, varsayılan olarak JVM için belirlenen dil bazında özel bir etiket almak için özel bir sınıf tanımlar ve [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName()) yöntemini geçersiz kılar.
+[GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) sınıfı, [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--) yöntemiyle, Pie grafiklerin "Diğer" etiketi için özel bir değer vermenize olanak tanır. Aşağıdaki kod parçası, özelleştirilmiş bir sınıf tanımlar ve [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--) yöntemini, JVM için varsayılan dil ayarlarına göre özel bir etiket almak üzere geçersiz kılar.
 
 
 
@@ -50,3 +50,4 @@ Aşağıdaki kod parçacığı, yukarıda oluşturulan *CustomSettings* sınıf�
 Makine yerel ayarının Fransa olarak ayarlandığı durumda elde edilen resim aşağıdaki gibidir. Etiket "Diğer"nin *CustomSettings* sınıfında tanımlandığı gibi "Autre" olarak çevrildiğini görebilirsiniz.
 
 ![todo:image_alt_text](using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart_1.png)
+{{< app/cells/assistant language="java" >}}

@@ -141,3 +141,4 @@ Created Time: 5/15/2019 12:46:23 PM
 يرجى ملاحظة أنه عند إزالة التعليق باستخدام Aspose.Cells، فإن الكاتب لا يتم إزالته تلقائيًا. إذا كنت بحاجة إلى إزالة الكاتب أيضًا، يرجى استخدام طريقة ***RemoveAt*** للفئة [**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthorcollection) كما هو موضح في المثال أعلاه.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

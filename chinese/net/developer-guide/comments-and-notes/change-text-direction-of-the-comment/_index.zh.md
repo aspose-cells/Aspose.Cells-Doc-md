@@ -14,3 +14,4 @@ Microsoft Excel允许用户向单元格添加评论以添加额外信息并突�
 Aspose.Cells提供了一个[**Shape.TextDirection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textdirection)属性来设置评论的文本方向。以下示例代码演示了使用[**Shape.TextDirection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textdirection)属性来设置评论的文本方向。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeTextDirection-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

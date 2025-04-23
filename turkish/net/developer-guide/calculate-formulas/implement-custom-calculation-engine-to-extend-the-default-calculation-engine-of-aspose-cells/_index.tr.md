@@ -34,3 +34,4 @@ Lütfen yukarıdaki örnek kodun konsol çıktısını kontrol edin, özel motor
 Çalışma sayfasına yazmadan özel işlevi doğrudan hesaplama
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

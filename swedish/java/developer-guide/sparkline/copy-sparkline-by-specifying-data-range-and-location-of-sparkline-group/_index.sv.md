@@ -33,3 +33,4 @@ Följande skärmbild visar den genererade utdata-Excel-filen av kodexemplet. Som
 Följande kodexempel laddar den angivna käll-Excel-filen enligt skärmbilden ovan, får sedan åtkomst till den första sparklinegruppen och lägger till dataområden och platser inuti sparklinegruppen. Slutligen skriver den utdata-Excel-filen på disk, vilket också visas i skärmbilden ovan.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopySparkline-CopySparkline.java" >}}
+{{< app/cells/assistant language="java" >}}

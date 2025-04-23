@@ -22,3 +22,4 @@ Das folgende Beispiel zeigt die Verwendung der [**HtmlSaveOptions.DisableDownlev
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-DisableDownlevelRevealedCommentsWhileSavingToHTML.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

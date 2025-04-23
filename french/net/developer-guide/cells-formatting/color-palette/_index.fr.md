@@ -33,3 +33,4 @@ L'exemple ci-dessous ajoute une couleur personnalisée (Orchid) à la palette av
 La palette ne contient que 56 couleurs. Lorsque vous ajoutez une couleur personnalisée à la palette, la palette est modifiée et tout élément dans le fichier formaté avec la couleur précédente est modifié. Ainsi, lorsque vous modifiez la palette, veuillez être très prudent. De plus, il s'agit d'une limitation du format de fichier XLS (Excel 97 - 2003) uniquement car il n'y a pas de telle limitation pour les formats de fichier XLSX ou d'autres formats avancés de MS Excel (2007/2010 ou 2013).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

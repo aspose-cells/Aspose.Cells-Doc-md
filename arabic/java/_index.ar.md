@@ -38,3 +38,4 @@ Aspose.Cells for Java هي مكتبة صفوف برمجية تسمح لمطور�
 - [دليل مرجعي لواجهة برمجة التطبيقات (API) Aspose.Cells for Java](https://reference.aspose.com/cells/java)
 - [منتدى الدعم المجاني Aspose.Cells for Java](https://forum.aspose.com/c/cells/9)
 - [مركز المساعدة لدعم Aspose.Cells for Java المدفوع](https://helpdesk.aspose.com/)
+{{< app/cells/assistant language="java" >}}

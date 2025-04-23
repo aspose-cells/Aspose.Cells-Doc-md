@@ -53,3 +53,4 @@ workbook.save(dataDir + "AsposeTotal.xls");
 Дополнительные сведения см. по адресу [Создание итоговых итогов](/cells/ru/java/creating-subtotals).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

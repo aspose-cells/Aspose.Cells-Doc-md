@@ -11,11 +11,11 @@ url: /ru/java/specify-how-to-cross-string-in-output-pdf-and-image/
 
 - [**TextCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#DEFAULT): Отображение как MS Excel, зависит от следующей ячейки. Если следующая ячейка пуста, строка будет перечеркнута или обрезана.
 
-- [**TextCrossType. CROSS_KEEP**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_KEEP): Отображение строки как при экспорте PDF/изображения MS Excel
+- [**TextCrossType. CROSS_KEEP**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS-KEEP): Отображение строки как при экспорте PDF/изображения MS Excel
 
-- [**TextCrossType.CROSS_OVERRIDE**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_OVERRIDE): Отображение всего текста, пересекая другие ячейки и перезаписывая текст пересекаемых ячеек
+- [**TextCrossType.CROSS_OVERRIDE**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS-OVERRIDE): Отображение всего текста, пересекая другие ячейки и перезаписывая текст пересекаемых ячеек
 
-- [**TextCrossType.STRICT_IN_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#STRICT_IN_CELL): Отображение только строки в пределах ширины ячейки.
+- [**TextCrossType.STRICT_IN_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#STRICT-IN-CELL): Отображение только строки в пределах ширины ячейки.
 
 ## **Указание того, как пересекать строку в выходном PDF/изображении с использованием TextCrossType**
 
@@ -30,3 +30,4 @@ url: /ru/java/specify-how-to-cross-string-in-output-pdf-and-image/
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-RenderUsingTextCrossType-1.java" >}}
+{{< app/cells/assistant language="java" >}}

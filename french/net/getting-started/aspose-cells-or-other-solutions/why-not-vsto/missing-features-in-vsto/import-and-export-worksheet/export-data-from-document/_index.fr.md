@@ -15,3 +15,4 @@ Cette section comporte les sujets suivants:
 
 - [Colonnes contenant des données non fortement typées](/cells/fr/net/columns-containing-non-strongly-typed-data/)
 - [Colonnes contenant des données fortement typées](/cells/fr/net/columns-containing-strongly-typed-data/)
+{{< app/cells/assistant language="csharp" >}}

@@ -14,3 +14,4 @@ url: /ru/net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/
 В следующем образце кода показано, как определить формат файла (с использованием пути к файлу) и проверить его расширение. Вы также можете определить, зашифрован ли файл.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-DetectFileFormatAndEncryption-DetectFileFormatAndEncryption.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

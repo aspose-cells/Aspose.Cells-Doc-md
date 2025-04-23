@@ -69,3 +69,4 @@ Das folgende Beispiel verwendet eine Vorlagendatei im XLSX-Format, ruft die Farb
 
 ## **Erweiterte Themen**
 - [Extrahieren von Themen-Daten aus Excel-Datei](/cells/de/net/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="csharp" >}}

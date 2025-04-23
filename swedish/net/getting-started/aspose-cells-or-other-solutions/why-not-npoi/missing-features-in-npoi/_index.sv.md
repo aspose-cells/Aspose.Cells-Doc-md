@@ -27,3 +27,4 @@ Detta inkluderar följande rika funktioner i Aspose.Cells jämfört med NPOI:
   - [Ställ in fliktabellfärg i Aspose.Cells](/cells/sv/net/set-worksheet-tab-color-in-aspose-cells/)
 
 **Observera:** Många fler exempel kommer snart att finnas tillgängliga.
+{{< app/cells/assistant language="csharp" >}}

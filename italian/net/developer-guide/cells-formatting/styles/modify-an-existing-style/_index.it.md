@@ -52,3 +52,4 @@ Questo esempio utilizza un semplice file di modello Excel in cui è già stato a
 Le modifiche vengono applicate automaticamente all'intervallo a cui è stato applicato lo stile.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ModifyExistingStyle-ModifyThroughSampleExcelFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -12,3 +12,4 @@ url: /ar/java/rendering-slicer/
 
 ![todo:image_alt_text](rendering-slicer_1)
 ## **الكود المثالي**
+{{< app/cells/assistant language="java" >}}

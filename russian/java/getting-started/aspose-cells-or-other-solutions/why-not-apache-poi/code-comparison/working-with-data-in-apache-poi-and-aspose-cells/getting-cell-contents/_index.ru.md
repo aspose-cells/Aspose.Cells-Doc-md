@@ -139,3 +139,4 @@ for (Row row : sheet1) {
 Для получения более подробной информации посетите [Функции работы с данными с использованием Aspose.Cells](/cells/ru/java/data-handling-features-using-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

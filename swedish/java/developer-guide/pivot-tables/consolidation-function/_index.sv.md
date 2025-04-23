@@ -43,3 +43,4 @@ Distinkt antal konsolideringsfunktionen stöds endast av Microsoft Excel 2013.
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="java" >}}

@@ -15,3 +15,4 @@ Aspose.Cells consente di caricare una versione leggera del foglio di lavoro in m
 Il codice di esempio seguente utilizza la classe [**WorkbookMetadata**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata) per modificare le proprietà personalizzate del documento di un foglio di lavoro. Una volta aperto il foglio di lavoro utilizzando la classe [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), sarà possibile leggere le proprietà del documento. Ecco un codice di esempio che utilizza la classe [**WorkbookMetadata**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingWorkbookMetadata-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

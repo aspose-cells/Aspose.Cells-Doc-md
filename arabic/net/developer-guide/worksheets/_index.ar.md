@@ -87,3 +87,4 @@ description: إضافة ورقة عمل، إزالة ورقة عمل وورقة 
 - [الاستفادة من خاصية Sheet.SheetId في الشكل المفتوحXML باستخدام Aspose.Cells](/cells/ar/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [عروض ورقة العمل](/cells/ar/net/worksheet-views/)
 
+{{< app/cells/assistant language="csharp" >}}

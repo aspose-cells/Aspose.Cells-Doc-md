@@ -288,3 +288,4 @@ Por favor, utilice la propiedad Shape.Line.EndArrowheadLength en su lugar.
 ## **APIs renombradas**
 ### **Método Renombrado Workbook.RemoveDigitallySign**
 El método Workbook.RemoveDigitallySign ha sido renombrado a Workbook.RemoveDigitalSignature.
+{{< app/cells/assistant language="csharp" >}}

@@ -19,8 +19,9 @@ Aspose.Cells, ODS dosyasını şifrelemeye ve şifresini çözmeye olanak tanır
 
 ## **ODS Dosyasını Şifrelemek/Şifresini Çözmek:**
 
-Bir ODS dosyasını şifrelemek için, dosyayı yükleyin ve kaydetmeden önce [**WorkbookSettings.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password) geçerli parolayı iletebilirsiniz. Çıkış şifrelenmiş ODS dosyası yalnızca OpenOffice'de açılabilir. Bir ODS dosyasını şifresini çözmek için, [**LoadOptions.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#Password) ile parolayı sağlayarak dosyayı yükleyin. Dosya yüklendikten sonra, gerçek parolayla [**Workbook.unprotect()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotect(java.lang.String)) işlevini çağırın ve son olarak [**Workbook.getWorkbookSettings().setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password) null geçin.
+Bir ODS dosyasını şifrelemek için, dosyayı yükleyin ve kaydetmeden önce [**WorkbookSettings.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password) geçerli parolayı iletebilirsiniz. Çıkış şifrelenmiş ODS dosyası yalnızca OpenOffice'de açılabilir. Bir ODS dosyasını şifresini çözmek için, [**LoadOptions.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#Password) ile parolayı sağlayarak dosyayı yükleyin. Dosya yüklendikten sonra, gerçek parolayla [**Workbook.unprotect()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotect-java.lang.String-) işlevini çağırın ve son olarak [**Workbook.getWorkbookSettings().setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password) null geçin.
 
 ### **Örnek Kod:**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-EncryptingODSFiles-EncryptingODSFiles.java" >}}
+{{< app/cells/assistant language="java" >}}

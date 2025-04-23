@@ -24,3 +24,4 @@ url: /zh/net/export-range-of-cells-in-a-worksheet-to-image/
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-ExportRangeOfCellsInWorksheetToImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -42,3 +42,4 @@ Wir werden voraussichtlich Aspose.Cells für das Laden und Speichern aller Excel
 Bisher haben wir keine Probleme bei der Verwendung der Aspose.Cells-Komponenten gehabt und die Komponente sollte uns bei der Entwicklung sowohl kurz- als auch langfristig Zeit sparen. Support- und Verkaufsfragen wurden schnell und hilfreich beantwortet.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

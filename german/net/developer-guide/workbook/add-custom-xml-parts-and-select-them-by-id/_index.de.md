@@ -24,3 +24,4 @@ Der folgende Beispielscode fügt zunächst vier benutzerdefinierte XML-Teile mit
  Found: CustomXmlPart ID Sport
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

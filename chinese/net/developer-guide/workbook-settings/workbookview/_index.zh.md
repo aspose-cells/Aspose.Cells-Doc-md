@@ -32,3 +32,4 @@ keywords: 如何控制工作簿视图，设置Excel视图，操作工作簿视�
 <br>
 <image src="result.png" width="70%" />
 
+{{< app/cells/assistant language="csharp" >}}

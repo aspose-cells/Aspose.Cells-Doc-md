@@ -11,8 +11,8 @@ Aspose.Cells ermöglicht es Ihnen, die Richtung der Diagramm-Schrittbesschriftun
 
 - [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
 - [**VERTICAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)
-- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)
-- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_270)
+- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90)
+- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-270)
 - [**STACKED**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#STACKED)
 
 Das folgende Bild vergleicht die Quell- und Ausgabedateien
@@ -25,7 +25,7 @@ Das folgende Bild vergleicht die Quell- und Ausgabedateien
 
 ![todo:image_alt_text](change-tick-label-direction_2.jpg)
 
-Der folgende Codeausschnitt ändert die Schrittbesschriftungsrichtung von [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90) nach [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
+Der folgende Codeausschnitt ändert die Schrittbesschriftungsrichtung von [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90) nach [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
 
 ### **Beispielcode**
 
@@ -36,3 +36,4 @@ Die Quell- und Ausgabedateien können von den folgenden Links heruntergeladen we
 [Quelldatei](SampleChangeTickLabelDirection.xlsx)
 
 [Ausgabedatei](outputChangeChartDataLableDirection.xlsx)
+{{< app/cells/assistant language="java" >}}

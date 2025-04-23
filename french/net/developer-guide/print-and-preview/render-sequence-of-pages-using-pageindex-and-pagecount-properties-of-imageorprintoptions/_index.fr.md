@@ -21,3 +21,4 @@ Le code d'exemple suivant charge le [fichier Excel d'exemple](55541781.xlsx) et 
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-RenderLimitedNoOfSequentialPages-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

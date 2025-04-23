@@ -3,8 +3,8 @@ title: Determina se la dimensione carta del foglio di lavoro è automatica
 type: docs
 weight: 90
 url: /it/python-net/determine-if-paper-size-of-worksheet-is-automatic/
-description: Questo articolo spiega come utilizzare il codice di esempio Aspose.Cells per Python via .NET per determinare se il formato carta del foglio di lavoro è automatico in modo programmato.
-keywords: Libreria Python Excel, Python determina se il formato carta del foglio di lavoro è automatico.
+description: Questo articolo spiega come usare il codice di esempio di Aspose.Cells for Python via .NET per determinare se la dimensione del foglio in un foglio di lavoro è automatica programmaticamente.
+keywords: Libreria Excel Python, Python determina se la dimensione del foglio di lavoro è automatica.
 ---
 
 ## **Possibili Scenari di Utilizzo**

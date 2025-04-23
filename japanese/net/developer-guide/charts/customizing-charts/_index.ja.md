@@ -26,3 +26,4 @@ url: /ja/net/customizing-charts/
 現在、Aspose.Cellsでは、パイチャート、折れ線グラフ、列グラフ、列積み上げグラフを組み合わせたカスタムチャートのみがサポートされていますが、将来のリリースでさらに多くのチャートがサポートされる予定です。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

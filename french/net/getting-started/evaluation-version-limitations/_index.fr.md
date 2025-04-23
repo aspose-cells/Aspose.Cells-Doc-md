@@ -68,3 +68,4 @@ Vous ne pouvez pas spécifier à nouveau le chemin du script en ajoutant les lig
 Ces paramètres peuvent être obligatoires dans certains cas/scénarios si vous utilisez le contrôle Aspose.Cells.GridWeb dans des sites Web du système de fichiers ou des extensions MS Ajax, etc.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

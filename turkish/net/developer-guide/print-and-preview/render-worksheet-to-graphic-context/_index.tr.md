@@ -17,3 +17,4 @@ Aspose.Cells artık çalışma sayfasını grafik bağlamına çizebilir. Grafik
 Aşağıdaki kod, Aspose.Cells'i çalışma sayfasını grafik bağlamına çizmek için nasıl kullanacağınızı göstermektedir. Kodu çalıştırdığınızda, kod tüm çalışma sayfasını yazdıracak ve grafik bağlamındaki kalan boş alanı mavi renkle dolduracak ve görüntüyü **OutputImage_out_.png** dosyası olarak kaydedecektir. Bu kodu denemek için herhangi bir kaynak Excel dosyasını kullanabilirsiniz. Daha iyi anlam için lütfen kod içindeki yorumları da okuyun.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-RenderWorksheetToGraphicContext-RenderWorksheetToGraphicContext.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

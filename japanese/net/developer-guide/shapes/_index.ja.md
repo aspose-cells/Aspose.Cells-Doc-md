@@ -375,3 +375,4 @@ Aspose.Cellsはワークシート内のOLEオブジェクトの追加、抽出�
 - [形状テキストオプションの管理](/cells/ja/net/managing-shape-text-options/)
 - [Web拡張 - Office アドイン](/cells/ja/net/web-extensions-office-add-ins/)
 
+{{< app/cells/assistant language="csharp" >}}

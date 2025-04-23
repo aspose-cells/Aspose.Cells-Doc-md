@@ -22,3 +22,4 @@ Aspose.Cells можно использовать для добавления п�
 - [Использование пользовательских XML-частей в Aspose.Cells](/cells/ru/net/use-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

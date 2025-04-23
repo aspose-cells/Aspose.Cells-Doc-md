@@ -12,3 +12,4 @@ PDF逻辑结构提供了一种将有关文档内容结构的信息合并到PDF�
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-ExportDocumentStructureToPdf.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

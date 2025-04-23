@@ -18,3 +18,4 @@ Excel では、範囲を選択し、マウスを右下に移動し、「+」を�
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-CSharp-Data-Range-AutoFill.java" >}}
 
+{{< app/cells/assistant language="java" >}}

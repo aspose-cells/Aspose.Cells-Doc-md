@@ -9,3 +9,4 @@ url: /ru/net/converting-worksheet/
 
 - [Преобразование листа в файл изображения по странице в Aspose.Cells](/cells/ru/net/converting-worksheet-to-image-file-by-page/)
 - [Преобразование листа в изображение в Aspose.Cells](/cells/ru/net/converting-worksheet-to-image-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

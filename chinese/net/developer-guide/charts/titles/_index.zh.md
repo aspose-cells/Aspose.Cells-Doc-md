@@ -33,3 +33,4 @@ Aspose.Cells还允许在运行时管理图表的标题，通过[标题](https://
 
 ## **高级主题**
 - [从ODS文件中读取图表副标题](/cells/zh/net/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="csharp" >}}

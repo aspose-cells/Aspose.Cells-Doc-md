@@ -34,3 +34,4 @@ Gördüğünüz gibi **J1000000** XLSX dosyasındaki oldukça uzağa bir hücred
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Example-StopConversionOrLoadingUsingInterruptMonitor.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

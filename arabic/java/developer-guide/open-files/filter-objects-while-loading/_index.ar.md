@@ -6,36 +6,36 @@ url: /ar/java/filter-objects-while-loading-workbook-or-worksheet/
 ---
 
 ## **سيناريوهات الاستخدام المحتملة**
-يرجى استخدام خاصية [LoadOptions.LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#LoadFilter) أثناء تصفية البيانات من دفتر العمل. ولكن إذا كنت ترغب في تصفية البيانات من أوراق العمل الفردية، فيجب عليك تجاوز خاصية [LoadFilter.startSheet](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#startSheet\(com.aspose.cells.Worksheet\)) . يُرجى تقديم القيمة المناسبة من تعداد [LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) أثناء الإنشاء أو العمل مع [LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter).
+يرجى استخدام خاصية [LoadOptions.LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#LoadFilter) أثناء ترشيح البيانات من جدول البيانات. ولكن إذا كنت ترغب في ترشيح البيانات من أوراق عمل فردية، فسيتعين عليك تجاوز طريقة [LoadFilter.startSheet](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#startSheet-com.aspose.cells.Worksheet-). يرجى تقديم القيمة المناسبة من تعداد [LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) أثناء إنشاء أو العمل مع [LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter).
 
 تعداد [LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) يحتوي على القيم التالية.
 
 - [بلا](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#NONE)
 - [الكل](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#ALL)
-- [خلية فارغة](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_BLANK)
-- [نص الخلية](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_STRING)
-- [القيمة الرقمية للخلية](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_NUMERIC)
-- [خطأ الخلية](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_ERROR)
-- [قيمة منطقية للخلية](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_BOOL)
-- [قيمة الخلية](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_VALUE)
+- [خلية فارغة](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL-BLANK)
+- [نص الخلية](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL-STRING)
+- [القيمة الرقمية للخلية](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL-NUMERIC)
+- [خطأ الخلية](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL-ERROR)
+- [قيمة منطقية للخلية](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL-BOOL)
+- [قيمة الخلية](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL-VALUE)
 - [صيغة](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#FORMULA)
-- [بيانات الخلية](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_DATA)
+- [بيانات الخلية](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL-DATA)
 - [رسم بياني](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CHART)
 - [شكل](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHAPE)
-- [منطقة مدموجة](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#MERGED_AREA)
-- [تنسيق مشروط](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CONDITIONAL_FORMATTING)
-- [التحقق من البيانات](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DATA_VALIDATION)
-- [جدول محوري](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#PIVOT_TABLE)
+- [منطقة مدموجة](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#MERGED-AREA)
+- [تنسيق مشروط](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CONDITIONAL-FORMATTING)
+- [التحقق من البيانات](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DATA-VALIDATION)
+- [جدول محوري](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#PIVOT-TABLE)
 - [جدول](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#TABLE)
 - [روابط تشعبية](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#HYPERLINKS)
-- [إعدادات الورقة](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET_SETTINGS)
-- [بيانات الورقة](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET_DATA)
-- [إعدادات الكتاب](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#BOOK_SETTINGS)
+- [إعدادات الورقة](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET-SETTINGS)
+- [بيانات الورقة](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET-DATA)
+- [إعدادات الكتاب](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#BOOK-SETTINGS)
 - [الإعدادات](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SETTINGS)
-- [خريطة XML](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#XML_MAP)
+- [خريطة XML](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#XML-MAP)
 - [الهيكل](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#STRUCTURE)
-- [خصائص المستند](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DOCUMENT_PROPERTIES)
-- [الأسماء المحددة](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)
+- [خصائص المستند](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DOCUMENT-PROPERTIES)
+- [الأسماء المحددة](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED-NAMES)
 - [VBA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#VBA)
 - [النمط](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#STYLE)
 ## **كائنات تصفية أثناء تحميل السجل**
@@ -58,3 +58,4 @@ url: /ar/java/filter-objects-while-loading-workbook-or-worksheet/
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-FilterObjectsLoadingWorksheets-1.java" >}}
+{{< app/cells/assistant language="java" >}}

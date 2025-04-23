@@ -20,7 +20,7 @@ url: /ar/java/dealing-with-font-settings/
 ## **تكوين إعدادات الخط**
 توفر Aspose.Cells صنفًا، [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) الذي يمثل ملف Microsoft Excel. يحتوي صنف [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) على [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) الذي يسمح بالوصول إلى كل ورقة عمل في ملف Excel. تُمثّل ورقة العمل باستخدام صنف [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). يوفر صنف [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). كل عنصر في مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) يمثل كائن من صنف [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell).
 
-توفر Aspose.Cells صنف [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) الخاص بطريقة [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) التي تستخدم لتعيين تنسيق الخلية. كما يوفر كائن صنف [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) خصائص لتكوين إعدادات الخط.
+توفر Aspose.Cells فئة [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) وطريقة [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle-com.aspose.cells.Style-)، والتي تُستخدم لضبط تنسيق الخلية. كما توفر كائنات فئة [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) خصائص لتكوين إعدادات الخط.
 
 يوضح هذا المقال كيفية:
 
@@ -53,21 +53,21 @@ url: /ar/java/dealing-with-font-settings/
 |[SINGLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#SINGLE)|تسطير أحادي|
 |[DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE)|خط مزدوج تحته|
 |[ACCOUNTING](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#ACCOUNTING)|خط أحادي تحته للمحاسبة|
-|[DOUBLE_ACCOUNTING](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE_ACCOUNTING)|خط مزدوج للمحاسبة تحته|
+|[DOUBLE_ACCOUNTING](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE-ACCOUNTING)|تسطير حسابي مزدوج|
 |[DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH)|تحته مشطوف|
-|[DASH_DOT_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_DOT_DOT_HEAVY)|تحته خط متقطع سميك نقطة نقطة|
-|[DASH_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_DOT_HEAVY)|تحته خط متقطع سميك نقطة|
-|[DASHED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASHED_HEAVY)|تحته خط متقطع سميك|
-|[DASH_LONG](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG)|تحته خط طويل متقطع|
-|[DASH_LONG_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG_HEAVY)|تحته خط طويل سميك متقطع|
-|[DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DASH)|شَر{شَرشَرِ} Dash-Dot Underline|
-|[DOT_DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DOT_DASH)|شَر{شَرشَرِ} Dash-Dot-Dot Underline|
+|[DASH_DOT_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH-DOT-DOT-HEAVY)|تسطير دقيقتين دايرين سميكتين|
+|[DASH_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH-DOT-HEAVY)|تسطير داير سميك|
+|[DASHED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASHED-HEAVY)|تسطير منقوط سميك|
+|[DASH_LONG](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH-LONG)|تسطير طويل منقوط|
+|[DASH_LONG_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH-LONG-HEAVY)|تسطير طويل منقوط سميك|
+|[DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT-DASH)|تسطير نقطي داير|
+|[DOT_DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT-DOT-DASH)|تسطير نقطتين داير|
 |[DOTTED](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED)|شَر{شَرشَرِ} Dotted Underline|
-|[DOTTED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED_HEAVY)|شَر{شَرشَرِ} Thick Dotted Underline|
+|[DOTTED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED-HEAVY)|تسطير منقوط سميك|
 |[HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#HEAVY)|شَر{شَرشَرِ} Thick Underline|
 |[WAVE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVE)|شَر{شَرشَرِ} Wave Underline|
-|[WAVY_DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_DOUBLE)|شَر{شَرشَرِ} Double Wave Underline|
-|[WAVY_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_HEAVY)|شَر{شَرشَرِ} Heavy Wave Underline|
+|[WAVY_DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY-DOUBLE)|تسطير متموج مزدوج|
+|[WAVY_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY-HEAVY)|تسطير متموج سميك|
 |[WORDS](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WORDS)|تحت الخط Underline Non-Space Characters Only|
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontUnderlineType-SettingFontUnderlineType.java" >}}
 
@@ -102,3 +102,4 @@ url: /ar/java/dealing-with-font-settings/
 ## **مواضيع متقدمة**
 - [تطبيق تأثيرات الرمز العلوي والرمز السفلي على الخطوط](/cells/ar/java/apply-superscript-and-subscript-effects-on-fonts/)
 - [الحصول على قائمة الخطوط المستخدمة في جدول بيانات أو كتاب عمل](/cells/ar/java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
+{{< app/cells/assistant language="java" >}}

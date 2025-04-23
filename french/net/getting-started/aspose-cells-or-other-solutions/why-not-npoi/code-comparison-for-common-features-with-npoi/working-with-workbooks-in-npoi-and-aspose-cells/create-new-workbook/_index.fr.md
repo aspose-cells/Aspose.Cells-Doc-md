@@ -43,3 +43,4 @@ sw.Close();
 Téléchargez **Créer un nouveau classeur** à partir de l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Create.New.Workbook.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

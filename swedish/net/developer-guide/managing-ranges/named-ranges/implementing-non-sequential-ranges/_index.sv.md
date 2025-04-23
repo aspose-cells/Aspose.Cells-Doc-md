@@ -16,3 +16,4 @@ Kodexemplet nedan visar hur du skapar ett namngivet icke-sekventiellt område me
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ImplementingNonSequencedRanges-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

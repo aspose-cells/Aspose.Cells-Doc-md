@@ -16,3 +16,4 @@ Bazen istenen aralık dışındaki hücre değerlerini yok sayarak bir aralıkta
 Aspose.Cells, veri arama sırasında bir aralığı belirtmek için [**FindOptions.SetRange()**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/methods/setrange) yöntemini sağlar. Aşağıdaki kod örneği bir aralıkta veri arama ve değiştirme işlemini göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SearchReplaceDataInRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -16,7 +16,7 @@ url: /zh/java/managing-controls/
 - [**getTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame) 方法返回用于调整文本框内容的 [**MsoTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame) 对象。
 - [**setPlacement**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement) 方法指定放置类型。
 - [**setFont**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Font) 方法指定字体属性。
-- [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink(java.lang.String)) 方法为文本框添加超链接。
+- [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink-java.lang.String-) 方法为文本框添加超链接。
 - [**FillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#FillFormat) 属性返回用于设置文本框填充格式的 [**MsoFillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoFillFormat) 对象。
 - [**LineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#LineFormat) 属性返回用于设置文本框线条样式和粗细的 [**MsoLineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoLineFormat) 对象。
 - [**setText**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text) 方法指定文本框的输入文本。
@@ -335,3 +335,4 @@ Aspose.Cells允许您在工作表中绘制椭圆形状。创建简单和填充�
 ## **高级主题**
 - [使用Aspose.Cells添加ActiveX控件](/cells/zh/java/add-activex-controls-using-aspose-cells/)
 - [移除ActiveX控件](/cells/zh/java/remove-activex-control/)
+{{< app/cells/assistant language="java" >}}

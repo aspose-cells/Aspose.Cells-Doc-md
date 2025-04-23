@@ -22,3 +22,4 @@ Följande exempelkod laddar [käll-Excelfilen](5115424.xlsx) och får åtkomst t
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ReflectionEffectOfShape-ReflactionEffectOfShape.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

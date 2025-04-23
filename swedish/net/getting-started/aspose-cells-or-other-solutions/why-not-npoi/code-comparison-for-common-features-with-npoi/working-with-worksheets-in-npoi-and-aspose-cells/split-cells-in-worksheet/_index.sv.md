@@ -63,3 +63,4 @@ file.Close();
 För mer information, besök [Arbeta med kalkylblad](/cells/sv/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

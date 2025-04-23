@@ -44,3 +44,4 @@ Preserve Formatting: False
 توفر Aspose.Cells خيار قراءة العنوان أي نطاق نتائج الخلايا لجدول الاستعلام. يُظهر الكود التالي هذه الميزة من خلال قراءة عنوان نطاق النتائج لجدول الاستعلام. يمكن تنزيل الملف النموذجي من [هنا](72417290.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAddressOfResultRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

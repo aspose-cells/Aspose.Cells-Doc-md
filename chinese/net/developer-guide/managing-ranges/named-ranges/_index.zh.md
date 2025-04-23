@@ -30,3 +30,4 @@ Aspose.Cells 提供了与 Microsoft Excel 相同的功能，用于添加工作�
 - [格式和修改命名区域](/cells/zh/net/format-and-modify-named-ranges/)
 - [获取带有外部链接的范围](/cells/zh/net/get-range-with-external-links/)
 - [实现非连续范围](/cells/zh/net/implementing-non-sequential-ranges/)
+{{< app/cells/assistant language="csharp" >}}

@@ -3,19 +3,19 @@ title: Satırları Sütunları ve Kaydırma Çubuklarını Göster ve Gizle
 type: docs
 weight: 20
 url: /tr/python-net/show-and-hide-rows-columns-and-scroll-bars/
-description: Bu makale, Aspose.Cells for Python via .NET API sini kullanarak Excel çalışma sayfası satırlarını ve sütunlarını programlı olarak görüntülemeyi ve gizlemeyi göstermektedir. Kaydırma çubuklarının görünürlüğü ayarlanabilir ve birkaç satır ve sütun gizlenebilir.
-keywords: Python Excel Kütüphanesi, Python da satır ve sütunları gösterme, Python da satır ve sütunları gizleme, Python da dikey kaydırma çubuğunu gösterme, Python da yatay kaydırma çubuğunu gösterme, Python da dikey kaydırma çubuğunu gizleme, Python da yatay kaydırma çubuğunu gizleme, Python da Satırları ve Sütunları Gösterme ve Gizleme.
+description: Bu makale, Aspose.Cells for Python via .NET API kullanarak Excel çalışma sayfası satır ve sütunlarını programatik olarak gösterip gizleme işlemini gösterir. Ayrıca, kaydırıcıların görünürlüğü ayarlanabilir ve birkaç satır ve sütun gizlenebilir.
+keywords: Python Excel Kütüphanesi, Python satır ve sütunları göster, Python satır ve sütunları gizle, Python dikey kaydırıcıyı göster, Python yatay kaydırıcıyı göster, Python dikey kaydırıcıyı gizle, Python yatay kaydırıcıyı gizle, Python Satırları, Sütunları ve Kaydırıcıları Göster ve Gizle.
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET, bir çalışma sayfasının Satırlar, Sütun ve Kaydırma Çubuklarının görünürlüğünü kontrol etme yolları sağlar.
+Aspose.Cells for Python via .NET, çalışma sayfasının Satır, Sütun ve Kaydırıcılarının görünürlüğünü kontrol eden yollar sağlar.
 
 {{% /alert %}}
 
 ## **Satır ve Sütunları Göster ve Gizle**
 
-Aspose.Cells for Python via .NET, bir Microsoft Excel dosyasını temsil eden [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfını sağlar. [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) koleksiyonunu içerir. Bir çalışma sayfası [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) sınıfı, çalışma sayfasındaki tüm hücreleri temsil eden bir [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells) koleksiyonunu sağlar. [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells) koleksiyonu, çalışma sayfasındaki satırları veya sütunları yönetmek için birçok yöntem sağlar. Bunlardan bazıları aşağıda tartışılmıştır.
+Aspose.Cells for Python via .NET, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfını sağlar; bu sınıf, bir Excel dosyasını temsil eder. [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfı, gelişticilerin Excel dosyasındaki her çalışma sayfasına erişmesini sağlayan [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) koleksiyonunu içerir.
 
 ### **Satır ve Sütunları Göster**
 
@@ -57,11 +57,11 @@ Kaydırma çubukları, herhangi bir dosyanın içeriğini gezinmek için kullan�
 - Dikey kaydırma çubukları
 - Yatay kaydırma çubukları
 
-Microsoft Excel ayrıca kullanıcıların çalışma sayfası içeriğinde kaydırma yapmalarını sağlamak için yatay ve dikey kaydırma çubukları sağlar. Aspose.Cells for Python via .NET kullanarak geliştiriciler, Excel dosyalarında hem yatay hem de dikey kaydırma çubuklarının görünürlüğünü kontrol edebilirler.
+Microsoft Excel ayrıca, kullanıcıların çalışma sayfası içeriğinde kaydırma yapabilmesi için yatay ve dikey kaydırıcılar sağlar. Aspose.Cells for Python via .NET kullanarak, geliştiriciler her iki kaydırıcı türünün görünürlüğünü kontrol edebilirler.
 
 ### **Kaydırma Çubuklarının Görünürlüğünü Kontrol Etmek**
 
-Aspose.Cells for Python via .NET, bir Excel dosyasını temsil eden [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfını sağlar. [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfı, bir Excel dosyasını yönetmek için geniş bir özellik ve metod yelpazesi sağlar. Kaydırma çubuklarının görünürlüğünü kontrol etmek için [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfının [**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) ve [**WorkbookSettings.is_h_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_h_scroll_bar_visible) özelliklerini kullanın. [**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) ve [**WorkbookSettings.is_h_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_h_scroll_bar_visible), yalnızca **true** veya **false** değerlerini depolayabilen Boolean özelliklerdir.
+Aspose.Cells for Python via .NET, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) adlı bir sınıf sağlar ve bu sınıf, bir Excel dosyasını temsil eder. [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfı, bir Excel dosyasını yönetmek için geniş özellik ve yöntemler sunar. Kaydırıcıların görünürlüğünü kontrol etmek için, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfının [**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) ve [**WorkbookSettings.is_h_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_h_scroll_bar_visible) özelliklerini kullanın. [**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) ve [**WorkbookSettings.is_h_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_h_scroll_bar_visible) Boolean özellikleridir ve sadece **doğru** veya **yanlış** değerleri depolayabilirler.
 
 #### **Kaydırma Çubuklarını Görünür Yapma**
 

@@ -1,10 +1,10 @@
 ---
-title: как запустить Aspose.Cells.GridJs в docker
+title: как запустить Aspose.Cells.GridJs в Docker
 type: docs
 weight: 250
 url: /ru/java/aspose-cells-gridjs/how-to-build-online-excel-editor/
-keywords: GridJs, docker
-description: Эта статья расскажет, как запустить GridJs в docker для создания онлайн приложения для редактирования или просмотра excel файлов.
+keywords: GridJs, Docker
+description: Эта статья описывает, как запускать GridJs в Docker для создания онлайн редактора или просмотрщика Excel.
 aliases:
   - /java/aspose-cells-gridjs/docker/
   - /java/aspose-cells-gridjs/run-aspose-cells-gridjs-in-docker/
@@ -21,41 +21,37 @@ aliases:
 
 ## Предварительные требования
 
-Убедитесь, что у вас установлен Docker на вашем компьютере. Вы можете скачать и установить Docker с [официального сайта Docker](https://www.docker.com/get-started).
+Убедитесь, что Docker установлен на вашем компьютере. Вы можете скачать и установить Docker с [официального сайта Docker](https://www.docker.com/get-started).
 
 ## Шаг 1: Создайте Dockerfile
 
-Создайте файл `Dockerfile` в вашем проекте [directory](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs). `Dockerfile` должен содержать инструкции о том, как создать ваш образ Docker.
+Создайте файл с именем `Dockerfile` в каталоге вашего проекта. `Dockerfile` должен содержать инструкции по сборке вашего образа Docker.
 
-## Шаг 2: Написать Dockerfile для GridJs
+## Шаг 2: Напишите Dockerfile для GridJs
 
-Вот пример [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs/Dockerfile) для демонстрации GridJs с java-приложением:
+Ниже приведен пример [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs/Dockerfile) для демонстрации GridJs с Java-приложением:
 
 ```dockerfile
-# Use the jdk8 image
-FROM eclipse/ubuntu_jdk8
+# Use the maven image to build jar file
+FROM maven:3.8.6-amazoncorretto-17 AS build
 WORKDIR /usr/src/app
 
 
 # copy local Maven files to container
-COPY mvnw .
 COPY .mvn .mvn
 COPY pom.xml .
 COPY src src
 
 # build application with maven
-RUN ./mvnw package -DskipTests
+RUN mvn  package -DskipTests
 
-# Set the user
-USER root
 
-#RUN ls -l *
+# Use the jdk8 image as the basic docker image
+FROM eclipse/ubuntu_jdk8
+WORKDIR /app
+# copy build jar file to target container 
+COPY --from=build /usr/src/app/target/*.jar /app/app.jar
 
-# copy the build output jar to container
-COPY  target/*.jar /app/app.jar
-
-# delete build source to reduce storage usage
-RUN rm -rf target && rm -rf .mvn && rm -rf src
 # web port
 EXPOSE 8080
 # if you want display better like in windows ,you need to install kinds of fonts in /usr/share/fonts/ 
@@ -65,6 +61,8 @@ EXPOSE 8080
 # COPY fonts/* /usr/share/fonts/
 # the basic file path which contains the spread sheet files 
 RUN mkdir -p /app/wb
+# the file path to store the uploaded files
+RUN mkdir -p /app/uploads
 # the cache file path for GridJs
 RUN mkdir -p /app/grid_cache/streamcache
 # we provide some sample spread sheet files in demo 
@@ -75,40 +73,49 @@ ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app/app.ja
 ```
 
 ## Шаг 3: Создание образа Docker
-Создайте образ Docker: Из терминала выполните следующую команду для создания образа Docker:
+Создайте образ Docker: В терминале выполните следующую команду для сборки вашего образа Docker:
 ```bash
 docker build -t gridjs-demo-java .
 ```
-вы можете заменить gridjs-demo-java на название, которое вы хотите дать вашему образу Docker.
+вы можете заменить gridjs-demo-java на название, которое хотите дать вашему образу Docker.
 
 ## Шаг 4: Запуск контейнера Docker
-После построения образа вы можете запустить контейнер с помощью следующей команды:
+После создания образа, вы можете запустить контейнер с помощью следующей команды:
 
 ```bash
-docker run -d -p 8080:80 --name gridjs-demo-container  gridjs-demo-java
+docker run -d -p 8080:80   -v C:/path/to/license.txt:/app/license --name gridjs-demo-container  gridjs-demo-java
 ```
-Объяснение опций команды Docker Run
--d: Запустить контейнер в отсоединенном режиме (в фоновом режиме).
--p 8080:80: Сопоставление порта 80 в контейнере с портом 8080 на рабочей машине.
---name gridjs-demo-container: Присвоить имя контейнеру.
 
-## Шаг 5: Проверка работы контейнера
-Чтобы проверить работу вашего контейнера, используйте следующую команду:
+или просто запустите демонстрацию в режиме пробного использования:
+
+
+```bash
+docker run -d -p 8080:80  --name gridjs-demo-container  gridjs-demo-java
+```
+
+Объяснение опций команды Docker Run
+-d: Запустить контейнер в фоновом режиме (отделенно).
+-p 8080:80: сопоставить порт 80 в контейнере с портом 8080 на хосте.
+-v C:/path/to/license.txt:/app/license: Привязка файла лицензии с хост-машины внутри контейнера.
+--name gridjs-demo-container: Назначить имя контейнеру.
+
+## Шаг 5: Проверка, что контейнер запущен
+Чтобы проверить, запущен ли ваш контейнер, используйте следующую команду:
 
 ```bash
 docker ps
 ```
-Это перечислит все работающие контейнеры. Вы увидите в списке ваш контейнер вместе с его названием и статусом.
+Это выведет список всех запущенных контейнеров. Вы должны увидеть ваш контейнер с его именем и статусом.
 
 ## Шаг 6: Доступ к веб-приложению
 
-Откройте веб-браузер и перейдите по адресу `http://localhost:8080/gridjsdemo/index`. Вы увидите, что ваше приложение работает.
+Откройте веб-браузер и перейдите по адресу `http://localhost:8080/gridjsdemo/index`. Вы должны увидеть ваше приложение запущенным.
 
 ## Дополнительные команды
 
 ### Остановка контейнера
 
-Чтобы остановить запущенный контейнер, используйте следующую команду:
+Для остановки запущенного контейнера используйте следующую команду:
 
 ```bash
 docker stop gridjs-demo-container

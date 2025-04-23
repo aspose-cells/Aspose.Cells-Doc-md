@@ -79,3 +79,4 @@ Tuttavia, se hai bisogno di eseguire operazioni complesse sui documenti, come al
 - Converti un documento in PDF o XPS in modo che appaia esattamente come Microsoft Excel l'avrebbe convertito.
 - Sviluppa un'applicazione .NET o Java.
 
+{{< app/cells/assistant language="csharp" >}}

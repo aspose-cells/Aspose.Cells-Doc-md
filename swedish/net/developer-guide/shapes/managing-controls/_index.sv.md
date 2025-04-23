@@ -381,3 +381,4 @@ Följande exempel visar hur du ska lägga till en gruppbox och gruppera kontroll
 - [Lägg till ActiveX-kontroller med hjälp av Aspose.Cells](/cells/sv/net/add-activex-controls-using-aspose-cells/)
 - [Ta bort ActiveX-kontroll](/cells/sv/net/remove-activex-control/)
 - [Uppdatera ActiveX ComboBox Control](/cells/sv/net/update-activex-combobox-control/)
+{{< app/cells/assistant language="csharp" >}}

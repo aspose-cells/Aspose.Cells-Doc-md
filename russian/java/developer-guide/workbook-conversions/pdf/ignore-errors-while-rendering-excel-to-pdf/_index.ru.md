@@ -18,3 +18,4 @@ url: /ru/java/ignore-errors-while-rendering-excel-to-pdf/
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-IgnoreErrorsWhileRenderingExcelToPdf.java" >}}
+{{< app/cells/assistant language="java" >}}

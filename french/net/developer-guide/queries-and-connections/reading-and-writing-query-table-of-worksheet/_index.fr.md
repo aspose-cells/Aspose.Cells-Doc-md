@@ -44,3 +44,4 @@ Preserve Formatting: False
 Aspose.Cells offre la possibilité de lire l'adresse, c'est-à-dire la plage de résultats des cellules pour une table de requête. Le code suivant démontre cette fonctionnalité en lisant l'adresse de la plage de résultats pour une table de requête. Le fichier d'exemple peut être téléchargé [ici](72417290.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAddressOfResultRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

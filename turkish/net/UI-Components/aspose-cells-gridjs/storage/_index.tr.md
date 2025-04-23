@@ -13,19 +13,20 @@ aliases:
 
 # GridJs Depolama ile Çalışmak
 ## genel dosya işlemi 
+
 Bir elektronik tablo dosyası içe aktarıldıktan sonra,
 
-GridJs, **`Config.FileCacheDirectory`** klasöründe belirtilen uid ile bir önbellek dosyası oluşturacaktır,
+GridJs, belirli uid ile GridCacheForStream uygulamasına göre bir önbellek dosyası oluşturacaktır,
 
 [Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/net/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat") formatında,
 
-GridJs ayrıca istemci arayüzünde daha sonra şekilleri/görüntüleri göstermek için bir zip arşiv dosyasına tüm şekilleri/görüntüleri kaydeder, **`Config.PictureCacheDirectory`** klasörüne.
+GridJs ayrıca tüm şekil/resimleri zip arşiv dosyasına kaydeder ve bu dosyayı önbelleğe alır, böylece müşteri arayüzünde şekil/resimler daha sonra görüntülenebilir.
 
 ve istemci arayüzünde her güncelleme işleminden sonra,
 
 örneğin hücre değeri ayarla, hücre stili ayarlama, vb.,
 
-GridJs istemci tarafı js, bir GüncellemeHücresi işlemi yapmak için bir denetleyici eylemi tetikler.
+GridJs istemci tarafı js, kontrolcü eylemini tetikler ve güncelleme işlemi yapar.
 
 Bu eylem sırasında, Bir GüncellemeHücre yöntemi sırasında önbellek dosyasına bir kayıt gerçekleşecektir.
 ```C#   
@@ -42,7 +43,7 @@ Bu eylem sırasında, Bir GüncellemeHücre yöntemi sırasında önbellek dosya
 ```
 ### önbellek dosya aslında nerede 
 
-A. Eğer GridCacheForStream uygularsak ve GridJsWorkbook.CacheImp'i ayarlarsak.
+A. Kendiniz GridCacheForStream uygularsanız.
 örneğin aşağıdaki kodda **"D:\temp"** dizinine sadece önbellek dosyasını yerleştirebilir ve alabiliriz.
 ```C#
 Config.FileCacheDirectory=@"D:\temp";
@@ -50,6 +51,16 @@ GridJsWorkbook.CacheImp=new LocalFileCache();
 public class LocalFileCache  : GridCacheForStream
     {
 
+        public LocalFileCache()
+        {
+            string streampath = Config.FileCacheDirectory;
+            if (!Directory.Exists(streampath))
+            {
+
+                Directory.CreateDirectory(streampath);
+
+            }
+        }
         /// <summary>
         /// Implement this method to savecache,save the stream to the cache object with the key id.
         /// </summary>
@@ -77,28 +88,27 @@ public class LocalFileCache  : GridCacheForStream
             FileStream fs = new FileStream(filepath, FileMode.Open);
             return fs;
         }
-		...
+...
 ```
-B. Eğer GridJsWorkbook.CacheImp'i ayarlamazsak,
+B. GridJsWorkbook.CacheImp ayarlamazsanız, 
 
-GridJs, **`Config.FileCacheDirectory`** içindeki, yani ayarlayabileceğimiz varsayılan önbellek dizininde bir dosya oluşturur ve kaydeder.
+GridJs zaten varsayılan bir uygulamaya sahiptir.
+
+GridJs, önbellek dosyasını aşağıdaki PATH'te oluşturacak ve kaydedecek: **`Config.FileCacheDirectory/streamcache`** .
 
 ### güncellenmiş sonuç dosyasını nasıl alınır
-#### 1. dosya için belirtilen bir uid 
+#### 1. Dosya için belirli bir uid oluşturma 
 Dosya ve uid arasında belirli bir eşleme bağlantısının olması gerektiğinden emin olun, 
 
-bir dosya adı için her zaman aynı uid'yi alabilirsiniz, rastgele oluşturulmaz.
+Örneğin 
 
-Örneğin, sadece dosya adını kullanmak yeterlidir.
 ```C#
-//in controller  
-...
-        public ActionResult Uidtml(String filename)
-        {
 
-            return Redirect("~/xspread/uidload.html?file=" + filename + "&uid=" +  Path.GetFileNameWithoutExtension(filename));
-        }
- ...
+...     
+        //generte a uid for the file
+        String uid = GridJsWorkbook.GetUidForFile(filename)
+...
+        //get JSON result which will be used in client ui for the file by filename and uid
         public ActionResult DetailFileJsonWithUid(string filename,string uid)
         {
             String file = Path.Combine(TestConfig.ListDir, filename);
@@ -111,75 +121,15 @@ bir dosya adı için her zaman aynı uid'yi alabilirsiniz, rastgele oluşturulma
                 wbj.ImportExcelFile(uid, wb);
                 sb = wbj.ExportToJsonStringBuilder(filename);
             }
-
             return Content(sb.ToString(), "text/plain", System.Text.Encoding.UTF8);
         }
 ```
 
-#### 2. istemci arayüzü işlemi ile senkronize olun
-Aslında bazı istemci arayüzü işlemleri için,
 
-örneğin:
-
-etkin sayfayı başka bir sayfaya değiştir,
-
-resmin pozisyonunu değiştir,
-
-resmi döndür/boyutlandır, vb.
-
-GüncellemeHücre eylemi tetiklenmeyecektir.
-
-Bu nedenle, güncellenmiş dosyayı istemci arayüzünün gösterdiği gibi almak istiyorsak,
-
-bu istemci arayüzü işlemlerini senkronize etmek için kaydetme işleminden önce bir birleştirme işlemi yapmamız gerekmektedir.
-```javascript
-//in the js
-  function save() {
-            if (!xs.buffer.isFinish()) {
-              alert('updating is inprogress,please try later');
-                return;
-            }
-            let datas = xs.datas;
-            delete datas.history;
-            delete datas.search;
-            delete datas.images;
-            delete datas.shapes;
-
-        var jsondata = {
-          sheetname: xs.sheet.data.name,
-          actrow: xs.sheet.data.selector.ri,
-          actcol: xs.sheet.data.selector.ci,
-          datas: xs.getUpdateDatas(),
-        };
-
-        const data = {
-          p: JSON.stringify(jsondata),
-          uid: uniqueid,
-        };
-		....
-		//go on to do ajax post to trigger controller action
-```
+#### 2. Uid ile önbellekten dosya alın
+Örneğin: indirme işlemi sırasında, sadece uid ve dosya adıyla önbellek dizininden alınabilir.
 ```C#
-//in controller action 
-  GridJsWorkbook wb = new GridJsWorkbook();
-  wb.MergeExcelFileFromJson(uid, p);
-  //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
-  wb.SaveToXlsx(Path.Combine(Config.FileCacheDirectory, uid));
-```         
-#### 3. önbellekten dosyayı alın
-örneğin: indirme işlemi için, uid ile doğrudan önbellek dizininden alabilirsiniz.
-```C#
-//in controller  
-
-        public async Task<IActionResult> DownloadfromBytes(string uid,string ext)
-        {
-            byte[] byteArr = await System.IO.File.ReadAllBytesAsync(Path.Combine(Config.FileCacheDirectory, uid) );
-            string mimeType = "application/octet-stream";
-            return new FileContentResult(byteArr, mimeType)
-            {
-                FileDownloadName = uid+ ext
-            };
-        }
+	 Stream fileStream = GridJsWorkbook.CacheImp.LoadStream(uid + "/" + filename);
 ```
 
 Daha fazla detaylı bilgi için buradaki örneği kontrol edebilirsiniz:

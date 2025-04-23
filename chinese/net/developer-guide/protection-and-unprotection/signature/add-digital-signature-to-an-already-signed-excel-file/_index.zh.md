@@ -26,3 +26,4 @@ Aspose.Cells 提供了一个方法，您可以使用它向已经签名的Excel�
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AddDigitalSignatureToAnAlreadySignedExcelFile.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -13,12 +13,13 @@ Dans Microsoft Excel, vous pouvez ajouter une référence de bibliothèque au pr
 
 ![todo:image_alt_text](add-a-library-reference-to-vba-project-in-workbook_1.png)
 
-Mais parfois, vous devez ajouter ou enregistrer la référence de bibliothèque dans le projet VBA via le code. Vous pouvez le faire en utilisant la méthode [**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String)) d'Aspose.Cells.
+Mais parfois, vous devez ajouter ou enregistrer la référence de bibliothèque dans le projet VBA via le code. Vous pouvez le faire en utilisant la méthode [**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference-java.lang.String-java.lang.String-) d'Aspose.Cells.
 
 {{% /alert %}}
 
 ## **Comment ajouter une référence de bibliothèque au projet VBA dans le classeur**
 
-L'exemple de code suivant ajoute ou enregistre deux références de bibliothèque dans le projet VBA du classeur en utilisant la méthode [**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String)).
+L'exemple de code suivant ajoute ou enregistre deux références de bibliothèque dans le projet VBA du classeur en utilisant la méthode [**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference-java.lang.String-java.lang.String-).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddLibraryReference-AddLibraryReference.java" >}}
+{{< app/cells/assistant language="java" >}}

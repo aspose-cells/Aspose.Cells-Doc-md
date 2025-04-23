@@ -34,3 +34,4 @@ Questo articolo discute i casi d'uso comuni di Aspose.Cells.
 Abbiamo discusso di alcuni dei casi d'uso più comuni di Aspose.Cells in un ambiente basato sul web. Ma Aspose.Cells è altrettanto utile anche nelle applicazioni desktop.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

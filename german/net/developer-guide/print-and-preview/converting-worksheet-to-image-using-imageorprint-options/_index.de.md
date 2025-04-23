@@ -57,3 +57,4 @@ Ein TIFF-Bild kann mehr als einen Frame enthalten. Sie können die gesamte Arbei
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingImageOrPrintOptions-UseWorkbookRenderForImageConversion-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

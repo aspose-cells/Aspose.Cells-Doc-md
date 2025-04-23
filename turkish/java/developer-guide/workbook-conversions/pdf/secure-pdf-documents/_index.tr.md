@@ -33,3 +33,4 @@ Aşağıdaki örnek kod, Aspose.Cells for Java API'si ile güvenli PDF dosyalar�
 Eğer elektronik tablo formüller içeriyorsa, bunu PDF'e dönüştürmeden hemen önce [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--)'ı çağırmanız en iyisidir. Bu, formül bağımlı değerlerin yeniden hesaplanmasını ve doğru değerlerin PDF'de gösterilmesini sağlar.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

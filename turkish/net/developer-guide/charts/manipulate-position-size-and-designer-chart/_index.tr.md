@@ -45,3 +45,4 @@ Bu örnekte, bir çizgi grafiği manipüle edeceğiz. Mevcut grafiğe bazı veri
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-ModifyLineChart-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

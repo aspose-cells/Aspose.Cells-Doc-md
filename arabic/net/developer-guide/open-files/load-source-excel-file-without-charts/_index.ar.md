@@ -16,3 +16,4 @@ url: /ar/net/load-source-excel-file-without-charts/
 الكود النموذجي التالي يقوم بتحميل ملف إكسل عيني بدون رسوم بيانية ويحفظه في تنسيق PDF الناتج.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-LoadTemplateWithoutCharts.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

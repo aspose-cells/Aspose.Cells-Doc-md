@@ -29,3 +29,4 @@ workbook.save("AsposeConvert.pdf", SaveFormat.PDF);
 Дополнительные сведения см. в разделе [Преобразование файлов Excel в PDF](/java/converting-excel-to-pdf-files).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

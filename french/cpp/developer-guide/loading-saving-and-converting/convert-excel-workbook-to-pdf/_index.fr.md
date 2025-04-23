@@ -14,8 +14,6 @@ Aspose.Cells prend en charge la conversion de fichiers Excel en PDF et maintient
 
 Aspose.Cells écrit directement les informations sur l'API et le numéro de version dans les documents de sortie. Par exemple, lors du rendu du document en PDF, Aspose.Cells for C++ remplit le champ **Application** avec la valeur 'Aspose.Cells' et le champ **Producteur PDF** avec la valeur, par exemple 'Aspose.Cells v18.5.0'.
 
-Veuillez noter que vous ne pouvez pas demander à Aspose.Cells for C++ de modifier ou de supprimer ces informations des documents de sortie.
-
 {{% /alert %}} 
 ### **Conversion directe**
 Aspose.Cells prend en charge la conversion des feuilles de calcul en PDF indépendamment des autres logiciels. Il suffit de sauvegarder un fichier Excel au format PDF en utilisant la [Classe Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) et sa méthode [Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/). La méthode [Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) fournit un membre d'énumération [SaveFormat_Pdf](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/) qui convertit les fichiers Excel natifs au format PDF.

@@ -60,3 +60,4 @@ keywords: تحويل، تحويل الملفات CVS إلى JSON، CSV إلى JS
 ]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

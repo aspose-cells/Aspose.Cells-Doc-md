@@ -18,39 +18,39 @@ Mit Aspose.Cells können Entwickler Rahmen hinzufügen und anpassen, wie sie in 
 ### **Rahmen zu Zellen hinzufügen**
 Aspose.Cells bietet eine Klasse, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), die eine Microsoft Excel-Datei repräsentiert. Die [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)-Klasse enthält eine [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection), die den Zugriff auf jede Arbeitsmappe in der Excel-Datei ermöglicht. Eine Arbeitsmappe wird durch die [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)-Klasse dargestellt. Die [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)-Klasse bietet eine [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-Sammlung. Jedes Element in der [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-Sammlung stellt ein Objekt der [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)-Klasse dar.
 
-Aspose.Cells bietet die Methode [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) in der [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)-Klasse, die verwendet wird, um den Formatierungsstil einer Zelle festzulegen. Außerdem wird das Objekt der [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)-Klasse verwendet und bietet Eigenschaften zur Konfiguration der Schrifteinstellungen.
+Aspose.Cells bietet die Methode [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle-com.aspose.cells.Style-) in der Klasse [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell), um das Format einer Zelle festzulegen. Außerdem wird das Objekt der Klasse [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) verwendet und bietet Eigenschaften zur Konfiguration von Schriftarteinstellungen.
 #### **Rahmen zu einer Zelle hinzufügen**
-Fügen Sie einer Zelle mit der Methode [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder\(int,%20int,%20com.aspose.cells.Color\)) des Objekts [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) einen Rahmen hinzu. Der Rahmen-Typ wird als Parameter übergeben. Alle Rahmen-Typen sind in der Enumeration [BorderType](https://reference.aspose.com/cells/java/com.aspose.cells/BorderType) vordefiniert.
+Fügen Sie einem Zell mit der Methode [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder-int-int-com.aspose.cells.Color-) des [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)-Objekts Rahmenlinien hinzu. Der Border-Typ wird als Parameter übergeben. Alle Border-Typen sind in der Enumeration [BorderType](https://reference.aspose.com/cells/java/com.aspose.cells/BorderType) vorgegeben.
 
 |**Rahmentypen**|**Beschreibung**|
 | :- | :- |
-|[BOTTOM_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#BOTTOM_BORDER)|Die Untergrenzlinie|
-|[DIAGONAL_DOWN](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#DIAGONAL_DOWN)|Eine diagonale Linie von oben links nach rechts unten|
-|[DIAGONAL_UP](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#DIAGONAL_UP)|Eine diagonale Linie von unten links nach rechts oben|
-|[LEFT_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#LEFT_BORDER)|Die linke Grenzlinie|
-|[RIGHT_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#RIGHT_BORDER)|Die rechte Grenzlinie|
-|[TOP_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#TOP_BORDER)|Die obere Grenzlinie|
+|[BOTTOM_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#BOTTOM-BORDER)|Der untere Rand|
+|[DIAGONAL_DOWN](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#DIAGONAL-DOWN)|Eine diagonale Linie von oben links nach rechts unten|
+|[DIAGONAL_UP](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#DIAGONAL-UP)|Eine diagonale Linie von unten links nach oben rechts|
+|[LEFT_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#LEFT-BORDER)|Der linke Rand|
+|[RIGHT_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#RIGHT-BORDER)|Der rechte Rand|
+|[TOP_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#TOP-BORDER)|Der obere Rand|
 |[HORIZONTAL](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#HORIZONTAL)|Nur für dynamischen Stil, z. B. bedingte Formatierung.|
 |[VERTICAL](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#VERTICAL)|Nur für dynamischen Stil, z. B. bedingte Formatierung.|
-Um die Linienfarbe festzulegen, wählen Sie mit der Enumeration [Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color) eine Farbe aus und übergeben Sie sie dem Parameter Color der Methode [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder\(int,%20int,%20com.aspose.cells.Color\)) des Objekts [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style). Die Linienstile sind in der Enumeration [CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType) vordefiniert.
+Um die Linienfarbe zu setzen, wählen Sie eine Farbe mit der Enumeration [Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color) und übergeben Sie sie als Parameter an die Methode [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder-int-int-com.aspose.cells.Color-) des [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)-Objekts. Die Linienarten sind in der Enumeration [CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType) vorgegeben.
 
 |**Linienstile**|**Beschreibung**|
 | :- | :- |
-|[DASH_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DASH_DOT)|Stellt dünn gestrichelte Linie dar|
-|[DASH_DOT_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DASH_DOT_DOT)|Stellt dünn gestrichelte Punktlinie dar|
+|[DASH_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DASH-DOT)|Repräsentiert eine dünne gestrichelte Linie|
+|[DASH_DOT_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DASH-DOT_DOT)|Repräsentiert eine dünne gestrichelte Linie mit Punkten|
 |[DASHED](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DASHED)|Stellt gestrichelte Linie dar|
 |[DOTTED](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DOTTED)|Stellt gepunktete Linie dar|
 |[DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DOUBLE)|Stellt doppelte Linie dar|
 |[HAIR](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#HAIR)|Stellt Haarlinie dar|
-|[MEDIUM_DASH_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM_DASH_DOT)|Stellt mittlere strichpunktierende Linie dar|
-|[MEDIUM_DASH_DOT_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM_DASH_DOT_DOT)|Stellt mittlere strich-punkt-strichpunktierende Linie dar|
-|[MEDIUM_DASHED](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM_DASHED)|Stellt mittlere gestrichelte Linie dar|
+|[MEDIUM_DASH_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM-DASH-DOT)|Repräsentiert eine mittlere gestrichelte Linie|
+|[MEDIUM_DASH_DOT_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM-DASH-DOT_DOT)|Repräsentiert mittel-dashed-dot-dot Linie|
+|[MEDIUM_DASHED](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM-DASHED)|Repräsentiert mittlere gestrichelte Linie|
 |[NONE](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#NONE)|Stellt keine Linie dar|
 |[MEDIUM](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM)|Stellt mittlere Linie dar|
-|[SLANTED_DASH_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#SLANTED_DASH_DOT)|Stellt geneigte mittlere strichpunktierende Linie dar|
+|[SLANTED_DASH_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#SLANTED-DASH-DOT)|Repräsentiert schräg mittlere gestrichelte Linie|
 |[THICK](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#THICK)|Stellt dicke Linie dar|
 |[THIN](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#THIN)|Stellt dünne Linie dar|
-Wählen Sie einen der obigen Linienstile aus und weisen Sie ihn dann der [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)-Objektmethode [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder\(int,%20int,%20com.aspose.cells.Color\)) zu.
+Wählen Sie einen der oben genannten Linienstile aus und weisen Sie ihn dann der [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)-Objekt [Methode setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder-int-int-com.aspose.cells.Color-) zu.
 
 Der folgende Output wird generiert, wenn der unten stehende Code ausgeführt wird.
 
@@ -60,14 +60,14 @@ Der folgende Output wird generiert, wenn der unten stehende Code ausgeführt wir
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AddingBordersToCells-AddingBordersToCells.java" >}}
 #### **Hinzufügen von Rahmen zu einem Zellenbereich**
-Es ist möglich, Grenzen zu einem Zellenbereich hinzuzufügen, anstatt nur einer einzelnen Zelle. Erstellen Sie zunächst einen Zellenbereich, indem Sie die [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-Sammlungsmethode [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\)) aufrufen, die die folgenden Parameter verwendet:
+Es ist möglich, Grenzen zu einem Zellbereich hinzuzufügen, anstatt nur zu einer einzelnen Zelle. Erstellen Sie zunächst einen Zellbereich, indem Sie die [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-Sammlung aufrufen und die [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-) Methode verwenden, welche die folgenden Parameter übernimmt:
 
 - **Erste Zeile**, erste Zeile des Bereichs.
 - **Erste Spalte**, erste Spalte des Bereichs.
 - **Anzahl der Zeilen**, Anzahl der Zeilen im Bereich.
 - **Anzahl der Spalten**, Anzahl der Spalten im Bereich.
 
-Die Methode [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\)) gibt ein [Range](https://reference.aspose.com/cells/java/com.aspose.cells/Range)-Objekt zurück, das den angegebenen Bereich enthält. Das [Range](https://reference.aspose.com/cells/java/com.aspose.cells/Range)-Objekt bietet eine Methode [setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\)), die die folgenden Parameter verwendet:
+Die [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-) Methode gibt ein [Range](https://reference.aspose.com/cells/java/com.aspose.cells/Range)-Objekt zurück, das den angegebenen Bereich enthält. Das [Range](https://reference.aspose.com/cells/java/com.aspose.cells/Range)-Objekt bietet eine [setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders-int-com.aspose.cells.Color-) Methode, die die folgenden Parameter übernimmt:
 
 - **CellBorderType**, der Grenzlinienstil, ausgewählt aus der [CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType)-Aufzählung.
 - **Farbe**, die Rahmenfarbe, ausgewählt aus der [Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color)-Enumeration.
@@ -96,7 +96,7 @@ Die Palette enthält nur 56 Farben. Wenn Sie eine benutzerdefinierte Farbe zur P
 
 {{% /alert %}} 
 
-Aspose.Cells bietet eine Klasse, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), die eine Microsoft Excel-Datei darstellt. Die Klasse bietet die Methode [changePalette](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#changePalette\(com.aspose.cells.Color,%20int\)), die die folgenden Parameter annimmt, um eine benutzerdefinierte Farbe zur Änderung der Palette hinzuzufügen:
+Aspose.Cells bietet eine Klasse, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), die eine Microsoft Excel-Datei darstellt. Die Klasse bietet die [changePalette](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#changePalette-com.aspose.cells.Color-int-) Methode, die die folgenden Parameter übernimmt, um eine benutzerdefinierte Farbe zur Änderung der Palette hinzuzufügen:
 
 - **Benutzerdefinierte Farbe**, die benutzerdefinierte Farbe, die zur Palette hinzugefügt werden soll.
 - **Index**, der Index der Farbe, die durch die benutzerdefinierte Farbe ersetzt werden soll. Sollte zwischen 0-55 liegen.
@@ -117,7 +117,7 @@ Aspose.Cells unterstützt diese Funktionen ebenfalls in flexibler Weise. In dies
 ### **Setzen von Farben & Hintergrundmustern**
 Aspose.Cells bietet eine Klasse, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), die eine Microsoft Excel-Datei darstellt. Die Klasse [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) enthält eine [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection), die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Klasse [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) dargestellt. Die Klasse [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) bietet eine [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-Sammlung. Jedes Element in der [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-Sammlung stellt ein Objekt der Klasse [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) dar.
 
-Aspose.Cells bietet die Methode [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) in der Klasse [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell), die verwendet wird, um das Format einer Zelle festzulegen. Außerdem kann das Objekt der Klasse [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) zur Konfiguration von Schriftart-Einstellungen verwendet werden.
+Aspose.Cells bietet die [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle-com.aspose.cells.Style-) Methode in der [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)-Klasse, die verwendet wird, um die Formatierung einer Zelle festzulegen. Außerdem kann das Objekt der [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)-Klasse verwendet werden, um Schriftarteinstellungen zu konfigurieren.
 
 {{% alert color="primary" %}} 
 
@@ -131,25 +131,25 @@ Die Eigenschaft [setPattern](https://reference.aspose.com/cells/java/com.aspose.
 
 |**Mustertyp**|**Beschreibung**|
 | :- | :- |
-|[DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#DIAGONAL_CROSSHATCH)|Stellt das diagonale Kreuzschraffur-Muster dar|
-|[DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#DIAGONAL_STRIPE)|Stellt das diagonale Streifenmuster dar|
-|[GRAY_6](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY_6)|Stellt das Muster mit 6,25% Grau dar|
-|[GRAY_12](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY_12)|Stellt das Muster mit 12,5% Grau dar|
-|[GRAY_25](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY_25)|Stellt das Muster mit 25% Grau dar|
-|[GRAY_50](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY_50)|Stellt das Muster mit 50% Grau dar|
-|[GRAY_75](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY_75)|Stellt das Muster mit 75% Grau dar|
-|[HORIZONTAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#HORIZONTAL_STRIPE)|Stellt das horizontale Streifenmuster dar|
+|[DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#DIAGONAL-CROSSHATCH)|Repräsentiert diagonales Schraffurmuster|
+|[DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#DIAGONAL-STRIPE)|Repräsentiert diagonales Streifenmuster|
+|[GRAY_6](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY-6)|Repräsentiert grau Muster mit 6,25%|
+|[GRAY_12](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY-12)|Repräsentiert grau Muster mit 12,5%|
+|[GRAY_25](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY-25)|Repräsentiert grau Muster mit 25%|
+|[GRAY_50](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY-50)|Repräsentiert grau Muster mit 50%|
+|[GRAY_75](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY-75)|Repräsentiert grau Muster mit 75%|
+|[HORIZONTAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#HORIZONTAL-STRIPE)|Repräsentiert horizontales Streifenmuster|
 |[NONE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#NONE)|Stellt keinen Hintergrund dar|
-|[REVERSE_DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#REVERSE_DIAGONAL_STRIPE)|Stellt das Muster mit umgekehrtem diagonalem Streifen dar|
+|[REVERSE_DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#REVERSE-DIAGONAL-STRIPE)|Repräsentiert Muster mit umgekehrten diagonalen Streifen|
 |[SOLID](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#SOLID)|Stellt das einfarbige Muster dar|
-|[THICK_DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THICK_DIAGONAL_CROSSHATCH)|Stellt das Muster mit dickem diagonalem Kreuzschraffur dar|
-|[THIN_DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_DIAGONAL_CROSSHATCH)|Stellt das Muster mit dünnem diagonalem Kreuzschraffur dar|
-|[THIN_DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_DIAGONAL_STRIPE)|Stellt das Muster mit dünnem diagonalem Streifen dar|
-|[THIN_HORIZONTAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_HORIZONTAL_CROSSHATCH)|Stellt das Muster mit dünnem horizontalen Kreuzschraffur dar|
-|[THIN_HORIZONTAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_HORIZONTAL_STRIPE)|Stellt dünnen horizontalen Streifenmuster dar|
-|[THIN_REVERSE_DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_REVERSE_DIAGONAL_STRIPE)|Stellt dünnen diagonalen Streifenmuster umgekehrt dar|
-|[THIN_VERTICAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_VERTICAL_STRIPE)|Stellt dünnen vertikalen Streifenmuster dar|
-|[VERTICAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#VERTICAL_STRIPE)|Stellt vertikales Streifenmuster dar|
+|[THICK_DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THICK-DIAGONAL-CROSSHATCH)|Repräsentiert dickes diagonales Schraffurmuster|
+|[THIN_DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN-DIAGONAL-CROSSHATCH)|Repräsentiert dünnes diagonales Schraffurmuster|
+|[THIN_DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN-DIAGONAL-STRIPE)|Repräsentiert dünnes diagonales Streifenmuster|
+|[THIN_HORIZONTAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN-HORIZONTAL-CROSSHATCH)|Repräsentiert dünnes horizontalens Schraffurmuster|
+|[THIN_HORIZONTAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN-HORIZONTAL-STRIPE)|Repräsentiert dünnes horizontalen Streifenmuster|
+|[THIN_REVERSE_DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN-REVERSE-DIAGONAL-STRIPE)|Repräsentiert dünnes umgekehrtes diagonales Streifenmuster|
+|[THIN_VERTICAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN-VERTICAL-STRIPE)|Repräsentiert dünnes vertikales Streifenmuster|
+|[VERTICAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#VERTICAL-STRIPE)|Repräsentiert vertikales Streifenmuster|
 Im folgenden Beispiel ist die Vordergrundfarbe der Zelle A1 festgelegt, aber A2 ist so konfiguriert, dass sowohl Vordergrund- als auch Hintergrundfarben mit einem vertikalen Streifenmuster hinterlegt sind.
 
 Die folgende Ausgabe wird bei der Ausführung des Codes generiert.
@@ -177,7 +177,7 @@ Aspose.Cells unterstützt diese Funktion. Dieser Artikel erläutert, wie Sie die
 ### **Formatieren ausgewählter Zeichen**
 Aspose.Cells bietet eine Klasse, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), die eine Microsoft Excel-Datei darstellt. Die Klasse [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) enthält eine [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection), die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Klasse [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) dargestellt. Die Klasse [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) bietet eine [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-Sammlung. Jedes Element in der [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-Sammlung stellt ein Objekt der Klasse [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) dar.
 
-Die Klasse [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) bietet die Methode [characters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#characters\(int,%20int\)), die die folgenden Parameter enthält, um eine Zeichenbereich in einer Zelle auszuwählen:
+Die [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) Klasse bietet die [characters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#characters-int-int-) Methode, die die folgenden Parameter übernimmt, um einen Bereich von Zeichen in einer Zelle auszuwählen:
 
 - **Start-Index**, der Index des Zeichens, von dem aus die Auswahl beginnen soll.
 - **Anzahl der Zeichen**: Die Anzahl der ausgewählten Zeichen.
@@ -192,7 +192,7 @@ In der Ausgabedatei ist in der Zelle A1 das Wort 'Besuchen' mit der Standardschr
 
 {{% alert color="primary" %}} 
 
-Wenn Sie daran interessiert sind, [einen Teil von Rich-Text in einer Zelle zu formatieren](/cells/de/java/access-and-update-the-portions-of-rich-text-of-cell/), sollten Sie die Methoden [Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters\(\)) & Cell.setCharacters verwenden. Die Methode [Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters\(\)) wird verwendet, um auf die Textabschnitte zuzugreifen, und anschließend können Änderungen mit der Methode Cell.setCharacters vorgenommen werden, wobei die **get**-Methode ein Array von [FontSetting](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting)-Objekten zurückgibt, die manipuliert werden können, um verschiedene Eigenschaften wie Schriftartname, Schriftfarbe, Fettdruck usw. zu setzen, und die **set**-Methode zum Anwenden der Änderungen verwendet werden kann.
+Wenn Sie daran interessiert sind, einen Teil des Rich Texts in einer Zelle zu formatieren, sollten Sie die [Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters--) & Cell.setCharacters Methoden verwenden. Die [Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters--) Methode wird verwendet, um die Textabschnitte abzurufen, und Änderungen können mit der Cell.setCharacters Methode vorgenommen werden. Das **get**-Verfahren gibt ein Array von [FontSetting](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) Objekten zurück, die manipuliert werden können, um verschiedene Eigenschaften wie Schriftartname, Schriftfarbe, Fettdruck usw. festzulegen, während die **set**-Methode verwendet werden kann, um die Änderungen anzuwenden.
 
 {{% /alert %}}
 
@@ -208,3 +208,4 @@ Wenn Sie daran interessiert sind, [einen Teil von Rich-Text in einer Zelle zu fo
 - [Nummern-Einstellungen](/cells/de/java/cells-number-settings/)
 - [Einzelnes Anführungszeichen-Prefix des Zellenwerts oder -bereichs beibehalten](/cells/de/java/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Styling und Datenformatierung](/cells/de/java/styling-and-data-formatting/)
+{{< app/cells/assistant language="java" >}}

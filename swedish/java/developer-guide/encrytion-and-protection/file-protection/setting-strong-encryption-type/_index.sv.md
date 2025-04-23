@@ -34,3 +34,4 @@ För att implementera filkryptering i Microsoft Excel (till exempel 2007):
 I kodexemplet nedan tillämpas stark kryptering på en fil och ett lösenord anges.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ApplyingEncryption-ApplyingEncryption.java" >}}
+{{< app/cells/assistant language="java" >}}

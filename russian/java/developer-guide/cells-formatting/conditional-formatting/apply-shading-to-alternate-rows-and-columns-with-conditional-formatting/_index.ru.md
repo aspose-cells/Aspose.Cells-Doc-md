@@ -31,3 +31,4 @@ API Aspose.Cells предоставляют средства добавлени�
 Результирующая таблица в данном случае будет выглядеть как следующее изображение.
 
 ![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)
+{{< app/cells/assistant language="java" >}}

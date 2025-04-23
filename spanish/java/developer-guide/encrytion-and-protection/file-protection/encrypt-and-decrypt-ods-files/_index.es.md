@@ -19,8 +19,9 @@ Aspose.Cells permite cifrar y descifrar archivos ODS. Un archivo ODS descifrado 
 
 ## **Cifrado/Descifrado de archivo ODS:**
 
-Para cifrar un archivo ODS, carga el archivo y pasa la contraseña real a [**WorkbookSettings.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password) antes de guardarlo. El archivo ODS cifrado de salida solo se puede abrir en OpenOffice. Para descifrar un archivo ODS, carga el archivo proporcionando la contraseña en la [**LoadOptions.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#Password). Una vez que el archivo se carga, llama a la función [**Workbook.unprotect()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotect(java.lang.String)) con la contraseña real como argumento y finalmente pasa null a [**Workbook.getWorkbookSettings().setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password).
+Para cifrar un archivo ODS, carga el archivo y pasa la contraseña real a [**WorkbookSettings.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password) antes de guardarlo. El archivo ODS cifrado de salida solo se puede abrir en OpenOffice. Para descifrar un archivo ODS, carga el archivo proporcionando la contraseña en la [**LoadOptions.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#Password). Una vez que el archivo se carga, llama a la función [**Workbook.unprotect()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotect-java.lang.String-) con la contraseña real como argumento y finalmente pasa null a [**Workbook.getWorkbookSettings().setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password).
 
 ### **Código de Ejemplo:**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-EncryptingODSFiles-EncryptingODSFiles.java" >}}
+{{< app/cells/assistant language="java" >}}

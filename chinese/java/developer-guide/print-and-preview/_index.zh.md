@@ -5,3 +5,4 @@ weight: 56
 url: /zh/java/rendering/
 ---
 
+{{< app/cells/assistant language="java" >}}

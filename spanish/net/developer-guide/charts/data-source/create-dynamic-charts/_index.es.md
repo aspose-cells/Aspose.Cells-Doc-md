@@ -52,3 +52,4 @@ Para mantener la demostración simple de entender, crearemos el libro de trabajo
 1. Guarde el resultado en el disco.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-UsingDynamicFormula-CreateDynamicChartsUsingDynamicFormula.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

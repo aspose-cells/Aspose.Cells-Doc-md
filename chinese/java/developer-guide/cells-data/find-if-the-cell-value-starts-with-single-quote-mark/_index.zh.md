@@ -16,3 +16,4 @@ Aspose.Cells现在提供了Style.QuotePrefix属性，用于查找单元格值是
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Technical-Articles-DetectCellValueStartsWithSingleQuote.java" >}}
+{{< app/cells/assistant language="java" >}}

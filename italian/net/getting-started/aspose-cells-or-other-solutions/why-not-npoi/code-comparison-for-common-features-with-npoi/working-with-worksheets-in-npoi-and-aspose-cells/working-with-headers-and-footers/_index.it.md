@@ -84,3 +84,4 @@ Scarica **Lavorare con intestazioni e piè di pagina** da uno dei siti di codice
 Per ulteriori dettagli, visita [Working with Worksheets](/cells/it/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

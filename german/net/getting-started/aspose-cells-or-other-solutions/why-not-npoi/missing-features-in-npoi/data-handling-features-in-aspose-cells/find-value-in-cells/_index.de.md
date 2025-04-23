@@ -49,3 +49,4 @@ Laden Sie **Wert in Zellen finden** von einer der unten aufgeführten sozialen C
 Für weitere Details besuchen Sie [Daten finden oder suchen](/cells/de/net/find-or-search-data/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

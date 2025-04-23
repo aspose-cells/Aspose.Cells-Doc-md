@@ -24,3 +24,4 @@ Aspose.Cells позволяет проверить, защищен ли прое
 Is VBA Project Locked for Viewing: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

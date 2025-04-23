@@ -73,7 +73,7 @@ Um Ihre eigene benutzerdefinierte Formatzeichenkette zur Festlegung des Anzeigef
 
 {{% alert color="primary" %}}
 
-Wenn Sie die [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) verwenden, um das Nummernformat festzulegen, wird jedes zuvor festgelegte Format, das mit dem [**Number**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number）eingerichtet wurde, überschrieben und umgekehrt.
+Wenn Sie [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) verwenden, um das Zahlenformat festzulegen, überschreibt jede vorherige Formatierung, die mit [**Number**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number) festgelegt wurde, diese und umgekehrt.
 
 {{% /alert %}}
 
@@ -81,3 +81,4 @@ Wenn Sie die [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cel
 - [Benutzerdefiniertes Zahlenformat beim Festlegen von Style.Custom-Eigenschaft überprüfen](/cells/de/java/check-custom-number-format-when-setting-style-custom-property/)
 - [Benutzerdefinierte Dezimal- und Gruppentrennzeichen für Arbeitsmappe festlegen](/cells/de/java/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [Benutzerdefiniertes DBNum-Formatmusterformat festlegen](/cells/de/java/specifying-dbnum-custom-pattern-formatting/)
+{{< app/cells/assistant language="java" >}}

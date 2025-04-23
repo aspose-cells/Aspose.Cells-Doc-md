@@ -174,3 +174,4 @@ Aspose.Cells for Java 8.5.2 a exposé le champ ConsolidationFunction.DISTINCT_CO
 La fonction de consolidation de comptage distinct est prise en charge uniquement par Microsoft Excel 2013.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

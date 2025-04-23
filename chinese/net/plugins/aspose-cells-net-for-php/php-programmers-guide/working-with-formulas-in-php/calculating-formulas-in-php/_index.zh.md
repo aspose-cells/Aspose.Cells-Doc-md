@@ -66,6 +66,6 @@ url: /zh/net/calculating-formulas-in-php/
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任一社交编码网站下载【计算公式（Aspose.Cells）】：
+从以下任一社交编码网站下载[计算公式（Aspose.Cells）]：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingwithFormulas/CalculatingFormulas.php)

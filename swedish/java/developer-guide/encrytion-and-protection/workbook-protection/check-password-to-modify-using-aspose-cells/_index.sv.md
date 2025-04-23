@@ -11,7 +11,7 @@ Du kan tilldela ett **lösenord för att öppna** och ett **lösenord för att �
 
 ![todo:image_alt_text](check-password-to-modify-using-aspose-cells_1.png)
 
-Ibland behöver du kontrollera om det angivna lösenordet överensstämmer med **lösenordet för att ändra** programmatiskt. Aspose.Cells tillhandahåller [**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword(java.lang.String))-metoden som du kan använda för att kontrollera om det angivna lösenordet för ändring är korrekt eller inte.
+Ibland behöver du kontrollera om det angivna lösenordet överensstämmer med **lösenordet för att ändra** programmatiskt. Aspose.Cells tillhandahåller [**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword-java.lang.String-)-metoden som du kan använda för att kontrollera om det angivna lösenordet för ändring är korrekt eller inte.
 
 {{% /alert %}}
 
@@ -32,3 +32,4 @@ Is 567 correct Password to modify: false
 Is 5678 correct Password to modify: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

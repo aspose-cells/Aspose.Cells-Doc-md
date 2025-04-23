@@ -24,3 +24,4 @@ Si desea cambiar el XML de la cinta, debe analizarlo con un analizador XML u otr
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomizingRibbonXML-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

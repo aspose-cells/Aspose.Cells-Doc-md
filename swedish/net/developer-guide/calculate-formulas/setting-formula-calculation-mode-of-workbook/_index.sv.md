@@ -29,3 +29,4 @@ Aspose.Cells tillåter också att du ställer in **Formelberäkningsläget** med
 - CalcModeType.Manual
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-SettingFormulaCalculationModeWorkbook-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

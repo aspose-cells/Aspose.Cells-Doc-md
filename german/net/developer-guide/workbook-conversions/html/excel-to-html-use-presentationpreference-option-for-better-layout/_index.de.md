@@ -16,3 +16,4 @@ Bitte beachten Sie den unten stehenden Beispielscode, der zeigt, wie man eine HT
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsePresentationPreferenceOption-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

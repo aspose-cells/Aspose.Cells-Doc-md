@@ -22,3 +22,4 @@ Aspose.Cellsは、これらの3つの形式でピボットテーブルのレイ�
 次のサンプルコードでは、まずPivot Tableを**コンパクト形式**で表示し、次にPivot Tableを**アウトライン形式**で表示し、最後にPivot Tableを**表形式**で表示します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangingLayoutofPivotTable-ChangingLayoutofPivotTable.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -16,3 +16,4 @@ Berichterstellung auf Basis von Pivot-Tabellen ist nützlich, aber anfällig fü
 Der folgende Code demonstriert diese Funktion, indem er auf eine Pivot-Tabelle aus einem Blatt zugreift und dann [**EnableWizard**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/enablewizard) auf **false** setzt. Die Beispieldatei für die Pivot-Tabelle kann von diesem [Link](pivot_table_test.xlsx) heruntergeladen werden.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-DisablePivotTableRibbon.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -22,3 +22,4 @@ Aspose.Cells fornisce la proprietà Workbook.DataConnections per il recupero del
 Se l'oggetto ExternalConnection contiene dati di connessione SQL, può essere convertito tramite casting in un oggetto DBConnection e le sue proprietà possono essere utilizzate per recuperare il comando del database, il tipo di comando, la descrizione della connessione, le informazioni di connessione, le credenziali, e così via.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-RetrievingSQLConnectionData-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

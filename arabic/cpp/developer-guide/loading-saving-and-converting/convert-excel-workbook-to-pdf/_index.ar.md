@@ -14,8 +14,6 @@ url: /ar/cpp/convert-excel-workbook-to-pdf/
 
 يكتب Aspose.Cells مباشرةً معلومات حول واجهة برمجة التطبيقات ورقم الإصدار في المستندات الناتجة. على سبيل المثال ، عند تقديم مستند إلى PDF ، يملأ Aspose.Cells for C++ الحقل **التطبيق** بالقيمة 'Aspose.Cells' وحقل **شركة الإنتاج بتنسيق PDF** بالقيمة ، مثل 'Aspose.Cells v18.5.0'.
 
-يرجى ملاحظة أنه لا يمكنك توجيه Aspose.Cells for C++ بتغيير أو إزالة هذه المعلومات من مستند الإخراج.
-
 {{% /alert %}} 
 ### **التحويل المباشر**
 Aspose.Cells يدعم التحويل من جداول البيانات إلى صيغة PDF بشكل مستقل عن البرمجيات الأخرى. قم ببساطة بحفظ ملف Excel إلى PDF باستخدام فئة [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) وطريقة [Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) . توفر طريقة [Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) عضو تعداد [SaveFormat_Pdf](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/) الذي يحول الملفات الأصلية من Excel إلى تنسيق PDF.

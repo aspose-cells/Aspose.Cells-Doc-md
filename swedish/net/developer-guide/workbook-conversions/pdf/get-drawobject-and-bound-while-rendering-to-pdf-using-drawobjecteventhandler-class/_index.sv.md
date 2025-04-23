@@ -42,3 +42,4 @@ Vänligen se följande exempelkod. Den laddar [prov Excel-filen](64716821.xlsx) 
 ----------------------
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -9,3 +9,4 @@ url: /ar/net/converting-worksheet/
 
 - [تحويل ورقة العمل إلى ملف صورة حسب الصفحة](/cells/ar/net/converting-worksheet-to-image-file-by-page/)
 - [تحويل ورقة العمل إلى صورة في Aspose.Cells](/cells/ar/net/converting-worksheet-to-image-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

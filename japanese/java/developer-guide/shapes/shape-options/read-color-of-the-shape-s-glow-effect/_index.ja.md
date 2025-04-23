@@ -36,3 +36,4 @@ Transparency: 0.13
 Type: 2
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

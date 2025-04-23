@@ -17,3 +17,4 @@ Le code d'exemple suivant utilise la classe [WorkbookMetadata](https://reference
 Voici un exemple de code utilisant la classe [WorkbookMetadata](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookMetadata).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UsingWorkbookMetadata-UsingWorkbookMetadata.java" >}}
+{{< app/cells/assistant language="java" >}}

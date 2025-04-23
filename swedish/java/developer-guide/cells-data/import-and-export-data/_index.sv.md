@@ -49,7 +49,7 @@ För att importera data till ett kalkylblad från flerdimensionella arrayer, anr
 
 #### Importera från en ArrayList
 
-För att importera data från en *ArrayList* till kalkylblad, anropa [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean))-metoden i [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)-samlingen. [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean))-metoden tar följande parametrar:
+För att importera data från en *ArrayList* till kalkylblad, anropa [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList-java.util.ArrayList-int-int-boolean-)-metoden i [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)-samlingen. [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList-java.util.ArrayList-int-int-boolean-)-metoden tar följande parametrar:
 
 - **ArrayList**, *ArrayList*-objekt vars innehåll kommer att importeras.
 - **Radnummer**, radnumret för den första cellen i cellintervallen från vilken innehåll kommer att importeras.
@@ -66,7 +66,7 @@ För att importera data från en samling objekt till en arbetsbok som innehålle
 
 #### Importera data från JSON
 
-Aspose.Cells tillhandahåller en [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)-klass för bearbetning av JSON. [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)-klassen har en [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions))-metod för att importera JSON-data. Aspose.Cells tillhandahåller också en [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)-klass som representerar alternativen för JSON-layout. [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions))-metoden accepterar [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) som en parameter. [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)-klassen tillhandahåller följande egenskaper.
+Aspose.Cells tillhandahåller en [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)-klass för bearbetning av JSON. [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)-klassen har en [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData-java.lang.String-com.aspose.cells.Cells-int-int-com.aspose.cells.JsonLayoutOptions-)-metod för att importera JSON-data. Aspose.Cells tillhandahåller också en [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)-klass som representerar alternativen för JSON-layout. [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData-java.lang.String-com.aspose.cells.Cells-int-int-com.aspose.cells.JsonLayoutOptions-)-metoden accepterar [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) som en parameter. [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)-klassen tillhandahåller följande egenskaper.
 
 - [**ArrayAsTable**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ArrayAsTable): Anger om arrayen ska behandlas som en tabell eller inte.
 - [**ConvertNumericOrDate**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ConvertNumericOrDate): Hämtar eller anger ett värde som indikerar om strängen i JSON ska konverteras till numeriskt eller datum.
@@ -89,11 +89,11 @@ Aspose.Cells låter inte bara sina användare importera data till arbetsblad fr�
 
 Aspose.Cells tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), som representerar en Microsoft Excel-fil. [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-klassen innehåller en [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) som möjliggör åtkomst till varje arbetsblad i Excel-filen. Ett arbetsblad representeras av [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)-klassen. [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)-klassen tillhandahåller en [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)-samling.
 
-Data kan enkelt exporteras till ett Array-objekt med hjälp av [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)-klassens [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int))-metod.
+Data kan enkelt exporteras till ett Array-objekt med hjälp av [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)-klassens [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray-int-int-int-int-)-metod.
 
 #### Kolumner som innehåller starkt typade data
 
-Kalkylblad lagrar data som en sekvens av rader och kolumner. Använd [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int))-metoden för att exportera data från ett kalkylblad till en array. [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) tar följande parametrar för att exportera kalkylbladsdata som ett *Array*-objekt:
+Kalkylblad lagrar data som en sekvens av rader och kolumner. Använd [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray-int-int-int-int-)-metoden för att exportera data från ett kalkylblad till en array. [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray-int-int-int-int-) tar följande parametrar för att exportera kalkylbladsdata som ett *Array*-objekt:
 
 - Radnummer, radnumret för den första cellen från vilken data ska exporteras.
 - Kolumnnummer, kolumnnumret för den första cellen från vilken data ska exporteras.
@@ -105,3 +105,4 @@ Kalkylblad lagrar data som en sekvens av rader och kolumner. Använd [**exportAr
 ## **Fortsatta ämnen**
 - [Importera data från ResultSet-objektet i Microsoft Access-databas till kalkylbladet](/cells/sv/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
 - [Ange formelfält vid import av data till kalkylbladet](/cells/sv/java/specify-formula-fields-while-importing-data-to-worksheet/)
+{{< app/cells/assistant language="java" >}}

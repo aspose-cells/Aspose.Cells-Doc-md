@@ -15,7 +15,7 @@ Aspose.Cells позволяет экспортировать лист из кн�
 
 Иногда бывает полезно сохранить изображение листа. Изображения можно делить онлайн, вставлять в другие документы (например, отчёты в Microsoft Word или презентации PowerPoint).
 
-Aspose.Cells предоставляет экспорт изображений через класс [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender). Этот класс представляет лист, который будет отображен в виде изображения. Класс [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) предоставляет метод [**toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream)) для преобразования листа в файл изображения. Поддерживаются форматы BMP, PNG, JPEG, TIFF и EMF.
+Aspose.Cells предоставляет экспорт изображений через класс [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender). Этот класс представляет лист, который будет отображен в виде изображения. Класс [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) предоставляет метод [**toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage-int-java.io.OutputStream-) для преобразования листа в файл изображения. Поддерживаются форматы BMP, PNG, JPEG, TIFF и EMF.
 
 {{% alert color="primary" %}}
 
@@ -58,3 +58,4 @@ SVG означает **Масштабируемая векторная граф�
 - [Экспорт диаграммы в SVG с атрибутом viewBox](/cells/ru/java/export-chart-to-svg-with-viewbox-attribute/)
 - [Экспорт листа или диаграммы в изображение с заданными шириной и высотой](/cells/ru/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
 - [Преобразование Рабочего листа в изображение и Рабочего листа в изображение по странице](/cells/ru/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)
+{{< app/cells/assistant language="java" >}}

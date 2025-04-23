@@ -7,7 +7,7 @@ url: /ru/java/reading-and-writing-query-table-of-worksheet/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells предоставляет коллекцию [Worksheet.getQueryTables()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#QueryTables), которая возвращает [QueryTableCollection](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTableCollection). Чтобы получить конкретную [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable), используйте свойство [QueryTableCollection.get()](https://reference.aspose.com/cells/java/com.aspose.cells/querytablecollection#Item%20\(int\)) и передайте индекс QueryTable. Класс [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) имеет следующие два свойства для настройки QueryTable.
+Aspose.Cells предоставляет коллекцию [Worksheet.getQueryTables()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#QueryTables), которая возвращает [QueryTableCollection](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTableCollection). Для получения конкретной [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) используйте свойство [QueryTableCollection.get()](https://reference.aspose.com/cells/java/com.aspose.cells/querytablecollection#Item%20-int-), передав индекс таблицы. Класс [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) имеет два свойства для настройки QueryTable.
 
 - [QueryTable.getAdjustColumnWidth()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#AdjustColumnWidth)
 - [QueryTable.getPreserveFormatting()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting)
@@ -42,3 +42,4 @@ Preserve Formatting: false
 Aspose.Cells предоставляет возможность чтения адреса, то есть диапазона результатов ячеек для запроса таблицы. Следующий код демонстрирует эту функцию, читая адрес диапазона результатов для таблицы запросов. Пример файла можно загрузить [здесь](QueryTXT.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReadingAndWritingQueryTable-RetrieveQueryTableResultRange.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -75,3 +75,4 @@ Aspose.Cells for .NET unterstützt die gängigen Tabellendateiformate (XLS, XLSX
 			</ul>
 	</div>
 </div>
+{{< app/cells/assistant language="csharp" >}}

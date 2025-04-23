@@ -31,3 +31,4 @@ url: /ru/net/public-api-changes-in-aspose-cells-8-2-0/
 Пожалуйста, ознакомьтесь с подробной статьей по [Автоматическая подгонка строк и столбцов](http://aspose.com/docs/display/cellsnet/AutoFit+ Rows+and+Columns).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

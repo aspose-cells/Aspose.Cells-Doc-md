@@ -47,3 +47,4 @@ Aşağıdaki, [örnek excel dosyası](5115211.xlsx) ile birlikte çalıştırabi
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithHTMLFormat-ExportedWorkSheetViaIFilePathProvider-ExportedWorkSheetViaIFilePathProvider.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

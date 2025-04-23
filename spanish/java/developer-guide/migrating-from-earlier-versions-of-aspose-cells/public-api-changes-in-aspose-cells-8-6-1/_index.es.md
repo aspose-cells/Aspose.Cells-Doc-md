@@ -167,3 +167,4 @@ Con el lanzamiento de v8.6.1, la API Aspose.Cells for Java ha modificado el tipo
 ## **APIs obsoletas**
 ### **Método Workbook.checkWriteProtectedPassword Obsoleto**
 Con el lanzamiento de v8.6.1, el método Workbook.checkWriteProtectedPassword ha sido marcado como obsoleto. Se recomienda utilizar el método WorkbookSettings.WriteProtection.validatePassword que puede aceptar un valor de tipo String como parámetro y devuelve un valor Booleano si la contraseña coincide con la contraseña predefinida de la hoja de cálculo.
+{{< app/cells/assistant language="java" >}}

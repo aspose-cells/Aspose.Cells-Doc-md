@@ -12,10 +12,11 @@ description: Проверьте пароль зашифрованного Excel 
 
 ## **Проверьте пароль зашифрованного файла**
 
-Для проверки пароля зашифрованного файла Aspose.Cells for Java предоставляет метод [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)). Метод принимает два параметра: поток файла и пароль, который необходимо проверить.
-Следующий фрагмент кода демонстрирует использование метода [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) для проверки, является ли предоставленный пароль допустимым или нет.
+Для проверки пароля зашифрованного файла Aspose.Cells for Java предоставляет метод [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword-java.io.InputStream-java.lang.String-). Метод принимает два параметра: поток файла и пароль, который необходимо проверить.
+Следующий фрагмент кода демонстрирует использование метода [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword-java.io.InputStream-java.lang.String-) для проверки, является ли предоставленный пароль допустимым или нет.
 
 ### **Образец кода:**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-VerifyPassword-1.java" >}}
 
+{{< app/cells/assistant language="java" >}}

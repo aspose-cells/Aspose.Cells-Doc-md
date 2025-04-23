@@ -16,3 +16,4 @@ url: /ru/net/easy-way-for-chart-setup-using-chart-setchartdatarange-method/
 Следующий образец кода объясняет использование метода [**Chart.SetChartDataRange()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange) для простой настройки диаграммы.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ChartSetupUsingSetChartDataRange-EasyWayToChartSetupUsingSetChartDataRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

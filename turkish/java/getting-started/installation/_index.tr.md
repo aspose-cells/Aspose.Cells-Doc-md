@@ -52,7 +52,7 @@ Daha sonra pom.xml dosyanızda Aspose.Cells for Java API bağımlılığını a�
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.7</version>
+            <version>25.4</version>
 
         </dependency>
 
@@ -62,7 +62,7 @@ Daha sonra pom.xml dosyanızda Aspose.Cells for Java API bağımlılığını a�
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.7</version>
+            <version>25.4</version>
 
             <classifier>javadoc</classifier>
 
@@ -107,3 +107,4 @@ Genellikle Aspose.Cells for Java, raster görüntüleri yüklemek için Java'nı
 Hızlı teknik destek almak için lütfen aşağıdakilere bakın
 
 [Aspose.Cells - Forumlar](https://forum.aspose.com/c/cells/9)
+{{< app/cells/assistant language="java" >}}

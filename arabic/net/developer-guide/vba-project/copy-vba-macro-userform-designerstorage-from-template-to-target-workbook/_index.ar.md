@@ -25,3 +25,4 @@ url: /ar/net/copy-vba-macro-userform-designerstorage-from-template-to-target-wor
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProject-CopyVBAMacroUserFormDesignerStorageToWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

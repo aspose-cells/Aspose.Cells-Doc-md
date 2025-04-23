@@ -30,3 +30,4 @@ WordArtを使用して、スプレッドシートに特殊なテキスト効果�
 ### グラフにWordArtウォーターマークを追加するJavaコード
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddWordArtWatermarkToChart-AddWordArtWatermarkToChart.java" >}}
+{{< app/cells/assistant language="java" >}}

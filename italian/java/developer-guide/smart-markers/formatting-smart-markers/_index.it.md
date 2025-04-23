@@ -22,3 +22,4 @@ Mentre si lavora con la funzionalità di raggruppamento dei dati degli Smart Mar
 Questo esempio utilizza un [file di modello](template.xlsx) con alcuni markers nelle celle. Quando si esegue il codice, Aspose.Cells aggiunge alcune etichette personalizzate alle righe di riepilogo per i dati raggruppati.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-SmartMarkers-AddCustomLabels-1.java" >}}
+{{< app/cells/assistant language="java" >}}

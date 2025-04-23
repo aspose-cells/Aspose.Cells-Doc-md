@@ -381,3 +381,4 @@ El siguiente ejemplo muestra cómo agregar un grupo y agrupar los controles en l
 - [Agregar controles ActiveX usando Aspose.Cells](/cells/es/net/add-activex-controls-using-aspose-cells/)
 - [Eliminar control ActiveX](/cells/es/net/remove-activex-control/)
 - [Actualizar control ActiveX ComboBox](/cells/es/net/update-activex-combobox-control/)
+{{< app/cells/assistant language="csharp" >}}

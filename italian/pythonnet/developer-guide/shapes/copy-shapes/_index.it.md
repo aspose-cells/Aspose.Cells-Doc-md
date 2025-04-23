@@ -4,13 +4,13 @@ linktitle: Copia forme
 type: docs
 weight: 200
 url: /it/python-net/copy-shapes-between-worksheets/
-description: Questo articolo mostra come copiare forme tra fogli di calcolo tramite l API Aspose.Cells per Python via .NET.
-keywords: Libreria Excel di Python, Copia forme tra fogli di calcolo in Python, come copiare un immagine da un foglio di lavoro a un altro, come copiare un grafico da un foglio di lavoro a un altro, come copiare controlli e altri oggetti di disegno da un foglio di lavoro a un altro.
+description: Questo articolo mostra come copiare le forme tra i fogli di lavoro tramite l API Aspose.Cells per Python via .NET.
+keywords: Biblioteca Python per Excel, Python copia forme tra fogli di lavoro, Python come copiare una immagine da un foglio di lavoro a un altro, Python come copiare un grafico da un foglio di lavoro a un altro, Python come copiare controlli e altri oggetti disegno da un foglio di lavoro a un altro.
 ---
 
 {{% alert color="primary" %}}
 
-A volte è necessario copiare elementi su un foglio di lavoro, ad esempio immagini, grafici e altri oggetti di disegno, tra fogli di lavoro. Aspose.Cells per Python via .NET supporta questa funzionalità. Grafici, immagini e altri oggetti possono essere copiati con il massimo grado di precisione.
+A volte, è necessario copiare elementi su un foglio di lavoro, ad esempio immagini, grafici e altri oggetti di disegno, tra fogli di lavoro. Aspose.Cells per Python via .NET supporta questa funzionalità. Grafici, immagini e altri oggetti possono essere copiati con il massimo grado di precisione.
 
 Questo articolo ti fornisce una comprensione dettagliata su come copiare le forme tra i fogli di lavoro.
 

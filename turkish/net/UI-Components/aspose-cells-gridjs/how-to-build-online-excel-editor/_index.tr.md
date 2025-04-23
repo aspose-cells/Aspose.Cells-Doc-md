@@ -1,10 +1,10 @@
 ---
-title: nasıl çalıştırılacağını Aspose.Cells.GridJs docker içinde
+title: Aspose.Cells.GridJs yi Docker da nasıl çalıştırılır
 type: docs
 weight: 250
 url: /tr/net/aspose-cells-gridjs/how-to-build-online-excel-editor/
 keywords: GridJs,docker
-description: Bu makale GridJs i docker içinde çalıştırarak çevrimiçi bir excel düzenleyici veya görüntüleyici uygulaması oluşturmayı tanıtır.
+description: Bu makale, çevrimiçi excel düzenleyici veya görüntüleme uygulaması oluşturmak için GridJs yi Docker da nasıl çalıştıracağınızı tanıtıyor.
 aliases:
   - /net/aspose-cells-gridjs/docker/
   - /net/aspose-cells-gridjs/run-aspose-cells-gridjs-in-docker/
@@ -21,15 +21,15 @@ aliases:
 
 ## Önkoşullar
 
-Makinenize Docker'ın kurulduğundan emin olun. Docker'ı [resmi Docker web sitesinden](https://www.docker.com/get-started) indirip kurabilirsiniz.
+Bilgisayarınıza Docker'ın yüklü olduğundan emin olun. Docker'ı [resmi Docker web sitesinden](https://www.docker.com/get-started) indirip yükleyebilirsiniz.
 
-## Adım 1: Bir Docker Dosyası Oluşturun
+## Adım 1: Dockerfile Oluşturma
 
-Projende `Dockerfile` adında bir dosya oluşturun [dizin](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/) içinde. `Dockerfile`, Docker imajınızı nasıl oluşturulacağına dair talimatlar içermelidir.
+Proje [klasörünüzde](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/) `Dockerfile` adlı bir dosya oluşturun. `Dockerfile` Docker görüntünüzü nasıl oluşturacağınızı talimatlar içermelidir.
 
-## Adım 2: GridJs için Dockerfile Oluşturma
+## Adım 2: GridJs için Dockerfile Yazma
 
-İşte ASP.NET Core uygulamasıyla GridJs demosu için örnek bir [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Dockerfile):
+İşte ASP.NET Core uygulamasıyla GridJs demo'su için örnek [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Dockerfile):
 
 ```dockerfile
 # Use the official .NET6.0 runtime as a parent image
@@ -65,6 +65,8 @@ WORKDIR /app
 # COPY fonts/* /usr/share/fonts/
 # the basic file path which contains the spread sheet files 
 RUN mkdir -p /app/wb
+# the file path to store the uploaded files
+RUN mkdir -p /app/uploads
 # the cache file path for GridJs
 RUN mkdir -p /app/grid_cache
 # we provide some sample spread sheet files in demo 
@@ -76,31 +78,41 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "gridjs-demo-.net6.dll"]
 ```
 
-## Adım 3: Docker İmajının Oluşturulması
-Docker İmajının Oluşturulması: Terminalden, Docker imajınızı oluşturmak için aşağıdaki komutu çalıştırın:
+## Adım 3: Docker Görüntüsünü Oluşturma
+Docker Görüntüsü Oluşturma: Terminalden aşağıdaki komutu çalıştırarak Docker görüntünüzü oluşturabilirsiniz:
 ```bash
 docker build -t gridjs-demo-net6 .
 ```
-docker imajınızı oluşturmak için aşağıdaki komutu çalıştırın:
+docker image adını, örneğin gridjs-demo-net6, istediğiniz gibi değiştirebilirsiniz.
 
-## Adım 4: Docker Konteynerinin Çalıştırılması
-İmaj oluşturulduktan sonra, aşağıdaki komutu kullanarak bir konteyner çalıştırabilirsiniz:
+## Adım 4: Docker Konteyneri Çalıştırma
+İmaj oluşturulduktan sonra aşağıdaki komutu kullanarak bir konteyner çalıştırabilirsiniz:
+
+```bash
+docker run -d -p 24262:80 -v C:/path/to/license.txt:/app/license --name gridjs-demo-container  gridjs-demo-net6
+```
+
+veya sadece deneme modunda demo'yu çalıştırabilirsiniz:
+
 
 ```bash
 docker run -d -p 24262:80 --name gridjs-demo-container  gridjs-demo-net6
 ```
-Docker Çalıştır Komutu Seçeneklerinin Açıklaması
--d: Konteyneri geri planda (detached modda) çalıştırın.
--p 24262:80: Konteynerdeki 80 numaralı limanı ana makinedeki 24262 numaralı limana eşleştirin.
---name gridjs-demo-container: Konteynere bir isim verin.
 
-## Adım 5: Konteynerin Çalışıp Çalışmadığının Doğrulanması
+
+Docker Run Komutu Seçeneklerinin Açıklaması
+-d: Konteyneri arka planda çalıştırır.
+-p 24262:80: Port 80'i konteynerde, 24262'de ana makinede eşler.
+-v C:/path/to/license.txt:/app/license: Lisans dosyasının yolunu ana makineden konteyner içindeki dosya yoluna eşler.
+--name gridjs-demo-container: Konteynere bir isim atayın.
+
+## Adım 5: Konteynerin Çalıştığını Doğrulama
 Konteynerinizin çalışıp çalışmadığını kontrol etmek için aşağıdaki komutu kullanın:
 
 ```bash
 docker ps
 ```
-Bu tüm çalışan konteynerleri listeler. Konteynerinizin adı ve durumu ile birlikte listelendiğini görmelisiniz.
+Bu, tüm çalışan konteynerleri listeleyecek. Adı ve durumu ile birlikte konteyneriniz görünmelidir.
 
 ## Adım 6: Web Uygulamasına Erişim
 
@@ -108,7 +120,7 @@ Bir web tarayıcısı açın ve `http://localhost:24262/GridJs2/List` adresine g
 
 ## Ek Komutlar
 
-### Konteynerin Durdurulması
+### Konteyneri Durdurma
 
 Çalışan bir konteyneri durdurmak için aşağıdaki komutu kullanın:
 
@@ -116,15 +128,15 @@ Bir web tarayıcısı açın ve `http://localhost:24262/GridJs2/List` adresine g
 docker stop gridjs-demo-container
 ```
 
-### Bir Konteyneri Kaldırma
+### Bir Konteyner Kaldırma
 Durdurulmuş bir konteyneri kaldırmak için aşağıdaki komutu kullanın:
 
 ```bash
 docker rm  gridjs-demo-container
 ```
 
-### Bir Görüntüyü Kaldırma
-Bir görüntüyü kaldırmak için aşağıdaki komutu kullanın:
+### Bir İmaj Kaldırma
+Bir imajı kaldırmak için aşağıdaki komutu kullanın:
 
 ```bash
 docker rmi gridjs-demo-net6

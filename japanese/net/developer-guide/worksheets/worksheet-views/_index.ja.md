@@ -112,3 +112,4 @@ Aspose.CellsはMicrosoft Excelファイルを表す[**Workbook**](https://refere
 - [ワークシートで値の代わりに数式を表示する](/cells/ja/net/show-formulas-instead-of-values-in-a-worksheet/)
 - [エラーチェックオプションを使用する](/cells/ja/net/use-error-checking-options/)
 
+{{< app/cells/assistant language="csharp" >}}

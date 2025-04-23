@@ -13,3 +13,4 @@ url: /tr/java/data-handling-features-in-xlsx4j/
 - [xlsx4j'ye Veri İçe Aktar](/cells/tr/java/import-data-to-worksheets-in-xlsx4j/)
 - [xlsx4j'de Verileri Sırala](/cells/tr/java/sort-data-in-xlsx4j/)
 - [xlsx4j'de Öncelik ve Bağımlılıkları İzleme](/cells/tr/java/tracing-precedents-and-dependents-in-xlsx4j/)
+{{< app/cells/assistant language="java" >}}

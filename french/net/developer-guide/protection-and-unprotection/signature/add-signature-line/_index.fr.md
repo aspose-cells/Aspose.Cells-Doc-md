@@ -21,3 +21,4 @@ Le code d'exemple suivant a démontré comment utiliser la propriété [**Pictur
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Add-Signature-Line.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

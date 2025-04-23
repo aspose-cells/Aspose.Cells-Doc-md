@@ -11,7 +11,7 @@ url: /ar/java/get-warnings-while-loading-excel-file/
 
 ## **الحصول على تحذيرات أثناء تحميل ملف إكسل**
 
-يشرح الكود العيني التالي كيفية الحصول على التحذيرات أثناء تحميل ملف Excel. يقوم الكود بتحميل [ملف Excel العيني](sampleDuplicateDefinedName.xlsx) الذي يلقي التحذير [**DuplicateDefinedName**](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE_DEFINED_NAME) أثناء التحميل. بعد ذلك يتم التقاط هذا التحذير بواسطة الطريقة [**IWarningCallback.Warning()**](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning(com.aspose.cells.WarningInfo)) التي تطبع رسائل التحذير على وحدة التحكم. يتم حفظ دفتر العمل بعد ذلك كـ [ملف Excel الناتج](outputDuplicateDefinedName.xlsx). إذا قمت بفتح ملف Excel العيني في Microsoft Excel، سيعرض لك هذا التحذير كما هو موضح في هذا اللقط. يرجى أيضًا التحقق من إخراج وحدة التحكم للكود الناتج أدناه لمزيد من الفهم.
+يشرح الكود العيني التالي كيفية الحصول على التحذيرات أثناء تحميل ملف Excel. يقوم الكود بتحميل [ملف Excel العيني](sampleDuplicateDefinedName.xlsx) الذي يلقي التحذير [**DuplicateDefinedName**](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE-DEFINED-NAME) أثناء التحميل. بعد ذلك يتم التقاط هذا التحذير بواسطة الطريقة [**IWarningCallback.Warning()**](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning-com.aspose.cells.WarningInfo-) التي تطبع رسائل التحذير على وحدة التحكم. يتم حفظ دفتر العمل بعد ذلك كـ [ملف Excel الناتج](outputDuplicateDefinedName.xlsx). إذا قمت بفتح ملف Excel العيني في Microsoft Excel، سيعرض لك هذا التحذير كما هو موضح في هذا اللقط. يرجى أيضًا التحقق من إخراج وحدة التحكم للكود الناتج أدناه لمزيد من الفهم.
 
 ![todo:image_alt_text](get-warnings-while-loading-excel-file_1.png)
 
@@ -34,3 +34,4 @@ Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:Panel!$B$228
 Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:'Queries '!$D$14:$D$16
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -11,11 +11,11 @@ url: /zh/java/specify-how-to-cross-string-in-output-pdf-and-image/
 
 - [**TextCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#DEFAULT)：像MS Excel一样显示，取决于下一个单元格。如果下一个单元格为空，字符串将跨越或被截断。
 
-- [**TextCrossType. CROSS_KEEP**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_KEEP)：像MS Excel一样显示输出PDF/图像中的字符串
+- [**TextCrossType. CROSS_KEEP**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS-KEEP)：像MS Excel一样显示输出PDF/图像中的字符串
 
-- [**TextCrossType.CROSS_OVERRIDE**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_OVERRIDE)：通过跨越其他单元格显示所有文本并覆盖跨越单元格的文本
+- [**TextCrossType.CROSS_OVERRIDE**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS-OVERRIDE)：通过跨越其他单元格显示所有文本并覆盖跨越单元格的文本
 
-- [**TextCrossType.STRICT_IN_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#STRICT_IN_CELL)：仅显示单元格宽度内的字符串。
+- [**TextCrossType.STRICT_IN_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#STRICT-IN-CELL)：仅显示单元格宽度内的字符串。
 
 ## **使用TextCrossType指定输出PDF/图像中如何跨越字符串**
 
@@ -30,3 +30,4 @@ url: /zh/java/specify-how-to-cross-string-in-output-pdf-and-image/
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-RenderUsingTextCrossType-1.java" >}}
+{{< app/cells/assistant language="java" >}}

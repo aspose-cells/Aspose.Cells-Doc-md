@@ -16,3 +16,4 @@ Aspose.Cells offre la possibilité d'obtenir la source de données de connexion 
 Le fichier source utilisé dans l'exemple de code est joint à titre de référence.
 
 [Fichier Source](SamplePivotTableExternalConnection.xlsx)
+{{< app/cells/assistant language="java" >}}

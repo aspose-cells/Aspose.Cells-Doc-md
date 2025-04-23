@@ -30,3 +30,4 @@ Recursive True: 96 seconds
 Recursive False: 42 seconds
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

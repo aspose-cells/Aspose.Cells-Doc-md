@@ -45,7 +45,7 @@ En este ejemplo, uso Ubuntu para mostrar cómo empezar a usar Aspose.Cells en Li
 2. Abre el archivo "AsposeCellsTest.csproj", y agrega las siguientes líneas para las referencias del paquete Aspose.Cells:
 {{< highlight plain >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="24.7" />
+    <PackageReference Include="Aspose.Cells" Version="25.4" />
   </ItemGroup>
 {{< /highlight >}}
 3. Abre el proyecto con VSCode en Ubuntu:
@@ -103,3 +103,4 @@ El siguiente ejemplo crea un nuevo libro de trabajo desde cero, inserta "¡Hola 
 El siguiente ejemplo abre un archivo de plantilla de Microsoft Excel existente "Sample.xlsx", inserta "¡Hola Mundo!" en la celda A1 de la primera hoja de trabajo y lo guarda como archivo de Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

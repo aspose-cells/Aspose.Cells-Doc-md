@@ -194,3 +194,4 @@ Per creare un grafico a linee con marcatori di dati, [**ChartType**](https://ref
 - [Gestire i titoli dei grafici di Excel](/cells/it/net/chart-and-axis-titles/)
 - [Rendering del grafico](/cells/it/net/chart-rendering/)
 - [Ottieni il testo dell'equazione della retta di tendenza del grafico](/cells/it/net/get-equation-text-of-chart-trendline/)
+{{< app/cells/assistant language="csharp" >}}

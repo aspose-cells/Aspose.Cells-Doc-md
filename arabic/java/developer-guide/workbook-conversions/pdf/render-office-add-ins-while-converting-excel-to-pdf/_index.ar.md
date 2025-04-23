@@ -11,3 +11,4 @@ url: /ar/java/render-office-add-ins-while-converting-excel-to-pdf/
 الشيفرة المثالية التالية تحفظ [ملف الإكسل المثالي](60489783.xlsx) الذي يحتوي على الواجهات الإضافية. يرجى الرجوع إلى [ملف الـPDF الناتج بالإصدار السابق أي 17.11](60489781.pdf) و [ملف الـPDF الناتج بالإصدار الأحدث أي 17.12 وما بعده](60489782.pdf). ملف الـPDF الناتج في الإصدار السابق يكون فارغًا ولكن ملف الـPDF الناتج في الإصدار الجديد يعرض الواجهة الإضافية.
 ## **الكود المثالي**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Rendering-RenderOfficeAdd_InsWhileConvertingExcelToPdf.java" >}}
+{{< app/cells/assistant language="java" >}}

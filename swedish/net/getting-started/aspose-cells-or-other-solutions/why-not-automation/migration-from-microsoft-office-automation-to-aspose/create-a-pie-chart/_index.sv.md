@@ -182,3 +182,4 @@ Kodexemplen som följer visar hur du lägger till ett cirkeldiagram i en kalkylb
 **Cirkeldiagram skapat med Aspose.Cells for .NET** 
 
 ![todo:image_alt_text](create-a-pie-chart_2.png)
+{{< app/cells/assistant language="csharp" >}}

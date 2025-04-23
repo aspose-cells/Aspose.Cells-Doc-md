@@ -145,3 +145,4 @@ Aspose.Cells предоставляет класс [**JsonUtility**](https://re
 ## **Продвинутые темы**
 - [Указание формульных полей при импорте данных в рабочий лист](/cells/ru/net/specify-formula-fields-while-importing-data-to-worksheet/)
 - [Сдвинуть первую строку вниз при вставке строк таблицы данных ячеек](/cells/ru/net/shift-first-row-down-when-inserting-cells-data-table-rows/)
+{{< app/cells/assistant language="csharp" >}}

@@ -5,3 +5,4 @@ weight: 56
 url: /tr/java/rendering/
 ---
 
+{{< app/cells/assistant language="java" >}}

@@ -23,3 +23,4 @@ Aşağıdaki ekran görüntüsü, Şekil *Gölgelendirme Efekti* ayarını yapm
 Aşağıdaki örnek kod, [kaynak excel dosyasını](5472531.xlsx) yükler ve ilk çalışma sayfasındaki ilk şeklin alt özelliklerini [Shape.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect) özelliğinin ayarlar ve ardından workbook'u [çıkış excel dosyasına](5472530.xlsx) kaydeder.
 ## **Örnek Kod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithShadowEffect-WorkingWithShadowEffect.java" >}}
+{{< app/cells/assistant language="java" >}}

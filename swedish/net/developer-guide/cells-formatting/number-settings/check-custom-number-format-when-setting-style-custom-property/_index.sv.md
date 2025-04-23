@@ -18,3 +18,4 @@ Följande kodprov tilldelar ett ogiltigt anpassat nummerformat till [**Style.Cus
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-CheckCustomFormatPattern.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

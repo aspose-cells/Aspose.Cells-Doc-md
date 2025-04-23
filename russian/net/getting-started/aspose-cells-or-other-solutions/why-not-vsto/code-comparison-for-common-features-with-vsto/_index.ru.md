@@ -32,3 +32,4 @@ url: /ru/net/code-comparison-for-common-features-with-vsto/
 - [Сортировка данных в листах Excel](/cells/ru/net/sort-data-in-worksheets/)
 - [Использование формул для обработки данных в VSTO и Aspose.Cells](/cells/ru/net/use-formulas-functions-to-process-data-in-vsto-and-aspose-cells/)
 - [Перенос текста ячейки в VSTO и Aspose.Cells](/cells/ru/net/wrapping-cell-text-in-vsto-and-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

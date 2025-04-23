@@ -24,3 +24,4 @@ url: /ru/java/line-breaks-and-text-wrapping/
 Вы можете использовать '\n' в Java для вставки явных переносов строк в ячейку.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UseExplicitLineBreaks-UseExplicitLineBreaks.java" >}}
+{{< app/cells/assistant language="java" >}}

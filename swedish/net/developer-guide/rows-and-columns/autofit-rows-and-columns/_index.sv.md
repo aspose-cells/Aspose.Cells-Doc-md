@@ -79,3 +79,4 @@ Om en cell är sammanfogad kommer inte AutoFit-metoderna att appliceras, vilket 
 
 ## **Fortsatta ämnen**
 - [Automatisk justering av rader för sammanfogade celler](/cells/sv/net/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="csharp" >}}

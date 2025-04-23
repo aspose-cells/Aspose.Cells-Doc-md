@@ -27,3 +27,4 @@ Som du kan se är målattributet i ovanstående HTML-länk **_self**. Du kan kon
 Följande kod illustrerar användningen av egenskapen [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype). Den ändrar länkens måltyp till **blank**. Som standard är det **parent**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeHtmlLinkTarget-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -231,3 +231,4 @@ Für eine vollständige Liste der unterstützten 2D- und 3D-Diagramme siehe [Unt
 
 ## **Erweiterte Themen**
 - [Bild als Hintergrundfüllung im Diagramm festlegen](/cells/de/java/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="java" >}}

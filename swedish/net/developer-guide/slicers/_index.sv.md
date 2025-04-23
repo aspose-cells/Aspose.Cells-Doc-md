@@ -36,3 +36,4 @@ Vänligen se det följande provkoden. Den laddar [provmappen](sampleCreateSlicer
 - [Ta bort slicer](/cells/sv/net/removing-slicer/)
 - [Rendering slicer](/cells/sv/net/rendering-slicer/)
 - [Uppdatera slicer](/cells/sv/net/updating-slicer/)
+{{< app/cells/assistant language="csharp" >}}

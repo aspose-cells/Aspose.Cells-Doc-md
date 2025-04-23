@@ -121,3 +121,4 @@ Aspose.Cells kullanarak özel özellikleri kaldırmak için [**DocumentPropertyC
 - [Yerleşik Belge Özellikleri için ScaleCrop ve LinksUpToDate özelliklerini ayarlama](/cells/tr/net/setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties/)
 - [Aspose.Cells kullanarak Excel Dosyasının Belge Sürümünü Belirtme](/cells/tr/net/specify-document-version-of-the-excel-file-using-builtin-document-properties/)
 - [Dahili Belge Özelliklerini Kullanarak Excel Dosyasının Dilini Belirtme](/cells/tr/net/specify-the-language-of-the-excel-file-using-builtin-document-properties/)
+{{< app/cells/assistant language="csharp" >}}

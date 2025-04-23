@@ -74,3 +74,4 @@ Worksheet page count: 1
 - [Çalışsayısını Grafiksel Ortama Dönüştürme](/cells/tr/net/render-worksheet-to-graphic-context/)
 - [Çalışma Kitabı Rendeleme İçin Bireysel veya Özel Font Kümesini Belirtin](/cells/tr/net/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)
 - [Aspose.Cells ile yazdırırken İş veya Belge Adı belirtin](/cells/tr/net/specify-job-or-document-name-while-printing-with-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

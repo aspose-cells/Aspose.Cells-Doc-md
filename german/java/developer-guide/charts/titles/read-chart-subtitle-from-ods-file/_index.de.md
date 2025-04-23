@@ -20,3 +20,4 @@ Aspose.Cells ermöglicht es Ihnen, Untertitel in ODS-Dateien zu lesen, indem Sie
 Chart Subtitle: Sample Chart Subtitle
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

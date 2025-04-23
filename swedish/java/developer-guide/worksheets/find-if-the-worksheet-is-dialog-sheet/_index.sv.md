@@ -28,3 +28,4 @@ Följande provkod laddar [prov-Excel-filen](64716841.xlsx) som innehåller ett 
 Worksheet is a Dialog Sheet.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

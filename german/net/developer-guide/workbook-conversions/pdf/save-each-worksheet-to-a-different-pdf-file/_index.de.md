@@ -20,3 +20,4 @@ Wenn Sie jedes Arbeitsblatt in Ihrer Vorlagen-Excel-Datei speichern möchten, um
 Wenn Ihre Tabelle Formeln enthält, ist es am besten, [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) kurz vor dem Rendern der Tabelle im PDF-Format aufzurufen. Auf diese Weise wird sichergestellt, dass die von Formeln abhängigen Werte neu berechnet und die richtigen Werte im PDF gerendert werden.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

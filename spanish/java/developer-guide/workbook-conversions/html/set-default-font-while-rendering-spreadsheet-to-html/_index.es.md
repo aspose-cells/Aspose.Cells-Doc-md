@@ -20,3 +20,4 @@ La captura de pantalla muestra el efecto de establecer diferentes nombres de fue
 El código genera el [archivo HTML de salida con Courier New](5472568), el [archivo HTML de salida con Arial](5472567) y el [archivo HTML de salida con Times New Roman](5472565).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToHTML-.java" >}}
+{{< app/cells/assistant language="java" >}}

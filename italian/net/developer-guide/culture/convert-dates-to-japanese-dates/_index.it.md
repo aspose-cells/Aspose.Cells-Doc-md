@@ -20,3 +20,4 @@ Aspose.Cells fornisce un modo per convertire le date gregoriane in date giappone
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertDatesToJapaneseDates-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

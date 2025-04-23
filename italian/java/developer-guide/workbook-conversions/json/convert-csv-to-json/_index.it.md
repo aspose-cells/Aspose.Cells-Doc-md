@@ -59,3 +59,4 @@ Il seguente codice di esempio dimostra l'uso delle classi [**ExportRangeToJsonO
 ]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

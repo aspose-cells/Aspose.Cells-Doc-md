@@ -18,3 +18,4 @@ Aspose.Cells fournit une propriété [**DataLabels.IsTextWrapped**](https://refe
 L'exemple de code ci-dessous montre comment désactiver le retour à la ligne pour les étiquettes de données du graphique.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-DisableTextWrappingForDataLabels-DisableTextWrappingForDataLabels.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

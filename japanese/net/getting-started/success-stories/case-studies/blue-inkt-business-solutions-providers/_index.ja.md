@@ -19,3 +19,4 @@ Blue Inktは、ほとんどのビジネスステーションに適用でき、�
 これで時間がかかりすぎていた問題を解決しました。私たちの製品の使いやすさが向上しました。 
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -17,7 +17,7 @@ Aspose.Cells具有强大的计算引擎，可以计算几乎所有的Microsoft E
 
 {{% /alert %}} 
 ## **实现自定义计算引擎**
-以下代码实现了自定义计算引擎。它实现了接口[AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine)，该接口只有一个方法[calculate(CalculationData data)](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationengine#calculate\(com.aspose.cells.CalculationData\))。此方法针对所有公式进行调用。在此方法中，我们捕获了**TODAY**函数，并将系统日期加一天。因此，如果当前日期是2023年07月27日，那么自定义引擎将计算TODAY()为2023年07月28日。
+以下代码实现了自定义计算引擎。它实现了接口 [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine)，该接口只有一个方法 [calculate(CalculationData data)](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationengine#calculate-com.aspose.cells.CalculationData-)。此方法会对所有公式调用。在此方法中，我们捕捉了 **TODAY** 函数并将系统日期加了一天。例如，如果当前日期是 2023/07/27，则自定义引擎会将 TODAY() 计算为 2023/07/28。
 
 ### **编程示例**
 
@@ -33,3 +33,4 @@ Aspose.Cells具有强大的计算引擎，可以计算几乎所有的Microsoft E
 - [在不将其写入工作表的情况下直接计算自定义函数](/cells/zh/java/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

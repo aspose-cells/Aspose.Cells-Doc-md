@@ -13,3 +13,4 @@ url: /it/java/working-with-spreadsheet-in-xlsx4j/
 - [Regolazione dell'Altezza della Riga e della Colonna in xlsx4j](/cells/it/java/row-column-height-adjustment-in-xlsx4j/)
 
 mithil rayate
+{{< app/cells/assistant language="java" >}}

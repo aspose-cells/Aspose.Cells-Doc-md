@@ -135,3 +135,4 @@ Her Çalışma Sayfası nesnesi, çalışma sayfasındaki tüm SparklineGroup ne
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_15.png)|
 Bir SparklineGroup nesnesi, çalışma sayfasındaki bir kıvılcım çizelgesi grubunu temsil eder. Geliştiriciler, SparklineGroup nesnesini kullanarak kıvılcım çizelgesi grubunun stilini ve diğer ilgili özellikleri ayarlayabilirler.
+{{< app/cells/assistant language="java" >}}

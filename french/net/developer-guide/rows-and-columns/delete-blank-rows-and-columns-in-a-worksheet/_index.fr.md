@@ -23,3 +23,4 @@ Utilisez les méthodes Aspose.Cells suivantes pour supprimer les lignes et colon
 ## Code C# pour supprimer les colonnes vides
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DeleteBlankRowsColumns-DeletingBlankColumns-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -19,3 +19,4 @@ ExcelファイルをPDFに変換する際、PDFファイルに透かしを追加
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-AddImageWatermarkToPdf.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

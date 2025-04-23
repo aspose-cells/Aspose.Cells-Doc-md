@@ -22,3 +22,4 @@ Aspose.Cellsは[**HtmlSaveOptions.ExportHiddenWorksheet**](https://reference.asp
 - [ExcelファイルをHTMLに保存する際にコメントをエクスポート](/cells/ja/java/export-comments-while-saving-excel-file-to-html/)
 - [HTMLに保存する際のボーダースタイルがWebブラウザでサポートされていない場合に似たボーダースタイルをエクスポートする](/cells/ja/java/hiding-overlaid-content-with-crosshideright-while-saving-to-html/)
 - [Webブラウザでサポートされていない場合の類似の境界線スタイルをHTMLにエクスポートする](/cells/ja/java/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/)
+{{< app/cells/assistant language="java" >}}

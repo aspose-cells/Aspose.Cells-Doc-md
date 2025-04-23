@@ -104,3 +104,4 @@ Das folgende Beispiel zeigt, wie man eine Spalte im Arbeitsblatt schützt. Es en
 Das folgende Beispiel zeigt, wie man Benutzern das Bearbeiten eines Bereichs in einem geschützten Arbeitsblatt erlaubt.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-EditRangesWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

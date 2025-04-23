@@ -26,3 +26,4 @@ Le snippet de code fourni ci-dessous montre l'utilisation de l'API Aspose.Cells 
 ## Articles Connexes
 
 - [Création et Personnalisation des Graphiques](/cells/fr/java/creating-and-customizing-charts/)
+{{< app/cells/assistant language="java" >}}

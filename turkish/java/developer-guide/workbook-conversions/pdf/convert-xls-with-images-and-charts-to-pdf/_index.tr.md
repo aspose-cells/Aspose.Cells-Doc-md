@@ -27,3 +27,4 @@ Eğer elektronik tablo formüller içeriyorsa, PDF'ye dönüştürmeden hemen ö
 
 - [PDFA-1a uyumlu PDF biçimine Excel dosyasını dönüştür](/cells/tr/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [Grafik Rendeleme](/cells/tr/java/chart-rendering/)
+{{< app/cells/assistant language="java" >}}

@@ -45,7 +45,7 @@ I det här exemplet använder jag Ubuntu för att visa hur du börjar använda A
 2. Öppna filen "AsposeCellsTest.csproj", lägg till följande rader i den för Aspose.Cells-paketreferenser:
 {{< highlight plain >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="24.7" />
+    <PackageReference Include="Aspose.Cells" Version="25.4" />
   </ItemGroup>
 {{< /highlight >}}
 3. Öppna projektet med VSCode på Ubuntu:
@@ -103,3 +103,4 @@ Det följande exemplet skapar en ny arbetsbok från grunden, infogar "Hello Worl
 Följande exempel öppnar en befintlig Microsoft Excel-mal fil "Prov.xlsx", sätter in "Hej världen!" i cell A1 i det första kalkylarket och sparar som Excel fil.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

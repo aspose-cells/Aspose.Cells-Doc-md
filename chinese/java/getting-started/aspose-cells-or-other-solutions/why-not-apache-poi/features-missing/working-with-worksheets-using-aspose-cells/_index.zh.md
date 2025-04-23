@@ -15,3 +15,4 @@ url: /zh/java/working-with-worksheets-using-aspose-cells/
 - [读取具有多种编码的CSV文件](/cells/zh/java/read-csv-file-with-multiple-encodings/)
 - [使用Aspose.Cells将每个工作表保存为不同的PDF](/cells/zh/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
 - [在Aspose.Cells中设置工作表标签颜色](/cells/zh/java/set-worksheet-tab-color-in-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

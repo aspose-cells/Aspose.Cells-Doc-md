@@ -26,7 +26,7 @@ Aspose.Cells предоставляет класс, [**Workbook**](https://refer
 
 ## **Добавление рабочих листов в новый файл Excel**
 
-Для создания нового файла Excel программно разработчикам потребуется создать объект класса [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), представляющий файл Excel. Затем разработчики могут вызвать метод [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--) объекта [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). При вызове метода [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--) в файл Excel автоматически добавляется пустой лист, на который можно сослаться, передав индекс листа вновь добавленного листа объекту [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). После получения ссылки на лист разработчики могут работать с их листами в соответствии с их требованиями. После завершения работы с листами, разработчики могут сохранить созданный ими файл Excel с новыми листами, вызвав метод [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) объекта [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook).
+Для создания нового файла Excel программно разработчикам потребуется создать объект класса [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), представляющий файл Excel. Затем разработчики могут вызвать метод [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--) объекта [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). При вызове метода [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--) в файл Excel автоматически добавляется пустой лист, на который можно сослаться, передав индекс листа вновь добавленного листа объекту [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). После получения ссылки на лист разработчики могут работать с их листами в соответствии с их требованиями. После завершения работы с листами, разработчики могут сохранить созданный ими файл Excel с новыми листами, вызвав метод [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) объекта [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AddingWorksheetstoNewExcelFile-AddingWorksheetstoNewExcelFile.java" >}}
 
@@ -44,7 +44,7 @@ Aspose.Cells предоставляет класс, [**Workbook**](https://refer
 
 ## **Удаление листов с использованием имени листа**
 
-Иногда разработчикам может потребоваться удалить листы из существующих файлов Excel, и эту задачу можно выполнить, вызвав метод [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String)) коллекции [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). Мы можем передать имя листа методу [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String)) для удаления конкретного листа.
+Иногда разработчикам может потребоваться удалить листы из существующих файлов Excel, и эту задачу можно выполнить, вызвав метод [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-java.lang.String-) коллекции [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). Мы можем передать имя листа методу [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-java.lang.String-) для удаления конкретного листа.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetName-RemovingWorksheetsusingSheetName.java" >}}
 
@@ -52,7 +52,7 @@ Aspose.Cells предоставляет класс, [**Workbook**](https://refer
 
 Вышеуказанный подход к удалению листов работает хорошо, если разработчики уже знают имена листов, которые нужно удалить. Но что, если вы не знаете имени листа, который вы хотите удалить из своего файла Excel?
 
-Ну, в таких случаях разработчики могут использовать перегруженную версию метода [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(int)), которая принимает индекс листа вместо его имени листа.
+Ну, в таких случаях разработчики могут использовать перегруженную версию метода [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-int-), которая принимает индекс листа вместо его имени листа.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetIndex-RemovingWorksheetsusingSheetIndex.java" >}}
 
@@ -72,3 +72,4 @@ Aspose.Cells предоставляет класс, [**Workbook**](https://refer
 - [Использование свойства Sheet.SheetId из OpenXml с помощью Aspose.Cells](/cells/ru/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [Работа с фоном в файлах ODS](/cells/ru/java/working-with-background-in-ods-files/)
 - [Просмотр листов](/cells/ru/java/worksheet-views/)
+{{< app/cells/assistant language="java" >}}

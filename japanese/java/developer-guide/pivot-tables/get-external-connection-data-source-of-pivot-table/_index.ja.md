@@ -16,3 +16,4 @@ Aspose.Cellsは、ピボットテーブルの外部接続データソースを�
 コードスニペットで使用されるソースファイルは、参照用に添付されています。
 
 [ソースファイル](SamplePivotTableExternalConnection.xlsx)
+{{< app/cells/assistant language="java" >}}

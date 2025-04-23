@@ -28,3 +28,4 @@ keywords: свойство идентификатора листа openxml c#, �
 Sheet or Tab Id: 1297
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

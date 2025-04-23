@@ -17,3 +17,4 @@ Numbers是由Apple Inc.开发的电子表格应用程序。Aspose.Cells可以读
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-ReadNumbersSpreadsheet.java" >}}
+{{< app/cells/assistant language="java" >}}

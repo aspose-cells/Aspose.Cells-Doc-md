@@ -24,3 +24,4 @@ url: /ru/net/copy-range-data-only/
 1. Скопируйте данные из первого диапазона во второй диапазон.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeDataOnly-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

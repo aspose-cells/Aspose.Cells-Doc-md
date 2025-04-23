@@ -102,3 +102,4 @@ Ladda ner **Arbeta med typsnitt** från någon av de nedan angivna sociala kodni
 För mer information, besök [Dataformateringsfunktioner](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

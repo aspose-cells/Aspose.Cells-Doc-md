@@ -3,19 +3,19 @@ title: Kopiera och Flytta Kalkylblad
 type: docs
 weight: 10
 url: /sv/python-net/copying-and-moving-worksheets/
-description: Denna artikel inkluderar exempelkod och beskriver hur man kopierar och flyttar arkmallar programmatiskt både inom en Excel arbetsbok och mellan Excel arböcker med Aspose.Cells för Python API via .NET.
-keywords: Python Excel Library, Python kopiera arkmall, Python flytta arkmall, Python kopiera arkmallar mellan arbetsböcker, Python flytta arkmallar inom en arbetsbok, Python kopiera arkmallar mellan arbetsböcker, Python kopiera arkmallar inom en arbetsbok.
+description: Denna artikel inkluderar kodexempel och beskriver hur man kopierar och flyttar arbetsblad programmatiskt inom en Excel arbetsbok och mellan Excel arbetsböcker med Aspose.Cells för Python via .NET API.
+keywords: Python Excel bibliotek, Python kopiera arbetsblad, Python flytta arbetsblad, Python kopiera arbetsblad mellan arbetsböcker, Python flytta arbetsblad inom arbetsbok, Python kopiera arbetsblad mellan arbetsböcker, Python kopiera arbetsblad inom en arbetsbok.
 ---
 
 {{% alert color="primary" %}}
 
 Ibland behöver du ett antal kalkylblad med gemensam formatering och data. Till exempel, om du arbetar med kvartalsvisa budgetar, kanske du vill skapa en arbetsbok med blad som innehåller samma kolumnrubriker, radrubriker och formler. Det finns ett sätt att göra detta: genom att skapa ett blad och sedan kopiera det.
 
-Aspose.Cells for Python via .NET stöder kopiering och flyttning av arkmallar inom eller mellan arbetsböcker. Arbetsblad, komplett med data, formatering, tabeller, matriser, diagram, bilder och andra objekt, kopieras med högsta precision.
+Aspose.Cells för Python via .NET stöder kopiering och flyttning av arbetsblad inom eller mellan arbetsböcker. Arbetsblad, komplett med data, formatering, tabeller, matriser, diagram, bilder och andra objekt, kopieras med högsta precision.
 
 {{% /alert %}}
 
-## **Hur man flyttar eller kopierar ark med hjälp av Microsoft Excel**
+## **Hur man flyttar eller kopierar blad med Microsoft Excel**
 
 Följande steg är inblandade för att kopiera och flytta arksidor inom eller mellan arbetsböcker i Microsoft Excel.
 
@@ -27,17 +27,17 @@ Följande steg är inblandade för att kopiera och flytta arksidor inom eller me
 1. I rutan **Innan blad** klickar du på det blad innan vilket du vill infoga de flyttade eller kopierade bladen.
 1. För att kopiera bladen istället för att flytta dem, markera kryssrutan **Skapa en kopia**.
 
-## **Hur man kopierar kalkylblad inom en arbetsbok med Aspose.Cells för Python Excel Library**
+## **Hur man kopierar arbetsblad inom en arbetsbok med Aspose.Cells för Python Excel-bibliotek**
 
-Aspose.Cells for Python via .NET tillhandahåller en överbelastad metod, [**Aspose.Cells.WorksheetCollection.add_copy()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheetcollection/add_copy/#str), som används för att lägga till ett kalkylblad i samlingen och kopiera data från ett befintligt kalkylblad. En version av metoden tar indexet för källkalkylbladet som parameter. Den andra versionen tar namnet på källkalkylbladet.
+Aspose.Cells för Python via .NET tillhandahåller en överbelastad metod, [**Aspose.Cells.WorksheetCollection.add_copy()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheetcollection/add_copy/#str), som används för att lägga till ett arbetsblad i samlingen och kopiera data från ett befintligt arbetsblad. En version av metoden tar indexet för arbetsbladet som en parameter. Den andra versionen tar namnet för arbetsbladet.
 
 Det följande exemplet visar hur man kopierar ett befintligt kalkylblad inom en arbetsbok.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Value-CopyWithinWorkbook-1.py" >}}
 
-## **Hur man kopierar kalkylblad mellan arbetsböcker**
+## **Hur man kopierar arbetsblad mellan arbetsböcker**
 
-Aspose.Cells for Python via .NET tillhandahåller en metod, [**Aspose.Cells.Worksheet.copy()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/copy/#aspose.cells.Worksheet) använd för att kopiera data och formatering från ett källkalkylblad till ett annat kalkylblad inom eller mellan arbetsböcker. Metoden tar källkalkylbladsobjektet som parameter.
+Aspose.Cells för Python via .NET tillhandahåller en metod, [**Aspose.Cells.Worksheet.copy()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/copy/#aspose.cells.Worksheet), för att kopiera data och formatering från ett källarbetsblad till ett annat inom eller mellan arbetsböcker. Metoden tar emot källarbetsbladets objekt som parameter.
 
 Det följande exemplet visar hur man kopierar ett kalkylblad från en arbetsbok till en annan arbetsbok.
 
@@ -47,9 +47,9 @@ Det följande exemplet visar hur man kopierar ett kalkylblad från en arbetsbok 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Value-CopyWorksheetFromWorkbookToOther-1.py" >}}
 
-## **Hur man flyttar kalkylblad inom arbetsboken**
+## **Hur man flyttar arbetsblad inom en arbetsbok**
 
-Aspose.Cells for Python via .NET tillhandahåller en metod [**Aspose.Cells.Worksheet.move_to()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/move_to/#int) som används för att flytta ett kalkylblad till en annan plats i samma kalkylblad. Metoden tar målkalkylbladets index som parameter.
+Aspose.Cells för Python via .NET tillhandahåller en metod [**Aspose.Cells.Worksheet.move_to()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/move_to/#int) som används för att flytta ett arbetsblad till en annan plats i samma kalkylblad. Metoden tar målarbetsbladets index som parameter.
 
 Det följande exemplet visar hur man flyttar ett kalkylblad till en annan plats inom arbetsboken.
 

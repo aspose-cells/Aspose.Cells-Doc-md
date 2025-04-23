@@ -217,3 +217,4 @@ Die **Formate**, **Inhalte** und **Beides** werden von der JSF-Back-End-Bean **W
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

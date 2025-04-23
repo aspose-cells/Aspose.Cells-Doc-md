@@ -7,7 +7,7 @@ url: /de/java/sort-data-in-column-with-custom-sort-list/
 
 ## **Mögliche Verwendungsszenarien**
 
-Sie können Daten in der Spalte mit einer benutzerdefinierten Liste sortieren. Dies kann mit der Methode [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int,%20java.lang.String)) getan werden. Diese Methode funktioniert jedoch nur, wenn die Elemente in der benutzerdefinierten Liste keine Kommas enthalten. Wenn sie Kommas enthalten wie "USA, US", "China, CN" usw., müssen Sie die Methode [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int,%20java.lang.String)) verwenden. Hierbei ist der letzte Parameter kein String, sondern ein Array von Strings.
+Sie können Daten in der Spalte mit einer benutzerdefinierten Liste sortieren. Dies kann mit [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-java.lang.String-) durchgeführt werden. Diese Methode funktioniert jedoch nur, wenn die Elemente in der benutzerdefinierten Liste keine Kommas enthalten. Wenn sie Kommas enthalten, wie "USA, US", "China, CN" usw., müssen Sie die Methode [DataSorter.AddKey](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-java.lang.String-) verwenden. Der letzte Parameter ist hier kein String, sondern ein Array von Strings.
 
 ## **Daten in Spalte mit benutzerdefinierter Sortierliste sortieren**
 
@@ -18,3 +18,4 @@ Der folgende Beispielscode erläutert, wie die Methode DataSorter.AddKey(int ke
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-SortDataInColumnWithCustomSortList.java" >}}
+{{< app/cells/assistant language="java" >}}

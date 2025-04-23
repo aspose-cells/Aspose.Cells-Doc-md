@@ -51,6 +51,7 @@ Aspose.Cells 提供一个代表 Excel 文件的类，[**Workbook**](https://refe
 
 {{% alert color="primary" %}}
 
-**重要提示**：当设置页面设置设置中的适合页面属性（即 [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) 和 [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide)）时，分页符设置会受到影响，因此，如果打印工作表，则分页符设置将不会被考虑，尽管它们仍然存在于文件中。
+**重要事项**：当你设置页面适应属性（即页面设置中的 [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) 和 [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide-)）时，会影响分页符设置，因此，如果你打印工作表，分页符设置不会被考虑，尽管它们仍然存在于文件中。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

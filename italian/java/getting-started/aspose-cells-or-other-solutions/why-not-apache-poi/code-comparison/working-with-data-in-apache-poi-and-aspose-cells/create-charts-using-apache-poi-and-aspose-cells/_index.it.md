@@ -156,3 +156,4 @@ Scarica il codice sorgente per **Creare grafici utilizzando Apache POI e Aspose.
 Per maggiori dettagli, visita [Creazione di grafici personalizzati](/cells/it/java/creazione-e-personalizzazione-di-grafici/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

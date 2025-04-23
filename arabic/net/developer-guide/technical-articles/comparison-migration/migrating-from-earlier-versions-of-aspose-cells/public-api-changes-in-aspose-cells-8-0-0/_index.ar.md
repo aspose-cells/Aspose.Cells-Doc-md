@@ -135,3 +135,4 @@ Console.WriteLine(cell.Name + ":" + cell.Value);
 مع Aspose.Cells for Java، تم تسجيل خاصية FilterColumnCollection كمنسوخة. من المقترح استخدام خاصية AuotFilter.FilterColumns بدلاً منها.
 ## **تم استبدال SeriesCollection.SecondCatergoryData بـ SeriesCollection.SecondCategoryData**
 لقد قمنا بتصحيح الخطأ الطباعي في اسم الخاصية SeriesCollection.SecondCatergoryData. يمكنك الآن استخدام خاصية SeriesCollection.SecondCategoryData من الآن فصاعدا، في حين تم تسجيل الخاصية الأصلية SeriesCollection.SecondCatergoryData كمنسوخة.
+{{< app/cells/assistant language="csharp" >}}

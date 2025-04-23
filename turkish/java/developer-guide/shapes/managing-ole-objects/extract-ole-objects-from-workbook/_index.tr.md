@@ -31,3 +31,4 @@ Aşağıdaki kod, DOCX, XLSX, PPTX ve PDF dosyaları olarak gömülü nesneleri 
 Bu makale, Aspose.Cells kullanarak bir çalışma kitabından OLE nesnelerini çıkarmayı göstermektedir. Umuyoruz ki, kendi senaryolarınızda bu seçenekleri kullanmanıza olanak tanıyan bazı bilgiler sunacaktır.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

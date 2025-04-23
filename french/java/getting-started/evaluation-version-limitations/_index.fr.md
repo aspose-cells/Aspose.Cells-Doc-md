@@ -47,3 +47,4 @@ Dans le fichier PDF ou image en sortie par Aspose.Cells, un filigrane d'évaluat
 <br>
 <image src="3.png" width="70%" />
 <br>
+{{< app/cells/assistant language="java" >}}

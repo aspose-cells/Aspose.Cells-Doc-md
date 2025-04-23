@@ -17,7 +17,7 @@ Aspose.Cells for Python via NETでは、HTMLリンクのターゲットタイプ
 
 {{< /highlight >}}
 
-上記のHTMLリンクで、target属性が**_self**になっています。このtarget属性を[**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/)プロパティを使用して制御できます。このプロパティは以下の値を持つ[**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype)列挙型を受け入れます。
+上記のHTMLリンクで、target属性が**_self**になっています。このtarget属性を[**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/)プロパティを使用して制御できます。このプロパティは以下の値を持つ[**HtmlLinkTargetType**](https://reference.aspose.com/cells/python-net/aspose.cells/htmllinktargettype)列挙型を受け入れます。
 
 - HtmlLinkTargetType.BLANK
 - HtmlLinkTargetType.PARENT

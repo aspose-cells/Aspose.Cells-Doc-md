@@ -29,3 +29,4 @@ Aspose.Cells предоставляет класс **Workbook**, который 
 - [Импорт из ArrayList](/cells/ru/net/importing-from-arraylist/)
 - [Импорт из пользовательских объектов](/cells/ru/net/importing-from-custom-objects/)
 - [Импорт из DataTable](/cells/ru/net/importing-from-datatable/)
+{{< app/cells/assistant language="csharp" >}}

@@ -3,21 +3,21 @@ title: Kenar Boşlukları Ayarlama
 type: docs
 weight: 20
 url: /tr/python-net/setting-margins/
-description: Bu makalede, bir Excel çalışma sayfasının kenar boşluklarını örnek kodları kullanarak nasıl ayarlayacağınızı öğreneceksiniz. Sayfa merkezi, başlık ve altbilgi kenar boşluklarını programlı şekilde ayarlamayı da Aspose.Cells te Python via .NET API si aracılığıyla öğreneceksiniz.
-keywords: Python Excel Kütüphanesi, Python excel çalışma sayfası kenar boşluğunu merkeze al, Python kullanarak çalışma sayfası başlık ve altbilgi kenar boşluğunu ayarla.
+description: Bu makalede, bir Excel çalışma sayfasının kenar boşluklarını örnek kod kullanarak ayarlamayı öğreneceksiniz. Ayrıca, Aspose.Cells for Python via .NET API kullanarak Sayfa Kurulumu nda sayfa merkez, başlık ve altbilgi kenar boşluklarını programatik olarak nasıl ayarlayacağınızı da öğreneceksiniz.
+keywords: Python Excel Kütüphanesi, Python ile Excel çalışma sayfası kenar boşluğunu ortala, Python kullanarak sayfa ayarlarını ve kenar boşluklarını ayarla.
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells için Python via .NET Microsoft Excel'in sayfa ayarı seçeneklerini tam olarak destekler. Geliştiriciler, baskı işlemini kontrol etmek için çalışsayfalar için sayfa ayarı ayarlarını yapılandırma ihtiyacı duyabilirler. Bu konu, Aspose.Cells Python via .NET'yi sayfa kenar boşluklarını yapılandırmak için nasıl kullanacağınızı tartışır.
+Aspose.Cells for Python via .NET, Microsoft Excel'in Sayfa Kurulumu seçeneklerini tamamen destekler. Geliştiricilerin, yazdırma sürecini kontrol etmek için çalışma sayfaları için sayfa ayarlarını yapılandırması gerekebilir. Bu konu, Aspose.Cells for Python via .NET kullanarak sayfa kenar boşluklarını nasıl yapılandıracağınızı tartışmaktadır.
 
 {{% /alert %}}
 
-## **Kenar Boşluklar Nasıl Ayarlanır**
+## **Kenar Boşlukları Nasıl Ayarlanır**
 
-Aspose.Cells için Python via .NET, bir Excel dosyasını temsil eden [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfını sağlar. [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) koleksiyonunu içerir. Bir çalışma sayfası [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) sınıfı tarafından temsil edilir.
+Aspose.Cells for Python via .NET, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) adlı bir sınıf sağlar; bu, bir Excel dosyasını temsil eder. [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfı, Excel dosyasındaki her çalışma sayfasına erişimi sağlayan [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) koleksiyonunu içerir. Bir çalışma sayfası, [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) sınıfı ile temsil edilir.
 
-[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) sınıfı, bir çalışma sayfasının sayfa düzeni seçeneklerini ayarlamak için kullanılan [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) özelliğini sağlar. [**page_setup**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/page_setup) özniteliği, bir çalışma sayfası için farklı sayfa düzeni seçeneklerini ayarlamak için kullanılan [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) sınıfının bir nesnesidir. [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) sınıfı, sayfa düzeni seçeneklerini ayarlamak için kullanılan çeşitli özellikler ve yöntemler sağlar.
+[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) sınıfı, bir çalışma sayfasının sayfa düzeni seçeneklerini ayarlamak için kullanılan [**page_setup**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/page_setup/) özelliğini sağlar. [**page_setup**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/page_setup) özniteliği, bir çalışma sayfası için farklı sayfa düzeni seçeneklerini ayarlamak için kullanılan [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) sınıfının bir nesnesidir. [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) sınıfı, sayfa düzeni seçeneklerini ayarlamak için kullanılan çeşitli özellikler ve yöntemler sağlar.
 
 ## **Sayfa Kenar Boşlukları Nasıl Ayarlanır**
 
@@ -30,7 +30,7 @@ Sol, sağ, üst, alt sayfa kenar boşluklarını [**PageSetup**](https://referen
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetMargins-1.py" >}}
 
-## **Sayfada Nasıl Merkezlenir**
+## **Sayfada Ortala Nasıl Yapılır**
 
 Bir şeyi yatay ve dikey olarak sayfa üzerinde ortalamak mümkündür. Bunun için [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) sınıfının [**center_horizontally**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/center_horizontally/) ve [**center_vertically**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/center_vertically/) gibi bazı faydalı üyeleri bulunmaktadır.
 

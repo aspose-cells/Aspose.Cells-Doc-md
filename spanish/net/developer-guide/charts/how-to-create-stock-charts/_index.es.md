@@ -24,3 +24,4 @@ Los gráficos de cotización son un tipo específico de gráfico utilizado para 
 El conjunto de datos siguiente muestra la información de operaciones diarias para una acción. Utilizaremos estos datos para crear cuatro tipos de gráficos de cotización: gráfico de cotización Alto-Bajo-Cierre (HLC), gráfico de cotización Apertura-Alto-Bajo-Cierre (OHLC), gráfico de cotización Volumen-Alto-Bajo-Cierre (VHLC) y gráfico de cotización Volumen-Apertura-Alto-Bajo-Cierre (VOHLC). 
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="csharp" >}}

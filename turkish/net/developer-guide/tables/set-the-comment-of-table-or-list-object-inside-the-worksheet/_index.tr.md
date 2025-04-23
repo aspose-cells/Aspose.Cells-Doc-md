@@ -16,3 +16,4 @@ url: /tr/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/
 Aşağıdaki örnek kod, [kaynak excel dosyasını](5115514.xlsx) yükler, çalışma sayfası içindeki ilk masa veya liste nesnesinin yorumunu ayarlar.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-SetCommentOfTableOrListObject-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

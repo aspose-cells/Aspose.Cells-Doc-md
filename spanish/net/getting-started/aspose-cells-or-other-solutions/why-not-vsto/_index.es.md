@@ -45,3 +45,4 @@ Los componentes de Aspose son altamente escalables y extremadamente rápidos. So
 - [Importar y exportar hoja de cálculo](/cells/es/net/import-and-export-worksheet/)
 - [Imprimir y Previsualizar libro de trabajo](/cells/es/net/print-and-preview/)
 - Y otros.
+{{< app/cells/assistant language="csharp" >}}

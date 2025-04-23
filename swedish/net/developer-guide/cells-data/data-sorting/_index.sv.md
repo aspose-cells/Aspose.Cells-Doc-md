@@ -58,3 +58,4 @@ Följande är provfiler som kan laddas ned för att testa denna funktion:
 ## **Fortsatta ämnen**
 - [Sortera Data i Kolumn med Anpassad Sorteringslista](/cells/sv/net/sort-data-in-column-with-custom-sort-list/)
 - [Angivande av sorteringsvarning vid sortering av data](/cells/sv/net/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="csharp" >}}

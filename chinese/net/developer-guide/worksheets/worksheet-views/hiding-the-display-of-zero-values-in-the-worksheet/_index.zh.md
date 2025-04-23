@@ -24,3 +24,4 @@ keywords: 以C#中的样式隐藏Excel工作表的零值
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-HidingDisplayOfZeroValues-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -16,3 +16,4 @@ Aspose.Cellsは今、計算項目を持つピボットテーブルを更新お�
 以下のサンプルコードは、"add"、"div"、"div2"などの3つの計算項目を持つピボットテーブルを含む[ソースエクセルファイル](5115238.xlsx)を読み込みます。最初にセルD2の値を20に変更し、Aspose.CellsのAPIを使用してピボットテーブルを更新および計算し、その結果をPDF形式で保存します。[出力PDF](5115229.pdf)の結果で、Aspose.Cellsが計算項目を持つピボットテーブルを成功裏に更新および計算したことが示されています。手動でセルD2に値20を入力し、Alt+F5ショートカットキーを使用するか、ピボットテーブルの更新ボタンをクリックしてMicrosoft Excelで検証できます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-RefreshAndCalculateItems-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

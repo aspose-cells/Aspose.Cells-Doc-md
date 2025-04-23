@@ -20,7 +20,7 @@ Genau wie Microsoft Excel unterstützt auch Aspose.Cells die Konfiguration der S
 ## **Konfigurieren von Schriftarteinstellungen**
 Aspose.Cells bietet eine Klasse, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) die eine Microsoft Excel-Datei darstellt. Die Klasse [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) enthält eine [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) die den Zugriff auf jede Arbeitsmappe in einer Excel-Datei ermöglicht. Eine Arbeitsmappe wird durch die Klasse [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) dargestellt. Die Klasse [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) bietet eine [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) Sammlung. Jedes Element in der [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) Sammlung stellt ein Objekt der Klasse [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) dar.
 
-Aspose.Cells bietet die [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) Klasse' [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) Methode, um die Formatierung einer Zelle festzulegen. Außerdem, bietet das Objekt der Klasse [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) Eigenschaften zur Konfiguration der Schriftarteinstellungen.
+Aspose.Cells bietet die Methode [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)'s [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle-com.aspose.cells.Style-) , um die Formatierung einer Zelle festzulegen. Außerdem bietet das Objekt der Klasse [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) Eigenschaften zur Konfiguration der Schriftarteinstellungen.
 
 Dieser Artikel zeigt, wie: 
 
@@ -53,21 +53,21 @@ Unterstreichen Sie den Text mit der [Font](https://reference.aspose.com/cells/ja
 |[SINGLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#SINGLE)|Ein einfacher Unterstrich|
 |[DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE)|Doppelter Unterstrich|
 |[ACCOUNTING](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#ACCOUNTING)|Einzelner Unterstrich für Rechnungswesen|
-|[DOUBLE_ACCOUNTING](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE_ACCOUNTING)|Doppelter Unterstrich für Rechnungswesen|
+|[DOUBLE_ACCOUNTING](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE-ACCOUNTING)|Doppelte Buchhaltung-Unterstreichung|
 |[DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH)|Gestrichelter Unterstrich|
-|[DASH_DOT_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_DOT_DOT_HEAVY)|Dicker Strich-Punkt-Punkt-Unterstrich|
-|[DASH_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_DOT_HEAVY)|Dicker Strich-Punkt-Unterstrich|
-|[DASHED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASHED_HEAVY)|Dicker gestrichelter Unterstrich|
-|[DASH_LONG](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG)|Lang gestrichelter Unterstrich|
-|[DASH_LONG_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG_HEAVY)|Dicker lang gestrichelter Unterstrich|
-|[DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DASH)|Strich-Punkt-Unterstrich|
-|[DOT_DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DOT_DASH)|Strich-Punkt-Punkt-Unterstrich|
+|[DASH_DOT_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH-DOT-DOT-HEAVY)|Dicke Strichpunktlinie-Doppellinie Unterstreichung|
+|[DASH_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH-DOT-HEAVY)|Dicke Strichpunktlinie Unterstreichung|
+|[DASHED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASHED-HEAVY)|Dicke gestrichelte Unterstreichung|
+|[DASH_LONG](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH-LONG)|Lange gestrichelte Unterstreichung|
+|[DASH_LONG_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH-LONG-HEAVY)|Dicke lange gestrichelte Unterstreichung|
+|[DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT-DASH)|Punkt-Strich Unterstreichung|
+|[DOT_DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT-DOT-DASH)|Punkt-Punkt-Strich Unterstreichung|
 |[DOTTED](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED)|Gepunkteter Unterstrich|
-|[DOTTED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED_HEAVY)|Dicker Gepunkteter Unterstrich|
+|[DOTTED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED-HEAVY)|Dicke gepunktete Unterstreichung|
 |[HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#HEAVY)|Dicker Unterstrich|
 |[WAVE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVE)|Wellenunterstrich|
-|[WAVY_DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_DOUBLE)|Doppelter Wellenunterstrich|
-|[WAVY_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_HEAVY)|Starker Wellenunterstrich|
+|[WAVY_DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY-DOUBLE)|Doppelt wellige Unterstreichung|
+|[WAVY_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY-HEAVY)|Starke Wellen-Unterstreichung|
 |[WORDS](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WORDS)|Unterstrichene Non-Space-Zeichen Nur|
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontUnderlineType-SettingFontUnderlineType.java" >}}
 
@@ -102,3 +102,4 @@ Wenden Sie den Hochstellen-Effekt auf den Text mit der [Font](https://reference.
 ## **Erweiterte Themen**
 - [Hoch- und Tiefgestellt-Effekte auf Schriftarten anwenden](/cells/de/java/apply-superscript-and-subscript-effects-on-fonts/)
 - [Eine Liste der in einer Arbeitsmappe oder einem Arbeitsblatt verwendeten Schriftarten abrufen](/cells/de/java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
+{{< app/cells/assistant language="java" >}}

@@ -47,9 +47,9 @@ Aspose.Cells tillåter också utvecklare att ange kalkylbladets zoomfaktor.
 ### **Kontrollera zoomfaktorn**
 Aspose.Cells tillhandahåller en [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-klass som representerar en Microsoft Excel-fil. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-klassen innehåller en [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) som gör det möjligt att komma åt varje kalkylblad i en Excel-fil.
 
-Ett kalkylblad representeras av klassen [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-klassen tillhandahåller ett brett utbud av egenskaper och metoder för att hantera kalkylblad. För att ställa in kalkylbladets zoomfaktor, använd [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-klassens [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom)-metod.
+Ett kalkylblad representeras av [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klassen. [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klassen ger ett brett utbud av egenskaper och metoder för att hantera kalkylblad. För att ställa in ett kalkylblads zoom-faktor, använd [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klassens [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) metod.
 
-Ett komplett exempel ges nedan som demonstrerar hur man använder [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom)-metoden för att ange zoomfaktorn för det första kalkylbladet i en Excel-fil.
+Ett komplett exempel ges nedan som visar hur man använder [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) metoden för att ställa in zoom-faktorn för det första kalkylbladet i en Excel-fil.
 
 På skärmbilden nedan kan du se att filen Book1.xls är i standardvy.
 
@@ -77,14 +77,14 @@ Aspose.Cells tillåter också utvecklare att tillämpa frysfönster på kalkylbl
 
 Aspose.Cells tillhandahåller en [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-klass som representerar en Microsoft Excel-fil. Workbook-klassen innehåller en [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) som ger åtkomst till varje kalkylblad i en Excel-fil.
 
-Ett kalkylblad representeras av [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-klassen. Worksheet-klassen tillhandahåller ett brett utbud av egenskaper och metoder för att hantera kalkylblad. För att konfigurera frysta rutor, anropa Worksheet-klassens [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\))-metod. freezePanes-metoden tar följande parametrar:
+Ett kalkylblad representeras av [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klassen. [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klassen ger ett brett utbud av egenskaper och metoder för att hantera kalkylblad. För att konfigurera frysningar, använd [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klassens [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) metod. [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) metoden tar följande parametrar:
 
 - **Rad**, radindexet för cellen som frysen ska starta från.
 - **Kolumn**, kolumnindexet för cellen som frysen ska starta från.
 - **Frusna rader**, antalet synliga rader i toppfönstret.
 - **Frusna kolumner**, antalet synliga kolumner i vänstra fönstret.
 
-Ett komplett exempel ges nedan som visar hur man använder Worksheet-klassens [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\))-metod för att frysa rader och kolumner (börjar från C4, representerade av den 4: e raden och 3: e kolumnen, där raderna och kolumnerna börjar från 0-index) på det första kalkylbladet i Excel-filen.
+Ett fullständigt exempel ges nedan som visar hur man använder [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klassens [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) metod för att frysa rader och kolumner (från C4, som är representerad av rad 4 och kolumn 3, där rader och kolumner börjar från index 0) i det första kalkylbladet i Excel-filen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FreezePanes-FreezePanes.java" >}}
 
@@ -106,7 +106,7 @@ Om du behöver dela skärmen för att få två olika vyer i samma arbetsblad, de
 Fönstren fungerar samtidigt. Om du gör en förändring i ett, visas förändringen samtidigt i den andra. Aspose.Cells tillhandahåller split panes-funktionen för användarna.
 ### **Sätta på och Ta bort Delade paneler**
 #### **Dela Fönster**
-Aspose.Cells tillhandahåller en [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass som representerar en Microsoft Excel-fil. Klassen [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) ger ett brett utbud av egenskaper och metoder för att hantera Excel-filer. För att genomföra delade vyer, använd [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klassens [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\)) metod. För att ta bort delade rutor, använd [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) metoden.
+Aspose.Cells tillhandahåller en [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass som representerar en Microsoft Excel-fil. Klassen [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) erbjuder ett brett utbud av egenskaper och metoder för att hantera Excel-filer. För att implementera split view, använd [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klassens [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split--) metod. För att ta bort split-vyer, använd [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--) metod.
 
 I exemplet använder vi en enkel mallfil som laddas, sedan används inställningar för att dela rutor på en cell i det första arbetsbladet. Den uppdaterade filen sparas.
 
@@ -122,7 +122,7 @@ Efter att ha kört ovanstående kod har den genererade filen en delad vy.
 
 ![todo:image_alt_text](worksheet-views_9.png)
 #### **Ta bort rutor**
-Utvecklare kan ta bort delade rutor med hjälp av [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klassens [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) metod.
+Utvecklare kan ta bort split-vyer med hjälp av [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klassens [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--) metod.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovePanes-RemovePanes.java" >}}
 
@@ -133,3 +133,4 @@ Utvecklare kan ta bort delade rutor med hjälp av [Worksheet](https://reference.
 - [Visa och Dölj Element](/cells/sv/java/show-and-hide-elements/)
 - [Visa formler istället för värden i ett kalkylblad](/cells/sv/java/show-formulas-instead-of-values-in-a-worksheet/)
 - [Använd felkontrollalternativ](/cells/sv/java/use-error-checking-options/)
+{{< app/cells/assistant language="java" >}}

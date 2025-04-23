@@ -14,3 +14,4 @@ Ibland är det nödvändigt att inkludera länkar till externa filer i formler, 
 Det exempelkod nedan visar hur du inkluderar externa filer i formler.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetExternalLinksInFormulas-SetExternalLinksInFormulas.java" >}}
+{{< app/cells/assistant language="java" >}}

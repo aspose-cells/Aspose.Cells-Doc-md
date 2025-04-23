@@ -10,9 +10,9 @@ url: /sv/java/detect-hyperlink-type/
 En Excelfil kan ha olika typer av hyperlänkar som externa, cellreferenser, filvägar, etc. Aspose.Cells stöder funktionen att upptäcka hyperlänkens typ. Hyperlänkstyperna representeras av [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)-uppräkningen. [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)-uppräkningen har följande medlemmar.
 
 - [**EXTERNAL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): Extern länk
-- [**FILE_PATH**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): Lokal och full filväg till filer\mappar
+- [**FILE_PATH**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE-PATH): Lokal och full filväg till filer\mappar
 - [**EMAIL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): E-post
-- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE): Länk till cell eller namngivet område.
+- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL-REFERENCE): Länk till cell eller namngivet område.
 
 För att kontrollera typen av hyperlänk tillhandahåller [**Hyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink)-klassen en [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType)-egenskap med en returtyp av [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). Följande kodsnutt demonstrerar användningen av [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType)-egenskapen genom att använda detta [käll-excel-fil](LinkTypes.xlsx).
 
@@ -32,3 +32,4 @@ FullPathExample: CELL_REFERENCE </br>
 https://products.aspose.com/cells/ : EXTERNAL </br>
 mailto:test@test.com?subject=TestLink: EMAIL
 ```
+{{< app/cells/assistant language="java" >}}

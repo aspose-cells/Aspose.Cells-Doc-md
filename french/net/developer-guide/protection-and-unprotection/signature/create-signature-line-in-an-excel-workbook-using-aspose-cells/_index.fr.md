@@ -18,3 +18,4 @@ Aspose.Cells propose également cette fonctionnalité et a exposé la propriét�
 Le code d'exemple suivant ajoute une ligne de signature en utilisant la propriété [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) et enregistre le classeur.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateSignatureLineInWorkbook-CreateSignatureLineInWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -38,3 +38,4 @@ Om ExternalConnection-objektet innehåller SQL-anslutningsdata kan det typomvand
 
 
 
+{{< app/cells/assistant language="java" >}}

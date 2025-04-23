@@ -42,4 +42,5 @@ description: 使用Aspose.Cells，很容易创建、打开和管理Excel、CSV�
 - [将Excel转换为JSON](/cells/zh/net/convert-excel-to-json/)
 - [将JSON转换为CSV](/cells/zh/net/convert-json-to-csv/)
 - [将JSON转换为Excel](/cells/zh/net/convert-json-to-excel/)
-- [将Excel转换为Html](/cells/zh/net/convert-excel-to-html/)
+- [转换Excel为HTML](/cells/zh/net/convert-excel-to-html/)
+{{< app/cells/assistant language="csharp" >}}

@@ -1,10 +1,10 @@
 ---
-title: Hur man kör Aspose.Cells.GridWeb i docker
+title: hur man kör Aspose.Cells.GridWeb i docker
 type: docs
 weight: 250
 url: /sv/net/aspose-cells-gridweb/how-to-build-online-excel-editor/
-keywords: GridWeb,docker
-description: Denna artikel beskriver hur man kör GridWeb i docker för att bygga en online Excel redigerare eller visningsapplikation.
+keywords: GridWeb, docker
+description: Denna artikel introducerar hur man kör GridWeb i docker för att bygga en online excel redigerare eller visningsapplikation.
 aliases:
   - /net/aspose-cells-gridweb/docker/
   - /net/aspose-cells-gridweb/run-aspose-cells-gridweb-in-docker/
@@ -23,13 +23,13 @@ aliases:
 
 Se till att du har Docker installerat på din maskin. Du kan ladda ner och installera Docker från [officiella Docker-webbplatsen](https://www.docker.com/get-started).
 
-## Steg 1: Skapa en Dockerfil
+## Steg 1: Skapa en Dockerfile
 
-Skapa en fil med namnet `Dockerfile` i din projekt [katalog](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/). `Dockerfilen` bör innehålla instruktioner om hur man bygger din Docker-bild.
+Skapa en fil som heter `Dockerfile` i ditt projekt [katalog](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/). `Dockerfile` ska innehålla instruktioner om hur du bygger din Docker-image.
 
 ## Steg 2: Skriv Dockerfile för GridWeb
 
-Här är en prov [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/Dockerfile) för GridWeb-demo med ASP.NET Core-applikation:
+Här är ett exempel [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/Dockerfile) för demo av GridWeb med ASP.NET Core applikation:
 
 ```dockerfile
 # Use the official .NET6.0 runtime as a parent image
@@ -77,52 +77,52 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "GridWeb.Demo.NET6.0.dll"]
 ```
 
-## Steg 3: Bygga Docker-image
-Bygg Docker-image: Från terminalen, kör följande kommando för att bygga din Docker-image:
+## Steg 3: Bygga Docker-bilden
+Bygg Docker-bilden: Från terminalen, kör följande kommando för att bygga din Docker-bild:
 ```bash
 docker build -t gridweb-demo-net6 .
 ```
 du kan ersätta gridweb-demo-net6 med det namn du vill ge din Docker-bild.
 
-## Steg 4: Köra en Docker-container
+## Steg 4: Kör en Docker-container
 När bilden är byggd kan du köra en container med följande kommando:
 
 ```bash
 docker run -d -p 24262:80 --name gridweb-demo-container  gridweb-demo-net6
 ```
-Förklaring av Docker Run-kommandoalternativ
--d: Kör containern i detach-läge (i bakgrunden).
--p 24262:80: Kartlägg port 80 i containern till port 24262 på värdmaskinen.
+Förklaring av Docker Run-kommandots alternativ
+-d: Kör containern i bakgrunden (avskilt läge).
+-p 24262:80: Mappar port 80 i containern till port 24262 på värddatorn.
 --name gridweb-demo-container: Tilldela ett namn till containern.
 
-## Steg 5: Verifiera att containern körs
-För att kontrollera om din container körs, använd följande kommando:
+## Steg 5: Kontrollera att containern körs
+För att kontrollera att din container är igång, använd följande kommando:
 
 ```bash
 docker ps
 ```
-Detta kommer att lista alla körande containrar. Du bör se din container listad tillsammans med dess namn och status.
+Detta listas alla aktiva containrar. Du bör se din container listad med namn och status.
 
-## Steg 6: Kom åt webbapplikationen
+## Steg 6: Åtkomst till webbapplikationen
 
-Öppna en webbläsare och gå till `http://localhost:24262/`. Du bör se din applikation köra.
+Öppna en webbläsare och gå till `http://localhost:24262/`. Du bör se din applikation köras.
 
-du kommer att se den allmänna utvecklingsguiden för GridWeb 
+du kommer att se den generella utvecklingsguiden för GridWeb 
 
-klicka på [demo](http://localhost:24262/grid/index1 "demo") på sidan, du kan göra redigeringsåtgärder för kalkylbladet.
+klicka på [demo](http://localhost:24262/grid/index1 "demo") på sidan, du kan utföra redigeringsoperationer för kalkylbladsfilen.
 
-## Ytterligare kommandon
+## Ytterligare Kommandon
 
-### Stoppa containern
+### Stanna containern
 
-För att stoppa en körande container, använd följande kommando:
+För att stoppa en körande containter, använd följande kommando:
 
 ```bash
 docker stop gridweb-demo-container
 ```
 
-### Ta bort en behållare
-För att ta bort en stoppad behållare, använd följande kommando:
+### Ta bort en container
+För att ta bort en stoppad container, använd följande kommando:
 
 ```bash
 docker rm  gridweb-demo-container

@@ -41,3 +41,4 @@ Aspose.Cells позволяет импортировать XML-карту вну
 - [Привязка ячеек к элементам XML-отображения](/cells/ru/net/link-cells-to-xml-map-elements/)
 - [Запрос областей ячеек, привязанных к пути XML-отображения, с использованием метода Worksheet.XmlMapQuery](/cells/ru/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 
+{{< app/cells/assistant language="csharp" >}}

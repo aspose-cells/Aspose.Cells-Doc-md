@@ -28,3 +28,4 @@ Der folgende Beispielcode konvertiert die Beispiels-Excel-Datei in HTML, was nur
 - [Excel-Dateien in HTML konvertieren](/cells/de/java/converting-workbook-to-different-formats/#convertingworkbooktodifferentformats-convertingexcelfilestohtml)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

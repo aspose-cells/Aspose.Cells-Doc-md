@@ -20,3 +20,4 @@ url: /ar/java/save-each-worksheet-to-a-different-pdf-file/
 إذا كان جدول البيانات يحتوي على صيغ، من الأفضل استدعاء الطريقة [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) قبل تقديم جدول البيانات إلى PDF. هذا يضمن إعادة حساب القيم التي تعتمد على الصيغ، وتقديم القيم الصحيحة في مستند PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

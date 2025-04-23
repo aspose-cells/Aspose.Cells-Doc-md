@@ -24,3 +24,4 @@ keywords: 使用C#在Excel中应用单元格验证，在Excel中对单元格应�
 ## 相关文章
 
 - [数据有效性](/cells/zh/net/data-validation/)
+{{< app/cells/assistant language="csharp" >}}

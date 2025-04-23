@@ -47,3 +47,4 @@ Il n'y a pas de meilleur moyen d'obtenir la taille de la pile utilisée à l'ex�
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="csharp" >}}

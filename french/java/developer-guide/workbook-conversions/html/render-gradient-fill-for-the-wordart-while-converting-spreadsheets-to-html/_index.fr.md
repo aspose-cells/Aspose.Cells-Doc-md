@@ -13,3 +13,4 @@ Auparavant, les API Aspose.Cells n'étaient pas capables de rendre le remplissag
 Le code d'exemple suivant convertit le fichier Excel source en format HTML de sortie. Le fichier Excel source contient un objet WordArt avec un remplissage dégradé comme indiqué dans la capture d'écran ci-dessus.
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RenderGradientFillHTML-RenderGradientFillHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

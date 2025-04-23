@@ -46,3 +46,4 @@ cells.setMemorySetting(MemorySetting.MEMORY_PREFERENCE);
 Пожалуйста, ознакомьтесь со подробной статьей по теме [Оптимизация памяти при работе с большими наборами данных](/cells/ru/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

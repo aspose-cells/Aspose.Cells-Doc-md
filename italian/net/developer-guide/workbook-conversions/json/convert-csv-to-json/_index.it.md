@@ -60,3 +60,4 @@ Il seguente esempio di codice dimostra l'uso delle classi [**ExportRangeToJsonO
 ]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

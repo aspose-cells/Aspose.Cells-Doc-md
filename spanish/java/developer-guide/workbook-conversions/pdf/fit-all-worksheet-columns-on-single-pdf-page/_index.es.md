@@ -30,3 +30,4 @@ El siguiente código de ejemplo muestra cómo usar la propiedad [**PdfSaveOption
 Si tu hoja de cálculo contiene fórmulas, es mejor llamar al método [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) justo antes de renderizar la hoja de cálculo en formato PDF. Hacerlo garantizará que los valores dependientes de la fórmula sean recalculados y que se muestren los valores correctos en el PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

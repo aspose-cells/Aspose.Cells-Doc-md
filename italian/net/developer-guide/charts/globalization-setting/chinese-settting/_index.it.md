@@ -51,3 +51,4 @@ Dopo l'operazione precedente, possiamo ottenere un'immagine del grafico in uscit
 |Nome della Somma Totale Leggenda|汇总|Totale|
 |Altro Nome|其他|Altro|
 |Nome della Serie Leggenda|系列|Serie|
+{{< app/cells/assistant language="csharp" >}}

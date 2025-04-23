@@ -1,19 +1,19 @@
 ---
-title: Comment vérifier l état figé sans Excel.
+title: Comment vérifier l état de gel sans Excel.
 linktitle: État figé
 type: docs
 weight: 190
 url: /fr/python-net/how-to-check-frozen-state-of-excel-worksheet
-description: Dans cet article, vous apprendrez comment vérifier l état figé d une feuille de calcul Excel de manière programmable en utilisant Aspose.Cells pour Python via .NET APIs.
-keywords: Bibliothèque Excel Python, Comment vérifier l état figé sans Excel, Vérifier l état figé sans Excel en Python.
+description: Dans cet article, vous apprendrez comment vérifier l état de gel d une feuille Excel de manière programmatique en utilisant Aspose.Cells pour Python via .NET APIs.
+keywords: Bibliothèque Excel Python, Comment vérifier l état de gel sans Excel en Python, Vérifier l état de gel sans Excel en Python.
 ---
 
 ## **Introduction**
 
-Dans cet article, nous apprendrons comment vérifier l'état figé d'une feuille de calcul Excel de manière programmable. Nous pouvons simplement savoir si la feuille de calcul est figée ou divisée dans MS Excel. Mais y a-t-il un moyen de savoir si elle est figée ou divisée avec CSharp. Nous pouvons simplement le faire avec Aspose.Cells pour Python via .NET.
+Dans cet article, nous apprendrons comment vérifier de manière programmatique l'état de gel d'une feuille Excel. Nous pouvons simplement vérifier si la feuille est gelée ou splittée dans MS Excel. Mais existe-t-il une méthode pour le faire en CSharp ? Nous pouvons le faire simplement avec Aspose.Cells pour Python via .NET.
 
-## **Comment vérifier l'état figé**
-Avec Aspose.Cells pour Python via .NET, nous pouvons vérifier si la fenêtre est figée et combien de lignes et de colonnes sont verrouillées.
+## **Comment vérifier l'état de gel**
+Avec Aspose.Cells pour Python via .NET, nous pouvons vérifier si la fenêtre est gelée et combien de lignes et colonnes sont verrouillées.
 
 Veuillez utiliser la propriété [**Worksheet.pane_state**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/pane_state/) pour vérifier l'état des volets de la fenêtre 
 et obtenir les lignes et colonnes verrouillées avec la méthode [**Worksheet.get_freezed_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/get_freezed_panes/#any-any-any-any)

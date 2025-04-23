@@ -65,3 +65,4 @@ Descargar **Guardar cada hoja de trabajo en PDFs diferentes** de cualquiera de l
 Para más detalles, visite [Guardar cada hoja de cálculo en un archivo PDF diferente](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

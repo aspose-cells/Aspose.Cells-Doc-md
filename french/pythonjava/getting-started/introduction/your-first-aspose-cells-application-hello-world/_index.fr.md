@@ -11,7 +11,7 @@ Ce sujet pour débutants montre comment les développeurs peuvent créer une pre
 
 {{% /alert %}}
 
-### **Création de l'application Hello World**
+## **Création de l'application Hello World**
 
 Pour créer l'application Hello World à l'aide de l'API Aspose.Cells :
 
@@ -26,7 +26,7 @@ Pour créer l'application Hello World à l'aide de l'API Aspose.Cells :
 
 Les exemples ci-dessous démontrent les étapes ci-dessus.
 
-#### **Création d'un classeur**
+### **Création d'un classeur**
 
 L'exemple suivant crée un nouveau classeur à partir de zéro, écrit les mots "Bonjour le Monde !" dans la cellule A1 sur la première feuille de calcul, et sauvegarde le fichier.
 
@@ -36,7 +36,7 @@ L'exemple suivant crée un nouveau classeur à partir de zéro, écrit les mots 
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "CreatingHelloWorldFile.py" >}}
 
-#### **Ouverture d'un fichier existant**
+### **Ouverture d'un fichier existant**
 
 L'exemple suivant ouvre un fichier modèle Microsoft Excel existant appelé **book1.xls**, écrit les mots "Bonjour le Monde !" dans la cellule A1 de la première feuille de calcul, et enregistre le classeur sous un nouveau nom de fichier.
 

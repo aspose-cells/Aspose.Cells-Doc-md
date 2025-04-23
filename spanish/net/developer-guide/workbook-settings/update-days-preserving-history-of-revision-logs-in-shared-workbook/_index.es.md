@@ -18,3 +18,4 @@ El siguiente código de muestra crea un libro de trabajo vacío, luego lo compar
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-UpdateDaysPreservingHistoryOfRevisionLogsInSharedWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

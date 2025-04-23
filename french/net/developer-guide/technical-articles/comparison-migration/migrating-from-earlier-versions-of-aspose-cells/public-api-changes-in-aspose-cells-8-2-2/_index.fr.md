@@ -55,3 +55,4 @@ var  worksheet = chart.Worksheet;
 Console.WriteLine("Chart's Sheet Name: " + worksheet.Name);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

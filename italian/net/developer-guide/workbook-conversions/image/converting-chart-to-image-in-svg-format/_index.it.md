@@ -20,3 +20,4 @@ Nel seguente codice di esempio viene spiegato come utilizzare Aspose.Cells per c
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-ConvertChartToSvgImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -28,3 +28,4 @@ url: /ar/java/working-with-the-glow-effect-of-shape-or-chart/
 
 
 
+{{< app/cells/assistant language="java" >}}

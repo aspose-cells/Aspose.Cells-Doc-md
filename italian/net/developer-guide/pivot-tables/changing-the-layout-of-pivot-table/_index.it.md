@@ -20,3 +20,4 @@ Aspose.Cells fornisce anche metodi [**PivotTable.ShowInCompactForm()**](https://
 Il seguente codice di esempio mostra prima la tabella pivot in **Forma compatta**, poi mostra la tabella pivot in **Forma di contorno** e infine mostra la tabella pivot in **Forma tabellare**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-ChangingLayoutOfPivotTable-ChangingLayoutOfPivotTable.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

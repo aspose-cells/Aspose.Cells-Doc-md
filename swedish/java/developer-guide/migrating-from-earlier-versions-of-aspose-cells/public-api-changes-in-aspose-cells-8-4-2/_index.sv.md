@@ -161,3 +161,4 @@ workbook.save(output);
 Från och med frisläppandet av Aspose.Cells for Java 8.4.2 beter sig uppräkningfältet PasteType.ALL annorlunda jämfört med Excels  "All"-funktionalitet för att klistra in området av celler. Nu kopierar även PasteType.ALL kolumnbredderna till destinationsområdet till skillnad från Excels "All"-funktionalitet. För att efterlikna Excels "All"-beteende, använd PasteType.DEFAULT.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

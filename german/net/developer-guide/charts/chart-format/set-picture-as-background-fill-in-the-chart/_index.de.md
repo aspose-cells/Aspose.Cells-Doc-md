@@ -18,3 +18,4 @@ Um dies zu erreichen, bietet Aspose.Cells die [**Chart.PlotArea.Area.FillFormat
 ## C#-Code zum Einstellen eines Bildes als Hintergrundfüllung im Diagramm
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-SetPictureBackGroundFillChart-SetPictureBackGroundFillChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

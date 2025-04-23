@@ -56,3 +56,4 @@ Detta exempel använder en enkel mall Excel-fil där en stil som heter Procent r
 Modifieringarna tillämpas automatiskt på området där stilen applicerades.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ModifyExistingStyle-ModifyExistingStyle.java" >}}
+{{< app/cells/assistant language="java" >}}

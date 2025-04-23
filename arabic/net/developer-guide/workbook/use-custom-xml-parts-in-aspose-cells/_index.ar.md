@@ -24,3 +24,4 @@ url: /ar/net/use-custom-xml-parts-in-aspose-cells/
 ## مقال ذو صلة
 
 - [إضافة خصائص مخصصة مرئية داخل لوحة معلومات الوثيقة](/cells/ar/net/adding-custom-properties-visible-inside-document-information-panel/)
+{{< app/cells/assistant language="csharp" >}}

@@ -15,7 +15,7 @@ url: /ar/java/converting-worksheet-to-different-image-formats/
 
 في بعض الأحيان، يكون من المفيد حفظ صورة لورقة العمل. يمكن مشاركة الصور عبر الإنترنت، وإدراجها في مستندات أخرى (مثل التقارير المكتوبة في Microsoft Word، على سبيل المثال، أو عروض PowerPoint).
 
-توفر Aspose.Cells التصدير الصوري من خلال فئة [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender). هذه الفئة تمثل ورقة العمل التي ستتم تقديمها إلى ملف صورة. توفر الفئة [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) الطريقة [**toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream)) لتحويل ورقة العمل إلى ملف صورة. يتم دعم تنسيقات BMP وPNG وJPEG وTIFF وEMF.
+توفر Aspose.Cells التصدير الصوري من خلال فئة [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender). هذه الفئة تمثل ورقة العمل التي ستتم تقديمها إلى ملف صورة. توفر الفئة [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) الطريقة [**toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage-int-java.io.OutputStream-) لتحويل ورقة العمل إلى ملف صورة. يتم دعم تنسيقات BMP وPNG وJPEG وTIFF وEMF.
 
 {{% alert color="primary" %}}
 
@@ -58,3 +58,4 @@ url: /ar/java/converting-worksheet-to-different-image-formats/
 - [تصدير مخطط إلى SVG باستخدام سمة viewBox](/cells/ar/java/export-chart-to-svg-with-viewbox-attribute/)
 - [تصدير ورقة العمل أو الرسم البياني إلى صورة بعرض وارتفاع مطلوبين](/cells/ar/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
 - [تحويل الورقة العمل إلى صورة والورقة العمل إلى صورة حسب الصفحة](/cells/ar/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)
+{{< app/cells/assistant language="java" >}}

@@ -258,3 +258,4 @@ opts.setFontSubstitutionCharGranularity(true);
 建议使用 Workbook.createStyle 方法为 Workbook 实例创建和操纵样式，而不是使用 StyleCollection.add 方法创建样式。此外，应使用 Workbook.getNamedStyle(string) 方法获取命名样式，而不是使用 StyleCollection.get(string)。
 ### **已弃用的 PivotItem.move(int count) 方法**
 Aspose.Cells 8.3.2 版本推出了另一个 PivotItem.move 方法的重载，它接受整数参数用于计数，并接受布尔参数用于在父节点内移动 PivotItem。 
+{{< app/cells/assistant language="java" >}}

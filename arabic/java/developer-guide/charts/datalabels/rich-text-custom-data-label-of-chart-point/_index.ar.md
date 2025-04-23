@@ -7,7 +7,7 @@ url: /ar/java/rich-text-custom-data-label-of-chart-point/
 
 {{% alert color="primary" %}}
 
-يمكنك استخدام Aspose.Cells لإنشاء تسمية بيانات مخصصة ذات نص غني لنقطة الرسم البياني. توفر Aspose.Cells الطريقة [**DataLabels.characters()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#characters(int,%20int)) لاسترداد كائن [**FontSetting**](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) الذي يمكن استخدامه لتعيين خصائص الخط مثل لونه، وكثافته، وما إلى ذلك.
+يمكنك استخدام Aspose.Cells لإنشاء تسمية بيانات مخصصة ذات نص غني لنقطة الرسم البياني. توفر Aspose.Cells الطريقة [**DataLabels.characters()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#characters-int-int-) لاسترداد كائن [**FontSetting**](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) الذي يمكن استخدامه لتعيين خصائص الخط مثل لونه، وكثافته، وما إلى ذلك.
 
 {{% /alert %}}
 
@@ -20,3 +20,4 @@ url: /ar/java/rich-text-custom-data-label-of-chart-point/
 ## مقالات ذات صلة
 
 - [تعيين نوع الشكل لتسميات بيانات الرسم البياني](/cells/ar/java/set-the-shape-type-of-data-labels-of-chart/)
+{{< app/cells/assistant language="java" >}}

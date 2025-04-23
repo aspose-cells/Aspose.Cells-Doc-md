@@ -1,10 +1,10 @@
 ---
-title: wie man Aspose.Cells.GridJs in Docker ausführt
+title: So läuft Aspose.Cells.GridJs in Docker
 type: docs
 weight: 250
 url: /de/java/aspose-cells-gridjs/how-to-build-online-excel-editor/
-keywords: GridJs,Docker
-description: In diesem Artikel wird erläutert, wie man GridJs in Docker ausführt, um eine Online Excel Editor oder Viewer Anwendung zu erstellen.
+keywords: GridJs, Docker
+description: Dieser Artikel beschreibt, wie man GridJs in Docker ausführt, um einen Online Excel Editor oder Viewer zu erstellen.
 aliases:
   - /java/aspose-cells-gridjs/docker/
   - /java/aspose-cells-gridjs/run-aspose-cells-gridjs-in-docker/
@@ -17,45 +17,41 @@ aliases:
   - /java/aspose-cells-gridjs/how-to-build-web-excel-viewer-using-gridjs/
 ---
 
-# Docker-Leitfaden
+# Docker Anleitung
 
 ## Voraussetzungen
 
-Stellen Sie sicher, dass Sie Docker auf Ihrem Rechner installiert haben. Sie können Docker von der [offiziellen Docker-Website](https://www.docker.com/get-started) herunterladen und installieren.
+Stellen Sie sicher, dass Docker auf Ihrem Rechner installiert ist. Sie können Docker vom [offiziellen Docker-Website](https://www.docker.com/get-started) herunterladen und installieren.
 
-## Schritt 1: Erstellen Sie ein Dockerfile
+## Schritt 1: Erstellen Sie eine Dockerfile
 
-Erstellen Sie eine Datei mit dem Namen `Dockerfile` in Ihrem Projekt [Verzeichnis](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs). Das `Dockerfile` sollte Anweisungen enthalten, wie Ihr Docker-Image erstellt wird.
+Erstellen Sie eine Datei namens `Dockerfile` in Ihrem Projekt [Verzeichnis](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs). Das `Dockerfile` sollte Anweisungen enthalten, wie Ihr Docker-Image gebaut wird.
 
-## Schritt 2: Schreiben Sie Dockerfile für GridJs
+## Schritt 2: Schreiben Sie die Dockerfile für GridJs
 
-Hier ist ein Beispiels-`Dockerfile` (https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs/Dockerfile) für das GridJs-Demo mit einer Java-Anwendung:
+Hier ist ein Beispiel [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs/Dockerfile) für GridJs-Demo mit Java-Anwendung:
 
 ```dockerfile
-# Use the jdk8 image
-FROM eclipse/ubuntu_jdk8
+# Use the maven image to build jar file
+FROM maven:3.8.6-amazoncorretto-17 AS build
 WORKDIR /usr/src/app
 
 
 # copy local Maven files to container
-COPY mvnw .
 COPY .mvn .mvn
 COPY pom.xml .
 COPY src src
 
 # build application with maven
-RUN ./mvnw package -DskipTests
+RUN mvn  package -DskipTests
 
-# Set the user
-USER root
 
-#RUN ls -l *
+# Use the jdk8 image as the basic docker image
+FROM eclipse/ubuntu_jdk8
+WORKDIR /app
+# copy build jar file to target container 
+COPY --from=build /usr/src/app/target/*.jar /app/app.jar
 
-# copy the build output jar to container
-COPY  target/*.jar /app/app.jar
-
-# delete build source to reduce storage usage
-RUN rm -rf target && rm -rf .mvn && rm -rf src
 # web port
 EXPOSE 8080
 # if you want display better like in windows ,you need to install kinds of fonts in /usr/share/fonts/ 
@@ -65,6 +61,8 @@ EXPOSE 8080
 # COPY fonts/* /usr/share/fonts/
 # the basic file path which contains the spread sheet files 
 RUN mkdir -p /app/wb
+# the file path to store the uploaded files
+RUN mkdir -p /app/uploads
 # the cache file path for GridJs
 RUN mkdir -p /app/grid_cache/streamcache
 # we provide some sample spread sheet files in demo 
@@ -74,39 +72,48 @@ COPY wb/*.xlsx /app/wb/
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app/app.jar"]
 ```
 
-## Schritt 3: Erstellen des Docker-Images
-Bauen Sie das Docker-Image: Führen Sie im Terminal den folgenden Befehl aus, um Ihr Docker-Image zu erstellen:
+## Schritt 3: Das Docker-Image erstellen
+Builden Sie das Docker-Image: Führen Sie im Terminal den folgenden Befehl aus, um Ihr Docker-Image zu erstellen:
 ```bash
 docker build -t gridjs-demo-java .
 ```
 Sie können `gridjs-demo-java` durch den Namen ersetzen, den Sie Ihrem Docker-Image geben möchten.
 
-## Schritt 4: Ausführen eines Docker-Containers
-Nachdem das Image erstellt wurde, können Sie einen Container mit dem folgenden Befehl ausführen:
+## Schritt 4: Einen Docker-Container ausführen
+Sobald das Image erstellt ist, können Sie einen Container mit dem folgenden Befehl starten:
 
 ```bash
-docker run -d -p 8080:80 --name gridjs-demo-container  gridjs-demo-java
+docker run -d -p 8080:80   -v C:/path/to/license.txt:/app/license --name gridjs-demo-container  gridjs-demo-java
 ```
-Erklärung der Optionen des Docker Run-Befehls
--d: Führen Sie den Container im Hintergrundmodus (getrennt) aus.
--p 8080:80: Weisen Sie Port 80 im Container Port 8080 auf dem Host-Rechner zu.
---name gridjs-demo-container: Weisen Sie dem Container einen Namen zu.
+
+Oder führen Sie die Demo einfach im Probemodus aus:
+
+
+```bash
+docker run -d -p 8080:80  --name gridjs-demo-container  gridjs-demo-java
+```
+
+Erläuterung der Docker-Run-Befehlsoptionen
+-d: Den Container im Detached-Modus (im Hintergrund) starten.
+-p 8080:80: Karte Port 80 im Container an Port 8080 auf der Hostmaschine.
+-v C:/path/to/license.txt:/app/license: Pfad zur Lizenzdatei auf dem Host-Rechner auf den Dateipfad im Container abbilden.
+--name gridjs-demo-container: Einen Namen für den Container vergeben.
 
 ## Schritt 5: Überprüfen, ob der Container läuft
-Um zu überprüfen, ob Ihr Container ausgeführt wird, verwenden Sie den folgenden Befehl:
+Um zu überprüfen, ob Ihr Container läuft, verwenden Sie den folgenden Befehl:
 
 ```bash
 docker ps
 ```
-Hier werden alle laufenden Container aufgelistet. Sie sollten Ihren Container zusammen mit seinem Namen und Status sehen.
+Dies listet alle laufenden Container auf. Sie sollten Ihren Container mit seinem Namen und Status sehen.
 
 ## Schritt 6: Zugriff auf die Webanwendung
 
-Öffnen Sie einen Webbrowser und gehen Sie zu ` http://localhost:8080/gridjsdemo/index`. Sie sollten Ihre Anwendung sehen, die läuft.
+Öffnen Sie einen Webbrowser und gehen Sie zu `http://localhost:8080/gridjsdemo/index`. Sie sollten Ihre Anwendung laufen sehen.
 
-## Weitere Befehle
+## Zusätzliche Befehle
 
-### Stoppen des Containers
+### Container stoppen
 
 Um einen laufenden Container zu stoppen, verwenden Sie den folgenden Befehl:
 
@@ -114,15 +121,15 @@ Um einen laufenden Container zu stoppen, verwenden Sie den folgenden Befehl:
 docker stop gridjs-demo-container
 ```
 
-### Entfernen eines Containers
+### Einen Container entfernen
 Um einen gestoppten Container zu entfernen, verwenden Sie den folgenden Befehl:
 
 ```bash
 docker rm  gridjs-demo-container
 ```
 
-### Entfernen eines Bildes
-Um ein Bild zu entfernen, verwenden Sie den folgenden Befehl:
+### Ein Image entfernen
+Um ein Image zu entfernen, verwenden Sie den folgenden Befehl:
 
 ```bash
 docker rmi gridjs-demo-java

@@ -42,3 +42,4 @@ Vi tänker troligtvis använda Aspose.Cells för all inläsning och sparning av 
 Hittills har vi inte haft några problem med att använda Aspose.Cells-komponenterna och komponenten borde spara oss utvecklingstid både på kort och lång sikt. Support- och försäljningsförfrågningar har besvarats snabbt och hjälpsamt.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

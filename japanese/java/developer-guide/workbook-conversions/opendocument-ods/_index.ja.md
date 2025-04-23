@@ -17,3 +17,4 @@ Aspose.CellsはOpenDocument 1.1および1.2ドキュメントの読み込みを�
 **Aspose.Cellsによって生成されたサンプルODS文書をOpenOffice Writerで開いた例** 
 
 ![todo:image_alt_text](opendocument-ods_1.png)
+{{< app/cells/assistant language="java" >}}

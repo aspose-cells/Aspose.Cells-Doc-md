@@ -129,3 +129,4 @@ pivot.CalculateData();
 
 ### **Добавлен метод GridWeb.GetVersion**
 Aspose.Cells.GridWeb для .NET 8.9.0 добавил метод GetVersion, который возвращает версию выпуска компонента GridWeb.
+{{< app/cells/assistant language="csharp" >}}

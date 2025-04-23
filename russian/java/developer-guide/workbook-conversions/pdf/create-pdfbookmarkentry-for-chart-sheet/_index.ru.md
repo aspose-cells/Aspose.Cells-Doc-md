@@ -25,3 +25,4 @@ url: /ru/java/create-pdfbookmarkentry-for-chart-sheet/
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Rendering-CreatePdfBookmarkEntryForChartSheet.java" >}}
+{{< app/cells/assistant language="java" >}}

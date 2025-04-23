@@ -260,3 +260,4 @@ PageSetup.PrintDraft özelliğini kullanmanız önerilir.
 Aynı hedefi elde etmek için lütfen AutoFilter.FilterColumns özelliğini düşünün.
 ### **Silinen TickLabels.Rotation Özelliği**
 Lütfen TickLabels.RotationAngle özelliğini kullanın.
+{{< app/cells/assistant language="java" >}}

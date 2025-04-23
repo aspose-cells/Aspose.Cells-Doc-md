@@ -3,15 +3,15 @@ title: Eliminar Configuraciones de Impresora Existente de Hojas de Cálculo en A
 type: docs
 weight: 60
 url: /es/python-net/remove-existing-printersettings-of-worksheets-in-excel-file/
-description: En este artículo, aprenderás cómo eliminar las Configuraciones de Impresora existentes de la Hoja de Trabajo dentro del archivo de Excel a través del objeto Page Setup de forma programática con código de ejemplo usando la Biblioteca de Excel de Python de Aspose.Cells for Python.
-keywords: Biblioteca de Excel de Python, eliminar las configuraciones de impresora de la hoja de trabajo en Python, eliminar las configuraciones de impresora de la hoja de trabajo de excel en Python.
+description: En este artículo, aprenderás cómo eliminar la configuración del impresor existente de la hoja de cálculo dentro del archivo de Excel mediante el objeto Configuración de página con código de ejemplo usando Aspose.Cells para Python.
+keywords: Biblioteca de Excel en Python, eliminar configuración de impresora de la hoja en Python, eliminar configuración de impresora en una hoja de Excel en Python.
 ---
 
 ## **Escenarios de uso posibles**
-A veces los desarrolladores quieren evitar que Excel incluya archivos *.bin* de las configuraciones de impresora en los archivos XLSX guardados. Los archivos de configuraciones de impresora se encuentran en *“[file "root"]\xl\printerSettings”.* Este documento explica cómo eliminar las configuraciones de impresora existentes utilizando las APIs de Aspose.Cells for Python via .NET.
+A veces, los desarrolladores desean evitar que Excel incluya archivos *.bin* de configuraciones de impresora en los archivos XLSX guardados. Los archivos de configuración de impresora se encuentran en *“[archivo "raíz"]\xl\printerSettings”.* Este documento explica cómo eliminar la configuración de impresora existente usando Aspose.Cells para las APIs de Python via .NET.
 
 ## **Eliminar la configuración existente de PrinterSettings de las hojas de cálculo en el archivo de Excel**
-Aspose.Cells for Python via .NET te permite eliminar las configuraciones de impresora existentes especificadas para diferentes hojas en el archivo de Excel. El siguiente código de muestra ilustra cómo eliminar las configuraciones de impresora existentes para todas las hojas de trabajo en el libro. Consulta su [archivo de Excel de muestra](45056020.xlsx), [archivo de Excel de salida](45056021.xlsx), la salida de la consola y la captura de pantalla como referencia.
+Aspose.Cells para Python via .NET permite eliminar configuraciones de impresora existentes especificadas para diferentes hojas en el archivo Excel. El siguiente código de ejemplo ilustra cómo eliminar la configuración de impresora existente para todas las hojas del libro. Consulta su [archivo de ejemplo de Excel](45056020.xlsx), [archivo de Excel de salida](45056021.xlsx), la salida en consola y la captura de pantalla para referencia.
 
 ## **Captura de pantalla**
 ![todo:image_alt_text](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)

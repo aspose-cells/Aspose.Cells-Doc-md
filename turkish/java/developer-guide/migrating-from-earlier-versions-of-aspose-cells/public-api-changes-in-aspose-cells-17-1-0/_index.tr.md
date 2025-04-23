@@ -189,3 +189,4 @@ Aspose.Cells 17.1.0, DisplayUnitType numaralandırmasına aynı zamanda PERCENTA
 ## **Removed APIs**
 ### **Örnek Değişken m_LoadDataFilterOptions Kaldırıldı**
 Bu sürüm, m_LoadDataFilterOptions örnek değişkenini kaldırdı. LoadFilter.LoadDataFilterOptions özelliğini kullanmanız önerilir.
+{{< app/cells/assistant language="java" >}}

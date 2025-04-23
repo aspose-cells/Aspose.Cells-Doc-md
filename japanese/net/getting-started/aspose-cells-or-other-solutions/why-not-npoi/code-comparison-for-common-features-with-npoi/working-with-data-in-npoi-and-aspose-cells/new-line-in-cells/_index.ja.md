@@ -77,3 +77,4 @@ sw.Close();
 詳細については、[改行とテキストの折り返し](/cells/ja/net/line-breaks-and-text-wrapping/)をご覧ください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -13,3 +13,4 @@ url: /ar/java/formatting-slicer/
 ![todo:image_alt_text](formatting-slicer_1.png)
 ## **الكود المثالي**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Slicers-FormattingSlicer.java" >}}
+{{< app/cells/assistant language="java" >}}

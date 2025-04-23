@@ -3,8 +3,8 @@ title: ヘッダーまたはフッターの取得
 type: docs
 weight: 30
 url: /ja/python-net/get-headers-or-footers/
-description: この記事では、Aspose.Cells for Python via .NET APIを使用して、ExcelファイルまたはOpenOfficeファイルからヘッダーとフッターをプログラムで取得する方法が説明されています。
-keywords: Python Excelライブラリー、Pythonでヘッダーとフッターを取得する方法、Pythonを使用してヘッダーとフッターを解析してコマンドリストに変換します。
+description: この資料では、Aspose.Cells for Python via .NET APIを用いてExcelやOpenOfficeファイルからヘッダーおよびフッターをプログラムで取得する方法を説明します。
+keywords: Python Excelライブラリ、Pythonによるヘッダーとフッターの取得、コマンドリストへのヘッダーとフッターの解析。
 ---
 
 {{% alert color="primary" %}}
@@ -24,7 +24,7 @@ keywords: Python Excelライブラリー、Pythonでヘッダーとフッター�
 3. ヘッダーやフッターを表示または編集するには、ワークシートページの上（ヘッダーの下）または下（フッターの上）にある左、中央、または右のヘッダーまたはフッターテキストボックスをクリックします。
 
 
-## **Aspose.Cells for Python Excelライブラリーを使用してヘッダーとフッターを取得する方法**
+## **Python ExcelライブラリAspose.Cellsを使用したヘッダーとフッターの取得方法**
  [**Worksheet.page_setup.get_header**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/get_header/#int)と[**Worksheet.page_setup.get_footer**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/get_footer/#int)メソッドを使用すると、.Net開発者は簡単にファイルからヘッダーまたはフッターを取得できます。
 
 1. ファイルを開くためのワークブックを作成します。

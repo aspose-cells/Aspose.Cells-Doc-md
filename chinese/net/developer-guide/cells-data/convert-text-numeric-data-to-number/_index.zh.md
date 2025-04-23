@@ -43,3 +43,4 @@ Aspose.Cells提供了可以用于将所有字符串或文本数字数据转换�
 以下示例代码说明了如何在所有工作表中将所有字符串数值数据转换为实际数值。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ConvertStringToNumericValue-ConvertTextNumericDatatoNumber.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

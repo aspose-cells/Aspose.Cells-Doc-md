@@ -46,7 +46,7 @@ Aspose.Cellsは、Microsoft Excelが提供するほとんどの数式または�
 
 Excelアドインとして含めたいユーザー定義の数式があるかもしれません。[**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula)関数を設定すると組み込み関数は正常に動作しますが、アドイン関数を設定する必要があります。
 
-Aspose.Cellsは[**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction(java.lang.String,%20java.lang.String,%20boolean))を使用してアドイン関数を登録する機能を提供しています。その後、[**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) = anyFunctionFromAddInとすると、出力されるExcelファイルにはアドイン関数からの計算された値が含まれます。
+Aspose.Cellsは[**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction-java.lang.String-java.lang.String-boolean-)を使用してアドイン関数を登録する機能を提供しています。その後、[**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) = anyFunctionFromAddInとすると、出力されるExcelファイルにはアドイン関数からの計算された値が含まれます。
 
 以下のサンプルコードでは、アドイン関数の登録を行います。同様に、「test_udf.xlsx」という出力ファイルをダウンロードして結果を確認することもできます。
 
@@ -66,7 +66,7 @@ Aspose.Cellsは[**Worksheets.RegisterAddInFunction()**](https://reference.aspose
 
 いくつかのMicrosoft Excel関数は値の配列を返します。配列数式を使用して複数の結果を計算するには、配列を配列引数と同じ行数および列数のセル範囲に入力してください。
 
-配列数式をセルに適用するには、[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)クラスの[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int))メソッドを呼び出すことができます。[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int))メソッドは次のパラメータを取ります。
+配列数式をセルに適用するには、[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)クラスの[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula-java.lang.String-int-int-)メソッドを呼び出すことができます。[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula-java.lang.String-int-int-)メソッドは次のパラメータを取ります。
 
 - **配列数式**、配列数式。
 - **行数**、配列数式の結果を設定する行数。
@@ -80,3 +80,4 @@ R1C1参照スタイルの数式を、[**Cell**](https://reference.aspose.com/cel
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingR1C1-1.java" >}}
 
+{{< app/cells/assistant language="java" >}}

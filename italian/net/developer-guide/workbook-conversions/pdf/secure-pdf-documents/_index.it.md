@@ -31,3 +31,4 @@ Il codice di esempio qui sotto descrive come proteggere i PDF con Aspose.Cells.
 Se il foglio di calcolo contiene formule, è meglio chiamare [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) proprio prima di renderlo in PDF. Ciò garantisce che i valori dipendenti dalle formule vengano ricalcolati e i valori corretti siano resi nel PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

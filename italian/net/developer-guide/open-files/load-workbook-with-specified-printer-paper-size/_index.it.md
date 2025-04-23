@@ -14,3 +14,4 @@ url: /it/net/load-workbook-with-specified-printer-paper-size/
 Il seguente codice di esempio illustra l'uso del metodo [**LoadOptions.SetPaperSize()**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/methods/setpapersize). Prima crea un libro di lavoro, quindi lo salva in memoria in formato XLSX. Poi lo carica con la dimensione della carta A5 e lo salva in formato PDF. Poi lo ricarica di nuovo con la dimensione della carta A3 e lo salva nuovamente in formato PDF. Se si apre i PDF di output e si controlla la dimensione della carta, si vedrà che sono diversi. Uno è A5 e l'altro è A3. Si prega di scaricare il [PDF di output A5](5115234.pdf) e [PDF di output A3](5115233.pdf) generato dal codice come riferimento.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LoadWorkbookWithPrinterSize-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

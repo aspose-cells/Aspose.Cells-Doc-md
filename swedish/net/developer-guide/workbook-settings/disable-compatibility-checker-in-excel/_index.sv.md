@@ -35,3 +35,4 @@ Ställ in egenskapen [**Workbook.Settings.CheckComptiliblity**](https://referenc
 De följande kodexemplen visar hur man inaktiverar kompatibilitetskontrollen med Aspose.Cells for .NET.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DisableCompatibilityChecker-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -3,8 +3,8 @@ title:  Inställ olika sidhuvuden och sidfötter för olika sidor
 type: docs
 weight: 35
 url: /sv/python-net/setting-different-headers-and-footers-for-pages-to-Excel/
-description: Den här artikeln ger exempelkod som visar hur man programmatiskt ställer in olika header och footers av Excel arkets Siduppställningsinställningar med hjälp av Aspose.Cells för Python API. Du kan ställa in headers och footers för första sidan, udda sidor och jämna sidor.
-keywords: Python Excel bibliotek, Python ställ in excel header footer första sidan, ställ in excel header footer udda sidor i Python, ställ in excel header footer jämna sidor med Python.
+description: Denna artikel ger exempel på kod som visar hur man programmässigt ställer in olika rubriker och sidfötter för Excel kalkylbladets sidsetup inställningar med Aspose.Cells för Python API et. Du kan ställa in rubriker och sidfötter för första sidan, udda sidor och jämna sidor.
+keywords: Python Excel Library, Python ställ in excel rubrik och sidfot för första sidan, ställ in excel rubrik och sidfot för udda sidor i Python, ställ in excel rubrik och sidfot för jämna sidor med Python.
 ---
 
 {{% alert color="primary" %}}
@@ -14,7 +14,7 @@ Aspose.Cells för Python via .NET stöder samma funktion.
 
 {{% /alert %}}
 
-## **Hur man ställer in olika sidhuvuden och sidfotter i MS Excel**
+## **Hur man ställer in olika rubriker och sidfötter i MS Excel**
 
 **![Inställning av olika sidhuvuden och sidfötter](difpage.png)**
 
@@ -22,10 +22,10 @@ Aspose.Cells för Python via .NET stöder samma funktion.
 1. Markera **Olika udda och jämna sidor** eller **Olika första sidan**.
 1. Ange olika sidhuvuden och sidfötter.
 
-## **Hur man ställer in olika sidhuvuden och sidfotter med Aspose.Cells för Python Excel Library**
+## **Hur man ställer in olika rubriker och sidfötter med Aspose.Cells för Python Excel Library**
 
-Aspose.Cells för Python via .NET beter sig på samma sätt som Excel.
-1. Ställer in flaggorna [PageSetup.is_hf_diff_odd_even](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/is_hf_diff_odd_even/) och [PageSetup.is_hf_diff_first](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/is_hf_diff_first/) 
+Aspose.Cells för Python via .NET fungerar som Excel.
+1. Sätter flaggorna [PageSetup.is_hf_diff_odd_even](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/is_hf_diff_odd_even/) och [PageSetup.is_hf_diff_first](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/is_hf_diff_first/) 
 1. Ange olika sidhuvuden och sidfötter.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-DiffHeaderFooter.py" >}}

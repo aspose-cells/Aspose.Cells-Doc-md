@@ -35,3 +35,4 @@ First Worksheet of First Workbook - IsAutomaticPaperSize: false
 First Worksheet of Second Workbook - IsAutomaticPaperSize: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

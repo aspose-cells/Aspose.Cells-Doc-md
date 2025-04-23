@@ -128,3 +128,4 @@ Dieser Artikel hat gezeigt, wie man verschiedene Formen wie Bilder, Diagramme un
 Aspose.Cells kann mehr Flexibilität als andere Lösungen bieten und bietet eine herausragende Geschwindigkeit, Effizienz und Zuverlässigkeit, um spezifische Geschäftsanforderungen zu erfüllen. Die Ergebnisse zeigen, dass Aspose.Cells von jahrelanger Forschung, Design und sorgfältiger Abstimmung profitiert hat.
 
 Wir heißen Ihre Anfragen, Kommentare und Vorschläge im [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9) herzlich willkommen.
+{{< app/cells/assistant language="java" >}}

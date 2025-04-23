@@ -24,3 +24,4 @@ El siguiente código de muestra muestra cómo usar el ajuste de texto y los salt
 Puedes usar '\n' en Java para insertar saltos de línea explícitos en una celda.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UseExplicitLineBreaks-UseExplicitLineBreaks.java" >}}
+{{< app/cells/assistant language="java" >}}

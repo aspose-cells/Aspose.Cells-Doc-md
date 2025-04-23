@@ -42,3 +42,4 @@ L'esempio seguente mostra come è possibile crittografare / proteggere con passw
 
 
 
+{{< app/cells/assistant language="java" >}}

@@ -48,3 +48,4 @@ Das obige Code-Snippet verwendet die vorhandene Instanz der [**Workbook**](https
 Sobald die Daten vorhanden sind, müssen wir nur noch ein Diagramm auf Basis der Datenquelle erstellen. Um das Beispiel einfach zu halten, werden wir die [**Chart.SetChartDataRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange)-Methode verwenden, damit wir das Diagramm nicht weiter konfigurieren müssen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-CreationOfChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

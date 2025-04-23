@@ -56,3 +56,4 @@ Aspose.Cells, geliştiricilere bir çalışma sayfasının maksimum görüntüle
 [**Worksheet.Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange) kullanarak bir çalışsayısının maksimum görüntü aralığına erişebilirsiniz. Aşağıdaki örnek kod, [**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange) özelliğine erişmenin nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

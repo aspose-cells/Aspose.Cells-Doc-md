@@ -79,3 +79,4 @@ Führen Sie jetzt bitte das folgende Beispiel aus, sehen Sie, wie es in Aspose.C
 - [Benannte Bereiche](/cells/de/java/named-ranges/)
 - [Suchen und Ersetzen von Daten in einem Bereich](/cells/de/java/search-and-replace-data-in-a-range/)
 
+{{< app/cells/assistant language="java" >}}

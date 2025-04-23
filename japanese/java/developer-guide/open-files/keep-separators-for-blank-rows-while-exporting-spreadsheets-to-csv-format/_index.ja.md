@@ -16,3 +16,4 @@ Aspose.Cellsは、スプレッドシートをCSV形式に変換する際に行�
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-KeepSeparatorsForBlankRow-1.java" >}}
+{{< app/cells/assistant language="java" >}}

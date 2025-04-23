@@ -105,3 +105,4 @@ file.Close();
 Для получения дополнительной информации посетите [Работа с листами](/cells/ru/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

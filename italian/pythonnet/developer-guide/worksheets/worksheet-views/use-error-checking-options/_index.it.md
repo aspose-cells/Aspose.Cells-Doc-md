@@ -3,8 +3,8 @@ title: Usa le opzioni di controllo degli errori
 type: docs
 weight: 140
 url: /it/python-net/use-error-checking-options/
-description: In questo articolo, troverai un codice di esempio che utilizzerà in modo programmato le opzioni di controllo degli errori dei fogli di calcolo di Excel, ad es. Numeri memorizzati come Testo utilizzando l API Aspose.Cells per Python via .NET.
-keywords: Libreria Excel Python, Python memorizza il numero come testo in excel, Come gestire le opzioni di controllo degli errori in excel in Python.
+description: In questo articolo, troverai codice di esempio che utilizza programmaticamente le opzioni di verifica degli errori dei fogli di lavoro Excel, ad esempio numeri memorizzati come testo, usando l API Aspose.Cells per Python via .NET.
+keywords: Biblioteca Python Excel, memorizzare numeri come testo in Excel in Python, Come gestire le opzioni di verifica degli errori di Excel in Python.
 ---
 
 {{% alert color="primary" %}}
@@ -19,7 +19,7 @@ Gli errori che significano che la formula non può restituire un risultato - com
 
 L'errore può essere risolto utilizzando le opzioni, o essere ignorato. Ignorare un errore significa che quell'errore non apparirà nei successivi controlli degli errori.
 
-Aspose.Cells per Python via .NET fornisce funzionalità di opzione per il controllo degli errori. La classe [**ErrorCheckOption**](https://reference.aspose.com/cells/python-net/aspose.cells/errorcheckoption) gestisce diversi tipi di controlli degli errori, ad esempio, numeri memorizzati come testo, errori di calcolo delle formule e errori di convalida. Utilizzare l'enumerazione [**ErrorCheckType**](https://reference.aspose.com/cells/python-net/aspose.cells/errorchecktype) per impostare il controllo degli errori desiderato.
+Aspose.Cells for Python via .NET fornisce funzioni di controllo degli errori. La classe [**ErrorCheckOption**](https://reference.aspose.com/cells/python-net/aspose.cells/errorcheckoption) gestisce diversi tipi di controlli degli errori, ad esempio numeri memorizzati come testo, errori di calcolo delle formule ed errori di validazione. Usa l'enumerazione [**ErrorCheckType**](https://reference.aspose.com/cells/python-net/aspose.cells/errorchecktype) per impostare il controllo degli errori desiderato.
 
 ## **Numeri memorizzati come testo**
 
@@ -28,9 +28,9 @@ Occasionalmente, i numeri potrebbero essere formattati e memorizzati nelle celle
 È possibile utilizzare le opzioni di controllo degli errori per convertire rapidamente i numeri memorizzati come testo in numeri reali. In Microsoft Excel 2003:
 
 1. Nel menu **Strumenti**, fare clic su **Opzioni**.
-1. Seleziona la scheda Controllo errori. L'opzione **Numero memorizzato come testo** è selezionata per impostazione predefinita.
+1. Seleziona la scheda Controllo errori. l'opzione **Numero memorizzato come testo** è selezionata di default.
 1. Disabilitala.
 
-Il seguente codice di esempio mostra come disabilitare l'opzione di controllo degli errori dei numeri memorizzati come testo per un foglio di lavoro nel file XLS di modello utilizzando le API Aspose.Cells per Python via .NET.
+Il seguente esempio di codice mostra come disabilitare l'opzione di controllo degli errori di numeri memorizzati come testo per un foglio di lavoro nel file modello XLS usando le API di Aspose.Cells for Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ErrorCheckingOptions-1.py" >}}

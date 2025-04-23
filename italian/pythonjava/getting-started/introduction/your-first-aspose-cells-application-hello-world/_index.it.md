@@ -11,7 +11,7 @@ Questo argomento per principianti mostra come gli sviluppatori possono creare un
 
 {{% /alert %}}
 
-### **Creazione dell'applicazione Hello World**
+## **Creazione dell'applicazione Hello World**
 
 Per creare l'applicazione Hello World utilizzando l'API di Aspose.Cells:
 
@@ -26,7 +26,7 @@ Per creare l'applicazione Hello World utilizzando l'API di Aspose.Cells:
 
 Gli esempi seguenti dimostrano i passaggi sopra indicati.
 
-#### **Creazione di un'organizzazione**
+### **Creazione di un'organizzazione**
 
 Nell'esempio seguente viene creata una nuova organizzazione da zero, vengono scritte le parole "Ciao mondo!" nella cella A1 del primo foglio di lavoro e il file viene salvato.
 
@@ -36,7 +36,7 @@ Nell'esempio seguente viene creata una nuova organizzazione da zero, vengono scr
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "CreatingHelloWorldFile.py" >}}
 
-#### **Apertura di un file esistente**
+### **Apertura di un file esistente**
 
 Nell'esempio seguente viene aperto un file modello Microsoft Excel esistente chiamato **book1.xls**, si scrive la frase "Ciao Mondo!" nella cella A1 nel primo foglio di lavoro, e si salva il foglio di lavoro come un nuovo file.
 

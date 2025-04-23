@@ -21,3 +21,4 @@ Le code d'exemple suivant explique l'utilisation de la propriété CopyOptions.R
 
 
 
+{{< app/cells/assistant language="java" >}}

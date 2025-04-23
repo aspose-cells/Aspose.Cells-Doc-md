@@ -18,3 +18,4 @@ Aspose.Cells también proporciona esta función y ha expuesto la propiedad [**Pi
 El siguiente código de muestra agrega una Línea de Firma usando la propiedad [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) y guarda el libro.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateSignatureLineInWorkbook-CreateSignatureLineInWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

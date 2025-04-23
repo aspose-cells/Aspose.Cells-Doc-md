@@ -16,3 +16,4 @@ Aspose.Cells ger möjlighet att hämta den externa anslutningsdatakällan för p
 Källfilen som används i kodprovet är bifogad för referens.
 
 [Källfil](104398862.xlsx)
+{{< app/cells/assistant language="csharp" >}}

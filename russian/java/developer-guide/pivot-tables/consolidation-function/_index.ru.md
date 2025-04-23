@@ -43,3 +43,4 @@ Aspose.Cells предоставляет перечисление [**Consolidatio
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="java" >}}

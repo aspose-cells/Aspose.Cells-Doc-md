@@ -18,3 +18,4 @@ Per favore, vedi il seguente codice di esempio che spiega come specificare il ca
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Data-SpecifyFormulaFieldsWhileImportingDataToWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

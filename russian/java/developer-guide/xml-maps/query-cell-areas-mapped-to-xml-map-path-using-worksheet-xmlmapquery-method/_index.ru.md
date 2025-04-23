@@ -7,11 +7,11 @@ url: /ru/java/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquer
 
 ## **Возможные сценарии использования**
 
-Вы можете запрашивать области ячеек, сопоставленные пути XML-карты, с помощью метода [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)). Если путь существует, он вернет список областей ячеек, связанных с этим путем внутри XML-карты. Первый параметр метода [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)) указывает путь элемента XML и второй параметр указывает XML-карту, которую вы хотите запросить.
+Вы можете запрашивать области ячеек, сопоставленные пути XML-карты, с помощью метода [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery-java.lang.String-com.aspose.cells.XmlMap-). Если путь существует, он вернет список областей ячеек, связанных с этим путем внутри XML-карты. Первый параметр метода [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery-java.lang.String-com.aspose.cells.XmlMap-) указывает путь элемента XML и второй параметр указывает XML-карту, которую вы хотите запросить.
 
 ## **Запрос областей ячеек, привязанных к пути XML-отображения, с использованием метода Worksheet.XmlMapQuery**
 
-На следующем снимке экрана показан Microsoft Excel, отображающий XML-карту внутри [образцового файла Excel](55541818.xlsx), использованного в коде. Код запрашивает XML-карту два раза и печатает список областей ячеек, возвращенных методом [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)), на консоль, как показано ниже.
+На следующем снимке экрана показан Microsoft Excel, отображающий XML-карту внутри [образцового файла Excel](55541818.xlsx), использованного в коде. Код запрашивает XML-карту два раза и печатает список областей ячеек, возвращенных методом [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery-java.lang.String-com.aspose.cells.XmlMap-), на консоль, как показано ниже.
 
 ![todo:image_alt_text](query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method_1.png)
 
@@ -50,3 +50,4 @@ XML-данные могут быть импортированы в листы. �
 1. [FoodList.xml](FoodList.xml)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-XmlMaps-GetXMLPathFromListObject.java" >}}
+{{< app/cells/assistant language="java" >}}

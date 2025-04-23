@@ -48,3 +48,4 @@ Aspose.Cells APIでは、スマートマーカーを処理するための[**Work
 データが用意されている場合、必要なのはデータソースに基づいたチャートを作成するだけです。例をシンプルにするために、[**Chart.SetChartDataRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange)メソッドを使用するので、チャートを追加の構成する必要がありません。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-CreationOfChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

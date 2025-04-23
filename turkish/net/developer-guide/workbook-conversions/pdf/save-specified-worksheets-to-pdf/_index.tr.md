@@ -28,8 +28,15 @@ Kaynak dosya [sheetset-example.xlsx](sheetset-example.xlsx) gizli Sheet3 sayfas�
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-MultiSheetsToPdf.cs" >}}
 
+## ** Çalışma Sayfalarını PDF'ye Yeniden Sırala**
+
+Kaynak dosyayı değiştirmeden, sayfaları (örneğin ters sırada) PDF'ye yeniden sıralamak istiyorsanız, [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/) seçeneğine yeniden sıralanmış sayfa indekslerini geçirerek bunu başarabilirsiniz.
+
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-ReorderSheetsToPdf.cs" >}}
+
 {{% alert color="primary" %}} 
 
 Eğer elektronik tablonuz formüller içeriyorsa, PDF formatına dönüştürmeden hemen önce [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) çağrısını yapmanız en iyisidir. Böyle yaparak formüle bağımlı değerler yeniden hesaplanacak ve doğru değerler PDF'de gösterilecektir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

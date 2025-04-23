@@ -20,3 +20,4 @@ Aspose.Cells for .NET 8.1.2では、WarningInfo、WarningTypeクラス、IWarnin
 {{% /alert %}}
 ## **非推奨のPdfSaveOptions.ChartImageTypeプロパティが削除されました**
 Aspose.Cells for .NET 8.1.2 で、公開 API から非推奨の PdfSaveOptions.ChartImageType プロパティが削除されました。
+{{< app/cells/assistant language="csharp" >}}

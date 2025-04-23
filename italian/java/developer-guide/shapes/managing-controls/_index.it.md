@@ -16,7 +16,7 @@ Un modo per sottolineare informazioni importanti in un report è utilizzare una 
 - Il metodo [**getTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame) restituisce un oggetto [**MsoTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame) utilizzato per regolare i contenuti della casella di testo.
 - Il metodo [**setPlacement**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement) specifica il tipo di posizionamento.
 - Il metodo [**setFont**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Font) specifica gli attributi del carattere.
-- Il metodo [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink(java.lang.String)) aggiunge un collegamento ipertestuale per la casella di testo.
+- Il metodo [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink-java.lang.String-) aggiunge un collegamento ipertestuale per la casella di testo.
 - La proprietà [**FillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#FillFormat) restituisce un oggetto [**MsoFillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoFillFormat) usato per impostare il formato di riempimento per la casella di testo.
 - La proprietà [**LineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#LineFormat) restituisce l'oggetto [**MsoLineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoLineFormat) di solito usato per lo stile e lo spessore della linea della casella di testo.
 - Il metodo [**setText**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text) specifica il testo di input per la casella di testo.
@@ -335,3 +335,4 @@ Nell'esempio seguente viene mostrato come aggiungere forme ovali al foglio di la
 ## **Argomenti avanzati**
 - [Aggiungi controlli ActiveX utilizzando Aspose.Cells](/cells/it/java/add-activex-controls-using-aspose-cells/)
 - [Rimuovi controllo ActiveX](/cells/it/java/remove-activex-control/)
+{{< app/cells/assistant language="java" >}}

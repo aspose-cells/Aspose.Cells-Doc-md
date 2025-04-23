@@ -1,10 +1,10 @@
 ---
-title: hur man kör Aspose.Cells.GridWeb för att bygga en online kalkylbladsredigerare eller tittarapplikation i docker
+title: hur man kör Aspose.Cells.GridWeb för att bygga online kalkylbladredigerare eller visningsapplikation i docker
 type: docs
 weight: 250
 url: /sv/java/aspose-cells-gridweb/how-to-build-online-excel-editor/
-keywords: GridWeb,docker
-description: Den här artikeln introducerar hur man kör GridWeb i docker för att bygga en onlineexcelredigerare eller tittarapplikation.
+keywords: GridWeb, docker
+description: Denna artikel introducerar hur man kör GridWeb i docker för att bygga en online excel redigerare eller visningsapplikation.
 aliases:
   - /java/aspose-cells-gridweb/docker/
   - /java/aspose-cells-gridweb/run-aspose-cells-gridweb-in-docker/
@@ -23,13 +23,13 @@ aliases:
 
 Se till att du har Docker installerat på din maskin. Du kan ladda ner och installera Docker från [officiella Docker-webbplatsen](https://www.docker.com/get-started).
 
-## Steg 1: Skapa en Dockerfil
+## Steg 1: Skapa en Dockerfile
 
-Skapa en fil med namnet `Dockerfile` i ditt projekt [mapp](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/). `Dockerfile` ska innehålla instruktioner om hur du bygger din Docker-image.
+Skapa en fil som heter `Dockerfile` i ditt projekt [katalog](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/). `Dockerfile` ska innehålla instruktioner för hur du bygger din Docker-image.
 
 ## Steg 2: Skriv Dockerfile för GridWeb
 
-Här är ett exempel på [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/Dockerfile) för GridWeb-demo med javapplikation:
+Här är ett exempel [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/Dockerfile) för GridWeb-demo med Java-applikation:
 
 ```dockerfile
 #spring boot3.3 shall use jdk17 above 
@@ -81,50 +81,50 @@ CMD ["sh", "-c", "java $JAVA_OPTS -jar /app/app.jar"]
 
 ```
 
-## Steg 3: Bygga Docker-image
-Bygg Docker-image: Från terminalen, kör följande kommando för att bygga din Docker-image:
+## Steg 3: Bygga Docker-bilden
+Bygg Docker-bilden: Från terminalen, kör följande kommando för att bygga din Docker-bild:
 ```bash
 docker build -t gridweb-demo-java .
 ```
-du kan byta ut gridweb-demo-java med det namn du vill ge din Docker-image.
+Du kan ersätta gridweb-demo-java med det namn du vill ge din Docker-image.
 
-## Steg 4: Köra en Docker-container
+## Steg 4: Kör en Docker-container
 När bilden är byggd kan du köra en container med följande kommando:
 
 ```bash
 docker run -d -p 8080:8080 --name gridweb-demo-container  gridweb-demo-java
 ```
-Förklaring av Docker Run-kommandoalternativ
--d: Kör containern i detach-läge (i bakgrunden).
--p 8080:8080: Kartlägg port 8080 i containern till port 8080 på värdmaskinen.
+Förklaring av Docker Run-kommandots alternativ
+-d: Kör containern i bakgrunden (avskilt läge).
+-p 8080:8080: Mappa port 8080 i containern till port 8080 på värdmaskinen.
 --name gridweb-demo-container: Tilldela ett namn till containern.
 
-## Steg 5: Verifiera att containern körs
-För att kontrollera om din container körs, använd följande kommando:
+## Steg 5: Kontrollera att containern körs
+För att kontrollera att din container är igång, använd följande kommando:
 
 ```bash
 docker ps
 ```
-Detta kommer att lista alla körande containrar. Du bör se din container listad tillsammans med dess namn och status.
+Detta listas alla aktiva containrar. Du bör se din container listad med namn och status.
 
-## Steg 6: Kom åt webbapplikationen
+## Steg 6: Åtkomst till webbapplikationen
 
-Öppna en webbläsare och gå till `http://localhost:8080/gridwebdemo/index`. Du bör se din applikation köra.
+Öppna en webbläsare och gå till `http://localhost:8080/gridwebdemo/index`. Du bör se att din applikation körs.
 
 
 
-## Ytterligare kommandon
+## Ytterligare Kommandon
 
-### Stoppa containern
+### Stanna containern
 
-För att stoppa en körande container, använd följande kommando:
+För att stoppa en körande containter, använd följande kommando:
 
 ```bash
 docker stop gridweb-demo-container
 ```
 
-### Ta bort en behållare
-För att ta bort en stoppad behållare, använd följande kommando:
+### Ta bort en container
+För att ta bort en stoppad container, använd följande kommando:
 
 ```bash
 docker rm  gridweb-demo-container

@@ -69,3 +69,4 @@ Scarica **Motore di calcolo delle formule** da uno qualsiasi dei seguenti siti d
 Per ulteriori dettagli, visita [Motore di calcolo delle formule](/cells/it/net/formula-calculation-engine/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

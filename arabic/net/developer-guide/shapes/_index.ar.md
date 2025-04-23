@@ -375,3 +375,4 @@ description: إدارة الصور، الكائنات ole والأشكال في 
 - [إدارة خيارات نص الشكل](/cells/ar/net/managing-shape-text-options/)
 - [ملحقات الويب - إضافات الأوفيس](/cells/ar/net/web-extensions-office-add-ins/)
 
+{{< app/cells/assistant language="csharp" >}}

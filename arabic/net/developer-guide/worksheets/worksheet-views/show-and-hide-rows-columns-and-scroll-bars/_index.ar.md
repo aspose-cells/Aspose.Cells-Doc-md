@@ -75,3 +75,4 @@ description: يوضح هذا المقال كيفية عرض وإخفاء صفو�
 بالأسفل يوجد شيفرة كاملة تفتح ملف إكسل، book1.xls، ثم تخفي كلتي الشريطين وتحفظ الملف المعدل بشكل output.xls.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-DisplayHideScrollBars-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

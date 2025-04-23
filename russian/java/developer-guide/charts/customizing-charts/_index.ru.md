@@ -131,7 +131,7 @@ Aspose.Cells предоставляет специальный набор кла
 
 1. Добавьте некоторые данные в ячейки листа с помощью метода [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) объекта [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell).
    Это будет использоваться в качестве источника данных для диаграммы.
-1. Добавьте график на лист, вызвав метод [*add*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int)) коллекции [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection), инкапсулированной в объекте [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet).
+1. Добавьте график на лист, вызвав метод [*add*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add-int-int-int-int-int-) коллекции [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection), инкапсулированной в объекте [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet).
 1. Укажите тип диаграммы с помощью перечисления [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType).
    Например, в примере используется значение [**ChartType.PYRAMID**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#PYRAMID) в качестве типа графика.
 1. Получите доступ к новому объекту [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) из коллекции [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection), передав его индекс.
@@ -166,7 +166,7 @@ Aspose.Cells предоставляет специальный набор кла
 
 #### **Диаграмма линии с маркерами данных**
 
-Для создания линейного графика с маркерами данных [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) должен быть установлен на [**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE_WITH_DATA_MARKERS), и несколько дополнительных свойств, таких как область фона, маркеры ряда, значения и XValues должны быть установлены соответственно. После выполнения следующего кода на лист добавляется линейный график с маркерами данных, как показано на рисунке ниже.
+Для создания линейного графика с маркерами данных [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) должен быть установлен на [**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE-WITH-DATA-MARKERS), и несколько дополнительных свойств, таких как область фона, маркеры ряда, значения и XValues должны быть установлены соответственно. После выполнения следующего кода на лист добавляется линейный график с маркерами данных, как показано на рисунке ниже.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-CreateLineWithDataMarkerChart-1.java" >}}
 
@@ -202,3 +202,4 @@ Aspose.Cells предоставляет специальный набор кла
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="java" >}}

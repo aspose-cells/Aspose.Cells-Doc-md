@@ -3,13 +3,13 @@ title: 从源工作表复制页面设置设置到目标工作表的可能使用�
 type: docs
 weight: 80
 url: /zh/python-net/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/
-description: 本文解释了如何使用Aspose.Cells for Python via .NET的示例代码，以程序方式从源工作表复制页面设置到目标工作表。
-keywords: Python Excel库，Python复制页面设置，将页面设置复制到目标工作表的Python
+description: 本文介绍如何使用 Aspose.Cells for Python via .NET 样例代码，将源工作表的页面设置复制到目标工作表。
+keywords: Python Excel 库，Python 复制页面设置，将页面设置复制到目标工作表。
 ---
 
 ## **可能的使用场景**
 
-当向工作簿添加新工作表时，它包含默认的*页面设置*。有时，您需要从一个工作表传输设置([**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup))到另一个工作表。本文解释了如何使用Aspose.Cells for Python via .NET的API从一个工作表复制页面设置到另一个工作表。
+当向工作簿添加新工作表时，它会包含默认的 *页面设置*。有时需要将设置信息（[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)）从一个工作表转移到另一个工作表。本文件解释如何使用 Aspose.Cells for Python via .NET API 来复制页面设置。
 
 ## **将源工作表中的页面设置复制到目标工作表**
 

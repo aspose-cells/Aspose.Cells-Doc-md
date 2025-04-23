@@ -25,9 +25,9 @@ Aspose.Cells はExcelファイルを表す[Workbook](https://reference.aspose.co
 
 すべての検索メソッドは、指定された検索値を含むセルの参照を返します。
 ## **数式を含むセルを検索**
-開発者は[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションの[find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) メソッドを呼び出し、[FindOptions.setLookInType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookInType) を[LookInType.FORMULAS](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#FORMULAS) に設定し、それを[find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) メソッドのパラメータとして渡すことで、ワークシート内の指定された数式を検索できます。
+開発者は、[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクションの [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells.Cell-) メソッドを呼び出すことで、指定された数式をシート内で検索できます。 [FindOptions.setLookInType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookInType) を [LookInType.FORMULAS](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#FORMULAS) に設定し、引数として渡します。
 
-通常、[find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) メソッドは、2つ以上のパラメータを受け入れます:
+通常、[find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells.Cell-)メソッドは2つ以上のパラメータを受け取ります：
 
 - 検索するオブジェクト: ワークシート内で検索するオブジェクトを表します。
 - 前のセル: 同じ数式を持つ以前のセルを表します。このパラメータは、開始位置から検索する場合はnullに設定できます。
@@ -41,11 +41,11 @@ Aspose.Cells はExcelファイルを表す[Workbook](https://reference.aspose.co
 ## **文字列を検索**
 文字列値を含むセルを検索することは簡単で柔軟です。例えば、特定の文字または文字列で始まる文字列を含むセルを検索する方法など、さまざまな検索方法があります。
 ### **特定の文字で始まる文字列を検索する**
-文字列内の最初の文字を検索するには、[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクションの[find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\))メソッドを呼び出し、[FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType)を[LookAtType.START_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#START_WITH)に設定して、そのパラメータを[find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\))メソッドに渡します。
+文字列の最初の文字を検索するには、[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクションの[find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells.Cell-)メソッドを呼び出し、[FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType)を [LookAtType.START_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#START-WITH) に設定し、引数として渡します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsWithStringOrNumber-FindingCellsWithStringOrNumber.java" >}}
 ### **特定の文字で終わる文字列を検索**
-Aspose.Cellsでは、特定の文字で終わる文字列も検索できます。文字列内の最後の文字を検索するには、[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクションの[find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\))メソッドを呼び出し、[FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType)を[LookAtType.END_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#END_WITH)に設定して、そのパラメータを[find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\))メソッドに渡します。
+Aspose.Cellsは、特定の文字で終わる文字列を見つけることもできます。文字列の最後の文字を検索するには、[.Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクションの[find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells.Cell-)メソッドを呼び出し、[FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType)を [LookAtType.END_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#END-WITH) に設定し、引数として渡します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsEndWithSpecificCharacters-FindingCellsEndWithSpecificCharacters.java" >}}
 ## **正規表現を使用した検索：RegEx機能**
@@ -60,3 +60,4 @@ Aspose.Cellsを使用して正規表現で検索できます。
 ## **高度なトピック**
 - [特定のスタイルを持つセルを検索](/cells/ja/java/find-cells-with-specific-style/)
 - [元の値を使用したデータの検索](/cells/ja/java/search-data-using-original-values/)
+{{< app/cells/assistant language="java" >}}

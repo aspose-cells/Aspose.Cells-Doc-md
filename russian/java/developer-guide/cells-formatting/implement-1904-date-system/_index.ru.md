@@ -24,3 +24,4 @@ Microsoft Excel поддерживает две системы дат: 1900-ую
 См. следующий образец кода о том, как это сделать с использованием API Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-Implement1904DateSystem-Implement1904DateSystem.java" >}}
+{{< app/cells/assistant language="java" >}}

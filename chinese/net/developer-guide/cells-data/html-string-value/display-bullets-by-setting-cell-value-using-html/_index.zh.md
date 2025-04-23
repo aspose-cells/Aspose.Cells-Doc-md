@@ -24,3 +24,4 @@ Aspose.Cells支持使用HTML代码显示项目符号。本文将解释如何通�
 以下截图显示了上述示例代码的输出。
 
 ![todo:image_alt_text](display-bullets-by-setting-cell-value-using-html_1.png)
+{{< app/cells/assistant language="csharp" >}}

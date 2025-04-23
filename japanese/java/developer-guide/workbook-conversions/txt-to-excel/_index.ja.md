@@ -51,3 +51,4 @@ CSVファイルを開く際にはデフォルトのパーサ設定を使用す�
 - [数式を持つCSVファイルを読み込むまたはインポートする](/cells/ja/java/load-or-import-csv-file-with-formulas/)
 - [スプレッドシートをCSV形式にエクスポートする際に先行する空白行と列をトリミングします。](/cells/ja/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
 
+{{< app/cells/assistant language="java" >}}

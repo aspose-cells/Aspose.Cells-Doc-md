@@ -23,3 +23,4 @@ Excel中的数据透视图是从数据透视表中创建的数据的图形表示
 通过上面的示例代码，您可以查看以下效果的结果文件，如下图所示：
 
 **![输出](Output.png)**
+{{< app/cells/assistant language="csharp" >}}

@@ -42,3 +42,4 @@ url: /ja/java/applying-subtotal-and-changing-direction-of-outline-summary-rows-b
 次に示すコードは、上記の出力を実現するサンプルコードです。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ApplyingSubtotal-1.java" >}}
+{{< app/cells/assistant language="java" >}}

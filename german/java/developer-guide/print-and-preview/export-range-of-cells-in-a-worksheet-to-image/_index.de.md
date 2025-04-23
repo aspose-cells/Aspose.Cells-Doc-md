@@ -28,3 +28,4 @@ Das Ausführen des Codes erstellt nur ein Bild des Bereichs E8:H10.
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ExportRangeofCells-1.java" >}}
 
 Sie finden möglicherweise auch den Artikel [Arbeitsblatt in verschiedene Bildformate konvertieren](/cells/de/java/converting-worksheet-to-different-image-formats/) hilfreich.
+{{< app/cells/assistant language="java" >}}

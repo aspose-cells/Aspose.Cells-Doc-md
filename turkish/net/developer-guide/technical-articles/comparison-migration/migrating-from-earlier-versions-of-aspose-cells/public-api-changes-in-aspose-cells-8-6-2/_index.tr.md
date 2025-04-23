@@ -150,3 +150,4 @@ Aspose.Cells.GridWeb for .NET 8.6.2, aşağıdaki iki yeni olayı açığa çık
 
 1. AjaxCallFinished: Denetimin AJAX güncellemesi tamamlandığında tetiklenir. (EnableAJAX true olarak ayarlanmalıdır).
 1. CellModifiedOnAjax: Hücre AJAX çağrısı sırasında değiştirildiğinde tetiklenir.
+{{< app/cells/assistant language="csharp" >}}

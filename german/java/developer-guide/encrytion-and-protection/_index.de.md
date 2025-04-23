@@ -33,3 +33,4 @@ Schützen Sie die Authentizität des Dokumenteninhalts, indem Sie eine digitale 
 - [Wie erkennt man ein Dateiformat und überprüft, ob die Datei verschlüsselt ist](/cells/de/java/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
 
 
+{{< app/cells/assistant language="java" >}}

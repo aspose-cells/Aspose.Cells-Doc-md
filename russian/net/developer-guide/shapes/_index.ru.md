@@ -375,3 +375,4 @@ Aspose.Cells поддерживает добавление, извлечение
 - [Управление параметрами текста формы](/cells/ru/net/managing-shape-text-options/)
 - [Веб-расширения - дополнения для Office](/cells/ru/net/web-extensions-office-add-ins/)
 
+{{< app/cells/assistant language="csharp" >}}

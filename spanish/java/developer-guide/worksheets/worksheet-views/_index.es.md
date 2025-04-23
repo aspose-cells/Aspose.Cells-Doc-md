@@ -47,9 +47,9 @@ Aspose.Cells también permite a los desarrolladores establecer el factor de zoom
 ### **Controlando el Factor de Zoom**
 Aspose.Cells proporciona una [clase Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Microsoft Excel. La [clase Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) contiene una [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) que permite acceder a cada hoja de cálculo en un archivo de Excel.
 
-Una hoja de cálculo está representada por la [clase Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). La [clase Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) proporciona una amplia gama de propiedades y métodos para administrar hojas de cálculo. Para establecer el factor de zoom de una hoja de cálculo, utilice el método [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) de la [clase Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
+Una hoja de cálculo está representada por la clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). La clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) ofrece una amplia gama de propiedades y métodos para gestionar hojas de cálculo. Para establecer el factor de zoom de una hoja de cálculo, use el método [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) de la clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
-A continuación, se muestra un ejemplo completo que demuestra cómo utilizar el método [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) para establecer el factor de zoom de la primera hoja de cálculo en un archivo de Excel.
+A continuación se proporciona un ejemplo completo que demuestra cómo usar el método [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) para establecer el factor de zoom de la primera hoja de cálculo en un archivo Excel.
 
 En la captura de pantalla siguiente, puedes ver el archivo Book1.xls en la vista predeterminada.
 
@@ -77,14 +77,14 @@ Aspose.Cells también permite a los desarrolladores aplicar paneles congelados a
 
 Aspose.Cells proporciona una clase [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Microsoft Excel. La clase [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) contiene una [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) que permite acceder a cada hoja de cálculo en un archivo de Excel.
 
-Una hoja de cálculo está representada por la clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). La clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) proporciona una amplia gama de propiedades y métodos para gestionar las hojas de cálculo. Para configurar los paneles congelados, llama al método [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) de la clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). El método [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) toma los siguientes parámetros:
+Una hoja de cálculo está representada por la clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). La clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) ofrece una amplia gama de propiedades y métodos para gestionar hojas de cálculo. Para configurar paneles de congelación, llame al método [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) de la clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). El método [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) recibe los siguientes parámetros:
 
 - **Fila**, el índice de la fila desde la cual se iniciará la congelación.
 - **Columna**, el índice de la columna desde la cual se iniciará la congelación.
 - **Filas congeladas**, el número de filas visibles en el panel superior.
 - **Columnas congeladas**, el número de columnas visibles en el panel izquierdo.
 
-A continuación se muestra un ejemplo completo que muestra cómo usar el método [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) de la clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) para congelar filas y columnas (a partir de C4, representado por la cuarta fila y la tercera columna, donde las filas y columnas comienzan desde índices 0) de la primera hoja de cálculo del archivo de Excel.
+A continuación se proporciona un ejemplo completo que muestra cómo usar el método [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) de la clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) para congelar filas y columnas (desde C4, representada por la cuarta fila y la tercera columna, donde filas y columnas comienzan desde índices 0) de la primera hoja del archivo Excel.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FreezePanes-FreezePanes.java" >}}
 
@@ -106,7 +106,7 @@ Si necesita dividir la pantalla para obtener dos vistas diferentes en la misma h
 Los paneles funcionan simultáneamente. Si realiza un cambio en uno, el cambio aparece simultáneamente en el otro. Aspose.Cells proporciona la función de dividir paneles para los usuarios.
 ### **Aplicación y eliminación de divisiones de paneles**
 #### **División de paneles**
-Aspose.Cells proporciona una clase [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Microsoft Excel. La clase [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) proporciona una amplia gama de propiedades y métodos para manejar archivos de Excel. Para implementar vistas divididas, utilice el método [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\)) de la clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Para eliminar divisiones de paneles, utilice el método [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)).
+Aspose.Cells proporciona una clase [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Microsoft Excel. La clase [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) ofrece una amplia gama de propiedades y métodos para gestionar archivos de Excel. Para implementar vistas divididas, use el método [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split--) de la clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Para eliminar paneles divididos, utilice el método [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--) .
 
 En el ejemplo, utilizamos un archivo de plantilla simple que se carga, luego se aplica la función de division de paneles en una celda de la primera hoja de cálculo. El archivo actualizado se guarda.
 
@@ -122,7 +122,7 @@ Después de ejecutar el código anterior, el archivo generado tiene una vista di
 
 ![todo:image_alt_text](worksheet-views_9.png)
 #### **Eliminación de paneles**
-Los desarrolladores pueden eliminar divisiones de paneles utilizando el método [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
+Los desarrolladores pueden eliminar paneles divididos usando el método [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--) de la clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovePanes-RemovePanes.java" >}}
 
@@ -133,3 +133,4 @@ Los desarrolladores pueden eliminar divisiones de paneles utilizando el método 
 - [Mostrar y ocultar elementos](/cells/es/java/show-and-hide-elements/)
 - [Mostrar fórmulas en lugar de valores en una hoja de cálculo](/cells/es/java/show-formulas-instead-of-values-in-a-worksheet/)
 - [Utilizar opciones de verificación de errores](/cells/es/java/use-error-checking-options/)
+{{< app/cells/assistant language="java" >}}

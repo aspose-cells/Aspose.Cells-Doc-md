@@ -16,3 +16,4 @@ Aspose.Cells le permite exportar Certificado Digital VBA a una secuencia como un
 Consulte el siguiente código de muestra que guarda los datos en bruto del Certificado VBA en un archivo. Puede descargar el [archivo de Excel de muestra utilizado en este código](5115031.xlsm) desde el enlace proporcionado.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-ExportVBACertificateToFile-ExportVBACertificateToFile.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

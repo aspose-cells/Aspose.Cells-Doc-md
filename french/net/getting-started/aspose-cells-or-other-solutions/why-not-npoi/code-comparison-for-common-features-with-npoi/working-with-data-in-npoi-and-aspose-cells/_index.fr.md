@@ -10,3 +10,4 @@ Cette section comprend les sujets suivants:
 - [Obtenir les contenus de la cellule](/cells/fr/net/getting-cell-contents/)
 - [Insérer des hyperliens dans une feuille de calcul](/cells/fr/net/insert-hyperlinks-in-worksheet/)
 - [Nouvelle ligne dans les cellules](/cells/fr/net/new-line-in-cells/)
+{{< app/cells/assistant language="csharp" >}}

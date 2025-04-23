@@ -190,3 +190,4 @@ Legen Sie die Druckqualität der zu druckenden Arbeitsblätter mit der [**PageSe
 Starten Sie die Nummerierung der Arbeitsblattseiten mit der [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)-Klasse' [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)-Eigenschaft. Die [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)-Eigenschaft legt die Seitennummer der ersten Arbeitsblattseite fest, und die nächsten Seiten werden aufsteigend nummeriert.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetFirstPageNumber-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -19,3 +19,4 @@ Yukarıdaki örnek kodun, sağlanan [örnek Excel dosyası](43352066.xlsm) ile �
  Is VBA Project Locked for Viewing: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

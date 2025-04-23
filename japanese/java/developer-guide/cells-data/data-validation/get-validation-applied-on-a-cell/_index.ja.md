@@ -9,7 +9,7 @@ keywords: JavaでExcelでセルの検証を適用し、JavaでExcelのセルに�
 
 {{% alert color="primary" %}}
 
-Aspose.Cells APIを使用して、任意のセルに適用された検証を取得できます。 Aspose.Cellsはこの目的のために[**Cell.getValidation()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--)メソッドを提供します。セルに検証がない場合はnullを返します。同様に、行と列のインデックスを指定してセルに適用された検証を取得するために[**Worksheet.getValidations().getValidationInCell(int row, int column)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell(int,%20int))メソッドを使用できます。
+Aspose.Cells APIを使用して、任意のセルに適用された検証を取得できます。 Aspose.Cellsはこの目的のために[**Cell.getValidation()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--)メソッドを提供します。セルに検証がない場合はnullを返します。同様に、行と列のインデックスを指定してセルに適用された検証を取得するために[**Worksheet.getValidations().getValidationInCell(int row, int column)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell-int-int-)メソッドを使用できます。
 
 {{% /alert %}}
 
@@ -46,3 +46,4 @@ Ignore blank: true
 ## 関連記事
 
 - [データの検証](/cells/ja/java/data-validation/)
+{{< app/cells/assistant language="java" >}}

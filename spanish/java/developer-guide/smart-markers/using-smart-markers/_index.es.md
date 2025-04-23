@@ -169,3 +169,4 @@ A veces, puede ser necesario recibir notificaciones sobre la referencia de celda
 Para el código de ejemplo y la explicación detallada, consulte este artículo.
 
 - [Recibir notificaciones mientras se fusionan datos con Marcadores Inteligentes](/cells/es/java/getting-notifications-while-merging-data-with-smart-markers/)
+{{< app/cells/assistant language="java" >}}

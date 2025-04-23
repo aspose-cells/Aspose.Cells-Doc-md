@@ -198,3 +198,4 @@ cell.SetStyle(style);
 ## **تمت إزالة واجهات برمجة التطبيقات**
 ### **تمت إزالة المتغير المثيل m_LoadDataFilterOptions**
 تمت إزالة المتغير المثيل m_LoadDataFilterOptions في هذا الإصدار. من المستحسن استخدام خاصية LoadFilter.LoadDataFilterOptions بدلاً من ذلك.
+{{< app/cells/assistant language="csharp" >}}

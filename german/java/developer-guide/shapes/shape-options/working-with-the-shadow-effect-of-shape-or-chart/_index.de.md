@@ -23,3 +23,4 @@ Der folgende Screenshot zeigt die Benutzeroberfläche von Microsoft Excel zum Ei
 Der folgende Beispielcode lädt die [Quelldatei für Excel](5472531.xlsx) und greift auf die erste Form im ersten Arbeitsblatt zu. Dabei werden die Untereigenschaften der [Shape.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect) Eigenschaft festgelegt und anschließend das Arbeitsbuch in der [Ausgabedatei für Excel](5472530.xlsx) gespeichert.
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithShadowEffect-WorkingWithShadowEffect.java" >}}
+{{< app/cells/assistant language="java" >}}

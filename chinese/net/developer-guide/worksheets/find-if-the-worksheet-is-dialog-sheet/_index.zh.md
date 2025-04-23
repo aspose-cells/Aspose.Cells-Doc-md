@@ -30,3 +30,4 @@ keywords: 查找Excel工作表对话类型C#，工作表对话C#
 Worksheet is a Dialog Sheet.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

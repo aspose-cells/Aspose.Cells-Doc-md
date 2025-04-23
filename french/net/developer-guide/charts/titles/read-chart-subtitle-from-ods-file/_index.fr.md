@@ -22,3 +22,4 @@ Aspose.Cells vous permet de lire les sous-titres des graphiques dans les fichier
 Chart Subtitle: Sample Chart Subtitle
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

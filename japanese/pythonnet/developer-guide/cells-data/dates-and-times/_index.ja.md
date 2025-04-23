@@ -11,7 +11,7 @@ keywords: 日付と時間の管理方法、1900年の日付システム、1904�
 日付と時間はセルに数値として格納されます。したがって、日付と時間を含むセルの値は数値型です。日付と時間を指定する数値は、日付（整数部）と時間（小数部）のコンポーネントで構成されます。Cell.DoubleValueプロパティは、この数値を返します。
 
 ## **Aspose.Cellsでの日付と時間の表示方法**
-数値を日付と時間として表示するために、セルに[Style.Number](https://reference.aspose.com/cells/net/aspose.cells/style/number/)プロパティまたは[Style.Custom]()プロパティを使用して必要な日付と時間形式を適用します。CellValue.DateTimeValueプロパティは、セルに含まれる数値で表される日付と時間を示すDateTimeオブジェクトを返します。
+番号を日付と時間として表示するには、セルに必要な日時フォーマットを適用します。 [Style.number](https://reference.aspose.com/cells/python-net/aspose.cells/style/number/) または [Style.Custom]() プロパティを使用します。CellValue.DateTimeValue プロパティは、セルに含まれる数字が表す日時を示す DateTime オブジェクトを返します。
 <br>
 <image src="1.png" width="70%" />
 
@@ -19,7 +19,7 @@ keywords: 日付と時間の管理方法、1900年の日付システム、1904�
 MS-Excelは、日付をシリアル値と呼ばれる数値として格納します。シリアル値は、日付システムの最初の日から経過した日数を示す整数です。Excelは、シリアル値のために以下の日付システムをサポートしています。
 
 1. 1900年の日付システム。最初の日付は1900年1月1日で、そのシリアル値は1です。最後の日付は9999年12月31日で、そのシリアル値は2,958,465です。この日付システムはワークブックのデフォルトで使用されます。
-1. 1904年の日付システム。最初の日付は1904年1月1日で、そのシリアル値は0です。最後の日付は9999年12月31日で、そのシリアル値は2,957,003です。ワークブックでこの日付システムを使用するには、[Workbook.Settings.Date1904](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/date1904/)プロパティをtrueに設定します。
+1. 1904日付システム。最初の日付は1904年1月1日で、そのシリアル値は0です。最後の日付は9999年12月31日で、そのシリアル値は2,957,003です。この日付システムをWorkbookで使用するには、[**Workbook.settings.date1904**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/date1904/) プロパティをtrueに設定します。
 
 
 この例は、異なる日付システムで同じ日付に格納されたシリアル値が異なることを示しています。

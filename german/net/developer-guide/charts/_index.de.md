@@ -194,3 +194,4 @@ Um ein Liniendiagramm mit Datenmarkierungen zu erstellen, muss [**ChartType**](h
 - [Titel von Excel-Diagrammen verwalten](/cells/de/net/chart-and-axis-titles/)
 - [Diagrammrendering](/cells/de/net/chart-rendering/)
 - [Gleichungstext der Trendlinie des Diagramms abrufen](/cells/de/net/get-equation-text-of-chart-trendline/)
+{{< app/cells/assistant language="csharp" >}}

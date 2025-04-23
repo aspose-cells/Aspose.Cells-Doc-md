@@ -73,3 +73,4 @@ url: /ar/net/setting-chart-appearance/
 ## **مواضيع متقدمة**
 - [تعيين رمز تنسيق القيم لسلاسل الرسم البياني](/cells/ar/net/set-the-values-format-code-of-chart-series/)
 - [تعيين صورة كحشو خلفية في الرسم البياني](/cells/ar/net/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="csharp" >}}

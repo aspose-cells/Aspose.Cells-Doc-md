@@ -27,7 +27,7 @@ Voici les étapes à suivre pour copier et déplacer des feuilles de calcul au s
 
 ## **Copier des feuilles de calcul dans un classeur**
 
-Aspose.Cells fournit une méthode surchargée, [**WorksheetCollection.addCopy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy(int)), qui est utilisée pour ajouter une feuille de calcul à la collection et copier les données à partir d'une feuille de calcul existante. Une version de la méthode prend l'index de la feuille source comme paramètre. L'autre version prend le nom de la feuille de calcul source.
+Aspose.Cells fournit une méthode surchargée, [**WorksheetCollection.addCopy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy-int-), qui est utilisée pour ajouter une feuille de calcul à la collection et copier les données à partir d'une feuille de calcul existante. Une version de la méthode prend l'index de la feuille source comme paramètre. L'autre version prend le nom de la feuille de calcul source.
 
 L'exemple suivant montre comment copier une feuille existante dans un classeur.
 
@@ -35,7 +35,7 @@ L'exemple suivant montre comment copier une feuille existante dans un classeur.
 
 ## **Copier des feuilles de calcul entre des classeurs**
 
-Aspose.Cells fournit une méthode, [**Worksheet.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)), utilisée pour copier des données et la mise en forme d'une feuille source vers une autre feuille, dans ou entre des classeurs. La méthode prend l'objet de la feuille source comme paramètre.
+Aspose.Cells fournit une méthode, [**Worksheet.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy-com.aspose.cells.Worksheet-), utilisée pour copier des données et la mise en forme d'une feuille source vers une autre feuille, dans ou entre des classeurs. La méthode prend l'objet de la feuille source comme paramètre.
 
 L'exemple suivant montre comment copier une feuille de calcul d'un classeur à un autre.
 
@@ -47,8 +47,9 @@ L'exemple suivant montre comment copier une feuille de calcul d'un classeur vers
 
 ## **Déplacer des feuilles de calcul dans un classeur**
 
-Aspose.Cells fournit une méthode, [**Worksheet.moveTo()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo(int)), utilisée pour déplacer une feuille vers un autre emplacement dans la même feuille de calcul.
+Aspose.Cells fournit une méthode, [**Worksheet.moveTo()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo-int-), utilisée pour déplacer une feuille vers un autre emplacement dans la même feuille de calcul.
 
 L'exemple suivant montre comment déplacer une feuille de calcul vers un autre emplacement dans le classeur.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-MoveWorksheet-MoveWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

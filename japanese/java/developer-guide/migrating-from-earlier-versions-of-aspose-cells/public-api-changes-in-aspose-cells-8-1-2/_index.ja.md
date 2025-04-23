@@ -20,3 +20,4 @@ Aspose.Cells for Java 8.1.2では、スプレッドシートを画像、XPSお�
 {{% /alert %}}
 ## **非推奨のPdfSaveOptions.ChartImageTypeプロパティが削除されました**
 Aspose.Cells for Java 8.1.2では、公開APIから非推奨のPdfSaveOptions.ChartImageTypeプロパティが削除されました。
+{{< app/cells/assistant language="java" >}}

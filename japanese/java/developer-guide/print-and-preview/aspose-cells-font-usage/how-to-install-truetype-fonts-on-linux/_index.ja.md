@@ -102,3 +102,4 @@ rpm \-ivh /root/rpmbuild/RPMS/noarch/msttcorefonts-2.5-1.noarch.rpm
 Ubuntu では、Synaptic パッケージマネージャに移動し、**ttf-mscorefonts-installer** パッケージを検索してインストールします。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

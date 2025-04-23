@@ -51,3 +51,4 @@ alias: [/net/set-japanese-configuration-for-chart/]
 |Название общего легенды|すべての|Всего|
 |Прочие название|その他|Другое|
 |Название серии|シリーズ|Серии|
+{{< app/cells/assistant language="csharp" >}}

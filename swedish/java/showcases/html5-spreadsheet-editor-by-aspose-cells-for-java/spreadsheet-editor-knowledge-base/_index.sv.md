@@ -36,3 +36,4 @@ För att ladda en kalkylblad i en inbäddad redigerare **url** parameter. Till e
 </iframe>
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

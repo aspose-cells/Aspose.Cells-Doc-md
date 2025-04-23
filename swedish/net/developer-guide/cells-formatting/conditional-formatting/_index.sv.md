@@ -80,3 +80,4 @@ Du kan bara använda tunna linjestilar till ytterkanten. Diagonala linjer är in
 - [Generera bilder för databarformat i villkorlig formatering](/cells/sv/net/generate-conditional-formatting-databars-images/)
 - [Hämta ikonsatser, databarer eller färgskalor som används i villkorlig formatering](/cells/sv/net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
 
+{{< app/cells/assistant language="csharp" >}}

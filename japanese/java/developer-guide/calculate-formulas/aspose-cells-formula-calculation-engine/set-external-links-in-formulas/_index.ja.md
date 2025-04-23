@@ -14,3 +14,4 @@ url: /ja/java/set-external-links-in-formulas/
 以下のサンプルコードは、数式に外部ファイルを含める方法を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetExternalLinksInFormulas-SetExternalLinksInFormulas.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -34,3 +34,4 @@ Il seguente codice di esempio illustra come impedire agli utenti di stampare un 
 1. Salva il file di esempio nel formato [xlsm](out.xlsm).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "VBA-Prevent-printing-excel.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

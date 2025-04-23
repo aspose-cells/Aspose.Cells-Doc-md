@@ -73,7 +73,7 @@ För att definiera din egen anpassade formatsträng för att ställa in visnings
 
 {{% alert color="primary" %}}
 
-Om du använder [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) för att ställa in nummerformatet, skrivs eventuellt tidigare format som har ställts in med [**Nummer**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number） över och vice versa.
+Om du använder [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) för att ställa in nummerformatet, överskrivs eventuellt tidigare format som ställts in med [**Number**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number) och vice versa.
 
 {{% /alert %}}
 
@@ -81,3 +81,4 @@ Om du använder [**Custom**](https://reference.aspose.com/cells/java/com.aspose.
 - [Kontrollera anpassat nummerformat vid inställning av Style.Custom-egenskap](/cells/sv/java/check-custom-number-format-when-setting-style-custom-property/)
 - [Ange anpassade nummerdecimaler och gruppavgränsare för Arbetsbok](/cells/sv/java/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [Specificera DBNum anpassade mönsterformatering](/cells/sv/java/specifying-dbnum-custom-pattern-formatting/)
+{{< app/cells/assistant language="java" >}}

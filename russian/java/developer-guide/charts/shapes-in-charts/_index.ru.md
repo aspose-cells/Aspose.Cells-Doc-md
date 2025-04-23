@@ -16,7 +16,7 @@ url: /ru/java/controls-in-charts/
 
 Метки предоставляют средство информирования пользователей о содержании электронной таблицы. Aspose.Cells позволяет добавлять и управлять метками даже в диаграммах.
 
-Класс [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) предоставляет метод с названием [**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart(int,%20int,%20int,%20int)), используемый для добавления контрольной метки к диаграмме. Ниже приведен список параметров, используемых для этого метода:
+Класс [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) предоставляет метод с названием [**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart-int-int-int-int-), используемый для добавления контрольной метки к диаграмме. Ниже приведен список параметров, используемых для этого метода:
 
 - **top** – вертикальное смещение метки от верхнего левого угла в единицах 1/4000 от области графика.
 - **left** – горизонтальное смещение метки от верхнего левого угла в единицах 1/4000 от области графика.
@@ -46,7 +46,7 @@ url: /ru/java/controls-in-charts/
 
 ## **Добавление элемента управления текстовым полем в график**
 
-Один из способов выделить важную информацию в отчете – использование текстового поля. Например, введите текст для выделения названия компании или для указания географического региона с наибольшими продажами. Класс [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) предоставляет метод с именем [**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart(int,%20int,%20int,%20int)), который используется для добавления элемента управления текстовым полем в график. Ниже приведен список параметров, используемых для метода:
+Один из способов выделить важную информацию в отчете – использование текстового поля. Например, введите текст для выделения названия компании или для указания географического региона с наибольшими продажами. Класс [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) предоставляет метод с именем [**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart-int-int-int-int-), который используется для добавления элемента управления текстовым полем в график. Ниже приведен список параметров, используемых для метода:
 
 - **top** – вертикальное смещение текстового поля от верхнего левого угла в единицах 1/4000 от области графика.
 - **left** - горизонтальное смещение текстового поля от верхнего левого угла в единицах 1/4000 от области диаграммы.
@@ -69,7 +69,7 @@ url: /ru/java/controls-in-charts/
 
 Aspose.Cells позволяет вставлять изображения в диаграмму. Например, добавьте изображение, чтобы подчеркнуть или придать больший смысл диаграмме или ее содержимому, или вставьте файл изображения бренда.
 
-Класс [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) предоставляет метод с именем [**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart(int,%20int,%20java.io.InputStream,%20int,%20int)), который используется для добавления объекта изображения на диаграмму. Ниже приведен список параметров, используемых для метода:
+Класс [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) предоставляет метод с именем [**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart-int-int-java.io.InputStream-int-int-), который используется для добавления объекта изображения на диаграмму. Ниже приведен список параметров, используемых для метода:
 
 - **верх** - вертикальное смещение изображения от верхнего левого угла в единицах 1/4000 от области диаграммы.
 - **слева** - горизонтальное смещение изображения от верхнего левого угла в единицах 1/4000 от области диаграммы.
@@ -100,3 +100,4 @@ Aspose.Cells позволяет вам вставлять флажки в лис
 Сгенерированный кодом сниппет выходной файл [output file](InsertCheckboxInChartSheet_out.xlsx) прилагается для вашего ознакомления.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-InsertCheckboxInChartSheet-1.java" >}}
+{{< app/cells/assistant language="java" >}}

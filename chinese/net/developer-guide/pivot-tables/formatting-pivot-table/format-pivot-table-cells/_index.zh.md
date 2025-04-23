@@ -21,3 +21,4 @@ url: /zh/net/format-pivot-table-cells/
 
 - [格式化数据透视表](/cells/zh/net/formatting-pivot-table/)
 - [在数据透视表的DataField中使用数据显示格式](/cells/zh/net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="csharp" >}}

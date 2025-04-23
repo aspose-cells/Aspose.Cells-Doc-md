@@ -16,3 +16,4 @@ url: /zh/net/specifying-dbnum-custom-pattern-formatting/
 以下示例代码说明了如何指定 *DBNum* 自定义模式格式。请检查其 [输出PDF](43352081.pdf) 以获取更多帮助。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SpecifyingDBNumCustomPatternFormatting.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

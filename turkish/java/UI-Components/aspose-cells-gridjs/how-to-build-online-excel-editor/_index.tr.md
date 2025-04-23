@@ -1,10 +1,10 @@
 ---
-title: nasıl çalıştırılacağını Aspose.Cells.GridJs docker içinde
+title: Aspose.Cells.GridJs yi Docker da nasıl çalıştırılır
 type: docs
 weight: 250
 url: /tr/java/aspose-cells-gridjs/how-to-build-online-excel-editor/
 keywords: GridJs,docker
-description: Bu makale GridJs i docker içinde çalıştırarak çevrimiçi bir excel düzenleyici veya görüntüleyici uygulaması oluşturmayı tanıtır.
+description: Bu makale, çevrimiçi excel düzenleyici veya görüntüleme uygulaması oluşturmak için GridJs yi Docker da nasıl çalıştıracağınızı tanıtıyor.
 aliases:
   - /java/aspose-cells-gridjs/docker/
   - /java/aspose-cells-gridjs/run-aspose-cells-gridjs-in-docker/
@@ -21,41 +21,37 @@ aliases:
 
 ## Önkoşullar
 
-Makinenize Docker'ın kurulduğundan emin olun. Docker'ı [resmi Docker web sitesinden](https://www.docker.com/get-started) indirip kurabilirsiniz.
+Bilgisayarınıza Docker'ın yüklü olduğundan emin olun. Docker'ı [resmi Docker web sitesinden](https://www.docker.com/get-started) indirip yükleyebilirsiniz.
 
-## Adım 1: Bir Docker Dosyası Oluşturun
+## Adım 1: Dockerfile Oluşturma
 
-Projektnizde `Dockerfile` adında bir dosya oluşturun. `Dockerfile`, Docker görüntünüzü nasıl oluşturacağınıza dair talimatları içermelidir.
+Proje dizininize `Dockerfile` adında bir dosya oluşturun. `Dockerfile`, Docker görüntünüzü nasıl oluşturacağınıza dair talimatlar içermelidir.
 
-## Adım 2: GridJs için Dockerfile Oluşturma
+## Adım 2: GridJs için Dockerfile Yazma
 
-İşte Java uygulamasıyla GridJS demosu için örnek bir [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs/Dockerfile):
+İşte Java uygulamasıyla GridJs demo için örnek [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs/Dockerfile):
 
 ```dockerfile
-# Use the jdk8 image
-FROM eclipse/ubuntu_jdk8
+# Use the maven image to build jar file
+FROM maven:3.8.6-amazoncorretto-17 AS build
 WORKDIR /usr/src/app
 
 
 # copy local Maven files to container
-COPY mvnw .
 COPY .mvn .mvn
 COPY pom.xml .
 COPY src src
 
 # build application with maven
-RUN ./mvnw package -DskipTests
+RUN mvn  package -DskipTests
 
-# Set the user
-USER root
 
-#RUN ls -l *
+# Use the jdk8 image as the basic docker image
+FROM eclipse/ubuntu_jdk8
+WORKDIR /app
+# copy build jar file to target container 
+COPY --from=build /usr/src/app/target/*.jar /app/app.jar
 
-# copy the build output jar to container
-COPY  target/*.jar /app/app.jar
-
-# delete build source to reduce storage usage
-RUN rm -rf target && rm -rf .mvn && rm -rf src
 # web port
 EXPOSE 8080
 # if you want display better like in windows ,you need to install kinds of fonts in /usr/share/fonts/ 
@@ -65,6 +61,8 @@ EXPOSE 8080
 # COPY fonts/* /usr/share/fonts/
 # the basic file path which contains the spread sheet files 
 RUN mkdir -p /app/wb
+# the file path to store the uploaded files
+RUN mkdir -p /app/uploads
 # the cache file path for GridJs
 RUN mkdir -p /app/grid_cache/streamcache
 # we provide some sample spread sheet files in demo 
@@ -74,39 +72,48 @@ COPY wb/*.xlsx /app/wb/
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app/app.jar"]
 ```
 
-## Adım 3: Docker İmajının Oluşturulması
-Docker İmajının Oluşturulması: Terminalden, Docker imajınızı oluşturmak için aşağıdaki komutu çalıştırın:
+## Adım 3: Docker Görüntüsünü Oluşturma
+Docker Görüntüsü Oluşturma: Terminalden aşağıdaki komutu çalıştırarak Docker görüntünüzü oluşturabilirsiniz:
 ```bash
 docker build -t gridjs-demo-java .
 ```
-gridjs-demo-java yerine Docker görüntünüze vermek istediğiniz ismi kullanabilirsiniz.
+docker build komutunu kullanarak gridjs-demo-java yerine kendi istediğiniz adı verebilirsiniz.
 
-## Adım 4: Docker Konteynerinin Çalıştırılması
-İmaj oluşturulduktan sonra, aşağıdaki komutu kullanarak bir konteyner çalıştırabilirsiniz:
+## Adım 4: Docker Konteyneri Çalıştırma
+İmaj oluşturulduktan sonra aşağıdaki komutu kullanarak bir konteyner çalıştırabilirsiniz:
 
 ```bash
-docker run -d -p 8080:80 --name gridjs-demo-container  gridjs-demo-java
+docker run -d -p 8080:80   -v C:/path/to/license.txt:/app/license --name gridjs-demo-container  gridjs-demo-java
 ```
-Docker Çalıştır Komutu Seçeneklerinin Açıklaması
--d: Konteyneri geri planda (detached modda) çalıştırın.
--p 8080:80: Konteynerdeki 80 portunu ana bilgisayarınızdaki 8080 porta eşleştirin.
---name gridjs-demo-container: Konteynere bir isim verin.
 
-## Adım 5: Konteynerin Çalışıp Çalışmadığının Doğrulanması
+veya sadece deneme modunda demo'yu çalıştırabilirsiniz:
+
+
+```bash
+docker run -d -p 8080:80  --name gridjs-demo-container  gridjs-demo-java
+```
+
+Docker Run Komutu Seçeneklerinin Açıklaması
+-d: Konteyneri arka planda çalıştırır.
+-p 8080:80: Konteynerdeki 80 portunu ana makinedeki 8080 portuna yönlendir.
+-v C:/path/to/license.txt:/app/license: Lisans dosyasının yolunu ana makineden konteyner içindeki dosya yoluna eşler.
+--name gridjs-demo-container: Konteynere bir isim atayın.
+
+## Adım 5: Konteynerin Çalıştığını Doğrulama
 Konteynerinizin çalışıp çalışmadığını kontrol etmek için aşağıdaki komutu kullanın:
 
 ```bash
 docker ps
 ```
-Bu tüm çalışan konteynerleri listeler. Konteynerinizin adı ve durumu ile birlikte listelendiğini görmelisiniz.
+Bu, tüm çalışan konteynerleri listeleyecek. Adı ve durumu ile birlikte konteyneriniz görünmelidir.
 
 ## Adım 6: Web Uygulamasına Erişim
 
-Bir web tarayıcısı açın ve ` http://localhost:8080/gridjsdemo/index` adresine gidin. Uygulamanızın çalıştığını görmelisiniz.
+Bir web tarayıcısı açın ve `http://localhost:8080/gridjsdemo/index` adresine gidin. Uygulamanızın çalıştığını görmelisiniz.
 
 ## Ek Komutlar
 
-### Konteynerin Durdurulması
+### Konteyneri Durdurma
 
 Çalışan bir konteyneri durdurmak için aşağıdaki komutu kullanın:
 
@@ -114,15 +121,15 @@ Bir web tarayıcısı açın ve ` http://localhost:8080/gridjsdemo/index` adresi
 docker stop gridjs-demo-container
 ```
 
-### Bir Konteyneri Kaldırma
+### Bir Konteyner Kaldırma
 Durdurulmuş bir konteyneri kaldırmak için aşağıdaki komutu kullanın:
 
 ```bash
 docker rm  gridjs-demo-container
 ```
 
-### Bir Görüntüyü Kaldırma
-Bir görüntüyü kaldırmak için aşağıdaki komutu kullanın:
+### Bir İmaj Kaldırma
+Bir imajı kaldırmak için aşağıdaki komutu kullanın:
 
 ```bash
 docker rmi gridjs-demo-java

@@ -135,3 +135,4 @@ Artık Kullanıcılar, Formül göstermek için Worksheet tarafından sunulan Bo
 Aspose.Cells for Java ile FilterColumnCollection özelliği eski olarak işaretlendi. Bunun yerine AuotFilter.FilterColumns özelliğinin kullanılması önerilir.
 ## **SeriesCollection.SecondCatergoryData, SeriesCollection.SecondCategoryData ile Değiştirildi**
 Temelde SeriesCollection.SecondCatergoryData özelliğindeki yazım hatasını düzelttik. Artık SeriesCollection.SecondCategoryData özelliğini kullanabilirken, orijinal SeriesCollection.SecondCatergoryData özelliği eski olarak işaretlenmiştir.
+{{< app/cells/assistant language="csharp" >}}

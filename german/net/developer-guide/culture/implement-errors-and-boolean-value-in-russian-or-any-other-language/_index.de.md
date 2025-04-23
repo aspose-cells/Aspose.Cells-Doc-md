@@ -21,3 +21,4 @@ Der folgende Beispielcode veranschaulicht, wie Fehler und boolesche Werte in Rus
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookSettings-ImplementErrorsAndBooleanValueInRussianOrAnyOtherLanguage.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

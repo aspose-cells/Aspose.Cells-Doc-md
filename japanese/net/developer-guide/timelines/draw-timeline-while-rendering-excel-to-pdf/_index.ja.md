@@ -17,3 +17,4 @@ keywords: Office 2013、Office 2016、Office 2019、Office 365を使用せずに
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Timelines-DrawTimelinetoPdf.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

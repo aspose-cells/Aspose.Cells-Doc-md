@@ -59,3 +59,4 @@ Aspose.Cells поддерживает преобразование CSV в JSON. 
 ]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

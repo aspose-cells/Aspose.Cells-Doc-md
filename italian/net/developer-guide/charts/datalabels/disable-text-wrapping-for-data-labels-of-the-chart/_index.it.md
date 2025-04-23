@@ -18,3 +18,4 @@ Aspose.Cells fornisce una proprietà [**DataLabels.IsTextWrapped**](https://refe
 Il campione di codice sottostante mostra come disabilitare il testo a capo per le etichette dati del grafico.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-DisableTextWrappingForDataLabels-DisableTextWrappingForDataLabels.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -18,3 +18,4 @@ url: /ar/java/find-and-refresh-the-nested-or-children-pivot-tables-of-parent-piv
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "PivotTables-FindAndRefreshNestedOrChildrenPivotTables.java" >}}
+{{< app/cells/assistant language="java" >}}

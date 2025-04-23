@@ -22,3 +22,4 @@ Aspose.Cells также предоставляет методы [**PivotTable.sh
 В следующем образце кода сначала показывается сводная таблица в **Компактной форме**, затем показывается сводная таблица в **Форме контуров**, и, наконец, показывается сводная таблица в **Табличной форме**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangingLayoutofPivotTable-ChangingLayoutofPivotTable.java" >}}
+{{< app/cells/assistant language="java" >}}

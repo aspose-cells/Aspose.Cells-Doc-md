@@ -65,3 +65,4 @@ Geben Sie die [**FindOptions.LookInType**](https://reference.aspose.com/cells/ne
 - [Zellen mit bestimmtem Stil finden](/cells/de/net/find-cells-with-specific-style/)
 - [Finden, ob der Zellenwert mit einem einzelnen Anführungszeichen beginnt](/cells/de/net/find-if-the-cell-value-starts-with-single-quote-mark/)
 - [Daten mithilfe der Originalwerte suchen](/cells/de/net/search-data-using-original-values/)
+{{< app/cells/assistant language="csharp" >}}

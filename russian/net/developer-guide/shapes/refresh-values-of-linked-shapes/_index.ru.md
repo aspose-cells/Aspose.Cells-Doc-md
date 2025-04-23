@@ -22,3 +22,4 @@ url: /ru/net/refresh-values-of-linked-shapes/
 ### Код C# для обновления значений связанных форм
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RefreshValueOfLinkedShapes-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

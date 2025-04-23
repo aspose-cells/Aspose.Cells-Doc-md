@@ -26,3 +26,4 @@ För att demonstrera användningen av Aspose.Cells for Java API för att skapa e
 
 - [Skapa och anpassa diagram](/cells/sv/java/creating-and-customizing-charts/)
 - [Diagramformatering](/cells/sv/java/chart-formatting/)
+{{< app/cells/assistant language="java" >}}

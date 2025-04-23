@@ -35,3 +35,4 @@ Följande exempel visar hur man aktiverar ett arbetsblad och gör en aktiv cell 
 I **utvärderingsläget**, det vill säga utan att ställa in en giltig licens, kommer det aktiva arbetsbladet alltid att vara det som innehåller utvärderingsvattenstämpeln. Detta beteende kan bara överridas genom att ställa in licensen i början av applikationen.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

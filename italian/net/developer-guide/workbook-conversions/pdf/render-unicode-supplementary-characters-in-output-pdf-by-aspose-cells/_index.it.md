@@ -27,3 +27,4 @@ La seguente schermata mostra come Aspose.Cells ha reso il [file di Excel di orig
 Puoi utilizzare questo codice di esempio per convertire [file di Excel di origine](5115563.xlsx) in [PDF di output](5115564.pdf).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderUnicodeInOutput-RenderUnicodeInOutput.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

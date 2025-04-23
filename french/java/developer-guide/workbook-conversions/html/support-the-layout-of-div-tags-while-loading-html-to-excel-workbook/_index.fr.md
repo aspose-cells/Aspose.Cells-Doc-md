@@ -14,3 +14,4 @@ Normalement, la mise en page des balises div est ignorée lors du chargement d'H
 Le code d'exemple suivant illustre l'utilisation de la propriété [HtmlLoadOptions.SupportDivTag](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#SupportDivTag). Veuillez télécharger le Logo Aspose (5473442.png) utilisé à l'intérieur de l'HTML d'entrée et le fichier excel de sortie (5473439.xlsx) généré par le code.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-SupportthelayoutofDIVtags-1.java" >}}
+{{< app/cells/assistant language="java" >}}

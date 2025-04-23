@@ -42,4 +42,5 @@ description: مع Aspose.Cells، من السهل إنشاء، فتح وإدار�
 - [تحويل-Excel-إلى-JSON](/cells/ar/net/convert-excel-to-json/)
 - [تحويل JSON إلى CSV](/cells/ar/net/convert-json-to-csv/)
 - [تحويل JSON إلى Excel](/cells/ar/net/convert-json-to-excel/)
-- [تحويل ملف Excel إلى Html](/cells/ar/net/convert-excel-to-html/)
+- [تحويل-إكسل-إلى-HTML](/cells/ar/net/convert-excel-to-html/)
+{{< app/cells/assistant language="csharp" >}}

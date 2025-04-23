@@ -23,3 +23,4 @@ Successivamente riempie l'origine dati con dati e chiama il metodo [WorkbookDesi
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingImageMarkersWhileGroupingDataInSmartMarkers-UsingImageMarkersWhileGroupingDataInSmartMarkers.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

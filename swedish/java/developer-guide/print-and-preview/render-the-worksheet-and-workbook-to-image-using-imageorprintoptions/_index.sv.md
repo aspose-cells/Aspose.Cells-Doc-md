@@ -47,3 +47,4 @@ Du kan spara hela arbetsboken till en enda TIFF-bild med flera ramar eller sidor
 - [Exportera diagram till SVG med viewBox-attribut](/cells/sv/java/export-chart-to-svg-with-viewbox-attribute/)
 - [Exportera Arbetsblad eller Diagram till Bild med önskad Bredd och Höjd](/cells/sv/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
 - [Konvertera kalkylblad till bild och kalkylblad till bild per sida](/cells/sv/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)
+{{< app/cells/assistant language="java" >}}

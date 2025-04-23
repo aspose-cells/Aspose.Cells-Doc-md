@@ -35,3 +35,4 @@ Aspose.Cells提供[**ConsolidationFunction**](https://reference.aspose.com/cells
 Microsoft Excel 2013仅支持去重计数合并功能。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

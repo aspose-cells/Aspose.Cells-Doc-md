@@ -25,3 +25,4 @@ Hücreler yineleyicisine ulaşmanın ayrıntıları [Yineleyicilerin Nasıl ve N
 Verilen bir çalışsayfanın doldurulmuş hücresi olmayabilir, ancak kontrol, grafikler, resimler vb. gibi şekil ve nesneler içerebilir. Bir çalışsayfanın herhangi bir şekil içerip içermediğini kontrol etmek için [ShapeCollection.Count](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#Count) özelliği incelenerek yapılabilir. Herhangi bir pozitif değer, çalışsayfada şekil(ler) bulunduğunu gösterir.
 ## **Programlama Örneği**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CheckForShapes-1.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -85,3 +85,4 @@ keywords: Aspose.Cells C# إدارة بيانات ملف Excel، إضافة بي
 
 
 
+{{< app/cells/assistant language="csharp" >}}

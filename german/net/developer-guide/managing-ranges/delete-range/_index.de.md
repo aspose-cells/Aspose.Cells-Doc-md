@@ -27,3 +27,4 @@ Löschen Sie einen Bereich und verschieben Sie die Zellen nach oben wie in den f
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Delete-Range-up.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

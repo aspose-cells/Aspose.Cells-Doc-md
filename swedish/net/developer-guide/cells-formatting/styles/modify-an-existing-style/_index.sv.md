@@ -52,3 +52,4 @@ Detta exempel använder en enkel mall Excel-fil där en stil som heter Procent r
 Modifieringarna tillämpas automatiskt på området där stilen applicerades.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ModifyExistingStyle-ModifyThroughSampleExcelFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

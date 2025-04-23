@@ -4,8 +4,8 @@ linktitle: Satırları Sabitle
 type: docs
 weight: 190
 url: /tr/python-net/how-to-freeze-rows-of-excel-worksheet
-description: Bu makalede, Aspose.Cells for Python ile Excel Çalışma Sayfalarının üst satırlarını programatik olarak dondurmayı öğreneceksiniz via .NET API ları ile.
-keywords: Python Excel Kütüphanesi, Python Üst satırları dondurma, Python İlk satırı dondurma.
+description: Bu makalede, Aspose.Cells for Python via .NET API lerini kullanarak Excel Çalışma Sayfalarının üst satırlarını programlı olarak nasıl donduracağınızı öğrenin.
+keywords: Python Excel Kütüphanesi, Python Üst Satırları Dondur, Python Üst Satırları Dondur.
 ---
 
 ## **Giriş**
@@ -31,8 +31,8 @@ Satırları Dondurarak büyük verilerinizi satır etiketleriyle uğraşmadan g�
 
 
 
-## **Aspose.Cells for Python Excel Kütüphanesi ile Satırları Nasıl Dondurabilirsiniz**
-Satır(ları) dondurmak Aspose.Cells for Python via .NET ile kolaydır. Lütfen seçilen satır(ları)da satır(ları) dondurmaka için [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) metodunu kullanınız.
+## **Aspose.Cells for Python Excel Kütüphanesi ile Satırları Nasıl Dondurulur**
+Aspose.Cells for Python via .NET kullanarak satırları dondurmak çok basittir. Seçilen satırda satırı dondurmak için [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) yöntemini kullanın.
 1. Dosyayı açmak veya boş bir dosya oluşturmak için Workbook'u oluşturun.
 2. Worksheet.FreezePanes() yöntemi ile ilk satırı dondurun.
 3. Dosyayı kaydedin.

@@ -47,3 +47,4 @@ APIには、例えば[**SheetRender**](https://reference.aspose.com/cells/java/c
 - [viewBox属性を使用してチャートをSVGにエクスポート](/cells/ja/java/export-chart-to-svg-with-viewbox-attribute/)
 - [希望の幅と高さでワークシートまたはチャートを画像にエクスポート](/cells/ja/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
 - [ワークシートを画像に変換し、ページごとに画像をワークシートに変換する](/cells/ja/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)
+{{< app/cells/assistant language="java" >}}

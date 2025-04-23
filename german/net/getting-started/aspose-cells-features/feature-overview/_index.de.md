@@ -111,3 +111,4 @@ Sie können Aspose.Cells for .NET verwenden, um Seiteneinrichtungsoptionen für 
 |Geben Sie Ihre Ränder und das zentrierte Seitenlayout an.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Erstellen oder bearbeiten Sie Ihren Kopf- und/oder Fußzeilentext.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Legen Sie den Druckbereich fest, setzen Sie Drucktitel oder schalten Sie Gitterlinien ein, usw.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< app/cells/assistant language="csharp" >}}

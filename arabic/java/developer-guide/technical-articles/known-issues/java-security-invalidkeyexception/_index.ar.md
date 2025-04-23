@@ -21,3 +21,4 @@ url: /ar/java/java-security-invalidkeyexception/
 - [ملفات ملحق تشفير جافا (JCE) بقوة الولاية للقوانين 6](https://www.oracle.com/java/technologies/jce-6-download.html)
 - [ملفات ملحق تشفير جافا (JCE) بقوة الولاية للقوانين 7](https://www.oracle.com/java/technologies/jce-7-download.html)
 - [ملفات ملحق تشفير جافا (JCE) بقوة الولاية للقوانين 8](https://www.oracle.com/java/technologies/javase-jce8-downloads.html)
+{{< app/cells/assistant language="java" >}}

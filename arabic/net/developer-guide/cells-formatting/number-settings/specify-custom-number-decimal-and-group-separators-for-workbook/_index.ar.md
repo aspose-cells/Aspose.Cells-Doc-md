@@ -28,3 +28,4 @@ keywords: تحديد الفاصل العشري المخصص في Excel ، تحد
 ### كود C# لتحديد فاصل العدد وفاصل المجموعة المخصص
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-CustomDecimalAndGroupSeparator-CustomDecimalAndGroupSeparator.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

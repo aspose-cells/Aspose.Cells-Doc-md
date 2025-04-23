@@ -23,3 +23,4 @@ Cette section comprend les sujets suivants
 - [Copier des feuilles de calcul entre des classeurs](/cells/fr/net/copy-worksheets-between-workbooks/)
 - [Copier des feuilles de calcul dans un classeur](/cells/fr/net/copy-worksheets-within-a-workbook/)
 - [Déplacer des feuilles de calcul dans un classeur](/cells/fr/net/move-worksheets-within-workbook/)
+{{< app/cells/assistant language="csharp" >}}

@@ -203,3 +203,4 @@ Laden Sie **Hyperlinks in Arbeitsblatt einfügen** von einer der unten genannten
 Für weitere Details besuchen Sie [Hyperlinks zum Verknüpfen von Daten hinzufügen](/cells/de/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -30,3 +30,4 @@ False
 True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

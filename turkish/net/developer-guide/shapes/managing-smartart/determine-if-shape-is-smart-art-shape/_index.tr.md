@@ -26,3 +26,4 @@ Aşağıdaki örnek kod, bu ekran görüntüsünde gösterilen akıllı sanat ş
 Is Smart Art Shape: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

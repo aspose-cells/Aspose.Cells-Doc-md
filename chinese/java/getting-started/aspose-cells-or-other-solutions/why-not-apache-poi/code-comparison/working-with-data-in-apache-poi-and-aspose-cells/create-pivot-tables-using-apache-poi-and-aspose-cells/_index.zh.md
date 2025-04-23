@@ -201,3 +201,4 @@ pivotTable.addReportFilter(3);
 要了解更多详情，请访问[创建数据透视表和数据透视图图表](/cells/zh/java/create-pivot-tables-and-pivot-charts/)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

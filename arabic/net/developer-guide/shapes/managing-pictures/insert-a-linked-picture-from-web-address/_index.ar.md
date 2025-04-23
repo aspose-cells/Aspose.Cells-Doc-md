@@ -25,3 +25,4 @@ url: /ar/net/insert-a-linked-picture-from-web-address/
 المثال التالي يوضح كيفية إضافة صورة مرتبطة من عنوان الويب إلى ورقة عمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertLinkedPicture-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

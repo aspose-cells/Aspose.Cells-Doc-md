@@ -13,3 +13,4 @@ url: /ar/net/high-level-programming-with-a-workbook-object-model/
   - [نسخ أوراق العمل داخل دفتر عمل](/cells/ar/net/copy-worksheets-within-a-workbook/)
   - [نقل أوراق العمل داخل الدفتر](/cells/ar/net/move-worksheets-within-workbook/)
 - [البحث والاستبدال في جدول بيانات](/cells/ar/net/find-and-replace-in-spreadsheet/)
+{{< app/cells/assistant language="csharp" >}}

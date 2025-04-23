@@ -21,10 +21,11 @@ Bitte beachten Sie den folgenden Beispiellcode, der beschreibt, wie die Aufgabe 
 
 {{% alert color="primary" %}}
 
-Die Verwendung der [**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int))-Option minimiert die Größe der Ausgabe-PDF, kann aber die Bildqualität etwas beeinträchtigen.
+Die Verwendung der [**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample-int-int-)-Option minimiert die Größe der Ausgabe-PDF, kann aber die Bildqualität etwas beeinträchtigen.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
 Wenn Ihre Tabelle Formeln enthält, ist es am besten, [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) kurz vor dem Rendern der Tabelle im PDF-Format aufzurufen. Auf diese Weise wird sichergestellt, dass die von Formeln abhängigen Werte neu berechnet und die richtigen Werte im PDF gerendert werden.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

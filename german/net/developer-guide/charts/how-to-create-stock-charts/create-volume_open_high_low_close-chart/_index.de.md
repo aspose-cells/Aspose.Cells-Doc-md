@@ -19,3 +19,4 @@ Dieses Diagramm enthält unmittelbar nach der ersten (Kategorie) Spalte eine Spa
 Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](Volume-Open-High-Low-Close.xlsx) und generiert die [Ausgabedatei Excel](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-volume-open-high-low-close-stock-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

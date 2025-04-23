@@ -3,8 +3,8 @@ title: Vistas de Hoja de Cálculo
 type: docs
 weight: 40
 url: /es/python-net/worksheet-views/
-description: Este artículo describirá cómo utilizar la API Aspose.Cells para Python via .NET para interactuar con la vista previa de saltos de página de un libro de Excel y hojas de cálculo. Trabaja con paneles divididos, paneles fijos y factor de zoom. 
-keywords: Biblioteca de Excel de Python, Cómo establecer vista previa de salto de página, Cómo habilitar vista normal, Cómo establecer el factor de zoom, Cómo congelar paneles, Cómo dividir paneles, Cómo quitar paneles.
+description: Este artículo describirá cómo usar la API de Aspose.Cells para Python via .NET para interactuar con la vista previa de salto de página de un libro de trabajo y hojas de cálculo de Excel. Trabajar con paneles divididos, paneles congelados y factor de zoom también. 
+keywords: Biblioteca de Excel en Python, Cómo configurar Vista previa de saltos de página en Python, Cómo habilitar vista normal en Python, Cómo establecer el factor de zoom en Python, Cómo congelar paneles en Python, Cómo dividir paneles en Python, Cómo eliminar paneles en Python.
 ---
 
 ## **Vista previa de salto de página**
@@ -14,11 +14,11 @@ Todas las hojas de cálculo se pueden ver en dos modos:
 - Vista normal.
 - Vista previa de saltos de página.
 
-La vista normal es la vista predeterminada de la hoja de cálculo. La vista previa de salto de página es una vista de edición que muestra una hoja de cálculo tal como se imprimirá. La vista previa de salto de página muestra qué datos irán en cada página para que pueda ajustar el área de impresión y los saltos de página. Utilizando Aspose.Cells para Python via .NET, los desarrolladores pueden habilitar la vista normal o la vista previa de salto de página.
+La vista normal es la vista predeterminada de una hoja de cálculo. La vista previa de saltos de página es una vista de edición que muestra una hoja de cálculo tal como se imprimirá. La vista previa de saltos de página muestra qué datos irán en cada página para que puedas ajustar el área de impresión y los saltos de página. Usando Aspose.Cells para Python via .NET, los desarrolladores pueden habilitar modos de vista normal o vista previa de saltos de página.
 
 ### **Controlando Modos de Vista**
 
-Aspose.Cells para Python via .NET proporciona una clase [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) que representa un archivo de Microsoft Excel. La clase [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) contiene una colección [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) que permite acceder a cada hoja de cálculo en un archivo de Excel.
+Aspose.Cells para Python via .NET ofrece una clase [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) que representa un archivo de Microsoft Excel. La clase [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) contiene una colección [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) que permite acceder a cada hoja de cálculo en un archivo de Excel.
 
 Una hoja de cálculo está representada por la clase [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet). La clase [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) proporciona una amplia gama de propiedades y métodos para administrar hojas de cálculo. Para habilitar los modos de vista normal o vista previa de salto de página, use la propiedad [**is_page_break_preview**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_page_break_preview) de la clase [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet). [**is_page_break_preview**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_page_break_preview) es una propiedad booleana, lo que significa que solo puede almacenar un valor **true** o un valor **false**.
 
@@ -69,10 +69,10 @@ Aspose.Cells proporciona una clase [**Workbook**](https://reference.aspose.com/c
 
 Una hoja de cálculo está representada por la clase [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet). La clase[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) proporciona una amplia gama de propiedades y métodos para gestionar hojas de cálculo. Para configurar bloquear paneles, llama al método [**freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#int-int-int-int) de la clase Hoja de cálculo. El método [**freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#int-int-int-int) toma los siguientes parámetros:
 
-- **fila**, el índice de fila de la celda desde la cual se aplicará el congelamiento.
-- **columna**, el índice de columna de la celda desde la cual se aplicará el congelamiento.
-- **filas_congeladas**, el número de filas visibles en el panel superior.
-- **columnas_congeladas**, el número de columnas visibles en el panel izquierdo.
+- **fila**, el índice de fila desde donde comenzará el congelamiento.
+- **columna**, el índice de columna desde donde comenzará el congelamiento.
+- **filas congeladas**, el número de filas visibles en el panel superior.
+- **columnas congeladas**, el número de columnas visibles en el panel izquierdo.
 
 El archivo book1.xls se abre llamando al constructor de la clase [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) mientras se instancia y se congelan algunas filas y columnas en la primera hoja de cálculo. El archivo modificado se guarda como output.xls.
 

@@ -14,3 +14,4 @@ url: /ar/net/generate-reports-populate-documents-with-data/
   - [علامات الصور في Aspose.Cells](/cells/ar/net/image-markers-in-aspose-cells/)
   - [استخدام أنواع مجهولة أو كائنات مخصصة في Aspose.Cells](/cells/ar/net/using-anonymous-types-or-custom-objects-in-aspose-cells/)
   - [استخدام الكائنات المتداخلة في Aspose.Cells](/cells/ar/net/using-nested-objects-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

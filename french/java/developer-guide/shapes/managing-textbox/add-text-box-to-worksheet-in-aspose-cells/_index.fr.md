@@ -43,3 +43,4 @@ Vous obtiendrez un fichier similaire au [fichier résultant](result.xlsx). Dans 
 
 ![](52449.png)
 
+{{< app/cells/assistant language="java" >}}

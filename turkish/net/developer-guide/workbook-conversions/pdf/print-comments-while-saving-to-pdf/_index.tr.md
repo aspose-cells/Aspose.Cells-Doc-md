@@ -26,3 +26,4 @@ Aspose.Cells, aynı özelliği desteklemek için[**PrintCommentsType**](https://
 Aşağıdaki örnek kod, PDF'ye kaydederken yorumları yazdırmak için[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) nasıl kullanılacağını gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-PrintCommentWhileSavingToPdf-PrintCommentWhileSavingToPdf.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -20,3 +20,4 @@ url: /ru/net/update-activex-combobox-control/
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UpdateActiveXComboBoxControl-UpdateActiveXComboBoxControl.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -18,3 +18,4 @@ Aspose.Cells bietet eine [**DataLabels.IsTextWrapped**](https://reference.aspose
 Der folgende Codebeispiel zeigt, wie der Textumbruch für die Datenbeschriftungen des Diagramms deaktiviert wird.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-DisableTextWrappingForDataLabels-DisableTextWrappingForDataLabels.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -20,3 +20,4 @@ Aspose.Cells позволяет установить шрифт по умолч�
 Код генерирует [выходной HTML файл с Courier New](5472568), [выходной HTML с Arial](5472567) и [выходной HTML файл с Times New Roman](5472565).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToHTML-.java" >}}
+{{< app/cells/assistant language="java" >}}

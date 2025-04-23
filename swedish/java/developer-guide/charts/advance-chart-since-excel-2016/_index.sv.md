@@ -36,3 +36,4 @@ BoxWhisker
 
 ## **Fortsatta ämnen**
 - [Skapa vattenfalldiagram](/cells/sv/java/creating-waterfall-chart/)
+{{< app/cells/assistant language="java" >}}

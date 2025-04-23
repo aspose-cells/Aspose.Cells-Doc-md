@@ -26,3 +26,4 @@ Yukarıdaki kodun [örnek excel dosyası](5112365.xlsx)'nın konsol çıktısı 
 Web Query URL: https://docs.aspose.com/cells/net/
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

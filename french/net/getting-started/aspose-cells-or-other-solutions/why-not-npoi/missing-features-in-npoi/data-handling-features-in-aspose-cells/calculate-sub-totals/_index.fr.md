@@ -53,3 +53,4 @@ Téléchargez **Calculer les sous-totaux** à partir de l'un des sites de codage
 Pour plus de détails, visitez [Créer des sous-totaux](/cells/fr/net/creating-subtotals/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

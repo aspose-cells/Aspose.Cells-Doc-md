@@ -22,3 +22,4 @@ Aspose.Cells también proporciona los métodos [**PivotTable.showInCompactForm()
 El siguiente código de ejemplo primero muestra la tabla dinámica en **Forma Compacta**, luego muestra la tabla dinámica en **Forma de Esquema** y por último, muestra la tabla dinámica en **Forma Tabular**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangingLayoutofPivotTable-ChangingLayoutofPivotTable.java" >}}
+{{< app/cells/assistant language="java" >}}

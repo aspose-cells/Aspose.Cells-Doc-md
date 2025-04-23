@@ -28,3 +28,4 @@ El siguiente ejemplo de código, que utiliza la clase JsonLoadOptions para espec
 El siguiente ejemplo de código demuestra la importación de una cadena JSON a una hoja de cálculo de Excel. También puede especificar la ubicación del diseño al importar JSON. Consulte el código para convertir la cadena JSON al archivo xlsx generado por el código como referencia.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Convert-JSON-String-to-Excel.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -13,7 +13,7 @@ keywords: جافا البحث واستبدال البيانات في اكسل، 
 
 {{% /alert %}}
 
-توفر Aspose.Cells الطريقة [**FindOptions.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange(com.aspose.cells.CellArea)) لتحديد نطاق عند البحث عن البيانات.
+توفر Aspose.Cells الطريقة [**FindOptions.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange-com.aspose.cells.CellArea-) لتحديد نطاق عند البحث عن البيانات.
 
 فرضًا، ترغب في البحث عن سلسلة **"بحث"** واستبدالها بـ **"استبدال"** في النطاق **E3:H6**. يمكن رؤية سلسلة "بحث" في العديد من الخلايا ولكن نريد استبدالها فقط في النطاق المعطى، هنا مظلل باللون الأصفر.
 
@@ -32,3 +32,4 @@ keywords: جافا البحث واستبدال البيانات في اكسل، 
 ## مقالات ذات صلة
 
 - [العثور على البيانات أو البحث](/cells/ar/java/find-or-search-data/)
+{{< app/cells/assistant language="java" >}}

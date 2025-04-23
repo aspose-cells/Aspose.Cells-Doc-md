@@ -321,3 +321,4 @@ m_workbook.Save("output.xlsx")
 Si prega di consultare l'articolo [Copia Linea di tendenza specificando l'Intervallo dati e la Posizione del Gruppo Sparkline](http://aspose.com/docs/display/cellsnet/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group) per ulteriori informazioni.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

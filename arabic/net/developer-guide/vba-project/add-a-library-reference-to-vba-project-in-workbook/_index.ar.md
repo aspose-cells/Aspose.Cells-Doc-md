@@ -20,3 +20,4 @@ url: /ar/net/add-a-library-reference-to-vba-project-in-workbook/
 الشيفرة الزمنية العينية التالية تضيف أو تسجل اثنين من مراجع المكتبات إلى مشروع VBA لسجل العمل باستخدام طريقة [**VbaProject.References.AddRegisteredReference()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaprojectreferencecollection/methods/addregisteredreference).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddLibraryReferenceToVbaProject-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

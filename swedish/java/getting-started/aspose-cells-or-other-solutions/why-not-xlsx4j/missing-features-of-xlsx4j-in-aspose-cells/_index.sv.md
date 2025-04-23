@@ -37,3 +37,4 @@ Detta inkluderar följande rika funktioner för Aspose.Cells jämfört med xlsx4
   - [Ange flikfärg för arbetsblad i xlsx4j](/cells/sv/java/set-worksheet-tab-color-in-xlsx4j/)
 
 **Observera:** Många fler exempel kommer snart att finnas tillgängliga.
+{{< app/cells/assistant language="java" >}}

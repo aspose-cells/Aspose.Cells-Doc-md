@@ -49,16 +49,16 @@ Microsoft Excel поддерживает ряд различных типов п
 
 |**Название элемента**|**Описание**|
 | :- | :- |
-|[ANY_VALUE](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#ANY_VALUE)|Обозначение значения любого типа.|
-|[WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE_NUMBER)|Обозначение типа проверки для целых чисел.|
+|[ANY_VALUE](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#ANY-VALUE)|Обозначает значение любого типа.|
+|[WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE-NUMBER)|Обозначает тип проверки целых чисел.|
 |[DECIMAL](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#DECIMAL)|Обозначение типа проверки для десятичных чисел.|
 |[LIST](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#LIST)|Обозначение типа проверки для выпадающего списка.|
 |[DATE](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#DATE)|Обозначение типа проверки для дат.|
 |[TIME](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TIME)|Обозначение типа проверки для времени.|
-|[TEXT_LENGTH](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TEXT_LENGTH)|Обозначение типа проверки для длины текста.|
+|[TEXT_LENGTH](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TEXT-LENGTH)|Обозначает тип проверки длины текста.|
 |[CUSTOM](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#CUSTOM)|Обозначение типа проверки.|
 #### **Пример программирования: Проверка данных целого числа**
-С этим типом проверки пользователи могут вводить только целые числа в указанном диапазоне в проверяемых ячейках. Приведенные далее примеры кода показывают, как реализовать тип проверки [ЦЕЛОЕ_ЧИСЛО](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE_NUMBER). В примере создается та же проверка данных, используя Aspose.Cells, что и мы создали с помощью Microsoft Excel выше.
+С этим типом проверки пользователи могут вводить только целые числа в определенном диапазоне в проверяемые ячейки. Следующие примеры показывают, как реализовать тип проверки [WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE-NUMBER). В примере создается такая же проверка данных с помощью Aspose.Cells, как и в Microsoft Excel.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-WholeNumberDataValidation-WholeNumberDataValidation.java" >}}
 
@@ -99,7 +99,7 @@ Microsoft Excel поддерживает ряд различных типов п
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-TextLengthDataValidation-TextLengthDataValidation.java" >}}
 ## **Правила проверки данных**
-Когда правила проверки данных реализованы, то проверку можно проверить, назначив различные значения в ячейках. [Cell.GetValidationValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue\(\)) можно использовать, чтобы получить результат проверки. В следующем примере демонстрируется это свойство с различными значениями. Образец файла можно загрузить по следующей ссылке для тестирования:
+Когда реализуются проверки данных, то проверка может быть выполнена путем назначения различных значений в ячейки. [Cell.GetValidationValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--) можно использовать для получения результата проверки. Следующий пример демонстрирует эту функцию с разными значениями. Файл для тестирования можно скачать по следующей ссылке:
 
 [SampleDataValidationRules.xlsx](77987849.xlsx)
 
@@ -113,9 +113,9 @@ Microsoft Excel поддерживает ряд различных типов п
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-CheckIfValidationInCellDropDown-1.java" >}}
 ## **Добавить CellArea к существующей Validation**
-Возможно, появятся случаи, когда вы захотите добавить [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) к существующей [Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation). Когда вы добавляете [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) с помощью [Validation.AddArea(CellArea cellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea\)), Aspose.Cells проверяет все существующие области, чтобы увидеть, не существует ли новая область уже. Если файл содержит большое количество проверок, это влияет на производительность. Чтобы это преодолеть, API предоставляет метод [Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)). Параметр *checkIntersection* указывает, нужно ли проверять пересечение данной области с существующими областями проверки. Установка его на **false** отключит проверку других областей. Параметр *checkEdge* указывает, нужно ли проверять применяемые области. Если новая область становится верхней левой областью, внутренние настройки перестраиваются. Если вы уверены, что новая область не является верхней левой областью, вы можете установить этот параметр как **false**.
+Могут быть случаи, когда вы захотите добавить [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) к существующей [Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation). При добавлении [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) через [Validation.AddArea(CellArea cellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea-com.aspose.cells.CellArea-), Aspose.Cells проверяет все существующие области, чтобы убедиться, что новая область уже не существует. Если в файле много проверок, это сказывается на производительности. Чтобы решить проблему, API предоставляет метод [Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea-com.aspose.cells.CellArea-boolean-boolean-). Параметр *checkIntersection* указывает, следует ли проверять пересечение заданной области с существующими областями проверки. Установка его в **false** отключает проверку других областей. Параметр *checkEdge* указывает, следует ли проверять применяемые области. Если новая область соответствует верхнему левому углу, внутренние настройки пересобираются. Если вы уверены, что новая область не является верхним левым углом, этот параметр можно установить в **false**.
 
-В следующем сниппете кода демонстрируется использование метода [Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) для добавления новой [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) к существующей [Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation).
+Следующий пример демонстрирует использование метода [Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea-com.aspose.cells.CellArea-boolean-boolean-) для добавления новой [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) в существующую [Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation).
 
 
 
@@ -132,3 +132,4 @@ Microsoft Excel поддерживает ряд различных типов п
 - [Получить проверку ячейки в файлах ODS](/cells/ru/java/get-cell-validation-in-ods-files/)
 - [Получить примененную проверку данных к ячейке](/cells/ru/java/get-validation-applied-on-a-cell/)
 - [Проверьте, что значение ячейки удовлетворяет правилам проверки данных](/cells/ru/java/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="java" >}}

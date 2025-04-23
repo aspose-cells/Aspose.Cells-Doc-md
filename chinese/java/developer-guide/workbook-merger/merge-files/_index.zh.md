@@ -7,7 +7,7 @@ url: /zh/java/merge-files/
 
 ## **介绍**
 
-Aspose.Cells提供了不同的合并文件的方法。对于含有数据、格式和公式的简单文件，可以使用[**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook))方法合并多个工作簿，并可以使用[**Worksheet.copy(**)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet))方法将工作表复制到新工作簿中。这些方法易于使用且有效，但如果有大量要合并的文件，您可能会发现它们占用大量系统资源。为避免这种情况，使用CellsHelper.mergeFiles静态方法，这是合并多个文件的更高效方法。
+Aspose.Cells 提供多种合并文件的方法。对于包含数据、格式和公式的简单文件，可以使用 [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine-com.aspose.cells.Workbook-) 方法合并多个工作簿，也可以使用 [Worksheet.copy()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy-com.aspose.cells.Worksheet-) 方法复制工作表到新工作簿中。这些方法操作简便且效果明显，但如果有大量文件需要合并，可能会占用大量系统资源。为避免这种情况，可以使用 CellsHelper.mergeFiles 静态方法，它是一种更高效的合并多文件的方法。
 
 ## **使用Aspose.Cells合并文件**
 
@@ -20,3 +20,4 @@ CellsHelper.mergeFiles方法仅支持合并数据、样式、格式和公式。�
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-MergeFiles-MergeFiles.java" >}}
+{{< app/cells/assistant language="java" >}}

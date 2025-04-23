@@ -27,7 +27,7 @@ url: /ru/java/create-pivot-table/
 Чтобы создать сводную таблицу с помощью Aspose.Cells, следуйте приведенным ниже шагам:
 
 1. Добавьте некоторые данные в ячейки листа с помощью метода [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) объекта [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell). Эти данные будут использоваться в качестве источника данных для сводной таблицы.
-1. Добавьте сводную таблицу на рабочий лист, вызвав метод [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) класса [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet), инкапсулированный в объекте [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add(com.aspose.cells.PivotTable,%20int,%20int,%20java.lang.String)).
+1. Добавьте сводную таблицу на рабочий лист, вызвав метод [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) класса [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet), инкапсулированный в объекте [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add-com.aspose.cells.PivotTable-int-int-java.lang.String-).
 1. Получите объект [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) из [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection), передав индекс [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable).
 1. Используйте любой из объектов сводной таблицы (объяснено выше), инкапсулированных в объекте [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable), для управления сводной таблицей.
 
@@ -44,3 +44,4 @@ url: /ru/java/create-pivot-table/
 ![todo:image_alt_text](create-pivot-table_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-CreatePivotTable.java" >}}
+{{< app/cells/assistant language="java" >}}

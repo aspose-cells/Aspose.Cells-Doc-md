@@ -257,3 +257,4 @@ Kutu ve bıyık grafiği Aspose.Cells tarafından desteklenir.
 
 ### **Özel Grafik Türleri**
 Özel grafikler, diğer grafiklere uygulanabilen özel biçimlendirme ile grafikler oluşturmanıza olanak tanır. Burada sadece standart grafikler tartışılmıştır. Özel grafikler hakkında daha fazla bilgi edinmek istiyorsanız lütfen [Özel Grafikler Oluşturma](/cells/tr/java/creating-and-customizing-charts/#creatingandcustomizingcharts-usingchartingobjects) makalesini okuyun. Bu makale, özel grafiklerin nasıl oluşturulacağını açıklar.
+{{< app/cells/assistant language="java" >}}

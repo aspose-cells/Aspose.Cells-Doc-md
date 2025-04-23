@@ -51,3 +51,4 @@ if (s.equals("R" + row + "C" + col)!=true)
 否则，程序将在不显示任何消息的情况下运行，这意味着从单元格中读取的所有值都是正确的。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ThreadProc-ThreadProc.java" >}}
+{{< app/cells/assistant language="java" >}}

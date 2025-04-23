@@ -24,3 +24,4 @@ url: /ar/net/check-if-vba-project-is-protected-and-locked-for-viewing/
 Is VBA Project Locked for Viewing: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

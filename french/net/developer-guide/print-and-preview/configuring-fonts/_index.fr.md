@@ -20,6 +20,12 @@ Voici le processus suivi par les API Aspose.Cells en arrière-plan.
 1. Si l'API ne parvient pas à localiser la police définie dans [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/properties/defaultfontname), elle tente de sélectionner les polices les plus adaptées parmi toutes les polices disponibles.
 1. Enfin, si l'API ne trouve pas de polices sur le système de fichiers, elle rend la feuille de calcul en utilisant Arial.
 
+{{% alert color="primary" %}}
+
+En général, les API Aspose.Cells analysent par défaut les répertoires de polices par défaut du système d'exploitation sous Windows, Linux, MacOS. À partir de [Aspose.Cells for .NET 24.7](https://releases.aspose.com/cells/net/release-notes/2024/aspose-cells-for-net-24-7-release-notes/), les API analysent également par défaut les répertoires de polices en cache dans le cloud Office.
+
+{{% /alert %}}
+
 ## **Définir des dossiers de polices personnalisés**
 
 Les APIs Aspose.Cells recherchent le répertoire de police par défaut du système d'exploitation pour les polices requises. Si les polices requises ne sont pas disponibles dans le répertoire de police du système, les APIs recherchent dans les répertoires personnalisés (définis par l'utilisateur). La classe [**FontConfigs**](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs) a exposé plusieurs façons de définir des répertoires de polices personnalisées comme détaillé ci-dessous.
@@ -66,3 +72,4 @@ En plus des méthodes mentionnées ci-dessus, les APIs Aspose.Cells ont égaleme
 - [Définir la propriété DefaultFont des PdfSaveOptions et ImageOrPrintOptions pour avoir la priorité](/cells/fr/net/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Formats de police pris en charge](/cells/fr/net/supported-font-formats/)
 - [Feuille de calcul vers Image - Définir le format de pixel pour l'image rendue](/cells/fr/net/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
+{{< app/cells/assistant language="csharp" >}}

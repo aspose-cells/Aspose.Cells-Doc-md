@@ -44,3 +44,4 @@ Preserve Formatting: False
 Aspose.Cells ger möjlighet att läsa adressen dvs resultatintervallen av celler för en frågetabell. Följande kod visar denna funktion genom att läsa adressen för resultatintervallen för en frågetabell. Exempelfilen kan laddas ner [här](72417290.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAddressOfResultRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

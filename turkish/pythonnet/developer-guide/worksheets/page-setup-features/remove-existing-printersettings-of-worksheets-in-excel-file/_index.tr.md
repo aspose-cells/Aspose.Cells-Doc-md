@@ -3,15 +3,15 @@ title: Excel dosyasındaki Çalışma Sayfalarının Mevcut Yazıcı Ayarların�
 type: docs
 weight: 60
 url: /tr/python-net/remove-existing-printersettings-of-worksheets-in-excel-file/
-description: Bu makalede, Aspose.Cells for Python Excel Kitaplığı kullanarak Programlı olarak Excel dosyası içindeki Çalışma Sayfasının Mevcut Yazıcı Ayarlarını nasıl kaldıracağınızı öğreneceksiniz.
-keywords: Python Excel Kütüphanesi, Python çalışma sayfasının yazıcı ayarlarını kaldır, Python excel çalışma sayfasının yazıcı ayarlarını kaldır.
+description: Bu makalede, Aspose.Cells for Python Excel Kütüphanesi kullanarak Sayfa Düzeni nesnesi üzerinden Excel dosyasındaki Çalışma Sayfasının mevcut PrinterSettings ayarlarını programlı olarak nasıl kaldıracağınızı örnek kodlarla öğreneceksiniz.
+keywords: Python Excel Kütüphanesi, Python ile çalışma sayfasının yazıcı ayarlarını kaldırma, Python ile Excel çalışma sayfasının yazıcı ayarlarını kaldırma.
 ---
 
 ## **Olası Kullanım Senaryoları**
-Bazı geliştiriciler, Excel'in kaydedilen XLSX dosyalarında *.bin* dosyalarını içermesini istemez. Yazıcı ayarları dosyaları *“[file "root"]\xl\printerSettings”* altında bulunur. Bu belge, Aspose.Cells for Python via .NET API'larını kullanarak mevcut yazıcı ayarlarını nasıl kaldıracağınızı açıklar.
+Bazen geliştiriciler, Excel'in kaydedilen XLSX dosyalarına yazıcı ayarlarının *.bin* dosyalarını dahil etmesini engellemek ister. Yazıcı ayarları dosyaları "[file "root"]\xl\printerSettings" altındadır. Bu doküman, Aspose.Cells for Python via .NET API'leri kullanarak mevcut yazıcı ayarlarını nasıl kaldıracağınızı açıklar.
 
 ## **Excel dosyasındaki Mevcut Çalışma Sayfası Yazıcı Ayarlarını Kaldırma**
-Aspose.Cells for Python via .NET, Excel dosyasında farklı sayfalar için belirtilen mevcut yazıcı ayarlarını kaldırmanıza olanak tanır. Aşağıdaki örnek kod, çalışma kitabındaki tüm çalışma sayfaları için mevcut yazıcı ayarlarını kaldırmanın nasıl yapıldığını gösterir.
+Aspose.Cells for Python via .NET, Excel dosyasındaki farklı sayfalar için belirlenen mevcut yazıcı ayarlarını kaldırmanıza imkan tanır. Aşağıdaki örnek kod, çalışma kitabındaki tüm sayfalar için mevcut yazıcı ayarlarını nasıl kaldıracağınızı gösterir. Lütfen [örnek Excel dosyasına](45056020.xlsx), [çıktı Excel dosyasına](45056021.xlsx), konsol çıktısına ve ekran görüntüsüne bakınız.
 
 ## **Ekran Görüntüsü**
 ![todo:image_alt_text](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)

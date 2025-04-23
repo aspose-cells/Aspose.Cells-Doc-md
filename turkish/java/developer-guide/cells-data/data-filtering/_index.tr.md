@@ -45,7 +45,7 @@ Aspose.Cells, Excel dosyasını temsil eden bir sınıf olan [**Workbook**](http
 
 Bir çalışma sayfası [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı, çalışma sayfalarını yönetmek için geniş bir özellik ve yöntem yelpazesi sağlar. Bir otomatik filtre oluşturmak için, [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfının [**AutoFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter) özelliğini kullanın. [**AutoFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter) özelliği, başlık satırını oluşturan hücre aralığının belirlenmesi için [**AutoFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter) sınıfından bir nesnedir ve [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#Range) özelliğini sağlar. Otomatik filtre, başlık satırını oluşturan hücre aralığına uygulanır.
 
-Her bir çalışma sayfasında, yalnızca bir filtre aralığı belirtebilirsiniz. Bu, Microsoft Excel tarafından sınırlıdır. Özel veri filtrelemesi için [**AutoFilter.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom(int,%20int,%20java.lang.Object)) yöntemini kullanın.
+Her bir çalışma sayfasında, yalnızca bir filtre aralığı belirtebilirsiniz. Bu, Microsoft Excel tarafından sınırlıdır. Özel veri filtrelemesi için [**AutoFilter.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom-int-int-java.lang.Object-) yöntemini kullanın.
 
 Aşağıdaki örnekte, Yukarıdaki bölümde Microsoft Excel kullanarak oluşturulan AutoFilter'ı Aspose.Cells kullanarak oluşturduk.
 
@@ -57,7 +57,7 @@ Aspose.Cells, Renk Filtresi, Tarih Filtresi, Sayı Filtresi, Metin Filtresi, Bo�
 
 ##### **Dolgu Rengi**
 
-Aspose.Cells, hücrelerin dolgu rengi özelliğine göre verileri filtrelemek için [**addFillColorFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addFillColorFilter(int,%20int,%20com.aspose.cells.CellsColor,%20com.aspose.cells.CellsColor)) işlevini sağlar. Aşağıdaki örnekte, sayfanın ilk sütununda farklı dolgu renkleri olan bir şablon dosya, renk filtresi işlevini test etmek için kullanılır. İşlevselliği kontrol etmek için aşağıdaki dosyalar indirilebilir.
+Aspose.Cells, hücrelerin dolgu rengi özelliğine göre verileri filtrelemek için [**addFillColorFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addFillColorFilter-int-int-com.aspose.cells.CellsColor-com.aspose.cells.CellsColor-) işlevini sağlar. Aşağıdaki örnekte, sayfanın ilk sütununda farklı dolgu renkleri olan bir şablon dosya, renk filtresi işlevini test etmek için kullanılır. İşlevselliği kontrol etmek için aşağıdaki dosyalar indirilebilir.
 
 1. [ColouredCells.xlsx](72417315.xlsx)
 1. [FilteredColouredCells.xlsx](72417316.xlsx)
@@ -66,7 +66,7 @@ Aspose.Cells, hücrelerin dolgu rengi özelliğine göre verileri filtrelemek i�
 
 ##### **Tarih**
 
-Filtrelenecek Ocak 2018 tarihlerine sahip tüm satırları filtrelemek gibi farklı türde tarih filtreleri uygulanabilir. Aşağıdaki örnek kod, bu filtrelemeyi [**addDateFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addDateFilter(int,%20int,%20int,%20int,%20int,%20int,%20int,%20int)) işlevini kullanarak göstermektedir. Bu işlevselliği test etmek için aşağıdaki dosyalar kullanılabilir.
+Filtrelenecek Ocak 2018 tarihlerine sahip tüm satırları filtrelemek gibi farklı türde tarih filtreleri uygulanabilir. Aşağıdaki örnek kod, bu filtrelemeyi [**addDateFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addDateFilter-int-int-int-int-int-int-int-int-) işlevini kullanarak göstermektedir. Bu işlevselliği test etmek için aşağıdaki dosyalar kullanılabilir.
 
 1. [Date.xlsx](72417317.xlsx)
 1. [FilteredDate.xlsx](72417318.xlsx)
@@ -75,7 +75,7 @@ Filtrelenecek Ocak 2018 tarihlerine sahip tüm satırları filtrelemek gibi fark
 
 ##### **Dinamik Tarih**
 
-Bazen tarihe dayalı dinamik filtreler, yıl gözetmeksizin, örneğin Ocak ayında tüm hücrelerin gerekliliği olabilir. Bu durumda, aşağıdaki örnek kodda verildiği gibi [**DynamicFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#dynamicFilter(int,%20int)) işlevi kullanılır. Bu işlevselliği test etmek için aşağıdaki dosyalar kullanılabilir.
+Bazen tarihe dayalı dinamik filtreler, yıl gözetmeksizin, örneğin Ocak ayında tüm hücrelerin gerekliliği olabilir. Bu durumda, aşağıdaki örnek kodda verildiği gibi [**DynamicFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#dynamicFilter-int-int-) işlevi kullanılır. Bu işlevselliği test etmek için aşağıdaki dosyalar kullanılabilir.
 
 1. [Date.xlsx](72417317.xlsx)
 1. [FilteredDynamicDate.xlsx](72417319.xlsx)
@@ -84,7 +84,7 @@ Bazen tarihe dayalı dinamik filtreler, yıl gözetmeksizin, örneğin Ocak ayı
 
 ##### **Sayı**
 
-Aspose.Cells ile sayılar arasında belirli bir aralıkta hücreleri seçerek özel filtreler uygulanabilir. Aşağıdaki örnek, sayıları filtrelemek için [**custom()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom(int,%20int,%20java.lang.Object)) işlevinin kullanımını göstermektedir. İşlevin işlevselliğini kontrol etmek için örnek dosyalar aşağıdaki bağlantılardan indirilebilir.
+Aspose.Cells ile sayılar arasında belirli bir aralıkta hücreleri seçerek özel filtreler uygulanabilir. Aşağıdaki örnek, sayıları filtrelemek için [**custom()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom-int-int-java.lang.Object-) işlevinin kullanımını göstermektedir. İşlevin işlevselliğini kontrol etmek için örnek dosyalar aşağıdaki bağlantılardan indirilebilir.
 
 1. [Number.xlsx](72417320.xlsx)
 1. [FilteredNumber.xlsx](72417321.xlsx)
@@ -93,7 +93,7 @@ Aspose.Cells ile sayılar arasında belirli bir aralıkta hücreleri seçerek ö
 
 ##### **Metin**
 
-Bir sütun metin içeriyorsa ve belirli metni içeren hücrelerin seçilmesi gerekiyorsa, aşağıdaki örnek dosyada belirli ülke adını içeren bir satır bulunan bir şablon dosya kullanılarak [**filter()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#filter(int,%20java.lang.String)) işlevi kullanılabilir. Aşağıdaki örnek kod, aşağıdaki örnek dosyalar kullanılarak metin filtrelemesini göstermektedir.
+Bir sütun metin içeriyorsa ve belirli metni içeren hücrelerin seçilmesi gerekiyorsa, aşağıdaki örnek dosyada belirli ülke adını içeren bir satır bulunan bir şablon dosya kullanılarak [**filter()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#filter-int-java.lang.String-) işlevi kullanılabilir. Aşağıdaki örnek kod, aşağıdaki örnek dosyalar kullanılarak metin filtrelemesini göstermektedir.
 
 1. [Text.xlsx](72417322.xlsx)
 1. [FilteredText.xlsx](72417323.xlsx)
@@ -102,7 +102,7 @@ Bir sütun metin içeriyorsa ve belirli metni içeren hücrelerin seçilmesi ger
 
 ##### **Boşluklar**
 
-Bir sütun öyle metin içeriyor ki, bazı hücreler boş ise ve yalnızca boş hücrelerin bulunduğu satırların seçilmesi gerekiyorsa, aşağıdaki örnek kodda gösterildiği gibi [**matchBlanks()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchBlanks(int)) işlevi kullanılabilir. İşlevin işlevselliğini kontrol etmek için örnek dosyalar aşağıdaki bağlantılardan indirilebilir.
+Bir sütun öyle metin içeriyor ki, bazı hücreler boş ise ve yalnızca boş hücrelerin bulunduğu satırların seçilmesi gerekiyorsa, aşağıdaki örnek kodda gösterildiği gibi [**matchBlanks()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchBlanks-int-) işlevi kullanılabilir. İşlevin işlevselliğini kontrol etmek için örnek dosyalar aşağıdaki bağlantılardan indirilebilir.
 
 1. [Boş.xlsx](72417324.xlsx)
 1. [FiltreliBos.xlsx](72417325.xlsx)
@@ -111,7 +111,7 @@ Bir sütun öyle metin içeriyor ki, bazı hücreler boş ise ve yalnızca boş 
 
 ##### **Boş Olmayanlar**
 
-Herhangi bir metni içeren hücrelerin filtrelenmesi gerektiğinde, aşağıdaki bağlantılardan örnek dosyalar kullanılarak [**MatchNonBlanks**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchNonBlanks(int)) filtre işlevini kullanın.
+Herhangi bir metni içeren hücrelerin filtrelenmesi gerektiğinde, aşağıdaki bağlantılardan örnek dosyalar kullanılarak [**MatchNonBlanks**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchNonBlanks-int-) filtre işlevini kullanın.
 
 1. [Boş.xlsx](72417324.xlsx)
 1. [FiltreliBosOlmayan.xlsx](72417326.xlsx)
@@ -155,3 +155,4 @@ Excel, Aspose.Cells'de mevcut olan ve aşağıdaki örnek dosyadaki isimleri fil
 - [Karmaşık Kriterleri Karşılayan Kayıtları Göstermek İçin Microsoft Excel'in İleri Filtresini Uygulayın](/cells/tr/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Yenileme Otomatik Filtre Sonrası Tüm Gizli Satır Dizinleri Alın](/cells/tr/java/get-all-hidden-rows-indices-after-refreshing-autofilter/)
 
+{{< app/cells/assistant language="java" >}}

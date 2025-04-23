@@ -35,3 +35,4 @@ Aspose.Cells for Java unterstützt die folgenden Java-Versionen:
 
 
 
+{{< app/cells/assistant language="java" >}}

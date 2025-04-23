@@ -3,13 +3,13 @@ title: Ermittlung der absoluten Position einer Form innerhalb des Arbeitsblatts
 type: docs
 weight: 8000
 url: /de/python-net/finding-absolute-position-of-shape-inside-the-worksheet/
-description: Dieser Artikel zeigt, wie die absolute Position der Form innerhalb des Arbeitsblatts durch die Aspose.Cells für Python via .NET API gefunden werden kann.
-keywords: Python Excel Bibliothek, Python wie man die absolute Position der Form innerhalb des Arbeitsblatts findet.
+description: Dieser Artikel zeigt, wie man die Absolute Position einer Form innerhalb des Arbeitsblattes durch die Aspose.Cells für Python via .NET API findet.
+keywords: Python Excel Bibliothek, Python wie man die Absolute Position einer Form im Arbeitsblatt findet.
 ---
 
 {{% alert color="primary" %}}
 
-Manchmal müssen Sie die absolute Position einer Form in einem Arbeitsblatt kennen. Aspose.Cells für Python via .NET bietet die Eigenschaften [**Shape.left_to_corner**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/left_to_corner) und [**Shape.top_to_corner**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/top_to_corner) für diesen Zweck. Diese Eigenschaften geben die absolute Position der Form im Arbeitsblatt in Pixel zurück.
+Manchmal müssen Sie die absolute Position einer Form in einem Arbeitsblatt kennen. Aspose.Cells für Python via .NET stellt hierfür die [**Shape.left_to_corner**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/left_to_corner) und [**Shape.top_to_corner**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/top_to_corner) Eigenschaften bereit. Diese Eigenschaften geben die absolute Position der Form im Arbeitsblatt in Pixeln zurück.
 
 {{% /alert %}}
 

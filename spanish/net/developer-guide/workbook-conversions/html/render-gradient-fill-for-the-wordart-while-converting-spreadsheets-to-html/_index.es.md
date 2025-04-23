@@ -13,3 +13,4 @@ Antes de Aspose.Cells 17.1, Aspose.Cells no renderizaba el relleno degradado del
 El siguiente código de ejemplo convierte el [archivo de Excel fuente](22774111.xlsx) en [formato HTML de salida](22774109.zip). El archivo de Excel fuente contiene un objeto WordArt con relleno degradado como se muestra en la captura de pantalla anterior.
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithHTMLFormat-RenderGradientFillToHTML.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

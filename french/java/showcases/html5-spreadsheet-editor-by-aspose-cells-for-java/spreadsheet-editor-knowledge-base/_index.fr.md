@@ -36,3 +36,4 @@ Pour charger une feuille de calcul dans un éditeur intégré, utilisez le param
 </iframe>
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

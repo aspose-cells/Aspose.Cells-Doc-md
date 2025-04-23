@@ -23,3 +23,4 @@ Följande skärmbild visar Microsoft Excels gränssnitt för att ställa in *sku
 Följande kodexempel laddar [käll-excel-filen](5472531.xlsx) och får åtkomst till den första formen i den första arbetsboken och anger underegenskaperna för [Shape.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect) egenskapen och sparar sedan arbetsboken i [utdata-excel-filen](5472530.xlsx).
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithShadowEffect-WorkingWithShadowEffect.java" >}}
+{{< app/cells/assistant language="java" >}}

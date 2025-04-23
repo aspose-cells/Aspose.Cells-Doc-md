@@ -22,3 +22,4 @@ El siguiente ejemplo muestra cómo agregar una forma WordArt para establecer una
 - [Añadir texto de Word Art con estilos integrados](/cells/es/net/add-word-art-text-with-built-in-styles/)
 - [Bloquear marca de agua WordArt](/cells/es/net/locking-wordart-watermark/)
 - [Establecer un estilo de WordArt preestablecido al texto de la forma](/cells/es/net/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="csharp" >}}

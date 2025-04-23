@@ -35,3 +35,4 @@ El siguiente fragmento de código muestra cómo configurar las opciones de los e
 - [Cambiar la dirección de la etiqueta del eje](/cells/es/java/change-tick-label-direction/)
 - [Determinar qué Eje existe en el Gráfico](/cells/es/java/determine-which-axis-exists-in-the-chart/)
 - [Manejar Unidades Automáticas del Eje del Gráfico como Microsoft Excel](/cells/es/java/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
+{{< app/cells/assistant language="java" >}}

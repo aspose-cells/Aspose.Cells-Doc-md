@@ -16,3 +16,4 @@ url: /ru/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/
 В следующем образце кода добавляются условное форматирование двухцветной и трехцветной шкал. Он генерирует [выходной файл Excel](5115058.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageConditionalFormatting-AddColorScales-AddColorScales.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

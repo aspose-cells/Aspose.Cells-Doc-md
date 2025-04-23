@@ -5,3 +5,4 @@ type: docs
 weight: 190
 url: /sv/java/managing-database-connections/
 ---
+{{< app/cells/assistant language="java" >}}

@@ -34,3 +34,4 @@ Aspose.Cellsの使用方法は開発者次第ですが、Aspose.Cellsが役立�
 Webベースの環境でAspose.Cellsを使用する際の一般的なシナリオのいくつかを説明しましたが、Aspose.Cellsはデスクトップベースのアプリケーションでも同様に有用です。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

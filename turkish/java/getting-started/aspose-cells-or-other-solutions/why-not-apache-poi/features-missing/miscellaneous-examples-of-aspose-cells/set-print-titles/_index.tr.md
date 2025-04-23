@@ -38,3 +38,4 @@ pageSetup.setPrintTitleRows("$1:$2");
 Daha fazla bilgi için [Yazdırma Seçeneklerini Ayarlama](/cells/tr/java/page-setup-features/#setting-print-options) sayfasını ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

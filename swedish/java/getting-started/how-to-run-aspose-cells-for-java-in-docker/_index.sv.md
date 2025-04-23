@@ -58,3 +58,4 @@ docker build -t java-app .
 {{< /highlight >}}
 
 Efter att ovanstående kommando har körts, kommer du få utdata av XLSX-kalkylbladet och resultatet från kommandotolken. Vid det här laget har ett Java-program körts framgångsrikt i Linux Docker.
+{{< app/cells/assistant language="java" >}}

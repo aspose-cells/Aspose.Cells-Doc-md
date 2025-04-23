@@ -24,3 +24,4 @@ Detta exempel visar hur man:
 1. Kopiera data från det första området till det andra området.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeDataOnly-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

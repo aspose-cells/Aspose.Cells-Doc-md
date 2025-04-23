@@ -28,3 +28,4 @@ Följande är en lista över klasser som har fått nya namn:
 For further reference, please check our featured demos: <https://github.com/aspose-cells/Aspose.Cells-for-.NET>
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

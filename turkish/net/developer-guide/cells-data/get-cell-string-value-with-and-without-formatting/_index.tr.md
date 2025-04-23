@@ -21,3 +21,4 @@ Aspose.Cells, hücrenin dize değerini herhangi bir biçimlendirmeyle veya olmak
 Aşağıdaki örnek kod, [**Cell.GetStringValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstringvalue) yönteminin kullanımını açıklar.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-GetStringValue-GetStringValueWithOrWithoutFormatting.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

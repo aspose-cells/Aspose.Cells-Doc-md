@@ -57,3 +57,4 @@ Di seguito è riportato un esempio completo che mostra come utilizzare la propri
 È anche possibile utilizzare i metodi [**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) e [**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns) della classe [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) per rendere visibili più righe e colonne.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

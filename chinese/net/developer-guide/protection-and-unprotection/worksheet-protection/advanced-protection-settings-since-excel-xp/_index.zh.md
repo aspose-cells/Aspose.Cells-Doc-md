@@ -66,3 +66,4 @@ Aspose.Cells提供了一个代表Microsoft Excel文件的类[**Workbook**](https
 也可以使用Aspose.Cells API锁定单元格。每个单元格可以获得包含布尔属性[**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked)的[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)格式。将[**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked)属性设置为**true**或**false**以锁定或解锁单元格。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

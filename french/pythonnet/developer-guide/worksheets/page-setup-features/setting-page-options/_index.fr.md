@@ -3,8 +3,8 @@ title: Réglage des options de page
 type: docs
 weight: 10
 url: /fr/python-net/setting-page-options/
-description: Cet article fournit du code d exemple pour définir les options de page des feuilles Excel de manière programmatoire en utilisant l API Aspose.Cells pour Python via .NET. Vous pourrez définir l orientation de la page, le facteur d échelle, les options Ajuster aux pages, le format de papier, la qualité d impression, le numéro de la première page.
-keywords: Bibliothèque Python Excel, Réglage de l orientation de page Excel en Python, Réglage du facteur de mise à l échelle Excel en Python, Réglage de la taille de papier des feuilles Excel en Python, Comment définir l orientation de la page en Python, Comment définir le facteur de mise à l échelle en Python, Comment définir les options FitToPages en Python, Comment définir la taille du papier en Python, Comment définir la qualité d impression en Python, Comment définir le numéro de première page en Python.
+description: Cet article fournit un code d exemple pour définir les options de page des feuilles de calcul Excel de manière programmatique en utilisant l API Aspose.Cells pour Python via .NET. Vous pourrez définir l orientation de la page, le facteur de mise à l échelle, les options FitToPages, la taille du papier, la qualité d impression, le numéro de la première page.
+keywords: Bibliothèque Excel Python, Python définir l orientation de la page Excel, définir le facteur de mise à l’échelle Excel avec Python, définir la taille du papier des feuilles Excel en Python, Python Comment définir l orientation de la page, Python Comment définir le facteur de mise à l’échelle, Python Comment définir les options FitToPages, Python Comment définir la taille du papier, Python Comment définir la qualité d impression, Python Comment définir le numéro de la première page.
 ---
 
 {{% alert color="primary" %}}
@@ -13,11 +13,11 @@ Parfois, il est nécessaire de configurer les paramètres de mise en page des fe
 
 {{% /alert %}}
 
-## **Comment définir les options de la page**
+## **Comment définir les options de page**
 
-Les options de configuration de page sont entièrement prises en charge dans Aspose.Cells pour Python via .NET. Cet article explique comment définir les options de page avec Aspose.Cells pour Python via .NET et montre des exemples de code pour régler :
+Les options de configuration de la page sont entièrement prises en charge dans Aspose.Cells pour Python via .NET. Cet article explique comment définir les options de page avec Aspose.Cells pour Python via .NET et montre des exemples de code pour la configuration :
 
-Aspose.Cells pour Python via .NET fournit une classe, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), qui représente un fichier Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) contient une collection [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) permettant d'accéder à chaque feuille de calcul du fichier Excel. Une feuille de calcul est représentée par la classe [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet).
+Aspose.Cells pour Python via .NET fournit une classe, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), qui représente un fichier Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) contient une collection [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) qui permet d'accéder à chaque feuille de calcul du fichier Excel. Une feuille de calcul est représentée par la classe [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet).
 
 La classe [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) fournit la propriété [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) qui est utilisée pour définir les options de configuration de page de la feuille de calcul. En fait, cette propriété [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) est un objet de la classe [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) utilisé pour définir différentes options de mise en page pour une feuille de calcul imprimée. La classe [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) fournit diverses propriétés utilisées pour définir des options de mise en page. Certaines de ces propriétés sont discutées ci-dessous.
 
@@ -32,7 +32,7 @@ L'orientation de la page peut être définie en mode portrait ou paysage à l'ai
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-PageOrientation-1.py" >}}
 
-## **Comment définir le facteur de mise à l'échelle**
+## **Comment définir le facteur de mise à l’échelle**
 
 Il est possible de réduire ou d'agrandir la taille d'une feuille de calcul en ajustant le facteur d'échelle avec la propriété [**PageSetup.zoom**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/zoom).
 
@@ -44,7 +44,7 @@ Pour ajuster le contenu de la feuille de calcul à un nombre spécifique de page
 
 {{% alert color="primary" %}}
 
-Vous pouvez choisir la propriété [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/) et [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/) ou la propriété [**zoom**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/zoom) mais pas les deux en même temps.
+Vous pouvez choisir soit la propriété [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/) et [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/) soit la propriété [**zoom**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/zoom) mais pas les deux en même temps.
 
 {{% /alert %}}
 
@@ -185,7 +185,7 @@ Définissez la qualité d'impression des feuilles à imprimer avec la propriét�
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPrintQuality-1.py" >}}
 
-## **Comment définir le numéro de première page**
+## **Comment définir le numéro de la première page**
 
 Commencez la numérotation des pages de feuille de calcul en utilisant la propriété [**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/) de la classe [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup). La propriété [**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/) définit le numéro de la première page de la feuille de calcul et les pages suivantes sont numérotées dans l'ordre croissant.
 

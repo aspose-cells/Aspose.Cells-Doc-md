@@ -123,3 +123,4 @@ Okuma sırası, [**Style**](https://reference.aspose.com/cells/net/aspose.cells/
 - [Hücre Düzenini Değiştirme ve Mevcut Biçimlendirmeyi Koruma](/cells/tr/net/change-cells-alignment-and-keep-existing-formatting/)
 - [Satır Sonları ve Metin Kaydırma](/cells/tr/net/line-breaks-and-text-wrapping/)
 
+{{< app/cells/assistant language="csharp" >}}

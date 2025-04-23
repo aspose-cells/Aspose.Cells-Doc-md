@@ -274,3 +274,4 @@ El valor predeterminado es "" (cadena vacía).
 Utilice el método GetEnumerator para iterar todas las celdas en su lugar.
 ### **Propiedad obsoleta DrawObject.Image**
 Utilice la propiedad DrawObject.ImageBytes para obtener los datos de la imagen en su lugar.
+{{< app/cells/assistant language="csharp" >}}

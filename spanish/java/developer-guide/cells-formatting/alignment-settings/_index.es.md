@@ -81,7 +81,7 @@ Una opción para envolver texto en un campo es reducir el tamaño del texto para
 
 ### **Combinar celdas**
 
-Al igual que Microsoft Excel, Aspose.Cells admite fusionar varias celdas en una. Aspose.Cells proporciona dos enfoques para esta tarea. Una forma es llamar al método [**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)). El método toma los siguientes parámetros para fusionar las celdas:
+Al igual que Microsoft Excel, Aspose.Cells admite fusionar varias celdas en una. Aspose.Cells proporciona dos enfoques para esta tarea. Una forma es llamar al método [**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge-int-int-int-int-). El método toma los siguientes parámetros para fusionar las celdas:
 
 - Primera fila: la primera fila desde donde comenzar a combinar.
 - Primera columna: la primera columna desde donde comenzar a combinar.
@@ -108,3 +108,4 @@ El orden de lectura se establece con la propiedad [**TextDirection**](https://re
 ## **Temas avanzados**
 - [Cambiar la alineación de las celdas y mantener el formato existente](/cells/es/java/change-cells-alignment-and-keep-existing-formatting/)
 - [Saltos de línea y ajuste de texto](/cells/es/java/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="java" >}}

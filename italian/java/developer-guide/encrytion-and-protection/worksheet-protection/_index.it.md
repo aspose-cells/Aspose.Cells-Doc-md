@@ -19,7 +19,7 @@ I fogli di lavoro protetti non nascondono o proteggono dati sensibili, quindi è
 
 Aspose.Cells fornisce una classe, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), che rappresenta un file Microsoft Excel. La classe Workbook contiene una WorksheetCollection che consente di accedere a ciascun foglio di lavoro in un file di Excel. Un foglio di lavoro è rappresentato dalla classe [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
-La classe Worksheet fornisce il metodo [**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect(int)) che viene utilizzato per applicare la protezione a un foglio di lavoro. Il metodo Protect accetta i seguenti parametri:
+La classe Worksheet fornisce il metodo [**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect-int-) che viene utilizzato per applicare la protezione a un foglio di lavoro. Il metodo Protect accetta i seguenti parametri:
 
 - Tipo di Protezione, il tipo di protezione da applicare al foglio di lavoro. Il tipo di protezione è applicato con l'aiuto dell'enumerazione [**ProtectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ProtectionType).
 - Nuova password, la nuova password utilizzata per proteggere il foglio di lavoro.
@@ -99,7 +99,7 @@ L'esempio seguente mostra come proteggere alcune celle nel foglio di lavoro. Sbl
 
 ### **Proteggere una riga nel foglio di lavoro**
 
-Aspose.Cells consente di bloccare facilmente qualsiasi riga nel foglio di lavoro. Qui, possiamo utilizzare il metodo [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) della classe [**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) per applicare uno stile a una riga specifica nel foglio di lavoro. Questo metodo richiede due argomenti: un oggetto [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) e una struttura [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) che ha tutti i membri relativi alla formattazione applicata.
+Aspose.Cells consente di bloccare facilmente qualsiasi riga nel foglio di lavoro. Qui, possiamo utilizzare il metodo [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) della classe [**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) per applicare uno stile a una riga specifica nel foglio di lavoro. Questo metodo richiede due argomenti: un oggetto [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) e una struttura [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) che ha tutti i membri relativi alla formattazione applicata.
 
 L'esempio seguente mostra come proteggere una riga nel foglio di lavoro. Sblocca tutte le celle nel foglio di lavoro e quindi blocca la prima riga. Infine protegge il foglio di lavoro. Una riga/colonna ha un'API Style che contiene ulteriormente un metodo setCellLocked . È possibile bloccare o sbloccare la riga/colonna utilizzando la struttura StyleFlag.
 
@@ -107,7 +107,7 @@ L'esempio seguente mostra come proteggere una riga nel foglio di lavoro. Sblocca
 
 ### **Proteggere una colonna nel foglio di lavoro**
 
-Aspose.Cells consente di bloccare facilmente qualsiasi colonna nel foglio di lavoro. Qui possiamo utilizzare il metodo [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) della classe [**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) per applicare uno stile a una colonna specifica nel foglio di lavoro. Questo metodo richiede due argomenti: un oggetto [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) e una struttura [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) che contiene tutti i membri relativi al formato applicato.
+Aspose.Cells consente di bloccare facilmente qualsiasi colonna nel foglio di lavoro. Qui possiamo utilizzare il metodo [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) della classe [**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) per applicare uno stile a una colonna specifica nel foglio di lavoro. Questo metodo richiede due argomenti: un oggetto [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) e una struttura [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) che contiene tutti i membri relativi al formato applicato.
 
 L'esempio seguente mostra come proteggere una colonna nel foglio di lavoro. Sblocca prima tutte le celle nel foglio di lavoro e quindi blocca la prima colonna. Infine, protegge il foglio di lavoro. Una riga/colonna ha una API di stile che contiene il metodo set Locked. È possibile bloccare o sbloccare la riga/colonna utilizzando la struttura StyleFlag.
 
@@ -206,3 +206,4 @@ Se si desidera impedire agli utenti di modificare le celle, le celle devono esse
 È possibile bloccare le celle anche utilizzando l'API Aspose.Cells. Ogni cella ha un'API di stile che contiene ulteriori un metodo setLocked. Usalo per bloccare o sbloccare le celle.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-LockCell-LockCell.java" >}}
+{{< app/cells/assistant language="java" >}}

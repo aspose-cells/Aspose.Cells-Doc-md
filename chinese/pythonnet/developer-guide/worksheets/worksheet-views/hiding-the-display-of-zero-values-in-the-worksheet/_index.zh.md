@@ -3,8 +3,8 @@ title: 隐藏工作表中零值的显示
 type: docs
 weight: 50
 url: /zh/python-net/hiding-the-display-of-zero-values-in-the-worksheet/
-description: 本文将向您展示使用 Aspose.Cells for Python via .NET API 以编程方式隐藏 Excel 电子表格中的零值的示例代码。
-keywords: Python Excel 库，Python 隐藏 Excel 工作表的零值，Python 隐藏工作表中的零值的显示。
+description: 本文将展示示例代码，说明如何使用 Aspose.Cells for Python via .NET API 在程序中隐藏 Excel 电子表格中的零值。
+keywords: Python Excel 库，Python 隐藏 Excel 工作表中的零值，Python 隐藏工作表中零值的显示。
 ---
 
 {{% alert color="primary" %}} 
@@ -21,8 +21,8 @@ keywords: Python Excel 库，Python 隐藏 Excel 工作表的零值，Python 隐
 1. 取消选中**零值**选项。
 1. 点击**确定**。
 
-## **如何使用 Aspose.Cells for Python Excel 库隐藏零值**
+## **使用 Aspose.Cells for Python Excel 库隐藏零值的方法**
 
-请参阅以下示例代码，演示如何使用 Aspose.Cells for Python via .NET 隐藏零值。
+请参见下面的示例代码，演示如何使用 Aspose.Cells for Python via .NET 来隐藏零值。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Views-HidingDisplayOfZeroValues-1.py" >}}

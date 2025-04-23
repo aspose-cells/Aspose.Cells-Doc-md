@@ -9,7 +9,7 @@ keywords: 创建表格，范围转表格，范围转表格excel，excel范围转
 
 {{% alert color="primary" %}}
 
-有时，您希望根据您拥有的单元格地址为**Range**/**CellArea**添加边框线创建表。您可以使用[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean))方法创建一系列单元格。[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean))方法返回一个[**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)对象。您可以创建一个[**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style)对象，并据此规定上、左、下、右的边框选项。稍后，您可以获取[**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)的单元格，并对单元格应用您期望的格式。
+有时，您希望根据您拥有的单元格地址为**Range**/**CellArea**添加边框线创建表。您可以使用[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-)方法创建一系列单元格。[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-)方法返回一个[**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)对象。您可以创建一个[**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style)对象，并据此规定上、左、下、右的边框选项。稍后，您可以获取[**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)的单元格，并对单元格应用您期望的格式。
 
 {{% /alert %}}
 
@@ -20,3 +20,4 @@ keywords: 创建表格，范围转表格，范围转表格excel，excel范围转
 运行以上代码后，我们可以得到包含格式化表格的生成的Excel文件；以下是文件的屏幕截图。
 
 ![todo:image_alt_text](create-table-by-using-border-lines-for-a-range_1.png)
+{{< app/cells/assistant language="java" >}}

@@ -35,3 +35,4 @@ Metin olarak saklanan sayıları hızlı bir şekilde gerçek sayılara dönüş
 Aşağıdaki örnek kod, Aspose.Cells API'lerini kullanarak bir çalışma sayfasındaki metin olarak saklanan sayılar hata kontrol seçeneğini devre dışı bırakmanın nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ErrorCheckingOptions-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

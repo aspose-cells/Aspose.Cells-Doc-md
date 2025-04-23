@@ -57,3 +57,4 @@ En komplett exempel nedan visar hur man använder [**IsRowColumnHeadersVisible**
 Det går även att använda [**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) och [**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns) metoder av klassen [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) för att göra flera rader och kolumner synliga.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

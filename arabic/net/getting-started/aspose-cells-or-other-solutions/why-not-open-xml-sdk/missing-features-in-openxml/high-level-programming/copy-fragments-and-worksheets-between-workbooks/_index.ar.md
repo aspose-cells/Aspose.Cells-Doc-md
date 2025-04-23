@@ -23,3 +23,4 @@ url: /ar/net/copy-fragments-and-worksheets-between-workbooks/
 - [نسخ أوراق العمل بين دفاتر العمل](/cells/ar/net/copy-worksheets-between-workbooks/)
 - [نسخ أوراق العمل داخل دفتر عمل](/cells/ar/net/copy-worksheets-within-a-workbook/)
 - [نقل أوراق العمل داخل الدفتر](/cells/ar/net/move-worksheets-within-workbook/)
+{{< app/cells/assistant language="csharp" >}}

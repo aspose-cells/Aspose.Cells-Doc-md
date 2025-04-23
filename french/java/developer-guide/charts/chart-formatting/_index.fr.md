@@ -231,3 +231,4 @@ Pour obtenir une liste complète des types de graphiques 2D et 3D pris en charge
 
 ## **Sujets avancés**
 - [Définir une image comme remplissage d'arrière-plan dans le graphique](/cells/fr/java/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="java" >}}

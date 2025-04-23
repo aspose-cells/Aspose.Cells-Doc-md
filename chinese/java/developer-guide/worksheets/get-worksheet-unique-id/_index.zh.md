@@ -12,3 +12,4 @@ Aspose.Cells提供了使用 [**Worksheet.UniqueId**](https://reference.aspose.co
 ## 示例代码
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-GetWorksheetUniqueId-1.java" >}}
+{{< app/cells/assistant language="java" >}}

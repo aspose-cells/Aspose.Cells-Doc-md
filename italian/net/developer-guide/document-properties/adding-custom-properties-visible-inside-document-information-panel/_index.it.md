@@ -22,3 +22,4 @@ Il codice di esempio seguente aggiunge due proprietà personalizzate. La prima p
 - [Utilizza parti XML personalizzate in Aspose.Cells](/cells/it/net/use-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

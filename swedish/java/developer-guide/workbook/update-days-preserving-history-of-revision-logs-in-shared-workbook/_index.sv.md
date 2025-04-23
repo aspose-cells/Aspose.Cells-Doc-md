@@ -18,3 +18,4 @@ Den följande provkoden skapar en tom arbetsbok, delar den sedan och uppdaterar 
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Worksheets-UpdateDaysPreservingHistoryOfRevisionLogsInSharedWorkbook.java" >}}
+{{< app/cells/assistant language="java" >}}

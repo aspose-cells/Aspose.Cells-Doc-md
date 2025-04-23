@@ -137,3 +137,4 @@ private static void createCell(HSSFWorkbook wb, HSSFRow row, int column, int ali
 Daha fazla ayrıntı için [Hizalama Ayarlarını Yapılandırma](/cells/tr/java/data-formatting/) adresini ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

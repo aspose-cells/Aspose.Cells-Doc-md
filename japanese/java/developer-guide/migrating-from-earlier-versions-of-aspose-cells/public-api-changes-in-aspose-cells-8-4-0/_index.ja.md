@@ -270,3 +270,4 @@ workbook.save("output.xlsx");
 すべてのセルを繰り返し処理するには、getEnumeratorメソッドを使用してください。
 ### **DrawObject.Imageプロパティの廃止**
 画像データを取得するためにDrawObject.ImageBytesプロパティを使用してください。
+{{< app/cells/assistant language="java" >}}

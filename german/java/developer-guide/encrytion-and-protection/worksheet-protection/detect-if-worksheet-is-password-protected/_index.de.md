@@ -16,3 +16,4 @@ Es ist möglich, Arbeitsmappen und Arbeitsblätter getrennt zu schützen. Eine T
 Aspose.Cells for Java 8.7.0 hat die Eigenschaft [**Protection.isProtectedWithPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#IsProtectedWithPassword) freigelegt, um festzustellen, ob ein Arbeitsblatt passwortgeschützt ist. Das Feld vom Typ Boolean [**Protection.isProtectedWithPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#IsProtectedWithPassword) gibt **true** zurück, wenn [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) passwortgeschützt ist, und **false**, wenn nicht.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DetectWorksheetisPasswordProtected-DetectWorksheetisPasswordProtected.java" >}}
+{{< app/cells/assistant language="java" >}}

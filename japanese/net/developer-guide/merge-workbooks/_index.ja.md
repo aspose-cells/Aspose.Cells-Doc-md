@@ -56,3 +56,4 @@ url: /ja/net/combine-multiple-workbooks-into-a-single-workbook/
 ## **高度なトピック**
 - [複数のワークシートを単一のワークシートに結合する](/cells/ja/net/combine-multiple-worksheets-into-a-single-worksheet/)
 - [ファイルの結合](/cells/ja/net/merge-files/)
+{{< app/cells/assistant language="csharp" >}}

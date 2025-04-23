@@ -18,3 +18,4 @@ Excelファイルの**言語**を変更するには、ファイルを右クリ�
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DocumentProperties-SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

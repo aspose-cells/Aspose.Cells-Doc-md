@@ -31,3 +31,4 @@ Uno scenario è un modello ipotetico che include celle di input variabili colleg
 Si prega di controllare l'articolo dettagliato su [Come Creare, Manipolare o Rimuovere Scenari da Fogli di Lavoro](/cells/it/net/create-manipulate-or-remove-scenarios-from-worksheets/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

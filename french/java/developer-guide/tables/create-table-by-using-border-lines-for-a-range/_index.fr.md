@@ -9,7 +9,7 @@ keywords: créer un tableau, plage en tableau, plage en tableau excel, plage en 
 
 {{% alert color="primary" %}}
 
-Parfois, vous voulez créer un tableau en ajoutant des lignes de bordure pour une **Plage**/**Zone de cellules** en fonction de l'adresse des cellules que vous avez. Vous pouvez utiliser la méthode [**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean)) pour créer une plage de cellules. La méthode [**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean)) renvoie un objet [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range). Vous pouvez créer un objet [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) et spécifier les options de bordures (haut, gauche, bas, droite) en conséquence. Plus tard, vous pouvez obtenir les cellules de la [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) et appliquer la mise en forme souhaitée aux cellules.
+Parfois, vous voulez créer un tableau en ajoutant des lignes de bordure pour une **Plage**/**Zone de cellules** en fonction de l'adresse des cellules que vous avez. Vous pouvez utiliser la méthode [**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-) pour créer une plage de cellules. La méthode [**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-) renvoie un objet [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range). Vous pouvez créer un objet [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) et spécifier les options de bordures (haut, gauche, bas, droite) en conséquence. Plus tard, vous pouvez obtenir les cellules de la [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) et appliquer la mise en forme souhaitée aux cellules.
 
 {{% /alert %}}
 
@@ -20,3 +20,4 @@ L'exemple suivant montre comment créer un [**Range**](https://reference.aspose.
 Après avoir exécuté le code ci-dessus, nous pouvons obtenir le fichier Excel généré contenant le tableau formaté; voici la capture d'écran du fichier.
 
 ![todo:image_alt_text](create-table-by-using-border-lines-for-a-range_1.png)
+{{< app/cells/assistant language="java" >}}

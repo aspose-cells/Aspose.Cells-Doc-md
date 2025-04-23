@@ -28,3 +28,4 @@ url: /zh/java/find-if-the-worksheet-is-dialog-sheet/
 Worksheet is a Dialog Sheet.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

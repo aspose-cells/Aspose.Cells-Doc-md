@@ -33,3 +33,4 @@ Aspose.Cells предоставляет [**PdfSecurityOptions**](https://referen
 Если таблица содержит формулы, лучше всего вызвать [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) прямо перед отображением ее в формате PDF. Это гарантирует, что значения, зависящие от формулы, будут пересчитаны, и правильные значения будут отображены в PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

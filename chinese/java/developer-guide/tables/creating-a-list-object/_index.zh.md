@@ -53,3 +53,4 @@ Aspose.Cells提供了一个表示Microsoft Excel文件的类，[**Workbook**](ht
 在下面的示例中，我们使用Aspose.Cells API创建了与前面在Microsoft Excel中创建相同的[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-CreatingListObject-CreatingListObject.java" >}}
+{{< app/cells/assistant language="java" >}}

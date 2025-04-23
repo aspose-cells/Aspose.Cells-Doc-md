@@ -31,3 +31,4 @@ För att applicera nyanser på alternativa kolumner, behöver du bara ändra for
 Den resulterande kalkylbladet kommer i detta fall se ut som den följande bilden.
 
 ![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)
+{{< app/cells/assistant language="java" >}}

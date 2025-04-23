@@ -89,3 +89,4 @@ Du kan ladda ner den [källa Excel-filen](5112508.xlsm) och den [utdata Excel-fi
 - [Ta reda på om VBA-projektet är skyddat](/cells/sv/net/find-out-if-vba-project-is-protected/)
 - [Lösenordsskydda VBA-projektet för Excel-arbetsbok](/cells/sv/net/password-protect-the-vba-project-of-excel-workbook/)
 
+{{< app/cells/assistant language="csharp" >}}

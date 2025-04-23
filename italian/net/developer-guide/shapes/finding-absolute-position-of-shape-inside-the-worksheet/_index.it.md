@@ -20,3 +20,4 @@ Absolute Position of this Shape is (320 , 183)
 {{< /highlight >}}
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-AbsolutePositionOfShapeInsideWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

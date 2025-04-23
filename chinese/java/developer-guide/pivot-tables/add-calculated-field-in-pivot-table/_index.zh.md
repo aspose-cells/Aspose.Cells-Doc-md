@@ -31,3 +31,4 @@ keywords: 在数据透视表中添加计算字段。
 
 ## **示例代码**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "PivotTables-Add-calculated-field-in-PivotTable.java" >}}
+{{< app/cells/assistant language="java" >}}

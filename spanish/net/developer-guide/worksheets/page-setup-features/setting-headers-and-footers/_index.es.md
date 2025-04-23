@@ -32,6 +32,7 @@ Los comandos de script son comandos especiales que le permiten configurar el for
 |&T|La hora actual|
 |&A|Nombre de la hoja de cálculo|
 |&F|El nombre del archivo sin su ruta|
+|&&Texto|Muestra &Texto. Por ejemplo: &&WO será mostrado como &WO|
 |&"\<FontName>"|Representa un nombre de fuente. Por ejemplo: &"Arial"|
 |&"\<FontName>, \<FontStyle>"|Representa el nombre de la fuente con estilo. Por ejemplo: &"Arial,Negrita"|
 |&\<FontSize>|Representa el tamaño de la fuente. Por ejemplo: “&14abc”. Sin embargo, si este comando va seguido de un número normal a imprimir en el encabezado, esto debe separarse con un carácter de espacio del tamaño de la fuente. Por ejemplo: “&14 123”.|
@@ -58,3 +59,4 @@ Después de ejecutar el código a continuación y abrir el archivo, verificar el
 1. Seleccionar la pestaña **Encabezado/Pie de página**.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

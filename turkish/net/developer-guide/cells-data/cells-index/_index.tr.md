@@ -36,3 +36,4 @@ Bu örnek aşağıdakileri göstermektedir:
 1. Satırın adına göre Satır dizinini alın.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-get-index.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

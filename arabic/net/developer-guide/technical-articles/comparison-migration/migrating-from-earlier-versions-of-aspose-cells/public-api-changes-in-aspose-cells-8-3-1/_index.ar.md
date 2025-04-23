@@ -321,3 +321,4 @@ m_workbook.Save("output.xlsx")
 يرجى التحقق من المقالة [Copy Sparkline by Specifying Data Range and Location of Sparkline Group](http://aspose.com/docs/display/cellsnet/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group) لمزيد من المعلومات.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

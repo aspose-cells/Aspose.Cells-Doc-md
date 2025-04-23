@@ -18,3 +18,4 @@ Följande kodexempel laddar den [provExcel-fil](64716896.xlsx) som har en triang
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-RotateTextWithShapeInsideWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

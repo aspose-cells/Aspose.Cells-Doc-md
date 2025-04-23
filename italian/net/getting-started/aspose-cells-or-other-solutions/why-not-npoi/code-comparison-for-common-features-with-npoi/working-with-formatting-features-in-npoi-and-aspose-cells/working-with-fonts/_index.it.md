@@ -102,3 +102,4 @@ Scarica **Lavorare con i caratteri** da uno dei siti di codici sociali menzionat
 Per ulteriori dettagli, visita [Caratteristiche di formattazione dati](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

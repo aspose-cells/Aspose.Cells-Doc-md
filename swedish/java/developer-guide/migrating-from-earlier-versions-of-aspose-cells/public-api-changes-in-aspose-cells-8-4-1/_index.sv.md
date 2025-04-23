@@ -275,3 +275,4 @@ renderer.toImage(0, "output.svg");
 ## **Obsoletterade API:er**
 ### **Föråldrat Workbook.validateFormula-metod**
 Använd Cell.Formula-egenskapen för att validera formeln.
+{{< app/cells/assistant language="java" >}}

@@ -21,3 +21,4 @@ Workbook book = new Workbook(srcDir + "sampleMacroEnabledWorkbook.xlsm", loadOpt
 
 // حفظ الناتج في تنسيق PDF
 book.save(outDir + "OutputSampleMacroEnabledWorkbook.xlsm", SaveFormat.XLSM);
+{{< app/cells/assistant language="java" >}}

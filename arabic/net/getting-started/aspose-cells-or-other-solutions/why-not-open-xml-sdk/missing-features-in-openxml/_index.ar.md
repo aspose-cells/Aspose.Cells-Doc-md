@@ -38,3 +38,4 @@ url: /ar/net/missing-features-in-openxml/
 - [تعيين روابط خارجية في الصيغ في Aspose.Cells](/cells/ar/net/set-external-links-in-formulas-in-aspose-cells/)
 - [ضبط وضع حساب الصيغ للدفتر في Aspose.Cells](/cells/ar/net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/)
 - [ضبط الصيغ المشتركة في Aspose.Cells](/cells/ar/net/setting-shared-formula-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

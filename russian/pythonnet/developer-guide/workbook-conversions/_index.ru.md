@@ -89,7 +89,7 @@ Aspose.Cells для Python via .NET предоставляет [**image_options*
 
 ## **Преобразование электронной таблицы Excel в Markdown**
 
-API Aspose.Cells для Python via .NET предоставляет поддержку экспорта электронных таблиц в формат Markdown. Чтобы экспортировать активный лист в формат Markdown, передайте [**SaveFormat.Markdown**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) вторым параметром метода [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3). Вы также можете использовать класс [**MarkdownSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions) для указания дополнительных настроек экспорта листа в формат Markdown.
+API Aspose.Cells для Python via .NET предоставляет поддержку экспорта электронных таблиц в формат Markdown. Чтобы экспортировать активный лист в формат Markdown, передайте [**SaveFormat.MARKDOWN**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat) вторым параметром метода [**Workbook.Save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.saveformat). Вы также можете использовать класс [**MarkdownSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/markdownsaveoptions) для указания дополнительных настроек экспорта листа в формат Markdown.
 
 Приведенный ниже пример кода демонстрирует экспорт активного листа в формат Markdown с использованием элемента перечисления [**SaveFormat.MARKDOWN**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/). Пожалуйста, обратитесь к [выходному файлу Markdown](md_sample.txt), созданному кодом, в качестве справки.
 

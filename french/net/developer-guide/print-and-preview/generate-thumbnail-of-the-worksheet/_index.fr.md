@@ -16,3 +16,4 @@ Aspose.Cells for .NET vous permet de générer des fichiers image à partir de f
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-GenerateThumbnailOfWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

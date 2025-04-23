@@ -28,3 +28,4 @@ Ekran görüntülerinde görebileceğiniz gibi, yeni sürüm sağa hizalanan met
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithHTMLFormat-ExpandTextFromRightToLeft-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

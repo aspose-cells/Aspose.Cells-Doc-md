@@ -26,3 +26,4 @@ Per applicare una formattazione a un'ampia gamma di celle in un foglio di lavoro
 Poiché l'approccio [**Cell.GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle)/[**Cell.SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) utilizza molto meno memoria ed è efficiente, la vecchia proprietà Cell.Style che consumava molta memoria inutile, è stata rimossa con il rilascio di Aspose.Cells 7.1.0.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

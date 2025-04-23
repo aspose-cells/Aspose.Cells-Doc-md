@@ -33,3 +33,4 @@ Der unten stehende Code legt ein Hintergrundbild mithilfe eines Bildes aus einem
 
 - [Arbeiten mit Hintergründen in ODS-Dateien](/cells/de/net/working-with-background-in-ods-files/)
 
+{{< app/cells/assistant language="csharp" >}}

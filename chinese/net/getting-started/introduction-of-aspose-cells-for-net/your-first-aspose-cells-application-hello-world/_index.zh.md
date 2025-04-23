@@ -38,3 +38,4 @@ keywords: C# Hello World，Aspose.Cells for .NET Hello World，使用Aspose.Cell
 下面的示例打开一个名为"Sample.xlsx"的现有Microsoft Excel模板文件，在第一个工作表的A1单元格中输入"Hello World!"文本，并保存工作簿。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -29,3 +29,4 @@ Följande bild visar den genererade Excel-filen med det exempelkod genererat utd
 - [Sammanslagning och delning av celler](/cells/sv/java/sammanslagning-och-delsning-av-celler/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

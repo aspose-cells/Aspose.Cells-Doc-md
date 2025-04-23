@@ -35,3 +35,4 @@ Aspose.Cellsは、次の統合機能をサポートするための[**Consolidati
 重複排除の統合機能は、Microsoft Excel 2013でのみサポートされています。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

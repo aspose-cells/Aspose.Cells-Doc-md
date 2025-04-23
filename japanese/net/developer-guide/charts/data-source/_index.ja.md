@@ -34,3 +34,4 @@ Aspose.Cellsを使用してチャートを作成する際に扱うデータに�
 - [動的なチャートを作成する](/cells/ja/net/create-dynamic-charts/)
 - [Chart.SetChartDataRangeメソッドを使用した簡単なチャート設定方法](/cells/ja/net/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [チャートシリーズのX値とY値のタイプを検索する](/cells/ja/net/find-type-of-x-and-y-values-of-points-in-chart-series/)
+{{< app/cells/assistant language="csharp" >}}

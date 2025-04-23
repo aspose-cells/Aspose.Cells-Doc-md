@@ -14,3 +14,4 @@ Aspose.Cells ermöglicht das Speichern einer Pivot-Tabelle in ODS-Dateien. Dazu 
 Die Ausgabedatei, die durch den obigen Code generiert wurde, ist als Referenz angehängt.
 
 [Ausgabedatei ODS](PivotTableSaveInODS_out.ods)
+{{< app/cells/assistant language="csharp" >}}

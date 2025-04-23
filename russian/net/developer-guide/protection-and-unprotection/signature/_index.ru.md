@@ -32,3 +32,4 @@ Aspose.Cells предоставляет пространство имен [**As
 - [Добавить цифровую подпись к уже подписанному файлу Excel](/cells/ru/net/add-digital-signature-to-an-already-signed-excel-file/)
 - [Добавить строку подписи на лист](/cells/ru/net/add-signature-line/)
 - [Поддержка XAdES Signature](/cells/ru/net/support-for-xades-signature/)
+{{< app/cells/assistant language="csharp" >}}

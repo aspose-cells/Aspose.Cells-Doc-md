@@ -29,3 +29,4 @@ Veuillez consulter le code suivant, il crée un objet classeur et ajoute plusieu
 ## **Code d'exemple C#**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AutoFitRowsMergedCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

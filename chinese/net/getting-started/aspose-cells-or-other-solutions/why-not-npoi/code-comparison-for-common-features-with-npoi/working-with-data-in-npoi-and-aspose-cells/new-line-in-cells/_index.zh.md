@@ -77,3 +77,4 @@ sw.Close();
 更多详细信息，请访问 [换行和文本换行](/cells/zh/net/line-breaks-and-text-wrapping/)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

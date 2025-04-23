@@ -18,3 +18,4 @@ Aspose.Cells'i kullanarak hücre aralığını birleştirmek veya bölmek için 
 Aşağıdaki örnek kod önce bir aralık - A1:D4 - oluşturur, daha sonra [**Range.Merge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge) yöntemini kullanarak aralıktaki hücreleri tek bir hücreye birleştirir. Benzer şekilde, bir aralığı bölebilirsiniz, bir aralık oluşturarak ve [**Range.UnMerge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/unmerge) yöntemini çağırarak.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-MergeUnmergeRangeOfCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

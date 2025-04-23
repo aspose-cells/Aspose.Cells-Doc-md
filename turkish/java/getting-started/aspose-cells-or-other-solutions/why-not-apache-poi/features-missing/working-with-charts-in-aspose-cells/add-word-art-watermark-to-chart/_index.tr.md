@@ -56,3 +56,4 @@ workbook.save(dataDir + "AsposeChartWatermarked_Out.xls", SaveFormat.EXCEL_97_TO
 Daha fazla bilgi için [Tabloya Word Art Filigranı Ekle](/cells/tr/java/add-wordart-watermark-to-chart)'ı ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

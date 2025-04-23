@@ -23,3 +23,4 @@ workbook.Save("AsposeConvert.pdf", SaveFormat.Pdf);
 Laden Sie **Tabellenblätter in PDF konvertieren** von einer der unten aufgeführten sozialen Code-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Convert.Spreadsheet.To.PDF.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

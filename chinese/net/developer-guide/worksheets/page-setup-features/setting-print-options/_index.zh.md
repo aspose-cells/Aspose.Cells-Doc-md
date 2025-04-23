@@ -95,3 +95,4 @@ Aspose.Cells提供一个枚举[**PrintOrderType**](https://reference.aspose.com/
 |OverThenDown|表示打印顺序为先向右再向下。|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPageOrder-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -21,3 +21,4 @@ Aspose.Cellsの[凡例](https://reference.aspose.com/cells/java/com.aspose.cells
 
 ## **高度なトピック**
 - [Aspose.Cellsを使用して、チャートの凡例エントリの塗りをなしに設定する方法を説明します。](/cells/ja/java/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

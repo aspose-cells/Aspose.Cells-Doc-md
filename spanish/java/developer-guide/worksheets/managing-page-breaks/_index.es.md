@@ -51,6 +51,7 @@ Para eliminar un salto de página específico en la hoja de cálculo, llama a lo
 
 {{% alert color="primary" %}}
 
-**Importante saber**: Cuando establezcas las propiedades de ajuste a la página (es decir, [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) y [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide)) en la configuración de la configuración de página, las configuraciones de saltos de página se ven afectadas, por lo tanto, si imprimes la hoja de cálculo, las configuraciones de saltos de página no se consideran aunque todavía existan en el archivo.
+**Importante saber**: Cuando configures las propiedades de ajuste a página (es decir, [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) y [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide-) en la configuración del diseño de página), se afectarán las configuraciones de salto de página, de modo que, si imprimes la hoja, no se considerarán las configuraciones, aunque todavía existan en el archivo.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

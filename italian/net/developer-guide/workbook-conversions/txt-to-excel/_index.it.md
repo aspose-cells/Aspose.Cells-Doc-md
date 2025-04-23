@@ -59,3 +59,4 @@ Il file di valori separati da tabulazione (TSV) contiene dati del foglio elettro
 - [Carica o importa file CSV con formule](/cells/it/net/load-or-import-csv-file-with-formulas/)
 - [Lettura del file CSV con codifiche multiple](/cells/it/net/reading-csv-file-with-multiple-encodings/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -41,3 +41,4 @@ description: استيراد البيانات من ملفات بيانات XML إ
 - [ربط الخلايا بعناصر خريطة XML](/cells/ar/net/link-cells-to-xml-map-elements/)
 - [استعلام عن مجالات الخلية المرتبطة بمسار خريطة XML باستخدام طريقة Worksheet.XmlMapQuery](/cells/ar/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 
+{{< app/cells/assistant language="csharp" >}}

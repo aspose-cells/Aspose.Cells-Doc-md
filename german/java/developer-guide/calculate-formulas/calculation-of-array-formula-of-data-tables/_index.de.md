@@ -7,7 +7,7 @@ url: /de/java/calculation-of-array-formula-of-data-tables/
 
 {{% alert color="primary" %}} 
 
-Sie können eine Daten-Tabelle in Microsoft Excel über Daten > Was-wäre-wenn-Analyse > Daten-Tabelle... erstellen. Aspose.Cells ermöglicht es Ihnen jetzt, die Array-Formel der Daten-Tabelle zu berechnen. Verwenden Sie bitte [Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) wie üblich, um alle Arten von Formeln zu berechnen.
+Du kannst in Microsoft Excel eine Datentabelle erstellen, indem du Data > What-If Analysis > Data Table... auswählst. Aspose.Cells ermöglicht jetzt die Berechnung der Array-Formel der Datentabelle. Bitte verwende [Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) wie gewohnt, um jegliche Formeln zu berechnen.
 
 {{% /alert %}} 
 ## **Berechnung der Arrayformel von Datenblättern**
@@ -22,3 +22,4 @@ Wenn Sie den Wert der Zelle B1 auf 100 ändern, werden die Werte der Daten-Tabel
 Hier ist der Beispielcode, der verwendet wird, um das [Ausgabepdf](5472577.pdf) aus der [Quellexceldatei](5472579.xlsx) zu generieren. Bitte lesen Sie die Kommentare für weitere Informationen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculationOfArrayFormula-CalculationOfArrayFormula.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -26,3 +26,4 @@ Les exemples de code suivants montrent comment appliquer l'exposant et l'indice 
 ### **Application de l'indice**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ApplyingSubscript-ApplyingSubscript.java" >}}
+{{< app/cells/assistant language="java" >}}

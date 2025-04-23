@@ -39,3 +39,4 @@ for (int j = 0; j < sr.PageCount; j++)
 ## **Örnek Kod İndir**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Worksheet.to.image.file.by.Page.Aspose.Cells.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Worksheet%20to%20image%20file%20by%20Page%20%28Aspose.Cells%29.zip)
+{{< app/cells/assistant language="csharp" >}}

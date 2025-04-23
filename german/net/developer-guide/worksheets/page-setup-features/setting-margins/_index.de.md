@@ -41,3 +41,4 @@ Es ist möglich, etwas horizontal und vertikal auf einer Seite zu zentrieren. Da
 Legen Sie Kopf- und Fußzeilenränder mit den Membern der Klasse [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) fest, wie beispielsweise [**HeaderMargin**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/headermargin) und [**FooterMargin**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/footermargin).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetMargins-HeaderAndFooterMargins.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

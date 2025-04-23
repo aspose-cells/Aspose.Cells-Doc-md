@@ -53,3 +53,4 @@ Aspose.Cells for .NET har kunnat konvertera kalkylblad till SVG-bild sedan versi
 - [Konvertera diagram till bild i SVG-format](/cells/sv/net/converting-chart-to-image-in-svg-format/)
 - [Exportera diagram till SVG med viewBox-attribut](/cells/sv/net/export-chart-to-svg-with-viewbox-attribute/)
 - [Spåra konverteringsframsteg för Excel till TIFF](/cells/sv/net/track-conversion-progress-of-excel-to-tiff/)
+{{< app/cells/assistant language="csharp" >}}

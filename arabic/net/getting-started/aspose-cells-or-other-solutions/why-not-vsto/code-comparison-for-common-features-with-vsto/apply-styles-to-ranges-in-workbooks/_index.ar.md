@@ -84,3 +84,4 @@ url: /ar/net/apply-styles-to-ranges-in-workbooks/
 {{< /highlight >}}
 ## **تحميل**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/ApplyStylesToRanges.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

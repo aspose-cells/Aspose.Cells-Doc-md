@@ -18,3 +18,4 @@ keywords: 通过行而不是列首先填充数据，然后插入数据按行而�
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-PopulateDataEfficiently-PopulateDataFirstByRowThenColumns.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

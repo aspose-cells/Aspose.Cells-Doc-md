@@ -20,3 +20,4 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-1-2/
 {{% /alert %}}
 ## **删除了过时的PdfSaveOptions.ChartImageType属性**
 Aspose.Cells for Java 8.1.2已从公共API中删除了过时的PdfSaveOptions.ChartImageType属性。
+{{< app/cells/assistant language="java" >}}

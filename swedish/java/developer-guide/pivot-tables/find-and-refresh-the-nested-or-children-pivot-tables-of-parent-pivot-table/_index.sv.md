@@ -18,3 +18,4 @@ Följande kodexempel laddar [provexfilsnamn](61767766.xlsx) som innehåller tre 
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "PivotTables-FindAndRefreshNestedOrChildrenPivotTables.java" >}}
+{{< app/cells/assistant language="java" >}}

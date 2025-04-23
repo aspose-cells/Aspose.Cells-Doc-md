@@ -22,3 +22,4 @@ El siguiente fragmento de código demuestra esto agregando datos con Marcadores 
 La implementación de la clase *DataObject* se muestra a continuación
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AllowLeadingApostrophe-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

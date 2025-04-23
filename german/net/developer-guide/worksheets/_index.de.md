@@ -87,3 +87,4 @@ Das folgende Beispiel zeigt, wie ein Arbeitsblatt aktiviert und eine aktive Zell
 - [Verwenden Sie die *Sheet.SheetId*-Eigenschaft von OpenXml mit Aspose.Cells](/cells/de/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [Arbeitsblattansichten](/cells/de/net/worksheet-views/)
 
+{{< app/cells/assistant language="csharp" >}}

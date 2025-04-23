@@ -45,3 +45,4 @@ Téléchargez **Imprimer des classeurs** à partir de l'un des sites de codage s
 Pour plus de détails, visitez [Imprimer des classeurs](/cells/fr/net/printing-workbooks/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

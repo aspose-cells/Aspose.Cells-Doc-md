@@ -47,3 +47,4 @@ Non c'è un modo migliore per ottenere la dimensione dello stack utilizzata a te
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="csharp" >}}

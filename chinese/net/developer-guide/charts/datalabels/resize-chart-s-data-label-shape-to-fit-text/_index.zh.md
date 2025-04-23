@@ -22,3 +22,4 @@ Excel应用程序提供了**调整形状以适应文本**选项，用于图表�
 为了模仿Excel调整数据标签形状以适应文本的功能，Aspose.Cells API已经暴露了布尔类型 [**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext) 属性。以下代码片段展示了 [**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext) 属性的简单使用场景。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ResizeChartDataLabelToFit-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

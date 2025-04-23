@@ -10,3 +10,4 @@ url: /ru/java/supported-font-formats/
 |**TTF**|TrueType Шрифты|
 |**TTC**|Коллекция TrueType|
 |**OTF**|Шрифты OpenType|
+{{< app/cells/assistant language="java" >}}

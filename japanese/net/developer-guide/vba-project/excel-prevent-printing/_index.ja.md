@@ -34,3 +34,4 @@ keywords: excel印刷、excel印刷を防ぐ、Excelファイルの印刷を防�
 1. サンプルファイルを[xlsm形式](out.xlsm)で保存します。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "VBA-Prevent-printing-excel.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -23,15 +23,15 @@ url: /ar/java/copying-rows-and-columns/
 
 ## **نسخ صف واحد**
 
-توفر Aspose.Cells طريقة [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) في فئة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). تقوم هذه الطريقة بنسخ جميع أنواع البيانات بما في ذلك الصيغ, القيم, التعليقات, تنسيق الخلية, الخلايا المخفية, الصور, وكائنات الرسم الأخرى من الصف المصدر إلى الصف الوجهة.
+يوفر Aspose.Cells طريقة [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-) من فئة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). تنسخ هذه الطريقة جميع أنواع البيانات بما في ذلك الصيغ والقيم والتعليقات وتنسيقات الخلايا والخلية المخفية والصور وعناصر الرسم الأخرى من الصف المصدر إلى الصف الوجهة.
 
-يأخذ الطريقة [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) المعلمات التالية:
+تأخذ طريقة [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-) المعلمات التالية:
 
 - كائن الخلايا [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) المصدر،
 - فهرس الصف المصدر، و
 - فهرس الصف الوجهة.
 
-استخدم هذه الطريقة لنسخ صف داخل ورقة، أو لورقة أخرى. طريقة [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) تعمل بشكل مماثل لبرنامج Microsoft Excel. لذا، على سبيل المثال، لا تحتاج إلى تعيين ارتفاع الصف الوجهة بشكل صريح، تلك القيمة يتم نسخها أيضاً.
+استخدم هذه الطريقة لنسخ صف داخل ورقة، أو إلى ورقة أخرى. تعمل طريقة [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-) بطريقة مشابهة لـ Microsoft Excel. على سبيل المثال، لست بحاجة إلى تعيين ارتفاع الصف الوجهة بشكل صريح، حيث يتم نسخ تلك القيمة أيضًا.
 
 المثال التالي يوضح كيفية نسخ صف في ورقة العمل. يستخدم قالب ملف Microsoft Excel وينسخ الصف الثاني (مع البيانات والتنسيق والتعليقات والصور وما إلى ذلك) وينسخه إلى الصف الثاني عشر في نفس ورقة العمل.
 
@@ -56,7 +56,7 @@ url: /ar/java/copying-rows-and-columns/
 
 ## **نسخ الصفوف المتعددة**
 
-يمكنك أيضًا نسخ عدة صفوف على وجهة جديدة باستخدام الطريقة [**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int)) التي تأخذ معلمة إضافية من النوع الصحيح لتحديد عدد الصفوف المصدرية التي يجب نسخها.
+يمكنك أيضًا نسخ عدة صفوف على وجهة جديدة باستخدام الطريقة [**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-) التي تأخذ معلمة إضافية من النوع الصحيح لتحديد عدد الصفوف المصدرية التي يجب نسخها.
 
 أدناه هو لقطة شاشة لجدول البيانات الإدخالية الذي يحتوي على 3 صفوف من البيانات في حين يقوم مقتطف الكود الموفر أدناه بنسخ كل الصفوف الثلاثة إلى موقع جديد يبدأ من الصف السابع.
 
@@ -70,15 +70,15 @@ url: /ar/java/copying-rows-and-columns/
 
 ## **نسخ العمود الفردي**
 
-توفر Aspose.Cells طريقة [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) لكائن [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) هذه الطريقة تقوم بنسخ جميع أنواع البيانات، بما في ذلك الصيغ - مع الإشارات المحدثة - والقيم، التعليقات، تنسيقات الخلية، الخلايا المخفية، الصور وغيرها من الكائنات الرسومية من العمود المصدر إلى العمود الوجهة.
+يوفر Aspose.Cells طريقة [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn-com.aspose.cells.Cells-int-int-) من فئة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)، وتنسخ هذه الطريقة جميع أنواع البيانات، بما في ذلك الصيغ - مع مراجع محدثة - والقيم والتعليقات وتنسيقات الخلايا والخلية المخفية والصور وعناصر الرسم الأخرى من العمود المصدر إلى العمود الهدف.
 
-تأخذ الطريقة [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) المعلمات التالية:
+تأخذ طريقة [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn-com.aspose.cells.Cells-int-int-) المعلمات التالية:
 
 - كائن الخلايا [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) المصدر،
 - فهرس العمود المصدر، و
 - فهرس العمود الوجهة.
 
-استخدم الطريقة [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) لنسخ عمود داخل ورقة عمل أو إلى ورقة عمل أخرى.
+استخدم طريقة [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn-com.aspose.cells.Cells-int-int-) لنسخ عمود داخل ورقة أو إلى ورقة أخرى.
 
 هذا المثال ينسخ عمودًا من ورقة العمل ويلصقه في ورقة عمل في دفتر عمل آخر.
 
@@ -90,7 +90,7 @@ url: /ar/java/copying-rows-and-columns/
 
 ## **نسخ الأعمدة المتعددة**
 
-على غرار الطريقة [**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int))، توفر واجهات برمجة التطبيقات لـ Aspose.Cells أيضًا الطريقة [**Cells.copyColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns(com.aspose.cells.Cells,%20int,%20int,%20int)) لنسخ عدة أعمدة مصدر إلى موقع جديد.
+على غرار الطريقة [**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-)، توفر واجهات برمجة التطبيقات لـ Aspose.Cells أيضًا الطريقة [**Cells.copyColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns-com.aspose.cells.Cells-int-int-int-) لنسخ عدة أعمدة مصدر إلى موقع جديد.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyingMultipleColumns-CopyingMultipleColumns.java" >}}
 
@@ -102,9 +102,10 @@ url: /ar/java/copying-rows-and-columns/
 
 
 ## **لصق الصفوف/الأعمدة بخيارات اللصق**
-توفر Aspose.Cells الآن [PasteOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PasteOptions) أثناء استخدام الوظائف [CopyRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRows\(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.CopyOptions,%20com.aspose.cells.PasteOptions\)) و [CopyColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns\(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.PasteOptions\)). يسمح باختيار خيارات اللصق المناسبة بشكل مماثل لبرنامج Excel.
+يوفر Aspose.Cells الآن [PasteOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PasteOptions) أثناء استخدام وظائف [CopyRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRows-com.aspose.cells.Cells-int-int-int-com.aspose.cells.CopyOptions-com.aspose.cells.PasteOptions-) و [CopyColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns-com.aspose.cells.Cells-int-int-int-com.aspose.cells.PasteOptions-). يسمح بتعيين خيارات اللصق المناسبة مماثلة لـ Excel.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-PastingDataWithPasteOptions.java" >}}
 
+{{< app/cells/assistant language="java" >}}

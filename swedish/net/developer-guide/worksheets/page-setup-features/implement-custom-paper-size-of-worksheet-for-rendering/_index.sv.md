@@ -22,3 +22,4 @@ Aspose.Cells låter dig implementera önskad pappersstorlek på arket. Du kan an
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ImplementCustomPaperSizeOfWorksheetForRendering.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

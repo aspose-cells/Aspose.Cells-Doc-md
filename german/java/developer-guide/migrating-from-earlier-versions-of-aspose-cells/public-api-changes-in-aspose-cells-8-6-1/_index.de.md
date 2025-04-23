@@ -167,3 +167,4 @@ Mit der Version v8.6.1 hat die Aspose.Cells for Java-API den Rückgabetyp der Ce
 ## **Veraltete APIs**
 ### **Veraltete Workbook.checkWriteProtectedPassword-Methode**
 Mit der Version v8.6.1 wurde die Workbook.checkWriteProtectedPassword-Methode als veraltet markiert. Es wird empfohlen, die WorkbookSettings.WriteProtection.validatePassword-Methode zu verwenden, die einen String-Wert als Parameter akzeptieren und Boolean zurückgeben kann, wenn das Kennwort mit dem voreingestellten Kennwort der Tabelle übereinstimmt.
+{{< app/cells/assistant language="java" >}}

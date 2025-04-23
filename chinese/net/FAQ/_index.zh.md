@@ -47,3 +47,4 @@ Aspose.Cells APIs提供了内存优化偏好设置，可以优化加载和处理
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="csharp" >}}

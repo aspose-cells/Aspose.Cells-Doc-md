@@ -18,3 +18,4 @@ Lütfen aşağıdaki örnek kodu, kaynak Excel dosyasını (50528370.xlsx) ve ç
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-AddPDFBookmarksWithNamedDestinations.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -26,3 +26,4 @@ Aspose.Cells 允许用户检查 VBA 代码项目是否已签名。 请使用 [**
 Is VBA Code Project Signed: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

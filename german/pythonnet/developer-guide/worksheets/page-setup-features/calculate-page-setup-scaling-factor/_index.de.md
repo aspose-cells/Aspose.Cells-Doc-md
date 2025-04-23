@@ -3,8 +3,8 @@ title: Berechnen des Maßstabsfaktors für die Seiteneinrichtung
 type: docs
 weight: 300
 url: /de/python-net/calculate-page-setup-scaling-factor/
-description: Dieser Artikel enthält Beispielscode, der erklärt, wie Sie Aspose.Cells für Python via .NET APIs verwenden können, um den Seiteneinrichtungsmaßstab mit der Option An n seitig breit um m seitig hoch anpassen eines Excel Arbeitsblatts programmgesteuert zu berechnen.
-keywords: Python Excel Bibliothek, Python An n Seiten breit um m Seiten hoch Excel anpassen, Seiteneinrichtungsskalierungsfaktor in Python berechnen.
+description: Dieser Artikel enthält Beispielcode, der erklärt, wie man die Aspose.Cells für Python via .NET APIs verwendet, um den Maßstabsfaktor der Seitenaufbereitung mithilfe der Option „Anpassen auf n Seite(n) breit x m hoch“ des Excel Arbeitsblatts programmatisch zu berechnen.
+keywords: Python Excel Bibliothek, Python Anpassen an n Seite(n) breit und m hoch Excel, Maßstabsfaktor der Seiteneinrichtung in Python berechnen.
 ---
 
 {{% alert color="primary" %}}

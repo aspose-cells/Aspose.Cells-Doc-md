@@ -15,9 +15,9 @@ url: /ar/java/detecting-circular-reference/
 
 [**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell): يمثل حساب البيانات ذات الصلة حول خلية تتم حسابها
 
-[**AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)): سيتم استدعاؤها بواسطة محرك حساب الصيغ عند مواجهة الإشارات المرجعية، العنصر في عنصر التعداد هو [**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell) كائنات تمثل جميع الخلايا في دائرة واحدة. القيمة المُرجَعة تُحدد ما إذا كان محرك الصيغ يحتاج إلى حساب تلك الخلايا في الدائرة بعد هذا الاستدعاء.
+[**AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular-java.util.Iterator-): سيتم استدعاؤها بواسطة محرك حساب الصيغ عند مواجهة الإشارات المرجعية، العنصر في عنصر التعداد هو [**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell) كائنات تمثل جميع الخلايا في دائرة واحدة. القيمة المُرجَعة تُحدد ما إذا كان محرك الصيغ يحتاج إلى حساب تلك الخلايا في الدائرة بعد هذا الاستدعاء.
 
-يمكن للمستخدم جمع تلك الإشارات المرجعية في تنفيذ الطريقة [**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)).
+يمكن للمستخدم جمع تلك الإشارات المرجعية في تنفيذ الطريقة [**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular-java.util.Iterator-).
 
 يمكن تحميل ملف العينة المصدر من الرابط التالي:
 
@@ -28,3 +28,4 @@ url: /ar/java/detecting-circular-reference/
 تعريف فئة *CircularMonitor* المشتقة من [**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) على النحو التالي:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DetectCircularReference-2.java" >}}
+{{< app/cells/assistant language="java" >}}

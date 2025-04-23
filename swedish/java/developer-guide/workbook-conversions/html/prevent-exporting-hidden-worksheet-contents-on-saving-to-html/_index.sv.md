@@ -22,3 +22,4 @@ Förutom att kontrollera om dolda kalkylblad ska exporteras eller inte kan du oc
 - [Exportera kommentarer vid sparande av Excel-fil till HTML](/cells/sv/java/export-comments-while-saving-excel-file-to-html/)
 - [Dölja överlagt innehåll med CrossHideRight vid sparande till HTML](/cells/sv/java/hiding-overlaid-content-with-crosshideright-while-saving-to-html/)
 - [Exportera liknande kantstilmall när kantstil inte stöds av webbläsare](/cells/sv/java/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/)
+{{< app/cells/assistant language="java" >}}

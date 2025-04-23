@@ -67,3 +67,4 @@ Un fichier d'exemple pour tester cette fonctionnalité peut être téléchargé 
 Aspose.Cells prend également en charge l'ouverture de fichiers Microsoft Excel 2007, 2010, 2013, 2016, 2019, Office 365 protégés par mot de passe.
 
 
+{{< app/cells/assistant language="csharp" >}}

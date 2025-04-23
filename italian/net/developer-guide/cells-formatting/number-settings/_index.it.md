@@ -89,3 +89,4 @@ Se si utilizza la proprietà [**Custom**](https://reference.aspose.com/cells/net
 - [Render Personalizzare data formato modello g e ge mm dd](/cells/it/net/render-custom-date-format-pattern-g-and-ge-mm-dd/)
 - [Specificare Personalizzare numerico Decimale e Gruppo Separatori per Cartella di lavoro](/cells/it/net/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [Specifica di formattazione pattern personalizzato DBNum](/cells/it/net/specifying-dbnum-custom-pattern-formatting/)
+{{< app/cells/assistant language="csharp" >}}

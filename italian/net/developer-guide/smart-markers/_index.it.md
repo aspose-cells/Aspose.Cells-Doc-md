@@ -182,14 +182,107 @@ L'esempio seguente mostra come funziona.
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-UsingNestedObjects-1.cs" >}}
+
+## **Utilizzo dei dati JSON**
+Aspose.Cells supporta dati json nei smart markers, i dati json possono essere annidati gerarchicamente. Si prega di verificare [file modello](smartmarker.xlsx), [file json](smartmarker.json) e lo screenshot del file Excel di output generato con il seguente codice.
+
+|**Il primo foglio di lavoro del file smartmarker.xlsx mostra smart markers.**|
+| :- |
+|![todo:image_alt_text](jsontemplate.png)|
+
+|**Lo screenshot del file Excel di output.**|
+| :- |
+|![todo:image_alt_text](jsonresult.png)|
+
+Dati json come segue:
+```json data
+{
+    "EntityCin" : "EntityCin Test",
+    "EntityName" : "EntityName Test",
+    "FirstName" : "FirstName Test",
+    "MiddleName" : "MiddleName Test",
+    "LastName" : "LastName Test",
+    "DOB" : "2025-02-08",
+    "SSN" : "11111111",
+    "Directors" : [
+        {
+            "id" : "director id 1",
+            "FirstName" : "director first 1",
+            "MiddleName" : "director middle 1",
+            "LastName" : "director last 1",
+            "Reportees" : [
+                {
+                    "id" : "aaa",
+                    "FirstName" : "first aaa",
+                    "MiddleName" : "middle aaa",
+                    "LastName" : "last aaa",
+                    "Department" : "aaa department",
+                    "City" : "aaa city",
+                    "GST" : "Yes",
+                    "ITR" : "No"
+                },
+                {
+                    "id" : "bbb",
+                    "FirstName" : "first bbb",
+                    "MiddleName" : "middle bbb",
+                    "LastName" : "last bbb",
+                    "Department" : "bbb department",
+                    "City" : "bbb city",
+                    "GST" : "Yes",
+                    "ITR" : "Yes"
+                },
+                {
+                    "id" : "ccc",
+                    "FirstName" : "first ccc",
+                    "MiddleName" : "middle ccc",
+                    "LastName" : "last ccc",
+                    "Department" : "ccc department",
+                    "City" : "ccc city",
+                    "GST" : "No",
+                    "ITR" : "No"
+                }
+            ]
+        },
+        {
+            "id" : "director id 2",
+            "FirstName" : "director first 2",
+            "MiddleName" : "director middle 2",
+            "LastName" : "director last 2",
+            "Reportees" : [
+                {
+                    "id" : "eee",
+                    "FirstName" : "first eee",
+                    "MiddleName" : "middle eee",
+                    "LastName" : "last eee",
+                    "Department" : "eee department",
+                    "City" : "eee city",
+                    "GST" : "Yes",
+                    "ITR" : "No"
+                },
+                {
+                    "id" : "fff",
+                    "FirstName" : "first fff",
+                    "MiddleName" : "middle fff",
+                    "LastName" : "last fff",
+                    "Department" : "fff department",
+                    "City" : "fff city",
+                    "GST" : "No",
+                    "ITR" : "No"
+                }
+            ]
+        }
+    ]
+}
+```
+L'esempio seguente mostra come funziona.
+
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "SmartMarkers-Using-JSON-Data.cs" >}}
+
 ## **Utilizzo di Lista Generica come Oggetto Annidato**
 Aspose.Cells ora supporta anche l'utilizzo di una lista generica come oggetto annidato. Si prega di controllare lo screenshot del file Excel di output generato con il codice sottostante. Come si può vedere nello screenshot, un oggetto Teacher contiene più oggetti Student annidati.
 
 |![todo:image_alt_text](using-smart-markers_8.png)|
 | :- |
-
-
-
 
 {{< gist  "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-SmartMarkers-UsingGenericList-1.cs" >}}
 ## **Utilizzo della proprietà HTML di Smart Markers**
@@ -221,3 +314,4 @@ A volte, potrebbe essere necessario ricevere le notifiche riguardanti il riferim
 - [Utilizzo di marcatori immagine durante la raggruppamento dei dati in Smart Markers](/cells/it/net/using-image-markers-while-grouping-data-in-smart-markers/)
 
 
+{{< app/cells/assistant language="csharp" >}}

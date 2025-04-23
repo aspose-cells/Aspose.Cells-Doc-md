@@ -36,3 +36,4 @@ BoxWhisker
 
 ## **高级主题**
 - [创建瀑布图](/cells/zh/java/creating-waterfall-chart/)
+{{< app/cells/assistant language="java" >}}

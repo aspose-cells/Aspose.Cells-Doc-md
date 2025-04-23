@@ -12,10 +12,11 @@ description: تحقق من كلمة مرور ملفات إكسل المشفرة 
 
 ## **تحقق من كلمة المرور للملف المُشفر**
 
-للتحقق من كلمة مرور الملف المشفر، يوفر Aspose.Cells for Java الطريقة [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)). تقبل الطرق معلمتين، تيار الملف وكلمة المرور التي ينبغي التحقق منها.
-يوضح مقتطف الشيفرة التالي استخدام الطريقة [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) للتحقق مما إذا كانت كلمة المرور المقدمة صالحة أم لا.
+للتحقق من كلمة مرور الملف المشفر، يوفر Aspose.Cells for Java الطريقة [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword-java.io.InputStream-java.lang.String-). تقبل الطرق معلمتين، تيار الملف وكلمة المرور التي ينبغي التحقق منها.
+يوضح مقتطف الشيفرة التالي استخدام الطريقة [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword-java.io.InputStream-java.lang.String-) للتحقق مما إذا كانت كلمة المرور المقدمة صالحة أم لا.
 
 ### **كود عينة:**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-VerifyPassword-1.java" >}}
 
+{{< app/cells/assistant language="java" >}}

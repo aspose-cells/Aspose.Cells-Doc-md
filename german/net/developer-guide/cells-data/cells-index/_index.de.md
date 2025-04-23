@@ -36,3 +36,4 @@ Dieses Beispiel zeigt, wie Sie:
 1. Holen Sie sich den Zeilenindex nach dem Namen der Zeile.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-get-index.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

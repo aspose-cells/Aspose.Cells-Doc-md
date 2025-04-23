@@ -14,3 +14,4 @@ url: /zh/net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/
 以下示例代码说明如何通过文件路径检测文件格式并检查其扩展名。您还可以确定该文件是否已加密。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-DetectFileFormatAndEncryption-DetectFileFormatAndEncryption.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

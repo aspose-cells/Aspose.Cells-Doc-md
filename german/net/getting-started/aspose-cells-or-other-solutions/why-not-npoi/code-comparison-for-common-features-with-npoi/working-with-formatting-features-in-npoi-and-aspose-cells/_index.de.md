@@ -10,3 +10,4 @@ Dieser Abschnitt hat folgende Themen:
 - [Arbeiten mit Rahmen](/cells/de/net/working-with-borders/)
 - [Arbeiten mit Farben](/cells/de/net/working-with-colors/)
 - [Arbeiten mit Schriftarten](/cells/de/net/working-with-fonts/)
+{{< app/cells/assistant language="csharp" >}}

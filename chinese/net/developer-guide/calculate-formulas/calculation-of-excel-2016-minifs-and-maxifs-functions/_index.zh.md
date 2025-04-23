@@ -17,3 +17,4 @@ Microsoft Excel 2016支持MINIFS和MAXIFS函数。这些函数不受Excel 2013�
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-MINIFSAndMAXIFS-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

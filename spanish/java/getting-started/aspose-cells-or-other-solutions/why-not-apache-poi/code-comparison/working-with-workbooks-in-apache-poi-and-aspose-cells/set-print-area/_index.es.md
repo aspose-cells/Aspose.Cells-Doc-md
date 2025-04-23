@@ -75,3 +75,4 @@ wb.setPrintArea(
 Para más detalles, visita [Configuración de opciones de impresión](/cells/es/java/page-setup-features/#setting-print-options).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -38,3 +38,4 @@ Aspose.Cellsは[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/
 ## 関連記事
 
 - [CSV ファイルを開く](/cells/ja/net/opening-files-with-different-formats/#opening-csv-files)
+{{< app/cells/assistant language="csharp" >}}

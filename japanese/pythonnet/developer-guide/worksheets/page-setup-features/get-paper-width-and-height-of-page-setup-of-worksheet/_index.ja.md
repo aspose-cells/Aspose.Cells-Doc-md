@@ -3,8 +3,8 @@ title: ワークシートのページ設定の用紙幅と用紙高さを取得�
 type: docs
 weight: 50
 url: /ja/python-net/get-paper-width-and-height-of-page-setup-of-worksheet/
-description: この記事では、Aspsoe.Cells for Python via .NET APIまたはライブラリを使用して、PythonコードでExcelワークシートのページ設定の用紙幅と用紙高さをプログラムで取得する方法について解説します。
-keywords: Python Excelライブラリ、Pythonエクセルのページ設定用紙幅、Pythonでエクセルのページ設定用紙高さ。
+description: この記事では、Aspose.Cells for Python via .NET APIを使用して、Pythonコードを通じてExcelのワークシートのページ設定の用紙幅と用紙高さを取得する方法を解説します。
+keywords: Python Excelライブラリを使って、PythonでExcelのページ設定の用紙幅と用紙高さを取得します。
 ---
 
 ## **可能な使用シナリオ**
@@ -13,7 +13,7 @@ keywords: Python Excelライブラリ、Pythonエクセルのページ設定用�
 
 ## **ワークシートのページ設定の用紙の幅と高さを取得**
 
-次のサンプルコードでは、[**PageSetup.paper_width**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_width)および[**PageSetup.paper_height**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_height)プロパティの使用方法について説明しています。最初に用紙サイズを*A2*に変更し、その後、用紙の幅と高さを取得し、*A3*、*A4*、*Letter*に変更してそれぞれの用紙の幅と高さを見つけます。
+以下のサンプルコードは、[**PageSetup.paper_width**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_width)および[**PageSetup.paper_height**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_height)プロパティの使用方法を示しています。最初に用紙サイズを *A2* に変更し、その後用紙の幅と高さを検索し、次に *A3*、*A4*、*Letter* に変更し、それぞれの用紙の幅と高さを検索します。
 
 ### **サンプルコード**
 

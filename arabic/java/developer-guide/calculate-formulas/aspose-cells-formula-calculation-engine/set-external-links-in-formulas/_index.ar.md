@@ -14,3 +14,4 @@ url: /ar/java/set-external-links-in-formulas/
 يظهر الكود النموذجي أدناه كيفية تضمين الملفات الخارجية في الصيغ.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetExternalLinksInFormulas-SetExternalLinksInFormulas.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -283,3 +283,4 @@ chart.calculate();
 ## **删除了 API**
 ### **已删除 Workbook.SaveOptions 属性**
 Workbook.SaveOptions 属性已被标记为过时，因此在此版本中已从公共 API 中完全删除，建议使用 Workbook.save(Stream, SaveOptions) 或 Workbook.save(string, SaveOptions) 方法作为替代。
+{{< app/cells/assistant language="java" >}}

@@ -23,3 +23,4 @@ url: /zh/java/render-unicode-supplementary-characters-in-output-pdf-by-aspose-ce
 您可以使用此样本代码将[源Excel文件](5473390.xlsx)转换为[输出PDF](5473391.pdf)。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-RenderUnicodeSupplimentaryCharacterToPDF-1.java" >}}
+{{< app/cells/assistant language="java" >}}

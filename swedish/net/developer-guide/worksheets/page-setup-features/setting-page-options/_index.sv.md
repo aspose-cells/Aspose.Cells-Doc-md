@@ -190,3 +190,4 @@ Ange utskriftskvaliteten för arbetsboken som ska skrivas ut med hjälp av klass
 Starta numreringen av arbetsbokssidorna med hjälp av klassens [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)-egenskap. [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)-egenskapen ställer in sidnumret för första arbetsbokssidan och följande sidor numreras i stigande ordning.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetFirstPageNumber-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

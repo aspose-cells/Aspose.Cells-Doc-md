@@ -29,3 +29,4 @@ Excelで範囲のボーダーを設定するには、次の手順に従います
 1. 範囲の外側のボーダーを設定します。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Range-set-border.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

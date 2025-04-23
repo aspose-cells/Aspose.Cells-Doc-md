@@ -53,3 +53,4 @@ workbook.save(dataDir + "AsposeWatermark_Out.xls");
 För mer information, besök [Lägg till WordArt-vattenstämpel i arbetsblad](/cells/sv/java/lagg-till-wordart-vattenstampel-i-arbetsblad).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

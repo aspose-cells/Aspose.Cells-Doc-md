@@ -14,3 +14,4 @@ Du kan använda Aspose.Cells för att exportera din arbetsbok eller diagram till
 Följande kod exporterar arbetsboken till en bild med storleken 400x400.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-WorksheetToImageDesiredSize-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

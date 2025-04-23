@@ -43,3 +43,4 @@ Dessa strängnummer har konverterats till nummer med [**Cells.ConvertStringToNum
 Följande kodexempel visar hur du konverterar all strängnumriska data till faktiska nummer i alla arbetsblad.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ConvertStringToNumericValue-ConvertTextNumericDatatoNumber.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

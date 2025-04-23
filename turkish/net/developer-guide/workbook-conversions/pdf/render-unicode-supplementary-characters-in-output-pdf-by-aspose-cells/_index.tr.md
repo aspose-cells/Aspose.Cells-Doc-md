@@ -27,3 +27,4 @@ Aşağıdaki ekran görüntüsü, Aspose.Cells'ın [kaynak excel dosyasını](51
 [Kaynak excel dosyasını](5115563.xlsx) [çıktı PDF'ye](5115564.pdf) dönüştürmek için bu örnek kodu kullanabilirsiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderUnicodeInOutput-RenderUnicodeInOutput.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

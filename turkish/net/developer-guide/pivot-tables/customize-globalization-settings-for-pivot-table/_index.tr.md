@@ -18,3 +18,4 @@ Aşağıdaki örnek kod, pivot tablosunun küreselleştirme ayarlarını nasıl 
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-CustomizePivotTableGlobalSettings-CustomizePivotTableGlobalSettings.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

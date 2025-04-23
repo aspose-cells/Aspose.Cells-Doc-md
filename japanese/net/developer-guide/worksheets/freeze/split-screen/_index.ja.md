@@ -51,3 +51,4 @@ method [**Worksheet.Split**](https://reference.aspose.com/cells/net/aspose.cells
 Aspose.Cells for .Net は、分割設定を削除するための [**Worksheet.RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/removesplit/) メソッドを提供しています。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Remove-Split.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

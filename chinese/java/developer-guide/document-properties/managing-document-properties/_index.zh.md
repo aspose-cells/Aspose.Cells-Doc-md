@@ -80,13 +80,13 @@ Aspose.Cells API支持内建和自定义文档属性。Aspose.Cells的[**Workboo
 
 ### **添加自定义属性**
 
-Aspose.Cells API已经为[**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection)类公开了[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean))方法，以便向集合添加自定义属性。[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean))方法为Excel文件添加属性并以[**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)对象的形式返回新文档属性的引用。
+Aspose.Cells API已经为[**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection)类公开了[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add-java.lang.String-boolean-)方法，以便向集合添加自定义属性。[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add-java.lang.String-boolean-)方法为Excel文件添加属性并以[**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)对象的形式返回新文档属性的引用。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AddingCustomProperty.java" >}}
 
 ### **配置“链接到内容”自定义属性**
 
-要创建与给定范围的内容链接的自定义属性，请调用[**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String))方法并传递属性名称和来源。您可以使用[**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent)属性检查属性是否配置为链接到内容。此外，还可以使用[**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)类的[**Source**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source)属性获取源范围。
+要创建与给定范围的内容链接的自定义属性，请调用[**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent-java.lang.String-java.lang.String-)方法并传递属性名称和来源。您可以使用[**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent)属性检查属性是否配置为链接到内容。此外，还可以使用[**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)类的[**Source**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source)属性获取源范围。
 
 我们在示例中使用了一个简单的模板Microsoft Excel文件。工作簿有一个命名范围标记为**MyRange**，它指向单元格值。
 
@@ -94,6 +94,7 @@ Aspose.Cells API已经为[**CustomDocumentPropertyCollection**](https://referenc
 
 ### **移除自定义属性**
 
-要使用Aspose.Cells删除自定义属性，调用[**DocumentPropertyCollection.remove**](https://reference.aspose.com/cells/java/com.aspose.cells/documentpropertycollection#remove(java.lang.String))方法并传递要移除的文档属性的名称。
+要使用Aspose.Cells删除自定义属性，调用[**DocumentPropertyCollection.remove**](https://reference.aspose.com/cells/java/com.aspose.cells/documentpropertycollection#remove-java.lang.String-)方法并传递要移除的文档属性的名称。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-RemovingCustomProperty.java" >}}
+{{< app/cells/assistant language="java" >}}

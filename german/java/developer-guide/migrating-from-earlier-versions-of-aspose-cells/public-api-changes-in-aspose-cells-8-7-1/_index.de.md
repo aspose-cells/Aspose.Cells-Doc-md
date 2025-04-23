@@ -83,3 +83,4 @@ foundCell = worksheet.getCells().find(obj, foundCell, options);
 System.out.println(foundCell);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

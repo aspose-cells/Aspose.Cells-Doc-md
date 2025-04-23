@@ -6,3 +6,4 @@ url: /fr/java/spreadsheet-editor-developer-guide/
 ---
 
 
+{{< app/cells/assistant language="java" >}}

@@ -53,3 +53,4 @@ Secondo l'intervallo specificato di celle, l'oggetto Lista viene creato nel fogl
 Nell'esempio riportato di seguito, abbiamo creato lo stesso [**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) utilizzando l'API di Aspose.Cells come abbiamo creato utilizzando Microsoft Excel nella sezione precedente.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-CreatingListObject-CreatingListObject.java" >}}
+{{< app/cells/assistant language="java" >}}

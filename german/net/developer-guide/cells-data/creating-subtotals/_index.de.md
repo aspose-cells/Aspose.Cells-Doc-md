@@ -35,3 +35,4 @@ Die folgenden Code-Ausschnitte zeigen, wie Sie Zwischensummen zu einem Arbeitsbl
 
 ## **Erweiterte Themen**
 - [Teilsumme anwenden und Richtung der Zusammenfassungszeilen unterhalb der Detaildaten ändern](/cells/de/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+{{< app/cells/assistant language="csharp" >}}

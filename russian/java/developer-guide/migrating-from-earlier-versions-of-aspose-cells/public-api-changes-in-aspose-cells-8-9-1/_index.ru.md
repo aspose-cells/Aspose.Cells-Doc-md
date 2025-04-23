@@ -256,3 +256,4 @@ book.calculateFormula(options);
 Рекомендуется использовать метод FontConfigs.setFontFolders(String[], boolean) с рекурсивным параметром false вместо.
 ### **Свойство CellsHelper.FontFiles устарело**
 Рекомендуется использовать метод FontConfigs.setFontSources(FontSourceBase[]) вместо.
+{{< app/cells/assistant language="java" >}}

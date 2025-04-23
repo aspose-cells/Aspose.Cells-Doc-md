@@ -26,3 +26,4 @@ url: /ar/net/customizing-charts/
 حاليًا، تدعم Aspose.Cells فقط مخططات مخصصة تجمع ما بين مخططات البيتزا، الخطية، العمودية، وعمود الكتل ولكن سيتم دعم مخططات أخرى في الإصدارات القادمة.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

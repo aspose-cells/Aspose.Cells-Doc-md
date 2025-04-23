@@ -34,3 +34,4 @@ Il seguente codice di esempio carica il [file excel di origine](sampleTrimBlankC
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-TrimLeadingBlankRowsAndColumnsWhileExportingSpreadsheetsToCSVFormat.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

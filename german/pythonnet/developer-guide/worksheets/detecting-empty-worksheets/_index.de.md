@@ -3,8 +3,8 @@ title: Erkennen leerer Arbeitsblätter
 type: docs
 weight: 410
 url: /de/python-net/detecting-empty-worksheets/
-description: In diesem Artikel wird Ihnen der Code gezeigt, wie Sie mit der Aspose.Cells für die Python via .NET Bibliothek programmgesteuert leere Arbeitsblätter von Excel Arbeitsmappen erkennen.
-keywords: Python Excel Bibliothek, leeres Arbeitsblatt mit Python erkennen, leeres Excel Arbeitsblatt in Python finden.
+description: Dieser Artikel zeigt Code, wie man programmatisch überprüft, ob Excel Arbeitsmappen leere Arbeitsblätter enthalten, unter Verwendung der Aspose.Cells für Python via .NET Bibliothek.
+keywords: Python Excel Bibliothek, leeres Arbeitsblatt erkennen mit Python, leeres Excel Arbeitsblatt finden in Python.
 ---
 
 ## **Überprüfung auf belegte Zellen**
@@ -19,11 +19,11 @@ Die Sammlungen von Zeilen und Spalten haben einen Null-basierten Index. Daher be
 
 ## **Überprüfung auf leere initialisierte Zellen**
 
-Alle Zellen, die Werte enthalten, werden automatisch initialisiert, jedoch ist es möglich, dass ein Arbeitsblatt Zellen enthält, auf die nur Formatierungen angewendet wurden. In einem solchen Szenario geben die Eigenschaften [**Cells.max_data_row**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_row/) oder [**Cells.max_data_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_column/) -1 zurück, was auf die Abwesenheit von bevölkerten Werten hinweist, aber initialisierte Zellen aufgrund der Zellformatierung mit diesem Ansatz nicht erkannt werden können. Um zu überprüfen, ob ein Arbeitsblatt leere initialisierte Zellen enthält, wird empfohlen, die IEnumerator.MoveNext-Methode auf dem Enumerator aus der [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells)-Sammlung zu verwenden. Wenn die IEnumerator.MoveNext-Methode **true** zurückgibt, bedeutet dies, dass es eine oder mehrere initialisierte Zellen im angegebenen Arbeitsblatt gibt.
+Alle Zellen, die Werte enthalten, werden automatisch initialisiert, allerdings besteht die Möglichkeit, dass ein Arbeitsblatt Zellen nur mit Formatierungen enthält. In einem solchen Szenario geben die [**Cells.max_data_row**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_row/) oder [**Cells.max_data_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_column/)-Eigenschaften -1 zurück, was auf das Fehlen von gefüllten Werten hinweist. Inititalisierte Zellen aufgrund der Zellformatierung können jedoch mit diesem Ansatz nicht erkannt werden. Um zu überprüfen, ob ein Arbeitsblatt leere initialisierte Zellen enthält, empfiehlt es sich, die IEnumerator.MoveNext-Methode auf dem Enumerator zu verwenden, der aus der [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells)-Sammlung gewonnen wurde. Wenn die IEnumerator.MoveNext-Methode **true** zurückgibt, bedeutet dies, dass sich in dem Arbeitsblatt eine oder mehrere initialisierte Zellen befinden.
 
 ## **Überprüfung auf Formen**
 
-Es ist möglich, dass ein bestimmtes Arbeitsblatt keine bevölkerten Zellen enthält, jedoch Formen und Objekte wie Steuerelemente, Diagramme, Bilder usw. enthält. Wenn wir überprüfen müssen, ob ein Arbeitsblatt eine Form enthält, können wir dies tun, indem wir die [**ShapeCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shapecollection)-Elemente inspizieren. Ein positiver Wert zeigt das Vorhandensein von Formen im Arbeitsblatt an.
+Es ist möglich, dass ein bestimmtes Arbeitsblatt keine gefüllten Zellen enthält, es kann jedoch Formen & Objekte wie Steuerelemente, Diagramme, Bilder usw. enthalten. Wenn wir überprüfen möchten, ob ein Arbeitsblatt irgendwelche Formen enthält, können wir dies durch Inspektion der [**ShapeCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shapecollection)-Elemente tun. Jede positive Zahl zeigt das Vorhandensein von Formen im Arbeitsblatt an.
 
 ## **Programmierbeispiel**
 

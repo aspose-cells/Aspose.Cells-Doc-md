@@ -57,3 +57,4 @@ TIFF图像可以包含多个帧。您可以将整个工作簿保存为单个TIFF
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingImageOrPrintOptions-UseWorkbookRenderForImageConversion-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

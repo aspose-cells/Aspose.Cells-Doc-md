@@ -26,3 +26,4 @@ El gráfico se ve como sigue antes de ejecutar el código.
 El gráfico se ve como sigue después de ejecutar el código.
 
 ![todo:image_alt_text](resize-chart-s-data-label-shape-to-fit-text_3.png)
+{{< app/cells/assistant language="java" >}}

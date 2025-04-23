@@ -20,3 +20,4 @@ Dieses Beispiel erstellt ein Arbeitsblatt, füllt es mit Daten und kopiert nur d
 1. Kopieren Sie die Formatierung des ersten Bereichs in den zweiten Bereich.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyRangeStyleOnly-CopyRangeStyleOnly.java" >}}
+{{< app/cells/assistant language="java" >}}

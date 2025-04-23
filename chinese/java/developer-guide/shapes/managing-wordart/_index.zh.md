@@ -29,3 +29,4 @@ url: /zh/java/add-wordart-watermark-to-worksheet/
 - [向图表添加艺术字水印](/cells/zh/java/add-wordart-watermark-to-chart/)
 - [锁定WordArt水印](/cells/zh/java/locking-wordart-watermark/)
 - [将文本形状的文字设置为预设的WordArt样式](/cells/zh/java/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="java" >}}

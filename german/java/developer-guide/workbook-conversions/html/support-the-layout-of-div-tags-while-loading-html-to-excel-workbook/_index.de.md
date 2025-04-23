@@ -14,3 +14,4 @@ Normalerweise wird das Layout von Div-Tags beim Laden von HTML in ein Excel-Arbe
 Der folgende Beispielcode veranschaulicht die Verwendung der Eigenschaft [HtmlLoadOptions.SupportDivTag](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#SupportDivTag). Laden Sie bitte das [Aspose Logo](5473442.png) aus, das in der Eingabe-HTML verwendet wird, und die durch den Code generierte [Ausgabedatei](5473439.xlsx) herunter.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-SupportthelayoutofDIVtags-1.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -45,3 +45,4 @@ Starta **Visual Studio.Net** och skapa en ny konsolapplikation. Detta exempel ko
 Nedan gör koden det faktiska arbetet med att hitta och extrahera OLE-objekt. OLE-objekten (DOC, XLS och PDF-filer) sparas på disk.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExtractOLEObjects-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

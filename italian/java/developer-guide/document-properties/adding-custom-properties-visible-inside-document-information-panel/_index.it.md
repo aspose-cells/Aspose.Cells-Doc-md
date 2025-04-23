@@ -9,7 +9,7 @@ url: /it/java/adding-custom-properties-visible-inside-document-information-panel
 
 Aspose.Cells può essere utilizzato per aggiungere proprietà personalizzate all'interno dell'oggetto del foglio di lavoro visibili all'interno del pannello delle informazioni del documento. È possibile aprire il pannello delle informazioni del documento in Microsoft Excel utilizzando i comandi del menu File > Informazioni > Proprietà > Mostra pannello del documento.
 
-Si prega di utilizzare il metodo [**Workbook.getContentTypeProperties().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add(java.lang.Object)) per aggiungere una proprietà personalizzata che sarà visibile nel riquadro delle informazioni sul documento
+Si prega di utilizzare il metodo [**Workbook.getContentTypeProperties().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-) per aggiungere una proprietà personalizzata che sarà visibile nel riquadro delle informazioni sul documento
 
 {{% /alert %}}
 
@@ -26,3 +26,4 @@ Il codice di esempio seguente aggiunge due proprietà personalizzate. La prima p
 - [Utilizzo di parti XML personalizzate in Aspose.Cells](/cells/it/java/using-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

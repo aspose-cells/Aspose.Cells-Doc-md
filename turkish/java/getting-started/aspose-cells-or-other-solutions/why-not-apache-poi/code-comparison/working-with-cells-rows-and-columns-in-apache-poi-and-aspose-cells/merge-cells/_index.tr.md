@@ -77,3 +77,4 @@ sheet.addMergedRegion(new CellRangeAddress(
 Daha fazla bilgi için [Hücreleri Birleştirme ve Ayırma (Bölme)](/cells/tr/java/merging-and-unmerging-cells) ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

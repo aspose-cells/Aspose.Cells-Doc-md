@@ -42,3 +42,4 @@ Aşağıdaki ekran görüntüsü, örnek kod tarafından oluşturulan çıktı E
 Yukarıda gösterildiği gibi çıktıyı elde etmek için örnek kod burada bulunmaktadır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ApplyingSubtotalChangeSummaryDirection-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

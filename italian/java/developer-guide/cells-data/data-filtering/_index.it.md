@@ -45,7 +45,7 @@ Aspose.Cells fornisce una classe, [**Workbook**](https://reference.aspose.com/ce
 
 Un foglio di lavoro è rappresentato dalla classe [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). La classe [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) fornisce una vasta gamma di proprietà e metodi per gestire i fogli di lavoro. Per creare un filtro automatico, utilizzare la proprietà [**AutoFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter) della classe [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). La proprietà [**AutoFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter) è un oggetto della classe [**AutoFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter), che fornisce la proprietà [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#Range) per specificare l'intervallo di celle che costituiscono una riga di intestazione. Un filtro automatico viene applicato all'intervallo di celle che costituisce la riga di intestazione.
 
-In ogni foglio di lavoro, è possibile specificare solo un intervallo di filtro. Questo è limitato da Microsoft Excel. Per il filtraggio dei dati personalizzato, utilizzare il metodo [**AutoFilter.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom(int,%20int,%20java.lang.Object)).
+In ogni foglio di lavoro, è possibile specificare solo un intervallo di filtro. Questo è limitato da Microsoft Excel. Per il filtraggio dei dati personalizzato, utilizzare il metodo [**AutoFilter.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom-int-int-java.lang.Object-).
 
 Nell'esempio qui sotto, abbiamo creato lo stesso autofiltro utilizzando Aspose.Cells come abbiamo creato utilizzando Microsoft Excel nella sezione precedente.
 
@@ -57,7 +57,7 @@ Aspose.Cells offre molteplici opzioni per applicare diversi tipi di filtri come 
 
 ##### **Colore di riempimento**
 
-Aspose.Cells fornisce una funzione [**addFillColorFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addFillColorFilter(int,%20int,%20com.aspose.cells.CellsColor,%20com.aspose.cells.CellsColor)) per filtrare i dati in base alla proprietà del colore di riempimento delle celle. Nell'esempio riportato di seguito, viene utilizzato un file modello con diversi colori di riempimento nella prima colonna del foglio per testare la funzione di filtraggio per colore. È possibile scaricare i seguenti file per verificare la funzionalità.
+Aspose.Cells fornisce una funzione [**addFillColorFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addFillColorFilter-int-int-com.aspose.cells.CellsColor-com.aspose.cells.CellsColor-) per filtrare i dati in base alla proprietà del colore di riempimento delle celle. Nell'esempio riportato di seguito, viene utilizzato un file modello con diversi colori di riempimento nella prima colonna del foglio per testare la funzione di filtraggio per colore. È possibile scaricare i seguenti file per verificare la funzionalità.
 
 1. [ColouredCells.xlsx](72417315.xlsx)
 1. [FilteredColouredCells.xlsx](72417316.xlsx)
@@ -66,7 +66,7 @@ Aspose.Cells fornisce una funzione [**addFillColorFilter**](https://reference.a
 
 ##### **Data**
 
-Possono essere implementati diversi tipi di filtri data come filtrare tutte le righe con date a gennaio 2018. Il codice di esempio seguente dimostra questo filtro utilizzando la funzione [**addDateFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addDateFilter(int,%20int,%20int,%20int,%20int,%20int,%20int,%20int)). I seguenti file possono essere utilizzati per testare questa funzionalità.
+Possono essere implementati diversi tipi di filtri data come filtrare tutte le righe con date a gennaio 2018. Il codice di esempio seguente dimostra questo filtro utilizzando la funzione [**addDateFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addDateFilter-int-int-int-int-int-int-int-int-). I seguenti file possono essere utilizzati per testare questa funzionalità.
 
 1. [Date.xlsx](72417317.xlsx)
 1. [FilteredDate.xlsx](72417318.xlsx)
@@ -75,7 +75,7 @@ Possono essere implementati diversi tipi di filtri data come filtrare tutte le r
 
 ##### **Data Dinamica**
 
-A volte sono necessari filtri dinamici in base a una data come tutte le celle con date a gennaio indipendentemente dall'anno. In questo caso, la funzione [**DynamicFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#dynamicFilter(int,%20int)) viene utilizzata come indicato nel codice di esempio seguente. I seguenti file possono essere utilizzati per i test.
+A volte sono necessari filtri dinamici in base a una data come tutte le celle con date a gennaio indipendentemente dall'anno. In questo caso, la funzione [**DynamicFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#dynamicFilter-int-int-) viene utilizzata come indicato nel codice di esempio seguente. I seguenti file possono essere utilizzati per i test.
 
 1. [Date.xlsx](72417317.xlsx)
 1. [FilteredDynamicDate.xlsx](72417319.xlsx)
@@ -84,7 +84,7 @@ A volte sono necessari filtri dinamici in base a una data come tutte le celle co
 
 ##### **Numero**
 
-I filtri personalizzati possono essere applicati utilizzando Aspose.Cells come selezionare celle con numeri compresi in un determinato intervallo. L'esempio seguente dimostra l'uso della funzione [**custom()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom(int,%20int,%20java.lang.Object)) per filtrare i numeri. I file di esempio possono essere scaricati dai seguenti link.
+I filtri personalizzati possono essere applicati utilizzando Aspose.Cells come selezionare celle con numeri compresi in un determinato intervallo. L'esempio seguente dimostra l'uso della funzione [**custom()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom-int-int-java.lang.Object-) per filtrare i numeri. I file di esempio possono essere scaricati dai seguenti link.
 
 1. [Number.xlsx](72417320.xlsx)
 1. [FilteredNumber.xlsx](72417321.xlsx)
@@ -93,7 +93,7 @@ I filtri personalizzati possono essere applicati utilizzando Aspose.Cells come s
 
 ##### **Testo**
 
-Se una colonna contiene testo e si devono selezionare celle contenenti un testo particolare, è possibile utilizzare la funzione [**filter()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#filter(int,%20java.lang.String)). Nell'esempio seguente, il file di modello contiene un elenco di paesi e deve essere selezionata la riga contenente un particolare nome di paese. Il codice seguente dimostra il filtraggio del testo utilizzando i seguenti file di esempio.
+Se una colonna contiene testo e si devono selezionare celle contenenti un testo particolare, è possibile utilizzare la funzione [**filter()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#filter-int-java.lang.String-). Nell'esempio seguente, il file di modello contiene un elenco di paesi e deve essere selezionata la riga contenente un particolare nome di paese. Il codice seguente dimostra il filtraggio del testo utilizzando i seguenti file di esempio.
 
 1. [Text.xlsx](72417322.xlsx)
 1. [FilteredText.xlsx](72417323.xlsx)
@@ -102,7 +102,7 @@ Se una colonna contiene testo e si devono selezionare celle contenenti un testo 
 
 ##### **Vuoti**
 
-Se una colonna contiene testo in modo che alcune celle siano vuote e sia necessario selezionare solo le righe in cui sono presenti celle vuote, è possibile utilizzare la funzione [**matchBlanks()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchBlanks(int)) come illustrato di seguito. I file di esempio possono essere scaricati dai seguenti link.
+Se una colonna contiene testo in modo che alcune celle siano vuote e sia necessario selezionare solo le righe in cui sono presenti celle vuote, è possibile utilizzare la funzione [**matchBlanks()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchBlanks-int-) come illustrato di seguito. I file di esempio possono essere scaricati dai seguenti link.
 
 1. [Blank.xlsx](72417324.xlsx)
 1. [FilteredBlank.xlsx](72417325.xlsx)
@@ -111,7 +111,7 @@ Se una colonna contiene testo in modo che alcune celle siano vuote e sia necessa
 
 ##### **Non vuoti**
 
-Quando si desidera filtrare le celle che contengono un qualsiasi testo, utilizzare la funzione di filtro [**MatchNonBlanks**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchNonBlanks(int)) come illustrato di seguito. I file di esempio possono essere scaricati dai seguenti link.
+Quando si desidera filtrare le celle che contengono un qualsiasi testo, utilizzare la funzione di filtro [**MatchNonBlanks**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchNonBlanks-int-) come illustrato di seguito. I file di esempio possono essere scaricati dai seguenti link.
 
 1. [Blank.xlsx](72417324.xlsx)
 1. [FilteredNonBlank.xlsx](72417326.xlsx)
@@ -155,3 +155,4 @@ Excel fornisce filtri personalizzati come filtrare le righe che terminano con un
 - [Applicare il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano criteri complessi](/cells/it/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Ottenere tutti gli indici delle righe nascoste dopo l'aggiornamento dell'autofiltro](/cells/it/java/get-all-hidden-rows-indices-after-refreshing-autofilter/)
 
+{{< app/cells/assistant language="java" >}}

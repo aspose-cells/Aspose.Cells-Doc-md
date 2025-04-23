@@ -4,8 +4,8 @@ linktitle: 行を凍結
 type: docs
 weight: 190
 url: /ja/python-net/how-to-freeze-rows-of-excel-worksheet
-description: この記事では、Aspose.Cells for Python via .NET APIを使用してExcelワークシートの上部行をプログラムで固定する方法について学ぶことができます。
-keywords: Python Excelライブラリ、Python上部行を固定、Python最上部行を固定。
+description: この記事では、Aspose.Cells for Python via .NET APIを使用してExcelワークシートの最上行をプログラムで固定する方法について学びます。
+keywords: Python Excelライブラリ、Python最上行固定、Python固定トップ行。
 ---
 
 ## **紹介**
@@ -31,8 +31,8 @@ keywords: Python Excelライブラリ、Python上部行を固定、Python最上�
 
 
 
-## **Aspose.Cellsを使用してPython Excelライブラリで行を固定する方法**
-Aspose.Cells for Python via .NETを使用して行を簡単に固定できます。選択した行で[**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) メソッドを使用して行を固定してください。
+## **Aspose.Cells for Python Excelライブラリを使用した行固定の方法**
+Aspose.Cells for Python via .NETを使えば、行(複数行も可)を固定するのは簡単です。[**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) メソッドを使用して選択した行を固定してください。
 1. ファイルを開くためにワークブックを作成します。または空のファイルを作成します。
 2. Worksheet.FreezePanes() メソッドを使用して最初の行を凍結します。
 3. ファイルを保存します。

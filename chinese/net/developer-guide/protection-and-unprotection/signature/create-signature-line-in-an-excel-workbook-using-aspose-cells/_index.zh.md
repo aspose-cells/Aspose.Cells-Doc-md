@@ -18,3 +18,4 @@ Aspose.Cells也提供了这个功能，并为此暴露了 [**Picture.SignatureLi
 以下示例代码使用 [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) 属性添加了一个签名行并保存了工作簿。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateSignatureLineInWorkbook-CreateSignatureLineInWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

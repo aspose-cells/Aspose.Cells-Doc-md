@@ -73,3 +73,4 @@ workbook.Save(destFileName);
 ## **Télécharger le code source d'exemple**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Encrypting%20Excel%20Files)
 
+{{< app/cells/assistant language="csharp" >}}

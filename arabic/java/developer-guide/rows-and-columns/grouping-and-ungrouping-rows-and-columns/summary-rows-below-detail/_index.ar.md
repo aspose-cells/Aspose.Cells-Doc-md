@@ -9,7 +9,7 @@ url: /ar/java/applying-subtotal-and-changing-direction-of-outline-summary-rows-b
 
 سيقوم هذا المقال بشرح كيفية تطبيق الإجمالي الجزئي على البيانات وتغيير اتجاه صفوف الملخص التفصيلي.
 
-يمكنك تطبيق الإجمالي الجزئي على البيانات باستخدام الطريقة [**Worksheet.Cells.subtotal()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal(com.aspose.cells.CellArea,%20int,%20int,%20int[])). تأخذ المعلمات التالية.
+يمكنك تطبيق الإجمالي الجزئي على البيانات باستخدام الطريقة [**Worksheet.Cells.subtotal()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal-com.aspose.cells.CellArea-int-int-int[]-). تأخذ المعلمات التالية.
 
 - **منطقة الخلية** - النطاق الذي سيتم تطبيق الإجمالي عليه
 - **التجميع حسب** - الحقل الذي يتم التجميع حسبه، كتعويض صفري مبني
@@ -42,3 +42,4 @@ url: /ar/java/applying-subtotal-and-changing-direction-of-outline-summary-rows-b
 إليك الشيفرة المثالية لتحقيق الإخراج كما هو موضح أعلاه.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ApplyingSubtotal-1.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -28,3 +28,4 @@ Aşağıdaki örnek kod, Aspose.Cells kullanarak örnek Microsoft Excel dosyası
 ![todo:image_alt_text](disable-text-wrapping-for-data-labels-of-the-chart_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DisableTextWrapping-DisableTextWrapping.java" >}}
+{{< app/cells/assistant language="java" >}}

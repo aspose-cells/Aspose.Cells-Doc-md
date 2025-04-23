@@ -16,3 +16,4 @@ Aspose.Cells kann jetzt benutzerdefinierte Datumsformatmuster wie g, ge.mm.tt un
 Der folgende Beispielcode wandelt die [Quellexceldatei](5112361.xlsx) um, die Datumsangaben mit benutzerdefinierten Formatmustern wie g und ge.mm.tt enthält, in eine [Ausgabedatei im PDF-Format](5112360.pdf) um.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-RenderCustomDateFormat-RenderCustomDateFormatPatterngandgemmdd.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

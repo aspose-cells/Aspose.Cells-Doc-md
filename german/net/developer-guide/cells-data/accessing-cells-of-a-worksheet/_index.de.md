@@ -56,3 +56,4 @@ Aspose.Cells ermöglicht Entwicklern den Zugriff auf den maximalen Anzeigebereic
 Sie können den maximalen Anzeigebereich eines Arbeitsblatts mithilfe von [**Worksheet.Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange) abrufen. Der folgende Beispielcode veranschaulicht, wie auf die [**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange)-Eigenschaft zugegriffen wird.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

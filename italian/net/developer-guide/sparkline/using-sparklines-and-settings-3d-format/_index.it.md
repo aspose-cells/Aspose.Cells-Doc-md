@@ -40,3 +40,4 @@ Di seguito è riportato un esempio completo per dimostrare come creare un grafic
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-Applying3DFormat-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

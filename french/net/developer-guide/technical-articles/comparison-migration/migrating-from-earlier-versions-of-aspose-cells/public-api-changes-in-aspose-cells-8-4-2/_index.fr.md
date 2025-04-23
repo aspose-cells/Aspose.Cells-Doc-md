@@ -158,3 +158,4 @@ workbook.Save(output);
 À partir de la version Aspose.Cells for .NET 8.4.2, le champ PasteType.All se comporte différemment par rapport à la fonctionnalité "Tout" d'Excel pour coller une plage de cellules. Maintenant, le PasteType.All copie également les largeurs de colonne sur la plage de destination contrairement à la fonctionnalité "Tout" d'Excel. Pour imiter le comportement "Tout" d'Excel, veuillez utiliser le PasteType.Default.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

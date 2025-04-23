@@ -26,3 +26,4 @@ El siguiente código de ejemplo carga el [archivo de Excel de muestra](51740740
 Sheet or Tab Id: 1297
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

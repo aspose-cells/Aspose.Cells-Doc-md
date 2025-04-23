@@ -288,3 +288,4 @@ book.Save(dir  + "output.xls");
 ## **تغيير أسماء الواجهات البرمجية**
 ### **طريقة Workbook.RemoveDigitallySign تمت إعادة تسميتها إلى Workbook.RemoveDigitalSignature.**
 تمت إعادة تسمية طريقة Workbook.RemoveDigitallySign إلى Workbook.RemoveDigitalSignature.
+{{< app/cells/assistant language="csharp" >}}

@@ -31,3 +31,4 @@ Der unten stehende Beispielcode beschreibt, wie PDFs mit Aspose.Cells gesichert 
 Wenn die Tabelle Formeln enthält, ist es am besten, [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) kurz vor dem Rendern in PDF aufzurufen. Dadurch werden formelabhängige Werte neu berechnet und die richtigen Werte im PDF dargestellt.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -33,3 +33,4 @@ Erreur de rendu de la macro 'code' : Valeur non valide spécifiée pour le param
 {{< /highlight >}}
 ## **Télécharger**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/CopyWorksheets.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

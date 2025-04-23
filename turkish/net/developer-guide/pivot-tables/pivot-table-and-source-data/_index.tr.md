@@ -52,3 +52,4 @@ Aşağıdaki örnek kodu çalıştırarak pivot tablosunun kaynak verisini deği
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ChangeSourceData-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

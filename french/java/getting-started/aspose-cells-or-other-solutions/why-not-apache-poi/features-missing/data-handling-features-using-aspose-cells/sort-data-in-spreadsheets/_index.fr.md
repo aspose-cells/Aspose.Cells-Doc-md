@@ -75,3 +75,4 @@ sorter.sort(cells, ca);
 Pour plus de détails, visitez [Trier les données](/java/sort-data), ou [Tri de données](/cells/fr/java/data-sorting).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

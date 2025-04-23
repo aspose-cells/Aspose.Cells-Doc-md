@@ -16,3 +16,4 @@ Aspose.Cells はコメントのフォントカラーを設定するための [**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ChangeCommentFontColor-1.java" >}}
 
 上記のコードで生成された[出力ファイル](outputChangeCommentFontColor.xlsx) が添付されています。
+{{< app/cells/assistant language="java" >}}

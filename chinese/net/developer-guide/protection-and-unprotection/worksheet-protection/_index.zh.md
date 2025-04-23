@@ -38,3 +38,4 @@ description: 使用 Aspose.Cells for .Net 保护和取消保护 Excel 文件的�
 - [保护工作表](/cells/zh/net/protecting-worksheets/)
 - [取消保护工作表](/cells/zh/net/unprotect-a-worksheet/)
 - [验证用于保护工作表的密码](/cells/zh/net/verify-password-used-to-protect-the-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

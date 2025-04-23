@@ -18,3 +18,4 @@ url: /ar/net/industry-reviews/
 ديفيد مكاميس هو المحرر التقني في Builder AU. حاليًا يعيش ويعمل في سيدني، أستراليا، حيث يستمتع بكونه "الأمريكي الرمزي" ومطاردة الكنغر والوالابيس للمرح. لقد كتب ديفيد عددًا من الكتب وأكثر من 100 مقالة ظهرت في المجلات والمجلات.
 
 **تم نشر المراجعة**: [نظرة أولى: Aspose.Excel](https://www.zdnet.com/article/first-look-aspose-excel/)
+{{< app/cells/assistant language="csharp" >}}

@@ -17,3 +17,4 @@ Aşağıdaki örnek kod, mevcut bir zaman çizelgesi içeren [örnek Excel dosy
 ### **Örnek Kod**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Timelines-RenderingTimeline.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

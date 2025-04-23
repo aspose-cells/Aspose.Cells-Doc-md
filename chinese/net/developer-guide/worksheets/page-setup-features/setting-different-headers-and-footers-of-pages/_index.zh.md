@@ -28,3 +28,4 @@ Aspose.Cells与Excel的行为相同。
 1. 设置标识[PageSetup.IsHFDiffOddEven](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/ishfdiffoddeven/)和[PageSetup.IsHFDiffFirst](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/IsHFDiffFirst/) 
 1. 输入不同的页眉和页脚。
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DiffHeaderFooter.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

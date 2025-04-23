@@ -20,3 +20,4 @@ Das folgende Diagramm wird mit dem Beispielcode erstellt.
 ## Java-Code zur Festlegung des Bildes als Hintergrundfüllung im Diagramm
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetPictureAsBackgroundFillInChart-SetPictureAsBackgroundFillInChart.java" >}}
+{{< app/cells/assistant language="java" >}}

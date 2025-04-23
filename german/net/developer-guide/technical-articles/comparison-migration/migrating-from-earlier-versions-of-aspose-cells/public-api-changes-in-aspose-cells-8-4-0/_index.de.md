@@ -274,3 +274,4 @@ Der Standardwert ist "" (Leerzeichen).
 Verwenden Sie die GetEnumerator-Methode, um alle Zellen iterativ zu durchlaufen.
 ### **Veraltete DrawObject.Image Eigenschaft**
 Verwenden Sie stattdessen die DrawObject.ImageBytes-Eigenschaft, um Bilddaten zu erhalten.
+{{< app/cells/assistant language="csharp" >}}

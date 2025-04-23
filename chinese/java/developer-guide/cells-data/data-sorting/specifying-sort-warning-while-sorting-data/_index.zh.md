@@ -13,3 +13,4 @@ url: /zh/java/specifying-sort-warning-while-sorting-data/
 以下示例代码说明了如前述所述使用[DataSorter.SortAsNumber](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#SortAsNumber)属性。请查看其[示例Excel文件](43352077.xlsx)和[输出Excel文件](43352078.xlsx)以获得更多帮助。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SpecifyingSortWarningWhileSortingData.java" >}}
+{{< app/cells/assistant language="java" >}}

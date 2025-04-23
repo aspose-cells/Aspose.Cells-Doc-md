@@ -25,3 +25,4 @@ Aspose.Cells for .NET stöder att lägga till en länkad bild med hjälp av [**S
 I följande exempel visas hur man lägger till en länkad bild från webbadress till ett kalkylblad.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertLinkedPicture-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -50,3 +50,4 @@ Aspose.Cells tarafından yerli olmayan Excel dosyaları veya diğer dosya biçim
 [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) oluşturucusunun büyük elektronik tabloları yüklerken *System.OutOfMemoryException* istisnası fırlatabileceği makuldür. Bu istisna, mevcut belleğin elektronik tabloyu tamamen yüklemek için yetersiz olduğunu önerir, bu nedenle bellek tercihlerini etkinleştirerek elektronik tablonun yüklenmesi gerekmektedir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -53,3 +53,4 @@ url: /ar/java/creating-a-list-object/
 في المثال المعطى أدناه، قمنا بإنشاء نفس [**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) باستخدام واجهة برمجة التطبيقات Aspose.Cells وكما قمنا بإنشائه باستخدام Microsoft Excel في القسم السابق.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-CreatingListObject-CreatingListObject.java" >}}
+{{< app/cells/assistant language="java" >}}

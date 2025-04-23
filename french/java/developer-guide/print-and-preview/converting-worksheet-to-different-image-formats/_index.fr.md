@@ -15,7 +15,7 @@ Aspose.Cells vous permet d'exporter une feuille de calcul du classeur et de la c
 
 Parfois, il est utile de sauvegarder une image d'une feuille de calcul. Les images peuvent être partagées en ligne, insérées dans d'autres documents (rapports rédigés dans Microsoft Word, par exemple, ou présentations PowerPoint).
 
-Aspose.Cells fournit l'exportation d'images via la classe [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender). Cette classe représente la feuille de calcul qui sera rendue sous forme d'image. La classe [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) fournit la méthode [**toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream)) pour convertir une feuille de calcul en un fichier image. Les formats BMP, PNG, JPEG, TIFF et EMF sont pris en charge.
+Aspose.Cells fournit l'exportation d'images via la classe [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender). Cette classe représente la feuille de calcul qui sera rendue sous forme d'image. La classe [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) fournit la méthode [**toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage-int-java.io.OutputStream-) pour convertir une feuille de calcul en un fichier image. Les formats BMP, PNG, JPEG, TIFF et EMF sont pris en charge.
 
 {{% alert color="primary" %}}
 
@@ -58,3 +58,4 @@ Un moyen simple de convertir la feuille de calcul active dans un classeur est de
 - [Exportation du graphique en SVG avec l'attribut viewBox](/cells/fr/java/export-chart-to-svg-with-viewbox-attribute/)
 - [Exporter une feuille de calcul ou un graphique en image avec une largeur et une hauteur souhaitées](/cells/fr/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
 - [Conversion d'une feuille de calcul en image et d'une feuille de calcul en image par page](/cells/fr/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)
+{{< app/cells/assistant language="java" >}}

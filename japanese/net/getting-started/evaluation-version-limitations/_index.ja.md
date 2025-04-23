@@ -68,3 +68,4 @@ Aspose.CellsによるPDFまたは画像ファイルには、評価用の透か�
 Aspose.Cells.GridWebコントロールをファイルシステムWebサイトやMS Ajax拡張などで使用している場合、これらの設定は場合によっては必須です。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -36,3 +36,4 @@ Aspose.Cells 提供以下属性和方法，帮助您实现目标。
 1. 通过行名获取行索引。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-get-index.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

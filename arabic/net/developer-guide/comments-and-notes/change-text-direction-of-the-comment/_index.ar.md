@@ -14,3 +14,4 @@ url: /ar/net/change-text-direction-of-the-comment/
 توفر Aspose.Cells خاصية [**Shape.TextDirection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textdirection) لتعيين اتجاه النص للتعليق. يوضح الكود النموذجي التالي استخدام الخاصية [**Shape.TextDirection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textdirection) لتعيين اتجاه النص للتعليق.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeTextDirection-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

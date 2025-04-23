@@ -14,3 +14,4 @@ url: /ar/java/support-the-layout-of-div-tags-while-loading-html-to-excel-workboo
 الكود العيني التالي يوضح استخدام الخاصية [HtmlLoadOptions.SupportDivTag](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#SupportDivTag). يرجى تنزيل [شعار Aspose](5473442.png) المستخدم داخل ملف HTML الدخل و [ملف Excel الناتج](5473439.xlsx) الذي تم إنشاؤه بواسطة الكود.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-SupportthelayoutofDIVtags-1.java" >}}
+{{< app/cells/assistant language="java" >}}

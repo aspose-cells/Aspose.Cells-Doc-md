@@ -24,3 +24,4 @@ Följande kodexempel laddar den [provsökta Excel-filen](64716905.xlsx) och får
 Y Value Type: IsNumeric
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -22,7 +22,7 @@ Aspose.Cells.GridJs 支持导入流行的电子表格（XLS、XLSX、XLSM、XLSB
 - 设置控制器动作以获取缓存中的文件，从而可以在缓存中获取图像/形状压缩文件或电子表格文件。它将使用GridCacheForStream.LoadStream API。
 - 设置控制器动作以下载电子表格。您可以使用GridJsWorkbook.SaveToCacheWithFileName API。
 
-以下是一个基本演示，展示了Aspose.Cells.GridJs的用法: https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs
+以下是演示 Aspose.Cells.GridJs 使用的基础示例：https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs
 
 
 如果您有任何疑问、需求或需要帮助，请反馈到以下网站 https://forum.aspose.com/c/cells/9

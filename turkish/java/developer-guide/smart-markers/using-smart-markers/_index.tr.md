@@ -169,3 +169,4 @@ Bazen, tamamlanmadan önce hücre başvurusu veya belirli Akıllı İşaretçini
 Örnek kod ve detaylı açıklama için lütfen bu makaleye bakın.
 
 - [Akıllı İşaretçilerle Veri Birleştirirken Bildirim Almak](/cells/tr/java/getting-notifications-while-merging-data-with-smart-markers/)
+{{< app/cells/assistant language="java" >}}

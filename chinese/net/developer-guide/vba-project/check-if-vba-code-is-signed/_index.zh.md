@@ -26,3 +26,4 @@ Aspose.Cells允许用户检查VBA代码项目是否已签名。请使用[**Workb
 Is VBA Code Project Signed: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

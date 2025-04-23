@@ -18,7 +18,7 @@ Aspose.Cells предоставляет класс [Workbook](https://reference.
 
 Коллекция [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) предоставляет несколько методов для управления строками или столбцами в рабочем листе, несколько из которых обсуждаются ниже более подробно.
 ### **Группировка строк и столбцов**
-Возможна группировка строк или столбцов, вызывая методы [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows\(int,%20int,%20boolean\)) и [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns\(int,%20int,%20boolean\)) коллекции [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Оба метода принимают следующие параметры:
+Можно группировать строки или столбцы, вызвав методы [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows-int-int-boolean-) и [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns-int-int-boolean-) коллекции [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Оба метода принимают следующие параметры:
 
 - Индекс первой строки/столбца в группе.
 - Индекс последней строки/столбца в группе.
@@ -51,7 +51,7 @@ Microsoft Excel также позволяет настроить парамет�
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowRight-1.java" >}}
 ### **Отмена группировки строк и столбцов**
-Разгруппируйте объединенные строки или столбцы, вызвав методы [UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows\(int,%20int\)) и [UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns\(int,%20int\)) коллекции [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Оба метода принимают одинаковые параметры:
+Разгруппировать сгруппированные строки или столбцы, вызвав методы [UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows-int-int-) и [UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns-int-int-) коллекции [Cells]. Оба метода принимают одинаковые параметры:
 
 - Индекс первой строки/столбца, которую нужно разгруппировать.
 - Индекс последней строки/столбца, которую нужно разгруппировать.
@@ -59,3 +59,4 @@ Microsoft Excel также позволяет настроить парамет�
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-UngroupingRowsandColumns-UngroupingRowsandColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -28,3 +28,4 @@ keywords: Поиск данных по исходным значениям, По
 Aspose.Cells.Cell [ D4; ValueType : IsNumeric; Value : ---; Formula:=SUM(A1:A2)]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

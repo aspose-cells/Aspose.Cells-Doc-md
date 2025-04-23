@@ -45,3 +45,4 @@ workbook.save(dataPath + "AsposeColoredTab_Out.xls");
 查看更多详情，请访问[设置工作表选项卡颜色](/java/set-worksheet-tab-color)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

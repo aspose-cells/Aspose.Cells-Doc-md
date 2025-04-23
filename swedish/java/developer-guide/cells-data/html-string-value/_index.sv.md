@@ -28,3 +28,4 @@ Detta är den exempelkod som genererade utdata Excel-filen som visas inuti ovans
 - [Visa punktlistor genom att ställa in cellvärde med hjälp av HTML](/cells/sv/java/display-bullets-by-setting-cell-value-using/)
 - [Hämta HTML5-sträng från cell](/cells/sv/java/get-html5-string-from-cell/)
 
+{{< app/cells/assistant language="java" >}}

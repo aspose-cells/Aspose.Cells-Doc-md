@@ -51,3 +51,4 @@ keywords: Заморозить верхние строки, Заморозить
 Aspose.Cells для .Net предоставляет метод [**Worksheet.RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/removesplit/) для удаления настроек разделения.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Remove-Split.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -12,10 +12,11 @@ Si los archivos Excel (xlsx, xlsb, xls, xlsm) y Open office (ODS) están bloquea
 
 ## **Verificar la contraseña del archivo cifrado**
 
-Para verificar la contraseña del archivo cifrado, Aspose.Cells for Java proporciona el método [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)). Los métodos aceptan dos parámetros, la secuencia de archivo y la contraseña que se debe verificar.
-El siguiente fragmento de código muestra el uso del método [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) para verificar si la contraseña proporcionada es válida o no.
+Para verificar la contraseña del archivo cifrado, Aspose.Cells for Java proporciona el método [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword-java.io.InputStream-java.lang.String-). Los métodos aceptan dos parámetros, la secuencia de archivo y la contraseña que se debe verificar.
+El siguiente fragmento de código muestra el uso del método [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword-java.io.InputStream-java.lang.String-) para verificar si la contraseña proporcionada es válida o no.
 
 ### **Código de Ejemplo:**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-VerifyPassword-1.java" >}}
 
+{{< app/cells/assistant language="java" >}}

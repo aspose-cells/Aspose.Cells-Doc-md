@@ -25,3 +25,4 @@ Det finns ett antal sätt att erhålla cellräknaren som detaljeras i [Hur & Var
 Det är möjligt att ett givet arbetsblad inte har några ifyllda celler, men det kan innehålla former & objekt såsom kontroller, diagram, bilder osv. Om vi behöver kontrollera om ett arbetsblad innehåller någon form, kan vi göra det genom att inspektera egenskapen [ShapeCollection.Count](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#Count). Ett positivt värde indikerar närvaron av form(er) på arbetsbladet.
 ## **Programmeringsexempel**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CheckForShapes-1.java" >}}
+{{< app/cells/assistant language="java" >}}

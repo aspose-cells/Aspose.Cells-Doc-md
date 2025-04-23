@@ -42,3 +42,4 @@ keywords: تحويل النص في Excel إلى رقم، تحويل النص ف�
 يوضح الكود العيني التالي كيفية تحويل جميع البيانات الرقمية النصية إلى أرقام فعلية في جميع أوراق العمل.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConvertTextNumericDatatoNumber-ConvertTextNumericDatatoNumber.java" >}}
+{{< app/cells/assistant language="java" >}}

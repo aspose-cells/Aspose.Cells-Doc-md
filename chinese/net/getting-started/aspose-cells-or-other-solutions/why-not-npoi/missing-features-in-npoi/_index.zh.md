@@ -27,3 +27,4 @@ url: /zh/net/missing-features-in-npoi/
   - [在Aspose.Cells中设置工作表标签颜色](/cells/zh/net/set-worksheet-tab-color-in-aspose-cells/)
 
 **说明：** 更多示例即将推出。
+{{< app/cells/assistant language="csharp" >}}

@@ -32,3 +32,4 @@ Si prega di consultare il seguente codice di esempio che descrive come è possib
 - [Aggiungi firma digitale a un file Excel già firmato](/cells/it/net/add-digital-signature-to-an-already-signed-excel-file/)
 - [Aggiungi linea di firma al foglio di calcolo](/cells/it/net/add-signature-line/)
 - [Supporto per la firma XAdES](/cells/it/net/support-for-xades-signature/)
+{{< app/cells/assistant language="csharp" >}}

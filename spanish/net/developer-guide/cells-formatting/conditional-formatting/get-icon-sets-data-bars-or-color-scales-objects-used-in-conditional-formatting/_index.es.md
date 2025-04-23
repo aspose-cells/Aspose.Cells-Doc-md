@@ -18,3 +18,4 @@ El siguiente ejemplo de código muestra cómo leer conjuntos de iconos que se ut
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-GetIconSetsDataBars-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

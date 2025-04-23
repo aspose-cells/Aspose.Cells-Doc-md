@@ -12,3 +12,4 @@ PDF mantıksal yapı tesisleri, belge içerik yapısı hakkında bilgileri bir P
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-ExportDocumentStructureToPdf.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

@@ -20,3 +20,4 @@ Sie können ein Thema auf Ihre Arbeitsmappe anwenden, indem Sie Microsoft Excel 
 Der folgende Beispielcode extrahiert den Themen-Namen, der auf die Quellarbeitsmappe angewendet wird, und dann extrahiert er die Themenfarbe, die auf Zelle A1 angewendet wird, und die Themenfarbe, die auf den unteren Rahmen der Zelle angewendet wird.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ExtractThemeData-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

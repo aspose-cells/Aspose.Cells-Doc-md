@@ -10,3 +10,4 @@ Dieser Abschnitt umfasst die folgenden Themen
 - [Konvertieren von Diagrammen in Bilder](/cells/de/net/convert-charts-to-images/)
 - [Tabellenkalkulationen drucken](/cells/de/net/print-spreadsheets/)
 - [Angabe von Bildauflösung, Qualität, Komprimierung und anderen Optionen](/cells/de/net/specify-image-resolution-quality-compression-and-other-options/)
+{{< app/cells/assistant language="csharp" >}}

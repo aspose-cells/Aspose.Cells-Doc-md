@@ -40,3 +40,4 @@ Bu bölüm aşağıdaki konuları içerir
 - [Aspose.Cells'te Resim İmleri](/cells/tr/net/image-markers-in-aspose-cells/)
 - [Aspose.Cells’te Anonim Tür veya Özel Nesneler Kullanma](/cells/tr/net/using-anonymous-types-or-custom-objects-in-aspose-cells/)
 - [Aspose.Cells'te Gömülü Nesneler Kullanma](/cells/tr/net/using-nested-objects-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

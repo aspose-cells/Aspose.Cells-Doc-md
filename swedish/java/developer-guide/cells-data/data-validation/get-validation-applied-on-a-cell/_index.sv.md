@@ -9,7 +9,7 @@ keywords: tillämpa cellvalidering i excel med java, tillämpa validering på en
 
 {{% alert color="primary" %}}
 
-Du kan använda Aspose.Cells API för att få valideringen som tillämpas på vilken cell som helst. Aspose.Cells tillhandahåller [**Cell.getValidation()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) metoden för detta ändamål. Om det inte finns någon validering på cellen returnerar den null. På samma sätt kan du använda [**Worksheet.getValidations().getValidationInCell(int row, int column)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell(int,%20int)) metoden för att erhålla valideringen som tillämpas på en cell genom att ange dess rad- och kolumnindex.
+Du kan använda Aspose.Cells API för att få valideringen som tillämpas på vilken cell som helst. Aspose.Cells tillhandahåller [**Cell.getValidation()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) metoden för detta ändamål. Om det inte finns någon validering på cellen returnerar den null. På samma sätt kan du använda [**Worksheet.getValidations().getValidationInCell(int row, int column)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell-int-int-) metoden för att erhålla valideringen som tillämpas på en cell genom att ange dess rad- och kolumnindex.
 
 {{% /alert %}}
 
@@ -46,3 +46,4 @@ Ignore blank: true
 ## Relaterade artiklar
 
 - [Data validering](/cells/sv/java/data-validation/)
+{{< app/cells/assistant language="java" >}}

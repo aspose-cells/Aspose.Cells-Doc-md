@@ -41,3 +41,4 @@ Följande kodexempel visar hur man använder [**Workbook.ImportXml()**](https://
 - [Länka celler till XML-kartelement](/cells/sv/net/link-cells-to-xml-map-elements/)
 - [Fråga cellområden kopplade till XML-kartvärdering med hjälp av Worksheet.XmlMapQuery-metoden](/cells/sv/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 
+{{< app/cells/assistant language="csharp" >}}

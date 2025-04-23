@@ -25,3 +25,4 @@ Después de ejecutar el código, Aspose.Cells ajusta automáticamente las filas 
 
 - [Ajustar automáticamente Filas y Columnas](/cells/es/java/autofit-rows-and-columns/)
 - [Ajustar la altura de la fila y el ancho de la columna](/cells/es/java/adjusting-row-height-and-column-width/)
+{{< app/cells/assistant language="java" >}}

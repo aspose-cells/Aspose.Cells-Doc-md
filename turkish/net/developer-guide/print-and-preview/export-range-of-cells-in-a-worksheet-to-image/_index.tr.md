@@ -24,3 +24,4 @@ Kod çalıştırıldığında yalnızca D8:G16 aralığının bir görüntüsü 
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-ExportRangeOfCellsInWorksheetToImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

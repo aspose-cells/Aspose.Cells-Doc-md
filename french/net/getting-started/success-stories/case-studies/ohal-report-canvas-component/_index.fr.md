@@ -42,3 +42,4 @@ Nous sommes susceptibles d'utiliser Aspose.Cells pour le chargement et l'enregis
 Jusqu'à présent, nous n'avons rencontré aucun problème avec les composants Aspose.Cells et le composant devrait nous faire gagner du temps de développement à court et long terme. Les requêtes de support et de vente ont été traitées rapidement et de manière utile.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

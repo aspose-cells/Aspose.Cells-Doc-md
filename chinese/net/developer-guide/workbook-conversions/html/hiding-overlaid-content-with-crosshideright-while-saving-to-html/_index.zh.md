@@ -18,3 +18,4 @@ url: /zh/net/hiding-overlaid-content-with-crosshideright-while-saving-to/
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-HidingOverlaidContentWithCrossHideRightWhileSavingToHtml.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

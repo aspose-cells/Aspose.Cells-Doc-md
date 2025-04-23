@@ -231,3 +231,4 @@ Para obtener una lista completa de los tipos de gráficos 2D y 3D admitidos, con
 
 ## **Temas avanzados**
 - [Establecer una imagen como relleno de fondo en el gráfico](/cells/es/java/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="java" >}}

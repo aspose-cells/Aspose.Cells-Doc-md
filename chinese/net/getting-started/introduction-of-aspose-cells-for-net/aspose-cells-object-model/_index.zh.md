@@ -121,3 +121,4 @@ Shape 对象表示工作表中的形状。开发人员可以使用 Shape 对象�
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_15.png)|
 SparklineGroup 对象表示工作表中的迷你图组。开发人员可以使用 SparklineGroup 对象设置迷你图组的样式和其他相关属性。
+{{< app/cells/assistant language="csharp" >}}

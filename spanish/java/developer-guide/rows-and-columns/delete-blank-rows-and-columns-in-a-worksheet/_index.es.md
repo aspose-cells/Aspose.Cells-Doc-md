@@ -11,11 +11,12 @@ Es posible eliminar todas las filas y columnas en blanco de una hoja de cálculo
 
 Use los siguientes métodos de Aspose.Cells para eliminar filas y columnas vacías:
 
-1. Para eliminar filas en blanco, utilice el método [Cells.deleteBlankRows()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankRows\(\)).
-1. Para eliminar columnas en blanco, utilice el método [Cells.deleteBlankColumns()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankColumns\(\)).
+1. Para eliminar filas en blanco, utilice el método [Cells.deleteBlankRows()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankRows--)
+1. Para eliminar columnas en blanco, utilice el método [Cells.deleteBlankColumns()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankColumns--)
 
 {{% /alert %}} 
 ## **Eliminando Filas en Blanco**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DeletingBlankRows-DeletingBlankRows.java" >}}
 ## **Eliminando Columnas en Blanco**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DeletingBlankColumns-DeletingBlankColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

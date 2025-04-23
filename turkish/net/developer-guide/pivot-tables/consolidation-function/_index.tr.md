@@ -35,3 +35,4 @@ Aşağıdaki kod **Ortalama** konsolidasyon fonksiyonunu birinci veri alanına (
 Farklı Sayı Sayımı konsolidasyon işlevi sadece Microsoft Excel 2013 tarafından desteklenmektedir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

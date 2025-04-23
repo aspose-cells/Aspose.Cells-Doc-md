@@ -14,3 +14,4 @@ Aspose.Cells, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells
 [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) nesnesi artık *System.IDisposable* arayüzünü uygulamaktadır, bu arayüzün [**Dispose()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/dispose) geçerli bir yöntemi bulunmaktadır. Bu yöntemi doğrudan çağırabilir veya bu yöntemi otomatik olarak çağırmak için *Using* ifadesini kullanabilirsiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ReleaseUnmanagedResources-ReleaseUnmanagedResourcesForWorkbooks.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

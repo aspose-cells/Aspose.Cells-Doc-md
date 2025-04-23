@@ -11,8 +11,9 @@ url: /ru/java/auto-populate-smart-marker-data-to-other-worksheets-if-data-is-too
 
 ## **Автоматическое заполнение данных умного маркера в другие листы, если данные слишком большие**
 
-В нижеприведенном образце кода представлен источник данных, который содержит 21 запись. Мы хотим показать только 15 записей на одном листе, а оставшиеся записи автоматически перейдут на второй лист. Обратите внимание, что у второго листа также должен быть тот же умный маркер, и для обоих листов необходимо вызвать метод [**WorkbookDesigner.process(sheetIndex, isPreserved)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process(int,%20boolean)). Пожалуйста, проверьте [файл базы данных Microsoft Access](60489777.accdb), используемый в этом коде, а также [выходной файл Excel](60489786.xlsx), сгенерированный кодом для справки.
+В нижеприведенном образце кода представлен источник данных, который содержит 21 запись. Мы хотим показать только 15 записей на одном листе, а оставшиеся записи автоматически перейдут на второй лист. Обратите внимание, что у второго листа также должен быть тот же умный маркер, и для обоих листов необходимо вызвать метод [**WorkbookDesigner.process(sheetIndex, isPreserved)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process-int-boolean-). Пожалуйста, проверьте [файл базы данных Microsoft Access](60489777.accdb), используемый в этом коде, а также [выходной файл Excel](60489786.xlsx), сгенерированный кодом для справки.
 
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "SmartMarkers-AutoPopulateSmartMarkerDataToOtherWorksheets.java" >}}
+{{< app/cells/assistant language="java" >}}

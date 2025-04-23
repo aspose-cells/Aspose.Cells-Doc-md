@@ -48,3 +48,4 @@ Aspose.Cells propose également cette fonctionnalité. Ci-dessous se trouve un e
 - [Comment définir l'arrière-plan du commentaire](/cells/fr/net/how-to-set-comment-background/)
 - [Commentaires en fil](/cells/fr/net/threaded-comments/)
 
+{{< app/cells/assistant language="csharp" >}}

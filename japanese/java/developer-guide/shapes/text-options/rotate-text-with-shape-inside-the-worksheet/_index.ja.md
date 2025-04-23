@@ -18,3 +18,4 @@ Microsoft Excelを使用して、任意の図形にテキストを追加でき�
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-RotateTextWithShapeInsideWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

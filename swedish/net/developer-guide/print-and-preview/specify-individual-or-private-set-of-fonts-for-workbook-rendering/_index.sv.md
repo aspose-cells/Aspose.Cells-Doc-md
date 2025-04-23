@@ -18,3 +18,4 @@ Följande kodexempel laddar den [prov-Excel-filen](67338268.xlsx) med sina indiv
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Fonts-SpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

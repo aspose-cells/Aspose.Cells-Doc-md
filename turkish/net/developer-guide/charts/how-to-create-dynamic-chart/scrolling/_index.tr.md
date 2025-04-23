@@ -32,3 +32,4 @@ Oluşturulan dosyada, kaydırma çubuğunu kullanabilir ve grafik dinamik olarak
 ```
 
 "Sheet1!$H$20" hücresindeki "10" sayısını "15" olarak değiştirmeyi deneyebilirsiniz ve dinamik grafik en son 15 veri kümesini sayacaktır. Şimdi Aspose.Cells kullanarak dinamik kaydırma grafiği başarıyla oluşturuldu.
+{{< app/cells/assistant language="csharp" >}}

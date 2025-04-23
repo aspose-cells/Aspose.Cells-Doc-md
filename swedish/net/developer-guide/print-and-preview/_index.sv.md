@@ -74,3 +74,4 @@ Worksheet page count: 1
 - [Rendera kalkylblad till grafiskt sammanhang](/cells/sv/net/render-worksheet-to-graphic-context/)
 - [Ange individuella eller privata uppsättningar typsnitt för arbetsbokpresentation](/cells/sv/net/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)
 - [Ange jobb- eller dokumentnamn vid utskrift med Aspose.Cells](/cells/sv/net/specify-job-or-document-name-while-printing-with-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

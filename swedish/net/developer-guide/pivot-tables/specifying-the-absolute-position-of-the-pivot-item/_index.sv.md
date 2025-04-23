@@ -24,3 +24,4 @@ Följande provkod skapar en pivottabell och sedan specificerar den pivotpostens 
 Observera att det är nödvändigt att använda metoderna [**PivotItem.Position**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/position) och [**PivotItem.PositionInSameParentNode**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/positioninsameparentnode) i början av applikationen, det vill säga; innan du kallar några andra objekt i Aspose.Cells API.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

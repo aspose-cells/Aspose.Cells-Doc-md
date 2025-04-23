@@ -27,3 +27,4 @@ Aspose.Cells te permite cambiar el color de las pestañas individuales de las ho
 El código de ejemplo a continuación muestra cómo configurar el color de la pestaña con Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetWorksheetTabColor-SetWorksheetTabColor.java" >}}
+{{< app/cells/assistant language="java" >}}

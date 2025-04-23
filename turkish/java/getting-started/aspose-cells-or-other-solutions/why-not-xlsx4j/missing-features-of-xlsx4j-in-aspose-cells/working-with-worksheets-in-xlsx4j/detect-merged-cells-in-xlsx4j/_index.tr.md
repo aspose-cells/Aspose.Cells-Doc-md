@@ -64,3 +64,4 @@ for(int i = al.size()-1 ; i > -1; i--)
 Daha fazla bilgi için [Tabloda Birleştirilmiş Hücreleri Bul](/cells/tr/java/detect-merged-cells-in-a-worksheet)'i ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

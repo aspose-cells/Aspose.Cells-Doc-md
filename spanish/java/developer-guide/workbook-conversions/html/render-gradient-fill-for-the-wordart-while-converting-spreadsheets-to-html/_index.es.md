@@ -13,3 +13,4 @@ Anteriormente, las APIs de Aspose.Cells no eran capaces de renderizar el relleno
 El siguiente código de ejemplo convierte el archivo de Excel fuente en el formato HTML de salida(). El archivo de Excel fuente contiene un objeto de WordArt con relleno de degradado como se muestra en la captura de pantalla anterior.
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RenderGradientFillHTML-RenderGradientFillHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

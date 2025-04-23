@@ -7,7 +7,7 @@ url: /fr/java/link-cells-to-xml-map-elements/
 
 ## **Scénarios d'utilisation possibles**
 
-Vous pouvez lier vos cellules à des éléments de carte XML en utilisant Aspose.Cells. Veuillez utiliser la méthode [**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap(java.lang.String,%20int,%20int,%20java.lang.String)) à cette fin.
+Vous pouvez lier vos cellules à des éléments de carte XML en utilisant Aspose.Cells. Veuillez utiliser la méthode [**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap-java.lang.String-int-int-java.lang.String-) à cette fin.
 
 ## **Lier des cellules aux éléments de la carte XML**
 
@@ -20,3 +20,4 @@ Si vous ouvrez le [fichier Excel de sortie](5472517.xlsx) et cliquez sur le bout
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LinkCellstoXmlMapElements-LinkCellstoXmlMapElements.java" >}}
+{{< app/cells/assistant language="java" >}}

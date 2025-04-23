@@ -29,3 +29,4 @@ La seguente immagine mostra il file Excel generato con il codice di esempio. Com
 - [Unione e separazione delle celle](/cells/it/java/unione-e-separazione-delle-celle/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

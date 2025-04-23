@@ -40,3 +40,4 @@ Il est simple de fixer les volets avec Aspose.Cells pour .Net. Veuillez utiliser
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Pane.cs" >}}
 
 Fichier Excel source [exemple joint](Freeze.xlsx).
+{{< app/cells/assistant language="csharp" >}}

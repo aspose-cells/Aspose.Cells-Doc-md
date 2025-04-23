@@ -16,3 +16,4 @@ Aspose.Cells offre une fonctionnalité pour supprimer ou retirer un tableau croi
 Le code d'exemple suivant supprime deux tableaux croisés dynamiques de la feuille de calcul. D'abord, il supprime un tableau croisé dynamique en utilisant la méthode [**Worksheet.PivotTables.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/remove) et ensuite il supprime un tableau croisé dynamique en utilisant la méthode [**Worksheet.PivotTables.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/removeat)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-RemovePivotTable-RemovePivotTableFromWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

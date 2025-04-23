@@ -50,3 +50,4 @@ Utdata:
 Det här är det första namnet som skapas
 
 ` `< > + (adj.Private _ " Private"
+{{< app/cells/assistant language="csharp" >}}

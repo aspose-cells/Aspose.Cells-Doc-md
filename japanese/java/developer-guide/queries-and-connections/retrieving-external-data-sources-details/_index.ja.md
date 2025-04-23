@@ -34,3 +34,4 @@ Aspose.Cellsは、テンプレートExcelファイルにリンクされた企業
 
 
 
+{{< app/cells/assistant language="java" >}}

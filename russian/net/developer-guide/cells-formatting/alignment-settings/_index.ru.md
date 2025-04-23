@@ -123,3 +123,4 @@ Aspose.Cells предоставляет методы [**GetStyle**](https://refe
 - [Изменение выравнивания ячеек и сохранение существующего форматирования](/cells/ru/net/change-cells-alignment-and-keep-existing-formatting/)
 - [Перенос строк и перенос текста](/cells/ru/net/line-breaks-and-text-wrapping/)
 
+{{< app/cells/assistant language="csharp" >}}

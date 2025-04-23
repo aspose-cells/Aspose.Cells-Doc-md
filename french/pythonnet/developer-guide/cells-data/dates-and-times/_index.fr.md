@@ -11,7 +11,7 @@ keywords: Comment gérer les dates et heures, le système de date 1900, le syst�
 Les dates et heures sont stockées dans les cellules sous forme de nombres. Ainsi, les valeurs des cellules contenant des dates et heures sont de type numérique. Un nombre qui spécifie une date et une heure se compose des composants date (partie entière) et heure (partie fractionnaire). La propriété Cell.DoubleValue renvoie ce nombre.
 
 ## **Comment afficher les dates et heures dans Aspose.Cells**
-Pour afficher un nombre en tant que date et heure, appliquez le format de date et heure requis à une cellule via la propriété [Style.Number](https://reference.aspose.com/cells/net/aspose.cells/style/number/) ou [Style.Custom](). La propriété CellValue.DateTimeValue renvoie l'objet DateTime, qui spécifie la date et l'heure représentées par le nombre contenu dans une cellule.
+Pour afficher un nombre en tant que date et heure, appliquez le format de date et d’heure requis à une cellule via la propriété [Style.number](https://reference.aspose.com/cells/python-net/aspose.cells/style/number/) ou [Style.Custom](). La propriété CellValue.DateTimeValue renvoie l'objet DateTime, qui indique la date et l'heure représentées par le nombre contenu dans une cellule.
 <br>
 <image src="1.png" width="70%" />
 
@@ -19,7 +19,7 @@ Pour afficher un nombre en tant que date et heure, appliquez le format de date e
 MS-Excel stocke les dates sous forme de nombres appelés valeurs sérielles. Une valeur sérielle est un entier qui représente le nombre de jours écoulés depuis le premier jour du système de date. Excel prend en charge les systèmes de date suivants pour les valeurs sérielles:
 
 1. Le système de date 1900. La première date est le 1er janvier 1900, et sa valeur sérielle est 1. La dernière date est le 31 décembre 9999, et sa valeur sérielle est 2 958 465. Ce système de date est utilisé par défaut dans le classeur.
-1. Le système de date 1904. La première date est le 1er janvier 1904, et sa valeur sérielle est 0. La dernière date est le 31 décembre 9999, et sa valeur sérielle est 2 957 003. Pour utiliser ce système de date dans le classeur, définissez la propriété [Workbook.Settings.Date1904](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/date1904/) sur true.
+1. Le système de dates 1904. La première date est le 1er janvier 1904, et sa valeur série est 0. La dernière date est le 31 décembre 9999, et sa valeur série est 2 957 003. Pour utiliser ce système de dates dans le classeur, définissez la propriété [**Workbook.settings.date1904**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/date1904/) sur true.
 
 
 Cet exemple montre que les valeurs sérielles stockées à la même date dans différents systèmes de dates sont différentes.

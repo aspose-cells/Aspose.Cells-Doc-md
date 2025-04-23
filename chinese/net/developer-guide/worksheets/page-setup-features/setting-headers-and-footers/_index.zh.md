@@ -32,6 +32,7 @@ Aspose.Cells允许您在运行时向工作表添加页眉和页脚，但我们�
 |&T|当前时间|
 |&A|工作表名称|
 |&F|文件名（不含路径）|
+|&&文本|显示 &文本。例如：&&WO 将显示为 &WO|
 |&"\<FontName>"|表示字体名称。例如：&"Arial"|
 |&"\<FontName>, \<FontStyle>"|表示带有样式的字体名称。例如：&"Arial,Bold"|
 |&\<FontSize>|代表字体大小。例如：“&14abc”。但如果此命令后跟一个要在页眉中打印的普通数字，则应与字体大小用空格分隔。例如：“&14 123”。
@@ -58,3 +59,4 @@ Aspose.Cells允许您在运行时向工作表添加页眉和页脚，但我们�
 1. 选择 **页眉/页脚** 选项卡。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -3,8 +3,8 @@ title: Determinar si el Tamaño de Papel de la Hoja de Cálculo es Automático
 type: docs
 weight: 90
 url: /es/python-net/determine-if-paper-size-of-worksheet-is-automatic/
-description: Este artículo explica cómo usar el código de muestra Aspose.Cells for Python via .NET para determinar si el Tamaño de Papel de la Hoja de Trabajo es Automático de forma programática.
-keywords: Biblioteca de Excel de Python, determinar si el tamaño de papel de la hoja de trabajo es automático en Python.
+description: Este artículo explica cómo usar el código de ejemplo de Aspose.Cells para Python via .NET para determinar si el tamaño del papel de la hoja de cálculo es Automático mediante programación.
+keywords: Biblioteca de Excel para Python, determinar si el tamaño del papel de la hoja de cálculo es automático en Python.
 ---
 
 ## **Escenarios de uso posibles**

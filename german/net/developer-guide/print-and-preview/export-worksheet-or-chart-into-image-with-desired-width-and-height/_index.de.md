@@ -14,3 +14,4 @@ Sie können mit Aspose.Cells Ihr Arbeitsblatt oder Diagramm in ein Bild mit der 
 Der folgende Code exportiert das Arbeitsblatt in ein Bild mit der Größe 400x400.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-WorksheetToImageDesiredSize-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

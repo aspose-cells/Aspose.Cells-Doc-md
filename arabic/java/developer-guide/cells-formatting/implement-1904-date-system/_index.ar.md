@@ -24,3 +24,4 @@ url: /ar/java/implement-1904-date-system/
 انظر إلى الرمز البريدي العيني التالي حول كيفية تحقيق ذلك باستخدام واجهات برمجة التطبيقات Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-Implement1904DateSystem-Implement1904DateSystem.java" >}}
+{{< app/cells/assistant language="java" >}}

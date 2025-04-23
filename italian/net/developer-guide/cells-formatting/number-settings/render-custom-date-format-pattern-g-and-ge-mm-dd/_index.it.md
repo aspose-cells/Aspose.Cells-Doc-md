@@ -16,3 +16,4 @@ Aspose.Cells è ora in grado di renderizzare i modelli di formato data personali
 Il seguente codice di esempio converte il file Excel di origine (5112361.xlsx) che contiene valori di data con modelli di formato personalizzati come g e ge.mm.dd in un PDF di output (5112360.pdf).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-RenderCustomDateFormat-RenderCustomDateFormatPatterngandgemmdd.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

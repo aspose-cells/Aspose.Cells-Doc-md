@@ -42,3 +42,4 @@ Lütfen aşağıdaki örnek kodu inceleyin. [Örnek Excel dosyasını](64716821.
 ----------------------
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

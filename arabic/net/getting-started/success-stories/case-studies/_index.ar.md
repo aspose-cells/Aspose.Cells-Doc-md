@@ -6,3 +6,4 @@ url: /ar/net/case-studies/
 ---
 
 
+{{< app/cells/assistant language="csharp" >}}

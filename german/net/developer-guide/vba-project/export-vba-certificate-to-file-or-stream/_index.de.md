@@ -16,3 +16,4 @@ Aspose.Cells ermöglicht es Ihnen, das VBA-Digitalzertifikat in einen Stream wie
 Bitte sehen Sie sich den folgenden Beispielscode an, der die Rohdaten des VBA-Zertifikats in einer Datei speichert. Sie können die [Beispiel-Excel-Datei, die in diesem Code verwendet wird](5115031.xlsm) von dem bereitgestellten Link herunterladen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-ExportVBACertificateToFile-ExportVBACertificateToFile.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

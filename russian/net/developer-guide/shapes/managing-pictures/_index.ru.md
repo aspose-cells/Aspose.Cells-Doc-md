@@ -53,3 +53,4 @@ Aspose.Cells позволяет отображать содержимое яче
 - [Вставить изображение на основе ссылки на ячейку](/cells/ru/net/insert-a-picture-based-on-cell-reference/)
 - [Загрузка веб-изображения из URL в лист Excel](/cells/ru/net/load-a-web-image-from-a-url-into-an-excel-worksheet/)
 
+{{< app/cells/assistant language="csharp" >}}

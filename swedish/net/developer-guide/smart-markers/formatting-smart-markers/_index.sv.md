@@ -22,3 +22,4 @@ När du arbetar med Smart Markers för grupperingsdata, behöver du ibland lägg
 I det här exemplet används en [datafil](96927971.xlsx) och en [mallfil](96927972.xlsx) med några markörer i cellerna. När koden körs lägger Aspose.Cells till några anpassade etiketter till sammanfattningsraderna för den grupperade datan.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-AddCustomLabels-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

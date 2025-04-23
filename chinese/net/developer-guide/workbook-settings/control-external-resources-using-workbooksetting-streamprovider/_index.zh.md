@@ -18,3 +18,4 @@ url: /zh/net/control-external-resources-using-workbooksetting-streamprovider/
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookSettings-ControlExternalResourcesUsingWorkbookSetting_StreamProvider-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

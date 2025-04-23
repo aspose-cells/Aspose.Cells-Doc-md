@@ -135,3 +135,4 @@ Excelの他のセル範囲と同様に、スパイル範囲を操作できます
 出力スナップショット：
 <br>
 <image src="4.png" width="70%" />
+{{< app/cells/assistant language="csharp" >}}

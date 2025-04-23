@@ -18,3 +18,4 @@ El siguiente código de muestra carga primero el HTML de muestra en el libro de 
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-AutoFitColumnsRowsLoadingHTML-1.java" >}}
+{{< app/cells/assistant language="java" >}}

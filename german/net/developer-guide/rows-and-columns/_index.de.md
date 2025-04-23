@@ -77,3 +77,4 @@ Um dieselbe Spaltenbreite für alle Spalten im Arbeitsblatt festzulegen, verwend
 - [Einfügen und Löschen von Zeilen und Spalten einer Excel-Datei](/cells/de/net/inserting-and-deleting-rows-and-columns/)
 - [Duplikate Zeilen in einem Arbeitsblatt entfernen](/cells/de/net/remove-duplicate-rows-in-a-worksheet/)
 - [Aktualisieren Sie Verweise in anderen Arbeitsblättern, während Sie leere Spalten und Zeilen in einem Arbeitsblatt löschen](/cells/de/net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

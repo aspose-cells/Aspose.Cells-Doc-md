@@ -76,3 +76,4 @@ För att ta bort flera rader från ett arbetsblad, ring [**DeleteRows**](https:/
 För att ta bort en kolumn från arbetsbladet på valfri plats, ring [**DeleteColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn)-metoden i [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)-samlingen. Metoden [**DeleteColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) tar indexet för kolumnen som ska tas bort.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-DeletingAColumn-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

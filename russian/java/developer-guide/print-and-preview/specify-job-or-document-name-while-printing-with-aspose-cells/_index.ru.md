@@ -7,13 +7,13 @@ url: /ru/java/specify-job-or-document-name-while-printing-with-aspose-cells/
 
 {{% alert color="primary" %}}
 
-Вы можете указать имя задания или документа при печати своей книги или листа с использованием объектов [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) или [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender). Aspose.Cells предоставляет методы [**WorkbookRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String,%20java.lang.String)) и [**SheetRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String,%20java.lang.String)), которые вы можете использовать для указания имени задания при печати своей книги или листа.
+Вы можете указать имя задания или документа при печати своей книги или листа с использованием объектов [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) или [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender). Aspose.Cells предоставляет методы [**WorkbookRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter-java.lang.String-java.lang.String-) и [**SheetRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-java.lang.String-), которые вы можете использовать для указания имени задания при печати своей книги или листа.
 
 {{% /alert %}}
 
 ## **Укажите название задания или документа при печати с помощью Aspose.Cells**
 
-Образец кода загружает исходный файл Excel, а затем отправляет его на принтер, указывая имя задания или документа с использованием методов [**WorkbookRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String,%20java.lang.String)) и [**SheetRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String,%20java.lang.String)). На скриншоте показано, как выглядит имя задания в очереди принтера.
+Образец кода загружает исходный файл Excel, а затем отправляет его на принтер, указывая имя задания или документа с использованием методов [**WorkbookRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter-java.lang.String-java.lang.String-) и [**SheetRender.toPrinter(printerName, jobName)**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-java.lang.String-). На скриншоте показано, как выглядит имя задания в очереди принтера.
 
 ![todo:image_alt_text](specify-job-or-document-name-while-printing-with-aspose-cells_1.png)
 
@@ -22,3 +22,4 @@ url: /ru/java/specify-job-or-document-name-while-printing-with-aspose-cells/
 ## Связанные статьи
 
 - [Печать рабочих книг](/cells/ru/java/printing-workbooks/)
+{{< app/cells/assistant language="java" >}}

@@ -283,3 +283,4 @@ chart.calculate();
 ## **تمت إزالة واجهات برمجة التطبيقات**
 ### **تمت إزالة خاصية Workbook.SaveOptions.**
 تم وضع خاصية Workbook.SaveOptions على لائحة التشويه منذ فترة. مع هذا الإصدار، تمت إزالتها بالكامل من واجهة برمجة التطبيقات العامة لذلك يُنصح باستخدام طريقة Workbook.save(Stream, SaveOptions) أو Workbook.save(string, SaveOptions) كبديل.
+{{< app/cells/assistant language="java" >}}

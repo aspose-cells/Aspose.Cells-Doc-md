@@ -43,3 +43,4 @@ Aspose.Cells unterstützt das Extrahieren von Objekten ungewöhnlicher Typen wie
 - [Abrufen oder Festlegen des Klassenbezeichners des eingebetteten OLE-Objekts](/cells/de/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 - [Einfügen einer WAV-Datei als OLE-Objekt](/cells/de/net/inserting-a-wav-file-as-an-ole-object/)
 
+{{< app/cells/assistant language="csharp" >}}

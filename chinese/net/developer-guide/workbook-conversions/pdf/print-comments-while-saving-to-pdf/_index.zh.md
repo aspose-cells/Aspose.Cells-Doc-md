@@ -26,3 +26,4 @@ Aspose.Cells提供[**PrintCommentsType**](https://reference.aspose.com/cells/net
 以下示例代码说明了如何使用[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)来在保存为PDF时打印注释。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-PrintCommentWhileSavingToPdf-PrintCommentWhileSavingToPdf.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

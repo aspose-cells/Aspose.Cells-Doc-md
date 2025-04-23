@@ -9,7 +9,7 @@ url: /sv/java/adding-custom-properties-visible-inside-document-information-panel
 
 Aspose.Cells kan användas för att lägga till anpassade egenskaper i arbetsboksobjektet som är synliga i dokumentinformationspanelen. Du kan öppna dokumentinformationspanelen i Microsoft Excel med hjälp av menyn Fil > Information > Egenskaper > Visa dokumentpanelkommandon.
 
-Använd [**Workbook.getContentTypeProperties().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add(java.lang.Object)) metoden för att lägga till en anpassad egenskap som kommer att vara synlig i dokumentinformationspanelen
+Använd [**Workbook.getContentTypeProperties().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-) metoden för att lägga till en anpassad egenskap som kommer att vara synlig i dokumentinformationspanelen
 
 {{% /alert %}}
 
@@ -26,3 +26,4 @@ Följande exempelkod lägger till två anpassade egenskaper. Den första egenska
 - [Användning av anpassade XML-dels i Aspose.Cells](/cells/sv/java/using-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -54,3 +54,4 @@ Aspose.Cells fournit une méthode [**Aspose.Cells.Worksheet.MoveTo()**](https://
 L'exemple suivant montre comment déplacer une feuille de calcul vers un autre emplacement dans le classeur.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-MoveWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

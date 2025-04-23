@@ -6,3 +6,4 @@ url: /zh/net/comparison-migration/
 ---
 
 
+{{< app/cells/assistant language="csharp" >}}

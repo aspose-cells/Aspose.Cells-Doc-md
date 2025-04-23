@@ -14,7 +14,7 @@ Aspose.Cells は CellsHelper.CellIndexToName メソッドを提供し、開発�
 
 {{% alert color="primary" %}} 
 
-Microsoft Excelは行と列のインデックスを1から数えます。Microsoft Excelとは異なり、Aspose.Cellsは行と列のインデックスを0から数えます。
+Microsoft Excelは行と列のインデックスを1からカウントして開始します。Aspose.Cellsはこれに対して、0からカウントします。
 
 {{% /alert %}} 
 
@@ -29,7 +29,7 @@ Aspose.Cells は CellsHelper.CellNameToIndex メソッドを提供し、開発�
 
 {{% alert color="primary" %}} 
 
-Microsoft Excelは行と列のインデックスを1から数えます。Microsoft Excelとは異なり、Aspose.Cellsは行と列のインデックスを0から数えます。
+Microsoft Excelは行と列のインデックスを1からカウントして開始します。Aspose.Cellsはこれに対して、0からカウントします。
 
 {{% /alert %}} 
 
@@ -50,3 +50,4 @@ Microsoft Excelは行と列のインデックスを1から数えます。Microso
 これは最初の名前です。
 
 ` <> + (形容詞Private _ " Private"
+{{< app/cells/assistant language="csharp" >}}

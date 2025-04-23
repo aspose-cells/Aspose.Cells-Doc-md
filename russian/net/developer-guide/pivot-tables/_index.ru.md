@@ -55,3 +55,4 @@ Aspose.Cells предоставляет специальный набор кла
 - [Сохранение сводной таблицы в файле ODS](/cells/ru/net/save-pivot-table-in-ods-file/)
 - [Опция отображения страниц фильтров отчета](/cells/ru/net/show-report-filter-pages-option/)
 - [Работа с форматами отображения данных DataField в сводной таблице](/cells/ru/net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="csharp" >}}

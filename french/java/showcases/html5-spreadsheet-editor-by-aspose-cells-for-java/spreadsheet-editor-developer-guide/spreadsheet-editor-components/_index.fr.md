@@ -46,3 +46,4 @@ Il est responsable de nettoyer toutes les ressources acquises lorsqu'elles ne so
 Il crée des instances de feuilles de calcul et les garde en mémoire aussi longtemps qu'elles sont nécessaires.
 ### **CellsService**
 Le **CellsService** gère le cache des lignes, des colonnes, des cellules, de la mise en forme et de la structure des feuilles de calcul.
+{{< app/cells/assistant language="java" >}}

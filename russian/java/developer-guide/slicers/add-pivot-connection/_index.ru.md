@@ -9,7 +9,7 @@ keywords: Добавить связь сводной таблицы без Offic
 
 ## **Возможные сценарии использования**
 
-Если вы хотите связать срез и сводную таблицу в Excel, вам нужно щелкнуть правой кнопкой мыши на срезе и выбрать пункт "Связи отчетов...". В списке опций вы можете работать с флажком. Аналогично, если вы хотите связать срез и сводную таблицу с помощью программного интерфейса Aspose.Cells Java, используйте метод [**Slicer.addPivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#addPivotConnection(com.aspose.cells.PivotTable)/). Он свяжет срез и сводную таблицу.
+Если вы хотите связать срез и сводную таблицу в Excel, вам нужно щелкнуть правой кнопкой мыши на срезе и выбрать пункт "Связи отчетов...". В списке опций вы можете работать с флажком. Аналогично, если вы хотите связать срез и сводную таблицу с помощью программного интерфейса Aspose.Cells Java, используйте метод [**Slicer.addPivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#addPivotConnection-com.aspose.cells.PivotTable-). Он свяжет срез и сводную таблицу.
 
 ## **Ассоциировать фильтр и сводную таблицу**
 
@@ -19,3 +19,4 @@ keywords: Добавить связь сводной таблицы без Offic
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Slicers-Adding-Pivot-Connection.java" >}}
+{{< app/cells/assistant language="java" >}}

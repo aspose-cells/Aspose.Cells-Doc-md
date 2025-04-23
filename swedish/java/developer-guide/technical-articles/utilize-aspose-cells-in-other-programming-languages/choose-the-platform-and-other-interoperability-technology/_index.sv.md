@@ -27,3 +27,4 @@ Från tabellen ovan kan du se att det är möjligt att använda Aspose.Cells for
 |Aspose.Cells for Java via Java Bro eller inline::Java |<p>**Fördelar**:</p><p>- Tillgänglig på alla plattformar där Java finns tillgängligt.</p><p>- Enkelt att anropa statiska metoder, konstruktorer med parametrar, överlagrade metoder och använda uppräknade värden.</p>|
 | |<p>**Nackdelar**: </p><p>- Har mindre frekventa utgåvor och färre funktioner än Aspose.Cells for .NET.</p>|
 Observera att Aspose.Cells for Java är utformad för Java-applikationer och att användningen i andra programmeringsspråk är föremål för vissa tekniska begränsningar eller arbetsmetoder. 
+{{< app/cells/assistant language="java" >}}

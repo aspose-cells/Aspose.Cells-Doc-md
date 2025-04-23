@@ -20,3 +20,4 @@ Se hai bisogno di salvare ogni foglio di lavoro nel tuo file di Excel modello pe
 Se il foglio di calcolo contiene formule, è meglio chiamare il metodo [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) proprio prima di renderizzare il foglio di calcolo in PDF. Ciò garantisce che i valori dipendenti dalla formula vengano ricalcolati e i valori corretti vengano resi in PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

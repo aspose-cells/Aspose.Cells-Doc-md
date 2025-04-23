@@ -65,3 +65,4 @@ Specificare le proprietà [**FindOptions.LookInType**](https://reference.aspose.
 - [Trova celle con stile specifico](/cells/it/net/find-cells-with-specific-style/)
 - [Verifica se il valore della cella inizia con un apice singolo](/cells/it/net/find-if-the-cell-value-starts-with-single-quote-mark/)
 - [Cerca dati usando valori originali](/cells/it/net/search-data-using-original-values/)
+{{< app/cells/assistant language="csharp" >}}

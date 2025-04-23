@@ -24,3 +24,4 @@ Para mostrar el rango de celdas como etiquetas de datos en Microsoft Excel:
 El código de ejemplo a continuación accede a las etiquetas de datos de una serie de gráficos y establece la propiedad [**DataLabels.ShowCellRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/showcellrange) como **true** para seleccionar la opción **La etiqueta contiene - Valor de las celdas**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ShowCellRangeAsDataLabels-ShowCellRangeAsDataLabels.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

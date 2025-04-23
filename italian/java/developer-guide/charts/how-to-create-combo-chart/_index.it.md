@@ -20,3 +20,4 @@ Dopo aver eseguito il codice qui sotto, vedrai il Grafico Combo come mostrato di
 Il codice di esempio seguente carica il [file Excel di esempio] (combo.xlsx) e genera il [file Excel di output] (out.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-add-combo-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

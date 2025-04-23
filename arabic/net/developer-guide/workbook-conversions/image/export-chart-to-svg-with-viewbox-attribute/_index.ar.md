@@ -34,3 +34,4 @@ url: /ar/net/export-chart-to-svg-with-viewbox-attribute/
 {{< /highlight >}}
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

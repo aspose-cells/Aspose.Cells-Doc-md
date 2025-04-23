@@ -41,3 +41,4 @@ Använd [**Worksheet.FreezePanes**](https://reference.aspose.com/cells/net/aspos
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Row.cs" >}}
 
 Bifogad [provkäll-Excel-fil](../Freeze.xlsx).
+{{< app/cells/assistant language="csharp" >}}

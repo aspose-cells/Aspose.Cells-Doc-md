@@ -22,3 +22,4 @@ L'exemple suivant montre comment ajouter une forme WordArt pour définir un fili
 - [Ajouter un texte Word Art avec des styles intégrés](/cells/fr/net/add-word-art-text-with-built-in-styles/)
 - [Verrouillage du filigrane WordArt](/cells/fr/net/locking-wordart-watermark/)
 - [Définir un style de WordArt prédéfini pour le texte de la forme](/cells/fr/net/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="csharp" >}}

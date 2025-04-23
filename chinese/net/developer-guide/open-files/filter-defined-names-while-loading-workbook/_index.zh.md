@@ -18,3 +18,4 @@ Aspose.Cells允许您过滤或移除工作簿中存在的定义名称。请在�
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Workbook-FilterDefinedNamesWhileLoadingWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

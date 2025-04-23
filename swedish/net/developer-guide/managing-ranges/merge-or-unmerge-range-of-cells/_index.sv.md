@@ -18,3 +18,4 @@ Du kan använda Aspose.Cells för att slå samman eller dela upp ett cellinterva
 Följande exempelkod skapar först ett intervall - A1:D4 - och slår sedan samman cellerna i intervallet till en enda cell med hjälp av [**Range.Merge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge)-metoden. På liknande sätt kan du dela upp celler genom att skapa ett intervall och anropa [**Range.UnMerge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/unmerge)-metoden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-MergeUnmergeRangeOfCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

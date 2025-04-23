@@ -91,3 +91,4 @@ Ladda ner **Lägg till data i celler** från någon av de nedan angivna sociala 
 För mer information, besök [Lägga till data i celler](/cells/sv/net/laegga-till-data-i-celler/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

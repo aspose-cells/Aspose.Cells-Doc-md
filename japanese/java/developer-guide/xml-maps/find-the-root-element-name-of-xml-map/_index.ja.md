@@ -24,3 +24,4 @@ Aspose.Cellsを使用してXML Mapの*ルート要素名*を見つけること�
 Root Element Name Of Xml Map: MiscData
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

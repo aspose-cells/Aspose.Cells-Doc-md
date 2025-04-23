@@ -83,3 +83,4 @@ Sulla base dei fatti sopra menzionati, di seguito sono riportati i possibili sce
 1. È richiesto l'accesso in sola lettura alla collezione di celle, cioè; il requisito è di ispezionare solo le celle.
 1. Deve essere attraversato un gran numero di celle.
 1. Si devono attraversare solo le celle/righe/colonne inizializzate.
+{{< app/cells/assistant language="csharp" >}}

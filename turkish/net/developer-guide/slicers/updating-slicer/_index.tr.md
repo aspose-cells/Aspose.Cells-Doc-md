@@ -20,3 +20,4 @@ Aşağıdaki örnek kod, mevcut bir süzgeç içeren [örnek Excel dosyasını](
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-UpdatingSlicer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -20,3 +20,4 @@ url: /ar/net/extract-theme-data-from-excel-file/
 يقوم الرمز البرمجي العيني التالي باستخراج اسم السمة المطبقة على دفتر العمل المصدر ثم يقوم باستخراج لون السمة المطبق على الخلية A1 ولون السمة المطبقة على الحد السفلي للخلية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ExtractThemeData-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

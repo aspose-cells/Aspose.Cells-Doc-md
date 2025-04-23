@@ -117,3 +117,4 @@ workbook.save("output.xlsm");
 {{< /highlight >}}
 ### **تمت إضافة خاصية OoxmlSaveOptions.UpdateZoom**
 مع الإصدار 8.6.0، قامت واجهات برمجة Aspose.Cells for Java بعرض خاصية OoxmlSaveOptions.UpdateZoom التي يمكن استخدامها لتحديث PageSetup.Zoom إذا كانت خصائص PageSetup.FitToPagesWide و / أو PageSetup.FitToPagesTall قد تم استخدامها للتحكم في تحجيم ورقة العمل.
+{{< app/cells/assistant language="java" >}}

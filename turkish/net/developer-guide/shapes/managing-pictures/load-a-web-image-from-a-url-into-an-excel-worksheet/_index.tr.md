@@ -20,3 +20,4 @@ Aspose.Cells for .NET API, URL'lerden resimleri Excel Çalışma Sayfalarına y�
 Her zaman güncellenmiş bir resmi URL'den almak istediğiniz durumlar olabilir. Bunu başarmak için, [Web Adresinden Bağlantılı Bir Resim Eklemek](/cells/tr/net/insert-a-linked-picture-from-web-address/) makalesinde verilen talimatları takip edebilirsiniz. Bu yöntemi takip ederek, resim her çalışma sayfası açıldığında URL'den yüklenir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

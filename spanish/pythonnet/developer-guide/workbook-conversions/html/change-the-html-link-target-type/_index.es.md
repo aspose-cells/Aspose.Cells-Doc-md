@@ -17,7 +17,7 @@ Aspose.Cells para Python via NET le permite cambiar el tipo de destino de enlace
 
 {{< /highlight >}}
 
-Como puedes ver, el atributo destino en el enlace HTML anterior es **_self**. Puedes controlar este atributo de destino usando la propiedad [**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/). Esta propiedad toma la enumeración [**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype) que tiene los siguientes valores.
+Como puedes ver, el atributo destino en el enlace HTML anterior es **_self**. Puedes controlar este atributo de destino usando la propiedad [**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/). Esta propiedad toma la enumeración [**HtmlLinkTargetType**](https://reference.aspose.com/cells/python-net/aspose.cells/htmllinktargettype) que tiene los siguientes valores.
 
 - HtmlLinkTargetType.BLANK
 - HtmlLinkTargetType.PARENT

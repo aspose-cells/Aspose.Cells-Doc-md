@@ -19,3 +19,4 @@ Följande exempelkod läser först in exemplet HTML i Arbetsboken utan några la
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-AutoFitColumnsandRowsWhileLoadingHTMLInWorkbook-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

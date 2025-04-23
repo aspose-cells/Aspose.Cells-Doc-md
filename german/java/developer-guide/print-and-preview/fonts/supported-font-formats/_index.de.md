@@ -10,3 +10,4 @@ url: /de/java/supported-font-formats/
 |**TTF**|TrueType-Schriftarten|
 |**TTC**|TrueType-Sammlung|
 |**OTF**|OpenType-Schriften|
+{{< app/cells/assistant language="java" >}}

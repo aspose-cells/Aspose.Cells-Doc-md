@@ -7,7 +7,7 @@ url: /tr/java/assign-macro-code-to-form-control/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells, Form Düğmesi gibi bir Form Kontrolüne yeni bir Makro Kodu atamanızı sağlar. Yeni bir Makro Kodu atamak için [ShapeCollection.addShape()](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape\(int,%20int,%20int,%20int,%20int,%20int,%20int\)) yöntemini kullanabilirsiniz.
+Aspose.Cells, bir Forma Kontrolü gibi bir Button'a Makro Kodu atamanıza izin verir. Lütfen, çalışma kitabındaki bir Forma Kontrolüne yeni Makro Kodu atamak için [ShapeCollection.addShape()](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-) yöntemini kullanın.
 
 {{% /alert %}} 
 ## **Aspose.Cells Kullanarak Form Kontrolüne Makro Kodu Atama**
@@ -26,3 +26,4 @@ End Sub
 Makro Kodunu içeren çıktı XLSM dosyasını oluşturmak için kullanılan örnek kod.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AssignMacroToFormControl-AssignMacroToFormControl.java" >}}
+{{< app/cells/assistant language="java" >}}

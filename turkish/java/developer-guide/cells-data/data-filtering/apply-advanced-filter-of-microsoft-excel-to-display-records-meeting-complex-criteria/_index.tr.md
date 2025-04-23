@@ -10,7 +10,7 @@ Microsoft Excel, çalışma sayfası verilerinde karmaşık kriterlere uygun kay
 
 ![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_1.png)
 
-Aspose.Cells ayrıca [Worksheet.advancedFilter()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#advancedFilter\(boolean,%20java.lang.String,%20java.lang.String,%20java.lang.String,%20boolean\)) yöntemini kullanarak İleri Filtre uygulamanıza izin verir. Microsoft Excel gibi aşağıdaki parametreleri kabul eder.
+Aspose.Cells, Ayrıca [Worksheet.advancedFilter()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#advancedFilter-boolean-java.lang.String-java.lang.String-java.lang.String-boolean-) yöntemi kullanarak Gelişmiş Filtre uygulamanıza olanak tanır. Microsoft Excel gibi, kabul ettiği parametreler şunlardır.
 
 **isFilter**
 
@@ -37,3 +37,4 @@ Aşağıdaki örnek kod, [Örnek Excel Dosyası](48496702.xlsx) üzerinde İler
 ![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_2.png)
 ## **Örnek Kod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ApplyAdvancedFilterOfMicrosoftExcel.java" >}}
+{{< app/cells/assistant language="java" >}}

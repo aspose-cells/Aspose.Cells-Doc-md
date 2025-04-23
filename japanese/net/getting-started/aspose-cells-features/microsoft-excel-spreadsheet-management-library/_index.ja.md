@@ -83,3 +83,4 @@ url: /ja/net/microsoft-excel-spreadsheet-management-library/
 ### **サポートされているプラットフォーム**
 - デスクトップWindowsアプリケーション
 - エンタープライズWebアプリケーション
+{{< app/cells/assistant language="csharp" >}}

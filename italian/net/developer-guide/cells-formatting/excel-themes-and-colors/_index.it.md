@@ -69,3 +69,4 @@ L'esempio seguente utilizza un file XLSX di modello, ottiene i colori per divers
 
 ## **Argomenti avanzati**
 - [Estrai dati tema dal file Excel](/cells/it/net/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="csharp" >}}

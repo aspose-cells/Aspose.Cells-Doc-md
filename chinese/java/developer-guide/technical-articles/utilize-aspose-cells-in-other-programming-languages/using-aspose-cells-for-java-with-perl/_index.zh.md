@@ -135,3 +135,4 @@ print "save $ok\n";
 
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

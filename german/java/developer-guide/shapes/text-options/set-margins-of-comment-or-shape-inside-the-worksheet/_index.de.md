@@ -18,3 +18,4 @@ Bitte beachten Sie den folgenden Beispielcode. Es lädt die [Beispiel-Excel-Date
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-SetMarginsOfCommentOrShapeInsideTheWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

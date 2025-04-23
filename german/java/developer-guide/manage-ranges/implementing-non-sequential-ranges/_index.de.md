@@ -12,3 +12,4 @@ Normalerweise sind [benannte Bereiche](/cells/de/java/named-ranges/) rechteckig,
 Das folgende Codebeispiel zeigt, wie ein benannter nicht-sequentieller Bereich mit Aspose.Cells for Java erstellt wird.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ImplementingNonSequentialRanges-ImplementingNonSequentialRanges.java" >}}
+{{< app/cells/assistant language="java" >}}

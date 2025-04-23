@@ -22,3 +22,4 @@ keywords: セル値の幅をピクセル単位で測定し、セル値の高さ�
 
 ## **高度なトピック**
 - [セル値のテキスト幅を取得する](/cells/ja/net/get-text-width-of-cell-value/)
+{{< app/cells/assistant language="csharp" >}}

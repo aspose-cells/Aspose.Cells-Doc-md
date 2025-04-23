@@ -27,3 +27,4 @@ Lütfen bu makalenin **HTML Dosyaları Açma** alt bölümüne bakın; bu makale
 Lütfen aşağıdaki belge makalesine bakınız, bu makale çalışma kitaplarınızı/spreadsheetlerinizi nasıl HTML biçimine dönüştüreceğinizi/kaydedeceğinizi açıklar.
 
 - [Excel Dosyalarını HTML'e Dönüştürme](/cells/tr/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktohtml)
+{{< app/cells/assistant language="csharp" >}}

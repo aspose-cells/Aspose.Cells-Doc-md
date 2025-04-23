@@ -33,3 +33,4 @@ Der folgende Screenshot zeigt die Ausgabedatei, die durch den Beispielcode gener
 Der folgende Beispielcode lädt die im obigen Screenshot gezeigte Quelldatei, greift dann auf die erste Sparkline-Gruppe zu und fügt Datenbereiche und -speicherorte in die Sparkline-Gruppe ein. Schließlich schreibt er die Ausgabedatei auf die Festplatte, die auch im obigen Screenshot zu sehen ist.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopySparkline-CopySparkline.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -80,3 +80,4 @@ Console.WriteLine(unformatted);
 {{% /alert %}}
 ## **已废弃Bytes、Characters、CharactersWithSpaces、Lines、Paragraphs属性**
 从Aspose.Cells for .NET 8.1.0开始，BuiltInDocumentPropertyCollection类中的许多属性已被标记为过时。这些属性包括Bytes，Characters，CharactersWithSpaces，Lines和Paragraphs。原因是这些属性在保留Excel电子表格时没有用处，因为Excel会省略它们。而这些属性最初是为Word文档和PowerPoint演示文稿编写的。
+{{< app/cells/assistant language="csharp" >}}

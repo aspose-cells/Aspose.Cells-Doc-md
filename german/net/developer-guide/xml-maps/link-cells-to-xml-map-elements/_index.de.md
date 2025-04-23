@@ -16,3 +16,4 @@ Der folgende Beispielcode lädt die [Quell-Excel-Datei](5115471.xlsx), die eine 
 Wenn Sie die [Ausgabe-Excel-Datei](5115467.xlsx) öffnen und auf die Schaltfläche Entwickler > Quelle klicken, sehen Sie, dass die Zellen mit XML-Map-Elementen verknüpft sind und sie auch von Microsoft Excel hervorgehoben werden, wie in diesem Bild gezeigt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LinkCellsToXmlMapElements-LinkCellsToXmlMapElements.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

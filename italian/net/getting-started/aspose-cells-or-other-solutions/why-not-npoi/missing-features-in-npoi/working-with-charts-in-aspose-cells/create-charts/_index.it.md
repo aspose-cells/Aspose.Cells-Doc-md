@@ -79,3 +79,4 @@ Scarica **Crea grafici** da uno dei siti di codice sociale qui sotto:
 Per maggiori dettagli, visita [Come creare un grafico](/cells/it/net/create-charts/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

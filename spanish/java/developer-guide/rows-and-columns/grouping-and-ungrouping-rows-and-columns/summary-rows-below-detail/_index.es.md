@@ -9,7 +9,7 @@ url: /es/java/applying-subtotal-and-changing-direction-of-outline-summary-rows-b
 
 Este artículo explicará cómo aplicar un subtotal a los datos y cambiar la dirección de las filas de resumen de contorno debajo del detalle.
 
-Puede aplicar un subtotal a los datos usando el método [**Worksheet.Cells.subtotal()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal(com.aspose.cells.CellArea,%20int,%20int,%20int[])). Toma los siguientes parámetros.
+Puede aplicar un subtotal a los datos usando el método [**Worksheet.Cells.subtotal()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal-com.aspose.cells.CellArea-int-int-int[]-). Toma los siguientes parámetros.
 
 - **ÁreaCelda** - El rango en el que aplicar el subtotal
 - **AgruparPor** - El campo por el que agrupar, como un desplazamiento entero basado en cero
@@ -42,3 +42,4 @@ La siguiente captura de pantalla muestra el archivo de Excel de salida generado 
 Aquí está el código de ejemplo para lograr el resultado mostrado anteriormente.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ApplyingSubtotal-1.java" >}}
+{{< app/cells/assistant language="java" >}}

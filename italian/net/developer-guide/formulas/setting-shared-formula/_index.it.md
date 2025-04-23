@@ -30,3 +30,4 @@ Un altro approccio è utilizzare una **formula condivisa**. Con una formula cond
 L'esempio seguente mostra come utilizzarla.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-SettingSharedFormula-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

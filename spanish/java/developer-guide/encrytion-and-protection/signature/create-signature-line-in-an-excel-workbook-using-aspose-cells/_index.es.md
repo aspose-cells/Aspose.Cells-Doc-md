@@ -20,3 +20,4 @@ El código de muestra siguiente agrega una línea de firma usando la propiedad [
 ![todo:image_alt_text](create-signature-line-in-an-excel-workbook-using-aspose-cells_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreateSignatureLine-CreateSignatureLine.java" >}}
+{{< app/cells/assistant language="java" >}}

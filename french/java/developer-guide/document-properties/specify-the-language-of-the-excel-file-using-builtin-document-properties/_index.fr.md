@@ -18,3 +18,4 @@ Le code d'exemple suivant crée un classeur et modifie sa propriété de documen
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DocumentProperties-SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.java" >}}
+{{< app/cells/assistant language="java" >}}

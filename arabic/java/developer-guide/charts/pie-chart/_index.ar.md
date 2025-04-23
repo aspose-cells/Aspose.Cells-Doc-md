@@ -26,3 +26,4 @@ url: /ar/java/creating-pie-chart-with-leader-lines/
 
 - [إنشاء وتخصيص المخططات](/cells/ar/java/creating-and-customizing-charts/)
 - [تنسيق الرسم البياني](/cells/ar/java/chart-formatting/)
+{{< app/cells/assistant language="java" >}}

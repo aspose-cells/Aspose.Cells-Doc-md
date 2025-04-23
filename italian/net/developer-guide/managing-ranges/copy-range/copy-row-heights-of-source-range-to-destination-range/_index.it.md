@@ -14,3 +14,4 @@ A volte l'utente ha bisogno di copiare le altezze delle righe dell'intervallo di
 Il seguente codice di esempio spiega come utilizzare l'enum [**PasteType.RowHeights**](https://reference.aspose.com/cells/net/aspose.cells/pastetype) per copiare le altezze delle righe dell'intervallo di origine nell'intervallo di destinazione. Una volta aperto il file Excel di output generato da questo codice in Microsoft Excel, vedrai che le altezze delle righe dell'intervallo di destinazione sono esattamente le stesse delle altezze delle righe dell'intervallo di origine.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-GetRowHeights-GetRowHeightsOfSourceRangeToDestinationRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -20,6 +20,12 @@ url: /ar/net/configuring-fonts-for-rendering-spreadsheets/
 1. إذا لم تتمكن الواجهة البرمجية الخارجية من تحديد الخط المحدد تحت خصائص [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/properties/defaultfontname)، فإنها تحاول اختيار أنسب الخطوط من جميع الخطوط المتاحة.
 1. وأخيرًا، إذا لم تتمكن الواجهة البرمجية الخارجية من العثور على أي خطوط في نظام الملفات، تقوم بتقديم الجدول الخليوي باستخدام Arial.
 
+{{% alert color="primary" %}}
+
+بشكل عام، تقوم APIs من Aspose.Cells بمسح الدلائل الافتراضية للخطوط على نظام التشغيل Windows و Linux و MacOS بشكل افتراضي. بدءًا من [Aspose.Cells for .NET 24.7](https://releases.aspose.com/cells/net/release-notes/2024/aspose-cells-for-net-24-7-release-notes/)، تقوم الواجهة البرمجية بمسح دلائل الخطوط السحابية المُخزنة مؤقتًا في Office بشكل إضافي بشكل افتراضي.
+
+{{% /alert %}}
+
 ## **تعيين مجلدات الخط المخصصة**
 
 تبحث واجهات برمجة تطبيقات Aspose.Cells في دليل الخطوط الافتراضية لنظام التشغيل للخطوط المطلوبة. في حالة عدم توفر الخطوط المطلوبة في دليل خطوط النظام، تبحث الواجهات عبر الدلائل المخصصة (المعرفة للمستخدم). فئة [**FontConfigs**](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs) قد عرضت العديد من الطرق لتعيين الدلائل المخصصة كما هو مفصل أدناه.
@@ -66,3 +72,4 @@ url: /ar/net/configuring-fonts-for-rendering-spreadsheets/
 - [تعيين خاصية DefaultFont من PdfSaveOptions و ImageOrPrintOptions لتكون لها الأولوية](/cells/ar/net/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [صيغ الخط المدعمة](/cells/ar/net/supported-font-formats/)
 - [ورقة العمل إلى صورة - تعيين تنسيق البكسل للصورة المقدمة](/cells/ar/net/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
+{{< app/cells/assistant language="csharp" >}}

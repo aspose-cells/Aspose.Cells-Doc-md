@@ -13,3 +13,4 @@ Aşağıdaki örnek kod, [CellsFactory](https://reference.aspose.com/cells/net/a
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingCellsFactory-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

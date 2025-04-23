@@ -3,8 +3,8 @@ title: ワークシートでゼロ値を非表示にする
 type: docs
 weight: 50
 url: /ja/python-net/hiding-the-display-of-zero-values-in-the-worksheet/
-description: この記事では、Aspose.Cells for Python via .NET APIを使用して、Excelスプレッドシート内のゼロ値をプログラムで非表示にする方法を説明します。
-keywords: Python Excelライブラリ、Excelワークシートのゼロ値を非表示にするPython、ワークシートでのゼロ値の表示を非表示にするPython。
+description: この資料では、Aspose.Cells for Python via .NET APIを使用してExcelスプレッドシートのゼロ値をプログラムで非表示にするサンプルコードを示します。
+keywords: Python Excelライブラリ、PythonでExcelのゼロ値を非表示にする、Pythonでワークシートのゼロ値表示を隠す
 ---
 
 {{% alert color="primary" %}} 
@@ -21,8 +21,8 @@ Microsoft Excel でワークシートでゼロ値を非表示にするには:
 1. **ゼロ値** オプションを選択解除します。
 1. **OK** をクリックします。
 
-## **Aspose.Cells for Python Excelライブラリを使用してゼロ値を非表示にする方法**
+## **Aspose.Cells for Python Excelライブラリを使用したゼロ値非表示の方法**
 
-Aspose.Cells for Python via .NETを使用してゼロを非表示にするデモンストレーションコードを示すサンプルコードをご覧ください。
+Aspose.Cells for Python via .NETを使用してゼロ値を非表示にするサンプルコードを以下に示します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Views-HidingDisplayOfZeroValues-1.py" >}}

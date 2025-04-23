@@ -97,9 +97,7 @@ Bu kontrolleri kullanmak için Aspose.Cells.GridDesktop ve Aspose.Cells.GridWeb'
 {{% /alert %}} 
 ### **Aspose.Cells.GridDesktop**
 #### **.NET Framework**
-- .NET Framework 2.0
-- .NET Framework 3.0
-- .NET Framework 3.5
+
 - .NET Framework 4.0
 - .NET Framework 4.5
 - .NET Framework 4.5.1
@@ -142,9 +140,6 @@ Bu kontrolleri kullanmak için Aspose.Cells.GridDesktop ve Aspose.Cells.GridWeb'
 - Microsoft Windows 11
 ### **Aspose.Cells.GridWeb**
 #### **.NET Framework**
-- .NET Framework 2.0
-- .NET Framework 3.0
-- .NET Framework 3.5
 - .NET Framework 4.0
 - .NET Framework 4.5
 - .NET Framework 4.5.1
@@ -157,10 +152,12 @@ Bu kontrolleri kullanmak için Aspose.Cells.GridDesktop ve Aspose.Cells.GridWeb'
 - .NET Framework 4.8
 - .NET Framework 4.8.1
 ### **.NET Core**
-- .NET 6.0 windows 
+- .NET 6.0 Windows ve Windows olmayan sistemler
 - .NET 7.0 windows
+- .NET 8.0 Windows
 #### **Aspose.Cells.GridWeb için.NET Core tarafından referans alınan nuget paketleri**
-- System.Drawing.Common, 7.0.0.
+- System.Drawing.Common, 7.0.0 (windows sistemlerinde).
+- SkiaSharp, 2.88.3 (windows olmayan sistemlerde).
 - System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.3.
 #### **Geliştirme Araçları**
@@ -226,3 +223,4 @@ Bu kontrolleri kullanmak için Aspose.Cells.GridDesktop ve Aspose.Cells.GridWeb'
 - Linux (Ubuntu, openSUSE, CentOS, Debian, Alpine ve diğerleri)
 ### **Mac**
 - Mac OS X, macOS High Sierra, vb.
+{{< app/cells/assistant language="csharp" >}}

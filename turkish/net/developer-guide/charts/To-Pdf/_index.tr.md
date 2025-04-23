@@ -20,3 +20,4 @@ Aspose.Cells kullanarak arzu ettiğiniz sayfa boyutunda bir grafik PDF oluştura
 ## **Örnek Kod**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Charts-CreateChartPDFWithDesiredPageSize.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

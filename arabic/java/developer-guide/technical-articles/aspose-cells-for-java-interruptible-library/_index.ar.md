@@ -97,3 +97,4 @@ try {
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

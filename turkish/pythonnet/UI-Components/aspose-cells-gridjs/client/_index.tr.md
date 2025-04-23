@@ -3,7 +3,16 @@ title: GridJs İstemci Tarafı İle Çalışmak
 type: docs
 weight: 250
 url: /tr/python-net/aspose-cells-gridjs/client/
-keywords: özel,logo,ayar,api,gridjs,python,düzenle,elektronik tablo,görüntüleyici,düzenleyici,excel
+keywords: GridJs,özelleştirme,logo,ayarlar,api,gridjs,python,düzenle,spreadsheet,görüntüleme,yorumlayıcı,excel,js api,müşteri api
+description: Bu makale, GridJs te istemci tarafı için JavaScript API lerini veya işlevleri tanıtır.
+aliases:
+  - /python-net/aspose-cells-gridjs/how-to-use-gridjs-client-api/
+  - /python-net/aspose-cells-gridjs/work-with-client-api/
+  - /python-net/aspose-cells-gridjs/use-js-api/
+  - /python-net/aspose-cells-gridjs/gridjs-spreadsheet-api/
+  - /python-net/aspose-cells-gridjs/client-api/
+  - /python-net/aspose-cells-gridjs/js-api/
+  - /python-net/aspose-cells-gridjs/javascript-api/
 ---
 
 # GridJs İstemci Tarafı İle Çalışmak
@@ -16,24 +25,10 @@ keywords: özel,logo,ayar,api,gridjs,python,düzenle,elektronik tablo,görüntü
 xs = x_spreadsheet(id, options)
     // the parameters are:
     id:the html node id ,for example :'#gridjs-demo' for the html  <div id="gridjs-demo"></div>
-    options:the load options,
-     // the parameters for options:
-	    updateMode:  currently we only support 'server'
-	    updateUrl:  set the server side  url for update action based on json
-	    mode: read means readonly spread sheet/edit means we can edit the spread sheet
-            allowSelectTextInTextBoxInReadMode: whether allow select text in TextBox control when in read mode,the default value is false
-	    showToolbar:   means whether to show toolbar
-	    showFileName:  whether to show the filename 
-	    local:         support multiple language for menus ,the locale can be:
-	                        en, cn, es, pt, de, ru, nl, 
-	                   for  English,Chinese,Spanish,Portuguese,German,Russian,Dutch
-			        ar, fr,id,it,ja
-                           for  Arabic,French,Indonesian,Italian,Japanese
-			        ko,th,tr,vi,cht
-                           for  Korean,Thai,Turkey,Vietnamese,Traditional Chinese                  
-	    showContextmenu:   means whether to show contextmenu on right click on a cell
-            loadingGif:  the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
-	for example the below code init a x_spreadsheet object.
+    options: the load options
+
+
+for example the below code init a gridjs_spreadsheet object.
 	xs = x_spreadsheet('#gridjs-demo', {
 			updateMode:'server',
 			updateUrl:'/GridJs2/UpdateCell',
@@ -43,6 +38,26 @@ xs = x_spreadsheet(id, options)
 			showContextmenu: true
 			})
 ```
+açık load seçenekleri parametreleri:
+
+| Parametre | Açıklama | Varsayılan Değer | İsteğe Bağlı |
+| --- | --- | --- | --- |
+| `allowSelectTextInTextBoxInReadMode` | Okuma modunda TextBox kontrollerinde metin seçimine izin verilip verilmediği. <br>Varsayılan değer false. | `false` | Evet |
+| `checkSyntax` | Kullanıcı girdisi için sözdizimi denetimi ve yazım düzeltmesi yapıp yapılmayacağı.<br>setSyntaxCheckUrl ile birlikte çalışır.<br>Varsayılan değer false. | `false` | Evet |
+| `loadingGif` | Resimler/şekiller yüklenirken gösterilecek GIF URL'si.<br>Varsayılan içerik/content/img/updating.gif. | `content/img/updating.gif` | Evet |
+| `local` | Menü ve araç çubukları için yerelleştirme bilgisi ayarlayın, çoklu dili destekler.<br>Olası değerler şunları içerir:<br>- `en, zh, es, pt, de, ru, nl` (İngilizce, Çince, İspanyolca, Portekizce, Almanca, Rusça, Hollandaca)<br>- `ar, fr, id, it, ja` (Arapça, Fransızca, Endonezce, İtalyanca, Japonca)<br>- `ko, th, tr, vi, cht` (Korece, Tayca, Türkçe, Vietnamca, Geleneksel Çince) | `en` | Evet |
+| `mode` | `read` veya `edit` olabilir; `read` sadece okunabilir tablolama anlamına gelir; `edit` tablolama düzenlenebilir. | Yok | Hayır |
+| `searchHighlightColor` | Arama terimi için vurgulama arka plan rengi.<br>Rengin şeffaflık için alfa kanalı içermesi gerekir. | `#dbe71338` | Evet |
+| `showCheckSyntaxButton` | Sözdizimi denetimi ve yazım düzeltme düğmelerini araç çubuğunda gösterip göstermeme.<br>Varsayılan değer false. | `false` | Evet |
+| `showContextmenu` | Bir hücreye sağ tıklanınca bağlam menüsünü gösterip göstermeme.<br>Varsayılan değer true. | `true` | Evet |
+| `showFileName` | Dosya adını gösterip göstermeme. | `true` | Evet |
+| `showFormulaExplain` | Fare hücre üzerinde hareket ettiğinde bu hücreye uygulanan formül açıklamalarını gösterip göstermeme.<br>setFormulaExplainUrl ile birlikte çalışır.<br>Varsayılan değer false. | `false` | Evet |
+| `showFormulaTip` | Bu hücreye uygulanan mevcut formülü fare üzerine getirildiğinde gösterip göstermeyeceği.<br>Varsayılan değer false'dir. | `false` | Evet |
+| `showNonEditableSymbolInCell` | Hücrede istemci tarafı düzenlenemeyen sembol gösterip göstermeyeceği.<br>True olarak ayarlandıysa, sağ tıklama menüsünden "Düzenlemeyi Devre Dışı Bırak" seçeneği tıklandıktan sonra, düzeni devre dışı bırakılan seçim alanında sembol gösterilir.<br>Varsayılan değer false'dir. | `false` | Evet |
+| `showToolbar` | Araç çubuğunu gösterip göstermeyeceği. | `true` | Evet |
+| `updateMode` | Şu anda yalnızca `server` desteklenmektedir. | `server` | Hayır |
+| `updateUrl` | JSON tabanlı güncelleme işlemleri için sunucu tarafı URL'sini ayarla. | Yok | Hayır |
+| `view` | Sayfa görüntü boyutunu ayarla, örneğin, `{width: () => 1000, height: ()=> 500}`. | `{width: () => document.documentElement.clientWidth, height: () => document.documentElement.clientHeight }` | Evet |
 
 - json verileri ile yükle
 ```javascript
@@ -69,6 +84,26 @@ xs.setActiveCell(row,col);
 // the parameters are:
 	row: the cell row
 	col: the cell column
+```
+
+- Birden fazla örneği etkinleştir. 
+```javascript
+xs.setActiveForMultipleInstance(isacitve);
+// the parameters are:
+	isacitve: whether need to do edit operation at this xs instanse 
+// when there are more than one GridJs instances in one page, we need to call this method.
+// we only support do edit operation for one instances at a page.
+// for example,if we have two instances: xs1 and xs2 in one html page.
+// if we need to keep edit operation in xs1,
+// we shall call:
+xs1.setActiveForMultipleInstance(true);
+xs2.setActiveForMultipleInstance(false);
+
+// if we need not do any edit operation for both,
+// we shall call:
+xs1.setActiveForMultipleInstance(false);
+xs2.setActiveForMultipleInstance(false);
+
 ```
 
 - sunucu taraflı eylem için şekil/resim işlemi için bilgi ayarla
@@ -110,6 +145,25 @@ xs.setOleDownloadInfo(oleActionUrl);
             const oleDownloadUrl = "/GridJs2/Ole";
             xs.setOleDownloadInfo(oleDownloadUrl);
 ```
+- Sunucu tarafı eylem için sözdizimi kontrolü ve yazım düzeltme işlemi hakkında bilgi ayarla.
+```javascript
+xs.setSyntaxCheckUrl(checkUrl);
+// the parameters are:
+	checkUrl: the  syntax checking & spell correction operation action URL in the server side controller
+    for example: 
+            const checkurl = "/GridJs2/CheckSyntax";
+            xs.setSyntaxCheckUrl(checkurl);
+```
+
+- Sunucu tarafı eylem için formül açıklaması hakkında bilgi ayarla.
+```javascript
+xs.setFormulaExplainUrl(formulaExplainUrl);
+// the parameters are:
+	formulaExplainUrl: the  formula explanation  action URL in the server side controller
+    for example: 
+            const formulaExplainUrl = "/GridJs2/FormulaExplain";
+            xs.setFormulaExplainUrl(formulaExplainUrl);
+```
 
 
 ___
@@ -138,6 +192,18 @@ xs.setFileName(name)
 	name:the file name with extension ,for example trip.xlsx
 ```
 
+- E-posta gönderme özelliği için geri çağrı işlevi.
+```javascript
+xs.setEmailSendCallFunction(callback)
+// the parameters is:
+	callback: the callback function to handle email sending, receives a mailObj parameter
+		callback: function(mailObj) {
+			// mailObj properties:
+			// mailObj.receiver: the email address of the receiver, e.g., 'example@gmail.com'
+			// mailObj.type: the format of the file to be sent, can be 'html', 'xlsx', or 'pdf'
+		}
+```
+
 - GridJs için pencere olayı etkinleştirilsin mi
 ```javascript
 xs.enableKeyEvent(isenable)
@@ -154,7 +220,8 @@ xs.destroy()
 
 -  Görüntü/şekil için görünür filtre ayarla
 ```javascript
-    // need to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
+xs.setVisibleFilter((sheet,s) =>{})
+    //  to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
 	sheet:the sheet instance
 	s:the image or shape instance
     for example: 
@@ -165,15 +232,37 @@ xs.destroy()
 	//this will make invisible for image/shape in all sheets 
 		xs.setVisibleFilter((sheet,s) => {  return false; })
 	//if all the image/shape is already loaded and you want to change the visible filter at runtime,you can call the below code to trigger a reload for image/shape
-		xs.setActiveSheet(xs.getActiveSheet())
+		xs.reRender()
 ```
 
 -  Seçili görüntü/şekli al, eğer bir şey seçilmediyse null dönecektir
 ```javascript
 xs.sheet.selector.getObj()
 ```
+- Belirtilen hücre konumunda HTML düğümünü göster veya gizle.
+```javascript
+xs.sheet.showHtmlAtCell(isShow, html, ri, ci, deltaX, deltaY)
 
--  Görüntü/şekil için seçilebilir durumu ayarla 
+    //the parameters are:
+    // - isShow: Boolean value indicating whether to show or hide the HTML content.
+    // - html: The HTML string to be displayed.
+    // - ri: Row index of the target cell.
+    // - ci: Column index of the target cell.
+    // - deltaX: (Optional) Relative X-position adjustment from the top-left corner of the cell.
+    // - deltaY: (Optional) Relative Y-position adjustment from the top-left corner of the cell.
+
+    // Example usage:
+    // Show HTML at cell A1
+    xs.sheet.showHtmlAtCell(true, "<span>html span</span><input length='30' id='myinput'>test</input>", 0, 0);
+
+    // Hide the HTML node
+    xs.sheet.showHtmlAtCell(false);
+
+    // Note: When an HTML node is shown, the default GridJS event handling is disabled to allow interaction with the HTML content.
+    // This means you cannot select any cells or perform edit operations until the HTML node is hidden.
+```
+
+- Resim/şekil için seçilebilir durumu ayarla. 
 ```javascript
 const shape=xs.sheet.selector.getObj();
 shape.setControlable(isenable)
@@ -328,8 +417,8 @@ xs.sheet.data.rows.sumHeight(min,max)
 xs.sheet.data.displayRight2Left
 ```
 
-## etkinlik geriçağrımı
--  Aşağıdaki etkinlikleri takip edebiliriz
+## Olay geri çağrısı
+- Aşağıdaki olayları takip edebiliriz
 ```javascript
  xs.on('cell-selected', (cell, ri, ci) => {
                 console.log('cell selected:', cell, ', ri:', ri, ', ci:', ci);
@@ -348,13 +437,42 @@ xs.sheet.data.displayRight2Left
             }).on('sheet-loaded', (id,name) => {
                 console.log('sheet load finished:', id, ', name: ',name);
             }).on('cell-edited', (text, ri, ci) => {
+	        //just edit the cell
                 console.log('text:', text, ', ri: ', ri, ', ci:', ci);
+            }).on('cells-updated', (name, cells) => {
+	       //cell value got updated
+                console.log('cells updated for sheet name:', name);
+                cells.forEach((acell, index, array) => {
+                console.log('acell got updated:', acell);
+            })
+            }).on('cells-deleted', (range) => {
+                console.log('cells deleted :', range);
+            }).on('rows-deleted', (ri, n) => {
+                console.log('rows-deleted :', ri, ",size", n);
+
+            }).on('columns-deleted', (ci, n) => {
+                console.log('columns-deleted :', ci, ",size", n);
+
+            }).on('rows-inserted', (ri, n) => {
+                console.log('rows-inserted :', ri, ",size", n);
+
+            }).on('columns-inserted', (ci, n) => {
+                console.log('columns-inserted :', ci, ",size", n);
+
             });
 ```
+- Ön kontrol olayı.
+  Eğer false dönerse, ekleme/silme işlemi devam etmez.
+```javascript
+  xs.checkRowInsert = (ri, size) => { if (ri % 2 == 1) return true; else return false; };
+  xs.checkColumnInsert = (ci, size) => { if (ci % 2 == 1) return true; else return false; };
+  xs.checkRowDelete = (ri, size) => { if (ri % 2 == 1) return true; else return false; };
+  xs.checkColumnDelete = (ci, size) => { if (ci % 2 == 1) return true; else return false; };
+```
 
-## özelleştirme
+## Özelleştirme
 
--  Ana sayfa simgesi ve bağlantısını ayarla
+- Ana simgeyi ve bağlantıyı ayarlayın
 ```javascript
 xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
     // the parameters are:
@@ -363,16 +481,51 @@ xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
 	for example ,the below code will set the new logo and with link to google.com
 	xs.sheet.menubar.icon.setHomeIcon('https://forum.aspose.com/letter_avatar_proxy/v4/letter/y/3e96dc/45.png','https://www.google.com')
 ```
--  Menü çubuğunu göster
+- Menü çubuğunu göster
 ```javascript
 xs.sheet.menubar.show()
 ```
 
--  Menü çubuğunu gizle
+- Menü çubuğunu gizle
 ```javascript
 xs.sheet.menubar.hide()
 ```
 
+
+## TextBox nesnesi için API'lar
+TextBox özel bir şekil türüdür ve tip özelliği: "TextBox",
+Örneğin: Aşağıdaki kod, hangi şeklin metin kutusu olduğunu gösterecektir
+
+```javascript
+for (let shape of xs.sheet.data.shapes) {
+    if (shape.type === 'TextBox') {
+        console.log(shape.id + ' is a textbox');
+    }
+}
+```
+
+- Metin kutusu nesnesi için arka plan rengini değiştir
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.setBackgroundColor('#FFFF00');
+```
+- Görsel etki elde etmek için arka plan rengini ve metin rengini otomatik olarak değiştir
+```javascript
+    setActiveEffect(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
+```
+
+- TextBox nesnesinde metin içeriğini gizle/göster
+```javascript
+    hideText(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
+```
 
 detaylı bilgi için buradaki örneği kontrol edebilirsiniz
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>

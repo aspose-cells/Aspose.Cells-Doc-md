@@ -28,3 +28,4 @@ Il seguente codice di esempio carica ilÂ [file Excel di esempio](64716841.xlsx)Â
 Worksheet is a Dialog Sheet.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

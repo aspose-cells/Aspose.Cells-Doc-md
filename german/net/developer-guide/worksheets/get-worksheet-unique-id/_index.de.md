@@ -14,3 +14,4 @@ Aspose.Cells bietet die Möglichkeit, die eindeutige ID eines Arbeitsblatts mit 
 ### Quellcode
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-GetWorksheetUniqueId-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

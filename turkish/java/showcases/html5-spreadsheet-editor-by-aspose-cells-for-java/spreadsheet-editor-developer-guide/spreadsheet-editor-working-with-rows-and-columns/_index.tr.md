@@ -372,3 +372,4 @@ Düzenleyici seçilen konumda yeni bir hücre ekleyecektir. Yeni bir hücre içi
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

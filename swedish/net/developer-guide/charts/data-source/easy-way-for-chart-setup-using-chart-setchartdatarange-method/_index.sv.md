@@ -16,3 +16,4 @@ Aspose.Cells tillhandahåller nu [**Chart.SetChartDataRange()**](https://referen
 Följande kodexempel förklarar användningen av [**Chart.SetChartDataRange()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange)-metoden för att enkelt ställa in diagram.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ChartSetupUsingSetChartDataRange-EasyWayToChartSetupUsingSetChartDataRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

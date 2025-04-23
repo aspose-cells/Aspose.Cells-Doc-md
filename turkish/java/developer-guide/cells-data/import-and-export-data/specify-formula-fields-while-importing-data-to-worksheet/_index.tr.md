@@ -18,3 +18,4 @@ Lütfen, çalışma sayfasına veri içeri aktarırken formül alanını belirtm
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Data-SpecifyFormulaFieldsWhileImportingDataToWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

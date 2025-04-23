@@ -17,7 +17,7 @@ Aspose.CellsにはほとんどすべてのMicrosoft Excel式を計算できる�
 
 {{% /alert %}} 
 ## **カスタム計算エンジンの実装**
-以下のコードは、カスタム計算エンジンの実装を示しています。それは[AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) インタフェースを実装し、ただ1つの[calculate(CalculationData data)](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationengine#calculate\(com.aspose.cells.CalculationData\)) メソッドを持っています。このメソッドはすべての式に対して呼び出されます。このメソッド内で、**TODAY**関数を捕捉し、システム日付に1日加えます。したがって、現在の日付が2023年07月27日の場合、カスタムエンジンはTODAY()を2023年07月28日として計算します。
+以下のコードは、カスタム計算エンジンを実装しています。インターフェース [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) を実装し、その中のメソッド [calculate(CalculationData data)](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationengine#calculate-com.aspose.cells.CalculationData-) を呼び出しています。このメソッドは、すべての数式に対して呼び出され、**TODAY**関数をキャプチャし、システム日付に1日加算します。つまり、現在の日付が 27/07/2023 の場合、カスタムエンジンは TODAY() を 28/07/2023 と計算します。
 
 ### **プログラミングサンプル**
 
@@ -33,3 +33,4 @@ Aspose.CellsにはほとんどすべてのMicrosoft Excel式を計算できる�
 - [ワークシートに書き込まずにカスタム機能を直接計算する](/cells/ja/java/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

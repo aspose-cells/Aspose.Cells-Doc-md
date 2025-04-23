@@ -20,3 +20,4 @@ url: /ar/net/convert-xls-file-with-images-or-charts-to-pdf/
 إذا كان الجدول الزمني يحتوي على صيغ، فمن الأفضل استدعاء طريقة [Workbook.CalculateFormula](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) مباشرة قبل التقديم إلى PDF. يضمن ذلك إعادة حساب القيم المعتمدة على الصيغ، وتقديم القيم الصحيحة في PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

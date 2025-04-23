@@ -24,3 +24,4 @@ Aspose.Cells предоставляет метод [**PivotTable.GetCellByDispla
 |**СводнаяТаблица - После**|
 | :- |
 |![todo:image_alt_text](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_2.png)|
+{{< app/cells/assistant language="csharp" >}}

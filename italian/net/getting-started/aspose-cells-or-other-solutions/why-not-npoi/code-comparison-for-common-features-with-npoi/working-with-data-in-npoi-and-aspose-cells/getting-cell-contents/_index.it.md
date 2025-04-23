@@ -125,3 +125,4 @@ Scarica **Ottenere Contenuti della Cella** da uno dei siti di codice sociale men
 Per ulteriori dettagli, visita [Caratteristiche di Gestione Dati](/cells/it/net/caratteristiche-di-gestione-dati-in-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

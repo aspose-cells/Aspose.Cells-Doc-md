@@ -321,3 +321,4 @@ m_workbook.Save("output.xlsx")
 Пожалуйста, ознакомьтесь с статьей [Копирование мерцания, указав диапазон данных и местоположение группы мерцания](http://aspose.com/docs/display/cellsnet/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group) для получения более подробной информации.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

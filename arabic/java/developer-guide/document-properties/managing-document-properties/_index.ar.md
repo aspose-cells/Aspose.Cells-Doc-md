@@ -80,13 +80,13 @@ url: /ar/java/managing-document-properties/
 
 ### **إضافة الخصائص المخصصة**
 
-قدمت واجهات برمجة التطبيقات الخاصة بـ Aspose.Cells الطريقة [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean)) لفئة [**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection) من أجل إضافة خصائص مخصصة إلى المجموعة. تقوم الطريقة [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean)) بإضافة الخاصية إلى ملف Excel وتُرجع مرجعًا لخاصية المستند الجديدة ككائن [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty).
+قدمت واجهات برمجة التطبيقات الخاصة بـ Aspose.Cells الطريقة [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add-java.lang.String-boolean-) لفئة [**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection) من أجل إضافة خصائص مخصصة إلى المجموعة. تقوم الطريقة [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add-java.lang.String-boolean-) بإضافة الخاصية إلى ملف Excel وتُرجع مرجعًا لخاصية المستند الجديدة ككائن [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AddingCustomProperty.java" >}}
 
 ### **تكوين خاصية مخصصة "ربط بالمحتوى"**
 
-لإنشاء خاصية مخصصة مرتبطة بمحتوى نطاق محدد ، اتصل بالطريقة [**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String)) وقم بتمرير اسم الخاصية والمصدر. يمكنك التحقق مما إذا كانت الخاصية مكونة كمرتبطة بالمحتوى باستخدام الخاصية [**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent). علاوة على ذلك ، من الممكن أيضًا الحصول على نطاق المصدر باستخدام الخاصية [**Source**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) من فئة [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty).
+لإنشاء خاصية مخصصة مرتبطة بمحتوى نطاق محدد ، اتصل بالطريقة [**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent-java.lang.String-java.lang.String-) وقم بتمرير اسم الخاصية والمصدر. يمكنك التحقق مما إذا كانت الخاصية مكونة كمرتبطة بالمحتوى باستخدام الخاصية [**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent). علاوة على ذلك ، من الممكن أيضًا الحصول على نطاق المصدر باستخدام الخاصية [**Source**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) من فئة [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty).
 
 نحن نستخدم ملف نموذجي بسيط لبرنامج Microsoft Excel في المثال. يحتوي دفتر العمل على نطاق مسمى محدد يحمل التسمية **MyRange** والذي يشير إلى قيمة الخلية.
 
@@ -94,6 +94,7 @@ url: /ar/java/managing-document-properties/
 
 ### **إزالة الخصائص المخصصة**
 
-لإزالة الخصائص المخصصة باستخدام Aspose.Cells، قم بالاتصال بالطريقة [**DocumentPropertyCollection.remove**](https://reference.aspose.com/cells/java/com.aspose.cells/documentpropertycollection#remove(java.lang.String)) وقم بتمرير اسم خاصية المستند التي تريد إزالتها.
+لإزالة الخصائص المخصصة باستخدام Aspose.Cells، قم بالاتصال بالطريقة [**DocumentPropertyCollection.remove**](https://reference.aspose.com/cells/java/com.aspose.cells/documentpropertycollection#remove-java.lang.String-) وقم بتمرير اسم خاصية المستند التي تريد إزالتها.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-RemovingCustomProperty.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -45,3 +45,4 @@ Scarica **Stampa dei workbook** da uno qualsiasi dei seguenti siti di codice soc
 Per ulteriori dettagli, visita [Stampa dei workbook](/cells/it/net/printing-workbooks/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

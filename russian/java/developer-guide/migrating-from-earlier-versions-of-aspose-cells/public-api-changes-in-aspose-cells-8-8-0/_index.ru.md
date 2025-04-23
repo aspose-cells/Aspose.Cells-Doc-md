@@ -214,3 +214,4 @@ System.out.println("A2 has a quote prefix: " + s2.getQuotePrefix());
 ## **Устаревшие API**
 ### **Устаревшее свойство LoadOptions.ConvertNumericData**
 Aspose.Cells 8.8.0 пометило свойство LoadOptions.ConvertNumericData как устаревшее. Пожалуйста, используйте соответствующее свойство из классов HTMLLoadOptions или TxtLoadOptions.
+{{< app/cells/assistant language="java" >}}

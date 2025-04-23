@@ -16,3 +16,4 @@ Aspose.Cellsは、今やgやge.mm.ddなどのカスタム日付形式パター�
 以下のサンプルコードは、gやge.mm.ddなどのカスタム形式パターンを含む[source excel file](5112361.xlsx)を変換し、[output PDF](5112360.pdf)に変換します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-RenderCustomDateFormat-RenderCustomDateFormatPatterngandgemmdd.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

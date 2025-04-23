@@ -7,7 +7,7 @@ url: /it/java/adding-vba-module-and-code-using-aspose-cells/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells ti consente di aggiungere un nuovo Modulo VBA e Codice Macro utilizzando Aspose.Cells. Si prega di utilizzare il metodo [**Workbook.getVbaProject().getModules().add(**)](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#add(com.aspose.cells.Worksheet)) per aggiungere il nuovo Modulo VBA all'interno del workbook
+Aspose.Cells consente di aggiungere un nuovo modulo VBA e codice macro utilizzando Aspose.Cells. Si prega di usare il metodo [**Workbook.getVbaProject().getModules().add(**)](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#add-com.aspose.cells.Worksheet-) per aggiungere il nuovo modulo VBA nel workbook.
 
 {{% /alert %}}
 
@@ -30,3 +30,4 @@ End Sub
 Ecco un codice di esempio per generare il file XLSM di output con Modulo VBA e Codice Macro.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddVBAModuleAndCode-AddVBAModuleAndCode.java" >}}
+{{< app/cells/assistant language="java" >}}

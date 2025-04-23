@@ -381,3 +381,4 @@ L'exemple suivant montre comment ajouter une zone de groupe et regrouper les con
 - [Ajouter des contrôles ActiveX à l'aide de Aspose.Cells](/cells/fr/net/add-activex-controls-using-aspose-cells/)
 - [Supprimer le contrôle ActiveX](/cells/fr/net/remove-activex-control/)
 - [Mise à jour du contrôle ComboBox ActiveX](/cells/fr/net/update-activex-combobox-control/)
+{{< app/cells/assistant language="csharp" >}}

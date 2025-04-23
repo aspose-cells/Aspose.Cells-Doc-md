@@ -18,7 +18,7 @@ Aspose.Cellsは、Microsoft Excelファイルを表す[Workbook](https://referen
 
 [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションには、ワークシート内の行または列を管理するための複数のメソッドが提供されています。これについての詳細は、以下でさらに説明します。
 ### **行と列のグループ化**
-[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションを使用して、[groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows\(int,%20int,%20boolean\)) および[groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns\(int,%20int,%20boolean\)) メソッドを呼び出すことで、行または列をグループ化することが可能です。両メソッドは以下のパラメータを取ります:
+[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションの [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows-int-int-boolean-) と [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns-int-int-boolean-) メソッドを呼び出すことで、行または列をグループ化できます。両方のメソッドは次のパラメータを取ります：
 
 - 最初の行/列インデックス、グループ内の最初の行または列
  - グループ内の最後の行/列のインデックス、最後の行または列。
@@ -51,7 +51,7 @@ WorksheetクラスのOutlineプロパティを使用して、これらのグル�
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowRight-1.java" >}}
 ### **行と列のグループ解除**
-グループ化された行または列を[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクションの[UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows\(int,%20int\))および[UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns\(int,%20int\))メソッドを呼び出すことで解除することができます。両方のメソッドは同じパラメータを使用します:
+グループ化された行や列を解除するには、[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションの [UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows-int-int-) と [UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns-int-int-) メソッドを呼び出します。両方のメソッドは同じパラメータを取ります：
 
 - 最初の行または列のインデックス、グループ化を解除する最初の行/列。
 - 最後の行または列のインデックス、グループ化を解除する最後の行/列。
@@ -59,3 +59,4 @@ WorksheetクラスのOutlineプロパティを使用して、これらのグル�
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-UngroupingRowsandColumns-UngroupingRowsandColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

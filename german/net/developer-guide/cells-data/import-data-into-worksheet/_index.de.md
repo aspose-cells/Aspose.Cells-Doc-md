@@ -145,3 +145,4 @@ Der unten stehende Beispielcode demonstriert die Verwendung der Klassen [**Json
 ## **Erweiterte Themen**
 - [Formelfelder beim Import von Daten in ein Arbeitsblatt angeben](/cells/de/net/specify-formula-fields-while-importing-data-to-worksheet/)
 - [Erste Zeile nach unten verschieben beim Einfügen von Zellen-Datentabellenzeilen](/cells/de/net/shift-first-row-down-when-inserting-cells-data-table-rows/)
+{{< app/cells/assistant language="csharp" >}}

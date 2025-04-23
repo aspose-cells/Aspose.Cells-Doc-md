@@ -19,3 +19,4 @@ url: /ja/java/creating-treemap-chart/
 下記のサンプルコードは、[サンプルExcelファイル](treemap.xlsx)を読み込み、[出力Excelファイル](out.xlsx)を生成します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "create-treemap-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

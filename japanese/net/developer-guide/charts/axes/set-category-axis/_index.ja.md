@@ -24,3 +24,4 @@ url: /ja/net/how-to-set-category-axis/
 
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "chart-CategoryAxis-settings.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

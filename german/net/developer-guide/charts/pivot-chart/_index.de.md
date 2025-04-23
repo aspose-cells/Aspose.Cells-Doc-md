@@ -9,22 +9,22 @@ keywords: PivotChart
 ---
 ## Was ist ein PivotChart
 
-Ein Pivot-Diagramm ist eine visuelle Darstellung der Daten in einer Pivot-Tabelle. Pivot-Diagramme bieten eine Möglichkeit, Zusammenfassungen zu analysieren, zu erkunden und zu präsentieren. Hier sind einige wichtige Funktionen und Aspekte von Pivot-Diagrammen:
+Ein Pivot-Chart ist eine visuelle Darstellung der Daten in einer Pivot-Tabelle. Pivot-Charts bieten eine Möglichkeit, Zusammenfassungen zu erstellen, zu analysieren, zu erkunden und präsentabel zu machen. Hier sind einige wichtige Funktionen und Aspekte von Pivot-Charts:
 
-1. Dynamische Datenwiedergabe: Pivot-Diagramme aktualisieren sich automatisch bei Änderungen in der Pivot-Tabelle. Wenn Sie Felder hinzufügen oder entfernen, aktualisiert sich das Pivot-Diagramm entsprechend.
+1. Dynamische Datenrepräsentation: Pivot-Charts aktualisieren sich automatisch, um Änderungen an der Pivot-Tabelle widerzuspiegeln. Wenn Felder in der Pivot-Tabelle hinzugefügt oder entfernt werden, wird das Pivot-Chart entsprechend aktualisiert.
 
-1. Interaktiv: Pivot-Diagramme sind interaktiv und ermöglichen es den Benutzern, Daten zu filtern, zu sortieren und in die Daten einzutauchen. Dies erleichtert die Erkundung verschiedener Aspekte des Datensatzes.
+1. Interaktiv: Pivot-Charts sind interaktiv, ermöglichen es Benutzern, Daten zu filtern, zu sortieren und zu vertiefen. Dadurch ist es einfach, verschiedene Aspekte des Datensatzes zu erkunden.
 
-1. Flexible Layout: Benutzer können das Layout des Pivot-Diagramms ändern, indem sie Felder ziehen und ablegen, was Flexibilität in der Visualisierung der Daten bietet.
+1. Flexibles Layout: Benutzer können das Layout des Pivot-Diagrams durch Ziehen und Ablegen von Feldern ändern, was Flexibilität bei der Visualisierung von Daten bietet.
 
-1. Verschiedene Diagrammtypen: Pivot-Diagramme können mit verschiedenen Diagrammtypen wie Balkendiagrammen, Liniendiagrammen, Kreisdiagrammen und mehr erstellt werden, abhängig von der Art der Daten und den Einblicken, die Sie gewinnen möchten.
+1. Verschiedene Diagrammtypen: Pivot-Diagramme können mit verschiedenen Diagrammtypen wie Säulendiagrammen, Liniendiagrammen, Kreisdiagrammen und mehr erstellt werden, je nach Art der Daten und den gewünschten Erkenntnissen.
 
-1. Zusammenfassung: Pivot-Diagramme fassen große Datenmengen zusammen und können Summen, Durchschnitte, Zählungen oder andere Zusammenfassungsstatistiken anzeigen.
+1. Zusammenfassung: Pivot-Diagramme fassen große Datenmengen zusammen und können Summen, Durchschnitte, Zählen oder andere Zusammenfassungsstatistiken anzeigen.
 
-1. Filterung: Sie bieten Filtermöglichkeiten, mit denen Sie nur die Daten anzeigen können, die bestimmte Kriterien erfüllen.
+1. Filtern: Sie bieten Filterfunktionen, mit denen nur Daten angezeigt werden, die bestimmte Kriterien erfüllen.
 
 <br>
-Pivot-Diagramme werden häufig in der Business Intelligence und Datenanalyse eingesetzt, um eine klare und prägnante visuelle Zusammenfassung komplexer Datensätze zu bieten. Sie sind ein leistungsstolles Werkzeug für datenbasierte Entscheidungen.
+Pivot-Diagramme werden häufig in Business Intelligence und Datenanalyse verwendet, um eine klare und prägnante visuelle Zusammenfassung komplexer Datensätze zu bieten. Sie sind ein mächtiges Werkzeug, um datengetriebene Entscheidungen zu treffen.
 
 ## So fügen Sie ein PivotChart mit Aspose.Cells hinzu
 
@@ -50,3 +50,4 @@ Um ein PivotChart mit Aspose.Cells zu erstellen:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreatePivotTablesPivotCharts-CreatePivotChart-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

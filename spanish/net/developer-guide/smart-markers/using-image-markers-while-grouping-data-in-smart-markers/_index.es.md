@@ -23,3 +23,4 @@ Luego llena la fuente de datos con datos y llama al método [WorkbookDesigner.Pr
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingImageMarkersWhileGroupingDataInSmartMarkers-UsingImageMarkersWhileGroupingDataInSmartMarkers.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

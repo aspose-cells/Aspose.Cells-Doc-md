@@ -38,3 +38,4 @@ Brazil
 England
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

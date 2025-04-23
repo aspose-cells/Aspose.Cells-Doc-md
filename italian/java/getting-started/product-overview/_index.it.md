@@ -105,3 +105,4 @@ Di seguito alcuni dei testimoni dei clienti di Aspose.Cells.
 
 **Si prega di controllare:** 
 [Forum di Aspose.Cells - Testimonianze](https://downloads.aspose.com/corporate/success-stories/aspose.cells/)
+{{< app/cells/assistant language="java" >}}

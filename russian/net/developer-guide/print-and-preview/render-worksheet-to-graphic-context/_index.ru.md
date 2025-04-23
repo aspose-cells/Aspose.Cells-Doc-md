@@ -17,3 +17,4 @@ url: /ru/net/render-worksheet-to-graphic-context/
 Следующий код показывает, как использовать Aspose.Cells для воспроизведения рабочего листа в графическом контексте. После выполнения кода он напечатает весь рабочий лист и заполнит оставшееся пустое место синим цветом в графическом контексте и сохранит изображение как файл **OutputImage_out_.png**. Вы можете использовать любой исходный файл Excel для проверки этого кода. Пожалуйста, также прочитайте комментарии внутри кода для лучшего понимания.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-RenderWorksheetToGraphicContext-RenderWorksheetToGraphicContext.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

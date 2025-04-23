@@ -18,3 +18,4 @@ Bitte beachten Sie den folgenden Beispielcode, der erklärt, wie das Formelfeld 
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Data-SpecifyFormulaFieldsWhileImportingDataToWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

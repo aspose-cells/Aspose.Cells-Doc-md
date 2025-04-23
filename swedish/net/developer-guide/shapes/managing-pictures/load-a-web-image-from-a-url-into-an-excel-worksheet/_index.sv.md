@@ -20,3 +20,4 @@ Aspose.Cells for .NET API ger ett enkelt och enkelt sätt att ladda bilder från
 Det kan finnas fall där du alltid vill ha den uppdaterade bilden från en URL. För att uppnå detta kan du följa instruktionerna som ges i [Infoga en länkad bild från webbadress](/cells/sv/net/insert-a-linked-picture-from-web-address/) artikel. Genom att följa den här metoden laddas bilden från URL: en varje gång kalkylbladet öppnas.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

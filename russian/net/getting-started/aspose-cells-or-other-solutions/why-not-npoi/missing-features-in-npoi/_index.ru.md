@@ -27,3 +27,4 @@ url: /ru/net/missing-features-in-npoi/
   - [Установка цвета вкладки рабочего листа в Aspose.Cells](/cells/ru/net/set-worksheet-tab-color-in-aspose-cells/)
 
 **Примечание:** Больше примеров скоро будут доступны.
+{{< app/cells/assistant language="csharp" >}}

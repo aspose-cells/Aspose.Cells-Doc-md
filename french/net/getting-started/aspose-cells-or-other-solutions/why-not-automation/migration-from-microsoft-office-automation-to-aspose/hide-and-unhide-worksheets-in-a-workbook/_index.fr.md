@@ -189,3 +189,4 @@ objSheet.Visible = Excel.XlSheetVisibility.xlSheetVisible;
 objSheet.IsVisible = true;
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

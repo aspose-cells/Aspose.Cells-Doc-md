@@ -48,3 +48,4 @@ Il frammento di codice sopra utilizza l'istanza esistente della classe [**Workbo
 Una volta che i dati sono in posizione, tutto ciò di cui abbiamo bisogno è creare un grafico basato sulla fonte di dati. Per mantenere l'esempio semplice, useremo il metodo [**Chart.SetChartDataRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange) in modo da non dover configurare ulteriormente il grafico.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-CreationOfChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

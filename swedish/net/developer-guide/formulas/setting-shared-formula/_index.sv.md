@@ -30,3 +30,4 @@ Ett annat tillvägagångssätt är att använda en **delad formel**. Med en dela
 Följande exempel visar hur du använder den.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-SettingSharedFormula-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

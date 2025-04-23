@@ -24,3 +24,4 @@ Aspose.Cells允许您检查Excel文件的VBA（Visual Basic for Applications）�
 Is VBA Project Locked for Viewing: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

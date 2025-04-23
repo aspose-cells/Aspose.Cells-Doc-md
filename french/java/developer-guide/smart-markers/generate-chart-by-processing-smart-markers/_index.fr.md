@@ -144,3 +144,4 @@ Une fois les données en place, tout ce que nous avons à faire est de créer un
 Le graphique final ressemble à ceci.
 
 ![todo:image_alt_text](generate-chart-by-processing-smart-markers_3.png)
+{{< app/cells/assistant language="java" >}}

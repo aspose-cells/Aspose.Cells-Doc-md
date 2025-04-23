@@ -161,3 +161,4 @@ workbook.save(output);
 Aspose.Cells for Java 8.4.2のリリース以降、列挙型フィールドPasteType.ALLは、セルの範囲を貼り付ける際の動作が、Excelの「全て」機能とは異なるように変更されました。現在、PasteType.ALLは、列の幅も目的の範囲にコピーする点がExcelの「全て」機能とは異なります。Excelの「全て」の動作を模倣するためには、PasteType.DEFAULTを使用してください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

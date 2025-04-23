@@ -20,3 +20,4 @@ Der folgende Beispiellcode setzt die Formel der Zellen C1 und E1 und fügt sie b
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Formulas-AddCellsToMicrosoftExcelFormulaWatchWindow.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

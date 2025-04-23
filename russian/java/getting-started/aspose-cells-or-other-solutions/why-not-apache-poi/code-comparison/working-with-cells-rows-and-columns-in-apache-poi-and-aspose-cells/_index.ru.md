@@ -16,3 +16,4 @@ url: /ru/java/working-with-cells-rows-and-columns-in-apache-poi-and-aspose-cells
 - [Закрепление областей в Apache POI и Aspose.Cells](/cells/ru/java/freeze-panes-in-apache-poi-and-aspose-cells/)
 - [Создание ячейки с датой в Apache POI и Aspose.Cells](/cells/ru/java/create-date-cell-in-apache-poi-and-aspose-cells/)
 - [Создание различных типов ячеек в Apache POI и Aspose.Cells](/cells/ru/java/create-different-cell-types-in-apache-poi-and-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

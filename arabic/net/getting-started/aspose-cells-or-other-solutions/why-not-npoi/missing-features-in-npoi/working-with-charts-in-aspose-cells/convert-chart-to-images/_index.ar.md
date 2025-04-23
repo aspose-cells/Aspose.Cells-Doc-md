@@ -74,3 +74,4 @@ chart.ToImage("AsposeChartImage.png", ImageFormat.Png);
 لمزيد من التفاصيل، قم بزيارة [تحويل الرسم البياني إلى صورة](/cells/ar/net/converting-chart-to-image-in-svg-format/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

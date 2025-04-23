@@ -311,3 +311,4 @@ Bir Akıştan Lisans Yükleme
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

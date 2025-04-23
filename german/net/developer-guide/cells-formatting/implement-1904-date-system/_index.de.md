@@ -27,3 +27,4 @@ Sehen Sie sich den folgenden Beispielcode an, wie Sie dies mit Aspose.Cells-APIs
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-Implement1904DateSystem-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

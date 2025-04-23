@@ -20,3 +20,4 @@ El siguiente código de muestra explica cómo utilizar el método [**DataSorter.
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SortDataInColumnWithCustomSortList.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

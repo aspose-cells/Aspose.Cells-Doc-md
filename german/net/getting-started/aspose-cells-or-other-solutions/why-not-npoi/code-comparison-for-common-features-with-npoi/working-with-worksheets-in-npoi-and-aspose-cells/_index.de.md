@@ -18,3 +18,4 @@ Dieser Abschnitt hat folgende Themen:
 - [Zellen in Arbeitsblatt teilen](/cells/de/net/split-cells-in-worksheet/)
 - [Arbeiten mit Fixierungsfeldern](/cells/de/net/working-with-freeze-panes/)
 - [Arbeiten mit Kopf- und Fußzeilen](/cells/de/net/working-with-headers-and-footers/)
+{{< app/cells/assistant language="csharp" >}}

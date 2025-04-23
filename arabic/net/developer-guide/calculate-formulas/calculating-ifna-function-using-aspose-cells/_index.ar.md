@@ -28,3 +28,4 @@ url: /ar/net/calculating-ifna-function-using-aspose-cells/
 Orange
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

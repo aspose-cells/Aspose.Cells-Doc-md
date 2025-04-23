@@ -57,3 +57,4 @@ Um einen bestimmten Seitenumbruch zu entfernen, rufen Sie die Methoden [**Horizo
 ## **Wichtig zu wissen**
 
 Wenn Sie **Passend für Seiten**-Eigenschaften festlegen (d. h. [**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) und [**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)) in den Seiteneinrichtungseinstellungen, werden die Seitenumbrucheinstellungen beeinflusst. Daher werden die Seitenumbrucheinstellungen beim Drucken des Arbeitsblatts nicht berücksichtigt, obwohl sie immer noch eingestellt sind.
+{{< app/cells/assistant language="csharp" >}}

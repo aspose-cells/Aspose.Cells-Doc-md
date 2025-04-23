@@ -22,3 +22,4 @@ Aspose.Cells предоставляет класс [**AbstractCalculationEngine*
 Теперь используйте указанную выше функцию в своей программе.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ReturningRangeOfValues-1.java" >}}
+{{< app/cells/assistant language="java" >}}

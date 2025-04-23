@@ -32,3 +32,4 @@ Excelページの表示を調整する必要がある場合、水平および垂
 <br>
 <image src="result.png" width="70%" />
 
+{{< app/cells/assistant language="csharp" >}}

@@ -134,3 +134,4 @@ Descargar **Establecer Área de Impresión** de cualquiera de los sitios de codi
 Para más detalles, visite [Configuración de opciones de impresión](/cells/es/net/setting-print-options/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

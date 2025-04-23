@@ -11,7 +11,7 @@ Wenn Sie ein neues Blatt zu einer Arbeitsmappe hinzufügen, enthält es die Stan
 
 ## **Seiteneinrichtungseinstellungen von der Quellarbeitsmappe in die Zieltabelle kopieren**
 
-Der folgende Beispielcode veranschaulicht, wie Sie die Seiteneinrichtungseinstellungen von einem Arbeitsblatt auf ein anderes mithilfe der Methode [**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy(com.aspose.cells.PageSetup,%20com.aspose.cells.CopyOptions)) kopieren. Bitte beachten Sie den folgenden Beispielcode und dessen Konsolenausgabe als Referenz.
+Der folgende Beispielcode veranschaulicht, wie Sie die Seiteneinrichtungseinstellungen von einem Arbeitsblatt auf ein anderes mithilfe der Methode [**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy-com.aspose.cells.PageSetup-com.aspose.cells.CopyOptions-) kopieren. Bitte beachten Sie den folgenden Beispielcode und dessen Konsolenausgabe als Referenz.
 
 ## **Beispielcode**
 
@@ -30,3 +30,4 @@ After Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 After Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

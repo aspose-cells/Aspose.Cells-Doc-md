@@ -15,7 +15,7 @@ keywords: 複数のワークシートを単一のワークシートに結合す�
 
 ## **ワークシートを結合する方法**
 
-以下のサンプルは、[**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range))メソッドを使用してすべてのソースワークシートを宛先ブック内の単一シートにコピーします。
+以下のサンプルは、[**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy-com.aspose.cells.Range-)メソッドを使用してすべてのソースワークシートを宛先ブック内の単一シートにコピーします。
 
 ### **ソースワークブック**
 
@@ -59,3 +59,4 @@ keywords: 複数のワークシートを単一のワークシートに結合す�
 [1つのワークブックに複数のワークブックを結合](/cells/ja/java/combine-multiple-workbooks-into-a-single-workbook/)」記事でより詳しい情報を得るために役立つかもしれません。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

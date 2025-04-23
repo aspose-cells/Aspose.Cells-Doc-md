@@ -34,3 +34,4 @@ Proteggere l'autenticità del contenuto di un documento, è possibile aggiungere
 - [Rilevare il formato del file di Office Open XML crittografato - file OOXML](/cells/it/net/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Crittografare i file Excel](/cells/it/net/encrypting-excel-files/)
 - [Come rilevare un formato di file e verificare se il file è crittografato](/cells/it/net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="csharp" >}}

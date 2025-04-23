@@ -20,3 +20,4 @@ url: /ar/java/excel-to-html-use-presentationpreference-option-for-better-layout/
 - [تعطيل كشف التعليقات عند الاستخدام التسلسلي لأسفل عند الحفظ في HTML](/cells/ar/java/disable-downlevel-revealed-comments-while-saving-to-html/)
 - [تصدير خصائص المصنف والصفحة العمل في Excel إلى تحويل HTML](/cells/ar/java/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/)
 - [تصدير نطاق المنطقة المطبوعة إلى HTML](/cells/ar/java/export-print-area-range-to-html/)
+{{< app/cells/assistant language="java" >}}

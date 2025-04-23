@@ -16,3 +16,4 @@ A volte è necessario generare immagini delle barre di dati formattate condizion
 Il seguente codice di esempio genera l'immagine DataBar della cella C1. Prima, accede all'oggetto della condizione di formato della cella, e poi da quell'oggetto, accede all'oggetto [**DataBar**](https://reference.aspose.com/cells/net/aspose.cells/databar) e utilizza il suo metodo [**ToImage()**](https://reference.aspose.com/cells/net/aspose.cells/databar/methods/toimage) per generare l'immagine della cella. Infine, salva l'immagine sul disco.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageConditionalFormatting-GenerateDatabarImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

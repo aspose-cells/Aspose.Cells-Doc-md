@@ -14,3 +14,4 @@ Aspose.Cells'ı kullanarak çalışma sayfasını veya şekli istenen genişlik 
 Aşağıdaki kod çalışma sayfasını 400x400 boyutunda bir görüntüye dışa aktarır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-WorksheetToImageDesiredSize-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

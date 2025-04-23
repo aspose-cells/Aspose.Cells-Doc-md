@@ -56,3 +56,4 @@ Ci-dessous se trouve l'exemple de code de comparaison pour VSTO et Aspose.Cells.
 {{< /highlight >}}
 ## **Télécharger
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/SortDataInWorksheets.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

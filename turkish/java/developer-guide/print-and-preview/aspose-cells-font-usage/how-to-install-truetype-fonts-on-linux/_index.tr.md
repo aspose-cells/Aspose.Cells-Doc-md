@@ -102,3 +102,4 @@ Yukarıda verilen talimatlar, aşağıdaki font ailelerini içeren Microsoft TTF
 Ubuntu'da, Synaptic Paket Yöneticisine gidin. **ttf-mscorefonts-installer** paketini bulun ve yükleyin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

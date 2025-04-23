@@ -16,3 +16,4 @@ Aspose.Cells позволяет экспортировать цифровой с
 Пожалуйста, ознакомьтесь с приведенным ниже образцом кода, который сохраняет сырые данные сертификата VBA в файл. Вы можете загрузить [образец excel файла, используемого в этом коде](5115031.xlsm) по предоставленной ссылке.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-ExportVBACertificateToFile-ExportVBACertificateToFile.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

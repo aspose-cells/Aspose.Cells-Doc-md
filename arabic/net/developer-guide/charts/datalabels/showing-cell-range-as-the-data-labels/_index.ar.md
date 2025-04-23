@@ -24,3 +24,4 @@ url: /ar/net/showing-cell-range-as-the-data-labels/
 الشفرة التالية تصل إلى بيانات تسميات سلسلة الرسم البياني وتحدد الخاصية [**DataLabels.ShowCellRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/showcellrange) إلى **true** لتحديد الخيار **التسمية تحتوي - القيمة من الخلايا**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ShowCellRangeAsDataLabels-ShowCellRangeAsDataLabels.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

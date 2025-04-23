@@ -21,10 +21,11 @@ Aspose.Cells APIを使用してタスクを実行する方法を説明する以�
 
 {{% alert color="primary" %}}
 
-出力PDFのサイズを最小限に抑えるために[**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int))オプションを使用すると、画像の品質に若干影響を与える可能性があります。
+出力PDFのサイズを最小限に抑えるために[**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample-int-int-)オプションを使用すると、画像の品質に若干影響を与える可能性があります。
 
 {{% /alert %}} {{% alert color="primary" %}}
 
 スプレッドシートに数式が含まれている場合、PDF形式に変換する直前に [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) を呼び出すことが最善です。これにより、数式に依存する値が再計算され、PDFで正しい値がレンダリングされます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

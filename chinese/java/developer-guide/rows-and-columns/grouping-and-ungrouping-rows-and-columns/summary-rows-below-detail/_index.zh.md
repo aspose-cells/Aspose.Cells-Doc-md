@@ -9,7 +9,7 @@ url: /zh/java/applying-subtotal-and-changing-direction-of-outline-summary-rows-b
 
 本文将解释如何对数据应用小计并更改大纲摘要行下面的方向。
 
-你可以使用[**Worksheet.Cells.subtotal()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal(com.aspose.cells.CellArea,%20int,%20int,%20int[]))方法对数据应用小计。它接受以下参数。
+你可以使用[**Worksheet.Cells.subtotal()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal-com.aspose.cells.CellArea-int-int-int[]-)方法对数据应用小计。它接受以下参数。
 
 - **单元格区域** - 应用小计的范围
 - **按组** - 按零为基础的整数偏移量分组
@@ -42,3 +42,4 @@ url: /zh/java/applying-subtotal-and-changing-direction-of-outline-summary-rows-b
 以下是实现上述输出的示例代码。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ApplyingSubtotal-1.java" >}}
+{{< app/cells/assistant language="java" >}}

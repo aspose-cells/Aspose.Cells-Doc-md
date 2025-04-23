@@ -35,3 +35,4 @@ Esta sección tiene los siguientes temas:
   - [Usar tipos anónimos u objetos personalizados](/cells/es/net/using-anonymous-types-or-custom-objects/)
   - [Usar objetos anidados](/cells/es/net/using-nested-objects/)
 - [Rastrear precedentes y dependientes en Aspose.Cells](/cells/es/net/tracing-precedents-and-dependents-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

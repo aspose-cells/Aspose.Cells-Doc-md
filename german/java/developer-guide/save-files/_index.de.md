@@ -14,7 +14,7 @@ url: /de/java/saving-excel-files-to-csv-pdf-and-other-formats/
 
 ## **Verschiedene Möglichkeiten, Ihre Dateien zu speichern**
 
-Aspose.Cells API bietet eine Klasse namens [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), die eine Excel-Datei darstellt und alle erforderlichen Eigenschaften und Methoden für Entwickler bereitstellt, um mit ihren Excel-Dateien zu arbeiten. Die Klasse [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) bietet eine [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))-Methode zur Speicherung von Excel-Dateien. Die Methode [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) hat viele Überladungen, die verwendet werden, um Excel-Dateien auf verschiedene Arten zu speichern.
+Aspose.Cells API bietet eine Klasse namens [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), die eine Excel-Datei darstellt und alle erforderlichen Eigenschaften und Methoden für Entwickler bereitstellt, um mit ihren Excel-Dateien zu arbeiten. Die Klasse [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) bietet eine [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-)-Methode zur Speicherung von Excel-Dateien. Die Methode [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) hat viele Überladungen, die verwendet werden, um Excel-Dateien auf verschiedene Arten zu speichern.
 
 Entwickler können auch das Dateiformat angeben, in dem ihre Dateien gespeichert werden sollen. Die Dateien können in mehreren Formaten wie XLS, SpreadsheetML, CSV, Tabulatorgetrennt, TSV, XPS und vielen anderen gespeichert werden. Diese Dateiformate werden unter Verwendung der [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)-Enumeration angegeben.
 
@@ -30,12 +30,12 @@ Die [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/Sa
 |[**XLTM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLTM)|Stellt eine Excel-Macro-fähige Vorlagen-Datei dar
 |[**XLAM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLAM)|Stellt eine Excel XLAM-Datei dar
 |[**TSV**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TSV)|Stellt eine tabulatorgetrennte Werte-Datei dar
-|[**TAB_DELIMITED**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TAB_DELIMITED)|Stellt eine tabellarische Textdatei dar
+|[**TAB_DELIMITED**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TAB-DELIMITED)|Repräsentiert eine tabulatorgetrennte Textdatei|
 |[**HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML)|Stellt eine HTML-Datei(en) dar
-|[**M_HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#M_HTML)|Stellt eine MHTML-Datei(en) dar
+|[**M_HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#M-HTML)|Repräsentiert eine MHTML-Datei(nen)|
 |[**ODS**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#ODS)|Stellt eine OpenDocument-Spreadsheetdatei dar
-|[**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#EXCEL_97_TO_2003)|Stellt eine XLS-Datei im Standardformat für Excel 1997 bis 2003 dar
-|[**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SPREADSHEET_ML)|Stellt eine SpreadSheetML-Datei dar
+|[**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#EXCEL-97-TO-2003)|Repräsentiert eine XLS-Datei, die das Standardformat für Excel-Versionen von 1997 bis 2003 ist|
+|[**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SPREADSHEET-ML)|Stellt eine SpreadSheetML-Datei dar|
 |[**XLSB**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLSB)|Stellt eine binäre XLSB-Datei von Excel 2007 dar
 |[**UNKNOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#UNKNOWN)|Stellt ein nicht erkanntes Format dar, das nicht gespeichert werden kann
 |[**PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)|Stellt ein PDF-Dokument dar
@@ -52,7 +52,7 @@ Die [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/Sa
 
 ## **Datei an einem bestimmten Speicherort speichern**
 
-Wenn Entwickler ihre Dateien an einem Speicherort speichern müssen, können sie einfach den Dateinamen (mit vollständigem Speicherpfad) und das gewünschte Dateiformat (unter Verwendung der [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)-Enumeration) angeben, während sie die Methode [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) des Objekts [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) aufrufen.
+Wenn Entwickler ihre Dateien an einem Speicherort speichern müssen, können sie einfach den Dateinamen (mit vollständigem Speicherpfad) und das gewünschte Dateiformat (unter Verwendung der [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)-Enumeration) angeben, während sie die Methode [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) des Objekts [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) aufrufen.
 
 **Beispiel:**
 
@@ -66,7 +66,7 @@ Das folgende Codebeispiel erläutert, wie eine gesamte Arbeitsmappe in Textforma
 
 Wenn der Code ausgeführt wird, konvertiert er die Daten aller Blätter in der Arbeitsmappe in das TXT-Format.
 
-Sie können das gleiche Beispiel ändern, um Ihre Datei in CSV zu speichern. Standardmäßig ist [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) ein Komma, geben Sie also keinen Separator an, wenn Sie im CSV-Format speichern. Beachten Sie: Wenn Sie die Evaluierungsversion verwenden und selbst wenn der Parameter der Methode [**TxtSaveOptions.setExportAllSheets(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions/#setExportAllSheets-boolean-) auf true festgelegt ist, exportiert das Programm trotzdem nur ein Arbeitsblatt.
+Sie können das gleiche Beispiel anpassen, um Ihre Datei in CSV zu speichern. Standardmäßig ist [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) ein Komma, daher geben Sie keinen Trennzeichen an, wenn Sie im CSV-Format speichern. Bitte beachten Sie: Wenn Sie die Evaluierungsversion verwenden und auch wenn der Parameter der Methode [**TxtSaveOptions.setExportAllSheets(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions/#setExportAllSheets-boolean-) auf true gesetzt ist, exportiert das Programm dennoch nur ein Arbeitsblatt.
 
 **Beispiel:**
 
@@ -80,7 +80,7 @@ Textdateien enthalten Tabellendaten ohne Formatierung
 
 ## **Datei in einen Stream speichern**
 
-Wenn Entwickler ihre Dateien in einen **Stream** speichern müssen, sollten sie ein **FileOutputStream**-Objekt erstellen und dann die Datei in dieses **Stream**-Objekt speichern, indem sie die Methode [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) des Objekts [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) aufrufen. Entwickler können auch das gewünschte Dateiformat (unter Verwendung der [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)-Enumeration) beim Aufrufen der Methode [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) angeben.
+Wenn Entwickler ihre Dateien in einen **Stream** speichern müssen, sollten sie ein **FileOutputStream**-Objekt erstellen und dann die Datei in dieses **Stream**-Objekt speichern, indem sie die Methode [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) des Objekts [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) aufrufen. Entwickler können auch das gewünschte Dateiformat (unter Verwendung der [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)-Enumeration) beim Aufrufen der Methode [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) angeben.
 
 **Beispiel:**
 
@@ -116,7 +116,7 @@ Mit der Klasse [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.
 
 ## **Excel-Arbeitsmappe in Markdown konvertieren**
 
-Die Aspose.Cells API unterstützt das Exportieren von Arbeitsmappen im Markdown-Format. Um das aktive Arbeitsblatt in Markdown zu exportieren, geben Sie [**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN) als zweiten Parameter der Methode [**Workbook.Save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.lang.String,%20int)) an. Sie können auch die Klasse [**MarkdownSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/MarkdownSaveOptions) verwenden, um zusätzliche Einstellungen für den Export des Arbeitsblatts in Markdown anzugeben.
+Die Aspose.Cells API unterstützt das Exportieren von Arbeitsmappen im Markdown-Format. Um das aktive Arbeitsblatt in Markdown zu exportieren, geben Sie [**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN) als zweiten Parameter der Methode [**Workbook.Save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.lang.String-int-) an. Sie können auch die Klasse [**MarkdownSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/MarkdownSaveOptions) verwenden, um zusätzliche Einstellungen für den Export des Arbeitsblatts in Markdown anzugeben.
 
 Das folgende Codebeispiel demonstriert den Export des aktiven Arbeitsblatts in Markdown unter Verwendung des Enumerationsmitglieds [**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN). Bitte sehen Sie die durch den Code generierte [Ausgabedatei im Markdown-Format](Book1.txt) zur Referenz.
 
@@ -128,3 +128,4 @@ Das folgende Codebeispiel demonstriert den Export des aktiven Arbeitsblatts in M
 - [Arbeitsmappe im Strict Open XML-Tabellenkalkulationsformat speichern](/cells/de/java/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [Konvertierungsvorgang von Excel nach TIFF verfolgen](/cells/de/java/track-conversion-progress-of-excel-to-tiff/)
 - [Fortschritt der Dokumentkonvertierung nachverfolgen](/cells/de/java/track-document-conversion-progress/)
+{{< app/cells/assistant language="java" >}}

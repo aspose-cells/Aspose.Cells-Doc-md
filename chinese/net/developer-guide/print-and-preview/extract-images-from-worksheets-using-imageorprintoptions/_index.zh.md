@@ -16,3 +16,4 @@ Microsoft Excel 用户可以将图像添加到电子表格中。通过 Aspose.Ce
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExtractImagesFromWorksheets-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

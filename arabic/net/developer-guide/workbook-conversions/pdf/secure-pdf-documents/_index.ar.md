@@ -31,3 +31,4 @@ url: /ar/net/secure-pdf-documents/
 إذا كانت جداول البيانات تحتوي على صيغ، فمن الأفضل استدعاء [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) قبل عرضها إلى PDF. يضمن هذا إعادة حساب القيم المعتمدة على الصيغ وعرض القيم الصحيحة في PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

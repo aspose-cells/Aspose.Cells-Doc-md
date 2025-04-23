@@ -167,3 +167,4 @@ else
 ## **Устаревшие API**
 ### **Устаревший метод Workbook.checkWriteProtectedPassword**
 С выпуском v8.6.1 метод Workbook.checkWriteProtectedPassword был отмечен как устаревший. Рекомендуется использовать метод WorkbookSettings.WriteProtection.validatePassword, который может принимать строковое значение в качестве параметра и возвращает булево значение, если пароль соответствует предустановленному паролю таблицы.
+{{< app/cells/assistant language="java" >}}

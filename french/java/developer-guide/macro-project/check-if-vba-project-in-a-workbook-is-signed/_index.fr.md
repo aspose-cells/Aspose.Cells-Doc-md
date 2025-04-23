@@ -18,3 +18,4 @@ Le code suivant charge le classeur et vérifie si son projet VBA est signé en u
 ## Code d'exemple
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CheckVbaProjectSigned-CheckVbaProjectSigned.java" >}}
+{{< app/cells/assistant language="java" >}}

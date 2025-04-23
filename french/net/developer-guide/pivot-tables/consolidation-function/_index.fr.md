@@ -35,3 +35,4 @@ Le code suivant applique la fonction de consolidation **Moyenne** au premier cha
 La fonction de consolidation ComptageDistinct est prise en charge uniquement par Microsoft Excel 2013.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

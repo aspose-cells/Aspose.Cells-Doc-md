@@ -13,3 +13,4 @@ url: /ja/java/data-handling-features-in-xlsx4j/
 - [xlsx4jでのワークシートへのデータのインポート](/cells/ja/java/import-data-to-worksheets-in-xlsx4j/)
 - [xlsx4jでのデータのソート](/cells/ja/java/sort-data-in-xlsx4j/)
 - [xlsx4jでの先行および従属関係のトレース](/cells/ja/java/tracing-precedents-and-dependents-in-xlsx4j/)
+{{< app/cells/assistant language="java" >}}

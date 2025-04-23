@@ -47,13 +47,13 @@ Aspose.Cells提供[Cell](https://reference.aspose.com/cells/java/com.aspose.cell
 ### **跟踪依赖项**
 Aspose.Cells允许您在电子表格中获取依赖单元格。Aspose.Cells不仅可以检索关于简单公式的提供数据的单元格，还可以针对具有命名范围的复杂公式查找提供数据的单元格。
 
-Aspose.Cells 提供了 [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) 类的 [GetDependents](https://reference.aspose.com/cells/java/com.aspose.cells/Cell#getDependents(boolean)) 方法，用于跟踪单元格的依赖单元格。例如，在 Book1.xlsx 中有公式：“=A1+20” 和 “=A1+30” 分别位于 B2 和 C2 单元格。以下示例演示了如何使用模板文件 Book1.xlsx 追踪 A1 单元格的依赖项。
+Aspose.Cells 提供 [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) 类的 [GetDependents](https://reference.aspose.com/cells/java/com.aspose.cells/Cell#getDependents-boolean-) 方法，用于追踪单元格的依赖项。例如，在 Book1.xlsx 中，B2 和 C2 单元格分别包含公式：“=A1+20”和“=A1+30”。以下示例演示如何使用模板文件 Book1.xlsx 追踪 A1 单元格的依赖项。
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-TracingDependents.java" >}}
 ### **根据计算链跟踪先行单元格和依赖单元格**
-上述追踪先决条件和依赖项的API是根据公式表达式本身而定的。它们为用户提供了方便的方法来跟踪一些公式之间的相互依赖关系。如果工作簿中有大量的公式，并且用户需要为每个单元格跟踪先决条件和依赖项，它们将性能不佳。在这种情况下，用户应该考虑使用[GetPrecedentsInCalculation](https://reference.aspose.com/cells/java/com.aspose.cells/Cell#getPrecedentsInCalculation--)和[GetDependentsInCalculation](https://reference.aspose.com/cells/java/com.aspose.cells/Cell#getDependentsInCalculation(boolean)/)方法。这两种方法根据计算链路来跟踪依赖关系。因此，要使用它们，首先需要通过[Workbook.Settings.FormulaSettings.EnableCalculationChain](https://reference.aspose.com/cells/java/com.aspose.cells/FormulaSettings#EnableCalculationChain)启用计算链路。然后应通过[Workbook.CalculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions))为工作簿执行完整计算。然后，您可以跟踪需要的所有那些单元格的先决条件或依赖项。
+上述追踪前驱和依赖的 API 是根据公式表达式本身设计的，旨在为用户提供便捷的方式追踪部分公式的相互依赖关系。如果工作簿中存在大量公式，并且用户需要追踪每个单元格的前驱和依赖，性能可能会较差。在这种情况下，用户应考虑使用 [GetPrecedentsInCalculation](https://reference.aspose.com/cells/java/com.aspose.cells/Cell#getPrecedentsInCalculation--) 和 [GetDependentsInCalculation](https://reference.aspose.com/cells/java/com.aspose.cells/Cell#getDependentsInCalculation-boolean-) 方法。这两种方法基于计算链道路追踪依赖关系。使用前，首先应通过 [Workbook.Settings.FormulaSettings.EnableCalculationChain](https://reference.aspose.com/cells/java/com.aspose.cells/FormulaSettings#EnableCalculationChain) 来启用计算链，然后通过 [Workbook.CalculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula-com.aspose.cells.CalculationOptions-) 执行完整计算。之后，你就可以追踪所有相关单元格的前驱和依赖关系。
 
 对于一些公式，GetPrecedents和GetPrecedentsInCalculation得到的结果可能不同，GetDependents和GetDependentsInCalculation得到的结果也可能不同。例如，如果单元格A1的公式是"=IF(TRUE,B2,C3)"，GetPrecedents将提供B2和C3作为A1的先行单元格。据此，当通过GetDependents检查时，B2和C3都有依赖项A1。然而，对于这个公式的计算，很明显只有B2可以影响计算结果。因此，GetPrecedentsInCalculation将不为A1提供C3，GetDependentsInCalculation也不会为C3提供A1。有时，用户可能只需要跟踪那些实际上根据工作簿当前数据影响公式计算结果的相互依存关系，那么他们也需要使用GetDependentsInCalculation/GetPrecedentsInCalculation而不是GetDependents/GetPrecedents。
 
@@ -61,3 +61,4 @@ Aspose.Cells 提供了 [Cell](https://reference.aspose.com/cells/java/com.aspose
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-TracingDependenciesInCalculation.java" >}}
+{{< app/cells/assistant language="java" >}}

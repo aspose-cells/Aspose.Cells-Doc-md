@@ -38,3 +38,4 @@ Sbloccare un foglio di lavoro è facile con l'API Aspose.Cells. Se il foglio di 
 - [Protezione dei fogli di lavoro](/cells/it/net/protecting-worksheets/)
 - [Sblocca un foglio di lavoro](/cells/it/net/unprotect-a-worksheet/)
 - [Verificare la password utilizzata per proteggere il foglio di lavoro](/cells/it/net/verify-password-used-to-protect-the-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

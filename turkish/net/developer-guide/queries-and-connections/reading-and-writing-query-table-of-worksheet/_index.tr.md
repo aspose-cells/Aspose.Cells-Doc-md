@@ -44,3 +44,4 @@ Preserve Formatting: False
 Aspose.Cells, bir sorgu tablosu için hücrelerin adresini yani sonuç aralığını okuma seçeneği sağlar. Aşağıdaki kod, bir sorgu tablosunun sonuç aralığının adresini okuyarak bu özelliği göstermektedir. Örnek dosyayı [buradan](72417290.xlsx) indirebilirsiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAddressOfResultRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

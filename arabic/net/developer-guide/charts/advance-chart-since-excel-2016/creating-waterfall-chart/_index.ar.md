@@ -23,3 +23,4 @@ keywords: c# إنشاء رسم بياني Waterfall في Excel ، c# إنشاء 
 
 - [إنشاء الرسوم البيانية](/cells/ar/net/creating-charts/)
 - [تخصيص الرسوم البيانية](/cells/ar/net/customizing-charts/)
+{{< app/cells/assistant language="csharp" >}}

@@ -25,3 +25,4 @@ Nach Ausführung des Codes passt Aspose.Cells Zeilen für zusammengeführte Zell
 
 - [Zeilen und Spalten automatisch anpassen](/cells/de/java/autofit-rows-and-columns/)
 - [Anpassen der Zeilenhöhe und Spaltenbreite](/cells/de/java/adjusting-row-height-and-column-width/)
+{{< app/cells/assistant language="java" >}}

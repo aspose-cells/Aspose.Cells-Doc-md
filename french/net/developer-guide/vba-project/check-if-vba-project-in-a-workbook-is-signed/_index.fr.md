@@ -16,3 +16,4 @@ Vous pouvez vérifier si votre projet VBA est signé ou non en utilisant Microso
 Le code suivant charge le classeur et vérifie si son projet VBA est signé en utilisant la propriété [**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned). La propriété renverra **true** si le projet est signé sinon elle renverra **false**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-CheckVbaProjectSigned-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -1,10 +1,10 @@
 ---
-title: Aspose.Cells.GridWeb ı nasıl çalıştıracağınızı ve çevrimiçi elektronik tablo düzenleyicisi veya görüntüleyici uygulamasını nasıl oluşturacağınızı gösterir.
+title: Docker da Aspose.Cells.GridWeb i çalıştırarak çevrimiçi tablo düzenleyici veya görüntüleyici uygulaması nasıl oluşturulur
 type: docs
 weight: 250
 url: /tr/java/aspose-cells-gridweb/how-to-build-online-excel-editor/
-keywords: GridWeb, docker
-description: Bu makale, çevrimiçi bir excel düzenleyici veya görüntüleyici uygulaması oluşturmak için GridWeb ı docker içinde nasıl çalıştıracağınızı tanıtır.
+keywords: GridWeb,docker
+description: Bu makale, Docker da GridWeb i çalıştırarak çevrimiçi excel düzenleyici veya görüntüleme uygulaması oluşturmayı anlatıyor.
 aliases:
   - /java/aspose-cells-gridweb/docker/
   - /java/aspose-cells-gridweb/run-aspose-cells-gridweb-in-docker/
@@ -21,15 +21,15 @@ aliases:
 
 ## Önkoşullar
 
-Makinenize Docker'ın kurulduğundan emin olun. Docker'ı [resmi Docker web sitesinden](https://www.docker.com/get-started) indirip kurabilirsiniz.
+Bilgisayarınıza Docker'ın yüklü olduğundan emin olun. Docker'ı [resmi Docker web sitesinden](https://www.docker.com/get-started) indirip yükleyebilirsiniz.
 
-## Adım 1: Bir Docker Dosyası Oluşturun
+## Adım 1: Dockerfile Oluşturma
 
-Projedeki [dizin] (https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/) içinde `Dockerfile` adında bir dosya oluşturun. `Dockerfile`, Docker imajınızı nasıl oluşturulacağına dair talimatlar içermelidir.
+Proje [dizinine](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/) `Dockerfile` adında bir dosya oluşturun. `Dockerfile` Docker imajınızı nasıl oluşturacağınıza dair talimatları içermelidir.
 
-## Adım 2: GridWeb için Dockerfile Yazın
+## Adım 2: GridWeb için Dockerfile yazın
 
-İşte GridWeb demo için Java uygulamasıyla birlikte bir örnek [`Dockerfile`] (https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/Dockerfile):
+İşte Java uygulamasıyla GridWeb demo'su için örnek [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/Dockerfile):
 
 ```dockerfile
 #spring boot3.3 shall use jdk17 above 
@@ -81,41 +81,41 @@ CMD ["sh", "-c", "java $JAVA_OPTS -jar /app/app.jar"]
 
 ```
 
-## Adım 3: Docker İmajının Oluşturulması
-Docker İmajının Oluşturulması: Terminalden, Docker imajınızı oluşturmak için aşağıdaki komutu çalıştırın:
+## Adım 3: Docker Görüntüsünü Oluşturma
+Docker Görüntüsü Oluşturma: Terminalden aşağıdaki komutu çalıştırarak Docker görüntünüzü oluşturabilirsiniz:
 ```bash
 docker build -t gridweb-demo-java .
 ```
-gridweb-demo-java'yı Docker imajınıza vermek istediğiniz isimle değiştirebilirsiniz.
+dockerweb-demo-java yerine kendi Docker imajınızın adını koyabilirsiniz.
 
-## Adım 4: Docker Konteynerinin Çalıştırılması
-İmaj oluşturulduktan sonra, aşağıdaki komutu kullanarak bir konteyner çalıştırabilirsiniz:
+## Adım 4: Docker Konteyneri Çalıştırma
+İmaj oluşturulduktan sonra aşağıdaki komutu kullanarak bir konteyner çalıştırabilirsiniz:
 
 ```bash
 docker run -d -p 8080:8080 --name gridweb-demo-container  gridweb-demo-java
 ```
-Docker Çalıştır Komutu Seçeneklerinin Açıklaması
--d: Konteyneri geri planda (detached modda) çalıştırın.
--p 8080:8080: Konteynerdeki 8080 bağlantı noktasını ana makinedeki 8080 bağlantı noktasına eşleştirin.
---name gridweb-demo-container: Konteynere bir ad atayın.
+Docker Run Komutu Seçeneklerinin Açıklaması
+-d: Konteyneri arka planda çalıştırır.
+-p 8080:8080: Konteynerdeki 8080 portunu ana makinadaki 8080 portuna eşleştir.
+--name gridweb-demo-container: Konteynerin adını belirleyin.
 
-## Adım 5: Konteynerin Çalışıp Çalışmadığının Doğrulanması
+## Adım 5: Konteynerin Çalıştığını Doğrulama
 Konteynerinizin çalışıp çalışmadığını kontrol etmek için aşağıdaki komutu kullanın:
 
 ```bash
 docker ps
 ```
-Bu tüm çalışan konteynerleri listeler. Konteynerinizin adı ve durumu ile birlikte listelendiğini görmelisiniz.
+Bu, tüm çalışan konteynerleri listeleyecek. Adı ve durumu ile birlikte konteyneriniz görünmelidir.
 
 ## Adım 6: Web Uygulamasına Erişim
 
-Bir web tarayıcısı açın ve `http://localhost:8080/gridwebdemo/index` adresine gidin. Uygulamanızın çalıştığını görmelisiniz.
+Bir web tarayıcı açın ve `http://localhost:8080/gridwebdemo/index` adresine gidin. Uygulamanızın çalıştığını görmelisiniz.
 
 
 
 ## Ek Komutlar
 
-### Konteynerin Durdurulması
+### Konteyneri Durdurma
 
 Çalışan bir konteyneri durdurmak için aşağıdaki komutu kullanın:
 
@@ -123,15 +123,15 @@ Bir web tarayıcısı açın ve `http://localhost:8080/gridwebdemo/index` adresi
 docker stop gridweb-demo-container
 ```
 
-### Bir Konteyneri Kaldırma
+### Bir Konteyner Kaldırma
 Durdurulmuş bir konteyneri kaldırmak için aşağıdaki komutu kullanın:
 
 ```bash
 docker rm  gridweb-demo-container
 ```
 
-### Bir Görüntüyü Kaldırma
-Bir görüntüyü kaldırmak için aşağıdaki komutu kullanın:
+### Bir İmaj Kaldırma
+Bir imajı kaldırmak için aşağıdaki komutu kullanın:
 
 ```bash
 docker rmi gridweb-demo-java

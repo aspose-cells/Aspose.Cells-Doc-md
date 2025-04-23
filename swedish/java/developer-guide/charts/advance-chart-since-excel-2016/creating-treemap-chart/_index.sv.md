@@ -19,3 +19,4 @@ Efter att ha kört koden nedan kommer du att se träddiagrammet som visas nedan.
 Följande exempelkod laddar den [prov Excel-fil](treemap.xlsx) och genererar [utdata Excel-fil](ut.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "create-treemap-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

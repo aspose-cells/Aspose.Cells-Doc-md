@@ -699,3 +699,4 @@ Ladda ner **Konvertera kalkylblad till CSV** från någon av nedan angivna socia
 För mer information, besök [Spara filer](/cells/sv/java/spara-excel-filer-till-csv-pdf-och-andra-format).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -3,17 +3,17 @@ title: Hintergrundbild in Excel einfügen
 type: docs
 weight: 90
 url: /de/python-net/insert-background-image-to-excel/
-description: Dieser Artikel erläutert, wie Sie mit dem Beispielscode Aspose.Cells für Python via .NET programmgesteuert ein Hintergrundbild in Excel einfügen können.
-keywords: Python Excel Bibliothek, Python So legen Sie den Blatt Hintergrund fest, Fügen Sie ein Hintergrundbild zu Excel in Python ein.
+description: Dieser Artikel erklärt, wie man mithilfe von Aspose.Cells für Python via .NET eine Hintergrundbild in Excel einfügt.
+keywords: Python Excel Bibliothek, Python, wie man das Arbeitsblatt Hintergrundbild festlegt, Hintergrundbild in Excel in Python einfügen.
 ---
 
 {{% alert color="primary" %}} 
 
-Sie können ein Arbeitsblatt ansprechender gestalten, indem Sie ein Bild als Hintergrund des Arbeitsblatts hinzufügen. Diese Funktion kann recht effektiv sein, wenn Sie eine spezielle Unternehmensgrafik haben, die einen Hauch des Hintergrunds hinzufügt, ohne die Daten auf dem Blatt zu verdecken. Sie können das Hintergrundbild für ein Blatt mit der Aspose.Cells für Python via .NET API festlegen.
+Sie können ein Arbeitsblatt ansprechender gestalten, indem Sie ein Bild als Hintergrund des Arbeitsblatts hinzufügen. Diese Funktion kann sehr effektiv sein, wenn Sie eine spezielle Firmen-Grafik haben, die einen Hintergrund-Hinweis hinzufügt, ohne die Daten auf dem Blatt zu verdecken. Sie können das Hintergrundbild für ein Blatt mit dem Aspose.Cells für Python via .NET API festlegen.
 
 {{% /alert %}} 
 
-## **So legen Sie ein Blatthintergrund in Microsoft Excel fest**
+## **So stellen Sie den Arbeitsblatt-Hintergrund in Microsoft Excel ein**
 
 Um ein Hintergrundbild für ein Blatt in Microsoft Excel festzulegen (z. B. Microsoft Excel 2019):
 
@@ -24,7 +24,7 @@ Um ein Hintergrundbild für ein Blatt in Microsoft Excel festzulegen (z. B. Micr
 
 ![todo:image_alt_text](insert-background-to-excel.jpg)
 
-## **So legen Sie den Blatthintergrund mit der Aspose.Cells für Python Excel-Bibliothek fest**
+## **So setzen Sie den Arbeitsblatt-Hintergrund mit Aspose.Cells für Python Excel-Bibliothek**
 
 Der unten stehende Code legt ein Hintergrundbild mithilfe eines Bildes aus einem Stream fest.
 

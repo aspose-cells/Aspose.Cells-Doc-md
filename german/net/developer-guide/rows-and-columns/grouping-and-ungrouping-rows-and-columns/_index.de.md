@@ -62,3 +62,4 @@ Um gruppierte Zeilen oder Spalten aufzuheben, rufen Sie die [**Cells**](https://
 [**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) hat eine Überladung, die einen dritten booleschen Parameter akzeptiert. Wenn dieser auf **true** gesetzt wird, werden alle gruppierten Informationen entfernt. Andernfalls wird nur die äußere Gruppeninformation entfernt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-UngroupingRowsAndColumns-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -32,3 +32,4 @@ En el archivo generado, el gráfico contará dinámicamente los datos para el me
 ```
 
 Puedes intentar cambiar el valor de la lista desplegable en la celda "Hoja1!$A$10", y verás el cambio dinámico del gráfico. Ahora hemos creado un gráfico dinámico con lista desplegable usando Aspose.Cells con éxito.
+{{< app/cells/assistant language="csharp" >}}

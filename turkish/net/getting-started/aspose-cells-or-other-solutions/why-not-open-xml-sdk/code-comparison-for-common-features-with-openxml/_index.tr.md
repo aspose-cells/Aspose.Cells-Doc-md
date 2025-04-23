@@ -20,3 +20,4 @@ Bu bölüm aşağıdaki konuları içerir
 - [Bir elektronik tablo belgesini aç](/cells/tr/net/open-a-spreadsheet-document-from-a-stream/)
 - [Belge tablosundaki adlandırılmış tüm aralıkların bir sözlüğünü alın](/cells/tr/net/retrieve-a-dictionary-of-all-named-ranges-in-a-spreadsheet-document/)
 - [Hücrelerin değerlerini alın](/cells/tr/net/retrieve-the-values-of-cells/)
+{{< app/cells/assistant language="csharp" >}}

@@ -18,3 +18,4 @@ Puoi utilizzare Aspose.Cells per unire o dividere un intervallo di celle. Aspose
 Il codice di esempio crea prima un intervallo - A1:D4 - quindi unisce le celle nell'intervallo in un'unica cella utilizzando il metodo [**Range.Merge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge). Allo stesso modo, è possibile separare le celle creando un intervallo e chiamando il metodo [**Range.UnMerge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/unmerge).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-MergeUnmergeRangeOfCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

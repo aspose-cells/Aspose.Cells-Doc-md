@@ -16,3 +16,4 @@ Aspose.Cellsは*DBNum* カスタムパターンフォーマットをサポー�
 次のサンプルコードは*DBNum* カスタムパターンフォーマットの指定方法を示しています。詳細については、[出力PDF](43352081.pdf)をチェックしてください。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SpecifyingDBNumCustomPatternFormatting.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

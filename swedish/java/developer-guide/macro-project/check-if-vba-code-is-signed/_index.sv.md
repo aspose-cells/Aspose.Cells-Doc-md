@@ -26,3 +26,4 @@ Nedan följer konsolresultatet av ovanstående kod med hjälp av [provfilen](547
 Is VBA Code Project Signed: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

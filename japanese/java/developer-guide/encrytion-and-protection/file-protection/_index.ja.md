@@ -42,3 +42,4 @@ MS Excel（たとえばMS Excel 2003）では、ファイルの暗号化設定�
 
 
 
+{{< app/cells/assistant language="java" >}}

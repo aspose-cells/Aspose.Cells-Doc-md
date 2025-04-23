@@ -73,3 +73,4 @@ System.setProperty("Aspose.Cells.FontDirExc", "FontDirSet");
 - Строка "FontDirSet" должна представлять собой полный путь к папке, содержащей необходимые шрифты.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

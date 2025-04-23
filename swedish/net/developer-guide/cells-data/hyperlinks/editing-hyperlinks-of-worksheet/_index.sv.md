@@ -16,3 +16,4 @@ Aspose.Cells möjliggör att du får åtkomst till alla hyperlänkar i kalkylbla
 Följande exempelkod får åtkomst till alla hyperlänkar i arbetsbladet och ändrar deras [**Hyperlink.Address**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/address)-egenskap till Aspose webbplats.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-EditingHyperlinksOfWorksheet-EditingHyperlinksOfWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -31,3 +31,4 @@ Il codice di esempio seguente cambia il tipo di forma delle etichette dati del g
 ![todo:image_alt_text](set-the-shape-type-of-data-labels-of-chart_1.png)
 ## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SetShapeTypeOfDataLabelsOfChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

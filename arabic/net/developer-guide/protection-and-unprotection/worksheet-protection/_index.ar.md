@@ -38,3 +38,4 @@ description: حماية وإلغاء حماية ورقة العمل في ملف�
 - [حماية ورق العمل](/cells/ar/net/protecting-worksheets/)
 - [إلغاء حماية ورقة العمل](/cells/ar/net/unprotect-a-worksheet/)
 - [التحقق من الكلمة المستخدمة لحماية ورقة العمل](/cells/ar/net/verify-password-used-to-protect-the-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

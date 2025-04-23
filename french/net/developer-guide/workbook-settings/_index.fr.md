@@ -6,3 +6,4 @@ weight: 185
 url: /fr/net/workbook-settings/
 description: Gérer les paramètres des fichiers Microsoft Excel.
 ---
+{{< app/cells/assistant language="csharp" >}}

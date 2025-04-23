@@ -28,8 +28,15 @@ url: /ar/java/save-specified-worksheets-to-pdf/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-MultiSheetsToPdf.java" >}}
 
+## **إعادة ترتيب أوراق العمل إلى PDF**
+
+إذا كنت تريد إعادة ترتيب الأوراق (على سبيل المثال، بترتيب عكسي) إلى ملف PDF دون تعديل ملف المصدر، يمكنك تحقيق ذلك من خلال تمرير فهارس الأوراق المعاد ترتيبها إلى خيار [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setSheetSet-com.aspose.cells.SheetSet-).
+
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-ReorderSheetsToPdf.java" >}}
+
 {{% alert color="primary" %}} 
 
 إذا كانت جداول البيانات الخاصة بك تحتوي على صيغ، من الأفضل استدعاء [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook/#calculateFormula--) قبل تحويل جدول البيانات إلى تنسيق PDF. وذلك سيضمن إعادة حساب قيم الصيغ الخاصة وتقديم القيم الصحيحة في الملف الناتج PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

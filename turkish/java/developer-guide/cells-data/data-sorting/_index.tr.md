@@ -62,7 +62,7 @@ Sıralamak için *Soldan Sağa* sıralama özelliğini kullanın.
 
 ## **Arka plan rengine göre veri sıralama**
 
-Excel, arka plan rengine göre veri sıralamak için özellik sağlar. Aynı özellik Aspose.Cells kullanılarak [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int)) içerisinde [**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL_COLOR) kullanılarak sağlanır ve tüm hücrelerde belirtilen renkte olan hücreler Sıralama Ayarı'na ve geri kalan hücrelerin sıralama sırasına göre altta veya üstte yer alır ve geri kalan hücrelerin sıralaması hiç değişmez.
+Excel, arka plan rengine göre veri sıralamak için özellik sağlar. Aynı özellik Aspose.Cells kullanılarak [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-) içerisinde [**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL-COLOR) kullanılarak sağlanır ve tüm hücrelerde belirtilen renkte olan hücreler Sıralama Ayarı'na ve geri kalan hücrelerin sıralama sırasına göre altta veya üstte yer alır ve geri kalan hücrelerin sıralaması hiç değişmez.
 
 Bu özelliği test etmek için indirilebilecek örnek dosyalar aşağıda sunulmuştur:
 
@@ -78,3 +78,4 @@ Bu özelliği test etmek için indirilebilecek örnek dosyalar aşağıda sunulm
 - [Özel Sıralama Listesi ile Sütunda Verileri Sıralama](/cells/tr/java/sort-data-in-column-with-custom-sort-list/)
 - [Veri Sıralama Sırasında Uyarıyı Belirtme](/cells/tr/java/specifying-sort-warning-while-sorting-data/)
 
+{{< app/cells/assistant language="java" >}}

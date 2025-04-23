@@ -29,3 +29,4 @@ Después de ejecutar el código, el archivo de salida contiene una marca de agua
 - [Agregar marca de agua de WordArt al gráfico](/cells/es/java/add-wordart-watermark-to-chart/)
 - [Bloquear marca de agua WordArt](/cells/es/java/locking-wordart-watermark/)
 - [Establecer un estilo de WordArt preestablecido al texto de la forma](/cells/es/java/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="java" >}}

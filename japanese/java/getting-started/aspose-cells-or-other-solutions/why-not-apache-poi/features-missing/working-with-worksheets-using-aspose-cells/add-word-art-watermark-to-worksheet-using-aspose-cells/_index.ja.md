@@ -53,3 +53,4 @@ workbook.save(dataDir + "AsposeWatermark_Out.xls");
 詳細については、[ワードアートのウォーターマークをワークシートに追加する](/cells/ja/java/add-wordart-watermark-to-worksheet)を参照してください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

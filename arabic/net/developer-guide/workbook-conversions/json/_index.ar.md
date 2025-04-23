@@ -24,3 +24,4 @@ url: /ar/net/convert-workbook-to-json/
 - [تحويل-Excel-إلى-JSON](/cells/ar/net/convert-excel-to-json/)
 - [تحويل JSON إلى CSV](/cells/ar/net/convert-json-to-csv/)
 - [تحويل JSON إلى Excel](/cells/ar/net/convert-json-to-excel/)
+{{< app/cells/assistant language="csharp" >}}

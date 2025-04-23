@@ -22,3 +22,4 @@ Sie können den **Schatten** der **Texteffekte** einer beliebigen Form oder Text
 Der folgende Codeausschnitt veranschaulicht die Verwendung der [**FontSetting.TextOptions.Shadow.PresetType.PresetType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype) Eigenschaft zum Einstellen des Schattens von Texteffekten einer Form oder Textbox.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SettingTextEffectsShadowOfShapeOrTextbox-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

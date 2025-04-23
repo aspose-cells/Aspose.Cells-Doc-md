@@ -47,3 +47,4 @@ Det finns inget bättre sätt att få den använda stackstorleken vid körning. 
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="csharp" >}}

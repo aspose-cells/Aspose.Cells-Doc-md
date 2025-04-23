@@ -256,3 +256,4 @@ Es wird empfohlen, die Methode FontConfigs.setFontFolder(String, boolean) mit re
 Verwenden Sie die Methode FontConfigs.setFontFolders(String[], boolean) mit rekursivem Ordner auf false.
 ### **Veraltete Eigenschaft CellsHelper.FontFiles**
 Verwenden Sie stattdessen die Methode FontConfigs.setFontSources(FontSourceBase[]).
+{{< app/cells/assistant language="java" >}}

@@ -32,3 +32,4 @@ Dans le fichier généré, vous pouvez continuer à ajouter des données dans le
 ```
 
 Vous pouvez essayer de modifier le nombre "-5" en "-10" dans la formule, et le graphique dynamique comptera les 10 derniers ensembles de données. Nous avons maintenant créé avec succès un graphique roulant dynamique en utilisant Aspose.Cells.
+{{< app/cells/assistant language="csharp" >}}

@@ -56,3 +56,4 @@ Aspose.Cells permet aux développeurs d'accéder à la plage d'affichage maximal
 Vous pouvez accéder à la plage d'affichage maximale d'une feuille de calcul en utilisant [**Worksheet.Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange). Le code d'exemple suivant illustre comment accéder à la propriété [**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

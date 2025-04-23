@@ -18,3 +18,4 @@ url: /ar/java/populate-data-first-by-row-then-by-column/
 ## كود جافا لتعبئة البيانات أولاً حسب الصف ثم حسب العمود
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PopulateDatabyRowthenColumn-PopulateDatabyRowthenColumn.java" >}}
+{{< app/cells/assistant language="java" >}}

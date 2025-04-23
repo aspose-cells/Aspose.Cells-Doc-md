@@ -56,3 +56,4 @@ Du kan använda vilka källarbetsböcker som helst. Dessa bilder är bara för i
 ## **Fortsatta ämnen**
 - [Kombinera flera arbetsblad till ett enda arbetsblad](/cells/sv/net/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Sammanfoga filer](/cells/sv/net/merge-files/)
+{{< app/cells/assistant language="csharp" >}}

@@ -3,8 +3,8 @@ title: Obtenir la largeur et la hauteur du papier de la configuration de page de
 type: docs
 weight: 50
 url: /fr/python-net/get-paper-width-and-height-of-page-setup-of-worksheet/
-description: Vous découvrirez dans cet article comment obtenir la largeur et la hauteur du papier de configuration de la feuille Excel en utilisant du code Python de manière programmatique avec l API ou la bibliothèque Aspose.Cells pour Python via .NET.
-keywords: Bibliothèque Python Excel, largeur de papier de configuration Excel en Python, hauteur de papier de configuration Excel en Python.
+description: Vous découvrirez dans cet article comment obtenir la largeur et la hauteur du papier de la configuration de la page de la feuille Excel en utilisant du code Python avec l API ou la bibliothèque Aspose.Cells pour Python via .NET.
+keywords: Bibliothèque Excel en Python, largeur du papier dans la configuration de la page Excel, hauteur du papier dans la configuration de la page Excel en Python.
 ---
 
 ## **Scénarios d'utilisation possibles**
@@ -13,7 +13,7 @@ Parfois, vous devez connaître la largeur et la hauteur du format de papier tel 
 
 ## **Obtenir la largeur et la hauteur du papier de la configuration de page de la feuille de calcul**
 
-Le code d'exemple suivant explique l'utilisation des propriétés [**PageSetup.paper_width**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_width) et [**PageSetup.paper_height**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_height). Il modifie d'abord la taille du papier en *A2* puis trouve la largeur et la hauteur du papier, puis il la modifie en *A3*, *A4*, *Lettre* et trouve respectivement la largeur et la hauteur du papier.
+Le code d'exemple suivant explique l'utilisation des propriétés [**PageSetup.paper_width**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_width) et [**PageSetup.paper_height**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_height). Il modifie d'abord la taille du papier en *A2*, puis trouve la largeur et la hauteur du papier, et la modifie en *A3*, *A4*, *Lettres* tout en trouvant la largeur et la hauteur respectives du papier.
 
 ### **Code d'exemple**
 

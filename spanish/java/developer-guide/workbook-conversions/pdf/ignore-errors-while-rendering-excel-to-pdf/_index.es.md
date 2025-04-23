@@ -18,3 +18,4 @@ El siguiente código carga el [archivo de Excel de muestra](55541813.xlsx) pero 
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-IgnoreErrorsWhileRenderingExcelToPdf.java" >}}
+{{< app/cells/assistant language="java" >}}

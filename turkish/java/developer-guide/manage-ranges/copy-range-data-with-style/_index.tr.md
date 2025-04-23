@@ -11,7 +11,7 @@ url: /tr/java/copy-range-data-with-style/
 
 {{% /alert %}} 
 ## **Yalnızca Aralık Verisiyle Kopyala**
-Aspose.Cells, aralıklarla çalışmak için [createRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\)), [StyleFlag](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag), [applyStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#applyStyle\(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag\)) gibi çeşitli sınıflar ve yöntemler sağlar.
+Aspose.Cells, örneğin, [createRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-), [StyleFlag](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag), [applyStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-), vb. gibi, aralıklarla çalışma için çeşitli sınıf ve metodlar sağlar.
 
 Bu örnek:
 
@@ -25,3 +25,4 @@ Bu örnek:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyRangeDataWithStyle-CopyRangeDataWithStyle.java" >}}
 
+{{< app/cells/assistant language="java" >}}

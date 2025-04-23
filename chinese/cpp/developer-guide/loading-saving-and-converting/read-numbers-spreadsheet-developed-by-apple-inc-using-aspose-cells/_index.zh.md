@@ -11,7 +11,7 @@ Numbers是由Apple Inc.开发的电子表格应用程序。Aspose.Cells可以读
 
 ## **使用 Aspose.Cells 读取由 Apple Inc. 开发的 Numbers 电子表格**
 
-以下示例代码加载[Sample Numbers Spreadsheet](sampleNumbersByAppleInc.numbers)并将其转换为[Output PDF Format](outputNumbersByAppleInc.pdf)。您需要使用**[LoadOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/)**类，并在其构造函数中指定**[LoadFormat::Numbers](https://reference.aspose.com/cells/cpp/aspose.cells/loadformat/)**参数才能成功加载它。请从给定链接下载它们两个。您可以尝试使用任何Numbers电子表格来运行代码。请还阅读代码的注释以获取更多帮助。
+以下示例代码加载[数字样本电子表格](sampleNumbersByAppleInc.numbers)，并将其转换为[输出PDF格式](outputNumbersByAppleInc.pdf)。你需要使用**[LoadOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/)**类，并在其构造函数中指定**[LoadFormat::Numbers](https://reference.aspose.com/cells/cpp/aspose.cells/loadformat/)**作为参数，以成功加载。请从提供的链接下载两者。你也可以尝试使用任何数字电子表格。还请阅读代码中的注释，以获取更多帮助。
 
 ## **示例代码**
 

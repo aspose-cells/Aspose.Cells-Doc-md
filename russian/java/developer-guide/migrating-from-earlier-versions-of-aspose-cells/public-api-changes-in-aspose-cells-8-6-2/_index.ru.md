@@ -150,3 +150,4 @@ Aspose.Cells.GridWeb для Java 8.6.2 добавил следующие два 
 
 1. AjaxCallFinished: Срабатывает, когда AJAX-обновление элемента управления завершается. (EnableAJAX должен быть установлен в true).
 1. CellModifiedOnAjax: Срабатывает, когда ячейка изменена в вызове AJAX.
+{{< app/cells/assistant language="java" >}}

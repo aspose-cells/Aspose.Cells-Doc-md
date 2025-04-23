@@ -20,3 +20,4 @@ keywords: 在导入数据到工作表时指定公式字段，添加数据到工�
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-SpecifyFormulaFieldsWhileImportingDataToWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -22,3 +22,4 @@ Aspose.Cells允许您通过将[**HtmlSaveOptions.DisableDownlevelRevealedComment
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-DisableDownlevelRevealedCommentsWhileSavingToHTML.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -18,3 +18,4 @@ Aspose.Cellsもこの機能を提供し、この目的に[**Picture.SignatureLin
 次のサンプルコードは、[**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline)プロパティを使用して署名行を追加し、ワークブックを保存します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateSignatureLineInWorkbook-CreateSignatureLineInWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

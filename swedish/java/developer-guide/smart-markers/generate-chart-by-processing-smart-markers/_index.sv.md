@@ -144,3 +144,4 @@ När datan är på plats behöver vi bara skapa ett diagram baserat på datakäl
 Det slutgiltiga diagrammet ser ut som följer.
 
 ![todo:image_alt_text](generate-chart-by-processing-smart-markers_3.png)
+{{< app/cells/assistant language="java" >}}

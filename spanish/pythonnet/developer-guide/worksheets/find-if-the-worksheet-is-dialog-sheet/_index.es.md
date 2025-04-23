@@ -3,8 +3,8 @@ title: Encontrar si la hoja de cálculo es una hoja de diálogo
 type: docs
 weight: 90
 url: /es/python-net/find-if-the-worksheet-is-dialog-sheet/
-description: La Hoja de Diálogo es un formato antiguo de hoja. Este artículo proporciona instrucciones y código de muestra para determinar de forma programática si una hoja de cálculo de Excel es una Hoja de Diálogo utilizando la Biblioteca de Aspose.Cells for Python via .NET.
-keywords: Biblioteca de Python Excel, tipo de diálogo de hoja de cálculo en Python, hoja de diálogo en Python.
+description: La hoja de diálogo es un formato antiguo de hoja. Este artículo proporciona instrucciones y código de ejemplo para determinar de manera programática si una hoja de Excel es una hoja de diálogo usando Aspose.Cells para Python via .NET Biblioteca.
+keywords: Biblioteca de Excel para Python, Python encuentra el tipo de hoja de diálogo de Excel, diálogo de hoja en Python.
 ---
 
 ## **Escenarios de uso posibles**
@@ -13,7 +13,7 @@ La hoja de diálogo es un formato antiguo de hoja que contiene un cuadro de diá
 
 ![todo:image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
 
-Puede encontrar si la hoja es una hoja de diálogo u otro tipo de hoja con la propiedad [**Worksheet.type**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/type/) proporcionada por Aspose.Cells for Python via .NET. Si devuelve el valor de enumeración [**SheetType.DIALOG**](https://reference.aspose.com/cells/python-net/aspose.cells/sheettype/), entonces significa que está tratando con una hoja de diálogo.
+Puedes averiguar si la hoja es una hoja de diálogo u otro tipo de hoja con la propiedad [**Worksheet.type**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/type/) proporcionada por Aspose.Cells para Python via .NET. Si devuelve un valor de enumeración [**SheetType.DIALOG**](https://reference.aspose.com/cells/python-net/aspose.cells/sheettype/), entonces significa que estás tratando con una hoja de diálogo.
 
 ## **Buscar si la hoja de trabajo es una hoja de diálogo**
 

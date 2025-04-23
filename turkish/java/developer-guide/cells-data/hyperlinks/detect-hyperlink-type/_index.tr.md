@@ -10,9 +10,9 @@ url: /tr/java/detect-hyperlink-type/
 Bir Excel dosyası, dış, hücre referansı, dosya yolu vb. gibi farklı bağlantı türlerine sahip olabilir. Aspose.Cells, bağlantı türünü algılama özelliğini destekler. Bağlantı türleri, [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType) Numaralaması tarafından temsil edilir. [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType) Numaralaması aşağıdaki üyeleri içerir.
 
 - [**EXTERNAL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): Dış bağlantı
-- [**FILE_PATH**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): Yerel ve dosya\dizin için tam yol.
+- [**FILE_PATH**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE-PATH): Yerel ve dosya\dizin için tam yol.
 - [**EMAIL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): E-posta
-- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE): Hücre veya adlandırılmış aralığa bağlantı.
+- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL-REFERENCE): Hücre veya adlandırılmış aralığa bağlantı.
 
 Bağlantı türünü kontrol etmek için, [**Hyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) sınıfı, [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) tipi döndüren bir [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType) özelliği sağlar. Aşağıdaki kod örneği, bir [kaynak Excel dosyasını](LinkTypes.xlsx) kullanarak [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) özelliğinin kullanımını gösterir.
 
@@ -32,3 +32,4 @@ FullPathExample: CELL_REFERENCE </br>
 https://products.aspose.com/cells/ : EXTERNAL </br>
 mailto:test@test.com?subject=TestLink: EMAIL
 ```
+{{< app/cells/assistant language="java" >}}

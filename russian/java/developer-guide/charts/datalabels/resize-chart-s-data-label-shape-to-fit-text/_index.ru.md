@@ -26,3 +26,4 @@ url: /ru/java/resize-chart-s-data-label-shape-to-fit-text/
 Диаграмма выглядит следующим образом после выполнения кода.
 
 ![todo:image_alt_text](resize-chart-s-data-label-shape-to-fit-text_3.png)
+{{< app/cells/assistant language="java" >}}

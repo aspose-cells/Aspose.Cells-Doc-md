@@ -40,3 +40,4 @@ Export Data Table with Format Strategy as Cell Style: 0.01
 Export Data Table with Format Strategy as None: 0.012345
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

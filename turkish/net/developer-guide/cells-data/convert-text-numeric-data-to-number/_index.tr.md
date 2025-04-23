@@ -43,3 +43,4 @@ Bu string sayılar aşağıdaki ekran görüntüsünde [**Cells.ConvertStringToN
 Aşağıdaki örnek kod, tüm çalışma sayfalarındaki dize sayısal verileri gerçek sayılara dönüştürmenin nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ConvertStringToNumericValue-ConvertTextNumericDatatoNumber.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -18,3 +18,4 @@ Excel ファイルを PDF に変換する際、エラーや例外が発生し、
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-IgnoreErrorsWhileRenderingExcelToPdf.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -97,9 +97,7 @@ Pour utiliser ces contrôles, la machine pour exécuter Aspose.Cells.GridDesktop
 {{% /alert %}} 
 ### **Aspose.Cells.GridDesktop**
 #### **.NET Framework**
-- .NET Framework 2.0
-- .NET Framework 3.0
-- .NET Framework 3.5
+
 - .NET Framework 4.0
 - .NET Framework 4.5
 - .NET Framework 4.5.1
@@ -142,9 +140,6 @@ Pour utiliser ces contrôles, la machine pour exécuter Aspose.Cells.GridDesktop
 - Microsoft Windows 11
 ### **Aspose.Cells.GridWeb**
 #### **.NET Framework**
-- .NET Framework 2.0
-- .NET Framework 3.0
-- .NET Framework 3.5
 - .NET Framework 4.0
 - .NET Framework 4.5
 - .NET Framework 4.5.1
@@ -157,10 +152,12 @@ Pour utiliser ces contrôles, la machine pour exécuter Aspose.Cells.GridDesktop
 - .NET Framework 4.8
 - .NET Framework 4.8.1
 ### **.NET Core**
-- .NET 6.0 windows 
+- .NET 6.0 systèmes Windows et non Windows
 - .NET 7.0 windows
+- .NET 8.0 sous Windows
 #### **Les packages nuget référencés par Aspose.Cells.GridWeb pour .NET Core**
-- System.Drawing.Common, 7.0.0.
+- System.Drawing.Common, 7.0.0 (sur un système Windows).
+- SkiaSharp, 2.88.3 (sur les systèmes non-Windows).
 - System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.3.
 #### **Outils de développement**
@@ -226,3 +223,4 @@ Pour utiliser ces contrôles, la machine pour exécuter Aspose.Cells.GridDesktop
 - Linux (Ubuntu, openSUSE, CentOS, Debian, Alpine et autres)
 ### **Mac**
 - Mac OS X, macOS High Sierra, etc.
+{{< app/cells/assistant language="csharp" >}}

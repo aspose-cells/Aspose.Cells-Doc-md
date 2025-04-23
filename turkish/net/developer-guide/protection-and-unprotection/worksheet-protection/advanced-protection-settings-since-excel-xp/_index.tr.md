@@ -66,3 +66,4 @@ Kullanıcıların hücreleri düzenlemesini kısıtlamak istiyorsanız, koruma a
 Aspose.Cells API'sı kullanarak da hücreleri kilitlemek mümkündür. Her hücre, bir Boole özelliği içeren [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) biçimlendirmesi alabilir. Hücreyi kilitlemek veya açmak için [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) özelliğini **true** veya **false** olarak ayarlayın.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -31,3 +31,4 @@ Une feuille de calcul simplement protégée est une feuille qui n'est pas proté
 Une feuille de calcul protégée par mot de passe est une feuille protégée par un mot de passe. De telles feuilles peuvent être déprotégées en appelant une version surchargée de la méthode [**Unprotect**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/unprotect/methods/1) qui prend le mot de passe comme paramètre.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Unprotect-UnprotectingPasswordProtectedWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -112,3 +112,4 @@ Rimuovere i pannelli divisi utilizzando il metodo [**RemoveSplit**](https://refe
 - [Mostra formule invece di valori in un foglio di lavoro](/cells/it/net/show-formulas-instead-of-values-in-a-worksheet/)
 - [Usa le opzioni di controllo degli errori](/cells/it/net/use-error-checking-options/)
 
+{{< app/cells/assistant language="csharp" >}}

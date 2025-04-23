@@ -18,3 +18,4 @@ Esta sección tiene los siguientes temas:
 - [Dividir Celdas en la Hoja de Trabajo](/cells/es/net/split-cells-in-worksheet/)
 - [Trabajar con Paneles Congelados](/cells/es/net/working-with-freeze-panes/)
 - [Trabajar con Encabezados y Pies de Página](/cells/es/net/working-with-headers-and-footers/)
+{{< app/cells/assistant language="csharp" >}}

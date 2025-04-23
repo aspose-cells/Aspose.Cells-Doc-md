@@ -13,7 +13,7 @@ In Excel können Sie einen Bereich auswählen, löschen und andere Daten links o
 
 ## **Löschen von Bereichen mit Aspose.Cells**
 
-Aspose.Cells bietet die Methode [Cells.DeleteRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRange(int,%20int,%20int,%20int,%20int)) zum Löschen eines Bereichs.
+Aspose.Cells stellt die Methode [Cells.DeleteRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRange-int-int-int-int-int-) bereit, um einen Bereich zu löschen.
 
 ## **Bereiche löschen und Zellen nach links verschieben**
 
@@ -27,3 +27,4 @@ Löschen Sie einen Bereich und verschieben Sie die Zellen nach oben wie in den f
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Delete-Range-Up.java" >}}
 
+{{< app/cells/assistant language="java" >}}

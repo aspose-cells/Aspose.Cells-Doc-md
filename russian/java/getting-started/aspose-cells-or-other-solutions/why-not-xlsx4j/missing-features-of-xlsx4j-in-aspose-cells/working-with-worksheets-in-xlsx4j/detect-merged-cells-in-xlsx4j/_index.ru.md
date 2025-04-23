@@ -64,3 +64,4 @@ for(int i = al.size()-1 ; i > -1; i--)
 Для получения дополнительной информации посетите [Обнаружение объединенных ячеек на листе Excel](/cells/ru/java/detect-merged-cells-in-a-worksheet).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

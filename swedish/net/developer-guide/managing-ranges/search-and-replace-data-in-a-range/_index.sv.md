@@ -16,3 +16,4 @@ Ibland behöver du söka efter och ersätta specifika data i ett intervall och i
 Aspose.Cells tillhandahåller [**FindOptions.SetRange()**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/methods/setrange)-metoden för att ange ett intervall vid sökning av data. Nedan finns kodexempel som söker och ersätter data i ett intervall.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SearchReplaceDataInRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

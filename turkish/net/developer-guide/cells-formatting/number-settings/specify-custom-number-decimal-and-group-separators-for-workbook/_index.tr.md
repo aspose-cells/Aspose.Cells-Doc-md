@@ -28,3 +28,4 @@ Aşağıdaki örnek kod, Aspose.Cells API'sini kullanarak Belirtilmemiş Ayırı
 ### Özel Sayı Ondalık ve Grup Ayırıcılarını Belirtmek İçin C# Kodu
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-CustomDecimalAndGroupSeparator-CustomDecimalAndGroupSeparator.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

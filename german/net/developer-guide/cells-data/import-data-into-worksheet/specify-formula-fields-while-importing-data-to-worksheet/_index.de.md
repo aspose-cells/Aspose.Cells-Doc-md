@@ -20,3 +20,4 @@ Bitte sehen Sie sich den folgenden Beispielcode an, der erklärt, wie Sie das Fo
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-SpecifyFormulaFieldsWhileImportingDataToWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

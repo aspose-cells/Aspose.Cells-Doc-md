@@ -16,3 +16,4 @@ url: /sv/java/working-with-cells-rows-and-columns-in-apache-poi-and-aspose-cells
 - [Frys fönster i Apache POI och Aspose.Cells](/cells/sv/java/freeze-panes-in-apache-poi-and-aspose-cells/)
 - [Skapa datumcell i Apache POI och Aspose.Cells](/cells/sv/java/create-date-cell-in-apache-poi-and-aspose-cells/)
 - [Skapa olika celltyper i Apache POI och Aspose.Cells](/cells/sv/java/create-different-cell-types-in-apache-poi-and-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

@@ -20,3 +20,4 @@ El siguiente código de ejemplo carga el [archivo de Excel de muestra](55541812.
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-RenderLimitedNoOfSequentialPages-1.java" >}}
+{{< app/cells/assistant language="java" >}}

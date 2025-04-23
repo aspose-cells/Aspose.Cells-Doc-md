@@ -4,15 +4,15 @@ type: docs
 weight: 5
 url: /ar/nodejs-cpp/features/
 keywords: "nodejs, excel, api, features"
-description: "Aspose.Cells for Node.js عبر ميزات C++."
+description: "ميزات Aspose.Cells for Node.js via C++."
 ---
 
-## **Aspose.Cells for Node.js عبر نظرة عامة على ميزات C++**
-توفر هذه القسم مقارنة بين توفر الميزات بين Aspose.Cells for C++ و Aspose.Cells for Node.js عبر C++.
+## **نظرة عامة على ميزات Aspose.Cells for Node.js via C++**
+يتضمن هذا القسم مقارنة توفر الميزات بين Aspose.Cells for C++ و Aspose.Cells for Node.js via C++.
 ### **تنسيقات الملفات والتحويلات**
 يعتمد العديد من العملاء في جميع أنحاء العالم على ميزات الاستيراد والتصدير الشاملة التي يوفرها Aspose.Cells.
 
-|**الميزة**|**الوصف**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js عبر C++**|
+|**الميزة**|**الوصف**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- | :- |
 |تحويل ذو جودة عالية|قم بتحويل بين عدة تنسيقات مستندات شائعة بسرعة وبشكل موثوق.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |مصنف Microsoft Excel (XLS)|أسرع وأكثر تنفيذًا لتنسيق XLS يمكنك العثور عليه.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -26,21 +26,21 @@ description: "Aspose.Cells for Node.js عبر ميزات C++."
 ### **تقديم وطباعة**
 توفر Aspose.Cells الآن تقديمًا ذو دقة عالية لصفحات جداول البيانات.
 
-|**الميزة**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js عبر C++**|
+|**الميزة**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
 |تخطيط المستند في صفحات بدقة عالية تمامًا كما يفعل Microsoft Excel® (بالضبط مثلما يفعل Microsoft Excel®).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |تقديم صفحات ورقة البيانات إلى صور بكثافة البكسل (PNG، JPEG، إلخ).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |تقديم صفحات ورقة البيانات إلى صور بكثافة البكسل (الصور المتحركة TIFF متعددة الصفحات، GIF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |تقديم صفحات جدول البيانات إلى صور متجهية (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |حدد دقة الصورة ، الجودة ، الضغط وخيارات أخرى.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|طباعة صفحات جداول البيانات باستخدام بنية الطباعة C++.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|طباعة صفحات جدول البيانات باستخدام بنية طباعة C++.|{{< emoticons/cross >}}|{{< emoticons/cross >}}|
 |تحديث أرقام الصفحات وحقول أخرى قبل التقديم أو الطباعة.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **ميزات محتوى جداول البيانات**
 يوفر Aspose.Cells نموذج كائن غني يتكون من أكثر من 100 فئة / واجهة عمومية ، تتيح لك إنشاء الجداول الإلكترونية ، تجميعها ، تعديلها ، تحليلها أو فحصها برمجيًا أو بطرق أخرى. يتم تقديم بعض الميزات الرئيسية في الجدول أدناه.
 
-|**الميزة**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js عبر C++**|
+|**الميزة**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
-|استيراد/تصدير البيانات من مصفوفة ، ArrayList ، ResultSet الخ.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|استيراد / تصدير البيانات من مصفوفة، ArrayList، ResultSet، إلخ.|{{< emoticons/cross >}}|{{< emoticons/cross >}}|
 |إضافة نسخة من ورقة العمل الحالية (جميع المحتويات بما في ذلك الصور ، والرسوم البيانية ، والكائنات الأخرى الخ.)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |نسخ أو نقل الأوراق العمل داخل أو بين مصنفات العمل|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |إدراج الصور|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -77,7 +77,7 @@ description: "Aspose.Cells for Node.js عبر ميزات C++."
 ### **ميزات تنسيق جدول البيانات**
 يوفر Aspose.Cells وصولاً برمجيًا مفصلاً إلى خصائص التنسيق لجميع عناصر جدول البيانات.
 
-|**الميزة**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js عبر C++**|
+|**الميزة**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
 |تطبيق جميع تنسيقات الأحرف في الخلايا بما في ذلك الخطوط والألوان والتأثيرات والحدود والتظليل.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |تطبيق جميع إعدادات تنسيق الأرقام (المدعومة في Microsoft Excel) للخلايا.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -91,7 +91,7 @@ description: "Aspose.Cells for Node.js عبر ميزات C++."
 ### **ميزات إعداد الصفحة**
 يمكنك استخدام Aspose.Cells لتنفيذ خيارات إعداد الصفحة لورقات البيانات.
 
-|**الميزة**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js عبر C++**|
+|**الميزة**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
 |ضبط توجيه الصفحة، وتحجيمها، وحجم الورق.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |تحديد الهوامش الخاصة بك وتوسيط الصفحة.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

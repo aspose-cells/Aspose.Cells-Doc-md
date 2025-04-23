@@ -41,3 +41,4 @@ BoxWhisker
 - [ウォーターフォールチャートの作成](/cells/ja/net/creating-waterfall-chart/)
 - [ツリーマップチャートの作成](/cells/ja/net/creating-treemap-chart/)
 - [サンバーストチャートの作成](/cells/ja/net/creating-sunburst-chart/)
+{{< app/cells/assistant language="csharp" >}}

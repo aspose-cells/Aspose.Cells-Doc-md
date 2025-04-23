@@ -56,3 +56,4 @@ workbook.save(dataDir + "AsposeChartWatermarked_Out.xls", SaveFormat.EXCEL_97_TO
 Per ulteriori dettagli, visita [Aggiungi una filigrana con WordArt al grafico](/cells/it/java/add-wordart-watermark-to-chart).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

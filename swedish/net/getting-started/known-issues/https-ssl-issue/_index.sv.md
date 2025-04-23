@@ -13,3 +13,4 @@ Vi ändrade HTTP-svarsheaders för att lösa problemet med HTTP-komprimering. De
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-KnowledgeBase-KnownIssues-HTTPSSSLIssue.aspx-SSLIssue.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

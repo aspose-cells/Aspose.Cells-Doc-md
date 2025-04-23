@@ -25,3 +25,4 @@ Aspose.Cellsを使用してVBAコードプロジェクトにデジタル署名�
 - サンプルコードによって生成された出力Excelファイル（5115029.xlsm）
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-DigitallySignVbaProjectWithCertificate-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -5,6 +5,7 @@ weight: 2000
 url: /sv/net/change-adjustment-values-of-the-shape/
 ---
 
+
 {{% alert color="primary" %}}
 
 Aspose.Cells tillhandahåller egenskapen [**Shape.Geometry.ShapeAdjustValues**](https://reference.aspose.com/cells/net/aspose.cells.drawing/geometry/properties/shapeadjustvalues) för att göra ändringar av justeringspunkter med former. I Microsoft Excel-gränssnittet visas justeringar som gula diamantnoder. Till exempel:
@@ -18,6 +19,17 @@ Den här artikeln förklarar användningen av [**Shape.Geometry.ShapeAdjustValue
 
 {{% /alert %}}
 
+## **Ändra justeringsvärden**
+
 Nedan visas ett kodexempel på hur man ändrar justeringsvärden för formen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ChangeShapesAdjustmentValues-1.cs" >}}
+
+## **Hur man ställer in eller ändrar RoundedRectangularCallout-tippunkt i Excel**
+
+Följande kodexempel visar hur man ställer in eller ändrar positionen för ett rundat rektangulärt callout-tippunkt i Excel.
+
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Articles-ManageChartsAndShapes-ChangeShapesAdjustmentValues-2.cs" >}}
+
+
+{{< app/cells/assistant language="csharp" >}}

@@ -15,3 +15,4 @@ url: /zh/net/read-and-write-table-with-query-table-data-source/
 [源文件](96928091.xls)
 
 [输出文件](96928092.xls)
+{{< app/cells/assistant language="csharp" >}}

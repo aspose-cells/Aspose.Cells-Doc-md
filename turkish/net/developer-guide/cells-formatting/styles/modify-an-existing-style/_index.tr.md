@@ -52,3 +52,4 @@ Bu örnek, zaten bir diziye uygulanmış olan bir stil olan Yüzde'nin bulunduğ
 Değişiklikler otomatik olarak uygulanan aralığa uygulanır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ModifyExistingStyle-ModifyThroughSampleExcelFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

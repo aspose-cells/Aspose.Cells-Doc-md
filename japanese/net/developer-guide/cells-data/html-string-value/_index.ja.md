@@ -26,3 +26,4 @@ Aspose.Cellsは、Microsoft Excel指向のHTMLをXLS/XLSX形式に変換する�
 
 - [HTMLを設定して箇条書きを表示](/cells/ja/net/display-bullets-by-setting-cell-value-using/)
 - [セルからHTML5文字列を取得](/cells/ja/net/get-html5-string-from-cell/)
+{{< app/cells/assistant language="csharp" >}}

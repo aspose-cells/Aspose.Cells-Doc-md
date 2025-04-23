@@ -145,3 +145,4 @@ keywords: C# استيراد البيانات في صفحة عمل، استيرا
 ## **مواضيع متقدمة**
 - [تحديد حقول الصيغة أثناء استيراد البيانات إلى الورقة العمل](/cells/ar/net/specify-formula-fields-while-importing-data-to-worksheet/)
 - [نقل الصف الأول إلى الأسفل عند إدراج صفوف بيانات الخلايا](/cells/ar/net/shift-first-row-down-when-inserting-cells-data-table-rows/)
+{{< app/cells/assistant language="csharp" >}}

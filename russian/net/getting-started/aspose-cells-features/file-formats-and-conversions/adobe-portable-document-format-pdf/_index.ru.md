@@ -24,3 +24,4 @@ url: /ru/net/adobe-portable-document-format-pdf/
 - Объединенные ячейки, переносы страниц, заголовки страниц
 
 Вы также можете просмотреть [подробную спецификацию](https://docs.aspose.com/cells/net/convert-excel-workbook-to-pdf/) о том, как Aspose.Cells преобразует документ в PDF.
+{{< app/cells/assistant language="csharp" >}}

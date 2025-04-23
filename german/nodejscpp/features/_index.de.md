@@ -4,15 +4,15 @@ type: docs
 weight: 5
 url: /de/nodejs-cpp/features/
 keywords: "nodejs, excel, api, features"
-description: "Aspose.Cells für Node.js über C++ Funktionen."
+description: "Aspose.Cells for Node.js via C++ Funktionen."
 ---
 
-## **Aspose.Cells für Node.js über C++ Funktionenübersicht**
-Dieser Abschnitt bietet einen Vergleich der Verfügbarkeit von Funktionen zwischen Aspose.Cells for C++ und Aspose.Cells für Node.js über C++.
+## **Aspose.Cells for Node.js via C++ Funktionsübersicht**
+Dieser Abschnitt bietet einen Vergleich der Verfügbarkeit von Funktionen zwischen Aspose.Cells for C++ und Aspose.Cells for Node.js via C++.
 ### **Dateiformate und Konvertierungen**
 Viele Kunden weltweit verlassen sich auf die gründlichen Import- und Exportfunktionen von Aspose.Cells bereitgestellt.
 
-|**Funktion**|**Beschreibung**|**Aspose.Cells for C++**|**Aspose.Cells für Node.js über C++**|
+|**Funktion**|**Beschreibung**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- | :- |
 |Hochwertige Konvertierungen|Schnell und zuverlässig zwischen mehreren gängigen Dokumentenformaten konvertieren.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Microsoft Excel Arbeitsbuch (XLS)|Die schnellste und umfassendste XLS-Formatimplementierung, die Sie finden können.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -26,21 +26,21 @@ Viele Kunden weltweit verlassen sich auf die gründlichen Import- und Exportfunk
 ### **Rendern und Drucken**
 Aspose.Cells bietet jetzt eine hochwertige Rendering von Tabellenseiten.
 
-|**Funktion**|**Aspose.Cells for C++**|**Aspose.Cells für Node.js über C++**|
+|**Funktion**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
 |Dokument in Seiten mit hoher Treue zu Microsoft Excel® layouten (genau wie es Microsoft Excel® machen würde).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Arbeitsblattseiten als Rasterbilder rendern (PNG, JPEG usw.).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Arbeitsblattseiten als Rasterbilder (Mehrseitige TIFF, GIF) rendern.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Tabellenseiten in Vektorbilder rendern (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Bildauflösung, Qualität, Kompression und andere Optionen angeben.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Tabellenseiten mit der C++-Druckinfrastruktur drucken.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Drucken von Tabellenblattseiten mit der C++-Druckinfrastruktur.|{{< emoticons/cross >}}|{{< emoticons/cross >}}|
 |Aktualisieren Sie die Seitenzahlen und andere Felder vor dem Rendern oder Drucken.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Tabelleninhalt Funktionen**
 Aspose.Cells bietet ein reichhaltiges Objektmodell mit über 100 öffentlichen Klassen/Schnittstellen, mit denen Sie Tabellenkalkulationen programmgesteuert generieren, kombinieren, modifizieren, analysieren oder anderweitig untersuchen können, die geladene Tabellenkalkulation. Einige wichtige Funktionen sind in der unten stehenden Tabelle aufgeführt.
 
-|**Funktion**|**Aspose.Cells for C++**|**Aspose.Cells für Node.js über C++**|
+|**Funktion**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
-|Importieren/Exportieren von Daten aus einem Array, ArrayList, ResultSet usw.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Datenimport/-export aus einem Array, ArrayList, ResultSet usw.|{{< emoticons/cross >}}|{{< emoticons/cross >}}|
 |Eine Kopie eines vorhandenen Arbeitsblatts hinzufügen (alle Inhalte einschließlich Bilder, Diagramme, andere Objekte usw.)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Arbeitsblätter innerhalb oder zwischen Arbeitsmappen kopieren oder verschieben|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Bilder einfügen|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -77,7 +77,7 @@ Aspose.Cells bietet ein reichhaltiges Objektmodell mit über 100 öffentlichen K
 ### **Tabellenkalkulation-Formatierungsfunktionen**
 Aspose.Cells bietet einen detaillierten programmiertechnischen Zugriff auf die Formatierungseigenschaften aller Tabellenkalkulationselemente.
 
-|**Funktion**|**Aspose.Cells for C++**|**Aspose.Cells für Node.js über C++**|
+|**Funktion**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
 |Alle Zeichenformatierungen in den Zellen anwenden, einschließlich Schriftarten, Farben, Effekte, Rahmen und Füllungen.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Alle Einstellungen für die Zahlenformate (unterstützt in Microsoft Excel) für die Zellen anwenden.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -91,7 +91,7 @@ Aspose.Cells bietet einen detaillierten programmiertechnischen Zugriff auf die F
 ### **Seiteneinrichtungs-Funktionen**
 Mit Aspose.Cells können Sie Seiteneinrichtungsoptionen für Arbeitsblätter implementieren.
 
-|**Funktion**|**Aspose.Cells for C++**|**Aspose.Cells für Node.js über C++**|
+|**Funktion**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
 |Passen Sie Ihre Seitenorientierung, Skalierung, Papiergröße an.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Geben Sie Ihre Ränder und das zentrierte Seitenlayout an.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

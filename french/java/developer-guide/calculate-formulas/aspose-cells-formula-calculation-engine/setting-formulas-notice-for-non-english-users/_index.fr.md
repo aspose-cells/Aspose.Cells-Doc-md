@@ -17,3 +17,4 @@ Il y a deux conseils que les utilisateurs non anglophones doivent suivre lors de
    Pour certaines options ou paramètres linguistiques, le délimiteur des paramètres de fonction est un point-virgule, mais Aspose.Cells utilise le style anglais de la virgule. Par exemple, utilisez "=IF (C5=0,0,C3/C4)" et non "=IF(C5=0;0;C3/C4)". 
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

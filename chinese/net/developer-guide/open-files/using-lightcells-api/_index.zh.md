@@ -48,3 +48,4 @@ Aspose.Cells 提供了一个接口，LightCellsDataHandler，需要在您的程�
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingLightCellsAPI-ReadingLargeExcelFile.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

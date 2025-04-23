@@ -21,12 +21,19 @@ La formattazione condizionale può:
 
 Aspose.Cells supporta pienamente la formattazione condizionale fornita da Microsoft Excel 2007 e versioni successive in formato XLSX sulle celle in fase di esecuzione. Questo esempio dimostra un esercizio per tipi avanzati di formattazione condizionale, tra cui IconSets, DataBars, Color Scales, TimePeriods, Top/Bottom e altre regole con diversi insiemi di attributi.
 
+- [**Adding Color Scale Conditional Formattings**](/cells/it/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/)
+- [**Adding Above Average Conditional Formattings**](/cells/it/net/how-to-add-above-average-conditional-formatting/)
+- [**Adding DataBars Conditional Formattings**](/cells/it/net/how-to-add-databars-conditional-formatting/)
+- [**Adding IonSets Conditional Formattings**](/cells/it/net/how-to-add-icon-sets-conditional-formatting/)
+- [**Adding Text Conditional Formattings**](/cells/it/net/how-to-add-text-conditional-formatting/)
+- [**Adding TimePeriods Conditional Formattings**](/cells/it/net/how-to-add-time-periods-conditional-formatting/)
+- [**Adding Top10 Conditional Formattings**](/cells/it/net/how-to-add-top10-conditional-formatting/)
 
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConditionalFormatting-1.cs" >}}
 ### **Calcola il colore scelto da Microsoft Excel per la formattazione condizionale delle scale di colore**
 Aspose.Cells ti permette di calcolare il colore selezionato da Microsoft Excel quando viene utilizzata la formattazione condizionale delle scale di colore in un file modello. Vedere il codice di esempio di seguito per imparare come calcolare il colore selezionato da Microsoft Excel.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ComputeColorChoosenByMSExcel-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

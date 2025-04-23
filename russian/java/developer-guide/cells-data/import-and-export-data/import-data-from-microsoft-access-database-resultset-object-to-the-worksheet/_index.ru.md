@@ -28,8 +28,9 @@ Aspose.Cells может импортировать данные на листы 
 
 ![todo:image_alt_text](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_1.png)
 ## **Импорт данных из базы данных Microsoft Access в объект ResultSet в рабочем листе.**
-Следующий образец кода выполняет SQL-запрос из базы данных Microsoft Access и создает объект ResultSet. Затем он импортирует данные из объекта ResultSet в рабочий лист, используя метод [Worksheet.getCells().importResultSet()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importResultSet\(java.sql.ResultSet,%20int,%20int,%20boolean\)). Первый раз используются индексы строк и столбцов, а затем используется имя ячейки для импорта данных в рабочий лист. Наконец, сохраняется книга как [Выходной файл Excel](48496713.xlsx). На скриншоте показано воздействие образца кода на выходной файл Excel для справки.
+Следующий пример кода выполняет SQL-запрос из базы данных Microsoft Access и создает объект ResultSet. Затем он импортирует данные из объекта ResultSet в рабочий лист с помощью метода [Worksheet.getCells().importResultSet()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importResultSet-java.sql.ResultSet-int-int-boolean-). В первый раз используются индексы строк и столбцов, затем используется имя ячейки для импорта данных в рабочий лист. В конце он сохраняет рабочую книгу как файл Excel [Output Excel File](48496713.xlsx). Скриншот демонстрирует эффект работы примера кода на результирующем Excel-файле для справки.
 
 ![todo:image_alt_text](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_2.png)
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ImportDataFromMicrosoftAccessDatabaseResultSetObjectToWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -26,3 +26,4 @@ Aspose.Cellsを使用してVBAコードプロジェクトが署名されてい�
 Is VBA Code Project Signed: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

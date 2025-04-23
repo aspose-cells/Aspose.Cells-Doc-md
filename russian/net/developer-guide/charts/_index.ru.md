@@ -194,3 +194,4 @@ Aspose.Cells предоставляет специальный набор кла
 - [Управление заголовками диаграмм Excel](/cells/ru/net/chart-and-axis-titles/)
 - [Отображение диаграммы](/cells/ru/net/chart-rendering/)
 - [Получить текст уравнения линии тренда диаграммы](/cells/ru/net/get-equation-text-of-chart-trendline/)
+{{< app/cells/assistant language="csharp" >}}

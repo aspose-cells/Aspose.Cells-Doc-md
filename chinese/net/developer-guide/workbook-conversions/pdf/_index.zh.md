@@ -147,3 +147,4 @@ Aspose.Cells for .NET支持将电子表格独立转换为PDF，无需其他软�
 - [将指定的工作表保存为 PDF](/cells/zh/net/save-specified-worksheets-to-pdf/)
 - [安全的PDF文件](/cells/zh/net/secure-pdf-documents/)
 - [指定如何在输出PDF和图像中跨越字符串](/cells/zh/net/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="csharp" >}}

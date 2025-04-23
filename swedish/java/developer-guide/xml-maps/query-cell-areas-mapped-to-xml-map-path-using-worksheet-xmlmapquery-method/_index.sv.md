@@ -7,11 +7,11 @@ url: /sv/java/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquer
 
 ## **Möjliga användningsscenario**
 
-Du kan fråga cellområden kopplade till XML-kartvärdering med Aspose.Cells med hjälp av metoden [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)). Om sökvägen finns, returneras listan över cellområden relaterade till den sökvägen inuti XML-kartan. Första parametern i [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap))-metoden specifierar XML-elementens sökväg och den andra parametern specifierar en XML-karta du vill fråga.
+Du kan fråga cellområden kopplade till XML-kartvärdering med Aspose.Cells med hjälp av metoden [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery-java.lang.String-com.aspose.cells.XmlMap-). Om sökvägen finns, returneras listan över cellområden relaterade till den sökvägen inuti XML-kartan. Första parametern i [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery-java.lang.String-com.aspose.cells.XmlMap-)-metoden specifierar XML-elementens sökväg och den andra parametern specifierar en XML-karta du vill fråga.
 
 ## **Fråga cellområden kopplade till XML-kartvärdering med hjälp av Worksheet.XmlMapQuery-metoden**
 
-Följande skärmbild visar Microsoft Excel som visar XML-kartan i [exempel Excel-filen](55541818.xlsx) som används i koden. Koden frågar XML-kartan två gånger och skriver ut listan över cellområden som returneras av [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)) metoden på konsollen, som visas nedan.
+Följande skärmbild visar Microsoft Excel som visar XML-kartan i [exempel Excel-filen](55541818.xlsx) som används i koden. Koden frågar XML-kartan två gånger och skriver ut listan över cellområden som returneras av [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery-java.lang.String-com.aspose.cells.XmlMap-) metoden på konsollen, som visas nedan.
 
 ![todo:image_alt_text](query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method_1.png)
 
@@ -50,3 +50,4 @@ XML-data kan importeras till arbetsblad. Ibland krävs XML-sökväg från ListOb
 1. [FoodList.xml](FoodList.xml)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-XmlMaps-GetXMLPathFromListObject.java" >}}
+{{< app/cells/assistant language="java" >}}

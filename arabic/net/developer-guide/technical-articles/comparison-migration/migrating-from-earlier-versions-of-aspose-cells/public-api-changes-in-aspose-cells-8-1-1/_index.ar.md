@@ -31,3 +31,4 @@ url: /ar/net/public-api-changes-in-aspose-cells-8-1-1/
 يرجى التحقق من المقال المفصل حول [كيفية إنشاء، تلاعب أو إزالة السيناريوهات من الأوراق العملية](/cells/ar/net/create-manipulate-or-remove-scenarios-from-worksheets/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

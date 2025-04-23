@@ -19,3 +19,4 @@ Bu grafik, ilk (kategori) sütunun hemen ardından bir hacim sütunu içerir ve 
 Aşağıdaki örnek kod [örnek Excel dosyasını](Volume-High-Low-Close.xlsx) yükler ve [çıktı Excel dosyasını](out.xlsx) oluşturur.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-create-volume-high-low-close-stock-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

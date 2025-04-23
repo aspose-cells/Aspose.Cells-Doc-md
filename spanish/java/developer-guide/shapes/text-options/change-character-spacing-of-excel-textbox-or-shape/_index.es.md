@@ -22,3 +22,4 @@ La siguiente captura de pantalla muestra cómo se ve el [archivo de Excel de sal
 ![todo:image_alt_text](change-character-spacing-of-excel-textbox-or-shape_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeCharacterSpacing-ChangeCharacterSpacing.java" >}}
+{{< app/cells/assistant language="java" >}}

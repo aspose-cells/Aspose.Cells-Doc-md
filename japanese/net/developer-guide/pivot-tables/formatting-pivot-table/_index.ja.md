@@ -63,3 +63,4 @@ Microsoft Excel はさまざまなプリセットレポート形式を提供し�
 以下のコードサンプルは、データ領域内のすべてのピボットフィールドをクリアする方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ClearPivotFields-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

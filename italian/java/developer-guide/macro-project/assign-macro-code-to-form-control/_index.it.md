@@ -7,7 +7,7 @@ url: /it/java/assign-macro-code-to-form-control/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells ti consente di assegnare un Codice Macro a un Controllo Modulo come un Pulsante. Si prega di utilizzare il metodo [ShapeCollection.addShape()](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape\(int,%20int,%20int,%20int,%20int,%20int,%20int\)) per assegnare un nuovo Codice Macro a un Controllo Modulo all'interno del workbook.
+Aspose.Cells consente di assegnare un codice macro a un controllo modulo come un pulsante. Utilizzare il metodo [ShapeCollection.addShape()](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-) per assegnare un nuovo codice macro a un controllo modulo all'interno del workbook.
 
 {{% /alert %}} 
 ## **Assegnare Codice Macro al Controllo Modulo usando Aspose.Cells**
@@ -26,3 +26,4 @@ End Sub
 Ecco un codice di esempio per generare un file XLSM di output con Codice Macro.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AssignMacroToFormControl-AssignMacroToFormControl.java" >}}
+{{< app/cells/assistant language="java" >}}

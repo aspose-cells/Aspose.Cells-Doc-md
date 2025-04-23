@@ -57,3 +57,4 @@ Bir TIFF görüntüsü birden fazla çerçeve içerebilir. Tüm çalışma kitab
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingImageOrPrintOptions-UseWorkbookRenderForImageConversion-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

@@ -29,3 +29,4 @@ Detta exempel visar hur man:
 1. Ange den yttre gränsen för området.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Range-set-border.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

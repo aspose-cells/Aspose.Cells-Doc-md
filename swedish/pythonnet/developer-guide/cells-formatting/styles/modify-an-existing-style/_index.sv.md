@@ -1,0 +1,55 @@
+---
+title: Modifiera en befintlig stil
+description: Aspose.Cells är ett Python bibliotek för att arbeta med kalkylbladsfiler som tillåter användare att modifiera befintliga cellstilar. Denna artikel introducerar hur man modifierar en befintlig cellstil med Aspose.Cells för Python via .NET så att användare kan ändra cellernas utseende efter behov.
+keywords: Modifiera befintliga stilar, anpassa utseendet på din applikation, guider, handledningar, hjälpdokumentation, utvecklingsdokumentation, API referenser, exempelkod, nedladdningar, support.
+type: docs
+weight: 90
+url: /sv/python-net/modify-an-existing-style/
+---
+
+{{% alert color="primary" %}}
+
+För att tillämpa samma formatering på celler, skapa ett ny formateringsstilobjekt. Ett formateringsstilobjekt är en kombination av formateringsegenskaper, såsom font, fontstorlek, indragning, nummer, kant, mönster etc., namngivet och lagrat som en uppsättning. När den appliceras tillämpas alla formatmallar i den stilen.
+
+Du kan också använda en befintlig stil, spara den med arbetsboken och använda den för att formatera information med samma egenskaper.
+
+När celler inte är explicit formaterade, tillämpas den **Normal** stilen (arbetsbokens standardstil). Microsoft Excel fördefinierar flera stilar förutom Normal-stilen, inklusive Komma, Valuta och Procent.
+
+Aspose.Cells för Python via .NET möjliggör modifiering av någon av dessa stilar eller någon annan stil som du definierar med önskade attribut.
+
+{{% /alert %}}
+
+## **Använda Microsoft Excel**
+
+För att uppdatera en stil i Microsoft Excel 97-2003:
+
+1. På **Format**-menyn, klicka på **Stil**.
+1. Välj den stil du vill modifiera från listan över **Stilnamn**.
+1. Klicka på **Ändra**.
+1. Välj de stilalternativ du vill använda med flikarna i dialogrutan Formatcells.
+1. Klicka på **OK**.
+1. Under **Stilen innehåller**, ange stilfunktionerna du vill använda.
+1. Klicka på **OK** för att spara stilen och tillämpa den på det valda området.
+
+## **Användning av Aspose.Cells för Python via .NET**
+
+Följande exempel demonstrerar hur man använder [**Style.update**](https://reference.aspose.com/cells/python-net/aspose.cells/style/update)-metoden.
+
+### **Skapa och modifiera en stil**
+
+Detta exempel skapar en [**Style**](https://reference.aspose.com/cells/python-net/aspose.cells/style)-objekt, tillämpar det på en cellomfattning och modifierar [**Style**](https://reference.aspose.com/cells/python-net/aspose.cells/style)-objektet. Modifieringarna tillämpas automatiskt på cellen och området som stilen applicerades på.
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-ModifyThroughStyleObject-1.py" >}}
+
+### **Modifiera en befintlig stil**
+
+Detta exempel använder en enkel mall Excel-fil där en stil som heter Procent redan har tillämpats på en omfattning. Exemplet:
+
+1. hämtar stilen,
+1. skapar en stilobjekt och
+1. modifierar stilformatering.
+
+Modifieringarna tillämpas automatiskt på området där stilen applicerades.
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-ModifyThroughSampleExcelFile-1.py" >}}
+

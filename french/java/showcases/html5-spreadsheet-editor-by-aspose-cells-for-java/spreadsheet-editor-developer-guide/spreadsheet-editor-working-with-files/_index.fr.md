@@ -811,3 +811,4 @@ La feuille de calcul ouverte est convertie au format spécifié par l'utilisateu
 
 
 
+{{< app/cells/assistant language="java" >}}

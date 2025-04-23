@@ -51,3 +51,4 @@ Um die Trennung des Arbeitsblatts zu entfernen, klicken Sie einfach erneut auf d
 Aspose.Cells for .Net bietet eine Methode [**Worksheet.RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/removesplit/) zum Entfernen der Trennungseinstellung.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Remove-Split.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

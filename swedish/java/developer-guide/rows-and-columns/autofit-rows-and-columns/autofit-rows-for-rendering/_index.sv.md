@@ -18,3 +18,4 @@ Om du vill förhindra att texten klipps i den sparade PDF-filen kan du autofits 
 Nu är texten inte klippt i den här PDF-filen.
 
 ![text klipps inte i sparad pdf](text_klipps_inte_i_sparad_pdf.png)
+{{< app/cells/assistant language="java" >}}

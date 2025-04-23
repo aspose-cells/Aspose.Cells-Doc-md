@@ -38,3 +38,4 @@ Ver el archivo [PDF](48496673.pdf) de salida después de establecer la propiedad
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Fonts-SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

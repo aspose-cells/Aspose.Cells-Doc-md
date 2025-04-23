@@ -266,3 +266,4 @@ link = links.GetHyperlink(0, 3);
 يرجى النظر في استخدام خاصية FilterColumns في AutoFilter لتحقيق نفس الهدف.
 ### **خاصية Rotation في TickLabels تم حذفها**
 الرجاء استخدام خاصية RotationAngle في TickLabels بدلاً من ذلك.
+{{< app/cells/assistant language="csharp" >}}

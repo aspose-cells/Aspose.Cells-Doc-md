@@ -164,3 +164,4 @@ fill.getSolidFill().setColor(Color.getBlue());
 الرجاء استخدام ملكية Shape.Fill بدلاً من ذلك.
 ### **خاصية ShapeFont لـ FontSetting غير مستخدمة**
 الرجاء استخدام ملكية TextOptions لـ FontSetting بدلاً من ذلك.
+{{< app/cells/assistant language="java" >}}

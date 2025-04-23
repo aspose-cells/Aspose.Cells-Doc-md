@@ -49,3 +49,4 @@ System.out.println("Name of the cell containing String: " + cell.getName());
 Daha fazla bilgi için [Veri Bulma veya Arama](/cells/tr/java/find-or-search-data)'yı ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

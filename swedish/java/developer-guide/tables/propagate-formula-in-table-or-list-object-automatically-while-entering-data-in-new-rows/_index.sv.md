@@ -11,3 +11,4 @@ Ibland vill du att en formel i din tabell eller listobjekt automatiskt sprider s
 Följande exempelkod skapar en tabell eller listobjekt på ett sådant sätt att formeln i kolumn B automatiskt sprider sig till nya rader när du matar in nya data. Vänligen kontrollera resultatet för excelfilen som genereras med denna kod. Om du anger något nummer i cell A3, kommer du att se att formeln i cell B2 automatiskt sprider sig till cell B3.
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PropagateFormulaInTableorListObject-PropagateFormulaInTableorListObject.java" >}}
+{{< app/cells/assistant language="java" >}}

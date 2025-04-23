@@ -83,3 +83,4 @@ url: /sv/net/microsoft-excel-spreadsheet-management-library/
 ### **Stödda plattformar**
 - Skrivbordsapplikation för Windows
 - Företagswebbapplikation
+{{< app/cells/assistant language="csharp" >}}

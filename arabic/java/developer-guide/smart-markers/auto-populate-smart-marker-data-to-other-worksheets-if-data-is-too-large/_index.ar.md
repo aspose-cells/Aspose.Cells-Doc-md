@@ -11,8 +11,9 @@ url: /ar/java/auto-populate-smart-marker-data-to-other-worksheets-if-data-is-too
 
 ## **تعبئة التلقائية لبيانات علامات ذكاء إلى صفحات العمل الأخرى إذا كانت البيانات كبيرة جدًا**
 
-كود العينة التالي يحتوي على مصدر بيانات يحتوي على 21 سجلًا. نريد عرض 15 سجلًا فقط في ورقة العمل الواحدة، ثم سينتقل باقي السجلات تلقائيًا إلى الورقة العمل الثانية. يرجى ملاحظة، يجب أن تحتوي الورقة العمل الثانية أيضًا على نفس علامة المرشح الذكية ويجب عليك استدعاء الطريقة [**WorkbookDesigner.process(sheetIndex, isPreserved)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process(int,%20boolean)) من أجل كل من الصفحتين. يُرجى التحقق من [ملف قاعدة بيانات Microsoft Access](60489777.accdb) المستخدم في هذا الكود بالإضافة إلى [ملف Excel الناتج](60489786.xlsx) الذي تولده الكود كمرجع.
+كود العينة التالي يحتوي على مصدر بيانات يحتوي على 21 سجلًا. نريد عرض 15 سجلًا فقط في ورقة العمل الواحدة، ثم سينتقل باقي السجلات تلقائيًا إلى الورقة العمل الثانية. يرجى ملاحظة، يجب أن تحتوي الورقة العمل الثانية أيضًا على نفس علامة المرشح الذكية ويجب عليك استدعاء الطريقة [**WorkbookDesigner.process(sheetIndex, isPreserved)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process-int-boolean-) من أجل كل من الصفحتين. يُرجى التحقق من [ملف قاعدة بيانات Microsoft Access](60489777.accdb) المستخدم في هذا الكود بالإضافة إلى [ملف Excel الناتج](60489786.xlsx) الذي تولده الكود كمرجع.
 
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "SmartMarkers-AutoPopulateSmartMarkerDataToOtherWorksheets.java" >}}
+{{< app/cells/assistant language="java" >}}

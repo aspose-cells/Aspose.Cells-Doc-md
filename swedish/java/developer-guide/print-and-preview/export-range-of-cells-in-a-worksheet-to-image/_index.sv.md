@@ -28,3 +28,4 @@ Att utföra koden skapar en bild av området E8:H10 endast.
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ExportRangeofCells-1.java" >}}
 
 Du kan också hitta artikeln [Konvertera arbetsblad till olika bildformat](/cells/sv/java/converting-worksheet-to-different-image-formats/) hjälpsam.
+{{< app/cells/assistant language="java" >}}

@@ -35,3 +35,4 @@ Excelチャートでは、水平軸と垂直軸が最も人気のある軸です
 - [目盛りラベル方向の変更](/cells/ja/java/change-tick-label-direction/)
 - [チャートに存在する軸を特定する](/cells/ja/java/determine-which-axis-exists-in-the-chart/)
 - [Microsoft Excelのようにチャートの軸の自動単位を処理する](/cells/ja/java/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
+{{< app/cells/assistant language="java" >}}

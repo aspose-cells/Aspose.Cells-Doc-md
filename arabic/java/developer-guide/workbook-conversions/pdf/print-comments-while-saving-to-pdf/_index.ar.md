@@ -19,9 +19,9 @@ url: /ar/java/print-comments-while-saving-to-pdf/
 
 Aspose.Cells توفر الأنماط التالية لدعم طباعة التعليقات أثناء حفظ المستند كملف PDF
 
-- [**PrintCommentsType.PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS)
-- [**PrintCommentsType.PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)
-- [**PrintCommentsType.PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_SHEET_END)
+- [**PrintCommentsType.PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-NO-COMMENTS)
+- [**PrintCommentsType.PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-IN-PLACE)
+- [**PrintCommentsType.PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-SHEET-END)
 
 ## مقتطف الكود
 
@@ -32,3 +32,4 @@ Aspose.Cells توفر الأنماط التالية لدعم طباعة التع
 ## مقالات ذات صلة
 
 - [تحويل ملف Excel إلى تنسيق PDF متوافق مع PDFA-1a](/cells/ar/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+{{< app/cells/assistant language="java" >}}

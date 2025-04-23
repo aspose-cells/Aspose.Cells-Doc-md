@@ -22,3 +22,4 @@ När koden körs sparar den en utdatafil med en bildhyperlänk i den.
 ![todo:image_alt_text](add-image-hyperlinks_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddImageHyperlinks-AddImageHyperlinks.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -33,3 +33,4 @@ description: حماية وفك حماية هيكل ورق العمل لملفا�
 {{% alert color="primary" %}}
 ملاحظة: كلمة مرور صحيحة مطلوبة.
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

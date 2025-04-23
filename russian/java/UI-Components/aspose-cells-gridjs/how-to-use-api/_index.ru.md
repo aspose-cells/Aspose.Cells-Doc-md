@@ -17,10 +17,10 @@ aliases:
 
 # Работа с сервером GridJs
 ## 0. установите правильный путь к папке в Config
- **`Config.setFileCacheDirectory`** для кэш-файла рабочей книги (обязательно).
- **`Config.setPictureCacheDirectory`**  для кэша изображений в рабочей книге (необязательно, значение по умолчанию _piccache в каталоге кэш-файлов).
+ **`Config.setFileCacheDirectory`** для файла кеша рабочей книги (обязательно).
+ **`Config.setPictureCacheDirectory`** для кеша файлов изображений в рабочей книге (опционально, значение по умолчанию _piccache в директории кеша файла).
 
-для подробной информации о хранении, пожалуйста, ознакомьтесь с этим [руководством](/java/aspose-cells-gridjs/storage/)
+для деталей хранилища, пожалуйста, ознакомьтесь с этим [руководством](/java/aspose-cells-gridjs/storage/)
 
 ## 1. Реализация GridCacheForStream
 Для локального хранения файлов вот пример:
@@ -72,7 +72,7 @@ public class LocalFileCache extends GridCacheForStream {
 }
 ```
 
-## 2. Запись JSON из файла таблицы в поток ответа.
+## 2. Записать json из файла таблицы в поток ответа.
 ```JAVA
             GridJsWorkbook wbj = new GridJsWorkbook();
             try (GZIPOutputStream gzipOutputStream = new GZIPOutputStream(response.getOutputStream())) {

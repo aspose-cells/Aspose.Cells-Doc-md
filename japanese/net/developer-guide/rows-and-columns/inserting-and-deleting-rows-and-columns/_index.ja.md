@@ -76,3 +76,4 @@ Aspose.Cellsには、Microsoft Excelファイルを表す[**Workbook**](https://
 ワークシートから任意の位置に列を削除するには、[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) コレクションの[**DeleteColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) メソッドを呼び出します。[**DeleteColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) メソッドは削除する列のインデックスを取ります。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-DeletingAColumn-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

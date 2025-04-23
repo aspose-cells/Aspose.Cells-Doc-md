@@ -34,3 +34,4 @@ Textfiler innehåller kalkyleringsdata utan formatering. Filen är en typ av ren
 ## **Fortsatta ämnen**
 - [Behåll separatorer för tomma rader vid export av kalkylblad till CSV-format](/cells/sv/net/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [Rensa ledande blanka rader och kolumner vid export av kalkylblad till CSV-format](/cells/sv/net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+{{< app/cells/assistant language="csharp" >}}

@@ -20,7 +20,7 @@ Microsoft Excelと同様に、Aspose.Cellsもセルのフォント設定を構�
 ## **フォント設定の構成**
 Aspose.Cellsでは、Microsoft Excelファイルを表す [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) クラスが提供されています。[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) クラスには、Excelファイル内の各ワークシートにアクセスできる [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) が含まれています。ワークシートは [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) クラスによって表されます。[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) クラスは [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションを提供します。[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクション内の各アイテムは [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) クラスのオブジェクトを表します。
 
-Aspose.Cellsは[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) クラスの [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) メソッドを提供しており、これを使用してセルの書式設定を行います。また、 [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) クラスのオブジェクトはフォント設定を構成するためのプロパティを提供しています。
+Aspose.Cellsは、[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)クラスの[setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle-com.aspose.cells.Style-)メソッドを提供し、セルの書式設定を行います。また、[Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)クラスのオブジェクトはフォント設定を構成するためのプロパティを提供します。
 
 この記事では以下を紹介します：
 
@@ -53,21 +53,21 @@ Aspose.Cellsは[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/c
 |[SINGLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#SINGLE)|一重下線|
 |[DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE)|二重下線|
 |[ACCOUNTING](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#ACCOUNTING)|一重財務用下線|
-|[DOUBLE_ACCOUNTING](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE_ACCOUNTING)|二重財務用下線|
+|[DOUBLE_ACCOUNTING](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE-ACCOUNTING)|二重会計下線|
 |[DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH)|破線の下線|
-|[DASH_DOT_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_DOT_DOT_HEAVY)|太いダッシュ・ドット・ドット下線|
-|[DASH_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_DOT_HEAVY)|太いダッシュ・ドット下線|
-|[DASHED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASHED_HEAVY)|太い破線下線|
-|[DASH_LONG](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG)|長い破線下線|
-|[DASH_LONG_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG_HEAVY)|太い長い破線下線|
-|[DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DASH)|ダッシュ・ドット下線|
-|[DOT_DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DOT_DASH)|ダッシュ・ドット・ドット下線|
+|[DASH_DOT_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH-DOT-DOT-HEAVY)|太い点線2重下線|
+|[DASH_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH-DOT-HEAVY)|太い点線下線|
+|[DASHED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASHED-HEAVY)|太い破線下線|
+|[DASH_LONG](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH-LONG)|長破線下線|
+|[DASH_LONG_HEAVY](https(https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH-LONG-HEAVY)|太い長破線下線|
+|[DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT-DASH)|点線破線下線|
+|[DOT_DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT-DOT-DASH)|点点破線下線|
 |[DOTTED](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED)|点線下線|
-|[DOTTED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED_HEAVY)|太い点線下線|
+|[DOTTED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED-HEAVY)|太い点線下線|
 |[HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#HEAVY)|太い下線|
 |[WAVE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVE)|ウェーブ下線|
-|[WAVY_DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_DOUBLE)|二重ウェーブ下線|
-|[WAVY_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_HEAVY)|太いウェーブ下線|
+|[波状ダブル](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY-DOUBLE)|ダブル波線下線|
+|[波状ヘビー](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY-HEAVY)|ヘビーウェーブ下線|
 |[WORDS](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WORDS)|非空白文字の下線|
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontUnderlineType-SettingFontUnderlineType.java" >}}
 
@@ -102,3 +102,4 @@ Aspose.Cellsは[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/c
 ## **高度なトピック**
 - [フォントに上付き文字および下付き文字効果を適用する](/cells/ja/java/apply-superscript-and-subscript-effects-on-fonts/)
 - [スプレッドシートまたはブックで使用されているフォントのリストを取得する](/cells/ja/java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
+{{< app/cells/assistant language="java" >}}

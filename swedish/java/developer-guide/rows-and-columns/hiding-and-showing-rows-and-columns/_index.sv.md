@@ -10,7 +10,7 @@ Ibland kan det även vara önskvärt av användare att dölja vissa rader eller 
 ## **Kontrollera synligheten för rader och kolumner**
 Aspose.Cells tillhandahåller en klass, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), som representerar en Microsoft Excel-fil. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-klassen innehåller en [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) som ger åtkomst till varje arbetsblad i Excel-filen. Ett arbetsblad representeras av [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)-klassen. [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)-klassen tillhandahåller en [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-kollektion som representerar alla celler i arbetsbladet. [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)[ ](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-kollektionen tillhandahåller flera metoder för att hantera rader eller kolumner i ett arbetsblad. Några av dessa diskuteras nedan.
 ### **Dölja rader eller kolumner**
-Utvecklare kan dölja en rad eller kolumn genom att anropa [HideRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#hideRow\(int\)) och [HideColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#hideColumn\(int\)) -metoderna från [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-kollektionen respektive. Båda metoderna tar rad-/kolumnindex som parameter för att dölja den specifika raden eller kolumnen.
+Utvecklare kan dölja en rad eller kolumn genom att anropa metoderna [HideRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#hideRow-int-) och [HideColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#hideColumn-int-) i [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) samlingen. Båda metoderna tar indexet för raden/kolumnen som parameter för att dölja den specifika raden eller kolumnen.
 
 {{% alert color="primary" %}} 
 
@@ -20,7 +20,7 @@ Observera: Det går även att dölja en rad eller kolumn om vi anger radhöjden 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-HidingRowsandColumns-HidingRowsandColumns.java" >}}
 ### **Visa rader och kolumner**
-Utvecklare kan visa alla dolda rader eller kolumner genom att anropa [UnhideRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unhideRow\(int,%20double\)) och [UnhideColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unhideColumn\(int,%20double\))-metoderna från [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-kollektionen respektive. Båda metoderna tar två parametrar:
+Utvecklare kan visa dolda rader eller kolumner genom att anropa metoderna [UnhideRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unhideRow-int-double-) och [UnhideColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unhideColumn-int-double-) i [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) samlingen. Båda metoderna tar två parametrar:
 
 - **Rad- eller kolumnindex** - index för en rad eller kolumn som används för att visa den specifika raden eller kolumnen.
 - **Radhöjd eller kolumnbredd** - radhöjden eller kolumnbredden tilldelad till raden eller kolumnen efter att den har visats.
@@ -34,3 +34,4 @@ Utvecklare kan visa alla dolda rader eller kolumner genom att anropa [UnhideRow]
 När en gömd kolumn/rad görs synlig och om du behöver återställa dess tidigare tilldelade bredd eller höjd, eller dess ursprungliga bredd eller höjd, vänligen visa kolumnen eller raden med negativ bredd eller höjd. Till exempel kan arbetsblad.getCells().unhideColumn(5, -1) användas för att återställa en gömd kolumn till ursprunglig bredd.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

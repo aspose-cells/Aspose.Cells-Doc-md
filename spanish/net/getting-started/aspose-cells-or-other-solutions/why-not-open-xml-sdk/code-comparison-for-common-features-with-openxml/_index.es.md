@@ -20,3 +20,4 @@ Esta sección incluye los siguientes temas
 - [Abrir un documento de hoja de cálculo desde un flujo de datos](/cells/es/net/open-a-spreadsheet-document-from-a-stream/)
 - [Obtener un diccionario de todos los rangos con nombre en un documento de hoja de cálculo](/cells/es/net/retrieve-a-dictionary-of-all-named-ranges-in-a-spreadsheet-document/)
 - [Obtener los valores de las celdas](/cells/es/net/retrieve-the-values-of-cells/)
+{{< app/cells/assistant language="csharp" >}}

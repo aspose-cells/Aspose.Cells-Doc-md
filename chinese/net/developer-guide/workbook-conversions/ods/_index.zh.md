@@ -23,3 +23,4 @@ Aspose.Cells支持将Excel文件转换为Ods、Sxc和Fods文件。下面的代�
 ## **高级主题**
 - [按照ODF 1.1和1.2规范保存ODS文件](/cells/zh/net/save-ods-file-in-odf-1-1-and-1-2-specifications/)
 - [在ODS文件中处理背景](/cells/zh/net/working-with-background-in-ods-files/)
+{{< app/cells/assistant language="csharp" >}}

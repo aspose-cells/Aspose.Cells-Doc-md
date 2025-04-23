@@ -28,3 +28,4 @@ Der folgende Code zeigt, wie man Aspose.Cells verwendet, um ein Arbeitsblatt in 
 
 
 
+{{< app/cells/assistant language="java" >}}

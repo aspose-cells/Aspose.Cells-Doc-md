@@ -30,3 +30,4 @@ Aspose.Cells proporciona la misma funcionalidad que Microsoft Excel para agregar
 - [Formato y Modificación de Rangos con Nombre](/cells/es/net/format-and-modify-named-ranges/)
 - [Obtener Rango con Vínculos Externos](/cells/es/net/get-range-with-external-links/)
 - [Implementación de Rangos No Secuenciales](/cells/es/net/implementing-non-sequential-ranges/)
+{{< app/cells/assistant language="csharp" >}}

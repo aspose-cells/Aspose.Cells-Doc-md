@@ -39,3 +39,4 @@ Los siguientes códigos muestran cómo renderizar el rango de visualización má
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Get-Max-Display-Range.cs" >}}
 
 Aquí está el [archivo de excel fuente](Book1.xlsx).
+{{< app/cells/assistant language="csharp" >}}

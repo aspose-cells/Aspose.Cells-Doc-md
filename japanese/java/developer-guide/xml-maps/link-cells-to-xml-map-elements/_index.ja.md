@@ -7,7 +7,7 @@ url: /ja/java/link-cells-to-xml-map-elements/
 
 ## **可能な使用シナリオ**
 
-Aspose.Cellsを使用して、セルをXMLマップ要素にリンクできます。この目的のためには[**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap(java.lang.String,%20int,%20int,%20java.lang.String))メソッドを使用してください。
+Aspose.Cellsを使用して、セルをXMLマップ要素にリンクできます。この目的のためには[**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap-java.lang.String-int-int-java.lang.String-)メソッドを使用してください。
 
 ## **セルをXMLマップ要素にリンクする**
 
@@ -20,3 +20,4 @@ Aspose.Cellsを使用して、セルをXMLマップ要素にリンクできま�
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LinkCellstoXmlMapElements-LinkCellstoXmlMapElements.java" >}}
+{{< app/cells/assistant language="java" >}}

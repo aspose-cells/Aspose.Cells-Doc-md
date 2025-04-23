@@ -19,3 +19,4 @@ También puedes cambiar la alineación del texto dentro de una forma de cuadro d
 [archivo fuente](SampleTextboxExcel2016.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "ApplyPartialTextAlignmentToTextBox.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

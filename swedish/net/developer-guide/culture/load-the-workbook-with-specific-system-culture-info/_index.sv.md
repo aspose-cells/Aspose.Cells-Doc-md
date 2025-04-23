@@ -20,3 +20,4 @@ Följande exempelkod visar hur man laddar arbetsboken med specifik systemkulturs
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LoadWorkbookWithSpecificCultureInfoNumberFormat-LoadWorkbookWithSpecificCultureInfoNumberFormat.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

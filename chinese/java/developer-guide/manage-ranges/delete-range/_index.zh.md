@@ -13,7 +13,7 @@ url: /zh/java/delete-ranges-from-Excel/
 
 ## **使用Aspose.Cells删除范围**
 
-Aspose.Cells 提供 [Cells.DeleteRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRange(int,%20int,%20int,%20int,%20int)) 方法来删除一个区域。
+Aspose.Cells 提供 [Cells.DeleteRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRange-int-int-int-int-int-) 方法，用于删除范围。
 
 ## **删除范围并向左移动单元格**
 
@@ -27,3 +27,4 @@ Aspose.Cells 提供 [Cells.DeleteRange](https://reference.aspose.com/cells/java/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Delete-Range-Up.java" >}}
 
+{{< app/cells/assistant language="java" >}}

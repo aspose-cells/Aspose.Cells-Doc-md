@@ -3,21 +3,21 @@ title: Sayfaları ve Tabları Gösterme ve Gizleme
 type: docs
 weight: 10
 url: /tr/python-net/show-and-hide-worksheets-and-tabs/
-description: Bu makale, Aspose.Cells for Python via .NET API sini kullanarak Excel çalışma sayfasını programlı olarak gösterme ve gizleme ile Excel çalışma kitabı sekmelerini nasıl gösterip gizleyeceğinizi sağlayan örnek kodları sağlar.
-keywords: Python Excel Kütüphanesi, Python da Bir Çalışma Sayfasını Gösterme ve Gizleme, Python da Sekmeleri Gösterme ve Gizleme, Python da Sekme Çubuğu Genişliğini Kontrol Etme.
+description: Bu makale, Aspose.Cells for Python via .NET API kullanarak Excel çalışma sayfasını programlı olarak gösterme ve gizleme için örnek kod sağlar. Ayrıca, Excel çalışma kitabı sekmelerini gösterip gizleme işlemleri de anlatılır.
+keywords: Python Excel Kütüphanesi, Python da Çalışma Sayfasını Göster ve Gizle, Sekmeleri Göster ve Gizle, Sekme Çubuğu Genişliğini Kontrol Et.
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET, kullanıcıya çalışma kitabındaki çalışma sayfaları ve sekmeler gibi öğelerin görünürlüğünü gösterme ve gizleme olanağı sağlar.
+Aspose.Cells for Python via .NET, kullanıcıların çalışma kitabının öğelerini görüntüleyip gizlemesine olanak tanır, bunlar arasında çalışma sayfaları ve sekmeler bulunur.
 
 {{% /alert %}}
 
 ## **Bir Çalışma Sayfasını Gösterme ve Gizleme**
 
-Bir Excel dosyası bir veya daha fazla çalışma sayfasına sahip olabilir. Bir Excel dosyası oluşturduğumuzda, üzerinde çalıştığımız Excel dosyasına çalışma sayfaları ekleriz. Bir Excel dosyasındaki her çalışma sayfası, kendi veri ve biçimlendirme ayarları vb. ile diğer çalışma sayfalarından bağımsızdır. Bazı durumlarda, geliştiriciler Excel dosyalarında bazı çalışma sayfalarını gizlemek ve diğerlerini kendi ilgileri için göstermek isteyebilirler. Bu nedenle, **Aspose.Cells for Python via .NET** geliştiricilere Excel dosyalarındaki çalışma sayfalarının görünürlüğünü kontrol etme imkanı sağlar.
+Bir Excel dosyasında bir veya daha fazla çalışma sayfası olabilir. Her oluşturduğumuzda, çalışma kitabına çalışma sayfaları ekleriz ve onlarda çalışırız. Her çalışma sayfası, kendi verileri ve biçimlendirme ayarlarıyla bağımsızdır. Bazen, geliştiriciler kendi çıkarları doğrultusunda birkaç çalışma sayfasını gizli, diğerlerini görünür yapmak isteyebilir. Bu nedenle, **Aspose.Cells for Python via .NET** geliştirilmişlerin çalışma sayfalarının görünürlüğünü kontrol etmelerine olanak tanır.
 
-Aspose.Cells for Python via .NET, bir Excel dosyasını temsil eden [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfını sağlar. [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfı, Excel dosyasındaki her çalışma sayfasına erişime izin veren bir [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) koleksiyonunu içerir.
+Aspose.Cells for Python via .NET, Excel dosyasını temsil eden [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfını sağlar. [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfı, her çalışma sayfasına erişim sağlayan [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) koleksiyonunu içerir.
 
 Bir çalışma sayfası [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) sınıfı, çalışma sayfalarını yönetmek için geniş bir yelpazede özellik ve yöntem sağlar. Bir çalışma sayfasının görünürlüğünü kontrol etmek için [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) sınıfının [**is_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_visible) özelliğini kullanın. [**is_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_visible) bir Boolean özelliğidir, yani sadece **true** veya **false** değerini saklayabilir.
 
@@ -40,9 +40,9 @@ Microsoft Excel dosyasının alt kısmına dikkatlice baktığınızda, bir dizi
 
 Sayfa sekmeleri, Excel dosyasındaki çalışma sayfalarını temsil eder. Herhangi bir sekmeye tıklayarak o çalışma sayfasına geçebilirsiniz. Çalışma kitabında daha fazla çalışma sayfası olduğunda, daha fazla sayfa sekmesi olacaktır. İyi bir sayıda çalışma sayfasının olduğu Excel dosyasında bunları dolaşmak için düğmeler kullanmanız gerekebilir. Bu nedenle, Microsoft Excel, sayfa sekmeleri ve sekmeler arasında kaydırmak için düğmeler sağlar.
 
-Aspose.Cells for Python via .NET kullanarak geliştiriciler, Excel dosyalarında sayfa sekmesi ve sekmelerin kaydırma düğmelerinin görünürlüğünü kontrol edebilirler.
+Aspose.Cells for Python via .NET kullanarak, geliştiriciler çalışma sayfası sekmelerinin ve sekme kaydırma düğmelerinin görünürlüğünü kontrol edebilirler.
 
-Aspose.Cells for Python via .NET, bir Excel dosyasını temsil eden [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) adında bir sınıf sağlar. [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfı bir Excel dosyasını yönetmek için geniş bir özellik ve yöntem yelpazesi sağlar. Excel dosyasındaki sekmelerin görünürlüğünü kontrol etmek için geliştiriciler, [**WorkbookSettings.show_tabs**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/show_tabs) özelliğini kullanabilirler. [**WorkbookSettings.show_tabs**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/show_tabs), yalnızca **true** veya **false** değerini saklayabilen bir Boole özelliğidir.
+Aspose.Cells for Python via .NET, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) adlı bir sınıf sağlar; bu sınıf, bir Excel dosyasını temsil eder. [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfı, bir Excel dosyasını yönetmek için geniş özellik ve yöntemler sunar. Bir Excel dosyasındaki sekmelerin görünürlüğünü kontrol etmek için, geliştiriciler [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfının [**WorkbookSettings.show_tabs**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/show_tabs) özelliğini kullanabilirler. [**WorkbookSettings.show_tabs**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/show_tabs) boolean bir özelliktir ve yalnızca **doğru** veya **yanlış** değerleri depolayabilir.
 
 ### **Sekmeleri Görünür Yapma**
 

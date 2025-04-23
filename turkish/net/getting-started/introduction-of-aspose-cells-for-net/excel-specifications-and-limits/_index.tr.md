@@ -191,3 +191,4 @@ Bir çalışma kitabında "Birden fazla kullanıcı tarafından değişikliklere
 |Vurgulanabilen hücreler|32,767
 |Değişiklik vurgulama açıkken farklı kullanıcılar tarafından yapılan değişiklikleri tanımlamak için kullanılan renkler|32 (her kullanıcı ayrı bir renkle tanımlanır; mevcut kullanıcı tarafından yapılan değişiklikler lacivert olarak vurgulanır)
 |Çalışma kitabında Excel tabloları|0 (sıfır) Not: Bir veya birden fazla Excel tablosu içeren bir çalışma kitabında, 'Bir kullanıcı tarafından birden fazla değişikliğe izin ver...' ayarı etkinleştirilemez.
+{{< app/cells/assistant language="csharp" >}}

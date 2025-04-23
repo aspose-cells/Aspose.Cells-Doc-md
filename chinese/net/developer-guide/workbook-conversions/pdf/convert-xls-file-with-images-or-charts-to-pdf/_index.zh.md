@@ -20,3 +20,4 @@ Aspose.Cells支持将包含图像和图表的XLS文件转换为PDF文档。Aspos
 如果电子表格中包含公式，最好在呈现到PDF之前调用 [Workbook.CalculateFormula](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) 方法。这样做可以确保基于公式的值被重新计算，并在PDF中呈现正确的值。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

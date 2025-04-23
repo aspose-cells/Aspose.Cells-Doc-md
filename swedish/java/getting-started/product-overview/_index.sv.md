@@ -105,3 +105,4 @@ Nedan är några av de vittnesmål från Aspose.Cells kunder.
 
 **Vänligen kontrollera:** 
 [Aspose.Cells Forum - Vittnesmål](https://downloads.aspose.com/corporate/success-stories/aspose.cells/)
+{{< app/cells/assistant language="java" >}}

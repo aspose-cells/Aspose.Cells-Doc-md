@@ -16,3 +16,4 @@ url: /zh/java/remove-white-spaces-from-the-data-before-rendering-to-image/
 在使用工作表转图像功能时，默认情况下，输出图像周围会有白色/空白空间，即边框。您可以移除此空白空间。设置源工作表的顶部、左侧、底部和右侧页面设置边距为 0 并相应地指定 [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) 属性。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-RemoveWhitespaceAroundData-1.java" >}}
+{{< app/cells/assistant language="java" >}}

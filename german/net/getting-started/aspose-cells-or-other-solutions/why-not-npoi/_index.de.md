@@ -63,3 +63,4 @@ Aspose-Komponenten bieten viele leistungsstarke Zeit sparende Funktionen. Beispi
 
 * [Mehr über Apache POI](https://poi.apache.org/)
 
+{{< app/cells/assistant language="csharp" >}}

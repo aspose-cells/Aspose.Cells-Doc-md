@@ -187,3 +187,4 @@ workbook.save("output.xlsx");
 Bitte überprüfen Sie den Artikel [Kopieren von Sparkline durch Angabe von Datenbereich und Position der Sparkline-Gruppe](/cells/de/java/kopieren-von-sparkline-durch-angabe-von-datenbereich-und-position-der-sparkline-gruppe/) für weitere Informationen.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

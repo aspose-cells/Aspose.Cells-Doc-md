@@ -22,3 +22,4 @@ url: /ar/java/prevent-exporting-hidden-worksheet-contents-on-saving-to/
 - [تصدير التعليقات أثناء حفظ ملف Excel إلى HTML](/cells/ar/java/export-comments-while-saving-excel-file-to-html/)
 - [إخفاء المحتوى المتداخل باستخدام CrossHideRight أثناء الحفظ إلى HTML](/cells/ar/java/hiding-overlaid-content-with-crosshideright-while-saving-to-html/)
 - [تصدير نمط الحدود المماثل عند عدم دعم نمط الحدود من قبل متصفحات الويب](/cells/ar/java/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/)
+{{< app/cells/assistant language="java" >}}

@@ -28,3 +28,4 @@ url: /ar/java/render-worksheet-to-graphic-context/
 
 
 
+{{< app/cells/assistant language="java" >}}

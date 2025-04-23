@@ -13,3 +13,4 @@ Bu bölüm aşağıdaki konuları içerir
   - [Çalışma Kitabı İçinde Çalışma Sayfalarını Kopyalama](/cells/tr/net/copy-worksheets-within-a-workbook/)
   - [Çalışma Kitabı İçinde Sayfaları Taşıma](/cells/tr/net/move-worksheets-within-workbook/)
 - [Tabloda Bulma ve Değiştirme](/cells/tr/net/find-and-replace-in-spreadsheet/)
+{{< app/cells/assistant language="csharp" >}}

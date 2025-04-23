@@ -52,7 +52,7 @@ repositories {
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.7</version>
+            <version>25.4</version>
 
         </dependency>
 
@@ -62,7 +62,7 @@ repositories {
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.7</version>
+            <version>25.4</version>
 
             <classifier>javadoc</classifier>
 
@@ -107,3 +107,4 @@ WebP是一种现代图像格式。它旨在产生更小的文件大小，同时�
 请查看以下内容以快速获取技术支持
 
 [Aspose.Cells - 论坛](https://forum.aspose.com/c/cells/9)
+{{< app/cells/assistant language="java" >}}

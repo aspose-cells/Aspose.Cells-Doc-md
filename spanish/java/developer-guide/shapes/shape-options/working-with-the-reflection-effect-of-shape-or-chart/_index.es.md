@@ -24,3 +24,4 @@ La siguiente captura de pantalla muestra la interfaz de Microsoft Excel para con
 El siguiente código de muestra carga el [archivo de Excel fuente](5472529.xlsx) y accede a la primera figura en la primera hoja de trabajo y establece las subpropiedades de la propiedad [Shape.ReflectionEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Reflection) y luego guarda el libro de trabajo en el [archivo de Excel de salida](5472539.xlsx).
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithReflectionEffect-WorkingWithReflectionEffect.java" >}}
+{{< app/cells/assistant language="java" >}}

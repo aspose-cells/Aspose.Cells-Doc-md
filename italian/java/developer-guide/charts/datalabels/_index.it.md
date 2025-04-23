@@ -34,3 +34,4 @@ Il seguente frammento di codice dimostra come gestire le etichette dei dati:
 - [Etichetta dati personalizzata in formato testo ricco del punto del grafico](/cells/it/java/rich-text-custom-data-label-of-chart-point/)
 - [Imposta il tipo di forma delle etichette dati del grafico](/cells/it/java/set-the-shape-type-of-data-labels-of-chart/)
 - [Mostra l'intervallo di celle come etichette dati](/cells/it/java/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="java" >}}

@@ -14,3 +14,4 @@ url: /ja/net/create-textbox-in-which-each-line-is-having-different-horizontal-al
 以下のサンプルコードは、三つの行を作成し、それぞれの水平方向の配置を設定します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateTextBoxWithDifferentHorizontalAlignment-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -31,3 +31,4 @@ Aşağıdaki kod, bir çalışsayfasından diğerine bir grafik kopyalamak için
 Denetimleri ve diğer çizim nesnelerini kopyalamak için örnekte gösterildiği gibi [**Worksheet.Shapes.AddCopy**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addcopy) yöntemini kullanın.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CopyShapesBetweenWorksheets-CopyControlsAndOtherDrawingObjects.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

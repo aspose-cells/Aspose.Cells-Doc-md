@@ -18,3 +18,4 @@ Se nedan kodexempel. Den laddar den [provExcel-filen](61767851.xlsx) som innehå
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-SetMarginsOfCommentOrShapeInsideTheWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

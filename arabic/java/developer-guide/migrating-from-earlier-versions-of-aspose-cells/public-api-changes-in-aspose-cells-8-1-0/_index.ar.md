@@ -89,3 +89,4 @@ System.out.println("Un-formatted String Value: " + unformatted);
 {{% /alert %}}
 ## **خصائص Bytes, Characters, CharactersWithSpaces, Lines, Paragraphs تم تسجيلها بأنها منتهية الصلاحية**
 تم تحديد العديد من الخصائص من فئة BuiltInDocumentPropertyCollection كمهجون اعتبارًا من Aspose.Cells for .NET 8.1.0. يشمل ذلك الخصائص Bytes وCharacters وCharactersWithSpaces وLines & Paragraphs. السبب في ذلك هو عدم الفائدة من هذه الخصائص في الحفاظ على جداول بيانات Excel لأن Excel يتجاهلها. حيث كانت هذه الخصائص مكتوبة أصلاً لمستندات Word وعروض تقديمية لـ PowerPoint. 
+{{< app/cells/assistant language="java" >}}

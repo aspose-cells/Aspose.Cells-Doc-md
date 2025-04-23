@@ -25,3 +25,4 @@ url: /ar/java/autofit-rows-for-merged-cells/
 
 - [تحجيم الصفوف والأعمدة تلقائياً](/cells/ar/java/autofit-rows-and-columns/)
 - [ضبط ارتفاع الصف وعرض العمود](/cells/ar/java/adjusting-row-height-and-column-width/)
+{{< app/cells/assistant language="java" >}}

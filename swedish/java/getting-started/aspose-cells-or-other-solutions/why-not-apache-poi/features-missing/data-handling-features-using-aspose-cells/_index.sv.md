@@ -13,3 +13,4 @@ url: /sv/java/data-handling-features-using-aspose-cells/
 - [Formelberäkningsmotor i Aspose.Cells](/cells/sv/java/formula-calculation-engine-in-aspose-cells/)
 - [Spåra föregångare och beroenden med hjälp av Aspose.Cells](/cells/sv/java/tracing-precedents-and-dependents-using-aspose-cells/)
 - [Sortera data i kalkylblad](/cells/sv/java/sort-data-in-spreadsheets/)
+{{< app/cells/assistant language="java" >}}

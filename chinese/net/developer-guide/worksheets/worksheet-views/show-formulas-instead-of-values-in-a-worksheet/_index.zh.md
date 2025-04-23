@@ -15,3 +15,4 @@ description: 本文提供了使用C# API或.NET库来以编程方式显示工作
 Aspose.Cells提供了一个[**Worksheet.ShowFormulas**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/showformulas)属性。将其设置为**true**可以使Microsoft Excel显示公式。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ShowFormulasInsteadOfValues-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

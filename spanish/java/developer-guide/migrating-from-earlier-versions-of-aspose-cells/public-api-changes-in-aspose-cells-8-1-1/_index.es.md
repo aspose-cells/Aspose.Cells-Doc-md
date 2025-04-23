@@ -34,3 +34,4 @@ Consulte el artículo detallado sobre [Cómo crear, manipular o eliminar escenar
 {{% /alert %}}
 ## **Cambios en el comportamiento para CellsException**
 Con versiones anteriores de la API Aspose.Cells for Java, cuando se cargaba una hoja de cálculo posiblemente dañada en una instancia de Workbook, la API solía lanzar un mensaje genérico sin mencionar dónde podría estar el problema. Hemos cambiado este comportamiento para 8.1.1 para que la API lance una excepción con un mensaje significativo que señala dónde (qué celda) y qué (expresión de fórmula) causa la excepción al leer el archivo de plantilla.
+{{< app/cells/assistant language="java" >}}

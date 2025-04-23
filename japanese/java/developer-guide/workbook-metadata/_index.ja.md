@@ -17,3 +17,4 @@ Aspose.Cellsでは、ワークブックの軽量バージョンをメモリに�
 [WorkbookMetadata](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookMetadata)クラスを使用したサンプルコードを以下に示します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UsingWorkbookMetadata-UsingWorkbookMetadata.java" >}}
+{{< app/cells/assistant language="java" >}}

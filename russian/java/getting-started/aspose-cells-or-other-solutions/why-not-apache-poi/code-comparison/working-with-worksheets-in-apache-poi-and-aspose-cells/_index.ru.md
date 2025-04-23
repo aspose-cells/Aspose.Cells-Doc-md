@@ -14,3 +14,4 @@ url: /ru/java/working-with-worksheets-in-apache-poi-and-aspose-cells/
 - [Переупорядочивание листов в рабочей книге](/cells/ru/java/re-order-sheets-within-workbook/)
 - [Заголовки и нижние колонтитулы](/cells/ru/java/header-and-footers/)
 - [Фактор масштабирования с использованием Apache POI и Aspose.Cells](/cells/ru/java/zoom-factor-using-apache-poi-and-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

@@ -131,7 +131,7 @@ För att skapa en diagram med Aspose.Cells:
 
 1. Lägg till lite data i kalkylbladsceller med [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) objektets [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) metod.
    Detta kommer att användas som datakälla för diagrammet.
-1. Lägg till ett diagram i kalkylbladet genom att anropa [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) samlingen [*lägg till*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int)) metod, kapslat i [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) objekt.
+1. Lägg till ett diagram i arket genom att anropa [*add*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add-int-int-int-int-int-) metoden i [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection)-samlingen, inkapslad i [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)-objektet.
 1. Ange diagramtypen med [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) uppräkningen.
    Till exempel använder exemplet [**ChartType.PYRAMID**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#PYRAMID) värdet som diagramtyp.
 1. Få tillgång till det nya [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) objektet från [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) samlingen genom att skicka dess index.
@@ -166,7 +166,7 @@ För att skapa en bubbel-diagram, måste [**ChartType**](https://reference.aspos
 
 #### **Linje med Datum Markör Diagram**
 
-För att skapa en linje med ett data markör diagram, måste [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)  vara satt till [**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE_WITH_DATA_MARKERS) och några extra egenskaper såsom bakgrundsområde, Serie Markörer, Värden & XVärden  behöver sättas. Vid körning av följande kod läggs en linje med ett data markör diagram till arbetsbladet.
+För att skapa en linje med ett data markör diagram, måste [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)  vara satt till [**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE-WITH-DATA-MARKERS) och några extra egenskaper såsom bakgrundsområde, Serie Markörer, Värden & XVärden  behöver sättas. Vid körning av följande kod läggs en linje med ett data markör diagram till arbetsbladet.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-CreateLineWithDataMarkerChart-1.java" >}}
 
@@ -202,3 +202,4 @@ För att se en lista över stödda diagramtyper, läs artikeln [Diagramtyper](/
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="java" >}}

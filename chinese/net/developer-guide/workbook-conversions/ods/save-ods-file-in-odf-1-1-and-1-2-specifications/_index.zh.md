@@ -1,7 +1,7 @@
 ---
-title: 在ODF 1.1和1.2规范中保存ODS文件
-linktitle: 保存为ODF 1.1和1.2 
-description: 使用Aspose.Cells将Excel转换为ODF 1.1和1.2规范。
+title: 将ODS文件保存为ODF 1.1、1.2和1.3规范
+linktitle: 以ODF 1.1、1.2和1.3保存
+description: 使用Aspose.Cells转换Excel为ODF 1.1、1.2和1.3规范。
 type: docs
 weight: 230
 url: /zh/net/save-ods-file-in-odf-1-1-and-1-2-specifications/
@@ -9,10 +9,11 @@ url: /zh/net/save-ods-file-in-odf-1-1-and-1-2-specifications/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells支持在ODF（OpenDocument Format）1.1和1.2规范中保存ODS文件（OpenDocument Spreadsheet）。 Aspose.Cells具有[**OdsSaveOptions.IsStrictSchema11**](https://reference.aspose.com/cells/net/aspose.cells/odssaveoptions/properties/isstrictschema11)属性，该属性指定保存ODS文件时使用ODF 1.1规范。 此属性的默认值为**false**，因此未使用此设置保存的ODS文件使用1.2规范。
+ Aspose.Cells 支持将 ODS 文件（**OpenDocument Spreadsheet**）保存为符合 ODF（**OpenDocument Format**） 1.1、1.2 和 1.3 规格的文件。Aspose.Cells 有 [**OdsSaveOptions.OdfStrictVersion**](https://reference.aspose.com/cells/net/aspose.cells/odssaveoptions/odfstrictversion/) 属性，用于指定保存 ODS 文件的 ODF 版本。该属性默认值为 [**OpenDocumentFormatVersionType.Odf12**](https://reference.aspose.com/cells/net/aspose.cells.ods/opendocumentformatversiontype/)，因此未设置此属性保存的 ODS 文件默认使用 1.2 规范。
 
 {{% /alert %}}
 
-下面的示例代码创建一个工作簿对象，在第一个工作表的单元A1中添加一些值，然后以ODF 1.1和1.2规范保存ODS文件。默认情况下，ODS文件以ODF 1.2规范保存。
+ 以下示例代码创建了一个工作簿对象，向第一个工作表的单元格 A1 添加了一些值，然后以 ODF 1.1、1.2 和 1.3 规范保存 ODS 文件。默认情况下，ODS 文件以 ODF 1.2 规范保存。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-OdsFileSaveOptions-SaveODSFileinODF11and12Specifications.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

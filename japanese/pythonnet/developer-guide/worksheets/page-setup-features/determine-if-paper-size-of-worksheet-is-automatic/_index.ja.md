@@ -3,8 +3,8 @@ title: ワークシートの用紙サイズが自動かどうかを判定する
 type: docs
 weight: 90
 url: /ja/python-net/determine-if-paper-size-of-worksheet-is-automatic/
-description: この記事では、Aspose.Cells for Python via .NETのサンプルコードを使用して、ワークシートの用紙サイズが自動的かどうかをプログラムで判定する方法について説明しています。
-keywords: Pythonエクセルライブラリ、Pythonワークシートの用紙サイズが自動的かどうかを判定する。
+description: この記事では、Aspose.Cells for Python via .NETのサンプルコードを使用して、ワークシートの用紙サイズが自動かどうかをプログラム的に判断する方法を説明します。
+keywords: Python Excelライブラリを使って、ワークシートの用紙サイズが自動かどうかを判断します。
 ---
 
 ## **可能な使用シナリオ**

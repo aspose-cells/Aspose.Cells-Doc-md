@@ -23,7 +23,7 @@ Microsoft Excel允许您设置公式计算模式，即公式计算的方式。�
 Aspose.Cells还允许您使用[**FormulaSettings.CalculationMode**](https://reference.aspose.com/cells/java/com.aspose.cells/formulasettings#CalculationMode) 属性设置**公式计算模式**。您可以为其分配[**CalcModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/CalcModeType) 枚举，该枚举具有以下值之一：
 
 - [**CalcModeType.AUTOMATIC**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC)
-- [**CalcModeType.AUTOMATIC_EXCEPT_TABLE**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC_EXCEPT_TABLE)
+- [**CalcModeType.AUTOMATIC_EXCEPT_TABLE**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC-EXCEPT-TABLE)
 - [**CalcModeType.MANUAL**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#MANUAL)
 
 以下示例代码首先创建一个工作簿，然后将公式计算模式设置为**手动**，并将工作簿保存为磁盘上的输出Excel文件。
@@ -33,3 +33,4 @@ Aspose.Cells还允许您使用[**FormulaSettings.CalculationMode**](https://refe
 ![todo:image_alt_text](setting-formula-calculation-mode-of-workbook_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetFormulaCalculationMode-SetFormulaCalculationMode.java" >}}
+{{< app/cells/assistant language="java" >}}

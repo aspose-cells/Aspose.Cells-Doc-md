@@ -123,3 +123,4 @@ Aspose.Cells为[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cell
 - [更改单元格对齐方式并保留现有格式](/cells/zh/net/change-cells-alignment-and-keep-existing-formatting/)
 - [换行和文本换行](/cells/zh/net/line-breaks-and-text-wrapping/)
 
+{{< app/cells/assistant language="csharp" >}}

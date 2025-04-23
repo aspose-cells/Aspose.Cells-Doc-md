@@ -15,11 +15,11 @@ aliases:
 ## den allmänna filhanteringen 
 Efter import av en kalkylbladsfil,
 
-GridJs kommer att skapa en cachefil med den angivna uid:en i mappen **`Config.getFileCacheDirectory()`**,
+GridJs skapar en cachefil med angiven uid i mappen **`Config.getFileCacheDirectory()`**,
 
 med formatet [Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/java/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat"),
 
-GridJs sparar också alla former/bilder till en ziparkivfil i mappen **`Config.getPictureCacheDirectory()`** för senare visning av former/bilder i klientens användargränssnitt.
+GridJs sparar också alla former/bilder till en zip-arkivfil i mappen **`Config.getPictureCacheDirectory()`** för senare visning av former/bilder i klientgränssnittet.
 
 och efter varje uppdatering i klientgränssnittet,
 
@@ -99,7 +99,7 @@ public class LocalFileCache extends GridCacheForStream {
 ```
 B. Om vi inte ställer in GridJsWorkbook.CacheImp,
 
-GridJs kommer att skapa och spara fil inom mappen **`Config.getFileCacheDirectory()`**, som är standardcachemappen som vi kan ange.
+GridJs skapar och sparar fil inom mappen **`Config.getFileCacheDirectory()`**, som är standard cachekatalogen som vi kan ställa in.
 
 ### hur man får den uppdaterade resultatsfilen
 #### 1. ett specifierad uid för filen 
@@ -183,7 +183,7 @@ måste vi göra en sammanfogning innan spara-åtgärden för att synkronisera de
   //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
   wb.saveToCacheWithFileName(uid,filename,password);
 ```         
-#### 3. Hämta filens URL från cachen
+#### 3. hämta fil-URL från cache
 till exempel: i hämtnings-åtgärden kan du bara hämta den från cache-katalogen med uid.
 ```JAVA
 //in controller  

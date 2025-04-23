@@ -15,3 +15,4 @@ El siguiente código de muestra reemplaza las etiquetas TAG_1 y TAG_2 con un tex
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-ReplaceTagWithTextInTextBox-1.cs" >}}
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-ReplaceTagWithTextInTextBox-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

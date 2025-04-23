@@ -26,3 +26,4 @@ Alors que dans l'image de feuille de calcul suivante, la transparence a été ap
 Le code d'exemple suivant génère une image transparente à partir d'une feuille de calcul Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateTransparentImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

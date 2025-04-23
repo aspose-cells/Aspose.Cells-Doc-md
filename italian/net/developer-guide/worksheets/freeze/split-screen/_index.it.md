@@ -51,3 +51,4 @@ Per rimuovere la divisione del foglio di lavoro, basta fare clic sul pulsante Di
 Aspose.Cells for .Net fornisce un metodo [**Worksheet.RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/removesplit/) per rimuovere l'impostazione di divisione.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Remove-Split.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

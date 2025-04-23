@@ -113,3 +113,4 @@ Aşağıda belirtilen sosyal kodlama sitelerinden herhangi birinden **Renklerle 
 Daha fazla bilgi için [Veri Biçimlendirme Özellikleri](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting)ne bakın.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -217,3 +217,4 @@ Düzenleyici, seçili hücreyi temizleyecektir.
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

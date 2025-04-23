@@ -55,3 +55,4 @@ Aşağıdaki örnek, birleştirilmiş hücreleri (C6) nasıl ayıracağınızı 
 
 ## **Gelişmiş Konular**
 - [Çalışsheet'teki Birleştirilmiş Hücreleri Bulma](/cells/tr/net/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

@@ -60,3 +60,4 @@ Aspose.Cells fournit la méthode [**Range.Merge()**](https://reference.aspose.co
 Aspose.Cells fournit la méthode [**NameCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/namecollection/methods/removeat) pour effacer le nom de la plage. Pour effacer le contenu de la plage, utilisez la méthode [**Cells.ClearRange()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/clearrange/index). L'exemple suivant montre comment supprimer une plage nommée avec son contenu.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-RemoveANamedRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

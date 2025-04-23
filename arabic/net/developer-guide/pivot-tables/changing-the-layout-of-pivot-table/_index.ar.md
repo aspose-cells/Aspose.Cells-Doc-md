@@ -20,3 +20,4 @@ url: /ar/net/changing-the-layout-of-pivot-table/
 يظهر الرمز البريدي العيني التالي جدول البيانات المحوري أولاً في **النموذج المضغوط**، ثم يظهر جدول البيانات المحوري في **النموذج المخطط** وأخيرًا يظهر جدول البيانات المحوري في **النموذج الجدولي**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-ChangingLayoutOfPivotTable-ChangingLayoutOfPivotTable.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

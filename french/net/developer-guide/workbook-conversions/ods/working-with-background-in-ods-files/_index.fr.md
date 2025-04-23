@@ -44,3 +44,4 @@ Aspose.Cells fournit la classe [**OdsPageBackground**](https://reference.aspose
 ### **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-SetODSGraphicBackground-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

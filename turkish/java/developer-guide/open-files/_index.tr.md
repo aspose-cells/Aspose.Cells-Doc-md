@@ -67,7 +67,7 @@ Microsoft Excel 95 dosyalarını açmak için, [**Workbook**](https://reference.
 
 ### **Microsoft Excel 97 veya sonraki sürümler XLS Dosyalarını Açma**
 
-Microsoft Excel 97 veya sonraki sürümlerin XLS dosyalarını açmak için, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) örneğini şablon dosyasının yolunu veya akışını belirterek başlatın. Veya [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) sınıfını kullanın ve [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) numaralı listesinde [**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003) değerini seçin.
+Microsoft Excel 97 veya sonraki sürümlerin XLS dosyalarını açmak için, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) örneğini şablon dosyasının yolunu veya akışını belirterek başlatın. Veya [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) sınıfını kullanın ve [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) numaralı listesinde [**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL-97-TO-2003) değerini seçin.
 
 #### **Örnek**
 
@@ -89,7 +89,7 @@ Aspose.Cells, SpreadsheetML, CSV, Sekme Sınırlı dosyalar gibi farklı formatl
 
 SpreadsheetML dosyaları, elektronik tablonuzun tüm bilgilerini (biçimlendirme, formüller vb. dahil) içeren XML temsilleridir. Microsoft Excel XP'den itibaren, elektronik tablolarınızı SpreadsheetML dosyalarına dışa aktaran bir XML dışa aktarma seçeneği eklenmiştir.
 
-SpreadsheetML dosyalarını açmak için, [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) sınıfını kullanın ve [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) numaralı listesinde [**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET_ML) değerini seçin.
+SpreadsheetML dosyalarını açmak için, [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) sınıfını kullanın ve [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) numaralı listesinde [**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET-ML) değerini seçin.
 
 #### **Örnek**
 
@@ -181,3 +181,4 @@ FODS dosyası, herhangi bir sıkıştırma olmadan OpenDocument XML formatında 
 - [Çeşitli Kodlamalarla CSV Dosyası Okuma](/cells/tr/java/reading-csv-file-with-multiple-encodings/)
 - [Çok uzun sürüyorsa, Duraklatma İzleyiciyi kullanarak dönüşümü veya yüklemeyi durdurun](/cells/tr/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [LightCells API'sını Kullanma](/cells/tr/java/using-lightcells-api/)
+{{< app/cells/assistant language="java" >}}

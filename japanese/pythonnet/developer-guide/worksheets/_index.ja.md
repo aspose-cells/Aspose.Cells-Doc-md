@@ -17,7 +17,7 @@ Aspose.Cellsの柔軟なAPIを使用して、Microsoft Excelファイルでワ�
 
 Aspose.Cellsは、Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)クラスには、Excelファイルの各ワークシートにアクセスできる[**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets/)コレクションが含まれています。
 
-ワークシートは[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスで表されます。[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)クラスには、ワークシートを管理するための多くのプロパティやメソッドが用意されています。
+ワークシートは[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)クラスで表されます。[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)クラスには、ワークシートを管理するための多くのプロパティやメソッドが用意されています。
 
 ## **新しい Excel ファイルにワークシートを追加する方法**
 

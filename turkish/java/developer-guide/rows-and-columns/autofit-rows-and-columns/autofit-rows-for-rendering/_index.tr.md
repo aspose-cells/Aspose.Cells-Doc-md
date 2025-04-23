@@ -18,3 +18,4 @@ Eğer kaydedilen PDF dosyasında metnin kesilmesini engellemek istiyorsanız, sa
 Şimdi, metin çıktı PDF dosyasında kesilmemiş durumda.
 
 ![kaydedilmiş pdf'de metin kesilmemiş](kaydedilmiş_pdfde_metin_kesilmemiş.png)
+{{< app/cells/assistant language="java" >}}

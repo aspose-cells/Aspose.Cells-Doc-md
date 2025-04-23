@@ -22,3 +22,4 @@ Aspose.Cells fornisce anche metodi [**PivotTable.showInCompactForm()**](https://
 Il seguente codice di esempio mostra prima la tabella pivot in **Forma compatta**, quindi mostra la tabella pivot in **Forma ad albero** e infine mostra la tabella pivot in **Forma tabellare**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangingLayoutofPivotTable-ChangingLayoutofPivotTable.java" >}}
+{{< app/cells/assistant language="java" >}}

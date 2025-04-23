@@ -14,3 +14,4 @@ Microsoft Excelでは、セルにコメントを追加して追加情報を表�
 Aspose.Cellsは、コメントのテキスト方向を設定するための[**Shape.TextDirection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textdirection)プロパティを提供しています。以下のサンプルコードは、[**Shape.TextDirection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textdirection)プロパティを使用してコメントのテキスト方向を設定する方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeTextDirection-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

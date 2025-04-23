@@ -38,3 +38,4 @@ Is 15 a Valid Value for this Cell: True
 Is 30 a Valid Value for this Cell: False
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

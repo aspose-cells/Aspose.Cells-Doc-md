@@ -10,3 +10,4 @@ keywords: Anzahl der Excel Arbeitsblattzellen in c# zählen, Excel Arbeitsblattz
 Sie können die Anzahl der Zellen im Arbeitsblatt mithilfe der [**Cells.Count**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/count) oder [**Cells.CountLarge**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/countlarge) Eigenschaften wie im folgenden Codebeispiel gezeigt zählen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-CountNumberOfCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

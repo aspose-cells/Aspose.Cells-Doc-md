@@ -31,3 +31,4 @@ url: /ar/net/copy-shapes-between-worksheets/
 لنسخ عناصر التحكم والرسومات الأخرى، استخدم الطريقة الموضحة في المثال أدناه.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CopyShapesBetweenWorksheets-CopyControlsAndOtherDrawingObjects.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

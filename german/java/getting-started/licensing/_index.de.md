@@ -18,7 +18,7 @@ Die Lizenz kann von einem Stream oder einer Datei an den folgenden Speicherorten
 1. Ausdrücklicher Pfad.
 1. Der Ordner, der die Aspose.Cells.jar enthält.
 
-Verwenden Sie die Methode [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)), um die Komponente zu lizenzieren. Oft ist es am einfachsten, die Lizenzdatei in denselben Ordner wie Aspose.Cells.jar zu platzieren und nur den Dateinamen ohne Pfad anzugeben, wie im folgenden Beispiel gezeigt:
+Verwenden Sie die [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense-java.io.InputStream-) Methode, um die Komponente zu lizenzieren. Oft ist der einfachste Weg, eine Lizenz zu setzen, die Lizenzdatei im selben Ordner wie Aspose.Cells.jar zu platzieren und nur den Dateinamen ohne Pfad anzugeben, wie im folgenden Beispiel gezeigt:
 
 ### **Wie man eine Lizenz von der Diskette anwendet**
 
@@ -99,3 +99,4 @@ double amountAfter = Metered.getConsumptionQuantity();
 System.out.println(amountAfter);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

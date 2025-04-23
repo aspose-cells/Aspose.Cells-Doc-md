@@ -79,3 +79,4 @@ Utvecklare kan applicera överstruken effekt på fonten genom att ställa in [*
 - [Applicera Superscript- och Subscript-effekter på typsnitt](/cells/sv/net/apply-superscript-and-subscript-effects-on-fonts/)
 - [Få en lista över typsnitt som används i en kalkylblad eller arbetsbok](/cells/sv/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 
+{{< app/cells/assistant language="csharp" >}}

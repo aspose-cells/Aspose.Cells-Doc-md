@@ -16,3 +16,4 @@ Aspose.Cells te permite agregar marcadores en tiempo de ejecución. Los marcador
 Por favor, consulta el siguiente código de ejemplo para saber cómo agregar marcadores PDF. El código genera un libro de trabajo sencillo, especifica marcadores PDF con ubicaciones de destino y genera el archivo PDF.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddPDFBookmarks-AddPDFBookmarks.java" >}}
+{{< app/cells/assistant language="java" >}}

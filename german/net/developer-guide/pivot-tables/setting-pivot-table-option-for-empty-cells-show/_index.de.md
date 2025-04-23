@@ -29,3 +29,4 @@ Aspose.Cells bietet die Eigenschaften [**PivotTable.DisplayNullString**](https:/
 ## Verwandte Artikel
 
 - [Pivot-Tabelle formatieren](/cells/de/net/formatting-pivot-table/)
+{{< app/cells/assistant language="csharp" >}}

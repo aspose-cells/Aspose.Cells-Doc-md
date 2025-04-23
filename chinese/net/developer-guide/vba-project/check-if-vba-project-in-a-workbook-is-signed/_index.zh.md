@@ -16,3 +16,4 @@ url: /zh/net/check-if-vba-project-in-a-workbook-is-signed/
 以下代码加载工作簿并使用[**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned)属性检查其VBA项目是否已签名。如果项目已签名，则该属性将返回**true**，否则将返回**false**。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-CheckVbaProjectSigned-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

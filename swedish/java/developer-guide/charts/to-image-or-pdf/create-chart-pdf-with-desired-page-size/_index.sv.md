@@ -12,3 +12,4 @@ Se f√∂ljande kodexempel som laddar in [provexempelexcelfilen](64716912.xlsx), f√
 
 ![todo:image_alt_text](create-chart-pdf-with-desired-page-size_1.png)
 ## **Exempelkod**
+{{< app/cells/assistant language="java" >}}

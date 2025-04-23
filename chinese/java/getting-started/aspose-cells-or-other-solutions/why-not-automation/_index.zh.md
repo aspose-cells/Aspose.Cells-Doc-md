@@ -69,3 +69,4 @@ Aspose 组件提供管理 Office 文件所需的一切，以及更多。它们�
 - [考虑服务器端自动化 Office 的因素](https://support.microsoft.com/en-us/topic/considerations-for-server-side-automation-of-office-48bcfe93-8a89-47f1-0bce-017433ad79e2)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

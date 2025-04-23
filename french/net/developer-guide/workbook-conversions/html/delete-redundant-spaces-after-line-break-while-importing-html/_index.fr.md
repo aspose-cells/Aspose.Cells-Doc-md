@@ -24,3 +24,4 @@ La capture d'écran suivante montre l'effet de définir cette propriété sur **
 Le code d'exemple suivant montre l'utilisation de la propriété [**HTMLLoadOptions.DeleteRedundantSpaces**](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/deleteredundantspaces). Veuillez le définir sur **true** ou **false** pour obtenir le résultat tel qu'indiqué dans la capture d'écran ci-dessus.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DeleteRedundantSpacesWhileImportingFromHtml-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

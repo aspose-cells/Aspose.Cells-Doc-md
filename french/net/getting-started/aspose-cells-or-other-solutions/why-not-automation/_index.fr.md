@@ -74,3 +74,4 @@ Cet article a couvert les points clés pour lesquels les composants Aspose sont 
 
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

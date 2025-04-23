@@ -23,7 +23,7 @@ url: /ar/java/detect-merged-cells-in-a-worksheet/
 
 ![todo:image_alt_text](detect-merged-cells-in-a-worksheet_1.png)
 
-توفر Aspose.Cells الطريقة [**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--) التي تُستخدم للحصول على جميع الخلايا المدمجة.
+يوفر Aspose.Cells الطريقة [**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--) والتي تستخدم للحصول على جميع الخلايا المدمجة.
 
 عند تنفيذ الكود أدناه، يُمسح محتوى الورقة ويُلغى دمج كل مناطق الخلايا قبل حفظ الملف مرة أخرى.
 
@@ -40,3 +40,4 @@ url: /ar/java/detect-merged-cells-in-a-worksheet/
 ## **مقالات ذات صلة**
 
 - [دمج وتقسيم الخلايا](/cells/ar/java/merging-and-unmerging-cells/).
+{{< app/cells/assistant language="java" >}}

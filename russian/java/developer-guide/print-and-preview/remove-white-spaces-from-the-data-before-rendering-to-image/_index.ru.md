@@ -16,3 +16,4 @@ url: /ru/java/remove-white-spaces-from-the-data-before-rendering-to-image/
 При использовании функции конвертации листа в изображение выходное изображение имеет белое/пустое пространство, то есть рамку, вокруг себя по умолчанию. Можно убрать это. Установите верхние, левый, нижний и правый поля настройки страницы для исходного листа как 0 и укажите соответствующие атрибуты [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) соответственно.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-RemoveWhitespaceAroundData-1.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -381,3 +381,4 @@ Questa guida per lo sviluppatore fornisce informazioni sull'utilizzo di Aspose.C
 </div>
 {{< /tab >}}
 {{< /tabs >}}
+{{< app/cells/assistant language="csharp" >}}

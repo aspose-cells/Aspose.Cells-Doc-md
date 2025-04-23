@@ -18,3 +18,4 @@ Sie können Aspose.Cells verwenden, um benutzerdefinierte Rich-Text-Datenbeschri
 Der folgende Code greift auf den ersten Diagrammpunkt der ersten Serie zu, setzt seinen Text und dann setzt die Schriftart der ersten 10 Zeichen, indem die Farbe auf Rot und die Fettgedrucktheit auf **true** gesetzt wird
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RichTextCustomDataLabel-RichTextCustomDataLabelOfChartPoint.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

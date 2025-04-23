@@ -35,3 +35,4 @@ Cette section comporte les sujets suivants:
   - [Utilisation de types anonymes ou d'objets personnalisés](/cells/fr/net/using-anonymous-types-or-custom-objects/)
   - [Utilisation d'objets imbriqués](/cells/fr/net/using-nested-objects/)
 - [Tracer les précédents et les dépendances dans Aspose.Cells](/cells/fr/net/tracing-precedents-and-dependents-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

@@ -11,7 +11,7 @@ Non c'è un'opzione diretta disponibile per creare dimensioni della carta person
 
 ## **Implementare un formato carta personalizzato del foglio di lavoro per il rendering**
 
-Aspose.Cells ti permette di implementare la dimensione della carta desiderata del foglio di lavoro utilizzando il metodo [**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize(double,%20double)) del [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup). Il seguente codice di esempio illustra come specificare una dimensione della carta personalizzata per il primo foglio di lavoro nel libro. Si prega inoltre di consultare il [PDF di output](45056030.pdf) generato con il codice seguente per un riferimento.
+Aspose.Cells ti permette di implementare la dimensione della carta desiderata del foglio di lavoro utilizzando il metodo [**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize-double-double-) del [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup). Il seguente codice di esempio illustra come specificare una dimensione della carta personalizzata per il primo foglio di lavoro nel libro. Si prega inoltre di consultare il [PDF di output](45056030.pdf) generato con il codice seguente per un riferimento.
 
 ## **Screenshot**
 
@@ -20,3 +20,4 @@ Aspose.Cells ti permette di implementare la dimensione della carta desiderata de
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-PageSetupFeatures-ImplementCustomPaperSizeOfWorksheetForRendering.java" >}}
+{{< app/cells/assistant language="java" >}}

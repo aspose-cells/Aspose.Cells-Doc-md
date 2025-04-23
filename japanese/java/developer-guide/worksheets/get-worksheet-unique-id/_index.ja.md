@@ -12,3 +12,4 @@ Aspose.Cellsは、ワークシートの一意のIDを取得する機能を提供
 ## サンプルコード
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-GetWorksheetUniqueId-1.java" >}}
+{{< app/cells/assistant language="java" >}}

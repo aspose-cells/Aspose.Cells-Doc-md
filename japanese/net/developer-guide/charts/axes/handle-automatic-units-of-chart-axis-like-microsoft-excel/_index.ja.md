@@ -15,3 +15,4 @@ Aspose.Cellsの初期バージョンは、画像またはPDFとしてチャー�
 ![todo:image_alt_text](handle-automatic-units-of-chart-axis-like-microsoft-excel_1.png)
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Charts-HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

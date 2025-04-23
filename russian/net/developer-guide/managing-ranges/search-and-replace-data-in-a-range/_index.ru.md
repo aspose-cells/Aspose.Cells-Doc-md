@@ -16,3 +16,4 @@ keywords: c# поиск и замена данных в Excel, c# поиск д�
 Aspose.Cells предоставляет метод [**FindOptions.SetRange()**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/methods/setrange) для указания диапазона при поиске данных. Ниже приведен пример кода по поиску и замене данных в диапазоне.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SearchReplaceDataInRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

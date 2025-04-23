@@ -26,3 +26,4 @@ Lorsqu'un classeur avec plusieurs feuilles est converti en HTML à l'aide d'Aspo
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HTML-SetSingleSheetTabNameInHtml-1.java" >}}
+{{< app/cells/assistant language="java" >}}

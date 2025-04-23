@@ -18,3 +18,4 @@ url: /zh/java/specify-the-language-of-the-excel-file-using-builtin-document-prop
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DocumentProperties-SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.java" >}}
+{{< app/cells/assistant language="java" >}}

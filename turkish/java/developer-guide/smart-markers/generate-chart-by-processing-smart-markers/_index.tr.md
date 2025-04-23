@@ -144,3 +144,4 @@ Veri hazır olduğunda yapmamız gereken tek şey, veri kaynağına dayalı bir 
 Son grafik aşağıdaki gibi görünmektedir.
 
 ![todo:image_alt_text](generate-chart-by-processing-smart-markers_3.png)
+{{< app/cells/assistant language="java" >}}

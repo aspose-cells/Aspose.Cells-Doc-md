@@ -25,9 +25,9 @@ url: /ar/java/find-or-search-data/
 
 تُرجع جميع أساليب البحث مراجع الخلايا التي تحتوي على قيمة البحث المحددة.
 ## **البحث عن تحتوي على صيغة**
-يمكن للمطورين العثور على صيغة محددة في ورقة العمل عن طريق استدعاء [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) مجموعة البحث's [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\))، ضبط [FindOptions.setLookInType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookInType) إلى [LookInType.FORMULAS](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#FORMULAS) وتمريرها كمعلمة إلى الطريق [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)).
+يمكن للمطورين العثور على صيغة محددة داخل ورقة العمل من خلال استدعاء مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) وطريقة [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells/Cell-)، وتعيين [FindOptions.setLookInType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookInType) إلى [LookInType.FORMULAS](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#FORMULAS) وتمريرها كوسيط إلى طريقة [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells).
 
-عادةً، تقبل طريق [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) معلمتين أو أكثر:
+عادةً، تقبل طريقة [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells/Cell-) مع وسيطين أو أكثر:
 
 - الكائن المطلوب البحث عنه: يمثل كائنًا مطلوب العثور عليه في ورقة العمل.
 - الخلية السابقة: تمثل الخلية السابقة بنفس الصيغة. يمكن تعيين هذا المعلمة على قيمة الفراغ عند البحث من البداية.
@@ -41,11 +41,11 @@ url: /ar/java/find-or-search-data/
 ## **البحث عن السلاسل**
 البحث عن الخلايا التي تحتوي على قيمة نصية سهل ومرن. هناك طرق مختلفة للبحث ، على سبيل المثال ، البحث عن الخلايا التي تحتوي على سلاسل تبدأ بحرف معين أو مجموعة من الأحرف.
 ### **البحث عن السلاسل التي تبدأ بأحرف معينة**
-للبحث عن الحرف الأول في سلسلة ، ادعوا مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) لل[find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) الأسلوب ، ثم ضبط [FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) إلى [LookAtType.START_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#START_WITH) وتمريرها كمعلمة إلى [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) الأسلوب.
+للبحث عن الحرف الأول في سلسلة، استدعِ طريقة [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells/Cell-) لمجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)، ضبط [FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) إلى [LookAtType.START_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#START-WITH) ومررها كوسيط إلى طريقة [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsWithStringOrNumber-FindingCellsWithStringOrNumber.java" >}}
 ### **البحث عن السلاسل التي تنتهي بأحرف محددة**
-Aspose.Cells يمكن أيضًا العثور على السلاسل التي تنتهي بأحرف محددة. للبحث عن الأحرف الأخيرة في سلسلة ، ادعوا مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) لل[find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) الأسلوب ، ثم ضبط [FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) إلى [LookAtType.END_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#END_WITH) وتمريرها كمعلمة إلى [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) الأسلوب.
+يمكن لـ Aspose.Cells أيضًا العثور على سلاسل تنتهي بأحرف محددة. للبحث عن الأحرف الأخيرة في سلسلة، استدعِ طريقة [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells/Cell-) لمجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)، اضبط [FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) إلى [LookAtType.END_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#END-WITH) ومررها كوسيط إلى طريقة [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsEndWithSpecificCharacters-FindingCellsEndWithSpecificCharacters.java" >}}
 ## **البحث بتعابير منتظمة: ميزة RegEx**
@@ -60,3 +60,4 @@ Aspose.Cells تتيح لك البحث باستخدام التعابير المن
 ## **مواضيع متقدمة**
 - [العثور على الخلايا ذات النمط المحدد](/cells/ar/java/find-cells-with-specific-style/)
 - [البحث عن البيانات باستخدام القيم الأصلية](/cells/ar/java/search-data-using-original-values/)
+{{< app/cells/assistant language="java" >}}

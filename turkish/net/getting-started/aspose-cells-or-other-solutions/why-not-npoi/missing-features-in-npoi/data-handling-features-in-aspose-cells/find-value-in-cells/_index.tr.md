@@ -49,3 +49,4 @@ Herhangi aşağıdaki sosyal kodlama sitelerinden **Hücrelerde Değer Bul** ind
 Daha fazla ayrıntı için [Veri Bulma veya Arama](/cells/tr/net/find-or-search-data/) ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

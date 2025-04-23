@@ -49,3 +49,4 @@ keywords: قراءة قيم الخلية في خيوط متعددة بشكل م�
 وإلا، يعمل البرنامج بدون عرض أي رسالة مما يعني أن جميع القيم المقروءة من الخلايا صحيحة.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ReadingCellValuesInMultipleThreadsSimultaneously-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

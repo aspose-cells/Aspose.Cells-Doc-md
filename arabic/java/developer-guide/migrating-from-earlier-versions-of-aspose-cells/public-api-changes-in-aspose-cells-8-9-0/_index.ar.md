@@ -121,3 +121,4 @@ pivot.refreshData();
 pivot.calculateData();
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

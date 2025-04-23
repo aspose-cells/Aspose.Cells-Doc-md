@@ -27,7 +27,7 @@ Följande är stegen för att kopiera och flytta kalkylblad inom eller mellan ar
 
 ## **Kopiera Kalkylblad inom en Arbetsbok**
 
-Aspose.Cells tillhandahåller en överbelastad metod, [**WorksheetCollection.addCopy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy(int)), som används för att lägga till ett kalkylblad i samlingen och kopiera data från ett befintligt kalkylblad. En version av metoden tar indexet för källkalkylbladet som parameter. Den andra versionen tar namnet på källkalkylbladet.
+Aspose.Cells tillhandahåller en överbelastad metod, [**WorksheetCollection.addCopy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy-int-), som används för att lägga till ett kalkylblad i samlingen och kopiera data från ett befintligt kalkylblad. En version av metoden tar indexet för källkalkylbladet som parameter. Den andra versionen tar namnet på källkalkylbladet.
 
 Det följande exemplet visar hur man kopierar ett befintligt kalkylblad inom en arbetsbok.
 
@@ -35,7 +35,7 @@ Det följande exemplet visar hur man kopierar ett befintligt kalkylblad inom en 
 
 ## **Kopiera Kalkylblad mellan Arbetsböcker**
 
-Aspose.Cells tillhandahåller en metod, [**Worksheet.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)), som används för att kopiera data och formatering från ett källkalkylblad till ett annat kalkylblad inom eller mellan arbetsböckerna. Metoden tar källkalkylbladet objekt som parameter.
+Aspose.Cells tillhandahåller en metod, [**Worksheet.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy-com.aspose.cells.Worksheet-), som används för att kopiera data och formatering från ett källkalkylblad till ett annat kalkylblad inom eller mellan arbetsböckerna. Metoden tar källkalkylbladet objekt som parameter.
 
 Det följande exemplet visar hur man kopierar ett kalkylblad från en arbetsbok till en annan arbetsbok.
 
@@ -47,8 +47,9 @@ Det följande exemplet visar hur man kopierar ett kalkylblad från en arbetsbok 
 
 ## **Flytta Kalkylblad inom en Arbetsbok**
 
-Aspose.Cells tillhandahåller en metod, [**Worksheet.moveTo()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo(int)), används för att flytta ett kalkylblad till en annan plats i samma kalkylblad.
+Aspose.Cells tillhandahåller en metod, [**Worksheet.moveTo()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo-int-), används för att flytta ett kalkylblad till en annan plats i samma kalkylblad.
 
 Det följande exemplet visar hur man flyttar ett kalkylblad till en annan plats inom arbetsboken.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-MoveWorksheet-MoveWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

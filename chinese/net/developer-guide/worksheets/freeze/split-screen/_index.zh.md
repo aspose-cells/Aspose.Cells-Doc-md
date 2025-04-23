@@ -51,3 +51,4 @@ keywords: 冻结顶部行，冻结顶部行。
 Aspose.Cells for .Net提供了一个 [**Worksheet.RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/removesplit/) 方法来移除拆分设置。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Remove-Split.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

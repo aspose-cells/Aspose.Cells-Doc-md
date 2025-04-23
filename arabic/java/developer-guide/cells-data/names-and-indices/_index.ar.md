@@ -11,15 +11,15 @@ keywords: تحويل الفهرس في جافا إلى اسم الخلية، ت�
 ## **كيفية الحصول على اسم الخلية من فهرس الصف والعمود**
 من الممكن العثور على اسم الخلية مع الاعتماد على مؤشرات الصف والعمود. يشرح هذا المقال كيفية ذلك.
 
-توفر Aspose.Cells الطريقة [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) التي تسمح للمطورين بالحصول على اسم الخلية إذا قدموا فهرس الصف والعمود.
+توفر Aspose.Cells طريقة [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName-int-int-) التي تتيح للمطورين الحصول على اسم الخلية إذا قاموا بتوفير فهرس الصف والعمود.
 
 {{% alert color="primary" %}} 
 
-تبدأ Microsoft Excel في عد فهرس الصفوف والأعمدة من 1. على عكس Microsoft Excel ، تبدأ Aspose.Cells في عد فهرس الصفوف والأعمدة من 0.
+يبدأ Microsoft Excel في عد فهارس الصفوف والأعمدة من 1 على عكس Aspose.Cells الذي يبدأ العد من 0.
 
 {{% /alert %}} 
 
-يوضح الكود المصدري التالي كيفية استخدام [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) للوصول إلى اسم الخلية المعروف فيها فهرس الصف والعمود. يولد الكود الناتج التالي.
+يوضح الشيفرة النموذجية التالية كيفية استخدام [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName-int-int-) للوصول إلى اسم الخلية بناءً على فهرس صف وعمود معروف. تنتج الشيفرة الإخراج التالي.
 
 {{< highlight java >}}
 
@@ -37,15 +37,15 @@ Cell Name at [2, 2]: C3
 ## **كيفية الحصول على فهرس الصف والعمود من اسم الخلية**
 من الممكن العثور على فهرس الصف والعمود للخلية من اسمها. يشرح هذا المقال كيفية ذلك.
 
-توفر Aspose.Cells طريقة [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) التي تسمح للمطورين بالحصول على فهرس الصف والعمود من اسم الخلية.
+توفر Aspose.Cells طريقة [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex-java.lang.String-) التي تمكن المطورين من الحصول على فهرس الصف والعمود من اسم الخلية.
 
 {{% alert color="primary" %}} 
 
-تبدأ Microsoft Excel في عد فهرس الصفوف والأعمدة من 1. على عكس Microsoft Excel ، تبدأ Aspose.Cells في عد فهرس الصفوف والأعمدة من 0.
+يبدأ Microsoft Excel في عد فهارس الصفوف والأعمدة من 1 على عكس Aspose.Cells الذي يبدأ العد من 0.
 
 {{% /alert %}} 
 
-يوضح الكود عينة التالي كيفية استخدام [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) للحصول على فهرس الصف والعمود من اسم الخلية. يولّد الكود الناتج التالي.
+توضح الشيفرة النموذجية التالية كيفية استخدام [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex-java.lang.String-) للحصول على فهرس الصف والعمود من اسم الخلية. تنتج الشيفرة الإخراج التالي.
 
 {{< highlight java >}}
 
@@ -72,3 +72,4 @@ Column Index of Cell C6: 2
 ` `<> + (adj.Private _ " Private"
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

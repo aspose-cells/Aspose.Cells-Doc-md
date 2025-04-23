@@ -29,3 +29,4 @@ url: /ar/net/setting-pivot-table-option-for-empty-cells-show/
 ## مقالات ذات صلة
 
 - [تنسيق جدول الجدول المحوري](/cells/ar/net/formatting-pivot-table/)
+{{< app/cells/assistant language="csharp" >}}

@@ -199,3 +199,4 @@ Aspose.Cells.GridWeb также предоставила возможность 
 ## **Устаревшие API**
 ### **Устаревшее свойство Shape.TextFrame**
 Рекомендуется использовать свойство Shape.TextBody.TextAlignment вместо.
+{{< app/cells/assistant language="java" >}}

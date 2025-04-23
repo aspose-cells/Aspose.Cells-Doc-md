@@ -53,3 +53,4 @@ SVG代表可缩放矢量图形。SVG是基于XML标准的二维矢量图形规�
 - [将图表转换为SVG格式图像](/cells/zh/net/converting-chart-to-image-in-svg-format/)
 - [使用viewBox属性将图表导出为SVG](/cells/zh/net/export-chart-to-svg-with-viewbox-attribute/)
 - [跟踪Excel转换为TIFF的进度](/cells/zh/net/track-conversion-progress-of-excel-to-tiff/)
+{{< app/cells/assistant language="csharp" >}}

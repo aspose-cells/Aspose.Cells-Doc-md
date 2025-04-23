@@ -57,3 +57,4 @@ Aspose.Cells提供了一个表示Microsoft Excel文件的类[**Workbook**](https
 也可以使用[**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows)和[**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns)方法来使多行和列可见。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

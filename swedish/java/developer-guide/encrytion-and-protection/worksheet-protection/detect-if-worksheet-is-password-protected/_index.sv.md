@@ -16,3 +16,4 @@ Det är möjligt att skydda arbetsböcker och arbetsblad separat. Till exempel k
 Aspose.Cells for Java 8.7.0 har exponerat egenskapen [**Protection.isProtectedWithPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#IsProtectedWithPassword) för att upptäcka om ett arbetsblad är lösenordsskyddat eller inte. Boolesk typ [**Protection.isProtectedWithPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#IsProtectedWithPassword) fält returnerar **true** om [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) är lösenordsskyddat och **false** om inte.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DetectWorksheetisPasswordProtected-DetectWorksheetisPasswordProtected.java" >}}
+{{< app/cells/assistant language="java" >}}

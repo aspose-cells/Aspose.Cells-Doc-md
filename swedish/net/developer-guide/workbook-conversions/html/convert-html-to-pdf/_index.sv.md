@@ -35,3 +35,4 @@ Följande C# kodexempel visar hur man konverterar ett HTML-dokument till en PDF 
 [Aspose.Cells for .NET](https://releases.aspose.com/cells/net/) presents you online free application <a href="https://products.aspose.app/cells/en/conversion/html-to-pdf">“HTML till PDF”</a>, where you may try to investigate the functionality and quality it works.
 <br>
 <a href="https://products.aspose.app/cells/en/conversion/html-to-pdf"><img src="htmltopdf.png" width=80%></a>
+{{< app/cells/assistant language="csharp" >}}

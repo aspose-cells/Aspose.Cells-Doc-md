@@ -21,3 +21,4 @@ Les valeurs possibles pour cet élément sont définies par le type de données 
 Le code d'exemple suivant définit les propriétés de document incorporées étendues [ScaleCrop] (https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#ScaleCrop) and [LinksUpToDate] (https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#LinksUpToDate) du classeur. Veuillez vérifier le [fichier Excel de sortie](5472494.xlsx) généré avec ce code, changer son extension en .zip, extraire son contenu et afficher aap.xml comme indiqué dans la capture d'écran ci-dessus.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingScaleCropLinksUpToDate-SettingScaleCropLinksUpToDate.java" >}}
+{{< app/cells/assistant language="java" >}}

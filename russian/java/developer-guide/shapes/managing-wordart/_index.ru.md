@@ -29,3 +29,4 @@ url: /ru/java/add-wordart-watermark-to-worksheet/
 - [Добавить водяной знак WordArt на диаграмму](/cells/ru/java/add-wordart-watermark-to-chart/)
 - [Блокировка водяного знака WordArt](/cells/ru/java/locking-wordart-watermark/)
 - [Установить предварительный стиль WordArt для текста формы](/cells/ru/java/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="java" >}}

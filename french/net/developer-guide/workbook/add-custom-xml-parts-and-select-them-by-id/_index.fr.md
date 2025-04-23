@@ -24,3 +24,4 @@ Le code d'exemple suivant ajoute d'abord quatre Parties XML personnalisées en u
  Found: CustomXmlPart ID Sport
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -109,3 +109,4 @@ Bir aralıktan veri, dışa aktarılmak istenilen [**DataTable**](https://docs.m
 - [Çalışma Sayfasından Görünen Satırların Verilerini Dışa Aktar](/cells/tr/net/export-visible-rows-data-from-worksheet/)
 - [Gizli Sütunları Dikkate Almadan Çalışma Sayfası Verilerini Data Table'a Dışa Aktarma](/cells/tr/net/ignore-hidden-columns-while-exporting-worksheet-data-to-data-table/)
 - [Çalışma sayfası verileri dışa aktarılırken tekrarlanan sütunları otomatik olarak yeniden adlandırma](/cells/tr/net/rename-duplicate-columns-automatically-while-exporting-worksheet-data/)
+{{< app/cells/assistant language="csharp" >}}

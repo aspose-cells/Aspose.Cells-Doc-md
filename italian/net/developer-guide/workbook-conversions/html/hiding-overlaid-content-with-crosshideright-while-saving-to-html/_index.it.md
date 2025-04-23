@@ -18,3 +18,4 @@ Il seguente codice di esempio carica il [file Excel di esempio](64716894.xlsx) e
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-HidingOverlaidContentWithCrossHideRightWhileSavingToHtml.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

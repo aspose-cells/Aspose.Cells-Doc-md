@@ -36,3 +36,4 @@ keywords: C#创建龙卷风图表，添加龙卷风图表，插入龙卷风图�
 ### **示例代码**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-tornado-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

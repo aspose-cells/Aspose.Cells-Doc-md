@@ -14,8 +14,8 @@ Bu resmi [Microsoft Belgesi](https://learn.microsoft.com/en-gb/dotnet/core/compa
 Apose.Cells ürünü için değerlendirmeyi gerçekleştirdik ve grafik kütüphanesinin göçünü tamamladık. Microsoft'un resmi belgesinde önerildiği gibi, .Net6 için Windows dışı sistemlerde System.Drawing.Common yerine SkiaSharp kullanıyoruz. Lütfen bu kritik değişikliğin Aspose.Cells 22.10.1 veya sonrasında .Net6 için geçerli olacağını unutmayın.
 
  .netcore31 veya önceki sürümler için, uyumluluk ve kararlılık için şu anda "System.Drawing.Common" grafik kütüphanesini kullanmaya devam ediyoruz. .netcore31 veya önceki sürümler için bağımlılıklar şunlardır:
-- System.Drawing.Common, 4.7.0.
-- System.Security.Cryptography.Pkcs, 5.0.1.
+- System.Drawing.Common, 5.0.3.
+- System.Security.Cryptography.Pkcs, 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
 Windows'ta Aspose.Cells for .Net6'yı Çalıştırmak
@@ -39,15 +39,15 @@ VS2022'de Nuget paket yöneticisinden de Aspose.Cells'i kurabilirsiniz.
 2. Kurulum dizinini veya DLL dizinini açın, ardından aşağıdaki adımlardan 3 veya 4'ü seçin:
 
 3. "net6.0-windows" alt dizinini bulun, içindeki Aspose.Cells.dll'yi .net6 uygulamanıza ekleyin. Ayrıca aşağıdaki nuget paketlerini .net6 projenize manuel olarak ekleyin:
-- System.Drawing.Common, 4.7.0.
-- System.Security.Cryptography.Pkcs, 6.0.3.
+- System.Drawing.Common, 6.0.0.
+- System.Security.Cryptography.Pkcs, 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
 Bu şekilde, .Net6 projesinizde Windows sisteminizde "System.Drawing.Common"'ı bir bağımlılık olarak kullanacaksınız. Bu yapılandırmada çizimin sonucu .netcore31 veya öncekine daha yakın olacaktır.
 
 4. "net6.0" alt dizinini bulun, içindeki Aspose.Cells.dll'yi .net6 uygulamanıza ekleyin. Ayrıca aşağıdaki nuget paketlerini .net6 projenize manuel olarak ekleyin:
-- SkiaSharp, 2.88.6.
-- System.Security.Cryptography.Pkcs, 6.0.3.
+- SkiaSharp, 3.116.1.
+- System.Security.Cryptography.Pkcs, 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
 Bu şekilde, .Net6 projesinizde Windows sistemine "SkiaSharp" bağımlılığı olarak kullanacaksınız. *Lütfen, bağımlılık olarak "SkiaSharp" kullanan sürümün yazıcıya yazdırma özelliğini desteklemediğini unutmayın.*
@@ -66,13 +66,24 @@ VEYA
 apk update && apk add fontconfig 
 ```
 
-2. .net6 projenize "SkiaSharp.NativeAssets.Linux 2.88.6" nuget paketlerini ekleyin.
+2. NuGet paketini "SkiaSharp.NativeAssets.Linux 3.116.1" .net6 projenize ekleyin.
+3. Alternatif olarak, yukarıdaki iki adım yerine, nuGet paketlerini "SkiaSharp.NativeAssets.Linux.NoDependencies 3.116.1" projenize ekleyebilirsiniz.
 
-3. Ya da yukarıdaki iki adımın yerine, .net6 projenize "SkiaSharp.NativeAssets.Linux.NoDependencies 2.88.6" nuget paketlerini eklemeyi seçebilirsiniz.
+*Lütfen, eklenen paketin "SkiaSharp.NativeAssets.Linux" veya "SkiaSharp.NativeAssets.Linux.NoDependencies" sürümünün, Aspose.Cells for .NET tarafından referans verilen "SkiaSharp" sürümü ile uyumlu olması gerektiğine dikkat edin. Aspose.Cells for .NET ve karşılık gelen referans "SKiaSharp" sürümlerinin detayları aşağıda belirtilmiştir:*
+
+| Aspose.Cells for .NET  |                SkiaSharp                |
+| :--------------------: | :-------------------------------------: |
+| >= 22.10.1 && <= 22.11 |                 2.88.0                  |
+|  >= 22.12 && <= 23.9   |                 2.88.3                  |
+|  >= 23.10 && <= 24.12  |                 2.88.6                  |
+|        = 25.1.1        |                 3.116.1                 |
+|        >=25.1.2        | 2.88.9(net6.0, net8.0), 3.116.1(net9.0) |
+
+
 
 ### Ubuntu için Örnek Docker Dosyası
 
-1. .net6 projenize "SkiaSharp.NativeAssets.Linux 2.88.6" nuget paketlerini ekleyin.
+1. NuGet paketini "SkiaSharp.NativeAssets.Linux 3.116.1" .net6 projenize ekleyin.
 
 2. Aşağıdaki Docker dosyasını kullanın:
 {{< highlight plain >}}
@@ -108,7 +119,7 @@ ENTRYPOINT ["dotnet", "Ubuntu_Docker.dll"]
 
 ### Alpine için Örnek Docker Dosyası
 
-1. .net6 projenize "SkiaSharp.NativeAssets.Linux 2.88.6" nuget paketlerini ekleyin.
+1. NuGet paketini "SkiaSharp.NativeAssets.Linux 3.116.1" .net6 projenize ekleyin.
 
 2. Aşağıdaki Docker dosyasını kullanın:
 {{< highlight plain >}}
@@ -141,3 +152,4 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "Alpine_Docker.dll"]
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

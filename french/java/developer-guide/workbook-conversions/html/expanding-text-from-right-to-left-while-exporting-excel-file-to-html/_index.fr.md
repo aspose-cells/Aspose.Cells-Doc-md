@@ -26,3 +26,4 @@ Cette capture d'écran montre la [sortie en HTML générée avec une version plu
 Comme vous pouvez le voir dans les captures d'écran, la nouvelle version expand le texte aligné à droite vers la gauche correctement, tout comme Microsoft Excel.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-ExpandTextFromRightToLeftWhileExportingExcelFileToHTML-.java" >}}
+{{< app/cells/assistant language="java" >}}

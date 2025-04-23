@@ -53,7 +53,7 @@ url: /ar/java/show-and-hide-elements/
 
 **ضبط نوع الرؤية**
 
-يمكنك أيضًا إخفاء ورقات العمل بطريقة خاصة. يمكن أن تخفي هذه الميزة ورقة العمل بحيث الطريقة الوحيدة لجعلها مرئية مرة أخرى هي من خلال إعطاء [**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY_HIDDEN) كقيمة معلمة لطريقة [**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) في الشفرة (من الجدير بالذكر هنا، لا يمكن للمستخدمين جعل الكائن مرئيًا في MS Excel مباشرة باستخدام خيارات القائمة الخاصة به). يمكن للمستخدمين أيضًا استخدام طريقة [**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) للتحقق مما إذا كانت ورقة العمل مُعدَّلة على أنها مخفية جدًا أم لا.
+يمكنك أيضًا إخفاء ورقات العمل بطريقة خاصة. يمكن أن تخفي هذه الميزة ورقة العمل بحيث الطريقة الوحيدة لجعلها مرئية مرة أخرى هي من خلال إعطاء [**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY-HIDDEN) كقيمة معلمة لطريقة [**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) في الشفرة (من الجدير بالذكر هنا، لا يمكن للمستخدمين جعل الكائن مرئيًا في MS Excel مباشرة باستخدام خيارات القائمة الخاصة به). يمكن للمستخدمين أيضًا استخدام طريقة [**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) للتحقق مما إذا كانت ورقة العمل مُعدَّلة على أنها مخفية جدًا أم لا.
 
 ## **إظهار أو إخفاء علامات التبويب**
 
@@ -224,3 +224,4 @@ url: /ar/java/show-and-hide-elements/
 - [إضافة حدود إلى الخلايا لإنشاء جدول](/cells/ar/java/create-table-by-using-border-lines-for-a-range/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

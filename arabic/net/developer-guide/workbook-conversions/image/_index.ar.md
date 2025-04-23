@@ -53,3 +53,4 @@ Aspose.Cells for .NET تمكن من تحويل ورقات العمل إلى صو
 - [تحويل مخطط إلى صورة بتنسيق SVG](/cells/ar/net/converting-chart-to-image-in-svg-format/)
 - [تصدير مخطط إلى SVG باستخدام سمة viewBox](/cells/ar/net/export-chart-to-svg-with-viewbox-attribute/)
 - [تتبع تقدّم تحويل Excel إلى TIFF](/cells/ar/net/track-conversion-progress-of-excel-to-tiff/)
+{{< app/cells/assistant language="csharp" >}}

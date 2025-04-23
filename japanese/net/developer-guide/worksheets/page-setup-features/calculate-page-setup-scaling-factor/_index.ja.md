@@ -16,3 +16,4 @@ keywords: Excel のページの幅 n ページ、高さ m ページに合わせ�
 次のサンプルコードは、[**SheetRender.PageScale**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/properties/pagescale) プロパティを使用してページ設定のスケーリングファクターを計算する方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CalculateScalingFactor-CalculatePageSetupScalingFactor.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

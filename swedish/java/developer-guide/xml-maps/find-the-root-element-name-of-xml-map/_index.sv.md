@@ -24,3 +24,4 @@ Följande exempelkod laddar [exempel-excelfil](55541816.xlsx) och får tillgå
 Root Element Name Of Xml Map: MiscData
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

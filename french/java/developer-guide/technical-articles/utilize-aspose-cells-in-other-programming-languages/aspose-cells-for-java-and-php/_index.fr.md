@@ -57,3 +57,4 @@ $workbook->save5("t.xls");
 
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

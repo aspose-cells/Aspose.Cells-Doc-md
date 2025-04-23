@@ -18,3 +18,4 @@ L'exemple de code suivant vous montre comment convertir le fichier XLSB en forma
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ConvertXLSBToXLSM-ConvertXLSBRevisionToXLSM.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

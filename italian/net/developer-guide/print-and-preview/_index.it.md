@@ -74,3 +74,4 @@ Worksheet page count: 1
 - [Renderizzare il foglio di lavoro al contesto grafico](/cells/it/net/render-worksheet-to-graphic-context/)
 - [Specificare un insieme individuale o privato di caratteri per la rappresentazione del foglio di lavoro](/cells/it/net/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)
 - [Specificare il nome del lavoro o del documento durante la stampa con Aspose.Cells](/cells/it/net/specify-job-or-document-name-while-printing-with-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

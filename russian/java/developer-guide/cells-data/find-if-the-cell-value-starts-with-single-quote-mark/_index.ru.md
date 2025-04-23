@@ -16,3 +16,4 @@ url: /ru/java/find-if-the-cell-value-starts-with-single-quote-mark/
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Technical-Articles-DetectCellValueStartsWithSingleQuote.java" >}}
+{{< app/cells/assistant language="java" >}}

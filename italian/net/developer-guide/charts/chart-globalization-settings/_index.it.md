@@ -50,3 +50,4 @@ Workbook chart legend: Toplam
 Workbook category axis tile: Eksen Başlığı
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

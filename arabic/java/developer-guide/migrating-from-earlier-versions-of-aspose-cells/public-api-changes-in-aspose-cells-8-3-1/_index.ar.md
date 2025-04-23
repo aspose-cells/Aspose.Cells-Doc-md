@@ -187,3 +187,4 @@ workbook.save("output.xlsx");
 يرجى التحقق من المقالة [نسخ مخططات البيانات عن طريق تحديد نطاق البيانات وموقع مجموعة البيانات الرسمية](/cells/ar/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/) للمزيد من المعلومات.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

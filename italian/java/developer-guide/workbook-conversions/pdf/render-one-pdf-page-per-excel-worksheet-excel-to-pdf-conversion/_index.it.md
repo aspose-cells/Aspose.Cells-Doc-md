@@ -24,3 +24,4 @@ Se l'opzione [**PdfSaveOptions.OnePagePerSheet**](https://reference.aspose.com/c
 Se il foglio di calcolo contiene formule, è meglio chiamare il metodo [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) subito prima di rendere il foglio di calcolo in PDF. Questo assicura che i valori dipendenti dalle formule vengano ricalcolati e che i valori corretti vengano resi nel PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -29,3 +29,4 @@ url: /zh/net/set-range-border/
 1. 设置范围外的边框。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Range-set-border.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

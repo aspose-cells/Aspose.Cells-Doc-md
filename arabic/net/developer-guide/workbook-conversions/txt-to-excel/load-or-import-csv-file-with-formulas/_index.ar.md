@@ -28,3 +28,4 @@ url: /ar/net/load-or-import-csv-file-with-formulas/
 |![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)|
 | :- |
 
+{{< app/cells/assistant language="csharp" >}}

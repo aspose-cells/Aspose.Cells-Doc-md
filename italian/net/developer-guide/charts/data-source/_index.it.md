@@ -34,3 +34,4 @@ I dati di categoria vengono utilizzati per l'etichettatura dei dati del grafico 
 - [Creazione di grafici dinamici](/cells/it/net/create-dynamic-charts/)
 - [Modo semplice per l'impostazione del grafico utilizzando il metodo Chart.SetChartDataRange](/cells/it/net/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [Trova il tipo di valori X e Y dei punti nella serie del grafico](/cells/it/net/find-type-of-x-and-y-values-of-points-in-chart-series/)
+{{< app/cells/assistant language="csharp" >}}

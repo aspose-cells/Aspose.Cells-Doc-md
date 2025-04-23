@@ -40,3 +40,4 @@ keywords: تجميد الأجزاء، نافذة التجميد
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Pane.cs" >}}
 
 المرفق [ملف الإكسيل عينة](Freeze.xlsx).
+{{< app/cells/assistant language="csharp" >}}

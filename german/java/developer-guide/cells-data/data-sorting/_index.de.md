@@ -62,7 +62,7 @@ Um *VonLinksNachRechts* zu sortieren, verwenden Sie das [**DataSorter.SortLeftTo
 
 ## **Daten mit Hintergrundfarbe sortieren**
 
-Excel bietet die Möglichkeit, Daten basierend auf der Hintergrundfarbe zu sortieren. Die gleiche Funktion wird mit Aspose.Cells unter Verwendung von [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) bereitgestellt, wobei [**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL_COLOR) in [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int)) verwendet wird, um Daten basierend auf der Hintergrundfarbe zu sortieren. Alle Zellen, die die festgelegte Farbe im [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int)) enthalten, werden je nach Sortierreihenfolge-Einstellung an die Spitze oder an den Boden verschoben, und die Reihenfolge der übrigen Zellen bleibt unverändert.
+Excel bietet die Möglichkeit, Daten basierend auf der Hintergrundfarbe zu sortieren. Die gleiche Funktion wird mit Aspose.Cells unter Verwendung von [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) bereitgestellt, wobei [**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL-COLOR) in [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-) verwendet wird, um Daten basierend auf der Hintergrundfarbe zu sortieren. Alle Zellen, die die festgelegte Farbe im [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-) enthalten, werden je nach Sortierreihenfolge-Einstellung an die Spitze oder an den Boden verschoben, und die Reihenfolge der übrigen Zellen bleibt unverändert.
 
 Hier sind die Beispiel Dateien, die heruntergeladen werden können, um diese Funktion zu testen:
 
@@ -78,3 +78,4 @@ Hier sind die Beispiel Dateien, die heruntergeladen werden können, um diese Fun
 - [Daten in Spalte mit benutzerdefinierter Sortierliste sortieren](/cells/de/java/sort-data-in-column-with-custom-sort-list/)
 - [Spezifizieren von Sortierwarnungen beim Sortieren von Daten](/cells/de/java/specifying-sort-warning-while-sorting-data/)
 
+{{< app/cells/assistant language="java" >}}

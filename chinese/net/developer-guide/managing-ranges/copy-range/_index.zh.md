@@ -38,3 +38,4 @@ Aspose.Cells支持使用特定类型粘贴范围。
 - [将源范围的行高复制到目标范围](/cells/zh/net/copy-row-heights-of-source-range-to-destination-range/)
 
 
+{{< app/cells/assistant language="csharp" >}}

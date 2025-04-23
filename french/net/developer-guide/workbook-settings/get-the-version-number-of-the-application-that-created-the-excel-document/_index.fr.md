@@ -14,3 +14,4 @@ Souvent, vous avez besoin de connaître le numéro de version de l'application q
 Le code d'exemple suivant montre l'utilisation de la propriété [**Workbook.BuiltInDocumentProperties.Version**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/version). Il charge les fichiers Excel créés avec Microsoft Excel 2003, 2007, 2010 et 2013 et affiche le numéro de version de l'application qui a créé ces documents Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-GetApplicationVersion-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

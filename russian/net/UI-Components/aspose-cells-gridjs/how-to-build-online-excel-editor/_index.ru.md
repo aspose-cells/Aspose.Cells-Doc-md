@@ -1,10 +1,10 @@
 ---
-title: как запустить Aspose.Cells.GridJs в docker
+title: как запустить Aspose.Cells.GridJs в Docker
 type: docs
 weight: 250
 url: /ru/net/aspose-cells-gridjs/how-to-build-online-excel-editor/
-keywords: GridJs, docker
-description: Эта статья расскажет, как запустить GridJs в docker для создания онлайн приложения для редактирования или просмотра excel файлов.
+keywords: GridJs, Docker
+description: Эта статья описывает, как запускать GridJs в Docker для создания онлайн редактора или просмотрщика Excel.
 aliases:
   - /net/aspose-cells-gridjs/docker/
   - /net/aspose-cells-gridjs/run-aspose-cells-gridjs-in-docker/
@@ -21,13 +21,13 @@ aliases:
 
 ## Предварительные требования
 
-Убедитесь, что у вас установлен Docker на вашем компьютере. Вы можете скачать и установить Docker с [официального сайта Docker](https://www.docker.com/get-started).
+Убедитесь, что Docker установлен на вашем компьютере. Вы можете скачать и установить Docker с [официального сайта Docker](https://www.docker.com/get-started).
 
 ## Шаг 1: Создайте Dockerfile
 
-Создайте файл с именем `Dockerfile` в вашем [каталоге проекта](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/). Файл `Dockerfile` должен содержать инструкции по сборке образа Docker.
+Создайте файл с именем `Dockerfile` в вашем проекте [каталоге](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/). В `Dockerfile` должны содержаться инструкции по сборке вашего Docker-образа.
 
-## Шаг 2: Написать Dockerfile для GridJs
+## Шаг 2: Напишите Dockerfile для GridJs
 
 Вот пример [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Dockerfile) для демонстрации GridJs с приложением ASP.NET Core:
 
@@ -65,6 +65,8 @@ WORKDIR /app
 # COPY fonts/* /usr/share/fonts/
 # the basic file path which contains the spread sheet files 
 RUN mkdir -p /app/wb
+# the file path to store the uploaded files
+RUN mkdir -p /app/uploads
 # the cache file path for GridJs
 RUN mkdir -p /app/grid_cache
 # we provide some sample spread sheet files in demo 
@@ -77,40 +79,50 @@ ENTRYPOINT ["dotnet", "gridjs-demo-.net6.dll"]
 ```
 
 ## Шаг 3: Создание образа Docker
-Создайте образ Docker: Из терминала выполните следующую команду для создания образа Docker:
+Создайте образ Docker: В терминале выполните следующую команду для сборки вашего образа Docker:
 ```bash
 docker build -t gridjs-demo-net6 .
 ```
-вы можете заменить gridjs-demo-net6 на имя, которое хотите дать своему образу Docker.
+вы можете заменить gridjs-demo-net6 на имя, которое хотите присвоить вашему Docker-образу.
 
 ## Шаг 4: Запуск контейнера Docker
-После построения образа вы можете запустить контейнер с помощью следующей команды:
+После создания образа, вы можете запустить контейнер с помощью следующей команды:
+
+```bash
+docker run -d -p 24262:80 -v C:/path/to/license.txt:/app/license --name gridjs-demo-container  gridjs-demo-net6
+```
+
+или просто запустите демонстрацию в режиме пробного использования:
+
 
 ```bash
 docker run -d -p 24262:80 --name gridjs-demo-container  gridjs-demo-net6
 ```
-Объяснение опций команды Docker Run
--d: Запустить контейнер в отсоединенном режиме (в фоновом режиме).
--p 24262:80: Сопоставьте порт 80 в контейнере с портом 24262 на хост-машине.
---name gridjs-demo-container: Присвоить имя контейнеру.
 
-## Шаг 5: Проверка работы контейнера
-Чтобы проверить работу вашего контейнера, используйте следующую команду:
+
+Объяснение опций команды Docker Run
+-d: Запустить контейнер в фоновом режиме (отделенно).
+-p 24262:80: Назначьте порт 80 внутри контейнера на порт 24262 на хост-машине.
+-v C:/path/to/license.txt:/app/license: Привязка файла лицензии с хост-машины внутри контейнера.
+--name gridjs-demo-container: Назначить имя контейнеру.
+
+## Шаг 5: Проверка, что контейнер запущен
+Чтобы проверить, запущен ли ваш контейнер, используйте следующую команду:
 
 ```bash
 docker ps
 ```
-Это перечислит все работающие контейнеры. Вы увидите в списке ваш контейнер вместе с его названием и статусом.
+Это выведет список всех запущенных контейнеров. Вы должны увидеть ваш контейнер с его именем и статусом.
 
 ## Шаг 6: Доступ к веб-приложению
 
-Откройте веб-браузер и перейдите по адресу `http://localhost:24262/GridJs2/List`. Вы должны увидеть запущенное приложение.
+Откройте веб-браузер и перейдите по адресу `http://localhost:24262/GridJs2/List`. Вы должны увидеть ваше приложение в работе.
 
 ## Дополнительные команды
 
 ### Остановка контейнера
 
-Чтобы остановить запущенный контейнер, используйте следующую команду:
+Для остановки запущенного контейнера используйте следующую команду:
 
 ```bash
 docker stop gridjs-demo-container

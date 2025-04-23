@@ -14,8 +14,8 @@ url: /ja/net/how-to-run-aspose-cells-for-net6/
 Aspose.Cells製品に関して、非WindowsシステムではMicrosoftの公式ドキュメントで推奨されているように、System.Drawing.Commonの代わりにSkiaSharpを使用し、グラフィックライブラリの移行を完了しました。この重要な変更はAspose.Cells 22.10.1以降の.Net6で有効になります。
 
 .netcore31 より前の場合、互換性と安定性のため、現在も「System.Drawing.Common」グラフィックスライブラリを使用しています。.netcore31 より前の場合の依存関係は以下のとおりです:
-- System.Drawing.Common, 4.7.0.
-- System.Security.Cryptography.Pkcs, 5.0.1.
+- System.Drawing.Common, 5.0.3.
+- System.Security.Cryptography.Pkcs、6.0.5。
 - System.Text.Encoding.CodePages, 4.7.0.
 
 ## Windows で .Net6 の Aspose.Cells を実行する
@@ -39,15 +39,15 @@ Aspose.Cells製品に関して、非WindowsシステムではMicrosoftの公式�
 2. インストールディレクトリまたは DLL ディレクトリを開き、次に以下のステップ 3 または 4 を選択します:
 
 3. "net6.0-windows" サブディレクトリを見つけ、それに含まれる Aspose.Cells.dll を .net6 アプリケーションに追加します。次に、以下の NuGet パッケージを .net6 プロジェクトに手動で追加します:
-- System.Drawing.Common, 4.7.0.
-- System.Security.Cryptography.Pkcs, 6.0.3.
+- System.Drawing.Common, 6.0.0.
+- System.Security.Cryptography.Pkcs、6.0.5。
 - System.Text.Encoding.CodePages, 4.7.0.
 
 この方法で、.Net6 プロジェクトでWindowsシステムに「System.Drawing.Common」が依存するようになります。この構成では、描画の結果が.netcore31 より前に近づきます。
 
 4. "net6.0" サブディレクトリを見つけ、それに含まれる Aspose.Cells.dll を .net6 アプリケーションに追加します。次に、以下の NuGet パッケージを .net6 プロジェクトに手動で追加します:
-- SkiaSharp, 2.88.6.
-- System.Security.Cryptography.Pkcs, 6.0.3.
+- SkiaSharp、3.116.1。
+- System.Security.Cryptography.Pkcs、6.0.5。
 - System.Text.Encoding.CodePages, 4.7.0.
 
 この方法で、.Net6 プロジェクトでWindowsシステムに「SkiaSharp」が依存するようになります。*「SkiaSharp」を依存とするバージョンでは、プリンターへの印刷機能はサポートされないことに注意してください。
@@ -66,13 +66,24 @@ apt-get update && apt-get install -y libfontconfig1
 apk update && apk add fontconfig 
 ```
 
-2. .net6プロジェクトに"SkiaSharp.NativeAssets.Linux 2.88.6"をNuGetパッケージとして追加します。
+2. NuGetパッケージ「SkiaSharp.NativeAssets.Linux 3.116.1」をあなたの.NET6プロジェクトに追加します。
+3. もしくは、NuGetパッケージ「SkiaSharp.NativeAssets.Linux.NoDependencies 3.116.1」を追加し、上記の二つのステップの代わりに使用できます。
 
-3. または、上記の2つの手順の代わりに、.net6プロジェクトに"SkiaSharp.NativeAssets.Linux.NoDependencies 2.88.6"をNuGetパッケージとして追加することもできます。
+*追加パッケージ "SkiaSharp.NativeAssets.Linux" または "SkiaSharp.NativeAssets.Linux.NoDependencies" のバージョンは、Aspose.Cells for .NETによって参照されている "SkiaSharp" のバージョンに対応している必要があります。Aspose.Cells for .NET のバージョンと対応する参照 "SKiaSharp" のバージョンは以下の通りです:*
+
+| Aspose.Cells for .NET  |                SkiaSharp                |
+| :--------------------: | :-------------------------------------: |
+| >= 22.10.1 && <= 22.11 |                 2.88.0                  |
+|  >= 22.12 && <= 23.9   |                 2.88.3                  |
+|  >= 23.10 && <= 24.12  |                 2.88.6                  |
+|        = 25.1.1        |                 3.116.1                 |
+|        >=25.1.2        | 2.88.9（net6.0、net8.0）、3.116.1（net9.0） |
+
+
 
 ### Ubuntu向けのDockerfileの例
 
-1. .net6プロジェクトに"SkiaSharp.NativeAssets.Linux 2.88.6"をNuGetパッケージとして追加します。
+1. NuGetパッケージ「SkiaSharp.NativeAssets.Linux 3.116.1」をあなたの.NET6プロジェクトに追加します。
 
 2. 次のDockerfileを使用します:
 {{< highlight plain >}}
@@ -108,7 +119,7 @@ ENTRYPOINT ["dotnet", "Ubuntu_Docker.dll"]
 
 ### Alpine向けのDockerfileの例
 
-1. .net6プロジェクトに"SkiaSharp.NativeAssets.Linux 2.88.6"をNuGetパッケージとして追加します。
+1. NuGetパッケージ「SkiaSharp.NativeAssets.Linux 3.116.1」をあなたの.NET6プロジェクトに追加します。
 
 2. 次のDockerfileを使用します:
 {{< highlight plain >}}
@@ -141,3 +152,4 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "Alpine_Docker.dll"]
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

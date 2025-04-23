@@ -20,3 +20,4 @@ keywords: Aspose.Cells C# Обновление фильтра, C# как изм�
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-UpdatingSlicer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

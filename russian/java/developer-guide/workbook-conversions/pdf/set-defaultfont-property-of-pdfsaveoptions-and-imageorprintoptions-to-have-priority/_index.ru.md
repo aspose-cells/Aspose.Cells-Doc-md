@@ -9,7 +9,7 @@ url: /ru/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions
 
 При установке свойства **DefaultFont** в [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions) и [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) можно ожидать, что при сохранении в формат PDF или изображения будет установлен этот **DefaultFont** для всего текста в рабочей книге, используя отсутствующий (не установленный) шрифт.
 
-Когда сохраняется в формат PDF или изображения, Aspose.Cells сначала пытается установить шрифт по умолчанию рабочей книги (т.е. [**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font)). Если шрифт по умолчанию рабочей книги все еще не может правильно показывать/воспроизводить текст, то Aspose.Cells попытается воспроизвести с использованием шрифта, указанного в атрибуте **DefaultFont** в [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions).
+При сохранении в PDF или изображение, Aspose.Cells сначала попытается установить шрифт по умолчанию в книге (например, [**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font-)). Если шрифт по умолчанию все равно не отображает/рендерит правильно текст, Aspose.Cells попробует отрисовать с указанным в атрибуте **DefaultFont** в [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions).
 
 Чтобы соответствовать вашему ожиданию, у нас есть логическое свойство с именем "**CheckWorkbookDefaultFont**" в [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions). Вы можете установить его в значение false, чтобы отключить попытку установки шрифта по умолчанию рабочей книги, или позволить установке **DefaultFont** в [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) иметь приоритет.
 
@@ -38,3 +38,4 @@ url: /ru/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Fonts-SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions-1.java" >}}
+{{< app/cells/assistant language="java" >}}

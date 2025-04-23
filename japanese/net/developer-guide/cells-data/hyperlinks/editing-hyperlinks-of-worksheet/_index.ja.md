@@ -16,3 +16,4 @@ Aspose.Cellsを使用すると、[**Worksheet.Hyperlinks**](https://reference.as
 以下のサンプルコードでは、ワークシートのすべてのハイパーリンクにアクセスし、その[**Hyperlink.Address**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/address)プロパティをAsposeウェブサイトに変更します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-EditingHyperlinksOfWorksheet-EditingHyperlinksOfWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

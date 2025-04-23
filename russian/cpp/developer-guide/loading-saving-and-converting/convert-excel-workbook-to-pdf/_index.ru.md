@@ -14,8 +14,6 @@ Aspose.Cells поддерживает преобразование файлов 
 
 Aspose.Cells напрямую записывает информацию о версии API и номере версии в выходных документах. Например, при рендеринге документа в PDF, Aspose.Cells for C++ заполняет поле **Приложение** значением 'Aspose.Cells' и поле **PDF-производитель** значением 'Aspose.Cells v18.5.0'.
 
-Обратите внимание, что вы не можете указать Aspose.Cells for C++ изменить или удалить эту информацию из выходных документов.
-
 {{% /alert %}} 
 ### **Прямое преобразование**
 Aspose.Cells поддерживает конвертацию из электронных таблиц в формат PDF независимо от другого программного обеспечения. Просто сохраните файл Excel в формат PDF, используя метод [Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) класса [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/). Метод [Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) предоставляет член перечисления [SaveFormat_Pdf](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/), который преобразует исходные файлы Excel в формат PDF.

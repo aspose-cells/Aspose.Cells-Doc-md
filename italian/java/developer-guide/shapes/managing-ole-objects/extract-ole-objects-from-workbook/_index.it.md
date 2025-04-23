@@ -31,3 +31,4 @@ Il codice sottostante effettua il vero lavoro di ricerca ed estrazione degli ogg
 Questo articolo mostra come estrarre gli oggetti OLE da un workbook utilizzando Aspose.Cells. Speriamo che vi dia qualche spunto che vi consenta di utilizzare queste opzioni nei vostri scenari.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -375,3 +375,4 @@ Exekvera ovanstående kod, kommer du att få följande resultat:
 - [Hantera textalternativ för formen](/cells/sv/net/managing-shape-text-options/)
 - [Webbutökningar - Office-tillägg](/cells/sv/net/web-extensions-office-add-ins/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -121,3 +121,4 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath
 Aspose.Cells 经过多年的研究、设计和精心调整。我们欢迎您在 [Aspose.Cells 论坛](https://forum.aspose.com/c/cells/9) 上提出您的疑问、评论和建议。我们保证会及时回复。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

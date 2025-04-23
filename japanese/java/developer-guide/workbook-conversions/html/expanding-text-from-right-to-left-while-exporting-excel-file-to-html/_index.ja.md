@@ -26,3 +26,4 @@ Aspose.Cells は、Excel ファイルを HTML にエクスポートする際に�
 スクリーンショットに示されるように、新しいバージョンでは右寄せされたテキストを Microsoft Excel と同様に適切に左に展開します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-ExpandTextFromRightToLeftWhileExportingExcelFileToHTML-.java" >}}
+{{< app/cells/assistant language="java" >}}

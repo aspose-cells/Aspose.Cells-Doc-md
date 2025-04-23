@@ -60,3 +60,4 @@ Aspose.Cells предоставляет метод [**Range.Merge()**](https://r
 Aspose.Cells предоставляет метод [**NameCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/namecollection/methods/removeat) для удаления названия диапазона. Для очистки содержимого диапазона используйте метод [**Cells.ClearRange()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/clearrange/index). В следующем примере показано, как удалить именованный диапазон вместе с его содержимым.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-RemoveANamedRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

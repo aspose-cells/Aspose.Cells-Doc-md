@@ -34,3 +34,4 @@ Aspose.CellsにはほとんどすべてのMicrosoft Excel式を計算できる�
 [ワークブックの数式計算を書き込むことなく直接計算するカスタム関数](/cells/ja/net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

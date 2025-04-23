@@ -22,3 +22,4 @@ Här är konsolresultatet av ovanstående kod med denna [provexcelfil](5472941.x
  Web Query URL: http://www.aspose.com/docs/display/cellsnet/Home
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

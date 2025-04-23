@@ -20,3 +20,4 @@ Följande skärmbild visar [utdata PDF](5115555.pdf) som du kan ladda ned från 
 ![todo:image_alt_text](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_2.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilterDataWhileLoadingWorkbook-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

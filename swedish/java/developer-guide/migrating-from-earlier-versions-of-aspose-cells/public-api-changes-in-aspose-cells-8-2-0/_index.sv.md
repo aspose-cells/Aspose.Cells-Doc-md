@@ -31,3 +31,4 @@ Signaturerna för ovanstående metoder är följande:
 Se den detaljerade artikeln om [Autofit Rader och Kolumner](http://aspose.com/docs/display/cellsjava/AutoFit+Rows+and+Columns).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

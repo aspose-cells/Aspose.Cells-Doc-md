@@ -23,3 +23,4 @@ url: /ar/java/code-comparison-for-common-features-in-aspose-cells-and-xlsx4j/
   - [ضبط ارتفاع الصف والعمود في xlsx4j](/cells/ar/java/row-column-height-adjustment-in-xlsx4j/)
 
 **ملاحظة:** سيتم توفير المزيد من مقارنات الشفرات قريبًا. 
+{{< app/cells/assistant language="java" >}}

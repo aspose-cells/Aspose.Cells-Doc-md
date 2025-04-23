@@ -16,3 +16,4 @@ El archivo fuente de muestra se puede descargar desde el siguiente enlace:
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-ReplaceTextInSmartArt-1.java" >}}
+{{< app/cells/assistant language="java" >}}

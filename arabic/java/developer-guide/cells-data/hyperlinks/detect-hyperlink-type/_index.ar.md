@@ -10,9 +10,9 @@ url: /ar/java/detect-hyperlink-type/
 ملف Excel يمكن أن يحتوي على أنواع مختلفة من الروابط الفائقة مثل الروابط الخارجية، مراجع الخلية، مسارات الملفات، وما إلى ذلك. يدعم Aspose.Cells ميزة اكتشاف نوع الرابط الفائق. يتمثل أنواع الروابط الفائقة في تمثيلات الإحصاءات [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). وتحتوي تمثيلات الإحصاءات [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType) على الأعضاء التالية.
 
 - [**EXTERNAL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): رابط خارجي
-- [**FILE_PATH**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): الطريق المحلية والمسار الكامل إلى الملفات\المجلدات.
+- [**FILE_PATH**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE-PATH): الطريق المحلية والمسار الكامل إلى الملفات\المجلدات.
 - [**EMAIL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): بريد إلكتروني
-- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE): الرابط إلى خلية أو نطاق مسمى.
+- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL-REFERENCE): الرابط إلى خلية أو نطاق مسمى.
 
 للتحقق من نوع الارتباط التشعبي، توفر فئة [**Hyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) خاصية [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) بنوع عودة [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). يظهر الكود البرمجي التالي استخدام الخاصية [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) باستخدام هذا [ملف إكسل المصدر](LinkTypes.xlsx).
 
@@ -32,3 +32,4 @@ FullPathExample: CELL_REFERENCE </br>
 https://products.aspose.com/cells/ : EXTERNAL </br>
 mailto:test@test.com?subject=TestLink: EMAIL
 ```
+{{< app/cells/assistant language="java" >}}

@@ -47,3 +47,4 @@ Aspose.Cells for Java は、ワークシート内の特定のスタイルでセ�
 ![todo:image_alt_text](find-cells-with-specific-style_2.png)
 
 **図:** **A1** スタイルで検索後に見つかったセルを含む出力ファイル
+{{< app/cells/assistant language="java" >}}

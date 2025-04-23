@@ -36,3 +36,4 @@ url: /zh/java/what-is-a-designer-spreadsheet/
 此外，Aspose.Cells允许您在设计者电子表格中添加[智能标记](/cells/zh/java/smart-markers/)。智能标记在运行时使用[**WorkbookDesigner**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner)类的Process方法进行处理。这有助于您编写更少的代码，却能获得很好的结果。
 
 [了解更多关于智能标记的信息](/cells/zh/java/smart-markers/)。
+{{< app/cells/assistant language="java" >}}

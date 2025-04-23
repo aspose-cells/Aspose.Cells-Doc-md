@@ -381,3 +381,4 @@ L'esempio seguente mostra come aggiungere una casella di gruppo e raggruppare i 
 - [Aggiungi controlli ActiveX utilizzando Aspose.Cells](/cells/it/net/add-activex-controls-using-aspose-cells/)
 - [Rimuovi controllo ActiveX](/cells/it/net/remove-activex-control/)
 - [Aggiorna il controllo ComboBox ActiveX](/cells/it/net/update-activex-combobox-control/)
+{{< app/cells/assistant language="csharp" >}}

@@ -29,3 +29,4 @@ L'image suivante montre le fichier Excel généré avec le code d'exemple. Comme
 - [Fusionner et scinder des cellules](/cells/fr/java/fusionner-et-separer-des-cellules/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

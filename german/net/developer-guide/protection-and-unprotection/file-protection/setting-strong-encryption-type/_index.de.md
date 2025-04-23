@@ -28,3 +28,4 @@ Die unten stehenden Codebeispiele wenden eine starke Verschlüsselung auf eine D
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SettingStrongEncryptionType-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

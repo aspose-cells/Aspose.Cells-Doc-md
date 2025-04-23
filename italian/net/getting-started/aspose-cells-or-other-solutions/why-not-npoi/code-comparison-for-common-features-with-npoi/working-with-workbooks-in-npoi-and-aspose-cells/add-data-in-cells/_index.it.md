@@ -91,3 +91,4 @@ Scarica **Aggiungere Dati nelle Celle** da uno dei siti di codifica sociale menz
 Per ulteriori dettagli, visita [Aggiungere Dati alle Celle](/cells/it/net/add-data-in-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -14,3 +14,4 @@ Bu özelliği test etmek için örnek dosya aşağıdaki bağlantıdan indirileb
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-WorkbookSettings-SupportNamedRangeFormulasInGermanLocale-1.java" >}}
+{{< app/cells/assistant language="java" >}}

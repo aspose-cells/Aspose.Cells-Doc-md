@@ -62,3 +62,4 @@ Pour dissocier les lignes ou colonnes regroupées, appelez les méthodes [**Ungr
 [**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) a une surcharge qui prend un troisième paramètre booléen. Le définir sur **true** supprime toutes les informations regroupées. Sinon, seules les informations de groupe externe sont supprimées.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-UngroupingRowsAndColumns-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

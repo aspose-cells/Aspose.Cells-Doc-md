@@ -22,3 +22,4 @@ Der folgende Code-Ausschnitt zeigt dies, indem Daten mit Smart Markern in der Qu
 Die Implementierung der *DataObject* Klasse ist unten angegeben
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AllowLeadingApostrophe-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -9,7 +9,7 @@ keywords: オフィス2013、オフィス2016、オフィス2019およびオフ�
 
 ## **可能な使用シナリオ**
 
-Microsoft Excelでスライサーとピボットテーブルを非連携にしたい場合は、スライサーを右クリックし、「レポートの接続...」アイテムを選択する必要があります。オプションリストでチェックボックスを操作できます。同様に、Aspose.Cells APIを使用してスライサーとピボットテーブルを非連携にしたい場合は、[**Slicer.removePivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#removePivotConnection(com.aspose.cells.PivotTable)) メソッドを使用してください。これにより、スライサーとピボットテーブルが非連携になります。
+Microsoft Excelでスライサーとピボットテーブルを非連携にしたい場合は、スライサーを右クリックし、「レポートの接続...」アイテムを選択する必要があります。オプションリストでチェックボックスを操作できます。同様に、Aspose.Cells APIを使用してスライサーとピボットテーブルを非連携にしたい場合は、[**Slicer.removePivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#removePivotConnection-com.aspose.cells.PivotTable-) メソッドを使用してください。これにより、スライサーとピボットテーブルが非連携になります。
 
 ## **スライサーの削除**
 
@@ -19,3 +19,4 @@ Microsoft Excelでスライサーとピボットテーブルを非連携にし�
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Slicers-Removing-Pivot-Connection.java" >}}
+{{< app/cells/assistant language="java" >}}

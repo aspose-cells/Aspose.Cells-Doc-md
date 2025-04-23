@@ -11,7 +11,7 @@ Sie können beim Erstellen Ihrer Arbeitsmappen in Microsoft Excel ein **Passwort
 
 ![todo:image_alt_text](check-password-to-modify-using-aspose-cells_1.png)
 
-Manchmal müssen Sie programmgesteuert überprüfen, ob das angegebene Passwort mit dem **Passwort zum Ändern** übereinstimmt. Aspose.Cells bietet die Methode [**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword(java.lang.String)), mit der Sie überprüfen können, ob das angegebene Änderungspasswort korrekt ist oder nicht.
+Manchmal müssen Sie programmgesteuert überprüfen, ob das angegebene Passwort mit dem **Passwort zum Ändern** übereinstimmt. Aspose.Cells bietet die Methode [**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword-java.lang.String-), mit der Sie überprüfen können, ob das angegebene Änderungspasswort korrekt ist oder nicht.
 
 {{% /alert %}}
 
@@ -32,3 +32,4 @@ Is 567 correct Password to modify: false
 Is 5678 correct Password to modify: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

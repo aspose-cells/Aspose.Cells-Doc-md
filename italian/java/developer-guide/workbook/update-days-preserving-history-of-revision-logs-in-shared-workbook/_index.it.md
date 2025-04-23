@@ -18,3 +18,4 @@ Il seguente codice di esempio crea un workbook vuoto, lo condivide e aggiorna i 
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Worksheets-UpdateDaysPreservingHistoryOfRevisionLogsInSharedWorkbook.java" >}}
+{{< app/cells/assistant language="java" >}}

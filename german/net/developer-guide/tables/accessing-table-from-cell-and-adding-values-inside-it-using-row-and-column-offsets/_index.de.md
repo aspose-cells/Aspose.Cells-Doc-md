@@ -32,3 +32,4 @@ Der folgende Screenshot zeigt die durch den Code generierte Ausgabedatei. Wie Si
 Der folgende Beispielcode lädt die oben gezeigte Excel-Quelldatei und fügt Werte in die Tabelle ein, um die oben gezeigte Ausgabedatei zu generieren.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-AccessTableFromCellAndAddValue-AccessTableFromCellAndAddValue.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

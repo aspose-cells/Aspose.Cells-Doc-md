@@ -20,3 +20,4 @@ Denna avsnitt inkluderar följande ämnen
 - [Öppna ett kalkylblad från en ström](/cells/sv/net/open-a-spreadsheet-document-from-a-stream/)
 - [Hämta en ordlista över alla namngivna intervall i ett kalkylbladsdokument](/cells/sv/net/retrieve-a-dictionary-of-all-named-ranges-in-a-spreadsheet-document/)
 - [Hämta värdena på celler](/cells/sv/net/retrieve-the-values-of-cells/)
+{{< app/cells/assistant language="csharp" >}}

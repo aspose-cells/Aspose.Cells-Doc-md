@@ -77,3 +77,4 @@ Laden Sie **Neue Zeile in Zellen** von einer der unten genannten sozialen Coding
 Für weitere Details besuchen Sie [Zeilenumbrüche und Textumbruch](/cells/de/net/line-breaks-and-text-wrapping/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -27,3 +27,4 @@ Consulta el siguiente código de muestra sobre cómo lograr esto usando las API 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-Implement1904DateSystem-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

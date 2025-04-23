@@ -23,3 +23,4 @@ Aspose.Cells يوفر خاصية [Shape.ShadowEffect](https://reference.aspose.c
 يقوم الكود النموذجي التالي بتحميل [ملف الإكسل المصدر](5472531.xlsx) والوصول إلى الشكل الأول في الورقة العمل الأولى وتعيين الخصائص الفرعية لخاصية [Shape.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect) ومن ثم حفظ المصنف في [ملف الإكسل الناتج](5472530.xlsx).
 ## **الكود المثالي**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithShadowEffect-WorkingWithShadowEffect.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -157,3 +157,4 @@ Excel proporciona filtros personalizados como filtrar filas que terminan con cie
 ## **Temas avanzados**
 - [Aplicar Filtro Avanzado de Microsoft Excel para Mostrar Registros que Cumplen Criterios Complejos](/cells/es/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Obtener Todos los Índices de Filas Ocultas Después de Actualizar el Autofiltro](/cells/es/net/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+{{< app/cells/assistant language="csharp" >}}

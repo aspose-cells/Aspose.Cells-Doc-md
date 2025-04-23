@@ -1,0 +1,38 @@
+---
+title: Überprüfung des Passworts zum Ändern mithilfe von Aspose.Cells für Python via .NET
+type: docs
+weight: 2400
+url: /de/python-net/check-password-to-modify-using-aspose-cells/
+---
+
+{{% alert color="primary" %}}
+
+Manchmal muss man programmatisch prüfen, ob das angegebene Passwort mit dem **Passwort zum Ändern** übereinstimmt. Aspose.Cells für Python via .NET bietet die Methode WorkbookSettings.write_protection.validate_password(), die Sie verwenden können, um zu überprüfen, ob das angegebene Passwort korrekt ist oder nicht.
+
+{{% /alert %}}
+
+## **Passwort zum Ändern in Microsoft Excel überprüfen**
+
+Sie können beim Erstellen Ihrer Arbeitsbücher in Microsoft Excel **Passwort zum Öffnen** und **Passwort zum Ändern** zuweisen. Bitte sehen Sie sich diesen Screenshot an, der die Benutzeroberfläche zeigt, die Microsoft Excel zum Angeben dieser Passwörter bereitstellt.
+
+|![todo:image_alt_text](check-password-to-modify-using-aspose-cells_1.png)|
+| :- |
+
+## **Überprüfung des Passworts zum Ändern mithilfe von Aspose.Cells für Python via .NET**
+
+Die folgenden Beispielscodes laden die [Quell-Excel](5112232.xlsx)-Datei. Sie hat ein Passwort zum Öffnen als 1234 und ein Passwort zum Ändern als 5678. Der Code überprüft zunächst, ob 567 das richtige Passwort zum Ändern ist, und gibt false zurück, und dann überprüft er, ob 5678 das Passwort zum Ändern ist, und gibt true zurück.
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-CheckPasswordToModifyUsingAsposeCells.py" >}}
+
+### **Konsolenausgabe**
+
+Hier ist die Konsolenausgabe des obigen Beispielscodes nach dem Laden der [Quell-Excel](5112232.xlsx)-Datei.
+
+{{< highlight java >}}
+
+Is 567 correct Password to modify: False
+
+Is 5678 correct Password to modify: True
+
+{{< /highlight >}}
+

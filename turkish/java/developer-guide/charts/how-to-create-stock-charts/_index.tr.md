@@ -24,3 +24,4 @@ Hisse senedi grafları, ticari varlıkların fiyatındaki değişiklikleri izlem
 Aşağıdaki veri seti, bir hisse senedi için günlük işlem bilgilerini göstermektedir. Bu verileri kullanarak Aspose.Cells'te bulunan 4 hisse senedi grafiği her birini oluşturacağız. 
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="java" >}}

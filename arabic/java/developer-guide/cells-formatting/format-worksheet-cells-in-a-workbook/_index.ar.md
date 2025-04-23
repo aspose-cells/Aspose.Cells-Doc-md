@@ -60,3 +60,4 @@ url: /ar/java/format-worksheet-cells-in-a-workbook/
 نرحب باستفساراتكم وتعليقاتكم واقتراحاتكم في [منتدى Aspose.Cells](https://forum.aspose.com/c/cells/9). نحن نضمن الرد السريع.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

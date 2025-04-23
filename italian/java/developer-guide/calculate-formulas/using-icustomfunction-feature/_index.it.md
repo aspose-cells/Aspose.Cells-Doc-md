@@ -2,7 +2,9 @@
 title: Utilizzo della funzione ICustomFunction
 type: docs
 weight: 890
-url: /it/java/using-icustomfunction-feature/
+url: /it/java/how-to-calculate-custom-fuctions/
+description: Questo articolo descrive come creare una funzione personalizzata in Microsoft Excel utilizzando la funzionalità ICustomFunction nella libreria Aspose.Cells. Caricando un file Excel esistente o creandone uno nuovo, possiamo utilizzare i metodi forniti da Aspose.Cells per definire e registrare funzioni personalizzate e ottenere i risultati. Infine, salviamo il file Excel modificato su disco.
+keywords: Aspose.Cells, Excel, funzionalità ICustomFunction, funzioni personalizzate, come calcolare funzioni personalizzate.
 ---
 
 {{% alert color="primary" %}} 
@@ -203,3 +205,4 @@ Poiché le API di Aspose.Cells restituiscono ReferredArea in "paramsList", la Re
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

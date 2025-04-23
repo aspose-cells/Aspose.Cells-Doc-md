@@ -381,3 +381,4 @@ Das folgende Beispiel zeigt, wie Sie ein Gruppenfeld hinzufügen und die Steuere
 - [AktiveX-Steuerelemente mit Aspose.Cells hinzufügen](/cells/de/net/add-activex-controls-using-aspose-cells/)
 - [AktiveX-Steuerung entfernen](/cells/de/net/remove-activex-control/)
 - [Aktualisieren Sie das ActiveX-ComboBox-Steuerelement](/cells/de/net/update-activex-combobox-control/)
+{{< app/cells/assistant language="csharp" >}}

@@ -51,3 +51,4 @@ url: /zh/java/convert-csv-tsv-and-txt-to-excel/
 - [加载或导入带公式的CSV文件](/cells/zh/java/load-or-import-csv-file-with-formulas/)
 - [导出电子表格到CSV格式时修剪前导空白行和列](/cells/zh/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
 
+{{< app/cells/assistant language="java" >}}

@@ -14,3 +14,4 @@ Bazı durumlarda, kullanıcı kaynak aralığın satır yüksekliklerini hedef a
 Aşağıdaki örnek kod, kaynak aralığın satır yüksekliklerini hedef aralığa kopyalamak için [**PasteType.RowHeights**](https://reference.aspose.com/cells/net/aspose.cells/pastetype) numarasını nasıl kullanacağını açıklamaktadır. Bu kod tarafından oluşturulan çıktı excel dosyasını Microsoft Excel'de açtığınızda, hedef aralığın satır yüksekliklerinin tam olarak kaynak aralığın satır yükseklikleriyle aynı olduğunu göreceksiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-GetRowHeights-GetRowHeightsOfSourceRangeToDestinationRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -48,3 +48,4 @@ El programa lee un archivo enorme con millones de registros en una hoja de cálc
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingLightCellsAPI-ReadingLargeExcelFile.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

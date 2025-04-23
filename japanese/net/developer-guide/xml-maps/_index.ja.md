@@ -41,3 +41,4 @@ Aspose.Cellsでは、ワークブック内でXMLマップをインポートす�
 - [セルをXMLマップ要素にリンクする](/cells/ja/net/link-cells-to-xml-map-elements/)
 - [ワークシート.XmlMapQueryメソッドを使用して、XMLマップパスにマップされたセルエリアをクエリします。](/cells/ja/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 
+{{< app/cells/assistant language="csharp" >}}

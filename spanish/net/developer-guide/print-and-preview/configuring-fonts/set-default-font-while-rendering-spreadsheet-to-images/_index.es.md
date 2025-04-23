@@ -26,3 +26,4 @@ Esta es la imagen de salida después de establecer la propiedad [**ImageOrPrintO
 ## Código de Muestra
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-SetDefaultFontWhileRenderingSpreadsheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

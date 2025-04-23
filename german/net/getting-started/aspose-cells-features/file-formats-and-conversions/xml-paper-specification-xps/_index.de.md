@@ -13,3 +13,4 @@ url: /de/net/xml-paper-specification-xps/
 Jedes in Aspose.Cells geladene Dokument kann in XPS konvertiert werden. Aspose.Cells verwendet die gleiche hochqualitative Seitenvorlagen- und Rendering-Engine, um Ausgaben in allen unterstützten Fixlayout-Formaten wie z. B. PDF, XPS usw. zu erstellen.
 
 Es ist erwähnenswert, dass Aspose.Cells XPS direkt generiert (einschließlich Teilschranken der TrueType-Schriften), ohne auf die Windows Presentation Foundation-Klassen im .NET Framework 3.5 angewiesen zu sein. Dies ermöglicht es Aspose.Cells, XPS auf Maschinen zu erstellen, die .NET früherer Versionen ausführen, oder auf völlig anderen Plattformen.
+{{< app/cells/assistant language="csharp" >}}

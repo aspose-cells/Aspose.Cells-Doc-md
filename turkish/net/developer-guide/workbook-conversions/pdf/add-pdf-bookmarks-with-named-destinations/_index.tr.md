@@ -18,3 +18,4 @@ Aşağıdaki örnek kodu, [kaynak Excel dosyasını](50528348.xlsx) ve [çıktı
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-AddPDFBookmarksWithNamedDestinations.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

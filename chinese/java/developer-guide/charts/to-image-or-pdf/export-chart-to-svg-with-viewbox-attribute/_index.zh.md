@@ -29,3 +29,4 @@ url: /zh/java/export-chart-to-svg-with-viewbox-attribute/
 
 - [图表渲染](/cells/zh/java/chart-rendering/)
 - [使用所需的宽度和高度将工作表或图表导出为图像](/cells/zh/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+{{< app/cells/assistant language="java" >}}

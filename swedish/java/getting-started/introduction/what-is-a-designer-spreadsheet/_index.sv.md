@@ -36,3 +36,4 @@ Efter att ha skapat ett designer-kalkylblad använder du Aspose.Cells för att l
 Dessutom låter Aspose.Cells dig lägga till [smart markers](/cells/sv/java/smart-markers/) i designerkalkylbladet. Smarta markörer bearbetas vid körning med hjälp av klassens [**WorkbookDesigner**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner) Process-metod. Detta kan hjälpa dig att skriva mindre kod och ändå få utmärkt resultat.
 
 [Läs mer om smart markers](/cells/sv/java/smart-markers/).
+{{< app/cells/assistant language="java" >}}

@@ -28,3 +28,4 @@ Le même processus que celui discuté ci-dessus pourrait également être accomp
 Parce que les méthodes [**Cell.getStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle--) et [**Cell.setStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell/#setStyle-com.aspose.cells.Style-) utilisent beaucoup moins de mémoire et sont efficaces, l'ancienne propriété *Cell.getStyle()* qui consommait beaucoup de mémoire inutile, a été supprimée avec la version *Aspose.Cells 7.1.0*.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

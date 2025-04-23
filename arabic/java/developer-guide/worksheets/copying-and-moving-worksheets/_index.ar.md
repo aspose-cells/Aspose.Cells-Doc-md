@@ -27,7 +27,7 @@ url: /ar/java/copying-and-moving-worksheets/
 
 ## **نسخ أوراق العمل داخل دفتر عمل**
 
-توفر Aspose.Cells طريقة متحملة، [**WorksheetCollection.addCopy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy(int))، يتم استخدامها لإضافة ورقة عمل إلى المجموعة ونسخ البيانات من ورقة عمل موجودة. إحدى الإصدارات من الطريقة تأخذ فهرس الورقة المصدر كمعلمة. الإصدار الآخر يأخذ اسم الورقة المصدر.
+توفر Aspose.Cells طريقة متحملة، [**WorksheetCollection.addCopy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy-int-)، يتم استخدامها لإضافة ورقة عمل إلى المجموعة ونسخ البيانات من ورقة عمل موجودة. إحدى الإصدارات من الطريقة تأخذ فهرس الورقة المصدر كمعلمة. الإصدار الآخر يأخذ اسم الورقة المصدر.
 
 المثال التالي يظهر كيفية نسخ ورقة عمل موجودة داخل سجل العمل.
 
@@ -35,7 +35,7 @@ url: /ar/java/copying-and-moving-worksheets/
 
 ## **نسخ أوراق العمل بين دفاتر العمل**
 
-يوفر Aspose.Cells طريقة، [**Worksheet.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet))، المستخدمة لنسخ البيانات والتنسيق من صفحة العمل الأصلية إلى صفحة عمل أخرى داخل أو بين دفاتر العمل. تأخذ الطريقة كائن صفحة العمل الأصلية كمعلمة.
+يوفر Aspose.Cells طريقة، [**Worksheet.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy-com.aspose.cells.Worksheet-)، المستخدمة لنسخ البيانات والتنسيق من صفحة العمل الأصلية إلى صفحة عمل أخرى داخل أو بين دفاتر العمل. تأخذ الطريقة كائن صفحة العمل الأصلية كمعلمة.
 
 يظهر المثال التالي كيفية نسخ ورقة عمل من دفتر عمل إلى دفتر عمل آخر.
 
@@ -47,8 +47,9 @@ url: /ar/java/copying-and-moving-worksheets/
 
 ## **نقل أوراق العمل داخل الدفتر**
 
-توفر Aspose.Cells طريقة، [**Worksheet.moveTo()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo(int))، المستخدمة لنقل صفحة العمل إلى موقع آخر في نفس جدول البيانات.
+توفر Aspose.Cells طريقة، [**Worksheet.moveTo()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo-int-)، المستخدمة لنقل صفحة العمل إلى موقع آخر في نفس جدول البيانات.
 
 المثال التالي يظهر كيفية نقل ورقة عمل إلى موقع آخر داخل سجل العمل.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-MoveWorksheet-MoveWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -38,3 +38,4 @@ url: /ja/java/spreadsheet-editor-working-with-functions/
 1. セルを選択するためにクリックします。
 1. 上部の**関数の挿入**ボタンをクリックします。
 1. **関数の挿入**ダイアログの指示に従います。
+{{< app/cells/assistant language="java" >}}

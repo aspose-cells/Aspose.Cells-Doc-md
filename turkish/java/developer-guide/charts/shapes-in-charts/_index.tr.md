@@ -16,7 +16,7 @@ Bazen bir grafik içine etiketler, metin kutuları, resimler ve benzeri çizim n
 
 Etiketler, bir elektronik tablonun içeriği hakkında kullanıcılara bilgi vermenin bir yolunu sağlar. Aspose.Cells, etiketleri hatta grafiklere bile eklemenize ve bunları manipüle etmenize olanak sağlar.
 
- [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) sınıfı, bir etiket kontrolü eklemek için kullanılan [**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart(int,%20int,%20int,%20int)) adında bir yöntem sağlar. Aşağıda bu yöntem için kullanılan parametrelerin bir listesi bulunmaktadır:
+ [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) sınıfı, bir etiket kontrolü eklemek için kullanılan [**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart-int-int-int-int-) adında bir yöntem sağlar. Aşağıda bu yöntem için kullanılan parametrelerin bir listesi bulunmaktadır:
 
 - **üst** – etiketin sol üst köşesinden dikey ofset (1/4000 biriminde grafik alanı).
 - **sol** – etiketin sol üst köşesinden yatay ofset (1/4000 biriminde grafik alanı).
@@ -46,7 +46,7 @@ Aşağıda, grafik üzerine bir etiket eklemek için orijinal kod bulunmaktadır
 
 ## **Grafiğe TextBox Kontrolü Ekleme**
 
-Bir raporda önemli bilgileri vurgulamanın bir yolu, bir metin kutusu kullanmaktır. Örneğin, şirket adını vurgulamak veya en yüksek satış yapılan coğrafi bölgeyi belirtmek için metin girin. [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) sınıfı, grafiğe bir metin kutusu denetimi eklemek için kullanılan [**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart(int,%20int,%20int,%20int)) adında bir yöntem sağlar. Aşağıdaki parametre listesi, yöntem için kullanılan parametreleri gösterir:
+Bir raporda önemli bilgileri vurgulamanın bir yolu, bir metin kutusu kullanmaktır. Örneğin, şirket adını vurgulamak veya en yüksek satış yapılan coğrafi bölgeyi belirtmek için metin girin. [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) sınıfı, grafiğe bir metin kutusu denetimi eklemek için kullanılan [**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart-int-int-int-int-) adında bir yöntem sağlar. Aşağıdaki parametre listesi, yöntem için kullanılan parametreleri gösterir:
 
 - **top** – metin kutusunun grafik alanının sol üst köşesinden dikey ofseti, 1/4000 birimde.
 - **sol** – metin kutusunun grafik alanının sol üst köşesinden yatay ofseti, 1/4000 birim olarak.
@@ -69,7 +69,7 @@ Grafik üzerine bir metin kutusu eklemek için orijinal kod aşağıda verilmekt
 
 Aspose.Cells, bir grafiğe resim eklemenize olanak tanır. Örneğin, bir resim ekleyerek bir grafiği vurgulamak veya anlamını artırmak veya bir marka resim dosyası eklemek.
 
-[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) sınıfı, grafiğe bir resim nesnesi eklemek için kullanılan [**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart(int,%20int,%20java.io.InputStream,%20int,%20int)) adında bir yöntem sağlar. Aşağıdaki parametre listesi, yöntem için kullanılan parametreleri gösterir:
+[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) sınıfı, grafiğe bir resim nesnesi eklemek için kullanılan [**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart-int-int-java.io.InputStream-int-int-) adında bir yöntem sağlar. Aşağıdaki parametre listesi, yöntem için kullanılan parametreleri gösterir:
 
 - **top** – resmin, grafik alanının sol üst köşesinden dikey ofseti, 1/4000 birimde.
 - **left** – resmin, grafik alanının sol üst köşesinden dikey ofseti, 1/4000 birimde.
@@ -100,3 +100,4 @@ Aşağıdaki resim, çıktı dosyasındaki grafik tablosunu içeren onay kutusu 
 Aşağıdaki kod parçası tarafından oluşturulan [çıktı dosyası](InsertCheckboxInChartSheet_out.xlsx) ekli olarak sunulmuştur.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-InsertCheckboxInChartSheet-1.java" >}}
+{{< app/cells/assistant language="java" >}}

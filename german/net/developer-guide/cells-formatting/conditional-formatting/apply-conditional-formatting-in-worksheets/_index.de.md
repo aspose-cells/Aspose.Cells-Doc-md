@@ -44,3 +44,4 @@ Wenn der obige Code ausgeführt wird, wird bedingte Formatierung auf Zelle "A1" 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplyConditionalFormatting-ApplyConditionalFormattingFormula-1.cs" >}}
 
 Wenn der obige Code ausgeführt wird, wird bedingte Formatierung auf Zelle "B3" im ersten Arbeitsblatt der Ausgabedatei (output.xls) angewendet. Die angewendete bedingte Formatierung hängt von der Formel ab, die den Wert von "B3" als Summe von B1 & B2 berechnet.
+{{< app/cells/assistant language="csharp" >}}

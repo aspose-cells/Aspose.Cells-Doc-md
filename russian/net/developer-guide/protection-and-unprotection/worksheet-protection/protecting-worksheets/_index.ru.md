@@ -104,3 +104,4 @@ Aspose.Cells позволяет легко заблокировать любой
 В следующем примере показано, как разрешить пользователям редактировать диапазон в защищенном листе.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-EditRangesWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

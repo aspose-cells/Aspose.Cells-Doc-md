@@ -25,9 +25,9 @@ Aspose.Cells, bir Excel dosyasını temsil eden [Workbook](https://reference.asp
 
 Tüm bulma yöntemleri, belirtilen arama değerini içeren hücre referanslarını döndürür.
 ## **Formül İçeren Bulma**
-Geliştiriciler, [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunun [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) yöntemini çağırarak çalışma sayfasında belirtilen formülü bulabilir. [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) yöntemine [FindOptions.setLookInType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookInType)'ı [LookInType.FORMULAS](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#FORMULAS) olarak ayarlama ve bu parametreyi [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) yöntemine parametre olarak geçirme.
+Geliştiriciler, [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunun [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells/Cell-) metodunu çağırıp, [FindOptions.setLookInType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookInType) ile [LookInType.FORMULAS](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#FORMULAS) olarak ayarlayarak belirli bir formülü çalışma sayfasında bulabilirler ve bunu parametre olarak geçebilirler.
 
-Genellikle [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) yöntemi iki veya daha fazla parametre alır:
+Tipik olarak, [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells/Cell-) metodu iki veya daha fazla parametre alır:
 
 - Aranacak Nesne: çalışma sayfasında bulunması gereken bir nesneyi temsil eder.
 - Önceki Hücre: aynı formülle önceki hücreyi temsil eder. Bu parametre, başlangıçtan itibaren arama yapılırken null olarak ayarlanabilir.
@@ -41,11 +41,11 @@ Genellikle [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells
 ## **Stringler İçin Arama**
 Dize değeri içeren hücreleri aramak kolay ve esnektir. Başlangıç karakteri ile başlayan dize içeren hücreler için arama yapmak veya karakterler kümesiyle başlayan dize içeren hücreler için arama yapmak gibi farklı arama yöntemleri bulunmaktadır.
 ### **Belirli Karakterlerle Başlayan Stringler İçin Arama**
-Dizelerdeki ilk karakteri aramak için [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunun [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) yöntemini çağırın, [FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType)'ı [LookAtType.START_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#START_WITH) olarak ayarlayın ve bu parametre olarak [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) yöntemine geçirin.
+Bir dizinin ilk karakterini aramak için, [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunun [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells/Cell-) metodunu çağırın, [FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) değerini [LookAtType.START_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#START-WITH) olarak ayarlayın ve bunu [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells/Cell-) metoduna parametre olarak iletin.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsWithStringOrNumber-FindingCellsWithStringOrNumber.java" >}}
 ### **Belirli Karakterlerle Biten Stringler İçin Arama**
-Aspose.Cells ayrıca belirli karakterlerle biten dizeleri bulabilir. Dizelerin son karakterlerini aramak için [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunun [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) yöntemini çağırın, [FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType)'ı [LookAtType.END_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#END_WITH) olarak ayarlayın ve bu parametre olarak [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) yöntemine geçirin.
+Aspose.Cells ayrıca, belirli karakterlerle biten dizeleri de bulabilir. Bir dizenin son karakterlerini aramak için, [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunun [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells/Cell-) metodunu çağırın, [FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) değerini [LookAtType.END_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#END-WITH) olarak ayarlayın ve bunu parametre olarak geçin.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsEndWithSpecificCharacters-FindingCellsEndWithSpecificCharacters.java" >}}
 ## **Düzenli İfadelerle Arama: RegEx Özelliği**
@@ -60,3 +60,4 @@ Aspose.Cells, düzenli ifadelerle arama yapmanıza olanak tanır.
 ## **Gelişmiş Konular**
 - [Belirli stile sahip hücreleri bulma](/cells/tr/java/find-cells-with-specific-style/)
 - [Orijinal Değerler Kullanarak Veri Arama](/cells/tr/java/search-data-using-original-values/)
+{{< app/cells/assistant language="java" >}}

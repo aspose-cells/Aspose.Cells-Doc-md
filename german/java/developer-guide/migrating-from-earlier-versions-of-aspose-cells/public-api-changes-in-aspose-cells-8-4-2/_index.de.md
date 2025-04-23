@@ -161,3 +161,4 @@ workbook.save(output);
 Ab der Version Aspose.Cells for Java 8.4.2 verhält sich das Enumerationsfeld PasteType.ALL anders als die Funktionalität "Alle" von Excel zum Einfügen von Zellenbereichen. Jetzt kopiert auch das PasteType.ALL die Spaltenbreiten auf den Zielenbereich im Gegensatz zur "Alle"-Funktionalität von Excel. Um das Verhalten"Alle" von Excel zu imitieren, verwenden Sie bitte den PasteType.DEFAULT.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

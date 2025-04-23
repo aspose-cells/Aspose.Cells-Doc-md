@@ -27,3 +27,4 @@ Come puoi vedere, l'attributo di destinazione nel link HTML sopra è **_self**. 
 Il seguente codice illustra l'uso della proprietà [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype). Cambia il tipo di destinazione del link a **blank**. Per default, è **parent**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeHtmlLinkTarget-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

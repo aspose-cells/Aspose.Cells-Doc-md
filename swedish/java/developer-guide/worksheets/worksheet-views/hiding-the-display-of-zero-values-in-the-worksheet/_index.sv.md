@@ -24,3 +24,4 @@ För att dölja nollvärden i ett arbetsblad i Microsoft Excel (till exempel Mic
 Vänligen se följande exempelkod som visar hur man döljer nollor med hjälp av Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-HidingDisplayOfZeroValues-HidingDisplayOfZeroValues.java" >}}
+{{< app/cells/assistant language="java" >}}

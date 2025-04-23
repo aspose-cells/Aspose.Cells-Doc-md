@@ -84,3 +84,4 @@ Im Folgenden finden Sie den Code-Vergleich zur Anwendung von Stilen auf Zeilen u
 {{< /highlight >}}
 ## **Herunterladen**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/ApplyStylesToRanges.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

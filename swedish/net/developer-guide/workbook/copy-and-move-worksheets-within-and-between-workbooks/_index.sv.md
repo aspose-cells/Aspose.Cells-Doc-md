@@ -58,3 +58,4 @@ Genom att köra koden kopieras bladet med namnet Kopiera till SecondWorkbook.xls
 Genom att köra koden flyttas bladet med namnet Flytta från FirstWorkbook.xlsx till SecondWorkbook.xlsx med namnet Sheet3.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CopyMoveWorksheets-MoveWorksheetsBetweenWorkbooks.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

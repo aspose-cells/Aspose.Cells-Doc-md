@@ -106,3 +106,4 @@ Télécharger **Ajouter une image dans la feuille de calcul** à partir de l'un 
 Pour plus de détails, visitez [Travailler avec les feuilles de calcul](/cells/fr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

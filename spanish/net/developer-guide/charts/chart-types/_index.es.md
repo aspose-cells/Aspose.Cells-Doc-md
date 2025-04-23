@@ -225,3 +225,4 @@ Un gráfico de cascada muestra un total acumulado a medida que se agregan o rest
 El gráfico de cascada es compatible en Aspose.Cells.
 ### **Tipos de gráficos personalizados**
 Los gráficos personalizados le permiten crear gráficos con formato personalizado que también se pueden aplicar a otros gráficos. Aquí solo hemos discutido los gráficos estándar. Si desea conocer más detalles sobre gráficos personalizados, lea el artículo Creación de gráficos personalizados que describe cómo crear gráficos personalizados.
+{{< app/cells/assistant language="csharp" >}}

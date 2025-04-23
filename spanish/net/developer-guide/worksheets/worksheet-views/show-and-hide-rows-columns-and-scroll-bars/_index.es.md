@@ -75,3 +75,4 @@ Oculte las barras de desplazamiento estableciendo la propiedad [**WorkbookSettin
 A continuación se muestra un código completo que abre un archivo de Excel, book1.xls, oculta ambas barras de desplazamiento y luego guarda el archivo modificado como output.xls.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-DisplayHideScrollBars-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

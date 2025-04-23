@@ -38,3 +38,4 @@ Nedan är det exempelkod som konverterar ovanstående CSV-fil till XLSX-format k
 ## Relaterade artiklar
 
 - [Öppning av CSV-filer](/cells/sv/net/opening-files-with-different-formats/#opening-csv-files)
+{{< app/cells/assistant language="csharp" >}}

@@ -201,3 +201,4 @@ Scarica il codice sorgente per **Creare tabelle pivot utilizzando Apache POI e A
 Per ulteriori dettagli, visita [Crea tabelle pivot e grafici pivot](/cells/it/java/create-pivot-tables-and-pivot-charts/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

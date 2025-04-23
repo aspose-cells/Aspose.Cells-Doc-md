@@ -74,3 +74,4 @@ Aspose 组件提供了管理 Office 文件所需的一切，以及更多。它�
 
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

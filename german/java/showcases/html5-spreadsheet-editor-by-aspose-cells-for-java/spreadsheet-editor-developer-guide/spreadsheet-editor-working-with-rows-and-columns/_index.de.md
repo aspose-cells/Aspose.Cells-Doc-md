@@ -372,3 +372,4 @@ Das Verschieben von Zellen rechts und das Verschieben von Zellen nach unten werd
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

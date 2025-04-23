@@ -270,3 +270,4 @@ workbook.save("output.xlsx");
 استخدم الطريقة getEnumerator لتكرار جميع الخلايا بدلاً من ذلك.
 ### **واجهات برمجة التطبيقات المهملة DrawObject.Image**
 استخدم خاصية DrawObject.ImageBytes للحصول على بيانات الصورة بدلاً من ذلك.
+{{< app/cells/assistant language="java" >}}

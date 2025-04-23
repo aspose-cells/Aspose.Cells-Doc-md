@@ -18,3 +18,4 @@ Per fare ciò, Aspose.Cells fornisce la proprietà [**Chart.PlotArea.Area.FillFo
 ## Codice C# per impostare un'immagine come riempimento di sfondo nel grafico
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-SetPictureBackGroundFillChart-SetPictureBackGroundFillChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

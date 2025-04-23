@@ -135,3 +135,4 @@ Bitte sehen Sie sich den folgenden Beispielcode an, der die [Beispieldatei in Ex
 Die Ausgabesnapshot:
 <br>
 <image src="4.png" width="70%" />
+{{< app/cells/assistant language="csharp" >}}

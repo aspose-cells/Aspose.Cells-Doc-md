@@ -53,3 +53,4 @@ Consultez les articles détaillés sur
 - [Comment obtenir des avertissements lorsque des substitutions de polices surviennent](/cells/fr/java/get-warnings-for-font-substitution-while-rendering-excel-file/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

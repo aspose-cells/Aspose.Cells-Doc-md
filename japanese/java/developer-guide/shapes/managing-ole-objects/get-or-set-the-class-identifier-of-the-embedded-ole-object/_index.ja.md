@@ -23,3 +23,4 @@ Aspose.Cellsは、埋め込みOLEオブジェクトのクラス識別子を取�
  DC020317-E6E2-4A62-B9FA-B3EFE16626F4
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

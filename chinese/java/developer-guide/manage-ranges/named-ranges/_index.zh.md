@@ -29,24 +29,24 @@ url: /zh/java/named-ranges/
 
 Aspose.Cells提供了一个表示Microsoft Excel文件的类[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)。[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类包含一个[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)，允许访问Excel文件中的每个工作表。工作表由[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)类表示。[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)类提供了一个[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)集合。
 
-可以通过调用[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)集合的重载[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\))方法来创建命名范围。[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\))方法的典型版本接受以下参数：
+可以调用 [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) 集合的重载 [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-java.lang.String-java.lang.String-) 方法创建命名范围。通常的 [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-java.lang.String-java.lang.String-) 方法参数如下：
 
 - 左上角单元格的名称，范围中左上角单元格的名称。
 - 右下角单元格的名称，范围中右下角单元格的名称。
 
-调用[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\))方法后，它会将新创建的命名范围返回为[Range](https://reference.aspose.com/cells/java/com.aspose.cells/range)类的实例。
+调用 [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-java.lang.String-java.lang.String-) 方法后，会返回一个新创建的命名范围，是 [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) 类的实例。
 
 以下示例显示了如何创建一个跨越B4:G14的单元格命名范围。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-CreateNamedRangeofCells-CreateNamedRangeofCells.java" >}}
 #### **访问电子表格中的所有命名范围**
-调用[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)集合的[getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\))方法，通过名称获取指定的范围。典型的[getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\))方法需要命名范围的名称，并将指定的命名范围返回为[Range](https://reference.aspose.com/cells/java/com.aspose.cells/range)类的实例。
+调用 [WorksheetCollection.getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges--) 方法获取工作表中的所有命名范围。该方法返回一个包含所有命名范围的数组。
 
 以下示例显示如何访问工作簿中的所有命名范围。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AccessAllNamedRanges-AccessAllNamedRanges.java" >}}
 #### **访问特定的命名范围**
-以下示例显示了如何通过名称访问指定的范围。
+调用 [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) 集合的 [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName-java.lang.String-) 方法通过名称获取指定范围。一个典型的 [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName-java.lang.String-) 方法接收命名范围的名称并以 [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) 类的实例返回指定的命名范围。
 
 使用Aspose.Cells，您可以将数据插入到范围的各个单元格中。假设您有一个名为A1:C4的单元格命名范围。因此，该矩阵将生成4*3=12个单元格，并且各个范围单元格是按顺序排列的。Aspose.Cells为您提供了[Range](https://reference.aspose.com/cells/java/com.aspose.cells/range)类的一些实用属性以访问范围内的各个单元格。您可以使用以下方法来识别范围内的单元格：
 
@@ -76,7 +76,7 @@ Aspose.Cells提供了一个表示Microsoft Excel文件的类[Workbook](https://r
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FormatRanges1-FormatRanges1.java" >}}
 #### **格式化范围...向命名范围添加边框**
-可以向单元格范围添加边框，而不仅仅是一个单元格。[Range](https://reference.aspose.com/cells/java/com.aspose.cells/range)对象提供了[setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\))方法，该方法接受以下参数来向单元格范围添加边框：
+可以为一组单元格添加边框，而不仅仅是单个单元格。 [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) 对象提供了 [setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders-int-com.aspose.cells.Color-) 方法，该方法采用以下参数为单元格范围添加边框：
 
 - borderStyle：边框类型，从[CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType)枚举中选择。
 - borderColor：边框的线颜色，从[Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color)枚举中选择。
@@ -90,16 +90,17 @@ Aspose.Cells提供了一个表示Microsoft Excel文件的类[Workbook](https://r
 
 ![todo:image_alt_text](named-ranges_1.png)
 #### **在Range中为单元格应用样式**
-有时，您想要在[Range](https://reference.aspose.com/cells/java/com.aspose.cells/range)中为单元格应用样式。为此，您可以迭代范围中的单元格，并使用[Cell.setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\))方法将样式应用于单元格。
+有时，您希望为 [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) 中的单元格应用样式。为此，您可以遍历范围内的单元格，并使用 [Cell.setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle-com.aspose.cells.Style-) 方法将样式应用到单元格。
 
 以下示例展示了如何在Range中为单元格应用样式。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ConvertCellsAddresstoRangeorCellArea-ConvertCellsAddresstoRangeorCellArea.java" >}}
 #### **移除命名范围**
-Aspose.Cells提供[NameCollection.RemoveAt()](https://reference.aspose.com/cells/java/com.aspose.cells/namecollection#removeAt\(int\))方法来擦除范围的名称。要清除范围的内容，使用[Cells.ClearRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#clearRange\(com.aspose.cells.CellArea\))方法。
+Aspose.Cells 提供 [NameCollection.RemoveAt()](https://reference.aspose.com/cells/java/com.aspose.cells/namecollection#removeAt-int-) 方法以删除范围的名称。要清除范围内容，请使用 [Cells.ClearRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#clearRange-com.aspose.cells.CellArea-) 方法。
 以下示例展示了如何移除命名范围及其内容。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-RemoveANamedRange-RemoveANamedRange.java" >}}
 
 
 borderColors 
+{{< app/cells/assistant language="java" >}}

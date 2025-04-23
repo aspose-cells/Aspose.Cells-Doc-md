@@ -21,3 +21,4 @@ Aspose.Cells 提供了 [**Picture.SignatureLine**](https://reference.aspose.com/
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Add-Signature-Line.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

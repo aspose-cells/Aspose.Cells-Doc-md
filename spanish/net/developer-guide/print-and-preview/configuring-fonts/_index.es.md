@@ -20,6 +20,12 @@ A continuación se presenta el proceso que las API de Aspose.Cells siguen detrá
 5. Si la API no puede localizar la fuente definida en la propiedad [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/properties/defaultfontname), intenta seleccionar las fuentes más adecuadas de todas las fuentes disponibles.
 6. Por último, si la API no puede encontrar ninguna fuente en el sistema de archivos, representa la hoja de cálculo utilizando Arial.
 
+{{% alert color="primary" %}}
+
+Por lo general, las APIs de Aspose.Cells escanean los directorios de fuentes predeterminados del sistema operativo en Windows, Linux y MacOS por defecto. A partir de [Aspose.Cells for .NET 24.7](https://releases.aspose.com/cells/net/release-notes/2024/aspose-cells-for-net-24-7-release-notes/), las APIs también escanean los directorios de fuentes en la nube cacheados de Office por defecto.
+
+{{% /alert %}}
+
 ## **Establecer Carpetas de Fuentes Personalizadas**
 
 Las API de Aspose.Cells buscan en el directorio de fuentes predeterminado del sistema operativo las fuentes requeridas. En caso de que las fuentes requeridas no estén disponibles en el directorio de fuentes del sistema, las APIs buscarán en los directorios personalizados (definidos por el usuario). La clase [**FontConfigs**](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs) ha expuesto varias formas de establecer directorios de fuentes personalizados, como se detalla a continuación.
@@ -66,3 +72,4 @@ Además de los métodos mencionados anteriormente, las APIs de Aspose.Cells tamb
 - [Establecer la propiedad DefaultFont de PdfSaveOptions e ImageOrPrintOptions para tener prioridad](/cells/es/net/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Formatos de fuente soportados](/cells/es/net/supported-font-formats/)
 - [Hoja de cálculo a imagen - Establecer formato de píxel para la imagen renderizada](/cells/es/net/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
+{{< app/cells/assistant language="csharp" >}}

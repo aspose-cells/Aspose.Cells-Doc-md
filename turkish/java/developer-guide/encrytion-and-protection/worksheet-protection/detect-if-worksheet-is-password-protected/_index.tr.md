@@ -16,3 +16,4 @@ url: /tr/java/detect-if-worksheet-is-password-protected/
 Aspose.Cells for Java 8.7.0'nin **[**Protection.isProtectedWithPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#IsProtectedWithPassword)** özelliği şimdi bir çalışma kitabının parola korumalı olup olmadığını algılamak için kullanılabilir. Boolean türü [**Protection.isProtectedWithPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#IsProtectedWithPassword) alanı, [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) parola korumalıysa **true** değerini döndürür, aksi halde **false** değerini döndürür.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DetectWorksheetisPasswordProtected-DetectWorksheetisPasswordProtected.java" >}}
+{{< app/cells/assistant language="java" >}}

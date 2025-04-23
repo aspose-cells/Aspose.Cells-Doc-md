@@ -21,3 +21,4 @@ Workbook book = new Workbook(srcDir + "sampleMacroEnabledWorkbook.xlsm", loadOpt
 
 // 出力をPDF形式で保存
 book.save(outDir + "OutputSampleMacroEnabledWorkbook.xlsm", SaveFormat.XLSM);
+{{< app/cells/assistant language="java" >}}

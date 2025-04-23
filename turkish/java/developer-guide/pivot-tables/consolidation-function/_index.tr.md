@@ -43,3 +43,4 @@ Farklı Sayı Sayımı konsolidasyon işlevi sadece Microsoft Excel 2013 tarafı
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="java" >}}

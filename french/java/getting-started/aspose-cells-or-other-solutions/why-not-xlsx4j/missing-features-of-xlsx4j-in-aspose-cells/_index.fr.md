@@ -37,3 +37,4 @@ Cela comprend les nombreuses fonctionnalités abondantes d'Aspose.Cells par rapp
   - [Définir la couleur de l'onglet de la feuille de calcul dans xlsx4j](/cells/fr/java/set-worksheet-tab-color-in-xlsx4j/)
 
 **Remarque :** De nombreux autres exemples seront bientôt disponibles.
+{{< app/cells/assistant language="java" >}}

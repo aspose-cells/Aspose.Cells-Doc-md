@@ -26,3 +26,4 @@ Följande exempelkod förklarar hur de nämnda egenskaperna används. Var god la
 
 
 
+{{< app/cells/assistant language="java" >}}

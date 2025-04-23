@@ -11,8 +11,8 @@ Aspose.Cells le proporciona la capacidad de cambiar la dirección de la etiqueta
 
 - [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
 - [**VERTICAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)
-- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)
-- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_270)
+- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90)
+- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-270)
 - [**STACKED**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#STACKED)
 
 La siguiente imagen compara los archivos de origen y de salida
@@ -25,7 +25,7 @@ La siguiente imagen compara los archivos de origen y de salida
 
 ![todo:image_alt_text](change-tick-label-direction_2.jpg)
 
-El siguiente fragmento de código cambia la dirección de la etiqueta del eje de [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90) a [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
+El siguiente fragmento de código cambia la dirección de la etiqueta del eje de [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90) a [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
 
 ### **Código de muestra**
 
@@ -36,3 +36,4 @@ Los archivos de origen y de salida se pueden descargar desde los siguientes enla
 [Archivo de Origen](SampleChangeTickLabelDirection.xlsx)
 
 [Archivo de Salida](outputChangeChartDataLableDirection.xlsx)
+{{< app/cells/assistant language="java" >}}

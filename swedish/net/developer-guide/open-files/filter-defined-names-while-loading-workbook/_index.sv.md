@@ -18,3 +18,4 @@ Följande exempelkod laddar den [exempel-Excel-filen](61767860.xlsx) som innehå
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Workbook-FilterDefinedNamesWhileLoadingWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

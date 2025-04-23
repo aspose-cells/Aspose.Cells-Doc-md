@@ -43,3 +43,4 @@ Estos números de cadena se han convertido en números utilizando [**Cells.Conve
 El siguiente código de muestra ilustra cómo convertir todos los datos numéricos de cadena en números reales en todas las hojas de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ConvertStringToNumericValue-ConvertTextNumericDatatoNumber.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

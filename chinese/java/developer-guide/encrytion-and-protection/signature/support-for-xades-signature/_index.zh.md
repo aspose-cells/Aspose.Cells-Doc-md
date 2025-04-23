@@ -12,3 +12,4 @@ Aspose.Cells 提供了支持使用 XAdES 签名对工作簿进行签名。为此
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-XAdESSignatureSupport-1.java" >}}
+{{< app/cells/assistant language="java" >}}

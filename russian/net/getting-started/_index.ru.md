@@ -45,7 +45,7 @@ NuGet - самый простой способ скачать и установ�
 2. Откройте файл "AsposeCellsTest.csproj", добавьте в него следующие строки для ссылок на пакет Aspose.Cells:
 {{< highlight plain >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="24.7" />
+    <PackageReference Include="Aspose.Cells" Version="25.4" />
   </ItemGroup>
 {{< /highlight >}}
 3. Откройте проект в VSCode на Ubuntu:
@@ -103,3 +103,4 @@ Aspose.Cells для Net6 теперь использует SkiaSharp в каче
 В следующем примере открывается существующий файл шаблона Microsoft Excel "Sample.xlsx", вставляется "Hello World!" в ячейку A1 на первом рабочем листе и сохраняется как файл Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

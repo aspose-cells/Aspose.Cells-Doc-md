@@ -16,3 +16,4 @@ I report basati su tabelle pivot sono utili ma soggetti a errori se gli utenti d
 Il seguente codice dimostra questa funzionalità accedendo a una tabella pivot da un foglio e impostando [**EnableWizard**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/enablewizard) su **false**. Il file di esempio della tabella pivot può essere scaricato da questo [link](pivot_table_test.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-DisablePivotTableRibbon.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -9,7 +9,7 @@ url: /zh/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions
 
 在设置**DefaultFont**属性时，您可能期望将其设置为工作簿中具有缺失（未安装）字体的所有文本的[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)和[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)。
 
-通常，在保存为PDF或图像时，Aspose.Cells首先会尝试设置工作簿的默认字体（即[**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font)）。如果工作簿的默认字体仍然无法正确显示/呈现文本，那么Aspose.Cells将尝试使用[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)中**DefaultFont**属性所提到的字体进行呈现。
+一般来说，在保存为pdf或图片时，Aspose.Cells会首先尝试设置工作簿的默认字体（即[**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font-)）。如果工作簿的默认字体仍不能正确显示/渲染文本，则Aspose.Cells会尝试使用 [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) 中提到的默认字体来渲染。
 
 为了符合您的期望，我们在[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)中有一个名为"**CheckWorkbookDefaultFont**"的布尔属性。您可以将其设置为false以禁用尝试工作簿的默认字体，或者让[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)中的**DefaultFont**设置具有优先级。
 
@@ -38,3 +38,4 @@ url: /zh/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Fonts-SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions-1.java" >}}
+{{< app/cells/assistant language="java" >}}

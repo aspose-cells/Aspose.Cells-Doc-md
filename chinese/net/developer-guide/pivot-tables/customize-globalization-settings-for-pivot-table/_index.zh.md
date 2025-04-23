@@ -18,3 +18,4 @@ url: /zh/net/customize-globalization-settings-for-pivot-table/
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-CustomizePivotTableGlobalSettings-CustomizePivotTableGlobalSettings.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

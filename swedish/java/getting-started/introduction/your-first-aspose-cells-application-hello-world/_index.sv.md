@@ -41,3 +41,4 @@ I följande exempel skapas en ny arbetsbok från grunden, skriver orden "Hello W
 I följande exempel öppnas en befintlig Microsoft Excel-mallfil som kallas **bok1.xls**, skriver orden "Hello World!" i cellen A1 på den första arbetsbladet och sparar arbetsboken som en ny fil.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-introduction-OpeningExistingFile-1.java" >}}
+{{< app/cells/assistant language="java" >}}

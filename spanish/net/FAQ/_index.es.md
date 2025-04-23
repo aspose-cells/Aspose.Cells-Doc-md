@@ -47,3 +47,4 @@ No hay una mejor forma de obtener el tamaño de la pila utilizado en tiempo de e
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="csharp" >}}

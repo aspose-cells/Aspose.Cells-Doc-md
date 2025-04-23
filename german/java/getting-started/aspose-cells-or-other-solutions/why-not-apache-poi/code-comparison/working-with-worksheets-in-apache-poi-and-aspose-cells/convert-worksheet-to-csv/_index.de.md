@@ -699,3 +699,4 @@ Downloaden Sie **Arbeitsblatt in CSV konvertieren** von einer der unten genannte
 Für weitere Details besuchen Sie [Dateien speichern](/cells/de/java/saving-excel-files-to-csv-pdf-and-other-formats/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

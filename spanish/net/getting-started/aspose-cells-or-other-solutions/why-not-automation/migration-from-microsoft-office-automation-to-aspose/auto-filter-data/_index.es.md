@@ -173,3 +173,4 @@ objBook.Save("e:\\test2\\aspose-cells_autofilter.xlsx");
 **Filtro automático aplicado con Aspose.Cells for .NET** 
 
 ![todo:image_alt_text](auto-filter-data_2.png)
+{{< app/cells/assistant language="csharp" >}}

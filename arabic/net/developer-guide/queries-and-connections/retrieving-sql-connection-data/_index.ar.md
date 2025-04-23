@@ -22,3 +22,4 @@ url: /ar/net/retrieving-sql-connection-data/
 إذا احتوى كائن ExternalConnection على بيانات اتصال SQL، يمكن تحويل نوعه إلى كائن DBConnection ويمكن استخدام خصائصه لاسترداد أمر قاعدة بيانات، نوع الأمر، وصف الاتصال، معلومات الاتصال، بيانات الاعتماد، وما إلى ذلك.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-RetrievingSQLConnectionData-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

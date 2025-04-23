@@ -27,3 +27,4 @@ Aspose.Cells支持将Json（JavaScript对象表示法）文件转换为Excel工�
 以下代码示例演示了将JSON字符串导入到Excel工作簿。您还可以在导入JSON时指定布局的位置。请参阅用于参考的代码将JSON字符串转换为由代码生成的xlsx文件。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Convert-JSON-String-to-Excel.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

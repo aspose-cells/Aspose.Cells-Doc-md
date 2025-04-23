@@ -73,3 +73,4 @@ Aspose.Cells for .NET を展開するために MSI インストーラを使用�
 - **プログラムの追加と削除** をクリックします。
 - Aspose.Cells for .NET (バージョン) を選択します。
 - Aspose.Cells を削除するには **変更/削除** をクリックします。
+{{< app/cells/assistant language="csharp" >}}

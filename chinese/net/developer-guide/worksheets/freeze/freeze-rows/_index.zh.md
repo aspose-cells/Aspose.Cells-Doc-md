@@ -41,3 +41,4 @@ keywords: 冻结顶部行，冻结顶部行。
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Row.cs" >}}
 
 附有[示例源Excel文件](../Freeze.xlsx)。
+{{< app/cells/assistant language="csharp" >}}

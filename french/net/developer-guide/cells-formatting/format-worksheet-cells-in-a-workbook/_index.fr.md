@@ -50,3 +50,4 @@ Voici les étapes pour créer une feuille de calcul et formater différentes cel
 1. Ajoutez le code suivant au projet:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FormatWorksheetCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

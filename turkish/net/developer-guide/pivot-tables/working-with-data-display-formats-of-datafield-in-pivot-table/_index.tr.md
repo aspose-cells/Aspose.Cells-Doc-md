@@ -13,7 +13,7 @@ Aspose.Cells, DataField'ın tüm veri görüntüleme formatlarını destekler.
 
 ## **"En Küçükten En Büyüğe Sırala" ve "En Büyükten En Küçüğe Sırala" görüntüleme formatı seçeneği**
 
-Aspose.Cells, pivot alanları için görüntüleme biçimi seçeneğini ayarlamak için [**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat) özelliğini sağlar. En büyükten en küçüğe sıralamak için [**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat) özelliğini [**PivotFieldDataDisplayFormat.RankLargestToSmallest**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfielddatadisplayformat) olarak ayarlayabilirsiniz. Aşağıdaki kod örneği görüntüleme biçimi seçeneklerini ayarlamanın nasıl yapılacağını göstermektedir.
+Aspose.Cells, pivot alanları için görüntüleme biçimi seçeneğini ayarlamak için [**PivotField.ShowValuesSetting.CalculationType**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotshowvaluessetting/calculationtype/) özelliğini sağlar. En büyükten en küçüğe sıralamak için [**PivotField.ShowValuesSetting.CalculationType**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotshowvaluessetting/calculationtype/) özelliğini [**PivotFieldDataDisplayFormat.RankLargestToSmallest**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfielddatadisplayformat) olarak ayarlayabilirsiniz. Aşağıdaki kod örneği görüntüleme biçimi seçeneklerini ayarlamanın nasıl yapılacağını göstermektedir.
 
 Örnek kaynak ve çıktı dosyalarını buradan indirebilir ve örnek kodu test etmek için kullanabilirsiniz:
 
@@ -22,3 +22,4 @@ Aspose.Cells, pivot alanları için görüntüleme biçimi seçeneğini ayarlama
 [Çıktı Excel Dosyası](101089333.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTables-PivotTableDataDisplayFormatRanking-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

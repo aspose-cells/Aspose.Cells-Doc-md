@@ -44,3 +44,4 @@ Descargar **Establecer el color de la pestaña de la hoja de cálculo** desde cu
 Para más detalles, visita [Establecer el color de la pestaña de la hoja de cálculo](/cells/es/net/set-worksheet-tab-color/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -32,3 +32,4 @@ Veuillez consulter le code d'exemple suivant qui décrit comment vous pouvez eff
 - [Ajouter une signature numérique à un fichier Excel déjà signé](/cells/fr/net/add-digital-signature-to-an-already-signed-excel-file/)
 - [Ajouter une ligne de signature au classeur](/cells/fr/net/add-signature-line/)
 - [Prise en charge de la signature XAdES](/cells/fr/net/support-for-xades-signature/)
+{{< app/cells/assistant language="csharp" >}}

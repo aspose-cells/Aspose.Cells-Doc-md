@@ -14,3 +14,4 @@ url: /tr/net/detect-if-worksheet-is-password-protected/
 Aspose.Cells for .NET 8.7.0, bir çalışma sayfasının parola korumalı olup olmadığını algılamak için [**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword) özelliğini ortaya çıkarmıştır. Boole türünde [**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword) özelliği, [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) parola korumalıysa **true** ve değilse **false** döndürür.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CheckIfPasswordProtected-CheckIfPasswordProtected.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

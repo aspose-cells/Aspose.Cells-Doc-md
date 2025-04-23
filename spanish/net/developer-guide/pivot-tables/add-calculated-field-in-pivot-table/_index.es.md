@@ -35,3 +35,4 @@ Agrega un campo calculado al archivo de Excel usando Aspose.Cells. Por favor, co
 
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-Add-calculated-field-in-PivotTable.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

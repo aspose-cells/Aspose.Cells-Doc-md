@@ -53,3 +53,4 @@ Aspose.Cellsは、Microsoft Excelファイルを表す[**Workbook**](https://ref
 以下の例では、上のセクションでMicrosoft Excelを使用して作成したものと同じ[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)をAspose.Cells APIを使用して作成しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-CreatingListObject-CreatingListObject.java" >}}
+{{< app/cells/assistant language="java" >}}

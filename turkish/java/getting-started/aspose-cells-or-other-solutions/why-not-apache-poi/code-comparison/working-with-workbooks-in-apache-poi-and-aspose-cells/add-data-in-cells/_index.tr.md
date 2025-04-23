@@ -97,3 +97,4 @@ fileOut.close();
 Daha fazla bilgi için [Hücrelere Veri Eklemek](/java/adding-data-to-cells) ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

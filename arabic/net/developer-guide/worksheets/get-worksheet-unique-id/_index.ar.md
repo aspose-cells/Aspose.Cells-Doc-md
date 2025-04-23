@@ -14,3 +14,4 @@ keywords: معرف الورقة العمل الفريد في إكسل سي#، م
 ### كود المصدر
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-GetWorksheetUniqueId-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

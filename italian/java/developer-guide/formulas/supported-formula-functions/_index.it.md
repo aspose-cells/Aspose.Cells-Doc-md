@@ -36,6 +36,7 @@ Il motore di calcolo delle formule di Aspose.Cells ti consente di impostare, leg
 |ANCHORARRAY|**Ricerca e riferimento**: Restituisce l'intero intervallo esteso per l'array dinamico in una cella
 |AND|**Logico**: Restituisce VERO se tutti i suoi argomenti sono VERI
 |AREAS|**Ricerca e riferimento**: Restituisce il numero di aree in un riferimento
+|ARRAYTOTEXT|**Testo**: Restituisce un array di valori di testo da qualsiasi intervallo specificato
 |ASC|**Testo**: Cambia le lettere inglesi a larghezza intera (doppio byte) o katakana all'interno di una stringa di caratteri in lettere a larghezza singola (singolo byte)
 |ASIN|**Matematica e trigonometria**: Restituisce l'arcoseno di un numero
 |ASINH|**Matematica e trigonometria**: Restituisce il seno iperbolico inverso di un numero
@@ -69,6 +70,8 @@ Il motore di calcolo delle formule di Aspose.Cells ti consente di impostare, leg
 |BITOR|**Ingegneria**: Restituisce un 'Or bit a bit' di 2 numeri
 |BITRSHIFT|**Ingegneria**: Restituisce un numero di valore spostato a destra di un certo numero di bit shift_amount
 |BITXOR|**Ingegneria**: Restituisce un 'Exclusive Or bit a bit' di due numeri
+|BYCOL|**Logico**: Applica una LAMBDA a ogni colonna e restituisce un array dei risultati
+|BYROW|**Logico**: Applica una LAMBDA a ogni riga e restituisce un array dei risultati
 
 ###### **C**
 |**Funzione**|**Sommario**|
@@ -515,6 +518,7 @@ Il motore di calcolo delle formule di Aspose.Cells ti consente di impostare, leg
 |**Funzione**|**Sommario**|
 | :- | :- |
 |VALUE|**Testo**: Converte un argomento di testo in un numero
+|VALUETOTEXT|**Testo**: Restituisce il testo da qualsiasi valore specificato
 |VAR|**Compatibilità**: Stima la varianza basata su un campione
 |VAR.P|**Statistiche**: Calcola la varianza basata sull'intera popolazione
 |VAR.S|**Statistiche**: Stima la varianza basata su un campione
@@ -557,3 +561,4 @@ Il motore di calcolo delle formule di Aspose.Cells ti consente di impostare, leg
 |Z.TEST|**Statistico**: Restituisce il valore di probabilità a una coda di un test z
 |ZTEST|**Compatibilità**: Restituisce il valore di probabilità a una coda di un test z
 
+{{< app/cells/assistant language="java" >}}

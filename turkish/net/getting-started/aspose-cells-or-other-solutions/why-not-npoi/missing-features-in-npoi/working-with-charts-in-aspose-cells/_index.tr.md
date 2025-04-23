@@ -8,3 +8,4 @@ url: /tr/net/working-with-charts-in-aspose-cells/
  **Bu bölüm aşağıdaki konuları içerir:** 
 - [Grafiği Görüntüye Dönüştür](/cells/tr/net/convert-chart-to-images/)
 - [Grafik Oluştur](/cells/tr/net/create-charts/)
+{{< app/cells/assistant language="csharp" >}}

@@ -6,10 +6,11 @@ url: /de/net/embed-attachment-to-pdf/
 
 ---
 
-In Excel können Sie ein OLE-Objekt mit Quelldaten ([embedded-attachments-example.xlsx](embedded-attachments-example.xlsx)) einfügen. Doppelklicken Sie auf das OLE-Objekt, um die eingebettete Datei zu öffnen.
+In Excel können Sie ein Ole-Objekt mit Quelldaten einfügen ([embedded-attachments-example.xlsx](embedded-attachments-example.xlsx)). Durch Doppelklick auf das Ole-Objekt wird die eingebettete Datei geöffnet.
 
-Im Allgemeinen wird beim Konvertieren in PDF das OLE-Objekt als Symbol oder als Miniaturansicht ohne die OLE-Objekt-Quelldaten dargestellt. Mit der Option [PdfSaveOptions.EmbedAttachments](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/embedattachments/) können Sie die OLE-Objekt-Quelldaten als Anhang in PDF einbetten. Sie können im PDF auf das Symbol oder die Miniatur klicken, um die Quelldatei des OLE-Objekts zu öffnen.
+Beim Konvertieren in PDF wird das Ole-Objekt in der Regel als Symbol oder Thumbnail ohne die Quelldaten des Ole-Objekts dargestellt. Mit der Option [PdfSaveOptions.EmbedAttachments](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/embedattachments/) können Sie die Quelldaten des Ole-Objekts als Anhang im PDF einbetten. Durch Doppelklicken auf das Symbol oder Thumbnail können Sie die Quelldatei des Ole-Objekts im PDF öffnen.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-EmbedAttachmentToPdf.cs" >}}
 
 ![embedded-attachment.png](embedded-attachment.png)
+{{< app/cells/assistant language="csharp" >}}

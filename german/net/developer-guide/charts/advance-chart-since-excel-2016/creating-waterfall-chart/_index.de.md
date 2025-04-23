@@ -23,3 +23,4 @@ Der unten bereitgestellte Code-Schnipsel zeigt die Verwendung der Aspose.Cells f
 
 - [Erstellen von Diagrammen](/cells/de/net/creating-charts/)
 - [Diagramme anpassen](/cells/de/net/customizing-charts/)
+{{< app/cells/assistant language="csharp" >}}

@@ -17,3 +17,4 @@ Aspose.Cellsは、ピボットテーブルでデータの非表示やソート�
 [ソースファイル](PivotTableHideAndSortSample.xlsx)
 
 [出力ファイル](PivotTableHideAndSort_out.xlsx)
+{{< app/cells/assistant language="java" >}}

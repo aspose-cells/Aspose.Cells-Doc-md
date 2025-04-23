@@ -28,3 +28,4 @@ url: /ja/java/public-api-changes-in-aspose-cells-8-2-1/
 {{% /alert %}}
 ## **WorkbookRenderクラスのtoPrinter(PrinterSettings printerSettings)メソッドにオーバーロードが追加されました**
 オーバーロードされたメソッドを使用して、PrinterSettingsを介してワークブックをプリンタにレンダリングすることが可能です。
+{{< app/cells/assistant language="java" >}}

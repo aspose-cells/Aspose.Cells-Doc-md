@@ -6,10 +6,11 @@ url: /ru/net/embed-attachment-to-pdf/
 
 ---
 
-В Excel вы можете вставить объект OLE со структурными данными ([пример вложенных вложений.xlsx](пример вложенных вложений.xlsx)) . Дважды щелкните по объекту OLE, встроенный файл будет открыт.
+В Excel можно вставить объект Ole с исходными данными ([embedded-attachments-example.xlsx](embedded-attachments-example.xlsx)). Двойной щелчок по объекту Ole откроет вложенный файл.
 
-Обычно, при конвертации в PDF объект Ole будет отображаться как значок или миниатюра без исходных данных объекта Ole. С помощью параметра [PdfSaveOptions.EmbedAttachments](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/embedattachments/) вы можете встроить исходные данные объекта Ole в качестве вложения в PDF. Вы можете дважды щелкнуть по значку или миниатюре в PDF, чтобы открыть исходный файл объекта Ole.
+В целом, при конвертации в pdf, Ole Object будет отображаться как иконка или миниатюра без исходных данных Ole Object. Вариантом [PdfSaveOptions.EmbedAttachments](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/embedattachments/) можно встроить исходные данные Ole Object как вложение в PDF. Дважды щелкнув на иконке или миниатюре в PDF, вы сможете открыть исходный файл Ole Object.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-EmbedAttachmentToPdf.cs" >}}
 
-![вставленное-вложение.png](вставленное-вложение.png)
+![embedded-attachment.png](embedded-attachment.png)
+{{< app/cells/assistant language="csharp" >}}

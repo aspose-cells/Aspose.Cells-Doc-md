@@ -7,7 +7,7 @@ url: /it/java/add-cells-to-microsoft-excel-formula-watch-window/
 
 ## **Possibili Scenari di Utilizzo**
 
-La finestra di controllo di Microsoft Excel è uno strumento utile per controllare comodamente i valori delle celle e le formule in una finestra. Puoi aprire la *Watch Window* utilizzando Microsoft Excel cliccando su *Formule > Watch* *Window*. Ha il pulsante *Add Watch* che può essere usato per aggiungere le celle da ispezionare. Allo stesso modo, puoi utilizzare il metodo *[**Worksheet.getCellWatches().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/cellwatchcollection#add(int,%20int))* per aggiungere le celle alla *Watch Window* utilizzando l'API Aspose.Cells.
+La finestra di controllo di Microsoft Excel è uno strumento utile per controllare comodamente i valori delle celle e le formule in una finestra. Puoi aprire la *Watch Window* utilizzando Microsoft Excel cliccando su *Formule > Watch* *Window*. Ha il pulsante *Add Watch* che può essere usato per aggiungere le celle da ispezionare. Allo stesso modo, puoi utilizzare il metodo *[**Worksheet.getCellWatches().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/cellwatchcollection#add-int-int-)* per aggiungere le celle alla *Watch Window* utilizzando l'API Aspose.Cells.
 
 ## **Aggiungere celle alla finestra di visualizzazione della formula di Microsoft Excel**
 
@@ -18,3 +18,4 @@ Il seguente codice di esempio imposta la formula delle celle C1 e E1 e le aggiun
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Formulas-AddCellsToMicrosoftExcelFormulaWatchWindow.java" >}}
+{{< app/cells/assistant language="java" >}}

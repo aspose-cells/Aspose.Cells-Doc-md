@@ -4,15 +4,15 @@ linktitle: Congelar Filas
 type: docs
 weight: 190
 url: /es/python-net/how-to-freeze-rows-of-excel-worksheet
-description: En este artículo, aprenderás cómo congelar las filas superiores de las hojas de cálculo de Excel programáticamente usando Aspose.Cells para las APIs de Python via .NET.
-keywords: Biblioteca de Excel de Python, Congelar filas superiores de Python, Congelar fila superior de Python.
+description: En este artículo, aprenderás cómo congelar las filas superiores de las hojas de cálculo de Excel programáticamente usando las API de Aspose.Cells para Python via .NET.
+keywords: Biblioteca de Python para Excel, Congelar filas superiores en Python, Congelar primera fila en Python.
 ---
 
 ## **Introducción**
 
 En este artículo, aprenderemos cómo congelar la(s) fila(s) superior(es). Cuando tienes una gran cantidad de datos bajo un encabezado común, es imposible ver el encabezado al desplazarte hacia abajo en la hoja de cálculo. Puedes congelar la(s) fila(s) superior(es) para poder ver esa porción congelada incluso al desplazarte por el resto de los datos. Podrás ver fácilmente los encabezados en las filas superiores.
 
-## **Cómo Congelar Filas en Excel**
+## **Cómo congelar filas en Excel**
 
 **![Congelar fila(s) superior(es) en Excel](Freeze-Rows.png)**
 
@@ -31,8 +31,8 @@ Congelar filas te permite ver tus datos grandes sin necesidad de hacer un seguim
 
 
 
-## **Cómo Congelar Filas con Aspose.Cells para la biblioteca de Excel de Python**
-Es simple congelar fila(s) con Aspose.Cells para Python via .NET. Por favor usa el método [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) para congelar fila(s) en la fila seleccionada.
+## **Cómo congelar filas con Aspose.Cells para Python Biblioteca de Excel**
+Es fácil congelar fila(s) con Aspose.Cells para Python via .NET. Usa el método [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) para congelar fila(s) en la fila seleccionada.
 1. Construir un libro de trabajo para abrir el archivo o crear un archivo vacío.
 2. Congelar la primera fila con el método Worksheet.FreezePanes().
 3. Guarda el archivo.

@@ -56,3 +56,4 @@ Le code d'exemple suivant illustre ce processus. Le programme lit un fichier vol
 Une classe qui implémente l'interface LightCellsDataHandler
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LightCellsDataHandlerVisitCells-LightCellsDataHandlerVisitCells.java" >}}
+{{< app/cells/assistant language="java" >}}

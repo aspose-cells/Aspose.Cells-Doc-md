@@ -63,3 +63,4 @@ Aspose.Cells может открывать файлы разных версий 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "OpenEncryptedExcelFiles.java" >}}
 
 Aspose.Cells также поддерживает открытие защищенных паролем файлов Microsoft Excel 2007, 2010, 2013, 2016, 2019, Office 365.
+{{< app/cells/assistant language="java" >}}

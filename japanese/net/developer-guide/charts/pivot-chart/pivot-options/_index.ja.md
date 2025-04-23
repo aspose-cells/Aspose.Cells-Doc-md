@@ -23,3 +23,4 @@ Aspose.Cellsを使用すると、PivotChartを管理するために[**Aspose.Cel
 上記の例のコードを使用すると、次の効果が表示された結果ファイルを確認できます。
 
 **![Output](Output.png)**
+{{< app/cells/assistant language="csharp" >}}

@@ -20,6 +20,12 @@ Aspose.Cells API が裏で行うプロセスは以下の通りです。
 1. API が [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/properties/defaultfontname) プロパティで定義されたフォントを見つけられない場合、利用可能なすべてのフォントから最適なフォントを選択しようとします。
 1. 最終的に API がファイルシステムでフォントを見つけられない場合、Arial を使用してスプレッドシートをレンダリングします。
 
+{{% alert color="primary" %}}
+
+通常、Aspose.Cells APIは、Windows、Linux、MacOSのデフォルトのフォントディレクトリをスキャンします。バージョン[Aspose.Cells for .NET 24.7](https://releases.aspose.com/cells/net/release-notes/2024/aspose-cells-for-net-24-7-release-notes/)以降は、APIがOfficeのキャッシュされたクラウドフォントディレクトリもデフォルトでスキャンします。
+
+{{% /alert %}}
+
 ## **カスタムフォントフォルダの設定**
 
 Aspose.CellsのAPIは、必要なフォントをオペレーティングシステムのデフォルトフォントディレクトリで検索します。必要なフォントがシステムのフォントディレクトリにない場合は、APIはカスタム（ユーザー定義）ディレクトリを検索します。[**FontConfigs**](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs)クラスでは、以下に詳細を示しますが、カスタムフォントディレクトリを設定するためのいくつかの方法を公開しています。
@@ -66,3 +72,4 @@ Aspose.CellsのAPIは、レンダリングに使用する代替フォントを�
 - [PdfSaveOptionsおよびImageOrPrintOptionsのDefaultFontプロパティを優先するために設定します](/cells/ja/net/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [サポートされるフォント形式](/cells/ja/net/supported-font-formats/)
 - [ワークシートを画像に変換 - レンダリングされた画像のピクセル形式を設定する](/cells/ja/net/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
+{{< app/cells/assistant language="csharp" >}}

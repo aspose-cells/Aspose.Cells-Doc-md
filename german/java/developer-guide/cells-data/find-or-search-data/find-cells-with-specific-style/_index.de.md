@@ -47,3 +47,4 @@ Dies ist die Ausgabedatei, die durch den folgenden Code generiert wurde. Sie kö
 ![todo:image_alt_text](find-cells-with-specific-style_2.png)
 
 **Abbildung:** Ausgabedatei mit gefundenen Zellen nach der Suche nach dem Stil **A1**
+{{< app/cells/assistant language="java" >}}

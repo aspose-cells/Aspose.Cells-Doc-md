@@ -19,3 +19,4 @@ Puede agregar marca de agua de imagen a un pdf simplemente especificando bytes d
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-AddImageWatermarkToPdf.java" >}}
 
+{{< app/cells/assistant language="java" >}}

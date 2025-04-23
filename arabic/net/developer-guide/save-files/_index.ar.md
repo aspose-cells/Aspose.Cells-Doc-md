@@ -59,7 +59,7 @@ keywords: ‏Aspose.Cells Save Excel إلى PDF، HTML، JSON، CSV، TXT، XML�
 
 عند تنفيذ الكود ، يتم تحويل بيانات كافة الأوراق في دفتر العمل إلى تنسيق TXT.
 
-يمكنك تعديل نفس المثال لحفظ ملفك إلى CSV. افتراضيًا، [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) هي فاصلة، لذا لا تحدد فاصلة عند الحفظ بتنسيق CSV. يرجى ملاحظة: إذا كنت تستخدم النسخة التقييمية وحتى إذا تم تعيين خاصية [**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/) على القيمة true، فإن البرنامج سيقوم فقط بتصدير ورقة عمل واحدة.
+يمكنك تعديل المثال نفسه لحفظ الملف بصيغة CSV. بشكل افتراضي، [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) هو فاصلة، لذا لا تحدد فاصل إذا كنت تحفظ بصيغة CSV. يرجى ملاحظة: إذا كنت تستخدم النسخة التقييمية وحتى تم تعيين خاصية [**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/) إلى true، فإن البرنامج سيصدر ورقة عمل واحدة فقط.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 
@@ -98,3 +98,4 @@ JSON (JavaScript Object Notation) هو تنسيق ملف مفتوح المعاي
 - [ضبط مستوى ضغط الورقة العمل](/cells/ar/net/adjust-workbook-compression-level/)
 - [حفظ الدفتر إلى تنسيق جدول بيانات إكس الإكس إم الصارم](/cells/ar/net/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [حفظ الملف في كائن الاستجابة](/cells/ar/net/saving-file-to-response-object/)
+{{< app/cells/assistant language="csharp" >}}

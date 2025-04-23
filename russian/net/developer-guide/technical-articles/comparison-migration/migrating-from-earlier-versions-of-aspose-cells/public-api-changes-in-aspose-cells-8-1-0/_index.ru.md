@@ -80,3 +80,4 @@ Console.WriteLine(unformatted);
 {{% /alert %}}
 ## **Отмечены свойства Obsoleted Bytes, Characters, CharactersWithSpaces, Lines, Paragraphs**
 Многие свойства из класса BuiltInDocumentPropertyCollection были помечены как устаревшие, начиная с Aspose.Cells for .NET 8.1.0. К таким свойствам относятся Bytes, Characters, CharactersWithSpaces, Lines и Paragraphs. Причина заключается в том, что вышеперечисленные свойства не используются для сохранения электронных таблиц Excel, поскольку Excel их опускает. В то время как эти свойства были изначально написаны для документов Word и презентаций PowerPoint.
+{{< app/cells/assistant language="csharp" >}}

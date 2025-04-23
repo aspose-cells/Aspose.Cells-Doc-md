@@ -1,10 +1,10 @@
 ---
-title: Dockerでオンラインスプレッドシートエディタまたはビューアーアプリケーションをビルドする方法
+title: Aspose.Cells.GridWebをDockerで起動し、オンラインスプレッドシートエディタまたはビューアアプリケーションを構築する方法
 type: docs
 weight: 250
 url: /ja/java/aspose-cells-gridweb/how-to-build-online-excel-editor/
-keywords: GridWeb、docker
-description: この記事では、dockerでGridWebを実行してオンラインエクセルエディタまたはビューアーアプリケーションを構築する方法を紹介します。
+keywords: GridWeb、Docker
+description: この記事では、Docker内でGridWebを実行し、オンラインExcelエディタまたはビューアアプリケーションを構築する方法を紹介します。
 aliases:
   - /java/aspose-cells-gridweb/docker/
   - /java/aspose-cells-gridweb/run-aspose-cells-gridweb-in-docker/
@@ -21,15 +21,15 @@ aliases:
 
 ## 前提条件
 
-マシンにDockerがインストールされていることを確認してください。 公式Dockerウェブサイト（https://www.docker.com/get-started）からDockerをダウンロードしてインストールできます。
+お使いのマシンにDockerをインストールしていることを確認してください。Dockerは[公式Dockerウェブサイト](https://www.docker.com/get-started)からダウンロードしてインストールできます。
 
-## ステップ1：Dockerfileを作成する
+## ステップ1：Dockerfileを作成
 
-プロジェクト[ディレクトリ](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/)に`Dockerfile`という名前のファイルを作成します。`Dockerfile`には、Dockerイメージをビルドする方法に関する命令を含めます。
+プロジェクトの[ディレクトリ](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/)に `Dockerfile` という名前のファイルを作成してください。`Dockerfile`には、Dockerイメージのビルド方法の指示を記述します。
 
-## ステップ2：GridWebのDockerfileを書く
+## ステップ 2: GridWeb用のDockerfileを作成
 
-こちらはJavaアプリケーションを使用したGridWebデモのための[`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/Dockerfile)のサンプルです：
+こちらはJavaアプリケーションを使用したGridWebデモのサンプル [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/Dockerfile) です：
 
 ```dockerfile
 #spring boot3.3 shall use jdk17 above 
@@ -81,43 +81,43 @@ CMD ["sh", "-c", "java $JAVA_OPTS -jar /app/app.jar"]
 
 ```
 
-## ステップ3: Dockerイメージのビルド
-Dockerイメージをビルドします。ターミナルから、以下のコマンドを実行してDockerイメージをビルドします。
+## ステップ 3: Dockerイメージのビルド
+Dockerイメージのビルド：ターミナルから次のコマンドを実行してDockerイメージを作成します：
 ```bash
 docker build -t gridweb-demo-java .
 ```
-ユーザーが名前をつけたいDockerイメージの名前でgridweb-demo-javaを置き換えることができます。
+`gridweb-demo-java`は、あなたが希望するDockerイメージの名前に置き換えることができます。
 
-## ステップ4: Dockerコンテナの実行
-イメージが作成されたら、以下のコマンドを使用してコンテナを実行できます。
+## ステップ 4: Dockerコンテナの実行
+イメージが作成されたら、次のコマンドを使用してコンテナを実行できます：
 
 ```bash
 docker run -d -p 8080:8080 --name gridweb-demo-container  gridweb-demo-java
 ```
-Docker Runコマンドオプションの説明
+Docker実行コマンドオプションの説明
 -d: コンテナをデタッチモード（バックグラウンド）で実行します。
--p 8080:8080：コンテナ内のポート8080をホストマシンのポート8080にマップします。
---name gridweb-demo-container：コンテナに名前を割り当てます。
+-p 8080:8080: コンテナ内のポート8080をホストマシンのポート8080にマッピングします。
+--name gridweb-demo-container: コンテナに名前を付けます。
 
-## ステップ5: コンテナが実行されているか確認する
-コンテナが実行されているかどうかを確認するには、次のコマンドを使用します。
+## ステップ 5: コンテナが実行中か確認する
+コンテナが稼働しているかどうかを確認するには、次のコマンドを使用してください：
 
 ```bash
 docker ps
 ```
-これにはすべての実行中のコンテナがリストされます。 コンテナがその名前とステータスと共にリストされているはずです。
+これにより、すべての実行中のコンテナがリストされます。あなたのコンテナが名前とステータスとともに表示されるはずです。
 
-## ステップ6：Webアプリケーションにアクセス
+## ステップ 6: Webアプリケーションへアクセスする
 
-`http://localhost:8080/gridwebdemo/index`に移動してWebブラウザを開きます。アプリケーションが実行されているのを確認できます。
+Webブラウザを開き、`http://localhost:8080/gridwebdemo/index`にアクセスしてください。アプリケーションが稼働しているはずです。
 
 
 
-## その他のコマンド
+## 追加コマンド
 
 ### コンテナの停止
 
-実行中のコンテナを停止するには、次のコマンドを使用します:
+実行中のコンテナを停止するには、次のコマンドを使用します：
 
 ```bash
 docker stop gridweb-demo-container

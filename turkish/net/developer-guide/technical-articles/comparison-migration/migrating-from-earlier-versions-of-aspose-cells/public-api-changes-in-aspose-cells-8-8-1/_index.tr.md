@@ -213,3 +213,4 @@ Aspose.Cells.GridWeb ayrıca GridCell.RemoveValidation yöntemini kullanarak bir
 ## **Eskimiş API'lar**
 ### **Eskimiş Shape.TextFrame Özelliği**
 Bu yerine Shape.TextBody.TextAlignment özelliğinin kullanılması tavsiye edilir.
+{{< app/cells/assistant language="csharp" >}}

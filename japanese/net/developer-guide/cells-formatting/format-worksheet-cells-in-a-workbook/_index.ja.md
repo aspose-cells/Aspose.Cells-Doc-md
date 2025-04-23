@@ -50,3 +50,4 @@ Aspose.Cellsを使用すると、セルや範囲に簡単に境界線を引く�
 1. 次のコードをプロジェクトに追加します：
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FormatWorksheetCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

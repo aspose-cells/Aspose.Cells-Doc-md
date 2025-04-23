@@ -179,3 +179,4 @@ Förutom att göra det enklare att korrekt behandla och generera giltiga dokumen
 Även att implementera en enkel sök- och ersättningsoperation i ett Office Open XML-dokument är svårt.
 
 **Vårt råd:** kom ihåg att öppen och standard inte betyder enkel och använd Aspose.Cells.
+{{< app/cells/assistant language="java" >}}

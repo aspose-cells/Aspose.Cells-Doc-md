@@ -35,3 +35,4 @@ Aspose.Cells提供了错误检查选项功能。[**ErrorCheckOption**](https://r
 以下示例代码显示如何使用Aspose.Cells APIs在模板XLS文件中禁用工作表中的文本存储的数字错误检查选项。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ErrorCheckingOptions-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

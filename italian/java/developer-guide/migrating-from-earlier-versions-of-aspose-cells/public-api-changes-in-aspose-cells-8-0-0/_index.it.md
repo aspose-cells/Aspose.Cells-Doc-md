@@ -133,3 +133,4 @@ D'ora in poi, gli utenti possono utilizzare la proprietà booleana ShowFormulas 
 Con Aspose.Cells for Java, il metodo getFilterColumnCollection è stato contrassegnato come obsoleto. Si consiglia di utilizzare il metodo AuotFilter.getFilterColumns al suo posto.
 ## **Sostituito SeriesCollection.SecondCatergoryData con SeriesCollection.SecondCategoryData**
 Abbiamo corretto essenzialmente l'errore di battitura nel nome del metodo per SeriesCollection.getSecondCatergoryData. È possibile utilizzare ora il metodo SeriesCollection.getSecondCategoryData, mentre il metodo originale SeriesCollection.getSecondCatergoryData è stato contrassegnato come obsoleto.
+{{< app/cells/assistant language="java" >}}

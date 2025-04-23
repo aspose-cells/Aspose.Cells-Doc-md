@@ -15,3 +15,4 @@ Kaynak ve çıktı excel dosyaları referans için ekte sunulmuştur.
 [Kaynak Dosya](SampleTableWithQueryTable.xls)
 
 [Çıkış Dosyası](SampleTableWithQueryTable_out.xls)
+{{< app/cells/assistant language="java" >}}

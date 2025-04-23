@@ -31,3 +31,4 @@ Senaryo, değişken giriş hücrelerini bir veya daha fazla formülle bağlayara
 Lütfen [Çalışma Kitaplarından Senaryolar Oluşturma, Manipüle Etme veya Kaldırma](/cells/tr/net/create-manipulate-or-remove-scenarios-from-worksheets/) hakkında detaylı makaleyi kontrol edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

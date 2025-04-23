@@ -40,15 +40,16 @@ Aspose.Cellsには、Excelファイルを表す[Workbook](https://reference.aspo
 
 |**セル値の種類**|**説明**|
 | :- | :- |
-|[IS_BOOL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_BOOL)|セル値がブール値であることを示します。|
-|[IS_DATE_TIME](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_DATE_TIME)|セル値が日付/時刻であることを示します。|
-|[IS_ERROR](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_ERROR)|セルにエラー値が含まれていることを表します|
-|[IS_NULL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_NULL)|空白のセルを表します。
-|[IS_NUMERIC](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_NUMERIC)|セル値が数値であることを示します。
-|[IS_STRING](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_STRING)|セル値が文字列であることを示します。
-|[IS_UNKNOWN](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_UNKNOWN)|セル値が不明であることを示します。
+|[IS_BOOL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-BOOL)|セルの値がBooleanであることを示します。|
+|[IS_DATE_TIME](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-DATE-TIME)|セルの値が日付/時刻であることを示します。|
+|[IS_ERROR](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-ERROR)|セルにエラー値が含まれていることを示します。|
+|[IS_NULL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-NULL)|空のセルを示します。|
+|[IS_NUMERIC](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-NUMERIC)|セルの値が数値であることを示します。|
+|[IS_STRING](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-STRING)|セルの値が文字列であることを示します。|
+|[IS_UNKNOWN](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-UNKNOWN)|セルの値が不明であることを示します。|
 さらに、上記の事前定義セル値タイプを使用して、各セルに含まれるデータのタイプと比較することもできます。
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-RetrievingDataFromCells-RetrievingDataFromCells.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -22,3 +22,4 @@ Im folgenden Beispiellcode haben wir die [Quellexceldatei](5115535.xlsx) verwen
 Hier ist der Beispiellcode, der verwendet wurde, um das [Ausgabepdf](5115538.pdf) von der [Quellexceldatei](5115535.xlsx) zu generieren. Bitte lesen Sie die Kommentare für weitere Informationen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-CalculationOfArrayFormula-CalculateArrayFormula.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

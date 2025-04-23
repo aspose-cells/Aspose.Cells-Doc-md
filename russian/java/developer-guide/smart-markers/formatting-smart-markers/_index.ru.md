@@ -22,3 +22,4 @@ url: /ru/java/formatting-smart-markers/
 В этом примере используется [шаблонный файл](template.xlsx) с несколькими маркерами в ячейках. При выполнении кода Aspose.Cells добавляет пользовательские ярлыки к строкам итогов для сгруппированных данных.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-SmartMarkers-AddCustomLabels-1.java" >}}
+{{< app/cells/assistant language="java" >}}

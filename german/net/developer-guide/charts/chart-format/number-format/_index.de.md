@@ -16,3 +16,4 @@ Der folgende Beispielcode fügt dem leeren Diagramm eine Serie hinzu, die zuvor 
 ![todo:image_alt_text](set-the-values-format-code-of-chart-series_1.png)
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SetValuesFormatCodeOfChartSeries.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

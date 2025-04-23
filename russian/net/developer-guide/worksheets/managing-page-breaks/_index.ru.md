@@ -57,3 +57,4 @@ Aspose.Cells предоставляет класс [**Workbook**](https://refere
 ## **Важно знать**
 
 Когда вы устанавливаете свойства **FitToPages** (то есть [**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) и [**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)) в настройках страницы, настройки перерывов страницы также влияют на них, поэтому, если вы печатаете лист, настройки перерывов страницы не учитываются, хотя они все еще заданы.
+{{< app/cells/assistant language="csharp" >}}

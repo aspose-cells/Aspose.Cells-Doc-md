@@ -21,10 +21,11 @@ keywords: إكسيل إلى PDF، إعادة عينات الصور أثناء ت
 
 {{% alert color="primary" %}}
 
-باستخدام الخيار [**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)) يُقلل من حجم ملف PDF الناتج ولكن قد يؤثر ذلك قليلاً على جودة الصورة.
+باستخدام الخيار [**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample-int-int-) يُقلل من حجم ملف PDF الناتج ولكن قد يؤثر ذلك قليلاً على جودة الصورة.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
 إذا كانت جداول البيانات الخاصة بك تحتوي على صيغ، من الأفضل استدعاء [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) قبل تحويل جدول البيانات إلى تنسيق PDF. وذلك سيضمن إعادة حساب قيم الصيغ الخاصة وتقديم القيم الصحيحة في الملف الناتج PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

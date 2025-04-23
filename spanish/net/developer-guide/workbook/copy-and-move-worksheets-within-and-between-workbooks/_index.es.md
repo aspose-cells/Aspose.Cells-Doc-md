@@ -58,3 +58,4 @@ Al ejecutar el código, se copia la hoja llamada Copia en SecondWorkbook.xlsx co
 Al ejecutar el código se mueve la hoja llamada Mover de FirstWorkbook.xlsx a SecondWorkbook.xlsx con el nombre Hoja3.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CopyMoveWorksheets-MoveWorksheetsBetweenWorkbooks.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -9,7 +9,7 @@ keywords: применить проверку ячейки в Excel с помо�
 
 {{% alert color="primary" %}}
 
-Вы можете использовать Aspose.Cells API, чтобы получить проверку, примененную к любой ячейке. Aspose.Cells предоставляет метод [**Cell.getValidation()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) для этой цели. Если на ячейке нет проверки, он возвращает null. Точно так же, вы можете использовать метод [**Worksheet.getValidations().getValidationInCell(int row, int column)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell(int,%20int)), чтобы получить проверку, примененную к ячейке, указав ее индексы строки и столбца.
+Вы можете использовать Aspose.Cells API, чтобы получить проверку, примененную к любой ячейке. Aspose.Cells предоставляет метод [**Cell.getValidation()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) для этой цели. Если на ячейке нет проверки, он возвращает null. Точно так же, вы можете использовать метод [**Worksheet.getValidations().getValidationInCell(int row, int column)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell-int-int-), чтобы получить проверку, примененную к ячейке, указав ее индексы строки и столбца.
 
 {{% /alert %}}
 
@@ -46,3 +46,4 @@ Ignore blank: true
 ## Связанные статьи
 
 - [Валидация данных](/cells/ru/java/data-validation/)
+{{< app/cells/assistant language="java" >}}

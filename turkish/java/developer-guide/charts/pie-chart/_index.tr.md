@@ -26,3 +26,4 @@ Lider çizgili bir pasta grafiğini oluşturmak için Aspose.Cells for Java API'
 
 - [Graflar Oluşturma ve Özelleştirme](/cells/tr/java/creating-and-customizing-charts/)
 - [Grafik Biçimlendirme](/cells/tr/java/chart-formatting/)
+{{< app/cells/assistant language="java" >}}

@@ -20,3 +20,4 @@ Aspose.Cellsでは、行を挿入したり削除するための2つのメソッ�
 Aspose.CellsはMicrosoft Excelと同様に動作します。行または列が追加されると、ワークシートの内容は下方向や右方向にシフトされます。行または列が削除されると、ワークシートの内容は上方向や左方向にシフトされます。行が追加または削除された場合、他のワークシートやセル内の参照が更新されます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertDeleteRows-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

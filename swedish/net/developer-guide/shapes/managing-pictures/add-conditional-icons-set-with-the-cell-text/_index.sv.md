@@ -16,3 +16,4 @@ Följande kodexempel visar hur du lägger till villkorliga ikoner inställda med
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddConditionalIconsSet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -54,3 +54,4 @@ keywords: نسخ ورقة العمل c#، نقل ورقة العمل c#
 المثال التالي يظهر كيفية نقل ورقة عمل إلى موقع آخر داخل سجل العمل.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-MoveWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

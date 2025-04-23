@@ -103,3 +103,4 @@ Aspose.Cells yılların araştırması, tasarımı ve dikkatli ayarlamasından f
 - [Hesaplanmış öğeleri olan özet tabloyu yenileme ve hesaplama](/cells/tr/java/refresh-and-calculate-pivot-table-having-calculated-items/)
 - [Pivot Tablo Şeritlerini Devre Dışı Bırak](/cells/tr/java/disable-pivot-table-ribbons/)
 
+{{< app/cells/assistant language="java" >}}

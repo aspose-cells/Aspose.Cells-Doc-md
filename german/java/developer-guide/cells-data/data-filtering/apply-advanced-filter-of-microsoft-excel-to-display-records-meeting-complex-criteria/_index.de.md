@@ -10,7 +10,7 @@ Microsoft Excel ermöglicht es Ihnen, den *Erweiterten Filter* auf Arbeitsblattd
 
 ![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_1.png)
 
-Aspose.Cells ermöglicht es Ihnen auch, den erweiterten Filter mithilfe der Methode [Worksheet.advancedFilter()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#advancedFilter\(boolean,%20java.lang.String,%20java.lang.String,%20java.lang.String,%20boolean\)) anzuwenden. Genauso wie bei Microsoft Excel akzeptiert es die folgenden Parameter.
+Aspose.Cells ermöglicht auch die Anwendung des erweiterten Filters mit der [Worksheet.advancedFilter()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#advancedFilter-boolean-java.lang.String-java.lang.String-java.lang.String-boolean-) Methode. Genau wie Microsoft Excel akzeptiert es die folgenden Parameter.
 
 **isFilter**
 
@@ -37,3 +37,4 @@ Der folgende Beispielscode wendet den erweiterten Filter auf die [Beispiel-Exce
 ![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_2.png)
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ApplyAdvancedFilterOfMicrosoftExcel.java" >}}
+{{< app/cells/assistant language="java" >}}

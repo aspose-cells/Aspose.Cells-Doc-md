@@ -33,3 +33,4 @@ Det resulterande kalkylarket kommer i detta fall att se ut som följer.
 
 |![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)|
 | :- |
+{{< app/cells/assistant language="csharp" >}}

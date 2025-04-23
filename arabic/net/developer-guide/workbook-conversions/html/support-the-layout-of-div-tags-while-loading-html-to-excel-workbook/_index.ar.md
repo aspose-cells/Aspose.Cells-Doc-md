@@ -16,3 +16,4 @@ url: /ar/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DivTagsLayout-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -18,3 +18,4 @@ Aspose.Cells предоставляет свойство [**DataLabels.IsTextWra
 Ниже приведен образец кода, показывающий, как отключить перенос текста для меток данных диаграммы.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-DisableTextWrappingForDataLabels-DisableTextWrappingForDataLabels.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

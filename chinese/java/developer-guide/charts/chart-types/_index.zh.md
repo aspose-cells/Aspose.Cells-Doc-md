@@ -257,3 +257,4 @@ Aspose.Cells支持瀑布图。
 
 ### **自定义图表类型**
 自定义图表允许您创建具有自定义格式化的图表，这些格式化也可以应用于其他图表。 在这里，我们仅讨论了标准图表。 如果您想了解更多有关自定义图表的详细信息，请阅读[创建自定义图表](/cells/zh/java/creating-and-customizing-charts/#creatingandcustomizingcharts-usingchartingobjects)文章，该文章描述了如何创建自定义图表。
+{{< app/cells/assistant language="java" >}}

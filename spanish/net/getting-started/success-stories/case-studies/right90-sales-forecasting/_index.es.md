@@ -28,3 +28,4 @@ Utilizamos las siguientes características de Aspose.Cells para crear hojas de c
 El componente Aspose.Cells nos permitió construir y leer rápidamente libros de trabajo de Excel, dándole a nuestros clientes manufactureros otra forma fácil e intuitiva de capturar, actualizar y consolidar sus pronósticos de ventas con Right90.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

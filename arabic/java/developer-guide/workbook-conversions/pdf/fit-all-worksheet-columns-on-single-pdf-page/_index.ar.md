@@ -30,3 +30,4 @@ url: /ar/java/fit-all-worksheet-columns-on-single-pdf-page/
 إذا كان جدول البيانات الخاص بك يحتوي على صيغ، فمن الأفضل استدعاء الطريقة [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) قبل عرض الجدول بتنسيق PDF. سيضمن ذلك إعادة حساب القيم التي تعتمد على الصيغة، وعرض القيم الصحيحة في PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

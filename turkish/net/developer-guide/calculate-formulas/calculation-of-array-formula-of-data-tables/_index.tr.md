@@ -22,3 +22,4 @@ Aşağıdaki örnek kodda, [kaynak excel dosyası](5115535.xlsx)'ı kullandık.
 [çıktı PDF'sini](5115538.pdf) oluşturmak için [kaynak excel dosyası](5115535.xlsx)'ı kullanılan örnek kod aşağıdaki gibidir. Daha fazla bilgi için yorumları okuyunuz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-CalculationOfArrayFormula-CalculateArrayFormula.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

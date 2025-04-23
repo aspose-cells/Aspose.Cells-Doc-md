@@ -9,7 +9,7 @@ url: /ja/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions
 
 **DefaultFont** プロパティを **[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)** および **[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)** に設定する際、インストールされていないフォントを持つワークブック内のすべてのテキストにその **DefaultFont** を設定することが期待されます。
 
-通常、PDFや画像形式に保存する際、Aspose.Cellsはまずワークブックのデフォルトフォント（つまり、**[**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font)**）を設定しようとします。ワークブックのデフォルトフォントでもテキストを適切に表示/レンダリングできない場合は、**[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)**/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) の **DefaultFont** 属性で指定されたフォントでレンダリングを試みます。
+一般に、PDFや画像に保存する場合、Aspose.Cellsは最初にワークブックのデフォルトフォント（例：[**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font-)）を設定しようとします。ワークブックのデフォルトフォントでもテキストが正しく表示/レンダリングできない場合、Aspose.Cellsは[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)の**DefaultFont**属性に記載されたフォントでレンダリングを試みます。
 
 あなたの期待に応えるために、[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) には "**CheckWorkbookDefaultFont**" というブール型のプロパティがあります。これをfalseに設定すると、ワークブックのデフォルトフォントを試みないようにすることができます。または、**[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)** の **DefaultFont** 設定が優先されるようにすることができます。
 
@@ -38,3 +38,4 @@ url: /ja/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Fonts-SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions-1.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -15,3 +15,4 @@ description: يوفر هذا المقال رمزًا عينيًا لاستخدا
 يوفر Aspose.Cells خاصية [**Worksheet.ShowFormulas**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/showformulas). اضبط هذا على **صحيح** لإعداد Microsoft Excel لعرض الصيغ.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ShowFormulasInsteadOfValues-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

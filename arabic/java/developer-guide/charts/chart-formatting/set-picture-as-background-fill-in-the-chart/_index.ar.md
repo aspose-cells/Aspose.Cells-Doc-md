@@ -20,3 +20,4 @@ url: /ar/java/set-picture-as-background-fill-in-the-chart/
 ## كود جافا لتعيين الصورة كخلفية ملء في الرسم البياني
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetPictureAsBackgroundFillInChart-SetPictureAsBackgroundFillInChart.java" >}}
+{{< app/cells/assistant language="java" >}}

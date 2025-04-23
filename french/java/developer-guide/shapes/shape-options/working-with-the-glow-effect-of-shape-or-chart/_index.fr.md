@@ -28,3 +28,4 @@ Le code d'exemple suivant charge le [fichier Excel source](5472520.xlsx) et acc√
 
 
 
+{{< app/cells/assistant language="java" >}}

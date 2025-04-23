@@ -38,3 +38,4 @@ Quote Prefix of Cell A1: true
 Quote Prefix of Cell A1: false
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

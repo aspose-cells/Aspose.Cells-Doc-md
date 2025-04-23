@@ -53,3 +53,4 @@ Ladda ner **Beräkna delsummor** från någon av nedan nämnda sociala kodningsp
 För mer information, besök [Skapa delsummor](/cells/sv/net/creating-subtotals/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

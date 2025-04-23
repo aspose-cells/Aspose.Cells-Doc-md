@@ -35,3 +35,4 @@ De kodsnuttar som följer visar hur man lägger till delsummer till ett arbetsbl
 
 ## **Fortsatta ämnen**
 - [Tillämpa delsumma och ändra riktningen för sammanfattande rader nedanför detaljer](/cells/sv/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+{{< app/cells/assistant language="csharp" >}}

@@ -14,3 +14,4 @@ Aspose.Cells supporta la conversione di un file Excel con tabella in un file ODS
 Il file ODS di output generato dal codice di esempio è allegato per il tuo riferimento.
 
 [**Output ODS File**](ConvertTableToOds_out.ods)
+{{< app/cells/assistant language="csharp" >}}

@@ -22,3 +22,4 @@ url: /ja/java/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
 スプレッドシートに数式が含まれる場合、「[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--)」をPDF形式にレンダリングする直前に呼び出すことが最善です。これにより、数式に依存する値が再計算され、正しい値が出力ファイルにレンダリングされます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

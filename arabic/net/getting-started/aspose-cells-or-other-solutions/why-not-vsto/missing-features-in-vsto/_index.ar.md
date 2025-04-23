@@ -35,3 +35,4 @@ url: /ar/net/missing-features-in-vsto/
   - [استخدام أنواع مجهولة أو كائنات مخصصة](/cells/ar/net/using-anonymous-types-or-custom-objects/)
   - [استخدام الكائنات المتداخلة](/cells/ar/net/using-nested-objects/)
 - [تتبع السابقين والتابعين في Aspose.Cells](/cells/ar/net/tracing-precedents-and-dependents-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

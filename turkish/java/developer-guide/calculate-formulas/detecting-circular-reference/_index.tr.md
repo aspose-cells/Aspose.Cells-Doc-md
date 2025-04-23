@@ -15,9 +15,9 @@ Döngüsel referanslar yalnızca formül hesaplandığında algılanabilir çün
 
 [**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell): Hesaplanan bir hücrenin ilgili verilerinin hesaplanmasını temsil eder
 
-[**AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)): döngüsel referans ile karşılaştığında formül hesaplama motoru tarafından çağrılacaktır, numaralandırıcıdaki elemanlar, bir dairedeki tüm hücreleri temsil eden [**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell) nesnelerdir. Döngü sonrasındaki çağrıda formül motorunun bu hücreleri hesaplaması gerekip gerekmediğini belirttiğiniz değeri döndürür.
+[**AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular-java.util.Iterator-): döngüsel referans ile karşılaştığında formül hesaplama motoru tarafından çağrılacaktır, numaralandırıcıdaki elemanlar, bir dairedeki tüm hücreleri temsil eden [**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell) nesnelerdir. Döngü sonrasındaki çağrıda formül motorunun bu hücreleri hesaplaması gerekip gerekmediğini belirttiğiniz değeri döndürür.
 
-Kullanıcı, bu döngüsel referansları [**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)) yönteminin uygulanmasında toplayabilir.
+Kullanıcı, bu döngüsel referansları [**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular-java.util.Iterator-) yönteminin uygulanmasında toplayabilir.
 
 Kaynak örnek dosyası aşağıdaki bağlantıdan indirilebilir:
 
@@ -28,3 +28,4 @@ Kaynak örnek dosyası aşağıdaki bağlantıdan indirilebilir:
 Aşağıdaki *CircularMonitor* sınıfının tanımı, [**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) sınıfından türetilmiştir:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DetectCircularReference-2.java" >}}
+{{< app/cells/assistant language="java" >}}

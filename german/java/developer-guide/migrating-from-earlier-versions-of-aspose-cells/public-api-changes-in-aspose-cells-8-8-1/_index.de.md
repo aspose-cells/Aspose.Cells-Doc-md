@@ -199,3 +199,4 @@ Aspose.Cells.GridWeb hat auch die Möglichkeit bereitgestellt, die Datenvalidier
 ## **Veraltete APIs**
 ### **Eigenschaft Shape.TextFrame obsolet**
 Es wird empfohlen, stattdessen die Eigenschaft Shape.TextBody.TextAlignment zu verwenden.
+{{< app/cells/assistant language="java" >}}

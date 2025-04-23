@@ -85,3 +85,4 @@ Yukarıda tanımlanan hücre değeri tiplerini aynı zamanda her hücrede buluna
 
 
 
+{{< app/cells/assistant language="csharp" >}}

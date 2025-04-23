@@ -34,3 +34,4 @@ Följande exempelkod skapar en tom arbetsbok och sparar den sedan som utdatan PD
 	at com.aspose.cells.Workbook.save(Unknown Source)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

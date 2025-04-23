@@ -102,3 +102,4 @@ Les instructions ci-dessus permettront d'installer le package de polices Microso
 Sur Ubuntu, allez dans le Gestionnaire de paquets Synaptic. Trouvez et installez le paquet **ttf-mscorefonts-installer**.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

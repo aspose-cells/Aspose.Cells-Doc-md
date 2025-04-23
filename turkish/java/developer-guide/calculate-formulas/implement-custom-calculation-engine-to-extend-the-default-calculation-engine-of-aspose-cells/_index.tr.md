@@ -17,7 +17,7 @@ Bu özellik uygulamada kullanılan özellik ve sınıflar.
 
 {{% /alert %}} 
 ## **Özel Hesaplama Motorunu Uygulama**
-Aşağıdaki kod özel Hesaplama Motorunu uygular. Yalnızca bir methoda [calculate(CalculationData data)](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationengine#calculate\(com.aspose.cells.CalculationData\)) sahip olan [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) arabirimini uygular. Bu method, bütün formülleriniz üzerinde çağrılır. Bu methodun içinde, **TODAY** fonksiyonunu yakalar ve sistem tarihine bir gün ekler. Bu nedenle, eğer mevcut tarih 27/07/2023 ise, özel motor TODAY() fonksiyonunu 28/07/2023 olarak hesaplayacaktır.
+Aşağıdaki kod, Özelleştirilmiş Hesaplama Motorunu uygular. Sadece bir yöntemi olan [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) arayüzünü uygular, bu metod [calculate(CalculationData data)](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationengine#calculate-com.aspose.cells.CalculationData-)dır. Bu yöntem, formüllerinizin tümüne karşı çağrılır. Bu yöntem içinde, **BUGÜN** (TODAY) fonksiyonunu yakalıyor ve sistem tarihine bir gün ekliyoruz. Yani, şu anki tarih 27/07/2023 ise, özel motor BUGÜN() fonksiyonunu 28/07/2023 olarak hesaplar.
 
 ### **Programlama Örneği**
 
@@ -33,3 +33,4 @@ Lütfen yukarıdaki örnek kodun konsol çıktısını kontrol edin, özel motor
 - [Özel işlevin çalışma tablosuna yazılmadan doğrudan hesaplanması](/cells/tr/java/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -81,7 +81,7 @@ Eine Option zum Umbruch von Text in einem Feld besteht darin, die Textgröße an
 
 ### **Zellen zusammenführen**
 
-Wie Microsoft Excel unterstützt auch Aspose.Cells das Zusammenführen mehrerer Zellen in eine. Aspose.Cells bietet zwei Ansätze für diese Aufgabe. Eine Möglichkeit besteht darin, die [**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) Methode aufzurufen. Die Methode nimmt die folgenden Parameter an, um die Zellen zusammenzuführen:
+Wie Microsoft Excel unterstützt auch Aspose.Cells das Zusammenführen mehrerer Zellen in eine. Aspose.Cells bietet zwei Ansätze für diese Aufgabe. Eine Möglichkeit besteht darin, die [**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge-int-int-int-int-) Methode aufzurufen. Die Methode nimmt die folgenden Parameter an, um die Zellen zusammenzuführen:
 
 - Erste Zeile: Die erste Zeile, ab der das Zusammenführen beginnt.
 - Erste Spalte: Die erste Spalte, ab der das Zusammenführen beginnt.
@@ -108,3 +108,4 @@ Die Lesereihenfolge wird mit der [**TextDirection**](https://reference.aspose.co
 ## **Erweiterte Themen**
 - [Zellenausrichtung ändern und vorhandenes Format beibehalten](/cells/de/java/change-cells-alignment-and-keep-existing-formatting/)
 - [Zeilenumbrüche und Textumbrüche](/cells/de/java/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="java" >}}

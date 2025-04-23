@@ -27,3 +27,4 @@ Yukarıdaki HTML bağlantısında hedef özniteliği **_self** olarak gösterili
 Aşağıdaki kod, [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype) özelliğinin kullanımını gösterir. Bağlantı hedef türünü varsayılan olarak **parent** olarak değiştirir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeHtmlLinkTarget-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

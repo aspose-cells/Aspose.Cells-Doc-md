@@ -21,7 +21,7 @@ Aspose.Cells kullanarak grafikler üzerinde çalışırken ele almanız gereken 
 
 ### **Grafik Verisi**
 
-Grafik verisi, grafiklerimizi oluşturmak için veri kaynağı olarak kullandığımız veridir. [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) nesnesinin [**Add**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add(java.lang.Object)) yöntemini çağırarak hücrelerin bir aralığını (grafik verisi içeren) ekleyebiliriz.
+Grafik verisi, grafiklerimizi oluşturmak için veri kaynağı olarak kullandığımız veridir. [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) nesnesinin [**Add**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add-java.lang.Object-) yöntemini çağırarak hücrelerin bir aralığını (grafik verisi içeren) ekleyebiliriz.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsData-SettingChartsData.java" >}}
 
@@ -40,3 +40,4 @@ Kategori verisi, grafik verilerinin etiketlenmesi için kullanılır ve [**Serie
 - [Chart.setChartDataRange yöntemi kullanarak Grafik Kurulumu için Kolay Yol](/cells/tr/java/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [Grafik Serisindeki X ve Y Değerleri Türünü Bul](/cells/tr/java/find-type-of-x-and-y-values-of-points-in-chart-series/)
 - [Grafik Serisinin Değer Biçim Kodunu Ayarlayın](/cells/tr/java/set-the-values-format-code-of-chart-series/)
+{{< app/cells/assistant language="java" >}}

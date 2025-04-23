@@ -23,3 +23,4 @@ Pour trouver et définir cette option dans Microsoft Excel :
 Aspose.Cells fournit les propriétés [**PivotTable.setDisplayNullString()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#DisplayNullString) et [**PivotTable.setNullString()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#NullString) pour définir l'option de tableau croisé dynamique "Pour les cellules vides, afficher".
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingPivotTableOption-SettingPivotTableOption.java" >}}
+{{< app/cells/assistant language="java" >}}

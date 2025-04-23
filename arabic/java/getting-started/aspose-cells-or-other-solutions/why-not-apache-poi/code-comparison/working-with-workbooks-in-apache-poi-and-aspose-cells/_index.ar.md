@@ -11,3 +11,4 @@ url: /ar/java/working-with-workbooks-in-apache-poi-and-aspose-cells/
 - [إنشاء دفتر العمل الجديد](/cells/ar/java/create-new-workbook/)
 - [إعداد الصفحة - ضبط إعداد الصفحة](/cells/ar/java/page-setup-fit-to-page-setting/)
 - [تعيين منطقة الطباعة](/cells/ar/java/set-print-area/)
+{{< app/cells/assistant language="java" >}}

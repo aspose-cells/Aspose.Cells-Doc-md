@@ -135,3 +135,4 @@ Da ora in poi, gli utenti possono utilizzare la proprietà booleana ShowFormulas
 Con Aspose.Cells for Java, la proprietà FilterColumnCollection è stata contrassegnata come obsoleta. Si consiglia di utilizzare invece la proprietà AuotFilter.FilterColumns.
 ## **Sostituito SeriesCollection.SecondCatergoryData con SeriesCollection.SecondCategoryData**
 Abbiamo corretto essenzialmente l'errore di battitura nel nome della proprietà per SeriesCollection.SecondCatergoryData. Ora puoi utilizzare la proprietà SeriesCollection.SecondCategoryData in avanti, mentre la proprietà originale SeriesCollection.SecondCatergoryData è stata contrassegnata come obsoleta.
+{{< app/cells/assistant language="csharp" >}}

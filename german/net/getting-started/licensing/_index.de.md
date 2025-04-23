@@ -311,3 +311,4 @@ Laden einer Lizenz von einem Stream
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

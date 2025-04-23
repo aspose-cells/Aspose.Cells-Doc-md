@@ -6,36 +6,36 @@ url: /it/java/filter-objects-while-loading-workbook-or-worksheet/
 ---
 
 ## **Possibili Scenari di Utilizzo**
-Si prega di utilizzare la proprietà [LoadOptions.LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#LoadFilter) mentre si filtrano i dati dal workbook. Ma se si desidera filtrare i dati dai singoli fogli di lavoro, sarà necessario sovrascrivere il metodo [LoadFilter.startSheet](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#startSheet\(com.aspose.cells.Worksheet\)). Si prega di fornire il valore appropriato dall'enumerazione [LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) durante la creazione o la lavorazione con [LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter).
+Si prega di usare la proprietà [LoadOptions.LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#LoadFilter) durante il filtraggio dei dati dal workbook. Ma se si desidera filtrare i dati da fogli di lavoro singoli, allora sarà necessario sovrascrivere il metodo [LoadFilter.startSheet](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#startSheet-com.aspose.cells.Worksheet-). Fornisci il valore appropriato dall'enumerazione [LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) mentre crei o lavori con [LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter).
 
 L'enumerazione [LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) ha i seguenti valori.
 
 - [NESSUNO](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#NONE)
 - [TUTTI](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#ALL)
-- [CELLA_VUOTA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_BLANK)
-- [CELLA_STRINGA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_STRING)
-- [CELLA_NUMERICA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_NUMERIC)
-- [CELLA_ERRORE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_ERROR)
-- [CELLA_BOOLEANA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_BOOL)
-- [VALORE_CELLA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_VALUE)
+- [CELLA_VUOTA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL-BLANK)
+- [CELLA_STRINGA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL-STRING)
+- [CELLA_NUMERICA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL-NUMERIC)
+- [CELLA_ERRORE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL-ERROR)
+- [CELLA_BOOLEANA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL-BOOL)
+- [VALORE_CELLA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL-VALUE)
 - [FORMULA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#FORMULA)
-- [DATI_CELLA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_DATA)
+- [DATI_CELLA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL-DATA)
 - [GRAFICO](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CHART)
 - [FORMA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHAPE)
-- [AREA_UNITA_FUSIONATA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#MERGED_AREA)
-- [FORMATTAZIONE_CONDIZIONALE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CONDITIONAL_FORMATTING)
-- [VALIDAZIONE_DATI](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DATA_VALIDATION)
-- [TAB_PIVOT](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#PIVOT_TABLE)
+- [AREA_UNITA_FUSIONATA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#MERGED-AREA)
+- [FORMATTAZIONE_CONDIZIONALE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CONDITIONAL-FORMATTING)
+- [VALIDAZIONE_DATI](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DATA-VALIDATION)
+- [TAB_PIVOT](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#PIVOT-TABLE)
 - [TAB_LAVORO](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#TABLE)
 - [COLLEGAMENTI_IPERTESTUALI](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#HYPERLINKS)
-- [IMPOSTAZIONI_SHEET](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET_SETTINGS)
-- [DATI_SHEET](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET_DATA)
-- [IMPOSTAZIONI_BOOK](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#BOOK_SETTINGS)
+- [IMPOSTAZIONI_SHEET](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET-SETTINGS)
+- [DATI_SHEET](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET-DATA)
+- [IMPOSTAZIONI_BOOK](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#BOOK-SETTINGS)
 - [IMPOSTAZIONI](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SETTINGS)
-- [XML_MAP](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#XML_MAP)
+- [XML_MAP](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#XML-MAP)
 - [STRUTTURA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#STRUCTURE)
-- [PROPRIETA_DOCUMENTO](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DOCUMENT_PROPERTIES)
-- [NOMI_DEFINITI](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)
+- [PROPRIETA_DOCUMENTO](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DOCUMENT-PROPERTIES)
+- [NOMI_DEFINITI](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED-NAMES)
 - [VBA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#VBA)
 - [STILE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#STYLE)
 ## **Filtra oggetti durante il caricamento del workbook**
@@ -58,3 +58,4 @@ Una volta caricato il [file excel di origine](5472492.xlsx) con un filtro person
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-FilterObjectsLoadingWorksheets-1.java" >}}
+{{< app/cells/assistant language="java" >}}

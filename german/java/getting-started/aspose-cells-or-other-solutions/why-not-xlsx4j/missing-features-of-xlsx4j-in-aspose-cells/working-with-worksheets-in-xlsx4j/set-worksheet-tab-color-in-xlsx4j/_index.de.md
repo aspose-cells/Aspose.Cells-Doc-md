@@ -44,3 +44,4 @@ workbook.save(dataDir + "AsposeColoredTab_Out.xls");
 Besuchen Sie für weitere Details [Registerkartenfarbe festlegen](/java/set-worksheet-tab-color).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

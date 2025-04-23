@@ -24,3 +24,4 @@ Es ist einfach, eine Sparkline mit Aspose.Cells mit folgendem Beispielcode zu er
 - [Verwenden von Sparklines und Einstellungen 3D-Format](/cells/de/net/using-sparklines-and-settings-3d-format/)
 
 
+{{< app/cells/assistant language="java" >}}

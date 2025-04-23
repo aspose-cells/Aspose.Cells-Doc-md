@@ -1,10 +1,10 @@
 ---
-title: как запустить Aspose.Cells.GridWeb для создания онлайн редактора или приложения для просмотра электронных таблиц в Docker
+title: как запустить Aspose.Cells.GridWeb для создания онлайн редактора или просмотрщика таблиц в Docker
 type: docs
 weight: 250
 url: /ru/java/aspose-cells-gridweb/how-to-build-online-excel-editor/
-keywords: GridWeb, docker
-description: В этой статье описано, как запустить GridWeb в Docker для создания онлайн редактора или приложения для просмотра электронных таблиц.
+keywords: GridWeb, Docker
+description: Эта статья вводит в способы запуска GridWeb в Docker для создания онлайн редактора или просмотрщика Excel.
 aliases:
   - /java/aspose-cells-gridweb/docker/
   - /java/aspose-cells-gridweb/run-aspose-cells-gridweb-in-docker/
@@ -21,15 +21,15 @@ aliases:
 
 ## Предварительные требования
 
-Убедитесь, что у вас установлен Docker на вашем компьютере. Вы можете скачать и установить Docker с [официального сайта Docker](https://www.docker.com/get-started).
+Убедитесь, что Docker установлен на вашем компьютере. Вы можете скачать и установить Docker с [официального сайта Docker](https://www.docker.com/get-started).
 
 ## Шаг 1: Создайте Dockerfile
 
-Создайте файл с именем `Dockerfile` в вашем проекте [каталог](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/). `Dockerfile` должен содержать инструкции о том, как собрать образ Docker.
+Создайте файл с именем `Dockerfile` в вашей [директории](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/). `Dockerfile` должен содержать инструкции о том, как создать образ Docker.
 
-## Шаг 2: Написать Dockerfile для GridWeb
+## Шаг 2: Написание Dockerfile для GridWeb
 
-Вот пример [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/Dockerfile) для демонстрационного примера GridWeb с приложением на Java:
+Вот пример [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/Dockerfile) для демонстрации GridWeb с Java-приложением:
 
 ```dockerfile
 #spring boot3.3 shall use jdk17 above 
@@ -82,34 +82,34 @@ CMD ["sh", "-c", "java $JAVA_OPTS -jar /app/app.jar"]
 ```
 
 ## Шаг 3: Создание образа Docker
-Создайте образ Docker: Из терминала выполните следующую команду для создания образа Docker:
+Создайте образ Docker: В терминале выполните следующую команду для сборки вашего образа Docker:
 ```bash
 docker build -t gridweb-demo-java .
 ```
-вы можете заменить gridweb-demo-java на то имя, которое вы хотите дать своему образу Docker.
+вы можете заменить gridweb-demo-java на название, которое хотите дать вашему образу Docker.
 
 ## Шаг 4: Запуск контейнера Docker
-После построения образа вы можете запустить контейнер с помощью следующей команды:
+После создания образа, вы можете запустить контейнер с помощью следующей команды:
 
 ```bash
 docker run -d -p 8080:8080 --name gridweb-demo-container  gridweb-demo-java
 ```
 Объяснение опций команды Docker Run
--d: Запустить контейнер в отсоединенном режиме (в фоновом режиме).
--p 8080:8080: Отображение порта 8080 в контейнере на порт 8080 на хост-машина.
---name gridweb-demo-container: Назначить имя контейнеру.
+-d: Запустить контейнер в фоновом режиме (отделенно).
+-p 8080:8080: сопоставить порт 8080 в контейнере с портом 8080 на хосте.
+--name gridweb-demo-container: Назначьте имя контейнеру.
 
-## Шаг 5: Проверка работы контейнера
-Чтобы проверить работу вашего контейнера, используйте следующую команду:
+## Шаг 5: Проверка, что контейнер запущен
+Чтобы проверить, запущен ли ваш контейнер, используйте следующую команду:
 
 ```bash
 docker ps
 ```
-Это перечислит все работающие контейнеры. Вы увидите в списке ваш контейнер вместе с его названием и статусом.
+Это выведет список всех запущенных контейнеров. Вы должны увидеть ваш контейнер с его именем и статусом.
 
 ## Шаг 6: Доступ к веб-приложению
 
-Откройте веб-браузер и перейдите по адресу `http://localhost:8080/gridwebdemo/index`. Вы должны увидеть, что ваше приложение работает.
+Откройте веб-браузер и перейдите по адресу `http://localhost:8080/gridwebdemo/index`. Вы должны увидеть ваше приложение, запущенным.
 
 
 
@@ -117,7 +117,7 @@ docker ps
 
 ### Остановка контейнера
 
-Чтобы остановить запущенный контейнер, используйте следующую команду:
+Для остановки запущенного контейнера используйте следующую команду:
 
 ```bash
 docker stop gridweb-demo-container

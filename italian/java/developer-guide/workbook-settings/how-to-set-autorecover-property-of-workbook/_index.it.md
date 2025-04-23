@@ -30,3 +30,4 @@ AutoRecover: true
 AutoRecover: false
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -7,7 +7,7 @@ url: /ar/java/assign-macro-code-to-form-control/
 
 {{% alert color="primary" %}} 
 
-تُسمح لك Aspose.Cells بتعيين رمز ماكرو لعنصر تحكم مثل زر. يرجى استخدام الطريقة [ShapeCollection.addShape()](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape\(int,%20int,%20int,%20int,%20int,%20int,%20int\)) لتعيين رمز ماكرو جديد لعنصر تحكم داخل الدفتر.
+تسمح لك Aspose.Cells بتعيين كود ماكرو إلى عنصر تحكم نموذج مثل زر. يرجى استخدام طريقة [ShapeCollection.addShape()](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-) لتعيين كود ماكرو جديد إلى عنصر تحكم داخل المصنف.
 
 {{% /alert %}} 
 ## **تعيين رمز ماكرو لعنصر تحكم باستخدام Aspose.Cells**
@@ -26,3 +26,4 @@ End Sub
 إليك كود عينة لإنشاء ملف XLSM الناتج مع رمز ماكرو.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AssignMacroToFormControl-AssignMacroToFormControl.java" >}}
+{{< app/cells/assistant language="java" >}}

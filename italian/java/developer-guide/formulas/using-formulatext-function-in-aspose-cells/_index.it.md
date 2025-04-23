@@ -22,3 +22,4 @@ Ecco l'output della console del codice di esempio sopra.
  =SUM(B1:B10)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -14,21 +14,21 @@ Aspose.Cells API'leri, [Excel Grafikleri Oluşturma ve Özelleştirme](/cells/tr
 
 ## **Grafikleri Oluşturma**
 
-Aspose.Cells API'leri, ek araç veya uygulamalar gerekmeden Excel Grafiklerini görüntü ve PDF formatına dönüştürmeyi destekler. Rendeleme desteği sağlamak için, [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) sınıfı çeşitli aşırı yüklemelerle [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) ve [**toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) yöntemlerini sunmuştur bu, uygulama gereksinimlerine en uygun hale getirebilmek için.
+Aspose.Cells API'leri, ek araç veya uygulamalar gerekmeden Excel Grafiklerini görüntü ve PDF formatına dönüştürmeyi destekler. Rendeleme desteği sağlamak için, [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) sınıfı çeşitli aşırı yüklemelerle [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-) ve [**toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf-java.io.OutputStream-) yöntemlerini sunmuştur bu, uygulama gereksinimlerine en uygun hale getirebilmek için.
 
 ### **Grafikleri Görüntüye Dönüştürme**
 
-[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) yöntemi, basit ve gelişmiş renderelemeyi desteklemek için çeşitli aşırı yüklemelere sahiptir. Uygulama gereksinimi grafikleri varsayılan boyutlarında rendere etmekse, aşağıdaki [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) yöntemini kullanmanızı öneririz.
+[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-) yöntemi, basit ve gelişmiş renderelemeyi desteklemek için çeşitli aşırı yüklemelere sahiptir. Uygulama gereksinimi grafikleri varsayılan boyutlarında rendere etmekse, aşağıdaki [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-) yöntemini kullanmanızı öneririz.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-RenderChartsToImages-RenderChartsToImages.java" >}}
 
-Ayrıca, gelişmiş ayarlarla grafikleri görüntülemek de mümkündür. Aspose.Cells API'leri, aşırı yüklemeli bir [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) yöntemini sunmuştur ve bu yöntem, çözünürlük, rendereleme ipuçları, görüntü formatı vb. gibi parametreleri belirtmenizi sağlayan bir [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) örneğini kabul edebilir.
+Ayrıca, gelişmiş ayarlarla grafikleri görüntülemek de mümkündür. Aspose.Cells API'leri, aşırı yüklemeli bir [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-) yöntemini sunmuştur ve bu yöntem, çözünürlük, rendereleme ipuçları, görüntü formatı vb. gibi parametreleri belirtmenizi sağlayan bir [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) örneğini kabul edebilir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChartRendering-ChartRendering.java" >}}
 
 ### **Grafiği PDF'ye Dönüştürme**
 
-Grafiğin PDF formatına rendeleme yapmak için Aspose.Cells API'leri, sonucu diske veya OutputStream örneğine kaydetme yeteneğine sahip [**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) yöntemi sunmuştur.
+Grafiğin PDF formatına rendeleme yapmak için Aspose.Cells API'leri, sonucu diske veya OutputStream örneğine kaydetme yeteneğine sahip [**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf-java.io.OutputStream-) yöntemi sunmuştur.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-chartsRenderChartsToPdf-RenderChartsToPdf.java" >}}
 
@@ -131,3 +131,4 @@ Görüntüye veya PDF'ye dönüştürmeye çalıştığınızda, desteklenmeyen 
 - [SVG Biçiminde Grafikleri Görüntüye Dönüştürme](/cells/tr/java/converting-chart-to-image-in-svg-format/)
 - [İstenen Sayfa Boyutunda Grafik PDF Oluşturma](/cells/tr/java/create-chart-pdf-with-desired-page-size/)
 - [Görünüm Kutusu Özelliği ile Grafiksel Bir Ortama Tabloyu Dışa Aktarma](/cells/tr/java/export-chart-to-svg-with-viewbox-attribute/)
+{{< app/cells/assistant language="java" >}}

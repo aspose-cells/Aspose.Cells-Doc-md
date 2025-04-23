@@ -46,3 +46,4 @@ cells.setMemorySetting(MemorySetting.MEMORY_PREFERENCE);
 詳細な記事は、[大規模なデータセットを操作する際のメモリの最適化](/cells/ja/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)をご覧ください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

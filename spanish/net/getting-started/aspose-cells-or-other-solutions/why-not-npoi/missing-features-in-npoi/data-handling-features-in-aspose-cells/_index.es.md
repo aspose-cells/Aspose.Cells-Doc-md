@@ -9,3 +9,4 @@ url: /es/net/data-handling-features-in-aspose-cells/
 - [Calcular Subtotales](/cells/es/net/calculate-sub-totals/)
 - [Encontrar Valor en Celdas](/cells/es/net/find-value-in-cells/)
 - [Motor de Cálculo de Fórmulas en Aspose.Cells](/cells/es/net/formula-calculation-engine-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

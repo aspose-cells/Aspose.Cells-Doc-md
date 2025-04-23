@@ -31,3 +31,4 @@ url: /zh/net/copy-shapes-between-worksheets/
 要复制控件和其他绘图对象，请使用以下示例中显示的 [**Worksheet.Shapes.AddCopy**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addcopy) 方法。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CopyShapesBetweenWorksheets-CopyControlsAndOtherDrawingObjects.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

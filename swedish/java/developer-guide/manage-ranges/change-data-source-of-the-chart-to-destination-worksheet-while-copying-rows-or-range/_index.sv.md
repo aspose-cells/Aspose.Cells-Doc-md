@@ -21,3 +21,4 @@ Följande exempelkod förklarar användningen av CopyOptions.ReferToDestinationS
 
 
 
+{{< app/cells/assistant language="java" >}}

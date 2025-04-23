@@ -26,3 +26,4 @@ Aşağıdaki örnek kod üç satır oluşturur ve her birinin yatay hizalamasın
 
 
 
+{{< app/cells/assistant language="java" >}}

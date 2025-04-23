@@ -21,3 +21,4 @@ Der folgende Beispielcode erläutert die Verwendung der Eigenschaft CopyOptions.
 
 
 
+{{< app/cells/assistant language="java" >}}

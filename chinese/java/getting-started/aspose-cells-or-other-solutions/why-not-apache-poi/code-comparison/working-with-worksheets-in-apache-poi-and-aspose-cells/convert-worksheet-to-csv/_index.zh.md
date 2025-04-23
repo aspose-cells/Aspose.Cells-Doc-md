@@ -699,3 +699,4 @@ public class ApacheXLSX2CSV {
 有关更多详细信息，请访问[保存文件](/cells/zh/java/saving-excel-files-to-csv-pdf-and-other-formats/)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

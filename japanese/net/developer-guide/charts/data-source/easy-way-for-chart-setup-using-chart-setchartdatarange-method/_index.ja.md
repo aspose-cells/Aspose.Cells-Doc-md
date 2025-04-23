@@ -16,3 +16,4 @@ Aspose.Cellsは今、チャートを簡単にセットアップするための[*
 次のサンプルコードは、[**Chart.SetChartDataRange()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange)メソッドの使用方法を説明しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ChartSetupUsingSetChartDataRange-EasyWayToChartSetupUsingSetChartDataRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

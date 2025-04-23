@@ -52,3 +52,4 @@ Eseguendo il codice di esempio sottostante si cambia il dato di origine della ta
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ChangeSourceData-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

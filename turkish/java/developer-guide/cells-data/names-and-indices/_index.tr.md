@@ -11,15 +11,15 @@ keywords: Java, hücre indeksini ada dönüştürme, hücre adını satır/sütu
 ## **Satır ve Sütun İndekslerinden Hücre Adını Nasıl Alınır**
 Bir hücrenin adını bulmak mümkündür, verilen satır ve sütun dizini. Bu makale açıklar.
 
-Aspose.Cells, geliştiricilere satır ve sütun indeksini sağladıklarında hücre adını alabilmelerini sağlayan [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) metodunu sağlar.
+Aspose.Cells, geliştiricilerin satır ve sütun indekslerini sağladıklarında hücrenin adını almasına izin veren [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName-int-int-)  metodunu sağlar.
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel, satır ve sütun indislerini 1'den başlatır. Microsoft Excel'in aksine, Aspose.Cells satır ve sütun indislerini 0'dan başlatır.
+Microsoft Excel satır ve sütun indekslerini 1’den başlatır. Aspose.Cells ise satır ve sütun indekslerini 0’dan başlatır.
 
 {{% /alert %}} 
 
-Aşağıdaki örnek kod, [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) kullanımını gösterir. Bilinen bir satır ve sütun indeksindeki hücre adını erişmek için bu kod, aşağıdaki çıktıyı üretir.
+Aşağıdaki örnek kod, [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName-int-int-) kullanarak bilinen bir satır ve sütun indeksine göre hücrenin adını nasıl alacağınızı gösterir. Kod, aşağıdaki çıktıyı üretir.
 
 {{< highlight java >}}
 
@@ -37,15 +37,15 @@ Cell Name at [2, 2]: C3
 ## **Hücre Adından Satır ve Sütun İndekslerini Nasıl Alınır**
 Bir hücrenin adından satır ve sütun dizinini bulmak mümkündür. Bu makale açıklar.
 
-Aspose.Cells, geliştiricilere hücre adından satır ve sütun indeksini alabilmelerini sağlayan [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) metodunu sağlar.
+Aspose.Cells, geliştiricilerin hücrenin adından satır ve sütun indekslerini almalarına olanak tanıyan [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex-java.lang.String-)  metodunu sağlar.
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel, satır ve sütun indislerini 1'den başlatır. Microsoft Excel'in aksine, Aspose.Cells satır ve sütun indislerini 0'dan başlatır.
+Microsoft Excel satır ve sütun indekslerini 1’den başlatır. Aspose.Cells ise satır ve sütun indekslerini 0’dan başlatır.
 
 {{% /alert %}} 
 
-Aşağıdaki örnek kod, [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) kullanımını gösterir. Hücre adından satır ve sütun indeksini almak için bu kod, aşağıdaki çıktıyı üretir.
+Aşağıdaki örnek kod, [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex-java.lang.String-) kullanarak hücrenin adından satır ve sütun indekslerini nasıl alacağınızı gösterir. Kod, aşağıdaki çıktıyı üretir.
 
 {{< highlight java >}}
 
@@ -72,3 +72,4 @@ Bu, oluşturulmuş ilk adın kısaltıldığı ad
 ` `<> + (adj.Private _ " Private"
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

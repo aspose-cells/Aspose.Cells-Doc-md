@@ -26,3 +26,4 @@ url: /ar/java/check-if-vba-code-is-signed/
 Is VBA Code Project Signed: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

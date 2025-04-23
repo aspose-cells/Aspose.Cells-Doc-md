@@ -4,15 +4,15 @@ type: docs
 weight: 5
 url: /sv/nodejs-cpp/features/
 keywords: "nodejs, excel, api, features"
-description: "Aspose.Cells för Node.js via C++ funktioner."
+description: "Aspose.Cells for Node.js via C++ funktioner."
 ---
 
-## **Aspose.Cells för Node.js via C++ Funktioner Översikt**
-Denna sektion ger en jämförelse av tillgängligheten av funktioner mellan Aspose.Cells for C++ och Aspose.Cells för Node.js via C++.
+## **Aspose.Cells for Node.js via C++ Funktioner Översikt**
+Detta avsnitt ger en jämförelse av funktionen tillgänglighet mellan Aspose.Cells for C++ och Aspose.Cells for Node.js via C++.
 ### **Filformat och konverteringar**
 Många kunder över hela världen förlitar sig på de omfattande funktionerna för importer och export av dokument som tillhandahålls av Aspose.Cells.
 
-|**Funktion**|**Beskrivning**|**Aspose.Cells for C++**|**Aspose.Cells för Node.js via C++**|
+|**Funktion**|**Beskrivning**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- | :- |
 |Högkvalitativa konverteringar|Snabbt och pålitligt, konvertera mellan flera populära dokumentformat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Microsoft Excel Arbetsbok (XLS)|Den snabbaste och mest kompletta XLS-formatimplementeringen du kan hitta.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -26,21 +26,21 @@ Många kunder över hela världen förlitar sig på de omfattande funktionerna f
 ### **Rendera och skriv ut**
 Aspose.Cells erbjuder nu högkvalitetsrendering av kalkylbladssidor.
 
-|**Funktion**|**Aspose.Cells for C++**|**Aspose.Cells för Node.js via C++**|
+|**Funktion**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
 |Layoutdokument i sidor med hög trovärdighet för Microsoft Excel® (precis som Microsoft Excel® skulle göra).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Rendera kalkylbladssidor till rasterbilder (PNG, JPEG, etc.).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Rendera kalkylarksidor till rastbilder (Multipage TIFF, GIF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Rendera kalkylbladssidor till vektorbilder (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Ange upplösning, kvalitet, komprimering och andra inställningar för bilder.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Skriv ut kalkylarksidor med hjälp av C++-utskriftsinfrastruktur.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Skriv ut kalkylbladssidor med C++ utskriftsinfrastruktur.|{{< emoticons/cross >}}|{{< emoticons/cross >}}|
 |Uppdatera sidnummer och andra fält innan rendering eller utskrift.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Kalkylbladsinnehållsfunktioner**
 Aspose.Cells tillhandahåller en rik objektmodell som består av över 100 offentliga klasser/gränssnitt, som möjliggör att du programmässigt genererar, kombinerar, modifierar, tolkar eller på annat sätt undersöker inlästa kalkylblad. Några viktiga funktioner ges i tabellen nedan.
 
-|**Funktion**|**Aspose.Cells for C++**|**Aspose.Cells för Node.js via C++**|
+|**Funktion**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
-|Import/export data från en Array, ArrayList, ResultSet etc.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Importera/Exportera data från en Array, ArrayList, ResultSet etc.|{{< emoticons/cross >}}|{{< emoticons/cross >}}|
 |Lägg till en kopia av befintligt kalkylblad (alla innehåll inklusive bilder, diagram, andra objekt etc.)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Kopiera eller flytta kalkylblad inom eller mellan arbetsböcker|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Lägg till bilder|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -77,7 +77,7 @@ Aspose.Cells tillhandahåller en rik objektmodell som består av över 100 offen
 ### **Kalkylbladsformateringsfunktioner**
 Aspose.Cells ger detaljerad programmatisk åtkomst till formateringsfunktioner på alla kalkylbladselement.
 
-|**Funktion**|**Aspose.Cells for C++**|**Aspose.Cells för Node.js via C++**|
+|**Funktion**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
 |Tillämpa all teckenformatering i cellerna inklusive teckensnitt, färger, effekter, ramar och skuggning.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Använd alla inställningar för nummerformat (som stöds i Microsoft Excel) för cellerna.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -91,7 +91,7 @@ Aspose.Cells ger detaljerad programmatisk åtkomst till formateringsfunktioner p
 ### **Sidlayoutsfunktioner**
 Du kan använda Aspose.Cells för att implementera sidlayoutalternativ för arbetsblad.
 
-|**Funktion**|**Aspose.Cells for C++**|**Aspose.Cells för Node.js via C++**|
+|**Funktion**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
 |Justera sidorientering, skalning, pappersstorlek.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Ange marginaler och centreringsinställningar för sidan.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

@@ -47,3 +47,4 @@ Aspose.Cells による出力PDFまたはイメージファイルでは、評価�
 <br>
 <image src="3.png" width="70%" />
 <br>
+{{< app/cells/assistant language="java" >}}

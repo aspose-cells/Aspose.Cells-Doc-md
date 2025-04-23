@@ -33,3 +33,4 @@ url: /ar/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-
 يحمل الكود العينة التالي ملف Excel الأصلي كما هو موضح في اللقطة الشاشية أعلاه، ثم يصل إلى أول مجموعة سباركلاين ويضيف نطاقات البيانات والمواقع داخل مجموعة السباركلاين. وأخيراً، يكتب ملف Excel الناتج على القرص كما هو موضح أيضا في اللقطة الشاشية أعلاه.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopySparkline-CopySparkline.java" >}}
+{{< app/cells/assistant language="java" >}}

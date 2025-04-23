@@ -18,3 +18,4 @@ El siguiente código de muestra carga el [archivo Excel de muestra](64716919.xl
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-RotateTextWithShapeInsideWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

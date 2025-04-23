@@ -19,3 +19,4 @@ keywords: 应用/设置文本框工作表的 Excel Aspose 对齐文本框。
 [源文件](SampleTextboxExcel2016.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ApplyPartialTextAlignmentToTextBox.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -18,3 +18,4 @@ Aspose.Cells'i kullanarak grafik noktasının zengin metin özel veri etiketi ol
 Aşağıdaki kod, ilk serinin ilk grafik noktasına erişir, metnini ayarlar ve ardından ilk 10 karakterin rengini kırmızıya ve kalınlığını **true** olarak ayarlayarak metnin yazı tipini ayarlar.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RichTextCustomDataLabel-RichTextCustomDataLabelOfChartPoint.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

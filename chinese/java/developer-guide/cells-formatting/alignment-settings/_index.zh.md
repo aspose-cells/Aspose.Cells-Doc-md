@@ -81,7 +81,7 @@ Aspose.Cells为[**GetStyle**](https://reference.aspose.com/cells/java/com.aspose
 
 ### **合并单元格**
 
-像Microsoft Excel一样，Aspose.Cells支持将多个单元格合并为一个。Aspose.Cells提供了两种方法来执行此任务。一种方式是调用[**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int))方法。该方法接受以下参数来合并单元格：
+像Microsoft Excel一样，Aspose.Cells支持将多个单元格合并为一个。Aspose.Cells提供了两种方法来执行此任务。一种方式是调用[**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge-int-int-int-int-)方法。该方法接受以下参数来合并单元格：
 
 - 第一行：开始合并的第一行。
 - 第一列：开始合并的第一列。
@@ -108,3 +108,4 @@ Aspose.Cells为[**GetStyle**](https://reference.aspose.com/cells/java/com.aspose
 ## **高级主题**
 - [更改单元格对齐方式并保留现有格式](/cells/zh/java/change-cells-alignment-and-keep-existing-formatting/)
 - [换行和文本换行](/cells/zh/java/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="java" >}}

@@ -59,3 +59,4 @@ L'exemple de code suivant démontre l'utilisation des classes [**ExportRangeToJs
 ]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

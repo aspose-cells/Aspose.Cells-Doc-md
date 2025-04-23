@@ -18,3 +18,4 @@ Le code d'exemple suivant crée un classeur et modifie sa propriété de documen
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DocumentProperties-SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

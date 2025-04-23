@@ -3,8 +3,8 @@ title: كيفية تشغيل Aspose.Cells.GridJs في دوكر
 type: docs
 weight: 250
 url: /ar/java/aspose-cells-gridjs/how-to-build-online-excel-editor/
-keywords: GridJs، دوكر
-description: يقدم هذا المقال كيفية تشغيل GridJs في دوكر لإنشاء تطبيق محرر أو عارض لجداول البيانات عبر الإنترنت.
+keywords: GridJs،دوكر
+description: تقدم هذه المقالة شرحًا لكيفية تشغيل GridJs في دوكر لبناء محرر أو عارض إكسل على الإنترنت.
 aliases:
   - /java/aspose-cells-gridjs/docker/
   - /java/aspose-cells-gridjs/run-aspose-cells-gridjs-in-docker/
@@ -17,45 +17,41 @@ aliases:
   - /java/aspose-cells-gridjs/how-to-build-web-excel-viewer-using-gridjs/
 ---
 
-#دليل دوكر
+# دليل دوكر
 
 ## متطلبات قبلية
 
-تأكد من تثبيت Docker على جهازك. يمكنك تنزيل وتثبيت Docker من [الموقع الرسمي لدوكر](https://www.docker.com/get-started).
+تأكد من أن لديك Docker مثبت على جهازك. يمكنك تنزيل وتثبيت Docker من [الموقع الرسمي لـ Docker](https://www.docker.com/get-started).
 
 ## الخطوة 1: إنشاء ملف Dockerfile
 
-أنشئ ملفًا يحمل اسم `Dockerfile` في مجلد مشروعك (https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs). يجب أن يحتوي `Dockerfile` على تعليمات حول كيفية بناء صورة دوكر الخاصة بك.
+أنشئ ملفًا باسم `Dockerfile` في مجلد مشروعك [الدليل](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs). يجب أن يحتوي `Dockerfile` على تعليمات حول كيفية بناء الصورة الخاصة بك في Docker.
 
-## الخطوة 2: كتابة ملف Dockerfile لـ GridJs
+## الخطوة 2: كتابة Dockerfile لـ GridJs
 
-فيما يلي [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs/Dockerfile) عينة لعرض GridJs مع تطبيق Java:
+إليك مثال [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs/Dockerfile) لعرض GridJs مع تطبيق جافا:
 
 ```dockerfile
-# Use the jdk8 image
-FROM eclipse/ubuntu_jdk8
+# Use the maven image to build jar file
+FROM maven:3.8.6-amazoncorretto-17 AS build
 WORKDIR /usr/src/app
 
 
 # copy local Maven files to container
-COPY mvnw .
 COPY .mvn .mvn
 COPY pom.xml .
 COPY src src
 
 # build application with maven
-RUN ./mvnw package -DskipTests
+RUN mvn  package -DskipTests
 
-# Set the user
-USER root
 
-#RUN ls -l *
+# Use the jdk8 image as the basic docker image
+FROM eclipse/ubuntu_jdk8
+WORKDIR /app
+# copy build jar file to target container 
+COPY --from=build /usr/src/app/target/*.jar /app/app.jar
 
-# copy the build output jar to container
-COPY  target/*.jar /app/app.jar
-
-# delete build source to reduce storage usage
-RUN rm -rf target && rm -rf .mvn && rm -rf src
 # web port
 EXPOSE 8080
 # if you want display better like in windows ,you need to install kinds of fonts in /usr/share/fonts/ 
@@ -65,6 +61,8 @@ EXPOSE 8080
 # COPY fonts/* /usr/share/fonts/
 # the basic file path which contains the spread sheet files 
 RUN mkdir -p /app/wb
+# the file path to store the uploaded files
+RUN mkdir -p /app/uploads
 # the cache file path for GridJs
 RUN mkdir -p /app/grid_cache/streamcache
 # we provide some sample spread sheet files in demo 
@@ -75,36 +73,45 @@ ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app/app.ja
 ```
 
 ## الخطوة 3: بناء صورة Docker
-قم ببناء صورة Docker: من الطرفية، قم بتنفيذ الأمر التالي لبناء صورة Docker الخاصة بك:
+بناء صورة Docker: من الطرفية، نفذ الأمر التالي لبناء صورة Docker الخاصة بك:
 ```bash
 docker build -t gridjs-demo-java .
 ```
-يمكنك استبدال gridjs-demo-java بالاسم الذي ترغب فيه لإعطاء صورة دوكر الخاصة بك.
+يمكنك استبدال gridjs-demo-java باسم الصورة التي ترغب في إعطائها لـ Docker الخاص بك.
 
 ## الخطوة 4: تشغيل حاوية Docker
-بمجرد بناء الصورة، يمكنك تشغيل حاوية باستخدام الأمر التالي:
+بمجرد إنشاء الصورة، يمكنك تشغيل حاوية باستخدام الأمر التالي:
 
 ```bash
-docker run -d -p 8080:80 --name gridjs-demo-container  gridjs-demo-java
+docker run -d -p 8080:80   -v C:/path/to/license.txt:/app/license --name gridjs-demo-container  gridjs-demo-java
 ```
+
+أو ببساطة تشغيل العرض التوضيحي في وضع التجربة:
+
+
+```bash
+docker run -d -p 8080:80  --name gridjs-demo-container  gridjs-demo-java
+```
+
 شرح خيارات أمر تشغيل Docker
--d: تشغيل الحاوية في وضع منفصل (في الخلفية).
--p 8080:80: تعيين ميناء 80 في الحاوية إلى الميناء 8080 على جهاز المضيف.
+-د: تشغيل الحاوية في الوضع المنفصل (في الخلفية).
+-p 8080: يربط منفذ 80 في الحاوية بمنفذ 8080 على الجهاز المضيف.
+-v C:/path/to/license.txt:/app/license: ربط مسار ملف الترخيص على الجهاز المضيف بمسار الملف في الحاوية.
 --name gridjs-demo-container: تعيين اسم للحاوية.
 
 ## الخطوة 5: التحقق من تشغيل الحاوية
-للتحقق مما إذا كانت الحاوية الخاصة بك قيد التشغيل، استخدم الأمر التالي:
+للتحقق من تشغيل الحاوية الخاصة بك، استخدم الأمر التالي:
 
 ```bash
 docker ps
 ```
-سيتم إدراج جميع الحاويات الجارية. يجب أن ترى حاويتك مدرجة جنبًا إلى جنب مع اسمها وحالتها.
+سيقوم هذا الأمر بسرد جميع الحاويات الجارية. يجب أن ترى حاويتك مدرجة مع اسمها وحالتها.
 
-## الخطوة 6: الوصول إلى تطبيق الويب
+## الخطوة 6: الوصول إلى التطبيق الويب
 
-افتح متصفح الويب وانتقل إلى ` http://localhost:8080/gridjsdemo/index`. يجب أن ترى تطبيقك يعمل.
+افتح متصفح ويب واذهب إلى ` http://localhost:8080/gridjsdemo/index`. يجب أن ترى تطبيقك يعمل.
 
-## الأوامر الإضافية
+## أوامر إضافية
 
 ### إيقاف الحاوية
 

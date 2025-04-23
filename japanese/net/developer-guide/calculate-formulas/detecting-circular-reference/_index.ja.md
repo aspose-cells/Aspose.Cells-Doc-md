@@ -30,3 +30,4 @@ url: /ja/net/detecting-circular-reference/
 [**AbstractCalculationMonitor**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor)クラスから派生した*CircularMonitor*クラスの定義は次のようになります:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-DetectCircularReference-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

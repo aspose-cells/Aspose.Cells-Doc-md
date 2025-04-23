@@ -20,3 +20,4 @@ In Microsoft Excel, puoi aggiungere un riferimento della libreria al progetto VB
 Il codice di esempio seguente aggiunge o registra due riferimenti di libreria al progetto VBA del workbook utilizzando il metodo [**VbaProject.References.AddRegisteredReference()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaprojectreferencecollection/methods/addregisteredreference).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddLibraryReferenceToVbaProject-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

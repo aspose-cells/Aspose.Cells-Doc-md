@@ -17,7 +17,7 @@ keywords: 创建数据透视表，插入数据透视表，格式化数据透视�
 Aspose.Cells for Python via .NET在[**aspose.cells.pivot**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/)命名空间中提供了一组特殊的类，用于创建和控制数据透视表。这些类用于创建和设置[**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/)对象，数据透视表的构建模块。对象包括：
 
 - [**PivotField**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/) 代表 [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/) 中的一个字段。
-- [**PivotFieldCollection**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection) 代表 [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable) 中的所有 [**PivotField**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield) 对象的集合。
+- [**PivotFieldCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection) 代表 [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable) 中的所有 [**PivotField**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield) 对象的集合。
 - [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable) 代表工作表上的数据透视表。
 - [**PivotTableCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection) 代表工作表上的所有 [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable) 对象的集合。
 

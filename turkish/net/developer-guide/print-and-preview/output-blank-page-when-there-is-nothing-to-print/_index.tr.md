@@ -18,3 +18,4 @@ Aşağıdaki örnek kod, boş bir çalışma kitabı oluşturur ve boş çalış
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-OutputBlankPageWhenThereIsNothingToPrint-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

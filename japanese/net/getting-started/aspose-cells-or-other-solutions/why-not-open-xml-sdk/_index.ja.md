@@ -91,3 +91,4 @@ Open XML SDKで達成できるタスクもありますが、Aspose.Cellsでは�
 - ドキュメントをMicrosoft Excelで変換した場合とまったく同じようにPDFまたはXPSに変換。
 - .NETまたはJavaアプリケーションの開発。
 
+{{< app/cells/assistant language="csharp" >}}

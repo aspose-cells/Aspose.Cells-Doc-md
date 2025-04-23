@@ -171,3 +171,4 @@ OOXML规范内容非常丰富。 开放和标准并不意味着简单。 要正�
 
 
 甚至在Office Open XML文档中执行一个简单的查找和替换操作也是困难的。我们的建议：记住开放和标准并不意味着简单，使用Aspose.Cells。
+{{< app/cells/assistant language="csharp" >}}

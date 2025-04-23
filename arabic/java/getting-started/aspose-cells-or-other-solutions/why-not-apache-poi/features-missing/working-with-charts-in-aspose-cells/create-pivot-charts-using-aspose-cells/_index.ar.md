@@ -53,3 +53,4 @@ chart.setHidePivotFieldButtons(false);
 لمزيد من التفاصيل، قم بزيارة [إنشاء جداول محورية ورسوم بيانية محورية](/cells/ar/java/create-pivot-tables-and-pivot-charts/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

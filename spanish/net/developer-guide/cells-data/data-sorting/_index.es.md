@@ -58,3 +58,4 @@ A continuación se muestran los archivos de muestra que se pueden descargar para
 ## **Temas avanzados**
 - [Ordenar datos en una columna con lista de orden personalizado](/cells/es/net/sort-data-in-column-with-custom-sort-list/)
 - [Especificar advertencia de clasificación al ordenar datos](/cells/es/net/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="csharp" >}}

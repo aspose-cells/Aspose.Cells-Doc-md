@@ -12,3 +12,4 @@ url: /ru/net/testimonials/
 [Отзывы](https://downloads.aspose.com/corporate/case-studies/aspose.cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

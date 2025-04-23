@@ -47,3 +47,4 @@ Das folgende Beispiel wird Ihnen im Detail zeigen, wie Sie eine lokalisierte Reg
 - [Wie man die chinesische Region für das Diagramm einstellt](/cells/de/net/convert-chart-to-image-for-chinese-region/)
 - [Wie man die japanische Region für das Diagramm einstellt](/cells/de/net/convert-chart-to-image-for-japanese-region/)
 
+{{< app/cells/assistant language="csharp" >}}

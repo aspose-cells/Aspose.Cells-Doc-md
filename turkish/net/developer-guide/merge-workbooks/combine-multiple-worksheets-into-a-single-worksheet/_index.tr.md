@@ -16,3 +16,4 @@ Aşağıdaki kod parçacığı, birden fazla çalışsayfayı tek bir çalışsa
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CombineMultipleWorksheetsSingleWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

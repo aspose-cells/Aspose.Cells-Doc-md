@@ -16,3 +16,4 @@ url: /zh/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/
 以下示例代码加载[源Excel文件](5115514.xlsx)，设置工作表中第一个表格或列表对象的注释。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-SetCommentOfTableOrListObject-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

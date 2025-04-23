@@ -20,3 +20,4 @@ url: /ja/java/copy-range-style-only/
 最初の範囲の書式を2番目の範囲にコピーします。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyRangeStyleOnly-CopyRangeStyleOnly.java" >}}
+{{< app/cells/assistant language="java" >}}

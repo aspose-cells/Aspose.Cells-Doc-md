@@ -28,3 +28,4 @@ Aspose.Cells fournit la méthode [**DataLabels.setShowCellRange()**](https://ref
 Le code d'exemple ci-dessous accède aux libellés de données de la série de graphiques, puis définit la méthode [**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) comme true pour vérifier l'option **Le libellé contient - Valeur à partir des cellules**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ShowCellRangeAsTheDataLabels-ShowCellRangeAsTheDataLabels.java" >}}
+{{< app/cells/assistant language="java" >}}

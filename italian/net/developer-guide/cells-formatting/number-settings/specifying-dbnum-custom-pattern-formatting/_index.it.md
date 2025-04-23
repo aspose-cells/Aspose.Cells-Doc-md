@@ -16,3 +16,4 @@ Aspose.Cells supporta la formattazione del modello personalizzato *DBNum*. Ad es
 Il seguente codice di esempio illustra come specificare la formattazione del modello personalizzato *DBNum*. Si prega di controllare il [PDF di output](43352081.pdf) per ulteriori informazioni.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SpecifyingDBNumCustomPatternFormatting.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

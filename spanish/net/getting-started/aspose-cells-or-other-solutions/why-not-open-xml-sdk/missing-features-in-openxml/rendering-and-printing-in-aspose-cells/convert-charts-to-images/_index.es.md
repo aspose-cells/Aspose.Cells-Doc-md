@@ -375,3 +375,4 @@ chart.ToImage(MyDir + "Chart to Tiff Image.tiff", options);
 ## **Descargar Código de Ejemplo**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Converting%20Chart%20to%20Image%20%28Aspose.Cells%29.zip)
+{{< app/cells/assistant language="csharp" >}}

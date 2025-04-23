@@ -26,3 +26,4 @@ Der unten stehende Codeausschnitt zeigt die Verwendung der Aspose.Cells for Java
 ## Verwandte Artikel
 
 - [Erstellen und Anpassen von Diagrammen](/cells/de/java/creating-and-customizing-charts/)
+{{< app/cells/assistant language="java" >}}

@@ -45,3 +45,4 @@ Aspose-Komponenten sind hochgradig skalierbar und blitzschnell. Es sind echte .N
 - [Arbeitsblatt importieren und exportieren](/cells/de/net/import-and-export-worksheet/)
 - [Arbeitsmappe drucken und Vorschau anzeigen](/cells/de/net/print-and-preview/)
 - Und andere.
+{{< app/cells/assistant language="csharp" >}}

@@ -25,3 +25,4 @@ url: /ja/java/detecting-empty-worksheets/
 特定のワークシートに入力されたセルが存在しない可能性がありますが、コントロール、チャート、画像などの図形やオブジェクトが含まれていることがあります。ワークシートに図形が含まれているかどうかを確認するには、[ShapeCollection.Count](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#Count)プロパティを検査します。正の値はワークシートに図形が存在することを示します。
 ## **プログラミングサンプル**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CheckForShapes-1.java" >}}
+{{< app/cells/assistant language="java" >}}

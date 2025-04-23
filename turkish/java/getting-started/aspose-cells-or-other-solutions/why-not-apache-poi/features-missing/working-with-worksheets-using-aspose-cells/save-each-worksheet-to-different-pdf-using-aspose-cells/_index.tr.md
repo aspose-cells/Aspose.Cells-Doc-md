@@ -68,3 +68,4 @@ for (int j = 0; j < workbook.getWorksheets().getCount(); j++)
 Daha fazla bilgi için [Her Bir Çalışma Sayfasını Farklı Bir PDF Dosyasına Kaydet](/cells/tr/java/save-each-worksheet-to-a-different-pdf-file)'i ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

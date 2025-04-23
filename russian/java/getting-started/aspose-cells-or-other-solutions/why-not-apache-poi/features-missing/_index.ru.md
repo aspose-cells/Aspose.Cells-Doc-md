@@ -40,3 +40,4 @@ url: /ru/java/aspose-cells-features-missing-in-apache-poi-ss-hssf-and-xssf/
   - [Преобразование электронной таблицы в PDF с использованием Aspose.Cells](/cells/ru/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
 
 **Примечание:** Больше примеров скоро будут доступны.
+{{< app/cells/assistant language="java" >}}

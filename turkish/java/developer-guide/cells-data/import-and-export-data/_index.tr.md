@@ -49,7 +49,7 @@ Bir diziden elektronik tabloya veri aktarmak için, [**Cells**](https://referenc
 
 #### Bir ArrayList'ten İçe Aktarma
 
-Verileri bir *ArrayList* koleksiyonundan çalışma sayfalarına aktarmak için, [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) koleksiyonunun [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean)) metodunu çağırın. [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean)) metodu aşağıdaki parametreleri alır:
+Verileri bir *ArrayList* koleksiyonundan çalışma sayfalarına aktarmak için, [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) koleksiyonunun [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList-java.util.ArrayList-int-int-boolean-) metodunu çağırın. [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList-java.util.ArrayList-int-int-boolean-) metodu aşağıdaki parametreleri alır:
 
 - **ArrayList**, içeriği aktarılacak *ArrayList* nesnesi.
 - **Satır Numarası**, içeriğin aktarılacağı hücre aralığının ilk hücresinin satır numarası.
@@ -66,7 +66,7 @@ Bir nesne koleksiyonundan birleştirilmiş hücrelere sahip bir çalışma sayfa
 
 #### JSON'dan Veri Aktarma
 
-Aspose.Cells, JSON işleme için bir [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) sınıfı sağlar. [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) sınıfı, JSON verilerini içe aktarmak için bir [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions)) metodu içerir. Aspose.Cells ayrıca, JSON düzeni seçeneklerini temsil eden bir [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) sınıfı da sağlar. [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions)) metodu, [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) olarak bir parametre kabul eder. [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) sınıfı aşağıdaki özellikleri sağlar.
+Aspose.Cells, JSON işleme için bir [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) sınıfı sağlar. [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) sınıfı, JSON verilerini içe aktarmak için bir [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData-java.lang.String-com.aspose.cells.Cells-int-int-com.aspose.cells.JsonLayoutOptions-) metodu içerir. Aspose.Cells ayrıca, JSON düzeni seçeneklerini temsil eden bir [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) sınıfı da sağlar. [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData-java.lang.String-com.aspose.cells.Cells-int-int-com.aspose.cells.JsonLayoutOptions-) metodu, [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) olarak bir parametre kabul eder. [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) sınıfı aşağıdaki özellikleri sağlar.
 
 - [**ArrayAsTable**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ArrayAsTable): Array içindeki öğenin tablo olarak işlenip işlenmeyeceğini belirtir.
 - [**ConvertNumericOrDate**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ConvertNumericOrDate): JSON'daki dizeyi sayısal veya tarihi veriye dönüştürüp dönüştürmeyeceğini belirler.
@@ -89,11 +89,11 @@ Aspose.Cells, kullanıcılarının elektronik tablolara dış veri kaynaklarınd
 
 Aspose.Cells, bir Microsoft Excel dosyasını temsil eden bir sınıf olan [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sağlar. [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) içerir. Bir çalışma sayfası, [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıfı bir [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) koleksiyonu sağlar.
 
-Veri, [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) sınıfının [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) metodu kullanılarak kolayca bir Dizi nesnesine aktarılabilir.
+Veri, [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) sınıfının [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray-int-int-int-int-) metodu kullanılarak kolayca bir Dizi nesnesine aktarılabilir.
 
 #### Güçlü Türde Veri İçeren Sütunlar
 
-Hesap tabloları verileri bir dizi satır ve sütun olarak saklar. Verileri bir çalışma sayfasından bir diziye aktarmak için [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) metodunu kullanın. *Array* nesnesi olarak çalışma sayfası verilerini dışa aktarmak için [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) aşağıdaki parametreleri alır:
+Hesap tabloları verileri bir dizi satır ve sütun olarak saklar. Verileri bir çalışma sayfasından bir diziye aktarmak için [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray-int-int-int-int-) metodunu kullanın. *Array* nesnesi olarak çalışma sayfası verilerini dışa aktarmak için [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray-int-int-int-int-) aşağıdaki parametreleri alır:
 
 - Satır numarası, verilerin aktarılacağı ilk hücrenin satır numarası.
 - Sütun numarası, verilerin aktarılacağı ilk hücrenin sütun numarası.
@@ -105,3 +105,4 @@ Hesap tabloları verileri bir dizi satır ve sütun olarak saklar. Verileri bir 
 ## **Gelişmiş Konular**
 - [Microsoft Access Veritabanı ResultSet Nesnesinden Veri Alma](/cells/tr/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
 - [Çalışma Sayfasına Veri İçeri Aktarırken Formül Alanlarını Belirt](/cells/tr/java/specify-formula-fields-while-importing-data-to-worksheet/)
+{{< app/cells/assistant language="java" >}}

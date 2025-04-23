@@ -164,3 +164,4 @@ fill.getSolidFill().setColor(Color.getBlue());
 Пожалуйста, используйте свойство Shape.Fill вместо него.
 ### **Устаревшее свойство FontSetting.ShapeFont.**
 Пожалуйста, используйте свойство FontSetting.TextOptions вместо него.
+{{< app/cells/assistant language="java" >}}

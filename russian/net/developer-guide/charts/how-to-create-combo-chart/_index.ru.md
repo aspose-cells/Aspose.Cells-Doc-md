@@ -20,3 +20,4 @@ url: /ru/net/create-combo-chart/
 В приведенном ниже образце кода загружается [образец файла Excel](combo.xlsx) и создается [выходной файл Excel](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-combo-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

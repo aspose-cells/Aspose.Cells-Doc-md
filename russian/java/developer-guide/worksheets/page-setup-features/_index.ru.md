@@ -166,19 +166,20 @@ Aspose.Cells позволяет добавлять верхние и нижни�
 |&T|Текущее время.
 |&A|Имя листа.
 |&F|Имя файла без пути.
+|&&Text|Показывает &Text. Например: &&WO будет отображаться как &WO|
 |&"\<FontName>"|Имя шрифта. Например: &"Arial"
 |&"\<FontName>, \<FontStyle>"|Имя шрифта с начертанием. Например: &"Arial,Bold"
 |&\<FontSize>|Представляет размер шрифта. Например: “&14abc”. Однако, если за этой командой следует обычное число для печати в заголовке, его следует отделить пробелом от размера шрифта. Например: “&14 123”.
 
 ### **Установить заголовки и нижние колонтитулы**
 
-Класс [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) предоставляет метод [**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String)) для добавления заголовка и [**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String)) для добавления нижнего колонтитула на лист. Этот сценарий используется в качестве аргумента для всех вышеупомянутых методов. Он представляет сценарий, используемый для заголовка или нижнего колонтитула. Этот скрипт содержит команды скрипта для форматирования заголовков или колонтитулов.
+Класс [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) предоставляет метод [**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader-int-java.lang.String-) для добавления заголовка и [**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter-int-java.lang.String-) для добавления нижнего колонтитула на лист. Этот сценарий используется в качестве аргумента для всех вышеупомянутых методов. Он представляет сценарий, используемый для заголовка или нижнего колонтитула. Этот скрипт содержит команды скрипта для форматирования заголовков или колонтитулов.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetHeadersAndFooters-SetHeadersAndFooters.java" >}}
 
 ### **Вставить графику в заголовок или нижний колонтитул**
 
-Класс [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) имеет методы [**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[])) и [**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[])) для добавления изображений в заголовок и нижний колонтитул листа. Эти методы принимают два параметра:
+Класс [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) имеет методы [**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture-int-byte[]-) и [**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture-int-byte[]-) для добавления изображений в заголовок и нижний колонтитул листа. Эти методы принимают два параметра:
 
 - **Секция**, секция заголовка или нижнего колонтитула, куда будет размещено изображение. Есть три секции: слева, центр и справа, представленные числовыми значениями 0, 1 и 2 соответственно.
 - **Поток файла**, графические данные. Бинарные данные должны быть записаны в буфер байтового массива.
@@ -196,7 +197,7 @@ Aspose.Cells позволяет добавлять верхние и нижни�
 
 ### **Вставка графики только вверхний колонтитул первой страницы**
 
-Класс [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) также имеет другие полезные методы, например [**setPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[])), [**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String)), [**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String)), для добавления изображений в верхний и нижний колонтитул первой страницы листа. Первая страница является особой страницей: часто требуется, чтобы она показывала специальную информацию, например логотип компании.
+Класс [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) также имеет другие полезные методы, например [**setPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture-boolean-boolean-boolean-int-byte[]-), [**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader-int-java.lang.String-), [**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter-int-java.lang.String-), для добавления изображений в верхний и нижний колонтитул первой страницы листа. Первая страница является особой страницей: часто требуется, чтобы она показывала специальную информацию, например логотип компании.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-InsertGraphicinFirstPageHeaderOnly-InsertGraphicinFirstPageHeaderOnly.java" >}}
 
@@ -256,18 +257,18 @@ Aspose.Cells позволяет назначить заголовки строк
 
 |**Типы Примечаний к Печати**|**Описание**|
 | :- | :- |
-|[**PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)|Указывает на печать примечаний в виде их отображения на листе.|
-|[**PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS)|Указывает не печатать примечания.|
-|[**PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_SHEET_END)|Указывает печатать примечания в конце листа.|
+|[**PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-IN-PLACE)|Задает печать комментариев так, как они отображаются на листе.|
+|[**PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-NO-COMMENTS)|Задает не печатать комментарии.|
+|[**PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-SHEET-END)|Задает печать комментариев в конце листа.|
 
 Предопределенные значения перечисления [**PrintErrorsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType) описаны ниже.
 
 |**Типы Ошибок Печати**|**Описание**|
 | :- | :- |
-|[**PRINT_ERRORS_BLANK**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_BLANK)|Указывает, что ошибки не следует печатать.|
-|[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DASH)|Указывает, что ошибки следует печатать как "--".|
-|[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DISPLAYED)|Указывает, что ошибки следует печатать как отображаемые.|
-|[**PRINT_ERRORS_NA**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_NA)|Указывает, что ошибки следует печатать как "#N/A".|
+|[**PRINT_ERRORS_BLANK**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-BLANK)|Задает не печатать ошибки.|
+|[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-DASH)|Задает печать ошибок как "--".|
+|[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-DISPLAYED)|Задает печать ошибок так, как они отображаются.|
+|[**PRINT_ERRORS_NA**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-NA)|Задает печать ошибок как "#N/A".|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-OtherPrintOptions-OtherPrintOptions.java" >}}
 
@@ -284,8 +285,8 @@ Aspose.Cells предоставляет перечисление [**PrintOrderTy
 
 |**Типы порядка печати**|**Описание**|
 | :- | :- |
-|[**DOWN_THEN_OVER**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN_THEN_OVER)|Печать сверху вниз, затем вправо.|
-|[**OVER_THEN_DOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER_THEN_DOWN)|Печать слева направо, затем вниз.|
+|[**DOWN_THEN_OVER**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN-THEN-OVER)|Печать вниз, затем по горизонтали.|
+|[**OVER_THEN_DOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER-THEN-DOWN)|Печать по горизонтали, затем вниз.|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPageOrder-SetPageOrder.java" >}}
 
@@ -301,3 +302,4 @@ Aspose.Cells предоставляет перечисление [**PrintOrderTy
 - [Настройка пользовательского размера бумаги для отображения на листе](/cells/ru/java/implement-custom-paper-size-of-worksheet-for-rendering/)
 - [Настройки страницы и опции печати](/cells/ru/java/page-setup-and-printing-options/)
 - [Удаление текущих настроек принтера на листах Excel](/cells/ru/java/remove-existing-printersettings-of-worksheets-in-excel-file/)
+{{< app/cells/assistant language="java" >}}

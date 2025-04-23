@@ -22,3 +22,4 @@ Lorsque vous travaillez avec la fonction de regroupement des données des marque
 Cet exemple utilise un [fichier de données](96927971.xlsx) et un [fichier modèle](96927972.xlsx) avec quelques marqueurs dans les cellules. Lors de l'exécution du code, Aspose.Cells ajoute quelques libellés personnalisés aux lignes de récapitulatif des données regroupées.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-AddCustomLabels-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

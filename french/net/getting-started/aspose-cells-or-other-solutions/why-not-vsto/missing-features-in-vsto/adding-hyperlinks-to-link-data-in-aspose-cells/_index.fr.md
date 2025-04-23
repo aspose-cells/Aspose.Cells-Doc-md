@@ -137,3 +137,4 @@ workbook.Save("C:\\book2.xls");
 ## **Télécharger le code source d'exemple**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
+{{< app/cells/assistant language="csharp" >}}

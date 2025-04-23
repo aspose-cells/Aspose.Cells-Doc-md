@@ -13,13 +13,13 @@ aliases:
 
 GridJs'yi mobil cihazda sorunsuz kullanabilirsiniz. 
 
-GridJs istemci js mobil ekranı uyumlu olabilir.
+GridJs istemci js mobil ekranı uyum sağlar.
 
-[GridJs demosunu çalıştır](https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs "GridJs demosu")
+GridJs [demo'sunu](https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs "demo of GridJs") çalıştırın
 
-Demo projesinin varsayılan bağlantı noktası 8080'dir. 
+Demo projesinin varsayılan portu 8080'dir. 
 
-Mobil cihazınızda tarayıcıyı açın ve http://yourip:8080/gridjsdemo/index adresini girin. 
+Mobil cihazınızdaki tarayıcıyı açın ve url’yi girin http://yourip:8080/gridjsdemo/index . 
 
 ![todo:mobile ekran gezintisi](gridjs_edit_on_mobile.png)
 

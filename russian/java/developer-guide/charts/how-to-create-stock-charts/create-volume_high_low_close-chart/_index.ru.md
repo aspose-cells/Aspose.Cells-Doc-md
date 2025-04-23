@@ -19,3 +19,4 @@ keywords: Добавить график цен акций по объему  в�
 Приведенный ниже образец кода загружает [образец файла Excel](Volume-High-Low-Close.xlsx) и генерирует [выходной файл Excel](out.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-create-volume-high-low-close-stock-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

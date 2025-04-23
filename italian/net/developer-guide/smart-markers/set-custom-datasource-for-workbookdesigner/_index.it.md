@@ -20,3 +20,4 @@ I file excel sorgente e di output sono allegati a scopo informativo.
 [File di origine](95584319.xlsx)
 
 [File di output](95584320.xlsx)
+{{< app/cells/assistant language="csharp" >}}

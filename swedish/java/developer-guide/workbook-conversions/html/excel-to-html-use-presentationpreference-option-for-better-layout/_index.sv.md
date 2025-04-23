@@ -20,3 +20,4 @@ Du kan hitta följande artiklar om konvertering från Excel till HTML användbar
 - [Inaktivera nivånedstiällda avslöjade kommentarer vid sparning till HTML](/cells/sv/java/disable-downlevel-revealed-comments-while-saving-to-html/)
 - [Exportera dokumentarbetsboks- och arbetsbladsegenskaper vid konvertering från Excel till HTML](/cells/sv/java/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/)
 - [Exportera utskriftsområde till HTML](/cells/sv/java/export-print-area-range-to-html/)
+{{< app/cells/assistant language="java" >}}

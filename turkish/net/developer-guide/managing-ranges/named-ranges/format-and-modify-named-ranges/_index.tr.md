@@ -60,3 +60,4 @@ Aspose.Cells, aralıktaki hücreleri birleştirmek için bir [**Range.Merge()**]
 Aspose.Cells, isimlendirdiğiniz aralığın adını silmeniz için [**NameCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/namecollection/methods/removeat) yöntemini sağlar. Aralığın içeriğini temizlemek için [**Cells.ClearRange()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/clearrange/index) yöntemini kullanın. Aşağıdaki örnek, bir adlandırılmış aralığı nasıl kaldıracağını gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-RemoveANamedRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

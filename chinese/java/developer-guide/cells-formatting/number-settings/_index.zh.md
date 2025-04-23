@@ -73,7 +73,7 @@ Aspose.Cells提供了一些内置的数字格式，用于配置数字和日期�
 
 {{% alert color="primary" %}}
 
-如果使用[**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom)设置数字格式，任何先前使用[**数字**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number）设置的格式都将被覆盖，反之亦然。
+如果你使用 [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) 设置数字格式，之前用 [**Number**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number) 设置的格式将被覆盖，反之亦然。
 
 {{% /alert %}}
 
@@ -81,3 +81,4 @@ Aspose.Cells提供了一些内置的数字格式，用于配置数字和日期�
 - [在设置Style.Custom属性时检查自定义数字格式](/cells/zh/java/check-custom-number-format-when-setting-style-custom-property/)
 - [为工作簿指定自定义数值小数和分组分隔符](/cells/zh/java/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [指定DBNum自定义模式格式化](/cells/zh/java/specifying-dbnum-custom-pattern-formatting/)
+{{< app/cells/assistant language="java" >}}

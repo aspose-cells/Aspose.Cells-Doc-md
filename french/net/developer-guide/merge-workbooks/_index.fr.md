@@ -56,3 +56,4 @@ Vous pouvez utiliser n'importe quel classeur source. Ces images sont uniquement 
 ## **Sujets avancés**
 - [Combiner plusieurs feuilles de calcul en une seule feuille](/cells/fr/net/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Fusionner des fichiers](/cells/fr/net/merge-files/)
+{{< app/cells/assistant language="csharp" >}}

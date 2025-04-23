@@ -103,3 +103,4 @@ Agradecemos sus consultas, comentarios y sugerencias en el [Foro de Aspose.Cells
 - [Actualizar y Calcular Tabla Dinámica con Elementos Calculados](/cells/es/java/refresh-and-calculate-pivot-table-having-calculated-items/)
 - [Deshabilitar las cintas de la tabla dinámica](/cells/es/java/disable-pivot-table-ribbons/)
 
+{{< app/cells/assistant language="java" >}}

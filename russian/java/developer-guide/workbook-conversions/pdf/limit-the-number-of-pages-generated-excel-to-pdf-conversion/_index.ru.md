@@ -22,3 +22,4 @@ url: /ru/java/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
 Если таблица содержит формулы, лучше всего вызвать [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) прямо перед отображением ее в формате PDF. Таким образом гарантируется пересчет значений, зависящих от формулы, и правильные значения будут отображены в выходном файле.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

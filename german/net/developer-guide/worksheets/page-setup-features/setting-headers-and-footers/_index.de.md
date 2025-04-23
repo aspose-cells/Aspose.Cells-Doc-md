@@ -32,6 +32,7 @@ Skriptbefehle sind besondere Befehle, die es ermöglichen, die Formatierung von 
 |&T|Aktuelle Uhrzeit|
 |&A|Name des Arbeitsblatts|
 |&F|Dateiname ohne Pfadangabe|
+|&&Text|Zeigt &Text. Zum Beispiel: &&WO wird als &WO angezeigt|
 |&"\<FontName>"|Stellt einen Schriftartnamen dar. Beispiel: &"Arial"|
 |&"\<FontName>, \<FontStyle>"|Stellt Schriftartnamen mit Stil dar. Beispiel: &"Arial,Fett"|
 |&\<FontSize>|Stellt die Schriftgröße dar. Zum Beispiel: “&14abc”. Wenn jedoch dieser Befehl von einer reinen Zahl gefolgt wird, die im Kopf gedruckt werden soll, sollte diese durch ein Leerzeichen von der Schriftgröße getrennt werden. Zum Beispiel: “&14 123”.|
@@ -58,3 +59,4 @@ Nach Ausführung des folgenden Codes und Öffnen der Datei überprüfen Sie den 
 1. Wählen Sie den Tab **Kopfzeile/Fußzeile** aus.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

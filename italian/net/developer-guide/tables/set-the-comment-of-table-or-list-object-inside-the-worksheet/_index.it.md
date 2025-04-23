@@ -16,3 +16,4 @@ url: /it/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/
 Il seguente codice di esempio carica il [file di origine excel](5115514.xlsx), imposta il commento della prima tabella o primo oggetto elenco all'interno del foglio di lavoro.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-SetCommentOfTableOrListObject-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

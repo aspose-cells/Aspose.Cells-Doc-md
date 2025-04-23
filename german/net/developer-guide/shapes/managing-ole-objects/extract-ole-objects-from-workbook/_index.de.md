@@ -45,3 +45,4 @@ Starten Sie **Visual Studio.Net** und erstellen Sie eine neue Konsolenanwendung.
 Der folgende Code führt die eigentliche Arbeit des Auffindens und Extrahierens von OLE-Objekten durch. Die OLE-Objekte (DOC-, XLS- und PDF-Dateien) werden auf der Festplatte gespeichert.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExtractOLEObjects-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

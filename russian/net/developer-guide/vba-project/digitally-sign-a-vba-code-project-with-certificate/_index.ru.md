@@ -25,3 +25,4 @@ url: /ru/net/digitally-sign-a-vba-code-project-with-certificate/
 - [Файл Excel вывода](5115029.xlsm), сгенерированный образцовым кодом.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-DigitallySignVbaProjectWithCertificate-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

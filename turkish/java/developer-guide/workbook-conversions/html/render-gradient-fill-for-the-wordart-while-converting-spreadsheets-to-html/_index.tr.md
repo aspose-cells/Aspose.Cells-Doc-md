@@ -13,3 +13,4 @@ Daha önce, Aspose.Cells API'ları, elektronik tablolar HTML formatına dönüş
 Aşağıdaki örnek kod, kaynak excel dosyasını çıktı HTML biçimine dönüştürmektedir. Kaynak excel dosyası yukarıdaki ekran görüntüsünde gösterildiği gibi gradyan doldurulu bir kelime sanatı nesne içermektedir.
 ## **Örnek Kod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RenderGradientFillHTML-RenderGradientFillHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

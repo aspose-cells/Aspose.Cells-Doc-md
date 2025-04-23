@@ -33,3 +33,4 @@ Koden nedan ställer in en bakgrundsbild med en bild från en ström.
 
 - [Arbeta med bakgrund i ODS-filer](/cells/sv/java/working-with-background-in-ods-files/)
 
+{{< app/cells/assistant language="java" >}}

@@ -117,3 +117,4 @@ workbook.save("output.xlsm");
 {{< /highlight >}}
 ### **OoxmlSaveOptions.UpdateZoom プロパティが追加されました**
 v8.6.0 でのリリースにより、Aspose.Cells for Java API は、OoxmlSaveOptions.UpdateZoom プロパティを公開し、Worksheet のスケーリングを制御するために PageSetup.FitToPagesWide および/または PageSetup.FitToPagesTall プロパティが使用された場合に、PageSetup.Zoom を更新するために使用できます。
+{{< app/cells/assistant language="java" >}}

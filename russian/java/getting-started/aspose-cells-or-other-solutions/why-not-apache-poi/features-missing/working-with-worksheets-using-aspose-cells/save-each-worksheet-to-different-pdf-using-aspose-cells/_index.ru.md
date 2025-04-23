@@ -68,3 +68,4 @@ for (int j = 0; j < workbook.getWorksheets().getCount(); j++)
 Для получения дополнительной информации посетите [Сохранение каждого листа в отдельный файл PDF](/cells/ru/java/save-each-worksheet-to-a-different-pdf-file).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

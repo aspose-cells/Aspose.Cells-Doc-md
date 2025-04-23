@@ -1,10 +1,10 @@
 ---
 title: استخدام ميزة ICustomFunction
 description: يصف هذا المقال كيفية إنشاء وظيفة مخصصة في Microsoft Excel باستخدام ميزة ICustomFunction في مكتبة Aspose.Cells. من خلال تحميل ملف Excel الحالي أو إنشاء ملف Excel جديد ، يمكننا استخدام الطرق المقدمة من Aspose.Cells لتعريف وتسجيل الوظائف المخصصة والحصول على النتائج. في النهاية ، نقوم بحفظ ملف Excel المعدل على القرص.
-keywords: Aspose.Cells، Excel، ميزات ICustomFunction، وظائف مخصصة
+keywords: ميزات Aspose.Cells، Excel، ICustomFunction، الدوال المخصصة، كيفية حساب الدوال المخصصة.
 type: docs
 weight: 30
-url: /ar/net/using-icustomfunction-feature/
+url: /ar/net/how-to-calculate-custom-fuctions/
 ---
 
 {{% alert color="primary" %}} 
@@ -90,3 +90,4 @@ url: /ar/net/using-icustomfunction-feature/
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

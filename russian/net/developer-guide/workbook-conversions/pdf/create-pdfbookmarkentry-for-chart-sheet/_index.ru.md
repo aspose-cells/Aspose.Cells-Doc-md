@@ -25,3 +25,4 @@ url: /ru/net/create-pdfbookmarkentry-for-chart-sheet/
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Rendering-CreatePdfBookmarkEntryForChartSheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

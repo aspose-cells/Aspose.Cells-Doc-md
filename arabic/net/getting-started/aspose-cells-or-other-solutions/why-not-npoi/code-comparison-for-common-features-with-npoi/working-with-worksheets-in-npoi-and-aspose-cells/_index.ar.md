@@ -18,3 +18,4 @@ url: /ar/net/working-with-worksheets-in-npoi-and-aspose-cells/
 - [تقسيم الخلايا في ورق العمل](/cells/ar/net/split-cells-in-worksheet/)
 - [العمل مع تجميد الألواح](/cells/ar/net/working-with-freeze-panes/)
 - [العمل مع الهيدر والفوتر](/cells/ar/net/working-with-headers-and-footers/)
+{{< app/cells/assistant language="csharp" >}}

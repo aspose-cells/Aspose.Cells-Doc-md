@@ -14,3 +14,4 @@ Las APIs de Aspose.Cells permiten añadir marcas de agua de WordArt en la hoja d
 Las APIs de Aspose.Cells permiten bloquear ciertos aspectos de la marca de agua para que la interacción del usuario pueda ser limitada o completamente bloqueada. El siguiente fragmento de código demuestra el uso de la API Aspose.Cells for .NET para bloquear la selección, el movimiento, la edición y el redimensionamiento de la marca de agua al crear una hoja de cálculo desde cero
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-LockingWordartWatermark-LockingWordartWatermark.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

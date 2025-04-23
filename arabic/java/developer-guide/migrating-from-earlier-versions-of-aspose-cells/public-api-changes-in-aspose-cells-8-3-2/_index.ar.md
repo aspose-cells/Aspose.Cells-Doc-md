@@ -258,3 +258,4 @@ opts.setFontSubstitutionCharGranularity(true);
 يُنصح باستخدام طريقة Workbook.createStyle لإنشاء وتلاعب بالنمط لمثيل Workbook بدلاً من إنشاء نمط باستخدام طريقة StyleCollection.add. علاوة على ذلك، يمكن استخدام طريقة Workbook.getNamedStyle(string) للحصول على النمط المسمى بدلاً من StyleCollection.get(string).
 ### **طريقة PivotItem.move(int count) المهجورة**
 مع إصدار Aspose.Cells 8.3.2، قدمت الواجهة البرمجة التطبيقات overload جديدة لطريقة PivotItem.move تقبل المعلمة الصحيحة للعدد والمعلمة البولية لنقل PivotItem داخل العقد الأصلي. 
+{{< app/cells/assistant language="java" >}}

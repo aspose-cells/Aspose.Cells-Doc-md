@@ -17,7 +17,7 @@ Aspose.Cells for Python via NET允许您更改HTML链接的目标类型。HTML�
 
 {{< /highlight >}}
 
-如您所见，上述HTML链接中的target属性是**_self**。您可以使用[**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/)属性来控制此target属性。此属性采用了[**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype)枚举，其具有以下值。
+如您所见，上述HTML链接中的target属性是**_self**。您可以使用[**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/)属性来控制此target属性。此属性采用了[**HtmlLinkTargetType**](https://reference.aspose.com/cells/python-net/aspose.cells/htmllinktargettype)枚举，其具有以下值。
 
 - HtmlLinkTargetType.BLANK
 - HtmlLinkTargetType.PARENT

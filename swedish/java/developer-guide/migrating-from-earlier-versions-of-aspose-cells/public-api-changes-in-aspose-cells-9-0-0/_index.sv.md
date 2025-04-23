@@ -248,3 +248,4 @@ Använd istället Shape.Line.EndArrowheadLength egenskapen.
 ## **Namnändrade API:er**
 ### **Bytt namn på Workbook.removeDigitallySign Metoden**
 Workbook.removeDigitallySign metoden har bytt namn till Workbook.removeDigitalSignature.
+{{< app/cells/assistant language="java" >}}

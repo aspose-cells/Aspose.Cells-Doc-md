@@ -24,3 +24,4 @@ url: /zh/net/specifying-the-absolute-position-of-the-pivot-item/
 请注意，在使用[**PivotItem.Position**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/position)、[**PivotItem.PositionInSameParentNode**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/positioninsameparentnode)属性和[**PivotItem.Move(int count, bool isSameParent)**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/methods/move)方法之前，必须先调用PivotTable.RefreshData和PivotTable.CalculateData方法。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

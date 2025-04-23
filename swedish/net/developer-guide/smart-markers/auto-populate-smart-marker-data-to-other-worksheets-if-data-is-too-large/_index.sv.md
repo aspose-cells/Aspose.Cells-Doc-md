@@ -11,3 +11,4 @@ Ibland vill du automatiskt fylla i smartmarker-data till andra kalkylblad om den
 Följande exempelkod har en datakälla som har 21 poster. Vi vill visa endast 15 poster i ett kalkylblad, då kommer resten av posterna automatiskt att flyttas till det andra kalkylbladet. Observera, det andra kalkylbladet ska också ha samma smartmärkestag och du måste ringa [WorkbookDesigner.Process(sheetIndex, isPreserved)](https://reference.aspose.com/cells/net/aspose.cells.workbookdesigner/process/methods/2) metoden för båda ark. Se den [utmatade Excelfilen](60489775.xlsx) som genererats av koden som referens.
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-AutoPopulateSmartMarkerDataToOtherWorksheets.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

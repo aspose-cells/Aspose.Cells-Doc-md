@@ -28,8 +28,15 @@ Wenn Sie gewünschte/benutzerdefinierte mehrere Blätter in PDF exportieren möc
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-MultiSheetsToPdf.java" >}}
 
+## **Arbeitsblätter nach PDF neu anordnen**
+
+Wenn Sie Blätter (z. B. in umgekehrter Reihenfolge) nach PDF umordnen möchten, ohne die Quelldatei zu ändern, können Sie dies erreichen, indem Sie die umgeordneten Blattindizes an die [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setSheetSet-com.aspose.cells.SheetSet-) Option übergeben.
+
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-ReorderSheetsToPdf.java" >}}
+
 {{% alert color="primary" %}} 
 
 Wenn Ihre Tabelle Formeln enthält, ist es am besten, [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook/#calculateFormula--) kurz vor dem Rendern der Tabelle im PDF-Format aufzurufen. Auf diese Weise wird sichergestellt, dass die von Formeln abhängigen Werte neu berechnet und die richtigen Werte im PDF gerendert werden.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

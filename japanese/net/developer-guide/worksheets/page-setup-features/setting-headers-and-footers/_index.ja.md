@@ -32,9 +32,10 @@ Aspose.Cells はランタイムでワークシートにヘッダーやフッタ�
 |&T|現在の時刻
 |&A|ワークシート名
 |&F|パスを除いたファイル名
+|&&Text|は &Text を表示します。例： &&WO は &WO と表示されます|
 |&"\<FontName>"|フォント名を表します。例: &"Arial"
 |&"\<FontName>, \<FontStyle>"|スタイル付きのフォント名を表します。例: &"Arial,Bold"
-|&\<FontSize>|はフォントサイズを表します。例:「&14abc」。ただし、このコマンドに続いてヘッダーに印刷するプレーンな数字がある場合は、フォントサイズとスペース文字で区切られている必要があります。例:「&14 123」。
+|&\<FontSize>|フォントサイズを表します。例：「&14abc」。ただし、このコマンドの後にヘッダーに印刷されるプレーンな数字が続く場合、その数字はフォントサイズとスペースで区切る必要があります。例：「&14 123」。|
 
 ### **ヘッダーやフッタの設定**
 
@@ -58,3 +59,4 @@ Aspose.Cells はランタイムでワークシートにヘッダーやフッタ�
 1. **ヘッダー/フッター** タブを選択します。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

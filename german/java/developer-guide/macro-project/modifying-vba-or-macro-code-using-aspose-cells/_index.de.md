@@ -56,3 +56,4 @@ Sie können die [Quell-Excel-Datei](5472596.xlsm) und die [Ausgabedatei](5472597
 
 
 
+{{< app/cells/assistant language="java" >}}

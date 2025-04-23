@@ -14,3 +14,4 @@ url: /ru/net/password-protect-the-vba-project-of-excel-workbook/
 В следующем образце кода загружается [образец файла Excel](43352067.xlsm), получается доступ к его проекту VBA и защищается паролем. Наконец, он сохраняется как [выходной файл Excel](43352068.xlsm).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProjectPassword-ProtecttheVBAProjectofExcelWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

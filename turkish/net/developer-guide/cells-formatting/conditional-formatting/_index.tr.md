@@ -80,3 +80,4 @@ Yalnızca ince çizgi stillerini dış sınır çizgisine kullanabilirsiniz. Ça
 - [Koşullu Biçimlendirme Veri Çubukları Görüntüleri Oluşturmak](/cells/tr/net/generate-conditional-formatting-databars-images/)
 - [Kullanılan Koşullu Biçimlendirme İkon Setleri, Veri Çubukları veya Renk Ölçekleri Nesnelerini Almak](/cells/tr/net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -3,8 +3,8 @@ title: Feststellen, ob das Papierformat des Arbeitsblatts automatisch ist
 type: docs
 weight: 90
 url: /de/python-net/determine-if-paper-size-of-worksheet-is-automatic/
-description: Dieser Artikel erläutert, wie Sie den Beispielscode Aspose.Cells für Python via .NET verwenden können, um programmgesteuert festzustellen, ob die Papiergröße des Arbeitsblatts automatisch ist.
-keywords: Python Excel Bibliothek, bestimmen Sie in Python, ob die Papiergröße des Arbeitsblatts automatisch ist.
+description: Dieses Artikel erklärt, wie man den Papierzium eines Arbeitsblattes programmatisch mithilfe der Aspose.Cells für Python via .NET APIs auf Automatic überprüft.
+keywords: Python Excel Bibliothek, Python automatisch das Papierformat des Arbeitsblatts bestimmen.
 ---
 
 ## **Mögliche Verwendungsszenarien**

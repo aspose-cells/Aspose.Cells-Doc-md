@@ -15,3 +15,4 @@ Le code d'exemple suivant charge le [fichier Excel d'exemple](61767755.xlsx) et 
 ![todo:image_alt_text](handle-automatic-units-of-chart-axis-like-microsoft-excel_1.png)
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Charts-HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

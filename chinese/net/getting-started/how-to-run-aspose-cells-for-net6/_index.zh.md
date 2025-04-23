@@ -14,8 +14,8 @@ url: /zh/net/how-to-run-aspose-cells-for-net6/
 对于Apose.Cells产品，我们已经进行了评估并已完成了图形库的迁移。在非Windows系统中，我们使用SkiaSharp代替System.Drawing.Common，这是在微软官方文档中建议的。请注意，这个重要的更改将在Aspose.Cells 22.10.1或更高版本的.Net6中生效。
 
 对于.netcore31或之前版本，为了兼容性和稳定性，我们目前仍然使用"System.Drawing.Common"图形库。.netcore31或之前版本的依赖项如下:
-- System.Drawing.Common, 4.7.0.
-- System.Security.Cryptography.Pkcs, 5.0.1.
+- System.Drawing.Common, 5.0.3.
+- System.Security.Cryptography.Pkcs, 6.0.5。
 - System.Text.Encoding.CodePages, 4.7.0.
 
 ## 在Windows上运行Aspose.Cells for .Net6
@@ -39,15 +39,15 @@ url: /zh/net/how-to-run-aspose-cells-for-net6/
 2. 打开安装目录或DLL目录，然后选择以下步骤3或4:
 
 3. 找到"net6.0-windows"子目录，在其中添加Aspose.Cells.dll到您的.net6应用程序。手动将以下NuGet包添加到您的.net6项目:
-- System.Drawing.Common, 4.7.0.
-- System.Security.Cryptography.Pkcs, 6.0.3.
+- System.Drawing.Common, 6.0.0.
+- System.Security.Cryptography.Pkcs, 6.0.5。
 - System.Text.Encoding.CodePages, 4.7.0.
 
 通过这种方式，在您的Windows系统上的.Net6项目中将使用"System.Drawing.Common"作为依赖项。在此配置中，绘图的结果更接近.netcore31或之前版本。
 
 4. 找到"net6.0"子目录，在其中添加Aspose.Cells.dll到您的.net6应用程序。手动将以下NuGet包添加到您的.net6项目:
-- SkiaSharp, 2.88.6.
-- System.Security.Cryptography.Pkcs, 6.0.3.
+- SkiaSharp, 3.116.1。
+- System.Security.Cryptography.Pkcs, 6.0.5。
 - System.Text.Encoding.CodePages, 4.7.0.
 
 通过这种方式，在您的Windows系统上的.Net6项目中将使用"SkiaSharp"作为依赖项。*请注意，使用"SkiaSharp"作为依赖项的版本不支持打印到打印机功能。*
@@ -66,13 +66,24 @@ apt-get update && apt-get install -y libfontconfig1
 apk update && apk add fontconfig 
 ```
 
-2. 将NuGet软件包"SkiaSharp.NativeAssets.Linux 2.88.6"添加到您的.net6项目中。
+2. 在你的 .net6 项目中添加 nuget 包 "SkiaSharp.NativeAssets.Linux 3.116.1"。
+3. 或者你可以选择添加 nuget 包 "SkiaSharp.NativeAssets.Linux.NoDependencies 3.116.1"，而非上述两个步骤。
 
-3. 或者您可以选择将NuGet软件包"SkiaSharp.NativeAssets.Linux.NoDependencies 2.88.6"添加到您的.net6项目中，而不是上面的两个步骤。
+*请注意，所添加包 "SkiaSharp.NativeAssets.Linux" 或 "SkiaSharp.NativeAssets.Linux.NoDependencies" 的版本应与 Aspose.Cells for .NET 引用的 "SkiaSharp" 版本相对应。Aspose.Cells for .NET 和相应引用的 "SkiaSharp" 版本的描述如下：*
+
+| Aspose.Cells for .NET |                SkiaSharp                |
+| :--------------------: | :-------------------------------------: |
+| >= 22.10.1 && <= 22.11 |                 2.88.0                  |
+|  >= 22.12 && <= 23.9   |                 2.88.3                  |
+|  >= 23.10 && <= 24.12  |                 2.88.6                  |
+|        = 25.1.1        |                 3.116.1                 |
+|        >=25.1.2        | 2.88.9（net6.0，net8.0），3.116.1（net9.0） |
+
+
 
 ### Ubuntu的Dockerfile示例
 
-1. 将NuGet软件包"SkiaSharp.NativeAssets.Linux 2.88.6"添加到您的.net6项目中。
+1. 在你的 .net6 项目中添加 nuget 包 "SkiaSharp.NativeAssets.Linux 3.116.1"。
 
 2. 使用以下Dockerfile:
 {{< highlight plain >}}
@@ -108,7 +119,7 @@ ENTRYPOINT ["dotnet", "Ubuntu_Docker.dll"]
 
 ### Alpine的Dockerfile示例
 
-1. 将NuGet软件包"SkiaSharp.NativeAssets.Linux 2.88.6"添加到您的.net6项目中。
+1. 在你的 .net6 项目中添加 nuget 包 "SkiaSharp.NativeAssets.Linux 3.116.1"。
 
 2. 使用以下Dockerfile:
 {{< highlight plain >}}
@@ -141,3 +152,4 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "Alpine_Docker.dll"]
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

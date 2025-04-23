@@ -23,9 +23,10 @@ url: /de/python-net/supported-file-formats/
 |[MHTML](https://docs.fileformat.com/web/mhtml/)|MHTML-Datei.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)|ODS (OpenDocument-Spreadsheet).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |SpreadsheetML|Excel 2003 XML-Datei.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Numbers](https://docs.fileformat.com/spreadsheet/numbers/)|Das Dokument wird von Apples "Numbers"-Anwendung erstellt, die Teil von Apples iWork-Büro-Suite ist, eine Reihe von Anwendungen, die auf den Betriebssystemen Mac OS X und iOS ausgeführt werden.|{{< emoticons/tick >}}||
+|[Numbers](https://docs.fileformat.com/spreadsheet/numbers/)|Das Dokument wurde mit Apples "Numbers"-Anwendung erstellt, die Teil der Apple's iWork-Office-Suite ist, einer Sammlung von Anwendungen, die auf macOS und iOS laufen.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[JSON](https://docs.fileformat.com/web/json/)|JavaScript-Objekt-Notation|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[DIF](https://docs.fileformat.com/spreadsheet/dif/)|Dateninterchange-Format.| |{{< emoticons/tick >}}|
+|[DIF](https://docs.fileformat.com/spreadsheet/dif/)|Datenaustauschformat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[DBF](https://docs.fileformat.com/database/dbf/)|Die Datei mit der Erweiterung .dbf ist eine Datenbankdatei, die von einem Datenbankverwaltungssystem namens dBASE verwendet wird.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[PDF](https://docs.fileformat.com/pdf/)|Adobe Portable-Dokumentformat.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XML-Papier-Spezifikationsformat.| |{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|Skalierbares Vektorgrafikformat.| |{{< emoticons/tick >}}|
@@ -45,4 +46,4 @@ url: /de/python-net/supported-file-formats/
 |[Epub](https://docs.fileformat.com/ebook/epub/)|Dateien mit der Erweiterung .epub sind ein E-Book-Dateiformat, das einen standardisierten digitalen Veröffentlichungsformat für Verlage und Verbraucher bietet.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Xml](https://docs.fileformat.com/web/xml/)|XML steht für Extensible Markup Language und ähnelt HTML, unterscheidet sich jedoch in der Verwendung von Tags zur Definition von Objekten.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Open Document Template Sheet (OTS)-Datei.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW ist ein digitales E-Book-Dateiformat, das von Amazon für seine Kindle-Geräte entwickelt wurde. AZW3, auch als Kindle Format 8 (KF8) bekannt.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW ist ein digitales E-Book-Format, das von Amazon für seine Kindle-Geräte entwickelt wurde. AZW3, auch bekannt als Kindle Format 8 (KF8).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

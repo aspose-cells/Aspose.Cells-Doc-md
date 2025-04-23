@@ -16,3 +16,4 @@ url: /ja/net/generate-conditional-formatting-databars-images/
 次のサンプルコードは、セルC1のDataBar画像を生成します。まず、セルの書式条件オブジェクトにアクセスし、そのオブジェクトから、[**DataBar**](https://reference.aspose.com/cells/net/aspose.cells/databar)オブジェクトにアクセスして、その[**ToImage()**](https://reference.aspose.com/cells/net/aspose.cells/databar/methods/toimage)メソッドを使用してセルの画像を生成します。最後に、画像をディスクに保存します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageConditionalFormatting-GenerateDatabarImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

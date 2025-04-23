@@ -14,3 +14,4 @@ url: /ar/net/verify-password-used-to-protect-the-worksheet/
 تُرجع الوسيلة [**Protection.VerifyPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/methods/verifypassword) **true** إذا تطابقت كلمة المرور المحددة مع كلمة المرور المستخدمة لحماية ورقة العمل المعطاة و**false** إذا لم تتطابق كلمة المرور المحددة. يستخدم شريحة الرمز التالية الوسيلة [**Protection.VerifyPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/methods/verifypassword) مع خاصية [**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword) لاكتشاف حماية كلمة المرور والتحقق منها.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-VerifyPasswordUsedToProtectWorksheets-VerifyPasswordUsedToProtectWorksheets.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -18,3 +18,4 @@ Lütfen aşağıdaki kodu görün. İçinde bir dilimleyici içeren [örnek Exce
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-FormattingSlicer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

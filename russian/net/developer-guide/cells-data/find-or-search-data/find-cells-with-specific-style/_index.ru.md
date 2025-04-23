@@ -16,3 +16,4 @@ keywords: Найти ячейки с примененным определенн
 Код в этом примере находит все ячейки, у которых такой же стиль, как у ячейки A1. После выполнения кода все ячейки, у которых такой же стиль, как у A1, содержат текст "Найдено".
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindCellsWithSpecificStyle-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

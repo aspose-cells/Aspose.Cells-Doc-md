@@ -11,7 +11,7 @@ url: /ru/python-java/your-first-aspose-cells-application-hello-world/
 
 {{% /alert %}}
 
-### **Создание приложения Hello World**
+## **Создание приложения Hello World**
 
 Для создания приложения Hello World с использованием Aspose.Cells API:
 
@@ -26,7 +26,7 @@ url: /ru/python-java/your-first-aspose-cells-application-hello-world/
 
 Приведенные ниже примеры демонстрируют вышеуказанные шаги.
 
-#### **Создание рабочей книги**
+### **Создание рабочей книги**
 
 В следующем примере создается новая рабочая книга с нуля, записываются слова "Hello World!" в ячейку A1 на первом листе и сохраняется файл.
 
@@ -36,7 +36,7 @@ url: /ru/python-java/your-first-aspose-cells-application-hello-world/
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "CreatingHelloWorldFile.py" >}}
 
-#### **Открытие существующего файла**
+### **Открытие существующего файла**
 
 В следующем примере открывается существующий файл шаблона Microsoft Excel с именем **book1.xls**, записываются слова "Hello World!" в ячейку A1 на первом листе и сохраняется рабочая книга как новый файл.
 

@@ -111,3 +111,4 @@ url: /ar/net/feature-overview/
 |تحديد الهوامش الخاصة بك وتوسيط الصفحة.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |إنشاء أو تحرير رأس و/أو تذييل الصفحة الخاصة بك.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |تحديد منطقة الطباعة، وعناوين الطباعة، أو تشغيل خطوط الشبكة، إلخ.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< app/cells/assistant language="csharp" >}}

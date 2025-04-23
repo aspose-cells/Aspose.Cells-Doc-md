@@ -12,3 +12,4 @@ url: /zh/java/working-with-worksheets-in-xlsx4j/
 - [在xlsx4j中显示或隐藏工作簿的选项卡](/cells/zh/java/display-and-hide-tabs-of-workbook-in-xlsx4j/)
 - [在xlsx4j中将每个工作表保存为不同的PDF](/cells/zh/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
 - [在xlsx4j中设置工作表选项卡颜色](/cells/zh/java/set-worksheet-tab-color-in-xlsx4j/)
+{{< app/cells/assistant language="java" >}}

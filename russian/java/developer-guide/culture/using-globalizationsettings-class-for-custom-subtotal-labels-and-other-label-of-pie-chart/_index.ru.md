@@ -10,11 +10,11 @@ API Aspose.Cells предоставляет класс [GlobalizationSettings](h
 ## **Введение в класс GlobalizationSettings**
 Класс [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) в настоящее время предлагает следующие 3 метода, которые могут быть переопределены в пользовательском классе для получения желаемых меток для подытогов или для визуализации пользовательского текста для метки **Другие** на круговой диаграмме.
 
-1. [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)): Получает общее имя функции.
-1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)): Получает общее имя функции общего итога.
-1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)): Получает имя меток "Другие" для круговых диаграмм.
+1. [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName-int-): Получает название общего итога функции.
+1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName-int-): Получает название общего итогового значения функции.
+1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--): Получает название ярлыка "Другие" для круговых диаграмм.
 ### **Пользовательские метки для итогов**
-Класс [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) используется для настройки меток итогов путем переопределения методов [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)) и [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)), как показано ниже.
+Класс [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) можно использовать для настройки меток подытогов, переопределяя методы [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName-int-) и [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName-int-), как показано ниже.
 
 
 
@@ -33,7 +33,7 @@ API Aspose.Cells предоставляет класс [GlobalizationSettings](h
 
 {{% /alert %}} 
 ### **Пользовательский текст для метки "Другие" круговой диаграммы**
-Класс [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) предлагает метод [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)), который полезен для задания пользовательского значения метки "Другие" круговых диаграмм. Приведенный ниже фрагмент определяет пользовательский класс и переопределяет метод [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)) для получения пользовательской метки на основе языка, установленного по умолчанию для JVM.
+Класс [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) предлагает метод [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--) , который полезен для назначения пользовательского значения для ярлыка "Другие" круговых диаграмм. Следующий код определяет пользовательский класс и переопределяет метод [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--) для получения пользовательской метки в зависимости от настроенного языка системы JVM.
 
 
 
@@ -50,3 +50,4 @@ API Aspose.Cells предоставляет класс [GlobalizationSettings](h
 Ниже приведено полученное изображение в случае, когда локализация компьютера установлена на Францию. Как видите, метка "Другие" была переведена как "Autre", как определено в классе *CustomSettings*.
 
 ![todo:image_alt_text](using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart_1.png)
+{{< app/cells/assistant language="java" >}}

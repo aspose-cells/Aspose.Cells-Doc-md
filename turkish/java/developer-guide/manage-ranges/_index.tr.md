@@ -79,3 +79,4 @@ Lütfen aşağıdaki test dosyasını indirin, excel'de açın, bir alanı seçm
 - [Adlandırılmış Aralıklar](/cells/tr/java/named-ranges/)
 - [Aralıktaki Veriyi Arama ve Değiştirme](/cells/tr/java/search-and-replace-data-in-a-range/)
 
+{{< app/cells/assistant language="java" >}}

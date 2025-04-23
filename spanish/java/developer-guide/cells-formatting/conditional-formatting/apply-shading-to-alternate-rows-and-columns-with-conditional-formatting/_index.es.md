@@ -31,3 +31,4 @@ Para aplicar el sombreado a las columnas alternas, todo lo que tiene que hacer e
 La hoja de cálculo resultante, en este caso, se verá como la siguiente imagen.
 
 ![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)
+{{< app/cells/assistant language="java" >}}

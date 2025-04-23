@@ -21,3 +21,4 @@ description: Aspose.Cellsでタイムラインを作成する方法について�
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Timelines-CreateTimelineToPivotTable.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

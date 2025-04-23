@@ -13,3 +13,4 @@ url: /zh/java/data-handling-features-in-xlsx4j/
 - [在 xlsx4j 中将数据导入工作表](/cells/zh/java/import-data-to-worksheets-in-xlsx4j/)
 - [在 xlsx4j 中排序数据](/cells/zh/java/sort-data-in-xlsx4j/)
 - [在 xlsx4j 中跟踪先例和从属](/cells/zh/java/tracing-precedents-and-dependents-in-xlsx4j/)
+{{< app/cells/assistant language="java" >}}

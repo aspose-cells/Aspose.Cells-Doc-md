@@ -18,3 +18,4 @@ A1, B1, A2, B2 şeklinde veri yerleştirmek, A1, A2, B1, B2 şeklinde yerleştir
 ## Java koduyla verileri önce satır, sonra sütun olarak doldurma
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PopulateDatabyRowthenColumn-PopulateDatabyRowthenColumn.java" >}}
+{{< app/cells/assistant language="java" >}}

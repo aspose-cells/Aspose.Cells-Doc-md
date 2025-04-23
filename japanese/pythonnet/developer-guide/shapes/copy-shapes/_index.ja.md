@@ -4,13 +4,13 @@ linktitle: シェイプをコピーする
 type: docs
 weight: 200
 url: /ja/python-net/copy-shapes-between-worksheets/
-description: この記事では、Aspose.Cells for Python via .NET APIを介してワークシート間で図形をコピーする方法を示しています。
-keywords: Python Excelライブラリ、Pythonワークシート間で図形をコピー、Pythonでワークシート間で画像をコピーする方法、Pythonでワークシート間でグラフをコピーする方法、Pythonでワークシート間でコントロールや他の描画オブジェクトをコピーする方法。
+description: この記事では、Aspose.Cells for Python via .NET APIを通じてワークシート間でShapeをコピーする方法を示します。
+keywords: Python Excelライブラリ、ワークシート間でShapeをコピーする方法、Pythonで画像を一つのワークシートからもう一つにコピーする方法、Pythonでチャートを一つのワークシートからもう一つにコピーする方法、Pythonでコントロールやその他の描画オブジェクトをコピーする方法。
 ---
 
 {{% alert color="primary" %}}
 
-時には、ワークシート間で要素（例：画像、グラフ、その他の描画オブジェクト）をコピーする必要があります。Aspose.Cells for Python via .NETはこの機能をサポートしています。チャート、画像、その他のオブジェクトは、最高の精度でコピーされます。
+時には、ワークシート間で画像やチャート、その他の描画オブジェクトをコピーする必要があります。Aspose.Cells for Python via .NETはこの機能をサポートしています。チャート、画像、およびその他のオブジェクトは高精度でコピー可能です。
 
 この記事では、ワークシート間でシェイプをコピーする方法について詳しく説明します。
 

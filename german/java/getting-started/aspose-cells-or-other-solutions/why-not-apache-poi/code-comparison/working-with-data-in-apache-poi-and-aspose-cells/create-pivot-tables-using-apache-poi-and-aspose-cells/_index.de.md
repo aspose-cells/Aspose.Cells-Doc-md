@@ -201,3 +201,4 @@ Quellcode für **Erstellen von Pivot-Tabellen mit Apache POI und Aspose.Cells** 
 Für weitere Details besuchen Sie [Erstellen von Pivot-Tabellen und Pivot-Diagrammen](/cells/de/java/Erstellen-von-Pivot-Tabellen-und-Pivot-Diagrammen/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

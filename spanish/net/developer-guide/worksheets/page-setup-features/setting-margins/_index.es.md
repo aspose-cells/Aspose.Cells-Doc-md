@@ -41,3 +41,4 @@ Es posible centrar algo en una página horizontal y verticalmente. Para ello, ha
 Establezca los márgenes de encabezado y pie de página con los miembros de la clase [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) como [**HeaderMargin**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/headermargin) y [**FooterMargin**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/footermargin).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetMargins-HeaderAndFooterMargins.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

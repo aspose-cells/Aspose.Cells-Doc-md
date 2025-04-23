@@ -35,3 +35,4 @@ Aşağıda gelen kod parçaları, Aspose.Cells for .NET ile çalışma sayfasın
 
 ## **Gelişmiş Konular**
 - [Aralık Uygulama ve Özet Satırların Yönünü Değiştirme ve Özetlerin Ayrıntıların Altında Oluşturulması](/cells/tr/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+{{< app/cells/assistant language="csharp" >}}

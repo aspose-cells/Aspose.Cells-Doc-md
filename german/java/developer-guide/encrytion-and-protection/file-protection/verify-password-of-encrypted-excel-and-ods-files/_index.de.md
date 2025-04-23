@@ -12,10 +12,11 @@ Wenn Excel (xlsx, xlsb, xls, xlsm) und OpenOffice (ODS)-Dateien mit einem Passwo
 
 ## **Das Passwort der verschlüsselten Datei verifizieren**
 
-Um das Passwort der verschlüsselten Datei zu überprüfen, bietet Aspose.Cells for Java die Methode [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) an. Die Methode akzeptiert zwei Parameter, den Dateistream und das zu überprüfende Passwort.
-Der folgende Code-Schnipsel zeigt die Verwendung der Methode [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) zur Überprüfung, ob das angegebene Passwort gültig ist oder nicht.
+Um das Passwort der verschlüsselten Datei zu überprüfen, bietet Aspose.Cells for Java die Methode [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword-java.io.InputStream-java.lang.String-) an. Die Methode akzeptiert zwei Parameter, den Dateistream und das zu überprüfende Passwort.
+Der folgende Code-Schnipsel zeigt die Verwendung der Methode [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword-java.io.InputStream-java.lang.String-) zur Überprüfung, ob das angegebene Passwort gültig ist oder nicht.
 
 ### **Beispielcode:**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-VerifyPassword-1.java" >}}
 
+{{< app/cells/assistant language="java" >}}

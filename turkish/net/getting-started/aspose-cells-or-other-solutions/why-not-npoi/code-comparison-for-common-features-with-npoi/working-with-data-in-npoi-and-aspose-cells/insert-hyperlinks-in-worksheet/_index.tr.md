@@ -203,3 +203,4 @@ Aşağıda belirtilen sosyal kodlama sitelerinden herhangi birinden **Çalışma
 Daha fazla ayrıntı için [Veri Bağlantılarını Linkleme](/cells/tr/net/adding-hyperlinks-to-link-data-in-aspose-cells/) adresini ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

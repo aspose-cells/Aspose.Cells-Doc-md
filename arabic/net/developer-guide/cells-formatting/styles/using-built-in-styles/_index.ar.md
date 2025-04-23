@@ -72,3 +72,4 @@ keywords: c# استخدام أنماط Excel المدمجة، c# تطبيق ال
 ## كود C# لاستخدام الأنماط المدمجة
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingBuiltinStyles-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

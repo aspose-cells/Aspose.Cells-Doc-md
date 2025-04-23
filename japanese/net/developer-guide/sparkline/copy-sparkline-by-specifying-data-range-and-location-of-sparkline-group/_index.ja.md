@@ -22,3 +22,4 @@ Microsoft Excelでスパークラインを他のセルにコピーするには:
 Aspose.Cellsは、SparklineCollection.Add(dataRange, row, column)メソッドを提供し、スパークライングループのデータ範囲と位置を指定します。以下のサンプルコードは、上記のスクリーンショットで示すようにソースのExcelファイルをロードし、最初のスパークライングループにアクセスしてデータ範囲と位置を追加します。最後に、出力のExcelファイルをディスクに書き込みます（これも上記のスクリーンショットで示されています）。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CopySparkline-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

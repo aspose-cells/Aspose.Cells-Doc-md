@@ -10,6 +10,7 @@ Microsoft Excel 2016 admite las funciones MINIFS y MAXIFS. Estas funciones no so
 
 ![todo:image_alt_text](calculation-of-excel-2016-minifs-and-maxifs-functions_1.png)
 ## **Cálculo de las funciones MINIFS y MAXIFS de Excel 2016**
-El siguiente código de muestra carga el [archivo de Excel de muestra](5472586.xlsx) y llama al método [Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) para realizar el cálculo de la fórmula a través de Aspose.Cells y luego guarda los resultados en el [PDF de salida](5472585.pdf).
+El siguiente ejemplo carga el [archivo Excel de ejemplo](5472586.xlsx) y llama al método [Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) para realizar el cálculo de fórmulas a través de Aspose.Cells y luego guarda los resultados en el [PDF de salida](5472585.pdf).
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculationofExcelMINIFSandMAXIFSfunctions-CalculationofExcelMINIFSandMAXIFSfunctions.java" >}}
+{{< app/cells/assistant language="java" >}}

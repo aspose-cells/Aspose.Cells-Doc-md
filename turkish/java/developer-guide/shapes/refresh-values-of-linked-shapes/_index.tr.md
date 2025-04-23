@@ -22,3 +22,4 @@ Verilen bağlantılardan [kaynak Excel dosyasını](5472956.xlsx) ve [çıktı
 ### Bağlantılı şekillerin değerlerini yenilemek için Java kodu
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RefreshValuesOfLinkedShapes-RefreshValuesOfLinkedShapes.java" >}}
+{{< app/cells/assistant language="java" >}}

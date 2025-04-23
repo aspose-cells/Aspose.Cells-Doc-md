@@ -17,3 +17,4 @@ keywords: 在没有Office 2013、Office 2016、Office 2019和Office 365的情况
 ## **示例代码**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Timelines-DrawTimelinetoPdf.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

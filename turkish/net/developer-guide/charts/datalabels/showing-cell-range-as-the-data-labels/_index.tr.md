@@ -24,3 +24,4 @@ Microsoft Excel'de hücre aralığını veri etiketleri olarak göstermek için:
 Aşağıdaki örnek kod, bir grafik serisi veri etiketlerine erişir ve **Hücrelerden Değer İçerir** seçeneğini seçmek için [**DataLabels.ShowCellRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/showcellrange) özelliğini **true** olarak ayarlar.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ShowCellRangeAsDataLabels-ShowCellRangeAsDataLabels.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

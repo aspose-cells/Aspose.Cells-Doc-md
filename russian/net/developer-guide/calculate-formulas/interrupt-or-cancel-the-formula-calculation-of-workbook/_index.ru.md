@@ -30,3 +30,4 @@ Aspose.Cells предоставляет механизм для прерыван
 0----7----1----B8
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

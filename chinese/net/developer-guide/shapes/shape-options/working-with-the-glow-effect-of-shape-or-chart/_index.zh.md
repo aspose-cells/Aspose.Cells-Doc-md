@@ -17,3 +17,4 @@ Aspose.Cells提供了[Shape.Glow](https://reference.aspose.com/cells/net/aspose.
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-GlowEffectOfShape-GlowEffectOfShape.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

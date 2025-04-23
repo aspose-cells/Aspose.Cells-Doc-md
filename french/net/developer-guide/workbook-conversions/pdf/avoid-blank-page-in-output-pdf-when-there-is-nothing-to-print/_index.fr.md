@@ -34,3 +34,4 @@ Le code d'exemple suivant crée un classeur vide, puis le sauve sous forme de PD
        at Aspose.Cells.Workbook.Save(String fileName, SaveOptions saveOptions)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

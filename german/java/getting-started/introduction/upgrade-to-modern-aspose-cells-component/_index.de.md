@@ -22,3 +22,4 @@ Einige APIs (Klassen, Strukturen, Aufzählungen usw.) werden basierend auf einig
 1. Die Klasse **ExcelHelper** wird durch die Klasse **CellsHelper** ersetzt. 
 
 For further reference, please check our featured demos: <https://github.com/aspose-cells/Aspose.Cells-for-Java>
+{{< app/cells/assistant language="java" >}}

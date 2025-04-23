@@ -28,3 +28,4 @@ url: /ru/java/export-databar-colorscale-and-iconset-conditional-formatting-while
 - [Преобразование файлов Excel в HTML](/cells/ru/java/converting-workbook-to-different-formats/#convertingworkbooktodifferentformats-convertingexcelfilestohtml)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

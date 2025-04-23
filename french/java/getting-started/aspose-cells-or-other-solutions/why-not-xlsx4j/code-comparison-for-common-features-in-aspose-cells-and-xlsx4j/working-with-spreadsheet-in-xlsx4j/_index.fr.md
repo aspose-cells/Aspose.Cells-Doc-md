@@ -13,3 +13,4 @@ url: /fr/java/working-with-spreadsheet-in-xlsx4j/
 - [Ajustement de la hauteur de ligne et de colonne dans xlsx4j](/cells/fr/java/row-column-height-adjustment-in-xlsx4j/)
 
 mithil rayate
+{{< app/cells/assistant language="java" >}}

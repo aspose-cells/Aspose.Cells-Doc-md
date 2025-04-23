@@ -20,3 +20,4 @@ Accedere ai dati della forma utilizzando la proprietà [**Shape.Paths**](https:/
 |![todo:image_alt_text](data-in-non-primitive-shape_1.jpg)|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-AccessNonPrimitiveShape-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

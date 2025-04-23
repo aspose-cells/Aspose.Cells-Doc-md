@@ -17,3 +17,4 @@ Aşağıdaki örnek kod, [kaynak excel dosyasını] (5115407.xlsx) yükler ve il
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-GlowEffectOfShape-GlowEffectOfShape.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

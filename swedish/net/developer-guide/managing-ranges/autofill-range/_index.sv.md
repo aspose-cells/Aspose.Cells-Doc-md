@@ -18,3 +18,4 @@ Följande exempel visar hur man utför en autofyllningsoperation till intervalle
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Range-AutoFill.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

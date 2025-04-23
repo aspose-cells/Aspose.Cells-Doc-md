@@ -52,3 +52,4 @@ fstream.close();
 Daha fazla bilgi için [Çalışma Sayfalarından Veri Aktarımı](/java/exporting-data-from-worksheets)'ı ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

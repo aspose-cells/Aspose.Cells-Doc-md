@@ -18,7 +18,7 @@ Aspose.Cells提供了一个类，[Workbook](https://reference.aspose.com/cells/j
 
 [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)集合提供了几种用于管理工作表中的行或列的方法，以下是其中的一些方法。
 ### **分组行和列**
-通过调用[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)集合的[groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows\(int,%20int,%20boolean\))和[groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns\(int,%20int,%20boolean\))方法，可以对行或列进行分组。两种方法接受以下参数：
+可以通过调用 [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) 集合的 [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows-int-int-boolean-) 和 [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns-int-int-boolean-) 方法对行或列进行分组。这两个方法都接受以下参数：
 
 - 第一个行/列索引，即组中的第一行或列。
 - 最后一个行/列索引，即组中的最后一行或列。
@@ -51,7 +51,7 @@ Microsoft Excel还允许配置用于显示的分组设置：
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowRight-1.java" >}}
 ### **取消行和列的分组**
-通过调用[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)集合的[UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows\(int,%20int\))和[UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns\(int,%20int\))方法，可以取消对分组行或列的分组。两种方法接受相同的参数：
+通过调用 [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) 集合的 [UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows-int-int-) 和 [UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns-int-int-) 方法取消分组。两者都接受相同的参数：
 
 - 第一个行或列索引，即要取消分组的第一行/列。
 - 最后一个行或列索引，即要取消分组的最后一行/列。
@@ -59,3 +59,4 @@ Microsoft Excel还允许配置用于显示的分组设置：
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-UngroupingRowsandColumns-UngroupingRowsandColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -56,3 +56,4 @@ workbook.save(dataDir + "AsposeChartWatermarked_Out.xls", SaveFormat.EXCEL_97_TO
 Для получения дополнительной информации посетите [Добавьте водяной знак WordArt на график](/cells/ru/java/add-wordart-watermark-to-chart).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -33,7 +33,7 @@ Aşağıdaki adımlar, Microsoft Excel kullanarak çalışma sayfasındaki hücr
 
 ### **Aspose.Cells Kullanımı**
 
-**[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)** sınıfı, görev için bazı yararlı yöntemlere sahiptir. Örneğin, **[**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int))** yöntemi, hücreleri belirtilen hücre aralığı içinde tek bir hücreye birleştirir.
+**[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)** sınıfı, görev için bazı yararlı yöntemlere sahiptir. Örneğin, **[**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge-int-int-int-int-)** yöntemi, hücreleri belirtilen hücre aralığı içinde tek bir hücreye birleştirir.
 
 Aşağıdaki çıktı, aşağıdaki kodun çalıştırılmasından sonra oluşturulur.
 
@@ -59,7 +59,7 @@ Aşağıdaki adımlar, Microsoft Excel kullanarak birleştirilmiş hücreleri na
 
 #### **Aspose.Cells Kullanımı**
 
-**[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)** sınıfı, **[**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge(int,%20int,%20int,%20int))** adlı bir yönteme sahiptir. Bu yöntem, hücreleri birleştirilmiş hücre aralığındaki hücre başvurusunu kullanarak ayrıştırır.
+**[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)** sınıfı, **[**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge-int-int-int-int-)** adlı bir yönteme sahiptir. Bu yöntem, hücreleri birleştirilmiş hücre aralığındaki hücre başvurusunu kullanarak ayrıştırır.
 
 #### **Kod Örneği**
 
@@ -72,3 +72,4 @@ Aşağıdaki örnek, birleştirilmiş hücreleri (C6) nasıl ayıracağınızı 
 - [Birleştirilmiş hücreleri bulma ve ayırma](/cells/tr/java/detect-merged-cells-in-a-worksheet/).
 - [Aralık.merge() ve Aralık.unMerge() yöntemlerini kullanarak bir hücre aralığını birleştirme ve ayırma](/cells/tr/java/merge-or-unmerge-range-of-cells/).
 
+{{< app/cells/assistant language="java" >}}

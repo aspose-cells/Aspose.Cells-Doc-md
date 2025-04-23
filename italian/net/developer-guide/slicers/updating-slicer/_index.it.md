@@ -20,3 +20,4 @@ Il seguente codice di esempio carica il [file Excel di esempio](67338475.xlsx) c
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-UpdatingSlicer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

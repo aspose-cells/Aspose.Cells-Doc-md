@@ -24,3 +24,4 @@ Eğer [**PdfSaveOptions.OnePagePerSheet**](https://reference.aspose.com/cells/ja
 Eğer elektronik tablonuz formülleri içeriyorsa, elektronik tabloyu PDF'ye dönüştürmeden hemen önce [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) metodunu çağırmak en iyisidir. Bu, formül bağımlı değerlerin yeniden hesaplanmasını sağlar ve doğru değerler PDF'de görüntülenir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -20,3 +20,4 @@ Aspose.Cells предоставляет полезное свойство, [**Ht
 - [Отключить отображение устаревших комментариев при сохранении в HTML](/cells/ru/java/disable-downlevel-revealed-comments-while-saving-to-html/)
 - [Экспортировать свойства рабочей книги и листа в формате HTML при конвертации Excel в HTML](/cells/ru/java/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/)
 - [Экспортировать диапазон области печати в HTML](/cells/ru/java/export-print-area-range-to-html/)
+{{< app/cells/assistant language="java" >}}

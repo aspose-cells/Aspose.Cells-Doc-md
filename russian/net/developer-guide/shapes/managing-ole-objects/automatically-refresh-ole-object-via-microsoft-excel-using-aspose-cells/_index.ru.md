@@ -14,3 +14,4 @@ Aspose.Cells предоставляет свойство [**OleObject.AutoLoad**
 Следующий образец кода загружает [образец файла Excel](5115231.xlsx), который содержит ненастоящее изображение OLE. Объект OLE на самом деле является документом Microsoft Word, но образец файла Excel показывает изображение животного вместо изображения Microsoft Word. Но если вы откроете [выходной файл Excel](5115225.xlsx), вы увидите, что Microsoft Excel отображает правильное изображение OLE.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-OLE-RefreshOLEObjects-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

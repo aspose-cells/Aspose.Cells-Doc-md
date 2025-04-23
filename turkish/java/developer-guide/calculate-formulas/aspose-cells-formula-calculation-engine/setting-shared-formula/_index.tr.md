@@ -23,7 +23,7 @@ Sütunun diğer hücrelerine formül eklemek için iki seçenek bulunmaktadır.
 
 İlk hücre için yaptığınız işlemi diğer hücreler için de yapabilir ve hücre referansını buna göre güncelleyebilirsiniz (`A3*0.09`, `A4*0.09`, `A5*0.09` ve benzeri). Bu, her satır için hücre referanslarının güncellenmesini gerektirir. Ayrıca Aspose.Cells'in her formülü ayrı ayrı analiz etmesini gerektirir ve büyük elektronik tablolar ve karmaşık formüller için zaman alıcı olabilir. Ayrıca, döngüler ek bir dizi kod ekler, her ne kadar döngüler bunu biraz azaltabilir.
 
-Başka bir yaklaşım, bir **paylaşılan formül** kullanmaktır. Paylaşılan bir formülle, formüller her satırdaki hücre referansları için otomatik olarak güncellenir, böylece vergi uygun şekilde hesaplanır. [Cell.setSharedFormula](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setSharedFormula\(java.lang.String,%20int,%20int\)) yöntemi, ilk yöntemden daha verimlidir.
+Başka bir yaklaşım ise **paylaşılan formül** kullanmaktır. Paylaşılan formüller ile, formüller her satırdaki hücre referansları için otomatik olarak güncellenir, böylece vergi doğru hesaplanır. [Cell.setSharedFormula](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setSharedFormula-java.lang.String-int-int-) yöntemi ilk yöntemden daha verimlidir.
 
 Aşağıdaki örnek bunu nasıl kullanacağınızı gösterir. Aşağıdaki ekran görüntüsü çıkış dosyasını gösterir.
 
@@ -32,3 +32,4 @@ Aşağıdaki örnek bunu nasıl kullanacağınızı gösterir. Aşağıdaki ekra
 ![todo:image_alt_text](setting-shared-formula_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingSharedFormula-SettingSharedFormula.java" >}}
+{{< app/cells/assistant language="java" >}}

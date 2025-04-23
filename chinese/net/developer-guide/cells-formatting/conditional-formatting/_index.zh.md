@@ -80,3 +80,4 @@ Microsoft Excel 2007添加了更高级的条件格式设置，Aspose.Cells也支
 - [生成条件格式设置数据条图像](/cells/zh/net/generate-conditional-formatting-databars-images/)
 - [获取在条件格式设置中使用的图标集、数据条或颜色刻度对象](/cells/zh/net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
 
+{{< app/cells/assistant language="csharp" >}}

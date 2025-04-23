@@ -28,3 +28,4 @@ Length of cell B5 after setting IsExcel2003Compatible property to True: 255
 Length of cell B5 after setting IsExcel2003Compatible property to False: 383
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

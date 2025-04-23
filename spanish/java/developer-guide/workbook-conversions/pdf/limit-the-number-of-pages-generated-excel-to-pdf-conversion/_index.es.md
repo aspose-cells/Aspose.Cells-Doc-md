@@ -22,3 +22,4 @@ El siguiente ejemplo muestra cómo renderizar un rango de páginas (3 y 4) en un
 Si la hoja de cálculo contiene fórmulas, es mejor llamar a [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) justo antes de renderizarla en formato PDF. Al hacerlo, se asegura de que los valores dependientes de la fórmula se recalculen y se representen los valores correctos en el archivo de salida.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -8,7 +8,7 @@ url: /zh/java/decrease-the-calculation-time-of-cell-calculate-method/
 
 可能的使用场景
 
-通常，我们建议用户调用[Workbook.CalculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\))方法一次，然后获取单个单元格的计算值。但有时，用户不想计算整个工作簿，他们只想计算单个单元格。Aspose.Cells提供了[CalculationOptions.Recursive](https://reference.aspose.com/cells/java/com.aspose.cells/calculationoptions#Recursive)属性，您可以将其设置为**false**，这将显著减少单个单元格的计算时间。因为当递归属性设置为**true**时，每次调用都会重新计算所有单元格的依赖。但当递归属性设置为**false**时，依赖单元格仅计算一次，并且在后续调用中不会再次计算。
+通常，我们建议用户调用 [Workbook.CalculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) 方法一次，然后获取各个单元格的计算值。但有时，用户不想计算整个工作簿，只想计算单个单元格。Aspose.Cells 提供了 [CalculationOptions.Recursive](https://reference.aspose.com/cells/java/com.aspose.cells/calculationoptions#Recursive) 属性，您可以将其设置为 **false**，这将显著减少单个单元格的计算时间。当递归属性设置为 **true** 时，所有单元格的依赖项在每次调用时都将重新计算。当设置为 **false** 时，依赖单元格只会计算一次，后续调用不会再次计算。
 ## **减少Cell.Calculate()方法的计算时间**
 以下示例代码演示了[CalculationOptions.Recursive](https://reference.aspose.com/cells/java/com.aspose.cells/calculationoptions#Recursive)属性的使用。请使用提供的[sample excel file](5472288.xlsx)执行此代码，并检查其控制台输出。您会发现，将递归属性设置为**false**后，计算时间显著减少。还请阅读注释以更好地理解此属性。
 
@@ -27,3 +27,4 @@ url: /zh/java/decrease-the-calculation-time-of-cell-calculate-method/
 Recursive false: 16 seconds
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

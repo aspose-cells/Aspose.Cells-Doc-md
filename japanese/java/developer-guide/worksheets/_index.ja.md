@@ -26,7 +26,7 @@ Aspose.CellsはExcelファイルを表す[**Workbook**](https://reference.aspose
 
 ## **新しいExcelファイルにワークシートを追加する**
 
-プログラムで新しいExcelファイルを作成するには、Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスのオブジェクトを作成する必要があります。その後、開発者は[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)の[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--)メソッドを呼び出すことができます。[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--)メソッドを呼び出すと、空のワークシートがExcelファイルに自動的に追加されます。その後、[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)に新しく追加されたワークシートのシートインデックスを渡すことで、ワークシートに参照できます。ワークシートの参照を取得した後、開発者は要件に応じてワークシート上で作業することができます。ワークシートで作業が完了した後、開発者は[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスの[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))メソッドを呼び出すことで、新しく作成されたExcelファイルに新しいワークシートを保存することができます。
+プログラムで新しいExcelファイルを作成するには、Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスのオブジェクトを作成する必要があります。その後、開発者は[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)の[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--)メソッドを呼び出すことができます。[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--)メソッドを呼び出すと、空のワークシートがExcelファイルに自動的に追加されます。その後、[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)に新しく追加されたワークシートのシートインデックスを渡すことで、ワークシートに参照できます。ワークシートの参照を取得した後、開発者は要件に応じてワークシート上で作業することができます。ワークシートで作業が完了した後、開発者は[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスの[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-)メソッドを呼び出すことで、新しく作成されたExcelファイルに新しいワークシートを保存することができます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AddingWorksheetstoNewExcelFile-AddingWorksheetstoNewExcelFile.java" >}}
 
@@ -44,7 +44,7 @@ Aspose.CellsはExcelファイルを表す[**Workbook**](https://reference.aspose
 
 ## **シート名を使用してワークシートを削除する**
 
-時々、開発者は既存のExcelファイルからワークシートを削除する必要があり、そのタスクは[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)コレクションの[**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String))メソッドを呼び出すことで実行できます。[**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String))メソッドにシート名を渡すことで特定のワークシートを削除できます。
+時々、開発者は既存のExcelファイルからワークシートを削除する必要があり、そのタスクは[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)コレクションの[**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-java.lang.String-)メソッドを呼び出すことで実行できます。[**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-java.lang.String-)メソッドにシート名を渡すことで特定のワークシートを削除できます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetName-RemovingWorksheetsusingSheetName.java" >}}
 
@@ -52,7 +52,7 @@ Aspose.CellsはExcelファイルを表す[**Workbook**](https://reference.aspose
 
 上記のワークシートを削除する方法は、削除するワークシートのシート名が既にわかっている場合にうまく機能します。しかし、Excelファイルから削除したいワークシートのシート名がわからない場合はどうすればよいでしょうか？
 
-そのような状況で、開発者は[**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(int))メソッドのオーバーロードバージョンを使用できます。このバージョンでは、ワークシートのシートインデックスを使用してワークシートを削除します。
+そのような状況で、開発者は[**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-int-)メソッドのオーバーロードバージョンを使用できます。このバージョンでは、ワークシートのシートインデックスを使用してワークシートを削除します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetIndex-RemovingWorksheetsusingSheetIndex.java" >}}
 
@@ -72,3 +72,4 @@ Aspose.CellsはExcelファイルを表す[**Workbook**](https://reference.aspose
 - [Aspose.Cellsを使用したOpenXmlのSheet.SheetIdプロパティを利用する](/cells/ja/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [ODSファイルで背景を操作する](/cells/ja/java/working-with-background-in-ods-files/)
 - [ワークシートビュー](/cells/ja/java/worksheet-views/)
+{{< app/cells/assistant language="java" >}}

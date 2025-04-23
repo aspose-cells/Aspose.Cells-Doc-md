@@ -42,3 +42,4 @@ url: /ar/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-ot
 المقتطف التالي يحمل جدول بيانات موجود يحتوي على مخطط بيت ويعرض المخطط إلى صورة مستخدمًا فئة **CustomSettings** التي تم إنشاؤها أعلاه.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomTextForLabels-UsingGlobalizationSettings.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

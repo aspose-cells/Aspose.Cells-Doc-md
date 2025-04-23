@@ -11,3 +11,4 @@ url: /zh/net/managing-charts-and-shapes-in-aspose-cells/
 - [在Aspose.Cells中添加艺术字水印到工作表](/cells/zh/net/add-wordart-watermark-to-worksheet-in-aspose-cells/)
 - [在Aspose.Cells中在工作表之间复制形状](/cells/zh/net/copy-shapes-between-worksheets-in-aspose-cells/)
 - [在Aspose.Cells中锁定WordArt水印](/cells/zh/net/locking-wordart-watermark-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

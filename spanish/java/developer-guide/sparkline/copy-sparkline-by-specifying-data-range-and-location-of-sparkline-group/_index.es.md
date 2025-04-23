@@ -33,3 +33,4 @@ La siguiente captura de pantalla muestra el archivo de Excel de salida generado 
 El siguiente código de ejemplo carga el archivo de Excel fuente como se muestra en la captura de pantalla de arriba, luego accede al primer grupo de mini gráficos y agrega rangos de datos y ubicaciones dentro del grupo de mini gráficos. Finalmente, escribe el archivo de Excel de salida en disco que también se muestra en la captura de pantalla de arriba.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopySparkline-CopySparkline.java" >}}
+{{< app/cells/assistant language="java" >}}

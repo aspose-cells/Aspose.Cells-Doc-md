@@ -28,8 +28,15 @@ Om du vill exportera önskade/anpassade flera ark till pdf, kan du uppnå detta 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-MultiSheetsToPdf.cs" >}}
 
+## **Omordna arbetsblad till PDF**
+
+Om du vill omordna blad (t.ex. i omvänd ordning) till PDF utan att modifiera källdokumentet kan du göra detta genom att skicka omordnade bladindex till [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/) alternativet.
+
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-ReorderSheetsToPdf.cs" >}}
+
 {{% alert color="primary" %}} 
 
 Om ditt kalkylblad innehåller formler, är det bäst att anropa [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) strax innan du renderar kalkylbladet till PDF-format. Genom att göra det säkerställs att formelberoende värden beräknas om och de korrekta värdena renderas i PDF-filen.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

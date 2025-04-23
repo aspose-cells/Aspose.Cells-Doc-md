@@ -22,3 +22,4 @@ Microsoft Excel'de sparkline kopyalamak için:
 Aspose.Cells, SparklineCollection.Add(dataRange, row, column) yöntemini kullanarak bir sparkline grubunun veri aralığını ve konumunu belirtir. Aşağıdaki örnek kod, yukarıdaki ekran görüntüsünde gösterildiği gibi kaynak Excel dosyasını yükler, ardından ilk sparkline grubuna erişir ve sparkline grubunda veri aralıklarını ve konumları ekler. Son olarak, çıktı Excel dosyasını diskte yazarak ekran görüntüsünde de gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CopySparkline-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -53,3 +53,4 @@ url: /ar/net/managing-pictures/
 - [إدراج صورة بناءً على مرجع الخلية](/cells/ar/net/insert-a-picture-based-on-cell-reference/)
 - [تحميل صورة ويب من عنوان URL إلى ورقة عمل Excel](/cells/ar/net/load-a-web-image-from-a-url-into-an-excel-worksheet/)
 
+{{< app/cells/assistant language="csharp" >}}

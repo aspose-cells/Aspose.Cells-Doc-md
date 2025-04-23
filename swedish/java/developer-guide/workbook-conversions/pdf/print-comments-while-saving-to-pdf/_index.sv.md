@@ -19,9 +19,9 @@ Microsoft Excel låter dig skriva ut kommentarer när du skriver ut eller sparar
 
 Aspose.Cells tillhandahåller följande uppräkningar för att stödja utskrift av kommentarer vid sparande till PDF
 
-- [**PrintCommentsType.PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS)
-- [**PrintCommentsType.PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)
-- [**PrintCommentsType.PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_SHEET_END)
+- [**PrintCommentsType.PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-NO-COMMENTS)
+- [**PrintCommentsType.PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-IN-PLACE)
+- [**PrintCommentsType.PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-SHEET-END)
 
 ## Kodsparandel
 
@@ -32,3 +32,4 @@ Följande provkod illustrerar hur man använder [**PrintCommentsType**](https://
 ## Relaterade artiklar
 
 - [Konvertera Excel-fil till PDF-format kompatibelt med PDFA-1a](/cells/sv/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+{{< app/cells/assistant language="java" >}}

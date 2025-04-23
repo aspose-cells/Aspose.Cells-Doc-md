@@ -16,3 +16,4 @@ Le code d'exemple suivant ajoute une carte XML à l'intérieur du classeur à l'
 ![add-xml-map](add-xml-map.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddXmlMapInsideWorkbook-AddXmlMapInsideWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

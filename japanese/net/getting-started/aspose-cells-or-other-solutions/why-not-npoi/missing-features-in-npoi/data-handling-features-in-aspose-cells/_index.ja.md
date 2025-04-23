@@ -9,3 +9,4 @@ url: /ja/net/data-handling-features-in-aspose-cells/
 - [小計の計算](/cells/ja/net/calculate-sub-totals/)
 - [セル内の値を検索](/cells/ja/net/find-value-in-cells/)
 - [Aspose.Cellsでの式計算エンジン](/cells/ja/net/formula-calculation-engine-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

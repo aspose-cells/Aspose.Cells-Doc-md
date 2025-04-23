@@ -66,3 +66,4 @@ Cell Formula: =Sheet1!C1
 Cell Value: 0
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

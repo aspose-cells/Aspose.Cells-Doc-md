@@ -21,3 +21,4 @@ Aspose.Cells还允许在运行时管理图表的图例，使用[Legend](https://
 
 ## **高级主题**
 - [使用Aspose.Cells将图例条目填充的文本设置为无](/cells/zh/java/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

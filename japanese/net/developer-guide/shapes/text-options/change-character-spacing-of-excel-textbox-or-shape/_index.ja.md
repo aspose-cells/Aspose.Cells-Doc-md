@@ -14,3 +14,4 @@ Excelのテキストボックスまたは図形の文字間隔を変更するこ
 次のサンプルコードは、Excelファイル内のテキストボックスの文字間隔を4ポイントに変更し、その後ディスクに保存します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeTextBoxOrShapeCharacterSpacing-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

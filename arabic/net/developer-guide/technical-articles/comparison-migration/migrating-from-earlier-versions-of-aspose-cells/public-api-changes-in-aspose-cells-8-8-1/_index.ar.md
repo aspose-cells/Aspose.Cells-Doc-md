@@ -213,3 +213,4 @@ val.ShowInput = true;
 ## **واجهات برمجة التطبيق القديمة**
 ### **تمت إهمال خاصية Shape.TextFrame**
 يُنصح باستخدام خاصية Shape.TextBody.TextAlignment بدلاً منها.
+{{< app/cells/assistant language="csharp" >}}

@@ -19,3 +19,4 @@ Este gráfico incluye una columna para el volumen inmediatamente después de la 
 El siguiente código de muestra carga el [archivo de Excel de muestra](Volume-Open-High-Low-Close.xlsx) y genera el [archivo de Excel de salida](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-volume-open-high-low-close-stock-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

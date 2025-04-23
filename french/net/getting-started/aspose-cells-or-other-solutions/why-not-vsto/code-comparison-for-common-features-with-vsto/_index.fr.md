@@ -32,3 +32,4 @@ Cette section comporte les sujets suivants:
 - [Trier les données dans les feuilles de calcul](/cells/fr/net/sort-data-in-worksheets/)
 - [Utiliser des fonctions de formules pour traiter les données en VSTO et Aspose.Cells](/cells/fr/net/use-formulas-functions-to-process-data-in-vsto-and-aspose-cells/)
 - [Envelopper le texte de la cellule en VSTO et Aspose.Cells](/cells/fr/net/wrapping-cell-text-in-vsto-and-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

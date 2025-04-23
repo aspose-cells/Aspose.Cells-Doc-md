@@ -43,3 +43,4 @@ Wenn der Code ausgeführt wird, wird eine Arbeitsmappe mit Zwischensummen erstel
 ![todo:image_alt_text](creating-subtotals_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-CreatingSubtotals-CreatingSubtotals.java" >}}
+{{< app/cells/assistant language="java" >}}

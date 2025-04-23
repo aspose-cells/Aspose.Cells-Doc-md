@@ -33,3 +33,4 @@ description: "Как вставить фоновое изображение в E
 
 - [Работа с фоном в файлах ODS](/cells/ru/net/working-with-background-in-ods-files/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -26,3 +26,4 @@ Voici la sortie de la console du code ci-dessus avec ce [fichier Excel d'exemple
 Web Query URL: https://docs.aspose.com/cells/net/
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

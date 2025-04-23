@@ -10,3 +10,4 @@ Cette section comprend les sujets suivants:
 - [Ajouter des données dans les cellules](/cells/fr/net/add-data-in-cells/)
 - [Créer un nouveau classeur](/cells/fr/net/create-new-workbook/)
 - [Définir la zone d'impression](/cells/fr/net/set-print-area/)
+{{< app/cells/assistant language="csharp" >}}

@@ -22,3 +22,4 @@ Per copiare una linea di tendenza in altre celle in Microsoft Excel
 Aspose.Cells fornisce il metodo SparklineCollection.Add(dataRange, riga, colonna) per specificare l'intervallo di dati e la posizione di un gruppo di linee di tendenza. Il codice di esempio seguente carica il file Excel di origine come mostrato nella schermata sopra, quindi accede al primo gruppo di linee di tendenza e aggiunge intervalli di dati e posizioni nel gruppo di linee di tendenza. Infine, scrive il file Excel di output su disco che è anche mostrato nella schermata sopra
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CopySparkline-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

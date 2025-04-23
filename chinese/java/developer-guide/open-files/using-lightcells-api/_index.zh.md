@@ -56,3 +56,4 @@ Aspose.Cells提供了一个接口LightCellsDataHandler，需要在你的程序�
 实现LightCellsDataHandler接口的类
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LightCellsDataHandlerVisitCells-LightCellsDataHandlerVisitCells.java" >}}
+{{< app/cells/assistant language="java" >}}

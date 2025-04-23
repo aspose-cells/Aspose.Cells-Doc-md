@@ -15,3 +15,4 @@ Microsoft Excel, **Formüller** sekmesinden **Formülleri Göster** seçeneğini
 Aspose.Cells, bir özelliği sağlar. Bu, Microsoft Excel'in formülleri göstermesini **true** olarak ayarlamak için kullanılır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ShowFormulasInsteadOfValues-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

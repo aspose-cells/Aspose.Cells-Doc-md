@@ -16,3 +16,4 @@ Le code d'exemple suivant ajoute une série dans le graphique vide qui n'a pas d
 ![todo:image_alt_text](set-the-values-format-code-of-chart-series_1.png)
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "SetValuesFormatCodeOfChartSeries.java" >}}
+{{< app/cells/assistant language="java" >}}

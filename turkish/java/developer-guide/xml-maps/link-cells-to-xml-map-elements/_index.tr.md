@@ -7,7 +7,7 @@ url: /tr/java/link-cells-to-xml-map-elements/
 
 ## **Olası Kullanım Senaryoları**
 
-Aspose.Cells ile hücrelerinizi XML Haritası öğelerine bağlayabilirsiniz. Lütfen bu amaçla [**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap(java.lang.String,%20int,%20int,%20java.lang.String)) yöntemini kullanın.
+Aspose.Cells ile hücrelerinizi XML Haritası öğelerine bağlayabilirsiniz. Lütfen bu amaçla [**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap-java.lang.String-int-int-java.lang.String-) yöntemini kullanın.
 
 ## **Hücreleri XML Haritası Elemanlarına Bağla**
 
@@ -20,3 +20,4 @@ Aşağıdaki örnek kod, XML Haritası içeren [kaynak excel dosyasını](547251
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LinkCellstoXmlMapElements-LinkCellstoXmlMapElements.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -56,3 +56,4 @@ Puede utilizar cualquier libro de trabajo de origen. Estas imágenes son solo co
 ## **Temas avanzados**
 - [Combinar múltiples hojas de cálculo en una sola hoja de cálculo](/cells/es/net/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Fusionar archivos](/cells/es/net/merge-files/)
+{{< app/cells/assistant language="csharp" >}}

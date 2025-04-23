@@ -43,3 +43,4 @@ Infine, il seguente codice salva il grafico in formato immagine e il workbook in
 - [Formattazione dei dati nei grafici](/cells/it/net/data-formatting-in-charts/)
 - [Impostazione dell'aspetto del grafico](/cells/it/net/setting-chart-appearance/)
 
+{{< app/cells/assistant language="csharp" >}}

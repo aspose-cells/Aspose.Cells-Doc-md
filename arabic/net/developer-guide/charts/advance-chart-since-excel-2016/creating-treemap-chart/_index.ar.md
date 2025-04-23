@@ -19,3 +19,4 @@ url: /ar/net/creating-treemap-chart/
 الكود العيني التالي يقوم بتحميل [ملف Excel العيني](treemap.xlsx) ويولد [ملف Excel الناتج](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-treemap-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

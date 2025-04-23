@@ -173,3 +173,4 @@ Lorsque la valeur du sélecteur déroulant est modifiée, l'événement est gér
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

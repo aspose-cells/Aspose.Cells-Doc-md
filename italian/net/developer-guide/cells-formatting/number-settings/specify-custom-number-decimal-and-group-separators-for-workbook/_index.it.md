@@ -28,3 +28,4 @@ Il seguente codice di esempio illustra come specificare i separatori personalizz
 ### Codice C# per specificare il numero decimale personalizzato e i separatori del raggruppamento
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-CustomDecimalAndGroupSeparator-CustomDecimalAndGroupSeparator.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

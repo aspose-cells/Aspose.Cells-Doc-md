@@ -34,3 +34,4 @@ Il codice di esempio qui sotto crea un file XLSX da zero utilizzando l'API [**As
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HowToInsertPictureOrImageInComment.java" >}}
 
+{{< app/cells/assistant language="java" >}}

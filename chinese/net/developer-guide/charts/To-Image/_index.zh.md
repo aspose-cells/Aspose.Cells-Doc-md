@@ -118,3 +118,4 @@ Aspose.Cells APIs支持将Excel图表转换为图像格式，无需额外的工�
 
 ## **高级主题**
 - [将图表转换为PDF](/cells/zh/net/chart-to-pdf/)
+{{< app/cells/assistant language="csharp" >}}

@@ -372,3 +372,4 @@ Förskjutning av celler höger och Förskjutning av celler ned hanteras av JSF b
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

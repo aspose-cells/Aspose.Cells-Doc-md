@@ -21,3 +21,4 @@ Si prega di utilizzare il link per il download che corrisponde alla tua versione
 - [Estensione di crittografia Java (JCE) File di politica di giurisdizione di forza illimitata 6](https://www.oracle.com/java/technologies/jce-6-download.html)
 - [Estensione di crittografia Java (JCE) File di politica di giurisdizione di forza illimitata 7](https://www.oracle.com/java/technologies/jce-7-download.html)
 - [Estensione di crittografia Java (JCE) File di politica di giurisdizione di forza illimitata 8](https://www.oracle.com/java/technologies/javase-jce8-downloads.html)
+{{< app/cells/assistant language="java" >}}

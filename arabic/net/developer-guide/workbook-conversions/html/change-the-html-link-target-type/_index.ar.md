@@ -27,3 +27,4 @@ url: /ar/net/change-the-html-link-target-type/
 الشفرة العينية التالية توضح استخدام ال [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype). يغيّر نوع الوجهة للرابط إلى **blank**. بشكل افتراضي، يكون هو الـ **الرئيسي**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeHtmlLinkTarget-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

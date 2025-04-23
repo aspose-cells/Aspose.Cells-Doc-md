@@ -34,3 +34,4 @@ Protéger l'authenticité du contenu d'un document, vous pouvez ajouter une sign
 - [Détecter le format de fichier des fichiers Office Open XML cryptés - OOXML](/cells/fr/net/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Chiffrer des fichiers Excel](/cells/fr/net/encrypting-excel-files/)
 - [Comment détecter un format de fichier et vérifier si le fichier est chiffré](/cells/fr/net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="csharp" >}}

@@ -35,3 +35,4 @@ Les extraits de code ci-dessous montrent comment ajouter des sous-totaux à une 
 
 ## **Sujets avancés**
 - [Application de sous-total et changement de direction des lignes de résumé en dessous des détails](/cells/fr/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+{{< app/cells/assistant language="csharp" >}}

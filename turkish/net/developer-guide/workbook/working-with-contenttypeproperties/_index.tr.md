@@ -16,3 +16,4 @@ Aspose.Cells, özel ContentTypeProperties'leri bir excel dosyasına eklemek içi
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-WorkingWithContentTypeProperties-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

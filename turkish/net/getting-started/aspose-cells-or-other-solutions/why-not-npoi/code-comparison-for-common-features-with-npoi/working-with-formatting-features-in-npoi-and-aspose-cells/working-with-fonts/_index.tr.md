@@ -102,3 +102,4 @@ Aşağıda belirtilen herhangi bir sosyal kodlama sitesinden **Yazı Tipleriyle 
 Daha fazla bilgi için [Veri Biçimlendirme Özellikleri](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting)ne bakın.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -213,3 +213,4 @@ Aspose.Cells.GridWebは、GridCell.RemoveValidationメソッドを使用して�
 ## **非推奨API**
 ### **廃止されたShape.TextFrameプロパティ**
 Shape.TextBody.TextAlignmentプロパティを使用することをお勧めします。
+{{< app/cells/assistant language="csharp" >}}

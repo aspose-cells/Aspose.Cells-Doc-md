@@ -16,3 +16,4 @@ Puede establecer el comentario de la Tabla u Objeto de Lista dentro de la hoja d
 El siguiente código de ejemplo carga el [archivo de Excel de origen](5115514.xlsx), establece el comentario de la primera tabla u objeto de lista dentro de la hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-SetCommentOfTableOrListObject-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -20,3 +20,4 @@ url: /ru/net/public-api-changes-in-aspose-cells-8-1-2/
 {{% /alert %}}
 ## **Удален устаревшее свойство PdfSaveOptions.ChartImageType**
 Aspose.Cells for .NET 8.1.2 удалило устаревшее свойство PdfSaveOptions.ChartImageType из общедоступного API.
+{{< app/cells/assistant language="csharp" >}}

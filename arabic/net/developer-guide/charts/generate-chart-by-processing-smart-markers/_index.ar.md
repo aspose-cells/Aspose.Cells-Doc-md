@@ -48,3 +48,4 @@ url: /ar/net/generate-chart-by-processing-smart-markers/
 بمجرد توفر البيانات، كل ما علينا فعله هو إنشاء شارت استنادًا إلى مصدر البيانات. من أجل تبسيط المثال، سنستخدم ال [**Chart.SetChartDataRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange) الطريقة حتى لا يتعين علينا تكوين الشارت بشكل أكبر.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-CreationOfChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

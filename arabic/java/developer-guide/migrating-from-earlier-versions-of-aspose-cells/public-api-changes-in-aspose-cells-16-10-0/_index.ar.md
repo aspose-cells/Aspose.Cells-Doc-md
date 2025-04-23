@@ -434,3 +434,4 @@ listObject.getListColumns().get(1).setFormula("=[Column A] + 1");
 book.save("output.xlsx");
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -274,3 +274,4 @@ workbook.Save("output.xlsx");
 すべてのセルを反復処理するには GetEnumerator メソッドを使用してください。
 ### **DrawObject.Imageプロパティの廃止**
 画像データを取得するためにDrawObject.ImageBytesプロパティを使用してください。
+{{< app/cells/assistant language="csharp" >}}

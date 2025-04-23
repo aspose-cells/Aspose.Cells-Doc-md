@@ -42,3 +42,4 @@ La seguente schermata mostra il file Excel generato dal codice di esempio. Come 
 Ecco il codice di esempio per ottenere l'output mostrato sopra.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ApplyingSubtotalChangeSummaryDirection-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

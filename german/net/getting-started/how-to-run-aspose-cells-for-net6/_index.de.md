@@ -14,8 +14,8 @@ In diesem offiziellen [Microsoft-Dokument](https://learn.microsoft.com/en-gb/dot
 Für das Produkt Apose.Cells haben wir die Evaluierung durchgeführt und die Migration der Grafikbibliothek abgeschlossen. Wir verwenden SkiaSharp anstelle von System.Drawing.Common in Nicht-Windows-Systemen, wie in der offiziellen Dokumentation von Microsoft empfohlen. Bitte beachten Sie, dass diese wichtige Änderung ab Aspose.Cells 22.10.1 oder später für .Net6 wirksam wird.
 
 Für .netcore31 oder früher verwenden wir aus Gründen der Kompatibilität und Stabilität weiterhin die Grafikbibliothek "System.Drawing.Common". Die Abhängigkeiten für .netcore31 oder früher sind wie folgt:
-- System.Drawing.Common, 4.7.0.
-- System.Security.Cryptography.Pkcs, 5.0.1.
+- System.Drawing.Common, 5.0.3.
+- System.Security.Cryptography.Pkcs, 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
 ## Aspose.Cells für .Net6 unter Windows ausführen
@@ -39,15 +39,15 @@ Sie können Aspose.Cells auch über den NuGet-Paketmanager in VS2022 installiere
 2. Öffnen Sie das Installationsverzeichnis oder das DLL-Verzeichnis, wählen Sie dann Schritt 3 oder 4 aus:
 
 3. Suchen Sie das Unterverzeichnis „net6.0-windows“, fügen Sie die Aspose.Cells.dll hinzu, um sie Ihrer .NET6-Anwendung hinzuzufügen. Fügen Sie manuell die folgenden NuGet-Pakete zu Ihrem .NET6-Projekt hinzu:
-- System.Drawing.Common, 4.7.0.
-- System.Security.Cryptography.Pkcs, 6.0.3.
+- System.Drawing.Common, 6.0.0.
+- System.Security.Cryptography.Pkcs, 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
 Auf diese Weise verwenden Sie „System.Drawing.Common“ als Abhängigkeit in Ihrem Windows-System für das .NET6-Projekt. In dieser Konfiguration ist das Zeichnungsergebnis näher an .Netcore31 oder früher.
 
 4. Suchen Sie das Unterverzeichnis „net6.0“, fügen Sie die Aspose.Cells.dll hinzu, um sie Ihrer .NET6-Anwendung hinzuzufügen. Fügen Sie manuell die folgenden NuGet-Pakete zu Ihrem .NET6-Projekt hinzu:
-- SkiaSharp, 2.88.6.
-- System.Security.Cryptography.Pkcs, 6.0.3.
+- SkiaSharp, 3.116.1.
+- System.Security.Cryptography.Pkcs, 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
 Auf diese Weise verwenden Sie „SkiaSharp“ als Abhängigkeit in Ihrem Windows-System für das .NET6-Projekt. *Bitte beachten Sie, dass die Version, die „SkiaSharp“ als Abhängigkeit verwendet, die Druckfunktion nicht unterstützt.*
@@ -66,13 +66,24 @@ ODER
 apk update && apk add fontconfig 
 ```
 
-2. Fügen Sie die NuGet-Pakete „SkiaSharp.NativeAssets.Linux 2.88.6“ zu Ihrem .NET6-Projekt hinzu.
+2. Fügen Sie das NuGet-Paket "SkiaSharp.NativeAssets.Linux 3.116.1" zu Ihrem .net6-Projekt hinzu.
+3. Alternativ können Sie die NuGet-Pakete "SkiaSharp.NativeAssets.Linux.NoDependencies 3.116.1" zu Ihrem .net6-Projekt hinzufügen, anstelle der oben genannten zwei Schritte.
 
-3. Oder Sie können wählen, die NuGet-Pakete „SkiaSharp.NativeAssets.Linux.NoDependencies 2.88.6“ zu Ihrem .NET6-Projekt hinzuzufügen, anstelle der beiden oben genannten Schritte.
+*Bitte beachten Sie, dass die Version des hinzugefügten Pakets "SkiaSharp.NativeAssets.Linux" oder "SkiaSharp.NativeAssets.Linux.NoDependencies" mit der Version von "SkiaSharp" übereinstimmen sollte, die in Aspose.Cells for .NET referenziert wird. Die Versionen von Aspose.Cells for .NET und die entsprechenden referenzierten "SkiaSharp"-Versionen sind wie folgt beschrieben:*
+
+| Aspose.Cells for .NET  |                SkiaSharp                |
+| :--------------------: | :-------------------------------------: |
+| >= 22.10.1 && <= 22.11 |                 2.88.0                  |
+|  >= 22.12 && <= 23.9   |                 2.88.3                  |
+|  >= 23.10 && <= 24.12  |                 2.88.6                  |
+|        = 25.1.1        |                 3.116.1                 |
+|        >=25.1.2        | 2.88.9(net6.0, net8.0), 3.116.1(net9.0) |
+
+
 
 ### Beispiel Dockerfile für Ubuntu
 
-1. Fügen Sie die NuGet-Pakete "SkiaSharp.NativeAssets.Linux 2.88.6" Ihrem .NET6-Projekt hinzu.
+1. Fügen Sie das NuGet-Paket "SkiaSharp.NativeAssets.Linux 3.116.1" zu Ihrem .net6-Projekt hinzu.
 
 2. Verwenden Sie das folgende Dockerfile:
 {{< highlight plain >}}
@@ -108,7 +119,7 @@ ENTRYPOINT ["dotnet", "Ubuntu_Docker.dll"]
 
 ### Beispiel Dockerfile für Alpine
 
-1. Fügen Sie die NuGet-Pakete "SkiaSharp.NativeAssets.Linux 2.88.6" Ihrem .NET6-Projekt hinzu.
+1. Fügen Sie das NuGet-Paket "SkiaSharp.NativeAssets.Linux 3.116.1" zu Ihrem .net6-Projekt hinzu.
 
 2. Verwenden Sie das folgende Dockerfile:
 {{< highlight plain >}}
@@ -141,3 +152,4 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "Alpine_Docker.dll"]
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -16,3 +16,4 @@ Aspose.Cells允许您加载不带图表的excel文件。请使用 [**LoadOptions
 以下示例代码加载不带图表的示例excel文件，并将其保存为输出PDF格式。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-LoadTemplateWithoutCharts.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

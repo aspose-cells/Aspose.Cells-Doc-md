@@ -22,3 +22,4 @@ Das folgende Bild zeigt den Kommentar mit seinen Formatierungseinstellungen in M
 ![todo:image_alt_text](change-text-direction-of-the-comment_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ChangeTextDirectionofComment.java" >}}
+{{< app/cells/assistant language="java" >}}

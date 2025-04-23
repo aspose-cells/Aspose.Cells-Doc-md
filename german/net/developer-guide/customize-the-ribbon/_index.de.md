@@ -24,3 +24,4 @@ Wenn Sie das Ribbon-XML ändern möchten, müssen Sie es mit einem XML-Parser od
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomizingRibbonXML-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

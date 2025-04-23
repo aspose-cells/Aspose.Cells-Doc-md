@@ -28,8 +28,15 @@ url: /ru/net/save-specified-worksheets-to-pdf/
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-MultiSheetsToPdf.cs" >}}
 
+## **Переупорядочить листы в PDF**
+
+Если вы хотите переупорядочить листы (например, в обратном порядке) в PDF без изменения исходного файла, вы можете сделать это, передав переупорядоченные индексы листов в опцию [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/).
+
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-ReorderSheetsToPdf.cs" >}}
+
 {{% alert color="primary" %}} 
 
 Если ваш электронный таблицы содержит формулы, лучше всего вызвать [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) прямо перед преобразованием таблицы в формат PDF. Таким образом будет гарантирован пересчет значений, зависящих от формул, и в PDF файл будут выведены правильные значения.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

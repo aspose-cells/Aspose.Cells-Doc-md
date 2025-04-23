@@ -191,3 +191,4 @@ Wenn die Einstellung "Änderungen durch mehrere Benutzer zulassen..." für eine 
 |Zellen, die hervorgehoben werden können|32.767
 |Farben zur Identifizierung von Änderungen, die von verschiedenen Benutzern vorgenommen wurden, wenn die Änderungshervorhebung aktiviert ist|32 (jeder Benutzer wird durch eine separate Farbe identifiziert; Änderungen, die vom aktuellen Benutzer vorgenommen wurden, werden mit Marineblau hervorgehoben)
 |Excel-Tabellen in der Arbeitsmappe|0 (null) Hinweis: Eine Arbeitsmappe, die eine oder mehrere Excel-Tabellen enthält, kann nicht die Einstellung 'Änderungen durch mehr als einen Benutzer zulassen...' aktiviert haben.
+{{< app/cells/assistant language="csharp" >}}

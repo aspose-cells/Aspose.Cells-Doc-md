@@ -28,3 +28,4 @@ Bitte lesen Sie den ausführlichen Artikel zu [Überprüfen, dass der Zellenwert
 {{% /alert %}}
 ## **Hinzufügen einer Überladung der Methode toPrinter(PrinterSettings printerSettings) für die WorkbookRender-Klasse**
 Sie können die überladene Methode verwenden, um die Arbeitsmappe über die PrinterSettings auf den Drucker zu rendern.
+{{< app/cells/assistant language="java" >}}

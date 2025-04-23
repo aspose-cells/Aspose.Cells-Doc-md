@@ -79,3 +79,4 @@ workbook.Save("Chart_Aspose.xls");
 لمزيد من التفاصيل، قم بزيارة [كيفية إنشاء رسم بياني](/cells/ar/net/create-charts/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

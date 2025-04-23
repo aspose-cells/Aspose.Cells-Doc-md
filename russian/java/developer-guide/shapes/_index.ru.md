@@ -8,3 +8,4 @@ url: /ru/java/drawing-objects/
 
 
 
+{{< app/cells/assistant language="java" >}}

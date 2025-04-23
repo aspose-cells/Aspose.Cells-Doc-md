@@ -18,3 +18,4 @@ Microsoft Excel支持一些类型的虚线边框，而Web浏览器不支持。�
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-ExportSimilarBorderStyle.java" >}}
+{{< app/cells/assistant language="java" >}}

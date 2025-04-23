@@ -3,15 +3,15 @@ title: Ta bort befintliga utskriftsinställningar för kalkylblad i Excel filen
 type: docs
 weight: 60
 url: /sv/python-net/remove-existing-printersettings-of-worksheets-in-excel-file/
-description: I den här artikeln kommer du att lära dig hur man tar bort befintliga PrinterSettings på arbetsbladet i Excel filen genom siduppsättningsobjektet programmatiskt med exempelkod med hjälp av Aspose.Cells för Python Excel biblioteket.
-keywords: Python Excel bibliotek, Python ta bort skrivarens inställningar på arbetsbladet, Python ta bort skrivarens inställningar på excel ark.
+description: I denna artikel lär du dig hur du tar bort befintliga PrinterSettings för kalkylbladet inuti Excel filen via Page Setup objektet programmässigt med exempelcode med hjälp av Aspose.Cells för Python Excel Library.
+keywords: Python Excel Library, Python ta bort skrivareinställningar för kalkylblad, Python ta bort skrivareinställningar för Excel kalkylblad.
 ---
 
 ## **Möjliga användningsscenario**
-Ibland vill utvecklare förhindra Excel från att inkludera *.bin*-filer av skrivarens inställningar i de sparade XLSX-filerna. Skrivarens inställningsfiler finns under *"[fil "root"]\xl\printerSettings".* Detta dokument förklarar hur man tar bort befintliga skrivarens inställningar med hjälp av Aspose.Cells för Python via .NET API:er.
+Ibland vill utvecklare förhindra att Excel inkluderar *.bin* filer med skrivareinställningar i de sparade XLSX-filerna. Skrivareinställningsfiler finns under *“[fil "root"]\xl\printerSettings”.* Denna dokumentation förklarar hur man tar bort befintliga skrivareinställningar med Aspose.Cells för Python via .NET API:er.
 
 ## **Ta bort befintliga skrivareinställningar för arbetsblad i Excel-fil**
-Aspose.Cells för Python via .NET låter dig ta bort befintliga skrivarens inställningar som angetts för olika ark i Excel-filen. Följande exempelkod illustrerar hur man tar bort befintliga skrivarens inställningar för alla arbetsblad i arbetsboken. Se dess [exempelfil av Excel](45056020.xlsx), [utdata-Excel-filen](45056021.xlsx), konsolresultat samt skärmdump för en referens.
+Aspose.Cells för Python via .NET låter dig ta bort befintliga skrivareinställningar som anges för olika blad i Excel-filen. Följande exempel visar hur man tar bort befintliga skrivareinställningar för alla kalkylblad i arbetsboken. Se dess [exempel-Excel-fil](45056020.xlsx), [utdata-Excel-fil](45056021.xlsx), konsolutdata samt screenshot för referens.
 
 ## **Skärmdump**
 ![todo:image_alt_text](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)

@@ -48,3 +48,4 @@ Es ist sehr einfach, eine passwortgeschützte Excel-Datei zu öffnen und mit den
 - [Autor beim Schreibschutz des Arbeitsmappenschreibens spezifizieren](/cells/de/net/specify-author-while-write-protecting-workbook/)
 - [Passwort von verschlüsselten Dateien überprüfen](/cells/de/net/verify-password-of-encrypted-excel-and-ods-files/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -11,7 +11,7 @@ När du lägger till en ny kalkylblad till en arbetsbok innehåller den standard
 
 ## **Kopiera siduppsättning inställningar från källkalkylblad till destinations kalkylblad**
 
-Följande exempelkod illustrerar hur man kopierar siduppsättningsinställningar från ett kalkylblad till ett annat med hjälp av [**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy(com.aspose.cells.PageSetup,%20com.aspose.cells.CopyOptions))-metoden. Se följande exempelkod och dess konsolresultat för referens.
+Följande exempelkod illustrerar hur man kopierar siduppsättningsinställningar från ett kalkylblad till ett annat med hjälp av [**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy-com.aspose.cells.PageSetup-com.aspose.cells.CopyOptions-)-metoden. Se följande exempelkod och dess konsolresultat för referens.
 
 ## **Exempelkod**
 
@@ -30,3 +30,4 @@ After Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 After Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

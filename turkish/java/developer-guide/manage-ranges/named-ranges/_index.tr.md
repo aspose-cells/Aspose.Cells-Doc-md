@@ -29,24 +29,24 @@ Burada görevi yapmak için Aspose.Cells API'sını kullanıyoruz.
 
 Aspose.Cells, bir Microsoft Excel dosyasını temsil eden [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) adlı bir sınıf sağlar. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı, bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) içerir. Bir çalışma sayfası [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı tarafından temsil edilir. [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı, [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunu sağlar.
 
-Hücrelerin adlarını oluşturmak için [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunun aşırı yüklenmiş [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\)) metodunu çağırarak isimlendirilmiş bir aralık oluşturmak mümkündür. Genellikle [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\)) metodunun aşağıdaki parametreleri almasını beklersiniz:
+Belirli bir liste aralığını ve [AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) örneğini kabul eden [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-java.lang.String-java.lang.String-) metodunu aşırı yükleyerek isimlendirilmiş bir aralık oluşturabilirsiniz. [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-java.lang.String-java.lang.String-) yönteminin tipik bir versiyonu aşağıdaki parametreleri alır:
 
 - Sol üst hücrenin adı, aralıktaki sol üst hücrenin adı.
 - Sağ alt hücrenin adı, aralıktaki sağ alt hücrenin adı.
 
-[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\)) metodu çağrıldığında, [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) sınıfının bir örneği olarak yeni oluşturulan adlandırılmış aralık döner.
+[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-java.lang.String-java.lang.String-) yöntemi çağrıldığında, yeni oluşturulan isimlendirilmiş aralık, [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) sınıfının bir örneği olarak döner.
 
 Aşağıdaki örnek, B4:G14'ten genişleyen hücrelerin adlandırılmış bir aralık oluşturmayı gösterir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-CreateNamedRangeofCells-CreateNamedRangeofCells.java" >}}
 #### **Çalışma Kitabındaki Tüm Adlandırılmış Aralıklara Erişme**
-Çalışma kitabındaki tüm adlandırılmış aralıklara erişmek için [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) koleksiyonunun [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\)) metodunu çağırın. [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\)) metodu, [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) içindeki tüm adlandırılmış aralıkların bir dizisini döndürür.
+Bir elektronik tabloda tüm adlandırılmış alanları almak için [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) koleksiyonunun [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges--) metodunu çağırın. [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges--) metodu, [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) içindeki tüm adlandırılmış alanların dizisini döndürür.
 
 Aşağıdaki örnek, bir çalışma kitabındaki tüm adlandırılmış aralıklara erişmeyi gösterir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AccessAllNamedRanges-AccessAllNamedRanges.java" >}}
 #### **Belirli Bir Adlandırılmış Aralığa Erişme**
-Belirli bir aralığa erişmek için [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) koleksiyonunun [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\)) metodunu çağırın. Tipik bir [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\)) metodu, adlandırılmış aralığın adını alır ve belirtilen adlandırılmış aralığı [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) sınıfının bir örneği olarak döndürür.
+Belirli bir adı olan aralığı almak için [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) koleksiyonunun [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName-java.lang.String-) metodunu çağırın. Tipik [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName-java.lang.String-) metodu, adlandırılmış alanın adını alır ve belirli adlandırılmış alanı [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) sınıfı örneği olarak döndürür.
 
 Aşağıdaki örnek, adı verilen bir aralığa erişmeyi gösterir.
 
@@ -76,7 +76,7 @@ Aşağıdaki örnek, belirli bir aralığa katı dolgu rengi (gölgeleme rengi) 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FormatRanges1-FormatRanges1.java" >}}
 #### **Aralıklara Biçim Verme...Adlandırılmış Bir Aralığa Kenarlık Eklenmesi**
-Tek bir hücre yerine bir hücreler aralığına kenarlık eklemek mümkündür. [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) nesnesi, bir hücre aralığına kenarlık eklemek için aşağıdaki parametreleri alarak [setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\)) metodunu sağlar:
+Bir hücre aralığına sadece tek bir hücre yerine sınırlar eklemek mümkündür. [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) nesnesi, aşağıdaki parametreleri alan [setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders-int-com.aspose.cells.Color-) metodunu sağlar ve bu metod, hücre aralığına sınır eklemek içindir:
 
 - borderStyle: kenarlık türü, [CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType) numaralandırmasından seçilir.
 - borderColor: kenarlığın çizgi rengi, [Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color) numaralandırmasından seçilir.
@@ -90,16 +90,17 @@ Yukarıdaki kodun çalıştırılmasından sonra aşağıdaki çıktı üretilec
 
 ![todo:image_alt_text](named-ranges_1.png)
 #### **Bir Aralıktaki Hücrelere Stil Uygula**
-Bazen, bir [Aralık](https://reference.aspose.com/cells/java/com.aspose.cells/range)'taki hücrelere stil uygulamak isteyebilirsiniz. Bunun için, aralıktaki hücreleri iterasyonla dolaşabilir ve hücreye stili uygulamak için [Cell.setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) yöntemini kullanabilirsiniz.
+Bazen, bir [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) içindeki hücrelere bir stil uygulamak istersiniz. Bunun için, aralıktaki hücreler üzerinde yineleyebilir ve [Cell.setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle-com.aspose.cells.Style-) metodunu kullanarak stili hücreye uygulayabilirsiniz.
 
 Aşağıdaki örnek, bir Aralıktaki hücrelere stil uygulamanın nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ConvertCellsAddresstoRangeorCellArea-ConvertCellsAddresstoRangeorCellArea.java" >}}
 #### **Adlandırılmış Bir Aralığı Kaldır**
-Aspose.Cells, [NameCollection.RemoveAt()](https://reference.aspose.com/cells/java/com.aspose.cells/namecollection#removeAt\(int\)) yöntemini kullanarak aralığın adını silmek için ve aralığın içeriğini temizlemek için [Cells.ClearRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#clearRange\(com.aspose.cells.CellArea\)) yöntemini kullanır.
+Aspose.Cells, [NameCollection.RemoveAt()](https://reference.aspose.com/cells/java/com.aspose.cells/namecollection#removeAt-int-) metodunu sağlar, bu metod aralık adını silmek için kullanılır. Aralık içeriğini temizlemek için [Cells.ClearRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#clearRange-com.aspose.cells.CellArea-) metodunu kullanın.
 Aşağıdaki örnek, bir adlandırılmış aralığı içeriği ile birlikte kaldırmanın nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-RemoveANamedRange-RemoveANamedRange.java" >}}
 
 
 borderColors 
+{{< app/cells/assistant language="java" >}}

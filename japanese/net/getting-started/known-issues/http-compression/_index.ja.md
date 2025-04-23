@@ -21,3 +21,4 @@ Asposeのバグでないことを確認するために、次のコードを使�
 - サーバーに生成されたファイルを保存し、ユーザーにリンクを提供します。
 
 HTTP圧縮を使用する場合は、IIS圧縮を有効にしたことがわかっている場合は、常に*OpenInBrowser*オプションの代わりに*OpenInExcel*オプションを使用してください。
+{{< app/cells/assistant language="csharp" >}}

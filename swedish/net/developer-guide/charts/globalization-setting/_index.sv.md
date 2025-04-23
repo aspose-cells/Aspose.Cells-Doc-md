@@ -47,3 +47,4 @@ Det följande exemplet kommer att visa dig i detalj hur du ställer in lokaliser
 - [Hur man ställer in kinesisk region för diagram](/cells/sv/net/convert-chart-to-image-for-chinese-region/)
 - [Hur man ställer in japansk region för diagram](/cells/sv/net/convert-chart-to-image-for-japanese-region/)
 
+{{< app/cells/assistant language="csharp" >}}

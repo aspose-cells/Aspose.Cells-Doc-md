@@ -45,3 +45,4 @@ Kurulduğunda, tüm Aspose bileşenleri değerlendirme modunda çalışır. Değ
 Aşağıdaki kod, OLE nesnelerini bulma ve çıkartma işlemini gerçekleştirir. (DOC, XLS ve PDF dosyaları) diskte kaydedilir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExtractOLEObjects-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -49,3 +49,4 @@ Descargar **Encontrar Valor en Celdas** desde cualquiera de los sitios de códig
 Para más detalles, visita [Encontrar o Buscar Datos](/cells/es/net/find-or-search-data/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

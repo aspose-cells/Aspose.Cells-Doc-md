@@ -121,3 +121,4 @@ Aspose.Cellsを使用してカスタムプロパティを削除するには、[*
 - [ビルトインドキュメントプロパティのScaleCropおよびLinksUpToDateプロパティを設定する](/cells/ja/net/setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties/)
 - [ビルドインドキュメントプロパティを使用してExcelファイルのドキュメントバージョンを指定する](/cells/ja/net/specify-document-version-of-the-excel-file-using-builtin-document-properties/)
 - [ビルドインドキュメントプロパティを使用してExcelファイルの言語を指定する](/cells/ja/net/specify-the-language-of-the-excel-file-using-builtin-document-properties/)
+{{< app/cells/assistant language="csharp" >}}

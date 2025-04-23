@@ -3,8 +3,8 @@ title: Calculer le facteur d échelle de la mise en page
 type: docs
 weight: 300
 url: /fr/python-net/calculate-page-setup-scaling-factor/
-description: Cet article fournit un code d exemple expliquant comment utiliser les APIs Aspose.Cells pour Python via .NET pour calculer le facteur d échelle de configuration de page en utilisant l option Ajuster à n page(s) de largeur sur m de hauteur de la feuille de calcul Excel de manière programmée.
-keywords: Bibliothèque Python Excel, Ajuster à n pages de largeur sur m de hauteur Excel, calculer le facteur d échelle de configuration de page en Python.
+description: Cet article fournit un code d exemple expliquant comment utiliser les API Aspose.Cells pour Python via .NET pour calculer le facteur de mise à l échelle de la configuration de la page à l aide de l option Ajuster à n page(s) de large par m haute d une feuille Excel de manière programmatique.
+keywords: Bibliothèque Excel en Python, Excel ajusté à n pages de large par m haute, calculer le facteur de mise à l échelle de la configuration de la page en Python.
 ---
 
 {{% alert color="primary" %}}

@@ -286,3 +286,4 @@ book.CalculateFormula(options);
 Используйте метод FontConfigs.SetFontFolders(string[], bool) с рекурсивным параметром, установленным на false, вместо.
 ### **Свойство CellsHelper.FontFiles устарело**
 Используйте метод FontConfigs.SetFontSources(FontSourceBase[]) вместо.
+{{< app/cells/assistant language="csharp" >}}

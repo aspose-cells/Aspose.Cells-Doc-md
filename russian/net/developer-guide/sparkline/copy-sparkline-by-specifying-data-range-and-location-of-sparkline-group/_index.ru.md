@@ -22,3 +22,4 @@ Microsoft Excel позволяет копировать минидиаграмм
 Aspose.Cells предоставляет метод SparklineCollection.Add(dataRange, row, column) для указания диапазона данных и местоположения группы минидиаграмм. В следующем образце кода загружается исходный файл Excel, как показано на скриншоте выше, затем обращается к первой группе минидиаграмм и добавляет диапазоны данных и местоположения в группу минидиаграмм. Наконец, он записывает выходной файл Excel на диск, который также показан на скриншоте выше.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CopySparkline-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -9,7 +9,7 @@ keywords: java da excel ile hücre doğrulaması uygula, java da hücreye doğru
 
 {{% alert color="primary" %}}
 
-Herhangi bir hücreye uygulanan doğrulamayı almak için Aspose.Cells API'sini kullanabilirsiniz. Bu amaçla Aspose.Cells, [**Cell.getValidation()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) yöntemini sağlar. Eğer hücrede doğrulama yoksa null döner. Benzer şekilde, satır ve sütun indislerini sağlayarak bir hücreye uygulanan doğrulamayı almak için [**Worksheet.getValidations().getValidationInCell(int row, int column)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell(int,%20int)) yöntemini kullanabilirsiniz.
+Herhangi bir hücreye uygulanan doğrulamayı almak için Aspose.Cells API'sini kullanabilirsiniz. Bu amaçla Aspose.Cells, [**Cell.getValidation()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) yöntemini sağlar. Eğer hücrede doğrulama yoksa null döner. Benzer şekilde, satır ve sütun indislerini sağlayarak bir hücreye uygulanan doğrulamayı almak için [**Worksheet.getValidations().getValidationInCell(int row, int column)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell-int-int-) yöntemini kullanabilirsiniz.
 
 {{% /alert %}}
 
@@ -46,3 +46,4 @@ Ignore blank: true
 ## İlgili Makaleler
 
 - [Veri Doğrulama](/cells/tr/java/data-validation/)
+{{< app/cells/assistant language="java" >}}

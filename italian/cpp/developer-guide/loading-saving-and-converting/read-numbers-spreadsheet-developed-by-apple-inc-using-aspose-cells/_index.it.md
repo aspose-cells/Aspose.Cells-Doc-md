@@ -11,7 +11,7 @@ Numbers è un'applicazione di fogli di calcolo sviluppata da Apple Inc. Aspose.C
 
 ## **Leggi i fogli di calcolo di Numbers sviluppati da Apple Inc. utilizzando Aspose.Cells**
 
-Il seguente codice di esempio carica il [Foglio di calcolo Campioni Numbers](sampleNumbersByAppleInc.numbers) e lo converte in [Formato PDF di output](outputNumbersByAppleInc.pdf). Dovrai utilizzare la classe **[LoadOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/)** e specificare **[LoadFormat::Numbers](https://reference.aspose.com/cells/cpp/aspose.cells/loadformat/)** come parametro nel suo costruttore per caricarlo correttamente. Per favore scarica entrambi dai link forniti. Puoi provare il codice con qualsiasi foglio di calcoli Numbers. Leggi anche i commenti nel codice per ulteriore aiuto.
+Il seguente esempio di codice carica il [Sample Numbers Spreadsheet](sampleNumbersByAppleInc.numbers) e lo converte in [Output PDF Format](outputNumbersByAppleInc.pdf). È necessario usare la classe **[LoadOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/)** e specificare **[LoadFormat::Numbers](https://reference.aspose.com/cells/cpp/aspose.cells/loadformat/)** come parametro nel suo costruttore per caricarlo correttamente. Scarica entrambi i file dai link forniti. Puoi provare il codice con qualsiasi foglio Numbers. Leggi anche i commenti del codice per ulteriori aiuti.
 
 ## **Codice di Esempio**
 

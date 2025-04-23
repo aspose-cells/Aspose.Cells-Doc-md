@@ -18,3 +18,4 @@ Der folgende Beispielcode erläutert, wie man [**PdfSaveOptions.StreamProvider*
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-ControlLoadingOfExternalResourcesInExcelToPDF.java" >}}
+{{< app/cells/assistant language="java" >}}

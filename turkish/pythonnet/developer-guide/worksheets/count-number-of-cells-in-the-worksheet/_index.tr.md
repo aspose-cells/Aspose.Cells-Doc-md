@@ -3,7 +3,7 @@ title: Çalışma Sayfasındaki Hücrelerin Sayısını Say
 type: docs
 weight: 110
 url: /tr/python-net/count-number-of-cells-in-the-worksheet/
-description: Bu makalede, Aspose.Cells for Python via .NET API sini kullanarak Excel çalışma sayfasındaki hücre sayısını programlı olarak nasıl sayacağınızı öğreneceksiniz.
+description: Bu makalede, Aspose.Cells for Python via .NET API kullanarak Excel çalışma sayfasındaki hücrelerin sayısını programlı olarak nasıl sayacağınızı öğreneceksiniz.
 keywords: c# ile excel çalışma sayfası hücrelerini sayma, excel çalışma sayfası hücreleri c# say
 ---
 

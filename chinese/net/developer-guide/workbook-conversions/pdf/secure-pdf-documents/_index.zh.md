@@ -31,3 +31,4 @@ Aspose.Cells提供了[**PdfSecurityOptions**](https://reference.aspose.com/cells
 如果电子表格包含公式，最好在将其呈现为PDF之前调用[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)。这样可以确保重新计算依赖公式的值，并且在PDF中呈现正确的值。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

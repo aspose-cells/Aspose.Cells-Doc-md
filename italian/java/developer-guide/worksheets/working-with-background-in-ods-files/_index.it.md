@@ -44,3 +44,4 @@ Aspose.Cells fornisce la classe [**ODSPageBackground**](https://reference.aspose
 ### **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-SetODSGraphicBackground-1.java" >}}
+{{< app/cells/assistant language="java" >}}

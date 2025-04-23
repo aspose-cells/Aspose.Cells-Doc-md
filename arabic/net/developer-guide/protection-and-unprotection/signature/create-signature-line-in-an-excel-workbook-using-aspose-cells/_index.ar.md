@@ -18,3 +18,4 @@ keywords: إنشاء خط توقيع في سجل عمل Excel، كيفية إن�
 الشفرة النموذجية التالية تضيف خط توقيع باستخدام الخاصية [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) وتحفظ ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateSignatureLineInWorkbook-CreateSignatureLineInWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

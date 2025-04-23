@@ -29,3 +29,4 @@ Detta exempel visar hur man:
 1. Ange den yttre gränsen för området.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Range-set-border.java" >}}
+{{< app/cells/assistant language="java" >}}

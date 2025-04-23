@@ -14,3 +14,4 @@ Aspose.Cellsを使用して、所定の幅と高さでワークシートまた�
 次のコードは、400x400のサイズでワークシートをイメージにエクスポートします。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-WorksheetToImageDesiredSize-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

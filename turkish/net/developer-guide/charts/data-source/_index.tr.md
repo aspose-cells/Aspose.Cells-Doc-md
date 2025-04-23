@@ -34,3 +34,4 @@ Kategori verisi, grafik verisinin etiketlenmesi için kullanılır ve [**Series
 - [Dinamik Grafikler Oluşturma](/cells/tr/net/create-dynamic-charts/)
 - [Chart.SetChartDataRange Yöntemini Kullanarak Grafik Kurulumu için Kolay Yol](/cells/tr/net/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [Grafik Serisindeki X ve Y Değerleri Türünü Bul](/cells/tr/net/find-type-of-x-and-y-values-of-points-in-chart-series/)
+{{< app/cells/assistant language="csharp" >}}

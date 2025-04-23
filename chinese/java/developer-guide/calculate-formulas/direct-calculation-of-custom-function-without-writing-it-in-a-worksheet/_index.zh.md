@@ -7,7 +7,7 @@ url: /zh/java/direct-calculation-of-custom-function-without-writing-it-in-a-work
 
 {{% alert color="primary" %}} 
 
-本文解释了如何在不首先将其写入工作表的情况下直接计算自定义函数。请使用[Worksheet.calculateFormula(string formula, CalculationOptions opts)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula\(java.lang.String,%20com.aspose.cells.CalculationOptions\)) 方法来实现此目的。
+本文介绍如何直接计算您的自定义函数，而无需先在工作表中书写它们。请使用 [Worksheet.calculateFormula(string formula, CalculationOptions opts)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula-java.lang.String-com.aspose.cells.CalculationOptions-) 方法实现此目的。
 
 {{% /alert %}} 
 ## **在不将其写入工作表的情况下直接计算自定义函数**
@@ -28,3 +28,4 @@ url: /zh/java/direct-calculation-of-custom-function-without-writing-it-in-a-work
 - [实现自定义计算引擎以扩展Aspose.Cells的默认计算引擎](/cells/zh/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

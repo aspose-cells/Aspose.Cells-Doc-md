@@ -3,8 +3,8 @@ title:  Inställa sidhuvuden och sidfötter
 type: docs
 weight: 30
 url: /sv/python-net/setting-headers-and-footers/
-description: Denna artikel förklarar hur man programmatoriskt infogar en bild i sidhuvudet och sidfoten av Excel ark genom att ställa in sidhuvudet och sidfoten med skriptkommandon med hjälp av Aspose.Cells för Python via .NET API.
-keywords: Python Excel Library, Python infoga bild i excelsidhuvudfot, ställa in excel sidhuvudfot skriptkommandon med Python.
+description: Denna artikel förklarar hur man programmatiskt infogar en bild i rubrik och sidfot i Excel kalkylblad genom att ställa in rubrik och sidfot med skriptkommandon med Aspose.Cells för Python via .NET API.
+keywords: Python Excel bibliotek, Python infoga bild i excel rubrik sidfot, ställ in excel rubrik sidfot skriptkommandon med Python.
 ---
 
 {{% alert color="primary" %}}
@@ -15,9 +15,9 @@ Sidhuvuden och sidfötter är textrader som visas under övre marginalen eller o
 
 ## **Ställa in sidhuvuden och sidfötter**
 
-Aspose.Cells för Python via .NET låter dig lägga till sidhuvuden och sidfotter i kalkylblad dynamiskt men vi rekommenderar att ställa in sidhuvuden och sidfotter manuellt i en fördesignad fil för utskrift. Du kan använda Microsoft Excel som ett GUI-verktyg för att ställa in sidhuvuden och sidfotter för att spara ansträngning och utvecklingstid. Aspose.Cells för Python via .NET kan importera filen och spara inställningarna.
+Aspose.Cells för Python via .NET tillåter att du lägger till rubriker och fotnoter i kalkylblad vid körning, men vi rekommenderar att manuellt ställa in rubriker och fotnoter i en fördesignad fil för utskrift. Du kan använda Microsoft Excel som ett GUI-verktyg för att ställa in rubriker och fotnoter för att spara tid och utvecklingsarbete. Aspose.Cells för Python via .NET kan importera filen och spara inställningarna.
 
-För att lägga till sidhuvuden och sidfotter under körning tillhandahåller Aspose.Cells för Python via .NET särskilda API-anrop och skriptkommandon för att formatera sidhuvuden och sidfotter.
+För att lägga till rubriker och fotnoter vid körning, ger Aspose.Cells för Python via .NET speciella API-anrop och skriptkommandon för att formatera rubriker och fotnoter.
 
 ### **Skriptkommandon**
 
@@ -36,7 +36,7 @@ Skriptkommandon är speciella kommandon som tillåter dig att ställa in sidhuvu
 |&"\<FontName>, \<FontStyle>"|Representerar typsnittsnamn med stil. Till exempel: &"Arial,Fetstil"|
 |&\<FontSize>|Representerar teckensnittsstorlek. Till exempel: “&14abc”. Men om detta kommando följs av ett vanligt nummer som ska skrivas ut i sidhuvudet, ska detta separeras med ett mellanslag från teckensnittsstorleken. Till exempel: “&14 123”|
 
-### **Hur man ställer in sidhuvuden och sidfötter**
+### **Hur man ställer in rubriker och fotnoter**
 
 [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)-klassen tillhandahåller två metoder, [**set_header**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_header/#int-str) och [**set_footer**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_footer/#int-str), som används för att lägga till en sidhuvud och sidfot till ett arbetsblad. Dessa metoder tar endast två parametrar:
 
@@ -45,7 +45,7 @@ Skriptkommandon är speciella kommandon som tillåter dig att ställa in sidhuvu
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetHeadersAndFooters-1.py" >}}
 
-### **Hur man infogar en bild i ett sidhuvud eller sidfot**
+### **Hur man infogar en bild i en rubrik eller fot**
 
 [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)-klassen har två ytterligare metoder, [**set_header_picture**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_header_picture/#int-bytes) och [**set_footer_picture**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_footer_picture/#int-bytes), som används för att lägga till bilder i sidhuvud och sidfot. Dessa metoder tar parametrarna:
 

@@ -52,7 +52,7 @@ repositories {
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.7</version>
+            <version>25.4</version>
 
         </dependency>
 
@@ -62,7 +62,7 @@ repositories {
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.7</version>
+            <version>25.4</version>
 
             <classifier>javadoc</classifier>
 
@@ -107,3 +107,4 @@ WebP は現代の画像形式です。高いビジュアル品質を維持しな
 迅速な技術サポートを受けるために、以下を確認してください
 
 [Aspose.Cells - Forums](https://forum.aspose.com/c/cells/9)
+{{< app/cells/assistant language="java" >}}

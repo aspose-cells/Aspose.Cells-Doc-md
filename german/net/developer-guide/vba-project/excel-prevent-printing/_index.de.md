@@ -34,3 +34,4 @@ Der folgende Beispielcode veranschaulicht, wie man das Drucken von Excel-Dateien
 1. Speichern Sie die Beispieldatei im [xlsm-Format](out.xlsm).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "VBA-Prevent-printing-excel.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

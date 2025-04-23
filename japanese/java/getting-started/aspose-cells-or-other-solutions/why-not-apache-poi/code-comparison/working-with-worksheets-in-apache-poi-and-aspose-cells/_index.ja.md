@@ -14,3 +14,4 @@ url: /ja/java/working-with-worksheets-in-apache-poi-and-aspose-cells/
 - [ワークブック内でシートの順序を変更](/cells/ja/java/re-order-sheets-within-workbook/)
 - [ヘッダーとフッター](/cells/ja/java/header-and-footers/)
 - [Apache POIとAspose.Cellsでのズームファクターの使用](/cells/ja/java/zoom-factor-using-apache-poi-and-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

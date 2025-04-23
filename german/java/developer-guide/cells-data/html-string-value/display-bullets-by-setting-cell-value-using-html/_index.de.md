@@ -28,3 +28,4 @@ Der folgende Screenshot zeigt die Ausgabe des obigen Beispielcodes.
 ## Verwandte Artikel
 
 - [Hinzufügen von HTML-Rich-Text in die Zelle](/cells/de/java/adding-html-rich-text-inside-the-cell/)
+{{< app/cells/assistant language="java" >}}

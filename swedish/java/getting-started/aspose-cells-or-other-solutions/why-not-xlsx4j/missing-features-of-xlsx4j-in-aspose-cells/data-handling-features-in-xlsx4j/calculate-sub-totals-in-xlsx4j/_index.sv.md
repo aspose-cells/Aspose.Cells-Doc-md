@@ -53,3 +53,4 @@ workbook.save(dataDir + "AsposeTotal.xls");
 För mer detaljer, besök [Skapa delsummering](/cells/sv/java/skapa-delsummering).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

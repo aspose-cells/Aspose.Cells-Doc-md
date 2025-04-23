@@ -12,3 +12,4 @@ Aspose.Cellsは、正規表現を使用してワークブック内のテキス�
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-RegexReplace-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

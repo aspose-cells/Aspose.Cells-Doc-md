@@ -8,7 +8,7 @@ url: /fr/java/password-protect-or-unprotect-the-shared-workbook/
 
 ## **Scénarios d'utilisation possibles**
 
-Vous pouvez protéger ou désactiver la protection du classeur partagé avec Microsoft Excel comme le montre la capture d'écran suivante. Aspose.Cells prend également en charge cette fonctionnalité avec les méthodes [**Workbook.protectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook(java.lang.String)) et [**Workbook.unprotectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook(java.lang.String)).
+Vous pouvez protéger ou désactiver la protection du classeur partagé avec Microsoft Excel comme le montre la capture d'écran suivante. Aspose.Cells prend également en charge cette fonctionnalité avec les méthodes [**Workbook.protectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook-java.lang.String-) et [**Workbook.unprotectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook-java.lang.String-).
 
 ![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_1.png)
 
@@ -21,3 +21,4 @@ Le code d'exemple suivant crée un classeur et le protège tout en activant le p
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-PasswordProtectOrUnprotectSharedWorkbook.java" >}}
+{{< app/cells/assistant language="java" >}}

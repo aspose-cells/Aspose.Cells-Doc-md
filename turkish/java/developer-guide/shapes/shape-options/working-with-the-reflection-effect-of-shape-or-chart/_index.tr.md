@@ -24,3 +24,4 @@ Aşağıdaki ekran görüntüsü, Şekil *Yansıma Efekti* ayarını yapmak iç
 Aşağıdaki örnek kod, [kaynak excel dosyasını](5472529.xlsx) yükler ve ilk çalışma sayfasındaki ilk şeklin alt özelliklerini [Shape.ReflectionEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Reflection) özelliğinin ayarlar ve ardından workbook'u [çıkış excel dosyasına](5472539.xlsx) kaydeder.
 ## **Örnek Kod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithReflectionEffect-WorkingWithReflectionEffect.java" >}}
+{{< app/cells/assistant language="java" >}}

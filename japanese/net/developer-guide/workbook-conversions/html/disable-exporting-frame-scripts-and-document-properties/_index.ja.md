@@ -16,3 +16,4 @@ Aspose.Cellsは、ワークブックをHTMLに変換する際にフレームス�
 以下のサンプルコードを使用すると、フレームスクリプトとドキュメントプロパティのエクスポートを無効にできます。ワークブックをHTMLに変換すると、出力ファイルにフレームスクリプトとドキュメントプロパティは含まれません。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-HtmlExportFrameScripts-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

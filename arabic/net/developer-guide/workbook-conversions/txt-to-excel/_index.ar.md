@@ -59,3 +59,4 @@ url: /ar/net/convert-csv-tsv-and-txt-to-excel/
 - [تحميل أو استيراد ملف CSV بالصيغ](/cells/ar/net/load-or-import-csv-file-with-formulas/)
 - [قراءة ملف CSV بعدة ترميزات](/cells/ar/net/reading-csv-file-with-multiple-encodings/)
 
+{{< app/cells/assistant language="csharp" >}}

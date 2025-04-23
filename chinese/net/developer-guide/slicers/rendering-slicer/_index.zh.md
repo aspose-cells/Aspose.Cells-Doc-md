@@ -13,3 +13,4 @@ Aspose.Cells支持对切片器形状进行渲染。如果将工作表转换为�
 ![todo:image_alt_text](rendering-slicer_1)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-RenderingSlicer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

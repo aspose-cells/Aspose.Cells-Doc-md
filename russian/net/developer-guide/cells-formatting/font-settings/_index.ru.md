@@ -79,3 +79,4 @@ Aspose.Cells предоставляет методы класса [**Cell**](htt
 - [Применить эффект верхнего и нижнего индекса к шрифтам](/cells/ru/net/apply-superscript-and-subscript-effects-on-fonts/)
 - [Получение списка используемых шрифтов в электронной таблице или книге](/cells/ru/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 
+{{< app/cells/assistant language="csharp" >}}

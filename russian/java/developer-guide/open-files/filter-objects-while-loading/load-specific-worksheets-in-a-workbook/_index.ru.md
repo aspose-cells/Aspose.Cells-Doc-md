@@ -14,3 +14,4 @@ url: /ru/java/load-specific-worksheets-in-a-workbook/
 ## **Загрузка конкретных листов в книге**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LoadSpecificWorksheetsinWorkbook-LoadSpecificWorksheetsinWorkbook.java" >}}
+{{< app/cells/assistant language="java" >}}

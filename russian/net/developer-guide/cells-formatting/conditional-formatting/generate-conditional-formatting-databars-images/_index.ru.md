@@ -16,3 +16,4 @@ url: /ru/net/generate-conditional-formatting-databars-images/
 В следующем образце кода генерируется изображение панели данных ячейки C1. Сначала он получает объект условного форматирования ячейки, и затем из этого объекта извлекает объект [**DataBar**](https://reference.aspose.com/cells/net/aspose.cells/databar) и использует его метод [**ToImage()**](https://reference.aspose.com/cells/net/aspose.cells/databar/methods/toimage) для создания изображения ячейки. Наконец, он сохраняет изображение на диск.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageConditionalFormatting-GenerateDatabarImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

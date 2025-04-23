@@ -12,3 +12,4 @@ url: /zh/java/create-chart-pdf-with-desired-page-size/
 
 ![todo:image_alt_text](create-chart-pdf-with-desired-page-size_1.png)
 ## **示例代码**
+{{< app/cells/assistant language="java" >}}

@@ -22,3 +22,4 @@ url: /ru/net/add-wordart-watermark-to-worksheet/
 - [Добавление словесного искусства текста с встроенными стилями](/cells/ru/net/add-word-art-text-with-built-in-styles/)
 - [Блокировка водяного знака WordArt](/cells/ru/net/locking-wordart-watermark/)
 - [Установить предварительный стиль WordArt для текста формы](/cells/ru/net/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="csharp" >}}

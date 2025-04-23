@@ -19,3 +19,4 @@ Aspose.Cellsを使用して、ExcelファイルのVBA（Visual Basic for Applica
  Is VBA Project Locked for Viewing: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -24,3 +24,4 @@ Asposeの解決方法は、PDFへ変換する際に次のドキュメント機�
 - 結合セル、改ページ、印刷タイトル
 
 Aspose.CellsがドキュメントをPDFに変換する詳細な仕様については、[こちら](https://docs.aspose.com/cells/net/convert-excel-workbook-to-pdf/)を参照してください。
+{{< app/cells/assistant language="csharp" >}}

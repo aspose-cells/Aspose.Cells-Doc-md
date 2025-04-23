@@ -156,3 +156,4 @@ Apache POIおよびAspose.Cellsを使用して**Create Charts**のソースコ�
 詳細は[Creating Custom Charts](/cells/ja/java/creating-and-customizing-charts/)を参照してください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

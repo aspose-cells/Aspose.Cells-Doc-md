@@ -20,3 +20,4 @@ url: /ar/net/implement-subtotal-or-grand-total-labels-in-other-languages/
 استخدم الفئة التي تم إنشاؤها أعلاه في الشيفرة كالتالي:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-TotalsInOtherLanguages-UsingGlobalizationSettings.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

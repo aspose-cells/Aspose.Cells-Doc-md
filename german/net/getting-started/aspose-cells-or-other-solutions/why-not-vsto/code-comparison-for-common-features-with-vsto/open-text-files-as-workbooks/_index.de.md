@@ -40,3 +40,4 @@ Nachfolgend finden Sie Vergleichscodebeispiele zum Öffnen von Textdateien als A
 {{< /highlight >}}
 ##**Herunterladen**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/OpenTextFilesAsWorkbooks.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

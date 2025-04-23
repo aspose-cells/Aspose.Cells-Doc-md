@@ -46,3 +46,4 @@ url: /ar/net/headings-and-body-theme-font/
 يعرض الشيفرة النموذجية التالية كيفية الحصول على خط سمة محلي.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Local-Theme-Font.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

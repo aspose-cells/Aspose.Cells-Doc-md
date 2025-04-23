@@ -18,3 +18,4 @@ Aspose.Cells, Grafik Veri Etiketlerinin Metin Kaydırmayı Etkinleştirmek veya 
 Aşağıdaki örnek kod, grafik veri etiketlerinin metin kaydırmasını devre dışı bırakmanın nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-DisableTextWrappingForDataLabels-DisableTextWrappingForDataLabels.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

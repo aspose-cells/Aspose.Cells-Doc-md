@@ -13,3 +13,4 @@ url: /ja/net/xml-paper-specification-xps/
 Aspose.Cellsに読み込まれた任意のドキュメントをXPSに変換することができます。Aspose.Cellsは、サポートされているすべての固定配置形式（例：PDF、XPSなど）で同じ高保持度のページレイアウトとレンダリングエンジンを使用して出力を生成します。
 
 Aspose.Cellsは、.NET Framework 3.5のWindows Presentation Foundationクラスに依存することなく、TrueTypeフォントのサブセット化を含めて、直接XPSを生成することができることに値します。これにより、以前のバージョンの.NETを実行するマシンや完全に異なるプラットフォームでAspose.CellsがXPSを生成することが可能となります。
+{{< app/cells/assistant language="csharp" >}}

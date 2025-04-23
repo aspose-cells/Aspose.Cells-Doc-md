@@ -12,3 +12,4 @@ Aspose.Cells offre la possibilité de supprimer un contrôle ActiveX à partir d
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RemoveActiveXControl-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

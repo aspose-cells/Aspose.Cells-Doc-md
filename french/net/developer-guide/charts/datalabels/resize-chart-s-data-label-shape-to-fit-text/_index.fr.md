@@ -22,3 +22,4 @@ Cette option peut être accessible sur l'interface Excel en sélectionnant l'une
 Afin de reproduire la fonctionnalité de redimensionnement des formes d'étiquette de données pour qu'elles s'adaptent au texte d'Excel, les API Aspose.Cells ont exposé la propriété de type booléen [**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext). Le morceau de code suivant montre le simple scénario d'utilisation de la propriété [**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ResizeChartDataLabelToFit-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

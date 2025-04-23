@@ -62,3 +62,4 @@ url: /ar/net/grouping-and-ungrouping-rows-and-columns/
 [**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) لديه تحميل زائد يأخذ معامل بولياني ثالث. يتم تعيينه على **صحيح** يزيل جميع المعلومات المجمّعة. وإلا، يتم إزالة معلومات المجموعة الخارجية فقط.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-UngroupingRowsAndColumns-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

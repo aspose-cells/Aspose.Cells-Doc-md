@@ -41,3 +41,4 @@ url: /zh/java/your-first-aspose-cells-application-hello-world/
 以下示例打开名为**book1.xls**的现有Microsoft Excel模板文件，在第一个工作表的单元格A1中写入单词"Hello World!"，然后将工作簿保存为新文件。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-introduction-OpeningExistingFile-1.java" >}}
+{{< app/cells/assistant language="java" >}}

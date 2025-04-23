@@ -38,3 +38,4 @@ Följande exempel skapar en ny arbetsbok från grunden, skriver Hej världen! i 
 Följande exempel öppnar en befintlig Microsoft Excel-mallfil vid namn "Sample.xlsx", matar in texten "Hej världen!" i cell A1 i det första kalkylarket och sparar arbetsboken.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

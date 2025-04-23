@@ -11,11 +11,11 @@ Wenn eine Zelle Text oder eine Zeichenfolge enthält, die breiter ist als die Ze
 
 - [**TextCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#DEFAULT): Anzeige wie in MS Excel, abhängig von der nächsten Zelle. Wenn die nächste Zelle leer ist, wird die Zeichenfolge überlaufen oder abgeschnitten.
 
-- [**TextCrossType. CROSS_KEEP**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_KEEP): Anzeige der Zeichenfolge wie beim Exportieren von PDF/Bild aus MS Excel
+- [**TextCrossType. CROSS_KEEP**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS-KEEP): Anzeige der Zeichenfolge wie beim Exportieren von PDF/Bild aus MS Excel
 
-- [**TextCrossType.CROSS_OVERRIDE**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_OVERRIDE): Anzeige des gesamten Textes durch Überlaufen anderer Zellen und Überschreiben des Textes in überlaufenen Zellen
+- [**TextCrossType.CROSS_OVERRIDE**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS-OVERRIDE): Anzeige des gesamten Textes durch Überlaufen anderer Zellen und Überschreiben des Textes in überlaufenen Zellen
 
-- [**TextCrossType.STRICT_IN_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#STRICT_IN_CELL): Anzeige nur der Zeichenfolge innerhalb der Zellbreite.
+- [**TextCrossType.STRICT_IN_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#STRICT-IN-CELL): Anzeige nur der Zeichenfolge innerhalb der Zellbreite.
 
 ## **Angabe, wie Zeichen in der Ausgabedatei PDF/Bild mithilfe von TextCrossType überquert werden sollen**
 
@@ -30,3 +30,4 @@ Der folgende Beispielcode lädt die Beispiel-Excel-Datei und speichert sie im PD
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-RenderUsingTextCrossType-1.java" >}}
+{{< app/cells/assistant language="java" >}}

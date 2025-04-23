@@ -15,3 +15,4 @@ Dieser Abschnitt hat folgende Themen:
 
 - [Spalten mit nicht stark typisierten Daten](/cells/de/net/columns-containing-non-strongly-typed-data/)
 - [Spalten mit stark typisierten Daten](/cells/de/net/columns-containing-strongly-typed-data/)
+{{< app/cells/assistant language="csharp" >}}

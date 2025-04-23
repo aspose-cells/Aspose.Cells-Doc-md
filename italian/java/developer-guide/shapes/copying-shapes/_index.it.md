@@ -128,3 +128,4 @@ Questo articolo ha mostrato come copiare diverse forme come immagini, grafici e 
 Aspose.Cells può offrire maggiore flessibilità rispetto ad altri per soluzioni e fornisce velocità, efficienza e affidabilità eccezionali per soddisfare specifiche esigenze dell'applicazione aziendale. I risultati dimostrano che Aspose.Cells ha beneficiato di anni di ricerca, progettazione e attenta sintonizzazione.
 
 Accogliamo con favore le tue domande, commenti e suggerimenti nel [Forum Aspose.Cells](https://forum.aspose.com/c/cells/9).
+{{< app/cells/assistant language="java" >}}

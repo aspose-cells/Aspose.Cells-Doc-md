@@ -19,3 +19,4 @@ También puedes cambiar la alineación del texto dentro de una forma de cuadro d
 [archivo fuente](SampleTextboxExcel2016.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ApplyPartialTextAlignmentToTextBox.java" >}}
+{{< app/cells/assistant language="java" >}}

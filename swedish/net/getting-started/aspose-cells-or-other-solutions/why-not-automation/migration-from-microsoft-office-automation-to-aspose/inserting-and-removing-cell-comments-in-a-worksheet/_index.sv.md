@@ -162,3 +162,4 @@ rng1.Comment.Delete();    
 workbook.Worksheets[0].Comments.RemoveAt("A1");
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -6,3 +6,4 @@ weight: 185
 url: /ar/net/workbook-settings/
 description: إدارة إعدادات ملفات Microsoft Excel.
 ---
+{{< app/cells/assistant language="csharp" >}}

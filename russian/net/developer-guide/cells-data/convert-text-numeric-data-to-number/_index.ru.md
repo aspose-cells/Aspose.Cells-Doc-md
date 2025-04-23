@@ -43,3 +43,4 @@ Aspose.Cells предоставляет метод [**Cells.ConvertStringToNume
 Следующий образец кода показывает, как преобразовать все строковые числовые данные в фактические числа во всех листах книги.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ConvertStringToNumericValue-ConvertTextNumericDatatoNumber.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

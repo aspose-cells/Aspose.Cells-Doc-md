@@ -135,3 +135,4 @@ RowCollection不再继承CollectionBase，因为其内部列表中不再有Row�
 使用Aspose.Cells for Java时，FilterColumnCollection属性已经标记为过时。建议改用AuotFilter.FilterColumns属性。
 ## **用SeriesCollection.SecondCategoryData替换了SeriesCollection.SecondCatergoryData**
 我们基本上纠正了SeriesCollection.SecondCatergoryData属性名称的拼写错误。您可以从现在开始使用SeriesCollection.SecondCategoryData属性，而原始属性SeriesCollection.SecondCatergoryData已被标记为废弃。
+{{< app/cells/assistant language="csharp" >}}

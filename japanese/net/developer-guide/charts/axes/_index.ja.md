@@ -39,3 +39,4 @@ Excelチャートでは、水平軸と垂直軸が最も人気のある軸です
 - [Microsoft Excelのようにチャートの軸の自動単位を処理する](/cells/ja/net/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
 - [チャートを計算した後に軸ラベルを読み取る](/cells/ja/net/read-axis-labels-after-calculating-the-chart/)
 - [Excelチャートでカテゴリ軸を設定する方法](/cells/ja/net/how-to-set-category-axis/)
+{{< app/cells/assistant language="csharp" >}}

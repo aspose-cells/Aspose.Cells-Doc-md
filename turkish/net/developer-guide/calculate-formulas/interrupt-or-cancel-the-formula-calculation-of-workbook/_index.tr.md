@@ -30,3 +30,4 @@ Aşağıdaki örnek kod, [**BeforeCalculate()**](https://reference.aspose.com/ce
 0----7----1----B8
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

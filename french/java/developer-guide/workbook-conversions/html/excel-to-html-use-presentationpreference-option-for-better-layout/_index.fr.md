@@ -20,3 +20,4 @@ Vous pouvez trouver les articles suivants concernant la conversion d'Excel en HT
 - [Désactiver les commentaires révélés de niveau inférieur lors de l'enregistrement en HTML](/cells/fr/java/disable-downlevel-revealed-comments-while-saving-to-html/)
 - [Exporter les propriétés du classeur de document et de la feuille de calcul lors de la conversion d'Excel en HTML](/cells/fr/java/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/)
 - [Exporter la plage de la zone d'impression en HTML](/cells/fr/java/export-print-area-range-to-html/)
+{{< app/cells/assistant language="java" >}}

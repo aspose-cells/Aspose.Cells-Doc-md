@@ -23,3 +23,4 @@ url: /zh/net/get-range-with-external-links/
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-GetRangeWithExternalLinks-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

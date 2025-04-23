@@ -10,3 +10,4 @@ url: /zh/net/working-with-formatting-features-in-npoi-and-aspose-cells/
 - [边框处理](/cells/zh/net/working-with-borders/)
 - [颜色处理](/cells/zh/net/working-with-colors/)
 - [字体处理](/cells/zh/net/working-with-fonts/)
+{{< app/cells/assistant language="csharp" >}}

@@ -187,3 +187,4 @@ workbook.save("output.xlsx");
 Si prega di controllare l'articolo [Copia Sparkline Specificando Raggio dei Dati e Posizione del Gruppo Sparkline](/cells/it/java/copiare-sparkline-specificando-raggio-dei-dati-e-posizione-del-gruppo-sparkline/) per ulteriori informazioni.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

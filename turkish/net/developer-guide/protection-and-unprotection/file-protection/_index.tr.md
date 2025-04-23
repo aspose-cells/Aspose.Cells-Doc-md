@@ -48,3 +48,4 @@ Koruma altındaki Excel dosyasını açmak ve Aspose.Cells API'sını kullanarak
 - [Çalışma Kitabını Yazma Koruması Sırasında Yazar Belirtme](/cells/tr/net/specify-author-while-write-protecting-workbook/)
 - [Şifreli Dosyaların Parolasını Doğrulama](/cells/tr/net/verify-password-of-encrypted-excel-and-ods-files/)
 
+{{< app/cells/assistant language="csharp" >}}

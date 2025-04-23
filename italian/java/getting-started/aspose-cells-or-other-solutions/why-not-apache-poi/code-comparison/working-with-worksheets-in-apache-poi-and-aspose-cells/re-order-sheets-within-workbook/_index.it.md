@@ -75,3 +75,4 @@ fileOut.close();
 Per ulteriori dettagli, visitare [Copia e Spostamento dei Fogli di Lavoro](/cells/it/java/copying-and-moving-worksheets).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

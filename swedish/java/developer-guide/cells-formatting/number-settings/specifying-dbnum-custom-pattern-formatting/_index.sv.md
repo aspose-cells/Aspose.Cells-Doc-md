@@ -14,3 +14,4 @@ Aspose.Cells stöder det *DBNum*	anpassade mönsterformatet. Till exempel, om ce
 Följande kodexempel illustrerar hur man specificerar *DBNum*	anpassat mönsternedan. Var god kontrollera [utdata PDF](43352082.pdf) för mer hjälp.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SpecifyingDBNumCustomPatternFormatting.java" >}}
+{{< app/cells/assistant language="java" >}}

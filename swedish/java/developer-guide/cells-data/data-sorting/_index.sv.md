@@ -62,7 +62,7 @@ För att sortera *VänsterTillHöger*, använd [**DataSorter.SortLeftToRight**](
 
 ## **Sortera data med bakgrundsfärg**
 
-Excel tillhandahåller funktionen att sortera data baserat på bakgrundsfärg. Samma funktion tillhandahålls med hjälp av Aspose.Cells med [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter), där [**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL_COLOR) kan användas i [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int)) för att sortera data baserat på bakgrundsfärg. Alla celler som innehåller angiven färg i [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int))-funktionen placeras överst eller längst ned enligt SortOrder-inställningen och ordningen för resten av cellerna ändras inte alls.
+Excel tillhandahåller funktionen att sortera data baserat på bakgrundsfärg. Samma funktion tillhandahålls med hjälp av Aspose.Cells med [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter), där [**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL-COLOR) kan användas i [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-) för att sortera data baserat på bakgrundsfärg. Alla celler som innehåller angiven färg i [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-)-funktionen placeras överst eller längst ned enligt SortOrder-inställningen och ordningen för resten av cellerna ändras inte alls.
 
 Följande är provfiler som kan laddas ned för att testa denna funktion:
 
@@ -78,3 +78,4 @@ Följande är provfiler som kan laddas ned för att testa denna funktion:
 - [Sortera Data i Kolumn med Anpassad Sorteringslista](/cells/sv/java/sort-data-in-column-with-custom-sort-list/)
 - [Angivande av sorteringsvarning vid sortering av data](/cells/sv/java/specifying-sort-warning-while-sorting-data/)
 
+{{< app/cells/assistant language="java" >}}

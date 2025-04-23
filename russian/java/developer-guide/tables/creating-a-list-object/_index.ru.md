@@ -53,3 +53,4 @@ Aspose.Cells предоставляет класс [**Workbook**](https://refere
 В приведенном ниже примере мы создали тот же [**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) с использованием API Aspose.Cells, что и при создании в Microsoft Excel в предыдущем разделе.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-CreatingListObject-CreatingListObject.java" >}}
+{{< app/cells/assistant language="java" >}}

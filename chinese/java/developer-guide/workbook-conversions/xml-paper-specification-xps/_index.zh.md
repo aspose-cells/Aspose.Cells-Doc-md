@@ -20,3 +20,4 @@ Aspose.Cells 使用相同的高保真页面布局和渲染引擎来生成其所�
 ![todo:image_alt_text](xml-paper-specification-xps_2.png)
 
 ![todo:image_alt_text](xml-paper-specification-xps_3.png)
+{{< app/cells/assistant language="java" >}}

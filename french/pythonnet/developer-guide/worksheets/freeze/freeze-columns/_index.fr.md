@@ -4,8 +4,8 @@ linktitle: Geler les colonnes
 type: docs
 weight: 190
 url: /fr/python-net/how-to-freeze-columns-of-excel-worksheet
-description: Dans cet article, vous apprendrez comment figer les colonnes de gauche des feuilles de calcul Excel de manière programmable en utilisant Aspose.Cells pour Python via .NET APIs.
-keywords: Bibliothèque Excel Python, Figer les colonnes de gauche en Python, Figer les premières colonnes en Python, Verrouiller les colonnes en Python.
+description: Dans cet article, vous apprendrez comment figer les colonnes de gauche des feuilles Excel de manière programmatique en utilisant Aspose.Cells pour Python via .NET APIs.
+keywords: Bibliothèque Excel Python, Figer les colonnes de gauche en Python, Figer la première colonne en Python, Verrouiller les colonnes en Python.
 ---
 
 ## **Introduction**
@@ -33,7 +33,7 @@ Geler les colonnes vous permet de visualiser vos longues données sans avoir à 
 
 
 ## **Comment figer les colonnes avec Aspose.Cells pour la bibliothèque Excel Python**
-Il est simple de figer la première colonne(s) avec Aspose.Cells pour Python via .NET. Veuillez utiliser la méthode [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) pour figer la colonne(s) sélectionnée(s).
+Il est simple de figer la ou les premières colonnes avec Aspose.Cells pour Python via .NET. Veuillez utiliser la méthode [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) pour figer la ou les colonnes à la colonne sélectionnée.
 1. Construisez un classeur pour ouvrir le fichier ou créez un fichier vide.
 2. Gelez la première colonne avec la méthode Worksheet.FreezePanes().
 3. Enregistrez le fichier.

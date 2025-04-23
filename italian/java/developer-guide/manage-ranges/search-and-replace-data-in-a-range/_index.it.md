@@ -13,7 +13,7 @@ A volte è necessario cercare e sostituire dati specifici in un intervallo, igno
 
 {{% /alert %}}
 
-Aspose.Cells fornisce il metodo [**FindOptions.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange(com.aspose.cells.CellArea)) per specificare un intervallo durante la ricerca di dati.
+Aspose.Cells fornisce il metodo [**FindOptions.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange-com.aspose.cells.CellArea-) per specificare un intervallo durante la ricerca di dati.
 
 Supponiamo di voler cercare la stringa **"cerca"** e sostituirla con **"sostituisci"** nell'intervallo **E3:H6**. Nella schermata sottostante, la stringa "cerca" può essere vista in diverse celle ma vogliamo sostituirla solo in un dato intervallo, qui evidenziato in giallo.
 
@@ -32,3 +32,4 @@ Dopo l'esecuzione del codice, il file di output appare come di seguito. Tutte le
 ## Articoli correlati
 
 - [Trova o cerca dati](/cells/it/java/find-or-search-data/)
+{{< app/cells/assistant language="java" >}}

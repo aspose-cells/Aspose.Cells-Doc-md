@@ -111,3 +111,4 @@ Aspose.Cells for .NET, tüm elektronik tablo öğelerinin biçimlendirme özelli
 |Kenar boşluklarınızı ve sayfa ortalamasını belirtin.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Başlık ve/veya altbilgi oluşturun veya düzenleyin.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Baskı alanı, baskı başlıkları belirleyin veya ızgaraları açın, vb.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< app/cells/assistant language="csharp" >}}

@@ -16,3 +16,4 @@ Aşağıdaki örnek kod, önce hiç serisi olmayan boş grafikte bir seri ekler.
 ![todo:image_alt_text](set-the-values-format-code-of-chart-series_1.png)
 ## **Örnek Kod**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SetValuesFormatCodeOfChartSeries.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -21,3 +21,4 @@ Bu öğe için olası değerler, W3C XML Şema boolean veri türü tarafından t
 Aşağıdaki örnek kod, çalışma kitabının [ScaleCrop](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#ScaleCrop) ve [LinksUpToDate](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#LinksUpToDate) genişletilmiş yerleşik belge özelliklerini ayarlar. Bu kod ile oluşturulan [çıktı excel dosyasını](5472494.xlsx) kontrol edin, uzantısını .zip olarak değiştirin ve içeriğini çıkarın ve yukarıdaki ekran görüntüsünde görüldüğü gibi aap.xml'i görüntüleyin.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingScaleCropLinksUpToDate-SettingScaleCropLinksUpToDate.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -21,3 +21,4 @@ Verwenden Sie bitte den Download-Link, der Ihrer JDK/JRE-Version entspricht.
 - [Unbeschränkte Stärke der Richtlinien für die kryptografische Erweiterung (JCE) in Java 6](https://www.oracle.com/java/technologies/jce-6-download.html)
 - [Unbeschränkte Stärke der Richtlinien für die kryptografische Erweiterung (JCE) in Java 7](https://www.oracle.com/java/technologies/jce-7-download.html)
 - [Unbeschränkte Stärke der Richtlinien für die kryptografische Erweiterung (JCE) in Java 8](https://www.oracle.com/java/technologies/javase-jce8-downloads.html)
+{{< app/cells/assistant language="java" >}}

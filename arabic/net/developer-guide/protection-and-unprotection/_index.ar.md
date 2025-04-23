@@ -34,3 +34,4 @@ description: يقدم هذا المقتطف كيفية تشفير وفك تشف�
 - [كشف تنسيق الملف لملفات Office Open XML المشفرة - OOXML](/cells/ar/net/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [تشفير ملفات Excel](/cells/ar/net/encrypting-excel-files/)
 - [كيفية كشف تنسيق ملف والتحقق مما إذا كان الملف مشفرًا](/cells/ar/net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="csharp" >}}

@@ -97,9 +97,7 @@ Aspose.Cells Grid Suite مكون من ثلاثة عناصر:
 {{% /alert %}} 
 ### **Aspose.Cells.GridDesktop**
 #### **.NET Framework**
-- .NET Framework 2.0
-- .NET Framework 3.0
-- .NET Framework 3.5
+
 - .NET Framework 4.0
 - .NET Framework 4.5
 - .NET Framework 4.5.1
@@ -142,9 +140,6 @@ Aspose.Cells Grid Suite مكون من ثلاثة عناصر:
 - Microsoft Windows 11
 ### **Aspose.Cells.GridWeb**
 #### **.NET Framework**
-- .NET Framework 2.0
-- .NET Framework 3.0
-- .NET Framework 3.5
 - .NET Framework 4.0
 - .NET Framework 4.5
 - .NET Framework 4.5.1
@@ -157,10 +152,12 @@ Aspose.Cells Grid Suite مكون من ثلاثة عناصر:
 - .NET Framework 4.8
 - .NET Framework 4.8.1
 ### **.NET Core**
-- .NET 6.0 windows 
+- .NET 6.0 أنظمة ويندوز وغير ويندوز
 - .NET 7.0 windows
+- .NET 8.0 أنظمة ويندوز
 #### **حزم Nuget المشار إليها بواسطة Aspose.Cells.GridWeb For .NET Core**
-- System.Drawing.Common, 7.0.0.
+- System.Drawing.Common, 7.0.0 (على نظام Windows).
+- SkiaSharp ، 2.88.3 (على أنظمة غير ويندوز)
 - System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.3.
 #### **أدوات التطوير**
@@ -226,3 +223,4 @@ Aspose.Cells Grid Suite مكون من ثلاثة عناصر:
 - لينكس (أوبونتو، openSUSE، CentOS، Debian، Alpine وغيرها)
 ### **Mac**
 - نظام التشغيل macOS X، macOS High Sierra، الخ
+{{< app/cells/assistant language="csharp" >}}

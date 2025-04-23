@@ -145,3 +145,4 @@ Aspose.Cells为处理JSON提供了一个[**JsonUtility**](https://reference.aspo
 ## **高级主题**
 - [在工作表导入数据时指定公式字段](/cells/zh/net/specify-formula-fields-while-importing-data-to-worksheet/)
 - [将单元格数据表行插入时将第一行向下移动](/cells/zh/net/shift-first-row-down-when-inserting-cells-data-table-rows/)
+{{< app/cells/assistant language="csharp" >}}

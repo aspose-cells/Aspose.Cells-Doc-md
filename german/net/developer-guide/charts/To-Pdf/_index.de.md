@@ -20,3 +20,4 @@ Sie können mit Aspose.Cells ein Diagramm-PDF mit Ihrer gewünschten Seitengrö�
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Charts-CreateChartPDFWithDesiredPageSize.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

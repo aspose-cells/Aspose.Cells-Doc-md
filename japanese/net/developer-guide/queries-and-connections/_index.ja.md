@@ -6,3 +6,4 @@ url: /ja/net/managing-database-connections/
 ---
 
 
+{{< app/cells/assistant language="csharp" >}}

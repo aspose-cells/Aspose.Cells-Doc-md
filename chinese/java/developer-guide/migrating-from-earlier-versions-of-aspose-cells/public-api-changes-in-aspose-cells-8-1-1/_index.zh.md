@@ -34,3 +34,4 @@ HtmlSaveOptions类已公开PresentationPreference属性的getter/setter，用于
 {{% /alert %}}
 ## **CellsException的行为变更**
 在以前的Aspose.Cells for Java API版本中，当在工作簿的实例中加载可能损坏的电子表格时，API倾向于抛出一个通用消息，而没有提及问题可能出现的地方。我们已经改变了这种行为，以便于8.1.1时API抛出一个带有有意义的消息的异常，指出异常发生的地方（哪个单元格）和原因（公式表达式）。
+{{< app/cells/assistant language="java" >}}

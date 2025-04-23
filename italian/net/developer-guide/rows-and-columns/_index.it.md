@@ -77,3 +77,4 @@ Per impostare la stessa larghezza della colonna per tutte le colonne nel foglio 
 - [Inserimento ed eliminazione di righe e colonne di un file di Excel](/cells/it/net/inserting-and-deleting-rows-and-columns/)
 - [Rimuovere righe duplicate in un foglio di lavoro](/cells/it/net/remove-duplicate-rows-in-a-worksheet/)
 - [Aggiorna i riferimenti in altri fogli di lavoro mentre elimini colonne e righe vuote in un foglio di lavoro](/cells/it/net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

@@ -73,3 +73,4 @@ Lütfen aşağıdakilere dikkat edin:
 - "FontDirSet" dizesi, gereken yazı tiplerini içeren klasörün tam yolunu olmalıdır.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

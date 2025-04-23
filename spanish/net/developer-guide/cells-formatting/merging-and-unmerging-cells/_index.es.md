@@ -55,3 +55,4 @@ El siguiente ejemplo muestra cómo separar las celdas combinadas (C6). El ejempl
 
 ## **Temas avanzados**
 - [Detectar celdas combinadas en una hoja de cálculo](/cells/es/net/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

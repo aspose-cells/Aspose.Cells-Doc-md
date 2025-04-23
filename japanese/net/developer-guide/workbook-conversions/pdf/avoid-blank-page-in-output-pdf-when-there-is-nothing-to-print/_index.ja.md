@@ -34,3 +34,4 @@ Excelファイルが空で、そのファイルをAspose.CellsでPDFに保存す
        at Aspose.Cells.Workbook.Save(String fileName, SaveOptions saveOptions)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

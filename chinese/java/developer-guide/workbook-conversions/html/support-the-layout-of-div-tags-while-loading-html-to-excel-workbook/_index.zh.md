@@ -14,3 +14,4 @@ url: /zh/java/support-the-layout-of-div-tags-while-loading-html-to-excel-workboo
 以下示例代码演示了[HtmlLoadOptions.SupportDivTag](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#SupportDivTag)属性的用法。请下载代码生成的输入HTML中使用的[Aspose标识](5473442.png)和生成的[输出excel文件](5473439.xlsx)。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-SupportthelayoutofDIVtags-1.java" >}}
+{{< app/cells/assistant language="java" >}}

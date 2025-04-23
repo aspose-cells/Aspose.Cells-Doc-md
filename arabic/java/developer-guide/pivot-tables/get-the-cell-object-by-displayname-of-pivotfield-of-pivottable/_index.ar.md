@@ -7,7 +7,7 @@ url: /ar/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells توفر [PivotTable.getCellByDisplayName()](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getCellByDisplayName\(java.lang.String\)) الأساليب التي يمكنك استخدامها للوصول إلى كائن الخلية حسب اسم العرض لحقل الدوران. هذا الأسلوب مفيد عندما ترغب في تحديد أو تنسيق رأس حقل الدوران الخاص بك. يشرح هذا المقال كيفية استرداد كائن الخلية حسب اسم العرض لحقل البيانات ثم تطبيق التنسيق عليه.
+يوفر Aspose.Cells طريقة [PivotTable.getCellByDisplayName()](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getCellByDisplayName-java.lang.String-) التي يمكنك استخدامها للوصول إلى كائن الخلية من خلال اسم عرض حقل البيانات. هذه الطريقة مفيدة عند رغبتك في تمييز أو تنسيق رأس حقل البيانات الخاص بك. يوضح هذا المقال كيف تسترجع كائن الخلية بواسطة اسم عرض الحقل البيانات ثم تطبق تنسيقًا عليه.
 
 {{% /alert %}} 
 ## **الحصول على كائن الخلية حسب اسم العرض لحقل PivotField من جدول الدوران**
@@ -24,3 +24,4 @@ Aspose.Cells توفر [PivotTable.getCellByDisplayName()](https://reference.aspo
 
 
 
+{{< app/cells/assistant language="java" >}}

@@ -22,3 +22,4 @@ Följande exempel visar hur man renderar en rad sidor (3 och 4) i en Microsoft E
 Om kalkylbladet innehåller formler är det bäst att anropa [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) precis innan du renderar det till PDF. Det säkerställer att formelberoende värden beräknas om och de korrekta värdena renderas i den utdatafil som genereras.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

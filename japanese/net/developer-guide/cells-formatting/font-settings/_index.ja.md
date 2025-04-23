@@ -79,3 +79,4 @@ Aspose.Cellsは、[**Cell**](https://reference.aspose.com/cells/net/aspose.cells
 - [フォントに上付き文字および下付き文字効果を適用する](/cells/ja/net/apply-superscript-and-subscript-effects-on-fonts/)
 - [スプレッドシートまたはブックで使用されているフォントのリストを取得する](/cells/ja/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 
+{{< app/cells/assistant language="csharp" >}}

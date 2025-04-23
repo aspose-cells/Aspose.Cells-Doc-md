@@ -29,3 +29,4 @@ Bu bölümdeki konular şunlardır:
 - [ArrayList'ten Alınan Veri](/cells/tr/net/importing-from-arraylist/)
 - [Özel Nesnelerden Alınan Veri](/cells/tr/net/importing-from-custom-objects/)
 - [DataTable'dan Alınan Veri](/cells/tr/net/importing-from-datatable/)
+{{< app/cells/assistant language="csharp" >}}

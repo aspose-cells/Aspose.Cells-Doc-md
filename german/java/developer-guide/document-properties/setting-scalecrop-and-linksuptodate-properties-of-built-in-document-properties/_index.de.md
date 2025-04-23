@@ -21,3 +21,4 @@ Die möglichen Werte für dieses Element sind durch den Datentyp boolean des W3C
 Der folgende Beispielcode setzt die [ScaleCrop](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#ScaleCrop) und [LinksUpToDate](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#LinksUpToDate) erweiterten integrierten Dokumenteigenschaften der Arbeitsmappe. Bitte überprüfen Sie die mit diesem Code generierte [Ausgabedatei Excel](5472494.xlsx), ändern Sie ihre Erweiterung in .zip, extrahieren Sie ihre Inhalte und betrachten Sie die aap.xml wie im obigen Screenshot gezeigt.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingScaleCropLinksUpToDate-SettingScaleCropLinksUpToDate.java" >}}
+{{< app/cells/assistant language="java" >}}

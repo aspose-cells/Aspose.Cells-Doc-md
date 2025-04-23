@@ -67,3 +67,4 @@ En testfil för att testa den här funktionen kan laddas ner från följande lä
 Aspose.Cells stöder också öppning av lösenordsskyddade Microsoft Excel 2007, 2010, 2013, 2016, 2019, Office 365 filer.
 
 
+{{< app/cells/assistant language="csharp" >}}

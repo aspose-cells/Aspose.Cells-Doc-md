@@ -19,3 +19,4 @@ Treemap图表适用于比较层次结构内的比例，然而，Treemap图表并
 以下示例代码加载 [样本 Excel 文件](sunburst.xlsx) 并生成 [输出 Excel 文件](out.xlsx)。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "create-sunburst-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

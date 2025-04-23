@@ -7,11 +7,11 @@ url: /ja/java/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquer
 
 ## **可能な使用シナリオ**
 
-Aspose.Cellsを使用して、[**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap))メソッドを使ってXMLマップパスにマップされたセルエリアをクエリできます。パスが存在する場合、XMLマップ内のそのパスに関連するセルエリアのリストが返されます。[**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap))メソッドの最初のパラメータはXML要素パスを指定し、2番目のパラメータはクエリしたいXMLマップを指定します。
+Aspose.Cellsを使用して、[**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery-java.lang.String-com.aspose.cells.XmlMap-)メソッドを使ってXMLマップパスにマップされたセルエリアをクエリできます。パスが存在する場合、XMLマップ内のそのパスに関連するセルエリアのリストが返されます。[**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery-java.lang.String-com.aspose.cells.XmlMap-)メソッドの最初のパラメータはXML要素パスを指定し、2番目のパラメータはクエリしたいXMLマップを指定します。
 
 ## **ワークシート.XmlMapQueryメソッドを使用して、XMLマップパスにマップされたセルエリアをクエリします。**
 
-次のスクリーンショットは、コードで使用される[sample Excelファイル](55541818.xlsx)内のMicrosoft ExcelがXMLマップを表示しています。コードはXMLマップを2回クエリし、コンソールに表示される[**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap))メソッドによって返されるセルエリアのリストを以下のように出力します。
+次のスクリーンショットは、コードで使用される[sample Excelファイル](55541818.xlsx)内のMicrosoft ExcelがXMLマップを表示しています。コードはXMLマップを2回クエリし、コンソールに表示される[**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery-java.lang.String-com.aspose.cells.XmlMap-)メソッドによって返されるセルエリアのリストを以下のように出力します。
 
 ![todo:image_alt_text](query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method_1.png)
 
@@ -50,3 +50,4 @@ XMLデータはワークシートにインポートできます。ワークシ�
 1. [FoodList.xml](FoodList.xml)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-XmlMaps-GetXMLPathFromListObject.java" >}}
+{{< app/cells/assistant language="java" >}}

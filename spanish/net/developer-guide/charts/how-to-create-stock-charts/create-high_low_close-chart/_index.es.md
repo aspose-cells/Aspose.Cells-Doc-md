@@ -19,3 +19,4 @@ A veces, para que el gráfico luzca más intuitivo, podemos modificar la aparien
 El siguiente código de ejemplo carga el [archivo de Excel de muestra](High-Low-Close.xlsx) y genera el [archivo de Excel de salida](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-high-low-close-stock-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

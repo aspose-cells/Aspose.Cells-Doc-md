@@ -3,8 +3,8 @@ title: ضبط خيارات الطباعة
 type: docs
 weight: 40
 url: /ar/python-net/setting-print-options/
-description: يوضح هذا المقال كيفية ضبط إعدادات الطباعة لميزة إعداد الصفحة في ورقة عمل Excel برمجيًا باستخدام Aspose.Cells لبايثون via .NET API. يمكنك تعيين منطقة الطباعة وعناوين الطباعة وترتيب الصفحة.
-keywords: مكتبة بايثون لإكسل, تعيين منطقة الطباعة لإكسل بايثون, تعيين عناوين الطباعة لإكسل, كيفية تعيين ترتيب الصفحة في إكسل بايثون, كيفية تعيين خيارات الطباعة بايثون, كيفية تعيين منطقة الطباعة بايثون, كيفية تعيين عناوين الطباعة بايثون. 
+description: توضح هذه المقالة كيفية تعيين إعدادات الطباعة بشكل برمجي باستخدام ميزة إعداد صفحة ورقة العمل في Excel باستخدام واجهة برمجة تطبيقات Aspose.Cells لـ Python via .NET. يمكنك تعيين منطقة الطباعة، عناوين الطباعة وترتيب الصفحة.
+keywords: مكتبة بايثون Excel، إعداد منطقة الطباعة في Excel باستخدام بايثون، تعيين عناوين الطباعة في Excel بواسطة بايثون، كيفية تعيين ترتيب الصفحة في Excel بواسطة بايثون، كيفية تعيين خيارات الطباعة في بايثون، كيفية تعيين منطقة الطباعة في بايثون، كيفية تعيين عناوين الطباعة في بايثون. 
 ---
 
 {{% alert color="primary" %}}
@@ -26,7 +26,7 @@ keywords: مكتبة بايثون لإكسل, تعيين منطقة الطباع
 - طباعة أخطاء الخلية.
 - تعريف ترتيب الصفحات.
 
-تدعم Aspose.Cells لبايثون via .NET جميع خيارات الطباعة المُقدمة من Microsoft Excel ويمكن للمطورين تكوين هذه الخيارات بسهولة للأوراق العمل باستخدام الخصائص التي تُقدمها الفئة [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup). كيفية استخدام هذه الخصائص يتم مناقشتها أدناه بمزيد من التفصيل.
+يدعم Aspose.Cells لـ Python via .NET جميع خيارات الطباعة التي تقدمها Microsoft Excel ويستطيع المطورون تكوين هذه الخيارات بسهولة لورقات العمل باستخدام الخصائص التي تقدمها فئة [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup). يتم مناقشة كيفية استخدام هذه الخصائص بشكل أكثر تفصيلًا أدناه.
 
 ## **كيفية تعيين منطقة الطباعة**
 
@@ -38,13 +38,13 @@ keywords: مكتبة بايثون لإكسل, تعيين منطقة الطباع
 
 ## **كيفية تعيين عناوين الطباعة**
 
-يسمح Aspose.Cells لبايثون via .NET بتحديد عناوين الصف والعمود لتكرارها على جميع صفحات ورقة العمل المطبوعة. للقيام بذلك، استخدم خصائص الفئة [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) [**print_title_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_title_columns/) و [**print_title_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_title_rows).
+يسمح Aspose.Cells لـ Python via .NET بتحديد رؤوس الصفوف والأعمدة لتكرارها في جميع صفحات ورقة العمل المطبوعة. للقيام بذلك، استخدم خصائص فئة [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) [**print_title_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_title_columns/) و [**print_title_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_title_rows).
 
 يتم تعريف الصفوف أو الأعمدة التي ستتكرر عن طريق تمرير أرقامها. على سبيل المثال، يتم تعريف الصفوف كـ $1:$2 والأعمدة كـ $A:$B.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPrintTitle-1.py" >}}
 
-## **كيفية تعيين خيارات الطباعة الأخرى**
+## **كيفية تعيين خيارات طباعة أخرى**
 
 فئة [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) توفر أيضا عدة خصائص أخرى لتعيين خيارات الطباعة العامة على النحو التالي:
 
@@ -61,9 +61,9 @@ keywords: مكتبة بايثون لإكسل, تعيين منطقة الطباع
 
 |**أنواع التعليقات المطبوعة**|**الوصف**|
 | :- | :- |
-|PRINT_IN_PLACE|يحدد طباعة التعليقات كما هي معروضة على ورقة العمل.|
-|PRINT_NO_COMMENTS|يحدد عدم طباعة التعليقات.|
-|PRINT_SHEET_END|يحدد طباعة التعليقات في نهاية ورقة العمل.|
+|PRINT_IN_PLACE|تحديد طباعة التعليقات كما هو معروض على ورقة العمل.|
+|PRINT_NO_COMMENTS|تحديد عدم طباعة التعليقات.|
+|PRINT_SHEET_END|تحديد طباعة التعليقات في نهاية ورقة العمل.|
 
 تم إدراج القيم المحددة مسبقًا لتعداد [**PrintErrorsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printerrorstype) أدناه مع وصفها.
 
@@ -71,10 +71,10 @@ keywords: مكتبة بايثون لإكسل, تعيين منطقة الطباع
 
 | **أنواع أخطاء الطباعة** | **الوصف** |
 | :- | :- |
-|PRINT_ERRORS_BLANK|يحدد عدم طباعة الأخطاء.|
-|PRINT_ERRORS_DASH|يحدد طباعة الأخطاء ك "--".|
-|PRINT_ERRORS_DISPLAYED|يحدد طباعة الأخطاء كما هي معروضة.|
-|PRINT_ERRORS_NA|يحدد طباعة الأخطاء ك "#N/A".|
+|PRINT_ERRORS_BLANK|تحديد عدم طباعة الأخطاء.|
+|PRINT_ERRORS_DASH|تحديد طباعة الأخطاء على شكل "--".|
+|PRINT_ERRORS_DISPLAYED|تحديد طباعة الأخطاء كما تظهر.|
+|PRINT_ERRORS_NA|تحديد طباعة الأخطاء كـ "#N/A".|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-OtherPrintOptions-1.py" >}}
 
@@ -91,7 +91,7 @@ keywords: مكتبة بايثون لإكسل, تعيين منطقة الطباع
 
 | **أنواع ترتيب الطباعة** | **الوصف** |
 | :- | :- |
-|DOWN_THEN_OVER|يمثل ترتيب الطباعة كانتقال إلى الأسفل ثم الى اليمين.|
-|OVER_THEN_DOWN|يمثل ترتيب الطباعة كالانتقال الى اليمين ثم إلى الأسفل.|
+|DOWN_THEN_OVER|يمثل ترتيب الطباعة على شكل نزول ثم انتقال أفقيًا.|
+|OVER_THEN_DOWN|يمثل ترتيب الطباعة كفوق ثم أسفل.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPageOrder-1.py" >}}

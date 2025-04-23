@@ -31,3 +31,4 @@ Die Signaturen der genannten Methoden lauten wie folgt:
 Bitte prüfen Sie den ausführlichen Artikel zu [Automatisches Anpassen von Zeilen und Spalten](http://aspose.com/docs/display/cellsnet/AutoFit+Rows+and+Columns).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

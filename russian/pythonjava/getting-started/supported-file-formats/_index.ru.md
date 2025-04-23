@@ -23,9 +23,10 @@ url: /ru/python-java/supported-file-formats/
 |[MHTML](https://docs.fileformat.com/web/mhtml/)|Файл MHTML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)|ODS (Файл для OpenDocument Spreadsheet).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |SpreadsheetML| Файл XML Excel 2003 года. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-|[Numbers](https://docs.fileformat.com/spreadsheet/numbers/)| Документ создан приложением "Numbers" компании Apple, входящим в пакет офисных приложений iWork компании Apple, работающих под управлением операционных систем Mac OS X и iOS. | {{< emoticons/tick >}} | |
+|[Numbers](https://docs.fileformat.com/spreadsheet/numbers/)|Документ создан приложением Apple "Numbers", входящим в офисный пакет iWork, набор приложений, работающих на Mac OS X и iOS.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[JSON](https://docs.fileformat.com/web/json/)| Нотация объектов JavaScript | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-|[DIF](https://docs.fileformat.com/spreadsheet/dif/)| Формат обмена данными. |  | {{< emoticons/tick >}} |
+|[DIF](https://docs.fileformat.com/spreadsheet/dif/)|Формат обмена данными.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[DBF](https://docs.fileformat.com/database/dbf/)|Файл с расширением .dbf — это файл базы данных, используемый приложением системы управления базами данных под названием dBASE.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[PDF](https://docs.fileformat.com/pdf/)|Формат Adobe Portable Document Format.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|Формат XML Paper Specification.| |{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|Формат масштабируемой векторной графики.| |{{< emoticons/tick >}}|
@@ -45,4 +46,4 @@ url: /ru/python-java/supported-file-formats/
 |[Epub](https://docs.fileformat.com/ebook/epub/)|Файлы с расширением .epub - это формат электронных книг, который предоставляет стандартный цифровой формат публикации для издателей и потребителей.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Xml](https://docs.fileformat.com/web/xml/)|XML означает расширяемый язык разметки, который похож на HTML, но отличается использованием тегов для определения объектов.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Файл шаблона для открытого документа (OTS).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW — это цифровой формат электронных книг, разработанный компанией Amazon для своих устройств Kindle. AZW3, также известный как Kindle Format 8 (KF8).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW — это цифровой формат файла электронных книг, разработанный Amazon для устройств Kindle. AZW3, также известный как Kindle Format 8 (KF8).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

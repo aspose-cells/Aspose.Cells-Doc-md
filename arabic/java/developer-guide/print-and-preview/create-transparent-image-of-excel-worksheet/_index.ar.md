@@ -26,3 +26,4 @@ url: /ar/java/create-transparent-image-of-excel-worksheet/
 يمكنك استخدام الكود المثال التالي لإنشاء صورة شفافة لورقة عمل Excel الخاصة بك.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CreateTransparentImage-1.java" >}}
+{{< app/cells/assistant language="java" >}}

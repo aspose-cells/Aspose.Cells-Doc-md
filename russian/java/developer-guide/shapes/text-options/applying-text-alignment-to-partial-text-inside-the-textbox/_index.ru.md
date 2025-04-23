@@ -19,3 +19,4 @@ keywords: применить/установить выравнивание те�
 [исходный файл](SampleTextboxExcel2016.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ApplyPartialTextAlignmentToTextBox.java" >}}
+{{< app/cells/assistant language="java" >}}

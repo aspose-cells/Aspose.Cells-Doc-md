@@ -24,3 +24,4 @@ Dies ist die Konsolenausgabe des obigen Beispielcodes, dass mit der bereitgestel
 Is VBA Project Locked for Viewing: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

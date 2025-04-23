@@ -80,3 +80,4 @@ Vous ne pouvez utiliser que des styles de ligne fine pour la bordure de contour.
 - [Générer des images de barres de données pour la mise en forme conditionnelle](/cells/fr/net/generate-conditional-formatting-databars-images/)
 - [Obtenir des ensembles d'icônes, des barres de données ou des objets de couleurs utilisés dans la mise en forme conditionnelle](/cells/fr/net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
 
+{{< app/cells/assistant language="csharp" >}}

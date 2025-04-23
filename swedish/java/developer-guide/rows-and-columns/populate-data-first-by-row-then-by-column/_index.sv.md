@@ -18,3 +18,4 @@ Att placera data i sekvensen A1, B1, A2, B2 går snabbare än A1, A2, B1, B2. Om
 ## Java-kod för att fylla data först per rad och sedan per kolumn
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PopulateDatabyRowthenColumn-PopulateDatabyRowthenColumn.java" >}}
+{{< app/cells/assistant language="java" >}}

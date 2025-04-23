@@ -38,3 +38,4 @@ Aspose.Cells поддерживает вставку диапазона с оп�
 - [Копировать высоты строк исходного диапазона в целевой диапазон](/cells/ru/net/copy-row-heights-of-source-range-to-destination-range/)
 
 
+{{< app/cells/assistant language="csharp" >}}

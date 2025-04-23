@@ -28,3 +28,4 @@ Eseguendo il codice viene creata un'immagine solo dell'intervallo E8:H10.
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ExportRangeofCells-1.java" >}}
 
 Potresti trovare utile anche l'articolo [Conversione foglio di lavoro in diversi formati di immagine](/cells/it/java/converting-worksheet-to-different-image-formats/).
+{{< app/cells/assistant language="java" >}}

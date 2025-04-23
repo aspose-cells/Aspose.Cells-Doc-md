@@ -24,3 +24,4 @@ Les graphiques boursiers sont un type de graphique spécifique utilisé pour sui
 Les données ci-dessous montrent les informations de trading quotidien pour une action. Nous allons utiliser ces données pour créer chacun des 4 graphiques d'actions disponibles dans Aspose.Cells. 
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="java" >}}

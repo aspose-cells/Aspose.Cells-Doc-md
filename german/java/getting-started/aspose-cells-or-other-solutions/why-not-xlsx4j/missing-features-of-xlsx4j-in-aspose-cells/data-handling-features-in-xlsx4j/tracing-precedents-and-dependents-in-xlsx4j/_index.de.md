@@ -118,3 +118,4 @@ for (int i = 0; i< dependents.length; i++)
 Für weitere Details besuchen Sie [Vorgängerzellen und Abhängige](/java/tracing-precedents-and-dependents).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

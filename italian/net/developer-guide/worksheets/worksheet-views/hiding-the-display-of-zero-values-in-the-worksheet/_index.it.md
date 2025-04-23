@@ -24,3 +24,4 @@ Si prega di vedere il seguente codice di esempio che dimostra come nascondere gl
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-HidingDisplayOfZeroValues-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

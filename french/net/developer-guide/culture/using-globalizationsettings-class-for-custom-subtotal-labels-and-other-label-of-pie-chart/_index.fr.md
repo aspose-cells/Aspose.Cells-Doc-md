@@ -42,3 +42,4 @@ La classe [**GlobalizationSettings**](https://reference.aspose.com/cells/net/asp
 L'extrait suivant charge une feuille de calcul existante contenant un graphique circulaire et rend le graphique en une image en utilisant la classe **CustomSettings** créée ci-dessus.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomTextForLabels-UsingGlobalizationSettings.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

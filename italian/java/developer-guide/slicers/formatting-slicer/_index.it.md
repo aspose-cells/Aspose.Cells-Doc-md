@@ -13,3 +13,4 @@ Si prega di vedere il seguente codice, carica il [file Excel di esempio](6733850
 ![todo:image_alt_text](formatting-slicer_1.png)
 ## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Slicers-FormattingSlicer.java" >}}
+{{< app/cells/assistant language="java" >}}

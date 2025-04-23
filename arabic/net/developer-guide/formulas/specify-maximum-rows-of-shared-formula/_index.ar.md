@@ -18,3 +18,4 @@ url: /ar/net/specify-maximum-rows-of-shared-formula/
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Formulas-SpecifyMaximumRowsOfSharedFormula.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

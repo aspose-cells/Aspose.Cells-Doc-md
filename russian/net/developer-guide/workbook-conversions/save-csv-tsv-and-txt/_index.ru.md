@@ -34,3 +34,4 @@ Aspose.Cells позволяет конвертировать файлы в фо�
 ## **Продвинутые темы**
 - [Сохранять разделители для пустых строк при экспорте таблиц в формат CSV](/cells/ru/net/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [Обрезать ведущие пустые строки и столбцы при экспорте электронных таблиц в формат CSV](/cells/ru/net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+{{< app/cells/assistant language="csharp" >}}

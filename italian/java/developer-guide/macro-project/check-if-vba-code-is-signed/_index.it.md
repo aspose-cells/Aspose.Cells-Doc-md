@@ -26,3 +26,4 @@ Di seguito è riportato l'output della console del codice sopra utilizzando il [
 Is VBA Code Project Signed: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

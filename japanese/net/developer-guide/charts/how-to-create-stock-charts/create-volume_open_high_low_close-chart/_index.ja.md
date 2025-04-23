@@ -19,3 +19,4 @@ url: /ja/net/create-volume-open-high-low-close-stock-chart/
 [サンプルExcelファイル](Volume-Open-High-Low-Close.xlsx)を読み込み、[出力Excelファイル](out.xlsx)を生成するサンプルコードは、以下の通りです。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-volume-open-high-low-close-stock-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

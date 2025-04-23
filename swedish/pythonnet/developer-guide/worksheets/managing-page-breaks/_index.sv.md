@@ -3,26 +3,26 @@ title: Hantera sidbrytningar
 type: docs
 weight: 30
 url: /sv/python-net/managing-page-breaks/
-description: Denna artikel ger provkod och förklarar hur man lägger till sidbrytningar, rensa sidbrytningar eller ta bort specifika sidbrytningar i Excel kalkylblad programmvis med Aspose.Cells för Python via .NET API er.
-keywords: Python Excel bibliotek, Python sidbrytningar, excelsidorbrytningar i Python, rensa sidbrytning i Python.
+description: Denna artikel innehåller exempel på kod och förklarar hur man lägger till sidbrytningar, rensar sidbrytningar eller tar bort specifika sidbrytningar i Excel ark programmässigt med Aspose.Cells för Python via .NET API er.
+keywords: Python Excel bibliotek, Python sidbrytningar, Excel sidbrytningar i Python, rensa sidbrytning i Python.
 ---
 
 {{% alert color="primary" %}}
 
 Enligt definitionen är en sidbrytning en plats i en textflöde där en sida slutar och den nästa börjar. Microsoft Excel låter användare lägga till sidbrytningar i valfri markerad cell i ett kalkylblad.
 
-Platsen för cellen där sidbrytningen läggs till, sidan avslutas och resten av datan efter sidbrytningen skrivs ut på nästa sida vid utskrivning. Med enkla ord delar sidbrytningar upp ditt kalkylblad i flera sidor enligt dina specifikationer. Du kan också lägga till sidbrytningar till dina kalkylblad vid körning med Aspose.Cells för Python via .NET. Aspose.Cells för Python via .NET tillåter utvecklare att lägga till två typer av sidbrytningar:
+Platsen för cellen där sidbrytningen läggs till, slutet av sidan och resten av data efter sidbrytningen skrivs ut på nästa sida vid utskrift. Enkelt uttryckt delar sidbrytningar ditt kalkylblad i flera sidor enligt dina inställningar. Du kan också lägga till sidbrytningar i dina kalkylblad vid körning med Aspose.Cells för Python via .NET. Aspose.Cells för Python via .NET tillåter utvecklare att lägga till två typer av sidbrytningar:
 
 - Horisontell sidbrytning
 - Vertikal sidbrytning
 
-I resten av diskussionen kommer vi att beskriva hur du kan lägga till horisontella eller vertikala sidbrytningar i dina kalkylblad med hjälp av Aspose.Cells för Python via .NET.
+I resten av diskussionen beskriver vi hur du kan lägga till horisontella eller vertikala sidbrytningar i dina kalkylblad med Aspose.Cells för Python via .NET.
 
 {{% /alert %}}
 
 ## **Sidbrytningar**
 
-Aspose.Cells för Python via .NET tillhandahåller en [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) klass som representerar en Excel-fil. [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) klassen innehåller en [**Worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) samling som tillåter åtkomst till varje kalkylblad i Excel-filen.
+Aspose.Cells för Python via .NET tillhandahåller en [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)-klass som representerar en Excel-fil. [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)-klassen innehåller en [**Worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets)-samling som ger åtkomst till varje ark i Excel-filen.
 
 Ett kalkylblad representeras av [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)-klassen. [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)-klassen tillhandahåller ett brett utbud av egenskaper och metoder som används för att hantera ett kalkylblad.
 
@@ -32,7 +32,7 @@ Egenskaperna [**horizontal_page_breaks**](https://reference.aspose.com/cells/pyt
 
 ## **Hur man lägger till sidbrytningar**
 
-För att lägga till en sidbrytning i ett kalkylblad, infoga vertikala och horisontella sidbrytningar vid den angivna cellen genom att anropa [**HorizontalPageBreakCollection.add()**](https://reference.aspose.com/cells/python-net/aspose.cells/horizontalpagebreakcollection/add/#str) och [**VerticalPageBreakCollection.add()**](https://reference.aspose.com/cells/python-net/aspose.cells/verticalpagebreakcollection/add/#str) metoderna. Varje **add** metod tar namnet på cellen där brytet ska läggas till.
+För att lägga till en sidbrytning i ett arbetsblad, infoga vertikala och horisontella sidbrytningar vid den angivna cellen genom att anropa [**HorizontalPageBreakCollection.add()**](https://reference.aspose.com/cells/python-net/aspose.cells/horizontalpagebreakcollection/add/#str)- och [**VerticalPageBreakCollection.add()**](https://reference.aspose.com/cells/python-net/aspose.cells/verticalpagebreakcollection/add/#str)-metoderna. Varje **add**-metod tar namnet på cellen där brytningen ska läggas till.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Value-AddingPageBreaks-1.py" >}}
 

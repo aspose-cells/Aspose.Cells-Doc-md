@@ -248,3 +248,4 @@ if (classId != null)
 ## **Переименованные API**
 ### **Метод Workbook.removeDigitallySign переименован**
 Метод Workbook.removeDigitallySign переименован в Workbook.removeDigitalSignature.
+{{< app/cells/assistant language="java" >}}

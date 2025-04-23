@@ -45,7 +45,7 @@ Aspose.Cells tillhandahåller en klass, {0 som representerar en Excel-fil. {1}k
 
 En arbetsblad representeras av klassen [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Klassen [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) tillhandahåller ett brett utbud av egenskaper och metoder för att hantera arbetsblad. För att skapa en autofilter, använd [**AutoFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)-egenskapen för klassen [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Egenskapen [**AutoFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter) är ett objekt av klassen [**AutoFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter), som tillhandahåller [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#Range)-egenskapen för att ange området för celler som utgör en rubrikrad. En autofilter tillämpas på området med celler som utgör rubrikraden.
 
-I varje arbetsblad kan du endast ange ett filterområde. Detta är begränsat av Microsoft Excel. För anpassad datatfiltrering, använd metoden [**AutoFilter.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom(int,%20int,%20java.lang.Object)).
+I varje arbetsblad kan du endast ange ett filterområde. Detta är begränsat av Microsoft Excel. För anpassad datatfiltrering, använd metoden [**AutoFilter.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom-int-int-java.lang.Object-).
 
 I det angivna exemplet nedan har vi skapat samma autofilter med Aspose.Cells som vi skapade med Microsoft Excel i avsnittet ovan.
 
@@ -57,7 +57,7 @@ Aspose.Cells tillhandahåller flera alternativ för att använda olika typer av 
 
 ##### **Fyllfärg**
 
-Aspose.Cells tillhandahåller en funktion [**addFillColorFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addFillColorFilter(int,%20int,%20com.aspose.cells.CellsColor,%20com.aspose.cells.CellsColor)) för att filtrera data baserat på fyllningsfärgsegenskapen hos cellerna. I det givna exemplet används en mallfil med olika fyllningsfärger i den första kolumnen på arket för att testa färgfiltreringsfunktionen. Följande filer kan hämtas för att kontrollera funktionaliteten.
+Aspose.Cells tillhandahåller en funktion [**addFillColorFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addFillColorFilter-int-int-com.aspose.cells.CellsColor-com.aspose.cells.CellsColor-) för att filtrera data baserat på fyllningsfärgsegenskapen hos cellerna. I det givna exemplet används en mallfil med olika fyllningsfärger i den första kolumnen på arket för att testa färgfiltreringsfunktionen. Följande filer kan hämtas för att kontrollera funktionaliteten.
 
 1. [ColouredCells.xlsx](72417315.xlsx)
 1. [FilteredColouredCells.xlsx](72417316.xlsx)
@@ -66,7 +66,7 @@ Aspose.Cells tillhandahåller en funktion [**addFillColorFilter**](https://refer
 
 ##### **Datum**
 
-Olika typer av datumfilter kan implementeras, som att filtrera alla rader med datum i januari 2018. Följande kodexempel demonstrerar detta filter med användning av funktionen [**addDateFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addDateFilter(int,%20int,%20int,%20int,%20int,%20int,%20int,%20int)). Följande filer kan användas för att testa denna funktionalitet.
+Olika typer av datumfilter kan implementeras, som att filtrera alla rader med datum i januari 2018. Följande kodexempel demonstrerar detta filter med användning av funktionen [**addDateFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addDateFilter-int-int-int-int-int-int-int-int-). Följande filer kan användas för att testa denna funktionalitet.
 
 1. [Date.xlsx](72417317.xlsx)
 1. [FilteredDate.xlsx](72417318.xlsx)
@@ -75,7 +75,7 @@ Olika typer av datumfilter kan implementeras, som att filtrera alla rader med da
 
 ##### **Dynamiskt datum**
 
-Ibland krävs dynamiska filter baserat på ett datum, som alla celler med datum i januari oavsett år. I detta fall används funktionen [**DynamicFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#dynamicFilter(int,%20int)) enligt det följande kodexemplet. Följande filer kan användas för att testa.
+Ibland krävs dynamiska filter baserat på ett datum, som alla celler med datum i januari oavsett år. I detta fall används funktionen [**DynamicFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#dynamicFilter-int-int-) enligt det följande kodexemplet. Följande filer kan användas för att testa.
 
 1. [Date.xlsx](72417317.xlsx)
 1. [FilteredDynamicDate.xlsx](72417319.xlsx)
@@ -84,7 +84,7 @@ Ibland krävs dynamiska filter baserat på ett datum, som alla celler med datum 
 
 ##### **Nummer**
 
-Anpassade filter kan tillämpas med hjälp av Aspose.Cells, t.ex. genom att välja celler med nummer mellan ett givet intervall. Följande exempel visar användningen av [**custom()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom(int,%20int,%20java.lang.Object))-funktionen för att filtrera nummer. Exempelfilerna kan laddas ner från följande länkar.
+Anpassade filter kan tillämpas med hjälp av Aspose.Cells, t.ex. genom att välja celler med nummer mellan ett givet intervall. Följande exempel visar användningen av [**custom()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom-int-int-java.lang.Object-)-funktionen för att filtrera nummer. Exempelfilerna kan laddas ner från följande länkar.
 
 1. [Number.xlsx](72417320.xlsx)
 1. [FilteredNumber.xlsx](72417321.xlsx)
@@ -93,7 +93,7 @@ Anpassade filter kan tillämpas med hjälp av Aspose.Cells, t.ex. genom att väl
 
 ##### **Text**
 
-Om en kolumn innehåller text och celler ska väljas som innehåller särskild text, kan [**filter()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#filter(int,%20java.lang.String))-funktionen användas. I följande exempel innehåller mallfilen en lista med länder och raden ska väljas som innehåller ett specifikt land. Följande kod visar filtrering av text med hjälp av de bifogade exempelfilerna.
+Om en kolumn innehåller text och celler ska väljas som innehåller särskild text, kan [**filter()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#filter-int-java.lang.String-)-funktionen användas. I följande exempel innehåller mallfilen en lista med länder och raden ska väljas som innehåller ett specifikt land. Följande kod visar filtrering av text med hjälp av de bifogade exempelfilerna.
 
 1. [Text.xlsx](72417322.xlsx)
 1. [FilteredText.xlsx](72417323.xlsx)
@@ -102,7 +102,7 @@ Om en kolumn innehåller text och celler ska väljas som innehåller särskild t
 
 ##### **Tomma**
 
-Om en kolumn innehåller text så att några celler är tomma, och filtrering krävs för att endast välja de rader där tomma celler finns, kan [**matchBlanks()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchBlanks(int))-funktionen användas enligt nedan. Exempelfilerna kan laddas ner från följande länkar.
+Om en kolumn innehåller text så att några celler är tomma, och filtrering krävs för att endast välja de rader där tomma celler finns, kan [**matchBlanks()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchBlanks-int-)-funktionen användas enligt nedan. Exempelfilerna kan laddas ner från följande länkar.
 
 1. [Tomma.xlsx](72417324.xlsx)
 1. [FiltreradeTomma.xlsx](72417325.xlsx)
@@ -111,7 +111,7 @@ Om en kolumn innehåller text så att några celler är tomma, och filtrering kr
 
 ##### **Ej tomma**
 
-När celler med text ska filtreras, använd [**MatchNonBlanks**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchNonBlanks(int))-filterfunktionen enligt nedan. Exempelfilerna kan laddas ner från följande länkar.
+När celler med text ska filtreras, använd [**MatchNonBlanks**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchNonBlanks-int-)-filterfunktionen enligt nedan. Exempelfilerna kan laddas ner från följande länkar.
 
 1. [Tomma.xlsx](72417324.xlsx)
 1. [FiltreradeEjTomma.xlsx](72417326.xlsx)
@@ -155,3 +155,4 @@ Excel tillhandahåller anpassade filter för att filtrera rader som slutar med e
 - [Tillämpa Avancerat Filter i Microsoft Excel för att Visa Poster som Uppfyller Komplexa Kriterier](/cells/sv/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Hämta alla dolda radindex efter uppdatering av autofilter](/cells/sv/java/get-all-hidden-rows-indices-after-refreshing-autofilter/)
 
+{{< app/cells/assistant language="java" >}}

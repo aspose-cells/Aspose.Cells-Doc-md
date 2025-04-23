@@ -80,3 +80,4 @@ Microsoft Excel 2007 では、より高度な条件付き書式が追加され�
 - [条件付き書式データバーイメージの生成](/cells/ja/net/generate-conditional-formatting-databars-images/)
 - [条件付き書式で使用されるアイコンセット、データバー、またはカラースケールオブジェクトの取得](/cells/ja/net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
 
+{{< app/cells/assistant language="csharp" >}}

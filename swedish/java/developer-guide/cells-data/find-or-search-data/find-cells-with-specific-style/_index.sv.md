@@ -47,3 +47,4 @@ Här är utdatafilen som genererats av följande kod. Du kan se att alla celler 
 ![todo:image_alt_text](find-cells-with-specific-style_2.png)
 
 **Figur:** Utdatafil med hittade celler efter sökning med stil **A1**
+{{< app/cells/assistant language="java" >}}

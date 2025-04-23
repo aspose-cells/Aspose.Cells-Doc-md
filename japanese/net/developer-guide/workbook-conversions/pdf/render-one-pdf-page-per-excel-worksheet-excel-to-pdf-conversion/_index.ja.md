@@ -26,3 +26,4 @@ url: /ja/net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
 スプレッドシートに数式が含まれている場合、スプレッドシートをPDFにレンダリングする直前に[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)を呼び出すことが最善です。これにより、数式に依存した値が再計算され、正しい値がPDFに表示されます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

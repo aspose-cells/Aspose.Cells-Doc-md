@@ -72,3 +72,4 @@ Aspose.Cells提供了一个大量的可重复使用的样式集合，用于对�
 ## C# 代码以使用内置样式
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingBuiltinStyles-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

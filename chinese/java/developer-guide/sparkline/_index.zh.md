@@ -24,3 +24,4 @@ description: 使用Aspose.Cells在Excel中创建迷你图。
 - [使用迷你图和设置3D格式](/cells/zh/net/using-sparklines-and-settings-3d-format/)
 
 
+{{< app/cells/assistant language="java" >}}

@@ -18,3 +18,4 @@ El siguiente código de muestra crea un cuadro de texto y agrega un texto japon�
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -50,3 +50,4 @@ Output:
 questo è il primo nome che viene cre
 
 ` `<> + (adj.Private _ " Privato"
+{{< app/cells/assistant language="csharp" >}}

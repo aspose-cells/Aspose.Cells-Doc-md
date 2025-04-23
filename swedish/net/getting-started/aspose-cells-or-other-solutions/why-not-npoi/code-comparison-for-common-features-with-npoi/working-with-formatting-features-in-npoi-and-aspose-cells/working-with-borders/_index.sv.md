@@ -90,3 +90,4 @@ Ladda ner **Arbeta med ramar** från någon av de nedan angivna sociala kodnings
 För mer information, besök [Dataformateringsfunktioner](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -16,3 +16,4 @@ url: /zh/java/working-with-cells-rows-and-columns-in-apache-poi-and-aspose-cells
 - [在Apache POI和Aspose.Cells中冻结窗格](/cells/zh/java/freeze-panes-in-apache-poi-and-aspose-cells/)
 - [在Apache POI和Aspose.Cells中创建日期单元格](/cells/zh/java/create-date-cell-in-apache-poi-and-aspose-cells/)
 - [在Apache POI和Aspose.Cells中创建不同的单元格类型](/cells/zh/java/create-different-cell-types-in-apache-poi-and-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

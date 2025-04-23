@@ -18,3 +18,4 @@ Bu verileri iki tür grafikte göstereceğiz, birinci grafik XY (Saçılım) gra
 ![todo:image_alt_text](compare.png)
 ## **Örnek Kod**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "X-axis-vs-category-axis.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

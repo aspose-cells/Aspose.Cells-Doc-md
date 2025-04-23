@@ -19,3 +19,4 @@ Le code d'exemple suivant charge d'abord le fichier HTML d'exemple dans Workbook
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-AutoFitColumnsandRowsWhileLoadingHTMLInWorkbook-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

@@ -43,3 +43,4 @@ OLE (Object Linking and Embedding) هي إطار عمل مايكروسوفت ل�
 - [الحصول على معرف الفئة الخاص بكائن OLE المضمّن أو تعيينه](/cells/ar/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 - [إدراج ملف WAV ككائن Ole](/cells/ar/net/inserting-a-wav-file-as-an-ole-object/)
 
+{{< app/cells/assistant language="csharp" >}}

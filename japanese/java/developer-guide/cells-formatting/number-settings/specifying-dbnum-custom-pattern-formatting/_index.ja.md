@@ -14,3 +14,4 @@ Aspose.Cellsは、*DBNum*のカスタムパターン書式をサポートして�
 次のサンプルコードは、*DBNum* のカスタムパターン書式を指定する方法を示しています。詳細については、[出力PDF](43352082.pdf) をご確認ください。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SpecifyingDBNumCustomPatternFormatting.java" >}}
+{{< app/cells/assistant language="java" >}}

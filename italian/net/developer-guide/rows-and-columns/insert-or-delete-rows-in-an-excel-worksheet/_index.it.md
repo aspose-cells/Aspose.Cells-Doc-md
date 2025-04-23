@@ -20,3 +20,4 @@ Per inserire o rimuovere un numero di righe, ti consigliamo di utilizzare sempre
 Aspose.Cells funziona allo stesso modo di Microsoft Excel. Quando vengono aggiunte righe o colonne, i contenuti del foglio di lavoro vengono spostati verso il basso e verso destra. Quando vengono rimosse righe o colonne, i contenuti del foglio di lavoro vengono spostati verso l'alto o verso sinistra. Eventuali riferimenti in altri fogli di lavoro e celle vengono aggiornati quando vengono aggiunte o rimosse righe.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertDeleteRows-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

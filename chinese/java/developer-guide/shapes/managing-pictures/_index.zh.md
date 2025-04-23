@@ -13,7 +13,7 @@ Aspose.Cells允许开发人员在运行时向电子表格添加图片。此外�
 
 向电子表格添加图片非常简单。只需几行代码即可。
 
-只需调用[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)对象中封装的[**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection)集合的[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String))方法即可。[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String))方法接受以下参数：
+只需调用[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)对象中封装的[**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection)集合的[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add-int-int-java.lang.String-)方法即可。[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add-int-int-java.lang.String-)方法接受以下参数：
 
 - **左上角行索引**，左上角行的索引。
 - **左上角列索引**，左上角列的索引。
@@ -37,3 +37,4 @@ Aspose.Cells允许开发人员在运行时向电子表格添加图片。此外�
 - [从网址插入链接图片](/cells/zh/java/insert-a-linked-picture-from-web-address/)
 - [根据单元格引用插入图片](/cells/zh/java/insert-a-picture-based-on-cell-reference/)
 - [通过URL在Excel工作表中插入Web图片](/cells/zh/java/insert-web-image-from-a-url-into-an-excel-worksheet/)
+{{< app/cells/assistant language="java" >}}

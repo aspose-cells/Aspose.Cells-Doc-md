@@ -91,3 +91,4 @@ sw.Close();
 Для получения дополнительной информации посетите [Добавление данных в ячейки](/cells/ru/net/add-data-in-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

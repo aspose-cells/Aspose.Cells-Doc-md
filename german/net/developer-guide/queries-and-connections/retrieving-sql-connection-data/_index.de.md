@@ -22,3 +22,4 @@ Aspose.Cells stellt die Eigenschaft Workbook.DataConnections zum Abrufen externe
 Wenn das ExternalConnection-Objekt SQL-Verbindungsdaten enthält, kann es in ein DBConnection-Objekt umgewandelt und seine Eigenschaften zur Abrufung von Datenbankbefehl, Befehlstyp, Verbindungsinformationen, Anmeldeinformationen usw. verwendet werden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-RetrievingSQLConnectionData-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

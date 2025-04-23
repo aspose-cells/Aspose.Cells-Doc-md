@@ -257,3 +257,4 @@ Das Wasserfalldiagramm wird in Aspose.Cells unterstützt.
 
 ### **Benutzerdefinierte Diagrammtypen**
 Benutzerdefinierte Diagramme ermöglichen es Ihnen, Diagramme mit benutzerdefinierten Formatierungen zu erstellen, die auch auf andere Diagramme angewendet werden können. Hier haben wir nur die Standarddiagramme behandelt. Wenn Sie mehr Details über benutzerdefinierte Diagramme erfahren möchten, lesen Sie bitte den Artikel [Erstellen von benutzerdefinierten Diagrammen](/cells/de/java/creating-and-customizing-charts/#creatingandcustomizingcharts-usingchartingobjects), der beschreibt, wie benutzerdefinierte Diagramme erstellt werden können.
+{{< app/cells/assistant language="java" >}}

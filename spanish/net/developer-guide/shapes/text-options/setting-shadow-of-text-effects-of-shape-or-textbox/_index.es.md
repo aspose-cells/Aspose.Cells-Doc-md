@@ -22,3 +22,4 @@ PerspectiveDiagonalLowerRight
 El siguiente fragmento de código demuestra el uso de la propiedad [**FontSetting.TextOptions.Shadow.PresetType.PresetType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype) para establecer la sombra de efectos de texto de forma o cuadro de texto.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SettingTextEffectsShadowOfShapeOrTextbox-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

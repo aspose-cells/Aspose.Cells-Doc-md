@@ -190,3 +190,4 @@ Définissez la qualité d'impression des feuilles à imprimer avec la propriét�
 Commencez la numérotation des pages de feuille de calcul en utilisant la propriété [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) de la classe [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup). La propriété [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) définit le numéro de la première page de la feuille de calcul et les pages suivantes sont numérotées dans l'ordre croissant.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetFirstPageNumber-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

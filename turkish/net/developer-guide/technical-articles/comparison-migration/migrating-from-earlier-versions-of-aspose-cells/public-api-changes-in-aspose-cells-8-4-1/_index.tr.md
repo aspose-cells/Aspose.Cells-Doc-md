@@ -299,3 +299,4 @@ renderer.ToImage(0, "output.svg");
 ## **Eski API'ler**
 ### **Eskiye Düşmüş Workbook.ValidateFormula Yöntemi**
 Formülü doğrulamak için Cell.Formula yöntemini kullanın.
+{{< app/cells/assistant language="csharp" >}}

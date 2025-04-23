@@ -321,3 +321,4 @@ m_workbook.Save("output.xlsx")
 Por favor, consulte el artículo [Copiar Mini Gráfico Especificando el Rango de Datos y la Ubicación del Grupo de Mini Gráficos](http://aspose.com/docs/display/cellsnet/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group) para obtener más información.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

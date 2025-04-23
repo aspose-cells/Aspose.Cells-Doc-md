@@ -26,3 +26,4 @@ keywords: 在加载文件时自动调整行高，打开Excel文件时自动调�
 ## **C# 示例代码**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Rows-autofit-row-height.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

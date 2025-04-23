@@ -31,3 +31,4 @@ El código de muestra a continuación describe cómo asegurar PDFs con Aspose.Ce
 Si la hoja de cálculo contiene fórmulas, es mejor llamar a [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) justo antes de renderizarla en PDF. Esto asegura que los valores dependientes de las fórmulas se recalculen y los valores correctos se muestren en el PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

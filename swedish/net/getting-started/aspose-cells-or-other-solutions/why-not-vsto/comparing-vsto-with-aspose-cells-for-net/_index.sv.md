@@ -129,3 +129,4 @@ Om du överväger att använda en Microsoft Office-teknologi i en företagslösn
 Aspose.Cells är en stabil och mogen produkt med världsomspännande kundbas och tillräckligt skalbar för att prestera väl under tunga belastningar.
 
 VSTO:s prestanda är ännu inte förfinad. Det är ganska möjligt att vissa av dessa prestandaproblem inte har någon koppling till VSTO självt utan snarare har kopplingar till .NET JIT-kompileringsprocesserna. Men det finns fortfarande vissa tvivel om VSTO-applikationerna skulle skalas själva när belastningen ökar. Den nyare modellen av VSTO kräver inte att Excel ska vara boendes på webbservern för dokumenthantering men jag tror att VSTO har en lång väg att gå för att göra en verklig påverkan.
+{{< app/cells/assistant language="csharp" >}}

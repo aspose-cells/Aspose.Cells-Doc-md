@@ -15,3 +15,4 @@ description: Questo articolo fornisce del codice di esempio per utilizzare l API
 Aspose.Cells fornisce una proprietà [**Worksheet.ShowFormulas**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/showformulas). Imposta questo su **true** per impostare Microsoft Excel per mostrare le formule.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ShowFormulasInsteadOfValues-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

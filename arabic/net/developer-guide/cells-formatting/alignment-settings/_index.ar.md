@@ -123,3 +123,4 @@ url: /ar/net/cells-alignment-settings/
 - [تغيير توجيه الخلايا والاحتفاظ بالتنسيقات الحالية](/cells/ar/net/change-cells-alignment-and-keep-existing-formatting/)
 - [فواصل السطر وتفريغ النص](/cells/ar/net/line-breaks-and-text-wrapping/)
 
+{{< app/cells/assistant language="csharp" >}}

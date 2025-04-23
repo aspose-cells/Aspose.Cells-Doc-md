@@ -59,7 +59,7 @@ Aşağıdaki kod örneği, bir çalışma kitabını metin formatına kaydetmeni
 
 Kod çalıştırıldığında, çalışma kitabındaki tüm sayfaların verilerini TXT formatına dönüştürür.
 
-Aynı örneği CSV'ye kaydetmek için değiştirebilirsiniz. Varsayılan olarak, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) virgüldür, bu nedenle CSV formatına kaydederken bir ayraç belirtmeyin. Lütfen dikkat: Değerlendirme sürümünü kullanıyorsanız ve [**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/) özelliği true olarak ayarlanmış olsa bile, program yine de yalnızca bir çalışma sayfasını dışa aktaracaktır.
+Aynı örneği, dosyanızı CSV'ye kaydetmek için değiştirebilirsiniz. Varsayılan olarak, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) virgüldür, bu yüzden CSV formatına kaydederken ayırıcı belirtmeyin. Lütfen dikkat edin: Değerlendirme sürümünü kullanıyorsanız ve hatta [**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/) özelliği true olarak ayarlanmış olsa bile, program yalnızca bir çalışma sayfasını dışa aktaracaktır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 
@@ -98,3 +98,4 @@ Aspose.Cells, dosyaların JSON veya XML olarak kaydedilmesini destekler.
 - [Çalışma kitabının sıkıştırma seviyesi ayarlanabilir.](/cells/tr/net/adjust-workbook-compression-level/)
 - [Sıkı Açık XML Elektronik Tablo Biçimine Çalışma Kitabını Kaydet](/cells/tr/net/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [Yanıt Nesnesine Dosya Kaydetme](/cells/tr/net/saving-file-to-response-object/)
+{{< app/cells/assistant language="csharp" >}}

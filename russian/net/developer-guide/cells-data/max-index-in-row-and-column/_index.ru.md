@@ -27,3 +27,4 @@ Aspose.Cells предоставляет следующие свойства и �
 1. Получите атрибут [Cell.Row](https://reference.aspose.com/cells/net/aspose.cells/cell/row/) на ячейке
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-max-index-of-row-and-column.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

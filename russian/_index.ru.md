@@ -130,6 +130,30 @@ Aspose.Cells для Node.js via Java представляет все полез�
 
 {{% alert color="primary" %}}
 
+**![Aspose.Cells for Node.js via C++ Логотип продукта](home_9.png)**
+
+**Добро пожаловать в Aspose.Cells for Node.js via C++**
+
+Aspose.Cells for Node.js via C++ представляет все полезные функции Aspose.Cells for C++ с помощью Node.js. Aspose.Cells for Node.js via C++ — это библиотека классов, которая позволяет выполнять широкий спектр задач обработки таблиц. Aspose.Cells for Node.js via C++ — масштабируемый и богатый функциями API, предлагающий преобразование форматов таблиц, стилизацию листов до мельчайших деталей, управление и отображение графиков, а также наш надежный движок расчетов формул. Aspose.Cells for Node.js via C++ поддерживает форматы XLS, XLSX, ODS, SpreadsheetML, CSV, Tab Delimited, HTML/MHTML, PDF, XPS и другие. С помощью Aspose.Cells for Node.js via C++ вы можете создавать, изменять, преобразовывать и отображать документы Excel.
+
+{{% /alert %}}
+
+## **Ресурсы Aspose.Cells for Node.js via C++**
+
+Ниже приведены ссылки на некоторые полезные ресурсы, которые могут потребоваться для выполнения ваших задач.
+
+- [Aspose.Cells for C++ Онлайн документация](/cells/ru/cpp/) (Aspose.Cells for Node.js через C++ перенесена с Aspose.Cells for C++. Поэтому вы можете использовать ту же документацию)
+- [Особенности Aspose.Cells for Node.js via C++](/cells/ru/nodejs-cpp/features/)
+- [История выпусков Aspose.Cells for Node.js via C++](https://releases.aspose.com/cells/nodejs-cpp/release-notes/)
+- [Страница продукта Aspose.Cells for Node.js via C++](https://products.aspose.com/cells/nodejs-cpp/)
+- [Скачать Aspose.Cells for Node.js via C++](https://downloads.aspose.com/cells/nodejs-cpp/)
+- [Руководство по API для Aspose.Cells for Node.js via C++](https://reference.aspose.com/cells/nodejs-cpp/)
+- [Форум бесплатной поддержки Aspose.Cells for Node.js via C++](https://forum.aspose.com/c/cells/9)
+- [Центр поддержки платной поддержки Aspose.Cells for Node.js via C++](https://helpdesk.aspose.com/)
+
+
+{{% alert color="primary" %}}
+
 **![Aspose.Cells для PHP via Java Логотип Продукта](home_6.png)**
 
 **Добро пожаловать в Aspose.Cells для PHP via Java**

@@ -55,3 +55,4 @@ Lors de l'attribution d'une plage de cellules en tant que source de données, la
 - [Enregistrer le tableau croisé dynamique dans un fichier ODS](/cells/fr/net/save-pivot-table-in-ods-file/)
 - [Afficher l'option de pages de filtre de rapport](/cells/fr/net/show-report-filter-pages-option/)
 - [Travailler avec les formats d'affichage des données de DataField dans le tableau croisé dynamique](/cells/fr/net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="csharp" >}}

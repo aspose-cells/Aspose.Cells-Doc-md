@@ -11,7 +11,7 @@ url: /zh/python-java/your-first-aspose-cells-application-hello-world/
 
 {{% /alert %}}
 
-### **创建Hello World应用程序**
+## **创建Hello World应用程序**
 
 使用 Aspose.Cells API 创建 Hello World 应用程序：
 
@@ -26,7 +26,7 @@ url: /zh/python-java/your-first-aspose-cells-application-hello-world/
 
 下面的示例演示了上述步骤。
 
-#### **创建一个工作簿**
+### **创建一个工作簿**
 
 以下示例从头开始创建一个新的工作簿，在第一个工作表的单元格A1中写入单词"Hello World!"，然后保存文件。
 
@@ -36,7 +36,7 @@ url: /zh/python-java/your-first-aspose-cells-application-hello-world/
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "CreatingHelloWorldFile.py" >}}
 
-#### **打开现有文件**
+### **打开现有文件**
 
 以下示例打开名为**book1.xls**的现有Microsoft Excel模板文件，在第一个工作表的单元格A1中写入单词"Hello World!"，然后将工作簿保存为新文件。
 

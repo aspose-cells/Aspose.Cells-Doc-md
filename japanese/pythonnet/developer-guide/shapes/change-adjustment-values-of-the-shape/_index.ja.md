@@ -3,13 +3,13 @@ title: シェイプの調整値の変更
 type: docs
 weight: 2000
 url: /ja/python-net/change-adjustment-values-of-the-shape/
-description: この記事では、Aspose.Cells for Python via .NET APIを介して図の調整値を変更する方法を示しています。
-keywords: Python Excelライブラリ、Python Shapeの調整値の変更、PythonでShapeの調整値の変更方法。
+description: この記事では、Aspose.Cells for Python via .NET APIを通じてShapeの調整値を変更する方法を示します。
+keywords: Python Excelライブラリ、Shapeの調整値を変更する方法、PythonでShapeの調整値を変更する方法。
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NETでは、調整ポイントを変更するための[**Shape.geometry.shape_adjust_values**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/geometry/shape_adjust_values/)プロパティが提供されます。Microsoft Excel UIでは、調整は黄色のダイヤモンドノードとして表示されます。例：
+Aspose.Cells for Python via .NETは、Shapeの調整ポイントを変更するための [**Shape.geometry.shape_adjust_values**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/geometry/shape_adjust_values/) プロパティを提供します。Microsoft Excel UIでは、調整は黄色のダイヤモンドノードとして表示されます。例：
 
 - 角丸四角形は、円弧を変更するための調整があります
 - 三角形は、ポイントの位置を変更するための調整があります

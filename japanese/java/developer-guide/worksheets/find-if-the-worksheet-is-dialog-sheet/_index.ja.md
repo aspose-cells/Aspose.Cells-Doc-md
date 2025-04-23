@@ -28,3 +28,4 @@ Aspose.Cellsが提供する*[**Worksheet.Type**](https://reference.aspose.com/ce
 Worksheet is a Dialog Sheet.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

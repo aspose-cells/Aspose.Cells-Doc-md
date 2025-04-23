@@ -74,3 +74,4 @@ Result of Sum(A1:A2): 50.0
 - [设置工作簿的公式计算模式](/cells/zh/net/setting-formula-calculation-mode-of-workbook/)
 - [在 Aspose.Cells 中使用 FormulaText 函数](/cells/zh/net/using-formulatext-function-in-aspose-cells/)
 - [使用ICustomFunction功能](/cells/zh/net/using-icustomfunction-feature/)
+{{< app/cells/assistant language="csharp" >}}

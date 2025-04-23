@@ -53,7 +53,7 @@ Aspose.Cellsは、Excelファイルを表す[**Workbook**](https://reference.asp
 
 **VisibilityTypeの設定**
 
-ユーザーはワークシートを特別な方法で非表示にすることもできます。この機能を使用することで、ワークシートを非表示にし、MS Excelのメニューオプションを使用して直接表示する唯一の方法が、コード内で[**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType)メソッドのパラメータ値として[**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY_HIDDEN)を指定することです（ここで注意する必要がありますが、ユーザーはオブジェクトをMS Excelで直接表示することはできません）。ユーザーはまた、[**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType)メソッドを使用して、ワークシートがVeryHiddenとしてマークされているかどうかを確認することもできます。
+ユーザーはワークシートを特別な方法で非表示にすることもできます。この機能を使用することで、ワークシートを非表示にし、MS Excelのメニューオプションを使用して直接表示する唯一の方法が、コード内で[**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType)メソッドのパラメータ値として[**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY-HIDDEN)を指定することです（ここで注意する必要がありますが、ユーザーはオブジェクトをMS Excelで直接表示することはできません）。ユーザーはまた、[**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType)メソッドを使用して、ワークシートがVeryHiddenとしてマークされているかどうかを確認することもできます。
 
 ## **タブの表示または非表示**
 
@@ -224,3 +224,4 @@ Book1.xlsファイルは[**Workbook**](https://reference.aspose.com/cells/java/c
 - [セルに境界線を追加してテーブルを作成する](/cells/ja/java/create-table-by-using-border-lines-for-a-range/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

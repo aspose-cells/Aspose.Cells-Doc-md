@@ -26,3 +26,4 @@ keywords: セル内にHTML文字列を追加する、セル内にHTML文字列�
 上記のサンプルコードの出力を以下のスクリーンショットで示します。
 
 ![todo:image_alt_text](htmlstring.png)
+{{< app/cells/assistant language="csharp" >}}

@@ -23,3 +23,4 @@ Aspose.Cells支持修改现有的SQL数据连接。本文将解释如何使用As
 - [输出Excel文件](5112356.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ModifyingExistingDataConnection-ModifyingExistingDataConnection.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

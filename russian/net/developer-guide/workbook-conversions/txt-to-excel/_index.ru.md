@@ -59,3 +59,4 @@ url: /ru/net/convert-csv-tsv-and-txt-to-excel/
 - [Загрузить или импортировать файл CSV с формулами](/cells/ru/net/load-or-import-csv-file-with-formulas/)
 - [Чтение файла CSV с различными кодировками](/cells/ru/net/reading-csv-file-with-multiple-encodings/)
 
+{{< app/cells/assistant language="csharp" >}}

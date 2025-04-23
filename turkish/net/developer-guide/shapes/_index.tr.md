@@ -375,3 +375,4 @@ Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 - [Şekil Metin Seçeneklerini Yönetme](/cells/tr/net/managing-shape-text-options/)
 - [Web Uzantıları - Office Eklentileri](/cells/tr/net/web-extensions-office-add-ins/)
 
+{{< app/cells/assistant language="csharp" >}}

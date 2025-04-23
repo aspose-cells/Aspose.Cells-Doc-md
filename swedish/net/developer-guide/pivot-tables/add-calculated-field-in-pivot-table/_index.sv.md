@@ -35,3 +35,4 @@ Lägg till beräknat fält i Excel-fil med hjälp av Aspose.Cells. Se följande 
 
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-Add-calculated-field-in-PivotTable.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

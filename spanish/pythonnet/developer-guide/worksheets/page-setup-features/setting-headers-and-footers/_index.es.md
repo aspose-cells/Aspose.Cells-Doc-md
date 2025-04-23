@@ -3,8 +3,8 @@ title: Configuración de encabezados y pies de página
 type: docs
 weight: 30
 url: /es/python-net/setting-headers-and-footers/
-description: Este artículo explica cómo insertar una imagen de forma programática en el encabezado y pie de página de las hojas de cálculo de Excel mediante comandos de script utilizando la API de Aspose.Cells para Python via .NET.
-keywords: Biblioteca de Excel para Python, insertar imagen en encabezado y pie de página de Excel en Python, establecer comandos de script de encabezado y pie de página de Excel usando Python.
+description: Este artículo explica cómo insertar programáticamente una imagen en el encabezado y pie de página de las hojas de Excel configurando el encabezado y pie de página con comandos de script usando la API Aspose.Cells para Python via .NET.
+keywords: Biblioteca de Excel para Python, insertar imagen en encabezado pie de página en Python, configurar comandos de script para encabezado y pie de página en Excel usando Python.
 ---
 
 {{% alert color="primary" %}}
@@ -15,9 +15,9 @@ Los encabezados y pies de página son las líneas de texto que se muestran debaj
 
 ## **Configuración de encabezados y pies de página**
 
-Aspose.Cells para Python via .NET te permite añadir encabezados y pies de página a las hojas de cálculo en tiempo de ejecución, pero recomendamos establecer los encabezados y pies de página manualmente en un archivo pre-diseñado para la impresión. Puedes utilizar Microsoft Excel como herramienta GUI para establecer encabezados y pies de página y así ahorrar esfuerzo y tiempo de desarrollo. Aspose.Cells para Python via .NET puede importar el archivo y guardar los ajustes.
+Aspose.Cells para Python via .NET permite agregar encabezados y pies de página a las hojas de trabajo en tiempo de ejecución, pero se recomienda configurar los encabezados y pies de página manualmente en un archivo pre-diseñado para impresión. Puedes usar Microsoft Excel como una herramienta GUI para establecer encabezados y pies de página y ahorrar esfuerzo y tiempo de desarrollo. Aspose.Cells para Python via .NET puede importar el archivo y guardar la configuración.
 
-Para añadir encabezados y pies de página en tiempo de ejecución, Aspose.Cells para Python via .NET proporciona llamadas especiales de API y comandos de script para formatear los encabezados y pies de página.
+Para agregar encabezados y pies de página en tiempo de ejecución, Aspose.Cells para Python via .NET proporciona llamadas API especiales y comandos de script para formatear encabezados y pies de página.
 
 ### **Comandos de Script**
 
@@ -36,7 +36,7 @@ Los comandos de script son comandos especiales que le permiten configurar el for
 |&"\<FontName>, \<FontStyle>"|Representa el nombre de la fuente con estilo. Por ejemplo: &"Arial,Negrita"|
 |&\<FontSize>|Representa el tamaño de la fuente. Por ejemplo: “&14abc”. Sin embargo, si este comando va seguido de un número normal a imprimir en el encabezado, esto debe separarse con un carácter de espacio del tamaño de la fuente. Por ejemplo: “&14 123”.|
 
-### **Cómo establecer encabezados y pies de página**
+### **Cómo Establecer Encabezados y Pies de Página**
 
 La clase [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) proporciona dos métodos, [**set_header**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_header/#int-str) y [**set_footer**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_footer/#int-str), utilizados para agregar un encabezado y un pie de página a una hoja de trabajo. Estos métodos solo toman dos parámetros:
 
@@ -45,7 +45,7 @@ La clase [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.ce
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetHeadersAndFooters-1.py" >}}
 
-### **Cómo insertar una imagen en un encabezado o pie de página**
+### **Cómo Insertar una Imagen en un Encabezado o Pie de Página**
 
 La clase [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) tiene dos métodos adicionales, [**set_header_picture**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_header_picture/#int-bytes) y [**set_footer_picture**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_footer_picture/#int-bytes), utilizados para agregar imágenes en el encabezado y pie de página. Estos métodos toman los siguientes parámetros:
 

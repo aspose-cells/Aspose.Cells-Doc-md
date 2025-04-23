@@ -44,3 +44,4 @@ Alternatif olarak, pom.xml dosyasına bağımlılığı ekleyebilir ve projeyi m
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="java" >}}

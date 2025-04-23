@@ -5,12 +5,12 @@ type: docs
 weight: 200
 url: /zh/python-net/copy-shapes-between-worksheets/
 description: 本文展示了如何通过Aspose.Cells for Python via .NET API在工作表之间复制形状。
-keywords: Python Excel库，Python将形状复制到另一个工作表，Python如何将图片从一个工作表复制到另一个工作表，Python如何将图表从一个工作表复制到另一个工作表，Python如何将控件和其他绘图对象从一个工作表复制到另一个工作表。
+keywords: Python Excel库，Python在工作表之间复制形状，Python如何将图片从一个工作表复制到另一个，Python如何将图表从一个工作表复制到另一个，Python如何从一个工作表复制控件和其他绘图对象到另一个。
 ---
 
 {{% alert color="primary" %}}
 
-有时，您需要在工作表之间复制元素，例如图片、图表和其他绘图对象。Aspose.Cells for Python via .NET支持此功能。可以精确复制图表、图片和其他对象。
+有时，您需要在工作表之间复制元素，例如图片、图表和其他绘图对象。Aspose.Cells for Python via .NET支持此功能。可以最高精度地复制图表、图像和其他对象。
 
 本文详细介绍了如何在工作表之间复制形状。
 

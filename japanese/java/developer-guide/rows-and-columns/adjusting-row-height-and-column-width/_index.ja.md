@@ -16,7 +16,7 @@ url: /ja/java/adjusting-row-height-and-column-width/
 
 [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクションには、ワークシート内の行や列を管理するためのいくつかのメソッドが用意されています。これについて以下で詳しく説明します。
 ### **行の高さの設定**
-[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションの[setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\)) メソッドを呼び出すことで、単一の行の高さを設定することができます。[setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\)) メソッドには以下のパラメータが必要です:
+1つの行の高さを設定するには、[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクションの[setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight-int-double-)メソッドを呼び出します。 [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight-int-double-)メソッドは、次のパラメータを取ります：
 
 - **行インデックス**：高さを変更する行のインデックス。
 - **行の高さ**：行に適用する行の高さ。
@@ -30,7 +30,7 @@ url: /ja/java/adjusting-row-height-and-column-width/
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingHeightAllRows-SettingHeightAllRows.java" >}}
 ## **列で操作する**
 ### **列の幅を設定する**
-列の幅を設定するには、[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションの[setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\)) メソッドを呼び出します。[setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\)) メソッドには以下のパラメータが必要です:
+列の幅を設定するには、[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクションの[setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth-int-double-)メソッドを呼び出します。 [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth-int-double-)は、次のパラメータを取ります：
 
 - **列インデックス**：幅を変更する列のインデックス。
 - **列の幅**：設定したい列の幅。
@@ -44,3 +44,4 @@ url: /ja/java/adjusting-row-height-and-column-width/
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingWidthOfAllColumns-SettingWidthOfAllColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

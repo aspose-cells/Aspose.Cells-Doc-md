@@ -5,3 +5,4 @@ type: docs
 weight: 200
 url: /ar/java/workbook-vba-project/
 ---
+{{< app/cells/assistant language="java" >}}

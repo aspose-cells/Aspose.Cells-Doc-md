@@ -4,8 +4,8 @@ linktitle: Bildschirm aufteilen
 type: docs
 weight: 190
 url: /de/python-net/how-to-split-screen-of-excel-worksheet
-description: In diesem Artikel erfahren Sie, wie Sie bestimmte Zeilen und/oder Spalten in separaten Fenstern anzeigen können, indem Sie das Arbeitsblatt programmgesteuert mit Aspose.Cells für Python via .NET APIs in zwei oder vier Teile aufteilen.
-keywords: Python Excel Bibliothek, Python Einfrieren oberer Zeilen, Python Obere Zeile einfrieren, Python Arbeitsblatt vertikal auf Spalten aufteilen, Python Arbeitsblatt horizontal auf Zeilen aufteilen, Python Arbeitsblatt in vier Teile aufteilen Python Wie man die Aufteilung entfernt.
+description: In diesem Artikel lernen Sie, wie Sie bestimmte Zeilen und/oder Spalten durch Aufteilung des Arbeitsblatts in zwei oder vier Teile programmgesteuert mit Aspose.Cells für Python via .NET APIs anzeigen können.
+keywords: Python Excel Bibliothek, Python Top Zeilen einfrieren, Python Top Zeile einfrieren, Python Arbeitsblatt vertikal nach Spalten aufteilen, Python Arbeitsblatt horizontal nach Zeilen aufteilen, Python Arbeitsblatt in vier Teile aufteilen Python Wie man die Aufteilung entfernt.
 ---
 
 ## **Einführung**
@@ -20,27 +20,27 @@ Um ein Arbeitsblatt in zwei oder vier Teile aufzuteilen, führen Sie folgende Sc
 
 **![Bildschirm teilen](Split-Screen.png)**
 
-## **Wie man ein Arbeitsblatt vertikal in Spalten aufteilt**
+## **Wie man das Arbeitsblatt vertikal nach Spalten aufteilt**
 
 Um zwei Bereiche des Tabellenblatts vertikal zu trennen, wählen Sie die Spalte rechts von der Spalte aus, an der die Trennung erscheinen soll, und klicken Sie auf die Schaltfläche Split in Excel.
 
-Es ist einfach, ein Arbeitsblatt vertikal in Spalten programmgesteuert mit Aspose.Cells für Python via .NET aufzuteilen, wir müssen nur eine Zelle in der obersten Zeile als aktive Zelle auswählen, dann
+Es ist einfach, das Arbeitsblatt vertikal nach Spalten mit Aspose.Cells für Python via .NET programmatisch aufzuteilen, wir müssen nur eine Zelle in der obersten Zeile als aktive Zelle auswählen, dann
 mit der Methode [**Worksheet.split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/split/) teilen.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Vertically-Split.py" >}}
 
-## **Wie man ein Arbeitsblatt horizontal in Zeilen aufteilt**
+## **Wie man das Arbeitsblatt horizontal nach Zeilen aufteilt**
 Um Ihr Excel-Fenster horizontal zu trennen, wählen Sie die Zeile unterhalb der Zeile, an der die Trennung in Excel erfolgen soll.
 
-Es ist einfach, ein Arbeitsblatt horizontal in Zeilen programmgesteuert mit Aspose.Cells für Python via .NET aufzuteilen, wir müssen nur eine Zelle in der linken Spalte als aktive Zelle auswählen, dann
+Es ist einfach, das Arbeitsblatt horizontal nach Zeilen mit Aspose.Cells für Python via .NET programmatisch aufzuteilen, wir müssen nur eine Zelle in der linken Spalte als aktive Zelle auswählen, dann
 mit der Methode [**Worksheet.split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/split/) teilen.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Horizontally-Split.py" >}}
 
-## **Wie man ein Arbeitsblatt in vier Teile aufteilt**
+## **Wie man das Arbeitsblatt in vier Teile aufteilt**
 Um vier verschiedene Abschnitte desselben Arbeitsblatts gleichzeitig anzuzeigen, teilen Sie Ihren Bildschirm sowohl vertikal als auch horizontal in Excel.
 
-Es ist einfach, ein Arbeitsblatt vertikal in Spalten programmgesteuert mit Aspose.Cells für Python via .NET aufzuteilen, wir müssen nur eine Zelle nicht in der ersten Zeile und Spalte als aktive Zelle auswählen, dann
+Es ist einfach, das Arbeitsblatt vertikal nach Spalten mit Aspose.Cells für Python via .NET programmatisch aufzuteilen, wir müssen nur eine Zelle auswählen, die nicht in der ersten Zeile und Spalte ist, als aktive Zelle, dann
 mit der Methode [**Worksheet.split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/split/) teilen.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Split-Four.py" >}}
@@ -48,6 +48,6 @@ mit der Methode [**Worksheet.split**](https://reference.aspose.com/cells/python-
 ## **Wie man die Aufteilung entfernt**
 Um die Trennung des Arbeitsblatts zu entfernen, klicken Sie einfach erneut auf die Schaltfläche Split.
 
-Aspose.Cells für Python via .NET bietet eine [**Worksheet.remove_split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/remove_split/)-Methode zum Entfernen der Aufteilungseinstellung an.
+Aspose.Cells für Python via .NET bietet eine [**Worksheet.remove_split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/remove_split/) Methode, um die Aufteilungseinstellung zu entfernen.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Remove-Split.py" >}}

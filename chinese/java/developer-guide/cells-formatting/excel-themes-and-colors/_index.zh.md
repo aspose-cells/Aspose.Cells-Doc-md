@@ -61,3 +61,4 @@ Aspose.Cells API 提供了自定义主题和颜色的功能。以下是几种实
 
 ## **高级主题**
 - [从Excel文件中提取主题数据](/cells/zh/java/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="java" >}}

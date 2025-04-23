@@ -272,3 +272,4 @@ Se debe pasar un objeto SaveOptions al método Workbook.Save después de configu
 Se aconseja utilizar el método Workbook.CreateStyle para crear y manipular estilos para una instancia de Workbook en lugar de crear un Style con el método StyleCollection.Add. Además, se puede usar el método Workbook.GetNamedStyle(string) para obtener un estilo con nombre en lugar de StyleCollection[string].
 ### **Método PivotItem.Move(int count) obsoleto**
 Con el lanzamiento de Aspose.Cells 8.3.2, la API ha introducido otra sobrecarga del método PivotItem.Move que acepta el parámetro entero para el contador y el parámetro booleano para mover un PivotItem dentro del nodo padre.
+{{< app/cells/assistant language="csharp" >}}

@@ -167,3 +167,4 @@ else
 ## **已弃用的API**
 ### **作废了 Workbook.checkWriteProtectedPassword 方法**
 随着 v8.6.1 的发布，Workbook.checkWriteProtectedPassword 方法已被标记为已弃用。建议使用 WorkbookSettings.WriteProtection.validatePassword 方法，该方法可以接受一个字符串值作为参数，并返回布尔值，以判断密码是否与电子表格的预设密码匹配。
+{{< app/cells/assistant language="java" >}}

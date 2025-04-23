@@ -29,24 +29,24 @@ Hier verwenden wir die Aspose.Cells API, um die Aufgabe zu erledigen.
 
 Aspose.Cells bietet eine Klasse, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), die eine Microsoft Excel-Datei darstellt. Die [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Klasse enthält eine [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection), die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse repräsentiert. Die [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse bietet eine [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) Sammlung.
 
-Es ist möglich, einen benannten Bereich zu erstellen, indem die überladene Methode [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\)) der [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) Sammlung aufgerufen wird. Eine typische Version der [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\)) Methode verwendet die folgenden Parameter:
+Es ist möglich, einen benannten Bereich zu erstellen, indem die überladene Methode [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-java.lang.String-java.lang.String-) der [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) Sammlung aufgerufen wird. Eine typische Version der Methode [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-java.lang.String-java.lang.String-) akzeptiert folgende Parameter:
 
 - Name der oberen linken Zelle, Name der oberen linken Zelle im Bereich.
 - Name der unteren rechten Zelle, Name der unteren rechten Zelle im Bereich.
 
-Wenn die Methode [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\)) aufgerufen wird, wird der neu erstellte benannte Bereich als Instanz der Klasse [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) zurückgegeben.
+Wenn die Methode [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-java.lang.String-java.lang.String-) aufgerufen wird, gibt sie den neu erstellten benannten Bereich als Instanz der Klasse [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) zurück.
 
 Das folgende Beispiel zeigt, wie ein benannter Bereich von Zellen erstellt wird, der sich über B4:G14 erstreckt.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-CreateNamedRangeofCells-CreateNamedRangeofCells.java" >}}
 #### **Zugriff auf alle benannten Bereiche in einer Tabelle**
-Rufen Sie die Methode [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\)) der [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) auf, um alle benannten Bereiche in einer Tabelle zu erhalten. Die Methode [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\)) gibt ein Array mit allen benannten Bereichen in der [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) zurück.
+Rufen Sie die Methode [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges--) der [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) auf, um alle benannten Bereiche in einem Arbeitsblatt zu erhalten. Die Methode [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges--) gibt ein Array aller benannten Bereiche in der Sammlung zurück.
 
 Das folgende Beispiel zeigt, wie auf alle benannten Bereiche in einer Arbeitsmappe zugegriffen wird.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AccessAllNamedRanges-AccessAllNamedRanges.java" >}}
 #### **Auf einen bestimmten benannten Bereich zugreifen**
-Rufen Sie die Methode [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\)) der Sammlung [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) auf, um einen bestimmten Bereich nach Namen zu erhalten. Eine typische Methode [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\)) erhält den Namen des benannten Bereichs und gibt den spezifizierten benannten Bereich als Instanz der Klasse [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) zurück.
+Rufen Sie die [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName-java.lang.String-) Methode der [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) auf, um einen bestimmten Bereich anhand seines Namens zu bekommen. Eine typische [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName-java.lang.String-) Methode akzeptiert den Namen des benannten Bereichs und gibt den entsprechenden Bereich als Instanz der Klasse [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) zurück.
 
 Das folgende Beispiel zeigt, wie auf einen bestimmten Bereich nach seinem Namen zugegriffen wird.
 
@@ -76,7 +76,7 @@ Im folgenden Beispiel wird gezeigt, wie eine feste Füllfarbe (Schattierungsfarb
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FormatRanges1-FormatRanges1.java" >}}
 #### **Formatbereiche... Hinzufügen von Rahmen zu einem benannten Bereich**
-Es ist möglich, Rahmen zu einem Bereich von Zellen hinzuzufügen, anstelle nur einer einzelnen Zelle. Das [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range)-Objekt bietet eine [setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\))-Methode, die die folgenden Parameter verwendet, um einen Rand zum Bereich von Zellen hinzuzufügen:
+Es ist möglich, Grenzen zu einem Zellbereich hinzuzufügen, anstatt nur eine einzelne Zelle. Das [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) Objekt bietet die Methode [setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders-int-com.aspose.cells.Color-) an, die die folgenden Parameter akzeptiert, um einen Rahmen zum Zellbereich hinzuzufügen:
 
 - borderStyle: Der Typ des Rahmens, ausgewählt aus der [CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType)-Aufzählung.
 - borderColor: Die Linienfarbe des Rahmens, ausgewählt aus der [Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color)-Aufzählung.
@@ -90,16 +90,17 @@ Nach Ausführung des obigen Codes wird die folgende Ausgabe generiert:
 
 ![todo:image_alt_text](named-ranges_1.png)
 #### **Stil auf Zellen in einem Bereich anwenden**
-Manchmal möchten Sie einen Stil auf die Zellen in einem [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) anwenden. Hierfür können Sie über die Zellen im Bereich iterieren und die [Cell.setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\))-Methode verwenden, um den Stil auf die Zelle anzuwenden.
+Manchmal möchten Sie einen Stil auf die Zellen eines [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) anwenden. Dafür können Sie die Zellen im Bereich durchlaufen und die Methode [Cell.setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle-com.aspose.cells.Style-) verwenden, um den Stil auf die Zelle anzuwenden.
 
 Im folgenden Beispiel wird gezeigt, wie Stile auf Zellen in einem Bereich angewendet werden.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ConvertCellsAddresstoRangeorCellArea-ConvertCellsAddresstoRangeorCellArea.java" >}}
 #### **Einen benannten Bereich entfernen**
-Aspose.Cells stellt die [NameCollection.RemoveAt()](https://reference.aspose.com/cells/java/com.aspose.cells/namecollection#removeAt\(int\))-Methode bereit, um den Namen des Bereichs zu löschen. Um den Inhalt des Bereichs zu löschen, verwenden Sie die [Cells.ClearRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#clearRange\(com.aspose.cells.CellArea\))-Methode.
+Aspose.Cells stellt die Methode [NameCollection.RemoveAt()](https://reference.aspose.com/cells/java/com.aspose.cells/namecollection#removeAt-int-) bereit, um den Namen des Bereichs zu löschen. Um die Inhalte des Bereichs zu löschen, verwenden Sie die Methode [Cells.ClearRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#clearRange-com.aspose.cells.CellArea-)
 Im folgenden Beispiel wird gezeigt, wie ein benannter Bereich mit seinem Inhalt entfernt wird.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-RemoveANamedRange-RemoveANamedRange.java" >}}
 
 
 borderColors 
+{{< app/cells/assistant language="java" >}}

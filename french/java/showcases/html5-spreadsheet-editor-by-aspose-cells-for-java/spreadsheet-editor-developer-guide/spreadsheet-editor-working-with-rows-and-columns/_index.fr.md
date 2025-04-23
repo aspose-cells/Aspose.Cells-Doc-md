@@ -372,3 +372,4 @@ Les boutons **Décaler les cellules à droite** et **Décaler les cellules vers 
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

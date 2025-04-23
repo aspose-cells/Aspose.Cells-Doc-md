@@ -90,3 +90,4 @@ Workbook book = new Workbook(inputFilePath, loadOptions);
 Som ett alternativ till Worksheet.copyConditionalFormatting-metoden rekommenderas att använda någon av Cells.copyRows eller Range.copy-metoderna.
 ### **Föråldrad Cells.End-egenskap**
 Använd Cells.LastCell-egenskapen som ett alternativ till Cells.End-egenskapen.
+{{< app/cells/assistant language="java" >}}

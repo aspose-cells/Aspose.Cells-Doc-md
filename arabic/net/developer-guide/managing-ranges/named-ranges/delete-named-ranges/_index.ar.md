@@ -41,3 +41,4 @@ description: يمكنك تعلم كيفية إزالة الأسماء المحد
 
 
 
+{{< app/cells/assistant language="csharp" >}}

@@ -53,3 +53,4 @@ row.setZeroHeight(true);
 Daha fazla bilgi için [Satır ve Sütunları Gizleme ve Gösterme](/java/satir-ve-sutunlari-gizleme-ve-gosterme) sayfasını ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

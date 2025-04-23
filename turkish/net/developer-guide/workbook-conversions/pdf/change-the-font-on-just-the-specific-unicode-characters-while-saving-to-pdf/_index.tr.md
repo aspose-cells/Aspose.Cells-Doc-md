@@ -38,3 +38,4 @@ Birincisi PdfSaveOptions.IsFontSubstitutionCharGranularity özelliğini ayarlama
 
 
 
+{{< app/cells/assistant language="csharp" >}}

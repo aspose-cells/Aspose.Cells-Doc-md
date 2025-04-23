@@ -1,0 +1,18 @@
+---
+title: 在输入新行的同时自动传播表或列表对象中的公式
+linktitle: 设置Table公式
+type: docs
+weight: 260
+url: /zh/python-net/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/
+---
+
+## **可能的使用场景**
+ 有时，你希望在表格或列表对象中新输入数据时，公式自动应用到新行。微软Excel的默认行为就是这样。为了用Aspose.Cells for Python via .NET实现类似功能，请使用 [**ListColumn.formula**](https://reference.aspose.com/cells/python-net/aspose.cells.tables/listcolumn/formula) 属性。
+
+## **在输入新数据时自动传播表或列表对象中的公式**
+以下示例代码以一种使列B中的公式在输入新数据时自动传播到新行的方式创建了一个Table或List对象。请检查使用此代码生成的[输出Excel文件](5115469.xlsx)。如果在A3单元格中输入任何数字，您会看到，B2单元格中的公式会自动传播到B3单元格。
+
+
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Formulas-PropagateFormulaInTable-1.py" >}}
+

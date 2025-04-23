@@ -24,3 +24,4 @@ Följande exempelkod lägger först till fyra anpassade XML-delar med [**Workbo
  Found: CustomXmlPart ID Sport
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

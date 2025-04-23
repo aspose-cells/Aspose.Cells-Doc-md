@@ -40,3 +40,4 @@ Detta inkluderar följande rikliga funktioner i Aspose.Cells jämfört med Apach
   - [Konvertera kalkylblad till PDF med Aspose.Cells](/cells/sv/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
 
 **Observera:** Många fler exempel kommer snart att finnas tillgängliga.
+{{< app/cells/assistant language="java" >}}

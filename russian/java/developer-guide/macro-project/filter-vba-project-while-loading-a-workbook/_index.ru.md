@@ -21,3 +21,4 @@ Workbook book = new Workbook(srcDir + "sampleMacroEnabledWorkbook.xlsm", loadOpt
 
 // Сохранение вывода в формате PDF
 book.save(outDir + "OutputSampleMacroEnabledWorkbook.xlsm", SaveFormat.XLSM);
+{{< app/cells/assistant language="java" >}}

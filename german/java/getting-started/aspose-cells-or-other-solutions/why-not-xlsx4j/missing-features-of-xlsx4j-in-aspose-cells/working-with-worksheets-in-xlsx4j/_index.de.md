@@ -12,3 +12,4 @@ url: /de/java/working-with-worksheets-in-xlsx4j/
 - [Registerkarten des Arbeitsblatts in xlsx4j anzeigen und ausblenden](/cells/de/java/display-and-hide-tabs-of-workbook-in-xlsx4j/)
 - [Jedes Arbeitsblatt als separates PDF in xlsx4j speichern](/cells/de/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
 - [Registerkartenfarbe im Arbeitsblatt in xlsx4j festlegen](/cells/de/java/set-worksheet-tab-color-in-xlsx4j/)
+{{< app/cells/assistant language="java" >}}

@@ -27,3 +27,4 @@ url: /ar/net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cel
 يمكنك استخدام هذا الكود العيني لتحويل [ملف Excel المصدر](5115563.xlsx) إلى [PDF الناتج](5115564.pdf).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderUnicodeInOutput-RenderUnicodeInOutput.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -13,3 +13,4 @@ url: /tr/java/working-with-spreadsheet-in-xlsx4j/
 - [xlsx4j'de Satır ve Sütun Yüksekliğini Ayarlama](/cells/tr/java/row-column-height-adjustment-in-xlsx4j/)
 
 mithil rayate
+{{< app/cells/assistant language="java" >}}

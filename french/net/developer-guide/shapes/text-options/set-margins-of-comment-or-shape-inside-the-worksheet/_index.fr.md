@@ -18,3 +18,4 @@ Veuillez consulter le code d'échantillon suivant. Il charge le [fichier Excel d
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-SetMarginsOfCommentOrShapeInsideTheWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

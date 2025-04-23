@@ -89,3 +89,4 @@ Oformaterat strängvärde: 123456
 {{% /alert %}}
 ## **Föråldrade Bytes, Tecken, TeckenMedMellanslag, Rader, Stycken Egenskaper**
 Många egenskaper från BuiltInDocumentPropertyCollection-klassen har markerats föråldrade från Aspose.Cells for .NET 8.1.0. Dessa egenskaper inkluderar Bytes, Tecken, TeckenMedMellanslag, Rader & Stycken. Anledningen är att ovanstående egenskaper inte är användbara för att bevara Excel-kalkylblad eftersom Excel exkluderar dem. Dessa egenskaper var ursprungligen skrivna för Word-dokument & PowerPoint-presentationer. 
+{{< app/cells/assistant language="java" >}}

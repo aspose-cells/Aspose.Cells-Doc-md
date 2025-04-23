@@ -81,3 +81,4 @@ El [archivo de salida](101089316.xlsx) generado por el siguiente fragmento de c√
 
 ## **Temas avanzados**
 - [Agregar marca de agua de WordArt al gr√°fico](/cells/es/net/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="csharp" >}}

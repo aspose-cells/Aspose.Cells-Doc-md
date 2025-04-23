@@ -16,3 +16,4 @@ Ahora Aspose.Cells proporciona la propiedad [**Style.QuotePrefix**](https://refe
 El siguiente código de muestra explica que las cadenas como ejemplo y 'ejemplo no se pueden diferenciar con la propiedad [**Cell.StringValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue). Por lo tanto, debemos usar la propiedad [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) para distinguirlas.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindIfCellValueStartsWithSingleQuote-FindIfCellValueStartsWithSingleQuote.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

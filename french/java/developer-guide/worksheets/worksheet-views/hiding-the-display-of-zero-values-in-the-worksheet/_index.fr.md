@@ -24,3 +24,4 @@ Pour masquer les valeurs zéro dans une feuille de calcul dans Microsoft Excel (
 Veuillez consulter le code d'exemple suivant qui montre comment masquer les zéros en utilisant Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-HidingDisplayOfZeroValues-HidingDisplayOfZeroValues.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -16,3 +16,4 @@ Der folgende Beispielscode lädt eine Arbeitsmappe so, dass nur das VBA gefilter
 [sampleMacroEnabledWorkbook.xlsm](79527938.xlsm)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilterVBAMacrosWhileLoadingWorkbook-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

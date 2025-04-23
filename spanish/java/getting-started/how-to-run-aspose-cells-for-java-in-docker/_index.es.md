@@ -58,3 +58,4 @@ docker build -t java-app .
 {{< /highlight >}}
 
 Después de ejecutar el comando anterior, obtendrás la salida de la hoja de cálculo XLSX y el resultado de la línea de comandos. En este punto, un programa Java se ha ejecutado con éxito en Docker Linux.
+{{< app/cells/assistant language="java" >}}

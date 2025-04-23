@@ -375,3 +375,4 @@ Aspose.Cells支持在工作表中添加、提取和操作OLE对象。出于这�
 - [管理形状文本选项](/cells/zh/net/managing-shape-text-options/)
 - [Web扩展 - 办公室加载项](/cells/zh/net/web-extensions-office-add-ins/)
 
+{{< app/cells/assistant language="csharp" >}}

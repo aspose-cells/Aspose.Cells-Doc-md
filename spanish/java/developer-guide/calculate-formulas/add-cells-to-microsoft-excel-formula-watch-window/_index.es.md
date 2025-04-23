@@ -7,7 +7,7 @@ url: /es/java/add-cells-to-microsoft-excel-formula-watch-window/
 
 ## **Escenarios de uso posibles**
 
-La ventana de seguimiento de fórmulas de Microsoft Excel es una herramienta útil para observar los valores de las celdas y sus fórmulas de manera conveniente en una ventana. Puedes abrir la *Ventana de seguimiento* usando Microsoft Excel haciendo clic en *Fórmulas > Seguimiento* *de fórmulas*. Tiene el botón *Agregar seguimiento* que se puede usar para agregar las celdas para su inspección. De manera similar, puedes utilizar el método [**Worksheet.getCellWatches().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/cellwatchcollection#add(int,%20int)) para agregar celdas a la *Ventana de seguimiento* usando la API de Aspose.Cells.
+La ventana de seguimiento de fórmulas de Microsoft Excel es una herramienta útil para observar los valores de las celdas y sus fórmulas de manera conveniente en una ventana. Puedes abrir la *Ventana de seguimiento* usando Microsoft Excel haciendo clic en *Fórmulas > Seguimiento* *de fórmulas*. Tiene el botón *Agregar seguimiento* que se puede usar para agregar las celdas para su inspección. De manera similar, puedes utilizar el método [**Worksheet.getCellWatches().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/cellwatchcollection#add-int-int-) para agregar celdas a la *Ventana de seguimiento* usando la API de Aspose.Cells.
 
 ## **Agregar celdas a la ventana de seguimiento de fórmulas de Microsoft Excel**
 
@@ -18,3 +18,4 @@ El siguiente código de ejemplo establece la fórmula de las celdas C1 y E1 y la
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Formulas-AddCellsToMicrosoftExcelFormulaWatchWindow.java" >}}
+{{< app/cells/assistant language="java" >}}

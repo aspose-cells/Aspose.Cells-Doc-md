@@ -18,7 +18,7 @@ keywords: Java从磁盘或流应用许可证。Java从磁盘或流设置许可�
 1. 明确的路径。
 1. 包含 Aspose.Cells.jar 的文件夹。
 
-使用 [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) 方法来许可组件。通常，设置许可证的最简单方式是将许可证文件放在与 Aspose.Cells.jar 相同的文件夹中，并且只需指定文件名，不需要路径，如下例所示：
+使用[License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense-java.io.InputStream-)方法为组件授权。通常，设置许可证最简单的方法是将许可证文件放在与Aspose.Cells.jar相同的文件夹中，并只指定文件名（不包括路径），如下例所示：
 
 ### **如何从磁盘应用许可证**
 
@@ -99,3 +99,4 @@ double amountAfter = Metered.getConsumptionQuantity();
 System.out.println(amountAfter);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

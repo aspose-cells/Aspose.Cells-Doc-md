@@ -28,3 +28,4 @@ L'exécution du code crée uniquement une image de la plage E8:H10.
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ExportRangeofCells-1.java" >}}
 
 Vous trouverez peut-être également l'article [Conversion de feuille de calcul en différents formats d'image](/cells/fr/java/converting-worksheet-to-different-image-formats/) utile.
+{{< app/cells/assistant language="java" >}}

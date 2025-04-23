@@ -23,3 +23,4 @@ Aspose.Cells поддерживает изменение существующе�
 - [Выходной файл Excel](5112356.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ModifyingExistingDataConnection-ModifyingExistingDataConnection.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

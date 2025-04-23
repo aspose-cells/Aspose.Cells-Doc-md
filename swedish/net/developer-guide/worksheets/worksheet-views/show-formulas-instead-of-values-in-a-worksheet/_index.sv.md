@@ -15,3 +15,4 @@ Det är möjligt att visa formler istället för beräknade värden i Microsoft 
 Aspose.Cells tillhandahåller en [**Worksheet.ShowFormulas**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/showformulas)-egenskap. Ange detta till **true** för att ställa in Microsoft Excel att visa formler.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ShowFormulasInsteadOfValues-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

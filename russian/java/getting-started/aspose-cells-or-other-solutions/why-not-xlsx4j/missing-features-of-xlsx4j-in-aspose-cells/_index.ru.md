@@ -37,3 +37,4 @@ url: /ru/java/missing-features-of-xlsx4j-in-aspose-cells/
   - [Установка цвета вкладки листа в xlsx4j](/cells/ru/java/set-worksheet-tab-color-in-xlsx4j/)
 
 **Примечание:** Больше примеров скоро будут доступны.
+{{< app/cells/assistant language="java" >}}

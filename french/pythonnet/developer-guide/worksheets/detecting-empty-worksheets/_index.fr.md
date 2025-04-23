@@ -3,8 +3,8 @@ title: Détection de feuilles de calcul vides
 type: docs
 weight: 410
 url: /fr/python-net/detecting-empty-worksheets/
-description: Cet article vous montre du code expliquant comment détecter les feuilles de calcul vides des classeurs Excel de manière programmatique en utilisant la bibliothèque Aspose.Cells pour Python via .NET.
-keywords: Bibliothèque Excel Python, détecter une feuille de calcul vide en utilisant Python, trouver une feuille de calcul Excel vide en Python.
+description: Cet article vous présente du code expliquant comment détecter de manière programmatique si des feuilles Excel sont vides en utilisant la bibliothèque Aspose.Cells pour Python via .NET.
+keywords: Bibliothèque Excel Python, détecter une feuille vide avec Python, trouver une feuille Excel vide en Python.
 ---
 
 ## **Vérifier les cellules peuplées**
@@ -19,11 +19,11 @@ Les collections de lignes et de colonnes ont un index à base zéro, donc une ce
 
 ## **Vérifier les cellules initialisées vides**
 
-Toutes les cellules qui ont des valeurs sont automatiquement initialisées, cependant, il est possible qu'une feuille de calcul comporte uniquement des cellules avec uniquement une mise en forme appliquée. Dans un tel scénario, les propriétés [**Cells.max_data_row**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_row/) ou [**Cells.max_data_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_column/) renverront -1 indiquant l'absence de valeurs peuplées mais des cellules initialisées en raison de la mise en forme des cellules ne peuvent pas être détectées en utilisant cette approche. Afin de vérifier si une feuille de calcul contient des cellules initialisées vides, il est conseillé d'utiliser la méthode IEnumerator.MoveNext sur l'énumérateur acquis dans la collection [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells). Si la méthode IEnumerator.MoveNext renvoie **true** cela signifie qu'il y a une ou plusieurs cellules initialisées dans la feuille de calcul donnée.
+Toutes les cellules contenant des valeurs sont initialisées automatiquement, cependant il est possible qu'une feuille ait des cellules uniquement formatées. Dans ce cas, les propriétés [**Cells.max_data_row**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_row/) ou [**Cells.max_data_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_column/) renverront -1, indiquant l'absence de valeurs remplies, mais les cellules initialisées en raison du format de cellule ne peuvent pas être détectées avec cette approche. Pour vérifier si une feuille a des cellules initialisées vides, il est conseillé d'utiliser la méthode IEnumerator.MoveNext sur l'énumérateur acquis de la collection [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells). Si la méthode IEnumerator.MoveNext retourne **true**, cela signifie qu'il y a une ou plusieurs cellules initialisées dans la feuille donnée.
 
 ## **Vérifier les formes**
 
-Il est possible qu'une feuille de calcul donnée ne contienne pas de cellules peuplées, cependant, elle pourrait contenir des formes et des objets tels que des contrôles, des graphiques, des images, etc. Si nous devons vérifier si une feuille de calcul contient des formes, nous pouvons le faire en inspectant les éléments [**ShapeCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shapecollection). Toute valeur positive indique la présence de forme(s) dans la feuille de calcul.
+Il est possible qu'une feuille donnée ne contienne aucune cellule remplie, mais qu'elle puisse contenir des formes et objets tels que des contrôles, graphiques, images, etc. Si nous devons vérifier si une feuille contient des formes, nous pouvons le faire en inspectant les éléments [**ShapeCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shapecollection). Toute valeur positive indique la présence de formes dans la feuille.
 
 ## **Exemple de programmation**
 

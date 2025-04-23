@@ -26,3 +26,4 @@ Diagrammet ser ut så här innan koden exekveras.
 Diagrammet ser ut så här efter att koden exekveras.
 
 ![todo:image_alt_text](resize-chart-s-data-label-shape-to-fit-text_3.png)
+{{< app/cells/assistant language="java" >}}

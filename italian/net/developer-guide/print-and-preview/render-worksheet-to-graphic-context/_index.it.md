@@ -17,3 +17,4 @@ Aspose.Cells ora può rappresentare il foglio di calcolo nel contesto grafico. I
 Il codice seguente illustra come utilizzare Aspose.Cells per rappresentare il foglio di calcolo nel contesto grafico. Una volta eseguito il codice, stamperà l'intero foglio di calcolo e riempirà lo spazio vuoto rimanente con il colore blu nel contesto grafico e salverà l'immagine come file **OutputImage_out_.png**. È possibile utilizzare qualsiasi file excel di origine per provare questo codice. Si prega di leggere anche i commenti all'interno del codice per una migliore comprensione.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-RenderWorksheetToGraphicContext-RenderWorksheetToGraphicContext.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -182,3 +182,4 @@ Aşağıdaki kod örnekleri, Aspose.Cells kullanarak bir elektronik tabloya bir 
 **Aspose.Cells for .NET ile oluşturulan bir pasta grafiği** 
 
 ![todo:image_alt_text](create-a-pie-chart_2.png)
+{{< app/cells/assistant language="csharp" >}}

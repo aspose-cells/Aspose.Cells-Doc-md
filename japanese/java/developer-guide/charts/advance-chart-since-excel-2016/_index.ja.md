@@ -36,3 +36,4 @@ BoxWhisker
 
 ## **高度なトピック**
 - [ウォーターフォールチャートの作成](/cells/ja/java/creating-waterfall-chart/)
+{{< app/cells/assistant language="java" >}}

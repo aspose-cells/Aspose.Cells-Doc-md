@@ -32,3 +32,4 @@ Consulte el siguiente código de muestra que describe cómo puede realizar la ta
 - [Agregar firma digital a un archivo de Excel ya firmado](/cells/es/net/add-digital-signature-to-an-already-signed-excel-file/)
 - [Agregar línea de firma a la hoja de trabajo](/cells/es/net/add-signature-line/)
 - [Soporte para firma XAdES](/cells/es/net/support-for-xades-signature/)
+{{< app/cells/assistant language="csharp" >}}

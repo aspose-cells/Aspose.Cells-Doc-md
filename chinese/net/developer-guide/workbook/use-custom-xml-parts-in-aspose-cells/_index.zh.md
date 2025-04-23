@@ -24,3 +24,4 @@ url: /zh/net/use-custom-xml-parts-in-aspose-cells/
 ## 相关文章
 
 - [在文档信息面板中可见的自定义属性](/cells/zh/net/adding-custom-properties-visible-inside-document-information-panel/)
+{{< app/cells/assistant language="csharp" >}}

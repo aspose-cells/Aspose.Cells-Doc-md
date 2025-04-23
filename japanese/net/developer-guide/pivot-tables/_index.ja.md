@@ -55,3 +55,4 @@ Aspose.Cellsには、ピボットテーブルを作成し制御するための[*
 - [レポートフィルタページオプションを表示](/cells/ja/net/save-pivot-table-in-ods-file/)
 - [レポートフィルターページのオプションを表示](/cells/ja/net/show-report-filter-pages-option/)
 - [行と列のフォーマット](/cells/ja/net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="csharp" >}}

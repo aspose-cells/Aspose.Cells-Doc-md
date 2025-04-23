@@ -74,3 +74,4 @@ Result of Sum(A1:A2): 50.0
 - [ブックの数式計算モードの設定](/cells/ja/net/setting-formula-calculation-mode-of-workbook/)
 - [Aspose.CellsでのFormulaText関数の使用](/cells/ja/net/using-formulatext-function-in-aspose-cells/)
 - [ICustomFunction機能の使用](/cells/ja/net/using-icustomfunction-feature/)
+{{< app/cells/assistant language="csharp" >}}

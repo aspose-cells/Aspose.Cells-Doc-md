@@ -11,11 +11,11 @@ Anpassade XML-delar är XML-data som lagras av olika program som SharePoint etc.
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_1.png)
 
-Du kan lägga till anpassade XML-delar med Aspose.Cells via metoden [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)).
+Du kan lägga till anpassade XML-delar med Aspose.Cells via metoden [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-).
 
 {{% /alert %}} 
 ## **Använda anpassade Xml Delar i Aspose.Cells**
-Följande provkod använder metoden [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)) och lägger till **Book Catalog Xml** och dess namn är **BookStore**. Den följande bilden visar resultatet av denna kod. Som ni kan se har Book Catalog Xml lagts till inne i BookStore-noden som är namnet på egenskapen.
+Följande exempel använder [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-) metod och lägger till **Book Catalog Xml** och dess namn är **BookStore**. Följande bild visar resultatet av denna kod. Som du kan se är Book Catalog Xml tillagt inuti BookStore-noden, som är namnet på denna egenskap.
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_2.png)
 
@@ -26,3 +26,4 @@ Följande provkod använder metoden [Workbook.getContentTypeProperties().add()](
 - [Lägga till anpassade egenskaper synliga inuti dokumentinformationspanelen](/cells/sv/java/adding-custom-properties-visible-inside-document-information-panel/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

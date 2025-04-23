@@ -258,3 +258,4 @@ Ein Objekt von SaveOptions muss an die Workbook.Save Methode übergeben werden, 
 Es wird empfohlen, die Workbook.createStyle-Methode zu verwenden, um Stile für die Workbook-Instanz zu erstellen und zu manipulieren, anstatt einen Stil mit der StyleCollection.add-Methode zu erstellen. Darüber hinaus kann die Workbook.getNamedStyle(string)-Methode verwendet werden, um benannte Styles zu erhalten, anstelle von StyleCollection.get(string).
 ### **Veraltete PivotItem.move(int count)-Methode**
 Mit der Veröffentlichung von Aspose.Cells 8.3.2 hat die API eine weitere Überladung der PivotItem.move-Methode eingeführt, die den Integer-Parameter für die Anzahl und den Boolean-Parameter zum Verschieben eines PivotItem innerhalb des übergeordneten Knotens akzeptiert. 
+{{< app/cells/assistant language="java" >}}

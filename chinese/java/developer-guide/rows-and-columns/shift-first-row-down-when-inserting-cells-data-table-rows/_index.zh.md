@@ -20,3 +20,4 @@ Aspose.Cells允许在将表插入工作表时将第一行向下移动。本文�
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ShiftFirstRowDownWhenInsertingCellsDataTableRows.java" >}}
+{{< app/cells/assistant language="java" >}}

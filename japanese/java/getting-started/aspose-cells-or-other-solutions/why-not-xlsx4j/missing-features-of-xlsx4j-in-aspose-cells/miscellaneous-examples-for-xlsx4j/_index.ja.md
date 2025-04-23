@@ -10,3 +10,4 @@ url: /ja/java/miscellaneous-examples-for-xlsx4j/
 - [xlsx4jでピボットテーブルを作成する](/cells/ja/java/create-pivot-table-in-xlsx4j/)
 - [xlsx4jでワークブックを印刷する](/cells/ja/java/printing-workbooks-in-xlsx4j/)
 - [xlsx4jで印刷タイトルを設定する](/cells/ja/java/set-print-titles-in-xlsx4j/)
+{{< app/cells/assistant language="java" >}}

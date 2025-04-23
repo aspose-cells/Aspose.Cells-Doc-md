@@ -381,3 +381,4 @@ Aşağıdaki örnek, çalışma sayfasına bir grup kutu eklemeyi ve kontrolleri
 - [Aspose.Cells Kullanarak ActiveX Kontrolleri Ekleme](/cells/tr/net/add-activex-controls-using-aspose-cells/)
 - [ActiveX Kontrolü Kaldırma](/cells/tr/net/remove-activex-control/)
 - [ActiveX ComboBox Kontrolünü Güncelleme](/cells/tr/net/update-activex-combobox-control/)
+{{< app/cells/assistant language="csharp" >}}

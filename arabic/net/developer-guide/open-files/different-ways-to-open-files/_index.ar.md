@@ -50,3 +50,4 @@ keywords: C# فتح ملف إكسل بدون إكسل، كيف يمكنني فت
 هناك فرص عادلة لأن يلقي بناء جملة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) استثناء *System.OutOfMemoryException* أثناء تحميل جداول البيانات الكبيرة. يشير هذا الاستثناء إلى أن الذاكرة المتاحة غير كافية لتحميل الجدول بالكامل في الذاكرة بالتالي يجب تحميل الجدول بتمكين تفضيلات الذاكرة.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

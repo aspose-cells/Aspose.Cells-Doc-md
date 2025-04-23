@@ -28,3 +28,4 @@ Ole Object Label - Before: Sample APIs
 Ole Object Label - After: Aspose APIs
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

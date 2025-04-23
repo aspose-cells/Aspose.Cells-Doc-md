@@ -42,3 +42,4 @@ Microsoft Excel (97 - 365) позволяет зашифровать / защи�
 
 
 
+{{< app/cells/assistant language="java" >}}

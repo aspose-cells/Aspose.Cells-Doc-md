@@ -27,3 +27,4 @@ keywords: إكسل إلى بي دي إف جافا، تحويل إكسل إلى �
 
 - [تحويل ملف Excel إلى تنسيق PDF متوافق مع PDFA-1a](/cells/ar/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [عرض الرسم البياني](/cells/ar/java/chart-rendering/)
+{{< app/cells/assistant language="java" >}}

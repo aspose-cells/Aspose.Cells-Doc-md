@@ -59,7 +59,7 @@ El siguiente ejemplo de código explica cómo guardar un libro de trabajo comple
 
 Cuando se ejecuta el código, convierte los datos de todas las hojas del libro de trabajo al formato TXT.
 
-Puedes modificar el mismo ejemplo para guardar tu archivo en CSV. Por defecto, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) es una coma, así que no especifiques un separador al guardar en formato CSV. Ten en cuenta: Si estás usando la versión de evaluación e incluso si la propiedad [**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/) está configurada en true, el programa seguirá exportando solo una hoja de trabajo.
+Puede modificar el mismo ejemplo para guardar su archivo en CSV. Por defecto, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) es la coma, así que no especifique un separador al guardar en formato CSV. Tenga en cuenta: si usa la versión de evaluación y aunque la propiedad [**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/) esté configurada en true, el programa solo exportará una hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 
@@ -98,3 +98,4 @@ Aspose.Cells es compatible con la posibilidad de guardar archivos en JSON o XML.
 - [Ajustar el nivel de compresión del libro de trabajo](/cells/es/net/adjust-workbook-compression-level/)
 - [Guardar libro de trabajo en formato de hoja de cálculo de Open XML estricto](/cells/es/net/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [Guardando archivo en objeto de respuesta](/cells/es/net/saving-file-to-response-object/)
+{{< app/cells/assistant language="csharp" >}}

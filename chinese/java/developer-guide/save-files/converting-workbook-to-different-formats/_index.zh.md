@@ -65,7 +65,7 @@ Aspose.Cells API提供支持将电子表格导出为HTML格式。为此，Aspose
 
 {{% alert color="primary" %}}
 
-通过将[**SaveFormat.HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML)传递给[**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))方法，您可以实现相同的结果。
+通过将[**SaveFormat.HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML)传递给[**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-)方法，您可以实现相同的结果。
 
 {{% /alert %}}
 
@@ -110,7 +110,7 @@ Aspose.Cells for Java 直接将有关 API 和版本号的信息写入输出文�
 
 #### **直接转换**
 
-使用[**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))方法直接将Excel文件保存为PDF，并提供[**SaveFormat.PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)接口成员。这种直接转换是最有效的转换方法。它不会丢失数据或格式，但会使输出的PDF看起来像输入的Excel文件。
+使用[**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-)方法直接将Excel文件保存为PDF，并提供[**SaveFormat.PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)接口成员。这种直接转换是最有效的转换方法。它不会丢失数据或格式，但会使输出的PDF看起来像输入的Excel文件。
 
 要在保存为PDF时指定安全选项，请使用[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)。
 
@@ -134,7 +134,7 @@ Aspose.Cells for Java 直接将有关 API 和版本号的信息写入输出文�
 
 通过调用其空构造函数实例化[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)类的对象。
 1. 使用 Aspose.Cells API 在电子表格上执行您期望的操作。
-1. 调用[**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))方法以保存电子表格：
+1. 调用[**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-)方法以保存电子表格：
    1. 将文件格式设置为 XML。
    1. 从 FileFormatType 接口中选择 Aspose_Pdf（一个预定义值）。这将指示保存方法生成一个与 Aspose.PDF Schema 兼容的 XML 格式电子表格，以便随后 Aspose.PDF for Java 生成 PDF 文档。
 1. 创建 aspose.pdf 包中 Pdf 类的对象时，即建立 XML 文件 。
@@ -189,3 +189,4 @@ Aspose.Cells for Java 直接将有关 API 和版本号的信息写入输出文�
 |页面设置|缩放|是| |
 |行高/列宽| |是| |
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

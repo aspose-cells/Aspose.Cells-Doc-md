@@ -19,3 +19,4 @@ keywords: 在没有office 2013、office 2016、office 2019和office 365的情况
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-Removing-Pivot-Connection.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -13,3 +13,4 @@ Si prega di considerare questi dati testuali ovvero {11, 111, 22}. Questi dati t
 Il seguente codice di esempio illustra l'uso della proprietà [DataSorter.SortAsNumber](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#SortAsNumber) come spiegato in precedenza. Si prega di controllare il [file Excel di esempio](43352077.xlsx) e il [file Excel di output](43352078.xlsx) per ulteriori informazioni.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SpecifyingSortWarningWhileSortingData.java" >}}
+{{< app/cells/assistant language="java" >}}

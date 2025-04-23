@@ -41,3 +41,4 @@ El siguiente código de ejemplo muestra cómo utilizar el [**Workbook.ImportXml
 - [Vincular celdas a elementos del mapa XML](/cells/es/net/link-cells-to-xml-map-elements/)
 - [Consultar áreas de celdas mapeadas a la ruta del mapa XML utilizando el método Worksheet.XmlMapQuery](/cells/es/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 
+{{< app/cells/assistant language="csharp" >}}

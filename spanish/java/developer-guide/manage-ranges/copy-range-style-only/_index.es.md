@@ -20,3 +20,4 @@ Este ejemplo crea un libro de trabajo, lo llena con datos y copia solo el estilo
 1. Copiar el formato del primer rango al segundo rango.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyRangeStyleOnly-CopyRangeStyleOnly.java" >}}
+{{< app/cells/assistant language="java" >}}

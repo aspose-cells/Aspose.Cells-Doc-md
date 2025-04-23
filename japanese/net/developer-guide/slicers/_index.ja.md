@@ -36,3 +36,4 @@ description: Aspose.Cellsを使用してExcelファイルのスライサーを�
 - [スライサーの削除](/cells/ja/net/removing-slicer/)
 - [スライサーをレンダリングする](/cells/ja/net/rendering-slicer/)
 - [スライサーを更新する](/cells/ja/net/updating-slicer/)
+{{< app/cells/assistant language="csharp" >}}

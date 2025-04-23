@@ -166,19 +166,20 @@ Aspose.Cells 允许在运行时向工作表添加页眉和页脚，但建议手�
 |&T|当前时间。
 |&A|工作表名称。
 |&F|不带路径的文件名。
+|&&文本|显示 &文本。例如：&&WO 将显示为 &WO|
 |&"\<FontName>"|字体名称。例如：&"Arial"
 |&"\<FontName>, \<FontStyle>"|带有样式的字体名称。例如：&"Arial,Bold"
 |&\<FontSize>|代表字体大小。例如：“&14abc”。但如果此命令后跟一个要在页眉中打印的普通数字，则应与字体大小用空格分隔。例如：“&14 123”。
 
 ### **设置页眉和页脚**
 
-类[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)提供了添加页眉的方法[**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String))和添加页脚的方法[**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String))。该脚本被用作上述方法的参数。它表示用于页眉或页脚的脚本。此脚本包含用于格式化页眉或页脚的脚本命令。
+类[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)提供了添加页眉的方法[**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader-int-java.lang.String-)和添加页脚的方法[**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter-int-java.lang.String-)。该脚本被用作上述方法的参数。它表示用于页眉或页脚的脚本。此脚本包含用于格式化页眉或页脚的脚本命令。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetHeadersAndFooters-SetHeadersAndFooters.java" >}}
 
 ### **在页眉或页脚中插入图形**
 
-The [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)类有方法[**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[]))和[**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[]))，用于向工作表的页眉和页脚添加图片。这些方法接受两个参数：
+The [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)类有方法[**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture-int-byte[]-)和[**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture-int-byte[]-)，用于向工作表的页眉和页脚添加图片。这些方法接受两个参数：
 
 - **节**，将放置图片的页眉或页脚的部分。有三个部分：左侧，中心和右侧，分别由数值0、1和2表示。
 - **文件InputStream**，图形数据。二进制数据应写入字节数组的缓冲区。
@@ -196,7 +197,7 @@ The [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pag
 
 ### **仅在第一页页眉中插入图形**
 
-除了其他有用的方法，[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)类还有例如[**setPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[]))、[**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String))、[**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String))的方法，用于将图片添加到工作表的第一页页眉/页脚。第一页是一个特殊的页面：通常会希望它显示特殊信息，例如公司标志。
+除了其他有用的方法，[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)类还有例如[**setPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture-boolean-boolean-boolean-int-byte[]-)、[**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader-int-java.lang.String-)、[**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter-int-java.lang.String-)的方法，用于将图片添加到工作表的第一页页眉/页脚。第一页是一个特殊的页面：通常会希望它显示特殊信息，例如公司标志。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-InsertGraphicinFirstPageHeaderOnly-InsertGraphicinFirstPageHeaderOnly.java" >}}
 
@@ -256,18 +257,18 @@ Aspose.Cells 允许您指定行列标题在打印工作表的所有页面上重�
 
 |**打印备注类型**|**描述**|
 | :- | :- |
-|[**PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)|指定按照工作表上显示的方式打印备注。
-|[**PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS)|指定不打印备注。
-|[**PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_SHEET_END)|指定在工作表末尾打印备注。
+|[**在原地打印**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-IN-PLACE)|指定以工作表上的显示方式打印批注。|
+|[**不打印批注**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-NO-COMMENTS)|指定不打印批注。|
+|[**打印在工作表末端**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-SHEET-END)|指定在工作表末端打印批注。|
 
 [**PrintErrorsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType) 枚举中的预定义值如下所述。
 
 |**打印错误类型**|**描述**|
 | :- | :- |
-|[**PRINT_ERRORS_BLANK**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_BLANK)|指定不打印错误。|
-|[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DASH)|指定打印错误为“--”。|
-|[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DISPLAYED)|指定以显示形式打印错误。|
-|[**PRINT_ERRORS_NA**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_NA)|指定打印错误为“＃N/A”。|
+|[**打印错误为空**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-BLANK)|指定不打印错误。|
+|[**用“--”打印错误**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-DASH)|指定将错误以“--”显示。|
+|[**显示打印错误**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-DISPLAYED)|指定按显示方式打印错误。|
+|[**打印为“#N/A”**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-NA)|指定将错误打印为“#N/A”。|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-OtherPrintOptions-OtherPrintOptions.java" >}}
 
@@ -284,8 +285,8 @@ Aspose.Cells 提供一个枚举，[**PrintOrderType**](https://reference.aspose.
 
 |**打印顺序类型**|**描述**|
 | :- | :- |
-|[**DOWN_THEN_OVER**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN_THEN_OVER)|先向下，再向右打印。|
-|[**OVER_THEN_DOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER_THEN_DOWN)|先向右，再向下打印。|
+|[**向下打印，然后横向**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN-THEN-OVER)|优先向下打印，然后横向。|
+|[**向右打印，然后向下**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER-THEN-DOWN)|优先向右打印，然后向下。|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPageOrder-SetPageOrder.java" >}}
 
@@ -301,3 +302,4 @@ Aspose.Cells 提供一个枚举，[**PrintOrderType**](https://reference.aspose.
 - [实现工作表的自定义纸张大小以进行渲染](/cells/zh/java/implement-custom-paper-size-of-worksheet-for-rendering/)
 - [页面设置和打印选项](/cells/zh/java/page-setup-and-printing-options/)
 - [删除Excel文件中工作表的现有打印设置](/cells/zh/java/remove-existing-printersettings-of-worksheets-in-excel-file/)
+{{< app/cells/assistant language="java" >}}

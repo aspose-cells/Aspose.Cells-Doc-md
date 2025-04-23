@@ -19,9 +19,9 @@ Microsoft Excelでは、印刷またはPDF形式への保存時にコメント�
 
 Aspose.Cellsは、PDFに保存する際にコメントを印刷するための次の列挙型を提供します
 
-- [**PrintCommentsType.PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS)
-- [**PrintCommentsType.PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)
-- [**PrintCommentsType.PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_SHEET_END)
+- [**PrintCommentsType.PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-NO-COMMENTS)
+- [**PrintCommentsType.PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-IN-PLACE)
+- [**PrintCommentsType.PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-SHEET-END)
 
 ## コードスニペット
 
@@ -32,3 +32,4 @@ Aspose.Cellsは、PDFに保存する際にコメントを印刷するための�
 ## 関連記事
 
 - [PDFA-1aに準拠したExcelファイルをPDF形式に変換する](/cells/ja/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+{{< app/cells/assistant language="java" >}}

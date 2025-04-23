@@ -7,7 +7,7 @@ url: /ru/java/cut-and-paste-cells/
 
 ## **Вырезать и вставить ячейки**
 
-Aspose.Cells предоставляет возможность вырезать и вставить ячейки в рабочем листе, используя метод коллекции [**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)). Метод [**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) принимает следующие параметры.
+Aspose.Cells предоставляет возможность вырезать и вставить ячейки в рабочем листе, используя метод коллекции [**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells-com.aspose.cells.Range-int-int-int-). Метод [**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells-com.aspose.cells.Range-int-int-int-) принимает следующие параметры.
 
 - [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range): Диапазон ячеек для вырезания.
 - Индекс строки: Индекс строки для вставки ячеек.
@@ -19,3 +19,4 @@ Aspose.Cells предоставляет возможность вырезать 
 ## Образец кода
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-CutAndPasteCells-1.java" >}}
+{{< app/cells/assistant language="java" >}}

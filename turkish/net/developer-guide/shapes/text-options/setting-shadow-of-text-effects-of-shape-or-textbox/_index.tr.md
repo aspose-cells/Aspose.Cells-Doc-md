@@ -22,3 +22,4 @@ Herhangi bir Şekil veya Metin Kutusunun **Metin Efektlerinin Gölgesini** ayarl
 Aşağıdaki kod örneği, Şekil veya TextBox'ın metin efekt gölgelerini ayarlamak için [**FontSetting.TextOptions.Shadow.PresetType.PresetType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype) özelliğini kullanmanın örneklerini gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SettingTextEffectsShadowOfShapeOrTextbox-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

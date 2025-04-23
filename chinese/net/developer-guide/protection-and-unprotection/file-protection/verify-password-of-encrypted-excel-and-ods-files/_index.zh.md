@@ -17,3 +17,4 @@ description: 使用 CShape 代码验证加密的 Excel (xlsx、xlsb、xls、xlsm
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-VerifyPassword-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

@@ -38,3 +38,4 @@ Du kan också kopiera data med Range.CopyData-metoden enligt följande koder:
 - [Kopiera radhöjder från källspann till destinationspann](/cells/sv/net/copy-row-heights-of-source-range-to-destination-range/)
 
 
+{{< app/cells/assistant language="csharp" >}}

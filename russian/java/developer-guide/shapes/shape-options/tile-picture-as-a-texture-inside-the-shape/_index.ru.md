@@ -20,3 +20,4 @@ url: /ru/java/tile-picture-as-a-texture-inside-the-shape/
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-TilePictureAsTextureInsideShape.java" >}}
+{{< app/cells/assistant language="java" >}}

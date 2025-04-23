@@ -11,9 +11,9 @@ url: /ar/java/calculate-formulas/
 
 تدعم Aspose.Cells معظم الصيغ أو الوظائف التي تشكل جزءًا من Microsoft Excel (اقرأ [قائمة الوظائف المدعومة من قبل محرك الحساب](/cells/ar/java/supported-formula-functions/)). يمكن استخدام هذه الوظائف من خلال واجهات برمجة التطبيقات أو جداول البيانات المصممة. تدعم Aspose.Cells مجموعة ضخمة من الصيغ الرياضية والسلسلة والبوليان والتاريخ / الوقت والاحصائية وقواعد البيانات والبحث والصيغ المرجعية.
 
-استخدم خصائص [**Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) أو طرق [**SetFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setFormula(java.lang.String,%20com.aspose.cells.FormulaParseOptions,%20java.lang.Object)) لفئة [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) لإضافة صيغة لخلية. عند تطبيق الصيغة، ابدأ دائمًا السلسلة برمز يساوي (=) كما تفعل عند إنشاء صيغة في Microsoft Excel واستخدم فاصلة (،) لفصل معلمات الدالة.
+استخدم خصائص [**Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) أو طرق [**SetFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-) لفئة [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) لإضافة صيغة لخلية. عند تطبيق الصيغة، ابدأ دائمًا السلسلة برمز يساوي (=) كما تفعل عند إنشاء صيغة في Microsoft Excel واستخدم فاصلة (،) لفصل معلمات الدالة.
 
-لحساب نتائج الصيغ، يمكن للمستخدم استدعاء الطريقة [**CalculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions)) لفئة [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) التي تقوم بمعالجة جميع الصيغ المضمنة في ملف Excel. أو، يمكن للمستخدم استدعاء الطريقة [**CalculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula(com.aspose.cells.CalculationOptions,%20boolean)) لفئة [**Worsheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) التي تقوم بمعالجة جميع الصيغ المضمنة في ورقة. أو، يمكن أيضًا للمستخدم استدعاء الطريقة [**Calculate**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#calculate(com.aspose.cells.CalculationOptions)) لفئة [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) التي تقوم بمعالجة صيغة خلية واحدة:
+لحساب نتائج الصيغ، قد ينادي المستخدم على [**CalculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula-com.aspose.cells.CalculationOptions--) وهي طريقة من فئة [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) والتي تعالج جميع الصيغ المضمنة في ملف Excel. أو، قد ينادي المستخدم على الطريقة [**CalculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula-com.aspose.cells.CalculationOptions-boolean-) من فئة [**Worsheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) التي تعالج جميع الصيغ المضمنة في ورقة. أو، يمكن للمستخدم أيضًا استدعاء الطريقة [**Calculate**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#calculate-com.aspose.cells.CalculationOptions-) من فئة [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) التي تعالج صيغة خلية واحدة:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-CalculatingFormulas-CalculatingFormulas.java" >}}
 
@@ -31,7 +31,7 @@ Aspose.Cells لديه محرك حساب مضمن للصيغ. بالإضافة إ
 
 في بعض الأحيان، قد تحتاج إلى حساب نتائج الصيغ مباشرة دون إضافتها إلى ورقة عمل. قد تكون قيم الخلايا المستخدمة في الصيغة موجودة بالفعل في ورقة عمل وكل ما تحتاجه هو إيجاد نتيجة تلك القيم بناءً على بعض صيغ Microsoft Excel دون إضافة الصيغة في ورقة عمل.
 
-يمكنك استخدام واجهات برمجة التطبيقات لمحرك حساب الصيغ في Aspose.Cells لـ [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) لـ [**calculate**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula(java.lang.String,%20com.aspose.cells.CalculationOptions)) نتائج مثل هذه الصيغ دون إضافتها إلى ورقة العمل:
+يمكنك استخدام واجهات برمجة التطبيقات لمحرك حساب الصيغ في Aspose.Cells لـ [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) لـ [**calculate**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula-java.lang.String-com.aspose.cells.CalculationOptions-) نتائج مثل هذه الصيغ دون إضافتها إلى ورقة العمل:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DirectCalculationFormula-DirectCalculationFormula.java" >}}
 
@@ -52,7 +52,7 @@ Result of Sum(A1:A2): 50.0
 
 {{% alert color="primary" %}}
 
-بشكل افتراضي، يتم تعطيل سلسلة الحساب. لأن إنشاء السلسلة يحتاج أيضًا إلى وقت إضافي، يمكن أن يستهلك الوقت الأول من حساب الصيغ([**Workbook.CalculateFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions))) المزيد من وحدة معالجة المركز والذاكرة مقارنةً بحساب الصيغ بدون سلسلة. إذا لم يكن المستخدم بحاجة إلى حساب الصيغ مرارًا، فإن السلوك الافتراضي (حساب الصيغ مباشرةً دون إنشاء سلسلة حساب) يجب أن يكون الطريقة الأفضل.
+افتراضيًا، تتعطل سلسلة الحسابات. لأن إنشاء السلسلة يحتاج أيضًا إلى وقت إضافي، فإن أول عملية حساب للصيغ ([**Workbook.CalculateFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula-com.aspose.cells.CalculationOptions--) قد تستهلك وقت وحدة معالجة مركزية وذاكرة أكثر عند مقارنته بحساب الصيغ بدون سلسلة. إذا لم يكن المستخدم بحاجة إلى حساب الصيغ بشكل متكرر، فإن السلوك الافتراضي (حساب الصيغة مباشرة بدون إنشاء سلسلة حساب) هو الطريقة الأفضل.
 
 {{% /alert %}}
 
@@ -70,3 +70,4 @@ Result of Sum(A1:A2): 50.0
 - [إرجاع مجموعة من القيم باستخدام AbstractCalculationEngine](/cells/ar/java/returning-a-range-of-values-using-abstractcalculationengine/)
 - [إرجاع مجموعة من القيم باستخدام ICustomFunction](/cells/ar/java/returning-a-range-of-values-using-icustomfunction/)
 - [استخدام ميزة ICustomFunction](/cells/ar/java/using-icustomfunction-feature/)
+{{< app/cells/assistant language="java" >}}

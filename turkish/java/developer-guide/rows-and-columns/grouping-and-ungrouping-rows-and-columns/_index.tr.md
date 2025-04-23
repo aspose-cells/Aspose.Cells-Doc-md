@@ -18,7 +18,7 @@ Aspose.Cells, Microsoft Excel dosyasını temsil eden [Workbook](https://referen
 
 [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonu, çalışma sayfasındaki satırları veya sütunları yönetmek için birkaç yöntem sağlar, bunlardan bazıları ayrıntılı olarak aşağıda ele alınmıştır.
 ### **Satır ve Sütunların Gruplandırılması**
-[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunu arayarak [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows\(int,%20int,%20boolean\)) ve [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns\(int,%20int,%20boolean\)) yöntemlerini çağırarak satırları veya sütunları gruplamak mümkündür. Her iki yöntem de aşağıdaki parametreleri alır:
+[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunun [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows-int-int-boolean-) ve [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns-int-int-boolean-) metodları çağrılarak satırlar veya sütunlar gruplanabilir. Her iki yöntem de aşağıdaki parametreleri alır:
 
 - İlk satır/sütun indeksi, grup içindeki ilk satır veya sütun.
 - Son satır/sütun indeksi, grup içindeki son satır veya sütun.
@@ -51,7 +51,7 @@ Geliştiriciler, [Outline](https://reference.aspose.com/cells/java/com.aspose.ce
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowRight-1.java" >}}
 ### **Satır ve Sütunların Grubunu Çıkarma**
-Gruplandırılmış satır veya sütunları [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunun [UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows\(int,%20int\)) ve [UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns\(int,%20int\)) yöntemlerini çağırarak çözebilirsiniz. Her iki yöntem de aynı parametreleri alır:
+Gruplandırılmış satır veya sütunları [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunun [UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows-int-int-) ve [UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns-int-int-) metodlarıyla ayırabilirsiniz. Her iki yöntem de aynı parametreleri alır:
 
 - İlk satır veya sütun dizini, ayrılmak istenen ilk satır/sütun.
 - Son satır veya sütun dizini, ayrılmak istenen son satır/sütun.
@@ -59,3 +59,4 @@ Gruplandırılmış satır veya sütunları [Cells](https://reference.aspose.com
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-UngroupingRowsandColumns-UngroupingRowsandColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -14,3 +14,4 @@ De forma predeterminada, Aspose.Cells carga la hoja de cálculo completa en la m
 ## **Cargar hojas de cálculo específicas en un libro de trabajo**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LoadSpecificWorksheetsinWorkbook-LoadSpecificWorksheetsinWorkbook.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -27,7 +27,7 @@ url: /ar/java/create-pivot-table/
 لإنشاء جدول محوري باستخدام Aspose.Cells، يرجى اتباع الخطوات أدناه:
 
 1. إضافة بعض البيانات إلى خلايا ورقة العمل باستخدام [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell). سيتم استخدام هذه البيانات كمصدر بيانات للجدول الدوري.
-1. أضف جدول محوري إلى ورقة العمل عن طريق استدعاء الطريقة [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add(com.aspose.cells.PivotTable,%20int,%20int,%20java.lang.String)) لفئة [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection)، المغلفة في الكائن ال [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet).
+1. أضف جدول محوري إلى ورقة العمل عن طريق استدعاء الطريقة [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add-com.aspose.cells.PivotTable-int-int-java.lang.String-) لفئة [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection)، المغلفة في الكائن ال [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet).
 1. الوصول إلى [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) الكائن من [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) من خلال تمرير فهرس [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable).
 1. استخدام أيًا من كائنات الجدول الدوري (المشرحة أعلاه) المغلفة في [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) لإدارة الجدول الدوري.
 
@@ -44,3 +44,4 @@ url: /ar/java/create-pivot-table/
 ![todo:image_alt_text](create-pivot-table_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-CreatePivotTable.java" >}}
+{{< app/cells/assistant language="java" >}}

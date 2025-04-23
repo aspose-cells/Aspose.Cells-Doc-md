@@ -811,3 +811,4 @@ Die geöffnete Tabelle wird in das vom Benutzer angegebene Format über **Worksh
 
 
 
+{{< app/cells/assistant language="java" >}}

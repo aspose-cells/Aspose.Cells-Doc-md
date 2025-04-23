@@ -32,3 +32,4 @@ Il est simple de débloquer les volets avec Aspose.Cells pour .Net. Veuillez uti
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Unfreeze-Pane.cs" >}}
 
 Fichier Excel source joint (Frozen.xlsx).
+{{< app/cells/assistant language="csharp" >}}

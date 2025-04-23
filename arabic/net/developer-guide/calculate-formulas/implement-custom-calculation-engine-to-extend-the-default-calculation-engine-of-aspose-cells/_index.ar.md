@@ -34,3 +34,4 @@ Aspose.Cells يمتلك محرك حساب قوي يمكنه حساب معظم ص
 [حساب مباشر للدالة المخصصة دون كتابتها في ورقة العمل](/cells/ar/net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

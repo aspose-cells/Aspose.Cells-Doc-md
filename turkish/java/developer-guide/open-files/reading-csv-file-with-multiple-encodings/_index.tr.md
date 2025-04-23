@@ -54,3 +54,4 @@ Workbook workbook = new Workbook(filePath, options);
 workbook.save(filePath + ".out.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

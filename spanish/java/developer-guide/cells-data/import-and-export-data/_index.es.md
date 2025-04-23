@@ -49,7 +49,7 @@ Para importar datos a una hoja de cálculo desde arreglos multidimensionales, ll
 
 #### Importación desde un ArrayList
 
-Para importar datos de un *ArrayList* a las hojas de cálculo, llame al método [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean)) de la colección [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells). El método [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean)) toma los siguientes parámetros:
+Para importar datos de un *ArrayList* a las hojas de cálculo, llame al método [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList-java.util.ArrayList-int-int-boolean-) de la colección [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells). El método [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList-java.util.ArrayList-int-int-boolean-) toma los siguientes parámetros:
 
 - **ArrayList**, el objeto *ArrayList* cuyo contenido se importará.
 - **Número de fila**, el número de fila de la primera celda del rango de celdas desde el cual se importarán los contenidos.
@@ -66,7 +66,7 @@ Para importar datos de una colección de objetos a una hoja de cálculo que cont
 
 #### Importación de Datos desde JSON
 
-Aspose.Cells proporciona una clase [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) para procesar JSON. La clase [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) tiene un método [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions)) para importar datos JSON. Aspose.Cells también proporciona una clase [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) que representa las opciones del diseño JSON. El método [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions)) acepta [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) como parámetro. La clase [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) proporciona las siguientes propiedades.
+Aspose.Cells proporciona una clase [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) para procesar JSON. La clase [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) tiene un método [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData-java.lang.String-com.aspose.cells.Cells-int-int-com.aspose.cells.JsonLayoutOptions-) para importar datos JSON. Aspose.Cells también proporciona una clase [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) que representa las opciones del diseño JSON. El método [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData-java.lang.String-com.aspose.cells.Cells-int-int-com.aspose.cells.JsonLayoutOptions-) acepta [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) como parámetro. La clase [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) proporciona las siguientes propiedades.
 
 - [**ArrayAsTable**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ArrayAsTable): Indica si el arreglo debe procesarse como una tabla o no.
 - [**ConvertNumericOrDate**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ConvertNumericOrDate): Obtiene o establece un valor que indica si la cadena en JSON debe convertirse a numérico o fecha.
@@ -89,11 +89,11 @@ Aspose.Cells no solo permite a sus usuarios importar datos a las hojas de cálcu
 
 Aspose.Cells proporciona una clase, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), que representa un archivo de Microsoft Excel. La clase [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) contiene un [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) que permite el acceso a cada hoja de cálculo en el archivo de Excel. Una hoja de cálculo está representada por la clase [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). La clase [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) proporciona una colección [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells).
 
-Los datos pueden exportarse fácilmente a un objeto Array usando el método [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) de la clase [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells).
+Los datos pueden exportarse fácilmente a un objeto Array usando el método [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray-int-int-int-int-) de la clase [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells).
 
 #### Columnas que contienen datos de tipo fuertemente tipado
 
-Las hojas de cálculo almacenan datos como una secuencia de filas y columnas. Use el método [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) para exportar los datos de una hoja de cálculo a un array. [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) toma los siguientes parámetros para exportar los datos de la hoja de cálculo como un objeto *Array*:
+Las hojas de cálculo almacenan datos como una secuencia de filas y columnas. Use el método [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray-int-int-int-int-) para exportar los datos de una hoja de cálculo a un array. [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray-int-int-int-int-) toma los siguientes parámetros para exportar los datos de la hoja de cálculo como un objeto *Array*:
 
 - Número de fila, el número de fila de la primera celda desde la cual se exportarán los datos.
 - Número de columna, el número de columna de la primera celda desde donde se exportarán los datos.
@@ -105,3 +105,4 @@ Las hojas de cálculo almacenan datos como una secuencia de filas y columnas. Us
 ## **Temas avanzados**
 - [Importar datos desde el objeto ResultSet de la base de datos Microsoft Access a la hoja de cálculo](/cells/es/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
 - [Especificar Campos de Fórmula al Importar Datos a la Hoja de Cálculo](/cells/es/java/specify-formula-fields-while-importing-data-to-worksheet/)
+{{< app/cells/assistant language="java" >}}

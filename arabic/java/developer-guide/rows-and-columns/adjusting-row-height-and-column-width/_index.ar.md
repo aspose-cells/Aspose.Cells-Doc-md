@@ -16,7 +16,7 @@ url: /ar/java/adjusting-row-height-and-column-width/
 
 توفر مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) العديد من الطرق لإدارة الصفوف أو الأعمدة في ورقة عمل. يتم مناقشة بعض هذه الطرق أدناه بمزيد من التفصيل.
 ### **ضبط ارتفاع الصف**
-من الممكن تعيين ارتفاع صف واحد بالاتصال بطريقة [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\)). تأخذ طريقة [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\)) المعلمات التالية:
+من الممكن تعيين ارتفاع صف واحد عن طريق استدعاء طريقة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) وهي [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight-int-double-). تتطلب هذه الطريقة المعاملات التالية:
 
 - **مؤشر الصف**, مؤشر الصف الذي كنت تغير ارتفاعه.
 - **ارتفاع الصف**, ارتفاع الصف المطبق على الصف.
@@ -30,7 +30,7 @@ url: /ar/java/adjusting-row-height-and-column-width/
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingHeightAllRows-SettingHeightAllRows.java" >}}
 ## **العمل مع الأعمدة**
 ### **ضبط عرض العمود**
-قم بتعيين عرض العمود عن طريق استدعاء أسلوب [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\)) في مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). يأخذ أسلوب [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\)) الباراميترات التالية:
+قم بتعيين عرض عمود عن طريق استدعاء طريقة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) وهي [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth-int-double-). تتطلب هذه الطريقة المعاملات التالية:
 
 - **فهرس العمود**, فهرس العمود الذي تريد تغيير عرضه.
 - **عرض العمود**, العرض المطلوب للعمود.
@@ -44,3 +44,4 @@ url: /ar/java/adjusting-row-height-and-column-width/
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingWidthOfAllColumns-SettingWidthOfAllColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

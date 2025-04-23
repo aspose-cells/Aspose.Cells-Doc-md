@@ -264,3 +264,4 @@ objBook.Save("f:\\test\\ApplyBorders.xls");
 
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -22,47 +22,47 @@ Quando vengono aggiunte righe o colonne, il contenuto nel foglio di lavoro viene
 
 {{% /alert %}} 
 ## **Come inserire una riga**
-Inserisci una riga in qualsiasi posizione chiamando il metodo [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) della raccolta [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Il metodo [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) prende l'indice della riga dove verrà inserita la nuova riga come primo argomento e il numero di righe da inserire come secondo argomento.
+Inserire una riga in qualsiasi posizione chiamando il metodo [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows-int-int-) della collezione [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Il metodo [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows-int-int-) accetta come primo argomento l’indice della riga in cui inserire la nuova riga, e come secondo argomento il numero di righe da inserire.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-InsertingARow-InsertingARow.java" >}}
 ## **Come inserire più righe**
-Per inserire più righe nel foglio di lavoro, chiamare il metodo [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) della collezione [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Il metodo [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) richiede due parametri:
+Per inserire più righe nel foglio di lavoro, chiamare il metodo [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows-int-int-) della collezione [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Il metodo [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows-int-int-) richiede due parametri:
 
 - Indice di riga: l'indice della riga da cui saranno inserite le nuove righe.
 - Numero di righe: il numero totale di righe che devono essere inserite.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-InsertingMultipleRows-InsertingMultipleRows.java" >}}
 ## **Come inserire una riga con formattazione**
-Per inserire una riga con opzioni di formattazione, utilizzare il sovraccarico [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int,%20com.aspose.cells.InsertOptions\)) che richiede [InsertOptions](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions) come parametro. Impostare la proprietà [CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions#CopyFormatType) della classe [InsertOptions](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions) con l'enumerazione [CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType). L'enumerazione [CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType) ha tre membri come elencati di seguito.
+Per inserire una riga con opzioni di formattazione, usare l’overload [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows-int-int-com.aspose.cells.InsertOptions-) che accetta come parametro [InsertOptions](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions). Impostare la proprietà [CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/insertoptions#CopyFormatType) della classe [InsertOptions](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions) con l’enumerazione [CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType). L’enumerazione [CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType) ha tre membri come elencato di seguito.
 
-- [STESSO_COME SOPRA](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_ABOVE): Formatta la riga come la riga precedente.
-- [STESSO_COME SOTTO](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_BELOW): Formatta la riga come la riga successiva.
+- [SAME_AS_ABOVE](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME-AS-ABOVE): Formatta la riga come quella sopra.
+- [SAME_AS_BELOW](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME-AS-BELOW): Formatta la riga come quella sotto.
 - [PULISCI](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#CLEAR): Cancella la formattazione.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-InsertingARowWithFormatting-1.java" >}}
 ## **Come Eliminare una Riga**
-Per eliminare una riga da qualsiasi posizione, chiamare il metodo [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) della collezione [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Il metodo [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) richiede due parametri:
+Per eliminare una riga in qualsiasi posizione, chiamare il metodo [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows-int-int-) della collezione [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Il metodo [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows-int-int-) richiede due parametri:
 
 - Indice di riga: l'indice della riga da cui verranno eliminate le righe.
 - Numero di righe: il numero totale di righe che devono essere eliminate.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-DeleteARow-DeleteARow.java" >}}
 ## **Come eliminare più righe**
-Per eliminare più righe da un foglio di lavoro, chiamare il metodo [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) della collezione [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Il metodo [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) richiede due parametri:
+Per eliminare più righe da un foglio di lavoro, chiamare il metodo [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows-int-int-) della collezione [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Il metodo [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows-int-int-) richiede due parametri:
 
 - Indice di riga: l'indice della riga da cui verranno eliminate le righe.
 - Numero di righe: il numero totale di righe che devono essere eliminate.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-DeleteMultipleRows-DeleteMultipleRows.java" >}}
 ## **Come Inserire una o Più Colonne**
-Gli sviluppatori possono anche inserire una colonna nel foglio di lavoro in qualsiasi posizione chiamando il metodo [insertColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertColumns\(int,%20int\)) della collezione [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Il metodo [insertColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertColumns\(int,%20int\)) richiede due parametri:
+Gli sviluppatori possono anche inserire una colonna nel foglio di lavoro in qualsiasi posizione chiamando il metodo [insertColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertColumns-int-int-) della collezione [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Il metodo [insertColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertColumns-int-int-) richiede due parametri:
 
 - Indice della colonna, l'indice della colonna da cui verrà inserita la colonna
 - Numero di colonne, il numero totale di colonne che devono essere inserite
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-InsertingAColumn-InsertingAColumn.java" >}}
 ## **Come eliminare una colonna**
-Per eliminare una colonna dal foglio di lavoro in qualsiasi posizione, chiamare il metodo [deleteColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteColumns\(int,%20int,%20boolean\)) della collezione [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Il metodo [deleteColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteColumns\(int,%20int,%20boolean\)) accetta i seguenti parametri:
+Per eliminare una colonna dal foglio di lavoro in qualsiasi posizione, chiamare il metodo [deleteColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteColumns-int-int-boolean-) della collezione [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Il metodo [deleteColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteColumns-int-int-boolean-) richiede i seguenti parametri:
 
 - Indice della colonna: l'indice della colonna da cui verrà eliminata la colonna.
 - Numero di colonne: il numero totale di colonne che devono essere eliminate.
@@ -70,3 +70,4 @@ Per eliminare una colonna dal foglio di lavoro in qualsiasi posizione, chiamare 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-DeleteAColumn-DeleteAColumn.java" >}}
 
+{{< app/cells/assistant language="java" >}}

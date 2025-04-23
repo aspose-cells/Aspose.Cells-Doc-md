@@ -28,3 +28,4 @@ Bitte überprüfen Sie den ausführlichen Artikel zu [Überprüfen, ob der Zelle
 {{% /alert %}}
 ## **Hinzugefügte Überladung der Methode ToPrinter(PrinterSettings printerSettings) für die WorkbookRender-Klasse**
 Sie können die überladene Methode verwenden, um die Arbeitsmappe über die PrinterSettings auf den Drucker zu rendern.
+{{< app/cells/assistant language="csharp" >}}

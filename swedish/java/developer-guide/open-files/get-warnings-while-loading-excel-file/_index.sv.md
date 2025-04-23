@@ -11,7 +11,7 @@ Ibland försöker användaren ladda arbetsboken som är något korrupt men laddn
 
 ## **Få varningar vid inläsning av Excel-fil**
 
-Följande exempelkod förklarar hur man får varningar när man laddar excelfil. Koden laddar [exempelfilen](sampleDuplicateDefinedName.xlsx) som kastar [**DuplicateDefinedName**](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE_DEFINED_NAME) varning vid laddning. Denna varning fångas sedan av [**IWarningCallback.Warning()**](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning(com.aspose.cells.WarningInfo)) metoden som skriver ut varningsmeddelandena på konsolen. Koden sparar sedan arbetsboken som [utdata-excel-filen](outputDuplicateDefinedName.xlsx). Om du öppnar exempelfilen i Microsoft Excel kommer den också visa dig denna varning som visas på denna skärmbild. Kolla också konsolens utdata för den här koden nedan för mer förståelse.
+Följande exempelkod förklarar hur man får varningar när man laddar excelfil. Koden laddar [exempelfilen](sampleDuplicateDefinedName.xlsx) som kastar [**DuplicateDefinedName**](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE-DEFINED-NAME) varning vid laddning. Denna varning fångas sedan av [**IWarningCallback.Warning()**](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning-com.aspose.cells.WarningInfo-) metoden som skriver ut varningsmeddelandena på konsolen. Koden sparar sedan arbetsboken som [utdata-excel-filen](outputDuplicateDefinedName.xlsx). Om du öppnar exempelfilen i Microsoft Excel kommer den också visa dig denna varning som visas på denna skärmbild. Kolla också konsolens utdata för den här koden nedan för mer förståelse.
 
 ![todo:image_alt_text](get-warnings-while-loading-excel-file_1.png)
 
@@ -34,3 +34,4 @@ Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:Panel!$B$228
 Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:'Queries '!$D$14:$D$16
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

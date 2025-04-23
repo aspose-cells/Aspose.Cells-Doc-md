@@ -24,3 +24,4 @@ För att omsluta text i en cell, använd [**Aspose.Cells.Style.IsTextWrapped**](
 Du kan använda '\n' i C# och 'vbLf' i VB.NET för att sätta in explicita radbrytningar i en cell.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-UseExplicitLineBreaks-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

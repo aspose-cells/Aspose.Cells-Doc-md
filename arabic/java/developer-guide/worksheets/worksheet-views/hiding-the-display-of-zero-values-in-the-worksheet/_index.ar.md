@@ -24,3 +24,4 @@ url: /ar/java/hiding-the-display-of-zero-values-in-the-worksheet/
 يرجى الاطلاع على الكود العيني التالي الذي يوضح كيفية إخفاء الأصفار باستخدام Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-HidingDisplayOfZeroValues-HidingDisplayOfZeroValues.java" >}}
+{{< app/cells/assistant language="java" >}}

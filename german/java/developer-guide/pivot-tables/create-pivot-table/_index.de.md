@@ -27,7 +27,7 @@ Die Pivot-Tabellenobjekte sind:
 Um eine Pivot-Tabelle mit Aspose.Cells zu erstellen, befolgen Sie bitte die folgenden Schritte:
 
 1. Fügen Sie einige Daten zu Arbeitsblattzellen hinzu, indem Sie die [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)-Methode des [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)-Objekts verwenden. Diese Daten werden als Datenquelle für die Pivot-Tabelle verwendet.
-1. Fügen Sie dem Arbeitsblatt eine Pivot-Tabelle hinzu, indem Sie die Methode [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add(com.aspose.cells.PivotTable,%20int,%20int,%20java.lang.String)) der Klasse [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) aufrufen, die im [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)-Objekt encapsulated ist.
+1. Fügen Sie dem Arbeitsblatt eine Pivot-Tabelle hinzu, indem Sie die Methode [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add-com.aspose.cells.PivotTable-int-int-java.lang.String-) der Klasse [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) aufrufen, die im [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)-Objekt encapsulated ist.
 1. Greifen Sie von der [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) auf das [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)-Objekt zu, indem Sie den [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)-Index übergeben.
 1. Verwenden Sie eines der oben erklärten Pivot-Tabellenobjekte, die im [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)-Objekt encapsulated sind, um die Pivot-Tabelle zu verwalten.
 
@@ -44,3 +44,4 @@ Das nachfolgende Codebeispiel zeigt, wie man eine einfache Pivot-Tabelle gemäß
 ![todo:image_alt_text](create-pivot-table_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-CreatePivotTable.java" >}}
+{{< app/cells/assistant language="java" >}}

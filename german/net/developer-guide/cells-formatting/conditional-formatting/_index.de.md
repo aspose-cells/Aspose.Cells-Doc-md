@@ -80,3 +80,4 @@ Sie können nur dünnere Linienstile für den äußeren Rahmen verwenden. Diagon
 - [Generieren von Datenleistungsimages für bedingte Formatierungen](/cells/de/net/generate-conditional-formatting-databars-images/)
 - [Erhalten von Symbolsets, Datenleisten oder Farbskalenobjekten, die bei der bedingten Formatierung verwendet werden](/cells/de/net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
 
+{{< app/cells/assistant language="csharp" >}}

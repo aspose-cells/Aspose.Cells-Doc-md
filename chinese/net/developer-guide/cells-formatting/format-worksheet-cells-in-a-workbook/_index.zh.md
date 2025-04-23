@@ -50,3 +50,4 @@ Aspose.Cells能够轻松地在单元格和区域周围绘制边框。它还可�
 1. 将以下代码添加到项目中：
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FormatWorksheetCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

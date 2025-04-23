@@ -50,3 +50,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 إذا كانت جداول البيانات الخاصة بك تحتوي على صيغ، من الأفضل استدعاء طريقة Workbook.CalculateFormula قبل عرض الجدول إلى صيغة PDF. فعل ذلك سيضمن إعادة حساب قيم الصيغ وعرض القيم الصحيحة في PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

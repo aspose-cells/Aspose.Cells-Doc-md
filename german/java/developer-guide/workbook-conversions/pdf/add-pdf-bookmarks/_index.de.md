@@ -16,3 +16,4 @@ Aspose.Cells ermöglicht es Ihnen, Lesezeichen zur Laufzeit hinzuzufügen. PDF-L
 Bitte sehen Sie sich den folgenden Beispielcode an, um zu erfahren, wie PDF-Lesezeichen hinzugefügt werden können. Der Code generiert eine einfache Arbeitsmappe, gibt PDF-Lesezeichen mit Zielorten an und generiert die PDF-Datei.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddPDFBookmarks-AddPDFBookmarks.java" >}}
+{{< app/cells/assistant language="java" >}}

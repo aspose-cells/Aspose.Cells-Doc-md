@@ -16,3 +16,4 @@ El código de muestra a continuación muestra cómo extraer imágenes de un arch
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExtractImagesFromWorksheets-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

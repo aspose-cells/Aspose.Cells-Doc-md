@@ -20,3 +20,4 @@ Questa sezione include i seguenti argomenti
 - [Aprire un documento di fogli di lavoro da un flusso](/cells/it/net/open-a-spreadsheet-document-from-a-stream/)
 - [Recupera un dizionario di tutti i nomi definiti in un documento di fogli di lavoro](/cells/it/net/retrieve-a-dictionary-of-all-named-ranges-in-a-spreadsheet-document/)
 - [Recuperare i valori delle celle](/cells/it/net/retrieve-the-values-of-cells/)
+{{< app/cells/assistant language="csharp" >}}

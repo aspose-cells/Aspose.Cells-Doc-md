@@ -21,3 +21,4 @@ Vi använder ofta färger istället för svartvitt för att indikera ökande och
 Följande exempelkod laddar den [exempelfil för Excel](Open-High-Low-Close.xlsx) och genererar den [utfärdade Excelfilen](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-open-high-low-close-stock-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

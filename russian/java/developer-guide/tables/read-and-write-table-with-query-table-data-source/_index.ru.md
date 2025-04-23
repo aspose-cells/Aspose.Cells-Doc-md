@@ -15,3 +15,4 @@ url: /ru/java/read-and-write-table-with-query-table-data-source/
 Исходный файл
 
 Выходной файл
+{{< app/cells/assistant language="java" >}}

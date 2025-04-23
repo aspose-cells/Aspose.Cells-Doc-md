@@ -16,52 +16,63 @@ aliases:
 
 
 # 与GridJs服务器端配合工作
-## 0. 在配置中设置正确的文件夹路径
- **`Config.FileCacheDirectory`** 用于工作簿缓存文件。
- **`Config.PictureCacheDirectory`** 用于工作簿中的图像文件缓存。
+## 1. 在startup.cs的ConfigureServices中添加服务 
+```C#
+   services.AddScoped<IGridJsService, GridJsService>();
+```
+## 2. 设置缓存文件存储路径
 
-有关存储详细信息，请参阅此[指南](/net/aspose-cells-gridjs/storage/)
+你可以选择以下任意方法：
 
-## 1. 实现 GridCacheForStream
+ 选项1：在Startup.cs的ConfigureServices中设置GridJsOptions
+```C#
+   services.Configure<GridJsOptions>(options =>
+	{
+		options.FileCacheDirectory = TestConfig.TempDir;
+	});
+```
+
+ 选项2：直接设置静态属性
+```C#
+   Config.FileCacheDirectory = TestConfig.TempDir;
+```
+
+ 选项3：通过实现GridCacheForStream定义你自己的缓存存储规则
+
 对于本地文件存储，这里有一个示例：
 
 {{< gist "aspose-cells-gists" "fb32f5c7a98978432e5e05c50995a4ca" "LocalFileCache.cs" >}}
 
-对于服务器端存储，我们也提供了一个示例。
-Please check: <https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
 
-## 2. 从电子表格文件中获取JSON。
+对于服务器端存储，我们还提供了示例。请查看： 
+
+<https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
+
+
+关于存储的更多详细信息，请参考[指南](/cells/zh/net/aspose-cells-gridjs/storage/)
+
+
+## 3. 实现控制器动作
+
+### 1. 创建一个扩展自GridJsControllerBase的控制器
+```C#
+public class GridJs2Controller : GridJsControllerBase
+```
+### 2. 在动作中获取JSON
+
+在你的操作中获取JSON数据有两种方法：
+
+选项1：使用GridJsWorkbook
 ```C#
 GridJsWorkbook wbj = new GridJsWorkbook();
-using (FileStream fs = new FileStream(path, FileMode.Open))
-{
-    wbj.ImportExcelFile(fs,GridJsWorkbook.GetGridLoadFormat(Path.GetExtension(path)));
-}
-String ret =wbj.ExportToJson();
+Workbook wb = new Workbook(fullFilePath); 
+wbj.ImportExcelFile(wb);
+String ret =wbj.ExportToJson(fileName);
 ```
-## 3. 从电子表格文件中获取图像/形状
+选项2：在GridJsControllerBase中使用IGridJsService
 ```C#
-//Gridjs will automatically zip all the images/shapes into a zip stream  and store it in cache using the cache implemention.
-//GridJsWorkbook.CacheImp.SaveStream(zipoutStream, fileid);
-
-//get the fileid in the cache,uid is the unique id for the spreadsheet  instance, sheetid is the sheet index,
-String fileid=(uniqueid + "." + (sheetid + '_batch.zip'))
-
-//get the zip file stream by the fileid
-Stream s=GridJsWorkbook.CacheImp.LoadStream(fileid), mimeType, fileid.Replace('/', '.')
-```
-## 4. 在缓存中更新电子表格文件
-```C#
-GridJsWorkbook gwb = new GridJsWorkbook();
-//p is the update json,uid is the unique id for the spreadsheet
-String ret = gwb.UpdateCell(p, uid);
-```
-## 5. 将电子表格文件保存在缓存中
-```C#
-GridJsWorkbook wb = new GridJsWorkbook();
-//p is the update json,uid is the unique id for the spreadsheet
-wb.MergeExcelFileFromJson(uid, p);
-wb.SaveToCacheWithFileName(uid, filename,password);
+ String uid= GridJsWorkbook.GetUidForFile(fileName)
+ StringBuilder ret= _gridJsService.DetailFileJsonWithUid(fullFilePath, uid);
 ```
 
 有关详细信息，请查看此处的示例：

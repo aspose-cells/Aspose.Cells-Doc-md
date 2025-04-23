@@ -7,7 +7,7 @@ url: /es/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells proporciona el método [PivotTable.getCellByDisplayName()](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getCellByDisplayName\(java.lang.String\)) que puedes utilizar para acceder al objeto celda por el nombre de visualización del campo de tabla dinámica. Este método es útil cuando deseas resaltar o formatear el encabezado del campo de la tabla dinámica. Este artículo explica cómo recuperar el objeto celda por el nombre de visualización del campo de datos y luego aplicar formato a este.
+Aspose.Cells proporciona el método [PivotTable.getCellByDisplayName()](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getCellByDisplayName-java.lang.String-) que puede usar para acceder al objeto de celda por el nombre de pantalla del campo pivote. Este método es útil cuando desea resaltar o dar formato a su encabezado del campo pivote. Este artículo explica cómo recuperar el objeto de celda por el nombre de pantalla del campo de datos y luego aplicar formato a este.
 
 {{% /alert %}} 
 ## **Obtener el objeto Celda por el Nombre de Visualización del Campo de Tabla Dinámica de la Tabla Dinámica**
@@ -24,3 +24,4 @@ El siguiente código accede a la primera tabla dinámica de la hoja de cálculo 
 
 
 
+{{< app/cells/assistant language="java" >}}

@@ -21,3 +21,4 @@ El siguiente código de muestra carga el [archivo de Excel de muestra](55541781.
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-RenderLimitedNoOfSequentialPages-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

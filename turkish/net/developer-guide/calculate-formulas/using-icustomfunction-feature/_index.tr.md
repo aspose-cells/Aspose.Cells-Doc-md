@@ -1,10 +1,10 @@
 ---
 title: ICustomFunction Özelliği Kullanımı
 description: Bu makale, Aspose.Cells kütüphanesinde ICustomFunction özelliğini kullanarak Microsoft Excel de özel bir işlev oluşturmanın nasıl yapılacağını açıklar. Varolan bir Excel dosyasını yükleyerek veya yeni bir Excel dosyası oluşturarak, Aspose.Cells tarafından sağlanan yöntemleri kullanarak özel işlevleri tanımlayabilir ve kaydederiz ve sonunda değiştirilmiş Excel dosyasını diske kaydederiz.
-keywords: Aspose.Cells, Excel, ICustomFunction özellikleri, özel işlevler
+keywords: Aspose.Cells, Excel, ICustomFunction özellikleri, özel fonksiyonlar, özel fonksiyonların nasıl hesaplanacağı.
 type: docs
 weight: 30
-url: /tr/net/using-icustomfunction-feature/
+url: /tr/net/how-to-calculate-custom-fuctions/
 ---
 
 {{% alert color="primary" %}} 
@@ -90,3 +90,4 @@ Aspose.Cells API'leri tarafından 'paramsList' içine ReferredArea verildiğinde
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

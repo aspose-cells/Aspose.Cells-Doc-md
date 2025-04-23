@@ -21,3 +21,4 @@ url: /zh/java/setting-scalecrop-and-linksuptodate-properties-of-built-in-documen
 以下示例代码设置Workbook的[ScaleCrop](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#ScaleCrop)和[LinksUpToDate](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#LinksUpToDate)扩展内置文档属性。请查看使用此代码生成的[输出Excel文件](5472494.xlsx)，将其扩展名更改为.zip并提取其内容，并查看上述屏幕截图中的app.xml。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingScaleCropLinksUpToDate-SettingScaleCropLinksUpToDate.java" >}}
+{{< app/cells/assistant language="java" >}}

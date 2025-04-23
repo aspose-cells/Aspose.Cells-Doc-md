@@ -71,3 +71,4 @@ Erstellen Sie zunächst ein Säulendiagramm in Microsoft Excel und konvertieren 
 1. Konvertieren Sie das Diagramm dynamisch in ein Bild. Im Folgenden ist der vom Komponenten verwendete Code, um die Aufgabe zu erledigen. Der Code ist ähnlich zu dem vorherigen:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertExcelChartToImage-ConvertingColumnChartToImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

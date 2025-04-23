@@ -26,7 +26,7 @@ La siguiente lista (con segmentos de código de muestra) muestra algunas diferen
 
  var aspose = aspose || {};
 
-aspose.cells = require("aspose.cells");
+aspose.cells = require("aspose.cells.java");
 
 {{< /highlight >}}
 ### **Instanciar un nuevo Libro de Trabajo**
@@ -88,7 +88,7 @@ workbook.save(“result.xlsx”);
 
  var aspose = aspose || {};
 
-aspose.cells = require("aspose.cells");
+aspose.cells = require("aspose.cells.java");
 
 var fs = require("fs");
 

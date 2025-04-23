@@ -25,3 +25,4 @@ Aspose.Cells for .NET 支持使用[**ShapeCollection.AddLinkedPicture(int upperL
 下面的示例显示了如何将来自Web地址的链接图片添加到工作表中。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertLinkedPicture-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

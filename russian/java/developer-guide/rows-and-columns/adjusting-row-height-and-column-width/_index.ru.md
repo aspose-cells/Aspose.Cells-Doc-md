@@ -16,7 +16,7 @@ Aspose.Cells предоставляет класс [Workbook](https://reference.
 
 Коллекция [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) предоставляет несколько методов для управления строками или столбцами на листе. Некоторые из них подробно обсуждаются ниже.
 ### **Установка высоты строки**
-Возможно установить высоту одной строки, вызвав метод [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\)) коллекции [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Метод [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\)) принимает следующие параметры:
+Можно установить высоту отдельной строки, вызвав метод [Cells.setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight-int-double-). Этот метод принимает параметры:
 
 - **Индекс строки**, индекс строки, высоту которой вы изменяете.
 - **Высота строки**, высота строки, применяемая к строке.
@@ -30,7 +30,7 @@ Aspose.Cells предоставляет класс [Workbook](https://reference.
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingHeightAllRows-SettingHeightAllRows.java" >}}
 ## **Работа с колонками**
 ### **Установка ширины колонки**
-Установите ширину столбца, вызвав метод [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\)) коллекции [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Метод [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\)) принимает следующие параметры:
+Задайте ширину столбца, вызвав метод [Cells.setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth-int-double-). Он принимает параметры:
 
 - **Индекс колонки**, индекс колонки, ширину которой вы изменяете.
 - **Ширина колонки**, желаемая ширина колонки.
@@ -44,3 +44,4 @@ Aspose.Cells предоставляет класс [Workbook](https://reference.
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingWidthOfAllColumns-SettingWidthOfAllColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

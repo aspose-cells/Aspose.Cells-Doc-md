@@ -11,7 +11,7 @@ Aspose.Cells API'leri, görsel biçimlendirme ve formüllerin [tasarımcı tablo
 
 {{% /alert %}} 
 ## **Akıllı İşaretçilerle Veri Birleştirilirken Bildirim Alınması**
-Aşağıdaki kod parçacığı, yeni bir sınıf tanımlamak için [ISmartMarkerCallBack](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack) arayüzünün kullanımını gösterir ve [WorkbookDesigner.process](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process\(\)) yöntemi için geri aramanın nasıl ele alındığını belirtir.
+Aşağıdaki kod parçası, [ISmartMarkerCallBack](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack) arayüzünün kullanımını ve [WorkbookDesigner.process](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process--) yöntemi için çağrı geri dönüşünü yöneten yeni bir sınıfın tanımlanmasını gösterir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SmartMarkerCallBack-SmartMarkerCallBack.java" >}}
 
@@ -21,3 +21,4 @@ Aşağıdaki kod parçacığı, yeni bir sınıf tanımlamak için [ISmartMarker
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetNotificationsWhileMergingData-GetNotificationsWhileMergingData.java" >}}
+{{< app/cells/assistant language="java" >}}

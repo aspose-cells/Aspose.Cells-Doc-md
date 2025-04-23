@@ -43,3 +43,4 @@ description: قم بتطبيق وظيفة التوحيد على حقول الب�
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="java" >}}

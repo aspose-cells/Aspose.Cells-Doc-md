@@ -55,3 +55,4 @@ Aspose.Cells prend en charge l'extraction d'objets de types inhabituels comme le
 - [Rafraîchir automatiquement un objet OLE via Microsoft Excel en utilisant Aspose.Cells](/cells/fr/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)
 - [Extraire des objets OLE du classeur](/cells/fr/java/extract-ole-objects-from-workbook/)
 - [Obtenir ou définir l'identifiant de classe de l'objet OLE incorporé](/cells/fr/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
+{{< app/cells/assistant language="java" >}}

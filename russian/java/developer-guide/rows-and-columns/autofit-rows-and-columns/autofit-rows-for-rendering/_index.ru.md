@@ -18,3 +18,4 @@ url: /ru/java/autofit-rows-for-rendering/
 Теперь текст не обрезается в сохраненном файле PDF.
 
 ![текст не обрезается в сохраненном pdf](text_not_clipped_in_saved_pdf.png)
+{{< app/cells/assistant language="java" >}}

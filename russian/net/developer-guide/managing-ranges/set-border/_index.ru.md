@@ -29,3 +29,4 @@ url: /ru/net/set-range-border/
 1. Установите внешнюю границу диапазона.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Range-set-border.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -21,3 +21,4 @@ Dies ist die Konsolenausgabe des obigen Beispielcodes als Referenz.
 IsProtected - After Protecting VBA Project: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

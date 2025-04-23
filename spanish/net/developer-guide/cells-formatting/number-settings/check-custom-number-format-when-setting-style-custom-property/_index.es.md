@@ -18,3 +18,4 @@ El siguiente código de muestra asigna un formato de número personalizado no v�
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-CheckCustomFormatPattern.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

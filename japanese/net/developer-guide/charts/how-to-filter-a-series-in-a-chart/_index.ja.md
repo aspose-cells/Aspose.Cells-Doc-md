@@ -14,9 +14,9 @@ url: /ja/net/filtering-charts-in-excel/
 ### **Excelでチャートからシリーズをフィルタリングする手順**
 Excelでは、特定のシリーズをチャートからフィルタリングして、フィルタリングされたシリーズをチャートに表示されないようにすることができます。元のチャートは**図1**に表示されます。ただし、**Testseries2**と**Testseries4**をフィルタリングすると、**図2**に示すようにチャートが表示されます。
 
-Aspose.Cellsでは同様の操作を実行することができます。次のような[サンプル](seriesFiltered.xlsx)ファイルについて、例えば**Testseries2**と**Testseries4**をフィルタリングしたい場合、次のコードを実行できます。さらに、選択されたシリーズをすべて格納する[NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/)リストと、フィルタリングされたシリーズを格納する[FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filteredSeries/)が2つあります。
+Aspose.Cellsでは、同様の操作を行うことができます。[サンプル](seriesFiltered.xlsx)ファイルのように、**Testseries2**と**Testseries4**をフィルタリングしたい場合、以下のコードを実行します。また、2つのリスト（[NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/)）を保持し、すべての選択されたシリーズを格納するリストと、フィルター済みシリーズを格納するリストを作成します。
 
-コードで**chart.NSeries[0].IsFiltered = true;**を設定すると、[NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/)の最初のシリーズが削除され、適切な位置に[FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filteredSeries/)に配置されます。その後、以前の**NSeries[1]**は新しい最初のアイテムとなり、その後ろの全てのシリーズは1つ前にシフトされます。つまり、次に**chart.NSeries[1].IsFiltered = true;**を実行すると、実質的に元の3番目のシリーズが削除されます。これは、混乱を招くことがあるため、コードで操作に従うことをお勧めします。
+コード内で**chart.NSeries[0].IsFiltered = true;**と設定すると、[NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/)の最初のシリーズが削除され、適切な位置に[FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filterednseries/)に置き換えられます。その後、**NSeries[1]**がリストの新しい最初のアイテムになり、次のシリーズは一つ前にシフトします。つまり、**chart.NSeries[1].IsFiltered = true;**を実行すると、もともとの3番目のシリーズが削除されます。混乱を避けるために、コードでは末尾から先頭に向かってシリーズを削除する操作を推奨します。
 
 ![todo:image_alt_text](Figure1.png)
 
@@ -59,3 +59,4 @@ Aspose.Cellsでは同様の操作を実行することができます。次の�
 次のサンプルコードは、[サンプルExcelファイル](TableFilters.xlsx) を使用して、Aspose.Cellsを使用して同じ機能を示しています。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "TableFilters.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -33,3 +33,4 @@ description: Защита и снятие защиты структуры раб
 {{% alert color="primary" %}}
 Примечание: требуется правильный пароль.
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

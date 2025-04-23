@@ -27,3 +27,4 @@ url: /zh/net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cel
 您可以使用此示例代码将[源Excel文件](5115563.xlsx)转换为[输出PDF](5115564.pdf)。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderUnicodeInOutput-RenderUnicodeInOutput.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

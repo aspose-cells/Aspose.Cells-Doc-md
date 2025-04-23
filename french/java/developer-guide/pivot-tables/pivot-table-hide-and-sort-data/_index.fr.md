@@ -17,3 +17,4 @@ Les fichiers Excel source et de sortie utilisés dans l'extrait de code sont joi
 [Fichier Source](PivotTableCacheEtTrierExemple.xlsx)
 
 [Fichier de sortie](PivotTableHideAndSort_out.xlsx)
+{{< app/cells/assistant language="java" >}}

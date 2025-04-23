@@ -299,3 +299,4 @@ renderer.ToImage(0, "output.svg");
 ## **非推奨のAPI**
 ### **廃止されたWorkbook.ValidateFormulaメソッド**
 Cell.Formulaメソッドを使用して式を検証してください。
+{{< app/cells/assistant language="csharp" >}}

@@ -53,3 +53,4 @@ row.setZeroHeight(true);
 Für weitere Details besuchen Sie [Zeilen und Spalten ausblenden und einblenden](/java/hiding-and-showing-rows-and-columns).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

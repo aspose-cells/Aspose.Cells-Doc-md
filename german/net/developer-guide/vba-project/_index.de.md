@@ -89,3 +89,4 @@ Sie können die [Quell-Excel-Datei](5112508.xlsm) und die [Ausgabe-Excel-Datei](
 - [Herausfinden, ob das VBA-Projekt geschützt ist](/cells/de/net/find-out-if-vba-project-is-protected/)
 - [Passwortschutz des VBA-Projekts der Excel-Arbeitsmappe](/cells/de/net/password-protect-the-vba-project-of-excel-workbook/)
 
+{{< app/cells/assistant language="csharp" >}}

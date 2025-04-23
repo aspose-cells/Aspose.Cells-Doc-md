@@ -16,3 +16,4 @@ Sie können über Microsoft Excel mithilfe des Menübefehls **Extras > Digitale 
 Der folgende Code lädt die Arbeitsmappe und überprüft, ob ihr VBA-Projekt mithilfe der [**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned)-Eigenschaft signiert ist. Die Eigenschaft gibt **true** zurück, wenn das Projekt signiert ist, andernfalls **false**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-CheckVbaProjectSigned-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

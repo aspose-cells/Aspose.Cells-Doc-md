@@ -168,3 +168,4 @@ workbook.save(dataDir + "AsposePivotTable.xls");
 Daha fazla bilgi için [Özet Tabloları ve Özet Grafikleri Oluşturma](/cells/tr/java/create-pivot-tables-and-pivot-charts) sayfasını ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

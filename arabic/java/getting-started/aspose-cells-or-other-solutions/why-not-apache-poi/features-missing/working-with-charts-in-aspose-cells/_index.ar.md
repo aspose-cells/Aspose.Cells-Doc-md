@@ -10,3 +10,4 @@ url: /ar/java/working-with-charts-in-aspose-cells/
 - [تغيير موضع الرسم البياني وحجمه](/cells/ar/java/change-chart-position-and-size/)
 - [تحويل الرسم البياني إلى صور باستخدام Aspose.Cells](/cells/ar/java/convert-chart-to-images-using-aspose-cells/)
 - [إنشاء رسوم بيانية محورية باستخدام Aspose.Cells](/cells/ar/java/create-pivot-charts-using-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

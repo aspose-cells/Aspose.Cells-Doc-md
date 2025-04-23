@@ -22,3 +22,4 @@ url: /zh/java/upgrade-to-modern-aspose-cells-component/
 1. **ExcelHelper**类已更换为**CellsHelper**类。 
 
 For further reference, please check our featured demos: <https://github.com/aspose-cells/Aspose.Cells-for-Java>
+{{< app/cells/assistant language="java" >}}

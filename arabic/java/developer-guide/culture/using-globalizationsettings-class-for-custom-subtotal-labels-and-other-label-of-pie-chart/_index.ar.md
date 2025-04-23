@@ -10,11 +10,11 @@ url: /ar/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-o
 ## **مقدمة في فئة GlobalizationSettings**
 تقدم فئة [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) حاليًا 3 طرق يمكن تجاوزها في فئة مخصصة للحصول على تسميات المجموعات الفرعية المرغوبة أو لعرض نص مخصص لتسمية **أخرى** لرسم الدائري.
 
-1. [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)): يحصل على اسم المجموع للوظيفة.
-1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)): يحصل على اسم الإجمالي الكبير للوظيفة.
-1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)): يحصل على اسم "أخرى" لعلامات رسم الدائري.
+1. [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName-int-): يحصل على اسم الإجمالي للدالة.
+1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName-int-): يحصل على اسم الإجمالي العام للدالة.
+1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--): يحصل على اسم تسميات "أخرى" لرسوم بيانية دائريّة.
 ### **علامات مخصصة للمجاميع الجزئية**
-يمكن استخدام فئة [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) لتخصيص تسميات المجموعات الفرعية عن طريق تجاوز [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)) و[GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)) كما هو مبين مسبقًا.
+يمكن استخدام فئة [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) لتخصيص تسميات المجموع الفرعي عن طريق تجاوز الطرق [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName-int-) و [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName-int-) كما هو موضح لاحقًا.
 
 
 
@@ -33,7 +33,7 @@ url: /ar/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-o
 
 {{% /alert %}} 
 ### **نص مخصص لعلامة "أخرى" لمخطط البيت**
-تقدم فئة [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) الطريقة [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)) التي تُفيد في إعطاء قيمة مخصصة لرقمية "Other" بشكل دوري. الشريحة التالية تحدد فئة مخصصة وتعدل الطريقة [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)) للحصول على تسمية مخصصة بناءً على اللغة الافتراضية المحددة لـ JVM.
+يقدم [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) طريقة [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--) التي تساعد على إعطاء تسمية "أخرى" لرسوم بيانية دائريّة قيمة مخصصة. يحدد المقتطف التالي فئة مخصصة ويتجاوز طريقة [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--) للحصول على تسمية مخصصة استنادًا إلى اللغة الافتراضية المحددة لل JVM.
 
 
 
@@ -50,3 +50,4 @@ url: /ar/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-o
 فيما يلي الصورة الناتجة عندما يتم تعيين لغة الجهاز على فرنسا. كما ترون أن التسمية "Other" قد تم ترجمتها إلى "Autre" كما هو محدد في فئة *CustomSettings*.
 
 ![todo:image_alt_text](using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart_1.png)
+{{< app/cells/assistant language="java" >}}

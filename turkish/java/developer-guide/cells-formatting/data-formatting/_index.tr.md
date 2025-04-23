@@ -403,3 +403,4 @@ Eğer tam bir satır veya sütunun ekran biçimini sayı ve tarihler için ayarl
 [Sayıların ve [Tarihlerin Gösterim Biçimlerinin Ayarlanması](/cells/tr/java/data-formatting/) hakkında detaylı makaleyi kontrol edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

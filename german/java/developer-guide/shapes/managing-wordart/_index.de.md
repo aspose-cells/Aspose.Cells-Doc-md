@@ -29,3 +29,4 @@ Nach Ausführen des Codes enthält die Ausgabedatei ein blasses rotes WordArt-Wa
 - [Fügen Sie dem Diagramm ein WordArt-Wasserzeichen hinzu](/cells/de/java/add-wordart-watermark-to-chart/)
 - [Sperren des WordArt-Wasserzeichens](/cells/de/java/locking-wordart-watermark/)
 - [Voreingestellten WordArt-Stil auf den Text der Form setzen](/cells/de/java/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="java" >}}

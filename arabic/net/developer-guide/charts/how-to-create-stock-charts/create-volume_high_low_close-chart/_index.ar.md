@@ -19,3 +19,4 @@ url: /ar/net/create-volume-high-low-close-stock-chart/
 الكود عينة التالي يقوم بتحميل ملف Excel عينة ويولّد ملف Excel الناتج.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-volume-high-low-close-stock-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

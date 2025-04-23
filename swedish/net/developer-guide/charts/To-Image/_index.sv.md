@@ -118,3 +118,4 @@ Om du försöker rendera de icke-supportade diagramtyperna till bild eller PDF k
 
 ## **Fortsatta ämnen**
 - [Konvertera Diagram till PDF](/cells/sv/net/chart-to-pdf/)
+{{< app/cells/assistant language="csharp" >}}

@@ -89,3 +89,4 @@ Vous pouvez télécharger le [fichier Excel source](5112508.xlsm) et le [fichier
 - [Découvrir si le projet VBA est protégé](/cells/fr/net/find-out-if-vba-project-is-protected/)
 - [Protéger par mot de passe le projet VBA du classeur Excel](/cells/fr/net/password-protect-the-vba-project-of-excel-workbook/)
 
+{{< app/cells/assistant language="csharp" >}}

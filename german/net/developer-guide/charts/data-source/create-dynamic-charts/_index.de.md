@@ -52,3 +52,4 @@ Um die Demonstration einfach zu verstehen zu halten, werden wir die Arbeitsmappe
 1. Speichern Sie das Ergebnis auf der Festplatte.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-UsingDynamicFormula-CreateDynamicChartsUsingDynamicFormula.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

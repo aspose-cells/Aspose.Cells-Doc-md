@@ -22,3 +22,4 @@ url: /ru/java/refresh-values-of-linked-shapes/
 ### Java-код для обновления значений связанных форм
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RefreshValuesOfLinkedShapes-RefreshValuesOfLinkedShapes.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -24,3 +24,4 @@ Aşağıdaki örnek kod, [sample Excel dosyasını](55541816.xlsx) yükler ve 
 Root Element Name Of Xml Map: MiscData
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

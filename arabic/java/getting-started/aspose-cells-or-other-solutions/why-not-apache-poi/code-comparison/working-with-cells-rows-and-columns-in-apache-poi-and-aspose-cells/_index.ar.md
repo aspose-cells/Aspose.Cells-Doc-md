@@ -16,3 +16,4 @@ url: /ar/java/working-with-cells-rows-and-columns-in-apache-poi-and-aspose-cells
 - [تجميد الألواح في Apache POI و Aspose.Cells](/cells/ar/java/freeze-panes-in-apache-poi-and-aspose-cells/)
 - [إنشاء خلية تاريخ في Apache POI و Aspose.Cells](/cells/ar/java/create-date-cell-in-apache-poi-and-aspose-cells/)
 - [إنشاء أنواع خلية مختلفة في Apache POI و Aspose.Cells](/cells/ar/java/create-different-cell-types-in-apache-poi-and-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

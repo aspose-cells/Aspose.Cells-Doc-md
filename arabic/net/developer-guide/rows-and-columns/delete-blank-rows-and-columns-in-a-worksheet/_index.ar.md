@@ -23,3 +23,4 @@ url: /ar/net/delete-blank-rows-and-columns-in-a-worksheet/
 ## كود C# لحذف الأعمدة الفارغة
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DeleteBlankRowsColumns-DeletingBlankColumns-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

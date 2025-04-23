@@ -7,7 +7,7 @@ url: /ja/java/reading-and-writing-query-table-of-worksheet/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cellsは[Worksheet.getQueryTables()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#QueryTables)コレクションを提供し、[QueryTableCollection](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTableCollection)を返します。特定の[QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)を取得するには、[QueryTableCollection.get()](https://reference.aspose.com/cells/java/com.aspose.cells/querytablecollection#Item%20\(int\))プロパティを使用し、QueryTableのインデックスを渡します。[QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)クラスには、クエリテーブルを調整するための次の2つのプロパティがあります。
+Aspose.Cellsは、[Worksheet.getQueryTables()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#QueryTables)コレクションを提供しており、これにより[QueryTableCollection](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTableCollection)を取得できます。特定の[QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)を取得するには、[QueryTableCollection.get()](https://reference.aspose.com/cells/java/com.aspose.cells/querytablecollection#Item%20-int-)プロパティを使用し、QueryTableのインデックスを渡します。QueryTableクラスには、QueryTableの調整に役立つ以下の2つのプロパティがあります。
 
 - [QueryTable.getAdjustColumnWidth()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#AdjustColumnWidth)
 - [QueryTable.getPreserveFormatting()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting)
@@ -42,3 +42,4 @@ Preserve Formatting: false
 Aspose.Cellsは、クエリテーブルの結果範囲のアドレスを読み取るオプションを提供します。次のコードは、クエリテーブルの結果範囲のアドレスを読み取るこの機能を示しています。サンプルファイルは[こちら](QueryTXT.xlsx)からダウンロードできます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReadingAndWritingQueryTable-RetrieveQueryTableResultRange.java" >}}
+{{< app/cells/assistant language="java" >}}

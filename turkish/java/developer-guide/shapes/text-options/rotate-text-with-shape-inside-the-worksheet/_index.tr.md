@@ -18,3 +18,4 @@ Aşağıdaki örnek kod, metni şekille birlikte dönen üçgen şekilli bir ör
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-RotateTextWithShapeInsideWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

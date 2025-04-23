@@ -16,3 +16,4 @@ url: /ar/net/check-if-vba-project-in-a-workbook-is-signed/
 الكود التالي يحمل الكتاب ويتحقق مما إذا كان مشروع VBA الخاص به موقع بالتوقيع باستخدام خاصية [**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned). ستعيد الخاصية **true** إذا كان المشروع موقع بالتوقيع وإلا ستعيد **false**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-CheckVbaProjectSigned-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

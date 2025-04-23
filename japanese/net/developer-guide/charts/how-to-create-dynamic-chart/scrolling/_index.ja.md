@@ -32,3 +32,4 @@ url: /ja/net/create-dynamic-scrolling-chart/
 ```
 
 セル「Sheet1!$H$20」で数値「10」を「15」に変更してみると、動的チャートは最新の15つのデータセットをカウントします。これでAspose.Cellsを使用して動的スクロールチャートを作成しました。
+{{< app/cells/assistant language="csharp" >}}

@@ -79,3 +79,4 @@ Veuillez exécuter l'exemple suivant pour voir comment cela fonctionne dans Aspo
 - [Plages nommées](/cells/fr/java/named-ranges/)
 - [Rechercher et remplacer des données dans une plage](/cells/fr/java/search-and-replace-data-in-a-range/)
 
+{{< app/cells/assistant language="java" >}}

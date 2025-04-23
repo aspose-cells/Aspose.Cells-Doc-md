@@ -16,3 +16,4 @@ Aspose.Cells ti consente di accedere a tutti i collegamenti ipertestuali del fog
 Il codice di esempio seguente accede a tutti i collegamenti ipertestuali del foglio di lavoro e cambia la loro proprietà [**Hyperlink.Address**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/address) al sito web Aspose.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-EditingHyperlinksOfWorksheet-EditingHyperlinksOfWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

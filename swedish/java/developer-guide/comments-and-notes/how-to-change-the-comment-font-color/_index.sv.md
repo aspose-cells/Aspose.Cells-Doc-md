@@ -16,3 +16,4 @@ Aspose.Cells tillhandahåller en [**Shape.TextBody**](https://reference.aspose.c
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ChangeCommentFontColor-1.java" >}}
 
 Det [utdatafilen](outputChangeCommentFontColor.xlsx) som genereras av ovanstående kod bifogas för din referens.
+{{< app/cells/assistant language="java" >}}

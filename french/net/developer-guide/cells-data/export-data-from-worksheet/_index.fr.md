@@ -109,3 +109,4 @@ Les données d'une plage peuvent être exportées vers [**DataTable**](https://d
 - [Exporter les données des lignes visibles de la feuille de calcul](/cells/fr/net/export-visible-rows-data-from-worksheet/)
 - [Ignorer les colonnes masquées lors de l'exportation des données de la feuille de calcul dans un DataTable](/cells/fr/net/ignore-hidden-columns-while-exporting-worksheet-data-to-data-table/)
 - [Renommer automatiquement les colonnes en double lors de l'exportation des données de la feuille de calcul](/cells/fr/net/rename-duplicate-columns-automatically-while-exporting-worksheet-data/)
+{{< app/cells/assistant language="csharp" >}}

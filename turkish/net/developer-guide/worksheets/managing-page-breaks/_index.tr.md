@@ -57,3 +57,4 @@ Belirli bir sayfa kırığını kaldırmak için, [**HorizontalPageBreakCollecti
 ## **Bilinmesi Gerekenler**
 
 **Sayfa Yerleşimi Ayarları** (yani [**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) ve [**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)) ayarlandığında, sayfa kırığı ayarları etkilenir, bu nedenle çalışma sayfasını yazdırırsanız, sayfa kırığı ayarları dikkate alınmasa da hala ayarlıdır.
+{{< app/cells/assistant language="csharp" >}}

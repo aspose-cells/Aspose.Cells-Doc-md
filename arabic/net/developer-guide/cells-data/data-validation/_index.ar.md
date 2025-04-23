@@ -128,3 +128,4 @@ keywords: إضافة التحقق من البيانات، الحصول على ق
 - [الحصول على التحقق من الخلية في ملفات ODS](/cells/ar/net/get-cell-validation-in-ods-files/)
 - [الحصول على التحقق المطبق على خلية](/cells/ar/net/get-validation-applied-on-a-cell/)
 - [التحقق من أن قيمة الخلية تلبي قواعد التحقق من البيانات](/cells/ar/net/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="csharp" >}}

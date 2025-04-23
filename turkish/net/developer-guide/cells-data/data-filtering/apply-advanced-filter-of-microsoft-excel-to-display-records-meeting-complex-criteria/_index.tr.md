@@ -44,3 +44,4 @@ Aşağıdaki örnek kod, [Örnek Excel Dosyası](48496692.xlsx)'da gelişmiş fi
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-ApplyAdvancedFilterOfMicrosoftExcel.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

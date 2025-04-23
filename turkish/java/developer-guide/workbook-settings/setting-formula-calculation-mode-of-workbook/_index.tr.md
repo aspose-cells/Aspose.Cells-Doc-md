@@ -23,7 +23,7 @@ Microsoft Excel'de formül hesaplama modunu ayarlamak için:
 Aspose.Cells ayrıca [**FormulaSettings.CalculationMode**](https://reference.aspose.com/cells/java/com.aspose.cells/formulasettings#CalculationMode) özelliğini kullanarak **Formül Hesaplama Modunu** ayarlamanıza olanak tanır. Bu özelliğe [**CalcModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/CalcModeType) numaralı sıralamayı atayabilirsiniz ki bu sıralama aşağıdaki değerlerden birine sahiptir:
 
 - [**CalcModeType.AUTOMATIC**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC)
-- [**CalcModeType.AUTOMATIC_EXCEPT_TABLE**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC_EXCEPT_TABLE)
+- [**CalcModeType.AUTOMATIC_EXCEPT_TABLE**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC-EXCEPT-TABLE)
 - [**CalcModeType.MANUAL**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#MANUAL)
 
 Aşağıdaki örnek kod önce bir çalışma kitabı oluşturur, sonra formül hesaplama modunu **Manuel** olarak ayarlar ve çalışma kitabını diskte çıktı Excel dosyası olarak kaydeder.
@@ -33,3 +33,4 @@ Aşağıdaki örnek kod önce bir çalışma kitabı oluşturur, sonra formül h
 ![todo:image_alt_text](setting-formula-calculation-mode-of-workbook_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetFormulaCalculationMode-SetFormulaCalculationMode.java" >}}
+{{< app/cells/assistant language="java" >}}

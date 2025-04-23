@@ -311,3 +311,4 @@ Ladda en licens från en ström
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -26,3 +26,4 @@ Para demostrar el uso del API Aspose.Cells for Java para crear un gráfico circu
 
 - [Creación y personalización de gráficos](/cells/es/java/creating-and-customizing-charts/)
 - [Formato de gráficos](/cells/es/java/chart-formatting/)
+{{< app/cells/assistant language="java" >}}

@@ -16,3 +16,4 @@ Aspose.Cells proporciona una función para eliminar o quitar la Tabla Dinámica 
 El siguiente código de muestra elimina dos tablas dinámicas de la hoja de cálculo. Primero elimina la tabla dinámica usando el método [**Worksheet.PivotTables.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/remove) y luego elimina la tabla dinámica usando el método [**Worksheet.PivotTables.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/removeat)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-RemovePivotTable-RemovePivotTableFromWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

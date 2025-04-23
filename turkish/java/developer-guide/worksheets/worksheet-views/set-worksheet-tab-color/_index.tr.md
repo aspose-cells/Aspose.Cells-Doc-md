@@ -27,3 +27,4 @@ Aspose.Cells, bireysel çalışma sayfası sekmelerinin rengini değiştirmenize
 Aşağıdaki örnek kod, Aspose.Cells ile sekme rengini ayarlamanın nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetWorksheetTabColor-SetWorksheetTabColor.java" >}}
+{{< app/cells/assistant language="java" >}}

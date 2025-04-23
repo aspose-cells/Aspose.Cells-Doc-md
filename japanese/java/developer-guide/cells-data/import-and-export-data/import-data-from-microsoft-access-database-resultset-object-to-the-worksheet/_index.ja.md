@@ -28,8 +28,9 @@ Microsoft AccessデータベースのResultSetオブジェクトからワーク�
 
 ![todo:image_alt_text](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_1.png)
 ## **以下のサンプルコードは、Microsoft AccessデータベースのSQLクエリを実行しResultSetオブジェクトを作成します。その後、[Worksheet.getCells().importResultSet()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importResultSet\(java.sql.ResultSet,%20int,%20int,%20boolean\))メソッドを使用して、ResultSetオブジェクトからワークシートにデータをインポートします。最初に、行および列のインデックスを使用し、次にセル名を使用してワークシートにデータをインポートします。最後に、ワークブックを[出力Excelファイル](48496713.xlsx)として保存します。スクリーンショットは、出力Excelファイルへのサンプルコードの影響を示しています。**
-次のサンプルコードは、Microsoft AccessデータベースからSQLクエリを実行し、ResultSet オブジェクトを作成します。次に、[Worksheet.getCells().importResultSet()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importResultSet\(java.sql.ResultSet,%20int,%20int,%20boolean\)) メソッドを使用してResultSet オブジェクトからワークシートにデータをインポートします。最初に、行および列インデックスを使用してデータをワークシートにインポートし、次にセル名を使用してデータをインポートします。最後に、ワークブックを[出力Excelファイル](48496713.xlsx)として保存します。スクリーンショットは、サンプルコードの出力Excelファイルへの影響を示しています。
+以下のサンプルコードは、Microsoft AccessデータベースからSQLクエリを実行し、ResultSetオブジェクトを作成します。その後、[Worksheet.getCells().importResultSet()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importResultSet-java.sql.ResultSet-int-int-boolean-)メソッドを使用して、ResultSetのデータをワークシートにインポートします。最初は行と列のインデックスを使用し、その後セル名を使用してデータをインポートします。最後に、ワークブックを[出力Excelファイル](48496713.xlsx)として保存します。スクリーンショットは、サンプルコードが出力Excelに与える効果を示しています。
 
 ![todo:image_alt_text](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_2.png)
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ImportDataFromMicrosoftAccessDatabaseResultSetObjectToWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

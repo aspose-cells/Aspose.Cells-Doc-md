@@ -128,3 +128,4 @@ Aspose.Cellsでは、各[**Worksheet**](https://reference.aspose.com/cells/net/a
 - [ODS ファイルでのセル検証を取得](/cells/ja/net/get-cell-validation-in-ods-files/)
 - [セルに適用された検証を取得する](/cells/ja/net/get-validation-applied-on-a-cell/)
 - [セルの値がデータ検証ルールを満たすかどうかを確認する](/cells/ja/net/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="csharp" >}}

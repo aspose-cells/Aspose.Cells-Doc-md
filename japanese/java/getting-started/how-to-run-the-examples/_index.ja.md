@@ -47,3 +47,4 @@ AsposeCellsExamples.DrawingObjects
 
 貢献するには、リポジトリをフォークし、ソースコードを編集してプルリクエストを作成します。変更をレビューし、役立つと判断されればリポジトリに含めます。
 
+{{< app/cells/assistant language="java" >}}

@@ -28,3 +28,4 @@ End Sub
 إليك الشيفرة الزمنية العينية لإنشاء ملف XLSM الناتج مع شيفر آلي.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AssignMacroToFormControl-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

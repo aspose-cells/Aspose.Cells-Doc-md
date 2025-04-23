@@ -31,3 +31,4 @@ Signaturerna för ovanstående metoder är följande:
 Kontrollera den detaljerade artikeln om [Automatisk anpassning av rader och kolumner](http://aspose.com/docs/display/cellsnet/AutoFit+Rows+and+Columns).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

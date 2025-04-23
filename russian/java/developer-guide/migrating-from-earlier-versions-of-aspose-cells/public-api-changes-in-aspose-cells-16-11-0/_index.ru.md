@@ -260,3 +260,4 @@ link = links.getHyperlink(0, 3);
 Пожалуйста, рассмотрите возможность использования свойства AutoFilter.FilterColumns для достижения той же цели.
 ### **Свойство Deleted TickLabels.Rotation**
 Пожалуйста, используйте свойство TickLabels.RotationAngle вместо.
+{{< app/cells/assistant language="java" >}}

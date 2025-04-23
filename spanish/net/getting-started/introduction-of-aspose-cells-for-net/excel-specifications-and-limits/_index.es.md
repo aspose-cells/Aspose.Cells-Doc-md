@@ -191,3 +191,4 @@ Libros de trabajo que se pueden combinar a la vez|Limitado por la memoria dispon
 |Celdas que se pueden resaltar|32,767
 |Colores utilizados para identificar los cambios realizados por diferentes usuarios cuando se activa el resaltado de cambios|32 (cada usuario se identifica con un color distinto; los cambios realizados por el usuario actual se resaltan con azul marino)
 |Tablas de Excel en el libro de trabajo|0 (cero) Nota: Un libro de trabajo que contiene una o más tablas de Excel no puede tener habilitada la configuración Permitir cambios de más de un usuario...
+{{< app/cells/assistant language="csharp" >}}

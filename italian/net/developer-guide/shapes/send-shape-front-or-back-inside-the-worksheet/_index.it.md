@@ -18,3 +18,4 @@ Il seguente codice di esempio spiega l'uso del metodo [**Shape.ToFrontOrBack()**
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-SendShapeFrontOrBackInWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

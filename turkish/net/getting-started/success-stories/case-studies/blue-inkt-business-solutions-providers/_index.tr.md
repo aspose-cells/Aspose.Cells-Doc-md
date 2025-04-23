@@ -19,3 +19,4 @@ Bu testin sonucu çok iyiydi. Örneğin her biri 10 dakika süren 100 ihracat is
 Artık müşterilerimize çok fazla zaman kaybettiren sorunu çözdük. Ürünlerimizin kullanılabilirliği daha yüksek. 
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -18,3 +18,4 @@ Aspose.Cellsを使用してセルの範囲を結合または分割できます�
 次のサンプルコードは、まず範囲A1:D4を作成し、次に範囲内のセルを[**Range.Merge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge)メソッドを使用して単一のセルに結合します。同様に、範囲を作成し、[**Range.UnMerge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/unmerge)メソッドを呼び出すことでセルを分割することができます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-MergeUnmergeRangeOfCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

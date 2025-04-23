@@ -15,3 +15,4 @@ El siguiente código de muestra carga el [archivo de Excel de ejemplo](5472584.x
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GlobalizationSettingsImp-GlobalizationSettingsImp.java" >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ImplementSubtotalGrandTotallabels-ImplementSubtotalGrandTotallabels.java" >}}
+{{< app/cells/assistant language="java" >}}

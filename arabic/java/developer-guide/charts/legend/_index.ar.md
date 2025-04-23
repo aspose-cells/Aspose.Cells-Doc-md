@@ -21,3 +21,4 @@ url: /ar/java/chart-legend/
 
 ## **مواضيع متقدمة**
 - [ضبط نص إدخال وسام الرسم البياني على لا شيء باستخدام Aspose.Cells](/cells/ar/java/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

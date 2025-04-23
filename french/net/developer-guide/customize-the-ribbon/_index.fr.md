@@ -24,3 +24,4 @@ Si vous souhaitez modifier le Ribbon XML, vous devez l'analyser avec un analyseu
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomizingRibbonXML-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

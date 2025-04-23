@@ -16,3 +16,4 @@ Aspose.Cells te permite verificar si la firma digital del código VBA es válida
 El siguiente código demuestra el uso de esta propiedad utilizando el [archivo excel de muestra](5115030.xlsm) que puedes descargar desde el enlace proporcionado. El mismo archivo de Excel tiene una firma válida pero cuando modificamos su código VBA y guardamos el libro de trabajo y luego volvemos a verificar, encontramos que su firma se ha vuelto inválida.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-CheckVbaSignatureIsValid-CheckVbaSignatureIsValid.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

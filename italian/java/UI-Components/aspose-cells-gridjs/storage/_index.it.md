@@ -15,11 +15,11 @@ aliases:
 ##  il processo generale dei file 
 Dopo l'importazione di un file di foglio di calcolo ,
 
-GridJs creerà un file di cache con l'uid specificato nella cartella **`Config.getFileCacheDirectory()`**,
+GridJs creerà un file cache con l'uid specificato nella cartella **`Config.getFileCacheDirectory()`** ,
 
 con il formato di [Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/java/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat"),
 
-GridJs salverà anche tutte le forme/immagini in un file di archivio zip nella cartella **`Config.getPictureCacheDirectory()`** per successivamente visualizzare le forme/immagini nell'interfaccia utente del client.
+GridJs salverà anche tutte le forme / immagini in un archivio zip nella cartella **`Config.getPictureCacheDirectory()`** per la visualizzazione successiva di forme / immagini nell'interfaccia utente client.
 
 e dopo ogni operazione di aggiornamento nell'interfaccia utente del client,
 
@@ -99,7 +99,7 @@ public class LocalFileCache extends GridCacheForStream {
 ```
 B. Se non impostiamo GridJsWorkbook.CacheImp,
 
-GridJs creerà e salverà il file nella cartella **`Config.getFileCacheDirectory()`** che è la directory della cache predefinita che possiamo impostare.
+GridJs creerà e salverà il file all'interno della cartella **`Config.getFileCacheDirectory()`**, che è la directory cache predefinita che possiamo impostare.
 
 ###  come ottenere il file di risultato aggiornato
 #### 1. un uid specifico per il file 
@@ -183,7 +183,7 @@ dobbiamo eseguire un'operazione di merge prima dell'azione di salvataggio per si
   //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
   wb.saveToCacheWithFileName(uid,filename,password);
 ```         
-#### 3. ottenere l'URL del file dalla cache
+#### 3. ottieni l'url del file dalla cache
 ad esempio: nell'azione di download, puoi semplicemente prenderlo dalla directory della cache tramite uid.
 ```JAVA
 //in controller  

@@ -31,3 +31,4 @@ Aspose.Cells предоставляет [**PdfSecurityOptions**](https://referen
 Если электронная таблица содержит формулы, лучше всего вызвать [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) прямо перед преобразованием ее в PDF. Это гарантирует, что значения, зависящие от формул, пересчитываются верно и отображаются правильные значения в PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

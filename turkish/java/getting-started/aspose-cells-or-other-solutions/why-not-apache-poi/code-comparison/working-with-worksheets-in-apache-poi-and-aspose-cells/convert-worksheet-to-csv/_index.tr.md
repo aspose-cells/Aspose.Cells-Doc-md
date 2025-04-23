@@ -699,3 +699,4 @@ Herhangi bir aşağıdaki sosyal kodlama sitesinden **Çalışma sayfasını CSV
 Daha fazla bilgi için [Dosyaları Kaydetme](/cells/tr/java/saving-excel-files-to-csv-pdf-and-other-formats/) sayfasını ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

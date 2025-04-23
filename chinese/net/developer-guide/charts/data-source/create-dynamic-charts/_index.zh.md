@@ -52,3 +52,4 @@ ListObjects提供了内置功能，可根据用户交互来对数据进行排序
 1. 将结果保存在磁盘上。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-UsingDynamicFormula-CreateDynamicChartsUsingDynamicFormula.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

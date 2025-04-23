@@ -35,3 +35,4 @@ Il seguente codice applica la funzione di consolidamento **Media** al primo camp
 La funzione di consolidamento DistinctCount è supportata solo da Microsoft Excel 2013.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

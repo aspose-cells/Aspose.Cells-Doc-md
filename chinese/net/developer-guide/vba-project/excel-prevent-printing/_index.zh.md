@@ -34,3 +34,4 @@ keywords: excel打印、防止excel打印、如何防止用户打印excel、exce
 1. 将示例文件保存为[xlsm格式](out.xlsm)。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "VBA-Prevent-printing-excel.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

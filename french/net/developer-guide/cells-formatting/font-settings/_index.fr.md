@@ -79,3 +79,4 @@ Les développeurs peuvent appliquer l'effet exposant sur la police en définissa
 - [Appliquer les effets exposant et bas indice sur les polices](/cells/fr/net/apply-superscript-and-subscript-effects-on-fonts/)
 - [Obtenir une liste des polices utilisées dans une feuille de calcul ou un classeur](/cells/fr/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 
+{{< app/cells/assistant language="csharp" >}}

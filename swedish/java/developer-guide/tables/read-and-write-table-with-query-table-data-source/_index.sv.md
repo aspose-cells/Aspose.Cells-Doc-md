@@ -15,3 +15,4 @@ Käll- och utdataexcelfilerna är bilagda som referens.
 [Källfil](SampleTableWithQueryTable.xls)
 
 [Output File](SampleTableWithQueryTable_out.xls)
+{{< app/cells/assistant language="java" >}}

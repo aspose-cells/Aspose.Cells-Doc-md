@@ -26,7 +26,7 @@ Aşağıdaki liste (örnek kod segmentleriyle birlikte) Aspose.Cells for Java ve
 
  var aspose = aspose || {};
 
-aspose.cells = require("aspose.cells");
+aspose.cells = require("aspose.cells.java");
 
 {{< /highlight >}}
 ### **Yeni Bir Çalışma Kitabı Örneği Oluşturuluyor**
@@ -88,7 +88,7 @@ workbook.save(“result.xlsx”);
 
  var aspose = aspose || {};
 
-aspose.cells = require("aspose.cells");
+aspose.cells = require("aspose.cells.java");
 
 var fs = require("fs");
 

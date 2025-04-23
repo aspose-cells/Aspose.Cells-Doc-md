@@ -17,3 +17,4 @@ Aspose.Cells支持大多数Microsoft Excel中的公式/函数。开发人员可�
    对于某些语言选项或设置，函数参数的分隔符是分号，但Aspose.Cells使用英文风格的逗号。例如，使用"=IF (C5=0,0,C3/C4)"而不是"=IF(C5=0;0;C3/C4)"。 
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

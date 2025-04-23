@@ -59,3 +59,4 @@ Der folgende Codeausschnitt zeigt die Verwendung der Klassen [**ExportRangeToJso
 ]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

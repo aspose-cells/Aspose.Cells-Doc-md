@@ -36,6 +36,7 @@ Aspose.Cells Formül Hesaplama Motoru, aşağıdaki formüllerin ve fonksiyonlar
 |ANCHORARRAY|**Arama ve referans**: Hücredeki dinamik dizi için bütün taşan aralığı döndürür
 |AND|**Mantıksal**: Argümanlarının hepsi DOĞRU ise DOĞRU döndürür
 |AREAS|**Arama ve referans**: Bir referanstaki alan sayısını döndürür
+|ARRAYTOTEXT|**Metin**: Belirtilen herhangi bir aralıktaki metin değerleri dizisini döndürür
 |ASC|**Metin**: Bir karakter dizisindeki tam genişlikli (çift baytlı) İngiliz harflerini veya karakter dizisi içindeki katakanaları yarım genişlikli (tek baytlı) karakterlere dönüştürür
 |ASIN|**Matematik ve trigonometri**: Bir sayının arksinüsünü döndürür
 |ASINH|**Matematik ve trigonometri**: Bir sayının hiperbolik arkusinüsünü döndürür
@@ -69,6 +70,8 @@ Aspose.Cells Formül Hesaplama Motoru, aşağıdaki formüllerin ve fonksiyonlar
 |BITOR|**Mühendislik**: İki sayının Bitwise OR işlemini döndürür
 |BITRSHIFT|**Mühendislik**: Bir sayıyı shift_amount bitleri sağa kaydırarak döndürür
 |BITXOR|**Mühendislik**: İki sayının Bitwise 'Exclusive Or' işlemini döndürür
+|BYCOL|**Mantıksal**: LAMBDA'yı her sütuna uygular ve sonuçların dizisini döndürür
+|BYROW|**Mantıksal**: LAMBDA'yı her satıra uygular ve sonuçların dizisini döndürür
 
 ###### **C**
 |**Fonksiyon**|**Özet**|
@@ -148,7 +151,7 @@ Aspose.Cells Formül Hesaplama Motoru, aşağıdaki formüllerin ve fonksiyonlar
 |DOLLARDE|**Finansal**: Bir kesir olarak ifade edilen dolar fiyatını, ondalık bir sayı olarak ifade edilen dolar fiyatına dönüştürür
 |DOLLARFR|**Finansal**: Ondalık bir sayı olarak ifade edilen dolar fiyatını, bir kesir olarak ifade edilen dolar fiyatına dönüştürür
 |DPRODUCT|**Veritabanı**: Bir veritabanındaki belirli bir alanın değerlerini eşleşen kriterlere çarpar
-|DROP|**Arama ve referans**: Dizinin başında veya sonundan belirli sayıda satır veya sütunu hariç tutar
+|DROP|**Arama ve referans**: Bir dizinin başlangıcından veya sonundan belirli sayıda satır veya sütunu hariç tutar
 |DSTDEV|**Veritabanı**: Seçilen veritabanı girişlerinin bir örneğine dayanarak standart sapmayı tahmin eder
 |DSTDEVP|**Veritabanı**: Seçilen veritabanı girişlerinin genel nüfusuna dayanarak standart sapmayı hesaplar
 |DSUM|**Veritabanı**: Veritabanında belirli bir alanın numaralarını eşleşen kriterlere sahip kayıtların numaralarını ekler
@@ -515,6 +518,7 @@ Aspose.Cells Formül Hesaplama Motoru, aşağıdaki formüllerin ve fonksiyonlar
 |**Fonksiyon**|**Özet**|
 | :- | :- |
 |VALUE|**Metin**: Bir metin argümanını bir sayıya dönüştürür
+|VALUETOTEXT|**Metin**: Belirtilen herhangi bir değerden metin döndürür
 |VAR|**Uyumluluk**: Bir örneğe dayalı olarak varyansı tahmin eder
 |VAR.P|**İstatistiksel**: Tüm popülasyona dayalı olarak varyansı hesaplar
 |VAR.S|**İstatistiksel**: Bir örneğe dayalı olarak varyansı tahmin eder
@@ -557,3 +561,4 @@ Aspose.Cells Formül Hesaplama Motoru, aşağıdaki formüllerin ve fonksiyonlar
 |Z.TEST|**İstatistiksel**: Bir z-testinin tek kuyruklu olasılık değerini döndürür
 |ZTEST|**Uyumluluk**: Bir z-testinin tek kuyruklu olasılık değerini döndürür
 
+{{< app/cells/assistant language="java" >}}

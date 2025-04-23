@@ -16,3 +16,4 @@ keywords: C＃でExcel内のデータを検索および置換する、C＃でExc
 Aspose.Cellsは、データを検索する際に範囲を指定するための [**FindOptions.SetRange()**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/methods/setrange) メソッドを提供しています。以下のコードサンプルは、範囲内のデータを検索して置換するものです。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SearchReplaceDataInRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

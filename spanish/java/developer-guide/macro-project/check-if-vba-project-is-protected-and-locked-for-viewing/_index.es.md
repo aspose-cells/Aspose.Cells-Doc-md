@@ -19,3 +19,4 @@ Esta es la salida de consola del código de ejemplo anterior al ejecutarse con e
  Is VBA Project Locked for Viewing: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -24,3 +24,4 @@ Hücrede metin kaydırmak için, [**Aspose.Cells.Style.IsTextWrapped**](https://
 Bir hücrede açık satır sonları eklemek için C# dilinde '\n' ve VB.NET dilinde ' vbLf' kullanabilirsiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-UseExplicitLineBreaks-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -11,15 +11,15 @@ keywords: Java. Преобразование индекса ячейки в им
 ## **Как получить имя ячейки из индексов строки и столбца**
 Возможно определить имя ячейки по индексам строки и столбца. В этой статье объясняется как это сделать.
 
-Aspose.Cells предоставляет метод [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)), который позволяет разработчикам получить имя ячейки, если они предоставляют индексы строки и столбца.
+Aspose.Cells предоставляет метод [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName-int-int-), который позволяет разработчикам получить имя ячейки, предоставляя индекс строки и столбца.
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel начинает отсчет индексов строк и столбцов с 1. В отличие от Microsoft Excel, Aspose.Cells начинает отсчет индексов строк и столбцов с 0.
+Microsoft Excel начинает нумерацию индексов строк и столбцов с 1. В отличие от Microsoft Excel, Aspose.Cells начинает нумерацию индексов строк и столбцов с 0.
 
 {{% /alert %}} 
 
-В следующем примере кода показано, как использовать [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)), чтобы получить имя ячейки в известном индексе строки и столбца. Код генерирует следующий вывод.
+Следующий пример кода показывает, как использовать [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName-int-int-) для получения имени ячейки при заданных известных индексах строки и столбца. Код выводит следующий результат.
 
 {{< highlight java >}}
 
@@ -37,15 +37,15 @@ Cell Name at [2, 2]: C3
 ## **Как получить индексы строки и столбца из имени ячейки**
 Возможно определить индекс строки и столбца ячейки по ее имени. В этой статье объясняется как это сделать.
 
-Aspose.Cells предоставляет метод [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)), который позволяет разработчикам получить индексы строки и столбца из имени ячейки.
+Aspose.Cells предоставляет метод [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex-java.lang.String-), который позволяет разработчикам получить индекс строки и столбца из имени ячейки.
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel начинает отсчет индексов строк и столбцов с 1. В отличие от Microsoft Excel, Aspose.Cells начинает отсчет индексов строк и столбцов с 0.
+Microsoft Excel начинает нумерацию индексов строк и столбцов с 1. В отличие от Microsoft Excel, Aspose.Cells начинает нумерацию индексов строк и столбцов с 0.
 
 {{% /alert %}} 
 
-В следующем примере кода показано, как использовать [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) для получения индекса строки и столбца из имени ячейки. Код генерирует следующий вывод.
+Следующий пример кода показывает, как использовать [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex-java.lang.String-) для получения индексов строки и столбца по имени ячейки. Код выводит следующий результат.
 
 {{< highlight java >}}
 
@@ -72,3 +72,4 @@ Column Index of Cell C6: 2
 ` `<> + (adj.Private _ " Private"
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

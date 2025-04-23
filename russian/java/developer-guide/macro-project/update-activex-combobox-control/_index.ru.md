@@ -6,7 +6,7 @@ url: /ru/java/update-activex-combobox-control/
 ---
 
 ## **Возможные сценарии использования**
-Вы можете читать или записывать значения элемента управления ActiveX ComboBox с помощью Aspose.Cells. Пожалуйста, получите доступ к элементу ActiveX Control через свойство [Shape.ActiveXControl](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ActiveXControl) и проверьте его тип через свойство [ActiveXControl.Type](https://reference.aspose.com/cells/java/com.aspose.cells/activexcontrol#Type), оно должно вернуть значение [ControlType.ComboBox](https://reference.aspose.com/cells/java/com.aspose.cells/controltype#COMBO_BOX) и затем преобразить его в объект [ComboBoxActiveXControl](https://reference.aspose.com/cells/java/com.aspose.cells/ComboBoxActiveXControl) и прочитать или изменить его различные свойства.
+Вы можете читать или записывать значения контроллера ActiveX ComboBox, используя Aspose.Cells. Обратитесь к активному управлению через свойство [Shape.ActiveXControl](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ActiveXControl), проверьте его тип через [ActiveXControl.Type](https://reference.aspose.com/cells/java/com.aspose.cells/activexcontrol#Type), он должен возвращать значение [ControlType.ComboBox](https://reference.aspose.com/cells/java/com.aspose.cells/controltype#COMBO-BOX), затем приведите его к объекту [ComboBoxActiveXControl](https://reference.aspose.com/cells/java/com.aspose.cells/ComboBoxActiveXControl) и читайте или изменяйте его свойства.
 
 Пожалуйста, загрузите [образец файла Excel](5473374.xlsx), используемый в следующем образцовом коде, и [файл вывода Excel](5473375.xlsx), сгенерированный им.
 ## **Обновление элемента управления ComboBox ActiveX**
@@ -17,3 +17,4 @@ url: /ru/java/update-activex-combobox-control/
 Следующий образец кода обновляет значение элемента управления ActiveX ComboBox, находящегося внутри [образца файла Excel](5473374.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UpdateActiveXComboBoxControl-UpdateActiveXComboBoxControl.java" >}}
+{{< app/cells/assistant language="java" >}}

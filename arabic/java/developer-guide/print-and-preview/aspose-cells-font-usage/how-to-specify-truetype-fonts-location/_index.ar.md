@@ -73,3 +73,4 @@ System.setProperty("Aspose.Cells.FontDirExc", "FontDirSet");
 - يجب أن يكون سلسلة "FontDirSet" هي المسار الكامل إلى المجلد الذي يحتوي على الخطوط المطلوبة.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

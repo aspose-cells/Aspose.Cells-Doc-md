@@ -164,3 +164,4 @@ fill.getSolidFill().setColor(Color.getBlue());
 代わりにShape.Fillプロパティを使用してください。
 ### **非推奨のFontSetting.ShapeFontプロパティ**
 代わりにFontSetting.TextOptionsプロパティを使用してください。
+{{< app/cells/assistant language="java" >}}

@@ -11,15 +11,15 @@ keywords: Java 将单元格索引转换为名称，使用 Java API 将单元格�
 ## **如何从行和列索引获取单元格名称**
 可以通过给定行和列索引来查找单元格的名称。 本文解释了如何操作。
 
-Aspose.Cells 提供了 [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) 方法，允许开发人员在提供行和列索引的情况下获取单元格的名称。
+Aspose.Cells提供了[CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName-int-int-)方法，可以让开发者通过行列索引获取单元格的名称。
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel 从 1 开始计算行和列索引。与 Microsoft Excel 不同，Aspose.Cells 从 0 开始计算行和列索引。
+Microsoft Excel从1开始计数行和列的索引。不同于Microsoft Excel，Aspose.Cells从0开始计数行和列的索引。
 
 {{% /alert %}} 
 
-以下示例代码说明如何使用 [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) 访问已知行和列索引处的单元格名称。该代码生成以下输出。
+以下示例代码演示如何使用[CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName-int-int-) 根据已知的行列索引获取单元格名称。代码输出如下：
 
 {{< highlight java >}}
 
@@ -37,15 +37,15 @@ Cell Name at [2, 2]: C3
 ## **如何从单元格名称获取行和列索引**
 可以从单元格名称中找到单元格的行和列索引。 本文解释了如何操作。
 
-Aspose.Cells提供了[CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\))方法，允许开发人员从单元格名称获取行和列索引。
+Aspose.Cells提供了[CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex-java.lang.String-)方法，可以从单元格名称获取对应的行列索引。
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel 从 1 开始计算行和列索引。与 Microsoft Excel 不同，Aspose.Cells 从 0 开始计算行和列索引。
+Microsoft Excel从1开始计数行和列的索引。不同于Microsoft Excel，Aspose.Cells从0开始计数行和列的索引。
 
 {{% /alert %}} 
 
-以下示例代码说明如何使用[CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\))获取单元格名称的行和列索引。代码生成以下输出。
+以下示例代码演示如何使用 [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex-java.lang.String-) 从单元格名称获取行和列索引。该代码生成如下输出。
 
 {{< highlight java >}}
 
@@ -72,3 +72,4 @@ Column Index of Cell C6: 2
 ` `<> + (adj.Private _ " Private"
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -18,3 +18,4 @@ Aspose.Cells for Java 允许将工作表输出为图像文件，因此制作缩�
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-GenerateThumbnailofWorksheet-1.java" >}}
+{{< app/cells/assistant language="java" >}}

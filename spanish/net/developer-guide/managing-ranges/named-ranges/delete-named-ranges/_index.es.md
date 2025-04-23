@@ -41,3 +41,4 @@ Algunos archivos de Excel se corrompen porque algunos nombres definidos son dupl
 
 
 
+{{< app/cells/assistant language="csharp" >}}

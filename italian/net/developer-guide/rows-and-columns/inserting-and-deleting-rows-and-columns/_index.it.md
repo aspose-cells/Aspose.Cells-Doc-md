@@ -76,3 +76,4 @@ Per eliminare più righe da un foglio di lavoro, chiamare il metodo [**DeleteRow
 Per eliminare una colonna dal foglio di lavoro in qualsiasi posizione, chiamare il metodo [**DeleteColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) della collezione [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). Il metodo [**DeleteColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) richiede l'indice della colonna da eliminare.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-DeletingAColumn-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -23,9 +23,10 @@ url: /fr/net/supported-file-formats/
 |[MHTML](https://docs.fileformat.com/web/mhtml/)|Fichier MHTML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)|ODS (Feuille de calcul OpenDocument).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |SpreadsheetML|Fichier XML Excel 2003.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Numbers](https://docs.fileformat.com/spreadsheet/numbers/)|Le document est créé par l'application "Numbers" d'Apple qui fait partie de la suite bureautique iWork d'Apple, un ensemble d'applications fonctionnant sur les systèmes d'exploitation Mac OS X et iOS.|{{< emoticons/tick >}}||
+|[Numbers](https://docs.fileformat.com/spreadsheet/numbers/)| Le document est créé par l'application "Numbers" d'Apple, qui fait partie de la suite bureautique iWork d'Apple, un ensemble d'applications fonctionnant sur macOS et iOS.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[JSON](https://docs.fileformat.com/web/json/)|Notation Objet JavaScript|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[DIF](https://docs.fileformat.com/spreadsheet/dif/)|Format d'Échange de Données.| |{{< emoticons/tick >}}|
+|[DIF](https://docs.fileformat.com/spreadsheet/dif/)| Format d'échange de données.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[DBF](https://docs.fileformat.com/database/dbf/)|Le fichier avec extension .dbf est un fichier de base de données utilisé par une application de gestion de base de données appelée dBASE.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[PDF](https://docs.fileformat.com/pdf/)|Format de Document Portable Adobe.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|Format de Spécification de Papier XML.| |{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|Format d'Image Vectorielle Évolutive.| |{{< emoticons/tick >}}|
@@ -45,4 +46,5 @@ url: /fr/net/supported-file-formats/
 |[Epub](https://docs.fileformat.com/ebook/epub/)|Les fichiers avec l'extension .epub sont un format de fichier de livre électronique qui fournit un format de publication numérique standard pour les éditeurs et les consommateurs.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Xml](https://docs.fileformat.com/web/xml/)|XML signifie Extensible Markup Language qui est similaire à HTML mais différent en utilisant des balises pour définir des objets.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Fichier de modèle de document ouvert (OTS).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW est un format de fichier de livre électronique développé par Amazon pour ses appareils Kindle. AZW3, également connu sous le nom de Kindle Format 8 (KF8).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW est un format de fichier de livre électronique numérique développé par Amazon pour ses appareils Kindle. AZW3, également appelé Kindle Format 8 (KF8).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< app/cells/assistant language="csharp" >}}

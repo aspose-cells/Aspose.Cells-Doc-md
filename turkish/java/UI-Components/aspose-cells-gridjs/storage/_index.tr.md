@@ -15,11 +15,11 @@ aliases:
 ## genel dosya işlemi 
 Bir elektronik tablo dosyası içe aktarıldıktan sonra,
 
-GridJs, **`Config.getFileCacheDirectory()`** klasöründe belirtilen uid ile bir önbellek dosyası oluşturacaktır ,
+GridJs, belirli uid ile önbellek dosyasını **`Config.getFileCacheDirectory()`** klasörüne oluşturacak ,
 
-[Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/java/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat") formatında olacaktır ,
+[Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/java/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat") formatında ,
 
-GridJs ayrıca tüm şekilleri/resimleri zip arşiv dosyasına kaydeder ve daha sonra şekilleri/resimleri istemci UI'da göstermek için **`Config.getPictureCacheDirectory()`** klasörüne kaydeder.
+GridJs ayrıca tüm şekil/resimleri **`Config.getPictureCacheDirectory()`** klasörüne zip arşiv dosyasına kaydeder, böylece client arayüzünde şekil/resim gösterimi yapılabilir.
 
 ve istemci arayüzünde her güncelleme işleminden sonra,
 
@@ -99,7 +99,7 @@ public class LocalFileCache extends GridCacheForStream {
 ```
 B. Eğer GridJsWorkbook.CacheImp'i ayarlamazsak,
 
-GridJs, **`Config.getFileCacheDirectory()`** klasörü içinde dosya oluşturacak ve saklayacak, bu varsayılan önbellek dizinidir ve ayarlayabileceğimiz önbellek dizinidir.
+GridJs, varsayılan önbellek dizini olan **`Config.getFileCacheDirectory()`** içerisinde dosya oluşturur ve kaydeder.
 
 ### güncellenmiş sonuç dosyasını nasıl alınır
 #### 1. dosya için belirtilen bir uid 
@@ -183,7 +183,7 @@ bu istemci arayüzü işlemlerini senkronize etmek için kaydetme işleminden ö
   //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
   wb.saveToCacheWithFileName(uid,filename,password);
 ```         
-#### 3. Önbellekten dosya URL'sini alın
+#### 3. önbellekten dosya URL'sini alın
 örneğin: indirme işlemi için, uid ile doğrudan önbellek dizininden alabilirsiniz.
 ```JAVA
 //in controller  

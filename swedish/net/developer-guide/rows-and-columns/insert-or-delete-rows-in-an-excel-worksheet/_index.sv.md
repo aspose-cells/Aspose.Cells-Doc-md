@@ -20,3 +20,4 @@ För att infoga eller ta bort ett antal rader rekommenderar vi alltid att du anv
 Aspose.Cells fungerar på samma sätt som Microsoft Excel gör. När rader eller kolumner läggs till skiftas innehållet i arbetsbladet nedåt och till höger. När rader eller kolumner tas bort skiftas innehållet i arbetsbladet uppåt eller till vänster. Alla referenser i andra arbetsblad och celler uppdateras när rader läggs till eller tas bort.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertDeleteRows-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

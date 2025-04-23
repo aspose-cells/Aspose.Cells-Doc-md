@@ -16,3 +16,4 @@ url: /ar/java/how-to-change-the-comment-font-color/
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ChangeCommentFontColor-1.java" >}}
 
 يتم إرفاق [ملف الإخراج](outputChangeCommentFontColor.xlsx) الذي تم إنشاؤه بواسطة الشفرة المرفقة لمراجعتك.
+{{< app/cells/assistant language="java" >}}

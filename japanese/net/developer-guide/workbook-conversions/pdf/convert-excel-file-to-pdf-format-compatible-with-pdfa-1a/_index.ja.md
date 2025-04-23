@@ -22,3 +22,4 @@ PDF/Aは、文書の長期保存のために設計されたPDFの特別な仕様
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToPDFA_1a.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

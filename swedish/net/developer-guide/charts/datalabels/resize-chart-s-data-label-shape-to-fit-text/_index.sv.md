@@ -22,3 +22,4 @@ Detta alternativ kan nås på Excel-gränssnittet genom att välja något av dat
 För att efterlikna Excels funktion att ändra datamärkesformen för att passa texten har Aspose.Cells API: er exponerat egenskapen av booleskt typ [**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext). Följande kod visar det enkla användningsscenario av [**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ResizeChartDataLabelToFit-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

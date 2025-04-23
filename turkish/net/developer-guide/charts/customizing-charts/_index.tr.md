@@ -26,3 +26,4 @@ Aşağıdaki örnek kod, özel grafikler nasıl oluşturulurunu göstermektedir.
 Şu anda Aspose.Cells yalnızca pasta, çizgi, sütun ve sütun yığılmış grafikleri birleştiren özel grafikleri desteklemektedir, ancak gelecekte daha fazla grafik desteklenecektir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -18,3 +18,4 @@ url: /tr/net/specify-job-or-document-name-while-printing-with-aspose-cells/
 ## Örnek Kod
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-SpecifyJobWhilePrinting-SpecifyJobNameWhilePrinting.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

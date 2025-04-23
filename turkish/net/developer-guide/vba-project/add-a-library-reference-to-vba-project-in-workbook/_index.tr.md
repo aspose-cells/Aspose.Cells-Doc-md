@@ -20,3 +20,4 @@ Microsoft Excel'de, **Araçlar > Başvurular...** seçeneklerine tıklayarak VBA
 Aşağıdaki örnek kod, [**VbaProject.References.AddRegisteredReference()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaprojectreferencecollection/methods/addregisteredreference) yöntemini kullanarak çalışma kitabının VBA projesine iki kütüphane başvurusu ekler veya kaydeder.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddLibraryReferenceToVbaProject-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -57,3 +57,4 @@ Ein vollständiges Beispiel unten zeigt, wie die Eigenschaft [**IsRowColumnHeade
 Es ist auch möglich, die [**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) und [**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns) Methoden der [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Klasse zu verwenden, um mehrere Zeilen und Spalten sichtbar zu machen.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

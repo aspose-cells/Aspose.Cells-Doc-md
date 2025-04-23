@@ -16,3 +16,4 @@ La clase [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.ce
 Cuando use la función de hoja a imagen, la imagen de salida tendrá espacio blanco/vacío, es decir, un borde, alrededor de ella de forma predeterminada. Puede eliminar esto. Configure los márgenes de configuración de página superior, izquierda, inferior y derecha para la hoja de cálculo de origen en 0 y especifique [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) en consecuencia.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-RemoveWhitespaceAroundData-1.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -10,3 +10,4 @@ Denna avsnitt inkluderar följande ämnen
 - [Konvertera diagram till bilder](/cells/sv/net/convert-charts-to-images/)
 - [Skriva ut kalkylblad](/cells/sv/net/print-spreadsheets/)
 - [Ange bildupplösning, kvalitet, komprimering och andra alternativ](/cells/sv/net/specify-image-resolution-quality-compression-and-other-options/)
+{{< app/cells/assistant language="csharp" >}}

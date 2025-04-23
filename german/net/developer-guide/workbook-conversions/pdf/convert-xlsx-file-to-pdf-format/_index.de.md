@@ -49,3 +49,4 @@ Die folgenden Screenshots zeigen die PDF-Seiten. Beachten Sie, dass Kopf- und Fu
 |Das erste Arbeitsblatt **(Umsatzprognose)**|Das zweite Arbeitsblatt **(Verkaufsbericht)**|
 |![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted3.png)|![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted4.png)|
 |Das dritte Arbeitsblatt **(Dateneingabe)**|Das letzte Arbeitsblatt **(Bild)**|
+{{< app/cells/assistant language="csharp" >}}

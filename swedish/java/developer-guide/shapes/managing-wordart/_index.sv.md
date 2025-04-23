@@ -29,3 +29,4 @@ Efter att ha kört koden innehåller utdatafilen en blekröd WordArt-vattenstäm
 - [Lägg till WordArt-vattenstämpel på diagram](/cells/sv/java/add-wordart-watermark-to-chart/)
 - [Låsa WordArt vattenstämpel](/cells/sv/java/locking-wordart-watermark/)
 - [Ange förvald WordArt-stil för texten på formen](/cells/sv/java/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="java" >}}

@@ -49,3 +49,4 @@ Console.WriteLine("Name of the cell containing String: " + cell.Name);
 詳細については、[データの検索](/cells/ja/net/find-or-search-data/)をご覧ください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

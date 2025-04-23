@@ -33,3 +33,4 @@ url: /zh/net/smart-markers-feature/
 - copystyle - 将基本单元格的样式复制到该列中的所有单元格。
 
 参数noadd和skip可以组合在一起，以在交替行插入数据。由于模板是从下往上处理的，因此应在第一行添加noadd以避免在交替行之前插入额外行。
+{{< app/cells/assistant language="csharp" >}}

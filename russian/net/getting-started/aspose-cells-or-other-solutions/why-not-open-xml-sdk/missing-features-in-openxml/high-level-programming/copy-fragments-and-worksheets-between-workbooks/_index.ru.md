@@ -23,3 +23,4 @@ Aspose.Cells поддерживает копирование и перемеще
 - [Копировать листы между рабочими книгами](/cells/ru/net/copy-worksheets-between-workbooks/)
 - [Копировать листы в рамках рабочей книги](/cells/ru/net/copy-worksheets-within-a-workbook/)
 - [Перемещение листов в рамках рабочей книги](/cells/ru/net/move-worksheets-within-workbook/)
+{{< app/cells/assistant language="csharp" >}}

@@ -5,3 +5,4 @@ type: docs
 weight: 60
 url: /fr/java/styling-and-data-formatting/
 ---
+{{< app/cells/assistant language="java" >}}

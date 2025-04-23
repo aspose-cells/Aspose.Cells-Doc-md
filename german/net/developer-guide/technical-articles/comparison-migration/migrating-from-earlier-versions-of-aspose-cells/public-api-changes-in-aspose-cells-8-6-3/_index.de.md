@@ -166,3 +166,4 @@ var book = new Workbook(inputFilePath, loadOptions);
 Als Alternative zur Worksheet.CopyConditionalFormatting-Methode wird empfohlen, eine der Cells.CopyRows- oder Range.Copy-Methoden zu verwenden.
 ### **Veraltete Cells.End Property**
 Bitte verwenden Sie die Cells.LastCell-Eigenschaft als Alternative zur Cells.End-Eigenschaft.
+{{< app/cells/assistant language="csharp" >}}

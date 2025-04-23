@@ -20,3 +20,4 @@ url: /ar/java/set-default-font-while-rendering-spreadsheet-to/
 الكود يولد [ملف HTML الناتج بـ Courier New](5472568)، [ملف HTML الناتج بـ Arial](5472567) و [ملف HTML الناتج بـ Times New Roman](5472565).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToHTML-.java" >}}
+{{< app/cells/assistant language="java" >}}

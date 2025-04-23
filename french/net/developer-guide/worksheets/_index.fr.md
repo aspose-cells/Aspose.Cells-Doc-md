@@ -87,3 +87,4 @@ L'exemple suivant montre comment activer une feuille de calcul et mettre en avan
 - [Utiliser la propriété Sheet.SheetId d'OpenXml en utilisant Aspose.Cells](/cells/fr/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [Vues de Feuille de calcul](/cells/fr/net/worksheet-views/)
 
+{{< app/cells/assistant language="csharp" >}}

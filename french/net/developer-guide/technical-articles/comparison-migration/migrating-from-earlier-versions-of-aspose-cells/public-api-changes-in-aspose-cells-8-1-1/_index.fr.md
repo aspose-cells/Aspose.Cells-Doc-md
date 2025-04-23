@@ -31,3 +31,4 @@ Un scénario est un modèle de simulation qui inclut des cellules d'entrée vari
 Veuillez consulter l'article détaillé sur [Comment créer, manipuler ou supprimer des scénarios à partir de feuilles de calcul](/cells/fr/net/create-manipulate-or-remove-scenarios-from-worksheets/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

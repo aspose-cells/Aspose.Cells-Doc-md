@@ -45,7 +45,7 @@ Bu örnekte, Ubuntu kullanarak Linux'ta Aspose.Cells nasıl kullanılacağını 
 2. "AsposeCellsTest.csproj" dosyasını açın, Aspose.Cells paket referansları için aşağıdaki satırları ekleyin:
 {{< highlight plain >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="24.7" />
+    <PackageReference Include="Aspose.Cells" Version="25.4" />
   </ItemGroup>
 {{< /highlight >}}
 3. Ubuntu'da projeyi VSCode ile açın:
@@ -103,3 +103,4 @@ Aşağıdaki örnek, sıfırdan yeni bir çalışma kitabı oluşturur, ilk çal
 Aşağıdaki örnek, mevcut bir Microsoft Excel şablon dosyasını açar, ilk çalışma sayfasındaki A1 hücresine "Merhaba Dünya!" ekler ve Excel dosyası olarak kaydeder.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

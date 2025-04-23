@@ -20,3 +20,4 @@ url: /zh/net/copy-range-style-only/
 1. 将第一个范围的格式复制到第二个范围。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeStyleOnly-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

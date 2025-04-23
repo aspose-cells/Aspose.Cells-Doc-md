@@ -12,3 +12,4 @@ keywords: 範囲内のハイパーリンクを取得、選択した範囲内の�
 [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range)クラスは、選択した範囲のすべてのハイパーリンクを返す[**Hyperlinks**](https://reference.aspose.com/cells/net/aspose.cells/range/properties/hyperlinks)プロパティを提供します。また、[**Hyperlink.Delete**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/methods/delete)メソッドを呼び出すことでハイパーリンクを削除することもできます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-GetHyperlinksInRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

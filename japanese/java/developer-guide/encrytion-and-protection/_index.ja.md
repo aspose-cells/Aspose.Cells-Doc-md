@@ -33,3 +33,4 @@ Aspose.Cells for Javaでは、MS Excelをはじめとする、ファイルから
 - [ファイル形式を検出し、ファイルが暗号化されているかどうかを確認する方法](/cells/ja/java/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
 
 
+{{< app/cells/assistant language="java" >}}

@@ -22,3 +22,4 @@ Aspose.Cellsを使用すると、ワークブックオブジェクト内に文�
 - [Aspose.CellsでカスタムXMLパーツを使用する](/cells/ja/net/use-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

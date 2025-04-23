@@ -30,3 +30,4 @@ Il seguente codice di esempio carica il [file Excel di esempio](64716820.xlsx) c
 Worksheet is a Dialog Sheet.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

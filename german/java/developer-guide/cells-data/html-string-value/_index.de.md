@@ -28,3 +28,4 @@ Dies ist der Beispielcode, der die oben gezeigte Ausgabedatei in Excel generiert
 - [Listenpunkte anzeigen, indem Sie den Zellenwert mit HTML einstellen](/cells/de/java/display-bullets-by-setting-cell-value-using/)
 - [Holen Sie sich HTML5-String aus der Zelle](/cells/de/java/get-html5-string-from-cell/)
 
+{{< app/cells/assistant language="java" >}}

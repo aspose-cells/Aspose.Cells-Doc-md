@@ -51,3 +51,4 @@ alias: [/net/set-chinese-configuration-for-chart/]
 |Имя общей легенды|汇总|Общее|
 |Другое имя|其他|Другое|
 |Имя серии|系列|Серия|
+{{< app/cells/assistant language="csharp" >}}

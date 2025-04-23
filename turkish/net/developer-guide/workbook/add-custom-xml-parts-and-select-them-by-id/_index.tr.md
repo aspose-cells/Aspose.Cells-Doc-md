@@ -24,3 +24,4 @@ Aşağıdaki örnek kod önce [**Workbook.CustomXmlParts.Add()**](https://refere
  Found: CustomXmlPart ID Sport
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

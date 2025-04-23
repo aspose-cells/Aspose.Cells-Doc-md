@@ -18,3 +18,4 @@ El siguiente código de ejemplo crea un libro y cambia su propiedad integrada de
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DocumentProperties-SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

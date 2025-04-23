@@ -27,3 +27,4 @@ För att kryptera en ODS-fil, ladda in filen och ställ in [**WorkbookSettings.P
 För att dekryptera en ODS-fil, ladda in filen genom att ange ett lösenord i [**LoadOptions.Password**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/password). När filen har laddats, ställ in strängen för [**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) till null.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-DecryptingODSFiles-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

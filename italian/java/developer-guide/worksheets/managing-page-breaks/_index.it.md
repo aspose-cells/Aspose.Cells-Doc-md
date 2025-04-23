@@ -51,6 +51,7 @@ Per rimuovere una specifica interruzione di pagina nel foglio di lavoro, chiamar
 
 {{% alert color="primary" %}}
 
-**Importante sapere**: Quando si impostano le proprietà di adattamento alla pagina (cioè [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) e [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide)) nelle impostazioni di impostazione pagina, le impostazioni di interruzione di pagina vengono influenzate, quindi se si stampa il foglio di lavoro, le impostazioni di interruzione di pagina non sono considerate anche se esistono comunque nel file.
+**Importante da sapere**: Quando si impostano le proprietà di adattamento alla pagina (cioè [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) e [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide-) nelle impostazioni di configurazione della pagina), le impostazioni di interruzione pagina sono influenzate, quindi, se si stampa il foglio di lavoro, le impostazioni di interruzione pagina non saranno considerate anche se esistono ancora nel file.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

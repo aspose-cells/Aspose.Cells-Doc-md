@@ -3,8 +3,8 @@ title: ضبط خيارات الصفحة
 type: docs
 weight: 10
 url: /ar/python-net/setting-page-options/
-description: يوفر هذا المقال الشيفرة المثالية لضبط خيارات الصفحة لورقات العمل في Excel برمجيًا باستخدام واجهة برمجة التطبيقات لـ Aspose.Cells لـ Python via .NET. ستتمكن من ضبط توجيه الصفحة، عامل التدرج، خيارات FitToPages، حجم الورقة، جودة الطباعة، رقم الصفحة الأولى.
-keywords: مكتبة بايثون لإكسل, تعيين توجيه صفحة إكسل باستخدام بايثون, تعيين عامل تصغير إكسل باستخدام بايثون, تعيين حجم ورق صفحات إكسل بواسطة بايثون, كيفية تعيين توجيه الصفحة بايثون, كيفية تعيين عامل التصغير بايثون, كيفية تعيين خيارات الصفحات المناسبة بايثون, كيفية تعيين حجم الورق بايثون, كيفية تعيين جودة الطباعة بايثون, كيفية تعيين رقم الصفحة الأولى بايثون.
+description: تقدم هذه المقالة رمزًا نموذجيًا لضبط خيارات الصفحة لأوراق عمل إكسل برمجيًا باستخدام واجهة برمجة تطبيقات Aspose.Cells لـ Python via .NET. ستتمكن من تعيين الاتجاه الصفحة، عامل التحجيم، خيارات التناسب مع الصفحات، حجم الورق، جودة الطباعة، رقم الصفحة الأولى.
+keywords: مكتبة إكسل في بايثون، تعيين اتجاه صفحة إكسل، تعيين عامل التحجيم باستخدام بايثون، تعيين حجم صفحة ورقة العمل في إكسل عبر بايثون، كيف تعيين اتجاه الصفحة في إكسل باستخدام بايثون، كيف تعيين عامل التحجيم، كيف تعيين خيارات التناسب مع الصفحات، كيف تعيين حجم الورق، كيف تعيين جودة الطباعة، كيف تعيين رقم الصفحة الأولى.
 ---
 
 {{% alert color="primary" %}}
@@ -15,36 +15,36 @@ keywords: مكتبة بايثون لإكسل, تعيين توجيه صفحة إ�
 
 ## **كيفية تعيين خيارات الصفحة**
 
-تتم دعم خيارات إعداد الصفحة بالكامل في Aspose.Cells لبايثون via .NET. يشرح هذا المقال كيفية تعيين خيارات الصفحة باستخدام Aspose.Cells لبايثون via .NET ويظهر أمثلة لتعيين الأكواد: 
+خيارات إعداد الصفحة مدعومة بالكامل في Aspose.Cells لـ Python via .NET. تشرح هذه المقالة كيفية تعيين خيارات الصفحة باستخدام Aspose.Cells لـ Python via .NET وتعرض نماذج من الشيفرة لضبط:
 
-توفر Aspose.Cells لبايثون via .NET فئة, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), التي تمثل ملف إكسل لشركة مايكروسوفت. تحتوي فئة [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) على مجموعة [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) التي تسمح بالوصول إلى كل ورقة عمل في ملف إكسل. تمثل ورقة عمل بالفئة [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet).
+يوفر Aspose.Cells for Python via .NET فئة تسمى [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) تمثل ملف إكسل من Microsoft Excel. تحتوي فئة [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) على مجموعة [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) التي تتيح الوصول إلى كل ورقة عمل داخل الملف. تمثل ورقة العمل بواسطة فئة [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet).
 
 توفر الفئة [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) الخاصية [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) التي تُستخدم لضبط خيارات إعداد صفحة الورقة العمل. في الواقع، تكون هذه الخاصية [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) كائن من فئة [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) المستخدمة لتعيين خيارات تخطيط الصفحة المختلفة لورقة عمل مُطبوعة. توفر فئة [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) خصائص مختلفة تُستخدم لضبط خيارات إعداد الصفحة. يتم مناقشة بعض هذه الخصائص أدناه.
 
-## **كيفية تعيين توجيه الصفحة**
+## **كيفية تعيين اتجاه الصفحة**
 
 يمكن تعيين توجيه الصفحة إما عموديًا أو أفقيًا باستخدام الخاصية [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) من الفئة [**orientation**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/orientation). تقبل الخاصية [**orientation**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/orientation) واحدًا من القيم المحددة مسبقًا في تعداد [**PageOrientationType**](https://reference.aspose.com/cells/python-net/aspose.cells/pageorientationtype) المُدرجة أدناه.
 
 |**أنواع توجيه الصفحة**|**الوصف**|
 | :- | :- |
-|LANDSCAPE|توجيه أفقي|
-|PORTRAIT|توجيه عمودي|
+|LANDSCAPE|اتجاه افقي|
+|PORTRAIT|اتجاه عمودي|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-PageOrientation-1.py" >}}
 
-## **كيفية تعيين عامل التصغير**
+## **كيفية تعيين عامل التحجيم**
 
 من الممكن تصغير أو تكبير حجم ورقة العمل عن طريق ضبط عامل التحجيم باستخدام الخاصية [**PageSetup.zoom**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/zoom).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-ScalingFactor-1.py" >}}
 
-## **كيفية تعيين خيارات مناسبة للصفحات**
+## **كيفية تعيين خيارات التناسب مع الصفحات**
 
 لتناسب محتويات ورقة العمل إلى عدد معين من الصفحات، استخدم الخاصية [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) و [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/) من فئة [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/). يُستخدم هذه الخصائص أيضًا لتحجيم ورقات العمل.
 
 {{% alert color="primary" %}}
 
-يمكنك اختيار الخصائص [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/) و [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/) أو الخاصية [**zoom**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/zoom) ولكن لا تستطيع اختيارهم معًا في نفس الوقت.
+يمكنك إما اختيار الخاصية [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/) و[**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/) أو الخاصية [**zoom**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/zoom) ولكن ليس كلاهما في نفس الوقت.
 
 {{% /alert %}}
 

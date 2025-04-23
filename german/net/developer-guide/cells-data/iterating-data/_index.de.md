@@ -83,3 +83,4 @@ Basierend auf den oben genannten Fakten sind die folgenden möglichen Szenarien,
 1. Nur Lesezugriff auf die Zellsammlung erforderlich ist, d.h. die Anforderung besteht darin, nur die Zellen zu inspizieren.
 1. Eine große Anzahl von Zellen muss durchlaufen werden.
 1. Nur initialisierte Zellen/Zeilen/Spalten müssen durchlaufen werden.
+{{< app/cells/assistant language="csharp" >}}

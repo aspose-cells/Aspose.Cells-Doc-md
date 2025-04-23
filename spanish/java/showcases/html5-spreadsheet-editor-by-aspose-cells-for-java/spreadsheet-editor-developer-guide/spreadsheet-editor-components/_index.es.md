@@ -46,3 +46,4 @@ Es responsable de limpiar todos los recursos adquiridos cuando ya no son necesar
 Crea instancias de la hoja de cálculo y las mantiene en memoria mientras son necesarias.
 ### **CellsService**
 El **CellsService** gestiona la caché de filas, columnas, celdas, formato y estructura de las hojas de cálculo.
+{{< app/cells/assistant language="java" >}}

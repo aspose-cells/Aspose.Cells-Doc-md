@@ -190,3 +190,4 @@ Aspose.Cells は Microsoft Excel ファイルを表す [**Workbook**](https://re
 ワークシートのページ番号の設定を開始するには、[**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) クラスの [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) プロパティを使用します。[**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) プロパティは最初のワークシートページのページ番号を設定し、次のページは昇順で番号付けされます。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetFirstPageNumber-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

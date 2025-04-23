@@ -110,3 +110,4 @@ Sur la base des faits mentionnés ci-dessus, voici les scénarios possibles où 
 1. L'accès en lecture seule à la collection de cellules est requis, c'est-à-dire; la seule exigence est d'inspecter les cellules.
 1. Un grand nombre de cellules doit être parcouru.
 1. Seules les cellules/rangées/colonnes initialisées doivent être parcourues.
+{{< app/cells/assistant language="java" >}}

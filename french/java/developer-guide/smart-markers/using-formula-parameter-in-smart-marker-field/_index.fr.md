@@ -11,3 +11,4 @@ Parfois, vous voulez intégrer une formule dans le champ smart marker. Cet artic
 Le code d'exemple suivant intègre la formule dans la variable de smart marker nommée Test et son nom de source de données est également Test, donc le champ complet avec le paramètre de formule ressemble à **&=$Test(fomule)** et après l'exécution du code, le [fichier Excel de sortie final](47153156.xlsx) aura des formules dans les cellules de A1 à A5.
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-SmartMarkers-UsingFormulaParameterInSmartMarkerField.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -26,7 +26,7 @@ Aspose.Cells提供了一个表示Excel文件的类，[**Workbook**](https://refe
 
 ## **向新的Excel文件添加工作表**
 
-要通过编程方式创建一个新的Excel文件，开发人员需要创建一个代表Excel文件的[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类的对象。然后开发人员可以调用[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)的[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--)方法。当调用[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--)方法时，一个空工作表会自动添加到Excel文件中，可以通过将新添加的工作表的索引传递给[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)来引用该工作表。获取工作表引用后，开发人员可以根据自己的需求处理工作表。在对工作表完成操作后，开发人员可以通过调用[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类的[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))方法保存具有新工作表的新创建的Excel文件。
+要通过编程方式创建一个新的Excel文件，开发人员需要创建一个代表Excel文件的[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类的对象。然后开发人员可以调用[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)的[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--)方法。当调用[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--)方法时，一个空工作表会自动添加到Excel文件中，可以通过将新添加的工作表的索引传递给[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)来引用该工作表。获取工作表引用后，开发人员可以根据自己的需求处理工作表。在对工作表完成操作后，开发人员可以通过调用[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类的[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-)方法保存具有新工作表的新创建的Excel文件。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AddingWorksheetstoNewExcelFile-AddingWorksheetstoNewExcelFile.java" >}}
 
@@ -44,7 +44,7 @@ Aspose.Cells提供了一个表示Excel文件的类，[**Workbook**](https://refe
 
 ## **使用工作表名称移除工作表**
 
-有时，开发人员可能需要从现有的Excel文件中移除工作表，这可以通过调用[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)集合的[**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String))方法来完成。我们可以将工作表名称传递给[**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String))方法以移除特定工作表。
+有时，开发人员可能需要从现有的Excel文件中移除工作表，这可以通过调用[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)集合的[**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-java.lang.String-)方法来完成。我们可以将工作表名称传递给[**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-java.lang.String-)方法以移除特定工作表。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetName-RemovingWorksheetsusingSheetName.java" >}}
 
@@ -52,7 +52,7 @@ Aspose.Cells提供了一个表示Excel文件的类，[**Workbook**](https://refe
 
 如果开发人员已经知道要删除的工作表的工作表名称，则上述移除工作表的方法效果良好。但是，如果您不知道要从 Excel 文件中删除的工作表的工作表名称，该怎么办呢？
 
-在这种情况下，开发人员可以使用[**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(int))方法的重载版本，该版本使用工作表的索引而不是工作表的名称。
+在这种情况下，开发人员可以使用[**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-int-)方法的重载版本，该版本使用工作表的索引而不是工作表的名称。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetIndex-RemovingWorksheetsusingSheetIndex.java" >}}
 
@@ -72,3 +72,4 @@ Aspose.Cells提供了一个表示Excel文件的类，[**Workbook**](https://refe
 - [使用 Aspose.Cells 利用 OpenXml 的 Sheet.SheetId 属性](/cells/zh/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [在ODS文件中处理背景](/cells/zh/java/working-with-background-in-ods-files/)
 - [工作表视图](/cells/zh/java/worksheet-views/)
+{{< app/cells/assistant language="java" >}}

@@ -23,7 +23,7 @@ Il existe deux options pour ajouter des formules aux autres cellules (B3, B4, B5
 
 Faites ce que vous avez fait pour la première cellule, en définissant efficacement la formule pour chaque cellule, en mettant à jour la référence de cellule en conséquence (`A3*0.09`, `A4*0.09`, `A5*0.09` et ainsi de suite). Cela nécessite la mise à jour des références de cellule pour chaque ligne. Cela nécessite également à Aspose.Cells de parser chaque formule individuellement, ce qui peut être chronophage pour les feuilles de calcul volumineuses et les formules complexes. Cela ajoute également des lignes de code supplémentaires, bien que des boucles puissent les réduire quelque peu.
 
-Une autre approche consiste à utiliser une **formule partagée**. Avec une formule partagée, les formules sont automatiquement mises à jour pour les références de cellules dans chaque ligne afin que la taxe soit calculée correctement. La méthode [Cell.setSharedFormula](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setSharedFormula\(java.lang.String,%20int,%20int\)) est plus efficace que la première méthode.
+Une autre approche consiste à utiliser une **formule partagée**. Avec une formule partagée, les formules sont automatiquement mises à jour pour les références de cellules dans chaque ligne afin que la taxe soit calculée correctement. La méthode [Cell.setSharedFormula](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setSharedFormula-java.lang.String-int-int-) est plus efficace que la première méthode.
 
 L'exemple suivant démontre comment l'utiliser. La capture d'écran ci-dessous montre le fichier de sortie.
 
@@ -32,3 +32,4 @@ L'exemple suivant démontre comment l'utiliser. La capture d'écran ci-dessous m
 ![todo:image_alt_text](setting-shared-formula_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingSharedFormula-SettingSharedFormula.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -9,7 +9,7 @@ keywords: テーブルを作成し、範囲をテーブルに変換する、範�
 
 {{% alert color="primary" %}}
 
-時には、持っているセルのアドレスに基づいて**範囲**/**セル領域**に境界線を追加してテーブルを作成したい時があります。[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean))メソッドを使用してセルの範囲を作成することができます。[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean))メソッドは[**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)オブジェクトを返します。[**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style)オブジェクトを作成し、ボーダー（上、左、下、右）のオプションを指定します。後で、[**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)のセルを取得し、セルに所望の書式を適用することができます。
+時には、持っているセルのアドレスに基づいて**範囲**/**セル領域**に境界線を追加してテーブルを作成したい時があります。[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-)メソッドを使用してセルの範囲を作成することができます。[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-)メソッドは[**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)オブジェクトを返します。[**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style)オブジェクトを作成し、ボーダー（上、左、下、右）のオプションを指定します。後で、[**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)のセルを取得し、セルに所望の書式を適用することができます。
 
 {{% /alert %}}
 
@@ -20,3 +20,4 @@ keywords: テーブルを作成し、範囲をテーブルに変換する、範�
 上記のコードを実行すると、書式付きのテーブルを含む生成されたExcelファイルを取得できます。ファイルのスクリーンショットは以下の通りです。
 
 ![todo:image_alt_text](create-table-by-using-border-lines-for-a-range_1.png)
+{{< app/cells/assistant language="java" >}}

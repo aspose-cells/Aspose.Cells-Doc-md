@@ -33,3 +33,4 @@ url: /fr/net/display-string-in-worksheet-cell/
 {{< /highlight >}}
 ## **Télécharger**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DisplayStringInCell.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

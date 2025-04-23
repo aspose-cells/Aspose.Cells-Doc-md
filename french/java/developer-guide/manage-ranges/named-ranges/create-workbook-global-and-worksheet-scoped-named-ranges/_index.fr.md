@@ -25,3 +25,4 @@ Les extraits de code suivants montrent comment créer des plages nommées au niv
 ## **Ajout d'une plage nommée avec une portée de feuille de calcul**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddNamedRangeWithWorksheetScope-AddNamedRangeWithWorkbookScope.java" >}}
+{{< app/cells/assistant language="java" >}}

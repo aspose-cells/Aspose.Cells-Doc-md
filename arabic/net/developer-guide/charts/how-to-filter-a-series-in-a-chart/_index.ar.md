@@ -14,9 +14,9 @@ url: /ar/net/filtering-charts-in-excel/
 ### **خطوات تصفية السلاسل من رسم بياني في إكسل**
 في إكسل، يمكننا تصفية سلاسل محددة من رسم بياني، مما يؤدي إلى عدم عرض تلك السلاسل المصفية في الرسم البياني. يُعرض الرسم البياني الأصلي في **الشكل 1**. ومع ذلك، عندما نقوم بتصفية **Testseries2** و **Testseries4**، سيظهر الرسم البياني كما هو مبين في **الشكل 2**.
 
-في Aspose.Cells، يمكننا القيام بعملية مماثلة. لملف [نموذجي](seriesFiltered.xlsx) مثل هذا، إذا أردنا تصفية **Testseries2** و **Testseries4**، يمكننا تنفيذ الكود التالي. بالإضافة إلى ذلك، سنحتفظ بقائمتين: قائمة ([NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/)) لتخزين جميع السلاسل المحددة وقائمة أخرى ([FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filteredSeries/)) لتخزين السلاسل المصفاة.
+في Aspose.Cells، يمكننا إجراء عملية مماثلة. لملف [نموذج](seriesFiltered.xlsx) كهذا، إذا أردنا تصفية **Testseries2** و **Testseries4**، يمكننا تنفيذ الكود التالي. بالإضافة إلى ذلك، سنحتفظ بقائمتين: واحدة ([NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/)) لتخزين جميع السلاسل المختارة وأخرى ([FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filterednseries/)) لتخزين السلاسل المصفاة.
 
-يرجى **ملاحظة** أن عند تعيين **chart.NSeries[0].IsFiltered = true;** في الشفرة، سيتم إزالة السلسلة الأولى في [NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/) ووضعها في الموضع المناسب داخل [FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filteredSeries/). بعد ذلك، ستصبح السلسلة السابقة **NSeries[1]** العنصر الأول الجديد في القائمة، وسيتم نقل جميع السلاسل التالية للأمام بموقع واحد. وهذا يعني أنه إذا قمنا بتشغيل **chart.NSeries[1].IsFiltered = true;** سنقوم بفعالية إزالة السلسلة الثالثة الأصلية. قد يؤدي هذا في بعض الأحيان إلى الارتباك، لذا نوصي بمتابعة العملية في الشفرة، والتي تقوم بحذف السلسلات من النهاية إلى البداية.
+يرجى **ملاحظة** أنه في الكود، عندما نضبط **chart.NSeries[0].IsFiltered = true;**، ستُزال السلسلة الأولى في [NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/) وتوضع في الموضع المناسب ضمن [FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filterednseries/). بعد ذلك، سيصبح **NSeries[1]** القديم العنصر الأول في القائمة، وستتحرك جميع السلاسل التالية إلى الأمام بموقع واحد. هذا يعني أنه إذا قمنا بعد ذلك بتشغيل **chart.NSeries[1].IsFiltered = true;**، فإننا نقوم فعليًا بإزالة السلسلة الثالثة الأصلية. يمكن أن يسبب ذلك أحيانًا لبس، لذلك نوصي باتباع العملية في الكود، التي تحذف السلاسل من النهاية إلى البداية.
 
 ![todo:image_alt_text](Figure1.png)
 
@@ -59,3 +59,4 @@ url: /ar/net/filtering-charts-in-excel/
 يظهر الشفرة العينية التالية تحميل [ملف إكسل عيني](TableFilters.xlsx) يظهر نفس الميزة باستخدام Aspsoe.Cells.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "TableFilters.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

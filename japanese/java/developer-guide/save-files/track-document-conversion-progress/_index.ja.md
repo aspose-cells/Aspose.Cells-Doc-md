@@ -7,7 +7,7 @@ url: /ja/java/track-document-conversion-progress/
 
 ## **可能な使用シナリオ**
 
-大きなExcelファイルを変換するときは時間がかかることがあります。この間、アプリケーションの使いやすさを向上させるために、単なるローディング画面ではなく文書変換の進行状況を表示したいと思うかもしれません。Aspose.Cellsは、[**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) インターフェースを提供することで文書変換の進行状況を追跡できます。[**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) インターフェースは、カスタムクラスで実装することができる [**PageStartSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs)) と [**PageEndSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs)) のメソッドを提供します。また、*TestPageSavingCallback* カスタムクラスで示されているように、どのページをレンダリングするかを制御することもできます。
+大きなExcelファイルを変換するときは時間がかかることがあります。この間、アプリケーションの使いやすさを向上させるために、単なるローディング画面ではなく文書変換の進行状況を表示したいと思うかもしれません。Aspose.Cellsは、[**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) インターフェースを提供することで文書変換の進行状況を追跡できます。[**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) インターフェースは、カスタムクラスで実装することができる [**PageStartSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving-com.aspose.cells.PageStartSavingArgs-) と [**PageEndSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving-com.aspose.cells.PageEndSavingArgs-) のメソッドを提供します。また、*TestPageSavingCallback* カスタムクラスで示されているように、どのページをレンダリングするかを制御することもできます。
 
 ## **文書変換の進行状況を追跡する**
 
@@ -45,3 +45,4 @@ Start saving page index 8 of pages 11</br>
 End saving page index 8 of pages 11
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -33,3 +33,4 @@ Aspose.Cells stöder både 32-bitars och 64-bitars miljöer. När du installerar
 I VS.NET (till exempel 2005, 2008, 2010, 2012 etc.) projekt, när du lägger till en referens till Aspose.Cells, hänvisar Lägg till referensdialog till Aspose.Cells.dll-filerna i mappen net2.0 eller net3.5. (För ytterligare referens, läs Referencing Aspose.Cells from a .NET project.) Du kan ändra referensen till biblioteket enligt din miljö. Observera om projektets målramverk är .NET Framework 3.5/4 -klientprofil, använd Aspose.Cells.dll-komponentfilen som finns i net_ClientProfile-mappen.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

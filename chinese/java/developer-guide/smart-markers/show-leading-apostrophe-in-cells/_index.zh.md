@@ -26,3 +26,4 @@ url: /zh/java/show-leading-apostrophe-in-cells/
 *DataObject*类的实现如下
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HelperClasses-DataObject-1.java" >}}
+{{< app/cells/assistant language="java" >}}

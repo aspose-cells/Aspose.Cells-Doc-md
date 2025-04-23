@@ -2,7 +2,9 @@
 title: Использование функции ICustomFunction
 type: docs
 weight: 890
-url: /ru/java/using-icustomfunction-feature/
+url: /ru/java/how-to-calculate-custom-fuctions/
+description: Эта статья описывает, как создать пользовательскую функцию в Microsoft Excel с использованием функции ICustomFunction в библиотеке Aspose.Cells. Загрузив существующий файл Excel или создав новый файл Excel, мы можем использовать методы, предоставленные Aspose.Cells, для определения и регистрации пользовательских функций и получения результатов. Наконец, мы сохраняем измененный файл Excel на диск.
+keywords: Aspose.Cells, Excel, функцииICustomFunction, пользовательские функции, как вычислить пользовательские функции.
 ---
 
 {{% alert color="primary" %}} 
@@ -203,3 +205,4 @@ API Aspose.Cells просто помещает объект ReferredArea в «pa
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -34,3 +34,4 @@ Microsoft Excel(97-2007/2010)可以对电子表格进行加密和密码保护。
 下面的代码示例在文件上应用了强加密并设置了密码。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ApplyingEncryption-ApplyingEncryption.java" >}}
+{{< app/cells/assistant language="java" >}}

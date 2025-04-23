@@ -28,3 +28,4 @@ Il codice di esempio seguente carica il [file Excel di origine](5472520.xlsx) e 
 
 
 
+{{< app/cells/assistant language="java" >}}

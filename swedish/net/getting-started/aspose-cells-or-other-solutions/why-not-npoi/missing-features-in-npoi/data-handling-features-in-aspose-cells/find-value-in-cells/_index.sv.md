@@ -49,3 +49,4 @@ Ladda ner **Hitta värde i celler** från någon av nedan nämnda sociala kodnin
 För mer information, besök [Hitta eller sök data](/cells/sv/net/find-or-search-data/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

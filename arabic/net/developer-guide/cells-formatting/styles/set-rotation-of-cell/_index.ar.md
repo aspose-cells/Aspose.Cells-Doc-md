@@ -49,3 +49,4 @@ Aspose.Cells هو مكون .NET و Java قوي يتيح للمطورين الع�
 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-rotate-text.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -85,3 +85,4 @@ Laden Sie das **Erstellen eines neuen Arbeitsblatts** von einer der unten genann
 Für weitere Details besuchen Sie [Arbeiten mit Tabellenblättern](/cells/de/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

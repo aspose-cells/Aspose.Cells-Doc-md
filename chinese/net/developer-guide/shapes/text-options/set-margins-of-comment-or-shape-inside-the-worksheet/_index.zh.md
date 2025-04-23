@@ -18,3 +18,4 @@ Aspose.Cells允许您使用[**Shape.TextBody.TextAlignment**](https://reference.
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-SetMarginsOfCommentOrShapeInsideTheWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

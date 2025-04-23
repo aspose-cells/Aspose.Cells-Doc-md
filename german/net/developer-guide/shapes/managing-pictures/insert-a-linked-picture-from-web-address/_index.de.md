@@ -25,3 +25,4 @@ Aspose.Cells for .NET unterstützt das Hinzufügen eines verknüpften Bildes mit
 Das folgende Beispiel zeigt, wie ein verknüpftes Bild von einer Webadresse in ein Arbeitsblatt eingefügt wird.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertLinkedPicture-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

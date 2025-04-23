@@ -36,13 +36,13 @@ Aspose.Cells ayrıca iz bırakan yorumları yönetme özelliği sağlar. 
   - Bu, etkin hücreye yorum girmek için bir iletişim kutusu açacaktır.
   - ![todo:image_alt_text](threaded-comments_5)
 ### **Aspose.Cells Kullanarak İz bırakan Yorum Ekleme**
-Aspose.Cells, konu yorumu eklemek için [Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment\(java.lang.String,%20java.lang.String,%20com.aspose.cells.ThreadedCommentAuthor\)) yöntemi sağlar. [Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment\(java.lang.String,%20java.lang.String,%20com.aspose.cells.ThreadedCommentAuthor\)) yöntemi aşağıdaki üç parametreyi kabul eder.
+Aspose.Cells, threaded yorumlar eklemek için [Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment-java.lang.String-java.lang.String-com.aspose.cells.ThreadedCommentAuthor-) yöntemini sağlar. [Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment-java.lang.String-java.lang.String-com.aspose.cells.ThreadedCommentAuthor-) yöntemi aşağıdaki üç parametreyi kabul eder.
 
 - Hücre Adı: Yoruma eklenecek hücrenin adı.
 - Yorum Metni: Yorumun metni.
 - [ThreadedCommentAuthor](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentAuthor): Yorumun yazarı
 
-Aşağıdaki kod örneği, A1 hücresine konu yorumu eklemek için [Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment\(java.lang.String,%20java.lang.String,%20com.aspose.cells.ThreadedCommentAuthor\)) yönteminin kullanımını gösterir. Referans için kod tarafından oluşturulan [çıktı Excel dosyasını](AddThreadedComments_out.xlsx) inceleyin.
+Aşağıdaki kod örneği, hücre A1'e threaded yorum eklemek için [Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment-java.lang.String-java.lang.String-com.aspose.cells.ThreadedCommentAuthor-) kullanımını göstermektedir. Lütfen, kod tarafından oluşturulan [çıktı Excel dosyasını](AddThreadedComments_out.xlsx) referans olarak inceleyin.
 #### **Örnek Kod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddThreadedComments-1.java" >}}
 ## **İz Bırakan Yorumları Okuma**
@@ -51,7 +51,7 @@ Excel'de iz bırakan yorumları okumak için, yorum içeren hücrenin üzerine f
 
 ![todo:image_alt_text](threaded-comments_1.jpg)
 ### **Aspose.Cells Kullanarak İz Bırakan Yorumları Okuma**
-Aspose.Cells, belirtilen sütunlar için dikey yorumları almak için [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) yöntemi sağlar. [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) yöntemi sütun adını parametre olarak alır ve [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection) döndürür. [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection) üzerinde yinelemek, yorumları görüntülemenizi sağlar.
+Aspose.Cells, belirli bir sütun için threaded yorumları almak amacıyla [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments-java.lang.String-) yöntemini sağlar. [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments-java.lang.String-) yöntemi, sütun adını parametre olarak kabul eder ve [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection) döner. Bu koleksiyon üzerinde gezinerek yorumları görebilirsiniz.
 
 Aşağıdaki örnek, A1 sütunundan yorumları alarak [örnek Excel Dosyasını](ThreadedCommentsSample.xlsx) yükleyerek kullanıcı tarafından oluşturulan çıktıyı referans için konsol çıktısını gösterir.
 #### **Örnek Kod**
@@ -67,7 +67,7 @@ Author: Aspose Test
 {{< /highlight >}}
 
 ### **Dişli yorumların oluşturulma zamanını okuyun**
-Aspose.Cells, belirtilen sütun için konu yorumlarını almak için [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) yöntemini sağlar. [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) yöntemi sütun adını parametre olarak kabul eder ve [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection) döndürür. [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection) üzerinde yineleyerek [ThreadedComment.CreatedTime](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcomment#CreatedTime) özelliğini kullanabilirsiniz.
+Aspose.Cells, belirli bir sütun için threaded yorumları almak amacıyla [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments-java.lang.String-) yöntemini sağlar. [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments-java.lang.String-) yöntemi, sütun adını parametre olarak kabul eder ve [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection) döner. Bu koleksiyon üzerinde gezinerek yorumları görebilirsiniz ve [ThreadedComment.CreatedTime](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcomment#CreatedTime) özelliğini kullanabilirsiniz.
 
 Aşağıdaki örnek, [örnek Excel Dosyasını](ThreadedCommentsSample.xlsx) yükleyerek oluşturulan konsol çıktısı referans için konu yorumlarının oluşturulma zamanını okur.
 #### **Örnek Kod**
@@ -90,7 +90,7 @@ Excel'de bir dikey yorumu düzenlemek için, aşağıdaki resimde gösterildiği
 
 ![todo:image_alt_text](threaded-comments_7.jpg)
 ### **Aspose.Cells, belirtilen sütun için dişli yorumları almak için {0} metodunu sağlar. {1} metodu sütun adını bir parametre olarak alır ve {2} değerini döndürür. Gereken yorumu {3} içinde güncelleyebilir ve çalışma kitabını kaydedebilirsiniz.**
-Aspose.Cells, belirtilen sütun için Threaded yorumları almak için [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) yöntemi sağlar. [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) yöntemi, sütun adını parametre olarak alır ve [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)’ı döndürür. [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection) içinde gerekli yorumu güncelleyebilir ve çalışma kitabını kaydedebilirsiniz.
+Aspose.Cells, belirli bir sütun için threaded yorumları almak amacıyla [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments-java.lang.String-) yöntemini sağlar. [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments-java.lang.String-) yöntemi, sütun adını parametre olarak kabul eder ve [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection) döner. Bu koleksiyon üzerinde gerekli yorumu güncelleyebilir ve çalışma kitabını kaydedebilirsiniz.
 
 Aşağıdaki örnek, [örnek Excel Dosyasını](ThreadedCommentsSample.xlsx) yükleyerek A1 sütununda ilk threaded yorumu düzenleme işlemini göstermektedir. Kod tarafından oluşturulan [çıktı Excel dosyasını](EditThreadedComments.xlsx) inceleyerek güncellenmiş yorumu görebilirsiniz.
 #### **Örnek Kod**
@@ -101,7 +101,7 @@ Aspose.Cells ile threaded yorumları kaldırmak için [Comments.RemoveAt](https:
 
 ![todo:image_alt_text](threaded-comments_8.jpg)
 ### **Aspose.Cells, belirtilen sütun için yorumları kaldırmak için {0} metodu sağlar. {1} metodu sütun adını bir parametre olarak alır ve o sütundaki yorumları kaldırır.**
-Aspose.Cells, belirtilen sütunlar için yorumları kaldırmak için [Comments.RemoveAt](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#removeAt\(int\)) yöntemi sağlar. [Comments.RemoveAt](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#removeAt\(int\)) yöntemi sütun adını parametre olarak alır ve o sütundaki yorumları kaldırır. 
+Aspose.Cells, belirli bir sütun için yorumları kaldırmak amacıyla [Comments.RemoveAt](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#removeAt-int-) yöntemini sağlar. [Comments.RemoveAt](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#removeAt-int-) yöntemi, sütun adını parametre olarak alır ve o sütundaki yorumları kaldırır. 
 
 Aşağıdaki örnek, [örnek Excel Dosyasını](ThreadedCommentsSample.xlsx) yükleyerek A1 sütunundaki yorumları kaldırma işlemini göstermektedir. Kod tarafından oluşturulan [çıktı Excel dosyasını](ThreadedCommentsSample_Out.xlsx) inceleyerek referans için görebilirsiniz.
 #### **Örnek Kod**
@@ -109,6 +109,7 @@ Aşağıdaki örnek, [örnek Excel Dosyasını](ThreadedCommentsSample.xlsx) yü
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells ile yorumu kaldırdığınızda yazar otomatik olarak kaldırılmaz. Yazarı da kaldırmak istiyorsanız, lütfen yukarıdaki örnekte gösterildiği gibi [ThreadedCommentAuthorCollection.removeAt](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcommentauthorcollection#removeAt\(int\)) yöntemini kullanın.
+Lütfen dikkat edin, Aspose.Cells kullanarak yorum kaldırıldığında, yazar otomatik olarak silinmez. Eğer yazar da kaldırılmak istenirse, yukarıdaki örnekte gösterildiği gibi [ThreadedCommentAuthorCollection.removeAt](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcommentauthorcollection#removeAt-int-) yöntemini kullanmalısınız.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

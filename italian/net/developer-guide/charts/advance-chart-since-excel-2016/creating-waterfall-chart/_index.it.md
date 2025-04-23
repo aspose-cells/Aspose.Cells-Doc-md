@@ -23,3 +23,4 @@ Il frammento di codice fornito di seguito dimostra l'uso dell'API Aspose.Cells f
 
 - [Creazione di grafici](/cells/it/net/creating-charts/)
 - [Personalizzazione dei grafici](/cells/it/net/customizing-charts/)
+{{< app/cells/assistant language="csharp" >}}

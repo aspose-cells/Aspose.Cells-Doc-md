@@ -47,3 +47,4 @@ Nel file PDF o immagine in uscita di Aspose.Cells, verrà incollata una filigran
 <br>
 <image src="3.png" width="70%" />
 <br>
+{{< app/cells/assistant language="java" >}}

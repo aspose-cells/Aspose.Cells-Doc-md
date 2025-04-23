@@ -27,3 +27,4 @@ Hier ist ein weiteres Beispiel, das einen benannten Bereich verwendet, um Werte 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CalculatingSumUsingNamedRange-CalculatingSumUsingNamedRangeOnDifferentSheets.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

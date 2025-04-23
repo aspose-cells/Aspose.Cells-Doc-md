@@ -22,3 +22,4 @@ Outre le contrôle de l'exportation des feuilles de calcul masquées, vous pouve
 - [Exporter les commentaires lors de l'enregistrement d'un fichier Excel en HTML](/cells/fr/java/export-comments-while-saving-excel-file-to-html/)
 - [Masquer le contenu superposé avec CrossHideRight lors de l'enregistrement au format HTML](/cells/fr/java/hiding-overlaid-content-with-crosshideright-while-saving-to-html/)
 - [Exporter un style de bordure similaire lorsque le style de bordure n'est pas pris en charge par les navigateurs Web](/cells/fr/java/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/)
+{{< app/cells/assistant language="java" >}}

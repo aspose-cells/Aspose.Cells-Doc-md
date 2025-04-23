@@ -64,3 +64,4 @@ for(int i = al.size()-1 ; i > -1; i--)
 Besuchen Sie für weitere Details [Zusammengeführte Zellen in einem Arbeitsblatt erkennen](/cells/de/java/detect-merged-cells-in-a-worksheet).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

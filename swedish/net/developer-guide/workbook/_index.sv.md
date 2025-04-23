@@ -7,3 +7,4 @@ url: /sv/net/managing-workbooks-and-worksheets/
 description: Lär dig hantera arbetsbok genom Aspose.Cells for .NET API er.
 keywords: Hur man hanterar arbetsbok i C#, Hantera arbetsbok och kalkylblad med C#, Driftsätt arbetsbok och kalkylblad i C#. 
 ---
+{{< app/cells/assistant language="csharp" >}}

@@ -47,3 +47,4 @@ En el archivo PDF o de imagen de Aspose.Cells, se pegaría una marca de agua de 
 <br>
 <image src="3.png" width="70%" />
 <br>
+{{< app/cells/assistant language="java" >}}

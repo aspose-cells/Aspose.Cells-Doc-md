@@ -31,3 +31,4 @@ Ein Szenario ist ein sogenanntes Was-wäre-wenn-Modell, das aus variablen Eingab
 Bitte prüfen Sie den ausführlichen Artikel zu [Wie man Szenarien in Tabellenkalkulationen erstellt, manipuliert oder entfernt](/cells/de/net/create-manipulate-or-remove-scenarios-from-worksheets/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

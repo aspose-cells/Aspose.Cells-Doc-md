@@ -45,3 +45,4 @@ Aspose-komponenter är mycket skalbara och blixtsnabba. De utgör en riktig .NET
 - [Import och export av arbetsblad](/cells/sv/net/import-and-export-worksheet/)
 - [Utskrift och förhandsgranskning av arbetsbok](/cells/sv/net/print-and-preview/)
 - Och annat.
+{{< app/cells/assistant language="csharp" >}}

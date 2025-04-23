@@ -14,3 +14,4 @@ Aspose.Cells bietet die Möglichkeit, Überschriften beim Konvertieren von Excel
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-PrintHeadings-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

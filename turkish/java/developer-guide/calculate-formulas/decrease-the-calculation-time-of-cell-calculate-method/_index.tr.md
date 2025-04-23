@@ -8,7 +8,7 @@ url: /tr/java/decrease-the-calculation-time-of-cell-calculate-method/
 
 Olası Kullanım Senaryoları
 
-Normalde, kullanıcılara [Workbook.CalculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) methodunu bir kez çağrıp ardından individüel hücrelerin hesaplanmış değerlerini almayı öneririz. Ancak bazen, kullanıcılar tüm çalışma kitabını hesaplamak istemezler. Sadece tek bir hücreyi hesaplamak isterler. Aspose.Cells, [CalculationOptions.Recursive](https://reference.aspose.com/cells/java/com.aspose.cells/calculationoptions#Recursive) özelliği sağlar ve bu özelliği **false** olarak ayarlarsanız, individüel hücrelerin hesaplanma süresi önemli ölçüde azalacaktır. Çünkü recursive özelliği **true** olarak ayarlandığında, her çağrıda hücrelerin bağımlıları tekrar hesaplanır. Ancak recursive özelliği **false** olarak ayarlandığında, bağımlı hücreler sadece bir kez hesaplanır ve ardışık çağrılarda tekrar hesaplanmazlar.
+Genellikle, kullanıcıların [Workbook.CalculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) yöntemini bir kez çağırmalarını ve ardından bireysel hücrelerin hesaplanan değerlerini almalarını öneririz. Ancak bazen kullanıcılar tüm çalışma kitabını değil, sadece bir hücreyi hesaplamak isteyebilir. Aspose.Cells, [CalculationOptions.Recursive](https://reference.aspose.com/cells/java/com.aspose.cells/calculationoptions#Recursive) özelliğini sağlar ve bunu **false** olarak ayarlayabilirsiniz, bu da bireysel hücrenin hesaplama süresini önemli ölçüde azaltır. Çünkü recursive özellik **true** olarak ayarlandığında, tüm bağımlı hücreler her çağrıda yeniden hesaplanır. Ancak recursive **false** olarak ayarlandığında, bağımlı hücreler yalnızca bir kez hesaplanır ve sonraki çağrılarda yeniden hesaplanmaz.
 ## **Hücre.Calculate() Yönteminin Hesaplama Zamanını Azaltma**
 Aşağıdaki örnek kod, [CalculationOptions.Recursive](https://reference.aspose.com/cells/java/com.aspose.cells/calculationoptions#Recursive) özelliğinin kullanımını göstermektedir. Lütfen bu kodu verilen [örnek excel dosyası](5472288.xlsx) ile çalıştırın ve konsol çıktısını kontrol edin. **false** olarak recursive özelliğini ayarladıktan sonra hesaplama süresinin önemli ölçüde azaldığını göreceksiniz. Lütfen bu özelliğin daha iyi anlaşılması için yorumları da okuyun.
 
@@ -27,3 +27,4 @@ Yukarıdaki örnek kodun verilen [örnek excel dosyası](5472288.xlsx) ile çal�
 Recursive false: 16 seconds
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

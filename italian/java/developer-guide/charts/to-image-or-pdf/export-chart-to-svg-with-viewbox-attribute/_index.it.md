@@ -29,3 +29,4 @@ Se apri l'SVG del grafico in notepad, troverai l'attributo **viewBox** simile a 
 
 - [Rendering del grafico](/cells/it/java/chart-rendering/)
 - [Esportare un foglio di lavoro o un grafico in un'immagine con larghezza e altezza desiderate](/cells/it/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+{{< app/cells/assistant language="java" >}}

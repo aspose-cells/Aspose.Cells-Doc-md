@@ -17,3 +17,4 @@ Aspose.Cells现在可以将工作表呈现到图形上下文。图形上下文�
 以下代码示例说明了如何使用Aspose.Cells将工作表呈现到图形上下文。一旦执行代码，它将在图形上下文中打印整个工作表，并用蓝色填充剩余的空白空间，并将图像保存为**OutputImage_out_.png**文件。您可以使用任何源Excel文件来尝试这段代码。此外，请阅读代码内部的注释以更好地理解。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-RenderWorksheetToGraphicContext-RenderWorksheetToGraphicContext.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

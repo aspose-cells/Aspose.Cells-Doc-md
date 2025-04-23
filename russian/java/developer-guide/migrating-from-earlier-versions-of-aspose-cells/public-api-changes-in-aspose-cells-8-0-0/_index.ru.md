@@ -133,3 +133,4 @@ RowCollection больше не наследует CollectionBase, поскол�
 С Aspose.Cells for Java метод getFilterColumnCollection был помечен как устаревший. Рекомендуется использовать метод AuotFilter.getFilterColumns вместо него.
 ## **Заменено SeriesCollection.SecondCatergoryData на SeriesCollection.SecondCategoryData**
 Мы исправили опечатку в имени метода SeriesCollection.getSecondCatergoryData. Теперь следует использовать метод SeriesCollection.getSecondCategoryData, а исходный метод SeriesCollection.getSecondCatergoryData помечен как устаревший.
+{{< app/cells/assistant language="java" >}}

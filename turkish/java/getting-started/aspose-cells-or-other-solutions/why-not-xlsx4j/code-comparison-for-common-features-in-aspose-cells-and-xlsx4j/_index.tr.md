@@ -23,3 +23,4 @@ Bu bölüm aşağıdaki kod karşılaştırma örneklerini içerir:
   - [xlsx4j'de Satır ve Sütun Yüksekliğini Ayarlama](/cells/tr/java/row-column-height-adjustment-in-xlsx4j/)
 
 **Not:** Daha fazla kod karşılaştırması yakında kullanılabilir olacak. 
+{{< app/cells/assistant language="java" >}}

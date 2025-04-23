@@ -16,3 +16,4 @@ Aspose.Cells, bir yoruma yazı tipi rengi belirlemek için [**Shape.TextBody**]
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ChangeCommentFontColor-1.java" >}}
 
 Yukarıdaki kodun çalıştırılmasıyla elde edilen [çıktı dosyası](outputChangeCommentFontColor.xlsx) referansınız için eklenmiştir.
+{{< app/cells/assistant language="java" >}}

@@ -20,3 +20,4 @@ El siguiente ejemplo muestra cómo agregar una forma de WordArt como marca de ag
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-AddWordArtWatermarkToChart-AddWordArtWatermarkToChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

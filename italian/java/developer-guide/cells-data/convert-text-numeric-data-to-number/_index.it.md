@@ -42,3 +42,4 @@ Questi numeri di stringa sono stati convertiti in numeri utilizzando [**Cells.co
 Il seguente codice di esempio illustra come convertire tutti i dati numerici di stringa in numeri effettivi in tutte le schede.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConvertTextNumericDatatoNumber-ConvertTextNumericDatatoNumber.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -26,3 +26,4 @@ Gli esempi di codice seguenti mostrano come applicare esponente e pedice al test
 ### Codice C# per applicare l'effetto di pedice al testo
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplySuperscriptAndSubscript-SettingSubscriptEffect-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

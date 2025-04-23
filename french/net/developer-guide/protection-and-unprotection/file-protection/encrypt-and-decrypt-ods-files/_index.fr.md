@@ -27,3 +27,4 @@ Pour chiffrer un fichier ODS, chargez le fichier et définissez la valeur [**Wor
 Pour déchiffrer un fichier ODS, chargez le fichier en fournissant un mot de passe dans le [**LoadOptions.Password**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/password). Une fois le fichier chargé, définissez la chaîne [**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) comme nulle.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-DecryptingODSFiles-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

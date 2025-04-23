@@ -17,3 +17,4 @@ keywords: Преобразование временной шкалы в PDF бе
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Timelines-DrawTimelinetoPdf.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

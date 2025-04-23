@@ -14,3 +14,4 @@ Sie können die horizontale Ausrichtung Ihres Absatztextes mit der Eigenschaft [
 Der folgende Beispielcode erstellt drei Linien und legt die horizontale Ausrichtung jeder von ihnen fest.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateTextBoxWithDifferentHorizontalAlignment-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

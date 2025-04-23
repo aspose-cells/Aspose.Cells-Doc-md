@@ -3,8 +3,8 @@ title: Réglage des options d impression
 type: docs
 weight: 40
 url: /fr/python-net/setting-print-options/
-description: Cet article démontre comment définir de manière programmatique les Options d Impression de la fonctionnalité Configuration de la page de Feuille de calcul Excel en utilisant l API Aspose.Cells pour Python via .NET. Vous pouvez définir la zone d impression, les titres et l ordre des pages.
-keywords: Bibliothèque Python Excel, Définir la zone d impression Excel en Python, Définir les titres d impression Excel en Python, Comment définir l ordre des pages Excel en Python, Comment définir les options d impression en Python, Comment définir la zone d impression en Python, Comment définir les titres d impression en Python. 
+description: Cet article montre comment définir de manière programmatique les options d impression de la mise en page de la feuille Excel à l aide de l API Aspose.Cells pour Python via .NET. Vous pouvez définir la zone d impression, les titres d impression et l ordre des pages.
+keywords: bibliothèque Excel pour Python, définir la zone d impression excel en Python, définir les titres d impression dans Excel en Python, comment régler l ordre des pages pour Excel en Python, comment définir les options d impression en Python, comment définir la zone d impression en Python, comment définir les titres d impression en Python. 
 ---
 
 {{% alert color="primary" %}}
@@ -13,7 +13,7 @@ Les paramètres de configuration de page de Microsoft Excel offrent plusieurs op
 
 {{% /alert %}}
 
-## **Comment définir les options d'impression**
+## **Comment régler les options d'impression**
 
 Ces options d'impression permettent aux utilisateurs de :
 
@@ -26,7 +26,7 @@ Ces options d'impression permettent aux utilisateurs de :
 - Imprimer les erreurs de cellules.
 - Définir l'ordre des pages.
 
-Aspose.Cells pour Python via .NET prend en charge toutes les options d’impression proposées par Microsoft Excel et les développeurs peuvent facilement configurer ces options pour les feuilles de calcul en utilisant les propriétés offertes par la classe [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup). Comment ces propriétés sont utilisées est discuté ci-dessous plus en détail.
+Aspose.Cells pour Python via .NET prend en charge toutes les options d'impression proposées par Microsoft Excel, et les développeurs peuvent facilement configurer ces options pour les feuilles en utilisant les propriétés offertes par la classe [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup). La manière dont ces propriétés sont utilisées est discutée en détail ci-dessous.
 
 ## **Comment définir la zone d'impression**
 
@@ -38,7 +38,7 @@ Pour sélectionner une zone d'impression spécifique, utilisez la propriété [*
 
 ## **Comment définir les titres d'impression**
 
-Aspose.Cells pour Python via .NET vous permet de désigner les en-têtes de lignes et de colonnes à répéter sur toutes les pages d'une feuille de calcul imprimée. Pour ce faire, utilisez les propriétés [**print_title_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_title_columns/) et [**print_title_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_title_rows) de la classe [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup).
+Aspose.Cells pour Python via .NET permet de désigner les en-têtes de ligne et de colonne à répéter sur toutes les pages d'une feuille imprimée. Pour ce faire, utilisez les propriétés [**print_title_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_title_columns/) et [**print_title_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_title_rows) de la classe [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup).
 
 Les lignes ou colonnes qui seront répétées sont définies en passant leurs numéros de ligne ou de colonne. Par exemple, les lignes sont définies comme $1:$2 et les colonnes sont définies comme $A:$B.
 
@@ -61,9 +61,9 @@ Les valeurs prédéfinies de l'énumération [**PrintCommentsType**](https://ref
 
 |**Types de commentaires d'impression**|**Description**|
 | :- | :- |
-|IMPRIMER_SUR_PLACE|Spécifie d'imprimer les commentaires tels qu’affichés dans la feuille de calcul.|
-|IMPRIMER_SANS_COMMENTAIRES|Spécifie de ne pas imprimer les commentaires.|
-|IMPRIMER_FIN_FEUILLE|Spécifie d'imprimer les commentaires à la fin de la feuille de calcul.|
+|PRINT_IN_PLACE|Spécifie d'imprimer les commentaires tels qu'ils sont affichés sur la feuille.|
+|PRINT_NO_COMMENTS|Indique de ne pas imprimer les commentaires.|
+|PRINT_SHEET_END|Indique d'imprimer les commentaires à la fin de la feuille.|
 
 Les valeurs prédéfinies de l'énumération [**PrintErrorsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printerrorstype) sont répertoriées ci-dessous avec leurs descriptions.
 
@@ -71,10 +71,10 @@ Les valeurs prédéfinies de l'énumération [**PrintErrorsType**](https://refer
 
 |**Types d'erreurs d'impression**|**Description**|
 | :- | :- |
-|IMPRIMER_ERREURS_VIDE|Spécifie de ne pas imprimer les erreurs.|
-|IMPRIMER_ERREURS_TIRET|Spécifie d'imprimer les erreurs comme "--".|
-|IMPRIMER_ERREURS_AFFICHEES|Spécifie d'imprimer les erreurs telles qu’affichées.|
-|IMPRIMER_ERREURS_NA|Spécifie d'imprimer les erreurs comme "#N/A".|
+|PRINT_ERRORS_BLANK|Indique de ne pas imprimer les erreurs.|
+|PRINT_ERRORS_DASH|Indique d'imprimer les erreurs sous forme de "--".|
+|PRINT_ERRORS_DISPLAYED| Spécifie d'imprimer les erreurs telles qu'affichées.
+|PRINT_ERRORS_NA| Spécifie d'imprimer les erreurs comme "#N/A".
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-OtherPrintOptions-1.py" >}}
 
@@ -91,7 +91,7 @@ Les valeurs prédéfinies de l'énumération [**PrintOrderType**](https://refere
 
 |**Types d'ordre d'impression**|**Description**|
 | :- | :- |
-|DESSUS_PUIS_DESSOUS|Représente l'ordre d'impression comme de haut en bas, puis de gauche à droite.|
-|DESSOUS_PUIS_DESSUS|Représente l'ordre d'impression comme de gauche à droite, puis de haut en bas.|
+|DOWN_THEN_OVER| Représente l'ordre d'impression en descendant puis en enfilant.
+|OVER_THEN_DOWN| Représente l'ordre d'impression en enfilant puis en descendant.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPageOrder-1.py" >}}

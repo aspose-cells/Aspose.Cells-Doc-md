@@ -60,3 +60,4 @@ Insérer une image dans une cellule en utilisant Aspose.Cells. Veuillez consulte
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-place-image-in-cell.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

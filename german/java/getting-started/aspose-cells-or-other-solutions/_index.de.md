@@ -10,3 +10,4 @@ Warum wählen Benutzer Aspose.Cells, um mit Dokumenten zu arbeiten? Die kürzest
 
 In diesem Abschnitt werden die Aspose.Cells-Komponenten mit einigen anderen Systemen verglichen.
 
+{{< app/cells/assistant language="java" >}}

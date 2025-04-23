@@ -20,3 +20,4 @@ url: /ja/net/implement-subtotal-or-grand-total-labels-in-other-languages/
 上記で作成したクラスを以下のようにコードで使用します:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-TotalsInOtherLanguages-UsingGlobalizationSettings.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

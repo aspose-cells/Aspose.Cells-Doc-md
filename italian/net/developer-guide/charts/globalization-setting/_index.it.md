@@ -47,3 +47,4 @@ L'esempio seguente ti mostrerà dettagliatamente come impostare la regione local
 - [Come Impostare la Regione Cinese per il Grafico](/cells/it/net/convert-chart-to-image-for-chinese-region/)
 - [Come Impostare la Regione Giapponese per il Grafico](/cells/it/net/convert-chart-to-image-for-japanese-region/)
 
+{{< app/cells/assistant language="csharp" >}}

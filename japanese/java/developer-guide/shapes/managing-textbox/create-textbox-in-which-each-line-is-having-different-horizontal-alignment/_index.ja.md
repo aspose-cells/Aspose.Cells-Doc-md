@@ -26,3 +26,4 @@ TextParagraph.AlignmentType プロパティを使用して段落テキストの�
 
 
 
+{{< app/cells/assistant language="java" >}}

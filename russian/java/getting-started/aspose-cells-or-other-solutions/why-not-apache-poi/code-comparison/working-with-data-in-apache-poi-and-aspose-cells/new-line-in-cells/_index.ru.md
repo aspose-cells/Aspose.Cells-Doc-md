@@ -63,3 +63,4 @@ cell.setCellStyle(cs);
 Дополнительная информация по ссылке [Перенос строк и перенос текста](/java/line-breaks-and-text-wrapping).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

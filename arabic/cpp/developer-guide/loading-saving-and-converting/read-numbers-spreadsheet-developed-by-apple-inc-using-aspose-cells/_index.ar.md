@@ -11,7 +11,7 @@ url: /ar/cpp/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/
 
 ## **قراءة جدول بيانات الأرقام المطور من قبل Apple Inc. باستخدام Aspose.Cells**
 
-يحمل الكود عينة التالية [جدول الأرقام عينة] (sampleNumbersByAppleInc.numbers) ويحوله إلى [تنسيق PDF الناتج] (outputNumbersByAppleInc.pdf). يجب عليك استخدام **[LoadOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/)** class وتحديد **[LoadFormat::Numbers](https://reference.aspose.com/cells/cpp/aspose.cells/loadformat/)** كمعلمة في مُنشئه بنجاح. يرجى تنزيل كل منهما من الروابط المعطاة. يمكنك تجربة الكود مع أي جدول أرقام. يرجى أيضًا قراءة تعليقات الكود للمزيد من المساعدة.
+يعرض رمز المثال التالي تحميل [جدول أرقام العينات](sampleNumbersByAppleInc.numbers) وتحويله إلى [صيغة PDF الخارجة](outputNumbersByAppleInc.pdf). ستحتاج إلى استخدام فئة **[LoadOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/)** وتحديد **[LoadFormat::Numbers](https://reference.aspose.com/cells/cpp/aspose.cells/loadformat/)** كمعامل في منشئها لتحميله بنجاح. يرجى تنزيل كلا الملفين من الروابط المقدمة. يمكنك تجربة الكود مع أي جدول أرقام آخر. يرجى أيضًا قراءة تعليقات الكود للمزيد من المساعدة.
 
 ## **الكود المثالي**
 

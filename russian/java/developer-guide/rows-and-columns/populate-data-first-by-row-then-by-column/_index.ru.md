@@ -18,3 +18,4 @@ url: /ru/java/populate-data-first-by-row-then-by-column/
 ## Код Java для заполнения данных сначала по строкам, а затем по столбцам
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PopulateDatabyRowthenColumn-PopulateDatabyRowthenColumn.java" >}}
+{{< app/cells/assistant language="java" >}}

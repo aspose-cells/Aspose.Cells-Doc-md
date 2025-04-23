@@ -34,3 +34,4 @@ keywords: طباعة excel، منع طباعة excel، كيفية منع الم�
 1. حفظ ملف العينة إلى [تنسيق xlsm](out.xlsm).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "VBA-Prevent-printing-excel.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

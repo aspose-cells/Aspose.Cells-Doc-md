@@ -25,7 +25,7 @@ Aspose.Cells tillåter utvecklare att lägga till hyperlänkar till Excel-filer 
 
 Aspose.Cells tillhandahåller en klass, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) som representerar en Microsoft Excel-fil. Klassen [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) innehåller en [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) som möjliggör åtkomst till varje kalkylblad i Excel-filen. Ett kalkylblad representeras av klassen [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Klassen [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) tillhandahåller olika metoder för att lägga till olika hyperlänkar till Excel-filer.
 ## **Lägga till länk till en URL**
-Klassen [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) innehåller en [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) samling. Varje objekt i [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) samlingen representerar en [Hyperlink](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink). Lägg till hyperlänkar till URL:er genom att anropa [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Hyperlinks) samlingens [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))metod. [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))metoden tar följande parametrar:
+Klassen [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) innehåller en [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) samling. Varje objekt i [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) samlingen representerar en [Hyperlink](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink). Lägg till hyperlänkar till URL:er genom att ringa [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Hyperlinks) samlingens [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) metod. [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) metoden tar emot följande parametrar:
 
 - Cellnamn, namnet på den cell som hyperlänken kommer att läggas till.
 - Antal rader, antalet rader i detta hyperrlänksområde.
@@ -44,7 +44,7 @@ I det ovanstående exemplet läggs en hyperlänk till en URL till en tom cell, *
 
 
 ## **Lägga till en länk till en cell i samma fil**
-Det är möjligt att lägga till hyperlänkar till celler i samma Excel-fil genom att anropa [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) samlingens [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))metod. [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))metoden fungerar både för interna och externa hyperlänkar. En version av den överlagrade metoden tar följande parametrar:
+Det är möjligt att lägga till hyperlänkar till celler i samma Excel-fil genom att ringa [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) samlingens [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) metod. [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) fungerar för både interna och externa hyperlänkar. En överlagrad version av metoden tar emot följande parametrar:
 
 - Cellnamn, namnet på den cell som hyperlänken kommer att läggas till.
 - Antal rader, antalet rader i detta hyperrlänksområde.
@@ -58,7 +58,7 @@ Det är möjligt att lägga till hyperlänkar till celler i samma Excel-fil geno
 
 
 ## **Lägga till en länk till en extern fil**
-Det är möjligt att lägga till hyperlänkar till externa Excel-filer genom att anropa [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) samlingens [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))metod. [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))metoden tar följande parametrar:
+Det är möjligt att lägga till hyperlänkar till externa Excel-filer genom att ringa [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) samlingens [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) metod. [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) tar emot följande parametrar:
 
 - Cellnamn, namnet på den cell som hyperlänken kommer att läggas till.
 - Antal rader, antalet rader i detta hyperrlänksområde.
@@ -76,3 +76,4 @@ Det är möjligt att lägga till hyperlänkar till externa Excel-filer genom att
 - [Hämta hyperlänkar i omfånget](/cells/sv/java/get-hyperlinks-in-range/)
 
 
+{{< app/cells/assistant language="java" >}}

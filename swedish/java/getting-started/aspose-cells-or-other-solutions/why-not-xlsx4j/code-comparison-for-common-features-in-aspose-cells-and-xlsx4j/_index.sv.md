@@ -23,3 +23,4 @@ Denna avsnitt inkluderar följande kodjämförelseexempel:
   - [Justering av rad- och kolumnhöjd i xlsx4j](/cells/sv/java/row-column-height-adjustment-in-xlsx4j/)
 
 **Observera:** Många fler kodjämförelser kommer snart att finnas tillgängliga. 
+{{< app/cells/assistant language="java" >}}

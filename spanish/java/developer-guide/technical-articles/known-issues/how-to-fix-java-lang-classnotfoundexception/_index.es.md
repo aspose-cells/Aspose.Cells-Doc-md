@@ -44,3 +44,4 @@ Alternativamente, puede agregar la dependencia en el pom.xml y permitir que el p
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="java" >}}

@@ -11,7 +11,7 @@ url: /ar/java/copy-page-setup-settings-from-source-worksheet-into-destination-wo
 
 ## **نسخ إعدادات إعداد الصفحة من ورقة العمل المصدر إلى ورقة العمل الوجهة**
 
-يوضح الكود العينة التالي كيفية نسخ إعدادات إعداد الصفحة من ورقة عمل إلى أخرى باستخدام الطريقة [**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy(com.aspose.cells.PageSetup,%20com.aspose.cells.CopyOptions)). يرجى الرجوع إلى الكود العيني التالي وإخراج الإرسال لمرجع.
+يوضح الكود العينة التالي كيفية نسخ إعدادات إعداد الصفحة من ورقة عمل إلى أخرى باستخدام الطريقة [**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy-com.aspose.cells.PageSetup-com.aspose.cells.CopyOptions-). يرجى الرجوع إلى الكود العيني التالي وإخراج الإرسال لمرجع.
 
 ## **الكود المثالي**
 
@@ -30,3 +30,4 @@ After Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 After Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

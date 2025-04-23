@@ -87,3 +87,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 Om din kalkylblad innehåller formler är det bäst att kalla Workbook.calculateFormula metoden strax före rendering av kalkylbladet till PDF-format. Genom att göra det säkerställs att formla beroende värden omberäknas och de korrekta värdena renderas i PDF. 
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

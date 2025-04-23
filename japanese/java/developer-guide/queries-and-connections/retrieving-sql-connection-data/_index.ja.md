@@ -38,3 +38,4 @@ ExternalConnectionオブジェクトにSQL接続データが含まれている�
 
 
 
+{{< app/cells/assistant language="java" >}}

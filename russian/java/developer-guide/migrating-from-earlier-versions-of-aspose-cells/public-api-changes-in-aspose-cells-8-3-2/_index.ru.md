@@ -258,3 +258,4 @@ opts.setFontSubstitutionCharGranularity(true);
 Рекомендуется использовать метод Workbook.createStyle для создания и управления стилями для экземпляра Workbook вместо создания стиля с помощью метода StyleCollection.add. Кроме того, для получения именованного стиля рекомендуется использовать метод Workbook.getNamedStyle(string) вместо StyleCollection.get(string).
 ### **Метод Obsoleted PivotItem.move(int count)**
 С выпуском Aspose.Cells 8.3.2 API представил еще одну перегрузку метода PivotItem.move, который принимает целочисленный параметр для счета и логический параметр для перемещения PivotItem внутри родительского узла. 
+{{< app/cells/assistant language="java" >}}

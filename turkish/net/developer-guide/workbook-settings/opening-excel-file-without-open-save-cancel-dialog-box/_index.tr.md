@@ -38,3 +38,4 @@ Windows Gezgini'nde:
 | :- |
 |![todo:image_alt_text](opening-excel-file-without-open-save-cancel-dialog-box_2.png)|
 Bu ayar, dosyaların indirilirken veya açılırken Aç-Kaydet-İptal iletişim kutusunun gösterilmeden web tarayıcısında doğrudan çalışmasına olanak tanır.
+{{< app/cells/assistant language="csharp" >}}

@@ -74,3 +74,4 @@ CurrentRegion هو خاصية تقوم بإرجاع كائن Range يمثل ال
 - [نقل مجموعة من الخلايا في ورقة العمل](/cells/ar/net/move-range-of-cells-in-a-worksheet/)
 - [إنشاء أسماء مسماة محددة بنطاق العمل وورقة العمل](/cells/ar/net/create-workbook-and-worksheet-scoped-named-ranges/)
 - [البحث والاستبدال في بيانات النطاق](/cells/ar/net/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="csharp" >}}

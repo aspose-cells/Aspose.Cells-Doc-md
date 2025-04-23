@@ -3,26 +3,26 @@ title: Verwalten von Seitenumbrüchen
 type: docs
 weight: 30
 url: /de/python-net/managing-page-breaks/
-description: Dieser Artikel bietet Beispielscode und erläutert, wie man Seitenwechsel in Excel Arbeitsblättern programmgesteuert mithilfe der Aspose.Cells for Python via .NET APIs hinzufügt, löscht oder spezifische Seitenwechsel entfernt.
-keywords: Python Excel Bibliothek, Python Seitenwechsel, Excel Seitenwechsel in Python, Seitenumbruch in Python löschen.
+description: Dieser Artikel bietet Beispiellcode und erklärt, wie man Seitenumbrüche hinzufügt, löscht oder bestimmte Seitenumbrüche in Excel Arbeitsblättern mit Aspose.Cells für Python via .NET APIs programmgesteuert entfernt.
+keywords: Python Excel Bibliothek, Python Seitenumbrüche, Excel Seitenumbrüche in Python, Seitenumbruch in Python löschen.
 ---
 
 {{% alert color="primary" %}}
 
 Nach Definition ist ein Seitenumbruch eine Stelle in einem Textfluss, an der eine Seite endet und die nächste beginnt. Microsoft Excel ermöglicht es Benutzern, Seitenumbrüche in jede ausgewählte Zelle eines Arbeitsblatts einzufügen.
 
-Der Ort der Zelle, an dem der Seitenwechsel hinzugefügt wird, die Seite endet und der Rest der Daten nach dem Seitenwechsel auf der nächsten Seite gedruckt wird. Vereinfacht ausgedrückt, teilen Seitenwechsel Ihr Arbeitsblatt entsprechend Ihren Spezifikationen in mehrere Seiten auf. Sie können auch zur Laufzeit Seitenwechsel in Ihre Arbeitsblätter einfügen mithilfe von Aspose.Cells for Python via .NET. Aspose.Cells for Python via .NET ermöglicht Entwicklern, zwei Arten von Seitenwechseln hinzuzufügen:
+Der Ort der Zelle, an der der Seitenumbruch hinzugefügt wird; die Seite endet dort, und die Daten nach dem Seitenumbruch werden auf der nächsten Seite gedruckt. Einfach ausgedrückt, teilen Seitenumbrüche Ihr Arbeitsblatt in mehrere Seiten auf, entsprechend Ihren Vorgaben. Sie können auch laufend Seitenumbrüche in Ihren Arbeitsblättern mit Aspose.Cells für Python via .NET hinzufügen. Aspose.Cells für Python via .NET ermöglicht es Entwicklern, zwei Arten von Seitenumbrüchen hinzuzufügen:
 
 - Horizontaler Seitenumbruch
 - Vertikaler Seitenumbruch
 
-Im weiteren Verlauf der Diskussion werden wir beschreiben, wie Sie horizontale oder vertikale Seitenwechsel in Ihre Arbeitsblätter mithilfe von Aspose.Cells for Python via .NET hinzufügen können.
+Im weiteren Verlauf wird beschrieben, wie Sie horizontale oder vertikale Seitenumbrüche in Ihre Arbeitsblätter mit Aspose.Cells für Python via .NET einfügen können.
 
 {{% /alert %}}
 
 ## **Seitenumbrüche**
 
-Aspose.Cells für Python via .NET bietet eine [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)-Klasse, die eine Excel-Datei repräsentiert. Die [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)-Klasse enthält eine [**Worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets)-Sammlung, auf die jedes Arbeitsblatt in der Excel-Datei zugegriffen werden kann.
+Aspose.Cells für Python via .NET bietet eine Klasse [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), die eine Excel-Datei repräsentiert. Die Klasse [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) enthält eine Sammlung [**Worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets), die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht.
 
 Ein Arbeitsblatt wird durch die Klasse [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) repräsentiert. Die Klasse [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) bietet eine Vielzahl von Eigenschaften und Methoden, die zur Verwaltung eines Arbeitsblatts verwendet werden.
 
@@ -30,9 +30,9 @@ Um die Seitenumbrüche hinzuzufügen, verwenden Sie die Eigenschaften [**horizon
 
 Die Eigenschaften [**horizontal_page_breaks**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/horizontal_page_breaks) und [**vertical_page_breaks**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/vertical_page_breaks) sind Sammlungen, die mehrere Seitenumbrüche enthalten können. Jede Sammlung enthält mehrere Methoden zur Verwaltung von horizontalen und vertikalen Seitenumbrüchen.
 
-## **Wie man Seitenwechsel hinzufügt**
+## **So fügen Sie Seitenumbrüche hinzu**
 
-Um einen Seitenwechsel in einem Arbeitsblatt hinzuzufügen, fügen Sie vertikale und horizontale Seitenwechsel in der angegebenen Zelle ein, indem Sie die [**HorizontalPageBreakCollection.add()**](https://reference.aspose.com/cells/python-net/aspose.cells/horizontalpagebreakcollection/add/#str)- und [**VerticalPageBreakCollection.add()**](https://reference.aspose.com/cells/python-net/aspose.cells/verticalpagebreakcollection/add/#str)-Methoden aufrufen. Jede **add**-Methode nimmt den Namen der Zelle, an der der Seitenwechsel hinzugefügt werden soll.
+Um einen Seitenumbruch in einem Arbeitsblatt hinzuzufügen, fügen Sie vertikale und horizontale Seitenumbrüche an der angegebenen Zelle ein, indem Sie die Methoden [**HorizontalPageBreakCollection.add()**](https://reference.aspose.com/cells/python-net/aspose.cells/horizontalpagebreakcollection/add/#str) und [**VerticalPageBreakCollection.add()**](https://reference.aspose.com/cells/python-net/aspose.cells/verticalpagebreakcollection/add/#str) aufrufen. Jede **add**-Methode nimmt den Namen der Zelle, an der die Umbruchsmarkierung gesetzt werden soll.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Value-AddingPageBreaks-1.py" >}}
 

@@ -38,3 +38,4 @@ För att infoga en funktion eller formel:
 1. Klicka på en cell för att markera den.
 1. Klicka på knappen **Infoga funktion** högst upp.
 1. Följ instruktionerna i dialogrutan för **Infoga funktion**.
+{{< app/cells/assistant language="java" >}}

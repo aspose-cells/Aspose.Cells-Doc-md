@@ -38,3 +38,4 @@ Eğer ExternalConnection nesnesi SQL bağlantı verisi içeriyorsa, bunun özell
 
 
 
+{{< app/cells/assistant language="java" >}}

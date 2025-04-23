@@ -15,3 +15,4 @@ Questa sezione ha i seguenti argomenti:
   - [Importazione da ArrayList](/cells/it/net/importing-from-arraylist/)
   - [Importazione da Oggetti Personalizzati](/cells/it/net/importing-from-custom-objects/)
   - [Importazione da DataTable](/cells/it/net/importing-from-datatable/)
+{{< app/cells/assistant language="csharp" >}}

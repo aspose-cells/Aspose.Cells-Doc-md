@@ -7,7 +7,7 @@ url: /ru/java/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjectev
 
 ## **Возможные сценарии использования**
 
-Aspose.Cells предоставляет абстрактный класс [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler), у которого есть метод [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)). Пользователь может реализовать [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) и использовать метод [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) для получения [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) и **Bound** при рендеринге Excel в PDF или изображение. Вот краткое описание параметров метода [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)).
+Aspose.Cells предоставляет абстрактный класс [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler), у которого есть метод [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw-com.aspose.cells.DrawObject-float-float-float-float-). Пользователь может реализовать [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) и использовать метод [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw-com.aspose.cells.DrawObject-float-float-float-float-) для получения [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) и **Bound** при рендеринге Excel в PDF или изображение. Вот краткое описание параметров метода [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw-com.aspose.cells.DrawObject-float-float-float-float-).
 
 - drawObject: [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) будет инициализирован и возвращен при рендеринге
 
@@ -42,3 +42,4 @@ Aspose.Cells предоставляет абстрактный класс [**Dra
 \----------------------
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

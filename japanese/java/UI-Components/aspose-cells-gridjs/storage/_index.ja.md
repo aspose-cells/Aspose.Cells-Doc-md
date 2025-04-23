@@ -15,11 +15,11 @@ aliases:
 ## 一般的なファイル処理 
 スプレッドシートファイルをインポートした後、
 
-GridJsは、**`Config.getFileCacheDirectory()`** フォルダ内に指定されたuidのキャッシュファイルを作成します。
+GridJsは指定されたuidのキャッシュファイルを **`Config.getFileCacheDirectory()`** フォルダに作成します。
 
-[Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/java/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat")の形式で
+[Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/java/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat")形式で、
 
-GridJsは、**`Config.getPictureCacheDirectory()`**フォルダ内の形状/画像をすべてZIPアーカイブファイルに保存し、後でクライアントUIで表示するために形状/画像を保持します。
+また、Shapeや画像をすべてzipアーカイブファイルとして **`Config.getPictureCacheDirectory()`** フォルダに保存し、後でクライアントUIでShapeや画像を表示します。
 
 クライアントUIでの更新操作後、
 
@@ -99,7 +99,7 @@ public class LocalFileCache extends GridCacheForStream {
 ```
 B. GridJsWorkbook.CacheImpを設定しない場合、
 
-GridJsは、デフォルトのキャッシュディレクトリである**`Config.getFileCacheDirectory()`**フォルダ内にファイルを作成して保存します。
+GridJsは **`Config.getFileCacheDirectory()`** フォルダ内にファイルの作成と保存を行います。これは既定のキャッシュディレクトリで、設定可能です。
 
 ### 更新された結果ファイルの取得方法
 #### 1. ファイルの指定されたUID 

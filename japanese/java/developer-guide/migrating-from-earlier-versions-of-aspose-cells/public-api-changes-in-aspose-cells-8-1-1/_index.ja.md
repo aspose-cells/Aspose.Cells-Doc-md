@@ -34,3 +34,4 @@ HtmlSaveOptionsクラスはPresentationPreferenceプロパティのgetter/setter
 {{% /alert %}}
 ## **CellsExceptionの動作の変更**
 以前のリリースのAspose.Cells for Java APIでは、破損している可能性のあるスプレッドシートをWorkbookのインスタンスにロードすると、APIは問題がどこにあるかを指摘せずに一般的なメッセージをスローしていました。8.1.1では、テンプレートファイルの読み込み時にどこ（どのセル）で何（式の式）が例外を引き起こすかを指摘する意味のあるメッセージとともに例外をスローするようにこの動作を変更しました。
+{{< app/cells/assistant language="java" >}}

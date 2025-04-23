@@ -11,13 +11,13 @@ Wenn die Zelle Text oder eine Zeichenkette enthält, die jedoch breiter ist als 
 
 - [**HtmlCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT): Anzeige wie in MS Excel, abhängig von der nächsten Zelle. Wenn die nächste Zelle null ist, wird die Zeichenkette überquert oder es wird abgeschnitten.
 
-- [**HtmlCrossType.MS_EXPORT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#MS_EXPORT): Anzeige der Zeichenfolge wie bei MS Excel-Exportierung in HTML.
+- [**HtmlCrossType.MS_EXPORT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#MS-EXPORT): Anzeige der Zeichenfolge wie bei MS Excel-Exportierung in HTML.
 
-- [**HtmlCrossType.CROSS**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS): Zeigen Sie HTML-Cross-String an, die Leistung bei der Erstellung großer HTML-Dateien ist mehr als zehnmal schneller als beim Wert [**DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT) oder [**FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL) einstellen.
+- [**HtmlCrossType.CROSS**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS): Zeigen Sie HTML-Cross-String an, die Leistung bei der Erstellung großer HTML-Dateien ist mehr als zehnmal schneller als beim Wert [**DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT) oder [**FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT-TO-CELL) einstellen.
 
-- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT): Zeigen Sie HTML-Cross-String an und verbergen Sie den rechten String, wenn sich die Texte überlappen.
+- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS-HIDE-RIGHT): Zeigen Sie HTML-Cross-String an und verbergen Sie den rechten String, wenn sich die Texte überlappen.
 
-- [**HtmlCrossType.FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL): Zeigen Sie nur den String innerhalb der Breite der Zelle an.
+- [**HtmlCrossType.FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT-TO-CELL): Zeigen Sie nur den String innerhalb der Breite der Zelle an.
 
 ## **Geben Sie an, wie die Zeichenfolge im Ausgabe-HTML mit HtmlCrossType gekreuzt wird.**
 
@@ -28,3 +28,4 @@ Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](51740747.xlsx) und sp
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-SpecifyHtmlCrossTypeInOutputHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

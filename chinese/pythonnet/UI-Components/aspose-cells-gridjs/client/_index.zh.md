@@ -3,7 +3,16 @@ title: 与GridJs客户端端协同工作
 type: docs
 weight: 250
 url: /zh/python-net/aspose-cells-gridjs/client/
-keywords: 自定义，标志，设置，API，gridjs，python，编辑，电子表格，查看，查看器，编辑器，Excel
+keywords: GridJs，自定义，logo，设置，API，gridjs，Python，编辑，电子表格，视图，查看器，编辑器，Excel，JS API，客户端 API
+description: 本文介绍了GridJs中的客户端JavaScript API或函数。
+aliases:
+  - /python-net/aspose-cells-gridjs/how-to-use-gridjs-client-api/
+  - /python-net/aspose-cells-gridjs/work-with-client-api/
+  - /python-net/aspose-cells-gridjs/use-js-api/
+  - /python-net/aspose-cells-gridjs/gridjs-spreadsheet-api/
+  - /python-net/aspose-cells-gridjs/client-api/
+  - /python-net/aspose-cells-gridjs/js-api/
+  - /python-net/aspose-cells-gridjs/javascript-api/
 ---
 
 # 与GridJs客户端端协同工作
@@ -16,24 +25,10 @@ keywords: 自定义，标志，设置，API，gridjs，python，编辑，电子�
 xs = x_spreadsheet(id, options)
     // the parameters are:
     id:the html node id ,for example :'#gridjs-demo' for the html  <div id="gridjs-demo"></div>
-    options:the load options,
-     // the parameters for options:
-	    updateMode:  currently we only support 'server'
-	    updateUrl:  set the server side  url for update action based on json
-	    mode: read means readonly spread sheet/edit means we can edit the spread sheet
-            allowSelectTextInTextBoxInReadMode: whether allow select text in TextBox control when in read mode,the default value is false
-	    showToolbar:   means whether to show toolbar
-	    showFileName:  whether to show the filename 
-	    local:         support multiple language for menus ,the locale can be:
-	                        en, cn, es, pt, de, ru, nl, 
-	                   for  English,Chinese,Spanish,Portuguese,German,Russian,Dutch
-			        ar, fr,id,it,ja
-                           for  Arabic,French,Indonesian,Italian,Japanese
-			        ko,th,tr,vi,cht
-                           for  Korean,Thai,Turkey,Vietnamese,Traditional Chinese                  
-	    showContextmenu:   means whether to show contextmenu on right click on a cell
-            loadingGif:  the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
-	for example the below code init a x_spreadsheet object.
+    options: the load options
+
+
+for example the below code init a gridjs_spreadsheet object.
 	xs = x_spreadsheet('#gridjs-demo', {
 			updateMode:'server',
 			updateUrl:'/GridJs2/UpdateCell',
@@ -43,6 +38,26 @@ xs = x_spreadsheet(id, options)
 			showContextmenu: true
 			})
 ```
+加载选项的参数：
+
+| 参数 | 描述 | 默认值 | 可选 |
+| --- | --- | --- | --- |
+| `allowSelectTextInTextBoxInReadMode` | 在只读模式下是否允许在 TextBox 控件中选择文本。<br>默认值为 false。 | `false` | 是 |
+| `checkSyntax` | 是否对用户输入的文本内容进行语法检查和拼写纠错。<br>与 setSyntaxCheckUrl 配合使用。<br>默认值为 false。 | `false` | 是 |
+| `loadingGif` | 加载图 images / shapes 时的 GIF 动图 URL。<br>默认值为 content/img/updating.gif。 | `content/img/updating.gif` | 是 |
+| `local` | 设置菜单和工具栏的本地化信息，支持多种语言。<br>可能的值包括：<br>- `en, zh, es, pt, de, ru, nl`（英语、中文、西班牙语、葡萄牙语、德语、俄语、荷兰语）<br>- `ar, fr, id, it, ja`（阿拉伯语、法语、印尼语、意大利语、日语）<br>- `ko, th, tr, vi, cht`（韩语、泰语、土耳其语、越南语、繁体中文字幕） | `en` | 是 |
+| `mode` | 可以是 `read` 或 `edit`；`read` 表示只读电子表格；`edit` 表示可以编辑电子表格。 | 无 | 否 |
+| `searchHighlightColor` | 搜索关键词的高亮背景色。<br>颜色必须包括透明度通道。 | `#dbe71338` | 是 |
+| `showCheckSyntaxButton` | 是否在工具栏显示语法检查和拼写纠错按钮。<br>默认值为 false。 | `false` | 是 |
+| `showContextmenu` | 是否在单元格右键点击时显示右键菜单。<br>默认值为 true。 | `true` | 是 |
+| `showFileName` | 是否显示文件名。 | `true` | 是 |
+| `showFormulaExplain` | 鼠标悬停时是否显示应用于此单元格的公式说明。<br>与 setFormulaExplainUrl 配合使用。<br>默认值为 false。 | `false` | 是 |
+| `showFormulaTip` | 鼠标悬停时是否显示应用于此单元格的现有公式。<br>默认值为 false。 | `false` | 是 |
+| `showNonEditableSymbolInCell` | 是否在单元格显示客户端不可编辑符号。<br>设置为 true 后，点击右键菜单“禁用编辑”后，禁用编辑的区域会显示符号。<br>默认值为 false。 | `false` | 是 |
+| `showToolbar` | 是否显示工具栏。 | `true` | 是 |
+| `updateMode` | 目前仅支持 `server`。 | `server` | 否 |
+| `updateUrl` | 根据 JSON 设置服务器端的更新操作 URL。 | 无 | 否 |
+| `view` | 设置表格视图大小，例如 `{width: () => 1000, height: ()=> 500}`。 | `{width: () => document.documentElement.clientWidth, height: () => document.documentElement.clientHeight }` | 是 |
 
 - 用json数据加载
 ```javascript
@@ -69,6 +84,26 @@ xs.setActiveCell(row,col);
 // the parameters are:
 	row: the cell row
 	col: the cell column
+```
+
+-  设置多个实例的激活状态 
+```javascript
+xs.setActiveForMultipleInstance(isacitve);
+// the parameters are:
+	isacitve: whether need to do edit operation at this xs instanse 
+// when there are more than one GridJs instances in one page, we need to call this method.
+// we only support do edit operation for one instances at a page.
+// for example,if we have two instances: xs1 and xs2 in one html page.
+// if we need to keep edit operation in xs1,
+// we shall call:
+xs1.setActiveForMultipleInstance(true);
+xs2.setActiveForMultipleInstance(false);
+
+// if we need not do any edit operation for both,
+// we shall call:
+xs1.setActiveForMultipleInstance(false);
+xs2.setActiveForMultipleInstance(false);
+
 ```
 
 - 为服务器端操作的形状/图像操作设置信息
@@ -110,6 +145,25 @@ xs.setOleDownloadInfo(oleActionUrl);
             const oleDownloadUrl = "/GridJs2/Ole";
             xs.setOleDownloadInfo(oleDownloadUrl);
 ```
+-  设置语法检查和拼写更正操作的服务器端信息
+```javascript
+xs.setSyntaxCheckUrl(checkUrl);
+// the parameters are:
+	checkUrl: the  syntax checking & spell correction operation action URL in the server side controller
+    for example: 
+            const checkurl = "/GridJs2/CheckSyntax";
+            xs.setSyntaxCheckUrl(checkurl);
+```
+
+-  设置公式说明的服务器端信息
+```javascript
+xs.setFormulaExplainUrl(formulaExplainUrl);
+// the parameters are:
+	formulaExplainUrl: the  formula explanation  action URL in the server side controller
+    for example: 
+            const formulaExplainUrl = "/GridJs2/FormulaExplain";
+            xs.setFormulaExplainUrl(formulaExplainUrl);
+```
 
 
 ___
@@ -138,6 +192,18 @@ xs.setFileName(name)
 	name:the file name with extension ,for example trip.xlsx
 ```
 
+-  用于发送邮件功能的回调函数
+```javascript
+xs.setEmailSendCallFunction(callback)
+// the parameters is:
+	callback: the callback function to handle email sending, receives a mailObj parameter
+		callback: function(mailObj) {
+			// mailObj properties:
+			// mailObj.receiver: the email address of the receiver, e.g., 'example@gmail.com'
+			// mailObj.type: the format of the file to be sent, can be 'html', 'xlsx', or 'pdf'
+		}
+```
+
 - 是否启用GridJs的窗口按键事件
 ```javascript
 xs.enableKeyEvent(isenable)
@@ -154,7 +220,8 @@ xs.destroy()
 
 - 为图像/形状设置可见过滤器
 ```javascript
-    // need to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
+xs.setVisibleFilter((sheet,s) =>{})
+    //  to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
 	sheet:the sheet instance
 	s:the image or shape instance
     for example: 
@@ -165,15 +232,37 @@ xs.destroy()
 	//this will make invisible for image/shape in all sheets 
 		xs.setVisibleFilter((sheet,s) => {  return false; })
 	//if all the image/shape is already loaded and you want to change the visible filter at runtime,you can call the below code to trigger a reload for image/shape
-		xs.setActiveSheet(xs.getActiveSheet())
+		xs.reRender()
 ```
 
 - 获取选定的图像/形状，如果没有选定则返回空
 ```javascript
 xs.sheet.selector.getObj()
 ```
+-  在指定单元格位置显示或隐藏 HTML 节点
+```javascript
+xs.sheet.showHtmlAtCell(isShow, html, ri, ci, deltaX, deltaY)
 
-- 为图像/形状设置可选择状态 
+    //the parameters are:
+    // - isShow: Boolean value indicating whether to show or hide the HTML content.
+    // - html: The HTML string to be displayed.
+    // - ri: Row index of the target cell.
+    // - ci: Column index of the target cell.
+    // - deltaX: (Optional) Relative X-position adjustment from the top-left corner of the cell.
+    // - deltaY: (Optional) Relative Y-position adjustment from the top-left corner of the cell.
+
+    // Example usage:
+    // Show HTML at cell A1
+    xs.sheet.showHtmlAtCell(true, "<span>html span</span><input length='30' id='myinput'>test</input>", 0, 0);
+
+    // Hide the HTML node
+    xs.sheet.showHtmlAtCell(false);
+
+    // Note: When an HTML node is shown, the default GridJS event handling is disabled to allow interaction with the HTML content.
+    // This means you cannot select any cells or perform edit operations until the HTML node is hidden.
+```
+
+-  设置图片/形状的可选状态 
 ```javascript
 const shape=xs.sheet.selector.getObj();
 shape.setControlable(isenable)
@@ -329,7 +418,7 @@ xs.sheet.data.displayRight2Left
 ```
 
 ## 事件回调
--  我们可以跟踪以下事件
+- 我们可以追踪以下事件
 ```javascript
  xs.on('cell-selected', (cell, ri, ci) => {
                 console.log('cell selected:', cell, ', ri:', ri, ', ci:', ci);
@@ -348,13 +437,42 @@ xs.sheet.data.displayRight2Left
             }).on('sheet-loaded', (id,name) => {
                 console.log('sheet load finished:', id, ', name: ',name);
             }).on('cell-edited', (text, ri, ci) => {
+	        //just edit the cell
                 console.log('text:', text, ', ri: ', ri, ', ci:', ci);
+            }).on('cells-updated', (name, cells) => {
+	       //cell value got updated
+                console.log('cells updated for sheet name:', name);
+                cells.forEach((acell, index, array) => {
+                console.log('acell got updated:', acell);
+            })
+            }).on('cells-deleted', (range) => {
+                console.log('cells deleted :', range);
+            }).on('rows-deleted', (ri, n) => {
+                console.log('rows-deleted :', ri, ",size", n);
+
+            }).on('columns-deleted', (ci, n) => {
+                console.log('columns-deleted :', ci, ",size", n);
+
+            }).on('rows-inserted', (ri, n) => {
+                console.log('rows-inserted :', ri, ",size", n);
+
+            }).on('columns-inserted', (ci, n) => {
+                console.log('columns-inserted :', ci, ",size", n);
+
             });
+```
+- 预检事件
+  如果返回 false，插入/删除操作将不会继续。
+```javascript
+  xs.checkRowInsert = (ri, size) => { if (ri % 2 == 1) return true; else return false; };
+  xs.checkColumnInsert = (ci, size) => { if (ci % 2 == 1) return true; else return false; };
+  xs.checkRowDelete = (ri, size) => { if (ri % 2 == 1) return true; else return false; };
+  xs.checkColumnDelete = (ci, size) => { if (ci % 2 == 1) return true; else return false; };
 ```
 
 ## 自定义
 
--  设置主页图标和链接
+- 设置主页图标和链接
 ```javascript
 xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
     // the parameters are:
@@ -363,16 +481,51 @@ xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
 	for example ,the below code will set the new logo and with link to google.com
 	xs.sheet.menubar.icon.setHomeIcon('https://forum.aspose.com/letter_avatar_proxy/v4/letter/y/3e96dc/45.png','https://www.google.com')
 ```
--  显示菜单栏
+- 显示菜单栏
 ```javascript
 xs.sheet.menubar.show()
 ```
 
--  隐藏菜单栏
+- 隐藏菜单栏
 ```javascript
 xs.sheet.menubar.hide()
 ```
 
+
+## 用于TextBox对象的API
+TextBox是一种特殊类型的形状，其类型属性为:"TextBox"
+例如：以下代码将显示哪种形状是文本框
+
+```javascript
+for (let shape of xs.sheet.data.shapes) {
+    if (shape.type === 'TextBox') {
+        console.log(shape.id + ' is a textbox');
+    }
+}
+```
+
+- 更改文本框对象的背景颜色
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.setBackgroundColor('#FFFF00');
+```
+- 自动更改背景颜色和文本颜色以实现视觉效果
+```javascript
+    setActiveEffect(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
+```
+
+-  隐藏/显示文本框对象中的文本内容
+```javascript
+    hideText(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
+```
 
 有关详细信息，您可以在此处查看示例
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>

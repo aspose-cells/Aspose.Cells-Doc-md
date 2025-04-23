@@ -16,3 +16,4 @@ Det följande kodexemplet tilldelar ett ogiltigt anpassat nummerformat till [**S
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-CheckCustomNumberFormat-CheckCustomNumberFormat.java" >}}
+{{< app/cells/assistant language="java" >}}

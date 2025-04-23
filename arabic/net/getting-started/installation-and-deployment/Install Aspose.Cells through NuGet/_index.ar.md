@@ -73,3 +73,4 @@ NuGet هو أسهل طريقة لتحميل وتثبيت واجهات برمجة
 - انقر **إضافة/إزالة البرامج**.
 - حدد Aspose.Cells for .NET (الإصدار).
 - انقر **تغيير/إزالة** لإزالة Aspose.Cells.
+{{< app/cells/assistant language="csharp" >}}

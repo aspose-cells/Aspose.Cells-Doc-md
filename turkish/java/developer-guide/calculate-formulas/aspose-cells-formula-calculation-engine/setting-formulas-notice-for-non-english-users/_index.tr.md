@@ -17,3 +17,4 @@ Aspose.Cells ile formül oluşturan diğer dillerdeki kullanıcıların dikkat e
    Bazı dil seçenekleri veya ayarlar için fonksiyon parametrelerinin ayırıcısı noktalı virgül olabilir, ancak Aspose.Cells İngiliz stil virgül kullanır. Örneğin, "=IF(C5=0,0,C3/C4)" yerine "=IF(C5=0;0;C3/C4)" kullanın. 
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -18,3 +18,4 @@ keywords: セル値のテキスト幅を取得、セル値のテキスト幅を�
 ## サンプルコード
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-CellsHelper-GetTextWidth-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -158,3 +158,4 @@ workbook.Save(output);
 从Aspose.Cells for .NET 8.4.2开始，枚举字段PasteType.All与Excel的"All"功能粘贴单元格范围时的行为不同。现在，PasteType.All还会将列宽复制到目标范围上，而不同于Excel的"All"功能。为了模仿Excel的"All"行为，请使用PasteType.Default。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

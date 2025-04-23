@@ -53,3 +53,4 @@ Gemäß dem angegebenen Zellenbereich wird das List-Objekt im Arbeitsblatt von A
 In dem unten gegebenen Beispiel haben wir dasselbe [**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) erstellt, indem wir die Aspose.Cells-API verwendet haben, wie wir es im obigen Abschnitt mit Microsoft Excel erstellt haben.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-CreatingListObject-CreatingListObject.java" >}}
+{{< app/cells/assistant language="java" >}}

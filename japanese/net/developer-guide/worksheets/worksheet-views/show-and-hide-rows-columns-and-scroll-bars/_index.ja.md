@@ -75,3 +75,4 @@ Aspose.CellsはExcelファイルを表す[**Workbook**](https://reference.aspose
 以下は、Excelファイルであるbook1.xlsを開き、両方のスクロールバーを非表示にし、変更されたファイルをoutput.xlsとして保存する完全なコードです。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-DisplayHideScrollBars-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

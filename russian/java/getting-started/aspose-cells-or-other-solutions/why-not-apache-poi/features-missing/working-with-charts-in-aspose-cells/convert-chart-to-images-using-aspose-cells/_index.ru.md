@@ -35,3 +35,4 @@ chart.toImage(new FileOutputStream(dataDir + "AsposeChartImage.png"), imgOpts);
 Для получения более подробной информации посетите [Преобразование диаграммы в изображение](/java/converting-chart-to-image).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

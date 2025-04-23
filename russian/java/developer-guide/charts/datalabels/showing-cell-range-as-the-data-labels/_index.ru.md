@@ -28,3 +28,4 @@ Aspose.Cells предоставляет метод [**DataLabels.setShowCellRang
 Нижеприведенный образец кода получает доступ к меткам данных диаграммы и устанавливает метод [**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) в true, чтобы выбрать параметр **Метка содержит - Значение из ячеек**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ShowCellRangeAsTheDataLabels-ShowCellRangeAsTheDataLabels.java" >}}
+{{< app/cells/assistant language="java" >}}

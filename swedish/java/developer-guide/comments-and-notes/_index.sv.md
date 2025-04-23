@@ -48,3 +48,4 @@ Aspose.Cells tillhandahåller också den här funktionen. Nedan finns ett kodexe
 - [Hur man ställer in kommentarens bakgrund](/cells/sv/java/how-to-set-comment-background/)
 - [Trådade Kommentarer](/cells/sv/java/threaded-comments/)
 
+{{< app/cells/assistant language="java" >}}

@@ -55,3 +55,4 @@ L'esempio seguente mostra come dividere le celle unite (C6). L'esempio utilizza 
 
 ## **Argomenti avanzati**
 - [Rileva le celle unite in un foglio di lavoro](/cells/it/net/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

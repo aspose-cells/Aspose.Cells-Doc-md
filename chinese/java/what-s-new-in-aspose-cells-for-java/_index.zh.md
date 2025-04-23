@@ -8,19 +8,119 @@ url: /zh/java/what-s-new-in-aspose-cells-for-java/
 
 本页面描述了最近发布的Aspose.Cells新功能中最有趣的内容。
 
+## Aspose.Cells for Java 25.4
+* 支持指定导出到HTML的工作表集
+* 支持获取和设置工作表的网格线颜色
+* 支持将可编辑图表导出为DOCX文件
+* 支持读取和写入敏感性标签
+* 支持将更多样式属性导出到Numbers
+* 支持导入Markdown格式的模版文件
+* 支持检测在`Cell`和`Workbook`中的公式是否使用了自定义函数
+
+## Aspose.Cells for Java 25.3
+* 支持从单元格获取显示样式，无需获取单元格对象
+* 支持获取工作簿中使用字体的二进制内容
+* 支持将Excel转换为工作簿结构的json
+* 支持将（单元值、格式、公式和注释）导出为Numbers文件
+* 支持在保存HTML时将内联样式/格式放入HTML元素内部
+* 支持在生成的HTML中高亮显示被选中的工作表标签
+* 支持为GridJs提供更多快捷键
+* 支持将Excel复制的内容粘贴到多个目标区域的GridJs中
+
+## Aspose.Cells for Java 25.2
+* 支持在使用LightCells保存时为单元格设置富文本
+* 支持读取DIF格式文件
+* 支持读取和写入DBF（dBase）格式文件
+* 支持WPS兼容的嵌入图片
+* 支持在GridJs中设置只读区域
+* 支持将Excel中的数字格式设置复制到GridJS
+* 为GridJS的自动操作提供增强功能，例如扩展空行/列、页面滚动等
+
+## Aspose.Cells for Java 25.1
+* 支持在用户自定义引擎中跳过使用自定义函数的动态数组公式的计算
+* 支持获取用户自定义引擎中外部表引用的表达式
+* 支持将自动形状和自由形状保存到 ods 文件
+* 支持读取和写入表格中的表单设置
+* 支持字体的 cmap 表中的 Format 2 子表
+* 简化将行数据列表导入到单元格的操作
+* 支持为 GridJs 插入/删除/更新单元格的更多事件
+* 支持 GridJs 的本地化十进制分隔符
+* 支持为 GridJs 搜索筛选列表
+* 支持页面内多个 GridJs 实例
+
+## Aspose.Cells for Java 24.12
+* 支持在插入/删除单元格区域时通知公式变化
+* 支持 BYROW 和 BYCOL 的 lambda 函数
+* 支持渲染 LinearGradientBrush、PathGradientBrush、HatchBrush 和 TextrueBrush 到 pcl
+* 支持在保存 html 时使用内联样式/格式而非 css
+* 支持将字体颜色、单元格颜色作为数据排序关键字
+* 支持更新 PowerQuery 公式的顺序并添加组
+* 改进 PivotField 过滤器，如多重过滤、全天过滤
+* 支持在 GridJs 中插入/删除行/列后刷新公式引用
+* 支持 GridJs 的更新监控
+* 支持在 GridJs 中实现跨列居中对齐
+
+## Aspose.Cells for Java 24.11
+* 支持 xlsx 转 pcl
+* 支持获取 PivotTable 的外部源
+* 支持获取 Excel 工作表中的表关系
+* 支持在多线程中获取单元格格式化字符串
+* 支持在 MemoryPreference 模式和公式计算中使用 "PlaceInCell" 图片
+* 支持导入/导出富文本值，如错误、实体
+* 支持添加签名行，类似于 Excel
+* 改进生成的 SVG 在不同框架中的表现行为
+* 增强自由形状的添加功能
+* 支持为 GridJs 设置不同数据类型（如日期、时间、货币等）格式
+* 支持为 GridJs 的行/列样式渲染边框
+* 改进 GridJs 的渲染和编辑功能
+
+## Aspose.Cells for Java 24.10
+* 支持获取对应外部连接的 Pivot 表源
+* 支持创建紧凑型 Pivot 表
+* 改进 Pivot 区域转换为范围的功能
+* 支持读取 CHM 文件
+* 支持导入时忽略无序的单元格/行，而非抛出异常
+* 支持删除空白行/列的更多选项
+* 支持为 GridJs 设置不同的数字格式类型
+* 支持 GridJs 的懒加载
+* 改善 GridJs 富文本单元格值的文本拆分
+
+## Aspose.Cells for Java 24.9
+* 支持为单元格创建复选框并将复选框渲染到 PDF
+* 支持将公式内容导出为 MathML 和 LaTeX
+* 支持在保存 HTML 时导出单元格地址
+* 支持解析 xlsx 的 feature 属性包
+* 优化保存 PDF 时的图片资源释放
+* 支持获取数据透视计算项/字段的公式
+* 提升分组数据透视字段计算性能
+* 支持检测OLE（对象链接和嵌入）格式
+* GridJs中公式增强：显示公式和公式解释，使用公式作为参数进行验证设置
+* 支持GridJs中用户输入的语法检测和拼写修正
+* 支持移动设备显示时间控件，当单元格格式为时间时在GridJs中显示
+* 提升GridJs在移动设备上的验证编辑效果和失败提示
+
+## Aspose.Cells for Java 24.8
+* 支持新功能：VALUETOTEXT、ARRAYTOTEXT
+* 支持按数据透视字段项目对数据透视表排序
+* 支持访问所有包含“放置在单元格内”图片的单元格
+* 支持在加密文件时保持文档属性不加密
+* 支持GridWeb中编辑空格的公式
+* 支持配置在GridJs中显示或隐藏不可见形状
+* 改进GridJs的功能，例如设置、公式编辑、输入检查
+
 ## Aspose.Cells for Java 24.7
-* 在公式中支持DROP功能
-* 改善对于复杂参数的LET和MAKEARRAY函数计算性能
-* 在图表中支持星型字符的轮廓
-* 支持将对象制作为装饰品
+* 支持公式中的DROP函数
+* 改善复杂参数下LET和MAKEARRAY函数的计算性能
+* 支持在图表中轮廓的星形字符
+* 支持将对象设为装饰性
 * 支持交换系列
-* 改进TreeMap图表的显示
-* 支持将"覆盖单元格"的图片转换为"单元格内"
-* 默认支持加载本地Office云字体
-* 在导入JSON数据时支持保留JSON模式
-* 支持导出为AZW3格式文件
-* 支持在为GridJS的单元格设置自动换行后自动设置高度
-* 支持使用流写入方式生成JSON数据
+* 改进树状图显示
+* 支持将“悬浮单元格”的图片转换为“单元格内”
+* 默认加载本地Office云字体
+* 支持在导入json数据时保持json架构
+* 支持导出到AZW3格式文件
+* 支持在GridJs中设置单元格自动换行后自动调整高度
+* 支持采用流写入方式生成json数据
 
 ## Aspose.Cells for Java 24.6
 * 渲染增强功能：颜色饱和度和色温调整，双色调，Webp 图片
@@ -207,3 +307,4 @@ url: /zh/java/what-s-new-in-aspose-cells-for-java/
 * 改进转换Excel到HTML的性能。
 
 
+{{< app/cells/assistant language="java" >}}

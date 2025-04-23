@@ -32,3 +32,4 @@ url: /ar/net/create-dynamic-scrolling-chart/
 ```
 
 يمكنك محاولة تغيير الرقم "10" إلى "15" في خلية "Sheet1!$H$20"، وسيقوم الرسم الديناميكي بحساب أحدث 15 مجموعة من البيانات. الآن لدينا رسم بياني متدحرج ديناميكي باستخدام Aspose.Cells بنجاح.
+{{< app/cells/assistant language="csharp" >}}

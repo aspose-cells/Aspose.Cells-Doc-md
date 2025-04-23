@@ -62,3 +62,4 @@ Una vez que carga el [archivo de Excel fuente](5115255.xlsx) con un filtro perso
 Así es como se usa la clase CustomLoadFilter según los nombres de las hojas de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-CustomFilteringPerWorksheet-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

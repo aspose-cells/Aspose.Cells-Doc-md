@@ -20,3 +20,4 @@ El siguiente código de ejemplo carga el [archivo de Excel de muestra](5115151.x
 Ahora usa la clase creada anteriormente en el código como se muestra a continuación:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-TotalsInOtherLanguages-UsingGlobalizationSettings.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

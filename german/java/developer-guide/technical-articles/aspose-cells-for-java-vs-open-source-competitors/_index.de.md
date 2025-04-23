@@ -148,3 +148,4 @@ Die folgende Tabelle versucht, einen Funktionsüberblick darüber zu geben, wie 
 |Steuerelemente in Diagramme einfügen|  |  |Unterstützt|
 |Formelberechnungs-Engine|  |  |Unterstützt|
 |API zum Suchen|Unterstützt|Unterstützt|Unterstützt|
+{{< app/cells/assistant language="java" >}}

@@ -68,3 +68,4 @@ Du kan inte återspecificera skriptstigen genom att lägga till följande rader 
 Dessa inställningar kan vara obligatoriska i vissa fall / scenarier om du använder Aspose.Cells.GridWeb-kontrollen i Filsystemwebbplatser eller med MS Ajax-tillägg osv.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

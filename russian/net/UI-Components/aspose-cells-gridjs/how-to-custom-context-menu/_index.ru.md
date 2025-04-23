@@ -11,9 +11,29 @@ aliases:
   - /net/aspose-cells-gridjs/work-with-context-menu/
   - /net/aspose-cells-gridjs/work-with-context-menus/
 ---
+# Настраиваемое встроенное контекстное меню
+У нас есть некоторые встроенные пункты контекстного меню, например вставка/удаление строки/столбца и так далее.
+например: чтобы удалить пункты меню "Удалить строку", "Ссылка", "Скрыть" в контекстных меню, предположим, что id div GridJs — "gridjs-divid"
+```javascript
+   //get context menus parent dom
+   const menus=document.querySelector("#gridjs-divid > div > div.x-spreadsheet-sheet > div.x-spreadsheet-contextmenu");
+   var childs = menus.childNodes;
+   for (var i = childs.length - 1; i >= 0; i--)
+   {  
+     // check the item text
+     if(childs[i].childNodes[0]?.textContent==="Delete row"||childs[i].childNodes[0]?.textContent==="Link"||childs[i].childNodes[0]?.textContent==="Hide")
+       {
+         menus.removeChild(childs[i]);
+       }
+   }
+```
+После вызова этой функции 
 
-# Пользовательские контекстные меню
-У нас есть некоторые встроенные элементы контекстного меню, например, вставить/удалить строку/столбец и так далее
+![todo:страница настройки встроенного меню](gridjs_customize_build_in_context_menu.png)
+
+
+# Самостоятельное определение контекстных меню
+У нас есть некоторые встроенные пункты контекстного меню, например вставка/удаление строки/столбца и так далее.
 Однако, если пользователю нужно настраивать элементы контекстного меню.
 Мы поддерживаем установку элементов контекстного меню в параметрах загрузки.
 например:

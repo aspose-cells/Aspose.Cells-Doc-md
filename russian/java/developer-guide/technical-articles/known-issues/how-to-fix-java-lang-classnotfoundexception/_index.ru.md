@@ -44,3 +44,4 @@ API Aspose.Cells for Java зависит от Bouncy Castle для функци�
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="java" >}}

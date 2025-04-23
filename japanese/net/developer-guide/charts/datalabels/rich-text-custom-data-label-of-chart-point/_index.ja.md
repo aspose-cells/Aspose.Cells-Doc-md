@@ -18,3 +18,4 @@ Aspose.Cellsを使用して、チャートポイントのリッチテキスト�
 次のコードは、最初のシリーズの最初のチャートポイントにアクセスし、そのテキストを設定し、その後、最初の10文字のフォントを赤に設定し、**true**に太字を設定する方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RichTextCustomDataLabel-RichTextCustomDataLabelOfChartPoint.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

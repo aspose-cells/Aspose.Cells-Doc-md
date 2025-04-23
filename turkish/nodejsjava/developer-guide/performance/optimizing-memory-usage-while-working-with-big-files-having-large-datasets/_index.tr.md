@@ -17,7 +17,7 @@ Hücre verileri için kullanılan belleği azaltmak için [**MemorySetting.MEMOR
 
 Aşağıdaki örnek, Aspose.Cells for Node.js via Java ile büyük verilerle çalışırken bellek kullanımını nasıl optimize edeceğinizi göstermektedir.
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-nodejs-optimize-memory-usage-while-working-with-large-data.java" >}}
+{{< gist "aspose-cells-gists" "eb9faad10b8effdcfe82e35b25d5a3c0" "optimize-memory-usage-while-working-with-large-data.js" >}}
 
 ## **Dikkat**
 

@@ -23,3 +23,4 @@ Dies ist die Konsolenausgabe des oben genannten Beispielcodes, das mit der [Beis
  DC020317-E6E2-4A62-B9FA-B3EFE16626F4
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

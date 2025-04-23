@@ -22,3 +22,4 @@ Il seguente snippet di codice dimostra ciò aggiungendo dati con Smart Markers n
 L'implementazione della classe *DataObject* è riportata di seguito
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AllowLeadingApostrophe-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

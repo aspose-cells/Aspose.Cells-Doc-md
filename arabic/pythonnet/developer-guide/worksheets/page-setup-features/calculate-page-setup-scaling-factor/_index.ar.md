@@ -3,8 +3,8 @@ title: حساب عامل تحجيم إعداد الصفحة
 type: docs
 weight: 300
 url: /ar/python-net/calculate-page-setup-scaling-factor/
-description: يقدم هذا المقال رمزًا عينيًا يشرح كيفية استخدام Aspose.Cells for Python via .NET APIs لحساب عامل تحجيم إعداد الصفحة باستخدام خيار Fit to n page(s) wide by m tall لورقة عمل Excel برمجيًا.
-keywords: مكتبة Python Excel، Python Fit to n page wide by m tall excel، حساب عامل تحجيم إعداد الصفحة في Python.
+description: يقدم هذا المقال رمز نموذج يوضح كيفية استخدام Aspose.Cells لـ Python via .NET APIs لحساب معامل تكبير إعداد الصفحة باستخدام خيار التلاؤم لعرض n صفحة (صفحات) واسعة و m عالية من ورقة عمل إكسل برمجياً.
+keywords: مكتبة إكسل بايثون، بايثون التناسب مع n صفحة عرض واسعة و m عالية، حساب معامل تكبير إعداد الصفحة في بايثون.
 ---
 
 {{% alert color="primary" %}}

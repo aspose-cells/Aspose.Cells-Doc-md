@@ -11,7 +11,7 @@ NumbersはApple Inc.によって開発されたスプレッドシートアプリ
 
 ## **Aspose.Cellsを使用してApple Inc.が開発したNumbersスプレッドシートを読む**
 
-次のサンプルコードは[サンプルナンバースプレッドシート](sampleNumbersByAppleInc.numbers)をロードし、[出力PDF形式](outputNumbersByAppleInc.pdf)に変換します。正常にロードするには、**[LoadOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/)**クラスを使用し、そのコンストラクタのパラメータとして**[LoadFormat::Numbers](https://reference.aspose.com/cells/cpp/aspose.cells/loadformat/)**を指定する必要があります。提供されたリンクから両方をダウンロードしてください。任意のNumbersスプレッドシートでコードを試すことができます。詳細については、コードのコメントもお読みください。
+次のサンプルコードは、[サンプルナンバースプレッドシート](sampleNumbersByAppleInc.numbers)を読み込み、[出力PDFフォーマット](outputNumbersByAppleInc.pdf)に変換する例です。これを成功させるには、**[LoadOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/)**クラスを使用し、そのコンストラクタで**[LoadFormat::Numbers](https://reference.aspose.com/cells/cpp/aspose.cells/loadformat/)**をパラメータとして指定する必要があります。指定されたリンクから両方ともダウンロードしてください。任意のNumbersスプレッドシートで試すことができます。コードのコメントもご参照ください。
 
 ## **サンプルコード**
 

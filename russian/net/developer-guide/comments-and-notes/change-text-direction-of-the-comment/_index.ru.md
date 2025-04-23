@@ -14,3 +14,4 @@ Microsoft Excel позволяет пользователям добавлять
 Aspose.Cells предоставляет свойство [**Shape.TextDirection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textdirection) для установки направления текста комментария. В следующем образце кода показано использование свойства [**Shape.TextDirection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textdirection) для установки направления текста комментария.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeTextDirection-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

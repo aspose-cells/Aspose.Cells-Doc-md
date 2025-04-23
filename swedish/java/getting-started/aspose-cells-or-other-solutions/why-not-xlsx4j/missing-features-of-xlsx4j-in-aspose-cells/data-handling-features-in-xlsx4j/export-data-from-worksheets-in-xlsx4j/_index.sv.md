@@ -47,3 +47,4 @@ for (int i = 0 ; i < dataTable.length ; i++)
 För mer detaljer, besök [Exportera data från kalkylblad](/java/exportera-data-fran-kalkylblad).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

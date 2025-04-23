@@ -1,10 +1,10 @@
 ---
 title: Använda funktionen ICustomFunction
 description: Denna artikel beskriver hur man skapar en anpassad funktion i Microsoft Excel med hjälp av ICustomFunction funktionen i Aspose.Cells biblioteket. Genom att ladda en befintlig Excel fil eller skapa en ny Excel fil kan vi använda de metoder som tillhandahålls av Aspose.Cells för att definiera och registrera anpassade funktioner och få resultaten. Till slut sparar vi den modifierade Excel filen på disk.
-keywords: Aspose.Cells, Excel, ICustomFunction funktioner, anpassade funktioner
+keywords: Aspose.Cells, Excel, ICustomFunction funktioner, anpassade funktioner, hur man beräknar anpassade funktioner.
 type: docs
 weight: 30
-url: /sv/net/using-icustomfunction-feature/
+url: /sv/net/how-to-calculate-custom-fuctions/
 ---
 
 {{% alert color="primary" %}} 
@@ -90,3 +90,4 @@ Eftersom Aspose.Cells API: er ger ReferredArea i "paramsList", kommer ReferredAr
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -3,8 +3,8 @@ title: 设置页面选项
 type: docs
 weight: 10
 url: /zh/python-net/setting-page-options/
-description: 本文提供了使用 Aspose.Cells for Python via .NET API 对 Excel 工作表的页面选项进行程序化设置的示例代码。 您将能够设置页面方向、缩放因子、适合页面选项、纸张大小、打印质量、第一页编号。
-keywords: Python Excel库，Python设置Excel页面方向，使用Python设置Excel缩放因子，使用Python设置Excel工作表纸张尺寸，Python如何设置页面方向，Python如何设置缩放因子，Python如何设置适应页面选项，Python如何设置纸张尺寸，Python如何设置打印质量，Python如何设置起始页码。
+description: 本文提供了使用Aspose.Cells for Python via .NET API编程设置Excel工作表页面选项的示例代码。你将能够设置页面方向、缩放比例、适合页面的选项、纸张大小、打印质量和首页编号。
+keywords: Python Excel 库，Python 设置Excel页面方向，使用Python设置Excel缩放比例，设置Excel工作表纸张大小，Python 如何设置页面方向，Python 如何设置缩放比例，Python 如何设置适合页面选项，Python 如何设置纸张大小，Python 如何设置打印质量，Python 如何设置首页编号。
 ---
 
 {{% alert color="primary" %}}
@@ -15,9 +15,9 @@ keywords: Python Excel库，Python设置Excel页面方向，使用Python设置Ex
 
 ## **如何设置页面选项**
 
-Aspose.Cells for Python via .NET完全支持页面设置选项。本文解释了如何使用Aspose.Cells for Python via .NET设置页面选项，并提供了设置的代码示例：
+Aspose.Cells for Python via .NET 完全支持页面设置选项。本文阐述了如何用 Aspose.Cells for Python via .NET 设置页面选项，并附上示例代码：
 
-Aspose.Cells for Python via .NET提供了一个代表Microsoft Excel文件的[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)类。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)类包含允许访问Excel文件中每个工作表的[**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets)集合。工作表由[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)类表示。
+Aspose.Cells for Python via .NET 提供了一个类，[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)，代表一个Microsoft Excel文件。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) 类包含一个 [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) 集合，可以访问Excel文件中的每个工作表。一个工作表由 [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) 类表示。
 
 [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)类提供了[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)属性，用于设置工作表的页面设置选项。事实上，此[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)属性是[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)类的一个对象，用于设置打印工作表的不同页面布局选项。[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)类提供了用于设置页面设置选项的各种属性。以下是其中一些属性的讨论。
 
@@ -27,30 +27,30 @@ Aspose.Cells for Python via .NET提供了一个代表Microsoft Excel文件的[**
 
 |**页面方向类型**|**描述**|
 | :- | :- |
-|横向|横向方向|
-|纵向|纵向方向|
+|LANDSCAPE|横向|
+|PORTRAIT|纵向|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-PageOrientation-1.py" >}}
 
-## **如何设置缩放因子**
+## **如何设置缩放比例**
 
 可以通过调整[**PageSetup.zoom**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/zoom)属性来缩小或放大工作表的大小。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-ScalingFactor-1.py" >}}
 
-## **如何设置适应页面选项**
+## **如何设置适合页面的选项**
 
 要使工作表内容适合特定数量的页面，请使用[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)类的[**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/)和[**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/)属性。这些属性也用于缩放工作表。
 
 {{% alert color="primary" %}}
 
-您可以选择[**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/)和[**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/)或[**zoom**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/zoom)属性，但不能同时选择两者。
+您可以选择 [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/) 和 [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/) 或 [**zoom**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/zoom) 属性，但不能同时选择两者。
 
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-FitToPagesOptions-1.py" >}}
 
-## **如何设置纸张尺寸**
+## **如何设置纸张大小**
 
 使用[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)类的[**paper_size**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_size/)属性将要打印的工作表设置为的纸张大小。[**paper_size**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_size/)属性接受[**PaperSizeType**](https://reference.aspose.com/cells/python-net/aspose.cells/papersizetype/)枚举中列出的预定义值之一。
 
@@ -185,7 +185,7 @@ Aspose.Cells for Python via .NET提供了一个代表Microsoft Excel文件的[**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPrintQuality-1.py" >}}
 
-## **如何设置起始页码**
+## **如何设置首页起始页码**
 
 使用[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)类的[**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/)属性开始工作表页面的编号。[**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/)属性设置第一个工作表页面的页码，接下来的页面按升序编号。
 

@@ -26,7 +26,7 @@ url: /ar/java/manage-worksheets/
 
 ## **إضافة ورقات العمل إلى ملف Excel جديد**
 
-لإنشاء ملف Excel جديد برمجياً ، سيحتاج المطورون إلى إنشاء كائن من فئة [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) التي تمثل ملف Excel. ثم يمكن للمطورين استدعاء الأسلوب [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--) في [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). عند استدعاء الأسلوب [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--)، يتم إضافة ورقة عمل فارغة إلى ملف Excel تلقائيًا ، والتي يمكن الإشارة إليها عن طريق تمرير فهرس ورقة العمل الجديدة إلى [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). بعد الحصول على مرجع على ورقة العمل ، يمكن للمطورين العمل على ورقات العمل حسب متطلباتهم. بعد الانتهاء من العمل على الورقات الجدولية ، يمكن للمطورين حفظ ملف Excel الجديد الذي تم إنشاؤه مع الورقات الجديدة عن طريق استدعاء الأسلوب [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) في فئة [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook).
+لإنشاء ملف Excel جديد برمجياً ، سيحتاج المطورون إلى إنشاء كائن من فئة [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) التي تمثل ملف Excel. ثم يمكن للمطورين استدعاء الأسلوب [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--) في [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). عند استدعاء الأسلوب [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--)، يتم إضافة ورقة عمل فارغة إلى ملف Excel تلقائيًا ، والتي يمكن الإشارة إليها عن طريق تمرير فهرس ورقة العمل الجديدة إلى [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). بعد الحصول على مرجع على ورقة العمل ، يمكن للمطورين العمل على ورقات العمل حسب متطلباتهم. بعد الانتهاء من العمل على الورقات الجدولية ، يمكن للمطورين حفظ ملف Excel الجديد الذي تم إنشاؤه مع الورقات الجديدة عن طريق استدعاء الأسلوب [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) في فئة [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AddingWorksheetstoNewExcelFile-AddingWorksheetstoNewExcelFile.java" >}}
 
@@ -44,7 +44,7 @@ url: /ar/java/manage-worksheets/
 
 ## **إزالة الأوراق العمل باستخدام اسم الورقة**
 
-أحيانًا يمكن أن يحتاج المطورون إلى إزالة أوراق العمل من ملفات Excel الحالية ويمكن أداء هذه المهمة عن طريق استدعاء الأسلوب [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String)) في [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) مجموعة. يمكننا تمرير اسم الورقة إلى الأسلوب [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String)) لإزالة ورقة عمل معينة.
+أحيانًا يمكن أن يحتاج المطورون إلى إزالة أوراق العمل من ملفات Excel الحالية ويمكن أداء هذه المهمة عن طريق استدعاء الأسلوب [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-java.lang.String-) في [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) مجموعة. يمكننا تمرير اسم الورقة إلى الأسلوب [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-java.lang.String-) لإزالة ورقة عمل معينة.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetName-RemovingWorksheetsusingSheetName.java" >}}
 
@@ -52,7 +52,7 @@ url: /ar/java/manage-worksheets/
 
 الطريقة المذكورة أعلاه لإزالة أوراق العمل تعمل بشكل جيد إذا كان المطورون يعرفون بالفعل أسماء الورقة للأوراق التي سيتم حذفها. ولكن، ماذا لو كنت لا تعرف اسم الورقة لورقة العمل التي تريد إزالتها من ملف Excel الخاص بك؟
 
-حسنًا ، في مثل هذه الظروف ، يمكن للمطورين استخدام الإصدار المتحمل من الأسلوب [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(int)) الذي يأخذ فهرس ورقة العمل بدلاً من اسم ورقة العمل.
+حسنًا ، في مثل هذه الظروف ، يمكن للمطورين استخدام الإصدار المتحمل من الأسلوب [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-int-) الذي يأخذ فهرس ورقة العمل بدلاً من اسم ورقة العمل.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetIndex-RemovingWorksheetsusingSheetIndex.java" >}}
 
@@ -72,3 +72,4 @@ url: /ar/java/manage-worksheets/
 - [الاستفادة من خاصية Sheet.SheetId في الشكل المفتوحXML باستخدام Aspose.Cells](/cells/ar/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [العمل مع الخلفية في ملفات ODS](/cells/ar/java/working-with-background-in-ods-files/)
 - [عروض ورقة العمل](/cells/ar/java/worksheet-views/)
+{{< app/cells/assistant language="java" >}}

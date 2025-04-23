@@ -62,3 +62,4 @@ Microsoft Excel 允许您配置用于显示的分组设置：
 [**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index)有一个额外的重载，它带有一个布尔型第三个参数。将其设置为true会移除所有分组信息。否则，只有外部的组信息会被移除。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-UngroupingRowsAndColumns-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

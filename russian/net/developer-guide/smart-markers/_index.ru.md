@@ -182,14 +182,107 @@ Aspose.Cells поддерживает вложенные объекты в ум�
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-UsingNestedObjects-1.cs" >}}
+
+## **Использование данных JSON**
+Aspose.Cells поддерживает json-данные в умных маркерах, json-данные могут быть иерархически вложенными. Пожалуйста, проверьте [шаблон файла](smartmarker.xlsx), [json-файл](smartmarker.json) и скриншот выходного файла Excel, сгенерированного с помощью следующего кода.
+
+|**Первый лист файла smartmarker.xlsx с отображением умных маркеров.**|
+| :- |
+|![todo:image_alt_text](jsontemplate.png)|
+
+|**Скриншот выходного файла Excel.**|
+| :- |
+|![todo:image_alt_text](jsonresult.png)|
+
+Следующие данные JSON:
+```json data
+{
+    "EntityCin" : "EntityCin Test",
+    "EntityName" : "EntityName Test",
+    "FirstName" : "FirstName Test",
+    "MiddleName" : "MiddleName Test",
+    "LastName" : "LastName Test",
+    "DOB" : "2025-02-08",
+    "SSN" : "11111111",
+    "Directors" : [
+        {
+            "id" : "director id 1",
+            "FirstName" : "director first 1",
+            "MiddleName" : "director middle 1",
+            "LastName" : "director last 1",
+            "Reportees" : [
+                {
+                    "id" : "aaa",
+                    "FirstName" : "first aaa",
+                    "MiddleName" : "middle aaa",
+                    "LastName" : "last aaa",
+                    "Department" : "aaa department",
+                    "City" : "aaa city",
+                    "GST" : "Yes",
+                    "ITR" : "No"
+                },
+                {
+                    "id" : "bbb",
+                    "FirstName" : "first bbb",
+                    "MiddleName" : "middle bbb",
+                    "LastName" : "last bbb",
+                    "Department" : "bbb department",
+                    "City" : "bbb city",
+                    "GST" : "Yes",
+                    "ITR" : "Yes"
+                },
+                {
+                    "id" : "ccc",
+                    "FirstName" : "first ccc",
+                    "MiddleName" : "middle ccc",
+                    "LastName" : "last ccc",
+                    "Department" : "ccc department",
+                    "City" : "ccc city",
+                    "GST" : "No",
+                    "ITR" : "No"
+                }
+            ]
+        },
+        {
+            "id" : "director id 2",
+            "FirstName" : "director first 2",
+            "MiddleName" : "director middle 2",
+            "LastName" : "director last 2",
+            "Reportees" : [
+                {
+                    "id" : "eee",
+                    "FirstName" : "first eee",
+                    "MiddleName" : "middle eee",
+                    "LastName" : "last eee",
+                    "Department" : "eee department",
+                    "City" : "eee city",
+                    "GST" : "Yes",
+                    "ITR" : "No"
+                },
+                {
+                    "id" : "fff",
+                    "FirstName" : "first fff",
+                    "MiddleName" : "middle fff",
+                    "LastName" : "last fff",
+                    "Department" : "fff department",
+                    "City" : "fff city",
+                    "GST" : "No",
+                    "ITR" : "No"
+                }
+            ]
+        }
+    ]
+}
+```
+Приведенный ниже пример показывает, как это работает.
+
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "SmartMarkers-Using-JSON-Data.cs" >}}
+
 ## **Использование обобщенного списка в качестве вложенного объекта**
 Aspose.Cells теперь также поддерживает использование обобщенного списка в качестве вложенного объекта. Пожалуйста, проверьте скриншот выходного файла Excel, сгенерированного следующим кодом. Как видно на скриншоте, объект 'Преподаватель' содержит несколько вложенных объектов 'Студент'.
 
 |![todo:image_alt_text](using-smart-markers_8.png)|
 | :- |
-
-
-
 
 {{< gist  "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-SmartMarkers-UsingGenericList-1.cs" >}}
 ## **Использование свойства HTML умных маркеров**
@@ -221,3 +314,4 @@ The following sample code explains the use of HTML property of the Smart Markers
 - [Использование маркеров изображений при группировке данных в умных маркерах](/cells/ru/net/using-image-markers-while-grouping-data-in-smart-markers/)
 
 
+{{< app/cells/assistant language="csharp" >}}

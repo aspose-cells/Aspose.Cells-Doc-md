@@ -3,8 +3,8 @@ title: 非基本形状中的数据
 type: docs
 weight: 300
 url: /zh/python-net/data-in-non-primitive-shape/
-description: 本文展示了如何通过Aspose.Cells for Python via .NET API在非原始形状中显示数据。
-keywords: Python Excel库，Python非原始形状中的数据，Python如何访问非原始形状的数据。
+description: 本文通过Aspose.Cells for Python via .NET API展示了非原始形状中的数据。
+keywords: Python Excel库，Python非原始形状中的数据，Python如何访问非原始形状中的数据。
 ---
 
 ## **访问非基本形状的数据**
@@ -13,7 +13,7 @@ keywords: Python Excel库，Python非原始形状中的数据，Python如何访�
 
 ## **非基本形状**
 
-在Aspose.Cells for Python via .NET中，非原始形状分配了类型[**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/autoshapetype)。您可以使用[**Shape.auto_shape_type**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/auto_shape_type)属性检查它们的类型。
+在Aspose.Cells for Python via .NET中，非原始形状被赋予类型 [**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/autoshapetype)。您可以使用 [**Shape.auto_shape_type**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/auto_shape_type) 属性检查它们的类型。
 
 使用 [**Shape.paths**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/paths) 属性访问形状数据。它返回组成非原始形状的所有连接路径。这些路径的类型为 [**ShapePath**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shapepath)，包含了所有段的列表，而每个段又包含了每个段中的点。
 

@@ -50,3 +50,4 @@ XML verileri çalışma sayfalarına alınabilir. Bazı durumlarda, çalışma s
 1. [Food List.xml](72417286.xml)
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-XmlMaps-GetXMLPathFromListObject.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -20,3 +20,4 @@ url: /ja/net/code-comparison-for-common-features-with-openxml/
 - [ストリームからスプレッドシート文書を開く](/cells/ja/net/open-a-spreadsheet-document-from-a-stream/)
 - [スプレッドシート文書内のすべての名前付き範囲の辞書を取得](/cells/ja/net/retrieve-a-dictionary-of-all-named-ranges-in-a-spreadsheet-document/)
 - [セルの値を取得](/cells/ja/net/retrieve-the-values-of-cells/)
+{{< app/cells/assistant language="csharp" >}}

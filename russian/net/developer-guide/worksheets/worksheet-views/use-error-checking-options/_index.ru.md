@@ -35,3 +35,4 @@ Aspose.Cells предоставляет функции опций проверк
 Приведенный ниже образец кода показывает, как отключить опцию проверки ошибок чисел, сохраненных как текст, для листа в файле-шаблоне XLS, используя API Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ErrorCheckingOptions-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

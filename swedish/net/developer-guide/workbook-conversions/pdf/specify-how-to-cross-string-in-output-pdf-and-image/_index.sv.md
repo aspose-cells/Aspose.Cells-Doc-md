@@ -30,3 +30,4 @@ Följande exempelkod laddar den prov Excel-filen och sparar den i PDF/Bildformat
 ### Exempelkod
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-RenderUsingTextCrossType-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -12,3 +12,4 @@ Följande provkod laddar in [provmappen](67338485.xlsx) som innehåller en bef
 
 ![todo:image_alt_text](rendering-slicer_1)
 ## **Exempelkod**
+{{< app/cells/assistant language="java" >}}

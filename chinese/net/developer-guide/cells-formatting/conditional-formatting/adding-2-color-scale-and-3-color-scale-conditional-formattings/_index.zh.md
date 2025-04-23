@@ -16,3 +16,4 @@ url: /zh/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/
 以下示例代码添加了二色比例和三色比例条件格式。它生成了 [输出 Excel 文件](5115058.xlsx)。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageConditionalFormatting-AddColorScales-AddColorScales.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

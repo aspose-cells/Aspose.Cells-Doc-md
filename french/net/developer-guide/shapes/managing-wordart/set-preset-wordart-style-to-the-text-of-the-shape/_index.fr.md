@@ -15,3 +15,4 @@ Le code d'échantillon suivant crée une zone de texte avec un texte et définir
 ![todo:image_alt_text](set-preset-wordart-style-to-the-text-of-the-shape_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SetPresetWordArtStyle-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

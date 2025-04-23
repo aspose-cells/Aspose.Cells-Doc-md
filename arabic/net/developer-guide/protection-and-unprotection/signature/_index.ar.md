@@ -32,3 +32,4 @@ keywords: توقيع الرقم الرقمي لملف Excel، إضافة توق�
 - [إضافة توقيع رقمي إلى ملف إكسل تم توقيعه بالفعل](/cells/ar/net/add-digital-signature-to-an-already-signed-excel-file/)
 - [إضافة خط توقيع إلى ورقة العمل](/cells/ar/net/add-signature-line/)
 - [دعم لـ توقيع XAdES](/cells/ar/net/support-for-xades-signature/)
+{{< app/cells/assistant language="csharp" >}}

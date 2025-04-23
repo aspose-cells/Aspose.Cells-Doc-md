@@ -20,3 +20,4 @@ Aspose.Cells bietet auch Methoden [**PivotTable.ShowInCompactForm()**](https://r
 Der folgende Beispielcode zeigt zunächst die Pivot-Tabelle im **kompakten Formular**, dann zeigt sie die Pivot-Tabelle im **Gliederungsformular** und zuletzt zeigt sie die Pivot-Tabelle im **tabellarischen Formular**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-ChangingLayoutOfPivotTable-ChangingLayoutOfPivotTable.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

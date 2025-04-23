@@ -16,3 +16,4 @@ Aspose.Cells vous permet d'ajouter des signets à l'exécution. Les signets PDF 
 Veuillez consulter le code d'exemple suivant pour savoir comment ajouter des signets PDF. Le code génère un classeur simple, spécifie des signets PDF avec des emplacements de destination et génère le fichier PDF.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddPDFBookmarks-AddPDFBookmarks.java" >}}
+{{< app/cells/assistant language="java" >}}

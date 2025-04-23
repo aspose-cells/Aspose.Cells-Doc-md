@@ -46,3 +46,4 @@ Aspose.Cells ile bir sorun yaşarsanız, sorunun en etkili şekilde çözülmesi
 - Sorunu bildirmeden önce forumlarda, bu belgelerde ve API Referansında bir göz atın; belki sorunuz zaten cevaplandı.
 - Bir sorun bildirirken, lütfen soruna neden olan orijinal belgeyi ve mümkünse kodunuzun bir parçasını ekleyin. Birden fazla dosya eklemeniz gerekiyorsa, bunları tek bir dosyaya sıkıştırın. İpliği özel olduğunda belgelerinizi Aspose.Forums'a eklemek güvenlidir çünkü ekli dosyalara sadece siz ve Aspose çalışanları erişebilir.
 - Lütfen bir iplik başına bir sorun bildirmeye çalışın. Başka bir sorununuz varsa, ayrı bir iplikte bildirin.
+{{< app/cells/assistant language="csharp" >}}

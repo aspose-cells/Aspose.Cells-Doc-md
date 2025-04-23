@@ -20,3 +20,4 @@ url: /zh/net/load-the-workbook-with-specific-system-culture-info/
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LoadWorkbookWithSpecificCultureInfoNumberFormat-LoadWorkbookWithSpecificCultureInfoNumberFormat.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

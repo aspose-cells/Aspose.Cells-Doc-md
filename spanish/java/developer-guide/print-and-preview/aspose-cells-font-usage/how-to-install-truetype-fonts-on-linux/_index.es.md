@@ -102,3 +102,4 @@ Las instrucciones proporcionadas anteriormente instalarán el paquete Microsoft 
 En Ubuntu, ve al Administrador de paquetes Synaptic. Encuentra e instala el paquete **ttf-mscorefonts-installer**.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

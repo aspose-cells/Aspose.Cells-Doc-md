@@ -51,6 +51,7 @@ Pour supprimer un saut de page spécifique dans la feuille de calcul, appelez le
 
 {{% alert color="primary" %}}
 
-**Important à savoir**: Lorsque vous définissez les propriétés ajuster à la page (c'est-à-dire [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) et [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide)) dans les paramètres de configuration de la mise en page, les paramètres des sauts de page sont affectés. Ainsi, si vous imprimez la feuille de calcul, les paramètres des sauts de page ne sont pas pris en compte bien qu'ils existent toujours dans le fichier.
+**Important à savoir** : lorsque vous définissez l'ajustement à la propriété d'impression sur la page (c'est-à-dire [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) et [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide-) dans les paramètres de configuration de la page), les paramètres de saut de page sont affectés, donc, si vous imprimez la feuille de calcul, les paramètres de saut de page ne sont pas pris en compte même s'ils existent toujours dans le fichier.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

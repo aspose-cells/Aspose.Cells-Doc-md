@@ -33,3 +33,4 @@ url: /zh/net/copy-worksheets/
 {{< /highlight >}}
 ## **下载**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/CopyWorksheets.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

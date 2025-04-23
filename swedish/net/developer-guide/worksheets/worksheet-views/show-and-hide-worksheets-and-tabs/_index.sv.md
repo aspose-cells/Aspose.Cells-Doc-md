@@ -58,3 +58,4 @@ Här är ett komplett exempel som öppnar en Excel-fil (book1.xls), döljer dess
 ### **Styra fliken Bredd**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-ControlTabBarWidth-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

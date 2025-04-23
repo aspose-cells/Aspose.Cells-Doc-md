@@ -24,3 +24,4 @@ Die Aspose-Lösung unterstützt umfassend die folgenden Dokumentfunktionen bei d
 - Zusammengeführte Zellen, Seitenumbrüche, Drucktitel
 
 Sie können auch die [detaillierte Spezifikation](https://docs.aspose.com/cells/net/convert-excel-workbook-to-pdf/) darüber sehen, wie Aspose.Cells ein Dokument in PDF konvertiert.
+{{< app/cells/assistant language="csharp" >}}

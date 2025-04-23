@@ -25,3 +25,4 @@ Il existe plusieurs façons d'acquérir l'énumérateur de cellules comme détai
 Il est possible qu'une feuille de calcul donnée n'ait pas de cellules peuplées, cependant, elle pourrait contenir des formes et des objets tels que des contrôles, des graphiques, des images, etc. Si nous devons vérifier si une feuille de calcul contient une forme, nous pouvons le faire en inspectant la propriété [ShapeCollection.Count](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#Count). Toute valeur positive indique la présence de forme(s) dans la feuille de calcul.
 ## **Exemple de programmation**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CheckForShapes-1.java" >}}
+{{< app/cells/assistant language="java" >}}

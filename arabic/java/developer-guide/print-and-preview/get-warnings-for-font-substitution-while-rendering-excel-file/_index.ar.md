@@ -87,3 +87,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 إذا كانت جداول البيانات الخاصة بك تحتوي على صيغ، من الأفضل أن تقوم بإتصال طريقة Workbook.calculateFormula قبل تقديم الجدول إلى تنسيق PDF. من خلال ذلك ستضمن أن القيم التي تعتمد على الصيغ تم احتسابها من جديد وتم تقديم القيم الصحيحة في الـPDF. 
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

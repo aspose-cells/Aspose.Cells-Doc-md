@@ -26,3 +26,4 @@ Aspose.Cells提供将文本应用上标（文本位于基线上方）和下标�
 ### 用C＃代码在文本上应用下标效果
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplySuperscriptAndSubscript-SettingSubscriptEffect-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

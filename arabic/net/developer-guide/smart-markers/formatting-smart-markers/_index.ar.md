@@ -22,3 +22,4 @@ url: /ar/net/formatting-smart-markers/
 يستخدم هذا المثال [ملف بيانات](96927971.xlsx) و [ملف قالب](96927972.xlsx) مع بعض العلامات في الخلايا. عند تنفيذ الكود، تقوم Aspose.Cells بإضافة بعض التسميات المخصصة إلى الصفوف الحاصلة للبيانات المجمعة.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-AddCustomLabels-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

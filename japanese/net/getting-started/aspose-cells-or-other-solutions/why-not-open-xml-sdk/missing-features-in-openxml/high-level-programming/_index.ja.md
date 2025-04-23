@@ -13,3 +13,4 @@ url: /ja/net/high-level-programming-with-a-workbook-object-model/
   - [ブック内でのワークシートのコピー](/cells/ja/net/copy-worksheets-within-a-workbook/)
   - [ワークブック内でのワークシートの移動](/cells/ja/net/move-worksheets-within-workbook/)
 - [スプレッドシート内の検索と置換](/cells/ja/net/find-and-replace-in-spreadsheet/)
+{{< app/cells/assistant language="csharp" >}}

@@ -16,3 +16,4 @@ Aspose.Cellsを使用して、VBAデジタル証明書をファイルまたは�
 以下のサンプルコードを参照してください。このコードで使用される[サンプルExcelファイル](5115031.xlsm)を提供リンクからダウンロードできます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-ExportVBACertificateToFile-ExportVBACertificateToFile.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

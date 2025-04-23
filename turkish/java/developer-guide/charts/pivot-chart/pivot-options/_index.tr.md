@@ -23,3 +23,4 @@ Aspose.Cells kullanarak, PivotChart'ı yönetmek için [**PivotOptions**](https:
 Yukarıdaki örnek kodla sonuç dosyasını kontrol edebilir ve aşağıdaki etkiyi gösteren sonuç dosyasını inceleyebilirsiniz:
 
 **![Çıktı](Output.png)**
+{{< app/cells/assistant language="java" >}}

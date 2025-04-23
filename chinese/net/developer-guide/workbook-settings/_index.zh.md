@@ -6,3 +6,4 @@ weight: 185
 url: /zh/net/workbook-settings/
 description: 管理Microsoft Excel文件的设置
 ---
+{{< app/cells/assistant language="csharp" >}}

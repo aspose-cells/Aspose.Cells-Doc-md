@@ -18,3 +18,4 @@ Aşağıdaki örnek kod bir çalışma kitabı oluşturur ve [**Workbook.Setting
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "LoadingSavingConvertingAndManaging-SaveWorkbookToStrictOpenXMLSpreadsheetFormat.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

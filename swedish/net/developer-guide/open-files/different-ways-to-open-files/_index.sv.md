@@ -50,3 +50,4 @@ Ett undantag kommer att kastas om du försöker att öppna icke-ursprungliga Exc
 Det finns en rättvis chans att [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) konstruktören kan kasta *System.OutOfMemoryException* när du laddar stora kalkylblad. Detta undantag tyder på att minnet är otillräckligt för att helt ladda kalkylarket i minnet, därför måste kalkylarket laddas med aktiverade minnesinställningar.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -11,3 +11,4 @@ A veces, desea auto-completar datos de marcador inteligente en otras hojas de c�
 El siguiente código de muestra tiene un origen de datos que tiene 21 registros. Queremos mostrar solo 15 registros en una hoja de cálculo, luego el resto de los registros se moverán automáticamente a la segunda hoja de cálculo. Tenga en cuenta que la segunda hoja de cálculo también debe tener la misma etiqueta de marcador inteligente y debe llamar al método [WorkbookDesigner.Process(sheetIndex, isPreserved)](https://reference.aspose.com/cells/net/aspose.cells.workbookdesigner/process/methods/2) para ambas hojas. Consulte el [archivo de Excel de salida](60489775.xlsx) generado por el código como referencia.
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-AutoPopulateSmartMarkerDataToOtherWorksheets.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

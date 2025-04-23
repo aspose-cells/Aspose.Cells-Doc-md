@@ -48,3 +48,4 @@ Es muy abrir un archivo de Excel protegido por contraseña y descifrarlo usando 
 - [Especificar Autor al Proteger la Escritura del Libro de Trabajo](/cells/es/net/specify-author-while-write-protecting-workbook/)
 - [Verificar Contraseña de Archivos Encriptados](/cells/es/net/verify-password-of-encrypted-excel-and-ods-files/)
 
+{{< app/cells/assistant language="csharp" >}}

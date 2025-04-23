@@ -22,3 +22,4 @@ Aspose.Cells可以用于向工作簿对象中添加可在文档信息面板中�
 - [在Aspose.Cells中使用自定义XML部分](/cells/zh/net/use-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

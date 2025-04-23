@@ -7,7 +7,7 @@ url: /fr/java/sort-data-in-column-with-custom-sort-list/
 
 ## **Scénarios d'utilisation possibles**
 
-Vous pouvez trier les données dans la colonne à l'aide d'une liste personnalisée. Cela peut être fait en utilisant la méthode `DataSorter.AddKey(int key, SortOrder order, String customList)` . Cependant, cette méthode ne fonctionne que si les éléments de la liste personnalisée n'ont pas de virgules à l'intérieur. S'ils ont des virgules comme "USA, US", "Chine, CN" etc., alors vous devez utiliser la méthode `DataSorter.AddKey(int key, SortOrder order, String customList)` . Ici, le dernier paramètre n'est pas une chaîne mais un tableau de chaînes.
+Vous pouvez trier les données dans la colonne en utilisant une liste personnalisée. Cela peut être fait en utilisant la méthode [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-java.lang.String-). Cependant, cette méthode ne fonctionne que si les éléments de la liste personnalisée ne contiennent pas de virgules. Si elles contiennent des virgules comme "USA, US", "Chine, CN" etc., vous devez utiliser la méthode [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-java.lang.String-). Ici, le dernier paramètre n'est pas une chaîne mais un tableau de chaînes.
 
 ## **Trier les données dans une colonne avec une liste de tri personnalisée**
 
@@ -18,3 +18,4 @@ Le code d'exemple suivant explique comment utiliser la méthode `DataSorter.Add
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-SortDataInColumnWithCustomSortList.java" >}}
+{{< app/cells/assistant language="java" >}}

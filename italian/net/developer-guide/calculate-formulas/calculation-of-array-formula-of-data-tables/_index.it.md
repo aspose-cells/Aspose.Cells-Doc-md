@@ -22,3 +22,4 @@ Nel seguente codice di esempio, abbiamo utilizzato il [file Excel di origine](51
 Ecco il codice di esempio utilizzato per generare il [PDF di output](5115538.pdf) dal [file Excel di origine](5115535.xlsx). Si prega di leggere i commenti per ulteriori informazioni.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-CalculationOfArrayFormula-CalculateArrayFormula.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

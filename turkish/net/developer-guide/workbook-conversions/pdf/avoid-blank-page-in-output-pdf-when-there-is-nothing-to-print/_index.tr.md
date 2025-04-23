@@ -34,3 +34,4 @@ Aşağıdaki örnek kod, boş bir çalışma kitabı oluşturur ve ardından **f
        at Aspose.Cells.Workbook.Save(String fileName, SaveOptions saveOptions)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

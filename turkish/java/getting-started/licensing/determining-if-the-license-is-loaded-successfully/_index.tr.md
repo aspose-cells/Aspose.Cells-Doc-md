@@ -28,3 +28,4 @@ false
 true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -15,7 +15,7 @@ Aspose.Cellsでは、ワークブックからワークシートをエクスポ�
 
 時々、ワークシートの画像を保存することが役立ちます。画像はオンラインで共有したり、他のドキュメントに挿入したり（例えば、Microsoft Wordで書かれたレポートやPowerPointプレゼンテーションに）、利用できます。
 
-Aspose.Cells は [**toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream)) メソッドを提供する [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) クラスを介して画像のエクスポートを提供します。BMP、PNG、JPEG、TIFF、およびEMF形式がサポートされています。
+Aspose.Cells は [**toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage-int-java.io.OutputStream-) メソッドを提供する [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) クラスを介して画像のエクスポートを提供します。BMP、PNG、JPEG、TIFF、およびEMF形式がサポートされています。
 
 {{% alert color="primary" %}}
 
@@ -58,3 +58,4 @@ v7.1.0以降のリリースでは、**Aspose.Cells for Java** でワークシー
 - [viewBox属性を使用してチャートをSVGにエクスポート](/cells/ja/java/export-chart-to-svg-with-viewbox-attribute/)
 - [希望の幅と高さでワークシートまたはチャートを画像にエクスポート](/cells/ja/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
 - [ワークシートを画像に変換し、ページごとに画像をワークシートに変換する](/cells/ja/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)
+{{< app/cells/assistant language="java" >}}

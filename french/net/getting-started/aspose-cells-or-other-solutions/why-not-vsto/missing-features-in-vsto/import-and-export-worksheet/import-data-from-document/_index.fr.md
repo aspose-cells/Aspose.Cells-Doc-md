@@ -29,3 +29,4 @@ Cette section comporte les sujets suivants:
 - [Importation à partir d'une ArrayList](/cells/fr/net/importing-from-arraylist/)
 - [Importation à partir d'objets personnalisés](/cells/fr/net/importing-from-custom-objects/)
 - [Importation à partir d'un DataTable](/cells/fr/net/importing-from-datatable/)
+{{< app/cells/assistant language="csharp" >}}

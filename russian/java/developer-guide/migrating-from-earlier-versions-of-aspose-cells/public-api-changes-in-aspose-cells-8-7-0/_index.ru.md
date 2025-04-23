@@ -283,3 +283,4 @@ chart.calculate();
 ## **Удалены API**
 ### **Удалено свойство Workbook.SaveOptions**
 Свойство Workbook.SaveOptions было объявлено устаревшим некоторое время назад. В этом релизе оно было полностью удалено из общедоступного API, поэтому рекомендуется использовать метод Workbook.save(Stream, SaveOptions) или Workbook.save(string, SaveOptions) в качестве альтернативы.
+{{< app/cells/assistant language="java" >}}

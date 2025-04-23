@@ -20,3 +20,4 @@ Puede encontrar útiles los siguientes artículos sobre la conversión de Excel 
 - [Desactivar Comentarios Revelados de Niveles Inferiores al guardar en HTML](/cells/es/java/disable-downlevel-revealed-comments-while-saving-to-html/)
 - [Exportar propiedades del libro y la hoja de cálculo del documento en la conversión de Excel a HTML](/cells/es/java/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/)
 - [Exportar rango del área de impresión a HTML](/cells/es/java/export-print-area-range-to-html/)
+{{< app/cells/assistant language="java" >}}

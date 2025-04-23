@@ -45,7 +45,7 @@ In diesem Beispiel verwende ich Ubuntu, um zu zeigen, wie Sie Aspose.Cells auf L
 2. Öffnen Sie die Datei "AsposeCellsTest.csproj" und fügen Sie die folgenden Zeilen für Aspose.Cells-Paketverweise ein:
 {{< highlight plain >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="24.7" />
+    <PackageReference Include="Aspose.Cells" Version="25.4" />
   </ItemGroup>
 {{< /highlight >}}
 3. Öffnen Sie das Projekt mit VSCode auf Ubuntu:
@@ -103,3 +103,4 @@ Im folgenden Beispiel wird ein neues Arbeitsblatt von Grund auf erstellt, „Hel
 Im folgenden Beispiel wird eine vorhandene Microsoft Excel-Vorlagendatei „Sample.xlsx“ geöffnet, „Hello World!“ in Zelle A1 im ersten Arbeitsblatt eingefügt und als Excel-Datei gespeichert.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

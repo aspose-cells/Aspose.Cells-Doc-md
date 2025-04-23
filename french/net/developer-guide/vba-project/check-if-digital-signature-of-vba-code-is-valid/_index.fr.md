@@ -16,3 +16,4 @@ Aspose.Cells vous permet de vérifier si la signature numérique du code VBA est
 Le code suivant démontre l'utilisation de cette propriété en utilisant le [fichier Excel d'exemple](5115030.xlsm), que vous pouvez télécharger à partir du lien fourni. Le même fichier Excel a une signature valide mais lorsque nous modifions son code VBA et sauvegardons le classeur, puis vérifions à nouveau, nous constatons que sa signature est devenue invalide.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-CheckVbaSignatureIsValid-CheckVbaSignatureIsValid.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

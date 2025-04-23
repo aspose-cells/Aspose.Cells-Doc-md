@@ -11,7 +11,7 @@ url: /ru/java/check-password-to-modify-using-aspose-cells/
 
 ![todo:image_alt_text](check-password-to-modify-using-aspose-cells_1.png)
 
-Иногда вам нужно проверить, соответствует ли указанный пароль **Паролю для изменения** программно. Aspose.Cells предоставляет метод [**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword(java.lang.String)), который можно использовать для проверки корректности указанного пароля для изменения.
+Иногда вам нужно проверить, соответствует ли указанный пароль **Паролю для изменения** программно. Aspose.Cells предоставляет метод [**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword-java.lang.String-), который можно использовать для проверки корректности указанного пароля для изменения.
 
 {{% /alert %}}
 
@@ -32,3 +32,4 @@ Is 567 correct Password to modify: false
 Is 5678 correct Password to modify: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -16,3 +16,4 @@ Aşağıdaki kod örneği, hücre metni ile koşullu simgeler seti eklemenin nas
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddConditionalIconsSet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

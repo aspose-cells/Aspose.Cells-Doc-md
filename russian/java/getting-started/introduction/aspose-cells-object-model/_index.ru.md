@@ -135,3 +135,4 @@ url: /ru/java/aspose-cells-object-model/
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_15.png)|
 Объект SparklineGroup представляет группу мини-диаграмм на листе. Разработчики могут задавать стиль группы мини-диаграмм и другие связанные свойства с использованием объекта SparklineGroup.
+{{< app/cells/assistant language="java" >}}

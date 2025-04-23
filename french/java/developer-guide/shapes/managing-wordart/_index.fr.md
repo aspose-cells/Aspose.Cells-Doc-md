@@ -29,3 +29,4 @@ Après l'exécution du code, le fichier de sortie contient un filigrane WordArt 
 - [Ajouter un filigrane WordArt au graphique](/cells/fr/java/add-wordart-watermark-to-chart/)
 - [Verrouillage du filigrane WordArt](/cells/fr/java/locking-wordart-watermark/)
 - [Définir un style de WordArt prédéfini pour le texte de la forme](/cells/fr/java/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="java" >}}

@@ -17,7 +17,7 @@ keywords: مكتبة Python Excel، كيفية إدارة ورق العمل في
 
 توفر Aspose.Cells فئة، [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)، تمثل ملف إكسل. تحتوي الفئة [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) على مجموعة [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets/) تتيح الوصول إلى كل ورقة عمل في ملف إكسل.
 
-تمثل ورقة العمل بفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). توفر الفئة [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) مجموعة واسعة من الخصائص والأساليب لإدارة أوراق العمل.
+تمثل ورقة العمل بفئة [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet). توفر الفئة [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) مجموعة واسعة من الخصائص والأساليب لإدارة أوراق العمل.
 
 ## **كيفية إضافة أوراق عمل إلى ملف Excel جديد**
 

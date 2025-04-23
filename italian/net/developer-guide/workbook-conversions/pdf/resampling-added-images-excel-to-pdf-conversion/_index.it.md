@@ -24,3 +24,4 @@ Utilizzando l'opzione [**SetImageResample**](https://reference.aspose.com/cells/
 Se il foglio di calcolo contiene formule, è meglio chiamare [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) proprio prima di rendere il foglio di calcolo in formato PDF. In questo modo si garantisce il ricalcolo dei valori dipendenti dalle formule e la visualizzazione dei valori corretti nel PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

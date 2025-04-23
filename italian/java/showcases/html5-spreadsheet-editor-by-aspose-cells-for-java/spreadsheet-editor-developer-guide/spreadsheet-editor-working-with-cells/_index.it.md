@@ -217,3 +217,4 @@ I **Formati**, i **Contenuti** e **Entrambi** sono gestiti dal bean backend JSF 
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

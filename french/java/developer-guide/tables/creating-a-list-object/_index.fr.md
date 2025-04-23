@@ -53,3 +53,4 @@ Selon la plage de cellules spécifiée, l'objet Liste est créé dans la feuille
 Dans l'exemple ci-dessous, nous avons créé le même [**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) en utilisant l'API Aspose.Cells comme nous l'avons créé en utilisant Microsoft Excel dans la section précédente.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-CreatingListObject-CreatingListObject.java" >}}
+{{< app/cells/assistant language="java" >}}

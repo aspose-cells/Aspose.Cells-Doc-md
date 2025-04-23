@@ -129,3 +129,4 @@ Si estás considerando usar una tecnología de Microsoft Office en una solución
 Aspose.Cells es un producto estable y maduro con una base de clientes en todo el mundo, y lo suficientemente escalable como para funcionar bien bajo cargas pesadas.
 
 El rendimiento de VSTO aún no está refinado. Es bastante posible que algunos de estos problemas de rendimiento no estén relacionados directamente con VSTO, sino que tengan conexiones con los procesos de compilación JIT de .NET. Aun así, existen ciertas dudas sobre si las aplicaciones de VSTO se escalarían a medida que aumentara la carga. El nuevo modelo de VSTO no requiere que Excel resida en el servidor web para el procesamiento de documentos, pero creo que VSTO tiene un largo camino por recorrer para lograr un impacto real.
+{{< app/cells/assistant language="csharp" >}}

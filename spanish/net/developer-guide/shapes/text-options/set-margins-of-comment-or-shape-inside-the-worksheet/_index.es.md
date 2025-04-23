@@ -18,3 +18,4 @@ Consulta el siguiente código de ejemplo. Carga el [archivo de Excel de muestra]
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-SetMarginsOfCommentOrShapeInsideTheWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -21,3 +21,4 @@ url: /zh/net/render-sequence-of-pages-using-pageindex-and-pagecount-properties-o
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-RenderLimitedNoOfSequentialPages-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -18,3 +18,4 @@ url: /ar/net/set-margins-of-comment-or-shape-inside-the-worksheet/
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-SetMarginsOfCommentOrShapeInsideTheWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

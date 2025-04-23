@@ -3,13 +3,13 @@ title: Изменение значений коррекции формы
 type: docs
 weight: 2000
 url: /ru/python-net/change-adjustment-values-of-the-shape/
-description: В этой статье показано, как изменить значения корректировки формы через API Aspose.Cells для Python via .NET.
-keywords: Библиотека Python Excel, Python изменение значений корректировки формы, Python как изменить значения корректировки формы.
+description: В этой статье показано, как изменить значения корректировки формы с помощью API Aspose.Cells для Python via .NET.
+keywords: Библиотека Excel для Python, как изменить значения корректировки формы в Python, как изменить значения корректировки формы в Python.
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells для Python via .NET предоставляет свойство [**Shape.geometry.shape_adjust_values**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/geometry/shape_adjust_values/) для внесения изменений в точки корректировки с формами. В пользовательском интерфейсе Microsoft Excel корректировки отображаются как желтые узлы в виде бриллиантов. Например:
+Aspose.Cells для Python via .NET предоставляет свойство [**Shape.geometry.shape_adjust_values**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/geometry/shape_adjust_values/) для внесения изменений в точки корректировки с фигурами. В интерфейсе Microsoft Excel корректировки отображаются как желтые алмазообразные узлы. Например:
 
 - У закругленного прямоугольника есть коррекция для изменения дуги
 - У треугольника есть коррекция для изменения расположения вершины

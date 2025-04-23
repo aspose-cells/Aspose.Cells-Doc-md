@@ -20,3 +20,4 @@ Detta är den huvudsakliga koden som visar användningen av [HtmlLoadOptions.Str
 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Load-Html-With-StreamProvider.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -14,21 +14,21 @@ Aspose.CellsのAPIは、[Creating & Customizing Excel Charts](/cells/ja/java/cre
 
 ## **チャートのレンダリング**
 
-Aspose.CellsのAPIは、追加のツールやアプリケーションを必要とせずにExcelチャートを画像やPDF形式に変換することをサポートしています。レンダリングのサポートを提供するために、[**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)クラスはさまざまなオーバーロードを持つ[**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions))および[**toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream))メソッドを公開しています。これにより、アプリケーションの要件に最適なオーバーロードを使用できます。
+Aspose.CellsのAPIは、追加のツールやアプリケーションを必要とせずにExcelチャートを画像やPDF形式に変換することをサポートしています。レンダリングのサポートを提供するために、[**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)クラスはさまざまなオーバーロードを持つ[**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-)および[**toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf-java.io.OutputStream-)メソッドを公開しています。これにより、アプリケーションの要件に最適なオーバーロードを使用できます。
 
 ### **画像へのチャートのレンダリング**
 
-[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions))メソッドは、シンプルな操作から高度なレンダリングまでをサポートするさまざまなオーバーロードを備えています。チャートをデフォルトのサイズでレンダリングする必要がある場合は、次のように[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions))メソッドを使用することをお勧めします。
+[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-)メソッドは、シンプルな操作から高度なレンダリングまでをサポートするさまざまなオーバーロードを備えています。チャートをデフォルトのサイズでレンダリングする必要がある場合は、次のように[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-)メソッドを使用することをお勧めします。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-RenderChartsToImages-RenderChartsToImages.java" >}}
 
-また、高度な設定でチャートを画像にレンダリングすることも可能です。Aspose.CellsのAPIでは、インスタンスを受け入れて解像度、レンダリングヒント、画像フォーマットなどのパラメータを指定できる[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions))メソッドのオーバーロードバージョンを公開しています。
+また、高度な設定でチャートを画像にレンダリングすることも可能です。Aspose.CellsのAPIでは、インスタンスを受け入れて解像度、レンダリングヒント、画像フォーマットなどのパラメータを指定できる[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-)メソッドのオーバーロードバージョンを公開しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChartRendering-ChartRendering.java" >}}
 
 ### **PDFへのチャートのレンダリング**
 
-チャートをPDF形式にレンダリングするために、Aspose.CellsのAPIはディスクパスに結果のPDFを保存する能力を持つ[**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream))メソッドを公開しています。
+チャートをPDF形式にレンダリングするために、Aspose.CellsのAPIはディスクパスに結果のPDFを保存する能力を持つ[**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf-java.io.OutputStream-)メソッドを公開しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-chartsRenderChartsToPdf-RenderChartsToPdf.java" >}}
 
@@ -131,3 +131,4 @@ Aspose.CellsのAPIは、追加のツールやアプリケーションを必要�
 - [SVG形式でチャートを画像に変換](/cells/ja/java/converting-chart-to-image-in-svg-format/)
 - [希望のページサイズでチャートPDFを作成](/cells/ja/java/create-chart-pdf-with-desired-page-size/)
 - [viewBox属性を使用してチャートをSVGにエクスポート](/cells/ja/java/export-chart-to-svg-with-viewbox-attribute/)
+{{< app/cells/assistant language="java" >}}

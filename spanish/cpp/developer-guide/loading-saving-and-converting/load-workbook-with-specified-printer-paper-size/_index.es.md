@@ -11,6 +11,6 @@ Puede especificar el tamaño de papel de la impresora de su elección al cargar 
 
 {{% /alert %}}
 
-El siguiente código de muestra ilustra el uso del método [**LoadOptions.SetPaperSize()**](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/setpapersize/). Primero crea un libro de trabajo, luego lo guarda en una secuencia de memoria en formato XLSX. Luego lo carga con tamaño de papel A5 y lo guarda en formato PDF. Luego lo carga nuevamente con tamaño de papel A3 y lo guarda nuevamente en formato PDF. Si abres los PDF de salida y revisas su tamaño de papel, verás que son diferentes. Uno es A5 y el otro es A3. Por favor, descargue el [PDF de salida A5](PrinterSize-a5_out.pdf) y el [PDF de salida A3](PrinterSize-a3_out.pdf) generados por el código para su referencia.
+El siguiente código de ejemplo ilustra el uso del método [**LoadOptions.SetPaperSize()**](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/setpapersize/). Primero crea un libro de trabajo, luego lo guarda en un flujo de memoria en formato XLSX. Luego, lo carga con tamaño de papel A5 y lo guarda en formato PDF. Después, lo carga nuevamente con tamaño de papel A3 y lo guarda otra vez en PDF. Si abre los PDFs de salida y verifica su tamaño de papel, verá que son diferentes. Uno es A5 y el otro es A3. Descargue los [PDF de salida en A5](PrinterSize-a5_out.pdf) y [PDF de salida en A3](PrinterSize-a3_out.pdf) generados por el código para su referencia.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadWorkbookWithPrinterSize-1.cpp" >}}

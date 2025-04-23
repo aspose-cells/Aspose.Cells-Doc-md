@@ -15,3 +15,4 @@ Kaynak ve çıktı excel dosyaları referans için ekte sunulmuştur.
 [Kaynak Dosya](96928091.xls)
 
 [Çıkış Dosyası](96928092.xls)
+{{< app/cells/assistant language="csharp" >}}

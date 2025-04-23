@@ -36,3 +36,4 @@ Para cargar una hoja de cálculo en un editor incrustado, utilice el parámetro 
 </iframe>
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

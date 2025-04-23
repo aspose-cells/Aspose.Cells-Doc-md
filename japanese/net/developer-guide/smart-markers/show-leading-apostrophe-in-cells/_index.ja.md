@@ -22,3 +22,4 @@ Microsoft Excel では、セルの値の先頭にあるアポストロフィは�
 *DataObject* クラスの実装は以下のとおりです
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AllowLeadingApostrophe-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

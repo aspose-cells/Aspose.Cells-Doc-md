@@ -174,3 +174,4 @@ Aspose.Cells for Java 8.5.2 har exponerat fältet ConsolidationFunction.DISTINCT
 Unik räkning konsolideringsfunktion stöds endast av Microsoft Excel 2013.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -61,3 +61,4 @@ La sortie ci-dessous est générée lors de l'exécution du code.
 
 ## **Sujets avancés**
 - [Extraire les données de thème à partir du fichier Excel](/cells/fr/java/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="java" >}}

@@ -26,3 +26,4 @@ Il seguente codice di esempio crea tre righe e imposta l'allineamento orizzontal
 
 
 
+{{< app/cells/assistant language="java" >}}

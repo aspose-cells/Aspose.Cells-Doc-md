@@ -31,3 +31,4 @@ Si prega di vedere il seguente codice di esempio. Il codice imposta prima i dati
 
 ## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "PivotTables-Add-calculated-field-in-PivotTable.java" >}}
+{{< app/cells/assistant language="java" >}}

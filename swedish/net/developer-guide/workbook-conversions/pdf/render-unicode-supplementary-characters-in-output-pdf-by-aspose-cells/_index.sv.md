@@ -27,3 +27,4 @@ Följande skärmbild visar hur Aspose.Cells renderade [käll-Excel-filen](511556
 Du kan använda följande exempelkod för att konvertera [källa excel-filen](5115563.xlsx) till [utdata PDF](5115564.pdf).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderUnicodeInOutput-RenderUnicodeInOutput.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

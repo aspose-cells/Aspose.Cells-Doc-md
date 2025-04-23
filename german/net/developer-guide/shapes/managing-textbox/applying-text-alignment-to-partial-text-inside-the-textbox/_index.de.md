@@ -19,3 +19,4 @@ Sie können auch die Textausrichtung für einen Teil des Textes innerhalb einer 
 [Quelldatei](SampleTextboxExcel2016.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "ApplyPartialTextAlignmentToTextBox.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

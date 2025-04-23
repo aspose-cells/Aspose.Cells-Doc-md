@@ -27,3 +27,4 @@ Wenn die Tabelle Formeln enthält, ist es am besten, die Methode [**Workbook.cal
 
 - [Excel-Datei in das PDF-Format konvertieren, das mit PDFA-1a kompatibel ist](/cells/de/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [Diagrammrendering](/cells/de/java/chart-rendering/)
+{{< app/cells/assistant language="java" >}}

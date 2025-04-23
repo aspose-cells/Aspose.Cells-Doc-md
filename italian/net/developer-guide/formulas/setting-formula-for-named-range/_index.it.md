@@ -27,3 +27,4 @@ Ecco un altro esempio che utilizza un intervallo con nome per sommare i valori d
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CalculatingSumUsingNamedRange-CalculatingSumUsingNamedRangeOnDifferentSheets.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

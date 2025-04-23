@@ -18,9 +18,9 @@ aliases:
 # 与GridJs服务器端配合工作
 ## 0. 在配置中设置正确的文件夹路径
  **`Config.setFileCacheDirectory`** 用于工作簿缓存文件（必需）。
- **`Config.setPictureCacheDirectory`** 用于工作簿中的图像文件缓存（可选，默认值为文件缓存目录中的 _piccache）。
+ **`Config.setPictureCacheDirectory`** 用于工作簿中的图片文件缓存（可选，默认值为文件缓存目录中的 _piccache）。
 
-有关存储详细信息，请查看此 [指南](/java/aspose-cells-gridjs/storage/)
+关于存储的详细信息，请查阅此[指南](/java/aspose-cells-gridjs/storage/)
 
 ## 1. 实现 GridCacheForStream
 对于本地文件存储，这里有一个示例：
@@ -72,7 +72,7 @@ public class LocalFileCache extends GridCacheForStream {
 }
 ```
 
-## 2. 从电子表格文件向响应流写入 json。
+## 2. 将电子表格文件中的json写入响应流。
 ```JAVA
             GridJsWorkbook wbj = new GridJsWorkbook();
             try (GZIPOutputStream gzipOutputStream = new GZIPOutputStream(response.getOutputStream())) {

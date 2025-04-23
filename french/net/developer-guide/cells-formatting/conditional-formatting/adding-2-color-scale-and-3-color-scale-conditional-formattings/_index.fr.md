@@ -16,3 +16,4 @@ Les formats conditionnels **2 couleurs** et **3 couleurs** sont ajoutés de la m
 Le code d'exemple suivant ajoute des formats conditionnels 2 couleurs et 3 couleurs. Il génère le [fichier Excel en sortie](5115058.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageConditionalFormatting-AddColorScales-AddColorScales.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

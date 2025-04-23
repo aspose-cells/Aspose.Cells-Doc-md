@@ -38,3 +38,4 @@ A continuación, algunas formas de lograr esto.
 Deberá reiniciar su computadora para que el cambio surta efecto. Este cambio afecta a todas las cuentas en la computadora, no solo a la suya.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -20,3 +20,4 @@ url: /zh/net/implement-subtotal-or-grand-total-labels-in-other-languages/
 现在在代码中使用上面创建的类，如下所示：
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-TotalsInOtherLanguages-UsingGlobalizationSettings.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

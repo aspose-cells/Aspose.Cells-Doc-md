@@ -42,3 +42,4 @@ ExcelファイルをPDFにレンダリングする場合は、[**DrawObjectEvent
 ----------------------
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

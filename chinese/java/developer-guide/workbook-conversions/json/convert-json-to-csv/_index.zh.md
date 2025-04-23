@@ -12,3 +12,4 @@ Aspose.Cells支持将简单和嵌套的JSON转换为CSV。为此，API提供了[
 ## 示例代码
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-ConvertJsonToCsv-1.java" >}}
+{{< app/cells/assistant language="java" >}}

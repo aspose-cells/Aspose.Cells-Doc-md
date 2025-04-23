@@ -28,3 +28,4 @@ End Sub
 Voici l'exemple de code pour générer le fichier XLSM de sortie avec un code de macro.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AssignMacroToFormControl-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

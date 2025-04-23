@@ -63,3 +63,4 @@ Klassen [**PivotFieldCollection**](https://reference.aspose.com/cells/net/aspose
 Kodprovet nedan visar hur man rensar alla pivottabellfält i ett dataområde.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ClearPivotFields-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

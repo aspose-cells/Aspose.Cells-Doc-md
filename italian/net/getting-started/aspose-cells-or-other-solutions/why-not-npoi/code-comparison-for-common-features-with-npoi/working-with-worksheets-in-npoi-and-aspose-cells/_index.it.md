@@ -18,3 +18,4 @@ Questa sezione tratta i seguenti argomenti:
 - [Dividi celle nel foglio di lavoro](/cells/it/net/split-cells-in-worksheet/)
 - [Lavorare con le celle bloccate](/cells/it/net/working-with-freeze-panes/)
 - [Lavorare con intestazioni e piè di pagina](/cells/it/net/working-with-headers-and-footers/)
+{{< app/cells/assistant language="csharp" >}}

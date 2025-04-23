@@ -60,3 +60,4 @@ keywords: كيفية إدراج صورة في الخلية، إدراج الصو
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-place-image-in-cell.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

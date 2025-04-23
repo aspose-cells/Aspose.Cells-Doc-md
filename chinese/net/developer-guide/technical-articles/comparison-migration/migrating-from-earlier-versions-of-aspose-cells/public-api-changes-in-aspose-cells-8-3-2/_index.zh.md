@@ -272,3 +272,4 @@ opts.IsFontSubstitutionCharGranularity = true;
 建议使用 Workbook.CreateStyle 方法为 Workbook 实例创建和操作样式，而不是使用 StyleCollection.Add 方法创建样式。此外，建议使用 Workbook.GetNamedStyle(string) 方法来获取命名样式，而不是使用 StyleCollection[string]。
 ### **已弃用的 PivotItem.Move(int count) 方法**
 随着 Aspose.Cells 8.3.2 的发布，API 引入了 PivotItem.Move 方法的另一个重载，该方法接受整数参数用于计数和布尔参数用于在父节点内移动 PivotItem。
+{{< app/cells/assistant language="csharp" >}}

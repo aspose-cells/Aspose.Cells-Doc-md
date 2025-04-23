@@ -11,8 +11,8 @@ Aspose.Cells ti permette di cambiare la direzione dell'etichetta delle tacche de
 
 - [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
 - [**VERTICAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)
-- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)
-- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_270)
+- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90)
+- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-270)
 - [**STACKED**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#STACKED)
 
 L'immagine seguente confronta i file sorgente e di output
@@ -25,7 +25,7 @@ L'immagine seguente confronta i file sorgente e di output
 
 ![todo:image_alt_text](change-tick-label-direction_2.jpg)
 
-Il frammento di codice seguente cambia la direzione dell'etichetta delle tacche da [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90) a [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
+Il frammento di codice seguente cambia la direzione dell'etichetta delle tacche da [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90) a [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
 
 ### **Codice di Esempio**
 
@@ -36,3 +36,4 @@ I file sorgente e di output possono essere scaricati dai seguenti link.
 [File di origine](SampleChangeTickLabelDirection.xlsx)
 
 [File di Output](outputChangeChartDataLableDirection.xlsx)
+{{< app/cells/assistant language="java" >}}

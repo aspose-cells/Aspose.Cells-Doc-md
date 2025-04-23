@@ -44,3 +44,4 @@ Preserve Formatting: False
 Aspose.Cells bietet die Möglichkeit, die Adresse, d.h. den Ergebnisbereich der Zellen für eine Abfrage-Tabelle, zu lesen. Der folgende Code demonstriert diese Funktion, indem er die Adresse des Ergebnisbereichs für eine Abfrage-Tabelle liest. Die Beispieldatei kann [hier heruntergeladen werden](72417290.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAddressOfResultRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

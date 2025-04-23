@@ -95,3 +95,4 @@ Aspose.Cellsは、[**PrintOrderType**](https://reference.aspose.com/cells/net/as
 |OverThenDown|: 左から右に印刷してから下に印刷するよう指定。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPageOrder-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

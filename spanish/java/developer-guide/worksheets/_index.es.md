@@ -26,7 +26,7 @@ Una hoja de cálculo está representada por la clase [**Worksheet**](https://ref
 
 ## **Añadir hojas de cálculo a un nuevo archivo de Excel**
 
-Para crear un nuevo archivo de Excel programáticamente, los desarrolladores necesitarían crear un objeto de la clase [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Excel. Luego, los desarrolladores pueden llamar al método [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--) de la [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). Cuando llamamos al método [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--), se agrega automáticamente una hoja de cálculo vacía al archivo de Excel, la cual puede ser referenciada pasando el índice de la hoja recién agregada a la [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). Después de obtener la referencia de la hoja de cálculo, los desarrolladores pueden trabajar en sus hojas de cálculo según sus requisitos. Después de completar el trabajo en las hojas de cálculo, los desarrolladores pueden guardar su archivo de Excel recién creado con nuevas hojas de cálculo llamando al método [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) de la clase [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook).
+Para crear un nuevo archivo de Excel programáticamente, los desarrolladores necesitarían crear un objeto de la clase [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Excel. Luego, los desarrolladores pueden llamar al método [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--) de la [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). Cuando llamamos al método [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--), se agrega automáticamente una hoja de cálculo vacía al archivo de Excel, la cual puede ser referenciada pasando el índice de la hoja recién agregada a la [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). Después de obtener la referencia de la hoja de cálculo, los desarrolladores pueden trabajar en sus hojas de cálculo según sus requisitos. Después de completar el trabajo en las hojas de cálculo, los desarrolladores pueden guardar su archivo de Excel recién creado con nuevas hojas de cálculo llamando al método [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) de la clase [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AddingWorksheetstoNewExcelFile-AddingWorksheetstoNewExcelFile.java" >}}
 
@@ -44,7 +44,7 @@ Los desarrolladores pueden acceder o obtener cualquier hoja de cálculo especifi
 
 ## **Eliminar hojas de cálculo utilizando el nombre de la hoja**
 
-A veces, los desarrolladores pueden necesitar eliminar hojas de cálculo de archivos de Excel existentes y esa tarea se puede realizar llamando al método [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String)) de la colección [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). Podemos pasar el nombre de la hoja al método [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String)) para eliminar una hoja de cálculo específica.
+A veces, los desarrolladores pueden necesitar eliminar hojas de cálculo de archivos de Excel existentes y esa tarea se puede realizar llamando al método [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-java.lang.String-) de la colección [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). Podemos pasar el nombre de la hoja al método [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-java.lang.String-) para eliminar una hoja de cálculo específica.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetName-RemovingWorksheetsusingSheetName.java" >}}
 
@@ -52,7 +52,7 @@ A veces, los desarrolladores pueden necesitar eliminar hojas de cálculo de arch
 
 El enfoque anterior de eliminar hojas de cálculo funciona bien si los desarrolladores ya conocen los nombres de las hojas de cálculo que se van a eliminar. Pero, ¿qué pasa si no conoces el nombre de la hoja de cálculo que deseas eliminar de tu archivo de Excel?
 
-Bueno, en tales circunstancias, los desarrolladores pueden usar una versión sobrecargada del método [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(int)) que toma el índice de la hoja de cálculo en lugar de su nombre de hoja.
+Bueno, en tales circunstancias, los desarrolladores pueden usar una versión sobrecargada del método [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-int-) que toma el índice de la hoja de cálculo en lugar de su nombre de hoja.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetIndex-RemovingWorksheetsusingSheetIndex.java" >}}
 
@@ -72,3 +72,4 @@ Bueno, en tales circunstancias, los desarrolladores pueden usar una versión sob
 - [Utilizar la propiedad SheetId de OpenXml usando Aspose.Cells](/cells/es/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [Trabajar con fondo en archivos ODS](/cells/es/java/working-with-background-in-ods-files/)
 - [Vistas de hojas de trabajo](/cells/es/java/worksheet-views/)
+{{< app/cells/assistant language="java" >}}

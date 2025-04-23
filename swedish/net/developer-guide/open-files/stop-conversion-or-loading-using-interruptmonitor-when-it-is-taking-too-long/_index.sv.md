@@ -34,3 +34,4 @@ Som du ser är **J1000000** ganska långt bort cell i XLSX-fil. Dock avbryter **
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Example-StopConversionOrLoadingUsingInterruptMonitor.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -26,3 +26,4 @@ Les exemples de code suivants montrent comment appliquer un exposant et un indic
 ### Code C# pour appliquer l'effet d'indice sur le texte
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplySuperscriptAndSubscript-SettingSubscriptEffect-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

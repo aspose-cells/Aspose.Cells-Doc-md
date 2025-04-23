@@ -41,3 +41,4 @@ Nell'esempio seguente viene creata una nuova organizzazione da zero, vengono scr
 Nell'esempio seguente viene aperto un file modello Microsoft Excel esistente chiamato **book1.xls**, si scrive la frase "Ciao Mondo!" nella cella A1 nel primo foglio di lavoro, e si salva il foglio di lavoro come un nuovo file.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-introduction-OpeningExistingFile-1.java" >}}
+{{< app/cells/assistant language="java" >}}

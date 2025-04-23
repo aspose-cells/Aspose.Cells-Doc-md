@@ -54,3 +54,4 @@ Aşağıdaki örnek, bir çalışma kitabından başka bir çalışma kitabına 
 Aşağıdaki örnek, bir çalışma kitabı içinde bir çalışma sayfasının başka bir konuma nasıl taşınacağını gösterir.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-MoveWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

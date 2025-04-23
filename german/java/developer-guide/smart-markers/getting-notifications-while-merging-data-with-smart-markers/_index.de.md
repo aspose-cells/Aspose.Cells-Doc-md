@@ -11,7 +11,7 @@ Aspose.Cells-APIs bieten die [WorkbookDesigner](https://reference.aspose.com/cel
 
 {{% /alert %}} 
 ## **Benachrichtigungen beim Zusammenführen von Daten mit Smart Markern erhalten**
-Der folgende Code zeigt die Verwendung des [ISmartMarkerCallBack](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack)-Interface, um eine neue Klasse zu definieren, die den Rückruf für die Methode [WorkbookDesigner.process](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process\(\)) behandelt.
+Das folgende Codebeispiel demonstriert die Verwendung des [ISmartMarkerCallBack](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack)-Interfaces, um eine neue Klasse zu definieren, die den Rückruf für die Methode [WorkbookDesigner.process](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process--) verarbeitet.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SmartMarkerCallBack-SmartMarkerCallBack.java" >}}
 
@@ -21,3 +21,4 @@ Um das Beispiel einfach und auf den Punkt zu halten, erstellt der folgende Codea
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetNotificationsWhileMergingData-GetNotificationsWhileMergingData.java" >}}
+{{< app/cells/assistant language="java" >}}

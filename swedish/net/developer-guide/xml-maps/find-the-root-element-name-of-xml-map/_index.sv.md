@@ -24,3 +24,4 @@ Följande exempelkod laddar den [sample Excel-filen](55541789.xlsx) och får til
 Root Element Name Of Xml Map: MiscData
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

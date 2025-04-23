@@ -23,3 +23,4 @@ Aspose.Cells 支持在工作簿内部或工作簿之间复制和移动工作表�
 - [在工作簿之间复制工作表](/cells/zh/net/copy-worksheets-between-workbooks/)
 - [在工作簿内复制工作表](/cells/zh/net/copy-worksheets-within-a-workbook/)
 - [在工作簿内部移动工作表](/cells/zh/net/move-worksheets-within-workbook/)
+{{< app/cells/assistant language="csharp" >}}

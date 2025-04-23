@@ -81,3 +81,4 @@ Die [Ausgabedatei](101089316.xlsx), die durch den folgenden Code-Schnipsel gener
 
 ## **Erweiterte Themen**
 - [Fügen Sie dem Diagramm ein WordArt-Wasserzeichen hinzu](/cells/de/net/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="csharp" >}}

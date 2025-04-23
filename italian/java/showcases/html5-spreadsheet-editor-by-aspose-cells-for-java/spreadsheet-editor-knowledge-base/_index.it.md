@@ -36,3 +36,4 @@ Per caricare un foglio di calcolo in un editor incorporato **url** parametro. Pe
 </iframe>
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

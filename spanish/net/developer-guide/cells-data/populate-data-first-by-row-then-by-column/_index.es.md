@@ -18,3 +18,4 @@ Poner datos en la secuencia A1, B1, A2, B2 es más rápido que A1, A2, B1, B2. S
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-PopulateDataEfficiently-PopulateDataFirstByRowThenColumns.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

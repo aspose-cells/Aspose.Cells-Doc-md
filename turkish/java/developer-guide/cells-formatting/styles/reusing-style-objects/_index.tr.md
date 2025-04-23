@@ -28,3 +28,4 @@ Yukarıda tartışılan aynı süreç aşağıdaki gibi de başarılabilir.
 [**Cell.getStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle--) ve [**Cell.setStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell/#setStyle-com.aspose.cells.Style-) yöntemleri çok daha az bellek kullanır ve verimlidir, bu nedenle gereksiz yere çok fazla bellek tüketen eski *Cell.getStyle()* özelliği *Aspose.Cells 7.1.0* sürümü ile kaldırıldı.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

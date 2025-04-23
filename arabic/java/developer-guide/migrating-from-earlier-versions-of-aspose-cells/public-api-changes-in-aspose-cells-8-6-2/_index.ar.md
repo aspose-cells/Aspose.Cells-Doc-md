@@ -150,3 +150,4 @@ Style style = book.getWorksheets().get(0).getCells().getStyle();
 
 1. AjaxCallFinished: يتم إطلاق الحدث عند انتهاء التحديث الآجاك للتحكم. (يجب تعيين EnableAJAX على true).
 1. CellModifiedOnAjax: يتم إطلاق الحدث عند تعديل الخلية في استدعاء AJAX.
+{{< app/cells/assistant language="java" >}}

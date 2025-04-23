@@ -19,7 +19,7 @@ Les feuilles de calcul protégées ne cachent ni ne protègent les données sens
 
 Aspose.Cells fournit une classe, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), qui représente un fichier Microsoft Excel. La classe Workbook contient une WorksheetCollection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par la classe [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
-La classe Worksheet fournit la méthode [**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect(int)) qui est utilisée pour appliquer une protection à une feuille de calcul. La méthode Protect accepte les paramètres suivants :
+La classe Worksheet fournit la méthode [**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect-int-) qui est utilisée pour appliquer une protection à une feuille de calcul. La méthode Protect accepte les paramètres suivants :
 
 - Type de protection, le type de protection à appliquer sur la feuille de calcul. Le type de protection est appliqué à l'aide de l'énumération [**ProtectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ProtectionType).
 - Nouveau mot de passe, le nouveau mot de passe utilisé pour protéger la feuille de calcul.
@@ -99,7 +99,7 @@ L'exemple suivant montre comment protéger quelques cellules dans la feuille de 
 
 ### **Protéger une ligne dans la feuille de calcul**
 
-Aspose.Cells vous permet de verrouiller facilement une ligne dans la feuille de calcul. Ici, nous pouvons utiliser la méthode [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) de la classe [**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) pour appliquer un style à une ligne particulière dans la feuille de calcul. Cette méthode prend deux arguments : un objet [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) et une structure [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) qui contient tous les membres liés à la mise en forme appliquée.
+Aspose.Cells vous permet de verrouiller facilement une ligne dans la feuille de calcul. Ici, nous pouvons utiliser la méthode [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) de la classe [**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) pour appliquer un style à une ligne particulière dans la feuille de calcul. Cette méthode prend deux arguments : un objet [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) et une structure [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) qui contient tous les membres liés à la mise en forme appliquée.
 
 L'exemple suivant montre comment protéger une rangée dans la feuille de calcul. Il déverrouille d'abord toutes les cellules de la feuille de calcul, puis verrouille la première rangée dans celle-ci. Enfin, il protège la feuille de calcul. Une ligne / colonne a une API de style qui contient également une méthode setCellLocked. Vous pouvez verrouiller ou déverrouiller la ligne / colonne en utilisant la structure StyleFlag.
 
@@ -107,7 +107,7 @@ L'exemple suivant montre comment protéger une rangée dans la feuille de calcul
 
 ### **Protéger une colonne dans la feuille de calcul**
 
-Aspose.Cells vous permet de verrouiller facilement une colonne dans la feuille de calcul. Ici, nous pouvons utiliser la méthode [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) de la classe [**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) pour appliquer un style à une colonne particulière dans la feuille de calcul. Cette méthode prend deux arguments : un objet [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) et une structure [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) qui contient tous les membres liés à la mise en forme appliquée.
+Aspose.Cells vous permet de verrouiller facilement une colonne dans la feuille de calcul. Ici, nous pouvons utiliser la méthode [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) de la classe [**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) pour appliquer un style à une colonne particulière dans la feuille de calcul. Cette méthode prend deux arguments : un objet [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) et une structure [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) qui contient tous les membres liés à la mise en forme appliquée.
 
 L'exemple suivant montre comment protéger une colonne dans la feuille de calcul. Il déverrouille d'abord toutes les cellules de la feuille de calcul, puis verrouille la première colonne dans celle-ci. Enfin, il protège la feuuille de calcul. Une ligne / colonne a une API de style qui contient également une méthode setLocked. Vous pouvez verrouiller ou déverrouiller la ligne / colonne en utilisant la structure StyleFlag.
 
@@ -206,3 +206,4 @@ Si vous souhaitez empêcher les utilisateurs de modifier des cellules, les cellu
 Il est possible de verrouiller des cellules en utilisant l'API Aspose.Cells également. Chaque cellule possède une API Style qui contient de plus une méthode setLocked. Utilisez-la pour verrouiller ou déverrouiller des cellules.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-LockCell-LockCell.java" >}}
+{{< app/cells/assistant language="java" >}}

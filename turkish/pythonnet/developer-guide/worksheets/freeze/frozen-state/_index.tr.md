@@ -1,19 +1,19 @@
 ---
-title: Excel Olmadan Dondurulmuş Durumu Nasıl Kontrol Edilir.
+title: Dondurulmuş Durumunu Excel olmadan nasıl kontrol edilir.
 linktitle: Dondurulmuş Durum
 type: docs
 weight: 190
 url: /tr/python-net/how-to-check-frozen-state-of-excel-worksheet
-description: Bu makalede, Aspose.Cells for Python via .NET ile Excel çalışma sayfasının programatik olarak dondurulmuş durumunu kontrol etmeyi öğreneceksiniz API ları ile.
-keywords: Python Excel Kütüphanesi, Python Excel olmadan Dondurulmuş Durumu Nasıl Kontrol Edilir, Python da Excel olmadan Dondurulmuş Durumu Kontrol Etme.
+description: Bu makalede, Aspose.Cells for Python via .NET API leri kullanarak Excel çalışma sayfasının dondurulma durumunu programlı olarak nasıl kontrol edileceğini öğrenin.
+keywords: Python Excel Kütüphanesi, Python da Excel olmadan Dondurulma Durumunu Nasıl Kontrol Ederim, Excel olmadan Dondurulma Durumunu Kontrol Et.
 ---
 
 ## **Giriş**
 
-Bu makalede, programatik olarak Excel çalışma sayfasının donmuş durumunu kontrol etmeyi öğreneceğiz. Bir Excel'de sayfanın dondurulup parçalanmadığını kolayca bulabiliriz. Ancak, onun CSharp ile dondurulup parçalayıp parçalanamadığını bulmanın bir yolu var mı? Aspose.Cells for Python via .NET ile basitçe yapabiliriz.
+Bu makalede, Excel çalışma sayfasının dondurulma durumunu programlı olarak nasıl kontrol edeceğinizi öğreneceğiz. MS Excel'de çalışma sayfasının dondurulup bölünüp bölünmediğini kolayca bulabiliriz. Ama CSharp'ta dondurulmuş veya bölünmüş olup olmadığını nasıl bulabiliriz? Aspose.Cells for Python via .NET ile bunu kolayca yapabiliriz.
 
-## **Dondurulmuş Durum Nasıl Kontrol Edilir**
-Aspose.Cells for Python via .NET ile, pencerenin dondurulup dondurulmadığını ve kaç satır ve sütunun kilitlendiğini kontrol edebiliriz.
+## **Dondurulma Durumunu Nasıl Kontrol Edebilirim**
+Aspose.Cells for Python via .NET ile pencerenin dondurulup dondurulmadığını ve kaç satır ve sütunun kilitlendiğini kontrol edebiliriz.
 
 Lütfen pencerelerin durumunu kontrol etmek için [**Worksheet.pane_state**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/pane_state/) özelliğini kullanın. 
 ve kilitli satır ve sütunları [**Worksheet.get_freezed_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/get_freezed_panes/#any-any-any-any) yöntemi ile alabilirsiniz.

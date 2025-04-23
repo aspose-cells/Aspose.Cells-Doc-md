@@ -20,6 +20,12 @@ Aspose.Cells API'ları tarafından perde arkasında izlenen süreç aşağıda b
 1. API, [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/properties/defaultfontname) özelliği altında tanımlanan yazı tipi bulunamazsa, mevcut yazı tiplerinden en uygun olanını seçmeye çalışır.
 1. Son olarak, API dosya sisteminde herhangi bir yazı tipi bulamazsa, çalışsayı Arial kullanarak elektronik tabloyu oluşturur.
 
+{{% alert color="primary" %}}
+
+Genellikle, Aspose.Cells API'leri varsayılan olarak Windows, Linux, MacOS işletim sistemlerinin varsayılan font dizinlerini tarar. [Aspose.Cells for .NET 24.7](https://releases.aspose.com/cells/net/release-notes/2024/aspose-cells-for-net-24-7-release-notes/) sürümünden itibaren, API'ler ayrıca Office önbelleklenmiş bulut font dizinlerini varsayılan olarak tarar.
+
+{{% /alert %}}
+
 ## **Özel Yazı Tipi Klasörlerini Ayarlayın**
 
 Aspose.Cells API'leri, gerekli yazı tipleri için işletim sisteminin varsayılan yazı tipi dizininde arama yapar. Gerekli yazı tipleri sistemde bulunmuyorsa, API'ler özel (kullanıcı tanımlı) dizinleri arar. [**FontConfigs**](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs) sınıfı, özel yazı tipi dizinlerini ayarlamak için aşağıda detaylı olarak açıklanan bir dizi yol sağlamıştır.
@@ -66,3 +72,4 @@ Yukarıda bahsedilen yöntemlere ek olarak, Aspose.Cells API'leri, hangi kaynak 
 - [PdfSaveOptions ve ImageOrPrintOptions'ın DefaultFont özelliğini öncelikli şekilde ayarlayın](/cells/tr/net/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Desteklenen Yazı Tipi Biçimleri](/cells/tr/net/supported-font-formats/)
 - [Elektronik Tabloyu Görüntüye - Görüntülenen Görüntü İçin Pixel Biçimini Ayarlama](/cells/tr/net/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
+{{< app/cells/assistant language="csharp" >}}

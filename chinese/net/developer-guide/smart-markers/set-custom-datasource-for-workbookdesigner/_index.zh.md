@@ -20,3 +20,4 @@ Aspose.Cells提供了为[WorkbookDesigner](https://reference.aspose.com/cells/ne
 [源文件](95584319.xlsx)
 
 [输出文件](95584320.xlsx)
+{{< app/cells/assistant language="csharp" >}}

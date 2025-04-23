@@ -44,3 +44,4 @@ Le impostazioni della memoria non funzioneranno automaticamente per il foglio pr
 Si prega di verificare l'articolo dettagliato su [Ottimizzazione della memoria durante il lavoro con grandi set di dati](/cells/it/net/ottimizzazione-dellutilizzo-della-memoria-durante-il-lavoro-con-file-grandi-avente-grandi-insiemi-di-dati/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -73,7 +73,7 @@ Para definir tu propia cadena de formato personalizada para establecer el format
 
 {{% alert color="primary" %}}
 
-Si utilizas [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) para establecer el formato de número, se anulará cualquier formato previamente establecido usando el [**Número**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number) y viceversa.
+Si utilizas el [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) para establecer el formato de número, cualquier formato previo establecido con el [**Number**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number) será sobrescrito y viceversa.
 
 {{% /alert %}}
 
@@ -81,3 +81,4 @@ Si utilizas [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cell
 - [Consulte el formato de número personalizado al configurar la propiedad Style.Custom](/cells/es/java/check-custom-number-format-when-setting-style-custom-property/)
 - [Especificar separadores de números decimales y de grupo personalizados para el libro de trabajo](/cells/es/java/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [Especificación de formato de patrón personalizado DBNum](/cells/es/java/specifying-dbnum-custom-pattern-formatting/)
+{{< app/cells/assistant language="java" >}}

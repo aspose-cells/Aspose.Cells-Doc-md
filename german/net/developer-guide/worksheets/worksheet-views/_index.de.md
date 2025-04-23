@@ -112,3 +112,4 @@ Entfernen Sie geteilte Fenster mit der Methode [**RemoveSplit**](https://referen
 - [Formeln anstelle von Werten im Arbeitsblatt anzeigen](/cells/de/net/show-formulas-instead-of-values-in-a-worksheet/)
 - [Fehlerüberprüfungsoptionen verwenden](/cells/de/net/use-error-checking-options/)
 
+{{< app/cells/assistant language="csharp" >}}

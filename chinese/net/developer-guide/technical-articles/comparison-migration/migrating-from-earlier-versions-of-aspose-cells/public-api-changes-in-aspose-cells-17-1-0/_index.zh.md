@@ -198,3 +198,4 @@ Aspose.Cells 17.1.0还公开了Percentage字段以供DisplayUnitType枚举使用
 ## **删除了 API**
 ### **删除了实例变量m_LoadDataFilterOptions**
 此版本删除了m_LoadDataFilterOptions实例变量。建议改用LoadFilter.LoadDataFilterOptions属性。
+{{< app/cells/assistant language="csharp" >}}

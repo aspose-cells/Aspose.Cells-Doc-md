@@ -169,3 +169,4 @@ The following sample code explains the use of the HTML property of the Smart Mar
 有关示例代码和详细解释，请参阅本文。
 
 - [在使用智能标记合并数据时获取通知](/cells/zh/java/getting-notifications-while-merging-data-with-smart-markers/)
+{{< app/cells/assistant language="java" >}}

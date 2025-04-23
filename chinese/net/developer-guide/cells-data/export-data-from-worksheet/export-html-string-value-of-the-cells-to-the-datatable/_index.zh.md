@@ -21,3 +21,4 @@ keywords: 将单元格的HTML字符串值导出到数据表，将HTML字符串�
  <Font Style="FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #00b0f0;Background-Color: #ffe699;">Crow</Font>
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

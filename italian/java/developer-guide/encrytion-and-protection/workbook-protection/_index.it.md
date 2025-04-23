@@ -33,3 +33,4 @@ Sbloccare la struttura del workbook è semplice con l'API Aspose.Cells.
 {{% alert color="primary" %}}
 Nota: è necessaria una password corretta.
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

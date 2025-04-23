@@ -18,3 +18,4 @@ url: /ar/net/rich-text-custom-data-label-of-chart-point/
 الكود التالي يصل إلى نقطة الرسم البياني الأولى للسلسلة الأولى، يحدد نصها، ثم يعيّن خط العشرة أحرف الأولى بتغيير لونها إلى اللون الأحمر وجعلها غامقة **صحيحة**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RichTextCustomDataLabel-RichTextCustomDataLabelOfChartPoint.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

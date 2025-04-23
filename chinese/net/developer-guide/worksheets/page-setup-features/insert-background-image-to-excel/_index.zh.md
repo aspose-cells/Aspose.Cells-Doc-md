@@ -33,3 +33,4 @@ description: “如何使用Aspose.Cells for .NET向Excel插入背景图像。�
 
 - [在ODS文件中处理背景](/cells/zh/net/working-with-background-in-ods-files/)
 
+{{< app/cells/assistant language="csharp" >}}

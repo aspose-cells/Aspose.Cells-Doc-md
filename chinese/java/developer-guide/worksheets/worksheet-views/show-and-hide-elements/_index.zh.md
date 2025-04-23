@@ -53,7 +53,7 @@ Aspose.Cells提供一个代表Excel文件的类，[**Workbook**](https://referen
 
 **设置VisibilityType**
 
-您还可以以一种特殊的方式隐藏工作表。这个功能可以隐藏工作表，以至于您唯一能够使其再次可见的方法是在代码中使用[**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType)方法的参数值为[**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY_HIDDEN)( 需要注意的是，用户不能通过MS Excel的菜单选项直接使对象可见)。用户也可以使用[**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType)方法来检查工作表是否标记为非常隐藏。
+您还可以以一种特殊的方式隐藏工作表。这个功能可以隐藏工作表，以至于您唯一能够使其再次可见的方法是在代码中使用[**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType)方法的参数值为[**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY-HIDDEN)( 需要注意的是，用户不能通过MS Excel的菜单选项直接使对象可见)。用户也可以使用[**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType)方法来检查工作表是否标记为非常隐藏。
 
 ## **显示或隐藏选项卡**
 
@@ -224,3 +224,4 @@ Aspose.Cells提供了一个代表Microsoft Excel文件的类，[**Workbook**](ht
 - [向单元格添加边框以创建表格](/cells/zh/java/create-table-by-using-border-lines-for-a-range/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

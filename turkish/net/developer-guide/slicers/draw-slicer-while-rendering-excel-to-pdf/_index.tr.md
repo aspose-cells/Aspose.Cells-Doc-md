@@ -13,3 +13,4 @@ Aşağıdaki örnek kod önceden var olan bir dilimleyici içeren [örnek Excel 
 ![todo:image_alt_text](draw-slicer-while-rendering-excel-to-pdf_1.jpg)
 ## **Örnek Kod**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Slicers-ExportSlicerToPDF-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

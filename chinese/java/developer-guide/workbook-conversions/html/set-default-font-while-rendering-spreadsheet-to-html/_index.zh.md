@@ -20,3 +20,4 @@ Aspose.Cells允许您在将电子表格渲染为HTML时设置默认字体。请�
 该代码生成带Courier New的[输出HTML文件](5472568)，带Arial的[输出HTML文件](5472567)和带Times New Roman的[输出HTML文件](5472565)。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToHTML-.java" >}}
+{{< app/cells/assistant language="java" >}}

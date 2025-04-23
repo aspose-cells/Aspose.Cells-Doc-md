@@ -49,3 +49,4 @@ Scarica **Trova il valore nelle celle** da uno qualsiasi dei seguenti siti di co
 Per ulteriori dettagli, visita [Trova o ricerca dati](/cells/it/net/find-or-search-data/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

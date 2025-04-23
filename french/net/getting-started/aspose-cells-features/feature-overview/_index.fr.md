@@ -111,3 +111,4 @@ Vous pouvez utiliser Aspose.Cells for .NET pour implémenter des options de conf
 |Spécifiez vos marges et le centrage de la page.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Créez ou modifiez votre en-tête et/ou pied de page.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Définissez la zone d'impression, les titres d'impression ou activez les lignes de grille, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< app/cells/assistant language="csharp" >}}

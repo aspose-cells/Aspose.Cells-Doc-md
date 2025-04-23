@@ -29,3 +29,4 @@ Cet exemple montre comment :
 1. Définir la bordure externe de la plage.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Range-set-border.java" >}}
+{{< app/cells/assistant language="java" >}}

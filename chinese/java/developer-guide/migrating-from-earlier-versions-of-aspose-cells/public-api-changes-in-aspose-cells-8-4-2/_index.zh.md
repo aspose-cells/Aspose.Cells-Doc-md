@@ -161,3 +161,4 @@ workbook.save(output);
 从Aspose.Cells for Java 8.4.2开始，枚举字段PasteType.ALL的行为与Excel的"All"功能进行粘贴范围的方式不同。现在，PasteType.ALL还会将列宽复制到目标范围，而不仅仅是Excel的“全部”功能。为了模仿Excel的"All"行为，请使用PasteType.DEFAULT。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

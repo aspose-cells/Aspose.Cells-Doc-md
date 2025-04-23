@@ -13,19 +13,20 @@ aliases:
 
 # Arbeta med GridJs-lagring
 ## den allmänna filhanteringen 
+
 Efter import av en kalkylbladsfil,
 
-GridJs kommer att skapa en cache-fil med den angivna uid i mappen **`Config.FileCacheDirectory`**,
+GridJs kommer att skapa en cache-fil med angivet uid enligt GridCacheForStream-implementeringen,
 
 med formatet [Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/net/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat"),
 
-GridJs kommer också att spara alla former/bilder i en ziparkivfil i mappen **`Config.PictureCacheDirectory`** för senare visning av former/bilder i klientgränssnittet.
+GridJs sparar också alla former/bilder till en zip-arkivfil i cachemappen för senare visning av former/bilder i klient-UI.
 
 och efter varje uppdatering i klientgränssnittet,
 
 till exempel ställa in cellvärde, ställa in cellstil, osv.,
 
-GridJs klient-sidans js kommer att utlösa kontrolleraction för att utföra en uppdateringscelloperation.
+GridJs klient-sidans JS kommer att utlösa en kontrollåtgärd för att göra en uppdateringsoperation.
 
 I denna åtgärd kommer en sparning tillbaka till cache-filen att inträffa under UpdateCell-metoden.
 ```C#   
@@ -42,7 +43,7 @@ I denna åtgärd kommer en sparning tillbaka till cache-filen att inträffa unde
 ```
 ### Var finns cache-filen faktiskt 
 
-A. Om vi implementerar GridCacheForStream och ställer in GridJsWorkbook.CacheImp.
+A. Om du implementerar GridCacheForStream själv.
 till exempel i koden nedan kan vi bara sätta och hämta cache-filen från **"D:\temp"**
 ```C#
 Config.FileCacheDirectory=@"D:\temp";
@@ -50,6 +51,16 @@ GridJsWorkbook.CacheImp=new LocalFileCache();
 public class LocalFileCache  : GridCacheForStream
     {
 
+        public LocalFileCache()
+        {
+            string streampath = Config.FileCacheDirectory;
+            if (!Directory.Exists(streampath))
+            {
+
+                Directory.CreateDirectory(streampath);
+
+            }
+        }
         /// <summary>
         /// Implement this method to savecache,save the stream to the cache object with the key id.
         /// </summary>
@@ -77,28 +88,27 @@ public class LocalFileCache  : GridCacheForStream
             FileStream fs = new FileStream(filepath, FileMode.Open);
             return fs;
         }
-		...
+...
 ```
-B. Om vi inte ställer in GridJsWorkbook.CacheImp,
+B.Om du inte sätter GridJsWorkbook.CacheImp, 
 
-kommer GridJs att skapa och spara filen inom **`Config.FileCacheDirectory`**, vilket är standardcachekatalogen som vi kan ställa in.
+GridJs har redan implementerat en standard.
+
+GridJs kommer att skapa och spara cachefilen inom sökvägen: **`Config.FileCacheDirectory/streamcache`** .
 
 ### hur man får den uppdaterade resultatsfilen
-#### 1. ett specifierad uid för filen 
+#### 1. skapa en specificerad uid för filen 
 Se till att en specifierad kartläggning korrespondens mellan filen och uid finns, 
 
-Du kan alltid få samma uid för ett angivet filnamn, inte från slumpmässig generering.
+Till exempel 
 
-Till exempel är det bra att bara använda filnamnet.
 ```C#
-//in controller  
-...
-        public ActionResult Uidtml(String filename)
-        {
 
-            return Redirect("~/xspread/uidload.html?file=" + filename + "&uid=" +  Path.GetFileNameWithoutExtension(filename));
-        }
- ...
+...     
+        //generte a uid for the file
+        String uid = GridJsWorkbook.GetUidForFile(filename)
+...
+        //get JSON result which will be used in client ui for the file by filename and uid
         public ActionResult DetailFileJsonWithUid(string filename,string uid)
         {
             String file = Path.Combine(TestConfig.ListDir, filename);
@@ -111,75 +121,15 @@ Till exempel är det bra att bara använda filnamnet.
                 wbj.ImportExcelFile(uid, wb);
                 sb = wbj.ExportToJsonStringBuilder(filename);
             }
-
             return Content(sb.ToString(), "text/plain", System.Text.Encoding.UTF8);
         }
 ```
 
-#### 2. synkronisera med klientens UI-operation
-Faktum är att för vissa klienters UI-operation,
 
-till exempel:
-
-växla det aktiva kalkylarket till ett annat,
-
-ändra bildplaceringen,
-
-rotera/ändra bildstorlek, etc.
-
-kommer inte UpdateCell-åtgärden att utlösas.
-
-Så om vi vill få den uppdaterade filen precis som klientens UI visar,
-
-måste vi göra en sammanfogning innan spara-åtgärden för att synkronisera de där klientens UI-operationerna.
-```javascript
-//in the js
-  function save() {
-            if (!xs.buffer.isFinish()) {
-              alert('updating is inprogress,please try later');
-                return;
-            }
-            let datas = xs.datas;
-            delete datas.history;
-            delete datas.search;
-            delete datas.images;
-            delete datas.shapes;
-
-        var jsondata = {
-          sheetname: xs.sheet.data.name,
-          actrow: xs.sheet.data.selector.ri,
-          actcol: xs.sheet.data.selector.ci,
-          datas: xs.getUpdateDatas(),
-        };
-
-        const data = {
-          p: JSON.stringify(jsondata),
-          uid: uniqueid,
-        };
-		....
-		//go on to do ajax post to trigger controller action
-```
+#### 2. hämta filen från cache med hjälp av uid
+till exempel: I nedladdningsåtgärden kan du bara hämta den från cachekatalogen med uid och filnamn.
 ```C#
-//in controller action 
-  GridJsWorkbook wb = new GridJsWorkbook();
-  wb.MergeExcelFileFromJson(uid, p);
-  //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
-  wb.SaveToXlsx(Path.Combine(Config.FileCacheDirectory, uid));
-```         
-#### 3. hämta filen från cache
-till exempel: i hämtnings-åtgärden kan du bara hämta den från cache-katalogen med uid.
-```C#
-//in controller  
-
-        public async Task<IActionResult> DownloadfromBytes(string uid,string ext)
-        {
-            byte[] byteArr = await System.IO.File.ReadAllBytesAsync(Path.Combine(Config.FileCacheDirectory, uid) );
-            string mimeType = "application/octet-stream";
-            return new FileContentResult(byteArr, mimeType)
-            {
-                FileDownloadName = uid+ ext
-            };
-        }
+	 Stream fileStream = GridJsWorkbook.CacheImp.LoadStream(uid + "/" + filename);
 ```
 
 För mer detaljerad information kan du kolla exemplet här:

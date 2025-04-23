@@ -27,3 +27,4 @@ Ek ayarları belirtmek için JsonLoadOptions sınıfını kullanan JSON'u Excel 
 Aşağıdaki kod örneği, JSON dizesini Excel Workbook'e içe aktarmanın bir örneğini göstermektedir. JSON'i içe aktarırken düzenin konumunu da belirleyebilirsiniz. Referans için kodu görmek için JSON dizesini, kodla üretilen xlsx dosyası ile birlikte inceleyin.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Convert-JSON-String-to-Excel.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

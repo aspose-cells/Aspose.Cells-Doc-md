@@ -103,3 +103,4 @@ Aspose.Cellsは、長年の研究、設計、そして注意深い調整の成�
 - [計算項目を持つピボットテーブルを更新および計算する](/cells/ja/java/refresh-and-calculate-pivot-table-having-calculated-items/)
 - [ピボットテーブルリボンの無効化](/cells/ja/java/disable-pivot-table-ribbons/)
 
+{{< app/cells/assistant language="java" >}}

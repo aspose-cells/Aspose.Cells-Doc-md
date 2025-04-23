@@ -21,3 +21,4 @@ X軸には異なるタイプがあります。Y軸が値タイプの軸である
 
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "X-axis-vs-category-axis.java" >}}
+{{< app/cells/assistant language="java" >}}

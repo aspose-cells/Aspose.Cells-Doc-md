@@ -22,3 +22,4 @@ Questa opzione può essere accessa sull'interfaccia di Excel selezionando una qu
 Per emulare la funzione di Excel di ridimensionare le forme delle etichette dati per adattare il testo, le API di Aspose.Cells hanno esposto la proprietà di tipo Boolean [**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext). Il seguente pezzo di codice mostra lo scenario d'uso semplice di tale proprietà.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ResizeChartDataLabelToFit-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -66,3 +66,4 @@ Aspose.Cells は Microsoft Excel ファイルを表す [**Workbook**](https://re
 Aspose.Cells APIを使用してセルをロックすることも可能です。各セルには、セルをロックまたは解除するためのブール値プロパティ[**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked)を含む[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)書式を取得できます。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

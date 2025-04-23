@@ -42,3 +42,4 @@ Bitte verwenden Sie die [**Worksheet.FreezePanes**](https://reference.aspose.com
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Column.cs" >}}
 
 Anbei [Beispielquelle Excel-Datei](Freeze.xlsx).
+{{< app/cells/assistant language="csharp" >}}

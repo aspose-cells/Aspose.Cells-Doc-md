@@ -13,7 +13,7 @@ Aspose.Cells, DataField'ın tüm veri görüntüleme formatlarını destekler.
 
 ## **"En Küçükten En Büyüğe Sırala" ve "En Büyükten En Küçüğe Sırala" görüntüleme formatı seçeneği**
 
-Aspose.Cells, haraket alanları için görüntüleme formatı seçeneğini ayarlama olanağı sağlar. Bunun için API, [**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfield#DataDisplayFormat) özelliğini sağlar. En büyükten en küçüğe sıralamak için, [**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfield#DataDisplayFormat) özelliğini [**PivotFieldDataDisplayFormat.RANK_LARGEST_TO_SMALLEST**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfielddatadisplayformat#RANK_LARGEST_TO_SMALLEST) olarak ayarlayabilirsiniz. Aşağıdaki kod parçası, görüntüleme formatı seçeneklerinin ayarlanmasını göstermektedir.
+Aspose.Cells, haraket alanları için görüntüleme formatı seçeneğini ayarlama olanağı sağlar. Bunun için API, [**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfield#DataDisplayFormat) özelliğini sağlar. En büyükten en küçüğe sıralamak için, [**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfield#DataDisplayFormat) özelliğini [**PivotFieldDataDisplayFormat.RANK_LARGEST_TO_SMALLEST**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfielddatadisplayformat#RANK-LARGEST-TO-SMALLEST) olarak ayarlayabilirsiniz. Aşağıdaki kod parçası, görüntüleme formatı seçeneklerinin ayarlanmasını göstermektedir.
 
 Örnek kaynak ve çıktı dosyalarını buradan indirebilir ve örnek kodu test etmek için kullanabilirsiniz:
 
@@ -22,3 +22,4 @@ Aspose.Cells, haraket alanları için görüntüleme formatı seçeneğini ayarl
 [Çıktı Excel Dosyası](PivotTableDataDisplayFormatRanking_out.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-PivotTableDataDisplayFormatRanking-1.java" >}}
+{{< app/cells/assistant language="java" >}}

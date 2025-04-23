@@ -12,3 +12,4 @@ Aspose.Cells提供了使用正则表达式在工作簿中替换文本的功能�
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-RegexReplace-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

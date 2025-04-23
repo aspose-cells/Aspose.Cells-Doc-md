@@ -19,7 +19,7 @@ url: /ar/java/protect-and-unprotect-worksheet/
 
 توفر Aspose.Cells فئة، [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)، التي تمثل ملف Microsoft Excel. تحتوي فئة Workbook على مجموعة من الصفحات والتي تسمح بالوصول إلى كل ورقة عمل في ملف Excel. تمثل ورقة العمل بواسطة الفئة [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
-توفر فئة الورقة العمل الطريقة [**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect(int)) التي تستخدم لتطبيق الحماية على ورقة عمل. تقبل الطريقة Protect المعلمات التالية:
+توفر فئة الورقة العمل الطريقة [**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect-int-) التي تستخدم لتطبيق الحماية على ورقة عمل. تقبل الطريقة Protect المعلمات التالية:
 
 - نوع الحماية، نوع الحماية المطبقة على ورقة العمل. يتم تطبيق نوع الحماية بمساعدة تعداد [**ProtectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ProtectionType).
 - كلمة المرور الجديدة ، كلمة المرور الجديدة المستخدمة لحماية ورقة العمل.
@@ -99,7 +99,7 @@ url: /ar/java/protect-and-unprotect-worksheet/
 
 ### **حماية صف في ورقة العمل**
 
-تسمح Aspose.Cells لك بقفل أي صف بسهولة في ورقة العمل. هنا، يمكننا الاستفادة من طريقة [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) في فئة [**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) لتطبيق النمط على صف معين في ورقة العمل. تأخذ هذه الطريقة معها معلمتين: كائن [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) وهيكل [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) الذي يحتوي على جميع أعضاء التنسيق المطبقة.
+تسمح Aspose.Cells لك بقفل أي صف بسهولة في ورقة العمل. هنا، يمكننا الاستفادة من طريقة [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) في فئة [**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) لتطبيق النمط على صف معين في ورقة العمل. تأخذ هذه الطريقة معها معلمتين: كائن [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) وهيكل [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) الذي يحتوي على جميع أعضاء التنسيق المطبقة.
 
 يوضح المثال التالي كيفية تأمين صف في جدول البيانات. يتم فتح جميع الخلايا في جدول البيانات أولاً ثم يتم تأمين الصف الأول فيه. أخيرًا، يتم حماية جدول البيانات. تحتوي الصف/العمود على واجهة برمجة التطبيقات (API) الخاصة بها التي تحتوي على طريقة setCellLocked. يمكنك تأمين أو فتح الصف/العمود باستخدام هيكل StyleFlag.
 
@@ -107,7 +107,7 @@ url: /ar/java/protect-and-unprotect-worksheet/
 
 ### **حماية عمود في ورقة العمل**
 
-تسمح Aspose.Cells لك بقفل أي عمود بسهولة في ورقة العمل. هنا، يمكننا الاستفادة من الطريقة [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) في فئة [**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) لتطبيق النمط على عمود معين في ورقة العمل. تأخذ هذه الطريقة معها معلمتين: كائن [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) وهيكل [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) الذي يحتوي على جميع أعضاء التنسيق المطبقة.
+تسمح Aspose.Cells لك بقفل أي عمود بسهولة في ورقة العمل. هنا، يمكننا الاستفادة من الطريقة [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) في فئة [**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) لتطبيق النمط على عمود معين في ورقة العمل. تأخذ هذه الطريقة معها معلمتين: كائن [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) وهيكل [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) الذي يحتوي على جميع أعضاء التنسيق المطبقة.
 
 يوضح المثال التالي كيفية تأمين عمود في جدول البيانات. يتم فتح جميع الخلايا في جدول البيانات أولاً ثم يتم تأمين العمود الأول فيه. أخيرًا، يتم حماية جدول البيانات. تحتوي الصف/العمود على واجهة برمجة التطبيقات (API) الخاصة بها التي تحتوي على طريقة setCellLocked. يمكنك تأمين أو فتح الصف/العمود باستخدام هيكل StyleFlag.
 
@@ -206,3 +206,4 @@ Aspose.Cells يدعم جميع إعدادات الحماية المتقدمة ا
 من الممكن قفل الخلايا باستخدام واجهة برمجة التطبيقات Aspose.Cells أيضًا. كل خلية تحتوي على واجهة برمجة تطبيقات Style تحتوي بدورها على طريقة setLocked. استخدمها لقفل أو فتح الخلايا.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-LockCell-LockCell.java" >}}
+{{< app/cells/assistant language="java" >}}

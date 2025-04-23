@@ -109,3 +109,4 @@ Se pueden exportar datos de un rango a [**DataTable**](https://docs.microsoft.co
 - [Exportar datos de filas visibles desde la hoja de cálculo](/cells/es/net/export-visible-rows-data-from-worksheet/)
 - [Ignorar columnas ocultas al exportar datos de la hoja de cálculo al DataTable](/cells/es/net/ignore-hidden-columns-while-exporting-worksheet-data-to-data-table/)
 - [Renombrar columnas duplicadas automáticamente al exportar datos de la hoja de cálculo](/cells/es/net/rename-duplicate-columns-automatically-while-exporting-worksheet-data/)
+{{< app/cells/assistant language="csharp" >}}

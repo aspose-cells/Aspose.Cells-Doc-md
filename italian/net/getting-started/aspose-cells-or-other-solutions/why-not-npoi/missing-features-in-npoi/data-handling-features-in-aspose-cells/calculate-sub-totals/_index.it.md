@@ -53,3 +53,4 @@ Scarica **Calcolare i subtotali** da uno dei siti di codice sociale di seguito m
 Per ulteriori dettagli, visita [Creating Subtotals](/cells/it/net/creating-subtotals/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

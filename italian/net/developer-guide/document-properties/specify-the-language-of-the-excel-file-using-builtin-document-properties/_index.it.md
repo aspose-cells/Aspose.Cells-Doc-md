@@ -18,3 +18,4 @@ Il codice di esempio seguente crea un foglio di lavoro e modifica la sua proprie
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DocumentProperties-SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

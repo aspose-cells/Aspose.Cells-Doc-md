@@ -11,11 +11,12 @@ Es ist möglich, alle leeren Zeilen und Spalten aus einem Arbeitsblatt zu lösch
 
 Verwenden Sie die folgenden Aspose.Cells-Methoden, um leere Zeilen und Spalten zu löschen:
 
-1. Verwenden Sie die Methode [Cells.deleteBlankRows()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankRows\(\)), um leere Zeilen zu löschen.
-1. Verwenden Sie die Methode [Cells.deleteBlankColumns()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankColumns\(\)), um leere Spalten zu löschen.
+1. Um leere Zeilen zu löschen, verwenden Sie die Methode [Cells.deleteBlankRows()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankRows--).
+1. Um leere Spalten zu löschen, verwenden Sie die Methode [Cells.deleteBlankColumns()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankColumns--).
 
 {{% /alert %}} 
 ## **Löschen von leeren Zeilen**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DeletingBlankRows-DeletingBlankRows.java" >}}
 ## **Löschen von leeren Spalten**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DeletingBlankColumns-DeletingBlankColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

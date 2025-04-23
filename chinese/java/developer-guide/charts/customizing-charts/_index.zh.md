@@ -131,7 +131,7 @@ Aspose.Cells提供了一组特殊的类，用于创建各种类型的图表。 �
 
 1. 使用 [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) 对象的 [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) 方法将一些数据添加到工作表单元格中。
    这将被用作图表的数据源。
-1. 通过在 [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) 对象中封装的 [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) 集合的 *add* 方法添加图表到工作表单中。
+1. 通过调用 [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) 集合中的 [*add*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add-int-int-int-int-int-) 方法添加图表，封装在 [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) 对象中。
 1. 使用 [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) 枚举指定图表的类型。
    例如，示例将 [**ChartType.PYRAMID**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#PYRAMID) 值用作图表类型。
 1. 通过传递其索引从 [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) 集合中访问新的 [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) 对象。
@@ -166,7 +166,7 @@ Aspose.Cells提供了一组特殊的类，用于创建各种类型的图表。 �
 
 #### **带有数据标记的折线图**
 
-要创建带有数据标记的折线图，必须将[**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)设置为[**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE_WITH_DATA_MARKERS)，并相应地设置一些额外的属性，如背景区域、系列标记、值和X值。执行以下代码后，工作表中将添加一个带有数据标记的折线图。
+要创建带有数据标记的折线图，必须将[**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)设置为[**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE-WITH-DATA-MARKERS)，并相应地设置一些额外的属性，如背景区域、系列标记、值和X值。执行以下代码后，工作表中将添加一个带有数据标记的折线图。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-CreateLineWithDataMarkerChart-1.java" >}}
 
@@ -202,3 +202,4 @@ Aspose.Cells提供了一组特殊的类，用于创建各种类型的图表。 �
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="java" >}}

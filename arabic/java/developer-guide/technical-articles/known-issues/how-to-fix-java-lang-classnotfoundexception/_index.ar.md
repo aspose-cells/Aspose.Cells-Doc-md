@@ -44,3 +44,4 @@ Aspose.Cells for Java API يعتمد على Bouncy Castle لميزات التش�
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="java" >}}

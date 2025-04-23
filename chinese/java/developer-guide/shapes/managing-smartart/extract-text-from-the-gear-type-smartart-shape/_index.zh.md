@@ -24,3 +24,4 @@ Aspose.Cells 能够从 Gear Type Smart Art Shape 中提取文本。为此，您�
 Gear Type Shape Text: Nice Gear Type Shape Text: Good Gear Type Shape Text: Excellent
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

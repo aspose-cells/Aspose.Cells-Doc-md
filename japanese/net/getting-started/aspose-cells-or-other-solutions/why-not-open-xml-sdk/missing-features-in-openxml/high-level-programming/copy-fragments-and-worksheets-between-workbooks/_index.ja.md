@@ -23,3 +23,4 @@ Microsoft Excelでワークブック内またはワークブック間でワー�
 - [ブック間でのワークシートのコピー](/cells/ja/net/copy-worksheets-between-workbooks/)
 - [ブック内でのワークシートのコピー](/cells/ja/net/copy-worksheets-within-a-workbook/)
 - [ワークブック内でのワークシートの移動](/cells/ja/net/move-worksheets-within-workbook/)
+{{< app/cells/assistant language="csharp" >}}

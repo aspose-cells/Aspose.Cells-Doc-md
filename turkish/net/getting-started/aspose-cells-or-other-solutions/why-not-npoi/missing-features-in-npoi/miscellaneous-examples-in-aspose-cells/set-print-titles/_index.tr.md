@@ -41,3 +41,4 @@ Aşağıda belirtilen herhangi bir sosyal kodlama sitesinden **Yazdırma Başlı
 Daha fazla bilgi için [Yazdırma Seçeneklerini Ayarlama](/cells/tr/net/setting-print-options/) sayfasını ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

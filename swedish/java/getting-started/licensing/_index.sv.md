@@ -18,7 +18,7 @@ Licensen kan laddas från en ström eller fil på följande platser:
 1. Explicit sökväg.
 1. Mappen som innehåller Aspose.Cells.jar.
 
-Använd [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) metoden för att licensiera komponenten. Det är ofta det enklaste sättet att sätta en licens är att placera licensfilen i samma mapp som Aspose.Cells.jar och ange bara filnamnet utan sökväg enligt exemplet nedan:
+Använd metoden [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense-java.io.InputStream-) för att licensiera komponenten. Ofta är det enklaste sättet att sätta licensen att lägga licensfilen i samma mapp som Aspose.Cells.jar och bara specificera filnamnet utan sökväg som visas i följande exempel:
 
 ### **Hur man ansöker om en licens från disk**
 
@@ -99,3 +99,4 @@ double amountAfter = Metered.getConsumptionQuantity();
 System.out.println(amountAfter);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

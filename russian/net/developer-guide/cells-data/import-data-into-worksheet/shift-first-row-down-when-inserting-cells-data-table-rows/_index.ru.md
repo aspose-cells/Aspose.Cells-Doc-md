@@ -22,3 +22,4 @@ Aspose.Cells позволяет сдвигать первую строку вн�
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-ShiftFirstRowDownWhenInsertingCellsDataTableRows.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

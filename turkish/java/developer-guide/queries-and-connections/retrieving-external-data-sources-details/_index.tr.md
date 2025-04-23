@@ -34,3 +34,4 @@ Kod çalıştığında, bağlantı ayrıntıları konsola yazdırılır.
 
 
 
+{{< app/cells/assistant language="java" >}}

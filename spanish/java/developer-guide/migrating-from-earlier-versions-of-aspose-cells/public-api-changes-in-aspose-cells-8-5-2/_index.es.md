@@ -174,3 +174,4 @@ Aspose.Cells for Java 8.5.2 ha expuesto el campo ConsolidationFunction.DISTINCT_
 La función de consolidación de conteo distintivo es compatible solo con Microsoft Excel 2013.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -22,3 +22,4 @@ url: /ar/java/calculate-page-setup-scaling-factor/
  0.5079621076583862
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

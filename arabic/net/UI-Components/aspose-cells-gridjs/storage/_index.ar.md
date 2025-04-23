@@ -13,19 +13,20 @@ aliases:
 
 # العمل مع تخزين GridJs
 ##  عملية الملف العامة 
+
 بعد استيراد ملف جدول بيانات ،
 
-سيقوم GridJs بإنشاء ملف ذاكرة مؤقتة بالمعرف المحدد في مجلد **`Config.FileCacheDirectory`**،
+سيقوم GridJs بإنشاء ملف ذاكرة تخزين مؤقت بمعرف فريد محدد وفقًا لتنفيذ GridCacheForStream،
 
 بتنسيق [Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/net/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat")،
 
-سوف يقوم GridJs أيضًا بحفظ جميع الأشكال/الصور في ملف أرشيف ضغط في مجلد **`Config.PictureCacheDirectory`** لعرض الأشكال/الصور لاحقًا في واجهة المستخدم الخاصة.
+سيحفظ GridJs أيضًا جميع الأشكال/الصور في ملف أرشيف zip في مجلد التخزين المؤقت لعرض الأشكال/الصور لاحقًا في واجهة المستخدم الخاصة بالعميل.
 
 وبعد كل عملية تحديث في واجهة المستخدم،
 
 على سبيل المثال تعيين قيمة الخلية ، تعيين نمط الخلية، وما إلى ذلك،
 
-ستقوم واجهة المستخدم الخاصة بـ GridJs بتشغيل عملية تحديث الخلية.
+مستوى العميل لجافا سكريبت من GridJs سيقوم بتشغيل إجراء وحدة التحكم لإجراء عملية تحديث.
 
 في هذا العمل يحدث حفظ مرة أخرى إلى الملف المؤقت أثناء طريقة التحديث الخلية.
 ```C#   
@@ -42,7 +43,7 @@ aliases:
 ```
 ### أين يكون الملف المخبأ بالضبط؟ 
 
-أ. إذا قمنا بتنفيذ GridCacheForStream وضبط GridJsWorkbook.CacheImp.
+أ. إذا قمت بتنفيذ GridCacheForStream بنفسك.
 على سبيل المثال في الكود أدناه يمكننا فقط وضع والحصول على ملف التخزين المؤقت من **"D:\temp"**
 ```C#
 Config.FileCacheDirectory=@"D:\temp";
@@ -50,6 +51,16 @@ GridJsWorkbook.CacheImp=new LocalFileCache();
 public class LocalFileCache  : GridCacheForStream
     {
 
+        public LocalFileCache()
+        {
+            string streampath = Config.FileCacheDirectory;
+            if (!Directory.Exists(streampath))
+            {
+
+                Directory.CreateDirectory(streampath);
+
+            }
+        }
         /// <summary>
         /// Implement this method to savecache,save the stream to the cache object with the key id.
         /// </summary>
@@ -77,28 +88,27 @@ public class LocalFileCache  : GridCacheForStream
             FileStream fs = new FileStream(filepath, FileMode.Open);
             return fs;
         }
-		...
+...
 ```
-ب. إذا لم نقم بضبط GridJsWorkbook.CacheImp
+ب. إذا لم تقم بضبط GridJsWorkbook.CacheImp، 
 
-سوف تقوم GridJs بإنشاء ملف حفظ داخل **`Config.FileCacheDirectory`**، وهو الدليل الافتراضي للتخزين المؤقت الذي يمكننا ضبطه.
+لقد نفذت GridJs ذلك بشكل افتراضي بالفعل.
+
+سيقوم GridJs بإنشاء وحفظ ملف ذاكرة التخزين المؤقت ضمن المسار: **`Config.FileCacheDirectory/streamcache`** .
 
 ### كيفية الحصول على ملف النتيجة المحدث
-#### 1. معرّف محدد للملف 
+#### 1. إنشاء معرف فريد محدد للملف 
 تأكد من وجود توافق تعيين خريطة محددة بين الملف ومعرف اليوسيدي، 
 
-يمكنك دائمًا الحصول على نفس معرف اليوسيدي لاسم ملف محدد، ليس من توليد عشوائي.
+على سبيل المثال 
 
-على سبيل المثال، ما عليك سوى استخدام اسم الملف.
 ```C#
-//in controller  
-...
-        public ActionResult Uidtml(String filename)
-        {
 
-            return Redirect("~/xspread/uidload.html?file=" + filename + "&uid=" +  Path.GetFileNameWithoutExtension(filename));
-        }
- ...
+...     
+        //generte a uid for the file
+        String uid = GridJsWorkbook.GetUidForFile(filename)
+...
+        //get JSON result which will be used in client ui for the file by filename and uid
         public ActionResult DetailFileJsonWithUid(string filename,string uid)
         {
             String file = Path.Combine(TestConfig.ListDir, filename);
@@ -111,75 +121,15 @@ public class LocalFileCache  : GridCacheForStream
                 wbj.ImportExcelFile(uid, wb);
                 sb = wbj.ExportToJsonStringBuilder(filename);
             }
-
             return Content(sb.ToString(), "text/plain", System.Text.Encoding.UTF8);
         }
 ```
 
-#### 2. مزامنة مع عملية واجهة المستخدم للعميل
-في الواقع، بالنسبة لبعض عمليات واجهة المستخدم الخاصة بالعميل،
 
-على سبيل المثال:
-
-تبديل الورقة النشطة إلى أخرى،
-
-تغيير موقع الصورة،
-
-تدوير/تغيير حجم الصورة، إلخ.
-
-لن تتم تفعيل إجراء تحديث الخلية.
-
-بالتالي، إذا كنا نريد الحصول على ملف محدث تمامًا كما يظهر واجهة المستخدم الخاصة بالعميل،
-
-نحتاج إلى القيام بعملية دمج قبل إجراء توصية بحفظ لمزامنة تلك العمليات واجهة المستخدم الخاصة بالعميل.
-```javascript
-//in the js
-  function save() {
-            if (!xs.buffer.isFinish()) {
-              alert('updating is inprogress,please try later');
-                return;
-            }
-            let datas = xs.datas;
-            delete datas.history;
-            delete datas.search;
-            delete datas.images;
-            delete datas.shapes;
-
-        var jsondata = {
-          sheetname: xs.sheet.data.name,
-          actrow: xs.sheet.data.selector.ri,
-          actcol: xs.sheet.data.selector.ci,
-          datas: xs.getUpdateDatas(),
-        };
-
-        const data = {
-          p: JSON.stringify(jsondata),
-          uid: uniqueid,
-        };
-		....
-		//go on to do ajax post to trigger controller action
-```
+#### 2. الحصول على الملف من الذاكرة المؤقتة بواسطة المعرف الفريد
+على سبيل المثال: في عملية التحميل، يمكنك فقط الحصول عليه من دليل الذاكرة المؤقتة بواسطة المعرف الفريد واسم الملف.
 ```C#
-//in controller action 
-  GridJsWorkbook wb = new GridJsWorkbook();
-  wb.MergeExcelFileFromJson(uid, p);
-  //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
-  wb.SaveToXlsx(Path.Combine(Config.FileCacheDirectory, uid));
-```         
-#### 3. الحصول على الملف من الذاكرة المؤقتة
-على سبيل المثال: في إجراء التنزيل، يمكنك ببساطة الحصول عليه من دليل الذاكرة المؤقتة عن طريق مُعرِّّف الوحدة.
-```C#
-//in controller  
-
-        public async Task<IActionResult> DownloadfromBytes(string uid,string ext)
-        {
-            byte[] byteArr = await System.IO.File.ReadAllBytesAsync(Path.Combine(Config.FileCacheDirectory, uid) );
-            string mimeType = "application/octet-stream";
-            return new FileContentResult(byteArr, mimeType)
-            {
-                FileDownloadName = uid+ ext
-            };
-        }
+	 Stream fileStream = GridJsWorkbook.CacheImp.LoadStream(uid + "/" + filename);
 ```
 
 للمزيد من المعلومات التفصيلية، يمكنك التحقق من المثال هنا:

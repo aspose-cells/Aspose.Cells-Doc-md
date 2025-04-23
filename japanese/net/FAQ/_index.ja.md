@@ -47,3 +47,4 @@ Aspose.Cellsの数式計算エンジンを強化していますが、ほとん�
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="csharp" >}}

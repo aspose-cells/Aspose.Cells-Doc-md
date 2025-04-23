@@ -28,8 +28,9 @@ La capture d'écran suivante montre le fichier de base de données lorsqu'il est
 
 ![todo:image_alt_text](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_1.png)
 ## **Importer des données depuis l'objet ResultSet de la base de données Microsoft Access vers la feuille de calcul.**
-Le code d'exemple suivant exécute une requête SQL à partir de la base de données Microsoft Access et crée un objet ResultSet. Ensuite, il importe des données depuis l'objet ResultSet dans la feuille de calcul en utilisant la méthode [Worksheet.getCells().importResultSet()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importResultSet\(java.sql.ResultSet,%20int,%20int,%20boolean\)). La première fois, il utilise des indices de lignes et de colonnes, puis il utilise le nom de la cellule pour importer des données dans la feuille de calcul. Enfin, il enregistre le classeur en tant que [Fichier Excel en sortie](48496713.xlsx). La capture d'écran montre l'effet du code d'exemple sur le fichier Excel de sortie pour une référence.
+Le code exemple ci-dessous exécute une requête SQL depuis une base de données Microsoft Access et crée un objet ResultSet. Ensuite, il importe les données de l'objet ResultSet dans une feuille de calcul en utilisant [Worksheet.getCells().importResultSet()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importResultSet-java.sql.ResultSet-int-int-boolean-). La première fois, il utilise les indices de ligne et de colonne, puis il utilise le nom de la cellule pour importer les données dans la feuille. Enfin, il enregistre le classeur sous le nom de fichier Excel de sortie [Output Excel File](48496713.xlsx). La capture d'écran montre l'effet du code pour le fichier Excel de sortie en tant que référence.
 
 ![todo:image_alt_text](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_2.png)
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ImportDataFromMicrosoftAccessDatabaseResultSetObjectToWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

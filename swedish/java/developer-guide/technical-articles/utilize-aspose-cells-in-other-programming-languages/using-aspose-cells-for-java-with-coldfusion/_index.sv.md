@@ -78,3 +78,4 @@ Aspose.Cells erbjuder stor flexibilitet och ger enastående hastighet, effektivi
 Vi välkomnar frågor, kommentarer och förslag i [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

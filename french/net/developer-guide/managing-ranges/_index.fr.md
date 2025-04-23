@@ -74,3 +74,4 @@ Veuillez exécuter l'exemple suivant pour voir comment cela fonctionne dans Aspo
 - [Déplacer une plage de cellules dans une feuille de calcul](/cells/fr/net/move-range-of-cells-in-a-worksheet/)
 - [Créer des plages nommées en fonction du classeur et de la feuille de calcul](/cells/fr/net/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Rechercher et remplacer des données dans une plage](/cells/fr/net/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="csharp" >}}

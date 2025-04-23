@@ -22,3 +22,4 @@ Lorsque vous travaillez avec la fonction de regroupement des données des marque
 Cet exemple utilise un [fichier modèle](template.xlsx) avec quelques marqueurs dans les cellules. Lors de l'exécution du code, Aspose.Cells ajoute quelques libellés personnalisés aux lignes de résumé pour les données groupées.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-SmartMarkers-AddCustomLabels-1.java" >}}
+{{< app/cells/assistant language="java" >}}

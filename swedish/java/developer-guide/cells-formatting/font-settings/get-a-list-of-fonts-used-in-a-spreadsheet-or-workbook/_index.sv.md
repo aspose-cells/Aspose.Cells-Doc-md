@@ -90,3 +90,4 @@ Aspose.Cells.Font [ Calibri; 20.0; Regular; com.aspose.cells.Color@ff376268 ]
 Aspose.Cells.Font [ Calibri; 11.0; Regular; com.aspose.cells.Color@ff376268 ]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

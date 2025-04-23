@@ -3,8 +3,8 @@ title: ワークシートがダイアログシートであるかを検索する
 type: docs
 weight: 90
 url: /ja/python-net/find-if-the-worksheet-is-dialog-sheet/
-description: Dialogシートは古い形式のシートです。この記事では、エクセルのワークシートがDialogシートかどうかをプログラムで確認するための手順とサンプルコードをAspose.Cells for Python via .NETライブラリを使用して提供します。
-keywords: Python Excelライブラリ、PythonでExcelワークシートのダイアログタイプを見つける方法、Pythonでのワークシートダイアログ表示。
+description: ダイアログシートは古い形式のシートです。この記事は、Aspose.Cells for Python via .NETを使用してExcelワークシートがダイアログシートかどうかをプログラム的に判別するための手順とサンプルコードを提供します。
+keywords: Python Excelライブラリ、PythonでExcelワークシートダイアログタイプを見つける方法、ワークシートダイアログ in Python。
 ---
 
 ## **可能な使用シナリオ**
@@ -13,7 +13,7 @@ keywords: Python Excelライブラリ、PythonでExcelワークシートのダ�
 
 ![todo:image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
 
-Aspose.Cells for Python via .NETが提供する[**Worksheet.type**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/type/)プロパティを使用して、シートがダイアログシートか他のタイプのシートかどうかを確認できます。列挙値[**SheetType.DIALOG**](https://reference.aspose.com/cells/python-net/aspose.cells/sheettype/)を返す場合は、ダイアログシートを扱っていることを示します。
+Aspose.Cells for Python via .NETが提供する[**Worksheet.type**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/type/)プロパティを使用してシートがダイアログシートか他のタイプのシートかを確認できます。もしも列挙値[**SheetType.DIALOG**](https://reference.aspose.com/cells/python-net/aspose.cells/sheettype/)を返す場合は、ダイアログシートであることを意味します。
 
 ## **ワークシートがダイアログシートであるかを検索する**
 

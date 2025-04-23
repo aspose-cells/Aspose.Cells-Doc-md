@@ -3,8 +3,8 @@ title: Calcola il fattore di scala della pagina di impostazione
 type: docs
 weight: 300
 url: /it/python-net/calculate-page-setup-scaling-factor/
-description: Questo articolo fornisce un codice di esempio che spiega come utilizzare le API di Aspose.Cells per Python via .NET per calcolare il fattore di ridimensionamento dell impostazione di pagina utilizzando l opzione Regola in larghezza a n pagine per altezza m del foglio di calcolo in modo programmato.
-keywords: Libreria Excel di Python, Larghezza della pagina di adattamento a n pagine in alto per m pagine in larghezza di Excel, calcola il fattore di ridimensionamento dell impostazione di pagina in Python.
+description: Questo articolo fornisce un esempio di codice che spiega come utilizzare le API di Aspose.Cells per Python via .NET per calcolare il fattore di scala dell impostazione della pagina utilizzando l opzione adatta perņ in larghezza n pagine per m alte.
+keywords: Libreria Excel Python, Python Adatta a n pagine di larghezza per m alte, calcola il fattore di scala delle impostazioni della pagina in Python.
 ---
 
 {{% alert color="primary" %}}

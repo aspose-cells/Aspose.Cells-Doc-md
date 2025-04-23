@@ -33,3 +33,4 @@ Il codice di esempio di seguito descrive come creare file PDF protetti con l'API
 Se il foglio di calcolo contiene formule, è meglio chiamare [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) appena prima di renderlo in PDF. Ciò assicura che i valori dipendenti dalla formula vengano ricalcolati e i valori corretti vengano resi in PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

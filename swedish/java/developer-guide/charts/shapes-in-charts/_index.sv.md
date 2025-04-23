@@ -16,7 +16,7 @@ Ibland behöver du infoga ritobjekt som etiketter, textrutor, bilder och så vid
 
 Etiketter ger ett sätt att ge information till användarna om innehållet i ett kalkylblad. Aspose.Cells låter dig lägga till och manipulera etiketter även i diagram.
 
-Klassen [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) tillhandahåller en metod som kallas [**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart(int,%20int,%20int,%20int)), används för att lägga till en etikettkontroll till ett diagram. Nedan är en lista över parametrarna som används för metoden:
+Klassen [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) tillhandahåller en metod som kallas [**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart-int-int-int-int-), används för att lägga till en etikettkontroll till ett diagram. Nedan är en lista över parametrarna som används för metoden:
 
 - **överst** – vertikalt avstånd från etiketten till det övre vänstra hörnet i enheter av 1/4000 av diagramområdet.
 - **vänster** – det horisontella avståndet från etiketten till det övre vänstra hörnet i enheter av 1/4000 av diagramområdet.
@@ -46,7 +46,7 @@ Nedan finns den ursprungliga koden för att lägga till en etikett i diagrammet.
 
 ## **Lägga till textbox-styrenhet i diagrammet**
 
-Ett sätt att markera viktig information i en rapport är att använda en textruta. Till exempel, mata in text för att markera företagsnamnet eller för att ange den geografiska regionen med högst försäljning. Klassen [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) tillhandahåller en metod som heter [**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart(int,%20int,%20int,%20int)), som används för att lägga till en textruta styrenhet i ett diagram. Följande är parametrarna som används för metoden:
+Ett sätt att markera viktig information i en rapport är att använda en textruta. Till exempel, mata in text för att markera företagsnamnet eller för att ange den geografiska regionen med högst försäljning. Klassen [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) tillhandahåller en metod som heter [**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart-int-int-int-int-), som används för att lägga till en textruta styrenhet i ett diagram. Följande är parametrarna som används för metoden:
 
 - **top** – det vertikala avståndet från den övre vänstra hörnet i enheter om 1/4000 av diagramområdet.
 - **vänster** – det vertikala avståndet från den övre vänstra hörnet i enheter om 1/4000 av diagramområdet.
@@ -69,7 +69,7 @@ Nedan finns den ursprungliga koden för att lägga till en textruta i diagrammet
 
 Aspose.Cells gör det möjligt att infoga bilder i ett diagram. Till exempel, lägg till en bild för att betona eller ge mer mening åt ett diagram eller dess innehåll, eller infoga en varumärkesbildfil.
 
-Klassen [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) tillhandahåller en metod som heter [**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart(int,%20int,%20java.io.InputStream,%20int,%20int)), som används för att lägga till ett bildobjekt i diagrammet. Följande är parametrarna som används för metoden:
+Klassen [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) tillhandahåller en metod som heter [**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart-int-int-java.io.InputStream-int-int-), som används för att lägga till ett bildobjekt i diagrammet. Följande är parametrarna som används för metoden:
 
 - **top** – det vertikala avståndet från den övre vänstra hörnet i enheter om 1/4000 av diagramområdet.
 - **vänster** – det vertikala avståndet från den övre vänstra hörnet i enheter om 1/4000 av diagramområdet.
@@ -100,3 +100,4 @@ Följande bild visar diagrambladet med kryssrutan i utdatafilen.
 Den [utdatafil](InsertCheckboxInChartSheet_out.xlsx) som genereras av följande kodsnutt är bifogad som referens.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-InsertCheckboxInChartSheet-1.java" >}}
+{{< app/cells/assistant language="java" >}}

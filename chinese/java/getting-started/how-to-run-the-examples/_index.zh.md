@@ -47,3 +47,4 @@ AsposeCellsExamples.DrawingObjects
 
 要做贡献，您可以复刻存储库，编辑源代码并创建拉取请求。如果发现有帮助，我们将审查更改并将其包含在存储库中。
 
+{{< app/cells/assistant language="java" >}}

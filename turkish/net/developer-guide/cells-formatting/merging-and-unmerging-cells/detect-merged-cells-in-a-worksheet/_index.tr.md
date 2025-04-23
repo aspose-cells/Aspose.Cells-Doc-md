@@ -15,6 +15,7 @@ Aspose.Cells, çalışma sayfasındaki birleştirilmiş hücre alanlarını alma
 
 {{% /alert %}}
 
-Bileşen, tüm birleştirilmiş hücreleri alabilen bir [**Cells.GetMergedAreas()**](https://reference.aspose.com/cells/net/aspose.cells/cells/getmergedareas/) yöntemi sağlar. Aşağıdaki kod örneği, bir çalışma sayfasındaki birleştirilmiş hücreleri nasıl tespit edeceğinizi gösterir.
+Bileşen, tüm birleştirilmiş hücreleri alabilen [**Cells.GetMergedAreas()**](https://reference.aspose.com/cells/net/aspose.cells/cells/getmergedareas/) yöntemini sağlar. Aşağıdaki kod örneği, bir çalışma sayfasında birleştirilmiş hücreleri nasıl tespit edeceğinizi gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DetectMergedCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

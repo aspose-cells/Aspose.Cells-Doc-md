@@ -49,3 +49,4 @@ Veuillez consulter le code suivant, il crée un objet classeur et définit diff�
 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-rotate-text.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

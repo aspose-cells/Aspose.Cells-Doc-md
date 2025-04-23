@@ -53,3 +53,4 @@ chart.setHidePivotFieldButtons(false);
 Für weitere Details besuchen Sie [Erstellen von Pivot-Tabellen und Pivot-Diagrammen](/cells/de/java/Erstellen-von-Pivot-Tabellen-und-Pivot-Diagrammen/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

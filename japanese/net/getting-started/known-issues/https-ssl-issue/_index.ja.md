@@ -13,3 +13,4 @@ HTTP応答ヘッダーを変更して、HTTP圧縮に関連する問題を解決
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-KnowledgeBase-KnownIssues-HTTPSSSLIssue.aspx-SSLIssue.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

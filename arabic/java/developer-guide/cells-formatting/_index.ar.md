@@ -18,39 +18,39 @@ url: /ar/java/cells-formatting/
 ### **إضافة حدود إلى الخلايا**
 توفر Aspose.Cells فئة، [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) التي تمثل ملف Microsoft Excel. تحتوي فئة [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) على مجموعة [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). توفر فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). يمثل كل عنصر في مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) كائنًا من فئة [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell).
 
-توفر Aspose.Cells الطريقة [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) في فئة [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) المستخدمة لتعيين نمط تنسيق الخلية. أيضًا، يتم استخدام كائن فئة [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) ويوفر خصائص لتكوين إعدادات الخط.
+يقدم Aspose.Cells الطريقة [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle-com.aspose.cells.Style-) في فئة [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) والتي تُستخدم لضبط نمط تنسيق خلية. كما أن كائن فئة [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) يُستخدم ويوفر خصائص لضبط إعدادات الخط.
 #### **إضافة حدود إلى خلية**
-إضافة حدود إلى خلية باستخدام طريقة [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder\(int,%20int,%20com.aspose.cells.Color\)) الخاصة بكائن الفئة [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style). يتم تمرير نوع الحدود كمعلمة. جميع أنواع الحدود معرفة مسبقًا في تعداد [BorderType](https://reference.aspose.com/cells/java/com.aspose.cells/BorderType).
+إضافة حدود لخلية باستخدام طريقة [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder-int-int-com.aspose.cells.Color-) لكائن [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style). نوع الحد يُمرر كوسيطة. جميع أنواع الحدود معرفة مسبقًا في التعداد [BorderType](https://reference.aspose.com/cells/java/com.aspose.cells/BorderType).
 
 |**أنواع الحدود**|**الوصف**|
 | :- | :- |
-|[BOTTOM_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#BOTTOM_BORDER)|الخط الحد السفلي
-|[DIAGONAL_DOWN](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#DIAGONAL_DOWN)|خط مائل من الجزء العلوي الأيسر إلى الجزء السفلي الأيمن
-|[DIAGONAL_UP](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#DIAGONAL_UP)|خط مائل من الجزء السفلي الأيسر إلى الجزء العلوي الأيمن
-|[LEFT_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#LEFT_BORDER)|الخط الحد الأيسر
-|[RIGHT_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#RIGHT_BORDER)|الخط الحد الأيمن
-|[TOP_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#TOP_BORDER)|الخط الحد العلوي
+|[BOTTOM_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#BOTTOM-BORDER)|حدود أسفل الخط|
+|[DIAGONAL_DOWN](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#DIAGONAL-DOWN)|خط قطري من أعلى اليسار إلى أسفل اليمين|
+|[DIAGONAL_UP](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#DIAGONAL-UP)|خط قطري من أسفل اليسار إلى أعلى اليمين|
+|[LEFT_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#LEFT-BORDER)|الحد الأيسر للخط|
+|[RIGHT_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#RIGHT-BORDER)|الحد الأيمن للخط|
+|[TOP_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#TOP-BORDER)|الحد العلوي للخط|
 |[HORIZONTAL](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#HORIZONTAL)|فقط للنمط الديناميكي، مثل التنسيق الشرطي.
 |[VERTICAL](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#VERTICAL)|فقط للنمط الديناميكي، مثل التنسيق الشرطي.
-لتعيين لون الخط، حدد لونًا باستخدام تعداد [Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color) وقم بتمريره إلى معلمة Color خاصة بطريقة [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder\(int,%20int,%20com.aspose.cells.Color\)) كائن الفئة [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style). تم تعريف أنماط الخط مسبقًا في تعداد [CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType).
+لتعيين لون الخط، اختر لونًا باستخدام التعداد [Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color) ومرره إلى معلمة اللون في طريقة [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder-int-int-com.aspose.cells.Color-) في كائن [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style). أنماط الخطوط مُعرفة مسبقًا في التعداد [CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType).
 
 |**أنماط الخطوط**|**الوصف**|
 | :- | :- |
-|[DASH_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DASH_DOT)|يمثل خط متقطع رفيع مخطط بالنقاط
-|[DASH_DOT_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DASH_DOT_DOT)|يمثل خط متقطع رفيع مخطط بالنقطة والنقطة
+|[DASH_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DASH-DOT)|يمثل خط متصل بنقطة رفيعة|
+|[DASH_DOT_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DASH-DOT_DOT)|يمثل خط نقطة متصل بنقطة رفيعة|
 |[DASHED](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DASHED)|يمثل خط متقطع
 |[DOTTED](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DOTTED)|يمثل خط متقطع|
 |[DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DOUBLE)|يمثل خط مزدوج|
 |[HAIR](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#HAIR)|يمثل خط شعري|
-|[MEDIUM_DASH_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM_DASH_DOT)| يمثل خط متقطع متقاطع بين الوسط |
-|[MEDIUM_DASH_DOT_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM_DASH_DOT_DOT)| يمثل خط متقطع نقطة واحدة متوسطة |
-|[MEDIUM_DASHED](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM_DASHED)| يمثل خط متقطع متوسط |
+|[MEDIUM_DASH_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM-DASH-DOT)|يمثل خط متصل بنقطة متوسط السمك|
+|[MEDIUM_DASH_DOT_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM-DASH-DOT_DOT)|يمثل خط من نقط ونقطة متوسطة|
+|[MEDIUM_DASHED](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM-DASHED)|يمثل خط مخطط متوسط|
 |[NONE](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#NONE)| يمثل عدم وجود خط |
 |[MEDIUM](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM)| يمثل خط متوسط |
-|[SLANTED_DASH_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#SLANTED_DASH_DOT)| يمثل خط متقطع مائل متوسط |
+|[SLANTED_DASH_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#SLANTED-DASH-DOT)|يمثل خط مائل مخطط من نقاط وخطوط متوسطة|
 |[THICK](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#THICK)| يمثل خط سميك |
 |[THIN](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#THIN)| يمثل خط رفيع |
-حدد أحد أنماط الخط المذكورة أعلاه ثم اعتباره إلى [Style] (https://reference.aspose.com/cells/java/com.aspose.cells/Style) و [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder\(int,%20int,%20com.aspose.cells.Color\)) الأسلوب.
+اختر أحد أنماط الخطوط أعلاه ثم قم بتعيينه على كائن [النمط](https://reference.aspose.com/cells/java/com.aspose.cells/Style) طريقة [تعيين الحد](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder-int-int-com.aspose.cells.Color-) الخاصة به.
 
 يتم توليد الإخراج التالي عند تنفيذ الكود أدناه.
 
@@ -60,14 +60,14 @@ url: /ar/java/cells-formatting/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AddingBordersToCells-AddingBordersToCells.java" >}}
 #### **إضافة حدود لمجموعة من الخلايا**
-من الممكن إضافة حدود إلى مجموعة من الخلايا بدلاً من خلية واحدة فقط. أولاً ، أنشئ مجموعة من الخلايا عن طريق استدعاء [Cells] (https://reference.aspose.com/cells/java/com.aspose.cells/Cells) تجميع [createRange] (https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\)) الأسلوب ، الذي يأخذ المعلمات التالية :
+من الممكن إضافة حدود إلى مجموعة خلايا بدلاً من خلية واحدة فقط. أولاً، أنشئ مجموعة خلايا عن طريق استدعاء طريقة [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-) لمجموعة [الخلايا](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)، والتي تأخذ المعلمات التالية:
 
 - **الصف الأول**, الصف الأول من النطاق.
 - **العمود الأول**, العمود الأول من النطاق.
 - **عدد الصفوف**, عدد الصفوف في النطاق.
 - **عدد الأعمدة**, عدد الأعمدة في النطاق.
 
-يعيد [createRange] (https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\)) الأسلوب [Range] (https://reference.aspose.com/cells/java/com.aspose.cells/Range) الكائن ، الذي يحتوي على النطاق المحدد. [Range] (https://reference.aspose.com/cells/java/com.aspose.cells/Range) الكائن يوفر [setOutlineBorders] (https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\)) الأسلوب الذي يأخذ المعلمات التالية :
+ترجع طريقة [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-) كائن [نطاق](https://reference.aspose.com/cells/java/com.aspose.cells/Range)، والذي يحتوي على النطاق المحدد. يوفر كائن [النطاق](https://reference.aspose.com/cells/java/com.aspose.cells/Range) طريقة [setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders-int-com.aspose.cells.Color-) التي تأخذ المعلمات التالية:
 
 - **CellBorderType**, نمط خط الحدود ، يتم اختياره من تعداد [CellBorderType] (https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType).
 - **اللون**, لون خط الحدود ، محدد من تعداد [Color] (https://reference.aspose.com/cells/java/com.aspose.cells/Color).
@@ -96,7 +96,7 @@ url: /ar/java/cells-formatting/
 
 {{% /alert %}} 
 
-يوفر Aspose.Cells فئة، [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)، التي تمثل ملف Microsoft Excel. تقدم الفئة طريقة [changePalette](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#changePalette\(com.aspose.cells.Color,%20int\)) التي تأخذ المعلمات التالية لإضافة لون مخصص لتعديل لوحة الألوان:
+يقدم Aspose.Cells فئة، [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)، والتي تمثل ملف إكسل من مايكروسوفت. توفر الفئة طريقة [changePalette](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#changePalette-com.aspose.cells.Color-int-) التي تأخذ المعلمات التالية لإضافة لون مخصص لتعديل لوحة الألوان:
 
 - **اللون المخصص**: اللون المخصص الذي سيتم إضافته إلى لوحة الألوان.
 - **الفهرس**: فهرس اللون الذي سيتم استبداله باللون المخصص. يجب أن يكون بين 0 و 55.
@@ -117,7 +117,7 @@ url: /ar/java/cells-formatting/
 ### **تعيين الألوان وأنماط الخلفية**
 Aspose.Cells يوفر فئة، [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)، التي تمثل ملف Microsoft Excel. تحتوي فئة [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) على مجموعة [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) تسمح بالوصول إلى كل ورقة عمل في ملف Excel. تُمثل ورقة عمل بواسطة فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). توفر فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). كل عنصر في مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) يمثل كائن فئة [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell).
 
-يوفر Aspose.Cells الطريقة [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) في فئة [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) التي يتم استخدامها لتعيين تنسيق الخلية. كما يُمكن استخدام كائن فئة [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) لتكوين إعدادات الخط.
+يقدم Aspose.Cells طريقة [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle-com.aspose.cells.Style-) في فئة [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) والتي تُستخدم لضبط تنسيق خلية. أيضًا، يمكن استخدام كائن فئة [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) لتكوين إعدادات الخطوط.
 
 {{% alert color="primary" %}} 
 
@@ -131,25 +131,25 @@ Aspose.Cells يوفر فئة، [Workbook](https://reference.aspose.com/cells/jav
 
 |**نوع النمط**|**الوصف**|
 | :- | :- |
-|[DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#DIAGONAL_CROSSHATCH)| يمثل نمط التقاطع القطري
-|[DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#DIAGONAL_STRIPE)| يمثل نمط الشريط القطري
-|[GRAY_6](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY_6)| يمثل نمط اللون الرمادي بنسبة 6.25%
-|[GRAY_12](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY_12)| يمثل نمط اللون الرمادي بنسبة 12.5%
-|[GRAY_25](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY_25)| يمثل نمط اللون الرمادي بنسبة 25%
-|[GRAY_50](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY_50)| يمثل نمط اللون الرمادي بنسبة 50%
-|[GRAY_75](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY_75)| يمثل نمط اللون الرمادي بنسبة 75%
-|[HORIZONTAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#HORIZONTAL_STRIPE)| يمثل نمط الشريط الأفقي
+|[DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#DIAGONAL-CROSSHATCH)|يمثل نمط التهاتف مائل منقطقط|
+|[DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#DIAGONAL-STRIPE)|يمثل نمط الشرط المائل|
+|[GRAY_6](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY-6)|يمثل نمط الرمادي بنسبة 6.25%|
+|[GRAY_12](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY-12)|يمثل نمط الرمادي بنسبة 12.5%|
+|[GRAY_25](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY-25)|يمثل نمط الرمادي بنسبة 25%|
+|[GRAY_50](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY-50)|يمثل نمط الرمادي بنسبة 50%|
+|[GRAY_75](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY-75)|يمثل نمط الرمادي بنسبة 75%|
+|[HORIZONTAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#HORIZONTAL-STRIPE)|يمثل نمط الشرط الأفقي|
 |[NONE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#NONE)| يمثل عدم وجود خلفية
-|[REVERSE_DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#REVERSE_DIAGONAL_STRIPE)| يمثل نمط الشريط القطري المعكوس
+|[REVERSE_DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#REVERSE-DIAGONAL-STRIPE)|يمثل نمط الشرط المائل العكسي|
 |[SOLID](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#SOLID)| يمثل نمط صلب
-|[THICK_DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THICK_DIAGONAL_CROSSHATCH)| يمثل نمط التقاطع القطري السميك
-|[THIN_DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_DIAGONAL_CROSSHATCH)| يمثل نمط التقاطع القطري الرفيع
-|[THIN_DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_DIAGONAL_STRIPE)| يمثل نمط الشريط القطري الرفيع
-|[THIN_HORIZONTAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_HORIZONTAL_CROSSHATCH)| يمثل نمط التقاطع الأفقي الرفيع
-|[THIN_HORIZONTAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_HORIZONTAL_STRIPE)| يمثل نمط الشريط الأفقي الرفيع
-|[THIN_REVERSE_DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_REVERSE_DIAGONAL_STRIPE)|يمثل نقشة خط مائل قليلة
-|[THIN_VERTICAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_VERTICAL_STRIPE)|يمثل نقشة خط رأسي رفيعة
-|[VERTICAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#VERTICAL_STRIPE)|يمثل نقشة خط رأسي
+|[THICK_DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THICK-DIAGONAL-CROSSHATCH)|يمثل نمط التهاتف المائل السميك|
+|[THIN_DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN-DIAGONAL-CROSSHATCH)|يمثل نمط التهاتف المائل الرقيق|
+|[THIN_DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN-DIAGONAL-STRIPE)|يمثل نمط الشرط المائل الرقيق|
+|[THIN_HORIZONTAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN-HORIZONTAL-CROSSHATCH)|يمثل نمط الشرط الأفقي الرقيق|
+|[THIN_HORIZONTAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN-HORIZONTAL-STRIPE)|يمثل نمط الشرط الأفقي الرقيق|
+|[THIN_REVERSE_DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN-REVERSE-DIAGONAL-STRIPE)|يمثل نمط الشرط المائل العكسي الرقيق|
+|[THIN_VERTICAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN-VERTICAL-STRIPE)|يمثل نمط الشرط الرأسي الرقيق|
+|[VERTICAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#VERTICAL-STRIPE)|يمثل نمط الشرط الرأسي|
 في المثال أدناه ، تم تعيين لون الخلفية للخلية A1 ولكن تم تكوين A2 ليكون لها كل من لون الخلفية والأمامية مع نمط خلفية خط عمودي.
 
 يتم إنشاء الإخراج التالي عند تنفيذ الكود.
@@ -177,7 +177,7 @@ Aspose.Cells يدعم هذه الميزة. يوضح هذا الموضوع كيف
 ### **تنسيق الأحرف المحددة**
 Aspose.Cells يوفر فئة، [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)، التي تمثل ملف Microsoft Excel. تحتوي فئة [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) على مجموعة [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) تسمح بالوصول إلى كل ورقة عمل في ملف Excel. تُمثل ورقة عمل بواسطة فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). توفر فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). كل عنصر في مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) يمثل كائن فئة [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell).
 
-فئة [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) توفر طريقة [characters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#characters\(int,%20int\)) التي تأخذ المعلمات التالية لتحديد مجموعة من الأحرف في خلية:
+يوفر فئة [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) طريقة [characters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#characters-int-int-) التي تأخذ المعلمات التالية لاختيار مجموعة من الأحرف في خلية:
 
 - **فهرس البداية**، فهرس الحرف للبدء في التحديد منه.
 - **عدد الحروف**, عدد الأحرف المراد تحديدها.
@@ -192,7 +192,7 @@ Aspose.Cells يوفر فئة، [Workbook](https://reference.aspose.com/cells/jav
 
 {{% alert color="primary" %}} 
 
-إذا كنت مهتمًا بـ[تنسيق جزء من النص الغني في خلية](/cells/ar/java/access-and-update-the-portions-of-rich-text-of-cell/)، فضلاً عن استخدام طرق الـ[Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters\(\)) و Cell.setCharacters. يجب استخدام الطريقة [Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters\(\)) للوصول إلى أجزاء النص ثم يمكن القيام بالتعديلات باستخدام طريقة Cell.setCharacters بينما تعيد الطريقة **get** مجموعة من [FontSetting](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) التي يمكن التلاعب بها لتعيين خصائص مختلفة مثل اسم الخط ولون الخط وعرض الخط إلخ ويمكن استخدام الطريقة **set** لتطبيق التغييرات.
+إذا كنت مهتمًا بـ [تنسيق جزء من النص الغني في خليّة](/cells/ar/java/access-and-update-the-portions-of-rich-text-of-cell/)، فكر في استخدام طريقتي [Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters--) و [Cell.setCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setCharacters). تُستخدم طريقة [Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters--) للوصول إلى أجزاء النص ثم يمكن إجراء التعديلات باستخدام طريقة [Cell.setCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setCharacters)، بينما تُرجع طريقة [get](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters--) مجموعة من كائنات [FontSetting](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) والتي يمكن التلاعب بها لضبط خصائص مختلفة مثل اسم الخط، لون الخط، العريض، إلخ ويمكن استخدام طريقة [set](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setCharacters) لتطبيق التغييرات.
 
 {{% /alert %}}
 
@@ -208,3 +208,4 @@ Aspose.Cells يوفر فئة، [Workbook](https://reference.aspose.com/cells/jav
 - [إعدادات الأرقام](/cells/ar/java/cells-number-settings/)
 - [الحفاظ على بادئة اقتباس واحدة لقيمة الخلية أو النطاق](/cells/ar/java/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [تنسيق وتنسيق البيانات](/cells/ar/java/styling-and-data-formatting/)
+{{< app/cells/assistant language="java" >}}

@@ -11,3 +11,4 @@ Dieser Abschnitt hat folgende Themen:
 - [Arbeiten mit Formatierungsfunktionen in NPOI und Aspose.Cells](/cells/de/net/working-with-formatting-features-in-npoi-and-aspose-cells/)
 - [Arbeiten mit Arbeitsmappen in NPOI und Aspose.Cells](/cells/de/net/working-with-workbooks-in-npoi-and-aspose-cells/)
 - [Arbeiten mit Arbeitsblättern in NPOI und Aspose.Cells](/cells/de/net/working-with-worksheets-in-npoi-and-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

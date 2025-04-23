@@ -28,3 +28,4 @@ Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](51740716.xlsx), liest
 Sheet or Tab Id: 1297
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

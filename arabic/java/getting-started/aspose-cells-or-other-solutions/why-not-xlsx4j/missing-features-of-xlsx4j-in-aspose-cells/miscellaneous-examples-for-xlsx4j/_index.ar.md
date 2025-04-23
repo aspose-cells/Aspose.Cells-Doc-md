@@ -10,3 +10,4 @@ url: /ar/java/miscellaneous-examples-for-xlsx4j/
 - [إنشاء جدول محوري في xlsx4j](/cells/ar/java/create-pivot-table-in-xlsx4j/)
 - [طباعة الدفاتر في xlsx4j](/cells/ar/java/printing-workbooks-in-xlsx4j/)
 - [تعيين عناوين الطباعة في xlsx4j](/cells/ar/java/set-print-titles-in-xlsx4j/)
+{{< app/cells/assistant language="java" >}}

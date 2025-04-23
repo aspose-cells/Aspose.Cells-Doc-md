@@ -80,3 +80,4 @@ La salida del código anterior es la siguiente
 {{% /alert %}}
 ## **Propiedades Bytes, Characters, CharactersWithSpaces, Lines, Paragraphs Obsoletas**
 Muchas propiedades de la clase BuiltInDocumentPropertyCollection han sido marcadas como obsoletas a partir de Aspose.Cells for .NET 8.1.0. Estas propiedades incluyen Bytes, Characters, CharactersWithSpaces, Lines & Paragraphs. La razón es que dichas propiedades no son útiles para la preservación de hojas de cálculo de Excel ya que Excel las omite. Estas propiedades fueron originalmente escritas para documentos de Word y presentaciones de PowerPoint.
+{{< app/cells/assistant language="csharp" >}}

@@ -14,3 +14,4 @@ Normalmente, il layout dei tag div viene ignorato durante il caricamento di HTML
 Il seguente codice di esempio illustra l'uso della proprietà [HtmlLoadOptions.SupportDivTag](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#SupportDivTag). Si prega di scaricare il [Logo Aspose](5473442.png) utilizzato all'interno dell'HTML di input e il [file excel di output](5473439.xlsx) generato dal codice.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-SupportthelayoutofDIVtags-1.java" >}}
+{{< app/cells/assistant language="java" >}}

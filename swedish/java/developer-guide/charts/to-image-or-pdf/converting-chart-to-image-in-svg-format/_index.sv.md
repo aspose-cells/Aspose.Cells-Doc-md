@@ -30,3 +30,4 @@ Eftersom SVG är ett XML-baserat format kan du också öppna utmatningsdiagramme
 ![todo:image_alt_text](converting-chart-to-image-in-svg-format_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConvertCharttoImageinSVGFormat-ConvertCharttoImageinSVGFormat.java" >}}
+{{< app/cells/assistant language="java" >}}

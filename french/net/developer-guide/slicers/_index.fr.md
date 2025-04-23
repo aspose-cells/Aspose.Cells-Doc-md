@@ -36,3 +36,4 @@ Veuillez consulter le code d'exemple suivant. Il charge le [fichier Excel exempl
 - [Suppression du tronçonneur](/cells/fr/net/removing-slicer/)
 - [Rendu du tronçonneur](/cells/fr/net/rendering-slicer/)
 - [Mise à jour du tronçonneur](/cells/fr/net/updating-slicer/)
+{{< app/cells/assistant language="csharp" >}}

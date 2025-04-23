@@ -47,3 +47,4 @@ keywords: قيود الإصدار التجريبي، عدد الملفات ال�
 <br>
 <image src="3.png" width="70%" />
 <br>
+{{< app/cells/assistant language="java" >}}

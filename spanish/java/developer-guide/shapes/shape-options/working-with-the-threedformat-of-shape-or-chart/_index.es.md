@@ -15,3 +15,4 @@ La siguiente captura de pantalla muestra la interfaz de Microsoft Excel para con
 El siguiente código de muestra carga el [archivo de Excel de origen](5472522.xlsx) y accede a la primera forma en la primera hoja de trabajo para configurar las subpropiedades de la propiedad [Shape.ThreeDFormat](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ThreeDFormat) y luego guarda el libro de trabajo en el [archivo de Excel de salida](5472521.xlsx).
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithThreeDFormat-WorkingWithThreeDFormat.java" >}}
+{{< app/cells/assistant language="java" >}}

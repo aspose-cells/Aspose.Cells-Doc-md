@@ -16,7 +16,7 @@ url: /ja/java/managing-controls/
 - [**getTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame) メソッドは [**MsoTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame) オブジェクトを返し、テキストボックスの内容を調整するのに使用されます。
 - [**setPlacement**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement) メソッドは配置のタイプを指定します。
 - [**setFont**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Font) メソッドはフォント属性を指定します。
-- [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink(java.lang.String))メソッドは、テキストボックスにハイパーリンクを追加します。
+- [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink-java.lang.String-)メソッドは、テキストボックスにハイパーリンクを追加します。
 - [**FillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#FillFormat) プロパティはテキストボックスの塗りつぶし形式を設定するために使用する [**MsoFillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoFillFormat) オブジェクトを返します。
 - [**LineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#LineFormat)プロパティは、テキストボックスのラインのスタイルと太さを通常設定するために使用される[**MsoLineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoLineFormat)オブジェクトを返します。
 - [**setText**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text) メソッドはテキストボックスの入力テキストを指定します。
@@ -335,3 +335,4 @@ Aspose.Cellsを使用すると、ワークシートに楕円の図形を描画�
 ## **高度なトピック**
 - [Aspose.Cells を使用して ActiveX コントロールを追加する](/cells/ja/java/add-activex-controls-using-aspose-cells/)
 - [ActiveXコントロールを削除](/cells/ja/java/remove-activex-control/)
+{{< app/cells/assistant language="java" >}}

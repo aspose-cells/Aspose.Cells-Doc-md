@@ -105,3 +105,4 @@ Aspose.Cells tillhandahåller [**Range.Copy()**](https://reference.aspose.com/ce
 Följande exempel visar hur man kopierar en källräcka med celler till ett annat namngivet område.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CopyNamedRanges-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

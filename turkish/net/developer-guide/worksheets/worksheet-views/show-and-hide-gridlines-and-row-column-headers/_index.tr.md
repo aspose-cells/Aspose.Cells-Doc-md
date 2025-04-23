@@ -57,3 +57,4 @@ Aşağıda verilen tam bir örnek, [**IsRowColumnHeadersVisible**](https://refer
 [**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) ve [**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns) yöntemlerini kullanarak, [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) sınıfının birden fazla satırı ve sütunu görünür yapmak mümkündür.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -34,3 +34,4 @@ Der folgende Beispielcode erstellt eine leere Arbeitsmappe und speichert sie dan
        at Aspose.Cells.Workbook.Save(String fileName, SaveOptions saveOptions)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

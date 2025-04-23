@@ -109,3 +109,4 @@ Lo scenario di utilizzo semplice appare come segue.
 Do not forget to register the event to GridWeb control <acw:gridweb OnBeforeColumnFilter="GridWeb1_ColumnFilter"/>
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

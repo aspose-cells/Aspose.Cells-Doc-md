@@ -52,3 +52,4 @@ Al fine di mantenere la dimostrazione semplice da comprendere, creeremo il Workb
 1. Salvare il risultato sul disco.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-UsingDynamicFormula-CreateDynamicChartsUsingDynamicFormula.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

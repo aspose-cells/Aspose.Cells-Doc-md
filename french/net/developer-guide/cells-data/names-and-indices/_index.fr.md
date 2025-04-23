@@ -14,7 +14,7 @@ Aspose.Cells fournit la méthode CellsHelper.CellIndexToName qui permet aux dév
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel commence à compter les indices de lignes et de colonnes à partir de 1. Contrairement à Microsoft Excel, Aspose.Cells commence à compter les indices de lignes et de colonnes à partir de 0.
+Microsoft Excel commence à compter les indices de ligne et de colonne à partir de 1. Contrairement à Microsoft Excel, Aspose.Cells commence à compter à partir de 0.
 
 {{% /alert %}} 
 
@@ -29,7 +29,7 @@ Aspose.Cells fournit la méthode CellsHelper.CellNameToIndex qui permet aux dév
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel commence à compter les indices de lignes et de colonnes à partir de 1. Contrairement à Microsoft Excel, Aspose.Cells commence à compter les indices de lignes et de colonnes à partir de 0.
+Microsoft Excel commence à compter les indices de ligne et de colonne à partir de 1. Contrairement à Microsoft Excel, Aspose.Cells commence à compter à partir de 0.
 
 {{% /alert %}} 
 
@@ -50,3 +50,4 @@ Sortie :
 c'est le premier nom qui est créé
 
 `  ` <> + (adj. Privé _ "Privé"
+{{< app/cells/assistant language="csharp" >}}

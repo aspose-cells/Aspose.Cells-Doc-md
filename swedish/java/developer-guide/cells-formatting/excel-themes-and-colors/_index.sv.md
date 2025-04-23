@@ -61,3 +61,4 @@ Följande utdata genereras vid körning av koden.
 
 ## **Fortsatta ämnen**
 - [Extrahera temadata från Excel-fil](/cells/sv/java/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="java" >}}

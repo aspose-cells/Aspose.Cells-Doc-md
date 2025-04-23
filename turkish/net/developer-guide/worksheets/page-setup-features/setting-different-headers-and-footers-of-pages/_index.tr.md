@@ -28,3 +28,4 @@ Aspose.Cells, Excel ile aynı davranışı sergiler.
 1. [PageSetup.IsHFDiffOddEven](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/ishfdiffoddeven/) ve [PageSetup.IsHFDiffFirst](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/IsHFDiffFirst/) bayraklarını ayarlar 
 1. Farklı başlık ve altbilgileri girin.
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DiffHeaderFooter.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

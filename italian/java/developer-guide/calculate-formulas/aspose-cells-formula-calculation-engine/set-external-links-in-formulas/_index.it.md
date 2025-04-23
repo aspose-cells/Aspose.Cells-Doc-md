@@ -14,3 +14,4 @@ A volte è necessario includere collegamenti a file esterni nelle formule, ad es
 Il codice di esempio qui sotto mostra come includere file esterni nelle formule.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetExternalLinksInFormulas-SetExternalLinksInFormulas.java" >}}
+{{< app/cells/assistant language="java" >}}

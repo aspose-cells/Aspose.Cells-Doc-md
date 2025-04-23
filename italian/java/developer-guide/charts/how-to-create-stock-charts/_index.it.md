@@ -24,3 +24,4 @@ I grafici azionari sono un tipo di grafico specifico utilizzato per tracciare le
 Il seguente set di dati mostra le informazioni di trading giornaliere per un'azione. Utilizzeremo questi dati per creare ciascuno dei 4 grafici azionari disponibili in Aspose.Cells. 
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="java" >}}

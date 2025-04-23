@@ -311,3 +311,4 @@ gridDesktop1.ActiveSheetIndex = 1;
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

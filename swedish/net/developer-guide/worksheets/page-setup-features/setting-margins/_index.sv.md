@@ -41,3 +41,4 @@ Det är möjligt att centrera någonting på en sida horisontellt och vertikalt.
 Ställ in sidhuvud- och sidfotmarginaler med medlemmar i [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup)-klassen som [**HeaderMargin**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/headermargin) och [**FooterMargin**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/footermargin).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetMargins-HeaderAndFooterMargins.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

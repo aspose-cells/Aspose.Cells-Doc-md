@@ -3,8 +3,8 @@ title: Configuración de Opciones de Impresión
 type: docs
 weight: 40
 url: /es/python-net/setting-print-options/
-description: Este artículo demuestra cómo configurar de forma programática las opciones de impresión de la función de Configuración de Página de la Hoja de Cálculo de Excel utilizando la API de Aspose.Cells para Python via .NET. Puedes establecer el Área de Impresión, los Títulos de Impresión y el Orden de Página.
-keywords: Biblioteca de Excel de Python, establecer área de impresión de Excel, establecer títulos de impresión de Excel, cómo establecer el orden de página en Excel, Cómo Establecer Opciones de Impresión en Excel, Cómo Establecer el Área de Impresión en Python, Cómo Establecer los Títulos de Impresión en Python. 
+description: Este artículo demuestra cómo configurar programáticamente las opciones de impresión de la función de configuración de página de la hoja de cálculo de Excel usando la API Aspose.Cells para Python via .NET. Puedes establecer el área de impresión, los títulos de impresión y el orden de las páginas.
+keywords: Biblioteca de Python para Excel, establecer área de impresión en Python, establecer títulos de impresión en Python, cómo configurar el orden de página en Python, cómo establecer opciones de impresión en Python, cómo establecer el área de impresión en Python, cómo establecer títulos de impresión en Python. 
 ---
 
 {{% alert color="primary" %}}
@@ -13,7 +13,7 @@ La configuración de página de Microsoft Excel proporciona varias opciones de i
 
 {{% /alert %}}
 
-## **Cómo Establecer Opciones de Impresión**
+## **Cómo establecer opciones de impresión**
 
 Estas opciones de impresión permiten a los usuarios:
 
@@ -26,9 +26,9 @@ Estas opciones de impresión permiten a los usuarios:
 - Errores de celda de impresión.
 - Definir el orden de páginas.
 
-Aspose.Cells para Python via .NET soporta todas las opciones de impresión ofrecidas por Microsoft Excel y los desarrolladores pueden configurar fácilmente estas opciones para las hojas de cálculo utilizando las propiedades ofrecidas por la clase [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup). Cómo se utilizan estas propiedades se discute a continuación con más detalle.
+Aspose.Cells para Python via .NET soporta todas las opciones de impresión ofrecidas por Microsoft Excel y los desarrolladores pueden configurar fácilmente estas opciones para las hojas de cálculo usando las propiedades ofrecidas por la clase [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup). Cómo se usan estas propiedades se discute más abajo en más detalle.
 
-## **Cómo Establecer Área de Impresión**
+## **Cómo establecer el área de impresión**
 
 De forma predeterminada, el área de impresión abarca todas las áreas de la hoja de cálculo que contienen datos. Los desarrolladores pueden establecer un área de impresión específica de la hoja de cálculo.
 
@@ -36,9 +36,9 @@ Para seleccionar un área de impresión específica, utilice la propiedad [**pri
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPrintArea-1.py" >}}
 
-## **Cómo Establecer Títulos de Impresión**
+## **Cómo establecer los títulos de impresión**
 
-Aspose.Cells para Python via .NET te permite designar encabezados de fila y columna para que se repitan en todas las páginas de una hoja de cálculo impresa. Para hacerlo, usa las propiedades [**print_title_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_title_columns/) y [**print_title_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_title_rows) de la clase [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup).
+Aspose.Cells para Python via .NET permite designar encabezados de fila y columna para repetir en todas las páginas de una hoja de cálculo impresa. Para hacerlo, usa las propiedades [**print_title_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_title_columns/) y [**print_title_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_title_rows) de la clase [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup).
 
 Las filas o columnas que se repetirán se definen pasando sus números de fila o columna. Por ejemplo, las filas se definen como $1:$2 y las columnas se definen como $A:$B.
 
@@ -61,7 +61,7 @@ Los valores predefinidos en la enumeración [**PrintCommentsType**](https://refe
 
 |**Tipos de Imprimir Comentarios**|**Descripción**|
 | :- | :- |
-|PRINT_IN_PLACE|Especifica imprimir los comentarios como se muestran en la hoja de cálculo.|
+|PRINT_IN_PLACE|Especifica imprimir comentarios tal como se muestran en la hoja de cálculo.|
 |PRINT_NO_COMMENTS|Especifica no imprimir comentarios.|
 |PRINT_SHEET_END|Especifica imprimir comentarios al final de la hoja de cálculo.|
 
@@ -91,7 +91,7 @@ Los valores predefinidos de la enumeración [**PrintOrderType**](https://referen
 
 |**Tipos de Orden de Impresión**|**Descripción**|
 | :- | :- |
-|DOWN_THEN_OVER|Representa el orden de impresión como de arriba abajo y luego de izquierda a derecha.|
-|OVER_THEN_DOWN|Representa el orden de impresión como de izquierda a derecha y luego de arriba abajo.|
+|DOWN_THEN_OVER|Representa el orden de impresión como abajo y luego a la derecha.|
+|OVER_THEN_DOWN|Representa el orden de impresión como a la derecha y luego abajo.|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPageOrder-1.py" >}}

@@ -16,3 +16,4 @@ Le code d'exemple suivant charge un classeur puis exporte la zone d'impression a
 [sampleInlineCharts.xlsx](79527946.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-ExportPrintAreaToHtml-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

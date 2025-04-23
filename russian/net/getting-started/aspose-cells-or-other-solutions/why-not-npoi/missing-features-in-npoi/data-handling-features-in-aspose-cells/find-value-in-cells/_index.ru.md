@@ -49,3 +49,4 @@ Console.WriteLine("Name of the cell containing String: " + cell.Name);
 Для получения более подробной информации посетите [Найти или Поиск Данных](/cells/ru/net/find-or-search-data/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

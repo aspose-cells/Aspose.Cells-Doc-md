@@ -28,3 +28,4 @@ Aspose.Cells предоставляет свойство Shape.Glow для ра�
 
 
 
+{{< app/cells/assistant language="java" >}}

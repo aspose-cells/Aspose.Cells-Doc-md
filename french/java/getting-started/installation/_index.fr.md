@@ -52,7 +52,7 @@ Définissez ensuite la dépendance à l'API Aspose.Cells for Java dans votre pom
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.7</version>
+            <version>25.4</version>
 
         </dependency>
 
@@ -62,7 +62,7 @@ Définissez ensuite la dépendance à l'API Aspose.Cells for Java dans votre pom
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.7</version>
+            <version>25.4</version>
 
             <classifier>javadoc</classifier>
 
@@ -107,3 +107,4 @@ Généralement, Aspose.Cells for Java utilise l'ImageIO de Java pour charger des
 Veuillez vérifier ce qui suit pour obtenir un support technique rapide
 
 [Aspose.Cells - Forums](https://forum.aspose.com/c/cells/9)
+{{< app/cells/assistant language="java" >}}

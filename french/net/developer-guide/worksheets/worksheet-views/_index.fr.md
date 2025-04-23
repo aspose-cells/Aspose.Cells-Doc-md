@@ -112,3 +112,4 @@ Supprimer les volets fractionnés en utilisant la méthode [**RemoveSplit**](htt
 - [Afficher les formules au lieu des valeurs dans une feuille de calcul](/cells/fr/net/show-formulas-instead-of-values-in-a-worksheet/)
 - [Utiliser les options de vérification des erreurs](/cells/fr/net/use-error-checking-options/)
 
+{{< app/cells/assistant language="csharp" >}}

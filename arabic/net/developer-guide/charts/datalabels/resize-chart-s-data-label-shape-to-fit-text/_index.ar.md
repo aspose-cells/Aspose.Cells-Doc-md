@@ -22,3 +22,4 @@ url: /ar/net/resize-chart-s-data-label-shape-to-fit-text/
 لتقليد ميزة إكسل لتغيير شكل تسميات بيانات لتناسب النص، قد قامت واجهات برمجة تطبيقات Aspose.Cells بتعريض خاصية النوع بوليان [**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext). يظهر الشيفرة التالية السناريو البسيط لاستخدام الخاصية [**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ResizeChartDataLabelToFit-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

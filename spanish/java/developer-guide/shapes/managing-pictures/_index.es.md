@@ -13,7 +13,7 @@ Este artículo explica cómo agregar imágenes e insertar una imagen que muestre
 
 Agregar imágenes a una hoja de cálculo es muy fácil. Solo toma unas pocas líneas de código.
 
-Simplemente llame al método [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) de la colección [**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) (encapsulada en el objeto [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)). El método [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) toma los siguientes parámetros:
+Simplemente llame al método [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add-int-int-java.lang.String-) de la colección [**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) (encapsulada en el objeto [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)). El método [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add-int-int-java.lang.String-) toma los siguientes parámetros:
 
 - **Índice de fila superior izquierda**, el índice de la fila superior izquierda.
 - **Índice de columna superior izquierda**, el índice de la columna superior izquierda.
@@ -37,3 +37,4 @@ Los desarrolladores pueden posicionar las imágenes de forma absoluta utilizando
 - [Insertar una imagen vinculada desde una dirección web](/cells/es/java/insert-a-linked-picture-from-web-address/)
 - [Insertar una imagen basada en una referencia de celda](/cells/es/java/insert-a-picture-based-on-cell-reference/)
 - [Insertar imagen web desde una URL en una hoja de cálculo de Excel](/cells/es/java/insert-web-image-from-a-url-into-an-excel-worksheet/)
+{{< app/cells/assistant language="java" >}}

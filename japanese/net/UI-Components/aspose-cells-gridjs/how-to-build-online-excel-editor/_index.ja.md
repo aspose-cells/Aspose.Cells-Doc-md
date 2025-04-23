@@ -4,7 +4,7 @@ type: docs
 weight: 250
 url: /ja/net/aspose-cells-gridjs/how-to-build-online-excel-editor/
 keywords: GridJs、docker
-description: この記事では、オンラインのExcelエディタまたはビューアアプリケーションを構築するためにDockerでGridJsを実行する方法について紹介します。
+description: この記事は、オンラインExcelエディタまたはビューアアプリケーションを構築するために、Docker内でGridJsを実行する方法を紹介します。
 aliases:
   - /net/aspose-cells-gridjs/docker/
   - /net/aspose-cells-gridjs/run-aspose-cells-gridjs-in-docker/
@@ -21,15 +21,15 @@ aliases:
 
 ## 前提条件
 
-マシンにDockerがインストールされていることを確認してください。 公式Dockerウェブサイト（https://www.docker.com/get-started）からDockerをダウンロードしてインストールできます。
+お使いのマシンにDockerをインストールしていることを確認してください。Dockerは[公式Dockerウェブサイト](https://www.docker.com/get-started)からダウンロードしてインストールできます。
 
-## ステップ1：Dockerfileを作成する
+## ステップ1：Dockerfileを作成
 
-プロジェクトディレクトリに`Dockerfile`というファイルを作成します。[directory](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/) `Dockerfile`には、Dockerイメージをビルドする方法に関する命令を含める必要があります。
+プロジェクトの[ディレクトリ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/)に`Dockerfile`というファイルを作成してください。`Dockerfile`には、Dockerイメージをビルドするための命令を記述します。
 
-## ステップ2: GridJs用のDockerfileを作成する
+## ステップ2: GridJs用のDockerfileを書く
 
-こちらはASP.NET CoreアプリケーションのGridJsデモ用のサンプル [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Dockerfile) です。
+ASP.NET Coreアプリケーションを使用したGridJsデモのサンプル [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Dockerfile) です。
 
 ```dockerfile
 # Use the official .NET6.0 runtime as a parent image
@@ -65,6 +65,8 @@ WORKDIR /app
 # COPY fonts/* /usr/share/fonts/
 # the basic file path which contains the spread sheet files 
 RUN mkdir -p /app/wb
+# the file path to store the uploaded files
+RUN mkdir -p /app/uploads
 # the cache file path for GridJs
 RUN mkdir -p /app/grid_cache
 # we provide some sample spread sheet files in demo 
@@ -76,41 +78,51 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "gridjs-demo-.net6.dll"]
 ```
 
-## ステップ3: Dockerイメージのビルド
-Dockerイメージをビルドします。ターミナルから、以下のコマンドを実行してDockerイメージをビルドします。
+## ステップ 3: Dockerイメージのビルド
+Dockerイメージのビルド：ターミナルから次のコマンドを実行してDockerイメージを作成します：
 ```bash
 docker build -t gridjs-demo-net6 .
 ```
-`gridjs-demo-net6`をお好きなDockerイメージの名前で置き換えることができます。
+`gridjs-demo-net6`を、お好みのDockerイメージ名に置き換えることができます。
 
-## ステップ4: Dockerコンテナの実行
-イメージが作成されたら、以下のコマンドを使用してコンテナを実行できます。
+## ステップ 4: Dockerコンテナの実行
+イメージが作成されたら、次のコマンドを使用してコンテナを実行できます：
+
+```bash
+docker run -d -p 24262:80 -v C:/path/to/license.txt:/app/license --name gridjs-demo-container  gridjs-demo-net6
+```
+
+または、デモをトライアルモードで実行するだけです：
+
 
 ```bash
 docker run -d -p 24262:80 --name gridjs-demo-container  gridjs-demo-net6
 ```
-Docker Runコマンドオプションの説明
+
+
+Docker実行コマンドオプションの説明
 -d: コンテナをデタッチモード（バックグラウンド）で実行します。
--p 24262:80: コンテナのポート80をホストマシンのポート24262にマッピングします。
+-p 24262:80: コンテナ内のポート80をホストのポート24262にマッピングします。
+-v C:/path/to/license.txt:/app/license: ホストマシンのライセンスファイルのパスをコンテナ内のファイルパスにマッピングします。
 --name gridjs-demo-container: コンテナに名前を割り当てます。
 
-## ステップ5: コンテナが実行されているか確認する
-コンテナが実行されているかどうかを確認するには、次のコマンドを使用します。
+## ステップ 5: コンテナが実行中か確認する
+コンテナが稼働しているかどうかを確認するには、次のコマンドを使用してください：
 
 ```bash
 docker ps
 ```
-これにはすべての実行中のコンテナがリストされます。 コンテナがその名前とステータスと共にリストされているはずです。
+これにより、すべての実行中のコンテナがリストされます。あなたのコンテナが名前とステータスとともに表示されるはずです。
 
-## ステップ6：Webアプリケーションにアクセス
+## ステップ 6: Webアプリケーションへアクセスする
 
-ウェブブラウザを開き、`http://localhost:24262/GridJs2/List` に移動します。アプリケーションが実行されているのを確認できます。
+Webブラウザを開き、`http://localhost:24262/GridJs2/List`にアクセスしてください。アプリケーションが動作しているのが確認できます。
 
-## その他のコマンド
+## 追加コマンド
 
 ### コンテナの停止
 
-実行中のコンテナを停止するには、次のコマンドを使用します:
+実行中のコンテナを停止するには、次のコマンドを使用します：
 
 ```bash
 docker stop gridjs-demo-container

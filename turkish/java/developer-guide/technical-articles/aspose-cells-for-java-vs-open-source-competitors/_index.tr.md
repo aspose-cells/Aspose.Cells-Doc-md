@@ -148,3 +148,4 @@ Aşağıdaki tablo, Aspose.Cells for Java'nin (yukarıda belirtilen) açık kayn
 |Kontrolleri grafiklere ekle | | |Desteklenir |
 |Formül Hesaplama Motoru |  |  |Desteklenir |
 |API Bul |Desteklenir |Desteklenir |Desteklenir |
+{{< app/cells/assistant language="java" >}}

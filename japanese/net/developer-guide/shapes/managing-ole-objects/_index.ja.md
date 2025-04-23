@@ -43,3 +43,4 @@ Aspose.Cellsは、MOL（原子および結合に関する情報を含む分子�
 - [埋め込まれたOLEオブジェクトのクラス識別子を取得または設定する](/cells/ja/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 - [Ole ObjectとしてWAVファイルを挿入する](/cells/ja/net/inserting-a-wav-file-as-an-ole-object/)
 
+{{< app/cells/assistant language="csharp" >}}

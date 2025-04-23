@@ -22,7 +22,13 @@ Nedan är processen som Aspose.Cells API: er följer bakom scenen.
 
 {{% alert color="primary" %}}
 
-Aspose.Cells API: er skannar alltid operativsystemets standardteckensnittskatalog med ett undantag, det vill säga när JVM-argument **-DAspose.Cells.FontDirExc = "YourFontDir"** är inställda. I det fallet kommer Aspose.Cells API: er att hoppa över att skanna operativsystemets standardteckensnittskatalog och bara söka sökvägen som specificeras i ovan nämnda JVM-argument.
+Generellt skannar Aspose.Cells API:erna standardfontkatalogerna för operativsystemet på Windows, Linux, MacOS som standard. Från och med [Aspose.Cells for Java 24.7](https://releases.aspose.com/cells/java/release-notes/2024/aspose-cells-for-java-24-7-release-notes/) skannar API:erna dessutom Office-cacheade molnfontkataloger som standard.
+
+{{% /alert %}}
+
+{{% alert color="primary" %}}
+
+Aspose.Cells API:erna skannar alltid operativsystemets standardfontkatalog med ett undantag; när JVM-argumenten **-DAspose.Cells.FontDirExc="DinFontKatalog"** är inställda. I så fall hoppar Aspose.Cells API:erna över att skanna systemets standardfontkatalog och söker endast i den angivna sökvägen.
 
 {{% /alert %}}
 
@@ -30,13 +36,13 @@ Aspose.Cells API: er skannar alltid operativsystemets standardteckensnittskatalo
 
 Aspose.Cells API:er söker efter de nödvändiga typsnitten i operativsystemets standardtypsnittsmapp. Om de nödvändiga typsnitten inte finns i systemets typsnittsmapp, söker API:erna genom de användardefinierade (anpassade) mapparna. [**FontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs) klassen har specificerat ett flertal sätt att ange anpassade typsnittsmappar enligt följande detaljerat.
 
-1. [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)): Metoden är användbar om det endast finns en mapp att ange.
-1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)): Metoden är användbar när typsnitten finns i flera mappar och användaren vill ange alla mapparna separat istället för att kombinera alla typsnitt i en enda mapp.
-1. [**FontConfigs.setFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontSources(com.aspose.cells.FontSourceBase[])): Mekanismen är användbar när användaren vill ladda typsnitt från flera mappar eller en enda typsnittsfil eller typsnittsdata från en byte-array.
+1. [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder-java.lang.String-boolean-): Metoden är användbar om det endast finns en mapp att ange.
+1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders-java.lang.String[]-boolean-): Metoden är användbar när typsnitten finns i flera mappar och användaren vill ange alla mapparna separat istället för att kombinera alla typsnitt i en enda mapp.
+1. [**FontConfigs.setFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontSources-com.aspose.cells.FontSourceBase[]-): Mekanismen är användbar när användaren vill ladda typsnitt från flera mappar eller en enda typsnittsfil eller typsnittsdata från en byte-array.
 
 {{% alert color="primary" %}}
 
-Både [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)) och [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)) metoder accepterar en parameter av typen boolean. Om sann (true) anges som andra parameter kommer Aspose.Cells API:erna att söka efter undermappar efter typsnittsfiler.
+Både [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder-java.lang.String-boolean-) och [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders-java.lang.String[]-boolean-) metoder accepterar en parameter av typen boolean. Om sann (true) anges som andra parameter kommer Aspose.Cells API:erna att söka efter undermappar efter typsnittsfiler.
 
 {{% /alert %}}
 
@@ -71,4 +77,5 @@ FontConfigs.setFontSubstitutes("Arial", new String[] { "Times New Roman", "Calib
 Förutom de ovan nämnda metoderna har Aspose.Cells API:erna även medel för att samla information om vilka källor och ersättningar som har angetts.
 
 1. [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources--): Denna metod returnerar en array av typen [**FontSourceBase**](https://reference.aspose.com/cells/java/com.aspose.cells/FileFontSource) innehållande listan över specificerade typsnittskällor. Om ingen källa har angetts returnerar metoden [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources--) en tom array.
-1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)): Denna metod accepterar en parameter av typen String som låter användaren ange typsnittsnamnet för vilket ersättning har angetts. Om ingen ersättning har angetts för det angivna typsnittsnamnet returnerar metoden [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)) null.
+1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes-java.lang.String-): Denna metod accepterar en parameter av typen String som låter användaren ange typsnittsnamnet för vilket ersättning har angetts. Om ingen ersättning har angetts för det angivna typsnittsnamnet returnerar metoden [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes-java.lang.String-) null.
+{{< app/cells/assistant language="java" >}}

@@ -16,7 +16,7 @@ url: /ar/java/controls-in-charts/
 
 توفر التسميات وسيلة لتقديم معلومات للمستخدمين حول محتوى جدول بيانات. تسمح Aspose.Cells لك بإضافة وتلاعب التسميات حتى في الرسوم البيانية.
 
-توفر فئة [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) طريقة تسمى [**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart(int,%20int,%20int,%20int)) لإضافة عنصر تحكم بالتسمية إلى رسم بياني. فيما يلي قائمة بالمعلمات المستخدمة للطريقة:
+توفر فئة [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) طريقة تسمى [**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart-int-int-int-int-) لإضافة عنصر تحكم بالتسمية إلى رسم بياني. فيما يلي قائمة بالمعلمات المستخدمة للطريقة:
 
 - الأعلى - الإزاحة الرأسية للتسمية عن الزاوية اليسرى العلوية بوحدات تمثل 1/4000 من منطقة الرسم البياني.
 - اليسار - الإزاحة الرأسية للتسمية عن الزاوية اليسرى العلوية بوحدات تمثل 1/4000 من منطقة الرسم البياني.
@@ -46,7 +46,7 @@ url: /ar/java/controls-in-charts/
 
 ## **إضافة عنصر تحكم مربع نص إلى الرسم البياني**
 
-أحد الطرق لتسليط الضوء على معلومات مهمة في تقرير هو استخدام مربع نص. على سبيل المثال ، أدخل نصًا لتسليط الضوء على اسم الشركة أو للإشارة إلى المنطقة الجغرافية ذات أعلى مبيعات. توفر صف الفصل [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) طريقة تسمى [**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart(int,%20int,%20int,%20int)) ، التي تُستخدم لإضافة عنصر تحكم مربع نص إلى رسم بياني. وفيما يلي قائمة المعلمات المستخدمة للطريقة:
+أحد الطرق لتسليط الضوء على معلومات مهمة في تقرير هو استخدام مربع نص. على سبيل المثال ، أدخل نصًا لتسليط الضوء على اسم الشركة أو للإشارة إلى المنطقة الجغرافية ذات أعلى مبيعات. توفر صف الفصل [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) طريقة تسمى [**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart-int-int-int-int-) ، التي تُستخدم لإضافة عنصر تحكم مربع نص إلى رسم بياني. وفيما يلي قائمة المعلمات المستخدمة للطريقة:
 
 - **top** - الإزاحة الرأسية لمربع النص من الزاوية اليسرى العلوية بوحدات 1/4000 من منطقة الرسم البياني.
 - **left** – الإزاحة الأفقية لمربع النص عن الزاوية العلوية اليسرى بوحدات تعادل 1/4000 من منطقة المخطط.
@@ -69,7 +69,7 @@ url: /ar/java/controls-in-charts/
 
 تسمح Aspose.Cells لك بإدراج الصور في الرسم البياني. على سبيل المثال ، أضف صورة لتسليط الضوء على الرسم البياني أو محتوياته بمعنى أكبر ، أو قم بإدراج ملف صورة العلامة التجارية.
 
-يوفر صف الفصل [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) طريقة تسمى [**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart(int,%20int,%20java.io.InputStream,%20int,%20int)) ، والتي تُستخدم لإضافة كائن صورة إلى الرسم البياني. وفيما يلي قائمة المعلمات المستخدمة للطريقة:
+يوفر صف الفصل [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) طريقة تسمى [**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart-int-int-java.io.InputStream-int-int-) ، والتي تُستخدم لإضافة كائن صورة إلى الرسم البياني. وفيما يلي قائمة المعلمات المستخدمة للطريقة:
 
 - **top** - الإزاحة الرأسية للصورة من الزاوية اليسرى العلوية بوحدات 1/4000 من منطقة الرسم البياني.
 - **left** - الإزاحة الرأسية للصورة من الزاوية اليسرى العلوية بوحدات 1/4000 من منطقة الرسم البياني.
@@ -100,3 +100,4 @@ url: /ar/java/controls-in-charts/
 [ملف الناتج](InsertCheckboxInChartSheet_out.xlsx) الذي تم إنشاؤه بواسطة مقتطف الكود التالي مرفق للرجوع إليه.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-InsertCheckboxInChartSheet-1.java" >}}
+{{< app/cells/assistant language="java" >}}

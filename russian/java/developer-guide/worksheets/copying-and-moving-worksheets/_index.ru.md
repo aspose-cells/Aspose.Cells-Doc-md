@@ -27,7 +27,7 @@ Aspose.Cells поддерживает копирование и перемеще
 
 ## **Копировать листы в рамках рабочей книги**
 
-Aspose.Cells предоставляет перегруженный метод [**WorksheetCollection.addCopy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy(int)), который используется для добавления листа в коллекцию и копирования данных с существующего листа. Одна версия метода принимает индекс исходного листа в качестве параметра. Другая версия принимает имя исходного листа.
+Aspose.Cells предоставляет перегруженный метод [**WorksheetCollection.addCopy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy-int-), который используется для добавления листа в коллекцию и копирования данных с существующего листа. Одна версия метода принимает индекс исходного листа в качестве параметра. Другая версия принимает имя исходного листа.
 
 В следующем примере показано, как скопировать существующий лист в рамках рабочей книги.
 
@@ -35,7 +35,7 @@ Aspose.Cells предоставляет перегруженный метод [*
 
 ## **Копировать листы между рабочими книгами**
 
-Aspose.Cells предоставляет метод [**Worksheet.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)), используемый для копирования данных и форматирования с исходного листа на другой лист внутри или между книгами. Метод принимает объект исходного листа в качестве параметра.
+Aspose.Cells предоставляет метод [**Worksheet.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy-com.aspose.cells.Worksheet-), используемый для копирования данных и форматирования с исходного листа на другой лист внутри или между книгами. Метод принимает объект исходного листа в качестве параметра.
 
 В следующем примере показано, как скопировать лист из одной рабочей книги в другую рабочую книгу.
 
@@ -47,8 +47,9 @@ Aspose.Cells предоставляет метод [**Worksheet.copy()**](https:
 
 ## **Перемещение листов в рамках рабочей книги**
 
-Aspose.Cells предоставляет метод [**Worksheet.moveTo()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo(int)), используемый для перемещения листа в другое место в той же таблице.
+Aspose.Cells предоставляет метод [**Worksheet.moveTo()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo-int-), используемый для перемещения листа в другое место в той же таблице.
 
 В следующем примере показано, как переместить лист в другое место внутри рабочей книги.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-MoveWorksheet-MoveWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

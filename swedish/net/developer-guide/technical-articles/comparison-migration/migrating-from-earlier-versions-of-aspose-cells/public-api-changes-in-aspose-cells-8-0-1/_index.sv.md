@@ -44,3 +44,4 @@ Minnesinställningarna fungerar inte automatiskt för standardarket som skapas a
 Kolla in den detaljerade artikeln om [Optimizing Memory while Working with Large Data Sets](/cells/sv/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

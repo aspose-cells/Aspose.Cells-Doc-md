@@ -22,3 +22,4 @@ L'esempio seguente mostra come aggiungere una forma WordArt per impostare un wat
 - [Aggiungi testo Word Art con stili incorporati](/cells/it/net/add-word-art-text-with-built-in-styles/)
 - [Bloccare WordArt Come Filigrana](/cells/it/net/locking-wordart-watermark/)
 - [Imposta lo stile predefinito di WordArt al testo della forma](/cells/it/net/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="csharp" >}}

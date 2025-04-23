@@ -51,3 +51,4 @@ Para abrir archivos delimitados por tabuladores, los desarrolladores deben usar 
 - [Cargar o importar archivo CSV con fórmulas](/cells/es/java/load-or-import-csv-file-with-formulas/)
 - [Recortar filas y columnas en blanco al exportar hojas de cálculo al formato CSV](/cells/es/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
 
+{{< app/cells/assistant language="java" >}}

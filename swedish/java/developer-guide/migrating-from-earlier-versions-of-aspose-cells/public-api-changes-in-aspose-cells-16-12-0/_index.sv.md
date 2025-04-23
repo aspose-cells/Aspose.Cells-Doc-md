@@ -173,3 +173,4 @@ Det rekommenderas att använda DataLabels.BackgroundMode-egendomen istället.
 Överväg att använda DisplayUnitLabel.RotationAngle-egendom för att uppnå samma mål.
 ### **Raderad Title.getCharacters-metod**
 Använd vänligen Title.characters-metoden istället.
+{{< app/cells/assistant language="java" >}}

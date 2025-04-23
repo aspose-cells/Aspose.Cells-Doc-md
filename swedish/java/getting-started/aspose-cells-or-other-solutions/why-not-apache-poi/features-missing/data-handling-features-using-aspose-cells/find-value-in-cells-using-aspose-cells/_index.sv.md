@@ -50,3 +50,4 @@ System.out.println("Name of the cell containing String: " + cell.getName());
 För mer detaljer, besök [Hitta eller Sök Data](/cells/sv/java/hitta-eller-sok-data).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

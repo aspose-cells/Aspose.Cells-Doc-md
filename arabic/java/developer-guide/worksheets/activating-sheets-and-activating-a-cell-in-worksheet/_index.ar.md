@@ -35,3 +35,4 @@ url: /ar/java/activating-sheets-and-activating-a-cell-in-worksheet/
 في وضع **التقييم**، وهو؛ دون تعيين ترخيص صالح، ستكون الورقة النشطة دائمًا تحتوي على علامة العلامة التجريبية. يمكن تجاوز هذه السلوك بتعيين الترخيص في بداية التطبيق فقط.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

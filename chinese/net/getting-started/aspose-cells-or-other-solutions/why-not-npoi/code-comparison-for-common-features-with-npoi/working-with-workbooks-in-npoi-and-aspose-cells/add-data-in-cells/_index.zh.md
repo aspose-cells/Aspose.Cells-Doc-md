@@ -91,3 +91,4 @@ sw.Close();
 更多详情，请访问[向单元格添加数据](/cells/zh/net/add-data-in-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

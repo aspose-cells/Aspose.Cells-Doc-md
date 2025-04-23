@@ -24,3 +24,4 @@ url: /zh/java/line-breaks-and-text-wrapping/
 您可以在Java中使用'\n'来在单元格中插入显式换行。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UseExplicitLineBreaks-UseExplicitLineBreaks.java" >}}
+{{< app/cells/assistant language="java" >}}

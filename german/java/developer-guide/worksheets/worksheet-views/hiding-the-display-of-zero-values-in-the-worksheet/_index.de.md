@@ -24,3 +24,4 @@ Um Nullwerte in einem Arbeitsblatt in Microsoft Excel zu verstecken (z. B. Micro
 Bitte sehen Sie sich den folgenden Beispielcode an, der zeigt, wie Sie Nullen mit Aspose.Cells ausblenden können.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-HidingDisplayOfZeroValues-HidingDisplayOfZeroValues.java" >}}
+{{< app/cells/assistant language="java" >}}

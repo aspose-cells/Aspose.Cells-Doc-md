@@ -16,3 +16,4 @@ Aşağıdaki örnek kod, var olan bir zaman çizelgesi içeren [örnek Excel dos
 
 ## **Örnek Kod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Timelines-DrawTimelinetoPdf.java" >}}
+{{< app/cells/assistant language="java" >}}

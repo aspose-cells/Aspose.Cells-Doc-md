@@ -20,3 +20,4 @@ keywords: Укажите формульные поля при импорте д�
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-SpecifyFormulaFieldsWhileImportingDataToWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -20,3 +20,4 @@ keywords: Добавить комбинированную диаграмму, с
 В приведенном ниже образце кода загружается [образец файла Excel](combo.xlsx) и создается [выходной файл Excel](out.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-add-combo-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

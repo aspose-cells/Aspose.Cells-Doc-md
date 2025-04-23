@@ -18,3 +18,4 @@ Die im folgenden Code-Ausschnitt verwendete Quelldatei ist zur Referenz angehän
 ## Beispielcode
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-CellsHelper-GetTextWidth-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -38,3 +38,4 @@ El siguiente ejemplo crea un nuevo workbook desde cero, escribe ¡Hola Mundo! en
 El siguiente ejemplo abre un archivo de plantilla de Microsoft Excel existente llamado "Sample.xlsx", ingresa el texto "¡Hola Mundo!" en la celda A1 en la primera hoja de cálculo y guarda el workbook.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

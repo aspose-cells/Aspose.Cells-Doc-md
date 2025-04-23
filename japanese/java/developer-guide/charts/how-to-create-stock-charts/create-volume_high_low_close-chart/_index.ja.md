@@ -19,3 +19,4 @@ keywords: ボリューム ハイ ロー クローズ（VHLC）株価チャート
 [サンプルExcelファイル](Volume-High-Low-Close.xlsx)を読み込み、[出力Excelファイル](out.xlsx)を生成するサンプルコードは、以下の通りです。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-create-volume-high-low-close-stock-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

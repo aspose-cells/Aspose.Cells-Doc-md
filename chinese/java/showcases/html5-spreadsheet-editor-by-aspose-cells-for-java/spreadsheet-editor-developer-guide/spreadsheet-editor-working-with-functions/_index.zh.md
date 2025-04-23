@@ -38,3 +38,4 @@ url: /zh/java/spreadsheet-editor-working-with-functions/
 1. 单击单元格以选择它。
 1. 在顶部单击**插入函数**按钮。
 1. 按照**插入函数**对话框中的说明操作。
+{{< app/cells/assistant language="java" >}}

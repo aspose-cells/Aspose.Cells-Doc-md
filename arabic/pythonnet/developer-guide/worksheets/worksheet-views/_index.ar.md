@@ -3,8 +3,8 @@ title: عروض الورقة العمل
 type: docs
 weight: 40
 url: /ar/python-net/worksheet-views/
-description: سيصف هذا المقال كيفية استخدام واجهة برمجة التطبيقات لـ Aspose.Cells for Python via .NET للتفاعل مع معاينة استراحة الصفحة في سجل Excel وورقات العمل. يمكنك العمل مع الأجزاء المقسمة، والأجزاء المتجمدة، وعامل التكبير أيضًا. 
-keywords: مكتبة Excel الخاصة بـ Python، كيفية تعيين معاينة استراحة الصفحة باستخدام Python، كيفية تمكين العرض العادي باستخدام Python، كيفية تعيين عامل التكبير باستخدام Python، كيفية تجميد الأجزاء بواسطة Python، كيفية تقسيم الأجزاء بواسطة Python، كيفية إزالة الأجزاء بواسطة Python.
+description: ستصف هذه المقالة كيفية استخدام API Aspose.Cells لـ بايثون via .NET للتفاعل مع معاينة فاصل الصفحات في دفتر إكسل وورق العمل الخاص به. العمل مع اللوحات المنقسمة، والألواح المجمدة، ومعامل التكبير أيضًا. 
+keywords: مكتبة إكسل بايثون، كيفية إعداد معاينة فاصل الصفحة، تمكين العرض العادي، تعيين معامل التكبير، تجميد الألواح، تقسيم الألواح، إزالة الألواح.
 ---
 
 ## **معاينة كسر الصفحة**
@@ -14,11 +14,11 @@ keywords: مكتبة Excel الخاصة بـ Python، كيفية تعيين مع
 - العرض العادي.
 - معاينة كسر الصفحة.
 
-عرض عادي هو العرض الافتراضي لورقة العمل. معاينة كسر الصفحة هو عرض تحرير يعرض ورقة العمل كما ستطبع. تعرض معاينة كسر الصفحة البيانات التي ستوضع على كل صفحة بحيث يمكنك ضبط منطقة الطباعة وفواصل الصفحات. يمكن لمطوري Aspose.Cells for Python via .NET تمكين عرض عادي أو عرض معاينة كسر الصفحة.
+العرض العادي هو العرض الافتراضي لورقة العمل. معاينة فاصل الصفحة هي عرض تحرير يعرض ورقة العمل كما ستطبع. تظهر معاينة فاصل الصفحة المعلومات التي ستُدرج على كل صفحة بحيث يمكنك تعديل منطقة الطباعة وفواصل الصفحات. باستخدام Aspose.Cells لـ بايثون via .NET يمكن للمطورين تمكين وضع العرض العادي أو وضع معاينة فاصل الصفحة.
 
 ### **التحكم في أوضاع العرض**
 
-يوفر Aspose.Cells for Python via .NET فئة [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) التي تمثل ملف Microsoft Excel. تحتوي الفئة [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) على مجموعة [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) تتيح الوصول إلى كل ورقة عمل في ملف Excel.
+يوفر Aspose.Cells لـ بايثون via .NET فئة [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) التي تمثل ملف إكسل من مايكروسوفت. تحتوي فئة [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) على مجموعة [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) تسمح بالوصول لكل ورقة عمل في ملف إكسل.
 
 يتمثل صفحة العمل في فئة [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet). توفر فئة [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) مجموعة واسعة من الخصائص والأساليب لإدارة صفحات العمل. لتمكين العرض العادي أو وضع معاينة فواصل الصفحات، استخدم [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) مع [**is_page_break_preview**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_page_break_preview). [**is_page_break_preview**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_page_break_preview) هو خاصية منطقية، مما يعني أنه يمكنها تخزين قيمة صحيحة أو خاطئة فقط.
 
@@ -69,10 +69,10 @@ keywords: مكتبة Excel الخاصة بـ Python، كيفية تعيين مع
 
 تُمثل ورقة العمل بواسطة فئة [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet). توفر فئة [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) مجموعة واسعة من الخصائص والأساليب لإدارة ورق العمل. لتكوين تجميد الألواح، قم بإيجاد طريقة [**freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#int-int-int-int) لفئة الورقة العمل. تأخذ الطريقة [**freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#int-int-int-int) المعلمات التالية:
 
-- **الصف**, فهو مؤشر الصف الذي سيبدأ منه التجميد.
-- **العمود**, فهو مؤشر العمود الذي ستبدأ منه التجميد.
-- **الصفوف_المتجمدة**, عدد الصفوف المرئية في النافذة العلوية.
-- **الأعمدة_المتجمدة**, عدد الأعمدة المرئية في النافذة اليسرى
+- **صف**، مؤشر الصف حيث سيبدأ التجميد.
+- **عمود**، مؤشر العمود حيث سيبدأ التجميد.
+- **صفوف مجمدة**، عدد الصفوف المرئية في اللوحة العليا.
+- **أعمدة مجمدة**، عدد الأعمدة المرئية في اللوحة اليسرى.
 
 يتم فتح ملف book1.xls بالاتصال ببناء الفئة [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) أثناء إنشائه وتجميد عدد قليل من الصفوف والأعمدة في الورقة العمل الأولى. يتم حفظ الملف المعدل ك output.xls.
 

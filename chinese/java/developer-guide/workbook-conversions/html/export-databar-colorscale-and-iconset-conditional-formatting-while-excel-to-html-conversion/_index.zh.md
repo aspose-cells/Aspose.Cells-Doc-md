@@ -28,3 +28,4 @@ url: /zh/java/export-databar-colorscale-and-iconset-conditional-formatting-while
 - [将Excel文件转换为HTML](/cells/zh/java/converting-workbook-to-different-formats/#convertingworkbooktodifferentformats-convertingexcelfilestohtml)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

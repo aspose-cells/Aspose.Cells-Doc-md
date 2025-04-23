@@ -16,3 +16,4 @@ url: /zh/net/link-cells-to-xml-map-elements/
 如果您打开 [输出 Excel 文件](5115467.xlsx) 并单击“开发人员 > 源”按钮，您将看到单元格已链接到 XML 地图元素，并且它们也将被 Microsoft Excel 标记，如下图所示。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LinkCellsToXmlMapElements-LinkCellsToXmlMapElements.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

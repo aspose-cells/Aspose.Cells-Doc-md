@@ -14,9 +14,9 @@ url: /tr/net/filtering-charts-in-excel/
 ### **Excel'de bir grafikten serileri filtreleme adımları**
 Excel'de, belirli serileri filtreleyebilir, bu filtrelenmiş serilerin grafikte gösterilmemesine neden olabilir. Orijinal grafik **Şekil 1**'de gösterilir. Ancak **Testseries2** ve **Testseries4**'ü filtrelediğimizde grafik **Şekil 2**'de gösterildiği gibi görünecektir.
 
-Aspose.Cells'te benzer bir işlem gerçekleştirebiliriz. Bu gibi bir [örnek](seriesFiltered.xlsx) dosyada, **Testseries2** ve **Testseries4**'ü filtrelemek istiyorsak, aşağıdaki kodu çalıştırabiliriz. Ayrıca, tüm seçilen serileri depolamak için bir ([NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/)) listesi ve filtrelenen serileri depolamak için başka bir ([FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filteredSeries/)) listesi tutacağız.
+Aspose.Cells'te benzer bir işlem yapabiliriz. Bu tarz bir [örnek](seriesFiltered.xlsx) dosya için, **Testseries2** ve **Testseries4**'ü hariç tutmak istediğimizde aşağıdaki kodu çalıştırabiliriz. Ayrıca, iki liste tutarız: tüm seçilen serileri depolayan bir ([NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/)) list ve filtrelenmiş serileri depolayan başka ([FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filterednseries/)) list.
 
-Lütfen **unutmayın** ki kodda **chart.NSeries[0].IsFiltered = true;** belirlendiğinde, [NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/) 'deki ilk seri kaldırılır ve uygun konuma yerleştirilir  [FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filteredSeries/) içerisinde. Sonuç olarak, önceki **NSeries[1]** liste içindeki yeni ilk öğe haline gelir ve tüm sonraki seriler bir pozisyon ileri kayar. Bu, ardından **chart.NSeries[1].IsFiltered = true;** çalıştırırsak, aslında orijinal üçüncü seriyi kaldırır. Bunun bazen kafa karışıklığına yol açabileceğine dikkat edilmelidir, bu nedenle serileri sondan başa silme işlemini öneririz.
+Lütfen **not** edin ki, kodda, **chart.NSeries[0].IsFiltered = true;** ayarlandığında, [NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/) içindeki ilk seriden çıkartılır ve uygun pozisyona [FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filterednseries/) içine yerleştirilir. Ardından, önceki **NSeries[1]** yeni listenin ilk ögesi olur ve sonraki seriler bir sıra sağa kayar. Bu durumda, sonra **chart.NSeries[1].IsFiltered = true;** yaparsak, orijinal üçüncü seri kaldırılmış olur. Bu bazen karışıklığa yol açabilir, bu yüzden kodda yapılan işlemi sondan başa doğru serileri silerek takip etmeniz önerilir.
 
 ![todo:image_alt_text](Figure1.png)
 
@@ -59,3 +59,4 @@ Veri içine tıklayın ve **CTRL + T** kullanın veya Ana sekme, **Tablo Olarak 
 Aşağıdaki örnek kod, [örnek Excel dosyasını](TableFilters.xlsx) Aspose.Cells kullanarak aynı özelliği gösterir.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "TableFilters.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

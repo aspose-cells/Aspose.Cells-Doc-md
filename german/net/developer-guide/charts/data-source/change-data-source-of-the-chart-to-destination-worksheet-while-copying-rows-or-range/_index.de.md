@@ -18,3 +18,4 @@ Der folgende Beispielcode erläutert die Verwendung der [**CopyOptions.ReferToDe
 ![todo:image_alt_text](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ChangeChartDataSource-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

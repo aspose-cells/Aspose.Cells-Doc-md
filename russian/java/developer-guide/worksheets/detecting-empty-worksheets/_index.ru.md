@@ -25,3 +25,4 @@ url: /ru/java/detecting-empty-worksheets/
 Возможно, что на определенном листе нет заполненных ячеек, однако он может содержать фигуры и объекты, такие как элементы управления, диаграммы, изображения и т. д. Если нам нужно проверить, содержит ли лист какую-либо форму, мы можем сделать это, проверив свойство [ShapeCollection.Count](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#Count). Любое положительное значение указывает на наличие фигуры(фигур) на листе.
 ## **Пример программирования**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CheckForShapes-1.java" >}}
+{{< app/cells/assistant language="java" >}}

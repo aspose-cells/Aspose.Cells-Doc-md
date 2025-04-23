@@ -21,3 +21,4 @@ Il codice di esempio seguente spiega l'uso della proprietà CopyOptions.ReferToD
 
 
 
+{{< app/cells/assistant language="java" >}}

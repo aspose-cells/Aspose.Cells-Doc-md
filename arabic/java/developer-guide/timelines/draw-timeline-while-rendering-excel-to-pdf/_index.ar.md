@@ -16,3 +16,4 @@ keywords: تحويل الجدول الزمني إلى PDF بدون Office 2013،
 
 ## **الكود المثالي**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Timelines-DrawTimelinetoPdf.java" >}}
+{{< app/cells/assistant language="java" >}}

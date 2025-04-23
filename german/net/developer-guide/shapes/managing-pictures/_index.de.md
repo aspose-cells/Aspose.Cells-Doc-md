@@ -53,3 +53,4 @@ Fügen Sie ein Bild zum Arbeitsblatt hinzu, indem Sie die [**AddPicture**](https
 - [Bild anhand von Zellenverweis einfügen](/cells/de/net/insert-a-picture-based-on-cell-reference/)
 - [Laden Sie ein Web-Bild von einer URL in eine Excel-Arbeitsmappe](/cells/de/net/load-a-web-image-from-a-url-into-an-excel-worksheet/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -33,3 +33,4 @@ Aspose.Cellsでは、スパークライングループのデータ範囲と場�
 次のサンプルコードでは、前述のスクリーンショットに示されているソースExcelファイルを読み込み、スパークライングループにアクセスしてデータ範囲と場所を追加します。最後に、出力Excelファイルをディスクに書き込みます（これも前述のスクリーンショットに示されています）。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopySparkline-CopySparkline.java" >}}
+{{< app/cells/assistant language="java" >}}

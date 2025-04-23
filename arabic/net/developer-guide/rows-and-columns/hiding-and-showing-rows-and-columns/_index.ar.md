@@ -53,3 +53,4 @@ url: /ar/net/hiding-and-showing-rows-and-columns/
 من الممكن أيضًا استخدام طرق [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) و[**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) فئة [**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns) لجعل عدة صفوف وأعمدة مرئية.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

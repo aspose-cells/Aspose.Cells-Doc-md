@@ -29,3 +29,4 @@ Aspose.Cells proporciona las propiedades [**PivotTable.DisplayNullString**](http
 ## Artículos relacionados
 
 - [Dar formato a la tabla dinámica](/cells/es/net/formatting-pivot-table/)
+{{< app/cells/assistant language="csharp" >}}

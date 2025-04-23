@@ -31,3 +31,4 @@ Un foglio di lavoro semplicemente protetto è uno che non è protetto da una pas
 Un foglio di lavoro protetto da password è uno protetto da una password. Tali fogli di lavoro possono essere disprotetti chiamando una versione sovraccaricata del metodo [**Unprotect**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/unprotect/methods/1) che prende la password come parametro.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Unprotect-UnprotectingPasswordProtectedWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

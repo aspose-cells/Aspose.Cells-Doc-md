@@ -50,3 +50,4 @@ Aspose.Cells ermöglicht die Verschlüsselung und Entschlüsselung von ODS-Datei
 Für das Entschlüsseln einer ODS-Datei laden Sie die Datei, indem Sie ein Passwort in [**LoadOptions.Password**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/password) angeben. Sobald die Datei geladen ist, setzen Sie den Wert [**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) auf null.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-DecryptingODSFiles-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -33,3 +33,4 @@ Sono consentiti i seguenti parametri:
 - copiarelostile - Copia lo stile della cella di base a tutte le celle di quella colonna.
 
 I parametri **noadd** e skip possono essere combinati per inserire i dati su righe alternate. Poiché il modello viene elaborato dal basso verso l'alto, è necessario aggiungere noadd sulla prima riga per evitare che vengano inserite righe extra prima della riga alternata.
+{{< app/cells/assistant language="csharp" >}}

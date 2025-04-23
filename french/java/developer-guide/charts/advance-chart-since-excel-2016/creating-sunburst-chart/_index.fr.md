@@ -19,3 +19,4 @@ Après avoir exécuté le code ci-dessous, vous verrez le diagramme sunburst com
 Le code d'exemple suivant charge le [fichier Excel d'exemple](sunburst.xlsx) et génère le [fichier Excel de sortie](out.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "create-sunburst-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

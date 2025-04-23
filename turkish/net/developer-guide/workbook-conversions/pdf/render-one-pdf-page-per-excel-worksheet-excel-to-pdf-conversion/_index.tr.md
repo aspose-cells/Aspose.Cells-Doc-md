@@ -26,3 +26,4 @@ Lütfen birden çok çalışsayfasına sahip bir Excel dosyasını PDF'ye dönü
 Eğer elektronik tablonuz formüller içeriyorsa, elektronik tablonun PDF'ye dönüştürülmeden önce [Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) çağrılması en iyisidir. Bu, formül bağımlı değerlerin yeniden hesaplandığından ve doğru değerlerin PDF'de oluşturulduğundan emin olur.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

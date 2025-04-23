@@ -10,11 +10,11 @@ Las APIs de Aspose.Cells han expuesto la clase [GlobalizationSettings](https://r
 ## **Introducción a la Clase Configuración Global**
 La clase [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) actualmente ofrece los siguientes 3 métodos que se pueden anular en una clase personalizada para obtener las etiquetas deseadas para los subtotales o para representar un texto personalizado para la etiqueta **Otros** de un gráfico circular.
 
-1. [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)): Obtiene el nombre total de la función.
-1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)): Obtiene el nombre del gran total de la función.
-1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)): Obtiene el nombre de las etiquetas "Otros" para los gráficos circulares.
+1. [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName-int-): Obtiene el nombre total de la función.
+1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName-int-): Obtiene el nombre del total general de la función.
+1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--): Obtiene el nombre de las etiquetas "Otros" para gráficos de pastel.
 ### **Etiquetas Personalizadas para Subtotales**
-La clase [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) se puede usar para personalizar las etiquetas de subtotal anulando los métodos [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)) & [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)) como se demuestra a continuación.
+La clase [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) puede ser utilizada para personalizar las etiquetas de Subtotal modificando los métodos [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName-int-) y [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName-int-) como se demuestra a continuación.
 
 
 
@@ -33,7 +33,7 @@ La clase [GlobalizationSettings](https://reference.aspose.com/cells/java/com.asp
 
 {{% /alert %}} 
 ### **Texto Personalizado para Otra Etiqueta del Gráfico Circular**
-La clase [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) ofrece el método [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)) que es útil para darle un valor personalizado a la etiqueta "Otro" de los gráficos circulares. El siguiente fragmento define una clase personalizada y anula el método [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)) para obtener una etiqueta personalizada basada en el idioma predeterminado establecido para la JVM.
+La clase [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) ofrece el método [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--) que es útil para asignar un valor personalizado a la etiqueta "Otros" en gráficos de pastel. El siguiente fragmento define una clase personalizada y sobrescribe el método [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--) para obtener una etiqueta personalizada basada en el idioma predeterminado configurado para la JVM.
 
 
 
@@ -50,3 +50,4 @@ El siguiente fragmento carga una hoja de cálculo existente que contiene un grá
 A continuación se muestra la imagen resultante cuando la configuración regional de la máquina está establecida en Francia. Como puedes ver, la etiqueta "Otro" se ha traducido a "Autre" como se define en la clase *CustomSettings*.
 
 ![todo:image_alt_text](using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart_1.png)
+{{< app/cells/assistant language="java" >}}

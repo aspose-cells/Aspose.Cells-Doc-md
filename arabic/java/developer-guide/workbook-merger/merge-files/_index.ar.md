@@ -7,7 +7,7 @@ url: /ar/java/merge-files/
 
 ## **مقدمة**
 
-يوفر Aspose.Cells طرقًا مختلفة لدمج الملفات. يمكن استخدام الـ [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) لدمج العديد من دفاتر العمل للملفات البسيطة بالبيانات والتنسيق والصيغ، ويمكن استخدام الـ [Worksheet.copy](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)) لنسخ الصفحات العمل في دفتر عمل جديد. هذه الطرق سهلة الاستخدام وفعالة، ولكن إذا كان هناك الكثير من الملفات لدمجها، قد تجد أنها تستهلك الكثير من موارد النظام. لتجنب ذلك، استخدم الطريقة الثابتة CellsHelper.mergeFiles، وهي طريقة أكثر فاعلية لدمج العديد من الملفات.
+توفر Aspose.Cells طرقًا مختلفة لدمج الملفات. للملفات البسيطة التي تحتوي على بيانات وتنسيقات وصيغ، يمكن استخدام طريقة [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine-com.aspose.cells.Workbook-) لدمج عدة دفاتر عمل، ويمكن استخدام طريقة [**Worksheet.copy(**)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy-com.aspose.cells.Worksheet-) لنسخ أوراق العمل إلى دفتر عمل جديد. هذه الطرق سهلة الاستخدام وفعالة، ولكن إذا كان لديك الكثير من الملفات التي تريد دمجها، فقد تجد أنها تستهلك الكثير من موارد النظام. لتجنب ذلك، استخدم الطريقة الثابتة CellsHelper.mergeFiles، وهي وسيلة أكثر كفاءة لدمج عدة ملفات.
 
 ## **دمج الملفات باستخدام Aspose.Cells**
 
@@ -20,3 +20,4 @@ url: /ar/java/merge-files/
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-MergeFiles-MergeFiles.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -16,3 +16,4 @@ Aspose.Cells proporciona la propiedad [**Shape.TextBody**](https://reference.asp
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeCommentFontColor-1.cs" >}}
 
 El [archivo de salida](102662195.xlsx) generado por el código anterior se adjunta para su referencia.
+{{< app/cells/assistant language="csharp" >}}

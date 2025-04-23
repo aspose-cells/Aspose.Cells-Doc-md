@@ -52,3 +52,4 @@ Aspose.Cells允许修改任何这些样式或您使用所需属性定义的任�
 修改将自动应用于应用了样式的范围。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ModifyExistingStyle-ModifyThroughSampleExcelFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

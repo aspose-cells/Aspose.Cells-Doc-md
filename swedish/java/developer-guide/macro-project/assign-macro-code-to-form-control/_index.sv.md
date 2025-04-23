@@ -7,7 +7,7 @@ url: /sv/java/assign-macro-code-to-form-control/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells låter dig tilldela en makrokod till en formulärkontroll som en knapp. Använd [ShapeCollection.addShape()](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape\(int,%20int,%20int,%20int,%20int,%20int,%20int\)) metoden för att tilldela en ny makrokod till en formulärkontroll i arbetsboken.
+Aspose.Cells tillåter att du tilldelar en makkod till ett formulärkontroll som en knapp. Använd metoden [ShapeCollection.addShape()](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-) för att tilldela en ny makkod till en formulärkontroll i arbetsboken.
 
 {{% /alert %}} 
 ## **Tilldela makrokod till formulärkontroll med hjälp av Aspose.Cells**
@@ -26,3 +26,4 @@ End Sub
 Här är exempelkod för att generera utdatafilen XLSM med makrokod.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AssignMacroToFormControl-AssignMacroToFormControl.java" >}}
+{{< app/cells/assistant language="java" >}}

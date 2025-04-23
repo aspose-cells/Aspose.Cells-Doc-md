@@ -14,3 +14,4 @@ Puoi usare Aspose.Cells per esportare il tuo foglio di lavoro o grafico in un'im
 Il seguente codice esporta il foglio di lavoro in un'immagine delle dimensioni 400x400.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-WorksheetToImageDesiredSize-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -14,3 +14,4 @@ Aspose.Cells kullanarak, çalışma kitabının VBA (Görsel Temel Uygulamalar) 
 Aşağıdaki örnek kod, [örnek Excel dosyasını](43352067.xlsm) yükler, VBA Projesine erişir ve onu bir parola ile korur. Son olarak, bunu [çıktı Excel dosyası olarak](43352068.xlsm) kaydeder.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProjectPassword-ProtecttheVBAProjectofExcelWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

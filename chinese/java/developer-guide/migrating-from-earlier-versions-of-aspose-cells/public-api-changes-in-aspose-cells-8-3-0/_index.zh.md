@@ -131,3 +131,4 @@ Chart chart = book.getWorksheets().get(0).getCharts().get(0);
 chart.getPlotArea().setPositionAuto();
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -53,3 +53,4 @@ workbook.save(dataDir + "AsposeWatermark_Out.xls");
 لمزيد من التفاصيل، قم بزيارة [إضافة كلمة مثيرة للفن إلى ورقة العمل](/cells/ar/java/add-wordart-watermark-to-worksheet).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

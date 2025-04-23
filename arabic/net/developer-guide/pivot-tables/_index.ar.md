@@ -55,3 +55,4 @@ description: إنشاء وتنسيق جداول الدوران في ملفات �
 - [حفظ الجدول المحوري في ملف ODS](/cells/ar/net/save-pivot-table-in-ods-file/)
 - [خيار إظهار صفحات مرشح التقرير](/cells/ar/net/show-report-filter-pages-option/)
 - [العمل مع تنسيقات عرض البيانات لحقل البيانات في الجدول المحوري](/cells/ar/net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="csharp" >}}

@@ -13,7 +13,7 @@ url: /ru/java/insert-ranges-to-Excel/
 
 ## **Вставка диапазонов с помощью Aspose.Cells**
 
-Aspose.Cells предоставляет метод [Cells.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange(com.aspose.cells.CellArea,%20int)) для вставки диапазона.
+Aspose.Cells предоставляет [Cells.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange-com.aspose.cells.CellArea-int-) для вставки диапазона.
 
 ## **Вставка диапазонов и сдвиг ячеек вправо**
 
@@ -27,3 +27,4 @@ Aspose.Cells предоставляет метод [Cells.InsertRange](https://r
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Insert-Range-Down.java" >}}
 
+{{< app/cells/assistant language="java" >}}

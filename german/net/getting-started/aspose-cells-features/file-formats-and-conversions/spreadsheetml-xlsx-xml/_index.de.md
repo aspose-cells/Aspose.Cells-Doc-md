@@ -171,3 +171,4 @@ Betrachten Sie das folgende Beispiel. Einige Zellen enthalten den Text "Hallo We
 
 
 Die Implementierung selbst einer einfachen Suchen- und Ersetzen-Operation in einem Office Open XML-Dokument ist schwierig. Unser Rat: Bedenken Sie, dass offen und standardisiert nicht einfach bedeutet, und verwenden Sie Aspose.Cells.
+{{< app/cells/assistant language="csharp" >}}

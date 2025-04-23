@@ -10,3 +10,4 @@ url: /zh/net/working-with-workbooks-in-npoi-and-aspose-cells/
 - [在单元格中添加数据](/cells/zh/net/add-data-in-cells/)
 - [创建新工作簿](/cells/zh/net/create-new-workbook/)
 - [设置打印区域](/cells/zh/net/set-print-area/)
+{{< app/cells/assistant language="csharp" >}}

@@ -100,3 +100,4 @@ url: /zh/java/page-setup-and-printing-options/
 Aspose.Cells受益于多年的研究、设计和精心调优。我们诚挚地欢迎您在[Aspose.Cells论坛](https://forum.aspose.com/c/cells/9)上提出疑问、评论和建议。我们保证会及时回复。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

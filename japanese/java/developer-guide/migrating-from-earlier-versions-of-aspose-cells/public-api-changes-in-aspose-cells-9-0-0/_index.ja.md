@@ -248,3 +248,4 @@ if (classId != null)
 ## **改名されたAPI**
 ### **Workbook.removeDigitallySignメソッドが名前変更されました**
 Workbook.removeDigitallySignメソッドはWorkbook.removeDigitalSignatureに名前が変更されました。
+{{< app/cells/assistant language="java" >}}

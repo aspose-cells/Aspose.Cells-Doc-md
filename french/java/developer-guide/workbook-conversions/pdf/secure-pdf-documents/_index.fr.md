@@ -33,3 +33,4 @@ Le code d'exemple ci-dessous décrit comment créer des fichiers PDF sécurisés
 Si le tableur contient des formules, il est préférable d'appeler [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) juste avant de le rendre au format PDF. Cela garantit que les valeurs dépendantes des formules sont recalculées, et que les valeurs correctes sont rendues dans le PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

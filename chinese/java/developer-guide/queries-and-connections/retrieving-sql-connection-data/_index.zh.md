@@ -38,3 +38,4 @@ Aspose.Cells提供了Workbook.getDataConnections()方法来检索外部连接。
 
 
 
+{{< app/cells/assistant language="java" >}}

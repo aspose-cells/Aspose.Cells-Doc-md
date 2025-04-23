@@ -44,3 +44,4 @@ Quando il codice precedente viene eseguito, la formattazione condizionale viene 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplyConditionalFormatting-ApplyConditionalFormattingFormula-1.cs" >}}
 
 Quando il codice precedente viene eseguito, la formattazione condizionale viene applicata alla cella “B3” nel primo foglio di lavoro del file di output (output.xls). La formattazione condizionale applicata dipende dalla formula che calcola il valore di “B3” come somma di B1 e B2.
+{{< app/cells/assistant language="csharp" >}}

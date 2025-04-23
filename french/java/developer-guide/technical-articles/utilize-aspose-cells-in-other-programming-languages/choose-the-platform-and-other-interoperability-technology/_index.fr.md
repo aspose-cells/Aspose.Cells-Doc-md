@@ -27,3 +27,4 @@ Bien qu'il n'y ait pas de versions spéciales d'Aspose.Cells pour d'autres plate
 |Aspose.Cells for Java via Java Pont ou Inline::Java |<p>**Avantages**:</p><p>- Disponible sur n'importe quelle plateforme où Java est disponible.</p><p>- Facile d'appeler des méthodes statiques, des constructeurs avec des paramètres, des méthodes surchargées et d'utiliser des valeurs énumérées.</p>|
 | |<p>**Inconvénients**:</p><p>- A moins de versions fréquentes et moins de fonctionnalités que Aspose.Cells for .NET.</p>|
 Veuillez noter que Aspose.Cells for Java est conçu pour les applications Java et son utilisation dans d'autres langages de programmation est soumise à certaines limitations techniques ou solutions de contournement. 
+{{< app/cells/assistant language="java" >}}

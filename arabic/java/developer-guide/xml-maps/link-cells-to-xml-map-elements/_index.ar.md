@@ -7,7 +7,7 @@ url: /ar/java/link-cells-to-xml-map-elements/
 
 ## **سيناريوهات الاستخدام المحتملة**
 
-يمكنك ربط خلاياك بعناصر Map XML باستخدام Aspose.Cells. يرجى استخدام الـ [**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap(java.lang.String,%20int,%20int,%20java.lang.String)) لهذا الغرض.
+يمكنك ربط خلاياك بعناصر Map XML باستخدام Aspose.Cells. يرجى استخدام الـ [**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap-java.lang.String-int-int-java.lang.String-) لهذا الغرض.
 
 ## **ربط الخلايا بعناصر خريطة XML**
 
@@ -20,3 +20,4 @@ url: /ar/java/link-cells-to-xml-map-elements/
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LinkCellstoXmlMapElements-LinkCellstoXmlMapElements.java" >}}
+{{< app/cells/assistant language="java" >}}

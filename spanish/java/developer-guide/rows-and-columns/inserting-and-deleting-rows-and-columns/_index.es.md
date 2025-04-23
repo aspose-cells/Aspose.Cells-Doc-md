@@ -22,47 +22,47 @@ Cuando se agregan filas o columnas, el contenido de la hoja de cálculo se despl
 
 {{% /alert %}} 
 ## **Cómo insertar una fila**
-Inserte una fila en cualquier ubicación llamando al método [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) de la colección [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). El método [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) toma el índice de la fila donde se insertará la nueva fila como primer argumento y el número de filas a insertar como segundo argumento.
+Insertar una fila en cualquier lugar llamando al método [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows-int-int-) de la colección [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). El método [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows-int-int-) acepta como primer argumento el índice de la fila donde se insertará la nueva fila y como segundo argumento la cantidad de filas a insertar.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-InsertingARow-InsertingARow.java" >}}
 ## **Cómo insertar múltiples filas**
-Para insertar varias filas en la hoja de cálculo, llame al método [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) de la colección [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). El método [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) toma dos parámetros:
+Para insertar varias filas en la hoja de cálculo, llame al método [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows-int-int-) de la colección [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). El método [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows-int-int-) acepta dos parámetros:
 
 - Índice de fila: el índice de la fila desde donde se insertarán las nuevas filas.
 - Número de filas: el número total de filas que se deben insertar.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-InsertingMultipleRows-InsertingMultipleRows.java" >}}
 ## **Cómo insertar una fila con formato**
-Para insertar una fila con opciones de formato, use la sobrecarga [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int,%20com.aspose.cells.InsertOptions\)) que toma [InsertOptions](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions) como parámetro. Establezca la propiedad [CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/insertoptions#CopyFormatType) de la clase [InsertOptions](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions) con la Enumeración [CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType). La Enumeración [CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType) tiene tres miembros como se indica a continuación.
+Para insertar una fila con opciones de formato, use la sobrecarga [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows-int-int-com.aspose.cells.InsertOptions-) que toma [InsertOptions](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions) como parámetro. Establezca la propiedad [CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/insertoptions#CopyFormatType) de la clase [InsertOptions](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions) con la Enumeración [CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType). La Enumeración [CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType) tiene tres miembros como se lista a continuación.
 
-- [SAME_AS_ABOVE](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_ABOVE): Formatea la fila igual que la fila anterior.
-- [SAME_AS_BELOW](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_BELOW): Formatea la fila igual que la fila siguiente.
+- [SAME_AS_ABOVE](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME-AS-ABOVE): Formatea la fila igual que la fila de arriba.
+- [SAME_AS_BELOW](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME-AS-BELOW): Formatea la fila igual que la fila de abajo.
 - [CLEAR](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#CLEAR): Borra el formato.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-InsertingARowWithFormatting-1.java" >}}
 ## **Cómo borrar una fila**
-Para borrar una fila en cualquier ubicación, llame al método [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) de la colección [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). El método [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) toma dos parámetros:
+Para eliminar una fila en cualquier ubicación, llame al método [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows-int-int-) de la colección [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). El método [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows-int-int-) toma dos parámetros:
 
 - Índice de fila: el índice de la fila desde donde se borrarán las filas.
 - Número de filas: el número total de filas que deben eliminarse.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-DeleteARow-DeleteARow.java" >}}
 ## **Cómo borrar múltiples filas**
-Para borrar varias filas de una hoja de cálculo, llame al método [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) de la colección [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). El método [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) toma dos parámetros:
+Para eliminar varias filas de una hoja de cálculo, llame al método [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows-int-int-) de la colección [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). El método [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows-int-int-) toma dos parámetros:
 
 - Índice de fila: el índice de la fila desde donde se borrarán las filas.
 - Número de filas: el número total de filas que deben eliminarse.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-DeleteMultipleRows-DeleteMultipleRows.java" >}}
 ## **Cómo insertar una o varias columnas**
-Los desarrolladores también pueden insertar una columna en la hoja de cálculo en cualquier ubicación llamando al método [insertColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertColumns\(int,%20int\)) de la colección [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). El método [insertColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertColumns\(int,%20int\)) toma dos parámetros:
+Los desarrolladores también pueden insertar una columna en la hoja de cálculo en cualquier ubicación llamando al método [insertColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertColumns-int-int-) de la colección [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). El método [insertColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertColumns-int-int-) toma dos parámetros:
 
 - Índice de la columna, el índice de la columna desde donde se insertará la columna
 - Número de columnas, el número total de columnas que deben ser insertadas
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-InsertingAColumn-InsertingAColumn.java" >}}
 ## **Cómo eliminar una columna**
-Para eliminar una columna de la hoja de cálculo en cualquier ubicación, llame al método [deleteColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteColumns\(int,%20int,%20boolean\)) de la colección [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). El método [deleteColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteColumns\(int,%20int,%20boolean\)) toma los siguientes parámetros:
+Para eliminar una columna de la hoja de cálculo en cualquier ubicación, llame al método [deleteColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteColumns-int-int-boolean-) de la colección [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). El método [deleteColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteColumns-int-int-boolean-) toma los siguientes parámetros:
 
 - Índice de la columna: el índice de la columna desde donde se eliminará la columna.
 - Número de columnas: el número total de columnas que deben ser eliminadas.
@@ -70,3 +70,4 @@ Para eliminar una columna de la hoja de cálculo en cualquier ubicación, llame 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-DeleteAColumn-DeleteAColumn.java" >}}
 
+{{< app/cells/assistant language="java" >}}

@@ -53,3 +53,4 @@ Aspose.Cells for .NET, 7.1.0 sürümünden beri çalışma sayfalarını SVG gö
 - [SVG Biçiminde Grafikleri Görüntüye Dönüştürme](/cells/tr/net/converting-chart-to-image-in-svg-format/)
 - [Görünüm Kutusu Özelliği ile Grafiksel Bir Ortama Tabloyu Dışa Aktarma](/cells/tr/net/export-chart-to-svg-with-viewbox-attribute/)
 - [Excel'den TIFF'e Dönüşüm İlerlemesini İzle](/cells/tr/net/track-conversion-progress-of-excel-to-tiff/)
+{{< app/cells/assistant language="csharp" >}}

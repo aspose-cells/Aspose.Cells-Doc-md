@@ -16,3 +16,4 @@ url: /ar/net/generate-conditional-formatting-databars-images/
 يُنشئ الشفرة النموذجية التالية صورة DataBar للخلية C1. أولاً، يصل إلى كائن شرط التنسيق للخلية، ومن ثم من ذلك الكائن، يصل إلى الكائن [**DataBar**](https://reference.aspose.com/cells/net/aspose.cells/databar) ويستخدم طريقة [**ToImage()**](https://reference.aspose.com/cells/net/aspose.cells/databar/methods/toimage) لإنشاء صورة الخلية. في النهاية، يقوم بحفظ الصورة على القرص.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageConditionalFormatting-GenerateDatabarImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

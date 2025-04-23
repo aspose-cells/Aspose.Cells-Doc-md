@@ -11,7 +11,7 @@ url: /es/java/copy-range-data-with-style/
 
 {{% /alert %}} 
 ## **Copiar datos de rango con estilo**
-Aspose.Cells proporciona una variedad de clases y métodos para trabajar con rangos, por ejemplo, [createRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\)), [StyleFlag](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag), [applyStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#applyStyle\(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag\)), etc.
+Aspose.Cells proporciona una variedad de clases y métodos para trabajar con rangos, por ejemplo, [createRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-), [StyleFlag](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag), [applyStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-), etc.
 
 Este ejemplo:
 
@@ -25,3 +25,4 @@ Este ejemplo:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyRangeDataWithStyle-CopyRangeDataWithStyle.java" >}}
 
+{{< app/cells/assistant language="java" >}}

@@ -66,3 +66,4 @@ public static void OpenSpreadsheetDocumentReadonly(string filepath)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
 ## **Codice di Esempio**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/Aspose.Cells%20VS%20OpenXML/Open%20read-only%20access)
+{{< app/cells/assistant language="csharp" >}}

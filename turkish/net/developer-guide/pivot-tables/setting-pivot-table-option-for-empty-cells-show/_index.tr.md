@@ -29,3 +29,4 @@ Aspose.Cells, "Boş hücreler için göster" pivot tablo seçeneğini ayarlamak 
 ## İlgili Makaleler
 
 - [Pivot Tablosu Biçimlendirme](/cells/tr/net/formatting-pivot-table/)
+{{< app/cells/assistant language="csharp" >}}

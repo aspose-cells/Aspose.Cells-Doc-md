@@ -34,3 +34,4 @@ Hier ist die Konsolenausgabe des obigen Beispielcodes.
 Orange
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

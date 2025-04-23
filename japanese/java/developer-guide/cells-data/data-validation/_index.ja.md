@@ -49,16 +49,16 @@ Aspose.Cellsでは、各[Worksheet](https://reference.aspose.com/cells/java/com.
 
 |**メンバー名**|**説明**|
 | :- | :- |
-|[ANY_VALUE](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#ANY_VALUE)|：すべてのタイプの値を示します。
-|[WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE_NUMBER)|：整数の検証タイプを示します。
+|[ANY_VALUE](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#ANY-VALUE)|任意の型の値を示します。|
+|[WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE-NUMBER)|整数値の検証タイプを示します。|
 |[DECIMAL](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#DECIMAL)|：10進数の検証タイプを示します。
 |[LIST](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#LIST)|：ドロップダウンリストの検証タイプを示します。
 |[DATE](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#DATE)|：日付の検証タイプを示します。
 |[TIME](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TIME)|：時間の検証タイプを示します。
-|[TEXT_LENGTH](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TEXT_LENGTH)|：テキストの長さの検証タイプを示します。
+|[TEXT_LENGTH](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TEXT-LENGTH)|テキストの長さの検証タイプを示します。|
 |[CUSTOM](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#CUSTOM)|：カスタム検証のタイプを示します。
 #### **プログラミングサンプル: 整数のデータ検証**
-このタイプの検証では、ユーザーは検証済みのセルに指定された範囲内の整数のみを入力できます。次に示すコード例は、[WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE_NUMBER)検証タイプを実装する方法を示しています。例では、Microsoft Excelを使用して作成したものと同じデータ検証をAspose.Cellsを使用して作成します。
+この種類の検証により、ユーザーは指定された範囲内の整数のみを入力可能にできます。以下の例は [WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE-NUMBER) 検証タイプの実装例です。この例では Microsoft Excel で作成したのと同じデータ検証を Aspose.Cells を使用して作成しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-WholeNumberDataValidation-WholeNumberDataValidation.java" >}}
 
@@ -99,7 +99,7 @@ Aspose.Cellsでは、各[Worksheet](https://reference.aspose.com/cells/java/com.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-TextLengthDataValidation-TextLengthDataValidation.java" >}}
 ## **データ検証ルール**
-データ検証が実装された場合、検証はセルに異なる値を割り当ててチェックできます。[Cell.GetValidationValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue\(\)) を使用して検証結果を取得できます。次の例は、異なる値でこの機能を実証しています。テスト用にサンプルファイルを以下のリンクからダウンロードできます:
+データバリデーションが実装されている場合、セルに異なる値を割り当てて検証を確認できます。[Cell.GetValidationValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--)を使用して検証結果を取得できます。以下の例は、異なる値を使ったこの機能のデモです。テスト用のサンプルファイルは以下のリンクからダウンロード可能です。
 
 [SampleDataValidationRules.xlsx](77987849.xlsx)
 
@@ -113,9 +113,9 @@ Aspose.Cellsでは、各[Worksheet](https://reference.aspose.com/cells/java/com.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-CheckIfValidationInCellDropDown-1.java" >}}
 ## **既存の検証にCellAreaを追加**
-既存の[Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation) に[CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) を追加したい場合があります。[Validation.AddArea(CellArea cellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea\)) を使用して[CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) を追加すると、Aspose.Cells は新しいエリアを既存のエリアとチェックします。ファイルに多数の検証がある場合、パフォーマンスに影響します。これを克服するために、API は[Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) メソッドを提供しています。*checkIntersection* パラメータは、既存の検証エリアとの交差をチェックするかどうかを示します。これを**false**に設定すると、他のエリアのチェックが無効になります。*checkEdge* パラメータは、適用されたエリアをチェックするかどうかを示します。新しいエリアが左上のエリアになる場合、内部設定が再構築されます。新しいエリアが左上のエリアでないことが確実な場合は、このパラメータを**false** に設定できます。
+既存の[Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation)に[CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)を追加したい場合があります。[Validation.AddArea(CellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea-com.aspose.cells.CellArea-)を使用すると、Aspose.Cellsは既存のエリアをすべて確認して、新しいエリアが既に存在しているかどうかを確認します。ファイルに大量のバリデーションがある場合、パフォーマンスに影響します。これを回避するために、APIは[Validation.AddAreaCellArea(cellArea, checkIntersection, checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea-com.aspose.cells.CellArea-boolean-boolean-)メソッドを提供します。*checkIntersection* パラメータは、指定したエリアと既存のバリデーションエリアの交差を確認するかどうかを示します。`false`に設定すると、他のエリアの確認が無効になります。 *checkEdge* パラメータは、適用済みのエリアを確認するかどうかを示します。新しいエリアが左上のエリアになる場合、内部設定が再構築されます。新しいエリアが左上のエリアでないと確信している場合は、このパラメータを *false* に設定できます。
 
-[Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) メソッドを使用して既存の[Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation) に新しい[CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) を追加する方法を示す次のコードスニペット:
+以下のコードスニペットは、[Validation.AddAreaCellArea](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea-com.aspose.cells.CellArea-boolean-boolean-) メソッドを使用して、既存の[Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation)に新しい[CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)を追加する例です。
 
 
 
@@ -132,3 +132,4 @@ Aspose.Cellsでは、各[Worksheet](https://reference.aspose.com/cells/java/com.
 - [ODS ファイルでのセル検証を取得](/cells/ja/java/get-cell-validation-in-ods-files/)
 - [セルに適用された検証を取得する](/cells/ja/java/get-validation-applied-on-a-cell/)
 - [セルの値がデータ検証ルールを満たすかどうかを確認する](/cells/ja/java/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="java" >}}

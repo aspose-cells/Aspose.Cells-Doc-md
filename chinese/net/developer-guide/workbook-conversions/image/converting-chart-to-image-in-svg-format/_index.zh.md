@@ -20,3 +20,4 @@ Aspose.Cells可以将图表保存为BMP、JPEG、PNG、GIF、SVG等多种格式�
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-ConvertChartToSvgImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

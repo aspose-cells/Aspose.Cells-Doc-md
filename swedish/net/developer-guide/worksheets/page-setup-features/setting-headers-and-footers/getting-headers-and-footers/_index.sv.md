@@ -44,3 +44,4 @@ Aspose.Cells för .Net tillhandahåller [**Worksheet.PageSetup.GetCommands**](ht
 Följande koder visar hur man parsa sidhuvud eller sidfot som kommandolista och bearbeta kommandon:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Parses-Header-Footer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

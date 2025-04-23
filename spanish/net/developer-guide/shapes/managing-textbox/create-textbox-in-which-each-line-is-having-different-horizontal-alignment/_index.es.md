@@ -14,3 +14,4 @@ Puede establecer la alineación horizontal de su texto de párrafo usando la pro
 El siguiente código de muestra crea tres líneas y establece la alineación horizontal de cada una de ellas
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateTextBoxWithDifferentHorizontalAlignment-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -26,3 +26,4 @@ Unten ist die Konsolenausgabe des obigen Codes unter Verwendung der [Beispiel-Ex
 Is VBA Code Project Signed: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

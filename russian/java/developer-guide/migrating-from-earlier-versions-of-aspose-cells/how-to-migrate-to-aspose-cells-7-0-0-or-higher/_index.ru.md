@@ -42,3 +42,4 @@ Worksheets.size() (старое) -> WorksheetCollection.getCount() (новое),
 
 4) Методы-получатели логических свойств в версии 2.5.4 или ранее, имена которых начинаются с 'is', изменены. В версии 7.0.0 они начинаются с "get":
 например, PageSetup.isBlackAndWhite() (старое) -> PageSetup.getBlackAndWhite() (новое), ...и т.д.
+{{< app/cells/assistant language="java" >}}

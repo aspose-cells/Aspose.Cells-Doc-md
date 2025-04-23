@@ -13,3 +13,4 @@ Le code d'exemple suivant charge le [fichier Excel d'exemple](67338479.xlsx) qui
 ![todo:image_alt_text](rendering-slicer_1)
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-RenderingSlicer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

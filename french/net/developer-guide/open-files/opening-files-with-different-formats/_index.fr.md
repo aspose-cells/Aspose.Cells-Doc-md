@@ -86,3 +86,4 @@ Le fichier FODS est une feuille de calcul enregistrée au format OpenDocument XM
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFODSFiles-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

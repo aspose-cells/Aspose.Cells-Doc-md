@@ -18,3 +18,4 @@ Aspose.Cells提供了一个[**DataLabels.IsTextWrapped**](https://reference.aspo
 下面的代码示例显示了如何禁用图表数据标签的文字换行。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-DisableTextWrappingForDataLabels-DisableTextWrappingForDataLabels.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

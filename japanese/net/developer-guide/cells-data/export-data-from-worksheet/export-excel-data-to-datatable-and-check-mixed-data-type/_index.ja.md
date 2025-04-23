@@ -38,3 +38,4 @@ Column4 = System.Double
 Column5 = System.String
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

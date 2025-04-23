@@ -3,8 +3,8 @@ title: Arbetsboks vy
 type: docs
 weight: 40
 url: /sv/python-net/worksheet-views/
-description: Denna artikel kommer att beskriva hur man använder Aspose.Cells för Python via .NET API för att interagera med sidbrytningsförhandsgranskningen av en Excel arbetsbok och kalkylblad. Arbeta med delade fönster, fastfrusna fönster och zoom faktor. 
-keywords: Python Excel bibliotek, Python hur man ställer in sidbrytningsöversikt, Python hur man aktiverar normal vy, Python hur man ställer in zoomfaktor, Python hur man fryser rutor, Python hur man delar rutor, Python hur man tar bort rutor.
+description: Den här artikeln beskriver hur man använder Aspose.Cells för Python via .NET API för att interagera med utskriftsavsnitts och kalkylbladsgränssnittet i ett Excel arbetsbok och kalkylblad. Hantera delade fanor, låsta fönster och zoomfaktor också. 
+keywords: Python Excel bibliotek, Python hur man ställer in sidbrytarpreview, Python hur man aktiverar Normalvy, Python hur man ställer in zoomfaktor, Python hur man låser fönster, Python hur man delar fönster, Python hur man tar bort fönster.
 ---
 
 ## **Sidbrytning Förhandsgranskning**
@@ -14,11 +14,11 @@ Alla arbetsblad kan visas i två lägen:
 - Normal vy.
 - Sidbrytningsvy.
 
-Normal view är ett kalkylblads standardvy. Sidbrytningsgranskning är en redigeringsvy som visar ett kalkylblad som det kommer att skrivas ut. Sidbrytningsgranskning visar vilka data som kommer att placeras på varje sida så att du kan justera utskriftsområdet och sidbrytningarna. Med hjälp av Aspose.Cells för Python via .NET-utvecklare kan du aktivera normal vy eller sidbrytningsvy.
+Normalvy är ett kalkylblads standardvyn. Sida-brytapiesturn är en redigeringsvy som visar ett kalkylblad så som det kommer att skrivas ut. Sida-brytapiesturn visar vilken data som kommer att hamna på varje sida så att du kan justera utskriftsområdet och sidbrytningar. Med Aspose.Cells för Python via .NET kan utvecklare aktivera normalvy eller sida-brytvyer.
 
 ### **Styra vynlägen**
 
-Aspose.Cells för Python via .NET tillhandahåller en [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)-klass som representerar en Microsoft Excel-fil. Klassen [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) innehåller en [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets)-samling som möjliggör åtkomst till varje kalkylblad i en Excel-fil.
+Aspose.Cells för Python via .NET tillhandahåller en [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) klass som representerar en Microsoft Excel-fil. [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) klassen innehåller en [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) samling som ger tillgång till varje kalkylblad i en Excel-fil.
 
 Ett arbetsblad representeras av klassen [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet). Klassen [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) tillhandahåller ett brett utbud av egenskaper och metoder för att hantera arbetsblad. För att aktivera normal vy eller sidbrytningsvy används [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)-klassens [**is_page_break_preview**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_page_break_preview)-egenskap. [**is_page_break_preview**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_page_break_preview) är en boolesk egenskap, vilket innebär att den bara kan lagra ett värde **true** eller **false**.
 
@@ -69,10 +69,10 @@ Aspose.Cells tillhandahåller en [**Workbook**](https://reference.aspose.com/cel
 
 Ett arbetsblad representeras av [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) klassen. [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) klassen tillhandahåller ett brett utbud av egenskaper och metoder för att hantera arbetsblad. För att konfigurera frysrutor kallar man på [**freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#int-int-int-int) metoden i Worksheet-klassen. [**freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#int-int-int-int) metoden tar följande parametrar:
 
-- **rad**, radindex för cellen där frysen börjar.
-- **kolumn**, kolumnindex för cellen där frysen börjar.
-- **frusna_rader**, antalet synliga rader i det övre fönstret.
-- **frusna_kolumner**, antalet synliga kolumner i det vänstra fönstret.
+- **row**, radindex för cellen där fryset börjar.
+- **column**, kolumnindex för cellen där fryset börjar.
+- **frozen_rows**, antalet synliga rader i den övre panelen.
+- **frozen_columns**, antalet synliga kolumner i den vänstra panelen
 
 book1.xls-filen öppnas genom att man kallar på konstruktorn till [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)-klassen medan man instansierar den och några rader och kolumner frysas i det första arbetsbladet. Den modifierade filen sparas som output.xls.
 

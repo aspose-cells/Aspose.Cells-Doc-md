@@ -53,3 +53,4 @@ Aspose.Cellsは、Microsoft Excelファイルを表す[**Workbook**](https://ref
 また、複数の行と列を表示するために[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)クラスの[**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows)および[**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns)メソッドを使用することもできます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -811,3 +811,4 @@ Il foglio di calcolo aperto viene convertito nel formato specificato dall'utente
 
 
 
+{{< app/cells/assistant language="java" >}}

@@ -21,3 +21,4 @@ Der folgende Codeausschnitt zeigt, wie die Legende verwaltet wird:
 
 ## **Erweiterte Themen**
 - [Setzen Sie den Text des Fülls des Diagrammlegendeneintrags auf keinen mithilfe von Aspose.Cells](/cells/de/java/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

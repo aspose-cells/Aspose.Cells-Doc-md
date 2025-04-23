@@ -46,7 +46,7 @@ Du kan använda följande metod för att infoga en linje i kalkylarket.
 
 {{% alert color="primary" %}}
 
-[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)
 
 Metoden returnerar en [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-objekt.
 
@@ -80,7 +80,7 @@ Du kan använda följande metod för att infoga en linjepil i kalkylarket.
 
 {{% alert color="primary" %}}
 
-[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)
 
 Metoden returnerar en [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-objekt.
 
@@ -114,7 +114,7 @@ Du kan använda följande metod för att infoga en rektangel i kalkylarket.
 
 {{% alert color="primary" %}}
 
-[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)
 
 Metoden returnerar en [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-objekt.
 
@@ -148,7 +148,7 @@ Du kan använda följande metod för att infoga en kub i kalkylarket.
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Metoden returnerar en [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-objekt.
 
@@ -182,7 +182,7 @@ Du kan använda följande metod för att infoga återuppringningspilar i kalkyla
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Metoden returnerar en [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-objekt.
 
@@ -216,7 +216,7 @@ Du kan använda följande metod för att infoga ett multiplikationstecken i kalk
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Metoden returnerar en [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-objekt.
 
@@ -250,7 +250,7 @@ Du kan använda följande metod för att infoga ett multi-dokument i arbetsblade
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Metoden returnerar en [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-objekt.
 
@@ -284,7 +284,7 @@ Du kan använda följande metod för att infoga en Femuddig stjärna i arbetsbla
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Metoden returnerar en [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-objekt.
 
@@ -318,7 +318,7 @@ Du kan använda följande metod för att infoga en pratbubbla i arbetsbladet.
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Metoden returnerar en [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-objekt.
 
@@ -331,3 +331,4 @@ Följande exempel visar hur man infogar pratbubblan i ett arbetsblad.
 Exekvera ovanstående kod, kommer du att få följande resultat:
 
 ![](thought_bubble_cloud2.png)
+{{< app/cells/assistant language="java" >}}

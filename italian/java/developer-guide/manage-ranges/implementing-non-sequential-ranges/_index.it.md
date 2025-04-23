@@ -12,3 +12,4 @@ Normalmente, [named ranges](/cells/it/java/named-ranges/) sono rettangolari con 
 L'esempio di codice sottostante mostra come creare un intervallo denominato non sequenziale con Aspose.Cells for Java.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ImplementingNonSequentialRanges-ImplementingNonSequentialRanges.java" >}}
+{{< app/cells/assistant language="java" >}}

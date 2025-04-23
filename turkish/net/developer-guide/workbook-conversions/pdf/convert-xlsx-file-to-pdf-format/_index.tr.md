@@ -49,3 +49,4 @@ Aşağıdaki ekran görüntüleri, PDF sayfalarını göstermektedir. Başlık v
 |İlk çalışma sayfası **(Satış Tahmini)**|İkinci çalışma sayfası **(Satış Raporu)**|
 |![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted3.png)|![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted4.png)|
 |Üçüncü çalışma sayfası **(Veri Girişi)**|Son çalışma sayfası **(Resim)**|
+{{< app/cells/assistant language="csharp" >}}

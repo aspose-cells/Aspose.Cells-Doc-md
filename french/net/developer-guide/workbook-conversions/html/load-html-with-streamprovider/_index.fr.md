@@ -20,3 +20,4 @@ Il s'agit du code principal montrant l'utilisation de la propriété [HtmlLoadOp
 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Load-Html-With-StreamProvider.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

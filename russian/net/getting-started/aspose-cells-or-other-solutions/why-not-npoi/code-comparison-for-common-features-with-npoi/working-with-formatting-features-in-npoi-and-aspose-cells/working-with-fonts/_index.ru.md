@@ -102,3 +102,4 @@ sw.Close();
 Для получения дополнительной информации посетите [Особенности форматирования данных](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

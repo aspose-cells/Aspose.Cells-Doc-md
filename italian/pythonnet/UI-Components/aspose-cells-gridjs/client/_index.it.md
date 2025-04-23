@@ -3,7 +3,16 @@ title: Lavorare con GridJs lato client
 type: docs
 weight: 250
 url: /it/python-net/aspose-cells-gridjs/client/
-keywords: personalizzato,logo,impostazione,api,gridjs,python,modifica,foglio elettronico,visualizzazione,visualizzatore,editor,excel
+keywords: GrigliaJs,personalizzato,logo,impostazioni,api,gridjs,python,modifica,foglio di calcolo,visualizzazione,visualizzatore,editor,excel,api js,api client
+description: Questo articolo introduce le API o le funzioni JavaScript client in GridJs.
+aliases:
+  - /python-net/aspose-cells-gridjs/how-to-use-gridjs-client-api/
+  - /python-net/aspose-cells-gridjs/work-with-client-api/
+  - /python-net/aspose-cells-gridjs/use-js-api/
+  - /python-net/aspose-cells-gridjs/gridjs-spreadsheet-api/
+  - /python-net/aspose-cells-gridjs/client-api/
+  - /python-net/aspose-cells-gridjs/js-api/
+  - /python-net/aspose-cells-gridjs/javascript-api/
 ---
 
 # Lavorare con GridJs Client Side
@@ -16,24 +25,10 @@ Abbiamo sviluppato GridJs client basato su [x-spreadsheet](https://github.com/my
 xs = x_spreadsheet(id, options)
     // the parameters are:
     id:the html node id ,for example :'#gridjs-demo' for the html  <div id="gridjs-demo"></div>
-    options:the load options,
-     // the parameters for options:
-	    updateMode:  currently we only support 'server'
-	    updateUrl:  set the server side  url for update action based on json
-	    mode: read means readonly spread sheet/edit means we can edit the spread sheet
-            allowSelectTextInTextBoxInReadMode: whether allow select text in TextBox control when in read mode,the default value is false
-	    showToolbar:   means whether to show toolbar
-	    showFileName:  whether to show the filename 
-	    local:         support multiple language for menus ,the locale can be:
-	                        en, cn, es, pt, de, ru, nl, 
-	                   for  English,Chinese,Spanish,Portuguese,German,Russian,Dutch
-			        ar, fr,id,it,ja
-                           for  Arabic,French,Indonesian,Italian,Japanese
-			        ko,th,tr,vi,cht
-                           for  Korean,Thai,Turkey,Vietnamese,Traditional Chinese                  
-	    showContextmenu:   means whether to show contextmenu on right click on a cell
-            loadingGif:  the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
-	for example the below code init a x_spreadsheet object.
+    options: the load options
+
+
+for example the below code init a gridjs_spreadsheet object.
 	xs = x_spreadsheet('#gridjs-demo', {
 			updateMode:'server',
 			updateUrl:'/GridJs2/UpdateCell',
@@ -43,6 +38,26 @@ xs = x_spreadsheet(id, options)
 			showContextmenu: true
 			})
 ```
+parametri per le opzioni di caricamento:
+
+| Parametro | Descrizione | Valore Predefinito | Opzionale |
+| --- | --- | --- | --- |
+| `allowSelectTextInTextBoxInReadMode` | Consente di selezionare il testo nei controlli TextBox in modalità lettura.<br>Il valore predefinito è false. | `false` | Sì |
+| `checkSyntax` | Controlla la sintassi e corregge l’ortografia per l’input dell’utente nei contenuti di testo.<br>Funziona con setSyntaxCheckUrl.<br>Il valore predefinito è false. | `false` | Sì |
+| `loadingGif` | URL GIF di caricamento durante il caricamento di immagini/forme.<br>Il valore predefinito è content/img/updating.gif. | `content/img/updating.gif` | Sì |
+| `local` | Imposta le informazioni di localizzazione per menu e barre degli strumenti, supportando più lingue.<br>Valori possibili includono:<br>- `en, zh, es, pt, de, ru, nl` (per inglese, cinese, spagnolo, portoghese, tedesco, russo, olandese)<br>- `ar, fr, id, it, ja` (per arabo, francese, indonesiano, italiano, giapponese)<br>- `ko, th, tr, vi, cht` (per coreano, thailandese, turco, vietnamita, cinese tradizionale) | `en` | Sì |
+| `mode` | Può essere `read` o `edit`; `read` significa un foglio di lavoro in sola lettura; `edit` significa che può essere modificato. | Nessuno | No |
+| `searchHighlightColor` | Colore di sfondo evidenziato per il termine di ricerca.<br>Il colore deve includere un canale alpha per la trasparenza. | `#dbe71338` | Sì |
+| `showCheckSyntaxButton` | Mostrare i pulsanti di verifica sintassi e correzione ortografica nella barra degli strumenti.<br>Il valore predefinito è false. | `false` | Sì |
+| `showContextmenu` | Mostrare il menu contestuale al clic destro su una cella.<br>Il valore predefinito è true. | `true` | Sì |
+| `showFileName` | Mostrare il nome del file. | `true` | Sì |
+| `showFormulaExplain` | Se mostrare le spiegazioni della formula applicate a questa cella quando il mouse passa sopra.<br>Funziona insieme a setFormulaExplainUrl.<br>Il valore predefinito è false. | `false` | Sì |
+| `showFormulaTip` | Se mostrare la formula esistente applicata a questa cella quando il mouse passa sopra.<br>Il valore predefinito è false. | `false` | Sì |
+| `showNonEditableSymbolInCell` | Se mostrare un simbolo non modificabile lato client nella cella.<br>Se impostato su true, dopo aver cliccato sul menu contestuale destro "Disabilita modifica", l'area selezionata che disabilita la modifica mostrerà il simbolo.<br>Il valore predefinito è false. | `false` | Sì |
+| `showToolbar` | Se mostrare la barra degli strumenti. | `true` | Sì |
+| `updateMode` | Attualmente supporta solo `server`. | `server` | No |
+| `updateUrl` | Imposta l'URL lato server per le azioni di aggiornamento basate su JSON. | Nessuno | No |
+| `view` | Imposta la dimensione visuale del foglio, ad esempio `{width: () => 1000, height: ()=> 500}`. | `{width: () => document.documentElement.clientWidth, height: () => document.documentElement.clientHeight }` | Sì |
 
 -  carica con dati json
 ```javascript
@@ -69,6 +84,26 @@ xs.setActiveCell(row,col);
 // the parameters are:
 	row: the cell row
 	col: the cell column
+```
+
+- impostare attivo per più istanze 
+```javascript
+xs.setActiveForMultipleInstance(isacitve);
+// the parameters are:
+	isacitve: whether need to do edit operation at this xs instanse 
+// when there are more than one GridJs instances in one page, we need to call this method.
+// we only support do edit operation for one instances at a page.
+// for example,if we have two instances: xs1 and xs2 in one html page.
+// if we need to keep edit operation in xs1,
+// we shall call:
+xs1.setActiveForMultipleInstance(true);
+xs2.setActiveForMultipleInstance(false);
+
+// if we need not do any edit operation for both,
+// we shall call:
+xs1.setActiveForMultipleInstance(false);
+xs2.setActiveForMultipleInstance(false);
+
 ```
 
 - imposta info per l'operazione di shape/immagini per l'azione lato server
@@ -110,6 +145,25 @@ xs.setOleDownloadInfo(oleActionUrl);
             const oleDownloadUrl = "/GridJs2/Ole";
             xs.setOleDownloadInfo(oleDownloadUrl);
 ```
+- impostare informazioni per verifiche di sintassi & correzione ortografica per azione lato server
+```javascript
+xs.setSyntaxCheckUrl(checkUrl);
+// the parameters are:
+	checkUrl: the  syntax checking & spell correction operation action URL in the server side controller
+    for example: 
+            const checkurl = "/GridJs2/CheckSyntax";
+            xs.setSyntaxCheckUrl(checkurl);
+```
+
+- impostare informazioni per spiegazione formula per azione lato server
+```javascript
+xs.setFormulaExplainUrl(formulaExplainUrl);
+// the parameters are:
+	formulaExplainUrl: the  formula explanation  action URL in the server side controller
+    for example: 
+            const formulaExplainUrl = "/GridJs2/FormulaExplain";
+            xs.setFormulaExplainUrl(formulaExplainUrl);
+```
 
 
 ___
@@ -138,6 +192,18 @@ xs.setFileName(name)
 	name:the file name with extension ,for example trip.xlsx
 ```
 
+- Funzione di callback per la funzionalità di invio email.
+```javascript
+xs.setEmailSendCallFunction(callback)
+// the parameters is:
+	callback: the callback function to handle email sending, receives a mailObj parameter
+		callback: function(mailObj) {
+			// mailObj properties:
+			// mailObj.receiver: the email address of the receiver, e.g., 'example@gmail.com'
+			// mailObj.type: the format of the file to be sent, can be 'html', 'xlsx', or 'pdf'
+		}
+```
+
 -   se abilitare l'evento tasto finestra per GridJs
 ```javascript
 xs.enableKeyEvent(isenable)
@@ -154,7 +220,8 @@ xs.destroy()
 
 -  impostare filtro visibile per immagine/shape
 ```javascript
-    // need to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
+xs.setVisibleFilter((sheet,s) =>{})
+    //  to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
 	sheet:the sheet instance
 	s:the image or shape instance
     for example: 
@@ -165,15 +232,37 @@ xs.destroy()
 	//this will make invisible for image/shape in all sheets 
 		xs.setVisibleFilter((sheet,s) => {  return false; })
 	//if all the image/shape is already loaded and you want to change the visible filter at runtime,you can call the below code to trigger a reload for image/shape
-		xs.setActiveSheet(xs.getActiveSheet())
+		xs.reRender()
 ```
 
 - Ottieni l'immagine/forma selezionata, se nulla selezionata restituirà null
 ```javascript
 xs.sheet.selector.getObj()
 ```
+- Mostrare o nascondere un nodo HTML in una posizione cella specificata
+```javascript
+xs.sheet.showHtmlAtCell(isShow, html, ri, ci, deltaX, deltaY)
 
-- Imposta lo stato selezionabile per l'immagine/forma 
+    //the parameters are:
+    // - isShow: Boolean value indicating whether to show or hide the HTML content.
+    // - html: The HTML string to be displayed.
+    // - ri: Row index of the target cell.
+    // - ci: Column index of the target cell.
+    // - deltaX: (Optional) Relative X-position adjustment from the top-left corner of the cell.
+    // - deltaY: (Optional) Relative Y-position adjustment from the top-left corner of the cell.
+
+    // Example usage:
+    // Show HTML at cell A1
+    xs.sheet.showHtmlAtCell(true, "<span>html span</span><input length='30' id='myinput'>test</input>", 0, 0);
+
+    // Hide the HTML node
+    xs.sheet.showHtmlAtCell(false);
+
+    // Note: When an HTML node is shown, the default GridJS event handling is disabled to allow interaction with the HTML content.
+    // This means you cannot select any cells or perform edit operations until the HTML node is hidden.
+```
+
+- Imposta lo stato selezionabile per immagine/forma 
 ```javascript
 const shape=xs.sheet.selector.getObj();
 shape.setControlable(isenable)
@@ -328,8 +417,8 @@ xs.sheet.data.rows.sumHeight(min,max)
 xs.sheet.data.displayRight2Left
 ```
 
-## richiamo dell'evento
-- possiamo tracciare i seguenti eventi
+## Richiamata dell'evento
+- Possiamo tracciare gli eventi seguenti
 ```javascript
  xs.on('cell-selected', (cell, ri, ci) => {
                 console.log('cell selected:', cell, ', ri:', ri, ', ci:', ci);
@@ -348,13 +437,42 @@ xs.sheet.data.displayRight2Left
             }).on('sheet-loaded', (id,name) => {
                 console.log('sheet load finished:', id, ', name: ',name);
             }).on('cell-edited', (text, ri, ci) => {
+	        //just edit the cell
                 console.log('text:', text, ', ri: ', ri, ', ci:', ci);
+            }).on('cells-updated', (name, cells) => {
+	       //cell value got updated
+                console.log('cells updated for sheet name:', name);
+                cells.forEach((acell, index, array) => {
+                console.log('acell got updated:', acell);
+            })
+            }).on('cells-deleted', (range) => {
+                console.log('cells deleted :', range);
+            }).on('rows-deleted', (ri, n) => {
+                console.log('rows-deleted :', ri, ",size", n);
+
+            }).on('columns-deleted', (ci, n) => {
+                console.log('columns-deleted :', ci, ",size", n);
+
+            }).on('rows-inserted', (ri, n) => {
+                console.log('rows-inserted :', ri, ",size", n);
+
+            }).on('columns-inserted', (ci, n) => {
+                console.log('columns-inserted :', ci, ",size", n);
+
             });
 ```
+- Evento di Pre-Check
+  se ritorna false, l'operazione di inserimento/elimina non proseguirà.
+```javascript
+  xs.checkRowInsert = (ri, size) => { if (ri % 2 == 1) return true; else return false; };
+  xs.checkColumnInsert = (ci, size) => { if (ci % 2 == 1) return true; else return false; };
+  xs.checkRowDelete = (ri, size) => { if (ri % 2 == 1) return true; else return false; };
+  xs.checkColumnDelete = (ci, size) => { if (ci % 2 == 1) return true; else return false; };
+```
 
-## personalizzazione
+## Personalizzazione
 
-- imposta icona e link per la home
+- Imposta icona iniziale e link
 ```javascript
 xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
     // the parameters are:
@@ -363,16 +481,51 @@ xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
 	for example ,the below code will set the new logo and with link to google.com
 	xs.sheet.menubar.icon.setHomeIcon('https://forum.aspose.com/letter_avatar_proxy/v4/letter/y/3e96dc/45.png','https://www.google.com')
 ```
-- mostra la barra dei menu
+- Mostra la barra dei menu
 ```javascript
 xs.sheet.menubar.show()
 ```
 
-- nascondi la barra dei menu
+- Nascondi la barra dei menu
 ```javascript
 xs.sheet.menubar.hide()
 ```
 
+
+## API per l'oggetto TextBox
+TextBox è un tipo speciale di forma il cui tipo di proprietà è: "TextBox"
+ad esempio: il codice seguente mostrerà quale forma è la casella di testo
+
+```javascript
+for (let shape of xs.sheet.data.shapes) {
+    if (shape.type === 'TextBox') {
+        console.log(shape.id + ' is a textbox');
+    }
+}
+```
+
+- Cambia il colore di sfondo per l'oggetto casella di testo
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.setBackgroundColor('#FFFF00');
+```
+- Cambia automaticamente il colore di sfondo e il colore del testo per ottenere un effetto attivo visivo
+```javascript
+    setActiveEffect(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
+```
+
+- Nascondi/mostra il contenuto testuale nell'oggetto casella di testo
+```javascript
+    hideText(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
+```
 
 per informazioni dettagliate, puoi controllare l'esempio qui
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>

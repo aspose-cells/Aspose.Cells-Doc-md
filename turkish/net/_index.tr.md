@@ -75,3 +75,4 @@ Aspose.Cells for .NET, işletmenizin her gün kullandığı popüler elektronik 
 			</ul>
 	</div>
 </div>
+{{< app/cells/assistant language="csharp" >}}

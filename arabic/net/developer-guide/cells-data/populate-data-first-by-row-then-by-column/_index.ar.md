@@ -18,3 +18,4 @@ keywords: املأ البيانات أولاً حسب الصف ثم حسب ال�
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-PopulateDataEfficiently-PopulateDataFirstByRowThenColumns.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

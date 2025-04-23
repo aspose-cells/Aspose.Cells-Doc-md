@@ -14,3 +14,4 @@ Cette section comprend les sujets suivants
   - [Marqueurs d'image dans Aspose.Cells](/cells/fr/net/image-markers-in-aspose-cells/)
   - [Utiliser des types anonymes ou des objets personnalisés dans Aspose.Cells](/cells/fr/net/using-anonymous-types-or-custom-objects-in-aspose-cells/)
   - [Utiliser des objets imbriqués dans Aspose.Cells](/cells/fr/net/using-nested-objects-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

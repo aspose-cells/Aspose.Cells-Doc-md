@@ -18,3 +18,4 @@ Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](64716896.xlsx) mit ei
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-RotateTextWithShapeInsideWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

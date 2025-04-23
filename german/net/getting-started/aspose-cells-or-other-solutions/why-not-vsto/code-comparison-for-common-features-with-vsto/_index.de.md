@@ -32,3 +32,4 @@ Dieser Abschnitt hat folgende Themen:
 - [Daten in Arbeitsblättern sortieren](/cells/de/net/sort-data-in-worksheets/)
 - [Verwenden von Formelfunktionen zur Verarbeitung von Daten in VSTO und Aspose.Cells](/cells/de/net/use-formulas-functions-to-process-data-in-vsto-and-aspose-cells/)
 - [Zelltextumbruch in VSTO und Aspose.Cells](/cells/de/net/wrapping-cell-text-in-vsto-and-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

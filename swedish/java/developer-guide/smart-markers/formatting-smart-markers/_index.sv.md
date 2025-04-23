@@ -22,3 +22,4 @@ När du arbetar med Smart Markers för grupperingsdata, behöver du ibland lägg
 Detta exempel använder en [mallfil](template.xlsx) med några markörer i cellerna. När koden körs lägger Aspose.Cells till några anpassade etiketter till summeringsraderna för den grupperade datan.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-SmartMarkers-AddCustomLabels-1.java" >}}
+{{< app/cells/assistant language="java" >}}

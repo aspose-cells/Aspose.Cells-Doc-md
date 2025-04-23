@@ -24,3 +24,4 @@ Aspose.Cells提供了一系列用于处理范围的类和方法，例如 [**Cre
 1. 将第一个范围的带有格式的数据复制到第二个范围。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeDataWithStyle-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

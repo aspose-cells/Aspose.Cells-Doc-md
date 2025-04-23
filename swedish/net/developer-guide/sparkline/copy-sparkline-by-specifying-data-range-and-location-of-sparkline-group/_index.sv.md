@@ -22,3 +22,4 @@ För att kopiera en sparkline till andra celler i Microsoft Excel:
 Aspose.Cells tillhandahåller metoden SparklineCollection.Add(dataRange, row, column) för att ange ett sparkline grupps dataområde och plats. Det följande exempelkoden laddar den ursprungliga Excel-filen som visas ovan, sedan får åtkomst till den första sparklinegruppen och lägger till dataområden och platser i sparklinegruppen. Slutligen skriver den utdatafilen till disk som också visas i skärmdumpen ovan.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CopySparkline-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -39,3 +39,4 @@ Aspose.Cells for .Net 包含在工作表中查找最大范围的不同方法。
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Get-Max-Display-Range.cs" >}}
 
 这是 [源 Excel 文件](Book1.xlsx)。
+{{< app/cells/assistant language="csharp" >}}

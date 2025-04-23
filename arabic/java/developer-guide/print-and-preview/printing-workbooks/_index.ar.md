@@ -23,22 +23,23 @@ keywords: طباعة ورقات العمل، طباعة صفحات العمل، 
 
 ## طباعة ورقات العمل باستخدام Aspose.Cells
 
-توفر Aspose.Cells for Java طريقة [**toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) من الفئة [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender). من خلال استخدام الطريقة [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String))، يمكنك تحديد اسم الطابعة وكذلك اسم وظيفة الطباعة.
+توفر Aspose.Cells for Java طريقة [**toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-) من الفئة [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender). من خلال استخدام الطريقة [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-)، يمكنك تحديد اسم الطابعة وكذلك اسم وظيفة الطباعة.
 
 ## كود عينة
 
 ### طباعة صفحة العمل المحددة
 
-كود العينة التالي يوضح استخدام الطريقة [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) لطباعة ورقة عملك المحددة.
+كود العينة التالي يوضح استخدام الطريقة [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-) لطباعة ورقة عملك المحددة.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingSelectedWorksheet-PrintingSelectedWorksheet.java" >}}
 
 ### طباعة ورقة البيانات بأكملها
 
-يمكنك أيضًا استخدام الطريقة [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String)) لطباعة المصنف بأكمله. يوضح كود العينة التالي استخدام الطريقة [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String)) لطباعة المصنف بأكمله.
+يمكنك أيضًا استخدام الطريقة [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter-java.lang.String-) لطباعة المصنف بأكمله. يوضح كود العينة التالي استخدام الطريقة [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter-java.lang.String-) لطباعة المصنف بأكمله.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingWholeWorkbook-PrintingWholeWorkbook.java" >}}
 
 ## مقالات ذات صلة
 
 - [تحديد اسم المهمة أو المستند أثناء الطباعة باستخدام Aspose.Cells](/cells/ar/java/specify-job-or-document-name-while-printing-with-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

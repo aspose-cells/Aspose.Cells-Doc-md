@@ -26,3 +26,4 @@ url: /ar/java/resize-chart-s-data-label-shape-to-fit-text/
 يظهر الرسم البياني كما يلي بعد تنفيذ الشيفرة.
 
 ![todo:image_alt_text](resize-chart-s-data-label-shape-to-fit-text_3.png)
+{{< app/cells/assistant language="java" >}}

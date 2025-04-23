@@ -77,3 +77,4 @@ sheet.addMergedRegion(new CellRangeAddress(
 获取更多详细信息，请访问 [合并和取消合并单元格](/cells/zh/java/merging-and-unmerging-cells)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

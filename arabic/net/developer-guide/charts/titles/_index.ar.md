@@ -33,3 +33,4 @@ url: /ar/net/chart-and-axis-titles/
 
 ## **مواضيع متقدمة**
 - [قراءة عنوان الرسم البياني من ملف ODS](/cells/ar/net/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="csharp" >}}

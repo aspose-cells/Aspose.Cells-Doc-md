@@ -11,7 +11,7 @@ keywords: Cómo gestionar fechas y horas, sistema de fecha 1900, sistema de fech
 Las fechas y horas se almacenan en las celdas como números. Por lo tanto, los valores de las celdas que contienen fechas y horas son de tipo numérico. Un número que especifica una fecha y hora consta de los componentes de la fecha (parte entera) y la hora (parte fraccionaria). La propiedad Cell.DoubleValue devuelve este número.
 
 ## **Cómo mostrar fechas y horas en Aspose.Cells**
-Para mostrar un número como una fecha y hora, aplica el formato de fecha y hora requerido a una celda a través de la propiedad [Style.Number](https://reference.aspose.com/cells/net/aspose.cells/style/number/) o [Style.Custom](). La propiedad CellValue.DateTimeValue devuelve el objeto DateTime, que especifica la fecha y hora representadas por el número contenido en una celda.
+Para mostrar un número como una fecha y hora, aplique el formato de fecha y hora requerido a una celda vía la propiedad [Style.number](https://reference.aspose.com/cells/python-net/aspose.cells/style/number/) o [Style.Custom]() . La propiedad CellValue.DateTimeValue devuelve el objeto DateTime, que especifica la fecha y hora que representa el número contenido en una celda.
 <br>
 <image src="1.png" width="70%" />
 
@@ -19,7 +19,7 @@ Para mostrar un número como una fecha y hora, aplica el formato de fecha y hora
 MS-Excel almacena fechas como números que se llaman valores seriales. Un valor serial es un entero que representa el número de días transcurridos desde el primer día en el sistema de fecha. Excel admite los siguientes sistemas de fecha para los valores seriales:
 
 1. El sistema de fecha 1900. La primera fecha es el 1 de enero de 1900 y su valor serial es 1. La última fecha es el 31 de diciembre de 9999 y su valor serial es 2,958,465. Este sistema de fecha se utiliza en el libro de trabajo de forma predeterminada.
-1. El sistema de fecha 1904. La primera fecha es el 1 de enero de 1904 y su valor serial es 0. La última fecha es el 31 de diciembre de 9999 y su valor serial es 2,957,003. Para utilizar este sistema de fecha en el libro de trabajo, establece la propiedad [Workbook.Settings.Date1904](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/date1904/) en true.
+1. El sistema de fechas 1904. La primera fecha es el 1 de enero de 1904, y su valor serial es 0. La última fecha es el 31 de diciembre de 9999, y su valor serial es 2,957,003. Para utilizar este sistema de fechas en el libro de trabajo, configure la propiedad [**Workbook.settings.date1904**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/date1904/) a verdadero.
 
 
 Este ejemplo muestra que los valores seriales almacenados en la misma fecha en diferentes sistemas de fecha son diferentes.

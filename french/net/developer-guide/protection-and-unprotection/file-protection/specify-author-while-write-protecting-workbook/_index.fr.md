@@ -18,3 +18,4 @@ Le code d'exemple suivant explique l'utilisation de la propriété [**Workbook.S
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Worksheets-Security-SpecifyAuthorWhileWriteProtectingWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

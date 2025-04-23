@@ -11,3 +11,4 @@ Manchmal möchten Sie Smart Marker-Daten automatisch in andere Arbeitsblätter �
 Der folgende Beispielcode verfügt über eine Datenquelle mit 21 Datensätzen. Wir möchten nur 15 Datensätze in einem Arbeitsblatt anzeigen, dann werden die restlichen Datensätze automatisch in das zweite Arbeitsblatt verschoben. Bitte beachten Sie, dass das zweite Arbeitsblatt auch denselben Smart-Marker-Tag haben sollte, und Sie müssen die Methode [WorkbookDesigner.Process(sheetIndex, isPreserved)](https://reference.aspose.com/cells/net/aspose.cells.workbookdesigner/process/methods/2) für beide Blätter aufrufen. Bitte beachten Sie die [Ausgabedatei Excel](60489775.xlsx), die vom Code generiert wurde, als Referenz.
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-AutoPopulateSmartMarkerDataToOtherWorksheets.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

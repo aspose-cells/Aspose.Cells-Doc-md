@@ -11,3 +11,4 @@ url: /ru/java/render-office-add-ins-while-converting-excel-to-pdf/
 Следующий образец кода сохраняет [образец файла Excel](60489783.xlsx), содержащий офисные надстройки. Пожалуйста, ознакомьтесь с [выходным PDF, созданным с предыдущей версией, т.е. 17.11](60489781.pdf) и [выходным PDF, созданным с новой версией, т.е. 17.12 и более поздней](60489782.pdf). Выходной PDF предыдущей версии пустой, а выходной PDF новой версии показывает офисную надстройку.
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Rendering-RenderOfficeAdd_InsWhileConvertingExcelToPdf.java" >}}
+{{< app/cells/assistant language="java" >}}

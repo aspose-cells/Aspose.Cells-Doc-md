@@ -24,3 +24,4 @@ url: /ru/java/find-the-root-element-name-of-xml-map/
 Root Element Name Of Xml Map: MiscData
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

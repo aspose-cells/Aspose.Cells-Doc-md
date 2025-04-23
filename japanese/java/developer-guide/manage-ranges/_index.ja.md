@@ -79,3 +79,4 @@ Aspose.Cellsを使用すると、「Range.CurrentRegion」プロパティを使�
 - [名前付き範囲](/cells/ja/java/named-ranges/)
 - [範囲内のデータを検索および置換する](/cells/ja/java/search-and-replace-data-in-a-range/)
 
+{{< app/cells/assistant language="java" >}}

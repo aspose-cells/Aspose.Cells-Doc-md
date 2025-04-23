@@ -141,3 +141,4 @@ Följande exempel visar borttagning av kommentarer i kolumn A1 genom att ladda d
 Observera att genom att ta bort kommentaren med Aspose.Cells tas inte författaren bort automatiskt. Om du behöver ta bort författaren också, använd RemoveAt-metoden i [**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthorcollection) -klassen enligt exemplet ovan.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

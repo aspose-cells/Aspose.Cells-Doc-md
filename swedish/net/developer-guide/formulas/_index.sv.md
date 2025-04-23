@@ -11,7 +11,7 @@ keywords: Hur man beräknar formler i C#, formler och funktioner med C#, C# Hant
 
 ## **Introduktion**
 
-En av Microsoft Excels lockande funktioner är dess förmåga att bearbeta data med formler och funktioner. Microsoft Excel tillhandahåller en uppsättning inbyggda funktioner och formler som hjälper användare att snabbt utföra komplexa beräkningar. Aspose.Cells tillhandahåller också en stor uppsättning inbyggda funktioner och formler som hjälper utvecklare att beräkna värden enkelt. Aspose.Cells stödjer även tilläggsfunktioner. Dessutom stöder Aspose.Cells matris- och R1C1-formlar i Aspose.Cells.
+En av Microsoft Excels kraftfulla funktioner är dess möjlighet att bearbeta data med hjälp av formler och funktioner. Microsoft Excel ger ett set av inbyggda funktioner och formler som hjälper användare att snabbt utföra komplexa beräkningar. Aspose.Cells tillhandahåller också ett stort antal inbyggda funktioner och formler som hjälper utvecklare att enkelt beräkna värden. Aspose.Cells stöder också tilläggsfunktioner. Dessutom stöder Aspose.Cells array- och R1C1-formler.
 
 ## **Hur man Använder formler och funktioner**
 
@@ -88,3 +88,4 @@ Lägg till en formel med referensstil **R1C1** i en cell med klassens [**Cell**]
 - [Ange maximala rader för delad formel](/cells/sv/net/specify-maximum-rows-of-shared-formula/)
 - [Stödda Excel-funktioner](/cells/sv/net/supported-formula-functions/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -14,3 +14,4 @@ url: /ar/java/support-for-german-locale-in-named-range-formulae/
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-WorkbookSettings-SupportNamedRangeFormulasInGermanLocale-1.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -32,3 +32,4 @@ Le code d'exemple suivant illustre comment spécifier les séparateurs personnal
 ![todo:image_alt_text](specify-custom-number-decimal-and-group-separators-for-workbook_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SpecifyingCustomSeparators-SpecifyingCustomSeparators.java" >}}
+{{< app/cells/assistant language="java" >}}

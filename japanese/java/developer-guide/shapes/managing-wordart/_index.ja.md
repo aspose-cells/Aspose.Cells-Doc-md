@@ -29,3 +29,4 @@ url: /ja/java/add-wordart-watermark-to-worksheet/
 - [ワードアートウォーターマークをグラフに追加する](/cells/ja/java/add-wordart-watermark-to-chart/)
 - [WordArtウォーターマークをロックする](/cells/ja/java/locking-wordart-watermark/)
 - [テキストのシェイプに組み込みのWordArtスタイルを設定する](/cells/ja/java/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="java" >}}

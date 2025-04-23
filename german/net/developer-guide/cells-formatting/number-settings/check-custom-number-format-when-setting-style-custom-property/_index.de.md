@@ -18,3 +18,4 @@ Der folgende Beispielcode weist der [**Style.Custom**](https://reference.aspose
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-CheckCustomFormatPattern.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

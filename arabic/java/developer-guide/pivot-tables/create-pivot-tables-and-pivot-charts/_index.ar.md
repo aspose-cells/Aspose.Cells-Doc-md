@@ -103,3 +103,4 @@ keywords: جدول excel create pivot table java، excel create pivot chart java
 - [تحديث وحساب الجدول الدوري الذي يحتوي على عناصر محسوبة](/cells/ar/java/refresh-and-calculate-pivot-table-having-calculated-items/)
 - [تعطيل شرائط الجدول المحوري](/cells/ar/java/disable-pivot-table-ribbons/)
 
+{{< app/cells/assistant language="java" >}}

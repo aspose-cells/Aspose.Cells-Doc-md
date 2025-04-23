@@ -34,3 +34,4 @@ Aspose.Cells для .Net предлагает широкий спектр защ
 - [Обнаружение формата файла зашифрованных файлов Office Open XML - OOXML](/cells/ru/net/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Шифрование файлов Excel](/cells/ru/net/encrypting-excel-files/)
 - [Как обнаружить формат файла и проверить, зашифрован ли файл](/cells/ru/net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="csharp" >}}

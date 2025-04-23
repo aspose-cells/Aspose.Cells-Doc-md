@@ -12,3 +12,4 @@ Denna sektion har följande ämnen:
 - [Smart markörer funktion](/cells/sv/net/smart-markers-feature/)
 - [Använda anonyma typer eller anpassade objekt](/cells/sv/net/using-anonymous-types-or-custom-objects/)
 - [Användning av inbäddade objekt](/cells/sv/net/using-nested-objects/)
+{{< app/cells/assistant language="csharp" >}}

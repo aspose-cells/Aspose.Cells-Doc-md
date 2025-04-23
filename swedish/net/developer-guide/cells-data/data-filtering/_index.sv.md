@@ -157,3 +157,4 @@ Excel erbjuder anpassade filter som filtrerar rader som slutar med en specifik s
 ## **Fortsatta ämnen**
 - [Tillämpa Avancerat Filter i Microsoft Excel för att Visa Poster som Uppfyller Komplexa Kriterier](/cells/sv/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Hämta alla dolda radindex efter uppdatering av autofilter](/cells/sv/net/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+{{< app/cells/assistant language="csharp" >}}

@@ -33,3 +33,4 @@ Skydda dokumentets äkthet, du kan lägga till en digital signatur.
 - [Hur man upptäcker ett filformat och kontrollerar om filen är krypterad](/cells/sv/java/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
 
 
+{{< app/cells/assistant language="java" >}}

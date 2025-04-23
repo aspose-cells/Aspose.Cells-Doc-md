@@ -31,3 +31,4 @@ El siguiente código realiza el trabajo real de buscar y extraer los objetos OLE
 Este artículo muestra cómo extraer objetos OLE de un libro de trabajo utilizando Aspose.Cells. Con suerte, le dará información que le permitirá utilizar estas opciones en sus propios escenarios.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -74,3 +74,4 @@ url: /ar/net/why-not-automation/
 
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

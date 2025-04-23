@@ -41,3 +41,4 @@ Le code exemple suivant montre comment utiliser [**Workbook.ImportXml()**](https
 - [Lier des cellules aux éléments de la carte XML](/cells/fr/net/link-cells-to-xml-map-elements/)
 - [Interroger les zones de cellules mappées sur le chemin de carte XML en utilisant la méthode XmlMapQuery de la feuille de calcul](/cells/fr/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 
+{{< app/cells/assistant language="csharp" >}}

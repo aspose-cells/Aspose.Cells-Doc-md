@@ -28,3 +28,4 @@ Aspose.Cells は今、HTML コードで箇条書きを表示する機能をサ�
 ## 関連記事
 
 - [セル内に HTML リッチテキストを追加](/cells/ja/java/adding-html-rich-text-inside-the-cell/)
+{{< app/cells/assistant language="java" >}}

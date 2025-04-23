@@ -62,3 +62,4 @@ Aşağıdaki örnek kod, [kaynak excel dosyasını](5115255.xlsx) yükler ve ça
 Bu, özel filtrenin çalışma sayfası adlarına göre nasıl kullanılacağının örneğidir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-CustomFilteringPerWorksheet-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

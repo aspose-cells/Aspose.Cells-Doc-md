@@ -25,3 +25,4 @@ url: /zh/java/detecting-empty-worksheets/
 可能某个给定的工作表没有填充单元格，但是它可能包含形状和对象，如控件、图表、图像等。如果我们需要检查工作表是否包含任何形状，可以通过检查 [ShapeCollection.Count](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#Count) 属性来进行。任何正值表示工作表中存在形状。
 ## **编程示例**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CheckForShapes-1.java" >}}
+{{< app/cells/assistant language="java" >}}

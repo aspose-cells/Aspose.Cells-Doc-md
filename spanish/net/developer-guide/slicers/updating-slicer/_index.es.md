@@ -20,3 +20,4 @@ El siguiente código de muestra carga el [archivo Excel de muestra](67338475.xls
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-UpdatingSlicer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

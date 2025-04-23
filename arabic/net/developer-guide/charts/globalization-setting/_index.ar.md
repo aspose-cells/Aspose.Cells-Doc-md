@@ -47,3 +47,4 @@ alias: [/net/how-to-set-globalization-configuration-for-chart/]
 - [كيفية تعيين المنطقة الصينية للرسم البياني](/cells/ar/net/convert-chart-to-image-for-chinese-region/)
 - [كيفية تعيين المنطقة اليابانية للرسم البياني](/cells/ar/net/convert-chart-to-image-for-japanese-region/)
 
+{{< app/cells/assistant language="csharp" >}}

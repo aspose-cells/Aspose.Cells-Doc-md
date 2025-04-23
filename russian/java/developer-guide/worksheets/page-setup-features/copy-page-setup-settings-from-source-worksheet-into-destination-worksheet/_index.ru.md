@@ -11,7 +11,7 @@ url: /ru/java/copy-page-setup-settings-from-source-worksheet-into-destination-wo
 
 ## **Копирование настроек страницы с исходного листа на целевой лист**
 
-Нижеприведенный образец кода показывает, как скопировать параметры Печати страницы с одного листа на другой с помощью метода [**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy(com.aspose.cells.PageSetup,%20com.aspose.cells.CopyOptions)). Пожалуйста, ознакомьтесь с приведенным ниже образцом кода и его выводом в консоли в качестве справки.
+Нижеприведенный образец кода показывает, как скопировать параметры Печати страницы с одного листа на другой с помощью метода [**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy-com.aspose.cells.PageSetup-com.aspose.cells.CopyOptions-). Пожалуйста, ознакомьтесь с приведенным ниже образцом кода и его выводом в консоли в качестве справки.
 
 ## **Образец кода**
 
@@ -30,3 +30,4 @@ After Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 After Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

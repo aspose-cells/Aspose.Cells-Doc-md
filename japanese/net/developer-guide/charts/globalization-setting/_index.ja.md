@@ -47,3 +47,4 @@ Excelでグラフが含まれるxlsxファイルを開くと、この場合、Ex
 - [チャートの中国地域を設定する方法](/cells/ja/net/convert-chart-to-image-for-chinese-region/)
 - [チャートの日本地域を設定する方法](/cells/ja/net/convert-chart-to-image-for-japanese-region/)
 
+{{< app/cells/assistant language="csharp" >}}

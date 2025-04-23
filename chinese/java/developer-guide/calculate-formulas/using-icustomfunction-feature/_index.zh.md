@@ -2,7 +2,9 @@
 title: 使用ICustomFunction功能
 type: docs
 weight: 890
-url: /zh/java/using-icustomfunction-feature/
+url: /zh/java/how-to-calculate-custom-fuctions/
+description: 本文描述了如何使用Aspose.Cells库中ICustomFunction功能在Microsoft Excel中创建自定义函数。通过加载现有的Excel文件或创建新的Excel文件，我们可以使用Aspose.Cells提供的方法定义和注册自定义函数并获取结果。最后，我们将修改后的Excel文件保存到磁盘。
+keywords: Aspose.Cells、Excel、ICustomFunction 功能、自定义函数、如何计算自定义函数。
 ---
 
 {{% alert color="primary" %}} 
@@ -203,3 +205,4 @@ workbook.save(dir + "UsingICustomFunction.xls");
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

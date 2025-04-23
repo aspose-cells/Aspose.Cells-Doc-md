@@ -20,3 +20,4 @@ Du kan skapa diagram-PDF med önskad sidstorlek med hjälp av Aspose.Cells och s
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Charts-CreateChartPDFWithDesiredPageSize.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

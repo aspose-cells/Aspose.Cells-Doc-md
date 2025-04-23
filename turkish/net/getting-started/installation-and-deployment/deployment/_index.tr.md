@@ -6,3 +6,4 @@ url: /tr/net/deployment/
 ---
 
 
+{{< app/cells/assistant language="csharp" >}}

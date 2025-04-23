@@ -29,3 +29,4 @@ url: /ja/net/add-activex-controls-using-aspose-cells/
 Aspose.Cellsを使用してToggle Button ActiveXコントロールを追加するサンプルコードは、次のとおりです。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddActiveXControls-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

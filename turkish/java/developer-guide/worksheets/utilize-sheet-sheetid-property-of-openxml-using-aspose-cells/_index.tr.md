@@ -26,3 +26,4 @@ Aşağıdaki örnek kod, [örnek Excel dosyasını](51740740.xlsx) yükler, Sa
 Sheet or Tab Id: 1297
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -22,3 +22,4 @@ url: /ru/net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
 Если электронная таблица содержит формулы, лучше всего вызвать [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) прямо перед ее рендерингом в PDF. Это гарантирует, что зависимые от формулы значения будут пересчитаны, и правильные значения будут отображены в выходном файле.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

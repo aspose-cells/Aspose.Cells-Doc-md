@@ -19,3 +19,4 @@ url: /ru/net/creating-sunburst-chart/
 Приведенный ниже образец кода загружает [образец файла Excel](sunburst.xlsx) и генерирует [выходной файл Excel](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-sunburst-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

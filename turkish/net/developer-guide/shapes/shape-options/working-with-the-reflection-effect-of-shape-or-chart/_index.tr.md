@@ -22,3 +22,4 @@ Aşağıdaki örnek kod, [kaynak excel dosyasını](5115424.xlsx) yükler ve var
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ReflectionEffectOfShape-ReflactionEffectOfShape.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

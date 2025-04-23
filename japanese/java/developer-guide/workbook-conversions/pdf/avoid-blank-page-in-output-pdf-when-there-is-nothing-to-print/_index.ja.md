@@ -34,3 +34,4 @@ Excelファイルが空で、そのファイルをAspose.CellsでPDFに保存す
 	at com.aspose.cells.Workbook.save(Unknown Source)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

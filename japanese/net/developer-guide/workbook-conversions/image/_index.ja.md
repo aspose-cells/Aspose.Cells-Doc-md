@@ -53,3 +53,4 @@ Aspose.Cells for .NETはバージョン7.1.0以降からワークブック内の
 - [SVG形式でチャートを画像に変換](/cells/ja/net/converting-chart-to-image-in-svg-format/)
 - [viewBox属性を使用してチャートをSVGにエクスポート](/cells/ja/net/export-chart-to-svg-with-viewbox-attribute/)
 - [ExcelからTIFFへの変換の進行状況を追跡](/cells/ja/net/track-conversion-progress-of-excel-to-tiff/)
+{{< app/cells/assistant language="csharp" >}}

@@ -103,3 +103,4 @@ Nous sommes à votre disposition pour toute question, commentaire ou suggestion 
 - [Actualiser et calculer un tableau croisé dynamique avec des éléments calculés](/cells/fr/java/refresh-and-calculate-pivot-table-having-calculated-items/)
 - [Désactiver les rubans du tableau croisé dynamique](/cells/fr/java/disable-pivot-table-ribbons/)
 
+{{< app/cells/assistant language="java" >}}

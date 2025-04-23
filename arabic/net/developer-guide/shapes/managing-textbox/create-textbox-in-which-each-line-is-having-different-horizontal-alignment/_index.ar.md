@@ -14,3 +14,4 @@ url: /ar/net/create-textbox-in-which-each-line-is-having-different-horizontal-al
 الكود النموذجي التالي ينشئ ثلاثة أسطر ويحدد محاذاة كل منها.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateTextBoxWithDifferentHorizontalAlignment-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

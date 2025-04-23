@@ -46,7 +46,7 @@ Nell'esempio seguente, viene applicata una formula complessa alla prima cella de
 
 Possiamo avere alcune formule definite dall'utente che vogliamo includere come add-in di Excel. Quando si imposta la funzione incorporata [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) le funzioni integrate funzionano bene, tuttavia c'è bisogno di impostare le funzioni o formule personalizzate utilizzando le funzioni di add-in.
 
-Aspose.Cells fornisce funzionalità per registrare le funzioni di add-in utilizzando [**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction(java.lang.String,%20java.lang.String,%20boolean)). In seguito, quando impostiamo [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) = anyFunctionFromAddIn, il file Excel di output contiene il valore calcolato dalla funzione AddIn.
+Aspose.Cells fornisce funzionalità per registrare le funzioni di add-in utilizzando [**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction-java.lang.String-java.lang.String-boolean-). In seguito, quando impostiamo [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) = anyFunctionFromAddIn, il file Excel di output contiene il valore calcolato dalla funzione AddIn.
 
 Il file XLAM seguente verrà scaricato per registrare la funzione di add-in nel codice di esempio sottostante. Allo stesso modo, il file di output "test_udf.xlsx" può essere scaricato per verificare l'output.
 
@@ -66,7 +66,7 @@ Le formule array sono formule che lavorano con array, invece di numeri individua
 
 Alcune funzioni di Microsoft Excel restituiscono array di valori. Per calcolare più risultati con una formula matriciale, inserisci l'array in un intervallo di celle con lo stesso numero di righe e colonne degli argomenti dell'array.
 
-È possibile applicare una formula array a una cella chiamando il metodo [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) della classe [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell). Il metodo [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) accetta i seguenti parametri:
+È possibile applicare una formula array a una cella chiamando il metodo [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula-java.lang.String-int-int-) della classe [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell). Il metodo [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula-java.lang.String-int-int-) accetta i seguenti parametri:
 
 - **Formula Matriciale**, la formula matriciale.
 - **Numero di righe**, il numero di righe per popolare il risultato della formula matriciale.
@@ -80,3 +80,4 @@ Applicare una formula di stile di riferimento **R1C1** a una cella con la propri
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingR1C1-1.java" >}}
 
+{{< app/cells/assistant language="java" >}}

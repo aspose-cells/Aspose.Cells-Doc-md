@@ -22,3 +22,4 @@ Le code d'exemple suivant charge le [fichier excel source](5115424.xlsx) et acc√
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ReflectionEffectOfShape-ReflactionEffectOfShape.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

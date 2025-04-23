@@ -9,3 +9,4 @@ url: /de/java/working-with-formatting-features-in-apache-poi-and-aspose-cells/
 - [Arbeiten mit Rahmen in Apache POI und Aspose.Cells](/cells/de/java/working-with-borders-in-apache-poi-and-aspose-cells/)
 - [Arbeiten mit Farben in Apache POI und Aspose.Cells](/cells/de/java/working-with-colors-in-apache-poi-and-aspose-cells/)
 - [Arbeiten mit Schriftarten in Apache POI und Aspose.Cells](/cells/de/java/working-with-fonts-in-apache-poi-and-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

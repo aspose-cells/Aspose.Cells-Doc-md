@@ -48,3 +48,4 @@ Det är väldigt enkelt att öppna ett lösenordsskyddat excelfil och avkryptera
 - [Ange författare vid skrivskydd av arbetsbok](/cells/sv/net/specify-author-while-write-protecting-workbook/)
 - [Verifiera lösenord för krypterade filer](/cells/sv/net/verify-password-of-encrypted-excel-and-ods-files/)
 
+{{< app/cells/assistant language="csharp" >}}

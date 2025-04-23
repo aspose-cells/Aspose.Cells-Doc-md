@@ -48,3 +48,4 @@ keywords: إدراج تعليقات، إدراج ملاحظات
 - [كيفية تعيين خلفية التعليق](/cells/ar/java/how-to-set-comment-background/)
 - [تعليقات متداخلة](/cells/ar/java/threaded-comments/)
 
+{{< app/cells/assistant language="java" >}}

@@ -66,3 +66,4 @@ Om du vill begränsa användare från att redigera celler måste cellerna vara l
 Det är möjligt att låsa celler med hjälp av Aspose.Cells API också. Varje cell kan få formatering som innehåller en boolesk egenskap, [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style). Ange egenskapen [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) till **true** eller **false** för att låsa eller låsa upp cellen.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

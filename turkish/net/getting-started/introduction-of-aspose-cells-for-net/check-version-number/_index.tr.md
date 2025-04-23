@@ -29,3 +29,4 @@ Kullandığınız Aspose.Cells'in sürüm numarasını manuel olarak bulmak içi
 Aspose.Cells'i API üzerinden kullanarak hangi sürümünü kullandığınızı öğrenmek için, [CellsHelper](https://reference.aspose.com/cells/net/aspose.cells/cellshelper) sınıfının GetVersion statik yöntemini kullanarak Aspose.Cell'in sürüm numarasını alın.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-CheckVersionNumber-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

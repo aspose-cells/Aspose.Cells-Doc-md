@@ -7,7 +7,7 @@ url: /ru/java/change-cells-alignment-and-keep-existing-formatting/
 
 ## **Возможные сценарии использования**
 
-Иногда вы хотите изменить выравнивание нескольких ячеек, сохраняя существующее форматирование. Aspose.Cells позволяет сделать это, используя свойство [**StyleFlag.Alignments**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#Alignments). Если вы установите его **true**, изменения в выравнивании произойдут, в противном случае - нет. Обратите внимание, что объект [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) передается в качестве параметра в метод [**Range.applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)), который фактически применяет форматирование к диапазону ячеек.
+Иногда вы хотите изменить выравнивание нескольких ячеек, сохраняя существующее форматирование. Aspose.Cells позволяет сделать это, используя свойство [**StyleFlag.Alignments**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#Alignments). Если вы установите его **true**, изменения в выравнивании произойдут, в противном случае - нет. Обратите внимание, что объект [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) передается в качестве параметра в метод [**Range.applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-), который фактически применяет форматирование к диапазону ячеек.
 
 ## **Изменение выравнивания ячеек и сохранение существующего форматирования**
 
@@ -18,3 +18,4 @@ url: /ru/java/change-cells-alignment-and-keep-existing-formatting/
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Data-ChangeCellsAlignmentAndKeepExistingFormatting.java" >}}
+{{< app/cells/assistant language="java" >}}

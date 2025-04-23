@@ -97,9 +97,7 @@ Aspose.Cells Grid Suite は3つのコントロールから構成されていま�
 {{% /alert %}} 
 ### **Aspose.Cells.GridDesktop**
 #### **.NET Framework**
-- .NET Framework 2.0
-- .NET Framework 3.0
-- .NET Framework 3.5
+
 - .NET Framework 4.0
 - .NET Framework 4.5
 - .NET Framework 4.5.1
@@ -142,9 +140,6 @@ Aspose.Cells Grid Suite は3つのコントロールから構成されていま�
 - Microsoft Windows 11
 ### **Aspose.Cells.GridWeb**
 #### **.NET Framework**
-- .NET Framework 2.0
-- .NET Framework 3.0
-- .NET Framework 3.5
 - .NET Framework 4.0
 - .NET Framework 4.5
 - .NET Framework 4.5.1
@@ -157,10 +152,12 @@ Aspose.Cells Grid Suite は3つのコントロールから構成されていま�
 - .NET Framework 4.8
 - .NET Framework 4.8.1
 ### **.NET Core**
-- .NET 6.0 windows 
+- .NET 6.0 ウィンドウズおよび非ウィンドウズシステム
 - .NET 7.0 windows
+- .NET 8.0 ウィンドウズ
 #### **Aspose.Cells.GridWeb For .NET Core で参照する NuGet パッケージ**
-- System.Drawing.Common, 7.0.0.
+- System.Drawing.Common、7.0.0 (Windows システム上)
+- SkiaSharp, 2.88.3 (Windows 以外のシステム)
 - System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.3.
 #### **開発ツール**
@@ -226,3 +223,4 @@ Aspose.Cells Grid Suite は3つのコントロールから構成されていま�
 - Linux（Ubuntu、openSUSE、CentOS、Debian、Alpine など）
 ### **Mac**
 - Mac OS X、macOS High Sierra など
+{{< app/cells/assistant language="csharp" >}}

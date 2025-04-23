@@ -21,7 +21,7 @@ Hay dos tipos de datos con los que trabajar al utilizar gráficos con Aspose.Cel
 
 ### **Datos del Gráfico**
 
-Los datos del gráfico son aquellos datos que utilizamos como origen de datos para construir nuestros gráficos. Podemos agregar un rango de celdas (que contienen datos del gráfico) llamando al método [**Add**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add(java.lang.Object)) del objeto [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection).
+Los datos del gráfico son aquellos datos que utilizamos como origen de datos para construir nuestros gráficos. Podemos agregar un rango de celdas (que contienen datos del gráfico) llamando al método [**Add**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add-java.lang.Object-) del objeto [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsData-SettingChartsData.java" >}}
 
@@ -40,3 +40,4 @@ Los datos de categoría se utilizan para etiquetar los datos del gráfico y se p
 - [Forma sencilla de configurar el gráfico usando el método Chart.setChartDataRange](/cells/es/java/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [Encontrar el tipo de valores X e Y de los puntos en la serie del gráfico](/cells/es/java/find-type-of-x-and-y-values-of-points-in-chart-series/)
 - [Establecer el código de formato de valores de la serie del gráfico](/cells/es/java/set-the-values-format-code-of-chart-series/)
+{{< app/cells/assistant language="java" >}}

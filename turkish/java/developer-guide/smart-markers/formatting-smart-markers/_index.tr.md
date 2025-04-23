@@ -22,3 +22,4 @@ Akıllı İmler'in gruplandırma veri özelliği kullanılırken bazen özelleş
 Bu örnek, hücrelerde birkaç işaretçisini içeren [şablon dosyasını](template.xlsx) kullanır. Kodu yürütürken, Aspose.Cells, gruplandırılmış veriler için özet satırlara bazı özel etiketler ekler.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-SmartMarkers-AddCustomLabels-1.java" >}}
+{{< app/cells/assistant language="java" >}}

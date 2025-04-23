@@ -28,3 +28,4 @@ Hücre aralığını veri etiketleri olarak göstermek için Java kodu
 Aşağıdaki örnek kod, Grafik Serisinin Veri Etiketlerine erişir ve sonra **Etikette - Hücre Değerinden** seçeneğini kontrol etmek için [**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) yöntemini true olarak ayarlar.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ShowCellRangeAsTheDataLabels-ShowCellRangeAsTheDataLabels.java" >}}
+{{< app/cells/assistant language="java" >}}

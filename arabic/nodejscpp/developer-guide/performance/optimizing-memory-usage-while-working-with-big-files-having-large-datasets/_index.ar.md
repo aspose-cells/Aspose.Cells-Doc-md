@@ -15,25 +15,9 @@ url: /ar/nodejs-cpp/optimizing-memory-usage-while-working-with-big-files-having-
 
 ## **تحسين الذاكرة**
 
-يوضح المثال التالي كيفية تحسين استخدام الذاكرة أثناء العمل مع بيانات كبيرة في Aspose.Cells لـ Node.js عبر C++.
+ يوضح المثال التالي كيفية تحسين استخدام الذاكرة عند العمل مع بيانات كبيرة في Aspose.Cells for Node.js via C++.
 
-{{< highlight cpp >}}
-
-//This example shows how to optimize memory usage while working with large data in Aspose.Cells for Node.js via C++
-
-const { Workbook, FileFormatType, MemorySetting } = require("aspose.cells.node");
-
-var workbook = new Workbook(FileFormatType.Xlsx);
-
-// apply the setting to existing "Sheet1"
-workbook.getWorksheets().get(0).getCells().setMemorySetting(MemorySetting.MemoryPreference);
-
-// apply the setting globally
-workbook.getSettings().setMemorySetting(MemorySetting.MemoryPreference);
-
-workbook.save("out.xlsx");
-
-{{< /highlight >}}
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "OptimizingMemory.js" >}}
 
 ## **احترس**
 

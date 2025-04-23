@@ -22,3 +22,4 @@ Verilen bağlantılardan [kaynak Excel dosyasını](95584291.xlsx) ve [çıktı 
 ### Bağlı şekillerin değerlerini yenilemek için C# kodu
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RefreshValueOfLinkedShapes-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

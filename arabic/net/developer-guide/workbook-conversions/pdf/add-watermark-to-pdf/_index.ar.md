@@ -19,3 +19,4 @@ url: /ar/net/add-watermark-to-pdf/
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-AddImageWatermarkToPdf.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

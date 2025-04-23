@@ -12,9 +12,7 @@ Aspose.Cellsは、ExcelファイルをPDFに変換する機能をサポートし
 
 {{% alert color="primary" %}} 
 
-Aspose.Cellsは、出力ドキュメントにAPIとバージョン番号に関する情報を直接書き込みます。たとえば、DocumentをPDFにレンダリングすると、**Application**フィールドに 'Aspose.Cells' という値が、**PDF Producer**フィールドに 'Aspose.Cells v18.5.0' という値が埋め込まれます。
-
-なお、この情報を出力ドキュメントから変更または削除するようAspose.Cells for C++に指示することはできません。
+Aspose.Cellsは、出力ドキュメントにAPIとバージョン番号の情報を直接書き込みます。例えば、ドキュメントをPDFにレンダリングすると、Aspose.Cells for C++が**アプリケーション**フィールドに'Aspose.Cells'と入力し、**PDFプロデューサー**フィールドに'value'、例：'Aspose.Cells v18.5.0'を入力します。
 
 {{% /alert %}} 
 ### **直接変換**

@@ -22,3 +22,4 @@ url: /zh/net/add-wordart-watermark-to-worksheet/
 - [添加具有内置样式的艺术字文本](/cells/zh/net/add-word-art-text-with-built-in-styles/)
 - [锁定WordArt水印](/cells/zh/net/locking-wordart-watermark/)
 - [将文本形状的文字设置为预设的WordArt样式](/cells/zh/net/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="csharp" >}}

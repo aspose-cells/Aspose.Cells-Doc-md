@@ -44,3 +44,4 @@ In alternativa, puoi aggiungere la dipendenza nel pom.xml e far risolvere la dip
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="java" >}}

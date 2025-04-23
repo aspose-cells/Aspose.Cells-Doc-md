@@ -13,13 +13,13 @@ aliases:
 
 يمكنك استخدام GridJs بسلاسة على الجهاز المحمول. 
 
-يمكن لـ GridJs client js التكيف مع شاشة الهاتف المحمول.
+يمكن لعميل GridJs JS التكيف مع شاشة الهاتف المحمول.
 
-تشغيل [عرض توضيحي لـ GridJs ](https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs "عرض توضيحي لـ GridJs ")
+شغّل [عرض GridJs](https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs "عرض GridJs")
 
-منفذ المشروع التوضيحي الافتراضي هو 8080. 
+المنفذ الافتراضي لمشروع العرض التجريبي هو 8080. 
 
-افتح المتصفح على جهازك المحمول وأدخل عنوان url http://yourip:8080/gridjsdemo/index . 
+افتح المتصفح على جهازك المحمول وأدخل عنوان URL http://yourip:8080/gridjsdemo/index . 
 
 ![القيام:التنقل على الشاشة عندما تكون على الهاتف المحمول](gridjs_edit_on_mobile.png)
 

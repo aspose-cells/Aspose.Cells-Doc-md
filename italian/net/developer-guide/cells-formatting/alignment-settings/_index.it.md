@@ -123,3 +123,4 @@ L'ordine di lettura è impostato con la proprietà [**TextDirection**](https://r
 - [Modifica dell'allineamento delle celle e mantenimento della formattazione esistente](/cells/it/net/change-cells-alignment-and-keep-existing-formatting/)
 - [Interruzioni di riga e interruzioni di testo](/cells/it/net/line-breaks-and-text-wrapping/)
 
+{{< app/cells/assistant language="csharp" >}}

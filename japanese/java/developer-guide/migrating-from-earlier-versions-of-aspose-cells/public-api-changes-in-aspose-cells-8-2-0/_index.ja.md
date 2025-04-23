@@ -31,3 +31,4 @@ Worksheetクラスに新しいautoFitRowsおよびautoFitColumnsのオーバー�
 詳細な記事は[行および列の自動調整](http://aspose.com/docs/display/cellsjava/AutoFit+Rows+and+Columns)をご確認ください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

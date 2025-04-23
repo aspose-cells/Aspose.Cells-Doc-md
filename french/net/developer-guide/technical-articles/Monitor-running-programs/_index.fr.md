@@ -12,3 +12,4 @@ Le code d'exemple suivant montre comment surveiller un programme en cours d'exé
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-TechnicalArticles-MonitorRunningPrograms.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

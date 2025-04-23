@@ -38,3 +38,4 @@ Aspose.Cells предоставляет метод Workbook.getDataConnections()
 
 
 
+{{< app/cells/assistant language="java" >}}

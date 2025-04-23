@@ -32,3 +32,4 @@ Bu bölümdeki konular şunlardır:
 - [Çalışma Sayfalarında Verileri Sırala](/cells/tr/net/sort-data-in-worksheets/)
 - [Veri İşleme İçin Formülleri ve Fonksiyonları VSTO ve Aspose.Cells ile Kullanma](/cells/tr/net/use-formulas-functions-to-process-data-in-vsto-and-aspose-cells/)
 - [VSTO ve Aspose.Cells'te Hücre Metnini Sarma](/cells/tr/net/wrapping-cell-text-in-vsto-and-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

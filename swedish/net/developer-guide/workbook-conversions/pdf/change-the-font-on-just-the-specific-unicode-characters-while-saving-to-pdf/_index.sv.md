@@ -38,3 +38,4 @@ Som du kan se i den första PDF:en har teckensnittet för hela meningen ändrats
 
 
 
+{{< app/cells/assistant language="csharp" >}}

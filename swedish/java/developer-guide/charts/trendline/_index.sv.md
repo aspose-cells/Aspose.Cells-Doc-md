@@ -31,3 +31,4 @@ Detta är konsoloutputen för ovanstående exempelkod.
 Equation Text: y = 8.1333x + 5
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

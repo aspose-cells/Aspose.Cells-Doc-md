@@ -11,3 +11,4 @@ url: /zh/java/render-office-add-ins-while-converting-excel-to-pdf/
 以下示例代码保存包含Office加载项的[样本Excel文件](60489783.xlsx)。请查看由之前版本即17.11生成的[输出PDF](60489781.pdf)和由新版本即17.12及以后版本生成的[输出PDF](60489782.pdf)。之前版本的输出PDF为空白的，而新版本的输出PDF显示了Office加载项。
 ## **示例代码**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Rendering-RenderOfficeAdd_InsWhileConvertingExcelToPdf.java" >}}
+{{< app/cells/assistant language="java" >}}

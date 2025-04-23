@@ -56,3 +56,4 @@ Dieses Beispiel verwendet eine einfache Vorlagendatei in Excel, auf die bereits 
 Die Änderungen werden automatisch auf den Bereich angewendet, auf den der Stil angewendet wurde.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ModifyExistingStyle-ModifyExistingStyle.java" >}}
+{{< app/cells/assistant language="java" >}}

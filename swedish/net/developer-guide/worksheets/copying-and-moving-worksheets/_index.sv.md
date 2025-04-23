@@ -54,3 +54,4 @@ Aspose.Cells erbjuder en metod [**Aspose.Cells.Worksheet.MoveTo()**](https://ref
 Det följande exemplet visar hur man flyttar ett kalkylblad till en annan plats inom arbetsboken.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-MoveWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

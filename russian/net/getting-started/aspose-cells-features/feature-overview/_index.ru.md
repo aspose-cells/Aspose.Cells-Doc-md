@@ -111,3 +111,4 @@ Aspose.Cells for .NET обеспечивает подробный програм
 |Укажите поля и центрирование страницы.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Создать или отредактировать верхний и/или нижний колонтитул.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Задайте область печати, заголовки страниц или включите сетку и т. д.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< app/cells/assistant language="csharp" >}}

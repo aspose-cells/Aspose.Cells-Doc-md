@@ -12,3 +12,4 @@ PDF の論理構造機能は、PDF ファイルに文書コンテンツ構造に
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-ExportDocumentStructureToPdf.java" >}}
 
+{{< app/cells/assistant language="java" >}}

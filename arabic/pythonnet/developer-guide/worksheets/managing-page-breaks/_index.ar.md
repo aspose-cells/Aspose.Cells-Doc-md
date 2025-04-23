@@ -3,26 +3,26 @@ title: إدارة فواصل الصفحات
 type: docs
 weight: 30
 url: /ar/python-net/managing-page-breaks/
-description: يوفر هذا المقال رمز العينة ويشرح كيفية إضافة استراحات الصفحات، ومسح استراحات الصفحات، أو حذف استراحات الصفحات المحددة في ورقات العمل في Excel برمجيًا باستخدام Aspose.Cells for Python via .NET API.
-keywords: مكتبة بايثون لإكسل، فواصل صفحات بايثون، فواصل صفحات إكسل باستخدام بايثون، حذف فاصل صفحة بـ Python.
+description: يوضح هذا المقال رمزاً نمذجياً ويشرح كيفية إضافة فواصل صفحات، مسح فواصل الصفحات، أو حذف فواصل صفحات محددة في أوراق عمل إكسل برمجياً باستخدام API لـ Aspose.Cells لبايثون via .NET.
+keywords: مكتبة إكسل بايثون، فواصل صفحات، فواصل الصفحات في إكسل، مسح فاصل صفحة في بايثون.
 ---
 
 {{% alert color="primary" %}}
 
 وفقًا للتعريف، فإن فاصل الصفحة هو المكان في تدفق النص حيث تنتهي صفحة وتبدأ الصفحة التالية. يتيح Microsoft Excel للمستخدمين إضافة فواصل صفحات في أي خلية محددة من ورقة العمل.
 
-مكان الخلية التي يتم فيها إضافة استراحة الصفحة، ينتهي الصفحة ويتم طباعة بقية البيانات بعد استراحة الصفحة على الصفحة التالية أثناء الطباعة. ببساطة، تقسم استراحات الصفحات ورقة العمل الخاصة بك إلى عدة صفحات وفقًا لمواصفاتك. يمكنك أيضًا إضافة استراحات الصفحات إلى ورقات العمل الخاصة بك أثناء التشغيل باستخدام Aspose.Cells for Python via .NET. يسمح Aspose.Cells for Python via .NET للمطورين بإضافة نوعين من استراحات الصفحات:
+يقع فاصل الصفحة الذي تتم إضافته على الخلية، حيث ينتهي الصفحة ويُطبع باقي البيانات التي بعد فاصل الصفحة في الصفحة التالية أثناء الطباعة. ببساطة، فواصل الصفحات تقسم ورقة العمل إلى صفحات متعددة وفقًا لمواصفاتك. يمكنك أيضاً إضافة فواصل صفحات لورقة العمل الخاصة بك أثناء التشغيل باستخدام Aspose.Cells لبايثون via .NET. تتيح Aspose.Cells لبايثون via .NET للمطورين إضافة نوعين من فواصل الصفحات:
 
 - فاصل صفحات أفقي
 - فاصل صفحات عمودي
 
-في بقية النقاش، سنصف كيف يمكنك إضافة استراحات صفحة أفقية أو رأسية إلى ورقات العمل الخاصة بك باستخدام Aspose.Cells for Python via .NET.
+في بقية المناقشة، سنشرح كيف يمكنك إضافة فواصل صفحات أفقية أو عمودية إلى أوراق العمل الخاصة بك باستخدام Aspose.Cells لبايثون via .NET.
 
 {{% /alert %}}
 
 ## **كسرات الصفحة**
 
-Aspose.Cells for Python via .NET يوفر [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) فئة تمثل ملف إكسل. تحتوي فئة [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) على مجموعة [**Worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) التي تسمح بالوصول إلى كل ورقة في ملف Excel.
+توفر Aspose.Cells لبايثون via .NET فئة [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) التي تمثل ملف إكسل. تحتوي فئة [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) على مجموعة [**Worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) التي تتيح الوصول إلى كل ورقة عمل داخل ملف الإكسل.
 
 يتم تمثيل ورقة العمل بواسطة فئة [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet). توفر الفئة [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) مجموعة واسعة من الخصائص والأساليب المستخدمة لإدارة ورقة العمل.
 
@@ -30,9 +30,9 @@ Aspose.Cells for Python via .NET يوفر [**Workbook**](https://reference.aspos
 
 الخصائص [**horizontal_page_breaks**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/horizontal_page_breaks) و [**vertical_page_breaks**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/vertical_page_breaks) هي مجموعات قد تحتوي على العديد من كسر الصفحة. تحتوي كل مجموعة على العديد من الطرق لإدارة كسر الصفحة الأفقي والعمودي.
 
-## **كيفية إضافة فواصل الصفحات**
+## **كيفية إضافة فواصل صفحات**
 
-لإضافة فاصل صفحة في ورقة عمل، أدخل فواصل الصفحات الرأسية والأفقية في الخلية المحددة عند استدعاء الطرق [**HorizontalPageBreakCollection.add()**](https://reference.aspose.com/cells/python-net/aspose.cells/horizontalpagebreakcollection/add/#str) و [**VerticalPageBreakCollection.add()**](https://reference.aspose.com/cells/python-net/aspose.cells/verticalpagebreakcollection/add/#str). تأخذ كل طريقة **إضافة** اسم الخلية التي يجب إضافة الفاصل فيها.
+لإضافة فاصل صفحة في ورقة عمل، قم بإدراج فواصل صفحة أفقية وعمودية عند الخلية المحددة باستخدام استدعاء طريقتي [**HorizontalPageBreakCollection.add()**](https://reference.aspose.com/cells/python-net/aspose.cells/horizontalpagebreakcollection/add/#str) و [**VerticalPageBreakCollection.add()**](https://reference.aspose.com/cells/python-net/aspose.cells/verticalpagebreakcollection/add/#str). كل طريقة **إضافة** تأخذ اسم الخلية التي يجب إضافة الفاصل إليها.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Value-AddingPageBreaks-1.py" >}}
 

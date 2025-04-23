@@ -7,7 +7,7 @@ url: /de/java/rich-text-custom-data-label-of-chart-point/
 
 {{% alert color="primary" %}}
 
-Sie können Aspose.Cells verwenden, um benutzerdefinierte Datenbeschriftungen des Diagrammpunkts zu erstellen. Aspose.Cells bietet die Methode [**DataLabels.characters()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#characters(int,%20int)) zur Rückgabe des [**FontSetting**](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting)-Objekts, das zur Festlegung der Schrifteigenschaften des Textes wie Farbe, Fettdruck usw. verwendet werden kann.
+Sie können Aspose.Cells verwenden, um benutzerdefinierte Datenbeschriftungen des Diagrammpunkts zu erstellen. Aspose.Cells bietet die Methode [**DataLabels.characters()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#characters-int-int-) zur Rückgabe des [**FontSetting**](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting)-Objekts, das zur Festlegung der Schrifteigenschaften des Textes wie Farbe, Fettdruck usw. verwendet werden kann.
 
 {{% /alert %}}
 
@@ -20,3 +20,4 @@ Der folgende Code greift auf den ersten Diagrammpunkt der ersten Serie zu, setzt
 ## Verwandte Artikel
 
 - [Festlegen des Formtyps von Datenbeschriftungen des Diagramms](/cells/de/java/set-the-shape-type-of-data-labels-of-chart/)
+{{< app/cells/assistant language="java" >}}

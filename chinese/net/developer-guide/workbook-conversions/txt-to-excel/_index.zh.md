@@ -59,3 +59,4 @@ url: /zh/net/convert-csv-tsv-and-txt-to-excel/
 - [加载或导入带公式的CSV文件](/cells/zh/net/load-or-import-csv-file-with-formulas/)
 - [读取带有多种编码的CSV文件](/cells/zh/net/reading-csv-file-with-multiple-encodings/)
 
+{{< app/cells/assistant language="csharp" >}}

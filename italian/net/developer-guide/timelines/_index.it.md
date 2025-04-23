@@ -21,3 +21,4 @@ Si prega di consultare il codice di esempio seguente. Carica il [file di Excel d
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Timelines-CreateTimelineToPivotTable.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

@@ -18,3 +18,4 @@ url: /ru/net/export-comments-while-saving-excel-file-to/
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ExportCommentsWhileSavingExcelFileToHtml.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

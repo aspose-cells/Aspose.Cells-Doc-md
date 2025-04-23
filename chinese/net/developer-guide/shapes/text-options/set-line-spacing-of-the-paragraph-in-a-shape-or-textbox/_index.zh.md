@@ -14,3 +14,4 @@ url: /zh/net/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/
 以下示例代码解释了所述属性的用法。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SetTextboxOrShapeParagraphLineSpacing-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

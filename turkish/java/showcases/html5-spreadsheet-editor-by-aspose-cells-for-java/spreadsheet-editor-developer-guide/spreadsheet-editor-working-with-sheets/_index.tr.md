@@ -173,3 +173,4 @@ Açılır menü seçicisi değeri değiştirildiğinde, etkinlik JSF arka uç fa
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

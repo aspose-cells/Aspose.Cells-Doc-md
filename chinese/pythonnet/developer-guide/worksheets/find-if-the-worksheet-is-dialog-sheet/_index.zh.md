@@ -3,8 +3,8 @@ title: 查找工作表是否为对话框工作表
 type: docs
 weight: 90
 url: /zh/python-net/find-if-the-worksheet-is-dialog-sheet/
-description: 对话表是一种旧的表格格式。本文提供了使用Aspose.Cells for Python via .NET库编程确定Excel工作表是否为对话表的说明和示例代码。
-keywords: Python Excel库，Python查找Excel工作表对话框类型，在Python中查找工作表对话框。
+description: 对话框工作表是旧格式的工作表。本文提供了在使用 Aspose.Cells for Python via .NET 库时，程序化检测Excel工作表是否为对话框工作表的指导和示例代码。
+keywords: Python Excel 库，Python 查找 Excel 工作表对话框类型，Python 中的工作表对话框。
 ---
 
 ## **可能的使用场景**
@@ -13,7 +13,7 @@ keywords: Python Excel库，Python查找Excel工作表对话框类型，在Pytho
 
 ![todo:image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
 
-您可以使用Aspose.Cells for Python via .NET提供的[**Worksheet.type**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/type/)属性来查看工作表是否是对话表或其他类型的表。如果返回枚举值[**SheetType.DIALOG**](https://reference.aspose.com/cells/python-net/aspose.cells/sheettype/)，那么表示您正在处理对话表。
+您可以使用 Aspose.Cells for Python via .NET 提供的 [**Worksheet.type**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/type/) 属性来判断工作表是否为对话框工作表或其他类型的工作表。如果它返回枚举值 [**SheetType.DIALOG**](https://reference.aspose.com/cells/python-net/aspose.cells/sheettype/)，则意味着您正在处理对话框工作表。
 
 ## **查找工作表是否为对话框工作表**
 

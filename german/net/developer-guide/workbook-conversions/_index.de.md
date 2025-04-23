@@ -132,6 +132,22 @@ Das folgende Codebeispiel zeigt, wie das aktive Arbeitsblatt in PPTX exportiert 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToPptx-1.cs" >}}
 
+## **Excel-Arbeitsmappe in EPUB konvertieren**
+
+Die Aspose.Cells API unterstützt das Konvertieren von Tabellenblättern in das EPUB-Format. Um die Arbeitsmappe als EPUB zu exportieren, übergeben Sie [**SaveFormat.Epub**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) als zweiten Parameter der [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)-Methode. Sie können auch die Klasse [**EBookSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/ebooksaveoptions) verwenden, um zusätzliche Einstellungen für den Export des Arbeitsblatts nach EPUB festzulegen.
+
+Das folgende Code-Beispiel zeigt die Exportierung des aktiven Arbeitsblatts nach EPUB unter Verwendung des [**SaveFormat.Epub**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)-Aufzählungsmitglieds.
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToEPUB-1.cs" >}}
+
+## **Excel-Arbeitsmappe nach AZW3 konvertieren**
+
+Die Aspose.Cells API unterstützt das Konvertieren von Tabellen in das AZW3-Format. Um die Arbeitsmappe nach AZW3 zu exportieren, übergeben Sie [**SaveFormat.Azw3**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) als zweiten Parameter der [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)-Methode. Sie können auch die Klasse [**EBookSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/ebooksaveoptions) verwenden, um zusätzliche Einstellungen für den Export des Arbeitsblatts nach AZW3 festzulegen.
+
+Das folgende Code-Beispiel zeigt die Exportierung des aktiven Arbeitsblatts nach AZW3 unter Verwendung des [**SaveFormat.Azw3**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)-Aufzählungsmitglieds.
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToAZW3-1.cs" >}}
+
 ## **Erweiterte Themen**
 - [Konvertieren der Überarbeitung von XLSB zu XLSM](/cells/de/net/convert-revision-of-xlsb-to-xlsm/)
 - [HTML](/cells/de/net/convert-excel-to-html/)
@@ -142,3 +158,4 @@ Das folgende Codebeispiel zeigt, wie das aktive Arbeitsblatt in PPTX exportiert 
 - [Excel in CSV, TSV und Text konvertieren](/cells/de/net/convert-excel-to-csv-tsv-and-txt/)
 - [Fortschritt der Dokumentkonvertierung nachverfolgen](/cells/de/net/track-document-conversion-progress/)
 - [CSV, TSV und TXT in Excel umwandeln](/cells/de/net/convert-csv-tsv-and-txt-to-excel/)
+{{< app/cells/assistant language="csharp" >}}

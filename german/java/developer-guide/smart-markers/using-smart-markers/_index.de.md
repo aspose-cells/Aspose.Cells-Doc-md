@@ -169,3 +169,4 @@ Manchmal ist es erforderlich, Benachrichtigungen über den Zellenverweis oder de
 Für Beispielcode und detaillierte Erklärung sehen Sie bitte diesen Artikel.
 
 - [Benachrichtigungen beim Zusammenführen von Daten mit Smart Markern erhalten](/cells/de/java/getting-notifications-while-merging-data-with-smart-markers/)
+{{< app/cells/assistant language="java" >}}

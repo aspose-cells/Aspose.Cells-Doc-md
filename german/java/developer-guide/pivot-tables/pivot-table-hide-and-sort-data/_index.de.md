@@ -17,3 +17,4 @@ Die im Codeausschnitt verwendeten Quell- und Ausgabe-Excel-Dateien sind als Refe
 [Quelldatei](PivotTableHideAndSortSample.xlsx)
 
 [Ausgabedatei](PivotTableHideAndSort_out.xlsx)
+{{< app/cells/assistant language="java" >}}

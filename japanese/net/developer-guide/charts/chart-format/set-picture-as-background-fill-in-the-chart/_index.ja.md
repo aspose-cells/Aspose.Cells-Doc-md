@@ -18,3 +18,4 @@ Aspose.Cellsを使用すると、プロットエリア、チャートエリア�
 ## チャートで背景として画像を設定するC#コード
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-SetPictureBackGroundFillChart-SetPictureBackGroundFillChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -20,3 +20,4 @@ Aspose.Cells поддерживает преобразование файлов 
 Если таблица содержит формулы, наилучшим образом вызвать метод [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) прямо перед отображением таблицы в формате PDF. Это гарантирует, что значения, зависящие от формулы, будут пересчитаны, и правильные значения будут отображены в PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

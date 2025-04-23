@@ -20,3 +20,4 @@ Kontrollera den detaljerade artikeln om [Få varningar för teckensnittsbyte vid
 {{% /alert %}}
 ## **Raderad föråldrad PdfSaveOptions.ChartImageType Egenskap**
 Aspose.Cells for .NET 8.1.2 har tagit bort den föråldrade PdfSaveOptions.ChartImageType-egenskapen från det offentliga API.
+{{< app/cells/assistant language="csharp" >}}

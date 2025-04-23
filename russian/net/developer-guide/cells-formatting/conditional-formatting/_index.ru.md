@@ -80,3 +80,4 @@ Microsoft Excel 2007 добавил более продвинутое услов
 - [Генерировать изображения условного форматирования столбчатых диаграмм данных](/cells/ru/net/generate-conditional-formatting-databars-images/)
 - [Получить наборы значков, столбчатые диаграммы данных или объекты цветовой шкалы, используемые в условном форматировании](/cells/ru/net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
 
+{{< app/cells/assistant language="csharp" >}}

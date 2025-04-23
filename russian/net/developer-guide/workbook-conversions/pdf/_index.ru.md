@@ -147,3 +147,4 @@ Aspose.Cells for .NET поддерживает конвертацию из та�
 - [Сохранить указанные листы в формат PDF](/cells/ru/net/save-specified-worksheets-to-pdf/)
 - [Защищенные документы в формате PDF](/cells/ru/net/secure-pdf-documents/)
 - [Указание способа пересечения строк в выходном PDF и изображении](/cells/ru/net/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="csharp" >}}

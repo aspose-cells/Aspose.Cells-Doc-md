@@ -11,13 +11,13 @@ Lorsque la cellule contient du texte ou une chaîne mais qu'elle est plus grande
 
 - [**HtmlCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT) : Afficher comme dans MS Excel, ce qui dépend de la cellule suivante. Si la cellule suivante est nulle, la chaîne sera coupée ou tronquée.
 
-- [**HtmlCrossType.MS_EXPORT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#MS_EXPORT) : Afficher la chaîne comme dans MS Excel en exportant du HTML.
+- [**HtmlCrossType.MS_EXPORT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#MS-EXPORT) : Afficher la chaîne comme dans MS Excel en exportant du HTML.
 
-- [**HtmlCrossType.CROSS**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS) : Affiche la chaîne HTML croisée, la performance pour la création de grands fichiers HTML sera plus de dix fois plus rapide que si la valeur était définie sur [**DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT) ou [**FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL).
+- [**HtmlCrossType.CROSS**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS) : Affiche la chaîne HTML croisée, la performance pour la création de grands fichiers HTML sera plus de dix fois plus rapide que si la valeur était définie sur [**DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT) ou [**FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT-TO-CELL).
 
-- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT) : Afficher une chaîne HTML croisée et masquer la chaîne de droite lorsque les textes se chevauchent.
+- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS-HIDE-RIGHT) : Afficher une chaîne HTML croisée et masquer la chaîne de droite lorsque les textes se chevauchent.
 
-- [**HtmlCrossType.FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL) : Affichage uniquement de la chaîne dans la largeur de la cellule.
+- [**HtmlCrossType.FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT-TO-CELL) : Affichage uniquement de la chaîne dans la largeur de la cellule.
 
 ## **Spécifier comment croiser la chaîne dans le HTML de sortie en utilisant HtmlCrossType**
 
@@ -28,3 +28,4 @@ Le code d'exemple suivant charge le [fichier Excel d'exemple](51740747.xlsx) et 
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-SpecifyHtmlCrossTypeInOutputHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

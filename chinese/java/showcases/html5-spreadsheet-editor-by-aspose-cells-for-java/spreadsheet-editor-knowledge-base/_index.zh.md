@@ -36,3 +36,4 @@ HTML5电子表格编辑器可嵌入到任何网站、博客和论坛中，以在
 </iframe>
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

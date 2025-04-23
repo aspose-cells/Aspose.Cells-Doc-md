@@ -31,3 +31,4 @@ Pour appliquer l'ombrage aux colonnes alternatives, il vous suffit de changer la
 La feuille de calcul résultante, dans ce cas, ressemblera à l'image suivante.
 
 ![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)
+{{< app/cells/assistant language="java" >}}

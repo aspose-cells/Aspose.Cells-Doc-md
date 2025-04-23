@@ -3,8 +3,8 @@ title: 印刷オプションの設定
 type: docs
 weight: 40
 url: /ja/python-net/setting-print-options/
-description: この記事では、Aspose.Cells for Python via .NET APIを使用してExcelワークシートのページ設定機能の印刷オプションをプログラムで設定する方法を説明します。印刷エリア、印刷タイトル、ページ順序を設定できます。
-keywords: Python Excelライブラリ、PythonでExcelの印刷範囲を設定、PythonでExcelの印刷タイトルを設定、PythonでExcelのページ順序を設定、Pythonで印刷オプションを設定する方法、Pythonで印刷エリアを設定する方法、Pythonで印刷タイトルを設定する方法。 
+description: この資料は、Aspose.Cells for Python via .NET APIを使用して、Excelワークシートのページ設定の印刷オプションをプログラムで設定する方法を示しています。印刷範囲、印刷タイトル、ページ順を設定できます。
+keywords: Python Excelライブラリ、PythonでのExcel印刷範囲の設定、Pythonでの印刷タイトルの設定、PythonでのExcelページ順の設定方法、Pythonでの印刷オプションの設定方法、Pythonでの印刷範囲の設定方法、Pythonでの印刷タイトルの設定方法。 
 ---
 
 {{% alert color="primary" %}}
@@ -26,9 +26,9 @@ Microsoft Excel のページ設定設定には、ワークシートページが�
 - セルエラーを印刷する。
 - ページ順序を定義する。
 
-Aspose.Cells for Python via .NETは、Microsoft Excelが提供するすべての印刷オプションをサポートしており、開発者は[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)クラスが提供するプロパティを使用してこれらのオプションを簡単に構成できます。これらのプロパティの使用方法については、以下で詳しく説明されています。
+Aspose.Cells for Python via .NETは、Microsoft Excelが提供するすべての印刷オプションをサポートしており、[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)クラスが提供するプロパティを使用してワークシートのこれらのオプションを簡単に設定できます。これらのプロパティの使用方法については、以下で詳しく説明します。
 
-## **印刷エリアを設定する方法**
+## **印刷範囲の設定方法**
 
 デフォルトでは、印刷エリアにはデータを含むワークシートのすべての領域が組み込まれます。開発者はワークシートの特定の印刷エリアを設定することができます。
 
@@ -36,15 +36,15 @@ Aspose.Cells for Python via .NETは、Microsoft Excelが提供するすべての
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPrintArea-1.py" >}}
 
-## **印刷タイトルを設定する方法**
+## **印刷タイトルの設定方法**
 
-Aspose.Cells for Python via .NETでは、印刷されるワークシートのすべてのページで行見出しと列見出しを繰り返すように指定できます。これを行うには、[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)クラスの[**print_title_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_title_columns/)プロパティと[**print_title_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_title_rows)プロパティを使用します。
+Aspose.Cells for Python via .NET では、行と列の見出しをすべてのページで繰り返すように指定できます。これを行うには、[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) クラスの [**print_title_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_title_columns/) および [**print_title_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_title_rows) プロパティを使用します。
 
 繰り返す行または列は、その行番号または列番号を渡すことで定義されます。たとえば、行は$1:$2と定義され、列は$A:$Bと定義されます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPrintTitle-1.py" >}}
 
-## **その他の印刷オプションの設定方法**
+## **他の印刷オプションの設定方法**
 
 [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) クラスには、以下の一般的な印刷オプションを設定するためのいくつかの他のプロパティも提供されています:
 
@@ -61,9 +61,9 @@ Aspose.Cellsは、[**print_comments**](https://reference.aspose.com/cells/python
 
 |**コメント印刷タイプ**|**説明**|
 | :- | :- |
-|PRINT_IN_PLACE|ワークシートに表示されているコメントを印刷することを指定します。
-|PRINT_NO_COMMENTS|コメントを印刷しないことを指定します。
-|PRINT_SHEET_END|ワークシートの末尾にコメントを印刷することを指定します。
+|PRINT_IN_PLACE|コメントをワークシートに表示されている通りに印刷します。|
+|PRINT_NO_COMMENTS|コメントを印刷しません。|
+|PRINT_SHEET_END|コメントをワークシートの最後に印刷します。|
 
 [**PrintErrorsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printerrorstype) 列挙型の事前に定義された値は、以下にその説明とともにリストされています。
 
@@ -71,14 +71,14 @@ Aspose.Cellsは、[**print_comments**](https://reference.aspose.com/cells/python
 
 |**エラー印刷タイプ**|**説明**|
 | :- | :- |
-|PRINT_ERRORS_BLANK|エラーを印刷しないことを指定します。
-|PRINT_ERRORS_DASH|エラーを"--"として印刷することを指定します。
-|PRINT_ERRORS_DISPLAYED|表示されているようにエラーを印刷することを指定します。
-|PRINT_ERRORS_NA|エラーを"#N/A"として印刷することを指定します。
+|PRINT_ERRORS_BLANK|エラーを印刷しません。|
+|PRINT_ERRORS_DASH|エラーを "--" として印刷します。|
+|PRINT_ERRORS_DISPLAYED|表示されたエラーをそのまま印刷します。|
+|PRINT_ERRORS_NA|エラーを "#N/A" として印刷します。|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-OtherPrintOptions-1.py" >}}
 
-## **ページ順序の設定方法**
+## **ページ順を設定する方法**
 
 [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) クラスは、ワークシートを印刷するための複数のページの順序を設定するために使用される [**Order**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/order) プロパティを提供します。ページを順に印刷するためには、次の2つの可能性があります。
 
@@ -91,7 +91,7 @@ Aspose.Cellsは、[**PrintOrderType**](https://reference.aspose.com/cells/python
 
 |**印刷順序タイプ**|**説明**|
 | :- | :- |
-|DOWN_THEN_OVER|下から順に印刷することを表します。
-|OVER_THEN_DOWN|上から順に印刷することを表します。
+|DOWN_THEN_OVER|行きから列へ印刷の順序を表します。|
+|OVER_THEN_DOWN|列から行へ印刷の順序を表します。|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPageOrder-1.py" >}}

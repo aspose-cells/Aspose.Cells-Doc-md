@@ -7,7 +7,7 @@ url: /ja/java/import-xml-map-inside-a-workbook-using-aspose-cells/
 
 {{% alert color="primary" %}}
 
-Aspose.Cellsを使用して、ワークブックにXML Mapをインポートする[**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml(java.lang.String,%20java.lang.String,%20int,%20int))メソッドがあります。Microsoft Excelを使用して次の手順でXML Mapをインポートできます。
+Aspose.Cellsを使用して、ワークブックにXML Mapをインポートする[**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml-java.lang.String-java.lang.String-int-int-)メソッドがあります。Microsoft Excelを使用して次の手順でXML Mapをインポートできます。
 
 - **開発**タブを選択
 - XMLセクションで**インポート**をクリックし、必要な手順に従います。
@@ -24,8 +24,9 @@ Aspose.Cellsを使用して、ワークブックにXML Mapをインポートす�
 
 ## **Aspose.Cellsを使用してXML Mapをインポートする**
 
-以下のサンプルコードは、[**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml(java.lang.String,%20java.lang.String,%20int,%20int))を使用する方法を示しています。このスクリーンショットに示されているように、[出力エクセルファイル](5472502.xlsx)が生成されます。
+以下のサンプルコードは、[**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml-java.lang.String-java.lang.String-int-int-)を使用する方法を示しています。このスクリーンショットに示されているように、[出力エクセルファイル](5472502.xlsx)が生成されます。
 
 ![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ImportXMLMap-ImportXMLMap.java" >}}
+{{< app/cells/assistant language="java" >}}

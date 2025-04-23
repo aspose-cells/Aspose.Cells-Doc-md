@@ -173,3 +173,4 @@ Quando il valore del selettore a discesa viene modificato, l'evento è gestito s
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

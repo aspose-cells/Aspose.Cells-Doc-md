@@ -9,7 +9,7 @@ url: /ar/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions
 
 أثناء تعيين خاصية DefaultFont لـ**[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)** و**[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)**، قد تتوقع أن يقوم الحفظ إلى PDF أو الصورة بتعيين تلك **DefaultFont** إلى جميع النصوص في السجل الحسابي التي تحتوي على خطوط غير مثبتة.
 
-عمومًا، عندما يتم حفظها إلى PDF أو الصورة ستحاول Aspose.Cells أولاً تعيين الخط الافتراضي للسجل الحسابي (أي، **[**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font)**). إذا لم تستطع الخط الافتراضي للسجل الحسابي عرض النص بشكل صحيح، فسيحاول Aspose.Cells عرضه باستخدام الخط المذكور ضد السمة **DefaultFont** في **[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)** / **[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)**.
+عموماً، عند الحفظ إلى PDF أو صورة، سيحاول Aspose.Cells أولاً تعيين الخط الافتراضي للمصنف (أي، [**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font-)). إذا لم يتمكن الخط الافتراضي للمصنف من عرض النص بشكل صحيح، فسيحاول Aspose.Cells عرض النص باستخدام الخط المذكور في خاصية **DefaultFont** في [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions).
 
 لتعامل مع توقعاتك، لدينا خاصية Boolean تسمى "**CheckWorkbookDefaultFont**" في **[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)** / **[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)**. يمكنك تعيينها على القيمة البولية لتعطيل محاولة الخط الافتراضي للسجل الحسابي أو السماح لإعداد **DefaultFont** في **[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)** / **[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)** بالأولوية.
 
@@ -38,3 +38,4 @@ url: /ar/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Fonts-SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions-1.java" >}}
+{{< app/cells/assistant language="java" >}}

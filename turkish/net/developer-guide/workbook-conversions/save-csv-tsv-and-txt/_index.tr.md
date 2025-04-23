@@ -34,3 +34,4 @@ Metin dosyaları, biçimlendirme olmadan elektronik tablo verisi içerir. Dosya,
 ## **Gelişmiş Konular**
 - [CSV formatına yayınlarken Boş Satırlar için Ayraçları Sakla](/cells/tr/net/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [CSV formatına elektronik tabloları dışa aktarırken Öneki Boş Satırları ve Sütunları Kırp](/cells/tr/net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+{{< app/cells/assistant language="csharp" >}}

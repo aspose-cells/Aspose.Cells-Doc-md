@@ -11,3 +11,4 @@ A veces, deseas que una fórmula en tu tabla u objeto Lista se propague automát
 El siguiente código de ejemplo crea una Tabla u Objeto Lista de tal manera que la fórmula en la columna B se propague automáticamente a nuevas filas cuando ingreses nuevos datos. Por favor, verifica el [archivo de Excel de salida](5472519.xlsx) generado con este código. Si ingresas un número en la celda A3, verás que la fórmula en la celda B2 se propaga automáticamente a la celda B3.
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PropagateFormulaInTableorListObject-PropagateFormulaInTableorListObject.java" >}}
+{{< app/cells/assistant language="java" >}}

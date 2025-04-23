@@ -187,3 +187,4 @@ workbook.save("output.xlsx");
 Пожалуйста, ознакомьтесь со статьей [Копирование микрографика с указанием диапазона данных и местоположения группы микрографиков](/cells/ru/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/) для получения дополнительной информации.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -18,3 +18,4 @@ Lütfen aşağıdaki örnek koda bakınız. [Örnek Excel dosyasını](61767851.
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-SetMarginsOfCommentOrShapeInsideTheWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

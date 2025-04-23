@@ -24,3 +24,4 @@ El siguiente código de muestra primero agrega cuatro partes de XML personalizad
  Found: CustomXmlPart ID Sport
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

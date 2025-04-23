@@ -3,7 +3,7 @@ title: Contare il numero di celle nel foglio di lavoro
 type: docs
 weight: 110
 url: /it/python-net/count-number-of-cells-in-the-worksheet/
-description: In questo articolo, imparerai come contare programmaticamente il numero di celle nel foglio di lavoro di Excel utilizzando l API Aspose.Cells per Python via .NET.
+description: In questo articolo imparerai come contare programmaticamente il numero di celle nel foglio di lavoro Excel utilizzando l API Aspose.Cells for Python via .NET.
 keywords: contare il numero di celle nel foglio di lavoro di excel c#, celle del foglio di lavoro excel c#
 ---
 

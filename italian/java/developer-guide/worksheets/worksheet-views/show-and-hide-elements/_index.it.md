@@ -53,7 +53,7 @@ Il file **Book1.xls** è aperto utilizzando la classe [**Workbook**](https://ref
 
 **Impostazione del tipo di visibilità**
 
-Puoi anche nascondere i fogli di lavoro in modo speciale. Questa funzione può nascondere il foglio di lavoro in modo che l'unico modo per renderlo di nuovo visibile sia fornire [**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY_HIDDEN) come valore del parametro per il metodo [**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) nel codice (è da notare qui che gli utenti non possono rendere l'oggetto visibile in MS Excel direttamente utilizzando le opzioni del menu). Gli utenti possono anche utilizzare il metodo [**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) per controllare se un foglio di lavoro è contrassegnato come Molto nascosto o no.
+Puoi anche nascondere i fogli di lavoro in modo speciale. Questa funzione può nascondere il foglio di lavoro in modo che l'unico modo per renderlo di nuovo visibile sia fornire [**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY-HIDDEN) come valore del parametro per il metodo [**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) nel codice (è da notare qui che gli utenti non possono rendere l'oggetto visibile in MS Excel direttamente utilizzando le opzioni del menu). Gli utenti possono anche utilizzare il metodo [**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) per controllare se un foglio di lavoro è contrassegnato come Molto nascosto o no.
 
 ## **Mostra o Nascondi Schede**
 
@@ -224,3 +224,4 @@ Il file Book1.xls viene aperto utilizzando la classe [**Workbook**](https://refe
 - [Aggiungere bordi alle celle per creare una tabella](/cells/it/java/create-table-by-using-border-lines-for-a-range/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

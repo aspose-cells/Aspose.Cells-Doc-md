@@ -135,3 +135,4 @@ RowCollection больше не наследует CollectionBase, поскол�
 С версии Aspose.Cells for Java, свойство FilterColumnCollection помечено как устаревшее, рекомендуется использовать свойство AuotFilter.FilterColumns вместо него.
 ## **Заменено SeriesCollection.SecondCatergoryData на SeriesCollection.SecondCategoryData**
 Мы исправили опечатку в названии свойства SeriesCollection.SecondCatergoryData. Теперь вы можете использовать свойство SeriesCollection.SecondCategoryData, в то время как исходное свойство SeriesCollection.SecondCatergoryData помечено как устаревшее.
+{{< app/cells/assistant language="csharp" >}}

@@ -21,3 +21,4 @@ url: /ru/java/java-security-invalidkeyexception/
 - [Расширение криптографии Java (JCE) Unlimited Strength Jurisdiction Policy Files 6](https://www.oracle.com/java/technologies/jce-6-download.html)
 - [Расширение криптографии Java (JCE) Unlimited Strength Jurisdiction Policy Files 7](https://www.oracle.com/java/technologies/jce-7-download.html)
 - [Расширение криптографии Java (JCE) Unlimited Strength Jurisdiction Policy Files 8](https://www.oracle.com/java/technologies/javase-jce8-downloads.html)
+{{< app/cells/assistant language="java" >}}

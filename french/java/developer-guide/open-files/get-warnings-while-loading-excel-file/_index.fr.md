@@ -11,7 +11,7 @@ Parfois, l'utilisateur essaie de charger le classeur qui est quelque peu corromp
 
 ## **Obtenir des avertissements lors du chargement d'un fichier Excel**
 
-Le code d'exemple suivant explique comment obtenir des avertissements lors du chargement d'un fichier Excel. Le code charge le [fichier Excel d'exemple](sampleDuplicateDefinedName.xlsx) qui lance l'avertissement [**DuplicateDefinedName**](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE_DEFINED_NAME) lors du chargement. Cet avertissement est ensuite capturé par la méthode [**IWarningCallback.Warning()**](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning(com.aspose.cells.WarningInfo)) qui imprime les messages d'avertissement dans la console. Le code enregistre ensuite le classeur en tant que [fichier Excel de sortie](outputDuplicateDefinedName.xlsx). Si vous ouvrez le fichier Excel d'exemple dans Microsoft Excel, il affichera également cet avertissement comme le montre cette capture d'écran. Veuillez également vérifier la sortie de la console du code ci-dessous pour mieux comprendre.
+Le code d'exemple suivant explique comment obtenir des avertissements lors du chargement d'un fichier Excel. Le code charge le [fichier Excel d'exemple](sampleDuplicateDefinedName.xlsx) qui lance l'avertissement [**DuplicateDefinedName**](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE-DEFINED-NAME) lors du chargement. Cet avertissement est ensuite capturé par la méthode [**IWarningCallback.Warning()**](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning-com.aspose.cells.WarningInfo-) qui imprime les messages d'avertissement dans la console. Le code enregistre ensuite le classeur en tant que [fichier Excel de sortie](outputDuplicateDefinedName.xlsx). Si vous ouvrez le fichier Excel d'exemple dans Microsoft Excel, il affichera également cet avertissement comme le montre cette capture d'écran. Veuillez également vérifier la sortie de la console du code ci-dessous pour mieux comprendre.
 
 ![todo:image_alt_text](get-warnings-while-loading-excel-file_1.png)
 
@@ -34,3 +34,4 @@ Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:Panel!$B$228
 Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:'Queries '!$D$14:$D$16
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

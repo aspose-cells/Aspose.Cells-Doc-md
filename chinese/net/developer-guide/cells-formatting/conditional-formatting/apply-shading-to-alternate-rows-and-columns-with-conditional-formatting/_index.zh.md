@@ -33,3 +33,4 @@ Aspose.Cells API 提供了添加和操作条件格式规则的方法，用于 [*
 
 |![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)|
 | :- |
+{{< app/cells/assistant language="csharp" >}}

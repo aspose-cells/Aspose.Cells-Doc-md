@@ -217,3 +217,4 @@ Les **Formats**, **Contenus** et **Les deux** sont gérés par le bean backend J
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

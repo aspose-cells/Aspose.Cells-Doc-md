@@ -166,19 +166,20 @@ Skriptkommandon är specialkommandon som tillhandahålls av Aspose.Cells som til
 |&T|Aktuell tid.|
 |&A|Kalkylbladets namn.|
 |&F|Filnamn utan sökväg.|
+|&&Text| Visar &Text. Till exempel: &&WO kommer att visas som &WO|
 |&"\<FontName>"|Ett teckensnittsnamn. Till exempel: &"Arial"|
 |&"\<FontName>, \<FontStyle>"|Ett teckensnittsnamn med en stil. Till exempel: &"Arial,Fet"|
 |&\<FontSize>|Representerar teckensnittsstorlek. Till exempel: “&14abc”. Men om detta kommando följs av ett vanligt nummer som ska skrivas ut i sidhuvudet, ska detta separeras med ett mellanslag från teckensnittsstorleken. Till exempel: “&14 123”|
 
 ### **Ställ in headers och footers**
 
-Klassen [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) tillhandahåller metoden [**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String)) för att lägga till en rubrik och [**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String)) för att lägga till en sidfot i en arbetsbok. Skriptet används som ett argument för alla ovan nämnda metoder. Det representerar skriptet som ska användas för rubrik eller sidfot. Detta skript innehåller skriptkommandon för att formatera rubriker eller sidfötter.
+Klassen [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) tillhandahåller metoden [**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader-int-java.lang.String-) för att lägga till en rubrik och [**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter-int-java.lang.String-) för att lägga till en sidfot i en arbetsbok. Skriptet används som ett argument för alla ovan nämnda metoder. Det representerar skriptet som ska användas för rubrik eller sidfot. Detta skript innehåller skriptkommandon för att formatera rubriker eller sidfötter.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetHeadersAndFooters-SetHeadersAndFooters.java" >}}
 
 ### **Infoga en grafik i en rubrik eller sidfot**
 
-Klassen [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) har metoderna [**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[])) och [**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[])) för att lägga till bilder i en arbetsboks rubrik och sidfot. Dessa metoder tar två parametrar:
+Klassen [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) har metoderna [**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture-int-byte[]-) och [**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture-int-byte[]-) för att lägga till bilder i en arbetsboks rubrik och sidfot. Dessa metoder tar två parametrar:
 
 - **Avsnitt**, avsnittet för rubriken eller sidfoten där bilden kommer att placeras. Det finns tre avsnitt: vänster, mitt och höger, representerade av de numeriska värdena 0, 1 och 2 respektive.
 - **Filens indataström**, den grafiska datan. Den binära datan ska skrivas in i bufferten av en byte-array.
@@ -196,7 +197,7 @@ Efter att koden har körts och filen har öppnats, kontrollera arbetsbokens rubr
 
 ### **Infoga en grafik i endast förstasidesrubrik**
 
-Klassen [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) har också andra användbara metoder, till exempel [**setPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[])), [**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String)), [**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String)), för att lägga till bilder i en arbetsboks rubrik/sidfot på första sidan. Första sidan är en speciell sida: det är vanligt att man vill att den ska visa speciell information, till exempel en företagslogotyp.
+Klassen [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) har också andra användbara metoder, till exempel [**setPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture-boolean-boolean-boolean-int-byte[]-), [**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader-int-java.lang.String-), [**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter-int-java.lang.String-), för att lägga till bilder i en arbetsboks rubrik/sidfot på första sidan. Första sidan är en speciell sida: det är vanligt att man vill att den ska visa speciell information, till exempel en företagslogotyp.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-InsertGraphicinFirstPageHeaderOnly-InsertGraphicinFirstPageHeaderOnly.java" >}}
 
@@ -256,18 +257,18 @@ De fördefinierade värdena i uppräkningen [**PrintCommentsType**](https://refe
 
 |**Kommentarstyper för utskrift**|**Beskrivning**|
 | :- | :- |
-|[**PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)|Anger att skriva ut kommentarer som visas på arbetsbladet.|
-|[**PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS)|Anger att inte skriva ut kommentarer.|
-|[**PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_SHEET_END)|Anger att skriva ut kommentarer i slutet av arbetsbladet.|
+|[**PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-IN-PLACE)|Specifiserar att skriva ut kommentarer som de visas på kalkylbladet.|
+|[**PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-NO-COMMENTS)|Specificerar att inte skriva ut kommentarer.|
+|[**PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-SHEET-END)|Specificerar att skriva ut kommentarer i slutet av kalkylbladet.|
 
 De fördefinierade värdena i uppräkningen [**PrintErrorsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType) beskrivs nedan.
 
 |**Feltyper för utskrift**|**Beskrivning**|
 | :- | :- |
-|[**PRINT_ERRORS_BLANK**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_BLANK)|Anger att inte skriva ut fel.|
-|[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DASH)|Anger att skriva ut fel som "--".|
-|[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DISPLAYED)|Anger att skriva ut fel som visas.|
-|[**PRINT_ERRORS_NA**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_NA)|Anger att skriva ut fel som "#N/A".|
+|[**PRINT_ERRORS_BLANK**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-BLANK)|Specificerar att inte skriva ut fel.|
+|[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-DASH)|Specificerar att skriva ut fel som "--".|
+|[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-DISPLAYED)|Specifiserar att skriva ut fel som de visas.|
+|[**PRINT_ERRORS_NA**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-NA)|Specifiserar att skriva ut fel som "#N/A".|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-OtherPrintOptions-OtherPrintOptions.java" >}}
 
@@ -284,8 +285,8 @@ De fördefinierade värdena i uppräkningen [**PrintOrderType**](https://referen
 
 |**Utskriftsordningstyper**|**Beskrivning**|
 | :- | :- |
-|[**DOWN_THEN_OVER**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN_THEN_OVER)|Skriv ut nedåt, sedan över.|
-|[**OVER_THEN_DOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER_THEN_DOWN)|Skriv ut över, sedan ned.|
+|[**DOWN_THEN_OVER**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN-THEN-OVER)|Skriv ut nedåt, sedan över.|
+|[**OVER_THEN_DOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER-THEN-DOWN)|Skriv ut över, sedan nedåt.|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPageOrder-SetPageOrder.java" >}}
 
@@ -301,3 +302,4 @@ Se gärna den här artikeln relaterat till detta ämne.
 - [Implementera anpassad pappersstorlek för arbetsblad för rendering](/cells/sv/java/implement-custom-paper-size-of-worksheet-for-rendering/)
 - [Sidlayout- och utskriftsalternativ](/cells/sv/java/page-setup-and-printing-options/)
 - [Ta bort befintliga skrivareinställningar för arbetsblad i Excel-fil](/cells/sv/java/remove-existing-printersettings-of-worksheets-in-excel-file/)
+{{< app/cells/assistant language="java" >}}

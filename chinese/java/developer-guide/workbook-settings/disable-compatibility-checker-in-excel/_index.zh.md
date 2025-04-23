@@ -33,3 +33,4 @@ Microsoft Excel的兼容性检查程序在以较早的文件格式保存文件�
 下面的代码展示如何使用Aspose.Cells for Java禁用兼容性检查器。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DisableCompatibilityChecker-DisableCompatibilityChecker.java" >}}
+{{< app/cells/assistant language="java" >}}

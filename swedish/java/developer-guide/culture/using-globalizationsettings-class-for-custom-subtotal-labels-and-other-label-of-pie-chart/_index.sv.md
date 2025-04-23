@@ -10,11 +10,11 @@ Aspose.Cells API:er har exponerat klassen [GlobalizationSettings](https://refere
 ## **Introduktion till klassen GlobalizationSettings**
 Klassen [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) erbjuder för närvarande följande 3 metoder som kan åsidosättas i en anpassad klass för att få önskade etiketter för subtotaler eller för att rendera anpassad text för **Other**-etiketten för ett cirkeldiagram.
 
-1. [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)): Hämtar totalnamnet för funktionen.
-1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)): Hämtar det stora totalnamnet för funktionen.
-1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)): Hämtar namnet på "Other"-etiketter för cirkeldiagram.
+1. [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName-int-): Hämtar det totala namnet för funktionen.
+1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName-int-): Hämtar det sammanlagda namnet för funktionen.
+1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--): Hämtar namnet på "Other"-etiketter för tårtdiagram.
 ### **Anpassade etiketter för subtotaler**
-Klassen [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) kan användas för att anpassa subtotalmärken genom att åsidosätta metoderna [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)) och [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)) som demonstreras framåt.
+Klassen [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) kan användas för att anpassa delbelappen genom att åsidosätta metoderna [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName-int-) och [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName-int-) som demonstreras nedan.
 
 
 
@@ -33,7 +33,7 @@ Klassen [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspo
 
 {{% /alert %}} 
 ### **Anpassad text för annan etikett för cirkeldiagram**
-Klassen [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) erbjuder metoden [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)) som är användbar för att ge "Other"-etiketten för cirkeldiagram en anpassad etikett. Följande kodstycke definierar en anpassad klass och åsidosätter metoden [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)) för att få en anpassad etikett baserat på standardspråket som är inställt för JVM.
+Klassen [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) erbjuder metoden [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--) vilket är användbart för att ge "Other"-etiketten för tårtdiagram ett anpassat värde. Följande kod definierar en anpassad klass och åsidosätter metoden [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--) för att få en anpassad etikett baserad på det standard språk som är inställt för JVM.
 
 
 
@@ -50,3 +50,4 @@ Följande kodstycke laddar ett befintligt kalkylblad som innehåller ett cirkeld
 Följande är den resulterande bilden när landets lokalisering är inställd på Frankrike. Som du kan se har etiketten "Other" översatts till "Autre" enligt definitionen i *Anpassade inställningar* klassen.
 
 ![todo:image_alt_text](using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart_1.png)
+{{< app/cells/assistant language="java" >}}

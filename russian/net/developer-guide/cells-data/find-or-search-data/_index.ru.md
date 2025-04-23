@@ -65,3 +65,4 @@ Aspose.Cells предоставляет класс [**Workbook**](https://refere
 - [Нахождение ячеек с определенным стилем](/cells/ru/net/find-cells-with-specific-style/)
 - [Определите, начинается ли значение ячейки с одинарной кавычки](/cells/ru/net/find-if-the-cell-value-starts-with-single-quote-mark/)
 - [Поиск данных с использованием исходных значений](/cells/ru/net/search-data-using-original-values/)
+{{< app/cells/assistant language="csharp" >}}

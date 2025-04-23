@@ -105,3 +105,4 @@ Aspose.Cellsは、別の範囲にセルの書式付きでコピーするため�
 次の例では、ソース範囲のセルを別の名前付き範囲にコピーする方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CopyNamedRanges-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

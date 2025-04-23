@@ -9,7 +9,7 @@ url: /sv/java/applying-subtotal-and-changing-direction-of-outline-summary-rows-b
 
 Denna artikel förklarar hur du tillämpar delsumma på data och ändrar riktningen på sammanfattningsrader under detaljerna.
 
-Du kan tillämpa delsumma på data med hjälp av [**Worksheet.Cells.subtotal()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal(com.aspose.cells.CellArea,%20int,%20int,%20int[])) metoden. Den tar följande parametrar.
+Du kan tillämpa delsumma på data med hjälp av [**Worksheet.Cells.subtotal()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal-com.aspose.cells.CellArea-int-int-int[]-) metoden. Den tar följande parametrar.
 
 - **CellArea** - Intervallet att tillämpa delsumma på
 - **GroupBy** - Fältet som ska grupperas efter, som en nollbaserad heltalsförskjutning
@@ -42,3 +42,4 @@ Följande skärmbild visar den genererade Excel-filen som utdata av kodexemplet.
 Här är kodexempel för att uppnå utdata som visas ovan.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ApplyingSubtotal-1.java" >}}
+{{< app/cells/assistant language="java" >}}

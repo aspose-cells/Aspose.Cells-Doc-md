@@ -32,3 +32,4 @@ Oluşturulan dosyada, grafik seçilen ay için verileri dinamik olarak sayacakt�
 ```
 
 A2'de açılır listedeki değeri değiştirmeyi deneyin ve grafik dinamik olarak değişecektir. Aspose.Cells'i kullanarak başarılı bir şekilde dinamik bir grafik ve açılır liste oluşturduk.
+{{< app/cells/assistant language="csharp" >}}

@@ -7,7 +7,7 @@ url: /ja/java/direct-calculation-of-custom-function-without-writing-it-in-a-work
 
 {{% alert color="primary" %}} 
 
-この記事では、ワークシートに書き込む必要なく、カスタム関数を直接計算する方法を説明します。この目的のために[Worksheet.calculateFormula(string formula, CalculationOptions opts)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula\(java.lang.String,%20com.aspose.cells.CalculationOptions\)) メソッドを使用してください。
+この記事では、ワークシートに書き込まずにカスタム関数を直接計算する方法を説明します。本目的には [Worksheet.calculateFormula(string formula, CalculationOptions opts)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula-java.lang.String-com.aspose.cells.CalculationOptions-) メソッドを使用してください。
 
 {{% /alert %}} 
 ## **ワークシートに書き込まずにカスタム機能を直接計算する**
@@ -28,3 +28,4 @@ url: /ja/java/direct-calculation-of-custom-function-without-writing-it-in-a-work
 - [Aspose.Cellsのデフォルトの計算エンジンを拡張するためにカスタム計算エンジンを実装する](/cells/ja/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -17,10 +17,10 @@ aliases:
 
 # Arbeiten mit GridJs Server Side
 ## 0. Den richtigen Ordnerpfad in der Konfiguration einstellen
- **`Config.setFileCacheDirectory`** für die Arbeitsmappe-Cache-Datei (erforderlich).
- **`Config.setPictureCacheDirectory`** für die Bild-Dateien-Cache in der Arbeitsmappe (optional, der Standardwert ist _piccache im Datei-Cache-Verzeichnis).
+ **`Config.setFileCacheDirectory`** für die Cache-Datei der Arbeitsmappe (erforderlich).
+ **`Config.setPictureCacheDirectory`** für den Cache der Bilddateien in der Arbeitsmappe (optional, der Standardwert ist _piccache im Dateicache-Verzeichnis).
 
-Für Details zur Speicherung schauen Sie sich dieses [Handbuch](/java/aspose-cells-gridjs/storage/) an
+Für die Speicher-Details, bitte prüfen Sie diese [Anleitung](/java/aspose-cells-gridjs/storage/)
 
 ## 1. Implementieren von GridCacheForStream
 Für die lokale Dateispeicherung, hier ist ein Beispiel:
@@ -72,7 +72,7 @@ public class LocalFileCache extends GridCacheForStream {
 }
 ```
 
-## 2. Schreiben von JSON aus der Tabellendatei in den Antwort-Stream.
+## 2. Schreiben Sie JSON aus der Tabellenkalkulationsdatei in den Antwort-Stream.
 ```JAVA
             GridJsWorkbook wbj = new GridJsWorkbook();
             try (GZIPOutputStream gzipOutputStream = new GZIPOutputStream(response.getOutputStream())) {

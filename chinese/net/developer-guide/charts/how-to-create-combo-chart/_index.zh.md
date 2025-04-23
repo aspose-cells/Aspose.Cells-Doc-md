@@ -20,3 +20,4 @@ Excel中的组合图表让您能够利用此选项，因为您可以轻松地组
 以下示例代码加载了[示例Excel文件](combo.xlsx)并生成了[输出Excel文件](out.xlsx)。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-combo-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -63,3 +63,4 @@ Aspose.Cells - очень полезная библиотека обработк
 
 * [Больше о Apache POI](https://poi.apache.org/)
 
+{{< app/cells/assistant language="csharp" >}}

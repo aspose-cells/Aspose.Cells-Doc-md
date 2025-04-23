@@ -26,3 +26,4 @@ url: /ru/java/determine-if-shape-is-smart-art-shape/
 Is Smart Art Shape: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

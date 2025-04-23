@@ -22,3 +22,4 @@ Aspose.Cells还提供了[**PivotTable.showInCompactForm()**](https://reference.a
 以下示例代码首先以**紧凑形式**显示数据透视表，然后以**大纲形式**显示数据透视表，最后以**表格形式**显示数据透视表
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangingLayoutofPivotTable-ChangingLayoutofPivotTable.java" >}}
+{{< app/cells/assistant language="java" >}}

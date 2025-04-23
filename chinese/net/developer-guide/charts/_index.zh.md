@@ -194,3 +194,4 @@ Aspose.Cells提供了一组特殊的类，位于[**Aspose.Cells.Charts**](https:
 - [管理Excel图表的标题](/cells/zh/net/chart-and-axis-titles/)
 - [图表渲染](/cells/zh/net/chart-rendering/)
 - [获取图表趋势线的方程文本](/cells/zh/net/get-equation-text-of-chart-trendline/)
+{{< app/cells/assistant language="csharp" >}}

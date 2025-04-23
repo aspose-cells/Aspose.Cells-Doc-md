@@ -34,3 +34,4 @@ Le code d'exemple ci-dessous crée un fichier XLSX à partir de zéro en utilisa
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddPictureToExcelComment-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

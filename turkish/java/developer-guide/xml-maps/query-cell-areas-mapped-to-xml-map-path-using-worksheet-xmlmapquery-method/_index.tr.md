@@ -7,11 +7,11 @@ url: /tr/java/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquer
 
 ## **Olası Kullanım Senaryoları**
 
-Aspose.Cells kullanarak XML haritası yoluna eşlenen hücre alanlarını sorgulayabilirsiniz. Path varsa, XML haritası içinde o yola ilişkin hücre alanları listesini döndürecektir. [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)) yönteminin ilk parametresi XML öğe yolu, ikinci parametresi sorgulamak istediğiniz XML haritasını belirtir.
+Aspose.Cells kullanarak XML haritası yoluna eşlenen hücre alanlarını sorgulayabilirsiniz. Path varsa, XML haritası içinde o yola ilişkin hücre alanları listesini döndürecektir. [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery-java.lang.String-com.aspose.cells.XmlMap-) yönteminin ilk parametresi XML öğe yolu, ikinci parametresi sorgulamak istediğiniz XML haritasını belirtir.
 
 ## **Worksheet.XmlMapQuery yöntemini kullanarak XML Haritası Yoluna Eşlenmiş Hücre Alanlarını Sorgula**
 
-Aşağıdaki ekran görüntüsü, kodda kullanılan [örnek Excel dosyasını](55541818.xlsx) göstermekte ve kod, XML haritasını iki kez sorgular ve [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)) yöntemi tarafından döndürülen hücre alanları listesini konsolda aşağıda gösterildiği gibi yazdırır.
+Aşağıdaki ekran görüntüsü, kodda kullanılan [örnek Excel dosyasını](55541818.xlsx) göstermekte ve kod, XML haritasını iki kez sorgular ve [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery-java.lang.String-com.aspose.cells.XmlMap-) yöntemi tarafından döndürülen hücre alanları listesini konsolda aşağıda gösterildiği gibi yazdırır.
 
 ![todo:image_alt_text](query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method_1.png)
 
@@ -50,3 +50,4 @@ XML verileri çalışsayfalarına içe aktarılabilir. Bazen çalışsayfanın L
 1. [FoodList.xml](FoodList.xml)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-XmlMaps-GetXMLPathFromListObject.java" >}}
+{{< app/cells/assistant language="java" >}}

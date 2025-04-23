@@ -51,3 +51,4 @@ keywords: تجميد الصفوف الأعلى، تجميد الصف الأعل�
 توفر Aspose.Cells for .Net طريقة [**Worksheet.RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/removesplit/) لإزالة إعداد التقسيم.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Remove-Split.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

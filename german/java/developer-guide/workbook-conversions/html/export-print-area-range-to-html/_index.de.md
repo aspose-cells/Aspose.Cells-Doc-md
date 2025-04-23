@@ -17,3 +17,4 @@ Nachfolgender Beispielscode lädt eine Arbeitsmappe und exportiert dann den Druc
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HTML-ExportPrintAreaToHtml-1.java" >}}
 
+{{< app/cells/assistant language="java" >}}

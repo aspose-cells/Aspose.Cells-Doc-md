@@ -22,3 +22,4 @@ url: /zh/net/formatting-smart-markers/
 该示例使用包含一些标记的 [数据文件](96927971.xlsx)和一个[模板文件](96927972.xlsx)。执行代码时，Aspose.Cells在汇总行中为分组数据添加了一些自定义标签。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-AddCustomLabels-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

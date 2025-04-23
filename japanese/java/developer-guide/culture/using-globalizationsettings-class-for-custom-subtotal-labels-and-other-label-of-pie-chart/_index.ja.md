@@ -10,11 +10,11 @@ Aspose.CellsのAPIは、スプレッドシートでサブトータルのカス�
 ## **GlobalizationSettingsクラスの紹介**
 [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings)クラスは現在、以下の3つのメソッドを提供しており、これらはカスタムクラスでオーバーライドし、サブトータルのために望ましいラベルを取得するために使用することができます。また、円グラフの**Other**ラベルに対してカスタムテキストをレンダリングすることもできます。
 
-1. [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)): 関数の合計名を取得します。
-1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)): 関数の総合計名を取得します。
-1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)): 円グラフの「その他」ラベルの名前を取得します。
+1. [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName-int-): 関数の合計名を取得します。
+1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName-int-): 関数の総計名を取得します。
+1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--): パイチャートの「その他」ラベルの名前を取得します。
 ### **サブトータルのカスタムラベル**
-[GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) クラスを使用して、[GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)) と [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)) メソッドを上書きして小計のラベルをカスタマイズできます。
+[GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings)クラスは、[GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName-int-)と[GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName-int-)メソッドをオーバーライドして、小計ラベルをカスタマイズするために使用できます。前述の例も参考にしてください。
 
 
 
@@ -33,7 +33,7 @@ Aspose.CellsのAPIは、スプレッドシートでサブトータルのカス�
 
 {{% /alert %}} 
 ### **円グラフの他のラベルのカスタムテキスト**
-[GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) クラスは、円グラフの「その他」ラベルにカスタム値を与えるのに役立つ [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)) メソッドを提供します。以下のスニペットは、デフォルトの言語設定に基づいてカスタムラベルを取得するために、カスタムクラスを定義し [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)) メソッドを上書きしています。
+[GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings)クラスは、[getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--)メソッドを提供しており、ピーチャートの「Other」ラベルにカスタム値を設定できます。以下のスニペットは、カスタムクラスを定義し、[getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--)メソッドをオーバーライドして、JVMに設定されたデフォルト言語に基づくカスタムラベルを取得する例です。
 
 
 
@@ -50,3 +50,4 @@ Aspose.CellsのAPIは、スプレッドシートでサブトータルのカス�
 マシンのロケールがフランスに設定されている場合の結果画像は以下の通りです。*CustomSettings* クラスで定義したように、「その他」ラベルは「Autre」に翻訳されていることがわかります。
 
 ![todo:image_alt_text](using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart_1.png)
+{{< app/cells/assistant language="java" >}}

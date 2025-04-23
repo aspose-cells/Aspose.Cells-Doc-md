@@ -58,3 +58,4 @@ Excel предоставляет функции для сортировки да
 ## **Продвинутые темы**
 - [Сортировка данных в столбце с пользовательским списком](/cells/ru/net/sort-data-in-column-with-custom-sort-list/)
 - [Указание предупреждения при сортировке данных](/cells/ru/net/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="csharp" >}}

@@ -26,3 +26,4 @@ Följande exempelkod skapar tre linjer och ställer in horisontell justering fö
 
 
 
+{{< app/cells/assistant language="java" >}}

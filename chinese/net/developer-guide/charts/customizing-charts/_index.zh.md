@@ -26,3 +26,4 @@ url: /zh/net/customizing-charts/
 目前 Aspose.Cells 只支持结合饼图、折线图、柱状图和堆积柱状图的自定义图表，但未来版本将支持更多的图表类型。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

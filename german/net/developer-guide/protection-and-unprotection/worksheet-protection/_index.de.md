@@ -38,3 +38,4 @@ Das Aufheben des Arbeitsblatts ist mit der Aspose.Cells-API einfach. Wenn das Ar
 - [Arbeitsblätter schützen](/cells/de/net/protecting-worksheets/)
 - [Arbeitsblatt entsperren](/cells/de/net/unprotect-a-worksheet/)
 - [Überprüfen Sie das verwendete Kennwort zum Schutz des Arbeitsblatts](/cells/de/net/verify-password-used-to-protect-the-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

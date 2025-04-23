@@ -16,3 +16,4 @@ Aspose.Cells 提供将电子表格转换为 CSV 格式时保留行分隔符的�
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-KeepSeparatorsForBlankRow-1.java" >}}
+{{< app/cells/assistant language="java" >}}

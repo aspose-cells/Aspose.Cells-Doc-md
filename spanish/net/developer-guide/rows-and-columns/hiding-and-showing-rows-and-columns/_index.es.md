@@ -53,3 +53,4 @@ Los desarrolladores pueden ocultar múltiples filas o columnas a la vez llamando
 También es posible usar los métodos [**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) y [**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns) de la clase [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) para hacer varias filas y columnas visibles.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -133,3 +133,4 @@ FileFormatTypeクラスに、XLSX、DOCX、PPTXなどのOffice Open XMLファイ
 Aspose.Cells for JavaでgetFilterColumnCollectionメソッドが廃止されました。AuotFilter.getFilterColumnsメソッドを代わりに使用することが推奨されています。
 ## **SeriesCollection.SecondCatergoryDataをSeriesCollection.SecondCategoryDataに置き換えました**
 SeriesCollection.getSecondCatergoryDataのメソッド名のタイプミスを修正しました。以降、SeriesCollection.getSecondCategoryDataメソッドを使用することができます。一方、元のメソッドSeriesCollection.getSecondCatergoryDataが廃止されました。
+{{< app/cells/assistant language="java" >}}

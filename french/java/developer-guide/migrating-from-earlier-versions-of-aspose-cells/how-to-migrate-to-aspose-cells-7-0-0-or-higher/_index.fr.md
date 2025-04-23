@@ -42,3 +42,4 @@ Worksheets.size() (Ancien) -> WorksheetCollection.getCount() (Nouveau), ...,etc.
 
 4) Les méthodes getter des propriétés booléennes dont les noms commencent par 'is' dans v2.5.4 ou antérieure sont changées. Dans v7.0.0, elles commencent par "get" :
 par exemple, PageSetup.isBlackAndWhite() (Ancien) -> PageSetup.getBlackAndWhite() (Nouveau), ...,etc.
+{{< app/cells/assistant language="java" >}}

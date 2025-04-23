@@ -53,3 +53,4 @@ Aspose.Cells for .NET a été capable de convertir des feuilles de calcul en ima
 - [Conversion de graphique en image au format SVG](/cells/fr/net/converting-chart-to-image-in-svg-format/)
 - [Exportation du graphique en SVG avec l'attribut viewBox](/cells/fr/net/export-chart-to-svg-with-viewbox-attribute/)
 - [Suivre la progression de la conversion d'Excel en TIFF](/cells/fr/net/track-conversion-progress-of-excel-to-tiff/)
+{{< app/cells/assistant language="csharp" >}}

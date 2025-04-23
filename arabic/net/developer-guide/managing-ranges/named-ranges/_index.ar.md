@@ -30,3 +30,4 @@ url: /ar/net/create-workbook-and-worksheet-scoped-named-ranges/
 - [تنسيق وتعديل نطاقات مسماة](/cells/ar/net/format-and-modify-named-ranges/)
 - [الحصول على نطاق مع روابط خارجية](/cells/ar/net/get-range-with-external-links/)
 - [تنفيذ نطاقات غير متتابعة](/cells/ar/net/implementing-non-sequential-ranges/)
+{{< app/cells/assistant language="csharp" >}}

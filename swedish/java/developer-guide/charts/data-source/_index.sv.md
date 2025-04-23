@@ -40,3 +40,4 @@ Kategoridata används för etikettering av diagramdata och kan läggas till i [
 - [Enkel väg för diagramuppställning genom att använda Chart.setChartDataRange metoden](/cells/sv/java/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [Hitta typ av X- och Y-värden för punkter i diagramserier](/cells/sv/java/find-type-of-x-and-y-values-of-points-in-chart-series/)
 - [Ställ in värdenas formatkod för diagramserier](/cells/sv/java/set-the-values-format-code-of-chart-series/)
+{{< app/cells/assistant language="java" >}}

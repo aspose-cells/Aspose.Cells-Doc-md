@@ -59,3 +59,4 @@ Aşağıdaki örnek kod, [**ExportRangeToJsonOptions**](https://reference.aspos
 ]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

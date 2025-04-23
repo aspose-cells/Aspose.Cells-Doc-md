@@ -56,3 +56,4 @@ Aspose.Cells позволяет разработчикам получить ма
 Вы можете получить доступ к максимальному диапазону отображения листа с помощью [**Worksheet.Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange). В следующем примере кода показано, как получить доступ к свойству [**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

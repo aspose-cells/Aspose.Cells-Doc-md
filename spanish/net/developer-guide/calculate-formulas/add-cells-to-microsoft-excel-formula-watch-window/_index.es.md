@@ -20,3 +20,4 @@ El siguiente código de muestra establece la fórmula de las celdas C1 y E1 y ag
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Formulas-AddCellsToMicrosoftExcelFormulaWatchWindow.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -16,3 +16,4 @@ url: /ja/java/remove-white-spaces-from-the-data-before-rendering-to-image/
 シートを画像に変換する機能を使用すると、出力画像にはデフォルトでホワイト/ブランクスペース、つまり周囲にボーダーがあります。このボーダーを削除できます。ソースワークシートの上部、左部、下部、右部のページ設定マージンを0に設定し、それに応じて[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)属性を指定します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-RemoveWhitespaceAroundData-1.java" >}}
+{{< app/cells/assistant language="java" >}}

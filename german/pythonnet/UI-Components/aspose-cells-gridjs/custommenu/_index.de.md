@@ -4,11 +4,36 @@ type: docs
 weight: 250
 url: /de/python-net/aspose-cells-gridjs/custommenu/
 description: Dieser Artikel beschreibt, wie Sie Kontextmenüs für GridJs konfigurieren können.
-keywords: gridjs, menü, benutzerdefiniertes Menü, Kontextmenü
+keywords: GridJs, benutzerdefinierte Menüpunkte, Kontextmenü, benutzerdefiniert, Kontext, Menü
+aliases:
+  - /python-net/aspose-cells-gridjs/how-to-custom-context-menu/
+  - /python-net/aspose-cells-gridjs/how-to-custom-context-menus/
+  - /python-net/aspose-cells-gridjs/work-with-context-menu/
+  - /python-net/aspose-cells-gridjs/work-with-context-menus/
 ---
+# Benutzerdefinierte integrierte Kontextmenüs
+Wir haben einige integrierte Elemente im Kontextmenü, z.B. Zeile/Spalte einfügen/löschen usw.
+Zum Beispiel: Um die Menüeinträge "Zeile löschen", "Link", "Verstecken" im Kontextmenü zu löschen, nehmen wir an, die Div-ID von GridJs ist "gridjs-divid".
+```javascript
+   //get context menus parent dom
+   const menus=document.querySelector("#gridjs-divid > div > div.x-spreadsheet-sheet > div.x-spreadsheet-contextmenu");
+   var childs = menus.childNodes;
+   for (var i = childs.length - 1; i >= 0; i--)
+   {  
+     // check the item text
+     if(childs[i].childNodes[0]?.textContent==="Delete row"||childs[i].childNodes[0]?.textContent==="Link"||childs[i].childNodes[0]?.textContent==="Hide")
+       {
+         menus.removeChild(childs[i]);
+       }
+   }
+```
+Nach Aufruf dieser Funktion 
 
-# Benutzerdefinierte Kontextmenüs
-Wir haben einige integrierte Kontextmenüelemente, zum Beispiel Zeile/Spalte einfügen/löschen und so weiter
+![Todo: Die Oberfläche zum Anpassen der integrierten Menüeinträge](gridjs_customize_build_in_context_menu.png)
+
+
+# Benutzerdefinierte selbstdefinierte Kontextmenüs
+Wir haben einige integrierte Elemente im Kontextmenü, z.B. Zeile/Spalte einfügen/löschen usw.
 Wenn der Benutzer jedoch benutzerdefinierte Kontextmenüelemente wünscht.
 Wir unterstützen das Festlegen von Kontextmenüelementen in den Ladenoptionen.
 zum Beispiel:

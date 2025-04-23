@@ -44,3 +44,4 @@ cells.MemorySetting = MemorySetting.MemoryPreference;
 [大規模なデータセットを使用する際のメモリ使用量の最適化](/cells/ja/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)に関する詳細な記事をご覧ください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

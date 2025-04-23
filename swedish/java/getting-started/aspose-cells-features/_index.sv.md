@@ -106,3 +106,4 @@ Du kan använda Aspose.Cells for Java för att implementera siduppsättningsalte
 |Ange utskriftsområde, utskriftsrubriker eller slå på rutnätet osv.|Ja|
 
 
+{{< app/cells/assistant language="java" >}}

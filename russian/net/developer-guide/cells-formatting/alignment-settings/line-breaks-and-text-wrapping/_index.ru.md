@@ -24,3 +24,4 @@ url: /ru/net/line-breaks-and-text-wrapping/
 Вы можете использовать '\n' в C# и 'vbLf' в VB.NET для вставки явных переносов строк в ячейку.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-UseExplicitLineBreaks-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

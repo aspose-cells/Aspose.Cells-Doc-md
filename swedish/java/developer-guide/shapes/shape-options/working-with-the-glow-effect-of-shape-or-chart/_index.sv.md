@@ -28,3 +28,4 @@ Följande kodexempel laddar [käll-excel-filen](5472520.xlsx) och får åtkomst 
 
 
 
+{{< app/cells/assistant language="java" >}}

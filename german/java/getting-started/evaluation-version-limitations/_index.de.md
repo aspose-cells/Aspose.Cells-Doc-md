@@ -47,3 +47,4 @@ In der Ausgabedatei im PDF- oder Bildformat von Aspose.Cells wird ein Evaluierun
 <br>
 <image src="3.png" width="70%" />
 <br>
+{{< app/cells/assistant language="java" >}}

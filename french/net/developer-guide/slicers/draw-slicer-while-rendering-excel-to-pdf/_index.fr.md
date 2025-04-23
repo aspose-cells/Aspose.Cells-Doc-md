@@ -13,3 +13,4 @@ Le code d'exemple suivant charge le [fichier Excel d'exemple](94044165.xlsx) con
 ![todo:image_alt_text](draw-slicer-while-rendering-excel-to-pdf_1.jpg)
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Slicers-ExportSlicerToPDF-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -26,3 +26,4 @@ Puoi eliminare qualsiasi foglio di lavoro in un workbook. Per eliminare un fogli
 {{< /highlight >}}
 ## **Scarica**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DeleteWorksheetsFromWorkbooks.zip)
+{{< app/cells/assistant language="csharp" >}}

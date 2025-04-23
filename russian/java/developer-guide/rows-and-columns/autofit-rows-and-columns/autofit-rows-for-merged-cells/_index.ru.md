@@ -25,3 +25,4 @@ Aspose.Cells поддерживает эту функцию через API. С �
 
 - [Подбор строк и столбцов](/cells/ru/java/autofit-rows-and-columns/)
 - [Настройка высоты строки и ширины столбца](/cells/ru/java/adjusting-row-height-and-column-width/)
+{{< app/cells/assistant language="java" >}}

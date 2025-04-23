@@ -29,3 +29,4 @@ Aspose.Cells предоставляет свойства [**PivotTable.DisplayNu
 ## Связанные статьи
 
 - [Форматирование сводной таблицы](/cells/ru/net/formatting-pivot-table/)
+{{< app/cells/assistant language="csharp" >}}

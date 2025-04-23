@@ -21,12 +21,19 @@ Villkorlig formatering kan:
 
 Aspose.Cells stöder fullt ut den villkorliga formateringen som tillhandahålls av Microsoft Excel 2007 och senare versioner i XLSX-format på celler vid körning. Detta exempel visar en övning för avancerade typer av villkorlig formatering inklusive Ikonsatser, Databar, Färgskalor, Tidsperioder, Topp/Botten och andra regler med olika uppsättningar attribut.
 
+- [**Adding Color Scale Conditional Formattings**](/cells/sv/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/)
+- [**Adding Above Average Conditional Formattings**](/cells/sv/net/how-to-add-above-average-conditional-formatting/)
+- [**Adding DataBars Conditional Formattings**](/cells/sv/net/how-to-add-databars-conditional-formatting/)
+- [**Adding IonSets Conditional Formattings**](/cells/sv/net/how-to-add-icon-sets-conditional-formatting/)
+- [**Adding Text Conditional Formattings**](/cells/sv/net/how-to-add-text-conditional-formatting/)
+- [**Adding TimePeriods Conditional Formattings**](/cells/sv/net/how-to-add-time-periods-conditional-formatting/)
+- [**Adding Top10 Conditional Formattings**](/cells/sv/net/how-to-add-top10-conditional-formatting/)
 
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConditionalFormatting-1.cs" >}}
 ### **Beräkna färgen som valts av Microsoft Excel för villkorlig formatering med färgskala**
 Aspose.Cells låter dig beräkna den färg som valts av Microsoft Excel när villkorlig formatering med färgskala används i en mallfil. Se det exempelkod nedan för att lära dig hur du beräknar den färg som valts av Microsoft Excel.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ComputeColorChoosenByMSExcel-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

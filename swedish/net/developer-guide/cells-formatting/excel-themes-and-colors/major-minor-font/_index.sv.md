@@ -46,3 +46,4 @@ Vi måste ställa in systemets regionala inställningar innan vi laddar filen me
 Följande exempelkod visar hur man får lokaltematypsnitt.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Local-Theme-Font.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

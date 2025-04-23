@@ -14,3 +14,4 @@ url: /ru/net/generate-reports-populate-documents-with-data/
   - [Изображения-маркеры в Aspose.Cells](/cells/ru/net/image-markers-in-aspose-cells/)
   - [Использование анонимных типов или пользовательских объектов в Aspose.Cells](/cells/ru/net/using-anonymous-types-or-custom-objects-in-aspose-cells/)
   - [Использование вложенных объектов в Aspose.Cells](/cells/ru/net/using-nested-objects-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

@@ -52,3 +52,4 @@ Afin de simplifier la démonstration et de la rendre compréhensible, nous crée
 1. Enregistrez le résultat sur le disque.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-UsingDynamicFormula-CreateDynamicChartsUsingDynamicFormula.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -27,3 +27,4 @@ ExcelファイルをJSONに変換する方法を疑問に思う必要はあり�
 以下のコード例は、JSON文字列をExcelワークブックにインポートする方法を示しています。JSONのインポート時にレイアウトの場所を指定することもできます。コードで生成されたxlsxファイルへの変換のために、JSON文字列を参照してください。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Convert-JSON-String-to-Excel.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

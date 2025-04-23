@@ -24,3 +24,4 @@ url: /ru/java/change-the-font-on-just-the-specific-unicode-characters-while-savi
 ![todo:image_alt_text](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeFontonspecificUnicodecharacters-ChangeFontonspecificUnicodecharacters.java" >}}
+{{< app/cells/assistant language="java" >}}

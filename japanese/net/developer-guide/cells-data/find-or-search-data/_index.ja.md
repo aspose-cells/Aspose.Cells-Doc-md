@@ -65,3 +65,4 @@ Aspose.Cellsは、Microsoft Excelファイルを表す[**Workbook**](https://ref
 - [指定したスタイルのセルを見つける](/cells/ja/net/find-cells-with-specific-style/)
 - [セルの値がシングルクォートマークで始まるかどうかを検索](/cells/ja/net/find-if-the-cell-value-starts-with-single-quote-mark/)
 - [元の値を使用したデータの検索](/cells/ja/net/search-data-using-original-values/)
+{{< app/cells/assistant language="csharp" >}}

@@ -36,3 +36,4 @@ BoxWhisker
 
 ## **Sujets avancés**
 - [Création de Graphique en Cascade](/cells/fr/java/creating-waterfall-chart/)
+{{< app/cells/assistant language="java" >}}

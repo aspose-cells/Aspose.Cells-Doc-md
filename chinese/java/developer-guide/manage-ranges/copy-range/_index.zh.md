@@ -33,3 +33,4 @@ Aspose.Cells支持使用特定类型粘贴范围。
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Copy-Range-Data.java" >}}
 
 
+{{< app/cells/assistant language="java" >}}

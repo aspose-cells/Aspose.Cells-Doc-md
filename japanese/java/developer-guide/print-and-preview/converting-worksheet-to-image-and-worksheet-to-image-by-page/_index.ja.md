@@ -15,7 +15,7 @@ url: /ja/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/
 
 ## **Aspose.Cellsを使用してワークシートを画像ファイルに変換する方法**
 
-この記事では、Aspose.Cells for Java APIを使用してワークシートをイメージに変換する方法について説明します。APIは、[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender)、[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)、[**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender)など、いくつかの貴重なクラスを提供しています。[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) クラスは、ワークシートを描画し、そのワークシートのイメージを生成するための[**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream))メソッドをオーバーロードされたものを提供しています。
+この記事では、Aspose.Cells for Java APIを使用してワークシートをイメージに変換する方法について説明します。APIは、[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender)、[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)、[**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender)など、いくつかの貴重なクラスを提供しています。[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) クラスは、ワークシートを描画し、そのワークシートのイメージを生成するための[**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage-int-java.io.OutputStream-)メソッドをオーバーロードされたものを提供しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ConvertWorksheettoImageFile-1.java" >}}
 
@@ -55,3 +55,4 @@ url: /ja/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/
 
 - [ワークシートを異なる画像形式に変換する](/cells/ja/java/converting-worksheet-to-different-image-formats/)
 - [希望の幅と高さでワークシートまたはチャートを画像にエクスポート](/cells/ja/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+{{< app/cells/assistant language="java" >}}

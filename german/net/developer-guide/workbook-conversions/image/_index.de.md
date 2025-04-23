@@ -53,3 +53,4 @@ Seit Version 7.1.0 kann Aspose.Cells for .NET Arbeitsblätter in SVG-Bilder konv
 - [Konvertieren eines Diagramms in ein Bild im SVG-Format](/cells/de/net/converting-chart-to-image-in-svg-format/)
 - [Diagramm in SVG mit viewBox-Attribut exportieren](/cells/de/net/export-chart-to-svg-with-viewbox-attribute/)
 - [Konvertierungsvorgang von Excel nach TIFF verfolgen](/cells/de/net/track-conversion-progress-of-excel-to-tiff/)
+{{< app/cells/assistant language="csharp" >}}

@@ -73,3 +73,4 @@ Ladda ner formuläret **Arbeta med att frysa rutor** från någon av de nedan n�
 För mer information, besök [Arbeta med kalkylblad](/cells/sv/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

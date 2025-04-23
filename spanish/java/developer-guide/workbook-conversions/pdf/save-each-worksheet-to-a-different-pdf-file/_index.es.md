@@ -20,3 +20,4 @@ Si necesita guardar cada hoja de trabajo en su archivo de Excel de plantilla par
 Si la hoja de cálculo contiene fórmulas, es mejor llamar al método [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) justo antes de representar la hoja de cálculo en PDF. Esto garantiza que se recalculen los valores dependientes de la fórmula y se representen los valores correctos en el PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

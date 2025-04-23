@@ -22,3 +22,4 @@ url: /ar/java/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
 إذا كان الجدول الخاص بك يحتوي على صيغ، من الأفضل استدعاء [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) قبل عرضه إلى صيغة PDF. فعل ذلك يضمن إعادة حساب القيم المعتمدة على الصيغ، ويتم عرض القيم الصحيحة في الملف الناتج.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

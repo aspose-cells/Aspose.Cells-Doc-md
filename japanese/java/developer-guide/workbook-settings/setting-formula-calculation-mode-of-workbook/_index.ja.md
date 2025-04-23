@@ -23,7 +23,7 @@ Microsoft Excelでの式計算モードを設定するには:
 Aspose.Cellsでは、[**FormulaSettings.CalculationMode**](https://reference.aspose.com/cells/java/com.aspose.cells/formulasettings#CalculationMode) プロパティを使用して**式計算モード**を設定できます。それには[**CalcModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/CalcModeType) 列挙型を代入でき、次のいずれかの値を持ちます:
 
 - [**CalcModeType.AUTOMATIC**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC)
-- [**CalcModeType.AUTOMATIC_EXCEPT_TABLE**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC_EXCEPT_TABLE)
+- [**CalcModeType.AUTOMATIC_EXCEPT_TABLE**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC-EXCEPT-TABLE)
 - [**CalcModeType.MANUAL**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#MANUAL)
 
 以下のサンプルコードはまずワークブックを作成し、次に式計算モードを**マニュアル**に設定し、ワークブックをディスク上の出力Excelファイルとして保存します。
@@ -33,3 +33,4 @@ Aspose.Cellsでは、[**FormulaSettings.CalculationMode**](https://reference.asp
 ![todo:image_alt_text](setting-formula-calculation-mode-of-workbook_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetFormulaCalculationMode-SetFormulaCalculationMode.java" >}}
+{{< app/cells/assistant language="java" >}}

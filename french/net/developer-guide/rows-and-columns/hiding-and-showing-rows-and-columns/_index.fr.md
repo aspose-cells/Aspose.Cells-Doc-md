@@ -53,3 +53,4 @@ Les développeurs peuvent masquer plusieurs lignes ou colonnes en une seule fois
 Il est également possible d'utiliser les méthodes [**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) et [**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns) de la classe [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) pour rendre plusieurs lignes et colonnes visibles.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

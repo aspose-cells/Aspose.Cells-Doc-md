@@ -22,3 +22,4 @@ Vous pouvez télécharger le fichier Excel source et le PDF final à partir des 
 ### Code C# pour rafraîchir les valeurs des formes liées
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RefreshValueOfLinkedShapes-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

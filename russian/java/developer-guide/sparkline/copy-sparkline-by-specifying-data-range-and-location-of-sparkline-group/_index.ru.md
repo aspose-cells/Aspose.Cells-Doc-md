@@ -33,3 +33,4 @@ Aspose.Cells предоставляет метод [**SparklineCollection.add(da
 Приведенный ниже образец кода загружает исходный файл Excel, как показано на снимке выше, затем обращается к первой группе мини-графиков и добавляет диапазоны и местоположения внутри группы мини-графиков. Наконец, он записывает выходной файл Excel на диск, который также показан на снимке выше.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopySparkline-CopySparkline.java" >}}
+{{< app/cells/assistant language="java" >}}

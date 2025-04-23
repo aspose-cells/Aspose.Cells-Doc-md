@@ -11,8 +11,8 @@ Aspose.Cells vous permet de modifier la direction des libellés de graduation du
 
 - [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
 - [**VERTICAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)
-- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)
-- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_270)
+- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90)
+- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-270)
 - [**STACKED**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#STACKED)
 
 L'image suivante compare les fichiers source et de sortie
@@ -25,7 +25,7 @@ L'image suivante compare les fichiers source et de sortie
 
 ![todo:image_alt_text](change-tick-label-direction_2.jpg)
 
-Le snippet de code suivant modifie la direction des libellés de graduation de [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90) à [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
+Le snippet de code suivant modifie la direction des libellés de graduation de [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90) à [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
 
 ### **Code d'exemple**
 
@@ -36,3 +36,4 @@ Les fichiers source et de sortie peuvent être téléchargés à partir des lien
 [Fichier source](SampleChangeTickLabelDirection.xlsx)
 
 [Fichier de sortie](outputChangeChartDataLableDirection.xlsx)
+{{< app/cells/assistant language="java" >}}

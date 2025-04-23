@@ -18,3 +18,4 @@ Puedes usar Aspose.Cells para crear una etiqueta de datos personalizada con text
 El siguiente código accede al primer punto del gráfico de la primera serie, establece su texto y luego establece la fuente de los primeros 10 caracteres cambiando su color a rojo y la negrita a **true**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RichTextCustomDataLabel-RichTextCustomDataLabelOfChartPoint.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -36,13 +36,13 @@ Pour ajouter des commentaires enfilés dans Excel 365, suivez les étapes suivan
   - Cela ouvrira une boîte de dialogue pour saisir des commentaires dans la cellule active.
   - ![todo:image_alt_text](threaded-comments_5)
 ### **Ajouter un commentaire enfilé à l'aide d'Aspose.Cells**
-Aspose.Cells fournit la méthode [Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment\(java.lang.String,%20java.lang.String,%20com.aspose.cells.ThreadedCommentAuthor\)) pour ajouter des commentaires threadés. La méthode [Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment\(java.lang.String,%20java.lang.String,%20com.aspose.cells.ThreadedCommentAuthor\)) accepte les trois paramètres suivants.
+Aspose.Cells fournit la méthode [Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment-java.lang.String-java.lang.String-com.aspose.cells.ThreadedCommentAuthor-) pour ajouter des commentaires groupés. La méthode [Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment-java.lang.String-java.lang.String-com.aspose.cells.ThreadedCommentAuthor-) accepte les trois paramètres suivants.
 
 - Nom de la cellule : Le nom de la cellule où le commentaire sera inséré.
 - Texte du commentaire : Le texte du commentaire.
 - [ThreadedCommentAuthor](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentAuthor): L'auteur du commentaire
 
-L'extrait de code suivant démontre l'utilisation de la méthode [Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment\(java.lang.String,%20java.lang.String,%20com.aspose.cells.ThreadedCommentAuthor\)) pour ajouter un commentaire threadé à la cellule A1. Veuillez consulter le [fichier Excel de sortie ](AddThreadedComments_out.xlsx)généré par le code pour référence.
+L'exemple de code suivant montre l'utilisation de la méthode [Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment-java.lang.String-java.lang.String-com.aspose.cells.ThreadedCommentAuthor-) pour ajouter un commentaire groupé à la cellule A1. Veuillez consulter le [fichier Excel généré](AddThreadedComments_out.xlsx) pour référence.
 #### **Code d'exemple**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddThreadedComments-1.java" >}}
 ## **Lire les Commentaires enfilés**
@@ -51,7 +51,7 @@ Pour lire des commentaires enfilés dans Excel, survolez simplement la cellule c
 
 ![todo:image_alt_text](threaded-comments_1.jpg)
 ### **Lire des commentaires enfilés à l'aide d'Aspose.Cells**
-Aspose.Cells fournit la méthode [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) pour récupérer les commentaires threadés pour la colonne spécifiée. La méthode [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) accepte le nom de colonne en tant que paramètre et renvoie la [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Vous pouvez itérer sur la [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection) pour visualiser les commentaires.
+Aspose.Cells fournit la méthode [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments-java.lang.String-) pour récupérer les commentaires groupés pour la colonne spécifiée. La méthode [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments-java.lang.String-) accepte le nom de la colonne en paramètre et retourne la [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Vous pouvez parcourir la collection pour voir les commentaires.
 
 L'exemple suivant démontre la lecture des commentaires de la colonne A1 en chargeant le [fichier Excel d'exemple](ThreadedCommentsSample.xlsx). Veuillez voir la sortie de la console générée par le code pour référence.
 #### **Code d'exemple**
@@ -67,7 +67,7 @@ Author: Aspose Test
 {{< /highlight >}}
 
 ### **Lire l'heure de création des commentaires en fil**
-Aspose.Cells fournit la méthode [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) pour récupérer les commentaires enfilés pour la colonne spécifiée. La méthode [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) accepte le nom de la colonne comme paramètre et renvoie le [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Vous pouvez itérer sur le [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection) et utiliser la propriété [ThreadedComment.CreatedTime](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcomment#CreatedTime).
+Aspose.Cells fournit la méthode [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments-java.lang.String-) pour récupérer les commentaires groupés pour la colonne spécifiée. La méthode accepte le nom de la colonne comme paramètre et retourne la [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Vous pouvez parcourir la collection et utiliser la propriété [ThreadedComment.CreatedTime](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcomment#CreatedTime).
 
 L'exemple suivant démontre la lecture de l'heure de création des commentaires enfilés en chargeant le [fichier Excel d'exemple](ThreadedCommentsSample.xlsx). Veuillez voir la sortie de la console générée par le code pour référence.
 #### **Code d'exemple**
@@ -90,7 +90,7 @@ Pour modifier un commentaire enfilé dans Excel, cliquez sur le lien **Modifier
 
 ![todo:image_alt_text](threaded-comments_7.jpg)
 ### **Modifier le commentaire en fil en utilisant Aspose.Cells**
-Aspose.Cells fournit la méthode [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) pour récupérer les commentaires enfilés pour la colonne spécifiée. La méthode [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) accepte le nom de la colonne comme paramètre et renvoie le [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Vous pouvez mettre à jour le commentaire requis dans le [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection) et enregistrer le classeur.
+Aspose.Cells fournit la méthode [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments-java.lang.String-) pour récupérer les commentaires groupés pour la colonne spécifiée. La méthode accepte le nom de la colonne comme paramètre et retourne la [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Vous pouvez mettre à jour le commentaire requis dans la collection et enregistrer le classeur.
 
 L'exemple suivant démontre l'édition du premier commentaire enfilé dans la colonne A1 en chargeant le [fichier Excel d'exemple](ThreadedCommentsSample.xlsx). Veuillez voir le [fichier Excel de sortie](EditThreadedComments.xlsx) généré par le code montrant le commentaire mis à jour pour référence.
 #### **Code d'exemple**
@@ -101,7 +101,7 @@ Pour supprimer les commentaires en filigrane dans Excel, cliquez avec le bouton 
 
 ![todo:image_alt_text](threaded-comments_8.jpg)
 ### **Supprimer les commentaires en filigrane à l'aide de Aspose.Cells**
-Aspose.Cells fournit la méthode [Comments.RemoveAt](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#removeAt\(int\)) pour supprimer les commentaires de la colonne spécifiée. La méthode [Comments.RemoveAt](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#removeAt\(int\)) accepte le nom de la colonne comme paramètre et supprime les commentaires de cette colonne. 
+Aspose.Cells fournit la méthode [Comments.RemoveAt](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#removeAt-int-) pour supprimer les commentaires de la colonne spécifiée. La méthode accepte le nom de la colonne en paramètre et supprime les commentaires dans cette colonne. 
 
 L'exemple suivant démontre comment supprimer les commentaires dans la colonne A1 en chargeant le [fichier Excel d'exemple](ThreadedCommentsSample.xlsx). Veuillez consulter le [fichier Excel de sortie](ThreadedCommentsSample_Out.xlsx) généré par le code pour référence.
 #### **Code d'exemple**
@@ -109,6 +109,7 @@ L'exemple suivant démontre comment supprimer les commentaires dans la colonne A
 
 {{% alert color="primary" %}} 
 
-Veuillez noter que en supprimant le commentaire avec Aspose.Cells, l'auteur n'est pas automatiquement supprimé. Si vous devez également supprimer l'auteur, veuillez utiliser la méthode [ThreadedCommentAuthorCollection.removeAt](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcommentauthorcollection#removeAt\(int\)) comme indiqué dans l'exemple ci-dessus.
+Veuillez noter qu'en supprimant un commentaire avec Aspose.Cells, l'auteur n'est pas automatiquement supprimé. Si vous souhaitez également supprimer l'auteur, utilisez la méthode [ThreadedCommentAuthorCollection.removeAt](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcommentauthorcollection#removeAt-int-) comme dans l'exemple ci-dessus.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

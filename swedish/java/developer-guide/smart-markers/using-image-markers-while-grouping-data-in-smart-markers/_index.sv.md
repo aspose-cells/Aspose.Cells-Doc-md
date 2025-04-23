@@ -23,10 +23,11 @@ Följande kodexempel skapar en arbetsbok och lägger sedan till de följande sma
 
 {{< /highlight >}}
 
-Sedan fyller den datakällan med data och anropar [WorkbookDesigner.Process()](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process\(\)) metoden för att bearbeta smarternamnstaggarna. Koden använder dessa bilder dvs [moon.png](5472549.png) och [moon2.png](5472548.png) men du kan använda vilken bild som helst. Följande skärmbild visar resultatet av denna kodexempel. Som du kan se är datan i kolumn E och F grupperade med avseende på datan i kolumn D.
+Sedan fyller den datakällan med data och anropar [WorkbookDesigner.Process()](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process--) metoden för att bearbeta smartmerkretiketter. Koden använder dessa bilder t.ex [moon.png](5472549.png) och [moon2.png](5472548.png) men du kan använda vilken bild som helst. Nedanstående skärmbild visar utdata av denna kod. Som du kan se är data i kolumn E och F grupperad med avseende på data i kolumn D.
 
 ![todo:image_alt_text](using-image-markers-while-grouping-data-in-smart-markers_1.png)
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Technical-Articles-SmartMarkerGroupingImage.java" >}}
+{{< app/cells/assistant language="java" >}}

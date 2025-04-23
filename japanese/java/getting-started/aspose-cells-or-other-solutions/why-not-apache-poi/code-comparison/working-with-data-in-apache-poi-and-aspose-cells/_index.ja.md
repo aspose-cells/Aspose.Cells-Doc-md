@@ -12,3 +12,4 @@ url: /ja/java/working-with-data-in-apache-poi-and-aspose-cells/
 - [セル内で改行を挿入する](/cells/ja/java/new-line-in-cells/)
 - [Apache POIおよびAspose.Cellsを使用してピボットテーブルを作成する](/cells/ja/java/create-pivot-tables-using-apache-poi-and-aspose-cells/)
 - [Apache POIおよびAspose.Cellsを使用してグラフを作成する](/cells/ja/java/create-charts-using-apache-poi-and-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

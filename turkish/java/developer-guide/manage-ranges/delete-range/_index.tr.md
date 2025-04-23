@@ -13,7 +13,7 @@ Excel'de bir aralık seçebilir, ardından onu silip diğer verileri sola veya y
 
 ## **Aspose.Cells Kullanarak Aralıkları Sil**
 
-Aralıkları Sil ve Hücreleri Sola Kaydır
+Aspose.Cells, [Cells.DeleteRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRange-int-int-int-int-int-) metodunu sağlayarak bir aralığı silmenize imkan tanır.
 
 ## **Aralıkları Sil ve Hücreleri Sola Kaydır**
 
@@ -27,3 +27,4 @@ Aşağıdaki kodlarla Aspose.Cells ile bir aralığı silin ve hücreleri yukar�
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Delete-Range-Up.java" >}}
 
+{{< app/cells/assistant language="java" >}}

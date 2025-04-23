@@ -38,3 +38,4 @@ Denna avsnitt inkluderar följande ämnen
 - [Ange externa länkar i formler med Aspose.Cells](/cells/sv/net/set-external-links-in-formulas-in-aspose-cells/)
 - [Inställning för formlers beräkningsläge för arbetsbok i Aspose.Cells](/cells/sv/net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/)
 - [Ange delad formel i Aspose.Cells](/cells/sv/net/setting-shared-formula-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

@@ -72,3 +72,4 @@ Il metodo [**Workbook.CreateBuiltinStyle**](https://reference.aspose.com/cells/n
 ## Codice C# per utilizzare gli stili incorporati
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingBuiltinStyles-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

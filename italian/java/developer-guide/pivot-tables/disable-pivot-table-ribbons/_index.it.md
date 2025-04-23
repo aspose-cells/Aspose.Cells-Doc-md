@@ -16,3 +16,4 @@ I report basati su tabelle pivot sono utili ma soggetti a errori se gli utenti d
 Il seguente codice dimostra questa funzionalità accedendo a una tabella pivot da un foglio e quindi chiamando il [**setEnableWizard**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#EnableWizard) per impostare questo flag **false**. Il file di esempio della tabella pivot può essere scaricato da questo [link](71630876.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-DisablePivotTableRibbon-1.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -15,3 +15,4 @@ url: /ar/java/working-with-the-threedformat-of-shape-or-chart/
 الكود النموذجي التالي يقوم بتحميل [ملف الإكسل المصدر](5472522.xlsx) والوصول إلى الشكل الأول في الورقة العمل الأولى وتعيين الخصائص الفرعية لخاصية [Shape.ThreeDFormat](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ThreeDFormat) ومن ثم حفظ المصنف في [ملف الإكسل الناتج](5472521.xlsx).
 ## **الكود المثالي**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithThreeDFormat-WorkingWithThreeDFormat.java" >}}
+{{< app/cells/assistant language="java" >}}

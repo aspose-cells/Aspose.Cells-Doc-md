@@ -16,3 +16,4 @@ Si prega di consultare il codice di esempio di seguito che dimostra come imposta
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SetPixelFormatRenderedImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

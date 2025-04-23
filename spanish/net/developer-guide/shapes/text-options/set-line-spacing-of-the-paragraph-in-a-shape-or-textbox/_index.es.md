@@ -14,3 +14,4 @@ Puedes establecer el espaciado de línea del párrafo, su espacio antes y espaci
 El siguiente código de ejemplo explica el uso de las propiedades mencionadas.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SetTextboxOrShapeParagraphLineSpacing-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

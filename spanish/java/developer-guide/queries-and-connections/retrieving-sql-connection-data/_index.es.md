@@ -38,3 +38,4 @@ Si el objeto ExternalConnection contiene datos de conexión SQL, puede ser conve
 
 
 
+{{< app/cells/assistant language="java" >}}

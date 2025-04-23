@@ -16,3 +16,4 @@ Aspose.Cells fornisce una proprietà [**Shape.TextBody**](https://reference.aspo
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ChangeCommentFontColor-1.java" >}}
 
 Il [file di output](outputChangeCommentFontColor.xlsx) generato dal codice precedente è allegato per il tuo riferimento.
+{{< app/cells/assistant language="java" >}}

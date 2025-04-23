@@ -231,3 +231,4 @@ Sparklines可帮助您查看趋势，例如，软式联赛的胜利或失败记�
 
 ## **高级主题**
 - [在图表中将图片设置为背景填充](/cells/zh/java/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="java" >}}

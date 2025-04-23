@@ -28,3 +28,4 @@ Aspose.Cells beter sig på samma sätt som Excel.
 1. Ange flaggorna [PageSetup.IsHFDiffOddEven](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/ishfdiffoddeven/) och [PageSetup.IsHFDiffFirst](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/IsHFDiffFirst/) 
 1. Ange olika sidhuvuden och sidfötter.
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DiffHeaderFooter.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

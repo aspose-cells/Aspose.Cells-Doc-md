@@ -18,3 +18,4 @@ Bunu başarmak için, Aspose.Cells [**Chart.PlotArea.Area.FillFormat.ImageData*
 ## C# kodu, bir resmi grafikte arka plan dolgusu olarak ayarlamak için
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-SetPictureBackGroundFillChart-SetPictureBackGroundFillChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

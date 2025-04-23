@@ -22,3 +22,4 @@ Aspose.Cells tillhandahåller också [**PivotTable.showInCompactForm()**](https:
 Den följande exempelkoden visar först Pivot-tabellen i **Kompakt form**, sedan visas Pivot-tabellen i **Översiktlig form** och sist visas Pivot-tabellen i **Tabellform**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangingLayoutofPivotTable-ChangingLayoutofPivotTable.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -129,3 +129,4 @@ Aspose.Cells不需要客户端或服务器上安装Microsoft Excel，因为它�
 Aspose.Cells 是一个稳定且成熟的产品，拥有全球客户群，并具有足够的可扩展性，可以在重负载下表现良好。
 
 VSTO 的性能还不够精致。很可能一些性能问题并非与 VSTO 本身有关，而是与 .NET JIT 编译过程有关。但是，仍然存在一定的怀疑，即随着负载的增加，VSTO 应用程序是否能够自行扩展。VSTO 的新模型不需要 Excel 驻留在 web 服务器上进行文档处理，但我认为 VSTO 在产生真正影响方面还有很长的道路要走。
+{{< app/cells/assistant language="csharp" >}}

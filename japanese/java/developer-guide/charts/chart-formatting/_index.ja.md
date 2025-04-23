@@ -231,3 +231,4 @@ Microsoft Excel 2010にスパークラインを挿入するには:
 
 ## **高度なトピック**
 - [グラフの背景に画像を設定する](/cells/ja/java/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="java" >}}

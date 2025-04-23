@@ -48,3 +48,4 @@ Aspose.Cells API提供了[**WorkbookDesigner**](https://reference.aspose.com/cel
 一旦数据就位，我们只需要基于数据源创建一个图表。为了保持示例简单，我们将使用[**Chart.SetChartDataRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange)方法，这样我们就不必进一步配置图表。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-CreationOfChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -39,3 +39,4 @@ Aspose.Cells还允许在运行时管理图表的轴，使用[Axis](https://refer
 - [处理Microsoft Excel的图表轴的自动单位](/cells/zh/net/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
 - [计算图表后读取轴标签](/cells/zh/net/read-axis-labels-after-calculating-the-chart/)
 - [如何在Excel图表中设置类别轴](/cells/zh/net/how-to-set-category-axis/)
+{{< app/cells/assistant language="csharp" >}}

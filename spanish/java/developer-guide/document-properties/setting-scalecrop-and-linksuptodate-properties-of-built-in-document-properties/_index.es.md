@@ -21,3 +21,4 @@ Los valores posibles para este elemento están definidos por el tipo de datos bo
 El siguiente código de ejemplo establece las propiedades de documento integradas extendidas ScaleCrop y LinksUpToDate del libro de trabajo. Por favor, revise el archivo de Excel de salida (5472494.xlsx) generado con este código, cambie su extensión a .zip y extraiga su contenido y vea el aap.xml como se muestra en la captura de pantalla anterior.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingScaleCropLinksUpToDate-SettingScaleCropLinksUpToDate.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -23,3 +23,4 @@ För att hitta och ställa in detta alternativ i Microsoft Excel:
 Aspose.Cells tillhandahåller egenskaperna [**PivotTable.setDisplayNullString()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#DisplayNullString) och [**PivotTable.setNullString()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#NullString) för att ställa in pivottabellalternativet "För tomma celler visa".
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingPivotTableOption-SettingPivotTableOption.java" >}}
+{{< app/cells/assistant language="java" >}}

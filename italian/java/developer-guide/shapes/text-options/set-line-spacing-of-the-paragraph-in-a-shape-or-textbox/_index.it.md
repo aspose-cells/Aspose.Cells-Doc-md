@@ -26,3 +26,4 @@ Il codice di esempio seguente spiega l'utilizzo delle proprietà menzionate. Si 
 
 
 
+{{< app/cells/assistant language="java" >}}

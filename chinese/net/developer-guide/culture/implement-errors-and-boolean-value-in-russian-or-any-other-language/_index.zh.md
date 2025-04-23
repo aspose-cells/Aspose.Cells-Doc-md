@@ -21,3 +21,4 @@ url: /zh/net/implement-errors-and-boolean-value-in-russian-or-any-other-language
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookSettings-ImplementErrorsAndBooleanValueInRussianOrAnyOtherLanguage.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -17,7 +17,7 @@ Aspose.Cells for Python via .NETを使用して、プログラムでピボット
 Aspose.Cells for Python via .NETでは、ピボットテーブルを作成および制御するために使用される特別なクラスのセットが提供されています。これらのクラスは、ピボットテーブルの構成要素である[**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/)オブジェクトを作成および制御するために使用されます。オブジェクトは次のとおりです:
 
 - [**PivotField**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/)は、[**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/)のフィールドを表します。
-- [**PivotFieldCollection**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection)は、[**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable)のすべての[**PivotField**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield)オブジェクトのコレクションを表します。
+- [**PivotFieldCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection)は、[**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable)のすべての[**PivotField**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield)オブジェクトのコレクションを表します。
 - [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable)は、ワークシート上のPivotTableを表します。
 - [**PivotTableCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection)は、ワークシート上のすべての[**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable)オブジェクトのコレクションを表します。
 

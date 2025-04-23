@@ -145,3 +145,4 @@ Aşağıda verilen örnek kod, JSON verilerini içe aktarmak için [**JsonUtili
 ## **Gelişmiş Konular**
 - [Çalışma Sayfasına Veri İçeri Aktarırken Formül Alanlarını Belirt](/cells/tr/net/specify-formula-fields-while-importing-data-to-worksheet/)
 - [Hücreler Veri Tablosu Satırlarını Eklerken İlk Satırı Aşağıya Kaydırma](/cells/tr/net/shift-first-row-down-when-inserting-cells-data-table-rows/)
+{{< app/cells/assistant language="csharp" >}}

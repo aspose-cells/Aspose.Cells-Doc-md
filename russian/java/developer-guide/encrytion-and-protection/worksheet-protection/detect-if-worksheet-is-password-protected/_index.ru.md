@@ -16,3 +16,4 @@ url: /ru/java/detect-if-worksheet-is-password-protected/
 Aspose.Cells for Java 8.7.0 предоставил свойство [**Protection.isProtectedWithPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#IsProtectedWithPassword) для определения, защищен ли рабочий лист паролем или нет. Логическое поле [**Protection.isProtectedWithPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#IsProtectedWithPassword) возвращает **true**, если [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) защищен паролем, и **false**, если нет.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DetectWorksheetisPasswordProtected-DetectWorksheetisPasswordProtected.java" >}}
+{{< app/cells/assistant language="java" >}}

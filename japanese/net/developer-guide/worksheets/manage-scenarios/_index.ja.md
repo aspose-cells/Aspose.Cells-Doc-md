@@ -17,3 +17,4 @@ keywords: C#でシナリオワークシートを作成、Excelワークシート
 Aspose.Cellsには、例えば、[**ScenarioCollection**](https://reference.aspose.com/cells/net/aspose.cells/scenariocollection)、[**Scenario**](https://reference.aspose.com/cells/net/aspose.cells/scenario)、[**ScenarioInputCellCollection**](https://reference.aspose.com/cells/net/aspose.cells/scenarioinputcellcollection)、および[**ScenarioInputCell**](https://reference.aspose.com/cells/net/aspose.cells/scenarioinputcell)のクラスなど、いくつかの便利なクラスが提供されています。また、[**Worksheet.Scenarios**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/scenarios)プロパティも提供されています。以下のサンプルコードは、いくつかのシナリオを含むXLSX形式のExcelファイルを開き、既存のシナリオを削除し、Excelファイルを保存する前にワークシートに新しいシナリオを追加します。この例では、シナリオを含む非常にシンプルなテンプレートファイルが使用されています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateManipulateRemoveScenarios-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

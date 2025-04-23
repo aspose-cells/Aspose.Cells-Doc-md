@@ -29,3 +29,4 @@ Wenn Sie das SVG des Diagramms in Notepad öffnen, finden Sie das **viewBox**-At
 
 - [Diagrammrendering](/cells/de/java/chart-rendering/)
 - [Arbeitsblatt oder Diagramm in Bild mit gewünschter Breite und Höhe exportieren](/cells/de/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+{{< app/cells/assistant language="java" >}}

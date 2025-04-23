@@ -48,3 +48,4 @@ Aspose.Cells ayrıca bu özelliği sağlar. Aşağıda, sıfırdan XLSX dosyası
 - [Yorum arka planını nasıl ayarlarım](/cells/tr/java/how-to-set-comment-background/)
 - [İz bırakan Yorumlar](/cells/tr/java/threaded-comments/)
 
+{{< app/cells/assistant language="java" >}}

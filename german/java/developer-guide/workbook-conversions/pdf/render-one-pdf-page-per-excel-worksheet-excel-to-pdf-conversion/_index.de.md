@@ -24,3 +24,4 @@ Wenn die [**PdfSaveOptions.OnePagePerSheet**](https://reference.aspose.com/cells
 Wenn Ihr Arbeitsblatt Formeln enthält, ist es am besten, die Methode [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) kurz vor dem Rendern des Arbeitsblatts in PDF aufzurufen. Dies stellt sicher, dass die formelabhängigen Werte neu berechnet und die korrekten Werte im PDF dargestellt werden.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

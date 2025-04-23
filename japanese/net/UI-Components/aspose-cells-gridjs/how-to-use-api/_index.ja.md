@@ -16,52 +16,63 @@ aliases:
 
 
 # GridJsサーバーサイドで作業する
-## 0. Configで正しいフォルダパスを設定する
- ワークブックキャッシュファイルのための**`Config.FileCacheDirectory`**。
- ワークブック内の画像ファイルのキャッシュには**`Config.PictureCacheDirectory`**を使用します。
+## 1. startup.csのConfigureServicesでサービスを追加。 
+```C#
+   services.AddScoped<IGridJsService, GridJsService>();
+```
+## 2. キャッシュファイルを保存するパスの設定。
 
-ストレージの詳細については、[ガイド](/net/aspose-cells-gridjs/storage/)をご確認ください。
+次のいずれかの方法を選択できます。
 
-## 1. GridCacheForStreamを実装する
+ オプション1：Startup.csのConfigureServicesでGridJsOptionsを設定。
+```C#
+   services.Configure<GridJsOptions>(options =>
+	{
+		options.FileCacheDirectory = TestConfig.TempDir;
+	});
+```
+
+ オプション2：静的プロパティを直接設定。
+```C#
+   Config.FileCacheDirectory = TestConfig.TempDir;
+```
+
+ オプション3：GridCacheForStreamを実装して独自のキャッシュストレージルールを定義。
+
 ローカルファイルストレージの例は次のとおりです:
 
 {{< gist "aspose-cells-gists" "fb32f5c7a98978432e5e05c50995a4ca" "LocalFileCache.cs" >}}
 
-サーバーサイドストレージでは、例も提供しています。
-Please check: <https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
 
-## 2. スプレッドシートファイルからJSONを取得します。
+サーバーサイドストレージの場合、例も提供しています。こちらを確認してください。 
+
+<https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
+
+
+詳細なストレージについては、こちらの[ガイド](/cells/ja/net/aspose-cells-gridjs/storage/) を参照してください。
+
+
+## 3. コントローラーアクションの実装。
+
+### 1. GridJsControllerBaseを拡張したコントローラーを作成。
+```C#
+public class GridJs2Controller : GridJsControllerBase
+```
+### 2. アクション内でJSONを取得。
+
+アクション内でJSONデータを取得する方法は2つあります：
+
+オプション1：GridJsWorkbookを使用。
 ```C#
 GridJsWorkbook wbj = new GridJsWorkbook();
-using (FileStream fs = new FileStream(path, FileMode.Open))
-{
-    wbj.ImportExcelFile(fs,GridJsWorkbook.GetGridLoadFormat(Path.GetExtension(path)));
-}
-String ret =wbj.ExportToJson();
+Workbook wb = new Workbook(fullFilePath); 
+wbj.ImportExcelFile(wb);
+String ret =wbj.ExportToJson(fileName);
 ```
-## 3. スプレッドシートファイルから画像/図形を取得します
+オプション2：GridJsControllerBaseのIGridJsServiceを使用。
 ```C#
-//Gridjs will automatically zip all the images/shapes into a zip stream  and store it in cache using the cache implemention.
-//GridJsWorkbook.CacheImp.SaveStream(zipoutStream, fileid);
-
-//get the fileid in the cache,uid is the unique id for the spreadsheet  instance, sheetid is the sheet index,
-String fileid=(uniqueid + "." + (sheetid + '_batch.zip'))
-
-//get the zip file stream by the fileid
-Stream s=GridJsWorkbook.CacheImp.LoadStream(fileid), mimeType, fileid.Replace('/', '.')
-```
-## 4. キャッシュ内のスプレッドシートファイルを更新します
-```C#
-GridJsWorkbook gwb = new GridJsWorkbook();
-//p is the update json,uid is the unique id for the spreadsheet
-String ret = gwb.UpdateCell(p, uid);
-```
-## 5. キャッシュ内のスプレッドシートファイルを保存します
-```C#
-GridJsWorkbook wb = new GridJsWorkbook();
-//p is the update json,uid is the unique id for the spreadsheet
-wb.MergeExcelFileFromJson(uid, p);
-wb.SaveToCacheWithFileName(uid, filename,password);
+ String uid= GridJsWorkbook.GetUidForFile(fileName)
+ StringBuilder ret= _gridJsService.DetailFileJsonWithUid(fullFilePath, uid);
 ```
 
 詳細については、こちらの例をご覧ください：

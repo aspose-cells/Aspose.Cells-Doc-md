@@ -28,3 +28,4 @@ Der folgende Beispielcode lädt die [Quelldatei von Excel](5472520.xlsx) und gre
 
 
 
+{{< app/cells/assistant language="java" >}}

@@ -18,3 +18,4 @@ X轴有不同类型。而Y轴是一个值类型轴，X轴可以是分类类型�
 ![todo:image_alt_text](compare.png)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "X-axis-vs-category-axis.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

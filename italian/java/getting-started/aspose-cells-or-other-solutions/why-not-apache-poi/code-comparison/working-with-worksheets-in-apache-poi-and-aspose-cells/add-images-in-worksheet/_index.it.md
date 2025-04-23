@@ -98,3 +98,4 @@ pict.resize();
 Per ulteriori dettagli, visita [Aggiungi collegamenti ipertestuali alle immagini](/java/aggiungi-collegamenti-ipertestuali-immagini).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

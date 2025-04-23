@@ -23,3 +23,4 @@ Le code d'exemple suivant convertit le fichier Excel d'exemple en HTML qui est s
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToHTMLFiles -1.cs" >}}
 
 
+{{< app/cells/assistant language="csharp" >}}

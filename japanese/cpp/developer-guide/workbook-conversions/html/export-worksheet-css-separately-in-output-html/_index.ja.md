@@ -1,0 +1,108 @@
+---
+title: HTMLでの出力HTMLにワークシートCSSを個別にエクスポートする方法（C++）
+linktitle: 出力HTMLでワークシートのCSSを別々にエクスポートする
+type: docs
+weight: 80
+url: /ja/cpp/export-worksheet-css-separately-in-output/
+description: Aspose.Cells for C++を使用して、ExcelファイルをHTMLに変換する際にワークシートのCSSを個別にエクスポートする方法を学びます。
+---
+
+## **可能な使用シナリオ**
+
+Aspose.Cellsは、ExcelファイルをHTMLに変換する際にワークシートのCSSを個別にエクスポートする機能を提供しています。この目的のために[**HtmlSaveOptions.GetExportWorksheetCSSSeparately()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/getexportworksheetcssseparately/)プロパティを使用し、HTML形式で保存する際に**true**に設定してください。
+
+## **出力HTMLでワークシートのCSSを別々にエクスポートする**
+
+次のサンプルコードは、Excelファイルを作成し、セル**B5**に**Red**のテキストを追加し、[**HtmlSaveOptions.GetExportWorksheetCSSSeparately()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/getexportworksheetcssseparately/)プロパティを使用してHTML形式で保存します。コードによって生成された[output HTML](60489766.zip)には、**stylesheet.css**が含まれています。
+
+## **サンプルコード**
+
+```cpp
+#include <iostream>
+#include "Aspose.Cells.h"
+using namespace Aspose::Cells;
+
+int main()
+{
+    Aspose::Cells::Startup();
+
+    // Create workbook object
+    Workbook wb;
+
+    // Access first worksheet
+    Worksheet ws = wb.GetWorksheets().Get(0);
+
+    // Access cell B5 and put value inside it
+    Cell cell = ws.GetCells().Get(u"B5");
+    cell.PutValue(u"This is some text.");
+
+    // Set the style of the cell - font color is Red
+    Style st = cell.GetStyle();
+    st.GetFont().SetColor(Color::Red());
+    cell.SetStyle(st);
+
+    // Specify html save options - export worksheet css separately
+    HtmlSaveOptions opts;
+    opts.SetExportWorksheetCSSSeparately(true);
+
+    // Save the workbook in html
+    wb.Save(u"outputExportWorksheetCSSSeparately.html", opts);
+
+    std::cout << "Workbook saved successfully!" << std::endl;
+
+    Aspose::Cells::Cleanup();
+}
+```
+
+## **単一シートのワークブックをHTMLにエクスポート**
+
+Aspose.Cellsを使用して複数シートを持つワークブックをHTMLに変換すると、CSSを含むフォルダと複数のHTMLファイルが作成されます。ブラウザでこのHTMLファイルを開くとタブが表示されます。同じ動作は、単一シートのワークブックをHTMLに変換する場合でも必要です。以前は、単一シートのワークブックには別のフォルダは作成されず、HTMLファイルのみが作成されていました。このHTMLファイルをブラウザで開くとタブは表示されません。Microsoft Excelも適切なフォルダとHTMLを作成しますので、Aspose.CellsのAPIを使用して同じ動作を実現しています。以下のリンクからサンプルファイルをダウンロードし、下記のサンプルコードで使用できます：
+
+[sampleSingleSheet.xlsx](79527937.xlsx)
+
+## **サンプルコード**
+
+```c++
+#include <iostream>
+#include "Aspose.Cells.h"
+using namespace Aspose::Cells;
+
+int main()
+{
+    Aspose::Cells::Startup();
+
+    // Source directory path
+    U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
+
+    // Output directory path
+    U16String outDir(u"..\\Data\\02_OutputDirectory\\");
+
+    // Path of input Excel file
+    U16String inputFilePath = srcDir + u"sampleSingleSheet.xlsx";
+
+    // Path of output HTML file
+    U16String outputFilePath = outDir + u"outputSampleSingleSheet.htm";
+
+    // Create workbook
+    Workbook workbook(inputFilePath);
+
+    // Specify HTML save options
+    HtmlSaveOptions options;
+
+    // Set optional settings
+    options.SetEncoding(EncodingType::UTF8);
+    options.SetExportImagesAsBase64(true);
+    options.SetExportGridLines(true);
+    options.SetExportSimilarBorderStyle(true);
+    options.SetExportBogusRowData(true);
+    options.SetExcludeUnusedStyles(true);
+    options.SetExportHiddenWorksheet(true);
+
+    // Save the workbook in HTML format with specified HTML save options
+    workbook.Save(outputFilePath, options);
+
+    std::cout << "Workbook saved successfully in HTML format!" << std::endl;
+
+    Aspose::Cells::Cleanup();
+}
+```

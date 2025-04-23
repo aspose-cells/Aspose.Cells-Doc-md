@@ -34,3 +34,4 @@ Aspose.Cells имеет мощный расчетный механизм, кот
 [Прямой расчет пользовательской функции без записи ее в рабочий лист](/cells/ru/net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

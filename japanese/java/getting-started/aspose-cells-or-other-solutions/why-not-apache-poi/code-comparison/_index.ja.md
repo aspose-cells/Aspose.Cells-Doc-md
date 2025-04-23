@@ -51,3 +51,4 @@ url: /ja/java/code-comparison-for-common-features-in-aspose-cells-and-apache-poi
   - [Apache POIおよびAspose.Cellsでフォントの操作を行う](/cells/ja/java/working-with-fonts-in-apache-poi-and-aspose-cells/)
 
 **注意:** さらに多くのコード比較がまもなく利用可能になります。 
+{{< app/cells/assistant language="java" >}}

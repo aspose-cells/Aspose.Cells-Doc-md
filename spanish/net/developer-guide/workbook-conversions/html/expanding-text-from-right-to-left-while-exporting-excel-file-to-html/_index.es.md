@@ -28,3 +28,4 @@ Como puede ver en las capturas de pantalla, la nueva versión expande correctame
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithHTMLFormat-ExpandTextFromRightToLeft-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

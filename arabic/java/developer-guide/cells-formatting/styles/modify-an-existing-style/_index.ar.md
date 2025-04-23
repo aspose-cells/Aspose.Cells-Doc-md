@@ -56,3 +56,4 @@ keywords: تعديل نمط موجود اكسل، تعديل نمط موجود �
 يتم تطبيق التعديلات تلقائيًا على النطاق الذي تم تطبيق النمط عليه.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ModifyExistingStyle-ModifyExistingStyle.java" >}}
+{{< app/cells/assistant language="java" >}}

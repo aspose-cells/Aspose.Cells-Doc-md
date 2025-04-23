@@ -47,3 +47,4 @@ Per renderizzare l'intero workbook in formato immagine, è possibile utilizzare 
 - [Esportare il grafico in SVG con attributo viewBox](/cells/it/java/export-chart-to-svg-with-viewbox-attribute/)
 - [Esportare un foglio di lavoro o un grafico in un'immagine con larghezza e altezza desiderate](/cells/it/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
 - [Convertire il foglio di lavoro in un'immagine e Foglio di lavoro in un'immagine per pagina](/cells/it/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)
+{{< app/cells/assistant language="java" >}}

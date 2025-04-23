@@ -134,3 +134,4 @@ Laden Sie das Formular **Druckbereich einstellen** von einer der unten genannten
 Für weitere Details besuchen Sie [Druckoptionen festlegen](/cells/de/net/setting-print-options/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

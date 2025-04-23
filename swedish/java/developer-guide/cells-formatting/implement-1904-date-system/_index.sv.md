@@ -24,3 +24,4 @@ För att implementera 1904 datumsystemet i Microsoft Excel (till exempel Microso
 Se följande kodexempel om hur du uppnår detta med Aspose.Cells API:erna.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-Implement1904DateSystem-Implement1904DateSystem.java" >}}
+{{< app/cells/assistant language="java" >}}

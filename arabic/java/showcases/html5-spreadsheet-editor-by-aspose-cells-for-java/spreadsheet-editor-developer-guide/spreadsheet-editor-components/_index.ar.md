@@ -46,3 +46,4 @@ url: /ar/java/spreadsheet-editor-components/
 يقوم بإنشاء مثيلات لجدول البيانات ويحتفظ بها في الذاكرة طالما يلزم ذلك.
 ### **CellsService**
 تدير **CellsService** ذاكرة التخزين المؤقت للصفوف, الأعمدة, الخلايا, التنسيق, وبنية أوراق العمل.
+{{< app/cells/assistant language="java" >}}

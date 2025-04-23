@@ -23,7 +23,7 @@ Bu örnek, **MergeTrial** adlı bir şablon Microsoft Excel dosyasını kullanı
 
 ![todo:image_alt_text](detect-merged-cells-in-a-worksheet_1.png)
 
-Aspose.Cells, tüm birleştirilmiş hücreleri almak için kullanılan [**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--) yöntemini sağlar.
+Aspose.Cells, tüm birleşmiş hücreleri almak için kullanılan [**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--) metodunu sağlar.
 
 Aşağıdaki kod çalıştırıldığında, dosyayı tekrar kaydetmeden önce sayfanın içeriğini temizler ve tüm hücre alanlarını tekrar birleştirir.
 
@@ -40,3 +40,4 @@ Lütfen bir çalışma sayfasında birleştirilmiş hücre alanlarını tanımla
 ## **İlgili Makaleler**
 
 - [Hücreleri birleştirme ve bölme](/cells/tr/java/merging-and-unmerging-cells/).
+{{< app/cells/assistant language="java" >}}

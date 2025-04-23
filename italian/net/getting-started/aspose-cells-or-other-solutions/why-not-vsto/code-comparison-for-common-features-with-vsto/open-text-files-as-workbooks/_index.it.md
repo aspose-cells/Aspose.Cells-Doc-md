@@ -40,3 +40,4 @@ Di seguito un esempio di codice di confronto per aprire file di testo come carte
 {{< /highlight >}}
 ##**Scarica**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/OpenTextFilesAsWorkbooks.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

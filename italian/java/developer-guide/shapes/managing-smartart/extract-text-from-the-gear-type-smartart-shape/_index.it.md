@@ -24,3 +24,4 @@ Il seguente codice di esempio carica il [file di Excel di esempio](67338510.xlsx
 Gear Type Shape Text: Nice Gear Type Shape Text: Good Gear Type Shape Text: Excellent
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

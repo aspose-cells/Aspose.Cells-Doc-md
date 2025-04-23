@@ -1,18 +1,18 @@
 ---
-title: Wie man den fixierten Zustand ohne Excel überprüft
+title: Wie man den gefrorenen Zustand ohne Excel überprüft.
 linktitle: Einfrierungsstatus
 type: docs
 weight: 190
 url: /de/python-net/how-to-check-frozen-state-of-excel-worksheet
-description: In diesem Artikel erfahren Sie, wie Sie den fixierten Zustand eines Excel Tabellenblatts programmgesteuert überprüfen können, indem Sie Aspose.Cells für Python via .NET APIs verwenden.
-keywords: Python Excel Bibliothek, Python Wie man den fixierten Zustand ohne Excel überprüft, Den fixiert Zustand ohne Excel in Python überprüfen.
+description: In diesem Artikel lernen Sie, wie Sie den gefrorenen Zustand eines Excel Arbeitsblatts programmatisch mit Aspose.Cells für Python via .NET APIs überprüfen.
+keywords: Python Excel Bibliothek, Python Wie man den gefrorenen Zustand ohne Excel überprüft, Gefrorenen Zustand ohne Excel in Python überprüfen.
 ---
 
 ## **Einführung**
 
-In diesem Artikel erfahren Sie, wie Sie den fixierten Zustand eines Excel-Tabellenblatts programmgesteuert überprüfen können. Wir können einfach feststellen, ob das Tabellenblatt in MS Excel eingefroren oder aufgeteilt ist. Aber gibt es eine Möglichkeit zu prüfen, ob es mit CSharp eingefroren oder aufgeteilt ist. Wir können dies ganz einfach mit Aspose.Cells für Python via .NET tun.
+In diesem Artikel lernen wir, wie man den gefrorenen Zustand eines Excel-Arbeitsblatts programmatisch überprüft. Wir können einfach feststellen, ob das Arbeitsblatt eingefroren oder aufgeteilt ist in MS Excel. Aber gibt es eine Möglichkeit, mit CSharp zu überprüfen, ob es eingefroren oder aufgeteilt ist? Wir können es mit Aspose.Cells für Python via .NET einfach tun.
 
-## **Wie man den fixierten Zustand überprüft**
+## **So überprüfen Sie den eingefrorenen Zustand**
 Mit Aspose.Cells für Python via .NET können wir überprüfen, ob das Fenster eingefroren ist und wie viele Zeilen und Spalten gesperrt sind.
 
 Bitte verwenden Sie die [**Worksheet.pane_state**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/pane_state/)-Eigenschaft, um den Zustand der Fensterscheiben zu überprüfen 

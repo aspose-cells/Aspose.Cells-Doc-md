@@ -15,3 +15,4 @@ Aspose.Cells提供了向excel工作表添加不同类型的OLE对象的功能。
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertingWAVFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

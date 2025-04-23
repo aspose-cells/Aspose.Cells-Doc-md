@@ -299,3 +299,4 @@ renderer.ToImage(0, "output.svg");
 ## **Obsoletterade API:er**
 ### **Föråldrad Workbook.ValidateFormula-metod**
 Använd Cell.Formula-metoden för att validera formeln.
+{{< app/cells/assistant language="csharp" >}}

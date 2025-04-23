@@ -75,3 +75,4 @@ Aspose.Cells for .NET soporta los populares formatos de archivo de hojas de cál
 			</ul>
 	</div>
 </div>
+{{< app/cells/assistant language="csharp" >}}

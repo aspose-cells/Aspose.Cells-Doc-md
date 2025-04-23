@@ -67,7 +67,7 @@ url: /zh/java/opening-files-with-different-formats/
 
 ### **打开Microsoft Excel 97或更高版本的XLS文件**
 
-要打开Microsoft Excel XLS 97或更高版本的XLS文件，请使用[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)实例化模板文件的路径或流。或者使用[**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)方法，并在[**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)枚举中选择[**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003)值。
+要打开Microsoft Excel XLS 97或更高版本的XLS文件，请使用[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)实例化模板文件的路径或流。或者使用[**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)方法，并在[**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)枚举中选择[**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL-97-TO-2003)值。
 
 #### **示例**
 
@@ -89,7 +89,7 @@ Aspose.Cells允许开发人员打开不同格式的电子表格文件，例如Sp
 
 SpreadsheetML文件是您电子表格的XML表示，包括有关电子表格的所有信息，如格式、公式等。自Microsoft Excel XP以来，Microsoft Excel还增加了将电子表格导出为SpreadsheetML文件的XML导出选项。
 
-要打开SpreadsheetML文件，请使用[**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)类，并在[**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)枚举中选择[**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET_ML)值。
+要打开SpreadsheetML文件，请使用[**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)类，并在[**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)枚举中选择[**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET-ML)值。
 
 #### **示例**
 
@@ -181,3 +181,4 @@ FODS 文件是以 OpenDocument XML 格式保存的未压缩电子表格。Aspose
 - [读取带有多种编码的CSV文件](/cells/zh/java/reading-csv-file-with-multiple-encodings/)
 - [在转换或加载花费太长时间时使用InterruptMonitor停止转换或加载](/cells/zh/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [使用LightCells API](/cells/zh/java/using-lightcells-api/)
+{{< app/cells/assistant language="java" >}}

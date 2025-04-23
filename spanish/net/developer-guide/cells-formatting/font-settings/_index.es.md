@@ -79,3 +79,4 @@ Los desarrolladores pueden aplicar el efecto superíndice en la fuente configura
 - [Aplicar efectos de superíndice y subíndice en fuentes](/cells/es/net/apply-superscript-and-subscript-effects-on-fonts/)
 - [Obtener una lista de fuentes utilizadas en una hoja de cálculo o libro de trabajo](/cells/es/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -13,13 +13,13 @@ aliases:
 
 モバイルデバイスでGridJsをスムーズに利用できます 
 
-GridJsクライアントjsはモバイルスクリーンに適応できます。
+GridJsのクライアントJSはモバイル画面に適応します。
 
-[GridJs のデモ](https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs "GridJs のデモ")を実行します
+[GridJsのデモ](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples_GridJs "GridJsのデモ")を実行します。
 
-デモプロジェクトのデフォルトポートは8080です。 
+デモの既定ポートは 8080 です。 
 
-モバイルデバイスでブラウザを開き、url http://yourip:8080/gridjsdemo/index に入力します。 
+モバイル端末のブラウザで http://yourip:8080/gridjsdemo/index にアクセスしてください。 
 
 ![todo:モバイルでの画面ナビゲーション](gridjs_edit_on_mobile.png)
 

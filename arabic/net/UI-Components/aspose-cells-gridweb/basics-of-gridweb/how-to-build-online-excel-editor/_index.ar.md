@@ -1,10 +1,10 @@
 ---
-title: كيفية تشغيل Aspose.Cells.GridWeb في دوكر
+title: كيفية تشغيل Aspose.Cells.GridWeb في الحاوية Docker
 type: docs
 weight: 250
 url: /ar/net/aspose-cells-gridweb/how-to-build-online-excel-editor/
-keywords: GridWeb، دوكر
-description: يقدم هذا المقال كيفية تشغيل GridWeb في دوكر لبناء تطبيق محرر أو معاينة Excel عبر الإنترنت.
+keywords: GridWeb، Docker
+description: يقدم هذا المقال كيفية تشغيل GridWeb في حاوية Docker لبناء محرر أو عارض ملفات إكسل عبر الإنترنت.
 aliases:
   - /net/aspose-cells-gridweb/docker/
   - /net/aspose-cells-gridweb/run-aspose-cells-gridweb-in-docker/
@@ -17,19 +17,19 @@ aliases:
   - /net/aspose-cells-gridweb/how-to-build-web-excel-viewer-using-gridweb/
 ---
 
-#دليل دوكر
+# دليل دوكر
 
 ## متطلبات قبلية
 
-تأكد من تثبيت Docker على جهازك. يمكنك تنزيل وتثبيت Docker من [الموقع الرسمي لدوكر](https://www.docker.com/get-started).
+تأكد من أن لديك Docker مثبت على جهازك. يمكنك تنزيل وتثبيت Docker من [الموقع الرسمي لـ Docker](https://www.docker.com/get-started).
 
 ## الخطوة 1: إنشاء ملف Dockerfile
 
-أنشئ ملفًا بالاسم `Dockerfile` في [دليل المشروع](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/). يجب أن يحتوي `Dockerfile` على تعليمات حول كيفية بناء صورة Docker الخاصة بك.
+قم بإنشاء ملف باسم `Dockerfile` في مجلد مشروعك [الدليل](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/). يجب أن يحتوي `Dockerfile` على تعليمات حول كيفية بناء صورة Docker الخاصة بك.
 
 ## الخطوة 2: كتابة Dockerfile لـ GridWeb
 
-فيما يلي [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/Dockerfile) عيني لعرض GridWeb مع تطبيق ASP.NET Core:
+إليك عينة [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/Dockerfile) لعرض GridWeb مع تطبيق ASP.NET Core:
 
 ```dockerfile
 # Use the official .NET6.0 runtime as a parent image
@@ -78,40 +78,40 @@ ENTRYPOINT ["dotnet", "GridWeb.Demo.NET6.0.dll"]
 ```
 
 ## الخطوة 3: بناء صورة Docker
-قم ببناء صورة Docker: من الطرفية، قم بتنفيذ الأمر التالي لبناء صورة Docker الخاصة بك:
+بناء صورة Docker: من الطرفية، نفذ الأمر التالي لبناء صورة Docker الخاصة بك:
 ```bash
 docker build -t gridweb-demo-net6 .
 ```
-يمكنك استبدال gridweb-demo-net6 بالاسم الذي ترغب في منحه لصورة Docker الخاصة بك.
+يمكنك استبدال gridweb-demo-net6 باسم الصورة التي تريد إعطائها لحاويتك.
 
 ## الخطوة 4: تشغيل حاوية Docker
-بمجرد بناء الصورة، يمكنك تشغيل حاوية باستخدام الأمر التالي:
+بمجرد إنشاء الصورة، يمكنك تشغيل حاوية باستخدام الأمر التالي:
 
 ```bash
 docker run -d -p 24262:80 --name gridweb-demo-container  gridweb-demo-net6
 ```
 شرح خيارات أمر تشغيل Docker
--d: تشغيل الحاوية في وضع منفصل (في الخلفية).
--p 24262:80: ربط المنفذ 80 في الحاوية بالمنفذ 24262 على جهاز المضيف.
---name gridweb-demo-container: قم بتعيين اسم للحاوية.
+-د: تشغيل الحاوية في الوضع المنفصل (في الخلفية).
+-p 24262:80: ربط المنفذ 80 في الحاوية بمنفذ 24262 على الجهاز المضيف.
+--name gridweb-demo-container: تعيين اسم للحاوية.
 
 ## الخطوة 5: التحقق من تشغيل الحاوية
-للتحقق مما إذا كانت الحاوية الخاصة بك قيد التشغيل، استخدم الأمر التالي:
+للتحقق من تشغيل الحاوية الخاصة بك، استخدم الأمر التالي:
 
 ```bash
 docker ps
 ```
-سيتم إدراج جميع الحاويات الجارية. يجب أن ترى حاويتك مدرجة جنبًا إلى جنب مع اسمها وحالتها.
+سيقوم هذا الأمر بسرد جميع الحاويات الجارية. يجب أن ترى حاويتك مدرجة مع اسمها وحالتها.
 
-## الخطوة 6: الوصول إلى تطبيق الويب
+## الخطوة 6: الوصول إلى التطبيق الويب
 
-افتح متصفح الويب وانتقل إلى `http://localhost:24262/`. يجب رؤية تطبيقك يعمل.
+افتح متصفح الويب وانتقل إلى `http://localhost:24262/`. يجب أن ترى تطبيقك يعمل.
 
-ستتعرف على دليل التطوير العام لـ GridWeb 
+سوف ترى دليل التطوير العام لـ GridWeb 
 
-انقر [الديمو](http://localhost:24262/grid/index1 "الديمو") في الصفحة، يمكنك تنفيذ عملية تحرير لملف جدول البيانات.
+انقر [عرض تجريبي](http://localhost:24262/grid/index1 "demo") في الصفحة، ويمكنك إجراء عمليات تحرير لملف الجدول المبعثر.
 
-## الأوامر الإضافية
+## أوامر إضافية
 
 ### إيقاف الحاوية
 

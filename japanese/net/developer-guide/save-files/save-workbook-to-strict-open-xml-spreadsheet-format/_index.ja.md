@@ -18,3 +18,4 @@ Aspose.Cellsを使用すると、ブックを*Strict Open XML Spreadsheet*形式
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "LoadingSavingConvertingAndManaging-SaveWorkbookToStrictOpenXMLSpreadsheetFormat.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

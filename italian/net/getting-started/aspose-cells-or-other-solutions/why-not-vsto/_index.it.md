@@ -45,3 +45,4 @@ I componenti Aspose sono altamente scalabili e veloci. Sono una vera soluzione .
 - [Importare ed esportare i fogli di lavoro](/cells/it/net/import-and-export-worksheet/)
 - [Stampare e Anteprima dei fogli di lavoro](/cells/it/net/print-and-preview/)
 - E altro ancora.
+{{< app/cells/assistant language="csharp" >}}

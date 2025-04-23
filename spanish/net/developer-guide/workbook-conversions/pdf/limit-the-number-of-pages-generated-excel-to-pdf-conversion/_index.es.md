@@ -22,3 +22,4 @@ El siguiente ejemplo muestra cómo renderizar un rango de páginas (3 y 4) en un
 Si la hoja de cálculo contiene fórmulas, es mejor llamar a [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) justo antes de renderizarla a PDF. Haciendo esto asegura que se recalculen los valores dependientes de la fórmula y que se rendericen correctamente en el archivo de salida.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

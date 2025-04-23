@@ -51,3 +51,4 @@ Cette section comprend les exemples de comparaison de code suivants :
   - [Travailler avec les polices dans Apache POI et Aspose.Cells](/cells/fr/java/working-with-fonts-in-apache-poi-and-aspose-cells/)
 
 **Remarque :** De nombreuses autres comparaisons de code seront bientôt disponibles. 
+{{< app/cells/assistant language="java" >}}

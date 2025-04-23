@@ -4,15 +4,15 @@ linktitle: 冻结行
 type: docs
 weight: 190
 url: /zh/python-net/how-to-freeze-rows-of-excel-worksheet
-description: 在本文中，您将学习如何使用Aspose.Cells for Python via .NET API对Excel工作表的顶部行进行冻结。
-keywords: Python Excel库, Python冻结顶部行
+description: 在本文中，您将学习如何使用 Aspose.Cells for Python via .NET API 编程方式冻结 Excel 工作表的顶部行。
+keywords: Python Excel 库，Python 冻结顶部行，Python 冻结顶部行。
 ---
 
 ## **介绍**
 
 在本文章中，我们将学习如何冻结顶部行。当您在一行下有大量共同标题的数据时，向下滚动工作表时，您无法看到标题。您可以冻结顶部行，以便在其余数据被滚动时仍然可以看到该冻结部分。您可以轻松看到顶部行的标题。
 
-## **如何在Excel中冻结行**
+## **如何在 Excel 中冻结行**
 
 **![在Excel中冻结顶部行](Freeze-Rows.png)**
 
@@ -31,8 +31,8 @@ keywords: Python Excel库, Python冻结顶部行
 
 
 
-## **使用Aspose.Cells for Python Excel库冻结行的方法**
-使用Aspose.Cells for Python via .NET，很容易冻结行。请使用[**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int)方法在所选行上冻结行。
+## **如何使用 Aspose.Cells for Python Excel 库冻结行**
+使用 Aspose.Cells for Python via .NET 简单冻结行。请使用 [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) 方法在所选行冻结行。
 1.构建工作簿以打开文件或创建一个空文件。
 2. 使用Worksheet.FreezePanes()方法冻结第一行。
 3.保存文件。

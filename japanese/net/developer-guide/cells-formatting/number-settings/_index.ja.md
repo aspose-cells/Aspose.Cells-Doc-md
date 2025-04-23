@@ -89,3 +89,4 @@ Aspose.Cellsは、数値や日付の表示形式を構成するためのいく�
 - [カスタム日付形式パターン g および ge mm dd の表現](/cells/ja/net/render-custom-date-format-pattern-g-and-ge-mm-dd/)
 - [ブックでのカスタム数値小数点およびグループの区切りの指定](/cells/ja/net/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [DBNumカスタムパターンの書式設定の指定](/cells/ja/net/specifying-dbnum-custom-pattern-formatting/)
+{{< app/cells/assistant language="csharp" >}}

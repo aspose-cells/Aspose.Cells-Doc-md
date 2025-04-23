@@ -22,3 +22,4 @@ Certains APIs (classes, struct, énumérations, etc.) sont ajoutés en fonction 
 1. La classe **ExcelHelper** est remplacée par la classe **CellsHelper**. 
 
 For further reference, please check our featured demos: <https://github.com/aspose-cells/Aspose.Cells-for-Java>
+{{< app/cells/assistant language="java" >}}

@@ -28,3 +28,4 @@ url: /ru/java/export-range-of-cells-in-a-worksheet-to-image/
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ExportRangeofCells-1.java" >}}
 
 Вы также можете найти статью [Преобразование листа в другие форматы изображений](/cells/ru/java/converting-worksheet-to-different-image-formats/) полезной.
+{{< app/cells/assistant language="java" >}}

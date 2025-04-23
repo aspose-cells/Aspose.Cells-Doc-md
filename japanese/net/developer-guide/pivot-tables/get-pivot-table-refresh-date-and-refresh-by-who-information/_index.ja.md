@@ -18,3 +18,4 @@ Aspose.Cellsは今、ワークブックから更新日時と更新者情報を�
 **サンプルコード**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-GetPivotTableRefreshDate-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -45,3 +45,4 @@ url: /ar/net/extract-ole-objects-from-workbook/
 الكود أدناه يقوم بالعمل الفعلي للعثور على واستخراج كائنات OLE. يتم حفظ كائنات OLE (ملفات DOC وXLS وPDF) على القرص.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExtractOLEObjects-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

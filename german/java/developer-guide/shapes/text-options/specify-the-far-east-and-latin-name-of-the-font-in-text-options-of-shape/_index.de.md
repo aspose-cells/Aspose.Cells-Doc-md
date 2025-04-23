@@ -18,3 +18,4 @@ Der folgende Beispielcode erstellt eine Textbox und fügt einige japanische Tex
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.java" >}}
+{{< app/cells/assistant language="java" >}}

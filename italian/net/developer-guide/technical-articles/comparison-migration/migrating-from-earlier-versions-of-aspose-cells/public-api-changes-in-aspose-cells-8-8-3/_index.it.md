@@ -361,3 +361,4 @@ Di seguito è riportato il semplice scenario d'uso.
 ## **API rimosse**
 ### **Metodo Workbook.Decrypt rimosso**
 La suddetta proprietà è stata contrassegnata come obsoleta qualche tempo fa. Questa versione l'ha completamente rimossa dall'API pubblica. Si consiglia di impostare la proprietà WorkbookSettings.Password su null per raggiungere lo stesso obiettivo.
+{{< app/cells/assistant language="csharp" >}}

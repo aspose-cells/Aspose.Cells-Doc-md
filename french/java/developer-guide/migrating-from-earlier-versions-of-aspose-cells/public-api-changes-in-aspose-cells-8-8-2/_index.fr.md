@@ -53,3 +53,4 @@ cells.deleteBlankColumns(options);
 cells.deleteBlankRows(options);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

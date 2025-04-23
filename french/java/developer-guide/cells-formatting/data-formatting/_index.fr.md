@@ -403,3 +403,4 @@ Si l'exigence est de définir le format d'affichage des chiffres et des dates po
 Veuillez consulter l'article détaillé sur [Réglage des formats d'affichage des chiffres et des [Dates](/cells/fr/java/data-formatting/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -12,3 +12,4 @@ url: /tr/java/working-with-data-in-apache-poi-and-aspose-cells/
 - [Hücrelerde Yeni Satır](/cells/tr/java/new-line-in-cells/)
 - [Apache POI ve Aspose.Cells Kullanarak Pandalar Oluşturma](/cells/tr/java/create-pivot-tables-using-apache-poi-and-aspose-cells/)
 - [Apache POI ve Aspose.Cells Kullanarak Grafikler Oluşturma](/cells/tr/java/create-charts-using-apache-poi-and-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

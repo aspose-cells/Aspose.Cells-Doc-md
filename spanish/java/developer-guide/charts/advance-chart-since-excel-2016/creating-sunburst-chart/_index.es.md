@@ -19,3 +19,4 @@ Después de ejecutar el código a continuación, verá el gráfico de ráfaga so
 El siguiente código de muestra carga el [archivo de Excel de muestra](sunburst.xlsx) y genera el [archivo de Excel de salida](out.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "create-sunburst-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

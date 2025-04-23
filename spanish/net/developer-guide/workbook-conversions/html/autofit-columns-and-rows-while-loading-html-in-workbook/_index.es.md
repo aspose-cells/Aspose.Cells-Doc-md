@@ -19,3 +19,4 @@ El siguiente código de muestra primero carga el HTML de muestra en el Libro de 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-AutoFitColumnsandRowsWhileLoadingHTMLInWorkbook-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

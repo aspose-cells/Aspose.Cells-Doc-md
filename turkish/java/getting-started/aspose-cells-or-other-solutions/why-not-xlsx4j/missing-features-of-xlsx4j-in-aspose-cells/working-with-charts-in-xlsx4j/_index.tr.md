@@ -9,3 +9,4 @@ url: /tr/java/working-with-charts-in-xlsx4j/
 - [xlsx4j'de Grafikleri Görüntüye Dönüştür](/cells/tr/java/convert-chart-to-image-in-xlsx4j/)
 - [xlsx4j'de Grafik Oluştur](/cells/tr/java/create-charts-in-xlsx4j/)
 - [xlsx4j'de Özet Grafikleri Oluştur](/cells/tr/java/create-pivot-charts-in-xlsx4j/)
+{{< app/cells/assistant language="java" >}}

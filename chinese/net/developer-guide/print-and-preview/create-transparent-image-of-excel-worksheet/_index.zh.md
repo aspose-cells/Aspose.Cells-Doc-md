@@ -26,3 +26,4 @@ url: /zh/net/create-transparent-image-of-excel-worksheet/
 下面的示例代码从 Excel 工作表生成一个透明的图像。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateTransparentImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

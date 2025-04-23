@@ -27,3 +27,4 @@ Consultez le code source suivant sur la manière d'accomplir ceci en utilisant l
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-Implement1904DateSystem-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

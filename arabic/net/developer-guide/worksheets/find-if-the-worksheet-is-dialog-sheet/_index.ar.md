@@ -30,3 +30,4 @@ keywords: العثور على نوع ورقة العمل من نوع حوار Ex
 Worksheet is a Dialog Sheet.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

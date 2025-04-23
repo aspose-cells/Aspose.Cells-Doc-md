@@ -19,3 +19,4 @@ url: /ru/net/create-high-low-close-stock-chart/
 Нижеприведенный образец кода загружает [образец файла Excel](High-Low-Close.xlsx) и генерирует [файл Excel вывода](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-high-low-close-stock-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

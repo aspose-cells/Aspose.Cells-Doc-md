@@ -16,3 +16,4 @@ keywords: 非表示の列データをデータテーブルにエクスポート,
 次のサンプルコードでは、ワークシート全体のデータをデータテーブルにエクスポートする際に非表示の列を無視する [**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns)プロパティの使用方法を説明しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-IgnoreHiddenColumnsDataTable-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

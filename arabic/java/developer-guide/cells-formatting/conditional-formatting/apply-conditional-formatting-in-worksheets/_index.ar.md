@@ -91,3 +91,4 @@ url: /ar/java/apply-conditional-formatting-in-worksheets/
 نرحب باستفساراتكم وتعليقاتكم واقتراحاتكم في [منتديات Aspose.Cells](https://forum.aspose.com/c/cells/9). نحن نضمن الرد السريع.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

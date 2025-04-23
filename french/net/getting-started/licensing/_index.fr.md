@@ -311,3 +311,4 @@ Chargement d'une licence à partir d'un flux
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

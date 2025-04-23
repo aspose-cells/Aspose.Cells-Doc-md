@@ -36,3 +36,4 @@ Detta exempel visar hur man:
 1. Få radindex efter namnet på raden.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-get-index.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

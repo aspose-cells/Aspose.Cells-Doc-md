@@ -6,36 +6,36 @@ url: /ru/java/filter-objects-while-loading-workbook-or-worksheet/
 ---
 
 ## **Возможные сценарии использования**
-Пожалуйста, используйте свойство [LoadOptions.LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#LoadFilter) при фильтрации данных из рабочей книги. Но если вы хотите фильтровать данные из отдельных листов, то вам придется переопределить метод [LoadFilter.startSheet](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#startSheet\(com.aspose.cells.Worksheet\)). Пожалуйста, укажите соответствующее значение из перечисления [LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) при создании или работе с [LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter).
+Пожалуйста, используйте свойство [LoadOptions.LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#LoadFilter), фильтруя данные из рабочей книги. Но если вы хотите фильтровать данные из отдельных листов, то необходимо переопределить метод [LoadFilter.startSheet](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#startSheet-com.aspose.cells.Worksheet-). При создании или работе с [LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter) укажите подходящее значение из перечисления [LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions).
 
 Перечисление [LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) содержит следующие значения.
 
 - [НЕТ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#NONE)
 - [ВСЕ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#ALL)
-- [ПУСТАЯ_ЯЧЕЙКА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_BLANK)
-- [СТРОКА_ЯЧЕЙКИ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_STRING)
-- [ЧИСЛОВАЯ_ЯЧЕЙКА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_NUMERIC)
-- [ОШИБКА_ЯЧЕЙКИ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_ERROR)
-- [ЛОГИЧЕСКАЯ_ЯЧЕЙКА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_BOOL)
-- [ЗНАЧЕНИЕ_ЯЧЕЙКИ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_VALUE)
+- [ПУСТАЯ_ЯЧЕЙКА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL-BLANK)
+- [СТРОКА_ЯЧЕЙКИ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL-STRING)
+- [ЧИСЛОВАЯ_ЯЧЕЙКА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL-NUMERIC)
+- [ОШИБКА_ЯЧЕЙКИ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL-ERROR)
+- [ЛОГИЧЕСКАЯ_ЯЧЕЙКА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL-BOOL)
+- [ЗНАЧЕНИЕ_ЯЧЕЙКИ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL-VALUE)
 - [ФОРМУЛА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#FORMULA)
-- [ДАННЫЕ_ЯЧЕЙКИ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_DATA)
+- [ДАННЫЕ_ЯЧЕЙКИ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL-DATA)
 - [ДИАГРАММА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CHART)
 - [ФИГУРА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHAPE)
-- [ОБЪЕДИНЕННАЯ_ОБЛАСТЬ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#MERGED_AREA)
-- [УСЛОВНОЕ_ФОРМАТИРОВАНИЕ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CONDITIONAL_FORMATTING)
-- [ПРОВЕРКА_ДАННЫХ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DATA_VALIDATION)
-- [СВОДНАЯ_ТАБЛИЦА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#PIVOT_TABLE)
+- [ОБЪЕДИНЕННАЯ_ОБЛАСТЬ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#MERGED-AREA)
+- [УСЛОВНОЕ_ФОРМАТИРОВАНИЕ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CONDITIONAL-FORMATTING)
+- [ПРОВЕРКА_ДАННЫХ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DATA-VALIDATION)
+- [СВОДНАЯ_ТАБЛИЦА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#PIVOT-TABLE)
 - [ТАБЛИЦА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#TABLE)
 - [ГИПЕРССЫЛКИ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#HYPERLINKS)
-- [НАСТРОЙКИ_ЛИСТА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET_SETTINGS)
-- [ДАННЫЕ_ЛИСТА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET_DATA)
-- [НАСТРОЙКИ_КНИГИ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#BOOK_SETTINGS)
+- [НАСТРОЙКИ_ЛИСТА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET-SETTINGS)
+- [ДАННЫЕ_ЛИСТА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET-DATA)
+- [НАСТРОЙКИ_КНИГИ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#BOOK-SETTINGS)
 - [НАСТРОЙКИ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SETTINGS)
-- [XML_СВЯЗЬ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#XML_MAP)
+- [XML_СВЯЗЬ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#XML-MAP)
 - [СТРУКТУРА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#STRUCTURE)
-- [СВОЙСТВА_ДОКУМЕНТА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DOCUMENT_PROPERTIES)
-- [ОПРЕДЕЛЕННЫЕ_ИМЕНА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)
+- [СВОЙСТВА_ДОКУМЕНТА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DOCUMENT-PROPERTIES)
+- [ОПРЕДЕЛЕННЫЕ_ИМЕНА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED-NAMES)
 - [VBA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#VBA)
 - [СТИЛЬ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#STYLE)
 ## **Объекты фильтрации при загрузке книги**
@@ -58,3 +58,4 @@ url: /ru/java/filter-objects-while-loading-workbook-or-worksheet/
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-FilterObjectsLoadingWorksheets-1.java" >}}
+{{< app/cells/assistant language="java" >}}

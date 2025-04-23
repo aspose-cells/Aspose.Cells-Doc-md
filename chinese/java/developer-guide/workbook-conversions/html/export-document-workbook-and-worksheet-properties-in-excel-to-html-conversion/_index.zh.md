@@ -18,3 +18,4 @@ url: /zh/java/export-document-workbook-and-worksheet-properties-in-excel-to-html
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-ExportDocumentWorkbookAndWorksheetPropertiesInHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

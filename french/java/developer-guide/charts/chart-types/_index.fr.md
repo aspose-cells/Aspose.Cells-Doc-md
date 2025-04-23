@@ -257,3 +257,4 @@ Le graphique en cascade est pris en charge dans Aspose.Cells.
 
 ### **Types de graphique personnalisés**
 Les graphiques personnalisés vous permettent de créer des graphiques avec un format personnalisé qui peut également être appliqué à d'autres graphiques. Ici, nous avons uniquement discuté des graphiques standard. Si vous souhaitez en savoir plus sur les graphiques personnalisés, veuillez lire l'article [Création de graphiques personnalisés](/cells/fr/java/creating-and-customizing-charts/#creatingandcustomizingcharts-usingchartingobjects) qui décrit comment créer des graphiques personnalisés.
+{{< app/cells/assistant language="java" >}}

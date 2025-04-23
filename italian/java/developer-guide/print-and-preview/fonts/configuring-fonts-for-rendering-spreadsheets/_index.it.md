@@ -22,7 +22,13 @@ Di seguito il processo che le API di Aspose.Cells seguono dietro le quinte.
 
 {{% alert color="primary" %}}
 
-Le API di Aspose.Cells scansionano sempre la directory predefinita dei font del sistema operativo, con un'eccezione, ovvero quando gli argomenti JVM **-DAspose.Cells.FontDirExc="YourFontDir"** sono impostati. In tal caso, le API di Aspose.Cells salteranno la scansione della directory predefinita dei font del sistema operativo e cercheranno solo il percorso specificato negli argomenti JVM menzionati.
+In generale, le API di Aspose.Cells scansionano le directory dei font predefinite del sistema operativo su Windows, Linux, MacOS per impostazione predefinita. A partire da [Aspose.Cells for Java 24.7](https://releases.aspose.com/cells/java/release-notes/2024/aspose-cells-for-java-24-7-release-notes/), le API scansionano inoltre le directory dei font cache di Office nel cloud per impostazione predefinita.
+
+{{% /alert %}}
+
+{{% alert color="primary" %}}
+
+Le API di Aspose.Cells scansionano sempre la directory dei font predefinita del sistema operativo con un'eccezione, cioè; quando vengono impostati gli argomenti JVM **-DAspose.Cells.FontDirExc="YourFontDir"**. In tal caso, le API di Aspose.Cells salteranno la scansione della directory dei font predefinita del sistema operativo e cercheranno solo nel percorso specificato negli argomenti JVM menzionati.
 
 {{% /alert %}}
 
@@ -30,13 +36,13 @@ Le API di Aspose.Cells scansionano sempre la directory predefinita dei font del 
 
 Le API di Aspose.Cells cercano la directory predefinita dei font del sistema operativo per i font richiesti. Nel caso in cui i font richiesti non siano disponibili nella directory dei font del sistema, le API cercano attraverso le directory personalizzate (definite dall'utente). La classe [**FontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs) ha esposto un certo numero di modi per impostare le directory dei font personalizzate come dettagliato di seguito.
 
-1. [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)): Questo metodo è utile se c'è solo una cartella da impostare.
-1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)): Questo metodo è utile quando i font risiedono in più cartelle e l'utente desidera impostare tutte le cartelle separatamente anziché combinare tutti i font in una singola cartella.
-1. [**FontConfigs.setFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontSources(com.aspose.cells.FontSourceBase[])): Questo meccanismo è utile quando l'utente desidera caricare i font da più cartelle o un singolo file font o dati font da un array di byte.
+1. [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder-java.lang.String-boolean-): Questo metodo è utile se c'è solo una cartella da impostare.
+1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders-java.lang.String[]-boolean-): Questo metodo è utile quando i font risiedono in più cartelle e l'utente desidera impostare tutte le cartelle separatamente anziché combinare tutti i font in una singola cartella.
+1. [**FontConfigs.setFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontSources-com.aspose.cells.FontSourceBase[]-): Questo meccanismo è utile quando l'utente desidera caricare i font da più cartelle o un singolo file font o dati font da un array di byte.
 
 {{% alert color="primary" %}}
 
-Entrambi i metodi [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)) e [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)) accettano un secondo parametro di tipo Boolean. Passare **true** come secondo parametro indirizzerà le API di Aspose.Cells a cercare i file dei font nelle sottocartelle.
+Entrambi i metodi [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder-java.lang.String-boolean-) e [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders-java.lang.String[]-boolean-) accettano un secondo parametro di tipo Boolean. Passare **true** come secondo parametro indirizzerà le API di Aspose.Cells a cercare i file dei font nelle sottocartelle.
 
 {{% /alert %}}
 
@@ -71,4 +77,5 @@ FontConfigs.setFontSubstitutes("Arial", new String[] { "Times New Roman", "Calib
 Oltre ai metodi sopra menzionati, le API Aspose.Cells forniscono anche mezzi per raccogliere informazioni su quali fonti e sostituzioni sono state impostate.
 
 1. [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources--): Questo metodo restituisce un array di tipo [**FontSourceBase**](https://reference.aspose.com/cells/java/com.aspose.cells/FileFontSource) contenente l'elenco delle origini dei font specificate. Nel caso in cui non siano state impostate delle origini, il metodo [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources--) restituirà un array vuoto.
-1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)): Questo metodo accetta un parametro di tipo **String** permettendo di specificare il nome del font per il quale è stata impostata la sostituzione. Nel caso in cui non sia stata impostata alcuna sostituzione per il nome del font specificato, il metodo [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)) restituirà null.
+1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes-java.lang.String-): Questo metodo accetta un parametro di tipo **String** permettendo di specificare il nome del font per il quale è stata impostata la sostituzione. Nel caso in cui non sia stata impostata alcuna sostituzione per il nome del font specificato, il metodo [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes-java.lang.String-) restituirà null.
+{{< app/cells/assistant language="java" >}}

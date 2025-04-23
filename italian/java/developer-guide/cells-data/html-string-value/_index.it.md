@@ -28,3 +28,4 @@ Questo è il codice di esempio che ha generato il file Excel di output mostrato 
 - [Visualizza pallini impostando il valore della cella utilizzando HTML](/cells/it/java/display-bullets-by-setting-cell-value-using/)
 - [Ottieni una stringa HTML5 dalla cella](/cells/it/java/get-html5-string-from-cell/)
 
+{{< app/cells/assistant language="java" >}}

@@ -27,7 +27,7 @@ Di seguito sono riportati i passaggi coinvolti per copiare e spostare i fogli di
 
 ## **Copiare i Fogli di Lavoro all'interno di una Cartella di Lavoro**
 
-Aspose.Cells fornisce un metodo sovraccaricato, [**WorksheetCollection.addCopy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy(int)), che viene utilizzato per aggiungere un foglio di lavoro alla raccolta e copiare i dati da un foglio di lavoro esistente. Una versione del metodo prende l'indice del foglio di lavoro di origine come parametro. L'altra versione prende il nome del foglio di lavoro di origine.
+Aspose.Cells fornisce un metodo sovraccaricato, [**WorksheetCollection.addCopy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy-int-), che viene utilizzato per aggiungere un foglio di lavoro alla raccolta e copiare i dati da un foglio di lavoro esistente. Una versione del metodo prende l'indice del foglio di lavoro di origine come parametro. L'altra versione prende il nome del foglio di lavoro di origine.
 
 Nell'esempio seguente viene mostrato come copiare un foglio di lavoro esistente all'interno di un libro.
 
@@ -35,7 +35,7 @@ Nell'esempio seguente viene mostrato come copiare un foglio di lavoro esistente 
 
 ## **Copiare i Fogli di Lavoro tra Cartelle di Lavoro**
 
-Aspose.Cells fornisce un metodo, [**Worksheet.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)), utilizzato per copiare dati e formattazione da un foglio di lavoro di origine a un altro foglio di lavoro all'interno o tra le cartelle di lavoro. Il metodo richiede l'oggetto del foglio di lavoro di origine come parametro.
+Aspose.Cells fornisce un metodo, [**Worksheet.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy-com.aspose.cells.Worksheet-), utilizzato per copiare dati e formattazione da un foglio di lavoro di origine a un altro foglio di lavoro all'interno o tra le cartelle di lavoro. Il metodo richiede l'oggetto del foglio di lavoro di origine come parametro.
 
 L'esempio seguente mostra come copiare un foglio di lavoro da un libro di lavoro a un altro libro di lavoro.
 
@@ -47,8 +47,9 @@ L'esempio seguente mostra come copiare un foglio di lavoro da un libro di lavoro
 
 ## **Sposta i fogli di lavoro all'interno del libro di lavoro**
 
-Aspose.Cells fornisce un metodo, [**Worksheet.moveTo()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo(int)), utilizzato per spostare un foglio di lavoro in un'altra posizione nello stesso foglio di calcolo.
+Aspose.Cells fornisce un metodo, [**Worksheet.moveTo()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo-int-), utilizzato per spostare un foglio di lavoro in un'altra posizione nello stesso foglio di calcolo.
 
 L'esempio seguente mostra come spostare un foglio di lavoro in un'altra posizione all'interno del libro di lavoro.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-MoveWorksheet-MoveWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

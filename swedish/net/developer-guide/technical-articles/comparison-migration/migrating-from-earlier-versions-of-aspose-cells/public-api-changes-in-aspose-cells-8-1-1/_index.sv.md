@@ -31,3 +31,4 @@ Ett scenario är en s.k. om-prov-modell som inkluderar variabla inmatningsceller
 Kontrollera den detaljerade artikeln om [Hur man skapar, manipulerar eller tar bort scenarier från kalkylblad](/cells/sv/net/create-manipulate-or-remove-scenarios-from-worksheets/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

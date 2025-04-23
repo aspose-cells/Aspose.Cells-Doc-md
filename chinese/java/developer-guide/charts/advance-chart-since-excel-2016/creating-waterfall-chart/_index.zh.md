@@ -26,3 +26,4 @@ Aspose.Cells APIs允许使用线图创建瀑布图。API还允许自定义图表
 ## 相关文章
 
 - [创建和自定义图表](/cells/zh/java/creating-and-customizing-charts/)
+{{< app/cells/assistant language="java" >}}

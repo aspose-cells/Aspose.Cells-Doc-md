@@ -34,3 +34,4 @@ PeopleA
 PeopleB
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

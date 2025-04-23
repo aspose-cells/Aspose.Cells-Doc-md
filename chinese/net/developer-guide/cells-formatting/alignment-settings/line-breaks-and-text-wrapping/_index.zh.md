@@ -24,3 +24,4 @@ url: /zh/net/line-breaks-and-text-wrapping/
 您可以在 C# 中使用 '\n'，在 VB.NET 中使用 ' vbLf' 来在单元格中插入显式换行符。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-UseExplicitLineBreaks-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

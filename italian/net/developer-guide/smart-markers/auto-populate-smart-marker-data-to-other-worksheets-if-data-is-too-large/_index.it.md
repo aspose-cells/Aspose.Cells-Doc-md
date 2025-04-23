@@ -11,3 +11,4 @@ A volte si desidera popolare automaticamente i dati del marcatore intelligente i
 Il seguente codice di esempio ha una fonte dati che contiene 21 record. Vogliamo mostrare solo 15 record in un foglio di lavoro, quindi il resto dei record verrà spostato automaticamente nel secondo foglio di lavoro. Si noti che il secondo foglio di lavoro dovrebbe avere anche lo stesso tag del marcatore intelligente e è necessario chiamare il metodo [WorkbookDesigner.Process(sheetIndex, isPreserved)](https://reference.aspose.com/cells/net/aspose.cells.workbookdesigner/process/methods/2) per entrambi i fogli. Si prega di consultare il [file Excel di output](60489775.xlsx) generato dal codice per un riferimento.
 ## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-AutoPopulateSmartMarkerDataToOtherWorksheets.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

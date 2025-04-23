@@ -22,3 +22,4 @@ Aşağıdaki kod, [**Cell.GetWidthOfValue()**](https://reference.aspose.com/cell
 
 ## **Gelişmiş Konular**
 - [Hücre Değeri Metnin Genişliğini Alma](/cells/tr/net/get-text-width-of-cell-value/)
+{{< app/cells/assistant language="csharp" >}}

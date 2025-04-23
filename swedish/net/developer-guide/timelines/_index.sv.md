@@ -21,3 +21,4 @@ Se f√∂ljande exempelkod. Den laddar den [provs Excel-fil](input.xlsx) som inneh√
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Timelines-CreateTimelineToPivotTable.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

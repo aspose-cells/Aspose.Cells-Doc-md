@@ -35,3 +35,4 @@ Microsoft Excel的兼容性检查器在将文件保存为较早文件格式时�
 以下代码示例展示如何使用Aspose.Cells for .NET禁用兼容性检查器。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DisableCompatibilityChecker-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

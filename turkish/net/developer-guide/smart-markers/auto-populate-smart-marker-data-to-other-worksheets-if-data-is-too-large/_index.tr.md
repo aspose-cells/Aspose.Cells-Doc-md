@@ -11,3 +11,4 @@ Bazı durumlarda, veri kaynağınızın çok büyük olması durumunda Akıllı 
 Aşağıdaki örnek kodun veri kaynağında 21 kayıt bulunmaktadır. Bir çalışma sayfasında yalnızca 15 kaydı göstermek istiyoruz, o zaman geri kalan kayıtlar otomatik olarak ikinci çalışma sayfasına taşınır. Lütfen dikkat edin, ikinci çalışma sayfasının aynı akıllı işaret etiketlerine sahip olması gerekmekte ve her iki sayfa için de [WorkbookDesigner.Process(sheetIndex, isPreserved)](https://reference.aspose.com/cells/net/aspose.cells.workbookdesigner/process/methods/2) yöntemini çağırmalısınız. Referans için kod tarafından üretilen [çıktı Excel dosyasını](60489775.xlsx) inceleyin.
 ## **Örnek Kod**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-AutoPopulateSmartMarkerDataToOtherWorksheets.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

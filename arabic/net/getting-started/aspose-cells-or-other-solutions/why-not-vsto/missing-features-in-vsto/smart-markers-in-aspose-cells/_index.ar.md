@@ -12,3 +12,4 @@ url: /ar/net/smart-markers-in-aspose-cells/
 - [ميزة العلامات الذكية](/cells/ar/net/smart-markers-feature/)
 - [استخدام أنواع مجهولة أو كائنات مخصصة](/cells/ar/net/using-anonymous-types-or-custom-objects/)
 - [استخدام الكائنات المتداخلة](/cells/ar/net/using-nested-objects/)
+{{< app/cells/assistant language="csharp" >}}

@@ -51,3 +51,4 @@ För att öppna tab-separerade filer ska utvecklare använda klassen [**LoadOpti
 - [Läs in eller importera CSV-fil med formler](/cells/sv/java/load-or-import-csv-file-with-formulas/)
 - [Rensa ledande blanka rader och kolumner vid export av kalkylblad till CSV-format](/cells/sv/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
 
+{{< app/cells/assistant language="java" >}}

@@ -87,3 +87,4 @@ Aşağıdaki örnek, bir çalışma sayfasını etkinleştirmenin ve üzerinde e
 - [Aspose.Cells üzerinde Sheet.SheetId özelliğini kullanarak OpenXml'in faydalanılması](/cells/tr/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [Çalışma Sayfası Görünümleri](/cells/tr/net/worksheet-views/)
 
+{{< app/cells/assistant language="csharp" >}}

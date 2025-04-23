@@ -53,7 +53,7 @@ El archivo **Book1.xls** se abre usando la clase [**Workbook**](https://referenc
 
 **Establecer VisibilityType**
 
-También puedes ocultar las hojas de cálculo de una manera especial. Esta característica puede ocultar la hoja de cálculo de modo que la única forma de hacerla visible de nuevo es dando [**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY_HIDDEN) como valor de parámetro para el método [**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) en el código (se debe señalar aquí que los usuarios no pueden hacer visible el objeto en MS Excel directamente utilizando sus opciones de menú). Los usuarios también pueden utilizar el método [**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) para comprobar si una hoja de cálculo está marcada como Muy oculta o no.
+También puedes ocultar las hojas de cálculo de una manera especial. Esta característica puede ocultar la hoja de cálculo de modo que la única forma de hacerla visible de nuevo es dando [**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY-HIDDEN) como valor de parámetro para el método [**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) en el código (se debe señalar aquí que los usuarios no pueden hacer visible el objeto en MS Excel directamente utilizando sus opciones de menú). Los usuarios también pueden utilizar el método [**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) para comprobar si una hoja de cálculo está marcada como Muy oculta o no.
 
 ## **Mostrar u ocultar pestañas**
 
@@ -224,3 +224,4 @@ El archivo Book1.xls se abre usando la clase [**Workbook**](https://reference.as
 - [Agregar bordes a celdas para crear una tabla](/cells/es/java/create-table-by-using-border-lines-for-a-range/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

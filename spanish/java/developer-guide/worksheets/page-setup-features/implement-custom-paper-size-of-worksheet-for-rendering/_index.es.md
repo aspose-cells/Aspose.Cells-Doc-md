@@ -11,7 +11,7 @@ No hay una opción directa disponible para crear tamaños de papel personalizado
 
 ## **Implementar Tamaño de Papel Personalizado de la Hoja de Cálculo para el Renderizado**
 
-Aspose.Cells te permite implementar tu tamaño de papel deseado de la hoja de trabajo usando el método [**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize(double,%20double)) del [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup). El siguiente código de ejemplo ilustra cómo especificar un tamaño de papel personalizado para la primera hoja de trabajo en el libro. Por favor, revisa también el [PDF de salida](45056030.pdf) generado con el siguiente código como referencia.
+Aspose.Cells te permite implementar tu tamaño de papel deseado de la hoja de trabajo usando el método [**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize-double-double-) del [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup). El siguiente código de ejemplo ilustra cómo especificar un tamaño de papel personalizado para la primera hoja de trabajo en el libro. Por favor, revisa también el [PDF de salida](45056030.pdf) generado con el siguiente código como referencia.
 
 ## **Captura de pantalla**
 
@@ -20,3 +20,4 @@ Aspose.Cells te permite implementar tu tamaño de papel deseado de la hoja de tr
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-PageSetupFeatures-ImplementCustomPaperSizeOfWorksheetForRendering.java" >}}
+{{< app/cells/assistant language="java" >}}

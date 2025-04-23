@@ -74,3 +74,4 @@ Ora si prega di eseguire il seguente esempio, vedere come funziona in Aspose.Cel
 - [Sposta Intervallo di Celle in un Foglio di Lavoro](/cells/it/net/move-range-of-cells-in-a-worksheet/)
 - [Crea Riferimenti con Nome a Livello di Cartella e Foglio di Lavoro](/cells/it/net/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Cerca e Sostituisci Dati in un Intervallo](/cells/it/net/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="csharp" >}}

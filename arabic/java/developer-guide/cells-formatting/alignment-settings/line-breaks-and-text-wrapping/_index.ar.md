@@ -24,3 +24,4 @@ url: /ar/java/line-breaks-and-text-wrapping/
 يمكنك استخدام '\n' في الجافا لإدراج كسرات الأسطر الصريحة في خلية.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UseExplicitLineBreaks-UseExplicitLineBreaks.java" >}}
+{{< app/cells/assistant language="java" >}}

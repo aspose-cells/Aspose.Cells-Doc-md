@@ -34,3 +34,4 @@ description: توقيع ملف إكسل رقمي، التحقق. لحماية أ
 يوضح مقتطف الكود التالي استخدام واجهة برمجة التطبيق Aspose.Cells for Java للتحقق من جدول البيانات.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ValidatingSpreadsheets-ValidatingSpreadsheets.java" >}}
+{{< app/cells/assistant language="java" >}}

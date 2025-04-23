@@ -46,3 +46,4 @@ La configuración de memoria no funcionará automáticamente para la hoja por de
 Por favor, consulte el artículo detallado sobre [Optimizar la memoria mientras se trabaja con grandes conjuntos de datos](/cells/es/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

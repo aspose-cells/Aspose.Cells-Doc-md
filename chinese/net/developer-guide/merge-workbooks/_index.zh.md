@@ -56,3 +56,4 @@ url: /zh/net/combine-multiple-workbooks-into-a-single-workbook/
 ## **高级主题**
 - [将多个工作表合并成一个工作表](/cells/zh/net/combine-multiple-worksheets-into-a-single-worksheet/)
 - [合并文件](/cells/zh/net/merge-files/)
+{{< app/cells/assistant language="csharp" >}}

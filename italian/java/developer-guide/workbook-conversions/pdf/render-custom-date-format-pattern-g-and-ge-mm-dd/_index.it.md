@@ -14,3 +14,4 @@ Aspose.Cells è ora in grado di rendere il formato data personalizzato come g, g
 Il seguente codice di esempio converte il [file excel di origine](95584282.xlsx) che contiene valori data con modelli di formato personalizzati come g e ge.mm.dd in [PDF di output](95584283.pdf).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-RenderCustomDateFormat-1.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -44,3 +44,4 @@ Die Speichereinstellungen funktionieren standardmäßig nicht für das automatis
 Bitte überprüfen Sie den ausführlichen Artikel zu [Optimieren des Speichers bei der Arbeit mit großen Datensätzen](/cells/de/net/speichern-von-arbeitsspeicher-verwenden-mit-großen-dateien-die-große-datenbestände-haben/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -41,3 +41,4 @@ Aspose.Cells for .Netで行（複数可）を凍結するのは簡単です。
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Row.cs" >}}
 
 添付の[サンプルソースExcelファイル](../Freeze.xlsx)。
+{{< app/cells/assistant language="csharp" >}}

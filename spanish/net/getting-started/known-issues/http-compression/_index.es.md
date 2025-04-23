@@ -21,3 +21,4 @@ Puedes usar uno de los siguientes métodos para resolver este problema:
 - Guarde el archivo generado en su servidor y proporcione un enlace a sus usuarios.
 
 Si desea utilizar la Compresión HTTP, por favor siempre utilice la opción *OpenInExcel* en lugar de la opción *OpenInBrowser* cuando sabe que ha habilitado la compresión en IIS.
+{{< app/cells/assistant language="csharp" >}}

@@ -24,3 +24,4 @@ url: /ru/net/create-dynamic-chart/
 - [Создание динамической круговой диаграммы с использованием Aspose Cells](/cells/ru/net/create-dynamic-rolling-chart/)
 - [Создание динамической прокрутки диаграммы с использованием Aspose Cells](/cells/ru/net/create-dynamic-scrolling-chart/)
 - [Создание динамической диаграммы с выпадающим списком с использованием Aspose Cells](/cells/ru/net/create-dynamic-chart-with-dropdownlist/)
+{{< app/cells/assistant language="csharp" >}}

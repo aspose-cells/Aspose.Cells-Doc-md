@@ -26,3 +26,4 @@ keywords: ファイルを読み込むと行の高さが自動的にコンテン�
 ## **C# サンプルコード**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Rows-autofit-row-height.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

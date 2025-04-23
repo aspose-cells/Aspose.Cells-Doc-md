@@ -3,8 +3,8 @@ title: Utilice la propiedad Sheet.SheetId de OpenXml usando Aspose.Cells
 type: docs
 weight: 200
 url: /es/python-net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
-description: Este artículo muestra cómo utilizar la propiedad Sheet.SheetId de OpenXml usando Aspose.Cells para Python via .NET APIs.
-keywords: Biblioteca de Excel de Python, propiedad de identificación de hoja de Python en OpenXml, identificación de hojas de Excel en Python.
+description: Este artículo muestra cómo utilizar la propiedad Sheet.SheetId de OpenXml usando las APIs de Aspose.Cells para Python via .NET.
+keywords: Biblioteca de Excel en Python, propiedad de id de hoja en Python de openxml, id de hoja en Excel en Python.
 ---
 
 ## **Escenarios de uso posibles**
@@ -13,7 +13,7 @@ La propiedad *Sheet.SheetId* se encuentra dentro del espacio de nombres *Documen
 
 ![todo:image_alt_text](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
 
-## **Utilizar la propiedad Sheet.SheetId de OpenXml utilizando la Biblioteca de Excel para Python de Aspose.Cells**
+## **Utilizar la propiedad Sheet.SheetId de OpenXml usando Aspose.Cells para la Biblioteca de Excel en Python.**
 
 El siguiente código de ejemplo carga el [archivo de Excel de ejemplo](51740716.xlsx), lee su Id de hoja o pestaña, luego le asigna un nuevo Id de pestaña y lo guarda como [archivo de Excel de salida](51740717.xlsx). También consulte la salida de consola del código que se muestra a continuación como referencia.
 

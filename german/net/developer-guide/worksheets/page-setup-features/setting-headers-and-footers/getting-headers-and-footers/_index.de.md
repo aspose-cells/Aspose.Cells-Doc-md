@@ -44,3 +44,4 @@ Aspose.Cells für .Net stellt die Methode [**Worksheet.PageSetup.GetCommands**](
 Der folgende Code zeigt, wie der Kopf oder der Fuß als Befehlsliste geparst und Befehle verarbeitet werden:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Parses-Header-Footer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

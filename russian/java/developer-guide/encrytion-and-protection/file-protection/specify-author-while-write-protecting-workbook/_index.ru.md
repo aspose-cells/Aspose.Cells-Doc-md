@@ -18,3 +18,4 @@ url: /ru/java/specify-author-while-write-protecting-workbook/
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Worksheets-SpecifyAuthorWhileWriteProtectingWorkbook.java" >}}
+{{< app/cells/assistant language="java" >}}

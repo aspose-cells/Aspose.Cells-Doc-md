@@ -60,3 +60,4 @@ Entire Row: 1:1
 \----------------------
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

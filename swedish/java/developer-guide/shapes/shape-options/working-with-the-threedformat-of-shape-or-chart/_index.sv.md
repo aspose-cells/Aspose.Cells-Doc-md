@@ -15,3 +15,4 @@ Följande skärmbild visar Microsoft Excels gränssnitt för att ställa in 3D-f
 Följande kodexempel laddar [käll-excel-filen](5472522.xlsx) och får åtkomst till den första formen i den första arbetsboken och anger underegenskaperna för [Shape.ThreeDFormat](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ThreeDFormat) egenskapen och sparar sedan arbetsboken i [utdata-excel-filen](5472521.xlsx).
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithThreeDFormat-WorkingWithThreeDFormat.java" >}}
+{{< app/cells/assistant language="java" >}}

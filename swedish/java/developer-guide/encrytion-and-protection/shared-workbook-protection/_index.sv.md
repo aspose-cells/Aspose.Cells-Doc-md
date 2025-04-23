@@ -8,7 +8,7 @@ url: /sv/java/password-protect-or-unprotect-the-shared-workbook/
 
 ## **Möjliga användningsscenario**
 
-Du kan skydda eller häva skyddet för den delade arbetsboken med Microsoft Excel som visas på följande skärmbild. Aspose.Cells stöder också denna funktion med metoderna [**Workbook.protectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook(java.lang.String)) och [**Workbook.unprotectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook(java.lang.String)).
+Du kan skydda eller häva skyddet för den delade arbetsboken med Microsoft Excel som visas på följande skärmbild. Aspose.Cells stöder också denna funktion med metoderna [**Workbook.protectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook-java.lang.String-) och [**Workbook.unprotectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook-java.lang.String-).
 
 ![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_1.png)
 
@@ -21,3 +21,4 @@ Följande exempelkod skapar en arbetsbok och skyddar den samtidigt som den möjl
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-PasswordProtectOrUnprotectSharedWorkbook.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -111,3 +111,4 @@ La collection [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/wo
 - [Paramètres de nombre](/cells/fr/net/cells-number-settings/)
 - [Obtenir et définir le style des cellules](/cells/fr/net/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -22,3 +22,4 @@ Följande kodsnutt demonstrerar detta genom att lägga till data med Smart Marke
 Implementeringen av klassen *DataObject* ges nedan
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AllowLeadingApostrophe-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

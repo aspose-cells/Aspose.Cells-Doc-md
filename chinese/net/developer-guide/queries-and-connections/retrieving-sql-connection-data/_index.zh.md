@@ -22,3 +22,4 @@ Aspose.Cells提供了用于检索外部连接的Workbook.DataConnections属性�
 如果ExternalConnection对象包含SQL连接数据，它可以被类型转换为DBConnection对象，并且它的属性可以用于检索数据库命令、命令类型、连接描述、连接信息、凭据等。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-RetrievingSQLConnectionData-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

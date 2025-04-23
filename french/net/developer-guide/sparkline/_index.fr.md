@@ -22,3 +22,4 @@ Il est simple de créer un sparkline avec Aspose.Cells en utilisant les codes d'
 
 ## **Sujets avancés**
 - [Utiliser les sparklines et les paramètres de format 3D](/cells/fr/net/using-sparklines-and-settings-3d-format/)
+{{< app/cells/assistant language="csharp" >}}

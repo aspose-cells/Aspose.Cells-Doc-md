@@ -77,3 +77,4 @@ Aspose.Cells提供了一个表示Microsoft Excel文件的类[**Workbook**](https
 - [插入和删除Excel文件的行和列](/cells/zh/net/inserting-and-deleting-rows-and-columns/)
 - [在工作表中删除重复行](/cells/zh/net/remove-duplicate-rows-in-a-worksheet/)
 - [删除工作表中的空白列和行时更新其他工作表中的引用](/cells/zh/net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

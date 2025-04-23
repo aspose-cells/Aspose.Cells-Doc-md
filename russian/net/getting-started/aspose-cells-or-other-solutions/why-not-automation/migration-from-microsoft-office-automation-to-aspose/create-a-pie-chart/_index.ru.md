@@ -182,3 +182,4 @@ url: /ru/net/create-a-pie-chart/
 **Круговая диаграмма, созданная с помощью Aspose.Cells for .NET** 
 
 ![todo:image_alt_text](create-a-pie-chart_2.png)
+{{< app/cells/assistant language="csharp" >}}

@@ -57,3 +57,4 @@ workbook.save(dataDir + "Aspose_PivotChart_Out.xls");
 لمزيد من التفاصيل، قم بزيارة [إنشاء جداول محورية ورسوم بيانية محورية](/cells/ar/java/create-pivot-tables-and-pivot-charts/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

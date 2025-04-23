@@ -30,3 +30,4 @@ url: /ru/java/add-wordart-watermark-to-chart/
 ### Java-код для добавления водяного знака WordArt к диаграммам
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddWordArtWatermarkToChart-AddWordArtWatermarkToChart.java" >}}
+{{< app/cells/assistant language="java" >}}

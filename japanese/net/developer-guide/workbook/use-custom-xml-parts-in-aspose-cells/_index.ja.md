@@ -24,3 +24,4 @@ Aspose.Cellsを使用してカスタムXMLパーツを追加する場合は、 [
 ## 関連記事
 
 - [ドキュメント情報パネルで表示されるカスタムプロパティの追加](/cells/ja/net/adding-custom-properties-visible-inside-document-information-panel/)
+{{< app/cells/assistant language="csharp" >}}

@@ -11,3 +11,4 @@ In precedenza, Aspose.Cells non poteva visualizzare gli Office Add-Ins quando il
 Il seguente codice di esempio salva il [file Excel di esempio](60489783.xlsx) che contiene gli Add-In di Office. Si prega di vedere il [PDF di output generato con la versione precedente cioè 17.11](60489781.pdf) e il [PDF di output generato con la nuova versione cioè 17.12 e successive](60489782.pdf). Il PDF di output della versione precedente è vuoto ma il PDF di output della nuova versione mostra l'Add-In di Office.
 ## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Rendering-RenderOfficeAdd_InsWhileConvertingExcelToPdf.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -22,3 +22,4 @@ Aspose.Cells предоставляет свойство [**HtmlSaveOptions.Expo
 - [Экспортировать комментарии при сохранении файла Excel в HTML](/cells/ru/java/export-comments-while-saving-excel-file-to-html/)
 - [Скрытие наложенного содержимого с помощью CrossHideRight при сохранении в HTML](/cells/ru/java/hiding-overlaid-content-with-crosshideright-while-saving-to-html/)
 - [Экспорт аналогичного стиля границы, когда стиль границы не поддерживается веб-браузерами](/cells/ru/java/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/)
+{{< app/cells/assistant language="java" >}}

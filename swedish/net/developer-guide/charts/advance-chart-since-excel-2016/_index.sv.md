@@ -41,3 +41,4 @@ BoxWhisker
 - [Skapa vattenfalldiagram](/cells/sv/net/creating-waterfall-chart/)
 - [Skapa treemap-diagram](/cells/sv/net/creating-treemap-chart/)
 - [Skapa sunburst-diagram](/cells/sv/net/creating-sunburst-chart/)
+{{< app/cells/assistant language="csharp" >}}

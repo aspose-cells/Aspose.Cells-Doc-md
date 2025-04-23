@@ -18,3 +18,4 @@ Aspose.Cells supporta ora l'ottenimento della data di aggiornamento e dell'infor
 **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-GetPivotTableRefreshDate-1.java" >}}
+{{< app/cells/assistant language="java" >}}

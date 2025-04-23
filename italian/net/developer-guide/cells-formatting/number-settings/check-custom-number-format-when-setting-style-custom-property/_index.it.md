@@ -18,3 +18,4 @@ Il seguente codice di esempio assegna un formato numero personalizzato non valid
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-CheckCustomFormatPattern.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

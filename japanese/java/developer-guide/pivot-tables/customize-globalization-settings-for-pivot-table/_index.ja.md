@@ -18,3 +18,4 @@ Aspose.Cellsでは、*Pivot Total、Sub Total、Grand Total、All Items、Multip
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-CustomizeGlobalizationSettingsforPivotTable-1.java" >}}
+{{< app/cells/assistant language="java" >}}

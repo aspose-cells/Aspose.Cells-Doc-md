@@ -42,3 +42,4 @@ Aspose.Cells API已公开[**GlobalizationSettings**](https://reference.aspose.co
 以下片段加载包含饼图的现有电子表格，并在利用上面创建的**CustomSettings**类的同时将图表渲染为图像。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomTextForLabels-UsingGlobalizationSettings.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

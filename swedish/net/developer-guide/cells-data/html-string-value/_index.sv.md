@@ -26,3 +26,4 @@ Nedan kodprov visar hur du lägger till HTML-rich text inuti cellen. Se skärmbi
 
 - [Visa punktlistor genom att ställa in cellvärde med hjälp av HTML](/cells/sv/net/display-bullets-by-setting-cell-value-using/)
 - [Hämta HTML5-sträng från cell](/cells/sv/net/get-html5-string-from-cell/)
+{{< app/cells/assistant language="csharp" >}}

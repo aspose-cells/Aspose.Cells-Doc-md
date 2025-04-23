@@ -30,3 +30,4 @@ Aspose.Cells позволяет указывать формулу, исполь�
 Приведенный ниже пример демонстрирует, как его использовать.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-SettingSharedFormula-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

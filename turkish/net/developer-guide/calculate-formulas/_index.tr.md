@@ -74,3 +74,4 @@ Varsayılan olarak hesaplama zinciri devre dışıdır. Zinciri oluşturmak da e
 - [Çalışma Kitabının Formül Hesaplama Modunu Ayarlama](/cells/tr/net/setting-formula-calculation-mode-of-workbook/)
 - [Aspose.Cells'te FormulaText Fonksiyonu Kullanma](/cells/tr/net/using-formulatext-function-in-aspose-cells/)
 - [ICustomFunction Özelliğinin Kullanımı](/cells/tr/net/using-icustomfunction-feature/)
+{{< app/cells/assistant language="csharp" >}}

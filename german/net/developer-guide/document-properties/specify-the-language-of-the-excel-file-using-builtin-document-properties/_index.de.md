@@ -18,3 +18,4 @@ Der folgende Beispielcode erstellt eine Arbeitsmappe und ändert ihre eingebaute
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DocumentProperties-SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

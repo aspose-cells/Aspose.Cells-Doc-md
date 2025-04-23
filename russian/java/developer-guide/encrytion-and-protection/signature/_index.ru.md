@@ -34,3 +34,4 @@ Aspose.Cells for Java API предоставляет классы [**com.aspose.
 В следующем фрагменте кода показано использование API Aspose.Cells for Java для проверки таблицы.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ValidatingSpreadsheets-ValidatingSpreadsheets.java" >}}
+{{< app/cells/assistant language="java" >}}

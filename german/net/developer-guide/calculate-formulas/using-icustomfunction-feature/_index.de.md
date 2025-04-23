@@ -1,10 +1,10 @@
 ---
 title: Verwendung der ICustomFunction Funktion
 description: Dieser Artikel beschreibt, wie man eine benutzerdefinierte Funktion in Microsoft Excel mithilfe des ICustomFunction Features in der Aspose.Cells Bibliothek erstellt. Durch Laden einer vorhandenen Excel Datei oder Erstellen einer neuen Excel Datei können wir die von Aspose.Cells bereitgestellten Methoden verwenden, um benutzerdefinierte Funktionen zu definieren und zu registrieren und die Ergebnisse zu erhalten. Schließlich speichern wir die modifizierte Excel Datei auf der Festplatte.
-keywords: Aspose.Cells, Excel, ICustomFunction Features, benutzerdefinierte Funktionen
+keywords: Aspose.Cells, Excel, ICustomFunction Funktionen, benutzerdefinierte Funktionen, wie man benutzerdefinierte Funktionen berechnet.
 type: docs
 weight: 30
-url: /de/net/using-icustomfunction-feature/
+url: /de/net/how-to-calculate-custom-fuctions/
 ---
 
 {{% alert color="primary" %}} 
@@ -90,3 +90,4 @@ Da die Aspose.Cells-APIs die ReferredArea in "paramsList" erhalten, wird die Ref
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

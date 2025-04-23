@@ -4,15 +4,15 @@ linktitle: Pano Dondur
 type: docs
 weight: 190
 url: /tr/python-net/how-to-freeze-panes-of-excel-worksheet
-description: Bu makalede, Aspose.Cells for Python via .NET API leri kullanarak Excel Çalışma Sayfalarını programlı olarak nasıl donduracağınızı öğreneceksiniz.
-keywords: Python Excel Kütüphanesi, Python da excel dondurma, Python da pencereyi dondurma.
+description: Bu makalede, Aspose.Cells for Python via .NET API lerini kullanarak Excel Çalışma Sayfalarının bölmelerini programlı olarak nasıl donduracağınızı öğreneceksiniz.
+keywords: Python Excel Kütüphanesi, Python da Bölme Dondurma, Python da pencereyi dondurma.
 ---
 
 ## **Giriş**
 
 Bu makalede, Pencereleri Nasıl Sabitleyeceğimizi öğreneceğiz. Ortak bir başlık altında büyük miktarda veri olduğunda, çalışma sayfasını aşağı kaydırdığınızda başlığı göremezsiniz. Her kayıtta çok veri bulunmaktadır. Panoları dondurarak, geri kalan veriler kaydırıldığında bile donmuş kısmı görebilirsiniz. Başlık satırlarını veya ilk sütunları kolayca görebilirsiniz. Panoları dondurup serbest bırakmak, verinin görünümünü değiştirirken veriyi değiştirmemektedir.
 
-## ***Excel'de Panoları Dondurma Nasıl**
+## ***Excel'de Bölmeleri Nasıl Dondurulur**
 
 **![Excel'de Panoları Dondur](Freeze-panes.png)**
 
@@ -31,8 +31,8 @@ Panoları dondurarak büyük verilerinizi kolayca görüntülemenize olanak tan�
 
 
 
-## **Aspose.Cells for Python Excel Kütüphanesi ile Panoları Nasıl Dondurursunuz**
-Aspose.Cells for Python via .NET ile panoları dondurmak basittir. Lütfen seçilen Hücrede panoları dondurmak için [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) yöntemini kullanın.
+## **Aspose.Cells for Python Excel Kütüphanesi ile Bölmeleri Nasıl Dondurulur**
+Aspose.Cells for Python via .NET ile bölmeleri dondurmak oldukça basittir. Seçilen hücrede bölme yapmak için [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) metodunu kullanın.
 1. Dosyayı açmak veya boş bir dosya oluşturmak için Workbook'u oluşturun.
 2. Worksheet.FreezePanes() yöntemi ile panoları dondurun.
 3. Dosyayı kaydedin.

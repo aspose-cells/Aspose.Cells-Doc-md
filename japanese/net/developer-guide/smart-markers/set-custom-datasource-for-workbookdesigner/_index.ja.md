@@ -20,3 +20,4 @@ Aspose.Cells では、WorkbookDesigner にカスタムデータソースを設�
 [ソースファイル](95584319.xlsx)
 
 [出力ファイル](95584320.xlsx)
+{{< app/cells/assistant language="csharp" >}}

@@ -121,3 +121,4 @@ Dieser Artikel erklärt, wie Arbeitsblätter innerhalb und zwischen Arbeitsmappe
 Aspose.Cells hat von jahrelanger Forschung, Design und sorgfältiger Abstimmung profitiert. Wir freuen uns über Ihre Anfragen, Kommentare und Vorschläge im [Aspose.Cells-Forum](https://forum.aspose.com/c/cells/9). Wir garantieren eine prompte Antwort.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

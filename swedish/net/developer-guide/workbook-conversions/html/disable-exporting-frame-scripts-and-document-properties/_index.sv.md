@@ -16,3 +16,4 @@ Aspose.Cells exporterar ramscript och dokumentegenskaper vid konvertering av en 
 Följande exempelkod tillåter dig att inaktivera export av ramskript och dokumentegenskaper. När du konverterar en arbetsbok till HTML kommer utdatafilen inte att innehålla några ramskript eller dokumentegenskaper.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-HtmlExportFrameScripts-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

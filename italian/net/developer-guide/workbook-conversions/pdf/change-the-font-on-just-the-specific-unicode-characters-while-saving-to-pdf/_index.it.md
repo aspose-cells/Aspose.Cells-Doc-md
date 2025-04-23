@@ -38,3 +38,4 @@ Come puoi vedere nel primo Pdf, il font dell'intera frase è cambiato da Times N
 
 
 
+{{< app/cells/assistant language="csharp" >}}

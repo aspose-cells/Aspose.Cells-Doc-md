@@ -34,3 +34,4 @@ Come si può vedere **J1000000** è una cella piuttosto lontana nel file XLSX. T
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Example-StopConversionOrLoadingUsingInterruptMonitor.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

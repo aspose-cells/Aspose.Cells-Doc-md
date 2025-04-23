@@ -46,3 +46,4 @@ WorkbookService 是一个视图范围的 JSF 后端 bean。它作为一个服务
 它创建电子表格的实例，并在需要时将它们保存在内存中。
 ### **CellsService**
 **CellsService** 管理行、列、单元格、格式化和工作表结构的缓存。
+{{< app/cells/assistant language="java" >}}

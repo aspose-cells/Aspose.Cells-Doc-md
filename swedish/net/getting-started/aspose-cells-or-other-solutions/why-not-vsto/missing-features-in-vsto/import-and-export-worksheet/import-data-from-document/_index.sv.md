@@ -29,3 +29,4 @@ Denna sektion har följande ämnen:
 - [Importera från ArrayList](/cells/sv/net/importing-from-arraylist/)
 - [Importera från Anpassade Objekt](/cells/sv/net/importing-from-custom-objects/)
 - [Importera från DataTable](/cells/sv/net/importing-from-datatable/)
+{{< app/cells/assistant language="csharp" >}}

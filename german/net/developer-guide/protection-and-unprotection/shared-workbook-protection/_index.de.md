@@ -20,3 +20,4 @@ Der folgende Beispielcode erstellt eine Arbeitsmappe, schützt sie und ermöglic
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-PasswordProtectOrUnprotectSharedWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

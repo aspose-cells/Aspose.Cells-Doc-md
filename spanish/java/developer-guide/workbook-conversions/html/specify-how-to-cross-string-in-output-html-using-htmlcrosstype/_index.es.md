@@ -11,13 +11,13 @@ Cuando la celda contiene texto o una cadena pero es más grande que el ancho de 
 
 - [**HtmlCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT): Mostrar como MS Excel que depende de la siguiente celda. Si la siguiente celda está vacía, la cadena se cruzará o se truncará.
 
-- [**HtmlCrossType.MS_EXPORT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#MS_EXPORT): Muestre la cadena como si fuera MS Excel exportando HTML.
+- [**HtmlCrossType.MS_EXPORT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#MS-EXPORT): Muestre la cadena como si fuera MS Excel exportando HTML.
 
-- [**HtmlCrossType.CROSS**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS): Muestre la cadena HTML cruzada, el rendimiento para crear archivos HTML grandes será más de diez veces más rápido que configurar el valor en [**DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT) o [**FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL).
+- [**HtmlCrossType.CROSS**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS): Muestre la cadena HTML cruzada, el rendimiento para crear archivos HTML grandes será más de diez veces más rápido que configurar el valor en [**DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT) o [**FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT-TO-CELL).
 
-- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT): Muestre la cadena HTML cruzada y oculte la cadena derecha cuando los textos se superponen.
+- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS-HIDE-RIGHT): Muestre la cadena HTML cruzada y oculte la cadena derecha cuando los textos se superponen.
 
-- [**HtmlCrossType.FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL): Solo mostrar la cadena dentro del ancho de la celda.
+- [**HtmlCrossType.FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT-TO-CELL): Solo mostrar la cadena dentro del ancho de la celda.
 
 ## **Especifica cómo cruzar la cadena en HTML de salida utilizando HtmlCrossType**
 
@@ -28,3 +28,4 @@ El siguiente código de ejemplo carga el [archivo Excel de muestra](51740747.xls
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-SpecifyHtmlCrossTypeInOutputHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -36,3 +36,4 @@ Aspose.Cellsを使用して、柔軟なAPIを活用して、ゼロからExcelフ
 さらに、Aspose.Cellsではデザイナースプレッドシートに[スマートマーカー](/cells/ja/java/smart-markers/)を追加することができます。スマートマーカーは、[**WorkbookDesigner**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner)クラスのProcessメソッドを使用して実行時に処理されます。これにより、少ないコードで大きな効果を得ることができます。
 
 [スマートマーカーについて詳しく](/cells/ja/java/smart-markers/)をご覧ください。
+{{< app/cells/assistant language="java" >}}

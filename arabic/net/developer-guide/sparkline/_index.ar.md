@@ -22,3 +22,4 @@ description: إنشاء شريط الإشارة لإكسل باستخدام Aspo
 
 ## **مواضيع متقدمة**
 - [استخدام الشرائط الإشارية وإعدادات تنسيق ثلاثي الأبعاد](/cells/ar/net/using-sparklines-and-settings-3d-format/)
+{{< app/cells/assistant language="csharp" >}}

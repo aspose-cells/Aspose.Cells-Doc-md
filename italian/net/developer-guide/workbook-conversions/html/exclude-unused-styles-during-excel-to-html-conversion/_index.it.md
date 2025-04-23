@@ -18,3 +18,4 @@ Il codice di esempio seguente crea un libro di lavoro e crea anche uno stile nom
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-ExcludeUnusedStylesInExcelToHTML.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

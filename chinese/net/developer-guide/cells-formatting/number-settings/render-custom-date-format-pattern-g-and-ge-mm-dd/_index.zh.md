@@ -16,3 +16,4 @@ Aspose.Cells现在能够呈现类似于g、ge.mm.dd等自定义日期格式模�
 下面的示例代码将转换包含类似于g和ge.mm.dd的自定义格式模式的源Excel文件(5112361.xlsx)成为输出PDF(5112360.pdf)。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-RenderCustomDateFormat-RenderCustomDateFormatPatterngandgemmdd.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -266,3 +266,4 @@ Det rekommenderas att använda PageSetup.PrintDraft-egenskapen istället.
 Överväg att använda AutoFilter.FilterColumns-egenskapen för att uppnå samma mål.
 ### **Raderad TickLabels.Rotation-egenskap**
 Använd istället TickLabels.RotationAngle-egenskapen.
+{{< app/cells/assistant language="csharp" >}}

@@ -29,3 +29,4 @@ keywords: جافا، دمج وفك دمج الخلايا في نطاق، جاف�
 - [دمج وتقسيم الخلايا](/cells/ar/java/merging-and-unmerging-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

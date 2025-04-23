@@ -34,3 +34,4 @@ Aşağıdaki örnek kod, iki başlangıçtaki boş sütunu olan kaynak excel dos
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-TrimBlankRowsAndColsWhileExportingSpreadsheetsToCSVFormat-TrimBlankRowsAndColsWhileExportingSpreadsheetsToCSVForm.Java" >}}
+{{< app/cells/assistant language="java" >}}

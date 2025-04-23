@@ -16,3 +16,4 @@ url: /ru/java/disable-pivot-table-ribbons/
 Следующий код демонстрирует эту функцию, получая доступ к сводной таблице из листа и затем вызывая [**setEnableWizard**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#EnableWizard) для установки этого флага **false**. Образец сводной таблицы можно загрузить по этой [ссылке](71630876.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-DisablePivotTableRibbon-1.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -34,3 +34,4 @@ Aspose.Cells APIを使用してワークブック構造を保護解除するの�
 {{% alert color="primary" %}}
 注意：正しいパスワードが必要です。
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

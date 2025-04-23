@@ -47,3 +47,4 @@ I den utdata-PDF eller bildfilen av Aspose.Cells kommer en utvärderingsvattenst
 <br>
 <image src="3.png" width="70%" />
 <br>
+{{< app/cells/assistant language="java" >}}

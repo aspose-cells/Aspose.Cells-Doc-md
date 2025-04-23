@@ -14,3 +14,4 @@ Aspose.Cellsを使用すると、[**Worksheet.UniqueId**](https://reference.aspo
 ### ソースコード
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-GetWorksheetUniqueId-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

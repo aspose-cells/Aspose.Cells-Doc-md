@@ -14,3 +14,4 @@ HTML can have variety of tags formatting for empty tags like \<td>\</td> or \<td
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-RecognizeSelfClosingTags-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

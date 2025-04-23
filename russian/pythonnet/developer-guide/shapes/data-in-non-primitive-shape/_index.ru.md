@@ -3,8 +3,8 @@ title: Данные в не примитивной форме
 type: docs
 weight: 300
 url: /ru/python-net/data-in-non-primitive-shape/
-description: В этой статье показаны данные в неосновной форме через API Aspose.Cells для Python via .NET.
-keywords: Библиотека Python Excel, Данные в неосновной форме в Python, Как получить доступ к данным неосновной формы.
+description: Эта статья показывает отображение данных в Непримитивной форме через API Aspose.Cells для Python via .NET.
+keywords: Библиотека для Excel на Python, Данные в Непримитивной форме на Python, как получить доступ к данным Непримитивной формы на Python.
 ---
 
 ## **Доступ к данным не примитивной формы**
@@ -13,7 +13,7 @@ keywords: Библиотека Python Excel, Данные в неосновно�
 
 ## **Форма не примитивной формы**
 
-В Aspose.Cells для Python via .NET неосновным формам назначаются тип [**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/autoshapetype). Вы можете проверить их тип с помощью свойства [**Shape.auto_shape_type**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/auto_shape_type).
+В Aspose.Cells для Python via .NET, непримитивные формы имеют тип [**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/autoshapetype). Вы можете проверить их тип, используя свойство [**Shape.auto_shape_type**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/auto_shape_type).
 
 Доступ к данным формы с использованием свойства [**Shape.paths**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/paths). Оно возвращает все связанные пути, составляющие нетипичную форму. Эти пути имеют тип [**ShapePath**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shapepath) и содержат список всех сегментов, в свою очередь содержащих точки в каждом сегменте.
 

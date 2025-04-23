@@ -24,3 +24,4 @@ Aşağıdaki kod örneği, etkin çalışma sayfasını [**SaveFormat.Json**](ht
 - [Excel'i JSON'a dönüştür](/cells/tr/net/convert-excel-to-json/)
 - [JSON'ı CSV'ye dönüştür](/cells/tr/net/convert-json-to-csv/)
 - [JSON'ı Excel'e dönüştür](/cells/tr/net/convert-json-to-excel/)
+{{< app/cells/assistant language="csharp" >}}

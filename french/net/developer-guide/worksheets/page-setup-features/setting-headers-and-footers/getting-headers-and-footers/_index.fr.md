@@ -44,3 +44,4 @@ Aspose.Cells pour .Net fournit la méthode [**Worksheet.PageSetup.GetCommands**]
 Le code suivant montre comment analyser l'en-tête ou le pied de page en tant que liste de commandes et traiter les commandes :
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Parses-Header-Footer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

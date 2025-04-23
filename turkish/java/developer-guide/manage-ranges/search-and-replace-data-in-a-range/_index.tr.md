@@ -13,7 +13,7 @@ Bazen, istenen aralık dışındaki hücre değerlerini yoksayarak belirli veril
 
 {{% /alert %}}
 
-Aspose.Cells, veri arama işlemi için bir aralığı belirtmek için [**FindOptions.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange(com.aspose.cells.CellArea)) yöntemini sağlar.
+Aspose.Cells, veri arama işlemi için bir aralığı belirtmek için [**FindOptions.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange-com.aspose.cells.CellArea-) yöntemini sağlar.
 
 Varsayalım ki **"arama"** dizesini **"değiştir"** ile değiştirmek istiyoruz ve bu işlemi **E3:H6** aralığında yapmak istiyoruz. Aşağıdaki ekran görüntüsünde, **"arama"** dizesi birkaç hücrede görülebilir ancak yalnızca belirli bir aralıkta, burada sarı ile vurgulanmış olan alanda, değiştirmek istiyoruz.
 
@@ -32,3 +32,4 @@ Kodun çalıştırılmasından sonra, çıktı dosyası aşağıdaki gibi görü
 ## İlgili Makaleler
 
 - [Veri Bulma veya Arama](/cells/tr/java/find-or-search-data/)
+{{< app/cells/assistant language="java" >}}

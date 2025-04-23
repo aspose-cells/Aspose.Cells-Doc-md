@@ -100,3 +100,4 @@ url: /ru/java/page-setup-and-printing-options/
 Aspose.Cells воспользуется годами исследований, разработки и тщательной настройки. Мы искренне приветствуем ваши запросы, комментарии и предложения на [форуме Aspose.Cells](https://forum.aspose.com/c/cells/9). Мы гарантируем быстрый ответ.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

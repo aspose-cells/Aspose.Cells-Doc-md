@@ -49,3 +49,4 @@ Java HotSpot™ 64-Bit Server VM (build 23.7-b01, mixed mode)
 - <http://www.java2s.com/Code/JarDownload/ae/ae-awt.jar.zip>
 
 
+{{< app/cells/assistant language="java" >}}

@@ -11,11 +11,11 @@ url: /ja/java/specify-how-to-cross-string-in-output-pdf-and-image/
 
 - [**TextCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#DEFAULT)：MS Excelのように表示され、次のセルに依存します。 次のセルがnullの場合、文字列はクロスされるか、切り捨てられます。
 
-- [**TextCrossType. CROSS_KEEP**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_KEEP)：MS ExcelにエクスポートされたPDF/イメージのように文字列を表示します
+- [**TextCrossType. CROSS_KEEP**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS-KEEP)：MS ExcelにエクスポートされたPDF/イメージのように文字列を表示します
 
-- [**TextCrossType.CROSS_OVERRIDE**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_OVERRIDE)：他のセルをCrossしてテキストを上書きしてすべてのテキストを表示します。
+- [**TextCrossType.CROSS_OVERRIDE**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS-OVERRIDE)：他のセルをCrossしてテキストを上書きしてすべてのテキストを表示します。
 
-- [**TextCrossType.STRICT_IN_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#STRICT_IN_CELL)：セルの幅内で文字列のみを表示します。
+- [**TextCrossType.STRICT_IN_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#STRICT-IN-CELL)：セルの幅内で文字列のみを表示します。
 
 ## **TextCrossTypeを使用して出力PDF/イメージで文字列をクロスする方法を指定します。**
 
@@ -30,3 +30,4 @@ url: /ja/java/specify-how-to-cross-string-in-output-pdf-and-image/
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-RenderUsingTextCrossType-1.java" >}}
+{{< app/cells/assistant language="java" >}}

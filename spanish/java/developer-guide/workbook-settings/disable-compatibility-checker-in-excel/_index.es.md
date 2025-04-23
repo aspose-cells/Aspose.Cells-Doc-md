@@ -33,3 +33,4 @@ Supongamos que tenemos un archivo XLS plantilla. Cuando un usuario lo guarda o v
 El siguiente código muestra cómo deshabilitar el Comprobador de compatibilidad con Aspose.Cells for Java.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DisableCompatibilityChecker-DisableCompatibilityChecker.java" >}}
+{{< app/cells/assistant language="java" >}}

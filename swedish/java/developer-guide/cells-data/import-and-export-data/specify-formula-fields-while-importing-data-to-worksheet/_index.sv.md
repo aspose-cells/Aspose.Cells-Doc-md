@@ -18,3 +18,4 @@ Vänligen se följande provkod som förklarar hur man specificerar formelfält v
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Data-SpecifyFormulaFieldsWhileImportingDataToWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

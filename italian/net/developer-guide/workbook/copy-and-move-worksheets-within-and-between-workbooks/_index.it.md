@@ -58,3 +58,4 @@ Eseguendo il codice viene copiato il foglio di lavoro chiamato Copia in SecondWo
 Eseguendo il codice sposta il foglio di lavoro chiamato Spostare da FirstWorkbook.xlsx a SecondWorkbook.xlsx con il nome Foglio3.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CopyMoveWorksheets-MoveWorksheetsBetweenWorkbooks.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -39,3 +39,4 @@ Il seguente snippet di codice dimostra come impostare le opzioni degli assi X e 
 - [Gestire le unità automatiche dell'asse del grafico come Microsoft Excel](/cells/it/net/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
 - [Leggere le etichette dell'asse dopo il calcolo del grafico](/cells/it/net/read-axis-labels-after-calculating-the-chart/)
 - [Come impostare l'asse delle categorie nel grafico Excel](/cells/it/net/how-to-set-category-axis/)
+{{< app/cells/assistant language="csharp" >}}

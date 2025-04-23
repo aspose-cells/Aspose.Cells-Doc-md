@@ -26,3 +26,4 @@ Excelのデータラベルのサイズをテキストに合わせる機能を模
 コードを実行した後のチャートは次のように見えます。
 
 ![todo:image_alt_text](resize-chart-s-data-label-shape-to-fit-text_3.png)
+{{< app/cells/assistant language="java" >}}

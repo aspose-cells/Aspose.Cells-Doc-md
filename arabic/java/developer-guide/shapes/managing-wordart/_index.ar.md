@@ -29,3 +29,4 @@ url: /ar/java/add-wordart-watermark-to-worksheet/
 - [إضافة علامة مائية WordArt إلى الرسم البياني](/cells/ar/java/add-wordart-watermark-to-chart/)
 - [تأمين علامة مائية WordArt](/cells/ar/java/locking-wordart-watermark/)
 - [تعيين نمط WordArt المحدد مسبقًا لنص الشكل](/cells/ar/java/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="java" >}}

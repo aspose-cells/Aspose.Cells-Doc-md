@@ -25,3 +25,4 @@ L'exemple de code suivant qui utilise la classe JsonSaveOptions pour spécifier 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JSON-New2.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

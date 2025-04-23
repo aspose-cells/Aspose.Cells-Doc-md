@@ -7,10 +7,11 @@ url: /ru/java/load-workbook-with-specified-printer-paper-size/
 
 {{% alert color="primary" %}} 
 
-Вы можете указать размер бумаги принтера на ваш выбор при загрузке книги с помощью метода [LoadOptions.setPaperSize()](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#setPaperSize\(int\)). Обратите внимание, что если вы создаете новый файл в MS Excel, вы увидите, что размер бумаги такой же, как установка внешего принтера в вашем устройстве.
+Вы можете указать размер бумаги вашего принтера при загрузке рабочей книги, используя метод [LoadOptions.setPaperSize()](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#setPaperSize-int-). Обратите внимание, что при создании нового файла в MS Excel размер бумаги по умолчанию совпадает с настройками вашего принтера.
 
 {{% /alert %}} 
 ## **Загружать книгу с указанным размером бумаги принтера**
-Ниже приведен пример кода, иллюстрирующий использование метода [LoadOptions.setPaperSize()](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#setPaperSize\(int\)). Сначала создается книга, затем она сохраняется в поток байтов в формате XLSX. Затем она загружается с размером бумаги A5 и снова сохраняется в формате PDF. Затем она снова загружается с размером бумаги A3 и снова сохраняется в формате PDF. Если открыть выходные PDF и проверить их размер бумаги, вы увидите, что они отличаются. Один - A5, а другой - A3. Скачайте [PDF с A5 размером](5473435.pdf) и [PDF с A3 размером](5473436.pdf), сгенерированные кодом для вашего справочника.
+Следующий пример иллюстрирует использование метода [LoadOptions.setPaperSize()](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#setPaperSize-int-). Он сначала создает рабочую книгу, сохраняет в поток байтов в формате XLSX, затем загружает ее с размером бумаги A5 и сохраняет в PDF, затем снова загружает с размером A3 и сохраняет еще раз в PDF. Открыв итоговые PDF, вы увидите, что размеры бумаги разные: один — A5, другой — A3. Для ознакомления скачайте сгенерированные примеру файлы [A5 PDF](5473435.pdf) и [A3 PDF](5473436.pdf).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LoadWorkbook-LoadWorkbook.java" >}}
+{{< app/cells/assistant language="java" >}}

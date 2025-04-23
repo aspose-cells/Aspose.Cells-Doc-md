@@ -22,7 +22,13 @@ url: /ar/java/configuring-fonts-for-rendering-spreadsheets/
 
 {{% alert color="primary" %}}
 
-تقوم دائمًا Aspose.Cells APIs بفحص مجلد الخط الافتراضي لنظام التشغيل باستثناء واحد، وهو عندما يتم تعيين وسائط JVM **-DAspose.Cells.FontDirExc="YourFontDir"**. في هذه الحالة، تقوم Aspose.Cells APIs بتخطي فحص مجلد الخط الافتراضي لنظام التشغيل والبحث فقط في المسار كما هو محدد في الوسائط JVM المذكورة سابقًا.
+بشكل عام، تقوم واجهات برمجة تطبيقات Aspose.Cells بمسح دلائل الخطوط الافتراضية لنظام التشغيل على Windows و Linux و MacOS بشكل افتراضي. بدءًا من [Aspose.Cells for Java 24.7](https://releases.aspose.com/cells/java/release-notes/2024/aspose-cells-for-java-24-7-release-notes/)، تقوم الواجهات أيضًا بمسح دلائل الخطوط السحابية المؤقتة Office بشكل افتراضي.
+
+{{% /alert %}}
+
+{{% alert color="primary" %}}
+
+تقوم واجهات برمجة تطبيقات Aspose.Cells بمسح دليل الخطوط الافتراضي لنظام التشغيل دائمًا مع استثناء واحد، وهو؛ عندما يتم تعيين وسائط JVM **-DAspose.Cells.FontDirExc="YourFontDir"**. في هذه الحالة، ستتجاوز الواجهات مسح دليل الخطوط الافتراضي لنظام التشغيل وتبحث فقط في المسار المحدد في وسائط JVM السابقة.
 
 {{% /alert %}}
 
@@ -30,13 +36,13 @@ url: /ar/java/configuring-fonts-for-rendering-spreadsheets/
 
 تقوم Aspose.Cells APIs بالبحث في مجلد الخط الافتراضي لنظام التشغيل عن الخطوط المطلوبة. في حالة عدم توفر الخطوط المطلوبة في مجلد الخط الخاص بالنظام، تقوم الواجهة البرمجية الخارجية بالبحث من خلال المجلدات المخصصة (المحددة من قبل المستخدم). كما يوضح الفئة [**FontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs) عددًا من الطرق لتعيين مجلدات الخط المخصصة كما هو مفصل أدناه.
 
-1. [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)): تُفيد هذه الطريقة إذا كان هناك مجلد واحد فقط يجب تعيينه.
-1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)): تَكون هذه الطريقة مفيدةً عندما تتواجد الخطوط في مجلدات متعددة ويرغب المستخدم في تعيين كافة المجلدات بشكل منفصل بدلاً من دمج كل الخطوط في مجلد واحد.
-1. [**FontConfigs.setFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontSources(com.aspose.cells.FontSourceBase[])): يكون هذا الآلية مفيدًا عندما يرغب المستخدم في تحميل الخطوط من مجلدين أو ملف خط واحد أو بيانات الخط من مصفوفة بايت.
+1. [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder-java.lang.String-boolean-): تُفيد هذه الطريقة إذا كان هناك مجلد واحد فقط يجب تعيينه.
+1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders-java.lang.String[]-boolean-): تَكون هذه الطريقة مفيدةً عندما تتواجد الخطوط في مجلدات متعددة ويرغب المستخدم في تعيين كافة المجلدات بشكل منفصل بدلاً من دمج كل الخطوط في مجلد واحد.
+1. [**FontConfigs.setFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontSources-com.aspose.cells.FontSourceBase[]-): يكون هذا الآلية مفيدًا عندما يرغب المستخدم في تحميل الخطوط من مجلدين أو ملف خط واحد أو بيانات الخط من مصفوفة بايت.
 
 {{% alert color="primary" %}}
 
-كلتا الطريقتين [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)) و [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)) تقبلان معلمة ثانية من النوع **Boolean**. يوجه تمرير **صحيح** كمعلمة ثانية سيوجه واجهات برمجة التطبيقات لـ Aspose.Cells للبحث في المجلدات الفرعية لملفات الخطوط.
+كلتا الطريقتين [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder-java.lang.String-boolean-) و [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders-java.lang.String[]-boolean-) تقبلان معلمة ثانية من النوع **Boolean**. يوجه تمرير **صحيح** كمعلمة ثانية سيوجه واجهات برمجة التطبيقات لـ Aspose.Cells للبحث في المجلدات الفرعية لملفات الخطوط.
 
 {{% /alert %}}
 
@@ -71,4 +77,5 @@ FontConfigs.setFontSubstitutes("Arial", new String[] { "Times New Roman", "Calib
 بالإضافة إلى الطرق المذكورة أعلاه، قدمت واجهات برمجة التطبيقات Aspose.Cells وسيلة لجمع المعلومات حول المصادر والاستبدالات التي تم تعيينها.
 
 1. [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources--): تُخرج هذه الطريقة مصفوفة من النوع [**FontSourceBase**](https://reference.aspose.com/cells/java/com.aspose.cells/FileFontSource) تحتوي على قائمة المصادر النوعية للخطوط المحددة. في حالة عدم تعيين أي مصادر، فإن الطريقة [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources--) ستُرجع مصفوفة فارغة.
-1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)): تقبل هذه الطريقة معلمة من نوع **String** تمكن من تحديد اسم الخط الذي تم تعيين الاستبدال له. في حالة عدم تم تعيين استبدال لاسم الخط المحدد ستُعيد الطريقة [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)) قيمة فارغة.
+1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes-java.lang.String-): تقبل هذه الطريقة معلمة من نوع **String** تمكن من تحديد اسم الخط الذي تم تعيين الاستبدال له. في حالة عدم تم تعيين استبدال لاسم الخط المحدد ستُعيد الطريقة [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes-java.lang.String-) قيمة فارغة.
+{{< app/cells/assistant language="java" >}}

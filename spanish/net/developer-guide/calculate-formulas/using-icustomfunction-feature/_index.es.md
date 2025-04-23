@@ -1,10 +1,10 @@
 ---
 title: Usando la función ICustomFunction
 description: Este artículo describe cómo crear una función personalizada en Microsoft Excel usando la función ICustomFunction en la librería Aspose.Cells. Al cargar un archivo de Excel existente o crear uno nuevo, podemos usar los métodos proporcionados por Aspose.Cells para definir y registrar funciones personalizadas y obtener los resultados. Finalmente, guardamos el archivo de Excel modificado en el disco.
-keywords: Aspose.Cells, Excel, funciones personalizadas ICustomFunction
+keywords: Aspose.Cells, Excel, funciones personalizadas, cómo calcular funciones personalizadas.
 type: docs
 weight: 30
-url: /es/net/using-icustomfunction-feature/
+url: /es/net/how-to-calculate-custom-fuctions/
 ---
 
 {{% alert color="primary" %}} 
@@ -90,3 +90,4 @@ Como las API de Aspose.Cells dan ReferredArea en "paramsList", la ReferredAreaCo
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

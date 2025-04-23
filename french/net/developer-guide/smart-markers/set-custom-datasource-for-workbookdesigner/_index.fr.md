@@ -20,3 +20,4 @@ Les fichiers Excel source et de sortie sont joints pour référence.
 [Fichier Source](95584319.xlsx)
 
 [Fichier de Sortie](95584320.xlsx)
+{{< app/cells/assistant language="csharp" >}}

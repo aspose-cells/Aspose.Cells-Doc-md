@@ -38,3 +38,4 @@ Aspose.Cellsをインストールする際に、Aspose.Cells.msi（Windows Insta
 この変更を有効にするには、コンピュータを再起動する必要があります。この変更はあなたのものだけでなく、コンピュータ上のすべてのアカウントに影響を与えます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

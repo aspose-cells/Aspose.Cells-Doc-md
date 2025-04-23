@@ -90,3 +90,4 @@ Nell'esempio seguente viene aggiunto un colore personalizzato (Orchidea) alla pa
 La palette contiene solo 56 colori. Quando si aggiunge un colore personalizzato alla palette, la palette cambia e qualsiasi elemento nel file formattato con il colore precedente viene modificato. Quindi, quando si modifica la palette, si prega di fare molta attenzione. Inoltre, questa è una limitazione solo nel formato file XLS (Excel 97 - 2003) in quanto non vi è alcuna limitazione per i formati file XLSX o altri formati di file avanzati di MS Excel (2007/2010 o 2013).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

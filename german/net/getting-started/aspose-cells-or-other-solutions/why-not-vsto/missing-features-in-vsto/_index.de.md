@@ -35,3 +35,4 @@ Dieser Abschnitt hat folgende Themen:
   - [Verwendung anonymer Typen oder benutzerdefinierter Objekte](/cells/de/net/using-anonymous-types-or-custom-objects/)
   - [Verwendung von verschachtelten Objekten](/cells/de/net/using-nested-objects/)
 - [Auffinden von Vorläufern und Abhängigkeiten in Aspose.Cells](/cells/de/net/tracing-precedents-and-dependents-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

@@ -16,3 +16,4 @@ Vous pouvez définir le commentaire de la table ou de l'objet liste à l'intéri
 Le code d'exemple suivant charge le [fichier Excel source](5115514.xlsx), définit le commentaire de la première table ou objet liste à l'intérieur de la feuille de calcul.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-SetCommentOfTableOrListObject-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -20,3 +20,4 @@ Temanızı çalışma kitabınıza Microsoft Excel'de Sayfa Düzeni > Temalar ko
 Aşağıdaki örnek kod, kaynak çalışma kitabına uygulanan Tema adını çıkarır ve ardından A1 hücresine uygulanan Tema rengini ve hücrenin alt kenarına uygulanan Tema rengini çıkarır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ExtractThemeData-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

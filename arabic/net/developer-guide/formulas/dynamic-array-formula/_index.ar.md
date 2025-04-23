@@ -135,3 +135,4 @@ url: /ar/net/calculation-of-dynamic-array-formulas/
 لقطة الناتج:
 <br>
 <image src="4.png" width="70%" />
+{{< app/cells/assistant language="csharp" >}}

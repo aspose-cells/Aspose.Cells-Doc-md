@@ -31,3 +31,4 @@ Yukarıda bahsedilen metodların imzaları aşağıdaki gibidir:
 [Otomatik Satır ve Sütun Uyarlamak](http://aspose.com/docs/display/cellsjava/AutoFit+Rows+and+Columns) hakkındaki detaylı makaleye göz atın.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

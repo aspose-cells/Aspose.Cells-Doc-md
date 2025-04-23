@@ -24,3 +24,4 @@ Aşağıdaki örnek kod, [**Workbook.ContentTypeProperties.Add()**](https://refe
 ## İlgili Makale
 
 - [Belge Bilgi Paneli içinde görülebilen Özel Özellikler eklemek](/cells/tr/net/adding-custom-properties-visible-inside-document-information-panel/)
+{{< app/cells/assistant language="csharp" >}}

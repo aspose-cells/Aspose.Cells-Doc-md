@@ -32,6 +32,7 @@ keywords: إدراج صورة في رأس وتسفل إكسل c#، ضبط رأس
 |&T| - الوقت الحالي
 |&A| - اسم ورقة العمل
 |&F| - اسم الملف بدون مساره
+|&&Text|يعرض &Text. على سبيل المثال: &&WO سيتم عرضه كـ &WO|
 |&"\<FontName>"| - يمثل اسم الخط. على سبيل المثال: &"Arial"
 |&"\<FontName>, \<FontStyle>"| - يمثل اسم الخط بالنمط. مثال: &"Arial,Bold"
 |&\<FontSize>| - يمثل حجم الخط. على سبيل المثال: “&14abc”. ولكن، إذا تبعت هذه الأمر برقم عادي يتم طباعته في الرأس، يجب أن يتم فصله بحرف مسافة عن حجم الخط. على سبيل المثال: “&14 123”.
@@ -58,3 +59,4 @@ keywords: إدراج صورة في رأس وتسفل إكسل c#، ضبط رأس
 1. حدد علامة التبويب **رأس / تذييل**.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -53,3 +53,4 @@ url: /ar/java/how-aspose-cells-uses-truetype-fonts/
 - [كيفية الحصول على تحذيرات عند حدوث استبدال الخطوط](/cells/ar/java/get-warnings-for-font-substitution-while-rendering-excel-file/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

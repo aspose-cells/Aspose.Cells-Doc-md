@@ -16,3 +16,4 @@ El siguiente código de muestra crea un libro de trabajo y llena su hoja de cál
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExportToHTMLWithGridLines-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

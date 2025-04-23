@@ -22,3 +22,4 @@ Bazı durumlarda, önceki kullanıcılar (örneğin, Aspose.Excel kullanıcılar
 1. **ExcelHelper** sınıfı, **CellsHelper** sınıfı ile değiştirilmiştir. 
 
 For further reference, please check our featured demos: <https://github.com/aspose-cells/Aspose.Cells-for-Java>
+{{< app/cells/assistant language="java" >}}

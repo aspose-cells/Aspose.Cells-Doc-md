@@ -20,3 +20,4 @@ L'API Aspose.Cells fornisce la possibilità di aggiornare gli elementi di formul
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-UpdatePowerQueryFormulaItem-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

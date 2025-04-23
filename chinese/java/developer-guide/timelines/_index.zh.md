@@ -21,3 +21,4 @@ description: 学习如何使用Aspose.Cells For java创建时间轴。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Timelines-CreateTimelineToPivotTable.java" >}}
 
+{{< app/cells/assistant language="java" >}}

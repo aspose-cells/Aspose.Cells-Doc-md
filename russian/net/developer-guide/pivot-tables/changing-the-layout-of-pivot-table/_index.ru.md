@@ -20,3 +20,4 @@ Aspose.Cells также предоставляет методы [**PivotTable.Sh
 В следующем образце кода сначала показывается сводная таблица в **Компактной форме**, затем она показывается в **Контурной форме**, и в конце концов, она показывается в **Табличной форме**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-ChangingLayoutOfPivotTable-ChangingLayoutOfPivotTable.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

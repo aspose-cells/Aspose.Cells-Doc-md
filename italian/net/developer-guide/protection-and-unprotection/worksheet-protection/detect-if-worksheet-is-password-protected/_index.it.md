@@ -14,3 +14,4 @@ url: /it/net/detect-if-worksheet-is-password-protected/
 Aspose.Cells for .NET 8.7.0 ha esposto la proprietà [**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword) per sapere se un foglio di lavoro è protetto da password o meno. La proprietà di tipo booleano [**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword) restituisce **true** se [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) è protetto da password e **false** se non lo è.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CheckIfPasswordProtected-CheckIfPasswordProtected.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

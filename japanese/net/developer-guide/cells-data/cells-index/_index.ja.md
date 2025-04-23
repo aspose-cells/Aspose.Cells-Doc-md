@@ -36,3 +36,4 @@ Aspose.Cellsは、目標を達成するための以下のプロパティとメ�
 1. 行の名前によって行インデックスを取得します。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-get-index.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

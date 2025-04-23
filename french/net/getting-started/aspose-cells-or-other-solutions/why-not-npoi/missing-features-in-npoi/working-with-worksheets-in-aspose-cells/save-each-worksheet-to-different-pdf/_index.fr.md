@@ -65,3 +65,4 @@ Téléchargez le formulaire **Enregistrer chaque feuille de calcul dans un fichi
 Pour plus de détails, visitez [Enregistrer chaque feuille de calcul dans un fichier PDF différent](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

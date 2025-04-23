@@ -26,7 +26,7 @@ Die folgende Liste (mit Beispielcode-Segmenten) zeigt einige Unterschiede zwisch
 
  var aspose = aspose || {};
 
-aspose.cells = require("aspose.cells");
+aspose.cells = require("aspose.cells.java");
 
 {{< /highlight >}}
 ### **Instanziieren einer neuen Arbeitsmappe**
@@ -88,7 +88,7 @@ workbook.save(“result.xlsx”);
 
  var aspose = aspose || {};
 
-aspose.cells = require("aspose.cells");
+aspose.cells = require("aspose.cells.java");
 
 var fs = require("fs");
 

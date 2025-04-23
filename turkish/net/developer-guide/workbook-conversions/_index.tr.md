@@ -132,6 +132,22 @@ Aşağıdaki kod örneği, etkin çalışma sayfasını [**SaveFormat.Pptx**](ht
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToPptx-1.cs" >}}
 
+## **Excel Çalışma Kitabını EPUB'a dönüştür**
+
+Aspose.Cells API, tablolardaki verileri EPUB biçimine dönüştürmeyi destekler. Çalışma kitabını EPUB'a aktarmak için [**SaveFormat.Epub**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) ile [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) metodunun ikinci parametresi olarak geçirin. Ayrıca, işlemi gerçekleştirmek için [**EBookSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/ebooksaveoptions) sınıfını kullanarak ek ayarları belirleyebilirsiniz.
+
+Aşağıdaki kod örneği, aktif sayfayı EPUB'a aktarmayı [**SaveFormat.Epub**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) enum üyesi kullanarak göstermektedir.
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToEPUB-1.cs" >}}
+
+## **Excel Çalışma Dosyasını AZW3'e dönüştür**
+
+Aspose.Cells API, tabloların AZW3 formatına dönüştürülmesini destekler. Çalışma kitabını AZW3 formatına aktarmak için [**SaveFormat.Azw3**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) ile [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) metodunun ikinci parametresi olarak geçirin. Ayrıca, işlem için [**EBookSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/ebooksaveoptions) sınıfını kullanarak ek ayarları belirleyebilirsiniz.
+
+Aşağıdaki kod örneği, aktif sayfayı AZW3'e [**SaveFormat.Azw3**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) enum üyesi kullanarak aktarmayı göstermektedir.
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToAZW3-1.cs" >}}
+
 ## **Gelişmiş Konular**
 - [XLSB Revizyonunu XLSM'ye Dönüştür](/cells/tr/net/convert-revision-of-xlsb-to-xlsm/)
 - [HTML](/cells/tr/net/convert-excel-to-html/)
@@ -142,3 +158,4 @@ Aşağıdaki kod örneği, etkin çalışma sayfasını [**SaveFormat.Pptx**](ht
 - [Excel'i CSV, TSV ve Txt'ye dönüştür](/cells/tr/net/convert-excel-to-csv-tsv-and-txt/)
 - [Belge Dönüşüm İlerlemesini İzle](/cells/tr/net/track-document-conversion-progress/)
 - [CSV, TSV ve TXT'yi Excel'e Dönüştür](/cells/tr/net/convert-csv-tsv-and-txt-to-excel/)
+{{< app/cells/assistant language="csharp" >}}

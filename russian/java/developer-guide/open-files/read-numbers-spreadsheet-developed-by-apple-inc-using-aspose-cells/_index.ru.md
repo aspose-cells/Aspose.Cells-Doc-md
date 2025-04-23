@@ -17,3 +17,4 @@ Numbers - это приложение для электронных таблиц
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-ReadNumbersSpreadsheet.java" >}}
+{{< app/cells/assistant language="java" >}}

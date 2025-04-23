@@ -71,3 +71,4 @@ url: /zh/net/convert-an-excel-chart-to-image/
 1. 动态将图表转换为图像。 以下是组件用于完成任务的代码。 该代码与先前的代码类似。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertExcelChartToImage-ConvertingColumnChartToImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

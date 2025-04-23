@@ -66,3 +66,4 @@ Wenn Sie Benutzer daran hindern möchten, Zellen zu bearbeiten, müssen die Zell
 Es ist auch möglich, Zellen mithilfe der Aspose.Cells-API zu sperren. Jede Zelle kann ein [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)-Format erhalten, das eine boolesche Eigenschaft, [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked), enthält. Setzen Sie die [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked)-Eigenschaft auf **true** oder **false**, um die Zelle zu sperren oder zu entsperren.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

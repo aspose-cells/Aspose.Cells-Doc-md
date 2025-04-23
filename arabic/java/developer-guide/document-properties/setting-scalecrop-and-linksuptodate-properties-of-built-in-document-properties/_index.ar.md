@@ -21,3 +21,4 @@ url: /ar/java/setting-scalecrop-and-linksuptodate-properties-of-built-in-documen
 يُعين الرمز النموذجي التالي [ScaleCrop] (https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#ScaleCrop) و [LinksUpToDate] (https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#LinksUpToDate) خصائص المستند المدمجة المُمتدة في سجل العمل. يُرجى التحقق من [ملف الإكسل الناتج] (5472494.xlsx) المتولد بهذا الرمز، قم بتغيير الامتداد الخاص به إلى .zip واستخرج محتوياته وعرض aap.xml كما هو موضح في اللقطة أعلاه.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingScaleCropLinksUpToDate-SettingScaleCropLinksUpToDate.java" >}}
+{{< app/cells/assistant language="java" >}}

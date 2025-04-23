@@ -27,3 +27,4 @@ Aspose.Cellsは、目標を達成するための以下のプロパティとメ�
 1. セル上の[Cell.Row](https://reference.aspose.com/cells/net/aspose.cells/cell/row/)属性を取得します。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-max-index-of-row-and-column.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

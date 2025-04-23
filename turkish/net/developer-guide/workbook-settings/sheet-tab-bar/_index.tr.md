@@ -27,3 +27,4 @@ Sonuç dosyası önizlemesi:
 <br>
 <image src="result.png" width="70%" />
 
+{{< app/cells/assistant language="csharp" >}}

@@ -41,3 +41,4 @@ BoxWhisker
 - [Creazione del grafico a cascata](/cells/it/net/creating-waterfall-chart/)
 - [Creazione del grafico Mappa a blocchi](/cells/it/net/creating-treemap-chart/)
 - [Creazione del grafico Radiali](/cells/it/net/creating-sunburst-chart/)
+{{< app/cells/assistant language="csharp" >}}

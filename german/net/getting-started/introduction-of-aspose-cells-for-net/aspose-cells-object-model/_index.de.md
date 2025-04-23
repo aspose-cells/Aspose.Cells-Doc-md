@@ -121,3 +121,4 @@ Jedes Worksheet-Objekt enthält ein SparklineGroupCollection-Objekt, das eine Sa
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_15.png)|
 Ein SparklineGroup-Objekt stellt eine Sparkline-Gruppe im Arbeitsblatt dar. Entwickler können mit dem SparklineGroup-Objekt den Stil der Sparkline-Gruppe und andere damit zusammenhängende Eigenschaften festlegen.
+{{< app/cells/assistant language="csharp" >}}

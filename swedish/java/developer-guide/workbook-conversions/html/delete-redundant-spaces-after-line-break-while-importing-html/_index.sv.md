@@ -20,3 +20,4 @@ Följande kodexempel visar användningen av [HtmlLoadOptions.DeleteRedundantSpac
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-DeleteRedundantSpacesFromHtml-1.java" >}}
+{{< app/cells/assistant language="java" >}}

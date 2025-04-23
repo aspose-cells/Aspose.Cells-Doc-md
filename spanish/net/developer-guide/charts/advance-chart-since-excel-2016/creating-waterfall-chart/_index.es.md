@@ -23,3 +23,4 @@ El fragmento de código proporcionado a continuación demuestra el uso de Aspose
 
 - [Creando gráficos](/cells/es/net/creating-charts/)
 - [Personalizando Gráficos](/cells/es/net/customizing-charts/)
+{{< app/cells/assistant language="csharp" >}}

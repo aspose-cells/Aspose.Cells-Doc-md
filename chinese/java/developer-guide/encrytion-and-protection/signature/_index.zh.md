@@ -34,3 +34,4 @@ Aspose.Cells for Java API 提供 [**com.aspose.cells.DigitalSignatureCollection*
 以下代码片段演示了使用Aspose.Cells for Java API验证电子表格的用法。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ValidatingSpreadsheets-ValidatingSpreadsheets.java" >}}
+{{< app/cells/assistant language="java" >}}

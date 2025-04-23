@@ -21,3 +21,4 @@ Workbook book = new Workbook(srcDir + "sampleMacroEnabledWorkbook.xlsm", loadOpt
 
 // Spara utmatningen i pdf-format
 book.save(outDir + "OutputSampleMacroEnabledWorkbook.xlsm", SaveFormat.XLSM);
+{{< app/cells/assistant language="java" >}}

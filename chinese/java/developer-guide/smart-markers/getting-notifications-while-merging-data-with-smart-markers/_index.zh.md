@@ -11,7 +11,7 @@ Aspose.Cells API 提供 [WorkbookDesigner](https://reference.aspose.com/cells/ja
 
 {{% /alert %}} 
 ## **在使用智能标记合并数据时获取通知**
-以下代码片段演示了如何使用[ISmartMarkerCallBack](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack)接口来定义一个处理[WorkbookDesigner.process](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process\(\))方法的新类。
+以下代码示例演示了如何实现 [ISmartMarkerCallBack](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack) 接口，以定义处理 [WorkbookDesigner.process](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process--) 方法回调的新类。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SmartMarkerCallBack-SmartMarkerCallBack.java" >}}
 
@@ -21,3 +21,4 @@ Aspose.Cells API 提供 [WorkbookDesigner](https://reference.aspose.com/cells/ja
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetNotificationsWhileMergingData-GetNotificationsWhileMergingData.java" >}}
+{{< app/cells/assistant language="java" >}}

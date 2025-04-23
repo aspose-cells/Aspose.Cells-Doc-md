@@ -42,3 +42,4 @@ workbook.save("LoadExcelFileWithoutChart_out.pdf", SaveFormat.PDF);
 
 
 
+{{< app/cells/assistant language="java" >}}

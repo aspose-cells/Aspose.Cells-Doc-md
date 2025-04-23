@@ -81,7 +81,7 @@ Aspose.Cellsは、[**GetStyle**](https://reference.aspose.com/cells/java/com.asp
 
 ### **セルの結合**
 
-Microsoft Excelと同様に、Aspose.Cellsでは複数のセルを1つに結合することができます。Aspose.Cellsにはこのタスクを実行するための2つのアプローチがあります。1つの方法は、[**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int))メソッドを呼び出すことです。メソッドは、以下のパラメータを取り、セルを結合します:
+Microsoft Excelと同様に、Aspose.Cellsでは複数のセルを1つに結合することができます。Aspose.Cellsにはこのタスクを実行するための2つのアプローチがあります。1つの方法は、[**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge-int-int-int-int-)メソッドを呼び出すことです。メソッドは、以下のパラメータを取り、セルを結合します:
 
 - 最初の行: 結合の開始行。
 - 最初の列: 結合の開始列。
@@ -108,3 +108,4 @@ Microsoft Excelと同様に、Aspose.Cellsでは複数のセルを1つに結合�
 ## **高度なトピック**
 - [セルの配置を変更し、既存の書式を保持する](/cells/ja/java/change-cells-alignment-and-keep-existing-formatting/)
 - [改行とテキストの折り返し](/cells/ja/java/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="java" >}}

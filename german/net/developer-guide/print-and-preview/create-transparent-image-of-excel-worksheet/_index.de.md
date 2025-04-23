@@ -26,3 +26,4 @@ Während in der folgenden Arbeitsblattansicht Transparenz angewendet wurde. Die 
 Der folgende Beispielscode generiert ein transparentes Bild aus einem Excel-Arbeitsblatt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateTransparentImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

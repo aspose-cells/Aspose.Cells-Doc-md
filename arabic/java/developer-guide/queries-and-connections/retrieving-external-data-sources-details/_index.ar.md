@@ -34,3 +34,4 @@ url: /ar/java/retrieving-external-data-sources-details/
 
 
 
+{{< app/cells/assistant language="java" >}}

@@ -33,3 +33,4 @@ Puoi anche copiare i dati con il metodo Range.CopyData come nei seguenti codici:
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Copy-Range-Data.java" >}}
 
 
+{{< app/cells/assistant language="java" >}}

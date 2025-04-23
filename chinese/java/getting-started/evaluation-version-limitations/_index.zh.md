@@ -47,3 +47,4 @@ keywords: 评估版限制，评估版中打开的文件数，使用评估版的�
 <br>
 <image src="3.png" width="70%" />
 <br>
+{{< app/cells/assistant language="java" >}}

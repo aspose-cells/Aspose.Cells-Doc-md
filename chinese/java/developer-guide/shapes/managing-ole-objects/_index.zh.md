@@ -55,3 +55,4 @@ Aspose.Cells支持提取不常见类型的对象，例如MOL（包含有关原�
 - [使用Aspose.Cells自动刷新OLE对象通过Microsoft Excel](/cells/zh/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)
 - [从工作簿中提取OLE对象](/cells/zh/java/extract-ole-objects-from-workbook/)
 - [获取或设置嵌入的OLE对象的类标识符](/cells/zh/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
+{{< app/cells/assistant language="java" >}}

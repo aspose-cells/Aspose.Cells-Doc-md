@@ -20,3 +20,4 @@ url: /ar/net/create-combo-chart/
 يقوم الرمز العيني التالي بتحميل [ملف Excel العيني] التالي(combo.xlsx) وإنتاج [ملف Excel الإخراج المعني] التالي(out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-combo-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

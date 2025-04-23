@@ -3,15 +3,15 @@ title: Copiare e Spostare Fogli di Lavoro
 type: docs
 weight: 10
 url: /it/python-net/copying-and-moving-worksheets/
-description: Questo articolo include codice di esempio e descrive come copiare e spostare fogli di lavoro tramite programmazione sia all interno di un file Excel che tra i file Excel utilizzando l API Aspose.Cells per Python via .NET.
-keywords: Libreria Excel di Python, copia foglio di calcolo in Python, sposta foglio di calcolo, copia fogli di calcolo tra cartelle di lavoro in Python, sposta fogli di calcolo all interno di un file di lavoro in Python, copia fogli di calcolo tra cartelle di lavoro in Python, copia fogli di calcolo all interno di un file di lavoro in Python.
+description: Questo articolo include codice di esempio e descrive come copiare e spostare fogli di lavoro programmaticamente sia all interno di un workbook Excel sia tra diversi workbook utilizzando l API Aspose.Cells for Python via .NET.
+keywords: Biblioteca Excel Python, copia foglio di lavoro Python, sposta foglio di lavoro Python, copia fogli di lavoro tra workbook Python, sposta fogli di lavoro all interno del workbook Python, copia fogli di lavoro tra workbook Python, copia fogli di lavoro all interno di un workbook Python.
 ---
 
 {{% alert color="primary" %}}
 
 A volte è necessario avere un numero di fogli di lavoro con formattazione e dati comuni. Ad esempio, se si lavora con budget trimestrali, potrebbe essere necessario creare un libro con fogli che contengono gli stessi titoli di colonna, titoli di riga e formule. C'è un modo per farlo: creando un foglio e poi copiandolo.
 
-Aspose.Cells per Python via .NET supporta la copia e lo spostamento di fogli di calcolo all'interno o tra cartelle di lavoro. I fogli di lavoro, completi di dati, formattazione, tabelle, matrici, grafici, immagini e altri oggetti, vengono copiati con il massimo grado di precisione.
+Aspose.Cells for Python via .NET supporta la copia e lo spostamento di fogli di lavoro all'interno o tra i workbook. I fogli di lavoro, completi di dati, formattazione, tabelle, matrici, grafici, immagini e altri oggetti, sono copiati con il massimo livello di precisione.
 
 {{% /alert %}}
 
@@ -27,17 +27,17 @@ Di seguito sono riportati i passaggi coinvolti nella copia e nel trasferimento d
 1. Nella casella **Prima del foglio**, fare clic sul foglio prima del quale si desidera inserire i fogli spostati o copiati.
 1. Per copiare i fogli anziché spostarli, selezionare la casella **Crea copia**.
 
-## **Come copiare i fogli all'interno di un foglio di lavoro con la libreria Excel Aspose.Cells per Python**
+## **Come copiare fogli di lavoro all'interno di un workbook con Aspose.Cells for Python Excel Library**
 
-Aspose.Cells per Python via .NET fornisce un metodo sovraccaricato, [**Aspose.Cells.WorksheetCollection.add_copy()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheetcollection/add_copy/#str), che viene utilizzato per aggiungere un foglio al set e copiare dati da un foglio esistente. Una versione del metodo prende l'indice del foglio di lavoro di origine come parametro. L'altra versione prende il nome del foglio di lavoro di origine.
+Aspose.Cells for Python via .NET fornisce un metodo sovraccarico, [**Aspose.Cells.WorksheetCollection.add_copy()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheetcollection/add_copy/#str), utilizzato per aggiungere un foglio di lavoro alla raccolta e copiare i dati da un foglio esistente. Una versione del metodo prende come parametro l'indice del foglio di lavoro di origine. L'altra versione prende il nome del foglio di lavoro di origine.
 
 Nell'esempio seguente viene mostrato come copiare un foglio di lavoro esistente all'interno di un libro.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Value-CopyWithinWorkbook-1.py" >}}
 
-## **Come copiare i fogli tra i fogli di lavoro**
+## **Come copiare fogli di lavoro tra i workbook**
 
-Aspose.Cells per Python via .NET fornisce un metodo, [**Aspose.Cells.Worksheet.copy()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/copy/#aspose.cells.Worksheet) utilizzato per copiare dati e formattazione da un foglio di lavoro di origine a un altro foglio di lavoro all'interno o tra fogli di lavoro. Il metodo prende l'oggetto del foglio di lavoro di origine come parametro.
+Aspose.Cells for Python via .NET fornisce un metodo, [**Aspose.Cells.Worksheet.copy()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/copy/#aspose.cells.Worksheet), utilizzato per copiare dati e formattazione da un foglio di lavoro di origine a un altro all'interno o tra i workbook. Il metodo prende come parametro l'oggetto del foglio di lavoro di origine.
 
 L'esempio seguente mostra come copiare un foglio di lavoro da un libro di lavoro a un altro libro di lavoro.
 
@@ -47,9 +47,9 @@ L'esempio seguente mostra come copiare un foglio di lavoro da un libro di lavoro
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Value-CopyWorksheetFromWorkbookToOther-1.py" >}}
 
-## **Come spostare i fogli di lavoro all'interno del foglio di lavoro**
+## **Come spostare fogli di lavoro all'interno del workbook**
 
-Aspose.Cells per Python via .NET fornisce un metodo [**Aspose.Cells.Worksheet.move_to()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/move_to/#int) che viene utilizzato per spostare un foglio di lavoro in un'altra posizione nello stesso foglio di calcolo. Il metodo prende l'indice del foglio di lavoro di destinazione come parametro.
+Aspose.Cells for Python via .NET fornisce un metodo [**Aspose.Cells.Worksheet.move_to()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/move_to/#int) utilizzato per spostare un foglio di lavoro in un'altra posizione nello stesso foglio di calcolo. Il metodo prende come parametro l'indice del foglio di lavoro di destinazione.
 
 L'esempio seguente mostra come spostare un foglio di lavoro in un'altra posizione all'interno del libro di lavoro.
 

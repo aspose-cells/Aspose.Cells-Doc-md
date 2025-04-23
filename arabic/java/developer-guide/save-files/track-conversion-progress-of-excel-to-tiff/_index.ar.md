@@ -7,7 +7,7 @@ url: /ar/java/track-conversion-progress-of-excel-to-tiff/
 
 ## **سيناريوهات الاستخدام المحتملة**
 
-أحيانًا يمكن أن يستغرق تحويل ملفات Excel الكبيرة بعض الوقت. خلال هذا الوقت، قد ترغب في عرض تقدم تحويل المستند بدلاً من شاشة التحميل فقط لتعزيز قابلية استخدام تطبيقك. تدعم Aspose.Cells تتبع عملية تحويل المستند من خلال تقديم واجهة [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback). تقدم واجهة [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) الطرق [**PageStartSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs)) و [**PageEndSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs)) التي يمكنك تنفيذها في الفئة المخصصة. يمكنك أيضًا التحكم في الصفحات المقتبسة كما هو موضح في فئة *TestTiffPageSavingCallback* المخصصة.
+أحيانًا يمكن أن يستغرق تحويل ملفات Excel الكبيرة بعض الوقت. خلال هذا الوقت، قد ترغب في عرض تقدم تحويل المستند بدلاً من شاشة التحميل فقط لتعزيز قابلية استخدام تطبيقك. تدعم Aspose.Cells تتبع عملية تحويل المستند من خلال تقديم واجهة [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback). تقدم واجهة [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) الطرق [**PageStartSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving-com.aspose.cells.PageStartSavingArgs-) و [**PageEndSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving-com.aspose.cells.PageEndSavingArgs-) التي يمكنك تنفيذها في الفئة المخصصة. يمكنك أيضًا التحكم في الصفحات المقتبسة كما هو موضح في فئة *TestTiffPageSavingCallback* المخصصة.
 
 ## **تتبع تقدّم تحويل Excel إلى TIFF**
 
@@ -46,3 +46,4 @@ Start saving page index 8 of pages 10</br>
 End saving page index 8 of pages 10
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

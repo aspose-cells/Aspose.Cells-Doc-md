@@ -23,22 +23,23 @@ keywords: печать рабочих книг, печать листов кни
 
 ## Печать рабочих книг с использованием Aspose.Cells
 
-Aspose.Cells for Java предоставляет метод [**toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) класса [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender). Используя метод [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)), вы можете указать имя принтера, а также имя задания на печать.
+Aspose.Cells for Java предоставляет метод [**toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-) класса [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender). Используя метод [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-), вы можете указать имя принтера, а также имя задания на печать.
 
 ## Образец кода
 
 ### Печать выбранного листа
 
-Нижеприведенный фрагмент кода демонстрирует использование метода [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) для печати выбранного листа.
+Нижеприведенный фрагмент кода демонстрирует использование метода [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-) для печати выбранного листа.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingSelectedWorksheet-PrintingSelectedWorksheet.java" >}}
 
 ### Печать всей книги
 
-Вы также можете использовать метод [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String)) для печати всей книги. Нижеприведенный фрагмент кода демонстрирует использование метода [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String)) для печати всей книги.
+Вы также можете использовать метод [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter-java.lang.String-) для печати всей книги. Нижеприведенный фрагмент кода демонстрирует использование метода [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter-java.lang.String-) для печати всей книги.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingWholeWorkbook-PrintingWholeWorkbook.java" >}}
 
 ## Связанные статьи
 
 - [Укажите название задания или документа при печати с помощью Aspose.Cells](/cells/ru/java/specify-job-or-document-name-while-printing-with-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

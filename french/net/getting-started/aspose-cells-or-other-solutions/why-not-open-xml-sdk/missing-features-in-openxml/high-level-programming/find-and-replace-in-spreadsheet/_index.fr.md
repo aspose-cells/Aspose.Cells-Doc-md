@@ -113,3 +113,4 @@ En cliquant sur le bouton Remplacer, le code suivant est exécuté :
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Find%20and%20replace%20%28Aspose.Cells%29.zip)
+{{< app/cells/assistant language="csharp" >}}

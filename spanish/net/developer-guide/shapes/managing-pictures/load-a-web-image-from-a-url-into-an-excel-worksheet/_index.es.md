@@ -20,3 +20,4 @@ La API Aspose.Cells for .NET proporciona una forma simple y fácil de cargar im�
 Puede haber casos en los que siempre desees la imagen actualizada de una URL. Para lograr esto, puedes seguir las instrucciones dadas en el artículo [Insertar una imagen vinculada desde una dirección web](/cells/es/net/insert-a-linked-picture-from-web-address/). Siguiendo este método, la imagen se carga desde la URL cada vez que se abre la hoja de cálculo.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

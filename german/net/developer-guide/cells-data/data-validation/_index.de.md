@@ -128,3 +128,4 @@ Die Quell- und Ausgabedateien sind als Referenz angehängt.
 - [Zellvalidierung in ODS-Dateien erhalten](/cells/de/net/get-cell-validation-in-ods-files/)
 - [Validierungen auf einer Zelle abrufen](/cells/de/net/get-validation-applied-on-a-cell/)
 - [Überprüfen, ob Zellwert Datenvalidierungsregeln erfüllt](/cells/de/net/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="csharp" >}}

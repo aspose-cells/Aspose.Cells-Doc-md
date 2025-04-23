@@ -11,7 +11,7 @@ url: /ar/java/implement-custom-paper-size-of-worksheet-for-rendering/
 
 ## **تنفيذ حجم ورق مخصص لورقة العمل للتقديم**
 
-تتيح Aspose.Cells لك تنفيذ حجم الورق المطلوب لورقة العمل باستخدام الطريقة [**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize(double,%20double)) من [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup). يوضح الكود العيني التالي كيفية تحديد حجم ورق مخصص للورقة العمل الأولى في المصنف. يُرجى الإطلاع أيضًا على [ملف PDF الناتج](45056030.pdf) الذي تم إنشاؤه باستخدام الكود التالي للإحالة.
+تتيح Aspose.Cells لك تنفيذ حجم الورق المطلوب لورقة العمل باستخدام الطريقة [**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize-double-double-) من [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup). يوضح الكود العيني التالي كيفية تحديد حجم ورق مخصص للورقة العمل الأولى في المصنف. يُرجى الإطلاع أيضًا على [ملف PDF الناتج](45056030.pdf) الذي تم إنشاؤه باستخدام الكود التالي للإحالة.
 
 ## **لقطة شاشة**
 
@@ -20,3 +20,4 @@ url: /ar/java/implement-custom-paper-size-of-worksheet-for-rendering/
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-PageSetupFeatures-ImplementCustomPaperSizeOfWorksheetForRendering.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -16,3 +16,4 @@ A veces es necesario buscar y reemplazar datos específicos en un rango sin tene
 Aspose.Cells proporciona el método [**FindOptions.SetRange()**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/methods/setrange) para especificar un rango al buscar datos. El siguiente ejemplo de código busca y reemplaza datos en un rango.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SearchReplaceDataInRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

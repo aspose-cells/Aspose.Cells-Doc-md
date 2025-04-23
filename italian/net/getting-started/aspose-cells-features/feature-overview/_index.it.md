@@ -111,3 +111,4 @@ Aspose.Cells for .NET fornisce un dettagliato accesso programmato alle propriet√
 |Specifica i margini e il centratura della pagina.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Crea o modifica l'intestazione e/o il pi√® di pagina.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Imposta l'area di stampa, i titoli di stampa o attiva le griglie, ecc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< app/cells/assistant language="csharp" >}}

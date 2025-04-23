@@ -28,3 +28,4 @@ Se den detaljerade artikeln om [Verifiera att cellvärdet uppfyller datavalideri
 {{% /alert %}}
 ## **Tillagd överlagring tillPrinter(PrinterSettings printerSettings) metod för WorkbookRender-klassen**
 Du kan använda den överbelastade metoden för att rendera arbetsbok till skrivare via PrinterSettings.
+{{< app/cells/assistant language="java" >}}

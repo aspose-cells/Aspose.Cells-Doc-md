@@ -16,3 +16,4 @@ Sie können benutzerdefinierte Beschriftungen zu Datenpunkten in der Serie des D
 Der folgende Code erstellt ein **Streuungsdigramm mit Linienverbundenen Datenpunkten** und fügt dann **Benutzerdefinierte Beschriftungen** zu den **Datenpunkten** in der **Serie** des **Diagramms** hinzu. Jede benutzerdefinierte Beschriftung zeigt den **Serienname** und **Punktnamen** an. Sie können stattdessen einen beliebigen anderen Text verwenden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-AddCustomLabelsToDataPoints-AddCustomLabelsToDataPointsInTheSeriesOfChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

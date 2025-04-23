@@ -32,3 +32,4 @@ Aspose.Cellsは、Microsoft Excelの組み込み関数としてサポートさ�
 上記の関数をプログラムで使用する
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingICustomFunction-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

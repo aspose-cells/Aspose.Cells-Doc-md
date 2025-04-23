@@ -40,3 +40,4 @@ Det är enkelt att frysa rader med Aspose.Cells för .Net. Använd [**Worksheet.
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Pane.cs" >}}
 
 Bifogad [provkälla Excel-fil](Frys.xlsx).
+{{< app/cells/assistant language="csharp" >}}

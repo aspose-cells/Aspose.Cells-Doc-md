@@ -38,3 +38,4 @@ description: Защита и снятие защиты листа файлов E
 - [Защита листов](/cells/ru/net/protecting-worksheets/)
 - [Снятие защиты с листа](/cells/ru/net/unprotect-a-worksheet/)
 - [Проверить Пароль, Используемый для Защиты Листа](/cells/ru/net/verify-password-used-to-protect-the-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

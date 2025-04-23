@@ -29,3 +29,4 @@ url: /zh/net/check-version-number/
 要通过API查找您正在使用的Aspose.Cells版本，请使用[CellsHelper](https://reference.aspose.com/cells/net/aspose.cells/cellshelper)类的GetVersion静态方法获取Aspose.Cells的版本号。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-CheckVersionNumber-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

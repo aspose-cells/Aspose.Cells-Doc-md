@@ -71,3 +71,4 @@ Skapa först ett kolumndiagram i Microsoft Excel och konvertera det till en bild
 1. Konvertera diagrammet till en bild dynamiskt. Följande är koden som används av komponenten för att utföra uppgiften. Koden är liknande den tidigare:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertExcelChartToImage-ConvertingColumnChartToImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

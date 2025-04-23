@@ -32,3 +32,4 @@ Aspose.Cells 提供 [**Aspose.Cells.DigitalSignatures**](https://reference.aspo
 - [对已签名的 Excel 文件添加数字签名](/cells/zh/net/add-digital-signature-to-an-already-signed-excel-file/)
 - [在工作表中添加签名行](/cells/zh/net/add-signature-line/)
 - [XAdES 签名的支持](/cells/zh/net/support-for-xades-signature/)
+{{< app/cells/assistant language="csharp" >}}

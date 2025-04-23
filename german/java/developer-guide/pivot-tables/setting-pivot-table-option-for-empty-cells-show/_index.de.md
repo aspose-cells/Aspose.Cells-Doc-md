@@ -23,3 +23,4 @@ Um diese Option in Microsoft Excel zu finden und einzustellen:
 Aspose.Cells bietet die Eigenschaften [**PivotTable.setDisplayNullString()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#DisplayNullString) und [**PivotTable.setNullString()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#NullString), um die Pivot-Tabellen-Option "Leerzellen anzeigen" festzulegen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingPivotTableOption-SettingPivotTableOption.java" >}}
+{{< app/cells/assistant language="java" >}}

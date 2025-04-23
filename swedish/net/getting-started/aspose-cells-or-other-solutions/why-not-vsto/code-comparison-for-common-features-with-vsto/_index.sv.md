@@ -32,3 +32,4 @@ Denna sektion har följande ämnen:
 - [Sortera data i arbetsblad](/cells/sv/net/sort-data-in-worksheets/)
 - [Använda formler och funktioner för att behandla data i VSTO och Aspose.Cells](/cells/sv/net/use-formulas-functions-to-process-data-in-vsto-and-aspose-cells/)
 - [Omslagscelltext i VSTO och Aspose.Cells](/cells/sv/net/wrapping-cell-text-in-vsto-and-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

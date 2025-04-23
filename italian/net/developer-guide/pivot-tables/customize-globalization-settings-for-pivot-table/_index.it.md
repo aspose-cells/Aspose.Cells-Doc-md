@@ -18,3 +18,4 @@ Il seguente codice di esempio spiega come personalizzare le impostazioni di glob
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-CustomizePivotTableGlobalSettings-CustomizePivotTableGlobalSettings.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

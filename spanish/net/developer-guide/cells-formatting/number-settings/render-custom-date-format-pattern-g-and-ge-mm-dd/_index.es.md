@@ -16,3 +16,4 @@ Ahora Aspose.Cells puede representar los patrones de formato de fecha personaliz
 El siguiente código de ejemplo convierte el [archivo de Excel fuente](5112361.xlsx) que contiene valores de fecha con patrones de formato personalizados como g y ge.mm.dd en un [PDF de salida](5112360.pdf).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-RenderCustomDateFormat-RenderCustomDateFormatPatterngandgemmdd.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

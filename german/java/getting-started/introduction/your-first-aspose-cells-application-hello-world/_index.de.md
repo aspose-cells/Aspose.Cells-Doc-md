@@ -41,3 +41,4 @@ Das folgende Beispiel erstellt ein neues Arbeitsblatt von Grund auf, schreibt di
 Das folgende Beispiel öffnet eine vorhandene Microsoft Excel-Vorlagendatei namens **book1.xls**, schreibt die Worte 'Hallo Welt!' in die Zelle A1 im ersten Arbeitsblatt und speichert das Arbeitsblatt als neue Datei.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-introduction-OpeningExistingFile-1.java" >}}
+{{< app/cells/assistant language="java" >}}

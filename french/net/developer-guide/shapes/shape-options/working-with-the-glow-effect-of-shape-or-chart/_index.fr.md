@@ -17,3 +17,4 @@ Le code d'exemple suivant charge le [fichier Excel source](5115407.xlsx) et acc√
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-GlowEffectOfShape-GlowEffectOfShape.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

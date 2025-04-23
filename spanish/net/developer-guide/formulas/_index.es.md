@@ -11,7 +11,7 @@ keywords: Cómo calcular fórmulas en C#, Fórmulas y Funciones usando C#, C# Ad
 
 ## **Introducción**
 
-Una de las características más atractivas de Microsoft Excel es su capacidad para procesar datos con fórmulas y funciones. Microsoft Excel proporciona un conjunto de funciones y fórmulas integradas que ayudan a los usuarios a realizar cálculos complejos rápidamente. Aspose.Cells también proporciona un gran conjunto de funciones y fórmulas integradas que ayudan a los desarrolladores a calcular valores fácilmente. Aspose.Cells también admite funciones de complemento. Además, Aspose.Cells admite fórmulas de matriz y R1C1 en Aspose.Cells.
+Una de las funciones más atractivas de Microsoft Excel es su capacidad de procesar datos con fórmulas y funciones. Microsoft Excel ofrece un conjunto de funciones y fórmulas integradas que ayudan a los usuarios a realizar cálculos complejos rápidamente. Aspose.Cells también proporciona un gran conjunto de funciones y fórmulas integradas que ayudan a los desarrolladores a calcular valores fácilmente. Aspose.Cells también soporta funciones de complemento. Además, Aspose.Cells soporta fórmulas de matriz y R1C1.
 
 ## **Cómo Usar Fórmulas y Funciones**
 
@@ -88,3 +88,4 @@ Agregue una fórmula de estilo de referencia **R1C1** a una celda con la propied
 - [Especificar el número máximo de filas de la fórmula compartida](/cells/es/net/specify-maximum-rows-of-shared-formula/)
 - [Funciones de Excel soportadas](/cells/es/net/supported-formula-functions/)
 
+{{< app/cells/assistant language="csharp" >}}

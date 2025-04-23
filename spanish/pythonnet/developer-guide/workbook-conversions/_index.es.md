@@ -89,7 +89,7 @@ El siguiente código demuestra cómo utilizar [**HtmlSaveOptions.image_options**
 
 ## **Convertir Libro de Excel a Markdown**
 
-La API de Aspose.Cells for Python via .NET brinda soporte para exportar hojas de cálculo a formato Markdown. Para exportar la hoja de cálculo activa a Markdown, pase [**SaveFormat.Markdown**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) como segundo parámetro del método [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3). También puede utilizar la clase [**MarkdownSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions) para especificar configuraciones adicionales para exportar la hoja de cálculo a Markdown.
+La API de Aspose.Cells for Python via .NET brinda soporte para exportar hojas de cálculo a formato Markdown. Para exportar la hoja de cálculo activa a Markdown, pase [**SaveFormat.MARKDOWN**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat) como segundo parámetro del método [**Workbook.Save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.saveformat). También puede utilizar la clase [**MarkdownSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/markdownsaveoptions) para especificar configuraciones adicionales para exportar la hoja de cálculo a Markdown.
 
 El siguiente ejemplo de código demuestra la exportación de una hoja de cálculo activa a Markdown usando el miembro de enumeración [**SaveFormat.MARKDOWN**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/). Consulte el [archivo Markdown de salida](md_sample.txt) generado por el código para referencia.
 

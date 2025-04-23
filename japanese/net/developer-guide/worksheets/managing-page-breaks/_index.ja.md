@@ -57,3 +57,4 @@ Aspose.CellsはExcelファイルを表す[**Workbook**](https://reference.aspose
 ## **重要なこと**
 
 ページ設定の設定で**FitToPages**プロパティ（すなわち[**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall)および[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)）を設定すると、ページブレークの設定が影響を受けます。そのため、ワークシートを印刷する場合、ページブレークの設定は考慮されませんが、それらはまだ設定されています。
+{{< app/cells/assistant language="csharp" >}}

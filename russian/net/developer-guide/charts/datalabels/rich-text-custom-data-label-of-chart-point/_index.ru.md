@@ -18,3 +18,4 @@ url: /ru/net/rich-text-custom-data-label-of-chart-point/
 Следующий код получает доступ к первой точке диаграммы первого ряда, устанавливает ее текст, а затем устанавливает шрифт первых 10 символов, устанавливая его цвет в красный и полужирный **true**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RichTextCustomDataLabel-RichTextCustomDataLabelOfChartPoint.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

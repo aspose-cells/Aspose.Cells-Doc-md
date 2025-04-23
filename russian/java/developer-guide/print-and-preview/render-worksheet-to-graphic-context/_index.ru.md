@@ -28,3 +28,4 @@ Aspose.Cells теперь может отобразить рабочий лис�
 
 
 
+{{< app/cells/assistant language="java" >}}

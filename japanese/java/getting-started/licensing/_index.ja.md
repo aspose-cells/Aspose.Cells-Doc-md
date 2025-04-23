@@ -18,7 +18,7 @@ keywords: Javaでディスクまたはストリームからライセンスを適
 1. 明示的なパス。
 1. Aspose.Cells.jar を含むフォルダ。
 
-[License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) メソッドを使用して、コンポーネントにライセンスを付与します。ライセンスを設定する最も簡単な方法は、Aspose.Cells.jar と同じフォルダにライセンスファイルを配置し、次の例に示すようにパスを指定せずにファイル名だけを指定することです。
+コンポーネントにライセンスを付与するには、[License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense-java.io.InputStream-)メソッドを使用します。最も簡単な方法は、ライセンスファイルをAspose.Cells.jarと同じフォルダーに配置し、以下の例のようにパスなしのファイル名だけを指定することです：
 
 ### **ディスクからライセンスを適用する方法**
 
@@ -99,3 +99,4 @@ double amountAfter = Metered.getConsumptionQuantity();
 System.out.println(amountAfter);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

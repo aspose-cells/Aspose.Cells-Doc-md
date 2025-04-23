@@ -16,3 +16,4 @@ url: /zh/net/set-external-links-in-formulas/
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-SetExternalLinksInFormulas-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

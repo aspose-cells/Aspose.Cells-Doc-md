@@ -65,3 +65,4 @@ Especifique las propiedades [**FindOptions.LookInType**](https://reference.aspos
 - [Encontrar celdas con estilo específico](/cells/es/net/find-cells-with-specific-style/)
 - [Encontrar si el valor de la celda comienza con una comilla simple](/cells/es/net/find-if-the-cell-value-starts-with-single-quote-mark/)
 - [Buscar Datos usando Valores Originales](/cells/es/net/search-data-using-original-values/)
+{{< app/cells/assistant language="csharp" >}}

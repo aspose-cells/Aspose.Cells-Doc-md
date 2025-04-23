@@ -34,3 +34,4 @@ Pour implémenter le chiffrement de fichier dans Microsoft Excel (par exemple 20
 L'exemple de code ci-dessous applique un chiffrement fort à un fichier et définit un mot de passe.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ApplyingEncryption-ApplyingEncryption.java" >}}
+{{< app/cells/assistant language="java" >}}

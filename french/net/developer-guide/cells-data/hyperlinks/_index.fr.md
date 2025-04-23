@@ -64,3 +64,4 @@ Il est possible d'ajouter des hyperliens à des fichiers Excel externes en appel
 - [Modifier les hyperliens de la feuille de calcul](/cells/fr/net/editing-hyperlinks-of-worksheet/)
 - [Obtenir des hyperliens dans la plage](/cells/fr/net/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="csharp" >}}

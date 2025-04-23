@@ -154,3 +154,4 @@ objworkbook.Save("c:\\RotateText_test.xlsx");
 
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

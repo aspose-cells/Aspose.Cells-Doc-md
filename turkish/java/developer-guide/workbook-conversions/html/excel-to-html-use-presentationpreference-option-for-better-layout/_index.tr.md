@@ -20,3 +20,4 @@ Excel'den HTML'ye dönüşümle ilgili aşağıdaki makaleleri bulabilirsiniz
 - [HTML'ye kaydederken Downlevel Açıklanan Yorumları Devre Dışı Bırak](/cells/tr/java/disable-downlevel-revealed-comments-while-saving-to-html/)
 - [Excel'de belge çalışma kitabı ve çalışma sayfası özelliklerini HTML dönüşümünde dışa aktar](/cells/tr/java/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/)
 - [HTML'e Baskı Alanı Aralığını Dışa Aktar](/cells/tr/java/export-print-area-range-to-html/)
+{{< app/cells/assistant language="java" >}}

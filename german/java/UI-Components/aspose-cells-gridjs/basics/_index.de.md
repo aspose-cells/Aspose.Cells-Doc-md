@@ -22,7 +22,7 @@ Es ermöglicht auch das Exportieren von Excel-Dateien in PDF, HTML usw. Unten fi
 - Richten Sie eine Controller-Aktion ein, um die Datei im Cache zu erhalten, damit können Sie die Bilder/Formen-Zip-Datei oder die Tabellenkalkulationsdatei im Cache erhalten. Es wird die API GridCacheForStream.LoadStream verwendet.
 - Richten Sie eine Controller-Aktion ein, um die Tabellenkalkulation herunterzuladen. Sie können die API GridJsWorkbook.SaveToCacheWithFileName verwenden.
 
-Unten finden Sie eine grundlegende Demonstration zur Veranschaulichung der Verwendung von Aspose.Cells.GridJs: https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs
+Unten ist eine grundlegende Demo, die die Verwendung von Aspose.Cells.GridJs zeigt: https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs
 
 
 Wenn Sie Fragen, Anforderungen oder Hilfe benötigen, geben Sie bitte Feedback auf der folgenden Website https://forum.aspose.com/c/cells/9

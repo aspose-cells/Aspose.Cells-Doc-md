@@ -32,3 +32,4 @@ Aspose.Cells提供了[**ICustomFunction**](https://reference.aspose.com/cells/ne
 现在将以上函数用于您的程序
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingICustomFunction-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

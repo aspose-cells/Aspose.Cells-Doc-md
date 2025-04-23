@@ -144,3 +144,4 @@ workbook.Save("C:\\Test_Range.xls");
 
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

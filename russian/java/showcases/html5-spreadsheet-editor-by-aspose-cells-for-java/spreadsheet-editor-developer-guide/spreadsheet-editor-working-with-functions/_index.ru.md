@@ -38,3 +38,4 @@ url: /ru/java/spreadsheet-editor-working-with-functions/
 1. Нажмите на ячейку, чтобы выбрать ее.
 1. Нажмите кнопку **Вставить функцию** вверху.
 1. Следуйте инструкциям в диалоговом окне **Вставить функцию**.
+{{< app/cells/assistant language="java" >}}

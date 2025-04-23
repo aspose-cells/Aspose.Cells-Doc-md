@@ -22,3 +22,4 @@ PDF/A是PDF的一种独特类型，旨在长期保存文档。PDF/A是便携式�
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToPDFA_1a.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

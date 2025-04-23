@@ -36,3 +36,4 @@ Cet exemple montre comment :
 1. Obtenir l'index de ligne par le nom de la ligne.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-get-index.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

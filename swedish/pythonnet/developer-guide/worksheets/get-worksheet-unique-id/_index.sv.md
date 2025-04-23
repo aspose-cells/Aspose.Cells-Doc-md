@@ -3,13 +3,13 @@ title: Få arbetsbladets unika id
 type: docs
 weight: 190
 url: /sv/python-net/get-worksheet-unique-id/
-description: Denna artikel visar hur man får Excel kalkylblad unik ID med hjälp av Aspose.Cells för Python via .NET API er.
-keywords: Python Excel bibliotek, Python unikt id excelformulär, Python Hämta kalkylbladets unika id.
+description: Denna artikel visar hur man får unikt id för ett Excel ark med Aspose.Cells för Python via .NET API er.
+keywords: Python Excel bibliotek, Python unikt id för Excel ark, Python hämta unikt id för ark.
 ---
 
-## **Hur man får kalkylbladets unika id**
+## **Hur man får unikt id för ett ark**
 
-Aspose.Cells för Python via .NET ger möjligheten att få den unika ID av ett kalkylblad genom att använda [**Worksheet.unique_id**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/unique_id) egenskapen. Följande kodsnutt demonstrerar användningen av [**Worksheet.unique_id**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/unique_id) egenskapen för att skriva ut kalkylbladets unika ID. Följande kodsnutt använder denna [exemplet Excel-fil](105480213.xlsx).
+Aspose.Cells för Python via .NET ger möjlighet att få det unika id för ett ark genom att använda [**Worksheet.unique_id**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/unique_id)-egenskapen. Följande kodavsnitt visar användningen av [**Worksheet.unique_id**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/unique_id)-egenskapen för att skriva ut det unika id:et för ett ark. Kodsnutten använder denna [exempelworkbook](105480213.xlsx).
 
 ### Källkod
 

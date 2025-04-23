@@ -38,3 +38,4 @@ Desproteger la hoja de cálculo es fácil con la API de Aspose.Cells. Si la hoja
 - [Protección de Hojas de Cálculo](/cells/es/net/protecting-worksheets/)
 - [Desproteger una Hoja de Cálculo](/cells/es/net/unprotect-a-worksheet/)
 - [Verificar la Contraseña Utilizada para Proteger la Hoja de Cálculo](/cells/es/net/verify-password-used-to-protect-the-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

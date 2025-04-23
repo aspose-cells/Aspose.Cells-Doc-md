@@ -85,3 +85,4 @@ Beim Arbeiten mit Arbeitsblättern können Benutzer verschiedene Arten von Daten
 
 
 
+{{< app/cells/assistant language="csharp" >}}

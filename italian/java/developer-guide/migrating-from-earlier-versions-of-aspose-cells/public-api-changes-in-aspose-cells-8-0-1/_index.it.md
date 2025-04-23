@@ -46,3 +46,4 @@ Le impostazioni di memoria non funzioneranno per il foglio predefinito creato au
 Si prega di controllare l'articolo dettagliato su [Ottimizzazione della memoria durante il lavoro con grandi set di dati](/cells/it/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

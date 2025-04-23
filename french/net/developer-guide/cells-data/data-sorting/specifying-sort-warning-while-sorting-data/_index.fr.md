@@ -18,3 +18,4 @@ Veuillez considérer ces données textuelles, c'est-à-dire {11, 111, 22}. Ces d
 Le code d'exemple suivant illustre l'utilisation de la propriété [**DataSorter.SortAsNumber**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/properties/sortasnumber) comme expliqué précédemment. Veuillez consulter son [fichier Excel d'exemple](43352075.xlsx) et son [fichier Excel de sortie](43352076.xlsx) pour plus d'aide.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SpecifyingSortWarningWhileSortingData.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

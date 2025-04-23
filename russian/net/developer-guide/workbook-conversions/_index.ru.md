@@ -132,6 +132,22 @@ API Aspose.Cells поддерживает конвертацию электро�
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToPptx-1.cs" >}}
 
+## **Преобразовать рабочую книгу Excel в EPUB**
+
+API Aspose.Cells поддерживает преобразование таблиц в формат EPUB. Чтобы экспортировать рабочую книгу в EPUB, передайте [**SaveFormat.Epub**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) как второй параметр метода [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3). Вы также можете использовать класс [**EBookSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/ebooksaveoptions) для задания дополнительных настроек при экспорте листа в EPUB.
+
+Следующий пример кода демонстрирует экспорт активного листа в EPUB с помощью перечисления [**SaveFormat.Epub**](https://reference.aspose.com/cells/net/aspose.cells/saveformat).
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToEPUB-1.cs" >}}
+
+## **Преобразовать рабочую книгу Excel в AZW3**
+
+API Aspose.Cells поддерживает преобразование таблиц в формат AZW3. Чтобы экспортировать рабочую книгу в AZW3, передайте [**SaveFormat.Azw3**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) как второй параметр метода [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3). Вы также можете использовать класс [**EBookSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/ebooksaveoptions) для задания дополнительных настроек при экспорте листа в AZW3.
+
+Следующий пример кода демонстрирует экспорт активного листа в AZW3 с помощью перечисления [**SaveFormat.Azw3**](https://reference.aspose.com/cells/net/aspose.cells/saveformat).
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToAZW3-1.cs" >}}
+
 ## **Продвинутые темы**
 - [Преобразование версии XLSB в XLSM](/cells/ru/net/convert-revision-of-xlsb-to-xlsm/)
 - [HTML](/cells/ru/net/convert-excel-to-html/)
@@ -142,3 +158,4 @@ API Aspose.Cells поддерживает конвертацию электро�
 - [Преобразовать Excel в CSV, TSV и Txt](/cells/ru/net/convert-excel-to-csv-tsv-and-txt/)
 - [Отслеживание прогресса конвертации документов](/cells/ru/net/track-document-conversion-progress/)
 - [Преобразование CSV, TSV и TXT в Excel](/cells/ru/net/convert-csv-tsv-and-txt-to-excel/)
+{{< app/cells/assistant language="csharp" >}}

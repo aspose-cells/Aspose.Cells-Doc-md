@@ -24,3 +24,4 @@ Aşağıdaki örnek kod, [örnek Excel dosyasını](67338510.xlsx) yükler. Ard�
 Gear Type Shape Text: Nice Gear Type Shape Text: Good Gear Type Shape Text: Excellent
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

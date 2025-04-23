@@ -20,3 +20,4 @@ Aspose.Cells for .NET API bietet eine einfache und unkomplizierte Möglichkeit, 
 Es gibt möglicherweise Fälle, in denen Sie immer das aktualisierte Bild von einer URL möchten. Um dies zu erreichen, können Sie den Anweisungen im Artikel [Ein verknüpftes Bild von Webadresse einfügen](/cells/de/net/insert-a-linked-picture-from-web-address/) folgen. Durch das Befolgen dieser Methode wird das Bild jedes Mal von der URL geladen, wenn das Arbeitsblatt geöffnet wird.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

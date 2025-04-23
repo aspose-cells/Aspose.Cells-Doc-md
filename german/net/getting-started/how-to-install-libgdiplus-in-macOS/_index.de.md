@@ -25,3 +25,4 @@ Nach der Installation von Homebrew können Sie libgdiplus in macOS installieren:
 brew install mono-libgdiplus
 
 ```
+{{< app/cells/assistant language="csharp" >}}

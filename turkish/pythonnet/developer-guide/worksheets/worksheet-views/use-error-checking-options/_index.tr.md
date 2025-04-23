@@ -3,8 +3,8 @@ title: Hata Kontrolü Seçeneklerini Kullanma
 type: docs
 weight: 140
 url: /tr/python-net/use-error-checking-options/
-description: Bu makalede, Excel çalışma sayfalarının hata denetleme seçeneklerini programatik olarak kullanmak için örnek kodlar bulacaksınız. Örneğin, Aspose.Cells for Python via .NET API sini kullanarak Metin Olarak Saklanan Sayılar gibi hata denetleme seçeneklerini kullanın.
-keywords: Python Excel Kütüphanesi, Excel de Metin Olarak Sayı Saklama, Python da hata denetleme excel seçenekleri ile başa çıkma.
+description: Bu makalede, Excel çalışma sayfalarının hata denetleme seçeneklerini, örneğin sayısal verilerin Metin olarak saklanması gibi kullanmak için örnek kodlar bulunur, Aspose.Cells for Python via .NET API kullanılarak.
+keywords: Python Excel Kütüphanesi, Python da Sayıları Metin Olarak Saklama, Excel hata denetleme seçenekleri ile nasıl başa çıkılır.
 ---
 
 {{% alert color="primary" %}}
@@ -19,7 +19,7 @@ Formülün bir sonuç döndüremeyeceği anlamına gelen hatalar - örneğin bir
 
 Hata, seçenekler kullanılarak çözülebilir veya yok sayılabilir. Bir hatayı yok saymak, o hatanın daha sonra yapılan hata kontrollerinde görünmeyeceği anlamına gelir.
 
-Aspose.Cells for Python via .NET, hata denetleme seçenek özellikleri sağlar. [**ErrorCheckOption**](https://reference.aspose.com/cells/python-net/aspose.cells/errorcheckoption) sınıfı, metin olarak saklanan sayılar, formül hesaplama hataları ve doğrulama hataları gibi farklı hata denetimleri türlerini yönetir. İstenen hata denetimini ayarlamak için [**ErrorCheckType**](https://reference.aspose.com/cells/python-net/aspose.cells/errorchecktype) numaralı numaralandırmayı kullanın.
+Aspose.Cells for Python via .NET, hata denetleme özellikleri sağlar. [**ErrorCheckOption**](https://reference.aspose.com/cells/python-net/aspose.cells/errorcheckoption) sınıfı, farklı hata türlerini yönetir; örneğin, sayısal verilerin metin olarak saklanması, formül hesaplama hataları ve doğrulama hataları gibi. İstenilen hata denetleme türünü ayarlamak için [**ErrorCheckType**](https://reference.aspose.com/cells/python-net/aspose.cells/errorchecktype) numaralandırmasını kullanın.
 
 ## **Metin Olarak Saklanan Sayılar**
 
@@ -28,9 +28,9 @@ Bazen, sayılar hücrelerde metin olarak biçimlendirilmiş ve saklanmış olabi
 Metin olarak saklanan sayıları hızlı bir şekilde gerçek sayılara dönüştürmek için hata kontrol seçeneklerini kullanabilirsiniz. Microsoft Excel 2003'te:
 
 1. **Araçlar** menüsünde **Seçenekler**'i tıklayın.
-1. Hata Denetimi sekmesini seçin. **Metin Olarak Saklanan Sayılar** seçeneği varsayılan olarak işaretlidir.
+1. Hata Kontrol sekmesini seçin. **Sayısal Veri Metin olarak Saklanıyor** seçeneği varsayılan olarak işaretlidir.
 1. Bu seçeneği devre dışı bırakın.
 
-Aşağıdaki örnek kod, Aspose.Cells for Python via .NET API'lerini kullanarak bir şablon XLS dosyasında çalışma sayfası için metin olarak saklanan sayılar hata denetim seçeneğini devre dışı bırakmanın nasıl yapıldığını gösterir.
+Aşağıdaki örnek kod, şablon XLS dosyasındaki bir çalışma sayfası için metin olarak saklanan numaraların hata denetimi seçeneğini devre dışı bırakma nasıl gösterileceğini gösterir Aspose.Cells for Python via .NET API'leri kullanarak.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ErrorCheckingOptions-1.py" >}}

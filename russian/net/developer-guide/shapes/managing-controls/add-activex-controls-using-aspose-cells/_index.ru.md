@@ -29,3 +29,4 @@ url: /ru/net/add-activex-controls-using-aspose-cells/
 В следующем примере кода добавляется элемент Управления переключением с помощью элемента ActiveX Toggle Button, используя Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddActiveXControls-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

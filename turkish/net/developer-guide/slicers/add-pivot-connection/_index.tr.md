@@ -19,3 +19,4 @@ Aşağıdaki örnek kod önceden var olan bir dilimleyici içeren [örnek Excel 
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-Adding-Pivot-Connection.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

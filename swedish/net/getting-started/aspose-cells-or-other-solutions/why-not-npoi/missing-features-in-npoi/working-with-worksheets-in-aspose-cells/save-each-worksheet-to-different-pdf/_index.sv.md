@@ -65,3 +65,4 @@ Ladda ner **Spara varje kalkylblad i olika PDF** från någon av nedanstående s
 För mer detaljer, besök [Spara varje kalkylblad som en annan PDF-fil](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

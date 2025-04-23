@@ -171,3 +171,4 @@ Aşağıdaki örneği düşünün. Bazı hücreler kalın şekilde 'Merhaba Dün
 
 
 Bir Office Open XML belgesinde bile basit bir ara bul ve değiştir işlemini uygulamak zordur. Tavsiyemiz: açık ve standart olmanın basit anlamına gelmediğini unutmayın ve Aspose.Cells kullanın.
+{{< app/cells/assistant language="csharp" >}}

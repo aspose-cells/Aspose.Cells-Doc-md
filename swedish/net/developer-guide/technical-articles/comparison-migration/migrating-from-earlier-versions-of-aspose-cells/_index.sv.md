@@ -6,3 +6,4 @@ url: /sv/net/migrating-from-earlier-versions-of-aspose-cells/
 ---
 
 
+{{< app/cells/assistant language="csharp" >}}

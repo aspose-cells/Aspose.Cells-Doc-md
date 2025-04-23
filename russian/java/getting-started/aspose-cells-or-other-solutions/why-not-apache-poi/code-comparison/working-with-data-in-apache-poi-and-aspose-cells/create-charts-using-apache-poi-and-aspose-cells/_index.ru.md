@@ -156,3 +156,4 @@ chart.plot(data, bottomAxis, leftAxis);
 Для получения дополнительной информации посетите [Создание пользовательских диаграмм](/cells/ru/java/creating-and-customizing-charts/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

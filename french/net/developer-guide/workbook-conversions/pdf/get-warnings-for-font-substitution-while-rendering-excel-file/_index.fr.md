@@ -50,3 +50,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 Si votre feuille de calcul contient des formules, il est préférable d'appeler la méthode Workbook.CalculateFormula juste avant de générer la feuille de calcul au format PDF. Cela garantira que les valeurs dépendantes des formules seront recalculées et les valeurs correctes seront générées dans le PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -19,3 +19,4 @@ Sie können ein Bild-Wasserzeichen zur PDF hinzufügen, indem Sie die Bildbytes 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-AddImageWatermarkToPdf.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

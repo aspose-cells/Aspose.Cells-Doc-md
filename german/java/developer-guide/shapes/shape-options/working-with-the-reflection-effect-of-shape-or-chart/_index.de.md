@@ -24,3 +24,4 @@ Die folgende Screenshots zeigt die Benutzeroberfläche von Microsoft Excel zur E
 Der folgende Beispielcode lädt die [Quelldatei für Excel](5472529.xlsx) und greift auf die erste Form im ersten Arbeitsblatt zu. Dabei werden die Untereigenschaften der [Shape.ReflectionEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Reflection) festgelegt und anschließend das Arbeitsbuch in der [Ausgabedatei für Excel](5472539.xlsx) gespeichert.
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithReflectionEffect-WorkingWithReflectionEffect.java" >}}
+{{< app/cells/assistant language="java" >}}

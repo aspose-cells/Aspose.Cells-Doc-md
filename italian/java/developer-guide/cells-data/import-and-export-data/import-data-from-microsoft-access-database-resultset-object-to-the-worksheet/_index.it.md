@@ -28,8 +28,9 @@ La seguente schermata mostra il file di database quando aperto in Microsoft Acce
 
 ![todo:image_alt_text](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_1.png)
 ## **Importare i dati dall'oggetto ResultSet del database di Microsoft Access nel foglio di lavoro.**
-Il seguente codice di esempio esegue la query SQL dal database di Microsoft Access e crea un oggetto ResultSet. Poi importa i dati dall'oggetto ResultSet nel foglio di lavoro usando il metodo [Worksheet.getCells().importResultSet()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importResultSet\(java.sql.ResultSet,%20int,%20int,%20boolean\)). La prima volta utilizza gli indici di riga e colonna e poi utilizza il nome della cella per importare i dati nel foglio di lavoro. Infine, salva il workbook come un [File Excel di output](48496713.xlsx). La schermata mostra l'effetto del codice di esempio sul file Excel di output per riferimento.
+Il seguente esempio di codice esegue una query SQL dal database Microsoft Access e crea un oggetto ResultSet. Quindi importa i dati dall'oggetto ResultSet nel foglio di lavoro usando il metodo [Worksheet.getCells().importResultSet()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importResultSet-java.sql.ResultSet-int-int-boolean-). La prima volta, utilizza gli indici di riga e colonna e poi utilizza il nome della cella per importare i dati nel foglio di lavoro. Infine, salva il workbook come un [File Excel di Output](48496713.xlsx). Lo screenshot mostra l'effetto del codice di esempio sul file Excel di output come riferimento.
 
 ![todo:image_alt_text](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_2.png)
 ## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ImportDataFromMicrosoftAccessDatabaseResultSetObjectToWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

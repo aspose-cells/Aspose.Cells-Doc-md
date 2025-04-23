@@ -98,3 +98,4 @@ pict.resize();
 Daha fazla ayrıntı için [Resim Hipervez Ekleme](/java/add-image-hyperlinks) sayfasını ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

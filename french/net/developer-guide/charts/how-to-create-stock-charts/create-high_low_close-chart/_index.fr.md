@@ -19,3 +19,4 @@ Parfois, pour rendre le graphique plus intuitif, nous pouvons modifier l'apparen
 Le code d'exemple suivant charge le [fichier Excel d'exemple](High-Low-Close.xlsx) et génère le [fichier Excel de sortie](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-high-low-close-stock-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

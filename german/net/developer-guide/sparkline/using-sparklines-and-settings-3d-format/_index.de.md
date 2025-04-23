@@ -40,3 +40,4 @@ Ein vollständiges Beispiel finden Sie unten, um zu demonstrieren, wie man ein D
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-Applying3DFormat-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

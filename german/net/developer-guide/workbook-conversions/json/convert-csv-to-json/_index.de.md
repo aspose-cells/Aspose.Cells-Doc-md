@@ -60,3 +60,4 @@ Der folgende Beispielcode zeigt die Verwendung der [**ExportRangeToJsonOptions**
 ]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

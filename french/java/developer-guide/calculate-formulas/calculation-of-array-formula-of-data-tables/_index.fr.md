@@ -7,7 +7,7 @@ url: /fr/java/calculation-of-array-formula-of-data-tables/
 
 {{% alert color="primary" %}} 
 
-Vous pouvez créer un tableau de données dans Microsoft Excel en utilisant Données > Analyse de scénarios > Tableau de données.... Aspose.Cells permet maintenant de calculer la formule de tableau de données. Veuillez utiliser [Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) comme d'habitude pour calculer n'importe quel type de formules.
+Vous pouvez créer un tableau de données dans Microsoft Excel en utilisant Données > Analyse de scénario > Tableau de données.... Aspose.Cells vous permet désormais de calculer la formule matricielle du tableau de données. Veuillez utiliser [Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) comme d'habitude pour calculer tout type de formules.
 
 {{% /alert %}} 
 ## **Calcul de la formule de tableau de données**
@@ -22,3 +22,4 @@ Si vous changez la valeur de la cellule B1 à 100, les valeurs du tableau de don
 Voici le code d'exemple utilisé pour générer le [PDF de sortie](5472577.pdf) à partir du [fichier Excel source](5472579.xlsx). Veuillez lire les commentaires pour plus d'informations.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculationOfArrayFormula-CalculationOfArrayFormula.java" >}}
+{{< app/cells/assistant language="java" >}}

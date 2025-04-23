@@ -24,3 +24,4 @@ El código genera el [archivo HTML de salida con Courier New](5115516), el [arch
 ## Código de Muestra
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-SetDefaultFontWhileRendering-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

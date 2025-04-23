@@ -42,3 +42,4 @@ Por favor, consulte el siguiente código de muestra. Carga el [archivo de Excel 
 ----------------------
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

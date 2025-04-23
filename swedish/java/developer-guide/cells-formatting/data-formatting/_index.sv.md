@@ -403,3 +403,4 @@ Om kravet är att ställa in visningsformatet för siffror & datum för en kompl
 Kontrollera den detaljerade artikeln om [Inställning av visningsformat för siffror och [Datum](/cells/sv/java/data-formatting/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -27,3 +27,4 @@ Si le classeur contient des formules, il est préférable d'appeler la méthode 
 
 - [Convertir un fichier Excel au format PDF compatible avec PDFA-1a](/cells/fr/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [Rendu du graphique](/cells/fr/java/chart-rendering/)
+{{< app/cells/assistant language="java" >}}

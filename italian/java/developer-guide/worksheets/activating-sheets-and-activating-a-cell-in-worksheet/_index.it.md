@@ -35,3 +35,4 @@ Nell'esempio seguente viene mostrato come attivare un foglio di lavoro e rendere
 In modalità di **valutazione**, cioè; senza impostare una licenza valida, il foglio di lavoro attivo sarà sempre quello contenente il watermark di valutazione. Questo comportamento può essere sovrascritto solo impostando la licenza all'avvio dell'applicazione.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

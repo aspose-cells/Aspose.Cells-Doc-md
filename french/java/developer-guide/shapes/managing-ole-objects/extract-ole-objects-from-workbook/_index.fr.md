@@ -31,3 +31,4 @@ Le code ci-dessous effectue le travail réel de recherche et d'extraction d'obje
 Cet article montre comment extraire des objets OLE d'un classeur à l'aide d'Aspose.Cells. Espérons que cela vous donnera un aperçu qui vous permettra d'utiliser ces options dans vos propres scénarios.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

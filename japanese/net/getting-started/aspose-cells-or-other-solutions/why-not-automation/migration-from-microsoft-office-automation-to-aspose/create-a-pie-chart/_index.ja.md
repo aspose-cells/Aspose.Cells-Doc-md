@@ -182,3 +182,4 @@ url: /ja/net/create-a-pie-chart/
 **Aspose.Cells for .NETで作成された円グラフ** 
 
 ![todo:image_alt_text](create-a-pie-chart_2.png)
+{{< app/cells/assistant language="csharp" >}}

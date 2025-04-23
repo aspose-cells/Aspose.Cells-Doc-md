@@ -34,3 +34,4 @@ El siguiente código de muestra carga el [archivo de Excel de origen](sampleTrim
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-TrimLeadingBlankRowsAndColumnsWhileExportingSpreadsheetsToCSVFormat.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

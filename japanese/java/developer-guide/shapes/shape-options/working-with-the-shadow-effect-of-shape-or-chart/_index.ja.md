@@ -23,3 +23,4 @@ Aspose.Cellsは、図形やグラフの影効果を操作するための[Shape.S
 次のサンプルコードは、[ソースエクセルファイル](5472531.xlsx)を読み込み、最初のワークシートの最初の図形にアクセスして、[Shape.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect) プロパティのサブプロパティを設定し、その後、[出力エクセルファイル](5472530.xlsx)にブックを保存します。
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithShadowEffect-WorkingWithShadowEffect.java" >}}
+{{< app/cells/assistant language="java" >}}

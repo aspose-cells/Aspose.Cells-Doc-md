@@ -42,3 +42,4 @@ Kodun çalıştırılmasından sonra, A1'in arka plan resimli bir yorumu vardır
 ## Örnek Kod
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddPicturetoExcelComment-AddPicturetoExcelComment.java" >}}
+{{< app/cells/assistant language="java" >}}

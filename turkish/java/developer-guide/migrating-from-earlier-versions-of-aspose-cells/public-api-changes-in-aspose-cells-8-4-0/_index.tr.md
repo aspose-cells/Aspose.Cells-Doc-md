@@ -270,3 +270,4 @@ Varsayılan değer "" (boş dize) dir.
 Tüm hücreleri yinelemek için getEnumerator yöntemini kullanın.
 ### **Eski DrawObject.Image Özelliği**
 Resim verilerini almak için DrawObject.ImageBytes özelliğini kullanın.
+{{< app/cells/assistant language="java" >}}

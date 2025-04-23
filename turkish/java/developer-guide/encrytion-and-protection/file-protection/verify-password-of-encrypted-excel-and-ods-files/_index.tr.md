@@ -12,10 +12,11 @@ Excel (xlsx, xlsb, xls, xlsm) ve OpenOffice (ODS) dosyaları şifrelenmişse, As
 
 ## **Şifrelenmiş dosyanın parolasını doğrulama**
 
-Şifreli dosyanın parolasını doğrulamak için, Aspose.Cells for Java [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) yöntemini sağlar. Yöntem iki parametre kabul eder, dosya akışı ve doğrulanması gereken parola.
-Aşağıdaki kod parçası, sağlanan parolanın geçerli olup olmadığını doğrulamak için [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) yönteminin nasıl kullanıldığını göstermektedir.
+Şifreli dosyanın parolasını doğrulamak için, Aspose.Cells for Java [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword-java.io.InputStream-java.lang.String-) yöntemini sağlar. Yöntem iki parametre kabul eder, dosya akışı ve doğrulanması gereken parola.
+Aşağıdaki kod parçası, sağlanan parolanın geçerli olup olmadığını doğrulamak için [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword-java.io.InputStream-java.lang.String-) yönteminin nasıl kullanıldığını göstermektedir.
 
 ### **Örnek Kod:**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-VerifyPassword-1.java" >}}
 
+{{< app/cells/assistant language="java" >}}

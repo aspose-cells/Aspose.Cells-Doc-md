@@ -42,3 +42,4 @@ url: /ar/java/how-to-migrate-to-aspose-cells-7-0-0-or-higher/
 
 4) تم تغيير أسماء طرق الحصول على الخصائص البوليانية في v2.5.4 أو الإصدارات السابقة التي تبدأ بـ 'is'. في v7.0.0 يتم بدء هذه بـ "get":
 مثال: PageSetup.isBlackAndWhite() (قديم) -> PageSetup.getBlackAndWhite() (جديد) ، ... الخ.
+{{< app/cells/assistant language="java" >}}

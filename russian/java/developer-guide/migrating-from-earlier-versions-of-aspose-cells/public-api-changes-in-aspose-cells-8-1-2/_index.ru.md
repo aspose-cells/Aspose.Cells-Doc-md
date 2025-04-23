@@ -20,3 +20,4 @@ url: /ru/java/public-api-changes-in-aspose-cells-8-1-2/
 {{% /alert %}}
 ## **Удален устаревшее свойство PdfSaveOptions.ChartImageType**
 Aspose.Cells for Java 8.1.2 удалил устаревшее свойство PdfSaveOptions.ChartImageType из публичного API.
+{{< app/cells/assistant language="java" >}}

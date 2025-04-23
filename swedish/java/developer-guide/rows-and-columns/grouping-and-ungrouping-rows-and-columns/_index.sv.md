@@ -18,7 +18,7 @@ Aspose.Cells tillhandahåller en klass, [Workbook](https://reference.aspose.com/
 
 [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) samlingen tillhandahåller flera metoder för att hantera rader eller kolumner i ett kalkylblad, några av dessa diskuteras nedan mer detaljerat.
 ### **Gruppering av rader och kolumner**
-Det är möjligt att gruppera rader eller kolumner genom att anropa [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows\(int,%20int,%20boolean\)) och [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns\(int,%20int,%20boolean\)) metoderna i [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) samlingen. Båda metoderna tar följande parametrar:
+Det är möjligt att gruppera rader eller kolumner genom att anropa metoderna [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows-int-int-boolean-) och [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns-int-int-boolean-) i [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) samlingen. Båda metoderna tar följande parametrar:
 
 - Första radens/kolumnens index, den första raden eller kolumnen i gruppen.
 - Sista radens/kolumnens index, den sista raden eller kolumnen i gruppen.
@@ -51,7 +51,7 @@ Det går att kontrollera om sammanfattande kolumner visas till höger om detalje
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowRight-1.java" >}}
 ### **Avgruppering av rader och kolumner**
-Avgruppera grupperade rader eller kolumner genom att anropa [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-kollektionens [UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows\(int,%20int\))- och [UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns\(int,%20int\))-metoder. Båda metoderna tar samma parametrar:
+Avgruppa grupperade rader eller kolumner genom att anropa [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) samlingens [UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows-int-int-) och [UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns-int-int-) metoder. Båda metoderna tar samma parametrar:
 
 - Första radens/kolumnens index, den första raden/kolumnen att avgrupperas.
 - Sista radens/kolumnens index, den sista raden/kolumnen att avgrupperas.
@@ -59,3 +59,4 @@ Avgruppera grupperade rader eller kolumner genom att anropa [Cells](https://refe
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-UngroupingRowsandColumns-UngroupingRowsandColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

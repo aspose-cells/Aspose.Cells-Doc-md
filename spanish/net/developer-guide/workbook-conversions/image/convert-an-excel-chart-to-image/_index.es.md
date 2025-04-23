@@ -71,3 +71,4 @@ Primero cree un gráfico de columnas en Microsoft Excel y conviértalo en un arc
 1. Convierta dinámicamente el gráfico en una imagen. A continuación se muestra el código utilizado por el componente para completar la tarea. El código es similar al anterior:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertExcelChartToImage-ConvertingColumnChartToImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

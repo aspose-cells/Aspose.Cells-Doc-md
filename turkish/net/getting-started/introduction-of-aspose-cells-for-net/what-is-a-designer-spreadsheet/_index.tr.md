@@ -39,3 +39,4 @@ Ek olarak, Aspose.Cells tasarım elektronik tablolarına [akıllı işaretler](/
 [Akıllı işaretler hakkında daha fazla bilgi edinin](/cells/tr/net/smart-markers/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

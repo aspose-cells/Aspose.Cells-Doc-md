@@ -7,3 +7,4 @@ url: /tr/java/rows-and-columns/
 
 
 
+{{< app/cells/assistant language="java" >}}

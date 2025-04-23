@@ -34,3 +34,4 @@ Vänligen kontrollera den detaljerade artikeln om [Hur man skapar, manipulerar e
 {{% /alert %}}
 ## **Ändring av beteende för CellsException**
 Med tidigare versioner av Aspose.Cells for Java API, när en eventuellt skadad kalkyl laddades i en instans av Arbetsbok, tenderade API:et att kasta ett generiskt meddelande utan att ange var problemet kunde finnas. Vi har ändrat detta beteende för 8.1.1 så att API:et kastar ett undantag med ett meningsfullt meddelande som pekar ut var (vilken cell) och vad (formeluttryck) som orsakar undantaget när mallfilen läses.
+{{< app/cells/assistant language="java" >}}

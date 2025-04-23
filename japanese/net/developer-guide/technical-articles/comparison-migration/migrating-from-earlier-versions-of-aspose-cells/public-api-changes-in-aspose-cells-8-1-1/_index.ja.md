@@ -31,3 +31,4 @@ HtmlSaveOptions クラスで PresentationPreference プロパティが公開さ�
 [ワークシートからシナリオを作成、操作、削除する方法](/cells/ja/net/create-manipulate-or-remove-scenarios-from-worksheets/) の詳細な記事をご確認ください
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

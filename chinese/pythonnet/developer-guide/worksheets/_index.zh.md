@@ -17,7 +17,7 @@ keywords: Python Excel库，Python管理Microsoft Excel文件的工作表，Pyth
 
 Aspose.Cells提供了一个表示Excel文件的类，[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)类包含一个[**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets/)集合，允许访问Excel文件中的每个工作表。
 
-工作表由[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类表示。[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)类提供了广泛的属性和方法来管理工作表。
+工作表由[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)类表示。[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)类提供了广泛的属性和方法来管理工作表。
 
 ## **如何将工作表添加到新的Excel文件**
 

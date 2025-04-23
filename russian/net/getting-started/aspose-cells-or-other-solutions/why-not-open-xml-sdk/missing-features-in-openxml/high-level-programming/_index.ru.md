@@ -13,3 +13,4 @@ url: /ru/net/high-level-programming-with-a-workbook-object-model/
   - [Копировать листы в рамках рабочей книги](/cells/ru/net/copy-worksheets-within-a-workbook/)
   - [Перемещение листов в рамках рабочей книги](/cells/ru/net/move-worksheets-within-workbook/)
 - [Поиск и замена в электронной таблице](/cells/ru/net/find-and-replace-in-spreadsheet/)
+{{< app/cells/assistant language="csharp" >}}

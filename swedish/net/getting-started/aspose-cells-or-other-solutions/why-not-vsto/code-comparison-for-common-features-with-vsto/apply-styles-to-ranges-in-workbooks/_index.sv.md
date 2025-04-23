@@ -84,3 +84,4 @@ Nedan är kodjämförelsen av att tillämpa stil på rader och kolumner i arbets
 {{< /highlight >}}
 ## **Nerladdning**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/ApplyStylesToRanges.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

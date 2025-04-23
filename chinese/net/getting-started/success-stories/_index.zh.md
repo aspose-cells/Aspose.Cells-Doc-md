@@ -6,3 +6,4 @@ url: /zh/net/success-stories/
 ---
 
 
+{{< app/cells/assistant language="csharp" >}}

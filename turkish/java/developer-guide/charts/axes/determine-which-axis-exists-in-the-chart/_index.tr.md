@@ -9,7 +9,7 @@ url: /tr/java/determine-which-axis-exists-in-the-chart/
 
 Bazen, kullanıcının belirli bir eksenin grafikte var olup olmadığını bilmeye ihtiyacı vardır. Örneğin, Grafik içinde İkinci Değer Ekseni var mı yok mu öğrenmek istiyor. Bazı grafik türleri, Pie, PieExploded, PiePie, PieBar, Pie3D, Pie3DExploded, Doughnut, DoughnutExploded vb. ekseni bulunmamaktadır.
 
-Aspose.Cells, belirli bir eksenin grafikte var olup olmadığını belirlemek için [**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean)) methodunu sağlar.
+Aspose.Cells, belirli bir eksenin grafikte var olup olmadığını belirlemek için [**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis-int-boolean-) methodunu sağlar.
 
 {{% /alert %}}
 
@@ -19,7 +19,7 @@ Aşağıdaki ekran görüntüsü, yalnızca Birincil Kategori ve Değer Eksenine
 
 ![todo:image_alt_text](determine-which-axis-exists-in-the-chart_1.png)
 
-Aşağıdaki örnek kod, örnek grafiğin Birincil ve İkincil Kategori ve Değer Eksenine sahip olup olmadığını belirlemek için [**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean)) kullanımını gösterir. Kodun konsol çıktısı, aşağıda gösterilmiştir; Bu çıktı, Birincil Kategori ve Değer Ekseni için true ve İkincil Kategori ve Değer Ekseni için false değerlerini gösterir.
+Aşağıdaki örnek kod, örnek grafiğin Birincil ve İkincil Kategori ve Değer Eksenine sahip olup olmadığını belirlemek için [**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis-int-boolean-) kullanımını gösterir. Kodun konsol çıktısı, aşağıda gösterilmiştir; Bu çıktı, Birincil Kategori ve Değer Ekseni için true ve İkincil Kategori ve Değer Ekseni için false değerlerini gösterir.
 
 ### Bir grafikte bulunan eksenleri belirlemek için Java kodu
 
@@ -40,3 +40,4 @@ Has Primary Value Axis: true
 Has Secondary Value Axis: false
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

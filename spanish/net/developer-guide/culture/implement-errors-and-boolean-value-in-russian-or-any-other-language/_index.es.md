@@ -21,3 +21,4 @@ El siguiente código de ejemplo ilustra cómo implementar Errores y Valor Boolea
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookSettings-ImplementErrorsAndBooleanValueInRussianOrAnyOtherLanguage.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

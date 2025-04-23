@@ -20,3 +20,4 @@ Herhangi bir resimle şekil yüzeyini doldurabilir ve [**Shape.Fill.TextureFill.
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-TilePictureAsTextureInsideShape.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -7,7 +7,7 @@ url: /ja/java/assign-macro-code-to-form-control/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cellsを使用して、ボタンなどのフォームコントロールにマクロコードを割り当てることができます。 [ShapeCollection.addShape()](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape\(int,%20int,%20int,%20int,%20int,%20int,%20int\)) メソッドを使用して、ブック内のフォームコントロールに新しいマクロコードを割り当ててください。
+Aspose.Cellsでは、ボタンなどのフォームコントロールにマクロコードを割り当てることができます。ワークブック内のフォームコントロールに新しいマクロコードを割り当てるには、[ShapeCollection.addShape()](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)メソッドを使用してください。
 
 {{% /alert %}} 
 ## **Aspose.Cellsを使用してフォームコントロールにマクロコードを割り当てる**
@@ -26,3 +26,4 @@ End Sub
 マクロコードを含む出力XLSMファイルを生成するサンプルコードを以下に示します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AssignMacroToFormControl-AssignMacroToFormControl.java" >}}
+{{< app/cells/assistant language="java" >}}

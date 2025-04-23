@@ -63,3 +63,4 @@ I componenti Aspose offrono molte potenti funzioni di risparmio di tempo. Ad ese
 
 * [Maggiori informazioni su Apache POI](https://poi.apache.org/)
 
+{{< app/cells/assistant language="csharp" >}}

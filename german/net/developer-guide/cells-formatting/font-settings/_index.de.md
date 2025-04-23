@@ -79,3 +79,4 @@ Entwickler können den Hochgestellt-Effekt auf die Schriftart anwenden, indem si
 - [Hoch- und Tiefgestellt-Effekte auf Schriftarten anwenden](/cells/de/net/apply-superscript-and-subscript-effects-on-fonts/)
 - [Eine Liste der in einer Arbeitsmappe oder einem Arbeitsblatt verwendeten Schriftarten abrufen](/cells/de/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 
+{{< app/cells/assistant language="csharp" >}}

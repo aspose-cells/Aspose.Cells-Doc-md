@@ -16,3 +16,4 @@ Aspose.Cells tillåter dig att lägga till bokmärken vid körning. PDF-bokmärk
 Se det följande kodexemplet för att se hur man lägger till PDF-bokmärken. Koden genererar en enkel arbetsbok, specificerar PDF-bokmärken med destinationsplatser och genererar PDF-filen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddPDFBookmarks-AddPDFBookmarks.java" >}}
+{{< app/cells/assistant language="java" >}}

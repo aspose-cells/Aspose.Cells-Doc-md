@@ -26,3 +26,4 @@ Di seguito è riportato l'output della console del codice precedente utilizzando
 Is VBA Code Project Signed: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

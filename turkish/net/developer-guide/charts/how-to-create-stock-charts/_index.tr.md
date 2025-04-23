@@ -24,3 +24,4 @@ Hisse senedi grafları, ticari varlıkların fiyatındaki değişiklikleri izlem
 Aşağıdaki veri seti, bir hisse senedi için günlük ticaret bilgilerini gösterir. Bu veriyi kullanarak Yüksek-Düşük-Kapanış (HLC) hisse senedi grafiği, Açık-Yüksek-Düşük-Kapanış (OHLC) grafiği, Hacim-Yüksek-Düşük-Kapanış (VHLC) hisse senedi grafiği ve Hacim-Açık-Yüksek-Düşük-Kapanış (VOHLC) hisse senedi grafiği oluşturacağız. 
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="csharp" >}}

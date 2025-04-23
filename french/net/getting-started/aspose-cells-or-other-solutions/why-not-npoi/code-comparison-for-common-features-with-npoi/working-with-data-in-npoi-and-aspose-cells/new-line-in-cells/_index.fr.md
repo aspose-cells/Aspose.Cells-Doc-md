@@ -77,3 +77,4 @@ Téléchargez le formulaire **Nouvelle ligne dans les cellules** à partir de l'
 Pour plus de détails, visitez [Sauts de ligne et retour à la ligne](/cells/fr/net/line-breaks-and-text-wrapping/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

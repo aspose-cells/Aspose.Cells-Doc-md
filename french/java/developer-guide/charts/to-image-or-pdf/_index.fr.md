@@ -14,21 +14,21 @@ Les API Aspose.Cells prennent en charge la création d'une variété de graphiqu
 
 ## **Rendu des graphiques**
 
-Les API Aspose.Cells supportent la conversion des graphiques Excel en images et formats PDF sans nécessiter d'outils ou d'applications supplémentaires. Afin de fournir un support de rendu, la classe [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) a exposé les méthodes [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) et [**toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) avec une variété de surcharges pour convenir au mieux aux besoins de l'application.
+Les API Aspose.Cells supportent la conversion des graphiques Excel en images et formats PDF sans nécessiter d'outils ou d'applications supplémentaires. Afin de fournir un support de rendu, la classe [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) a exposé les méthodes [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-) et [**toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf-java.io.OutputStream-) avec une variété de surcharges pour convenir au mieux aux besoins de l'application.
 
 ### **Rendu des graphiques en images**
 
-La méthode [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) comporte une variété de surcharges pour prendre en charge un rendu simple ainsi qu'un rendu avancé. Si l'exigence de l'application est de rendre le graphique dans ses dimensions par défaut, nous vous suggérons d'utiliser la méthode [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) comme suit.
+La méthode [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-) comporte une variété de surcharges pour prendre en charge un rendu simple ainsi qu'un rendu avancé. Si l'exigence de l'application est de rendre le graphique dans ses dimensions par défaut, nous vous suggérons d'utiliser la méthode [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-) comme suit.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-RenderChartsToImages-RenderChartsToImages.java" >}}
 
-Il est également possible de rendre les graphiques en images avec des paramètres avancés. Les API Aspose.Cells ont exposé une version surchargée de la méthode [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) qui pourrait accepter une instance de [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) tout en permettant de spécifier des paramètres tels que la résolution, les indications de rendu, le format d'image, etc.
+Il est également possible de rendre les graphiques en images avec des paramètres avancés. Les API Aspose.Cells ont exposé une version surchargée de la méthode [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-) qui pourrait accepter une instance de [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) tout en permettant de spécifier des paramètres tels que la résolution, les indications de rendu, le format d'image, etc.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChartRendering-ChartRendering.java" >}}
 
 ### **Rendu du graphique en PDF**
 
-Afin de rendre le graphique au format PDF, les API Aspose.Cells ont exposé la méthode [**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) avec la possibilité de stocker le PDF résultant sur le chemin du disque ou une instance de OutputStream.
+Afin de rendre le graphique au format PDF, les API Aspose.Cells ont exposé la méthode [**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf-java.io.OutputStream-) avec la possibilité de stocker le PDF résultant sur le chemin du disque ou une instance de OutputStream.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-chartsRenderChartsToPdf-RenderChartsToPdf.java" >}}
 
@@ -131,3 +131,4 @@ Dans le cas où vous tenteriez de rendre les types de graphiques non pris en cha
 - [Conversion de graphique en image au format SVG](/cells/fr/java/converting-chart-to-image-in-svg-format/)
 - [Créer un PDF de graphique avec la taille de page souhaitée](/cells/fr/java/create-chart-pdf-with-desired-page-size/)
 - [Exportation du graphique en SVG avec l'attribut viewBox](/cells/fr/java/export-chart-to-svg-with-viewbox-attribute/)
+{{< app/cells/assistant language="java" >}}

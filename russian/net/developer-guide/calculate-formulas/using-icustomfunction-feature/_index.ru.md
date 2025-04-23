@@ -1,10 +1,10 @@
 ---
 title: Использование функции ICustomFunction
 description: Эта статья описывает, как создать пользовательскую функцию в Microsoft Excel с использованием функции ICustomFunction в библиотеке Aspose.Cells. Загрузив существующий файл Excel или создав новый файл Excel, мы можем использовать методы, предоставленные Aspose.Cells, для определения и регистрации пользовательских функций и получения результатов. Наконец, мы сохраняем измененный файл Excel на диск.
-keywords: Aspose.Cells, Excel, функции ICustomFunction, пользовательские функции
+keywords: Aspose.Cells, Excel, функцииICustomFunction, пользовательские функции, как вычислить пользовательские функции.
 type: docs
 weight: 30
-url: /ru/net/using-icustomfunction-feature/
+url: /ru/net/how-to-calculate-custom-fuctions/
 ---
 
 {{% alert color="primary" %}} 
@@ -90,3 +90,4 @@ API Aspose.Cells просто помещают объект ReferredArea в "par
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

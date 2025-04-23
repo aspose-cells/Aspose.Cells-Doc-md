@@ -179,3 +179,4 @@ Considere el siguiente ejemplo. Algunas celdas contienen el texto “Hola Mundo�
 Implementar incluso una operación simple de búsqueda y reemplazo en un documento Office Open XML es difícil.
 
 **Nuestro consejo:** recuerda que ser abierto y estándar no significa ser simple y utiliza Aspose.Cells.
+{{< app/cells/assistant language="java" >}}

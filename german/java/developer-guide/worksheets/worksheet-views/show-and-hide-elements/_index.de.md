@@ -53,7 +53,7 @@ Die Datei **Book1.xls** wird mithilfe der [**Workbook**](https://reference.aspos
 
 **Einstellen des Sichtbarkeitstyps**
 
-Sie können auch die Arbeitsblätter auf besondere Weise ausblenden. Diese Funktion kann das Arbeitsblatt ausblenden, sodass Sie es nur wieder sichtbar machen können, indem Sie [**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY_HIDDEN) als Parameterwert für die [**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType)-Methode im Code angeben (es sei hier bemerkt, dass die Benutzer das Objekt nicht direkt über die Menüoptionen in MS Excel sichtbar machen können). Benutzer können auch die [**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType)-Methode verwenden, um zu überprüfen, ob ein Arbeitsblatt als Sehr versteckt markiert ist oder nicht.
+Sie können auch die Arbeitsblätter auf besondere Weise ausblenden. Diese Funktion kann das Arbeitsblatt ausblenden, sodass Sie es nur wieder sichtbar machen können, indem Sie [**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY-HIDDEN) als Parameterwert für die [**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType)-Methode im Code angeben (es sei hier bemerkt, dass die Benutzer das Objekt nicht direkt über die Menüoptionen in MS Excel sichtbar machen können). Benutzer können auch die [**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType)-Methode verwenden, um zu überprüfen, ob ein Arbeitsblatt als Sehr versteckt markiert ist oder nicht.
 
 ## **Registerkarten anzeigen oder ausblenden**
 
@@ -224,3 +224,4 @@ Die Datei Book1.xls wird mit der Klasse [**Workbook**](https://reference.aspose.
 - [Zellen mit Rahmen umranden, um eine Tabelle zu erstellen](/cells/de/java/create-table-by-using-border-lines-for-a-range/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

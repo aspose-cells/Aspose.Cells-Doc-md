@@ -17,3 +17,4 @@ Aspose.Cells поддерживает загрузку документов Open
 **Пример документа ODS, созданного с помощью Aspose.Cells и открытого в OpenOffice Writer** 
 
 ![todo:image_alt_text](opendocument-ods_1.png)
+{{< app/cells/assistant language="java" >}}

@@ -19,3 +19,4 @@ Il seguente codice di esempio applica l'allineamento del testo a una casella di 
 [file origine](SampleTextboxExcel2016.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "ApplyPartialTextAlignmentToTextBox.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

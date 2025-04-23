@@ -22,3 +22,4 @@ L'esempio seguente mostra come rendere un intervallo di pagine (3 e 4) in un fil
 Se il foglio di calcolo contiene formule, è meglio chiamare [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) appena prima di renderlo nel formato PDF. Così facendo si garantisce che i valori dipendenti dalle formule vengano ricalcolati e i valori corretti vengano visualizzati nel file di output.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

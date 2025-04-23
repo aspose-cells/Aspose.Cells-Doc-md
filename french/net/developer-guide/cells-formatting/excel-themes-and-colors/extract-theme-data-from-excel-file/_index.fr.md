@@ -20,3 +20,4 @@ Vous pouvez appliquer un thème à votre classeur en utilisant Microsoft Excel v
 Le code d'exemple suivant extrait le nom du thème appliqué au classeur source, puis il extrait la couleur du thème appliquée à la cellule A1 et la couleur du thème appliquée au bord inférieur de la cellule.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ExtractThemeData-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

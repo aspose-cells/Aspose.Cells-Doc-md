@@ -32,3 +32,4 @@ Bitte sehen Sie sich den folgenden Beispielcode an, der beschreibt, wie Sie die 
 - [Fügen Sie eine digitale Signatur zu einer bereits signierten Excel-Datei hinzu](/cells/de/net/add-digital-signature-to-an-already-signed-excel-file/)
 - [Fügen Sie der Arbeitsmappe eine Signaturzeile hinzu](/cells/de/net/add-signature-line/)
 - [Unterstützung für XAdES-Signatur](/cells/de/net/support-for-xades-signature/)
+{{< app/cells/assistant language="csharp" >}}

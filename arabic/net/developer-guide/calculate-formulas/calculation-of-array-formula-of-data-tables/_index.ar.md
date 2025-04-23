@@ -22,3 +22,4 @@ url: /ar/net/calculation-of-array-formula-of-data-tables/
 هنا الكود النموذجي المستخدم لإنشاء الملف [PDF الناتج](5115538.pdf) من الملف المصدر (ملف Excel مصدر)5115535.xlsx. يرجى قراءة التعليقات للحصول على مزيد من المعلومات.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-CalculationOfArrayFormula-CalculateArrayFormula.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

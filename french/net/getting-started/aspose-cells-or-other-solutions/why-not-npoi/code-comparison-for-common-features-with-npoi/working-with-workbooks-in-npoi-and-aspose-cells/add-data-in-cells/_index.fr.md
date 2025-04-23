@@ -91,3 +91,4 @@ Téléchargez **Ajouter des données dans les cellules** à partir de l'un des s
 Pour plus de détails, visitez [Ajout de données aux cellules](/cells/fr/net/add-data-in-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

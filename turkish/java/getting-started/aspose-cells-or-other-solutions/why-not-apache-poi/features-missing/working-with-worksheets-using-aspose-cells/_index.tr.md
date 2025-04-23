@@ -15,3 +15,4 @@ url: /tr/java/working-with-worksheets-using-aspose-cells/
 - [Birden Fazla Kodlamayla CSV Dosyası Okuma](/cells/tr/java/read-csv-file-with-multiple-encodings/)
 - [Aspose.Cells Kullanarak Her Çalışma Sayfasını Farklı PDF'ye Kaydetme](/cells/tr/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
 - [Aspose.Cells'te Çalışma Sayfası Sekmesi Rengini Ayarla](/cells/tr/java/set-worksheet-tab-color-in-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

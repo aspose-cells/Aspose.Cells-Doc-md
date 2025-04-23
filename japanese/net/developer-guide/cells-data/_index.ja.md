@@ -85,3 +85,4 @@ Aspose.Cellsは、Microsoft Excelファイルを表す[**Workbook**](https://ref
 
 
 
+{{< app/cells/assistant language="csharp" >}}

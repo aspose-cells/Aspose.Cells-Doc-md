@@ -58,3 +58,4 @@ Aspose.Cells supporta l'applicazione della formattazione condizionale in fase di
 - [Applica la formattazione condizionale nei fogli di lavoro](/cells/it/java/apply-conditional-formatting-in-worksheets/)
 - [Applica sfumature a righe e colonne alternative con la formattazione condizionale](/cells/it/java/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
 
+{{< app/cells/assistant language="java" >}}

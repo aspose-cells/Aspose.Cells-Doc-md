@@ -147,3 +147,4 @@ Om din kalkylblad innehåller formler är det bäst att använda [**Workbook.Cal
 - [Spara angivna arbetsblad som PDF](/cells/sv/net/save-specified-worksheets-to-pdf/)
 - [Säkra PDF-dokument](/cells/sv/net/secure-pdf-documents/)
 - [Ange hur textsträngar ska korsas i utgående PDF och bild](/cells/sv/net/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="csharp" >}}

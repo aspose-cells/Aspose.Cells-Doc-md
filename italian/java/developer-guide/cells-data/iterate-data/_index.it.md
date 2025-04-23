@@ -110,3 +110,4 @@ Sulla base dei fatti sopra menzionati, di seguito sono riportati i possibili sce
 1. È richiesto l'accesso in sola lettura della raccolta di celle, cioè; il requisito è solo ispezionare le celle.
 1. È necessario attraversare un grande numero di celle.
 1. Devono essere attraversate solo celle/righe/colonne inizializzate.
+{{< app/cells/assistant language="java" >}}

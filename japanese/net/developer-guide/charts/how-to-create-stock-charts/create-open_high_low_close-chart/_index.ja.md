@@ -21,3 +21,4 @@ Open-High-Low-Close（OHLC）チャートは、カテゴリ、オープン、ハ
 [サンプルExcelファイル](Open-High-Low-Close.xlsx)を読み込み、[出力Excelファイル](out.xlsx)を生成するサンプルコードは、以下の通りです。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-open-high-low-close-stock-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

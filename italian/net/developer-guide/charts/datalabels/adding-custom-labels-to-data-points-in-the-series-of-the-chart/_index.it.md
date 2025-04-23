@@ -16,3 +16,4 @@ Puoi aggiungere etichette personalizzate ai punti dati della serie del grafico. 
 Il seguente codice crea **Grafico a dispersione connesso da linee con indicatori di dati** e quindi aggiunge **Etichette personalizzate** ai **Punti Dati** nella **Serie** del **Grafico**. Ogni etichetta personalizzata mostra il **Nome della Serie** e il **Nome del Punto**. È possibile utilizzare qualsiasi altro testo al suo posto.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-AddCustomLabelsToDataPoints-AddCustomLabelsToDataPointsInTheSeriesOfChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

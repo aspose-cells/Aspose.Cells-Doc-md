@@ -11,3 +11,4 @@ url: /ru/java/working-with-workbooks-in-apache-poi-and-aspose-cells/
 - [Создание новой рабочей книги](/cells/ru/java/create-new-workbook/)
 - [Настройка страницы - установка по размеру страницы](/cells/ru/java/page-setup-fit-to-page-setting/)
 - [Установка области печати](/cells/ru/java/set-print-area/)
+{{< app/cells/assistant language="java" >}}

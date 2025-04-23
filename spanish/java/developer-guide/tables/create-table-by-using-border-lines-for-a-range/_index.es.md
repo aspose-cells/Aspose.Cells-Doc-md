@@ -9,7 +9,7 @@ keywords: crear tabla, rango a tabla, rango a tabla excel, rango a tabla con bor
 
 {{% alert color="primary" %}}
 
-A veces, desea crear una tabla agregando líneas de borde para un **Rango**/**Área de celdas** basado en la dirección de las celdas que tiene. Puede utilizar el método [**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean)) para crear un rango de celdas. El método [**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean)) retorna un objeto [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range). Puede crear un objeto [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) y especificar las opciones de bordes (superior, izquierdo, inferior, derecho) en consecuencia. Más tarde, puede obtener las celdas del [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) y aplicar el formato deseado a las celdas.
+A veces, desea crear una tabla agregando líneas de borde para un **Rango**/**Área de celdas** basado en la dirección de las celdas que tiene. Puede utilizar el método [**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-) para crear un rango de celdas. El método [**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-) retorna un objeto [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range). Puede crear un objeto [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) y especificar las opciones de bordes (superior, izquierdo, inferior, derecho) en consecuencia. Más tarde, puede obtener las celdas del [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) y aplicar el formato deseado a las celdas.
 
 {{% /alert %}}
 
@@ -20,3 +20,4 @@ El siguiente ejemplo muestra cómo crear un [**Range**](https://reference.aspose
 Después de ejecutar el código anterior, podemos tener el archivo de Excel generado que contiene la tabla formateada; aquí está la captura de pantalla del archivo.
 
 ![todo:image_alt_text](create-table-by-using-border-lines-for-a-range_1.png)
+{{< app/cells/assistant language="java" >}}

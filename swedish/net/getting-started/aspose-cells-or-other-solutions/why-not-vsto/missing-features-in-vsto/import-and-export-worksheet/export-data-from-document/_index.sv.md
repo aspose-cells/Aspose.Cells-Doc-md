@@ -15,3 +15,4 @@ Denna sektion har följande ämnen:
 
 - [Kolumner som innehåller icke-strongly typed data](/cells/sv/net/columns-containing-non-strongly-typed-data/)
 - [Kolumner Innehållande Starkt Skriven Data](/cells/sv/net/columns-containing-strongly-typed-data/)
+{{< app/cells/assistant language="csharp" >}}

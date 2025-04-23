@@ -69,3 +69,4 @@ Asposeコンポーネントまたはコンポーネントスイートを購入�
 - [Officeのサーバーサイド自動化の考慮事項](https://support.microsoft.com/en-us/topic/considerations-for-server-side-automation-of-office-48bcfe93-8a89-47f1-0bce-017433ad79e2)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

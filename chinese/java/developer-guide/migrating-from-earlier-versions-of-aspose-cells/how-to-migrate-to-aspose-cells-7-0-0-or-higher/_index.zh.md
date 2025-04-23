@@ -42,3 +42,4 @@ Worksheets.size() (旧) -> WorksheetCollection.getCount() (新)，...等。
 
 4) 在v2.5.4或更早版本中，以'is'开头的布尔属性的获取方法已更改。在v7.0.0中，这些以'get'开头。
 例如，PageSetup.isBlackAndWhite() (旧) -> PageSetup.getBlackAndWhite() (新)，...等。
+{{< app/cells/assistant language="java" >}}

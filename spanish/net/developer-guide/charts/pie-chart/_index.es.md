@@ -43,3 +43,4 @@ Finalmente, el siguiente código guarda el gráfico en formato de imagen y el li
 - [Formato de Datos en Gráficos](/cells/es/net/data-formatting-in-charts/)
 - [Configurar la apariencia del gráfico](/cells/es/net/setting-chart-appearance/)
 
+{{< app/cells/assistant language="csharp" >}}

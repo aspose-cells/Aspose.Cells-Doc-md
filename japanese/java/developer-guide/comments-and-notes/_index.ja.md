@@ -48,3 +48,4 @@ Aspose.Cellsもこの機能を提供します。以下は、セル"A1"に画像�
 - [コメントの背景を設定する方法](/cells/ja/java/how-to-set-comment-background/)
 - [スレッド化されたコメント](/cells/ja/java/threaded-comments/)
 
+{{< app/cells/assistant language="java" >}}

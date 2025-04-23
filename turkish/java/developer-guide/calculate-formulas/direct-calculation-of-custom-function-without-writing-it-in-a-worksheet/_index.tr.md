@@ -7,7 +7,7 @@ url: /tr/java/direct-calculation-of-custom-function-without-writing-it-in-a-work
 
 {{% alert color="primary" %}} 
 
-Bu makale, özel işlevlerinizi önce bir çalışma sayfasına yazmadan doğrudan nasıl hesaplayabileceğinizi açıklamaktadır. Bu amaçla [Worksheet.calculateFormula(string formula, CalculationOptions opts)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula\(java.lang.String,%20com.aspose.cells.CalculationOptions\)) yöntemini kullanabilirsiniz.
+Bu makale, özel fonksiyonlarınızı önce bir çalışma sayfasına yazmadan doğrudan nasıl hesaplayacağınızı açıklamaktadır. Bu amaçla [Worksheet.calculateFormula(string formula, CalculationOptions opts)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula-java.lang.String-com.aspose.cells.CalculationOptions-) metodunu kullanın.
 
 {{% /alert %}} 
 ## **Özel işlevin çalışma tablosuna yazılmadan doğrudan hesaplanması**
@@ -28,3 +28,4 @@ Yukarıdaki örnek kodun konsol çıktısı aşağıdaki gibidir.
 - [Aspose.Cells'in Varsayılan Hesaplama Motorunu Genişletmek için Özel Hesaplama Motoru Uygulamak](/cells/tr/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

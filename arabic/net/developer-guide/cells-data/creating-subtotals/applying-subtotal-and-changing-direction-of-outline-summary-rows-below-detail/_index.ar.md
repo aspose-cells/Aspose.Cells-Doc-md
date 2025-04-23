@@ -42,3 +42,4 @@ keywords: تطبيق الإجمالي الجزئي، إضافة الإجمالي
 إليك الشيفرة المثالية لتحقيق الإخراج كما هو موضح أعلاه.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ApplyingSubtotalChangeSummaryDirection-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

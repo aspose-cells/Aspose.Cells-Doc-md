@@ -20,3 +20,4 @@ url: /ru/net/add-a-library-reference-to-vba-project-in-workbook/
 В следующем примере кода добавляются или регистрируются две ссылки на библиотеку в проекте VBA книги с использованием метода [**VbaProject.References.AddRegisteredReference()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaprojectreferencecollection/methods/addregisteredreference).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddLibraryReferenceToVbaProject-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

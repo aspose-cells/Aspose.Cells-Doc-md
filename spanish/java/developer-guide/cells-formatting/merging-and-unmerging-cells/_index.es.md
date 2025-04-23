@@ -33,7 +33,7 @@ Los siguientes pasos describen cómo combinar celdas en la hoja de cálculo usan
 
 ### **Usar Aspose.Cells**
 
-La clase [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) tiene algunos métodos útiles para la tarea. Por ejemplo, el método [**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) combina las celdas en una sola celda dentro de un rango especificado de las celdas.
+La clase [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) tiene algunos métodos útiles para la tarea. Por ejemplo, el método [**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge-int-int-int-int-) combina las celdas en una sola celda dentro de un rango especificado de las celdas.
 
 La siguiente salida se genera después de ejecutar el código a continuación.
 
@@ -59,7 +59,7 @@ Los siguientes pasos describen cómo separar celdas combinadas utilizando Micros
 
 #### **Usar Aspose.Cells**
 
-La clase [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) tiene un método llamado [**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge(int,%20int,%20int,%20int)) que divide las celdas en su estado original. El método descombina las celdas utilizando la referencia de la celda en el rango de celdas combinadas.
+La clase [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) tiene un método llamado [**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge-int-int-int-int-) que divide las celdas en su estado original. El método descombina las celdas utilizando la referencia de la celda en el rango de celdas combinadas.
 
 #### **Ejemplo de Código**
 
@@ -72,3 +72,4 @@ El siguiente ejemplo muestra cómo separar las celdas combinadas (C6). El ejempl
 - [Encontrar y dividir celdas fusionadas](/cells/es/java/detectar-celdas-fusionadas-en-una-hoja-de-cálculo/).
 - [Fusionar y dividir un rango de celdas utilizando los métodos Range.merge() y Range.unMerge()](/cells/es/java/fusionar-o-desagrupar-rango-de-celdas/).
 
+{{< app/cells/assistant language="java" >}}

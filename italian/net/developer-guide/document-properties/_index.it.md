@@ -121,3 +121,4 @@ Per rimuovere le proprietà personalizzate utilizzando Aspose.Cells, chiamare il
 - [Impostazione delle proprietà ScaleCrop e LinksUpToDate delle proprietà del documento integrato](/cells/it/net/setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties/)
 - [Specifica la versione del documento del file Excel utilizzando le proprietà del documento integrato](/cells/it/net/specify-document-version-of-the-excel-file-using-builtin-document-properties/)
 - [Specificare la lingua del file Excel utilizzando le proprietà di documento incorporate](/cells/it/net/specify-the-language-of-the-excel-file-using-builtin-document-properties/)
+{{< app/cells/assistant language="csharp" >}}

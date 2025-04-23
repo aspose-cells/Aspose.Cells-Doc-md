@@ -29,3 +29,4 @@ Aşağıdaki görüntü, örnek kodla oluşturulan çıktı Excel dosyasını g�
 - [Hücreleri birleştirme ve bölme](/cells/tr/java/merging-and-unmerging-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -182,3 +182,4 @@ I campioni di codice che seguono mostrano come aggiungere un grafico a torta a u
 **Grafico a torta creato con Aspose.Cells for .NET** 
 
 ![todo:image_alt_text](create-a-pie-chart_2.png)
+{{< app/cells/assistant language="csharp" >}}

@@ -11,11 +11,11 @@ url: /zh/java/using-custom-xml-parts-in-aspose-cells/
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_1.png)
 
-您可以通过[Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\))方法添加自定义XML部件。
+可以通过 Aspose.Cells 使用 [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-) 方法添加自定义 XML 部件。
 
 {{% /alert %}} 
 ## **在Aspose.Cells中使用自定义XML部件**
-以下示例代码使用 [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)) 方法，并添加了**Book Catalog Xml**，其名称为**BookStore**。以下图显示了此代码的结果。如您所见，Book Catalog Xml添加到了名为BookStore的节点中。
+以下示例代码使用 [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-) 方法添加了书籍目录 Xml，名称为 BookStore。结果显示，Book Catalog Xml 被添加到名为 BookStore 的节点内，如图所示。
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_2.png)
 
@@ -26,3 +26,4 @@ url: /zh/java/using-custom-xml-parts-in-aspose-cells/
 - [在文档信息面板中可见的自定义属性](/cells/zh/java/adding-custom-properties-visible-inside-document-information-panel/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

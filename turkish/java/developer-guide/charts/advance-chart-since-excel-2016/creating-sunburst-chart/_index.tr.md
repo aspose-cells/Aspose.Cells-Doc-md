@@ -19,3 +19,4 @@ Aşağıdaki kodu çalıştırdıktan sonra, aşağıdaki gibi Güneş patlamas�
 Aşağıdaki örnek kod, [örnek Excel dosyasını](sunburst.xlsx) yükler ve [çıktı Excel dosyasını](out.xlsx) oluşturur.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "create-sunburst-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

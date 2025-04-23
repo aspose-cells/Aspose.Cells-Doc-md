@@ -15,3 +15,4 @@ Aşağıdaki örnek kod, [örnek Excel dosyasını](61767755.xlsx) yükler ve [�
 ![todo:image_alt_text](handle-automatic-units-of-chart-axis-like-microsoft-excel_1.png)
 ## **Örnek Kod**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Charts-HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -38,3 +38,4 @@ Nell'esempio seguente viene creato un nuovo workbook da zero, viene scritto Hell
 Nell'esempio seguente viene aperto un file di modello Microsoft Excel esistente chiamato "Sample.xlsx", viene inserito il testo "Hello World!" nella cella A1 del primo foglio di lavoro e viene salvato il workbook.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

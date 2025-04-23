@@ -6,3 +6,4 @@ url: /de/java/pivot-tables/
 ---
 
 
+{{< app/cells/assistant language="java" >}}

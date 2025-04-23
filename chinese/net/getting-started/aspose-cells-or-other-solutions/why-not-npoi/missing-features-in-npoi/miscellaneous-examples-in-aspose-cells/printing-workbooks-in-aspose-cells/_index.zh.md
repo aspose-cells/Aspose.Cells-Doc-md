@@ -45,3 +45,4 @@ sr.ToPrinter("Samsung ML-1520 Series");
 要了解更多详细信息，请访问[打印工作簿](/cells/zh/net/printing-workbooks/)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

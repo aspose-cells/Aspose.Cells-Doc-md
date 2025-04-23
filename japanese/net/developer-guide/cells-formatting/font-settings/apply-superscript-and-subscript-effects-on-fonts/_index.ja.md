@@ -26,3 +26,4 @@ Aspose.Cellsは、テキストに上付き（基線の上）および下付き�
 ### テキストに下付き文字の効果を適用する C# コード
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplySuperscriptAndSubscript-SettingSubscriptEffect-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

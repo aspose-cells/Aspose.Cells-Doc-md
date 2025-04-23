@@ -63,3 +63,4 @@ L'esempio riportato di seguito aggiunge dati di esempio a un foglio di calcolo, 
 - [Imposta il commento della tabella o dell'oggetto lista all'interno del foglio di lavoro](/cells/it/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
 - [Tabelle e intervalli](/cells/it/net/tables-and-ranges/)
 
+{{< app/cells/assistant language="csharp" >}}

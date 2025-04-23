@@ -16,3 +16,4 @@ Los informes basados en tabla dinámica son útiles pero propensos a errores si 
 El siguiente código demuestra esta función accediendo a una tabla dinámica desde una hoja y luego llamando a [**setEnableWizard**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#EnableWizard) para establecer este indicador como **falso**. Se puede descargar un archivo de tabla dinámica de ejemplo desde este [enlace](71630876.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-DisablePivotTableRibbon-1.java" >}}
+{{< app/cells/assistant language="java" >}}

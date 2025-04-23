@@ -61,3 +61,4 @@ wr.toPrinter("Samsung ML-1520 Series");
 För mer information, besök [Skriva ut arbetsböcker ](/cells/sv/java/skriva-ut-arbetsboker).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

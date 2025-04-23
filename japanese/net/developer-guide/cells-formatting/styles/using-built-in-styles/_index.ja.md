@@ -72,3 +72,4 @@ Aspose.Cellsは、スプレッドシートドキュメントのセルを書式�
 ## C＃コードを使用して組み込みスタイルを利用する
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingBuiltinStyles-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

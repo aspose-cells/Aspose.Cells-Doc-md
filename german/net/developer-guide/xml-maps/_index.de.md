@@ -41,3 +41,4 @@ Der folgende Beispielcode zeigt, wie Sie die [**Workbook.ImportXml()**](https:/
 - [Zellen mit XML-Map-Elementen verknüpfen](/cells/de/net/link-cells-to-xml-map-elements/)
 - [Abfrage von Zellbereichen, die mit dem XML-Map-Pfad verbunden sind, mithilfe der Worksheet.XmlMapQuery-Methode](/cells/de/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 
+{{< app/cells/assistant language="csharp" >}}

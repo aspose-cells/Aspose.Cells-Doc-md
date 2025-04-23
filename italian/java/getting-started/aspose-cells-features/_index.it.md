@@ -106,3 +106,4 @@ Aspose.Cells for Java fornisce un accesso programmatico dettagliato alle proprie
 |Imposta l'area di stampa, i titoli di stampa o attiva le linee della griglia, ecc.|Sì|
 
 
+{{< app/cells/assistant language="java" >}}

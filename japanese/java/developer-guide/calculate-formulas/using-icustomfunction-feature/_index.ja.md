@@ -2,7 +2,9 @@
 title: ICustomFunction機能の使用
 type: docs
 weight: 890
-url: /ja/java/using-icustomfunction-feature/
+url: /ja/java/how-to-calculate-custom-fuctions/
+description: この記事では、Aspose.CellsライブラリのICustomFunction機能を使用してMicrosoft Excelでカスタム関数を作成する方法について説明します。既存のExcelファイルを読み込むか新しいExcelファイルを作成し、Aspose.Cellsが提供するメソッドを使用してカスタム関数を定義し登録し、結果を取得することができます。最後に、変更したExcelファイルをディスクに保存します。
+keywords: Aspose.Cells、Excel、ICustomFunction機能、カスタム関数、カスタム関数の計算方法。
 ---
 
 {{% alert color="primary" %}} 
@@ -203,3 +205,4 @@ Aspose.CellsのAPIが"paramsList"にReferredAreaを与えるため、「contextO
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

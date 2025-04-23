@@ -18,3 +18,4 @@ Il seguente codice di esempio impone ad Aspose.Cells di utilizzare 15 cifre sign
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-SignificantDigits-SignificantDigits.java" >}}
+{{< app/cells/assistant language="java" >}}

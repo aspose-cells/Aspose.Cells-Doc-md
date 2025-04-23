@@ -182,3 +182,4 @@ Die folgenden Codebeispiele zeigen, wie man mithilfe von Aspose.Cells ein Kreisd
 **Mit Aspose.Cells for .NET erstelltes Kreisdiagramm** 
 
 ![todo:image_alt_text](create-a-pie-chart_2.png)
+{{< app/cells/assistant language="csharp" >}}

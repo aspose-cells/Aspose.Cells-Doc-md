@@ -13,7 +13,7 @@ Manchmal müssen Sie nach bestimmten Daten in einem Bereich suchen und diese ers
 
 {{% /alert %}}
 
-Aspose.Cells bietet die Methode [**FindOptions.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange(com.aspose.cells.CellArea)) zum Angeben eines Bereichs beim Suchen nach Daten.
+Aspose.Cells bietet die Methode [**FindOptions.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange-com.aspose.cells.CellArea-) zum Angeben eines Bereichs beim Suchen nach Daten.
 
 Angenommen, Sie möchten nach dem Text **"search"** suchen und ihn im Bereich **E3:H6** durch **"ersetzen"** ersetzen. Im unten stehenden Screenshot ist der Text "search" in mehreren Zellen zu sehen, aber wir möchten ihn nur in einem bestimmten Bereich, hier gelb markiert, ersetzen.
 
@@ -32,3 +32,4 @@ Nach der Ausführung des Codes sieht die Ausgabedatei wie unten aus. Alle "searc
 ## Verwandte Artikel
 
 - [Daten suchen oder suchen](/cells/de/java/find-or-search-data/)
+{{< app/cells/assistant language="java" >}}

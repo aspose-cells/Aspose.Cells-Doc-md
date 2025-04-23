@@ -53,3 +53,4 @@ workbook.Save("AsposeTotal.xls");
 Для получения более подробной информации посетите [Создание Промежуточных Итогов](/cells/ru/net/creating-subtotals/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

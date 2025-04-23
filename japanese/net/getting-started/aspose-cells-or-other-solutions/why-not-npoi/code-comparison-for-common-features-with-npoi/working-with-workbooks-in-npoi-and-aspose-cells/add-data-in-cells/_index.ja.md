@@ -91,3 +91,4 @@ sw.Close();
 詳細は[セルにデータを追加する](/cells/ja/net/add-data-in-cells/)を参照してください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

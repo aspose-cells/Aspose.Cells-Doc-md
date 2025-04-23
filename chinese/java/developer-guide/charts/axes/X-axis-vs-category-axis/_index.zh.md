@@ -21,3 +21,4 @@ X轴有不同类型。而Y轴是一个值类型轴，X轴可以是分类类型�
 
 ## **示例代码**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "X-axis-vs-category-axis.java" >}}
+{{< app/cells/assistant language="java" >}}

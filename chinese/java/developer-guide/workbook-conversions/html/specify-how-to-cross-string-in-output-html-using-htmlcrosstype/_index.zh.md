@@ -11,13 +11,13 @@ url: /zh/java/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
 
 - [**HtmlCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT)：显示类似于MS Excel，取决于下一个单元格。如果下一个单元格为空，则字符串将交叉或被截断。
 
-- [**HtmlCrossType.MS_EXPORT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#MS_EXPORT)：显示与MS Excel导出HTML相同的字符串。
+- [**HtmlCrossType.MS_EXPORT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#MS-EXPORT)：显示与MS Excel导出HTML相同的字符串。
 
-- [**HtmlCrossType.CROSS**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS)：显示HTML交叉字符串，为创建大型HTML文件的性能要比设置值为[**DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT)或[**FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL)快十倍。
+- [**HtmlCrossType.CROSS**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS)：显示HTML交叉字符串，为创建大型HTML文件的性能要比设置值为[**DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT)或[**FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT-TO-CELL)快十倍。
 
-- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT)：显示HTML交叉字符串并在文本重叠时隐藏右侧的字符串。
+- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS-HIDE-RIGHT)：显示HTML交叉字符串并在文本重叠时隐藏右侧的字符串。
 
-- [**HtmlCrossType.FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL)：仅显示单元格宽度内的字符串。
+- [**HtmlCrossType.FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT-TO-CELL)：仅显示单元格宽度内的字符串。
 
 ## **使用HtmlCrossType指定输出HTML中如何交叉字符串**
 
@@ -28,3 +28,4 @@ url: /zh/java/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-SpecifyHtmlCrossTypeInOutputHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

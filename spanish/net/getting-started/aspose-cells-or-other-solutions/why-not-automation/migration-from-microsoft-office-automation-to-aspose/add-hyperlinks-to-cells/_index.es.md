@@ -127,3 +127,4 @@ workbook.Save("c:\\Hyperlink_test.xls");
 
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

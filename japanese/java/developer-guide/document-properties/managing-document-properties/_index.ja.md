@@ -80,13 +80,13 @@ Aspose.CellsのAPIは組み込みプロパティとカスタムプロパティ�
 
 ### **カスタムプロパティの追加**
 
-Aspose.Cells APIでは、[**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection)クラスにカスタムプロパティを追加するための[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean))メソッドが公開されており、[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean))メソッドはExcelファイルにプロパティを追加し、新しいドキュメントプロパティの参照として[**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)オブジェクトを返します。
+Aspose.Cells APIでは、[**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection)クラスにカスタムプロパティを追加するための[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add-java.lang.String-boolean-)メソッドが公開されており、[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add-java.lang.String-boolean-)メソッドはExcelファイルにプロパティを追加し、新しいドキュメントプロパティの参照として[**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)オブジェクトを返します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AddingCustomProperty.java" >}}
 
 ### **「コンテンツにリンク」カスタムプロパティの構成**
 
-特定の範囲のコンテンツにリンクされたカスタムプロパティを作成するには、[**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String))メソッドを呼び出してプロパティ名とソースを渡します。 プロパティがコンテンツにリンクされているかどうかを確認するには[**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent)プロパティを使用できます。 また、[**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)クラスの[**Source**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source)プロパティを使用してソース範囲を取得することも可能です。
+特定の範囲のコンテンツにリンクされたカスタムプロパティを作成するには、[**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent-java.lang.String-java.lang.String-)メソッドを呼び出してプロパティ名とソースを渡します。 プロパティがコンテンツにリンクされているかどうかを確認するには[**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent)プロパティを使用できます。 また、[**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)クラスの[**Source**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source)プロパティを使用してソース範囲を取得することも可能です。
 
 この例では、シンプルなテンプレートのMicrosoft Excelファイルを使用します。 ワークブックには、**MyRange**と表記された名前付き範囲があり、セルの値を参照しています。
 
@@ -94,6 +94,7 @@ Aspose.Cells APIでは、[**CustomDocumentPropertyCollection**](https://referenc
 
 ### **カスタムプロパティの削除**
 
-Aspose.Cellsを使用してカスタムプロパティを削除するには、[**DocumentPropertyCollection.remove**](https://reference.aspose.com/cells/java/com.aspose.cells/documentpropertycollection#remove(java.lang.String))メソッドを呼び出して削除するドキュメントプロパティの名前を渡します。
+Aspose.Cellsを使用してカスタムプロパティを削除するには、[**DocumentPropertyCollection.remove**](https://reference.aspose.com/cells/java/com.aspose.cells/documentpropertycollection#remove-java.lang.String-)メソッドを呼び出して削除するドキュメントプロパティの名前を渡します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-RemovingCustomProperty.java" >}}
+{{< app/cells/assistant language="java" >}}

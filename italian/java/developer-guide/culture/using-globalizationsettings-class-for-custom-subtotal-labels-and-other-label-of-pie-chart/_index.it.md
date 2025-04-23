@@ -10,11 +10,11 @@ Le API di Aspose.Cells hanno esposto la classe [GlobalizationSettings](https://r
 ## **Introduzione alla classe GlobalizationSettings**
 La classe [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) attualmente offre i seguenti 3 metodi che possono essere sovrascritti in una classe personalizzata per ottenere etichette desiderate per i subtotale o per rendere del testo personalizzato per l'etichetta **Altro** di un grafico a torta.
 
-1. [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName(int)): Restituisce il nome totale della funzione.
-1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName(int)): Restituisce il nome totale generale della funzione.
-1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName()): Restituisce il nome delle etichette "Altro" per i grafici a torta.
+1. [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName-int-): Ottiene il nome totale della funzione.
+1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName-int-): Ottiene il nome del totale generale della funzione.
+1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--): Ottiene il nome delle etichette "Altro" per i grafici a torta.
 ### **Etichette personalizzate per le subtotali**
-La classe [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) può essere utilizzata per personalizzare le etichette di subtotale sovra scrivendo i metodi [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName(int)) & [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName(int)) come dimostrato in seguito.
+La classe [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) può essere utilizzata per personalizzare le etichette del Subtotal sovrascrivendo i metodi [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName-int-) e [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName-int-) come mostrato in precedenza.
 
 
 
@@ -33,7 +33,7 @@ La classe [GlobalizationSettings](https://reference.aspose.com/cells/java/com.as
 
 {{% /alert %}} 
 ### **Testo personalizzato per l'etichetta Altro del grafico a torta**
-La classe [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) offre il metodo [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName()): utile per dare all'etichetta "Altro" dei grafici a torta un valore personalizzato. Il seguente snippet definisce una classe personalizzata e sovrascrive il metodo [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName()) per ottenere un'etichetta personalizzata in base alla lingua predefinita impostata per la JVM.
+La classe [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) offre il metodo [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--) che è utile per attribuire un valore personalizzato all'etichetta "Altro" dei grafici a torta. Il codice seguente definisce una classe personalizzata e sovrascrive il metodo [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--) per ottenere un'etichetta personalizzata in base alla lingua predefinita impostata per JVM.
 
 
 
@@ -50,3 +50,4 @@ Il seguente frammento carica un foglio di calcolo esistente contenente un grafic
 Di seguito è riportata l'immagine risultante quando la localizzazione della macchina è impostata su Francia. Come puoi vedere, l'etichetta "Altro" è stata tradotta in "Autre" come definito nella classe *CustomSettings*.
 
 ![todo:image_alt_text](using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart_1.png)
+{{< app/cells/assistant language="java" >}}

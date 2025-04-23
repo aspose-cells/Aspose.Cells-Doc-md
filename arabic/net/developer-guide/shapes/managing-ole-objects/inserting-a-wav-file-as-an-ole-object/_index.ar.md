@@ -15,3 +15,4 @@ url: /ar/net/inserting-a-wav-file-as-an-ole-object/
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertingWAVFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

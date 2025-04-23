@@ -41,3 +41,4 @@ Aspose.Cells 提供一个名为 [**Workbook**](https://reference.aspose.com/cell
 使用[**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup)类的成员（如[**HeaderMargin**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/headermargin)和[**FooterMargin**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/footermargin)）设置页眉和页脚边距。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetMargins-HeaderAndFooterMargins.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -19,3 +19,4 @@ El siguiente código de ejemplo genera el [archivo de Excel de salida](Primaryan
 
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "primary-and-second-axis.java" >}}
+{{< app/cells/assistant language="java" >}}

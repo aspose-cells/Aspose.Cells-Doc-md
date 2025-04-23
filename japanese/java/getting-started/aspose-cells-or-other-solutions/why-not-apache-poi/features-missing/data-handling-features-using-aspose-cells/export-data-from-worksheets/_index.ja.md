@@ -52,3 +52,4 @@ fstream.close();
 詳細については、[ワークシートからのデータエクスポート](/java/exporting-data-from-worksheets)を参照してください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

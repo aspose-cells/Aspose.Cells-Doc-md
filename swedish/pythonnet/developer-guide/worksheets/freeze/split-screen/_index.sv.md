@@ -4,8 +4,8 @@ linktitle: Dela skärm
 type: docs
 weight: 190
 url: /sv/python-net/how-to-split-screen-of-excel-worksheet
-description: I den här artikeln kommer du att lära dig hur man visar vissa rader och/eller kolumner i separata rutor genom att dela upp kalkylbladet i två eller fyra delar programmatiskt med hjälp av Aspose.Cells för Python via .NET APIer.
-keywords: Python Excel bibliotek, Python Frysa topprader, Python Frysa översta raden, Python Dela kalkylblad vertikalt på kolumner, Python Dela kalkylblad horisontellt på rader, Python Dela kalkylblad i fyra delar Python Hur man tar bort uppdelning.
+description: I den här artikeln lär du dig hur man visar vissa rader och/eller kolumner i separata paneler genom att dela arbetsbladet i två eller fyra delar programmässigt med hjälp av Aspose.Cells för Python via .NET API er.
+keywords: Python Excel bibliotek, Python lås översta rader, Python lås topprad, Python dela arbetsblad vertikalt på kolumner, Python dela arbetsblad horisontellt på rader, Python dela arbetsblad i fyra delar, Python ta bort delning.
 ---
 
 ## **Introduktion**
@@ -20,27 +20,27 @@ För att dela upp ett arbetsblad i två eller fyra delar, gör följande:
 
 **![Dela skärm](Split-Screen.png)**
 
-## **Hur man delar arbetsbladet vertikalt på kolumner**
+## **Hur man delar arbetsblad vertikalt på kolumner**
 
 För att separera två områden av kalkylarket vertikalt, välj kolumnen till höger om den kolumn där du vill att uppdelningen ska visas och klicka på Split-knappen i Excel.
 
-Det är enkelt att dela kalkylblad vertikalt på kolumner programmatiskt med Aspose.Cells för Python via .NET, vi behöver bara välja en cell i övre raden som aktiv cell, sedan
+Det är enkelt att dela arbetsblad vertikalt på kolumner programmässigt med Aspose.Cells för Python via .NET, vi behöver bara välja en cell i översta raden som aktiv cell, sedan
 dela med [**Worksheet.split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/split/)-metoden.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Vertically-Split.py" >}}
 
-## **Hur man delar arbetsbladet horisontellt på rader**
+## **Hur man delar arbetsblad horisontellt på rader**
 För att separera ditt Excel-fönster horisontellt, välj raden under den rad där du vill att uppdelningen ska ske i Excel.
 
-Det är enkelt att dela kalkylblad horisontellt på rader programmatiskt med Aspose.Cells för Python via .NET, vi behöver bara välja en cell i vänsterkolumnen som aktiv cell, sedan
+Det är enkelt att dela arbetsblad horisontellt på rader programmässigt med Aspose.Cells för Python via .NET, vi behöver bara välja en cell i vänstra kolumnen som aktiv cell, sedan
 dela med [**Worksheet.split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/split/)-metoden.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Horizontally-Split.py" >}}
 
-## **Hur man delar arbetsbladet i fyra delar**
+## **Hur man delar arbetsblad i fyra delar**
 För att visa fyra olika sektioner av samma arbetsblad samtidigt, dela upp skärmen både vertikalt och horisontellt i Excel.
 
-Det är enkelt att dela kalkylblad vertikalt på kolumner programmatiskt med Aspose.Cells för Python via .NET, vi behöver bara välja en cell inte i första raden och kolumnen som aktiv cell, sedan
+Det är enkelt att dela arbetsblad vertikalt på kolumner programmässigt med Aspose.Cells för Python via .NET, vi behöver bara välja en cell som inte är i första raden och kolumnen som aktiv cell, sedan
 dela med [**Worksheet.split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/split/)-metoden.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Split-Four.py" >}}
@@ -48,6 +48,6 @@ dela med [**Worksheet.split**](https://reference.aspose.com/cells/python-net/asp
 ## **Hur man tar bort delning**
 För att ta bort arbetsbladets uppdelning, klicka bara på Split-knappen igen.
 
-Aspose.Cells för Python via .NET tillhandahåller en [**Worksheet.remove_split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/remove_split/) metod för att ta bort delningsinställning.
+Aspose.Cells för Python via .NET tillhandahåller en [**Worksheet.remove_split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/remove_split/) metod för att ta bort dela inställningen.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Remove-Split.py" >}}

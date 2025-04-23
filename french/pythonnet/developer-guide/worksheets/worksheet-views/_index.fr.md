@@ -3,8 +3,8 @@ title: Vues de la feuille de calcul
 type: docs
 weight: 40
 url: /fr/python-net/worksheet-views/
-description: Cet article décrira comment utiliser l API Aspose.Cells pour Python via .NET pour interagir avec l aperçu des sauts de page d un classeur Excel et des feuilles de calcul. Travaillez avec les volets divisés, les volets figés et le facteur de zoom. 
-keywords: Bibliothèque Excel Python, Comment définir l aperçu des sauts de page, comment activer la vue normale en Python, comment définir le facteur de zoom en Python, comment figer les volets en Python, comment diviser les volets en Python, comment supprimer les volets.
+description: Cet article décrira comment utiliser l API Aspose.Cells pour Python via .NET pour interagir avec l aperçu des sauts de page d un classeur Excel et de ses feuilles de calcul. Travaillez avec les volets fractionnés, les volets gelés et le facteur de zoom. 
+keywords: Bibliothèque Excel pour Python, comment définir l aperçu des sauts de page, comment activer la vue normale, comment régler le facteur de zoom, comment geler les volets, comment fractionner les volets, comment supprimer les volets.
 ---
 
 ## **Aperçu des sauts de page**
@@ -14,11 +14,11 @@ Toutes les feuilles de calcul peuvent être visualisées sous deux modes :
 -Vue normale.
 -Aperçu des sauts de page.
 
-La vue normale est la vue par défaut d'une feuille de calcul. L'aperçu des sauts de page est une vue d'édition qui affiche une feuille de calcul telle qu'elle sera imprimée. L'aperçu des sauts de page montre quelles données iront sur chaque page afin que vous puissiez ajuster la zone d'impression et les sauts de page. En utilisant Aspose.Cells for Python via .NET, les développeurs peuvent activer les modes de vue normale ou d'aperçu des sauts de page.
+La vue normale est la vue par défaut d'une feuille de calcul. L'aperçu des sauts de page est une vue d'édition qui affiche une feuille de calcul telle qu'elle sera imprimée. L'aperçu des sauts de page montre quelles données iront sur chaque page afin que vous puissiez ajuster la zone d'impression et les sauts de page. Avec Aspose.Cells pour Python via .NET, les développeurs peuvent activer la vue normale ou l'aperçu des sauts de page.
 
 ### **Contrôle des modes d'affichage**
 
-Aspose.Cells for Python via .NET fournit une classe [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) qui représente un fichier Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) contient une collection [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) qui permet d'accéder à chaque feuille de calcul dans un fichier Excel.
+Aspose.Cells pour Python via .NET fournit une classe [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) qui représente un fichier Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) contient une collection [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) qui permet d'accéder à chaque feuille de calcul dans un fichier Excel.
 
 Une feuille de calcul est représentée par la classe [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet). La classe [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) offre une vaste gamme de propriétés et de méthodes pour gérer les feuilles de calcul. Pour activer les modes d'affichage normal ou d'aperçu de saut de page, utilisez la propriété [**is_page_break_preview**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_page_break_preview) de la classe [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet). [**is_page_break_preview**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_page_break_preview) est une propriété booléenne, ce qui signifie qu'elle ne peut stocker qu'une valeur **true** ou **false**.
 
@@ -69,10 +69,10 @@ Aspose.Cells fournit une classe [**Workbook**](https://reference.aspose.com/cell
 
 Une feuille de calcul est représentée par la classe [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet). La classe [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) offre une large gamme de propriétés et de méthodes pour gérer les feuilles de calcul. Pour configurer des volets figés, appelez la méthode [**freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#int-int-int-int) de la classe FeuilleDeCalcul. La méthode [**freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#int-int-int-int) prend les paramètres suivants :
 
-- **row**, l'index de la ligne de la cellule à partir de laquelle le gel commencera.
-- **column**, l'index de la colonne de la cellule à partir de laquelle le gel commencera.
+- **ligne**, l'index de la ligne à partir de laquelle le gel commencera.
+- **colonne**, l'index de la colonne à partir de laquelle le gel commencera.
 - **lignes_gelées**, le nombre de lignes visibles dans le volet supérieur.
-- **colonnes_gelées**, le nombre de colonnes visibles dans le volet de gauche
+- **colonnes_gelées**, le nombre de colonnes visibles dans le volet de gauche.
 
 Le fichier book1.xls est ouvert en appelant le constructeur de la classe [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) lors de son instanciation et quelques lignes et colonnes sont figées dans la première feuille de calcul. Le fichier modifié est enregistré sous le nom de output.xls.
 

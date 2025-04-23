@@ -38,3 +38,4 @@ Di seguito sono riportati alcuni modi per raggiungere questo obiettivo.
 Dovrai riavviare il computer affinché la modifica abbia effetto. Questa modifica influisce su tutti gli account sul computer, non solo sul tuo.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

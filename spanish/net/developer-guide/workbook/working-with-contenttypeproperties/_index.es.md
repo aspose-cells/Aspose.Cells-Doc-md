@@ -16,3 +16,4 @@ El archivo de salida generado por el código de ejemplo se adjunta para referenc
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-WorkingWithContentTypeProperties-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -7,7 +7,7 @@ url: /ru/java/export-worksheet-or-chart-into-image-with-desired-width-and-height
 
 {{% alert color="primary" %}}
 
-Вы можете использовать Aspose.Cells для экспорта вашего листа или диаграммы в изображение с указанной шириной и высотой. Он предоставляет метод [**ImageOrPrintOptions.setDesiredSize()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#setDesiredSize(int,%20int)) для установки желаемой ширины и высоты экспортированного изображения. Ширина и высота указываются в пикселях.
+Вы можете использовать Aspose.Cells для экспорта вашего листа или диаграммы в изображение с указанной шириной и высотой. Он предоставляет метод [**ImageOrPrintOptions.setDesiredSize()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#setDesiredSize-int-int-) для установки желаемой ширины и высоты экспортированного изображения. Ширина и высота указываются в пикселях.
 
 {{% /alert %}}
 
@@ -22,3 +22,4 @@ url: /ru/java/export-worksheet-or-chart-into-image-with-desired-width-and-height
 - [Отображение диаграммы](/cells/ru/java/chart-rendering/)
 - [Преобразование листа в различные форматы изображения](/cells/ru/java/converting-worksheet-to-different-image-formats/)
 - [Экспорт диаграммы в SVG с атрибутом viewBox](/cells/ru/java/export-chart-to-svg-with-viewbox-attribute/)
+{{< app/cells/assistant language="java" >}}

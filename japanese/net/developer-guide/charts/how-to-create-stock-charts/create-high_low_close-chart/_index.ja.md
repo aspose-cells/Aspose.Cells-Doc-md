@@ -19,3 +19,4 @@ HLC株価チャートは4つのデータ列を使用します。最初の列は�
 次のサンプルコードは[sample Excel file](High-Low-Close.xlsx)をロードし、[output Excel file](out.xlsx)を生成します。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-high-low-close-stock-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

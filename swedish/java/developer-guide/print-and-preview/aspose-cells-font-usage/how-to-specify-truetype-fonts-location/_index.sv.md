@@ -73,3 +73,4 @@ Observera följande:
 - Strängen "FontDirSet" bör vara den kompletta sökvägen till mappen som innehåller de nödvändiga teckensnitten.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

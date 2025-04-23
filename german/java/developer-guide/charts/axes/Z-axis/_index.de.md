@@ -18,3 +18,4 @@ Der folgende Beispielcode erstellt die [ausgegebene Excel-Datei](ZAxis.xlsx).
 
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ZAxis.java" >}}
+{{< app/cells/assistant language="java" >}}

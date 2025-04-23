@@ -171,3 +171,4 @@ SpreadsheetML هو اسم لعائلة من تنسيقات الوثائق الإ
 
 
 تنفيذ عملية البحث والاستبدال حتى في مستند Office Open XML صعب. نصيحتنا: تذكّر أن الانفتاح والتوحيد لا يعنيان البساطة، واستخدام Aspose.Cells.
+{{< app/cells/assistant language="csharp" >}}

@@ -46,3 +46,4 @@ Die Speichereinstellungen funktionieren nicht automatisch für das standardmäß
 Bitte überprüfen Sie den ausführlichen Artikel zu [Speicherplatzoptimierung beim Arbeiten mit großen Datensätzen](/cells/de/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

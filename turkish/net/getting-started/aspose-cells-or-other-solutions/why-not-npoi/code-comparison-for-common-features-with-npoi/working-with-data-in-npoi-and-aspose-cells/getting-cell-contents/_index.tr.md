@@ -125,3 +125,4 @@ Aşağıdaki sosyal kodlama sitelerinden herhangi birinden **Hücre İçeriğin
 Daha fazla bilgi için [Veri İşleme Özellikleri](/cells/tr/net/data-handling-features-in-aspose-cells/) sayfasını ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

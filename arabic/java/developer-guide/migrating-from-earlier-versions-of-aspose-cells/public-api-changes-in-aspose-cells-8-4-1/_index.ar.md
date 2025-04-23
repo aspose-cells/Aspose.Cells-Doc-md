@@ -275,3 +275,4 @@ renderer.toImage(0, "output.svg");
 ## **واجهات برمجة التطبيق القديمة**
 ### **طريقة Workbook.validateFormula أصبحت غير مستخدمة**
 استخدم خاصية Cell.Formula للتحقق من الصيغة.
+{{< app/cells/assistant language="java" >}}

@@ -11,7 +11,7 @@ url: /ja/java/get-warnings-while-loading-excel-file/
 
 ## **Excelファイルの読み込み中に警告を受け取る**
 
-Excelファイルを読み込みながら警告を取得する方法について以下のサンプルコードを説明します。このコードは、[サンプルエクセルファイル](sampleDuplicateDefinedName.xlsx)をロードし、ロード中に[**DuplicateDefinedName**](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE_DEFINED_NAME)警告を発生させます。この警告は[**IWarningCallback.Warning()**](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning(com.aspose.cells.WarningInfo))メソッドでキャッチされ、コンソールに警告メッセージが出力されます。その後、ワークブックを[出力エクセルファイル](outputDuplicateDefinedName.xlsx)として保存します。サンプルエクセルファイルをMicrosoft Excelで開くと、このような警告が表示されます。理解を深めるために以下のコンソール出力もチェックしてください。
+Excelファイルを読み込みながら警告を取得する方法について以下のサンプルコードを説明します。このコードは、[サンプルエクセルファイル](sampleDuplicateDefinedName.xlsx)をロードし、ロード中に[**DuplicateDefinedName**](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE-DEFINED-NAME)警告を発生させます。この警告は[**IWarningCallback.Warning()**](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning-com.aspose.cells.WarningInfo-)メソッドでキャッチされ、コンソールに警告メッセージが出力されます。その後、ワークブックを[出力エクセルファイル](outputDuplicateDefinedName.xlsx)として保存します。サンプルエクセルファイルをMicrosoft Excelで開くと、このような警告が表示されます。理解を深めるために以下のコンソール出力もチェックしてください。
 
 ![todo:image_alt_text](get-warnings-while-loading-excel-file_1.png)
 
@@ -34,3 +34,4 @@ Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:Panel!$B$228
 Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:'Queries '!$D$14:$D$16
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

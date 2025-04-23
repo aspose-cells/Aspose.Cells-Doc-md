@@ -17,7 +17,7 @@ keywords: إنشاء جدول دوران، إدراج جدول دوران، تن
 توفر Aspose.Cells for Python via .NET مجموعة خاصة من الفصول في الفضاء الاسمية [**aspose.cells.pivot**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/) التي تستخدم لإنشاء والتحكم في جداول الدوران. يتم استخدام هذه الفصول لإنشاء وضبط كائنات [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/)، والتي تعد مكونات أساسية لجدول الدوران. الكائنات هي:
 
 - [**PivotField**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/) يمثل حقل في [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/).
-- [**PivotFieldCollection**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection) يمثل مجموعة من جميع كائنات [**PivotField**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield) في [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable).
+- [**PivotFieldCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection) يمثل مجموعة من جميع كائنات [**PivotField**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield) في [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable).
 - [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable) يمثل جدول دوران على ورقة العمل.
 - [**PivotTableCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection) يمثل مجموعة من جميع كائنات [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable) على ورقة العمل.
 

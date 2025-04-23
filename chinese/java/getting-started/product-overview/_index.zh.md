@@ -105,3 +105,4 @@ Aspose.Cells 可以与任何类型的应用程序一起使用，无论是 Java W
 
 **请检查：** 
 [Aspose.Cells论坛-推荐信](https://downloads.aspose.com/corporate/success-stories/aspose.cells/)
+{{< app/cells/assistant language="java" >}}

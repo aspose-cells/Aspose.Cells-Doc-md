@@ -33,3 +33,4 @@ Exemplet nedan lägger till en anpassad färg (Orchid) i paletten innan den till
 Paletten rymmer endast 56 färger. När du lägger till en anpassad färg i paletten ändras paletten och alla element i filen formaterade med den tidigare färgen ändras. Så, när du ändrar paletten, var mycket försiktig. Dessutom är detta begränsningen i XLS (Excel 97 - 2003) filformat endast då det inte finns någon sådan begränsning för XLSX eller andra avancerade MS Excel (2007/2010 eller 2013) filformat.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

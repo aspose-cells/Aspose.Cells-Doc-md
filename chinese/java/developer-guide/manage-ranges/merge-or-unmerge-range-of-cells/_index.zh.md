@@ -29,3 +29,4 @@ keywords: java在范围内合并和拆分单元格, java在范围内合并和拆
 - [合并和拆分单元格](/cells/zh/java/merging-and-unmerging-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

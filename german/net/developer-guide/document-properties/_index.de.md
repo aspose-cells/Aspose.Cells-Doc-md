@@ -121,3 +121,4 @@ Um benutzerdefinierte Eigenschaften mit Aspose.Cells zu entfernen, rufen Sie die
 - [Festlegen der Eigenschaften ScaleCrop und LinksUpToDate der integrierten Dokumenteigenschaften](/cells/de/net/setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties/)
 - [Festlegen der Dokumentversion der Excel-Datei unter Verwendung eingebauter Dokumenteigenschaften](/cells/de/net/specify-document-version-of-the-excel-file-using-builtin-document-properties/)
 - [Festlegen der Sprache der Excel-Datei unter Verwendung eingebauter Dokumenteigenschaften](/cells/de/net/specify-the-language-of-the-excel-file-using-builtin-document-properties/)
+{{< app/cells/assistant language="csharp" >}}

@@ -47,3 +47,4 @@ Si vous souhaitez ajouter ou améliorer un exemple, nous vous encourageons à co
 
 Pour contribuer, vous pouvez fork le référentiel, modifier le code source et créer une pull request. Nous examinerons les modifications et les inclurons dans le référentiel si elles sont utiles.
 
+{{< app/cells/assistant language="java" >}}

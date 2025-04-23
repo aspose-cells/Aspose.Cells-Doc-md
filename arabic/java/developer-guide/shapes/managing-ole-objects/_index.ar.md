@@ -55,3 +55,4 @@ OLE (Object Linking and Embedding) هي إطار عمل مايكروسوفت ل�
 - [تحديث كائن Ole تلقائيًا عبر Microsoft Excel باستخدام Aspose.Cells](/cells/ar/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)
 - [استخراج كائنات OLE من كتاب العمل](/cells/ar/java/extract-ole-objects-from-workbook/)
 - [الحصول على معرف الفئة الخاص بكائن OLE المضمّن أو تعيينه](/cells/ar/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
+{{< app/cells/assistant language="java" >}}

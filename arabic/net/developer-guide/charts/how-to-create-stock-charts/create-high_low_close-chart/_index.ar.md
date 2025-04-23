@@ -19,3 +19,4 @@ url: /ar/net/create-high-low-close-stock-chart/
 الكود العينة التالي يحمل [ملف إكسل العينة](High-Low-Close.xlsx) ويولد [ملف إكسل الناتج](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-high-low-close-stock-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

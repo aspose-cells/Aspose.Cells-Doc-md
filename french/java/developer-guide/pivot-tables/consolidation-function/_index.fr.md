@@ -43,3 +43,4 @@ La fonction de consolidation ComptageDistinct est prise en charge uniquement par
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="java" >}}

@@ -3,8 +3,8 @@ title: Çalışma Sayfasının Diyaloğu Sayfa Olup Olmadığını Bulma
 type: docs
 weight: 90
 url: /tr/python-net/find-if-the-worksheet-is-dialog-sheet/
-description: Diyalog Sayfası, eski bir sayfa biçimidir. Bu makale, Aspose.Cells for Python via .NET Kütüphanesini kullanarak Excel çalışma sayfasının programlı olarak bir Diyalog Sayfası olup olmadığını belirleme talimatlarını ve örnek kodları sağlar.
-keywords: Python Excel Kütüphanesi, Python da excel çalışma sayfası diyalog türü bulma, python da çalışma sayfası diyalogu.
+description: Diyalog Sayfası, eski formatta bir sayfadır. Bu makale, Aspose.Cells for Python via .NET kütüphanesi kullanarak bir Excel çalışma sayfasının Diyalog Sayfası olup olmadığını programlı olarak belirlemeniz için talimatlar ve örnek kod sağlar.
+keywords: Python Excel Kütüphanesi, Python da excel çalışma sayfası diyaloğu türü, Python da çalışma sayfası diyaloğu.
 ---
 
 ## **Olası Kullanım Senaryoları**
@@ -13,7 +13,7 @@ Diyalog Sayfa, içinde bir diyalog kutusu bulunan eski bir sayfa formatıdır. B
 
 ![todo:image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
 
-Aspose.Cells for Python via .NET tarafından sağlanan [**Worksheet.type**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/type/) özelliği ile çalışma sayfasının bir diyalog sayfa olup olmadığını bulabilirsiniz. Eğer numaralandırma değeri [**SheetType.DIALOG**](https://reference.aspose.com/cells/python-net/aspose.cells/sheettype/) dönerse, bu durumda bir diyalog sayfa ile uğraştığınızı gösterir.
+Aspose.Cells for Python via .NET tarafından sağlanan [**Worksheet.type**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/type/) özelliği ile sayfanın diyalo sayfası mı yoksa başka bir tür sayfa mı olduğunu bulabilirsiniz. Eğer kutup değerini [**SheetType.DIALOG**](https://reference.aspose.com/cells/python-net/aspose.cells/sheettype/) dönerse, diyalo sayfasıyla ilgilendiğiniz anlamına gelir.
 
 ## **Çalışma Sayfasının Diyaloğu Sayfa Olup Olmadığını Bulma**
 

@@ -16,3 +16,4 @@ url: /es/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/
 El siguiente código de muestra agrega Formatos Condicionales de Escala de 2 Colores y 3 Colores. Genera el [archivo excel de salida](5115058.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageConditionalFormatting-AddColorScales-AddColorScales.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

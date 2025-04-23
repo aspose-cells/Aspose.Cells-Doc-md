@@ -11,8 +11,8 @@ Aspose.Cells, grafik tick etiketi yönünü [**TickLabels.DirectionType**](http
 
 - [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
 - [**VERTICAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)
-- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)
-- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_270)
+- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90)
+- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-270)
 - [**STACKED**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#STACKED)
 
 Aşağıdaki görüntü kaynak ve çıktı dosyalarını karşılaştırır
@@ -25,7 +25,7 @@ Aşağıdaki görüntü kaynak ve çıktı dosyalarını karşılaştırır
 
 ![todo:image_alt_text](change-tick-label-direction_2.jpg)
 
-Aşağıdaki kod parçası, tick etiketi yönünü [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)'den [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL) 'e değiştirir.
+Aşağıdaki kod parçası, tick etiketi yönünü [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90)'den [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL) 'e değiştirir.
 
 ### **Örnek Kod**
 
@@ -36,3 +36,4 @@ Kaynak ve çıktı dosyaları aşağıdaki linklerden indirilebilir.
 [Kaynak Dosya](SampleChangeTickLabelDirection.xlsx)
 
 [Çıktı Dosyası](outputChangeChartDataLableDirection.xlsx)
+{{< app/cells/assistant language="java" >}}

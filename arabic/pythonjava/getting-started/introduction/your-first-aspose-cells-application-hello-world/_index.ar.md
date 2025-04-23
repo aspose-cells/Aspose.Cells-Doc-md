@@ -11,7 +11,7 @@ url: /ar/python-java/your-first-aspose-cells-application-hello-world/
 
 {{% /alert %}}
 
-### **إنشاء تطبيق مرحبًا بالعالم**
+## **إنشاء تطبيق مرحبًا بالعالم**
 
 لإنشاء تطبيق مرحبًا بالعالم باستخدام واجهة برمجة التطبيقات الخاصة بـ Aspose.Cells:
 
@@ -26,7 +26,7 @@ url: /ar/python-java/your-first-aspose-cells-application-hello-world/
 
 الأمثلة أدناه تظهر الخطوات أعلاه.
 
-#### **إنشاء دفتر العمل**
+### **إنشاء دفتر العمل**
 
 المثال التالي ينشئ دفتر عمل جديد من البداية ، يكتب كلمة "Hello World!" في الخلية A1 في ورق العمل الأول ، ثم يحفظ الملف.
 
@@ -36,7 +36,7 @@ url: /ar/python-java/your-first-aspose-cells-application-hello-world/
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "CreatingHelloWorldFile.py" >}}
 
-#### **فتح ملف موجود**
+### **فتح ملف موجود**
 
 المثال التالي يفتح ملف قالب Microsoft Excel موجود يسمى **book1.xls** ، يكتب كلمة "Hello World!" في الخلية A1 في الورقة العمل الأولى ، ثم يحفظ دفتر العمل كملف جديد.
 

@@ -20,3 +20,4 @@ Aşağıdaki kodu çalıştırdıktan sonra, aşağıda gösterildiği gibi Komb
 Aşağıdaki örnek kod [örnek Excel dosyasını](combo.xlsx) yükler ve [çıktı Excel dosyasını](out.xlsx) oluşturur.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-combo-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

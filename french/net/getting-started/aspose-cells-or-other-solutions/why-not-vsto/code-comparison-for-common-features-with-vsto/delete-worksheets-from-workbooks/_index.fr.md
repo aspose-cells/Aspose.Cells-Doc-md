@@ -26,3 +26,4 @@ Vous pouvez supprimer n'importe quelle feuille de calcul dans un classeur. Pour 
 {{< /highlight >}}
 ## **Télécharger**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DeleteWorksheetsFromWorkbooks.zip)
+{{< app/cells/assistant language="csharp" >}}

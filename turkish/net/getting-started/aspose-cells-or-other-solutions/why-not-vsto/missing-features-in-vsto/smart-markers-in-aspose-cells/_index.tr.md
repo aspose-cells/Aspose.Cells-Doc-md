@@ -12,3 +12,4 @@ Bu bölümdeki konular şunlardır:
 - [Akıllı Belirteçler Özelliği](/cells/tr/net/smart-markers-feature/)
 - [Anonim Türler veya Özel Nesneler Kullanarak](/cells/tr/net/using-anonymous-types-or-custom-objects/)
 - [Yerleşik Nesneleri Kullanmak](/cells/tr/net/using-nested-objects/)
+{{< app/cells/assistant language="csharp" >}}

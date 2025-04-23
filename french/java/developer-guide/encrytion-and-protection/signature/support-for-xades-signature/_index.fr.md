@@ -12,3 +12,4 @@ L'extrait de code suivant démontre l'utilisation de la classe {0} pour signer l
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-XAdESSignatureSupport-1.java" >}}
+{{< app/cells/assistant language="java" >}}

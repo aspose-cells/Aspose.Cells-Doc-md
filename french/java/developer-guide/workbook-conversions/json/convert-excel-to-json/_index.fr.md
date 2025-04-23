@@ -15,7 +15,7 @@ Aspose.Cells prend en charge la conversion d'un classeur en fichier Json(JavaScr
 
 ## **Comment Convertir un Classeur Excel en JSON**
 
-Pas besoin de se demander comment convertir un classeur Excel en JSON, car la bibliothèque Aspose.Cells Java propose la meilleure solution. L'API Java Aspose.Cells prend en charge la conversion des feuilles de calcul au format JSON. Pour exporter le classeur au format JSON, passez [**SaveFormat.JSON**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) en tant que deuxième paramètre de la méthode [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.lang.String,%20int)). Vous pouvez également utiliser la classe [**JsonSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonSaveOptions) pour spécifier des paramètres supplémentaires pour l'exportation de la feuille de calcul au format JSON.
+Pas besoin de se demander comment convertir un classeur Excel en JSON, car la bibliothèque Aspose.Cells Java propose la meilleure solution. L'API Java Aspose.Cells prend en charge la conversion des feuilles de calcul au format JSON. Pour exporter le classeur au format JSON, passez [**SaveFormat.JSON**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) en tant que deuxième paramètre de la méthode [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.lang.String-int-). Vous pouvez également utiliser la classe [**JsonSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonSaveOptions) pour spécifier des paramètres supplémentaires pour l'exportation de la feuille de calcul au format JSON.
 
 L'exemple de code suivant montre comment exporter un classeur Excel en Json. Veuillez consulter le code pour convertir le [fichier source](sample.xlsx) en le fichier Json généré par le code à titre de référence.
 
@@ -24,3 +24,4 @@ L'exemple de code suivant montre comment exporter un classeur Excel en Json. Veu
 L'exemple de code suivant qui utilise la classe JsonSaveOptions pour spécifier des paramètres supplémentaires démontre l'exportation du classeur Excel en Json. Veuillez consulter le code pour convertir le [fichier source](sample.xlsx) en fichier Json généré par le code pour référence.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Convert-Excel-to-JSON2.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -203,3 +203,4 @@ Hämta **Infoga Hyperlänkar i Arbeitsblad** från någon av de nedan nämnda so
 För mer detaljer, besök [Lägga till Hyperlänkar för att Länka Data](/cells/sv/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

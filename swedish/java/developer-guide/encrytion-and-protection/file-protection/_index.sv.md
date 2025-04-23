@@ -42,3 +42,4 @@ Det är väldigt enkelt att öppna ett lösenordsskyddat excelfil och avkryptera
 
 
 
+{{< app/cells/assistant language="java" >}}

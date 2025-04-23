@@ -111,3 +111,4 @@ Puede usar Aspose.Cells for .NET para implementar opciones de configuración de 
 |Especificar márgenes y centrado de página.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Crear o editar el encabezado y/o pie de página.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Establecer área de impresión, títulos de impresión o activar las líneas de cuadrícula, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< app/cells/assistant language="csharp" >}}

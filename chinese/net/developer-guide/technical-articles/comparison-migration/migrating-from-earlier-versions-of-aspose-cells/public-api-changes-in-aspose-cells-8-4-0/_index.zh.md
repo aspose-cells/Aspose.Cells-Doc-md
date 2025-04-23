@@ -274,3 +274,4 @@ workbook.Save("output.xlsx");
 使用GetEnumerator方法代替遍历所有单元格。
 ### **弃用的DrawObject.Image Property**
 请改用DrawObject.ImageBytes属性获取图像数据。
+{{< app/cells/assistant language="csharp" >}}

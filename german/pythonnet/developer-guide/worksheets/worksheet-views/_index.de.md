@@ -3,8 +3,8 @@ title: Arbeitsblattansichten
 type: docs
 weight: 40
 url: /de/python-net/worksheet-views/
-description: Dieser Artikel beschreibt, wie man die Aspose.Cells for Python via .NET API verwendet, um mit der Seitenwechselvorschau eines Excel Arbeitsbuches und Arbeitsblätter zu interagieren. Arbeiten Sie mit geteilten Fenstern, fixierten Fenstern und Zoom Faktoren. 
-keywords: Python Excel Bibliothek, Python Wie man die Seitenwechsel Vorschau einstellt, Python wie man den Normalen Ansicht aktiviert, Python wie man den Zoom Faktor einstellt, Python wie man Fenster fixiert, Python wie man Fenster teilt, Python wie man Fenster entfernt.
+description: Dieser Artikel beschreibt, wie man mit der Aspose.Cells für Python via .NET API den Seitenumbruch Vorschau eines Excel Arbeitsbuchs und Arbeitsblättern steuert. Arbeiten Sie mit geteilten Fenstern, eingefrorenen Fenstern und Zoom Faktor. 
+keywords: Python Excel Bibliothek, Python Wie man die Seitenumbruch Vorschau einstellt, Python Wie man den Normalansicht aktiviert, Python Wie man den Zoom Faktor einstellt, Python Wie man Fenster einfriert, Python Wie man Fenster teilt, Python Wie man Fenster entfernt.
 ---
 
 ## **Seitenwechselvorschau**
@@ -14,11 +14,11 @@ Alle Arbeitsblätter können in zwei Modi angezeigt werden:
 - Normale Ansicht.
 - Seitenwechselvorschau.
 
-Die normale Ansicht ist die Standardansicht eines Arbeitsblatts. Die Seitenumbruchvorschau ist eine Bearbeitungsansicht, die ein Arbeitsblatt so anzeigt, wie es gedruckt wird. Die Seitenumbruchvorschau zeigt an, welche Daten auf jeder Seite erscheinen, damit Sie den Druckbereich und die Seitenumbrüche anpassen können. Mit Aspose.Cells für Python via .NET können Entwickler die Normalansicht oder die Seitenumbruchvorschau aktivieren.
+Die Normalansicht ist die Standardansicht eines Arbeitsblatts. Die Seitenumbruch-Vorschau ist eine Bearbeitungsansicht, die ein Arbeitsblatt so anzeigt, wie es gedruckt wird. Die Seitenumbruch-Vorschau zeigt, welche Daten auf jede Seite passen, damit Sie den Druckbereich und die Seitenumbrüche anpassen können. Mit Aspose.Cells für Python via .NET können Entwickler die Normalansicht oder die Seitenumbruch-Vorschau aktivieren.
 
 ### **Steuerung der Ansichtsmodi**
 
-Aspose.Cells für Python via .NET bietet eine [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)-Klasse, die eine Microsoft Excel-Datei repräsentiert. Die [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)-Klasse enthält eine [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets)-Sammlung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
+Aspose.Cells für Python via .NET bietet eine Klasse [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), die eine Microsoft Excel-Datei repräsentiert. Die Klasse [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) enthält eine Sammlung [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets), die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
 
 Ein Arbeitsblatt wird durch die Klasse [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) dargestellt. Die Klasse [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern. Um die Normal- oder Seitenumbruchvorschau zu aktivieren, verwenden Sie die Klasse [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) und die Eigenschaft [**is_page_break_preview**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_page_break_preview). [**is_page_break_preview**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_page_break_preview) ist eine boolesche Eigenschaft, die nur einen Wert von **true** oder **false** speichern kann.
 
@@ -69,10 +69,10 @@ Aspose.Cells bietet eine Klasse [**Workbook**](https://reference.aspose.com/cel
 
 Ein Arbeitsblatt wird durch die Klasse [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) repräsentiert. Die Klasse [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern. Um Einfrierunterschiede festzulegen, rufen Sie die [**freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#int-int-int-int)-Methode der Klasse Arbeitsblatt auf. Die Methode [**freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#int-int-int-int) nimmt die folgenden Parameter an:
 
-- **Zeile**, der Zeilenindex der Zelle, von der aus das Einfrieren beginnen wird.
-- **Spalte**, der Spaltenindex der Zelle, von der aus das Einfrieren beginnen wird.
-- **eingefrorene Zeilen**, die Anzahl der sichtbaren Zeilen im oberen Bereich.
-- **eingefrorene Spalten**, die Anzahl der sichtbaren Spalten im linken Bereich
+- **row**, der Zeilenindex, ab dem der Freeze beginnt.
+- **column**, der Spaltenindex, ab dem der Freeze beginnt.
+- **frozen_rows**, die Anzahl der sichtbaren Zeilen im oberen Bereich.
+- **frozen_columns**, die Anzahl der sichtbaren Spalten im linken Bereich.
 
 Die Datei book1.xls wird geöffnet, indem der Konstruktor der Klasse [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) aufgerufen wird, während sie instanziiert wird, und einige Zeilen und Spalten werden im ersten Arbeitsblatt eingefroren. Die modifizierte Datei wird als output.xls gespeichert.
 

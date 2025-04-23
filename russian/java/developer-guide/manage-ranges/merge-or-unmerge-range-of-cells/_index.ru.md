@@ -29,3 +29,4 @@ keywords: java объединить и разъединить ячейки в д
 - [Объединение и разбиение ячеек](/cells/ru/java/merging-and-unmerging-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

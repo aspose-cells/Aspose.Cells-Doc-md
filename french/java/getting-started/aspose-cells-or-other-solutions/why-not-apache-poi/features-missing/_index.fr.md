@@ -40,3 +40,4 @@ Cela inclut les fonctionnalités abondantes suivantes d'Aspose.Cells par rapport
   - [Convertir une feuille de calcul en PDF en utilisant Aspose.Cells](/cells/fr/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
 
 **Remarque :** De nombreux autres exemples seront bientôt disponibles.
+{{< app/cells/assistant language="java" >}}

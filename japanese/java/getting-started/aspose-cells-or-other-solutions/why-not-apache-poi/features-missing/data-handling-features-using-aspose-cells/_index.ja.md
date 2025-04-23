@@ -13,3 +13,4 @@ url: /ja/java/data-handling-features-using-aspose-cells/
 - [Aspose.Cellsでの式計算エンジン](/cells/ja/java/formula-calculation-engine-in-aspose-cells/)
 - [Aspose.Cellsを使用した先行および従属要素のトレース](/cells/ja/java/tracing-precedents-and-dependents-using-aspose-cells/)
 - [スプレッドシート内のデータの並べ替え](/cells/ja/java/sort-data-in-spreadsheets/)
+{{< app/cells/assistant language="java" >}}

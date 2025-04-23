@@ -49,16 +49,16 @@ Uppräkningen [ValidationType](https://reference.aspose.com/cells/java/com.aspos
 
 | **Medlemsnamn** | **Beskrivning** |
 | :- | :- |
-|[ANY_VALUE](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#ANY_VALUE)|Anger ett värde av vilken typ som helst.
-|[WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE_NUMBER)|Anger valideringstyp för heltal.
+|[ANY_VALUE](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#ANY-VALUE)|Betecknar ett värde av vilken typ som helst.|
+|[WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE-NUMBER)|Betecknar valideringstyp för hela tal.|
 |[DECIMAL](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#DECIMAL)|Anger valideringstyp för decimaltal.
 |[LIST](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#LIST)|Anger valideringstyp för nedrullningslist.
 |[DATE](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#DATE)|Anger valideringstyp för datum.
 |[TIME](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TIME)|Anger valideringstyp för tid.
-|[TEXT_LENGTH](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TEXT_LENGTH)|Anger valideringstyp för längden på texten.
+|[TEXT_LENGTH](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TEXT-LENGTH)|Betecknar valideringstyp för längden på texten.|
 |[CUSTOM](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#CUSTOM)|Anger anpassad valideringstyp.
 #### **Programexempel: Heltalsdatavalidering**
-Med den här typen av validering kan användare endast ange heltal inom ett angivet intervall i de validerade cellerna. Kodexemplen nedan visar hur man implementerar valideringstypen [WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE_NUMBER) med Aspose.Cells. Exemplet skapar samma datavalidering med Aspose.Cells som vi skapade med Microsoft Excel ovan.
+Med denna typ av validering kan användare endast ange heltal inom ett specificerat intervall i de validerade cellerna. Följande kodexempel visar hur man implementerar [WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE-NUMBER)-valideringstypen. Exemplet skapar samma datavalidering med Aspose.Cells som vi skapade i Microsoft Excel ovan.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-WholeNumberDataValidation-WholeNumberDataValidation.java" >}}
 
@@ -99,7 +99,7 @@ Med denna typ av validering kan användare ange textvärden av en angiven längd
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-TextLengthDataValidation-TextLengthDataValidation.java" >}}
 ## **Data valideringsregler**
-När datavalideringar är implementerade kan valideringen kontrolleras genom att tilldela olika värden i cellerna. [Cell.GetValidationValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue\(\)) kan användas för att hämta valideringsresultatet. Följande exempel demonstrerar denna funktion med olika värden. Testfilen kan laddas ner från följande länk för testning:
+När datavalideringar är implementerade kan valideringen kontrolleras genom att tilldela olika värden i cellerna. [Cell.GetValidationValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--) kan användas för att hämta valideringsresultatet. Följande exempel demonstrerar denna funktion med olika värden. Testfiler kan laddas ned via följande länk:
 
 [SampleDataValidationRules.xlsx](77987849.xlsx)
 
@@ -113,9 +113,9 @@ Som vi har sett finns det många typer av valideringar som kan implementeras ino
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-CheckIfValidationInCellDropDown-1.java" >}}
 ## **Lägg till CellArea till befintlig validering**
-Det kan finnas fall där du vill lägga till [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) till befintlig [Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation). När du lägger till [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) med hjälp av [Validation.AddArea(CellArea cellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea\)), kontrollerar Aspose.Cells alla befintliga områden för att se om det nya området redan finns. Om filen har ett stort antal valideringar påverkar detta prestandan. För att komma över detta tillhandahåller API:et metoden [Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)). Parametern *checkIntersection* anger områdets snitt med befintliga valideringsområden. Om du ställer in den till **false** inaktiveras kontrollen av andra områden. Parametern *checkEdge* anger om kanten ska kontrolleras. Om det nya området blir det övre vänstra området byggs interna inställningar om igen. Om du är säker på att det nya området inte är det övre vänstra området kan du ställa in den här parametern som **false**.
+Det kan finnas fall där du vill lägga till [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) till befintlig [Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation). När du lägger till [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) med [Validation.AddArea(CellArea cellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea-com.aspose.cells.CellArea-), kontrollerar Aspose.Cells alla befintliga områden för att se om det nya området redan finns. Om filen innehåller ett stort antal valideringar kan detta påverka prestandan. För att övervinna detta tillhandahåller API:et metoden [Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea-com.aspose.cells.CellArea-boolean-boolean-). Parametern *checkIntersection* anger om man ska kontrollera skärningen mellan ett givet område och befintliga valideringsområden. Att ställa in den till **false** inaktiverar kontrollen av andra områden. Parametern *checkEdge* anger om man ska kontrollera tillämpade områden. Om det nya området blir det övre vänstra området, byggs interna inställningar om. Om du är säker på att det nya området inte är det övre vänstra området kan du ställa in denna parameter till **false**.
 
-Följande kodsnutt demonstrerar användningen av metoden [Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) för att lägga till ny [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) till befintlig [Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation).
+Följande kodsnutt demonstrerar användningen av [Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea-com.aspose.cells.CellArea-boolean-boolean-) metoden för att lägga till ett nytt [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) till befintlig [Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation).
 
 
 
@@ -132,3 +132,4 @@ Käll- och utdataexcelfilerna är bilagda som referens.
 - [Hämta cellvalidering i ODS-filer](/cells/sv/java/get-cell-validation-in-ods-files/)
 - [Få validering som tillämpas på en cell](/cells/sv/java/get-validation-applied-on-a-cell/)
 - [Verifiera att cellvärdet uppfyller datavalideringsreglerna](/cells/sv/java/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="java" >}}

@@ -3,7 +3,16 @@ title: Arbeta med GridJs klient sidan
 type: docs
 weight: 250
 url: /sv/python-net/aspose-cells-gridjs/client/
-keywords: anpassning, logo, inställning, api, gridjs, python, redigera, kalkylblad, visa, visare, redigerare, excel
+keywords: GridJs,anpassad,logga,inställning,api,gridjs,python,redigera,blad,vy,visning,redigerare,excel,js api,klient api
+description: Den här artikeln introducerar klientens javascript API er eller funktioner i GridJs.
+aliases:
+  - /python-net/aspose-cells-gridjs/how-to-use-gridjs-client-api/
+  - /python-net/aspose-cells-gridjs/work-with-client-api/
+  - /python-net/aspose-cells-gridjs/use-js-api/
+  - /python-net/aspose-cells-gridjs/gridjs-spreadsheet-api/
+  - /python-net/aspose-cells-gridjs/client-api/
+  - /python-net/aspose-cells-gridjs/js-api/
+  - /python-net/aspose-cells-gridjs/javascript-api/
 ---
 
 # Arbeta med GridJs klient-sidan
@@ -16,24 +25,10 @@ Vi utvecklade GridJs klienten baserat på [x-spreadsheet](https://github.com/myl
 xs = x_spreadsheet(id, options)
     // the parameters are:
     id:the html node id ,for example :'#gridjs-demo' for the html  <div id="gridjs-demo"></div>
-    options:the load options,
-     // the parameters for options:
-	    updateMode:  currently we only support 'server'
-	    updateUrl:  set the server side  url for update action based on json
-	    mode: read means readonly spread sheet/edit means we can edit the spread sheet
-            allowSelectTextInTextBoxInReadMode: whether allow select text in TextBox control when in read mode,the default value is false
-	    showToolbar:   means whether to show toolbar
-	    showFileName:  whether to show the filename 
-	    local:         support multiple language for menus ,the locale can be:
-	                        en, cn, es, pt, de, ru, nl, 
-	                   for  English,Chinese,Spanish,Portuguese,German,Russian,Dutch
-			        ar, fr,id,it,ja
-                           for  Arabic,French,Indonesian,Italian,Japanese
-			        ko,th,tr,vi,cht
-                           for  Korean,Thai,Turkey,Vietnamese,Traditional Chinese                  
-	    showContextmenu:   means whether to show contextmenu on right click on a cell
-            loadingGif:  the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
-	for example the below code init a x_spreadsheet object.
+    options: the load options
+
+
+for example the below code init a gridjs_spreadsheet object.
 	xs = x_spreadsheet('#gridjs-demo', {
 			updateMode:'server',
 			updateUrl:'/GridJs2/UpdateCell',
@@ -43,6 +38,26 @@ xs = x_spreadsheet(id, options)
 			showContextmenu: true
 			})
 ```
+Parametrarna för laddningsalternativ:
+
+| Parameter | Beskrivning | Standardvärde | Valfri |
+| --- | --- | --- | --- |
+| `allowSelectTextInTextBoxInReadMode` | Tillåta markerings av text i TextBox-kontroller i läs-läge.<br>Standardvärdet är falskt. | `false` | Ja |
+| `checkSyntax` | Utföra syntaxkontroll och stavningskorrigering för användarens inmatning av textinnehåll.<br>Fungerar tillsammans med setSyntaxCheckUrl.<br>Standardvärdet är falskt. | `false` | Ja |
+| `loadingGif` | URL för laddnings-GIF när bilder/former laddas.<br>Standardvärdet är content/img/updating.gif. | `content/img/updating.gif` | Ja |
+| `local` | Ange lokaliseringsinfo för menyer och verktygsfält, stödjer flera språk.<br>Möjliga värden inkluderar:<br>- `en, zh, es, pt, de, ru, nl` (för engelska, kinesiska, spanska, portugisiska, tyska, ryska, nederländska)<br>- `ar, fr, id, it, ja` (för arabiska, franska, indonesiska, italienska, japanska)<br>- `ko, th, tr, vi, cht` (för koreanska, thailändska, turkiska, vietnamesiska, traditionell kinesiska) | `en` | Ja |
+| `mode` | Kan vara `read` eller `edit`; `read` betyder ett skrivskyddat kalkylblad; `edit` betyder att kalkylbladet kan redigeras. | Ingen | Nej |
+| `searchHighlightColor` | Belysningsfärg för söktermen.<br;Färgen måste inkludera en alfa-kanal för transparens. | `#dbe71338` | Ja |
+| `showCheckSyntaxButton` | Visa knappar för syntaxkontroll & stavningskorrigering i verktygsfältet.<br>Standardvärdet är falskt. | `false` | Ja |
+| `showContextmenu` | Visa kontextmenyn vid högerklick på en cell.<br>Standardvärdet är sant. | `true` | Ja |
+| `showFileName` | Visa filnamnet. | `true` | Ja |
+| `showFormulaExplain` | Visa forklaring av formler tillämpade på denna cell när musen flyttas över den.<br>Fungerar tillsammans med setFormulaExplainUrl.<br>Standardvärdet är falskt. | `false` | Ja |
+| `showFormulaTip` | Om formeln som är tillämpad på denna cell ska visas när musen flyttas över den.<br>Standardvärdet är falskt. | `false` | Ja |
+| `showNonEditableSymbolInCell` | Om en klient-sida icke-redigerbar symbol ska visas i cellen.<br>Om satt till sant, efter att ha klickat på högerklickskontextmenyn "Inaktivera redigering", visas symbolen i det avlästa området.<br>Standardvärdet är falskt. | `false` | Ja |
+| `showToolbar` | Om verktygsfältet ska visas. | `true` | Ja |
+| `updateMode` | För närvarande stöds endast `server`. | `server` | Nej |
+| `updateUrl` | Sätt server-URL för uppdateringsåtgärder baserade på JSON. | Ingen | Nej |
+| `view` | Ange vistsstorleken för bladet, t.ex., `{width: () => 1000, height: ()=> 500}`. | `{width: () => dokument.documentElement.clientWidth, height: () => dokument.documentElement.clientHeight }` | Ja |
 
 - ladda med json-data
 ```javascript
@@ -69,6 +84,26 @@ xs.setActiveCell(row,col);
 // the parameters are:
 	row: the cell row
 	col: the cell column
+```
+
+-  ställ in aktiv för flera instanser 
+```javascript
+xs.setActiveForMultipleInstance(isacitve);
+// the parameters are:
+	isacitve: whether need to do edit operation at this xs instanse 
+// when there are more than one GridJs instances in one page, we need to call this method.
+// we only support do edit operation for one instances at a page.
+// for example,if we have two instances: xs1 and xs2 in one html page.
+// if we need to keep edit operation in xs1,
+// we shall call:
+xs1.setActiveForMultipleInstance(true);
+xs2.setActiveForMultipleInstance(false);
+
+// if we need not do any edit operation for both,
+// we shall call:
+xs1.setActiveForMultipleInstance(false);
+xs2.setActiveForMultipleInstance(false);
+
 ```
 
 - ange information för form-/bildoperationer för server-sidan
@@ -110,6 +145,25 @@ xs.setOleDownloadInfo(oleActionUrl);
             const oleDownloadUrl = "/GridJs2/Ole";
             xs.setOleDownloadInfo(oleDownloadUrl);
 ```
+- ställ in info för syntaxkontroll & stavningskorrektionsåtgärd för server-sidan
+```javascript
+xs.setSyntaxCheckUrl(checkUrl);
+// the parameters are:
+	checkUrl: the  syntax checking & spell correction operation action URL in the server side controller
+    for example: 
+            const checkurl = "/GridJs2/CheckSyntax";
+            xs.setSyntaxCheckUrl(checkurl);
+```
+
+- ställ in info för formelförklaring för server-sidan
+```javascript
+xs.setFormulaExplainUrl(formulaExplainUrl);
+// the parameters are:
+	formulaExplainUrl: the  formula explanation  action URL in the server side controller
+    for example: 
+            const formulaExplainUrl = "/GridJs2/FormulaExplain";
+            xs.setFormulaExplainUrl(formulaExplainUrl);
+```
 
 
 ___
@@ -138,6 +192,18 @@ xs.setFileName(name)
 	name:the file name with extension ,for example trip.xlsx
 ```
 
+- Callback-funktion för e-postutskick
+```javascript
+xs.setEmailSendCallFunction(callback)
+// the parameters is:
+	callback: the callback function to handle email sending, receives a mailObj parameter
+		callback: function(mailObj) {
+			// mailObj properties:
+			// mailObj.receiver: the email address of the receiver, e.g., 'example@gmail.com'
+			// mailObj.type: the format of the file to be sent, can be 'html', 'xlsx', or 'pdf'
+		}
+```
+
 - om fönstertangentbordshändelser ska aktiveras för GridJs
 ```javascript
 xs.enableKeyEvent(isenable)
@@ -154,7 +220,8 @@ xs.destroy()
 
 - ställ in synligt filter för bild/form
 ```javascript
-    // need to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
+xs.setVisibleFilter((sheet,s) =>{})
+    //  to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
 	sheet:the sheet instance
 	s:the image or shape instance
     for example: 
@@ -165,15 +232,37 @@ xs.destroy()
 	//this will make invisible for image/shape in all sheets 
 		xs.setVisibleFilter((sheet,s) => {  return false; })
 	//if all the image/shape is already loaded and you want to change the visible filter at runtime,you can call the below code to trigger a reload for image/shape
-		xs.setActiveSheet(xs.getActiveSheet())
+		xs.reRender()
 ```
 
 - Hämta den valda bilden/formen, om inget är valt returneras null
 ```javascript
 xs.sheet.selector.getObj()
 ```
+-  Visa eller dölja ett HTML-element vid en angiven cellposition
+```javascript
+xs.sheet.showHtmlAtCell(isShow, html, ri, ci, deltaX, deltaY)
 
-- ställ in den valbara statusen för bild/form 
+    //the parameters are:
+    // - isShow: Boolean value indicating whether to show or hide the HTML content.
+    // - html: The HTML string to be displayed.
+    // - ri: Row index of the target cell.
+    // - ci: Column index of the target cell.
+    // - deltaX: (Optional) Relative X-position adjustment from the top-left corner of the cell.
+    // - deltaY: (Optional) Relative Y-position adjustment from the top-left corner of the cell.
+
+    // Example usage:
+    // Show HTML at cell A1
+    xs.sheet.showHtmlAtCell(true, "<span>html span</span><input length='30' id='myinput'>test</input>", 0, 0);
+
+    // Hide the HTML node
+    xs.sheet.showHtmlAtCell(false);
+
+    // Note: When an HTML node is shown, the default GridJS event handling is disabled to allow interaction with the HTML content.
+    // This means you cannot select any cells or perform edit operations until the HTML node is hidden.
+```
+
+-  Sätt det valbara tillståndet för bild/form 
 ```javascript
 const shape=xs.sheet.selector.getObj();
 shape.setControlable(isenable)
@@ -328,8 +417,8 @@ xs.sheet.data.rows.sumHeight(min,max)
 xs.sheet.data.displayRight2Left
 ```
 
-## Händelseåterkallelse
--  vi kan spåra nedanstående händelser
+## Händelseåteranrop
+-  Vi kan spåra nedanstående händelser
 ```javascript
  xs.on('cell-selected', (cell, ri, ci) => {
                 console.log('cell selected:', cell, ', ri:', ri, ', ci:', ci);
@@ -348,13 +437,42 @@ xs.sheet.data.displayRight2Left
             }).on('sheet-loaded', (id,name) => {
                 console.log('sheet load finished:', id, ', name: ',name);
             }).on('cell-edited', (text, ri, ci) => {
+	        //just edit the cell
                 console.log('text:', text, ', ri: ', ri, ', ci:', ci);
+            }).on('cells-updated', (name, cells) => {
+	       //cell value got updated
+                console.log('cells updated for sheet name:', name);
+                cells.forEach((acell, index, array) => {
+                console.log('acell got updated:', acell);
+            })
+            }).on('cells-deleted', (range) => {
+                console.log('cells deleted :', range);
+            }).on('rows-deleted', (ri, n) => {
+                console.log('rows-deleted :', ri, ",size", n);
+
+            }).on('columns-deleted', (ci, n) => {
+                console.log('columns-deleted :', ci, ",size", n);
+
+            }).on('rows-inserted', (ri, n) => {
+                console.log('rows-inserted :', ri, ",size", n);
+
+            }).on('columns-inserted', (ci, n) => {
+                console.log('columns-inserted :', ci, ",size", n);
+
             });
+```
+- Förhandsgranskning av händelse
+  Om returnerar falskt, kommer inte insättnings-/raderingsoperationen att fortsätta.
+```javascript
+  xs.checkRowInsert = (ri, size) => { if (ri % 2 == 1) return true; else return false; };
+  xs.checkColumnInsert = (ci, size) => { if (ci % 2 == 1) return true; else return false; };
+  xs.checkRowDelete = (ri, size) => { if (ri % 2 == 1) return true; else return false; };
+  xs.checkColumnDelete = (ci, size) => { if (ci % 2 == 1) return true; else return false; };
 ```
 
 ## Anpassning
 
--  ställ in hemikonen och länken
+-  Ange hemikon och länk
 ```javascript
 xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
     // the parameters are:
@@ -363,16 +481,51 @@ xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
 	for example ,the below code will set the new logo and with link to google.com
 	xs.sheet.menubar.icon.setHomeIcon('https://forum.aspose.com/letter_avatar_proxy/v4/letter/y/3e96dc/45.png','https://www.google.com')
 ```
--  visa menyraden
+-  Visa menyraden
 ```javascript
 xs.sheet.menubar.show()
 ```
 
--  göm menyraden
+-  Dölj menyraden
 ```javascript
 xs.sheet.menubar.hide()
 ```
 
+
+## API:er för TextBox-objekt
+TextBox är en speciell typ av form där typen är: "TextBox",
+till exempel: koden nedan kommer att visa vilken form som är textrutan
+
+```javascript
+for (let shape of xs.sheet.data.shapes) {
+    if (shape.type === 'TextBox') {
+        console.log(shape.id + ' is a textbox');
+    }
+}
+```
+
+-  Ändra bakgrundsfärg för textbox-objekt
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.setBackgroundColor('#FFFF00');
+```
+-  Autoändra bakgrundsfärg och textfärg för att få en visuell aktiv effekt
+```javascript
+    setActiveEffect(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
+```
+
+-  Dölj/visad textinnehåll i textbox-objektet
+```javascript
+    hideText(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
+```
 
 för detaljerad information kan du kolla exemplet här
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>

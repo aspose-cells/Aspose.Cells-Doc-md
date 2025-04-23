@@ -33,3 +33,4 @@ description: "如何使用Aspose.Cells for Java向Excel插入背景图像。"
 
 - [在ODS文件中处理背景](/cells/zh/java/working-with-background-in-ods-files/)
 
+{{< app/cells/assistant language="java" >}}

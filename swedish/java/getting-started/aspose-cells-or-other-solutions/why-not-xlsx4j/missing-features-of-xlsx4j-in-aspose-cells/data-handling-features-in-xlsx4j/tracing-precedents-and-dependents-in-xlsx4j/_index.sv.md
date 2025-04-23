@@ -118,3 +118,4 @@ for (int i = 0; i< dependents.length; i++)
 För mer information, besök [Spåra föregångare och beroenden](/java/sp%C3%A5ra-foreg%C3%A5ngare-och-beroranden).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

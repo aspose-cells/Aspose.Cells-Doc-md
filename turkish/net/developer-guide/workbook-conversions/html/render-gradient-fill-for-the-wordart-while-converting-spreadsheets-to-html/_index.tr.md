@@ -13,3 +13,4 @@ Aspose.Cells 17.1'den önce, Aspose.Cells Excel dosyası HTML formatına dönü�
 Aşağıdaki örnek kod, [kaynak excel dosyasını](22774111.xlsx) [çıktı HTML formatına](22774109.zip) dönüştürür. Kaynak excel dosyası yukarıdaki ekran görüntüsünde gösterilen gibi gradient doldurulu word art nesnelerini içerir.
 ## **Örnek Kod**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithHTMLFormat-RenderGradientFillToHTML.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

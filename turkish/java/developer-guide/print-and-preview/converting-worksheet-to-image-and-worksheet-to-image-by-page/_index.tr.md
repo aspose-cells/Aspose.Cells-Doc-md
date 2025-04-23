@@ -15,7 +15,7 @@ Bazı durumlarda, çalışma sayfalarını örneğin, uygulamalarda veya web say
 
 ## **Aspose.Cells Kullanarak Çalışma Sayfasını Resim Dosyasına Dönüştürme**
 
-Bu makale, Aspose.Cells for Java API'sını kullanarak bir çalışma sayfasını resme dönüştürme yöntemini göstermektedir. API, [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) gibi birçok değerli sınıfı içerir. [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) sınıfı, çalışma sayfası için resimleri oluşturmak için kullanılır ve birçok aşırı yüklenmiş [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream)) yöntemi, herhangi bir özellik veya seçenek ayarlanmaksızın bir çalışma sayfasını doğrudan resim dosyalarına dönüştürebilir.
+Bu makale, Aspose.Cells for Java API'sını kullanarak bir çalışma sayfasını resme dönüştürme yöntemini göstermektedir. API, [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) gibi birçok değerli sınıfı içerir. [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) sınıfı, çalışma sayfası için resimleri oluşturmak için kullanılır ve birçok aşırı yüklenmiş [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage-int-java.io.OutputStream-) yöntemi, herhangi bir özellik veya seçenek ayarlanmaksızın bir çalışma sayfasını doğrudan resim dosyalarına dönüştürebilir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ConvertWorksheettoImageFile-1.java" >}}
 
@@ -55,3 +55,4 @@ Bu makale, bir çalışma sayfasını bir resim dosyasına dönüştürme ve Asp
 
 - [Farklı Resim Formatlarına Çalışsayısı Dönüştürme](/cells/tr/java/converting-worksheet-to-different-image-formats/)
 - [Belirtilen Genişlik ve Yükseklikte Çalışsayısı veya Tabloyu Resme Dışa Aktarma](/cells/tr/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+{{< app/cells/assistant language="java" >}}

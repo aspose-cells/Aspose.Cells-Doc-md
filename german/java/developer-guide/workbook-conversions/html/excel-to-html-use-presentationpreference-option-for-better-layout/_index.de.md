@@ -20,3 +20,4 @@ Sie finden die folgenden Artikel zur Konvertierung von Excel in HTML hilfreich
 - [Beim Speichern als HTML-Wrap Kommentare ausblenden](/cells/de/java/disable-downlevel-revealed-comments-while-saving-to-html/)
 - [Export von Arbeitsmappe- und Arbeitsblatteigenschaften in Excel zur HTML-Konvertierung](/cells/de/java/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/)
 - [Druckbereichsbereich als HTML exportieren](/cells/de/java/export-print-area-range-to-html/)
+{{< app/cells/assistant language="java" >}}

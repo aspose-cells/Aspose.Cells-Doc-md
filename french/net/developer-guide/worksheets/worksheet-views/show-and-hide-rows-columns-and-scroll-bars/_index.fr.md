@@ -75,3 +75,4 @@ Masquez les barres de défilement en définissant la [**Workbook**](https://refe
 Ci-dessous se trouve un code complet qui ouvre un fichier Excel, book1.xls, masque les deux barres de défilement, puis enregistre le fichier modifié sous le nom de output.xls.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-DisplayHideScrollBars-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

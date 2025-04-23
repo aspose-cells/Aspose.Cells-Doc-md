@@ -75,3 +75,4 @@ Aspose.Cells for .NET stödjer de populära kalkylbladsformaten (XLS, XLSX, XLSM
 			</ul>
 	</div>
 </div>
+{{< app/cells/assistant language="csharp" >}}

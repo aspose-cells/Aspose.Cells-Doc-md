@@ -16,3 +16,4 @@ url: /ar/net/link-cells-to-xml-map-elements/
 إذا قمت بفتح [ملف إكسل المخرجات](5115467.xlsx) ونقرت على زر المطور > مصدر، سترى الخلايا مرتبطة بعناصر خريطة XML وسيتم إظهارها أيضًا من قبل Microsoft Excel كما هو موضح في هذه الصورة.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LinkCellsToXmlMapElements-LinkCellsToXmlMapElements.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

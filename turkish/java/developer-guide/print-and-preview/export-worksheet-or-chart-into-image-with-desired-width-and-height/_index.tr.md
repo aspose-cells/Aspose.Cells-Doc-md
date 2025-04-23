@@ -7,7 +7,7 @@ url: /tr/java/export-worksheet-or-chart-into-image-with-desired-width-and-height
 
 {{% alert color="primary" %}}
 
-Aspose.Cells'ı kullanarak çalışma sayfasını veya şekli istenen genişlik ve yükseklikte bir görüntüye dışa aktarabilirsiniz. Dışa aktarılan görüntünün istenen genişlik ve yüksekliğini ayarlamak için [**ImageOrPrintOptions.setDesiredSize()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#setDesiredSize(int,%20int)) yöntemini sağlar. Genişlik ve yükseklik piksel biriminde belirtilir.
+Aspose.Cells'ı kullanarak çalışma sayfasını veya şekli istenen genişlik ve yükseklikte bir görüntüye dışa aktarabilirsiniz. Dışa aktarılan görüntünün istenen genişlik ve yüksekliğini ayarlamak için [**ImageOrPrintOptions.setDesiredSize()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#setDesiredSize-int-int-) yöntemini sağlar. Genişlik ve yükseklik piksel biriminde belirtilir.
 
 {{% /alert %}}
 
@@ -22,3 +22,4 @@ Aşağıdaki kod çalışma sayfasını 400x400 boyutunda bir görüntüye dış
 - [Grafik Rendeleme](/cells/tr/java/chart-rendering/)
 - [Farklı Resim Formatlarına Çalışsayısı Dönüştürme](/cells/tr/java/converting-worksheet-to-different-image-formats/)
 - [Görünüm Kutusu Özelliği ile Grafiksel Bir Ortama Tabloyu Dışa Aktarma](/cells/tr/java/export-chart-to-svg-with-viewbox-attribute/)
+{{< app/cells/assistant language="java" >}}

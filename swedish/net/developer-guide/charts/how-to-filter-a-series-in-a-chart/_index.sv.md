@@ -14,9 +14,9 @@ url: /sv/net/filtering-charts-in-excel/
 ### **Steg för att filtrera serier från ett diagram i Excel**
 I Excel kan vi filtrera specifika serier från ett diagram, vilket gör att de filtrerade serierna inte visas i diagrammet. Det ursprungliga diagrammet visas i **Figur 1**. Men när vi filtrerar ut **Testserie2** och **Testserie4**, kommer diagrammet att visas som i **Figur 2**.
 
-I Aspose.Cells kan vi utföra en liknande operation. För en [provpunkt](seriesFiltered.xlsx) fil som denna, om vi vill filtrera ut **Testserie2** och **Testserie4**, kan vi köra följande kod. Dessutom kommer vi att behålla två listor: en ([NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/)) lista för att lagra alla valda serier och en annan ([FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filteredSeries/)) för att lagra de filtrerade serierna.
+I Aspose.Cells kan vi utföra en liknande operation. För en [exempel](seriesFiltered.xlsx)-fil som denna, om vi vill filtrera bort **Testseries2** och **Testseries4**, kan vi köra följande kod. Dessutom kommer vi att behålla två listor: en ([NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/)) för att lagra alla valda serier och en annan ([FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filterednseries/)) för att lagra de filtrerade serierna.
 
-Observera att i koden, när vi ställer in **chart.NSeries[0].IsFiltered = true;**, kommer den första serien i [NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/) att tas bort och placeras på rätt plats inom [FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filteredSeries/). Därefter kommer föregående **NSeries[1]** att bli det nya första objektet i listan, och alla följande serier kommer att skifta framåt med en position. Det betyder att om vi kör **chart.NSeries[1].IsFiltered = true;**, tar vi effektivt bort den ursprungliga tredje serien. Detta kan ibland leda till förvirring, så vi rekommenderar att följa operationen i koden, som tar bort serier från slutet till början.
+Vänligen **notera** att i koden, när vi ställer in **chart.NSeries[0].IsFiltered = true;**, tas den första serien i [NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/) bort och placeras på rätt position inom [FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filterednseries/). Därefter blir den tidigare **NSeries[1]** det nya första elementet i listan, och alla följande serier flyttas framåt med ett steg. Detta betyder att om vi sedan kör **chart.NSeries[1].IsFiltered = true;**, tar vi effektivt bort den ursprungliga tredje serien. Detta kan ibland skapa förvirring, så vi rekommenderar att följa operationen i koden, som tar bort serier från slutet till början.
 
 ![todo:image_alt_text](Figure1.png)
 
@@ -59,3 +59,4 @@ Klicka inuti din data och använd **CTRL + T** eller använd fliken Hem, **Forma
 Följande exempelkod laddar [prov Excel-fil](TableFilters.xlsx) som visar samma funktion med Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "TableFilters.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

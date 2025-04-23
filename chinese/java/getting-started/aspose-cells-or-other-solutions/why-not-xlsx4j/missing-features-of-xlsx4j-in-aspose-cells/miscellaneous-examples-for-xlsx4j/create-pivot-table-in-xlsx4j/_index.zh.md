@@ -168,3 +168,4 @@ workbook.save(dataDir + "AsposePivotTable.xls");
 更多详情，请访问[创建数据透视表和数据透视图](/cells/zh/java/create-pivot-tables-and-pivot-charts)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

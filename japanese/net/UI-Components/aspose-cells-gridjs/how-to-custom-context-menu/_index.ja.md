@@ -11,9 +11,29 @@ aliases:
   - /net/aspose-cells-gridjs/work-with-context-menu/
   - /net/aspose-cells-gridjs/work-with-context-menus/
 ---
+# カスタムビルトインコンテキストメニュー
+例：行/列の挿入/削除などのビルトインコンテキストメニュー項目があります。
+例：GridJsのdiv idを "gridjs-divid" と仮定し、「削除行」、「リンク」、「非表示」メニュー項目をコンテキストメニューから削除します
+```javascript
+   //get context menus parent dom
+   const menus=document.querySelector("#gridjs-divid > div > div.x-spreadsheet-sheet > div.x-spreadsheet-contextmenu");
+   var childs = menus.childNodes;
+   for (var i = childs.length - 1; i >= 0; i--)
+   {  
+     // check the item text
+     if(childs[i].childNodes[0]?.textContent==="Delete row"||childs[i].childNodes[0]?.textContent==="Link"||childs[i].childNodes[0]?.textContent==="Hide")
+       {
+         menus.removeChild(childs[i]);
+       }
+   }
+```
+この関数を呼び出した後 
 
-# カスタムコンテキストメニュー
-ビルトインのコンテキストメニューアイテム（例：行/列の挿入/削除など）があります
+![カスタマイズされたビルトインメニュー項目の画面](gridjs_customize_build_in_context_menu.png)
+
+
+# カスタム自己定義コンテキストメニュー
+例：行/列の挿入/削除などのビルトインコンテキストメニュー項目があります。
 ただし、ユーザーがカスタムコンテキストメニューアイテムを使用したい場合は。
 ロードオプションでコンテキストメニューアイテムを設定するサポートを行っています。
 たとえば：

@@ -16,3 +16,4 @@ keywords: 查找应用了特定样式的单元格，搜索应用了特定样式�
 此示例中的代码查找所有具有与A1单元格相同样式的单元格。在代码执行后，所有具有与A1相同样式的单元格将包含文本“找到”。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindCellsWithSpecificStyle-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

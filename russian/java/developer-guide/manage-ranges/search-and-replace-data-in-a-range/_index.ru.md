@@ -13,7 +13,7 @@ keywords: поиск и замена данных в Excel на Java, поиск
 
 {{% /alert %}}
 
-Aspose.Cells предоставляет метод [**FindOptions.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange(com.aspose.cells.CellArea)) для указания диапазона при поиске данных.
+Aspose.Cells предоставляет метод [**FindOptions.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange-com.aspose.cells.CellArea-) для указания диапазона при поиске данных.
 
 Предположим, вы хотите найти строку **"поиск"** и заменить ее на **"замена"** в диапазоне **E3:H6**. На скриншоте ниже показано, что строка "поиск" есть в нескольких ячейках, но мы хотим заменить ее только в заданном диапазоне, отмеченном здесь желтым цветом.
 
@@ -32,3 +32,4 @@ Aspose.Cells предоставляет метод [**FindOptions.setRange()**](
 ## Связанные статьи
 
 - [Поиск или поиск данных](/cells/ru/java/find-or-search-data/)
+{{< app/cells/assistant language="java" >}}

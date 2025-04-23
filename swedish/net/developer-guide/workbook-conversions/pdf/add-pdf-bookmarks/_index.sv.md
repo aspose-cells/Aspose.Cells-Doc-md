@@ -22,3 +22,4 @@ Se det följande kodexemplet för att se hur man lägger till PDF-bokmärken. Ko
 Om din kalkylblad har formler är det bäst att anropa [**Workbook.CalculateFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula/index) precis innan du renderar kalkylbladet i PDF-format. På så sätt säkerställs det att de formelberoende värdena uppdateras och renderas korrekt i PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

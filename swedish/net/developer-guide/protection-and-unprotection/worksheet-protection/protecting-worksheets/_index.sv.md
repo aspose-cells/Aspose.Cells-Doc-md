@@ -104,3 +104,4 @@ Följande exempel visar hur du skyddar en kolumn i kalkylarket. Det låser upp a
 Följande exempel visar hur du tillåter användare att redigera ett område i ett skyddat kalkylark.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-EditRangesWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

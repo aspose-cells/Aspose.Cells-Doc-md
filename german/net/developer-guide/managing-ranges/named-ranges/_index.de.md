@@ -30,3 +30,4 @@ Aspose.Cells bietet dieselbe Funktionalität wie Microsoft Excel zum Hinzufügen
 - [Benannte Bereiche formatieren und ändern](/cells/de/net/format-and-modify-named-ranges/)
 - [Bereich mit externen Links abrufen](/cells/de/net/get-range-with-external-links/)
 - [Implementierung nicht aufeinanderfolgender Bereiche](/cells/de/net/implementing-non-sequential-ranges/)
+{{< app/cells/assistant language="csharp" >}}

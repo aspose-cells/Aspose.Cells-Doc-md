@@ -24,3 +24,4 @@ Usar la opción [**SetImageResample**](https://reference.aspose.com/cells/net/as
 Si su hoja de cálculo contiene fórmulas, es mejor llamar a [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) justo antes de renderizar la hoja de cálculo en formato PDF. Al hacerlo, se asegurará de que los valores dependientes de las fórmulas se recalculen y los valores correctos se muestren en el PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

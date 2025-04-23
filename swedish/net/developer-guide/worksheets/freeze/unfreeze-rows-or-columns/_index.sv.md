@@ -32,3 +32,4 @@ Det är enkelt att avfrysa fönster med Aspose.Cells för .Net. Använd [**Works
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Unfreeze-Pane.cs" >}}
 
 Bifogad [provkälla för Excel-filen](Fryst.xlsx).
+{{< app/cells/assistant language="csharp" >}}

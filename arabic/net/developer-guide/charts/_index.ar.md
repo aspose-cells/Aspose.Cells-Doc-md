@@ -194,3 +194,4 @@ keywords: إنشاء رسم بياني، إنشاء رسم بياني
 - [إدارة عناوين مخططات Excel](/cells/ar/net/chart-and-axis-titles/)
 - [عرض الرسم البياني](/cells/ar/net/chart-rendering/)
 - [الحصول على نص المعادلة لخط اتجاه المخطط](/cells/ar/net/get-equation-text-of-chart-trendline/)
+{{< app/cells/assistant language="csharp" >}}

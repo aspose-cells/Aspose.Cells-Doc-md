@@ -166,3 +166,4 @@ var book = new Workbook(inputFilePath, loadOptions);
 作为 Worksheet.CopyConditionalFormatting 方法的替代方案，建议使用 Cells.CopyRows 或 Range.Copy 方法之一。
 ### **已弃用Cells.End属性**
 请使用Cells.LastCell属性作为Cells.End属性的替代方法。
+{{< app/cells/assistant language="csharp" >}}

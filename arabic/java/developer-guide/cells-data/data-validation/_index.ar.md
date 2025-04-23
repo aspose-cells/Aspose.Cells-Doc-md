@@ -49,16 +49,16 @@ url: /ar/java/data-validation/
 
 | **اسم العضو** | **الوصف** |
 | :- | :- |
-|[ANY_VALUE](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#ANY_VALUE)|يشير إلى قيمة من أي نوع.
-|[WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE_NUMBER)|يشير إلى نوع التحقق للأرقام الصحيحة بأكملها.
+|[ANY_VALUE](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#ANY-VALUE)| يدل على قيمة من أي نوع.|
+|[WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE-NUMBER)| يدل على نوع التحقق من صحة الأعداد الصحيحة.|
 |[DECIMAL](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#DECIMAL)|يشير إلى نوع التحقق للأرقام العشرية.
 |[LIST](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#LIST)|يشير إلى نوع التحقق لقائمة منسدلة.
 |[DATE](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#DATE)|يشير إلى نوع التحقق للتواريخ.
 |[TIME](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TIME)|يشير إلى نوع التحقق للتوقيت.
-|[TEXT_LENGTH](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TEXT_LENGTH)|يشير إلى نوع التحقق لطول النص.
+|[TEXT_LENGTH](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TEXT-LENGTH)| يدل على نوع التحقق من صحة طول النص.|
 |[CUSTOM](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#CUSTOM)|يشير إلى نوع التحقق المخصص.
 #### **عينة برمجية: التحقق من البيانات لأرقام صحيحة كاملة**
-مع هذا النوع من التحقق، يمكن للمستخدمين إدخال أرقام صحيحة فقط ضمن نطاق محدد في الخلايا المحققة. تظهر الأمثلة البرمجية التالية كيفية تنفيذ نوع التحقق WHOLE_NUMBER. تقوم الأمثلة بإنشاء نفس التحقق من البيانات باستخدام Aspose.Cells الذي أنشأناه باستخدام Microsoft Excel أعلاه.
+مع هذا النوع من التحقق، يمكن للمستخدمين إدخال أعداد صحيحة فقط ضمن نطاق محدد في الخلايا التي تم التحقق منها. تُظهر الأمثلة التالية كيف يتم تنفيذ نوع التحقق [WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE-NUMBER). ينشئ المثال نفس التحقق من صحة البيانات باستخدام Aspose.Cells كما أنشأنا باستخدام Microsoft Excel أعلاه.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-WholeNumberDataValidation-WholeNumberDataValidation.java" >}}
 
@@ -99,7 +99,7 @@ url: /ar/java/data-validation/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-TextLengthDataValidation-TextLengthDataValidation.java" >}}
 ## **قواعد تحقق البيانات**
-عندما يتم تنفيذ التحققات من البيانات، يمكن التحقق من التحقق من خلال تعيين قيم مختلفة في الخلايا. يمكن استخدام [Cell.GetValidationValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue%5C(%5C)) لاحضار نتيجة التحقق. يوضح المثال التالي هذه الميزة مع قيم مختلفة. يمكن تنزيل الملف العيني من الرابط التالي للفحص:
+عند تنفيذ التحققات من الصحة، يمكن فحص الصحة عن طريق تخصيص قيم مختلفة في الخلايا. يمكن استدعاء [Cell.GetValidationValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--) لاسترجاع نتيجة التحقق. يُظهر المثال التالي هذه الخاصية مع قيم مختلفة. يمكن تحميل ملف الاختبار من الرابط التالي:
 
 [SampleDataValidationRules.xlsx](77987849.xlsx)
 
@@ -113,9 +113,9 @@ url: /ar/java/data-validation/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-CheckIfValidationInCellDropDown-1.java" >}}
 ## **إضافة منطقة الخلية إلى التحقق القائم**
-قد تكون هناك حالات ترغب في إضافة [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) إلى [Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation) الموجود. عند إضافة [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) باستخدام [Validation.AddArea(CellArea cellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea%5C(com.aspose.cells.CellArea%5C))، يقوم Aspose.Cells بفحص جميع المناطق الموجودة لمعرفة ما إذا كانت المنطقة الجديدة موجودة بالفعل. إذا كان للملف عدد كبير من التحققات، فإن هذا يؤدي إلى تقليل الأداء. للتغلب على ذلك، تقدم الواجهة البرمجية طريقة [Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea%5C(com.aspose.cells.CellArea,%20boolean,%20boolean%5C)). يشير المعلمة *checkIntersection* إلى ما إذا كان يجب التحقق من تقاطع المنطقة المعطاه مع المناطق التحقق الموجودة. يتوفر تعيينها إلى **false** لتعطيل التحقق من المناطق الأخرى. تشير المعلمة *checkEdge* إلى ما إذا كان يجب التحقق من المناطق المطبقة. إذا كانت المنطقة الجديدة تصبح المنطقة العليا اليسرى، يتم إعادة بناء الإعدادات الداخلية. إذا كنت متأكدًا من أن المنطقة الجديدة ليست المنطقة العليا اليسرى، يمكنك ضبط هذه المعلمة على **false**.
+قد تكون هناك حالات ترغب فيها في إضافة [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) إلى [Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation) موجودة. عند إضافة [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) باستخدام [Validation.AddArea(CellArea cellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea-com.aspose.cells.CellArea-)، يتحقق Aspose.Cells من جميع المناطق الموجودة لمعرفة ما إذا كانت المنطقة الجديدة موجودة بالفعل. إذا كان الملف يحتوي على عدد كبير من التحققات، فإن ذلك يؤثر على الأداء. لتجاوز ذلك، توفر API طريقة [Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea-com.aspose.cells.CellArea-boolean-boolean-) التي تتضمن معاملات للتحقق من التداخل والتفاصيل، حيث يشير *checkIntersection* إلى ما إذا كانت المنطقة الجديدة تتداخل مع التحقق الموجود، و*checkEdge* يحدد ما إذا كانت ستتم إعادة بناء الإعدادات الداخلية عندما تصبح المنطقة الجديدة هي المنطقة العلوية اليسرى.
 
-يوضح مقتطف الكود التالي استخدام طريقة [Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea%5C(com.aspose.cells.CellArea,%20boolean,%20boolean%5C)) لإضافة منطقة الخلية الجديدة إلى التحقق الموجود.
+يعرض المقتطف التالي من الشفرة استخدام طريقة [Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea-com.aspose.cells.CellArea-boolean-boolean-) لإضافة [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) جديدة إلى [Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation) موجودة.
 
 
 
@@ -132,3 +132,4 @@ url: /ar/java/data-validation/
 - [الحصول على التحقق من الخلية في ملفات ODS](/cells/ar/java/get-cell-validation-in-ods-files/)
 - [الحصول على التحقق المطبق على خلية](/cells/ar/java/get-validation-applied-on-a-cell/)
 - [التحقق من أن قيمة الخلية تلبي قواعد التحقق من البيانات](/cells/ar/java/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="java" >}}

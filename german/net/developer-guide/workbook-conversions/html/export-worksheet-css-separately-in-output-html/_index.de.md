@@ -26,3 +26,4 @@ Wenn eine Arbeitsmappe mit mehreren Blättern unter Verwendung von Aspose.Cells 
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-SetSingleSheetTabNameInHtml-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

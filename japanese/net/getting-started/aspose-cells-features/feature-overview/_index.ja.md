@@ -111,3 +111,4 @@ Aspose.Cells for .NETは、すべてのスプレッドシート要素の書式�
 |余白およびページ中央揃えを指定する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |ヘッダーおよび/またはフッターを作成または編集する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |印刷エリアを設定したり、印刷タイトルを設定したり、グリッドラインを表示するなどします。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< app/cells/assistant language="csharp" >}}

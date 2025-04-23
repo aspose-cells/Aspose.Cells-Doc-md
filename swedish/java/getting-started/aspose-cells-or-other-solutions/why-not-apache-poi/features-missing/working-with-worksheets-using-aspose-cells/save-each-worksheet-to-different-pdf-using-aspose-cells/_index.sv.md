@@ -68,3 +68,4 @@ for (int j = 0; j < workbook.getWorksheets().getCount(); j++)
 För mer information, besök [Spara varje arbetsblad till en annan PDF-fil](/cells/sv/java/save-each-worksheet-to-a-different-pdf-file).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

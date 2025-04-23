@@ -25,3 +25,4 @@ url: /ar/java/change-adjustment-values-of-the-shape/
 ![todo:image_alt_text](change-adjustment-values-of-the-shape_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeAdjustmentValuesOfShape-ChangeAdjustmentValuesOfShape.java" >}}
+{{< app/cells/assistant language="java" >}}

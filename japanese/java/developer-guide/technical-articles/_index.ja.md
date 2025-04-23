@@ -5,3 +5,4 @@ weight: 2000
 url: /ja/java/technical-articles/
 ---
 
+{{< app/cells/assistant language="java" >}}

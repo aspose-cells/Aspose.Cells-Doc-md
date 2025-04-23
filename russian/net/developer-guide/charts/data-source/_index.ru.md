@@ -34,3 +34,4 @@ url: /ru/net/data-formatting-in-charts/
 - [Создание динамических диаграмм](/cells/ru/net/create-dynamic-charts/)
 - [Простой способ настройки диаграммы с использованием метода Chart.SetChartDataRange](/cells/ru/net/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [Найдите тип значений X и Y точек в серии графика](/cells/ru/net/find-type-of-x-and-y-values-of-points-in-chart-series/)
+{{< app/cells/assistant language="csharp" >}}

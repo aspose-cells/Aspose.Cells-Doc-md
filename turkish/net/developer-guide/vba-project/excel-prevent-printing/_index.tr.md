@@ -34,3 +34,4 @@ Aşağıdaki örnek kod, kullanıcıların excel dosyasını yazdırmalarını e
 1. Örnek dosyayı [xlsm biçimine](out.xlsm) kaydedin.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "VBA-Prevent-printing-excel.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

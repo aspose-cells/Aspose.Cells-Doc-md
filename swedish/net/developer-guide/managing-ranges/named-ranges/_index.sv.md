@@ -30,3 +30,4 @@ Aspose.Cells tillhandahåller samma funktionalitet som Microsoft Excel för att 
 - [Formatera och modifiera namngivna områden](/cells/sv/net/format-and-modify-named-ranges/)
 - [Hämta intervall med externa länkar](/cells/sv/net/get-range-with-external-links/)
 - [Implementera icke-sekventiella områden](/cells/sv/net/implementing-non-sequential-ranges/)
+{{< app/cells/assistant language="csharp" >}}

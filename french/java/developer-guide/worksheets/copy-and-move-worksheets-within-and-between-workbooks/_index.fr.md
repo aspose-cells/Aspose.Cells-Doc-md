@@ -121,3 +121,4 @@ Cet article explique comment copier et déplacer des feuilles de calcul à l'int
 Aspose.Cells a bénéficié d'années de recherche, de conception et d'ajustement minutieux. Nous vous invitons à poser vos questions, à formuler vos commentaires et à faire part de vos suggestions sur le [forum Aspose.Cells](https://forum.aspose.com/c/cells/9). Nous garantissons une réponse rapide.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

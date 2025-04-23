@@ -17,3 +17,4 @@ El siguiente código de muestra carga el [archivo de excel fuente](5115407.xlsx)
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-GlowEffectOfShape-GlowEffectOfShape.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

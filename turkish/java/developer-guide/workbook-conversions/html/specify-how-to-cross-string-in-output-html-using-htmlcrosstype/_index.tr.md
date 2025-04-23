@@ -15,7 +15,7 @@ Hücre metni veya dizesi mevcut olmasına rağmen hücrenin genişliğinden büy
 
 - [**HtmlCrossType.CROSS**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS): HTML olarak dizeyi geçiş yapın ve metinlerin örtüştüğü durumlarda sağdaki metni gizleyin.
 
-- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT): Hücre genişliği içindeki dizeyi yalnızca görüntüleyin.
+- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS-HIDE-RIGHT): Hücre genişliği içindeki dizeyi yalnızca görüntüleyin.
 
 Çıktı HTML'sinde dizeyi enine nasıl geçeceğinizi HtmlCrossType kullanarak belirtin
 
@@ -28,3 +28,4 @@ Aşağıdaki örnek kod, yüklenecek olan [örnek Excel dosyasını](51740747.x
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-SpecifyHtmlCrossTypeInOutputHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

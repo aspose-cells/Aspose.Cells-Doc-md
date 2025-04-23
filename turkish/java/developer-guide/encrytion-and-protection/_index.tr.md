@@ -33,3 +33,4 @@ Belge içeriğinin doğruluğunu korumak için dijital imza ekleyebilirsiniz.
 - [Bir Dosya Biçimini Algılama ve Dosyanın Şifreli Olup Olmadığını Kontrol Etme](/cells/tr/java/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
 
 
+{{< app/cells/assistant language="java" >}}

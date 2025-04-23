@@ -22,3 +22,4 @@ Följande exempel visar hur man renderar en rad sidor (3 och 4) i en Microsoft E
 Om kalkylbladet innehåller formler är det bäst att använda [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) strax innan du renderar det till PDF-format. På så sätt säkerställs att formelberoende värden omberäknas och de korrekta värdena renderas i utdatafilen.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

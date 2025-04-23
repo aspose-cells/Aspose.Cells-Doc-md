@@ -32,3 +32,4 @@ Mit Aspose.Cells for .NET ist es einfach, Fenster zu entfrieren. Bitte verwenden
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Unfreeze-Pane.cs" >}}
 
 Angehängte [Beispiel-Excel-Quelldatei](Frozen.xlsx).
+{{< app/cells/assistant language="csharp" >}}

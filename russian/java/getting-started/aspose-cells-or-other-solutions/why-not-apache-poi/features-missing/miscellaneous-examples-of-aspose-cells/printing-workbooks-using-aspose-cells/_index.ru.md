@@ -62,3 +62,4 @@ wr.toPrinter("Samsung ML-1520 Series");
 Для получения дополнительной информации посетите [Печать рабочих книг](/cells/ru/java/printing-workbooks).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

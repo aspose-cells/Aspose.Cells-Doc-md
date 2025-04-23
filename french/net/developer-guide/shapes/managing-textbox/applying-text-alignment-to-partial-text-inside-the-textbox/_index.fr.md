@@ -19,3 +19,4 @@ Vous pouvez également modifier l'alignement du texte de certain texte à l'int�
 [fichier source](SampleTextboxExcel2016.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "ApplyPartialTextAlignmentToTextBox.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

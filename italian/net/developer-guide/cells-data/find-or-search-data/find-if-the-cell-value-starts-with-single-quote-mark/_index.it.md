@@ -16,3 +16,4 @@ Aspose.Cells ora fornisce la proprietà [**Style.QuotePrefix**](https://referenc
 Il seguente codice di esempio spiega che le stringhe come campione e 'campione non possono essere differenziate con la proprietà [**Cell.StringValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue). Pertanto, dobbiamo utilizzare la proprietà [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) per distinguerle.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindIfCellValueStartsWithSingleQuote-FindIfCellValueStartsWithSingleQuote.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

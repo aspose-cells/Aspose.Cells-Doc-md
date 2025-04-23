@@ -89,3 +89,4 @@ Om du använder [**Custom**](https://reference.aspose.com/cells/net/aspose.cells
 - [Rendera anpassat datumformatmönster g och ge mm dd](/cells/sv/net/render-custom-date-format-pattern-g-and-ge-mm-dd/)
 - [Ange anpassade nummerdecimaler och gruppavgränsare för Arbetsbok](/cells/sv/net/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [Specificera DBNum anpassade mönsterformatering](/cells/sv/net/specifying-dbnum-custom-pattern-formatting/)
+{{< app/cells/assistant language="csharp" >}}

@@ -1,0 +1,161 @@
+---
+title: Manipulera Position, Storlek och Designer diagram med Node.js via C++
+linktitle: Hantera position, storlek och formgivning av diagram
+description: Lär dig hur du använder Aspose.Cells for Node.js via C++ för att effektivt manipulera position, storlek och designer diagram i Microsoft Excel. Vår guide visar hur man justerar dessa egenskaper för bättre layout och visualisering.
+keywords: Aspose.Cells for Node.js via C++, Position, Storlek, Designer diagram, Microsoft Excel, Layout, Visualisering.
+type: docs
+weight: 45
+url: /sv/nodejs-cpp/manipulate-position-size-and-designer-chart/
+---
+
+## **Diagramposition och storlek**
+Ibland vill du ändra positionen eller storleken på det nya eller befintliga diagrammet inuti kalkylbladet. Aspose.Cells erbjuder egenskapen [Chart.getChartObject()](https://reference.aspose.com/cells/nodejs-cpp/chart/#getChartObject--) för att åstadkomma detta. Du kan använda dess underegenskaper för att ändra storlek på diagrammet med nya **höjd** och **bredd** eller omplacera det med nya **X** och **Y** koordinater.
+
+### **Kontrollera diagrammets position och storlek**
+För att ändra diagrammets position (X, Y-koordinater) eller storlek (höjd, bredd), använd dessa egenskaper:
+
+1. [Shape.getX()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getX--)
+1. [Shape.getY()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getY--)
+1. [Shape.getHeight()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getHeight--)
+1. [Shape.getWidth()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getWidth--)
+
+Följande exempel förklarar användningen av ovan API:er; den laddar den befintliga arbetsboken som innehåller ett diagram i dess första kalkylblad. Sedan ändras storlek och omplacering av diagrammet med Aspose.Cells.
+
+```javascript
+const path = require("path");
+const AsposeCells = require("aspose.cells.node");
+
+// The path to the documents directory.
+const dataDir = path.join(__dirname, "data");
+const filePath = path.join(dataDir, "chart.xls");
+
+// Loads the workbook which contains the chart
+const workbook = new AsposeCells.Workbook(filePath);
+const worksheet = workbook.getWorksheets().get(1);
+
+// Load the chart from source worksheet
+const chart = worksheet.getCharts().get(0);
+
+// Resize the chart
+chart.getChartObject().setWidth(400);
+chart.getChartObject().setHeight(300);
+
+// Reposition the chart
+chart.getChartObject().setX(250);
+chart.getChartObject().setY(150);
+
+// Output the file
+workbook.save(path.join(dataDir, "chart.out.xls"));
+```
+
+## **Manipulering av Designerdiagram**
+Ibland behöver du manipulera eller ändra diagram i designer mallfiler. Aspose.Cells stöder fullt ut manipulation av innehåll och element i designer-diagram. Data, diagraminnehåll, bakgrundsbild och formatering kan bevaras med precision.
+
+### **Manipulera designmallar i mallfiler för diagram**
+För att manipulera designer-diagram i mallfiler, använd API:en relaterad till diagram. Till exempel kan du använda egenskapen Worksheet.charts för att få den befintliga diagramsamlingen i mallfilen.
+
+#### **Skapa ett diagram**
+Följande exempel visar hur man skapar ett pyramiddiagram. Senare kommer vi att manipulera detta diagram.
+
+```javascript
+const path = require("path");
+const AsposeCells = require("aspose.cells.node");
+
+// The path to the documents directory.
+const dataDir = path.join(__dirname, "data");
+
+// Instantiating a Workbook object
+const workbook = new AsposeCells.Workbook();
+
+// Adding a new worksheet to the Excel object
+const sheetIndex = workbook.getWorksheets().add();
+
+// Obtaining the reference of the newly added worksheet by passing its sheet index
+const worksheet = workbook.getWorksheets().get(sheetIndex);
+
+// Adding sample values to cells
+worksheet.getCells().get("A1").putValue(50);
+worksheet.getCells().get("A2").putValue(100);
+worksheet.getCells().get("A3").putValue(150);
+worksheet.getCells().get("B1").putValue(4);
+worksheet.getCells().get("B2").putValue(20);
+worksheet.getCells().get("B3").putValue(50);
+
+// Adding a chart to the worksheet
+const chartIndex = worksheet.getCharts().add(AsposeCells.ChartType.Pyramid, 5, 0, 15, 5);
+
+// Accessing the instance of the newly added chart
+const chart = worksheet.getCharts().get(chartIndex);
+
+// Adding SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B3"
+chart.getNSeries().add("A1:B3", true);
+
+// Saving the Excel file
+workbook.save(path.join(dataDir, "book1.out.xls"));
+```
+
+#### **Manipulera diagrammet**
+Följande exempel visar hur man manipulerar det befintliga diagrammet. I det här exemplet ändrar vi det skapade diagrammet ovan. I den genererade utmatningen, notera att datumetiketten för en datapunkt har ställts in till 'Storbritannien, 30K'.
+
+```javascript
+const path = require("path");
+const AsposeCells = require("aspose.cells.node");
+
+// The path to the documents directory.
+const dataDir = path.join(__dirname, "data");
+const filePath = path.join(dataDir, "piechart.xls");
+
+// Loads the existing file.
+const workbook = new AsposeCells.Workbook(filePath);
+
+// Get the designer chart in the second sheet.
+const sheet = workbook.getWorksheets().get(1);
+const chart = sheet.getCharts().get(0);
+
+// Get the data labels in the data series of the third data point.
+const dataLabels = chart.getNSeries().get(0).getPoints().get(2).getDataLabels();
+
+// Change the text of the label.
+dataLabels.setText("Unided Kingdom, 400K ");
+
+// Save the excel file.
+workbook.save(path.join(dataDir, "output.xls"));
+```
+
+#### **Manipulera ett linjediagram i designmallen**
+I det här exemplet kommer vi att manipulera ett linjediagram. Vi kommer att lägga till några data-serier i det befintliga diagrammet och ändra deras linjefärger.
+
+```javascript
+const path = require("path");
+const AsposeCells = require("aspose.cells.node");
+
+// The path to the documents directory.
+const dataDir = path.join(__dirname, "data");
+// Open the existing file.
+const workbook = new AsposeCells.Workbook(path.join(dataDir, "sample.xlsx"));
+
+// Get the designer chart in the first worksheet.
+const chart = workbook.getWorksheets().get(0).getCharts().get(0);
+
+// Add the third data series to it.
+chart.getNSeries().add("{60, 80, 10}", true);
+
+// Add another data series (fourth) to it.
+chart.getNSeries().add("{0.3, 0.7, 1.2}", true);
+
+// Plot the fourth data series on the second axis.
+chart.getNSeries().get(3).setPlotOnSecondAxis(true);
+
+// Change the Border color of the second data series.
+chart.getNSeries().get(1).getBorder().setColor(AsposeCells.Color.Green);
+
+// Change the Border color of the third data series.
+chart.getNSeries().get(2).getBorder().setColor(AsposeCells.Color.Red);
+
+// Make the second value axis visible.
+chart.getSecondValueAxis().setIsVisible(true);
+
+// Save the excel file.
+workbook.save(path.join(dataDir, "output.xls"));
+```
+

@@ -18,3 +18,4 @@ Le code d'exemple suivant charge le [fichier Excel source](98107416.xlsx) et gé
 Code d'exemple
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToHtmlWithTooltip-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

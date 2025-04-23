@@ -30,3 +30,4 @@ Aspose.Cells fornisce la stessa funzionalità di Microsoft Excel per l'aggiunta 
 - [Formattare e modificare intervalli con nome](/cells/it/net/format-and-modify-named-ranges/)
 - [Ottieni Intervallo con Link Esterni](/cells/it/net/get-range-with-external-links/)
 - [Implementazione degli Intervallo Non Sequenziali](/cells/it/net/implementing-non-sequential-ranges/)
+{{< app/cells/assistant language="csharp" >}}

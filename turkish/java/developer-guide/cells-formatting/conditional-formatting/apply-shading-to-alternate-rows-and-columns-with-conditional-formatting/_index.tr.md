@@ -31,3 +31,4 @@ Sıralı sütunlara gölge uygulamak için yapmanız gereken tek şey, **=MOD(RO
 Bu durumda, elde edilen elektronik tablo aşağıdaki resimdeki gibi görünecektir.
 
 ![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)
+{{< app/cells/assistant language="java" >}}

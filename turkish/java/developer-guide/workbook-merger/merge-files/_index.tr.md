@@ -7,7 +7,7 @@ url: /tr/java/merge-files/
 
 ## **Giriş**
 
-Aspose.Cells, dosyaları birleştirmek için farklı yöntemler sunar. Basit dosyalar için, [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) yöntemi birkaç çalışma kitabını birleştirmek için kullanılabilir ve [**Worksheet.copy(**)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)) yöntemi çalışsayıları yeni bir çalışma kitabına kopyalamak için kullanılabilir. Bu yöntemler kullanımı kolaydır ve etkilidir, ancak birçok dosyayı birleştirmeniz gerekiyorsa, sistem kaynaklarını çok fazla kullandıklarını görebilirsiniz. Bunu önlemek için, daha verimli birleştirmek için CellsHelper.mergeFiles statik yöntemini kullanın.
+Aspose.Cells, dosyaları birleştirmek için farklı yöntemler sağlar. Veriler, biçimlendirme ve formüller içeren basit dosyalar için [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine-com.aspose.cells.Workbook-) yöntemi, birkaç çalışma kitabını birleştirmek için kullanılabilir ve [**Worksheet.copy(**)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy-com.aspose.cells.Worksheet-) yöntemi, çalışma sayfalarını yeni bir çalışma kitabına kopyalamak için kullanılabilir. Bu yöntemler kullanımı kolay ve etkilidir, ancak çok sayıda dosya birleştiriyorsanız, bunların sistem kaynaklarını çok kullanabileceğini fark edebilirsiniz. Bunu önlemek için, daha verimli bir yol olan CellsHelper.mergeFiles statik yöntemini kullanın.
 
 ## **Aspose.Cells Kullanarak Dosyaları Birleştirme**
 
@@ -20,3 +20,4 @@ CellsHelper.mergeFiles yöntemi sadece veri, stiller, biçimlendirme ve formüll
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-MergeFiles-MergeFiles.java" >}}
+{{< app/cells/assistant language="java" >}}

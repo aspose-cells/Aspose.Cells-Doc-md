@@ -26,3 +26,4 @@ Cuando un libro con múltiples hojas se convierte a HTML usando Aspose.Cells, se
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-SetSingleSheetTabNameInHtml-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

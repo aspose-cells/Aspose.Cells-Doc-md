@@ -42,3 +42,4 @@ Il est très facile d'ouvrir un fichier Excel protégé par mot de passe et de l
 
 
 
+{{< app/cells/assistant language="java" >}}

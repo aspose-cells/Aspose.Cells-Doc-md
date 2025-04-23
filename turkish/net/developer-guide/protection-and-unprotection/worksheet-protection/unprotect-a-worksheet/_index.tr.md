@@ -31,3 +31,4 @@ Basit bir korumalı çalışma sayfası, bir şifre ile korunmayan bir çalışm
 Şifre korumalı bir çalışma sayfası, bir şifre ile korunan bir çalışma sayfasıdır. Bu tür çalışma sayfaları, şifreyi parametre olarak alan [**Unprotect**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/unprotect/methods/1) yönteminin aşırı yüklenmiş bir sürümünü çağırarak koruyarak korumadan kaldırılabilir.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Unprotect-UnprotectingPasswordProtectedWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

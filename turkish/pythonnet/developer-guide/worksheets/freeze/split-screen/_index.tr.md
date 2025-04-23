@@ -4,8 +4,8 @@ linktitle: Bölünmüş Ekran
 type: docs
 weight: 190
 url: /tr/python-net/how-to-split-screen-of-excel-worksheet
-description: Bu makalede, Aspose.Cells için Python via .NET API lerini kullanarak çalışma sayfasını programlı olarak ikiye veya dörde bölerek belirli satırları ve/veya sütunları ayrı panellere nasıl göstereceğinizi öğreneceksiniz.
-keywords: Python Excel Kütüphanesi, Python Üst Satırları Dondur, Python Üst Satırı Dondur, Python Sutunlara Göre Dikey Olarak Çalışma Sayfasını Bölmek, Python Satırlara Göre Yatay Olarak Çalışma Sayfasını Bölmek, Python Çalışma Sayfasını Dört Bölüme Bölmek Python Bölme.
+description: Bu makalede, çalışma sayfasını ikiye veya dörde bölerek farklı bölümlerde belirli satır ve/veya sütunları programlı olarak nasıl göstereceğinizi öğreneceksiniz. Aspose.Cells for Python via .NET API lerini kullanarak.
+keywords: Python Excel Kütüphanesi, Python Üst Satırları Dondur, Python Üst Satırları Dondur, Python çalışma sayfasını dikey olarak sütunlar üzerinde böl, Python çalışma sayfasını yatay olarak satırlar üzerinde böl, Python çalışma sayfasını dört parçaya böl, Python bölmeyi kaldırma.
 ---
 
 ## **Giriş**
@@ -20,34 +20,34 @@ Bir elektronik tabloyu ikiye veya dörde bölmek için aşağıdakileri yapın:
 
 **![Bölünmüş Ekran](Bölünmüş-Ekran.png)**
 
-## **Sutunlara Göre Çalışma Sayfasını Bölmek Nasıl Yapılır**
+## **Çalışma Sayfasını Dikey Olarak Bölme**
 
 Elektronik tablonun farklı alanlarını dikey olarak ayırmak için, bölmenin görünmesini istediğiniz sütunun sağındaki sütunu seçin ve Excel'de Böl düğmesini tıklayın.
 
-Aspose.Cells için Python via .NET ile programlı olarak sutunlara göre çalışma sayfasını bölmek oldukça kolay, yalnızca üst satırdaki bir hücreyi etkin hücre olarak seçmemiz yeterli.
+Python ile Aspose.Cells kullanarak, sekmeleri programatik olarak dikey bölmek oldukça kolaydır. via .NET, sadece aktif hücre olmaya uygun olan üst satırda bir hücre seçmemiz yeterlidir, sonra
 [**Worksheet.split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/split/) yöntemi ile bölmek.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Vertically-Split.py" >}}
 
-## **Satırlara Göre Çalışma Sayfasını Bölmek Nasıl Yapılır**
+## **İşsayfasını Satırlara Göre Yatay Bölme Yöntemi**
 Excel'de pencerenizi yatay olarak ayırmak için, bölmeyi istediğiniz satırın altındaki satırı seçin.
 
-Aspose.Cells için Python via .NET ile programlı olarak satırlara göre çalışma sayfasını bölmek oldukça kolay, yalnızca sol sütundaki bir hücreyi etkin hücre olarak seçmemiz yeterli.
+Python ile Aspose.Cells kullanarak, işsayfasını yatay olarak satırlara bölmek oldukça kolaydır. via .NET, sadece uygun olan sol sütunda bir hücre seçmemiz yeterlidir, sonra
 [**Worksheet.split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/split/) yöntemi ile bölmek.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Horizontally-Split.py" >}}
 
-## **Çalışma Sayfasını Dört Bölüme Ayırmak Nasıl Yapılır**
+## **İşsayfasını Dört Bölüme Ayırma Yöntemi**
 Aynı elektronik tablonun dört farklı bölümünü aynı anda görüntülemek için, Excel'de ekranınızı hem dikey hem yatay olarak bölebilirsiniz.
 
-Aspose.Cells için Python via .NET ile programlı olarak sutunlara göre çalışma sayfasını bölmek oldukça kolay, yalnızca ilk sıra ve sütunda olmayan bir hücreyi etkin hücre olarak seçmemiz yeterli.
+Python ile Aspose.Cells kullanarak, sekmeleri programatik olarak dikey bölmek oldukça kolaydır. via .NET, ilk satır ve sütunda olmayan bir hücreyi aktif hücre olarak seçmemiz yeterlidir, sonra
 [**Worksheet.split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/split/) yöntemi ile bölmek.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Split-Four.py" >}}
 
-## **Bölünmüş Üzerindeki Ayırmak Nasıl Yapılır**
+## **Bölmeyi Kaldırma Yöntemi**
 Elektronik tabloyu bölme ayarını kaldırmak için, sadece Böl düğmesini tekrar tıklayın.
 
-Aspose.Cells için Python via .NET bir bölme ayarı kaldırmak için [**Worksheet.remove_split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/remove_split/) yöntemini sağlar.
+Aspose.Cells for Python via .NET, bölmeyi kaldırmak için [**Worksheet.remove_split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/remove_split/) metodunu sağlar.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Remove-Split.py" >}}

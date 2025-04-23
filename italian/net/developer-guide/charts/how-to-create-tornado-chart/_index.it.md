@@ -36,3 +36,4 @@ Si prega di consultare il seguente codice di esempio. Carica il [file Excel di e
 ### **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-tornado-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

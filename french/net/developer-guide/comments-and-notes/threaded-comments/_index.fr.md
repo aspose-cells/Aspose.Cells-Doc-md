@@ -141,3 +141,4 @@ L'exemple suivant montre comment supprimer les commentaires dans la colonne A1 e
 Veuillez noter qu'en supprimant le commentaire avec Aspose.Cells, l'auteur n'est pas automatiquement supprimé. Si vous devez également supprimer l'auteur, veuillez utiliser la méthode RemoveAt de la classe [**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthorcollection) comme indiqué dans l'exemple ci-dessus.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

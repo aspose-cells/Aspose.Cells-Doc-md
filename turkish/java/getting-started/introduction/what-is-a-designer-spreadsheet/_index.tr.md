@@ -36,3 +36,4 @@ Bir tasarımcı elektronik tablo oluşturduktan sonra, Aspose.Cells'i kullanarak
 Ayrıca, Aspose.Cells tasarımcı elektronik tabloya [akıllı imler](/cells/tr/java/smart-markers/) eklemenize olanak tanır. Akıllı imler, [**WorkbookDesigner**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner) sınıfının Process yöntemi kullanılarak çalışma zamanında işlenir. Bu, daha az kod yazmanıza ve yine de harika sonuçlar almanıza yardımcı olabilir.
 
 [Akıllı imler hakkında daha fazla bilgi edinin](/cells/tr/java/smart-markers/).
+{{< app/cells/assistant language="java" >}}

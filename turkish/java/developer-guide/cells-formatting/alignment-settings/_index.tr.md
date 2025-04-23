@@ -81,7 +81,7 @@ Bir alanda metni kaydırmak için bir seçenek, metni bir hücrenin boyutlarına
 
 ### **Hücreleri Birleştirme**
 
-Microsoft Excel gibi, Aspose.Cells birçok hücreyi tek bir hücre olarak birleştirmeyi destekler. Aspose.Cells bu görevi yerine getirmek için iki yaklaşım sağlar. Bu görevi yerine getirmenin bir yolu [**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) yöntemini çağırmaktır. Yöntem, hücreleri birleştirmek için aşağıdaki parametreleri alır:
+Microsoft Excel gibi, Aspose.Cells birçok hücreyi tek bir hücre olarak birleştirmeyi destekler. Aspose.Cells bu görevi yerine getirmek için iki yaklaşım sağlar. Bu görevi yerine getirmenin bir yolu [**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge-int-int-int-int-) yöntemini çağırmaktır. Yöntem, hücreleri birleştirmek için aşağıdaki parametreleri alır:
 
 - İlk satır: Birleştirmeye başlamak için ilk satır.
 - İlk sütun: Birleştirmeye başlamak için ilk sütun.
@@ -108,3 +108,4 @@ Okuma sırası [**TextDirection**](https://reference.aspose.com/cells/java/com.a
 ## **Gelişmiş Konular**
 - [Hücre Düzenini Değiştirme ve Mevcut Biçimlendirmeyi Koruma](/cells/tr/java/change-cells-alignment-and-keep-existing-formatting/)
 - [Satır Sonları ve Metin Kaydırma](/cells/tr/java/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="java" >}}

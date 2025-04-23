@@ -19,3 +19,4 @@ Das Ergebnis dieses Tests war sehr gut. Wenn Sie beispielsweise 100 Anfragen fü
 Jetzt haben wir das Problem gelöst, das unseren Kunden zu viel Zeit gekostet hat. Die Benutzerfreundlichkeit unserer Produkte ist höher. 
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -17,3 +17,4 @@ Le fichier source d'exemple et les fichiers de sortie peuvent être télécharg�
 [Fichier PDF de Sortie](95584329.pdf)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-PivotTableCustomSort-1.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -30,3 +30,4 @@ Följande exempelkod visar hur man använder egenskapen [**PdfSaveOptions.setAll
 Om din kalkylblad innehåller formler är det bäst att anropa [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) metoden strax före rendering av kalkylbladet till PDF-format. Genom att göra det säkerställs att formelberoende värden omberäknas och de korrekta värdena visas i PDF:n.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

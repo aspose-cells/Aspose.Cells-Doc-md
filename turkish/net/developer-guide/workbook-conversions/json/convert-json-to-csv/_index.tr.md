@@ -14,3 +14,4 @@ Aşağıdaki kod örneği, [kaynak JSON dosyasını](104398869.json) yükleme ve
 ### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertJsonToCsv-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -23,3 +23,4 @@ Para encontrar y configurar esta opción en Microsoft Excel:
 Aspose.Cells proporciona las propiedades [**PivotTable.setDisplayNullString()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#DisplayNullString) y [**PivotTable.setNullString()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#NullString) para configurar la opción de tabla dinámica "Mostrar celdas vacías".
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingPivotTableOption-SettingPivotTableOption.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -3,8 +3,8 @@ title: ヘッダーとフッターの設定
 type: docs
 weight: 30
 url: /ja/python-net/setting-headers-and-footers/
-description: この記事では、Aspose.Cells for Python via .NET APIを使用してスクリプトコマンドを設定してExcelワークシートのヘッダーとフッターに画像をプログラムで挿入する方法について説明します。
-keywords: Python Excelライブラリ、Excelヘッダーフッターに画像を挿入、Pythonを使用してExcelヘッダーフッタースクリプトコマンドを設定します。
+description: この記事では、Aspose.Cells for Python via .NET APIを使用して、スクリプトコマンドでヘッダーとフッターを設定することによって、Excelワークシートのヘッダーとフッターに画像をプログラム的に挿入する方法を説明します。
+keywords: Python Excel ライブラリ、Python で Excel のヘッダーとフッターに画像を挿入、スクリプトコマンドを使用して Excel のヘッダーとフッターを設定する方法。
 ---
 
 {{% alert color="primary" %}}
@@ -15,9 +15,9 @@ keywords: Python Excelライブラリ、Excelヘッダーフッターに画像�
 
 ## **ヘッダーとフッタの設定**
 
-Aspose.Cells for Python via .NETを使用すると、ランタイムでワークシートにヘッダーとフッターを追加できますが、印刷用に事前に設計されたファイルでヘッダーとフッターを手動で設定することをお勧めします。労力と開発時間を節約するために、Microsoft ExcelをGUIツールとして使用してヘッダーとフッターを設定することができます。Aspose.Cells for Python via .NETはファイルをインポートして設定を保存できます。
+Aspose.Cells for Python via .NET を使用すると、実行時にワークシートにヘッダーとフッターを追加できますが、印刷のために事前にデザインされたファイルで手動で設定することをお勧めします。Microsoft ExcelをGUIツールとして使用してヘッダーとフッターを設定し、労力と開発時間を節約できます。Aspose.Cells for Python via .NET はファイルをインポートして設定を保存できます。
 
-ランタイムでヘッダーとフッターを追加するには、Aspose.Cells for Python via .NETは特別なAPI呼び出しとスクリプトコマンドを提供して、ヘッダーとフッターを書式設定します。
+実行時にヘッダーとフッターを追加するには、Aspose.Cells for Python via .NET がヘッダーとフッターの書式設定に役立つ特別なAPI呼び出しとスクリプトコマンドを提供します。
 
 ### **スクリプトコマンド**
 
@@ -34,9 +34,9 @@ Aspose.Cells for Python via .NETを使用すると、ランタイムでワーク
 |&F|パスを除いたファイル名
 |&"\<FontName>"|フォント名を表します。例: &"Arial"
 |&"\<FontName>, \<FontStyle>"|スタイル付きのフォント名を表します。例: &"Arial,Bold"
-フォントサイズを表します。例：“&14abc”。ただし、このコマンドに続いてヘッダーに印刷するプレーンな数字がある場合、フォントサイズとは空白文字で区切られている必要があります。例：“&14 123”。
+|&\<FontSize>|フォントサイズを表します。例：「&14abc」。ただし、このコマンドの後にヘッダーに印刷されるプレーンな数字が続く場合、その数字はフォントサイズとスペースで区切る必要があります。例：「&14 123」。|
 
-### **ヘッダーとフッターの設定方法**
+### **ヘッダーとフッターを設定する方法**
 
 [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) クラスは、ワークシートにヘッダーやフッターを追加するために使用される [**set_header**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_header/#int-str) と [**set_footer**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_footer/#int-str) という二つのメソッドを提供します。これらのメソッドは2つのパラメーターのみを取ります。
 
@@ -45,7 +45,7 @@ Aspose.Cells for Python via .NETを使用すると、ランタイムでワーク
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetHeadersAndFooters-1.py" >}}
 
-### **ヘッダーやフッターに画像を挿入する方法**
+### **ヘッダーまたはフッターに画像を挿入する方法**
 
 [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) クラスには、ヘッダーやフッターに画像を追加するために使用される [**set_header_picture**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_header_picture/#int-bytes) と [**set_footer_picture**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_footer_picture/#int-bytes) という追加のメソッドがあります。これらのメソッドは以下のパラメーターを取ります。
 

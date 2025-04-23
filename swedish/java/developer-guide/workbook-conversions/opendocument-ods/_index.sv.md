@@ -17,3 +17,4 @@ Aspose.Cells stöder inläsning av OpenDocument 1.1 och 1.2-dokument. Aspose.Cel
 **En prov-ODS-dokument som genererats av Aspose.Cells och öppnats i OpenOffice Writer** 
 
 ![todo:image_alt_text](opendocument-ods_1.png)
+{{< app/cells/assistant language="java" >}}

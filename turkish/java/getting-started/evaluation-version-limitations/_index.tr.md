@@ -47,3 +47,4 @@ Aspose.Cells tarafından çıktı PDF veya görüntü dosyasında, bir değerlen
 <br>
 <image src="3.png" width="70%" />
 <br>
+{{< app/cells/assistant language="java" >}}

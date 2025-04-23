@@ -51,3 +51,4 @@ refersto: =Sheet1!$H$1:$N$69
 
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

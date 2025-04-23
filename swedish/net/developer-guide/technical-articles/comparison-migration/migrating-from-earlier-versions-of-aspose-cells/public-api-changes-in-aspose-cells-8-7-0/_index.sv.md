@@ -381,3 +381,4 @@ book.Save(outFilePath, pdfSaveOptions);
 ## **Borttagen API:er**
 ### **Egenskap Arbetsbok.SparaAlternativ Borttagen**
 Egenskapen Arbetsbok.SparaAlternativ markerades som föråldrad för en tid sedan. Med denna version har den tagits bort helt från den offentliga API: n och det rekommenderas därför att använda Arbetsbok.Spara(Ström, SparaAlternativ) eller Arbetsbok.Spara(sträng, SparaAlternativ) -metoden som ett alternativ.
+{{< app/cells/assistant language="csharp" >}}

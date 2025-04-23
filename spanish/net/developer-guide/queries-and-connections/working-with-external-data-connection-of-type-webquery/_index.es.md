@@ -26,3 +26,4 @@ Aquí está la salida de la consola del código anterior con este [archivo de Ex
 Web Query URL: https://docs.aspose.com/cells/net/
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

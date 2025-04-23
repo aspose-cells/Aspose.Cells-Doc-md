@@ -22,3 +22,4 @@ Aspose.Cellsは[**Chart.SubTitle**](https://reference.aspose.com/cells/net/aspos
 Chart Subtitle: Sample Chart Subtitle
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

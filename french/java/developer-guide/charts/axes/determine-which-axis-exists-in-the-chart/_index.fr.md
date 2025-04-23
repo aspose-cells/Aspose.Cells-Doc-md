@@ -9,7 +9,7 @@ url: /fr/java/determine-which-axis-exists-in-the-chart/
 
 Parfois, l'utilisateur a besoin de savoir si un axe particulier existe dans le graphique. Par exemple, il veut savoir si un axe de valeur secondaire existe à l'intérieur du graphique ou non. Certains graphiques comme Pie, PieExploded, PiePie, PieBar, Pie3D, Pie3DExploded, Doughnut, DoughnutExploded, etc. n'ont pas d'axe.
 
-Aspose.Cells fournit [**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean)) méthode pour déterminer si le graphique a un axe particulier ou non.
+Aspose.Cells fournit [**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis-int-boolean-) méthode pour déterminer si le graphique a un axe particulier ou non.
 
 {{% /alert %}}
 
@@ -19,7 +19,7 @@ La capture d'écran ci-dessous montre un graphique qui a uniquement l'axe de cat
 
 ![todo:image_alt_text](determine-which-axis-exists-in-the-chart_1.png)
 
-Le code d'exemple suivant démontre l'utilisation de [**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean)) pour déterminer si le graphique d'exemple possède des axes de catégorie et de valeur principaux et secondaires. La sortie de la console du code est affichée ci-dessous, affichant vrai pour l'axe de catégorie principal et de valeur, et faux pour l'axe de catégorie et de valeur secondaires.
+Le code d'exemple suivant démontre l'utilisation de [**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis-int-boolean-) pour déterminer si le graphique d'exemple possède des axes de catégorie et de valeur principaux et secondaires. La sortie de la console du code est affichée ci-dessous, affichant vrai pour l'axe de catégorie principal et de valeur, et faux pour l'axe de catégorie et de valeur secondaires.
 
 ### Code Java pour déterminer quels axes existent dans le graphique
 
@@ -40,3 +40,4 @@ Has Primary Value Axis: true
 Has Secondary Value Axis: false
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

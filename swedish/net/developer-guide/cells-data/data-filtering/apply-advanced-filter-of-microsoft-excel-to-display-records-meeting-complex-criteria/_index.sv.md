@@ -44,3 +44,4 @@ Följande exempelkod tillämpar den avancerade filtreringen på [Sample Excel Fi
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-ApplyAdvancedFilterOfMicrosoftExcel.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

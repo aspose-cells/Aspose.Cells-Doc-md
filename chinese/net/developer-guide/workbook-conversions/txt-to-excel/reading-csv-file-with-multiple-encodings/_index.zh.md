@@ -38,3 +38,4 @@ Aspose.Cells提供了[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspos
 ## 相关文章
 
 - [打开 CSV 文件](/cells/zh/net/opening-files-with-different-formats/#opening-csv-files)
+{{< app/cells/assistant language="csharp" >}}

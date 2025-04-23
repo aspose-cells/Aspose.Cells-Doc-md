@@ -6,3 +6,4 @@ url: /de/java/showcases/
 ---
 
 
+{{< app/cells/assistant language="java" >}}

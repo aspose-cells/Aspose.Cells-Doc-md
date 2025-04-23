@@ -22,3 +22,4 @@ Das folgende Beispiel zeigt, wie ein WordArt-Objekt hinzugefügt wird, um ein Hi
 - [Fügen Sie Word-Art-Text mit integrierten Stilen hinzu](/cells/de/net/add-word-art-text-with-built-in-styles/)
 - [Sperren des WordArt-Wasserzeichens](/cells/de/net/locking-wordart-watermark/)
 - [Voreingestellten WordArt-Stil auf den Text der Form setzen](/cells/de/net/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="csharp" >}}

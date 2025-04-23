@@ -3,13 +3,13 @@ title: Cambiar los valores de ajuste de la forma
 type: docs
 weight: 2000
 url: /es/python-net/change-adjustment-values-of-the-shape/
-description: Este artículo muestra cómo cambiar los valores de ajuste de la forma a través de la API Aspose.Cells para Python via .NET.
-keywords: Biblioteca de Excel de Python, Cambiar valores de ajuste de la forma en Python, cómo cambiar los valores de ajuste de la forma en Python.
+description: Este artículo muestra cómo cambiar los valores de ajuste de la forma mediante la API Aspose.Cells para Python via .NET.
+keywords: Biblioteca de Excel en Python, Cambiar valores de ajuste de forma en Python, Cómo cambiar valores de ajuste de la forma en Python.
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells para Python via .NET proporciona la propiedad [**Shape.geometry.shape_adjust_values**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/geometry/shape_adjust_values/) para realizar cambios en los puntos de ajuste con formas. En la interfaz de usuario de Microsoft Excel, los ajustes se muestran como nodos de diamante amarillos. Por ejemplo:
+Aspose.Cells para Python via .NET proporciona la propiedad [**Shape.geometry.shape_adjust_values**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/geometry/shape_adjust_values/) para realizar cambios en los puntos de ajuste con las formas. En la interfaz de usuario de Microsoft Excel, los ajustes se muestran como nodos de diamante amarillo. Por ejemplo:
 
 - El rectángulo redondeado tiene un ajuste para cambiar el arco
 - El triángulo tiene un ajuste para cambiar la ubicación del punto

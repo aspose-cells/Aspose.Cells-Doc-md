@@ -46,7 +46,7 @@ Excelの形状は主に以下の種類に分かれています：
 
 {{% alert color="primary" %}}
 
-[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)
 
 この方法は、[Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) オブジェクトを返します。
 
@@ -80,7 +80,7 @@ Excelの形状は主に以下の種類に分かれています：
 
 {{% alert color="primary" %}}
 
-[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)
 
 この方法は、[Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) オブジェクトを返します。
 
@@ -114,7 +114,7 @@ Excelの形状は主に以下の種類に分かれています：
 
 {{% alert color="primary" %}}
 
-[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)
 
 この方法は、[Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) オブジェクトを返します。
 
@@ -148,7 +148,7 @@ Excelの形状は主に以下の種類に分かれています：
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 この方法は、[Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) オブジェクトを返します。
 
@@ -182,7 +182,7 @@ Excelの形状は主に以下の種類に分かれています：
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 この方法は、[Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) オブジェクトを返します。
 
@@ -216,7 +216,7 @@ Excelの形状は主に以下の種類に分かれています：
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 この方法は、[Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) オブジェクトを返します。
 
@@ -250,7 +250,7 @@ Excelの形状は主に以下の種類に分かれています：
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 この方法は、[Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) オブジェクトを返します。
 
@@ -284,7 +284,7 @@ Excelの形状は主に以下の種類に分かれています：
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 この方法は、[Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) オブジェクトを返します。
 
@@ -318,7 +318,7 @@ Excelの形状は主に以下の種類に分かれています：
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 この方法は、[Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) オブジェクトを返します。
 
@@ -331,3 +331,4 @@ Excelの形状は主に以下の種類に分かれています：
 上記のコードを実行すると、次の結果が得られます。
 
 ![](thought_bubble_cloud2.png)
+{{< app/cells/assistant language="java" >}}

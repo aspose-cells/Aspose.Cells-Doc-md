@@ -8,22 +8,22 @@ description: Cómo agregar un PivotChart usando Aspose.Cells.
 keywords: PivotChart
 ---
 ## ¿Qué es un PivotChart?
-Un gráfico dinámico es una representación visual de los datos en una tabla dinámica. Los gráficos dinámicos proporcionan una forma de resumir, analizar, explorar y presentar datos de resumen. Aquí hay algunas características clave y aspectos de los gráficos dinámicos:
+Un gráfico dinámico es una representación visual de los datos en una tabla dinámica. Los gráficos dinámicos ofrecen una forma de resumir, analizar, explorar y presentar datos resumidos. Aquí algunas características clave y aspectos de los gráficos dinámicos:
 
-1. Representación dinámica de datos: los gráficos dinámicos se actualizan automáticamente para reflejar cambios en la tabla dinámica. Si agrega o elimina campos en la tabla dinámica, el gráfico dinámico se actualiza en consecuencia.
+1. Representación dinámica de datos: Los gráficos dinámicos se actualizan automáticamente para reflejar cambios en la tabla dinámica. Si añades o eliminas campos en la tabla dinámica, el gráfico dinámico se actualiza en consecuencia.
 
-1. Interactivo: los gráficos dinámicos son interactivos, lo que permite a los usuarios filtrar, ordenar y profundizar en los datos. Esto facilita explorar diferentes aspectos del conjunto de datos.
+1. Interactivo: Los gráficos dinámicos son interactivos, permitiendo a los usuarios filtrar, ordenar y profundizar en los datos. Esto facilita explorar diferentes aspectos del conjunto de datos.
 
-1. Diseño flexible: los usuarios pueden cambiar el diseño del gráfico dinámico arrastrando y soltando campos, lo que ofrece flexibilidad en la visualización de datos.
+1. Diseño flexible: Los usuarios pueden cambiar el diseño del gráfico dinámico arrastrando y soltando campos, lo que ofrece flexibilidad en la visualización de datos.
 
-1. Varios tipos de gráficos: los gráficos dinámicos se pueden crear utilizando varios tipos de gráficos como gráficos de barras, gráficos de líneas, gráficos circulares, y más, dependiendo de la naturaleza de los datos y las ideas que desee obtener.
+1. Diversos tipos de gráficos: Los gráficos dinámicos se pueden crear usando varios tipos de gráficos, como barras, líneas, tartas y más, dependiendo de la naturaleza de los datos y las ideas que deseas obtener.
 
-1. Resumen: los gráficos dinámicos resumen grandes cantidades de datos y pueden mostrar totales, promedios, recuentos u otras estadísticas de resumen.
+1. Resumen: Los gráficos dinámicos resumen grandes cantidades de datos y pueden mostrar totales, promedios, conteos u otras estadísticas resumidas.
 
-1. Filtrado: proporcionan capacidades de filtrado, lo que le permite mostrar solo los datos que cumplen ciertos criterios.
+1. Filtrado: Proporcionan capacidades de filtrado, permitiendo mostrar solo los datos que cumplen ciertos criterios.
 
 <br>
-Los gráficos dinámicos se utilizan comúnmente en inteligencia empresarial y análisis de datos para proporcionar un resumen visual claro y conciso de conjuntos de datos complejos. Son una herramienta poderosa para tomar decisiones basadas en datos.
+Los gráficos dinámicos se usan comúnmente en inteligencia empresarial y análisis de datos para ofrecer un resumen visual claro y conciso de conjuntos de datos complejos. Son una herramienta poderosa para tomar decisiones basadas en datos.
 
 ## Cómo agregar un PivotChart usando Aspose.Cells
 ### **Crear una tabla dinámica**
@@ -72,3 +72,4 @@ Aspose.Cells se ha beneficiado de años de investigación, diseño y ajustes cui
 Agradecemos sus consultas, comentarios y sugerencias en el [Foro de Aspose.Cells](https://forum.aspose.com/c/cells/9). Garantizamos una pronta respuesta.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

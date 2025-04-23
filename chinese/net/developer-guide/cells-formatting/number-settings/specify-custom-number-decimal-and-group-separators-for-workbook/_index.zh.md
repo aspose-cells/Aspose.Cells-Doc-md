@@ -28,3 +28,4 @@ Aspose.Cells提供[**WorkbookSettings.NumberDecimalSeparator**](https://referenc
 ### 用于指定自定义数字小数点和分组分隔符的C#代码
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-CustomDecimalAndGroupSeparator-CustomDecimalAndGroupSeparator.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

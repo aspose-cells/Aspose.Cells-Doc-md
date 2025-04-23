@@ -18,3 +18,4 @@ Der folgende Beispielcode erläutert die Verwendung der Eigenschaft [**LoadOptio
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "PivotTables-ParsingPivotCachedRecordsWhileLoadingExcelFile.java" >}}
+{{< app/cells/assistant language="java" >}}

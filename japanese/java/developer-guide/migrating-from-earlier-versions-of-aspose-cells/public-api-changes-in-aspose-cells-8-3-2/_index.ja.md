@@ -258,3 +258,4 @@ opts.setFontSubstitutionCharGranularity(true);
 Workbook.createStyleメソッドを使用してWorkbookインスタンスのスタイルを作成および操作することを推奨します。また、StyleCollection.addメソッドでスタイルを作成する代わりに、Workbook.getNamedStyle(string)メソッドを使用して名前付きスタイルを取得できます。
 ### **廃止されたPivotItem.move(int count)メソッド**
 Aspose.Cells 8.3.2以降、APIにはPivotItem.moveメソッドの別のオーバーロードが導入され、親ノード内でPivotItemを移動するための整数パラメータとブールパラメータを受け入れます。 
+{{< app/cells/assistant language="java" >}}

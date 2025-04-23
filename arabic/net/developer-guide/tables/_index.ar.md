@@ -63,3 +63,4 @@ description: إدراج، تغيير الحجم، تحرير، حذف، تنسي
 - [ضبط التعليق للجدول أو كائن القائمة داخل ورقة العمل](/cells/ar/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
 - [الجداول والمدى](/cells/ar/net/tables-and-ranges/)
 
+{{< app/cells/assistant language="csharp" >}}

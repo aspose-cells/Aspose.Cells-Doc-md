@@ -18,3 +18,4 @@ url: /ar/net/convert-text-to-columns-using-aspose-cells/
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-ConvertTextToColumns.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

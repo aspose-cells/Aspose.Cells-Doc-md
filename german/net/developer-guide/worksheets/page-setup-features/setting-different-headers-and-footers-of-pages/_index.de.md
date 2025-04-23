@@ -28,3 +28,4 @@ Aspose.Cells verhält sich genauso wie Excel.
 1. Setzt die Flags [PageSetup.IsHFDiffOddEven](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/ishfdiffoddeven/) und [PageSetup.IsHFDiffFirst](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/IsHFDiffFirst/) 
 1. Geben Sie verschiedene Kopf- und Fußzeilen ein.
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DiffHeaderFooter.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

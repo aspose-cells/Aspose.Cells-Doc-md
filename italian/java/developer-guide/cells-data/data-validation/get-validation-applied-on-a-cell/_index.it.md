@@ -9,7 +9,7 @@ keywords: applicare la convalida della cella in excel con java, applicare la con
 
 {{% alert color="primary" %}}
 
-Puoi utilizzare l'API Aspose.Cells per ottenere la convalida applicata a qualsiasi cella. Aspose.Cells fornisce il metodo [**Cell.getValidation()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) per questo scopo. Se non c'è alcuna convalida sulla cella, restituisce null. Allo stesso modo, puoi utilizzare il metodo [**Worksheet.getValidations().getValidationInCell(int row, int column)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell(int,%20int)) per acquisire la convalida applicata a una cella fornendo i suoi indici di riga e colonna.
+Puoi utilizzare l'API Aspose.Cells per ottenere la convalida applicata a qualsiasi cella. Aspose.Cells fornisce il metodo [**Cell.getValidation()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) per questo scopo. Se non c'è alcuna convalida sulla cella, restituisce null. Allo stesso modo, puoi utilizzare il metodo [**Worksheet.getValidations().getValidationInCell(int row, int column)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell-int-int-) per acquisire la convalida applicata a una cella fornendo i suoi indici di riga e colonna.
 
 {{% /alert %}}
 
@@ -46,3 +46,4 @@ Ignore blank: true
 ## Articoli correlati
 
 - [Convalida Dati](/cells/it/java/data-validation/)
+{{< app/cells/assistant language="java" >}}

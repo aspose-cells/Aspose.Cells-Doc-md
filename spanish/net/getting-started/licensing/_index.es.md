@@ -311,3 +311,4 @@ Cargando una licencia desde un flujo
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

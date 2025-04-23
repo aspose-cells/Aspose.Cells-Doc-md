@@ -16,3 +16,4 @@ Il codice di esempio seguente illustra come fare uso di [**CellsHelper.CustomImp
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-CellsHelper-UsingCustomImplementationFactoryToCreateCustomImplementationOfMemoryStream.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

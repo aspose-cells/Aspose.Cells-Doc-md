@@ -97,3 +97,4 @@ fileOut.close();
 Pour plus de détails, visitez [Ajout de données aux cellules](/java/adding-data-to-cells)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

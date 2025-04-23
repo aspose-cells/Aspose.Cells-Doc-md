@@ -134,3 +134,4 @@ Téléchargez **Définir la zone d'impression** à partir de l'un des sites de c
 Pour plus de détails, visitez [Paramètres d'impression](/cells/fr/net/setting-print-options/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

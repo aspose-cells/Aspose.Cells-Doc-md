@@ -28,3 +28,4 @@ Voici le code d'exemple qui a généré le fichier Excel de sortie tel qu'indiqu
 - [Afficher des puces en définissant la valeur de la cellule à l'aide de HTML](/cells/fr/java/display-bullets-by-setting-cell-value-using/)
 - [Obtenir une chaîne HTML5 à partir de la cellule](/cells/fr/java/get-html5-string-from-cell/)
 
+{{< app/cells/assistant language="java" >}}

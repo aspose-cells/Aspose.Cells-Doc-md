@@ -34,3 +34,4 @@ En caso de que la contraseña especificada no coincida con la contraseña del ce
 La siguiente muestra de código demuestra el uso de la API Aspose.Cells for Java para validar la hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ValidatingSpreadsheets-ValidatingSpreadsheets.java" >}}
+{{< app/cells/assistant language="java" >}}

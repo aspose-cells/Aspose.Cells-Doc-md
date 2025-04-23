@@ -73,7 +73,7 @@ Görüntüleme biçimini belirlemek için özel bir biçim dizesi tanımlamak i�
 
 {{% alert color="primary" %}}
 
-Sayı biçimini belirlemek için [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) kullanırsanız, [**Sayı**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number） kullanılarak belirlenmiş herhangi bir önceki biçim geçersiz kılır ve tam tersi de geçerlidir.
+[**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) kullanarak sayı biçimini ayarlarsanız, önceki biçimlendirme [**Number**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number) kullanılarak ayarlandıysa, bu ayar geçersiz kılınır ve tam tersi de geçerlidir.
 
 {{% /alert %}}
 
@@ -81,3 +81,4 @@ Sayı biçimini belirlemek için [**Custom**](https://reference.aspose.com/cells
 - [Stil.Oluştur Özelliğini Ayarlayarak Özel Sayı Formatını Kontrol Edin](/cells/tr/java/check-custom-number-format-when-setting-style-custom-property/)
 - [Çalışmabook için Özel Sayı Ondalık ve Grup Ayraçlarını Belirleme](/cells/tr/java/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [DBNum Özel Desen Biçimlendirmesini Belirleme](/cells/tr/java/specifying-dbnum-custom-pattern-formatting/)
+{{< app/cells/assistant language="java" >}}

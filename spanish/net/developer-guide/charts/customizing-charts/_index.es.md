@@ -26,3 +26,4 @@ El código de ejemplo a continuación demuestra cómo crear gráficos personaliz
 Actualmente, Aspose.Cells solo admite gráficos personalizados que combinan gráficos circulares, de líneas, de columnas y de columnas apiladas, pero se admitirán más gráficos en futuras versiones.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

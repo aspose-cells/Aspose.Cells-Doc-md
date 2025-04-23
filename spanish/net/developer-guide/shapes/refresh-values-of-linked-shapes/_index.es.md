@@ -22,3 +22,4 @@ Puedes descargar el [archivo de Excel de origen](95584291.xlsx) y el [PDF de sal
 ### Código C# para actualizar los valores de las formas vinculadas
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RefreshValueOfLinkedShapes-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -18,3 +18,4 @@ Följande kod laddar den [prov Excel-filen](55541813.xlsx) men den prov Excel-fi
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-IgnoreErrorsWhileRenderingExcelToPdf.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -16,3 +16,4 @@ Aspose.Cells proporciona la capacidad de obtener el origen de datos de conexión
 El archivo fuente utilizado en el fragmento de código está adjunto para referencia.
 
 [Archivo Fuente](104398862.xlsx)
+{{< app/cells/assistant language="csharp" >}}

@@ -7,7 +7,7 @@ url: /ru/java/sort-data-in-column-with-custom-sort-list/
 
 ## **Возможные сценарии использования**
 
-Вы можете отсортировать данные в столбце, используя пользовательский список. Для этого используется метод [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int,%20java.lang.String)). Однако этот метод работает только в том случае, если элементы в пользовательском списке не содержат запятых внутри них. Если они содержат запятые, например, "USA, US", "China, CN" и т. д., то необходимо использовать метод [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int,%20java.lang.String)). Здесь последний параметр не является строкой, а массивом строк.
+Вы можете сортировать данные в столбце с помощью пользовательского списка. Это можно сделать с помощью метода [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-java.lang.String-). Однако этот метод работает только если элементы в пользовательском списке не содержат запятых внутри них. Если в списке есть запятые, например "USA, US", "China, CN" и т.д., тогда нужно использовать тот же метод. В этом случае последний параметр — не строка, а массив строк.
 
 ## **Сортировка данных в столбце с пользовательским списком**
 
@@ -18,3 +18,4 @@ url: /ru/java/sort-data-in-column-with-custom-sort-list/
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-SortDataInColumnWithCustomSortList.java" >}}
+{{< app/cells/assistant language="java" >}}

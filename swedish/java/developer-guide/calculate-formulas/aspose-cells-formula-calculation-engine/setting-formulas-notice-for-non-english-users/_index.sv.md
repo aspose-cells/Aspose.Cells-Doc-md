@@ -17,3 +17,4 @@ Det finns två tips som icke-engelska användare måste följa när de skapar fo
    För vissa språgalternativ eller inställningar är avgränsaren för funktionsparametrar ett semikolon, men Aspose.Cells använder det engelska kommat. Använd till exempel "=IF (C5=0,0,C3/C4)" och inte "=IF(C5=0;0;C3/C4)". 
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

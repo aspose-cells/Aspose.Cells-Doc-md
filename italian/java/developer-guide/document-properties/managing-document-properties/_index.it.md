@@ -80,13 +80,13 @@ Come abbiamo descritto in precedenza all'inizio di questo argomento, i programma
 
 ### **Aggiunta di proprietà personalizzate**
 
-Le API di Aspose.Cells hanno esposto il [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean)) metodo per la classe [**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection) al fine di aggiungere proprietà personalizzate alla raccolta. Il metodo [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean)) aggiunge la proprietà al file Excel e restituisce un riferimento per la nuova proprietà del documento come un oggetto [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty).
+Le API di Aspose.Cells hanno esposto il [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add-java.lang.String-boolean-) metodo per la classe [**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection) al fine di aggiungere proprietà personalizzate alla raccolta. Il metodo [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add-java.lang.String-boolean-) aggiunge la proprietà al file Excel e restituisce un riferimento per la nuova proprietà del documento come un oggetto [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AddingCustomProperty.java" >}}
 
 ### **Configurazione della proprietà personalizzata "Collegamento al contenuto"**
 
-Per creare una proprietà personalizzata collegata al contenuto di un determinato intervallo, chiamare il metodo [**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String)) e passare il nome della proprietà e la sorgente. È possibile verificare se una proprietà è configurata come collegata al contenuto utilizzando la proprietà [**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent). Inoltre, è anche possibile ottenere l'intervallo di origine utilizzando la proprietà [**Source**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) della classe [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty).
+Per creare una proprietà personalizzata collegata al contenuto di un determinato intervallo, chiamare il metodo [**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent-java.lang.String-java.lang.String-) e passare il nome della proprietà e la sorgente. È possibile verificare se una proprietà è configurata come collegata al contenuto utilizzando la proprietà [**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent). Inoltre, è anche possibile ottenere l'intervallo di origine utilizzando la proprietà [**Source**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) della classe [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty).
 
 Utilizziamo un file modello semplice di Microsoft Excel nell'esempio. Il workbook ha un intervallo denominato definito **MyRange**, che si riferisce a un valore della cella.
 
@@ -94,6 +94,7 @@ Utilizziamo un file modello semplice di Microsoft Excel nell'esempio. Il workboo
 
 ### **Rimozione delle proprietà personalizzate**
 
-Per rimuovere le proprietà personalizzate utilizzando Aspose.Cells, chiamare il metodo [**DocumentPropertyCollection.remove**](https://reference.aspose.com/cells/java/com.aspose.cells/documentpropertycollection#remove(java.lang.String)) e passare il nome della proprietà del documento da rimuovere.
+Per rimuovere le proprietà personalizzate utilizzando Aspose.Cells, chiamare il metodo [**DocumentPropertyCollection.remove**](https://reference.aspose.com/cells/java/com.aspose.cells/documentpropertycollection#remove-java.lang.String-) e passare il nome della proprietà del documento da rimuovere.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-RemovingCustomProperty.java" >}}
+{{< app/cells/assistant language="java" >}}

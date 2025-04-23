@@ -123,3 +123,4 @@ Läsordningen ställs in med [**Style**](https://reference.aspose.com/cells/net/
 - [Ändra cellers justering och behåll befintlig formatering](/cells/sv/net/change-cells-alignment-and-keep-existing-formatting/)
 - [Radbrytningar och textindrag](/cells/sv/net/line-breaks-and-text-wrapping/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -22,3 +22,4 @@ I följande kodexempel använde vi [källa excel-fil](5115535.xlsx). Om du änd
 Följande kod användes för att generera [utdata PDF](5115538.pdf) från [källa excel-fil](5115535.xlsx). Läs kommentarerna för mer information.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-CalculationOfArrayFormula-CalculateArrayFormula.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

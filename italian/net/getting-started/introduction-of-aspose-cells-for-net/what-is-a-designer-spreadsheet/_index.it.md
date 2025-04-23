@@ -39,3 +39,4 @@ Inoltre, Aspose.Cells consente di aggiungere [smart markers](/cells/it/net/smart
 [Scopri di più sui marker intelligenti](/cells/it/net/smart-markers/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

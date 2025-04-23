@@ -3,8 +3,8 @@ title: Bestäm om Papper Storleken på Arbetsbladet är Automatisk
 type: docs
 weight: 90
 url: /sv/python-net/determine-if-paper-size-of-worksheet-is-automatic/
-description: Den här artikeln förklarar hur man använder Aspose.Cells för Python via .NET exempelkod för att avgöra om Pappersstorleken på Arbetsbladet är Automatiskt programmatiskt.
-keywords: Python Excel bibliotek, Python avgör om pappersstorleken på arbetsbladet är automatisk.
+description: Denna artikel förklarar hur man använder exempel kod för Aspose.Cells för Python via .NET för att avgöra om pappersstorleken för Arbetsblad är Automatisk programmässigt.
+keywords: Python Excel bibliotek, Python avgöra om arket pappersstorlek är automatiskt.
 ---
 
 ## **Möjliga användningsscenario**

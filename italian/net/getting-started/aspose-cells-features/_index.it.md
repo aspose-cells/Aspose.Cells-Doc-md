@@ -6,3 +6,4 @@ url: /it/net/aspose-cells-features/
 ---
 
 
+{{< app/cells/assistant language="csharp" >}}

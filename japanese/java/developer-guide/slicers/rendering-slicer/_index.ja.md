@@ -12,3 +12,4 @@ Aspose.Cellsはスライサーのレンダリングをサポートしていま�
 
 ![todo:image_alt_text](rendering-slicer_1)
 ## **サンプルコード**
+{{< app/cells/assistant language="java" >}}

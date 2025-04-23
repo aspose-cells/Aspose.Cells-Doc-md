@@ -10,7 +10,7 @@ url: /ar/java/save-excel-into-pdf-with-standard-or-minimum-size/
 بشكل افتراضي، يقوم Aspose.Cells بحفظ Excel في ملف PDF بحجم قياسي. ومع ذلك، يمكنك أيضًا حفظه بالحجم الأدنى باستخدام خاصية [PdfSaveOptions.OptimizationType](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OptimizationType). تقبل القيم التالية
 
 - [PdfOptimizationType.STANDARD](https://reference.aspose.com/cells/java/com.aspose.cells/pdfoptimizationtype#STANDARD)
-- [PdfOptimizationType.MINIMUM_SIZE](https://reference.aspose.com/cells/java/com.aspose.cells/pdfoptimizationtype#MINIMUM_SIZE)
+- [PdfOptimizationType.MINIMUM_SIZE](https://reference.aspose.com/cells/java/com.aspose.cells/pdfoptimizationtype#MINIMUM-SIZE)
 
 {{% /alert %}} 
 ## **حفظ Excel في ملف PDF بحجم قياسي أو الحد الأدنى باستخدام Microsoft Excel**
@@ -21,3 +21,4 @@ url: /ar/java/save-excel-into-pdf-with-standard-or-minimum-size/
 توضح الكود المصدري التالي كيف يمكنك حفظ Excel في ملف PDF بحجم قياسي أو الحد الأدنى باستخدام الخاصية [PdfSaveOptions.OptimizationType](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OptimizationType).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SaveExcelToPDF-SaveExcelToPDF.java" >}}
+{{< app/cells/assistant language="java" >}}

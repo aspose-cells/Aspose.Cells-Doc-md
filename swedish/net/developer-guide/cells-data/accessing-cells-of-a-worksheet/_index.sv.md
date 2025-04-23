@@ -56,3 +56,4 @@ Aspose.Cells tillåter utvecklare att få åtkomst till ett kalkylblads maximala
 Du kan komma åt ett arbetsblads maximala visningsområde med hjälp av [**Worksheet.Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange). Följande exempelkod illustrerar hur du kommer åt [**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange)-egenskapen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -3,8 +3,8 @@ title: Detectar hojas de cálculo vacías
 type: docs
 weight: 410
 url: /es/python-net/detecting-empty-worksheets/
-description: Este artículo muestra código que explica cómo detectar hojas de Excel vacías de forma programática utilizando la biblioteca de Aspose.Cells for Python via .NET.
-keywords: Biblioteca de Python Excel, detectar hoja de cálculo vacía utilizando python, encontrar hoja de cálculo de Excel vacía en python.
+description: Este artículo muestra código explicando cómo detectar programáticamente hojas de cálculo vacías en libros de trabajo de Excel usando la biblioteca Aspose.Cells para Python via .NET.
+keywords: Biblioteca de Excel en Python, detectar hoja de cálculo vacía usando Python, encontrar hoja de cálculo vacía en Python.
 ---
 
 ## **Buscar celdas pobladas**
@@ -19,11 +19,11 @@ Las colecciones de filas y columnas tienen un índice basado en cero, por lo tan
 
 ## **Comprobar celdas inicializadas vacías**
 
-Todas las celdas que tienen valores se inicializan automáticamente, sin embargo, existe la posibilidad de que una hoja tenga celdas con solo formato aplicado. En dicho escenario, las propiedades [**Cells.max_data_row**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_row/) o [**Cells.max_data_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_column/) devolverán -1, lo que indica la ausencia de valores poblados pero las celdas inicializadas debido a que el formato de celda no se puede detectar utilizando este enfoque. Para verificar si una hoja de cálculo tiene celdas inicializadas vacías, se recomienda utilizar el método IEnumerator.MoveNext en el enumerador adquirido de la colección [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells). Si el método IEnumerator.MoveNext devuelve **true** eso significa que hay una o más celdas inicializadas en la hoja de cálculo dada.
+Todas las celdas que tienen valores se inicializan automáticamente, sin embargo, existe la posibilidad de que una hoja tenga celdas solo con formato aplicado. En tal escenario, las propiedades [**Cells.max_data_row**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_row/) o [**Cells.max_data_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_column/) devolverán -1 indicando la ausencia de valores poblados pero no detectables en celdas con formato mediante este método. Para verificar si una hoja tiene celdas inicializadas vacías, se recomienda usar el método IEnumerator.MoveNext en el enumerador obtenido de la colección [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells). Si el método IEnumerator.MoveNext devuelve **true**, eso significa que hay una o más celdas inicializadas en la hoja dada.
 
 ## **Comprobar formas**
 
-Es posible que una hoja de cálculo dada no tenga celdas pobladas, sin embargo, podría contener formas y objetos como controles, gráficos, imágenes, etc. Si necesitamos verificar si una hoja de cálculo contiene alguna forma, podemos hacerlo inspeccionando los elementos [**ShapeCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shapecollection). Cualquier valor positivo indica la presencia de forma(s) en la hoja de cálculo.
+Es posible que una hoja dada no tenga celdas pobladas, sin embargo, puede contener formas y objetos como controles, gráficos, imágenes, etc. Si necesitamos verificar si una hoja contiene alguna forma, podemos hacerlo inspeccionando los elementos [**ShapeCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shapecollection). Cualquier valor positivo indica la presencia de(s) forma(s) en la hoja.
 
 ## **Ejemplo de Programación**
 

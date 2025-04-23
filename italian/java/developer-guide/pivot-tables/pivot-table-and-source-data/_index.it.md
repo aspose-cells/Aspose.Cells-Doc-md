@@ -53,3 +53,4 @@ L'esecuzione del codice di esempio di seguito cambia l'origine dati della tabell
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-ChangeSourceData-ChangeSourceData.java" >}}
+{{< app/cells/assistant language="java" >}}

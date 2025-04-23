@@ -64,3 +64,4 @@ for(int i = al.size()-1 ; i > -1; i--)
 更多详情，请访问[检测工作表中的合并单元格](/cells/zh/java/detect-merged-cells-in-a-worksheet)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

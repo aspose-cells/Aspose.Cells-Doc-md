@@ -51,3 +51,4 @@ Nach der oben genannten Operation können wir ein Ausgabediagrammbild mit chines
 |Legend Total Name|汇总|Gesamt|
 |Other Name|其他|Sonstige|
 |Series Name|系列|Serie|
+{{< app/cells/assistant language="csharp" >}}

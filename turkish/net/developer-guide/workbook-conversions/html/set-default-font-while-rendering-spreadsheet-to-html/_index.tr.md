@@ -24,3 +24,4 @@ Kod, [Courier New ile](5115516), [Arial ile](5115518) ve [Times New Roman ile](5
 ## Örnek Kod
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-SetDefaultFontWhileRendering-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

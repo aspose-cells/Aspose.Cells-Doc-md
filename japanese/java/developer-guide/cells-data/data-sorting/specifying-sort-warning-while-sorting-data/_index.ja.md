@@ -13,3 +13,4 @@ url: /ja/java/specifying-sort-warning-while-sorting-data/
 次のサンプルコードは、先ほど説明したように[DataSorter.SortAsNumber](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#SortAsNumber)プロパティの使用方法を示しています。詳細は[sample Excel file](43352077.xlsx)と[output Excel file](43352078.xlsx)をご覧ください。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SpecifyingSortWarningWhileSortingData.java" >}}
+{{< app/cells/assistant language="java" >}}

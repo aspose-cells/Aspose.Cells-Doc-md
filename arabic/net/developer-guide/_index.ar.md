@@ -381,3 +381,4 @@ keywords: إرشادات استخدام واجهة برمجة تطبيقات Asp
 </div>
 {{< /tab >}}
 {{< /tabs >}}
+{{< app/cells/assistant language="csharp" >}}

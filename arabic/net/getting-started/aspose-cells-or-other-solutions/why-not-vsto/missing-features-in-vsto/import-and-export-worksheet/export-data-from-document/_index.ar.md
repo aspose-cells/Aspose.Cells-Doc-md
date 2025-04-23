@@ -15,3 +15,4 @@ Aspose.Cells لا تسهل فقط على مستخدميها استيراد ال�
 
 - [الأعمدة التي تحتوي على بيانات غير مكونة من نوع واحد](/cells/ar/net/columns-containing-non-strongly-typed-data/)
 - [الأعمدة التي تحتوي على بيانات مكونة من نوع واحد](/cells/ar/net/columns-containing-strongly-typed-data/)
+{{< app/cells/assistant language="csharp" >}}

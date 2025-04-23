@@ -19,3 +19,4 @@ Ensuite, nous ajoutons un graphique et définissons le type du [**Axis**](https:
 ![todo:image_alt_text](excel.png)
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "DateAxis.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

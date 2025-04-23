@@ -28,3 +28,4 @@ Aspose.Cells现在支持将Excel文件中从右向左扩展的文本导出为HTM
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithHTMLFormat-ExpandTextFromRightToLeft-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

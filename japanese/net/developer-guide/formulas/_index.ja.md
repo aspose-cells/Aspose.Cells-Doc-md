@@ -11,7 +11,7 @@ keywords: C# で数式を計算する方法、C# を使用した数式と関数�
 
 ## **紹介**
 
-Microsoft Excel の魅力的な機能の1つは、数式と関数を使ってデータを処理する能力です。Microsoft Excel は、複雑な計算を迅速に行うための組み込み関数と数式を提供しています。Aspose.Cells も、開発者が値を簡単に計算できるようにする豊富な組み込み関数と数式を提供しています。Aspose.Cells はアドイン関数もサポートしています。さらに、Aspose.Cells は Aspose.Cells での配列と R1C1 数式もサポートしています。
+Microsoft Excelの魅力的な機能の一つは、数式や関数を使ったデータ処理能力です。Excelは多くの組み込み関数と数式を提供し、複雑な計算を迅速に行えます。Aspose.Cellsもまた、値の計算を支援する多くの組み込み関数と数式を提供し、アドイン関数もサポートしています。さらに、配列やR1C1数式もサポートしています。
 
 ## **数式と関数の使用方法**
 
@@ -88,3 +88,4 @@ Aspose.Cells は、[**Worksheets.RegisterAddInFunction()**](https://reference.as
 - [共有式の最大行数を指定](/cells/ja/net/specify-maximum-rows-of-shared-formula/)
 - [サポートされているExcel関数](/cells/ja/net/supported-formula-functions/)
 
+{{< app/cells/assistant language="csharp" >}}

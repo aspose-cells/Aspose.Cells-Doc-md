@@ -28,8 +28,15 @@ url: /ru/java/save-specified-worksheets-to-pdf/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-MultiSheetsToPdf.java" >}}
 
+## **Переупорядочить листы в PDF**
+
+Если вы хотите переупорядочить листы (например, в обратном порядке) в PDF без изменения исходного файла, вы можете сделать это, передав переупорядоченные индексы листов в опцию [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setSheetSet-com.aspose.cells.SheetSet-).
+
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-ReorderSheetsToPdf.java" >}}
+
 {{% alert color="primary" %}} 
 
 Если ваш электронный таблицы содержит формулы, лучше всего вызвать [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook/#calculateFormula--) прямо перед преобразованием таблицы в формат PDF. Таким образом будет гарантирован пересчет значений, зависящих от формул, и в PDF файл будут выведены правильные значения.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

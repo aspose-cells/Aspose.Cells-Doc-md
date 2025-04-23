@@ -182,3 +182,4 @@ Los ejemplos de código que siguen muestran cómo agregar un gráfico circular a
 **Gráfico circular creado con Aspose.Cells for .NET** 
 
 ![todo:image_alt_text](create-a-pie-chart_2.png)
+{{< app/cells/assistant language="csharp" >}}

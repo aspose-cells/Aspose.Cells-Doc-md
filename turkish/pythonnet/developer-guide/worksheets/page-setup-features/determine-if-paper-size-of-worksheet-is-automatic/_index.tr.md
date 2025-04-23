@@ -3,8 +3,8 @@ title: Çalışma Sayfasının Kağıt Boyutunun Otomatik Olup Olmadığını Be
 type: docs
 weight: 90
 url: /tr/python-net/determine-if-paper-size-of-worksheet-is-automatic/
-description: Bu makale, Aspose.Cells for Python via .NET örnek kodunu kullanarak Programlı olarak Çalışma Sayfasının Kağıt Boyutu otomatik olup olmadığını belirlemeyi açıklar.
-keywords: Python Excel Kütüphanesi, Python çalışma sayfasının kağıt boyutunun otomatik olup olmadığını belirleme.
+description: Bu makale, Aspose.Cells for Python via .NET örnek kodunu kullanarak, Sayfa Boyutunun Otomatik olup olmadığını programatik olarak belirlemenin yollarını anlatır.
+keywords: Python Excel Kütüphanesi, Python ile sayfa boyutunun otomatik olup olmadığını belirle.
 ---
 
 ## **Olası Kullanım Senaryoları**

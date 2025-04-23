@@ -22,3 +22,4 @@ Du kan ladda ner den [käll-Excel-filen](5472956.xlsx) och den [utdata PDF](5
 ### Java-kod för att uppdatera värdena för länkade former
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RefreshValuesOfLinkedShapes-RefreshValuesOfLinkedShapes.java" >}}
+{{< app/cells/assistant language="java" >}}

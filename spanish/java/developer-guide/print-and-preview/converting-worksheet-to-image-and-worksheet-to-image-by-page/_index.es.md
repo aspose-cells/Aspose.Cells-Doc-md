@@ -15,7 +15,7 @@ A veces, es posible que necesites presentar hojas de cálculo como imágenes, po
 
 ## **Usar Aspose.Cells para convertir hoja de cálculo a archivo de imagen**
 
-Este artículo muestra cómo usar la API Aspose.Cells for Java para convertir una hoja de cálculo a imagen. La API proporciona varias clases valiosas, como [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender), y así sucesivamente. La clase [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) representa una hoja de cálculo para renderizar imágenes de la hoja de cálculo y tiene un método sobrecargado de [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream)) que puede convertir una hoja de cálculo a archivos de imagen directamente con cualquier atributo u opciones establecidas.
+Este artículo muestra cómo usar la API Aspose.Cells for Java para convertir una hoja de cálculo a imagen. La API proporciona varias clases valiosas, como [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender), y así sucesivamente. La clase [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) representa una hoja de cálculo para renderizar imágenes de la hoja de cálculo y tiene un método sobrecargado de [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage-int-java.io.OutputStream-) que puede convertir una hoja de cálculo a archivos de imagen directamente con cualquier atributo u opciones establecidas.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ConvertWorksheettoImageFile-1.java" >}}
 
@@ -55,3 +55,4 @@ Este artículo muestra cómo convertir una hoja de cálculo en un archivo de ima
 
 - [Conversión de hoja de cálculo a diferentes formatos de imagen](/cells/es/java/converting-worksheet-to-different-image-formats/)
 - [Exportar hoja de cálculo o gráfico a imagen con ancho y alto deseados](/cells/es/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+{{< app/cells/assistant language="java" >}}

@@ -24,3 +24,4 @@ url: /ja/net/line-breaks-and-text-wrapping/
 C#では、セル内に明示的な改行を挿入するために、「\n」、VB.NETでは「vbLf」を使用できます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-UseExplicitLineBreaks-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

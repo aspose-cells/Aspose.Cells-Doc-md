@@ -13,3 +13,4 @@ El siguiente código de muestra carga el [archivo de Excel de muestra](67338479.
 ![todo:image_alt_text](rendering-slicer_1)
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-RenderingSlicer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

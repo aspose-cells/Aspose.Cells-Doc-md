@@ -11,15 +11,15 @@ keywords: Java Zellenindex in Namen umwandeln, Zellennamen in Zeilen/Spalteninde
 ## **So erhalten Sie Zellnamen aus Zeilen- und Spaltenindizes**
 Es ist möglich, den Namen einer Zelle anhand des Zeilen- und Spaltenindex zu finden. Dieser Artikel erläutert, wie.
 
-Aspose.Cells stellt die Methode [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) zur Verfügung, mit der Entwickler den Namen einer Zelle erhalten, wenn sie den Zeilen- und Spaltenindex angeben.
+Aspose.Cells bietet die Methode [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName-int-int-), mit der Entwickler den Namen einer Zelle erhalten können, wenn sie die Zeilen- und Spaltenindizes angeben.
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel beginnt mit der Zählung von Zeilen- und Spaltenindizes bei 1. Im Gegensatz zu Microsoft Excel beginnt Aspose.Cells mit der Zählung von Zeilen- und Spaltenindizes bei 0.
+Microsoft Excel beginnt die Zählung der Zeilen- und Spaltenindizes bei 1. Im Gegensatz dazu beginnt Aspose.Cells die Zählung der Zeilen- und Spaltenindizes bei 0.
 
 {{% /alert %}} 
 
-Der folgende Beispielcode veranschaulicht, wie [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) verwendet wird, um den Zellnamen bei bekanntem Zeilen- und Spaltenindex abzurufen. Der Code generiert die folgende Ausgabe:
+Der folgende Beispielcode zeigt, wie die Methode [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName-int-int-) verwendet wird, um anhand eines bekannten Zeilen- und Spaltenindex den Namen der Zelle zu ermitteln. Der Code erzeugt die folgende Ausgabe.
 
 {{< highlight java >}}
 
@@ -37,15 +37,15 @@ Cell Name at [2, 2]: C3
 ## **So erhalten Sie Zeilen- und Spaltenindizes aus dem Zellnamen**
 Es ist möglich, den Zeilen- und Spaltenindex der Zelle anhand ihres Namens zu finden. Dieser Artikel erläutert, wie.
 
-Aspose.Cells stellt die Methode [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) zur Verfügung, mit der Entwickler den Zeilen- und Spaltenindex aus dem Zellnamen erhalten.
+Aspose.Cells stellt die Methode [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex-java.lang.String-) zur Verfügung, mit der Entwickler die Zeilen- und Spaltenindizes anhand des Zellnamens ermitteln können.
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel beginnt mit der Zählung von Zeilen- und Spaltenindizes bei 1. Im Gegensatz zu Microsoft Excel beginnt Aspose.Cells mit der Zählung von Zeilen- und Spaltenindizes bei 0.
+Microsoft Excel beginnt die Zählung der Zeilen- und Spaltenindizes bei 1. Im Gegensatz dazu beginnt Aspose.Cells die Zählung der Zeilen- und Spaltenindizes bei 0.
 
 {{% /alert %}} 
 
-Der folgende Beispielcode veranschaulicht, wie [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) verwendet wird, um den Zeilen- und Spaltenindex aus dem Zellnamen zu erhalten. Der Code generiert die folgende Ausgabe:
+Der folgende Beispielcode zeigt, wie die Methode [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex-java.lang.String-) verwendet wird, um anhand des Zellnamens die Zeilen- und Spaltenindizes zu ermitteln. Der Code erzeugt die folgende Ausgabe.
 
 {{< highlight java >}}
 
@@ -72,3 +72,4 @@ das ist der erste Name, der erstellt wurde
 ` `<> + (adj.Private _ " Private"
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

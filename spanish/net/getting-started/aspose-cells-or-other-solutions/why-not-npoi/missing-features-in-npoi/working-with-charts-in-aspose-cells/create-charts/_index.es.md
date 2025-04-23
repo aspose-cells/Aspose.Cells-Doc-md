@@ -79,3 +79,4 @@ Descargar **Crear gráficos** de cualquiera de los sitios de codificación socia
 Para más detalles, visita [Cómo crear un gráfico](/cells/es/net/create-charts/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

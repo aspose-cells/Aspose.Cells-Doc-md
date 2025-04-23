@@ -44,3 +44,4 @@ La configuración de memoria no funcionará automáticamente para la hoja predet
 Consulte el artículo detallado sobre [Optimizar la memoria al trabajar con grandes conjuntos de datos](/cells/es/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

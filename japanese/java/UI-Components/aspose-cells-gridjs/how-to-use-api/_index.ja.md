@@ -17,10 +17,10 @@ aliases:
 
 # GridJsサーバーサイドで作業する
 ## 0. Configで正しいフォルダパスを設定する
- **`Config.setFileCacheDirectory`** はワークブックキャッシュファイル用 (必須)です。
- **`Config.setPictureCacheDirectory`** はワークブック内の画像ファイルキャッシュ用 (任意、デフォルト値はファイルキャッシュディレクトリ内の _piccache です)。
+ **`Config.setFileCacheDirectory`** はワークブックのキャッシュファイル（必須）用です。
+ **`Config.setPictureCacheDirectory`** はワークブック内の画像ファイルキャッシュ用です（任意、デフォルトは _piccache）。
 
-ストレージの詳細については、[ガイド](/java/aspose-cells-gridjs/storage/)を参照してください
+ストレージの詳細については、こちらの [ガイド](/java/aspose-cells-gridjs/storage/) をご参照ください。
 
 ## 1. GridCacheForStreamを実装する
 ローカルファイルストレージの例は次のとおりです:
@@ -72,7 +72,7 @@ public class LocalFileCache extends GridCacheForStream {
 }
 ```
 
-## 2. スプレッドシートファイルからJSONをレスポンスストリームに書き込みます。
+## 2. スプレッドシートファイルからjsonを書き込み、レスポンスストリームへ出力します。
 ```JAVA
             GridJsWorkbook wbj = new GridJsWorkbook();
             try (GZIPOutputStream gzipOutputStream = new GZIPOutputStream(response.getOutputStream())) {

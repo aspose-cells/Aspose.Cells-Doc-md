@@ -20,3 +20,4 @@ In Microsoft Excel können Sie manuell durch Klicken auf **Extras > Verweise...*
 Der folgende Beispielcode fügt oder registriert zwei Bibliotheksreferenzen im VBA-Projekt der Arbeitsmappe mithilfe der Methode [**VbaProject.References.AddRegisteredReference()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaprojectreferencecollection/methods/addregisteredreference) hinzu.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddLibraryReferenceToVbaProject-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

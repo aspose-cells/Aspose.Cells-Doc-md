@@ -23,3 +23,4 @@ Esta sección incluye los siguientes temas
 - [Copiar Hojas de Cálculo entre Libros de Trabajo](/cells/es/net/copy-worksheets-between-workbooks/)
 - [Copiar Hojas de Cálculo dentro de un Libro de Trabajo](/cells/es/net/copy-worksheets-within-a-workbook/)
 - [Mover Hojas de Cálculo dentro de un Libro de Trabajo](/cells/es/net/move-worksheets-within-workbook/)
+{{< app/cells/assistant language="csharp" >}}

@@ -11,7 +11,7 @@ keywords: Convertir índice de celda a nombre, Convertir nombre de celda a índi
 ## **Cómo obtener el nombre de la celda a partir de los índices de fila y columna**
 Es posible encontrar el nombre de una celda dado el índice de fila y columna. Este artículo explica cómo.
 
-Aspose.Cells proporciona el método [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) que permite a los desarrolladores obtener el nombre de una celda si proporcionan el índice de fila y columna.
+Aspose.Cells proporciona el método [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName-int-int-) que permite a los desarrolladores obtener el nombre de una celda si proporcionan el índice de fila y columna.
 
 {{% alert color="primary" %}} 
 
@@ -19,7 +19,7 @@ Microsoft Excel comienza a contar los índices de filas y columnas desde 1. A di
 
 {{% /alert %}} 
 
-El siguiente código de ejemplo ilustra cómo usar [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) para acceder al nombre de la celda dada en un índice de fila y columna conocido. El código genera la siguiente salida.
+El siguiente ejemplo de código ilustra cómo usar [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName-int-int-) para acceder al nombre de la celda dado un índice conocido de fila y columna. El código genera la siguiente salida.
 
 {{< highlight java >}}
 
@@ -37,7 +37,7 @@ Cell Name at [2, 2]: C3
 ## **Cómo obtener los índices de fila y columna a partir del nombre de una celda**
 Es posible encontrar un índice de fila y columna de la celda a partir de su nombre. Este artículo explica cómo.
 
-Aspose.Cells proporciona el método [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) que permite a los desarrolladores obtener el índice de fila y columna a partir del nombre de la celda.
+Aspose.Cells proporciona el método [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex-java.lang.String-) que permite a los desarrolladores obtener un índice de fila y columna a partir del nombre de la celda.
 
 {{% alert color="primary" %}} 
 
@@ -45,7 +45,7 @@ Microsoft Excel comienza a contar los índices de filas y columnas desde 1. A di
 
 {{% /alert %}} 
 
-El siguiente código de ejemplo ilustra cómo usar [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) para obtener el índice de fila y columna a partir del nombre de la celda. El código genera la siguiente salida.
+El siguiente ejemplo de código ilustra cómo usar [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex-java.lang.String-) para obtener el índice de fila y columna a partir del nombre de la celda. El código genera la siguiente salida.
 
 {{< highlight java >}}
 
@@ -72,3 +72,4 @@ este es el primer nombre que se creó
 ` `<> + (adj.Private _ " Private"
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -3,26 +3,26 @@ title: 管理分页
 type: docs
 weight: 30
 url: /zh/python-net/managing-page-breaks/
-description: 本文提供了示例代码并说明了如何使用Aspose.Cells for Python via .NET API以编程方式向Excel工作表中添加分页符、清除分页符或删除特定分页符。
-keywords: Python Excel库，Python页面分页符，Python中的Excel页面分页符，Python中清除页面分页。
+description: 本文提供示例代码，介绍如何使用 Aspose.Cells for Python via .NET API 编程方式在Excel工作表中添加分页符、清除分页符或删除特定分页符。
+keywords: Python Excel 库，Python 分页符，Python 中的Excel分页符，清除分页符。
 ---
 
 {{% alert color="primary" %}}
 
 根据定义，分页是文本流中一页结束并另一页开始的地方。 Microsoft Excel允许用户在工作表的任何选定单元格中添加分页。 
 
-添加页面分页符的单元格位置，分页结束并在页面分页后将其余数据打印到下一页。简单来说，页面分页符根据您的规格将工作表分成多个页面。你也可以使用Aspose.Cells for Python via .NET在运行时向你的工作表添加页面分页符。Aspose.Cells for Python via .NET允许开发者添加两种页面分页符。
+分页符的位置在添加分页符的单元格，分页在打印时会结束该页面，其后数据打印到下一页。简单来说，分页符将工作表分成多个页面，按照您的要求。您还可以在运行时使用 Aspose.Cells for Python via .NET 添加分页符。Aspose.Cells for Python via .NET 允许开发者添加两种类型的分页符：
 
 - 水平分页
 - 垂直分页
 
-在讨论的其余部分，我们将描述如何使用Aspose.Cells for Python via .NET向您的工作表中添加水平或垂直页面分页符。
+在以下讨论中，我们将介绍如何使用 Aspose.Cells for Python via .NET 在工作表中添加水平或垂直分页符。
 
 {{% /alert %}}
 
 ## **分页**
 
-Aspose.Cells for Python via .NET提供了一个[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)类，表示一个Excel文件。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)类包含一个[**Worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets)集合，允许访问Excel文件中的每个工作表。
+Aspose.Cells for Python via .NET 提供了一个 [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) 类，代表一个Excel文件。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) 类包含一个 [**Worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) 集合，可以访问Excel文件中的每个工作表。
 
 工作表由 [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) 类表示。[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) 类提供了用于管理工作表的广泛的属性和方法。
 
@@ -32,7 +32,7 @@ Aspose.Cells for Python via .NET提供了一个[**Workbook**](https://reference.
 
 ## **如何添加分页符**
 
-要在工作表中添加分页符，请通过调用[**HorizontalPageBreakCollection.add()**](https://reference.aspose.com/cells/python-net/aspose.cells/horizontalpagebreakcollection/add/#str)和[**VerticalPageBreakCollection.add()**](https://reference.aspose.com/cells/python-net/aspose.cells/verticalpagebreakcollection/add/#str)方法在指定单元格处插入垂直和水平分页符。每个**add**方法都需要添加分页符的单元格名称。
+要在工作表中添加分页符，在指定的单元格插入水平和垂直分页符，调用 [**HorizontalPageBreakCollection.add()**](https://reference.aspose.com/cells/python-net/aspose.cells/horizontalpagebreakcollection/add/#str) 和 [**VerticalPageBreakCollection.add()**](https://reference.aspose.com/cells/python-net/aspose.cells/verticalpagebreakcollection/add/#str) 方法。每个 **add** 方法都接受要添加分页符的单元格名称。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Value-AddingPageBreaks-1.py" >}}
 

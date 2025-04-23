@@ -51,3 +51,4 @@ Para eliminar la división de la hoja de cálculo, simplemente haz clic en el bo
 Aspose.Cells para .Net proporciona un método [**Worksheet.RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/removesplit/) para eliminar la configuración de división.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Remove-Split.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -14,3 +14,4 @@ url: /zh/net/export-worksheet-or-chart-into-image-with-desired-width-and-height/
 以下代码将工作表导出为一个 400x400 大小的图像。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-WorksheetToImageDesiredSize-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

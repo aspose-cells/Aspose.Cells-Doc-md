@@ -248,3 +248,4 @@ if (classId != null)
 ## **重命名的API**
 ### **已重命名工作簿 removeDigitallySign 方法**
 Workbook.removeDigitallySign 方法已重命名为 Workbook.removeDigitalSignature。
+{{< app/cells/assistant language="java" >}}

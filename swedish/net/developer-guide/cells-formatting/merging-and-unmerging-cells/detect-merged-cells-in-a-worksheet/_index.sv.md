@@ -15,6 +15,7 @@ Aspose.Cells låter dig få sammanfogade cellområden i ett arbetsblad. Du kan o
 
 {{% /alert %}}
 
-Komponenten tillhandahåller metoden [**Cells.GetMergedAreas()**](https://reference.aspose.com/cells/net/aspose.cells/cells/getmergedareas/) som kan hämta alla sammanfogade celler. Följande kodexempel visar hur du upptäcker sammanfogade celler i ett kalkylblad.
+ Komponenten tillhandahåller [**Cells.GetMergedAreas()**](https://reference.aspose.com/cells/net/aspose.cells/cells/getmergedareas/) metoden som kan hämta alla sammanslagna celler. Följande kodexempel visar hur du upptäcker sammanslagna celler i ett kalkylblad.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DetectMergedCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

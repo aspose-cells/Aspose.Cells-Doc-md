@@ -14,3 +14,4 @@ Vous pouvez définir l'espacement des lignes du paragraphe, son espacement avant
 Le code d'échantillon suivant explique l'utilisation des propriétés mentionnées.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SetTextboxOrShapeParagraphLineSpacing-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

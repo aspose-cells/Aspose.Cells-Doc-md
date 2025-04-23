@@ -38,3 +38,4 @@ Di seguito è riportato il codice di esempio che converte il precedente file CSV
 ## Articoli correlati
 
 - [Apertura dei file CSV](/cells/it/net/opening-files-with-different-formats/#opening-csv-files)
+{{< app/cells/assistant language="csharp" >}}

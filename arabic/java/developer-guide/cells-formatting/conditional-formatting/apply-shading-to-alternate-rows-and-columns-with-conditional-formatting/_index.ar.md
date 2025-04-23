@@ -31,3 +31,4 @@ url: /ar/java/apply-shading-to-alternate-rows-and-columns-with-conditional-forma
 سيبدو الجدول الناتج في هذه الحالة كما في الصورة التالية.
 
 ![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)
+{{< app/cells/assistant language="java" >}}

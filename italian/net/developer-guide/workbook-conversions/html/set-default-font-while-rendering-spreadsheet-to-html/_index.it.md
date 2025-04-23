@@ -24,3 +24,4 @@ Il codice genera [file HTML di output con Courier New](5115516), il [file HTML c
 ## Codice di esempio
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-SetDefaultFontWhileRendering-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

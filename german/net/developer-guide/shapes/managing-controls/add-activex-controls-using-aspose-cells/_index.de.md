@@ -29,3 +29,4 @@ Sobald Sie die ActiveX-Steuerung in der Formsammlung hinzugefügt haben, können
 Der folgende Beispielcode fügt eine Umschaltfläche für ActiveX-Steuerungen mithilfe von Aspose.Cells hinzu.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddActiveXControls-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

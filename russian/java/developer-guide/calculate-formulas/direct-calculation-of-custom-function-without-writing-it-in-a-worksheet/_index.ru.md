@@ -7,7 +7,7 @@ url: /ru/java/direct-calculation-of-custom-function-without-writing-it-in-a-work
 
 {{% alert color="primary" %}} 
 
-В этой статье объясняется, как вы можете непосредственно вычислить свои пользовательские функции, не записывая их сначала в лист. Используйте метод [Worksheet.calculateFormula(string formula, CalculationOptions opts)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula\(java.lang.String,%20com.aspose.cells.CalculationOptions\)) для этой цели.
+Эта статья объясняет, как вы можете прямо вычислять ваши пользовательские функции без предварительного их написания в листе. Пожалуйста, используйте метод [Worksheet.calculateFormula(string formula, CalculationOptions opts)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula-java.lang.String-com.aspose.cells.CalculationOptions-) для этой цели.
 
 {{% /alert %}} 
 ## **Прямой расчет пользовательской функции без записи ее на лист**
@@ -28,3 +28,4 @@ url: /ru/java/direct-calculation-of-custom-function-without-writing-it-in-a-work
 - [Реализация пользовательского расчетного механизма для расширения расчетного механизма по умолчанию Aspose.Cells](/cells/ru/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

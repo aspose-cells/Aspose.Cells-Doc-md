@@ -20,3 +20,4 @@ Cet exemple crée un classeur, le remplit de données et copie uniquement le sty
 1. Copier la mise en forme de la première plage vers la deuxième plage.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeStyleOnly-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

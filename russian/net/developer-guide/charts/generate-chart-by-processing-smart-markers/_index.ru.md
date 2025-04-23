@@ -48,3 +48,4 @@ API Aspose.Cells предоставляет класс [**WorkbookDesigner**](ht
 Как только данные на месте, все, что нам нужно сделать, это создать диаграмму на основе источника данных. Чтобы сделать пример более простым, мы используем метод [**Chart.SetChartDataRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange), чтобы нам не нужно было дополнительно настраивать диаграмму.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-CreationOfChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

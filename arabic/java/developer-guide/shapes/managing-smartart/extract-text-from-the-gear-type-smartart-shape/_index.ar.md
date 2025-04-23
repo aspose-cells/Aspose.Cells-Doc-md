@@ -24,3 +24,4 @@ url: /ar/java/extract-text-from-the-gear-type-smartart-shape/
 Gear Type Shape Text: Nice Gear Type Shape Text: Good Gear Type Shape Text: Excellent
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

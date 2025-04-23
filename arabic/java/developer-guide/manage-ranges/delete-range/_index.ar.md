@@ -13,7 +13,7 @@ url: /ar/java/delete-ranges-from-Excel/
 
 ## **حذف النطاقات باستخدام Aspose.Cells**
 
-توفر Aspose.Cells طريقة [Cells.DeleteRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRange(int,%20int,%20int,%20int,%20int)) لحذف نطاق.
+يوفر Aspose.Cells طريقة [Cells.DeleteRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRange-int-int-int-int-int-) لحذف نطاق.
 
 ## **حذف النطاقات وتحريك الخلايا لليسار**
 
@@ -27,3 +27,4 @@ url: /ar/java/delete-ranges-from-Excel/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Delete-Range-Up.java" >}}
 
+{{< app/cells/assistant language="java" >}}

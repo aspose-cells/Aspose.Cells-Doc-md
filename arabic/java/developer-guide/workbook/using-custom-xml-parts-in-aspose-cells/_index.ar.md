@@ -11,11 +11,11 @@ url: /ar/java/using-custom-xml-parts-in-aspose-cells/
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_1.png)
 
-يمكنك إضافة أجزاء XML مخصصة باستخدام Aspose.Cells من خلال أسلوب [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)).
+يمكنك إضافة أجزاء XML مخصصة باستخدام Aspose.Cells عبر طريقة [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-)
 
 {{% /alert %}} 
 ## **استخدام أجزاء XML المخصصة في Aspose.Cells**
-يستخدم الكود المثالي التالي [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)) ويضيف **كتالوج الكتب XML** واسمه **BookStore**. توضح الصورة التالية نتيجة هذا الكود. كما يمكن رؤية أن كتالوج الكتب XML قد تم إضافته داخل عقدة BookStore وهو اسم هذه الخاصية.
+يوضح الكود النموذجي التالي استخدام طريقة [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-) ويضيف **Book Catalog Xml** واسمه **BookStore**. تُظهر الصورة التالية ناتج هذا الكود. كما ترى، تم إضافة Book Catalog Xml داخل عقدة BookStore والتي هي اسم الخاصية تلك.
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_2.png)
 
@@ -26,3 +26,4 @@ url: /ar/java/using-custom-xml-parts-in-aspose-cells/
 - [إضافة خصائص مخصصة مرئية داخل لوحة معلومات الوثيقة](/cells/ar/java/adding-custom-properties-visible-inside-document-information-panel/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

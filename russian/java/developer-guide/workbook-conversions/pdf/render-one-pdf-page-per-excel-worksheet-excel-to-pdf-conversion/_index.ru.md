@@ -24,3 +24,4 @@ url: /ru/java/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
 Если ваша таблица содержит формулы, лучше всего вызвать метод [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) прямо перед отображением таблицы в формате PDF. Это гарантирует пересчет значений, зависящих от формулы, и правильные значения будут отображены в PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

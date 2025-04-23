@@ -20,3 +20,4 @@ Microsoft Excel 观察窗口是一个方便查看单元格值和公式的工具�
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Formulas-AddCellsToMicrosoftExcelFormulaWatchWindow.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

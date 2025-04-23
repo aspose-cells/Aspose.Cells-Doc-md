@@ -25,7 +25,7 @@ Aspose.Cells允许开发人员通过使用API或[设计者电子表格](/cells/z
 
 Aspose.Cells提供一个表示Microsoft Excel文件的类，即[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)，[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类包含一个[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)，它允许访问Excel文件中的每个工作表。工作表由[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)类表示。[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)类提供了向Excel文件添加不同超链接的不同方法。
 ## **添加指向URL的链接**
-[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)类包含一个[Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection)集合。[Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection)集合中的每一项都代表一个[Hyperlink](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink)。通过调用[Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Hyperlinks)集合的[Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))方法可以向URL添加超链接。[Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))方法接受以下参数：
+[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)类包含一个[Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection)集合。每个元素表示一个[Hyperlink](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink)。通过调用[Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Hyperlinks)集合的[Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-)方法，可以添加超链接到URL。该方法参数如下：
 
 - 单元格名称，超链接将添加到的单元格的名称。
 - 行数，超链接范围中的行数。
@@ -44,7 +44,7 @@ Aspose.Cells提供一个表示Microsoft Excel文件的类，即[Workbook](https:
 
 
 ## **将链接添加到同一文件中的单元格**
-可以通过调用 [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) 集合的 [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))方法向同一 Excel 文件中的单元格添加超链接。Add 方法适用于内部和外部超链接。其中一个重载的方法版本接受以下参数:
+可以通过调用[Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection)集合的[Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-)方法，为同一Excel文件中的单元格添加超链接。此方法支持内部和外部超链接。重载方法之一参数如下：
 
 - 单元格名称，超链接将添加到的单元格的名称。
 - 行数，超链接范围中的行数。
@@ -58,7 +58,7 @@ Aspose.Cells提供一个表示Microsoft Excel文件的类，即[Workbook](https:
 
 
 ## **向外部文件添加链接**
-可以通过调用 [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) 集合的 [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))方法向外部 Excel 文件添加超链接。Add 方法接受以下参数:
+也可以调用[Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection)集合的[Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-)方法，为外部Excel文件添加超链接。参数如下：
 
 - 单元格名称，超链接将添加到的单元格的名称。
 - 行数，超链接范围中的行数。
@@ -76,3 +76,4 @@ Aspose.Cells提供一个表示Microsoft Excel文件的类，即[Workbook](https:
 - [获取范围内的超链接](/cells/zh/java/get-hyperlinks-in-range/)
 
 
+{{< app/cells/assistant language="java" >}}

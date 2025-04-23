@@ -56,3 +56,4 @@ Sie können beliebige Quellarbeitsmappen verwenden. Diese Bilder dienen nur zur 
 ## **Erweiterte Themen**
 - [Mehrere Arbeitsblätter in ein einziges Arbeitsblatt kombinieren](/cells/de/net/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Dateien zusammenführen](/cells/de/net/merge-files/)
+{{< app/cells/assistant language="csharp" >}}

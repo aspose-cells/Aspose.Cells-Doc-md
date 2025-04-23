@@ -31,3 +31,4 @@ url: /ar/java/extract-ole-objects-from-workbook/
 تبين هذه المقالة كيفية استخراج كائنات Ole من دفتر عمل باستخدام Aspose.Cells. نأمل أن يمنحك ذلك بعض الرؤى التي تسمح لك باستخدام هذه الخيارات في سيناريوهاتك الخاصة.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

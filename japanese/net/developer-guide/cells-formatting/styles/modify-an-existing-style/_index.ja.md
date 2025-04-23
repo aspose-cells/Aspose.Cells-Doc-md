@@ -52,3 +52,4 @@ Microsoft Excel 97-2003でスタイルを更新するには:
 変更は自動的に適用された範囲に適用されます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ModifyExistingStyle-ModifyThroughSampleExcelFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -24,3 +24,4 @@ Um Text in einer Zelle umzubrechen, verwenden Sie die Eigenschaft [**Aspose.Cell
 Sie können in C# „\n“ und in VB.NET „vbLf“ verwenden, um explizite Zeilenumbrüche in einer Zelle einzufügen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-UseExplicitLineBreaks-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

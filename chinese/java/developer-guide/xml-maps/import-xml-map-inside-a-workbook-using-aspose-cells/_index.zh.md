@@ -7,7 +7,7 @@ url: /zh/java/import-xml-map-inside-a-workbook-using-aspose-cells/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells允许您使用[**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml(java.lang.String,%20java.lang.String,%20int,%20int))方法在工作簿内导入XML映射。您可以使用Microsoft Excel来完成以下步骤导入XML映射。
+Aspose.Cells允许您使用[**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml-java.lang.String-java.lang.String-int-int-)方法在工作簿内导入XML映射。您可以使用Microsoft Excel来完成以下步骤导入XML映射。
 
 - 选择** 开发人员** 选项卡
 - 单击 **在 XML 部分导入** 并按照所需步骤操作。
@@ -24,8 +24,9 @@ Aspose.Cells允许您使用[**Workbook.importXml()**](https://reference.aspose.c
 
 ## **使用 Aspose.Cells 导入 XML 地图**
 
-以下示例代码显示如何使用[**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml(java.lang.String,%20java.lang.String,%20int,%20int))。它生成了[输出excel文件](5472502.xlsx)，如屏幕截图所示。
+以下示例代码显示如何使用[**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml-java.lang.String-java.lang.String-int-int-)。它生成了[输出excel文件](5472502.xlsx)，如屏幕截图所示。
 
 ![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ImportXMLMap-ImportXMLMap.java" >}}
+{{< app/cells/assistant language="java" >}}

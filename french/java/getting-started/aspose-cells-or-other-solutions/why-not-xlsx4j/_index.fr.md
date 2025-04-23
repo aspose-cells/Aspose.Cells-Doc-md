@@ -140,3 +140,4 @@ Cette section comprend les sujets suivants
     - [Afficher et masquer les onglets du classeur dans xlsx4j](/cells/fr/java/display-and-hide-tabs-of-workbook-in-xlsx4j/)
     - [Enregistrer chaque feuille de calcul dans un fichier PDF différent dans xlsx4j](/cells/fr/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
     - [Définir la couleur de l'onglet de la feuille de calcul dans xlsx4j](/cells/fr/java/set-worksheet-tab-color-in-xlsx4j/)
+{{< app/cells/assistant language="java" >}}

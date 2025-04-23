@@ -145,3 +145,4 @@ El código de muestra que se muestra a continuación demuestra el uso de las cla
 ## **Temas avanzados**
 - [Especificar Campos de Fórmula al Importar Datos a la Hoja de Cálculo](/cells/es/net/specify-formula-fields-while-importing-data-to-worksheet/)
 - [Desplazar la primera fila hacia abajo al insertar filas de tabla de datos de celdas](/cells/es/net/shift-first-row-down-when-inserting-cells-data-table-rows/)
+{{< app/cells/assistant language="csharp" >}}

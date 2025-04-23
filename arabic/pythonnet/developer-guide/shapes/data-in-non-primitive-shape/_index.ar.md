@@ -3,8 +3,8 @@ title: البيانات في شكل غير الذي يتميز ببساطة
 type: docs
 weight: 300
 url: /ar/python-net/data-in-non-primitive-shape/
-description: يوضح هذا المقال البيانات بشكل غير أولية من خلال Aspose.Cells لـ نظام Python via .NET API.
-keywords: مكتبة بيانات Excel لـ Python، البيانات بشكل غير أولية باستخدام Python، كيفية الوصول إلى بيانات الشكل غير الأولية باستخدام Python.
+description: يعرض هذا المقال البيانات في الشكل غير الأساسي من خلال واجهة برمجة التطبيقات Aspose.Cells لـ بايثون via .NET.
+keywords: مكتبة بايثون لإكسل، البيانات في الشكل غير الأساسي، كيفية الوصول إلى بيانات الشكل غير الأساسي في بايثون.
 ---
 
 ## **الوصول إلى بيانات الشكل غير الذي يتميز ببساطة**
@@ -13,7 +13,7 @@ keywords: مكتبة بيانات Excel لـ Python، البيانات بشكل 
 
 ## **الشكل غير الأساسي**
 
-في Aspose.Cells لـ نظام Python via .NET، يتم تعيين أشكال غير أولية النوع [**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/autoshapetype). يمكنك التحقق من نوعها باستخدام الخاصية [**Shape.auto_shape_type**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/auto_shape_type).
+في Aspose.Cells لـ بايثون via .NET، يتم تعيين الأشكال غير الأساسية من النوع [**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/autoshapetype). يمكنك التحقق من نوعها باستخدام الخاصية [**Shape.auto_shape_type**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/auto_shape_type).
 
 الوصول إلى بيانات الشكل باستخدام الخاصية [**Shape.paths**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/paths). تُعيد جميع المسارات المتصلة التي تشكل الشكل غير الأساسي. هذه المسارات تكون من نوع [**ShapePath**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shapepath) التي تحمل قائمة بجميع القطاعات التي بدورها تحتوي على النقاط في كل قطاع.
 

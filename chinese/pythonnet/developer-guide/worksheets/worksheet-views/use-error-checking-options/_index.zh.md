@@ -3,8 +3,8 @@ title: 使用错误检查选项
 type: docs
 weight: 140
 url: /zh/python-net/use-error-checking-options/
-description: 在本文中，您将找到样例代码，该代码可以以编程方式使用 Aspose.Cells for Python via .NET API 的 Excel 工作表错误检查选项，例如将数字存储为文本。
-keywords: Python Excel 库，Python 在 Excel 中将数字存储为文本，如何处理 Python 中的错误检查 Excel 选项。
+description: 本文中提供了示例代码，使用 Aspose.Cells for Python via .NET API 编程方式检测Excel工作表中的错误，例如将数字作为文本存储。
+keywords: Python Excel库，Python在Excel中存储数字为文本，如何处理Excel中的错误检查选项。
 ---
 
 {{% alert color="primary" %}}
@@ -19,7 +19,7 @@ Microsoft Excel允许用户定义错误检查选项和规则。当创建公式�
 
 可以通过选项解决错误，也可以选择忽略错误。忽略错误意味着该错误在后续错误检查中不再显示。
 
-Aspose.Cells for Python via .NET 提供了错误检查选项功能。[**ErrorCheckOption**](https://reference.aspose.com/cells/python-net/aspose.cells/errorcheckoption) 类管理不同类型的错误检查，例如数字存储为文本、公式计算错误和验证错误。使用 [**ErrorCheckType**](https://reference.aspose.com/cells/python-net/aspose.cells/errorchecktype) 枚举来设置所需的错误检查。
+Aspose.Cells for Python via .NET 提供了错误检查功能。[**ErrorCheckOption**](https://reference.aspose.com/cells/python-net/aspose.cells/errorcheckoption) 类管理不同类型的错误检测，例如数字以文本存储、公式计算错误以及验证错误。使用 [**ErrorCheckType**](https://reference.aspose.com/cells/python-net/aspose.cells/errorchecktype) 枚举设置所需的错误检测类型。
 
 ## **作为文本存储的数字**
 
@@ -28,9 +28,9 @@ Aspose.Cells for Python via .NET 提供了错误检查选项功能。[**ErrorChe
 可以使用错误检查选项快速将作为文本存储的数字转换为实际数字。在Microsoft Excel 2003中：
 
 1. 在“工具”菜单上，单击“选项”。
-1. 选择“错误检查”选项卡。**数字存储为文本** 选项默认为选中状态。
+1. 选择错误检查标签页。默认勾选“数字存储为文本”选项。
 1. 取消其选中状态。
 
-以下样例代码显示了如何使用 Aspose.Cells for Python via .NET API 来禁用模板 XLS 文件中的工作表的“数字存储为文本”错误检查选项。
+以下示例代码演示了如何使用 Aspose.Cells for Python via .NET API 禁用工作表中“数字存储为文本”的错误检测选项。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ErrorCheckingOptions-1.py" >}}

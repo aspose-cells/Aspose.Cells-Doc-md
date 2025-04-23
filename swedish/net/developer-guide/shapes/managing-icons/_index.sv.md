@@ -32,3 +32,4 @@ Här har vi förberett *exempelkod* för att hjälpa dig att infoga ikoner med h
 När du utför ovanstående kod i ditt projekt kommer du att få följande resultat:
 
 ![](3.png)
+{{< app/cells/assistant language="csharp" >}}

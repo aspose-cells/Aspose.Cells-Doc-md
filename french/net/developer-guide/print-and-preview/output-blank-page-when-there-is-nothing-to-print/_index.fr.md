@@ -18,3 +18,4 @@ Le code d'exemple suivant crée le classeur vide qui a une feuille de calcul vid
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-OutputBlankPageWhenThereIsNothingToPrint-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

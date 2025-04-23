@@ -14,3 +14,4 @@ Aspose.Cells, pivot tablosunu ODS dosyalarına kaydetme özelliği sağlar. Bunu
 Yukarıdaki kod tarafından oluşturulan çıkış dosyası referans için ekte bulunmaktadır.
 
 [Çıktı ODS Dosyası](PivotTableSaveInODS_out.ods)
+{{< app/cells/assistant language="csharp" >}}

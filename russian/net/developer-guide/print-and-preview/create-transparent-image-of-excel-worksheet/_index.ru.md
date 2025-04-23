@@ -26,3 +26,4 @@ url: /ru/net/create-transparent-image-of-excel-worksheet/
 Следующий образец кода генерирует прозрачное изображение из листа Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateTransparentImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -3,8 +3,8 @@ title: Verificare se il foglio di lavoro è un foglio di dialogo
 type: docs
 weight: 90
 url: /it/python-net/find-if-the-worksheet-is-dialog-sheet/
-description: Il foglio Dialog è un vecchio formato di foglio. Questo articolo fornisce istruzioni e codice di esempio per determinare in modo programmato se un foglio di lavoro di Excel è un foglio Dialog utilizzando la libreria Aspose.Cells per Python via .NET.
-keywords: Libreria Excel Python, trova il tipo di foglio dialogo di Excel in Python, foglio dialogo in Python.
+description: Il foglio di dialogo è un vecchio formato di foglio. Questo articolo fornisce istruzioni e codice di esempio per determinare programmaticamente se un foglio di lavoro Excel è un Foglio di Dialogo usando la libreria Aspose.Cells for Python via .NET.
+keywords: Libreria Python per Excel, tipo di dialogo per trovare il foglio di lavoro Excel in Python, dialogo del foglio di lavoro in python.
 ---
 
 ## **Possibili Scenari di Utilizzo**
@@ -13,7 +13,7 @@ Il foglio di dialogo è un vecchio formato di foglio che contiene una finestra d
 
 ![todo:image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
 
-Puoi scoprire se il foglio è un foglio dialogo o un altro tipo di foglio con la proprietà [**Worksheet.type**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/type/) fornita da Aspose.Cells per Python via .NET. Se restituisce il valore di enumerazione [**SheetType.DIALOG**](https://reference.aspose.com/cells/python-net/aspose.cells/sheettype/), allora significa che stai gestendo un foglio di dialogo.
+Puoi verificare se il foglio è un foglio di dialogo o di altro tipo con la proprietà [**Worksheet.type**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/type/) fornita da Aspose.Cells per Python via .NET. Se restituisce il valore di enumerazione [**SheetType.DIALOG**](https://reference.aspose.com/cells/python-net/aspose.cells/sheettype/), significa che stai lavorando con un foglio di dialogo.
 
 ## **Trova se il foglio di lavoro è un foglio di dialogo**
 

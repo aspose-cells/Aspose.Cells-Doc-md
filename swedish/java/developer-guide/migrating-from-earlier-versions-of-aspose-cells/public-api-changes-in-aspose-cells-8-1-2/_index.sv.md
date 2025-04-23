@@ -20,3 +20,4 @@ Se den detaljerade artikeln om [Få varningar för teckensnittsutbyte vid render
 {{% /alert %}}
 ## **Raderad föråldrad PdfSaveOptions.ChartImageType Egenskap**
 Aspose.Cells for Java 8.1.2 har tagit bort den föråldrade egenskapen PdfSaveOptions.ChartImageType från den offentliga API:en.
+{{< app/cells/assistant language="java" >}}

@@ -26,7 +26,7 @@ Un foglio di lavoro è rappresentato dalla classe [**Worksheet**](https://refere
 
 ## **Aggiungere fogli di lavoro a un nuovo file Excel**
 
-Per creare un nuovo file Excel tramite programmazione, gli sviluppatori devono creare un oggetto della classe [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) che rappresenta un file Excel. Quindi gli sviluppatori possono chiamare il metodo [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--) della classe [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). Quando chiamiamo il metodo [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--), viene aggiunto automaticamente un foglio di lavoro vuoto al file Excel, che può essere referenziato passando l'indice del foglio appena aggiunto al [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). Dopo aver ottenuto il riferimento al foglio di lavoro, gli sviluppatori possono lavorare sui fogli di lavoro secondo le proprie esigenze. Dopo aver lavorato sui fogli di lavoro, gli sviluppatori possono salvare il nuovo file Excel con i nuovi fogli di lavoro chiamando il metodo [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) della classe [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook).
+Per creare un nuovo file Excel tramite programmazione, gli sviluppatori devono creare un oggetto della classe [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) che rappresenta un file Excel. Quindi gli sviluppatori possono chiamare il metodo [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--) della classe [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). Quando chiamiamo il metodo [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--), viene aggiunto automaticamente un foglio di lavoro vuoto al file Excel, che può essere referenziato passando l'indice del foglio appena aggiunto al [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). Dopo aver ottenuto il riferimento al foglio di lavoro, gli sviluppatori possono lavorare sui fogli di lavoro secondo le proprie esigenze. Dopo aver lavorato sui fogli di lavoro, gli sviluppatori possono salvare il nuovo file Excel con i nuovi fogli di lavoro chiamando il metodo [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) della classe [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AddingWorksheetstoNewExcelFile-AddingWorksheetstoNewExcelFile.java" >}}
 
@@ -44,7 +44,7 @@ Gli sviluppatori possono accedere o ottenere qualsiasi foglio di lavoro specific
 
 ## **Rimozione dei fogli di lavoro utilizzando il nome del foglio**
 
-A volte, gli sviluppatori possono avere la necessità di rimuovere fogli di lavoro da file Excel esistenti e tale operazione può essere eseguita chiamando il metodo [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String)) della collezione [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). Possiamo passare il nome del foglio al metodo [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String)) per rimuovere un foglio di lavoro specifico.
+A volte, gli sviluppatori possono avere la necessità di rimuovere fogli di lavoro da file Excel esistenti e tale operazione può essere eseguita chiamando il metodo [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-java.lang.String-) della collezione [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). Possiamo passare il nome del foglio al metodo [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-java.lang.String-) per rimuovere un foglio di lavoro specifico.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetName-RemovingWorksheetsusingSheetName.java" >}}
 
@@ -52,7 +52,7 @@ A volte, gli sviluppatori possono avere la necessità di rimuovere fogli di lavo
 
 L'approccio precedente alla rimozione dei fogli di lavoro funziona bene se gli sviluppatori conoscono già i nomi dei fogli di lavoro da eliminare. Ma, cosa fare se non si conosce il nome del foglio di lavoro che si desidera rimuovere dal proprio file Excel?
 
-Bene, in tali circostanze, gli sviluppatori possono utilizzare una versione sovraccaricata del metodo [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(int)) che prende l'indice del foglio di lavoro invece del suo nome del foglio.
+Bene, in tali circostanze, gli sviluppatori possono utilizzare una versione sovraccaricata del metodo [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-int-) che prende l'indice del foglio di lavoro invece del suo nome del foglio.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetIndex-RemovingWorksheetsusingSheetIndex.java" >}}
 
@@ -72,3 +72,4 @@ Bene, in tali circostanze, gli sviluppatori possono utilizzare una versione sovr
 - [Utilizza la proprietà Sheet.SheetId di OpenXml utilizzando Aspose.Cells](/cells/it/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [Lavorare con lo sfondo nei file ODS](/cells/it/java/working-with-background-in-ods-files/)
 - [Visualizzazioni del foglio di lavoro](/cells/it/java/worksheet-views/)
+{{< app/cells/assistant language="java" >}}

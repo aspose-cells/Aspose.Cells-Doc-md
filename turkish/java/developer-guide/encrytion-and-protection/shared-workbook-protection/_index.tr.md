@@ -8,7 +8,7 @@ url: /tr/java/password-protect-or-unprotect-the-shared-workbook/
 
 ## **Olası Kullanım Senaryoları**
 
-Aşağıdaki ekran görüntüsünde gösterildiği gibi, Microsoft Excel ile paylaşılan çalışma kitabını koruyabilir veya korumasız hale getirebilirsiniz. Aspose.Cells, bu özelliği [**Workbook.protectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook(java.lang.String)) ve [**Workbook.unprotectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook(java.lang.String)) yöntemleriyle destekler.
+Aşağıdaki ekran görüntüsünde gösterildiği gibi, Microsoft Excel ile paylaşılan çalışma kitabını koruyabilir veya korumasız hale getirebilirsiniz. Aspose.Cells, bu özelliği [**Workbook.protectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook-java.lang.String-) ve [**Workbook.unprotectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook-java.lang.String-) yöntemleriyle destekler.
 
 ![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_1.png)
 
@@ -21,3 +21,4 @@ Aşağıdaki örnek kod, bir çalışma kitabı oluşturur ve paylaşımı etkin
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-PasswordProtectOrUnprotectSharedWorkbook.java" >}}
+{{< app/cells/assistant language="java" >}}

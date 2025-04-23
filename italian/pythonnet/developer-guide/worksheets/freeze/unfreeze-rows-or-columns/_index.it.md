@@ -4,8 +4,8 @@ linktitle: Scongelare riquadri
 type: docs
 weight: 190
 url: /it/python-net/unfreeze-rows-or-columns-of-excel-worksheet
-description: In questo articolo, imparerai come scongelare righe, colonne o riquadri dei fogli di calcolo di Excel in modo programmato utilizzando le API di Aspose.Cells per Python via .NET.
-keywords: Libreria Excel di Python, Scongelare riquadri di Python, Come scongelare righe di Python, come scongelare colonne di Python, come scongelare finestra.
+description: In questo articolo, imparerai come sbloccare righe, colonne o riquadri di fogli di lavoro Excel programmaticamente usando le API di Aspose.Cells for Python via .NET.
+keywords: Libreria Excel Python, Python Sblocca i riquadri, Python Come sbloccare righe, Python Come sbloccare colonne, Python Come sbloccare finestra.
 ---
 
 ## **Introduzione**
@@ -13,7 +13,7 @@ keywords: Libreria Excel di Python, Scongelare riquadri di Python, Come scongela
 In questo articolo, impareremo come Sbloccare Righe, Colonne e Riquadri. Se i fogli di lavoro nei file Excel sono bloccati, a volte vogliamo sbloccare il foglio di lavoro o regolare le righe, le colonne o i riquadri bloccati.
 
 
-## **Come scongelare righe o colonne in Excel**
+## **Come sbloccare righe o colonne in Excel**
 
 1. Fare clic sulla scheda Visualizzazione > Riquadri bloccati > Scongela riquadri.
 
@@ -22,8 +22,8 @@ In questo articolo, impareremo come Sbloccare Righe, Colonne e Riquadri. Se i fo
 
 
 
-## **Come scongelare righe, colonne o riquadri con Aspose.Cells per la libreria Excel di Python**
-Semplice scongelare i riquadri con Aspose.Cells per Python via .NET. Si prega di utilizzare il metodo [**Worksheet.un_freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/un_freeze_panes/) per scongelare i riquadri.
+## **Come sbloccare righe, colonne o riquadri con Aspose.Cells per Python Libreria Excel**
+È semplice sbloccare i riquadri con Aspose.Cells for Python via .NET. Usa il metodo [**Worksheet.un_freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/un_freeze_panes/) per sbloccare i riquadri.
 
 1. Costruisci il workbook per aprire il file bloccato.
 2. Scongela i riquadri con il metodo Worksheet.UnFreezePanes().

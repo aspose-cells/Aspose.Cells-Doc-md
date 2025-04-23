@@ -23,7 +23,7 @@ Aspose.Cells 允许您识别工作表中的合并单元格区域。您也可以�
 
 ![todo:image_alt_text](detect-merged-cells-in-a-worksheet_1.png)
 
-Aspose.Cells提供[**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--)方法，用于获取所有合并的单元格。
+Aspose.Cells 提供 [**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--) 方法，用于获取所有合并单元格。
 
 当执行下面的代码时，它会清除工作表的内容并在再次保存文件之前取消所有单元格区域的合并。
 
@@ -40,3 +40,4 @@ Aspose.Cells提供[**Cells.getMergedCells()**](https://reference.aspose.com/cell
 ## **相关文章**
 
 - [合并和拆分单元格](/cells/zh/java/merging-and-unmerging-cells/).
+{{< app/cells/assistant language="java" >}}

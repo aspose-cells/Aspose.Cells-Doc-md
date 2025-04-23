@@ -31,3 +31,4 @@ HtmlSaveOptions类暴露了PresentationPreference属性，可以在将电子表�
 请查看有关[如何在工作表中创建、操纵或删除方案](/cells/zh/net/create-manipulate-or-remove-scenarios-from-worksheets/)的详细文章。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

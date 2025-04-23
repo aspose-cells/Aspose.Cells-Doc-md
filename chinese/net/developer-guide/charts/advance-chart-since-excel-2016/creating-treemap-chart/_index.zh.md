@@ -19,3 +19,4 @@ url: /zh/net/creating-treemap-chart/
 以下示例代码加载 [样本 Excel 文件](treemap.xlsx) 并生成 [输出 Excel 文件](out.xlsx)。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-treemap-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

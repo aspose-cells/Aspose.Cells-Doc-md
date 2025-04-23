@@ -203,3 +203,4 @@ Descargar **Insertar hipervínculos en la hoja de trabajo** desde cualquiera de 
 Para obtener más detalles, visita [Agregar hipervínculos para vincular datos](/cells/es/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -40,3 +40,4 @@ A continuación se encuentran ejemplos de código de comparación para abrir un 
 {{< /highlight >}}
 ##**Descargar**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/OpenTextFilesAsWorkbooks.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

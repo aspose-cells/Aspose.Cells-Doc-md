@@ -24,3 +24,4 @@ La siguiente captura de pantalla muestra cómo los archivos .bin se han converti
 Aquí está el código para convertir el archivo XLSB a formato XLSM usando Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConvertRevisionOfXLSBtoXLSM-ConvertRevisionOfXLSBtoXLSM.java" >}}
+{{< app/cells/assistant language="java" >}}

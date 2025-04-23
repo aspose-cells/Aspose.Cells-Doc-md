@@ -21,3 +21,4 @@ Aspose.Cells bietet eine Methode [**Cell.GetStringValue()**](https://reference.a
 Der folgende Beispielcode erläutert die Verwendung der [**Cell.GetStringValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstringvalue)-Methode.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-GetStringValue-GetStringValueWithOrWithoutFormatting.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

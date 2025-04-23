@@ -9,7 +9,7 @@ keywords: オフィス2013、オフィス2016、オフィス2019およびオフ�
 
 ## **可能な使用シナリオ**
 
-Excelでスライサーとピボットテーブルを関連付けたい場合は、スライサーを右クリックし、「レポート接続...」項目を選択する必要があります。オプションリストでチェックボックスで操作できます。Aspose.Cells Java APIを使用してスライサーとピボットテーブルをプログラムで関連付ける場合は、[**Slicer.addPivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#addPivotConnection(com.aspose.cells.PivotTable)/) メソッドを使用してください。
+Excelでスライサーとピボットテーブルを関連付けたい場合は、スライサーを右クリックし、「レポート接続...」項目を選択する必要があります。オプションリストでチェックボックスで操作できます。Aspose.Cells Java APIを使用してスライサーとピボットテーブルをプログラムで関連付ける場合は、[**Slicer.addPivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#addPivotConnection-com.aspose.cells.PivotTable-) メソッドを使用してください。
 
 ## **スライサーとピボットテーブルを関連付ける**
 
@@ -19,3 +19,4 @@ Excelでスライサーとピボットテーブルを関連付けたい場合は
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Slicers-Adding-Pivot-Connection.java" >}}
+{{< app/cells/assistant language="java" >}}

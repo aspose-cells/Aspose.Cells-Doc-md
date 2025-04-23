@@ -18,3 +18,4 @@ El siguiente código de ejemplo crea un libro de trabajo y establece el valor de
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "LoadingSavingConvertingAndManaging-SaveWorkbookToStrictOpenXMLSpreadsheetFormat.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

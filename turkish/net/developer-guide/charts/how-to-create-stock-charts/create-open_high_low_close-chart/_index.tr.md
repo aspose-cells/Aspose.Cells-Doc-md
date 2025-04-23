@@ -21,3 +21,4 @@ Sıklıkla artan ve azalan fiyatları göstermek için siyah-beyaz yerine renkle
 Aşağıdaki örnek kod, [örnek Excel dosyasını](Open-High-Low-Close.xlsx) yükler ve [çıktı Excel dosyasını](out.xlsx) oluşturur.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-open-high-low-close-stock-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

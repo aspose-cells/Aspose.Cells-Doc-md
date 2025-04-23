@@ -52,7 +52,7 @@ repositories {
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.7</version>
+            <version>25.4</version>
 
         </dependency>
 
@@ -62,7 +62,7 @@ repositories {
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.7</version>
+            <version>25.4</version>
 
             <classifier>javadoc</classifier>
 
@@ -107,3 +107,4 @@ WebP - современный формат изображений, разраб�
 Пожалуйста, проверьте следующее, чтобы получить быструю техническую поддержку
 
 [Aspose.Cells - Форумы](https://forum.aspose.com/c/cells/9)
+{{< app/cells/assistant language="java" >}}

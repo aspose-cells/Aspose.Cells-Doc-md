@@ -79,3 +79,4 @@ workbook.Save("Chart_Aspose.xls");
 更多详情，请访问[如何创建图表](/cells/zh/net/create-charts/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

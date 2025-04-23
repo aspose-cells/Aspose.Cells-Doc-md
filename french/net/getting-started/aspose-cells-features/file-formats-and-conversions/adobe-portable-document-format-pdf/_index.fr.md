@@ -24,3 +24,4 @@ La solution Aspose prend en charge de manière exhaustive les fonctionnalités d
 - Cellules fusionnées, Sauts de page, Titres d'impression
 
 Vous pouvez également consulter la [spécification détaillée](https://docs.aspose.com/cells/net/convert-excel-workbook-to-pdf/) sur la manière dont Aspose.Cells convertit un document en PDF.
+{{< app/cells/assistant language="csharp" >}}

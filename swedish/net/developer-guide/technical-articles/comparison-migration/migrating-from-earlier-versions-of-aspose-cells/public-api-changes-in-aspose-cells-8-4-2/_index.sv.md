@@ -158,3 +158,4 @@ workbook.Save(output);
 Från och med släppet av Aspose.Cells for .NET 8.4.2, beter sig uppräkningfältet PasteType.All annorlunda jämfört med Excels "All" funktionalitet vid att klistra in området med celler. Nu kopierar PasteType.All även kolumnbredderna till destinationsområdet istället för Excels "All" funktionalitet. För att härma Excels "All" beteende, vänligen använd PasteType.Default.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

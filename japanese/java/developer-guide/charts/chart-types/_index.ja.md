@@ -257,3 +257,4 @@ Aspose.Cellsでは、次のレーダーチャートがサポートされてい�
 
 ### **カスタムチャートタイプ**
 カスタムチャートは他のチャートにも適用できるカスタムフォーマットを持つチャートを作成することを可能にします。ここでは、標準チャートのみを説明しました。カスタムチャートの詳細については、[カスタムチャートの作成](/cells/ja/java/creating-and-customizing-charts/#creatingandcustomizingcharts-usingchartingobjects) 記事を読んでください。
+{{< app/cells/assistant language="java" >}}

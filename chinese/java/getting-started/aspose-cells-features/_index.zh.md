@@ -106,3 +106,4 @@ Aspose.Cells for Java详细提供了对所有电子表格元素的格式属性�
 |设置打印区域、打印标题，或转换网格线等。|是|
 
 
+{{< app/cells/assistant language="java" >}}

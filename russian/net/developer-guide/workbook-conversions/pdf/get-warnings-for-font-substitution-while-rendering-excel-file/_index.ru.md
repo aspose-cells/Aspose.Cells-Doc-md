@@ -50,3 +50,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 Если ваш электронный таблицы содержит формулы, лучше вызвать метод CalculateFormula книги прямо перед рендерингом электронной таблицы в формат PDF. Это гарантирует пересчет значений, зависящих от формул, и правильный вывод значений в PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

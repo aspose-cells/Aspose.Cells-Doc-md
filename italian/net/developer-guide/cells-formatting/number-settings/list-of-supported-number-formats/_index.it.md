@@ -188,3 +188,4 @@ Aspose.Cells.GridWeb supporta anche 59 tipi di formati numerici che sono elencat
 |EasternTime5 |tth?mm? |
 |EasternTime6 |tth?mm?ss? |
 
+{{< app/cells/assistant language="csharp" >}}

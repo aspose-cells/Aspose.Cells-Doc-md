@@ -24,3 +24,4 @@ Microsoft Excel でワークシートでゼロ値を非表示にするには:
 以下に、Aspose.Cellsを使用してゼロを非表示にする方法を示すサンプルコードをご覧ください。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-HidingDisplayOfZeroValues-HidingDisplayOfZeroValues.java" >}}
+{{< app/cells/assistant language="java" >}}

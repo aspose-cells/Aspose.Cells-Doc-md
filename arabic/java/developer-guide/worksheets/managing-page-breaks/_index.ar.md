@@ -51,6 +51,7 @@ url: /ar/java/managing-page-breaks/
 
 {{% alert color="primary" %}}
 
-من المهم معرفته: عندما تقوم بتعيين خصائص الذي تناسب الصفحة (أي [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) و [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide)) في إعدادات تخطيط الصفحة، يتأثر إعدادات كسر الصفحة، لذلك، إذا قمت بطباعة ورقة العمل، فإن إعدادات كسر الصفحة لا تؤخذ في اعتبارها على الرغم من وجودها ما زال في الملف.
+**ملاحظة مهمة**: عند ضبط خصائص ملائمة الصفحة (وهي [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) و [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide-) في إعدادات إعداد الصفحة)، تتأثر إعدادات كسر الصفحة، لذلك، إذا قمت بطباعة ورقة العمل، فإن إعدادات كسر الصفحة لا تؤخذ بعين الاعتبار على الرغم من وجودها في الملف.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

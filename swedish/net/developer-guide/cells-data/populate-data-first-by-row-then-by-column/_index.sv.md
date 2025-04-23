@@ -18,3 +18,4 @@ Att placera data i sekvensen A1, B1, A2, B2 går snabbare än A1, A2, B1, B2. Om
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-PopulateDataEfficiently-PopulateDataFirstByRowThenColumns.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

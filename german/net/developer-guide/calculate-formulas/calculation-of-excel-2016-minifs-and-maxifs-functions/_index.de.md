@@ -17,3 +17,4 @@ Der folgende Beispiellcode lädt die [Beispiel-Exceldatei](5115149.xlsx) und ruf
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-MINIFSAndMAXIFS-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

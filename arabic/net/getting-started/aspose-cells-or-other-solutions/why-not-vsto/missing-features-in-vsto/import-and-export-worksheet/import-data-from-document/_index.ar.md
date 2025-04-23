@@ -29,3 +29,4 @@ Aspose.Cells توفر فئة، **Workbook** التي تمثل ملف Excel. تح
 - [استيراد من ArrayList](/cells/ar/net/importing-from-arraylist/)
 - [استيراد من الكائنات المخصصة](/cells/ar/net/importing-from-custom-objects/)
 - [استيراد من DataTable](/cells/ar/net/importing-from-datatable/)
+{{< app/cells/assistant language="csharp" >}}

@@ -38,3 +38,4 @@ Cette section comprend les sujets suivants
 - [Définir des liens externes dans des formules dans Aspose.Cells](/cells/fr/net/set-external-links-in-formulas-in-aspose-cells/)
 - [Définition du mode de calcul des formules du classeur dans Aspose.Cells](/cells/fr/net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/)
 - [Définition de la formule partagée dans Aspose.Cells](/cells/fr/net/setting-shared-formula-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

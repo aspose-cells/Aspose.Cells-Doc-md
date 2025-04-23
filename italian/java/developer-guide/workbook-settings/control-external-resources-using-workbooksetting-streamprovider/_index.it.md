@@ -13,3 +13,4 @@ Il seguente codice di esempio spiega l'utilizzo di [Workbook.Settings.StreamProv
 ![todo:image_alt_text](control-external-resources-using-workbooksetting-streamprovider_1.png)
 ## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-WorkbookSettings-ControlExternalResourcesUsingWorkbookSetting_StreamProvider-1.java" >}}
+{{< app/cells/assistant language="java" >}}

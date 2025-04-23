@@ -275,3 +275,4 @@ renderer.toImage(0, "output.svg");
 ## **Eskimiş API'lar**
 ### **Eski Workbook.validateFormula Yöntemi Kaldırıldı**
 Formülü doğrulamak için Cell.Formula özelliğini kullanın.
+{{< app/cells/assistant language="java" >}}

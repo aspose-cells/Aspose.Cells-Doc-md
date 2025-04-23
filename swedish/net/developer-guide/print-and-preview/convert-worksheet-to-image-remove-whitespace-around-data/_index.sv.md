@@ -21,3 +21,4 @@ Följande kodsippa tar bort mellanrummet runt datan i den resulterande bilden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RemoveWhitespaceAroundData-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

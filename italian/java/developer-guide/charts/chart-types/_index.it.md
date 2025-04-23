@@ -257,3 +257,4 @@ Il grafico a cascata è supportato in Aspose.Cells.
 
 ### **Tipi di grafico personalizzati**
 I grafici personalizzati ti permettono di creare grafici con formattazione personalizzata che possono essere applicati anche ad altri grafici. Qui abbiamo discusso solo dei grafici standard. Se desideri conoscere maggiori dettagli sui grafici personalizzati, ti preghiamo di leggere l'articolo [Creazione di grafici personalizzati](/cells/it/java/creating-and-customizing-charts/#creatingandcustomizingcharts-usingchartingobjects) che descrive come creare grafici personalizzati.
+{{< app/cells/assistant language="java" >}}

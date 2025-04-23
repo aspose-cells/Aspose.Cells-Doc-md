@@ -27,7 +27,7 @@ Aspose.Cellsは、ブック内またはブック間でのワークシートの�
 
 ## **ブック内でのワークシートのコピー**
 
-Aspose.Cellsは[**WorksheetCollection.addCopy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy(int))というオーバーロードされたメソッドを提供し、これはコレクションにワークシートを追加し、既存のワークシートからデータをコピーするために使用されます。メソッドの1つのバージョンは、ソースワークシートのインデックスをパラメーターとして取ります。もう1つのバージョンは、ソースワークシートの名前をパラメーターとして取ります。
+Aspose.Cellsは[**WorksheetCollection.addCopy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy-int-)というオーバーロードされたメソッドを提供し、これはコレクションにワークシートを追加し、既存のワークシートからデータをコピーするために使用されます。メソッドの1つのバージョンは、ソースワークシートのインデックスをパラメーターとして取ります。もう1つのバージョンは、ソースワークシートの名前をパラメーターとして取ります。
 
 次の例は、ブック内で既存のワークシートをコピーする方法を示しています。
 
@@ -35,7 +35,7 @@ Aspose.Cellsは[**WorksheetCollection.addCopy()**](https://reference.aspose.com/
 
 ## **ブック間でのワークシートのコピー**
 
-Aspose.Cellsは[**Worksheet.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet))というメソッドを提供し、これはソースのワークシートオブジェクトをパラメーターとして使用して、ブック内またはブック間で別のワークシートにデータと書式をコピーするために使用されます。
+Aspose.Cellsは[**Worksheet.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy-com.aspose.cells.Worksheet-)というメソッドを提供し、これはソースのワークシートオブジェクトをパラメーターとして使用して、ブック内またはブック間で別のワークシートにデータと書式をコピーするために使用されます。
 
 次の例は、ワークブックから別のワークブックにワークシートをコピーする方法を示しています。
 
@@ -47,8 +47,9 @@ Aspose.Cellsは[**Worksheet.copy()**](https://reference.aspose.com/cells/java/co
 
 ## **ワークブック内でのワークシートの移動**
 
-Aspose.Cellsは[**Worksheet.moveTo()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo(int))というメソッドを提供し、これは同じスプレッドシート内でワークシートを別の場所に移動するために使用されます。
+Aspose.Cellsは[**Worksheet.moveTo()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo-int-)というメソッドを提供し、これは同じスプレッドシート内でワークシートを別の場所に移動するために使用されます。
 
 次の例は、ワークブック内でワークシートを別の場所に移動する方法を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-MoveWorksheet-MoveWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

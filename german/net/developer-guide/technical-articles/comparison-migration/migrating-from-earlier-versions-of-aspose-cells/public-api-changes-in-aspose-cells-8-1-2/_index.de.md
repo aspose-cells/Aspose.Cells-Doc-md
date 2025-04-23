@@ -20,3 +20,4 @@ Bitte prüfen Sie den ausführlichen Artikel zu [Erhalt von Warnungen bei Schrif
 {{% /alert %}}
 ## **Entfernen der veralteten PdfSaveOptions.ChartImageType-Eigenschaft**
 Aspose.Cells for .NET 8.1.2 hat die veraltete PdfSaveOptions.ChartImageType-Eigenschaft aus der öffentlichen API entfernt.
+{{< app/cells/assistant language="csharp" >}}

@@ -60,3 +60,4 @@ url: /ar/net/format-and-modify-named-ranges/
 توفر Aspose.Cells الطريقة [**NameCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/namecollection/methods/removeat) لمحو اسم النطاق. لمسح محتويات النطاق، استخدم الطريقة [**Cells.ClearRange()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/clearrange/index). يوضح المثال التالي كيفية إزالة نطاق مسمى مع محتوياته.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-RemoveANamedRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

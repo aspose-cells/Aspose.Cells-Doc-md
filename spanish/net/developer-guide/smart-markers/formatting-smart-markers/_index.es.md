@@ -22,3 +22,4 @@ Mientras se trabaja con la función de agrupación de datos de Smart Markers, a 
 Este ejemplo utiliza un [archivo de datos](96927971.xlsx) y un [archivo de plantilla](96927972.xlsx) con unos pocos marcadores en las celdas. Al ejecutar el código, Aspose.Cells agrega algunas etiquetas personalizadas a las filas de resumen para los datos agrupados.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-AddCustomLabels-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

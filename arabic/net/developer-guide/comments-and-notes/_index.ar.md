@@ -48,3 +48,4 @@ keywords: إدراج تعليقات، إدراج ملاحظات
 - [كيفية تعيين خلفية التعليق](/cells/ar/net/how-to-set-comment-background/)
 - [تعليقات متداخلة](/cells/ar/net/threaded-comments/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -26,3 +26,4 @@ FormulaText はExcel 2013以降の関数です。Excel 2010や2007などの以�
  =SUM(B1:B10)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -34,3 +34,4 @@ Microsoft Excel (97-2007/2010) позволяет шифровать и защи
 Приведенный ниже пример кода применяет надежное шифрование к файлу и устанавливает пароль.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ApplyingEncryption-ApplyingEncryption.java" >}}
+{{< app/cells/assistant language="java" >}}

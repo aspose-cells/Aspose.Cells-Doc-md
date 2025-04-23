@@ -10,9 +10,9 @@ url: /it/java/detect-hyperlink-type/
 Un file Excel può avere diversi tipi di collegamenti ipertestuali come esterni, riferimenti a celle, percorsi dei file, ecc. Aspose.Cells supporta la funzionalità per rilevare il tipo di collegamento ipertestuale. I tipi di collegamenti ipertestuali sono rappresentati dall'Enumerazione [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). L'Enumerazione [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType) ha i seguenti membri.
 
 - [**EXTERNAL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): Collegamento esterno
-- [**FILE_PATH**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): Percorso locale e completo dei file\cartelle.
+- [**FILE_PATH**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE-PATH): Percorso locale e completo dei file\cartelle.
 - [**EMAIL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): Email
-- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE): Collegamento alla cella o al range denominato.
+- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL-REFERENCE): Collegamento alla cella o al range denominato.
 
 Per verificare il tipo di collegamento ipertestuale, la classe [**Hyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) fornisce una proprietà [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) con un tipo di ritorno [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). Il seguente snippet di codice dimostra l'uso della proprietà [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) utilizzando questo [file excel di origine](LinkTypes.xlsx).
 
@@ -32,3 +32,4 @@ FullPathExample: CELL_REFERENCE </br>
 https://products.aspose.com/cells/ : EXTERNAL </br>
 mailto:test@test.com?subject=TestLink: EMAIL
 ```
+{{< app/cells/assistant language="java" >}}

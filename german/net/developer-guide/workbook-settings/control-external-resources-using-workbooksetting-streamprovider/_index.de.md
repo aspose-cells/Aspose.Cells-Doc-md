@@ -18,3 +18,4 @@ Der folgende Beispielcode erläutert die Verwendung des [**Workbook.Settings.St
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookSettings-ControlExternalResourcesUsingWorkbookSetting_StreamProvider-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

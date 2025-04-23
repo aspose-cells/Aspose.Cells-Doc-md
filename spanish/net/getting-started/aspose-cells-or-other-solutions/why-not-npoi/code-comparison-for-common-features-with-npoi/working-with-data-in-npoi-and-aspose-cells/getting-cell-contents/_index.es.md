@@ -125,3 +125,4 @@ Descargar **Obteniendo el contenido de la celda** desde cualquiera de los sitios
 Para más detalles, visite [Funciones de manejo de datos](/cells/es/net/data-handling-features-in-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

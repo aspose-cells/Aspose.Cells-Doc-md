@@ -203,3 +203,4 @@ Téléchargez le formulaire **Insérer des liens hypertexte dans une feuille de 
 Pour plus de détails, visitez [Ajouter des liens hypertexte pour lier des données](/cells/fr/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

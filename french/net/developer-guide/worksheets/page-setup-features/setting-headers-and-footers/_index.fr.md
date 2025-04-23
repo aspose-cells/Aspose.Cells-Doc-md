@@ -32,6 +32,7 @@ Les commandes de script sont des commandes spéciales qui vous permettent de dé
 |&T| L'heure actuelle
 |&A| Le nom de la feuille de calcul
 |&F| Le nom du fichier sans son chemin d'accès
+|&&Text|Montre &Text. Par exemple : &&WO sera affiché comme &WO|
 |&"\<FontName>"| Représente un nom de police. Par exemple : &"Arial"
 |&"\<FontName>, \<FontStyle>"| Représente un nom de police avec un style. Par exemple : &"Arial, Gras"
 |&\<FontSize>| Représente la taille de la police. Par exemple : "&14abc". Mais, si cette commande est suivie d'un nombre ordinaire à imprimer dans l'en-tête, cela doit être séparé d'un caractère d'espace de la taille de la police. Par exemple : "&14 123".
@@ -58,3 +59,4 @@ Après l'exécution du code ci-dessous et l'ouverture du fichier, vérifiez l'en
 1. Sélectionnez l'onglet **En-tête/Pied de page**.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

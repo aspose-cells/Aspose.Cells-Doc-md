@@ -23,9 +23,10 @@ url: /zh/java/supported-file-formats/
 |[MHTML](https://docs.fileformat.com/web/mhtml/)|MHTML文件。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)|ODS（开放文档表格）文件。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |SpreadsheetML|Excel 2003 XML文件。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Numbers](https://docs.fileformat.com/spreadsheet/numbers/)|该文档由苹果的“Numbers”应用程序创建，该程序是苹果iWork办公套件的一部分，运行在Mac OS X和iOS操作系统上。|{{< emoticons/tick >}}||
+|[Numbers](https://docs.fileformat.com/spreadsheet/numbers/)|文档由苹果的“Numbers”应用创建，它是苹果iWork办公套件的一部分，一个在Mac OS X和iOS操作系统上运行的应用集合。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[JSON](https://docs.fileformat.com/web/json/)|JavaScript对象表示法|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[DIF](https://docs.fileformat.com/spreadsheet/dif/)|数据交换格式。| |{{< emoticons/tick >}}|
+|[DIF](https://docs.fileformat.com/spreadsheet/dif/)|数据交换格式。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[DBF](https://docs.fileformat.com/database/dbf/)|扩展名为.dbf的文件是由dBASE数据库管理系统应用程序使用的数据库文件。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[PDF](https://docs.fileformat.com/pdf/)|Adobe便携式文档格式。| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XML Paper规范格式.| |{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|可伸缩向量图形格式.| |{{< emoticons/tick >}}|
@@ -45,4 +46,5 @@ url: /zh/java/supported-file-formats/
 |[Epub](https://docs.fileformat.com/ebook/epub/)|.epub扩展名的文件是一种为出版商和消费者提供标准数字出版格式的电子书文件格式。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Xml](https://docs.fileformat.com/web/xml/)|XML代表可扩展标记语言，类似于HTML，但使用标签定义对象。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Open Document Template Sheet(OTS)文件。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW是亚马逊为其Kindle设备开发的数字电子书文件格式。AZW3，也被称为Kindle Format 8 (KF8)。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW是由亚马逊为其Kindle设备开发的数字电子书文件格式。AZW3，也称为Kindle格式8（KF8）。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< app/cells/assistant language="java" >}}

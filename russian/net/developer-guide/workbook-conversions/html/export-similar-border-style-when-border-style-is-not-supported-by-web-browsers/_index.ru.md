@@ -18,3 +18,4 @@ Microsoft Excel поддерживает некоторые типы пункт�
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-ExportSimilarBorderStyle.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

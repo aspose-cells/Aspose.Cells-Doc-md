@@ -43,3 +43,4 @@ Benzer bir dosya olan [sonuç dosyasını](sonuç.xlsx) alacaksınız. Dosyada a
 
 ![](52449.png)
 
+{{< app/cells/assistant language="java" >}}

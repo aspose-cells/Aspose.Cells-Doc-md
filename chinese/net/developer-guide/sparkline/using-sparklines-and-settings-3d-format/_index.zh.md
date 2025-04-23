@@ -40,3 +40,4 @@ Aspose.Cells提供了用于操作电子表格中迷你图的API。
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-Applying3DFormat-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

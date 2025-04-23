@@ -104,3 +104,4 @@ Aspose.Cellsを使用すると、ワークシート内の任意の列を簡単�
 次の例は、保護されたワークシートで範囲の編集を許可する方法を示しています。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-EditRangesWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

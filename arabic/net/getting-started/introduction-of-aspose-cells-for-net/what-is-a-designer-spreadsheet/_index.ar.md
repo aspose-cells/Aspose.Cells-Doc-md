@@ -39,3 +39,4 @@ url: /ar/net/what-is-a-designer-spreadsheet/
 [اكتشف المزيد حول العلامات الذكية](/cells/ar/net/smart-markers/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

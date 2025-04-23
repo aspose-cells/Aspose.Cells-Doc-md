@@ -36,3 +36,4 @@ Después de crear una hoja de cálculo de diseño, use Aspose.Cells para leer la
 Además, Aspose.Cells le permite agregar [marcadores inteligentes](/cells/es/java/smart-markers/) a la hoja de cálculo de diseñador. Los marcadores inteligentes se procesan en tiempo de ejecución utilizando el método de proceso de la clase [**WorkbookDesigner**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner). Esto puede ayudarle a escribir menos código y seguir obteniendo excelentes resultados.
 
 [Obtenga más información sobre los marcadores inteligentes](/cells/es/java/smart-markers/).
+{{< app/cells/assistant language="java" >}}

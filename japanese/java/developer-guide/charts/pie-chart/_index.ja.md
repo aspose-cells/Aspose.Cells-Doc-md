@@ -26,3 +26,4 @@ url: /ja/java/creating-pie-chart-with-leader-lines/
 
 - [グラフの作成とカスタマイズ](/cells/ja/java/creating-and-customizing-charts/)
 - [グラフの書式設定](/cells/ja/java/chart-formatting/)
+{{< app/cells/assistant language="java" >}}

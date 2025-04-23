@@ -23,3 +23,4 @@ Aspose.Cells admite la conversión de archivos de Excel a archivos Ods, Sxc y Fo
 ## **Temas avanzados**
 - [Guardar archivo ODS en las especificaciones de ODF 1.1 y 1.2](/cells/es/net/save-ods-file-in-odf-1-1-and-1-2-specifications/)
 - [Trabajar con fondo en archivos ODS](/cells/es/net/working-with-background-in-ods-files/)
+{{< app/cells/assistant language="csharp" >}}

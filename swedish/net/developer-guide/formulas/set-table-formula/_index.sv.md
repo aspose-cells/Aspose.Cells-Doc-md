@@ -14,3 +14,4 @@ Exemplarkoden nedan skapar en tabell eller listobjekt på ett sådant sätt att 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PropagateFormulaInTable-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

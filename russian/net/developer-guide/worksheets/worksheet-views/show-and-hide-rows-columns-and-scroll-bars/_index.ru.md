@@ -75,3 +75,4 @@ Aspose.Cells предоставляет класс [**Workbook**](https://refere
 Ниже приведен полный код, который открывает файл Excel, book1.xls, скрывает оба ползунка прокрутки, а затем сохраняет измененный файл как output.xls.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-DisplayHideScrollBars-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

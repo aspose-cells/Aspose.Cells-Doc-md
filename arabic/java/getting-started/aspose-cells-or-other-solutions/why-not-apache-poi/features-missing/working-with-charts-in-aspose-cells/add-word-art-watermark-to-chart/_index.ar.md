@@ -56,3 +56,4 @@ workbook.save(dataDir + "AsposeChartWatermarked_Out.xls", SaveFormat.EXCEL_97_TO
 لمزيد من التفاصيل، قم بزيارة [إضافة كلمة مائية فنية إلى المخطط](/cells/ar/java/add-wordart-watermark-to-chart).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

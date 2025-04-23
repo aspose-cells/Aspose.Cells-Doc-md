@@ -55,3 +55,4 @@ Aspose.Cells поддерживает эту функцию и также мож
 
 ## **Продвинутые темы**
 - [Обнаружение объединенных ячеек в листе](/cells/ru/net/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

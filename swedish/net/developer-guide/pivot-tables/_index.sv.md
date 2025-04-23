@@ -55,3 +55,4 @@ När du tilldelar ett cellområde som datakälla måste området gå från övre
 - [Spara Pivot Table i ODS-fil](/cells/sv/net/save-pivot-table-in-ods-file/)
 - [Visa alternativ för rapportsidfiltrering](/cells/sv/net/show-report-filter-pages-option/)
 - [Arbete med dataformat för DataField i pivot-tabell](/cells/sv/net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="csharp" >}}

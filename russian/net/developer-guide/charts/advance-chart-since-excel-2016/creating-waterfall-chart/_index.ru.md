@@ -23,3 +23,4 @@ API Aspose.Cells позволяет создавать диаграмму вод
 
 - [Создание диаграмм](/cells/ru/net/creating-charts/)
 - [Настраивание диаграмм](/cells/ru/net/customizing-charts/)
+{{< app/cells/assistant language="csharp" >}}

@@ -19,8 +19,9 @@ Aspose.Cells permet de chiffrer et de décrypter les fichiers ODS. Le fichier OD
 
 ## **Chiffrage et déchiffrage de fichier ODS :**
 
-Pour chiffrer un fichier ODS, chargez le fichier et transmettez le mot de passe réel à [**WorkbookSettings.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password) avant de l'enregistrer. Le fichier ODS chiffré en sortie ne peut être ouvert que dans OpenOffice. Pour déchiffrer un fichier ODS, chargez le fichier en fournissant le mot de passe à [**LoadOptions.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#Password). Une fois le fichier chargé, appelez la fonction [**Workbook.unprotect()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotect(java.lang.String)) avec le mot de passe réel comme argument, puis transmettez null à [**Workbook.getWorkbookSettings().setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password).
+Pour chiffrer un fichier ODS, chargez le fichier et transmettez le mot de passe réel à [**WorkbookSettings.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password) avant de l'enregistrer. Le fichier ODS chiffré en sortie ne peut être ouvert que dans OpenOffice. Pour déchiffrer un fichier ODS, chargez le fichier en fournissant le mot de passe à [**LoadOptions.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#Password). Une fois le fichier chargé, appelez la fonction [**Workbook.unprotect()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotect-java.lang.String-) avec le mot de passe réel comme argument, puis transmettez null à [**Workbook.getWorkbookSettings().setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password).
 
 ### **Code exemple :**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-EncryptingODSFiles-EncryptingODSFiles.java" >}}
+{{< app/cells/assistant language="java" >}}

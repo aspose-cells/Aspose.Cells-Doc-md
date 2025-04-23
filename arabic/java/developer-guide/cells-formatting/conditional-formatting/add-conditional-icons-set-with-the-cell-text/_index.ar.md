@@ -20,3 +20,4 @@ url: /ar/java/add-conditional-icons-set-with-the-cell-text/
 ![todo:image_alt_text](add-conditional-icons-set-with-the-cell-text_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddConditionalIconsSet-AddConditionalIconsSet.java" >}}
+{{< app/cells/assistant language="java" >}}

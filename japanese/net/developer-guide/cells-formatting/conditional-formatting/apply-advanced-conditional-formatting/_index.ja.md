@@ -21,12 +21,19 @@ Microsoft Excel 2007およびそれ以降のバージョン（2010/2013/2016）�
 
 Aspose.Cellsは、実行時にMicrosoft Excel 2007およびそれ以降のバージョンでXLSX形式で提供されるセルの条件付き書式を完全にサポートしています。この例では、アイコンセット、データバー、カラースケール、時間帯、最上位/最下位などの異なる属性セットでの高度な条件付き書式タイプの演習を示します。
 
+- [**Adding Color Scale Conditional Formattings**](/cells/ja/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/)
+- [**Adding Above Average Conditional Formattings**](/cells/ja/net/how-to-add-above-average-conditional-formatting/)
+- [**Adding DataBars Conditional Formattings**](/cells/ja/net/how-to-add-databars-conditional-formatting/)
+- [**Adding IonSets Conditional Formattings**](/cells/ja/net/how-to-add-icon-sets-conditional-formatting/)
+- [**Adding Text Conditional Formattings**](/cells/ja/net/how-to-add-text-conditional-formatting/)
+- [**Adding TimePeriods Conditional Formattings**](/cells/ja/net/how-to-add-time-periods-conditional-formatting/)
+- [**Adding Top10 Conditional Formattings**](/cells/ja/net/how-to-add-top10-conditional-formatting/)
 
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConditionalFormatting-1.cs" >}}
 ### **Microsoft ExcelがColorScale条件付き書式を使用した場合に選択された色をAspose.Cellsで計算する**
 Aspose.Cellsを使用すると、テンプレートファイルでColorScale条件付き書式が使用された場合に、Microsoft Excelによって選択された色を計算できます。以下のサンプルコードを参照して、Microsoft Excelによって選択された色を計算する方法を学んでください。
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ComputeColorChoosenByMSExcel-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -13,7 +13,7 @@ Den här artikeln förklarar hur man lägger till bilder och hur man infogar en 
 
 Att lägga till bilder i ett kalkylblad är väldigt enkelt. Det kräver bara några rader kod.
 
-Ring enkelt [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String))-metoden för [**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection)-samlingen (inkapslad i [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)-objektet). [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String))-metoden tar följande parametrar:
+Ring enkelt [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add-int-int-java.lang.String-)-metoden för [**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection)-samlingen (inkapslad i [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)-objektet). [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add-int-int-java.lang.String-)-metoden tar följande parametrar:
 
 - **Övre vänstra radindex**, indexet för den övre vänstra raden.
 - **Övre vänstra kolumnindex**, indexet för den övre vänstra kolumnen.
@@ -37,3 +37,4 @@ Utvecklare kan placera bilderna absolut genom att använda [**setUpperDeltaX**](
 - [Infoga en Länkbild från Webbadress](/cells/sv/java/insert-a-linked-picture-from-web-address/)
 - [Infoga en bild baserad på cellreferens](/cells/sv/java/insert-a-picture-based-on-cell-reference/)
 - [Infoga webb bild från en URL in i en Excel-kalkylblad](/cells/sv/java/insert-web-image-from-a-url-into-an-excel-worksheet/)
+{{< app/cells/assistant language="java" >}}

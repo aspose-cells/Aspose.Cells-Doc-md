@@ -38,3 +38,4 @@ url: /ja/net/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Fonts-SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

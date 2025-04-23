@@ -34,3 +34,4 @@ Um die Dateiverschlüsselung in Microsoft Excel (zum Beispiel 2007) zu implement
 In dem untenstehenden Codebeispiel wird eine starke Verschlüsselung auf eine Datei angewendet und ein Passwort festgelegt.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ApplyingEncryption-ApplyingEncryption.java" >}}
+{{< app/cells/assistant language="java" >}}

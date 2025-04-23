@@ -403,3 +403,4 @@ Aspose.Cells предоставляет класс, [Workbook](https://reference
 Пожалуйста, ознакомьтесь с подробной статьей по [Установке форматов отображения чисел и [дат](/cells/ru/java/data-formatting/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

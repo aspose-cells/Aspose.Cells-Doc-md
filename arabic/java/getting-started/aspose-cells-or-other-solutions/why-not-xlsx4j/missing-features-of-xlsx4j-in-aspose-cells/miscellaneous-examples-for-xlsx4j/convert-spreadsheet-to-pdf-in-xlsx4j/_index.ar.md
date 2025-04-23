@@ -29,3 +29,4 @@ workbook.save(dataDir + "AsposeConvert.pdf", SaveFormat.PDF);
 لمزيد من التفاصيل، قم بزيارة [تحويل ملفات إكسل إلى وثائق PDF](/java/converting-excel-to-pdf-files).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

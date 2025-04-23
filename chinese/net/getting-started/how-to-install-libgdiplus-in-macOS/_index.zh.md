@@ -25,3 +25,4 @@ url: /zh/net/how-to-install-libgdiplus-in-macos/
 brew install mono-libgdiplus
 
 ```
+{{< app/cells/assistant language="csharp" >}}

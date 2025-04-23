@@ -12,3 +12,4 @@ Följande kodsnutt visar användningen av [**RegexKey**](https://reference.aspos
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-RegexReplace-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

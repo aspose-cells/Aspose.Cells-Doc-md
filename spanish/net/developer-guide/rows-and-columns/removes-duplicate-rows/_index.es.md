@@ -16,3 +16,4 @@ A continuación se muestran los archivos de muestra que se pueden descargar para
 [removeduplicates.xlsx](removeduplicates.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Remove-Duplicate-Rows-In-A-Worksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

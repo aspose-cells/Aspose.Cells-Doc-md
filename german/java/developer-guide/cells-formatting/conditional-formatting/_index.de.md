@@ -58,3 +58,4 @@ Aspose.Cells unterstützt das Anwenden von bedingten Formatierungen zur Laufzeit
 - [Bedingte Formatierung in Arbeitsblättern anwenden](/cells/de/java/apply-conditional-formatting-in-worksheets/)
 - [Abwechselnde Zeilen und Spalten mit bedingter Formatierung schattieren](/cells/de/java/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
 
+{{< app/cells/assistant language="java" >}}

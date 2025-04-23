@@ -28,3 +28,4 @@ Aspose.Cells提供了[**DataLabels.setShowCellRange()**](https://reference.aspos
 下面的示例代码访问图表系列的数据标签，然后将[**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange)方法设置为true，以选中 **标签包含 - 来自单元格的值** 选项。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ShowCellRangeAsTheDataLabels-ShowCellRangeAsTheDataLabels.java" >}}
+{{< app/cells/assistant language="java" >}}

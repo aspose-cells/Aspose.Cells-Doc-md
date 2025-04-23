@@ -16,3 +16,4 @@ Aşağıdaki örnek kodu inceleyin, yaprakların resimlendiği sırada istenen p
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SetPixelFormatRenderedImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

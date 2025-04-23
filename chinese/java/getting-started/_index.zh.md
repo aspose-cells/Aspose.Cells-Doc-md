@@ -52,3 +52,4 @@ Maven 是下载和安装 Aspose.Cells for Java 的最简单方式。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HelloWorld.java" >}}
 
+{{< app/cells/assistant language="java" >}}

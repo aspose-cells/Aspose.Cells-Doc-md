@@ -42,4 +42,5 @@ Aspose.Cellsを使用すると、Excelファイルのオープン、保存、管
 - [ExcelをJSONに変換する](/cells/ja/net/convert-excel-to-json/)
 - [JSONをCSVに変換](/cells/ja/net/convert-json-to-csv/)
 - [JSONをExcelに変換する](/cells/ja/net/convert-json-to-excel/)
-- [ExcelをHTMLに変換する](/cells/ja/net/convert-excel-to-html/)
+- [ExcelをHTMLに変換](/cells/ja/net/convert-excel-to-html/)
+{{< app/cells/assistant language="csharp" >}}

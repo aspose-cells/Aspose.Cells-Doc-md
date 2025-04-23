@@ -25,3 +25,4 @@ Följande skärmbild visar den utdata Excel-filen och dess innehåll som kopiera
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProject-CopyVBAMacroUserFormDesignerStorageToWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

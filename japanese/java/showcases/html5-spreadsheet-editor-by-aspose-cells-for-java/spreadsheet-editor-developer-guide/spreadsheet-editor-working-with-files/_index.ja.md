@@ -811,3 +811,4 @@ JSFによって**WorksheetView**バックエンドビーンがインスタンス
 
 
 
+{{< app/cells/assistant language="java" >}}

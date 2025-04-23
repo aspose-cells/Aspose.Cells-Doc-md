@@ -109,3 +109,4 @@ _コードの手順:_
 - [ワークシートから表示される行のデータをエクスポート](/cells/ja/net/export-visible-rows-data-from-worksheet/)
 - [ワークシートデータをデータテーブルにエクスポートする際に非表示の列を無視](/cells/ja/net/ignore-hidden-columns-while-exporting-worksheet-data-to-data-table/)
 - [ワークシートデータをエクスポートする際に重複する列の名前を自動的に変更する](/cells/ja/net/rename-duplicate-columns-automatically-while-exporting-worksheet-data/)
+{{< app/cells/assistant language="csharp" >}}

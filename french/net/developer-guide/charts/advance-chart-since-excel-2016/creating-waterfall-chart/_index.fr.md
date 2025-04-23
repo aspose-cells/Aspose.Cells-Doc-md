@@ -23,3 +23,4 @@ Le fragment de code ci-dessous fournit une démonstration de l'utilisation de l'
 
 - [Création de graphiques](/cells/fr/net/creating-charts/)
 - [Personnalisation des graphiques](/cells/fr/net/customizing-charts/)
+{{< app/cells/assistant language="csharp" >}}

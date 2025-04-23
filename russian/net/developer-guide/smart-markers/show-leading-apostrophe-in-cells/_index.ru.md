@@ -22,3 +22,4 @@ url: /ru/net/show-leading-apostrophe-in-cells/
 Реализация класса *DataObject* представлена ниже
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AllowLeadingApostrophe-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -75,3 +75,4 @@ fileOut.close();
 Daha fazla detay için [Çalışma Sayfalarını Kopyalama ve Taşıma](/cells/tr/java/calisma-sayfalarini-kopyalama-ve-tasima) sayfasını ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -17,3 +17,4 @@ keywords: 创建工作表的方案C#，删除工作表的方案C#，操作工作
 Aspose.Cells提供一些有用的类，例如[**ScenarioCollection**](https://reference.aspose.com/cells/net/aspose.cells/scenariocollection)，[**Scenario**](https://reference.aspose.com/cells/net/aspose.cells/scenario)，[**ScenarioInputCellCollection**](https://reference.aspose.com/cells/net/aspose.cells/scenarioinputcellcollection)和[**ScenarioInputCell**](https://reference.aspose.com/cells/net/aspose.cells/scenarioinputcell)类。它还提供[**Worksheet.Scenarios**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/scenarios)属性。下面的示例代码打开一个包含一些方案的XLSX Excel文件，然后删除现有的方案。在保存Excel文件之前，它还向工作表添加了一个新的方案。这个示例使用了一个非常简单的包含方案的模板文件。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateManipulateRemoveScenarios-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -34,3 +34,4 @@ Aspose.Cells具有强大的计算引擎，可以计算几乎所有的Microsoft E
 [在工作表中直接计算自定义函数，无需书写](/cells/zh/net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

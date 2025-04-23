@@ -22,3 +22,4 @@ Aspose.Cells bietet Ihnen die Möglichkeit, Diagramm-Untertitel in ODS-Dateien m
 Chart Subtitle: Sample Chart Subtitle
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

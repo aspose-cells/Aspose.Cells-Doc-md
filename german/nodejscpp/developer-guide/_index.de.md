@@ -4,6 +4,6 @@ type: docs
 weight: 20
 url: /de/nodejs-cpp/developer-guide/
 keywords: "nodejs, excel, api, developer"
-description: "Aspose.Cells für Node.js über C++ Entwicklerhandbuch."
+description: "Aspose.Cells for Node.js via C++ Entwicklerhandbuch."
 ---
 

@@ -17,3 +17,4 @@ url: /ar/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-ReadNumbersSpreadsheet.java" >}}
+{{< app/cells/assistant language="java" >}}

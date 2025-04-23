@@ -7,11 +7,11 @@ url: /ja/java/search-data-using-original-values/
 
 {{% alert color="primary" %}} 
 
-データの値が一部の方法でフォーマットされているために隠れていることがあります。例えば、セル D4 には式 =Sum(A1:A2) があり、その値は20ですが、--- としてフォーマットされている場合、値 20 は隠れており、Microsoft Excel の検索オプションを使用して見つけることはできません。ただし、[LookInType.ORIGINAL_VALUES](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#ORIGINAL_VALUES) を使用すると、Aspose.Cells を使用してそれを見つけることができます。
+時には、データの値が何らかのフォーマットのために非表示になっていることがあります。たとえば、セルD4に数式=Sum(A1:A2)があり、その値が20でも、フォーマットが---の場合、その値20は非表示になり、Microsoft Excelの検索機能では見つかりません。ただし、Aspose.Cellsを使用して[LookInType.ORIGINAL_VALUES](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#ORIGINAL-VALUES)で見つけることができます。
 
 {{% /alert %}} 
 ## **元の値を使用したデータの検索**
-次のサンプルコードは、上記のポイントを示しています。Microsoft Excel の検索オプションで見つけることができないセル D4 を見つけますが、Aspose.Cells を使用すると[LookInType.ORIGINAL_VALUES](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#ORIGINAL_VALUES) を使用してそれを見つけることができます。詳細については、コード内のコメントをご覧ください。
+以下のサンプルコードは、上記のポイントを示しています。Microsoft Excelの検索オプションでは見つからないセルD4をAspose.Cellsが[LookInType.ORIGINAL_VALUES](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#ORIGINAL-VALUES)を使用して見つける方法を示しています。詳細はコード内のコメントをご参照ください。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SearchDataUsingOriginalValues-SearchDataUsingOriginalValues.java" >}}
 ## **コンソール出力**
@@ -22,3 +22,4 @@ url: /ja/java/search-data-using-original-values/
  Aspose.Cells.Cell [ D4; ValueType : IsNumeric; Value : ---; Formula:=SUM(A1:A2)]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

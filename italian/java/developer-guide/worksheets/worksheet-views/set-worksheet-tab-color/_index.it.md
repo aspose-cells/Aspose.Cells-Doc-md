@@ -27,3 +27,4 @@ Aspose.Cells consente di cambiare il colore delle singole schede del foglio di l
 Il codice di esempio di seguito mostra come impostare il colore della scheda con Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetWorksheetTabColor-SetWorksheetTabColor.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -19,3 +19,4 @@ Blue Inkt是一家荷兰公司，开发可应用于几乎每个企业部门并�
 现在我们已经解决了导致我们的客户花费过多时间的问题。我们产品的可用性更高了。 
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

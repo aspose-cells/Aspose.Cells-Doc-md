@@ -32,6 +32,7 @@ Betik komutları, başlık ve altbilgi biçimlendirmesini ayarlamanıza olanak t
 |&T| Geçerli saat
 |&A| Çalışma sayfası adı
 |&F| Dosya adı ve yolu olmadan
+|&&Yazı|&Yazıyı gösterir. Örneğin: &&WO &WO olarak görüntülenir|
 |&"\<FontName>"| Yazı tipi adını temsil eder. Örneğin: &"Arial"|
 |&"\<FontName>, \<FontStyle>"| Stil ile yazı tipi adını temsil eder. Örneğin: &"Arial,Kalın"|
 |&\<FontSize>| Yazı tipi boyutunu temsil eder. Örneğin: “&14abc”. Ancak, bu komuttan sonra başlığa yazdırılacak düz bir sayı izlenecekse, bu, yazı tipi boyutundan bir boşluk karakteri ile ayrılmalıdır. Örneğin: “&14 123”.|
@@ -58,3 +59,4 @@ Aşağıdaki kodu çalıştırdıktan sonra dosyayı açarak, çalışma sayfas�
 1. **Üst Bilgi/Alt Bilgi** sekmesini seçin.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

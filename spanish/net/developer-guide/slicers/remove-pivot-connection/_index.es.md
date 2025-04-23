@@ -19,3 +19,4 @@ El siguiente código de ejemplo carga el [archivo Excel de muestra](remove-pivo
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-Removing-Pivot-Connection.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

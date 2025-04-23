@@ -26,3 +26,4 @@ API Aspose.Cells позволяет создавать диаграмму вод
 ## Связанные статьи
 
 - [Создание и настройка диаграмм](/cells/ru/java/creating-and-customizing-charts/)
+{{< app/cells/assistant language="java" >}}

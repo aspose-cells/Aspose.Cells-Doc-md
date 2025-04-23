@@ -57,3 +57,4 @@ För att ta bort en specifik sidbrytning, anropa metoderna [**HorizontalPageBrea
 ## **Viktig information att veta**
 
 När du ställer in {0}-egenskaper (det vill säga {1} och {2}) i siduppsättningsinställningarna påverkas sidbrytningsinställningarna, så om du skriver ut kalkylbladet beaktas inte sidbrytningsinställningarna även om de fortfarande är inställda.
+{{< app/cells/assistant language="csharp" >}}

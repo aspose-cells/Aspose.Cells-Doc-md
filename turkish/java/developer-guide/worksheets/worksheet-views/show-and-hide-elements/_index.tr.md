@@ -53,7 +53,7 @@ Aşağıdaki ekran görüntüsünde, **Book1.xls** dosyasının üç çalışma 
 
 **VisibilityType Ayarlama:**
 
-Kullanıcılar, çalışma sayfalarını özel bir şekilde gizleyebilirler. Bu özellik, çalışma sayfasını öyle gizleyebilir ki kullanıcıların onu tekrar görünür yapmanın tek yolu, kod içinde [**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) yönteminin parametre değeri olarak [**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY_HIDDEN) vermeleridir (burada dikkat edilmesi gereken nokta, kullanıcılar MS Excel'in menü seçeneklerini kullanarak nesneyi doğrudan görünür yapamazlar). Kullanıcılar ayrıca, bir çalışma sayfasının VeryHidden olarak işaretlenip işaretlenmediğini kontrol etmek için [**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) yöntemini de kullanabilirler.
+Kullanıcılar, çalışma sayfalarını özel bir şekilde gizleyebilirler. Bu özellik, çalışma sayfasını öyle gizleyebilir ki kullanıcıların onu tekrar görünür yapmanın tek yolu, kod içinde [**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) yönteminin parametre değeri olarak [**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY-HIDDEN) vermeleridir (burada dikkat edilmesi gereken nokta, kullanıcılar MS Excel'in menü seçeneklerini kullanarak nesneyi doğrudan görünür yapamazlar). Kullanıcılar ayrıca, bir çalışma sayfasının VeryHidden olarak işaretlenip işaretlenmediğini kontrol etmek için [**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) yöntemini de kullanabilirler.
 
 ## **Sekmeleri Göster veya Gizle**
 
@@ -224,3 +224,4 @@ Book1.xls dosyası [**Workbook**](https://reference.aspose.com/cells/java/com.as
 - [Bir tablo oluşturmak için hücrelere kenar çizgileri eklemek](/cells/tr/java/create-table-by-using-border-lines-for-a-range/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

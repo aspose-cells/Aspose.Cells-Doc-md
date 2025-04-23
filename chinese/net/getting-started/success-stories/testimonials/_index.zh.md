@@ -12,3 +12,4 @@ url: /zh/net/testimonials/
 [客户推荐](https://downloads.aspose.com/corporate/case-studies/aspose.cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -11,11 +11,11 @@ Benutzerdefinierte XML-Teile sind die XML-Daten, die von verschiedenen Anwendung
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_1.png)
 
-Sie können benutzerdefinierte XML-Teile mittels der Methode [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)) von Aspose.Cells hinzufügen.
+Sie können benutzerdefinierte XML-Teile mit Aspose.Cells über die Methode [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-) hinzufügen.
 
 {{% /alert %}} 
 ## **Verwenden von benutzerdefinierten XML-Teilen in Aspose.Cells**
-Der folgende Beispielcode verwendet die Methode [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)) und fügt das **Buchkatalog-XML** hinzu. Es wird als **Buchladen** benannt. Das folgende Bild zeigt das Ergebnis dieses Codes. Wie man sehen kann, wird das Buchkatalog-XML innerhalb des Knotens Buchladen hinzugefügt, was der Name dieser Eigenschaft ist.
+Das folgende Beispiel verwendet die Methode [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-) und fügt den **Book Catalog Xml** hinzu, dessen Name **BookStore** ist. Das folgende Bild zeigt das Ergebnis dieses Codes. Wie Sie sehen können, wird Book Catalog Xml im BookStore-Knoten hinzugefügt, der der Name dieser Eigenschaft ist.
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_2.png)
 
@@ -26,3 +26,4 @@ Der folgende Beispielcode verwendet die Methode [Workbook.getContentTypeProperti
 - [Hinzufügen von benutzerdefinierten Eigenschaften, die im Dokumentinformationsfeld sichtbar sind](/cells/de/java/adding-custom-properties-visible-inside-document-information-panel/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

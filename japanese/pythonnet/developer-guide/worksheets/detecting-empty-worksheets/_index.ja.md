@@ -3,8 +3,8 @@ title: 空のワークシートを検出する
 type: docs
 weight: 410
 url: /ja/python-net/detecting-empty-worksheets/
-description: Aspose.Cells for Python via .NETライブラリを使用して、Excelワークブックの空のワークシートをプログラムで検出する方法
-keywords: Python Excelライブラリ、Pythonを使用した空のワークシートの検出、Pythonで空のExcelワークシートを検索します。
+description: この記事では、Aspose.Cells for Python via .NETライブラリを使用してExcelワークブックの空のワークシートをプログラムで検出する方法についてのコードを紹介します。
+keywords: Python Excelライブラリ、pythonを使用した空のワークシートの検出、pythonで空のExcelワークシートを見つける方法。
 ---
 
 ## **空の初期化されたセルのチェック**
@@ -19,11 +19,11 @@ keywords: Python Excelライブラリ、Pythonを使用した空のワークシ�
 
 ## **空の初期化されたセルのチェック**
 
-値を持つすべてのセルは自動的に初期化されますが、ワークシートには書式のみが適用されたセルが含まれる可能性があります。そのようなシナリオでは、「[**Cells.max_data_row**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_row/)」または「[**Cells.max_data_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_column/)」プロパティが-1を返す可能性があります。これは、何らかの初期化された値がないことを示します。ただし、これにより初期化された空のセルは検出できません。「[**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells)」コレクションから取得した列挙子を使用してIEnumerator.MoveNextメソッドを確認することで、ワークシートに空の初期化されたセルがあるかどうかを確認できます。
+値を持つセルは自動的に初期化されますが、ワークシートに書式だけが適用されたセルが存在する可能性もあります。その場合、[**Cells.max_data_row**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_row/)または[**Cells.max_data_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_column/)プロパティは-1を返し、値が設定されていないことを示します。ただし、セルの書式設定により初期化されたセルも検出できないため、ワークシートに空の初期化されたセルがあるかどうかを確認するには、[**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells)コレクションから取得した列挙子のIEnumerator.MoveNextメソッドを使用してください。このメソッドが**true**を返す場合、そのワークシートには1つ以上の初期化されたセルが存在します。
 
 ## **図形のチェック**
 
-特定のワークシートには、初期化されたセルが含まれていない可能性がありますが、コントロール、チャート、画像などのオブジェクトが含まれている可能性があります。ワークシートに形状が含まれているかどうかを確認する必要がある場合は、「[**ShapeCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shapecollection)」要素を検査してください。正の値は、ワークシートに形状が存在することを示します。
+特定のワークシートに値が設定されていない場合でも、コントロールやチャート、画像などのシェイプやオブジェクトが含まれている可能性があります。ワークシートにシェイプが含まれているかどうかを確認するには、[**ShapeCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shapecollection)要素を調べます。正の値はシェイプが存在することを示します。
 
 ## **プログラミングサンプル**
 

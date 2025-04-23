@@ -23,3 +23,4 @@ Esta sección incluye los siguientes Ejemplos de Comparación de Códigos:
   - [Ajuste de altura de fila y columna en xlsx4j](/cells/es/java/row-column-height-adjustment-in-xlsx4j/)
 
 **Nota:** Muchas más comparaciones de códigos estarán disponibles pronto. 
+{{< app/cells/assistant language="java" >}}

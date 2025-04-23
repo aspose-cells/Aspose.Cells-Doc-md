@@ -27,7 +27,7 @@ Aspose.Cells, çalışma kitapları içinde veya arasında çalışma sayfaları
 
 ## **Çalışma Kitabı İçinde Çalışma Sayfalarını Kopyalama**
 
-Aspose.Cells, mevcut bir çalışma sayfasından veri kopyalamak için kullanılan ve çalışma sayfasının bir kopyasını eklemek için kullanılan [**WorksheetCollection.addCopy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy(int)) adlı aşırı yüklü bir yöntem sağlar. Yöntemin bir sürümü, kaynak çalışma sayfasının endeksini parametre olarak alır. Diğer sürüm, kaynak çalışma sayfasının adını alır.
+Aspose.Cells, mevcut bir çalışma sayfasından veri kopyalamak için kullanılan ve çalışma sayfasının bir kopyasını eklemek için kullanılan [**WorksheetCollection.addCopy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy-int-) adlı aşırı yüklü bir yöntem sağlar. Yöntemin bir sürümü, kaynak çalışma sayfasının endeksini parametre olarak alır. Diğer sürüm, kaynak çalışma sayfasının adını alır.
 
 Aşağıdaki örnek, bir çalışma kitabı içinde mevcut bir çalışma sayfasının nasıl kopyalanacağını gösterir.
 
@@ -35,7 +35,7 @@ Aşağıdaki örnek, bir çalışma kitabı içinde mevcut bir çalışma sayfas
 
 ## **Çalışma Kitapları Arasında Çalışma Sayfalarını Kopyalama**
 
-Aspose.Cells, bir çalışma kitabı içinde veya arasında bir kaynak çalışma sayfasından veri ve biçimlendirmeyi kopyalamak için kullanılan [**Worksheet.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)) adlı bir yöntem sağlar. Bu yöntem, kaynak çalışma sayfası nesnesini parametre olarak alır.
+Aspose.Cells, bir çalışma kitabı içinde veya arasında bir kaynak çalışma sayfasından veri ve biçimlendirmeyi kopyalamak için kullanılan [**Worksheet.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy-com.aspose.cells.Worksheet-) adlı bir yöntem sağlar. Bu yöntem, kaynak çalışma sayfası nesnesini parametre olarak alır.
 
 Aşağıdaki örnek, bir çalışma kitabından diğer bir çalışma kitabına sayfa kopyalamanın nasıl yapılacağını gösterir.
 
@@ -47,8 +47,9 @@ Aşağıdaki örnek, bir çalışma kitabından başka bir çalışma kitabına 
 
 ## **Çalışma Kitabı İçinde Sayfaları Taşıma**
 
-Aspose.Cells, bir çalışma kitabı içinde bir çalışma sayfasını başka bir konuma taşımak için kullanılan [**Worksheet.moveTo()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo(int)) adlı bir yöntem sağlar.
+Aspose.Cells, bir çalışma kitabı içinde bir çalışma sayfasını başka bir konuma taşımak için kullanılan [**Worksheet.moveTo()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo-int-) adlı bir yöntem sağlar.
 
 Aşağıdaki örnek, bir çalışma kitabı içinde bir çalışma sayfasının başka bir konuma nasıl taşınacağını gösterir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-MoveWorksheet-MoveWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

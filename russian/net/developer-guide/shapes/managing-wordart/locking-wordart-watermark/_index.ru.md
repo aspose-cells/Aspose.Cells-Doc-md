@@ -14,3 +14,4 @@ API Aspose.Cells позволяют добавлять водяные знаки
 API Aspose.Cells позволяют блокировать определенные аспекты водяного знака, чтобы взаимодействие пользователя можно было ограничить или полностью заблокировать. В следующем фрагменте кода демонстрируется использование API Aspose.Cells for .NET для блокировки выбора, перемещения, редактирования и изменения размера водяного знака путем создания электронной таблицы с нуля.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-LockingWordartWatermark-LockingWordartWatermark.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

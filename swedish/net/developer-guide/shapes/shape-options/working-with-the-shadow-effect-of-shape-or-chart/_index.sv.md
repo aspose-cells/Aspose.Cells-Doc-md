@@ -21,3 +21,4 @@ Följande exempelkod laddar [käll-Excelfilen](5115425.xlsx) och får åtkomst t
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ShadowEffectOfShape-ShadowEffectOfShape.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

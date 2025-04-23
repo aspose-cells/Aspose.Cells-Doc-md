@@ -52,3 +52,5 @@ MHTML объединяет обычный HTML с внешними ресурс�
 - [Установить шрифт по умолчанию при рендеринге электронных таблиц в HTML](/cells/ru/net/set-default-font-while-rendering-spreadsheet-to/)
 - [Указать, как пересекать строку в выходном HTML с использованием HtmlCrossType](/cells/ru/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
 - [Поддерживайте макет тегов DIV при загрузке HTML в книгу Excel](/cells/ru/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
+{{< app/cells/assistant language="csharp" >}}
+- [Включить пользовательские свойства CSS при сохранении в HTML](/cells/ru/net/enable-css-custom-properties-while-saving-to-html/)

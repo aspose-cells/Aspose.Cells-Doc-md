@@ -15,3 +15,4 @@ url: /sv/java/working-with-worksheets-using-aspose-cells/
 - [Läs CSV-fil med flera kodningar](/cells/sv/java/read-csv-file-with-multiple-encodings/)
 - [Spara varje kalkylblad i olika PDF med Aspose.Cells](/cells/sv/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
 - [Ställ in fliktabellfärg i Aspose.Cells](/cells/sv/java/set-worksheet-tab-color-in-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

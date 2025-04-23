@@ -17,7 +17,7 @@ Utvecklare kan enkelt skapa och hantera kalkylblad i Microsoft Excel-filer progr
 
 Aspose.Cells tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) som representerar en Excelfil. [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) klassen innehåller en [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets/) samling som ger åtkomst till varje kalkylblad i Excelfilen.
 
-Ett kalkylblad representeras av [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klassen. [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) klassen tillhandahåller ett brett utbud av egenskaper och metoder för att hantera kalkylblad.
+Ett kalkylblad representeras av [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) klassen. [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) klassen tillhandahåller ett brett utbud av egenskaper och metoder för att hantera kalkylblad.
 
 ## **Så här lägger du till kalkylblad i en ny Excel-fil**
 

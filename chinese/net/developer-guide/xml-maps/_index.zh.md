@@ -41,3 +41,4 @@ Aspose.Cells 允许您使用 [**Workbook.ImportXml()**](https://reference.aspose
 - [将单元格链接到 XML 地图元素](/cells/zh/net/link-cells-to-xml-map-elements/)
 - [通过 Worksheet.XmlMapQuery 方法查询映射到 XML 地图路径的单元格区域](/cells/zh/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 
+{{< app/cells/assistant language="csharp" >}}

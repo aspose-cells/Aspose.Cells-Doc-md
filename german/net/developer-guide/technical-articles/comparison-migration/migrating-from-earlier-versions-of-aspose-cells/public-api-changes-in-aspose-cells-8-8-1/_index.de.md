@@ -213,3 +213,4 @@ Aspose.Cells.GridWeb bietet auch die Möglichkeit, die Datenvalidierungsregel au
 ## **Veraltete APIs**
 ### **Eigenschaft Shape.TextFrame obsolet**
 Es wird empfohlen, stattdessen die Eigenschaft Shape.TextBody.TextAlignment zu verwenden.
+{{< app/cells/assistant language="csharp" >}}

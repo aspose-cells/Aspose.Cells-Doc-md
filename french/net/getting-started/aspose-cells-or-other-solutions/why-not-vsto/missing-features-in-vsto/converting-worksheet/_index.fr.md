@@ -9,3 +9,4 @@ Cette section comporte les sujets suivants:
 
 - [Conversion de feuille de calcul en fichier image par page](/cells/fr/net/converting-worksheet-to-image-file-by-page/)
 - [Conversion de feuille de calcul en image dans Aspose.Cells](/cells/fr/net/converting-worksheet-to-image-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

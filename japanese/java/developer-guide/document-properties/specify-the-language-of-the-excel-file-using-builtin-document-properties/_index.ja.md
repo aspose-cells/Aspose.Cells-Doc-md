@@ -18,3 +18,4 @@ Excelファイルの*言語*を変更するには、ファイルを右クリッ�
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DocumentProperties-SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.java" >}}
+{{< app/cells/assistant language="java" >}}

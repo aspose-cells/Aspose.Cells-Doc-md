@@ -28,3 +28,4 @@ Aspose.Cells يوفر طريقة [**DataLabels.setShowCellRange()**](https://ref
 الكود العينة أدناه يصل إلى علامات البيانات لسلسلة الرسم البياني ثم يقوم بتعيين الطريقة [**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) لتكوين **العلامة تحتوي على - القيمة من الخلايا** لتكون صحيحة.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ShowCellRangeAsTheDataLabels-ShowCellRangeAsTheDataLabels.java" >}}
+{{< app/cells/assistant language="java" >}}

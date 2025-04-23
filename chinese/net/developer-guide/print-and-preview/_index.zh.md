@@ -74,3 +74,4 @@ Worksheet page count: 1
 - [将工作表渲染到图形上下文](/cells/zh/net/render-worksheet-to-graphic-context/)
 - [指定工作簿渲染的个体或私有字体集](/cells/zh/net/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)
 - [在使用 Aspose.Cells 打印时指定作业或文档名称](/cells/zh/net/specify-job-or-document-name-while-printing-with-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

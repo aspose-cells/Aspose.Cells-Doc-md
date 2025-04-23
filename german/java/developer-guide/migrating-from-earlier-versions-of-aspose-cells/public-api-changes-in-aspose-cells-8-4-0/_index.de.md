@@ -270,3 +270,4 @@ Der Standardwert ist "" (Leerzeichen).
 Verwenden Sie die getEnumerator-Methode, um alle Zellen zu durchlaufen.
 ### **Veraltete DrawObject.Image Eigenschaft**
 Verwenden Sie stattdessen die DrawObject.ImageBytes-Eigenschaft, um Bilddaten zu erhalten.
+{{< app/cells/assistant language="java" >}}

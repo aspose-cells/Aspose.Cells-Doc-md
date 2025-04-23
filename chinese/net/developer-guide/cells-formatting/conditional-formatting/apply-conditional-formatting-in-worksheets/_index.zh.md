@@ -44,3 +44,4 @@ url: /zh/net/apply-conditional-formatting-in-worksheets/
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplyConditionalFormatting-ApplyConditionalFormattingFormula-1.cs" >}}
 
 执行以上代码后，在输出文件的第一个工作表（output.xls）中的单元格“B3”应用条件格式。应用的条件格式取决于计算“B3”值的公式，该公式将B1和B2相加。
+{{< app/cells/assistant language="csharp" >}}

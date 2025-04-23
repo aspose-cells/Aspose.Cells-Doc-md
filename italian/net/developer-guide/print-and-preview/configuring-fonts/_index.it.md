@@ -20,6 +20,12 @@ Di seguito il processo che le API di Aspose.Cells seguono dietro le quinte.
 1. Se l'API non riesce a individuare il font definito nella proprietà [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/properties/defaultfontname), tenta di selezionare i font più adatti tra tutti i font disponibili.
 1. Infine, se l'API non riesce a trovare alcun font nel file system, renderizza il foglio di calcolo utilizzando Arial.
 
+{{% alert color="primary" %}}
+
+In generale, le API di Aspose.Cells esaminano le directory di caratteri predefinite del sistema operativo su Windows, Linux, MacOS per impostazione predefinita. A partire da [Aspose.Cells for .NET 24.7](https://releases.aspose.com/cells/net/release-notes/2024/aspose-cells-for-net-24-7-release-notes/), le API esaminano inoltre le directory di caratteri cache di Office nel cloud per impostazione predefinita.
+
+{{% /alert %}}
+
 ## **Impostazione delle cartelle dei font personalizzate**
 
 Le API di Aspose.Cells cercano nella directory predefinita dei font del sistema operativo i font richiesti. Nel caso in cui i font richiesti non siano disponibili nella directory dei font del sistema, le API cercano attraverso le directory personalizzate (definite dall'utente). La classe [**FontConfigs**](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs) ha esposto una serie di modi per impostare le directory dei font personalizzate come dettagliato di seguito.
@@ -66,3 +72,4 @@ Oltre ai metodi sopra menzionati, le API Aspose.Cells forniscono anche mezzi per
 - [Imposta la proprietà DefaultFont di PdfSaveOptions e ImageOrPrintOptions per dare priorità](/cells/it/net/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Formati di carattere supportati](/cells/it/net/supported-font-formats/)
 - [Foglio elettronico in immagine - Imposta il formato pixel per l'immagine renderizzata](/cells/it/net/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
+{{< app/cells/assistant language="csharp" >}}

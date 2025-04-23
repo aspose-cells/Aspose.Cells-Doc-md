@@ -34,3 +34,4 @@ Los archivos de texto contienen datos de la hoja de cálculo sin formato. El arc
 ## **Temas avanzados**
 - [Mantener separadores para filas en blanco al exportar hojas de cálculo a formato CSV](/cells/es/net/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [Recortar filas y columnas en blanco al exportar hojas de cálculo al formato CSV](/cells/es/net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+{{< app/cells/assistant language="csharp" >}}

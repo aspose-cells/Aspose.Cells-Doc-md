@@ -15,7 +15,7 @@ url: /zh/java/find-query-tables-and-list-objects-related-to-external-data-connec
 
 ## **控制台输出**
 
-这是使用此【示例Excel文件】（5472550.xlsm）的代码的控制台输出。
+这是使用此[示例Excel文件]（5472550.xlsm）的代码的控制台输出。
 
 {{< highlight java >}}
 
@@ -48,3 +48,4 @@ querytable hp?s=UWTI+Historical+Prices
 refersto: =Sheet1!$H$1:$N$69
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

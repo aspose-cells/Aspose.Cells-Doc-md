@@ -14,3 +14,4 @@ url: /zh/net/create-textbox-in-which-each-line-is-having-different-horizontal-al
 以下示例代码创建三行并设置每行的水平对齐方式。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateTextBoxWithDifferentHorizontalAlignment-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

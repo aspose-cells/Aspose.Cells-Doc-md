@@ -53,3 +53,4 @@ chart.setHidePivotFieldButtons(false);
 Para más detalles, visita [Crear tablas dinámicas y gráficos dinámicos](/cells/es/java/create-pivot-tables-and-pivot-charts/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

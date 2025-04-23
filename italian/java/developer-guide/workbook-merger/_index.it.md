@@ -16,7 +16,7 @@ A volte è necessario unire workbook con contenuti vari come immagini, grafici e
 
 ## **Unione Workbook**
 
-Il codice di esempio unisce due workbook in un unico workbook utilizzando l'Aspose.Cells for Java. Il codice carica i workbook di origine, utilizza il metodo [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) per combinarli e salva il workbook di output.
+Il codice di esempio unisce due workbook in un unico workbook utilizzando l'Aspose.Cells for Java. Il codice carica i workbook di origine, utilizza il metodo [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine-com.aspose.cells.Workbook-) per combinarli e salva il workbook di output.
 
 ### **Cartelle di Lavoro di Origine**
 
@@ -69,3 +69,4 @@ Potresti trovare utile l'articolo [Combina più fogli di lavoro in un unico fogl
 - [Unisci più fogli di lavoro in un unico foglio di lavoro](/cells/it/java/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Unire file](/cells/it/java/merge-files/)
 
+{{< app/cells/assistant language="java" >}}

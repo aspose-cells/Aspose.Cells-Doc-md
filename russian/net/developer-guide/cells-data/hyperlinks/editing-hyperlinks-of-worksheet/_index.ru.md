@@ -16,3 +16,4 @@ Aspose.Cells позволяет получить доступ ко всем ги
 Нижеприведенный образец кода получает доступ ко всем гиперссылкам листа и изменяет их свойство [**Hyperlink.Address**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/address) на веб-сайт Aspose.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-EditingHyperlinksOfWorksheet-EditingHyperlinksOfWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

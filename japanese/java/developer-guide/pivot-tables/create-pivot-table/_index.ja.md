@@ -27,7 +27,7 @@ Aspose.Cells を使用して、スプレッドシートにピボットテーブ�
 Aspose.Cells を使用してピボットテーブルを作成するには、以下の手順に従ってください:
 
 1. [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) オブジェクトの [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) メソッドを使用してワークシートセルにデータを追加します。このデータはピボットテーブルのデータソースとして使用されます。
-1. [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add(com.aspose.cells.PivotTable,%20int,%20int,%20java.lang.String)) クラスの [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) メソッドを呼び出してワークシートにピボットテーブルを追加します。このデータはピボットテーブルのデータソースとして使用されます。
+1. [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add-com.aspose.cells.PivotTable-int-int-java.lang.String-) クラスの [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) メソッドを呼び出してワークシートにピボットテーブルを追加します。このデータはピボットテーブルのデータソースとして使用されます。
 1. [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) から [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) オブジェクトにアクセスして、[**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) のインデックスを渡します。
 1. [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) オブジェクトにカプセル化されたピボットテーブル内のいずれかのピボットテーブルオブジェクトを使用して、ピボットテーブルを管理します。
 
@@ -44,3 +44,4 @@ Aspose.Cells を使用してピボットテーブルを作成するには、以�
 ![todo:image_alt_text](create-pivot-table_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-CreatePivotTable.java" >}}
+{{< app/cells/assistant language="java" >}}

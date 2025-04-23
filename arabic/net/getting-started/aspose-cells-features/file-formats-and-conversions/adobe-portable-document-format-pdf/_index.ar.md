@@ -24,3 +24,4 @@ url: /ar/net/adobe-portable-document-format-pdf/
 - تجميع الخلايا، فواصل الصفحات، العناوين عند الطباعة
 
 يمكنك أيضًا رؤية [المواصفات المفصلة](https://docs.aspose.com/cells/net/convert-excel-workbook-to-pdf/) حول كيفية تحويل Aspose.Cells لمستند إلى PDF.
+{{< app/cells/assistant language="csharp" >}}

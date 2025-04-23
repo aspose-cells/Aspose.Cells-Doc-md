@@ -47,9 +47,9 @@ Aspose.Cellsは、開発者がワークシートのズームファクターを�
 ### **ズームファクターの制御**
 Aspose.Cellsは、Microsoft Excelファイルを表す[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスを提供します。[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) クラスには、Excelファイル内の各ワークシートにアクセスできる[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)が含まれています。
 
-ワークシートは[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) クラスによって表されます。[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) クラスには、ワークシートを管理するための幅広い範囲のプロパティとメソッドが備わっています。ワークシートのズームファクターを設定するには、[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) クラスの[setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom)メソッドを使用します。
+ワークシートは [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) クラスで表されます。[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) クラスは、ワークシートを管理するための多くのプロパティとメソッドを提供します。ワークシートのズーム倍率を設定するには、[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスの [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) メソッドを使用します。
 
-以下は、Excelファイルの最初のワークシートのズームファクターを設定するために[setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom)メソッドの使用方法を示す完全な例です。
+以下に完全な例を示します。これにより、[setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) メソッドを使用して、Excelファイルの最初のワークシートのズーム倍率を設定する方法がわかります。
 
 以下のスクリーンショットでは、Book1.xlsファイルがデフォルトビューに表示されています。
 
@@ -77,14 +77,14 @@ Aspose.Cellsは開発者にワークシートへの分割表示の適用をラ�
 
 Aspose.Cellsは、Microsoft Excelファイルを表す[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスを提供します。[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスには、Excelファイルの各ワークシートにアクセスできる[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)が含まれています。
 
-ワークシートは[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスによって表されます。[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスには、ワークシートを管理するためのさまざまなプロパティやメソッドが提供されています。分割表示を構成するには、[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスの[freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\))メソッドを呼び出します。[freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\))メソッドは以下のパラメータを取ります:
+ワークシートは [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) クラスで表されます。[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) クラスは、ワークシートを管理するための多くのプロパティとメソッドを提供します。フリーズペインを設定するには、[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) クラスの [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) メソッドを呼び出します。 [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) メソッドは次のパラメータを取ります：
 
 - **行**、枠が開始するセルの行インデックス。
 - **列**、枠が開始するセルの列インデックス。
 - **固定行**、上部枠内に表示される行数。
 - **固定列**、左部枠内に表示される列数。
 
-以下に、Excelファイルの最初のワークシートの行と列（0インデックスから始まる）の4番目の行と3番目の列として表されるC4から行と列を固定する[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスの[freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\))メソッドの使用方法を示す完全な例が示されています。
+以下に完全な例を示します。これにより、[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) クラスの [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) メソッドを使用して、Excelファイルの最初のワークシートの行と列（C4から始まり、4行目と3列目、行と列は0から始まります）を固定する方法がわかります。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FreezePanes-FreezePanes.java" >}}
 
@@ -106,7 +106,7 @@ Book1.xls ファイルを[Workbook](https://reference.aspose.com/cells/java/com.
 パネは同時に動作します。片方で変更を加えると、同時に他方にも変更が表示されます。Aspose.Cells は、ユーザーに対して画面の分割機能を提供しています。
 ### **画面の分割の適用と解除**
 #### **画面の分割**
-ここでは、簡単なテンプレートファイルを読み込んだ後、最初のワークシートのセルに分割表示機能を適用した例が示されています。更新されたファイルは保存されます。
+Aspose.Cells は、Microsoft Excel ファイルを表す [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) クラスを提供します。[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) クラスは、Excelファイルを管理するための広範なプロパティとメソッドを提供します。分割ビューを実装するには、[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) クラスの [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split--) メソッドを使用します。分割ペインを削除するには、[removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--) メソッドを使用します。
 
 例では、シンプルなテンプレート ファイルをロードして、最初のワークシートのセルに分割パネル機能を適用し、更新されたファイルを保存します。
 
@@ -122,7 +122,7 @@ Book1.xls ファイルを[Workbook](https://reference.aspose.com/cells/java/com.
 
 ![todo:image_alt_text](worksheet-views_9.png)
 #### **パネルの削除**
-[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) クラスの [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) メソッドを使用して分割ウィンドウを削除できます。
+開発者は、[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) クラスの [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--) メソッドを使って分割ペインを削除できます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovePanes-RemovePanes.java" >}}
 
@@ -133,3 +133,4 @@ Book1.xls ファイルを[Workbook](https://reference.aspose.com/cells/java/com.
 - [要素を表示および非表示にする](/cells/ja/java/show-and-hide-elements/)
 - [ワークシートで値の代わりに数式を表示する](/cells/ja/java/show-formulas-instead-of-values-in-a-worksheet/)
 - [エラーチェックオプションを使用する](/cells/ja/java/use-error-checking-options/)
+{{< app/cells/assistant language="java" >}}

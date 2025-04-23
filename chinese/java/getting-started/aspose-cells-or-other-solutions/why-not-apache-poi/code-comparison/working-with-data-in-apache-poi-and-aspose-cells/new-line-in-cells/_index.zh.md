@@ -63,3 +63,4 @@ cell.setCellStyle(cs);
 要了解更多详情，请访问[换行和文本换行](/java/line-breaks-and-text-wrapping)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

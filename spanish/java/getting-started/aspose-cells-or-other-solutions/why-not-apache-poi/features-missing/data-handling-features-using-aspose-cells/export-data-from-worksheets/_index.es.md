@@ -52,3 +52,4 @@ fstream.close();
 Para más detalles, visite [Exportar Datos desde Hojas de Cálculo](/java/exporting-data-from-worksheets).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

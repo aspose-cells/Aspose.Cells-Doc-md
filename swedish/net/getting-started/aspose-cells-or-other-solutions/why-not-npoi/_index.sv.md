@@ -63,3 +63,4 @@ Aspose-komponenter erbjuder många kraftfulla tidsbesparande funktioner. Till ex
 
 * [Mer om Apache POI](https://poi.apache.org/)
 
+{{< app/cells/assistant language="csharp" >}}

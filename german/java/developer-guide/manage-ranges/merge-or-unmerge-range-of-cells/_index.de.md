@@ -29,3 +29,4 @@ Das folgende Bild zeigt die generierte Excel-Datei mit dem Beispielcode. Wie Sie
 - [Zusammenführen und Aufteilen von Zellen](/cells/de/java/zusammenführen-und-aufteilen-von-zellen/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

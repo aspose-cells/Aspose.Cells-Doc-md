@@ -110,3 +110,4 @@ Yukarıda belirtilen gerçeklere dayanarak, yineleyicilerin kullanılması gerek
 1. Hücre koleksiyonunun salt okunur erişimi gereklidir; yani, yalnızca hücreleri denetlemek gereklidir.
 1. Büyük sayıda hücre gezilmelidir.
 1. Yalnızca başlatılmış hücreler/satırlar/sütunlar gezilmelidir.
+{{< app/cells/assistant language="java" >}}

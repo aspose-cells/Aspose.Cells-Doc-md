@@ -53,3 +53,4 @@ Descargar **Calcular Subtotales** desde cualquiera de los sitios de código soci
 Para más detalles, visita [Creando Subtotales](/cells/es/net/creating-subtotals/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

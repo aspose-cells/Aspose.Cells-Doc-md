@@ -20,3 +20,4 @@ Den följande exempelkoden läser in den [exempel Excel-filen](67338585.xlsx), s
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-ChangeCellsAlignmentAndKeepExistingFormatting.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

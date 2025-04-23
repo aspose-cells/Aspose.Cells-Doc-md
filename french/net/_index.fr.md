@@ -75,3 +75,4 @@ Aspose.Cells for .NET prend en charge les formats de fichiers de feuilles de cal
 			</ul>
 	</div>
 </div>
+{{< app/cells/assistant language="csharp" >}}

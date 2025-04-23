@@ -16,3 +16,4 @@ Bazı durumlarda, çalışsayedeki veriyi data table'a aktarırken gizli sütunl
 Aşağıdaki örnek kod, çalışsayedeki tüm veriyi data table'e aktarırken gizli sütunları göz ardı etme kullanımını açıklamaktadır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-IgnoreHiddenColumnsDataTable-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

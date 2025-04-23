@@ -16,3 +16,4 @@ Aspose.Cells kan nu rendera anpassade datumformatmallar som g, ge.mm.dd och likn
 Följande exempelkod konverterar [källkalkylbladsfilen](5112361.xlsx) som innehåller datumvärden med anpassade formatmallar som g och ge.mm.dd till [utdata-PDF:en](5112360.pdf).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-RenderCustomDateFormat-RenderCustomDateFormatPatterngandgemmdd.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

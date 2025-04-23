@@ -23,3 +23,4 @@ Ensuite, il remplit la source de données avec des données et appelle la métho
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingImageMarkersWhileGroupingDataInSmartMarkers-UsingImageMarkersWhileGroupingDataInSmartMarkers.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

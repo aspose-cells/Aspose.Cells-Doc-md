@@ -11,11 +11,12 @@ url: /zh/java/delete-blank-rows-and-columns-in-a-worksheet/
 
 使用以下Aspose.Cells方法来删除空行和空列:
 
-1. 要删除空行，请使用[Cells.deleteBlankRows()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankRows\(\))方法。
-1. 要删除空列，请使用[Cells.deleteBlankColumns()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankColumns\(\))方法。
+1. 要删除空白行，请使用 [Cells.deleteBlankRows()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankRows--) 方法。
+1. 要删除空白列，请使用 [Cells.deleteBlankColumns()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankColumns--) 方法。
 
 {{% /alert %}} 
 ## **删除空行**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DeletingBlankRows-DeletingBlankRows.java" >}}
 ## **删除空列**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DeletingBlankColumns-DeletingBlankColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

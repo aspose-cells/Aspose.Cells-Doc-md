@@ -69,3 +69,4 @@ book.save(dataDir + "AsposeFormulaEngine.xls");
 Daha fazla bilgi için [Formül Hesaplama Motoru](/hücreler/tr/java/formül-hesaplama-motoru-aspose-hücrelerinde) adresini ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

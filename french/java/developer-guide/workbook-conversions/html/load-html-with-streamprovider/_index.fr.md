@@ -20,3 +20,4 @@ Voici le code principal montrant l'utilisation de [**HtmlLoadOptions.StreamProvi
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Load-Html-With-StreamProvider.java" >}}
+{{< app/cells/assistant language="java" >}}

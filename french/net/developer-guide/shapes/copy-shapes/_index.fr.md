@@ -31,3 +31,4 @@ Le code suivant démontre l'utilisation de la méthode [**Worksheet.Shapes.AddCo
 Pour copier les contrôles et autres objets de dessin, utilisez la méthode [**Worksheet.Shapes.AddCopy**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addcopy) comme indiqué dans l'exemple ci-dessous.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CopyShapesBetweenWorksheets-CopyControlsAndOtherDrawingObjects.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

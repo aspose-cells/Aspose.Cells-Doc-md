@@ -58,3 +58,4 @@ Excelでは背景色に基づいてデータをソートする機能が提供さ
 ## **高度なトピック**
 - [カスタムソートリストを使用した列内のデータの並べ替え](/cells/ja/net/sort-data-in-column-with-custom-sort-list/)
 - [データソート時の警告の指定](/cells/ja/net/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="csharp" >}}

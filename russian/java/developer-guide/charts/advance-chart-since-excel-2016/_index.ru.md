@@ -36,3 +36,4 @@ BoxWhisker
 
 ## **Продвинутые темы**
 - [Создание водопадной диаграммы](/cells/ru/java/creating-waterfall-chart/)
+{{< app/cells/assistant language="java" >}}

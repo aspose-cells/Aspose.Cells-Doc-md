@@ -3,19 +3,19 @@ title: Çalışsayfa Kopyalama ve Taşıma
 type: docs
 weight: 10
 url: /tr/python-net/copying-and-moving-worksheets/
-description: Bu makale, Aspose.Cells for Python via .NET API si aracılığıyla çalışma tabloları arasında ve Excel çalışma kitapları arasında programatik olarak çalışma tablolarını kopyalama ve taşıma yöntemlerini içermektedir.
-keywords: Python Excel Kütüphanesi, Python çalışma tablosu kopyalama, Python çalışma tablosu taşıma, Python Çalışma Kitapları Arasında Çalışma Tabloları Kopyalama, Python Çalışma Kitabı İçinde Çalışma Tabloları Taşıma, Python Çalışma Kitapları Arasında Çalışma Tabloları Kopyalama, Python Çalışma Kitapları İçinde Çalışma Tabloları Kopyalama.
+description: Bu makale örnek kod içerir ve Aspose.Cells for Python via .NET API kullanarak bir Excel çalışma kitabındaki ve çalışma kitapları arasındaki sayfaları programlama yoluyla nasıl kopyalayıp taşıyacağınızı anlatır.
+keywords: Python Excel Kütüphanesi, Python ile sayfa kopyalama, Python ile sayfa taşıma, Python ile Çalışma Kitapları arasında Sayfa Kopyalama, Python ile Çalışma Kitaplarında Sayfa Taşıma, Python ile Çalışma Kitapları arasında Sayfa Kopyalama, Python ile Bir Çalışma Kitabında Sayfa Kopyalama.
 ---
 
 {{% alert color="primary" %}}
 
 Bazen ortak biçimlendirme ve veriye sahip bir dizi çalışma sayfasına ihtiyaç duyarsınız. Örneğin, üç aylık bütçelerle çalışıyorsanız, aynı sütun başlıklarını, satır başlıklarını ve formülleri içeren sayfalara sahip bir çalışma kitabı oluşturmak isteyebilirsiniz. Bunun bir yolu var: bir sayfa oluşturduktan sonra onu kopyalayarak.
 
-Aspose.Cells for Python via .NET, çalışma tablolarını en yüksek hassasiyetle çalışma kitapları arasında veya içinde kopyalama ve taşıma işlemlerini destekler. Veriler, biçimlendirme, tablolar, matrisler, grafikler, görüntüler ve diğer nesneler ile birlikte çalışma tabloları en yüksek hassasiyetle kopyalanır.
+Aspose.Cells for Python via .NET, çalışma kitapları içinde veya arasında sayfaların kopyalanmasını ve taşınmasını destekler. Sayfa, veri, biçimlendirme, tablolar, matrisler, grafikler, resimler ve diğer nesnelerle birlikte en yüksek kesinlikle kopyalanır.
 
 {{% /alert %}}
 
-## **Microsoft Excel kullanarak sayfaları Taşıma veya Kopyalama Nasıl**
+## **Microsoft Excel kullanarak Sayfaları Taşıma veya Kopyalama**
 
 Microsoft Excel'de çalışma kitapları arasında veya içinde çalışma sayfalarını kopyalama ve taşıma için gereken adımlar aşağıda listelenmiştir.
 
@@ -27,17 +27,17 @@ Microsoft Excel'de çalışma kitapları arasında veya içinde çalışma sayfa
 1. **Önceki sayfa** kutusunda, taşınan veya kopyalanan sayfaların nereden önce ekleneceğini tıklayın.
 1. Sayfaları taşımak yerine kopyalamak için **Kopyasını Oluştur** onay kutusunu seçin.
 
-## **Aspose.Cells for Python Excel Kütüphanesi ile Çalışma Kitabı içinde Çalışma Sayfalarını Nasıl Kopyalarsınız**
+## **Bir Çalışma Kitabını Kopyalama Aspose.Cells for Python Excel Kütüphanesi ile nasıl yapılır**
 
-Aspose.Cells for Python via .NET, bir çalışma sayfasını koleksiyona eklemek ve mevcut bir çalışma sayfasından veri kopyalamak için kullanılan çok yüklü bir yöntem sunar. Yöntemin bir versiyonu kaynak çalışma sayfasının dizinini parametre olarak alır. Diğer versiyon ise kaynak çalışma sayfasının adını alır.
+Aspose.Cells for Python via .NET, veri kopyalamak ve biçimlendirmeyi başka bir çalışma sayfasına kopyalamak için [**Aspose.Cells.WorksheetCollection.add_copy()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheetcollection/add_copy/#str) adlı aşırı yüklenmiş bir yöntem sağlar. Bu yöntemden biri, kaynak çalışma sayfası indeksini parametre olarak alır. Diğeri ise kaynak çalışma sayfasının adını kullanır.
 
 Aşağıdaki örnek, bir çalışma kitabı içinde mevcut bir çalışma sayfasının nasıl kopyalanacağını gösterir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Value-CopyWithinWorkbook-1.py" >}}
 
-## **Çalışma Kitapları Arasında Çalışma Sayfalarını Nasıl Kopyalarsınız**
+## **Çalışma Kitapları Arasında Sayfaları Kopyalama**
 
-Aspose.Cells for Python via .NET, bir kaynak çalışma sayfasından veri ve biçimlendirmeyi başka bir çalışma sayfasına veya çalışma kitapları arasında kopyalamak için kullanılan bir yöntem sunar. Yöntem kaynak çalışma sayfası nesnesini parametre olarak alır.
+Aspose.Cells for Python via .NET, kaynak çalışma sayfasından başka bir çalışma sayfasına veya başka çalışma kitapları arasında veri ve biçimlendirmeyi kopyalamak için [**Aspose.Cells.Worksheet.copy()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/copy/#aspose.cells.Worksheet) yöntemini sağlar. Bu yöntem, kaynak çalışma sayfası nesnesini parametre olarak alır.
 
 Aşağıdaki örnek, bir çalışma kitabından diğer bir çalışma kitabına sayfa kopyalamanın nasıl yapılacağını gösterir.
 
@@ -47,9 +47,9 @@ Aşağıdaki örnek, bir çalışma kitabından başka bir çalışma kitabına 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Value-CopyWorksheetFromWorkbookToOther-1.py" >}}
 
-## **Çalışma Kitabı içinde Çalışma Sayfalarını Nasıl Taşırsınız**
+## **Çalışma Kitabı İçinde Sayfaları Taşıma**
 
-Aspose.Cells for Python via .NET, çalışma sayfasını aynı elektronik tabloda başka bir konuma taşımak için kullanılan bir yöntem sunar. Yöntem hedef çalışma sayfası dizinini parametre olarak alır.
+Aspose.Cells for Python via .NET, aynı elektronik tabloda başka bir konuma sayfa taşımak için [**Aspose.Cells.Worksheet.move_to()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/move_to/#int) yöntemini sağlar. Bu yöntem, hedef çalışma sayfası indeksini parametre olarak alır.
 
 Aşağıdaki örnek, bir çalışma kitabı içinde bir çalışma sayfasının başka bir konuma nasıl taşınacağını gösterir.
 

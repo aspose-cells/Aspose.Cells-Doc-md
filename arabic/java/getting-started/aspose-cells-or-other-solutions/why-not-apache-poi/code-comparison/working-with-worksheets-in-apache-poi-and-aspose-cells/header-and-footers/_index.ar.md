@@ -91,3 +91,4 @@ header.setRight(HSSFHeader.font("Stencil-Normal", "Italic") +
 لمزيد من التفاصيل، قم بزيارة [إعداد عناوين وتذييلات](/java/setting-headers-and-footers).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -51,3 +51,4 @@ Zum Öffnen von tabstoppgetrennten Dateien sollten Entwickler die Klasse [**Load
 - [CSV-Datei mit Formeln laden oder importieren](/cells/de/java/load-or-import-csv-file-with-formulas/)
 - [Führende leere Zeilen und Spalten beim Export von Tabellenkalkulationen in das CSV-Format abschneiden](/cells/de/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
 
+{{< app/cells/assistant language="java" >}}

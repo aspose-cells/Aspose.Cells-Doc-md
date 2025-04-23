@@ -375,3 +375,4 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 - [Gestionar Opciones de Texto de la Forma](/cells/es/net/managing-shape-text-options/)
 - [Extensiones Web - Complementos de Office](/cells/es/net/web-extensions-office-add-ins/)
 
+{{< app/cells/assistant language="csharp" >}}

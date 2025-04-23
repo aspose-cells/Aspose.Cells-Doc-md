@@ -20,3 +20,4 @@ Aspose.Cells fournit également les méthodes [**PivotTable.ShowInCompactForm()*
 Le code d'exemple suivant montre d'abord le tableau croisé dynamique sous forme compacte, puis il montre le tableau croisé dynamique sous forme de plan et enfin il montre le tableau croisé dynamique sous forme tabulaire.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-ChangingLayoutOfPivotTable-ChangingLayoutOfPivotTable.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

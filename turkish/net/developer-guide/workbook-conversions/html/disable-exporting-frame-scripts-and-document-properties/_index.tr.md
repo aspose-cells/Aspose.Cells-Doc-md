@@ -16,3 +16,4 @@ Aspose.Cells, bir çalışma kitabını HTML'ye dönüştürürken çerçeve kom
 Aşağıdaki örnek kod, çerçeve betikleri ve belge özelliklerinin dışa aktarılmasını devre dışı bırakmanıza olanak tanır. Bir çalışma kitabını HTML'e dönüştürdüğünüzde, çıktı dosyası herhangi bir çerçeve betiği ve belge özelliği içermez.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-HtmlExportFrameScripts-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

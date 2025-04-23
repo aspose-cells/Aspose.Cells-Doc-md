@@ -38,3 +38,4 @@ url: /zh/net/installing-aspose-cells-on-windows/
 您需要重新启动计算机才能使更改生效。此更改会影响计算机上的所有帐户，而不仅仅是您的。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

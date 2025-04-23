@@ -4,8 +4,8 @@ linktitle: Geler les lignes
 type: docs
 weight: 190
 url: /fr/python-net/how-to-freeze-rows-of-excel-worksheet
-description: Dans cet article, vous apprendrez comment figer les lignes supérieures des feuilles de calcul Excel de manière programmable en utilisant Aspose.Cells pour Python via .NET APIs.
-keywords: Bibliothèque Excel Python, Figer les lignes supérieures en Python, Figer la ligne supérieure en Python.
+description: Dans cet article, vous apprendrez comment figer les lignes du haut des feuilles Excel de manière programmatique en utilisant Aspose.Cells pour Python via .NET APIs.
+keywords: Bibliothèque Excel Python, Figer les lignes du haut en Python, Figer la première ligne en Python.
 ---
 
 ## **Introduction**
@@ -32,7 +32,7 @@ Figer les rangées vous permet de voir vos grandes données sans avoir à suivre
 
 
 ## **Comment figer les lignes avec Aspose.Cells pour la bibliothèque Excel Python**
-Il est simple de figer la ligne(s) avec Aspose.Cells pour Python via .NET. Veuillez utiliser la méthode [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) pour figer la ligne(s) sélectionnée(s).
+Il est simple de geler la ou les lignes avec Aspose.Cells pour Python via .NET. Veuillez utiliser la méthode [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) pour figer la ou les lignes à la ligne sélectionnée.
 1. Construisez un classeur pour ouvrir le fichier ou créez un fichier vide.
 2. Figez la première rangée avec la méthode Worksheet.FreezePanes().
 3. Enregistrez le fichier.

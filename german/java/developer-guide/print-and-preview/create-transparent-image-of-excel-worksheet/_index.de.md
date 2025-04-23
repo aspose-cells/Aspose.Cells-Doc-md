@@ -26,3 +26,4 @@ Während in der folgenden Arbeitsblattansicht Transparenz angewendet wurde. Die 
 Sie können den folgenden Beispielcode verwenden, um ein transparentes Bild Ihres Excel-Arbeitsblatts zu generieren.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CreateTransparentImage-1.java" >}}
+{{< app/cells/assistant language="java" >}}

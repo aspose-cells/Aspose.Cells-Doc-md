@@ -62,3 +62,4 @@ book.Worksheets[0].AutoFitColumns();
 book.Save("ImportedCustomObjects.xls");
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

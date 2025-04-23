@@ -17,3 +17,4 @@ url: /ar/java/setting-formulas-notice-for-non-english-users/
    بالنسبة لبعض خيارات اللغة أو الإعدادات، يكون فاصل العناصر للدالة هو الفاصلة المنقوشة ولكن Aspose.Cells يستخدم الأسلوب الإنجليزي بفاصلة. على سبيل المثال، استخدم "=IF (C5=0,0,C3/C4)" بدلاً من "=IF(C5=0;0;C3/C4)" 
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

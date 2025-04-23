@@ -15,3 +15,4 @@ Aspose.Cellsを使用して、クエリテーブルをデータソースとす�
 [ソースファイル](SampleTableWithQueryTable.xls)
 
 [出力ファイル](SampleTableWithQueryTable_out.xls)
+{{< app/cells/assistant language="java" >}}

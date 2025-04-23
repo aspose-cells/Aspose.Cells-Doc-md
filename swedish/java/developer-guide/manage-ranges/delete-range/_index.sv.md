@@ -13,7 +13,7 @@ I Excel kan du markera ett område, sedan radera det och flytta andra data åt v
 
 ## **Radera områden med hjälp av Aspose.Cells**
 
-Aspose.Cells tillhandahåller [Cells.DeleteRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRange(int,%20int,%20int,%20int,%20int)) -metoden för att radera ett område.
+Aspose.Cells tillhandahåller metoden [Cells.DeleteRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRange-int-int-int-int-int-) för att ta bort ett område.
 
 ## **Radera områden och flytta celler åt vänster**
 
@@ -27,3 +27,4 @@ Radera ett område och flytta celler uppåt enligt nedanstående kodsnutt med As
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Delete-Range-Up.java" >}}
 
+{{< app/cells/assistant language="java" >}}

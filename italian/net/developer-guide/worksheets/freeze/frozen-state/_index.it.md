@@ -22,3 +22,4 @@ e ottenere righe e colonne bloccate con il metodo [**Worksheet.GetFreezedPanes**
 3. Ottiene le righe e le colonne bloccate
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Is-Worksheet-Frozen.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

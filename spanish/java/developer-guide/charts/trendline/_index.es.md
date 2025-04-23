@@ -31,3 +31,4 @@ Este es el resultado de consola del código de ejemplo anterior.
 Equation Text: y = 8.1333x + 5
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

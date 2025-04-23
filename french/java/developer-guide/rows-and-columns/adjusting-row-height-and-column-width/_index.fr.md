@@ -16,7 +16,7 @@ Aspose.Cells fournit une classe, [Workbook](https://reference.aspose.com/cells/j
 
 La collection [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) fournit plusieurs méthodes pour gérer les lignes ou les colonnes dans une feuille de calcul. Certaines d'entre elles sont discutées ci-dessous plus en détail.
 ### **Définir la hauteur de la ligne**
-Il est possible de définir la hauteur d'une seule ligne en appelant la méthode [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\)) de la collection [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). La méthode [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\)) prend les paramètres suivants :
+Il est possible de définir la hauteur d'une seule ligne en appelant la méthode [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight-int-double-) de la collection [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). La méthode [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight-int-double-) accepte les paramètres suivants :
 
 - **Index de ligne**, l'index de la ligne pour laquelle vous modifiez la hauteur.
 - **Hauteur de la ligne**, la hauteur de la ligne à appliquer sur la ligne.
@@ -30,7 +30,7 @@ Pour définir la même hauteur de ligne pour toutes les lignes dans une feuille 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingHeightAllRows-SettingHeightAllRows.java" >}}
 ## **Travailler avec les colonnes**
 ### **Définir la largeur d'une colonne**
-Définissez la largeur d'une colonne en appelant la méthode [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\)) de la collection [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). La méthode [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\)) prend les paramètres suivants :
+Définissez la largeur d'une colonne en appelant la méthode [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth-int-double-) de la collection [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). La méthode [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth-int-double-) prend les paramètres suivants :
 
 - Index de la colonne, l'index de la colonne dont vous changez la largeur.
 - Largeur de colonne, la largeur de colonne souhaitée.
@@ -44,3 +44,4 @@ Pour définir la même largeur de colonne pour toutes les colonnes dans une feui
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingWidthOfAllColumns-SettingWidthOfAllColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

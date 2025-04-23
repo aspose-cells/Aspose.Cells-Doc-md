@@ -16,7 +16,7 @@ Una forma de destacar información importante en un informe es utilizando un cua
 - El método [**getTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame) devuelve un objeto [**MsoTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame) utilizado para ajustar el contenido del cuadro de texto.
 - El método [**setPlacement**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement) especifica el tipo de colocación.
 - El método [**setFont**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Font) especifica los atributos de fuente.
-- El método [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink(java.lang.String)) agrega un hipervínculo al cuadro de texto.
+- El método [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink-java.lang.String-) agrega un hipervínculo al cuadro de texto.
 - La propiedad [**FillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#FillFormat) devuelve un objeto [**MsoFillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoFillFormat) utilizado para establecer el formato de relleno para el cuadro de texto.
 - La propiedad [**LineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#LineFormat) devuelve el objeto [**MsoLineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoLineFormat) utilizado generalmente para el estilo y peso de la línea del cuadro de texto.
 - El método [**setText**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text) especifica el texto de entrada para el cuadro de texto.
@@ -335,3 +335,4 @@ El siguiente ejemplo muestra cómo agregar formas de óvalo a la hoja de cálcul
 ## **Temas avanzados**
 - [Agregar controles ActiveX usando Aspose.Cells](/cells/es/java/add-activex-controls-using-aspose-cells/)
 - [Eliminar control ActiveX](/cells/es/java/remove-activex-control/)
+{{< app/cells/assistant language="java" >}}

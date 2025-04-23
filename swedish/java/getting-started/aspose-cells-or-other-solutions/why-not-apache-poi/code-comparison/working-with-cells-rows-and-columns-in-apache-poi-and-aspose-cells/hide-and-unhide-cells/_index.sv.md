@@ -53,3 +53,4 @@ row.setZeroHeight(true);
 För mer information, besök [Dölja och visa rader och kolumner](/java/hiding-and-showing-rows-and-columns).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

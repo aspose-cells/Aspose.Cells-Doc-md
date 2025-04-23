@@ -15,6 +15,7 @@ Aspose.Cells允许您在工作表中获取合并的单元区域。您也可以�
 
 {{% /alert %}}
 
-该组件提供了能够获取所有合并单元格的方法。以下代码示例向您展示了如何在工作表中检测合并单元格。
+该组件提供[**Cells.GetMergedAreas()**](https://reference.aspose.com/cells/net/aspose.cells/cells/getmergedareas/)方法，可以获取所有合并的单元格。以下示例代码演示了如何检测工作表中的合并单元格。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DetectMergedCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

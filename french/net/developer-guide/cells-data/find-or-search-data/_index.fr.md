@@ -65,3 +65,4 @@ Spécifiez les propriétés [**FindOptions.LookInType**](https://reference.aspos
 - [Rechercher des cellules avec un style spécifique](/cells/fr/net/find-cells-with-specific-style/)
 - [Trouver si la valeur de la cellule commence par un guillemet simple](/cells/fr/net/find-if-the-cell-value-starts-with-single-quote-mark/)
 - [Rechercher des données en utilisant des valeurs originales](/cells/fr/net/search-data-using-original-values/)
+{{< app/cells/assistant language="csharp" >}}

@@ -55,3 +55,4 @@ Aspose.Cells stödjer att extrahera objekt av ovanliga typer som MOL (molekylär
 - [Automatisk uppdatering av OLE-objekt via Microsoft Excel med Aspose.Cells](/cells/sv/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)
 - [Extrahera OLE-objekt från arbetsboken](/cells/sv/java/extract-ole-objects-from-workbook/)
 - [Hämta eller ange klassidentifieraren för det inbäddade OLE-objektet](/cells/sv/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
+{{< app/cells/assistant language="java" >}}

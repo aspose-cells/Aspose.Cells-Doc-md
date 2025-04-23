@@ -13,7 +13,7 @@ En Excel, puedes seleccionar un rango, luego insertar un rango y desplazar otros
 
 ## **Insertar Rangos Usando Aspose.Cells**
 
-Aspose.Cells proporciona el método [Cells.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange(com.aspose.cells.CellArea,%20int)) para insertar un rango.
+Aspose.Cells proporciona el método [Cells.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange-com.aspose.cells.CellArea-int-) para insertar un rango.
 
 ## **Insertar Rangos y Desplazar Celdas a la Derecha**
 
@@ -27,3 +27,4 @@ Inserte un rango y desplace las celdas hacia abajo como los siguientes códigos 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Insert-Range-Down.java" >}}
 
+{{< app/cells/assistant language="java" >}}

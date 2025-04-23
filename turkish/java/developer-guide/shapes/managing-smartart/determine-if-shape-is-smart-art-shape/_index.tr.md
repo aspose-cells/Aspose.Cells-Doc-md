@@ -26,3 +26,4 @@ Aşağıdaki örnek kod, [örnek Excel dosyasını](55541805.xlsx) yükler. Ard�
 Is Smart Art Shape: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

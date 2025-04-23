@@ -61,3 +61,4 @@ L'esempio seguente mostra come tracciare i precedenti e i dipendenti secondo la 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-TracingDependenciesInCalculation.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

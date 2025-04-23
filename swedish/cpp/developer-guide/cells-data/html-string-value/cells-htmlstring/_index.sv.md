@@ -1,0 +1,84 @@
+---
+title: Hantera Cell Html String med C++
+linktitle: Hantera Cells Html sträng
+type: docs
+weight: 600
+url: /sv/cpp/manage-cells-html-string/
+description: Lär dig hur du hanterar Cell Html String via API n Aspose.Cells for C++.
+keywords: Lägg till HTML sträng inne i cellen, Ange HTML sträng inne i cellen, Lägg till HTML sträng, Hämta HTML sträng av cell, Hantera cellers HTML sträng
+---
+
+## **Möjliga användningsscenario**
+När du behöver ställa in formaterad data för en särskild Cell kan du tilldela en HTML-sträng till Cell. Naturligtvis kan du också få HTML-strängen för cellen. Aspose.Cells erbjuder denna funktion. Aspose.Cells tillhandahåller följande egenskaper och metoder för att hjälpa dig att uppnå dina mål.
+- [**Cell::GetHtmlString**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/gethtmlstring/)
+- [**Cell::SetHtmlString**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/sethtmlstring/)
+
+## **Hämta och ange html-sträng med hjälp av Aspose.Cells**
+Detta exempel visar hur man:
+
+1. Skapa en arbetsbok och lägg till lite data.
+1. Hämta den specifika cellen i den första kalkylbladet.
+1. Ange html-sträng till cellen.
+1. Hämta HTML-sträng av cellen.
+
+```cpp
+#include <iostream>
+#include "Aspose.Cells.h"
+
+using namespace Aspose::Cells;
+
+int main()
+{
+    Aspose::Cells::Startup();
+
+    // Instantiate a Workbook object
+    Workbook workbook;
+
+    // Obtain the reference of the newly added worksheet
+    Worksheet ws = workbook.GetWorksheets().Get(0);
+    Cells cells = ws.GetCells();
+
+    // Setting the value to the cells
+    Cell cell = cells.Get(u"A1");
+    cell.PutValue(u"Fruit");
+
+    cell = cells.Get(u"B1");
+    cell.PutValue(u"Count");
+
+    cell = cells.Get(u"C1");
+    cell.PutValue(u"Price");
+
+    cell = cells.Get(u"A2");
+    cell.PutValue(u"Apple");
+
+    cell = cells.Get(u"A3");
+    cell.PutValue(u"Mango");
+
+    cell = cells.Get(u"A4");
+    cell.PutValue(u"Blackberry");
+
+    cell = cells.Get(u"A5");
+    cell.PutValue(u"Cherry");
+
+    Cell c3 = cells.Get(u"C3");
+    // Set HTML string for C3 cell
+    c3.SetHtmlString(u"<b>test bold</b>");
+
+    Cell c4 = cells.Get(u"C4");
+    // Set HTML string for C4 cell
+    c4.SetHtmlString(u"<i>test italic</i>");
+
+    // Get the HTML string of specific cell
+    std::cout << c3.GetHtmlString().ToUtf8() << std::endl;
+    std::cout << c4.GetHtmlString().ToUtf8() << std::endl;
+
+    Aspose::Cells::Cleanup();
+    return 0;
+}
+```
+
+## Utdata genererad av provkoden
+
+Följande skärmbild visar utdata av ovanstående provkod.
+
+![todo:image_alt_text](htmlstring.png)

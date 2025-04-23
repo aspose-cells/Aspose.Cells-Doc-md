@@ -104,3 +104,4 @@ L'esempio seguente mostra come proteggere una colonna nel foglio di lavoro. Sblo
 L'esempio seguente mostra come consentire agli utenti di modificare un intervallo in un foglio di lavoro protetto.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-EditRangesWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

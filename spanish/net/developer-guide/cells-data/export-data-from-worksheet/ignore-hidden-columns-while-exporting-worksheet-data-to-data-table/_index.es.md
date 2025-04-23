@@ -16,3 +16,4 @@ A veces, desea ignorar columnas ocultas al exportar datos de hoja de cálculo a 
 El siguiente código de muestra explica el uso de la propiedad [**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns) para ignorar las columnas ocultas al exportar todos los datos de la hoja de cálculo a la tabla de datos.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-IgnoreHiddenColumnsDataTable-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -18,3 +18,4 @@ X軸には異なるタイプがあります。Y軸が値タイプの軸である
 ![todo:image_alt_text](compare.png)
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "X-axis-vs-category-axis.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

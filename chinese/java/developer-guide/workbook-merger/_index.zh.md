@@ -16,7 +16,7 @@ keywords: 将多个工作簿合并成一个，将多个工作簿合并成一个j
 
 ## **合并工作簿**
 
-示例代码使用Aspose.Cells for Java将两个工作簿合并为一个工作簿。该代码加载源工作簿，使用[**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook))方法将它们合并，并保存输出工作簿。
+示例代码使用Aspose.Cells for Java将两个工作簿合并为一个工作簿。该代码加载源工作簿，使用[**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine-com.aspose.cells.Workbook-)方法将它们合并，并保存输出工作簿。
 
 ### **源工作簿**
 
@@ -69,3 +69,4 @@ keywords: 将多个工作簿合并成一个，将多个工作簿合并成一个j
 - [将多个工作表合并到单个工作表](/cells/zh/java/combine-multiple-worksheets-into-a-single-worksheet/)
 - [合并文件](/cells/zh/java/merge-files/)
 
+{{< app/cells/assistant language="java" >}}

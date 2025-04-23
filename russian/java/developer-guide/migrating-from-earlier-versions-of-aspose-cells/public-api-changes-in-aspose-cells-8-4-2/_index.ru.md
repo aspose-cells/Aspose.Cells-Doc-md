@@ -161,3 +161,4 @@ workbook.save(output);
 Начиная с выпуска Aspose.Cells for Java 8.4.2, перечисление PasteType.ALL ведет себя по-другому по сравнению с функцией Excel "Все" для вставки диапазона ячеек. Теперь PasteType.ALL также копирует ширину столбцов в пункт назначения, в отличие от функции Excel "Все". Чтобы имитировать поведение Excel "Все", используйте PasteType.DEFAULT.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

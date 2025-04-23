@@ -4,3 +4,4 @@ type: docs
 weight: 235
 url: /zh/net/globalization-and-localization/
 ---
+{{< app/cells/assistant language="csharp" >}}

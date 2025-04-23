@@ -3,14 +3,14 @@ title: Impostazione di diversi intestazioni e piè di pagina per pagine diverse
 type: docs
 weight: 35
 url: /it/python-net/setting-different-headers-and-footers-for-pages-to-Excel/
-description: Questo articolo fornisce un codice di esempio che mostra come impostare in modo programmato vari intestazioni e piè di pagina delle impostazioni di Impostazione Pagina del foglio di Excel utilizzando l API Aspose.Cells per Python. È possibile impostare le intestazioni e i piè di pagina per la prima pagina, pagine dispari e pagine pari.
-keywords: Libreria Python Excel, Imposta intestazioni e piè di pagina excel prima pagina, imposta intestazioni e piè di pagina excel pagine dispari in Python, imposta intestazioni e piè di pagina excel pagine pari in Python.
+description: Questo esempio di codice mostra come impostare programmaticamente vari intestazioni e piè di pagina delle impostazioni di pagina del foglio di lavoro Excel usando le API Aspose.Cells per Python. Puoi impostare intestazioni e piè di pagina per la prima pagina, pagine dispari e pagine pair.
+keywords: Libreria Python Excel, impostare intestazione piè di pagina del primo foglio, impostare intestazione piè di pagina per pagine dispari in Python, impostare intestazione piè di pagina per pagine pari usando Python.
 ---
 
 {{% alert color="primary" %}}
 
 MS Excel supporta l'impostazione di intestazioni e piè di pagina diversi per la prima pagina, le pagine dispari e pari dal 2007.
-Aspose.Cells per Python via .NET supporta la stessa funzionalità.
+Aspose.Cells per Python via .NET supporta la stessa funzione.
 
 {{% /alert %}}
 
@@ -22,7 +22,7 @@ Aspose.Cells per Python via .NET supporta la stessa funzionalità.
 1. Seleziona **Pagine pari e dispari diverse** o **Prima pagina diversa**.
 1. Inserisci intestazioni e piè di pagina diversi.
 
-## **Come impostare intestazioni e piè di pagina diversi con la libreria Excel Aspose.Cells per Python**
+## **Come impostare intestazioni e piè di pagina diversi con Aspose.Cells per Python Excel Library**
 
 Aspose.Cells per Python via .NET si comporta allo stesso modo di Excel.
 1. Imposta i flag [PageSetup.is_hf_diff_odd_even](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/is_hf_diff_odd_even/) e [PageSetup.is_hf_diff_first](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/is_hf_diff_first/) 

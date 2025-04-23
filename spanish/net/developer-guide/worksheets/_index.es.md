@@ -87,3 +87,4 @@ El siguiente ejemplo muestra cómo activar una hoja de cálculo y hacer que una 
 - [Utilizar la propiedad SheetId de OpenXml usando Aspose.Cells](/cells/es/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [Vistas de hojas de trabajo](/cells/es/net/worksheet-views/)
 
+{{< app/cells/assistant language="csharp" >}}

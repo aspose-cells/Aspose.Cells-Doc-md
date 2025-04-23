@@ -256,3 +256,4 @@ Eski CellsHelper.FontDir özelliğinin recursive olarak false ayarlanmış FontC
 Eski CellsHelper.FontDirs özelliğinin recursive olarak false ayarlanmış FontConfigs.setFontFolders(String[], boolean) yöntemini kullanmanız önerilir.
 ### **Eski CellsHelper.FontFiles Özelliği**
 Eski CellsHelper.FontFiles özelliğinin FontConfigs.setFontSources(FontSourceBase[]) yöntemi ile değiştirilmiştir.
+{{< app/cells/assistant language="java" >}}

@@ -26,3 +26,4 @@ Formula Local: =UserFormulaLocal_SUM(A1:A2)
 Formula Local: =UserFormulaLocal_AVERAGE(B1:B2,B5)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

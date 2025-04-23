@@ -7,7 +7,7 @@ url: /fr/java/track-document-conversion-progress/
 
 ## **Scénarios d'utilisation possibles**
 
-Parfois, la conversion de grands fichiers Excel peut prendre du temps. Pendant ce temps, vous voudrez peut-être afficher la progression de la conversion du document plutôt qu'un simple écran de chargement pour améliorer l'utilisabilité de votre application. Aspose.Cells prend en charge le suivi du processus de conversion de document en fournissant l'interface [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback). L'interface [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) fournit les méthodes [**PageStartSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs)) et [**PageEndSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs)) que vous pouvez implémenter dans votre classe personnalisée. Vous pouvez également contrôler quelles pages sont rendues comme le montre la classe personnalisée *TestPageSavingCallback*.
+Parfois, la conversion de grands fichiers Excel peut prendre du temps. Pendant ce temps, vous voudrez peut-être afficher la progression de la conversion du document plutôt qu'un simple écran de chargement pour améliorer l'utilisabilité de votre application. Aspose.Cells prend en charge le suivi du processus de conversion de document en fournissant l'interface [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback). L'interface [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) fournit les méthodes [**PageStartSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving-com.aspose.cells.PageStartSavingArgs-) et [**PageEndSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving-com.aspose.cells.PageEndSavingArgs-) que vous pouvez implémenter dans votre classe personnalisée. Vous pouvez également contrôler quelles pages sont rendues comme le montre la classe personnalisée *TestPageSavingCallback*.
 
 ## **Suivre la progression de la conversion des documents**
 
@@ -45,3 +45,4 @@ Start saving page index 8 of pages 11</br>
 End saving page index 8 of pages 11
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -32,3 +32,4 @@ Bir sınıf oluşturun ve içine *CalculateCustomFunction* fonksiyonunu ekleyin
 Şimdi yukarıdaki işlevi programınıza ekleyin.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReturningRangeOfValues-ReturningRangeOfValues.java" >}}
+{{< app/cells/assistant language="java" >}}

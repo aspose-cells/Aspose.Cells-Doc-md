@@ -182,3 +182,4 @@ url: /ar/net/create-a-pie-chart/
 **تم إنشاء رسم بياني دائري برقم Aspose.Cells for .NET** 
 
 ![todo:image_alt_text](create-a-pie-chart_2.png)
+{{< app/cells/assistant language="csharp" >}}

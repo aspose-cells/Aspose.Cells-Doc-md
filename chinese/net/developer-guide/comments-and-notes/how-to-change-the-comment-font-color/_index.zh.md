@@ -16,3 +16,4 @@ Aspose.Cells提供了一个[**Shape.TextBody**](https://reference.aspose.com/cel
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeCommentFontColor-1.cs" >}}
 
 上述代码生成的[输出文件](102662195.xlsx)附在此供您参考。
+{{< app/cells/assistant language="csharp" >}}

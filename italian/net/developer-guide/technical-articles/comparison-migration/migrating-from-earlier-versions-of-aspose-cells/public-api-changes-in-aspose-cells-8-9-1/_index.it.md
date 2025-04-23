@@ -286,3 +286,4 @@ Si consiglia di utilizzare il metodo FontConfigs.SetFontFolder(string, bool) con
 Utilizzare il metodo FontConfigs.SetFontFolders(string[], bool) con ricorsività della cartella impostata su false al posto.
 ### **Proprietà Obsoleta CellsHelper.FontFiles**
 Utilizzare invece il metodo FontConfigs.SetFontSources(FontSourceBase[]).
+{{< app/cells/assistant language="csharp" >}}

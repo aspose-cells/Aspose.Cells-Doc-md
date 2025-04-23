@@ -33,3 +33,4 @@ Le code ci-dessous définit une image d'arrière-plan à l'aide d'une image prov
 
 - [Travailler avec l'arrière-plan dans les fichiers ODS](/cells/fr/net/working-with-background-in-ods-files/)
 
+{{< app/cells/assistant language="csharp" >}}

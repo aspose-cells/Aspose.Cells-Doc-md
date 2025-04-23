@@ -18,3 +18,4 @@ url: /ja/net/working-with-worksheets-in-npoi-and-aspose-cells/
 - [ワークシート内のセルの分割](/cells/ja/net/split-cells-in-worksheet/)
 - [フリーズパネで作業する](/cells/ja/net/working-with-freeze-panes/)
 - [ヘッダーとフッターで作業する](/cells/ja/net/working-with-headers-and-footers/)
+{{< app/cells/assistant language="csharp" >}}

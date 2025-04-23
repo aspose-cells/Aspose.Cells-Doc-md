@@ -130,6 +130,30 @@ Aspose.Cells for Node.js via Java通过Node.js呈现了Aspose.Cells for Java的�
 
 {{% alert color="primary" %}}
 
+**![Aspose.Cells for Node.js via C++ 产品标志](home_9.png)**
+
+**欢迎使用Aspose.Cells for Node.js via C++**
+
+Aspose.Cells for Node.js via C++ 利用Node.js展示了Aspose.Cells for C++的所有有用功能。Aspose.Cells for Node.js via C++是一个类库，能帮助你执行广泛的电子表格处理任务。Aspose.Cells for Node.js via C++是一个可扩展且功能丰富的API，提供电子表格格式转换、工作表的细粒度样式设定、图表管理与渲染，以及我们可靠的公式计算引擎。Aspose.Cells for Node.js via C++支持XLS、XLSX、ODS、SpreadsheetML、CSV、制表符分隔、HTML/MHTML、PDF、XPS等多种格式。有了Aspose.Cells for Node.js via C++，你可以生成、修改、转换和渲染Excel文档。
+
+{{% /alert %}}
+
+## **Aspose.Cells for Node.js via C++ 资源**
+
+以下是一些您可能需要完成任务的有用资源的链接。
+
+- [Aspose.Cells for C++ 在线文档](/cells/zh/cpp/)（Aspose.Cells for Node.js via C++ 移植自 Aspose.Cells for C++，所以可以使用相同的文档）
+- [Aspose.Cells for Node.js via C++ 特性](/cells/zh/nodejs-cpp/features/)
+- [Aspose.Cells for Node.js via C++ 更新说明](https://releases.aspose.com/cells/nodejs-cpp/release-notes/)
+- [Aspose.Cells for Node.js via C++ 产品页面](https://products.aspose.com/cells/nodejs-cpp/)
+- [下载 Aspose.Cells for Node.js via C++](https://downloads.aspose.com/cells/nodejs-cpp/)
+- [Aspose.Cells for Node.js via C++ API参考指南](https://reference.aspose.com/cells/nodejs-cpp/)
+- [Aspose.Cells for Node.js via C++ 免费支持论坛](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells for Node.js via C++ 付费支持客服台](https://helpdesk.aspose.com/)
+
+
+{{% alert color="primary" %}}
+
 **![Aspose.Cells for PHP via Java 产品标志](home_6.png)**
 
 **欢迎使用 Aspose.Cells for PHP via Java**

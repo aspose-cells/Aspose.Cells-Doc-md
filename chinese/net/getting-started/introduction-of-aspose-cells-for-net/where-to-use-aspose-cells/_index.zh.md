@@ -34,3 +34,4 @@ Aspose.Cells的使用取决于开发人员，但有一些常见的场景可以�
 我们已经讨论了在基于 Web 的环境中使用 Aspose.Cells 的一些常见场景。但 Aspose.Cells 在基于桌面的应用程序中同样有用。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

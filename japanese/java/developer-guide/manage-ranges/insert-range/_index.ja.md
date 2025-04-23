@@ -13,7 +13,7 @@ Excelでは、範囲を選択し、その後、他のデータを右または下
 
 ## **Aspose.Cellsを使用した範囲の挿入**
 
-Aspose.Cellsでは、[Cells.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange(com.aspose.cells.CellArea,%20int))メソッドを提供しています。
+Aspose.Cellsは[Cells.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange-com.aspose.cells.CellArea-int-)メソッドを提供し、範囲を挿入します。
 
 ## **範囲の挿入とセルの右シフト**
 
@@ -27,3 +27,4 @@ Aspose.Cellsを使用して範囲を挿入し、セルを下にシフトする�
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Insert-Range-Down.java" >}}
 
+{{< app/cells/assistant language="java" >}}

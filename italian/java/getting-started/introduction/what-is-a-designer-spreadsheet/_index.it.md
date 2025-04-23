@@ -36,3 +36,4 @@ Dopo aver creato un foglio di calcolo del designer, utilizza Aspose.Cells per le
 Inoltre, Aspose.Cells ti consente di aggiungere [smart markers](/cells/it/java/smart-markers/) al foglio di lavoro del designer. I marcatori intelligenti vengono elaborati durante l'esecuzione utilizzando il metodo Process della classe [**WorkbookDesigner**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner). Questo può aiutarti a scrivere meno codice e ottenere comunque ottimi risultati.
 
 [Scopri di più sui marcatore intelligenti](/cells/it/java/smart-markers/).
+{{< app/cells/assistant language="java" >}}

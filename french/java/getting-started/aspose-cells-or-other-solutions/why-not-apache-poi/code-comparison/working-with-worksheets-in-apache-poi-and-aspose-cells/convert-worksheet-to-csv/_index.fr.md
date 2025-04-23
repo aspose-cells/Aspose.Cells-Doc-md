@@ -699,3 +699,4 @@ Télécharger **Convertir feuille de travail en CSV** à partir de l'un des site
 Pour plus de détails, visitez [Enregistrement des fichiers](/cells/fr/java/saving-excel-files-to-csv-pdf-and-other-formats/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

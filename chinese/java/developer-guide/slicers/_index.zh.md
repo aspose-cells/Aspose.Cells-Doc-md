@@ -4,3 +4,4 @@ type: docs
 weight: 180
 url: /zh/java/slicers/
 ---
+{{< app/cells/assistant language="java" >}}

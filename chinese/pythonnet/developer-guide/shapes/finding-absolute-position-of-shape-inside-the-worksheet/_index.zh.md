@@ -3,13 +3,13 @@ title: 查找工作表内形状的绝对位置
 type: docs
 weight: 8000
 url: /zh/python-net/finding-absolute-position-of-shape-inside-the-worksheet/
-description: 本文介绍了如何通过Aspose.Cells for Python via .NET API在工作表内查找形状的绝对位置。
-keywords: Python Excel库，Python如何在工作表内查找形状的绝对位置。
+description: 本文展示了如何通过Aspose.Cells for Python via .NET API找到工作表中形状的绝对位置。
+keywords: Python Excel库，Python如何查找工作表中形状的绝对位置。
 ---
 
 {{% alert color="primary" %}}
 
-有时，您需要知道工作表中形状的绝对位置。Aspose.Cells for Python via .NET提供了这个目的的[**Shape.left_to_corner**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/left_to_corner)和[**Shape.top_to_corner**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/top_to_corner)属性。这些属性以像素为单位返回形状在工作表中的绝对位置。
+有时，您需要知道工作表中形状的绝对位置。Aspose.Cells for Python via .NET提供了[**Shape.left_to_corner**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/left_to_corner)和[**Shape.top_to_corner**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/top_to_corner)属性用于此目的。这些属性以像素为单位返回形状在工作表中的绝对位置。
 
 {{% /alert %}}
 

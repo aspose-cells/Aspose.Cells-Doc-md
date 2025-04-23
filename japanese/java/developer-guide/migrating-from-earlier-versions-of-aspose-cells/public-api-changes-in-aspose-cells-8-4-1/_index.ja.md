@@ -275,3 +275,4 @@ renderer.toImage(0, "output.svg");
 ## **非推奨API**
 ### **廃止されたWorkbook.validateFormulaメソッド**
 Cell.Formulaプロパティを使用して、式を検証します。
+{{< app/cells/assistant language="java" >}}

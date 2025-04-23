@@ -24,3 +24,4 @@ Si prega di vedere il file generato seguente con l'intervallo da A1:B5 spostato 
 ![todo:image_alt_text](move-range-of-cells-in-a-worksheet_2.png)
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Move-Range.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -24,3 +24,4 @@ Aktiendiagramme sind eine spezielle Art von Diagramm, das verwendet wird, um Än
 Die folgende Datensammlung zeigt die täglichen Handelsinformationen für eine Aktie. Wir werden diese Daten verwenden, um jedes der 4 verfügbaren Stock-Diagramme in Aspose.Cells zu erstellen. 
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="java" >}}

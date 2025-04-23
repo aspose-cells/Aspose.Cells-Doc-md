@@ -18,3 +18,4 @@ Den här avsnittet har följande ämnen:
 - [Dela Cell i Arbetsblad](/cells/sv/net/split-cells-in-worksheet/)
 - [Arbeta med frysbara rutor](/cells/sv/net/working-with-freeze-panes/)
 - [Arbeta med sidhuvuden och sidfötter](/cells/sv/net/working-with-headers-and-footers/)
+{{< app/cells/assistant language="csharp" >}}

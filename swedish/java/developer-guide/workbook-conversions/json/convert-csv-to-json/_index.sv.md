@@ -59,3 +59,4 @@ Följande kodprov demonstrerar användningen av [**ExportRangeToJsonOptions**](
 ]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

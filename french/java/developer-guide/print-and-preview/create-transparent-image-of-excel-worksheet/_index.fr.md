@@ -26,3 +26,4 @@ Alors que dans l'image de feuille de calcul suivante, la transparence a été ap
 Vous pouvez utiliser le code d'exemple suivant pour générer une image transparente de votre feuille de calcul Excel.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CreateTransparentImage-1.java" >}}
+{{< app/cells/assistant language="java" >}}

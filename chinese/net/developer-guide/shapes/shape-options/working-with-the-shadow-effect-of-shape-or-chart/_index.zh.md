@@ -21,3 +21,4 @@ Aspose.Cells提供了[Shape.ShadowEffect](https://reference.aspose.com/cells/net
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ShadowEffectOfShape-ShadowEffectOfShape.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

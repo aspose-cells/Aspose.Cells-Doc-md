@@ -132,6 +132,22 @@ Aspose.Cells تدعم تحويل جدول العمل إلى ملف TIFF.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToPptx-1.cs" >}}
 
+## **تحويل ملف عمل Excel إلى EPUB**
+
+توفر واجهة برمجة تطبيقات Aspose.Cells الدعم لتحويل جداول البيانات إلى صيغة EPUB. لتصدير دفتر العمل إلى EPUB، مرر [**SaveFormat.Epub**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) كوسيط ثاني لطريقة [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3). يمكنك أيضًا استخدام فئة [**EBookSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/ebooksaveoptions) لتحديد إعدادات إضافية لتصدير ورقة العمل إلى Epub.
+
+يُوضح مثال الكود التالي تصدير ورقة العمل النشطة إلى EPUB باستخدام عضو تعداد [**SaveFormat.Epub**](https://reference.aspose.com/cells/net/aspose.cells/saveformat).
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToEPUB-1.cs" >}}
+
+## **تحويل ملف عمل Excel إلى AZW3**
+
+توفر واجهة برمجة تطبيقات Aspose.Cells الدعم لتحويل جداول البيانات إلى صيغة AZW3. لتصدير دفتر العمل إلى AZW3، مرر [**SaveFormat.Azw3**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) كوسيط ثاني لطريقة [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3). يمكنك أيضًا استخدام فئة [**EBookSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/ebooksaveoptions) لتحديد إعدادات إضافية لتصدير ورقة العمل إلى AZW3.
+
+يُوضح مثال الكود التالي تصدير ورقة العمل النشطة إلى AZW3 باستخدام عضو تعداد [**SaveFormat.Azw3**](https://reference.aspose.com/cells/net/aspose.cells/saveformat).
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToAZW3-1.cs" >}}
+
 ## **مواضيع متقدمة**
 - [تحويل مراجعة XLSB إلى XLSM](/cells/ar/net/convert-revision-of-xlsb-to-xlsm/)
 - [HTML](/cells/ar/net/convert-excel-to-html/)
@@ -142,3 +158,4 @@ Aspose.Cells تدعم تحويل جدول العمل إلى ملف TIFF.
 - [تحويل Excel إلى CSV، TSV و Txt](/cells/ar/net/convert-excel-to-csv-tsv-and-txt/)
 - [تتبع تقدم تحويل الوثائق](/cells/ar/net/track-document-conversion-progress/)
 - [تحويل CSV، TSV و TXT إلى Excel](/cells/ar/net/convert-csv-tsv-and-txt-to-excel/)
+{{< app/cells/assistant language="csharp" >}}

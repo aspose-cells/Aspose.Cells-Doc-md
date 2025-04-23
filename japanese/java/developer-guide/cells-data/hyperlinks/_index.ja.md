@@ -25,7 +25,7 @@ Aspose.Cellsを使用すると、APIを使用するか[デザイナースプレ�
 
 Aspose.Cellsは、Microsoft Excelファイルを表すクラスである[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)を提供します。[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスには、Excelファイルの各ワークシートにアクセスできる[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)が含まれています。ワークシートは[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスによって表されます。[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスには、Excelファイルにさまざまなハイパーリンクを追加するための異なるメソッドが用意されています。
 ## **URLへのリンクの追加**
-[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスには[Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection)コレクションが含まれています。[Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection)コレクションの各アイテムは[Hyperlink](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink)を表しています。[Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Hyperlinks)コレクションの[Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))メソッドを呼び出すことで、URLへのハイパーリンクを追加します。[Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))メソッドは以下のパラメーターを取ります:
+[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスは、[Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection)コレクションを含みます。各アイテムは、[Hyperlink](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink)を表します。URLにハイパーリンクを追加するには、[Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Hyperlinks)コレクションの[Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-)メソッドを呼び出します。[Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-)メソッドのパラメータは次の通りです。
 
 - セル名、ハイパーリンクが追加されるセルの名前。
 - 行数、このハイパーリンク範囲の行数。
@@ -44,7 +44,7 @@ Aspose.Cellsは、Microsoft Excelファイルを表すクラスである[Workboo
 
 
 ## **同じファイル内のセルへのリンクの追加**
-同じExcelファイル内のセルにハイパーリンクを追加することが可能であり、[Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection)コレクションの[Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))メソッドを呼び出します。[Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))メソッドは内部および外部のハイパーリンクの両方に対して機能します。オーバーロードされたメソッドのバージョンの1つは以下のパラメーターを取ります:
+同じExcelファイル内のセルにハイパーリンクを追加するには、[Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection)コレクションの[Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-)メソッドを呼び出します。[Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-)メソッドは、内部リンクと外部リンクの両方に対応しています。オーバーロードされたメソッドの一つのバージョンは、次のパラメータを取ります：
 
 - セル名、ハイパーリンクが追加されるセルの名前。
 - 行数、このハイパーリンク範囲の行数。
@@ -58,7 +58,7 @@ Aspose.Cellsは、Microsoft Excelファイルを表すクラスである[Workboo
 
 
 ## **外部ファイルへのリンクの追加**
-外部のExcelファイルにハイパーリンクを追加することが可能であり、[Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection)コレクションの[Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))メソッドを呼び出します。[Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))メソッドは以下のパラメーターを取ります:
+外部Excelファイルへのハイパーリンクを追加するには、[Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection)コレクションの[Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-)メソッドを呼び出します。[Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-)メソッドは、次のパラメータを取ります：
 
 - セル名、ハイパーリンクが追加されるセルの名前。
 - 行数、このハイパーリンク範囲の行数。
@@ -76,3 +76,4 @@ Aspose.Cellsは、Microsoft Excelファイルを表すクラスである[Workboo
 - [範囲内のハイパーリンクを取得](/cells/ja/java/get-hyperlinks-in-range/)
 
 
+{{< app/cells/assistant language="java" >}}

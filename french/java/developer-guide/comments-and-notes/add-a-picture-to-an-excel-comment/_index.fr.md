@@ -42,3 +42,4 @@ Après avoir exécuté le code, A1 a un commentaire avec une image en arrière-p
 ## Code d'exemple
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddPicturetoExcelComment-AddPicturetoExcelComment.java" >}}
+{{< app/cells/assistant language="java" >}}

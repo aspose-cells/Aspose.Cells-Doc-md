@@ -48,3 +48,4 @@ Cette fonction n'existe donc pas dans la version Aspose.Cells .NET5 et .Netstand
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoStream-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

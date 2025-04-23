@@ -21,3 +21,4 @@ El siguiente código de muestra genera el [archivo de Excel de salida](XAxis.xls
 
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "X-axis-vs-category-axis.java" >}}
+{{< app/cells/assistant language="java" >}}

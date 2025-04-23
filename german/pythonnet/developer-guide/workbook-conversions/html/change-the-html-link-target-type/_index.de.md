@@ -17,7 +17,7 @@ Aspose.Cells für Python via NET ermöglicht es Ihnen, den HTML-Link-Zieltyp zu 
 
 {{< /highlight >}}
 
-Wie Sie sehen können, ist das target-Attribut im obigen HTML-Link **_self**. Sie können dieses target-Attribut mit der [**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/)-Eigenschaft steuern. Diese Eigenschaft nimmt das [**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype)-Enum, das folgende Werte hat.
+Wie Sie sehen können, ist das target-Attribut im obigen HTML-Link **_self**. Sie können dieses target-Attribut mit der [**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/)-Eigenschaft steuern. Diese Eigenschaft nimmt das [**HtmlLinkTargetType**](https://reference.aspose.com/cells/python-net/aspose.cells/htmllinktargettype)-Enum, das folgende Werte hat.
 
 - HtmlLinkTargetType.BLANK
 - HtmlLinkTargetType.PARENT

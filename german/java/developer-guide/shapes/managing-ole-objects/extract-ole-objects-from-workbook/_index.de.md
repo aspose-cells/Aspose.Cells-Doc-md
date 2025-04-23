@@ -31,3 +31,4 @@ Der folgende Code führt die eigentliche Arbeit des Suchens und Extrahierens von
 Dieser Artikel zeigt, wie Sie OLE-Objekte aus einer Arbeitsmappe extrahieren können, indem Sie Aspose.Cells verwenden. Hoffentlich geben sie Ihnen einige Einblicke, die es Ihnen ermöglichen, diese Optionen in Ihren eigenen Szenarien zu verwenden.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

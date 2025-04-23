@@ -59,7 +59,7 @@ L'exemple de code suivant explique comment enregistrer un classeur entier au for
 
 Lorsque le code est exécuté, il convertit les données de toutes les feuilles du classeur au format TXT
 
-Vous pouvez modifier le même exemple pour enregistrer votre fichier au format CSV. Par défaut, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) est une virgule, donc ne spécifiez pas de séparateur lors de l'enregistrement au format CSV. Veuillez noter : Si vous utilisez la version d'évaluation et même si la propriété [**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/) est définie sur true, le programme n'exportera toujours qu'une seule feuille de calcul.
+Vous pouvez modifier le même exemple pour enregistrer votre fichier au format CSV. Par défaut, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) est la virgule, donc ne spécifiez pas de séparateur si vous enregistrez en format CSV. Veuillez noter : si vous utilisez la version d’évaluation et même si la propriété [**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/) est définie à true, le programme n’exportera qu’une seule feuille de calcul.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 
@@ -98,3 +98,4 @@ Aspose.Cells prend en charge l'enregistrement de fichiers en JSON ou XML.
 - [Ajuster le niveau de compression du classeur](/cells/fr/net/adjust-workbook-compression-level/)
 - [Enregistrer le classeur au format strict Open XML Spreadsheet](/cells/fr/net/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [Enregistrer le fichier dans l'objet Response](/cells/fr/net/saving-file-to-response-object/)
+{{< app/cells/assistant language="csharp" >}}

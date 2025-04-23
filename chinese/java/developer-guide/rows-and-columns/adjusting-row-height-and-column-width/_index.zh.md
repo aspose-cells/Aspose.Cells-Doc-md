@@ -16,7 +16,7 @@ Aspose.Cells提供了一个代表Microsoft Excel文件的类[Workbook](https://r
 
 [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) 集合提供了几种方法来管理工作表中的行或列。以下是其中一些方法的更详细讨论。
 ### **设置行高**
-可以通过调用[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) 集合的[setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\)) 方法来设置单行的高度。[setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\)) 方法接受以下参数:
+可以通过调用 [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) 集合的 [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight-int-double-) 方法来设置单个行的高度。 [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight-int-double-) 方法接受以下参数：
 
 - **行索引**，要更改高度的行的索引。
 - **行高**，要应用于该行的行高。
@@ -30,7 +30,7 @@ Aspose.Cells提供了一个代表Microsoft Excel文件的类[Workbook](https://r
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingHeightAllRows-SettingHeightAllRows.java" >}}
 ## **使用列**
 ### **设置列的宽度**
-通过调用[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)集合的[setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\))方法来设置列的宽度。[setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\))方法接受以下参数：
+调用 [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) 集合的 [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth-int-double-) 方法可以设置列的宽度。该方法接受以下参数：
 
 - **列索引**，要更改其宽度的列的索引。
 - **列宽度**，所需的列宽度。
@@ -44,3 +44,4 @@ Aspose.Cells提供了一个代表Microsoft Excel文件的类[Workbook](https://r
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingWidthOfAllColumns-SettingWidthOfAllColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

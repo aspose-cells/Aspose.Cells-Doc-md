@@ -27,3 +27,4 @@ Yukarıdaki tablodan bazı programlama dillerinde Aspose.Cells for Java kullanma
 |Aspose.Cells for Java via Java Köprü veya İçe Aktar::Java |<p>**Artıları**:</p><p>- Java'nın bulunduğu herhangi bir platformda mevcuttur.</p><p>- Sabit metodları, parametreli kurucuları, aşırı yüklenmiş metotları ve numaralanmış değerleri çağırmak kolaydır.</p>|
 | |<p>**Eksiler**: </p><p>- Daha az sık yayınlanır ve Aspose.Cells for .NET'den daha az özelliğe sahiptir.</p>|
 Lütfen dikkat Aspose.Cells for Java Java uygulamaları için tasarlanmış olup, diğer programlama dillerinde kullanımı bazı teknik kısıtlamalara veya çalışma yöntemlerine tabidir. 
+{{< app/cells/assistant language="java" >}}

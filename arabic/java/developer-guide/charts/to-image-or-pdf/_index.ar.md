@@ -14,21 +14,21 @@ url: /ar/java/chart-rendering/
 
 ## **عرض الرسوم البيانية**
 
-تدعم واجهات برمجة التطبيقات الخاصة بـ Aspose.Cells تحويل الرسوم البيانية في Excel إلى صور وتنسيقات PDF دون الحاجة إلى أدوات أو تطبيقات إضافية. من أجل توفير دعم الرسم، فقد قدمت فئة [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) طرق [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) و [**toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) بمجموعة متنوعة من الأوزان لتناسب أفضل متطلبات التطبيق.
+تدعم واجهات برمجة التطبيقات الخاصة بـ Aspose.Cells تحويل الرسوم البيانية في Excel إلى صور وتنسيقات PDF دون الحاجة إلى أدوات أو تطبيقات إضافية. من أجل توفير دعم الرسم، فقد قدمت فئة [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) طرق [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-) و [**toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf-java.io.OutputStream-) بمجموعة متنوعة من الأوزان لتناسب أفضل متطلبات التطبيق.
 
 ### **عرض الرسوم البيانية كصور**
 
-لطريقة [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) مجموعة من الأوزان لدعم التقديم البسيط والمتقدم. إذا كان متطلبات التطبيق هي تقديم الرسم البياني في أبعاده الافتراضية، فإننا نقترح عليك استخدام الطريقة [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) كما يلي.
+لطريقة [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-) مجموعة من الأوزان لدعم التقديم البسيط والمتقدم. إذا كان متطلبات التطبيق هي تقديم الرسم البياني في أبعاده الافتراضية، فإننا نقترح عليك استخدام الطريقة [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-) كما يلي.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-RenderChartsToImages-RenderChartsToImages.java" >}}
 
-من الممكن أيضًا تقديم الرسوم البيانية إلى صور بإعدادات متقدمة. فقد قدمت واجهات برمجة التطبيقات الخاصة بـ Aspose.Cells إصدارًا من الطريقة [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) زائد الأحمال التي يمكنها قبول مثيل [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) بالإضافة إلى السماح بتحديد معلمات مثل الدقة وتلميحات التقديم وتنسيق الصورة وما إلى ذلك.
+من الممكن أيضًا تقديم الرسوم البيانية إلى صور بإعدادات متقدمة. فقد قدمت واجهات برمجة التطبيقات الخاصة بـ Aspose.Cells إصدارًا من الطريقة [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-) زائد الأحمال التي يمكنها قبول مثيل [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) بالإضافة إلى السماح بتحديد معلمات مثل الدقة وتلميحات التقديم وتنسيق الصورة وما إلى ذلك.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChartRendering-ChartRendering.java" >}}
 
 ### **عرض الرسم البياني إلى PDF**
 
-من أجل تقديم الرسم البياني إلى تنسيق PDF، فقد قدمت واجهات برمجة التطبيقات الخاصة بـ Aspose.Cells الطريقة [**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) مع القدرة على تخزين PDF الناتج على مسار القرص أو مثيل من OutputStream.
+من أجل تقديم الرسم البياني إلى تنسيق PDF، فقد قدمت واجهات برمجة التطبيقات الخاصة بـ Aspose.Cells الطريقة [**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf-java.io.OutputStream-) مع القدرة على تخزين PDF الناتج على مسار القرص أو مثيل من OutputStream.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-chartsRenderChartsToPdf-RenderChartsToPdf.java" >}}
 
@@ -131,3 +131,4 @@ url: /ar/java/chart-rendering/
 - [تحويل مخطط إلى صورة بتنسيق SVG](/cells/ar/java/converting-chart-to-image-in-svg-format/)
 - [إنشاء رسم بياني PDF بحجم الصفحة المطلوب](/cells/ar/java/create-chart-pdf-with-desired-page-size/)
 - [تصدير مخطط إلى SVG باستخدام سمة viewBox](/cells/ar/java/export-chart-to-svg-with-viewbox-attribute/)
+{{< app/cells/assistant language="java" >}}

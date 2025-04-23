@@ -118,3 +118,4 @@ for (int i = 0; i< dependents.length; i++)
 Para más detalles, visita [Rastreo de Precedentes y Dependientes](/java/rastreo-de-precedentes-y-dependientes).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

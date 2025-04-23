@@ -112,3 +112,4 @@ description: سيقوم هذا المقال بشرح كيفية استخدام C
 - [إظهار الصيغ بدلاً من القيم في ورقة العمل](/cells/ar/net/show-formulas-instead-of-values-in-a-worksheet/)
 - [استخدام خيارات فحص الأخطاء](/cells/ar/net/use-error-checking-options/)
 
+{{< app/cells/assistant language="csharp" >}}

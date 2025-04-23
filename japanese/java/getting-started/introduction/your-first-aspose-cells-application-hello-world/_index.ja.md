@@ -41,3 +41,4 @@ Aspose.Cells APIを使用してHello Worldアプリケーションを作成す�
 以下の例では、"book1.xls"という既存のMicrosoft Excelテンプレートファイルを開き、最初のワークシートのセルA1に"Hello World!"という単語を書き込んで、ワークブックを新しいファイルとして保存します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-introduction-OpeningExistingFile-1.java" >}}
+{{< app/cells/assistant language="java" >}}

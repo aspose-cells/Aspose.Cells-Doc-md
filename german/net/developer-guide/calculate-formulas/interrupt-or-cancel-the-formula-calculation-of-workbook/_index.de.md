@@ -30,3 +30,4 @@ Der folgende Beispielcode implementiert die Methode [**BeforeCalculate()**](http
 0----7----1----B8
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

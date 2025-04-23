@@ -11,3 +11,4 @@ url: /ru/net/auto-populate-smart-marker-data-to-other-worksheets-if-data-is-too-
 В следующем образце кода есть источник данных, который содержит 21 запись. Мы хотим показать только 15 записей в одном рабочем листе, затем остальные записи автоматически перейдут на второй рабочий лист. Обратите внимание, что второй рабочий лист также должен иметь тот же умный маркер и вы должны вызвать метод [WorkbookDesigner.Process(sheetIndex, isPreserved)](https://reference.aspose.com/cells/net/aspose.cells.workbookdesigner/process/methods/2) для обеих листов. Пожалуйста, ознакомьтесь с [выходным файлом Excel](60489775.xlsx), который генерируется кодом для справки.
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-AutoPopulateSmartMarkerDataToOtherWorksheets.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

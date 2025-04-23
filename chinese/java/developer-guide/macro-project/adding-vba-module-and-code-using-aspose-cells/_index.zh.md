@@ -7,7 +7,7 @@ url: /zh/java/adding-vba-module-and-code-using-aspose-cells/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells 允许您使用 Aspose.Cells 添加新的 VBA 模块和宏代码。请使用 [**Workbook.getVbaProject().getModules().add(**)](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#add(com.aspose.cells.Worksheet)) 方法向工作簿中添加新的 VBA 模块。
+Aspose.Cells 允许你通过 Aspose.Cells 添加新的 VBA 模块和宏代码。请使用 [**Workbook.getVbaProject().getModules().add(**)](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#add-com.aspose.cells.Worksheet-) 方法在工作簿中添加新 VBA 模块。
 
 {{% /alert %}}
 
@@ -30,3 +30,4 @@ End Sub
 下面是一个生成带有 VBA 模块和宏代码输出 XLSM 文件的示例代码。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddVBAModuleAndCode-AddVBAModuleAndCode.java" >}}
+{{< app/cells/assistant language="java" >}}

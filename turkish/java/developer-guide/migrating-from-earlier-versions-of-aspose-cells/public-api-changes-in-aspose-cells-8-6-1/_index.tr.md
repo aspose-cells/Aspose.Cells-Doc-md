@@ -167,3 +167,4 @@ V8.6.1 sürümüyle birlikte, Aspose.Cells for Java API, Cell.getFormatCondition
 ## **Eskimiş API'lar**
 ### **Eski Workbook.checkWriteProtectedPassword Metodu**
 V8.6.1 sürümüyle birlikte, Workbook.checkWriteProtectedPassword metodu iptal edilmiştir. İt is advised to use the WorkbookSettings.WriteProtection.validatePassword method that can accept a String value as parameter and returns Boolean if password matches the preset password of the spreadsheet.
+{{< app/cells/assistant language="java" >}}

@@ -38,3 +38,4 @@ Voici les liens vers certaines ressources utiles dont vous pourriez avoir besoin
 - [Guide de référence de l'API Aspose.Cells for Java](https://reference.aspose.com/cells/java)
 - [Forum de support gratuit Aspose.Cells for Java](https://forum.aspose.com/c/cells/9)
 - [Service d'aide payant Aspose.Cells for Java](https://helpdesk.aspose.com/)
+{{< app/cells/assistant language="java" >}}

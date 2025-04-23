@@ -16,3 +16,4 @@ Parfois, vous devez trouver des cellules avec un style particulier appliqué. Vo
 Dans cet exemple, le code trouve toutes les cellules ayant le même style que celle de la cellule A1. Après l'exécution du code, toutes les cellules ayant le même style que A1 contiennent le texte "Trouvé".
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindCellsWithSpecificStyle-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

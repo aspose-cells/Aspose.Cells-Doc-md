@@ -30,3 +30,4 @@ Absolute Position of this Shape is (320, 180)
 {{< /highlight >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FindAbsolutePositionOfShape-FindAbsolutePositionOfShape.java" >}}
+{{< app/cells/assistant language="java" >}}

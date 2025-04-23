@@ -27,3 +27,4 @@ Aspose.Cells可用于将Excel工作簿保存为HTML格式。导出的HTML工作�
 请参阅以下文档文章，了解如何将您的工作簿/电子表格转换/保存为HTML格式。
 
 - [将Excel文件转换为HTML](/cells/zh/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktohtml)
+{{< app/cells/assistant language="csharp" >}}

@@ -7,7 +7,7 @@ url: /tr/java/adding-vba-module-and-code-using-aspose-cells/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells, Aspose.Cells kullanarak yeni bir VBA Modülü ve Makro Kodu eklemenizi sağlar. Yeni bir VBA Modülü eklemek için [**Workbook.getVbaProject().getModules().add(**)](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#add(com.aspose.cells.Worksheet)) yöntemini kullanabilirsiniz.
+Aspose.Cells, yeni bir VBA Modülü ve Makro Kodunu eklemenize olanak sağlar. Lütfen, [**Workbook.getVbaProject().getModules().add(**)](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#add-com.aspose.cells.Worksheet-) yöntemini kullanarak çalışma kitabına yeni VBA Modülü ekleyin.
 
 {{% /alert %}}
 
@@ -30,3 +30,4 @@ End Sub
 İşte VBA Modülü ve Makro Kodu içeren çıktı XLSM dosyasını oluşturmak için kullanılan örnek kod.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddVBAModuleAndCode-AddVBAModuleAndCode.java" >}}
+{{< app/cells/assistant language="java" >}}

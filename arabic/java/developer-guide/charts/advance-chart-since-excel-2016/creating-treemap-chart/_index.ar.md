@@ -19,3 +19,4 @@ url: /ar/java/creating-treemap-chart/
 الكود العيني التالي يقوم بتحميل [ملف Excel العيني](treemap.xlsx) ويولد [ملف Excel الناتج](out.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "create-treemap-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

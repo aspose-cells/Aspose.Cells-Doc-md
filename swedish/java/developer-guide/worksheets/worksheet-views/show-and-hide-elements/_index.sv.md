@@ -53,7 +53,7 @@ På skärmdumpen nedan kan du se att **Book1.xls** filen innehåller tre arbetsb
 
 **Inställning av VisibilityType**
 
-Du kan också gömma arbetsbladen på ett speciellt sätt. Denna funktion kan gömma arbetsbladet så att det enda sättet för dig att göra det synligt igen är genom att ge [**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY_HIDDEN) som parametervärde för [**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) metoden i koden (det ska noteras här att användarna inte kan göra objektet synligt i MS Excel direkt genom att använda dess menyalternativ). Användare kan också använda [**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) metoden för att kontrollera om ett arbetsblad är markerat som VeryHidden eller inte.
+Du kan också gömma arbetsbladen på ett speciellt sätt. Denna funktion kan gömma arbetsbladet så att det enda sättet för dig att göra det synligt igen är genom att ge [**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY-HIDDEN) som parametervärde för [**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) metoden i koden (det ska noteras här att användarna inte kan göra objektet synligt i MS Excel direkt genom att använda dess menyalternativ). Användare kan också använda [**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) metoden för att kontrollera om ett arbetsblad är markerat som VeryHidden eller inte.
 
 ## **Visa eller göm flikar**
 
@@ -224,3 +224,4 @@ Filen Book1.xls öppnas med hjälp av [**Workbook**](https://reference.aspose.co
 - [Lägga till gränser till celler för att skapa en tabell](/cells/sv/java/create-table-by-using-border-lines-for-a-range/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

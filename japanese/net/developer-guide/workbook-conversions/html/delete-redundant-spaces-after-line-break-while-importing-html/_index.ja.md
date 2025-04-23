@@ -24,3 +24,4 @@ HTMLをインポートする際に改行後の余分なスペースを削除す�
 次のサンプルコードは [**HTMLLoadOptions.DeleteRedundantSpaces**](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/deleteredundantspaces) プロパティの使用例を示しています。上記のスクリーンショットに示されているように、true または false に設定してください。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DeleteRedundantSpacesWhileImportingFromHtml-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

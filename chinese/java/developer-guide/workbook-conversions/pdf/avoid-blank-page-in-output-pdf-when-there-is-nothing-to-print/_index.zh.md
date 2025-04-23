@@ -34,3 +34,4 @@ url: /zh/java/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/
 	at com.aspose.cells.Workbook.save(Unknown Source)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

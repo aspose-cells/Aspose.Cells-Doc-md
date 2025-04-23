@@ -14,7 +14,7 @@ Aspose.Cells, geliştiricilere, satır ve sütun dizinini sağladıklarında bir
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel, satır ve sütun indislerini 1'den başlatır. Microsoft Excel'in aksine, Aspose.Cells satır ve sütun indislerini 0'dan başlatır.
+Microsoft Excel satır ve sütun indekslerini 1’den başlatır. Aspose.Cells ise satır ve sütun indekslerini 0’dan başlatır.
 
 {{% /alert %}} 
 
@@ -29,7 +29,7 @@ Aspose.Cells, geliştiricilere, hücrenin adını verdiklerinde CellsHelper.Cell
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel, satır ve sütun indislerini 1'den başlatır. Microsoft Excel'in aksine, Aspose.Cells satır ve sütun indislerini 0'dan başlatır.
+Microsoft Excel satır ve sütun indekslerini 1’den başlatır. Aspose.Cells ise satır ve sütun indekslerini 0’dan başlatır.
 
 {{% /alert %}} 
 
@@ -50,3 +50,4 @@ Bazı durumlarda çalışma zamanında sayfa adının atanması gerekebilir. Bu 
 Bu, oluşturulmuş ilk adın kısaltıldığı ad
 
 ` <> + (adj.Private _ "Özel"
+{{< app/cells/assistant language="csharp" >}}

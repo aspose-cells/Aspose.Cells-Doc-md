@@ -27,3 +27,4 @@ Este ejemplo muestra cómo:
 1. Obtener el atributo [Cell.Row](https://reference.aspose.com/cells/net/aspose.cells/cell/row/) en la celda.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-max-index-of-row-and-column.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

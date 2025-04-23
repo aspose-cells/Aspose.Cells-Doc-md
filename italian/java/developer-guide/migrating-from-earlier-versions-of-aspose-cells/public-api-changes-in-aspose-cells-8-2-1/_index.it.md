@@ -28,3 +28,4 @@ Si prega di controllare l'articolo dettagliato su [Verificare che il valore dell
 {{% /alert %}}
 ## **Aggiunta sovraccarica al metodo toPrinter(PrinterSettings printerSettings) per la classe WorkbookRender**
 Puoi utilizzare il metodo sovraccaricato per rendere il workbook alla stampante tramite PrinterSettings.
+{{< app/cells/assistant language="java" >}}

@@ -28,3 +28,4 @@ Aspose.Cellsは、数値のフォーマット/解析のためにカスタムセ�
 ### C#コードでカスタム数値の10進セパレータとグループセパレータを指定
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-CustomDecimalAndGroupSeparator-CustomDecimalAndGroupSeparator.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

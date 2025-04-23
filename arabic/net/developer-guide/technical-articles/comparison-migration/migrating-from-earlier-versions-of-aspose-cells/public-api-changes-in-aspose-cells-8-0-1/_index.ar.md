@@ -44,3 +44,4 @@ cells.MemorySetting = MemorySetting.MemoryPreference;
 يرجى التحقق من المقال المفصل حول [تحسين استخدام الذاكرة أثناء العمل مع مجموعات بيانات كبيرة](/cells/ar/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

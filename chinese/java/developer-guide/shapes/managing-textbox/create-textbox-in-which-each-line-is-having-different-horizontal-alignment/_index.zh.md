@@ -26,3 +26,4 @@ url: /zh/java/create-textbox-in-which-each-line-is-having-different-horizontal-a
 
 
 
+{{< app/cells/assistant language="java" >}}

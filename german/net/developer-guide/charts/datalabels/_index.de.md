@@ -35,3 +35,4 @@ Das folgende Code-Snippet zeigt, wie man Datenbeschriftungen verwaltet:
 - [Benutzerdefinierte Datenauswahl im Diagrammpunkt](/cells/de/net/rich-text-custom-data-label-of-chart-point/)
 - [Festlegen des Formtyps von Datenbeschriftungen des Diagramms](/cells/de/net/set-the-shape-type-of-data-labels-of-chart/)
 - [Anzeigen von Zellenbereichen als Datenbeschriftungen](/cells/de/net/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="csharp" >}}

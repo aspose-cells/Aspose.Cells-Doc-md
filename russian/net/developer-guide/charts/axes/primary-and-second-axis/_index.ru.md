@@ -16,3 +16,4 @@ url: /ru/net/primary-and-second-axis/
 ![todo:image_alt_text](excel.png)
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "primary-and-second-axis.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

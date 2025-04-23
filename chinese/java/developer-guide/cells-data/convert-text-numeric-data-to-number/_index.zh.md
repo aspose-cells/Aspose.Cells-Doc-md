@@ -42,3 +42,4 @@ Aspose.Cells for Java API提供了[**Cells.convertStringToNumericValue()**](http
 以下示例代码说明了如何在所有工作表中将所有字符串数值数据转换为实际数值。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConvertTextNumericDatatoNumber-ConvertTextNumericDatatoNumber.java" >}}
+{{< app/cells/assistant language="java" >}}

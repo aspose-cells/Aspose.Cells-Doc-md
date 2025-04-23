@@ -38,3 +38,4 @@ keywords: C# Hello World, Aspose.Cells for .NET Hello World, Первое при
 В следующем примере открывается существующий файл шаблона Microsoft Excel с именем "Sample.xlsx", вводится текст "Hello World!" в ячейку A1 первого листа и сохраняется книга.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

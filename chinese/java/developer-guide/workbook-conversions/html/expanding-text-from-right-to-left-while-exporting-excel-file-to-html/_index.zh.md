@@ -26,3 +26,4 @@ Aspose.Cells现在支持将Excel文件中从右向左扩展的文本导出为HTM
 正如您在屏幕截图中所看到的，新版本正确地将右对齐的文本向左扩展，就像Microsoft Excel一样。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-ExpandTextFromRightToLeftWhileExportingExcelFileToHTML-.java" >}}
+{{< app/cells/assistant language="java" >}}

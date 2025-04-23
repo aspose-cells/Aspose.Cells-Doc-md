@@ -20,3 +20,4 @@ Puede aplicar un tema a su libro de trabajo usando Microsoft Excel a través del
 El siguiente código de ejemplo extrae el nombre del tema aplicado al libro de trabajo de origen y luego extrae el color del tema aplicado a la celda A1 y el color del tema aplicado al borde inferior de la celda.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ExtractThemeData-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

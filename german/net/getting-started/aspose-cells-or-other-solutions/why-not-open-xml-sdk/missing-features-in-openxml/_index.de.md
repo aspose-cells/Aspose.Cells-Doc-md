@@ -38,3 +38,4 @@ Dieser Abschnitt umfasst die folgenden Themen
 - [Externe Verknüpfungen in Formeln in Aspose.Cells setzen](/cells/de/net/set-external-links-in-formulas-in-aspose-cells/)
 - [Einstellen des Formelberechnungsmodus des Arbeitsblatts in Aspose.Cells](/cells/de/net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/)
 - [Einstellen von gemeinsamen Formeln in Aspose.Cells](/cells/de/net/setting-shared-formula-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

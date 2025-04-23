@@ -18,3 +18,4 @@ Steve C. Orr是Microsoft认证解决方案开发人员（MCSD）和ASP.NET的Mic
 David McAmis是Builder AU的技术编辑。目前居住在澳大利亚悉尼，享受成为“美国代表”并追逐袋鼠和沙袋鼠的乐趣。David已撰写了许多书籍和100多篇发表在杂志和期刊上的文章。
 
 **发布的审查**：[首次试用：Aspose.Excel](https://www.zdnet.com/article/first-look-aspose-excel/)
+{{< app/cells/assistant language="csharp" >}}

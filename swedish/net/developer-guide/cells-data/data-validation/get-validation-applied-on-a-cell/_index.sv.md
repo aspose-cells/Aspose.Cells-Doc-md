@@ -24,3 +24,4 @@ Nedan följer ett kodexempel som visar hur du får validering som har tillämpat
 ## Relaterade artiklar
 
 - [Data validering](/cells/sv/net/data-validation/)
+{{< app/cells/assistant language="csharp" >}}

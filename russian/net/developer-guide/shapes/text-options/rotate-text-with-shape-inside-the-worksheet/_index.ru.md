@@ -18,3 +18,4 @@ url: /ru/net/rotate-text-with-shape-inside-the-worksheet/
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-RotateTextWithShapeInsideWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

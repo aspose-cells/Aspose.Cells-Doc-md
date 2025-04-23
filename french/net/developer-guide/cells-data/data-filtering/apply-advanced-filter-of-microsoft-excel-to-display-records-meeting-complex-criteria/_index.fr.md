@@ -44,3 +44,4 @@ Le code d'exemple suivant applique le filtre avancé sur le [Fichier Excel d'ex
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-ApplyAdvancedFilterOfMicrosoftExcel.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

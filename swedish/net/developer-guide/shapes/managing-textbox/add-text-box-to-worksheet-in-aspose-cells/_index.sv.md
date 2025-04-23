@@ -43,3 +43,4 @@ Du får en fil liknande [resultatfil](result.xlsx). I filen ser du följande:
 
 ![](52449.png)
 
+{{< app/cells/assistant language="csharp" >}}

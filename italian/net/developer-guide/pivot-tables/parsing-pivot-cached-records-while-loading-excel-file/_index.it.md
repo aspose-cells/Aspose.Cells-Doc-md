@@ -18,3 +18,4 @@ Il codice di esempio seguente spiega l'uso della proprietà [**LoadOptions.Pars
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-ParsingPivotCachedRecordsWhileLoadingExcelFile.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

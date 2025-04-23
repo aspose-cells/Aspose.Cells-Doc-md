@@ -34,3 +34,4 @@ Det är upp till utvecklarna hur de använder Aspose.Cells men det finns några 
 Vi har diskuterat några av de vanligaste användningsscenerna för Aspose.Cells i webbaserade miljöer. Men Aspose.Cells är lika användbart i skrivbordsbaserade applikationer också.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

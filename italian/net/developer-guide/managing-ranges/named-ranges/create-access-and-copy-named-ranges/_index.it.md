@@ -105,3 +105,4 @@ Aspose.Cells fornisce il metodo [**Range.Copy()**](https://reference.aspose.com/
 L'esempio seguente mostra come copiare un intervallo di celle di origine in un altro nome definito.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CopyNamedRanges-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

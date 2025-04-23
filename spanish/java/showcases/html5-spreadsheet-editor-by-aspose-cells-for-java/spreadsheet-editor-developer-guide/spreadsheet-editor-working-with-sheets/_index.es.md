@@ -173,3 +173,4 @@ Cuando el valor del selector desplegable cambia, el evento es manejado en el ser
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -7,7 +7,7 @@ url: /tr/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells, pivot alanının görünen adı ile hücre nesnesine erişmek için [PivotTable.getCellByDisplayName()](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getCellByDisplayName\(java.lang.String\)) yöntemini sağlar. Bu yöntem, pivot alanı başlığını vurgulamak veya biçimlendirmek istediğinizde kullanışlıdır. Bu makale, veri alanının görünen adını almak ve ardından bu alana biçimlendirme uygulamak nasıl açıklar.
+Aspose.Cells, kullanıcıların pivot alanı başlığını vurgulamak veya biçimlendirmek için kullanabilecekleri [PivotTable.getCellByDisplayName()](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getCellByDisplayName-java.lang.String-) metodunu sağlar. Bu, veri alanının gösterim adını kullanarak hücre nesnesini almak ve biçimlendirmek istediğinizde faydalıdır. Bu makale, gösterim adına göre hücre nesnesini almayı ve ardından biçimlendirmeyi nasıl yapacağınızı açıklar.
 
 {{% /alert %}} 
 ## **PivotTablo Alanının Görünen Adı ile Hücre Nesnesi Alın**
@@ -24,3 +24,4 @@ Aşağıdaki kod, çalışma sayfasının ilk pivot tablosuna erişir ve ardınd
 
 
 
+{{< app/cells/assistant language="java" >}}

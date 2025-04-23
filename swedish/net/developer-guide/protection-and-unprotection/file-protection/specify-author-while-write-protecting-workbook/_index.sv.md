@@ -18,3 +18,4 @@ Följande kodexempel förklarar användningen av [**Workbook.Settings.WriteProt
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Worksheets-Security-SpecifyAuthorWhileWriteProtectingWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

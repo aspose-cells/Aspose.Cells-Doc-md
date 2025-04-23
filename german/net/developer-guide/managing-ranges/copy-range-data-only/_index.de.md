@@ -24,3 +24,4 @@ Dieses Beispiel zeigt, wie Sie:
 1. Kopieren Sie die Daten des ersten Bereichs in diesen zweiten Bereich.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeDataOnly-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

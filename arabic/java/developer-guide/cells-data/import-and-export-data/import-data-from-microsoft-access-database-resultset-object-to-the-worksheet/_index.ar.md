@@ -28,8 +28,9 @@ url: /ar/java/import-data-from-microsoft-access-database-resultset-object-to-the
 
 ![todo:image_alt_text](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_1.png)
 ## **استيراد البيانات من مجموعة نتائج قاعدة بيانات Microsoft Access إلى الورقة العمل.**
-تنفذ الرمز العيني التالي استعلام SQL من قاعدة البيانات Microsoft Access وتنشئ كائن ResultSet. ثم تقوم بتوريد البيانات من كائن ResultSet إلى الورقة العمل باستخدام الطريقة [Worksheet.getCells().importResultSet()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importResultSet\(java.sql.ResultSet,%20int,%20int,%20boolean\)). المرة الأولى، تستخدم فهرس الصفوف والأعمدة ثم تستخدم اسم الخلية لتوريد البيانات إلى الورقة العمل. وأخيرًا، يتم حفظ الدفتر كملف إكسيل [ملف إكسيل الناتج](48496713.xlsx). يوضح اللقطة الشاشية تأثير الرمز العيني على ملف Excel الناتج للإشارة.
+ينفذ الكود النموذجي التالي استعلام SQL من قاعدة بيانات Microsoft Access وينشئ كائن ResultSet. ثم يستورد البيانات من كائن ResultSet إلى ورقة العمل باستخدام طريقة [Worksheet.getCells().importResultSet()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importResultSet-java.sql.ResultSet-int-int-boolean-). في المرة الأولى، يستخدم فهارس الصف والعمود ثم يستخدم اسم الخلية لاستيراد البيانات إلى ورقة العمل. أخيرًا، يحفظ دفتر العمل كملف إكسل إخراجي [Output Excel File](48496713.xlsx). تظهر الصورة الملتقطة أثر الكود النموذجي على ملف إكسل الناتج للاطلاع.
 
 ![todo:image_alt_text](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_2.png)
 ## **الكود المثالي**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ImportDataFromMicrosoftAccessDatabaseResultSetObjectToWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

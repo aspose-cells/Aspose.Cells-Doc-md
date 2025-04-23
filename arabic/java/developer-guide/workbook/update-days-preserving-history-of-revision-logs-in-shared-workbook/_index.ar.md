@@ -18,3 +18,4 @@ url: /ar/java/update-days-preserving-history-of-revision-logs-in-shared-workbook
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Worksheets-UpdateDaysPreservingHistoryOfRevisionLogsInSharedWorkbook.java" >}}
+{{< app/cells/assistant language="java" >}}

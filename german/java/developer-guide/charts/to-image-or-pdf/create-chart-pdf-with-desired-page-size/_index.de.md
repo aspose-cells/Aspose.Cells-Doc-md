@@ -12,3 +12,4 @@ Bitte sehen Sie sich den folgenden Beispielcode an, der die [Beispieldatei Exce
 
 ![todo:image_alt_text](create-chart-pdf-with-desired-page-size_1.png)
 ## **Beispielcode**
+{{< app/cells/assistant language="java" >}}

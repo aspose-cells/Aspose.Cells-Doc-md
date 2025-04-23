@@ -22,3 +22,4 @@ Aspose.Cells 提供了 [**HtmlSaveOptions.ExportHiddenWorksheet**](https://refe
 - [在将 Excel 文件保存为 HTML 时导出批注](/cells/zh/java/export-comments-while-saving-excel-file-to-html/)
 - [在保存为 HTML 时隐藏重叠的内容与 CrossHideRight](/cells/zh/java/hiding-overlaid-content-with-crosshideright-while-saving-to-html/)
 - [在Web浏览器不支持边框样式时导出相似的边框样式](/cells/zh/java/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/)
+{{< app/cells/assistant language="java" >}}

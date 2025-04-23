@@ -105,3 +105,4 @@ url: /ar/java/product-overview/
 
 **يرجى التحقق من:** 
 [Aspose.Cells منتديات - الشهادات](https://downloads.aspose.com/corporate/success-stories/aspose.cells/)
+{{< app/cells/assistant language="java" >}}

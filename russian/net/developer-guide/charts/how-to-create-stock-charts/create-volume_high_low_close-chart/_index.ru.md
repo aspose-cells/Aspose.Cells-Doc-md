@@ -19,3 +19,4 @@ url: /ru/net/create-volume-high-low-close-stock-chart/
 Приведенный ниже образец кода загружает [образец файла Excel](Volume-High-Low-Close.xlsx) и генерирует [выходной файл Excel](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-volume-high-low-close-stock-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

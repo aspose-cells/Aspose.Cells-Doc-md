@@ -37,3 +37,4 @@ url: /ar/java/missing-features-of-xlsx4j-in-aspose-cells/
   - [تعيين لون علامة تبويب الورقة في xlsx4j](/cells/ar/java/set-worksheet-tab-color-in-xlsx4j/)
 
 **ملاحظة:** ستتوفر العديد من الأمثلة قريباً.
+{{< app/cells/assistant language="java" >}}

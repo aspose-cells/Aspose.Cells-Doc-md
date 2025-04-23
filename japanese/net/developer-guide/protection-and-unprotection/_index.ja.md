@@ -34,3 +34,4 @@ Aspose.Cells for .Netでは、MS Excelのようなファイルからデータレ
 - [暗号化されたOffice Open XML - OOXMLファイルのファイル形式を検出する](/cells/ja/net/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Excelファイルの暗号化](/cells/ja/net/encrypting-excel-files/)
 - [ファイル形式を検出し、ファイルが暗号化されているかどうかを確認する方法](/cells/ja/net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="csharp" >}}

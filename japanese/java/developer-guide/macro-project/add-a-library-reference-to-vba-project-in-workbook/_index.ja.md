@@ -13,7 +13,7 @@ Microsoft Excelでは、**ツール > 参照設定**をクリックして、VBA�
 
 ![todo:image_alt_text](add-a-library-reference-to-vba-project-in-workbook_1.png)
 
-ただし、時々、コードを使用してVBAプロジェクトにライブラリの参照を追加または登録する必要があります。Aspose.Cellsの[**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String))メソッドを使用して行うことができます。
+ただし、時々、コードを使用してVBAプロジェクトにライブラリの参照を追加または登録する必要があります。Aspose.Cellsの[**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference-java.lang.String-java.lang.String-)メソッドを使用して行うことができます。
 
 {{% /alert %}}
 
@@ -22,3 +22,4 @@ Microsoft Excelでは、**ツール > 参照設定**をクリックして、VBA�
 次のサンプルコードは、ブックのVBAプロジェクトに2つのライブラリ参照を追加または登録します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddLibraryReference-AddLibraryReference.java" >}}
+{{< app/cells/assistant language="java" >}}

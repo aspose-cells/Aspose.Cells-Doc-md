@@ -9,7 +9,7 @@ url: /ru/java/applying-subtotal-and-changing-direction-of-outline-summary-rows-b
 
 Эта статья объяснит, как применить итоговую строку к данным и изменить направление итоговых строк ниже детали.
 
-Вы можете применить итоговую строку к данным, используя метод [**Worksheet.Cells.subtotal()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal(com.aspose.cells.CellArea,%20int,%20int,%20int[])). Он принимает следующие параметры.
+Вы можете применить итоговую строку к данным, используя метод [**Worksheet.Cells.subtotal()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal-com.aspose.cells.CellArea-int-int-int[]-). Он принимает следующие параметры.
 
 - **CellArea** - Диапазон, на котором применяется промежуточный итог
 - **GroupBy** - Поле для группировки по нулевому индексу
@@ -42,3 +42,4 @@ url: /ru/java/applying-subtotal-and-changing-direction-of-outline-summary-rows-b
 Вот пример кода для достижения указанного выше результата.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ApplyingSubtotal-1.java" >}}
+{{< app/cells/assistant language="java" >}}

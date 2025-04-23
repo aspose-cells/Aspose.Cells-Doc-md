@@ -248,3 +248,4 @@ Lütfen bunun yerine Shape.Line.EndArrowheadLength özelliğini kullanın.
 ## **Adı Değişen API'lar**
 ### **Adı Değişen Workbook.removeDigitallySign Metodu**
 Workbook.removeDigitallySign metodu artık Workbook.removeDigitalSignature olarak adlandırılmıştır.
+{{< app/cells/assistant language="java" >}}

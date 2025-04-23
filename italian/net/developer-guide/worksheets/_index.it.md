@@ -87,3 +87,4 @@ L'esempio seguente mostra come attivare un foglio di lavoro e rendere una cella 
 - [Utilizza la proprietà Sheet.SheetId di OpenXml utilizzando Aspose.Cells](/cells/it/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [Visualizzazioni del foglio di lavoro](/cells/it/net/worksheet-views/)
 
+{{< app/cells/assistant language="csharp" >}}

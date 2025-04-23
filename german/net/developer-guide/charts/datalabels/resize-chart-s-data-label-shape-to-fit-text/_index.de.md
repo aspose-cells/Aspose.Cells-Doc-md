@@ -22,3 +22,4 @@ Diese Option kann über die Excel-Benutzeroberfläche ausgewählt werden, indem 
 Um das Feature von Excel zu imitieren, die Formen der Datenbeschriftung an den Text anzupassen, haben die Aspose.Cells APIs die Eigenschaft vom Typ Boolean [**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext) freigelegt. Der folgende Code zeigt das einfache Anwendungsszenario der Eigenschaft [**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ResizeChartDataLabelToFit-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

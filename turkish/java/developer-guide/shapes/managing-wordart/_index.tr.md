@@ -29,3 +29,4 @@ Kod çalıştırıldıktan sonra çıktı dosyası soluk kırmızı bir WordArt 
 - [Grafiklere WordArt Filigranı Ekleme](/cells/tr/java/add-wordart-watermark-to-chart/)
 - [WordArt Filigranı Kilitleme](/cells/tr/java/locking-wordart-watermark/)
 - [Metin şeklinin metnine önceden ayarlanmış WordArt stili ayarlayın](/cells/tr/java/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="java" >}}

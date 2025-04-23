@@ -12,3 +12,4 @@ PDF逻辑结构提供了一种将有关文档内容结构的信息合并到PDF�
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-ExportDocumentStructureToPdf.java" >}}
 
+{{< app/cells/assistant language="java" >}}

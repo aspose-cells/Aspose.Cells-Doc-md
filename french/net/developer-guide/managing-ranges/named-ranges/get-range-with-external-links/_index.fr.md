@@ -23,3 +23,4 @@ Le code d'exemple ci-dessous démontre l'utilisation de la méthode [**Name.GetR
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-GetRangeWithExternalLinks-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

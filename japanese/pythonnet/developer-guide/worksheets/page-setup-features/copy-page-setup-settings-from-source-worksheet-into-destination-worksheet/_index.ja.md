@@ -3,13 +3,13 @@ title: ソースワークシートからページ設定を宛先ワークシー�
 type: docs
 weight: 80
 url: /ja/python-net/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/
-description: この記事では、Aspose.Cells for Python via .NETのサンプルコードを使用して、ソースワークシートからページ設定の設定をコピーして、宛先ワークシートにプログラムによってページ設定をコピーする方法について説明します。
-keywords: 新しいシートをワークブックに追加すると、デフォルトの「ページ設定設定」が含まれています。 ワークシート間で設定（{0}）を転送する必要がある場合があります。 このドキュメントでは、Aspose.Cells for Python via .NET APIを使用して、1つのワークシートから別のワークシートにページ設定をコピーする方法について説明します。
+description: この記事では、Aspose.Cells for Python via .NETのサンプルコードを使って、ページ設定のスケーリング設定をソースワークシートから宛先ワークシートにプログラムでコピーする方法を説明します。
+keywords: Python Excelライブラリ、ページ設定のコピー、ターゲットワークシートにページ設定をコピーする方法.
 ---
 
 ## **可能な使用シナリオ**
 
-ブックに新しいシートを追加すると、デフォルトの*ページ設定*が含まれます。時折、Aspose.Cells for Python via .NET APIを使用して、設定（[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)）をワークシート間で転送する必要があります。このドキュメントでは、一つのワークシートから別のワークシートへページ設定をコピーする方法について説明します。
+新しいシートをブックに追加すると、デフォルトの *ページ設定* が含まれます。特定の時に、設定 ([**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)) をあるワークシートから別のワークシートに転送する必要があります。このドキュメントは、Aspose.Cells for Python via .NET API を使用して、あるワークシートから別のワークシートにページ設定をコピーする方法を説明します。
 
 ## **ソースワークシートからページ設定を宛先ワークシートにコピー**
 

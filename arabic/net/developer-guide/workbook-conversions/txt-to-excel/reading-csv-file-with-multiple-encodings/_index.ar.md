@@ -38,3 +38,4 @@ url: /ar/net/reading-csv-file-with-multiple-encodings/
 ## مقالات ذات صلة
 
 - [فتح ملفات CSV](/cells/ar/net/opening-files-with-different-formats/#opening-csv-files)
+{{< app/cells/assistant language="csharp" >}}

@@ -4,13 +4,13 @@ linktitle: Estado congelado
 type: docs
 weight: 190
 url: /es/python-net/how-to-check-frozen-state-of-excel-worksheet
-description: En este artículo, aprenderás cómo verificar el estado congelado de la hoja de cálculo de Excel programáticamente usando Aspose.Cells para las APIs de Python via .NET.
-keywords: Biblioteca de Excel de Python, Cómo verificar estado congelado sin Excel, Verificar estado congelado sin Excel en Python.
+description: En este artículo, aprenderás cómo verificar programáticamente el estado congelado de una hoja de cálculo de Excel usando las API de Aspose.Cells para Python via .NET.
+keywords: Biblioteca de Python para Excel, Cómo verificar el estado congelado sin Excel, Verificar estado congelado sin Excel en Python.
 ---
 
 ## **Introducción**
 
-En este artículo, aprenderemos cómo verificar el estado congelado de la hoja de cálculo de Excel programáticamente. Podemos encontrar simplemente si la hoja de cálculo está congelada o dividida en MS Excel. Pero ¿hay alguna forma de averiguar si está congelada o dividida con CSharp? Simplemente podemos hacerlo con Aspose.Cells para Python via .NET.
+En este artículo, aprenderemos cómo verificar el estado congelado de una hoja de cálculo de Excel programáticamente. Podemos simplemente determinar si la hoja está congelada o dividida en MS Excel. Pero, ¿hay alguna forma de saber si está congelada o dividida con C#. Podemos hacerlo fácilmente con Aspose.Cells para Python via .NET.
 
 ## **Cómo verificar el estado congelado**
 Con Aspose.Cells para Python via .NET, podemos verificar si la ventana está congelada y cuántas filas y columnas están bloqueadas.

@@ -3,13 +3,13 @@ title: Hitta absolut position av formen innanför arbetsbladet
 type: docs
 weight: 8000
 url: /sv/python-net/finding-absolute-position-of-shape-inside-the-worksheet/
-description: Denna artikel visar hur man hittar den absoluta positionen för en form inuti kalkylbladet genom Aspose.Cells för Python API via .NET.
-keywords: Python Excel Library, Python hur man hittar den absoluta positionen för en form inuti kalkylbladet.
+description: Denna artikel visar hur man hittar absolut position för form inuti arbetsbladet via Aspose.Cells för Python via .NET API.
+keywords: Python Excel bibliotek, Python hur man hittar absolut position för form inuti arbetsbladet.
 ---
 
 {{% alert color="primary" %}}
 
-Ibland måste du veta den absoluta positionen för en form i ett kalkylblad. Aspose.Cells för Python via .NET tillhandahåller egenskaperna [**Shape.left_to_corner**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/left_to_corner) och [**Shape.top_to_corner**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/top_to_corner) för detta ändamål. Dessa egenskaper returnerar formens absoluta position inuti kalkylbladet i pixlar.
+Ibland behöver du veta den absoluta positionen för en form i ett arbetsblad. Aspose.Cells för Python via .NET tillhandahåller egenskaperna [**Shape.left_to_corner**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/left_to_corner) och [**Shape.top_to_corner**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/top_to_corner) för detta ändamål. Dessa egenskaper returnerar den absoluta positionen för formen inom arbetsbladet i pixlar.
 
 {{% /alert %}}
 

@@ -148,3 +148,4 @@ Le tableau suivant tente de fournir un aperçu des fonctionnalités de Aspose.Ce
 |Insérer des contrôles dans les graphiques | | |Pris en charge |
 |Moteur de calcul de formule |  |  |Pris en charge |
 |API de recherche |Pris en charge |Pris en charge |Pris en charge |
+{{< app/cells/assistant language="java" >}}

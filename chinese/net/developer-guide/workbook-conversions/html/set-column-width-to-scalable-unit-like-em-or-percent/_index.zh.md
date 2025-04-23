@@ -14,3 +14,4 @@ url: /zh/net/set-column-width-to-scalable-unit-like-em-or-percent/
 [outsampleForScalableColumns.zip](73990151.zip)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-SetScalableColumnWidth-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

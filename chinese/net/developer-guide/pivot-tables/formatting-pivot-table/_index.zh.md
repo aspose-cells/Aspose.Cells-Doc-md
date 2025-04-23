@@ -63,3 +63,4 @@ Microsoft Excel提供多种不同的预设报告格式。Aspose.Cells也支持�
 以下代码示例显示如何清除数据区域中的所有数据透视字段。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ClearPivotFields-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

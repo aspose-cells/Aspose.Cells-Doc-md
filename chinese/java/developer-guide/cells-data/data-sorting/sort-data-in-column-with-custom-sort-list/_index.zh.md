@@ -7,7 +7,7 @@ url: /zh/java/sort-data-in-column-with-custom-sort-list/
 
 ## **可能的使用场景**
 
-您可以使用自定义列表对列中的数据进行排序。这可以通过使用 [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int,%20java.lang.String)) 方法来实现。但是，如果自定义列表中的项目内部包含逗号, 如"USA, US", "China, CN"等，则必须使用 [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int,%20java.lang.String)) 方法。在这里，最后一个参数不是字符串，而是字符串数组。
+你可以使用[DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-java.lang.String-)方法，在列中使用自定义列表进行排序。不过，该方法只适用于自定义列表中的项目没有逗号的情况；如果有，比如"美国，美国"，"中国，中国"，必须使用同样的方法，但最后一个参数类型为字符串数组而非字符串。
 
 ## **使用自定义排序列表对列中的数据进行排序**
 
@@ -18,3 +18,4 @@ url: /zh/java/sort-data-in-column-with-custom-sort-list/
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-SortDataInColumnWithCustomSortList.java" >}}
+{{< app/cells/assistant language="java" >}}

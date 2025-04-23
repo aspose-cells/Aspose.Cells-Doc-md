@@ -4,8 +4,8 @@ linktitle: Congelare le colonne
 type: docs
 weight: 190
 url: /it/python-net/how-to-freeze-columns-of-excel-worksheet
-description: In questo articolo, imparerai come bloccare le colonne sinistre di Fogli di calcolo di Excel in modo programmatico utilizzando le API Aspose.Cells per Python via .NET.
-keywords: Libreria Excel Python, Congelare colonne a sinistra in Python, Congelare prime colonne in Python, Bloccare le colonne in Python.
+description: In questo articolo, imparerai come bloccare le colonne sinistre dei fogli di lavoro Excel programmaticamente usando Aspose.Cells per le API Python via .NET.
+keywords: Libreria Excel Python, Blocca le colonne a sinistra, Blocca le prime colonne, Blocca le colonne in Python.
 ---
 
 ## **Introduzione**
@@ -13,7 +13,7 @@ keywords: Libreria Excel Python, Congelare colonne a sinistra in Python, Congela
 In questo articolo, impareremo come bloccare (freezare) colonne a sinistra. Quando hai una grande quantità di dati in una riga, e non riesci a vedere le colonne a sinistra quando scorri orizzontalmente, puoi bloccare e fissare la prima colonna in modo da poter vedere quella parte fissa anche quando si scorrono il resto dei dati. In questo modo, puoi vedere facilmente le intestazioni nelle colonne a sinistra.
 
 
-## **Come Congelare Colonne In Excel**
+## ** Come bloccare le colonne in Excel**
 
 **![Congelare la/e colonna/e di sinistra in Excel](freeze-columns.png)**
 
@@ -32,8 +32,8 @@ Le colonne fisse ti consentono di visualizzare i tuoi dati lunghi senza tenere t
 
 
 
-## **Come Congelare Colonne con Aspose.Cells per la Libreria Excel Python**
-È semplice congelare la prima o più colonne con Aspose.Cells per Python via .NET. Utilizza il metodo [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) per congelare la/e colonna/e selezionata/e.
+## ** Come bloccare le colonne con Aspose.Cells per la libreria Excel Python**
+ È semplice bloccare le prime colonne con Aspose.Cells per Python via .NET. Usa il metodo [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) per bloccare le colonne alla colonna selezionata.
 1. Costruire un libro di lavoro per aprire il file o creare un file vuoto.
 2. Congelare la prima colonna con il metodo Worksheet.FreezePanes().
 3. Salvare il file.

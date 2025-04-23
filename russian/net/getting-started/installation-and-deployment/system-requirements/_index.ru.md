@@ -97,9 +97,7 @@ Aspose.Cells Grid Suite состоит из трех элементов упра
 {{% /alert %}} 
 ### **Aspose.Cells.GridDesktop**
 #### **.NET Framework**
-- .NET Framework 2.0
-- .NET Framework 3.0
-- .NET Framework 3.5
+
 - .NET Framework 4.0
 - .NET Framework 4.5
 - .NET Framework 4.5.1
@@ -142,9 +140,6 @@ Aspose.Cells Grid Suite состоит из трех элементов упра
 - Microsoft Windows 11
 ### **Aspose.Cells.GridWeb**
 #### **.NET Framework**
-- .NET Framework 2.0
-- .NET Framework 3.0
-- .NET Framework 3.5
 - .NET Framework 4.0
 - .NET Framework 4.5
 - .NET Framework 4.5.1
@@ -157,10 +152,12 @@ Aspose.Cells Grid Suite состоит из трех элементов упра
 - .NET Framework 4.8
 - .NET Framework 4.8.1
 ### **.NET Core**
-- .NET 6.0 windows 
+- .NET 6.0 Windows и системы без Windows
 - .NET 7.0 windows
+- .NET 8.0 Windows
 #### **NuGet-пакеты, на которые ссылается Aspose.Cells.GridWeb для .NET Core**
-- System.Drawing.Common, 7.0.0.
+- System.Drawing.Common, 7.0.0 (в системе Windows).
+- SkiaSharp, 2.88.3 (на системах, не являющихся Windows).
 - System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.3.
 #### **Инструменты разработки**
@@ -226,3 +223,4 @@ Aspose.Cells Grid Suite состоит из трех элементов упра
 - Linux (Ubuntu, openSUSE, CentOS, Debian, Alpine и другие)
 ### **Mac**
 - Mac OS X, macOS High Sierra и другие
+{{< app/cells/assistant language="csharp" >}}

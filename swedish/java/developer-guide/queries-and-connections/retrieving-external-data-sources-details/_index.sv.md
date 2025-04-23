@@ -34,3 +34,4 @@ När koden körs skrivs anslutningsdetaljerna ut till konsolen.
 
 
 
+{{< app/cells/assistant language="java" >}}

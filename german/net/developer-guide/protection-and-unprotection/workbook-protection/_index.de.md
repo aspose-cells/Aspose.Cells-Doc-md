@@ -34,3 +34,4 @@ Die Entschützung der Arbeitsmappenstruktur ist mit der Aspose.Cells API einfach
 {{% alert color="primary" %}}
 Hinweis: Ein korrektes Passwort ist erforderlich.
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

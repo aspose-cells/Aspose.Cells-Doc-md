@@ -18,3 +18,4 @@ Aşağıdaki örnek kod, [**Workbook.Settings.WriteProtection.Author**](https:/
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Worksheets-SpecifyAuthorWhileWriteProtectingWorkbook.java" >}}
+{{< app/cells/assistant language="java" >}}

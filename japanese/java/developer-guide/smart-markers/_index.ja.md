@@ -6,3 +6,4 @@ url: /ja/java/smart-markers/
 ---
 
 
+{{< app/cells/assistant language="java" >}}

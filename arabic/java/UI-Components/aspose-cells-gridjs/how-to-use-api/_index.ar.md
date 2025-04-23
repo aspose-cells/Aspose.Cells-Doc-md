@@ -17,10 +17,10 @@ aliases:
 
 # العمل مع الخادم الجانبي لـ GridJs
 ## 0. قم بتعيين مسار المجلد الصحيح في التكوين
- **`Config.setFileCacheDirectory`** لملف التخزين المؤقت للورقة (مطلوب).
- **`Config.setPictureCacheDirectory`** لتخزين ملفات الصور في الورقة (اختياري، القيمة الافتراضية هي _piccache في دليل تخزين الملفات).
+ **`Config.setFileCacheDirectory`** لملف ذاكرة التخزين المؤقت للمصنف (مطلوب).
+ **`Config.setPictureCacheDirectory`**  لملفات الصور في ذاكرة التخزين المؤقت للمصنف (اختياري، القيمة الافتراضية هي _piccache في دليل ذاكرة التخزين المؤقت للملف).
 
-لحصول على تفاصيل التخزين، يرجى التحقق من هذا [الدليل](/java/aspose-cells-gridjs/storage/)
+لتفاصيل التخزين، يرجى الاطلاع على [الدليل](/java/aspose-cells-gridjs/storage/)
 
 ## 1. تنفيذ GridCacheForStream
 بالنسبة لتخزين الملفات المحلي ، إليك مثال:
@@ -72,7 +72,7 @@ public class LocalFileCache extends GridCacheForStream {
 }
 ```
 
-## 2. كتابة json من ملف ورق العمل إلى تيار الرد.
+## 2. كتابة json من ملف جدول البيانات إلى تدفق الاستجابة.
 ```JAVA
             GridJsWorkbook wbj = new GridJsWorkbook();
             try (GZIPOutputStream gzipOutputStream = new GZIPOutputStream(response.getOutputStream())) {

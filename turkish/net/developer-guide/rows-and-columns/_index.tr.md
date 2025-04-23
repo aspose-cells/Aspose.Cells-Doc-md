@@ -77,3 +77,4 @@ Bir sütunun genişliğini, [**Cells**](https://reference.aspose.com/cells/net/
 - [Excel dosyasının Satır ve Sütunlarını Eklemek ve Silmek](/cells/tr/net/inserting-and-deleting-rows-and-columns/)
 - [Çalışma Sayfasındaki Yinelemeli Satırları Kaldırma](/cells/tr/net/remove-duplicate-rows-in-a-worksheet/)
 - [Çalışma sayfasında boş sütunları ve satırları silerken diğer çalışma sayfalarındaki referansları güncelle](/cells/tr/net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

@@ -161,3 +161,4 @@ workbook.save(output);
 À partir de la version Aspose.Cells for Java 8.4.2, le champ d'énumération PasteType.ALL se comporte différemment par rapport à la fonctionnalité "Tout" d'Excel pour coller une plage de cellules. Maintenant, le PasteType.ALL copie également la largeur des colonnes sur la plage de destination, contrairement à la fonctionnalité "Tout" d'Excel. Pour reproduire le comportement "Tout" d'Excel, veuillez utiliser le PasteType.DEFAULT.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

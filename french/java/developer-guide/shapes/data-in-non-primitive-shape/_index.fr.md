@@ -11,7 +11,7 @@ Parfois, vous avez besoin d'accéder aux données d'une forme qui n'est pas int�
 
 ## **Une forme non primitive**
 
-Dans Aspose.Cells, les formes non primitives sont assignées au type [**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT_PRIMITIVE). Vous pouvez vérifier leur type en utilisant la méthode [**Shape.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType).
+Dans Aspose.Cells, les formes non primitives sont assignées au type [**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT-PRIMITIVE). Vous pouvez vérifier leur type en utilisant la méthode [**Shape.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType).
 
 Accédez aux données de forme en utilisant la méthode [**Shape.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths). Cela renvoie tous les chemins connectés qui composent la forme non primitive. Ces chemins sont du type ShapePath qui contient une liste de tous les segments qui contiennent à leur tour les points de chaque segment.
 
@@ -22,3 +22,4 @@ L'extrait de code suivant illustre l'utilisation de la méthode [**Shape.getPath
 ![todo:image_alt_text](data-in-non-primitive-shape_1.jpg)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-NonPrimitiveShape-1.java" >}}
+{{< app/cells/assistant language="java" >}}

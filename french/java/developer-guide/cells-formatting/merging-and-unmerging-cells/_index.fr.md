@@ -33,7 +33,7 @@ Les étapes suivantes décrivent comment fusionner des cellules dans la feuille 
 
 ### **Utilisation d'Aspose.Cells**
 
-La classe [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) possède quelques méthodes utiles pour la tâche. Par exemple, la méthode [**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) fusionne les cellules en une seule cellule dans une plage spécifiée de cellules.
+La classe [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) possède quelques méthodes utiles pour la tâche. Par exemple, la méthode [**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge-int-int-int-int-) fusionne les cellules en une seule cellule dans une plage spécifiée de cellules.
 
 Le résultat suivant est généré après l'exécution du code ci-dessous.
 
@@ -59,7 +59,7 @@ Les étapes suivantes décrivent comment diviser les cellules fusionnées à l'a
 
 #### **Utilisation d'Aspose.Cells**
 
-La classe [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) possède une méthode nommée [**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge(int,%20int,%20int,%20int)) qui divise les cellules dans leur état d'origine. La méthode défusionne les cellules en utilisant la référence de la cellule dans la plage de cellules fusionnées.
+La classe [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) possède une méthode nommée [**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge-int-int-int-int-) qui divise les cellules dans leur état d'origine. La méthode défusionne les cellules en utilisant la référence de la cellule dans la plage de cellules fusionnées.
 
 #### **Exemple de code**
 
@@ -72,3 +72,4 @@ L'exemple suivant montre comment diviser les cellules fusionnées (C6). L'exempl
 - [Trouver et scinder des cellules fusionnées](/cells/fr/java/detect-merged-cells-in-a-worksheet/).
 - [Fusionner et scinder une plage de cellules en utilisant les méthodes Range.merge() et Range.unMerge()](/cells/fr/java/merge-or-unmerge-range-of-cells/).
 
+{{< app/cells/assistant language="java" >}}

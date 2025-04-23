@@ -14,21 +14,21 @@ Aspose.Cells API:er stödjer att skapa en mängd olika Excel-diagram som detalje
 
 ## **Rendering av diagram**
 
-Aspose.Cells API:er stödjer att konvertera Excel-diagram till bilder och PDF-format utan att kräva några ytterligare verktyg eller program. För att erbjuda renderingsstöd, har [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)-klassen exponerat [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions))- och [**toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream))-metoder med en mängd olika överbelastningar för att bäst passa applikationskraven.
+Aspose.Cells API:er stödjer att konvertera Excel-diagram till bilder och PDF-format utan att kräva några ytterligare verktyg eller program. För att erbjuda renderingsstöd, har [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)-klassen exponerat [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-)- och [**toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf-java.io.OutputStream-)-metoder med en mängd olika överbelastningar för att bäst passa applikationskraven.
 
 ### **Rendera diagram till bilder**
 
-[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions))-metoden har en mängd olika överbelastningar för att stödja enkel såväl som avancerad rendering. Om applikationskravet är att rendera diagrammet i dess standarddimensioner rekommenderar vi att du använder [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions))-metoden enligt följande.
+[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-)-metoden har en mängd olika överbelastningar för att stödja enkel såväl som avancerad rendering. Om applikationskravet är att rendera diagrammet i dess standarddimensioner rekommenderar vi att du använder [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-)-metoden enligt följande.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-RenderChartsToImages-RenderChartsToImages.java" >}}
 
-Det är också möjligt att rendera diagram till bilder med avancerade inställningar. Aspose.Cells API:er har exponerat en överbelastningsversion av [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions))-metoden som kan acceptera en instans av [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) samtidigt som du kan specificera parametrar som upplösning, renderingstips, bildformat och så vidare.
+Det är också möjligt att rendera diagram till bilder med avancerade inställningar. Aspose.Cells API:er har exponerat en överbelastningsversion av [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-)-metoden som kan acceptera en instans av [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) samtidigt som du kan specificera parametrar som upplösning, renderingstips, bildformat och så vidare.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChartRendering-ChartRendering.java" >}}
 
 ### **Rendera diagram till PDF**
 
-För att rendera diagrammet till PDF-format har Aspose.Cells API:er exponerat [**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream))-metoden med förmågan att lagra det resulterande PDF på diskvägen eller en instans av OutputStream.
+För att rendera diagrammet till PDF-format har Aspose.Cells API:er exponerat [**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf-java.io.OutputStream-)-metoden med förmågan att lagra det resulterande PDF på diskvägen eller en instans av OutputStream.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-chartsRenderChartsToPdf-RenderChartsToPdf.java" >}}
 
@@ -131,3 +131,4 @@ Om du försöker rendera de icke-supportade diagramtyperna till bild eller PDF k
 - [Konvertera diagram till bild i SVG-format](/cells/sv/java/converting-chart-to-image-in-svg-format/)
 - [Skapa diagram-PDF med önskad sidstorlek](/cells/sv/java/create-chart-pdf-with-desired-page-size/)
 - [Exportera diagram till SVG med viewBox-attribut](/cells/sv/java/export-chart-to-svg-with-viewbox-attribute/)
+{{< app/cells/assistant language="java" >}}

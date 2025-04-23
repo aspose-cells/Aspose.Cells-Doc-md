@@ -89,3 +89,4 @@ Wenn Sie die Eigenschaft [**Custom**](https://reference.aspose.com/cells/net/asp
 - [Benutzerdefiniertes Datumsformatmuster g und ge mm dd anzeigen](/cells/de/net/render-custom-date-format-pattern-g-and-ge-mm-dd/)
 - [Benutzerdefinierte Dezimal- und Gruppentrennzeichen für Arbeitsmappe festlegen](/cells/de/net/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [Benutzerdefiniertes DBNum-Formatmusterformat festlegen](/cells/de/net/specifying-dbnum-custom-pattern-formatting/)
+{{< app/cells/assistant language="csharp" >}}

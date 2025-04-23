@@ -15,7 +15,7 @@ url: /ar/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/
 
 ## **استخدام Aspose.Cells لتحويل ورقة العمل إلى ملف صورة**
 
-هذا المقال يُظهر كيفية استخدام Aspose.Cells for Java API لتحويل ورقة العمل إلى صورة. يوفر الـ API فصائل قيمة مثمرة، مثل [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender)، و [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)، و [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender)، وهلم جرا. الفصيل القيمة [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) يُمثل ورقة العمل لإنتاج الصور لورقة العمل ويتضمن طريقة زائدة [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream)) التي يمكن أن تحول ورقة العمل إلى ملفات صور مباشرة مع أية سمات أو خيارات محددة.
+هذا المقال يُظهر كيفية استخدام Aspose.Cells for Java API لتحويل ورقة العمل إلى صورة. يوفر الـ API فصائل قيمة مثمرة، مثل [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender)، و [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)، و [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender)، وهلم جرا. الفصيل القيمة [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) يُمثل ورقة العمل لإنتاج الصور لورقة العمل ويتضمن طريقة زائدة [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage-int-java.io.OutputStream-) التي يمكن أن تحول ورقة العمل إلى ملفات صور مباشرة مع أية سمات أو خيارات محددة.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ConvertWorksheettoImageFile-1.java" >}}
 
@@ -55,3 +55,4 @@ url: /ar/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/
 
 - [تحويل ورقة العمل إلى تنسيقات صور مختلفة](/cells/ar/java/converting-worksheet-to-different-image-formats/)
 - [تصدير ورقة العمل أو الرسم البياني إلى صورة بعرض وارتفاع مطلوبين](/cells/ar/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+{{< app/cells/assistant language="java" >}}

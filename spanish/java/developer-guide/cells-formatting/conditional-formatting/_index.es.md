@@ -58,3 +58,4 @@ Aspose.Cells admite la aplicación de formato condicional en tiempo de ejecució
 - [Aplicar formato condicional en hojas de cálculo](/cells/es/java/apply-conditional-formatting-in-worksheets/)
 - [Aplicar sombreado a filas y columnas alternas con formato condicional](/cells/es/java/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
 
+{{< app/cells/assistant language="java" >}}

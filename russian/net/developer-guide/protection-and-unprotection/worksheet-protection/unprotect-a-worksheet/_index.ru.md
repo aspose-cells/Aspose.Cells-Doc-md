@@ -31,3 +31,4 @@ url: /ru/net/unprotect-a-worksheet/
 Защищенный паролем лист - это лист, защищенный паролем. Такие листы можно разблокировать, вызвав перегруженную версию метода [**Unprotect**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/unprotect/methods/1), принимающую пароль в качестве параметра.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Unprotect-UnprotectingPasswordProtectedWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -9,22 +9,22 @@ keywords: PivotChart
 ---
 ## PivotChart Nedir
 
-Bir özet tabloyundaki verilerin görsel temsilidir. Özet tabloları, özet verileri özetleme, analiz etme, keşfetme ve sunma şekli sağlar. Pivot grafiklerinin bazı temel özellikleri ve yönleri şunlardır:
+Bir pivot grafiği, pivot tablodaki verilerin görsel temsilidir. Pivot grafikler, özet verileri özetleme, analiz etme, keşfetme ve sunma imkanı sağlar. İşte pivot grafiklerin bazı temel özellikleri ve yönleri:
 
-1. Dinamik Veri Temsili: Pivot grafikleri otomatik olarak özet tablosundaki değişiklikleri yansıtmak için güncellenir. Özet tablosunda alan ekler veya kaldırırsanız, pivot grafikleri buna göre güncellenir.
+1. Dinamik Veri Temsili: Pivot grafikleri, pivot tablodaki değişiklikleri otomatik olarak yansıtır. Pivot tablodaki alanları ekleyip çıkarırsanız, pivot grafik de buna göre güncellenir.
 
-1. Etkileşimli: Pivot grafikleri etkileşimli olup, kullanıcıların veriyi filtrelemesine, sıralamasına ve derinlemesine incelemesine olanak tanır. Bu, veri kümesinin farklı yönlerini keşfetmeyi kolaylaştırır.
+1. İnteraktif: Pivot grafikleri etkileşimlidir, kullanıcıların filtreleme, sıralama ve veri detayına inmesine izin verir. Bu, verilerin farklı yönlerini keşfetmeyi kolaylaştırır.
 
-1. Esnek Düzen: Kullanıcılar, verilerin nasıl görüntülendiği konusunda esneklik sağlayan alanları sürükleyip bırakarak pivot grafiklerinin düzenini değiştirebilirler.
+1. Esnek Düzen: Kullanıcılar alanları sürükleyip bırakarak pivot grafiğin düzenini değiştirebilir, bu da nasıl görselleştirileceğinde esneklik sağlar.
 
-1. Çeşitli Grafik Türleri: Verinin doğası ve kazanmak istediğiniz içgörülere bağlı olarak bar grafikleri, çizgi grafikleri, pasta grafikleri ve daha fazlası gibi çeşitli grafik tipleri kullanılarak pivot grafikleri oluşturulabilir.
+1. Çeşitli Grafik Türleri: Pivot grafikler çeşitli grafik türleri kullanılarak oluşturulabilir; çubuk grafikleri, çizgi grafikleri, pasta grafikleri ve daha fazlası, verinin doğasına ve elde etmek istediğiniz içgörülere bağlı olarak.
 
-1. Özümseme: Pivot grafikleri büyük miktarda veriyi özetler ve toplamları, ortalamaları, sayıları veya diğer özet istatistikleri gösterebilir.
+1. Özetleme: Pivot grafikleri büyük miktarda veriyi özetler ve toplamlar, ortalamalar, sayımlar veya diğer özet istatistikleri gösterebilir.
 
-1. Filtreleme: Belirli kriterleri karşılayan verileri yalnızca görüntülemek için filtreleme yetenekleri sunarlar.
+1. Filtreleme: Filtreleme özellikleri sağlar, belirli kriterleri karşılayan verileri görüntülemenize olanak tanır.
 
 <br>
-Pivot grafikleri, karmaşık veri kümelerinin net ve öz bir görsel özetini sağlamak için iş zekası ve veri analizi alanında yaygın olarak kullanılır. Veri odaklı kararlar almak için güçlü bir araçtır.
+Pivot grafikler, karmaşık veri setlerinin net ve öz bir görsel özetini sağlamak için iş zekası ve veri analizinde yaygın olarak kullanılır. Veri odaklı kararlar almak için güçlü bir araçtır.
 
 ## Aspose.Cells kullanarak PivotChart ekleme
 
@@ -50,3 +50,4 @@ Aspose.Cells kullanarak bir PivotChart oluşturmak için:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreatePivotTablesPivotCharts-CreatePivotChart-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

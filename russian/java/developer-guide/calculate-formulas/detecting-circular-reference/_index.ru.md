@@ -15,9 +15,9 @@ url: /ru/java/detecting-circular-reference/
 
 [**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell): Представляет расчет соответствующих данных по одной вычисляемой ячейке
 
-[**AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)): будет вызван движком расчета формул при обнаружении кольцевых ссылок, элемент в перечислителе - [**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell) объектов, которые представляют все ячейки в одном круге. Возвращенное значение указывает, нужно ли движку формулы рассчитать эти ячейки в кольцевом порядке после этого вызова.
+[**AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular-java.util.Iterator-): будет вызван движком расчета формул при обнаружении кольцевых ссылок, элемент в перечислителе - [**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell) объектов, которые представляют все ячейки в одном круге. Возвращенное значение указывает, нужно ли движку формулы рассчитать эти ячейки в кольцевом порядке после этого вызова.
 
-Пользователь может собирать эти кольцевые ссылки в реализации метода [**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)).
+Пользователь может собирать эти кольцевые ссылки в реализации метода [**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular-java.util.Iterator-).
 
 Образец исходного файла можно загрузить по следующей ссылке:
 
@@ -28,3 +28,4 @@ url: /ru/java/detecting-circular-reference/
 Определение класса *CircularMonitor*, который происходит от класса [**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor), приведено ниже:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DetectCircularReference-2.java" >}}
+{{< app/cells/assistant language="java" >}}

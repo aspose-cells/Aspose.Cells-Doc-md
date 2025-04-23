@@ -9,7 +9,7 @@ url: /de/java/adding-custom-properties-visible-inside-document-information-panel
 
 Aspose.Cells kann verwendet werden, um benutzerdefinierte Eigenschaften im Arbeitsmappenobjekt hinzuzufügen, die im Dokumentinformationsfeld sichtbar sind. Sie können das Dokumentinformationsfeld in Microsoft Excel über die Befehle Datei > Informationen > Eigenschaften > Dokumentinformationsfeld anzeigen öffnen.
 
-Bitte verwenden Sie die Methode [**Workbook.getContentTypeProperties().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add(java.lang.Object)), um eine benutzerdefinierte Eigenschaft hinzuzufügen, die im Dokumentinformationsfeld sichtbar ist.
+Bitte verwenden Sie die Methode [**Workbook.getContentTypeProperties().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-), um eine benutzerdefinierte Eigenschaft hinzuzufügen, die im Dokumentinformationsfeld sichtbar ist.
 
 {{% /alert %}}
 
@@ -26,3 +26,4 @@ Der folgende Beispielscode fügt zwei benutzerdefinierte Eigenschaften hinzu. Di
 - [Verwenden von benutzerdefinierten XML-Teilen in Aspose.Cells](/cells/de/java/using-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

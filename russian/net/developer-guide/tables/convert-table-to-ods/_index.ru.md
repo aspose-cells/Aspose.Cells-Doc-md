@@ -14,3 +14,4 @@ Aspose.Cells поддерживает преобразование файлов 
 Выходной файл ODS, сгенерированный образцовым кодом, прикреплен для вашего ознакомления.
 
 [**Output ODS File**](ConvertTableToOds_out.ods)
+{{< app/cells/assistant language="csharp" >}}

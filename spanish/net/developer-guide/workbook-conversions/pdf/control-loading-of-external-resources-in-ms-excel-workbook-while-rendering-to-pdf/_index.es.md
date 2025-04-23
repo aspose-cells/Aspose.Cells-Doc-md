@@ -18,3 +18,4 @@ El siguiente código de muestra explica cómo hacer uso de [**WorkbookSettings.S
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-ControlLoadingOfExternalResourcesInExcelToPDF-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

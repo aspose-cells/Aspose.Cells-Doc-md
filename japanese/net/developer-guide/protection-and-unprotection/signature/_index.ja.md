@@ -32,3 +32,4 @@ Aspose.Cells for .NET APIを使用してタスクを実行する方法を説明�
 - [すでに署名されたExcelファイルにデジタル署名を追加する](/cells/ja/net/add-digital-signature-to-an-already-signed-excel-file/)
 - [ワークシートに署名行を追加](/cells/ja/net/add-signature-line/)
 - [XAdES署名のサポート](/cells/ja/net/support-for-xades-signature/)
+{{< app/cells/assistant language="csharp" >}}

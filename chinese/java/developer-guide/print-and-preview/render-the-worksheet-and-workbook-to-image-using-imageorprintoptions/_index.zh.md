@@ -47,3 +47,4 @@ url: /zh/java/render-the-worksheet-and-workbook-to-image-using-imageorprintoptio
 - [使用viewBox属性将图表导出为SVG](/cells/zh/java/export-chart-to-svg-with-viewbox-attribute/)
 - [使用所需的宽度和高度将工作表或图表导出为图像](/cells/zh/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
 - [将工作表转为图像以及按页面转为图像](/cells/zh/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)
+{{< app/cells/assistant language="java" >}}

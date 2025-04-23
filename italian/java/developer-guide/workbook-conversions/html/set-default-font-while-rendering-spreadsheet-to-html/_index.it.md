@@ -20,3 +20,4 @@ Lo screenshot mostra l'effetto di impostare diversi nomi di carattere predefinit
 Il codice genera il [file HTML di output con Courier New](5472568), l'[output HTML con Arial](5472567) e il [file HTML di output con Times New Roman](5472565).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToHTML-.java" >}}
+{{< app/cells/assistant language="java" >}}

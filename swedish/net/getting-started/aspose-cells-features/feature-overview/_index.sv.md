@@ -111,3 +111,4 @@ Du kan använda Aspose.Cells for .NET för att implementera PageSetup-alternativ
 |Ange marginaler och centreringsinställningar för sidan.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Skapa eller redigera sidhuvud och/eller sidfot.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Ange utskriftsområde, skriv ut rubriker eller aktivera rutnätet, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< app/cells/assistant language="csharp" >}}

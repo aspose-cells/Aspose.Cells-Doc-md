@@ -18,3 +18,4 @@ Bitte sehen Sie sich den folgenden Code an. Es lädt die [Beispiel-Excel-Datei]
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-FormattingSlicer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

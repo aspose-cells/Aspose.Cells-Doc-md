@@ -7,7 +7,7 @@ url: /de/java/direct-calculation-of-custom-function-without-writing-it-in-a-work
 
 {{% alert color="primary" %}} 
 
-Dieser Artikel erklärt, wie Sie Ihre benutzerdefinierten Funktionen direkt berechnen können, ohne sie zuerst in einem Arbeitsblatt zu schreiben. Verwenden Sie dafür die Methode [Worksheet.calculateFormula(string formula, CalculationOptions opts)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula\(java.lang.String,%20com.aspose.cells.CalculationOptions\)).
+Dieser Artikel erklärt, wie du deine benutzerdefinierten Funktionen direkt berechnen kannst, ohne sie zuerst in einem Arbeitsblatt zu schreiben. Bitte verwende dazu die Methode [Worksheet.calculateFormula(string formula, CalculationOptions opts)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula-java.lang.String-com.aspose.cells.CalculationOptions-)
 
 {{% /alert %}} 
 ## **Direkte Berechnung einer benutzerdefinierten Funktion ohne Eintragung in ein Arbeitsblatt**
@@ -28,3 +28,4 @@ Im Folgenden finden Sie die Konsolenausgabe des obigen Beispielcodes.
 - [Implementieren eines benutzerdefinierten Berechnungsmotors zur Erweiterung des Standard-Berechnungsmotors von Aspose.Cells](/cells/de/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

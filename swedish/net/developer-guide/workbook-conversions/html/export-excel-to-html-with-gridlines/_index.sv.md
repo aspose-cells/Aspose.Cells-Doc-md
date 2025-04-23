@@ -16,3 +16,4 @@ Följande exempelkod skapar en arbetsbok, fyller dess arbetsblad med några vär
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExportToHTMLWithGridLines-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

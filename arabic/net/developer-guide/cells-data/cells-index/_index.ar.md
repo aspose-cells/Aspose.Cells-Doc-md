@@ -36,3 +36,4 @@ Aspose.Cells توفر الخصائص والأساليب التالية للمس�
 1. الحصول على مؤشر الصف بواسطة اسم الصف.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-get-index.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -37,3 +37,4 @@ pageSetup.setPrintTitleRows("$1:$2");
 Für weitere Details besuchen Sie [Einstellen von Druckoptionen](/cells/de/java/page-setup-features/#setting-print-options).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

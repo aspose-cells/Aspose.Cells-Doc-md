@@ -34,3 +34,4 @@ Belge içeriğinin doğruluğunu korumak için dijital imza ekleyebilirsiniz.
 - [Şifreli Office Open XML - OOXML Dosyalarının Dosya Biçimini Algılama](/cells/tr/net/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Excel Dosyalarının Şifrelenmesi](/cells/tr/net/encrypting-excel-files/)
 - [Bir Dosya Biçimini Algılama ve Dosyanın Şifreli Olup Olmadığını Kontrol Etme](/cells/tr/net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="csharp" >}}

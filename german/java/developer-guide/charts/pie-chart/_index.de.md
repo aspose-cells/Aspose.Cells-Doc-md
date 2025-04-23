@@ -26,3 +26,4 @@ Um die Verwendung der Aspose.Cells for Java-API zum Erstellen eines Kreisdiagram
 
 - [Erstellen und Anpassen von Diagrammen](/cells/de/java/creating-and-customizing-charts/)
 - [Diagrammformatierung](/cells/de/java/chart-formatting/)
+{{< app/cells/assistant language="java" >}}

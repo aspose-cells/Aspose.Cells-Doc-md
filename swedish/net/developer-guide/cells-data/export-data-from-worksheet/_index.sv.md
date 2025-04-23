@@ -109,3 +109,4 @@ Data från ett intervall kan exporteras till [**DataTable**](https://docs.micros
 - [Exportera synliga raddata från kalkylblad](/cells/sv/net/export-visible-rows-data-from-worksheet/)
 - [Ignorera dolda kolumner vid export av kalkylbladsdata till data-tabell](/cells/sv/net/ignore-hidden-columns-while-exporting-worksheet-data-to-data-table/)
 - [Ändra namn automatiskt på dubbletter av kolumner vid export av kalkylbladsdata](/cells/sv/net/rename-duplicate-columns-automatically-while-exporting-worksheet-data/)
+{{< app/cells/assistant language="csharp" >}}

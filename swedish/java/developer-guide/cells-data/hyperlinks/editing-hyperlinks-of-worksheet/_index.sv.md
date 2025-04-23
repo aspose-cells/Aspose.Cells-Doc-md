@@ -14,3 +14,4 @@ Aspose.Cells låter dig komma åt alla hyperlänkar i kalkylarket genom att anv�
 Den följande provkoden kommer åt alla hyperlänkar i kalkylarket och ändrar deras [Hyperlink.Adress](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#Address)-egenskap till Aspose-webbplatsen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-EditingHyperlinksOfWorksheet-EditingHyperlinksOfWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

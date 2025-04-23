@@ -10,3 +10,4 @@ Pourquoi les utilisateurs choisissent-ils Aspose.Cells pour travailler avec des 
 
 Cette section compare les composants Aspose.Cells et certains autres systèmes.
 
+{{< app/cells/assistant language="csharp" >}}

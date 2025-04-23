@@ -128,3 +128,4 @@ Kaynak ve çıktı excel dosyaları referans için ekte sunulmuştur.
 - [ODS Dosyalarında Hücre Doğrulamasını Al](/cells/tr/net/get-cell-validation-in-ods-files/)
 - [Bir Hücreye Uygulanan Doğrulamayı Al](/cells/tr/net/get-validation-applied-on-a-cell/)
 - [Hücre Değerinin Veri Doğrulama Kurallarını Karşıladığını Doğrulama](/cells/tr/net/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="csharp" >}}

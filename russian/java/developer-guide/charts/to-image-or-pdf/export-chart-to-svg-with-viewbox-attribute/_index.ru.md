@@ -29,3 +29,4 @@ url: /ru/java/export-chart-to-svg-with-viewbox-attribute/
 
 - [Отображение диаграммы](/cells/ru/java/chart-rendering/)
 - [Экспорт листа или диаграммы в изображение с заданными шириной и высотой](/cells/ru/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+{{< app/cells/assistant language="java" >}}

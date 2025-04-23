@@ -31,3 +31,4 @@ Aspose.Cells for Java APIのサポートを活用して、目標を達成する�
 この場合、結果のスプレッドシートは以下の画像のようになります。
 
 ![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)
+{{< app/cells/assistant language="java" >}}

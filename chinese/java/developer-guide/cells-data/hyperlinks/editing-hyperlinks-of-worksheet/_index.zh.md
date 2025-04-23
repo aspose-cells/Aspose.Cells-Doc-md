@@ -14,3 +14,4 @@ Aspose.Cells允许您通过[Worksheet.Hyperlinks](https://reference.aspose.com/c
 以下示例代码访问工作表的所有超链接，并将它们的[Hyperlink.Address](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#Address)属性更改为Aspose网站。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-EditingHyperlinksOfWorksheet-EditingHyperlinksOfWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

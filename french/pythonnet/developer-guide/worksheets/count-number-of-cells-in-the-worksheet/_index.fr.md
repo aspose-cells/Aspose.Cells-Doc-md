@@ -3,7 +3,7 @@ title: Compter le nombre de cellules dans la feuille de calcul
 type: docs
 weight: 110
 url: /fr/python-net/count-number-of-cells-in-the-worksheet/
-description: Dans cet article, vous apprendrez comment compter de manière programmatique le nombre de cellules dans la feuille de calcul Excel en utilisant l API Aspose.Cells pour Python via .NET.
+description: Dans cet article, vous apprendrez comment compter de manière programmatique le nombre de cellules dans une feuille Excel en utilisant l API Aspose.Cells pour Python via .NET.
 keywords: compter le nombre de cellules de la feuille de calcul Excel c#, cellules de la feuille de calcul Excel c#
 ---
 

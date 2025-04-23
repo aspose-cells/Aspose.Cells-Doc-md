@@ -323,3 +323,4 @@ book.save(dir + "output.xlsx");
 ## **Entfernte APIs**
 ### **Entfernte Workbook.decrypt Methode**
 Die genannte Eigenschaft wurde vor einiger Zeit veraltet. In dieser Version wurde sie vollständig aus der öffentlichen API entfernt. Es wird empfohlen, die Eigenschaft WorkbookSettings.Password auf null zu setzen, um dasselbe Ziel zu erreichen.
+{{< app/cells/assistant language="java" >}}

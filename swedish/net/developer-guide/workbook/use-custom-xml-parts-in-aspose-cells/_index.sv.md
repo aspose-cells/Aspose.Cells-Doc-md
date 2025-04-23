@@ -24,3 +24,4 @@ Följande exempelkod använder [**Workbook.ContentTypeProperties.Add()**](https:
 ## Relaterad artikel
 
 - [Lägga till anpassade egenskaper synliga inuti dokumentinformationspanelen](/cells/sv/net/adding-custom-properties-visible-inside-document-information-panel/)
+{{< app/cells/assistant language="csharp" >}}

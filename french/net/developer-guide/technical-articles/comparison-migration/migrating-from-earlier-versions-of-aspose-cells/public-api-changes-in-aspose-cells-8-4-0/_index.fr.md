@@ -274,3 +274,4 @@ La valeur par défaut est "" (chaîne vide).
 Utilisez la méthode GetEnumerator pour parcourir toutes les cellules à la place.
 ### **La propriété DrawObject.Image obsolète**
 Utilisez la propriété DrawObject.ImageBytes pour obtenir les données de l'image à la place.
+{{< app/cells/assistant language="csharp" >}}

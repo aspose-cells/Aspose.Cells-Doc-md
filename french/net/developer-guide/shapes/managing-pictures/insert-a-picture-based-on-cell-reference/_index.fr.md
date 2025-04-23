@@ -18,3 +18,4 @@ Aspose.Cells prend en charge l'affichage du contenu d'une cellule de feuille de 
 ### Exemple de code
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertPictureCellReference-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

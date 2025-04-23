@@ -42,3 +42,4 @@ Följande skärmbild visar den genererade Excel-filen som skapats av provkoden. 
 Här är kodexempel för att uppnå utdata som visas ovan.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ApplyingSubtotalChangeSummaryDirection-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

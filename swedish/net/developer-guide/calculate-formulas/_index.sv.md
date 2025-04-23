@@ -74,3 +74,4 @@ Som standard är beräkningskedjan inaktiverad. Eftersom skapandet av kedjan ock
 - [Inställning av Formelberäkningsläge för Arbetsbok](/cells/sv/net/setting-formula-calculation-mode-of-workbook/)
 - [Användning av FormulaText-funktionen i Aspose.Cells](/cells/sv/net/using-formulatext-function-in-aspose-cells/)
 - [Använda ICustomFunction-funktionen](/cells/sv/net/using-icustomfunction-feature/)
+{{< app/cells/assistant language="csharp" >}}

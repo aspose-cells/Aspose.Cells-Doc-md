@@ -3,8 +3,8 @@ title: Usar opciones de verificación de errores
 type: docs
 weight: 140
 url: /es/python-net/use-error-checking-options/
-description: En este artículo, encontrarás código de ejemplo que utilizará opciones de revisión de errores de las hojas de cálculo de Excel, como números almacenados como texto, utilizando la API de Aspose.Cells para Python via .NET.
-keywords: Biblioteca de Excel de Python, Almacenar números como texto en Excel en Python, Cómo manejar opciones de revisión de errores en Excel en Python.
+description: En este artículo, encontrarás código de ejemplo que usará programáticamente las opciones de comprobación de errores de las hojas de cálculo de Excel, por ejemplo, números almacenados como texto, usando la API Aspose.Cells para Python via .NET.
+keywords: Biblioteca de Excel en Python, Almacenar números como texto en Excel en Python, Cómo gestionar las opciones de comprobación de errores en Excel en Python.
 ---
 
 {{% alert color="primary" %}}
@@ -19,7 +19,7 @@ Errores que significan que la fórmula no puede devolver un resultado, como divi
 
 El error puede resolverse utilizando las opciones, o ignorarse. Ignorar un error significa que ese error no aparecerá en futuras verificaciones de errores.
 
-Aspose.Cells para Python via .NET ofrece funciones de opciones de revisión de errores. La clase [**ErrorCheckOption**](https://reference.aspose.com/cells/python-net/aspose.cells/errorcheckoption) gestiona diferentes tipos de revisiones de errores, como números almacenados como texto, errores de cálculo de fórmulas y errores de validación. Utiliza la enumeración [**ErrorCheckType**](https://reference.aspose.com/cells/python-net/aspose.cells/errorchecktype) para establecer la revisión de errores deseada.
+Aspose.Cells para Python via .NET proporciona funciones de opciones de comprobación de errores. La clase [**ErrorCheckOption**](https://reference.aspose.com/cells/python-net/aspose.cells/errorcheckoption) gestiona diferentes tipos de comprobaciones de errores, por ejemplo, números almacenados como texto, errores de cálculo de fórmulas y errores de validación. Usa la enumeración [**ErrorCheckType**](https://reference.aspose.com/cells/python-net/aspose.cells/errorchecktype) para establecer la comprobación de errores deseada.
 
 ## **Números Almacenados como Texto**
 
@@ -28,9 +28,9 @@ Ocasionalmente, los números pueden formatearse y almacenarse en celdas como tex
 Puedes usar las opciones de verificación de errores para convertir rápidamente los números almacenados como texto en números reales. En Microsoft Excel 2003:
 
 1. En el menú **Herramientas**, haz clic en **Opciones**.
-1. Selecciona la pestaña de Revisión de Errores. La opción **Número almacenado como texto** está marcada por defecto.
+1. Seleccione la pestaña de Verificación de errores. La opción **Número almacenado como texto** está marcada por defecto.
 1. Desactívala.
 
-El siguiente código de ejemplo muestra cómo deshabilitar la opción de revisión de errores de números almacenados como texto para una hoja de cálculo en el archivo XLS de la plantilla utilizando las APIs de Aspose.Cells para Python via .NET.
+El siguiente código de ejemplo muestra cómo deshabilitar la opción de verificación de errores de números almacenados como texto en una hoja de cálculo en el archivo de plantilla XLS usando las APIs Aspose.Cells para Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ErrorCheckingOptions-1.py" >}}

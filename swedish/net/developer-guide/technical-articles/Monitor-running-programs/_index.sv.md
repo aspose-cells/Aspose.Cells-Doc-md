@@ -12,3 +12,4 @@ Det följande kodexemplet visar hur man övervakar ett körande program. Denna k
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-TechnicalArticles-MonitorRunningPrograms.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

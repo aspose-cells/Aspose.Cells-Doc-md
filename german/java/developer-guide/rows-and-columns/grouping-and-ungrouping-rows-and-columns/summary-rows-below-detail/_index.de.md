@@ -9,7 +9,7 @@ url: /de/java/applying-subtotal-and-changing-direction-of-outline-summary-rows-b
 
 In diesem Artikel wird erläutert, wie Sie eine Zwischensumme auf Daten anwenden und die Richtung der Zusammenfassungszeilen unterhalb des Details ändern können.
 
-Sie können eine Zwischensumme für Daten mithilfe der [**Worksheet.Cells.subtotal()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal(com.aspose.cells.CellArea,%20int,%20int,%20int[])) Methode anwenden. Es nimmt die folgenden Parameter an.
+Sie können eine Zwischensumme für Daten mithilfe der [**Worksheet.Cells.subtotal()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal-com.aspose.cells.CellArea-int-int-int[]-) Methode anwenden. Es nimmt die folgenden Parameter an.
 
 - **CellArea** - Der Bereich, auf den die Zwischensumme angewendet werden soll
 - **GroupBy** - Das Feld, nach dem gruppiert werden soll, als nullbasierter Ganzzahlenoffset
@@ -42,3 +42,4 @@ Der folgende Screenshot zeigt die generierte Excel-Datei, die durch den Beispiel
 Hier ist der Beispielcode, um das oben gezeigte Ergebnis zu erzielen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ApplyingSubtotal-1.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -33,3 +33,4 @@ url: /ja/net/smart-markers-feature/
 - copystyle - 基本セルのスタイルをその列のすべてのセルにコピーします。
 
 パラメータ**noadd**とskipは、交互にデータを挿入するために組み合わせることができます。テンプレートは下から上に処理されるため、交互の行の前に余分な行が挿入されないようにするために、最初の行にnoaddを追加する必要があります。
+{{< app/cells/assistant language="csharp" >}}

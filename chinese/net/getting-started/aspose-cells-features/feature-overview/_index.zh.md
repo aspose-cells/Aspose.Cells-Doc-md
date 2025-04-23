@@ -111,3 +111,4 @@ Aspose.Cells for .NET提供了对所有电子表格元素的格式属性的详�
 |指定边距和页面居中。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |创建或编辑页眉和/或页脚。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |设置打印区域、打印标题或打开网格线等。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< app/cells/assistant language="csharp" >}}

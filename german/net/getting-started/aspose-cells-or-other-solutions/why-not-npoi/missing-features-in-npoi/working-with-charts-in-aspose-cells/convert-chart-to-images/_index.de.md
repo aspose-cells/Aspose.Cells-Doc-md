@@ -74,3 +74,4 @@ Laden Sie **Diagramm in Bilder konvertieren** von einer der unten aufgeführten 
 Für weitere Details besuchen Sie [Konvertieren von Diagramm in Bild](/cells/de/net/converting-chart-to-image-in-svg-format/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

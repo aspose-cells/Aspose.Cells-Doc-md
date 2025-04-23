@@ -158,3 +158,4 @@ workbook.Save(output);
 Aspose.Cells for .NET 8.4.2'den başlayarak, PasteType.All enumerasyon alanı, Excel'in "Tümü" işlevselliğine kıyasla farklı şekilde davranır. Artık PasteType.All, hedef aralığa sütun genişliklerini de kopyalar, Excel'in "Tümü" işlevselliğinin aksine. Excel'in "Tümü" davranışını taklit etmek için, lütfen PasteType.Default'i kullanın.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

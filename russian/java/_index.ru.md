@@ -38,3 +38,4 @@ Aspose.Cells for Java поддерживает популярные формат
 - [Aspose.Cells for Java Руководство по API](https://reference.aspose.com/cells/java)
 - [Aspose.Cells for Java Бесплатный форум поддержки](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Java Платная служба поддержки](https://helpdesk.aspose.com/)
+{{< app/cells/assistant language="java" >}}

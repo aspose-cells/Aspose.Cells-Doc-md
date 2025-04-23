@@ -11,7 +11,7 @@ url: /ar/java/getting-notifications-while-merging-data-with-smart-markers/
 
 {{% /alert %}} 
 ## **الحصول على الإشعارات أثناء دمج البيانات مع العلامات الذكية**
-توضح القطعة البرمجية التالية استخدام [ISmartMarkerCallBack](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack) لتعريف فئة جديدة تدير الاستدعاء لطريقة [WorkbookDesigner.process](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process\(\)).
+يشرح قطعة الكود التالية استخدام واجهة [ISmartMarkerCallBack](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack) لتعريف فئة جديدة تتولى التعامل مع استرجاع النداء للطريقة [WorkbookDesigner.process](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process--).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SmartMarkerCallBack-SmartMarkerCallBack.java" >}}
 
@@ -21,3 +21,4 @@ url: /ar/java/getting-notifications-while-merging-data-with-smart-markers/
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetNotificationsWhileMergingData-GetNotificationsWhileMergingData.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -51,3 +51,4 @@ Sekme ile ayrılmış dosyaları açmak için geliştiricilerin kullanmaları ge
 - [Formülleri Yükle veya İçe Aktar CSV Dosyası](/cells/tr/java/load-or-import-csv-file-with-formulas/)
 - [CSV formatına elektronik tabloları dışa aktarırken Öneki Boş Satırları ve Sütunları Kırp](/cells/tr/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
 
+{{< app/cells/assistant language="java" >}}

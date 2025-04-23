@@ -41,3 +41,4 @@ Veuillez utiliser la méthode [**Worksheet.FreezePanes**](https://reference.aspo
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Row.cs" >}}
 
 Fichier Excel source d'exemple joint [échantillon](../Freeze.xlsx).
+{{< app/cells/assistant language="csharp" >}}

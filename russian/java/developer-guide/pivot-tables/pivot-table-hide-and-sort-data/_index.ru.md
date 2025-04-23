@@ -17,3 +17,4 @@ Aspose.Cells поддерживает скрытие и сортировку д�
 [Исходный файл](PivotTableHideAndSortSample.xlsx)
 
 [Файл результата](PivotTableHideAndSort_out.xlsx)
+{{< app/cells/assistant language="java" >}}

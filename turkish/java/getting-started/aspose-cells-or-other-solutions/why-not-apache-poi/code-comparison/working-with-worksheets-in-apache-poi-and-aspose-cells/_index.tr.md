@@ -14,3 +14,4 @@ url: /tr/java/working-with-worksheets-in-apache-poi-and-aspose-cells/
 - [Çalışma Kitabı İçinde Sayfaları Yeniden Sıralama](/cells/tr/java/re-order-sheets-within-workbook/)
 - [Başlık ve Altlıklar](/cells/tr/java/header-and-footers/)
 - [Aspose.Cells ile Yakınlaştırma Faktörü Kullanma](/cells/tr/java/zoom-factor-using-apache-poi-and-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

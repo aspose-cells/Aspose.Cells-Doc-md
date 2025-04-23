@@ -4,15 +4,15 @@ linktitle: Congelare righe
 type: docs
 weight: 190
 url: /it/python-net/how-to-freeze-rows-of-excel-worksheet
-description: In questo articolo, imparerai come congelare le righe superiori dei fogli di lavoro di Excel in modo programmatico utilizzando Aspose.Cells per Python via .NET.
-keywords: Libreria Excel Python, Congelare righe superiori in Python, Congelare riga superiore in Python.
+description: In questo articolo, imparerai come bloccare le righe superiori dei fogli di lavoro Excel programmaticamente usando Aspose.Cells per le API Python via .NET.
+keywords: Libreria Excel Python, Blocca le righe superiori, Blocca la prima riga superiore.
 ---
 
 ## **Introduzione**
 
 In questo articolo, impareremo come bloccare (freezare) righe in alto. Quando hai una grande quantità di dati sotto un'intestazione comune e non riesci a vedere l'intestazione quando scendi verticalmente, puoi bloccare le righe in alto in modo da poter vedere quella parte fissa anche quando si scorrono il resto dei dati. In questo modo, puoi vedere facilmente le intestazioni nelle righe in alto.
 
-## **Come Congelare Righe In Excel**
+## ** Come bloccare le righe in Excel**
 
 **![Congelare la/e riga/e superiore/i in Excel](Freeze-Rows.png)**
 
@@ -31,8 +31,8 @@ Congelare le righe ti consente di visualizzare i tuoi dati di grandi dimensioni 
 
 
 
-## **Come Congelare Righe con Aspose.Cells per la Libreria Excel Python**
-È semplice congelare la/e riga/e con Aspose.Cells per Python via .NET. Utilizza il metodo [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) per congelare la/e riga/e selezionata/e.
+## ** Come bloccare le righe con Aspose.Cells per la libreria Excel Python**
+ È semplice bloccare le riga con Aspose.Cells per Python via .NET. Usa il metodo [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) per bloccare le righe alla riga selezionata.
 1. Costruire un libro di lavoro per aprire il file o creare un file vuoto.
 2. Congelare la prima riga con il metodo Worksheet.FreezePanes().
 3. Salvare il file.

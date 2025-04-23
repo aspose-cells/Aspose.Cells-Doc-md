@@ -20,3 +20,4 @@ Dieses Beispiel erstellt ein Arbeitsblatt, füllt es mit Daten und kopiert nur d
 1. Kopieren Sie die Formatierung des ersten Bereichs in den zweiten Bereich.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeStyleOnly-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

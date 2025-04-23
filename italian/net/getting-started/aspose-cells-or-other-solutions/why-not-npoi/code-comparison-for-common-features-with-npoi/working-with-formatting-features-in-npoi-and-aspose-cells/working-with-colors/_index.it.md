@@ -113,3 +113,4 @@ Scarica **Lavorare con i colori** da uno dei siti di codici sociali menzionati d
 Per ulteriori dettagli, visita [Caratteristiche di formattazione dati](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

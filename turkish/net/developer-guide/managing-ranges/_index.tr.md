@@ -74,3 +74,4 @@ Lütfen aşağıdaki test dosyasını indirin, excel'de açın, bir alanı seçm
 - [Çalışma Sayfasında Hücre Aralığını Taşıma](/cells/tr/net/move-range-of-cells-in-a-worksheet/)
 - [Çalışma Kitabı ve Çalışma Sayfası Kapsamlı Adlandırılan Aralıkları Oluştur](/cells/tr/net/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Aralıktaki Veriyi Arama ve Değiştirme](/cells/tr/net/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="csharp" >}}

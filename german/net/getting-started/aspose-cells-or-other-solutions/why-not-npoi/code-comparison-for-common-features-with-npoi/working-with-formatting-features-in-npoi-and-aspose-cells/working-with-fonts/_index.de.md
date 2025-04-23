@@ -102,3 +102,4 @@ Laden Sie **Arbeiten mit Schriftarten** von einer der unten genannten Social-Cod
 Für weitere Details besuchen Sie [Datenformatierungsfunktionen](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

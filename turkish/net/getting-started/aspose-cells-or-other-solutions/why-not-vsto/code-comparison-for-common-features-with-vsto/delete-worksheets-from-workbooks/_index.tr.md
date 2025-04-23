@@ -26,3 +26,4 @@ Bir çalışma kitabında herhangi bir çalışsayfayı silebilirsiniz. Bir çal
 {{< /highlight >}}
 ## **İndir**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DeleteWorksheetsFromWorkbooks.zip)
+{{< app/cells/assistant language="csharp" >}}

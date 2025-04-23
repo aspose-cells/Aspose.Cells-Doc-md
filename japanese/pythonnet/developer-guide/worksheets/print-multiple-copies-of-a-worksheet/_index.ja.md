@@ -3,13 +3,13 @@ title: ワークシートの複数のコピーを印刷
 type: docs
 weight: 170
 url: /ja/python-net/print-multiple-copies-of-a-worksheet/
-description: この記事では、Aspose.Cells for Python via .NETAPIを使用してExcelワークシートの複数のコピーをプログラムで印刷する方法を示しています。
-keywords: Python Excelライブラリ、Python複数のエクセルコピーを印刷、Pythonを使用したワークシートの印刷
+description: この記事では、Aspose.Cells for Python via .NET APIを使用して、Excelワークシートの複数コピーをプログラムで印刷する方法を示します。
+keywords: Python Excelライブラリ、Pythonで複数のExcelコピーを印刷、ワークシートの印刷方法
 ---
 
 ## **ワークシートの複数のコピーを印刷する**
 
-Aspose.Cells for Python via .NETは、[**SheetRender.to_printer(printer_settings)**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/to_printer/#aspose.pydrawing.printing.PrinterSettings)メソッドを使用してワークシートの複数のコピーを印刷する機能を提供します。次のコードスニペットは、ワークシートの複数のコピーを印刷するための[**SheetRender.to_printer(printer_settings)**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/to_printer/#aspose.pydrawing.printing.PrinterSettings)メソッドの使用方法を示しています。このコードスニペットでは、この[サンプルエクセルファイル](95584275.xlsx)を使用します。
+Aspose.Cells for Python via .NETは、**[**SheetRender.to_printer(printer_settings)**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/to_printer/#aspose.pydrawing.printing.PrinterSettings)**メソッドを使用してワークシートの複数コピーを印刷する機能を提供します。以下のコードスニペットは、**[**SheetRender.to_printer(printer_settings)**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/to_printer/#aspose.pydrawing.printing.PrinterSettings)**メソッドの使用例を示し、複数のコピーを印刷します。このコードは、[サンプルExcelファイル](95584275.xlsx)を使用しています。
 
 ### サンプルコード
 

@@ -29,3 +29,4 @@ Este ejemplo muestra cómo:
 1. Establecer el borde externo del rango.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Range-set-border.java" >}}
+{{< app/cells/assistant language="java" >}}

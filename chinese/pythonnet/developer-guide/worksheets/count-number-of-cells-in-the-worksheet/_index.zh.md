@@ -3,7 +3,7 @@ title: 计算工作表中单元格的数量
 type: docs
 weight: 110
 url: /zh/python-net/count-number-of-cells-in-the-worksheet/
-description: 在本文中，您将学习如何使用Aspose.Cells for Python via .NET API来以编程方式计算Excel工作表中的单元格数量。
+description: 在本文中，你将学习如何使用 Aspose.Cells for Python via .NET API 编程统计 Excel 工作表中的单元格个数。
 keywords: 计算Excel工作表单元格数量C#，Excel工作表单元格C#
 ---
 

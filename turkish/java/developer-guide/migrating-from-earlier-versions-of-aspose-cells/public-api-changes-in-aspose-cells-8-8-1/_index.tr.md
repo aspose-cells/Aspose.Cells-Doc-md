@@ -199,3 +199,4 @@ Aspose.Cells.GridWeb, GridCell.removeValidation yöntemi kullanılarak bir GridC
 ## **Eskimiş API'lar**
 ### **Eskimiş Shape.TextFrame Özelliği**
 Bu yerine Shape.TextBody.TextAlignment özelliğinin kullanılması tavsiye edilir.
+{{< app/cells/assistant language="java" >}}

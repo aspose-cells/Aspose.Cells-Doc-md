@@ -22,3 +22,4 @@ Puede descargar el [archivo de Excel fuente](5472956.xlsx) y el [PDF de salida](
 ### Código Java para actualizar los valores de formas vinculadas
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RefreshValuesOfLinkedShapes-RefreshValuesOfLinkedShapes.java" >}}
+{{< app/cells/assistant language="java" >}}

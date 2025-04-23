@@ -31,3 +31,4 @@ Der folgende Code demonstriert die Verwendung der Methode [**Worksheet.Shapes.Ad
 Verwenden Sie zur Kopie von Steuerelementen und anderen Zeichenobjekten die Methode [**Worksheet.Shapes.AddCopy**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addcopy), wie im folgenden Beispiel gezeigt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CopyShapesBetweenWorksheets-CopyControlsAndOtherDrawingObjects.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -49,16 +49,16 @@ Microsoft Excel 支持许多不同类型的数据验证。 每种类型用于控
 
 |**成员名称**|**描述**|
 | :- | :- |
-|[ANY_VALUE](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#ANY_VALUE)|表示任何类型的值。
-|[WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE_NUMBER)|表示整数验证类型。
+|[ANY_VALUE](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#ANY-VALUE)|表示任何类型的值。|
+|[WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE-NUMBER)|表示针对整数验证类型。|
 |[DECIMAL](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#DECIMAL)|表示小数验证类型。
 |[LIST](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#LIST)|表示下拉列表验证类型。
 |[DATE](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#DATE)|表示日期验证类型。
 |[TIME](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TIME)|表示时间验证类型。
-|[TEXT_LENGTH](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TEXT_LENGTH)|表示文本长度验证类型。
+|[TEXT_LENGTH](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TEXT-LENGTH)|表示针对文本长度的验证类型。|
 |[CUSTOM](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#CUSTOM)|表示自定义验证类型。
 #### **编程示例：整数数据验证**
-使用此类型的验证，用户只能在验证的单元格中输入指定范围内的整数。接下来的代码示例展示了如何实现[WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE_NUMBER)验证类型。示例创建了一个与我们在Microsoft Excel中创建的相同的数据验证，使用Aspose.Cells。
+使用此验证类型，用户只能在验证单元格中输入特定范围内的整数。以下示例演示如何实现[WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE-NUMBER)验证类型。示例使用Aspose.Cells创建与前面Microsoft Excel中相同的数据验证。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-WholeNumberDataValidation-WholeNumberDataValidation.java" >}}
 
@@ -99,7 +99,7 @@ Microsoft Excel 支持许多不同类型的数据验证。 每种类型用于控
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-TextLengthDataValidation-TextLengthDataValidation.java" >}}
 ## **数据验证规则**
-当实施数据验证时，可以通过在单元格中分配不同的值来检查验证。[Cell.GetValidationValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue\(\)) 可用于获取验证结果。以下示例演示了使用不同值的此功能。可从以下链接下载示例文件进行测试:
+当实现数据验证时，可以通过在单元格中赋值不同的内容来检验验证效果。可以使用[Cell.GetValidationValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--)方法获取验证结果。以下示例演示了此功能。测试文件可通过以下链接下载：
 
 [SampleDataValidationRules.xlsx](77987849.xlsx)
 
@@ -113,9 +113,9 @@ Microsoft Excel 支持许多不同类型的数据验证。 每种类型用于控
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-CheckIfValidationInCellDropDown-1.java" >}}
 ## **为现有验证添加CellArea**
-也许会有这样的情况，您可能希望向现有验证添加[CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)。通过使用[Validation.AddArea(CellArea cellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea\))，Aspose.Cells会检查所有现有区域，看看新区域是否已经存在。如果文件具有大量验证，这将影响性能。为解决此问题，API提供了[Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) 方法。*checkIntersection*参数指示是否检查给定区域与现有验证区域的交集。将其设置为**false**将禁用其他区域的检查。*checkEdge*参数指示是否检查已应用的区域。如果新区域成为左上角区域，内部设置将重新构建。如果您确信新区域不是左上角区域，可以将此参数设置为**false**。
+在某些情况下，可能需要向现有[Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation)中添加[CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)。调用[Validation.AddArea(CellArea cellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea-com.aspose.cells.CellArea-)添加区域时，Aspose.Cells会检查所有现有区域以确认新区域是否已存在。如果文件中验证较多，性能可能会受到影响。为此，API提供了[Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea-com.aspose.cells.CellArea-boolean-boolean-)方法。参数*checkIntersection*表示是否需要检查新区域与现有验证区的交集，设置为**false**将禁用此检测。参数*checkEdge*表示是否检查应用的区域，如果新区域成为左上角区域，则会重建内部设置。如果确认新区域不是左上角区域，可以将此参数设为**false**。
 
-以下代码片段演示了使用[Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) 方法向现有验证添加新的[CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)。
+以下代码片段演示如何使用[Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea-com.aspose.cells.CellArea-boolean-boolean-)方法，为现有[Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation)添加新的[CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)。
 
 
 
@@ -132,3 +132,4 @@ Microsoft Excel 支持许多不同类型的数据验证。 每种类型用于控
 - [获取ODS文件中的单元格验证](/cells/zh/java/get-cell-validation-in-ods-files/)
 - [获取应用于单元格的验证](/cells/zh/java/get-validation-applied-on-a-cell/)
 - [验证单元格值是否满足数据验证规则](/cells/zh/java/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="java" >}}

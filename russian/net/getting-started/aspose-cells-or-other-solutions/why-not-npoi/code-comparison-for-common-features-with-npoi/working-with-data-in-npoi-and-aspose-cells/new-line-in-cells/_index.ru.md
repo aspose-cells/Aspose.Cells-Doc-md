@@ -77,3 +77,4 @@ sw.Close();
 Для получения более подробной информации посетите [Разрывы строк и перенос текста](/cells/ru/net/line-breaks-and-text-wrapping/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

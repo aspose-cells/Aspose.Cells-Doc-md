@@ -19,3 +19,4 @@ url: /ru/net/date-axis/
 ![todo:image_alt_text](excel.png)
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "DateAxis.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

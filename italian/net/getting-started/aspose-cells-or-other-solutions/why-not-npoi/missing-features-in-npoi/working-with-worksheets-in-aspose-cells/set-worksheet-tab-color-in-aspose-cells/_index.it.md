@@ -44,3 +44,4 @@ Scarica **Imposta il colore della scheda del foglio di lavoro** da uno dei siti 
 Per ulteriori dettagli, visita [Imposta il colore della scheda del foglio di lavoro](/cells/it/net/set-worksheet-tab-color/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

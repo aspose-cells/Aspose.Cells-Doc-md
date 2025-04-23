@@ -231,3 +231,4 @@ Desteklenen 2D ve 3D grafik türlerinin tam listesi için [Görüntüleme için 
 
 ## **Gelişmiş Konular**
 - [Grafikte Arka Plan Doldurma Olarak Resim Ayarlama](/cells/tr/java/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="java" >}}

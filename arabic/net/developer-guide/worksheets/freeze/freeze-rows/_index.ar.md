@@ -41,3 +41,4 @@ keywords: تجميد الصفوف الأعلى، تجميد الصف الأعل�
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Row.cs" >}}
 
 [ملف Excel مصدري عينة مرفق](../Freeze.xlsx).
+{{< app/cells/assistant language="csharp" >}}

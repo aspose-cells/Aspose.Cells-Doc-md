@@ -16,3 +16,4 @@ Sie können den Kommentar für die Tabelle oder das Listenobjekt im Arbeitsblatt
 Der folgende Beispielcode lädt die [Quell-Excel-Datei](5115514.xlsx) und setzt den Kommentar für die erste Tabelle oder das erste Listenobjekt im Arbeitsblatt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-SetCommentOfTableOrListObject-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

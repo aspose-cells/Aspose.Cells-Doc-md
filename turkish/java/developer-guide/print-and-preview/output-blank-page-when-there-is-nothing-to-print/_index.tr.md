@@ -18,3 +18,4 @@ Aşağıdaki örnek kod boş bir elektronik tablo oluşturur ve [**ImageOrPrintO
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-OutputBlankPageWhenThereIsNothingToPrint-1.java" >}}
+{{< app/cells/assistant language="java" >}}

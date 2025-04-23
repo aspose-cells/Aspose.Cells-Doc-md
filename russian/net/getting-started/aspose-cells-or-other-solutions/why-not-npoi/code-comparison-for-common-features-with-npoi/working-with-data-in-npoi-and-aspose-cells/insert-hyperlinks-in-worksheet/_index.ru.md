@@ -203,3 +203,4 @@ sw.Close();
 Для получения более подробной информации посетите страницу [Добавление гиперссылок для связывания данных](/cells/ru/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

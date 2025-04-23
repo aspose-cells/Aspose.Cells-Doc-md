@@ -13,3 +13,4 @@ Följande exempelkod laddar den [provmappen](67338479.xlsx) som innehåller en b
 ![todo:image_alt_text](rendering-slicer_1)
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-RenderingSlicer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

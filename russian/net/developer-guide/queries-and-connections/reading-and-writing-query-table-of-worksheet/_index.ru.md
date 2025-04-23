@@ -44,3 +44,4 @@ Preserve Formatting: False
 Aspose.Cells предоставляет возможность чтения адреса, то есть диапазона результатов ячеек для таблицы запросов. Следующий код демонстрирует эту функцию, считывая адрес диапазона результатов для таблицы запросов. Образец файла можно скачать [здесь](72417290.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAddressOfResultRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

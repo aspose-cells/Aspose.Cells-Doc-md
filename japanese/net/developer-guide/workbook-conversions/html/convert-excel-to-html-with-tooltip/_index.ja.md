@@ -18,3 +18,4 @@ url: /ja/net/convert-excel-to-html-with-tooltip/
 サンプルコード
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToHtmlWithTooltip-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

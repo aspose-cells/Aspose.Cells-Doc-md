@@ -18,3 +18,4 @@ keywords: 获取单元格值的文本宽度，获得单元格值的文本宽度
 ## 示例代码
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-CellsHelper-GetTextWidth-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

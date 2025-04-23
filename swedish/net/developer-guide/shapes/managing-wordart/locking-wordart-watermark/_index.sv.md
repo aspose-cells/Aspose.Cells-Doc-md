@@ -14,3 +14,4 @@ Aspose.Cells API:erna tillåter att lägga till WordArt-vattenstämplar på kalk
 Aspose.Cells API:erna tillåter att låsa vissa aspekter av vattenstämpeln så att användarinteraktionen kan begränsas eller helt blockeras. Följande kodsnutt visar användningen av Aspose.Cells for .NET API för att låsa val av, rörelse, redigering och storleksändring av vattenstämpeln genom att skapa ett kalkylblad från grunden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-LockingWordartWatermark-LockingWordartWatermark.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -14,3 +14,4 @@ Vous pouvez protéger par mot de passe le projet VBA (Visual Basic for Applicati
 Le code d'exemple suivant charge le [fichier Excel d'exemple](43352067.xlsm), accède à son projet VBA et le protège avec un mot de passe. Enfin, il l'enregistre en tant que [fichier Excel de sortie](43352068.xlsm).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProjectPassword-ProtecttheVBAProjectofExcelWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

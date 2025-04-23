@@ -24,3 +24,4 @@ Im folgenden Beispielcode sehen Sie, wie Sie die auf eine Zelle angewendete Vali
 ## Verwandte Artikel
 
 - [Datenüberprüfung](/cells/de/net/data-validation/)
+{{< app/cells/assistant language="csharp" >}}

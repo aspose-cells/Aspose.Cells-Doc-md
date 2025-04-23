@@ -46,3 +46,4 @@ Gereksinim duyulmadığında tüm edinilen kaynakları temizlemekten sorumludur.
 Elektronik tablonun örneklerini oluşturur ve onları gerektiği sürece bellekte tutar.
 ### **CellsService**
 **CellsService**, satırların, sütunların, hücrelerin, biçimlendirmenin ve çalışma sayfasının yapısının önbelleğini yönetir.
+{{< app/cells/assistant language="java" >}}

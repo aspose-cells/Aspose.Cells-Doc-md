@@ -29,3 +29,4 @@ Por favor, vea el siguiente código, crea un objeto workbook y agrega múltiples
 ## **Código de muestra en C#**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AutoFitRowsMergedCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

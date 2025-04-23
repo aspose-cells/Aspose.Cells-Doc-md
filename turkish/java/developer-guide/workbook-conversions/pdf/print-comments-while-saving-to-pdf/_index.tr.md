@@ -19,9 +19,9 @@ Microsoft Excel, aşağıdaki seçeneklerle PDF biçimine yazdırırken veya kay
 
 Aspose.Cells, PDF'ye kaydederken yorumları yazdırmayı desteklemek için aşağıdaki numaraları sağlar
 
-- [**PrintCommentsType.PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS)
-- [**PrintCommentsType.PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)
-- [**PrintCommentsType.PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_SHEET_END)
+- [**PrintCommentsType.PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-NO-COMMENTS)
+- [**PrintCommentsType.PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-IN-PLACE)
+- [**PrintCommentsType.PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-SHEET-END)
 
 ## Kod Örneği
 
@@ -32,3 +32,4 @@ Aşağıdaki örnek kod, PDF'ye kaydederken yorumları yazdırmak için [**Print
 ## İlgili Makaleler
 
 - [PDFA-1a uyumlu PDF biçimine Excel dosyasını dönüştür](/cells/tr/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+{{< app/cells/assistant language="java" >}}

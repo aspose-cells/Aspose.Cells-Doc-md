@@ -50,3 +50,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 Se il foglio di calcolo contiene formule, è meglio chiamare il metodo Workbook.CalculateFormula appena prima di rendere il foglio di calcolo nel formato PDF. In questo modo ci si assicurerà che i valori dipendenti dalle formule vengano ricalcolati e che i valori corretti vengano resi nel PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

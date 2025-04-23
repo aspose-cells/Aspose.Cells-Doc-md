@@ -26,3 +26,4 @@ Afin de démontrer l'utilisation de l'API Aspose.Cells for Java pour créer un g
 
 - [Création et Personnalisation des Graphiques](/cells/fr/java/creating-and-customizing-charts/)
 - [Formatage des Graphiques](/cells/fr/java/chart-formatting/)
+{{< app/cells/assistant language="java" >}}

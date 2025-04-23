@@ -22,3 +22,4 @@ Aspose.Cells fournit également les méthodes [**PivotTable.showInCompactForm()*
 Le code d'exemple suivant montre d'abord le tableau croisé dynamique sous **Forme compacte**, puis il montre le tableau croisé dynamique sous **Forme de plan** et enfin, il montre le tableau croisé dynamique sous **Forme tabulaire**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangingLayoutofPivotTable-ChangingLayoutofPivotTable.java" >}}
+{{< app/cells/assistant language="java" >}}

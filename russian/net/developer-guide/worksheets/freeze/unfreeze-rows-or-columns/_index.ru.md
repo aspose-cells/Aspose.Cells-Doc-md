@@ -32,3 +32,4 @@ keywords: Снять замораживание панелей, снять за�
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Unfreeze-Pane.cs" >}}
 
 Прикреплен [образец исходного файла Excel](Frozen.xlsx).
+{{< app/cells/assistant language="csharp" >}}

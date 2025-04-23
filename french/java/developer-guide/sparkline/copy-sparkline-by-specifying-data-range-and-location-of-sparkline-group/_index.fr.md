@@ -33,3 +33,4 @@ La capture d'écran suivante montre le fichier Excel de sortie généré par le 
 Le code d'exemple suivant charge le fichier Excel source comme indiqué dans la capture d'écran ci-dessus, puis accède au premier groupe de sparkline et ajoute des plages de données et des emplacements à l'intérieur du groupe de sparkline. Enfin, il écrit le fichier Excel de sortie sur le disque, comme le montre également la capture d'écran ci-dessus.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopySparkline-CopySparkline.java" >}}
+{{< app/cells/assistant language="java" >}}

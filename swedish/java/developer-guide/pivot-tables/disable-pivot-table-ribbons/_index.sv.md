@@ -16,3 +16,4 @@ Rapporter baserade på pivottabeller är användbara men benägna för fel om m�
 Följande kod demonstrerar denna funktion genom att komma åt en pivot-tabell från ett blad och sedan anropa [**setEnableWizard**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#EnableWizard) för att sätta denna flagga till **false**. Exempelpivot-tabellsfil kan hämtas från denna [länk](71630876.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-DisablePivotTableRibbon-1.java" >}}
+{{< app/cells/assistant language="java" >}}

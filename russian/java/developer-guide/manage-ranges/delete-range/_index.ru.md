@@ -13,7 +13,7 @@ url: /ru/java/delete-ranges-from-Excel/
 
 ## **Удаление диапазонов с помощью Aspose.Cells**
 
-Aspose.Cells предоставляет метод [Cells.DeleteRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRange(int,%20int,%20int,%20int,%20int)) для удаления диапазона.
+Aspose.Cells предоставляет метод [Cells.DeleteRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRange-int-int-int-int-int-) для удаления диапазона.
 
 ## **Удалить диапазоны и сдвинуть ячейки влево**
 
@@ -27,3 +27,4 @@ Aspose.Cells предоставляет метод [Cells.DeleteRange](https://r
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Delete-Range-Up.java" >}}
 
+{{< app/cells/assistant language="java" >}}

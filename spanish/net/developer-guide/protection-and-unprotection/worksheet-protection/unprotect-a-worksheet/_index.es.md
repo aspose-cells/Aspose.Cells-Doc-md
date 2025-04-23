@@ -31,3 +31,4 @@ Una hoja de cálculo simplemente protegida es aquella que no está protegida con
 Una hoja de cálculo protegida con contraseña es aquella que está protegida con una contraseña. Estas hojas de cálculo pueden desprotegerse llamando a una versión sobrecargada del método [**Unprotect**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/unprotect/methods/1) que toma la contraseña como parámetro.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Unprotect-UnprotectingPasswordProtectedWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

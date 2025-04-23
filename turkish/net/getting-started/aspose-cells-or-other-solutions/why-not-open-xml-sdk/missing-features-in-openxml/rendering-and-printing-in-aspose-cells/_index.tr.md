@@ -10,3 +10,4 @@ Bu bölüm aşağıdaki konuları içerir
 - [Grafikleri Resimlere Dönüştürme](/cells/tr/net/convert-charts-to-images/)
 - [Tabloları Yazdırma](/cells/tr/net/print-spreadsheets/)
 - [Görüntü çözünürlüğünü, kalitesini, sıkıştırmasını ve diğer seçenekleri belirtin](/cells/tr/net/specify-image-resolution-quality-compression-and-other-options/)
+{{< app/cells/assistant language="csharp" >}}

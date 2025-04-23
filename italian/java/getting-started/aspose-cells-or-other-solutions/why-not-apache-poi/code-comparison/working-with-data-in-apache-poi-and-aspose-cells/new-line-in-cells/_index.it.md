@@ -63,3 +63,4 @@ cell.setCellStyle(cs);
 Per ulteriori dettagli, visita [Interruzioni di linea e testo a capo](/java/line-breaks-and-text-wrapping).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

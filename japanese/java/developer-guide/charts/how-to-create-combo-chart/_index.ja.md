@@ -20,3 +20,4 @@ Excelのコンボチャートを使用すると、データを理解しやすく
 以下のサンプルコードは、[サンプルExcelファイル](combo.xlsx)を読み込み、[出力Excelファイル](out.xlsx)を生成します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-add-combo-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

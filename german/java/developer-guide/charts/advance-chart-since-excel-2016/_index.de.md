@@ -36,3 +36,4 @@ BoxWhisker
 
 ## **Erweiterte Themen**
 - [Erstellung eines Wasserfalldiagramms](/cells/de/java/creating-waterfall-chart/)
+{{< app/cells/assistant language="java" >}}

@@ -79,3 +79,4 @@ Ora si prega di eseguire il seguente esempio, vedere come funziona in Aspose.Cel
 - [Intervallo nominato](/cells/it/java/named-ranges/)
 - [Cerca e Sostituisci Dati in un Intervallo](/cells/it/java/search-and-replace-data-in-a-range/)
 
+{{< app/cells/assistant language="java" >}}

@@ -58,3 +58,4 @@ Aspose.Cells stödjer tillämpning av villkorlig formatering under körning.
 - [Tillämpa villkorlig formatering i arbetsblad](/cells/sv/java/apply-conditional-formatting-in-worksheets/)
 - [Tillämpa skuggning på alternerande rader och kolumner med villkorlig formatering](/cells/sv/java/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
 
+{{< app/cells/assistant language="java" >}}

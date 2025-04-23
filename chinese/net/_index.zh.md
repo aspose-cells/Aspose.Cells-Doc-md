@@ -75,3 +75,4 @@ Aspose.Cells for .NET支持流行的电子表格文件格式（XLS、XLSX、XLSM
 			</ul>
 	</div>
 </div>
+{{< app/cells/assistant language="csharp" >}}

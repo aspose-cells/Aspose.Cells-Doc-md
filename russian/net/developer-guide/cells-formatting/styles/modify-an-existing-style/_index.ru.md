@@ -52,3 +52,4 @@ Aspose.Cells позволяет изменять любой из этих сти
 Изменения автоматически применяются к диапазону, к которому был применен стиль.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ModifyExistingStyle-ModifyThroughSampleExcelFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

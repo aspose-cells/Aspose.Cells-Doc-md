@@ -26,3 +26,4 @@ Mentre, nell'immagine del foglio di lavoro seguente, è stata applicata la trasp
 Puoi utilizzare il seguente codice di esempio per generare un'immagine trasparente del tuo foglio di lavoro di Excel.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CreateTransparentImage-1.java" >}}
+{{< app/cells/assistant language="java" >}}

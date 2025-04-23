@@ -41,3 +41,4 @@ pageSetup.PrintTitleRows= "$1:$2";
 要了解更多详细信息，请访问[设置打印选项](/cells/zh/net/setting-print-options/)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

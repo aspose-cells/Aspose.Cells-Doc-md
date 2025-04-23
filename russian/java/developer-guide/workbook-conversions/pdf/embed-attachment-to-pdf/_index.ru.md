@@ -6,11 +6,12 @@ url: /ru/java/embed-attachment-to-pdf/
 
 ---
 
-В Excel вы можете вставить объект OLE со структурными данными ([пример вложенных вложений.xlsx](пример вложенных вложений.xlsx)) . Дважды щелкните по объекту OLE, встроенный файл будет открыт.
+В Excel можно вставить объект Ole с исходными данными ([embedded-attachments-example.xlsx](embedded-attachments-example.xlsx)). Двойной щелчок по объекту Ole откроет вложенный файл.
 
-Обычно при конвертации в pdf объект OLE будет отображаться в виде значка или миниатюры без структурных данных объекта OLE. С помощью опции [PdfSaveOptions.EmbedAttachments](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setEmbedAttachments-boolean-) можно встроить структурные данные объекта OLE в качестве вложения в PDF. Вы можете дважды щелкнуть по значку или миниатюре в PDF, чтобы открыть исходный файл объекта OLE.
+Обычно при преобразовании в pdf объект Ole отображается в виде значка или миниатюры без исходных данных. При использовании опции [PdfSaveOptions.EmbedAttachments](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setEmbedAttachments-boolean-), вы можете встроить исходные данные Ole-объекта как вложение в PDF. Двойной щелчок по значку или миниатюре в PDF откроет исходный файл Ole-объекта.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-EmbedAttachmentToPdf.java" >}}
 
-![вставленное-вложение.png](вставленное-вложение.png)
+![embedded-attachment.png](embedded-attachment.png)
 
+{{< app/cells/assistant language="java" >}}

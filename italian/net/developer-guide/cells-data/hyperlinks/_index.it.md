@@ -64,3 +64,4 @@ E' possibile aggiungere collegamenti ipertestuali a file Excel esterni chiamando
 - [Modifica dei collegamenti ipertestuali del foglio di lavoro](/cells/it/net/editing-hyperlinks-of-worksheet/)
 - [Ottieni i collegamenti ipertestuali nell'intervallo](/cells/it/net/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -1,0 +1,97 @@
+---
+title: Exporter les équations Excel en autres formats avec Python.NET
+linktitle: Exporter l équation
+type: docs
+weight: 100
+url: /fr/python-net/export-equation/
+description: Apprenez comment exporter les équations Excel aux formats LaTeX et MathML en utilisant Aspose.Cells pour Python via .NET.
+---
+
+Parfois, vous pouvez avoir besoin d'exporter des formules Excel dans d'autres formats dans votre code pour répondre à vos exigences professionnelles. La bibliothèque Aspose.Cells peut répondre à vos besoins. Le contenu suivant explique les méthodes d'exportation de formules Excel vers d'autres formats.
+
+Nous avons préparé un code d'exemple ici pour vous aider à atteindre vos objectifs en utilisant Aspose.Cells. Les fichiers d'échantillon nécessaires sont également fournis.
+
+Fichier d'exemple : [Sample.xlsx](Sample.xlsx)
+
+## **Exporter des équations sous forme d'expressions LaTeX**
+
+Pour exporter des équations dans Excel sous forme d'expressions LaTeX, utilisez la méthode [to_latex()](https://reference.aspose.com/cells/python-net/aspose.cells.drawing.equations/accentequationnode/to_la_te_x/).
+
+Le code d'exemple suivant montre comment utiliser la méthode [to_latex()](https://reference.aspose.com/cells/python-net/aspose.cells.drawing.equations/accentequationnode/to_la_te_x/) et insérer les résultats générés dans HTML :
+
+### Code Python
+
+```python
+import os
+from aspose.cells import Workbook
+from aspose.cells.drawing import TextBox
+from aspose.cells.drawing.equations import EquationNode
+
+dir_path = "testcase/data"
+workbook = Workbook(os.path.join(dir_path, "Sample_equation.xlsx"))
+
+html_content = [
+    "<!DOCTYPE html>",
+    "<html lang=\"en\">",
+    "<head>",
+    "    <meta charset=\"UTF-8\">",
+    "    <title>Title</title>",
+    "    <script type=\"text/javascript\" async src=\"https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML\"></script>",
+    "    <script type=\"text/x-mathjax-config\">",
+    "        MathJax.Hub.Config({",
+    "            tex2jax: {",
+    "                inlineMath: [['$','$'], ['\\\\(','\\\\)']],",
+    "                processEscapes: true",
+    "            }",
+    "        });",
+    "    </script>",
+    "</head>",
+    "<body>"
+]
+
+textboxes = workbook.worksheets[0].text_boxes
+text_box = textboxes[0] # Assuming first shape is TextBox
+math_node = text_box.get_equation_paragraph().get_child(0)
+latex_expression = math_node.to_la_te_x()
+html_content.append(f"<p>${latex_expression}$</p>")
+html_content.append("</body>")
+html_content.append("</html>")
+
+with open("result.html", "w", encoding="utf-8") as f:
+    f.write("\n".join(html_content))
+```
+
+## **Exporter des équations sous forme d'expressions MathML**
+
+Pour exporter des équations dans Excel sous forme d'expressions MathML, utilisez la méthode [to_math_ml()](https://reference.aspose.com/cells/python-net/aspose.cells.drawing.equations/equationnode/to_math_ml/).
+
+Le code d'exemple suivant montre comment utiliser la méthode [to_math_ml()](https://reference.aspose.com/cells/python-net/aspose.cells.drawing.equations/equationnode/to_math_ml/) et insérer les résultats générés dans HTML :
+
+### Code Python
+
+```python
+import os
+from aspose.cells import Workbook
+from typing import List
+
+dir_path = "testcase/data/"
+
+workbook = Workbook(os.path.join(dir_path, "Sample_equation.xlsx"))
+
+html_builder = [
+    "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Title</title>\n",
+    "    <script type=\"text/javascript\" async src=\"https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML\"></script>\n</head>\n<body>"
+]
+
+textboxes = workbook.worksheets[0].text_boxes
+text_box = textboxes[0]  # Type inferred as TextBox from ShapeCollection
+math_node = text_box.get_equation_paragraph().get_child(0)
+html_builder.append(math_node.to_math_ml())
+html_builder.append("</body>\n</html>")
+
+html_content = "\n".join(html_builder)
+
+output_path = os.path.join(dir_path, "result.html")
+with open(output_path, "w", encoding="utf-8") as file:
+    file.write(html_content)
+```

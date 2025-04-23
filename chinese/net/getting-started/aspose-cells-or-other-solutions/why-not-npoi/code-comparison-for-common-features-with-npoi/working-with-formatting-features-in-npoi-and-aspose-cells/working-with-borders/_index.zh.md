@@ -90,3 +90,4 @@ sw.Close();
 更多详情，请访问[数据格式化功能](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

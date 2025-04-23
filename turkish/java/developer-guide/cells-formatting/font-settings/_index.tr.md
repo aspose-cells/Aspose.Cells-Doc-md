@@ -20,7 +20,7 @@ Microsoft Excel gibi, Aspose.Cells de hücrelerin yazı tipi ayarlarını yapıl
 ## **Font Ayarlarını Yapılandırma**
 Aspose.Cells, bir Microsoft Excel dosyasını temsil eden [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) sınıfını sağlar. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) sınıfı, bir Excel dosyasındaki her çalışma sayfasına erişime izin veren [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) içerir. Bir çalışma sayfası, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıfı tarafından temsil edilir. [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıfı, bir [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonu sağlar. [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonundaki her öğe, [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) sınıfının bir nesnesini temsil eder.
 
-Aspose.Cells, [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) sınıfının [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) metodunu sağlar. Bu metod, bir hücrenin biçimlendirmesini ayarlamak için kullanılır. Ayrıca [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) sınıfının nesnesi, yazı tipi ayarlarını yapılandırmak için özellikler sağlar.
+Aspose.Cells, hücrenin biçimlendirmesini ayarlamak için kullanılan [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) sınıfının [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle-com.aspose.cells.Style-) metodunu sağlar. Ayrıca, [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) sınıfının nesnesi, yazı tipi ayarlarını yapılandırmak için özellikler sağlar.
 
 Bu makalede, şunları gösterecektir:
 
@@ -53,21 +53,21 @@ Hücrelerdeki metne belirli bir yazı tipi uygulamak için [Font](https://refere
 |[SINGLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#SINGLE)|Tek bir alt çizgi|
 |[DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE)|Çift alt çizgi|
 |[ACCOUNTING](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#ACCOUNTING)|Tek bir muhasebe alt çizgisi|
-|[DOUBLE_ACCOUNTING](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE_ACCOUNTING)|Çift muhasebe alt çizgisi|
+|[DOUBLE_ACCOUNTING](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE-ACCOUNTING)|Çift muhasebe altı çizgi|
 |[DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH)|Kesikli Alt Çizgi|
-|[DASH_DOT_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_DOT_DOT_HEAVY)|Kalın Kesikli Nokta-Nokta Alt Çizgi|
-|[DASH_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_DOT_HEAVY)|Kesikli Nokta-Nokta Alt Çizgi|
-|[DASHED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASHED_HEAVY)|Kalın Kesikli Alt Çizgi|
-|[DASH_LONG](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG)|Uzun Kesik Alt Çizgi|
-|[DASH_LONG_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG_HEAVY)|Kalın Uzun Kesik Alt Çizgi|
-|[DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DASH)|Çizgi-Nokta Alt Çizgi|
-|[DOT_DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DOT_DASH)|Çizgi-Nokta-Nokta Alt Çizgi|
+|[DASH_DOT_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH-DOT-DOT-HEAVY)|Kalın Dash-Nokta-Nokta Altı Çizgi|
+|[DASH_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH-DOT-HEAVY)|Kalın Dash-Nokta Altı Çizgi|
+|[DASHED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASHED-HEAVY)|Kalın Kesik Çizili Altı Çizgi|
+|[DASH_LONG](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH-LONG)|Uzun Kesik Çizgi Altı Çizgi|
+|[DASH_LONG_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH-LONG-HEAVY)|Kalın Uzun Kesik Çizgi Altı Çizgi|
+|[DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT-DASH)|Nokta-Dik Kesik Altı Çizgi|
+|[DOT_DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT-DOT-DASH)|Nokta-Nokta-Dik Kesik Altı Çizgi|
 |[DOTTED](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED)|Noktalı Alt Çizgi|
-|[DOTTED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED_HEAVY)|Kalın Noktalı Alt Çizgi|
+|[DOTTED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED-HEAVY)|Kalın Noktalı Altı Çizgi|
 |[HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#HEAVY)|Kalın Alt Çizgi|
 |[WAVE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVE)|Dalgalı Alt Çizgi|
-|[WAVY_DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_DOUBLE)|Çift Dalgalı Alt Çizgi|
-|[WAVY_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_HEAVY)|Kalın Dalgalı Alt Çizgi|
+|[WAVY_DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY-DOUBLE)|İki Dalgalı Altı Çizgi|
+|[WAVY_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY-HEAVY)|Kalın Dalgalı Altı Çizgi|
 |[WORDS](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WORDS)|Sadece Boşluk Olmayan Karakterlere Alt Çizgi Uygula|
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontUnderlineType-SettingFontUnderlineType.java" >}}
 
@@ -102,3 +102,4 @@ Hücrelerdeki metne belirli bir yazı tipi uygulamak için [Font](https://refere
 ## **Gelişmiş Konular**
 - [Yazı Tipi Üzerine Üst Simge ve Abone Etkileri Uygulama](/cells/tr/java/apply-superscript-and-subscript-effects-on-fonts/)
 - [Bir Elektronik Tablo veya Çalışma Kitabında Kullanılan Yazı Tiplerinin Listesini Alın](/cells/tr/java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
+{{< app/cells/assistant language="java" >}}

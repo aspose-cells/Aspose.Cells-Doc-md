@@ -15,3 +15,4 @@ url: /ar/net/using-workbookmetadata/
 يستخدم الكود العيني التالي فئة [**WorkbookMetadata**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata) لتحرير خصائص الوثيقة المخصصة للسجل. بمجرد فتح السجل باستخدام فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)، ستتمكن من قراءة خصائص الوثيقة. إليك كود العينة باستخدام الفئة [**WorkbookMetadata**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingWorkbookMetadata-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

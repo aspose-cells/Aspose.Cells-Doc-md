@@ -46,7 +46,7 @@ Sie können die folgende Methode verwenden, um eine Linie im Arbeitsblatt einzuf
 
 {{% alert color="primary" %}}
 
-[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)
 
 Die Methode gibt ein [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-Objekt zurück.
 
@@ -80,7 +80,7 @@ Sie können die folgende Methode verwenden, um einen Linienpfeil in das Arbeitsb
 
 {{% alert color="primary" %}}
 
-[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)
 
 Die Methode gibt ein [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-Objekt zurück.
 
@@ -114,7 +114,7 @@ Sie können die folgende Methode verwenden, um ein Rechteck im Arbeitsblatt einz
 
 {{% alert color="primary" %}}
 
-[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)
 
 Die Methode gibt ein [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-Objekt zurück.
 
@@ -148,7 +148,7 @@ Sie können die folgende Methode verwenden, um einen Würfel im Arbeitsblatt ein
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Die Methode gibt ein [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-Objekt zurück.
 
@@ -182,7 +182,7 @@ Sie k�nnen die folgende Methode verwenden, um einen Callout-Quad-Pfeil in das 
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Die Methode gibt ein [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-Objekt zurück.
 
@@ -216,7 +216,7 @@ Sie können die folgende Methode verwenden, um ein Multiplikationszeichen im Arb
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Die Methode gibt ein [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-Objekt zurück.
 
@@ -250,7 +250,7 @@ Sie können die folgende Methode verwenden, um ein Multidokument in das Arbeitsb
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Die Methode gibt ein [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-Objekt zurück.
 
@@ -284,7 +284,7 @@ Sie können die folgende Methode verwenden, um einen Fünfzackigen Stern in das 
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Die Methode gibt ein [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-Objekt zurück.
 
@@ -318,7 +318,7 @@ Sie können die folgende Methode verwenden, um eine Gedankenblasenwolke in das A
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Die Methode gibt ein [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-Objekt zurück.
 
@@ -331,3 +331,4 @@ Im folgenden Beispiel wird gezeigt, wie man eine Gedankenblasenwolke in ein Arbe
 Führen Sie den obigen Code aus, und Sie erhalten die folgenden Ergebnisse:
 
 ![](thought_bubble_cloud2.png)
+{{< app/cells/assistant language="java" >}}

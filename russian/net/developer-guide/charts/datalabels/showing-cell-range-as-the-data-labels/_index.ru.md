@@ -24,3 +24,4 @@ url: /ru/net/showing-cell-range-as-the-data-labels/
 В приведенном ниже образце кода доступ к меткам данных серии графика и устанавливает свойство [**DataLabels.ShowCellRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/showcellrange) в **true**, чтобы выбрать опцию **Метка содержит - значение из ячеек**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ShowCellRangeAsDataLabels-ShowCellRangeAsDataLabels.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -19,3 +19,4 @@ L'esempio seguente mostra come tagliare e incollare celle all'interno di un fogl
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-CutAndPasteCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

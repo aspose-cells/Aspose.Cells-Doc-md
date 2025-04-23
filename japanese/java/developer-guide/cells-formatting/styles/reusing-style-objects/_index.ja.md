@@ -28,3 +28,4 @@ url: /ja/java/reusing-style-objects/
 [**Cell.getStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle--)と[**Cell.setStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell/#setStyle-com.aspose.cells.Style-)メソッドは、メモリをはるかに少なく効率的に使用するため、以前の*Cell.getStyle()*プロパティ（不必要なメモリを大量に消費していた）は*Aspose.Cells 7.1.0*のリリース時に削除されました。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

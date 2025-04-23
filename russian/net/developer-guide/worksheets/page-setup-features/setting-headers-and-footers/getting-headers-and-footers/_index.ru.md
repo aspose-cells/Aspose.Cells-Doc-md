@@ -44,3 +44,4 @@ Aspose.Cells for .Net предоставляет метод [**Worksheet.PageSet
 Следующий код demonstriruet как разобрать заголовок или колонтитул в виде списка команд и обработать команды:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Parses-Header-Footer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

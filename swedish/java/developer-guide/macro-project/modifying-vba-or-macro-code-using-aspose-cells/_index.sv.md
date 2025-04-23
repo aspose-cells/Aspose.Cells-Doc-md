@@ -56,3 +56,4 @@ Du kan ladda ner [käll-excel-filen](5472596.xlsm) och [output-excel-filen](5472
 
 
 
+{{< app/cells/assistant language="java" >}}

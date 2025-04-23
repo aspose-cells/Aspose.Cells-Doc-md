@@ -13,3 +13,4 @@ Esta sección incluye los siguientes temas
   - [Copiar Hojas de Cálculo dentro de un Libro de Trabajo](/cells/es/net/copy-worksheets-within-a-workbook/)
   - [Mover Hojas de Cálculo dentro de un Libro de Trabajo](/cells/es/net/move-worksheets-within-workbook/)
 - [Buscar y reemplazar en la hoja de cálculo](/cells/es/net/find-and-replace-in-spreadsheet/)
+{{< app/cells/assistant language="csharp" >}}

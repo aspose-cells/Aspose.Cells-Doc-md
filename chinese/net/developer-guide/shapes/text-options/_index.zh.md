@@ -4,3 +4,4 @@ type: docs
 weight: 200
 url: /zh/net/managing-shape-text-options/
 ---
+{{< app/cells/assistant language="csharp" >}}

@@ -16,3 +16,4 @@ Aspose.Cells позволяет загружать ваш файл Excel без 
 В следующем примере кода загружает образец файла Excel без диаграмм и сохраняет его в формате PDF.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-LoadTemplateWithoutCharts.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

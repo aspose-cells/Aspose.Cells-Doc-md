@@ -6,3 +6,4 @@ url: /de/net/page-setup-features/
 ---
 
 
+{{< app/cells/assistant language="csharp" >}}

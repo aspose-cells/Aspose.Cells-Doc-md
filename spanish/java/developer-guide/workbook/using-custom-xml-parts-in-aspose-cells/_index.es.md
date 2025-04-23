@@ -11,11 +11,11 @@ Las Partes XML Personalizadas son los datos XML que son almacenados por diferent
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_1.png)
 
-Puedes agregar partes XML personalizadas usando Aspose.Cells a través del método [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)).
+Puedes agregar partes XML personalizadas usando Aspose.Cells a través del método [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-)
 
 {{% /alert %}} 
 ## **Usar Partes XML Personalizadas en Aspose.Cells**
-El siguiente código de ejemplo hace uso del método [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)) y agrega el **Book Catalog Xml** y su nombre es **BookStore**. La siguiente imagen muestra el resultado de este código. Como se puede ver, Book Catalog Xml se agrega dentro del nodo BookStore que es el nombre de esta propiedad.
+El siguiente código de ejemplo hace uso del método [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-) y agrega el **Catálogo de Libros XML** cuyo nombre es **LibroTienda**. La siguiente imagen muestra el resultado de este código. Como puedes ver, el Catálogo de Libros XML se agrega dentro del nodo LibroTienda, que es el nombre de esta propiedad.
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_2.png)
 
@@ -26,3 +26,4 @@ El siguiente código de ejemplo hace uso del método [Workbook.getContentTypePro
 - [Agregar propiedades personalizadas visibles dentro del Panel de información del documento](/cells/es/java/adding-custom-properties-visible-inside-document-information-panel/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

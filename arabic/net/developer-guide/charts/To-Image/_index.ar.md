@@ -118,3 +118,4 @@ url: /ar/net/chart-to-image/
 
 ## **مواضيع متقدمة**
 - [تحويل الرسم البياني إلى PDF](/cells/ar/net/chart-to-pdf/)
+{{< app/cells/assistant language="csharp" >}}

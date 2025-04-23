@@ -32,3 +32,4 @@ url: /ar/net/returning-a-range-of-values-using-icustomfunction/
 الآن استخدم الوظيفة أعلاه في برنامجك
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingICustomFunction-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

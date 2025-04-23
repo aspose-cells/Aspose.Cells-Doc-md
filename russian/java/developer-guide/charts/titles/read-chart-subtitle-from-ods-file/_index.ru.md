@@ -20,3 +20,4 @@ Aspose.Cells предоставляет вам возможность читат
 Chart Subtitle: Sample Chart Subtitle
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

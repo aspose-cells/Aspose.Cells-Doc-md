@@ -36,3 +36,4 @@ Lütfen aşağıdaki örnek kodu inceleyin. İçinde bazı örnek veriler içere
 ### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-tornado-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

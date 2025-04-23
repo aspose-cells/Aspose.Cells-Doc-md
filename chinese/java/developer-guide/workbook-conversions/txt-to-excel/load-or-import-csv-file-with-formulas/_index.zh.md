@@ -24,3 +24,4 @@ CSV文件通常包含文本数据，不包含任何公式。但有时CSV文件�
 ![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LoadOrImportCSVFile-LoadOrImportCSVFile.java" >}}
+{{< app/cells/assistant language="java" >}}

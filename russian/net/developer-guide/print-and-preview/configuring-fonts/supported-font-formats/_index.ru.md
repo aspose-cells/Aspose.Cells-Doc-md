@@ -10,3 +10,4 @@ url: /ru/net/supported-font-formats/
 |**TTF**|TrueType Шрифты|
 |**TTC**|Коллекция TrueType|
 |**OTF**|Шрифты OpenType|
+{{< app/cells/assistant language="csharp" >}}

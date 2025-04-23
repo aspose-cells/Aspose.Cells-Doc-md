@@ -59,3 +59,4 @@ Sekmeyle ayrılmış değerler (TSV) dosyası biçimlendirme olmadan elektronik 
 - [Formülleri Yükle veya İçe Aktar CSV Dosyası](/cells/tr/net/load-or-import-csv-file-with-formulas/)
 - [Çeşitli Kodlamalarla CSV Dosyası Okuma](/cells/tr/net/reading-csv-file-with-multiple-encodings/)
 
+{{< app/cells/assistant language="csharp" >}}

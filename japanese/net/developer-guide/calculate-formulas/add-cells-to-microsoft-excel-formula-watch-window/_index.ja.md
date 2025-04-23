@@ -20,3 +20,4 @@ Microsoft Excelの式ウォッチウィンドウは、セルの値と式を便�
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Formulas-AddCellsToMicrosoftExcelFormulaWatchWindow.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

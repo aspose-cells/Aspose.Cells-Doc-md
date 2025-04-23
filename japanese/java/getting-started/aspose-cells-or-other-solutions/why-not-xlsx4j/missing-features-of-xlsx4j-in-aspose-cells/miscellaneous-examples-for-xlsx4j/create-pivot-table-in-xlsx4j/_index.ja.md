@@ -168,3 +168,4 @@ workbook.save(dataDir + "AsposePivotTable.xls");
 詳細については、[ピボットテーブルおよびピボットチャートの作成](/cells/ja/java/create-pivot-tables-and-pivot-charts) をご覧ください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -24,3 +24,4 @@ url: /ar/java/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
 إذا كانت جداول البيانات الخاصة بك تحتوي على صيغ، فمن الأفضل استدعاء الطريقة [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) قبل عرض الجدول الحاسبي إلى PDF. هذا يضمن إعادة حساب القيم المعتمدة على الصيغ، وعرض القيم الصحيحة في ملف الـPDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

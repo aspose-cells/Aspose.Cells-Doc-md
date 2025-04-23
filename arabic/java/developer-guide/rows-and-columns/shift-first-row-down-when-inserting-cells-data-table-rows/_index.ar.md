@@ -20,3 +20,4 @@ url: /ar/java/shift-first-row-down-when-inserting-cells-data-table-rows/
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ShiftFirstRowDownWhenInsertingCellsDataTableRows.java" >}}
+{{< app/cells/assistant language="java" >}}

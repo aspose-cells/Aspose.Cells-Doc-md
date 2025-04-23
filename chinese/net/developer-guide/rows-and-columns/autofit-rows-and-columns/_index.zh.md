@@ -79,3 +79,4 @@ Aspose.Cells 提供了一个 [**Workbook**](https://reference.aspose.com/cells/n
 
 ## **高级主题**
 - [为合并单元格自动调整行高](/cells/zh/net/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="csharp" >}}

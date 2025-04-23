@@ -11,11 +11,11 @@ url: /ar/java/specify-how-to-cross-string-in-output-pdf-and-image/
 
 - [**TextCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#DEFAULT): يعرض مثل MS Excel، يعتمد على الخلية التالية. إذا كانت الخلية التالية فارغة، سيتم تجاوز السلسلة أو سيتم قصها.
 
-- [**TextCrossType. CROSS_KEEP**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_KEEP): يعرض السلسلة مثل تصدير MS Excel إلى PDF/صورة
+- [**TextCrossType. CROSS_KEEP**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS-KEEP): يعرض السلسلة مثل تصدير MS Excel إلى PDF/صورة
 
-- [**TextCrossType.CROSS_OVERRIDE**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_OVERRIDE): يعرض كل النص بتجاوز الخلايا الأخرى ويستبدل نص الخلايا المتجاوزة
+- [**TextCrossType.CROSS_OVERRIDE**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS-OVERRIDE): يعرض كل النص بتجاوز الخلايا الأخرى ويستبدل نص الخلايا المتجاوزة
 
-- [**TextCrossType.STRICT_IN_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#STRICT_IN_CELL): يعرض فقط السلسلة ضمن عرض الخلية.
+- [**TextCrossType.STRICT_IN_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#STRICT-IN-CELL): يعرض فقط السلسلة ضمن عرض الخلية.
 
 ## **تحديد كيفية عبور السلسلة في ملف PDF/صورة الناتج باستخدام TextCrossType**
 
@@ -30,3 +30,4 @@ url: /ar/java/specify-how-to-cross-string-in-output-pdf-and-image/
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-RenderUsingTextCrossType-1.java" >}}
+{{< app/cells/assistant language="java" >}}

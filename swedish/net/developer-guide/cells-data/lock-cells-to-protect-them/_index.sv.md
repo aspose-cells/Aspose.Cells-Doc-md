@@ -3,47 +3,48 @@ title: Hur man låser celler för att skydda dem
 type: docs
 weight: 130
 url: /sv/net/how-to-lock-cells-to-protect-them/
-description: Denna artikel visar dig kod som förklarar hur du låser celler för att skydda dem med användning av Aspose.Cells biblioteket.
-keywords: C# Lås celler för att skydda dem, Hur man låser celler för att skydda dem med användning av C#, Lås celler för att skydda dem i C#.
+description: Denna artikel visar kod som förklarar hur man låser celler för att skydda dem med Aspose.Cells biblioteket.
+keywords: C# lås celler för att skydda dem, hur man låser celler för att skydda dem med C#, lås celler för att skydda i C#.
 ---
 
 ## **Möjliga användningsscenario**
 Att låsa celler för att skydda dem är en vanlig praxis i kalkylbladsapplikationer, som Microsoft Excel eller Google Sheets, av flera viktiga skäl:
 
-1. Förhindra oavsiktliga ändringar: Att låsa celler kan förhindra användare från att oavsiktligt modifiera viktig data eller formler. Detta är särskilt användbart i komplexa kalkylblad där oavsiktliga ändringar kan leda till betydande fel.
+1. Förebygga oavsiktliga ändringar: Att låsa celler kan förhindra att användare oavsiktligt modifierar viktig data eller formler. Detta är särskilt användbart i komplexa kalkylblad där oavsiktliga ändringar kan leda till betydande fel.
 
-1. Bevara dataintegriteten: Genom att låsa celler kan du säkerställa att kritisk data förblir konsekvent och korrekt. Detta är avgörande för finansiella dokument, rapporter och alla andra dokument där dataintegritet är väsentlig.
+1. Upprätthållande av dataintegritet: Genom att låsa celler kan du säkerställa att kritiska data förblir konsekventa och korrekta. Detta är avgörande för finansiella dokument, rapporter och andra dokument där dataintegritet är väsentlig.
 
-1. Kontrollerad åtkomst: I samarbetsmiljöer kan låsning av celler låta dig kontrollera vem som kan redigera vissa delar av ett kalkylblad. Till exempel kan du vilja tillåta endast vissa teammedlemmar att redigera specifika celler medan resten av arbetsbladet skyddas.
+1. Kontrollad åtkomst: I samarbetsmiljöer låter låsning av celler dig kontrollera vem som kan redigera vissa delar av ett kalkylblad. Till exempel kan du vilja tillåta endast vissa teammedlemmar att redigera specifika celler samtidigt som resten av bladet är skyddat.
 
-1. Skydda formler: Formler är ofta avgörande för beräkningar och dataanalys. Att låsa celler som innehåller formler säkerställer att dessa formler inte av misstag ändras eller raderas, vilket skulle kunna störa funktionen hos hela kalkylbladet.
+1. Skydda formler: Formler är ofta avgörande för beräkningar och dataanalys. Att låsa celler som innehåller formler säkerställer att dessa formler inte oavsiktligt förändras eller tas bort, vilket kan störa funktionaliteten i hela bladet.
 
-1. Tillämpa affärsregler: I vissa fall kan specifika affärsregler eller regleringskrav kräva att viss data skyddas från ändring. Låsning av celler hjälper till att efterleva dessa krav.
+1. Tillämpa affärsregler: I vissa fall kan specifika affärsregler eller regler kräva att viss data skyddas mot förändringar. Att låsa celler hjälper till att följa dessa krav.
 
-1. Vägleda användare: Genom att låsa celler och ge tydliga anvisningar om vilka celler som kan redigeras kan du vägleda användare om hur de ska interagera med kalkylbladet, vilket minskar förvirring och fel.
+1. Vägledning för användare: Genom att låsa celler och ge tydliga instruktioner om vilka celler som kan redigeras kan du vägleda användare om hur de ska interagera med kalkylbladet, vilket minskar förvirring och fel.
 
-## **Hur man låser celler för att skydda dem i Excel**
-Här är hur du kan låsa celler i Microsoft Excel:
+## **Hur låser du celler för att skydda dem i Excel**
+Så här låser du celler i Microsoft Excel:
 
-1. Välj cellerna att låsa: Välj de celler du vill låsa. Om du vill låsa hela arket kan du hoppa över detta steg.
-1. Öppna dialogrutan Format Cells: Högerklicka på de markerade cellerna och välj "Format Cells," eller tryck på Ctrl+1.
+1. Välj cellerna att låsa: Välj de celler du vill låsa. Om du vill låsa hela bladet kan du hoppa över detta steg.
+1. Öppna dialogrutan för formatering av celler: Högerklicka på de valda cellerna och välj "Formatera celler," eller tryck på Ctrl+1.
 <br>
 <img src="1.png" width=60% />
-1. Lås cellerna: I dialogrutan Format Cells, gå till fliken "Skydd". Markera kryssrutan "Låst". Klicka på "OK."
-1. Skydda arbetsbladet: Gå till fliken "Granska" på menyn. Klicka på "Skydda ark." Ange ett lösenord (valfritt) och välj de behörigheter du vill tillåta (t.ex. att välja låsta celler, formatera celler osv.). Klicka på "OK."
+1. Lås cellerna: I dialogrutan Formatera celler, gå till fliken "Skydd". Markera kryssrutan "Låst". Klicka på "OK."
+1. Skydda arket: Gå till "Granska"-fliken på menyfliksområdet. Klicka på "Skydda blad." Ange ett lösenord (valfritt) och välj de behörigheter du vill tillåta (t.ex. välja låsta celler, formatera celler etc.). Klicka på "OK."
 <br>
 <img src="2.png" width=60% />
 
-## **Hur man låser celler för att skydda dem med hjälp av C#**
+## **Hur man låser celler för att skydda dem med C#**
 
-Aspose.Cells är en kraftfullt bibliotek för att arbeta med Excel-filer programmatically. För att låsa celler med Aspose.Cells måste du följa dessa steg: ladda [provfil](prov.xlsx), lås upp alla celler först (eftersom, som standard, är alla celler låsta men inte tvingade förrän arbetsbladet skyddas), sedan lås de specifika celler du vill skydda, och slutligen skydda arbetsbladet för att tvinga låsningen.
+Aspose.Cells är ett kraftfullt bibliotek för att arbeta med Excel-filer programmässigt. För att låsa celler med Aspose.Cells måste du följa dessa steg: ladda [exempel fil](sample.xlsx), lås upp alla celler först (eftersom alla celler som standard är låsta men inte tvingade förrän arket skyddas), lås sedan de specifika cellerna du vill skydda, och slutligen skydda arket för att genomdriva låsningen.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "CellsData-lock-cells-to-protect-them.cs" >}}
 
-## **Output Result**
-Denna kod säkerställer att endast de angivna cellerna (A1 och B2 i detta exempel) är låsta, och arbetsbladet skyddas för att införa dessa inställningar. Alla andra celler i arbetsbladet förblir olåsta och redigerbara.
+## **Utdataresultat**
+Denna kod säkerställer att endast de angivna cellerna (A1 och B2 i detta exempel) är låsta, och att arket är skyddat för att genomdriva dessa inställningar. Alla andra celler i arket förblir upplåsta och redigerbara.
 
 <br>
 <img src="3.png" width=60% />
 
 
+{{< app/cells/assistant language="csharp" >}}

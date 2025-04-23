@@ -34,3 +34,4 @@ Calculated Value: Welcome to Aspose.Cells.
 [Реализация собственного расчетного механизма для расширения стандартного расчетного механизма Aspose.Cells](/cells/ru/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

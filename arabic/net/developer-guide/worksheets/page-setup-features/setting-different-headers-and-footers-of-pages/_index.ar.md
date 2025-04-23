@@ -28,3 +28,4 @@ keywords: ضبط رأس وتسفل إكسل الصفحة الأولى c#، ضب�
 1. يقوم بتعيين العلامات [PageSetup.IsHFDiffOddEven](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/ishfdiffoddeven/) و [PageSetup.IsHFDiffFirst](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/IsHFDiffFirst/) 
 1. أدخل رؤوس وأسافل مختلفة.
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DiffHeaderFooter.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

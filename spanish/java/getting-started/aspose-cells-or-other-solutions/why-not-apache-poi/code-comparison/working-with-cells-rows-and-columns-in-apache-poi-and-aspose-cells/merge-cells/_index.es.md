@@ -77,3 +77,4 @@ sheet.addMergedRegion(new CellRangeAddress(
 Para más detalles, visita [Combinación y Descombinación (División) de Celdas](/cells/es/java/merging-and-unmerging-cells).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

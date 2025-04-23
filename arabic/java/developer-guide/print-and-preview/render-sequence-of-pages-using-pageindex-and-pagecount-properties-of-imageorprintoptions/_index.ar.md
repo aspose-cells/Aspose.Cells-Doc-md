@@ -20,3 +20,4 @@ url: /ar/java/render-sequence-of-pages-using-pageindex-and-pagecount-properties-
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-RenderLimitedNoOfSequentialPages-1.java" >}}
+{{< app/cells/assistant language="java" >}}

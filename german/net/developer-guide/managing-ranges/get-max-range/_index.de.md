@@ -39,3 +39,4 @@ Die folgenden Codes zeigen, wie der maximale Anzeigebereich in HTML gerendert wi
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Get-Max-Display-Range.cs" >}}
 
 Hier ist die [Quelldatei Excel](Book1.xlsx).
+{{< app/cells/assistant language="csharp" >}}

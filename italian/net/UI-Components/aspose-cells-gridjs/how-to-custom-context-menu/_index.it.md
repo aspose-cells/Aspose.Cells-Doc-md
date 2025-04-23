@@ -11,9 +11,29 @@ aliases:
   - /net/aspose-cells-gridjs/work-with-context-menu/
   - /net/aspose-cells-gridjs/work-with-context-menus/
 ---
+# Menu contestuali predefiniti personalizzati
+Abbiamo alcune voci di menu contestuale predefinite, ad esempio inserisci/elimina riga/colonna e così via.
+ad esempio: per eliminare le voci di menu "Elimina riga", "Link", "Nascondi" nel menu contestuale, supponendo che l'id div di GridJs sia "gridjs-divid"
+```javascript
+   //get context menus parent dom
+   const menus=document.querySelector("#gridjs-divid > div > div.x-spreadsheet-sheet > div.x-spreadsheet-contextmenu");
+   var childs = menus.childNodes;
+   for (var i = childs.length - 1; i >= 0; i--)
+   {  
+     // check the item text
+     if(childs[i].childNodes[0]?.textContent==="Delete row"||childs[i].childNodes[0]?.textContent==="Link"||childs[i].childNodes[0]?.textContent==="Hide")
+       {
+         menus.removeChild(childs[i]);
+       }
+   }
+```
+Dopo aver chiamato questa funzione 
 
-# Menu contestuali personalizzati
-Abbiamo alcuni elementi di menu contestuali predefiniti, ad esempio inserisci/elimina riga/colonna e così via
+![todo: lo schermo per personalizzare le voci di menu built-in](gridjs_customize_build_in_context_menu.png)
+
+
+# Menu contestuali definiti dall'utente personalizzati
+Abbiamo alcune voci di menu contestuale predefinite, ad esempio inserisci/elimina riga/colonna e così via.
 Tuttavia, se l'utente vuole elementi di menu contestuali personalizzati.
 Supportiamo impostare gli elementi di menu contestuale nelle opzioni di caricamento.
 ad esempio:

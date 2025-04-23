@@ -50,3 +50,4 @@ Aspose.Cellsを使用すれば、たとえばデータを取得したり、開�
 [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)コンストラクタが大規模なスプレッドシートをロードする際に*System.OutOfMemoryException*をスローする可能性がかなり高いです。この例外は、利用可能なメモリが不足していることを示しており、スプレッドシートを完全にロードするために必要なメモリが不足している可能性があるため、メモリ設定を有効にしてスプレッドシートをロードする必要があります。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

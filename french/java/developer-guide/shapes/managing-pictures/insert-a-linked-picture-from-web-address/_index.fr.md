@@ -31,7 +31,7 @@ L'image est insérée.
 
 ### **Utilisation de Aspose.Cells for Java**
 
-Aspose.Cells for Java prend en charge l'ajout d'une image liée à l'aide de la méthode [**ShapeCollection.addLinkedPicture(int upperLeftRow, int upperLeftColumn, int height, int width, java.lang.String sourceFullName)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLinkedPicture(int,%20int,%20int,%20int,%20java.lang.String)).
+Aspose.Cells for Java prend en charge l'ajout d'une image liée à l'aide de la méthode [**ShapeCollection.addLinkedPicture(int upperLeftRow, int upperLeftColumn, int height, int width, java.lang.String sourceFullName)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLinkedPicture-int-int-int-int-java.lang.String-).
 
 La méthode renvoie un objet [**Picture**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture).
 
@@ -44,3 +44,4 @@ Après l'exécution du code, le fichier Excel généré contient une image liée
 ![todo:image_alt_text](insert-a-linked-picture-from-web-address_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-InsertLinkedPicturefromWebAddress-InsertLinkedPicturefromWebAddress.java" >}}
+{{< app/cells/assistant language="java" >}}

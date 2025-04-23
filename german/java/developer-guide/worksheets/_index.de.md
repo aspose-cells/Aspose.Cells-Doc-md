@@ -26,7 +26,7 @@ Ein Arbeitsblatt wird durch die [**Worksheet**](https://reference.aspose.com/cel
 
 ## **Arbeitsblätter zu einer neuen Excel-Datei hinzufügen**
 
-Um eine neue Excel-Datei programmgesteuert zu erstellen, müssen Entwickler ein Objekt der [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-Klasse erstellen, das eine Excel-Datei repräsentiert. Dann können Entwickler die [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--)-Methode der [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) aufrufen. Wenn wir die [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--)-Methode aufrufen, wird automatisch ein leeres Arbeitsblatt zur Excel-Datei hinzugefügt, auf das durch Übergeben des Blattindex des neu hinzugefügten Arbeitsblatts an die [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) Bezug genommen werden kann. Nachdem die Arbeitsblattreferenz erhalten ist, können Entwickler an ihren Arbeitsblättern gemäß ihren Anforderungen arbeiten. Nach Abschluss der Arbeit an den Arbeitsblättern können Entwickler ihre neu erstellte Excel-Datei mit neuen Arbeitsblättern durch Aufrufen der [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))-Methode der [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-Klasse speichern.
+Um eine neue Excel-Datei programmgesteuert zu erstellen, müssen Entwickler ein Objekt der [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-Klasse erstellen, das eine Excel-Datei repräsentiert. Dann können Entwickler die [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--)-Methode der [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) aufrufen. Wenn wir die [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--)-Methode aufrufen, wird automatisch ein leeres Arbeitsblatt zur Excel-Datei hinzugefügt, auf das durch Übergeben des Blattindex des neu hinzugefügten Arbeitsblatts an die [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) Bezug genommen werden kann. Nachdem die Arbeitsblattreferenz erhalten ist, können Entwickler an ihren Arbeitsblättern gemäß ihren Anforderungen arbeiten. Nach Abschluss der Arbeit an den Arbeitsblättern können Entwickler ihre neu erstellte Excel-Datei mit neuen Arbeitsblättern durch Aufrufen der [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-)-Methode der [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-Klasse speichern.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AddingWorksheetstoNewExcelFile-AddingWorksheetstoNewExcelFile.java" >}}
 
@@ -44,7 +44,7 @@ Entwickler können auf beliebiges Arbeitsblatt zugreifen, indem sie dessen Namen
 
 ## **Arbeitsblätter anhand des Blattnamens entfernen**
 
-Manchmal müssen Entwickler Arbeitsblätter aus vorhandenen Excel-Dateien entfernen, und diese Aufgabe kann durch Aufrufen der [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String))-Methode der [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)-Sammlung durchgeführt werden. Wir können den Blattnamen an die [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String))-Methode übergeben, um ein bestimmtes Arbeitsblatt zu entfernen.
+Manchmal müssen Entwickler Arbeitsblätter aus vorhandenen Excel-Dateien entfernen, und diese Aufgabe kann durch Aufrufen der [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-java.lang.String-)-Methode der [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)-Sammlung durchgeführt werden. Wir können den Blattnamen an die [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-java.lang.String-)-Methode übergeben, um ein bestimmtes Arbeitsblatt zu entfernen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetName-RemovingWorksheetsusingSheetName.java" >}}
 
@@ -52,7 +52,7 @@ Manchmal müssen Entwickler Arbeitsblätter aus vorhandenen Excel-Dateien entfer
 
 Der oben genannte Ansatz zum Entfernen von Arbeitsblättern funktioniert gut, wenn Entwickler bereits die Blattnamen der zu löschenden Arbeitsblätter kennen. Aber was ist, wenn Sie den Blattnamen des Arbeitsblatts nicht kennen, das Sie aus Ihrer Excel-Datei entfernen möchten?
 
-Nun, in solchen Fällen können Entwickler eine überladene Version der [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(int))-Methode verwenden, die anstelle seines Blattnamens den Blattnummernindex des Arbeitsblatts verwendet.
+Nun, in solchen Fällen können Entwickler eine überladene Version der [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-int-)-Methode verwenden, die anstelle seines Blattnamens den Blattnummernindex des Arbeitsblatts verwendet.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetIndex-RemovingWorksheetsusingSheetIndex.java" >}}
 
@@ -72,3 +72,4 @@ Nun, in solchen Fällen können Entwickler eine überladene Version der [**remov
 - [Verwenden Sie die *Sheet.SheetId*-Eigenschaft von OpenXml mit Aspose.Cells](/cells/de/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [Arbeiten mit Hintergründen in ODS-Dateien](/cells/de/java/working-with-background-in-ods-files/)
 - [Arbeitsblattansichten](/cells/de/java/worksheet-views/)
+{{< app/cells/assistant language="java" >}}

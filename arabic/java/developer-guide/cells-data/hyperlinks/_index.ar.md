@@ -25,7 +25,7 @@ url: /ar/java/insert-hyperlinks-to-excel/
 
 يوفر Aspose.Cells فئةً تسمى [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) التي تمثل ملف Microsoft Excel. تحتوي فئة [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) على تجميعة [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) التي تتيح الوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). توفر فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) طرقًا مختلفة لإضافة روابط فائقة مختلفة إلى ملفات Excel.
 ## **إضافة رابط إلى عنوان URL**
-تحتوي فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) على مجموعة [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection). يمثل كل عنصر في مجموعة [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) رابطًا فائقًا. يمكن إضافة روابط فائقة إلى عناوين URL عن طريق استدعاء [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Hyperlinks) من مجموعة [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) إلى الخلية عن طريق استخدام الطريقة [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\)). تأخذ الطريقة [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\)) المعلمات التالية:
+تحتوي فصل [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) على مجموعة [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection). كل عنصر في مجموعة [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) يمثل [Hyperlink](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink). أضف روابط URL عن طريق استدعاء طريقة [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Hyperlinks) المجمعة. طريقة [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) تأخذ المعلمات التالية:
 
 - اسم الخلية، اسم الخلية التي سيتم إضافة الرابط التشعبي إليها.
 - عدد الصفوف، عدد الصفوف في نطاق الارتباط الفائق.
@@ -44,7 +44,7 @@ url: /ar/java/insert-hyperlinks-to-excel/
 
 
 ## **إضافة رابط إلى خلية في نفس الملف**
-من الممكن إضافة روابط فائقة إلى الخلايا في نفس ملف Excel عن طريق استدعاء [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) من مجموعة [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) إلى الخلية عن طريق استخدام الطريقة [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\)). تعمل الطريقة [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\)) لكلا الروابط الداخلية والخارجية. إحدى الإصدارات المتحملة للطريقة تأخذ المعلمات التالية:
+من الممكن إضافة روابط تشعبية إلى الخلايا في نفس ملف إكسل عن طريق استدعاء مجموعة [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) طريقة [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-). تعمل طريقة [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) لكل من الروابط التشعبية الداخلية والخارجية. النسخة المحمولة من الطريقة تتطلب المعلمات التالية:
 
 - اسم الخلية، اسم الخلية التي سيتم إضافة الرابط التشعبي إليها.
 - عدد الصفوف، عدد الصفوف في نطاق الارتباط الفائق.
@@ -58,7 +58,7 @@ url: /ar/java/insert-hyperlinks-to-excel/
 
 
 ## **إضافة رابط إلى ملف خارجي**
-من الممكن إضافة الروابط الفائقة للملفات الخارجية من خلال استدعاء [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) مجموعة الأساليب [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\)). وتأخذ طريقة [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\)) البارامترات التالية:
+من الممكن إضافة روابط تشعبية إلى ملفات إكسل خارجية عن طريق استدعاء مجموعة [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) طريقة [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-). تأخذ طريقة [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) المعلمات التالية:
 
 - اسم الخلية، اسم الخلية التي سيتم إضافة الرابط التشعبي إليها.
 - عدد الصفوف، عدد الصفوف في نطاق الارتباط الفائق.
@@ -76,3 +76,4 @@ url: /ar/java/insert-hyperlinks-to-excel/
 - [الحصول على الارتباطات التشعبية في النطاق](/cells/ar/java/get-hyperlinks-in-range/)
 
 
+{{< app/cells/assistant language="java" >}}

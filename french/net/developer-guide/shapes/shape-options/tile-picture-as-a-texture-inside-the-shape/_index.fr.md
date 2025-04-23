@@ -20,3 +20,4 @@ Vous pouvez remplir la surface de la forme avec une certaine image et la tuiler 
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-TilePictureAsTextureInsideShape.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

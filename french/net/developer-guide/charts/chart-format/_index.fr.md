@@ -73,3 +73,4 @@ Le code suivant montre comment changer la couleur des grandes lignes de la grill
 ## **Sujets avancés**
 - [Définir le code de format des valeurs de la série du graphique](/cells/fr/net/set-the-values-format-code-of-chart-series/)
 - [Définir une image comme remplissage d'arrière-plan dans le graphique](/cells/fr/net/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="csharp" >}}

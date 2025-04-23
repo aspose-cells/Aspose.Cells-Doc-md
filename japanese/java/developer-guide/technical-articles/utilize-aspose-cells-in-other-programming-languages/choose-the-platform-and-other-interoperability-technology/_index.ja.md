@@ -27,3 +27,4 @@ Aspose.Cellsは、Microsoft Excel®を利用せずにExcel®スプレッドシ�
 |Aspose.Cells for Java via Javaブリッジまたはインライン::Java |<p>**長所**:</p><p>- Javaが利用できる任意のプラットフォームで利用可能。</p><p>- 静的メソッド、パラメーター付きのコンストラクター、オーバーロードされたメソッドの呼び出し、列挙値の使用が簡単。</p>|
 | |<p>**短所**:</p><p>- Aspose.Cells for .NETよりリリースが少なく、機能も少ない。</p>|
 Aspose.Cells for Java はJavaアプリケーション向けに設計されており、他のプログラミング言語での使用にはいくつかの技術的な制限や回避策が適用されます。 
+{{< app/cells/assistant language="java" >}}

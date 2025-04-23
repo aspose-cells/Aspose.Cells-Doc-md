@@ -18,3 +18,4 @@ Der folgende Beispielcode erstellt eine leere Arbeitsmappe, teilt sie dann und a
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-UpdateDaysPreservingHistoryOfRevisionLogsInSharedWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -79,3 +79,4 @@ Ancak, eğer belgeler üzerinde karmaşık işlemler yapmanız gerekiyorsa, aşa
 - Bir belgeyi Microsoft Excel tarafından dönüştürülmüş gibi PDF veya XPS'e dönüştürme.
 - .NET veya Java uygulaması geliştirme.
 
+{{< app/cells/assistant language="csharp" >}}

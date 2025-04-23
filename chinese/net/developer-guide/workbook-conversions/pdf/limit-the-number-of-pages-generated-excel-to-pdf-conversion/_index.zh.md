@@ -22,3 +22,4 @@ url: /zh/net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
 如果电子表格中包含公式，最好在将其呈现为PDF文件之前调用[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)。这样可以确保重新计算公式相关值，并在输出文件中呈现正确的值。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

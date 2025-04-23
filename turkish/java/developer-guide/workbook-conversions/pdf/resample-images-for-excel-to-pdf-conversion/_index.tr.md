@@ -21,10 +21,11 @@ Aşağıdaki örnek kod, Aspose.Cells API'sını kullanarak görevi nasıl gerç
 
 {{% alert color="primary" %}}
 
-[**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)) seçeneğini kullanarak çıktı PDF dosyasının boyutunu en aza indirir, ancak görüntü kalitesini biraz etkileyebilir.
+[**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample-int-int-) seçeneğini kullanarak çıktı PDF dosyasının boyutunu en aza indirir, ancak görüntü kalitesini biraz etkileyebilir.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
 Eğer elektronik tablonuz formüller içeriyorsa, PDF formatına dönüştürmeden hemen önce [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) çağrısını yapmanız en iyisidir. Böyle yaparak formüle bağımlı değerler yeniden hesaplanacak ve doğru değerler PDF'de gösterilecektir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

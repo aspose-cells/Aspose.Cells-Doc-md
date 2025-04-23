@@ -14,3 +14,4 @@ Sie können den Zeilenabstand des Absatzes, den Abstand davor und danach mit den
 Der folgende Beispielcode erläutert die Verwendung der genannten Eigenschaften.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SetTextboxOrShapeParagraphLineSpacing-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

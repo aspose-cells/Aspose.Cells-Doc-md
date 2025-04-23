@@ -24,3 +24,4 @@ url: /zh/java/hiding-the-display-of-zero-values-in-the-worksheet/
 请参阅以下示例代码，演示如何使用Aspose.Cells隐藏零值。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-HidingDisplayOfZeroValues-HidingDisplayOfZeroValues.java" >}}
+{{< app/cells/assistant language="java" >}}

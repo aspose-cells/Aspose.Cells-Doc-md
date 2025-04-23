@@ -403,3 +403,4 @@ Cells 集合提供了 Columns 集合。Columns 集合中的每个项表示一个
 请查看关于 [设置数字和[日期]的显示格式](/cells/zh/java/data-formatting/) 的详细文章。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

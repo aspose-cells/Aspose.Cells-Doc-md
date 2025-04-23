@@ -43,3 +43,4 @@ sw.Close();
 Scarica **Crea un Nuovo Workbook** da uno dei siti di codifica sociale menzionati di seguito:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Create.New.Workbook.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

@@ -33,3 +33,4 @@ Aspose.Cells unterstützt sowohl 32-Bit- als auch 64-Bit-Umgebungen. Wenn Sie da
 In VS.NET (zum Beispiel 2005, 2008, 2010, 2012 usw.)-Projekten, wenn Sie einen Verweis auf Aspose.Cells hinzufügen, verweist der Verweisdialog auf die Aspose.Cells.dll-Dateien im Ordner net2.0 oder net3.5. (Lesen Sie für weitere Informationen Verweisen von Aspose.Cells aus einem .NET-Projekt.) Sie können den Verweis auf die Bibliothek entsprechend Ihrer Umgebung ändern. Bitte beachten Sie, dass, wenn das Ziel-Framework des Projekts .NET Framework 3.5/4 Client Profile ist, verwenden Sie die Aspose.Cells.dll-Komponentendatei im Ordner net_ClientProfile.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

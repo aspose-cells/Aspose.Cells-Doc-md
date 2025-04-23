@@ -20,3 +20,4 @@ Aspose.Cells for .NET API提供了一种简单易行的方法，可以从URL中�
 可能存在情况，您总是希望从URL获取更新后的图像。要实现这一点，可以按照[从Web地址插入链接图片](/cells/zh/net/insert-a-linked-picture-from-web-address/)文章中给出的说明。通过遵循这种方法，图像在每次打开工作表时都从URL加载。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

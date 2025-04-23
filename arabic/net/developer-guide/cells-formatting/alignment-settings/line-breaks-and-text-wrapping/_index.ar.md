@@ -24,3 +24,4 @@ url: /ar/net/line-breaks-and-text-wrapping/
 يمكنك استخدام ' \n' في C# و ' vbLf' في VB.NET لإدراج تقسيم الأسطر الصريحة في الخلية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-UseExplicitLineBreaks-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

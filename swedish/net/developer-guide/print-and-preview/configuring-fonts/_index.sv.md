@@ -20,6 +20,12 @@ Nedan är processen som Aspose.Cells API: er följer bakom scenen.
 1. Om API inte kan hitta teckensnittet som definieras under [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/properties/defaultfontname) egenskapen försöker det välja de mest lämpliga teckensnitten från alla tillgängliga teckensnitt.
 1. Slutligen, om API inte hittar några teckensnitt på filsystemet, renderar den kalkylbladet med Arial.
 
+{{% alert color="primary" %}}
+
+Generellt scannar Aspose.Cells API:erna standardmappning av typsnittsdirektörerna i operativsystem på Windows, Linux, MacOS. Från och med [Aspose.Cells for .NET 24.7](https://releases.aspose.com/cells/net/release-notes/2024/aspose-cells-for-net-24-7-release-notes/), skannar API:erna dessutom Office cacheade molntypsnittsdirektörer som standard.
+
+{{% /alert %}}
+
 ## **Ange anpassade typsnittsmappar**
 
 Aspose.Cells API:er söker igenom operativsystemets standardmapp för teckensnitt efter de krävda teckensnitten. Om de krävda teckensnitten inte finns tillgängliga i systemets teckensnittmapp söker API:erna igenom anpassade (användardefinierade) mappar. Klassen [**FontConfigs**](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs) har exponerat ett antal sätt att ange anpassade teckensnittsmapar som detaljeras nedan.
@@ -66,3 +72,4 @@ Förutom de ovan nämnda metoderna har Aspose.Cells API:erna även medel för at
 - [Ställ in egenskapen DefaultFont för PdfSaveOptions och ImageOrPrintOptions för att prioritera](/cells/sv/net/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Stödda teckensnittsformat](/cells/sv/net/supported-font-formats/)
 - [Kalkylblad till bild - Ställ in pixelformat för den renderade bilden](/cells/sv/net/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
+{{< app/cells/assistant language="csharp" >}}

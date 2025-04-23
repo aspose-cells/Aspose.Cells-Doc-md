@@ -15,3 +15,4 @@ Aspose.Cells tillåter dig att ladda en lättviktsversion av arbetsbok i minnet 
 Följande kodexempel använder [**WorkbookMetadata**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata) klassen för att redigera anpassade dokumentegenskaper i en arbetsbok. När du öppnar arbetsboken med [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klassen, kommer du att kunna läsa dokumentegenskaper. Här är ett kodexempel som använder [**WorkbookMetadata**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata) klassen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingWorkbookMetadata-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

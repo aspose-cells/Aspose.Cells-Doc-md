@@ -12,3 +12,4 @@ url: /ja/net/support-for-german-locale-in-named-range-formulae/
 [sampleNamedRangeTest.xlsm](73990165.xlsm)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookSettings-SupportNamedRangeFormulasInGermanLocale-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

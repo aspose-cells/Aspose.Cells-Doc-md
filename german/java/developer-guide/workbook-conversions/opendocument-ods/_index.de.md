@@ -17,3 +17,4 @@ Aspose.Cells unterstützt das Laden von OpenDocument 1.1- und 1.2-Dokumenten. As
 **Ein Beispiel für ein ODS-Dokument, das von Aspose.Cells generiert und in OpenOffice Writer geöffnet wurde** 
 
 ![todo:image_alt_text](opendocument-ods_1.png)
+{{< app/cells/assistant language="java" >}}

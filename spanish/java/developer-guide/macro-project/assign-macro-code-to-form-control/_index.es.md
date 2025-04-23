@@ -7,7 +7,7 @@ url: /es/java/assign-macro-code-to-form-control/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells le permite asignar un Código de Macro a un Control de Formulario como un Botón. Por favor, use el método [ShapeCollection.addShape()](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape\(int,%20int,%20int,%20int,%20int,%20int,%20int\)) para asignar un nuevo Código de Macro a un Control de Formulario dentro del libro.
+Aspose.Cells te permite asignar un código Macro a un Control de formulario como un botón. Por favor, usa el método [ShapeCollection.addShape()](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-) para asignar un nuevo código Macro a un control de formulario dentro del libro de trabajo.
 
 {{% /alert %}} 
 ## **Asignación de Código de Macro a un Control de Formulario usando Aspose.Cells**
@@ -26,3 +26,4 @@ End Sub
 Aquí hay un código de ejemplo para generar el archivo XLSM de salida con Código de Macro.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AssignMacroToFormControl-AssignMacroToFormControl.java" >}}
+{{< app/cells/assistant language="java" >}}

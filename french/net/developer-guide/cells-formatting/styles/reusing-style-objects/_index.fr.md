@@ -26,3 +26,4 @@ Pour appliquer une mise en forme à une grande plage de cellules dans une feuill
 Parce que l'approche [**Cell.GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle)/[**Cell.SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) utilise beaucoup moins de mémoire et est efficace, l'ancienne propriété Cell.Style, qui consommait beaucoup de mémoire inutile, a été supprimée avec la version Aspose.Cells 7.1.0.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -28,3 +28,4 @@ url: /ru/net/public-api-changes-in-aspose-cells-8-2-1/
 {{% /alert %}}
 ## **Добавлена перегрузка метода ToPrinter(PrinterSettings printerSettings) для класса WorkbookRender**
 Вы можете использовать перегруженный метод для рендеринга книги в принтер с использованием PrinterSettings.
+{{< app/cells/assistant language="csharp" >}}

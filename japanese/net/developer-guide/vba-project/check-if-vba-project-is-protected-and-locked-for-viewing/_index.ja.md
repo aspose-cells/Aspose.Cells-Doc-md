@@ -24,3 +24,4 @@ Aspose.Cellsは、ExcelファイルのVBA（Visual Basic for Applications）プ�
 Is VBA Project Locked for Viewing: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

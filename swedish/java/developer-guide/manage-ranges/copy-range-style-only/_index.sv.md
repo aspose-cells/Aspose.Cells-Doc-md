@@ -20,3 +20,4 @@ Detta exempel skapar en arbetsbok, fyller den med data och kopierar endast stil 
 1. Kopiera det första områdets formatering till det andra området.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyRangeStyleOnly-CopyRangeStyleOnly.java" >}}
+{{< app/cells/assistant language="java" >}}

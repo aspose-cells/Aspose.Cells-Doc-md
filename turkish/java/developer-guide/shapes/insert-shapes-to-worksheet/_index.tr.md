@@ -46,7 +46,7 @@ Satırın şekli **çizgiler** kategorisine aittir.
 
 {{% alert color="primary" %}}
 
-[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)
 
 Bu yöntem bir [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesnesi döndürür.
 
@@ -80,7 +80,7 @@ Satırın oku şekli **Çizgiler** kategorisine aittir. Bu, bir satırın özel 
 
 {{% alert color="primary" %}}
 
-[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)
 
 Bu yöntem bir [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesnesi döndürür.
 
@@ -114,7 +114,7 @@ Dikdörtgenin şekli **Dikdörtgenler** kategorisine aittir.
 
 {{% alert color="primary" %}}
 
-[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)
 
 Bu yöntem bir [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesnesi döndürür.
 
@@ -148,7 +148,7 @@ Küpün şekli **Temel Şekiller** kategorisine aittir.
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Bu yöntem bir [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesnesi döndürür.
 
@@ -182,7 +182,7 @@ Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Bu yöntem bir [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesnesi döndürür.
 
@@ -216,7 +216,7 @@ Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Bu yöntem bir [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesnesi döndürür.
 
@@ -250,7 +250,7 @@ Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Bu yöntem bir [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesnesi döndürür.
 
@@ -284,7 +284,7 @@ Beş köşeli yıldızın şekli **Yıldızlar ve Bayraklar** kategorisine aitti
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Bu yöntem bir [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesnesi döndürür.
 
@@ -318,7 +318,7 @@ Düşünce balonu bulutunun şekli **Çağrılar** kategorisine aittir.
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Bu yöntem bir [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesnesi döndürür.
 
@@ -331,3 +331,4 @@ Aşağıdaki örnek, bir çalışma sayfasına düşünce balonu bulutu nasıl e
 Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 ![](thought_bubble_cloud2.png)
+{{< app/cells/assistant language="java" >}}

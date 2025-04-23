@@ -26,3 +26,4 @@ url: /ja/java/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/
 
 
 
+{{< app/cells/assistant language="java" >}}

@@ -20,3 +20,4 @@ Le code d'exemple suivant crée un classeur et le protège tout en activant le p
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-PasswordProtectOrUnprotectSharedWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

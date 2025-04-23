@@ -192,3 +192,4 @@ Nous utilisons l'une des licences open source les plus libérales pour minimiser
 Le produit fonctionne sans licence Aspose, [avec des limitations](/cells/fr/java/licensing/). Pour supprimer les limitations, vous pouvez acquérir une [licence temporaire gratuite](https://purchase.aspose.com/temporary-license) ou [acheter une licence complète](https://purchase.aspose.com/buy).
 
 Par défaut, l'éditeur essaiera de charger le fichier **Aspose.Total.Java.lic** depuis le répertoire **src/main/resources/com/aspose/spreadsheeteditor**. Il suffit de copier le fichier de licence dans ce répertoire. Le comportement par défaut peut être modifié en modifiant la classe **AsposeLicense**.
+{{< app/cells/assistant language="java" >}}

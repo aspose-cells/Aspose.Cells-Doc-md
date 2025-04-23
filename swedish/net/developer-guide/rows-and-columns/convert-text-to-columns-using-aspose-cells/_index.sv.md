@@ -18,3 +18,4 @@ Följande exemplarkod förklarar användningen av [**Worksheet.Cells.TextToColum
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-ConvertTextToColumns.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

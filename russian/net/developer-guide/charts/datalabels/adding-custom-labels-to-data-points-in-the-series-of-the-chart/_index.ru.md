@@ -16,3 +16,4 @@ url: /ru/net/adding-custom-labels-to-data-points-in-the-series-of-the-chart/
 В следующем коде создается **Диаграмма рассеяния, соединенная линиями с маркерами данных** и затем добавляются **пользовательские метки** к **точкам данных** в **серии** **диаграммы**. Каждая пользовательская метка показывает **Название серии** и **Имя точки**. Вы можете использовать любой другой текст вместо этого.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-AddCustomLabelsToDataPoints-AddCustomLabelsToDataPointsInTheSeriesOfChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

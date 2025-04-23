@@ -51,3 +51,4 @@ url: /ru/java/code-comparison-for-common-features-in-aspose-cells-and-apache-poi
   - [Работа с шрифтами в Apache POI и Aspose.Cells](/cells/ru/java/working-with-fonts-in-apache-poi-and-aspose-cells/)
 
 **Примечание:** Множество других сравнений кода будут доступны в ближайшее время. 
+{{< app/cells/assistant language="java" >}}

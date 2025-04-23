@@ -26,3 +26,4 @@ keywords: 在单元格中添加 HTML 字符串，设置单元格中的 HTML 字�
 以下截图显示了上述示例代码的输出。
 
 ![todo:image_alt_text](htmlstring.png)
+{{< app/cells/assistant language="csharp" >}}

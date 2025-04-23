@@ -32,13 +32,13 @@ Microsoft Excelで自動フィルタ機能を有効にするには：
 
 |**オプション**|**説明**|
 | :- | :- |
-リスト内のすべてのアイテムを一度に表示します。
-contains/not containsなどのカスタマイズされたフィルタ条件を指定します。
-塗りつぶしの色に基づいてフィルタリングします。
-異なる日付の基準に基づいて行をフィルタリングします。
+|All|リストのすべてのアイテムを一度に表示します。|
+|Custom|含む/含まないなどのフィルター条件をカスタマイズします|
+|Filter by Color|塗りつぶし色に基づくフィルター|
+|Date Filters|日付に基づくさまざまな条件で行をフィルター|
 |Number Filters|比較、平均、トップ10など、数値に関する異なるタイプのフィルタ。
-begins with、ends with、containsなどの異なるフィルタを指定します。
-Text Filter Blankを介してこれらのフィルタを実装できます。
+|Text Filters|始まり、終わり、含むなどのさまざまなフィルター|
+|Blanks/Non Blanks|これらのフィルターはテキストフィルター空白を通じて実装できます|
 
 Microsoft Excelのユーザーは、これらのオプションを使用してワークシートデータを手動でフィルタリングします。
 
@@ -157,3 +157,4 @@ Excelは、特定の文字列で終わる行をフィルタリングするなど
 ## **高度なトピック**
 - [複雑な基準を満たすレコードを表示するMicrosoft Excelの高度なフィルタの適用](/cells/ja/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [オートフィルタの更新後の非表示行インデックスの取得](/cells/ja/net/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+{{< app/cells/assistant language="csharp" >}}

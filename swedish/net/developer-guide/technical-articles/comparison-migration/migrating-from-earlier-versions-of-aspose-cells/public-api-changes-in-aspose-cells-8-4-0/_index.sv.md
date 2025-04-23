@@ -274,3 +274,4 @@ Standardvärdet är "" (tom sträng).
 Använd GetEnumerator-metoden för att iterera igenom alla celler istället.
 ### **Utgånget DrawObject.Image Egenskap**
 Använd DrawObject.ImageBytes-egenskapen för att hämta bilddata istället.
+{{< app/cells/assistant language="csharp" >}}

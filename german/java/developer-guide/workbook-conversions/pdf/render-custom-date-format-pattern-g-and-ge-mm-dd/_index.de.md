@@ -14,3 +14,4 @@ Aspose.Cells ist jetzt in der Lage, benutzerdefinierte Datumsformate wie g, ge.m
 Der folgende Beispielcode konvertiert die [Excel-Quelldatei](95584282.xlsx), die Datumsangaben mit benutzerdefinierten Formatmustern wie g und ge.mm.dd enthält, in [PDF-Ausgabe](95584283.pdf).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-RenderCustomDateFormat-1.java" >}}
+{{< app/cells/assistant language="java" >}}

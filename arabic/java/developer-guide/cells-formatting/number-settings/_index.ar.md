@@ -73,7 +73,7 @@ url: /ar/java/cells-number-settings/
 
 {{% alert color="primary" %}}
 
-إذا استخدمت [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) لتعيين تنسيق الأرقام، سيتم استبدال أي تنسيق سابق تم ضبطه باستخدام [**رقم**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number） والعكس صحيح.
+إذا كنت تستخدم [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) لضبط تنسيق الرقم، يتم تجاوز أي تنسيق سابق تم ضبطه باستخدام [**Number**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number) والعكس صحيح.
 
 {{% /alert %}}
 
@@ -81,3 +81,4 @@ url: /ar/java/cells-number-settings/
 - [تحقق من تنسيق الأرقام المخصص عند تعيين خاصية Style.Custom](/cells/ar/java/check-custom-number-format-when-setting-style-custom-property/)
 - [تحديد فواصل العدد العشري المخصصة وفواصل المجموعة لسجل العمل](/cells/ar/java/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [تحديد تنسيق نمط DBNum المخصص](/cells/ar/java/specifying-dbnum-custom-pattern-formatting/)
+{{< app/cells/assistant language="java" >}}

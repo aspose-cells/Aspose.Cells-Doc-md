@@ -18,3 +18,4 @@ Följande kod laddar den [prov-Eexcelfilen](61767747.xlsx) som innehåller tre p
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-FindAndRefreshNestedOrChildrenPivotTables.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

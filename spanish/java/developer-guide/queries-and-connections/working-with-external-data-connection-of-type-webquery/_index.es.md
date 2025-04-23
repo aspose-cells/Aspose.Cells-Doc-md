@@ -22,3 +22,4 @@ Aquí está la salida en la consola del código anterior con este [archivo de Ex
  Web Query URL: http://www.aspose.com/docs/display/cellsnet/Home
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

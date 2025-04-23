@@ -32,6 +32,7 @@ I comandi di script sono comandi speciali che consentono di impostare la formatt
 |&T|L'orario corrente|
 |&A|Il nome del foglio di lavoro|
 |&F|Il nome del file senza percorso|
+|&&Testo|Mostra &Testo. Per esempio: &&WO sarà visualizzato come &WO|
 |&"\<FontName>"|Rappresenta un nome di carattere. Ad esempio: &"Arial"|
 |&"\<FontName>, \<FontStyle>"|Rappresenta il nome del carattere con lo stile. Ad esempio: &"Arial,Grassetto"|
 |&\<FontSize>|Rappresenta la dimensione del carattere. Ad esempio: “&14abc”. Ma, se questo comando è seguito da un numero normale da stampare nell'intestazione, questo dovrebbe essere separato da un carattere spazio dalla dimensione del carattere. Ad esempio: “&14 123”.|
@@ -58,3 +59,4 @@ Dopo aver eseguito il codice sottostante e aperto il file, controlla l'intestazi
 1. Seleziona la scheda **Intestazione/Piè di pagina**.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -113,3 +113,4 @@ Ladda ner **Arbeta med färger** från någon av de nedan angivna sociala kodnin
 För mer information, besök [Dataformateringsfunktioner](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -28,8 +28,15 @@ Si desea exportar múltiples hojas deseadas/personalizadas a PDF, puede lograrlo
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-MultiSheetsToPdf.cs" >}}
 
+## **Reordenar hojas de cálculo a PDF**
+
+Si deseas reorganizar las hojas (por ejemplo, en orden inverso) a pdf sin modificar el archivo fuente, puedes lograrlo pasando índices de hojas reorganizadas a la opción [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/).
+
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-ReorderSheetsToPdf.cs" >}}
+
 {{% alert color="primary" %}} 
 
 Si su hoja de cálculo contiene fórmulas, es mejor llamar a [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) justo antes de renderizar la hoja de cálculo en formato PDF. Al hacerlo, se asegurará de que los valores dependientes de las fórmulas se recalculen y los valores correctos se muestren en el PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

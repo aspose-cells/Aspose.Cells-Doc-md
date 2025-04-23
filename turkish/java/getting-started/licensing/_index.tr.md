@@ -18,7 +18,7 @@ Lisans bir akıştan veya dosyadan aşağıdaki konumlardan yüklenebilir:
 1. Açık yol.
 1. Aspose.Cells.jar içeren klasör.
 
-Bileşimi lisanslamak için [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) yöntemini kullanın. Genellikle lisansı ayarlamanın en kolay yolu, lisans dosyasını Aspose.Cells.jar ile aynı klasöre koymak ve sadece dosya adını belirtmektir, örnek aşağıda gösterildiği gibi:
+Bileşeni lisanslamak için [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense-java.io.InputStream-) metodunu kullanın. Lisansı ayarlamanın en kolay yolu, lisans dosyasını Aspose.Cells.jar ile aynı dizine koymak ve aşağıdaki örnekte gösterildiği gibi yalnızca dosya adını yol olmadan belirtmektir:
 
 ### **Dandan Uygulaması**
 
@@ -99,3 +99,4 @@ double amountAfter = Metered.getConsumptionQuantity();
 System.out.println(amountAfter);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

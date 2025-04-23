@@ -34,3 +34,4 @@ Para implementar el cifrado de archivos en Microsoft Excel (por ejemplo 2007):
 El siguiente ejemplo de código aplica un cifrado fuerte a un archivo y establece una contraseña.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ApplyingEncryption-ApplyingEncryption.java" >}}
+{{< app/cells/assistant language="java" >}}

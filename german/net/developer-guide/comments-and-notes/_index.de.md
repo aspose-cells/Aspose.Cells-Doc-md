@@ -48,3 +48,4 @@ Auch Aspose.Cells bietet diese Funktion. Im Folgenden finden Sie einen Beispielc
 - [Wie man den Kommentarhintergrund einstellt](/cells/de/net/how-to-set-comment-background/)
 - [Antwortkommentare](/cells/de/net/threaded-comments/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -131,7 +131,7 @@ Pour créer un graphique à l'aide d'Aspose.Cells:
 
 1. Ajoutez des données à des cellules de feuille de calcul avec la méthode [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) de l'objet [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell).
    Cela sera utilisé comme la source de données pour le graphique.
-1. Ajoutez un graphique à la feuille de calcul en appelant la méthode [*add*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int)) de la collection [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection), encapsulée dans l'objet [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet).
+1. Ajoutez un graphique à la feuille de calcul en appelant la collection [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) [*add*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add-int-int-int-int-int-) méthode, encapsulée dans l'objet [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet).
 1. Spécifiez le type de graphique avec l'énumération [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType).
    Par exemple, l'exemple utilise la valeur [**ChartType.PYRAMID**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#PYRAMID) comme type de graphique.
 1. Accédez au nouvel objet [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) de la collection [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) en passant son index.
@@ -166,7 +166,7 @@ Pour créer un graphique à bulles, le [**ChartType**](https://reference.aspose.
 
 #### **Diagramme linéaire avec marqueur de données**
 
-Pour créer un graphique de ligne avec des marqueurs de données, le [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) doit être défini sur [**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE_WITH_DATA_MARKERS) et quelques propriétés supplémentaires telles qu'une zone de fond, des marqueurs de série, des valeurs et des XValues doivent être définies en conséquence. Après l'exécution du code suivant, un graphique de ligne avec des marqueurs de données est ajouté à la feuille de calcul.
+Pour créer un graphique de ligne avec des marqueurs de données, le [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) doit être défini sur [**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE-WITH-DATA-MARKERS) et quelques propriétés supplémentaires telles qu'une zone de fond, des marqueurs de série, des valeurs et des XValues doivent être définies en conséquence. Après l'exécution du code suivant, un graphique de ligne avec des marqueurs de données est ajouté à la feuille de calcul.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-CreateLineWithDataMarkerChart-1.java" >}}
 
@@ -202,3 +202,4 @@ Pour voir une liste des types de graphiques pris en charge, lisez l'article [Typ
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="java" >}}

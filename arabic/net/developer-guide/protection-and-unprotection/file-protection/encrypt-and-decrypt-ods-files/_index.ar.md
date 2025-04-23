@@ -27,3 +27,4 @@ OpenOffice.org هو حزمة مكتبية كاملة الميزات تدعم ح�
 لفك تشفير ملف ODS، قم بتحميل الملف عن طريق تقديم كلمة مرور في [**LoadOptions.Password**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/password). بمجرد تحميل الملف، ضبط السلسلة [**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) على القيمة الخالية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-DecryptingODSFiles-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

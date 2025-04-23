@@ -52,3 +52,4 @@ url: /ru/net/pivot-table-and-source-data/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ChangeSourceData-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

@@ -16,3 +16,4 @@ Akıllı sanat, bir çalışma kitabındaki önemli nesnelerden biridir. Birçok
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-ReplaceTextInSmartArt-1.java" >}}
+{{< app/cells/assistant language="java" >}}

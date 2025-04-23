@@ -18,3 +18,4 @@ url: /ru/net/specify-document-version-of-the-excel-file-using-builtin-document-p
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "LoadingSavingConvertingAndManaging-SpecifyDocumentVersionOfExcelFile.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

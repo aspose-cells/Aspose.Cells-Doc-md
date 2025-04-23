@@ -38,3 +38,4 @@ url: /zh/net/missing-features-in-openxml/
 - [在Aspose.Cells中设置公式的外部链接](/cells/zh/net/set-external-links-in-formulas-in-aspose-cells/)
 - [在Aspose.Cells中设置工作簿的公式计算模式](/cells/zh/net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/)
 - [在Aspose.Cells中设置共享公式](/cells/zh/net/setting-shared-formula-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

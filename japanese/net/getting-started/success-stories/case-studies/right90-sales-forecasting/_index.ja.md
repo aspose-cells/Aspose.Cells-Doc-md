@@ -28,3 +28,4 @@ url: /ja/net/right90-sales-forecasting/
 Aspose.Cellsコンポーネントにより、製造業のお客様は、Excelワークブックを素早く構築および読み取ることができ、Right90でセールス予測を簡単かつ直感的な方法でキャプチャ、更新、および集計することができます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

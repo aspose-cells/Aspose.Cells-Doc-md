@@ -45,3 +45,4 @@ Aşağıda belirtilen herhangi bir sosyal kodlama sitesinden **İş Kitapların�
 Daha fazla bilgi için [İş Kitaplarını Yazdırma](/cells/tr/net/printing-workbooks/) sayfasını ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

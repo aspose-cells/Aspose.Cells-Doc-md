@@ -19,3 +19,4 @@ Aspose.Cellsを使用すると、ワークシート内でセルを切り取り�
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-CutAndPasteCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

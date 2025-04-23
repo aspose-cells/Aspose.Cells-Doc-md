@@ -150,3 +150,4 @@ Style style = book.Worksheets[0].Cells.Style;
 
 1. AjaxCallFinished: يُطلق عند اكتمال التحديث بتقنية AJAX للتحكم. (يجب تعيين EnableAJAX إلى true).
 1. CellModifiedOnAjax: يتم إطلاق الحدث عند تعديل الخلية في استدعاء AJAX.
+{{< app/cells/assistant language="csharp" >}}

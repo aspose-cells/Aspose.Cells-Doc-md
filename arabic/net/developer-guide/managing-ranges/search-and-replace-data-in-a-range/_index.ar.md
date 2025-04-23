@@ -16,3 +16,4 @@ keywords: C# البحث واستبدال البيانات في Excel، C# الب
 يوفر Aspose.Cells الطريقة [**FindOptions.SetRange()**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/methods/setrange) لتحديد نطاق عند البحث في البيانات. يوضح الكود العيني أدناه البحث واستبدال البيانات في نطاق.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SearchReplaceDataInRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

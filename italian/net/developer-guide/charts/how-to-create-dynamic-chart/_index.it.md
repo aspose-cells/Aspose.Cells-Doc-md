@@ -24,3 +24,4 @@ Negli argomenti avanzati, ti mostreremo come utilizzare Aspose Cells per creare 
 - [Crea un grafico a barre dinamico utilizzando Aspose Cells](/cells/it/net/create-dynamic-rolling-chart/)
 - [Crea un grafico a barre dinamico utilizzando Aspose Cells](/cells/it/net/create-dynamic-scrolling-chart/)
 - [Crea un grafico dinamico con elenco a discesa utilizzando Aspose Cells](/cells/it/net/create-dynamic-chart-with-dropdownlist/)
+{{< app/cells/assistant language="csharp" >}}

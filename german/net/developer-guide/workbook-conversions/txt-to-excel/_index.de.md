@@ -59,3 +59,4 @@ Eine tabstoppgetrennte Werte (TSV) Datei enthält Tabellendaten, jedoch ohne jeg
 - [CSV-Datei mit Formeln laden oder importieren](/cells/de/net/load-or-import-csv-file-with-formulas/)
 - [Lesen von CSV-Dateien mit verschiedenen Codierungen](/cells/de/net/reading-csv-file-with-multiple-encodings/)
 
+{{< app/cells/assistant language="csharp" >}}

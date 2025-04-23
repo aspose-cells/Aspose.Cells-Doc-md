@@ -56,3 +56,4 @@ Der folgende Beispielcode veranschaulicht diesen Prozess. Das Programm liest ein
 Eine Klasse, die die LightCellsDataHandler-Schnittstelle implementiert
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LightCellsDataHandlerVisitCells-LightCellsDataHandlerVisitCells.java" >}}
+{{< app/cells/assistant language="java" >}}

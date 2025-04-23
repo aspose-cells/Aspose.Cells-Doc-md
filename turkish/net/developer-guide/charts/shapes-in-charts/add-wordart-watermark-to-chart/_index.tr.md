@@ -20,3 +20,4 @@ Aşağıdaki örnek, varolan bir grafik çizim alanı için bir WordArt şeklini
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-AddWordArtWatermarkToChart-AddWordArtWatermarkToChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

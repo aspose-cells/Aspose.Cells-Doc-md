@@ -49,3 +49,4 @@ Consulta el siguiente código, que crea un objeto de libro de trabajo y establec
 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-rotate-text.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

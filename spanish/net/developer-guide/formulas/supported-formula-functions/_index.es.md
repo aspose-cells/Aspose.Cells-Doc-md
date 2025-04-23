@@ -36,6 +36,7 @@ El motor de cálculo de fórmulas de Aspose.Cells te permite establecer, leer y 
 |ANCHORARRAY|**Búsqueda y referencia**: Devuelve el rango derramado completo para el array dinámico en la celda
 |AND|**Lógico**: Devuelve VERDADERO si todos sus argumentos son VERDADERO
 |AREAS|**Búsqueda y referencia**: Devuelve el número de áreas en una referencia
+|ARRAYTOTEXT|**Texto**: Devuelve un array de valores de texto desde cualquier rango especificado
 |ASC|**Texto**: Cambia las letras inglesas de ancho completo (de doble byte) o katakana dentro de una cadena de caracteres por caracteres de ancho medio (de un solo byte)
 |ASIN|**Matemáticas y trigonometría**: Devuelve el arcoseno de un número
 |ASINH|**Matemáticas y trigonometría**: Devuelve el seno hiperbólico inverso de un número
@@ -69,6 +70,8 @@ El motor de cálculo de fórmulas de Aspose.Cells te permite establecer, leer y 
 |BITOR|**Ingeniería**: Devuelve el 'o' bit a bit de dos números
 |BITRSHIFT|**Ingeniería**: Devuelve un número de valor desplazado a la derecha por una cantidad determinada de bits
 |BITXOR|**Ingeniería**: Devuelve un 'o exclusivo' bit a bit de dos números
+|BYCOL|**Lógico**: Aplica una función LAMBDA a cada columna y devuelve una matriz de los resultados
+|BYROW|**Lógico**: Aplica una función LAMBDA a cada fila y devuelve una matriz de los resultados
 
 ###### **C**
 |**Función**|**Resumen**|
@@ -148,7 +151,7 @@ El motor de cálculo de fórmulas de Aspose.Cells te permite establecer, leer y 
 |DOLLARDE|**Financiero**: Convierte un precio en dólares, expresado como fracción, en un precio en dólares, expresado como un número decimal
 |DOLLARFR|**Financiero**: Convierte un precio en dólares, expresado como un número decimal, en un precio en dólares, expresado como una fracción
 |DPRODUCT|**Base de datos**: Multiplica los valores en un campo particular de registros que coinciden con los criterios en una base de datos
-|SOLTAR|**Búsqueda y referencia**: Excluye un número especificado de filas o columnas desde el inicio o fin de una matriz
+|DROP|**Búsqueda y referencia**: Excluye un número especificado de filas o columnas desde el inicio o el final de una matriz
 |DSTDEV|**Base de datos**: Estima la desviación estándar en función de una muestra de entradas de la base de datos seleccionada
 |DSTDEVP|**Base de datos**: Calcula la desviación estándar en función de toda la población de entradas de la base de datos seleccionada
 |DSUM|**Base de datos**: Suma los números en la columna de campo de registros en la base de datos que coinciden con el criterio
@@ -515,6 +518,7 @@ El motor de cálculo de fórmulas de Aspose.Cells te permite establecer, leer y 
 |**Función**|**Resumen**|
 | :- | :- |
 |VALUE|**Texto**: Convierte un argumento de texto a un número
+|VALUETOTEXT|**Texto**: Devuelve texto de cualquier valor especificado
 |VAR|**Compatibilidad**: Estima la varianza basada en una muestra
 |VAR.P|**Estadístico**: Calcula la varianza basada en toda la población
 |VAR.S|**Estadístico**: Estima la varianza basada en una muestra
@@ -557,3 +561,4 @@ El motor de cálculo de fórmulas de Aspose.Cells te permite establecer, leer y 
 |Z.TEST|**Estadístico**: Devuelve el valor de probabilidad de una cola de una prueba z
 |ZTEST|**Compatibilidad**: Devuelve el valor de probabilidad de una cola de una prueba z
 
+{{< app/cells/assistant language="csharp" >}}

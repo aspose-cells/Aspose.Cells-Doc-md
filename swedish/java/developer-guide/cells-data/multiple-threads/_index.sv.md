@@ -51,3 +51,4 @@ if (s.equals("R" + row + "C" + col)!=true)
 I annat fall körs programmet utan att visa något meddelande, vilket betyder att alla värden som läses från cellerna är korrekta.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ThreadProc-ThreadProc.java" >}}
+{{< app/cells/assistant language="java" >}}

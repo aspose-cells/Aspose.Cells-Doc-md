@@ -24,3 +24,4 @@ keywords: إضافة رسوم بيانية للأسهم، إنشاء رسوم ب
 تظهر مجموعة البيانات أدناه معلومات التداول اليومية لسهم معين. سنستخدم هذه البيانات لإنشاء كل من الرسوم البيانية الأربعة المتاحة في Aspose.Cells. 
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="java" >}}

@@ -33,3 +33,4 @@ Se permiten los siguientes parámetros:
 - copystyle - Copiar el estilo de la celda base a todas las celdas en esa columna.
 
 Los parámetros **noadd** y skip se pueden combinar para insertar datos en filas alternas. Debido a que la plantilla se procesa de abajo hacia arriba, debes agregar noadd en la primera fila para evitar que se inserten filas adicionales antes de la fila alternativa.
+{{< app/cells/assistant language="csharp" >}}

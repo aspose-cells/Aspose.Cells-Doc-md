@@ -15,3 +15,4 @@ url: /ar/net/read-and-write-table-with-query-table-data-source/
 [ملف المصدر](96928091.xls)
 
 [ملف الناتج](96928092.xls)
+{{< app/cells/assistant language="csharp" >}}

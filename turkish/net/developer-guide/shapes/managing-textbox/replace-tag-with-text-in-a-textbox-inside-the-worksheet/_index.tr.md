@@ -15,3 +15,4 @@ Aşağıdaki örnek kod TAG_1 ve TAG_2 etiketlerini 'ys' ve '1' olarak değişti
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-ReplaceTagWithTextInTextBox-1.cs" >}}
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-ReplaceTagWithTextInTextBox-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

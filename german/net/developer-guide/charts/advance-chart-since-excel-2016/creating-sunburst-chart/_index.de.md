@@ -19,3 +19,4 @@ Nach Ausführen des unten stehenden Codes wird das Sonnenstrahlendiagramm wie un
 Der folgende Beispielcode lädt die [Beispieldatei Excel](sunburst.xlsx) und erstellt die [Ausgabedatei Excel](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-sunburst-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

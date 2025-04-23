@@ -26,3 +26,4 @@ Nedan är konsoloutputen av ovanstående kod med [exempel excelfil](5115032.xlsm
 Is VBA Code Project Signed: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

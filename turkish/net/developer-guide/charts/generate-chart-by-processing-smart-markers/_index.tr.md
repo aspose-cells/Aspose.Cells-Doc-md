@@ -48,3 +48,4 @@ Yukarıdaki kod örneği, ilk adımda oluşturulan [**Workbook**](https://refere
 Veri yerine getirildikten sonra, yapmamız gereken tek şey veri kaynağına dayalı bir grafik oluşturmaktır. Örneği basit tutmak için [**Chart.SetChartDataRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange) yöntemini kullanacağız, böylece grafikleri daha fazla yapılandırmaya gerek kalmadan kullanabiliriz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-CreationOfChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

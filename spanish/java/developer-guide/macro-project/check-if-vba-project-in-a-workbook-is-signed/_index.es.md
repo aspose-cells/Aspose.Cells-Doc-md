@@ -18,3 +18,4 @@ El siguiente código carga el libro de trabajo y verifica si su proyecto VBA est
 ## Código de Muestra
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CheckVbaProjectSigned-CheckVbaProjectSigned.java" >}}
+{{< app/cells/assistant language="java" >}}

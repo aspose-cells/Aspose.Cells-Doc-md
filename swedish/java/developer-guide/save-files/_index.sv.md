@@ -14,7 +14,7 @@ url: /sv/java/saving-excel-files-to-csv-pdf-and-other-formats/
 
 ## **Olika sätt att spara dina filer**
 
-Aspose.Cells API tillhandahåller en klass som heter [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) som representerar en Excel-fil och tillhandahåller alla nödvändiga egenskaper och metoder som utvecklare kan behöva arbeta med sina Excel-filer. [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)-klassen tillhandahåller en [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))-metod som används för att spara Excel-filer. [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))-metoden har många överbelastningar som används för att spara Excel-filer på olika sätt.
+Aspose.Cells API tillhandahåller en klass som heter [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) som representerar en Excel-fil och tillhandahåller alla nödvändiga egenskaper och metoder som utvecklare kan behöva arbeta med sina Excel-filer. [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)-klassen tillhandahåller en [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-)-metod som används för att spara Excel-filer. [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-)-metoden har många överbelastningar som används för att spara Excel-filer på olika sätt.
 
 Utvecklare kan också ange filformatet som deras filer ska sparas i. Filerna kan sparas i flera format som XLS, SpreadsheetML, CSV, tabulatoravgränsad, tabbseparerade värden TSV, XPS och många fler. Dessa filformat specificeras med hjälp av [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)-uppräkningen.
 
@@ -30,12 +30,12 @@ Utvecklare kan också ange filformatet som deras filer ska sparas i. Filerna kan
 |[**XLTM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLTM)|Representerar en Excelfil med aktiverad makro|
 |[**XLAM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLAM)|Representerar en Excel XLAM-fil|
 |[**TSV**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TSV)|Representerar en flikbaserad värdefil|
-|[**TAB_DELIMITED**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TAB_DELIMITED)|Representerar en flikavgränsad textfil|
+|[**TAB_DELIMITED**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TAB-DELIMITED)|Representation av en tabbavgränsad textfil|
 |[**HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML)|Representerar en HTML-fil(ar)|
-|[**M_HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#M_HTML)|Representerar en MHTML-fil(ar)|
+|[**M_HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#M-HTML)|Representation av en MHTML-fil|
 |[**ODS**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#ODS)|Representerar en OpenDocument Spreadsheet-fil|
-|[**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#EXCEL_97_TO_2003)|Representerar en XLS-fil som är standardformat för Excel 1997 till 2003 revisioner|
-|[**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SPREADSHEET_ML)|Representerar en SpreadSheetML-fil|
+|[**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#EXCEL-97-TO-2003)|Representation av en XLS-fil som är standardformatet för Excel 1997 till 2003-uppdateringar|
+|[**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SPREADSHEET-ML)|Representerar en SpreadSheetML-fil|
 |[**XLSB**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLSB)|Representerar en Excel 2007 binär XLSB-fil|
 |[**UNKNOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#UNKNOWN)|Representerar oigenkändt format, kan inte sparas.|
 |[**PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)|Representerar en PDF-dokument|
@@ -52,7 +52,7 @@ Utvecklare kan också ange filformatet som deras filer ska sparas i. Filerna kan
 
 ## **Spara fil till en plats**
 
-Om utvecklare behöver spara sina filer till någon lagringsplats kan de helt enkelt ange filnamnet (med dess kompletta lagringsväg) och önskat filformat (med hjälp av [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)-uppräkningen) när de anropar [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)-objektets [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))-metod.
+Om utvecklare behöver spara sina filer till någon lagringsplats kan de helt enkelt ange filnamnet (med dess kompletta lagringsväg) och önskat filformat (med hjälp av [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)-uppräkningen) när de anropar [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)-objektets [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-)-metod.
 
 **Exempel:**
 
@@ -66,7 +66,7 @@ Följande kodexempel förklarar hur du sparar en hel arbetsbok i textformat. Lad
 
 När koden körs konverterar den data från alla kalkylblad i arbetsboken till TXT-format.
 
-Du kan modifiera samma exempel för att spara din fil till CSV. Som standard är [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) ett kommatecken, så ange inte en avskiljare om du sparar till CSV-format. Observera: Om du använder utvärderingsversionen och även om parametern för metoden [**TxtSaveOptions.setExportAllSheets(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions/#setExportAllSheets-boolean-) är inställd på true kommer programmet ändå bara exportera ett kalkylblad.
+Du kan modifiera samma exempel för att spara din fil till CSV. Som standard är [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) ett komma, så ange inte någon separator om du sparar i CSV-format. Observera: Om du använder utvärderingsversionen och även om parametern för metoden [**TxtSaveOptions.setExportAllSheets(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions/#setExportAllSheets-boolean-) är satt till true, kommer programmet fortfarande bara att exportera ett kalkblad.
 
 **Exempel:**
 
@@ -80,7 +80,7 @@ Textfiler innehåller kalkyleringsdata utan formatering. Filen är en typ av ren
 
 ## **Spara fil till en ström**
 
-Om utvecklare behöver spara sina filer till en **Ström** bör de skapa ett **FileOutputStream**-objekt och sedan spara filen till det **Ström**-objektet genom att anropa [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)-objektets [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))-metod. Utvecklare kan också ange önskat filformat (med hjälp av [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)-uppräkningen) när de anropar [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))-metoden.
+Om utvecklare behöver spara sina filer till en **Ström** bör de skapa ett **FileOutputStream**-objekt och sedan spara filen till det **Ström**-objektet genom att anropa [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)-objektets [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-)-metod. Utvecklare kan också ange önskat filformat (med hjälp av [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)-uppräkningen) när de anropar [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-)-metoden.
 
 **Exempel:**
 
@@ -116,7 +116,7 @@ Med [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cell
 
 ## **Konvertera Excel-arbetsbok till Markdown**
 
-Aspose.Cells API ger stöd för att exportera kalkylblad till Markdown-format. För att exportera det aktiva kalkylbladet till Markdown, skicka [**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN) som andra parameter av [**Workbook.Save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.lang.String,%20int))-metoden. Du kan också använda [**MarkdownSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/MarkdownSaveOptions)-klassen för att specificera ytterligare inställningar för att exportera kalkylblad till Markdown.
+Aspose.Cells API ger stöd för att exportera kalkylblad till Markdown-format. För att exportera det aktiva kalkylbladet till Markdown, skicka [**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN) som andra parameter av [**Workbook.Save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.lang.String-int-)-metoden. Du kan också använda [**MarkdownSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/MarkdownSaveOptions)-klassen för att specificera ytterligare inställningar för att exportera kalkylblad till Markdown.
 
 Följande kodexempel visar hur du exporterar det aktiva kalkylbladet till Markdown genom att använda [**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)-uppräkningens medlem. Se den [utdata-Markdown-filen](Book1.txt) genererad av koden för referens.
 
@@ -128,3 +128,4 @@ Följande kodexempel visar hur du exporterar det aktiva kalkylbladet till Markdo
 - [Spara arbetsbok i strikt öppet XML-kalkylbladsformat](/cells/sv/java/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [Spåra konverteringsframsteg för Excel till TIFF](/cells/sv/java/track-conversion-progress-of-excel-to-tiff/)
 - [Spåra Dokumentkonverteringsframsteg](/cells/sv/java/track-document-conversion-progress/)
+{{< app/cells/assistant language="java" >}}

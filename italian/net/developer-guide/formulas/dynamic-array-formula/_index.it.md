@@ -135,3 +135,4 @@ Si prega di vedere il seguente codice di esempio che carica il [file Excel di es
 La snapshot di output:
 <br>
 <image src="4.png" width="70%" />
+{{< app/cells/assistant language="csharp" >}}

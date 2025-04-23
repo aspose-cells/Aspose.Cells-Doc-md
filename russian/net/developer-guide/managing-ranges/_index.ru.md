@@ -74,3 +74,4 @@ CurrentRegion - это свойство, которое возвращает о�
 - [Перемещение диапазона ячеек на листе](/cells/ru/net/move-range-of-cells-in-a-worksheet/)
 - [Создать именованные диапазоны с учетом книги и листа](/cells/ru/net/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Поиск и замена данных в диапазоне](/cells/ru/net/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="csharp" >}}

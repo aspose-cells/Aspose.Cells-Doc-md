@@ -45,3 +45,4 @@ Laden Sie **Arbeitsmappen drucken** von einer der unten aufgeführten sozialen C
 Für weitere Details besuchen Sie [Arbeitsmappen drucken](/cells/de/net/printing-workbooks/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

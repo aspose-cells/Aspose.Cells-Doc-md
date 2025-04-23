@@ -22,3 +22,4 @@ url: /ja/java/working-with-external-data-connection-of-type-webquery/
  Web Query URL: http://www.aspose.com/docs/display/cellsnet/Home
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

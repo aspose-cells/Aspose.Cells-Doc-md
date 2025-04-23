@@ -105,3 +105,4 @@ Aspose.Cells предоставляет метод [**Range.Copy()**](https://re
 В следующем примере показано, как скопировать исходный диапазон ячеек в другой именованный диапазон.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CopyNamedRanges-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

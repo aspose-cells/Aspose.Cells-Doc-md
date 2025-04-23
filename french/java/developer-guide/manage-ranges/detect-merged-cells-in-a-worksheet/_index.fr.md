@@ -23,7 +23,7 @@ Cet exemple utilise un fichier Microsoft Excel modèle appelé **MergeTrial**. I
 
 ![todo:image_alt_text](detect-merged-cells-in-a-worksheet_1.png)
 
-Aspose.Cells fournit la méthode [**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--) qui est utilisée pour obtenir toutes les cellules fusionnées.
+Aspose.Cells fournit la méthode [**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--) qui permet d'obtenir toutes les cellules fusionnées.
 
 Lorsque le code ci-dessous est exécuté, il efface le contenu de la feuille et dé-fusionne toutes les zones de cellules avant d'enregistrer à nouveau le fichier.
 
@@ -40,3 +40,4 @@ Veuillez consulter le code d'exemple suivant pour savoir comment identifier les 
 ## **Articles connexes**
 
 - [Fusionner et scinder des cellules](/cells/fr/java/fusionner-et-separer-des-cellules/).
+{{< app/cells/assistant language="java" >}}

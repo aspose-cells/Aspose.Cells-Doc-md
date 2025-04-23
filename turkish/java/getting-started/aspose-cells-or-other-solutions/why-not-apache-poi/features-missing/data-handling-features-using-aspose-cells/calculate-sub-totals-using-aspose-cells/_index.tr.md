@@ -53,3 +53,4 @@ workbook.save("AsposeTotal.xls");
 Daha fazla bilgi için [Alt Toplamlar Oluşturma](/cells/tr/java/creating-subtotals)'ı ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

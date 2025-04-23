@@ -18,3 +18,4 @@ url: /ru/java/specify-individual-or-private-set-of-fonts-for-workbook-rendering/
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Fonts-SpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.java" >}}
+{{< app/cells/assistant language="java" >}}

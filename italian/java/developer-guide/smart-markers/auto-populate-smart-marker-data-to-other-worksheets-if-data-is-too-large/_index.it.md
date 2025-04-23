@@ -11,8 +11,9 @@ A volte, desideri popolare automaticamente i dati del marcatore intelligente in 
 
 ## **Auto Popolare i Dati di Smart Marker in Altri Fogli di Lavoro se i Dati sono Troppo Numerosi**
 
-Il seguente codice di esempio ha una fonte dati che ha 21 record. Vogliamo mostrare solo 15 record in un foglio di lavoro, quindi il resto dei record verrà automaticamente spostato nel secondo foglio di lavoro. Si noti che il secondo foglio di lavoro dovrebbe avere lo stesso tag di marcatore intelligente e è necessario chiamare il metodo [**WorkbookDesigner.process(sheetIndex, isPreserved)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process(int,%20boolean)) per entrambi i fogli. Controlla anche il file [Microsoft Access Database](60489777.accdb) utilizzato in questo codice così come il [file di Excel di output](60489786.xlsx) generato dal codice per un riferimento.
+Il seguente codice di esempio ha una fonte dati che ha 21 record. Vogliamo mostrare solo 15 record in un foglio di lavoro, quindi il resto dei record verrà automaticamente spostato nel secondo foglio di lavoro. Si noti che il secondo foglio di lavoro dovrebbe avere lo stesso tag di marcatore intelligente e è necessario chiamare il metodo [**WorkbookDesigner.process(sheetIndex, isPreserved)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process-int-boolean-) per entrambi i fogli. Controlla anche il file [Microsoft Access Database](60489777.accdb) utilizzato in questo codice così come il [file di Excel di output](60489786.xlsx) generato dal codice per un riferimento.
 
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "SmartMarkers-AutoPopulateSmartMarkerDataToOtherWorksheets.java" >}}
+{{< app/cells/assistant language="java" >}}

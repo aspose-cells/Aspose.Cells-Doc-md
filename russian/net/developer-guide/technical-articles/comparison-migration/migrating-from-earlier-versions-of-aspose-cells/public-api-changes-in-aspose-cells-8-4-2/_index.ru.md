@@ -158,3 +158,4 @@ workbook.Save(output);
 Начиная с выпуска Aspose.Cells for .NET 8.4.2, перечисление PasteType.All ведет себя по-другому по сравнению с функциональностью "Все" в Excel для вставки диапазона ячеек. Теперь PasteType.All также копирует ширину столбцов в целевой диапазон, в отличие от функциональности "Все" в Excel. Чтобы имитировать поведение "Все" в Excel, используйте PasteType.Default.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

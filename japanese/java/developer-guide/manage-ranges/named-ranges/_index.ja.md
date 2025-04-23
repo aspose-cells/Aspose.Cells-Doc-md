@@ -29,24 +29,24 @@ Microsoft Excel を使用してセルまたはセルの範囲に名前を付け�
 
 Aspose.Cells は、Microsoft Excel ファイルを表す [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) クラスを提供します。 [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) クラスには、Excel ファイル内の各ワークシートにアクセスできる [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) を含みます。ワークシートは [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) クラスで表されます。 [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) クラスは [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションを提供します。
 
-[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションのオーバーロードされた [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\)) メソッドを呼び出すことで、名前付き範囲を作成することができます。 [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\)) メソッドは、一般的なバージョンでは、以下のパラメータを取ります。
+[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクションのオーバーロードされた[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-java.lang.String-java.lang.String-)メソッドを呼び出すことで、範囲に名前を付けて作成できます。一般的な[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-java.lang.String-java.lang.String-)メソッドは次のパラメータを取ります：
 
 - 左上のセルの名前、範囲内の左上のセルの名前。
 - 右下のセルの名前、範囲内の右下のセルの名前。
 
-[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\)) メソッドを呼び出すと、新しく作成された名前付き範囲が [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) クラスのインスタンスとして返されます。
+[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-java.lang.String-java.lang.String-)が呼び出されると、新しく作成された範囲は[Range](https://reference.aspose.com/cells/java/com.aspose.cells/range)クラスのインスタンスとして返されます。
 
 次の例は、B4:G14 のセルの名前付き範囲を作成する方法を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-CreateNamedRangeofCells-CreateNamedRangeofCells.java" >}}
 #### **スプレッドシートのすべての名前付き範囲にアクセスする**
-[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) の [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\)) メソッドを呼び出して、スプレッドシート内のすべての名前付き範囲にアクセスできます。 [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\)) メソッドは、[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) 内のすべての名前付き範囲の配列を返します。
+[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)の[getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges--)メソッドを呼び出して、スプレッドシート内のすべての名前付き範囲を取得します。このメソッドは、すべての名前付き範囲の配列を返します。
 
 次の例は、ワークブック内のすべての名前付き範囲にアクセスする方法を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AccessAllNamedRanges-AccessAllNamedRanges.java" >}}
 #### **特定の名前付き範囲にアクセスする**
-[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) コレクションの [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\)) メソッドを呼び出して、名前で指定した範囲にアクセスできます。 一般的な [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\)) メソッドは、名前付き範囲の名前を取り、それを [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) クラスのインスタンスとして返します。
+[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)コレクションの[getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName-java.lang.String-)メソッドを呼び出すと、名前で指定された範囲を取得できます。一般的な[getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName-java.lang.String-)メソッドは範囲名を引数に取り、指定された名前付き範囲を[Range](https://reference.aspose.com/cells/java/com.aspose.cells/range)クラスのインスタンスとして返します。
 
 次の例は、名前で指定した範囲にアクセスする方法を示しています。
 
@@ -76,7 +76,7 @@ Aspose.Cells を使用すると、範囲内の個々のセルにデータを挿�
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FormatRanges1-FormatRanges1.java" >}}
 #### **範囲の書式設定...ネームド レンジにボーダーを追加**
-単一のセルではなく、セルの範囲にボーダーを追加することができます。[Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) オブジェクトは、範囲のセルにボーダーを追加するために次のパラメータを取る [setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\)) メソッドを提供します。
+セルの範囲に境界線を追加することも可能です。単一のセルだけでなく、[Range](https://reference.aspose.com/cells/java/com.aspose.cells/range)オブジェクトは[setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders-int-com.aspose.cells.Color-)メソッドを提供し、次のパラメータで範囲の境界線を追加します：
 
 - borderStyle: ボーダーの種類、[CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType) 列挙型から選択します。
 - borderColor: ボーダーの線の色、[Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color) 列挙型から選択します。
@@ -90,16 +90,17 @@ Aspose.Cells を使用すると、範囲内の個々のセルにデータを挿�
 
 ![todo:image_alt_text](named-ranges_1.png)
 #### **指定された[Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) のセルにスタイルを適用する**
-時には、[Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) のセルにスタイルを適用したいことがあります。その場合、範囲内のセルを反復処理し、[Cell.setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) メソッドを使用してセルにスタイルを適用します。
+時には、[Range](https://reference.aspose.com/cells/java/com.aspose.cells/range)内のセルにスタイルを適用したい場合があります。その場合、範囲内のセルを反復処理し、[Cell.setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle-com.aspose.cells.Style-)メソッドを使用してセルにスタイルを適用します。
 
 次の例では、[Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) のセルにスタイルを適用する方法を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ConvertCellsAddresstoRangeorCellArea-ConvertCellsAddresstoRangeorCellArea.java" >}}
 #### **ネームド レンジの削除**
-Aspose.Cellsは、[NameCollection.RemoveAt()](https://reference.aspose.com/cells/java/com.aspose.cells/namecollection#removeAt\(int\)) メソッドを介して、ネームド レンジの名前を削除する機能を提供します。範囲の内容をクリアするには、[Cells.ClearRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#clearRange\(com.aspose.cells.CellArea\)) メソッドを使用します。
+Aspose.Cellsは[NameCollection.RemoveAt()](https://reference.aspose.com/cells/java/com.aspose.cells/namecollection#removeAt-int-)メソッドを提供し、範囲の名前を削除します。範囲の内容をクリアするには、[Cells.ClearRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#clearRange-com.aspose.cells.CellArea-)メソッドを使用します。
 次の例では、ネームド レンジとその内容を削除する方法を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-RemoveANamedRange-RemoveANamedRange.java" >}}
 
 
 borderColors 
+{{< app/cells/assistant language="java" >}}

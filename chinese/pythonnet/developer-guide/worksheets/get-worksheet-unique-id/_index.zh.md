@@ -3,13 +3,13 @@ title: 获取工作表的唯一标识
 type: docs
 weight: 190
 url: /zh/python-net/get-worksheet-unique-id/
-description: 本文显示了如何使用Aspose.Cells for Python via .NET API获取Excel工作表的唯一标识。
-keywords: Python Excel库，Python获取Excel工作表的唯一标识，Python获取工作表唯一标识。
+description: 本文展示如何使用 Aspose.Cells for Python via .NET API 获取Excel工作表的唯一ID。
+keywords: Python Excel 库，Python 获取Excel工作表唯一ID，Python 获取工作表唯一ID。
 ---
 
-## **如何获取工作表唯一标识**
+## **如何获取工作表唯一ID**
 
-Aspose.Cells for Python via .NET提供了通过使用[**Worksheet.unique_id**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/unique_id)属性获取工作表唯一标识的功能。以下代码片段演示了使用[**Worksheet.unique_id**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/unique_id)属性打印工作表的唯一标识。以下代码片段使用了这个[示例Excel文件](105480213.xlsx)。
+Aspose.Cells for Python via .NET 提供通过 [**Worksheet.unique_id**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/unique_id) 属性获取工作表唯一ID的功能。以下代码片段演示了如何使用 [**Worksheet.unique_id**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/unique_id) 属性打印工作表的唯一ID。此代码示例使用了[示例Excel文件](105480213.xlsx)。
 
 ### 源代码
 

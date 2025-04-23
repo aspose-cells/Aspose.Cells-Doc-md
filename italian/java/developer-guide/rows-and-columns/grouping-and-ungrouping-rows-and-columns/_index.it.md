@@ -18,7 +18,7 @@ Aspose.Cells fornisce una classe, [Workbook](https://reference.aspose.com/cells/
 
 La raccolta [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) fornisce diversi metodi per gestire le righe o colonne in un foglio di lavoro, alcuni di questi sono discussi di seguito in modo più dettagliato.
 ### **Raggruppamento di righe e colonne**
-È possibile raggruppare righe o colonne chiamando i metodi [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows\(int,%20int,%20boolean\)) e [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns\(int,%20int,%20boolean\)) della raccolta [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Entrambi i metodi richiedono i seguenti parametri:
+È possibile raggruppare righe o colonne chiamando i metodi [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows-int-int-boolean-) e [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns-int-int-boolean-) della collezione [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Entrambi i metodi accettano i seguenti parametri:
 
 - Indice della prima riga/colonna, la prima riga o colonna nel gruppo.
 - Indice dell'ultima riga/colonna, l'ultima riga o colonna nel gruppo.
@@ -51,7 +51,7 @@ Gli sviluppatori possono controllare la visualizzazione delle righe di riepilogo
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowRight-1.java" >}}
 ### **Sganciare Righe e Colonne**
-Annullare il raggruppamento delle righe o colonne raggruppate chiamando i metodi [UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows\(int,%20int\)) e [UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns\(int,%20int\)) della raccolta [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Entrambi i metodi richiedono gli stessi parametri:
+Disimpegnare righe o colonne raggruppate chiamando i metodi [UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows-int-int-) e [UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns-int-int-) della collezione [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Entrambi i metodi accettano gli stessi parametri:
 
 - Indice della prima riga o colonna, la prima riga/colonna da sraggruppare.
 - Indice dell'ultima riga o colonna, l'ultima riga/colonna da sraggruppare.
@@ -59,3 +59,4 @@ Annullare il raggruppamento delle righe o colonne raggruppate chiamando i metodi
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-UngroupingRowsandColumns-UngroupingRowsandColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

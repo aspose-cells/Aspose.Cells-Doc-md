@@ -19,9 +19,9 @@ Microsoft Excel te permite imprimir comentarios al imprimir o guardar en formato
 
 Aspose.Cells proporciona las siguientes enumeraciones para admitir la impresión de comentarios al guardar en PDF
 
-- [**PrintCommentsType.PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS)
-- [**PrintCommentsType.PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)
-- [**PrintCommentsType.PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_SHEET_END)
+- [**PrintCommentsType.PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-NO-COMMENTS)
+- [**PrintCommentsType.PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-IN-PLACE)
+- [**PrintCommentsType.PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-SHEET-END)
 
 ## Fragmento de código
 
@@ -32,3 +32,4 @@ El siguiente código de ejemplo ilustra cómo usar la enumeración [**PrintComme
 ## Artículos relacionados
 
 - [Convertir archivo de Excel a formato PDF compatible con PDFA-1a](/cells/es/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+{{< app/cells/assistant language="java" >}}

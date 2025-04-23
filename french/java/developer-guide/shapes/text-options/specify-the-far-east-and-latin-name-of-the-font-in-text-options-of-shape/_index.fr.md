@@ -18,3 +18,4 @@ Le code d'exemple suivant crée une zone de texte et ajoute du texte japonais à
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -41,3 +41,4 @@ Téléchargez le formulaire **Définir des titres d'impression** sur l'un des si
 Pour plus de détails, visitez [Paramètres d'impression](/cells/fr/net/setting-print-options/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

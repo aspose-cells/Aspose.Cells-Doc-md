@@ -12,3 +12,4 @@ Der folgende Code-Ausschnitt demonstriert die Verwendung der Klasse [**DigitalSi
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-XAdESSignatureSupport-1.java" >}}
+{{< app/cells/assistant language="java" >}}

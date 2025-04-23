@@ -41,3 +41,4 @@ Aşağıdaki örnek, sıfırdan yeni bir çalışma kitabı oluşturur, ilk çal
 Aşağıdaki örnek, **book1.xls** adlı mevcut bir Microsoft Excel şablon dosyasını açar, ilk çalışma sayfasındaki A1 hücresine "Merhaba Dünya!"yazar ve çalışma kitabını yeni bir dosya olarak kaydeder.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-introduction-OpeningExistingFile-1.java" >}}
+{{< app/cells/assistant language="java" >}}

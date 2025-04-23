@@ -11,9 +11,29 @@ aliases:
   - /net/aspose-cells-gridjs/work-with-context-menu/
   - /net/aspose-cells-gridjs/work-with-context-menus/
 ---
+# 自定义内置上下文菜单
+我们有一些内置的上下文菜单项，例如插入/删除行/列等。
+例如：要删除上下文菜单中的“删除行”、“链接”、“隐藏”等菜单项，假设 GridJs 的 div id 为 "gridjs-divid"
+```javascript
+   //get context menus parent dom
+   const menus=document.querySelector("#gridjs-divid > div > div.x-spreadsheet-sheet > div.x-spreadsheet-contextmenu");
+   var childs = menus.childNodes;
+   for (var i = childs.length - 1; i >= 0; i--)
+   {  
+     // check the item text
+     if(childs[i].childNodes[0]?.textContent==="Delete row"||childs[i].childNodes[0]?.textContent==="Link"||childs[i].childNodes[0]?.textContent==="Hide")
+       {
+         menus.removeChild(childs[i]);
+       }
+   }
+```
+调用此函数后 
 
-# GridJs的自定义右键菜单
-我们有一些内置的右键菜单项，例如插入/删除行/列等等。
+![自定义内建菜单项的屏幕](gridjs_customize_build_in_context_menu.png)
+
+
+# 自定义自定义上下文菜单
+我们有一些内置的上下文菜单项，例如插入/删除行/列等。
 但是如果用户想要自定义右键菜单项。
 我们支持在加载选项中设置右键菜单项。
 例如：

@@ -71,3 +71,4 @@ Créez d'abord un graphique à colonnes dans Microsoft Excel et convertissez-le 
 1. Convertir le graphique en une image dynamiquement. Voici le code utilisé par le composant pour accomplir la tâche. Le code est similaire à celui précédent :
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertExcelChartToImage-ConvertingColumnChartToImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

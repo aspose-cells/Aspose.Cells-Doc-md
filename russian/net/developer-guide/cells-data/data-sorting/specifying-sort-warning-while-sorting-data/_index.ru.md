@@ -18,3 +18,4 @@ keywords: Добавить предупреждение о сортировке 
 В следующем образце кода показано использование свойства [**DataSorter.SortAsNumber**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/properties/sortasnumber), как объяснено ранее. Пожалуйста, проверьте его [образцовый файл Excel](43352075.xlsx) и [выходной файл Excel](43352076.xlsx) для получения дополнительной помощи.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SpecifyingSortWarningWhileSortingData.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

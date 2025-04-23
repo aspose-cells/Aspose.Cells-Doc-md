@@ -36,3 +36,4 @@ HTML5 редактор таблиц может быть встроен в люб
 </iframe>
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

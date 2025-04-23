@@ -39,3 +39,4 @@ Aspose.Cells for .Net يحتوي على طرق مختلفة للعثور على 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Get-Max-Display-Range.cs" >}}
 
 هنا [ملف اكسل المصدر](Book1.xlsx).
+{{< app/cells/assistant language="csharp" >}}

@@ -28,3 +28,4 @@ CSVファイルには主にテキストデータが含まれ、数式は含ま�
 |![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)|
 | :- |
 
+{{< app/cells/assistant language="csharp" >}}

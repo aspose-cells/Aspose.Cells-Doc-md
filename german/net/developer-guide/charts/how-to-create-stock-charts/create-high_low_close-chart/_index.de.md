@@ -19,3 +19,4 @@ Manchmal können wir das Aussehen des Markers (Schlusskurs) anpassen oder ihn au
 Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](High-Low-Close.xlsx) und generiert die [Ausgabe-Excel-Datei](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-high-low-close-stock-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

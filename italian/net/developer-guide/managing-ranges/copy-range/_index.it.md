@@ -38,3 +38,4 @@ Puoi anche copiare i dati con il metodo Range.CopyData come nei seguenti codici:
 - [Copia l'altezza delle righe dell'intervallo di origine nell'intervallo di destinazione](/cells/it/net/copy-row-heights-of-source-range-to-destination-range/)
 
 
+{{< app/cells/assistant language="csharp" >}}

@@ -27,3 +27,4 @@ Aspose.Cellsは、画像とグラフを含むXLSファイルをPDF文書に変�
 
 - [PDFA-1aに準拠したExcelファイルをPDF形式に変換する](/cells/ja/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [グラフのレンダリング](/cells/ja/java/chart-rendering/)
+{{< app/cells/assistant language="java" >}}

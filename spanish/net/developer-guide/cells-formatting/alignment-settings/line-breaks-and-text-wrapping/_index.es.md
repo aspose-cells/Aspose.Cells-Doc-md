@@ -24,3 +24,4 @@ Para ajustar texto en una celda, usa la propiedad [**Aspose.Cells.Style.IsTextWr
 Puede usar ‘\n’ en C# y ‘vbLf’ en VB.NET para insertar saltos de línea explícitos en una celda.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-UseExplicitLineBreaks-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

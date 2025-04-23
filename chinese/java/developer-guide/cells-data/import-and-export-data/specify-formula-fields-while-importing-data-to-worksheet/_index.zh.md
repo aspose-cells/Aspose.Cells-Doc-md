@@ -18,3 +18,4 @@ url: /zh/java/specify-formula-fields-while-importing-data-to-worksheet/
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Data-SpecifyFormulaFieldsWhileImportingDataToWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

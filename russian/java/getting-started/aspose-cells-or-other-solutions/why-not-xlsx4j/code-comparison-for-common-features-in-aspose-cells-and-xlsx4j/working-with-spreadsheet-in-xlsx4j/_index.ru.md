@@ -13,3 +13,4 @@ url: /ru/java/working-with-spreadsheet-in-xlsx4j/
 - [Регулировка высоты строки и столбца в xlsx4j](/cells/ru/java/row-column-height-adjustment-in-xlsx4j/)
 
 mithil rayate
+{{< app/cells/assistant language="java" >}}

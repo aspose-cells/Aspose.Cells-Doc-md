@@ -7,7 +7,7 @@ url: /it/java/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjectev
 
 ## **Possibili Scenari di Utilizzo**
 
-Aspose.Cells fornisce una classe astratta [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) che ha un metodo [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)). L'utente può implementare [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) e utilizzare il metodo [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) per ottenere [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) e **Bound** durante la resa di Excel in PDF o Immagine. Ecco una breve descrizione dei parametri del metodo [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)).
+Aspose.Cells fornisce una classe astratta [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) che ha un metodo [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw-com.aspose.cells.DrawObject-float-float-float-float-). L'utente può implementare [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) e utilizzare il metodo [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw-com.aspose.cells.DrawObject-float-float-float-float-) per ottenere [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) e **Bound** durante la resa di Excel in PDF o Immagine. Ecco una breve descrizione dei parametri del metodo [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw-com.aspose.cells.DrawObject-float-float-float-float-).
 
 - drawObject: [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) sarà inizializzato e restituito durante la resa
 
@@ -42,3 +42,4 @@ Si prega di consultare il seguente codice di esempio. Carica il [file Excel di 
 \----------------------
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

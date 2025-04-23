@@ -19,3 +19,4 @@ Dopo aver eseguito il codice qui sotto, vedrai il grafico Sunburst come mostrato
 Il seguente codice di esempio carica il [file Excel di esempio](sunburst.xlsx) e genera il [file Excel di output](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-sunburst-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

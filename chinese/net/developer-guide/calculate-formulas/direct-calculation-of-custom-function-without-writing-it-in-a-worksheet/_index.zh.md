@@ -34,3 +34,4 @@ Calculated Value: Welcome to Aspose.Cells.
 [实现自定义计算引擎以扩展 Aspose.Cells 的默认计算引擎](/cells/zh/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

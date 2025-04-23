@@ -23,3 +23,4 @@ Beispiel-Datei und Code:
 Mit dem obigen Beispielcode können Sie die Ergebnisdatei mit folgender Wirkung überprüfen, wie im Bild gezeigt:
 
 **![Ergebnis](Output.png)**
+{{< app/cells/assistant language="java" >}}

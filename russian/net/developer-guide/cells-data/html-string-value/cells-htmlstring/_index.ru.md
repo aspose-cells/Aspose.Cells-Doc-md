@@ -26,3 +26,4 @@ keywords: Добавить HTML строку в ячейку, установит
 На следующем скриншоте показан вывод вышеприведенного образца кода.
 
 ![todo:image_alt_text](htmlstring.png)
+{{< app/cells/assistant language="csharp" >}}

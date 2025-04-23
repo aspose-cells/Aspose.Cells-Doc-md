@@ -35,3 +35,4 @@ Microsoft Excelの互換性チェッカーを無効にするには、[**Workbook
 後続するコード例は、Aspose.Cells for .NETを使用して互換性チェッカーを無効にする方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DisableCompatibilityChecker-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

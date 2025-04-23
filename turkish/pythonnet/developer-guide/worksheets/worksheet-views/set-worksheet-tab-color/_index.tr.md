@@ -3,24 +3,24 @@ title: Çalışma Taşrafları Sekme Rengi Ayarla
 type: docs
 weight: 120
 url: /tr/python-net/set-worksheet-tab-color/
-description: Bu makale, Aspose.Cells for Python via .NET API sını kullanarak Excel çalışma sayfasının Sekme Rengini programlı olarak nasıl ayarlayacağınızı gösteren örnek kodları göstermektedir.
-keywords: Python Excel Kütüphanesi, Python excel sekme rengi ayarlama, Python da excel sekme rengi nasıl ayarlanır, Python da çalışma sayfası sekme rengi nasıl ayarlanır.
+description: Bu makale, Aspose.Cells for Python via .NET API kullanarak Excel çalışma sayfası sekme rengini programlı şekilde ayarlayan örnek kodlar gösterir.
+keywords: Python Excel Kütüphanesi, Python da excel sekme rengini ayarla, Python da excel sekme rengini nasıl ayarlanır, Python da çalışma sayfası sekme rengini nasıl ayarlanır.
 ---
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Python via .NET, bireysel çalışma sayfası sekmelerinin rengini değiştirmenize olanak tanır; örneğin, Giderler'i kırmızı yapabilir, Satış'ı yeşil yapabilir, Varlıkları mavi yapabilirsiniz vb.
+Aspose.Cells for Python via .NET, tek tek çalışma sayfası sekmelerinin rengini değiştirerek onları diğerlerinden belirgin hale getirmenizi sağlar. Örneğin, Masraflar kırmızı, Satışlar yeşil, Varlıklar mavi yapabilirsiniz.
 
 {{% /alert %}} 
 
-## **Microsoft Excel ile Çalışma Sayfası Sekme Rengini Nasıl Ayarlarız**
+## **Microsoft Excel ile Çalışma Sayfası Sekmesi Rengini Nasıl Ayarlanır**
 1. Mevcut çalışma sayfasının altındaki sekme sayfasında bir sekmeye sağ tıklayın.
 1. **Sekme rengi**'ni seçin.
 1. Paletten bir renk seçin.
 1. **Tamam**'a tıklayın.
 
-## **Aspose.Cells for Python Excel Kütüphanesi ile Çalışma Sayfası Sekme Rengi Nasıl Ayarlanır**
-Aşağıdaki örnek kod, Aspose.Cells for Python via .NET ile sekme rengini nasıl ayarlayacağınızı göstermektedir.
+## **Aspose.Cells for Python Excel Kütüphanesi ile Çalışma Sayfası Sekmesi Rengi Nasıl Ayarlanır**
+Aşağıdaki örnek kod, Aspose.Cells for Python kullanarak sekme rengini nasıl ayarlayacağınızı gösterir via .NET.
 
 
 

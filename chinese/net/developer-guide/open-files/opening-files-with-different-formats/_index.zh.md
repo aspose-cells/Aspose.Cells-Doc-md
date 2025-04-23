@@ -86,3 +86,4 @@ FODS文件是以开放文档XML格式保存的电子表格文件，没有任何�
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFODSFiles-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

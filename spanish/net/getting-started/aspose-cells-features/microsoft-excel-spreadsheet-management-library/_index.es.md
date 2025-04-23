@@ -83,3 +83,4 @@ url: /es/net/microsoft-excel-spreadsheet-management-library/
 ### **Plataformas compatibles**
 - Aplicación de escritorio para Windows
 - Aplicación web empresarial
+{{< app/cells/assistant language="csharp" >}}

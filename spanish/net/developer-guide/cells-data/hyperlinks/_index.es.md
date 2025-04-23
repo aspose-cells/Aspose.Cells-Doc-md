@@ -64,3 +64,4 @@ Es posible agregar hipervínculos a archivos externos de Excel llamando al [Hype
 - [Editando Hipervínculos de la Hoja de Cálculo](/cells/es/net/editing-hyperlinks-of-worksheet/)
 - [Obtener Hipervínculos en Rango](/cells/es/net/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="csharp" >}}

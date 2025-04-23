@@ -73,3 +73,4 @@ Om du har använt MSI-installationsprogrammet för att distribuera Aspose.Cells 
 - Klicka på **Lägg till/ta bort program**.
 - Välj Aspose.Cells for .NET (version).
 - Klicka på **Ändra/Ta bort** för att ta bort Aspose.Cells.
+{{< app/cells/assistant language="csharp" >}}

@@ -33,7 +33,7 @@ Aspose.Cells поддерживает эту функцию и также мож
 
 ### **Использование Aspose.Cells**
 
-У класса [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) есть несколько полезных методов для этой задачи. Например, метод [**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) объединяет ячейки в одну ячейку в указанном диапазоне ячеек.
+У класса [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) есть несколько полезных методов для этой задачи. Например, метод [**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge-int-int-int-int-) объединяет ячейки в одну ячейку в указанном диапазоне ячеек.
 
 Ниже приведен результат после выполнения приведенного ниже кода.
 
@@ -59,7 +59,7 @@ Aspose.Cells поддерживает эту функцию и также мож
 
 #### **Использование Aspose.Cells**
 
-У класса [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) есть метод с названием [**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge(int,%20int,%20int,%20int)), который разделяет ячейки на их исходное состояние. Метод разбивает ячейки, используя ссылку на ячейку в диапазоне объединенных ячеек.
+У класса [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) есть метод с названием [**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge-int-int-int-int-), который разделяет ячейки на их исходное состояние. Метод разбивает ячейки, используя ссылку на ячейку в диапазоне объединенных ячеек.
 
 #### **Пример кода**
 
@@ -72,3 +72,4 @@ Aspose.Cells поддерживает эту функцию и также мож
 - [Поиск и разделение объединенных ячеек](/cells/ru/java/detect-merged-cells-in-a-worksheet/).
 - [Объединение и разъединение диапазона ячеек с помощью методов Range.merge() и Range.unMerge()](/cells/ru/java/merge-or-unmerge-range-of-cells/).
 
+{{< app/cells/assistant language="java" >}}

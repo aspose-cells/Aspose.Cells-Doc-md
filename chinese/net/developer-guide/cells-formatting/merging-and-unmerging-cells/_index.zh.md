@@ -55,3 +55,4 @@ Aspose.Cells.Cells类具有一个名为UnMerge()的方法，该方法将单元�
 
 ## **高级主题**
 - [在工作表中检测合并的单元格](/cells/zh/net/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

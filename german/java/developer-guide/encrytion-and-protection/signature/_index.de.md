@@ -34,3 +34,4 @@ Wenn das angegebene Passwort nicht mit dem Passwort des Zertifikats übereinstim
 Das folgende Code-Snippet zeigt die Verwendung der Aspose.Cells for Java-API zur Validierung der Arbeitsmappe.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ValidatingSpreadsheets-ValidatingSpreadsheets.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -16,7 +16,7 @@ Eine Möglichkeit, wichtige Informationen in einem Bericht zu betonen, besteht d
 - Die Methode [**getTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame) gibt ein [**MsoTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame)-Objekt zurück, das zur Anpassung des Inhalts des Textfelds verwendet wird.
 - Die Methode [**setPlacement**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement) gibt den Platzierungstyp an.
 - Die Methode [**setFont**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Font) gibt die Schriftattribute an.
-- Die Methode [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink(java.lang.String)) fügt dem Textfeld einen Hyperlink hinzu.
+- Die Methode [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink-java.lang.String-) fügt dem Textfeld einen Hyperlink hinzu.
 - Die Eigenschaft [**FillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#FillFormat) gibt ein [**MsoFillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoFillFormat)-Objekt zurück, das zur Festlegung des Füllformats für das Textfeld verwendet wird.
 - Die Eigenschaft [**LineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#LineFormat) gibt normalerweise das [**MsoLineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoLineFormat)-Objekt zurück, das zur Formatierung und Gewichtung der Textfeldlinie verwendet wird.
 - Die Methode [**setText**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text) gibt den Eingabetext für das Textfeld an.
@@ -335,3 +335,4 @@ Das folgende Beispiel zeigt, wie ovale Formen dem Arbeitsblatt hinzugefügt werd
 ## **Erweiterte Themen**
 - [AktiveX-Steuerelemente mit Aspose.Cells hinzufügen](/cells/de/java/add-activex-controls-using-aspose-cells/)
 - [AktiveX-Steuerung entfernen](/cells/de/java/remove-activex-control/)
+{{< app/cells/assistant language="java" >}}

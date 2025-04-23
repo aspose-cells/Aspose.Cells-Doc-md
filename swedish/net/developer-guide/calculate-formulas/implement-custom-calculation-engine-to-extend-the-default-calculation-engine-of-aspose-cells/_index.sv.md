@@ -34,3 +34,4 @@ Vänligen kolla konsolens utmatning av den ovanstående provkoden, värdet (datu
 [Direkt beräkning av anpassad funktion utan att skriva den i en arbetsbok](/cells/sv/net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

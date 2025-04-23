@@ -24,3 +24,4 @@ url: /ar/java/convert-revision-of-xlsb-to-xlsm/
 إليك الكود لتحويل ملف XLSB إلى شكل XLSM باستخدام Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConvertRevisionOfXLSBtoXLSM-ConvertRevisionOfXLSBtoXLSM.java" >}}
+{{< app/cells/assistant language="java" >}}

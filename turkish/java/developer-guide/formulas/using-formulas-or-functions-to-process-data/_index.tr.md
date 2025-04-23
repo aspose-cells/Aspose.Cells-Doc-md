@@ -46,7 +46,7 @@ Aşağıdaki örnekte, bir çalışma sayfasının [**Cells**](https://reference
 
 Bir excel eklentisi olarak dahil etmek istediğimiz bazı kullanıcı tanımlı formüllere sahip olabiliriz. [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) işlevini ayarladığımızda yerleşik fonksiyonlar düzgün çalışır ancak eklenti fonksiyonlarını kullanarak özel işlevleri veya formülleri ayarlamak gerekmektedir.
 
-Aspose.Cells, [**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction(java.lang.String,%20java.lang.String,%20boolean)) kullanarak eklenti fonksiyonlarını kaydetme özellikleri sağlar. Daha sonra [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) = anyFunctionFromAddIn ayarlandığında, çıktı Excel dosyası, AddIn fonksiyonundan hesaplanan değeri içerir.
+Aspose.Cells, [**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction-java.lang.String-java.lang.String-boolean-) kullanarak eklenti fonksiyonlarını kaydetme özellikleri sağlar. Daha sonra [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) = anyFunctionFromAddIn ayarlandığında, çıktı Excel dosyası, AddIn fonksiyonundan hesaplanan değeri içerir.
 
 Aşağıdaki örnek kod için aşağıdaki XLAM dosyası indirilmelidir (Bir eklenmiş fonksiyon için kaydetme işlemi). Benzer şekilde, çıktı dosyası "test_udf.xlsx" indirilip çıktı kontrol edilebilir.
 
@@ -66,7 +66,7 @@ Dizi formüller, formülü oluşturan fonksiyonlara bağımsız sayılar yerine 
 
 Bazı Microsoft Excel fonksiyonları değerler dizileri döndürür. Bir dizi formülü ile birden çok sonucu hesaplamak için, diziyi formül argümanları olarak kullanarak aynı satır ve sütun sayısına sahip bir hücre aralığına girin.
 
-Bir dizi formülü uygulamak mümkündür, bunun için [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) sınıfının [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) metodunu çağırmak gereklidir. [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) metodu şu parametreleri alır:
+Bir dizi formülü uygulamak mümkündür, bunun için [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) sınıfının [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula-java.lang.String-int-int-) metodunu çağırmak gereklidir. [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula-java.lang.String-int-int-) metodu şu parametreleri alır:
 
 - **Dizi Formülü**, dizi formülü.
 - **Satır Sayısı**, dizi formülünün sonucunu doldurmak için satır sayısı.
@@ -80,3 +80,4 @@ Bir dizi formülü uygulamak mümkündür, bunun için [**Cell**](https://refere
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingR1C1-1.java" >}}
 
+{{< app/cells/assistant language="java" >}}

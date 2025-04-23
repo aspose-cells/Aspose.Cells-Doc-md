@@ -105,3 +105,4 @@ Aspose.Cells提供了[**Range.Copy()**](https://reference.aspose.com/cells/net/a
 以下示例显示如何将源单元格范围复制到另一个命名范围。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CopyNamedRanges-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

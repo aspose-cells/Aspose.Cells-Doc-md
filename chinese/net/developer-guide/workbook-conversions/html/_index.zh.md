@@ -52,3 +52,5 @@ MHTML将普通的HTML与外部资源（通常是链接的内容，如图像、�
 - [在将电子表格渲染为HTML时设置默认字体](/cells/zh/net/set-default-font-while-rendering-spreadsheet-to/)
 - [使用HtmlCrossType指定输出HTML中如何交叉字符串](/cells/zh/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
 - [支持加载HTML到Excel工作簿时的DIV标签布局](/cells/zh/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
+{{< app/cells/assistant language="csharp" >}}
+- [在保存为HTML时启用CSS自定义属性](/cells/zh/net/enable-css-custom-properties-while-saving-to-html/)

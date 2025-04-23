@@ -24,3 +24,4 @@ keywords: 株価チャートの追加、株価チャートの作成、株価チ�
 以下のデータセットは株式の日次取引情報を示しています。このデータを使用して、Aspose.Cellsで利用可能な4つの株価チャートを作成します。 
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="java" >}}

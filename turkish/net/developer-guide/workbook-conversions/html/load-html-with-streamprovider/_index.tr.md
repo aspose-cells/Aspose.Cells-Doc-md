@@ -20,3 +20,4 @@ Bu makale, [IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells
 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Load-Html-With-StreamProvider.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

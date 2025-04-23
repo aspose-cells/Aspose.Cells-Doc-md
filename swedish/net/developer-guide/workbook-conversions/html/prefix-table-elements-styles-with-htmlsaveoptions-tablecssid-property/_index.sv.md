@@ -34,3 +34,4 @@ Följande exempelkod visar hur man använder [**HtmlSaveOptions.TableCssId**](h
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

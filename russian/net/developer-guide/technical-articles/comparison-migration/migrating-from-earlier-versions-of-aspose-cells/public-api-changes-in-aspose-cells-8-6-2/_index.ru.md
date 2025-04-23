@@ -150,3 +150,4 @@ Aspose.Cells.GridWeb для .NET 8.6.2 предоставил следующие
 
 1. AjaxCallFinished: Срабатывает, когда AJAX-обновление элемента управления завершено. (EnableAJAX должен быть установлен в true).
 1. CellModifiedOnAjax: Срабатывает, когда ячейка изменена в вызове AJAX.
+{{< app/cells/assistant language="csharp" >}}

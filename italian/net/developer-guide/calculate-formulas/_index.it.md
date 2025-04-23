@@ -74,3 +74,4 @@ Per impostazione predefinita la catena di calcolo è disabilitata. Poiché la cr
 - [Impostare la modalità di calcolo della formula del foglio di lavoro](/cells/it/net/setting-formula-calculation-mode-of-workbook/)
 - [Utilizzo della funzione FormulaText in Aspose.Cells](/cells/it/net/using-formulatext-function-in-aspose-cells/)
 - [Utilizzare la funzione ICustomFunction](/cells/it/net/using-icustomfunction-feature/)
+{{< app/cells/assistant language="csharp" >}}

@@ -26,7 +26,7 @@ description: "Aspose.Cells for Node.js via Javaの制限事項とAPIの違い"
 
  var aspose = aspose || {};
 
-aspose.cells = require("aspose.cells");
+aspose.cells = require("aspose.cells.java");
 
 {{< /highlight >}}
 ### **新しいワークブックのインスタンス化**
@@ -88,7 +88,7 @@ workbook.save(“result.xlsx”);
 
  var aspose = aspose || {};
 
-aspose.cells = require("aspose.cells");
+aspose.cells = require("aspose.cells.java");
 
 var fs = require("fs");
 

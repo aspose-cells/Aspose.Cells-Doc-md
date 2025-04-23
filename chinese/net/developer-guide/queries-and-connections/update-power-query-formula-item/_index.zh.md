@@ -20,3 +20,4 @@ Aspose.Cells API提供了更新Power Query公式项的功能。以下代码片�
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-UpdatePowerQueryFormulaItem-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

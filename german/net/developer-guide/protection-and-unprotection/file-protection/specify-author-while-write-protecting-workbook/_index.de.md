@@ -18,3 +18,4 @@ Der folgende Beispiellcode erläutert die Verwendung der [**Workbook.Settings.W
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Worksheets-Security-SpecifyAuthorWhileWriteProtectingWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -34,3 +34,4 @@ Aspose.Cells предоставляет несколько полезных вы
 
 
 
+{{< app/cells/assistant language="java" >}}

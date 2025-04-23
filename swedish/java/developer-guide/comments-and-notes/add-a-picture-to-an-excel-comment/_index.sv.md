@@ -42,3 +42,4 @@ Efter att ha kört koden har A1 en kommentar med en bakgrundsbild.
 ## Exempelkod
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddPicturetoExcelComment-AddPicturetoExcelComment.java" >}}
+{{< app/cells/assistant language="java" >}}

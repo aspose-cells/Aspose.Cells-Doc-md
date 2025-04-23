@@ -323,3 +323,4 @@ private static void InsertChartInSpreadsheet(string docName, string worksheetNam
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
 - [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Insert%20a%20chart%20\(Aspose.Cells\).zip/download)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Insert%20a%20chart%20\(Aspose.Cells\).zip)
+{{< app/cells/assistant language="csharp" >}}

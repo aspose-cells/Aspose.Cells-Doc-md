@@ -361,3 +361,4 @@ Aspose.Cells.GridWeb for .NET 8.8.3已经暴露了SessionStorePath属性，允�
 ## **删除了 API**
 ### **移除了Workbook.Decrypt方法**
 该属性已在一段时间前被标记为过时。此版本已完全将其从公共API中移除。建议将WorkbookSettings.Password属性设置为null以实现相同的目标。
+{{< app/cells/assistant language="csharp" >}}

@@ -46,3 +46,4 @@ Wir müssen die regionalen Einstellungen des Systems setzen, bevor die Datei mit
 Der folgende Beispielcode zeigt, wie man lokale Design-Schriftarten erhält.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Local-Theme-Font.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

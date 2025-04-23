@@ -18,3 +18,4 @@ Il seguente codice di esempio crea una casella di testo e aggiunge del testo gia
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.java" >}}
+{{< app/cells/assistant language="java" >}}

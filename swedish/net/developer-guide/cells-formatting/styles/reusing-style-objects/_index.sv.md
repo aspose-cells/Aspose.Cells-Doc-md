@@ -26,3 +26,4 @@ För att tillämpa viss formatering på en stor omfattning av celler i en arbets
 Eftersom tillvägagångssättet [**Cell.GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle)/[**Cell.SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) använder mycket mindre minne och är effektivt, togs den äldre Cell.Style-egenskapen bort med versionen Aspose.Cells 7.1.0, vilken använde mycket onödigt minne.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

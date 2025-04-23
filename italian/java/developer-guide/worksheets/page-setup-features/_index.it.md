@@ -166,19 +166,20 @@ I comandi di script sono comandi speciali forniti da Aspose.Cells che consentono
 |&T|L'ora corrente.
 |&A|Il nome del foglio di lavoro.
 |&F|Il nome del file senza il percorso.
+|&&Testo|Mostra &Testo. Per esempio: &&WO sarà visualizzato come &WO|
 |&"\<FontName>"|Un nome di font. Ad esempio: &"Arial"|
 |&"\<FontName>, \<FontStyle>"|Un nome di font con uno stile. Ad esempio: &"Arial,Grassetto"|
 |&\<FontSize>|Rappresenta la dimensione del carattere. Ad esempio: “&14abc”. Ma, se questo comando è seguito da un numero normale da stampare nell'intestazione, questo dovrebbe essere separato da un carattere spazio dalla dimensione del carattere. Ad esempio: “&14 123”.|
 
 ### **Imposta Intestazioni e Piè di Pagina**
 
-La classe [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) fornisce il metodo [**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String)) per aggiungere un'intestazione e [**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String)) per aggiungere un piè di pagina a un foglio di lavoro. Lo script viene utilizzato come un argomento per tutti i metodi sopra citati. Rappresenta lo script da utilizzare per l'intestazione o il piè di pagina. Questo script contiene comandi di script per formattare intestazioni o piè di pagina.
+La classe [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) fornisce il metodo [**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader-int-java.lang.String-) per aggiungere un'intestazione e [**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter-int-java.lang.String-) per aggiungere un piè di pagina a un foglio di lavoro. Lo script viene utilizzato come un argomento per tutti i metodi sopra citati. Rappresenta lo script da utilizzare per l'intestazione o il piè di pagina. Questo script contiene comandi di script per formattare intestazioni o piè di pagina.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetHeadersAndFooters-SetHeadersAndFooters.java" >}}
 
 ### **Inserire una grafica in un'intestazione o piè di pagina**
 
-La classe [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) ha i metodi [**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[])) e [**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[])) per aggiungere immagini a intestazioni e piè di pagina di un foglio di lavoro. Questi metodi richiedono due parametri:
+La classe [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) ha i metodi [**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture-int-byte[]-) e [**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture-int-byte[]-) per aggiungere immagini a intestazioni e piè di pagina di un foglio di lavoro. Questi metodi richiedono due parametri:
 
 - **Sezione**, la sezione dell'intestazione o del piè di pagina in cui verrà posizionata l'immagine. Ci sono tre sezioni: sinistra, centro e destra, rappresentate dai valori numerici 0, 1 e 2 rispettivamente.
 - **File InputStream**, i dati grafici. I dati binari dovrebbero essere scritti nel buffer di un array di byte.
@@ -196,7 +197,7 @@ Dopo aver eseguito il codice e aperto il file, controlla l'intestazione del fogl
 
 ### **Inserire una grafica solo nell'intestazione della prima pagina**
 
-La classe [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) ha anche altri metodi utili, ad esempio [**setPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[])), [**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String)), [**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String)), per aggiungere immagini nell'intestazione/piè di pagina della prima pagina di un foglio di lavoro. La prima pagina è una pagina speciale: è comune voler visualizzare informazioni speciali, ad esempio un logo aziendale.
+La classe [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) ha anche altri metodi utili, ad esempio [**setPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture-boolean-boolean-boolean-int-byte[]-), [**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader-int-java.lang.String-), [**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter-int-java.lang.String-), per aggiungere immagini nell'intestazione/piè di pagina della prima pagina di un foglio di lavoro. La prima pagina è una pagina speciale: è comune voler visualizzare informazioni speciali, ad esempio un logo aziendale.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-InsertGraphicinFirstPageHeaderOnly-InsertGraphicinFirstPageHeaderOnly.java" >}}
 
@@ -256,18 +257,18 @@ I valori predefiniti nell'enumerazione [**PrintCommentsType**](https://reference
 
 |**Tipi di Commenti di Stampa**|**Descrizione**|
 | :- | :- |
-|[**PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)|Specifica di stampare i commenti come visualizzati nel foglio di lavoro.|
-|[**PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS)|Specifica di non stampare i commenti.|
-|[**PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_SHEET_END)|Specifica di stampare i commenti alla fine del foglio di lavoro.|
+|[**PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-IN-PLACE)|Specificare di stampare i commenti come visualizzati sul foglio di lavoro.|
+|[**PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-NO-COMMENTS)|Specificare di non stampare i commenti.|
+|[**PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-SHEET-END)|Specificare di stampare i commenti alla fine del foglio di lavoro.|
 
 I valori predefiniti dell'enumerazione [**PrintErrorsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType) sono descritti di seguito.
 
 |**Tipi di Errori di Stampa**|**Descrizione**|
 | :- | :- |
-|[**PRINT_ERRORS_BLANK**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_BLANK)|Specifica di non stampare gli errori.|
-|[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DASH)|Specifica di stampare gli errori come "--".|
-|[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DISPLAYED)|Specifica di stampare gli errori come visualizzati.|
-|[**PRINT_ERRORS_NA**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_NA)|Specifica di stampare gli errori come "#N/A".|
+|[**PRINT_ERRORS_BLANK**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-BLANK)|Specificare di non stampare gli errori.|
+|[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-DASH)|Specificare di stampare gli errori come "--".|
+|[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-DISPLAYED)|Specificare di stampare gli errori come visualizzati.|
+|[**PRINT_ERRORS_NA**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-NA)|Specificare di stampare gli errori come "#N/A".|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-OtherPrintOptions-OtherPrintOptions.java" >}}
 
@@ -284,8 +285,8 @@ I valori predefiniti dell'enumerazione [**PrintOrderType**](https://reference.as
 
 |**Tipi di Ordine di Stampa**|**Descrizione**|
 | :- | :- |
-|[**DOWN_THEN_OVER**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN_THEN_OVER)|Stampa giù, poi a destra.|
-|[**OVER_THEN_DOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER_THEN_DOWN)|Stampa a destra, poi giù.|
+|[**DOWN_THEN_OVER**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN-THEN-OVER)|Stampa prima verso il basso, poi orizzontalmente.|
+|[**OVER_THEN_DOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER-THEN-DOWN)|Stampa prima orizzontalmente, poi verso il basso.|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPageOrder-SetPageOrder.java" >}}
 
@@ -301,3 +302,4 @@ Si prega di visionare questo articolo correlato a questo argomento.
 - [Implementare un formato carta personalizzato del foglio di lavoro per il rendering](/cells/it/java/implement-custom-paper-size-of-worksheet-for-rendering/)
 - [Impostazioni di layout pagina e stampa](/cells/it/java/page-setup-and-printing-options/)
 - [Rimuovi le impostazioni della stampante esistenti dei fogli di lavoro nel file Excel](/cells/it/java/remove-existing-printersettings-of-worksheets-in-excel-file/)
+{{< app/cells/assistant language="java" >}}

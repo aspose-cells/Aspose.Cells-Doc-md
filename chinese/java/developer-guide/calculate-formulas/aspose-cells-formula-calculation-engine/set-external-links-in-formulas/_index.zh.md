@@ -14,3 +14,4 @@ url: /zh/java/set-external-links-in-formulas/
 下面的示例代码显示了如何在公式中包含外部文件。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetExternalLinksInFormulas-SetExternalLinksInFormulas.java" >}}
+{{< app/cells/assistant language="java" >}}

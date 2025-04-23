@@ -13,3 +13,4 @@ url: /tr/net/xml-paper-specification-xps/
 Aspose.Cells'e yüklenen herhangi bir belge XPS'e dönüştürülebilir. Aspose.Cells, desteklediği tüm sabit düzen biçimlerinde (örneğin PDF, XPS vb.) çıktı üretmek için aynı yüksek kaliteli sayfa düzeni ve renderlama motorunu kullanır.
 
 Aspose.Cells'in TrueType yazı tipleri alt kümesinin dışa aktarımı da dahil olmak üzere XPS'i doğrudan (Windows Presentation Foundation sınıflarına dayanmadan) üretmesi, Aspose.Cells'in .NET Framework 3.5'te bulunan Windows Presentation Foundation sınıflarına dayanmayan makinelerde veya tamamen farklı platformlarda XPS üretmesine olanak tanır.
+{{< app/cells/assistant language="csharp" >}}

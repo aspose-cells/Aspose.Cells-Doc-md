@@ -19,3 +19,4 @@ HTMLファイルをWorkbookオブジェクト内で読み込む際に列と行�
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-AutoFitColumnsandRowsWhileLoadingHTMLInWorkbook-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

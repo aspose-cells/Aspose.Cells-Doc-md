@@ -65,3 +65,4 @@ Scarica **Salva ciascun foglio di lavoro in un PDF diverso** da uno dei siti di 
 Per ulteriori dettagli, visita [Salva ogni foglio di lavoro in un file PDF diverso](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

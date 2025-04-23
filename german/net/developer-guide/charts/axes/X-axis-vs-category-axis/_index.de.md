@@ -18,3 +18,4 @@ Wir werden diese Daten in zwei Arten von Diagrammen darstellen, das erste Diagra
 ![todo:image_alt_text](compare.png)
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "X-axis-vs-category-axis.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

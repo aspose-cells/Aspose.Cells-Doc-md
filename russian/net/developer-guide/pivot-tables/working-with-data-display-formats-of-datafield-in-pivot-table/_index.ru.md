@@ -13,7 +13,7 @@ Aspose.Cells поддерживает все форматы отображени
 
 ## **Опция отображения форматов "Ранжировать от меньшего к большему" и "Ранжировать от большего к меньшему"**
 
-ASpose.Cells предоставляет возможность устанавливать опцию формата отображения для сводных полей. Для этого API предоставляет свойство [**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat). Чтобы выполнить ранжирование от наибольшего к наименьшему, вы можете установить свойство [**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat) в [**PivotFieldDataDisplayFormat.RankLargestToSmallest**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfielddatadisplayformat). Нижеприведенный фрагмент кода демонстрирует установку опций формата отображения.
+ASpose.Cells предоставляет возможность устанавливать опцию формата отображения для сводных полей. Для этого API предоставляет свойство [**PivotField.ShowValuesSetting.CalculationType**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotshowvaluessetting/calculationtype/). Чтобы выполнить ранжирование от наибольшего к наименьшему, вы можете установить свойство [**PivotField.ShowValuesSetting.CalculationType**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotshowvaluessetting/calculationtype/) в [**PivotFieldDataDisplayFormat.RankLargestToSmallest**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfielddatadisplayformat). Нижеприведенный фрагмент кода демонстрирует установку опций формата отображения.
 
 Образцы и выходные файлы можно загрузить отсюда для тестирования образца кода:
 
@@ -22,3 +22,4 @@ ASpose.Cells предоставляет возможность устанавл�
 [Файл Excel с результатом](101089333.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTables-PivotTableDataDisplayFormatRanking-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

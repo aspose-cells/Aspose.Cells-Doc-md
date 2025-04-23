@@ -18,3 +18,4 @@ url: /zh/net/working-with-worksheets-in-npoi-and-aspose-cells/
 - [在工作表中拆分单元格](/cells/zh/net/split-cells-in-worksheet/)
 - [冻结窗格](/cells/zh/net/working-with-freeze-panes/)
 - [处理工作表页眉和页脚](/cells/zh/net/working-with-headers-and-footers/)
+{{< app/cells/assistant language="csharp" >}}

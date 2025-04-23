@@ -22,3 +22,4 @@ Aşağıdaki örnek, bir Microsoft Excel dosyasındaki (3 ve 4) sayfa aralığı
 Eğer elektronik tablo formüller içeriyorsa, Excel elektronik tablosunu PDF biçimine dönüştürmeden hemen önce [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) çağrısını yapmak en iyisidir. Bunu yapmak, formül bağımlı değerlerin yeniden hesaplanmasını sağlar ve doğru değerler çıktı dosyasında görüntülenir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

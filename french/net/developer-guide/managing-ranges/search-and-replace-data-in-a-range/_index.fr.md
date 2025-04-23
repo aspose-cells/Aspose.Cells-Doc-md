@@ -16,3 +16,4 @@ Parfois, vous devez rechercher et remplacer des données spécifiques dans une p
 Aspose.Cells fournit la méthode [**FindOptions.SetRange()**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/methods/setrange) pour spécifier une plage lors de la recherche de données. Ci-dessous, un exemple de code pour rechercher et remplacer des données dans une plage.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SearchReplaceDataInRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

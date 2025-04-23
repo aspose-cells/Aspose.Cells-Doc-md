@@ -18,3 +18,4 @@ Vous pouvez utiliser Aspose.Cells pour fusionner ou diviser une plage de cellule
 Le code d'exemple suivant crée d'abord une plage - A1:D4 - puis fusionne les cellules de la plage en une seule cellule en utilisant la méthode [**Range.Merge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge). De même, vous pouvez diviser les cellules en créant une plage et en appelant la méthode [**Range.UnMerge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/unmerge).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-MergeUnmergeRangeOfCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

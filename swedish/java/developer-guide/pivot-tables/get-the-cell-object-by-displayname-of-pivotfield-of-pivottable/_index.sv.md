@@ -7,7 +7,7 @@ url: /sv/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells tillhandahåller metoden [PivotTable.getCellByDisplayName()](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getCellByDisplayName\(java.lang.String\)) som du kan använda för att få åtkomst till cellobjektet via visningsnamnet för pivottfältet. Denna metod är användbar när du vill markera eller formatera rubriken för ditt pivottfält. Den här artikeln förklarar hur du hämtar cellobjektet via visningsnamnet för datafältet och sedan tillämpar formatering på den.
+Aspose.Cells tillhandahåller metoden [PivotTable.getCellByDisplayName()](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getCellByDisplayName-java.lang.String-) som du kan använda för att komma åt cellobjektet efter displaynamnet för pivottabelfältet. Denna metod är användbar när du vill markera eller formatera rubriken för ditt pivottabelfält. Denna artikel förklarar hur du hämtar cellobjektet efter displaynamnet för datafältet och därefter tillämpar formatering.
 
 {{% /alert %}} 
 ## **Hämta Cell-objektet genom visningsnamn för PivotField i PivotTable**
@@ -24,3 +24,4 @@ Den följande koden får åtkomst till den första pivottabellen i kalkylbladet 
 
 
 
+{{< app/cells/assistant language="java" >}}

@@ -23,3 +23,4 @@ Bu bölüm aşağıdaki konuları içerir
 - [Çalışma Kitapları Arasında Çalışma Sayfalarını Kopyalama](/cells/tr/net/copy-worksheets-between-workbooks/)
 - [Çalışma Kitabı İçinde Çalışma Sayfalarını Kopyalama](/cells/tr/net/copy-worksheets-within-a-workbook/)
 - [Çalışma Kitabı İçinde Sayfaları Taşıma](/cells/tr/net/move-worksheets-within-workbook/)
+{{< app/cells/assistant language="csharp" >}}

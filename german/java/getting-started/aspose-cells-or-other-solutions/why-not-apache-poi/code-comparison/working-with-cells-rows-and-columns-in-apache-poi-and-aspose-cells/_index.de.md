@@ -16,3 +16,4 @@ url: /de/java/working-with-cells-rows-and-columns-in-apache-poi-and-aspose-cells
 - [Fenster fixieren in Apache POI und Aspose.Cells](/cells/de/java/freeze-panes-in-apache-poi-and-aspose-cells/)
 - [Datumszelle in Apache POI und Aspose.Cells erstellen](/cells/de/java/create-date-cell-in-apache-poi-and-aspose-cells/)
 - [Verschiedene Zellentypen in Apache POI und Aspose.Cells erstellen](/cells/de/java/create-different-cell-types-in-apache-poi-and-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

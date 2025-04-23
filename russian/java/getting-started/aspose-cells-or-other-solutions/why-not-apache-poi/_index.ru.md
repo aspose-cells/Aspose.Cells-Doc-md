@@ -163,3 +163,4 @@ Aspose.Cells Java для Apache POI (HSSF+XSSF) является открыты�
 ## См. также
 
 * [Больше о Apache POI](https://poi.apache.org/)
+{{< app/cells/assistant language="java" >}}

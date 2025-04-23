@@ -28,3 +28,4 @@ url: /zh/net/right90-sales-forecasting/
 Aspose.Cells组件使我们能够快速构建和读取Excel工作簿，为我们的制造业客户提供了另一种方便直观的方式来捕获、更新和汇总销售预测。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

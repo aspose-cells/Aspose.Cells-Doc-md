@@ -34,3 +34,4 @@ Veuillez consulter l'article détaillé sur [Comment créer, manipuler ou suppri
 {{% /alert %}}
 ## **Changement de comportement pour CellsException**
 Avec les versions précédentes de l'API Aspose.Cells for Java, lorsqu'une feuille de calcul potentiellement endommagée était chargée dans une instance de Workbook, l'API avait tendance à générer un message générique sans mentionner où se situait le problème. Nous avons modifié ce comportement pour 8.1.1 afin que l'API génère une exception avec un message significatif qui indique où (quelle cellule) et quoi (expression de formule) cause l'exception lors de la lecture du fichier modèle.
+{{< app/cells/assistant language="java" >}}

@@ -27,10 +27,11 @@ etc.
 
 ## **Grafiğin Veri Etiketlerinin Şekil Türünü Ayarlama**
 
-Aşağıdaki örnek kod, grafiğin veri etiketlerinin şekil türünü [**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT) olarak değiştirir. Lütfen bu kodun kullanıldığı [örnek Excel dosyasını](60489794.xlsx) ve bu kod tarafından oluşturulan [çıktı Excel dosyasını](60489793.xlsx) göz önünde bulundurun. Ekran görüntüsü, örnek Excel dosyası üzerinde kodun etkisini göstermektedir.
+Aşağıdaki örnek kod, grafiğin veri etiketlerinin şekil türünü [**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE-ELLIPSE-CALLOUT) olarak değiştirir. Lütfen bu kodun kullanıldığı [örnek Excel dosyasını](60489794.xlsx) ve bu kod tarafından oluşturulan [çıktı Excel dosyasını](60489793.xlsx) göz önünde bulundurun. Ekran görüntüsü, örnek Excel dosyası üzerinde kodun etkisini göstermektedir.
 
 ![todo:image_alt_text](set-the-shape-type-of-data-labels-of-chart_1.png)
 
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-SetShapeTypeOfDataLabelsOfChart.java" >}}
+{{< app/cells/assistant language="java" >}}

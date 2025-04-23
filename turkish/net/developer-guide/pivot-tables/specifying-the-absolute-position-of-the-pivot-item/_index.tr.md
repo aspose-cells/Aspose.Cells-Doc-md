@@ -24,3 +24,4 @@ Aşağıdaki örnek kod, bir Pivot Tablo oluşturur ve ardından aynı ebeveyn d
 Lütfen dikkat, [**PivotItem.Position**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/position), [**PivotItem.PositionInSameParentNode**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/positioninsameparentnode) özellikleri ve [**PivotItem.Move(int count, bool isSameParent)**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/methods/move) metodu kullanmadan önce PivotTable.RefreshData ve PivotTable.CalculateData yöntemlerini çağırmak gereklidir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

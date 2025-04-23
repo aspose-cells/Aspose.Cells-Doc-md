@@ -9,7 +9,7 @@ url: /sv/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions
 
 När man anger egenskapen **DefaultFont** för [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions) och [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), kan man förvänta sig att sparande till PDF eller bild skulle sätta den **DefaultFont** för all text i arbetsboken som har en saknad (inte installerad) font.
 
-I allmänhet kommer Aspose.Cells först att försöka att ange arbetsbokens standardfont (dvs. [**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font)). Om arbetsbokens standardfont fortfarande inte kan visa/rendera text korrekt, kommer Aspose.Cells att försöka rendera med den font som anges mot **DefaultFont** attributet i [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions).
+Generellt, vid sparande till PDF eller bild, kommer Aspose.Cells först att försöka att sätta arbetsbokens standardfont (dvs. [**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font-)). Om arbetsbokens standardfont fortfarande inte kan visa/rendra texten korrekt, kommer Aspose.Cells att försöka att rendera med fonten nämnd under **DefaultFont** attribut i [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions).
 
 För att klara av din förväntan har vi en Boolean-egenskap med namnet "**CheckWorkbookDefaultFont**" i [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions). Du kan ställa in den till false för att inaktivera försöket att använda arbetsbokens standardfont eller låta inställningen av **DefaultFont** i [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) att prioriteras.
 
@@ -38,3 +38,4 @@ Se utdata [PDF](out1_pdf.pdf)-filen efter att ha ställt in egenskapen [**PdfSav
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Fonts-SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions-1.java" >}}
+{{< app/cells/assistant language="java" >}}

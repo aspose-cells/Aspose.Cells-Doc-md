@@ -166,19 +166,20 @@ Betik komutları, başlık ve altbilgileri biçimlendirmek için Aspose.Cells ta
 |&T| Geçerli saat.
 |&A| Çalışma sayfasının adı.
 |&F| Yol olmadan dosya adı.
+|&&Yazı|&Yazıyı gösterir. Örneğin: &&WO &WO olarak görüntülenir|
 |&"\<FontName>"| Bir font adı. Örneğin: &"Arial"|
 |&"\<FontName>, \<FontStyle>"| Bir font adı ve stil. Örneğin: &"Arial,Kalın"|
 |&\<FontSize>| Yazı tipi boyutunu temsil eder. Örneğin: “&14abc”. Ancak, bu komuttan sonra başlığa yazdırılacak düz bir sayı izlenecekse, bu, yazı tipi boyutundan bir boşluk karakteri ile ayrılmalıdır. Örneğin: “&14 123”.|
 
 ### **Başlık ve Altbilgileri Ayarlama**
 
- [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) sınıfı, bir başlık eklemek için [**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String)) ve bir altbilgi eklemek için [**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String)) yöntemini sağlar. Betik yukarıda bahsedilen tüm yöntemler için bir argüman olarak kullanılır. Bu betik, başlık veya altbilgi için kullanılacak betiği temsil eder. Bu betik, başlıkları veya altbilgileri biçimlendirmek için betik komutlarını içerir.
+ [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) sınıfı, bir başlık eklemek için [**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader-int-java.lang.String-) ve bir altbilgi eklemek için [**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter-int-java.lang.String-) yöntemini sağlar. Betik yukarıda bahsedilen tüm yöntemler için bir argüman olarak kullanılır. Bu betik, başlık veya altbilgi için kullanılacak betiği temsil eder. Bu betik, başlıkları veya altbilgileri biçimlendirmek için betik komutlarını içerir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetHeadersAndFooters-SetHeadersAndFooters.java" >}}
 
 ### **Bir Başlık veya Altbilgiye Grafik Ekleyin**
 
- [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) sınıfı, çalışma sayfası başlığı ve altbilgisine resim eklemek için [**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[])) ve [**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[])) yöntemlerine sahiptir. Bu yöntemler iki parametre alır:
+ [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) sınıfı, çalışma sayfası başlığı ve altbilgisine resim eklemek için [**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture-int-byte[]-) ve [**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture-int-byte[]-) yöntemlerine sahiptir. Bu yöntemler iki parametre alır:
 
 - **Bölüm**, resmin yerleştirileceği başlık veya altbilgi bölümü. 0, 1 ve 2 numaralı değerlerle temsil edilen sol, orta ve sağ olmak üzere üç bölüm vardır.
 - **Dosya InputStream**, grafik verisi. Bin veriler, bir byte dizisi bufferine yazılmalıdır.
@@ -196,7 +197,7 @@ Kodu çalıştırdıktan sonra dosyayı açın ve Microsoft Excel'de çalışma 
 
 ### **Sadece İlk Sayfa Başlığına Grafik Ekle**
 
-[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) sınıfı ayrıca örneğin [**setPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[])), [**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String)), [**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String)) gibi diğer faydalı yöntemlere sahiptir, sayfa başlığı/altbilgisine resim eklemek için. İlk sayfa özel bir sayfadır: örneğin bir şirket logosunu göstermek istemek yaygındır.
+[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) sınıfı ayrıca örneğin [**setPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture-boolean-boolean-boolean-int-byte[]-), [**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader-int-java.lang.String-), [**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter-int-java.lang.String-) gibi diğer faydalı yöntemlere sahiptir, sayfa başlığı/altbilgisine resim eklemek için. İlk sayfa özel bir sayfadır: örneğin bir şirket logosunu göstermek istemek yaygındır.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-InsertGraphicinFirstPageHeaderOnly-InsertGraphicinFirstPageHeaderOnly.java" >}}
 
@@ -256,18 +257,18 @@ Tekrar edilecek satırlar veya sütunlar, satır veya sütun numaralarını geç
 
 |**Yazdırma Yorumları Türleri**|**Açıklama**|
 | :- | :- |
-|[**PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)|Çalışma sayfasında görüntülendiği gibi yorumları yazdırmayı belirtir.|
-|[**PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS)|Yorumları yazdırmamayı belirtir.|
-|[**PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_SHEET_END)|Çalışma sayfasının sonunda yorumları yazdırmayı belirtir.|
+|[**PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-IN-PLACE)|Yorumların çalışma sayfasında gösterildiği gibi yazdırılmasını belirler.|
+|[**PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-NO-COMMENTS)|Yorumların yazdırılmamasını belirler.|
+|[**PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-SHEET-END)|Yorumların çalışma sayfasının sonunda yazdırılmasını belirler.|
 
 [**PrintErrorsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType) numaralandırmasındaki önceden tanımlanmış değerler aşağıda açıklanmıştır.
 
 |**Yazdırma Hataları Türleri**|**Açıklama**|
 | :- | :- |
-|[**PRINT_ERRORS_BLANK**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_BLANK)|Hataları yazdırmamayı belirtir.|
-|[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DASH)|Hataları "--" olarak yazdırmayı belirtir.|
-|[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DISPLAYED)|Hataları görüntülendiği gibi yazdırmayı belirtir.|
-|[**PRINT_ERRORS_NA**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_NA)|Hataları "#N/A" olarak yazdırmayı belirtir.|
+|[**PRINT_ERRORS_BLANK**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-BLANK)|Hataların yazdırılmamasını belirler.|
+|[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-DASH)|Hataları "--" olarak yazdırmayı belirler.|
+|[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-DISPLAYED)|Hataları gösterildiği gibi yazdırmayı belirler.|
+|[**PRINT_ERRORS_NA**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT-ERRORS-NA)|Hataları "#N/A" olarak yazdırmayı belirler.|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-OtherPrintOptions-OtherPrintOptions.java" >}}
 
@@ -284,8 +285,8 @@ Aspose.Cells, [**setOrder**](https://reference.aspose.com/cells/java/com.aspose.
 
 |**Yazdırma Sıralama Türleri**|**Açıklama**|
 | :- | :- |
-|[**DOWN_THEN_OVER**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN_THEN_OVER)|Aşağı, sonra sağa yazdırır.|
-|[**OVER_THEN_DOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER_THEN_DOWN)|Soldan sağa yazdırır önce tüm sayfaları altta yazdırır.
+|[**DOWN_THEN_OVER**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN-THEN-OVER)|Yazdır önce aşağı, sonra yukarı.|
+|[**OVER_THEN_DOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER-THEN-DOWN)|Yazdır önce yukarı, sonra aşağı.|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPageOrder-SetPageOrder.java" >}}
 
@@ -301,3 +302,4 @@ Bu konuyla ilgili bu makaleyi inceleyin.
 - [Otomatik Olarak Çalışma Sayfası için Özel Kağıt Boyutunun Uygulanması](/cells/tr/java/implement-custom-paper-size-of-worksheet-for-rendering/)
 - [Sayfa Ayarları ve Yazdırma Seçenekleri](/cells/tr/java/page-setup-and-printing-options/)
 - [Excel dosyasındaki Mevcut Çalışma Sayfası Yazıcı Ayarlarını Kaldırma](/cells/tr/java/remove-existing-printersettings-of-worksheets-in-excel-file/)
+{{< app/cells/assistant language="java" >}}

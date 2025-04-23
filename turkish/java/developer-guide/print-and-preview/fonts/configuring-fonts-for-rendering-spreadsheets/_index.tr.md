@@ -22,7 +22,13 @@ Aspose.Cells API'ları tarafından perde arkasında izlenen süreç aşağıda b
 
 {{% alert color="primary" %}}
 
-Aspose.Cells API'leri her zaman işletim sisteminin varsayılan yazı tipi klasörünü tarar, ancak JVM argümanları **-DAspose.Cells.FontDirExc="YourFontDir"** ayarlandığında bir istisna oluşur. Bu durumda, Aspose.Cells API'leri işletim sisteminin varsayılan yazı tipi klasörünü atlar ve yalnızca yukarıda belirtilen JVM argümanlarında belirtilen yolu arar.
+Genellikle, Aspose.Cells API'leri Windows, Linux, MacOS üzerinde varsayılan işletim sistemi font dizinlerini tarar. [Aspose.Cells for Java 24.7](https://releases.aspose.com/cells/java/release-notes/2024/aspose-cells-for-java-24-7-release-notes/) sürümünden itibaren, API'ler ayrıca Office önbellekli bulut font dizinlerini de varsayılan olarak tarar.
+
+{{% /alert %}}
+
+{{% alert color="primary" %}}
+
+Aspose.Cells API'leri, tek istisna ile her zaman işletim sisteminin varsayılan font dizinini tarar; bu, JVM argümanları **-DAspose.Cells.FontDirExc="YourFontDir"** ayarlandığında olur. Bu durumda, Aspose.Cells API'leri, işletim sisteminin varsayılan font dizinini taramayı atlar ve yalnızca yukarıda belirtilen JVM argümanlarında belirtilen yolu arar.
 
 {{% /alert %}}
 
@@ -30,13 +36,13 @@ Aspose.Cells API'leri her zaman işletim sisteminin varsayılan yazı tipi klas�
 
 Aspose.Cells API'leri, gerekli fontları işletim sisteminin varsayılan font dizininde arar. Gerekli fontlar sistem font dizininde mevcut değilse API'ler, özel (kullanıcı tanımlı) dizinler aracılığıyla arama yapar. [**FontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs) sınıfı, özel font dizinlerini ayarlamak için aşağıda ayrıntıları verilen bir dizi yöntem sunmuştur.
 
-1. [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)): Bu yöntem, sadece bir klasör ayarlanacaksa kullanışlıdır.
-1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)): Bu yöntem, yazı tiplerinin birden fazla klasörde bulunduğu durumda ve kullanıcı tüm klasörleri tek tek birleştirmek yerine ayrı ayrı ayarlamak istediğinde kullanışlıdır.
-1. [**FontConfigs.setFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontSources(com.aspose.cells.FontSourceBase[])): Bu mekanizma, kullanıcının birden fazla klasörden veya tek bir yazı tipi dosyasından veya bayt dizisinden yazı tiplerini yüklemek istemesi durumunda kullanışlıdır.
+1. [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder-java.lang.String-boolean-): Bu yöntem, sadece bir klasör ayarlanacaksa kullanışlıdır.
+1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders-java.lang.String[]-boolean-): Bu yöntem, yazı tiplerinin birden fazla klasörde bulunduğu durumda ve kullanıcı tüm klasörleri tek tek birleştirmek yerine ayrı ayrı ayarlamak istediğinde kullanışlıdır.
+1. [**FontConfigs.setFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontSources-com.aspose.cells.FontSourceBase[]-): Bu mekanizma, kullanıcının birden fazla klasörden veya tek bir yazı tipi dosyasından veya bayt dizisinden yazı tiplerini yüklemek istemesi durumunda kullanışlıdır.
 
 {{% alert color="primary" %}}
 
-[**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)) ve [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)) yöntemleri, ikinci bir parametre olarak Boolean türünde bir değer kabul eder. İkinci parametre olarak **true** değerini iletmek, Aspose.Cells API'lerinin font dosyalarını alt klasörlere aramasını sağlar.
+[**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder-java.lang.String-boolean-) ve [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders-java.lang.String[]-boolean-) yöntemleri, ikinci bir parametre olarak Boolean türünde bir değer kabul eder. İkinci parametre olarak **true** değerini iletmek, Aspose.Cells API'lerinin font dosyalarını alt klasörlere aramasını sağlar.
 
 {{% /alert %}}
 
@@ -71,4 +77,5 @@ FontConfigs.setFontSubstitutes("Arial", new String[] { "Times New Roman", "Calib
 Yukarıda bahsedilen yöntemlere ek olarak, Aspose.Cells API'leri, hangi kaynak ve yedeklemelerin ayarlandığı hakkında bilgi toplamak için de yöntemler sağlamıştır.
 
 1. [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources--): Bu yöntem, belirtilen font kaynaklarının listesini içeren [**FontSourceBase**](https://reference.aspose.com/cells/java/com.aspose.cells/FileFontSource) türünde bir dizi döndürür. Eğer kaynaklar belirlenmemişse, [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources--) yöntemi boş bir dizi döndürecektir.
-1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)): Bu yöntem, yerine geçme belirlenmiş font adını belirtmeye izin veren **String** türünde bir parametre alır. Belirtilen font adı için yerine geçme belirlenmemişse, [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)) yöntemi null döndürecektir.
+1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes-java.lang.String-): Bu yöntem, yerine geçme belirlenmiş font adını belirtmeye izin veren **String** türünde bir parametre alır. Belirtilen font adı için yerine geçme belirlenmemişse, [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes-java.lang.String-) yöntemi null döndürecektir.
+{{< app/cells/assistant language="java" >}}

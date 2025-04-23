@@ -11,7 +11,7 @@ Lorsque vous ajoutez une nouvelle feuille à un classeur, elle contient les para
 
 ## **Copier les paramètres de configuration de la page de la feuille source dans la feuille de destination**
 
-Le code d'exemple suivant illustre comment copier les paramètres de configuration de la mise en page de une feuille de calcul à une autre en utilisant la méthode [**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy(com.aspose.cells.PageSetup,%20com.aspose.cells.CopyOptions)). Veuillez consulter le code d'exemple suivant et sa sortie console pour une référence.
+Le code d'exemple suivant illustre comment copier les paramètres de configuration de la mise en page de une feuille de calcul à une autre en utilisant la méthode [**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy-com.aspose.cells.PageSetup-com.aspose.cells.CopyOptions-). Veuillez consulter le code d'exemple suivant et sa sortie console pour une référence.
 
 ## **Code d'exemple**
 
@@ -30,3 +30,4 @@ After Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 After Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -12,3 +12,4 @@ url: /it/java/working-with-worksheets-in-xlsx4j/
 - [Visualizza e nascondi schede del quaderno in xlsx4j](/cells/it/java/display-and-hide-tabs-of-workbook-in-xlsx4j/)
 - [Salva ciascun foglio di lavoro in PDF diversi in xlsx4j](/cells/it/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
 - [Imposta il colore della scheda del foglio di lavoro in xlsx4j](/cells/it/java/set-worksheet-tab-color-in-xlsx4j/)
+{{< app/cells/assistant language="java" >}}

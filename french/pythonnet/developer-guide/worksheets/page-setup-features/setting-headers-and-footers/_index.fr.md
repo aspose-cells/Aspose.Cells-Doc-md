@@ -3,8 +3,8 @@ title: Définir des en têtes et des pieds de page
 type: docs
 weight: 30
 url: /fr/python-net/setting-headers-and-footers/
-description: Cet article explique comment insérer de manière programmatique une image dans l en tête et le pied de page des feuilles Excel en définissant l en tête et le pied de page avec des commandes de script en utilisant l API Aspose.Cells pour Python via .NET.
-keywords: Bibliothèque Excel Python, insérer une image dans l en tête et le pied de page Excel en Python, définir des commandes de script pour l en tête et le pied de page Excel en Python.
+description: Cet article explique comment insérer de manière programmatique une image dans l en tête et le pied de page des feuilles Excel en configurant l en tête et le pied de page avec des commandes de script en utilisant l API Aspose.Cells pour Python via .NET.
+keywords: Bibliothèque Excel Python, Script Python insérer une image dans l en tête ou le pied de page Excel, définir les commandes de script d en tête/pied de page Excel en Python.
 ---
 
 {{% alert color="primary" %}}
@@ -15,9 +15,9 @@ Les en-têtes et les pieds de page sont les lignes de texte affichées en dessou
 
 ## **Définition des en-têtes et des pieds de page**
 
-Aspose.Cells for Python via .NET vous permet d'ajouter des en-têtes et des pieds de page aux feuilles de calcul en temps d'exécution, mais nous recommandons de définir manuellement les en-têtes et les pieds de page dans un fichier pré-conçu pour l'impression. Vous pouvez utiliser Microsoft Excel comme outil graphique pour définir les en-têtes et les pieds de page et gagner du temps de développement. Aspose.Cells for Python via .NET peut importer le fichier et enregistrer les paramètres.
+Aspose.Cells pour Python via .NET permet d'ajouter des en-têtes et pieds de page aux feuilles de calcul en temps réel, mais nous recommandons de définir manuellement ces éléments dans un fichier préconçu pour l'impression. Vous pouvez utiliser Microsoft Excel comme outil GUI pour définir les en-têtes et pieds de page afin de gagner du temps et de simplifier le développement. Aspose.Cells pour Python via .NET peut importer le fichier et enregistrer les réglages.
 
-Pour ajouter des en-têtes et des pieds de page en cours d'exécution, Aspose.Cells for Python via .NET fournit des appels d'API spéciaux et des commandes de script pour formater les en-têtes et les pieds de page.
+Pour ajouter des en-têtes et pieds de page en temps réel, Aspose.Cells pour Python via .NET fournit des appels API spéciaux et des commandes de script pour formater les en-têtes et pieds de page.
 
 ### **Commandes de script**
 
@@ -36,7 +36,7 @@ Les commandes de script sont des commandes spéciales qui vous permettent de dé
 |&"\<FontName>, \<FontStyle>"| Représente un nom de police avec un style. Par exemple : &"Arial, Gras"
 |&\<FontSize>| Représente la taille de la police. Par exemple : "&14abc". Mais, si cette commande est suivie d'un nombre ordinaire à imprimer dans l'en-tête, cela doit être séparé d'un caractère d'espace de la taille de la police. Par exemple : "&14 123".
 
-### **Comment définir des en-têtes et des pieds de page**
+### **Comment définir les en-têtes et pieds de page**
 
 La classe [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) fournit deux méthodes, [**set_header**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_header/#int-str) et [**set_footer**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_footer/#int-str), utilisées pour ajouter un en-tête et un pied de page à une feuille de calcul. Ces méthodes ne prennent que deux paramètres :
 

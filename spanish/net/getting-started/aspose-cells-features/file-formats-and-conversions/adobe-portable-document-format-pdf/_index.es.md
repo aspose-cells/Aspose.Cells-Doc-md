@@ -24,3 +24,4 @@ La solución de Aspose admite a fondo las siguientes características de documen
 - Celdas combinadas, saltos de página, títulos de impresión
 
 También puede ver la [especificación detallada](https://docs.aspose.com/cells/net/convert-excel-workbook-to-pdf/) sobre cómo Aspose.Cells convierte un documento a PDF.
+{{< app/cells/assistant language="csharp" >}}

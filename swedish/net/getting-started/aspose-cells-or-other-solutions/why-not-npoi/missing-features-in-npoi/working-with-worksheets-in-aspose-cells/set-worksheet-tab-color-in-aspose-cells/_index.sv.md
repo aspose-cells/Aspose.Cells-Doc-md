@@ -44,3 +44,4 @@ Ladda ner **Ställ in färg för kalkylblad** från någon av nedanstående soci
 För mer detaljer, besök [Ställ in färg för kalkylblad](/cells/sv/net/set-worksheet-tab-color/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

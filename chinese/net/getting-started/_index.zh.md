@@ -45,7 +45,7 @@ NuGet是下载和安装Aspose.Cells for .NET最简单的方式。
 2. 打开文件 "AsposeCellsTest.csproj" ，并添加以下行用于引用 Aspose.Cells 包:
 {{< highlight plain >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="24.7" />
+    <PackageReference Include="Aspose.Cells" Version="25.4" />
   </ItemGroup>
 {{< /highlight >}}
 3. 使用 VSCode 在 Ubuntu 上打开项目:
@@ -103,3 +103,4 @@ Aspose.Cells for Net6现在使用SkiaSharp作为图形库，如微软官方声�
 以下示例打开现有的Microsoft Excel模板文件"Sample.xlsx"，在第一个工作表的A1单元格中插入"Hello World!"，并另存为Excel文件。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

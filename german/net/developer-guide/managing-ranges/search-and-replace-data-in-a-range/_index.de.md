@@ -16,3 +16,4 @@ Manchmal müssen Sie nach bestimmten Daten suchen und diese in einem Bereich ers
 Aspose.Cells bietet die Methode [**FindOptions.SetRange()**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/methods/setrange) zum Angeben eines Bereichs beim Suchen von Daten. Im folgenden Codebeispiel werden Daten in einem Bereich gesucht und ersetzt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SearchReplaceDataInRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

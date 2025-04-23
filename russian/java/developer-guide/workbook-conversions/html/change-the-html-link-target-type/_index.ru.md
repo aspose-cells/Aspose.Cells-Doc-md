@@ -27,3 +27,4 @@ Aspose.Cells позволяет вам изменять тип цели HTML-с�
 Приведенный ниже код демонстрирует использование свойства [HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType). Он изменяет тип цели ссылки на **blank**. По умолчанию это **родитель**. Вы можете получить [исходный файл Excel](5472932.xlsx) по этой ссылке, однако вы можете использовать любой файл Excel, содержащий гиперссылку HTML, чтобы выполнить этот код.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeHTMLLinkTargetType-ChangeHTMLLinkTargetType.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -52,3 +52,4 @@ fstream.close();
 Pour plus de détails, visitez [Exporter des données à partir des feuilles de calcul](/java/exporting-data-from-worksheets).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

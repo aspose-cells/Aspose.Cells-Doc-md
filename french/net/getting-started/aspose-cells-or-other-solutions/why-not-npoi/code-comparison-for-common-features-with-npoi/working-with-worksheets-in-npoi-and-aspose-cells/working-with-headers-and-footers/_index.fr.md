@@ -84,3 +84,4 @@ Téléchargez **Travailler avec les en-têtes et pieds de page** à partir de l'
 Pour plus de détails, visitez [Travailler avec les feuilles de calcul](/cells/fr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

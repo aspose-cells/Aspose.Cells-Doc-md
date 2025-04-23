@@ -3,13 +3,13 @@ title: Kaynak Çalışma Sayfasından Hedef Çalışma Sayfasına Sayfa Ayarı A
 type: docs
 weight: 80
 url: /tr/python-net/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/
-description: Bu makale, Aspose.Cells için Python via .NET örnek kodunu kullanarak kaynak Çalışma Sayfasından hedef Çalışma Sayfasına Sayfa Ayarlama ayarlarını nasıl kopyalayacağınızı açıklar.
-keywords: Python Excel Kütüphanesi, Python sayfa ayarlama ayarlarını kopyala, Python hedef çalışma sayfasına sayfa ayarlama ayarlarını kopyala.
+description: Bu makale, kaynak Sayfa Düzeni ayarlarını hedef Sayfa Düzeni sayfasına programatik olarak kopyalamak için Aspose.Cells for Python via .NET örnek kodunu nasıl kullanacağınızı açıklar.
+keywords: Python Excel Kütüphanesi, Python sayfa ayarları kopyala, Python da hedef sayfaya sayfa ayarlarını kopyala.
 ---
 
 ## **Olası Kullanım Senaryoları**
 
-Bir çalışma kitabına yeni bir sayfa eklediğinizde, varsayılan *Sayfa Ayarlama ayarlarını* içerir. Zaman zaman bu ayarları ([**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)) bir çalışma sayfasından başka bir çalışma sayfasına transfer etmeniz gerekebilir. Bu belge, Aspose.Cells için Python via .NET API'lerini kullanarak bir çalışma sayfasından diğerine Sayfa Ayarlama ayarlarını nasıl kopyalayacağınızı açıklar.
+Bir çalışma kitabına yeni bir sayfa eklediğinizde, varsayılan *Sayfa Düzeni ayarları* içerir. Bazen, bu ayarları ([**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)) bir sayfadan diğerine aktarmanız gerekebilir. Bu belge, Aspose.Cells for Python via .NET API'lerini kullanarak bir sayfadan diğerine Sayfa Düzeni ayarlarını kopyalamanın yollarını açıklar.
 
 ## **Kaynak Çalışma Sayfasından Hedef Çalışma Sayfasına Sayfa Ayarı Ayarlarını Kopyala**
 

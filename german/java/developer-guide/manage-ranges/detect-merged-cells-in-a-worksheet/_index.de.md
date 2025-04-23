@@ -23,7 +23,7 @@ Dieses Beispiel verwendet eine Vorlagen-Microsoft Excel-Datei namens **MergeTria
 
 ![todo:image_alt_text](detect-merged-cells-in-a-worksheet_1.png)
 
-Aspose.Cells bietet die [**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--)-Methode, die verwendet wird, um alle zusammengeführte Zellen zu erhalten.
+Aspose.Cells bietet die [**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--) Methode, mit der alle zusammengeführten Zellen abgerufen werden können.
 
 Wenn der folgende Code ausgeführt wird, löscht er den Inhalt des Blatts und hebt alle Zellbereiche wieder auf, bevor die Datei erneut gespeichert wird.
 
@@ -40,3 +40,4 @@ Bitte sehen Sie sich den folgenden Beispielcode an, um zu sehen, wie Sie zusamme
 ## **Verwandte Artikel**
 
 - [Zusammenführen und Aufteilen von Zellen](/cells/de/java/zusammenführen-und-aufteilen-von-zellen/).
+{{< app/cells/assistant language="java" >}}

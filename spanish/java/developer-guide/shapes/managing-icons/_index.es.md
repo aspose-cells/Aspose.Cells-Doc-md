@@ -32,3 +32,4 @@ Aquí, hemos preparado *código de muestra* para ayudarlo a insertar iconos usan
 Cuando ejecute el código anterior en su proyecto, obtendrá los siguientes resultados:
 
 ![](3.png)
+{{< app/cells/assistant language="java" >}}

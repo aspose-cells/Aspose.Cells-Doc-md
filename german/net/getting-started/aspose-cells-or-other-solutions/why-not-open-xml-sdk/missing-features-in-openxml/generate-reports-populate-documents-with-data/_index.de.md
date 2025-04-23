@@ -14,3 +14,4 @@ Dieser Abschnitt umfasst die folgenden Themen
   - [Bildmarkierungen in Aspose.Cells](/cells/de/net/image-markers-in-aspose-cells/)
   - [Verwenden von anonymen Typen oder benutzerdefinierten Objekten in Aspose.Cells](/cells/de/net/using-anonymous-types-or-custom-objects-in-aspose-cells/)
   - [Verwendung von verschachtelten Objekten in Aspose.Cells](/cells/de/net/using-nested-objects-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

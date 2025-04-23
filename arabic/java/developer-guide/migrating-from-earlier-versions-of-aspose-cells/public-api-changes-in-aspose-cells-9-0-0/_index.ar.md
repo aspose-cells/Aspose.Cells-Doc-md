@@ -248,3 +248,4 @@ if (classId != null)
 ## **تغيير أسماء الواجهات البرمجية**
 ### **تمت تسمية أسلوب Workbook.removeDigitallySign**
 تم تغيير أسم أسلوب Workbook.removeDigitallySign إلى Workbook.removeDigitalSignature.
+{{< app/cells/assistant language="java" >}}

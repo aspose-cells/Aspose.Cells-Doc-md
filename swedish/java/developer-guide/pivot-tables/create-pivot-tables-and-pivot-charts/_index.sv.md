@@ -103,3 +103,4 @@ Vi välkomnar dina frågor, kommentarer och förslag på [Aspose.Cells Forum](ht
 - [Uppdatera och beräkna pivottabell med beräknade poster](/cells/sv/java/refresh-and-calculate-pivot-table-having-calculated-items/)
 - [Inaktivera ribbor för pivot-tabell](/cells/sv/java/disable-pivot-table-ribbons/)
 
+{{< app/cells/assistant language="java" >}}

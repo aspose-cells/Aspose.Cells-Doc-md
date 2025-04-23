@@ -27,3 +27,4 @@ Bitte sehen Sie den Unterabschnitt **Öffnen von HTML-Dateien** in diesem Artike
 Bitte sehen Sie den folgenden Dokumentationsartikel, der erläutert, wie Sie Ihre Arbeitsmappen/Tabellenkalkulationen in das HTML-Format konvertieren/speichern können.
 
 - [Excel-Dateien in HTML konvertieren](/cells/de/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktohtml)
+{{< app/cells/assistant language="csharp" >}}

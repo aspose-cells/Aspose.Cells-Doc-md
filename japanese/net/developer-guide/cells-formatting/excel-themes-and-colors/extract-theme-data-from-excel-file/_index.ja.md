@@ -20,3 +20,4 @@ Microsoft Excelを使用してワークブックにテーマを適用できま�
 次のサンプルコードでは、ソースワークブックに適用されているテーマ名を抽出し、その後、セルA1に適用されているテーマカラーとセルの下境界に適用されているテーマカラーを抽出します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ExtractThemeData-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

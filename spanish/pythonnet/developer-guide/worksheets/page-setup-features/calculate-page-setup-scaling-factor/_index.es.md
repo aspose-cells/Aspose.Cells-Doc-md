@@ -3,8 +3,8 @@ title: Calcular Factor de Escala de Configuración de Página
 type: docs
 weight: 300
 url: /es/python-net/calculate-page-setup-scaling-factor/
-description: Este artículo proporciona un código de ejemplo que explica cómo utilizar las APIs de Aspose.Cells para Python via .NET para calcular el factor de escala de ajuste a n páginas de ancho por m de alto de forma programática.
-keywords: Biblioteca de Excel de Python, Ajustar a n páginas de ancho por m de alto en Excel, calcular el factor de escala del ajuste de la configuración de página en Python.
+description: Este artículo proporciona código de ejemplo que explica cómo usar las APIs de Aspose.Cells para Python via .NET para calcular el factor de escala del Configuración de Página usando la opción Ajustar a n páginas de ancho por m de alto de la hoja de Excel.
+keywords: Biblioteca de Excel para Python, Ajustar a n páginas de ancho por m de alto en Python, calcular el factor de escala de la configuración de página en Python.
 ---
 
 {{% alert color="primary" %}}

@@ -145,3 +145,4 @@ Il codice di esempio riportato di seguito dimostra l'uso delle classi [**JsonUti
 ## **Argomenti avanzati**
 - [Specifica i campi di formula durante l'importazione dei dati nel foglio di lavoro.](/cells/it/net/specify-formula-fields-while-importing-data-to-worksheet/)
 - [Sposta la prima riga in basso durante l'inserimento di righe tabella dati della tabella dati.](/cells/it/net/shift-first-row-down-when-inserting-cells-data-table-rows/)
+{{< app/cells/assistant language="csharp" >}}

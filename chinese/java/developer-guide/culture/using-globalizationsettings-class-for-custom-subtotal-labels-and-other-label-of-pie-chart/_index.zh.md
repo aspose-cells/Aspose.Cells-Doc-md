@@ -10,11 +10,11 @@ Aspose.Cells API 中已公开了 [GlobalizationSettings](https://reference.aspos
 ## **GlobalizationSettings类简介**
 全局化设置（GlobalizationSettings）类目前提供以下3种方法，可以重写为自定义类，以获取所需的小计标签或为饼图的“其他”标签呈现自定义文本。
 
-1. GlobalizationSettings.getTotalName: 获取函数的总名称。
-1. GlobalizationSettings.getGrandTotalName: 获取函数的总计名称。
-1. GlobalizationSettings.getOtherName: 获取饼图的“其他”标签的名称。
+1. [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName-int-)：获取函数的总名称。
+1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName-int-)：获取函数的总计名称。
+1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--)：获取“其它”标签在饼图中的名称。
 ### **自定义小计标签**
-全局化设置（GlobalizationSettings）类可通过重写GlobalizationSettings.getTotalName和GlobalizationSettings.getGrandTotalName方法来自定义小计标签，如以下所示。
+[GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) 类可以用来自定义小计标签，通过重写 [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName-int-) 和 [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName-int-) 方法，示范如下。
 
 
 
@@ -33,7 +33,7 @@ Aspose.Cells API 中已公开了 [GlobalizationSettings](https://reference.aspos
 
 {{% /alert %}} 
 ### **饼状图的其他标签的自定义文本**
-全局化设置（GlobalizationSettings）类提供getOtherName方法，可用于为饼图的“其他”标签提供自定义值。以下代码片段定义一个自定义类，并重写getOtherName方法以根据为JVM设置的默认语言获取自定义标签。
+[GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) 类提供了 [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--) 方法，非常适合自定义饼图中的“其它”标签。以下代码定义一个自定义类并重写 [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--) 方法，以基于 JVM 设定的默认语言获取自定义标签。
 
 
 
@@ -50,3 +50,4 @@ Aspose.Cells API 中已公开了 [GlobalizationSettings](https://reference.aspos
 当计算机的区域设置为法国时，以下是生成的图像。正如您所见，“其他”标签已根据CustomSettings类中定义的内容翻译为“Autre”。
 
 ![todo:image_alt_text](using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart_1.png)
+{{< app/cells/assistant language="java" >}}

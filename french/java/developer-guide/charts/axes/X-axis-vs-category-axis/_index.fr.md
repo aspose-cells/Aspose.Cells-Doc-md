@@ -21,3 +21,4 @@ Le code d'exemple suivant génère le [fichier Excel de sortie](XAxis.xlsx).
 
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "X-axis-vs-category-axis.java" >}}
+{{< app/cells/assistant language="java" >}}

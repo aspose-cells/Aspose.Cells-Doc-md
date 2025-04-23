@@ -132,6 +132,22 @@ L'exemple de code suivant démontre l'exportation de la feuille de calcul active
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToPptx-1.cs" >}}
 
+## **Convertir le classeur Excel en EPUB**
+
+L'API Aspose.Cells prend en charge la conversion de feuilles de calcul en format EPUB. Pour exporter le classeur en EPUB, passez [**SaveFormat.Epub**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) comme second paramètre de la méthode [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3). Vous pouvez également utiliser la classe [**EBookSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/ebooksaveoptions) pour spécifier des paramètres supplémentaires pour l'exportation de la feuille de calcul en Epub.
+
+L'exemple de code suivant montre comment exporter la feuille active en EPUB en utilisant le membre d'énumération [**SaveFormat.Epub**](https://reference.aspose.com/cells/net/aspose.cells/saveformat).
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToEPUB-1.cs" >}}
+
+## **Convertir le classeur Excel en AZW3**
+
+L'API Aspose.Cells prend en charge la conversion de feuilles de calcul en format AZW3. Pour exporter le classeur en AZW3, passez [**SaveFormat.Azw3**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) comme second paramètre de la méthode [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3). Vous pouvez également utiliser la classe [**EBookSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/ebooksaveoptions) pour spécifier des paramètres supplémentaires pour l'exportation de la feuille de calcul en AZW3.
+
+L'exemple de code suivant montre comment exporter la feuille active en AZW3 en utilisant le membre d'énumération [**SaveFormat.Azw3**](https://reference.aspose.com/cells/net/aspose.cells/saveformat).
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToAZW3-1.cs" >}}
+
 ## **Sujets avancés**
 - [Convertir la révision de XLSB en XLSM](/cells/fr/net/convert-revision-of-xlsb-to-xlsm/)
 - [HTML](/cells/fr/net/convert-excel-to-html/)
@@ -142,3 +158,4 @@ L'exemple de code suivant démontre l'exportation de la feuille de calcul active
 - [Convertir Excel en CSV, TSV et Txt](/cells/fr/net/convert-excel-to-csv-tsv-and-txt/)
 - [Suivre la progression de la conversion des documents](/cells/fr/net/track-document-conversion-progress/)
 - [Convertir CSV, TSV et TXT en Excel](/cells/fr/net/convert-csv-tsv-and-txt-to-excel/)
+{{< app/cells/assistant language="csharp" >}}

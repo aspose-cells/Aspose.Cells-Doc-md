@@ -14,3 +14,4 @@ Du kan ställa in radavståndet för stycket, dess utrymme före och efter med h
 Följande kodexempel förklarar användningen av de nämnda egenskaperna.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SetTextboxOrShapeParagraphLineSpacing-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

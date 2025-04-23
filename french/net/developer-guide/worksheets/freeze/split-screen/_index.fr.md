@@ -51,3 +51,4 @@ Pour supprimer la division de la feuille de calcul, il suffit de cliquer à nouv
 Aspose.Cells pour .Net fournit une méthode [**Worksheet.RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/removesplit/) pour supprimer le paramètre de division.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Remove-Split.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

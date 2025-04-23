@@ -28,3 +28,4 @@ Yukarıdaki ekran görüntüsünde gösterilen çıktı Excel dosyasını oluşt
 - [HTML kullanarak Hücre Değeri Ayarıyla Madde İmleri Göster](/cells/tr/java/display-bullets-by-setting-cell-value-using/)
 - [Hücreden HTML5 dizesi al](/cells/tr/java/get-html5-string-from-cell/)
 
+{{< app/cells/assistant language="java" >}}

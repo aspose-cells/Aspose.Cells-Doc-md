@@ -22,3 +22,4 @@ El siguiente código explica el uso de los métodos [**Cell.GetWidthOfValue()**]
 
 ## **Temas avanzados**
 - [Obtener Ancho de Texto del Valor de la Celda](/cells/es/net/get-text-width-of-cell-value/)
+{{< app/cells/assistant language="csharp" >}}

@@ -187,3 +187,4 @@ workbook.save("output.xlsx");
 Daha fazla bilgi için [Sparkline Grubunun Veri Aralığını ve Konumunu Belirterek Sparkline Kopyalama](/cells/tr/java/sparkline-grubunun-veri-araligini-ve-konumunu-belirterek-sparkline-kopyalama/) makalesine bakın.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

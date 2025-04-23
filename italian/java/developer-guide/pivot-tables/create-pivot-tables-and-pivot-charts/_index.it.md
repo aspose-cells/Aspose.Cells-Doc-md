@@ -103,3 +103,4 @@ Accogliamo con favore le tue domande, commenti e suggerimenti su [Aspose.Cells F
 - [Aggiornare e calcolare la tabella pivot con elementi calcolati](/cells/it/java/refresh-and-calculate-pivot-table-having-calculated-items/)
 - [Disabilita i riquadri delle tabelle pivot](/cells/it/java/disable-pivot-table-ribbons/)
 
+{{< app/cells/assistant language="java" >}}

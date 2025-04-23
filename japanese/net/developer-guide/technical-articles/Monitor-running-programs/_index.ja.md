@@ -12,3 +12,4 @@ url: /ja/net/Monitor-running-programs/
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-TechnicalArticles-MonitorRunningPrograms.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

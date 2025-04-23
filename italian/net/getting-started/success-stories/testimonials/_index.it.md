@@ -12,3 +12,4 @@ Per le testimonianze dei clienti di Aspose.Cells, si prega di controllare:
 [Testimonianze](https://downloads.aspose.com/corporate/case-studies/aspose.cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -38,3 +38,4 @@ Sie können auch die Daten mit der Range.CopyData-Methode wie folgt kopieren:
 - [Zeilenhöhen des Quellbereichs in den Zielbereich kopieren](/cells/de/net/copy-row-heights-of-source-range-to-destination-range/)
 
 
+{{< app/cells/assistant language="csharp" >}}

@@ -1,10 +1,10 @@
 ---
-title: cómo ejecutar Aspose.Cells.GridWeb en docker
+title: cómo ejecutar Aspose.Cells.GridWeb en Docker
 type: docs
 weight: 250
 url: /es/net/aspose-cells-gridweb/how-to-build-online-excel-editor/
 keywords: GridWeb, docker
-description: Este artículo presenta cómo ejecutar GridWeb en Docker para construir una aplicación de edición o visualización de Excel en línea.
+description: Este artículo introduce cómo ejecutar GridWeb en docker para construir una aplicación de editor o visor de Excel en línea.
 aliases:
   - /net/aspose-cells-gridweb/docker/
   - /net/aspose-cells-gridweb/run-aspose-cells-gridweb-in-docker/
@@ -21,15 +21,15 @@ aliases:
 
 ## Requisitos previos
 
-Asegúrese de tener Docker instalado en su máquina. Puede descargar e instalar Docker desde el [sitio web oficial de Docker](https://www.docker.com/get-started).
+Asegúrese de tener Docker instalado en su máquina. Puede descargar e instalar Docker desde la [página oficial de Docker](https://www.docker.com/get-started).
 
 ## Paso 1: Crear un Dockerfile
 
-Cree un archivo llamado `Dockerfile` en el [directorio](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/). El `Dockerfile` debe contener instrucciones sobre cómo construir su imagen de Docker.
+Crea un archivo llamado `Dockerfile` en el [directorio](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/) de tu proyecto. El `Dockerfile` debe contener instrucciones sobre cómo construir tu imagen de Docker.
 
 ## Paso 2: Escribir Dockerfile para GridWeb
 
-Aquí hay un ejemplo de [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/Dockerfile) para la demostración de GridWeb con la aplicación ASP.NET Core:
+Aquí hay un ejemplo [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/Dockerfile) para la demostración de GridWeb con una aplicación ASP.NET Core:
 
 ```dockerfile
 # Use the official .NET6.0 runtime as a parent image
@@ -77,43 +77,43 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "GridWeb.Demo.NET6.0.dll"]
 ```
 
-## Paso 3: Construyendo la Imagen de Docker
-Construya la imagen de Docker: Desde el terminal, ejecute el siguiente comando para construir su imagen de Docker:
+## Paso 3: Construir la imagen de Docker
+Construir la imagen de Docker: Desde la terminal, ejecute el siguiente comando para construir su imagen de Docker:
 ```bash
 docker build -t gridweb-demo-net6 .
 ```
-puedes reemplazar gridweb-demo-net6 con el nombre que desees darle a tu imagen Docker.
+puedes reemplazar gridweb-demo-net6 con el nombre que desees para tu imagen Docker.
 
-## Paso 4: Ejecutando un Contenedor Docker
-Una vez que la imagen esté construida, puede ejecutar un contenedor utilizando el siguiente comando:
+## Paso 4: Ejecutar un contenedor Docker
+Una vez que la imagen esté construida, puede ejecutar un contenedor usando el siguiente comando:
 
 ```bash
 docker run -d -p 24262:80 --name gridweb-demo-container  gridweb-demo-net6
 ```
 Explicación de las opciones del comando Docker Run
--d: Ejecutar el contenedor en modo desprendido (en segundo plano).
+-d: Ejecutar el contenedor en modo desacoplado (en segundo plano).
 -p 24262:80: Mapear el puerto 80 en el contenedor al puerto 24262 en la máquina host.
 --name gridweb-demo-container: Asigna un nombre al contenedor.
 
-## Paso 5: Verificar que el Contenedor se está Ejecutando
-Para verificar si su contenedor se está ejecutando, use el siguiente comando:
+## Paso 5: Verificar que el contenedor esté en ejecución
+Para verificar si su contenedor está en ejecución, utilice el siguiente comando:
 
 ```bash
 docker ps
 ```
-Esto listará todos los contenedores en ejecución. Debería ver su contenedor en la lista junto con su nombre y estado.
+Esto listará todos los contenedores en ejecución. Debería ver su contenedor listado junto con su nombre y estado.
 
-## Paso 6: Acceder a la Aplicación Web
+## Paso 6: Acceder a la aplicación web
 
-Abre un navegador web e ingresa a `http://localhost:24262/`. Deberías ver tu aplicación en ejecución.
+Abre un navegador web y ve a `http://localhost:24262/`. Deberías ver tu aplicación en ejecución.
 
-verás la guía de desarrollo general para GridWeb 
+obtendrás la guía general de desarrollo para GridWeb 
 
-haz clic en [demo](http://localhost:24262/grid/index1 "demo") en la página, podrás realizar operaciones de edición en el archivo de hoja de cálculo.
+haz clic en [demo](http://localhost:24262/grid/index1 "demo") en la página, puedes realizar operaciones de edición en el archivo de la hoja de cálculo.
 
-## Comandos Adicionales
+## Comandos adicionales
 
-### Detener el Contenedor
+### Deteniendo el Contenedor
 
 Para detener un contenedor en ejecución, use el siguiente comando:
 
@@ -121,15 +121,15 @@ Para detener un contenedor en ejecución, use el siguiente comando:
 docker stop gridweb-demo-container
 ```
 
-### Eliminar un contenedor
-Para eliminar un contenedor detenido, utiliza el siguiente comando:
+### Eliminando un Contenedor
+Para eliminar un contenedor detenido, use el siguiente comando:
 
 ```bash
 docker rm  gridweb-demo-container
 ```
 
-### Eliminar una imagen
-Para eliminar una imagen, utiliza el siguiente comando:
+### Eliminando una Imagen
+Para eliminar una imagen, use el siguiente comando:
 
 ```bash
 docker rmi gridweb-demo-net6

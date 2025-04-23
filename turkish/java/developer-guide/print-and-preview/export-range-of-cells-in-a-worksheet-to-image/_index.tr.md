@@ -28,3 +28,4 @@ Kod çalıştırıldığında, yalnızca E8:H10 aralığının bir görüntüsü
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ExportRangeofCells-1.java" >}}
 
 Ayrıca, [Farklı Görüntü Biçimlerine Çalışma Sayfasını Dönüştürme](/cells/tr/java/converting-worksheet-to-different-image-formats/) başlıklı makaleyi de faydalı bulabilirsiniz.
+{{< app/cells/assistant language="java" >}}

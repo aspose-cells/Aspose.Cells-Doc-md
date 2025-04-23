@@ -61,3 +61,4 @@ Das folgende Beispiel zeigt, wie Sie die Präzedenzfälle und Dependenzen gemä�
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-TracingDependenciesInCalculation.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -27,3 +27,4 @@ Aspose.Cells提供[Cells.DeleteRange](https://reference.aspose.com/cells/net/asp
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Delete-Range-up.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

@@ -182,14 +182,107 @@ Aspose.Cellsはスマートマーカーでネストされたオブジェクト�
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-UsingNestedObjects-1.cs" >}}
+
+## **JSONデータの使用**
+Aspose.CellsはスマートマーカーでJSONデータをサポートします。JSONデータは階層的にネスト可能です。[テンプレートファイル](smartmarker.xlsx)、[JSONファイル](smartmarker.json)、および以下のコードで生成された出力Excelファイルのスクリーンショットを確認してください。
+
+|**smartmarker.xlsxファイルの最初のワークシートにスマートマーカーを表示**|
+| :- |
+|![todo:image_alt_text](jsontemplate.png)|
+
+|**出力Excelファイルのスクリーンショット**|
+| :- |
+|![todo:image_alt_text](jsonresult.png)|
+
+以下はJSONデータです：
+```json data
+{
+    "EntityCin" : "EntityCin Test",
+    "EntityName" : "EntityName Test",
+    "FirstName" : "FirstName Test",
+    "MiddleName" : "MiddleName Test",
+    "LastName" : "LastName Test",
+    "DOB" : "2025-02-08",
+    "SSN" : "11111111",
+    "Directors" : [
+        {
+            "id" : "director id 1",
+            "FirstName" : "director first 1",
+            "MiddleName" : "director middle 1",
+            "LastName" : "director last 1",
+            "Reportees" : [
+                {
+                    "id" : "aaa",
+                    "FirstName" : "first aaa",
+                    "MiddleName" : "middle aaa",
+                    "LastName" : "last aaa",
+                    "Department" : "aaa department",
+                    "City" : "aaa city",
+                    "GST" : "Yes",
+                    "ITR" : "No"
+                },
+                {
+                    "id" : "bbb",
+                    "FirstName" : "first bbb",
+                    "MiddleName" : "middle bbb",
+                    "LastName" : "last bbb",
+                    "Department" : "bbb department",
+                    "City" : "bbb city",
+                    "GST" : "Yes",
+                    "ITR" : "Yes"
+                },
+                {
+                    "id" : "ccc",
+                    "FirstName" : "first ccc",
+                    "MiddleName" : "middle ccc",
+                    "LastName" : "last ccc",
+                    "Department" : "ccc department",
+                    "City" : "ccc city",
+                    "GST" : "No",
+                    "ITR" : "No"
+                }
+            ]
+        },
+        {
+            "id" : "director id 2",
+            "FirstName" : "director first 2",
+            "MiddleName" : "director middle 2",
+            "LastName" : "director last 2",
+            "Reportees" : [
+                {
+                    "id" : "eee",
+                    "FirstName" : "first eee",
+                    "MiddleName" : "middle eee",
+                    "LastName" : "last eee",
+                    "Department" : "eee department",
+                    "City" : "eee city",
+                    "GST" : "Yes",
+                    "ITR" : "No"
+                },
+                {
+                    "id" : "fff",
+                    "FirstName" : "first fff",
+                    "MiddleName" : "middle fff",
+                    "LastName" : "last fff",
+                    "Department" : "fff department",
+                    "City" : "fff city",
+                    "GST" : "No",
+                    "ITR" : "No"
+                }
+            ]
+        }
+    ]
+}
+```
+以下の例は、これがどのように動作するかを示しています。
+
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "SmartMarkers-Using-JSON-Data.cs" >}}
+
 ## **ネストされたオブジェクトとしてのジェネリックリストの使用**
 Aspose.Cellsは今やネストオブジェクトとして一般的なリストの使用もサポートしています。以下のコードで生成された出力エクセルファイルのスクリーンショットをご確認ください。スクリーンショットでは、Teacherオブジェクトが複数のネストされたStudentオブジェクトを含んでいるのが確認できます。
 
 |![todo:image_alt_text](using-smart-markers_8.png)|
 | :- |
-
-
-
 
 {{< gist  "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-SmartMarkers-UsingGenericList-1.cs" >}}
 ## **スマートマーカーのHTMLプロパティの使用**
@@ -221,3 +314,4 @@ The following sample code explains the use of HTML property of the Smart Markers
 - [Smart Markersでデータをグループ化する際に画像マーカーを使用する](/cells/ja/net/using-image-markers-while-grouping-data-in-smart-markers/)
 
 
+{{< app/cells/assistant language="csharp" >}}

@@ -16,7 +16,7 @@ keywords: 複数のワークブックを1つに結合する方法、Javaで複�
 
 ## **ワークブックの結合**
 
-この例のコードは、Aspose.Cells for Javaを使用して2つのワークブックを1つのワークブックに結合します。コードはソースワークブックをロードし、[**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook))メソッドを使用してそれらを結合し、出力ワークブックを保存します。
+この例のコードは、Aspose.Cells for Javaを使用して2つのワークブックを1つのワークブックに結合します。コードはソースワークブックをロードし、[**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine-com.aspose.cells.Workbook-)メソッドを使用してそれらを結合し、出力ワークブックを保存します。
 
 ### **ソースワークブック**
 
@@ -69,3 +69,4 @@ keywords: 複数のワークブックを1つに結合する方法、Javaで複�
 - [複数のワークシートを1つのワークシートにマージ](/cells/ja/java/combine-multiple-worksheets-into-a-single-worksheet/)
 - [ファイルの結合](/cells/ja/java/merge-files/)
 
+{{< app/cells/assistant language="java" >}}

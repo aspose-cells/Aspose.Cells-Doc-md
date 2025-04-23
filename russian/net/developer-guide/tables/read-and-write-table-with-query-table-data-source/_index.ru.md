@@ -15,3 +15,4 @@ url: /ru/net/read-and-write-table-with-query-table-data-source/
 [Исходный файл](96928091.xls)
 
 [Выходной файл](96928092.xls)
+{{< app/cells/assistant language="csharp" >}}

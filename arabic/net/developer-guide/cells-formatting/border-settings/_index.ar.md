@@ -84,3 +84,4 @@ The [**Borders**](https://reference.aspose.com/cells/net/aspose.cells/style/pro
 - **اللون**، لون الخط، المحدد من تعداد الألوان.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Borders-AddingBorderstoRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

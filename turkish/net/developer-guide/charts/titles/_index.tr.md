@@ -33,3 +33,4 @@ Aşağıdaki kod parçacığı, grafikler ve eksenlerin başlıklarını nasıl 
 
 ## **Gelişmiş Konular**
 - [ODS Dosyasından Grafik Alt Başlığını Okuma](/cells/tr/net/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="csharp" >}}

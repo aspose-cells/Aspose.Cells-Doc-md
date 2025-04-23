@@ -12,3 +12,4 @@ El siguiente código de ejemplo muestra cómo monitorear un programa en ejecuci�
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-TechnicalArticles-MonitorRunningPrograms.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

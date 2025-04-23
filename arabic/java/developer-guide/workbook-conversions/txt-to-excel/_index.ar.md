@@ -51,3 +51,4 @@ url: /ar/java/convert-csv-tsv-and-txt-to-excel/
 - [تحميل أو استيراد ملف CSV بالصيغ](/cells/ar/java/load-or-import-csv-file-with-formulas/)
 - [تقليص الصفوف والأعمدة الخالية أثناء تصدير جداول البيانات إلى تنسيق CSV](/cells/ar/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
 
+{{< app/cells/assistant language="java" >}}

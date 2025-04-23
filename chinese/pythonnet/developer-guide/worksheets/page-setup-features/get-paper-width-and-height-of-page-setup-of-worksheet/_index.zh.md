@@ -3,8 +3,8 @@ title: 获取工作表页面设置的纸张宽度和高度
 type: docs
 weight: 50
 url: /zh/python-net/get-paper-width-and-height-of-page-setup-of-worksheet/
-description: 在本文中，您将发现如何使用python代码通过Aspsoe.Cells for Python via .NET API或库以程序方式获取Excel工作表页面设置的纸张宽度和纸张高度。
-keywords: Python Excel库，Python设置工作表的自定义纸张宽度，Python中的Excel页面设置纸张高度。
+description: 本文将教你如何使用 Aspose.Cells for Python via .NET API，程序化获取 Excel 工作表页面设置中的纸宽和纸高。
+keywords: Python Excel 库，Python 设置页面宽度，Excel 页面高度在 Python 中。
 ---
 
 ## **可能的使用场景**
@@ -13,7 +13,7 @@ keywords: Python Excel库，Python设置工作表的自定义纸张宽度，Pyth
 
 ## **获取工作表页面设置的纸张宽度和高度**
 
-以下示例代码解释了[**PageSetup.paper_width**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_width)和[**PageSetup.paper_height**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_height)属性的用法。它首先将纸张尺寸更改为*A2*，然后找到纸张的宽度和高度，然后将其更改为*A3*、 *A4*、 *Letter*并分别找到纸张的宽度和高度。
+以下示例代码演示 [**PageSetup.paper_width**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_width) 和 [**PageSetup.paper_height**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_height) 属性的用法。首先将纸张大小改为 *A2*，然后获取纸张宽度和高度，接着设为 *A3*、*A4*、*Letter* 并分别找出纸张宽度和高度。
 
 ### **示例代码**
 

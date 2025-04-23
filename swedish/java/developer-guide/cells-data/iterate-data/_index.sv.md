@@ -110,3 +110,4 @@ Baserat på ovan nämnda fakta, följande är de möjliga scenarier där iterato
 1. Endast läsåtkomst av cellkollektionen krävs, det vill säga; kravet är att bara inspektera cellerna.
 1. Ett stort antal celler ska traverseras.
 1. Endast initialiserade celler/rader/kolumner ska traverseras.
+{{< app/cells/assistant language="java" >}}

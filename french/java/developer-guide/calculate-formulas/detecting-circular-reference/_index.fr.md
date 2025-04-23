@@ -15,9 +15,9 @@ Les références circulaires ne peuvent être détectées que lorsque la formule
 
 [**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell) : Représente le calcul des données pertinentes d'une cellule en cours de calcul
 
-[**AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)) : sera invoquée par le moteur de calcul de formule lors de la détection de références circulaires, l'élément de l'énumérateur est des objets [**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell) qui représentent toutes les cellules dans un cercle. La valeur retournée indique si le moteur de formule doit calculer ces cellules en cercle après cet appel.
+[**AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular-java.util.Iterator-) : sera invoquée par le moteur de calcul de formule lors de la détection de références circulaires, l'élément de l'énumérateur est des objets [**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell) qui représentent toutes les cellules dans un cercle. La valeur retournée indique si le moteur de formule doit calculer ces cellules en cercle après cet appel.
 
-L'utilisateur peut rassembler ces références circulaires dans la mise en œuvre de la méthode [**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)).
+L'utilisateur peut rassembler ces références circulaires dans la mise en œuvre de la méthode [**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular-java.util.Iterator-).
 
 Le fichier d'exemple source peut être téléchargé à partir du lien suivant :
 
@@ -28,3 +28,4 @@ Le fichier d'exemple source peut être téléchargé à partir du lien suivant :
 La définition de la classe *CircularMonitor* qui est dérivée de la classe [**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) est la suivante :
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DetectCircularReference-2.java" >}}
+{{< app/cells/assistant language="java" >}}

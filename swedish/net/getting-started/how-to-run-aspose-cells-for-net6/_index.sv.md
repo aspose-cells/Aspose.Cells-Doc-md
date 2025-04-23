@@ -14,8 +14,8 @@ I detta officiella [Microsoft-dokument](https://learn.microsoft.com/en-gb/dotnet
 För Apose.Cells-produkten har vi genomfört utvärderingen och slutfört migreringen av grafikbiblioteket. Vi använder SkiaSharp istället för System.Drawing.Common i icke-Windows-system, som föreslagits i Microsofts officiella dokumentation. Observera att denna kritiska ändring kommer att träda i kraft i Aspose.Cells 22.10.1 eller senare för .Net6.
 
 För .netcore31 eller tidigare, för kompatibilitet och stabilitet, använder vi fortfarande "System.Drawing.Common" som grafikbibliotek. Beroendena för .netcore31 eller tidigare är följande:
-- System.Drawing.Common, 4.7.0.
-- System.Security.Cryptography.Pkcs, 5.0.1.
+- System.Drawing.Common, 5.0.3.
+- System.Security.Cryptography.Pkcs, 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
 ## Kör Aspose.Cells för .Net6 på Windows
@@ -39,15 +39,15 @@ Du kan också installera Aspose.Cells från Nuget-paketet i VS2022.
 2. Öppna installationskatalogen eller DLL-katalogen, välj sedan steg 3 eller 4 nedan:
 
 3. Lokalisera delkatalogen "net6.0-windows", lägg till Aspose.Cells.dll i den till din .net6-applikation. Lägg manuellt till följande nuget-paket till ditt .net6-projekt:
-- System.Drawing.Common, 4.7.0.
-- System.Security.Cryptography.Pkcs, 6.0.3.
+- System.Drawing.Common, 6.0.0.
+- System.Security.Cryptography.Pkcs, 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
 På detta sätt kommer du att använda "System.Drawing.Common" som ett beroende på ditt Windows-system för .Net6-projekt. I denna konfiguration är resultatet av ritningen närmare .netcore31 eller tidigare.
 
 4. Lokalisera delkatalogen "net6.0", lägg till Aspose.Cells.dll i den till din .net6-applikation. Lägg manuellt till följande nuget-paket till ditt .net6-projekt:
-- SkiaSharp, 2.88.6.
-- System.Security.Cryptography.Pkcs, 6.0.3.
+- SkiaSharp, 3.116.1.
+- System.Security.Cryptography.Pkcs, 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
 På detta sätt kommer du att använda "SkiaSharp" som ett beroende på ditt Windows-system för .Net6-projekt. *Observera att versionen som använder "SkiaSharp" som ett beroende inte stöder utskrift till skrivare.*
@@ -66,13 +66,24 @@ ELLER
 apk update && apk add fontconfig 
 ```
 
-2. Lägg till nuget-paketet "SkiaSharp.NativeAssets.Linux 2.88.6" i ditt .net6-projekt.
+2. Lägg till nuget-paketet "SkiaSharp.NativeAssets.Linux 3.116.1" till ditt .net6-projekt.
+3. Alternativt kan du välja att lägga till nuget-paketen "SkiaSharp.NativeAssets.Linux.NoDependencies 3.116.1" till ditt .net6-projekt, istället för de ovanstående två stegen.
 
-3. Eller så kan du välja att lägga till nuget-paketet "SkiaSharp.NativeAssets.Linux.NoDependencies 2.88.6" i ditt .net6-projekt istället för de två stegen ovan.
+*Observera att versionen av det tillagda paketet "SkiaSharp.NativeAssets.Linux" eller "SkiaSharp.NativeAssets.Linux.NoDependencies" bör motsvara versionen av "SkiaSharp" som refereras av Aspose.Cells for .NET. Versionerna av Aspose.Cells for .NET och den motsvarande refererade "SKiaSharp"-versionen beskrivs som följande:*
+
+| Aspose.Cells for .NET  |                SkiaSharp                |
+| :--------------------: | :-------------------------------------: |
+| >= 22.10.1 && <= 22.11 |                 2.88.0                  |
+|  >= 22.12 && <= 23.9   |                 2.88.3                  |
+|  >= 23.10 && <= 24.12  |                 2.88.6                  |
+|        = 25.1.1        |                 3.116.1                 |
+|        >=25.1.2        | 2.88.9(net6.0, net8.0), 3.116.1(net9.0) |
+
+
 
 ### Exempel på Dockerfil för Ubuntu
 
-1. Lägg till nuget-paketet "SkiaSharp.NativeAssets.Linux 2.88.6" i ditt .net6-projekt.
+1. Lägg till nuget-paketet "SkiaSharp.NativeAssets.Linux 3.116.1" till ditt .net6-projekt.
 
 2. Använd följande Dockerfil:
 {{< highlight plain >}}
@@ -108,7 +119,7 @@ ENTRYPOINT ["dotnet", "Ubuntu_Docker.dll"]
 
 ### Exempel på Dockerfil för Alpine
 
-1. Lägg till nuget-paketet "SkiaSharp.NativeAssets.Linux 2.88.6" i ditt .net6-projekt.
+1. Lägg till nuget-paketet "SkiaSharp.NativeAssets.Linux 3.116.1" till ditt .net6-projekt.
 
 2. Använd följande Dockerfil:
 {{< highlight plain >}}
@@ -141,3 +152,4 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "Alpine_Docker.dll"]
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

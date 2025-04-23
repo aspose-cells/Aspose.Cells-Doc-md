@@ -28,3 +28,4 @@ Wir verwenden die folgenden Aspose.Cells-Funktionen, um benutzerfreundliche Exce
 Die Aspose.Cells-Komponente ermöglichte es uns, Excel-Arbeitsmappen schnell zu erstellen und zu lesen, was unseren Fertigungskunden einen weiteren einfachen und intuitiven Weg zur Erfassung, Aktualisierung und Zusammenfassung ihrer Umsatzprognosen mit Right90 bietet.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

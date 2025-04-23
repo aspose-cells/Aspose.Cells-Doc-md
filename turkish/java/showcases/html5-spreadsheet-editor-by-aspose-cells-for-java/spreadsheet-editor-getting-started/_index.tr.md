@@ -192,3 +192,4 @@ Minimum sorumluluklar için en liberal açık kaynak lisanslarından birini kull
 Ürün, Aspose lisansı olmadan [kısıtlamalarla çalışabilir](/cells/tr/java/licensing/). Kısıtlamaları kaldırmak için [ücretsiz geçici lisans](https://purchase.aspose.com/temporary-license) alabilir veya [tam lisans satın alabilirsiniz](https://purchase.aspose.com/buy).
 
 Varsayılan olarak, düzenleyici **src/main/resources/com/aspose/spreadsheeteditor** dizininden **Aspose.Total.Java.lic** dosyasını yüklemeye çalışacaktır. Lisans dosyasını bu dizine kopyalayın. Varsayılan davranış, **AsposeLicense** sınıfını düzenleyerek değiştirilebilir.
+{{< app/cells/assistant language="java" >}}

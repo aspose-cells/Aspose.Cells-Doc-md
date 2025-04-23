@@ -23,3 +23,4 @@ url: /ja/java/code-comparison-for-common-features-in-aspose-cells-and-xlsx4j/
   - [xlsx4jでの行列の高さの調整](/cells/ja/java/row-column-height-adjustment-in-xlsx4j/)
 
 **注意:** さらに多くのコード比較がまもなく利用可能になります。 
+{{< app/cells/assistant language="java" >}}

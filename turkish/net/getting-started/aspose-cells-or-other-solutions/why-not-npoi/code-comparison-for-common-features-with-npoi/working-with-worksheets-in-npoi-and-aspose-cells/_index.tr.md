@@ -18,3 +18,4 @@ Bu bölümde şu konular bulunmaktadır:
 - [Çalışma Sayfasında Hücreleri Bölme](/cells/tr/net/split-cells-in-worksheet/)
 - [Donmuş Bölmelerle Çalışma](/cells/tr/net/working-with-freeze-panes/)
 - [Üst Bilgi ve Alt Bilgiyle Çalışma](/cells/tr/net/working-with-headers-and-footers/)
+{{< app/cells/assistant language="csharp" >}}

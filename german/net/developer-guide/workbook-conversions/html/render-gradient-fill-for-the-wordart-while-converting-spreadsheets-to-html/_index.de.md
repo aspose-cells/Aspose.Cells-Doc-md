@@ -13,3 +13,4 @@ Vor Aspose.Cells 17.1 konnte Aspose.Cells den Gradientenfüllungseffekt der Word
 Der folgende Beispielcode konvertiert die [Quell-Excel-Datei](22774111.xlsx) in das [Ausgabe-HTML-Format](22774109.zip). Die Quell-Excel-Datei enthält ein WordArt-Objekt mit Gradientenfüllung, wie im obigen Screenshot gezeigt.
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithHTMLFormat-RenderGradientFillToHTML.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

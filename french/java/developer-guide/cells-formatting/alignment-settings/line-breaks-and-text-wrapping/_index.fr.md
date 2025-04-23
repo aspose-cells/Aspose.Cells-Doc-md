@@ -24,3 +24,4 @@ Le code d'exemple suivant montre comment utiliser le retour à la ligne et les s
 Vous pouvez utiliser ‘\n’ en Java pour insérer des sauts de ligne explicites dans une cellule.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UseExplicitLineBreaks-UseExplicitLineBreaks.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -7,7 +7,7 @@ url: /ru/java/import-xml-map-inside-a-workbook-using-aspose-cells/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells позволяет импортировать XML-карту внутри книги с использованием метода [**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml(java.lang.String,%20java.lang.String,%20int,%20int)). Вы можете импортировать XML-карту с помощью Microsoft Excel, выполнив следующие шаги
+Aspose.Cells позволяет импортировать XML-карту внутри книги с использованием метода [**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml-java.lang.String-java.lang.String-int-int-). Вы можете импортировать XML-карту с помощью Microsoft Excel, выполнив следующие шаги
 
 - Выберите вкладку **Разработчик**
 - Нажмите **Импорт** в разделе XML и следуйте необходимым шагам.
@@ -24,8 +24,9 @@ Aspose.Cells позволяет импортировать XML-карту вну
 
 ## **Импорт XML-схемы с использованием Aspose.Cells**
 
-В следующем образце кода показано, как использовать [**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml(java.lang.String,%20java.lang.String,%20int,%20int)). Он генерирует [выходной файл Excel](5472502.xlsx), как показано на этом снимке экрана.
+В следующем образце кода показано, как использовать [**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml-java.lang.String-java.lang.String-int-int-). Он генерирует [выходной файл Excel](5472502.xlsx), как показано на этом снимке экрана.
 
 ![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ImportXMLMap-ImportXMLMap.java" >}}
+{{< app/cells/assistant language="java" >}}

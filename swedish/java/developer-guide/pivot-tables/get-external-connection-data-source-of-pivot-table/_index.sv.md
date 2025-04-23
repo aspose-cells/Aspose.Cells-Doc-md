@@ -16,3 +16,4 @@ Aspose.Cells ger möjlighet att hämta extern datakälla för pivottabellen. Fö
 Källfilen som används i kodprovet är bifogad för referens.
 
 [Källfil](SamplePivotTableExternalConnection.xlsx)
+{{< app/cells/assistant language="java" >}}

@@ -13,7 +13,7 @@ Bu makale, resim eklemenin ve belirli hücrelerin içeriğini gösteren bir resm
 
 Bir çalışma kitabına resim eklemek çok kolaydır. Sadece birkaç satır kod gerektirir.
 
-Sadece [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) nesnesine kapsüllenmiş olan [**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) koleksiyonunun [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) yöntemini çağırın. [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) yöntemi aşağıdaki parametreleri alır:
+Sadece [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) nesnesine kapsüllenmiş olan [**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) koleksiyonunun [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add-int-int-java.lang.String-) yöntemini çağırın. [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add-int-int-java.lang.String-) yöntemi aşağıdaki parametreleri alır:
 
 - **Sol üst satır dizini**, sol üst sütunun dizini.
 - **Sol üst sütun dizini**, sol üst sütunun dizini.
@@ -37,3 +37,4 @@ Geliştiriciler, resimleri [**setUpperDeltaX**](https://reference.aspose.com/cel
 - [Web Adresinden Bağlantılı Resim Ekle](/cells/tr/java/insert-a-linked-picture-from-web-address/)
 - [Hücre Referansına Göre Resim Ekle](/cells/tr/java/insert-a-picture-based-on-cell-reference/)
 - [URL'den Bir Web Görüntüsünü Excel Çalışma Kitabına Ekle](/cells/tr/java/insert-web-image-from-a-url-into-an-excel-worksheet/)
+{{< app/cells/assistant language="java" >}}

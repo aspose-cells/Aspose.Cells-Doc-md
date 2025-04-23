@@ -125,3 +125,4 @@ Hämta **Fånga Cellinnehåll** från någon av de nedan nämnda sociala kodning
 För mer detaljer, besök [Datahanteringsfunktioner](/cells/sv/net/data-handling-features-in-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

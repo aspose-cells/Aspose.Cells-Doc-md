@@ -29,3 +29,4 @@ Dopo aver eseguito il codice, il file di output contiene un watermark WordArt ro
 - [Aggiungi WordArt Watermark al grafico](/cells/it/java/add-wordart-watermark-to-chart/)
 - [Bloccare WordArt Come Filigrana](/cells/it/java/locking-wordart-watermark/)
 - [Imposta lo stile predefinito di WordArt al testo della forma](/cells/it/java/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="java" >}}

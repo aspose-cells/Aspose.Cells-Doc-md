@@ -18,3 +18,4 @@ Den följande exempelkoden laddar in en [provexempel Excel-fil](67338304.xlsx) m
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Fonts-SpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.java" >}}
+{{< app/cells/assistant language="java" >}}

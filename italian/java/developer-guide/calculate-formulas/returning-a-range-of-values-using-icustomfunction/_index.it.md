@@ -32,3 +32,4 @@ Crea una classe con una funzione *CalculateCustomFunction*. Questa classe implem
 Ora utilizza la funzione sopra nel tuo programma
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReturningRangeOfValues-ReturningRangeOfValues.java" >}}
+{{< app/cells/assistant language="java" >}}

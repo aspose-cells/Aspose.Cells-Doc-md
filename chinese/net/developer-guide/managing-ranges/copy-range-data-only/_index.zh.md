@@ -24,3 +24,4 @@ url: /zh/net/copy-range-data-only/
 1. 将第一个范围的数据复制到这个第二个范围。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeDataOnly-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

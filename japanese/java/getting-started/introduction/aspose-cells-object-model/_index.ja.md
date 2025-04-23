@@ -135,3 +135,4 @@ Charts オブジェクトはワークシート内のすべての Chart オブジ
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_15.png)|
 SparklineGroup オブジェクトはワークシート内のスパークライン グループを表します。開発者は SparklineGroup オブジェクトを使用してスパークライン グループのスタイルやその他関連するプロパティを設定できます。
+{{< app/cells/assistant language="java" >}}

@@ -18,3 +18,4 @@ Il codice di esempio seguente carica il [file di Excel di esempio](64716806.xls
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-ExportSimilarBorderStyle.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

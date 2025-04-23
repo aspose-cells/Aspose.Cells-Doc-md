@@ -14,3 +14,4 @@ Puede proteger con contraseña el Proyecto de Visual Basic for Applications (VBA
 El siguiente código de muestra carga el [archivo de Excel de muestra](43352067.xlsm), accede a su proyecto de VBA y lo protege con una contraseña. Finalmente, lo guarda como el [archivo de Excel de salida](43352068.xlsm).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProjectPassword-ProtecttheVBAProjectofExcelWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

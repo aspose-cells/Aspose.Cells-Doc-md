@@ -103,3 +103,4 @@ Wir begrüßen Ihre Anfragen, Kommentare und Vorschläge im [Aspose.Cells-Forum]
 - [Pivot-Tabelle aktualisieren und Berechnen von Pivot-Tabellen mit berechneten Elementen](/cells/de/java/refresh-and-calculate-pivot-table-having-calculated-items/)
 - [Pivot-Tabellen-Ribbons deaktivieren](/cells/de/java/disable-pivot-table-ribbons/)
 
+{{< app/cells/assistant language="java" >}}

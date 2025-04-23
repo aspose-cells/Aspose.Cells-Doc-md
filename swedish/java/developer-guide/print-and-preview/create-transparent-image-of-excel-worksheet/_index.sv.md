@@ -26,3 +26,4 @@ Medan i följande arbetsbladsbild har transparens tillämpats. Cellerna utan fyl
 Du kan använda följande exempelkod för att generera en transparent bild av ditt Excel-kalkylblad.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CreateTransparentImage-1.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -27,3 +27,4 @@ Aspose.Cells允许对ODS文件进行加密和解密。解密的ODS文件可以�
 要解密ODS文件，通过在[**LoadOptions.Password**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/password)中提供密码来加载文件。一旦文件加载完成，将[**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password)字符串设置为null。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-DecryptingODSFiles-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -11,7 +11,7 @@ Microsoft Excel'de çalışma kitaplarını oluştururken **Açmak için Parola*
 
 ![todo:image_alt_text](check-password-to-modify-using-aspose-cells_1.png)
 
-Bazen, verilen parolanın **Değiştirmek için Parola** ile eşleşip eşleşmediğini programlı olarak kontrol etmeniz gerekebilir. Aspose.Cells, verilen parolanın doğru olup olmadığını kontrol etmek için [**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword(java.lang.String)) yöntemini sağlar.
+Bazen, verilen parolanın **Değiştirmek için Parola** ile eşleşip eşleşmediğini programlı olarak kontrol etmeniz gerekebilir. Aspose.Cells, verilen parolanın doğru olup olmadığını kontrol etmek için [**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword-java.lang.String-) yöntemini sağlar.
 
 {{% /alert %}}
 
@@ -32,3 +32,4 @@ Is 567 correct Password to modify: false
 Is 5678 correct Password to modify: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

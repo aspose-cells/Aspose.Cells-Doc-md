@@ -59,3 +59,4 @@ Tabseparatorvärdefiler (TSV-filer) innehåller kalkyldata men utan någon forma
 - [Läs in eller importera CSV-fil med formler](/cells/sv/net/load-or-import-csv-file-with-formulas/)
 - [Läsning av CSV-fil med flera teckentabeller](/cells/sv/net/reading-csv-file-with-multiple-encodings/)
 
+{{< app/cells/assistant language="csharp" >}}

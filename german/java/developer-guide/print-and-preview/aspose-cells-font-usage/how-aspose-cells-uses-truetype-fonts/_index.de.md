@@ -53,3 +53,4 @@ Beachten Sie beim Kopieren von Schriften, dass die meisten Schriften urheberrech
 - [Wie Sie Warnungen erhalten, wenn eine Schriftarten-Substitution auftritt](/cells/de/java/get-warnings-for-font-substitution-while-rendering-excel-file/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

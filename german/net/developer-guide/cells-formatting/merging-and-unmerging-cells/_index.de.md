@@ -55,3 +55,4 @@ Das folgende Beispiel zeigt, wie die zusammengeführten Zellen (C6) aufgeteilt w
 
 ## **Erweiterte Themen**
 - [Erkennen von zusammengeführten Zellen in einem Arbeitsblatt](/cells/de/net/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

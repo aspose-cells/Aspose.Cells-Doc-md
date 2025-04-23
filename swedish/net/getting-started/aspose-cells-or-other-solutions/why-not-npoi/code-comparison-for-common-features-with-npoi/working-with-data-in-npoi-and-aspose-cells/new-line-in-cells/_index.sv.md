@@ -77,3 +77,4 @@ Hämta **Ny rad i celler** från någon av de nedan nämnda sociala kodningssido
 För mer detaljer, besök [Radbrytningar och Textmärkning](/cells/sv/net/line-breaks-and-text-wrapping/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -18,3 +18,4 @@ El siguiente código de ejemplo explica el uso del método [**Shape.ToFrontOrBac
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-SendShapeFrontOrBackInWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

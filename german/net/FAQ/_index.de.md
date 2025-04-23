@@ -47,3 +47,4 @@ Es gibt keinen besseren Weg, um die zur Laufzeit verwendete Stapelgröße zu erh
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="csharp" >}}

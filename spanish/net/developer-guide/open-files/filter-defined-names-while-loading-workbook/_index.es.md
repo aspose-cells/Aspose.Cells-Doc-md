@@ -18,3 +18,4 @@ El siguiente código de muestra carga el [archivo de Excel de muestra](61767860.
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Workbook-FilterDefinedNamesWhileLoadingWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -3,7 +3,7 @@ title: عدد خلايا ورقة العمل
 type: docs
 weight: 110
 url: /ar/python-net/count-number-of-cells-in-the-worksheet/
-description: في هذه المقالة، ستتعلم كيفية حساب عدد الخلايا برمجيًا في ورقة العمل في إكسل باستخدام واجهة برمجة التطبيقات Aspose.Cells للبايثون via .NET.
+description: في هذا المقال، ستتعلم كيفية عد عدد الخلايا في ورقة عمل Excel برمجياً باستخدام واجهة برمجة التطبيقات Aspose.Cells for Python via .NET.
 keywords: إحصاء عدد خلايا ورقة Excel باستخدام C#، خلايا ورقة Excel باستخدام C#
 ---
 

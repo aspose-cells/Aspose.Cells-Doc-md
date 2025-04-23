@@ -84,3 +84,4 @@ Aşağıda çalışma kitaplarının satır ve sütunlarına stil uygulama kod k
 {{< /highlight >}}
 ## **İndir**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/ApplyStylesToRanges.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

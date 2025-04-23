@@ -38,3 +38,4 @@ Nachfolgend einige Möglichkeiten, dies zu erreichen.
 Sie müssen Ihren Computer neu starten, damit die Änderung wirksam wird. Diese Änderung betrifft alle Konten auf dem Computer, nicht nur Ihres.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

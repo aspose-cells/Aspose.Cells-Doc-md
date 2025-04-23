@@ -17,3 +17,4 @@ Aspose.Cells支持加载OpenDocument 1.1和1.2文档。 Aspose.Cells以OpenDocum
 **Aspose.Cells生成的样本ODS文档，并在OpenOffice Writer中打开** 
 
 ![todo:image_alt_text](opendocument-ods_1.png)
+{{< app/cells/assistant language="java" >}}

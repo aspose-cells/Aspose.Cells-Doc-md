@@ -56,11 +56,11 @@ export LIBRARY_PATH="$LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions
 Nach der Installation führen Sie bitte den folgenden Befehl aus
 {{< highlight NET >}}
 brew  install nuget
-nuget install SkiaSharp.NativeAssets.macOS -Version 2.88.3
+nuget install SkiaSharp.NativeAssets.macOS -Version 2.88.6
 {{< /highlight >}}
 Nach der Installation führen Sie bitte den folgenden Befehl aus 
 {{< highlight NET >}}
-cp ./SkiaSharp.NativeAssets.macOS.2.88.3/runtimes/osx/native/libSkiaSharp.dylib /usr/local/lib/.
+cp ./SkiaSharp.NativeAssets.macOS.2.88.6/runtimes/osx/native/libSkiaSharp.dylib /usr/local/lib/.
 {{< /highlight >}}
 
 Natürlich können Sie auch, wenn Sie es einfacher möchten, [libSkiaSharp.dylib](libSkiaSharp.dylib) herunterladen und dann **kopieren** Sie es in das Verzeichnis **/usr/local/lib**.

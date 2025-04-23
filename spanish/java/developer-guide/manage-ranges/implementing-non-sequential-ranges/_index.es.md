@@ -12,3 +12,4 @@ Normalmente, los [rangos nombrados](/cells/es/java/named-ranges/) son rectangula
 El ejemplo de código a continuación muestra cómo crear un rango nombrado no secuencial con Aspose.Cells for Java.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ImplementingNonSequentialRanges-ImplementingNonSequentialRanges.java" >}}
+{{< app/cells/assistant language="java" >}}

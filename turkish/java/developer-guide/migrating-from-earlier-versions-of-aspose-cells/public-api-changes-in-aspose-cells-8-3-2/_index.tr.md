@@ -258,3 +258,4 @@ SaveOptions'un uygun SaveOptions özelliklerini ayarladıktan sonra Workbook.Sav
 Workbook.createStyle yönteminin, StyleCollection.add yöntemiyle Stil oluşturmak yerine ve StyleCollection.get(string) yerine Workbook.getNamedStyle(string) yönteminin adlandırılmış stil almak için kullanılması tavsiye edilir.
 ### **Kaldırılan PivotItem.move(int count) Yöntemi**
 Aspose.Cells 8.3.2'nin piyasaya sürülmesiyle, API, PivotItem.move yönteminde bir PivotItem'ı ebeveyn düğümü içinde taşımak için sağlayan başka bir aşırı yükleme yöntemi tanıttı. 
+{{< app/cells/assistant language="java" >}}

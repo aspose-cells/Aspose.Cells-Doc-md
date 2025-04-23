@@ -169,3 +169,4 @@ The following sample code explains the use of the HTML property of the Smart Mar
 Для примера кода и подробного объяснения, пожалуйста, обратитесь к этой статье.
 
 - [Получение уведомлений во время слияния данных с умными маркерами](/cells/ru/java/getting-notifications-while-merging-data-with-smart-markers/)
+{{< app/cells/assistant language="java" >}}

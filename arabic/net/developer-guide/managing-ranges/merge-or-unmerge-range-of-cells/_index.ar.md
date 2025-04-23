@@ -18,3 +18,4 @@ keywords: دمج وإلغاء دمج الخلايا في مجموعة باستخ
 يقوم الشفرة العينية التالية أولاً بإنشاء مجموعة - A1:D4 - ثم يدمج الخلايا في المجموعة في خلية واحدة باستخدام الأسلوب [**Range.Merge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge). بالمثل، يمكنك تقسيم الخلايا عن طريق إنشاء مجموعة واستدعاء الأسلوب [**Range.UnMerge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/unmerge).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-MergeUnmergeRangeOfCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

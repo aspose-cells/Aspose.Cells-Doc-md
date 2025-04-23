@@ -10,3 +10,4 @@ url: /fr/net/supported-font-formats/
 |**TTF**|Polices TrueType|
 |**TTC**|Collections de polices TrueType|
 |**OTF**|Polices OpenType|
+{{< app/cells/assistant language="csharp" >}}

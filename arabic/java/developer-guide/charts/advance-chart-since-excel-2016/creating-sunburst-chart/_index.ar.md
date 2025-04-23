@@ -19,3 +19,4 @@ url: /ar/java/creating-sunburst-chart/
 الكود المثالي التالي يحمل [ملف Excel العيني](sunburst.xlsx) ويُولّد [ملف Excel الإخراج](out.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "create-sunburst-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

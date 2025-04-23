@@ -13,7 +13,7 @@ keywords: javaでExcel内のデータを検索および置換、javaでExcel内�
 
 {{% /alert %}}
 
-Aspose.Cellsではデータを検索する際に範囲を指定するための [**FindOptions.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange(com.aspose.cells.CellArea)) メソッドを提供します。
+Aspose.Cellsではデータを検索する際に範囲を指定するための [**FindOptions.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange-com.aspose.cells.CellArea-) メソッドを提供します。
 
 例えば、「search」という文字列を検索して「replace」に置換したい場合、「E3:H6」という範囲内でのみ置換したいとします。以下のスクリーンショットでは、「search」という文字列がいくつかのセルで見られますが、指定された範囲内だけに置換したいと思います。
 
@@ -32,3 +32,4 @@ Aspose.Cellsではデータを検索する際に範囲を指定するための 
 ## 関連記事
 
 - [データの検索](/cells/ja/java/find-or-search-data/)
+{{< app/cells/assistant language="java" >}}

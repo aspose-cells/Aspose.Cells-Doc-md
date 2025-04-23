@@ -23,9 +23,10 @@ url: /sv/net/supported-file-formats/
 |[MHTML](https://docs.fileformat.com/web/mhtml/)|MHTML-fil.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)|ODS (OpenDocument Spreadsheet).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |SpreadsheetML|Excel 2003 XML-fil.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Numbers](https://docs.fileformat.com/spreadsheet/numbers/)|Dokumentet skapas av Apples "Numbers"-applikation som ingår i Apples iWork-paket, en uppsättning applikationer som körs på Mac OS X och iOS-operativsystemen.|{{< emoticons/tick >}}||
+|[Numbers](https://docs.fileformat.com/spreadsheet/numbers/)| Dokumentet är skapat av Apples applikation "Numbers" som ingår i Apples iWork-kontorssvit, en samling program som körs på Mac OS X och iOS-operativsystem.
 |[JSON](https://docs.fileformat.com/web/json/)|JavaScript Object Notation|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[DIF](https://docs.fileformat.com/spreadsheet/dif/)|Data Interchange Format.| |{{< emoticons/tick >}}|
+|[DIF](https://docs.fileformat.com/spreadsheet/dif/)| Datautbytesformat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[DBF](https://docs.fileformat.com/database/dbf/)|Fil med tillägget .dbf är en databasfil som används av ett databasförvaltningssystem som heter dBASE.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[PDF](https://docs.fileformat.com/pdf/)|Adobe Portable Document Format.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XML Paper Specification Format.| |{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|Skalbar Vektorgafikformat.| |{{< emoticons/tick >}}|
@@ -45,4 +46,5 @@ url: /sv/net/supported-file-formats/
 |[Epub](https://docs.fileformat.com/ebook/epub/)|Filer med .epub-förlängning är ett e-boksfilformat som tillhandahåller ett standardiserat digitalt publiceringsformat för utgivare och konsumenter.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Xml](https://docs.fileformat.com/web/xml/)|XML står för Extensible Markup Language som liknar HTML men skiljer sig i användningen av taggar för att definiera objekt.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Öppen dokumentmall (OTS) fil.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW är ett digitalt e-boksfilformat utvecklat av Amazon för sina Kindle-enheter. AZW3, även känt som Kindle Format 8 (KF8).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW är ett digitalt ebok-filformat utvecklat av Amazon för deras Kindle-enheter. AZW3, även känt som Kindle Format 8 (KF8).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< app/cells/assistant language="csharp" >}}

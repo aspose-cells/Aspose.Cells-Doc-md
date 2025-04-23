@@ -80,13 +80,13 @@ Bu konunun başında daha önce açıkladığımız gibi, geliştiriciler yerle�
 
 ### **Özel Özellikler Ekleme**
 
-Aspose.Cells API'leri, özel özellikler eklemek için [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean)) metodunu [**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection) sınıfı için açığa çıkarmıştır. [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean)) metodu, özelliği Excel dosyasına ekler ve yeni belge özelliği için [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty) nesnesi olarak bir referans döndürür.
+Aspose.Cells API'leri, özel özellikler eklemek için [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add-java.lang.String-boolean-) metodunu [**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection) sınıfı için açığa çıkarmıştır. [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add-java.lang.String-boolean-) metodu, özelliği Excel dosyasına ekler ve yeni belge özelliği için [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty) nesnesi olarak bir referans döndürür.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AddingCustomProperty.java" >}}
 
 ### **"İçeriğe Bağlantı" Özel Özelliği Yapılandırma**
 
-Belirli bir aralığın içeriğine bağlı özel bir özellik oluşturmak için [**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String)) yöntemini çağırın ve özellik adı ve kaynağı geçirin. Bir özelliğin içeriğe bağlı olarak yapılandırılıp yapılandırılmadığını kontrol edebilirsiniz. Ayrıca, [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty) sınıfının [**Source**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) özelliğini kullanarak kaynağın aralığını da alabilirsiniz.
+Belirli bir aralığın içeriğine bağlı özel bir özellik oluşturmak için [**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent-java.lang.String-java.lang.String-) yöntemini çağırın ve özellik adı ve kaynağı geçirin. Bir özelliğin içeriğe bağlı olarak yapılandırılıp yapılandırılmadığını kontrol edebilirsiniz. Ayrıca, [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty) sınıfının [**Source**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) özelliğini kullanarak kaynağın aralığını da alabilirsiniz.
 
 Örneğin basit bir şablon Microsoft Excel dosyası kullanıyoruz. Çalışma kitabında, **MyRange** olarak etiketlenmiş tanımlanan bir adlandırılmış aralık, bir hücre değerine atıfta bulunur.
 
@@ -94,6 +94,7 @@ Belirli bir aralığın içeriğine bağlı özel bir özellik oluşturmak için
 
 ### **Özel Özellikleri Kaldırma**
 
-Aspose.Cells kullanarak özel özellikleri kaldırmak için [**DocumentPropertyCollection.remove**](https://reference.aspose.com/cells/java/com.aspose.cells/documentpropertycollection#remove(java.lang.String)) yöntemini çağırın ve kaldırılacak belge özelliğinin adını geçirin.
+Aspose.Cells kullanarak özel özellikleri kaldırmak için [**DocumentPropertyCollection.remove**](https://reference.aspose.com/cells/java/com.aspose.cells/documentpropertycollection#remove-java.lang.String-) yöntemini çağırın ve kaldırılacak belge özelliğinin adını geçirin.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-RemovingCustomProperty.java" >}}
+{{< app/cells/assistant language="java" >}}

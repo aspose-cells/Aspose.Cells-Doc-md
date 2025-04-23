@@ -20,3 +20,4 @@ url: /zh/net/public-api-changes-in-aspose-cells-8-1-2/
 {{% /alert %}}
 ## **删除了过时的PdfSaveOptions.ChartImageType属性**
 Aspose.Cells for .NET 8.1.2已从公共API中移除了过时的PdfSaveOptions.ChartImageType属性。
+{{< app/cells/assistant language="csharp" >}}

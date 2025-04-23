@@ -14,3 +14,4 @@ url: /ja/net/copy-row-heights-of-source-range-to-destination-range/
 次のサンプルコードは、[**PasteType.RowHeights**](https://reference.aspose.com/cells/net/aspose.cells/pastetype) 列挙型を使用して、ソース範囲の行の高さを宛先範囲にコピーする方法を説明しています。このコードで生成された出力エクセルファイルをMicrosoft Excelで開くと、宛先範囲の行の高さがソース範囲の行の高さとまったく同じであることがわかります。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-GetRowHeights-GetRowHeightsOfSourceRangeToDestinationRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

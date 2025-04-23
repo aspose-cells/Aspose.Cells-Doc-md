@@ -81,3 +81,4 @@ Aspose.Cellsを使用すると、[**MsoDrawingType**](https://reference.aspose.c
 
 ## **高度なトピック**
 - [ワードアートウォーターマークをグラフに追加する](/cells/ja/net/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="csharp" >}}

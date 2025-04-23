@@ -11,11 +11,11 @@ Le parti XML personalizzate sono i dati XML memorizzati da diverse applicazioni 
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_1.png)
 
-Puoi aggiungere parti XML personalizzate utilizzando Aspose.Cells tramite il metodo [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)).
+È possibile aggiungere parti XML personalizzate usando Aspose.Cells tramite il metodo [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-)
 
 {{% /alert %}} 
 ## **Utilizzo di parti XML personalizzate in Aspose.Cells**
-Il seguente codice di esempio fa uso del metodo [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)) e aggiunge il **Catalogo di libri Xml** e il suo nome è **BookStore**. La seguente immagine mostra il risultato di questo codice. Come puoi vedere, il Catalogo di libri Xml è aggiunto all'interno del nodo BookStore, che è il nome di questa proprietà.
+Il seguente esempio di codice utilizza il metodo [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-) e aggiunge il **Book Catalog Xml** con il nome **BookStore**. L’immagine seguente mostra il risultato di questo codice. Come si può vedere, il Book Catalog Xml viene aggiunto all’interno del nodo BookStore, che è il nome di questa proprietà.
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_2.png)
 
@@ -26,3 +26,4 @@ Il seguente codice di esempio fa uso del metodo [Workbook.getContentTypeProperti
 - [Aggiunta di proprietà personalizzate visibili all'interno del pannello delle informazioni del documento](/cells/it/java/adding-custom-properties-visible-inside-document-information-panel/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

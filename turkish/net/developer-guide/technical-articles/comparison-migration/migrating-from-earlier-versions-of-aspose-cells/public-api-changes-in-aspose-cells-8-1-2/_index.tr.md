@@ -20,3 +20,4 @@ Lütfen [Elektronik Tabloları Dönüştürürken Yazı Tipi Yedekleme İçin Uy
 {{% /alert %}}
 ## **Artık Kullanılmayan PdfSaveOptions.ChartImageType Özelliği Silindi**
 Aspose.Cells for .NET 8.1.2, genel API'den eskimiş PdfSaveOptions.ChartImageType özelliğini kaldırmıştır.
+{{< app/cells/assistant language="csharp" >}}

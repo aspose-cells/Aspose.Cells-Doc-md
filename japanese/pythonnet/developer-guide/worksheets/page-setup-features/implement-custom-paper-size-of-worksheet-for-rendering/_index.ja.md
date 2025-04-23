@@ -3,17 +3,17 @@ title: レンダリング用のワークシートのカスタム用紙サイズ�
 type: docs
 weight: 70
 url: /ja/python-net/implement-custom-paper-size-of-worksheet-for-rendering/
-description: この記事では、Aspose.Cells for Python via .NETのサンプルコードを使用して、ExcelファイルをPDFファイル形式にプログラムでレンダリングする際に、希望のワークシートのカスタム用紙サイズを設定する方法について説明します。
-keywords: Pythonエクセルライブラリ、PythonはExcelをPDFにレンダリングする際にカスタム用紙サイズを設定し、Pythonでワークシートのカスタム用紙サイズを実装します。
+description: この記事では、Aspose.Cells for Python via .NETのサンプルコードを使用して、ExcelファイルをPDFにレンダリングする際に、望むワークシートのカスタム用紙サイズをプログラム的に設定する方法を解説します。
+keywords: Python Excelライブラリを使い、PythonでExcelをPDFにレンダリングする際にカスタム用紙サイズを設定し、ワークシートのカスタム用紙サイズを実装します。
 ---
 
 ## **可能な使用シナリオ**
 
-MS Excelではカスタム用紙サイズを直接作成するオプションはありませんが、希望のワークシートのカスタム用紙サイズを設定して、ExcelファイルをPDFファイル形式にレンダリングすることができます。この文書では、Aspose.Cells for Python via .NET APIを使用して、ワークシートのカスタム用紙サイズを設定する方法について説明しています。
+MS Excelではカスタム用紙サイズを直接作成するオプションはありませんが、ExcelファイルをPDFにレンダリングする時に希望するワークシートのカスタム用紙サイズを設定できます。このドキュメントは、Aspose.Cells for Python via .NET APIを使用してワークシートのカスタム用紙サイズを設定する方法を説明します。
 
 ## **レンダリングのためのワークシートのカスタム用紙サイズを実装する**
 
-Aspose.Cells for Python via .NETを使用すると、ワークシートの希望の用紙サイズを実装できます。ワークブックの最初のワークシートにカスタム用紙サイズを指定するには、[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)クラスの[**custom_paper_size**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/custom_paper_size/#float-float)メソッドを使用できます。次のサンプルコードは、ワークブックの最初のワークシートのカスタム用紙サイズを指定する方法を示しています。このコードを使用して生成された[出力PDF](45056028.pdf)も参照してください。
+Aspose.Cells for Python via .NETを使用して、ワークシートの希望の用紙サイズを実装できます。[**custom_paper_size**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/custom_paper_size/#float-float)メソッドを [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)クラスで用いて、カスタムページサイズを指定することが可能です。以下のサンプルコードは、ブックの最初のワークシートのためにカスタム用紙サイズを指定する方法を示しています。以下のコードで生成される[出力PDF](45056028.pdf)も参照してください。
 
 ## **スクリーンショット**
 

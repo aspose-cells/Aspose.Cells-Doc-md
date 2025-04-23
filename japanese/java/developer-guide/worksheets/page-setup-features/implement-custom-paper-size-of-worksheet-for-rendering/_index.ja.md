@@ -11,7 +11,7 @@ MS Excelにはカスタム用紙サイズを作成する直接的なオプショ
 
 ## **レンダリングのためのワークシートのカスタム用紙サイズを実装する**
 
-Aspose.Cellsを使用すると、ワークシートの希望する用紙サイズを [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) の [**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize(double,%20double)) メソッドを使用して指定できます。次のサンプルコードは、ワークブック内の最初のワークシートのカスタム用紙サイズを指定する方法を説明しています。参照のために、以下のコードによって生成された [出力PDF](45056030.pdf) もご覧ください。
+Aspose.Cellsを使用すると、ワークシートの希望する用紙サイズを [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) の [**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize-double-double-) メソッドを使用して指定できます。次のサンプルコードは、ワークブック内の最初のワークシートのカスタム用紙サイズを指定する方法を説明しています。参照のために、以下のコードによって生成された [出力PDF](45056030.pdf) もご覧ください。
 
 ## **スクリーンショット**
 
@@ -20,3 +20,4 @@ Aspose.Cellsを使用すると、ワークシートの希望する用紙サイ�
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-PageSetupFeatures-ImplementCustomPaperSizeOfWorksheetForRendering.java" >}}
+{{< app/cells/assistant language="java" >}}

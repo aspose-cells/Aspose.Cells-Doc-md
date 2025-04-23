@@ -28,3 +28,4 @@ keywords: استيراد json بدون مكتب 2013، مكتب 2016، مكتب 
 يُظهر المثال التالي كيفية استيراد سلسلة JSON إلى كتاب Excel. يمكنك أيضًا تحديد موقع التخطيط عند استيراد JSON. يُرجى الاطلاع على الكود لتحويل سلسلة JSON إلى ملف xlsx تم إنشاؤه بواسطة الكود للإشارة.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Convert-JSON-String-to-Excel.java" >}}
+{{< app/cells/assistant language="java" >}}

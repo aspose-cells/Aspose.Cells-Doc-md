@@ -52,3 +52,5 @@ L'exemple de code ci-dessous montre comment enregistrer un classeur sous forme d
 - [Définir la police par défaut lors du rendu de la feuille de calcul en HTML](/cells/fr/net/set-default-font-while-rendering-spreadsheet-to/)
 - [Spécifier comment croiser la chaîne dans le HTML de sortie en utilisant HtmlCrossType](/cells/fr/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
 - [Prise en charge de la mise en page des balises DIV lors du chargement d'HTML dans le classeur Excel](/cells/fr/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
+{{< app/cells/assistant language="csharp" >}}
+- [Activer les propriétés personnalisées CSS lors de l'enregistrement en HTML](/cells/fr/net/enable-css-custom-properties-while-saving-to-html/)

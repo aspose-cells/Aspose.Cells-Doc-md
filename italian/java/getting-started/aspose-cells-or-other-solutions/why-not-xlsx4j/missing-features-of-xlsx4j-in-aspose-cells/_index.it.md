@@ -37,3 +37,4 @@ Questo include le seguenti abbondanti funzionalità di Aspose.Cells rispetto a x
   - [Imposta il colore della scheda del foglio di lavoro in xlsx4j](/cells/it/java/set-worksheet-tab-color-in-xlsx4j/)
 
 **Nota:** Molti altri esempi saranno presto disponibili.
+{{< app/cells/assistant language="java" >}}

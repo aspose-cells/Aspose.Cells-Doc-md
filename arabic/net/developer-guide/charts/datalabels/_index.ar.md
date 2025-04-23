@@ -35,3 +35,4 @@ url: /ar/net/insert-datalabels-to-chart/
 - [تسمية بيانات مخصصة نصية غنية الرسم البياني](/cells/ar/net/rich-text-custom-data-label-of-chart-point/)
 - [تعيين نوع الشكل لتسميات بيانات الرسم البياني](/cells/ar/net/set-the-shape-type-of-data-labels-of-chart/)
 - [عرض نطاق الخلايا كعلامات البيانات](/cells/ar/net/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="csharp" >}}

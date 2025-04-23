@@ -11,11 +11,12 @@ Il est possible de supprimer toutes les lignes et colonnes vides d'une feuille d
 
 Utilisez les méthodes Aspose.Cells suivantes pour supprimer les lignes et colonnes vides :
 
-1. Pour supprimer les lignes vides, utilisez la méthode [Cells.deleteBlankRows()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankRows\(\)).
-1. Pour supprimer les colonnes vides, utilisez la méthode [Cells.deleteBlankColumns()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankColumns\(\)).
+1. Pour supprimer les lignes vides, utilisez la méthode [Cells.deleteBlankRows()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankRows--) .
+1. Pour supprimer les colonnes vides, utilisez la méthode [Cells.deleteBlankColumns()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankColumns--) .
 
 {{% /alert %}} 
 ## **Suppression des lignes vides**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DeletingBlankRows-DeletingBlankRows.java" >}}
 ## **Suppression des colonnes vides**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DeletingBlankColumns-DeletingBlankColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

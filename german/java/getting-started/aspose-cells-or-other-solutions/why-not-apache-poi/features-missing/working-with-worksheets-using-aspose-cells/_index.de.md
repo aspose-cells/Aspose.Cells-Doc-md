@@ -15,3 +15,4 @@ url: /de/java/working-with-worksheets-using-aspose-cells/
 - [CSV-Datei mit mehreren Codierungen lesen](/cells/de/java/read-csv-file-with-multiple-encodings/)
 - [Jedes Arbeitsblatt als separates PDF speichern mit Aspose.Cells](/cells/de/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
 - [Arbeitsblatt-Registerfarbe in Aspose.Cells festlegen](/cells/de/java/set-worksheet-tab-color-in-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

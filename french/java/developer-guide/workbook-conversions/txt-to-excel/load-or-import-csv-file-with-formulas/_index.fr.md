@@ -24,3 +24,4 @@ Le code charge d'abord le fichier CSV, puis l'importe à nouveau dans la cellule
 ![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LoadOrImportCSVFile-LoadOrImportCSVFile.java" >}}
+{{< app/cells/assistant language="java" >}}

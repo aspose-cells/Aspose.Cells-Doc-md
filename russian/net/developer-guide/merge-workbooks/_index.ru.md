@@ -56,3 +56,4 @@ url: /ru/net/combine-multiple-workbooks-into-a-single-workbook/
 ## **Продвинутые темы**
 - [Объединение нескольких листов в один](/cells/ru/net/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Объединение файлов](/cells/ru/net/merge-files/)
+{{< app/cells/assistant language="csharp" >}}

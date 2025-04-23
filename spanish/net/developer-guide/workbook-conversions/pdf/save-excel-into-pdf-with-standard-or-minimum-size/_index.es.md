@@ -19,3 +19,4 @@ El siguiente código de ejemplo muestra cómo puede guardar Excel en PDF con tam
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-SaveExcelIntoPdfWithOptimizedSize-SaveExcelIntoPdfWithOptimizedSize.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

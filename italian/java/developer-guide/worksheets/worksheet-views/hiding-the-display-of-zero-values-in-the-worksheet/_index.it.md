@@ -24,3 +24,4 @@ Per nascondere i valori zero in un foglio di lavoro in Microsoft Excel (ad esemp
 Si prega di vedere il seguente codice di esempio che dimostra come nascondere gli zeri utilizzando Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-HidingDisplayOfZeroValues-HidingDisplayOfZeroValues.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -16,3 +16,4 @@ Följande exempelkod förklarar att strängarna som exempelvis sample och 'sampl
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Technical-Articles-DetectCellValueStartsWithSingleQuote.java" >}}
+{{< app/cells/assistant language="java" >}}

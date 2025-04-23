@@ -22,3 +22,4 @@ Aspose.Cellsは、外部接続の取得のためのWorkbook.DataConnectionsプ�
 ExternalConnectionオブジェクトにSQL接続データが含まれている場合、それをDBConnectionオブジェクトに型変換し、データベースコマンド、コマンドの種類、接続の説明、接続情報、資格情報などを取得できます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-RetrievingSQLConnectionData-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

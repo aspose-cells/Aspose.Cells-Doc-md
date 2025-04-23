@@ -41,3 +41,4 @@ El siguiente ejemplo crea un nuevo libro de trabajo desde cero, escribe las pala
 El siguiente ejemplo abre un archivo de plantilla de Microsoft Excel existente llamado **book1.xls**, escribe las palabras "¡Hola, mundo!" en la celda A1 en la primera hoja de trabajo, y guarda el libro de trabajo como un nuevo archivo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-introduction-OpeningExistingFile-1.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -275,3 +275,4 @@ renderer.toImage(0, "output.svg");
 ## **API deprecate**
 ### **Metodo Workbook.validateFormula obsolete**
 Utilizzare la proprietà Cell.Formula per convalidare la formula.
+{{< app/cells/assistant language="java" >}}

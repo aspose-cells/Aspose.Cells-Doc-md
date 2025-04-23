@@ -58,3 +58,4 @@ Aspose.CellsはExcelファイルを表す[**Workbook**](https://reference.aspose
 ### **タブバーの幅を制御する**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-ControlTabBarWidth-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -16,3 +16,4 @@ Por favor mira el código de muestra abajo que demuestra cómo renderizar un arc
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsePresentationPreferenceOption-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

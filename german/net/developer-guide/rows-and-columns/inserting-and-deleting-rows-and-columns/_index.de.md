@@ -76,3 +76,4 @@ Um mehrere Zeilen aus einem Arbeitsblatt zu löschen, rufen Sie die Methode [**
 Um eine Spalte aus dem Arbeitsblatt an beliebiger Stelle zu löschen, rufen Sie die Methode [**DeleteColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) der Sammlung [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) auf. Die Methode [**DeleteColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) erfordert den Index der zu löschenden Spalte.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-DeletingAColumn-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

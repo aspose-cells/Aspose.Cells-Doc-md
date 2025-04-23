@@ -217,3 +217,4 @@ Redigeraren kommer att rensa den valda cellen.
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

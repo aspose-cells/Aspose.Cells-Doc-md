@@ -49,3 +49,4 @@ System.out.println("Name of the cell containing String: " + cell.getName());
 Für weitere Details, besuchen Sie [Daten suchen](/cells/de/java/find-or-search-data).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

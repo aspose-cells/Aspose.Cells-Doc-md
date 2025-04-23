@@ -33,7 +33,7 @@ Följande steg beskriver hur man sammanfogar celler i arbetsbladet med Microsoft
 
 ### **Använda Aspose.Cells**
 
-[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-klassen har några användbara metoder för uppgiften. Till exempel sammanslår metoden [**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) cellerna till en enda cell inom en angiven cellintervall.
+[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-klassen har några användbara metoder för uppgiften. Till exempel sammanslår metoden [**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge-int-int-int-int-) cellerna till en enda cell inom en angiven cellintervall.
 
 Följande utdata genereras efter att koden nedan har körts.
 
@@ -59,7 +59,7 @@ Följande steg beskriver hur man delar sammanslagna celler med hjälp av Microso
 
 #### **Använda Aspose.Cells**
 
-Klassen [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) har en metod som heter [**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge(int,%20int,%20int,%20int)) som delar celler till deras ursprungliga tillstånd. Metoden slår samman cellerna med hjälp av cellens referens i den sammanslagna cellintervallen.
+Klassen [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) har en metod som heter [**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge-int-int-int-int-) som delar celler till deras ursprungliga tillstånd. Metoden slår samman cellerna med hjälp av cellens referens i den sammanslagna cellintervallen.
 
 #### **Kodexempel**
 
@@ -72,3 +72,4 @@ Följande exempel visar hur man delar de sammanslagna cellerna (C6). Exemplet an
 - [Hitta och dela sammanslagna celler](/cells/sv/java/hitta-sammanslagna-celler-i-en-arbetsbok/).
 - [Slå samman och dela en cellintervall med Range.merge() och Range.unMerge()-metoderna](/cells/sv/java/sla-samman-eller-dela-intervall-av-celler/).
 
+{{< app/cells/assistant language="java" >}}

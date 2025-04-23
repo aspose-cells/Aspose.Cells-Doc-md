@@ -139,3 +139,4 @@ workbook.Unprotect("007");
 
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

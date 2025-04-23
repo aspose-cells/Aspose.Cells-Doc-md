@@ -52,3 +52,4 @@ Si prega di vedere il seguente codice di esempio che carica il [file Excel di es
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Filter-non-blanks.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

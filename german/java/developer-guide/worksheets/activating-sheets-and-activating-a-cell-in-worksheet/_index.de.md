@@ -35,3 +35,4 @@ Das folgende Beispiel zeigt, wie ein Arbeitsblatt aktiviert und eine aktive Zell
 Im **Evaluierungs**-Modus, das heißt, ohne eine gültige Lizenz festzulegen, ist das aktive Arbeitsblatt immer dasjenige mit dem Evaluierungswasserzeichen. Dieses Verhalten kann nur durch Festlegen der Lizenz zu Beginn der Anwendung außer Kraft gesetzt werden.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

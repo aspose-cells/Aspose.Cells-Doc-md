@@ -26,3 +26,4 @@ url: /ar/net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
 إذا كانت جداول البيانات الخاصة بك تحتوي على صيغ، من الأفضل استدعاء [Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) قبل تقديم جدول البيانات إلى PDF. هذا يضمن إعادة حساب قيم الصيغ وتقديم القيم الصحيحة في ملف PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

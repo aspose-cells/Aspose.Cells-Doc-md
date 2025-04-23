@@ -111,3 +111,4 @@ Aspose.Cells提供了一个类，[**Workbook**](https://reference.aspose.com/cel
 - [数字设置](/cells/zh/net/cells-number-settings/)
 - [获取和设置单元格的样式](/cells/zh/net/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/)
 
+{{< app/cells/assistant language="csharp" >}}

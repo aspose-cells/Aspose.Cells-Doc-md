@@ -16,3 +16,4 @@ Il seguente esempio di codice mostra come combinare più fogli di lavoro in un u
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CombineMultipleWorksheetsSingleWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -75,3 +75,4 @@ sorter.sort(cells, ca);
 要了解更多详情，请访问[数据排序](/java/sort-data)，或[数据排序](/cells/zh/java/data-sorting)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

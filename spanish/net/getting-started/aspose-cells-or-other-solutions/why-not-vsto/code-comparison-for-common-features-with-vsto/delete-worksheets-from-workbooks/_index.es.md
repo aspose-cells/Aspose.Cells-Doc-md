@@ -26,3 +26,4 @@ Puedes eliminar cualquier hoja de cálculo en un libro. Para eliminar una hoja d
 {{< /highlight >}}
 ## **Descargar**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DeleteWorksheetsFromWorkbooks.zip)
+{{< app/cells/assistant language="csharp" >}}

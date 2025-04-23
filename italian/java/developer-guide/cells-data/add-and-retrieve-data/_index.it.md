@@ -40,15 +40,16 @@ Inoltre, il tipo di dati contenuti in una cella può essere controllato utilizza
 
 |**Tipi di Valore della Cella**|**Descrizione**|
 | :- | :- |
-|[IS_BOOL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_BOOL)| Specifica che il valore della cella è booleano.
-|[IS_DATE_TIME](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_DATE_TIME)| Specifica che il valore della cella è data/ora.
-|[IS_ERROR](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_ERROR)| Rappresenta che la cella contiene un valore di errore.
-|[IS_NULL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_NULL)| Rappresenta una cella vuota.
-|[IS_NUMERIC](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_NUMERIC)| Specifica che il valore della cella è numerico.
-|[IS_STRING](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_STRING)| Specifica che il valore della cella è una stringa.
-|[IS_UNKNOWN](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_UNKNOWN)| Specifica che il valore della cella è sconosciuto.
+|[IS_BOOL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-BOOL)|Specifica che il valore della cella è booleano.|
+|[IS_DATE_TIME](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-DATE-TIME)|Specifica che il valore della cella è data/ora.|
+|[IS_ERROR](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-ERROR)|Rappresenta che la cella contiene un valore di errore|
+|[IS_NULL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-NULL)|Rappresenta una cella vuota.|
+|[IS_NUMERIC](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-NUMERIC)|Specifica che il valore della cella è numerico.|
+|[IS_STRING](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-STRING)|Specifica che il valore della cella è una stringa.|
+|[IS_UNKNOWN](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-UNKNOWN)|Specifica che il valore della cella è sconosciuto.|
 È inoltre possibile utilizzare i tipi di valore predefiniti della cella sopra elencati per confrontare il tipo di dati presente in ciascuna cella.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-RetrievingDataFromCells-RetrievingDataFromCells.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -133,3 +133,4 @@ RowCollection不再继承CollectionBase，因为其内部列表中不再有Row�
 使用Aspose.Cells for Java，getFilterColumnCollection方法已被标记为过时。建议改用AuotFilter.getFilterColumns方法。
 ## **用SeriesCollection.SecondCategoryData替换了SeriesCollection.SecondCatergoryData**
 我们基本上纠正了方法名SeriesCollection.getSecondCatergoryData的拼写错误。您可以从现在开始使用SeriesCollection.getSecondCategoryData方法，而原方法SeriesCollection.getSecondCatergoryData已被标记为过时。
+{{< app/cells/assistant language="java" >}}

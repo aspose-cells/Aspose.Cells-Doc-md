@@ -24,3 +24,4 @@ url: /ar/net/copy-range-data-with-style/
 1. ينسخ البيانات مع التنسيق من النطاق الأول إلى النطاق الثاني.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeDataWithStyle-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

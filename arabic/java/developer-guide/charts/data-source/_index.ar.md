@@ -21,7 +21,7 @@ url: /ar/java/data-formatting-in-charts/
 
 ### **بيانات الرسم البياني**
 
-بيانات الرسم البياني هي البيانات التي نستخدمها كمصدر بيانات لإنشاء الرسوم البيانية. يمكننا إضافة نطاق الخلايا (التي تحتوي على بيانات الرسم البياني) عن طريق استدعاء [**Add**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add(java.lang.Object)) طريقة [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection).
+بيانات الرسم البياني هي البيانات التي نستخدمها كمصدر بيانات لإنشاء الرسوم البيانية. يمكننا إضافة نطاق الخلايا (التي تحتوي على بيانات الرسم البياني) عن طريق استدعاء [**Add**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add-java.lang.Object-) طريقة [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsData-SettingChartsData.java" >}}
 
@@ -40,3 +40,4 @@ url: /ar/java/data-formatting-in-charts/
 - [طريقة سهلة لإعداد الرسوم البيانية باستخدام طريقة Chart.setChartDataRange](/cells/ar/java/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [البحث عن نوع قيم X وY لنقاط في سلسلة الرسم البياني](/cells/ar/java/find-type-of-x-and-y-values-of-points-in-chart-series/)
 - [تعيين رمز تنسيق القيم لسلاسل الرسم البياني](/cells/ar/java/set-the-values-format-code-of-chart-series/)
+{{< app/cells/assistant language="java" >}}

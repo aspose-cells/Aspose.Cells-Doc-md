@@ -18,3 +18,4 @@ Se si desidera evitare che il testo venga tagliato nel file PDF salvato, è poss
 Ora, il testo non è tagliato nel file PDF di output.
 
 ![il testo non è tagliato nel pdf salvato](text_not_clipped_in_saved_pdf.png)
+{{< app/cells/assistant language="csharp" >}}

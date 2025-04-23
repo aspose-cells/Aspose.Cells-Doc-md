@@ -13,3 +13,4 @@ url: /zh/java/data-handling-features-using-aspose-cells/
 - [Aspose.Cells的公式计算引擎](/cells/zh/java/formula-calculation-engine-in-aspose-cells/)
 - [使用Aspose.Cells跟踪前导和从属](/cells/zh/java/tracing-precedents-and-dependents-using-aspose-cells/)
 - [对电子表格中的数据进行排序](/cells/zh/java/sort-data-in-spreadsheets/)
+{{< app/cells/assistant language="java" >}}

@@ -24,3 +24,4 @@ El siguiente ejemplo de código demuestra la exportación de una hoja de cálcul
 - [Convertir-Excel-a-JSON](/cells/es/net/convert-excel-to-json/)
 - [Convertir JSON a CSV](/cells/es/net/convert-json-to-csv/)
 - [Convertir-JSON-a-Excel](/cells/es/net/convert-json-to-excel/)
+{{< app/cells/assistant language="csharp" >}}

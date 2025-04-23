@@ -135,3 +135,4 @@ Varje Worksheet-objekt innehåller en SparklineGroupCollection-objekt som repres
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_15.png)|
 Ett SparklineGroup-objekt representerar en sparkline-grupp i kalkylarket. Utvecklare kan ställa in stilen för sparkline-gruppen och andra relaterade egenskaper med hjälp av SparklineGroup-objekt.
+{{< app/cells/assistant language="java" >}}

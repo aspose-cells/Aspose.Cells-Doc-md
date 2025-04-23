@@ -17,7 +17,7 @@ Aspose.Cells için Python via NET, HTML bağlantı hedef türünü değiştirmen
 
 {{< /highlight >}}
 
-Yukarıdaki HTML bağlantısında hedef özniteliği **_self** olarak gösterilir. Bu hedef özniteliğini [**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/) özelliğini kullanarak kontrol edebilirsiniz. Bu özellik, aşağıdakileri içeren [**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype) enumunu alır.
+Yukarıdaki HTML bağlantısında hedef özniteliği **_self** olarak gösterilir. Bu hedef özniteliğini [**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/) özelliğini kullanarak kontrol edebilirsiniz. Bu özellik, aşağıdakileri içeren [**HtmlLinkTargetType**](https://reference.aspose.com/cells/python-net/aspose.cells/htmllinktargettype) enumunu alır.
 
 - HtmlLinkTargetType.BLANK
 - HtmlLinkTargetType.PARENT

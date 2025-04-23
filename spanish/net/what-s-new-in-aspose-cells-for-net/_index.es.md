@@ -8,19 +8,124 @@ url: /es/net/what-s-new-in-aspose-cells-for-net/
 
 Esta página describe las nuevas características más interesantes de Aspose.Cells introducidas en versiones recientes.
 
+## Aspose.Cells for .NET 25.4
+* Soporta especificar el conjunto de hojas a exportar a HTML
+* Soporta obtener y establecer el color de las líneas de cuadrícula de una hoja de trabajo
+* Soporta exportar gráficos editables a archivos DOCX
+* Soporta leer y escribir etiquetas de sensibilidad
+* Soporta exportar más atributos de estilo a Numbers
+* Soporta importar archivos plantilla en formato Markdown
+* Soporta detectar si alguna función personalizada es usada en fórmulas en `Cell` y `Workbook`
+
+## Aspose.Cells for .NET 25.3
+* Soporte para obtener el estilo de visualización de una celda desde las celdas sin obtener el objeto de celda
+* Soporte para obtener el contenido binario de las fuentes utilizadas en el libro de trabajo
+* Soporte para convertir excel a estructura JSON de libro de trabajo
+* Soporte para exportar (valor de celda, formato, fórmula y comentario) a archivo Numbers
+* Soporte para colocar estilos/formato en línea dentro de elementos HTML al guardar HTML
+* Soporte para resaltar la pestaña de la hoja seleccionada en el HTML generado
+* Soporte para más atajos de teclado para GridJs
+* Soporte para pegar contenido copiado desde Excel en múltiples áreas destino para GridJs
+
+## Aspose.Cells for .NET 25.2
+* Proporciona APIs asíncronas para operaciones de carga, guardado y cálculo de fórmulas que consumen tiempo
+* Soporta establecer texto enriquecido en la celda al guardar con LightCells
+* Soporta leer archivos en formato dif
+* Soporta leer y escribir archivos en formato dbf (dBase)
+* Soporte para imagen incrustada compatible con WPS
+* Soporte para establecer áreas de solo lectura en GridJs
+* Soporte para copiar configuración de formato de números desde MS Excel a GridJS
+* Mejoras en operaciones automáticas en GridJS para mayor comodidad del usuario, como extender filas/columnas en blanco, desplazamiento de página, ...
+
+## Aspose.Cells for .NET 25.1
+* Soporte para NET9
+* Soporte para omitir cálculos en motor personalizado del usuario para fórmulas de matrices dinámicas que usan funciones personalizadas
+* Soporte para obtener expresión de referencia de tabla externa en motor personalizado del usuario
+* Soporte para guardar formas automáticas y formas libres en archivo ods
+* Soporte para leer y escribir configuración de formularios en la tabla
+* Soporte para formato 2 en la subtabla en la tabla cmap de la fuente
+* Simplificación de importación de lista de datos de filas en celdas
+* Actualización de dependencia para eliminar vulnerabilidades
+* Soporte para más eventos de inserción/eliminación/actualización de celdas en GridJs
+* Soporte para separador decimal localizado en GridJs
+* Soporte para búsqueda en lista de filtros en GridJs
+* Soporte para múltiples instancias en una página para GridJs
+
+## Aspose.Cells for .NET 24.12
+* Soporte para notificación de cambios en fórmulas al insertar/eliminar rango de celdas
+* Soporte para funciones lambda de BYROW y BYCOL
+* Soporte para renderizar LinearGradientBrush, PathGradientBrush, HatchBrush y TextureBrush a pcl
+* Soporte para colocar estilos/formato en línea en lugar de css al guardar HTML
+* Soporte para agregar color de fuente y color de celda como clave de ordenamiento de datos
+* Soporte para actualizar el orden y agregar grupo a PowerQueryFormulas
+* Mejoras en filtros de PivotField como múltiples filtros, filtrar día completo
+* Soporte para actualizar referencia de fórmula después de insertar/eliminar fila o columna en GridJs
+* Soporte para monitor de actualización en GridJs
+* Soporte para alineación centrada en columnas para GridJs
+
+## Aspose.Cells for .NET 24.11
+* Soporte para conversión de xlsx a pcl
+* Soporte para obtener la fuente de la fuente externa para Tabla dinámica
+* Soporte para obtener relaciones de tablas en la hoja de Excel
+* Soporte para obtener cadenas formateadas de celdas en múltiples hilos
+* Soporte para "PlaceInCell" en la imagen para modo MemoryPreference y cálculo de fórmulas
+* Soporte para importar/exportar valores enriquecidos como errores, entidades
+* Soporte para agregar SignatureLine igual que en Excel
+* Mejora para SVG generado para que funcione de la misma manera en diferentes marcos
+* Mejora para agregar formas libres
+* Soporte para establecer el tipo de formato numérico para diferentes tipos de datos como fecha, hora, moneda... para GridJs
+* Soporte para renderizar bordes en estilos de fila/columna en GridJs
+* Mejora para renderizado y edición de GridJs
+
+## Aspose.Cells for .NET 24.10
+* Soporte para obtener la fuente de la tabla dinámica de la conexión externa correspondiente
+* Soporte para crear tablas dinámicas compactas
+* Mejorar la conversión de área de pivote a rango
+* Soporte para leer archivos CHM
+* Soporte para ignorar celdas/filas desordenadas en lugar de lanzar excepciones al importar archivos plantilla OOXML
+* Soporte para más opciones para eliminar filas/columnas en blanco
+* Soporte para obtener o actualizar información del servidor para GridWeb para .Net6
+* Soporte para establecer diferentes tipos de formato numérico en GridJs
+* Soporte para carga diferida en GridJs
+* Mejorar la división de texto para valores de celdas con texto enriquecido en GridJs
+
+## Aspose.Cells for .NET 24.9
+* Soporte para crear casillas de verificación en celdas y renderizar casillas en PDF
+* Soporte para exportar contenido de ecuaciones a MathML y LaTeX
+* Soporte para exportar la dirección de la celda al guardar en HTML
+* Soporte para analizar bolsas de propiedades de archivos xlsx
+* Optimización para liberar recursos de imagen al guardar en PDF
+* Soporte para obtener fórmulas de elementos/campos calculados en pivote
+* Mejora en el rendimiento del cálculo de campos de pivote agrupados
+* Soporte para detectar formato OLE (Object Linking and Embedding)
+* Mejora de fórmulas en GridJs: mostrar fórmulas y explicación de fórmulas, usar fórmulas como parámetros para la verificación de configuración
+* Soporte para verificación de sintaxis y corrección ortográfica para la entrada del usuario en GridJs
+* Soporte para mostrar control de tiempo en dispositivos móviles cuando el formato de la celda es hora en GridJs
+* Mejorar el efecto de la validación de edición y las alertas de fallo de GridJs para dispositivos móviles
+
+## Aspose.Cells for .NET 24.8
+* Soporte para nuevas funciones: VALUETOTEXT, ARRAYTOTEXT
+* Soporte para GridWeb para .NET6.0 en Linux
+* Soporte para ordenar tabla dinámica por elemento de campo dinámico
+* Soporte para visitar todas las celdas que contienen imágenes "Place in Cell"
+* Soporte para mantener propiedades del documento sin cifrado al cifrar el archivo
+* Soporte para editar fórmulas con espacios en blanco en GridWeb
+* Soporte de configuración para mostrar u ocultar formas invisibles en GridJs
+* Mejorar funciones de GridJs como configuraciones, edición de fórmulas, verificación de entrada
+
 ## Aspose.Cells for .NET 24.7
-* Soporte para la función DROP en fórmulas
-* Mejorar el rendimiento de los cálculos de LET y MAKEARRAY con parámetros complejos
-* Soporte para el contorno de los caracteres de estrella en el gráfico
-* Soporte para hacer un objeto como decorativo
-* Soportar el intercambio de series
-* Mejorar la visualización del gráfico de TreeMap
-* Soporte para convertir la imagen de la celda "superpuesta" a "en celda"
-* Soporte para cargar fuente local de Office en la nube de forma predeterminada
-* Soporte para mantener el esquema JSON al importar datos JSON
-* Soporte para exportar a formato de archivo AZW3
-* Soporte para ajustar automáticamente la altura después de configurar el ajuste de texto para la celda para GridJS
-* Soporte para la generación de JSON utilizando el método del escritor de transmisión para GridJS
+* Soporte para función DROP en fórmulas
+* Mejorar el rendimiento del cálculo de funciones LET y MAKEARRAY con parámetros complejos
+* Soporte para contorno de caracteres estrella en gráficos
+* Soporte para hacer que un objeto sea decorativo
+* Soporte para intercambiar series
+* Mejorar la visualización del gráfico TreeMap
+* Soporte para convertir la imagen de una celda "sobrepuesta" en "dentro de la celda"
+* Soporte para cargar la fuente de la nube de Office local por defecto
+* Soporte para mantener la esquema JSON al importar datos JSON
+* Soporte para exportar a formato AZW3
+* Soporte para configurar automáticamente la altura después de establecer el ajuste de envoltura en una celda en GridJs
+* Soporte para generar JSON usando método de escritor de flujo en GridJs
 
 ## Aspose.Cells for .NET 24.6
 * Mejoras para la representación: ajuste de saturación de color y temperatura de color, duotonos, imágenes Webp

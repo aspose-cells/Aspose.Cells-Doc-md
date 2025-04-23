@@ -53,3 +53,4 @@ workbook.save(dataDir + "AsposeWatermark_Out.xls");
 Pour plus de détails, visitez [Ajouter un filigrane WordArt à la feuille de calcul](/cells/fr/java/add-wordart-watermark-to-worksheet).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

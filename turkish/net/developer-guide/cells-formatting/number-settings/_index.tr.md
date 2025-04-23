@@ -89,3 +89,4 @@ Görüntüleme formatını ayarlama için kendi özel biçim dizinizi tanımlama
 - [Özel Tarih Format Deseni g ve ge mm dd'yi Dönüştürme](/cells/tr/net/render-custom-date-format-pattern-g-and-ge-mm-dd/)
 - [Çalışmabook için Özel Sayı Ondalık ve Grup Ayraçlarını Belirleme](/cells/tr/net/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [DBNum Özel Desen Biçimlendirmesini Belirleme](/cells/tr/net/specifying-dbnum-custom-pattern-formatting/)
+{{< app/cells/assistant language="csharp" >}}

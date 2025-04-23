@@ -26,3 +26,4 @@ url: /ja/net/delete-worksheets-from-workbooks/
 {{< /highlight >}}
 ## **ダウンロード**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DeleteWorksheetsFromWorkbooks.zip)
+{{< app/cells/assistant language="csharp" >}}

@@ -71,3 +71,4 @@ url: /ar/net/convert-an-excel-chart-to-image/
 1. تحويل الرسم البياني إلى صورة ديناميكياً. يلي الكود المستخدم من قِبَل المكون لإنجاز المهمة. الكود مماثل للكود السابق:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertExcelChartToImage-ConvertingColumnChartToImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

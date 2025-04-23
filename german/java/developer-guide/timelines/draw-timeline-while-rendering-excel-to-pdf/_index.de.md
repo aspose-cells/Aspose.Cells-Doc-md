@@ -16,3 +16,4 @@ Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](input.xlsx), die eine
 
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Timelines-DrawTimelinetoPdf.java" >}}
+{{< app/cells/assistant language="java" >}}

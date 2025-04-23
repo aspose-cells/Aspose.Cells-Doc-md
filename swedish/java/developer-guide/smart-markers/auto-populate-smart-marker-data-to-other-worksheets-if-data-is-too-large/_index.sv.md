@@ -11,8 +11,9 @@ Ibland vill du automatiskt fylla i Smart Marker-data till andra kalkylblad om de
 
 ## **Automatiskt fylla i Smart Marker-data till andra kalkylblad om datan är för stor**
 
-Följande provkod har en datakälla som har 21 poster. Vi vill visa endast 15 poster i ett kalkylblad, då flyttas resten av posterna automatiskt till det andra kalkylbladet. Observera, det andra kalkylbladet bör också ha samma Smart Marker-tag och du måste ringa [**WorkbookDesigner.process(sheetIndex, isPreserved)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process(int,%20boolean))-metoden för båda kalkylbladen. Vänligen kontrollera även [Microsoft Access-databasfilen](60489777.accdb) som används i denna kod samt den [output Excel-fil](60489786.xlsx) som genererats av koden för referens.
+Följande provkod har en datakälla som har 21 poster. Vi vill visa endast 15 poster i ett kalkylblad, då flyttas resten av posterna automatiskt till det andra kalkylbladet. Observera, det andra kalkylbladet bör också ha samma Smart Marker-tag och du måste ringa [**WorkbookDesigner.process(sheetIndex, isPreserved)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process-int-boolean-)-metoden för båda kalkylbladen. Vänligen kontrollera även [Microsoft Access-databasfilen](60489777.accdb) som används i denna kod samt den [output Excel-fil](60489786.xlsx) som genererats av koden för referens.
 
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "SmartMarkers-AutoPopulateSmartMarkerDataToOtherWorksheets.java" >}}
+{{< app/cells/assistant language="java" >}}

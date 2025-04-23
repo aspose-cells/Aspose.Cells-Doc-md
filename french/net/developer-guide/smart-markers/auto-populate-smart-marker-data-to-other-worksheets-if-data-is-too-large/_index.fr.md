@@ -11,3 +11,4 @@ Parfois, vous souhaitez auto-populer les données du smart marker vers d'autres 
 Le code d'exemple suivant contient une source de données avec 21 enregistrements. Nous voulons afficher seulement 15 enregistrements dans une feuille de calcul, puis le reste des enregistrements sera automatiquement déplacé vers la deuxième feuille de calcul. Veuillez noter que la deuxième feuille de calcul doit également avoir la même balise de smart marker et vous devez appeler la méthode [WorkbookDesigner.Process(sheetIndex, isPreserved)](https://reference.aspose.com/cells/net/aspose.cells.workbookdesigner/process/methods/2) pour les deux feuilles. Veuillez consulter le [fichier Excel de sortie](60489775.xlsx) généré par le code pour une référence.
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-AutoPopulateSmartMarkerDataToOtherWorksheets.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -190,3 +190,4 @@ Aspose.Cells предоставляет класс [**Workbook**](https://refere
 Задайте нумерацию страниц листа с помощью свойства [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) класса [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup). Свойство [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) устанавливает номер первой страницы листа, а следующие страницы нумеруются по возрастающей.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetFirstPageNumber-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

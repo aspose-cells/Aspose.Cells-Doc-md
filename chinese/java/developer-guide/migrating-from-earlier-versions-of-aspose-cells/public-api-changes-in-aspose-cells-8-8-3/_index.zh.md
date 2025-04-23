@@ -323,3 +323,4 @@ book.save(dir + "output.xlsx");
 ## **删除了 API**
 ### **删除了Workbook.decrypt方法**
 该属性已在一段时间前被标记为过时。此版本已完全将其从公共API中移除。建议将WorkbookSettings.Password属性设置为null以实现相同的目标。
+{{< app/cells/assistant language="java" >}}

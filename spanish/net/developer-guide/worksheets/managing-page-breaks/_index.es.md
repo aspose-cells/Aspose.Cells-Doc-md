@@ -57,3 +57,4 @@ Para eliminar un salto de página específico, llame a los métodos [**Horizonta
 ## **Importante saber**
 
 Cuando se establecen las propiedades **FitToPages** (es decir, [**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) y [**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)) en la configuración de la página, la configuración de saltos de página se ve afectada, por lo que si imprime la hoja de cálculo, la configuración de saltos de página no se tiene en cuenta aunque esté configurada.
+{{< app/cells/assistant language="csharp" >}}

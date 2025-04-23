@@ -32,3 +32,4 @@ I den genererade filen kan du använda rullisten samtidigt som diagrammet dynami
 ```
 
 Du kan prova att ändra numret "10" till "15" i cellen "Ark1!$H$20", och det dynamiska diagrammet kommer att räkna de senaste 15 datamängderna. Nu har vi skapat ett dynamiskt rullande diagram med hjälp av Aspose.Cells framgångsrikt.
+{{< app/cells/assistant language="csharp" >}}

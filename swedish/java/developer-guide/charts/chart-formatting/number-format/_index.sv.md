@@ -16,3 +16,4 @@ Följande exempelkod lägger till en serie i det tomma diagrammet som inte har n
 ![todo:image_alt_text](set-the-values-format-code-of-chart-series_1.png)
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "SetValuesFormatCodeOfChartSeries.java" >}}
+{{< app/cells/assistant language="java" >}}

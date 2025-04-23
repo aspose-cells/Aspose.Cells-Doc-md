@@ -1,18 +1,18 @@
 ---
-title: Docker で python via .NET の Aspose.Cells を実行する方法
+title: DockerでAspose.Cells for Python via .NETを実行する方法
 type: docs
-description: "Linux 向けの Docker コンテナで Aspose.Cells を実行する"
+description: 「Linux用DockerコンテナでAspose.Cellsを実行する」
 weight: 140
 url: /ja/net/how-to-run-aspose-cells-python-via-net-in-docker/
 ---
 
-## 前書き:
+## はじめに：
 
-多くのユーザーが当社のさまざまな製品を Docker で使用しており、さまざまな問題に遭遇しています。本記事では、Debian Linux をベースとした Docker 環境での Aspose.Cells for Python via .NET の使用方法について簡単に紹介します。
+ますます多くのユーザーが当社のさまざまな製品をDockerで使用しており、さまざまな問題に直面しています。この記事では、Debian Linux上のDocker環境でAspose.Cells for Python via .NETを使用する方法を簡単に紹介します。
 
-## 例:
+## 例：
 
-簡単な例を使って使用法を説明します。この場合、機能は非常に簡単で、aspose_test.py に日本語テキストを含む Excel ファイルを開くだけです。ここではベースイメージとして python:3.11 を使用し、対応する Dockerfile は以下の通りです。
+簡単な例を用いて使用方法を説明します。この場合、機能は非常にシンプルで、aspose_test.py内の日本語を含むExcelファイルを開くだけです。ここでは、ベースイメージとしてpython:3.11を使用し、対応するDockerfileは以下の通りです。
 
 {{< highlight plain >}}
 FROM python:3.11 AS base
@@ -28,7 +28,7 @@ RUN pip install -i aspose-cells-python
 CMD ["python", "aspose_test.py"]
 {{< /highlight >}}
 
-次に、次のコマンドを実行すると、最終結果が得られます。
+次に、以下のコマンドを実行すると最終結果が得られます：
 - Dockerイメージのビルド
 
 {{< highlight plain >}}
@@ -41,9 +41,9 @@ docker build -t python_test .
 docker run python_test 
 {{< /highlight >}}
 
-- 注意:
+- 注：
 
-さまざまな言語を含むExcelファイルの開くサポートのために、ICUをインストールする必要があります。Python via .NETラッパーは.NET Core 3.1に基づいており、.NET Core 3.1はICUの特定のバージョン要件を持っています。ICUのバージョンは70を超えてはならず、特定バージョンのICUをインストールする必要があります。
+さまざまな言語を含むExcelファイルを開くサポートには、ICUのインストールが必要です。Python via .NETラッパーは.NET Core 3.1に基づいており、.NET Core 3.1はICUの特定のバージョン要件を持っているため、バージョン70を超えない必要があります。そのため、特定のバージョンのICUをインストールする必要があります。
 
 
 ## 関連項目

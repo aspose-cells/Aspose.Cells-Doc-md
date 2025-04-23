@@ -19,3 +19,4 @@ Du kan också ändra textjusteringen för viss text i en TextBox-form med lämpl
 [källfil](SampleTextboxExcel2016.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "ApplyPartialTextAlignmentToTextBox.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

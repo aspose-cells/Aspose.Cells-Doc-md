@@ -58,3 +58,4 @@ Hier sind die Beispiel Dateien, die heruntergeladen werden können, um diese Fun
 ## **Erweiterte Themen**
 - [Daten in Spalte mit benutzerdefinierter Sortierliste sortieren](/cells/de/net/sort-data-in-column-with-custom-sort-list/)
 - [Spezifizieren von Sortierwarnungen beim Sortieren von Daten](/cells/de/net/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="csharp" >}}

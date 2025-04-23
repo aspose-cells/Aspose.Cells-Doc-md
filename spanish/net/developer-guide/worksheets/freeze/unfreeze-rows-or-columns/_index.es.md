@@ -32,3 +32,4 @@ Es fácil descongelar paneles con Aspose.Cells para .Net. Por favor, utiliza el 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Unfreeze-Pane.cs" >}}
 
 Adjunto [archivo de Excel de origen de ejemplo](Frozen.xlsx).
+{{< app/cells/assistant language="csharp" >}}

@@ -19,3 +19,4 @@ Il risultato di questo test è stato molto positivo. Ad esempio, se hai 100 rich
 Adesso abbiamo risolto il problema che causava ai nostri clienti troppo tempo. La facilità d'uso dei nostri prodotti è aumentata. 
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

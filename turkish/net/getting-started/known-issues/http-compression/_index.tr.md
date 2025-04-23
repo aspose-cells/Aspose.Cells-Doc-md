@@ -21,3 +21,4 @@ Bu sorunu çözmek için aşağıdaki çözümlerden birini kullanabilirsiniz:
 - Oluşturulan dosyayı sunucunuzda kaydedin ve kullanıcılarınıza bir bağlantı sağlayın.
 
 Eğer HTTP Sıkıştırmasını kullanmak istiyorsanız, lütfen IIS sıkıştırmayı etkinleştirdiğinizi bildiğinizde her zaman *OpenInBrowser* seçeneği yerine *OpenInExcel* seçeneğini kullanın.
+{{< app/cells/assistant language="csharp" >}}

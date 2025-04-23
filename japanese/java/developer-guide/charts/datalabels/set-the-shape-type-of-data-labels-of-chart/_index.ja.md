@@ -27,10 +27,11 @@ etc.
 
 ## **チャートのデータラベルの形状タイプを設定する**
 
-次のサンプルコードは、チャートのデータラベルのシェイプタイプを[**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT)に変更します。このコードで使用されるサンプルExcelファイルは[こちら](60489794.xlsx)で、それを使用した[sample Excel file](60489793.xlsx)で生成される[output Excel file](60489793.xlsx)を参照してください。スクリーンショットは、サンプルExcelファイルに対するコードの効果を示しています。
+次のサンプルコードは、チャートのデータラベルのシェイプタイプを[**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE-ELLIPSE-CALLOUT)に変更します。このコードで使用されるサンプルExcelファイルは[こちら](60489794.xlsx)で、それを使用した[sample Excel file](60489793.xlsx)で生成される[output Excel file](60489793.xlsx)を参照してください。スクリーンショットは、サンプルExcelファイルに対するコードの効果を示しています。
 
 ![todo:image_alt_text](set-the-shape-type-of-data-labels-of-chart_1.png)
 
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-SetShapeTypeOfDataLabelsOfChart.java" >}}
+{{< app/cells/assistant language="java" >}}

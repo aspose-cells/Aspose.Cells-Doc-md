@@ -22,3 +22,4 @@ Aspose.Cells tillhandahåller egenskapen Workbook.DataConnections för att hämt
 Om ExternalConnection-objektet innehåller SQL-anslutningsdata kan det typomvandlas till ett DBConnection-objekt och dess egenskaper kan användas för att hämta databasfråga, frågetyp, anslutningsbeskrivning, anslutningsinformation, referenser och så vidare.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-RetrievingSQLConnectionData-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -171,3 +171,4 @@ Array、ArrayList、DataTable、DataColumn、DataGrid、DataView、DataReaderな
 
 
 Office Open XMLドキュメントでのシンプルな検索および置換操作の実装は難しいです。私たちのアドバイス: オープンで標準的であるということは、単純であるということではないことを覚えておくこと、そしてAspose.Cellsを使用すること。
+{{< app/cells/assistant language="csharp" >}}

@@ -187,3 +187,4 @@ workbook.save("output.xlsx");
 Veuillez consulter l'article [Copier un mini-graphique en spécifiant la plage de données et l'emplacement du groupe de mini-graphiques](/cells/fr/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/) pour plus d'informations.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

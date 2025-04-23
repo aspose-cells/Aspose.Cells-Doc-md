@@ -22,3 +22,4 @@ Aspose.Cells ile bir kıvılcım oluşturmak basittir, aşağıdaki örnek kodla
 
 ## **Gelişmiş Konular**
 - [Kıvılcımları ve Ayarları 3B Biçimi kullanarak Kullanma](/cells/tr/net/using-sparklines-and-settings-3d-format/)
+{{< app/cells/assistant language="csharp" >}}

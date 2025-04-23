@@ -14,3 +14,4 @@ url: /ru/net/export-worksheet-or-chart-into-image-with-desired-width-and-height/
 Приведенный ниже код экспортирует рабочий лист в изображение размером 400x400.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-WorksheetToImageDesiredSize-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -26,3 +26,4 @@ Dieser Screenshot zeigt das [mit der neueren Version generierte Ausgabe-HTML](54
 Wie Sie in den Screenshots sehen können, erweitert die neuere Version den rechtsbündigen Text genau wie Microsoft Excel korrekt nach links.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-ExpandTextFromRightToLeftWhileExportingExcelFileToHTML-.java" >}}
+{{< app/cells/assistant language="java" >}}

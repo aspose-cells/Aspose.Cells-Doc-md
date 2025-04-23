@@ -52,3 +52,5 @@ Das folgende Codebeispiel zeigt, wie Sie ein Arbeitsbuch als MHTML-Datei mithilf
 - [Legen Sie die Standardschriftart beim Rendern der Tabellenkalkulation in HTML fest](/cells/de/net/set-default-font-while-rendering-spreadsheet-to/)
 - [Geben Sie an, wie die Zeichenfolge im Ausgabe-HTML mit HtmlCrossType gekreuzt wird.](/cells/de/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
 - [Unterstützt das Layout von DIV-Tags beim Laden von HTML in die Excel-Arbeitsmappe](/cells/de/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
+{{< app/cells/assistant language="csharp" >}}
+- [Aktivieren Sie CSS Standard-Eigenschaften beim Speichern in HTML](/cells/de/net/enable-css-custom-properties-while-saving-to-html/)

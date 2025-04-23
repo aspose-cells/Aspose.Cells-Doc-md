@@ -35,3 +35,4 @@ El siguiente ejemplo muestra cómo activar una hoja de cálculo y hacer una celd
 En el modo de **evaluación**, es decir, sin establecer una licencia válida, la hoja de cálculo activa siempre será aquella que contenga la marca de agua de evaluación. Este comportamiento solo se puede anular configurando la licencia al inicio de la aplicación.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

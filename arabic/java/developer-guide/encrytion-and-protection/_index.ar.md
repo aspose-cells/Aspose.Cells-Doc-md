@@ -33,3 +33,4 @@ Aspose.Cells for Java يقدم مجموعة واسعة من الحماية وإ�
 - [كيفية كشف تنسيق ملف والتحقق مما إذا كان الملف مشفرًا](/cells/ar/java/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
 
 
+{{< app/cells/assistant language="java" >}}

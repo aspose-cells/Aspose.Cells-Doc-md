@@ -1,10 +1,10 @@
 ---
-title: Aspose.Cells.GridWeb ı docker da nasıl çalıştırılır.
+title: Aspose.Cells.GridWeb i Docker da nasıl çalıştırılır
 type: docs
 weight: 250
 url: /tr/net/aspose-cells-gridweb/how-to-build-online-excel-editor/
 keywords: GridWeb,docker
-description: Bu makale, GridWeb i docker da çalıştırmak için bir çevrimiçi excel düzenleyicisi veya görüntüleyici uygulaması oluşturmak için nasıl olduğunu tanıtır.
+description: Bu makale, Docker da GridWeb i çalıştırarak çevrimiçi excel düzenleyici veya görüntüleme uygulaması oluşturmayı anlatıyor.
 aliases:
   - /net/aspose-cells-gridweb/docker/
   - /net/aspose-cells-gridweb/run-aspose-cells-gridweb-in-docker/
@@ -21,15 +21,15 @@ aliases:
 
 ## Önkoşullar
 
-Makinenize Docker'ın kurulduğundan emin olun. Docker'ı [resmi Docker web sitesinden](https://www.docker.com/get-started) indirip kurabilirsiniz.
+Bilgisayarınıza Docker'ın yüklü olduğundan emin olun. Docker'ı [resmi Docker web sitesinden](https://www.docker.com/get-started) indirip yükleyebilirsiniz.
 
-## Adım 1: Bir Docker Dosyası Oluşturun
+## Adım 1: Dockerfile Oluşturma
 
-Projemizin [dizini](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/)nde `Dockerfile` adında bir dosya oluşturun. `Dockerfile`, Docker imajınızı nasıl oluşturulacağına dair talimatları içermelidir.
+Proje dizininizde bir `Dockerfile` adlı dosya oluşturun. `Dockerfile` Docker imajınızı nasıl inşa edeceğinizi belirten talimatlar içermelidir. https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/
 
-## Adım 2: GridWeb için Dockerfile Yazın
+## Adım 2: GridWeb için Dockerfile yazın
 
-İşte ASP.NET Core uygulaması ile GridWeb demo için bir örnek [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/Dockerfile):
+İşte ASP.NET Core uygulamasıyla GridWeb demosu için örnek bir [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/Dockerfile):
 
 ```dockerfile
 # Use the official .NET6.0 runtime as a parent image
@@ -77,43 +77,43 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "GridWeb.Demo.NET6.0.dll"]
 ```
 
-## Adım 3: Docker İmajının Oluşturulması
-Docker İmajının Oluşturulması: Terminalden, Docker imajınızı oluşturmak için aşağıdaki komutu çalıştırın:
+## Adım 3: Docker Görüntüsünü Oluşturma
+Docker Görüntüsü Oluşturma: Terminalden aşağıdaki komutu çalıştırarak Docker görüntünüzü oluşturabilirsiniz:
 ```bash
 docker build -t gridweb-demo-net6 .
 ```
-gridweb-demo-net6 adını Docker imajınıza vereceğiniz isimle değiştirebilirsiniz.
+docker görüntünüzü vermek istediğiniz isimle gridweb-demo-net6 yerine değiştirebilirsiniz.
 
-## Adım 4: Docker Konteynerinin Çalıştırılması
-İmaj oluşturulduktan sonra, aşağıdaki komutu kullanarak bir konteyner çalıştırabilirsiniz:
+## Adım 4: Docker Konteyneri Çalıştırma
+İmaj oluşturulduktan sonra aşağıdaki komutu kullanarak bir konteyner çalıştırabilirsiniz:
 
 ```bash
 docker run -d -p 24262:80 --name gridweb-demo-container  gridweb-demo-net6
 ```
-Docker Çalıştır Komutu Seçeneklerinin Açıklaması
--d: Konteyneri geri planda (detached modda) çalıştırın.
--p 24262:80: Konteynerdeki 80 numaralı limanı ana makinedeki 24262 numaralı limana eşleştirin.
---name gridweb-demo-container: Konteynıra bir isim atayın.
+Docker Run Komutu Seçeneklerinin Açıklaması
+-d: Konteyneri arka planda çalıştırır.
+-p 24262:80: Port 80'i konteynerde, 24262'de ana makinede eşler.
+--name gridweb-demo-container: Konteynerin adını belirleyin.
 
-## Adım 5: Konteynerin Çalışıp Çalışmadığının Doğrulanması
+## Adım 5: Konteynerin Çalıştığını Doğrulama
 Konteynerinizin çalışıp çalışmadığını kontrol etmek için aşağıdaki komutu kullanın:
 
 ```bash
 docker ps
 ```
-Bu tüm çalışan konteynerleri listeler. Konteynerinizin adı ve durumu ile birlikte listelendiğini görmelisiniz.
+Bu, tüm çalışan konteynerleri listeleyecek. Adı ve durumu ile birlikte konteyneriniz görünmelidir.
 
 ## Adım 6: Web Uygulamasına Erişim
 
-Bir web tarayıcısı açın ve `http://localhost:24262/` adresine gidin. Uygulamanızın çalıştığını görmelisiniz.
+Bir web tarayıcısı açın ve `http://localhost:24262/` adresine gidin. Uygulamanızın çalıştığını göreceksiniz.
 
 GridWeb için genel geliştirme kılavuzunu göreceksiniz. 
 
-Sayfadaki [demo](http://localhost:24262/grid/index1 "demo") bağlantısına tıklayarak tablo dosyasında düzenleme işlemi yapabilirsiniz.
+Sayfadaki [demo](http://localhost:24262/grid/index1 "demo") bağlantısına tıklayın, elektronik tablo dosyası üzerinde düzenleme işlemi yapabilirsiniz.
 
 ## Ek Komutlar
 
-### Konteynerin Durdurulması
+### Konteyneri Durdurma
 
 Çalışan bir konteyneri durdurmak için aşağıdaki komutu kullanın:
 
@@ -121,15 +121,15 @@ Sayfadaki [demo](http://localhost:24262/grid/index1 "demo") bağlantısına tık
 docker stop gridweb-demo-container
 ```
 
-### Bir Konteyneri Kaldırma
+### Bir Konteyner Kaldırma
 Durdurulmuş bir konteyneri kaldırmak için aşağıdaki komutu kullanın:
 
 ```bash
 docker rm  gridweb-demo-container
 ```
 
-### Bir Görüntüyü Kaldırma
-Bir görüntüyü kaldırmak için aşağıdaki komutu kullanın:
+### Bir İmaj Kaldırma
+Bir imajı kaldırmak için aşağıdaki komutu kullanın:
 
 ```bash
 docker rmi gridweb-demo-net6

@@ -42,3 +42,4 @@ Bitte beachten Sie den folgenden Beispielcode. Es lädt die [Beispiel-Excel-Date
 ----------------------
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

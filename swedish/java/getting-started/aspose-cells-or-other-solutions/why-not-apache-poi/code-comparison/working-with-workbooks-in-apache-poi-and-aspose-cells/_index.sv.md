@@ -11,3 +11,4 @@ url: /sv/java/working-with-workbooks-in-apache-poi-and-aspose-cells/
 - [Skapa ny arbetsbok](/cells/sv/java/create-new-workbook/)
 - [Sidlayout - Anpassa till sidinställning](/cells/sv/java/page-setup-fit-to-page-setting/)
 - [Ange utskriftsområde](/cells/sv/java/set-print-area/)
+{{< app/cells/assistant language="java" >}}

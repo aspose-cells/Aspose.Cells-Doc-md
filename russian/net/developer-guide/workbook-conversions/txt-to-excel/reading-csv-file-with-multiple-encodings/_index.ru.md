@@ -38,3 +38,4 @@ Aspose.Cells предоставляет свойство [**TxtLoadOptions.IsMul
 ## Связанные статьи
 
 - [Открытие файлов CSV](/cells/ru/net/opening-files-with-different-formats/#opening-csv-files)
+{{< app/cells/assistant language="csharp" >}}

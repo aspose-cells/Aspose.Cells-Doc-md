@@ -24,3 +24,4 @@ Il seguente codice di esempio mostra come utilizzare il ritorno a capo del testo
 Puoi usare '\n' in Java per inserire a capo espliciti in una cella.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UseExplicitLineBreaks-UseExplicitLineBreaks.java" >}}
+{{< app/cells/assistant language="java" >}}

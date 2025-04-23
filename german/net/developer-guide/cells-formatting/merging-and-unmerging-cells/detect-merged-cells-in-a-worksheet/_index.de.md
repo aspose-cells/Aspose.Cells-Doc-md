@@ -15,6 +15,7 @@ Aspose.Cells ermöglicht es Ihnen, zusammengeführte Zellenbereiche in einem Arb
 
 {{% /alert %}}
 
-Die Komponente bietet die Methode [**Cells.GetMergedAreas()**](https://reference.aspose.com/cells/net/aspose.cells/cells/getmergedareas/), mit der alle zusammengeführten Zellen abgerufen werden können. Der folgende Codeausschnitt zeigt Ihnen, wie Sie zusammengeführte Zellen in einem Arbeitsblatt erkennen.
+Die Komponente bietet die [**Cells.GetMergedAreas()**](https://reference.aspose.com/cells/net/aspose.cells/cells/getmergedareas/) Methode, mit der alle zusammengeführten Zellen ermittelt werden können. Das folgende Codebeispiel zeigt, wie zusammengeführte Zellen in einem Arbeitsblatt erkannt werden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DetectMergedCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

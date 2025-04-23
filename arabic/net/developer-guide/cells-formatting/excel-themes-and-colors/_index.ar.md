@@ -69,3 +69,4 @@ keywords: C# لإنشاء وتطبيق مخططات الألوان، إنشاء 
 
 ## **مواضيع متقدمة**
 - [استخراج بيانات الثيم من ملف Excel](/cells/ar/net/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="csharp" >}}

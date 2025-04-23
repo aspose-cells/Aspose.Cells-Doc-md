@@ -22,3 +22,4 @@ Mentre si lavora con la funzionalità di raggruppamento dei dati degli Smart Mar
 Questo esempio utilizza un [file di dati](96927971.xlsx) e un [file di modello](96927972.xlsx) con alcuni marker nelle celle. Durante l'esecuzione del codice, Aspose.Cells aggiunge alcune etichette personalizzate alle righe di riepilogo per i dati raggruppati.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-AddCustomLabels-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

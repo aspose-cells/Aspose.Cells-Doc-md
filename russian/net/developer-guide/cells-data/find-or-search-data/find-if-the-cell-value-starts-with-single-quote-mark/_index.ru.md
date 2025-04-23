@@ -16,3 +16,4 @@ Aspose.Cells теперь предоставляет свойство [**Style.Q
 В следующем образце кода объясняется, что строки как пример и 'пример не могут быть различены с помощью свойства [**Cell.StringValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue). Поэтому мы должны использовать свойство [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix), чтобы различать их.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindIfCellValueStartsWithSingleQuote-FindIfCellValueStartsWithSingleQuote.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

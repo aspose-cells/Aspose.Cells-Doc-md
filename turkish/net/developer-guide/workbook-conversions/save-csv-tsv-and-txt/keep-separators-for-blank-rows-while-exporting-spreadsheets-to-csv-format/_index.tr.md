@@ -16,3 +16,4 @@ Aşağıdaki örnek kod, [kaynak Excel dosyasını](84378743.xlsx) yükler. [**T
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-KeepSeparatorsForBlankRow-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

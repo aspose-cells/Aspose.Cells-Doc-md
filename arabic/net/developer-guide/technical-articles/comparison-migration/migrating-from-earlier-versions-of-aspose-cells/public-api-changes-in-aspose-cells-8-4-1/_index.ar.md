@@ -299,3 +299,4 @@ renderer.ToImage(0, "output.svg");
 ## **واجهات برمجة التطبيقات المهملة**
 ### **تم إهمال واجهة برمجة التطبيقات Workbook.ValidateFormula**
 استخدم طريقة Cell.Formula للتحقق من الصيغة.
+{{< app/cells/assistant language="csharp" >}}

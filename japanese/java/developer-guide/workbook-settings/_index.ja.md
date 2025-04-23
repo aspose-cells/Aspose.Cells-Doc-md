@@ -4,3 +4,4 @@ type: docs
 weight: 200
 url: /ja/java/workbook-settings/
 ---
+{{< app/cells/assistant language="java" >}}

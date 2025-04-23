@@ -10,3 +10,4 @@ url: /zh/net/export-xml-data-linked-to-xml-map-inside-the-workbook/
 请使用工作簿内链接到 XML 地图的 XML 数据导出的 [**Workbook.ExportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/exportxml/index) 方法。以下示例代码逐个导出工作簿中所有 XML 地图的 XML 数据。请查看本代码中使用的 [示例 Excel 文件](5115497.xlsx) 和第一个 XML 地图的 [导出的 XML 数据](5472487.xml)。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExportXmlMapFromWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

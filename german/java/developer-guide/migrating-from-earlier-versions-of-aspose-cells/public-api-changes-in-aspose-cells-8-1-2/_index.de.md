@@ -20,3 +20,4 @@ Bitte überprüfen Sie den ausführlichen Artikel zu [Warnungen für Schriftarte
 {{% /alert %}}
 ## **Entfernen der veralteten PdfSaveOptions.ChartImageType-Eigenschaft**
 Aspose.Cells for Java 8.1.2 hat die veraltete PdfSaveOptions.ChartImageType-Eigenschaft aus der öffentlichen API entfernt.
+{{< app/cells/assistant language="java" >}}

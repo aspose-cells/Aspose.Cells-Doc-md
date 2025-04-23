@@ -23,3 +23,4 @@ Aspose.Cells允许您更改单个工作表标签的颜色，使其与其他工�
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SetWorksheetTabColor-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

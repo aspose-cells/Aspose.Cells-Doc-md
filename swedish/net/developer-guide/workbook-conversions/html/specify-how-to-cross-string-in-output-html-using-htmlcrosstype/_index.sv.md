@@ -26,3 +26,4 @@ Följande provkod laddar [prov Excel-filen](51740732.xlsx) och sparar den i HTML
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-SpecifyHtmlCrossTypeInOutputHTML.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

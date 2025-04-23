@@ -91,3 +91,4 @@ Laden Sie das Formular **Daten in Zellen hinzufügen** von einer der unten genan
 Für weitere Details besuchen Sie [Daten zu Zellen hinzufügen](/cells/de/net/daten-in-zellen-hinzufuegen/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

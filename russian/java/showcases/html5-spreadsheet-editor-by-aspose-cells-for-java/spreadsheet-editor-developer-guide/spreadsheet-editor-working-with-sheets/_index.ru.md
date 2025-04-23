@@ -173,3 +173,4 @@ Microsoft Excel позволяет использовать несколько �
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

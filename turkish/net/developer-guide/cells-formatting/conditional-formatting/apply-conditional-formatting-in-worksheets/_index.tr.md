@@ -44,3 +44,4 @@ Yukarıdaki kod çalıştırıldığında, koşullu biçimlendirme çıktı dosy
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplyConditionalFormatting-ApplyConditionalFormattingFormula-1.cs" >}}
 
 Yukarıdaki kod çalıştırıldığında, koşullu biçimlendirme çıktı dosyasının ilk çalışsayfasındaki “B3” hücresine uygulanır (çıktı.xls). Uygulanan koşullu biçimlendirme, “B1” ve “B2”nin değerinin toplamını hesaplayan formülün sonucuna bağlıdır.
+{{< app/cells/assistant language="csharp" >}}

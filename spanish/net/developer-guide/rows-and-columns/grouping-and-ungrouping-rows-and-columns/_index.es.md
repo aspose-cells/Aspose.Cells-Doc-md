@@ -62,3 +62,4 @@ Para desagrupar filas o columnas agrupadas, llama a los métodos [**UngroupRows*
 [**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) tiene una sobrecarga que toma un tercer parámetro Booleano. Configurándolo en **true** eliminará toda la información agrupada. De lo contrario, solo se eliminará la información de grupo externa.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-UngroupingRowsAndColumns-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

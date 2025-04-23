@@ -38,3 +38,4 @@ Comme vous pouvez le voir dans le premier PDF, la police de la phrase entière a
 
 
 
+{{< app/cells/assistant language="csharp" >}}

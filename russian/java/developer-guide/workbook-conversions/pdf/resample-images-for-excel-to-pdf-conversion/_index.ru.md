@@ -21,10 +21,11 @@ keywords: excel в pdf, изменение размеров изображени
 
 {{% alert color="primary" %}}
 
-Использование опции [**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)) позволяет минимизировать размер выходного PDF, но это может немного повлиять на качество изображения.
+Использование опции [**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample-int-int-) позволяет минимизировать размер выходного PDF, но это может немного повлиять на качество изображения.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
 Если ваш электронный таблицы содержит формулы, лучше всего вызвать [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) прямо перед преобразованием таблицы в формат PDF. Таким образом будет гарантирован пересчет значений, зависящих от формул, и в PDF файл будут выведены правильные значения.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

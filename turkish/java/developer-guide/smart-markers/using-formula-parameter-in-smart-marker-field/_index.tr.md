@@ -11,3 +11,4 @@ Bazen akıllı işaretçi alanındaki formülü gömmek istersiniz. Bu makale, a
 Aşağıdaki örnek kod, Test adlı akıllı işaretçi değişkenine formül gömüyor ve veri kaynağı adı da Test olduğu için, formül parametresiyle tam alan şu şekilde görünüyor **&=$Test(formül)** ve kodun yürütülmesinden sonra [nihai çıktı Excel dosyasının](47153156.xlsx) A1'den A5'e kadar olan hücrelerinde formüller olacaktır.
 ## **Örnek Kod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-SmartMarkers-UsingFormulaParameterInSmartMarkerField.java" >}}
+{{< app/cells/assistant language="java" >}}

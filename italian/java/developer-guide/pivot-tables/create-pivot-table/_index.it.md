@@ -27,7 +27,7 @@ Gli oggetti tabella pivot sono:
 Per creare una tabella pivot utilizzando Aspose.Cells, segui i passaggi seguenti:
 
 1. Aggiungi alcuni dati alle celle del foglio di lavoro utilizzando il metodo [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) dell'oggetto [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell). Questi dati saranno utilizzati come origine dati per la tabella pivot.
-1. Aggiungi una tabella pivot al foglio di lavoro chiamando il metodo [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add(com.aspose.cells.PivotTable,%20int,%20int,%20java.lang.String)) della classe [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection), incapsulata nell'oggetto [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet).
+1. Aggiungi una tabella pivot al foglio di lavoro chiamando il metodo [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add-com.aspose.cells.PivotTable-int-int-java.lang.String-) della classe [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection), incapsulata nell'oggetto [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet).
 1. Accedi all'oggetto [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) dalla [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) passando l'indice [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable).
 1. Utilizza uno qualsiasi degli oggetti tabella pivot (spiegati sopra) incapsulati nell'oggetto [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) per gestire la tabella pivot.
 
@@ -44,3 +44,4 @@ L'esempio di codice qui sotto mostra come creare una semplice tabella pivot segu
 ![todo:image_alt_text](create-pivot-table_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-CreatePivotTable.java" >}}
+{{< app/cells/assistant language="java" >}}

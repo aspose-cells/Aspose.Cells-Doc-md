@@ -272,3 +272,4 @@ SaveOptions'un uygun SaveOptions özelliklerini ayarladıktan sonra Workbook.Sav
 Bir StyleCollection.Add yöntemi ile Stil oluşturmak yerine Workbook.CreateStyle yönteminin kullanılması önerilir
 ### **Eski PivotItem.Move(int count) Yöntemi**
 Aspose.Cells 8.3.2'nin yayınlanmasıyla, API, PivotItem.Move yönteminin, sayıyı taşımak için bir integer parametresi ve ebeveyn düğüm içinde bir PivotItem'ı taşımak için boolean parametresini kabul eden başka bir aşırı yükleme ile tanıtmıştır.
+{{< app/cells/assistant language="csharp" >}}

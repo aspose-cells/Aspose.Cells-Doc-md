@@ -17,3 +17,4 @@ Aspose.Cells admite la carga de documentos OpenDocument 1.1 y 1.2. Aspose.Cells 
 **Un documento de muestra de ODS generado por Aspose.Cells y abierto en OpenOffice Writer** 
 
 ![todo:image_alt_text](opendocument-ods_1.png)
+{{< app/cells/assistant language="java" >}}

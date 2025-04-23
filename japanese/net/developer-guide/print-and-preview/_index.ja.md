@@ -74,3 +74,4 @@ Worksheet page count: 1
 - [ワークシートをグラフィックコンテキストにレンダリング](/cells/ja/net/render-worksheet-to-graphic-context/)
 - [ワークブックのレンダリング用に個々またはプライベートなフォントセットを指定する](/cells/ja/net/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)
 - [Aspose.Cellsを使用して印刷時にジョブまたは文書名を指定する](/cells/ja/net/specify-job-or-document-name-while-printing-with-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

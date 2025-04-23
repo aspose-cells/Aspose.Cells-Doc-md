@@ -132,6 +132,22 @@ Följande kodexempel visar export av aktivt arbetsblad till PPTX med hjälp av m
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToPptx-1.cs" >}}
 
+## **Konvertera Excel-arbetsbok till EPUB**
+
+Aspose.Cells API stöder konvertering av kalkylblad till EPUB-format. För att exportera arbetsboken till EPUB, ange [**SaveFormat.Epub**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) som andra parametern i [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)-metoden. Du kan också använda [**EBookSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/ebooksaveoptions)-klassen för att specificera ytterligare inställningar för export av arbetsblad till EPUB.
+
+Följande kodexempel visar hur man exporterar det aktiva kalkylbladet till EPUB med hjälp av [**SaveFormat.Epub**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) enum-medlem.
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToEPUB-1.cs" >}}
+
+## **Konvertera Excel-arbetsbok till AZW3**
+
+Aspose.Cells API stöder konvertering av kalkylblad till AZW3-format. För att exportera arbetsboken till AZW3, ange [**SaveFormat.Azw3**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) som andra parametern i [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)-metoden. Du kan också använda [**EBookSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/ebooksaveoptions)-klassen för att specificera ytterligare inställningar för export av arbetsblad till AZW3.
+
+Följande kodexempel visar hur man exporterar det aktiva kalkylbladet till AZW3 med hjälp av [**SaveFormat.Azw3**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) enum-medlem.
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToAZW3-1.cs" >}}
+
 ## **Fortsatta ämnen**
 - [Konvertera revidering av XLSB till XLSM](/cells/sv/net/convert-revision-of-xlsb-to-xlsm/)
 - [HTML](/cells/sv/net/convert-excel-to-html/)
@@ -142,3 +158,4 @@ Följande kodexempel visar export av aktivt arbetsblad till PPTX med hjälp av m
 - [Konvertera Excel till CSV, TSV och Txt](/cells/sv/net/convert-excel-to-csv-tsv-and-txt/)
 - [Spåra Dokumentkonverteringsframsteg](/cells/sv/net/track-document-conversion-progress/)
 - [Konvertera CSV, TSV och TXT till Excel](/cells/sv/net/convert-csv-tsv-and-txt-to-excel/)
+{{< app/cells/assistant language="csharp" >}}

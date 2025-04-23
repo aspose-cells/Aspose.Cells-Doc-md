@@ -21,3 +21,4 @@ Lütfen JDK/JRE sürümünüze uygun indirme bağlantısını kullanın.
 - [Java Kriptografi Uzantısı (JCE) Sınırsız Güçlük Yetki Politika Dosyaları 6](https://www.oracle.com/java/technologies/jce-6-download.html)
 - [Java Kriptografi Uzantısı (JCE) Sınırsız Güçlük Yetki Politika Dosyaları 7](https://www.oracle.com/java/technologies/jce-7-download.html)
 - [Java Kriptografi Uzantısı (JCE) Sınırsız Güçlük Yetki Politika Dosyaları 8](https://www.oracle.com/java/technologies/javase-jce8-downloads.html)
+{{< app/cells/assistant language="java" >}}

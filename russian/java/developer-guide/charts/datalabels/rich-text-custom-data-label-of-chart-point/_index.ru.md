@@ -7,7 +7,7 @@ url: /ru/java/rich-text-custom-data-label-of-chart-point/
 
 {{% alert color="primary" %}}
 
-Вы можете использовать Aspose.Cells для создания метки данных пользовательского форматированного текста точки диаграммы. Aspose.Cells предоставляет метод [**DataLabels.characters()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#characters(int,%20int)) для возврата объекта [**FontSetting**](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting), который может быть использован для установки свойств шрифта текста, таких как цвет, жирность и т. д.
+Вы можете использовать Aspose.Cells для создания метки данных пользовательского форматированного текста точки диаграммы. Aspose.Cells предоставляет метод [**DataLabels.characters()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#characters-int-int-) для возврата объекта [**FontSetting**](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting), который может быть использован для установки свойств шрифта текста, таких как цвет, жирность и т. д.
 
 {{% /alert %}}
 
@@ -20,3 +20,4 @@ url: /ru/java/rich-text-custom-data-label-of-chart-point/
 ## Связанные статьи
 
 - [Установка типа формы меток данных диаграммы](/cells/ru/java/set-the-shape-type-of-data-labels-of-chart/)
+{{< app/cells/assistant language="java" >}}

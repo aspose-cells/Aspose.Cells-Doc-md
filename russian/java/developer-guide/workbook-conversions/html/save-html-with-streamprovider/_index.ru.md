@@ -25,3 +25,4 @@ url: /ru/java/convert-excel-to-html-with-streamprovider/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExportStreamProvider-ExportStreamProvider.java" >}}
 
+{{< app/cells/assistant language="java" >}}

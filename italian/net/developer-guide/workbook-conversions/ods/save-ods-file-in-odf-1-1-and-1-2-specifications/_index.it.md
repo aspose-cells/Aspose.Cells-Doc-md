@@ -1,7 +1,7 @@
 ---
-title: Salva file ODS nelle specifiche ODF 1.1 e 1.2
-linktitle: Salva come ODF 1.1 e 1.2 
-description: Converti Excel in specifiche ODF 1.1 e 1.2 con Aspose.Cells.
+title: Salva file ODS in ODF 1.1, 1.2 e 1.3
+linktitle: Salva come ODF 1.1, 1.2 e 1.3
+description: Converti Excel in ODF 1.1, 1.2 e 1.3 con Aspose.Cells.
 type: docs
 weight: 230
 url: /it/net/save-ods-file-in-odf-1-1-and-1-2-specifications/
@@ -9,10 +9,11 @@ url: /it/net/save-ods-file-in-odf-1-1-and-1-2-specifications/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells supporta il salvataggio di un file ODS (OpenDocument Spreadsheet) nelle specifiche ODF (OpenDocument Format) 1.1 e 1.2. Aspose.Cells dispone della proprietà [**OdsSaveOptions.IsStrictSchema11**](https://reference.aspose.com/cells/net/aspose.cells/odssaveoptions/properties/isstrictschema11) che specifica l'uso della specifica ODF 1.1 per il salvataggio dei file ODS. Il valore predefinito di questa proprietà è **false**, quindi il file ODS salvato senza questa impostazione utilizza le specifiche 1.2.
+Aspose.Cells supporta il salvataggio di un file ODS (**OpenDocument Spreadsheet**) nei requisiti ODF (**OpenDocument Format**) 1.1, 1.2 e 1.3. Aspose.Cells ha la proprietà [**OdsSaveOptions.OdfStrictVersion**](https://reference.aspose.com/cells/net/aspose.cells/odssaveoptions/odfstrictversion/) che specifica la versione ODF per il salvataggio dei file ODS. Il valore predefinito di questa proprietà è [**OpenDocumentFormatVersionType.Odf12**](https://reference.aspose.com/cells/net/aspose.cells.ods/opendocumentformatversiontype/), quindi il file ODS salvato senza questa impostazione utilizza le specifiche 1.2.
 
 {{% /alert %}}
 
-Il codice di esempio seguente crea un oggetto workbook, aggiunge un valore alla cella A1 sul primo foglio di lavoro e quindi salva il file ODS nelle specifiche ODF 1.1 e 1.2. Per impostazione predefinita, il file ODS viene salvato nella specifica ODF 1.2.
+Il codice di esempio di seguito crea un oggetto workspace, aggiunge alcuni valori alla cella A1 del primo foglio di lavoro e quindi salva il file ODS secondo le specifiche ODF 1.1, 1.2 e 1.3. Per impostazione predefinita, il file ODS viene salvato secondo le specifiche ODF 1.2.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-OdsFileSaveOptions-SaveODSFileinODF11and12Specifications.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

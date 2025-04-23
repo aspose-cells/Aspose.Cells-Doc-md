@@ -99,7 +99,7 @@ ProtectionType列挙型には、次の事前定義された保護タイプが含
 
 ### **ワークシート内の行を保護する**
 
-Aspose.Cellsを使用すると、ワークシート内の任意の行を簡単にロックできます。ここでは、ワークシート内の特定の行にStyleを適用するための[**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag))メソッドを{1}クラスの[**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag))メソッドを使用できます。このメソッドには2つの引数があります。[**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style)オブジェクトと適用された書式に関連するすべてのメンバーを持つ[**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag)構造体です。
+Aspose.Cellsを使用すると、ワークシート内の任意の行を簡単にロックできます。ここでは、ワークシート内の特定の行にStyleを適用するための[**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-)メソッドを{1}クラスの[**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-)メソッドを使用できます。このメソッドには2つの引数があります。[**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style)オブジェクトと適用された書式に関連するすべてのメンバーを持つ[**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag)構造体です。
 
 次の例は、ワークシート内の行をロックする方法を示しています。ますます、ワークシートのすべてのセルをアンロックし、それから最初の行をロックします。最後に、ワークシートを保護します。行/列にはStyle APIがあり、セルをロックまたはアンロックするメソッドを含んでいます。
 
@@ -107,7 +107,7 @@ Aspose.Cellsを使用すると、ワークシート内の任意の行を簡単�
 
 ### **ワークシート内の列を保護する**
 
-Aspose.Cellsを使用すると、ワークシート内の任意の列を簡単にロックできます。ここでは、ワークシート内の特定の列にStyleを適用するための[**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag))メソッドを{1}クラスの[**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag))メソッドを使用できます。このメソッドには2つの引数があります。[**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style)オブジェクトと適用された書式に関連するすべてのメンバーを持つ[**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag)構造体です。
+Aspose.Cellsを使用すると、ワークシート内の任意の列を簡単にロックできます。ここでは、ワークシート内の特定の列にStyleを適用するための[**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-)メソッドを{1}クラスの[**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-)メソッドを使用できます。このメソッドには2つの引数があります。[**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style)オブジェクトと適用された書式に関連するすべてのメンバーを持つ[**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag)構造体です。
 
 次の例は、ワークシート内の列をロックする方法を示しています。ますます、ワークシートのすべてのセルをアンロックし、それから最初の列をロックします。最後に、ワークシートを保護します。行/列にはStyle APIがあり、セルをロックまたはアンロックするメソッドを含んでいます。
 
@@ -206,3 +206,4 @@ Worksheetクラスには、これらの高度な保護設定を適用するた�
 Aspose.CellsのAPIを使用してセルをロックすることも可能です。各セルは、さらにsetLockedメソッドを含むStyle APIを持っており、これを使用してセルをロックまたはロック解除できます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-LockCell-LockCell.java" >}}
+{{< app/cells/assistant language="java" >}}

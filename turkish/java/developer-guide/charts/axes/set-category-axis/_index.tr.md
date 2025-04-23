@@ -26,3 +26,4 @@ Aşağıdaki örnek kod [çıkış Excel dosyasını](Output.xlsx) üretir.
 
 ## **Örnek Kod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "chart-CategoryAxis-settings.java" >}}
+{{< app/cells/assistant language="java" >}}

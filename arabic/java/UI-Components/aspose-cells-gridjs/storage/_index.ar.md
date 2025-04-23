@@ -15,11 +15,11 @@ aliases:
 ##  عملية الملف العامة 
 بعد استيراد ملف جدول بيانات ،
 
-سيقوم GridJs بإنشاء ملف تخزين مؤقت بالمعرف المحدد في المجلد **`Config.getFileCacheDirectory()`**،
+سيقوم GridJs بإنشاء ملف ذاكرة مخبأة باستخدام uid المحدد في مجلد **`Config.getFileCacheDirectory()`**،
 
-بتنسيق [Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/java/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat")، 
+بتنسيق [Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/java/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat")،
 
-ستقوم GridJs أيضًا بحفظ كل الأشكال/الصور في ملف ضغط zip في مجلد `Config.getPictureCacheDirectory()` لعرض الأشكال/الصور في واجهة المستخدم الخاصة بالعميل في وقت لاحق.
+سيقوم GridJs أيضًا بحفظ جميع الأشكال / الصور في ملف أرشيف zip في مجلد **`Config.getPictureCacheDirectory()`** لعرض الأشكال / الصور لاحقًا في واجهة المستخدم للعميل.
 
 وبعد كل عملية تحديث في واجهة المستخدم،
 
@@ -99,7 +99,7 @@ public class LocalFileCache extends GridCacheForStream {
 ```
 ب. إذا لم نقم بضبط GridJsWorkbook.CacheImp
 
-ستقوم GridJs بإنشاء وحفظ الملف ضمن مجلد `Config.getFileCacheDirectory()`، وهو دليل الذاكرة المؤقتة الافتراضي الذي يمكننا تعيينه.
+سيقوم GridJs بإنشاء وحفظ الملف داخل مجلد **`Config.getFileCacheDirectory()`**، وهو مجلد التخزين المؤقت الافتراضي الذي يمكننا تعيينه.
 
 ### كيفية الحصول على ملف النتيجة المحدث
 #### 1. معرّف محدد للملف 
@@ -183,7 +183,7 @@ public class LocalFileCache extends GridCacheForStream {
   //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
   wb.saveToCacheWithFileName(uid,filename,password);
 ```         
-#### 3. الحصول على رابط الملف من الذاكرة المؤقتة
+#### 3. الحصول على عنوان الملف من التخزين المؤقت
 على سبيل المثال: في إجراء التنزيل، يمكنك ببساطة الحصول عليه من دليل الذاكرة المؤقتة عن طريق مُعرِّّف الوحدة.
 ```JAVA
 //in controller  

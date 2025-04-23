@@ -15,3 +15,4 @@ Aspose.Cells不仅可帮助用户从外部数据源导入数据到工作表中�
 
 - [包含非强类型数据的列](/cells/zh/net/columns-containing-non-strongly-typed-data/)
 - [包含强类型数据的列](/cells/zh/net/columns-containing-strongly-typed-data/)
+{{< app/cells/assistant language="csharp" >}}

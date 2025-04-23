@@ -44,3 +44,4 @@ workbook.save(dataDir + "AsposeColoredTab_Out.xls");
 För mer information, besök [Ställ flikfärg](/java/set-worksheet-tab-color).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

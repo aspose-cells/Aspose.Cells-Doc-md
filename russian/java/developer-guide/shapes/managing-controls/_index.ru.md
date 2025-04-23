@@ -16,7 +16,7 @@ url: /ru/java/managing-controls/
 - Метод [**getTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame) возвращает объект [**MsoTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame), используемый для корректировки содержимого текстового поля.
 - Метод [**setPlacement**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement) указывает тип размещения.
 - Метод [**setFont**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Font) указывает атрибуты шрифта.
-- Метод [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink(java.lang.String)) добавляет гиперссылку для текстового поля.
+- Метод [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink-java.lang.String-) добавляет гиперссылку для текстового поля.
 - Свойство [**FillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#FillFormat) возвращает объект [**MsoFillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoFillFormat), используемый для установки формата заливки для текстового поля.
 - Свойство [**LineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#LineFormat) возвращает объект [**MsoLineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoLineFormat), обычно используемый для стиля и толщины линии текстового поля.
 - Метод [**setText**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text) устанавливает входной текст для текстового поля.
@@ -335,3 +335,4 @@ Aspose.Cells позволяет вам рисовать овальные фор�
 ## **Продвинутые темы**
 - [Добавление элементов ActiveX в Aspose.Cells](/cells/ru/java/add-activex-controls-using-aspose-cells/)
 - [Удалить элемент управления ActiveX](/cells/ru/java/remove-activex-control/)
+{{< app/cells/assistant language="java" >}}

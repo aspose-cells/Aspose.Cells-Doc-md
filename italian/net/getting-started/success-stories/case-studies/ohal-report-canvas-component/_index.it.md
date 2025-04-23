@@ -42,3 +42,4 @@ Abbiamo intenzione di utilizzare Aspose.Cells per tutti il caricamento e il salv
 Finora non abbiamo avuto problemi nell'utilizzo dei componenti Aspose.Cells e il componente dovrebbe risparmiarci tempo di sviluppo sia a breve che a lungo termine. Le richieste di supporto e vendita sono state risposte prontamente e in modo utile.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

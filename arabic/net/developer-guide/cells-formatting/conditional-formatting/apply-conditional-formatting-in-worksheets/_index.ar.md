@@ -44,3 +44,4 @@ url: /ar/net/apply-conditional-formatting-in-worksheets/
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplyConditionalFormatting-ApplyConditionalFormattingFormula-1.cs" >}}
 
 عند تنفيذ الكود أعلاه، سيتم تطبيق التنسيق الشرطي على الخلية “B3” في الورقة العمل الأولى للملف الناتج (output.xls). يعتمد التنسيق الشرطي المطبق على الصيغة التي تحسب قيمة “B3” كمجموع B1 و B2.
+{{< app/cells/assistant language="csharp" >}}

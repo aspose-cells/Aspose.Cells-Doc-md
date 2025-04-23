@@ -39,3 +39,4 @@ Aşağıdaki kodlar, maksimum görüntü aralığını HTML'e dönüştürmenin 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Get-Max-Display-Range.cs" >}}
 
 İşte [kaynak excel dosyası](Book1.xlsx).
+{{< app/cells/assistant language="csharp" >}}

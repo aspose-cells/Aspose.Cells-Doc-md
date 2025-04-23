@@ -38,3 +38,4 @@ Wie Sie im ersten PDF sehen können, wurde die Schriftart des gesamten Satzes vo
 
 
 
+{{< app/cells/assistant language="csharp" >}}

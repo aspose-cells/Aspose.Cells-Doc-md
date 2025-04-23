@@ -16,3 +16,4 @@ url: /ar/net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/
 ![add-xml-map](add-xml-map.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddXmlMapInsideWorkbook-AddXmlMapInsideWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

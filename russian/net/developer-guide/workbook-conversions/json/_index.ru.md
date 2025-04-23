@@ -24,3 +24,4 @@ API Aspose.Cells поддерживает преобразование элек�
 - [Преобразовать Excel в JSON](/cells/ru/net/convert-excel-to-json/)
 - [Преобразовать JSON в CSV](/cells/ru/net/convert-json-to-csv/)
 - [Преобразовать JSON в Excel](/cells/ru/net/convert-json-to-excel/)
+{{< app/cells/assistant language="csharp" >}}

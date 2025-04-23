@@ -28,3 +28,4 @@ Los ejemplos de código a continuación aplican cifrado fuerte en un archivo y e
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SettingStrongEncryptionType-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

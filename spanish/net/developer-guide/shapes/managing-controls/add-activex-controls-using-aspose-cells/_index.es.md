@@ -29,3 +29,4 @@ Una vez que hayas agregado el control ActiveX dentro de la colección de formas,
 El siguiente código de ejemplo agrega el control de botón de alternancia ActiveX utilizando Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddActiveXControls-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -59,7 +59,7 @@ Aspose.Cells предоставляет класс [**Workbook**](https://refere
 
 При выполнении кода он преобразует данные всех листов рабочей книги в формат TXT
 
-Вы можете изменить тот же пример, чтобы сохранить свой файл в CSV. По умолчанию [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) — запятая, поэтому не указывайте разделитель при сохранении в формат CSV. Обратите внимание: Если вы используете оценочную версию и даже если свойство [**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/) установлено в true, программа все равно экспортирует только один лист.
+Вы можете изменить тот же пример, чтобы сохранить файл в формате CSV. По умолчанию, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) — запятая, поэтому не указывайте разделитель при сохранении в формате CSV. Обратите внимание: если вы используете тестовую версию и даже если свойство [**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/) установлено в true, программа все равно экспортирует только один лист.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 
@@ -98,3 +98,4 @@ Aspose.Cells поддерживает сохранение файлов в фо�
 - [Настройка уровня сжатия книги Excel](/cells/ru/net/adjust-workbook-compression-level/)
 - [Сохранить книгу в формате Strict Open XML Spreadsheet](/cells/ru/net/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [Сохранение файла в объект ответа](/cells/ru/net/saving-file-to-response-object/)
+{{< app/cells/assistant language="csharp" >}}

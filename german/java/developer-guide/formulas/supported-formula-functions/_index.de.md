@@ -36,6 +36,7 @@ Der Formelberechnungsmotor von Aspose.Cells ermöglicht es Ihnen, die Ergebnisse
 |ANCHORARRAY|**Suche und Verweis**: Gibt den gesamten überlaufenden Bereich für das dynamische Array in der Zelle zurück
 |AND|**Logisch**: Gibt WAHR zurück, wenn alle Argumente WAHR sind
 |AREAS|**Suche und Verweis**: Gibt die Anzahl der Bereiche in einem Bezug zurück
+|ARRAYTOTEXT|**Text**: Gibt ein Array von Textwerten aus einem angegebenen Bereich zurück
 |ASC|**Text**: Ändert vollbreite (doppelbyte) englische Buchstaben oder Katakana in einem Zeichenfolgen in halbbreite (einzelbyte) Zeichen um
 |ASIN|**Mathematik und Trigonometrie**: Gibt den Arkussinus einer Zahl zurück
 |ASINH|**Mathematik und Trigonometrie**: Gibt den inversen hyperbolischen Sinus einer Zahl zurück
@@ -69,6 +70,8 @@ Der Formelberechnungsmotor von Aspose.Cells ermöglicht es Ihnen, die Ergebnisse
 |BITOR|**Ingenieurwesen**: Gibt ein bitweises Oder von 2 Zahlen zurück
 |BITRSHIFT|**Ingenieurwesen**: Gibt eine Zahl zurück, die um shift_amount Bits nach rechts verschoben wurde
 |BITXOR|**Ingenieurwesen**: Gibt ein bitweises 'Exklusives Oder' von zwei Zahlen zurück
+|BYCOL|**Logisch**: Wendet eine LAMBDA an jede Spalte an und gibt ein Array der Ergebnisse zurück
+|BYROW|**Logisch**: Wendet eine LAMBDA an jede Zeile an und gibt ein Array der Ergebnisse zurück
 
 ###### **C**
 |**Funktion**|**Zusammenfassung**|
@@ -148,7 +151,7 @@ Der Formelberechnungsmotor von Aspose.Cells ermöglicht es Ihnen, die Ergebnisse
 |DOLLARDE|**Financial**: Konvertiert einen Dollarkurs, der als Bruch dargestellt ist, in einen Dollarkurs, der als Dezimalzahl dargestellt ist
 |DOLLARFR|**Financial**: Konvertiert einen Dollarkurs, der als Dezimalzahl dargestellt ist, in einen Dollarkurs, der als Bruch dargestellt ist
 |DPRODUCT|**Database**: Multipliziert die Werte in einem bestimmten Feld von Datensätzen, die den Kriterien in einer Datenbank entsprechen
-|DROP|**Suche und Verweis**: Schließt eine bestimmte Anzahl von Zeilen oder Spalten am Anfang oder Ende eines Arrays aus
+|DROP|**Such- und Referenzfunktion**: Schließt eine angegebene Anzahl von Zeilen oder Spalten vom Anfang oder Ende eines Arrays aus
 |DSTDEV|**Database**: Schätzt die Standardabweichung basierend auf einer Stichprobe aus ausgewählten Datenbankeinträgen
 |DSTDEVP|**Database**: Berechnet die Standardabweichung basierend auf der gesamten Population ausgewählter Datenbankeinträge
 |DSUM|**Database**: Addiert die Zahlen in der Spalte mit den Datensätzen in der Datenbank, die den Kriterien entsprechen
@@ -515,6 +518,7 @@ Der Formelberechnungsmotor von Aspose.Cells ermöglicht es Ihnen, die Ergebnisse
 |**Funktion**|**Zusammenfassung**|
 | :- | :- |
 |VALUE|**Text**: Konvertiert ein Textargument in eine Zahl
+|VALUETOTEXT|**Text**: Gibt Text aus einem beliebigen Wert zurück
 |VAR|**Kompatibilität**: Schätzt die Varianz basierend auf einer Stichprobe
 |VAR.P|**Statistisch**: Berechnet die Varianz basierend auf der gesamten Population
 |VAR.S|**Statistisch**: Schätzt die Varianz basierend auf einer Stichprobe
@@ -557,3 +561,4 @@ Der Formelberechnungsmotor von Aspose.Cells ermöglicht es Ihnen, die Ergebnisse
 |Z.TEST|**Statistisch**: Gibt den einseitigen Wahrscheinlichkeitswert eines z-Tests zurück
 |ZTEST|**Kompatibilität**: Gibt den einseitigen Wahrscheinlichkeitswert eines z-Tests zurück
 
+{{< app/cells/assistant language="java" >}}

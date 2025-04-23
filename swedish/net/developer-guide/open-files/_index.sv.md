@@ -42,4 +42,5 @@ Med Aspose.Cells är det enkelt att öppna, spara och hantera Excel-filer.
 - [Konvertera-Excel-till-JSON](/cells/sv/net/convert-excel-to-json/)
 - [Konvertera JSON till CSV](/cells/sv/net/convert-json-to-csv/)
 - [Konvertera-JSON-till-Excel](/cells/sv/net/convert-json-to-excel/)
-- [Konvertera-Excel-till-Html](/cells/sv/net/convert-excel-to-html/)
+- [Konvertera Excel till HTML](/cells/sv/net/convert-excel-to-html/)
+{{< app/cells/assistant language="csharp" >}}

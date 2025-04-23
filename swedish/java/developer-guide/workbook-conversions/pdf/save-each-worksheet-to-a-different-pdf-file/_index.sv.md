@@ -20,3 +20,4 @@ Om du behöver spara varje kalkylblad i din mall Excel-fil för att generera oli
 Om kalkylbladet innehåller formler är det bäst att anropa metoden [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) precis innan kalkylbladet renderas till PDF. Detta säkerställer att formelberoende värden beräknas om och de korrekta värdena renderas i PDF-filen.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -16,3 +16,4 @@ A volte, si desidera ignorare le colonne nascoste durante l'esportazione dei dat
 Il seguente codice di esempio spiega l'uso della proprietà [**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns) nell'ignorare le colonne nascoste durante l'esportazione dell'intero foglio di lavoro nella tabella dati.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-IgnoreHiddenColumnsDataTable-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

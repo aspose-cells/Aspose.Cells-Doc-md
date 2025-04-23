@@ -29,3 +29,4 @@ Om du öppnar diagrammets SVG i anteckningar kommer du att hitta **viewBox** -at
 
 - [Diagramrendering](/cells/sv/java/chart-rendering/)
 - [Exportera Arbetsblad eller Diagram till Bild med önskad Bredd och Höjd](/cells/sv/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+{{< app/cells/assistant language="java" >}}

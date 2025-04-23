@@ -28,3 +28,4 @@ Ecco l'output della console del codice di esempio sopra.
 Orange
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

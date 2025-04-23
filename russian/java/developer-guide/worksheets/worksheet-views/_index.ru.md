@@ -47,9 +47,9 @@ Aspose.Cells также позволяет разработчикам устан
 ### **Управление коэффициентом масштабирования**
 Aspose.Cells предоставляет класс [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), который представляет файл Microsoft Excel. Класс [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) содержит [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection), который позволяет получить доступ к каждому листу в файле Excel.
 
-Лист представлен классом [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Класс [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) предоставляет широкий спектр свойств и методов для управления листами. Чтобы установить коэффициент масштабирования листа, используйте метод [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) класса [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
+Лист представляется классом [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Класс [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) предоставляет широкий спектр свойств и методов для управления листами. Чтобы установить масштаб листа, используйте метод [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) класса [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
-Ниже приведен полный пример, демонстрирующий использование метода [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) для установки коэффициента масштабирования первого листа в файле Excel.
+Ниже приведен полный пример, демонстрирующий, как использовать метод [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom), чтобы установить масштаб первого листа в файле Excel.
 
 На скриншоте ниже вы можете увидеть файл Book1.xls в режиме по умолчанию.
 
@@ -77,14 +77,14 @@ Aspose.Cells также позволяет разработчикам приме
 
 Aspose.Cells предоставляет класс [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), который представляет файл Microsoft Excel. Класс [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) содержит [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection), что позволяет получить доступ к каждому листу в файле Excel.
 
-Лист представлен классом [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Класс [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) предоставляет широкий спектр свойств и методов для управления листами. Чтобы настроить закрепление области экрана, вызовите метод [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) класса [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Метод [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) принимает следующие параметры:
+Лист представляется классом [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Класс [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) предоставляет широкий спектр свойств и методов для управления листами. Чтобы настроить закрепление панелей, вызовите метод [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-). Метод [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) принимает следующие параметры:
 
 - **Строка**, индекс строки, с которой начнется закрепление.
 - **Столбец**, индекс столбца, с которого начнется закрепление.
 - **Закрепленные строки**, количество видимых строк в верхней панели.
 - **Закрепленные столбцы**, количество видимых столбцов в левой панели.
 
-Ниже приведен полный пример, демонстрирующий использование метода [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) класса [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) для закрепления строк и столбцов (начиная с C4, представленного 4-й строкой и 3-м столбцом, где строки и столбцы начинаются с 0 индексов) первого листа файла Excel.
+Ниже приведен полный пример, показывающий, как использовать метод [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) класса [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet), чтобы закрепить строки и столбцы (начиная с C4, что соответствует 4-й строке и 3-му столбцу, где нумерация строк и столбцов начинается с 0) первого листа Excel файла.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FreezePanes-FreezePanes.java" >}}
 
@@ -106,7 +106,7 @@ Aspose.Cells предоставляет класс [Workbook](https://reference.
 Разделы работают одновременно. Если вы внесете изменение в один, изменение одновременно появится в другом. Aspose.Cells предоставляет функцию разделения панелей для пользователей.
 ### **Применение и удаление разделенных панелей**
 #### **Разделение панелей**
-Aspose.Cells предоставляет класс [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), который представляет файл Microsoft Excel. Класс [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) обеспечивает широкий спектр свойств и методов для управления файлами Excel. Для реализации разделенных видов используйте метод [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\)) класса [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Чтобы удалить разделенные панели, используйте метод [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\))
+Aspose.Cells предоставляет класс [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), представляющий файл Microsoft Excel. Класс [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) предоставляет широкий спектр свойств и методов для работы с файлами Excel. Для реализации раздельных областей используйте метод [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split--) класса [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Чтобы удалить разделение панелей, используйте метод [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--)
 
 В примере мы используем простой шаблонный файл, который загружается, затем устанавливается функция разделенных панелей для ячейки на первом листе. Обновленный файл сохраняется.
 
@@ -122,7 +122,7 @@ Aspose.Cells предоставляет класс [Workbook](https://reference.
 
 ![todo:image_alt_text](worksheet-views_9.png)
 #### **Удаление панелей**
-Разработчики могут удалять разделенные панели, используя [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) метод класса [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
+Разработчики могут удалять разделения панелей с помощью метода [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--) класса [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovePanes-RemovePanes.java" >}}
 
@@ -133,3 +133,4 @@ Aspose.Cells предоставляет класс [Workbook](https://reference.
 - [Показ и скрытие элементов](/cells/ru/java/show-and-hide-elements/)
 - [Показывать формулы вместо значений в таблице](/cells/ru/java/show-formulas-instead-of-values-in-a-worksheet/)
 - [Использовать параметры проверки ошибок](/cells/ru/java/use-error-checking-options/)
+{{< app/cells/assistant language="java" >}}

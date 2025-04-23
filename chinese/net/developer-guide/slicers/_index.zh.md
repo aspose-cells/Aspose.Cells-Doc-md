@@ -36,3 +36,4 @@ description: 使用Aspose.Cells管理Excel文件的切片器。
 - [移除切片器](/cells/zh/net/removing-slicer/)
 - [呈现切片器](/cells/zh/net/rendering-slicer/)
 - [更新分析器](/cells/zh/net/updating-slicer/)
+{{< app/cells/assistant language="csharp" >}}

@@ -30,3 +30,4 @@ url: /ar/net/detecting-circular-reference/
 تعريف فئة *CircularMonitor* المشتقة من [**AbstractCalculationMonitor**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor) على النحو التالي:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-DetectCircularReference-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

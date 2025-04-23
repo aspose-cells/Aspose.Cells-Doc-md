@@ -23,3 +23,4 @@ workbook.Save("AsposeConvert.pdf", SaveFormat.Pdf);
 Scarica **Converti foglio di calcolo in PDF** da uno qualsiasi dei seguenti siti di codice sociale:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Convert.Spreadsheet.To.PDF.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

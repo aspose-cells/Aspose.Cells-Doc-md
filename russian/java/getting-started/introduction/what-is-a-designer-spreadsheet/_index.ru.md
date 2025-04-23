@@ -36,3 +36,4 @@ url: /ru/java/what-is-a-designer-spreadsheet/
 Кроме того, Aspose.Cells позволяет добавлять [умные маркеры](/cells/ru/java/smart-markers/) в дизайнерскую электронную таблицу. Умные маркеры обрабатываются во время выполнения с использованием метода Process класса [**WorkbookDesigner**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner). Это может помочь вам писать меньше кода и все равно получать отличный результат.
 
 [Узнайте больше о умных маркерах](/cells/ru/java/smart-markers/).
+{{< app/cells/assistant language="java" >}}

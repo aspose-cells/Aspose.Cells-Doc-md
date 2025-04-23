@@ -20,3 +20,4 @@ L'esempio seguente mostra come aggiungere una forma WordArt come watermark all'a
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-AddWordArtWatermarkToChart-AddWordArtWatermarkToChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

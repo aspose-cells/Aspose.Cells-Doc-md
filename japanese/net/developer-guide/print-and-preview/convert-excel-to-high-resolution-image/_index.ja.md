@@ -1,11 +1,12 @@
 ---
-title: Excel を高解像度画像に変換する
+title: Excelを高解像度画像に変換する
 type: docs
 weight: 100
-url: /ja/net/convert-excle-to-high-resolution-image/
+url: /ja/net/convert-excel-to-high-resolution-image/
 ---
 
-高解像度画面の普及に伴い、デフォルトの96 DPIで生成された画像はぼやけて不明瞭に見えることがよくあります。高解像度の画面ではクリアな画像を生成するために、より高い DPI で画像を生成することが重要です。Aspose.Cellsでは、Excelファイルから高品質の画像を作成できる機能を提供し、高解像度ディスプレイ上で鮮明に表示される画像を作成できます。
+高解像度スクリーンの普及により、デフォルトの96 DPIで生成された画像はしばしばぼやけて不鮮明に見えます。高解像度スクリーンでの鮮明さを保つためには、より高いDPIで画像を生成することが重要です。Aspose.Cellsは[**ImageOrPrintOptions.HorizontalResolution**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/horizontalresolution/)と[**ImageOrPrintOptions.VerticalResolution**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/verticalresolution/)を設定できる機能を提供し、高品質な画像を作成して高解像度ディスプレイ上でも鮮明に見せることができます。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Image-ExcelToHighResolutionImage.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

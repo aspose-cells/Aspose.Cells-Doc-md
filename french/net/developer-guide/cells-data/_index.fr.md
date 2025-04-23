@@ -85,3 +85,4 @@ En travaillant sur des feuilles de calcul, les utilisateurs peuvent ajouter diff
 
 
 
+{{< app/cells/assistant language="csharp" >}}

@@ -43,3 +43,4 @@ La función de consolidación Recuento único es compatible solo con Microsoft E
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="java" >}}

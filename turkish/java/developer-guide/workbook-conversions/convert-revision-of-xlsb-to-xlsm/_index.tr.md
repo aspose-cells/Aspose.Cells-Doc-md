@@ -24,3 +24,4 @@ Aşağıdaki ekran görüntüsü, XLSB dosyasının Aspose.Cells kullanılarak X
 Aşağıda XLSB dosyasını XLSM formatına dönüştürmek için kullanılan kod bulunmaktadır.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConvertRevisionOfXLSBtoXLSM-ConvertRevisionOfXLSBtoXLSM.java" >}}
+{{< app/cells/assistant language="java" >}}

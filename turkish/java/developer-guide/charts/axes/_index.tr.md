@@ -35,3 +35,4 @@ Aşağıdaki kod parçası X ve Y eksenlerinin seçeneklerini nasıl ayarlayaca�
 - [Tick Etiketi Yönünü Değiştirme](/cells/tr/java/change-tick-label-direction/)
 - [Grafikte Hangi Eksenin Var Olduğunu Belirleme](/cells/tr/java/determine-which-axis-exists-in-the-chart/)
 - [Grafik Ekseni Otomatik Birimleri ile Başa Çık](/cells/tr/java/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
+{{< app/cells/assistant language="java" >}}

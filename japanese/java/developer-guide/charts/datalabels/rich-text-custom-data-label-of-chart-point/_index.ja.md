@@ -7,7 +7,7 @@ url: /ja/java/rich-text-custom-data-label-of-chart-point/
 
 {{% alert color="primary" %}}
 
-Aspose.Cellsを使用して、チャートポイントのリッチテキストカスタムデータラベルを作成できます。Aspose.Cellsは、フォントのプロパティ（色、太字など）を設定するために使用できる[**DataLabels.characters()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#characters(int,%20int))メソッドを提供しています。
+Aspose.Cellsを使用して、チャートポイントのリッチテキストカスタムデータラベルを作成できます。Aspose.Cellsは、フォントのプロパティ（色、太字など）を設定するために使用できる[**DataLabels.characters()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#characters-int-int-)メソッドを提供しています。
 
 {{% /alert %}}
 
@@ -20,3 +20,4 @@ Aspose.Cellsを使用して、チャートポイントのリッチテキスト�
 ## 関連記事
 
 - [チャートのデータラベルの形状タイプを設定する](/cells/ja/java/set-the-shape-type-of-data-labels-of-chart/)
+{{< app/cells/assistant language="java" >}}

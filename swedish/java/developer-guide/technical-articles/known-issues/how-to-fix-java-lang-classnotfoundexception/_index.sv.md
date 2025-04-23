@@ -44,3 +44,4 @@ Alternativt kan du lägga till beroendet i pom.xml och låta projektet lösa ber
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="java" >}}

@@ -16,7 +16,7 @@ Raporlarda önemli bilgileri vurgulamanın bir yolu, bir metin kutusu kullanmakt
 - [**getTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame) methodu, metin kutusunun içeriğini ayarlamak için kullanılan bir [**MsoTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame) nesnesi döndürür.
 - [**setPlacement**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement) methodu, yerleşim tipini belirtir.
 - [**setFont**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Font) methodu, yazı tipi özniteliklerini belirtir.
-- [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink(java.lang.String)) methodu, metin kutusu için bir bağlantıyı ekler.
+- [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink-java.lang.String-) methodu, metin kutusu için bir bağlantıyı ekler.
 - [**FillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#FillFormat) özelliği, metin kutusu için doldurma biçimini ayarlamak için kullanılan bir [**MsoFillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoFillFormat) nesnesi döndürür.
 - [**LineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#LineFormat) özelliği, metin kutusu çizgisi için stil ve kalınlık genellikle kullanılan bir [**MsoLineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoLineFormat) nesnesi döndürür.
 - [**setText**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text) yöntemi metin kutusu için giriş metnini belirtir.
@@ -335,3 +335,4 @@ Aşağıdaki örnek, çalışma sayfasına oval şekiller eklemeyi gösterir. Ö
 ## **Gelişmiş Konular**
 - [Aspose.Cells Kullanarak ActiveX Kontrolleri Ekleme](/cells/tr/java/add-activex-controls-using-aspose-cells/)
 - [ActiveX Kontrolü Kaldırma](/cells/tr/java/remove-activex-control/)
+{{< app/cells/assistant language="java" >}}

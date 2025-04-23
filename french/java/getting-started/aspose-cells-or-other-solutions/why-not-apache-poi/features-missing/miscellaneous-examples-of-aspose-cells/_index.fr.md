@@ -9,3 +9,4 @@ url: /fr/java/miscellaneous-examples-of-aspose-cells/
 - [Définir les titres d'impression](/cells/fr/java/set-print-titles/)
 - [Imprimer des classeurs en utilisant Aspose.Cells](/cells/fr/java/printing-workbooks-using-aspose-cells/)
 - [Convertir une feuille de calcul en PDF en utilisant Aspose.Cells](/cells/fr/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

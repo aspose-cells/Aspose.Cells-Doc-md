@@ -44,3 +44,4 @@ Preserve Formatting: False
 Aspose.Cells提供了读取查询表结果范围的选项。以下代码演示了通过读取查询表的结果范围地址来实现此功能。示例文件可以从[这里](72417290.xlsx)下载。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAddressOfResultRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

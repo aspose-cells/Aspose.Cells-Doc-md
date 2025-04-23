@@ -27,3 +27,4 @@ Aspose.Cells позволяет изменять цвет отдельных в�
 Приведенный ниже образцовый код показывает, как установить цвет вкладки с помощью Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetWorksheetTabColor-SetWorksheetTabColor.java" >}}
+{{< app/cells/assistant language="java" >}}

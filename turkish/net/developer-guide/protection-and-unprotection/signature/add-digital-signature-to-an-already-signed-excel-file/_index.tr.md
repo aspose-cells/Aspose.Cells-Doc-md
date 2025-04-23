@@ -26,3 +26,4 @@ Aşağıdaki örnek kod, zaten imzalanmış bir Excel dosyasına dijital imza ek
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AddDigitalSignatureToAnAlreadySignedExcelFile.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

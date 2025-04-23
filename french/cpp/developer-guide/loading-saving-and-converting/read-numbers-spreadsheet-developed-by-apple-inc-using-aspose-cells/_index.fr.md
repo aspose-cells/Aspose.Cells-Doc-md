@@ -11,7 +11,7 @@ Numbers est une application de feuille de calcul développée par Apple Inc. Asp
 
 ## **Lire des feuilles de calcul numériques développées par Apple Inc. à l'aide d'Aspose.Cells**
 
-Le code d'exemple suivant charge le [Tableur de nombres d'exemple](sampleNumbersByAppleInc.numbers) et le convertit en [Format PDF de sortie](outputNumbersByAppleInc.pdf). Vous devrez utiliser la classe **[LoadOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/)** et spécifier **[LoadFormat::Numbers](https://reference.aspose.com/cells/cpp/aspose.cells/loadformat/)** en tant que paramètre dans son constructeur pour le charger avec succès. Veuillez les télécharger à partir des liens donnés. Vous pouvez essayer le code avec n'importe quel tableur Numbers. Veuillez également lire les commentaires du code pour plus d'aide.
+Le code d'exemple suivant charge le [Feuille de calcul Numéros d’Échantillon](sampleNumbersByAppleInc.numbers) et la convertit au [Format PDF de sortie](outputNumbersByAppleInc.pdf). Vous devrez utiliser la classe **[LoadOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/)** et spécifier **[LoadFormat::Numbers](https://reference.aspose.com/cells/cpp/aspose.cells/loadformat/)** comme paramètre dans son constructeur pour le charger avec succès. Téléchargez les deux fichiers via les liens donnés. Vous pouvez essayer le code avec n'importe quelle feuille Numbers. Veuillez également lire les commentaires du code pour plus d'aide.
 
 ## **Code d'exemple**
 

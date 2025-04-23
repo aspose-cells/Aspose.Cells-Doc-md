@@ -11,7 +11,7 @@ Bir çalışma kitabına yeni bir sayfa eklediğinizde, varsayılan Sayfa Düzen
 
 ## **Kaynak Çalışma Sayfasından Hedef Çalışma Sayfasına Sayfa Ayarı Ayarlarını Kopyala**
 
-Aşağıdaki örnek kod, [**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy(com.aspose.cells.PageSetup,%20com.aspose.cells.CopyOptions)) yöntemini kullanarak bir çalışma sayfasındaki Sayfa Düzeni ayarlarını başka bir sayfaya kopyalamanın nasıl yapıldığını göstermektedir. Lütfen örnek kodu ve ilgili konsol çıktısını referans için inceleyin.
+Aşağıdaki örnek kod, [**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy-com.aspose.cells.PageSetup-com.aspose.cells.CopyOptions-) yöntemini kullanarak bir çalışma sayfasındaki Sayfa Düzeni ayarlarını başka bir sayfaya kopyalamanın nasıl yapıldığını göstermektedir. Lütfen örnek kodu ve ilgili konsol çıktısını referans için inceleyin.
 
 ## **Örnek Kod**
 
@@ -30,3 +30,4 @@ After Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 After Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

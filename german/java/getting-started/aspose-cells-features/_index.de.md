@@ -106,3 +106,4 @@ Sie können Aspose.Cells for Java verwenden, um Seiteneinrichtungsoptionen für 
 |Legen Sie den Druckbereich fest, drucken Sie Titel oder schalten Sie Gitterlinien ein usw.|Ja|
 
 
+{{< app/cells/assistant language="java" >}}

@@ -50,3 +50,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 スプレッドシートに数式が含まれている場合、スプレッドシートをPDF形式にレンダリングする直前にWorkbook.CalculateFormulaメソッドを呼び出すことが最善です。これにより、数式に依存した値が再計算され、正しい値がPDFに表示されます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

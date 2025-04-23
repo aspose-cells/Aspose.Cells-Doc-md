@@ -31,3 +31,4 @@ url: /zh/net/public-api-changes-in-aspose-cells-8-2-0/
 请查看详细文章 [Auto Fit Rows and Columns](http://aspose.com/docs/display/cellsnet/AutoFit+Rows+and+Columns)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

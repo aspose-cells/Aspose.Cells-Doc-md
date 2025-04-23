@@ -20,3 +20,4 @@ url: /ar/net/save-each-worksheet-to-a-different-pdf-file/
 إذا كانت جداول البيانات الخاصة بك تحتوي على صيغ، من الأفضل استدعاء [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) قبل تحويل جدول البيانات إلى تنسيق PDF. وذلك سيضمن إعادة حساب قيم الصيغ الخاصة وتقديم القيم الصحيحة في الملف الناتج PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

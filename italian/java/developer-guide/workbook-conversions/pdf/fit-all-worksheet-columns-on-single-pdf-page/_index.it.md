@@ -30,3 +30,4 @@ Il codice di esempio qui sotto mostra come utilizzare la proprietà [**PdfSaveOp
 Se il foglio di calcolo contiene formule, è meglio chiamare il metodo [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) subito prima di rendere il foglio di calcolo in formato PDF. In questo modo si garantirà che i valori dipendenti dalle formule vengano ricalcolati e che i valori corretti siano resi nel PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

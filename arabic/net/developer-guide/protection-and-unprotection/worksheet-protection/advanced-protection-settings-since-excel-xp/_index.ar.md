@@ -66,3 +66,4 @@ url: /ar/net/advanced-protection-settings-since-excel-xp/
 من الممكن قفل الخلايا باستخدام واجهة برمجة التطبيقات لـ Aspose.Cells أيضًا. يمكن أن تأخذ كل خلية تنسيقًا يحتوي على خاصية منطقية، [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style). ضبط خاصية [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) على **صحيح** أو **خطأ** لقفل أو فتح الخلية.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

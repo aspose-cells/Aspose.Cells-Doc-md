@@ -25,3 +25,4 @@ Aspose.Cells for .NET поддерживает добавление связан
 В следующем примере показано, как добавить связанное изображение из веб-адреса в таблицу.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertLinkedPicture-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

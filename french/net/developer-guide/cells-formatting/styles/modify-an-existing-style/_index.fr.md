@@ -52,3 +52,4 @@ Cet exemple utilise un fichier Excel de modèle simple dans lequel un style appe
 Les modifications sont automatiquement appliquées à la plage à laquelle le style a été appliqué.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ModifyExistingStyle-ModifyThroughSampleExcelFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

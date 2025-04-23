@@ -4,15 +4,15 @@ type: docs
 weight: 5
 url: /es/nodejs-cpp/features/
 keywords: "nodejs, excel, api, features"
-description: "Características de Aspose.Cells para Node.js a través de C++."
+description: "Características Aspose.Cells for Node.js via C++."
 ---
 
-## **Resumen de características de Aspose.Cells para Node.js a través de C++**
-Esta sección proporciona una comparación de la disponibilidad de características entre Aspose.Cells for C++ y Aspose.Cells para Node.js a través de C++.
+## **Visión general de características Aspose.Cells for Node.js via C++**
+Esta sección proporciona una comparación de la disponibilidad de funciones entre Aspose.Cells for C++ y Aspose.Cells for Node.js via C++.
 ### **Formatos de Archivo y Conversiones**
 Clientes de todo el mundo confían en las completas características de importación y exportación de documentos proporcionadas por Aspose.Cells.
 
-|**Característica**|**Descripción**|**Aspose.Cells for C++**|**Aspose.Cells para Node.js a través de C++**|
+|**Función**|**Descripción**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- | :- |
 |Conversiones de alta calidad|Convertir rápidamente y de manera fiable entre varios formatos de documento populares.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Libro de Microsoft Excel (XLS)|La implementación más rápida y completa del formato XLS que puedes encontrar.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -26,21 +26,21 @@ Clientes de todo el mundo confían en las completas características de importac
 ### **Renderizado e Impresión**
 Aspose.Cells ahora proporciona un renderizado de alta fidelidad de las páginas de hojas de cálculo.
 
-|**Característica**|**Aspose.Cells for C++**|**Aspose.Cells para Node.js a través de C++**|
+|**Función**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
 |Diseñar documento en páginas con alta fidelidad a Microsoft Excel® (exactamente como lo haría Microsoft Excel®).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Renderizar páginas de hojas de cálculo a imágenes de mapa de bits (PNG, JPEG, etc.).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Renderizar páginas de hojas de cálculo a imágenes de mapa de bits (TIFF multipágina, GIF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Renderizar páginas de hojas de cálculo a imágenes vectoriales (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Especificar resolución de imagen, calidad, compresión y otras opciones.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Imprimir páginas de hojas de cálculo utilizando la infraestructura de impresión de C++.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Imprimir páginas de hojas de cálculo usando la infraestructura de impresión de C++.|{{< emoticons/cross >}}|{{< emoticons/cross >}}|
 |Actualizar números de página y otros campos antes de renderizar o imprimir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Características del Contenido de la Hoja de Cálculo**
 Aspose.Cells proporciona un modelo de objetos rico que consta de más de 100 clases/interfases públicas, que le permiten generar, combinar, modificar, analizar o examinar de otra forma hojas de cálculo cargadas de forma programática. Algunas características clave se proporcionan en la siguiente tabla.
 
-|**Característica**|**Aspose.Cells for C++**|**Aspose.Cells para Node.js a través de C++**|
+|**Función**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
-|Importar/exportar datos desde un Array, ArrayList, ResultSet, etc.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Importar/exportar datos desde un Array, ArrayList, ResultSet, etc.|{{< emoticons/cross >}}|{{< emoticons/cross >}}|
 |Agregar una copia de una hoja de cálculo existente (incluyendo todo su contenido como imágenes, gráficos, otros objetos, etc.).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Copiar o mover hojas de cálculo dentro o entre libros de trabajo.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Insertar imágenes|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -77,7 +77,7 @@ Aspose.Cells proporciona un modelo de objetos rico que consta de más de 100 cla
 ### **Funciones de formato de la hoja de cálculo**
 Aspose.Cells proporciona acceso programático detallado a las propiedades de formato de todos los elementos de la hoja de cálculo.
 
-|**Característica**|**Aspose.Cells for C++**|**Aspose.Cells para Node.js a través de C++**|
+|**Función**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
 |Aplicar todo el formato de caracteres en las celdas, incluidas fuentes, colores, efectos, bordes y sombreado.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Aplicar todas las configuraciones de formato de número (compatibles con Microsoft Excel) para las celdas.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -91,7 +91,7 @@ Aspose.Cells proporciona acceso programático detallado a las propiedades de for
 ### **Características de Configuración de Página**
 Puede usar Aspose.Cells para implementar opciones de configuración de página para hojas de cálculo.
 
-|**Característica**|**Aspose.Cells for C++**|**Aspose.Cells para Node.js a través de C++**|
+|**Función**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
 |Ajustar la orientación de la página, escala, tamaño del papel, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Especificar márgenes y centrado de página.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

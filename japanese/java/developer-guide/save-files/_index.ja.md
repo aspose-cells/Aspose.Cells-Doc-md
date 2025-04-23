@@ -14,7 +14,7 @@ url: /ja/java/saving-excel-files-to-csv-pdf-and-other-formats/
 
 ## **ファイルを保存するさまざまな方法**
 
-Aspose.Cells APIでは、Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)というクラスが提供され、開発者がExcelファイルを操作する際に必要なすべてのプロパティとメソッドを提供します。[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)クラスはExcelファイルを保存するために使用される[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))メソッドを提供します。[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))メソッドには、さまざまな方法でExcelファイルを保存するための多数のオーバーロードが用意されています。
+Aspose.Cells APIでは、Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)というクラスが提供され、開発者がExcelファイルを操作する際に必要なすべてのプロパティとメソッドを提供します。[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)クラスはExcelファイルを保存するために使用される[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-)メソッドを提供します。[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-)メソッドには、さまざまな方法でExcelファイルを保存するための多数のオーバーロードが用意されています。
 
 開発者はまた、保存するファイルのフォーマットを指定することができます。ファイルはXLS、SpreadsheetML、CSV、タブ区切り、タブ区切り値TSV、XPSなどの形式で保存することができます。これらのファイル形式は[**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)列挙型を使用して指定されます。
 
@@ -30,12 +30,12 @@ Aspose.Cells APIでは、Excelファイルを表す[**Workbook**](https://refere
 |[**XLTM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLTM)|Excelマクロ有効化テンプレートファイルを表します|
 |[**XLAM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLAM)|Excel XLAMファイルを表します|
 |[**TSV**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TSV)|タブ区切り値ファイルを表します|
-|[**TAB_DELIMITED**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TAB_DELIMITED)|タブ区切りテキストファイルを表します|
+|[**TAB_DELIMITED**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TAB-DELIMITED)|タブ区切りテキストファイルを表す|
 |[**HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML)|HTMLファイルを表します|
-|[**M_HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#M_HTML)|MHTMLファイルを表します|
+|[**M_HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#M-HTML)|MHTMLファイルを表す|
 |[**ODS**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#ODS)|OpenDocumentスプレッドシートファイルを表します|
-|[**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#EXCEL_97_TO_2003)|Excel 1997年から2003年までの形式のデフォルトのXLSファイルを表します|
-|[**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SPREADSHEET_ML)|SpreadSheetMLファイルを表します|
+|[**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#EXCEL-97-TO-2003)|Excel 1997 から 2003 のバージョンの標準フォーマットであるXLSファイルを表す|
+|[**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SPREADSHEET-ML)|スプレッドシートMLファイルを表します|
 |[**XLSB**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLSB)|Excel 2007バイナリXLSBファイルを表します|
 |[**UNKNOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#UNKNOWN)|認識されない形式を表し、保存できません。|
 |[**PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)|PDFドキュメントを表します|
@@ -52,7 +52,7 @@ Aspose.Cells APIでは、Excelファイルを表す[**Workbook**](https://refere
 
 ## **ファイルを任意の場所に保存する**
 
-開発者がファイルを特定のストレージ場所に保存する必要がある場合、単にファイル名（完全な保存パスを含む）と所望のファイル形式（[**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)列挙体を使用）を指定して[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)オブジェクトの[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))メソッドを呼び出すことで可能です。
+開発者がファイルを特定のストレージ場所に保存する必要がある場合、単にファイル名（完全な保存パスを含む）と所望のファイル形式（[**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)列挙体を使用）を指定して[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)オブジェクトの[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-)メソッドを呼び出すことで可能です。
 
 **例:**
 
@@ -66,7 +66,7 @@ Aspose.Cells APIでは、Excelファイルを表す[**Workbook**](https://refere
 
 コードが実行されると、ワークブックのすべてのシートのデータがTXT形式に変換されます。
 
-同じ例を修正してファイルを CSV に保存できます。デフォルトでは、[**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) はコンマですので、CSV 形式に保存する場合はセパレーターを指定しないでください。ご注意ください：評価版を使用しており、かつメソッド [**TxtSaveOptions.setExportAllSheets(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions/#setExportAllSheets-boolean-) のパラメーターが true に設定されていても、プログラムは引き続きワークシートを1つだけエクスポートします。
+同じ例を修正して、ファイルをCSV形式で保存できます。デフォルトでは、[**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator)はカンマであり、CSV形式で保存する場合は区切り文字を指定しないでください。ご注意：評価版を使用している場合でも、メソッド[**TxtSaveOptions.setExportAllSheets(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions/#setExportAllSheets-boolean-)のパラメータをtrueに設定しても、プログラムは1つのワークシートのみをエクスポートします。
 
 **例:**
 
@@ -80,7 +80,7 @@ Aspose.Cells APIでは、Excelファイルを表す[**Workbook**](https://refere
 
 ## **ストリームにファイルを保存**
 
-開発者がファイルを**ストリーム**に保存する必要がある場合、**FileOutputStream**オブジェクトを作成して、[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)オブジェクトの[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))メソッドを呼び出してその**ストリーム**オブジェクトにファイルを保存します。開発者は、[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))メソッドを呼び出す際に、所望のファイル形式（[**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)列挙体を使用）も指定できます。
+開発者がファイルを**ストリーム**に保存する必要がある場合、**FileOutputStream**オブジェクトを作成して、[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)オブジェクトの[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-)メソッドを呼び出してその**ストリーム**オブジェクトにファイルを保存します。開発者は、[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-)メソッドを呼び出す際に、所望のファイル形式（[**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)列挙体を使用）も指定できます。
 
 **例:**
 
@@ -128,3 +128,4 @@ Aspose.Cells APIは、スプレッドシートをMarkdown形式にエクスポ�
 - [ストリクトなOpen XMLスプレッドシート形式でワークブックを保存](/cells/ja/java/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [ExcelからTIFFへの変換の進行状況を追跡](/cells/ja/java/track-conversion-progress-of-excel-to-tiff/)
 - [文書変換の進行状況を追跡する](/cells/ja/java/track-document-conversion-progress/)
+{{< app/cells/assistant language="java" >}}

@@ -73,3 +73,4 @@ Microsoft Excelを使用してチャートおよびその軸のタイトルをWY
 ## **高度なトピック**
 - [チャートシリーズの値の形式コードを設定する](/cells/ja/net/set-the-values-format-code-of-chart-series/)
 - [グラフの背景に画像を設定する](/cells/ja/net/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="csharp" >}}

@@ -23,3 +23,4 @@ Daha sonra veri kaynağını veri ile doldurur ve [WorkbookDesigner.Process()](h
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingImageMarkersWhileGroupingDataInSmartMarkers-UsingImageMarkersWhileGroupingDataInSmartMarkers.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

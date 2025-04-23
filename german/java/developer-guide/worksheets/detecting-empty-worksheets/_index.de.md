@@ -25,3 +25,4 @@ Es gibt eine Reihe von Möglichkeiten, den Zellenenumerator zu erhalten, wie in 
 Es ist möglich, dass ein bestimmtes Arbeitsblatt keine gefüllten Zellen enthält, jedoch Formen und Objekte wie Steuerelemente, Diagramme, Bilder usw. enthält. Wenn wir überprüfen müssen, ob ein Arbeitsblatt eine Form enthält, können wir dies tun, indem wir die Eigenschaft [ShapeCollection.Count](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#Count) überprüfen. Ein positiver Wert deutet auf das Vorhandensein von Form(en) im Arbeitsblatt hin.
 ## **Programmierbeispiel**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CheckForShapes-1.java" >}}
+{{< app/cells/assistant language="java" >}}

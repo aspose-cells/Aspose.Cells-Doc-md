@@ -106,3 +106,4 @@ Vous pouvez utiliser Aspose.Cells for Java pour mettre en œuvre des options de 
 |Définissez la zone d'impression, les titres d'impression ou activez les lignes de quadrillage, etc.|Oui|
 
 
+{{< app/cells/assistant language="java" >}}

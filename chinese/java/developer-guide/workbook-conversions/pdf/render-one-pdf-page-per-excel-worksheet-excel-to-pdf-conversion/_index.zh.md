@@ -24,3 +24,4 @@ url: /zh/java/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
 如果您的电子表格包含公式，最好在将电子表格渲染为 PDF 之前调用 [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) 方法。这将确保重新计算公式依赖的值，并在 PDF 中呈现正确的值。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

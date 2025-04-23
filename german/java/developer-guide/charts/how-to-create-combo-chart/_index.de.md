@@ -20,3 +20,4 @@ Nach Ausführung des unten stehenden Codes sehen Sie das Kombinationsdiagramm wi
 Der folgende Beispielscode lädt die [Beispieldatei](combo.xlsx) und erstellt die [Ausgabedatei](out.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-add-combo-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

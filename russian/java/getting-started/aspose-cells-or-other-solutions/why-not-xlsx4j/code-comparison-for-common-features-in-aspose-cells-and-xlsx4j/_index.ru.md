@@ -23,3 +23,4 @@ url: /ru/java/code-comparison-for-common-features-in-aspose-cells-and-xlsx4j/
   - [Регулировка высоты строки и столбца в xlsx4j](/cells/ru/java/row-column-height-adjustment-in-xlsx4j/)
 
 **Примечание:** Множество других сравнений кода будут доступны в ближайшее время. 
+{{< app/cells/assistant language="java" >}}

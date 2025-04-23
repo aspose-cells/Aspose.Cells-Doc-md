@@ -29,3 +29,4 @@ url: /ar/java/set-range-border/
 1. تعيين الحدود الخارجية للنطاق.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Range-set-border.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -14,7 +14,7 @@ url: /ar/java/saving-excel-files-to-csv-pdf-and-other-formats/
 
 ## **طرق مختلفة لحفظ ملفاتك**
 
-يوفر Aspose.Cells API فئة تسمى [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) تمثل ملف Excel وتوفر جميع الخصائص والأساليب اللازمة التي قد يحتاجها المطورون للعمل مع ملفات Excel الخاصة بهم. توفر فئة [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) أسلوبًا [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) يستخدم لحفظ ملفات Excel. يحتوي الأسلوب [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) على العديد من التحميلات التي تستخدم لحفظ ملفات Excel بطرق مختلفة.
+يوفر Aspose.Cells API فئة تسمى [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) تمثل ملف Excel وتوفر جميع الخصائص والأساليب اللازمة التي قد يحتاجها المطورون للعمل مع ملفات Excel الخاصة بهم. توفر فئة [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) أسلوبًا [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) يستخدم لحفظ ملفات Excel. يحتوي الأسلوب [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) على العديد من التحميلات التي تستخدم لحفظ ملفات Excel بطرق مختلفة.
 
 يمكن للمطورين أيضًا تحديد تنسيق الملف الذي يجب حفظ ملفاتهم فيه. يمكن حفظ الملفات في عدة تنسيقات مثل XLS، SpreadsheetML، CSV، مقسم بالجدول وبيانات مفصولة بفواصل TSV، XPS والعديد من التنسيقات الأخرى. يتم تحديد هذه التنسيقات باستخدام تعداد [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat).
 
@@ -30,12 +30,12 @@ url: /ar/java/saving-excel-files-to-csv-pdf-and-other-formats/
 |[**XLTM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLTM)|يمثل ملف قالب ممكن تنفيذه لبرامج Excel|
 |[**XLAM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLAM)|يمثل ملف XLAM لبرنامج Excel|
 |[**TSV**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TSV)|يمثل ملف قيم مفصولة بفواصل|
-|[**TAB_DELIMITED**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TAB_DELIMITED)|يمثل ملف نصي مفصول بواسطة علامات التبويب|
+|[**TAB_DELIMITED**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TAB-DELIMITED)|يمثل ملف نصي مفصول بعلامة تبويب|
 |[**HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML)|يمثل ملف(ات) HTML|
-|[**M_HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#M_HTML)|يمثل ملف(ات) MHTML|
+|[**M_HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#M-HTML)|يمثل ملف أو ملفات MHTML|
 |[**ODS**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#ODS)| يمثل ملف جدول بيانات OpenDocument|
-|[**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#EXCEL_97_TO_2003)| يمثل ملف XLS الذي هو التنسيق الافتراضي لإصدارات Excel من عام 1997 إلى 2003|
-|[**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SPREADSHEET_ML)| يمثل ملف SpreadSheetML|
+|[**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#EXCEL-97-TO-2003)|يمثل ملف XLS وهو التنسيق الافتراضي لإصدارات إكسل من 1997 إلى 2003|
+|[**سبريدشيت_إم إل**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SPREADSHEET-ML)|يمثل ملف SpreadSheetML|
 |[**XLSB**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLSB)| يمثل ملف Excel 2007 الثنائي XLSB|
 |[**UNKNOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#UNKNOWN)| يمثل تنسيق غير معترف به، لا يمكن حفظه|
 |[**PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)| يمثل مستند PDF|
@@ -52,7 +52,7 @@ url: /ar/java/saving-excel-files-to-csv-pdf-and-other-formats/
 
 ## **حفظ ملف في موقع معين**
 
-إذا كان المطورون بحاجة إلى حفظ ملفاتهم في موقع تخزين ما ، فيمكنهم ببساطة تحديد اسم الملف (مع مسار تخزينه الكامل) وتنسيق الملف المطلوب (باستخدام تعداد [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)) أثناء استدعاء الأسلوب [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) في [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook).
+إذا كان المطورون بحاجة إلى حفظ ملفاتهم في موقع تخزين ما ، فيمكنهم ببساطة تحديد اسم الملف (مع مسار تخزينه الكامل) وتنسيق الملف المطلوب (باستخدام تعداد [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)) أثناء استدعاء الأسلوب [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) في [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook).
 
 **مثال:**
 
@@ -66,7 +66,7 @@ url: /ar/java/saving-excel-files-to-csv-pdf-and-other-formats/
 
 عند تنفيذ الكود، يحول بيانات جميع الأوراق في كتاب العمل إلى تنسيق نصي.
 
-يمكنك تعديل نفس المثال لحفظ ملفك إلى CSV. افتراضيًا، [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) هو فاصلة، لذلك لا تحدد فاصلة عند الحفظ بتنسيق CSV. يرجى ملاحظة: إذا كنت تستخدم النسخة التقييمية وحتى إذا تم تعيين معلمة الأسلوب [**TxtSaveOptions.setExportAllSheets(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions/#setExportAllSheets-boolean-) على القيمة true، فإن البرنامج سيقوم فقط بتصدير ورقة عمل واحدة.
+يمكنك تعديل نفس المثال لحفظ ملفك بصيغة CSV. بشكل افتراضي، [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) هو فاصلة، لذا لا تحدد الفاصل إذا كنت تحفظ بصيغة CSV. يرجى ملاحظة: إذا كنت تستخدم النسخة التجريبية وحتى إذا تم ضبط معلمة [**TxtSaveOptions.setExportAllSheets(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions/#setExportAllSheets-boolean-) على true، فإن البرنامج سيصدر ورقة عمل واحدة فقط.
 
 **مثال:**
 
@@ -80,7 +80,7 @@ url: /ar/java/saving-excel-files-to-csv-pdf-and-other-formats/
 
 ## **حفظ ملف في تيار**
 
-إذا كان المطورون بحاجة إلى حفظ ملفاتهم في **Stream** ، فيجب عليهم إنشاء كائن **FileOutputStream** ثم حفظ الملف في ذلك **Stream** عن طريق استدعاء الأسلوب [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) في [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook). يمكن للمطورين أيضًا تحديد تنسيق الملف المطلوب (باستخدام تعداد [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)) أثناء استدعاء الأسلوب [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)).
+إذا كان المطورون بحاجة إلى حفظ ملفاتهم في **Stream** ، فيجب عليهم إنشاء كائن **FileOutputStream** ثم حفظ الملف في ذلك **Stream** عن طريق استدعاء الأسلوب [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) في [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook). يمكن للمطورين أيضًا تحديد تنسيق الملف المطلوب (باستخدام تعداد [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)) أثناء استدعاء الأسلوب [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-).
 
 **مثال:**
 
@@ -116,7 +116,7 @@ url: /ar/java/saving-excel-files-to-csv-pdf-and-other-formats/
 
 ## **تحويل دفتر العمل إكسل إلى Markdown**
 
-توفر Aspose.Cells API دعمًا لتصدير الأوراق الجدولية إلى تنسيق Markdown. لتصدير الورقة الجدولية النشطة إلى Markdown، قم بتمرير [**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN) كالمعلمة الثانية لأسلوب [**Workbook.Save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.lang.String,%20int)). يمكنك أيضًا استخدام فئة [**MarkdownSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/MarkdownSaveOptions) لتحديد الإعدادات الإضافية لتصدير الورقة الجدولية إلى Markdown.
+توفر Aspose.Cells API دعمًا لتصدير الأوراق الجدولية إلى تنسيق Markdown. لتصدير الورقة الجدولية النشطة إلى Markdown، قم بتمرير [**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN) كالمعلمة الثانية لأسلوب [**Workbook.Save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.lang.String-int-). يمكنك أيضًا استخدام فئة [**MarkdownSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/MarkdownSaveOptions) لتحديد الإعدادات الإضافية لتصدير الورقة الجدولية إلى Markdown.
 
 يوضح المثال التالي تصدير ورقة البيانات النشطة إلى Markdown باستخدام عضو تصنيف [**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN). يرجى الاطلاع على [ملف Markdown الناتج](Book1.txt) الذي تم إنشاؤه من قبل الكود للإشارة.
 
@@ -128,3 +128,4 @@ url: /ar/java/saving-excel-files-to-csv-pdf-and-other-formats/
 - [حفظ الدفتر إلى تنسيق جدول بيانات إكس الإكس إم الصارم](/cells/ar/java/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [تتبع تقدّم تحويل Excel إلى TIFF](/cells/ar/java/track-conversion-progress-of-excel-to-tiff/)
 - [تتبع تقدم تحويل الوثائق](/cells/ar/java/track-document-conversion-progress/)
+{{< app/cells/assistant language="java" >}}

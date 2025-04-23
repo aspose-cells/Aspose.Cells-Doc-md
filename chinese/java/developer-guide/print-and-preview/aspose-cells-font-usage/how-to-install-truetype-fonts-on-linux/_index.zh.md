@@ -102,3 +102,4 @@ rpm \-ivh /root/rpmbuild/RPMS/noarch/msttcorefonts-2.5-1.noarch.rpm
 在Ubuntu上，打开Synaptic软件包管理器。找到并安装**ttf-mscorefonts-installer**软件包。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

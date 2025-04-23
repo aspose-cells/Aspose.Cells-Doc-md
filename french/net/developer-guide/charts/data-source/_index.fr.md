@@ -34,3 +34,4 @@ Les données de catégorie sont utilisées pour l'étiquetage des données du gr
 - [Créer des graphiques dynamiques](/cells/fr/net/create-dynamic-charts/)
 - [Méthode simple pour configurer un graphique en utilisant la méthode Chart.SetChartDataRange](/cells/fr/net/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [Trouver le type de valeurs X et Y des points dans la série de graphiques](/cells/fr/net/find-type-of-x-and-y-values-of-points-in-chart-series/)
+{{< app/cells/assistant language="csharp" >}}

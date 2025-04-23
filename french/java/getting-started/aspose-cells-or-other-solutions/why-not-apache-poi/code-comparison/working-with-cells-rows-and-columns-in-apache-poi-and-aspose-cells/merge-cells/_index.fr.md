@@ -77,3 +77,4 @@ sheet.addMergedRegion(new CellRangeAddress(
 Pour plus de détails, visitez [Fusionner et défusionner (Scinder) les cellules](/cells/fr/java/merging-and-unmerging-cells).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

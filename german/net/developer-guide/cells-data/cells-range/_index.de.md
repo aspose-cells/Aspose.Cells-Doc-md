@@ -23,3 +23,4 @@ Dieses Beispiel zeigt, wie Sie:
 1. Zellen abrufen [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-get-range.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

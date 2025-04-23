@@ -20,3 +20,4 @@ Eğer şablon Excel dosyanızdaki her çalışma sayfasını farklı PDF dosyala
 Eğer elektronik tablo formüller içeriyorsa, elektronik tabloyu PDF'ye dönüştürmeden önce [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) yöntemini çağırmak en iyisidir. Bu, formül bağımlı değerlerin yeniden hesaplanmasını sağlar ve doğru değerler PDF'de gösterilir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -28,3 +28,4 @@ CSV文件通常包含文本数据，不包含任何公式。然而，有时候CS
 |![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)|
 | :- |
 
+{{< app/cells/assistant language="csharp" >}}

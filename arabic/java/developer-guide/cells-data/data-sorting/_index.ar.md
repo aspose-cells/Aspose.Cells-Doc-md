@@ -62,7 +62,7 @@ url: /ar/java/sort-data-of-excel/
 
 ## **فرز البيانات مع لون الخلفية**
 
-يوفر Excel ميزة ترتيب البيانات استنادًا إلى لون الخلفية. يُعرض نفس الميزة باستخدام Aspose.Cells باستخدام [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) حيث يمكن استخدام [**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL_COLOR) في [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int)) لترتيب البيانات استنادًا إلى لون الخلفية. يُوضع جميع الخلايا التي تحتوي على اللون المحدد في [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int)) في الجزء العلوي أو السفلي حسب إعداد SortOrder ولا يتم تغيير ترتيب بقية الخلايا على الإطلاق.
+يوفر Excel ميزة ترتيب البيانات استنادًا إلى لون الخلفية. يُعرض نفس الميزة باستخدام Aspose.Cells باستخدام [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) حيث يمكن استخدام [**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL-COLOR) في [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-) لترتيب البيانات استنادًا إلى لون الخلفية. يُوضع جميع الخلايا التي تحتوي على اللون المحدد في [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-) في الجزء العلوي أو السفلي حسب إعداد SortOrder ولا يتم تغيير ترتيب بقية الخلايا على الإطلاق.
 
 فيما يلي الملفات العينية التي يمكن تنزيلها لاختبار هذه الميزة:
 
@@ -78,3 +78,4 @@ url: /ar/java/sort-data-of-excel/
 - [فرز البيانات في العمود بقائمة فرز مخصصة](/cells/ar/java/sort-data-in-column-with-custom-sort-list/)
 - [تحديد تحذير الفرز أثناء فرز البيانات](/cells/ar/java/specifying-sort-warning-while-sorting-data/)
 
+{{< app/cells/assistant language="java" >}}

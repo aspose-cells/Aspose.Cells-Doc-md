@@ -20,3 +20,4 @@ Birkaç satır eklemek veya kaldırmak amacıyla, her zaman döngüde [**Cells.I
 Aspose.Cells, Microsoft Excel'in çalışma şekliyle aynı şekilde çalışır. Satırlar veya sütunlar eklenirse, çalışma sayfası içeriği aşağıya ve sağa kaydırılır. Satırlar veya sütunlar kaldırıldığında, çalışma sayfası içeriği yukarı veya sola kaydırılır. Satırlar eklenip kaldırıldığında diğer çalışma sayfaları ve hücrelerdeki referanslar güncellenir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertDeleteRows-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

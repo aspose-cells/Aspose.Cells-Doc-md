@@ -22,3 +22,4 @@ url: /zh/net/calculation-of-array-formula-of-data-tables/
 以下是用于从[source excel file](5115535.xlsx)生成[output PDF](5115538.pdf)的示例代码。 请阅读注释以获取更多信息。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-CalculationOfArrayFormula-CalculateArrayFormula.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

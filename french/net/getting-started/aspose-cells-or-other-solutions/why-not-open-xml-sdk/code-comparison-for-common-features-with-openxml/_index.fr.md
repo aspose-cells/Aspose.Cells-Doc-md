@@ -20,3 +20,4 @@ Cette section comprend les sujets suivants
 - [Ouvrir un document de feuille de calcul à partir d'un flux](/cells/fr/net/open-a-spreadsheet-document-from-a-stream/)
 - [Récupérer un dictionnaire de toutes les plages nommées dans un document de feuille de calcul](/cells/fr/net/retrieve-a-dictionary-of-all-named-ranges-in-a-spreadsheet-document/)
 - [Récupérer les valeurs des cellules](/cells/fr/net/retrieve-the-values-of-cells/)
+{{< app/cells/assistant language="csharp" >}}

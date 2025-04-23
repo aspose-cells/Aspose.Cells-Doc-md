@@ -58,3 +58,4 @@ A continuación, se muestra un ejemplo completo que abre un archivo de Excel (bo
 ### **Controlando el Ancho de la Barra de Pestañas**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-ControlTabBarWidth-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

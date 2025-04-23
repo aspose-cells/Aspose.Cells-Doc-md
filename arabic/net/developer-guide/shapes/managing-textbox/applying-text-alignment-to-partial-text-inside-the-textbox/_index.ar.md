@@ -19,3 +19,4 @@ keywords: تطبيق / تعيين محاذاة مربع النص ورقة الب
 [ملف المصدر](SampleTextboxExcel2016.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "ApplyPartialTextAlignmentToTextBox.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

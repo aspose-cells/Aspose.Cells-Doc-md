@@ -38,3 +38,4 @@ keywords: C# مرحبًا بالعالم، Aspose.Cells for .NET مرحبًا ب
 المثال التالي يفتح ملف قالب Microsoft Excel موجود بالاسم "Sample.xlsx"، يدخل نص "Hello World!" في الخلية A1 في ورقة العمل الأولى ويحفظ دفتر العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

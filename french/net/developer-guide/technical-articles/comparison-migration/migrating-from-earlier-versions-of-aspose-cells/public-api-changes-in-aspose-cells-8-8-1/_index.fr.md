@@ -213,3 +213,4 @@ Aspose.Cells.GridWeb a également fourni la possibilité de supprimer la règle 
 ## **APIs obsolètes**
 ### **Propriété Shape.TextFrame rendue obsolète**
 Il est conseillé d'utiliser la propriété Shape.TextBody.TextAlignment à la place.
+{{< app/cells/assistant language="csharp" >}}

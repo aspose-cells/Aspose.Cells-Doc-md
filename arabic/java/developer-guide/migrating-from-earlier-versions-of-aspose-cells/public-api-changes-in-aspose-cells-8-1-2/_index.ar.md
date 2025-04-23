@@ -20,3 +20,4 @@ url: /ar/java/public-api-changes-in-aspose-cells-8-1-2/
 {{% /alert %}}
 ## **حذف خاصية PdfSaveOptions.ChartImageType العتيقة**
 Aspose.Cells for Java 8.1.2 قام بإزالة خاصية PdfSaveOptions.ChartImageType العتيقة من الواجهة البرمجية العامة.
+{{< app/cells/assistant language="java" >}}

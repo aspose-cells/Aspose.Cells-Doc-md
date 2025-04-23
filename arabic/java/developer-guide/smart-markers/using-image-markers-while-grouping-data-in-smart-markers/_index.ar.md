@@ -23,10 +23,11 @@ url: /ar/java/using-image-markers-while-grouping-data-in-smart-markers/
 
 {{< /highlight >}}
 
-ثم يملأ مصدر البيانات بالبيانات ويُعيد استدعاء الأسلوب [WorkbookDesigner.Process()](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process\(\)) لمعالجة العلامات الذكية. يستخدم الكود هذه الصور [moon.png](5472549.png) و [moon2.png](5472548.png) ولكن يمكنك استخدام أي صورة. تُظهر اللقطة الشاشة التالية إخراج هذا الكود العيني. كما يمكن رؤية، يتم تجميع البيانات في العمود E و F بالنسبة للبيانات في العمود D.
+ثم يملأ مصدر البيانات بالبيانات ويستدعي طريقة [WorkbookDesigner.Process()](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process--) لمعالجة علامات المؤشرات الذكية. يستخدم الكود هذه الصور مثل [moon.png](5472549.png) و [moon2.png](5472548.png) ولكن يمكنك استخدام أي صورة. تعرض لقطة الشاشة التالية ناتج هذا المثال من الكود. كما ترى، يتم تجميع البيانات في العمود E و F معًا بالنسبة إلى البيانات في العمود D.
 
 ![todo:image_alt_text](using-image-markers-while-grouping-data-in-smart-markers_1.png)
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Technical-Articles-SmartMarkerGroupingImage.java" >}}
+{{< app/cells/assistant language="java" >}}

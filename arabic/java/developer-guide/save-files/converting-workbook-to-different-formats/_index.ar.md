@@ -65,7 +65,7 @@ Aspose.Cells تدعم قراءة وكتابة ملفات MHTML.
 
 {{% alert color="primary" %}}
 
-يمكنك تحقيق نفس النتائج عن طريق تمرير [**SaveFormat.HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML) إلى الطريقة [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)).
+يمكنك تحقيق نفس النتائج عن طريق تمرير [**SaveFormat.HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML) إلى الطريقة [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-).
 
 {{% /alert %}}
 
@@ -110,7 +110,7 @@ Aspose.Cells تدعم قراءة وكتابة ملفات MHTML.
 
 #### **التحويل المباشر**
 
-حفظ ملف Excel مباشرة إلى PDF باستخدام الطريقة [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) وتوفير واجهة العضو [**SaveFormat.PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF). مثل هذا التحويل المباشر هو الأكثر كفاءة. فهو لا يفقد البيانات أو التنسيق ولكنه يبقي ملف PDF الناتج يبدو كملف Excel الداخلي.
+حفظ ملف Excel مباشرة إلى PDF باستخدام الطريقة [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) وتوفير واجهة العضو [**SaveFormat.PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF). مثل هذا التحويل المباشر هو الأكثر كفاءة. فهو لا يفقد البيانات أو التنسيق ولكنه يبقي ملف PDF الناتج يبدو كملف Excel الداخلي.
 
 لاختيار خيارات الأمان عند الحفظ إلى PDF، استخدم [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions).
 
@@ -134,7 +134,7 @@ Aspose.Cells تدعم قراءة وكتابة ملفات MHTML.
 
 1. قم بإنشاء كائن من فئة [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) بالاتصال ببنائه الفارغ.
 1. اقم بعملك المطلوب على جدول البيانات باستخدام واجهة برمجة التطبيقات Aspose.Cells.
-1. استدعي الطريقة [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) لحفظ جدول البيانات:
+1. استدعي الطريقة [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) لحفظ جدول البيانات:
    1. تعيين تنسيق الملف إلى XML.
    1. حدد Aspose_Pdf (قيمة محددة مسبقًا) من واجهة FileFormatType. يوجه هذا الإجراء الأسلوب حفظ لتوليد جدول بيانات بتنسيق XML متوافق مع مخطط Aspose.PDF بحيث يمكن لـ Aspose.PDF لـ Java بعد ذلك توليد وثيقة PDF.
 1. عند إنشاء ملف XML، قم بإنشاء كائن من فئة Pdf في حزمة aspose.pdf.
@@ -189,3 +189,4 @@ Aspose.Cells تدعم قراءة وكتابة ملفات MHTML.
 |إعداد الصفحة|تحجيم|نعم| |
 |ارتفاع الصف/عرض العمود| |نعم| |
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

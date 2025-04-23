@@ -17,3 +17,4 @@ url: /ar/java/opendocument-ods/
 **مستند ODS عينة تم إنشاؤه باستخدام Aspose.Cells وتم فتحه في OpenOffice Writer** 
 
 ![todo:image_alt_text](opendocument-ods_1.png)
+{{< app/cells/assistant language="java" >}}

@@ -164,3 +164,4 @@ Lütfen bunun yerine Shape.Line özelliğini kullanın.
 Lütfen bunun yerine Shape.Fill özelliğini kullanın.
 ### **Eskiye Dair FontSetting.ShapeFont Özelliği**
 Lütfen bunun yerine FontSetting.TextOptions özelliğini kullanın.
+{{< app/cells/assistant language="java" >}}

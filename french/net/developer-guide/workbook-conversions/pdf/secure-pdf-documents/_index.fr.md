@@ -31,3 +31,4 @@ Le code d'exemple ci-dessous décrit comment sécuriser des PDF avec Aspose.Cell
 Si le classeur contient des formules, il est préférable d'appeler [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) juste avant de le rendre au format PDF. Cela garantit que les valeurs dépendantes de la formule sont recalculées et que les valeurs correctes sont rendues dans le PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -73,7 +73,7 @@ Aspose.Cells предлагает несколько встроенных фор
 
 {{% alert color="primary" %}}
 
-Если вы используете [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) для установки формата чисел, то любой предыдущий формат, установленный с помощью [**Number**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number）, переопределяется, и наоборот.
+Если вы используете [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) для установки формата числа, любой предыдущий формат, установленные с помощью [**Number**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number), будут переопределены, и наоборот.
 
 {{% /alert %}}
 
@@ -81,3 +81,4 @@ Aspose.Cells предлагает несколько встроенных фор
 - [Проверьте Пользовательский числовой формат при установке Свойства Custom.](/cells/ru/java/check-custom-number-format-when-setting-style-custom-property/)
 - [Укажите пользовательские разделители десятичных и групповых чисел для рабочей книги](/cells/ru/java/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [Указание форматирования собственного шаблона DBNum](/cells/ru/java/specifying-dbnum-custom-pattern-formatting/)
+{{< app/cells/assistant language="java" >}}

@@ -32,3 +32,4 @@ Se följande exempelkod som beskriver hur du kan utföra uppgiften med hjälp av
 - [Lägg till digital signatur i en redan signerad Excel-fil](/cells/sv/net/add-digital-signature-to-an-already-signed-excel-file/)
 - [Lägg till signaturraden i arbetsbladet](/cells/sv/net/add-signature-line/)
 - [Stöd för XAdES-signatur](/cells/sv/net/support-for-xades-signature/)
+{{< app/cells/assistant language="csharp" >}}

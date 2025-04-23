@@ -28,3 +28,4 @@ La siguiente captura de pantalla muestra la salida del código de muestra anteri
 ## Artículos relacionados
 
 - [Añadir Texto Enriquecido HTML dentro de la Celda](/cells/es/java/adding-html-rich-text-inside-the-cell/)
+{{< app/cells/assistant language="java" >}}

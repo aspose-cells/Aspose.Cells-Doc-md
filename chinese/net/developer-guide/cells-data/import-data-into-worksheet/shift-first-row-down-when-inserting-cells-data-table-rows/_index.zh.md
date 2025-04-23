@@ -22,3 +22,4 @@ Aspose.Cells允许您在将表格插入工作表时将第一行向下移动。�
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-ShiftFirstRowDownWhenInsertingCellsDataTableRows.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

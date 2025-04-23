@@ -29,3 +29,4 @@ Workbook page count: 1</br>
 Worksheet page count: 1
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

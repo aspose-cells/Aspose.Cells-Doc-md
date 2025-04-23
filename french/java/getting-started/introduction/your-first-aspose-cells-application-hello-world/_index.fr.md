@@ -41,3 +41,4 @@ L'exemple suivant crée un nouveau classeur à partir de zéro, écrit les mots 
 L'exemple suivant ouvre un fichier modèle Microsoft Excel existant appelé **book1.xls**, écrit les mots "Bonjour le Monde !" dans la cellule A1 de la première feuille de calcul, et enregistre le classeur sous un nouveau nom de fichier.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-introduction-OpeningExistingFile-1.java" >}}
+{{< app/cells/assistant language="java" >}}

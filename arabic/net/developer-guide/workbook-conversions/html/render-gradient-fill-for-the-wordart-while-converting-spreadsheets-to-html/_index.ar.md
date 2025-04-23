@@ -13,3 +13,4 @@ url: /ar/net/render-gradient-fill-for-the-wordart-while-converting-spreadsheets-
 يقوم الكود العينة التالي بتحويل [ملف إكسل المصدر](22774111.xlsx) إلى [تنسيق صفحة HTML الناتجة](22774109.zip). يحتوي ملف إكسل المصدر على كائن WordArt بتعبئة تدرجية كما هو مبين في الصورة أعلاه.
 ## **الكود المثالي**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithHTMLFormat-RenderGradientFillToHTML.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

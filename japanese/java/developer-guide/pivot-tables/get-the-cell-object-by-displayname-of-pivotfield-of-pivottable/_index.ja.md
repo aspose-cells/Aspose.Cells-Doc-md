@@ -7,7 +7,7 @@ url: /ja/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cellsは、[PivotTable.getCellByDisplayName()](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getCellByDisplayName\(java.lang.String\))メソッドを提供し、ピボットテーブルの表示名によるセルオブジェクトへのアクセスに使用できます。このメソッドは、ピボットフィールドヘッダーを強調表示または書式設定する場合に有用です。この記事では、データフィールドの表示名によるセルオブジェクトの取得とその後の書式設定方法を説明しています。
+Aspose.Cellsには、ピボットフィールドの表示名によってセルオブジェクトにアクセスできる[PivotTable.getCellByDisplayName()](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getCellByDisplayName-java.lang.String-)メソッドがあります。このメソッドは、ピボットフィールドの見出しをハイライトまたはフォーマットしたい場合に便利です。この記事では、データフィールドの表示名でセルオブジェクトを取得し、その書式設定を適用する方法を説明します。
 
 {{% /alert %}} 
 ## **PivotTableのPivotFieldのDisplayNameによってCellオブジェクトを取得する**
@@ -24,3 +24,4 @@ Aspose.Cellsは、[PivotTable.getCellByDisplayName()](https://reference.aspose.c
 
 
 
+{{< app/cells/assistant language="java" >}}

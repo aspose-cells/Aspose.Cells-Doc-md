@@ -32,3 +32,4 @@ Skapa en klass med en funktion *CalculateCustomFunction*. Denna klass implemente
 Använd nu ovanstående funktion i ditt program.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingICustomFunction-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

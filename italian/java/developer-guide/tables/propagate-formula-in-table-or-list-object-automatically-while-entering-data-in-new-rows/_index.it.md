@@ -11,3 +11,4 @@ A volte si desidera che una formula nella tua Tabella o Oggetto Elenco si propag
 Il codice di esempio seguente crea una Tabella o un Oggetto Elenco in modo che la formula nella colonna B si propaghi automaticamente alle nuove righe quando inserisci nuovi dati. Verifica il [file di lavoro excel di output](5472519.xlsx) generato con questo codice. Se inserisci un numero in cella A3, vedrai che la formula in cella B2 si propaga automaticamente alla cella B3.
 ## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PropagateFormulaInTableorListObject-PropagateFormulaInTableorListObject.java" >}}
+{{< app/cells/assistant language="java" >}}

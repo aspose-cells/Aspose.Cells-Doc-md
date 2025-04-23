@@ -63,3 +63,4 @@ cell.setCellStyle(cs);
 Daha fazla ayrıntı için [Satır Kesmeleri ve Metin Kaydırma](/java/line-breaks-and-text-wrapping) sayfasını ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

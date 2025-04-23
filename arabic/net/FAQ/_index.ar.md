@@ -47,3 +47,4 @@ url: /ar/net/faq/
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="csharp" >}}

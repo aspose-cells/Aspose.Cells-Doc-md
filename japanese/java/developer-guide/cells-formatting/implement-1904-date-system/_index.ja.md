@@ -24,3 +24,4 @@ Microsoft Excel（例えばMicrosoft Excel 2003）で1904年日付システム�
 Aspose.CellsのAPIを使用してこの機能を実現するサンプルコードを以下に示します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-Implement1904DateSystem-Implement1904DateSystem.java" >}}
+{{< app/cells/assistant language="java" >}}

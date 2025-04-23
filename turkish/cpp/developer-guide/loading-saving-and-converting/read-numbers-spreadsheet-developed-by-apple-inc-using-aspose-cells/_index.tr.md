@@ -11,7 +11,7 @@ Numbers, Apple Inc. tarafından geliştirilen bir elektronik tablo uygulamasıd�
 
 ## **Numbers Elektronik Tablosu, Apple Inc. tarafından geliştirildi.**
 
-Aşağıdaki örnek kod, [Örnek Numbers Elektronik Tablosu](sampleNumbersByAppleInc.numbers) yükler ve onu [Çıktı PDF Formatına](outputNumbersByAppleInc.pdf) dönüştürür. Başarılı bir şekilde yüklemek için **[LoadOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/)** sınıfını kullanmalı ve yapıcı metodunda **[LoadFormat::Numbers](https://reference.aspose.com/cells/cpp/aspose.cells/loadformat/)**'ı parametre olarak belirtmelisiniz. Lütfen verilen bağlantılardan her ikisini de indirin. Kodu herhangi bir Numbers elektronik tablosuyla deneyebilirsiniz. Daha fazla yardım için lütfen kodun yorumlarını da okuyun.
+Aşağıdaki örnek kod, [Sample Numbers Spreadsheet](sampleNumbersByAppleInc.numbers) yükler ve [Output PDF Formatına](outputNumbersByAppleInc.pdf) dönüştürür. Başarıyla yüklemek için **[LoadOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/)** sınıfını kullanmalı ve yapıcısında **[LoadFormat::Numbers](https://reference.aspose.com/cells/cpp/aspose.cells/loadformat/)** parametresini belirtmelisiniz. Her iki dosyayı da verilen bağlantılardan indirebilirsiniz. Kod ile herhangi bir Numbers elektronik tablo dosyasını deneyebilirsiniz. Ayrıca, kodun yorumlarını okuyarak daha fazla yardım alabilirsiniz.
 
 ## **Örnek Kod**
 

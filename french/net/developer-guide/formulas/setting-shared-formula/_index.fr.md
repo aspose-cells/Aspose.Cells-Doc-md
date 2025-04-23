@@ -30,3 +30,4 @@ Une autre approche est d'utiliser une **formule partagée**. Avec une formule pa
 L'exemple suivant démontre comment l'utiliser.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-SettingSharedFormula-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

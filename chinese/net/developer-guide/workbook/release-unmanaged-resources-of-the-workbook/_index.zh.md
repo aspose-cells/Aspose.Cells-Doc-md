@@ -14,3 +14,4 @@ Aspose.Cells 提供 [**Workbook.Dispose()**](https://reference.aspose.com/cells/
 [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)对象现在实现了*System.IDisposable*接口，该接口有一个方法[**Dispose()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/dispose)。您可以直接调用[**Workbook.Dispose()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/dispose)方法，也可以使用*Using*语句自动调用该方法。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ReleaseUnmanagedResources-ReleaseUnmanagedResourcesForWorkbooks.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

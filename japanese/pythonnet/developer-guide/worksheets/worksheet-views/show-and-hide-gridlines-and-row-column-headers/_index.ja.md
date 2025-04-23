@@ -3,13 +3,13 @@ title: グリッド線と行列ヘッダーの表示および非表示
 type: docs
 weight: 30
 url: /ja/python-net/show-and-hide-gridlines-and-row-column-headers/
-description: この記事は、Aspose.Cells for Python via .NET API を使用して Excel ワークシートのグリッド線、行、列見出しをプログラムで非表示または表示するためのサンプルコードを提供しています。
-keywords: Python Excel ライブラリ、Python でのグリッド線の表示と非表示、Python での行列見出しの表示と非表示、Python でのグリッド線と行列見出しの表示と非表示の方法。
+description: この記事は、Aspose.Cells for Python via .NET APIを使用して、Excelワークシートのグリッドラインや行と列のヘッダーをプログラム的に非表示または表示するサンプルコードを提供します。
+keywords: Python Excelライブラリ、Pythonのグリッドラインの表示と非表示、Pythonで行と列のヘッダーを表示・非表示、グリッドラインや行列ヘッダーの表示・非表示の方法。
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET は、デフォルトで表示されているワークシートのグリッド線を非表示または表示する機能をサポートしています。また、ワークシートの行列見出しの可視性を制御する機能も提供しています。
+Aspose.Cells for Python via .NETは、デフォルトで表示されるワークシートのグリッドラインの非表示と表示をサポートします。また、ワークシートの行列ヘッダーの表示・非表示も制御できます。
 
 {{% /alert %}}
 
@@ -19,7 +19,7 @@ Aspose.Cells for Python via .NET は、デフォルトで表示されている�
 
 ### **グリッド線の表示の制御**
 
-Aspose.Cells for Python via .NET は、Microsoft Excel ファイルを表す [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/) クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/) クラスには、Excel ファイル内の各ワークシートにアクセスできる [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets/) コレクションが含まれています。ワークシートは [**Worksheet**](https://reference.aspose.com/cells/python-et/aspose.cells/worksheet/) クラスによって表されます。[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/) クラスは、ワークシートを操作するための幅広いプロパティやメソッドを提供します。グリッド線の可視性を制御するには、[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/) クラスの [**is_gridlines_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_gridlines_visible/) プロパティを使用します。[**is_gridlines_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_gridlines_visible/) は、**true** または **false** の値のみを保持できるブール型のプロパティです。
+Aspose.Cells for Python via .NETは、Microsoft Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/)クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/)クラスは、Excelファイル内の各ワークシートにアクセスできる[**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets/)コレクションを含みます。ワークシートは[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/)クラスによって表されます。[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/)クラスは、ワークシートの管理のためのさまざまなプロパティとメソッドを提供します。グリッドラインの表示を制御するには、[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/)クラスの[**is_gridlines_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_gridlines_visible/)プロパティを使用します。[**is_gridlines_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_gridlines_visible/)は真偽値のプロパティで、「true」または「false」の値だけを格納できます。
 
 #### **グリッド線を表示する**
 
@@ -35,11 +35,11 @@ Aspose.Cells for Python via .NET は、Microsoft Excel ファイルを表す [**
 
 ## **行列ヘッダーの表示および非表示**
 
-Excel ファイルのすべてのワークシートは、行と列で配置されたセルで構成されています。すべての行と列には、それぞれ固有の値があり、それらを識別し、個々のセルを識別するために使用されます。例えば、行は 1、2、3、4 などに番号が付けられ、列はアルファベット順に A、B、C、D などに並べられます。行と列の値は見出しに表示されます。Aspose.Cells for Python via .NET を使用すると、これらの行と列の見出しの表示を制御することができます。
+Excelファイル内のすべてのワークシートは、行と列に並ぶセルで構成されています。すべての行と列には、識別やセルを特定するためのユニークな値があります。例えば、行は1, 2, 3, 4などの番号が付けられ、列はアルファベット順にA, B, C, Dなどで表されます。行と列の値はヘッダーに表示されます。Aspose.Cells for Python via .NETを使用すると、これらの行と列のヘッダーの表示/非表示を制御できます。
 
 ### **ワークシートの表示を制御する**
 
-Aspose.Cells for Python via .NET は、Microsoft Excel ファイルを表す [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/) クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/pytho-net/aspose.cells/workbook/) クラスには、Excel ファイル内の各ワークシートにアクセスできる [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets/) コレクションが含まれています。ワークシートは [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/) クラスによって表されます。[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/) クラスは、ワークシートを管理するための幅広いプロパティやメソッドを提供します。行と列見出しの可視性を制御するには、[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/) クラスの [**is_row_column_headers_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_row_column_headers_visible/) プロパティを使用します。[**is_row_column_headers_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_row_column_headers_visible/) は、**true** または **false** の値のみを保持できるブール型のプロパティです。
+Aspose.Cells for Python via .NETは、[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/)クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/)クラスは、Excelファイル内の各ワークシートにアクセス可能な[**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets/)コレクションを含みます。ワークシートは[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/)クラスによって表されます。[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/)クラスは、ワークシートの管理に幅広く使用できるプロパティとメソッドを提供します。行と列のヘッダーの表示・非表示を制御するには、[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/)クラスの[**is_row_column_headers_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_row_column_headers_visible/)プロパティを使用します。[**is_row_column_headers_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_row_column_headers_visible/)は真偽値のプロパティです。
 
 #### **行/列ヘッダーを表示する**
 

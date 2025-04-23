@@ -15,7 +15,7 @@ Aspose.Cells le permite exportar una hoja de cálculo del libro y convertirla a 
 
 A veces es útil guardar una imagen de una hoja de cálculo. Las imágenes se pueden compartir en línea, insertar en otros documentos (informes escritos en Microsoft Word, por ejemplo, o presentaciones de PowerPoint).
 
-Aspose.Cells proporciona la exportación de imágenes a través de la clase [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender). Esta clase representa la hoja de cálculo que se convertirá en un archivo de imagen. La clase [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) proporciona el método [**toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream)) para convertir una hoja de cálculo a un archivo de imagen. Se admiten los formatos BMP, PNG, JPEG, TIFF y EMF.
+Aspose.Cells proporciona la exportación de imágenes a través de la clase [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender). Esta clase representa la hoja de cálculo que se convertirá en un archivo de imagen. La clase [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) proporciona el método [**toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage-int-java.io.OutputStream-) para convertir una hoja de cálculo a un archivo de imagen. Se admiten los formatos BMP, PNG, JPEG, TIFF y EMF.
 
 {{% alert color="primary" %}}
 
@@ -58,3 +58,4 @@ Una forma sencilla de convertir la hoja de cálculo activa en un libro de trabaj
 - [Exportar gráfico a SVG con atributo viewBox](/cells/es/java/export-chart-to-svg-with-viewbox-attribute/)
 - [Exportar hoja de cálculo o gráfico a imagen con ancho y alto deseados](/cells/es/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
 - [Conversión de hoja de cálculo a imagen y hoja de cálculo a imagen por página](/cells/es/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)
+{{< app/cells/assistant language="java" >}}

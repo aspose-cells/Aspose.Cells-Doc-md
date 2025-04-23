@@ -34,3 +34,4 @@ Kategoriedaten werden zur Beschriftung von Diagrammdaten verwendet und können [
 - [Dynamische Diagramme erstellen](/cells/de/net/create-dynamic-charts/)
 - [Einfacher Weg zur Diagrammeinrichtung mit der Methode Chart.SetChartDataRange](/cells/de/net/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [Typen von X- und Y-Werten von Punkten in Diagrammserien herausfinden](/cells/de/net/find-type-of-x-and-y-values-of-points-in-chart-series/)
+{{< app/cells/assistant language="csharp" >}}

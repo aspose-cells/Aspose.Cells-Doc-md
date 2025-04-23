@@ -18,3 +18,4 @@ Der folgende Beispielscode erstellt eine leere Arbeitsmappe, teilt sie dann und 
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Worksheets-UpdateDaysPreservingHistoryOfRevisionLogsInSharedWorkbook.java" >}}
+{{< app/cells/assistant language="java" >}}

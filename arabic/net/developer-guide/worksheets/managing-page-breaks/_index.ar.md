@@ -57,3 +57,4 @@ keywords: كسر الصفحة c#، كسر الصفحة في اكسل c#، مسح
 ## **مهم معرفته**
 
 عند ضبط خصائص **تناسب الصفحات** (أي [**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) و [**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)) في إعدادات تكوين الصفحة، يتأثر إعدادات كسر الصفحة، لذلك، إذا قمت بطباعة ورقة العمل، فإن إعدادات كسر الصفحة لا تعتبر على الرغم من أنها ما زالت مضبوطة.
+{{< app/cells/assistant language="csharp" >}}

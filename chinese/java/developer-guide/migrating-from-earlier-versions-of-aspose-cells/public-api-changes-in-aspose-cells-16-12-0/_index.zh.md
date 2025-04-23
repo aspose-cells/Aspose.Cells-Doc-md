@@ -173,3 +173,4 @@ Range range = sheets.createRange("A1:A2", 0);
 考虑使用DisplayUnitLabel.RotationAngle属性来实现同样的效果。
 ### **已删除Title.getCharacters方法**
 请使用Title.characters方法来替代。
+{{< app/cells/assistant language="java" >}}

@@ -63,3 +63,4 @@ Microsoft Excelで暗号化されたファイルを作成することは可能�
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "OpenEncryptedExcelFiles.java" >}}
 
 Aspose.Cells は、パスワードで保護された Microsoft Excel 2007 年、2010 年、2013 年、2016 年、2019 年、Office 365 ファイルを開くこともサポートしています。
+{{< app/cells/assistant language="java" >}}

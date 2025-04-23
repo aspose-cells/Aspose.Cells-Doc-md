@@ -13,3 +13,4 @@ Följande provkod laddar in [provmappen](SampleSlicerChart.xlsx) som innehåll
 ![todo:image_alt_text](draw-slicer-while-rendering-excel-to-pdf_1.jpg)
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Slicers-ExportSlicerToPDF-1.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -4,13 +4,13 @@ linktitle: Şekilleri Kopyalama
 type: docs
 weight: 200
 url: /tr/python-net/copy-shapes-between-worksheets/
-description: Bu makale, Aspose.Cells for Python via .NET API si aracılığıyla Çalışma Sayfası Arasında Şekil Kopyalama yöntemlerini göstermektedir.
-keywords: Python Excel Kütüphanesi, Python Çalışma Sayfaları Arasında Şekil Kopyalama, Python Bir Çalışma Sayfasından Birine Resim Nasıl Kopyalanır, Python Bir Çalışmadan Diğerine Grafik Nasıl Kopyalanır, Python Bir Çalışma Sayfasından Diğerine Denetimler ve Diğer Çizim Nesneleri Nasıl Kopyalanır.
+description: Bu makale, Aspose.Cells for Python via .NET API aracılığıyla çalışma sayfaları arasında şekil kopyalama işlemini gösterir.
+keywords: Python Excel Kütüphanesi, Worksheet ler arasında Şekil Kopyalama, Bir Çizimi Bir Çalışma Sayfasından Diğerine Nasıl Kopyalanır, Bir Grafik Nasıl Kopyalanır, Kontroller ve Diğer Çizim Öğeleri Nasıl Kopyalanır gibi konuları içerir.
 ---
 
 {{% alert color="primary" %}}
 
-Bazen, çalışma sayfası üzerinde öğeleri kopyalamanız gerekebilir, örneğin resimler, grafikler ve diğer çizim nesneleri. Aspose.Cells for Python via .NET bu özelliği destekler. Grafikler, görüntüler ve diğer nesneler en yüksek hassasiyetle kopyalanabilir.
+Bazen, bir çalışma sayfasındaki öğeleri, örneğin resimler, grafikler ve diğer çizim nesnelerini, çalışma sayfaları arasında kopyalamanız gerekebilir. Aspose.Cells for Python via .NET bu özelliği destekler. Grafikler, görüntüler ve diğer nesneler en yüksek hassasiyetle kopyalanabilir.
 
 Bu makale, çalışsayfalar arasında şekillerin nasıl kopyalanacağı konusunda size detaylı bir anlayış sağlar.
 

@@ -42,3 +42,4 @@ Worksheets.size() (Gammal) -> WorksheetCollection.getCount() (Ny), ...osv.
 
 4) Booleska egenskapers hämtarmetoder i v2.5.4 eller tidigare vars namn började med 'is' har ändrats. I v7.0.0 börjar dessa med "get":
 t.ex. PageSetup.isBlackAndWhite() (Gammal) -> PageSetup.getBlackAndWhite() (Ny), ...osv.
+{{< app/cells/assistant language="java" >}}

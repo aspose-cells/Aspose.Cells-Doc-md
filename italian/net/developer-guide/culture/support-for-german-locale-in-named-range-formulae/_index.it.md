@@ -12,3 +12,4 @@ Il file di esempio per testare questa funzionalità può essere scaricato dal se
 [sampleNamedRangeTest.xlsm](73990165.xlsm)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookSettings-SupportNamedRangeFormulasInGermanLocale-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

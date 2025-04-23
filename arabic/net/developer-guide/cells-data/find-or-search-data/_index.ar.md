@@ -65,3 +65,4 @@ keywords: البحث عن البيانات، البحث عن البيانات، 
 - [العثور على الخلايا ذات النمط المحدد](/cells/ar/net/find-cells-with-specific-style/)
 - [العثور عما إذا كانت قيمة الخلية تبدأ بعلامة اقتباس مفردة](/cells/ar/net/find-if-the-cell-value-starts-with-single-quote-mark/)
 - [البحث عن البيانات باستخدام القيم الأصلية](/cells/ar/net/search-data-using-original-values/)
+{{< app/cells/assistant language="csharp" >}}

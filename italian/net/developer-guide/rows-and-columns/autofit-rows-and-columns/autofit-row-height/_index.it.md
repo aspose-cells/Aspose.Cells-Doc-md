@@ -26,3 +26,4 @@ Se imposti il parametro [LoadOptions.AutoFitterOptions.OnlyAuto](https://referen
 ## **Codice di esempio C#**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Rows-autofit-row-height.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

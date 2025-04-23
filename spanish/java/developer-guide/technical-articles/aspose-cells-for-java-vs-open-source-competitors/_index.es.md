@@ -148,3 +148,4 @@ La siguiente tabla intenta proporcionar una visión general de las característi
 | Insertar controles en gráficos | | Compatible |
 | Motor de cálculo de fórmulas | | Compatible |
 | API de búsqueda | Compatible | Compatible | Compatible |
+{{< app/cells/assistant language="java" >}}

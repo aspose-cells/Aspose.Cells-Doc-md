@@ -160,3 +160,4 @@ Cells rng1 = workbook.Worksheets[0].Cells;
 rng1.UnMerge(0, 0, 1, 3); 
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -16,3 +16,4 @@ Aspose.Cells artık grafikleri kolayca kurmak için [**Chart.SetChartDataRange()
 Aşağıdaki örnek kod, grafikleri kolayca kurmak için [**Chart.SetChartDataRange()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange) yönteminin kullanımını açıklar.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ChartSetupUsingSetChartDataRange-EasyWayToChartSetupUsingSetChartDataRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

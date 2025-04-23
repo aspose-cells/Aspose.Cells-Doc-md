@@ -18,3 +18,4 @@ Der folgende Code lädt die Arbeitsmappe und überprüft, ob ihr VBA-Projekt mit
 ## Beispielcode
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CheckVbaProjectSigned-CheckVbaProjectSigned.java" >}}
+{{< app/cells/assistant language="java" >}}

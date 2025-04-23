@@ -169,3 +169,4 @@ The following sample code explains the use of the HTML property of the Smart Mar
 للحصول على رمز عينة وشرح مفصل، يرجى رؤية هذه المقالة.
 
 - [الحصول على إشعارات أثناء دمج البيانات باستخدام العلامات الذكية](/cells/ar/java/getting-notifications-while-merging-data-with-smart-markers/)
+{{< app/cells/assistant language="java" >}}

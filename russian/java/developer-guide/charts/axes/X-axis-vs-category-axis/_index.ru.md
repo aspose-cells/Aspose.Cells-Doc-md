@@ -21,3 +21,4 @@ url: /ru/java/x-axis-vs-category-axis/
 
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "X-axis-vs-category-axis.java" >}}
+{{< app/cells/assistant language="java" >}}

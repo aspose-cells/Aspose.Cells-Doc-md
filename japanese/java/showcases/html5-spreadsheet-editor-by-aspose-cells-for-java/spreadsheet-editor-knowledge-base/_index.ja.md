@@ -36,3 +36,4 @@ HTML5 スプレッドシート エディターは、スプレッドシートを�
 </iframe>
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

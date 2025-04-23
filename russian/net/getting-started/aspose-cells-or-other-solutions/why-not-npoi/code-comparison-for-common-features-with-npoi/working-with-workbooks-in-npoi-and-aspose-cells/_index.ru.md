@@ -10,3 +10,4 @@ url: /ru/net/working-with-workbooks-in-npoi-and-aspose-cells/
 - [Добавление данных в ячейки](/cells/ru/net/add-data-in-cells/)
 - [Создание новой рабочей книги](/cells/ru/net/create-new-workbook/)
 - [Установка области печати](/cells/ru/net/set-print-area/)
+{{< app/cells/assistant language="csharp" >}}

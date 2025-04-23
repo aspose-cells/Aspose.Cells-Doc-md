@@ -15,11 +15,11 @@ Du kan använda GridJs smidigt på mobila enheter.
 
 GridJs klient js kan anpassa sig till mobilskärmen.
 
-Kör [demon av GridJs](https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs "demon av GridJs")
+Kör [demo av GridJs](https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs "demo av GridJs")
 
-Standardporten för demo-projektet är 8080. 
+Standardporten för demos projekt är 8080. 
 
-Öppna webbläsaren på din mobila enhet och ange url:en http://dinip:8080/gridjsdemo/index. 
+Öppna webbläsaren på din mobila enhet och skriv in URL http://dinip:8080/gridjsdemo/index. 
 
 ![att göra: skärmnavigation på mobil](gridjs_edit_on_mobile.png)
 

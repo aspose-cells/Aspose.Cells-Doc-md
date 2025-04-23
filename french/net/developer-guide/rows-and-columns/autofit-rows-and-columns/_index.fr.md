@@ -79,3 +79,4 @@ Si une cellule est fusionnée, les méthodes AutoFit ne seront pas appliquées,
 
 ## **Sujets avancés**
 - [Ajustement automatique des lignes pour les cellules fusionnées](/cells/fr/net/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="csharp" >}}

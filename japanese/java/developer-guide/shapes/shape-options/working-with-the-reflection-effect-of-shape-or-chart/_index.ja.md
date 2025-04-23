@@ -24,3 +24,4 @@ Aspose.Cellsは、図形やグラフの反射効果を操作するための[Shap
 次のサンプルコードは、[ソースエクセルファイル](5472529.xlsx)を読み込み、最初のワークシートの最初の図形にアクセスして、[Shape.ReflectionEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Reflection)プロパティのサブプロパティを設定し、その後、[出力エクセルファイル](5472539.xlsx)にブックを保存します。
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithReflectionEffect-WorkingWithReflectionEffect.java" >}}
+{{< app/cells/assistant language="java" >}}

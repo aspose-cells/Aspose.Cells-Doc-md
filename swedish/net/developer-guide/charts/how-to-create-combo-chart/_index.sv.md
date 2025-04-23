@@ -20,3 +20,4 @@ Efter att ha kört koden nedan kommer du att se kombinationsdiagrammet som visas
 Följande provkod laddar den [provfilen i Excel](combo.xlsx) och genererar den [resulterande Excelfilen](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-combo-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

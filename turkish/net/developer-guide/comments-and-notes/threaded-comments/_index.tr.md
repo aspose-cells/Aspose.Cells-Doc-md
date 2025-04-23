@@ -141,3 +141,4 @@ Aşağıdaki örnek, A1 sütunundaki yorumları kaldırmayı, [örnek Excel Dosy
 Lütfen Aspose.Cells ile yorum kaldırma işlemi yaparken, yazar otomatik olarak kaldırılmaz. Yazarı da kaldırmak istiyorsanız, lütfen yukarıdaki örnekte [**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthorcollection) sınıfının RemoveAt metodu kullanın.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

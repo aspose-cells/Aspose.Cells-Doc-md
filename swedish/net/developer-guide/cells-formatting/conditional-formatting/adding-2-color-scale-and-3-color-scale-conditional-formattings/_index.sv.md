@@ -16,3 +16,4 @@ url: /sv/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/
 Den följande exempelkoden lägger till 2-färgad skala och 3-färgad skala villkorlig formatering. Den genererar [utdata Excel-filen](5115058.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageConditionalFormatting-AddColorScales-AddColorScales.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

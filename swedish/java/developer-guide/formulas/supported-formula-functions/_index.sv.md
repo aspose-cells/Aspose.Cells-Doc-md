@@ -36,6 +36,7 @@ Aspose.Cells' Formel Beräkningsmotor låter dig ange, läsa och beräkna result
 |ANCHORARRAY|**Sökning och referens**: Returnerar hela påverkade området för den dynamiska matrisen i cellen
 |AND|**Logisk**: Returnerar SANT om alla argument är SANT
 |AREAS|**Sökning och referens**: Returnerar antalet områden i en referens
+|ARRAYTOTEXT|**Text**: Returnerar en array av textvärden från ett specificerat område
 |ASC|**Text**: Ändrar fullbredd (dubbelfel) engelska bokstäver eller katakana inom en teckensträng till halvbredd (enkelbyte) tecken
 |ASIN|**Matematik och trigonometri**: Returnerar arcsin för ett nummer
 |ASINH|**Matematik och trigonometri**: Returnerar den invektiva hyperboliska sinusen för ett nummer
@@ -69,6 +70,8 @@ Aspose.Cells' Formel Beräkningsmotor låter dig ange, läsa och beräkna result
 |BITOR|**Engineering**: Returnerar en bitvis ELLER av 2 nummer
 |BITRSHIFT|**Engineering**: Returnerar ett värde numret skiftad höger med shift_amount bitar
 |BITXOR|**Engineering**: Returnerar en bitvis 'Exklusiv Eller' av två nummer
+|BYCOL|**Logik**: Tillämpa en LAMBDA på varje kolumn och returnera en array av resultaten
+|BYROW|**Logik**: Tillämpa en LAMBDA på varje rad och returnera en array av resultaten
 
 ###### **C**
 |**Funktion**|**Sammanfattning**|
@@ -148,7 +151,7 @@ Aspose.Cells' Formel Beräkningsmotor låter dig ange, läsa och beräkna result
 |DOLLARDE|**Ekonomi**: Konverterar ett dollapris, uttryckt som en bråkdel, till ett dollapris uttryckt som ett decimaltal
 |DOLLARFR|**Ekonomi**: Konverterar ett dollapris, uttryckt som ett decimaltal, till ett dollapris uttryckt som en bråkdel
 |DPRODUCT|**Databas**: Multipliserar värdena i ett särskilt fält av poster som matchar kriterierna i en databas
-|DROP|**Sökning och referens**: Exkluderar ett angivet antal rader eller kolumner från början eller slutet av en matris
+|DROP|**Uppslag och referens**: utesluter ett specificerat antal rader eller kolumner från början eller slutet av en array
 |DSTDEV|**Databas**: Beräknar standardavvikelsen baserat på ett urval av valda databasposter
 |DSTDEVP|**Databas**: Beräknar standardavvikelsen baserat på hela populationen av valda databasposter
 |DSUM|**Databas**: Adderar siffrorna i fältkolumnen för poster i databasen som matchar kriterierna
@@ -515,6 +518,7 @@ Aspose.Cells' Formel Beräkningsmotor låter dig ange, läsa och beräkna result
 |**Funktion**|**Sammanfattning**|
 | :- | :- |
 |VALUE|**Text**: Konverterar ett textargument till ett nummer
+|VALUETOTEXT|**Text**: Returnerar text från vilket värde som helst
 |VAR|**Kompatibilitet**: Beräknar variansen baserat på en prov
 |VAR.P|**Statistisk**: Beräknar variansen baserat på hela populationen
 |VAR.S|**Statistisk**: Beräknar variansen baserat på en prov
@@ -557,3 +561,4 @@ Aspose.Cells' Formel Beräkningsmotor låter dig ange, läsa och beräkna result
 |Z.TEST|**Statistisk**: Returnerar den enkelsidiga sannolikhetsvärdet för en z-test
 |ZTEST|**Kompatibilitet**: Returnerar den enkelsidiga sannolikhetsvärdet för en z-test
 
+{{< app/cells/assistant language="java" >}}

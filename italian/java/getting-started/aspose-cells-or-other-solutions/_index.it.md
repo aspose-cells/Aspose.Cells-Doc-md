@@ -10,3 +10,4 @@ Perché gli utenti scelgono Aspose.Cells per lavorare con i documenti? La rispos
 
 Questa sezione confronta i componenti Aspose.Cells e alcuni altri sistemi.
 
+{{< app/cells/assistant language="java" >}}

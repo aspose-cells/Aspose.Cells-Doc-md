@@ -22,3 +22,4 @@ url: /ar/net/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-g
 يوفر Aspose.Cells طريقة SparklineCollection.Add(dataRange, row, column) لتحديد نطاق البيانات وموقع مجموعة الشرائط. يقوم الكود النموذجي التالي بتحميل ملف Excel المصدر كما هو مبين في اللقطة المرفقة أعلاه، ثم يصل إلى المجموعة الشرائية الأولى ويضيف نطاقات البيانات والمواقع في مجموعة الشرائط. وأخيرًا، يكتب ملف Excel الناتج على القرص الثابت كما هو مبين أيضًا في اللقطة المرفقة أعلاه.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CopySparkline-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

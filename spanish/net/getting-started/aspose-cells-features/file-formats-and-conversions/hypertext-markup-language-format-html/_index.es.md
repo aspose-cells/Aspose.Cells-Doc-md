@@ -27,3 +27,4 @@ Consulte la subsección **Apertura de archivos HTML** en este artículo que expl
 Consulte el siguiente artículo de documentación que explica cómo convertir/guardar sus archivos/hojas de cálculo en formato HTML.
 
 - [Convertir archivos de Excel a HTML](/cells/es/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktohtml)
+{{< app/cells/assistant language="csharp" >}}

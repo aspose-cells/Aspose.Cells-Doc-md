@@ -3,8 +3,8 @@ title: Använda alternativ för felkontroll
 type: docs
 weight: 140
 url: /sv/python-net/use-error-checking-options/
-description: I den här artikeln hittar du exempelkod som kommer att använda felkontrolloptioner för Excel ark t.ex. Nummer lagrade som Text med hjälp av Aspose.Cells for Python via .NET API.
-keywords: Python Excel bibliotek, Python lagra nummer som text i Excel, Hur man hanterar felkontroller i Excel alternativ i Python.
+description: I denna artikel hittar du exempel på kod som programmässigt använder felkontrollalternativ i Excel arbetsblad, t.ex. nummer lagrade som text med hjälp av Aspose.Cells för Python via .NET API.
+keywords: Python Excel biblioteket, Python lagra nummer som text i Excel, Hur man hanterar felkontroll i Excel med Python.
 ---
 
 {{% alert color="primary" %}}
@@ -19,7 +19,7 @@ Fel som innebär att formeln inte kan returnera ett resultat - som att dela ett 
 
 Felet kan åtgärdas med hjälp av alternativen eller ignoreras. Att ignorera ett fel innebär att felet inte kommer att visas i ytterligare felkontroller.
 
-Aspose.Cells for Python via .NET tillhandahåller funktioner för felkontrollalternativ. [**ErrorCheckOption**](https://reference.aspose.com/cells/python-net/aspose.cells/errorcheckoption)-klassen hanterar olika typer av felkontroller, till exempel nummer lagrade som text, formelberäkningsfel och valideringsfel. Använd [**ErrorCheckType**](https://reference.aspose.com/cells/python-net/aspose.cells/errorchecktype)-uppräkningen för att ställa in önskad felkontroll.
+Aspose.Cells för Python via .NET tillhandahåller funktioner för felkontroll. [**ErrorCheckOption**](https://reference.aspose.com/cells/python-net/aspose.cells/errorcheckoption)-klassen hanterar olika typer av felkontroller, till exempel nummer lagrade som text, formelberäkningsfel och valideringsfel. Använd [**ErrorCheckType**](https://reference.aspose.com/cells/python-net/aspose.cells/errorchecktype)-enum för att ställa in önskad felkontroll.
 
 ## **Nummer som lagras som text**
 
@@ -31,6 +31,6 @@ Du kan använda felkontrolloptionerna för att snabbt konvertera nummer som lagr
 1. Välj fliken Felkontroll. **Nummer lagrade som text**-alternativet är markerat som standard.
 1. Inaktivera det.
 
-Följande exemplarkod visar hur man inaktiverar felkontrolloptionen för nummer lagrade som text för ett arbetsblad i mallen XLS-filen med hjälp av Aspose.Cells for Python via .NET API:er.
+Följande exempel visar hur man inaktiverar numren som lagras som text felkontroll för ett kalkylblad i mall XLS-filen med hjälp av Aspose.Cells för Python via .NET API:er.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ErrorCheckingOptions-1.py" >}}

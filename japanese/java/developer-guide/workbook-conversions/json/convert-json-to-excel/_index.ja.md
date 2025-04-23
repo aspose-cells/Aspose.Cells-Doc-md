@@ -28,3 +28,4 @@ Aspose.Cells Javaライブラリが最適な決定を提供しているため、
 以下のコード例は、JSON文字列をExcelワークブックにインポートする方法を示しています。JSONのインポート時にレイアウトの場所を指定することもできます。コードで生成されたxlsxファイルへの変換のために、JSON文字列を参照してください。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Convert-JSON-String-to-Excel.java" >}}
+{{< app/cells/assistant language="java" >}}

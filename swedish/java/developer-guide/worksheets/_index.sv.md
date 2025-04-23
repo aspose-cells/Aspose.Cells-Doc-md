@@ -26,7 +26,7 @@ Ett kalkylblad representeras av [**Worksheet**](https://reference.aspose.com/cel
 
 ## **Lägga till kalkylblad i en ny Excelfil**
 
-För att skapa en ny Excelfil programmatiskt måste utvecklare skapa ett objekt av [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-klassen som representerar en Excelfil. Sedan kan utvecklare anropa [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--)-metoden för [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). När vi anropar [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--)-metoden läggs automatiskt ett tomt kalkylblad till Excelfilen, vilket kan refereras genom att skicka det nya tillagda kalkylbladets index till [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). Efter att kalkylbladsreferensen har erhållits kan utvecklare arbeta med sina kalkylblad enligt sina krav. När arbetet är klart på kalkylbladen kan utvecklare spara sin nyligen skapade Excelfil med nya kalkylblad genom att anropa [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))-metoden för [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-klassen.
+För att skapa en ny Excelfil programmatiskt måste utvecklare skapa ett objekt av [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-klassen som representerar en Excelfil. Sedan kan utvecklare anropa [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--)-metoden för [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). När vi anropar [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--)-metoden läggs automatiskt ett tomt kalkylblad till Excelfilen, vilket kan refereras genom att skicka det nya tillagda kalkylbladets index till [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection). Efter att kalkylbladsreferensen har erhållits kan utvecklare arbeta med sina kalkylblad enligt sina krav. När arbetet är klart på kalkylbladen kan utvecklare spara sin nyligen skapade Excelfil med nya kalkylblad genom att anropa [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-)-metoden för [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-klassen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AddingWorksheetstoNewExcelFile-AddingWorksheetstoNewExcelFile.java" >}}
 
@@ -44,7 +44,7 @@ Utvecklare kan nå eller hämta ett kalkylblad genom att ange dess namn eller in
 
 ## **Ta bort kalkylblad med hjälp av kalkylbladsnamn**
 
-Ibland kan utvecklare behöva ta bort kalkylblad från befintliga Excelfiler och den uppgiften kan utföras genom att anropa [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String))-metoden för [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)-samlingen. Vi kan skicka kalkylbladsnamnet till [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String))-metoden för att ta bort ett specifikt kalkylblad.
+Ibland kan utvecklare behöva ta bort kalkylblad från befintliga Excelfiler och den uppgiften kan utföras genom att anropa [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-java.lang.String-)-metoden för [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)-samlingen. Vi kan skicka kalkylbladsnamnet till [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-java.lang.String-)-metoden för att ta bort ett specifikt kalkylblad.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetName-RemovingWorksheetsusingSheetName.java" >}}
 
@@ -52,7 +52,7 @@ Ibland kan utvecklare behöva ta bort kalkylblad från befintliga Excelfiler och
 
 Det ovanstående tillvägagångssättet för att ta bort kalkylblad fungerar bra om utvecklare redan känner till kalkylbladsnamnen för kalkylbladen som ska tas bort. Men hur gör man om man inte vet kalkylbladsnamnet på kalkylbladet som du vill ta bort från din Excelfil?
 
-Ja, under sådana omständigheter kan utvecklare använda en överbelastad version av [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(int))-metoden som tar kalkylbladets index istället för dess kalkylbladsnamn.
+Ja, under sådana omständigheter kan utvecklare använda en överbelastad version av [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt-int-)-metoden som tar kalkylbladets index istället för dess kalkylbladsnamn.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetIndex-RemovingWorksheetsusingSheetIndex.java" >}}
 
@@ -72,3 +72,4 @@ Ja, under sådana omständigheter kan utvecklare använda en överbelastad versi
 - [Använd Sheet.SheetId-egenskapen i OpenXml med hjälp av Aspose.Cells](/cells/sv/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [Arbeta med bakgrund i ODS-filer](/cells/sv/java/working-with-background-in-ods-files/)
 - [Kalkylbladsvyer](/cells/sv/java/worksheet-views/)
+{{< app/cells/assistant language="java" >}}

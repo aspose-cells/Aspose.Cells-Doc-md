@@ -14,3 +14,4 @@ Aspose.Cells ger möjligheten att spara pivottabell i ODS-filer. För detta konv
 Utdatafilen som genererats av ovanstående kod är bifogad för din referens.
 
 [Utgångs-ODS-fil](PivotTableSaveInODS_out.ods)
+{{< app/cells/assistant language="java" >}}

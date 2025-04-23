@@ -18,3 +18,4 @@ Aspose.Cells позволяет установить градиент, текс�
 ## Код на C#, чтобы задать изображение в качестве заполнения фона в диаграмме
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-SetPictureBackGroundFillChart-SetPictureBackGroundFillChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

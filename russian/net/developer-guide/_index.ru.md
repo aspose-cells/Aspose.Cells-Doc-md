@@ -381,3 +381,4 @@ keywords: Руководство по использованию API разра�
 </div>
 {{< /tab >}}
 {{< /tabs >}}
+{{< app/cells/assistant language="csharp" >}}

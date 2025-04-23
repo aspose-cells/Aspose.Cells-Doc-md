@@ -213,3 +213,4 @@ Aspose.Cells.GridWeb har även gett förmågan att ta bort datavalideringsregeln
 ## **Obsoletterade API:er**
 ### **Föråldrat Shape.TextFrame Egenskap**
 Det rekommenderas att använda Shape.TextBody.TextAlignment egenskapen istället.
+{{< app/cells/assistant language="csharp" >}}

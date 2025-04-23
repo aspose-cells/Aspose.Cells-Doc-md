@@ -20,3 +20,4 @@ ExcelからHTMLへの変換に関する以下の記事が役立つことがあ�
 - [HTML への保存時にダウンレベルの表示されたコメントを無効にする](/cells/ja/java/disable-downlevel-revealed-comments-while-saving-to-html/)
 - [Excel を HTML に変換する際に文書のワークブックとワークシートのプロパティをエクスポート](/cells/ja/java/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/)
 - [印刷範囲を HTML にエクスポート](/cells/ja/java/export-print-area-range-to-html/)
+{{< app/cells/assistant language="java" >}}

@@ -50,3 +50,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 Eğer elektronik tablonuz formüller içeriyorsa, elektronik tabloyu PDF biçimine dönüştürmeden önce en iyi işlem, Workbook.CalculateFormula yöntemini çağırmaktır. Bu işlem, formül bağımlı değerlerin yeniden hesaplanmasını sağlar ve PDF biçiminde doğru değerlerin çıktılanmasını sağlar.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

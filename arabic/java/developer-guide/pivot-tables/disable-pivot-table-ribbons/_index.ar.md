@@ -16,3 +16,4 @@ url: /ar/java/disable-pivot-table-ribbons/
 توضح الشفرة العينية التالية هذه الميزة عن طريق الوصول إلى جدول دوران من ورقة عمل ثم استدعاء ال [**setEnableWizard**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#EnableWizard) لتعيين هذا العلم **false**. يمكن تنزيل ملف جدول الدوران العيني من [هنا](71630876.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-DisablePivotTableRibbon-1.java" >}}
+{{< app/cells/assistant language="java" >}}

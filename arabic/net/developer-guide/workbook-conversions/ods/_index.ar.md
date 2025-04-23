@@ -23,3 +23,4 @@ description: كيفية تحويل Excel إلى Ods (OpenOffice / LibreOffice Ca
 ## **مواضيع متقدمة**
 - [حفظ ملف ODS بمواصفات ODF 1.1 و 1.2](/cells/ar/net/save-ods-file-in-odf-1-1-and-1-2-specifications/)
 - [العمل مع الخلفية في ملفات ODS](/cells/ar/net/working-with-background-in-ods-files/)
+{{< app/cells/assistant language="csharp" >}}

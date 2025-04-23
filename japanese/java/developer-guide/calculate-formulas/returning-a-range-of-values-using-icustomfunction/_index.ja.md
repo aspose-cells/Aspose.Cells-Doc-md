@@ -32,3 +32,4 @@ Aspose.Cellsは、Microsoft Excelの組み込み関数としてサポートさ�
 次に、上記の関数をプログラムに使用します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReturningRangeOfValues-ReturningRangeOfValues.java" >}}
+{{< app/cells/assistant language="java" >}}

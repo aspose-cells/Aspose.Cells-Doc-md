@@ -19,3 +19,4 @@ Nach Ausführung des folgenden Codes sehen Sie das Treemap-Diagramm wie unten ge
 Der folgende Beispielscode lädt die [Beispieldatei Excel](treemap.xlsx) und generiert die [Ausgabedatei Excel](out.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "create-treemap-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

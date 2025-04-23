@@ -17,7 +17,7 @@ Aspose.Cells для Python via NET позволяет изменить тип ц
 
 {{< /highlight >}}
 
-Как видно из атрибута target в указанной выше HTML-ссылке **_self**. Вы можете контролировать этот атрибут target, используя свойство [**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/). Это свойство принимает перечисление [**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype), которое имеет следующие значения.
+Как видно из атрибута target в указанной выше HTML-ссылке **_self**. Вы можете контролировать этот атрибут target, используя свойство [**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/). Это свойство принимает перечисление [**HtmlLinkTargetType**](https://reference.aspose.com/cells/python-net/aspose.cells/htmllinktargettype), которое имеет следующие значения.
 
 - HtmlLinkTargetType.BLANK
 - HtmlLinkTargetType.PARENT

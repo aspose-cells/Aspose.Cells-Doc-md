@@ -81,7 +81,7 @@ Aspose.Cells предоставляет методы [**GetStyle**](https://refe
 
 ### **Объединение ячеек**
 
-Как и Microsoft Excel, Aspose.Cells поддерживает объединение нескольких ячеек в одну. Aspose.Cells предоставляет два подхода к этой задаче. Один из способов - вызвать метод [**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)). Метод принимает следующие параметры для объединения ячеек:
+Как и Microsoft Excel, Aspose.Cells поддерживает объединение нескольких ячеек в одну. Aspose.Cells предоставляет два подхода к этой задаче. Один из способов - вызвать метод [**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge-int-int-int-int-). Метод принимает следующие параметры для объединения ячеек:
 
 - Первая строка: первая строка, с которой начинается объединение.
 - Первая колонка: первая колонка, с которой начинается объединение.
@@ -108,3 +108,4 @@ Aspose.Cells предоставляет методы [**GetStyle**](https://refe
 ## **Продвинутые темы**
 - [Изменение выравнивания ячеек и сохранение существующего форматирования](/cells/ru/java/change-cells-alignment-and-keep-existing-formatting/)
 - [Перенос строк и перенос текста](/cells/ru/java/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="java" >}}

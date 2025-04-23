@@ -87,3 +87,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 Wenn Ihre Tabelle Formeln enthält, ist es am besten, die Methode Workbook.calculateFormula kurz vor dem Rendern der Tabelle im PDF-Format aufzurufen. Dadurch wird sichergestellt, dass die formelabhängigen Werte neu berechnet werden und die richtigen Werte im PDF gerendert werden. 
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

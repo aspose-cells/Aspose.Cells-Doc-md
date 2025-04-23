@@ -10,9 +10,9 @@ url: /ja/java/detect-hyperlink-type/
 Excelファイルには、外部、セル参照、ファイルパスなどの異なるタイプのハイパーリンクが存在します。Aspose.Cellsはハイパーリンクのタイプを検出する機能をサポートしています。ハイパーリンクのタイプは[**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)列挙型によって表されます。[**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)列挙型には、次のメンバーがあります。
 
 - [**EXTERNAL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): 外部リンク
-- [**FILE_PATH**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): ローカルファイルまたはフォルダへの完全なパス
+- [**FILE_PATH**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE-PATH): ローカルファイルまたはフォルダへの完全なパス
 - [**EMAIL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): メール
-- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE): セルまたは名前付き範囲へのリンク
+- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL-REFERENCE): セルまたは名前付き範囲へのリンク
 
 ハイパーリンクのタイプをチェックするには、[**Hyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink)クラスが[**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType)プロパティを提供し、戻り値が[**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)であることを確認します。次のコードスニペットは、この[**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType)プロパティの使用をデモンストレーションします。
 
@@ -32,3 +32,4 @@ FullPathExample: CELL_REFERENCE </br>
 https://products.aspose.com/cells/ : EXTERNAL </br>
 mailto:test@test.com?subject=TestLink: EMAIL
 ```
+{{< app/cells/assistant language="java" >}}

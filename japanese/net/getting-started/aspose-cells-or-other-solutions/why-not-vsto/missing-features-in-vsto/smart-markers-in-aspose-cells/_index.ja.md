@@ -12,3 +12,4 @@ url: /ja/net/smart-markers-in-aspose-cells/
 - [Smart Markers 機能](/cells/ja/net/smart-markers-feature/)
 - [匿名型またはカスタムオブジェクトの使用](/cells/ja/net/using-anonymous-types-or-custom-objects/)
 - [ネストされたオブジェクトの使用](/cells/ja/net/using-nested-objects/)
+{{< app/cells/assistant language="csharp" >}}

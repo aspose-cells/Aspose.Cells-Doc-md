@@ -103,3 +103,4 @@ Aspose.Cells воспользовался годами исследований,
 - [Обновление и вычисление сводной таблицы с вычисляемыми элементами](/cells/ru/java/refresh-and-calculate-pivot-table-having-calculated-items/)
 - [Отключение лент сводной таблицы](/cells/ru/java/disable-pivot-table-ribbons/)
 
+{{< app/cells/assistant language="java" >}}

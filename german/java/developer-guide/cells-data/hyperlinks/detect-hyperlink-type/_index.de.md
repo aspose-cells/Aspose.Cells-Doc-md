@@ -10,9 +10,9 @@ url: /de/java/detect-hyperlink-type/
 Eine Excel-Datei kann verschiedene Arten von Hyperlinks wie externe, Zellbezug, Dateipfad usw. haben. Aspose.Cells unterstützt die Funktion, den Typ des Hyperlinks zu erkennen. Die Arten von Hyperlinks werden durch die [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)-Enumeration repräsentiert. Die [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)-Enumeration hat die folgenden Elemente.
 
 - [**EXTERNAL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): Externer Link
-- [**FILE_PATH**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): Lokaler und voller Pfad zu Dateien/Ordnern.
+- [**FILE_PATH**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE-PATH): Lokaler und voller Pfad zu Dateien/Ordnern.
 - [**EMAIL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): E-Mail
-- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE) : Link zur Zelle oder benanntem Bereich.
+- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL-REFERENCE) : Link zur Zelle oder benanntem Bereich.
 
 Um den Typ des Hyperlinks zu überprüfen, bietet die [**Hyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink)-Klasse eine [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType)-Eigenschaft mit einem Rückgabetyp von [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). Der folgende Codeausschnitt veranschaulicht die Verwendung der [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType)-Eigenschaft unter Verwendung dieser [Excel-Quelldatei](LinkTypes.xlsx).
 
@@ -32,3 +32,4 @@ FullPathExample: CELL_REFERENCE </br>
 https://products.aspose.com/cells/ : EXTERNAL </br>
 mailto:test@test.com?subject=TestLink: EMAIL
 ```
+{{< app/cells/assistant language="java" >}}

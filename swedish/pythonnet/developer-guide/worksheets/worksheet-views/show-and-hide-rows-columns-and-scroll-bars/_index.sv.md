@@ -3,19 +3,19 @@ title: Visa och Dölja rader, Kolumner och Rullningslistor
 type: docs
 weight: 20
 url: /sv/python-net/show-and-hide-rows-columns-and-scroll-bars/
-description: Denna artikel visar hur man programmatiskt visar och döljer Excel arkrad och kolumner med hjälp av Aspose.Cells för Python via .NET API. Synligheten av rullningsfält kan justeras och flera rader och kolumner kan döljas.
-keywords: Python Excel Library, Python visa rader och kolumner, Python dölj rader och kolumner, Python visa vertikalt rullningsfält, Python visa horisontellt rullningsfält, Python dölj vertikalt rullningsfält, Python dölj horisontell rullningsfält, Python Visa och Dölj Rader Kolumner och Rullningsfält.
+description: Denna artikel demonstrerar hur man programmässigt visar och döljer rader och kolumner i Excel ark med hjälp av Aspose.Cells för Python via .NET API. Synligheten för scrollningslinjer kan justeras, och flera rader och kolumner kan döljas.
+keywords: Python Excel bibliotek, Python visa rader och kolumner, Python dölj rader och kolumner, Python visa vertikal scroll list, Python visa horisontell scroll list, Python dölja vertikal scroll list, Python dölja horisontell scroll list, Python Visa och Dölj Rader, Kolumner och Scroll Listor.
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells för Python via .NET ger sätt att kontrollera synligheten av Rader, Kolumner och Rullningsfält i ett kalkylblad.
+Aspose.Cells för Python via .NET ger sätt att kontrollera synligheten för Rader, Kolumner och Scroll-Listor i ett kalkylblad.
 
 {{% /alert %}}
 
 ## **Visa och göm rader och kolumner**
 
-Aspose.Cells för Python via .NET ger en klass, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), som representerar en Microsoft Excel-fil. Klassen [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) innehåller en [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) samling som gör det möjligt att komma åt varje arbetsblad i Excel-filen. Ett arbetsblad representeras av klassen [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet). Klassen [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) tillhandahåller en [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells) samling som representerar alla celler i arbetsbladet. Klassen [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells) tillhandahåller flera metoder för att hantera rader eller kolumner i ett arbetsblad. Några av dessa diskuteras nedan.
+Aspose.Cells för Python via .NET tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), som representerar en Microsoft Excel-fil. Klassen [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) innehåller en [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) samling som låter utvecklare få åtkomst till varje kalkylblad i Excel-filen. Ett kalkylblad representeras av klassen [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet). Klassen [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) ger en [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells) samling som representerar alla celler i kalkylbladet. Samlingen [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells) ger flera metoder för att hantera rader eller kolumner i ett kalkylblad. Några av dessa diskuteras nedan.
 
 ### **Visa Rader och Kolumner**
 
@@ -57,11 +57,11 @@ Rullningslistor används för att navigera bland innehållet i en fil. Vanligtvi
 - Vertikala bildrullningsfält
 - Horisontella bildrullningsfält
 
-Microsoft Excel tillhandahåller även horisontella och vertikala rullningsfält så att användare kan bläddra genom innehållet i kalkylbladet. Med hjälp av Aspose.Cells för Python via .NET kan utvecklare kontrollera synligheten av båda typerna av rullningsfält i Excel-filer.
+Microsoft Excel tillhandahåller också horisontella och vertikala skrollbars så att användare kan scrolla genom arbetsbladets innehåll. Med Aspose.Cells för Python via .NET kan utvecklare kontrollera synligheten för båda typerna av skrollbars i Excel-filer.
 
 ### **Kontrollera Synligheten för Rullningslistor**
 
-Aspose.Cells för Python via .NET ger en klass, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) som representerar en Excel-fil. Klassen [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) innehåller ett brett utbud av egenskaper och metoder för att hantera en Excel-fil. För att kontrollera synligheten av rullningsfält, använd klassens [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) egenskaper [**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) och [**WorkbookSettings.is_h_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_h_scroll_bar_visible). [**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) och [**WorkbookSettings.is_h_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_h_scroll_bar_visible) är booleska egenskaper, vilket innebär att dessa egenskaper bara kan spara **true** eller **false** värden.
+Aspose.Cells för Python via .NET ger en klass, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), som representerar en Excel-fil. [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)-klassen ger ett brett spektrum av egenskaper och metoder för att hantera en Excel-fil. För att kontrollera synligheten av skrollbars, använd [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)-klassens [**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) och [**WorkbookSettings.is_h_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_h_scroll_bar_visible)-egenskaper. [**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) och [**WorkbookSettings.is_h_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_h_scroll_bar_visible) är Boolean-egenskaper, vilket innebär att dessa egenskaper endast kan lagra **true** eller **false** värden.
 
 #### **Gör bildrullningsfält synliga**
 

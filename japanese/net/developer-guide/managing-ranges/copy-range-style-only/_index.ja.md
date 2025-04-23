@@ -20,3 +20,4 @@ url: /ja/net/copy-range-style-only/
 最初の範囲の書式を2番目の範囲にコピーします。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeStyleOnly-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

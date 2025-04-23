@@ -18,3 +18,4 @@ Il codice di esempio seguente crea una casella di testo e aggiunge del testo in 
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

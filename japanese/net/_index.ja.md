@@ -75,3 +75,4 @@ Aspose.Cells for .NETは、ビジネスで毎日使用されている人気の�
 			</ul>
 	</div>
 </div>
+{{< app/cells/assistant language="csharp" >}}

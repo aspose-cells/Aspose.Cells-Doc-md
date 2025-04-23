@@ -28,3 +28,4 @@ Aşağıdaki örnek kod, bir iletişim sayfası içeren [örnek Excel dosyasın�
 Worksheet is a Dialog Sheet.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

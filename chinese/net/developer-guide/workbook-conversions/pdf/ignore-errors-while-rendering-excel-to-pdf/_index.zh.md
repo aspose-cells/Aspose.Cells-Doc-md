@@ -18,3 +18,4 @@ url: /zh/net/ignore-errors-while-rendering-excel-to-pdf/
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-IgnoreErrorsWhileRenderingExcelToPdf.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

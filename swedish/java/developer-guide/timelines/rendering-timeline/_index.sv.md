@@ -17,3 +17,4 @@ Följande exempelkod laddar [in den exempel-Excel-filen](input.xlsx) som inneh
 ### **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Timelines-RenderingTimeline.java" >}}
 
+{{< app/cells/assistant language="java" >}}

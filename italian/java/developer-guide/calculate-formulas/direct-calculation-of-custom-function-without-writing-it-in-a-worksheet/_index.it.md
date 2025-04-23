@@ -7,7 +7,7 @@ url: /it/java/direct-calculation-of-custom-function-without-writing-it-in-a-work
 
 {{% alert color="primary" %}} 
 
-Questo articolo spiega come è possibile calcolare direttamente le funzioni personalizzate senza scriverle prima in un foglio di lavoro. Si prega di utilizzare il metodo [Worksheet.calculateFormula(string formula, CalculationOptions opts)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula\(java.lang.String,%20com.aspose.cells.CalculationOptions\)) per questo scopo.
+Questo articolo spiega come puoi calcolare direttamente le tue funzioni personalizzate senza prima scriverle in un foglio di lavoro. Usa il metodo [Worksheet.calculateFormula(string formula, CalculationOptions opts)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula-java.lang.String-com.aspose.cells.CalculationOptions-) a questo scopo.
 
 {{% /alert %}} 
 ## **Calcolo diretto della funzione personalizzata senza scriverla in un foglio di lavoro**
@@ -28,3 +28,4 @@ Di seguito è riportato l'output della console del codice di esempio sopra.
 - [Implementare un motore di calcolo personalizzato per estendere il motore di calcolo predefinito di Aspose.Cells](/cells/it/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

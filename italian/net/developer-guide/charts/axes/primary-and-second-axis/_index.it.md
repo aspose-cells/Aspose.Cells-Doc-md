@@ -16,3 +16,4 @@ Quindi aggiungiamo un grafico e mostriamo l'asse secondario.
 ![todo:image_alt_text](excel.png)
 ## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "primary-and-second-axis.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

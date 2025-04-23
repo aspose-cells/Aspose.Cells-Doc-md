@@ -47,3 +47,4 @@ Kullanıcılar, API'leri kullanarak yığın boyutunu kendileri denetleyebilirle
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="csharp" >}}

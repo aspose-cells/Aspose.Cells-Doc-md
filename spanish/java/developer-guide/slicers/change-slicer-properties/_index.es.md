@@ -16,3 +16,4 @@ Por favor, consulta el siguiente código de ejemplo. Carga el [archivo de Excel 
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Slicers-ChangeSlicerProperties-1.java" >}}
+{{< app/cells/assistant language="java" >}}

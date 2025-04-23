@@ -17,7 +17,7 @@ Aspose.Cells имеет мощный расчетный механизм, кот
 
 {{% /alert %}} 
 ## **Реализация пользовательского расчетного движка**
-Следующий код реализует Пользовательский Расчетный Движок. Он реализует интерфейс [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine), который имеет только один метод [calculate(CalculationData data)](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationengine#calculate\(com.aspose.cells.CalculationData\)). Этот метод вызывается для всех ваших формул. Внутри этого метода мы захватываем функцию **TODAY** и добавляем один день к системной дате. Таким образом, если текущая дата - 27/07/2023, то пользовательский движок будет рассчитывать TODAY() как 28/07/2023.
+Следующий код реализует собственный механизм вычислений. Он реализует интерфейс [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine), который содержит только один метод [calculate(CalculationData data)](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationengine#calculate-com.aspose.cells.CalculationData-). Этот метод вызывается для всех ваших формул. Внутри этого метода мы захватываем функцию **TODAY** и добавляем один день к системной дате. Таким образом, если текущая дата 27/07/2023, то движок вычисляет TODAY() как 28/07/2023.
 
 ### **Пример программирования**
 
@@ -33,3 +33,4 @@ Aspose.Cells имеет мощный расчетный механизм, кот
 - [Прямой расчет пользовательской функции без записи ее на лист](/cells/ru/java/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

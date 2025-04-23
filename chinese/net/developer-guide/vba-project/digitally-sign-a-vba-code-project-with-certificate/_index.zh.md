@@ -25,3 +25,4 @@ url: /zh/net/digitally-sign-a-vba-code-project-with-certificate/
 - [示例代码生成的输出Excel文件](5115029.xlsm)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-DigitallySignVbaProjectWithCertificate-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

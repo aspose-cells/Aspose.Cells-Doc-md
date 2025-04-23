@@ -13,7 +13,7 @@ Questo articolo spiega come aggiungere immagini e come inserire un'immagine che 
 
 Aggiungere immagini a un foglio di calcolo è molto semplice. Bastano poche righe di codice.
 
-Chiamare semplicemente il metodo [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) della collezione [**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) (incapsulata nell'oggetto [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)). Il metodo [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) accetta i seguenti parametri:
+Chiamare semplicemente il metodo [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add-int-int-java.lang.String-) della collezione [**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) (incapsulata nell'oggetto [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)). Il metodo [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add-int-int-java.lang.String-) accetta i seguenti parametri:
 
 - **Indice della riga in alto a sinistra**, l'indice della riga in alto a sinistra.
 - **Indice della colonna in alto a sinistra**, l'indice della colonna in alto a sinistra.
@@ -37,3 +37,4 @@ I programmatori possono posizionare le immagini in modo assoluto utilizzando i m
 - [Inserisci un'immagine collegata dall'indirizzo web](/cells/it/java/insert-a-linked-picture-from-web-address/)
 - [Inserire un'immagine basata sul riferimento di cella](/cells/it/java/insert-a-picture-based-on-cell-reference/)
 - [Inserire un'immagine web da un URL in un foglio di calcolo Excel](/cells/it/java/insert-web-image-from-a-url-into-an-excel-worksheet/)
+{{< app/cells/assistant language="java" >}}

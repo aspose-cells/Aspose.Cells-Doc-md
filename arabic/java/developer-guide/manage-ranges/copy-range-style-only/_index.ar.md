@@ -20,3 +20,4 @@ url: /ar/java/copy-range-style-only/
 1. نسخ تنسيق المجموعة الأولى إلى المجموعة الثانية.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyRangeStyleOnly-CopyRangeStyleOnly.java" >}}
+{{< app/cells/assistant language="java" >}}

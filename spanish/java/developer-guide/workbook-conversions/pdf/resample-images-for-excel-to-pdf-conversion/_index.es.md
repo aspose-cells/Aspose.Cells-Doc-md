@@ -21,10 +21,11 @@ Consulte el siguiente código de ejemplo que describe cómo realizar la tarea ut
 
 {{% alert color="primary" %}}
 
-El uso de la opción [**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)) minimiza el tamaño del PDF de salida, pero puede afectar ligeramente la calidad de la imagen.
+El uso de la opción [**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample-int-int-) minimiza el tamaño del PDF de salida, pero puede afectar ligeramente la calidad de la imagen.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
 Si su hoja de cálculo contiene fórmulas, es mejor llamar a [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) justo antes de renderizar la hoja de cálculo en formato PDF. Al hacerlo, se asegurará de que los valores dependientes de las fórmulas se recalculen y los valores correctos se muestren en el PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

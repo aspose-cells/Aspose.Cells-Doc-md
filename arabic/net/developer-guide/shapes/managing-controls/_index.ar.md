@@ -381,3 +381,4 @@ url: /ar/net/managing-controls/
 - [إضافة عناصر تحكم ActiveX باستخدام Aspose.Cells](/cells/ar/net/add-activex-controls-using-aspose-cells/)
 - [إزالة عنصر تحكم ActiveX](/cells/ar/net/remove-activex-control/)
 - [تحديث عنصر تحكم ActiveX ComboBox](/cells/ar/net/update-activex-combobox-control/)
+{{< app/cells/assistant language="csharp" >}}

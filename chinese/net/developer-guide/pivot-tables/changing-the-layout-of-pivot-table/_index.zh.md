@@ -20,3 +20,4 @@ Aspose.Cells还提供了[**PivotTable.ShowInCompactForm()**](https://reference.a
 以下示例代码首先以**紧凑形式**显示数据透视表，然后以**大纲形式**显示数据透视表，最后以**表格形式**显示数据透视表。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-ChangingLayoutOfPivotTable-ChangingLayoutOfPivotTable.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

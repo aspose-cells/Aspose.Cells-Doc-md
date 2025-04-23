@@ -20,3 +20,4 @@ Aspose.Cells, kullanarak ODS dosyalarındaki grafik altyazılarını [**Chart.Su
 Chart Subtitle: Sample Chart Subtitle
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

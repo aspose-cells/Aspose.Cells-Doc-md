@@ -15,3 +15,4 @@ Esta sección tiene los siguientes temas:
 
 - [Columnas que contienen datos no fuertemente tipados](/cells/es/net/columns-containing-non-strongly-typed-data/)
 - [Columnas que contienen datos fuertemente tipados](/cells/es/net/columns-containing-strongly-typed-data/)
+{{< app/cells/assistant language="csharp" >}}

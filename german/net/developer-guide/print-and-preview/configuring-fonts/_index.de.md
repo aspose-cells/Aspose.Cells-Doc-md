@@ -20,6 +20,12 @@ Im Folgenden wird der Prozess erläutert, den die Aspose.Cells-APIs im Hintergru
 1. Wenn die API die unter [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/properties/defaultfontname) definierte Schriftart nicht finden kann, versucht sie, die geeignetsten Schriftarten aus allen verfügbaren Schriftarten auszuwählen.
 1. Schließlich rendert die API die Tabelle mit Arial, wenn sie keine Schriftarten im Dateisystem finden kann.
 
+{{% alert color="primary" %}}
+
+Grundsätzlich durchsuchen die Aspose.Cells APIs standardmäßig die Schriftartenverzeichnisse des Betriebssystems unter Windows, Linux, MacOS. Ab [Aspose.Cells for .NET 24.7](https://releases.aspose.com/cells/net/release-notes/2024/aspose-cells-for-net-24-7-release-notes/) durchsuchen die APIs zusätzlich standardmäßig die Office-Cache-Cloud-Schriftartenverzeichnisse.
+
+{{% /alert %}}
+
 ## **Benutzerdefinierte Schriftartordner einstellen**
 
 Aspose.Cells-APIs suchen im Standard-Schriftartverzeichnis des Betriebssystems nach den benötigten Schriftarten. Falls die benötigten Schriftarten nicht im Schriftartverzeichnis des Systems vorhanden sind, durchsuchen die APIs die benutzerdefinierten (benutzerdefinierte) Verzeichnisse. Die Klasse [**FontConfigs**](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs) hat verschiedene Möglichkeiten zum Setzen von benutzerdefinierten Schriftartverzeichnissen, wie unten detailliert beschrieben.
@@ -66,3 +72,4 @@ Neben den oben genannten Methoden bieten die Aspose.Cells APIs auch Möglichkeit
 - [Die Eigenschaft DefaultFont von PdfSaveOptions und ImageOrPrintOptions festlegen, um Priorität zu haben](/cells/de/net/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Unterstützte Schriftformate](/cells/de/net/supported-font-formats/)
 - [Arbeitsblatt zu Bild - Setzen des Pixelformats für das gerenderte Bild](/cells/de/net/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
+{{< app/cells/assistant language="csharp" >}}

@@ -11,7 +11,7 @@ url: /es/cpp/installation/
    1. Aquí está el [Enlace al paquete NuGet Aspose.Cells.Cpp](https://www.nuget.org/packages/Aspose.Cells.Cpp).
 1. Consulte [Instalar Aspose Cells a través de NuGet] para obtener más detalles. (https://docs.aspose.com/cells/cpp/getting-started/).  
 
-También puedes descargar el paquete ZIP desde la página de descarga (https://downloads.aspose.com/cells/cpp/). El archivo también contiene la documentación de la API sin conexión.
+También puedes descargar el paquete ZIP desde la Aspose.Cells for C++ [página de descarga](https://downloads.aspose.com/cells/cpp/). El archivo también contiene la documentación de API offline.
 ### **Usando las carpetas Include y lib**
 1. Descargar/Instalar los [archivos más recientes](https://downloads.aspose.com/cells/cpp/).
 1. Descomprimir la carpeta en el entorno de producción.

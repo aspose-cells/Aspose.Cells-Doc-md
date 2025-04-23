@@ -21,3 +21,4 @@ url: /ru/net/format-pivot-table-cells/
 
 - [Форматирование сводной таблицы](/cells/ru/net/formatting-pivot-table/)
 - [Работа с форматами отображения данных DataField в сводной таблице](/cells/ru/net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="csharp" >}}

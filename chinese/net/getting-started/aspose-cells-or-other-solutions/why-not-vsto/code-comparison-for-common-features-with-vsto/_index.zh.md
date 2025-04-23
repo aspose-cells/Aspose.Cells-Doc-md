@@ -32,3 +32,4 @@ url: /zh/net/code-comparison-for-common-features-with-vsto/
 - [在工作表中对数据进行排序](/cells/zh/net/sort-data-in-worksheets/)
 - [使用公式函数在VSTO和Aspose.Cells中处理数据](/cells/zh/net/use-formulas-functions-to-process-data-in-vsto-and-aspose-cells/)
 - [在VSTO和Aspose.Cells中包装单元格文本](/cells/zh/net/wrapping-cell-text-in-vsto-and-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

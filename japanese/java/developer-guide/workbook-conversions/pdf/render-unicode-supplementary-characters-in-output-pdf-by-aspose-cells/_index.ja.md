@@ -23,3 +23,4 @@ Unicode文字標準では、補助文字はU+10000からU+10FFFFまでのコー�
 次のサンプルコードを使用して、[ソースエクセルファイル](5473390.xlsx) を [出力PDF](5473391.pdf) に変換できます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-RenderUnicodeSupplimentaryCharacterToPDF-1.java" >}}
+{{< app/cells/assistant language="java" >}}

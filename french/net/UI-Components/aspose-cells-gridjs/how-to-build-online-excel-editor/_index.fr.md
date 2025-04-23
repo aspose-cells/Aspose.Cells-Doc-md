@@ -1,10 +1,10 @@
 ---
-title: comment exécuter Aspose.Cells.GridJs dans docker
+title: comment exécuter Aspose.Cells.GridJs dans un docker
 type: docs
 weight: 250
 url: /fr/net/aspose-cells-gridjs/how-to-build-online-excel-editor/
-keywords: GridJs,docker
-description: Cet article présente comment exécuter GridJs dans docker pour créer une application d édition ou de visualisation de fichiers Excel en ligne.
+keywords: GridJs, docker
+description: Cet article présente comment exécuter GridJs dans un docker pour créer une application d éditeur ou de visualiseur Excel en ligne.
 aliases:
   - /net/aspose-cells-gridjs/docker/
   - /net/aspose-cells-gridjs/run-aspose-cells-gridjs-in-docker/
@@ -23,13 +23,13 @@ aliases:
 
 Assurez-vous d'avoir Docker installé sur votre machine. Vous pouvez télécharger et installer Docker depuis le [site officiel de Docker](https://www.docker.com/get-started).
 
-## Étape 1: Créez un fichier Dockerfile
+## Étape 1 : Créer un Dockerfile
 
-Créez un fichier nommé `Dockerfile` dans votre projet [répertoire](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/). Le `Dockerfile` devrait contenir des instructions sur la façon de construire votre image Docker.
+Créez un fichier nommé `Dockerfile` dans le [répertoire](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/) de votre projet. Le `Dockerfile` doit contenir des instructions sur la manière de construire votre image Docker.
 
-## Étape 2: Écrire Dockerfile pour GridJs
+## Étape 2 : Écrire le Dockerfile pour GridJs
 
-Voici un exemple de [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Dockerfile) pour la démo de GridJs avec l'application ASP.NET Core:
+Voici un exemple [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Dockerfile) pour la démonstration GridJs avec une application ASP.NET Core :
 
 ```dockerfile
 # Use the official .NET6.0 runtime as a parent image
@@ -65,6 +65,8 @@ WORKDIR /app
 # COPY fonts/* /usr/share/fonts/
 # the basic file path which contains the spread sheet files 
 RUN mkdir -p /app/wb
+# the file path to store the uploaded files
+RUN mkdir -p /app/uploads
 # the cache file path for GridJs
 RUN mkdir -p /app/grid_cache
 # we provide some sample spread sheet files in demo 
@@ -76,54 +78,64 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "gridjs-demo-.net6.dll"]
 ```
 
-## Étape 3: Construction de l'image Docker
-Construisez l'image Docker: Depuis le terminal, exécutez la commande suivante pour construire votre image Docker:
+## Étape 3 : Construction de l'image Docker
+Construire l'image Docker : Depuis le terminal, exécutez la commande suivante pour construire votre image Docker :
 ```bash
 docker build -t gridjs-demo-net6 .
 ```
 vous pouvez remplacer gridjs-demo-net6 par le nom que vous souhaitez donner à votre image Docker.
 
-## Étape 4: Exécution d'un conteneur Docker
-Une fois l'image construite, vous pouvez exécuter un conteneur en utilisant la commande suivante:
+## Étape 4 : Exécution d'un conteneur Docker
+Une fois l'image construite, vous pouvez exécuter un conteneur à l'aide de la commande suivante :
+
+```bash
+docker run -d -p 24262:80 -v C:/path/to/license.txt:/app/license --name gridjs-demo-container  gridjs-demo-net6
+```
+
+ou simplement exécuter la démo en mode d'essai :
+
 
 ```bash
 docker run -d -p 24262:80 --name gridjs-demo-container  gridjs-demo-net6
 ```
-Explication des options de la commande Docker Run
--d: Exécute le conteneur en mode détaché (en arrière-plan).
--p 24262:80: Mappez le port 80 du conteneur sur le port 24262 sur la machine hôte.
---name gridjs-demo-container: Attribuez un nom au conteneur.
 
-## Étape 5: Vérifier que le Conteneur fonctionne
-Pour vérifier si votre conteneur fonctionne, utilisez la commande suivante:
+
+Explication des options de la commande Docker Run
+-d : Exécuter le conteneur en mode détaché (en arrière-plan).
+-p 24262:80 : Mapper le port 80 du conteneur au port 24262 sur la machine hôte.
+-v C:/path/to/license.txt:/app/license : Mapper le chemin du fichier de licence sur la machine hôte au chemin du fichier dans le conteneur.
+--name gridjs-demo-container : Assigner un nom au conteneur.
+
+## Étape 5 : Vérifier que le conteneur fonctionne
+Pour vérifier si votre conteneur fonctionne, utilisez la commande suivante :
 
 ```bash
 docker ps
 ```
-Cela listera tous les conteneurs en cours d'exécution. Vous devriez voir votre conteneur répertorié avec son nom et son statut.
+Cela listera tous les conteneurs en cours d'exécution. Vous devriez voir votre conteneur avec son nom et son statut.
 
-## Étape 6: Accéder à l'application Web
+## Étape 6 : Accéder à l'application web
 
-Ouvrez un navigateur web et allez à `http://localhost:24262/GridJs2/List`. Vous devriez voir votre application en cours d'exécution.
+Ouvrez un navigateur web et rendez-vous sur `http://localhost:24262/GridJs2/List`. Vous devriez voir votre application fonctionner.
 
-## Commandes Additionnelles
+## Commandes supplémentaires
 
-### Arrêter le Conteneur
+### Arrêter le conteneur
 
-Pour arrêter un conteneur en cours d'exécution, utilisez la commande suivante:
+Pour arrêter un conteneur en cours d'exécution, utilisez la commande suivante :
 
 ```bash
 docker stop gridjs-demo-container
 ```
 
-### Suppression d'un conteneur
+### Supprimer un conteneur
 Pour supprimer un conteneur arrêté, utilisez la commande suivante :
 
 ```bash
 docker rm  gridjs-demo-container
 ```
 
-### Suppression d'une image
+### Supprimer une image
 Pour supprimer une image, utilisez la commande suivante :
 
 ```bash

@@ -26,3 +26,4 @@ url: /zh/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
 Sheet or Tab Id: 1297
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -20,3 +20,4 @@ Il seguente codice di esempio mostra come caricare il workbook con informazioni 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LoadWorkbookWithSpecificCultureInfoNumberFormat-LoadWorkbookWithSpecificCultureInfoNumberFormat.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

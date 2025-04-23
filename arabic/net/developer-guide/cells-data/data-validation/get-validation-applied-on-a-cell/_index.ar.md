@@ -24,3 +24,4 @@ keywords: تطبيق التحقق من الخلية في إكسل باستخدا
 ## مقالات ذات صلة
 
 - [التحقق من البيانات](/cells/ar/net/data-validation/)
+{{< app/cells/assistant language="csharp" >}}

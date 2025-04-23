@@ -182,3 +182,4 @@ url: /zh/net/create-a-pie-chart/
 **使用Aspose.Cells for .NET创建的饼图** 
 
 ![todo:image_alt_text](create-a-pie-chart_2.png)
+{{< app/cells/assistant language="csharp" >}}

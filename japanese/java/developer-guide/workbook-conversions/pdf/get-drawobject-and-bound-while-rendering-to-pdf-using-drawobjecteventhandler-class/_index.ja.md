@@ -7,7 +7,7 @@ url: /ja/java/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjectev
 
 ## **可能な使用シナリオ**
 
-Aspose.Cells は、[**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) という抽象クラスを提供しており、[**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) メソッドがあります。ユーザーは [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) を実装し、[**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) メソッドを利用して Excel を PDF や画像にレンダリングする際に [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) と **Bound** を取得できます。以下に、[**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) メソッドのパラメータの簡単な説明を示します。
+Aspose.Cells は、[**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) という抽象クラスを提供しており、[**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw-com.aspose.cells.DrawObject-float-float-float-float-) メソッドがあります。ユーザーは [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) を実装し、[**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw-com.aspose.cells.DrawObject-float-float-float-float-) メソッドを利用して Excel を PDF や画像にレンダリングする際に [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) と **Bound** を取得できます。以下に、[**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw-com.aspose.cells.DrawObject-float-float-float-float-) メソッドのパラメータの簡単な説明を示します。
 
 - drawObject: [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) が初期化され、レンダリング時に返されます
 
@@ -42,3 +42,4 @@ Excel ファイルを PDF にレンダリングする場合、[**DrawObjectEvent
 \----------------------
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

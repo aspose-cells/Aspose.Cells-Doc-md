@@ -87,3 +87,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 Если ваша таблица содержит формулы, лучше вызвать метод Workbook.calculateFormula прямо перед рендерингом таблицы в формат PDF. Это обеспечит пересчет зависимых от формул значений и правильное рендеринг значений в PDF. 
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

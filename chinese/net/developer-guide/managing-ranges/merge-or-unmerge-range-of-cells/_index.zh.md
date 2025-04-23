@@ -18,3 +18,4 @@ keywords: c# 在范围内合并和取消合并单元格，c# 在范围内合并�
 以下示例代码首先创建范围 - A1:D4 - 然后使用 [**Range.Merge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge) 方法将范围中的单元格合并为单个单元格。类似地，您可以通过创建范围并调用 [**Range.UnMerge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/unmerge) 方法来拆分单元格。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-MergeUnmergeRangeOfCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

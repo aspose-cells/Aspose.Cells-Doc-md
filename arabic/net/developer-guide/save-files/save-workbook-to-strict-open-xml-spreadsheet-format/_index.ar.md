@@ -18,3 +18,4 @@ url: /ar/net/save-workbook-to-strict-open-xml-spreadsheet-format/
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "LoadingSavingConvertingAndManaging-SaveWorkbookToStrictOpenXMLSpreadsheetFormat.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

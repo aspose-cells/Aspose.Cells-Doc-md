@@ -46,3 +46,4 @@ url: /ru/net/headings-and-body-theme-font/
 В следующем примере кода показано, как получить локальный тематический шрифт.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Local-Theme-Font.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -125,3 +125,4 @@ workbook.Save("output.xlsm");
 
 ### **Tillagd OoxmlSaveOptions.UpdateZoom Egenskap**
 Med utgivningen av v8.6.0 har Aspose.Cells for .NET API exponerat egenskapen OoxmlSaveOptions.UpdateZoom som kan användas för att uppdatera PageSetup.Zoom om PageSetup.FitToPagesWide- och/eller PageSetup.FitToPagesTall-egenskaperna har använts för att kontrollera kalkylbladets skalning.
+{{< app/cells/assistant language="csharp" >}}

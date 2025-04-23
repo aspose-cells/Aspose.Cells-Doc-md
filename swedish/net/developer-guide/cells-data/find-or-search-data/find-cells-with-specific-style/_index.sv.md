@@ -16,3 +16,4 @@ Ibland behöver du hitta celler med en specifik stil. Du kan använda Aspose.Cel
 Koden i detta exempel hittar alla celler som har samma stil som cell A1. Efter att koden har utförts innehåller alla celler som har samma stil som A1 texten "Hittad".
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindCellsWithSpecificStyle-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -11,8 +11,8 @@ Aspose.Cells предоставляет вам возможность измен
 
 - [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
 - [**VERTICAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)
-- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)
-- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_270)
+- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90)
+- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-270)
 - [**STACKED**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#STACKED)
 
 На следующем изображении приведено сравнение исходного и выходного файлов
@@ -25,7 +25,7 @@ Aspose.Cells предоставляет вам возможность измен
 
 ![todo:image_alt_text](change-tick-label-direction_2.jpg)
 
-Следующий фрагмент кода изменяет направление меток деления с [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90) на [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
+Следующий фрагмент кода изменяет направление меток деления с [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90) на [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
 
 ### **Образец кода**
 
@@ -36,3 +36,4 @@ Aspose.Cells предоставляет вам возможность измен
 [Исходный файл](SampleChangeTickLabelDirection.xlsx)
 
 [Выходной файл](outputChangeChartDataLableDirection.xlsx)
+{{< app/cells/assistant language="java" >}}

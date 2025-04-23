@@ -44,3 +44,4 @@ cells.MemorySetting = MemorySetting.MemoryPreference;
 请查看关于[在处理大数据集时优化内存使用](/cells/zh/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)的详细文章
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

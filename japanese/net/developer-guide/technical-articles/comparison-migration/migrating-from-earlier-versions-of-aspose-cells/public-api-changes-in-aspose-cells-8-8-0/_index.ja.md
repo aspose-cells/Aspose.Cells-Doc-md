@@ -180,3 +180,4 @@ Console.WriteLine("A2 has a quote prefix: " + s2.QuotePrefix);
 ## **非推奨API**
 ### **LoadOptions.ConvertNumericDataプロパティが非推奨になりました**
 Aspose.Cells 8.8.0では、LoadOptions.ConvertNumericDataプロパティが非推奨となりました。HTMLLoadOptionsやTxtLoadOptionsクラスから対応するプロパティを使用してください。
+{{< app/cells/assistant language="csharp" >}}

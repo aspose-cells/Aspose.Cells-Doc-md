@@ -28,3 +28,4 @@ Aspose.Cells bietet die Methode [**DataLabels.setShowCellRange()**](https://refe
 Der unten stehende Beispielcode greift auf die Datenbeschriftungen der Diagrammserie zu und setzt dann die Methode [**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) auf **true**, um die Option **Beschriftung enthält - Wert aus Zellen** zu aktivieren.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ShowCellRangeAsTheDataLabels-ShowCellRangeAsTheDataLabels.java" >}}
+{{< app/cells/assistant language="java" >}}

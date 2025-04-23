@@ -3,8 +3,8 @@ title: Sayfa Seçeneklerini Ayarlama
 type: docs
 weight: 10
 url: /tr/python-net/setting-page-options/
-description: Bu makale, Aspose.Cells için Python via .NET API si kullanarak Excel çalışma sayfalarının sayfa seçeneklerini nasıl programlı olarak ayarlayacağınızı sağlayan örnek kodlar sunmaktadır. Sayfa Yönlendirmesi, Ölçekleme Faktörü, Sayfa Seçeneklerine Uydurma, Kağıt Boyutu, Yazdırma Kalitesi, İlk Sayfa Numarası ayarlarını yapabileceksiniz.
-keywords: Python Excel Kütüphanesi, Python sayfa yönlendirmesi ayarlamak için, Python ile sayfa ölçekleme faktörü ayarlamak, Python ile excel çalışma yapraklarının kağıt boyutunu ayarlamak, Python İçin Sayfa Yönünü Nasıl Belirleyebilirim, Python İçin Ölçekleme Faktörünü Nasıl Belirlerim, Python İçin Sayfa Boyutunu Nasıl Belirleyebilirim, Python İçin Yazdırma Kalitesini Nasıl Belirleyebilirim, Python İçin İlk Sayfa Numarasını Nasıl Belirleyebilirim.
+description: Bu makale, Aspose.Cells for Python via .NET API kullanarak Excel çalışma sayfalarının sayfa seçeneklerini programatik olarak ayarlamak için örnek kod sağlar. Sayfa Yönlendirmesi, Ölçekleme Faktörü, FitToPages Seçenekleri, Kağıt Boyutu, Yazdırma Kalitesi, İlk Sayfa Numarası gibi ayarları yapabileceksiniz.
+keywords: Python Excel Kütüphanesi, Python ile Excel sayfa yönlendirmesini ayarla, ölçekleme faktörünü ayarla, sayfa boyutunu belirle ve ilk sayfa numarasını ayarla.
 ---
 
 {{% alert color="primary" %}}
@@ -13,44 +13,44 @@ Bazen, baskıyı kontrol etmek için çalışma sayfaları için sayfa düzeni a
 
 {{% /alert %}}
 
-## **Sayfa Seçeneklerini Nasıl Ayarlarım**
+## **Sayfa Seçeneklerini Nasıl Ayarlarsınız**
 
-Aspose.Cells için Python via .NET'de sayfa ayarlama seçenekleri tamamen desteklenmektedir. Bu makale, Aspose.Cells için Python via .NET ile sayfa seçeneklerini nasıl ayarlayacağınızı açıklar ve ayarlama için kod örneklerini gösterir:
+Sayfa ayar seçenekleri Aspose.Cells for Python via .NET'de tamamen desteklenmektedir. Bu makale, Aspose.Cells for Python via .NET ile sayfa seçeneklerinin nasıl ayarlanacağını açıklar ve kod örneklerini gösterir:
 
-Aspose.Cells için Python via .NET, bir Microsoft Excel dosyasını temsil eden bir sınıf, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sunar. [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfı, Excel dosyasındaki her çalışma yaprağına erişim sağlayan bir [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) ​​kolleksiyonunu içerir. Bir çalışma yaprağı [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) sınıfı tarafından temsil edilir.
+Aspose.Cells for Python via .NET, Microsoft Excel dosyasını temsil eden [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) adlı bir sınıf sağlar. [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfı, Excel dosyasındaki her sayfaya erişim sağlayan [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) koleksiyonunu içerir. Bir çalışma sayfası, [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) sınıfı ile temsil edilir.
 
 [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) sınıfı, çalışma sayfasının sayfa düzeni seçeneklerini ayarlamak için kullanılan [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) özelliğini sağlar. Aslında, bu [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) özelliği, bir çalışma sayfası için farklı sayfa düzeni seçeneklerini ayarlamak için kullanılan [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) sınıfının bir nesnesidir. [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) sınıfı, sayfa düzeni seçeneklerini ayarlamak için kullanılan çeşitli özellikleri sağlar. Bu özelliklerden bazıları aşağıda tartışılmaktadır.
 
-## **Sayfa Yönünü Nasıl Ayarlarım**
+## **Sayfa Yönünü Nasıl Ayarlarsınız**
 
 Sayfa yönlendirmesi; dikey veya yatay olarak [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) sınıfının [**orientation**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/orientation) özelliği kullanılarak ayarlanabilir. Aşağıda, [**orientation**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/orientation) numaralandırmasındaki ön tanımlı değerlerden birini kabul eden [**PageOrientationType**](https://reference.aspose.com/cells/python-net/aspose.cells/pageorientationtype) sıralamasında listelenmiştir.
 
 |**Sayfa Yönlendirme Türleri**|**Açıklama**|
 | :- | :- |
-|YATAY|Yatay yönlendirme|
-|DİKEY|Dikey yönlendirme|
+|LANDSCAPE|Yatay yönlendirme|
+|PORTRAIT|Dikey yönlendirme|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-PageOrientation-1.py" >}}
 
-## **Ölçekleme Faktörünü Nasıl Ayarlarım**
+## **Çapalama Faktörü Nasıl Ayarlanır**
 
 Çalışma sayfasının boyutunu, [**PageSetup.zoom**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/zoom) özelliği ile ölçek faktörünü ayarlayarak küçültebilir veya büyültebilirsiniz.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-ScalingFactor-1.py" >}}
 
-## **Sayfaya Sığdır Seçeneklerini Nasıl Ayarlarım**
+## **Sığdırma Seçenekleri Nasıl Ayarlanır**
 
 Çalışma sayfasının içeriğini belirli bir sayfa sayısına sığdırmak için [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) sınıfının [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/) ve [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/) özelliklerini kullanın. Bu özellikler ayrıca çalışma sayfalarını ölçeklendirmek için de kullanılır.
 
 {{% alert color="primary" %}}
 
-Ya [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/) ve [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/) seçeneğini ya da [**zoom**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/zoom) özelliğini seçebilirsiniz ama aynı anda her ikisini seçemezsiniz.
+Hem [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/) hem de [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/) özelliklerini aynı anda seçemezsiniz, yalnızca biri kullanılabilir.
 
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-FitToPagesOptions-1.py" >}}
 
-## **Kağıt Boyutunu Nasıl Ayarlarım**
+## **Kağıt Boyutu Nasıl Ayarlanır**
 
 Çalışma sayfalarının basılacağı kağıt boyutunu belirlemek için [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) sınıfının [**paper_size**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_size/) özelliğini kullanın. [**paper_size**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_size/) özelliği, aşağıda listelenen [**PaperSizeType**](https://reference.aspose.com/cells/python-net/aspose.cells/papersizetype/) numaralı listesindeki önceden tanımlanmış değerlerden birini kabul eder.
 
@@ -179,13 +179,13 @@ Ya [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-ManagePaperSize-1.py" >}}
 
-## **Yazdırma Kalitesini Nasıl Ayarlarım**
+## **Yazdırma Kalitesi Nasıl Ayarlanır**
 
 Çalışma sayfalarının baskı kalitesini, [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/) sınıfının [**print_quality**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_quality/) özelliği ile ayarlayın. Baskı kalitesi için ölçüm birimi Nokta Başına İnç (DPI) dir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPrintQuality-1.py" >}}
 
-## **İlk Sayfa Numarasını Nasıl Ayarlarım**
+## **İlk Sayfa Numarası Nasıl Ayarlanır**
 
 Çalışma sayfasının numaralandırmasını [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) sınıfının [**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/) özelliğini kullanarak başlatın. [**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/) özelliği, ilk çalışma sayfasının sayı numarasını ayarlar ve sonraki sayfalar artan sırayla numaralanır.
 

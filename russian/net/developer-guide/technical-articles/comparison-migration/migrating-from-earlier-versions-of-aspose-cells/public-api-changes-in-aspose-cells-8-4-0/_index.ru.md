@@ -274,3 +274,4 @@ workbook.Save("output.xlsx");
 Используйте метод GetEnumerator для перебора всех ячеек вместо них.
 ### **Свойство DrawObject.Image устарело**
 Используйте свойство DrawObject.ImageBytes для получения данных изображения вместо этого.
+{{< app/cells/assistant language="csharp" >}}

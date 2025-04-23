@@ -16,3 +16,4 @@ Aspose.Cells 现在提供了属性 [**Style.QuotePrefix**](https://reference.asp
 下面的示例代码解释了像“sample”和“'sample”这样的字符串不能通过[**Cell.StringValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue)属性进行区分。因此，我们必须使用[**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix)属性对它们进行区分。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindIfCellValueStartsWithSingleQuote-FindIfCellValueStartsWithSingleQuote.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

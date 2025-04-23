@@ -11,7 +11,7 @@ Bu başlangıç ​​konusu, geliştiricilerin Aspose.Cells'in basit API'sını
 
 {{% /alert %}}
 
-### **Merhaba Dünya Uygulamasını Oluşturma**
+## **Merhaba Dünya Uygulamasını Oluşturma**
 
 Aspose.Cells API'sını kullanarak Merhaba Dünya uygulamasını oluşturmak için:
 
@@ -26,7 +26,7 @@ Aspose.Cells API'sını kullanarak Merhaba Dünya uygulamasını oluşturmak iç
 
 Aşağıdaki örnekler yukarıdaki adımları göstermektedir.
 
-#### **Bir Workbook Oluşturma**
+### **Bir Workbook Oluşturma**
 
 Aşağıdaki örnek, sıfırdan yeni bir çalışma kitabı oluşturur, ilk çalışma sayfasındaki A1 hücresine "Merhaba Dünya!" yazıp dosyayı kaydeder.
 
@@ -36,7 +36,7 @@ Aşağıdaki örnek, sıfırdan yeni bir çalışma kitabı oluşturur, ilk çal
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "CreatingHelloWorldFile.py" >}}
 
-#### **Mevcut Bir Dosyanın Açılması**
+### **Mevcut Bir Dosyanın Açılması**
 
 Aşağıdaki örnek, **book1.xls** adlı mevcut bir Microsoft Excel şablon dosyasını açar, ilk çalışma sayfasındaki A1 hücresine "Merhaba Dünya!"yazar ve çalışma kitabını yeni bir dosya olarak kaydeder.
 

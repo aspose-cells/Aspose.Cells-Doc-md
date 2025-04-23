@@ -47,3 +47,4 @@ keywords: العثور على الخلايا ذات النمط المحدد، ا
 ![todo:image_alt_text](find-cells-with-specific-style_2.png)
 
 ** الشكل: ** ملف الإخراج مع الخلايا الموجودة بعد البحث بنمط ** A1 **
+{{< app/cells/assistant language="java" >}}

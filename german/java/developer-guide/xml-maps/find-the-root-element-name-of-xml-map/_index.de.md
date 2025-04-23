@@ -24,3 +24,4 @@ Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](55541816.xlsx) und gr
 Root Element Name Of Xml Map: MiscData
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

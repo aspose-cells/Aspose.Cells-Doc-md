@@ -192,3 +192,4 @@ HTML5 スプレッドシート エディターは、誰もがプロジェクト�
 製品はAspose ライセンスなしで動作しますが、[制限付き](/cells/ja/java/licensing/)で動作します。制限を解除するには、[無料の一時ライセンス](https://purchase.aspose.com/temporary-license)を取得するか、[フルライセンスを購入](https://purchase.aspose.com/buy)してください。
 
 デフォルトでは、エディターは**src/main/resources/com/aspose/spreadsheeteditor**ディレクトリから**Aspose.Total.Java.lic**ファイルを読み込みます。ライセンス ファイルをこのディレクトリにコピーしてください。デフォルトの動作は、**AsposeLicense** クラスを編集することで変更できます。
+{{< app/cells/assistant language="java" >}}

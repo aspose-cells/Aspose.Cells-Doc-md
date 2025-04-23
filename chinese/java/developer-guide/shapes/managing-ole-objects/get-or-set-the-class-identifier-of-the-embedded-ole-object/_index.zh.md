@@ -23,3 +23,4 @@ Aspose.Cells 提供了 [OleObject.ClassIdentifier](https://reference.aspose.com/
  DC020317-E6E2-4A62-B9FA-B3EFE16626F4
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

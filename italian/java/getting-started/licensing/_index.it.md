@@ -18,7 +18,7 @@ La licenza può essere caricata da uno stream o file nei seguenti percorsi:
 1. Percorso esplicito.
 1. La cartella che contiene Aspose.Cells.jar.
 
-Utilizzare il metodo [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) per concedere la licenza al componente. Spesso il modo più semplice per impostare una licenza è mettere il file della licenza nella stessa cartella di Aspose.Cells.jar e specificare solo il nome del file senza percorso come mostrato nell'esempio seguente:
+Usa il metodo [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense-java.io.InputStream-) per licenziare il componente. Spesso il modo più semplice per impostare una licenza è posizionare il file di licenza nella stessa cartella di Aspose.Cells.jar e specificare solo il nome del file senza percorso, come mostrato nel seguente esempio:
 
 ### **Come Applicare una Licenza da Disco**
 
@@ -99,3 +99,4 @@ double amountAfter = Metered.getConsumptionQuantity();
 System.out.println(amountAfter);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

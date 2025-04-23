@@ -4,8 +4,8 @@ linktitle: Frysa rader
 type: docs
 weight: 190
 url: /sv/python-net/how-to-freeze-panes-of-excel-worksheet
-description: I den här artikeln lär du dig hur du fryser rutor av Excel kalkylblad programmatoriskt med hjälp av Aspose.Cells för Python via .NET API
-keywords: Python Excel Library, Python Frysa rutor, Frysa fönster i Python
+description: I denna artikel lär du dig hur man fäster rutor i Excel ark programmatiskt med Aspose.Cells för Python via .NET API er.
+keywords: Python Excel bibliotek, Python frysa rutor, frysa fönster i Python.
 ---
 
 ## **Introduktion**
@@ -31,8 +31,8 @@ Frysa rader låter dig visa din stora data utan att behöva hålla reda på rad-
 
 
 
-## **Hur man fryser rutor med Aspose.Cells för Python Excel Library**
-Det är enkelt att frysa rutor med Aspose.Cells för Python via .NET. Använd [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) metoden för att frysa rutor vid den valda cellen.
+## **Hur man fryser rutor med Aspose.Cells för Python Excel-bibliotek**
+Det är enkelt att frysa rutor med Aspose.Cells för Python via .NET. Använd [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int)-metoden för att frysa rutor vid den valda cellen.
 1. Konstruera Arbetsbok för att öppna filen eller skapa en tom fil.
 2. Frysta rader med Worksheet.FreezePanes() metod.
 3. Spara filen.

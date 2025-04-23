@@ -54,3 +54,4 @@ Worksheet  worksheet = chart.getWorksheet();
 System.out.println("Chart's Sheet Name: " + worksheet.getName());
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

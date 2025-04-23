@@ -10,3 +10,4 @@ url: /tr/java/miscellaneous-examples-for-xlsx4j/
 - [xlsx4j'de Özet Tablo Oluştur](/cells/tr/java/create-pivot-table-in-xlsx4j/)
 - [xlsx4j'de Çalışma Kitaplarını Yazdırma](/cells/tr/java/printing-workbooks-in-xlsx4j/)
 - [xlsx4j'de Yazdırma Başlıklarını Ayarla](/cells/tr/java/set-print-titles-in-xlsx4j/)
+{{< app/cells/assistant language="java" >}}

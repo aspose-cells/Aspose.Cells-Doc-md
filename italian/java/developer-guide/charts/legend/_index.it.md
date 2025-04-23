@@ -21,3 +21,4 @@ Il seguente snippet di codice dimostra come gestire la legenda:
 
 ## **Argomenti avanzati**
 - [Impostare il riempimento dell'voce della legenda del grafico su nessuna utilizzando Aspose.Cells](/cells/it/java/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

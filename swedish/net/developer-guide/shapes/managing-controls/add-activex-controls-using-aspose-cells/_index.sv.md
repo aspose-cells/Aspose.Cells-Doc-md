@@ -29,3 +29,4 @@ När du har lagt till ActiveX-kontrollen inuti formuppsättningen kan du sedan f
 Följande exempelkod lägger till Toggle-knappen ActiveX-kontroll med hjälp av Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddActiveXControls-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -24,3 +24,4 @@ Aspose.Cells现在支持将XLSB文件中的修订版本完全转换为XLSM文件
 以下是使用Aspose.Cells将XLSB文件转换为XLSM格式的代码。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConvertRevisionOfXLSBtoXLSM-ConvertRevisionOfXLSBtoXLSM.java" >}}
+{{< app/cells/assistant language="java" >}}

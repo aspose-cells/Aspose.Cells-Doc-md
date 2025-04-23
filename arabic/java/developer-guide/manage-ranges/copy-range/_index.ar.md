@@ -33,3 +33,4 @@ url: /ar/java/copy-ranges-of-Excel/
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Copy-Range-Data.java" >}}
 
 
+{{< app/cells/assistant language="java" >}}

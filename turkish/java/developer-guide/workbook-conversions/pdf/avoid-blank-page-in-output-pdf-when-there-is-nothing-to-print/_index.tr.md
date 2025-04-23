@@ -34,3 +34,4 @@ Aşağıdaki örnek kod, boş bir çalışma kitabı oluşturur ve ardından [**
 	at com.aspose.cells.Workbook.save(Unknown Source)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

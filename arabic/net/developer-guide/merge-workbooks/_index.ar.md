@@ -56,3 +56,4 @@ url: /ar/net/combine-multiple-workbooks-into-a-single-workbook/
 ## **مواضيع متقدمة**
 - [دمج الورقات المتعددة في ورقة عمل واحدة](/cells/ar/net/combine-multiple-worksheets-into-a-single-worksheet/)
 - [دمج الملفات](/cells/ar/net/merge-files/)
+{{< app/cells/assistant language="csharp" >}}

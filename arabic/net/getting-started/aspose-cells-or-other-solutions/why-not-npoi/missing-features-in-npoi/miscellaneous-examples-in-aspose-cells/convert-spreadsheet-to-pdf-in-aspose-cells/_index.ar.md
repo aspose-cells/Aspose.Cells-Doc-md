@@ -23,3 +23,4 @@ workbook.Save("AsposeConvert.pdf", SaveFormat.Pdf);
 تنزيل **تحويل ورقة البيانات إلى PDF** من أي من مواقع التشفير الاجتماعية المذكورة أدناه:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Convert.Spreadsheet.To.PDF.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

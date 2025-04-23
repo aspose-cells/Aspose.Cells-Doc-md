@@ -64,3 +64,4 @@ for(int i = al.size()-1 ; i > -1; i--)
 Para obtener más detalles, visite [Detectar celdas fusionadas en una hoja de cálculo](/cells/es/java/detect-merged-cells-in-a-worksheet).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

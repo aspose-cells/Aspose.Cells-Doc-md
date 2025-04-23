@@ -13,3 +13,4 @@ Lütfen bu metinsel verileri düşünün yani {11, 111, 22}. Bu metinsel veriler
 Aşağıdaki örnek kod, önceden açıklandığı gibi [DataSorter.SortAsNumber](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#SortAsNumber) özelliğinin kullanımını açıklar. Daha fazla yardım için [örnek Excel dosyasını](43352077.xlsx) ve [çıktı Excel dosyasını](43352078.xlsx) kontrol edebilirsiniz.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SpecifyingSortWarningWhileSortingData.java" >}}
+{{< app/cells/assistant language="java" >}}

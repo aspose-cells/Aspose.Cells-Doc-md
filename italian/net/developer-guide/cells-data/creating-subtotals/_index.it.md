@@ -35,3 +35,4 @@ I frammenti di codice che seguono mostrano come aggiungere dei totali parziali a
 
 ## **Argomenti avanzati**
 - [Applicazione Subtotale e Modifica della Direzione delle Righe di Riepilogo dell'Outline sotto i Dettagli](/cells/it/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+{{< app/cells/assistant language="csharp" >}}

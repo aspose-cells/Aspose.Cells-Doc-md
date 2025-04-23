@@ -17,3 +17,4 @@ Se adjuntan los archivos de Excel de origen y de salida utilizados en el fragmen
 [Archivo de origen](PivotTableHideAndSortSample.xlsx)
 
 [Archivo de salida](PivotTableHideAndSort_out.xlsx)
+{{< app/cells/assistant language="java" >}}

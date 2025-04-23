@@ -23,3 +23,4 @@ La seguente schermata mostra l'interfaccia di Microsoft Excel per impostare l'*E
 Il seguente codice di esempio carica il [file Excel di origine](5472531.xlsx) e accede alla prima forma nella prima scheda e imposta le sottoproprietà della proprietà [Shape.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect) e quindi salva il documento di lavoro nel [file Excel di output](5472530.xlsx).
 ## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithShadowEffect-WorkingWithShadowEffect.java" >}}
+{{< app/cells/assistant language="java" >}}

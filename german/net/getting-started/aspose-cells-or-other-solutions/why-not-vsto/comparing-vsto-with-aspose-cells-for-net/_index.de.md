@@ -129,3 +129,4 @@ Wenn Sie darüber nachdenken, eine Microsoft Office-Technologie in einer Geschä
 Aspose.Cells ist ein stabiles und ausgereiftes Produkt mit weltweiter Kundenbasis und scalebar genug, um auch unter hoher Last gut zu funktionieren.
 
 Die Leistung von VSTO ist noch nicht ausgereift. Es ist durchaus möglich, dass einige dieser Leistungsprobleme nicht mit VSTO selbst in Verbindung stehen, sondern mit den .NET-JIT-Kompilationsprozessen. Dennoch bestehen gewisse Zweifel, ob sich die VSTO-Anwendungen selbst bei zunehmender Last skalieren würden. Das neuere Modell von VSTO erfordert nicht, dass Excel auf dem Webserver zur Dokumentenverarbeitung verbleibt, aber ich glaube, dass VSTO noch einen langen Weg vor sich hat, um einen echten Einfluss zu erzielen.
+{{< app/cells/assistant language="csharp" >}}

@@ -24,3 +24,4 @@ Veuillez consulter le fichier généré suivant avec la plage A1:B5 déplacée e
 ![todo:image_alt_text](move-range-of-cells-in-a-worksheet_2.png)
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Move-Range.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

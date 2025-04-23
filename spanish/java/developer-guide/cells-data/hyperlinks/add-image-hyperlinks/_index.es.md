@@ -22,3 +22,4 @@ Cuando se ejecuta el código, guarda un archivo de salida con un hipervínculo d
 ![todo:image_alt_text](add-image-hyperlinks_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddImageHyperlinks-AddImageHyperlinks.java" >}}
+{{< app/cells/assistant language="java" >}}

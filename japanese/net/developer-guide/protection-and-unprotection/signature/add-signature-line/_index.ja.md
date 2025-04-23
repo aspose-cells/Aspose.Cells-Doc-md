@@ -21,3 +21,4 @@ Aspose.Cellsは、ワークシートの署名行を追加するための[**Pictu
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Add-Signature-Line.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -18,3 +18,4 @@ Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](64716894.xlsx) und sp
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-HidingOverlaidContentWithCrossHideRightWhileSavingToHtml.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

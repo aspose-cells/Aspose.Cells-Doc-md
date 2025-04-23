@@ -58,3 +58,4 @@ Aspose.Cells支持在运行时应用条件格式。
 - [应用工作表中的条件格式](/cells/zh/java/apply-conditional-formatting-in-worksheets/)
 - [使用条件格式为交替的行和列添加阴影](/cells/zh/java/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
 
+{{< app/cells/assistant language="java" >}}

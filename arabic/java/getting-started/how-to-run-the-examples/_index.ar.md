@@ -47,3 +47,4 @@ AsposeCellsExamples.DrawingObjects
 
 للمساهمة، يمكنك fork المستودع، تحرير كود المصدر وإنشاء طلب سحب. سنقوم بمراجعة التغييرات وتضمينها في المستودع إذا وجدت مفيدة.
 
+{{< app/cells/assistant language="java" >}}

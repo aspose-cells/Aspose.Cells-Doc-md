@@ -15,3 +15,4 @@ Aspose.Cells 提供了使用 [WorksheetCollection.CreateUnionRange](https://refe
 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "CreateUnionRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -74,3 +74,4 @@ Result of Sum(A1:A2): 50.0
 - [ضبط وضع حساب الصيغة في سجل العمل](/cells/ar/net/setting-formula-calculation-mode-of-workbook/)
 - [استخدام وظيفة FormulaText في Aspose.Cells](/cells/ar/net/using-formulatext-function-in-aspose-cells/)
 - [استخدام ميزة ICustomFunction](/cells/ar/net/using-icustomfunction-feature/)
+{{< app/cells/assistant language="csharp" >}}

@@ -63,3 +63,4 @@ Aşağıdaki örnek, bir çalışma sayfasına örnek veri ekler, bir [**ListObj
 - [Çalışma Sayfası içinde Masa veya Liste Nesnesi Yorumunu Ayarlayın](/cells/tr/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
 - [Tablolar ve Aralıklar](/cells/tr/net/tables-and-ranges/)
 
+{{< app/cells/assistant language="csharp" >}}

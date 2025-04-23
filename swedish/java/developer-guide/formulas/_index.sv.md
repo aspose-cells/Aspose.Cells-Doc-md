@@ -7,3 +7,4 @@ url: /sv/java/formulas/
 
 
 
+{{< app/cells/assistant language="java" >}}

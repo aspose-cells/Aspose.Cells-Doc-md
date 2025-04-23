@@ -16,3 +16,4 @@ Var god se följande exempelkod. Den laddar in den [exempel-Excel-filen](sample
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Slicers-ChangeSlicerProperties-1.java" >}}
+{{< app/cells/assistant language="java" >}}

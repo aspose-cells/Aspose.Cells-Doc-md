@@ -89,3 +89,4 @@ End Sub
 - [VBAプロジェクトが保護されているかを調べる](/cells/ja/net/find-out-if-vba-project-is-protected/)
 - [ExcelワークブックのVBAプロジェクトをパスワードで保護する](/cells/ja/net/password-protect-the-vba-project-of-excel-workbook/)
 
+{{< app/cells/assistant language="csharp" >}}

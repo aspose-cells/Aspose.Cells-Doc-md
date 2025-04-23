@@ -46,3 +46,4 @@ Es ist dafür verantwortlich, alle erworbenen Ressourcen aufzuräumen, wenn sie 
 Es erstellt Instanzen von Tabellenkalkulationen und behält sie im Speicher, solange sie benötigt werden.
 ### **CellsService**
 Der **CellsService** verwaltet den Cache von Zeilen, Spalten, Zellen, Formaten und der Struktur von Arbeitsblättern.
+{{< app/cells/assistant language="java" >}}

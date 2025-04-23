@@ -11,11 +11,11 @@ url: /ru/java/using-custom-xml-parts-in-aspose-cells/
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_1.png)
 
-Вы можете добавить пользовательские XML-части с помощью Aspose.Cells через метод [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)).
+Вы можете добавлять пользовательские части XML в Aspose.Cells с помощью метода [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-)
 
 {{% /alert %}} 
 ## **Использование пользовательских XML-частей в Aspose.Cells**
-Приведенный ниже образец кода использует метод [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)) и добавляет **Book Catalog Xml** с именем **BookStore**. На этом изображении показан результат этого кода. Как видно, Book Catalog Xml добавлен внутри узла BookStore, который является именем этого свойства.
+Следующий пример кода использует метод [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-) и добавляет **Book Catalog Xml**, название которого — **BookStore**. На изображении показан результат этого кода. Как видите, Book Catalog Xml добавлен внутри узла BookStore, что является названием этого свойства.
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_2.png)
 
@@ -26,3 +26,4 @@ url: /ru/java/using-custom-xml-parts-in-aspose-cells/
 - [Добавление пользовательских свойств, видимых в панели информации о документе](/cells/ru/java/adding-custom-properties-visible-inside-document-information-panel/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

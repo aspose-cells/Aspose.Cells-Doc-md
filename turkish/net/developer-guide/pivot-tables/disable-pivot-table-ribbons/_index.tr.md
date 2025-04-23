@@ -16,3 +16,4 @@ Pivot tablo tabanlı raporlar faydalıdır ancak hedef kullanıcıların bu rapo
 Aşağıdaki kod, bir sayfadan pivot tablosuna erişerek [**EnableWizard**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/enablewizard) değeri **false** olarak ayarlar ve bu özelliği gösterir. Örnek pivot tablo dosyasını bu [bağlantıdan](pivot_table_test.xlsx) indirebilirsiniz.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-DisablePivotTableRibbon.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

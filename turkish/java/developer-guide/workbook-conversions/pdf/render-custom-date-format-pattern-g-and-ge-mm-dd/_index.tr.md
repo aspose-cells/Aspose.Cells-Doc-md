@@ -14,3 +14,4 @@ Aspose.Cells artık g, ge.mm.dd gibi özel tarih biçimi desenlerini dönüştü
 Aşağıdaki örnek kod, özel format desenleri olan tarih değerlerini içeren [kaynak excel dosyasını](95584282.xlsx) nasıl [çıktı PDF'ye](95584283.pdf) dönüştüreceğinizi göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-RenderCustomDateFormat-1.java" >}}
+{{< app/cells/assistant language="java" >}}

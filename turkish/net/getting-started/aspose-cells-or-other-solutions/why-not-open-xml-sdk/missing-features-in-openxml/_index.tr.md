@@ -38,3 +38,4 @@ Bu bölüm aşağıdaki konuları içerir
 - [Aspose.Cells'te Formüllerde Harici Bağlantıları Belirle](/cells/tr/net/set-external-links-in-formulas-in-aspose-cells/)
 - [Aspose.Cells'te Çalışma Kitabının Formül Hesaplama Modunu Ayarlama](/cells/tr/net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/)
 - [Aspose.Cells'te Paylaşılan Formül Belirleme](/cells/tr/net/setting-shared-formula-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

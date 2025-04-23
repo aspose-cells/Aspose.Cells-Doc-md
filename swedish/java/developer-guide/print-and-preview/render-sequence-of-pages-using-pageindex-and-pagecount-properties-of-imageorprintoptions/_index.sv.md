@@ -20,3 +20,4 @@ Följande exempelkod laddar [provexemplet Excel-fil](55541812.xlsx) och renderar
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-RenderLimitedNoOfSequentialPages-1.java" >}}
+{{< app/cells/assistant language="java" >}}

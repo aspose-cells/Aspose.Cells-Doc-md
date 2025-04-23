@@ -199,3 +199,4 @@ Aspose.Cells.GridWeb 还提供了使用 GridCell.removeValidation 方法从 Grid
 ## **已弃用的API**
 ### **已弃用 Shape.TextFrame 属性**
 建议改用 Shape.TextBody.TextAlignment 属性。
+{{< app/cells/assistant language="java" >}}

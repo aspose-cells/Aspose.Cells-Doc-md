@@ -16,3 +16,4 @@ url: /ar/net/render-office-add-ins-while-converting-excel-to-pdf/
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-RenderOfficeAdd_InsWhileConvertingExcelToPdf.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

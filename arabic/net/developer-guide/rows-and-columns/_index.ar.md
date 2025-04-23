@@ -77,3 +77,4 @@ keywords: تعيين ارتفاع الصف وعرض العمود، ضبط ارت
 - [إدراج وحذف الصفوف والأعمدة من ملف Excel](/cells/ar/net/inserting-and-deleting-rows-and-columns/)
 - [إزالة الصفوف المكررة في ورقة العمل](/cells/ar/net/remove-duplicate-rows-in-a-worksheet/)
 - [تحديث المراجع في ورقات العمل الأخرى أثناء حذف الأعمدة والصفوف الفارغة في ورقة العمل](/cells/ar/net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

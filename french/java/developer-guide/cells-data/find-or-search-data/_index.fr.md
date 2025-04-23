@@ -25,9 +25,9 @@ La classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/W
 
 Toutes les méthodes de recherche renvoient les références des cellules contenant la valeur de recherche spécifiée.
 ## **Recherche contenant une formule**
-Les développeurs peuvent trouver une formule spécifiée dans la feuille de calcul en appelant la méthode [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) de la collection [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells), en définissant [FindOptions.setLookInType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookInType) à [LookInType.FORMULAS](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#FORMULAS) et en le passant en paramètre à la méthode [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)).
+Les développeurs peuvent rechercher une formule spécifique dans la feuille de calcul en appelant la méthode [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells/Cell) de la collection [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells), en réglant [FindOptions.setLookInType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookInType) à [LookInType.FORMULAS](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#FORMULAS) et en la passant en paramètre à la méthode [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells/Cell).
 
-Généralement, la méthode [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) accepte deux paramètres ou plus :
+En règle générale, la méthode [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells/Cell) accepte deux paramètres ou plus :
 
 - Objet à rechercher : représente un objet qui doit être trouvé dans la feuille de calcul.
 - La cellule précédente: représente la cellule précédente avec la même formule. Ce paramètre peut être défini sur null lors de la recherche depuis le début.
@@ -41,11 +41,11 @@ Généralement, la méthode [find](https://reference.aspose.com/cells/java/com.a
 ## **Recherche de chaînes**
 Rechercher des cellules contenant une valeur de chaîne est facile et flexible. Il existe différentes façons de rechercher, par exemple, recherche de cellules contenant des chaînes qui commencent par un caractère particulier ou un ensemble de caractères.
 ### **Recherche de chaînes qui commencent par des caractères spécifiques**
-Pour rechercher le premier caractère dans une chaîne, appelez la méthode [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) de la collection, définissez la méthode [setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) à [LookAtType.START_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#START_WITH) et passez-la comme paramètre à la méthode [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)).
+Pour rechercher le premier caractère dans une chaîne, appelez la méthode [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells/Cell) de la collection [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells), définissez [FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) sur [LookAtType.START_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#START-WITH) et passez-la en paramètre à la méthode [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells/Cell).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsWithStringOrNumber-FindingCellsWithStringOrNumber.java" >}}
 ### **Recherche de chaînes se terminant par des caractères spécifiques**
-Aspose.Cells peut également trouver des chaînes se terminant par des caractères spécifiques. Pour rechercher les derniers caractères dans une chaîne, appelez la méthode [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) de la collection, définissez la méthode [setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) à [LookAtType.END_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#END_WITH) et passez-la comme paramètre à la méthode [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)).
+Aspose.Cells peut également rechercher des chaînes se terminant par des caractères spécifiques. Pour rechercher les derniers caractères d'une chaîne, appelez la méthode [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells/Cell), définissez [FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) sur [LookAtType.END_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#END-WITH) et passez-la en paramètre à la méthode [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells/Cell).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsEndWithSpecificCharacters-FindingCellsEndWithSpecificCharacters.java" >}}
 ## **Recherche avec expressions régulières: la fonctionnalité RegEx**
@@ -60,3 +60,4 @@ Aspose.Cells vous permet de rechercher avec des expressions régulières.
 ## **Sujets avancés**
 - [Trouver des cellules avec un style spécifique](/cells/fr/java/find-cells-with-specific-style/)
 - [Rechercher des données en utilisant des valeurs originales](/cells/fr/java/search-data-using-original-values/)
+{{< app/cells/assistant language="java" >}}

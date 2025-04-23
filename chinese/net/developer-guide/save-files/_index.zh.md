@@ -59,7 +59,7 @@ Aspose.Cells提供了[**Workbook**](https://reference.aspose.com/cells/net/aspos
 
 执行代码后，将会将工作簿中所有工作表的数据转换为TXT格式。
 
-您可以修改相同的示例将文件保存为CSV格式。默认情况下，[**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator)是逗号，因此如果保存为CSV格式，则不需要指定分隔符。请注意：如果您使用的是评估版本，即使[**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/)属性设置为true，程序仍然只会导出一个工作表。
+你可以修改相同的示例将文件保存为CSV格式。默认情况下，[**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) 是逗号，因此在保存为CSV格式时无需指定分隔符。请注意：如果您使用的是评估版，即使将 [**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/) 属性设置为 true，程序仍将只导出一个工作表。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 
@@ -98,3 +98,4 @@ Aspose.Cells支持将文件保存为JSON或XML。
 - [调整工作簿压缩级别](/cells/zh/net/adjust-workbook-compression-level/)
 - [将工作簿保存为严格的 Open XML 电子表格格式](/cells/zh/net/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [将文件保存到响应对象](/cells/zh/net/saving-file-to-response-object/)
+{{< app/cells/assistant language="csharp" >}}

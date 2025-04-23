@@ -11,7 +11,7 @@ url: /ru/java/get-warnings-while-loading-excel-file/
 
 ## **Получение предупреждений при загрузке файла Excel**
 
-Приведенный ниже образец кода объясняет, как получить предупреждения при загрузке файла Excel. Код загружает [образец файла Excel](sampleDuplicateDefinedName.xlsx), который выдает предупреждение [**DuplicateDefinedName**](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE_DEFINED_NAME) при загрузке. Это предупреждение затем перехватывается методом [**IWarningCallback.Warning()**](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning(com.aspose.cells.WarningInfo)), который выводит сообщения предупреждения в консоль. Затем код сохраняет книгу в виде [выходного файла Excel](outputDuplicateDefinedName.xlsx). Если вы откроете образец файла Excel в Microsoft Excel, он также отобразит вам это предупреждение, как показано на этом скриншоте. Пожалуйста, также проверьте вывод консоли кода ниже для более полного понимания.
+Приведенный ниже образец кода объясняет, как получить предупреждения при загрузке файла Excel. Код загружает [образец файла Excel](sampleDuplicateDefinedName.xlsx), который выдает предупреждение [**DuplicateDefinedName**](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE-DEFINED-NAME) при загрузке. Это предупреждение затем перехватывается методом [**IWarningCallback.Warning()**](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning-com.aspose.cells.WarningInfo-), который выводит сообщения предупреждения в консоль. Затем код сохраняет книгу в виде [выходного файла Excel](outputDuplicateDefinedName.xlsx). Если вы откроете образец файла Excel в Microsoft Excel, он также отобразит вам это предупреждение, как показано на этом скриншоте. Пожалуйста, также проверьте вывод консоли кода ниже для более полного понимания.
 
 ![todo:image_alt_text](get-warnings-while-loading-excel-file_1.png)
 
@@ -34,3 +34,4 @@ Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:Panel!$B$228
 Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:'Queries '!$D$14:$D$16
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

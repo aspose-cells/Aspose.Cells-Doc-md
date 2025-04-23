@@ -145,3 +145,4 @@ Det givna kodexemplet nedan visar användningen av [**JsonUtility**](https://ref
 ## **Fortsatta ämnen**
 - [Ange formelfält vid import av data till kalkylbladet](/cells/sv/net/specify-formula-fields-while-importing-data-to-worksheet/)
 - [Flytta första raden ner när du lägger till rader med data till cellerna](/cells/sv/net/shift-first-row-down-when-inserting-cells-data-table-rows/)
+{{< app/cells/assistant language="csharp" >}}

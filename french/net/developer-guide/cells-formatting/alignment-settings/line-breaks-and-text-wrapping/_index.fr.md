@@ -24,3 +24,4 @@ Pour retourner le texte dans une cellule, utilisez la propriété [**Aspose.Cell
 Vous pouvez utiliser '\n' en C# et 'vbLf' en VB.NET pour insérer des sauts de ligne explicites dans une cellule.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-UseExplicitLineBreaks-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

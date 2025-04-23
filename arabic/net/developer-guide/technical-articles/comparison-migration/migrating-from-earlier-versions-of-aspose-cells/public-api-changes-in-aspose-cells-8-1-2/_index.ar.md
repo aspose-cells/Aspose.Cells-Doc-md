@@ -20,3 +20,4 @@ url: /ar/net/public-api-changes-in-aspose-cells-8-1-2/
 {{% /alert %}}
 ## **حذف خاصية PdfSaveOptions.ChartImageType العتيقة**
 قامت Aspose.Cells for .NET 8.1.2 بإزالة الخاصية القديمة PdfSaveOptions.ChartImageType من واجهة برمجة التطبيقات العامة.
+{{< app/cells/assistant language="csharp" >}}

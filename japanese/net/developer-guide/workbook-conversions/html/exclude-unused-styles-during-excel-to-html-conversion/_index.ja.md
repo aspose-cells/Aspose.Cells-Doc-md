@@ -18,3 +18,4 @@ Microsoft Excelファイルには多くの未使用のスタイルが含まれ�
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-ExcludeUnusedStylesInExcelToHTML.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

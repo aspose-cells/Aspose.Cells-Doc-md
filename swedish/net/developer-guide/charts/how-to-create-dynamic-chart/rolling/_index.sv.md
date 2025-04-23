@@ -32,3 +32,4 @@ I den genererade filen kan du fortsätta att lägga till data i kolumnerna A och
 ```
 
 Du kan prova att ändra numret "-5" till "-10" i formeln, och det dynamiska diagrammet kommer att räkna de senaste 10 datamängderna. Nu har vi skapat ett dynamiskt rullande diagram med hjälp av Aspose.Cells framgångsrikt.
+{{< app/cells/assistant language="csharp" >}}

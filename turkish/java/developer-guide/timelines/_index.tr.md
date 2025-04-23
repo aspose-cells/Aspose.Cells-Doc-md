@@ -21,3 +21,4 @@ Aşağıdaki örnek kodu inceleyin. İçinde Pivot tablosu bulunan [örnek Excel
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Timelines-CreateTimelineToPivotTable.java" >}}
 
+{{< app/cells/assistant language="java" >}}

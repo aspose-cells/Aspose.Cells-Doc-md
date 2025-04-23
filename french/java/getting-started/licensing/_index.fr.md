@@ -18,7 +18,7 @@ La licence peut être chargée à partir d'un flux ou d'un fichier dans les empl
 1. Chemin explicite.
 1. Le dossier contenant Aspose.Cells.jar.
 
-Utilisez la méthode [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) pour licencier le composant. Souvent, la manière la plus simple de définir une licence est de placer le fichier de licence dans le même dossier que Aspose.Cells.jar et de spécifier uniquement le nom du fichier sans chemin comme le montre l'exemple suivant :
+Utilisez la méthode [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense-java.io.InputStream-) pour licencier le composant. La manière la plus simple de définir une licence est de placer le fichier de licence dans le même dossier que Aspose.Cells.jar et de spécifier uniquement le nom du fichier sans le chemin, comme dans l'exemple suivant :
 
 ### **Comment appliquer une licence depuis le disque**
 
@@ -99,3 +99,4 @@ double amountAfter = Metered.getConsumptionQuantity();
 System.out.println(amountAfter);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

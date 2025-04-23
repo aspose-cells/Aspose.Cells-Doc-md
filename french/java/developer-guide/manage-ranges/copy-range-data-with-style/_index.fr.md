@@ -11,7 +11,7 @@ url: /fr/java/copy-range-data-with-style/
 
 {{% /alert %}} 
 ## **Copier les données de la plage avec le style**
-Aspose.Cells propose une gamme de classes et de méthodes pour travailler avec les plages, par exemple, [createRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\)), [StyleFlag](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag), [applyStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#applyStyle\(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag\)), etc.
+Aspose.Cells fournit une gamme de classes et méthodes pour travailler avec des plages, par exemple, [createRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-), [StyleFlag](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag), [applyStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-), etc.
 
 Cet exemple :
 
@@ -25,3 +25,4 @@ Cet exemple :
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyRangeDataWithStyle-CopyRangeDataWithStyle.java" >}}
 
+{{< app/cells/assistant language="java" >}}

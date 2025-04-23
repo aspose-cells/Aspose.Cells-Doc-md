@@ -15,3 +15,4 @@ Följande kodexempel ersätter taggarna TAG_1 och TAG_2 med lite text säg 'ys' 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-ReplaceTagWithTextInTextBox-1.cs" >}}
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-ReplaceTagWithTextInTextBox-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

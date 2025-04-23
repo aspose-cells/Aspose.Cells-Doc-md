@@ -27,3 +27,4 @@ Come si può vedere, l'attributo target nel link HTML sopra è **_self**. È pos
 Il seguente codice illustra l'uso della proprietà [HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType). Cambia il tipo di destinazione del link in **vuoto**. Per impostazione predefinita è il **genitore**. È possibile ottenere il [file excel di origine](5472932.xlsx) da questo link, tuttavia è possibile utilizzare qualsiasi file excel che contiene un collegamento ipertestuale HTML al suo interno per eseguire questo codice.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeHTMLLinkTargetType-ChangeHTMLLinkTargetType.java" >}}
+{{< app/cells/assistant language="java" >}}

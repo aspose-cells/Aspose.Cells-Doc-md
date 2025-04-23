@@ -32,3 +32,4 @@ Aspose.Cells for .Net でペインを簡単に固定解除できます。[**Work
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Unfreeze-Pane.cs" >}}
 
 添付 [サンプルソースの Excel ファイル](Frozen.xlsx) です。
+{{< app/cells/assistant language="csharp" >}}

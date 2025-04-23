@@ -38,3 +38,4 @@ url: /ja/net/change-the-font-on-just-the-specific-unicode-characters-while-savin
 
 
 
+{{< app/cells/assistant language="csharp" >}}

@@ -3,15 +3,15 @@ title: Rimuovi le impostazioni della stampante esistenti dei fogli di lavoro nel
 type: docs
 weight: 60
 url: /it/python-net/remove-existing-printersettings-of-worksheets-in-excel-file/
-description: In questo articolo, imparerai come rimuovere le impostazioni della stampante esistenti del foglio di lavoro all interno del file Excel attraverso l oggetto Impostazione Pagina in modo programmato con il codice di esempio usando la Libreria Python Excel Aspose.Cells.
-keywords: Libreria Python Excel, Rimuovi le impostazioni di stampa del foglio di lavoro in Python, Rimuovi le impostazioni di stampa del foglio di lavoro in Excel di Python.
+description: In questo articolo, imparerai come rimuovere le impostazioni della stampante esistenti del foglio di lavoro all’interno del file Excel tramite l’oggetto Page Setup con esempi di codice usando Aspose.Cells per Python Excel Library.
+keywords: Libreria Python Excel, rimuovere impostazioni stampante del foglio di lavoro, rimuovere impostazioni stampante di un foglio Excel tramite Python.
 ---
 
 ## **Possibili Scenari di Utilizzo**
-A volte gli sviluppatori vogliono impedire ad Excel di includere file *.bin* di impostazioni di stampa nei file XLSX salvati. I file delle impostazioni di stampa si trovano in *"[file "root"]\xl\printerSettings".* Questo documento spiega come rimuovere le impostazioni di stampante esistenti utilizzando le API Aspose.Cells per Python via .NET.
+A volte gli sviluppatori vogliono evitare che Excel includa i file *.bin* delle impostazioni della stampante nei file XLSX salvati. I file delle impostazioni della stampante si trovano sotto *“[file "root"]\xl\printerSettings”.* Questo documento spiega come rimuovere le impostazioni esistenti della stampante usando le API Aspose.Cells per Python via .NET.
 
 ## **Rimuovi le impostazioni della stampante esistenti dei fogli di lavoro nel file Excel**
-Aspose.Cells per Python via .NET ti permette di rimuovere le impostazioni di stampa esistenti specificate per fogli diversi nel file Excel. Il seguente codice di esempio illustra come rimuovere le impostazioni di stampa esistenti per tutti i fogli di lavoro nel workbook. Si prega di vedere il [file Excel di esempio](45056020.xlsx), [file Excel di output](45056021.xlsx), output della console e lo screenshot per un riferimento.
+Aspose.Cells per Python via .NET permette di rimuovere le impostazioni della stampante esistenti specificate per diversi fogli nel file Excel. Il seguente esempio di codice illustra come rimuovere le impostazioni della stampante per tutti i fogli di lavoro nel workbook. Consulta anche il [file Excel di esempio](45056020.xlsx), [file Excel di output](45056021.xlsx), output sulla console e lo screenshot per riferimento.
 
 ## **Screenshot**
 ![todo:image_alt_text](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)

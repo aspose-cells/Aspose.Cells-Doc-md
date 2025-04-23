@@ -191,3 +191,4 @@ Om inställningen Tillåt ändringar av fler än en användare... är på för e
 |Celler som kan markeras|32,767
 |Färger som används för att identifiera ändringar gjorda av olika användare när ändringsmarkeringen är aktiverad|32 (varje användare identifieras av en separat färg; ändringar gjorda av den aktuella användaren markeras med marinblå)
 |Excel-tabeller i arbetsboken|0 (noll) Obs: En arbetsbok som innehåller ett eller flera Excel-tabeller kan inte ha inställningen Tillåt ändringar av fler än en användare... aktiverad.
+{{< app/cells/assistant language="csharp" >}}

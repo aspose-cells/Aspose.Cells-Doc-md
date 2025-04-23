@@ -51,6 +51,7 @@ Um einen bestimmten Seitenumbruch im Arbeitsblatt zu entfernen, rufen Sie die **
 
 {{% alert color="primary" %}}
 
-**Wichtig zu wissen**: Wenn Sie die Eigenschaften der Anpassung an die Seite festlegen (das ist [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) und [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide)) in den Seiteneinrichtungseinstellungen, werden die Seitenumbrucheinstellungen beeinflusst. Wenn Sie also das Arbeitsblatt drucken, werden die Seitenumbrucheinstellungen nicht berücksichtigt, obwohl sie immer noch in der Datei vorhanden sind.
+**Wichtig zu wissen**: Wenn Sie die Eigenschaften zum Anpassen des Seitenfits (also [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) und [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide-) in den Seiteneinrichtungs-Einstellungen) einstellen, werden die Einstellungen für Seitenumbrüche beeinflusst. Wenn Sie das Arbeitsblatt drucken, werden die Seitensprung- Einstellungen nicht berücksichtigt, obwohl sie noch in der Datei vorhanden sind.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

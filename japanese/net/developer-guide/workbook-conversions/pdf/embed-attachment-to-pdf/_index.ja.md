@@ -1,15 +1,16 @@
 ---
-title: PDFに添付ファイルを埋め込む
+title: PDFに添付を埋め込む
 type: docs
 weight: 380
 url: /ja/net/embed-attachment-to-pdf/
 
 ---
 
-Excelでは、元のデータを持つOleオブジェクトを挿入できます（embedded-attachments-example.xlsx）。Oleオブジェクトをダブルクリックすると、埋め込まれたファイルが開かれます。
+Excelでは、Oleオブジェクト([embedded-attachments-example.xlsx](embedded-attachments-example.xlsx))を挿入できます。Oleオブジェクトをダブルクリックすると、埋め込みファイルが開きます。
 
-一般的に、PDFに変換する際に、Oleオブジェクトはアイコンまたはサムネイルとしてレンダリングされ、Oleオブジェクトの元のデータは表示されません。[PdfSaveOptions.EmbedAttachments](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/embedattachments/)オプションを使用すると、PDF内にOleオブジェクトの元のデータを添付ファイルとして埋め込むことができます。PDF内のアイコンやサムネイルをダブルクリックして、Oleオブジェクトの元のファイルを開くことができます。
+一般的に、PDFに変換する際、Oleオブジェクトはアイコンまたはサムネイルとしてレンダリングされ、Oleオブジェクトのソースデータは表示されません。[PdfSaveOptions.EmbedAttachments](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/embedattachments/)オプションを使用すると、Oleオブジェクトのソースデータを添付ファイルとしてPDFに埋め込むことができます。PDF内のアイコンまたはサムネイルをダブルクリックすると、Oleオブジェクトのソースファイルを開くことができます。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-EmbedAttachmentToPdf.cs" >}}
 
 ![embedded-attachment.png](embedded-attachment.png)
+{{< app/cells/assistant language="csharp" >}}

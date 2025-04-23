@@ -112,3 +112,4 @@ Ta bort delade rutor med metoden [**RemoveSplit**](https://reference.aspose.com/
 - [Visa formler istället för värden i ett arbetsblad](/cells/sv/net/show-formulas-instead-of-values-in-a-worksheet/)
 - [Använd felkontrollalternativ](/cells/sv/net/use-error-checking-options/)
 
+{{< app/cells/assistant language="csharp" >}}

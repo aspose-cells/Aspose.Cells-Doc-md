@@ -26,3 +26,4 @@ Der folgende Beispielcode erläutert die Verwendung der genannten Eigenschaften.
 
 
 
+{{< app/cells/assistant language="java" >}}

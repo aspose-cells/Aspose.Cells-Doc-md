@@ -13,3 +13,4 @@ Denna avsnitt inkluderar följande ämnen
   - [Kopiera Kalkylblad inom en Arbetsbok](/cells/sv/net/copy-worksheets-within-a-workbook/)
   - [Flytta Kalkylblad inom en Arbetsbok](/cells/sv/net/move-worksheets-within-workbook/)
 - [Hitta och ersätt i kalkylblad](/cells/sv/net/find-and-replace-in-spreadsheet/)
+{{< app/cells/assistant language="csharp" >}}

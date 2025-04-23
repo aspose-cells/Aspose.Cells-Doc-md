@@ -52,3 +52,4 @@ fstream.close();
 Дополнительные сведения см. по адресу [Экспорт данных из листов](/java/exporting-data-from-worksheets).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

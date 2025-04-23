@@ -17,3 +17,4 @@ Ci sono due suggerimenti che gli utenti non anglofoni devono seguire quando crea
    Per alcune opzioni o impostazioni linguistiche, il delimitatore per i parametri della funzione è un punto e virgola, ma Aspose.Cells utilizza la virgola nello stile inglese. Ad esempio, utilizzare "=SE(C5=0,0,C3/C4)" e non "=SE(C5=0;0;C3/C4)" 
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -18,3 +18,4 @@ Il codice di esempio seguente crea un documento di lavoro e cambia la proprietà
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DocumentProperties-SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.java" >}}
+{{< app/cells/assistant language="java" >}}

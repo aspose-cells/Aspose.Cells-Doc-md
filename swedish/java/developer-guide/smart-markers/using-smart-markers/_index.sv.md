@@ -169,3 +169,4 @@ Ibland kan det vara nödvändigt att få meddelanden om cellreferensen eller den
 För exempelkod och detaljerad förklaring, se denna artikel.
 
 - [Få meddelanden när data sammanfogas med smarta markörer](/cells/sv/java/getting-notifications-while-merging-data-with-smart-markers/)
+{{< app/cells/assistant language="java" >}}

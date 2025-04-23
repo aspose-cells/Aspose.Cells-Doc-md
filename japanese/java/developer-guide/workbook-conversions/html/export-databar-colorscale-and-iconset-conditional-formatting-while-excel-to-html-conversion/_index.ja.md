@@ -28,3 +28,4 @@ Excel ファイルを HTML に変換する際に DataBar、ColorScale、およ�
 - [ExcelファイルをHTMLに変換する](/cells/ja/java/converting-workbook-to-different-formats/#convertingworkbooktodifferentformats-convertingexcelfilestohtml)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

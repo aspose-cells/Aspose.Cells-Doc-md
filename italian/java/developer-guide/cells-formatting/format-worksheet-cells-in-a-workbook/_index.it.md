@@ -60,3 +60,4 @@ Aspose.Cells offre maggiore flessibilità rispetto ad altre soluzioni e garantis
 Accogliamo con favore le tue domande, commenti e suggerimenti su [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9). Garantiamo una risposta tempestiva.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

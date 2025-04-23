@@ -14,3 +14,4 @@ Du kan ställa in den horisontella justeringen av din styckes text med hjälp av
 Följande kodexempel skapar tre linjer och ställer in den horisontella justeringen för var och en av dem.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateTextBoxWithDifferentHorizontalAlignment-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

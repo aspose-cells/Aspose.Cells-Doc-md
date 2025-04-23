@@ -14,3 +14,4 @@ url: /sv/java/working-with-worksheets-in-apache-poi-and-aspose-cells/
 - [Ombeställ blad inom arbetsboken](/cells/sv/java/re-order-sheets-within-workbook/)
 - [Rubrik- och sidfot](/cells/sv/java/header-and-footers/)
 - [Zoomningsfaktor med Apache POI och Aspose.Cells](/cells/sv/java/zoom-factor-using-apache-poi-and-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

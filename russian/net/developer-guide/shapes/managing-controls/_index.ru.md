@@ -381,3 +381,4 @@ Aspose.Cells позволяет вам рисовать овальные фор�
 - [Добавление элементов ActiveX в Aspose.Cells](/cells/ru/net/add-activex-controls-using-aspose-cells/)
 - [Удалить элемент управления ActiveX](/cells/ru/net/remove-activex-control/)
 - [Обновление элемента управления ComboBox ActiveX](/cells/ru/net/update-activex-combobox-control/)
+{{< app/cells/assistant language="csharp" >}}

@@ -3,15 +3,15 @@ title: Arbeitsblätter kopieren und verschieben
 type: docs
 weight: 10
 url: /de/python-net/copying-and-moving-worksheets/
-description: Dieser Artikel enthält Beispielscode und beschreibt, wie Arbeitsblätter programmgesteuert sowohl innerhalb einer Excel Arbeitsmappe als auch zwischen Excel Arbeitsmappen mit der Aspose.Cells für Python via .NET API kopiert und verschoben werden können.
-keywords: Python Excel Bibliothek, Python Arbeitsblatt kopieren, Python Arbeitsblatt verschieben, Python Arbeitsblätter zwischen Arbeitsmappen kopieren, Python Arbeitsblätter innerhalb einer Arbeitsmappe verschieben, Python Arbeitsblätter zwischen Arbeitsmappen kopieren, Python Arbeitsblätter innerhalb einer Arbeitsmappe kopieren.
+description: Dieser Artikel enthält Beispielcode und beschreibt, wie Sie Arbeitsblätter programmatisch innerhalb einer Excel Arbeitsmappe und über mehrere Excel Arbeitsmappen hinweg mit der Aspose.Cells für Python via .NET API kopieren und verschieben.
+keywords: Python Excel Bibliothek, Python Arbeitsblatt kopieren, Python Arbeitsblatt verschieben, Python Arbeitsblätter zwischen Arbeitsmappen kopieren, Python Arbeitsblätter innerhalb der Arbeitsmappe verschieben, Python Arbeitsblätter zwischen Arbeitsmappen kopieren, Python Arbeitsblätter innerhalb einer Arbeitsmappe kopieren.
 ---
 
 {{% alert color="primary" %}}
 
 Manchmal benötigen Sie eine Reihe von Arbeitsblättern mit gemeinsamer Formatierung und Daten. Wenn Sie beispielsweise mit vierteljährlichen Budgets arbeiten, möchten Sie möglicherweise eine Arbeitsmappe erstellen, die Tabellenblätter mit denselben Spaltenüberschriften, Zeilenüberschriften und Formeln enthält. Es gibt eine Möglichkeit, das zu tun: Indem Sie ein Blatt erstellen und es dann kopieren.
 
-Aspose.Cells für Python via .NET unterstützt das Kopieren und Verschieben von Arbeitsblättern innerhalb oder zwischen Arbeitsmappen. Arbeitsblätter mit Daten, Formatierungen, Tabellen, Matrizen, Diagrammen, Bildern und anderen Objekten werden mit höchster Genauigkeit kopiert.
+Aspose.Cells für Python via .NET unterstützt das Kopieren und Verschieben von Arbeitsblättern innerhalb oder zwischen Arbeitsmappen. Arbeitsblätter, vollständig mit Daten, Formatierungen, Tabellen, Matrizen, Diagrammen, Bildern und anderen Objekten, werden mit höchster Präzision kopiert.
 
 {{% /alert %}}
 
@@ -27,9 +27,9 @@ Im Folgenden sind die Schritte für das Kopieren und Verschieben von Arbeitsblä
 1. Wählen Sie im Feld 'Vor Blatt' das Blatt aus, vor dem Sie die verschobenen oder kopierten Blätter einfügen möchten.
 1. Um die Blätter zu kopieren anstatt sie zu verschieben, aktivieren Sie das Kontrollkästchen **Kopie erstellen**.
 
-## **Wie man Arbeitsblätter innerhalb einer Arbeitsmappe mit der Aspose.Cells für die Python Excel-Bibliothek kopiert**
+## **So kopieren Sie Arbeitsblätter innerhalb einer Arbeitsmappe mit der Python-Excel-Bibliothek von Aspose.Cells**
 
-Aspose.Cells für Python via .NET stellt eine überladene Methode [**Aspose.Cells.WorksheetCollection.add_copy()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheetcollection/add_copy/#str) bereit, die zum Hinzufügen eines Arbeitsblatts zur Sammlung und zum Kopieren von Daten aus einem vorhandenen Arbeitsblatt verwendet wird. Eine Version der Methode übernimmt den Index des Quellarbeitsblatts als Parameter. Die andere Version übernimmt den Namen des Quellarbeitsblatts.
+Aspose.Cells für Python via .NET bietet eine überladene Methode, [**Aspose.Cells.WorksheetCollection.add_copy()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheetcollection/add_copy/#str), die verwendet wird, um ein Arbeitsblatt zur Sammlung hinzuzufügen und Daten von einem bestehenden Arbeitsblatt zu kopieren. Eine Version der Methode nimmt den Index des Quellarbeitsblatts als Parameter. Die andere Version nimmt den Namen des Quellarbeitsblatts.
 
 Das folgende Beispiel zeigt, wie ein vorhandenes Arbeitsblatt innerhalb einer Arbeitsmappe kopiert wird.
 
@@ -37,7 +37,7 @@ Das folgende Beispiel zeigt, wie ein vorhandenes Arbeitsblatt innerhalb einer Ar
 
 ## **Wie man Arbeitsblätter zwischen Arbeitsmappen kopiert**
 
-Aspose.Cells für Python via .NET stellt eine Methode [**Aspose.Cells.Worksheet.copy()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/copy/#aspose.cells.Worksheet) bereit, die zum Kopieren von Daten und Formatierungen von einem Quellarbeitsblatt in ein anderes Arbeitsblatt innerhalb oder zwischen Arbeitsmappen verwendet wird. Die Methode übernimmt das Quellarbeitsblattobjekt als Parameter.
+Aspose.Cells für Python via .NET bietet eine Methode, [**Aspose.Cells.Worksheet.copy()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/copy/#aspose.cells.Worksheet), um Daten und Formatierungen von einem Quellarbeitsblatt auf ein anderes innerhalb oder zwischen Arbeitsmappen zu kopieren. Die Methode nimmt das Quellarbeitsblatt-Objekt als Parameter.
 
 Das folgende Beispiel zeigt, wie ein Arbeitsblatt von einer Arbeitsmappe in eine andere kopiert wird.
 
@@ -49,7 +49,7 @@ Das folgende Beispiel zeigt, wie ein Arbeitsblatt von einer Arbeitsmappe in eine
 
 ## **Wie man Arbeitsblätter innerhalb einer Arbeitsmappe verschiebt**
 
-Aspose.Cells für Python via .NET stellt eine Methode [**Aspose.Cells.Worksheet.move_to()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/move_to/#int) bereit, die zum Verschieben eines Arbeitsblatts an einen anderen Ort in derselben Arbeitsmappe verwendet wird. Die Methode übernimmt den Index des Zielarbeitsblatts als Parameter.
+Aspose.Cells für Python via .NET stellt die Methode [**Aspose.Cells.Worksheet.move_to()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/move_to/#int) bereit, mit der ein Arbeitsblatt an einen anderen Ort im selben Spreadsheet verschoben werden kann. Die Methode nimmt den Zielarbeitsblatt-Index als Parameter.
 
 Das folgende Beispiel zeigt, wie ein Arbeitsblatt an einen anderen Ort innerhalb der Arbeitsmappe verschoben wird.
 

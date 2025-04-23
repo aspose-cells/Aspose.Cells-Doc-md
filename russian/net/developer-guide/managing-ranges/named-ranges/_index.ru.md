@@ -30,3 +30,4 @@ Aspose.Cells предоставляет ту же функциональност
 - [Форматирование и изменение именованных диапазонов](/cells/ru/net/format-and-modify-named-ranges/)
 - [Получить диапазон с внешними ссылками](/cells/ru/net/get-range-with-external-links/)
 - [Реализация не последовательных диапазонов](/cells/ru/net/implementing-non-sequential-ranges/)
+{{< app/cells/assistant language="csharp" >}}

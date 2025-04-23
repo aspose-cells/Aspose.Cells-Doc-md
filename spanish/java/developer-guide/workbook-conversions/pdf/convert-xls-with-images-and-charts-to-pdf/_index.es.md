@@ -27,3 +27,4 @@ Si la hoja de cálculo contiene fórmulas, es mejor llamar al método [**Workboo
 
 - [Convertir archivo de Excel a formato PDF compatible con PDFA-1a](/cells/es/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [Representación de gráficos](/cells/es/java/chart-rendering/)
+{{< app/cells/assistant language="java" >}}

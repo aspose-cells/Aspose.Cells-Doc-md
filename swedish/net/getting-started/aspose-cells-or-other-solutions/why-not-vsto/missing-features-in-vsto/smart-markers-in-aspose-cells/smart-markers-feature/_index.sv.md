@@ -33,3 +33,4 @@ Följande parametrar är tillåtna:
 - kopystil - Kopiera bascellens stil till alla celler i den kolumnen.
 
 Parametrarna **noadd** och skip kan kombineras för att infoga data på växelvis rader. Eftersom mallen bearbetas underifrån och upp bör du lägga till noadd på den första raden för att undvika att extra rader infogas före den växlande raden.
+{{< app/cells/assistant language="csharp" >}}

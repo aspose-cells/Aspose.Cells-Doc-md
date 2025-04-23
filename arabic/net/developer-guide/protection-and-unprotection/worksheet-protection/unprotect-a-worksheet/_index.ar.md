@@ -31,3 +31,4 @@ url: /ar/net/unprotect-a-worksheet/
 ورقة العمل المحمية بكلمة المرور هي تلك التي تم حمايتها بكلمة مرور. يمكن إلغاء حماية مثل تلك الأوراق العمل عن طريق استدعاء النسخة المتجاوبة للوسيلة [**Unprotect**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/unprotect/methods/1) التي تأخذ كلمة المرور كمعلمة.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Unprotect-UnprotectingPasswordProtectedWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

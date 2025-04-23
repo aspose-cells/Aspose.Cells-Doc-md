@@ -19,3 +19,4 @@ url: /ar/java/check-if-vba-project-is-protected-and-locked-for-viewing/
  Is VBA Project Locked for Viewing: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

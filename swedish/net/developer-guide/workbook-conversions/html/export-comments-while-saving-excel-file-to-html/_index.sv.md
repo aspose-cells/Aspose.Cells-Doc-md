@@ -18,3 +18,4 @@ Följande exempelkod förklarar användningen av egenskapen [**HtmlSaveOptions.
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ExportCommentsWhileSavingExcelFileToHtml.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

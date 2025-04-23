@@ -17,3 +17,4 @@ El siguiente código de muestra carga el [archivo Excel de muestra](input.xlsx) 
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Timelines-DrawTimelinetoPdf.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

@@ -51,6 +51,7 @@ Aspose.Cells предоставляет класс, [**Workbook**](https://refer
 
 {{% alert color="primary" %}}
 
-**Важно знать**: При установке параметров подгонки к странице (то есть [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) и [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide)) в настройках формата страницы, настройки разрывов страниц на них влияют, поэтому, если вы печатаете лист, настройки разрывов страниц не учитываются, хотя они все еще существуют в файле.
+**Важно знать**: Когда вы задаете свойства «подгонки под страницу» (то есть [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) и [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide-) в настройках разметки страницы), настройки разрывов страниц могут быть затронуты, поэтому, если вы распечатываете лист, настройки разрывов страниц игнорируются, хотя они и остаются в файле.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

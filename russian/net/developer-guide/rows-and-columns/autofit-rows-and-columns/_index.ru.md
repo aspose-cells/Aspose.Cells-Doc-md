@@ -79,3 +79,4 @@ Aspose.Cells предоставляет класс, который предст�
 
 ## **Продвинутые темы**
 - [AutoFit строк для объединенных ячеек](/cells/ru/net/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="csharp" >}}

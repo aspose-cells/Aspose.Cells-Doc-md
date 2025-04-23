@@ -25,3 +25,4 @@ Aspose.Cells允许您将一个Excel文件中的VBA项目复制到另一个Excel�
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProject-CopyVBAMacroUserFormDesignerStorageToWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

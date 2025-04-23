@@ -19,3 +19,4 @@ L'exemple suivant montre comment couper et coller des cellules dans une feuille 
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-CutAndPasteCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

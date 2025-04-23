@@ -21,12 +21,19 @@ Microsoft Excel 2007 年及以后的版本（2010/2013/2016）提供了一些高
 
 Aspose.Cells 在运行时完全支持 Microsoft Excel 2007 年及以后版本在 XLSX 格式中提供的条件格式。此示例演示了包括图标集、数据条、颜色比例、时间周期、前/后和其他规则在内的高级条件格式类型的实参练习。
 
+- [**Adding Color Scale Conditional Formattings**](/cells/zh/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/)
+- [**Adding Above Average Conditional Formattings**](/cells/zh/net/how-to-add-above-average-conditional-formatting/)
+- [**Adding DataBars Conditional Formattings**](/cells/zh/net/how-to-add-databars-conditional-formatting/)
+- [**Adding IonSets Conditional Formattings**](/cells/zh/net/how-to-add-icon-sets-conditional-formatting/)
+- [**Adding Text Conditional Formattings**](/cells/zh/net/how-to-add-text-conditional-formatting/)
+- [**Adding TimePeriods Conditional Formattings**](/cells/zh/net/how-to-add-time-periods-conditional-formatting/)
+- [**Adding Top10 Conditional Formattings**](/cells/zh/net/how-to-add-top10-conditional-formatting/)
 
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConditionalFormatting-1.cs" >}}
 ### **计算 Microsoft Excel 为 ColorScale 条件格式选择的颜色**
 Aspose.Cells允许您在模板文件中使用ColorScale条件格式化时计算Microsoft Excel选择的颜色。请参阅下面的示例代码，了解如何计算Microsoft Excel选择的颜色。
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ComputeColorChoosenByMSExcel-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

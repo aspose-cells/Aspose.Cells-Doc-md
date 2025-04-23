@@ -24,3 +24,4 @@ url: /ar/net/add-custom-xml-parts-and-select-them-by-id/
  Found: CustomXmlPart ID Sport
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

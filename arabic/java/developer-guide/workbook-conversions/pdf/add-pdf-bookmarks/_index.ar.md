@@ -16,3 +16,4 @@ url: /ar/java/add-pdf-bookmarks/
 يرجى الرجوع إلى الكود العيني التالي لمعرفة كيفية إضافة إشارات مرجعية لملف PDF. يقوم الكود بإنشاء دفتر عمل بسيط، ويحدد إشارات مرجعية للوجهات ويقوم بإنشاء ملف PDF.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddPDFBookmarks-AddPDFBookmarks.java" >}}
+{{< app/cells/assistant language="java" >}}

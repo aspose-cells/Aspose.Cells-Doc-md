@@ -20,3 +20,4 @@ Puede crear un PDF de gráfico con el tamaño de página deseado utilizando Aspo
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Charts-CreateChartPDFWithDesiredPageSize.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

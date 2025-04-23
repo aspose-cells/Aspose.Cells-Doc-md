@@ -46,3 +46,4 @@ Bellek ayarları, Workbook tarafından otomatik olarak oluşturulan varsayılan 
 [Büyük Veri Kümeleriyle Çalışırken Belleği Optimize Etme](/cells/tr/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/) konusundaki detaylı makaleyi kontrol edin
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -18,3 +18,4 @@ Der folgende Beispielcode lädt die [Beispiels-Excel-Datei](61767784.xlsx) und k
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-ExportDocumentWorkbookAndWorksheetPropertiesInHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

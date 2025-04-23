@@ -20,3 +20,4 @@ Consulte el artículo detallado sobre [Obtención de advertencias por sustituci�
 {{% /alert %}}
 ## **Se eliminó la propiedad obsoleta PdfSaveOptions.ChartImageType**
 Aspose.Cells for Java 8.1.2 ha eliminado la propiedad obsoleta PdfSaveOptions.ChartImageType de la API pública.
+{{< app/cells/assistant language="java" >}}

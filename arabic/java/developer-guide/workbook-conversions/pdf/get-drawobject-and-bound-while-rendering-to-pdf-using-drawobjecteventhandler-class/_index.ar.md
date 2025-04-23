@@ -7,7 +7,7 @@ url: /ar/java/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjectev
 
 ## **سيناريوهات الاستخدام المحتملة**
 
-توفر Aspose.Cells فئة مجردة [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) التي تحتوي على طريقة [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)). يمكن للمستخدم تنفيذ [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) واستخدام الطريقة [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) للحصول على [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) و**Bound** أثناء تقديم Excel إلى PDF أو صورة. هنا وصف موجز لمعلمات الطريقة [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)).
+توفر Aspose.Cells فئة مجردة [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) التي تحتوي على طريقة [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw-com.aspose.cells.DrawObject-float-float-float-float-). يمكن للمستخدم تنفيذ [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) واستخدام الطريقة [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw-com.aspose.cells.DrawObject-float-float-float-float-) للحصول على [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) و**Bound** أثناء تقديم Excel إلى PDF أو صورة. هنا وصف موجز لمعلمات الطريقة [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw-com.aspose.cells.DrawObject-float-float-float-float-).
 
 - drawObject: [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) ستتم تهيئتها وإرجاعها عند العرض
 
@@ -42,3 +42,4 @@ url: /ar/java/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjectev
 \----------------------
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

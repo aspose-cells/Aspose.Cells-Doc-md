@@ -22,3 +22,4 @@ Sie können die [Quell-Excel-Datei](95584291.xlsx) und die [Ausgabedatei im PD
 ## C#-Code zum Aktualisieren der Werte verknüpfter Formen
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RefreshValueOfLinkedShapes-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

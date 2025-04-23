@@ -35,3 +35,4 @@ Der folgende Codeauszug demonstriert, wie die Optionen der X- und Y-Achsen festg
 - [Ändern der Richtung der Markierungstexte](/cells/de/java/change-tick-label-direction/)
 - [Bestimmen Sie, welche Achse im Diagramm existiert](/cells/de/java/determine-which-axis-exists-in-the-chart/)
 - [Behandeln Sie automatische Einheiten der Diagrammachse wie Microsoft Excel](/cells/de/java/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
+{{< app/cells/assistant language="java" >}}

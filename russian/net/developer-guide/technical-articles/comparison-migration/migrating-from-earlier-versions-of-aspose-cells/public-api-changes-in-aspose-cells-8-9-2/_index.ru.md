@@ -164,3 +164,4 @@ fill.SetOneColorGradient(Color.Red, 0.1, GradientStyleType.Horizontal, 2);
 Пожалуйста, используйте свойство Shape.Fill вместо него.
 ### **Устаревшее свойство FontSetting.ShapeFont.**
 Пожалуйста, используйте свойство FontSetting.TextOptions вместо него.
+{{< app/cells/assistant language="csharp" >}}

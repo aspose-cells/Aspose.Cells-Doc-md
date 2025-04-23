@@ -42,3 +42,4 @@ Aspose.Cells предоставляет абстрактный класс [**Dra
 ----------------------
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

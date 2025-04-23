@@ -16,3 +16,4 @@ Aspose.Cellsは、コメントのフォントの色を設定するための[**Sh
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeCommentFontColor-1.cs" >}}
 
 上記のコードによって生成された[出力ファイル](102662195.xlsx)を参照してください。
+{{< app/cells/assistant language="csharp" >}}

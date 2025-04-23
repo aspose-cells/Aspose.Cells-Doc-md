@@ -18,3 +18,4 @@ A1、B1、A2、B2の順にデータを入れることは、A1、A2、B1、B2の�
 ## 行ごとに先に、次に列ごとにデータを埋めるためのJavaコード
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PopulateDatabyRowthenColumn-PopulateDatabyRowthenColumn.java" >}}
+{{< app/cells/assistant language="java" >}}

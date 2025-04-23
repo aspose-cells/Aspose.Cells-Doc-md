@@ -27,3 +27,4 @@ Ciò comprende le seguenti abbondanti funzionalità di Aspose.Cells rispetto a N
   - [Imposta il colore della scheda del foglio di lavoro in Aspose.Cells](/cells/it/net/set-worksheet-tab-color-in-aspose-cells/)
 
 **Nota:** Molti altri esempi saranno presto disponibili.
+{{< app/cells/assistant language="csharp" >}}

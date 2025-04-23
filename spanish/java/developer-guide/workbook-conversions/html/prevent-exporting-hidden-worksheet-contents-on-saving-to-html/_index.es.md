@@ -22,3 +22,4 @@ Además de controlar si exportar hojas de cálculo ocultas o no, también puede 
 - [Exportar comentarios al guardar archivo de Excel como HTML](/cells/es/java/export-comments-while-saving-excel-file-to-html/)
 - [Ocultar Contenido Superpuesto con CrossHideRight al guardar en HTML](/cells/es/java/hiding-overlaid-content-with-crosshideright-while-saving-to-html/)
 - [Exportar un estilo de borde similar cuando el estilo de borde no es soportado por los navegadores web](/cells/es/java/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/)
+{{< app/cells/assistant language="java" >}}

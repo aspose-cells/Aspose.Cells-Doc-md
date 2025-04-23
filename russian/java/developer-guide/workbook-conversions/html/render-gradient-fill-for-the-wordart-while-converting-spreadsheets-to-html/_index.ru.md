@@ -13,3 +13,4 @@ url: /ru/java/render-gradient-fill-for-the-wordart-while-converting-spreadsheets
 Следующий образец кода конвертирует исходный файл Excel в выходной формат HTML. В исходном файле Excel содержится объект Word Art с градиентным заполнением, как показано на скриншоте выше.
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RenderGradientFillHTML-RenderGradientFillHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

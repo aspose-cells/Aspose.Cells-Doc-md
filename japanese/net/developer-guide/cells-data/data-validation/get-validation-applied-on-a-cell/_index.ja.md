@@ -24,3 +24,4 @@ Aspose.Cellsを使用して、セルに適用された検証を取得できま�
 ## 関連記事
 
 - [データの検証](/cells/ja/net/data-validation/)
+{{< app/cells/assistant language="csharp" >}}

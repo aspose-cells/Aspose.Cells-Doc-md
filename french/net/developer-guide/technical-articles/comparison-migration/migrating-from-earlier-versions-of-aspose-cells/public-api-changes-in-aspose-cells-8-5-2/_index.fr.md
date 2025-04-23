@@ -182,3 +182,4 @@ Les événements sont listés comme suit.
 1. GridDesktop.FinishLoadFile
 1. GridDesktop.BeforeCalculate
 1. GridDesktop.FinishCalculate
+{{< app/cells/assistant language="csharp" >}}

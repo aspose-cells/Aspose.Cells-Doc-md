@@ -26,3 +26,4 @@ Per dimostrare l'uso dell'API Aspose.Cells for Java per creare un grafico a tort
 
 - [Creazione e personalizzazione di grafici](/cells/it/java/creating-and-customizing-charts/)
 - [Formattazione del grafico](/cells/it/java/chart-formatting/)
+{{< app/cells/assistant language="java" >}}

@@ -19,3 +19,4 @@ Le code d'exemple suivant montre comment vous pouvez enregistrer Excel en PDF av
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-SaveExcelIntoPdfWithOptimizedSize-SaveExcelIntoPdfWithOptimizedSize.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -3,19 +3,19 @@ title: Показать и скрыть строки, столбцы и поло
 type: docs
 weight: 20
 url: /ru/python-net/show-and-hide-rows-columns-and-scroll-bars/
-description: В этой статье демонстрируется, как программно отображать и скрывать строки и столбцы листа Excel с использованием Aspose.Cells для Python via .NET. Видимость полос прокрутки можно настроить, и можно скрыть несколько строк и столбцов.
-keywords: Библиотека Python Excel, Показывает строки и столбцы Python, Скрывает строки и столбцы Python, Показывает вертикальную полосу прокрутки Python, Показывает горизонтальную полосу прокрутки Python, Скрывает вертикальную полосу прокрутки Python, Скрывает горизонтальную полосу прокрутки Python, Показывает и скрывает строки, столбцы и полосы прокрутки в Python.
+description: Эта статья демонстрирует, как программно отображать и скрывать строки и столбцы листа Excel с помощью API Aspose.Cells для Python via .NET. Можно регулировать видимость полос прокрутки, а также скрывать несколько строк и столбцов.
+keywords: Библиотека Excel для Python, отображение строк и столбцов, скрытие строк и столбцов, отображение вертикальной полосы прокрутки, отображение горизонтальной полосы прокрутки, скрытие вертикальной полосы прокрутки, скрытие горизонтальной полосы прокрутки, отображение и скрытие строк, столбцов и полос прокрутки.
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells для Python via .NET предоставляет способы контроля видимости строк, столбцов и полос прокрутки листа.
+Aspose.Cells для Python via .NET предоставляет способы управления видимостью строк, столбцов и полос прокрутки листа.
 
 {{% /alert %}}
 
 ## **Показ и скрытие строк и столбцов**
 
-Aspose.Cells для Python via .NET предоставляет класс [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), который представляет собой файл Microsoft Excel. Класс [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) содержит коллекцию [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets), которая позволяет разработчикам получить доступ к каждому листу Excel. Лист представлен классом [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet). Класс [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) предоставляет коллекцию [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells), представляющую все ячейки листа. Коллекция [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells) предоставляет несколько методов для управления строками или столбцами в листе. Несколько из них обсуждаются ниже.
+Aspose.Cells для Python via .NET предоставляет класс, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), который представляет файл Microsoft Excel. Класс [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) содержит коллекцию [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets), позволяющую разработчикам получать доступ к каждому листу в файле Excel. Лист представлен классом [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet). Класс [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) предоставляет коллекцию [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells), которая представляет все ячейки листа. Коллекция [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells) содержит несколько методов для управления строками или столбцами листа. Некоторые из них рассматриваются ниже.
 
 ### **Показать строки и столбцы**
 
@@ -57,11 +57,11 @@ Aspose.Cells для Python via .NET предоставляет класс [**Wor
 - Вертикальные полосы прокрутки
 - Горизонтальные полосы прокрутки
 
-Microsoft Excel также предоставляет горизонтальные и вертикальные полосы прокрутки, чтобы пользователи могли прокручивать содержимое листа. С помощью Aspose.Cells для Python via .NET разработчики могут контролировать видимость обоих типов полос прокрутки в файлах Excel.
+Microsoft Excel также предоставляет горизонтальные и вертикальные полосы прокрутки, чтобы пользователи могли просматривать содержимое листа. С помощью Aspose.Cells для Python via .NET разработчики могут управлять видимостью обоих типов полос прокрутки в файлах Excel.
 
 ### **Управление видимостью полос прокрутки**
 
-Aspose.Cells для Python via .NET предоставляет класс [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), который представляет собой файл Excel. Класс [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) предоставляет широкий диапазон свойств и методов для управления файлом Excel. Для управления видимостью полос прокрутки используйте свойства класса [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) и [**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible). [**WorkbookSettings.is_h_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_h_scroll_bar_visible) и [**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) - это булевы свойства, что означает, что они могут хранить только значения **true** или **false**.
+Aspose.Cells для Python via .NET предоставляет класс, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), который представляет файл Excel. Класс [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) содержит широкий спектр свойств и методов для управления файлом Excel. Для управления видимостью полос прокрутки используйте свойства [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) и [**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) класса. [**WorkbookSettings.is_h_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_h_scroll_bar_visible) и [**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) — булевы свойства, что означает, что эти свойства могут хранить только значения **true** или **false**.
 
 #### **Отображение полос прокрутки**
 

@@ -1,10 +1,10 @@
 ---
-title: Hur man kör Aspose.Cells.GridJs i docker
+title: hur man kör Aspose.Cells.GridJs i docker
 type: docs
 weight: 250
 url: /sv/net/aspose-cells-gridjs/how-to-build-online-excel-editor/
-keywords: GridJs,docker
-description: Den här artikeln introducerar hur man kör GridJs i docker för att bygga en online Excel editor eller visningsapplikation.
+keywords: GridJs, docker
+description: Den här artikeln introducerar hur man kör GridJs i docker för att bygga en online Excel redigerare eller visningsapplikation.
 aliases:
   - /net/aspose-cells-gridjs/docker/
   - /net/aspose-cells-gridjs/run-aspose-cells-gridjs-in-docker/
@@ -23,13 +23,13 @@ aliases:
 
 Se till att du har Docker installerat på din maskin. Du kan ladda ner och installera Docker från [officiella Docker-webbplatsen](https://www.docker.com/get-started).
 
-## Steg 1: Skapa en Dockerfil
+## Steg 1: Skapa en Dockerfile
 
-Skapa en fil som heter `Dockerfile` i ditt projekt [mapp](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/). `Dockerfile` ska innehålla instruktioner om hur man bygger din Docker-image.
+Skapa en fil som heter `Dockerfile` i ditt projekt [katalog](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/). `Dockerfile` ska innehålla instruktioner för hur du bygger din Docker-bild.
 
 ## Steg 2: Skriv Dockerfile för GridJs
 
-Här är en exempel [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Dockerfile) för GridJs-demo med ASP.NET Core-applikation:
+Här är ett exempel [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Dockerfile) för GridJs-demo med ASP.NET Core-applikation:
 
 ```dockerfile
 # Use the official .NET6.0 runtime as a parent image
@@ -65,6 +65,8 @@ WORKDIR /app
 # COPY fonts/* /usr/share/fonts/
 # the basic file path which contains the spread sheet files 
 RUN mkdir -p /app/wb
+# the file path to store the uploaded files
+RUN mkdir -p /app/uploads
 # the cache file path for GridJs
 RUN mkdir -p /app/grid_cache
 # we provide some sample spread sheet files in demo 
@@ -76,48 +78,58 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "gridjs-demo-.net6.dll"]
 ```
 
-## Steg 3: Bygga Docker-image
-Bygg Docker-image: Från terminalen, kör följande kommando för att bygga din Docker-image:
+## Steg 3: Bygga Docker-bilden
+Bygg Docker-bilden: Från terminalen, kör följande kommando för att bygga din Docker-bild:
 ```bash
 docker build -t gridjs-demo-net6 .
 ```
-Du kan ersätta gridjs-demo-net6 med det namn du vill ge din Docker-image.
+du kan ersätta gridjs-demo-net6 med det namn du vill ge din Docker-bild.
 
-## Steg 4: Köra en Docker-container
+## Steg 4: Kör en Docker-container
 När bilden är byggd kan du köra en container med följande kommando:
+
+```bash
+docker run -d -p 24262:80 -v C:/path/to/license.txt:/app/license --name gridjs-demo-container  gridjs-demo-net6
+```
+
+eller bara köra demonstrationen i provläget:
+
 
 ```bash
 docker run -d -p 24262:80 --name gridjs-demo-container  gridjs-demo-net6
 ```
-Förklaring av Docker Run-kommandoalternativ
--d: Kör containern i detach-läge (i bakgrunden).
--p 24262:80: Kartlägg port 80 i containern till port 24262 på värdmaskinen.
+
+
+Förklaring av Docker Run-kommandots alternativ
+-d: Kör containern i bakgrunden (avskilt läge).
+-p 24262:80: Mappar port 80 i containern till port 24262 på värddatorn.
+-v C:/path/till/license.txt:/app/license:  Mappar licensfilens sökväg på värddatorn till filens sökväg i containern.
 --name gridjs-demo-container: Tilldela ett namn till containern.
 
-## Steg 5: Verifiera att containern körs
-För att kontrollera om din container körs, använd följande kommando:
+## Steg 5: Kontrollera att containern körs
+För att kontrollera att din container är igång, använd följande kommando:
 
 ```bash
 docker ps
 ```
-Detta kommer att lista alla körande containrar. Du bör se din container listad tillsammans med dess namn och status.
+Detta listas alla aktiva containrar. Du bör se din container listad med namn och status.
 
-## Steg 6: Kom åt webbapplikationen
+## Steg 6: Åtkomst till webbapplikationen
 
-Öppna en webbläsare och gå till `http://localhost:24262/GridJs2/List`. Du bör se din applikation köra.
+Öppna en webbläsare och gå till `http://localhost:24262/GridJs2/List`. Du bör se din applikation igång.
 
-## Ytterligare kommandon
+## Ytterligare Kommandon
 
-### Stoppa containern
+### Stanna containern
 
-För att stoppa en körande container, använd följande kommando:
+För att stoppa en körande containter, använd följande kommando:
 
 ```bash
 docker stop gridjs-demo-container
 ```
 
-### Ta bort en behållare
-För att ta bort en stoppad behållare, använd följande kommando:
+### Ta bort en container
+För att ta bort en stoppad container, använd följande kommando:
 
 ```bash
 docker rm  gridjs-demo-container

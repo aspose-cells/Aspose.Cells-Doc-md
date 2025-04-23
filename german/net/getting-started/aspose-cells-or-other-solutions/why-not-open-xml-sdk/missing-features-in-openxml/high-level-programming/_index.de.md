@@ -13,3 +13,4 @@ Dieser Abschnitt umfasst die folgenden Themen
   - [Arbeitsblätter innerhalb einer Arbeitsmappe kopieren](/cells/de/net/copy-worksheets-within-a-workbook/)
   - [Arbeitsblätter innerhalb einer Arbeitsmappe verschieben](/cells/de/net/move-worksheets-within-workbook/)
 - [Suchen und Ersetzen in Tabellenkalkulationen](/cells/de/net/find-and-replace-in-spreadsheet/)
+{{< app/cells/assistant language="csharp" >}}

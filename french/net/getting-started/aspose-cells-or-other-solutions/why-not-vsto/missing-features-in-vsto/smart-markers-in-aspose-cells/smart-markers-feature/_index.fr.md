@@ -33,3 +33,4 @@ Les paramètres suivants sont autorisés :
 - copystyle - Copier le style de la cellule de base dans toutes les cellules de cette colonne.
 
 Les paramètres **noadd** et skip peuvent être combinés pour insérer des données sur des rangées alternées. Comme le modèle est traité de bas en haut, vous devez ajouter noadd sur la première rangée pour éviter que des rangées supplémentaires ne soient insérées avant la rangée alternative.
+{{< app/cells/assistant language="csharp" >}}

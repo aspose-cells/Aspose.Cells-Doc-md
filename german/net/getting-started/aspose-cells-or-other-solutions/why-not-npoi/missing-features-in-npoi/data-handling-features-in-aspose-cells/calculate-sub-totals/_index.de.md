@@ -53,3 +53,4 @@ Laden Sie **Berechnen von Teilsummen** von einer der unten aufgeführten soziale
 Für weitere Details besuchen Sie [Erstellen von Teilsummen](/cells/de/net/creating-subtotals/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

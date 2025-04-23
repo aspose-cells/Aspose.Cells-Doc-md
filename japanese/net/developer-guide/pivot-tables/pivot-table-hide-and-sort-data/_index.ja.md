@@ -17,3 +17,4 @@ Aspose.Cellsは、ピボットテーブル内のデータを非表示および�
 [ソースファイル](96928093.xlsx)
 
 [出力ファイル](96928094.xlsx)
+{{< app/cells/assistant language="csharp" >}}

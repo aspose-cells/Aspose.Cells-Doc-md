@@ -69,3 +69,4 @@ Aspose.Cellsにはテーマと色をカスタマイズする機能が提供さ�
 
 ## **高度なトピック**
 - [Excelファイルからテーマデータを抽出](/cells/ja/net/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="csharp" >}}

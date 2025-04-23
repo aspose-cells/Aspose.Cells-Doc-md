@@ -50,3 +50,4 @@ report.Workbook.Save("Smart Marker Customobjects.xls");
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Custom%20Objects%20%28Aspose.Cells%29.zip)
+{{< app/cells/assistant language="csharp" >}}

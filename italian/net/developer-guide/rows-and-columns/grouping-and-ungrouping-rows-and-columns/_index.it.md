@@ -62,3 +62,4 @@ Per annullare il raggruppamento di qualsiasi riga o colonna raggruppata, chiamar
 [**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) ha un sovraccarico che richiede un terzo parametro booleano. Impostandolo su **true** si rimuovono tutte le informazioni raggruppate. In caso contrario, viene rimossa solo l'informazione esterna del gruppo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-UngroupingRowsAndColumns-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

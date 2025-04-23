@@ -39,3 +39,4 @@ Följande koder visar hur man renderar det maximala visningsintervallet till htm
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Get-Max-Display-Range.cs" >}}
 
 Här är [källa excel-fil](Book1.xlsx).
+{{< app/cells/assistant language="csharp" >}}

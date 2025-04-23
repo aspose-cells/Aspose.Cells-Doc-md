@@ -7,7 +7,7 @@ url: /sv/java/track-conversion-progress-of-excel-to-tiff/
 
 ## **Möjliga användningsscenario**
 
-Ibland kan konvertering av stora Excel-filer ta lite tid. Under denna tid kanske du vill visa dokumentkonverteringsframstegen istället för bara en laddningsskärm för att förbättra användbarheten i din applikation. Aspose.Cells stöder spårning av dokumentkonverteringsprocess genom att tillhandahålla gränssnittet [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback). Gränssnittet [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) tillhandahåller metoderna [**PageStartSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs)) och [**PageEndSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs)) som du kan implementera i din anpassade klass. Du kan även kontrollera vilka sidor som renderas som visas i den anpassade klassen *TestTiffPageSavingCallback*.
+Ibland kan konvertering av stora Excel-filer ta lite tid. Under denna tid kanske du vill visa dokumentkonverteringsframstegen istället för bara en laddningsskärm för att förbättra användbarheten i din applikation. Aspose.Cells stöder spårning av dokumentkonverteringsprocess genom att tillhandahålla gränssnittet [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback). Gränssnittet [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) tillhandahåller metoderna [**PageStartSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving-com.aspose.cells.PageStartSavingArgs-) och [**PageEndSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving-com.aspose.cells.PageEndSavingArgs-) som du kan implementera i din anpassade klass. Du kan även kontrollera vilka sidor som renderas som visas i den anpassade klassen *TestTiffPageSavingCallback*.
 
 ## **Spåra konverteringsframsteg för Excel till TIFF**
 
@@ -46,3 +46,4 @@ Start saving page index 8 of pages 10</br>
 End saving page index 8 of pages 10
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

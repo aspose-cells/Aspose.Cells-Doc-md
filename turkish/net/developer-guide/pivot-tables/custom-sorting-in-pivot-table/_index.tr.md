@@ -19,3 +19,4 @@ Aspose.Cells API'sını kullanarak, alan değerlerine göre Pivot Tablolarını 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTables-PivotTableCustomSort-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

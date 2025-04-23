@@ -45,7 +45,7 @@ NuGet は Aspose.Cells for .NET をダウンロードしてインストールす
 2. 「AsposeCellsTest.csproj」ファイルを開き、Aspose.Cells パッケージの参照に以下の行を追加します。
 {{< highlight plain >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="24.7" />
+    <PackageReference Include="Aspose.Cells" Version="25.4" />
   </ItemGroup>
 {{< /highlight >}}
 3. Ubuntu 上の VSCode でプロジェクトを開きます。
@@ -103,3 +103,4 @@ Aspose.Cells for Net6 は今や、[Microsoft の公式声明](https://github.com
 以下の例では、既存のMicrosoft Excelテンプレートファイル "Sample.xlsx" を開き、その初めのワークシートのセルA1に"Hello World!"を挿入し、Excelファイルとして保存します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

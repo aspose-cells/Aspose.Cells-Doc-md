@@ -13,7 +13,7 @@ url: /zh/java/insert-a-picture-based-on-cell-reference/
 
 ## 根据单元格引用插入图片
 
-Aspose.Cells支持在图像形状中显示工作表单元格的内容。您可以将图片链接到包含您希望显示的数据的单元格。由于单元格或单元格范围已链接到图形对象，因此对数据的更改会自动显示在图形对象中。通过调用 [**addPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPicture(int,%20int,%20int,%20int,%20java.io.InputStream)) 方法向工作表添加图片，该方法属于 [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) 集合（封装在 [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) 对象中）。使用 [**setFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#Formula) 方法指定单元格范围，该方法是 [**Picture**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture) 对象的方法。
+Aspose.Cells支持在图像形状中显示工作表单元格的内容。您可以将图片链接到包含您希望显示的数据的单元格。由于单元格或单元格范围已链接到图形对象，因此对数据的更改会自动显示在图形对象中。通过调用 [**addPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPicture-int-int-int-int-java.io.InputStream-) 方法向工作表添加图片，该方法属于 [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) 集合（封装在 [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) 对象中）。使用 [**setFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#Formula) 方法指定单元格范围，该方法是 [**Picture**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture) 对象的方法。
 
 以下是下面的代码生成的文件的屏幕截图。
 
@@ -24,3 +24,4 @@ Aspose.Cells支持在图像形状中显示工作表单元格的内容。您可�
 ## 示例代码
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-InsertPictureCellReference-InsertPictureCellReference.java" >}}
+{{< app/cells/assistant language="java" >}}

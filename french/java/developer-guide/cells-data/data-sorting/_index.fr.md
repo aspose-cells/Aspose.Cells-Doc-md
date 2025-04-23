@@ -62,7 +62,7 @@ Pour trier de *gauche à droite*, utilisez l'attribut [**DataSorter.SortLeftToRi
 
 ## **Tri des données avec couleur de fond**
 
-Excel offre la possibilité de trier les données en fonction de la couleur de fond. La même fonctionnalité est fournie à l'aide d'Aspose.Cells en utilisant [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) où [**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL_COLOR) peut être utilisé dans [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int)) pour trier les données en fonction de la couleur de fond. Toutes les cellules contenant une couleur spécifiée dans la [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int)) sont placées en haut ou en bas selon le paramètre SortOrder et l'ordre du reste des cellules n'est pas du tout modifié.
+Excel offre la possibilité de trier les données en fonction de la couleur de fond. La même fonctionnalité est fournie à l'aide d'Aspose.Cells en utilisant [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) où [**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL-COLOR) peut être utilisé dans [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-) pour trier les données en fonction de la couleur de fond. Toutes les cellules contenant une couleur spécifiée dans la [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-) sont placées en haut ou en bas selon le paramètre SortOrder et l'ordre du reste des cellules n'est pas du tout modifié.
 
 Voici les fichiers d'exemple qui peuvent être téléchargés pour tester cette fonctionnalité :
 
@@ -78,3 +78,4 @@ Voici les fichiers d'exemple qui peuvent être téléchargés pour tester cette 
 - [Trier les données dans une colonne avec une liste de tri personnalisée](/cells/fr/java/sort-data-in-column-with-custom-sort-list/)
 - [Spécifier un avertissement de tri lors du tri des données](/cells/fr/java/specifying-sort-warning-while-sorting-data/)
 
+{{< app/cells/assistant language="java" >}}

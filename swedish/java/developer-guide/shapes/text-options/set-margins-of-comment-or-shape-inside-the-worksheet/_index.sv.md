@@ -18,3 +18,4 @@ Var god se följande exempelkod. Den laddar in [exempel Excel-filen](61767867.xl
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-SetMarginsOfCommentOrShapeInsideTheWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

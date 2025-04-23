@@ -52,7 +52,7 @@ Definiera sedan Aspose.Cells for Java API beroendet i din pom.xml enligt följa
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.7</version>
+            <version>25.4</version>
 
         </dependency>
 
@@ -62,7 +62,7 @@ Definiera sedan Aspose.Cells for Java API beroendet i din pom.xml enligt följa
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.7</version>
+            <version>25.4</version>
 
             <classifier>javadoc</classifier>
 
@@ -107,3 +107,4 @@ Vanligtvis använder Aspose.Cells for Java Java's ImageIO för att läsa rasterb
 Kontrollera följande för att få snabb teknisk support
 
 [Aspose.Cells - Forums](https://forum.aspose.com/c/cells/9)
+{{< app/cells/assistant language="java" >}}

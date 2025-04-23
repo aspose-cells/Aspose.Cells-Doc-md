@@ -14,3 +14,4 @@ Ibland behöver användaren kopiera radhöjderna i källområdet till destinatio
 Följande kodexempel förklarar hur man använder [**PasteType.RowHeights**](https://reference.aspose.com/cells/net/aspose.cells/pastetype)-enumet för att kopiera radhöjder från källområdet till destinationsområdet. När du öppnar den genererade utfil i Microsoft Excel kommer du att se att destinationsområdets radhöjder är exakt desamma som källområdets radhöjder.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-GetRowHeights-GetRowHeightsOfSourceRangeToDestinationRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

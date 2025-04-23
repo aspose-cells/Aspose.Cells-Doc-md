@@ -47,3 +47,4 @@ for (int i = 0 ; i < dataTable.length ; i++)
 لمزيد من التفاصيل، قم بزيارة [تصدير البيانات من ورق العمل](/java/exporting-data-from-worksheets).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

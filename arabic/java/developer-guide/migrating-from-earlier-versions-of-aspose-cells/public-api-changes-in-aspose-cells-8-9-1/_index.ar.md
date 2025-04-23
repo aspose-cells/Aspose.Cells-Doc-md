@@ -256,3 +256,4 @@ book.calculateFormula(options);
 استخدم أسلوب FontConfigs.setFontFolders(String[], boolean) مع تكرار المجلد إلى false بدلاً من ذلك.
 ### **الواجهات المهجورة خاصية CellsHelper.FontFiles**
 استخدم طريقة FontConfigs.setFontSources(FontSourceBase[]) بدلاً من ذلك.
+{{< app/cells/assistant language="java" >}}

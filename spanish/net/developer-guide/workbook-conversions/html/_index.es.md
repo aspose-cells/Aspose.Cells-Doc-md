@@ -52,3 +52,5 @@ El ejemplo de código a continuación muestra cómo guardar un libro de trabajo 
 - [Establecer fuente predeterminada al renderizar la hoja de cálculo a HTML](/cells/es/net/set-default-font-while-rendering-spreadsheet-to/)
 - [Especifica cómo cruzar la cadena en HTML de salida utilizando HtmlCrossType](/cells/es/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
 - [Soportar el diseño de etiquetas DIV al cargar HTML en un libro de Excel](/cells/es/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
+{{< app/cells/assistant language="csharp" >}}
+- [Habilitar Propiedades Personalizadas de CSS al guardar en HTML](/cells/es/net/enable-css-custom-properties-while-saving-to-html/)

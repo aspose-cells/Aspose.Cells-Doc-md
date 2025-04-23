@@ -11,7 +11,7 @@ url: /zh/java/get-warnings-while-loading-excel-file/
 
 ## **加载 Excel 文件时获取警告**
 
-以下示例代码解释了如何在加载excel文件时获取警告。该代码加载[示例excel文件](sampleDuplicateDefinedName.xlsx)，在加载时会生成 [**DuplicateDefinedName**](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE_DEFINED_NAME) 警告。然后通过 [**IWarningCallback.Warning()**](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning(com.aspose.cells.WarningInfo)) 方法捕获该警告并在控制台上打印警告消息。代码然后将工作簿保存为[输出excel文件](outputDuplicateDefinedName.xlsx)。如果您在Microsoft Excel中打开示例excel文件，它也会显示您此警告，如下图所示。还请检查下面给出的代码的控制台输出以获取更多理解。
+以下示例代码解释了如何在加载excel文件时获取警告。该代码加载[示例excel文件](sampleDuplicateDefinedName.xlsx)，在加载时会生成 [**DuplicateDefinedName**](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE-DEFINED-NAME) 警告。然后通过 [**IWarningCallback.Warning()**](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning-com.aspose.cells.WarningInfo-) 方法捕获该警告并在控制台上打印警告消息。代码然后将工作簿保存为[输出excel文件](outputDuplicateDefinedName.xlsx)。如果您在Microsoft Excel中打开示例excel文件，它也会显示您此警告，如下图所示。还请检查下面给出的代码的控制台输出以获取更多理解。
 
 ![todo:image_alt_text](get-warnings-while-loading-excel-file_1.png)
 
@@ -34,3 +34,4 @@ Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:Panel!$B$228
 Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:'Queries '!$D$14:$D$16
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

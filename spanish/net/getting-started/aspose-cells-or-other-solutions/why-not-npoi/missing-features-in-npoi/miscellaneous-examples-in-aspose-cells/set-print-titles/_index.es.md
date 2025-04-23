@@ -41,3 +41,4 @@ Descargue **Establecer títulos de impresión** desde cualquiera de los sitios d
 Para más detalles, visite [Configuración de opciones de impresión](/cells/es/net/setting-print-options/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

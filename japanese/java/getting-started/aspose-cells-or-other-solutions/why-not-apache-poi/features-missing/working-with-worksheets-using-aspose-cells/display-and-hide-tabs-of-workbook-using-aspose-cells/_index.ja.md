@@ -40,3 +40,4 @@ workbook.save(dataDir + "AsposeDisplayTabs.xls");
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeDisplayAndHideTabs.java)
 
+{{< app/cells/assistant language="java" >}}

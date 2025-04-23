@@ -56,3 +56,4 @@ keywords: نمط المراجعة R1C1 مقابل النمط A1، نمط الم�
 نمط الإشارة R1C1:
 <br>
 <image src="3.png" width="70%" />
+{{< app/cells/assistant language="csharp" >}}

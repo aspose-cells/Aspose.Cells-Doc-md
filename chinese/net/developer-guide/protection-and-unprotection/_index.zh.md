@@ -34,3 +34,4 @@ Aspose.Cells for .Net提供了从文件到数据级别的广泛保护和解保�
 - [检测加密的 Office Open XML - OOXML 文件的文件格式](/cells/zh/net/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [加密 Excel 文件](/cells/zh/net/encrypting-excel-files/)
 - [如何检测文件格式并检查文件是否加密](/cells/zh/net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="csharp" >}}

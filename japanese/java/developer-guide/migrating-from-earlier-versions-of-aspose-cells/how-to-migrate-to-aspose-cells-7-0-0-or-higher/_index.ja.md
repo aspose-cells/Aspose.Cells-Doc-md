@@ -42,3 +42,4 @@ Worksheets.size()（旧）-> WorksheetCollection.getCount()（新）、...等
 
 4) v2.5.4以前のブール値プロパティのgetterメソッドは、'is'で始まるものが変更されています。v7.0.0ではこれらは"get"で始まります:
 例：PageSetup.isBlackAndWhite()（旧）-> PageSetup.getBlackAndWhite()（新）、...等
+{{< app/cells/assistant language="java" >}}

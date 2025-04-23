@@ -34,3 +34,4 @@ Il seguente codice di esempio crea un foglio di calcolo vuoto e lo salva come PD
 	at com.aspose.cells.Workbook.save(Unknown Source)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

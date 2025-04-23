@@ -24,3 +24,4 @@ url: /ru/net/specifying-the-absolute-position-of-the-pivot-item/
 Обратите внимание, что необходимо вызвать методы PivotTable.RefreshData и PivotTable.CalculateData перед использованием свойств [**PivotItem.Position**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/position), [**PivotItem.PositionInSameParentNode**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/positioninsameparentnode) и метода [**PivotItem.Move(int count, bool isSameParent)**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/methods/move).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

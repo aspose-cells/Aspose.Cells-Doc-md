@@ -20,3 +20,4 @@ Il seguente codice di esempio imposta la formula delle celle C1 ed E1 e aggiunge
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Formulas-AddCellsToMicrosoftExcelFormulaWatchWindow.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

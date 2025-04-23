@@ -42,3 +42,4 @@ keywords: تجميد الأعمدة اليسارية، تجميد الأعمدة
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Column.cs" >}}
 
 المرفق [ملف الإكسيل عينة](Freeze.xlsx).
+{{< app/cells/assistant language="csharp" >}}

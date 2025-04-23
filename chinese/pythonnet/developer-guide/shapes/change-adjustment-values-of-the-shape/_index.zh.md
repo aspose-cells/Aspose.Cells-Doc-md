@@ -3,13 +3,13 @@ title: 更改形状的调整值
 type: docs
 weight: 2000
 url: /zh/python-net/change-adjustment-values-of-the-shape/
-description: 本文展示如何通过Aspose.Cells for Python via .NET API更改形状的调整值。
+description: 本文演示了如何通过Aspose.Cells for Python via .NET API更改Shape的调整值。
 keywords: Python Excel库，Python更改形状的调整值，Python如何更改形状的调整值。
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET提供[**Shape.geometry.shape_adjust_values**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/geometry/shape_adjust_values/)属性，以便对形状的调整点进行更改。在Microsoft Excel界面中，调整显示为黄色菱形节点。例如：
+Aspose.Cells for Python via .NET 提供 [**Shape.geometry.shape_adjust_values**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/geometry/shape_adjust_values/) 属性以对带有形状的调整点进行更改。在Microsoft Excel的用户界面中，调整显示为黄色菱形节点。例如：
 
 - 圆角矩形有一个调整来改变拱形
 - 三角形有一个调整来改变顶点的位置

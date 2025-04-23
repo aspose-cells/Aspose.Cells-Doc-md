@@ -23,3 +23,4 @@ Il codice di esempio di seguito mostra come impostare il colore della scheda con
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SetWorksheetTabColor-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

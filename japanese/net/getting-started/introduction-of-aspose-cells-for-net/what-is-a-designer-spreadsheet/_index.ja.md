@@ -39,3 +39,4 @@ url: /ja/net/what-is-a-designer-spreadsheet/
 [スマートマーカーについて詳しく](/cells/ja/net/smart-markers/)をご覧ください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

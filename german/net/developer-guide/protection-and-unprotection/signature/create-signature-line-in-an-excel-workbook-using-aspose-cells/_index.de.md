@@ -18,3 +18,4 @@ Aspose.Cells bietet diese Funktion ebenfalls und hat die Eigenschaft [**Picture.
 Der folgende Beispielcode fügt mit der Eigenschaft [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) eine Signaturlinie hinzu und speichert die Arbeitsmappe.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateSignatureLineInWorkbook-CreateSignatureLineInWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

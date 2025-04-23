@@ -53,3 +53,4 @@ workbook.save(dataDir + "AsposeWatermark_Out.xls");
 Für weitere Details besuchen Sie [Wortkunst-Wasserzeichen zur Tabelle hinzufügen](/cells/de/java/add-wordart-watermark-to-worksheet).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

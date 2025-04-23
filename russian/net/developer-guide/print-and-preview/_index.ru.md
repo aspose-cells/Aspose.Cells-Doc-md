@@ -74,3 +74,4 @@ Worksheet page count: 1
 - [Отобразить Рабочий лист на графический контекст](/cells/ru/net/render-worksheet-to-graphic-context/)
 - [Указание индивидуального или частного набора шрифтов для рендеринга книги](/cells/ru/net/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)
 - [Укажите название задания или документа при печати с помощью Aspose.Cells](/cells/ru/net/specify-job-or-document-name-while-printing-with-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

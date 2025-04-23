@@ -29,3 +29,4 @@ Dieses Beispiel zeigt, wie Sie:
 1. Äußeren Rand des Bereichs festlegen.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Range-set-border.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

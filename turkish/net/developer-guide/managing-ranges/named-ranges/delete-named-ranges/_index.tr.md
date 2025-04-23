@@ -41,3 +41,4 @@ Bazı Excel dosyaları, bazı tanımlı isimlerin yinelenmesi nedeniyle bozulur.
 
 
 
+{{< app/cells/assistant language="csharp" >}}

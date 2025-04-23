@@ -25,7 +25,7 @@ Aspose.Cells позволяет разработчикам добавлять г
 
 Aspose.Cells создает класс [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), который представляет файл Microsoft Excel. Класс [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) содержит [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection), которая позволяет получить доступ к каждому листу в файле Excel. Лист представлен классом [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Класс [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) предоставляет различные методы для добавления различных гиперссылок в файлы Excel.
 ## **Добавление ссылки на URL**
-Класс [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) содержит коллекцию [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection). Каждый элемент коллекции [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) представляет [Hyperlink](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink). Чтобы добавить гиперссылки на URL, вызовите метод [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\)) коллекции [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Hyperlinks). Метод [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\)) принимает следующие параметры:
+Класс [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) содержит коллекцию [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection). Каждый элемент в коллекции [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) представляет собой [Hyperlink](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink). Добавляйте гипертексты к URL, вызывая метод коллекции [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Hyperlinks) [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-). Этот метод принимает следующие параметры:
 
 - Имя ячейки, в которую будет добавлена гиперссылка.
 - Количество строк, количество строк в этом диапазоне гиперссылок.
@@ -44,7 +44,7 @@ Aspose.Cells создает класс [Workbook](https://reference.aspose.com/
 
 
 ## **Добавление ссылки на ячейку в том же файле**
-Возможно добавить гиперссылки на ячейки в том же файле Excel, вызвав метод [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\)) коллекции [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection). Метод [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\)) работает как для внутренних, так и для внешних гиперссылок. Одна из версий перегруженного метода принимает следующие параметры:
+Можно добавлять гипертексты в ячейки внутри того же файла Excel, вызывая метод [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-). Он работает как для внутренних, так и для внешних гипертекстов. Одна из версий перегруженного метода принимает следующие параметры:
 
 - Имя ячейки, в которую будет добавлена гиперссылка.
 - Количество строк, количество строк в этом диапазоне гиперссылок.
@@ -58,7 +58,7 @@ Aspose.Cells создает класс [Workbook](https://reference.aspose.com/
 
 
 ## **Добавление ссылки на внешний файл**
-Возможно добавить гиперссылки на внешние файлы Excel, вызвав метод [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) коллекции [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) . Метод [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\)) принимает следующие параметры:
+Возможно добавлять гиперссылки на внешние файлы Excel, вызывая метод [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) коллекции [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection). Метод [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) принимает следующие параметры:
 
 - Имя ячейки, в которую будет добавлена гиперссылка.
 - Количество строк, количество строк в этом диапазоне гиперссылок.
@@ -76,3 +76,4 @@ Aspose.Cells создает класс [Workbook](https://reference.aspose.com/
 - [Получение гиперссылок в диапазоне](/cells/ru/java/get-hyperlinks-in-range/)
 
 
+{{< app/cells/assistant language="java" >}}

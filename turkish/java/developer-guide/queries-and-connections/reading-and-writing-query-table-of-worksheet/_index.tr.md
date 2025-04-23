@@ -7,7 +7,7 @@ url: /tr/java/reading-and-writing-query-table-of-worksheet/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells, [Worksheet.getQueryTables()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#QueryTables) koleksiyonunu döndürür ve belirli bir [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) almak için [QueryTableCollection.get()](https://reference.aspose.com/cells/java/com.aspose.cells/querytablecollection#Item%20\(int\)) yöntemini kullanabilirsiniz. [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) sınıfının iki özelliği bulunmaktadır.
+Aspose.Cells, [Worksheet.getQueryTables()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#QueryTables) koleksiyonunu sağlar, bu koleksiyon [QueryTableCollection](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTableCollection) döndürür. Belirli bir [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) almak için, [QueryTableCollection.get()](https://reference.aspose.com/cells/java/com.aspose.cells/querytablecollection#Item%20-int-) özelliğini kullanın ve QueryTable'ın dizinini geçirin. [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) sınıfı, QueryTable'ı ayarlamak için aşağıdaki iki özelliğe sahiptir.
 
 - [QueryTable.getAdjustColumnWidth()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#AdjustColumnWidth)
 - [QueryTable.getPreserveFormatting()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting)
@@ -42,3 +42,4 @@ Preserve Formatting: false
 Aspose.Cells, bir sorgu tablosunun hücrelerin adresini yani sonuç aralığını okuma seçeneği sağlar. Aşağıdaki kod, bir sorgu tablosunun sonuç aralığının adresini okuyarak bu özelliği gösterir. Örnek dosyayı buradan indirebilirsiniz: [buradan](QueryTXT.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReadingAndWritingQueryTable-RetrieveQueryTableResultRange.java" >}}
+{{< app/cells/assistant language="java" >}}

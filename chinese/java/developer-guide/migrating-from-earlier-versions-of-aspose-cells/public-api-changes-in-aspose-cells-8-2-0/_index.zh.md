@@ -31,3 +31,4 @@ Worksheet类添加了autoFitRows和autoFitColumns的新重载，允许开发人�
 请查看[自动调整行和列](http://aspose.com/docs/display/cellsjava/AutoFit+Rows+and+Columns)的详细文章。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -19,3 +19,4 @@ url: /ru/net/creating-treemap-chart/
 Приведенный ниже образец кода загружает [образец файла Excel](treemap.xlsx) и генерирует [выходной файл Excel](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-treemap-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -11,8 +11,8 @@ Aspose.Cellsは、[**TickLabels.DirectionType**](https://reference.aspose.com/ce
 
 - [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
 - [**VERTICAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)
-- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)
-- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_270)
+- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90)
+- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-270)
 - [**STACKED**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#STACKED)
 
 次の画像は、ソースファイルと出力ファイルを比較したものです。
@@ -25,7 +25,7 @@ Aspose.Cellsは、[**TickLabels.DirectionType**](https://reference.aspose.com/ce
 
 ![todo:image_alt_text](change-tick-label-direction_2.jpg)
 
-次のコードスニペットは、目盛りラベルの方向を[**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)から[**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)に変更します。
+次のコードスニペットは、目盛りラベルの方向を[**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90)から[**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)に変更します。
 
 ### **サンプルコード**
 
@@ -36,3 +36,4 @@ Aspose.Cellsは、[**TickLabels.DirectionType**](https://reference.aspose.com/ce
 [ソースファイル](SampleChangeTickLabelDirection.xlsx)
 
 [出力ファイル](outputChangeChartDataLableDirection.xlsx)
+{{< app/cells/assistant language="java" >}}

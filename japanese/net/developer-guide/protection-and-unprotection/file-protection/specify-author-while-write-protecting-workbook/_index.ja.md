@@ -18,3 +18,4 @@ Aspose.Cells APIを使用して、ブックを書き込み保護する際に著�
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Worksheets-Security-SpecifyAuthorWhileWriteProtectingWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

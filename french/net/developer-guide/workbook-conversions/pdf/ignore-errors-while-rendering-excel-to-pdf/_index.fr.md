@@ -18,3 +18,4 @@ Le code suivant charge le fichier Excel d'exemple mais le fichier Excel d'exempl
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-IgnoreErrorsWhileRenderingExcelToPdf.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

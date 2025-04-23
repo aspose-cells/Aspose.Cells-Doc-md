@@ -34,3 +34,4 @@ Aspose.Cells API ile çalışma kitabı yapısını korumak kolaydır.
 {{% alert color="primary" %}}
 Not: Doğru bir şifre gerekli.
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

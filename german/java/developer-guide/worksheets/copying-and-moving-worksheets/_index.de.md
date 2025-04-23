@@ -27,7 +27,7 @@ Im Folgenden sind die Schritte aufgeführt, die für das Kopieren und Verschiebe
 
 ## **Arbeitsblätter innerhalb einer Arbeitsmappe kopieren**
 
-Aspose.Cells stellt eine überladene Methode, [**WorksheetCollection.addCopy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy(int)), bereit, die verwendet wird, um ein Arbeitsblatt zur Sammlung hinzuzufügen und Daten von einem vorhandenen Arbeitsblatt zu kopieren. Eine Version der Methode nimmt den Index des Quellarbeitsblatts als Parameter an. Die andere Version nimmt den Namen des Quellarbeitsblatts an.
+Aspose.Cells stellt eine überladene Methode, [**WorksheetCollection.addCopy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy-int-), bereit, die verwendet wird, um ein Arbeitsblatt zur Sammlung hinzuzufügen und Daten von einem vorhandenen Arbeitsblatt zu kopieren. Eine Version der Methode nimmt den Index des Quellarbeitsblatts als Parameter an. Die andere Version nimmt den Namen des Quellarbeitsblatts an.
 
 Das folgende Beispiel zeigt, wie ein vorhandenes Arbeitsblatt innerhalb einer Arbeitsmappe kopiert wird.
 
@@ -35,7 +35,7 @@ Das folgende Beispiel zeigt, wie ein vorhandenes Arbeitsblatt innerhalb einer Ar
 
 ## **Arbeitsblätter zwischen Arbeitsmappen kopieren**
 
-Aspose.Cells stellt eine Methode, [**Worksheet.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)), bereit, um Daten und Formatierungen von einem Quellarbeitsblatt auf ein anderes Arbeitsblatt innerhalb oder zwischen den Arbeitsmappen zu kopieren. Die Methode nimmt das Quellarbeitsblattobjekt als Parameter an.
+Aspose.Cells stellt eine Methode, [**Worksheet.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy-com.aspose.cells.Worksheet-), bereit, um Daten und Formatierungen von einem Quellarbeitsblatt auf ein anderes Arbeitsblatt innerhalb oder zwischen den Arbeitsmappen zu kopieren. Die Methode nimmt das Quellarbeitsblattobjekt als Parameter an.
 
 Das folgende Beispiel zeigt, wie ein Arbeitsblatt von einer Arbeitsmappe in eine andere kopiert wird.
 
@@ -47,8 +47,9 @@ Das folgende Beispiel zeigt, wie ein Arbeitsblatt von einer Arbeitsmappe in eine
 
 ## **Arbeitsblätter innerhalb einer Arbeitsmappe verschieben**
 
-Aspose.Cells stellt eine Methode, [**Worksheet.moveTo()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo(int)), bereit, um ein Arbeitsblatt an einen anderen Ort im selben Tabellenblatt zu verschieben.
+Aspose.Cells stellt eine Methode, [**Worksheet.moveTo()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo-int-), bereit, um ein Arbeitsblatt an einen anderen Ort im selben Tabellenblatt zu verschieben.
 
 Das folgende Beispiel zeigt, wie ein Arbeitsblatt an einen anderen Ort innerhalb der Arbeitsmappe verschoben wird.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-MoveWorksheet-MoveWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

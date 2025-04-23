@@ -18,3 +18,4 @@ url: /zh/net/send-shape-front-or-back-inside-the-worksheet/
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-SendShapeFrontOrBackInWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -15,11 +15,11 @@ aliases:
 ## le processus général du fichier 
 Après avoir importé un fichier de feuille de calcul,
 
-GridJs créera un fichier cache avec l'UID spécifié dans le dossier **`Config.getFileCacheDirectory()`** ,
+GridJs créera un fichier cache avec l'uid spécifié dans le dossier **`Config.getFileCacheDirectory()`**,
 
-avec le format de [Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/java/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat") ,
+avec le format de [Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/java/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat"),
 
-GridJs sauvegarde également toutes les formes/images dans un fichier d'archive zip dans le dossier **`Config.getPictureCacheDirectory()`** pour afficher ultérieurement les formes/images dans l'interface utilisateur client.
+GridJs sauvegardera également toutes les formes/images dans un fichier archive zip dans le dossier **`Config.getPictureCacheDirectory()`** pour une affichage ultérieur des formes/images dans l'interface utilisateur du client.
 
 et après chaque opération de mise à jour dans l'interface utilisateur du client,
 
@@ -99,7 +99,7 @@ public class LocalFileCache extends GridCacheForStream {
 ```
 B. Si nous ne configurons pas GridJsWorkbook.CacheImp,
 
-GridJs créera et sauvegardera également le fichier dans le dossier **`Config.getFileCacheDirectory()`**, qui est le répertoire de cache par défaut que nous pouvons définir.
+GridJs créera et enregistrera le fichier dans le dossier **`Config.getFileCacheDirectory()`** par défaut, qui est le répertoire cache que nous pouvons définir.
 
 ### comment obtenir le fichier de résultat mis à jour
 #### 1. un uid spécifié pour le fichier 
@@ -183,7 +183,7 @@ nous devons effectuer une opération de fusion avant l'action de sauvegarde pour
   //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
   wb.saveToCacheWithFileName(uid,filename,password);
 ```         
-#### 3. obtenir l'URL du fichier à partir du cache
+#### 3. obtenir l'URL du fichier depuis le cache
 par exemple : dans l'action de téléchargement, vous pouvez simplement le récupérer dans le répertoire de cache par uid.
 ```JAVA
 //in controller  

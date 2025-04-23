@@ -42,3 +42,4 @@ keywords: Заморозить левые столбцы, заморозить �
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Column.cs" >}}
 
 Прикреплен файл [образец исходного файла Excel](Freeze.xlsx).
+{{< app/cells/assistant language="csharp" >}}

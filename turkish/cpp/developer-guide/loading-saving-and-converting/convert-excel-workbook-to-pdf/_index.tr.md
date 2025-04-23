@@ -14,8 +14,6 @@ Aspose.Cells, Excel dosyalarını PDF'ye dönüştürmeyi destekler ve dönüş�
 
 Aspose.Cells doğrudan API ve Sürüm Numarası hakkında bilgiyi çıktı belgelerine yazar. Örneğin, Belgeyi PDF'e dönüştürdüğünde, Aspose.Cells for C++ **Uygulama** alanını 'Aspose.Cells' değeriyle doldurur ve **PDF Üreticisi** alanını 'Aspose.Cells v18.5.0' gibi bir değerle doldurur.
 
-Lütfen dikkat edin ki, Aspose.Cells for C++'in bu bilgileri çıkış Belgelerinden değiştirmesini veya kaldırmasını talimat veremezsiniz.
-
 {{% /alert %}} 
 ### **Doğrudan Dönüşüm**
 Aspose.Cells, diğer yazılım bağımsız olarak elektronik tablolardan PDF'ye dönüşümü destekler. Basitçe, Excel dosyasını [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) sınıfının [Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) yöntemini kullanarak PDF'ye kaydedin. [Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) yöntemi, yerel Excel dosyalarını PDF formatına dönüştüren [SaveFormat_Pdf](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/) numaralandırma üyesini sağlar.

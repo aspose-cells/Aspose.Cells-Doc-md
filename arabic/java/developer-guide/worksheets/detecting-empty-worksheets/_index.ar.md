@@ -25,3 +25,4 @@ url: /ar/java/detecting-empty-worksheets/
 من الممكن أن تكون ورقة العمل المعطاة لا تحتوي على أي خلايا معبأة، ومع ذلك، يمكن أن تحتوي على أشكال وكائنات مثل عناصر التحكم، الرسوم البيانية، الصور وما إلى ذلك. إذا كنا بحاجة للتحقق مما إذا كانت ورقة العمل تحتوي على أي شكل، يمكننا فعل ذلك عن طريق فحص [ShapeCollection.Count](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#Count) property. أي قيمة إيجابية تشير إلى وجود شكل(أشكال) في ورقة العمل.
 ## **نموذج برمجة**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CheckForShapes-1.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -86,3 +86,4 @@ StarOffice Calc مماثل لـ Microsoft Excel ويدعم الصيغ والرس
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFODSFiles-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

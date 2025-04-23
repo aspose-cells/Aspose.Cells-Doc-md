@@ -44,3 +44,4 @@ Bellek ayarları, Workbook nesnesi tarafından otomatik olarak oluşturulan vars
 Lütfen [Büyük Veri Kümeleri ile Çalışırken Belleği Optimizasyonu](/cells/tr/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/) hakkında detaylı makaleyi kontrol edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

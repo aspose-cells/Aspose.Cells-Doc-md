@@ -61,3 +61,4 @@ Kodu çalıştırdığınızda aşağıdaki çıktı oluşturulur.
 
 ## **Gelişmiş Konular**
 - [Excel Dosyasından Tema Verisi Çıkarın](/cells/tr/java/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="java" >}}

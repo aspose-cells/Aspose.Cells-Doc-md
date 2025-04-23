@@ -179,3 +179,4 @@ OOXML规范内容非常丰富。 开放和标准并不意味着简单。 要正�
 在 Office Open XML 文档中实施甚至是一个简单的查找和替换操作是困难的。
 
 **我们的建议：**记住开放和标准不代表简单，使用 Aspose.Cells。
+{{< app/cells/assistant language="java" >}}

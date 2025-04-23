@@ -16,3 +16,4 @@ Il seguente codice di esempio carica il [file Excel di origine](5115471.xlsx) ch
 Se si apre il [file Excel di output](5115467.xlsx) e si fa clic sul pulsante Sviluppatore > Origine, si vedrà che le celle sono collegate agli elementi della mappa XML e saranno anche evidenziate da Microsoft Excel come mostrato in questa immagine.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LinkCellsToXmlMapElements-LinkCellsToXmlMapElements.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

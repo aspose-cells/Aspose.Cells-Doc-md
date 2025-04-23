@@ -27,3 +27,4 @@ Aspose.Cells を使用すると、個々のワークシートタブの色を変�
 以下のサンプルコードは、Aspose.Cellsでタブの色を設定する方法を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetWorksheetTabColor-SetWorksheetTabColor.java" >}}
+{{< app/cells/assistant language="java" >}}

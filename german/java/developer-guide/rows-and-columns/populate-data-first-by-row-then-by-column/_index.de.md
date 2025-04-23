@@ -18,3 +18,4 @@ Das Einsetzen von Daten in die Folge A1, B1, A2, B2 ist schneller als A1, A2, B1
 ## Java-Code zum Zuerst-Daten-nach-Zeile-dann-nach-Spalte einfügen
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PopulateDatabyRowthenColumn-PopulateDatabyRowthenColumn.java" >}}
+{{< app/cells/assistant language="java" >}}

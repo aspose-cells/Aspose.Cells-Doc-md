@@ -22,3 +22,4 @@ y obtenga filas y columnas bloqueadas con el método [**Worksheet.GetFreezedPane
 3. Obtiene las filas y columnas bloqueadas
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Is-Worksheet-Frozen.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

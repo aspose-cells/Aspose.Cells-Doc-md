@@ -158,3 +158,4 @@ workbook.Save(output);
 A partire dal rilascio di Aspose.Cells for .NET 8.4.2, il campo di enumerazione PasteType.All si comporta in modo diverso rispetto alla funzionalità "Tutto" di Excel per incollare un intervallo di celle. Ora, il PasteType.All copia anche le larghezze delle colonne nell'intervallo di destinazione contrariamente alla funzionalità "Tutto" di Excel. Per emulare il comportamento "Tutto" di Excel, si prega di utilizzare il PasteType.Default.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -75,3 +75,4 @@ fileOut.close();
 Für weitere Details besuchen Sie [Kopieren und Verschieben von Tabellenblättern](/cells/de/java/copying-and-moving-worksheets).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -19,3 +19,4 @@ Resultatet av det här testet var mycket bra. Om du har till exempel 100 förfr�
 Nu har vi löst problemet som gjorde att våra kunder behövde för mycket tid. Användbarheten för våra produkter är högre. 
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

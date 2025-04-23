@@ -4,8 +4,8 @@ linktitle: 列を固定する
 type: docs
 weight: 190
 url: /ja/python-net/how-to-freeze-columns-of-excel-worksheet
-description: この記事では、Aspose.Cells for Python via .NET APIを使用してExcelワークシートの左側の列をプログラムで固定する方法について学ぶことができます。
-keywords: Python Excelライブラリ、Python左側の列を固定、Python最初の列を固定、Python列をロックする。
+description: この記事では、Aspose.Cells for Python via .NETのAPIを使用して、プログラムでExcelワークシートの左側の列を固定する方法について学びます。
+keywords: Python Excelライブラリ、Python左側の列固定、Python最初の列固定、Pythonで列をロックする方法。
 ---
 
 ## **紹介**
@@ -32,8 +32,8 @@ keywords: Python Excelライブラリ、Python左側の列を固定、Python最�
 
 
 
-## **Aspose.Cellsを使用してPython Excelライブラリで列を固定する方法**
-Aspose.Cells for Python via .NETを使用して最初の列を簡単に固定できます。選択した列で[**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int)　メソッドを使用して列を固定してください。
+## **Aspose.Cells for Python Excelライブラリを使用した列の固定方法**
+Aspose.Cells for Python via .NETを使用して最初の列を簡単に固定できます。指定した列を固定するには、[**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int)メソッドを使用してください。
 1. ファイルを開くためにワークブックを作成します。または空のファイルを作成します。
 2. Worksheet.FreezePanes() メソッドを使用して最初の列を凍結します。
 3. ファイルを保存します。

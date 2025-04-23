@@ -63,3 +63,4 @@ El siguiente ejemplo añade datos de muestra a una hoja de cálculo, agrega un [
 - [Establecer el Comentario de la Tabla o Objeto de Lista dentro de la Hoja de Cálculo](/cells/es/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
 - [Tablas y Rangos](/cells/es/net/tables-and-ranges/)
 
+{{< app/cells/assistant language="csharp" >}}

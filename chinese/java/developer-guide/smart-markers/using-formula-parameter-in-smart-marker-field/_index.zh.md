@@ -11,3 +11,4 @@ url: /zh/java/using-formula-parameter-in-smart-marker-field/
 下面的示例代码将在名为Test的智能标记变量中嵌入公式，其数据源名称也为Test，因此带有公式参数的完整字段看起来像**&=$Test(formula)**，执行代码后，[最终输出的Excel文件](47153156.xlsx)中将在A1到A5单元格中包含公式。
 ## **示例代码**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-SmartMarkers-UsingFormulaParameterInSmartMarkerField.java" >}}
+{{< app/cells/assistant language="java" >}}

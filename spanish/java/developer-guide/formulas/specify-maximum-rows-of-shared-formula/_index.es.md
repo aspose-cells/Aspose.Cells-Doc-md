@@ -18,3 +18,4 @@ El siguiente código de muestra explica el uso de la propiedad [**Workbook.Setti
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Formulas-SpecifyMaximumRowsOfSharedFormula.java" >}}
+{{< app/cells/assistant language="java" >}}

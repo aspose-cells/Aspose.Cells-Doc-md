@@ -22,3 +22,4 @@ Aspose.Cells bietet auch Methoden [**PivotTable.showInCompactForm()**](https://r
 Der folgende Beispielcode zeigt zuerst die Pivot-Tabelle im kompakten Formular, dann zeigt sie die Pivot-Tabelle im Gliederungsformular und zuletzt zeigt sie die Pivot-Tabelle im Tabellenformular.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangingLayoutofPivotTable-ChangingLayoutofPivotTable.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -13,3 +13,4 @@ Früher waren die Aspose.Cells-APIs nicht in der Lage, die Verlaufsfüllung der 
 Der folgende Beispielcode wandelt die Quell-Excel-Datei in das Ausgabe-HTML-Format um. Die Quell-Excel-Datei enthält ein WordArt-Objekt mit Verlaufsfüllung, wie im obigen Screenshot gezeigt.
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RenderGradientFillHTML-RenderGradientFillHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

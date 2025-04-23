@@ -47,3 +47,4 @@ API Aspose.Cells предоставляют настройки памяти дл
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="csharp" >}}

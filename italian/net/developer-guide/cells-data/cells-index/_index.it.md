@@ -36,3 +36,4 @@ Questo esempio mostra come:
 1. Ottieni l'indice di riga per nome della riga.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-get-index.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

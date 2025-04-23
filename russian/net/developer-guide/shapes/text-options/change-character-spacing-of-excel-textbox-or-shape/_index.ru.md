@@ -14,3 +14,4 @@ url: /ru/net/change-character-spacing-of-excel-textbox-or-shape/
 Приведенный ниже образец кода изменяет интервал между символами текстового поля в файле Excel на 4 и затем сохраняет его на диске.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeTextBoxOrShapeCharacterSpacing-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

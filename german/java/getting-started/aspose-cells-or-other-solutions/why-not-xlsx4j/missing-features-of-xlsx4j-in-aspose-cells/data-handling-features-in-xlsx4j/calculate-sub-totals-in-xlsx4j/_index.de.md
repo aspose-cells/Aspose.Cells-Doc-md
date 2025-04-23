@@ -53,3 +53,4 @@ workbook.save(dataDir + "AsposeTotal.xls");
 Für weitere Details, besuchen Sie [Erstellen von Teilergebnissen](/cells/de/java/creating-subtotals).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

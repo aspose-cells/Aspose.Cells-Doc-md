@@ -16,3 +16,4 @@ url: /ar/java/remove-white-spaces-from-the-data-before-rendering-to-image/
 عند استخدام ميزة التحويل إلى صورة، يكون للصورة الناتجة مساحة بيضاء فارغة، أي حاشية، حولها افتراضياً. يمكنك إزالة ذلك. قم بتحديد هوامش إعدادات صفحة الأعلى واليسار والسفل واليمين لصفحة الورق المصدر إلى 0 وحدد [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) بناءً على ذلك.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-RemoveWhitespaceAroundData-1.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -56,3 +56,4 @@ Herhangi bir kaynak çalışma kitabını kullanabilirsiniz. Bu resimler sadece 
 ## **Gelişmiş Konular**
 - [Birden Fazla Çalışma Sayfasını Tek Bir Çalışma Sayfasına Birleştirme](/cells/tr/net/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Dosyaları Birleştirme](/cells/tr/net/merge-files/)
+{{< app/cells/assistant language="csharp" >}}

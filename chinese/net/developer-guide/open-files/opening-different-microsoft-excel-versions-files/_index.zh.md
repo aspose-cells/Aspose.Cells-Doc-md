@@ -67,3 +67,4 @@ Aspose.Cells 可以打开一系列不同版本的 Microsoft Excel 文件，例�
 Aspose.Cells还支持打开受密码保护的Microsoft Excel 2007、2010、2013、2016、2019、Office 365文件。
 
 
+{{< app/cells/assistant language="csharp" >}}

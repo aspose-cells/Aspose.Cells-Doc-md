@@ -403,3 +403,4 @@ Wenn die Anforderung darin besteht, das Anzeigeformat von Zahlen & Datum für ei
 Bitte lesen Sie den ausführlichen Artikel zu [Einstellen von Anzeigeformaten von Zahlen und [Daten](/cells/de/java/data-formatting/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -192,3 +192,4 @@ Vi använder en av de mest liberala öppna källkodstillstånden för minsta ans
 Produkten fungerar utan Aspose-licens, [med begränsningar](/cells/sv/java/licensing/). För att ta bort begränsningar kan du skaffa en [gratis tillfällig licens](https://purchase.aspose.com/temporary-license) eller [köpa full licens](https://purchase.aspose.com/buy).
 
 Som standard kommer editorn att försöka ladda filen **Aspose.Total.Java.lic** från katalogen **src/main/resources/com/aspose/spreadsheeteditor**. Kopiera bara licensfilen till denna katalog. Det standardbeteendet kan ändras genom att redigera klassen **AsposeLicense**.
+{{< app/cells/assistant language="java" >}}

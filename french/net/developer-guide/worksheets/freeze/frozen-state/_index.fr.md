@@ -22,3 +22,4 @@ et obtenir les lignes et colonnes verrouillées avec la méthode [**Worksheet.Ge
 3. Obtenez les lignes et colonnes verrouillées
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Is-Worksheet-Frozen.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

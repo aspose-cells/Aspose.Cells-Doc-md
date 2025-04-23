@@ -18,3 +18,4 @@ La seguente schermata mostra l'HTML di output generato con questo codice di esem
 ![todo:image_alt_text](export-excel-to-html-with-gridlines_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExportExceltoHTML-ExportExceltoHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -21,3 +21,4 @@ Bu örnek aşağıdakileri göstermektedir:
 1. Hücreleri [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/range/) alın.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Cells-get-range.java" >}}
+{{< app/cells/assistant language="java" >}}

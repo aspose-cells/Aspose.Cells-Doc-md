@@ -22,3 +22,4 @@ Il file di esempio e il file di output possono essere scaricati dai seguenti lin
 ## Codice Sorgente
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-ShowReportFilterPagesOption-1.java" >}}
+{{< app/cells/assistant language="java" >}}

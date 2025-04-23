@@ -129,3 +129,4 @@ Bir iş çözümünde Microsoft Office teknolojisini kullanmayı düşünüyorsa
 Aspose.Cells, dünya çapında müşteri tabanına sahip, olgun ve istikrarlı bir üründür ve normal yük altında iyi performans gösterecek kadar ölçeklenebilir.
 
 VSTO'nun performansı henüz rafine değil. .NET JIT derleme işlemleri ile ilgili olmayabilecek performans sorunları olduğu oldukça olasıdır. Ancak yine de, VSTO uygulamalarının yük arttıkça kendilerini ölçeklendireceğine dair belirli şüpheler bulunmaktadır. Yeni VSTO modeli, belge işleme için Excel'in web sunucusunda bulunmasını gerektirmiyor, ancak VSTO'nun gerçek bir etki yaratmak için uzun bir yolu olduğunu düşünüyorum.
+{{< app/cells/assistant language="csharp" >}}

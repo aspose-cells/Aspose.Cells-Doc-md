@@ -131,7 +131,7 @@ alias: [/java/customizing-charts/]
 
 1. أضف بعض البيانات إلى خلايا ورقة العمل باستخدام الطريقة [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) لكائن [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell).
    سيتم استخدام هذا كمصدر بيانات للرسم البياني.
-1. إضافة رسم بياني إلى ورقة العمل عن طريق استدعاء *add* الكائن المجموعة [*add*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int)) الطريقة، مغلفة في [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) الكائن.
+1. أضف رسمًا بيانيًا إلى ورقة العمل عن طريق استدعاء مجموعة [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) طريقة [*add*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add-int-int-int-int-int-)، المضمّنة في كائن [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet).
 1. حدد نوع الرسم البياني بتعداد [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType).
    على سبيل المثال، يستخدم المثال قيمة [**ChartType.PYRAMID**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#PYRAMID) كنوع رسم بياني.
 1. اصطحب الكائن [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) المكون حديثًا من مجموعة [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) عن طريق تمرير فهرسه.
@@ -166,7 +166,7 @@ alias: [/java/customizing-charts/]
 
 #### **رسم بياني خطي بمؤشرات البيانات**
 
-لإنشاء رسم بياني خطي بعلامة بيانات، يجب ضبط ال [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) على أن يكون [**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE_WITH_DATA_MARKERS) ويجب ضبط بعض الخصائص الإضافية مثل منطقة الخلفية، علامات السلسلة، القيم وXValues بحسب ما هو مطلوب. عند تنفيذ الكود التالي، يتم إضافة رسم بياني خطي بعلامة بيانات إلى ورقة العمل.
+لإنشاء رسم بياني خطي بعلامة بيانات، يجب ضبط ال [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) على أن يكون [**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE-WITH-DATA-MARKERS) ويجب ضبط بعض الخصائص الإضافية مثل منطقة الخلفية، علامات السلسلة، القيم وXValues بحسب ما هو مطلوب. عند تنفيذ الكود التالي، يتم إضافة رسم بياني خطي بعلامة بيانات إلى ورقة العمل.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-CreateLineWithDataMarkerChart-1.java" >}}
 
@@ -202,3 +202,4 @@ alias: [/java/customizing-charts/]
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="java" >}}

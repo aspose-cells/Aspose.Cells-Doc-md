@@ -40,15 +40,16 @@ Ayrıca, hücrede bulunan verinin türü, [Cell](https://reference.aspose.com/ce
 
 |**Hücre Değer Türleri**|**Açıklama**|
 | :- | :- |
-|[IS_BOOL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_BOOL)|Hücre değerinin boolean olduğunu belirtir.
-|[IS_DATE_TIME](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_DATE_TIME)|Hücre değerinin tarih/saat olduğunu belirtir.
-|[IS_ERROR](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_ERROR)|Hücrenin bir hata değeri içerdiğini temsil eder
-|[IS_NULL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_NULL)|Boş bir hücreyi temsil eder.
-|[IS_NUMERIC](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_NUMERIC)|Hücre değerinin sayısal olduğunu belirtir.
-|[IS_STRING](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_STRING)|Hücre değerinin bir dize olduğunu belirtir.
-|[IS_UNKNOWN](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_UNKNOWN)|Hücre değerinin bilinmeyen olduğunu belirtir.
+|[IS_BOOL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-BOOL)|Hücre değerinin Boolean olduğunu belirtir.|
+|[IS_DATE_TIME](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-DATE-TIME)|Hücre değerinin tarih/zaman olduğunu belirtir.|
+|[IS_ERROR](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-ERROR)|Hücrede bir hata değeri olduğunu temsil eder|
+|[IS_NULL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-NULL)|Boş hücreyi temsil eder.|
+|[IS_NUMERIC](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-NUMERIC)|Hücre değerinin sayısal olduğunu belirtir.|
+|[IS_STRING](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-STRING)|Hücre değerinin dize olduğunu belirtir.|
+|[IS_UNKNOWN](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS-UNKNOWN)|Hücre değerinin bilinmediğini belirtir.|
 Yukarıdaki önceden tanımlanmış hücre değeri türlerini, her hücrede bulunan verinin türüyle karşılaştırmak için de kullanabilirsiniz.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-RetrievingDataFromCells-RetrievingDataFromCells.java" >}}
+{{< app/cells/assistant language="java" >}}

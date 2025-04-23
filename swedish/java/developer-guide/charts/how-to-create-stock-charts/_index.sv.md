@@ -24,3 +24,4 @@ Lagerdiagram är ett specifikt diagram som används för att spåra förändring
 Nedan visas en uppsättning data som visar daglig handelsinformation för en aktie. Vi kommer att använda denna data för att skapa var och en av de 4 lagerdiagram som finns i Aspose.Cells. 
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="java" >}}

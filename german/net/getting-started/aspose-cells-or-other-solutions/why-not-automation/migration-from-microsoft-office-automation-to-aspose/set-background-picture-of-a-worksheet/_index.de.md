@@ -134,3 +134,4 @@ workbook.Save(@"c:\BackgroundPicBook.xls");
 
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

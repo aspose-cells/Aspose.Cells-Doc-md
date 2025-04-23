@@ -13,7 +13,7 @@ url: /zh/java/insert-ranges-to-Excel/
 
 ## **使用 Aspose.Cells 插入范围**
 
-Aspose.Cells 提供 [Cells.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange(com.aspose.cells.CellArea,%20int)) 方法来插入范围。
+Aspose.Cells 提供 [Cells.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange-com.aspose.cells.CellArea-int-) 方法，用于插入范围。
 
 ## **插入范围并向右移动单元格**
 
@@ -27,3 +27,4 @@ Aspose.Cells 提供 [Cells.InsertRange](https://reference.aspose.com/cells/java/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Insert-Range-Down.java" >}}
 
+{{< app/cells/assistant language="java" >}}

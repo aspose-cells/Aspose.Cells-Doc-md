@@ -16,3 +16,4 @@ Aspose.Cells vous permet d'accéder à tous les hyperliens de la feuille de calc
 Le code d'exemple suivant accède à tous les hyperliens de la feuille de calcul et modifie leur propriété [**Hyperlink.Address**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/address) en mettant le site web Aspose.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-EditingHyperlinksOfWorksheet-EditingHyperlinksOfWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

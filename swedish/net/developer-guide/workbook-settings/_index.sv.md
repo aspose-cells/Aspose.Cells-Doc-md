@@ -6,3 +6,4 @@ weight: 185
 url: /sv/net/workbook-settings/
 description: Hantera inställningar för Microsoft Excel filer
 ---
+{{< app/cells/assistant language="csharp" >}}

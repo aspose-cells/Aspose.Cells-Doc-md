@@ -31,3 +31,4 @@ Aşağıdaki kod parçacığı, grafikler ve eksenlerin başlıklarını nasıl 
 
 ## **Gelişmiş Konular**
 - [ODS Dosyasından Grafik Alt Başlığını Okuma](/cells/tr/java/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="java" >}}

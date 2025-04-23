@@ -16,3 +16,4 @@ url: /ar/net/render-custom-date-format-pattern-g-and-ge-mm-dd/
 يقوم الكود النموذجي التالي بتحويل [ملف Excel المصدر] (5112361.xlsx) الذي يحتوي على قيم تاريخية بأنماط صيغ مخصصة مثل g و ge.mm.dd إلى [PDF الناتج] (5112360.pdf).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-RenderCustomDateFormat-RenderCustomDateFormatPatterngandgemmdd.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

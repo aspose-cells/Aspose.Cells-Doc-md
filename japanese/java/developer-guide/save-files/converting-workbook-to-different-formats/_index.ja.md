@@ -65,7 +65,7 @@ Aspose.Cells APIは、スプレッドシートをHTML形式にエクスポート
 
 {{% alert color="primary" %}}
 
-[**SaveFormat.HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML)を[**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))メソッドに渡すことで同じ結果を得ることができます。
+[**SaveFormat.HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML)を[**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-)メソッドに渡すことで同じ結果を得ることができます。
 
 {{% /alert %}}
 
@@ -110,7 +110,7 @@ Aspose.Cells for Javaは、APIとバージョン番号に関する情報を直�
 
 #### **直接変換**
 
-最も効率的な変換方法である、[**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))メソッドを使用してExcelファイルを直接PDFに保存し、[**SaveFormat.PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)インターフェースメンバーを提供します。これにより、データや書式を失うことなく、出力されるPDFが入力のExcelファイルに似た外観になります。
+最も効率的な変換方法である、[**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-)メソッドを使用してExcelファイルを直接PDFに保存し、[**SaveFormat.PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)インターフェースメンバーを提供します。これにより、データや書式を失うことなく、出力されるPDFが入力のExcelファイルに似た外観になります。
 
 PDFに保存する際にセキュリティオプションを指定するには、[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) を使用してください。
 
@@ -134,7 +134,7 @@ Aspose.CellsとAspose.PDFを使用してスプレッドシートをPDFに変換�
 
 1. 空のコンストラクタを呼び出して[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)クラスのオブジェクトをインスタンス化します。
 1. Aspose.Cells APIを使用して、スプレッドシートで必要な作業を行います。
-1. [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))メソッドを呼び出して、スプレッドシートを保存します。
+1. [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-)メソッドを呼び出して、スプレッドシートを保存します。
    1. ファイル形式をXMLに設定します。
    1. FileFormatTypeインタフェースからAspose_Pdf（事前定義値）を選択します。これにより、保存メソッドがAspose.PDF for Javaと互換性のあるXML形式のスプレッドシートを生成します。
 1. XMLファイルが作成されたら、aspose.pdfパッケージのPdfクラスのオブジェクトを作成します。
@@ -189,3 +189,4 @@ Aspose.Cellsの変換およびその他の側面を改善するために、我�
 |ページ設定|拡大/縮小|はい|  |
 |行の高さ/列の幅|  |はい|  |
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -60,3 +60,4 @@ Aspose.Cells提供[**Range.Merge()**](https://reference.aspose.com/cells/net/asp
 Aspose.Cells提供了[**NameCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/namecollection/methods/removeat)方法来删除命名范围的名称。要清除范围的内容，使用[**Cells.ClearRange()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/clearrange/index)方法。以下示例显示了如何删除带有内容的命名范围。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-RemoveANamedRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

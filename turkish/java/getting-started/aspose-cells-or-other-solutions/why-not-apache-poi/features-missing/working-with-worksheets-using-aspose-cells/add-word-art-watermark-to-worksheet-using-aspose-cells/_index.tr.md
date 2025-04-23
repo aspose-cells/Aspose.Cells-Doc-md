@@ -53,3 +53,4 @@ workbook.save(dataDir + "AsposeWatermark_Out.xls");
 Daha fazla bilgi için [Çalışma Sayfasına Kelime Sanatı Filigranı Ekle](/cells/tr/java/çalışma-sayfasına-kelime-sanatı-filigranı-ekle) sayfasını ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

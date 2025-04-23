@@ -59,3 +59,4 @@ url: /ar/java/convert-csv-to-json/
 ]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -26,3 +26,4 @@ Yukarıdaki kodun [örnek excel dosyası](5472500.xlsm) tarafından kullanılara
 Is VBA Code Project Signed: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

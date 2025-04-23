@@ -42,3 +42,4 @@ Diese Zeichenfolgenzahlen wurden in der folgenden Bildschirmaufnahme mithilfe vo
 Der folgende Beispielcode veranschaulicht, wie man alle numerischen Zeichenfolgendaten in allen Arbeitsblättern in tatsächliche Zahlen umwandelt.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConvertTextNumericDatatoNumber-ConvertTextNumericDatatoNumber.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -22,7 +22,13 @@ Aspose.Cells API 提供了在图像格式中渲染电子表格以及将其转换
 
 {{% alert color="primary" %}}
 
-除了一个例外，Aspose.Cells APIs总是扫描操作系统的默认字体目录; 当设置了JVM参数**-DAspose.Cells.FontDirExc="YourFontDir"**时。在这种情况下，Aspose.Cells APIs将跳过扫描操作系统的默认字体目录，仅搜索上述JVM参数中指定的路径。
+ 一般来说，Aspose.Cells API 默认扫描 Windows、Linux、MacOS 操作系统的字体目录。从 [Aspose.Cells for Java 24.7](https://releases.aspose.com/cells/java/release-notes/2024/aspose-cells-for-java-24-7-release-notes/) 开始，API 还会默认扫描 Office 缓存的云字体目录。
+
+{{% /alert %}}
+
+{{% alert color="primary" %}}
+
+Aspose.Cells API 始终扫描操作系统的默认字体目录，唯一例外是在 JVM 参数中设置 **-DAspose.Cells.FontDirExc="YourFontDir"** 时。在这种情况下，API 将跳过扫描操作系统的默认字体目录，仅搜索指定的路径。
 
 {{% /alert %}}
 
@@ -30,13 +36,13 @@ Aspose.Cells API 提供了在图像格式中渲染电子表格以及将其转换
 
 Aspose.Cells APIs搜索操作系统的默认字体目录以获取所需的字体。如果系统字体目录中没有所需的字体，则API将通过自定义(用户定义)目录进行搜索。[**FontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs)类已公开了多种设置自定义字体目录的方法，如下所述。
 
-1. [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean))：如果只有一个要设置的文件夹，则此方法很有用。
-1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean))：当字体存在于多个文件夹中，而用户希望将所有文件夹分开设置而不是将所有字体合并到一个文件夹中时，此方法很有用。
-1. [**FontConfigs.setFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontSources(com.aspose.cells.FontSourceBase[]))：当用户希望从多个文件夹加载字体或从字节数组加载单个字体文件或字体数据时，此机制很有用。
+1. [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder-java.lang.String-boolean-)：如果只有一个要设置的文件夹，则此方法很有用。
+1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders-java.lang.String[]-boolean-)：当字体存在于多个文件夹中，而用户希望将所有文件夹分开设置而不是将所有字体合并到一个文件夹中时，此方法很有用。
+1. [**FontConfigs.setFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontSources-com.aspose.cells.FontSourceBase[]-)：当用户希望从多个文件夹加载字体或从字节数组加载单个字体文件或字体数据时，此机制很有用。
 
 {{% alert color="primary" %}}
 
-[**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean))和[**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean))方法都接受一个Boolean类型的第二个参数。将**true**作为第二个参数传递给Aspose.Cells API将搜索字体文件的子文件夹。
+[**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder-java.lang.String-boolean-)和[**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders-java.lang.String[]-boolean-)方法都接受一个Boolean类型的第二个参数。将**true**作为第二个参数传递给Aspose.Cells API将搜索字体文件的子文件夹。
 
 {{% /alert %}}
 
@@ -71,4 +77,5 @@ FontConfigs.setFontSubstitutes("Arial", new String[] { "Times New Roman", "Calib
 除上述方法外，Aspose.Cells APIs还提供了收集已设置的来源和替换信息的手段。
 
 1. [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources--)：此方法返回一个包含指定字体源列表的 [**FontSourceBase**](https://reference.aspose.com/cells/java/com.aspose.cells/FileFontSource) 类型的数组。如果未设置任何源，[**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources--) 方法将返回一个空数组。
-1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String))：此方法接受**String**类型的参数，允许指定已设置替代的字体名称。如果为指定的字体名称未设置替代，则 [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)) 方法将返回 null。
+1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes-java.lang.String-)：此方法接受**String**类型的参数，允许指定已设置替代的字体名称。如果为指定的字体名称未设置替代，则 [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes-java.lang.String-) 方法将返回 null。
+{{< app/cells/assistant language="java" >}}

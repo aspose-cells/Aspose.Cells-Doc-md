@@ -21,3 +21,4 @@ url: /zh/net/http-compression/
 - 在服务器上保存生成的文件，并向用户提供一个链接。
 
 如果您希望使用HTTP压缩，请在启用IIS压缩后，当您知道已启用IIS压缩时，请始终使用 *OpenInExcel* 选项而不是 *OpenInBrowser* 选项。
+{{< app/cells/assistant language="csharp" >}}

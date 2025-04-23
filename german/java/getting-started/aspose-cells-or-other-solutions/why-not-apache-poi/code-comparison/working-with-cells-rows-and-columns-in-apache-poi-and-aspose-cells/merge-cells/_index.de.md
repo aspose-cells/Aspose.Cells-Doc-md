@@ -77,3 +77,4 @@ sheet.addMergedRegion(new CellRangeAddress(
 Für weitere Details besuchen Sie [Zellen zusammenführen und aufteilen](/cells/de/java/zusammenführen-und-aufteilen-von-zellen).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

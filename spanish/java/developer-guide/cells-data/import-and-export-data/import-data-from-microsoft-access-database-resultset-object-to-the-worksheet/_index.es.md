@@ -28,8 +28,9 @@ La siguiente captura de pantalla muestra el archivo de base de datos cuando se a
 
 ![todo:image_alt_text](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_1.png)
 ## **Importar Datos del Objeto ResultSet de la Base de Datos de Microsoft Access a la Hoja de Cálculo.**
-El siguiente código de muestra ejecuta la consulta SQL desde la Base de Datos de Microsoft Access y crea un objeto ResultSet. Luego importa datos desde el objeto ResultSet a la hoja de cálculo utilizando el método [Worksheet.getCells().importResultSet()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importResultSet\(java.sql.ResultSet,%20int,%20int,%20boolean\)). La primera vez, utiliza índices de fila y columna y luego utiliza el nombre de la celda para importar datos a la hoja de cálculo. Finalmente, guarda el libro como un [Archivo de Excel de Salida](48496713.xlsx). La captura de pantalla muestra el efecto del código de muestra en el archivo de Excel de salida para su referencia.
+El siguiente código de ejemplo ejecuta una consulta SQL desde la base de datos Microsoft Access y crea un objeto ResultSet. Luego importa los datos del objeto ResultSet en la hoja de cálculo usando [Worksheet.getCells().importResultSet()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importResultSet-java.sql.ResultSet-int-int-boolean-). La primera vez, usa índices de fila y columna y luego usa el nombre de celda para importar datos en la hoja de cálculo. Finalmente, guarda el libro de trabajo como un [Archivo Excel de Salida](48496713.xlsx). La captura de pantalla muestra el efecto del código de ejemplo en el archivo de Excel de salida como referencia.
 
 ![todo:image_alt_text](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_2.png)
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ImportDataFromMicrosoftAccessDatabaseResultSetObjectToWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

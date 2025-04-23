@@ -41,3 +41,4 @@ keywords: Заморозить верхние строки, Заморозить
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Row.cs" >}}
 
 Приложен [образец исходного файла Excel](../Freeze.xlsx).
+{{< app/cells/assistant language="csharp" >}}

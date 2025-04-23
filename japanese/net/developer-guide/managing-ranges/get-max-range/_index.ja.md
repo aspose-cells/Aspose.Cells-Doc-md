@@ -39,3 +39,4 @@ Aspose.Cellsで、[**row**](https://reference.aspose.com/cells/net/aspose.cells/
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Get-Max-Display-Range.cs" >}}
 
 以下は[ソースエクセルファイル](Book1.xlsx)です。
+{{< app/cells/assistant language="csharp" >}}

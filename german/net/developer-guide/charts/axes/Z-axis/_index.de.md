@@ -15,3 +15,4 @@ Bitte beachten Sie den folgenden Beispielcode, der eine neue Excel-Datei erstell
 ![todo:image_alt_text](excel.png)
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ZAxis.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -7,7 +7,7 @@ url: /ar/java/track-document-conversion-progress/
 
 ## **سيناريوهات الاستخدام المحتملة**
 
-احياناً يستغرق تحويل ملفات Excel الكبيرة بعض الوقت، وخلال هذا الوقت، قد ترغب في عرض تقدم تحويل المستند بدلاً من شاشة التحميل فقط لتعزيز قابلية استخدام تطبيقك. تدعم Aspose.Cells تتبع عملية تحويل المستند من خلال تقديم واجهة [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback). توفر واجهة [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) الأساليب [**PageStartSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs)) و [**PageEndSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs)) التي يمكنك تنفيذها في الفئة المخصصة. يمكنك أيضاً التحكم في الصفحات المقتبسة كما هو موضح في الفئة المخصصة *TestPageSavingCallback*.
+احياناً يستغرق تحويل ملفات Excel الكبيرة بعض الوقت، وخلال هذا الوقت، قد ترغب في عرض تقدم تحويل المستند بدلاً من شاشة التحميل فقط لتعزيز قابلية استخدام تطبيقك. تدعم Aspose.Cells تتبع عملية تحويل المستند من خلال تقديم واجهة [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback). توفر واجهة [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) الأساليب [**PageStartSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving-com.aspose.cells.PageStartSavingArgs-) و [**PageEndSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving-com.aspose.cells.PageEndSavingArgs-) التي يمكنك تنفيذها في الفئة المخصصة. يمكنك أيضاً التحكم في الصفحات المقتبسة كما هو موضح في الفئة المخصصة *TestPageSavingCallback*.
 
 ## **تتبع تقدم تحويل الوثائق**
 
@@ -45,3 +45,4 @@ Start saving page index 8 of pages 11</br>
 End saving page index 8 of pages 11
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

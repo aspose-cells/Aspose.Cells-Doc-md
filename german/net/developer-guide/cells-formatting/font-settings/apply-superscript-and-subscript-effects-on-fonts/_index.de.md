@@ -26,3 +26,4 @@ Die folgenden Codebeispiele zeigen, wie man Über- und Indizierung auf Text anwe
 ### C#-Code, um den Indizierungseffekt auf Text anzuwenden
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplySuperscriptAndSubscript-SettingSubscriptEffect-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -17,3 +17,4 @@ url: /ar/net/render-worksheet-to-graphic-context/
 الشفرة العينية التالية توضح كيفية استخدام Aspose.Cells لتقديم ورقة العمل إلى السياق الرسومي. بمجرد تنفيذ الشفرة، ستقوم بطباعة الورقة بأكملها وتقوم بملء المساحة الفارغة المتبقية باللون الأزرق في السياق الرسومي وحفظ الصورة باسم ملف **OutputImage_out_.png**. يمكنك استخدام أي ملف Excel مصدر لتجربة هذا الشفرة. يُرجى أيضًا قراءة التعليقات داخل الشفرة لفهم أفضل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-RenderWorksheetToGraphicContext-RenderWorksheetToGraphicContext.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

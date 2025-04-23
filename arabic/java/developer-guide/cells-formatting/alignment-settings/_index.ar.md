@@ -81,7 +81,7 @@ url: /ar/java/cells-alignment-settings/
 
 ### **دمج الخلايا**
 
-مثل Microsoft Excel، تدعم Aspose.Cells دمج عدة خلايا في خلية واحدة. توفر Aspose.Cells طريقتين لهذه المهمة. الطريقة الأولى هي استدعاء الطريقة [**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)). تأخذ الطريقة المعلمات التالية لدمج الخلايا:
+مثل Microsoft Excel، تدعم Aspose.Cells دمج عدة خلايا في خلية واحدة. توفر Aspose.Cells طريقتين لهذه المهمة. الطريقة الأولى هي استدعاء الطريقة [**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge-int-int-int-int-). تأخذ الطريقة المعلمات التالية لدمج الخلايا:
 
 - الصف الأول: الصف الأول من حيث بدء الدمج.
 - العمود الأول: العمود الأول من حيث بدء الدمج.
@@ -108,3 +108,4 @@ url: /ar/java/cells-alignment-settings/
 ## **مواضيع متقدمة**
 - [تغيير توجيه الخلايا والاحتفاظ بالتنسيقات الحالية](/cells/ar/java/change-cells-alignment-and-keep-existing-formatting/)
 - [فواصل السطر وتفريغ النص](/cells/ar/java/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="java" >}}

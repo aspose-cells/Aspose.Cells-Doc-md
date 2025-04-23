@@ -14,3 +14,4 @@ Vous pouvez définir l'alignement horizontal de votre texte de paragraphe en uti
 Le code d'exemple suivant crée trois lignes et définit l'alignement horizontal de chacune d'entre elles.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateTextBoxWithDifferentHorizontalAlignment-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -17,3 +17,4 @@ Aspose.Cells, OpenDocument 1.1 ve 1.2 belgelerini yükleme olanağı sağlar. As
 **Aspose.Cells tarafından oluşturulan bir örnek ODS belgesi ve OpenOffice Writer'da açılmış hali** 
 
 ![todo:image_alt_text](opendocument-ods_1.png)
+{{< app/cells/assistant language="java" >}}

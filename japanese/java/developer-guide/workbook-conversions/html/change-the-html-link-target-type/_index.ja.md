@@ -27,3 +27,4 @@ Aspose.Cellsでは、HTMLリンクのターゲットタイプを変更するこ�
 [HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType) プロパティの使用方法を以下のコードで説明しています。このコードはリンクのターゲットタイプを **blank** に変更しています。デフォルトは **parent** です。このコードを実行するためには[ソースエクセルファイル](5472932.xlsx)を取得できますが、内部にHTMLハイパーリンクを含む任意のエクセルファイルを使用することができます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeHTMLLinkTargetType-ChangeHTMLLinkTargetType.java" >}}
+{{< app/cells/assistant language="java" >}}

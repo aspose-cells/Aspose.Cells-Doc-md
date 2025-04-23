@@ -22,3 +22,4 @@ Der folgende Beispielcode veranschaulicht, wie die erste Zeile nach unten versch
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-ShiftFirstRowDownWhenInsertingCellsDataTableRows.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

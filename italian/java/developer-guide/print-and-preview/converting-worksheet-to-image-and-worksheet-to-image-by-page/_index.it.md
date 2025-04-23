@@ -15,7 +15,7 @@ A volte potresti aver bisogno di presentare i fogli di lavoro come immagini, ad 
 
 ## **Utilizzare Aspose.Cells per convertire un foglio elettronico in un file immagine**
 
-Questo articolo mostra come utilizzare l'API Aspose.Cells for Java per convertire un foglio di lavoro in un'immagine. L'API fornisce diverse classi preziose, come [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender), e così via. La classe [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) rappresenta un foglio di lavoro per rendere le immagini per il foglio di lavoro ed ha un metodo sovraccaricato [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream)) che può convertire direttamente un foglio di lavoro in file immagine con qualsiasi attributo o opzione impostata.
+Questo articolo mostra come utilizzare l'API Aspose.Cells for Java per convertire un foglio di lavoro in un'immagine. L'API fornisce diverse classi preziose, come [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender), e così via. La classe [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) rappresenta un foglio di lavoro per rendere le immagini per il foglio di lavoro ed ha un metodo sovraccaricato [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage-int-java.io.OutputStream-) che può convertire direttamente un foglio di lavoro in file immagine con qualsiasi attributo o opzione impostata.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ConvertWorksheettoImageFile-1.java" >}}
 
@@ -55,3 +55,4 @@ Questo articolo mostra come convertire un foglio di lavoro in un file immagine e
 
 - [Conversione del foglio di lavoro in diversi formati di immagine](/cells/it/java/converting-worksheet-to-different-image-formats/)
 - [Esportare un foglio di lavoro o un grafico in un'immagine con larghezza e altezza desiderate](/cells/it/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+{{< app/cells/assistant language="java" >}}

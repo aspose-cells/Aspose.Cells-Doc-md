@@ -14,3 +14,4 @@ url: /ar/net/password-protect-the-vba-project-of-excel-workbook/
 الرمز العيني التالي يقوم بتحميل [ملف Excel عيني](43352067.xlsm) وصول إلى مشروعه VBA وحمايته بكلمة مرور. في النهاية يحفظه باسم [ملف إكسل الناتج](43352068.xlsm).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProjectPassword-ProtecttheVBAProjectofExcelWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

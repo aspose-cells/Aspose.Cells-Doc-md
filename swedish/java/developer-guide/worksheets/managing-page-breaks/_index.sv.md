@@ -51,6 +51,7 @@ För att ta bort en specifik sidbrytning i kalkylbladet, anropa samlingarnas [**
 
 {{% alert color="primary" %}}
 
-**Viktigt att veta**: När du anger anpassa till sida-egenskaperna (dvs [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) och [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide)) i inställningarna för siduppställning påverkas sidbrytningsinställningarna, så om du skriver ut kalkylbladet, beaktas inte sidbrytningsinställningarna även om de fortfarande finns i filen.
+**Viktigt att veta**: När du ställer in anpassningen till sidans passning (det vill säga [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) och [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide-) i sidans inställningar), påverkas sidbrytningen, så om du skriver ut kalkylbladet, tas inte sidbrytningsinställningarna i beaktande även om de fortfarande finns i filen.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

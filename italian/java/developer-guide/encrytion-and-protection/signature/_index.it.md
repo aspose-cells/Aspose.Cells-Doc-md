@@ -34,3 +34,4 @@ Nel caso in cui la password specificata non corrisponda a quella del certificato
 Il seguente frammento di codice dimostra l'uso dell'API Aspose.Cells for Java per convalidare la cartella di lavoro.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ValidatingSpreadsheets-ValidatingSpreadsheets.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -11,3 +11,4 @@ Anteriormente, Aspose.Cells no podía renderizar complementos de Office cuando s
 El siguiente código de muestra guarda el [archivo de Excel de muestra](60489783.xlsx) que contiene los complementos de Office. Consulte el [PDF de salida generado con la versión anterior, es decir, 17.11](60489781.pdf) y el [PDF de salida generado con la versión más reciente, es decir, 17.12 en adelante](60489782.pdf). El PDF de salida de la versión anterior está en blanco, pero el PDF de salida de la versión más reciente muestra el complemento de Office.
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Rendering-RenderOfficeAdd_InsWhileConvertingExcelToPdf.java" >}}
+{{< app/cells/assistant language="java" >}}

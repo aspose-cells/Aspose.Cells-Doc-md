@@ -7,7 +7,7 @@ url: /ru/java/adding-vba-module-and-code-using-aspose-cells/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells позволяет добавлять новый VBA-модуль и макросный код с использованием Aspose.Cells. Пожалуйста, используйте метод [**Workbook.getVbaProject().getModules().add(**)](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#add(com.aspose.cells.Worksheet)) для добавления нового VBA-модуля внутри книги.
+Aspose.Cells позволяет добавлять новый модуль VBA и макросы с помощью Aspose.Cells. Пожалуйста, используйте [**Workbook.getVbaProject().getModules().add(**)](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#add-com.aspose.cells.Worksheet-) для добавления нового модуля VBA внутри рабочей книги
 
 {{% /alert %}}
 
@@ -30,3 +30,4 @@ End Sub
 Вот пример кода для создания файла XLSM с VBA-модулем и макросным кодом.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddVBAModuleAndCode-AddVBAModuleAndCode.java" >}}
+{{< app/cells/assistant language="java" >}}

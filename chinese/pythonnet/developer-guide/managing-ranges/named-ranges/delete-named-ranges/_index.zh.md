@@ -21,11 +21,74 @@ keywords: Python Excel 库、Python 删除重复的定义名称、Python 删除�
 6. 单击“关闭”按钮关闭名称管理器对话框。
 7. 保存工作簿以保留更改。
 
+## **使用Aspose.Cells for .Net删除命名范围**
+利用Aspose.Cells for .NET，您可以通过[文本]（https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str）删除名单或定义名称。
+
+```python
+from aspose.cells import Workbook
+import aspose.cells
+import os
+import pytest
+# The path to the documents directory
+current_dir = os.path.dirname(os.path.abspath(__file__))
+data_dir = os.path.join(current_dir, "data")
+
+# Instantiate a new Workbook
+workbook = Workbook(os.path.join(data_dir, "Book1.xlsx"))
+
+# Get all the worksheets in the book
+worksheets = workbook.worksheets
+
+# Delete a named range by text
+worksheets.names.remove_a_name("NamedRange")
+
+
+# Save the workbook to retain the changes
+workbook.save(os.path.join(data_dir, "Book2.xlsx"))
+```
+
+注意：如果已定义的名称由公式引用，则不能删除。我们只能删除已定义名称的公式。
+
+## **删除一些已命名范围**
+当我们删除已定义名称时，必须检查它是否被文件中的所有公式引用。
+为了提高删除命名范围的性能，我们可以一起删除一些。
+
+```python
+from aspose.cells import Workbook
+import aspose.cells
+import os
+import pytest
+# Instantiate a new Workbook
+workbook = Workbook("testcase/data/Book1.xlsx")
+
+# Get all the worksheets in the book
+worksheets = workbook.worksheets
+
+# Delete some defined names
+worksheets.names.remove_names_by_array(["NamedRange1", "NamedRange2"])
+
+# Save the workbook to retain the changes
+workbook.save("Book2.xlsx")
+```
+
 
 ## **删除重复的已定义名称**
 一些Excel文件损坏是因为某些已定义名称是重复的。因此，我们可以删除这些重复名称以修复文件。
 
-{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-Delete-duplicate-defined-names.py" >}}
+```python
+from aspose.cells import Workbook
+import aspose.cells
+import os
+import pytest
+# Instantiate a new Workbook
+workbook = Workbook("testcase/data/Book1.xlsx")
 
+# Get all the worksheets in the book
+worksheets = workbook.worksheets
 
+# Delete duplicate defined names
+worksheets.names.remove_duplicate_names()
 
+# Save the workbook to retain the changes
+workbook.save("Book2.xlsx")
+```

@@ -15,7 +15,7 @@ Parfois, il est nécessaire de combiner plusieurs feuilles de calcul en une seul
 
 ## **Comment combiner des feuilles de calcul**
 
-L'exemple ci-dessous utilise la méthode [**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) pour copier toutes les feuilles sources dans une seule feuille à l'intérieur d'un classeur de destination.
+L'exemple ci-dessous utilise la méthode [**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy-com.aspose.cells.Range-) pour copier toutes les feuilles sources dans une seule feuille à l'intérieur d'un classeur de destination.
 
 ### **Classeur source**
 
@@ -59,3 +59,4 @@ Le code suivant montre comment combiner plusieurs feuilles de calcul en une seul
 Vous trouverez peut-être utile l'article [Regrouper plusieurs classeurs dans un seul classeur](/cells/fr/java/combine-multiple-workbooks-into-a-single-workbook/) pour plus d'informations.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

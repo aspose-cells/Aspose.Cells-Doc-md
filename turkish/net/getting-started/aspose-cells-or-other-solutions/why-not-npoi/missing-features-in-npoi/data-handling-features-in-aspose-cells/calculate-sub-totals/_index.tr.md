@@ -53,3 +53,4 @@ Herhangi aşağıdaki sosyal kodlama sitelerinden **Alt Toplamları Hesapla** in
 Daha fazla ayrıntı için [Alt Toplamlar Oluşturma](/cells/tr/net/creating-subtotals/) ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

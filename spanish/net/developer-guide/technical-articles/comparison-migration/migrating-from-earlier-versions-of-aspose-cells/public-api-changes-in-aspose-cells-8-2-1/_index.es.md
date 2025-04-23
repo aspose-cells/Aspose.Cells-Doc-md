@@ -28,3 +28,4 @@ Consulte el artículo detallado sobre [Verificar que el Valor de la Celda Cumple
 {{% /alert %}}
 ## **Se agregó el método de sobrecarga ToPrinter(PrinterSettings printerSettings) para la clase WorkbookRender**
 Puede utilizar el método sobrecargado para renderizar el libro de trabajo a una impresora a través de PrinterSettings.
+{{< app/cells/assistant language="csharp" >}}

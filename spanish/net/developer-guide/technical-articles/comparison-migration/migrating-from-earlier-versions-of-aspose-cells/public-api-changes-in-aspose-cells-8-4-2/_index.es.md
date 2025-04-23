@@ -158,3 +158,4 @@ workbook.Save(output);
 A partir de la versión Aspose.Cells for .NET 8.4.2, el campo de enumeración PasteType.All se comporta de manera diferente en comparación con la funcionalidad "Todo" de Excel para pegar el rango de celdas. Ahora, el PasteType.All también copia los anchos de columna en el rango de destino, a diferencia de la funcionalidad "Todo" de Excel. Para imitar el comportamiento "Todo" de Excel, por favor use el PasteType.Default.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

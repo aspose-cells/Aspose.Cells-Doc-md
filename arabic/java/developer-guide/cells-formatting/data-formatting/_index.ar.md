@@ -403,3 +403,4 @@ Aspose.Cells يدعم هذه الميزة. يوضح هذا الموضوع كيف
 يرجى التحقق من المقال المفصل على [تعيين تنسيقات الأرقام و [التواريخ](/cells/ar/java/data-formatting/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

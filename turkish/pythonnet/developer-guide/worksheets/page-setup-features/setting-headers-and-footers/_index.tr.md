@@ -3,8 +3,8 @@ title: Başlık ve Altbilgileri Ayarlama
 type: docs
 weight: 30
 url: /tr/python-net/setting-headers-and-footers/
-description: Bu makale, Aspose.Cells için Python via .NET API sini kullanarak Excel çalışma sayfasının başlık ve alt kısmına resim eklemenin nasıl programlaştırılacağını açıklar.
-keywords: Python Excel Kütüphanesi, Python excel başlık altbilgiye resim ekle, Python kullanarak excel başlık altbilgi komutlarını ayarla.
+description: Bu makale, Aspose.Cells for Python via .NET API kullanarak Excel çalışma sayfalarının üst ve altbilgisinde görsel eklemenin programatik yolunu açıklamaktadır.
+keywords: Python Excel Kütüphanesi, Python ile Excel üstbilgi ve altbilgiye görsel ekleme, Python kullanarak Excel üstbilgi ve altbilgi komutlarını ayarlama.
 ---
 
 {{% alert color="primary" %}}
@@ -15,9 +15,9 @@ Başlık ve altbilgiler, üst kenar boşluğunun altında veya alt kenar boşlu�
 
 ## **Başlık ve Altbilgileri Ayarlama**
 
-Aspose.Cells için Python via .NET çalışma sayfalarına başlık ve altbilgi eklemenize olanak tanır ancak yazdırmak için önceden tasarlanmış bir dosyada başlıkları ve altyazıları manuel olarak ayarlamanızı öneririz. Başlık ve altbilgileri ayarlamak için Microsoft Excel'i GUI aracı olarak kullanabilir ve çaba ve geliştirme zamanı kazanmak için başlık ve altbilgileri ayarlamayı öneririz.
+Aspose.Cells for Python via .NET, çalışma sayfalarına çalışma zamanı sırasında üstbilgi ve altbilgi eklemenize olanak tanır, ancak yazdırma işlemi için önceden tasarlanmış bir dosyada manuel olarak üstbilgi ve altbilgi ayarlamanız önerilir. Microsoft Excel GUI aracını kullanarak üstbilgi ve altbilgileri ayarlayabilir, böylece çaba ve geliştirme süresinden tasarruf edebilirsiniz. Aspose.Cells for Python via .NET, dosyayı içeri aktarabilir ve ayarları kaydedebilir.
 
-Çalışma zamanında başlık ve alt zımbalara eklemek için, Aspose.Cells Python via .NET özel API çağrıları ve komut dosyalarını başlık ve alt yazıları biçimlendirmek için sağlar.
+Çalışma zamanı üstbilgi ve altbilgi eklemek için, Aspose.Cells for Python via .NET özel API çağrıları ve script komutları sağlar.
 
 ### **Betik Komutları**
 
@@ -36,7 +36,7 @@ Betik komutları, başlık ve altbilgi biçimlendirmesini ayarlamanıza olanak t
 |&"\<FontName>, \<FontStyle>"| Stil ile yazı tipi adını temsil eder. Örneğin: &"Arial,Kalın"|
 |&\<FontSize>| Yazı tipi boyutunu temsil eder. Örneğin: “&14abc”. Ancak, bu komuttan sonra başlığa yazdırılacak düz bir sayı izlenecekse, bu, yazı tipi boyutundan bir boşluk karakteri ile ayrılmalıdır. Örneğin: “&14 123”.|
 
-### **Başlıkları ve Altlıkları Nasıl Ayarlanır**
+### **Başlık ve Altbilgi Ayarları Nasıl Yapılır**
 
  [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) sınıfı, çalışma sayfasına başlık ve altbilgi eklemek için kullanılan [**set_header**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_header/#int-str) ve [**set_footer**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_footer/#int-str) adlı iki yöntem sağlar. Bu yöntemler yalnızca iki parametre alır:
 
@@ -45,7 +45,7 @@ Betik komutları, başlık ve altbilgi biçimlendirmesini ayarlamanıza olanak t
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetHeadersAndFooters-1.py" >}}
 
-### **Bir Resmi Başlık veya Altbilgiye Nasıl Eklenir**
+### **Bir Başlığa veya Alt Bilgiye Görsel Nasıl Eklersiniz**
 
 [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) sınıfı, başlığa ve altbilgiye resim eklemek için kullanılan [**set_header_picture**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_header_picture/#int-bytes) ve [**set_footer_picture**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_footer_picture/#int-bytes) adlı iki ek yönteme sahiptir. Bu yöntemlerle şu parametreler alınır:
 

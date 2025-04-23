@@ -23,3 +23,4 @@ Il codice di esempio seguente imposta le proprietà [ScaleCrop](https://referenc
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SettingScaleCropAndLinksUpToDateProperties.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

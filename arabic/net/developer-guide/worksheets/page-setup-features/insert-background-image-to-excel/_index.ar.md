@@ -33,3 +33,4 @@ description: كيفية إدراج صورة خلفية إلى Excel باستخد
 
 - [العمل مع الخلفية في ملفات ODS](/cells/ar/net/working-with-background-in-ods-files/)
 
+{{< app/cells/assistant language="csharp" >}}

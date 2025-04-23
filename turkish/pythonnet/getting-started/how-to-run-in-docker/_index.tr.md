@@ -1,18 +1,18 @@
 ---
-title: Aspose.Cells i Docker da python via .NET olarak çalıştırma
+title: Docker da Aspose.Cells for Python via .NET Çalıştırma
 type: docs
-description: "Linux için Docker konteynerinde Aspose.Cells i çalıştırın"
+description: "Linux için Docker konteynerinde Aspose.Cells çalıştırma"
 weight: 140
 url: /tr/net/how-to-run-aspose-cells-python-via-net-in-docker/
 ---
 
-## Önsöz:
+## Preface:
 
-Gitgide daha fazla kullanıcı şirketimizin çeşitli ürünlerini Docker'da kullanıyor ve çeşitli sorunlarla karşılaşıyor. Bu makale, Debian Linux tabanlı bir Docker ortamında Aspose.Cells'i Python via .NET ile nasıl kullanacağınızı kısaca tanıtıyor.
+Daha fazla kullanıcı şirketimizin çeşitli ürünlerini Docker ortamında kullanıyor ve çeşitli sorunlarla karşılaşıyor. Bu makale, Debian Linux tabanlı bir Docker ortamında Aspose.Cells for Python via .NET'nin nasıl kullanılacağını kısaca tanıtacaktır.
 
 ## Örnek:
 
-Kullanımı basit bir örnek ile açıklıyoruz. Bu durumda işlev çok açıktır, yalnızca aspose_test.py içinde Japonca metin içeren bir Excel dosyasını açar. Burada, temel görüntü olarak python:3.11 kullanıyoruz ve ilgili Docker dosyası aşağıdaki gibidir:
+Kullanimı basit bir örnekle gösteriyoruz. Bu durumda, fonksiyonellik oldukça basit, yalnızca aspose_test.py dosyasındaki Japonca metin içeren bir Excel dosyasını açıyoruz. Burada, temel imaj olarak python:3.11 kullanıyoruz ve ilgili Dockerfile aşağıdaki gibidir:
 
 {{< highlight plain >}}
 FROM python:3.11 AS base
@@ -28,7 +28,7 @@ RUN pip install -i aspose-cells-python
 CMD ["python", "aspose_test.py"]
 {{< /highlight >}}
 
-Ardından, aşağıdaki komutu çalıştırdığımızda, sonucu elde ederiz:
+Daha sonra, aşağıdaki komutu çalıştırdığımızda, nihai sonucu elde ediyoruz:
 - Docker İmajı Oluştur
 
 {{< highlight plain >}}
@@ -43,7 +43,7 @@ docker run python_test
 
 - Not:
 
-Çeşitli dilleri içeren Excel dosyalarını desteklemek için ICU kurmamız gerekmektedir. Python via .NET sarmalayıcısının .NET Core 3.1'e dayandığını göz önünde bulundurarak ve .NET Core 3.1'in ICU için belirli sürüm gereksinimleri olduğunu düşünerek, ICU'nun sürüm 70'i aşmaması gerektiğini belirtir bir sürümünü kurmamız gerekir.
+Çeşitli diller içeren Excel dosyalarının açılışını desteklemek için ICU'yu kurmamız gerekiyor. Python via .NET bağlamasının .NET Core 3.1'e dayandığını ve .NET Core 3.1’in ICU için belirli sürüm gereksinimleri olduğunu göz önünde bulundurarak, sürüm 70'i aşmayan belirli bir ICU sürümünü kurmamız gerekiyor.
 
 
 ## Ayrıca Bakınız

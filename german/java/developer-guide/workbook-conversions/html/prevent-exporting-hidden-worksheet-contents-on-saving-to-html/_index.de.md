@@ -22,3 +22,4 @@ Neben der Kontrolle, ob versteckte Arbeitsblätter exportiert werden sollen oder
 - [Kommentare beim Speichern einer Excel-Datei in HTML exportieren](/cells/de/java/export-comments-while-saving-excel-file-to-html/)
 - [Überlagerter Inhalt mit CrossHideRight beim Speichern in HTML ausblenden](/cells/de/java/hiding-overlaid-content-with-crosshideright-while-saving-to-html/)
 - [Ähnlichen Randstil exportieren, wenn der Randstil von Webbrowsern nicht unterstützt wird](/cells/de/java/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/)
+{{< app/cells/assistant language="java" >}}

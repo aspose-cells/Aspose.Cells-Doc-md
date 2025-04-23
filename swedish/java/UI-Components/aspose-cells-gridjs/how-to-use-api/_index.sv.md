@@ -17,10 +17,10 @@ aliases:
 
 # Arbeta med GridJs på serversidan
 ## 0. Ange rätt mappväg i Config
- **`Config.setFileCacheDirectory`** för arbetsbokscache-filen (obligatorisk)
- **`Config.setPictureCacheDirectory`** för att spara bildfiler i arbetsboken (valfritt, standardvärdet är _piccache i filcache-mappen).
+ **`Config.setFileCacheDirectory`** för arbetsbokens cachefil (obligatoriskt).
+ **`Config.setPictureCacheDirectory`** för cache av bildfiler i arbetsboken (valfritt, standardvärdet är _piccache i filcachemappen).
 
-För lagringsdetaljer, vänligen kolla denna [guide](/java/aspose-cells-gridjs/storage/)
+för lagringsdetaljer, vänligen kolla denna [guide](/java/aspose-cells-gridjs/storage/)
 
 ## 1. Implementera GridCacheForStream
 För lokal fil lagring, här är ett exempel:
@@ -72,7 +72,7 @@ public class LocalFileCache extends GridCacheForStream {
 }
 ```
 
-## 2. Skriv json från kalkylarksfilen till svarsströmmen
+## 2. Skriva json från kalkylbladsfilen till responsströmmen.
 ```JAVA
             GridJsWorkbook wbj = new GridJsWorkbook();
             try (GZIPOutputStream gzipOutputStream = new GZIPOutputStream(response.getOutputStream())) {

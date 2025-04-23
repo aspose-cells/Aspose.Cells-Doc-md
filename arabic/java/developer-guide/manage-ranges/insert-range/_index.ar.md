@@ -13,7 +13,7 @@ url: /ar/java/insert-ranges-to-Excel/
 
 ## **إدراج المجالات باستخدام Aspose.Cells**
 
-توفر Aspose.Cells [خلية.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange(com.aspose.cells.CellArea,%20int)) طريقة لإدراج نطاق.
+يوفر Aspose.Cells طريقة [Cells.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange-com.aspose.cells.CellArea-int-) لإدراج نطاق.
 
 ## **إدراج مجموعات ونقل الخلايا إلى اليمين**
 
@@ -27,3 +27,4 @@ url: /ar/java/insert-ranges-to-Excel/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Insert-Range-Down.java" >}}
 
+{{< app/cells/assistant language="java" >}}

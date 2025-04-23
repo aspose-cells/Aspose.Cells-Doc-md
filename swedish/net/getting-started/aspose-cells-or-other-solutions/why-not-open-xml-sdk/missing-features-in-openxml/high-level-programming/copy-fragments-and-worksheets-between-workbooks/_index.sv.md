@@ -23,3 +23,4 @@ Denna avsnitt inkluderar följande ämnen
 - [Kopiera Kalkylblad mellan Arbetsböcker](/cells/sv/net/copy-worksheets-between-workbooks/)
 - [Kopiera Kalkylblad inom en Arbetsbok](/cells/sv/net/copy-worksheets-within-a-workbook/)
 - [Flytta Kalkylblad inom en Arbetsbok](/cells/sv/net/move-worksheets-within-workbook/)
+{{< app/cells/assistant language="csharp" >}}

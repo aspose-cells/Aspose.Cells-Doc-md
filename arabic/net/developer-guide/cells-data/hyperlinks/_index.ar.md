@@ -64,3 +64,4 @@ keywords: إدراج الارتباطات التشعبية في Excel، إضاف
 - [تحرير الارتباطات التشعبية لورقة العمل](/cells/ar/net/editing-hyperlinks-of-worksheet/)
 - [الحصول على الارتباطات التشعبية في النطاق](/cells/ar/net/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="csharp" >}}

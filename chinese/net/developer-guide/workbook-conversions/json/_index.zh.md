@@ -24,3 +24,4 @@ Aspose.Cells API支持将电子表格转换为JSON格式。要将工作簿导出
 - [将Excel转换为JSON](/cells/zh/net/convert-excel-to-json/)
 - [将JSON转换为CSV](/cells/zh/net/convert-json-to-csv/)
 - [将JSON转换为Excel](/cells/zh/net/convert-json-to-excel/)
+{{< app/cells/assistant language="csharp" >}}

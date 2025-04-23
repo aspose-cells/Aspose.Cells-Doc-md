@@ -11,7 +11,7 @@ Quando aggiungi un nuovo foglio a un workbook, contiene le impostazioni predefin
 
 ## **Copia le impostazioni del layout pagina dal foglio di origine al foglio di destinazione**
 
-Il seguente codice di esempio illustra come copiare le impostazioni della configurazione di pagina da un foglio di lavoro a un altro utilizzando il metodo [**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy(com.aspose.cells.PageSetup,%20com.aspose.cells.CopyOptions)). Si prega di consultare il seguente codice di esempio e il suo output sulla console per riferimento.
+Il seguente codice di esempio illustra come copiare le impostazioni della configurazione di pagina da un foglio di lavoro a un altro utilizzando il metodo [**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy-com.aspose.cells.PageSetup-com.aspose.cells.CopyOptions-). Si prega di consultare il seguente codice di esempio e il suo output sulla console per riferimento.
 
 ## **Codice di Esempio**
 
@@ -30,3 +30,4 @@ After Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 After Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

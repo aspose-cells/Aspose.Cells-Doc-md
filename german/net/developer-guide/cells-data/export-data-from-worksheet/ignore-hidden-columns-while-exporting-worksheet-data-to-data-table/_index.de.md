@@ -16,3 +16,4 @@ Manchmal möchten Sie beim Exportieren von Arbeitsblattdaten in eine Datentabell
 Im folgenden Beispielcode wird die Verwendung der [**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns) Eigenschaft beim Ignorieren der ausgeblendeten Spalten beim Exportieren der gesamten Arbeitsblattdaten in die Datentabelle erläutert.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-IgnoreHiddenColumnsDataTable-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

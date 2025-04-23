@@ -28,3 +28,4 @@ keywords: إضافة رموز في Excel، إضافة رموز في Excel بجا
 ## مقالات ذات صلة
 
 - [إضافة نص فائق النص الغني HTML داخل الخلية](/cells/ar/java/adding-html-rich-text-inside-the-cell/)
+{{< app/cells/assistant language="java" >}}

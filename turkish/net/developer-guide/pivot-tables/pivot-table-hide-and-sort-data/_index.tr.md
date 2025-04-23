@@ -17,3 +17,4 @@ Kod parçacığında kullanılan kaynak ve çıktı excel dosyaları referans i�
 [Kaynak Dosyası](96928093.xlsx)
 
 [Çıktı Dosyası](96928094.xlsx)
+{{< app/cells/assistant language="csharp" >}}

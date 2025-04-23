@@ -13,3 +13,4 @@ Vänligen se den följande koden, den laddar [provmappen](67338501.xlsx) som i
 ![todo:image_alt_text](formatting-slicer_1.png)
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Slicers-FormattingSlicer.java" >}}
+{{< app/cells/assistant language="java" >}}

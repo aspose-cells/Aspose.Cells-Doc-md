@@ -59,7 +59,7 @@ Aspose.CellsでWorkbookをPDFファイルに保存する方法のコードは次
 
 コードを実行すると、ワークブックのすべてのシートのデータがTXT形式に変換されます。
 
-同じ例を修正してファイルを CSV に保存できます。デフォルトでは、[**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) はコンマですので、CSV 形式に保存する場合はセパレーターを指定しないでください。ご注意ください：評価版 を使用している場合、かつ [**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/) プロパティが true に設定されていても、プログラムは引き続きワークシートを1つだけエクスポートします。
+同じ例を修正して、CSV形式でファイルを保存することも可能です。デフォルトでは、区切り文字はカンマ（,）ですので、CSV形式で保存する場合は区切り文字を指定しないでください。注意点として、評価版を使用している場合でも `[**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/)` プロパティがtrueに設定されている場合でも、プログラムは一つのワークシートだけをエクスポートします。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 
@@ -98,3 +98,4 @@ Aspose.CellsはファイルをJSONまたはXMLに保存することをサポー�
 - [ワークブックの圧縮レベルを調整](/cells/ja/net/adjust-workbook-compression-level/)
 - [ストリクトなOpen XMLスプレッドシート形式でワークブックを保存](/cells/ja/net/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [レスポンスオブジェクトへのファイルの保存](/cells/ja/net/saving-file-to-response-object/)
+{{< app/cells/assistant language="csharp" >}}

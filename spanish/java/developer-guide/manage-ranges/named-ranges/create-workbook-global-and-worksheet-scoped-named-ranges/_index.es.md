@@ -25,3 +25,4 @@ Los siguientes ejemplos de código muestran cómo crear rangos con nombre de ám
 ## **Agregar un Rango con Nombre de Alcance de Hoja de Cálculo**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddNamedRangeWithWorksheetScope-AddNamedRangeWithWorkbookScope.java" >}}
+{{< app/cells/assistant language="java" >}}

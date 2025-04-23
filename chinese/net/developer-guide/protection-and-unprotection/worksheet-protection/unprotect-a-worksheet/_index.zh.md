@@ -31,3 +31,4 @@ url: /zh/net/unprotect-a-worksheet/
 受密码保护的工作表是使用密码保护的工作表。 可以通过调用带有密码参数的重载版本的[**Unprotect**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/unprotect/methods/1)方法来取消这样的工作表的保护。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Unprotect-UnprotectingPasswordProtectedWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

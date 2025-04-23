@@ -18,3 +18,4 @@ url: /zh/net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-GetIconSetsDataBars-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

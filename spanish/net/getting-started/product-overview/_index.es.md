@@ -46,3 +46,4 @@ Si tiene un problema con Aspose.Cells, siga estos sencillos pasos para asegurars
 - Eche un vistazo a los foros, esta documentación y la Referencia de API antes de informar el problema; tal vez su pregunta ya haya sido respondida.
 - Al informar un problema, incluya el documento original y posiblemente un fragmento de su código que cause el problema. Si necesita adjuntar varios archivos, comprímalos en uno. Es seguro adjuntar sus documentos en Aspose.Forums cuando el hilo es privado ya que solo usted y los miembros del personal de Aspose tendrán acceso a los archivos adjuntos.
 - Intente informar solo un problema por hilo. Si tiene otro problema, informe en un hilo separado.
+{{< app/cells/assistant language="csharp" >}}

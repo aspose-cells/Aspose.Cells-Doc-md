@@ -43,3 +43,4 @@ Aspose.Cells prend en charge l'extraction d'objets de types non courants tels qu
 - [Obtenir ou définir l'identifiant de classe de l'objet OLE incorporé](/cells/fr/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 - [Insérer un fichier WAV en tant qu'objet Ole](/cells/fr/net/inserting-a-wav-file-as-an-ole-object/)
 
+{{< app/cells/assistant language="csharp" >}}

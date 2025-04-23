@@ -21,3 +21,4 @@ De möjliga värdena för denna komponent definieras av W3C XML Schema boolean-d
 Följande exempelkod ställer in [ScaleCrop](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#ScaleCrop) och [LinksUpToDate](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#LinksUpToDate) utökade inbyggda dokumentegenskaper för arbetsboken. Vänligen kontrollera den [utdata Excel-filen](5472494.xlsx) som genereras med denna kod, ändra dess förlängning till .zip och extrahera dess innehåll och visa aap.xml enligt skärmdumpen ovan.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingScaleCropLinksUpToDate-SettingScaleCropLinksUpToDate.java" >}}
+{{< app/cells/assistant language="java" >}}

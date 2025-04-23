@@ -23,3 +23,4 @@ keywords: 获取单元格的最大显示范围，获取单元格的最大行数�
 1. 获取单元格 [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range)。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-get-range.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -64,3 +64,4 @@ Aspose.Cells 提供了一个代表 Microsoft Excel 文件的 [Workbook](https://
 - [编辑工作表的超链接](/cells/zh/net/editing-hyperlinks-of-worksheet/)
 - [获取范围内的超链接](/cells/zh/net/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="csharp" >}}

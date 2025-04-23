@@ -74,3 +74,4 @@ In diesem Artikel wurden die wichtigsten Gründe behandelt, warum Aspose-Kompone
 
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -12,3 +12,4 @@ Esta sección tiene los siguientes temas:
 - [Función de marcadores inteligentes](/cells/es/net/smart-markers-feature/)
 - [Usar tipos anónimos u objetos personalizados](/cells/es/net/using-anonymous-types-or-custom-objects/)
 - [Usar objetos anidados](/cells/es/net/using-nested-objects/)
+{{< app/cells/assistant language="csharp" >}}

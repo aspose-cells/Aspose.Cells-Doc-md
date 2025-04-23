@@ -26,3 +26,4 @@ Der nachstehende Beispielcode zeigt, wie benutzerdefinierte Diagramme erstellt w
 Derzeit unterstützt Aspose.Cells nur benutzerdefinierte Diagramme, die Kuchen-, Linien-, Säulen- und Säulenanordnungsdiagramme kombinieren, aber in zukünftigen Versionen werden weitere Diagramme unterstützt.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

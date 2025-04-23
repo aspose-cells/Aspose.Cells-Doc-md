@@ -16,3 +16,4 @@ keywords: 将可见列数据导出到DataTable，将不隐藏列数据导出到D
 以下示例代码解释了在导出整个工作表数据到数据表时使用[**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns)属性来忽略隐藏列。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-IgnoreHiddenColumnsDataTable-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -3,8 +3,8 @@ title: 检测空工作表
 type: docs
 weight: 410
 url: /zh/python-net/detecting-empty-worksheets/
-description: 本文向您展示了如何使用Aspose.Cells for Python via .NET库以编程方式检测Excel工作簿中的空工作表的代码。
-keywords: Python Excel库，使用Python检测空工作表，在Python中找到空的Excel工作表。
+description: 本文提供了示例代码，说明如何使用 Aspose.Cells for Python via .NET 库程序化检测Excel工作簿中的空白工作表。
+keywords: Python Excel 库，使用python检测空工作表，查找Python中的空Excel工作表。
 ---
 
 ## **检查已填充的单元格**
@@ -19,11 +19,11 @@ keywords: Python Excel库，使用Python检测空工作表，在Python中找到�
 
 ## **检测空初始化单元格**
 
-所有具有值的单元格都会自动初始化，但是可能某个工作表只有应用格式的单元格。在这种情况下，[**Cells.max_data_row**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_row/)或[**Cells.max_data_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_column/)属性将返回-1，指示没有任何填充值但已初始化的单元格，因此无法使用此方法检测到具有空初始化的单元格。为了检查工作表是否有空初始化的单元格，建议使用从[**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells)集合获得的枚举器上的IEnumerator.MoveNext方法。如果IEnumerator.MoveNext方法返回true，则表示给定工作表中有一个或多个已初始化的单元格。
+所有有值的单元格都会自动初始化，但也存在工作表中只有格式应用的单元格。在这种情况下，[**Cells.max_data_row**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_row/) 或 [**Cells.max_data_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_column/) 属性会返回 -1，表示没有已填充值，但由于单元格格式造成的已初始化单元格无法通过此方法检测。要检查工作表是否有空的已初始化单元格，建议使用从 [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) 集合中获取的枚举器调用 IEnumerator.MoveNext 方法。如果方法返回 **true**，意味着工作表中存在一个或多个已初始化的单元格。
 
 ## **检查形状**
 
-有可能某个给定的工作表没有任何填充的单元格，但可能包含形状和对象，例如控件、图表、图像等。如果我们需要检查工作表是否包含任何形状，可以通过检查[**ShapeCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shapecollection)元素进行。任何正值都表示工作表中存在形状。
+某个工作表可能没有任何已填充的单元格，但可能包含形状和对象，如控件、图表、图片等。如果需要检查工作表中是否包含任何形状，可以通过检查 [**ShapeCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shapecollection) 元素来实现。任何正值都表示工作表中存在形状。
 
 ## **编程示例**
 

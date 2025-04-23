@@ -16,3 +16,4 @@ Microsoft Excel üzerinden **Araçlar > Dijital İmzalar...** menü komutunu kul
 Aşağıdaki kod, çalışbook yükler ve [**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned) özelliğini kullanarak VBA projesinin imzalı olup olmadığını kontrol eder. Proje imzalıysa **true** döndürecek, aksi takdirde **false** döndürecektir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-CheckVbaProjectSigned-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

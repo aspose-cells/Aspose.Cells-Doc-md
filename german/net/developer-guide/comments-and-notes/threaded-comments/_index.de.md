@@ -141,3 +141,4 @@ Das folgende Beispiel demonstriert das Entfernen von Kommentaren in Spalte A1 du
 Bitte beachten Sie, dass durch Entfernen von Kommentaren mit Aspose.Cells der Autor nicht automatisch entfernt wird. Wenn Sie den Autor ebenfalls entfernen müssen, verwenden Sie bitte die RemoveAt-Methode der [**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthorcollection)-Klasse, wie im obigen Beispiel gezeigt.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

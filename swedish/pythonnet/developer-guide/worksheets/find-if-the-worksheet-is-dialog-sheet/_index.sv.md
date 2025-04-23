@@ -3,8 +3,8 @@ title: Ta reda på om kalkylbladet är Dialog sheet
 type: docs
 weight: 90
 url: /sv/python-net/find-if-the-worksheet-is-dialog-sheet/
-description: Dialog Sheet är ett gammalt format för ark. Denna artikel ger instruktioner och exempelkod för att bestämma programmatoriskt om ett Excel kalkylblad är ett Dialog Sheet med hjälp av Aspose.Cells för Python via .NET Library.
-keywords: Python Excel Library, Python hitta excel kalkylbladsdialogtyp, kalkylbladsdialog i python.
+description: Dialogblad är ett gammalt format av blad. Denna artikel ger instruktioner och kodexempel för att automatiskt avgöra om ett Excel ark är ett Dialogblad med Aspose.Cells för Python via .NET bibliotek.
+keywords: Python Excel bibliotek, Python sökdialog för Excel arkstyp, dialog för ark i Python.
 ---
 
 ## **Möjliga användningsscenario**
@@ -13,7 +13,7 @@ Dialog Sheet är ett gammalt format av ark som innehåller en dialogruta. Ett s�
 
 ![todo:image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
 
-Du kan avgöra om kalkylarket är ett dialogark eller någon annan typ av kalkylblad med [**Worksheet.type**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/type/) egenskap som tillhandahålls av Aspose.Cells för Python via .NET. Om den returnerar uppräkningens värde [**SheetType.DIALOG**](https://reference.aspose.com/cells/python-net/aspose.cells/sheettype/), betyder det att du hanterar dialogblad.
+Du kan avgöra om arket är ett dialogark eller någon annan typ av ark med [**Worksheet.type**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/type/)-egenskapen som tillhandahålls av Aspose.Cells för Python via .NET. Om det returnerar värdet för [**SheetType.DIALOG**](https://reference.aspose.com/cells/python-net/aspose.cells/sheettype/) betyder det att du arbetar med ett dialogark.
 
 ## **Ta reda på om kalkylbladet är Dialog sheet**
 

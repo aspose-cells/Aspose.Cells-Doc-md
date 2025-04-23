@@ -17,3 +17,4 @@ Aspose.Cells允许您将工作簿的轻量级版本加载到内存中，以编�
 以下是使用[WorkbookMetadata](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookMetadata)类的示例代码。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UsingWorkbookMetadata-UsingWorkbookMetadata.java" >}}
+{{< app/cells/assistant language="java" >}}

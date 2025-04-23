@@ -23,10 +23,11 @@ Il seguente codice di esempio crea un foglio di lavoro e quindi aggiunge le segu
 
 {{< /highlight >}}
 
-Successivamente riempie la sorgente dati con i dati e chiama il metodo [WorkbookDesigner.Process()](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process\(\)) per elaborare le etichette dei smart marker. Il codice utilizza queste immagini cioè [moon.png](5472549.png) e [moon2.png](5472548.png) ma è possibile utilizzare qualsiasi immagine. Lo screenshot seguente mostra l'output di questo codice di esempio. Come si può vedere, i dati nella colonna E e F sono raggruppati rispetto ai dati nella colonna D.
+Poi riempie la fonte dati con i dati e chiama il metodo [WorkbookDesigner.Process()](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process--) per elaborare i tag degli smart marker. Il codice utilizza queste immagini, ovvero [moon.png](5472549.png) e [moon2.png](5472548.png), ma è possibile utilizzare qualsiasi immagine. La seguente schermata mostra il risultato di questo esempio di codice. Come si può vedere, i dati nelle colonne E e F sono raggruppati rispetto ai dati nella colonna D.
 
 ![todo:image_alt_text](using-image-markers-while-grouping-data-in-smart-markers_1.png)
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Technical-Articles-SmartMarkerGroupingImage.java" >}}
+{{< app/cells/assistant language="java" >}}

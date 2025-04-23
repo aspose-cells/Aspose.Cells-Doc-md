@@ -15,25 +15,9 @@ Utiliser l'option [**MemorySetting.MemoryPreference**](https://reference.aspose.
 
 ## **Optimisation de la mémoire**
 
-L'exemple suivant montre comment optimiser l'utilisation de la mémoire lors du travail avec de grandes données dans Aspose.Cells pour Node.js via C++.
+L'exemple suivant montre comment optimiser l'utilisation de la mémoire lors du traitement de grandes données avec Aspose.Cells for Node.js via C++.
 
-{{< highlight cpp >}}
-
-//This example shows how to optimize memory usage while working with large data in Aspose.Cells for Node.js via C++
-
-const { Workbook, FileFormatType, MemorySetting } = require("aspose.cells.node");
-
-var workbook = new Workbook(FileFormatType.Xlsx);
-
-// apply the setting to existing "Sheet1"
-workbook.getWorksheets().get(0).getCells().setMemorySetting(MemorySetting.MemoryPreference);
-
-// apply the setting globally
-workbook.getSettings().setMemorySetting(MemorySetting.MemoryPreference);
-
-workbook.save("out.xlsx");
-
-{{< /highlight >}}
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "OptimizingMemory.js" >}}
 
 ## **Attention**
 

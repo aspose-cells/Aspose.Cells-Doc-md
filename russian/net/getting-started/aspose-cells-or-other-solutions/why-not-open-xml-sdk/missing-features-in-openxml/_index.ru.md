@@ -38,3 +38,4 @@ url: /ru/net/missing-features-in-openxml/
 - [Установить внешние ссылки в формулах в Aspose.Cells](/cells/ru/net/set-external-links-in-formulas-in-aspose-cells/)
 - [Установка режима вычисления формул книги в Aspose.Cells](/cells/ru/net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/)
 - [Установка общей формулы в Aspose.Cells](/cells/ru/net/setting-shared-formula-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

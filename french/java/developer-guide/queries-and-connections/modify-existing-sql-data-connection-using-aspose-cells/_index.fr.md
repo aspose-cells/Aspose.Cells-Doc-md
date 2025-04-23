@@ -33,3 +33,4 @@ L'exemple suivant illustre l'utilisation d'Aspose.Cells pour modifier la connexi
 
 
 
+{{< app/cells/assistant language="java" >}}

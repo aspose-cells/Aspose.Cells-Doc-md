@@ -33,3 +33,4 @@ Microsoft Excelを使用してチャートおよびその軸のタイトルをWY
 
 ## **高度なトピック**
 - [ODSファイルからチャートサブタイトルを読む](/cells/ja/net/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="csharp" >}}

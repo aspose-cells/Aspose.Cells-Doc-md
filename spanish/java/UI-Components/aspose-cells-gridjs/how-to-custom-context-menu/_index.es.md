@@ -11,9 +11,29 @@ aliases:
   - /java/aspose-cells-gridjs/work-with-context-menu/
   - /java/aspose-cells-gridjs/work-with-context-menus/
 ---
+# Menús contextuales personalizados integrados
+Tenemos algunos elementos en los menús contextuales integrados, por ejemplo insertar/eliminar fila/columna y otros.
+por ejemplo: para eliminar los elementos del menú "Eliminar fila", "Enlace", "Ocultar" en los menús contextuales, asuma que el id del div de GridJs es "gridjs-divid"
+```javascript
+   //get context menus parent dom
+   const menus=document.querySelector("#gridjs-divid > div > div.x-spreadsheet-sheet > div.x-spreadsheet-contextmenu");
+   var childs = menus.childNodes;
+   for (var i = childs.length - 1; i >= 0; i--)
+   {  
+     // check the item text
+     if(childs[i].childNodes[0]?.textContent==="Delete row"||childs[i].childNodes[0]?.textContent==="Link"||childs[i].childNodes[0]?.textContent==="Hide")
+       {
+         menus.removeChild(childs[i]);
+       }
+   }
+```
+Después de llamar a esta función 
 
-# Menús contextuales personalizados
-Tenemos algunos elementos de menú contextuales integrados, por ejemplo, insertar/eliminar fila/columna, etc.
+![por hacer: la pantalla para personalizar los ítems del menú incrustado](gridjs_customize_build_in_context_menu.png)
+
+
+# Menús contextuales auto-definidos
+Tenemos algunos elementos en los menús contextuales integrados, por ejemplo insertar/eliminar fila/columna y otros.
 Sin embargo, si el usuario desea personalizar elementos del menú contextual.
 Soportamos configurar elementos del menú contextual en las opciones de carga.
 por ejemplo:

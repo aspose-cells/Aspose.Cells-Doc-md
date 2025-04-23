@@ -36,3 +36,4 @@ Gömülü bir düzenleyiciye bir elektronik tablo yüklemek için **url** parame
 </iframe>
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

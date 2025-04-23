@@ -29,3 +29,4 @@ Bir kez AktifX kontrolü şekil koleksiyonunun içine ekledikten sonra, daha son
 Aşağıdaki örnek kod, Aspose.Cells kullanarak Toggle Button AktifX Kontrolü ekler.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddActiveXControls-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

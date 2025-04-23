@@ -35,3 +35,4 @@ Establece la propiedad [**Workbook.Settings.CheckComptiliblity**](https://refere
 Los ejemplos de código que se muestran a continuación muestran cómo deshabilitar el Comprobador de compatibilidad con Aspose.Cells for .NET.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DisableCompatibilityChecker-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

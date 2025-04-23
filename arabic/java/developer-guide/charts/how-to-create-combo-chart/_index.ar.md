@@ -20,3 +20,4 @@ keywords: إضافة رسم بياني مركب، إنشاء رسم بياني �
 يقوم الرمز العيني التالي بتحميل [ملف Excel العيني] التالي(combo.xlsx) وإنتاج [ملف Excel الإخراج المعني] التالي(out.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-add-combo-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

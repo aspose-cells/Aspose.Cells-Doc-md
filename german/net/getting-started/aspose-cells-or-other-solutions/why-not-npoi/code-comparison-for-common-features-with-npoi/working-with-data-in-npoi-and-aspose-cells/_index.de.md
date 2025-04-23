@@ -10,3 +10,4 @@ Dieser Abschnitt hat folgende Themen:
 - [Zelleninhalt abrufen](/cells/de/net/getting-cell-contents/)
 - [Hyperlinks in Arbeitsblatt einfügen](/cells/de/net/insert-hyperlinks-in-worksheet/)
 - [Neue Zeile in Zellen](/cells/de/net/new-line-in-cells/)
+{{< app/cells/assistant language="csharp" >}}

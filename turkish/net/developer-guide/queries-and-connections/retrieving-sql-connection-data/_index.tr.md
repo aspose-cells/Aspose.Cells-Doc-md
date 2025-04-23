@@ -22,3 +22,4 @@ Aspose.Cells, Workbook.DataConnections özelliğini kullanarak dış bağlantıl
 ExternalConnection nesnesi SQL bağlantı verisi içeriyorsa, onu bir DBConnection nesnesine dönüştürmek ve veritabanı komutu, komut türü, bağlantı açıklaması, bağlantı bilgileri, kimlik bilgileri vb. özelliklerini almak için kullanılabilir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-RetrievingSQLConnectionData-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

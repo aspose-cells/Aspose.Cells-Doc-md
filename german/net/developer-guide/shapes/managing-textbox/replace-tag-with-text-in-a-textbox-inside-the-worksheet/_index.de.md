@@ -15,3 +15,4 @@ Im folgenden Beispielcode werden die Tags TAG_1 und TAG_2 durch Texte wie 'ys' u
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-ReplaceTagWithTextInTextBox-1.cs" >}}
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-ReplaceTagWithTextInTextBox-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

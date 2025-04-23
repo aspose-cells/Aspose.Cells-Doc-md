@@ -60,3 +60,4 @@ Aspose.Cells proporciona el método [**Range.Merge()**](https://reference.aspose
 Aspose.Cells proporciona el método [**NameCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/namecollection/methods/removeat) para borrar el nombre del rango. Para borrar el contenido del rango, usa el método [**Cells.ClearRange()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/clearrange/index). El siguiente ejemplo muestra cómo eliminar un rango con nombre y su contenido.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-RemoveANamedRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

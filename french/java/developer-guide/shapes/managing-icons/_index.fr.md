@@ -32,3 +32,4 @@ Ici, nous avons préparé *un code d'exemple* pour vous aider à insérer des ic
 Lorsque vous exécutez le code ci-dessus dans votre projet, vous obtiendrez les résultats suivants :
 
 ![](3.png)
+{{< app/cells/assistant language="java" >}}

@@ -74,3 +74,4 @@ Scarica **Converti grafico in immagini** da uno dei siti di codice sociale qui s
 Per maggiori dettagli, visita [Converting Chart to Image](/cells/it/net/converting-chart-to-image-in-svg-format/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

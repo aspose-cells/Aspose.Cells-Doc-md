@@ -81,7 +81,7 @@ Une option pour le renvoi à la ligne du texte dans un champ est de réduire la 
 
 ### **Fusion de cellules**
 
-Comme Microsoft Excel, Aspose.Cells prend en charge la fusion de plusieurs cellules en une seule. Aspose.Cells propose deux approches pour cette tâche. Une manière est d'appeler la méthode [**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)). La méthode prend les paramètres suivants pour fusionner les cellules:
+Comme Microsoft Excel, Aspose.Cells prend en charge la fusion de plusieurs cellules en une seule. Aspose.Cells propose deux approches pour cette tâche. Une manière est d'appeler la méthode [**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge-int-int-int-int-). La méthode prend les paramètres suivants pour fusionner les cellules:
 
 - Première rangée : la première rangée à partir de laquelle commencer la fusion.
 - Première colonne : la première colonne à partir de laquelle commencer la fusion.
@@ -108,3 +108,4 @@ L'ordre de lecture est défini avec la propriété [**TextDirection**](https://r
 ## **Sujets avancés**
 - [Modifier l'alignement des cellules et conserver la mise en forme existante](/cells/fr/java/change-cells-alignment-and-keep-existing-formatting/)
 - [Sauts de ligne et retour à la ligne](/cells/fr/java/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="java" >}}

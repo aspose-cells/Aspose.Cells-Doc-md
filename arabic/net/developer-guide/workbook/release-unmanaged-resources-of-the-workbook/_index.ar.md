@@ -14,3 +14,4 @@ url: /ar/net/release-unmanaged-resources-of-the-workbook/
 يُنفذ كائن [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) الآن واجهة *System.IDisposable* التي تحتوي على الأسلوب الوحيد [**Dispose()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/dispose). يمكنك إما استدعاء الأسلوب [**Workbook.Dispose()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/dispose) مباشرة أو استخدام البيان Using لاستدعاء هذا الأسلوب تلقائياً.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ReleaseUnmanagedResources-ReleaseUnmanagedResourcesForWorkbooks.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

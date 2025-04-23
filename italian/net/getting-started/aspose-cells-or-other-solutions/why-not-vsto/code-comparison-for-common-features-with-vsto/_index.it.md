@@ -32,3 +32,4 @@ Questa sezione ha i seguenti argomenti:
 - [Ordina i dati nei fogli di lavoro](/cells/it/net/sort-data-in-worksheets/)
 - [Usa formule e funzioni per elaborare i dati in VSTO e Aspose.Cells](/cells/it/net/use-formulas-functions-to-process-data-in-vsto-and-aspose-cells/)
 - [Involucra il testo della cella in VSTO e Aspose.Cells](/cells/it/net/wrapping-cell-text-in-vsto-and-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

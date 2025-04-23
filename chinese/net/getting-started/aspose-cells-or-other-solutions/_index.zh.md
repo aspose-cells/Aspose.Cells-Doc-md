@@ -10,3 +10,4 @@ description: 本节比较了 Aspose.Cells 组件和其他一些系统。
 
 本节比较了 Aspose.Cells 组件和其他一些系统。
 
+{{< app/cells/assistant language="csharp" >}}

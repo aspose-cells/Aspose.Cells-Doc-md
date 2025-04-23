@@ -19,3 +19,4 @@ till [**TimeScale**](https://reference.aspose.com/cells/net/aspose.cells.charts/
 ![todo:image_alt_text](excel.png)
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "DateAxis.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -66,3 +66,4 @@ Aspose.Cells поддерживает чтение и запись файлов 
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Convert%20between%20Excel%20formats%20%28Aspose.Cells%29.zip)
+{{< app/cells/assistant language="csharp" >}}

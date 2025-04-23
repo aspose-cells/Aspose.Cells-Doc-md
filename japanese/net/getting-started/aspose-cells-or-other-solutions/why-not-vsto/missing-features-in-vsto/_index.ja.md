@@ -35,3 +35,4 @@ url: /ja/net/missing-features-in-vsto/
   - [匿名型またはカスタムオブジェクトの使用](/cells/ja/net/using-anonymous-types-or-custom-objects/)
   - [ネストされたオブジェクトの使用](/cells/ja/net/using-nested-objects/)
 - [Aspose.Cells で先行および従属をトレースする](/cells/ja/net/tracing-precedents-and-dependents-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

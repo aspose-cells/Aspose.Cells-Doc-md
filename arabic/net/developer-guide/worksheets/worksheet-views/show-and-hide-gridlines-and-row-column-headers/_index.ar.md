@@ -57,3 +57,4 @@ Aspose.Cells توفر فئة، [**Workbook**](https://reference.aspose.com/cells
 من الممكن أيضًا استخدام طرق [**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) و [**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns)  للفئة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) لجعل عدة صفوف وأعمدة مرئية.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

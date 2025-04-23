@@ -121,3 +121,4 @@ För att ta bort anpassade egenskaper med hjälp av Aspose.Cells, ring [**Docume
 - [Inställning av ScaleCrop och LinksUpToDate egenskaper för inbyggda dokumentegenskaper](/cells/sv/net/setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties/)
 - [Ange dokumentversionen för Excel-filen med hjälp av inbyggda dokumentegenskaper](/cells/sv/net/specify-document-version-of-the-excel-file-using-builtin-document-properties/)
 - [Ange språket för Excel-filen med hjälp av inbyggda dokumentegenskaper](/cells/sv/net/specify-the-language-of-the-excel-file-using-builtin-document-properties/)
+{{< app/cells/assistant language="csharp" >}}

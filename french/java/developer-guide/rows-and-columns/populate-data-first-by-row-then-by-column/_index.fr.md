@@ -18,3 +18,4 @@ Placer les données dans la séquence A1, B1, A2, B2 est plus rapide que A1, A2,
 ## Code Java pour remplir d'abord les données par ligne, puis par colonne
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PopulateDatabyRowthenColumn-PopulateDatabyRowthenColumn.java" >}}
+{{< app/cells/assistant language="java" >}}

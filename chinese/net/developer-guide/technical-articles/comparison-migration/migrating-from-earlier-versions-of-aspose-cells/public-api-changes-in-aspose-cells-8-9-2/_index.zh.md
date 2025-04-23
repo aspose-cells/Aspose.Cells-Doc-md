@@ -164,3 +164,4 @@ fill.SetOneColorGradient(Color.Red, 0.1, GradientStyleType.Horizontal, 2);
 请使用 Shape.Fill 属性代替。
 ### **FontSetting.ShapeFont 属性已过时**
 请使用 FontSetting.TextOptions 属性代替。
+{{< app/cells/assistant language="csharp" >}}

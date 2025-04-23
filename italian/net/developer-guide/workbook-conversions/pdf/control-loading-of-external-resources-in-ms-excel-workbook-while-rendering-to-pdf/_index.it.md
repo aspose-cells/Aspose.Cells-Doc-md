@@ -18,3 +18,4 @@ Il codice di esempio seguente spiega come utilizzare [**WorkbookSettings.StreamP
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-ControlLoadingOfExternalResourcesInExcelToPDF-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

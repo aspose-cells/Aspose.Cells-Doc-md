@@ -14,3 +14,4 @@ url: /ar/net/copy-row-heights-of-source-range-to-destination-range/
 يوضح الكود العيني التالي كيفية استخدام enum [**PasteType.RowHeights**](https://reference.aspose.com/cells/net/aspose.cells/pastetype) لنسخ ارتفاعات الصف من نطاق المصدر إلى نطاق الوجهة. بمجرد فتح ملف إكسل الناتج الذي تم إنشاؤه بواسطة هذا الكود في Microsoft Excel، سترى أن ارتفاعات صفوف نطاق الوجهة تطابق تمامًا مع ارتفاعات صفوف نطاق المصدر.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-GetRowHeights-GetRowHeightsOfSourceRangeToDestinationRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

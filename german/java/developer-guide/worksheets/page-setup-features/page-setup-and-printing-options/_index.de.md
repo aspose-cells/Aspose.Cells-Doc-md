@@ -100,3 +100,4 @@ Dieser Artikel zeigt, wie die Seiten- und Blattdruckoptionen mit Aspose.Cells fe
 Aspose.Cells profitiert von jahrelanger Forschung, Design und sorgfältiger Abstimmung. Wir begrüßen herzlich Ihre Anfragen, Kommentare und Vorschläge im [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9). Wir garantieren eine schnelle Antwort.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

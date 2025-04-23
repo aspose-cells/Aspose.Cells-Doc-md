@@ -33,3 +33,4 @@ description: "Aspose.Cells for .NETを使用したExcelへの背景画像の挿�
 
 - [ODSファイルで背景を操作する](/cells/ja/net/working-with-background-in-ods-files/)
 
+{{< app/cells/assistant language="csharp" >}}

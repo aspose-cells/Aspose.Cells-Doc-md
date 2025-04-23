@@ -16,3 +16,4 @@ Bazen, çalışma sayfalarını uygulamalarda veya web sayfalarında sunmanız g
 Sayfa-ile-resim özelliğini kullandığınızda, çıktı resminin etrafında beyaz/boş alan, yani bir kenar, bulunur. Bunun kaldırabilirsiniz. Kaynak çalışma sayfasının üst, sol, alt ve sağ sayfa düzeni kenar boşluklarını 0 olarak ayarlayın ve buna göre [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) özelliklerini belirtin.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-RemoveWhitespaceAroundData-1.java" >}}
+{{< app/cells/assistant language="java" >}}

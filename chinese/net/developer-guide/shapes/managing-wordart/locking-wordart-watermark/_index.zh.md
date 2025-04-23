@@ -14,3 +14,4 @@ Aspose.Cells API允许以一种使WordArt成为可以在工作表上移动和定
 Aspose.Cells API允许锁定水印的某些方面，从而可以限制或完全阻止用户交互。以下代码片段演示了使用Aspose.Cells for .NET API来锁定选择、移动、编辑和调整水印的用法，通过从头开始创建一个电子表格。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-LockingWordartWatermark-LockingWordartWatermark.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

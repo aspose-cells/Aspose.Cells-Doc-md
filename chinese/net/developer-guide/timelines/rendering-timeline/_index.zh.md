@@ -17,3 +17,4 @@ Aspose.Cells支持在不使用office 2013、office 2016、office 2019和office 3
 ### **示例代码**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Timelines-RenderingTimeline.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

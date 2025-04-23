@@ -50,3 +50,4 @@ Aspose.Cells permite cifrar y descifrar archivos ODS. El archivo ODS descifrado 
 Para descifrar un archivo ODS, carga el archivo proporcionando una contraseña en el [**LoadOptions.Password**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/password). Una vez que el archivo está cargado, establece el valor de la cadena [**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) como nulo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-DecryptingODSFiles-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

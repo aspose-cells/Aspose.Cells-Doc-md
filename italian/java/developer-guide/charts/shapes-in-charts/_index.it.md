@@ -16,7 +16,7 @@ A volte è necessario inserire oggetti disegno come etichette, caselle di testo,
 
 Le etichette forniscono un modo per fornire informazioni agli utenti sul contenuto di un foglio di calcolo. Aspose.Cells consente di aggiungere e manipolare le etichette anche nei grafici.
 
-La classe [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) fornisce un metodo chiamato [**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart(int,%20int,%20int,%20int)), usato per aggiungere un controllo etichetta a un grafico. Di seguito è riportato un elenco dei parametri utilizzati per il metodo:
+La classe [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) fornisce un metodo chiamato [**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart-int-int-int-int-), usato per aggiungere un controllo etichetta a un grafico. Di seguito è riportato un elenco dei parametri utilizzati per il metodo:
 
 - **top** – lo spostamento verticale dell'etichetta dall'angolo in alto a sinistra in unità dello 1/4000 dell'area del grafico.
 - **sinistra** – lo spostamento verticale dell'etichetta dall'angolo in alto a sinistra in unità dello 1/4000 dell'area del grafico.
@@ -46,7 +46,7 @@ Di seguito è riportato il codice originale per aggiungere un'etichetta al grafi
 
 ## **Aggiunta del controllo TextBox al grafico**
 
-Un modo per evidenziare informazioni importanti in un report è utilizzare una casella di testo. Ad esempio, inserire del testo per evidenziare il nome dell'azienda o per indicare la regione geografica con le vendite più alte. La classe [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) fornisce un metodo chiamato [**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart(int,%20int,%20int,%20int)), che viene utilizzato per aggiungere un controllo casella di testo a un grafico. Di seguito è riportato l'elenco dei parametri utilizzati per il metodo:
+Un modo per evidenziare informazioni importanti in un report è utilizzare una casella di testo. Ad esempio, inserire del testo per evidenziare il nome dell'azienda o per indicare la regione geografica con le vendite più alte. La classe [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) fornisce un metodo chiamato [**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart-int-int-int-int-), che viene utilizzato per aggiungere un controllo casella di testo a un grafico. Di seguito è riportato l'elenco dei parametri utilizzati per il metodo:
 
 - **top** – lo spostamento verticale della casella di testo dall'angolo in alto a sinistra in unità di 1/4000 dell'area del grafico.
 - **left** – lo spostamento verticale della casella di testo dall'angolo superiore sinistro in unità pari a 1/4000 dell'area del grafico.
@@ -69,7 +69,7 @@ Di seguito è riportato il codice originale per aggiungere una casella di testo 
 
 Aspose.Cells consente di inserire immagini in un grafico. Ad esempio, aggiungi un'immagine per enfatizzare o dare più significato a un grafico o ai suoi contenuti, o inserisci un file immagine del marchio.
 
-La classe [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) fornisce un metodo chiamato [**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart(int,%20int,%20java.io.InputStream,%20int,%20int)), che viene utilizzato per aggiungere un oggetto immagine al grafico. Di seguito è riportato l'elenco dei parametri utilizzati per il metodo:
+La classe [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) fornisce un metodo chiamato [**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart-int-int-java.io.InputStream-int-int-), che viene utilizzato per aggiungere un oggetto immagine al grafico. Di seguito è riportato l'elenco dei parametri utilizzati per il metodo:
 
 - **top** – lo spostamento verticale dell'immagine dall'angolo in alto a sinistra in unità di 1/4000 dell'area del grafico.
 - **left** – lo spostamento verticale dell'immagine dall'angolo in alto a sinistra in unità di 1/4000 dell'area del grafico.
@@ -100,3 +100,4 @@ L'immagine seguente mostra il foglio di lavoro del grafico con la casella di con
 Il [file di output](InsertCheckboxInChartSheet_out.xlsx) generato dal seguente frammento di codice è allegato per il tuo riferimento.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-InsertCheckboxInChartSheet-1.java" >}}
+{{< app/cells/assistant language="java" >}}

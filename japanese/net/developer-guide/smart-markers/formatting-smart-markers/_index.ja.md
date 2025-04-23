@@ -22,3 +22,4 @@ Smart Markersのグループ化データ機能を使用する場合、時々サ�
 この例では、[データファイル](96927971.xlsx) と [テンプレートファイル](96927972.xlsx) にいくつかのマーカーを含むセルが使用されます。コードを実行すると、Aspose.Cells はグループ化されたデータのサマリー行にいくつかのカスタムラベルを追加します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-AddCustomLabels-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

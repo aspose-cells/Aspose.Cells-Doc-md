@@ -22,3 +22,4 @@ Das folgende Beispiel zeigt, wie ein Bereich von Seiten (3 und 4) in einer Micro
 Wenn in der Tabelle Formeln enthalten sind, ist es am besten, [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) kurz vor der Umsetzung in PDF aufzurufen. Dadurch werden formelabhängige Werte neu berechnet und die korrekten Werte in der Ausgabedatei dargestellt.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

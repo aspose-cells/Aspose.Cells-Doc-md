@@ -275,3 +275,4 @@ renderer.toImage(0, "output.svg");
 ## **已弃用的API**
 ### **不推荐使用Workbook.validateFormula方法**
 请使用Cell.Formula属性验证公式。
+{{< app/cells/assistant language="java" >}}

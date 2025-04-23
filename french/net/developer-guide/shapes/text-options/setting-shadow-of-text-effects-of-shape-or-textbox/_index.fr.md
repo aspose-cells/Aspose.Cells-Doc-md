@@ -22,3 +22,4 @@ Vous pouvez définir l'**Ombre** des **Effets de Texte** de n'importe quelle For
 Le fragment de code suivant illustre l'utilisation de la propriété [**FontSetting.TextOptions.Shadow.PresetType.PresetType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype) pour définir l'ombre des effets de texte de la Forme ou de la Zone de Texte.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SettingTextEffectsShadowOfShapeOrTextbox-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -1,0 +1,71 @@
+---
+title: Créer un graphique bourse Volume Haut Bas Fermeture (VHLC) avec C++
+linktitle: Créer un graphique boursier Volume High Low Close (VHLC)
+description: Apprenez comment créer un graphique bourse volume haut bas fermeture avec Aspose.Cells for C++. Notre guide montrera comment tracer les données du marché boursier, y compris le volume, le haut, le bas et la fermeture, pour une meilleure analyse et visualisation.
+keywords: Aspose.Cells for C++, Graphique bourse Volume Haut Bas Fermeture, Données du marché boursier, Analyse, Visualisation.
+type: docs
+weight: 183
+url: /fr/cpp/create-volume-high-low-close-stock-chart/
+---
+
+## **Scénarios d'utilisation possibles**
+Le troisième graphique boursier que nous examinerons est le graphique Volume Haut Bas Fermeture. Il est encore une fois important de répéter que vous devez avoir les données dans le bon ordre. Si vous devez réorganiser votre tableau de données, faites-le avant de configurer votre graphique. Ce graphique comprend une colonne pour le volume immédiatement après la première (catégorie), et les graphiques incluent un graphique en colonnes sur l'axe primaire montrant ce volume, tandis que les prix sont déplacés vers l'axe secondaire.
+
+![todo:image_alt_text](data.png)
+## **Graphique boursier Volume-Haut-Bas-Fermeture (VHLC)**
+
+![todo:image_alt_text](sample.png)
+## **Code d'exemple**
+Le code d'exemple suivant charge le [fichier Excel d'exemple](Volume-High-Low-Close.xlsx) et génère le [fichier Excel de sortie](out.xlsx).
+
+```c++
+#include <iostream>
+#include "Aspose.Cells.h"
+using namespace Aspose::Cells;
+
+int main()
+{
+    Aspose::Cells::Startup();
+
+    // Create an instance of Workbook
+    Workbook workbook(u"Volume-High-Low-Close.xlsx");
+
+    // Access the first worksheet
+    Worksheet worksheet = workbook.GetWorksheets().Get(0);
+
+    // Create High-Low-Close Stock Chart
+    int32_t pieIdx = worksheet.GetCharts().Add(ChartType::StockVolumeHighLowClose, 5, 6, 20, 12);
+
+    // Retrieve the Chart object
+    Chart chart = worksheet.GetCharts().Get(pieIdx);
+
+    // Set the legend can be showed
+    chart.SetShowLegend(true);
+
+    // Set the chart title name 
+    chart.GetTitle().SetText(u"Volume-High-Low-Close Stock");
+
+    // Set the Legend at the bottom of the chart area
+    chart.GetLegend().SetPosition(LegendPositionType::Bottom);
+
+    // Set data range
+    chart.SetChartDataRange(u"A1:E9", true);
+
+    // Set category data 
+    chart.GetNSeries().SetCategoryData(u"A2:A9");
+
+    // Set Color for the first series (Volume) data 
+    chart.GetNSeries().Get(0).GetArea().SetForegroundColor(Color{ 79, 129, 189 });
+
+    // Fill the PlotArea area with nothing 
+    chart.GetPlotArea().GetArea().GetFillFormat().SetFillType(FillType::None);
+
+    // Save the Excel file
+    workbook.Save(u"out.xlsx");
+
+    std::cout << "Chart created and saved successfully!" << std::endl;
+
+    Aspose::Cells::Cleanup();
+}
+```
+

@@ -20,3 +20,4 @@ Aspose.Cells utilizza lo stesso motore di layout di pagina ad alta fedeltà per 
 ![todo:image_alt_text](xml-paper-specification-xps_2.png)
 
 ![todo:image_alt_text](xml-paper-specification-xps_3.png)
+{{< app/cells/assistant language="java" >}}

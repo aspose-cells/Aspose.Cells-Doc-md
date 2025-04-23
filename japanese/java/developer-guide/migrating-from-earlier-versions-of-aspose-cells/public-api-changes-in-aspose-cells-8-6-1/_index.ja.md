@@ -167,3 +167,4 @@ v8.6.1のリリースに伴い、Aspose.Cells for Java APIはCell.getFormatCondi
 ## **非推奨API**
 ### **Workbook.checkWriteProtectedPasswordメソッドの非推奨化**
 v8.6.1のリリースに伴い、Workbook.checkWriteProtectedPasswordメソッドは非推奨となりました。スプレッドシートの事前設定されたパスワードに一致する場合、WorkbookSettings.WriteProtection.validatePasswordメソッドを使用することが推奨されます。
+{{< app/cells/assistant language="java" >}}

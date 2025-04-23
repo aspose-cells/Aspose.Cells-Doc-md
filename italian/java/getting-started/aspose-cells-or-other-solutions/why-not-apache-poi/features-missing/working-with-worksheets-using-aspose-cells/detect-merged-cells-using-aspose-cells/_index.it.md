@@ -65,3 +65,4 @@ for(int i = al.size()-1 ; i > -1; i--)
 Per ulteriori dettagli, visita [Rilevare celle unite in un foglio di lavoro](/cells/it/java/detect-merged-cells-in-a-worksheet).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

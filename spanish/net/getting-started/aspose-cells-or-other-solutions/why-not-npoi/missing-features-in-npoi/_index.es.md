@@ -27,3 +27,4 @@ Esto incluye las siguientes características abundantes de Aspose.Cells en compa
   - [Establecer el color de la pestaña de la hoja de cálculo en Aspose.Cells](/cells/es/net/set-worksheet-tab-color-in-aspose-cells/)
 
 **Nota:** Pronto estarán disponibles muchos más ejemplos.
+{{< app/cells/assistant language="csharp" >}}

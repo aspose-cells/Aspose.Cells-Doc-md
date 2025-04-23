@@ -6,12 +6,13 @@ url: /ru/java/create-union-range/
 ---
 
 ## **Создать объединенный диапазон**
-Aspose.Cells предоставляет возможность создать объединенный диапазон с использованием метода [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)). Метод [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)) принимает два параметра - адрес для создания объединенного диапазона и индекс листа. Метод [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)) возвращает объект [UnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/UnionRange).
+Aspose.Cells позволяет создать объединённый диапазон с помощью метода [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange-java.lang.String-int-). Метод принимает два параметра: адрес для создания объединённого диапазона и индекс листа. В результате возвращается объект [UnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/UnionRange).
 
-В следующем фрагменте кода демонстрируется создание объединенного диапазона с использованием метода [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)). Прилагается файл сгенерированного кодом выходного файла для справки.
+Следующий пример демонстрирует создание объединённого диапазона с помощью метода [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange-java.lang.String-int-). Итоговый файл, сгенерированный этим кодом, прилагается для ознакомления.
 
 - [Выходной файл](CreateUnionRange_out.xlsx)
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-ChangeTickLabelDirection-1.java" >}}
+{{< app/cells/assistant language="java" >}}

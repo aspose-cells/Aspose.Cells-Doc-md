@@ -3,8 +3,8 @@ title: ページオプションの設定
 type: docs
 weight: 10
 url: /ja/python-net/setting-page-options/
-description: この記事では、Aspose.Cells for Python via .NET APIを使用してExcelワークシートのページオプションをプログラムで設定するサンプルコードを提供します。ページの方向、拡大/縮小率、FitToPagesオプション、用紙サイズ、印刷品質、最初のページ番号を設定できます。
-keywords: Python Excelライブラリ、PythonでExcelのページ方向を設定、PythonでExcelの拡大率を設定、PythonでExcelワークシートの用紙サイズを設定、Pythonでページ方向を設定する方法、Pythonで拡大率を設定する方法、PythonでFitToPagesオプションを設定する方法、Pythonで用紙サイズを設定する方法、Pythonで印刷品質を設定する方法、Pythonで最初のページ番号を設定する方法。
+description: この資料では、Aspose.Cells for Python via .NET API を使用してExcelワークシートのページオプションをプログラムで設定するサンプルコードを提供します。ページの向き、スケーリングファクター、ページフィット設定、用紙サイズ、印刷品質、最初のページ番号などを設定できます。
+keywords: Python Excelライブラリ、PythonでExcelページの向きを設定、スケーリング倍率を設定、ワークシートの用紙サイズをPythonで設定、ページの向き設定方法、スケーリング倍率設定方法、ページフィット設定方法、用紙サイズ設定方法、印刷品質設定方法、最初のページ番号設定方法。
 ---
 
 {{% alert color="primary" %}}
@@ -15,36 +15,36 @@ keywords: Python Excelライブラリ、PythonでExcelのページ方向を設�
 
 ## **ページオプションの設定方法**
 
-Aspose.Cells for Python via .NETでは、ページ設定オプションが完全にサポートされています。この記事では、Aspose.Cells for Python via .NETを使用してページオプションを設定する方法と、設定のためのコードサンプルを示します。
+ページ設定オプションは、Aspose.Cells for Python via .NETで完全にサポートされています。この資料では、Aspose.Cells for Python via .NET を使ったページオプションの設定方法について解説し、次の設定サンプルコードを示します：
 
-Aspose.Cells for Python via .NETは、Microsoft Excelファイルを表すクラス[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)を提供します。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)クラスには、Excelファイル内の各ワークシートにアクセスを許可するコレクション[**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets)が含まれています。ワークシートは[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)クラスによって表されます。
+Aspose.Cells for Python via .NET は、Microsoft Excelファイルを表すクラス [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) を提供します。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) クラスは、Excelファイル内の各ワークシートにアクセスできる [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) コレクションを含みます。ワークシートは [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) クラスで表されます。
 
 [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) クラスは、ワークシートのページセットアップオプションを設定するために使用される [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) プロパティを提供します。実際、この [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) プロパティは印刷されたワークシートの異なるページレイアウトオプションを設定するために使用される [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) クラスのオブジェクトです。[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) クラスには、ページセットアップオプションを設定するために使用されるさまざまなプロパティが提供されています。これらのプロパティのうちいくつかについては、以下で説明します。
 
-## **ページ方向の設定方法**
+## **ページの向き設定方法**
 
 ページの向きは、[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) クラスの [**orientation**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/orientation) プロパティを使用して縦または横に設定することができます。[**orientation**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/orientation) プロパティでは、以下のリストに示されている事前定義された値のいずれかを受け入れます。
 
 |**ページの向きの種類**|**説明**|
 | :- | :- |
-|LANDSCAPE|ランドスケープ方向|
-|PORTRAIT|ポートレート方向|
+|LANDSCAPE|横長|
+|PORTRAIT|縦長|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-PageOrientation-1.py" >}}
 
-## **拡大率の設定方法**
+## **スケーリング倍率の設定方法**
 
 ワークシートのサイズを調整することが可能で、これは [**PageSetup.zoom**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/zoom) プロパティを使用してスケーリングファクターを調整することによって行われます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-ScalingFactor-1.py" >}}
 
-## **FitToPagesオプションの設定方法**
+## **フィットページ設定の方法**
 
 ワークシートのコンテンツを特定のページ数に合わせるには、[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) クラスの [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/) および [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/) プロパティを使用します。これらのプロパティは、ワークシートをスケーリングするためにも使用されます。
 
 {{% alert color="primary" %}}
 
-[**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/)と[**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/)のいずれか、または[**zoom**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/zoom)プロパティを選択できますが、同時に両方を選択することはできません。
+いずれかの [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/) または [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/) プロパティを選択できますが、両方同時に使用することはできません。
 
 {{% /alert %}}
 

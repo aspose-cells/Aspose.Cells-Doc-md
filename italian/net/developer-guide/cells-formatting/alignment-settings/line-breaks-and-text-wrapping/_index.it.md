@@ -24,3 +24,4 @@ Per incapsulare il testo in una cella, utilizzare la proprietà [**Aspose.Cells.
 Puoi utilizzare '\n' in C# e ' vbLf' in VB.NET per inserire ritorni a capo espliciti in una cella.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-UseExplicitLineBreaks-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

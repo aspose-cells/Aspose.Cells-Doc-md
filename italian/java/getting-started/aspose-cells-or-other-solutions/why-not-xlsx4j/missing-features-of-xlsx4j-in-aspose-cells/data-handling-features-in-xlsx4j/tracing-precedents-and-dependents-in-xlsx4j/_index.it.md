@@ -118,3 +118,4 @@ for (int i = 0; i< dependents.length; i++)
 Per ulteriori dettagli, visita [Tracciare i preponenti e i dipendenti](/java/tracing-precedents-and-dependents).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

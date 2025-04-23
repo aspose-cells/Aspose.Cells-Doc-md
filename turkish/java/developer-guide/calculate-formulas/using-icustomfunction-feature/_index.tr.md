@@ -2,7 +2,9 @@
 title: ICustomFunction Özelliği Kullanımı
 type: docs
 weight: 890
-url: /tr/java/using-icustomfunction-feature/
+url: /tr/java/how-to-calculate-custom-fuctions/
+description: Bu makale, Aspose.Cells kütüphanesinde ICustomFunction özelliğini kullanarak Microsoft Excel de özel bir işlev oluşturmanın nasıl yapılacağını açıklar. Varolan bir Excel dosyasını yükleyerek veya yeni bir Excel dosyası oluşturarak, Aspose.Cells tarafından sağlanan yöntemleri kullanarak özel işlevleri tanımlayabilir ve kaydederiz ve sonunda değiştirilmiş Excel dosyasını diske kaydederiz.
+keywords: Aspose.Cells, Excel, ICustomFunction özellikleri, özel fonksiyonlar, özel fonksiyonların nasıl hesaplanacağı.
 ---
 
 {{% alert color="primary" %}} 
@@ -203,3 +205,4 @@ Aspose.Cells API'leri tarafından 'paramsList' içine ReferredArea verildiğinde
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -10,3 +10,5 @@ url: /zh/java/known-issues/
 - [如何解决加载大型电子表格时发生 java.lang.OutOfMemoryError](/cells/zh/java/how-to-fix-the-java-lang-outofmemoryerror-while-loading-large-spreadsheets/)
 - [java.lang.ClassNotFoundException org.bouncycastle.jce.provider.BouncyCastleProvider](/cells/zh/java/java-lang-classnotfoundexception-org-bouncycastle-jce-provider-bouncycastleprovider/)
 - [如何解决异常 - 无法初始化类 sun.font.FontScaler](/cells/zh/java/how-to-fix-exception-could-not-initialize-class-sun-font-fontscaler/)
+- [如何修复 RuntimeException - Fontconfig head is null](/cells/zh/java/how-to-fix-runtimeexception-fontconfig-head-is-null/)
+{{< app/cells/assistant language="java" >}}

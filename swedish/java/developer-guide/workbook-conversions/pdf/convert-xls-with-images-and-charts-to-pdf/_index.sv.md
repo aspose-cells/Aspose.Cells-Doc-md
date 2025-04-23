@@ -27,3 +27,4 @@ Om kalkylbladet innehåller formler är det bäst att anropa metoden [**Workbook
 
 - [Konvertera Excel-fil till PDF-format kompatibelt med PDFA-1a](/cells/sv/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [Diagramrendering](/cells/sv/java/chart-rendering/)
+{{< app/cells/assistant language="java" >}}

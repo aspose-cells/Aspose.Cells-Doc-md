@@ -31,3 +31,4 @@ Aspose.Cells API 提供了为[工作表](https://reference.aspose.com/cells/java
 在这种情况下，生成的电子表格将如下图所示。
 
 ![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)
+{{< app/cells/assistant language="java" >}}

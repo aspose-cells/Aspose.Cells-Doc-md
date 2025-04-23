@@ -74,3 +74,4 @@ Par défaut, la chaîne de calcul est désactivée. Parce que la création de la
 - [Définir le mode de calcul de formule du classeur](/cells/fr/net/setting-formula-calculation-mode-of-workbook/)
 - [Utilisation de la fonction FormulaText dans Aspose.Cells](/cells/fr/net/using-formulatext-function-in-aspose-cells/)
 - [Utiliser la fonctionnalité ICustomFunction](/cells/fr/net/using-icustomfunction-feature/)
+{{< app/cells/assistant language="csharp" >}}

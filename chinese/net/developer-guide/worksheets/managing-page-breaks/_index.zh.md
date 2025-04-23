@@ -57,3 +57,4 @@ Aspose.Cells 提供了一个代表 Excel 文件的 [**Workbook**](https://refere
 ## **重要提示**
 
 当您在页面设置中设置 **FitToPages** 属性（即 [**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) 和 [**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)）时，分页符设置会受影响，因此，如果您打印工作表，分页符设置不会考虑，尽管它们仍然被设置。
+{{< app/cells/assistant language="csharp" >}}

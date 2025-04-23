@@ -53,3 +53,4 @@ row.setZeroHeight(true);
 有关更多详细信息，请访问[Hiding and Showing Rows and Columns](/java/hiding-and-showing-rows-and-columns)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

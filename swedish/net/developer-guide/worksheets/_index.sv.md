@@ -87,3 +87,4 @@ Följande exempel visar hur du aktiverar ett kalkylblad och gör en cell aktiv i
 - [Använd Sheet.SheetId-egenskapen i OpenXml med hjälp av Aspose.Cells](/cells/sv/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [Kalkylbladsvyer](/cells/sv/net/worksheet-views/)
 
+{{< app/cells/assistant language="csharp" >}}

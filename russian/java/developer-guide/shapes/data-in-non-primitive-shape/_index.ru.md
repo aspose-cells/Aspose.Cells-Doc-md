@@ -11,7 +11,7 @@ url: /ru/java/data-in-non-primitive-shape/
 
 ## **Форма не примитивной формы**
 
-В Aspose.Cells, не примитивным формам назначается тип [**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT_PRIMITIVE). Вы можете проверить их тип, используя метод [**Shape.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType).
+В Aspose.Cells, не примитивным формам назначается тип [**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT-PRIMITIVE). Вы можете проверить их тип, используя метод [**Shape.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType).
 
 Получите доступ к данным формы, используя метод [**Shape.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths). Это возвращает все соединенные пути, которые составляют не примитивную форму. Эти пути имеют тип FormPath, который содержит список всех сегментов, которые в свою очередь содержат точки в каждом сегменте.
 
@@ -22,3 +22,4 @@ url: /ru/java/data-in-non-primitive-shape/
 ![todo:image_alt_text](data-in-non-primitive-shape_1.jpg)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-NonPrimitiveShape-1.java" >}}
+{{< app/cells/assistant language="java" >}}

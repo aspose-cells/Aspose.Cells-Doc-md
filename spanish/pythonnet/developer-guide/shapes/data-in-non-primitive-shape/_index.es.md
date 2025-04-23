@@ -3,8 +3,8 @@ title: Datos en forma no primitiva
 type: docs
 weight: 300
 url: /es/python-net/data-in-non-primitive-shape/
-description: Este artículo muestra datos en forma no primitiva a través de la API Aspose.Cells para Python via .NET.
-keywords: Biblioteca de Excel de Python, Datos en forma no primitiva en Python, cómo acceder a los datos de una forma no primitiva en Python.
+description: Este artículo muestra datos en formas no primitivas a través de la API Aspose.Cells para Python via .NET.
+keywords: Biblioteca de Excel para Python, Datos en formas no primitivas en Python, Cómo acceder a los datos de formas no primitivas en Python.
 ---
 
 ## **Acceso a datos de forma no primitiva**
@@ -13,7 +13,7 @@ A veces, necesitas acceder a datos de una forma que no está incorporada. Las fo
 
 ## **Una forma no primitiva**
 
-En Aspose.Cells para Python via .NET, las formas no primitivas se asignan al tipo [**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/autoshapetype). Puedes verificar su tipo utilizando la propiedad [**Shape.auto_shape_type**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/auto_shape_type).
+En Aspose.Cells para Python via .NET, las formas no primitivas se asignan al tipo [**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/autoshapetype). Puedes verificar su tipo usando la propiedad [**Shape.auto_shape_type**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/auto_shape_type).
 
 Acceda a los datos de la forma utilizando la propiedad [**Shape.paths**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/paths). Devuelve todos los caminos conectados que componen la forma no primitiva. Estos caminos son del tipo [**ShapePath**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shapepath) que contiene una lista de todos los segmentos que a su vez contienen los puntos en cada segmento.
 

@@ -189,3 +189,4 @@ Aspose.Cells 17.1.0 a également exposé le champ PERCENTAGE à l'énumération 
 ## **APIs supprimées**
 ### **Option m_LoadDataFilterOptions de l'instance supprimée**
 Cette version a supprimé la variable d'instance m_LoadDataFilterOptions. Il est conseillé d'utiliser la propriété LoadFilter.LoadDataFilterOptions à la place.
+{{< app/cells/assistant language="java" >}}

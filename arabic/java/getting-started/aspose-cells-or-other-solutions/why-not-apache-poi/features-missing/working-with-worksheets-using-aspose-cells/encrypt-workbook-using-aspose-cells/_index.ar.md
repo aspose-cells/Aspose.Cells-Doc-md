@@ -44,3 +44,4 @@ workbook.save(dataDir + "AsposeEncryptedWorkBook.xls");
 لمزيد من التفاصيل، قم بزيارة [تشفير ملفات Excel](/cells/ar/java/encrypting-excel-files/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

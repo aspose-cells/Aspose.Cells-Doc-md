@@ -47,3 +47,4 @@ Wenn Sie ein Beispiel hinzufügen oder verbessern möchten, ermutigen wir Sie, z
 
 Um beizutragen, können Sie das Repository forken, den Quellcode bearbeiten und einen Pull-Request erstellen. Wir werden die Änderungen überprüfen und sie in das Repository aufnehmen, wenn sie hilfreich sind.
 
+{{< app/cells/assistant language="java" >}}

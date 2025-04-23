@@ -372,3 +372,4 @@ url: /ar/java/spreadsheet-editor-working-with-rows-and-columns/
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

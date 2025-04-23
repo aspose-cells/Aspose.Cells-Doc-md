@@ -41,3 +41,4 @@ Scarica **Imposta titoli di stampa** da uno dei siti di codice sociale qui sotto
 Per maggiori dettagli, visita [Impostazione delle opzioni di stampa](/cells/it/net/setting-print-options/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

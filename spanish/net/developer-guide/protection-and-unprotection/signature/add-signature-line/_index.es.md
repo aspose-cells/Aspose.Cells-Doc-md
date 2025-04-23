@@ -21,3 +21,4 @@ El siguiente código de muestra demuestra cómo usar la propiedad [**Picture.Sig
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Add-Signature-Line.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

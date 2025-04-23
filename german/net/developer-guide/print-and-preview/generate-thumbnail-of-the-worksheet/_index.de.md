@@ -16,3 +16,4 @@ Mit Aspose.Cells for .NET können Arbeitsblätter problemlos in Bilddateien ausg
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-GenerateThumbnailOfWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

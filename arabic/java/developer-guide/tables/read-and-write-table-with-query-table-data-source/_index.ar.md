@@ -15,3 +15,4 @@ url: /ar/java/read-and-write-table-with-query-table-data-source/
 [ملف المصدر](SampleTableWithQueryTable.xls)
 
 [ملف الإخراج](SampleTableWithQueryTable_out.xls)
+{{< app/cells/assistant language="java" >}}

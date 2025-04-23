@@ -14,7 +14,7 @@ Aspose.Cells bietet die Methode CellsHelper.CellIndexToName, mit der Entwickler 
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel beginnt mit der Zählung von Zeilen- und Spaltenindizes bei 1. Im Gegensatz zu Microsoft Excel beginnt Aspose.Cells mit der Zählung von Zeilen- und Spaltenindizes bei 0.
+Microsoft Excel beginnt die Zählung der Zeilen- und Spaltenindizes bei 1. Im Gegensatz dazu beginnt Aspose.Cells die Zählung der Zeilen- und Spaltenindizes bei 0.
 
 {{% /alert %}} 
 
@@ -29,7 +29,7 @@ Aspose.Cells bietet die Methode CellsHelper.CellNameToIndex, mit der Entwickler 
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel beginnt mit der Zählung von Zeilen- und Spaltenindizes bei 1. Im Gegensatz zu Microsoft Excel beginnt Aspose.Cells mit der Zählung von Zeilen- und Spaltenindizes bei 0.
+Microsoft Excel beginnt die Zählung der Zeilen- und Spaltenindizes bei 1. Im Gegensatz dazu beginnt Aspose.Cells die Zählung der Zeilen- und Spaltenindizes bei 0.
 
 {{% /alert %}} 
 
@@ -50,3 +50,4 @@ Ergebnis:
 das ist der erste Name, der erstellt wurde
 
 ` `<> + (Adj. Privat _ "Privat"
+{{< app/cells/assistant language="csharp" >}}

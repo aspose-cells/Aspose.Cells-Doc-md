@@ -12,3 +12,4 @@ url: /zh/net/smart-markers-in-aspose-cells/
 - [智能标记功能](/cells/zh/net/smart-markers-feature/)
 - [使用匿名类型或自定义对象](/cells/zh/net/using-anonymous-types-or-custom-objects/)
 - [使用嵌套对象](/cells/zh/net/using-nested-objects/)
+{{< app/cells/assistant language="csharp" >}}

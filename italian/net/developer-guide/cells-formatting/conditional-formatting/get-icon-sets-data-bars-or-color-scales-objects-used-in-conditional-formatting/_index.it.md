@@ -18,3 +18,4 @@ Il seguente esempio di codice mostra come leggere serie di icone utilizzate per 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-GetIconSetsDataBars-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -25,3 +25,4 @@ Aspose.Cells for .NET, [**ShapeCollection.AddLinkedPicture(int upperLeftRow, int
 Aşağıdaki örnek, bir elektronik tabloya hücre referansı üzerinden bağlantılı resim eklemenin nasıl yapılacağını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertLinkedPicture-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

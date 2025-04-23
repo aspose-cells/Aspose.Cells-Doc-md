@@ -58,3 +58,4 @@ Aspose.Cells, çalışma zamanında koşullu biçimlendirme uygulamayı destekle
 - [Çalışma Kitaplarında Koşullu Biçimlendirme Uygulamak](/cells/tr/java/apply-conditional-formatting-in-worksheets/)
 - [Koşullu Biçimlendirme ile Sıfır Satır ve Sütunlara Gölgelendirme Uygulamak](/cells/tr/java/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
 
+{{< app/cells/assistant language="java" >}}

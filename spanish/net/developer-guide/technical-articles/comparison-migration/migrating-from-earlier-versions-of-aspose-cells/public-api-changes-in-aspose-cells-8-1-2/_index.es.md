@@ -20,3 +20,4 @@ Por favor revise el artículo detallado en [Obtener Advertencias por Sustitució
 {{% /alert %}}
 ## **Se eliminó la propiedad obsoleta PdfSaveOptions.ChartImageType**
 Aspose.Cells for .NET 8.1.2 ha eliminado la propiedad obsoleta PdfSaveOptions.ChartImageType de la API pública.
+{{< app/cells/assistant language="csharp" >}}

@@ -35,3 +35,4 @@ El siguiente fragmento de código demuestra cómo administrar las etiquetas de d
 - [Etiqueta de datos personalizada de texto enriquecido del punto del gráfico](/cells/es/net/rich-text-custom-data-label-of-chart-point/)
 - [Establecer el tipo de forma de las etiquetas de datos del gráfico](/cells/es/net/set-the-shape-type-of-data-labels-of-chart/)
 - [Mostrar el rango de celdas como las etiquetas de datos](/cells/es/net/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="csharp" >}}

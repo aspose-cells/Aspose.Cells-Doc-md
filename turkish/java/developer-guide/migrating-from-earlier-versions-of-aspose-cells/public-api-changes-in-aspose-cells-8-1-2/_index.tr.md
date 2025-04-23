@@ -20,3 +20,4 @@ Font Değiştirme Uyarılarını Almak için Detaylı Makaleye bakın [Spreadshe
 {{% /alert %}}
 ## **Artık Kullanılmayan PdfSaveOptions.ChartImageType Özelliği Silindi**
 Aspose.Cells for Java8.1.2, PdfSaveOptions.ChartImageType özelliğini genel API'dan kaldırdı.
+{{< app/cells/assistant language="java" >}}

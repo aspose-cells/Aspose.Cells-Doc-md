@@ -9,3 +9,4 @@ url: /ru/net/miscellaneous-examples-in-aspose-cells/
 - [Преобразовать электронные таблицы в PDF в Aspose.Cells](/cells/ru/net/convert-spreadsheet-to-pdf-in-aspose-cells/)
 - [Печать книг в Aspose.Cells](/cells/ru/net/printing-workbooks-in-aspose-cells/)
 - [Установка заголовков для печати](/cells/ru/net/set-print-titles/)
+{{< app/cells/assistant language="csharp" >}}

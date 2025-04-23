@@ -133,3 +133,4 @@ var chart = book.Worksheets[0].Charts[0];
 chart.PlotArea.SetPositionAuto();
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

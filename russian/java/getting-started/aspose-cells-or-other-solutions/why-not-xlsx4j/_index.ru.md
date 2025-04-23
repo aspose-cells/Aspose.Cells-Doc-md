@@ -140,3 +140,4 @@ Aspose.Cells Java для xlsx4j - это открытый исходный ко�
     - [Отображение и скрытие вкладок книги в xlsx4j](/cells/ru/java/display-and-hide-tabs-of-workbook-in-xlsx4j/)
     - [Сохранение каждого листа в разные PDF в xlsx4j](/cells/ru/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
     - [Установка цвета вкладки листа в xlsx4j](/cells/ru/java/set-worksheet-tab-color-in-xlsx4j/)
+{{< app/cells/assistant language="java" >}}

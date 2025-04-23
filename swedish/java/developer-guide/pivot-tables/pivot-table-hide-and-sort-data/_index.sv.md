@@ -17,3 +17,4 @@ Käll- och utdata-excelfilerna som används i kodsnutten är bifogade för refer
 [Källfil](PivotTableHideAndSortSample.xlsx)
 
 [Utfilsfil](PivotTableHideAndSort_out.xlsx)
+{{< app/cells/assistant language="java" >}}

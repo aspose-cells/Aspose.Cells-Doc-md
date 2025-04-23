@@ -28,3 +28,4 @@ Yukarıdaki örnek kodun çıktısını aşağıdaki ekran görüntüsünde gör
 ## İlgili Makaleler
 
 - [Hücre İçinde HTML Zengin Metin Ekleme](/cells/tr/java/adding-html-rich-text-inside-the-cell/)
+{{< app/cells/assistant language="java" >}}

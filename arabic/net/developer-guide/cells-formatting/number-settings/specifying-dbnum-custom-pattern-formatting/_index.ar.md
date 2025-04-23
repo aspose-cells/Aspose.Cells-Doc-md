@@ -16,3 +16,4 @@ url: /ar/net/specifying-dbnum-custom-pattern-formatting/
 يوضح كود العينة التالي كيفية تحديد تنسيق النمط المخصص *DBNum*. يرجى التحقق من [ملف الـPDF الناتج](43352081.pdf) للمزيد من المساعدة.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SpecifyingDBNumCustomPatternFormatting.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

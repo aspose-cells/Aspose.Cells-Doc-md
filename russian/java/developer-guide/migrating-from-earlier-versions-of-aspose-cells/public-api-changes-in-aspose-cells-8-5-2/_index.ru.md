@@ -174,3 +174,4 @@ Aspose.Cells for Java 8.5.2 выставил поле ConsolidationFunction.DIST
 Функция сведения уникальных значений поддерживается только в Microsoft Excel 2013.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -34,3 +34,4 @@ Si prega di controllare l'articolo dettagliato su [Come Creare, Manipolare o Rim
 {{% /alert %}}
 ## **Modifica del comportamento per CellsException**
 Con le versioni precedenti dell'API Aspose.Cells for Java, quando un foglio di calcolo eventualmente danneggiato veniva caricato in un'istanza di Workbook, l'API tendeva a generare un messaggio generico senza specificare dove potesse essere il problema. Abbiamo modificato questo comportamento per la versione 8.1.1 in modo che l'API generi un'eccezione con un messaggio significativo che indica dove (quale cella) e cosa (espressione della formula) causa l'eccezione durante la lettura del file modello.
+{{< app/cells/assistant language="java" >}}

@@ -16,3 +16,4 @@ L'exemple de code ci-dessous montre comment créer une plage nommée non séquen
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ImplementingNonSequencedRanges-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

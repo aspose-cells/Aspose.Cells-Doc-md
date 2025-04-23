@@ -11,7 +11,7 @@ Dieses Anfängerthema zeigt, wie Entwickler mithilfe der einfachen API von Aspos
 
 {{% /alert %}}
 
-### **Erstellen der Hello World-Anwendung**
+## **Erstellen der Hello World-Anwendung**
 
 Um die Hello World-Anwendung mit der Aspose.Cells-API zu erstellen:
 
@@ -26,7 +26,7 @@ Um die Hello World-Anwendung mit der Aspose.Cells-API zu erstellen:
 
 Die folgenden Beispiele demonstrieren die obigen Schritte.
 
-#### **Erstellen eines Arbeitsblatts**
+### **Erstellen eines Arbeitsblatts**
 
 Das folgende Beispiel erstellt ein neues Arbeitsblatt von Grund auf, schreibt die Worte 'Hallo Welt!' in die Zelle A1 des ersten Arbeitsblatts und speichert die Datei.
 
@@ -36,7 +36,7 @@ Das folgende Beispiel erstellt ein neues Arbeitsblatt von Grund auf, schreibt di
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "CreatingHelloWorldFile.py" >}}
 
-#### **Öffnen einer vorhandenen Datei**
+### **Öffnen einer vorhandenen Datei**
 
 Das folgende Beispiel öffnet eine vorhandene Microsoft Excel-Vorlagendatei namens **book1.xls**, schreibt die Worte 'Hallo Welt!' in die Zelle A1 im ersten Arbeitsblatt und speichert das Arbeitsblatt als neue Datei.
 

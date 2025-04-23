@@ -18,3 +18,4 @@ Aşağıdaki örnek kod, [örnek Excel dosyasını](61767776.xlsx) yükler ve HT
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-ExportDocumentWorkbookAndWorksheetPropertiesInHTML.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

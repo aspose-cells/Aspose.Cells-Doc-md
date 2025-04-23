@@ -3,8 +3,8 @@ title: Upptäcka tomma kalkylblad
 type: docs
 weight: 410
 url: /sv/python-net/detecting-empty-worksheets/
-description: Den här artikeln visar dig kod som förklarar hur man upptäcker tomma kalkylblad i Excel arbetsböcker programmatoriskt med hjälp av Aspose.Cells för Python via .NET biblioteket.
-keywords: Python Excel Library, upptäck tomt arbetsblad med python, hitta tomt excel kalkylblad i python.
+description: Denna artikel visar kodexempel som förklarar hur man detekterar tomma arbetsblad i Excel arbetsböcker programmatiskt med Aspose.Cells för Python via .NET bibliotek.
+keywords: Python Excel bibliotek, detektera tomt arbetsblad med Python, hitta tomt Excel ark i Python.
 ---
 
 ## **Kontrollera Populerade celler**
@@ -19,11 +19,11 @@ Kalkylblad kan ha en eller flera celler som är befolkade med värden där ett v
 
 ## **Kontrollera toma initialiserade celler**
 
-Alla celler som har värden initieras automatiskt, men det finns en möjlighet att ett kalkylblad har celler endast med formatering tillämpad. I ett sådant scenario kommer egenskaperna [**Cells.max_data_row**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_row/) eller [**Cells.max_data_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_column/) att returnera -1 vilket indikerar avsaknaden av några befolkade värden men initierade celler på grund av att cellformatering inte kan detekteras med denna metod. För att kontrollera om ett kalkylblad har tomma initierade celler rekommenderas det att använda IEnumerator.MoveNext-metoden på en Enumerator som förvärvats från [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) -samlingen. Om IEnumerator.MoveNext-metoden returnerar **true** betyder det att det finns en eller flera initierade celler i det angivna kalkylbladet.
+Alla celler som har värden är automatiskt initialiserade, men det finns en möjlighet att ett arbetsblad har celler endast med formatering. I ett sådant scenario kommer egenskapen [**Cells.max_data_row**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_row/) eller [**Cells.max_data_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_data_column/) att returnera -1, vilket indikerar att det inte finns några ifyllda värden, men initialiserade celler kan inte upptäckas med denna metod pga. cellformatet. För att kontrollera om ett arbetsblad har tomma initialiserade celler rekommenderas att använda IEnumerator.MoveNext-metoden på enumeratorn som erhållits från [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) samlingen. Om IEnumerator.MoveNext returnerar **true** betyder det att det finns en eller flera initialiserade celler i det angivna arbetsbladet.
 
 ## **Kontrollera former**
 
-Det är möjligt att ett visst kalkylblad inte har några befolkade celler, men det kan innehålla former & objekt som kontroller, diagram, bilder och så vidare. Om vi behöver kontrollera om ett kalkylblad innehåller någon form, kan vi göra det genom att inspektera [**ShapeCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shapecollection) elementen. Ett positivt värde indikerar närvaron av form(er) i kalkylbladet.
+Det är möjligt att ett givet arbetsblad inte har några ifyllda celler, men det kan innehålla former och objekt såsom kontroller, diagram, bilder med mera. Om vi behöver kontrollera om ett arbetsblad innehåller några former kan vi göra det genom att inspektera [**ShapeCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shapecollection) element. Ett positivt värde indikerar att det finns form(er) i arbetsbladet.
 
 ## **Programmeringsexempel**
 

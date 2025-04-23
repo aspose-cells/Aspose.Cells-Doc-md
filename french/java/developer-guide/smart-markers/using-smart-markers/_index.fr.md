@@ -169,3 +169,4 @@ Parfois, il peut être nécessaire de recevoir des notifications sur la référe
 Pour un exemple de code et une explication détaillée, veuillez consulter cet article.
 
 - [Recevoir des notifications lors de la fusion de données avec des marqueurs intelligents](/cells/fr/java/getting-notifications-while-merging-data-with-smart-markers/)
+{{< app/cells/assistant language="java" >}}

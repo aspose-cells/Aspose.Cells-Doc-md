@@ -174,3 +174,4 @@ v8.6.1のリリースに伴い、Aspose.Cells for .NET APIはCell.GetFormatCondi
 ## **非推奨API**
 ### **Workbook.CheckWriteProtectedPassword メソッドを非推奨にしました**
 v8.6.1 のリリースに伴い、Workbook.CheckWriteProtectedPassword メソッドが非推奨となりました。スプレッドシートの事前設定されたパスワードと一致する場合に真偽値を返す WorkbookSettings.WriteProtection.ValidatePassword メソッドを使用することが推奨されます。
+{{< app/cells/assistant language="csharp" >}}

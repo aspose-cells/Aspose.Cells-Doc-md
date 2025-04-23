@@ -37,3 +37,4 @@ Aspose.Cellsの豊富な機能について、xlsx4jと比較して含まれて�
   - [xlsx4jでワークシートのタブの色を設定する](/cells/ja/java/set-worksheet-tab-color-in-xlsx4j/)
 
 **注意:** さらに多くの例が近日公開予定です。
+{{< app/cells/assistant language="java" >}}

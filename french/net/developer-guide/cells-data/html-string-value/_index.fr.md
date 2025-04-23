@@ -26,3 +26,4 @@ L'exemple de code ci-dessous vous montre comment ajouter du texte enrichi HTML d
 
 - [Afficher des puces en définissant la valeur de la cellule à l'aide de HTML](/cells/fr/net/display-bullets-by-setting-cell-value-using/)
 - [Obtenir une chaîne HTML5 à partir de la cellule](/cells/fr/net/get-html5-string-from-cell/)
+{{< app/cells/assistant language="csharp" >}}

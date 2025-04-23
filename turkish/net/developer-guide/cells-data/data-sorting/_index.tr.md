@@ -58,3 +58,4 @@ Bu özelliği test etmek için indirilebilecek örnek dosyalar aşağıda sunulm
 ## **Gelişmiş Konular**
 - [Özel Sıralama Listesi ile Sütunda Verileri Sıralama](/cells/tr/net/sort-data-in-column-with-custom-sort-list/)
 - [Veri Sıralama Sırasında Uyarıyı Belirtme](/cells/tr/net/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="csharp" >}}

@@ -29,24 +29,24 @@ url: /ar/java/named-ranges/
 
 توفر Aspose.Cells فئة، [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)، التي تمثل ملف Microsoft Excel. تحتوي فئة [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) على [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يُمثل ورقة العمل بواسطة فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). توفر فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells).
 
-من الممكن إنشاء نطاق مسمى عن طريق استدعاء طراز [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\)) المتحمل لمجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). يأخذ الإصدار النمطي لطراز [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\)) المتحمل التالي المعلمات:
+من الممكن إنشاء نطاق مسمى عن طريق استدعاء النسخة المحملة فوق من طريقة [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-java.lang.String-java.lang.String-) من مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). تأخذ نسخة [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-java.lang.String-java.lang.String-) النموذجية المعاملات التالية:
 
 - اسم الخلية العلوي الأيمن، اسم الخلية العلوي الأيسر في النطاق.
 - اسم الخلية السفلي الأيمن، اسم الخلية السفلي الأيمن في النطاق.
 
-عند استدعاء طراز [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\))، يُرجع النطاق المسمى الجديد كمثيل لفئة [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range).
+عند استدعاء طريقة [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-java.lang.String-java.lang.String-), فهي تعود بنطاق مسمى جديد ككائن من نوع [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range).
 
 يوضح المثال التالي كيفية إنشاء نطاق مسمى من الخلايا التي تمتد من B4 إلى G14.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-CreateNamedRangeofCells-CreateNamedRangeofCells.java" >}}
 #### **الوصول إلى جميع النطاقات المسماة في ورق عمل**
-استدعاء طراز [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\)) لـ [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) للحصول على جميع النطاقات المسماة في ورق عمل. يُرجع طراز [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\)) مصفوفة بجميع النطاقات المسماة في [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection).
+اتصل بطريقة [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges--) من مجموعة [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) للحصول على جميع النطاقات المسماة في جدول البيانات. تعود طريقة [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges--) بمصفوفة من جميع النطاقات المسماة في مجموعة الأوراق.
 
 يوضح المثال التالي كيفية الوصول إلى جميع النطاقات المسماة في ورق عمل.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AccessAllNamedRanges-AccessAllNamedRanges.java" >}}
 #### **الوصول إلى نطاق مسمى محدد**
-اتصل بمجموعة [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) باستخدام الطريقة [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\)) للحصول على نطاق محدد بواسطة الاسم. تأخذ الطريقة النموذجية [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\)) اسم النطاق المسمى وتعيد النطاق المسمى المحدد كمثيل لفئة [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range).
+اتصل بطريقة [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName-java.lang.String-) من مجموعة [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) للحصول على نطاق معين بالاسم. تأخذ طريقة [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName-java.lang.String-) النموذجية اسم النطاق المسمى وتعيد النطاق المسمى المحدد ككائن من نوع [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range).
 
 يظهر المثال التالي كيفية الوصول إلى نطاق محدد بواسطة اسمه.
 
@@ -76,7 +76,7 @@ url: /ar/java/named-ranges/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FormatRanges1-FormatRanges1.java" >}}
 #### **تنسيق النطاقات...إضافة حدود إلى نطاق مسمى**
-من الممكن إضافة حدود إلى مجموعة من الخلايا بدلاً من خلية واحدة فقط. توفر فئة [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) طريقة [setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\)) التي تأخذ المعلمات التالية لإضافة حد لمجموعة الخلايا:
+من الممكن إضافة حدود لنطاق من الخلايا بدلاً من خلية واحدة فقط. يوفر كائن [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) طريقة [setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders-int-com.aspose.cells.Color-) التي تأخذ المعاملات التالية لإضافة حد إلى نطاق الخلايا:
 
 - نمط الحد: نوع الحد، محدد من تعداد [CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType).
 - لون الحد: لون الخط للحد، محدد من تعداد [Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color).
@@ -90,16 +90,17 @@ url: /ar/java/named-ranges/
 
 ![todo:image_alt_text](named-ranges_1.png)
 #### **تطبيق النمط الى الخلايا في مجموعة**
-أحيانًا، ترغب في إنشاء تطبيق النمط على الخلايا في [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range). لهذا الغرض، قد تكرر عبر الخلايا في النطاق وتستخدم طريقة [Cell.setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) لتطبيق النمط على الخلية.
+أحيانًا، تريد إنشاء وتطبيق نمط على خلايا [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range). للقيام بذلك، يمكنك التكرار على الخلايا في النطاق واستخدام طريقة [Cell.setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle-com.aspose.cells.Style-) لتطبيق النمط على الخلية.
 
 المثال التالي يوضح كيفية تطبيق الأنماط على الخلايا في مجموعة.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ConvertCellsAddresstoRangeorCellArea-ConvertCellsAddresstoRangeorCellArea.java" >}}
 #### **إزالة نطاق مسمى**
-توفر Aspose.Cells الطريقة [NameCollection.RemoveAt()](https://reference.aspose.com/cells/java/com.aspose.cells/namecollection#removeAt\(int\)) لمسح اسم النطاق. لمسح محتويات النطاق، استخدم طريقة [Cells.ClearRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#clearRange\(com.aspose.cells.CellArea\)) ميثود.
+يوفر Aspose.Cells طريقة [NameCollection.RemoveAt()](https://reference.aspose.com/cells/java/com.aspose.cells/namecollection#removeAt-int-) لمسح اسم النطاق. لمسح محتويات النطاق، استخدم طريقة [Cells.ClearRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#clearRange-com.aspose.cells.CellArea-) الخاصة بـ Aspose.Cells.
 المثال التالي يوضح كيفية إزالة نطاق مسمى مع محتوياته.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-RemoveANamedRange-RemoveANamedRange.java" >}}
 
 
 borderColors 
+{{< app/cells/assistant language="java" >}}

@@ -20,3 +20,4 @@ Puede llenar la superficie de la forma con alguna imagen y colocarla como textur
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-TilePictureAsTextureInsideShape.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

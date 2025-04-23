@@ -3,8 +3,8 @@ title: Sayfa Ayarı Ölçek Faktörünü Hesaplayın
 type: docs
 weight: 300
 url: /tr/python-net/calculate-page-setup-scaling-factor/
-description: Bu makale, Aspose.Cells için Python via .NET API lerini kullanarak Excel çalışma sayfasının programlı olarak n sayfa genişliğe m yüksekliğe uymasını hesaplama özelliğini hesaplama özelliğini açıklayan örnek kodlar sağlar.
-keywords: Python Excel Kütüphanesi, Python n sayfasına geniş m boyunda Excel, Python da sayfa kurulum ölçekleme faktörünü hesapla.
+description: Bu makale, Aspose.Cells for Python via .NET API lerini kullanarak Excel sayfasını programatik olarak n sayfa genişliğinde m yüksekliğinde ayarlama ölçekleme faktörünü nasıl hesaplayacağınızı anlatan örnek kodlar sağlar.
+keywords: Python Excel Kütüphanesi, Python ile n sayfa genişliğinde m yüksekliğinde excel, sayfa ayarlarını ölçekleme faktörünü hesapla.
 ---
 
 {{% alert color="primary" %}}

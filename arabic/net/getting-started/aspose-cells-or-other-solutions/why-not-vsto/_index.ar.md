@@ -45,3 +45,4 @@ Aspose.Cells for .NET توفر مجموعة مرنة من العناصر الت�
 - [استيراد وتصدير ورقة العمل](/cells/ar/net/import-and-export-worksheet/)
 - [طباعة ومعاينة الدفتر](/cells/ar/net/print-and-preview/)
 - والأخرى.
+{{< app/cells/assistant language="csharp" >}}

@@ -20,3 +20,4 @@ keywords: c# إدراج أو حذف الصفوف في ورقة عمل الإكس
 تعمل Aspose.Cells بنفس الطريقة التي يعمل بها برنامج Microsoft Excel. عند إضافة صفوف أو أعمدة، يتم نقل محتوى ورقة العمل لأسفل ولليمين. وعند إزالة صفوف أو أعمدة، يتم نقل محتوى ورقة العمل لأعلى أو لليسار. يتم تحديث أي مراجع في ورقات العمل والخلايا الأخرى عند إضافة أو إزالة الصفوف.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertDeleteRows-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

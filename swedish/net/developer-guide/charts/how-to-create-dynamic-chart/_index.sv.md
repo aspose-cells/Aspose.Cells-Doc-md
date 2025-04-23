@@ -24,3 +24,4 @@ I de avancerade ämnen kommer vi att visa dig hur du använder Aspose Cells för
 - [Skapa dynamisk rullande diagram med hjälp av Aspose Cells](/cells/sv/net/create-dynamic-rolling-chart/)
 - [Skapa dynamiskt rullande diagram med hjälp av Aspose Cells](/cells/sv/net/create-dynamic-scrolling-chart/)
 - [Skapa dynamiskt diagram med dropdownlista med hjälp av Aspose Cells](/cells/sv/net/create-dynamic-chart-with-dropdownlist/)
+{{< app/cells/assistant language="csharp" >}}

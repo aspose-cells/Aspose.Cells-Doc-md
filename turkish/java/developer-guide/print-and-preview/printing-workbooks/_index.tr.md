@@ -23,22 +23,23 @@ Elektronik tablonuzu oluşturmayı tamamladıktan sonra muhtemelen ihtiyacınız
 
 ## Aspose.Cells Kullanarak Çalışma Kitaplarını Yazdırma
 
-Aspose.Cells for Java, [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) sınıfının [**toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) metodunu sağlar. [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) metodunu kullanarak yazıcı adını ve yazdırma işi adını sağlayabilirsiniz.
+Aspose.Cells for Java, [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) sınıfının [**toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-) metodunu sağlar. [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-) metodunu kullanarak yazıcı adını ve yazdırma işi adını sağlayabilirsiniz.
 
 ## Örnek Kod
 
 ### Seçili Çalışma Sayfasını Yazdır
 
-Aşağıdaki kod örneği, [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) metodunun seçili çalışma sayfasını yazdırmak için nasıl kullanılacağını göstermektedir.
+Aşağıdaki kod örneği, [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-) metodunun seçili çalışma sayfasını yazdırmak için nasıl kullanılacağını göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingSelectedWorksheet-PrintingSelectedWorksheet.java" >}}
 
 ### Bütün Çalışma Kitabını Yazdır
 
-Bütün çalışma kitabını yazdırmak için [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String)) metodunu kullanabilirsiniz. Aşağıdaki kod örneği, [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String)) metodunun bütün çalışma kitabını yazdırmak için nasıl kullanılacağını göstermektedir.
+Bütün çalışma kitabını yazdırmak için [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter-java.lang.String-) metodunu kullanabilirsiniz. Aşağıdaki kod örneği, [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter-java.lang.String-) metodunun bütün çalışma kitabını yazdırmak için nasıl kullanılacağını göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingWholeWorkbook-PrintingWholeWorkbook.java" >}}
 
 ## İlgili Makaleler
 
 - [Aspose.Cells ile yazdırırken İş veya Belge Adı belirtin](/cells/tr/java/specify-job-or-document-name-while-printing-with-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

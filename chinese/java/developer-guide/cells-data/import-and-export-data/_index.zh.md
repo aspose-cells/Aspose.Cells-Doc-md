@@ -49,7 +49,7 @@ Aspose.Cells提供了一个代表Microsoft Excel文件的类——[**Workbook**]
 
 #### 从ArrayList导入
 
-要从*ArrayList*导入数据到工作表，调用[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)集合的[**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean))方法。[**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean))方法需要以下参数：
+要从*ArrayList*导入数据到工作表，调用[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)集合的[**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList-java.util.ArrayList-int-int-boolean-)方法。[**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList-java.util.ArrayList-int-int-boolean-)方法需要以下参数：
 
 - **ArrayList**，要导入内容的*ArrayList*对象。
 - **行号**，将导入内容的单元格范围的第一个单元格的行号。
@@ -66,7 +66,7 @@ Aspose.Cells提供了一个代表Microsoft Excel文件的类——[**Workbook**]
 
 #### 从JSON导入数据
 
-Aspose.Cells为处理JSON提供了[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)类。[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)类具有一个[**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions))方法用于导入JSON数据。Aspose.Cells还提供了一个[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)类，代表了JSON布局的选项。[**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions))方法接受[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)作为参数。[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)类提供了以下属性。
+Aspose.Cells为处理JSON提供了[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)类。[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)类具有一个[**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData-java.lang.String-com.aspose.cells.Cells-int-int-com.aspose.cells.JsonLayoutOptions-)方法用于导入JSON数据。Aspose.Cells还提供了一个[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)类，代表了JSON布局的选项。[**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData-java.lang.String-com.aspose.cells.Cells-int-int-com.aspose.cells.JsonLayoutOptions-)方法接受[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)作为参数。[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)类提供了以下属性。
 
 - [**ArrayAsTable**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ArrayAsTable)：指示是否应将数组处理为表格。
 - [**ConvertNumericOrDate**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ConvertNumericOrDate)：获取或设置一个值，指示JSON中的字符串是否应转换为数值或日期。
@@ -89,11 +89,11 @@ Aspose.Cells不仅允许用户从外部数据源将数据导入到工作表中�
 
 Aspose.Cells提供了一个表示Microsoft Excel文件的[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类。[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类包含一个[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets)，允许访问Excel文件中的每个工作表。工作表由[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)类表示。[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)类提供了[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)集合。
 
-数据可以通过[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)类的[**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int))方法轻松地导出到一个数组对象。
+数据可以通过[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)类的[**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray-int-int-int-int-)方法轻松地导出到一个数组对象。
 
 #### 包含强类型数据的列
 
-电子表格将数据存储为一系列行和列。使用[**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int))方法将工作表中的数据导出到数组。[**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int))接受以下参数来将工作表数据导出为*数组*对象：
+电子表格将数据存储为一系列行和列。使用[**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray-int-int-int-int-)方法将工作表中的数据导出到数组。[**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray-int-int-int-int-)接受以下参数来将工作表数据导出为*数组*对象：
 
 - 行数，数据将从第一个单元格导出的行号。
 - 列数，数据将从第一个单元格导出的列号。
@@ -105,3 +105,4 @@ Aspose.Cells提供了一个表示Microsoft Excel文件的[**Workbook**](https://
 ## **高级主题**
 - [从 Microsoft Access 数据库 ResultSet 对象导入数据到工作表](/cells/zh/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
 - [在工作表导入数据时指定公式字段](/cells/zh/java/specify-formula-fields-while-importing-data-to-worksheet/)
+{{< app/cells/assistant language="java" >}}

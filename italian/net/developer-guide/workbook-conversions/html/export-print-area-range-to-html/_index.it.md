@@ -16,3 +16,4 @@ Il codice di esempio seguente carica un libro di lavoro e quindi esporta l'area 
 [sampleInlineCharts.xlsx](79527946.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-ExportPrintAreaToHtml-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

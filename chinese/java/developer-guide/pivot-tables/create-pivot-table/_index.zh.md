@@ -27,7 +27,7 @@ url: /zh/java/create-pivot-table/
 使用Aspose.Cells创建数据透视表，请按照以下步骤进行:
 
 1. 使用 [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) 对象的 [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) 方法向工作表单元格添加一些数据。这些数据将作为数据透视表的数据源。
-1. 通过调用 [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) 类的 [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add(com.aspose.cells.PivotTable,%20int,%20int,%20java.lang.String)) 方法在工作表中添加数据透视表，封装在 [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) 对象中。
+1. 通过调用 [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) 类的 [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add-com.aspose.cells.PivotTable-int-int-java.lang.String-) 方法在工作表中添加数据透视表，封装在 [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) 对象中。
 1. 通过传递 [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) 索引从 [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) 中访问 [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) 对象。
 1. 使用 [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) 对象封装的任何数据透视表对象（如上所述）来管理数据透视表。
 
@@ -44,3 +44,4 @@ url: /zh/java/create-pivot-table/
 ![todo:image_alt_text](create-pivot-table_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-CreatePivotTable.java" >}}
+{{< app/cells/assistant language="java" >}}

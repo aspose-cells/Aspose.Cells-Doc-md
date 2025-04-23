@@ -27,3 +27,4 @@ Aspose.Cells 是一个电子表格处理组件，允许您生成、读取、修�
 |Aspose.Cells for Java via Java桥接或Inline::Java|<p>**优点**：</p><p>- 可在任何具有Java的平台上使用。</p><p>- 易于调用静态方法、带参数的构造函数、重载方法和使用枚举值。</p>|
 | |<p>**缺点**：</p><p>- 发布频率较低，功能较少，比Aspose.Cells for .NET少。</p>|
 请注意，Aspose.Cells for Java是为Java应用程序设计的，在其他编程语言中使用它受到一些技术限制或变通方法的约束。 
+{{< app/cells/assistant language="java" >}}

@@ -121,3 +121,4 @@ Questo articolo spiega come copiare e spostare i fogli di lavoro all'interno e t
 Aspose.Cells ha beneficiato di anni di ricerca, progettazione e attenta messa a punto. Accogliamo con favore le vostre domande, commenti e suggerimenti al [Forum Aspose.Cells](https://forum.aspose.com/c/cells/9). Garantiamo una risposta tempestiva.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

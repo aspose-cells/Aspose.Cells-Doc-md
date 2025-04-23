@@ -22,3 +22,4 @@ url: /ar/net/setting-shadow-of-text-effects-of-shape-or-textbox/
 المقتطف التالي يوضح استخدام الخاصية [**FontSetting.TextOptions.Shadow.PresetType.PresetType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype) لضبط ظلال تأثيرات النص للشكل أو مربع النص.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SettingTextEffectsShadowOfShapeOrTextbox-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -11,3 +11,4 @@ Auparavant, Aspose.Cells ne pouvait pas restituer les Compléments Office lorsqu
 Le code d'exemple suivant enregistre le [fichier Excel d'exemple](60489783.xlsx) qui contient les compléments Office. Veuillez consulter le [PDF de sortie généré avec la version précédente, c'est-à-dire 17.11](60489781.pdf) et le [PDF de sortie généré avec la nouvelle version, c'est-à-dire 17.12 et ultérieure](60489782.pdf). Le PDF de sortie de la version précédente est vide, mais le PDF de sortie de la nouvelle version montre le complément Office.
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Rendering-RenderOfficeAdd_InsWhileConvertingExcelToPdf.java" >}}
+{{< app/cells/assistant language="java" >}}

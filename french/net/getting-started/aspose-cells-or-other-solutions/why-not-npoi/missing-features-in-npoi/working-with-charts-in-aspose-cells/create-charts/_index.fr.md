@@ -79,3 +79,4 @@ Téléchargez le formulaire **Créer des graphiques** sur l'un des sites de coda
 Pour plus de détails, visitez [Comment créer un graphique](/cells/fr/net/create-charts/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

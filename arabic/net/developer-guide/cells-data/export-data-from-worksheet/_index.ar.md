@@ -109,3 +109,4 @@ _خطوات الكود:_
 - [تصدير بيانات الصفوف المرئية من ورقة العمل](/cells/ar/net/export-visible-rows-data-from-worksheet/)
 - [تجاهل الأعمدة المخفية أثناء تصدير بيانات ورقة العمل إلى جدول البيانات](/cells/ar/net/ignore-hidden-columns-while-exporting-worksheet-data-to-data-table/)
 - [إعادة تسمية الأعمدة المكررة تلقائيًا أثناء تصدير بيانات ورقة العمل](/cells/ar/net/rename-duplicate-columns-automatically-while-exporting-worksheet-data/)
+{{< app/cells/assistant language="csharp" >}}

@@ -16,3 +16,4 @@ url: /ja/net/adding-custom-labels-to-data-points-in-the-series-of-the-chart/
 次のコードは、**データマーカー付き線で接続された散布図チャート**を作成し、その後、**チャート**の**シリーズ**の**データポイント**に**カスタムラベル**を追加します。各カスタムラベルは**シリーズ名**と**ポイント名**を表示します。他のテキストを使用することもできます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-AddCustomLabelsToDataPoints-AddCustomLabelsToDataPointsInTheSeriesOfChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

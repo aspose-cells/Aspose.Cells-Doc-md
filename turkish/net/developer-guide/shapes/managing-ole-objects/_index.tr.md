@@ -43,3 +43,4 @@ Aspose.Cells, MOL(Moleküler veri dosyası atomlar ve bağlar hakkında bilgi i�
 - [Gömülü Çalışmayan Elemanın Sınıf Tanımlayıcısını Al veya Ayarla](/cells/tr/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 - [Ole Nesnesi Olarak Bir WAV Dosyası Eklemek](/cells/tr/net/inserting-a-wav-file-as-an-ole-object/)
 
+{{< app/cells/assistant language="csharp" >}}

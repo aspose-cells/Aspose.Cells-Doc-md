@@ -27,3 +27,4 @@ Aşağıdaki kodlarla Aspose.Cells ile bir aralığı silin ve hücreleri yukar�
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Delete-Range-up.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

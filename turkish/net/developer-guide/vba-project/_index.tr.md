@@ -89,3 +89,4 @@ Verilen bağlantılardan [kaynak Excel dosyasını](5112508.xlsm) ve [çıktı E
 - [VBA Projesinin Korunup Korunmadığını Bulma](/cells/tr/net/find-out-if-vba-project-is-protected/)
 - [Excel Çalışma Kitabının VBA Projesini Parolayla Koruma](/cells/tr/net/password-protect-the-vba-project-of-excel-workbook/)
 
+{{< app/cells/assistant language="csharp" >}}

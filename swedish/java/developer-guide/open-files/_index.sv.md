@@ -67,7 +67,7 @@ För att öppna Microsoft Excel 95 filer, instansiera [**Workbook**](https://ref
 
 ### **Öppnar Microsoft Excel 97 eller senare versioner XLS-filer**
 
-För att öppna XLS-filer av Microsoft Excel XLS 97 eller senare versioner, instansiera [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) med sökvägen eller strömmen av mallfilen. Eller använd [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) metoden och välj värdet [**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003) i [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) uppräkningen.
+För att öppna XLS-filer av Microsoft Excel XLS 97 eller senare versioner, instansiera [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) med sökvägen eller strömmen av mallfilen. Eller använd [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) metoden och välj värdet [**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL-97-TO-2003) i [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) uppräkningen.
 
 #### **Exempel**
 
@@ -89,7 +89,7 @@ Aspose.Cells tillåter utvecklare att öppna kalkylblad med olika format som Spr
 
 SpreadsheetML-filer är XML-representationer av dina kalkylblad inklusive all information om kalkylarket som formatering, formler, etc. Sedan Microsoft Excel XP, har en XML-exportalternativ lagts till i Microsoft Excel som exporterar dina kalkylblad till SpreadsheetML-filer.
 
-För att öppna SpreadsheetML-filer, använd [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) klassen och välj värdet [**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET_ML) i [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) uppräkningen.
+För att öppna SpreadsheetML-filer, använd [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) klassen och välj värdet [**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET-ML) i [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) uppräkningen.
 
 #### **Exempel**
 
@@ -181,3 +181,4 @@ FODS-fil är ett kalkylblad sparat i OpenDocument XML utan komprimering. Aspose.
 - [Läsning av CSV-fil med flera teckentabeller](/cells/sv/java/reading-csv-file-with-multiple-encodings/)
 - [Stoppa konvertering eller laddning med hjälp av InterruptMonitor när det tar för lång tid](/cells/sv/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [Använda LightCells API](/cells/sv/java/using-lightcells-api/)
+{{< app/cells/assistant language="java" >}}

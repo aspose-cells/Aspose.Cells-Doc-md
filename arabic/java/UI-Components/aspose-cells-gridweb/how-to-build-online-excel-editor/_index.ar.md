@@ -1,10 +1,10 @@
 ---
-title: كيفية تشغيل Aspose.Cells.GridWeb لبناء محرر أو مشاهد لجداول البيانات على الإنترنت في Docker
+title: كيفية تشغيل Aspose.Cells.GridWeb لبناء محرر أو عارض جداول البيانات على الإنترنت في Docker
 type: docs
 weight: 250
 url: /ar/java/aspose-cells-gridweb/how-to-build-online-excel-editor/
 keywords: GridWeb، Docker
-description: يقدم هذا المقال كيفية تشغيل GridWeb في Docker لبناء محرر أو مشاهد لجداول البيانات على الإنترنت.
+description: يقدم هذا المقال كيفية تشغيل GridWeb في حاوية Docker لبناء محرر أو عارض ملفات إكسل عبر الإنترنت.
 aliases:
   - /java/aspose-cells-gridweb/docker/
   - /java/aspose-cells-gridweb/run-aspose-cells-gridweb-in-docker/
@@ -17,19 +17,19 @@ aliases:
   - /java/aspose-cells-gridweb/how-to-build-web-excel-viewer-using-gridweb/
 ---
 
-#دليل دوكر
+# دليل دوكر
 
 ## متطلبات قبلية
 
-تأكد من تثبيت Docker على جهازك. يمكنك تنزيل وتثبيت Docker من [الموقع الرسمي لدوكر](https://www.docker.com/get-started).
+تأكد من أن لديك Docker مثبت على جهازك. يمكنك تنزيل وتثبيت Docker من [الموقع الرسمي لـ Docker](https://www.docker.com/get-started).
 
 ## الخطوة 1: إنشاء ملف Dockerfile
 
-أنشئ ملفًا بالاسم 'Dockerfile' في مشروعك [directory](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/). يجب أن يحتوي 'Dockerfile' على تعليمات حول كيفية بناء صورة Docker الخاصة بك.
+أنشئ ملفًا باسم `Dockerfile` في [الدليل](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/) الخاص بك. يجب أن يحتوي `Dockerfile` على تعليمات حول كيفية بناء صورة Docker الخاصة بك.
 
-## المرحلة 2: كتابة Dockerfile لـ GridWeb
+## الخطوة 2: كتابة Dockerfile لـ GridWeb
 
-فيما يلي [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/Dockerfile) الخاص بمثال GridWeb مع تطبيق جافا:
+إليك نموذج [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/Dockerfile) لعربة عرض GridWeb مع تطبيق جافا:
 
 ```dockerfile
 #spring boot3.3 shall use jdk17 above 
@@ -82,38 +82,38 @@ CMD ["sh", "-c", "java $JAVA_OPTS -jar /app/app.jar"]
 ```
 
 ## الخطوة 3: بناء صورة Docker
-قم ببناء صورة Docker: من الطرفية، قم بتنفيذ الأمر التالي لبناء صورة Docker الخاصة بك:
+بناء صورة Docker: من الطرفية، نفذ الأمر التالي لبناء صورة Docker الخاصة بك:
 ```bash
 docker build -t gridweb-demo-java .
 ```
-يمكنك استبدال gridweb-demo-java باسم الصورة التي ترغب في منحها لصورة Docker الخاصة بك.
+يمكنك استبدال gridweb-demo-java باسم تريد إعطاء الصورة الخاصة بك في Docker.
 
 ## الخطوة 4: تشغيل حاوية Docker
-بمجرد بناء الصورة، يمكنك تشغيل حاوية باستخدام الأمر التالي:
+بمجرد إنشاء الصورة، يمكنك تشغيل حاوية باستخدام الأمر التالي:
 
 ```bash
 docker run -d -p 8080:8080 --name gridweb-demo-container  gridweb-demo-java
 ```
 شرح خيارات أمر تشغيل Docker
--d: تشغيل الحاوية في وضع منفصل (في الخلفية).
--p 8080:8080: تعيين منفذ 8080 في الحاوية لمنفذ 8080 على جهاز المضيف.
---name gridweb-demo-container: تحديد اسم للحاوية.
+-د: تشغيل الحاوية في الوضع المنفصل (في الخلفية).
+-p 8080:8080: ربط المنفذ 8080 في الحاوية إلى المنفذ 8080 على جهاز المضيف.
+--name gridweb-demo-container: تعيين اسم للحاوية.
 
 ## الخطوة 5: التحقق من تشغيل الحاوية
-للتحقق مما إذا كانت الحاوية الخاصة بك قيد التشغيل، استخدم الأمر التالي:
+للتحقق من تشغيل الحاوية الخاصة بك، استخدم الأمر التالي:
 
 ```bash
 docker ps
 ```
-سيتم إدراج جميع الحاويات الجارية. يجب أن ترى حاويتك مدرجة جنبًا إلى جنب مع اسمها وحالتها.
+سيقوم هذا الأمر بسرد جميع الحاويات الجارية. يجب أن ترى حاويتك مدرجة مع اسمها وحالتها.
 
-## الخطوة 6: الوصول إلى تطبيق الويب
+## الخطوة 6: الوصول إلى التطبيق الويب
 
-افتح متصفح الويب وانتقل إلى `http://localhost:8080/gridwebdemo/index`. يجب أن ترى تطبيقك يعمل.
+افتح متصفح ويب واذهب إلى `http://localhost:8080/gridwebdemo/index`. ينبغي أن ترى تطبيقك يعمل.
 
 
 
-## الأوامر الإضافية
+## أوامر إضافية
 
 ### إيقاف الحاوية
 

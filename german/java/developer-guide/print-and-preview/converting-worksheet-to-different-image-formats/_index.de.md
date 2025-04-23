@@ -15,7 +15,7 @@ Aspose.Cells ermöglicht es Ihnen, ein Arbeitsblatt aus der Arbeitsmappe zu expo
 
 Manchmal ist es nützlich, ein Bild eines Arbeitsblatts zu speichern. Bilder können online geteilt, in andere Dokumente eingefügt (Beispielsweise in Berichte in Microsoft Word oder in PowerPoint-Präsentationen).
 
-Aspose.Cells bietet die Bildexportfunktion durch die Klasse [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender). Diese Klasse repräsentiert die Arbeitsmappe, die als Bild gerendert wird. Die Klasse [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) bietet die Methode [**toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream)) zur Umwandlung einer Arbeitsmappe in eine Bilddatei. BMP, PNG, JPEG, TIFF und EMF-Formate werden unterstützt.
+Aspose.Cells bietet die Bildexportfunktion durch die Klasse [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender). Diese Klasse repräsentiert die Arbeitsmappe, die als Bild gerendert wird. Die Klasse [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) bietet die Methode [**toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage-int-java.io.OutputStream-) zur Umwandlung einer Arbeitsmappe in eine Bilddatei. BMP, PNG, JPEG, TIFF und EMF-Formate werden unterstützt.
 
 {{% alert color="primary" %}}
 
@@ -58,3 +58,4 @@ Ein einfacher Weg, das aktive Arbeitsblatt in einer Arbeitsmappe zu konvertieren
 - [Diagramm in SVG mit viewBox-Attribut exportieren](/cells/de/java/export-chart-to-svg-with-viewbox-attribute/)
 - [Arbeitsblatt oder Diagramm in Bild mit gewünschter Breite und Höhe exportieren](/cells/de/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
 - [Arbeitsblatt in Bild und Arbeitsblatt in Bild nach Seite konvertieren](/cells/de/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)
+{{< app/cells/assistant language="java" >}}

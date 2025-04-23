@@ -182,3 +182,4 @@ Aspose.Cells.GridDesktop 的此版本暴露了 4 个新事件。其中 2 个事�
 1. GridDesktop.FinishLoadFile
 1. GridDesktop.BeforeCalculate
 1. GridDesktop.FinishCalculate
+{{< app/cells/assistant language="csharp" >}}

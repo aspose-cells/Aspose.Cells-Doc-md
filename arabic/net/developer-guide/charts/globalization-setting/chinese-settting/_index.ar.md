@@ -51,3 +51,4 @@ alias: [/net/set-chinese-configuration-for-chart/]
 |Legend Total Name|الإجمالي|الإجمالي|
 |Other Name|آخر|آخر|
 |Series Name|سلسلة|سلسلة|
+{{< app/cells/assistant language="csharp" >}}

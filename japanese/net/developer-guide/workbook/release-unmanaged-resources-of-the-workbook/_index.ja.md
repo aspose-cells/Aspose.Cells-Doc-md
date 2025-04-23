@@ -14,3 +14,4 @@ Aspose.Cellsは、[**Workbook**](https://reference.aspose.com/cells/net/aspose.c
 [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) オブジェクトは現在、*System.IDisposable* インターフェイスを実装しており、単一のメソッド [**Dispose()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/dispose) を持っています。[**Workbook.Dispose()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/dispose) メソッドを直接呼び出すか、*Using* ステートメントを使用してこのメソッドを自動的に呼び出すことができます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ReleaseUnmanagedResources-ReleaseUnmanagedResourcesForWorkbooks.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

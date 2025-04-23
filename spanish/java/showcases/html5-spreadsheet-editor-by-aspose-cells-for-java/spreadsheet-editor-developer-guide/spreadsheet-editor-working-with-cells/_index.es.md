@@ -217,3 +217,4 @@ Los **Formatos**, **Contenidos** y **Ambos** son manejados por el bean de backen
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -12,3 +12,4 @@ Aspose.Cells, çalışma kitaplarından AktifX Kontrolünü kaldırma yeteneği 
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-ReadThreadedCommentCreatedTime-1.java" >}}
+{{< app/cells/assistant language="java" >}}

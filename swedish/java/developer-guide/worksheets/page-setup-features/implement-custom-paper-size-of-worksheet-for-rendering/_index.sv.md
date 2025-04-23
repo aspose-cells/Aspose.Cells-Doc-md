@@ -11,7 +11,7 @@ Det finns ingen direkt alternativ tillgängligt för att skapa anpassade pappers
 
 ## **Implementera anpassad pappersstorlek för arbetsblad för rendering**
 
-Aspose.Cells tillåter dig att implementera önskad papperstorlek för arbetsbladet genom att använda metoden [**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize(double,%20double)) i [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup). Följande provkod illustrerar hur man specificerar en anpassad papperstorlek för det första arbetsbladet i arbetsboken. Se också [utdata-PDF:en](45056030.pdf) genererad med följande kod för referens.
+Aspose.Cells tillåter dig att implementera önskad papperstorlek för arbetsbladet genom att använda metoden [**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize-double-double-) i [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup). Följande provkod illustrerar hur man specificerar en anpassad papperstorlek för det första arbetsbladet i arbetsboken. Se också [utdata-PDF:en](45056030.pdf) genererad med följande kod för referens.
 
 ## **Skärmdump**
 
@@ -20,3 +20,4 @@ Aspose.Cells tillåter dig att implementera önskad papperstorlek för arbetsbla
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-PageSetupFeatures-ImplementCustomPaperSizeOfWorksheetForRendering.java" >}}
+{{< app/cells/assistant language="java" >}}

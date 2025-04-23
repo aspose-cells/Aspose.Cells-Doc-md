@@ -42,3 +42,4 @@ keywords: サブトータルを適用し、サブトータルを追加し、詳�
 次に示すコードは、上記の出力を実現するサンプルコードです。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ApplyingSubtotalChangeSummaryDirection-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

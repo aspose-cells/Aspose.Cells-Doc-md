@@ -73,3 +73,4 @@ Scarica **Lavorare con i riquadri congelati** da uno dei siti di codice sociale 
 Per ulteriori dettagli, visita [Working with Worksheets](/cells/it/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

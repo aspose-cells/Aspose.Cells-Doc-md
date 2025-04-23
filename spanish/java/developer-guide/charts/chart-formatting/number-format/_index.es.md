@@ -16,3 +16,4 @@ El siguiente código de muestra agrega una serie en el gráfico vacío que no ti
 ![todo:image_alt_text](set-the-values-format-code-of-chart-series_1.png)
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "SetValuesFormatCodeOfChartSeries.java" >}}
+{{< app/cells/assistant language="java" >}}

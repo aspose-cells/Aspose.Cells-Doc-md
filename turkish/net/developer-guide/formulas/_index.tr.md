@@ -11,7 +11,7 @@ keywords: C# da formülleri nasıl hesaplayacağınız, C# Kullanarak Formüller
 
 ## **Giriş**
 
-Microsoft Excel'in etkileyici özelliklerinden biri, verileri formüller ve fonksiyonlarla işleme yeteneğidir. Microsoft Excel, karmaşık hesaplamaları hızlı bir şekilde yapabilmek için kullanıcıların yardımına koşan bir dizi yerleşik fonksiyon ve formül sağlar. Aspose.Cells ayrıca geliştiricilerin değerleri kolayca hesaplamalarına yardımcı olan büyük bir yerleşik fonksiyon ve formül seti sağlar. Aspose.Cells ayrıca eklenti fonksiyonları da destekler. Ayrıca, Aspose.Cells, Aspose.Cells içinde dizi ve R1C1 formüllerini destekler.
+Microsoft Excel'in etkileyici özelliklerinden biri, verileri formüller ve fonksiyonlar ile işleyebilme yeteneğidir. Microsoft Excel, karmaşık hesaplamaları hızlıca yapmaya yardımcı olan yerleşik fonksiyonlar ve formüller sunar. Aspose.Cells ayrıca, gelişmiş fonksiyon ve formüllerin büyük bir kümesini sağlar ve ayrıca eklenti fonksiyonlarını da destekler. Ayrıca, Aspose.Cells, dizi ve R1C1 formüllerini destekler.
 
 ## **Formüller ve Fonksiyonları Nasıl Kullanılır**
 
@@ -88,3 +88,4 @@ Bir **R1C1** referans stili formülünü, [**Cell**](https://reference.aspose.co
 - [Paylaşılan Formülün Maksimum Satırlarını Belirtme](/cells/tr/net/specify-maximum-rows-of-shared-formula/)
 - [Desteklenen Excel İşlevleri](/cells/tr/net/supported-formula-functions/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -16,3 +16,4 @@ Aşağıdaki örnek kod, programınızda [**CellsHelper.CustomImplementationFact
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-CellsHelper-UsingCustomImplementationFactoryToCreateCustomImplementationOfMemoryStream.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

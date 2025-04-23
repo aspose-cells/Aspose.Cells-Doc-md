@@ -25,3 +25,4 @@ El siguiente código de muestra ilustra cómo utilizar el método [**Workbook.Vb
 - [Archivo de Excel de salida](5115029.xlsm) generado por el código de ejemplo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-DigitallySignVbaProjectWithCertificate-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

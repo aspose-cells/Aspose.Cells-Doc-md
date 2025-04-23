@@ -20,3 +20,4 @@ Aspose.Cells ayrıca pivot tablosunun bu üç biçimde yerleşimini değiştirme
 Aşağıdaki örnek kod önce Pivot Tablosunu **Kompakt Formda** gösterir, ardından Pivot Tablosunu **Açıklamalı Formda** gösterir ve son olarak Pivot Tablosunu **Tablo Formunda** gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-ChangingLayoutOfPivotTable-ChangingLayoutOfPivotTable.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

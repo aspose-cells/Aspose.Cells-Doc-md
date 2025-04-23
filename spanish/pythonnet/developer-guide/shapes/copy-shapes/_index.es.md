@@ -4,13 +4,13 @@ linktitle: Copiar formas
 type: docs
 weight: 200
 url: /es/python-net/copy-shapes-between-worksheets/
-description: Este artículo muestra cómo copiar formas entre hojas de cálculo a través de la API Aspose.Cells para Python via .NET.
-keywords: Biblioteca de Excel de Python, Copiar formas entre hojas de cálculo en Python, cómo copiar una imagen de una hoja de cálculo a otra, cómo copiar un gráfico de una hoja de cálculo a otra, cómo copiar controles y otros objetos de dibujo de una hoja de cálculo a otra en Python.
+description: Este artículo muestra cómo copiar formas entre hojas de trabajo mediante la API Aspose.Cells para Python via .NET.
+keywords: Biblioteca de Excel para Python, Copiar formas entre hojas de trabajo en Python, Cómo copiar una imagen de una hoja de trabajo a otra en Python, Cómo copiar un gráfico de una hoja de trabajo a otra en Python, Cómo copiar controles y otros objetos de dibujo de una hoja a otra en Python.
 ---
 
 {{% alert color="primary" %}}
 
-A veces, necesitas copiar elementos en una hoja de cálculo, como imágenes, gráficos y otros objetos de dibujo, entre hojas de cálculo. Aspose.Cells para Python via .NET admite esta función. Las gráficas, imágenes y otros objetos se pueden copiar con el más alto grado de precisión.
+A veces, necesitas copiar elementos en una hoja de trabajo, por ejemplo, imágenes, gráficos y otros objetos de dibujo, entre hojas de trabajo. Aspose.Cells para Python via .NET soporta esta función. Los gráficos, imágenes y otros objetos se pueden copiar con el mayor grado de precisión.
 
 Este artículo te brinda una comprensión detallada de cómo copiar formas entre hojas de cálculo.
 

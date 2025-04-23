@@ -48,3 +48,4 @@ Aspose.Cells также предоставляет эту функцию. Ниж
 - [Как установить фон комментария](/cells/ru/net/how-to-set-comment-background/)
 - [Комментарии с цепочкой](/cells/ru/net/threaded-comments/)
 
+{{< app/cells/assistant language="csharp" >}}

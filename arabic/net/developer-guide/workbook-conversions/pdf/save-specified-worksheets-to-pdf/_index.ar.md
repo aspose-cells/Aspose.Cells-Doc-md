@@ -28,8 +28,15 @@ url: /ar/net/save-specified-worksheets-to-pdf/
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-MultiSheetsToPdf.cs" >}}
 
+## **إعادة ترتيب أوراق العمل إلى PDF**
+
+إذا كنت تريد إعادة ترتيب الأوراق (على سبيل المثال، بترتيب عكسي) إلى ملف PDF دون تعديل ملف المصدر، يمكنك تحقيق ذلك من خلال تمرير فهارس الأوراق المعاد ترتيبها إلى خيار [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/).
+
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-ReorderSheetsToPdf.cs" >}}
+
 {{% alert color="primary" %}} 
 
 إذا كانت جداول البيانات الخاصة بك تحتوي على صيغ، من الأفضل استدعاء [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) قبل تحويل جدول البيانات إلى تنسيق PDF. وذلك سيضمن إعادة حساب قيم الصيغ الخاصة وتقديم القيم الصحيحة في الملف الناتج PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

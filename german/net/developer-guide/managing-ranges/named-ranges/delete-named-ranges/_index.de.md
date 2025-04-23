@@ -41,3 +41,4 @@ Einige Excel-Dateien sind beschädigt, weil einige definierte Namen doppelt vorh
 
 
 
+{{< app/cells/assistant language="csharp" >}}

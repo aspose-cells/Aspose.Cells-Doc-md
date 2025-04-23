@@ -16,3 +16,4 @@ Bazen Koşullu Biçimlendirme DataBar'ların görüntülerini oluşturmanız ger
 Aşağıdaki örnek kod, C1 hücresinin VeriÇubuk görüntüsünü oluşturur. İlk olarak, hücrenin biçimlendirme koşulu nesnesine erişir, ardından bu nesneden [**DataBar**](https://reference.aspose.com/cells/net/aspose.cells/databar) nesnesine erişir ve bu nesnenin [**ToImage()**](https://reference.aspose.com/cells/net/aspose.cells/databar/methods/toimage) yöntemini kullanarak hücrenin görüntüsünü oluşturur. Son olarak, görüntüyü diske kaydeder.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageConditionalFormatting-GenerateDatabarImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

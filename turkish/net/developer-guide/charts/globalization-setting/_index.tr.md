@@ -47,3 +47,4 @@ Aşağıdaki örnek, istediğiniz etkiyi elde etmek için yerelleştirilmiş bö
 - [Grafik için Çince Bölge Nasıl Ayarlanır](/cells/tr/net/convert-chart-to-image-for-chinese-region/)
 - [Grafik için Japon Bölgesi Nasıl Ayarlanır](/cells/tr/net/convert-chart-to-image-for-japanese-region/)
 
+{{< app/cells/assistant language="csharp" >}}

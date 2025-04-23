@@ -53,7 +53,7 @@ Le fichier **Book1.xls** est ouvert en utilisant la classe [**Workbook**](https:
 
 **Réglage du type de visibilité**
 
-Vous pouvez également masquer les feuilles de calcul d'une manière spéciale. Cette fonctionnalité peut masquer la feuille de calcul de telle sorte que la seule façon de la rendre à nouveau visible est en donnant [**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY_HIDDEN) en tant que valeur de paramètre pour la méthode [**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) dans le code (il est à noter ici que les utilisateurs ne peuvent pas rendre l'objet visible dans MS Excel directement en utilisant ses options de menu). Les utilisateurs peuvent également utiliser la méthode [**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) pour vérifier si une feuille de calcul est marquée comme Très masqué ou non.
+Vous pouvez également masquer les feuilles de calcul d'une manière spéciale. Cette fonctionnalité peut masquer la feuille de calcul de telle sorte que la seule façon de la rendre à nouveau visible est en donnant [**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY-HIDDEN) en tant que valeur de paramètre pour la méthode [**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) dans le code (il est à noter ici que les utilisateurs ne peuvent pas rendre l'objet visible dans MS Excel directement en utilisant ses options de menu). Les utilisateurs peuvent également utiliser la méthode [**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) pour vérifier si une feuille de calcul est marquée comme Très masqué ou non.
 
 ## **Afficher ou Masquer les onglets**
 
@@ -224,3 +224,4 @@ Le fichier Book1.xls est ouvert en utilisant la classe [**Workbook**](https://re
 - [Ajouter des bordures aux cellules pour créer un tableau](/cells/fr/java/create-table-by-using-border-lines-for-a-range/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

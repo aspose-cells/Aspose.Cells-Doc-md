@@ -231,3 +231,4 @@ Per un elenco completo dei tipi di grafici 2D e 3D supportati, vedere [Tipi di g
 
 ## **Argomenti avanzati**
 - [Imposta l'immagine come riempimento di sfondo nel grafico](/cells/it/java/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="java" >}}

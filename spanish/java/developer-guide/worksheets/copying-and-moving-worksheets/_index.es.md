@@ -27,7 +27,7 @@ A continuación se presentan los pasos involucrados para copiar y mover hojas de
 
 ## **Copiar Hojas de Cálculo dentro de un Libro de Trabajo**
 
-Aspose.Cells proporciona un método sobrecargado, [**WorksheetCollection.addCopy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy(int)), que se utiliza para agregar una hoja de cálculo a la colección y copiar datos de una hoja de cálculo existente. Una versión del método toma el índice de la hoja de cálculo fuente como parámetro. La otra versión toma el nombre de la hoja de cálculo fuente.
+Aspose.Cells proporciona un método sobrecargado, [**WorksheetCollection.addCopy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy-int-), que se utiliza para agregar una hoja de cálculo a la colección y copiar datos de una hoja de cálculo existente. Una versión del método toma el índice de la hoja de cálculo fuente como parámetro. La otra versión toma el nombre de la hoja de cálculo fuente.
 
 El siguiente ejemplo muestra cómo copiar una hoja de trabajo existente dentro de un libro.
 
@@ -35,7 +35,7 @@ El siguiente ejemplo muestra cómo copiar una hoja de trabajo existente dentro d
 
 ## **Copiar Hojas de Cálculo entre Libros de Trabajo**
 
-Aspose.Cells proporciona un método, [**Worksheet.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)), utilizado para copiar datos y formato de una hoja de cálculo de origen a otra hoja de cálculo dentro o entre los libros de trabajo. El método toma el objeto de la hoja de cálculo de origen como parámetro.
+Aspose.Cells proporciona un método, [**Worksheet.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy-com.aspose.cells.Worksheet-), utilizado para copiar datos y formato de una hoja de cálculo de origen a otra hoja de cálculo dentro o entre los libros de trabajo. El método toma el objeto de la hoja de cálculo de origen como parámetro.
 
 El siguiente ejemplo muestra cómo copiar una hoja de cálculo de un libro a otro libro.
 
@@ -47,8 +47,9 @@ El siguiente ejemplo muestra cómo copiar una hoja de cálculo de un libro a otr
 
 ## **Mover Hojas de Cálculo dentro de un Libro de Trabajo**
 
-Aspose.Cells proporciona un método, [**Worksheet.moveTo()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo(int)), utilizado para mover una hoja de cálculo a otra ubicación en la misma hoja de cálculo.
+Aspose.Cells proporciona un método, [**Worksheet.moveTo()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo-int-), utilizado para mover una hoja de cálculo a otra ubicación en la misma hoja de cálculo.
 
 El siguiente ejemplo muestra cómo mover una hoja de cálculo a otra ubicación dentro del libro.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-MoveWorksheet-MoveWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

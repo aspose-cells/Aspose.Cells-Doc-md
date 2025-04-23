@@ -34,3 +34,4 @@ Schützen Sie die Authentizität des Dokumenteninhalts, indem Sie eine digitale 
 - [Erkennen Sie das Dateiformat verschlüsselter Office Open XML - OOXML-Dateien](/cells/de/net/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Verschlüsselung von Excel-Dateien](/cells/de/net/encrypting-excel-files/)
 - [Wie erkennt man ein Dateiformat und überprüft, ob die Datei verschlüsselt ist](/cells/de/net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="csharp" >}}

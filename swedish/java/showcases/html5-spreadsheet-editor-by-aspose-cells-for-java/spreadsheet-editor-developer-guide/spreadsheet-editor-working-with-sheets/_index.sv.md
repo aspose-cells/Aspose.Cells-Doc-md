@@ -173,3 +173,4 @@ När rullgardinsväljarens värde ändras, hanteras händelsen på servern av JS
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

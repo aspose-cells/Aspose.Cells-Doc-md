@@ -20,3 +20,4 @@ Dieser Abschnitt umfasst die folgenden Themen
 - [Öffnen Sie ein Tabellendokument aus einem Stream](/cells/de/net/open-a-spreadsheet-document-from-a-stream/)
 - [Rufen Sie ein Wörterbuch aller benannten Bereiche in einem Tabellendokument ab](/cells/de/net/retrieve-a-dictionary-of-all-named-ranges-in-a-spreadsheet-document/)
 - [Rufen Sie die Werte von Zellen ab](/cells/de/net/retrieve-the-values-of-cells/)
+{{< app/cells/assistant language="csharp" >}}

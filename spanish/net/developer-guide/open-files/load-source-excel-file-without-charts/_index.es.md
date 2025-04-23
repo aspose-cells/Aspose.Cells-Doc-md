@@ -16,3 +16,4 @@ Aspose.Cells le permite cargar su archivo de Excel sin gráficos. Por favor, uti
 El siguiente código de muestra carga el archivo de Excel de muestra sin gráficos y lo guarda en formato de PDF de salida.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-LoadTemplateWithoutCharts.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

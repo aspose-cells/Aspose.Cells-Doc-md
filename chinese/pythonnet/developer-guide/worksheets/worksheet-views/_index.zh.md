@@ -3,8 +3,8 @@ title: 工作表视图
 type: docs
 weight: 40
 url: /zh/python-net/worksheet-views/
-description: 本文将描述如何使用Aspose.Cells for Python via .NET API与Excel工作簿和工作表的分页预览进行交互。使用分隔窗格、冻结窗格和缩放系数。 
-keywords: Python Excel库，Python如何设置分页预览，Python如何启用普通视图，Python如何设置缩放系数，Python如何冻结窗格，Python如何拆分窗格，Python如何移除窗格。
+description: 本文将介绍如何使用 Aspose.Cells for Python via .NET API 与 Excel 工作簿和工作表的分页符预览交互，以及如何操作拆分窗格、冻结窗格和缩放比例。 
+keywords: Python Excel 库，Python 设置页面断点预览的方法，Python 如何启用普通视图，Python 设置缩放比例，Python 冻结窗格，Python 拆分窗格，Python 移除窗格。
 ---
 
 ## **分页预览**
@@ -14,11 +14,11 @@ keywords: Python Excel库，Python如何设置分页预览，Python如何启用�
 - 普通视图。
 - 分页预览。
 
-普通视图是工作表的默认视图。分页预览是一种编辑视图，显示工作表将要打印的内容。分页预览显示每页上将显示哪些数据，因此您可以调整打印区域和分页符。使用Aspose.Cells for Python via .NET，开发者可以启用普通视图或分页预览模式。
+普通视图是工作表的默认视图。页面断点预览是一种编辑视图，显示工作表的打印效果。页面断点预览显示每页的数据内容，以便调整打印区域和页面断点。借助 Aspose.Cells for Python via .NET，开发者可以启用普通视图或页面断点预览模式。
 
 ### **控制视图模式**
 
-Aspose.Cells for Python via .NET提供了一个[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)类，表示Microsoft Excel文件。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)类包含一个[**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets)集合，允许访问Excel文件中的每个工作表。
+Aspose.Cells for Python via .NET 提供 [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) 类，用于表示一个 Microsoft Excel 文件。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) 类包含一个 [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) 集合，可以访问 Excel 文件中的每个工作表。
 
 一个工作表由 [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) 班表示。[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) 班提供了各种属性和方法，用于管理工作表。为了启用普通或页面分页预览模式，使用 [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) 班的 [**is_page_break_preview**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_page_break_preview) 属性。[**is_page_break_preview**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_page_break_preview) 是一个布尔属性，只能存储 **true** 或 **false** 值。
 
@@ -69,10 +69,10 @@ Aspose.Cells提供一个代表Microsoft Excel文件的[**Workbook**](https://ref
 
 工作表由[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)类表示。[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)类提供了各种属性和方法来管理工作表。要配置冻结窗格，请调用Worksheet类的[**freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#int-int-int-int)方法。[**freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#int-int-int-int)方法接受以下参数:
 
-- **row**，冻结将从该单元格开始的行索引。
-- **column**，冻结将从该单元格开始的列索引。
-- **frozen_rows**，顶部窗格中可见行数。
-- **frozen_columns**，左侧窗格中可见列数。
+- **row**，冻结起始的行索引。
+- **column**，冻结起始的列索引。
+- **frozen_rows**，顶部窗格中可见的行数。
+- **frozen_columns**，左侧窗格中可见的列数。
 
 通过在实例化时调用[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)类的构造函数来打开book1.xls文件，并在第一个工作表中冻结了一些行和列。修改后的文件保存为output.xls。
 

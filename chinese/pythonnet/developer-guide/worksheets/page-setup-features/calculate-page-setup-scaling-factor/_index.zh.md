@@ -3,8 +3,8 @@ title: 计算页面设置缩放因子
 type: docs
 weight: 300
 url: /zh/python-net/calculate-page-setup-scaling-factor/
-description: 本文提供了一个示例代码，解释了如何使用Aspose.Cells for Python via .NET的API以程序方式计算Excel工作表Fit to n页宽度和m页高度的自适应比例。
-keywords: Python Excel库，Python调整至n页宽度m页高度excel，Python计算自适应比例因子
+description: 本文提供示例代码，演示如何使用 Aspose.Cells for Python via .NET API 程序化计算页面设置缩放比例，使用适合 n 页宽 m 页高的选项。
+keywords: Python Excel 库，Python 按 n 页宽 m 页高适配，计算页面设置缩放比例。
 ---
 
 {{% alert color="primary" %}}

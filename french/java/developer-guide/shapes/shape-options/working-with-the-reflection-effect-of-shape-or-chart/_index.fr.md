@@ -24,3 +24,4 @@ La capture d'écran suivante montre l'interface Microsoft Excel pour définir l'
 Le code d'exemple suivant charge le [fichier Excel source](5472529.xlsx) et accède à la première forme dans la première feuille de calcul, puis définit les sous-propriétés de la propriété [Shape.ReflectionEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Reflection)  et enregistre le classeur dans le [fichier Excel de sortie](5472539.xlsx).
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithReflectionEffect-WorkingWithReflectionEffect.java" >}}
+{{< app/cells/assistant language="java" >}}

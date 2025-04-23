@@ -11,7 +11,7 @@ Puede asignar una **Contraseña para abrir** y una **Contraseña para modificar*
 
 ![todo:image_alt_text](check-password-to-modify-using-aspose-cells_1.png)
 
-A veces, es necesario comprobar si la contraseña dada coincide con la **Contraseña para modificar** de forma programática. Aspose.Cells proporciona el método [**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword(java.lang.String)) que se puede utilizar para verificar si la contraseña dada para modificar es correcta o no.
+A veces, es necesario comprobar si la contraseña dada coincide con la **Contraseña para modificar** de forma programática. Aspose.Cells proporciona el método [**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword-java.lang.String-) que se puede utilizar para verificar si la contraseña dada para modificar es correcta o no.
 
 {{% /alert %}}
 
@@ -32,3 +32,4 @@ Is 567 correct Password to modify: false
 Is 5678 correct Password to modify: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

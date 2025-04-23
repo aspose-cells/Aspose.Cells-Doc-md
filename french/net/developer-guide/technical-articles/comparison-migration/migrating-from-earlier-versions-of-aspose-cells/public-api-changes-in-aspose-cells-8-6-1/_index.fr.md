@@ -174,3 +174,4 @@ Avec la publication de v8.6.1, l'API Aspose.Cells for .NET a modifié le type de
 ## **APIs obsolètes**
 ### **Méthode Workbook.CheckWriteProtectedPassword obsolète**
 Avec la publication de v8.6.1, la méthode Workbook.CheckWriteProtectedPassword a été marquée comme obsolète. Il est conseillé d'utiliser la méthode WorkbookSettings.WriteProtection.ValidatePassword qui peut accepter une valeur de chaîne en paramètre et renvoie un booléen si le mot de passe correspond au mot de passe prédéfini de la feuille de calcul.
+{{< app/cells/assistant language="csharp" >}}

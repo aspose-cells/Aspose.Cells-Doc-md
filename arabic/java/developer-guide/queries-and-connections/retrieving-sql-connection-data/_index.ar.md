@@ -38,3 +38,4 @@ url: /ar/java/retrieving-sql-connection-data/
 
 
 
+{{< app/cells/assistant language="java" >}}

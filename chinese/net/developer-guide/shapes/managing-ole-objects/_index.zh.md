@@ -43,3 +43,4 @@ Aspose.Cells支持提取MOL（包含有关原子和键信息的分子数据文�
 - [获取或设置嵌入的OLE对象的类标识符](/cells/zh/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 - [将WAV文件插入为一个OLE对象。](/cells/zh/net/inserting-a-wav-file-as-an-ole-object/)
 
+{{< app/cells/assistant language="csharp" >}}

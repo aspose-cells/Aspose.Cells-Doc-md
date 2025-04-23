@@ -44,3 +44,4 @@ workbook.save(dataDir + "AsposeColoredTab_Out.xls");
 لمزيد من التفاصيل، قم بزيارة [تعيين لون علامة ورقة العمل](/java/set-worksheet-tab-color).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

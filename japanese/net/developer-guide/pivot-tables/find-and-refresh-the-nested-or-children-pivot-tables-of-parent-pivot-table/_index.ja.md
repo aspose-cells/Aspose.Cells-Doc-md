@@ -18,3 +18,4 @@ url: /ja/net/find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivo
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-FindAndRefreshNestedOrChildrenPivotTables.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

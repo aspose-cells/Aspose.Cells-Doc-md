@@ -3,13 +3,13 @@ title: Aspose.Cellsを使用したOpenXmlのSheet.SheetIdプロパティを利�
 type: docs
 weight: 200
 url: /ja/python-net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
-description: Aspose.Cells for Python via .NETAPIを使用してOpenXmlのSheet.SheetIdプロパティを活用する方法を示すこの記事。
-keywords: Python Excelライブラリ、Python OpenXmlのsheet idプロパティ、Pythonでのsheet idエクセルワークシート
+description: この文章では、Aspose.Cells for Python via .NET APIを使用してOpenXmlのSheet.SheetIdプロパティを利用する方法を示します。
+keywords: Python Excelライブラリ、PythonのシートIDプロパティ（OpenXml）、PythonのExcelワークシートのシートID
 ---
 
 ## **可能な使用シナリオ**
 
-*Sheet.SheetId*プロパティは、*DocumentFormat.OpenXml.Spreadsheet*名前空間内にあり、OpenXmlの一部です。このプロパティとその値を*workbook.xml*内で確認でき、次のスクリーンショットに示されています。Aspose.Cells for Python via .NETは、[**Worksheet.tab_id**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/tab_id)として同等のプロパティを提供します。
+*Sheet.SheetId* プロパティは、*DocumentFormat.OpenXml.Spreadsheet*名前空間内にあり、OpenXmlの一部です。このプロパティとその値は、以下のスクリーンショットに示すように *workbook.xml* 内に見られます。Aspose.Cells for Python via .NETは、同等のプロパティを[**Worksheet.tab_id**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/tab_id)として提供します。
 
 ![todo:image_alt_text](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
 

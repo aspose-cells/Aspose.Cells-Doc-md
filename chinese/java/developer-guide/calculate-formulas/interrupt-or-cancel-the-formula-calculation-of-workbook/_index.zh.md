@@ -11,7 +11,7 @@ Aspose.Cells提供了使用AbstractCalculationMonitor类的interrupt()方法来�
 
 ## **中断或取消工作簿的公式计算**
 
-以下示例代码实现了[**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor)类的[**beforeCalculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationmonitor#beforeCalculate(int,%20int,%20int))方法。在此方法内，使用行和列索引参数找到单元格名称。如果单元格名称是B8，则通过调用AbstractCalculationMonitor.interrupt()方法中断计算过程。一旦实现了[**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor)类的具体类，将其实例分配给[**CalculationOptions.CalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/calculationoptions#CalculationMonitor)属性。最后，通过传递[**CalculationOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationOptions)作为参数调用[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions))。请查看给定代码中用到的[sample Excel file](51740744.xlsx)以及下面给出的控制台输出以供参考。
+以下示例代码实现了[**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor)类的[**beforeCalculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationmonitor#beforeCalculate-int-int-int-)方法。在此方法内，使用行和列索引参数找到单元格名称。如果单元格名称是B8，则通过调用AbstractCalculationMonitor.interrupt()方法中断计算过程。一旦实现了[**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor)类的具体类，将其实例分配给[**CalculationOptions.CalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/calculationoptions#CalculationMonitor)属性。最后，通过传递[**CalculationOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationOptions)作为参数调用[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula-com.aspose.cells.CalculationOptions-)。请查看给定代码中用到的[sample Excel file](51740744.xlsx)以及下面给出的控制台输出以供参考。
 
 ## **示例代码**
 
@@ -28,3 +28,4 @@ Aspose.Cells提供了使用AbstractCalculationMonitor类的interrupt()方法来�
 0----7----1----B8
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -22,3 +22,4 @@ url: /ja/net/add-pdf-bookmarks/
 スプレッドシートに数式がある場合は、PDF形式でレンダリングする直前に[**Workbook.CalculateFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula/index)を呼び出すことが最適です。これにより、数式に依存する値が更新され、正しくPDFにレンダリングされます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

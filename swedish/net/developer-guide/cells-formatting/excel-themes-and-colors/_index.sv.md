@@ -69,3 +69,4 @@ Följande exempel använder en mall XLSX-fil, hämtar färgerna för olika temaf
 
 ## **Fortsatta ämnen**
 - [Extrahera temadata från Excel-fil](/cells/sv/net/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="csharp" >}}

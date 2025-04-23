@@ -26,3 +26,4 @@ keywords: إكسل فوقي الخط سي شارب، إكسل تحتي الخط 
 ### شيفرة C# لتطبيق تأثير تحتي على النص
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplySuperscriptAndSubscript-SettingSubscriptEffect-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

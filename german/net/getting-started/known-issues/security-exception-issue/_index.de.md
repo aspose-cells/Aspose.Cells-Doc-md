@@ -11,3 +11,4 @@ Einige Benutzer erhalten möglicherweise einen "Sicherheitsausnahmefehler", wenn
 Aspose.Cells muss einige **Win32 GDI-APIs** aufrufen, um einige wichtige Funktionen bereitzustellen. Wenn der Webserver ein strenges Vertrauensniveau hat, kann diese Sicherheitsausnahme ausgelöst werden.
 ### **Lösung**
 Versuchen Sie bitte, einen neuen Berechtigungssatz zu erstellen, um Aspose.Cells.dll Sicherheitsberechtigung mit aktivierter „Aufrufe an nicht verwaltete Assemblys zulassen“ zu geben.
+{{< app/cells/assistant language="csharp" >}}

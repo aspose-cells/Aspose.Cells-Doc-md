@@ -27,3 +27,4 @@ Cela inclut les nombreuses fonctionnalités d'Aspose.Cells par rapport à NPOI.
   - [Définir la couleur de l'onglet de la feuille de calcul dans Aspose.Cells](/cells/fr/net/set-worksheet-tab-color-in-aspose-cells/)
 
 **Remarque :** De nombreux autres exemples seront bientôt disponibles.
+{{< app/cells/assistant language="csharp" >}}

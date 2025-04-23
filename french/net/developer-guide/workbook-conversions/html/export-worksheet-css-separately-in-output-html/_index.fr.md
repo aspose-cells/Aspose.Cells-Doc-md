@@ -26,3 +26,4 @@ Lorsqu'un classeur avec plusieurs feuilles est converti en HTML à l'aide de Asp
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-SetSingleSheetTabNameInHtml-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

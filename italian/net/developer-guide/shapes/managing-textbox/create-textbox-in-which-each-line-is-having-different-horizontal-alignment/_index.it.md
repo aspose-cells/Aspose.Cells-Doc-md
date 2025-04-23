@@ -14,3 +14,4 @@ url: /it/net/create-textbox-in-which-each-line-is-having-different-horizontal-al
 Il seguente codice di esempio crea tre righe e imposta l'allineamento orizzontale di ciascuna di esse.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateTextBoxWithDifferentHorizontalAlignment-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

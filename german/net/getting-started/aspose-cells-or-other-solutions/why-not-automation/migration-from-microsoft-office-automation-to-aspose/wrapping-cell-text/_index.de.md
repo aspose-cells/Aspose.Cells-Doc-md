@@ -133,3 +133,4 @@ void WrappingCellText()
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -64,3 +64,4 @@ Aspose.Cells предоставляет класс [Workbook](https://reference.
 - [Редактирование гиперссылок в рабочем листе](/cells/ru/net/editing-hyperlinks-of-worksheet/)
 - [Получение гиперссылок в диапазоне](/cells/ru/net/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="csharp" >}}

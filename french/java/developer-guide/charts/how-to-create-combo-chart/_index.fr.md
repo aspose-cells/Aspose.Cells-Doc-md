@@ -20,3 +20,4 @@ Après avoir exécuté le code ci-dessous, vous verrez le graphique mixte tel qu
 Le code d'exemple suivant charge le [fichier Excel d'exemple](combo.xlsx) et génère le [fichier Excel de sortie](out.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-add-combo-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

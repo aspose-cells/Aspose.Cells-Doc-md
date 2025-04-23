@@ -22,3 +22,4 @@ Aspose.Cells ger dig möjlighet att läsa diagramrubriker i ODS-filer genom att 
 Chart Subtitle: Sample Chart Subtitle
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

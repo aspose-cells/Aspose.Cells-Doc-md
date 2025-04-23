@@ -21,3 +21,4 @@ Aşağıdaki örnek kod, grafik içeren satırları veya aralığı yeni çalı�
 
 
 
+{{< app/cells/assistant language="java" >}}

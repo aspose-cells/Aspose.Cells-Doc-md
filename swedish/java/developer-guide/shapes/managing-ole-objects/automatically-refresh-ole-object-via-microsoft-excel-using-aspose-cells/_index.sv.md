@@ -22,3 +22,4 @@ Följande skärmbild visar hur [utdata excelfilen](5473429.xlsx) ser ut när den
 ![todo:image_alt_text](automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AutomaticallyrefreshOLEobject-AutomaticallyrefreshOLEobject.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -14,3 +14,4 @@ Aspose.Cells fornisce la possibilità di ottenere l'ID univoco di un foglio di l
 ### Codice Sorgente
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-GetWorksheetUniqueId-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

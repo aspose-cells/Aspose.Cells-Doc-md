@@ -33,3 +33,4 @@ Il codice di seguito imposta un'immagine di sfondo utilizzando un'immagine da un
 
 - [Lavorare con lo sfondo nei file ODS](/cells/it/net/working-with-background-in-ods-files/)
 
+{{< app/cells/assistant language="csharp" >}}

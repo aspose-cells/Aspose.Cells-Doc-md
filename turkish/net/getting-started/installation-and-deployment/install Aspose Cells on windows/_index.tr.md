@@ -38,3 +38,4 @@ Bunu başarmanın bazı yolları aşağıda belirtilmiştir.
 Değişikliğin etkili olması için bilgisayarınızı yeniden başlatmanız gerekecektir. Bu değişiklik sadece sizin değil, bilgisayardaki tüm hesapları etkiler.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

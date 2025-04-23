@@ -110,3 +110,4 @@ Basierend auf den oben genannten Fakten sind folgende mögliche Szenarien, in de
 1. Schreibgeschützter Zugriff auf die Zellsammlung ist erforderlich, d.h. es ist nur erforderlich, die Zellen zu inspizieren.
 1. Eine große Anzahl von Zellen muss durchlaufen werden.
 1. Es sollen nur initialisierte Zellen/Zeilen/Spalten durchlaufen werden.
+{{< app/cells/assistant language="java" >}}

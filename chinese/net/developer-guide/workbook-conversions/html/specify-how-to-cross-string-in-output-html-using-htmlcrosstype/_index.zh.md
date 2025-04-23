@@ -26,3 +26,4 @@ url: /zh/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-SpecifyHtmlCrossTypeInOutputHTML.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

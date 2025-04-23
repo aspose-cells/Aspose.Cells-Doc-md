@@ -30,3 +30,4 @@ Ein anderer Ansatz ist die Verwendung einer **gemeinsamen Formel**. Mit einer ge
 Das folgende Beispiel zeigt, wie es verwendet wird.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-SettingSharedFormula-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

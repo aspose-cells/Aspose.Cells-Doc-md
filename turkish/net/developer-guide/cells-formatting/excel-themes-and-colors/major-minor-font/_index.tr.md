@@ -46,3 +46,4 @@ Dosyayı [**LoadOptions.Region**](https://reference.aspose.com/cells/net/aspose.
 Aşağıdaki örnek kod, yerel tema yazı tipini nasıl alacağımızı göstermektedir.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Local-Theme-Font.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

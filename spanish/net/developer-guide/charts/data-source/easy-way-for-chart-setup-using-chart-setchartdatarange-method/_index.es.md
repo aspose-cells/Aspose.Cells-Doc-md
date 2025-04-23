@@ -16,3 +16,4 @@ Aspose.Cells ahora proporciona el método [**Chart.SetChartDataRange()**](https:
 El siguiente código de muestra explica el uso del método [**Chart.SetChartDataRange()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange) para configurar fácilmente gráficos.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ChartSetupUsingSetChartDataRange-EasyWayToChartSetupUsingSetChartDataRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

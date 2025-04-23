@@ -26,3 +26,4 @@ Medan i följande arbetsbladsbild har transparens tillämpats. Cellerna utan fyl
 Följande exempelkod genererar en transparent bild från ett Excel-ark.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateTransparentImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

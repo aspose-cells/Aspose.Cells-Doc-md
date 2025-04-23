@@ -35,3 +35,4 @@ Aspose.Cellsはエラーチェックオプション機能を提供していま�
 次のサンプルコードは、Aspose.CellsのAPIを使用してXLSファイルのワークシートにおいてテキストとして保存された数値のエラーチェックオプションを無効にする方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ErrorCheckingOptions-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

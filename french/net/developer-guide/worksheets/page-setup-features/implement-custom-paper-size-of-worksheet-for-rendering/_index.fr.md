@@ -22,3 +22,4 @@ Aspose.Cells vous permet de mettre en œuvre la taille de feuille de calcul souh
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ImplementCustomPaperSizeOfWorksheetForRendering.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

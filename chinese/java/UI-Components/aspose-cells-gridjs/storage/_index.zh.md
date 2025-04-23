@@ -15,11 +15,11 @@ aliases:
 ## 一般文件处理 
 导入电子表格文件后，
 
-GridJs 将在 **`Config.getFileCacheDirectory()`** 文件夹中创建具有指定 uid 的缓存文件。
+GridJs 会在 **`Config.getFileCacheDirectory()`** 文件夹中创建一个具有指定 uid 的缓存文件，
 
-使用[Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/java/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat")格式，
+格式为 [Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/java/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat") ，
 
-GridJs还将所有形状/图片保存到一个zip存档文件中，以便将来在客户端UI中显示形状/图片，存档文件位于**`Config.getPictureCacheDirectory()`**文件夹。
+GridJs 还会把所有形状/图片保存到 **`Config.getPictureCacheDirectory()`** 文件夹中的 zip 存档文件，以备后续在客户端 UI 中显示形状/图片。
 
 并且在客户端UI中的每次更新操作之后，
 
@@ -99,7 +99,7 @@ public class LocalFileCache extends GridCacheForStream {
 ```
 B.如果我们不设置GridJsWorkbook.CacheImp，
 
-GridJs将在**`Config.getFileCacheDirectory()`**文件夹中创建并保存文件，默认的缓存目录，可以在其中进行设置。
+GridJs 会在 **`Config.getFileCacheDirectory()`** 文件夹内创建并保存文件，这是我们可以设置的默认缓存目录。
 
 ### 如何获得更新后的结果文件
 #### 1. 为文件指定uid 
@@ -183,7 +183,7 @@ GridJs将在**`Config.getFileCacheDirectory()`**文件夹中创建并保存文�
   //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
   wb.saveToCacheWithFileName(uid,filename,password);
 ```         
-#### 3. 从缓存中获取文件URL
+#### 3. 从缓存获取文件 URL
 例如：在下载操作中，您可以根据 uid 直接从缓存目录中获取文件。
 ```JAVA
 //in controller  

@@ -27,3 +27,4 @@ Aquí hay otro ejemplo que utiliza un rango con nombre para sumar valores de 2 c
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CalculatingSumUsingNamedRange-CalculatingSumUsingNamedRangeOnDifferentSheets.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

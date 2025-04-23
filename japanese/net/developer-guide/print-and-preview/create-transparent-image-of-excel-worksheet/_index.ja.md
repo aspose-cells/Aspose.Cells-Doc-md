@@ -26,3 +26,4 @@ url: /ja/net/create-transparent-image-of-excel-worksheet/
 次のサンプルコードは、Excelワークシートから透明な画像を生成します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateTransparentImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

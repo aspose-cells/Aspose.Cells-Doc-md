@@ -18,3 +18,4 @@ Aspose.Cellsでは、チャートのデータラベルのテキスト折り返�
 次のコードサンプルは、チャートのデータラベルのテキスト折り返しを無効にする方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-DisableTextWrappingForDataLabels-DisableTextWrappingForDataLabels.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

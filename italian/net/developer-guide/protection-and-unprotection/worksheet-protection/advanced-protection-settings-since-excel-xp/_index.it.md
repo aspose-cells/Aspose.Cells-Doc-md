@@ -66,3 +66,4 @@ Se si desidera impedire agli utenti di modificare le celle, le celle devono esse
 È possibile bloccare le celle anche utilizzando l'API Aspose.Cells. Ogni cella può ottenere una formattazione che contiene una proprietà booleana, [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked). Impostare la proprietà [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) su **true** o **false** per bloccare o sbloccare la cella.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

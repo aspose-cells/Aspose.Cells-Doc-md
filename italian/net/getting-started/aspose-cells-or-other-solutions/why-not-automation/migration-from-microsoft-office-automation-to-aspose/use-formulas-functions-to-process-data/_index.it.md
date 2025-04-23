@@ -161,3 +161,4 @@ void AddingCellFormula()
 ![todo:image_alt_text](use-formulas-functions-to-process-data_2.png)
 
 **Figura 2:** Output utilizzando formule con Aspose.Cells for .NET
+{{< app/cells/assistant language="csharp" >}}

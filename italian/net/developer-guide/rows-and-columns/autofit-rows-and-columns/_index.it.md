@@ -79,3 +79,4 @@ Se una cella è unita, i metodi AutoFit non verranno applicati, che è lo stesso
 
 ## **Argomenti avanzati**
 - [Adattare automaticamente le righe per le celle unite](/cells/it/net/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="csharp" >}}

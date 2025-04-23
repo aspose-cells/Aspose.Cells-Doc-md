@@ -16,3 +16,4 @@ Aspose.Cells bietet die Möglichkeit, die externe Verbindung Datenquelle des Piv
 Die im Codeausschnitt verwendete Quelldatei ist zur Referenz angehängt.
 
 [Quelldatei](SamplePivotTableExternalConnection.xlsx)
+{{< app/cells/assistant language="java" >}}

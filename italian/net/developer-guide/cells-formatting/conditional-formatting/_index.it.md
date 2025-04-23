@@ -80,3 +80,4 @@ Puoi solo usare stili di linea sottili per il bordo di contorno. Le linee diagon
 - [Genera Immagini Barre Dati delle Formattazioni Condizionali](/cells/it/net/generate-conditional-formatting-databars-images/)
 - [Ottieni Insiemi di Icone, Barre Dati o Oggetti Scala a Colori usati nella Formattazione Condizionale](/cells/it/net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
 
+{{< app/cells/assistant language="csharp" >}}

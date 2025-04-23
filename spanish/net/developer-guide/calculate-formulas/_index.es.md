@@ -74,3 +74,4 @@ De forma predeterminada, la cadena de cálculo está deshabilitada. Debido a que
 - [Configurar el modo de cálculo de fórmulas de una hoja de cálculo](/cells/es/net/setting-formula-calculation-mode-of-workbook/)
 - [Usando la función FormulaText en Aspose.Cells](/cells/es/net/using-formulatext-function-in-aspose-cells/)
 - [Usar la función ICustomFunction](/cells/es/net/using-icustomfunction-feature/)
+{{< app/cells/assistant language="csharp" >}}

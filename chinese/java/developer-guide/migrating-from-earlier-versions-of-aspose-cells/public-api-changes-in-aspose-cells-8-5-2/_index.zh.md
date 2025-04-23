@@ -174,3 +174,4 @@ Aspose.Cells for Java 8.5.2已经暴露出ConsolidationFunction.DISTINCT_COUNT�
 仅Microsoft Excel 2013支持Distinct Count统计函数。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

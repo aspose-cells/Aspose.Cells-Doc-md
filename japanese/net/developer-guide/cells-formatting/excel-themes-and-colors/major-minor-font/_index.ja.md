@@ -46,3 +46,4 @@ Aspose.Cells for .Net を使用すると、デフォルトのフォントがテ�
 以下のサンプルコードは、ローカルのテーマフォントを取得する方法を示しています。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Local-Theme-Font.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

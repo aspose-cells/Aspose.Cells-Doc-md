@@ -11,7 +11,7 @@ keywords: Tarih ve Saatleri Nasıl Yönetilir, 1900 tarih sistemi, 1904 tarih si
 Tarihler ve saatler, hücrelerde sayı olarak saklanır. Bu nedenle, tarih ve saat içeren hücrelerin değerleri sayı türündedir. Tarih ve saat belirten bir sayı, tarih (tamsayı kısmı) ve saat (kesirli kısmı) bileşenlerinden oluşur. Cell.DoubleValue özelliği bu sayıyı döndürür.
 
 ## **Tarihleri ve Saatleri Aspose.Cells'de Gösterme**
-Bir sayıyı tarih ve saat olarak göstermek için hücreye [Style.Number](https://reference.aspose.com/cells/net/aspose.cells/style/number/) veya [Style.Custom]() özelliği aracılığıyla gerekli tarih ve saat biçimini uygulayın. CellValue.DateTimeValue özelliği, hücrede bulunan sayı ile temsil edilen tarih ve saati belirten DateTime nesnesini döndürür.
+Bir sayıyı tarih ve saat olarak göstermek için, hücreye gerekli tarih ve saat biçimini [Style.number](https://reference.aspose.com/cells/python-net/aspose.cells/style/number/) veya [Style.Custom]() özelliği aracılığıyla uygulayın. CellValue.DateTimeValue özelliği, hücrede bulunan sayıca temsil edilen tarih ve saat belirten DateTime nesnesini döner.
 <br>
 <image src="1.png" width="70%" />
 
@@ -19,7 +19,7 @@ Bir sayıyı tarih ve saat olarak göstermek için hücreye [Style.Number](https
 MS-Excel, tarihleri seri değerler olarak adlandırılan sayılar olarak saklar. Bir seri değer, tarih sistemine göre ilk günden geçen günlerin sayısıdır. Excel, seri değerler için aşağıdaki tarih sistemlerini destekler:
 
 1. 1900 tarih sistemi. İlk tarih 1 Ocak 1900'dür ve seri değeri 1'dir. Son tarih 31 Aralık 9999'dur ve seri değeri 2.958.465'tir. Bu tarih sistemi, ön tanımlı olarak çalışbook'ta kullanılır.
-2. 1904 tarih sistemi. İlk tarih 1 Ocak 1904'tür ve seri değeri 0'dır. Son tarih 31 Aralık 9999'dur ve seri değeri 2.957.003'tür. Çalışbook'ta bu tarih sistemi kullanılacaksa, [Workbook.Settings.Date1904](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/date1904/) özelliğini true olarak ayarlayın.
+1. 1904 tarih sistemi. İlk tarih 1 Ocak 1904'tür ve seri değeri 0'dır. Son tarih 31 Aralık 9999'dur ve seri değeri 2.957.003'tür. Bu tarih sistemini çalışma kitabında kullanmak için [**Workbook.settings.date1904**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/date1904/) özelliğini true yapın.
 
 
 Bu örnek, farklı tarih sistemlerinde aynı tarihte saklanan seri değerlerin farklı olduğunu göstermektedir.

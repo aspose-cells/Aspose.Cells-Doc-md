@@ -14,3 +14,4 @@ Excel metin kutusu veya şeklin karakter boşluğunu [**FontSetting.TextOptions.
 Aşağıdaki örnek kod, excel dosyasındaki metin kutusunun karakter boşluğunu 4 noktaya değiştirir ve ardından diske kaydeder.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeTextBoxOrShapeCharacterSpacing-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

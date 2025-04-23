@@ -42,4 +42,5 @@ description: С помощью Aspose.Cells просто создавайте, �
 - [Преобразовать Excel в JSON](/cells/ru/net/convert-excel-to-json/)
 - [Преобразовать JSON в CSV](/cells/ru/net/convert-json-to-csv/)
 - [Преобразовать JSON в Excel](/cells/ru/net/convert-json-to-excel/)
-- [Convert-Excel-to-Html](/cells/ru/net/convert-excel-to-html/)
+- [Преобразовать Excel в HTML](/cells/ru/net/convert-excel-to-html/)
+{{< app/cells/assistant language="csharp" >}}

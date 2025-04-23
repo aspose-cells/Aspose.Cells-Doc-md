@@ -12,3 +12,4 @@ url: /ar/java/replace-text-in-a-workbook-using-regular-expression/
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-RegexReplace-1.java" >}}
+{{< app/cells/assistant language="java" >}}

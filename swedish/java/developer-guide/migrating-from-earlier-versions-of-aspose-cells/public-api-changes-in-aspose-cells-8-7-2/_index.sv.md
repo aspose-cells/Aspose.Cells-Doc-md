@@ -101,3 +101,4 @@ box.setName("MyTextBox");
 box = sheet.getTextBoxes().get("MyTextBox");
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

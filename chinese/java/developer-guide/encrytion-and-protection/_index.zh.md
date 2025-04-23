@@ -33,3 +33,4 @@ Aspose.Cells for Java 提供了广泛的文件到数据级别的保护和解除�
 - [如何检测文件格式并检查文件是否加密](/cells/zh/java/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
 
 
+{{< app/cells/assistant language="java" >}}

@@ -63,3 +63,4 @@ Les composants Aspose offrent de nombreuses fonctions puissantes qui font gagner
 
 * [En savoir plus sur Apache POI](https://poi.apache.org/)
 
+{{< app/cells/assistant language="csharp" >}}

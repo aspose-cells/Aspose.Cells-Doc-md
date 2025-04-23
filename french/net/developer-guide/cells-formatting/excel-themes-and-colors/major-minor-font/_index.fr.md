@@ -46,3 +46,4 @@ Nous devons définir les paramètres régionaux du système avant de charger le 
 Le code d'exemple suivant montre comment obtenir la police de thème locale.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Local-Theme-Font.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

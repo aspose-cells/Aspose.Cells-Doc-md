@@ -69,3 +69,4 @@ Aspose.Cells предоставляет возможности настройк�
 
 ## **Продвинутые темы**
 - [Извлечение данных о теме из файла Excel](/cells/ru/net/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="csharp" >}}

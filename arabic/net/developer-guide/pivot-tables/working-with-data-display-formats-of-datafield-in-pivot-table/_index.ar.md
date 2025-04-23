@@ -13,7 +13,7 @@ url: /ar/net/working-with-data-display-formats-of-datafield-in-pivot-table/
 
 ## **"ترتيب من الأصغر إلى الأكبر" و "ترتيب من الأكبر إلى الأصغر" خيار شكل العرض**
 
-يوفر ASpose.Cells القدرة على تعيين خيار تنسيق العرض لحقول الجدول المحوري. لهذا، توفر واجهة برمجة التطبيقات العقارية [**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat). لتحديد الترتيب من الأكبر إلى الأصغر، قد تقوم بتعيين خاصية [**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat) إلى [**PivotFieldDataDisplayFormat.RankLargestToSmallest**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfielddatadisplayformat). المقتطف البرمجي التالي يوضح ضبط خيارات تنسيق العرض.
+يوفر ASpose.Cells القدرة على تعيين خيار تنسيق العرض لحقول الجدول المحوري. لهذا، توفر واجهة برمجة التطبيقات العقارية [**PivotField.ShowValuesSetting.CalculationType**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotshowvaluessetting/calculationtype/). لتحديد الترتيب من الأكبر إلى الأصغر، قد تقوم بتعيين خاصية [**PivotField.ShowValuesSetting.CalculationType**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotshowvaluessetting/calculationtype/) إلى [**PivotFieldDataDisplayFormat.RankLargestToSmallest**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfielddatadisplayformat). المقتطف البرمجي التالي يوضح ضبط خيارات تنسيق العرض.
 
 يمكن تنزيل ملفات الأصل والإخراج العينية من هنا لاختبار كود العينة:
 
@@ -22,3 +22,4 @@ url: /ar/net/working-with-data-display-formats-of-datafield-in-pivot-table/
 [ملف إكسل الإخراج](101089333.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTables-PivotTableDataDisplayFormatRanking-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

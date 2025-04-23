@@ -59,3 +59,4 @@ CSVファイルを開くためにデフォルトのパーサー設定を使用�
 - [数式を持つCSVファイルを読み込むまたはインポートする](/cells/ja/net/load-or-import-csv-file-with-formulas/)
 - [複数のエンコーディングを持つCSVファイルの読み込み](/cells/ja/net/reading-csv-file-with-multiple-encodings/)
 
+{{< app/cells/assistant language="csharp" >}}

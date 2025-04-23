@@ -50,3 +50,4 @@ keywords: C#打开Excel文件而不使用Excel，我该如何打开Excel文件�
 [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)构造函数在加载大型电子表格时可能会引发*System.OutOfMemoryException*。此异常表明可用内存不足以完全将电子表格加载到内存中，因此必须在启用内存偏好的情况下加载电子表格。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

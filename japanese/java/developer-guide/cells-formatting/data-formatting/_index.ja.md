@@ -403,3 +403,4 @@ CellsコレクションにはColumnsコレクションが提供されていま�
 [数字および日付の表示形式の詳細な記事](/cells/ja/java/data-formatting/)をご覧ください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -81,7 +81,7 @@ Una opzione per il ritorno a capo del testo in un campo è ridurre le dimensioni
 
 ### **Unione di celle**
 
-Come Microsoft Excel, Aspose.Cells supporta l'unione di diverse celle in una. Aspose.Cells fornisce due approcci per questo compito. Un modo è chiamare il metodo [**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)). Il metodo richiede i seguenti parametri per unire le celle:
+Come Microsoft Excel, Aspose.Cells supporta l'unione di diverse celle in una. Aspose.Cells fornisce due approcci per questo compito. Un modo è chiamare il metodo [**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge-int-int-int-int-). Il metodo richiede i seguenti parametri per unire le celle:
 
 - Prima riga: la prima riga da cui iniziare a unire.
 - Prima colonna: la prima colonna da cui iniziare a unire.
@@ -108,3 +108,4 @@ L'ordine di lettura è impostato con la proprietà [**TextDirection**](https://r
 ## **Argomenti avanzati**
 - [Modifica dell'allineamento delle celle e mantenimento della formattazione esistente](/cells/it/java/change-cells-alignment-and-keep-existing-formatting/)
 - [Interruzioni di riga e interruzioni di testo](/cells/it/java/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="java" >}}

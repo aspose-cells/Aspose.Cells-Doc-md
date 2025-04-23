@@ -51,3 +51,4 @@ url: /ru/java/convert-csv-tsv-and-txt-to-excel/
 - [Загрузить или импортировать файл CSV с формулами](/cells/ru/java/load-or-import-csv-file-with-formulas/)
 - [Обрезать ведущие пустые строки и столбцы при экспорте электронных таблиц в формат CSV](/cells/ru/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
 
+{{< app/cells/assistant language="java" >}}

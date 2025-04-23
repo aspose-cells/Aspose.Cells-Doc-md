@@ -7,7 +7,7 @@ url: /fr/java/reading-and-writing-query-table-of-worksheet/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells fournit une collection [Worksheet.getQueryTables()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#QueryTables) qui renvoie la [QueryTableCollection](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTableCollection). Pour obtenir un [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) spécifique, utilisez la propriété [QueryTableCollection.get()](https://reference.aspose.com/cells/java/com.aspose.cells/querytablecollection#Item%20\(int\)) et transmettez l'index du QueryTable. La classe [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) possède les deux propriétés suivantes pour ajuster la QueryTable.
+Aspose.Cells fournit la collection [Worksheet.getQueryTables()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#QueryTables) qui retourne la [QueryTableCollection](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTableCollection). Pour obtenir une [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) spécifique, utilisez la propriété [QueryTableCollection.get()](https://reference.aspose.com/cells/java/com.aspose.cells/querytablecollection#Item%20-int-) en passant l’indice de la QueryTable. La classe [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) possède deux propriétés pour ajuster la QueryTable.
 
 - [QueryTable.getAdjustColumnWidth()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#AdjustColumnWidth)
 - [QueryTable.getPreserveFormatting()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting)
@@ -42,3 +42,4 @@ Preserve Formatting: false
 Aspose.Cells offre la possibilité de lire l'adresse, c'est-à-dire la plage de résultats des cellules pour une table de requête. Le code suivant illustre cette fonctionnalité en lisant l'adresse de la plage de résultats pour une table de requête. Le fichier d'exemple peut être téléchargé [ici](QueryTXT.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReadingAndWritingQueryTable-RetrieveQueryTableResultRange.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -25,3 +25,4 @@ Aspose.Cells 提供了与 Microsoft Excel 相同的功能，用于添加工作�
 ## **使用工作表范围添加命名范围**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddNamedRangeWithWorksheetScope-AddNamedRangeWithWorkbookScope.java" >}}
+{{< app/cells/assistant language="java" >}}

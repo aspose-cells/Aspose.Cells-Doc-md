@@ -33,3 +33,4 @@ Der nachstehende Beispielcode beschreibt, wie man mit Aspose.Cells for Java API 
 Wenn die Tabellenkalkulation Formeln enthält, ist es am besten, [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) kurz vor dem Rendern in PDF aufzurufen. Dadurch werden formelabhängige Werte neu berechnet, und die korrekten Werte werden im PDF angezeigt.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

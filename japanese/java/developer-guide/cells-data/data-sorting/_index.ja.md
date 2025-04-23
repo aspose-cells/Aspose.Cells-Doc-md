@@ -62,7 +62,7 @@ Aspose.Cells は、昇順または降順でデータをソートするために�
 
 ## **背景色でデータをソートする**
 
-Excel は、背景色に基づいてデータをソートする機能を提供しています。この機能は、Aspose.Cells を使用して [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) を使って同じ機能が提供されます。[**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int)) 内で [**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL_COLOR) を使用して、背景色に基づいてデータをソートします。指定した色が含まれる指定されたセル内のすべてのセルは、SortOrder の設定とその他のセルの順序に従って、先頭または最後尾に配置されます。
+Excel は、背景色に基づいてデータをソートする機能を提供しています。この機能は、Aspose.Cells を使用して [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) を使って同じ機能が提供されます。[**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-) 内で [**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL-COLOR) を使用して、背景色に基づいてデータをソートします。指定した色が含まれる指定されたセル内のすべてのセルは、SortOrder の設定とその他のセルの順序に従って、先頭または最後尾に配置されます。
 
 これがこの機能のテストにダウンロードできるサンプルファイルです。
 
@@ -78,3 +78,4 @@ Excel は、背景色に基づいてデータをソートする機能を提供�
 - [カスタムソートリストを使用した列内のデータの並べ替え](/cells/ja/java/sort-data-in-column-with-custom-sort-list/)
 - [データソート時の警告の指定](/cells/ja/java/specifying-sort-warning-while-sorting-data/)
 
+{{< app/cells/assistant language="java" >}}

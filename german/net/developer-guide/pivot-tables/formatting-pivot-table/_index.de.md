@@ -63,3 +63,4 @@ Die Methode [**Clear()**](https://reference.aspose.com/cells/net/aspose.cells.pi
 Das unten stehende Codebeispiel zeigt, wie man alle Pivot-Felder in einem Datenbereich löscht.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ClearPivotFields-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

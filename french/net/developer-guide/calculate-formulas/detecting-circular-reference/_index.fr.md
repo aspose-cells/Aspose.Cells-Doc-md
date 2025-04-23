@@ -30,3 +30,4 @@ Le fichier d'exemple source peut être téléchargé à partir du lien suivant :
 La définition de la classe *CircularMonitor* qui est dérivée de la classe [**AbstractCalculationMonitor**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor) est la suivante :
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-DetectCircularReference-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

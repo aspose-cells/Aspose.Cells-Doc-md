@@ -74,3 +74,4 @@ Descargar **Convertir gráfico a imágenes** de cualquiera de los sitios de codi
 Para más detalles, visita [Convertir gráfico a imagen](/cells/es/net/converting-chart-to-image-in-svg-format/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

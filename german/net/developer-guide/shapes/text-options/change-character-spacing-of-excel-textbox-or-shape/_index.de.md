@@ -14,3 +14,4 @@ Sie können den Zeichenabstand einer Excel-Textbox oder Form mithilfe der Eigens
 Der folgende Beispielcode ändert den Zeichenabstand des Textfelds in einer Excel-Datei auf 4 und speichert ihn dann auf der Festplatte.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeTextBoxOrShapeCharacterSpacing-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

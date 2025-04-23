@@ -32,3 +32,4 @@ Burada, [Aspose.Cells](https://products.aspose.com/cells/) kullanarak simgeleri 
 Yukarıdaki kodu projenizde çalıştırdığınızda aşağıdaki sonuçları elde edersiniz:
 
 ![](3.png)
+{{< app/cells/assistant language="java" >}}

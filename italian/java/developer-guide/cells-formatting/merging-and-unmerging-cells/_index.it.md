@@ -33,7 +33,7 @@ I seguenti passaggi descrivono come unire le celle nel foglio di lavoro utilizza
 
 ### **Usare Aspose.Cells**
 
-La classe [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) dispone di alcuni metodi utili per il compito. Ad esempio, il metodo [**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) unisce le celle in una singola cella all'interno di un intervallo specificato di celle.
+La classe [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) dispone di alcuni metodi utili per il compito. Ad esempio, il metodo [**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge-int-int-int-int-) unisce le celle in una singola cella all'interno di un intervallo specificato di celle.
 
 L'output seguente è generato dopo aver eseguito il codice sottostante.
 
@@ -59,7 +59,7 @@ I seguenti passaggi descrivono come dividere le celle unite usando Microsoft Exc
 
 #### **Usare Aspose.Cells**
 
-La classe [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) ha un metodo chiamato [**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge(int,%20int,%20int,%20int)) che divide le celle nel loro stato originale. Il metodo divide le celle utilizzando il riferimento della cella nell'intervallo della cella unita.
+La classe [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) ha un metodo chiamato [**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge-int-int-int-int-) che divide le celle nel loro stato originale. Il metodo divide le celle utilizzando il riferimento della cella nell'intervallo della cella unita.
 
 #### **Esempio di codice**
 
@@ -72,3 +72,4 @@ L'esempio seguente mostra come dividere le celle unite (C6). L'esempio utilizza 
 - [Trova e divide le celle unite](/cells/it/java/detect-merged-cells-in-a-worksheet/).
 - [Unisci e divide un intervallo di celle utilizzando i metodi Range.merge() e Range.unMerge()](/cells/it/java/merge-or-unmerge-range-of-cells/).
 
+{{< app/cells/assistant language="java" >}}

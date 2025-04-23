@@ -22,3 +22,4 @@ Por favor, consulta el siguiente código de ejemplo para saber cómo agregar mar
 Si tu hoja de cálculo tiene fórmulas, es mejor llamar a [**Workbook.CalculateFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula/index) justo antes de renderizar la hoja de cálculo en formato PDF. Haciendo esto garantizarás que los valores dependientes de las fórmulas se actualicen y se representen correctamente en PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

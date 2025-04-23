@@ -47,3 +47,4 @@ for (int i = 0 ; i < dataTable.length ; i++)
 詳細については、[ワークシートからのデータエクスポート](/java/exporting-data-from-worksheets)を参照してください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

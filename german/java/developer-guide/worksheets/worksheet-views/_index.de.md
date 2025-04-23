@@ -47,9 +47,9 @@ Aspose.Cells ermöglicht es Entwicklern auch, den Zoomfaktor des Arbeitsblatts f
 ### **Steuerung des Zoomfaktors**
 Aspose.Cells bietet eine [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Klasse, die eine Microsoft Excel-Datei darstellt. Die [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Klasse enthält eine [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection), die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
 
-Ein Arbeitsblatt wird durch die [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse dargestellt. Die [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse bietet eine Vielzahl von Eigenschaften und Methoden zur Verwaltung von Arbeitsblättern. Um den Zoomfaktor eines Arbeitsblatts festzulegen, verwenden Sie die [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) Methode der [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse.
+Ein Arbeitsblatt wird durch die Klasse [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) dargestellt. Die Klasse [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) bietet eine Vielzahl von Eigenschaften und Methoden zur Verwaltung von Arbeitsblättern. Um den Zoomfaktor eines Arbeitsblatts einzustellen, verwenden Sie die Methode [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) der Klasse [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
-Ein vollständiges Beispiel finden Sie unten, das zeigt, wie die [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) Methode verwendet wird, um den Zoomfaktor des ersten Arbeitsblatts in einer Excel-Datei festzulegen.
+Ein vollständiges Beispiel ist unten angegeben, das zeigt, wie die Methode [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) verwendet wird, um den Zoomfaktor des ersten Arbeitsblatts in einer Excel-Datei festzulegen.
 
 Im folgenden Screenshot sehen Sie die Datei Book1.xls im Standardmodus.
 
@@ -77,14 +77,14 @@ Auch Aspose.Cells ermöglicht Entwicklern, Freeze Panes zur Laufzeit auf Arbeits
 
 Aspose.Cells stellt eine [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-Klasse zur Verfügung, die eine Microsoft Excel-Datei darstellt. Die [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-Klasse enthält eine [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection), die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
 
-Ein Arbeitsblatt wird durch die [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-Klasse dargestellt. Die [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-Klasse bietet eine Vielzahl von Eigenschaften und Methoden zur Verwaltung von Arbeitsblättern. Um Freeze Panes zu konfigurieren, rufen Sie die [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\))-Methode der [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-Klasse auf. Die [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\))-Methode akzeptiert die folgenden Parameter:
+Ein Arbeitsblatt wird durch die Klasse [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) dargestellt. Die Klasse [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) bietet eine Vielzahl von Eigenschaften und Methoden zur Verwaltung von Arbeitsblättern. Um die Freeze-Panes zu konfigurieren, rufen Sie die Methode [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) der Klasse [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) auf. Die Methode [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) nimmt die folgenden Parameter:
 
 - **Zeile**, der Zeilenindex der Zelle, von der das Einfrieren startet.
 - **Spalte**, der Spaltenindex der Zelle, von der das Einfrieren startet.
 - **Eingefrorene Zeilen**, die Anzahl der sichtbaren Zeilen im oberen Bereich.
 - **Eingefrorene Spalten**, die Anzahl der sichtbaren Spalten im linken Bereich
 
-Ein vollständiges Beispiel ist unten aufgeführt, das zeigt, wie die [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\))-Methode der [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-Klasse verwendet wird, um Zeilen und Spalten (beginnend ab C4, dargestellt durch die 4. Zeile und die 3. Spalte, wobei Zeilen und Spalten bei 0 beginnen) des ersten Arbeitsblatts der Excel-Datei einzufrieren.
+Ein vollständiges Beispiel zeigt, wie die Methode [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) mit [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) genutzt wird, um Zeilen und Spalten (beginnend bei C4, dargestellt durch die 4. Zeile und die 3. Spalte, wobei die Zeilen und Spalten bei 0 beginnen) des ersten Arbeitsblatts in der Excel-Datei zu sperren.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FreezePanes-FreezePanes.java" >}}
 
@@ -106,7 +106,7 @@ Wenn Sie den Bildschirm teilen müssen, um zwei verschiedene Ansichten im selben
 Die Panes arbeiten gleichzeitig. Wenn Sie eine Änderung in einer vornehmen, erscheint die Änderung gleichzeitig in der anderen. Aspose.Cells bietet die Funktion für geteilte Fenster für die Benutzer.
 ### **Anwenden und Entfernen von geteilten Fenstern**
 #### **Teilen von Fenstern**
-Aspose.Cells stellt eine [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-Klasse zur Verfügung, die eine Microsoft Excel-Datei darstellt. Die [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-Klasse bietet eine Vielzahl von Eigenschaften und Methoden zur Verwaltung von Excel-Dateien. Um geteilte Ansichten zu implementieren, verwenden Sie die [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\))-Methode der [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-Klasse. Um geteilte Fenster zu entfernen, verwenden Sie die [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\))-Methode.
+Aspose.Cells bietet eine Klasse [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), die eine Microsoft Excel-Datei repräsentiert. Die Klasse [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) bietet eine Vielzahl von Eigenschaften und Methoden zur Verwaltung von Excel-Dateien. Um geteilte Ansichten zu implementieren, verwenden Sie die Methode [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split--) der Klasse [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Um gespaltene Bereiche zu entfernen, verwenden Sie die Methode [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--).
 
 In dem Beispiel verwenden wir eine einfache Vorlagendatei, die geladen wird, und dann wird das Feature der aufgeteilten Bereiche auf eine Zelle im ersten Arbeitsblatt angewendet. Die aktualisierte Datei wird gespeichert.
 
@@ -122,7 +122,7 @@ Nachdem der obige Code ausgeführt wurde, hat die generierte Datei eine geteilte
 
 ![todo:image_alt_text](worksheet-views_9.png)
 #### **Panes entfernen**
-Entwickler können geteilte Bereiche mithilfe der [Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse und der [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) Methode entfernen.
+Entwickler können gespaltene Bereiche mit der Methode [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--) der Klasse [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) entfernen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovePanes-RemovePanes.java" >}}
 
@@ -133,3 +133,4 @@ Entwickler können geteilte Bereiche mithilfe der [Arbeitsblatt](https://referen
 - [Elemente anzeigen und ausblenden](/cells/de/java/show-and-hide-elements/)
 - [Formeln anstelle von Werten in einem Arbeitsblatt anzeigen](/cells/de/java/show-formulas-instead-of-values-in-a-worksheet/)
 - [Fehlerüberprüfungsoptionen verwenden](/cells/de/java/use-error-checking-options/)
+{{< app/cells/assistant language="java" >}}

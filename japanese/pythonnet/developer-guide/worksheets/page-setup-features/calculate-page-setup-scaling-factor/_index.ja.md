@@ -3,8 +3,8 @@ title: ページ設定スケーリングファクターを計算します
 type: docs
 weight: 300
 url: /ja/python-net/calculate-page-setup-scaling-factor/
-description: この記事では、Aspose.Cells for Python via .NET APIを使用して、ExcelワークシートのFit to nページ幅、mページ高のオプションを使用してFit to nページ幅、mページ高をプログラムによって計算する方法についてサンプルコードを提供します。
-keywords: Python Excel Library、Python Fit to nページ幅、mページ高エクセル、Pythonでページセットアップスケーリングファクターを計算する。
+description: この資料は、Aspose.Cells for Python via .NET APIを使用して、Excelワークシートのページ設定のスケーリング係数を、幅nページ、高さmページにフィットさせるオプションを使ってプログラム的に計算するサンプルコードを提供します。
+keywords: Python Excelライブラリ、Pythonでnページに広げるExcel、ページ設定のスケーリングファクターを計算する方法。
 ---
 
 {{% alert color="primary" %}}

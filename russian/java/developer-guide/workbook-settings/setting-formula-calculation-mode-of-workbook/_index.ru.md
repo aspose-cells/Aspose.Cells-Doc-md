@@ -23,7 +23,7 @@ url: /ru/java/setting-formula-calculation-mode-of-workbook/
 Aspose.Cells также позволяет установить **Режим расчета формул** с использованием свойства [**FormulaSettings.CalculationMode**](https://reference.aspose.com/cells/java/com.aspose.cells/formulasettings#CalculationMode). Вы можете присвоить ему перечисление [**CalcModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/CalcModeType), которое имеет одно из следующих значений:
 
 - [**CalcModeType.AUTOMATIC**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC)
-- [**CalcModeType.AUTOMATIC_EXCEPT_TABLE**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC_EXCEPT_TABLE)
+- [**CalcModeType.AUTOMATIC_EXCEPT_TABLE**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC-EXCEPT-TABLE)
 - [**CalcModeType.MANUAL**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#MANUAL)
 
 В следующем примере кода сначала создается книга, затем устанавливается режим расчета формул на **Ручной** и сохраняется книга как файл Excel на диске.
@@ -33,3 +33,4 @@ Aspose.Cells также позволяет установить **Режим р�
 ![todo:image_alt_text](setting-formula-calculation-mode-of-workbook_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetFormulaCalculationMode-SetFormulaCalculationMode.java" >}}
+{{< app/cells/assistant language="java" >}}

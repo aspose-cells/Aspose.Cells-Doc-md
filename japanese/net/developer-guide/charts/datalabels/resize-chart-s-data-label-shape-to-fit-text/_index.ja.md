@@ -22,3 +22,4 @@ Excelアプリケーションでは、チャートのデータラベルの**テ�
 Excelのデータラベルのサイズをテキストに合わせる機能を模倣するために、Aspose.Cells APIでは、ブール型[**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext)プロパティが公開されています。次のコード例は、[**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext)プロパティの簡単な使用シナリオを示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ResizeChartDataLabelToFit-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

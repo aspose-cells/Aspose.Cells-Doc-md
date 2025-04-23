@@ -85,3 +85,4 @@ När man arbetar med arbetsblad kan användare lägga till olika typer av data i
 
 
 
+{{< app/cells/assistant language="csharp" >}}

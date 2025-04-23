@@ -32,6 +32,7 @@ Skriptkommandon är speciella kommandon som tillåter dig att ställa in sidhuvu
 |&T|Aktuell tid|
 |&A|Arbetsbladets namn|
 |&F|Filnamnet utan dess sökväg|
+|&&Text| Visar &Text. Till exempel: &&WO kommer att visas som &WO|
 |&"\<FontName>"|Representerar ett typsnittsnamn. Till exempel: &"Arial"|
 |&"\<FontName>, \<FontStyle>"|Representerar typsnittsnamn med stil. Till exempel: &"Arial,Fetstil"|
 |&\<FontSize>|Representerar teckensnittsstorlek. Till exempel: “&14abc”. Men om detta kommando följs av ett vanligt nummer som ska skrivas ut i sidhuvudet, ska detta separeras med ett mellanslag från teckensnittsstorleken. Till exempel: “&14 123”|
@@ -58,3 +59,4 @@ Efter att ha utfört koden nedan och öppnat filen, kontrollera arbetsbladets si
 1. Välj fliken **Sidhuvud/Sidfot**.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

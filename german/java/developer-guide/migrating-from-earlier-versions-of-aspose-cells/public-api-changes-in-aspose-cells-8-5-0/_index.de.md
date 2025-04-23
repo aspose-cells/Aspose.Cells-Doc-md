@@ -260,3 +260,4 @@ value = cell.getStringValue(CellValueFormatStrategy.NONE);
 System.out.println(value);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

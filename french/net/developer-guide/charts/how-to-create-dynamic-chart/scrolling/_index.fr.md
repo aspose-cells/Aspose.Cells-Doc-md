@@ -32,3 +32,4 @@ Dans le fichier généré, vous pouvez agir sur la barre de défilement, tandis 
 ```
 
 Vous pouvez essayer de changer le nombre "10" en "15" dans la cellule "Feuille1!$H$20", et le graphique dynamique comptera les 15 derniers ensembles de données. Nous avons maintenant créé avec succès un graphique dynamique déroulant en utilisant Aspose.Cells.
+{{< app/cells/assistant language="csharp" >}}

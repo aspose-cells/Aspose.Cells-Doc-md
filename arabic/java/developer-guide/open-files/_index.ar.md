@@ -67,7 +67,7 @@ url: /ar/java/opening-files-with-different-formats/
 
 ### **فتح ملفات Microsoft Excel 97 أو إصدارات لاحقة من XLS**
 
-لفتح ملفات XLS لـ Microsoft Excel إصدار XLS 97 أو الإصدارات اللاحقة، قم بإنشاء مثيل [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) مع مسار أو تيار الملف القالب. أو استخدم الطريقة [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) وحدد قيمة [**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003) في تعداد [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat).
+لفتح ملفات XLS لـ Microsoft Excel إصدار XLS 97 أو الإصدارات اللاحقة، قم بإنشاء مثيل [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) مع مسار أو تيار الملف القالب. أو استخدم الطريقة [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) وحدد قيمة [**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL-97-TO-2003) في تعداد [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat).
 
 #### **مثال**
 
@@ -89,7 +89,7 @@ url: /ar/java/opening-files-with-different-formats/
 
 ملفات SpreadsheetML هي التمثيلات الخاصة باللغة تعريف الوسائط القابلة للتوسع (XML) لجداول البيانات الخاصة بك وتشمل جميع المعلومات حول جداول البيانات الخاصة بك مثل التنسيق، والصيغ، وما إلى ذلك. منذ Microsoft Excel XP، تمت إضافة خيار تصدير XML إلى Microsoft Excel الذي يصدر جداول بياناتك إلى ملفات SpreadsheetML.
 
-لفتح ملفات SpreadsheetML، استخدم فئة [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) وحدد القيمة [**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET_ML) في تعداد [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat).
+لفتح ملفات SpreadsheetML، استخدم فئة [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) وحدد القيمة [**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET-ML) في تعداد [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat).
 
 #### **مثال**
 
@@ -181,3 +181,4 @@ StarOffice Calc مماثل لـ Microsoft Excel ويدعم الصيغ والرس
 - [قراءة ملف CSV بعدة ترميزات](/cells/ar/java/reading-csv-file-with-multiple-encodings/)
 - [توقّف عن التحويل أو التحميل باستخدام InterruptMonitor عندما يستغرق وقتًا طويلاً](/cells/ar/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [استخدام واجهة برمجة التطبيقات LightCells](/cells/ar/java/using-lightcells-api/)
+{{< app/cells/assistant language="java" >}}

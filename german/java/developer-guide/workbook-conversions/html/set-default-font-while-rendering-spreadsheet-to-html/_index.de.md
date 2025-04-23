@@ -20,3 +20,4 @@ Der Screenshot zeigt die Auswirkung des Festlegens verschiedener Standardschrift
 Der Code generiert die [Ausgabe HTML-Datei mit Courier New](5472568), die [Ausgabe HTML-Datei mit Arial](5472567) und die [Ausgabe HTML-Datei mit Times New Roman](5472565).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToHTML-.java" >}}
+{{< app/cells/assistant language="java" >}}

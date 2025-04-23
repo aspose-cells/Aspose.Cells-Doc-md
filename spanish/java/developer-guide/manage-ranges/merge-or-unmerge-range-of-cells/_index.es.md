@@ -29,3 +29,4 @@ La siguiente imagen muestra el archivo de Excel de salida generado con el códig
 - [Combinar y dividir celdas](/cells/es/java/combinar-y-dividir-celdas/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

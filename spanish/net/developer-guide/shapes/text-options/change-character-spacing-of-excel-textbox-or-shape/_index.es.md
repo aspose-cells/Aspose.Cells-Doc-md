@@ -14,3 +14,4 @@ Puede cambiar el espaciado de caracteres del cuadro de texto o forma de Excel ut
 El siguiente código de ejemplo cambia el espaciado de caracteres del cuadro de texto en un archivo de Excel a 4 puntos y luego lo guarda en el disco.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeTextBoxOrShapeCharacterSpacing-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

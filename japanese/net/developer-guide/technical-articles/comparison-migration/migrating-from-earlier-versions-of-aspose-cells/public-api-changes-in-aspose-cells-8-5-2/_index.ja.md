@@ -182,3 +182,4 @@ Distinct Count 結合関数は、Microsoft Excel 2013 でのみサポートさ�
 1. GridDesktop.FinishLoadFile
 1. GridDesktop.BeforeCalculate
 1. GridDesktop.FinishCalculate
+{{< app/cells/assistant language="csharp" >}}

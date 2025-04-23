@@ -16,3 +16,4 @@ Aspose.Cells for .NET 允许您将工作表输出为图像文件，因此制作�
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-GenerateThumbnailOfWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

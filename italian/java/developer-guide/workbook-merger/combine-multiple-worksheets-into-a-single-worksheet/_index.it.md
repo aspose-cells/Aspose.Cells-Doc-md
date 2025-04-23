@@ -15,7 +15,7 @@ A volte è necessario combinare più fogli di lavoro in un unico foglio di lavor
 
 ## **Come combinare i fogli di lavoro**
 
-Il campione di seguito utilizza il metodo [**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) per copiare tutti i fogli di lavoro di origine in un unico foglio all'interno di un libro di lavoro di destinazione.
+Il campione di seguito utilizza il metodo [**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy-com.aspose.cells.Range-) per copiare tutti i fogli di lavoro di origine in un unico foglio all'interno di un libro di lavoro di destinazione.
 
 ### **Libro di lavoro di origine**
 
@@ -59,3 +59,4 @@ Il seguente frammento di codice mostra come combinare più fogli di lavoro in un
 Potresti trovare utile l'articolo [Unire più cartelle di lavoro in una singola cartella di lavoro](/cells/it/java/combine-multiple-workbooks-into-a-single-workbook/) per ulteriori informazioni.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -34,3 +34,4 @@ keywords: 在Excel中添加插入图片、颜色和评论背景
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddPictureToExcelComment-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

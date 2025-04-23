@@ -18,3 +18,4 @@ Följande kodexempel visar hur du konverterar XLSB-filen till XLSM-format med h
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ConvertXLSBToXLSM-ConvertXLSBRevisionToXLSM.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

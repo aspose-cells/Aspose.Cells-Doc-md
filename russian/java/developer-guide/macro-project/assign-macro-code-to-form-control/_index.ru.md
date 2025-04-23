@@ -7,7 +7,7 @@ url: /ru/java/assign-macro-code-to-form-control/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells позволяет назначить код макроса элементу управления формой, такому как кнопка. Пожалуйста, используйте метод [ShapeCollection.addShape()](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape\(int,%20int,%20int,%20int,%20int,%20int,%20int\)) чтобы назначить новый код макроса элементу управления формой внутри книги.
+Aspose.Cells позволяет назначать макросы на элементы управления формы, такие как кнопки. Используйте [ShapeCollection.addShape()](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-) для назначения нового макроса внутри рабочей книги.
 
 {{% /alert %}} 
 ## **Назначение кода макроса элементу управления формой с использованием Aspose.Cells**
@@ -26,3 +26,4 @@ End Sub
 Вот образец кода для создания выходного файла XLSM с кодом макроса.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AssignMacroToFormControl-AssignMacroToFormControl.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -25,3 +25,4 @@ Ci sono diverse modalità per acquisire l'enumeratore delle celle come dettaglia
 È possibile che un dato foglio di lavoro non abbia alcune celle popolate, tuttavia, potrebbe contenere forme e oggetti come controlli, grafici, immagini e così via. Se è necessario verificare se un foglio di lavoro contiene qualche forma, è possibile farlo ispezionando la proprietà [ShapeCollection.Count](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#Count). Qualsiasi valore positivo indica la presenza di forma(e) nel foglio di lavoro.
 ## **Esempio di programmazione**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CheckForShapes-1.java" >}}
+{{< app/cells/assistant language="java" >}}

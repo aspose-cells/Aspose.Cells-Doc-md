@@ -35,3 +35,4 @@ L'exemple suivant montre comment activer une feuille de calcul et rendre une cel
 En mode **évaluation**, c'est-à-dire sans définir de licence valide, la feuille de calcul active sera toujours celle contenant le filigrane d'évaluation. Ce comportement ne peut être outrepassé qu'en définissant la licence au démarrage de l'application.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

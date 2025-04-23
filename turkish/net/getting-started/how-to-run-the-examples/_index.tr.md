@@ -42,3 +42,4 @@ Aspose.Cells for .NET örneklerinin tamamı [GitHub](https://github.com/aspose-
 - **Examples_GridWeb** kök klasöründeki **Data** klasörü, örneklerde kullanılan giriş dosyalarını içerir. Örnekler projesiyle birlikte **Data** klasörünü indirmeniz zorunludur.
 - Örnekler projesinde **Examples.aspx** dosyasını açın ve çalıştırın.
 - Projede içinden çalıştırmak istediğiniz örneğe tarayıcıda tıklayın.
+{{< app/cells/assistant language="csharp" >}}

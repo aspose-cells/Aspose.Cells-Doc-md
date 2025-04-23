@@ -18,7 +18,7 @@ url: /ar/java/grouping-and-ungrouping-rows-and-columns/
 
 توفر مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) عدة طرق لإدارة الصفوف أو الأعمدة في ورقة العمل، ويتم مناقشة بعض هذه الطرق أدناه بالتفصيل.
 ### **تجميع الصفوف والأعمدة**
-من الممكن تجميع الصفوف أو الأعمدة من خلال استدعاء طرق [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows\(int,%20int,%20boolean\)) و [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns\(int,%20int,%20boolean\)) من مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) . تأخذ كلتا الطريقتين المعلمات التالية:
+من الممكن تجميع الصفوف أو الأعمدة من خلال استدعاء طرق [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows-int-int-boolean-) و [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns-int-int-boolean-) لمجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). كلا الطريقتين تأخذان المعلمات التالية:
 
 - مؤشر الصف أو العمود الأول في المجموعة.
 - مؤشر الصف أو العمود الأخير في المجموعة.
@@ -51,7 +51,7 @@ Microsoft Excel يسمح أيضًا بتكوين إعدادات التجميع �
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowRight-1.java" >}}
 ### **إلغاء تجميع الصفوف والأعمدة**
-قم بإلغاء تجميع الصفوف أو الأعمدة المجمعة من خلال استدعاء مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) باستخدام طرق [UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows\(int,%20int\)) و [UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns\(int,%20int\)). تأخذ كلتا الطرق نفس المعاملات:
+لفك تجميع الصفوف أو الأعمدة المجمعة، استدعي طرق [ungroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows-int-int-) و [ungroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns-int-int-) لمجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). كلا الطريقتين تأخذان نفس المعلمات:
 
 - الصف الأول أو فهرس العمود، الصف/العمود الأول الذي سيتم إلغاء تجميعه.
 - الصف/العمود الأخير الذي سيتم إلغاء تجميعه.
@@ -59,3 +59,4 @@ Microsoft Excel يسمح أيضًا بتكوين إعدادات التجميع �
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-UngroupingRowsandColumns-UngroupingRowsandColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

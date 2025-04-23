@@ -16,3 +16,4 @@ Aspose.Cellsを使用すると、実行時にPDFブックマークを追加す�
 次のサンプルコードでは、シンプルなワークブックを生成し、PDFブックマークとその場所の特定を指定し、PDFファイルを生成します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddPDFBookmarks-AddPDFBookmarks.java" >}}
+{{< app/cells/assistant language="java" >}}

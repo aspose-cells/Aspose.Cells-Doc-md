@@ -16,3 +16,4 @@ Der folgende Beispielcode fügt eine Serie in das leere Diagramm ein, das zuvor 
 ![todo:image_alt_text](set-the-values-format-code-of-chart-series_1.png)
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "SetValuesFormatCodeOfChartSeries.java" >}}
+{{< app/cells/assistant language="java" >}}

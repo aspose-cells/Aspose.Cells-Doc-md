@@ -105,3 +105,4 @@ Aspose.Cells может быть использован с любым типом
 
 **Пожалуйста, проверьте:** 
 [Форумы Aspose.Cells - Отзывы](https://downloads.aspose.com/corporate/success-stories/aspose.cells/)
+{{< app/cells/assistant language="java" >}}

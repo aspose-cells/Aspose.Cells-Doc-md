@@ -24,3 +24,4 @@ Aspose.Cells поддерживает отображение маркеров с
 На следующем скриншоте показан вывод вышеприведенного образца кода.
 
 ![todo:image_alt_text](display-bullets-by-setting-cell-value-using-html_1.png)
+{{< app/cells/assistant language="csharp" >}}

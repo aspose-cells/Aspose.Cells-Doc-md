@@ -39,3 +39,4 @@ url: /ru/net/what-is-a-designer-spreadsheet/
 [Узнайте больше об умных маркерах](/cells/ru/net/smart-markers/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

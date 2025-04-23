@@ -33,3 +33,4 @@ Aşağıdaki parametreler kabul edilir:
 - copystyle - Temel hücrenin stiline sütundaki tüm hücreleri kopyala.
 
 Parametreler **noadd** ve skip birleştirilerek veriyi sırayla satırlara eklemek için kullanılabilir. Şablon aşağıdan yukarıya doğru işlendiğinden, alternatif satırın önünde ekstra satırların eklenmesini önlemek için ilk satıra noadd eklemelisiniz.
+{{< app/cells/assistant language="csharp" >}}

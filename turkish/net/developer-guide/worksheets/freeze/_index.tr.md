@@ -40,3 +40,4 @@ Aspose.Cells ile panoları dondurmak çok kolaydır. Lütfen seçilen hücredeki
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Pane.cs" >}}
 
 Ekli [örnek kaynak Excel dosyası](Freeze.xlsx).
+{{< app/cells/assistant language="csharp" >}}

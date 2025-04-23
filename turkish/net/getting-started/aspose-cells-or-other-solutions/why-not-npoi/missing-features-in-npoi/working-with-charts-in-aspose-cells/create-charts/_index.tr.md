@@ -79,3 +79,4 @@ Aşağıda belirtilen herhangi bir sosyal kodlama sitesinden **Grafiği Oluştur
 Daha fazla bilgi için [Nasıl Grafik Oluşturulur](/cells/tr/net/create-charts/) sayfasını ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

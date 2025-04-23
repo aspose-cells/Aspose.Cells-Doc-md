@@ -14,3 +14,4 @@ Es ist möglich, die Arbeitsmappen und Arbeitsblätter getrennt zu schützen. Be
 Aspose.Cells for .NET 8.7.0 hat die [**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword)-Eigenschaft freigegeben, um zu erkennen, ob ein Arbeitsblatt passwortgeschützt ist oder nicht. Die boolesche Eigenschaft [**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword) gibt **true** zurück, wenn [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) passwortgeschützt ist, und **false**, wenn nicht.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CheckIfPasswordProtected-CheckIfPasswordProtected.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

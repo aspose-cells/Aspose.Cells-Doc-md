@@ -18,3 +18,4 @@ url: /zh/net/specifying-significant-digits-to-be-stored-in-excel-file/
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-CellsHelperClass-SignificantDigits.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

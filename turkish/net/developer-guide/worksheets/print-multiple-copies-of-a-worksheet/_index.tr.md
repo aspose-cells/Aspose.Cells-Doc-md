@@ -14,3 +14,4 @@ Aspose.Cells, [**SheetRender.ToPrinter(PrintSettings *PrinterSettings*)**](http
 ### Örnek Kod
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PrintSheetWithAdditionalSettings-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -117,3 +117,4 @@ workbook.save("output.xlsm");
 {{< /highlight >}}
 ### **Aggiunta la proprietà OoxmlSaveOptions.UpdateZoom**
 Con il rilascio di v8.6.0, l'API Aspose.Cells for Java ha esposto la proprietà OoxmlSaveOptions.UpdateZoom che può essere utilizzata per aggiornare la proprietà PageSetup.Zoom se sono state utilizzate le proprietà PageSetup.FitToPagesWide e/o PageSetup.FitToPagesTall per controllare il ridimensionamento del foglio elettronico.
+{{< app/cells/assistant language="java" >}}

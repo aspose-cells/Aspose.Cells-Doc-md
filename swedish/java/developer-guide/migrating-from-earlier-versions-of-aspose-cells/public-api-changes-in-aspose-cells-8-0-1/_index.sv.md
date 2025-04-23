@@ -46,3 +46,4 @@ Minnesinställningarna fungerar inte automatiskt för det standardark som skapas
 Vänligen kontrollera den detaljerade artikeln om [Optimering av minne vid arbete med stora datamängder](/cells/sv/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

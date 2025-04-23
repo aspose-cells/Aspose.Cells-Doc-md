@@ -28,3 +28,4 @@ Microsoft Excel (97-2007/2010) 可以让您为电子表格加密并设置密码�
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SettingStrongEncryptionType-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

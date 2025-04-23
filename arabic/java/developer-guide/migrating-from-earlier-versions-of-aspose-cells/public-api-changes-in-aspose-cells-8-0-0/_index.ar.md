@@ -133,3 +133,4 @@ System.out.println(cell.getName() + ":" + cell.getValue());
 مع Aspose.Cells for Java ، تم تحديد الطريقة getFilterColumnCollection على أنها مهجورة. من المُقترح استخدام طريقة AuotFilter.getFilterColumns بدلاً من ذلك.
 ## **تم استبدال SeriesCollection.SecondCatergoryData بـ SeriesCollection.SecondCategoryData**
 لقد قمنا بتصحيح خطأ الطباعة الأساسي في اسم الطريقة لـ SeriesCollection.getSecondCatergoryData. يمكنك الآن استخدام طريقة SeriesCollection.getSecondCategoryData ابتداءً من الآن ، في حين أن الطريقة الأصلية SeriesCollection.getSecondCatergoryData تم تحديدها على أنها مهجورة.
+{{< app/cells/assistant language="java" >}}

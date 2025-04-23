@@ -20,3 +20,4 @@ Käll- och utdataexcelfilerna är bilagda som referens.
 [Källfil](95584319.xlsx)
 
 [Utmatningsfil](95584320.xlsx)
+{{< app/cells/assistant language="csharp" >}}

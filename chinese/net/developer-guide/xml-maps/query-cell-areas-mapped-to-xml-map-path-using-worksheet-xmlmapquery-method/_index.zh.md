@@ -50,3 +50,4 @@ Aspose.Cells.CellArea(D1:D8)[0,3,7,3]
 1. [Food List.xml](72417286.xml)
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-XmlMaps-GetXMLPathFromListObject.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

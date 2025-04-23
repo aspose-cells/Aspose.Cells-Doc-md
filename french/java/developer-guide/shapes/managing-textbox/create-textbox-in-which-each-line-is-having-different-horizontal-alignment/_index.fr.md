@@ -26,3 +26,4 @@ Le code d'exemple suivant crée trois lignes et définit la justification horizo
 
 
 
+{{< app/cells/assistant language="java" >}}

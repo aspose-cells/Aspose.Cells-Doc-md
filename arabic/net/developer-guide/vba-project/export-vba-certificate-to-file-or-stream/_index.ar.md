@@ -16,3 +16,4 @@ Aspose.Cells تسمح لك بتصدير شهادة VBA الرقمية إلى ت�
 يرجى الاطلاع على الرمز العيني التالي الذي يحفظ البيانات الخام لشهادة VBA في ملف. يمكنك تنزيل [ملف الإكسل العيني المستخدم في هذا الرمز](5115031.xlsm) من الرابط المقدم.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-ExportVBACertificateToFile-ExportVBACertificateToFile.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

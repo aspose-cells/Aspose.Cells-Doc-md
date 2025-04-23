@@ -24,3 +24,4 @@ Följande kodexempel visar hur man exporterar aktivt kalkylblad till Json genom 
 - [Konvertera-Excel-till-JSON](/cells/sv/net/convert-excel-to-json/)
 - [Konvertera JSON till CSV](/cells/sv/net/convert-json-to-csv/)
 - [Konvertera-JSON-till-Excel](/cells/sv/net/convert-json-to-excel/)
+{{< app/cells/assistant language="csharp" >}}

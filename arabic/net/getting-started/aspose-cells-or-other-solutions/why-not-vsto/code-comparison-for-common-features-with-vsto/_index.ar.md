@@ -32,3 +32,4 @@ url: /ar/net/code-comparison-for-common-features-with-vsto/
 - [فرز البيانات في الأوراق العمل](/cells/ar/net/sort-data-in-worksheets/)
 - [استخدام وظائف الصيغ لمعالجة البيانات في VSTO و Aspose.Cells](/cells/ar/net/use-formulas-functions-to-process-data-in-vsto-and-aspose-cells/)
 - [تغليف نص الخلية في VSTO و Aspose.Cells](/cells/ar/net/wrapping-cell-text-in-vsto-and-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

@@ -73,3 +73,4 @@ Téléchargez **Travailler avec les volets gelés** à partir de l'un des sites 
 Pour plus de détails, visitez [Travailler avec les feuilles de calcul](/cells/fr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

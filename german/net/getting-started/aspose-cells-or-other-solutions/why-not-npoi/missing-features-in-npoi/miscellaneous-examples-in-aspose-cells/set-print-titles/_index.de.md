@@ -41,3 +41,4 @@ Laden Sie **Drucktitel festlegen** von einer der unten aufgeführten sozialen Co
 Für weitere Details besuchen Sie [Druckoptionen festlegen](/cells/de/net/setting-print-options/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -34,3 +34,4 @@ Wie Sie sehen, ist **J1000000** in der XLSX-Datei recht weit entfernt. Die Metho
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Example-StopConversionOrLoadingUsingInterruptMonitor.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -16,7 +16,7 @@ Ibland behöver du kombinera arbetsböcker med olika innehåll som bilder, diagr
 
 ## **Kombinera arbetsböcker**
 
-Exempelkoden kombinerar två arbetsböcker till en enda arbetsbok med Aspose.Cells for Java. Koden laddar de källearbetsböckerna, använder [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) metoden för att kombinera dem och sparar den resulterande arbetsboken.
+Exempelkoden kombinerar två arbetsböcker till en enda arbetsbok med Aspose.Cells for Java. Koden laddar de källearbetsböckerna, använder [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine-com.aspose.cells.Workbook-) metoden för att kombinera dem och sparar den resulterande arbetsboken.
 
 ### **Källarbetsböcker**
 
@@ -69,3 +69,4 @@ Du kan hitta artikeln [Kombinera flera kalkylblad till ett enda kalkylblad](/cel
 - [Fusionera flera Kalkylblad till Ett Enda Kalkylblad](/cells/sv/java/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Sammanfoga filer](/cells/sv/java/merge-files/)
 
+{{< app/cells/assistant language="java" >}}

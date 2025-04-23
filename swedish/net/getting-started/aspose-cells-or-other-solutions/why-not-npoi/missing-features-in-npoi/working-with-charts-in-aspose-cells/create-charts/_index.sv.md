@@ -79,3 +79,4 @@ Ladda ner **Skapa diagram** från någon av nedanstående sociala kodningssidor:
 För mer detaljer, besök [Hur man skapar ett diagram](/cells/sv/net/create-charts/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

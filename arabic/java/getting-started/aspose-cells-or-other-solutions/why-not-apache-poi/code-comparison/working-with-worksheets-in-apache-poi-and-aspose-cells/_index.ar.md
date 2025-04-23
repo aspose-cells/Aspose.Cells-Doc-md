@@ -14,3 +14,4 @@ url: /ar/java/working-with-worksheets-in-apache-poi-and-aspose-cells/
 - [إعادة ترتيب الأوراق داخل دفتر العمل](/cells/ar/java/re-order-sheets-within-workbook/)
 - [رؤوس وتذييلات الصفحات](/cells/ar/java/header-and-footers/)
 - [عامل التكبير باستخدام Apache POI و Aspose.Cells](/cells/ar/java/zoom-factor-using-apache-poi-and-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

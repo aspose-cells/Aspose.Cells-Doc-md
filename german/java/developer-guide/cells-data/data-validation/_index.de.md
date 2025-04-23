@@ -49,16 +49,16 @@ Die [ValidationType](https://reference.aspose.com/cells/java/com.aspose.cells/Va
 
 |**Member Name**|**Description**|
 | :- | :- |
-|[ANY_VALUE](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#ANY_VALUE)|Bezeichnet einen Wert eines beliebigen Typs.
-|[WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE_NUMBER)|Bezeichnet den Validierungstyp für ganze Zahlen.
+|[ANY_VALUE](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#ANY-VALUE)| Bezeichnet einen Wert jeglichen Typs.|
+|[WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE-NUMBER)| Bezeichnet Validierungstyp für ganze Zahlen.|
 |[DECIMAL](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#DECIMAL)|Bezeichnet den Validierungstyp für Dezimalzahlen.
 |[LIST](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#LIST)|Bezeichnet den Validierungstyp für Dropdown-Listen.
 |[DATE](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#DATE)|Bezeichnet den Validierungstyp für Daten.
 |[TIME](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TIME)|Bezeichnet den Validierungstyp für Zeit.
-|[TEXT_LENGTH](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TEXT_LENGTH)|Bezeichnet den Validierungstyp für die Länge des Textes.
+|[TEXT_LENGTH](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TEXT-LENGTH)| Bezeichnet Validierungstyp für die Länge des Textes.|
 |[CUSTOM](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#CUSTOM)|Bezeichnet den benutzerdefinierten Validierungstyp.
 #### **Programmbeispiel: Validierung ganzer Zahlen**
-Mit diesem Typ der Validierung können Benutzer nur ganze Zahlen innerhalb eines bestimmten Bereichs in die validierten Zellen eingeben. Die folgenden Codebeispiele zeigen, wie der Validierungstyp [WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE_NUMBER) implementiert wird. Das Beispiel erstellt dieselbe Datenvalidierung mit Aspose.Cells, die wir zuvor mit Microsoft Excel erstellt haben.
+Mit dieser Validierungsart können Benutzer nur ganze Zahlen innerhalb eines festgelegten Bereichs in die validierten Zellen eingeben. Die folgenden Codebeispiele zeigen, wie man den Validierungstyp [WHOLE_NUMBER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE-NUMBER) implementiert. Das Beispiel erstellt die gleiche Datenvalidierung mit Aspose.Cells, die wir zuvor in Microsoft Excel erstellt haben.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-WholeNumberDataValidation-WholeNumberDataValidation.java" >}}
 
@@ -99,7 +99,7 @@ Bei diesem Validierungstyp können Benutzer Textwerte einer bestimmten Länge in
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-TextLengthDataValidation-TextLengthDataValidation.java" >}}
 ## **Datenvalidierungsregeln**
-Wenn Datenvalidierungen implementiert werden, kann die Validierung überprüft werden, indem verschiedenen Werten in den Zellen unterschiedliche Werte zugewiesen werden. [Cell.GetValidationValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue\(\)) kann verwendet werden, um das Validierungsergebnis abzurufen. Das folgende Beispiel veranschaulicht diese Funktion mit verschiedenen Werten. Die Beispieldatei kann über den folgenden Link zur Überprüfung heruntergeladen werden:
+Wenn Datenvalidierungen implementiert sind, kann die Validierung durch Zuweisung verschiedener Werte in den Zellen überprüft werden. [Cell.GetValidationValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--) kann verwendet werden, um das Validierungsergebnis abzurufen. Das folgende Beispiel zeigt diese Funktion mit verschiedenen Werten. Die Testdatei kann zum Testen von folgendem Link heruntergeladen werden:
 
 [SampleDataValidationRules.xlsx](77987849.xlsx)
 
@@ -113,9 +113,9 @@ Wie wir gesehen haben, gibt es viele Arten von Validierungen, die in einer Zelle
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-CheckIfValidationInCellDropDown-1.java" >}}
 ## **CellArea zur vorhandenen Validierung hinzufügen**
-Es kann Fälle geben, in denen Sie [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) zu bestehender [Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation) hinzufügen möchten. Wenn Sie [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) mit [Validation.AddArea(CellArea cellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea\)) hinzufügen, überprüft Aspose.Cells alle vorhandenen Bereiche, um zu sehen, ob der neue Bereich bereits existiert. Wenn die Datei eine große Anzahl von Validierungen hat, hat dies eine Leistungseinbuße zur Folge. Um dies zu überwinden, bietet die API die Methode [Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)). Das *checkIntersection*-Parameter gibt an, ob der Schnittpunkt eines gegebenen Bereichs mit bestehenden Validierungsbereichen überprüft werden soll. Wenn Sie es auf **false** setzen, wird die Überprüfung anderer Bereiche deaktiviert. Der *checkEdge*-Parameter gibt an, ob die angewandten Bereiche überprüft werden sollen. Wenn der neue Bereich der obere linke Bereich wird, werden interne Einstellungen neu erstellt. Wenn Sie sicher sind, dass der neue Bereich nicht der obere linke Bereich ist, können Sie diesen Parameter als **false** setzen.
+Es kann Fälle geben, in denen du [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) zu einer bestehenden [Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation) hinzufügen möchtest. Wenn du [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) mit [Validation.AddArea(CellArea cellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea-com.aspose.cells.CellArea-) hinzufügst, prüft Aspose.Cells alle vorhandenen Bereiche, um festzustellen, ob der neue Bereich bereits existiert. Wenn die Datei eine große Anzahl an Validierungen enthält, kann dies die Leistung beeinträchtigen. Um dies zu umgehen, bietet die API die Methode [Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea-com.aspose.cells.CellArea-boolean-boolean-). Der Parameter *checkIntersection* gibt an, ob die Überschneidung eines Bereichs mit bestehenden Validierungsbereichen überprüft werden soll. Wenn auf **false** gesetzt, wird die Überprüfung anderer Bereiche deaktiviert. Der Parameter *checkEdge* gibt an, ob die angewandten Bereiche überprüft werden sollen. Wenn der neue Bereich der obere linke Bereich wird, werden interne Einstellungen neu aufgebaut. Wenn du sicher bist, dass der neue Bereich nicht der obere linke Bereich ist, kannst du diesen Parameter auf **false** setzen.
 
-Der folgende Codeausschnitt zeigt die Verwendung der Methode [Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) zum Hinzufügen einer neuen [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) zu bestehender [Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation).
+Das folgende Code-Snippet demonstriert die Verwendung der Methode [Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea-com.aspose.cells.CellArea-boolean-boolean-) zum Hinzufügen eines neuen [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) zu einer bestehenden [Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation).
 
 
 
@@ -132,3 +132,4 @@ Die Quell- und Ausgabedateien sind als Referenz angehängt.
 - [Zellvalidierung in ODS-Dateien erhalten](/cells/de/java/get-cell-validation-in-ods-files/)
 - [Validierungen auf einer Zelle abrufen](/cells/de/java/get-validation-applied-on-a-cell/)
 - [Überprüfen, ob Zellwert Datenvalidierungsregeln erfüllt](/cells/de/java/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="java" >}}

@@ -18,39 +18,39 @@ Med Aspose.Cells kan utvecklare lägga till ramar och anpassa hur de ser ut på 
 ### **Lägga till ramar till celler**
 Aspose.Cells tillhandahåller en klass, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) som representerar en Microsoft Excel-fil. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)-klassen innehåller en [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) som möjliggör åtkomst till varje arbetsblad i Excel-filen. Ett arbetsblad representeras av [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)-klassen. [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)-klassen tillhandahåller en [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-samling. Varje objekt i [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-samlingen representerar en [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)-klass.
 
-Aspose.Cells tillhandahåller metoden [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) i [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)-klassen som används för att ställa in en cells formateringsstil. Även [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)-klassens objekt används och tillhandahåller egenskaper för att konfigurera typsnittinställningar.
+Aspose.Cells erbjuder metoden [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle-com.aspose.cells.Style-) i [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)-klassen som används för att ställa in cellens formateringsstil. Objektet av [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) är också användbart och tillhandahåller egenskaper för att konfigurera teckensnitt.
 #### **Lägga till ramar till en cell**
-Lägg till ramar till en cell med [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)-objektets [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder\(int,%20int,%20com.aspose.cells.Color\)) metod. Ramtypen skickas som en parameter. Alla ramtyper är fördefinierade i [BorderType](https://reference.aspose.com/cells/java/com.aspose.cells/BorderType)-enumet.
+Lägg till ramar till en cell med [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)s [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder-int-int-com.aspose.cells.Color-) metod. Randtypen anges som en parameter. Alla randtyper är fördefinierade i [BorderType](https://reference.aspose.com/cells/java/com.aspose.cells/BorderType).
 
 |**Ramtyper**|**Beskrivning**|
 | :- | :- |
-|[BOTTOM_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#BOTTOM_BORDER)|Den undre kantlinjen|
-|[DIAGONAL_DOWN](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#DIAGONAL_DOWN)|En diagonal linje från övre vänster till höger nedre|
-|[DIAGONAL_UP](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#DIAGONAL_UP)|En diagonal linje från nedre vänster till höger upp|
-|[LEFT_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#LEFT_BORDER)|Vänster kantlinje|
-|[RIGHT_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#RIGHT_BORDER)|Höger kantlinje|
-|[TOP_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#TOP_BORDER)|Övre kantlinje|
+|[BOTTOM_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#BOTTOM-BORDER)|Den nedre randlinjen|
+|[DIAGONAL_DOWN](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#DIAGONAL-DOWN)|En diagonal linje från övre vänstra till nedre högra|
+|[DIAGONAL_UP](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#DIAGONAL-UP)|En diagonal linje från nedre vänstra till övre högra|
+|[LEFT_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#LEFT-BORDER)|Vänster randlinje|
+|[RIGHT_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#RIGHT-BORDER)|Höger randlinje|
+|[TOP_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#TOP-BORDER)|Övre randlinje|
 |[HORIZONTAL](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#HORIZONTAL)|Endast för dynamisk stil, såsom villkorlig formatering.|
 |[VERTICAL](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#VERTICAL)|Endast för dynamisk stil, såsom villkorlig formatering.|
-För att ställa in linjefärg, välj en färg med hjälp av [Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color)-enumet och skicka den till [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)-objektets [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder\(int,%20int,%20com.aspose.cells.Color\)) metods Color-parameter. Linjestilar är fördefinierade i [CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType)-enumet.
+För att ställa in linjefärgen, välj en färg med [Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color)-enumerationen och skicka den till [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)-objektets [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder-int-int-com.aspose.cells.Color-) metods Color-parameter. Linjestilar är fördefinierade i [CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType).
 
 |**Linjestilar**|**Beskrivning**|
 | :- | :- |
-|[DASH_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DASH_DOT)|Representerar tunn sträck-priklina|
-|[DASH_DOT_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DASH_DOT_DOT)|Representerar tunn sträck-prick-priklina|
+|[DASH_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DASH-DOT)|Visar en tunn streck-punkt-linje|
+|[DASH_DOT_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DASH-DOT_DOT)|Visar en tunn streck-punkt-streck-linje|
 |[DASHED](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DASHED)|Representerar streckad linje|
 |[DOTTED](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DOTTED)|Representerar prickad linje|
 |[DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DOUBLE)|Representerar dubbel linje|
 |[HAIR](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#HAIR)|Representerar hårlinje|
-|[MEDIUM_DASH_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM_DASH_DOT)|Representerar medium prickad linje|
-|[MEDIUM_DASH_DOT_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM_DASH_DOT_DOT)|Representerar medium punkt-streckad punktad linje|
-|[MEDIUM_DASHED](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM_DASHED)|Representerar medium streckad linje|
+|[MEDIUM_DASH_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM-DASH-DOT)|Visar en medium streck-punkt-linje|
+|[MEDIUM_DASH_DOT_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM-DASH-DOT_DOT)|Representation av medium streck-punkt-punkt-linje|
+|[MEDIUM_DASHED](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM-DASHED)|Representation av medium streckad linje|
 |[NONE](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#NONE)|Representerar ingen linje|
 |[MEDIUM](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM)|Representerar medium linje|
-|[SLANTED_DASH_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#SLANTED_DASH_DOT)|Representerar sned medium prickad linje|
+|[SLANTED_DASH_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#SLANTED-DASH-DOT)|Representation av snett medium streck-punkt-punkt-linje|
 |[THICK](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#THICK)|Representerar tjock linje|
 |[THIN](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#THIN)|Representerar tunn linje|
-Välj en av ovanstående linjestilar och tilldela den sedan till [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objektets [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder\(int,%20int,%20com.aspose.cells.Color\)) metod.
+Välj en av ovanstående linjestilar och tilldela den sedan till metoden [setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder-int-int-com.aspose.cells.Color-) för [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)-objektet.
 
 Följande utdata genereras när koden nedan körs.
 
@@ -60,14 +60,14 @@ Följande utdata genereras när koden nedan körs.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AddingBordersToCells-AddingBordersToCells.java" >}}
 #### **Lägga till Gränser till en Rad av Celler**
-Det är möjligt att lägga till gränser till en rad av celler istället för bara en enskild cell. Först skapar du en rad av celler genom att anropa [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) kollektionens [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\)) metod, som tar följande parametrar:
+Det är möjligt att lägga till ramar till ett cellområde istället för en enskild cell. Först, skapa ett cellområde genom att anropa metoden [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-) för samlingen [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells), som tar följande parametrar:
 
 - **Första Rad**, den första raden av intervallet.
 - **Första Kolumn**, den första kolumnen av intervallet.
 - **Antal Rader**, antalet rader i intervallet.
 - **Antal Kolumner**, antalet kolumner i intervallet.
 
-Metoden [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\)) returnerar en [Range](https://reference.aspose.com/cells/java/com.aspose.cells/Range) objekt, som innehåller det angivna intervallet. [Range](https://reference.aspose.com/cells/java/com.aspose.cells/Range) objektet tillhandahåller en [setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\)) metod som tar följande parametrar:
+Metoden [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-) returnerar ett [Range](https://reference.aspose.com/cells/java/com.aspose.cells/Range) objekt, som innehåller det angivna området. [Range](https://reference.aspose.com/cells/java/com.aspose.cells/Range) objektet tillhandahåller en [setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders-int-com.aspose.cells.Color-) metod som tar följande parametrar:
 
 - **CellBorderType**, linjestilen för gränslinjen, vald från [CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType) uppräkningen.
 - **Färg**, linjefärg, vald från [Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color) uppräkningen.
@@ -96,7 +96,7 @@ Paletten håller endast 56 färger. När du lägger till en anpassad färg i pal
 
 {{% /alert %}} 
 
-Aspose.Cells tillhandahåller en klass, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), som representerar en Microsoft Excel-fil. Klassen tillhandahåller metoden [changePalette](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#changePalette\(com.aspose.cells.Color,%20int\)) som tar följande parametrar för att lägga till en anpassad färg för att modifiera paletten:
+Aspose.Cells tillhandahåller en klass, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), som representerar en Microsoft Excel-fil. Klassen tillhandahåller metoden [changePalette](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#changePalette-com.aspose.cells.Color-int-) som tar följande parametrar för att lägga till en anpassad färg för att ändra paletten:
 
 - **Anpassad färg**, den anpassade färgen som ska läggas till paletten.
 - **Index**, index för färgen som kommer att ersättas med den anpassade färgen. Ska vara mellan 0-55.
@@ -117,7 +117,7 @@ Aspose.Cells stöder även dessa funktioner på ett flexibelt sätt. I det här 
 ### **Ange färger & bakgrundsmönster**
 Aspose.Cells tillhandahåller en klass, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), som representerar en Microsoft Excel-fil. Klassen [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) innehåller en [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) som tillåter åtkomst till varje kalkylblad i Excel-filen. Ett kalkylblad representeras av klassen [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). Klassen [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) tillhandahåller en [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-samling. Varje objekt i [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-samlingen representerar ett objekt av klassen [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell).
 
-Aspose.Cells tillhandahåller metoden [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) i klassen [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) som används för att ange en cells formatering. Dessutom kan objektet av klassen [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) användas för att konfigurera teckensnittsinställningar.
+Aspose.Cells tillhandahåller metoden [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle-com.aspose.cells.Style-) i [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)-klassen som används för att ange cellens formatering. Dessutom kan objektet av klassen [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) användas för att konfigurera teckensnittinställningar.
 
 {{% alert color="primary" %}} 
 
@@ -131,25 +131,25 @@ Egenskapen [setPattern](https://reference.aspose.com/cells/java/com.aspose.cells
 
 |**Mönstertyp**|**Beskrivning**|
 | :- | :- |
-|[DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#DIAGONAL_CROSSHATCH)|Representerar diagonal krysstackmönster|
-|[DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#DIAGONAL_STRIPE)|Representerar diagonalt randigt mönster|
-|[GRAY_6](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY_6)|Representerar 6,25% grått mönster|
-|[GRAY_12](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY_12)|Representerar 12,5% grått mönster|
-|[GRAY_25](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY_25)|Representerar 25% grått mönster|
-|[GRAY_50](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY_50)|Representerar 50% grått mönster|
-|[GRAY_75](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY_75)|Representerar 75% grått mönster|
-|[HORIZONTAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#HORIZONTAL_STRIPE)|Representerar horisontellt randigt mönster|
+|[DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#DIAGONAL-CROSSHATCH)|Representation av diagonal korsmönster|
+|[DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#DIAGONAL-STRIPE)|Representation av diagonal randmönster|
+|[GRAY_6](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY-6)|Representation av 6,25% grått mönster|
+|[GRAY_12](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY-12)|Representation av 12,5% grått mönster|
+|[GRAY_25](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY-25)|Representation av 25% grått mönster|
+|[GRAY_50](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY-50)|Representation av 50% grått mönster|
+|[GRAY_75](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY-75)|Representation av 75% grått mönster|
+|[HORIZONTAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#HORIZONTAL-STRIPE)|Representation av horisontellt randmönster|
 |[NONE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#NONE)|Representerar ingen bakgrund|
-|[REVERSE_DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#REVERSE_DIAGONAL_STRIPE)|Representerar omvänt diagonalt randigt mönster|
+|[REVERSE_DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#REVERSE-DIAGONAL-STRIPE)|Representation av omvänt diagonal randmönster|
 |[SOLID](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#SOLID)|Representerar enfärgat mönster|
-|[THICK_DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THICK_DIAGONAL_CROSSHATCH)|Representerar tjockt diagonalt krysstackmönster|
-|[THIN_DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_DIAGONAL_CROSSHATCH)|Representerar tunt diagonalt krysstackmönster|
-|[THIN_DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_DIAGONAL_STRIPE)|Representerar tunt diagonalt randigt mönster|
-|[THIN_HORIZONTAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_HORIZONTAL_CROSSHATCH)|Representerar tunt horisontellt krysstackmönster|
-|[THIN_HORIZONTAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_HORIZONTAL_STRIPE)|Representerar tunn horisontell randig mönster|
-|[THIN_REVERSE_DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_REVERSE_DIAGONAL_STRIPE)|Representerar tunn omvänd diagonal randigt mönster|
-|[THIN_VERTICAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_VERTICAL_STRIPE)|Representerar tunn vertikal randigt mönster|
-|[VERTICAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#VERTICAL_STRIPE)|Representerar vertikal randigt mönster|
+|[THICK_DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THICK-DIAGONAL-CROSSHATCH)|Representation av tjockt diagonal korshönster|
+|[THIN_DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN-DIAGONAL-CROSSHATCH)|Representation av tunt diagonalt korshönster|
+|[THIN_DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN-DIAGONAL-STRIPE)|Representation av tunt diagonalt randmönster|
+|[THIN_HORIZONTAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN-HORIZONTAL-CROSSHATCH)|Representation av tunt horisontellt korshönster|
+|[THIN_HORIZONTAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN-HORIZONTAL-STRIPE)|Representation av tunt horisontellt randmönster|
+|[THIN_REVERSE_DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN-REVERSE-DIAGONAL-STRIPE)|Representation av tunt omvänt diagonalt randmönster|
+|[THIN_VERTICAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN-VERTICAL-STRIPE)|Representation av tunt vertikal randmönster|
+|[VERTICAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#VERTICAL-STRIPE)|Representation av vertikal randmönster|
 I exemplet nedan är förgrundsfärgen för cellen A1 inställd men A2 är konfigurerad för att ha både förgrund och bakgrundsfärger med ett bakgrundsmönster med vertikal rand.
 
 Följande utdata genereras vid körning av koden.
@@ -177,7 +177,7 @@ Aspose.Cells stöder denna funktion. Detta ämne förklarar hur man använder de
 ### **Formatera valda tecken**
 Aspose.Cells tillhandahåller en klass, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), som representerar en Microsoft Excel-fil. Klassen [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) innehåller en [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) som tillåter åtkomst till varje kalkylblad i Excel-filen. Ett kalkylblad representeras av klassen [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). Klassen [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) tillhandahåller en [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-samling. Varje objekt i [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-samlingen representerar ett objekt av klassen [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell).
 
-Klassen [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) tillhandahåller en [characters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#characters(int,%20int)) metoden som tar följande parametrar för att välja en rad tecken i en cell:
+[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)-klassen tillhandahåller metoden [characters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#characters-int-int-) som tar följande parametrar för att välja ett teckenområde i en cell:
 
 - **Startindex**, index för tecknet att börja urvalet från.
 - **Antal tecken**, antalet tecken att välja.
@@ -192,7 +192,7 @@ I utdatafilen, i cellen A1, är ordet 'Visit' formaterat med standardtypsnittet 
 
 {{% alert color="primary" %}} 
 
-Om du är intresserad av [formatering av en del av Rich-text i en cell](/cells/sv/java/access-and-update-the-portions-of-rich-text-of-cell), överväg att använda [Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters\(\)) & Cell.setCharacters metoder. [Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters\(\)) metoden används för att få tillgång till textens delar och sedan kan ändringar göras med hjälp av Cell.setCharacters metoden medan **get** metoden returnera en matris av [FontSetting](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) objekt som kan manipuleras för att ställa in olika egenskaper som teckensnitts namn, teckenfärg, fetstil osv och **set** metoden kan användas för att tillämpa ändringarna.
+Om du är intresserad av [formatering av en del av rik text i en cell](/cells/sv/java/access-and-update-the-portions-of-rich-text-of-cell/), bör du använda metoderna [Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters--) och Cell.setCharacters. Metoden [Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters--) används för att få åtkomst till delar av texten och sedan kan ändringar göras med metoden Cell.setCharacters, medan **get**-metoden returnerar en array av [FontSetting](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting)-objekt som kan manipuleras för att ställa in olika egenskaper som teckensnamsval, teckenfärg, fetstil, etc., och **set**-metoden kan användas för att tillämpa ändringarna.
 
 {{% /alert %}}
 
@@ -208,3 +208,4 @@ Om du är intresserad av [formatering av en del av Rich-text i en cell](/cells/s
 - [Antalseinställningar](/cells/sv/java/cells-number-settings/)
 - [Bevara enskild citattecken prefiks av cellvärde eller område](/cells/sv/java/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Styling och dataformatering](/cells/sv/java/styling-and-data-formatting/)
+{{< app/cells/assistant language="java" >}}

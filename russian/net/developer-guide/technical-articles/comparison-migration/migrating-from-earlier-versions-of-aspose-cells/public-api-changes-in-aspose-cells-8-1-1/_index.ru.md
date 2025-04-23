@@ -31,3 +31,4 @@ url: /ru/net/public-api-changes-in-aspose-cells-8-1-1/
 Пожалуйста, проверьте подробную статью на [Как создавать, изменять или удалять сценарии с рабочих листов](/cells/ru/net/create-manipulate-or-remove-scenarios-from-worksheets/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -34,3 +34,4 @@ Kategoridata används för märkning av diagramdata och kan läggas till i [**Se
 - [Skapa Dynamiska Diagram](/cells/sv/net/create-dynamic-charts/)
 - [Enkel metod för diagraminställning med hjälp av Chart.SetChartDataRange-metoden](/cells/sv/net/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [Hitta typ av X- och Y-värden för punkter i diagramserier](/cells/sv/net/find-type-of-x-and-y-values-of-points-in-chart-series/)
+{{< app/cells/assistant language="csharp" >}}

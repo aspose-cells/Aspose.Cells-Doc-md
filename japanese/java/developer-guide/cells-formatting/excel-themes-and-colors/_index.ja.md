@@ -61,3 +61,4 @@ Aspose.Cells APIでは、テーマと色をカスタマイズするための機�
 
 ## **高度なトピック**
 - [Excelファイルからテーマデータを抽出](/cells/ja/java/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="java" >}}

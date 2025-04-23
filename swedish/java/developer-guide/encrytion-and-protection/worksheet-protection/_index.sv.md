@@ -19,7 +19,7 @@ Skyddade kalkylblad döljer inte eller skyddar känsliga data, så det skiljer s
 
 Aspose.Cells tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), som representerar en Microsoft Excel-fil. Workbook-klassen innehåller en WorksheetCollection som möjliggör åtkomst till varje kalkylblad i en Excel-fil. Ett kalkylblad representeras av klassen [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
-Arbetsboken-klassen tillhandahåller metoden [**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect(int)) som används för att tillämpa skydd på ett kalkylblad. Metoden Protect accepterar följande parametrar:
+Arbetsboken-klassen tillhandahåller metoden [**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect-int-) som används för att tillämpa skydd på ett kalkylblad. Metoden Protect accepterar följande parametrar:
 
 - Skyddstyp, typen av skydd som ska tillämpas på kalkylbladet. Skyddstypen tillämpas med hjälp av [**ProtectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ProtectionType)-uppräkningen.
 - Nya lösenordet, det nya lösenordet som används för att skydda kalkylbladet.
@@ -99,7 +99,7 @@ Följande exempel visar hur du låser några celler i arbetsbladet. Det låser u
 
 ### **Skydda en rad i kalkylarket**
 
-Aspose.Cells låter dig enkelt låsa vilken rad som helst i kalkylarket. Här kan vi använda metoden [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) av klassen [**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) för att tillämpa stil på en särskild rad i kalkylarket. Denna metod tar två argument: ett [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objekt och [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct som har alla medlemmar relaterade till tillämpad formatering.
+Aspose.Cells låter dig enkelt låsa vilken rad som helst i kalkylarket. Här kan vi använda metoden [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) av klassen [**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) för att tillämpa stil på en särskild rad i kalkylarket. Denna metod tar två argument: ett [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objekt och [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct som har alla medlemmar relaterade till tillämpad formatering.
 
 Följande exempel visar hur man skyddar en rad i kalkylarket. Det låser upp alla celler i kalkylarket först och låser sedan den första raden i det. Slutligen skyddar det kalkylarket. En rad/kolumn har en Style API som ytterligare innehåller en setCellLocked-metod . Du kan låsa eller låsa upp rad/kolumn med hjälp av StyleFlag struct.
 
@@ -107,7 +107,7 @@ Följande exempel visar hur man skyddar en rad i kalkylarket. Det låser upp all
 
 ### **Skydda en kolumn i kalkylarket**
 
-Aspose.Cells låter dig enkelt låsa vilken kolumn som helst i kalkylarket. Här kan vi använda metoden [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) av klassen [**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) för att tillämpa stil på en särskild kolumn i kalkylarket. Denna metod tar två argument: ett [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objekt och [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct som har alla medlemmar relaterade till tillämpad formatering.
+Aspose.Cells låter dig enkelt låsa vilken kolumn som helst i kalkylarket. Här kan vi använda metoden [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) av klassen [**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) för att tillämpa stil på en särskild kolumn i kalkylarket. Denna metod tar två argument: ett [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objekt och [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct som har alla medlemmar relaterade till tillämpad formatering.
 
 Följande exempel visar hur man skyddar en kolumn i kalkylarket. Det låser upp alla celler i kalkylarket först och låser sedan den första kolumnen i det. Slutligen skyddar det kalkylarket. En rad/kolumn har en Style API som ytterligare innehåller en setLocked-metod . Du kan låsa eller låsa upp rad/kolumn med hjälp av StyleFlag struct.
 
@@ -206,3 +206,4 @@ Om du vill begränsa användare från att redigera celler måste cellerna låsas
 Det är möjligt att låsa celler med hjälp av Aspose.Cells API också. Varje cell har en Style API som ytterligare innehåller en setLocked-metod. Använd den för att låsa eller låsa upp celler.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-LockCell-LockCell.java" >}}
+{{< app/cells/assistant language="java" >}}

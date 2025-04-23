@@ -89,7 +89,7 @@ Aşağıdaki kod, [**HtmlSaveOptions.image_options**](https://reference.aspose.c
 
 ## **Excel Çalışma Kitabını Markdown'a Dönüştür**
 
-Aspose.Cells for Python via .NET API, elektronik tabloları Markdown formatına aktarma desteği sağlar. Etkin çalışma sayfasını Markdown'e aktarmak için, [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) yönteminin ikinci parametresi olarak [**SaveFormat.Markdown**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) geçirin. Ayrıca, çalışma sayfasını Markdown'e aktarma için ilave ayarları belirlemek için [**MarkdownSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions) class'ını da kullanabilirsiniz.
+Aspose.Cells for Python via .NET API, elektronik tabloları Markdown formatına aktarma desteği sağlar. Etkin çalışma sayfasını Markdown'e aktarmak için, [**Workbook.Save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.saveformat) yönteminin ikinci parametresi olarak [**SaveFormat.MARKDOWN**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat) geçirin. Ayrıca, çalışma sayfasını Markdown'e aktarma için ilave ayarları belirlemek için [**MarkdownSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/markdownsaveoptions) class'ını da kullanabilirsiniz.
 
 Aşağıdaki kod örneği, etkin çalışma sayfasını Markdown'a [**SaveFormat.MARKDOWN**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/) numaralı üye kullanarak dışa aktarma işlemini göstermektedir. Kod ile oluşturulan [çıktı Markdown dosyasını](md_sample.txt) inceleyebilirsiniz.
 

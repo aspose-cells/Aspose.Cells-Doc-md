@@ -11,7 +11,7 @@ Läs siffror kalkylblad utvecklade av Apple Inc. med hjälp av Aspose.Cells
 
 ## **Läsa Numbers-kalkylblad utvecklat av Apple Inc. med Aspose.Cells**
 
-Följande provkod laddar den [Prov-nummerspridning](sampleNumbersByAppleInc.numbers) och konverterar den till [Output PDF-format](outputNumbersByAppleInc.pdf). Du måste använda **[LoadOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/)**-klassen och ange **[LoadFormat::Numbers](https://reference.aspose.com/cells/cpp/aspose.cells/loadformat/)** som parameter i dess konstruktor för att lyckas ladda den. Vänligen ladda ner båda från de angivna länkarna. Du kan prova koden med vilken nummerspridning som helst. Vänligen läs också kodens kommentarer för mer hjälp.
+Följande exempel kod laddar [Sample Numbers Spreadsheet](sampleNumbersByAppleInc.numbers) och konverterar det till [Output PDF Format](outputNumbersByAppleInc.pdf). Du måste använda **[LoadOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/)**-klass och specificera **[LoadFormat::Numbers](https://reference.aspose.com/cells/cpp/aspose.cells/loadformat/)** som en parameter i dess konstruktor för att framgångsrikt ladda det. Vänligen ladda ner båda från länkarna. Du kan prova koden med valfritt Numbers-ark. Vänligen läs också kommentarerna i koden för mer hjälp.
 
 ## **Exempelkod**
 

@@ -15,7 +15,7 @@ url: /zh/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/
 
 ## **使用 Aspose.Cells 将工作表转换为图像文件**
 
-本文介绍如何使用 Aspose.Cells for Java API 将工作表转换为图像。API 提供了一些有价值的类，比如 [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender)、[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)、[**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) 等。 [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) 类表示要为其渲染图像的工作表，并具有重载的 [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream)) 方法，可以直接将工作表转换为图像文件，而无需设置任何属性或选项。
+本文介绍如何使用 Aspose.Cells for Java API 将工作表转换为图像。API 提供了一些有价值的类，比如 [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender)、[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)、[**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) 等。 [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) 类表示要为其渲染图像的工作表，并具有重载的 [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage-int-java.io.OutputStream-) 方法，可以直接将工作表转换为图像文件，而无需设置任何属性或选项。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ConvertWorksheettoImageFile-1.java" >}}
 
@@ -55,3 +55,4 @@ url: /zh/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/
 
 - [将工作表转换为不同的图像格式](/cells/zh/java/converting-worksheet-to-different-image-formats/)
 - [使用所需的宽度和高度将工作表或图表导出为图像](/cells/zh/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+{{< app/cells/assistant language="java" >}}

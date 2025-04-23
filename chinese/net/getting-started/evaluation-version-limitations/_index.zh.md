@@ -68,3 +68,4 @@ keywords: 评估版限制，评估版中打开的文件数，使用评估版的�
 在某些情况/场景下，如果您在文件系统网站或 MS Ajax 扩展等中使用 Aspose.Cells.GridWeb 控件，这些设置可能是强制性的。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

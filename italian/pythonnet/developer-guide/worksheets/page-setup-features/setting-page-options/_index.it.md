@@ -3,8 +3,8 @@ title: Impostare le opzioni di pagina
 type: docs
 weight: 10
 url: /it/python-net/setting-page-options/
-description: Questo articolo fornisce un codice di esempio per impostare le opzioni di pagina dei fogli di lavoro di Excel programmaticamente utilizzando l API Aspose.Cells per Python via .NET. Sarai in grado di impostare l Orientamento Pagina, il Fattore di Scala, le Opzioni Adatta alle Pagine, il Formato Carta, la Qualità di Stampa, il Numero Prima Pagina.
-keywords: Libreria Excel Python, Imposta l orientamento della pagina excel in Python, Imposta il fattore di ridimensionamento excel usando Python, Imposta il formato carta dei fogli di lavoro excel in Python, Python Come Impostare l Orientamento della Pagina, Python Come Impostare il Fattore di Ridimensionamento, Python Come Impostare le Opzioni FitToPages, Python Come Impostare il Formato Carta, Python Come Impostare la Qualità di Stampa, Python Come Impostare il Numero della Prima Pagina.
+description: Questo articolo fornisce un esempio di codice per impostare le opzioni di pagina dei fogli di Excel programmaticamente utilizzando l API Aspose.Cells per Python via .NET. Potrai impostare l Orientamento della Pagina, il Fattore di Scala, le Opzioni FitToPages, le Dimensioni della Carta, la Qualità di Stampa, il Numero della Prima Pagina.
+keywords: Libreria Excel Python, impostare l orientamento della pagina Excel con Python, impostare il fattore di scala Excel usando Python, impostare le dimensioni della carta foglio Excel in Python, Come impostare l orientamento della pagina in Python, Come impostare il fattore di scala in Python, Come impostare le opzioni FitToPages in Python, Come impostare le dimensioni della carta in Python, Come impostare la qualità di stampa in Python, Come impostare il numero della prima pagina in Python.
 ---
 
 {{% alert color="primary" %}}
@@ -13,44 +13,44 @@ A volte è necessario configurare le impostazioni di impostazione pagina per i f
 
 {{% /alert %}}
 
-## **Come Impostare le Opzioni di Pagina**
+## **Come impostare le opzioni di pagina**
 
-Le opzioni di impostazione della pagina sono completamente supportate in Aspose.Cells per Python via .NET. Questo articolo spiega come impostare le opzioni di pagina con Aspose.Cells per Python via .NET e mostra esempi di codice per impostare:
+Le opzioni di configurazione della pagina sono completamente supportate in Aspose.Cells per Python via .NET. Questo articolo spiega come impostare le opzioni di pagina con Aspose.Cells per Python via .NET e mostra esempi di codice per impostare:
 
-Aspose.Cells per Python via .NET fornisce una classe, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), che rappresenta un file Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) contiene una raccolta [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) che consente di accedere a ogni foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato dalla classe [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet).
+Aspose.Cells per Python via .NET fornisce una classe, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), che rappresenta un file Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) contiene una collezione [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) che consente l'accesso a ogni foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato dalla classe [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet).
 
 La classe [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) fornisce la proprietà [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) utilizzata per impostare le opzioni di configurazione della pagina del foglio di lavoro. In effetti, questa proprietà [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) è un oggetto della classe [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) utilizzato per impostare diverse opzioni di layout di pagina per un foglio di lavoro stampato. La classe [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) fornisce varie proprietà utilizzate per impostare le opzioni di configurazione della pagina. Alcune di queste proprietà sono discusse di seguito.
 
-## **Come Impostare l'Orientamento della Pagina**
+## **Come impostare l'orientamento della pagina**
 
 L'orientamento della pagina può essere impostato su verticale o orizzontale utilizzando la proprietà [**orientation**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/orientation) della classe [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup). La proprietà [**orientation**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/orientation) accetta uno dei valori predefiniti nella enumerazione [**PageOrientationType**](https://reference.aspose.com/cells/python-net/aspose.cells/pageorientationtype), elencati di seguito.
 
 |**Tipi di orientamento pagina**|**Descrizione**|
 | :- | :- |
-|PAESAGGIO|Orientamento in orizzontale|
-|RITRATTO|Orientamento in verticale|
+|ORIZZONTALE|Orientamento orizzontale|
+|VERTICALE|Orientamento verticale|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-PageOrientation-1.py" >}}
 
-## **Come Impostare il Fattore di Ridimensionamento**
+## **Come impostare il fattore di scala**
 
 È possibile ridurre o ingrandire le dimensioni di un foglio di lavoro regolando il fattore di scala con la proprietà [**PageSetup.zoom**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/zoom).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-ScalingFactor-1.py" >}}
 
-## **Come Impostare le Opzioni FitToPages**
+## **Come impostare le opzioni FitToPages**
 
 Per adattare i contenuti del foglio di lavoro a un numero specifico di pagine, utilizzare le proprietà [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/) e [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/) della classe [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup). Queste proprietà vengono anche utilizzate per ridimensionare i fogli di lavoro.
 
 {{% alert color="primary" %}}
 
-Puoi scegliere sia la proprietà [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/) e [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/) sia la proprietà [**zoom**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/zoom) ma non entrambe contemporaneamente.
+Puoi scegliere tra le proprietà [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/) e [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/) o la proprietà [**zoom**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/zoom) ma non entrambe contemporaneamente.
 
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-FitToPagesOptions-1.py" >}}
 
-## **Come Impostare il Formato Carta**
+## **Come impostare le dimensioni della carta**
 
 Imposta la dimensione della carta su cui verranno stampati i fogli di lavoro utilizzando la proprietà [**paper_size**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_size/) della classe [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup). La proprietà [**paper_size**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_size/) accetta uno dei valori predefiniti nella enumerazione [**PaperSizeType**](https://reference.aspose.com/cells/python-net/aspose.cells/papersizetype/), elencati di seguito.
 
@@ -179,13 +179,13 @@ Imposta la dimensione della carta su cui verranno stampati i fogli di lavoro uti
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-ManagePaperSize-1.py" >}}
 
-## **Come Impostare la Qualità di Stampa**
+## **Come impostare la qualità di stampa**
 
 Imposta la qualità di stampa dei fogli di lavoro con la proprietà [**print_quality**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_quality/) della classe [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/). L'unità di misura per la qualità di stampa è Dots Per Inches (DPI).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPrintQuality-1.py" >}}
 
-## **Come Impostare il Numero della Prima Pagina**
+## **Come impostare il numero della prima pagina**
 
 Inizia la numerazione delle pagine del foglio di lavoro utilizzando la proprietà [**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/) della classe [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup). La proprietà [**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/) imposta il numero di pagina della prima pagina del foglio di lavoro e le pagine successive sono numerate in ordine crescente.
 

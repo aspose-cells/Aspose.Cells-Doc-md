@@ -48,3 +48,4 @@ L'esempio seguente mostra come impostare l'opzione **Password per modificare** p
 - [Specificare l'autore durante la protezione in scrittura del workbook](/cells/it/net/specify-author-while-write-protecting-workbook/)
 - [Verifica password dei file crittografati](/cells/it/net/verify-password-of-encrypted-excel-and-ods-files/)
 
+{{< app/cells/assistant language="csharp" >}}

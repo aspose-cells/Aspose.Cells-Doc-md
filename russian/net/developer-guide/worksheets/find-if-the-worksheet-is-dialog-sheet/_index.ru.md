@@ -30,3 +30,4 @@ keywords: обнаружить тип диалогового листа Excel c#
 Worksheet is a Dialog Sheet.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

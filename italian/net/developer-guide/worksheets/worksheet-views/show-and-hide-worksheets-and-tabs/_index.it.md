@@ -58,3 +58,4 @@ Di seguito è riportato un esempio completo che apre un file Excel (book1.xls), 
 ### **Controllare la larghezza della barra delle schede**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-ControlTabBarWidth-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -27,3 +27,4 @@ Aspose.Cells поддерживает преобразование файлов 
 
 - [Преобразование файла Excel в формат PDF, совместимый с PDFA-1a](/cells/ru/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [Отображение диаграммы](/cells/ru/java/chart-rendering/)
+{{< app/cells/assistant language="java" >}}

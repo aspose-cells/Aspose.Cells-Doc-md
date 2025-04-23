@@ -24,3 +24,4 @@ Questo esempio:
 1. Copia i dati con la formattazione dal primo intervallo al secondo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeDataWithStyle-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

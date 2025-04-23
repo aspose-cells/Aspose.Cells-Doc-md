@@ -78,3 +78,4 @@ url: /ar/java/using-aspose-cells-for-java-with-coldfusion/
 نحن نرحب بالاستفسارات والتعليقات والاقتراحات في منتدى Aspose.Cells.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

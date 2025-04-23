@@ -274,3 +274,4 @@ Il valore predefinito è "" (stringa vuota).
 Utilizzare il metodo GetEnumerator per iterare su tutte le celle invece.
 ### **Proprietà Image obsoleta di DrawObject**
 Utilizzare la proprietà DrawObject.ImageBytes per ottenere i dati dell'immagine invece.
+{{< app/cells/assistant language="csharp" >}}

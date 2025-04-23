@@ -21,3 +21,4 @@ Aşağıdaki örnek kod, [**ImageOrPrintOptions.PageIndex**](https://reference.a
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-RenderLimitedNoOfSequentialPages-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

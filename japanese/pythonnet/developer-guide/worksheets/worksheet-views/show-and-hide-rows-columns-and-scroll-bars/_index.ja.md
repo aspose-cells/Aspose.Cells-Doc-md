@@ -3,19 +3,19 @@ title: 行、列、およびスクロールバーを表示して非表示にす�
 type: docs
 weight: 20
 url: /ja/python-net/show-and-hide-rows-columns-and-scroll-bars/
-description: この記事では、Aspose.Cells for Python via .NET API を使用して Excel ワークシートの行と列をプログラムで表示および非表示にする方法を示しています。スクロールバーの表示可視性を調整し、複数の行や列を非表示にすることもできます。
-keywords: Python Excel ライブラリ、Python での行と列の表示、Python での行と列の非表示、Python での垂直スクロールバーの表示、Python での水平スクロールバーの表示、Python での垂直スクロールバーの非表示、Python での水平スクロールバーの非表示、Python での行列およびスクロールバーの表示と非表示。
+description: この記事は、Aspose.Cells for Python via .NET APIを使用して、Excelワークシートの行と列の表示・非表示をプログラム的に操作する方法を示します。スクロールバーの表示も調整可能で、複数の行と列を非表示にできます。
+keywords: Python Excelライブラリ、行と列の表示と非表示、行と列の非表示方法、縦スクロールバーの表示、横スクロールバーの表示、縦スクロールバーの非表示、横スクロールバーの非表示、行・列・スクロールバーの表示・非表示。
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET は、ワークシートの行、列、スクロールバーの表示を制御する方法を提供します。
+Aspose.Cells for Python via .NETは、ワークシートの行、列、スクロールバーの表示/非表示を制御する方法を提供します。
 
 {{% /alert %}}
 
 ## **行や列の表示と非表示**
 
-Aspose.Cells for Python via .NET は、Microsoft Excel ファイルを表す [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) クラスには、Excel ファイル内の各ワークシートにアクセスできる [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) コレクションが含まれています。ワークシートは [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) クラスによって表されます。[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) クラスは、ワークシート内のすべてのセルを表す [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells) コレクションを提供します。[**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells) コレクションは、ワークシート内の行や列を管理するためのいくつかのメソッドを提供します。そのうちいくつかについて説明します。
+Aspose.Cells for Python via .NETは、[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)クラスは、Excelファイル内の各ワークシートにアクセスできる[**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets)コレクションを含みます。[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)クラスは、すべてのセルを表す[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)コレクションを提供します。[**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells)コレクションは、行や列を管理するいくつかのメソッドを提供します。
 
 ### **行と列を表示**
 
@@ -57,11 +57,11 @@ Aspose.Cells for Python via .NET は、Microsoft Excel ファイルを表す [**
 - 垂直スクロールバー
 - 水平スクロールバー
 
-Microsoft Excel には、ユーザーがワークシートの内容をスクロールするための水平および垂直スクロールバーも提供されています。Aspose.Cells for Python via .NET を使用すると、Excel ファイル内の両方の種類のスクロールバーの表示を制御することができます。
+Microsoft Excelは、ワークシートの内容をスクロールできる水平・垂直のスクロールバーも提供します。Aspose.Cells for Python via .NETを使用して、Excelファイルの両タイプのスクロールバーの表示/非表示を制御できます。
 
 ### **スクロールバーの表示を制御する**
 
-Aspose.Cells for Python via .NET は、Excel ファイルを表す [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) クラスは、Excel ファイルを管理するための幅広いプロパティやメソッドを提供します。スクロールバーの可視性を制御するには、[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) クラスの [**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) および [**WorkbookSettings.is_h_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_h_scroll_bar_visible) プロパティを使用します。[**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) および [**WorkbookSettings.is_h_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_h_scroll_bar_visible) は、これらのプロパティが **true** または **false** の値のみを保持できるブール型のプロパティであることを意味します。
+Aspose.Cells for Python via .NETは、[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)クラスは、Excelファイルの管理に幅広いプロパティとメソッドを含みます。スクロールバーの表示を制御するには、 [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)クラスの[**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible)と[**WorkbookSettings.is_h_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_h_scroll_bar_visible)プロパティを使用します。[**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible)と[**WorkbookSettings.is_h_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_h_scroll_bar_visible)は真偽値のプロパティであり、これらのプロパティには**true**または**false**の値のみを格納できます。
 
 #### **スクロールバーを表示する**
 

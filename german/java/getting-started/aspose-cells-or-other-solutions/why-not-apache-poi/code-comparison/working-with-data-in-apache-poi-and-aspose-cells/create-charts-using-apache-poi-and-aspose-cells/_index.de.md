@@ -156,3 +156,4 @@ Quellcode für das Erstellen von Diagrammen mit Apache POI und Aspose.Cells von 
 Besuchen Sie für weitere Details [Erstellen von benutzerdefinierten Diagrammen](/cells/de/java/creating-and-customizing-charts/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

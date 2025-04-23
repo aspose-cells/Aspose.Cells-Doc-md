@@ -14,3 +14,4 @@ El siguiente ejemplo de código demostr a el uso del método [**GetValidation*
 ### **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-GetCellValidationInODS-1.java" >}}
+{{< app/cells/assistant language="java" >}}

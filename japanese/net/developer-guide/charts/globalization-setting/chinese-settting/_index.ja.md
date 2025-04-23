@@ -51,3 +51,4 @@ alias: [/net/set-chinese-configuration-for-chart/]
 | 凡例の合計名 | 汇总 | Total |
 | その他の名前 | その他 | Other |
 | 系列名 | 系列 | Series |
+{{< app/cells/assistant language="csharp" >}}

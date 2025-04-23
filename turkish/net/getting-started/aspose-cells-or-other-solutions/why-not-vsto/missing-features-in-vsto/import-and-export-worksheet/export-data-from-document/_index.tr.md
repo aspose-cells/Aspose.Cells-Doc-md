@@ -15,3 +15,4 @@ Bu bölümdeki konular şunlardır:
 
 - [Güçlü-Tiplendirilmemiş Veri İçeren Sütunlar](/cells/tr/net/columns-containing-non-strongly-typed-data/)
 - [Güçlü-Tiplendirilmiş Veri İçeren Sütunlar](/cells/tr/net/columns-containing-strongly-typed-data/)
+{{< app/cells/assistant language="csharp" >}}

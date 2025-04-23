@@ -11,7 +11,7 @@ Este tema para principiantes muestra cómo los desarrolladores pueden crear una 
 
 {{% /alert %}}
 
-### **Creación de la aplicación Hola Mundo**
+## **Creación de la aplicación Hola Mundo**
 
 Para crear la aplicación Hola Mundo utilizando la API de Aspose.Cells:
 
@@ -26,7 +26,7 @@ Para crear la aplicación Hola Mundo utilizando la API de Aspose.Cells:
 
 Los ejemplos a continuación demuestran los pasos anteriores.
 
-#### **Creando un Libro de trabajo**
+### **Creando un Libro de trabajo**
 
 El siguiente ejemplo crea un nuevo libro de trabajo desde cero, escribe las palabras "¡Hola, mundo!" en la celda A1 en la primera hoja de trabajo, y guarda el archivo.
 
@@ -36,7 +36,7 @@ El siguiente ejemplo crea un nuevo libro de trabajo desde cero, escribe las pala
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "CreatingHelloWorldFile.py" >}}
 
-#### **Apertura de un Archivo Existente**
+### **Apertura de un Archivo Existente**
 
 El siguiente ejemplo abre un archivo de plantilla de Microsoft Excel existente llamado **book1.xls**, escribe las palabras "¡Hola, mundo!" en la celda A1 en la primera hoja de trabajo, y guarda el libro de trabajo como un nuevo archivo.
 

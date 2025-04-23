@@ -23,7 +23,7 @@ Es gibt zwei Möglichkeiten, Formeln zu den anderen Zellen (B3, B4, B5 usw.) in 
 
 Entweder tun Sie das, was Sie für die erste Zelle getan haben, und setzen die Formel für jede Zelle, wobei der Zellbezug entsprechend aktualisiert wird (`A3*0,09`, `A4*0,09`, `A5*0,09` usw.). Dies erfordert, dass die Zellbezüge für jede Zeile aktualisiert werden. Es erfordert auch, dass Aspose.Cells jede Formel einzeln analysiert, was bei großen Tabellenkalkulationen und komplexen Formeln zeitaufwändig sein kann. Es fügt auch zusätzliche Codezeilen hinzu, obwohl Schleifen sie etwas reduzieren können.
 
-Ein anderer Ansatz ist die Verwendung einer **gemeinsamen Formel**. Mit einer gemeinsamen Formel werden die Formeln für die Zellbezüge in jeder Zeile automatisch aktualisiert, sodass die Steuer ordnungsgemäß berechnet wird. Die Methode [Cell.setSharedFormula](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setSharedFormula\(java.lang.String,%20int,%20int\)) ist effizienter als die erste Methode.
+Ein weiterer Ansatz ist die Verwendung einer **gemeinsamen Formel**. Mit einer gemeinsamen Formel werden die Formeln automatisch für die Zellreferenzen in jeder Zeile aktualisiert, sodass die Steuer korrekt berechnet wird. Die Methode [Cell.setSharedFormula](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setSharedFormula-java.lang.String-int-int-) ist effizienter als die erste.
 
 Das folgende Beispiel zeigt, wie sie verwendet wird. Der folgende Screenshot zeigt die Ausgabedatei.
 
@@ -32,3 +32,4 @@ Das folgende Beispiel zeigt, wie sie verwendet wird. Der folgende Screenshot zei
 ![todo:image_alt_text](setting-shared-formula_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingSharedFormula-SettingSharedFormula.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -25,3 +25,4 @@ Aspose.Cells for .NET prend en charge l'ajout d'une image liée en utilisant le 
 L'exemple suivant montre comment ajouter une image liée à partir de l'adresse Web à une feuille de calcul.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertLinkedPicture-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

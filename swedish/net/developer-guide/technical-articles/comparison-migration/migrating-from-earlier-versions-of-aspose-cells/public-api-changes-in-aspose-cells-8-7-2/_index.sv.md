@@ -155,3 +155,4 @@ Enkelt användningsscenarie ser ut som följande.
 Do not forget to register the event to GridWeb control <acw:gridweb OnAfterColumnFilter="GridWeb1_AfterColumnFilter"/>
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

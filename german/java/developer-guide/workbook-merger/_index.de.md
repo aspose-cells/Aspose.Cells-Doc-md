@@ -16,7 +16,7 @@ Manchmal müssen Sie Arbeitsmappen mit verschiedenen Inhalten wie Bilder, Diagra
 
 ## **Arbeitsmappen zusammenführen**
 
-Der Beispielcode kombiniert zwei Arbeitsmappen zu einer einzigen Arbeitsmappe unter Verwendung von Aspose.Cells for Java. Der Code lädt die Quellarbeitsmappen, verwendet die [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook))-Methode, um sie zu kombinieren, und speichert die Ausgabe-Arbeitsmappe.
+Der Beispielcode kombiniert zwei Arbeitsmappen zu einer einzigen Arbeitsmappe unter Verwendung von Aspose.Cells for Java. Der Code lädt die Quellarbeitsmappen, verwendet die [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine-com.aspose.cells.Workbook-)-Methode, um sie zu kombinieren, und speichert die Ausgabe-Arbeitsmappe.
 
 ### **Quell-Arbeitsbücher**
 
@@ -69,3 +69,4 @@ Sie finden möglicherweise den Artikel [Mehrere Arbeitsblätter in ein einziges 
 - [Mehrere Arbeitsblätter in einem Arbeitsblatt zusammenführen](/cells/de/java/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Dateien zusammenführen](/cells/de/java/merge-files/)
 
+{{< app/cells/assistant language="java" >}}

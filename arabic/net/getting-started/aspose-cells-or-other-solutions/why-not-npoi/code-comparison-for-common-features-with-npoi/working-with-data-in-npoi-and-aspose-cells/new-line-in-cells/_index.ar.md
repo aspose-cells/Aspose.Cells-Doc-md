@@ -77,3 +77,4 @@ sw.Close();
 لمزيد من التفاصيل، قم بزيارة [كسر الأسطر والتفاف النص](/cells/ar/net/line-breaks-and-text-wrapping/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

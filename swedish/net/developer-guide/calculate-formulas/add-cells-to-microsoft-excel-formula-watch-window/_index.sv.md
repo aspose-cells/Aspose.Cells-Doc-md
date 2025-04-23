@@ -20,3 +20,4 @@ Följande kodexempel anger formeln för cellerna C1 och E1 och lägger till båd
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Formulas-AddCellsToMicrosoftExcelFormulaWatchWindow.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

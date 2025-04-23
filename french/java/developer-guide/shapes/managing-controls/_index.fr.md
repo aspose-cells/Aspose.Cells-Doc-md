@@ -16,7 +16,7 @@ Une façon de mettre en évidence les informations importantes dans un rapport e
 - La méthode [**getTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame) renvoie un objet [**MsoTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame) utilisé pour ajuster le contenu de la zone de texte.
 - La méthode [**setPlacement**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement) spécifie le type de placement.
 - La méthode [**setFont**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Font) spécifie les attributs de police.
-- La méthode [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink(java.lang.String)) ajoute un lien hypertexte pour la zone de texte.
+- La méthode [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink-java.lang.String-) ajoute un lien hypertexte pour la zone de texte.
 - La propriété [**FillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#FillFormat) renvoie un objet [**MsoFillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoFillFormat) utilisé pour définir le format de remplissage de la zone de texte.
 - La propriété [**LineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#LineFormat) renvoie un objet [**MsoLineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoLineFormat) généralement utilisé pour le style et le poids de la ligne de la zone de texte.
 - La méthode [**setText**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text) spécifie le texte d'entrée pour la zone de texte.
@@ -335,3 +335,4 @@ L'exemple suivant montre comment ajouter des formes ovales à la feuille de calc
 ## **Sujets avancés**
 - [Ajouter des contrôles ActiveX à l'aide de Aspose.Cells](/cells/fr/java/add-activex-controls-using-aspose-cells/)
 - [Supprimer le contrôle ActiveX](/cells/fr/java/remove-activex-control/)
+{{< app/cells/assistant language="java" >}}

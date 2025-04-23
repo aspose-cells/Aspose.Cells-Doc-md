@@ -26,3 +26,4 @@ Bir çalışsayfadaki geniş bir hücre aralığına bazı biçimlendirme uygula
 [**Cell.GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle)/[**Cell.SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) yaklaşımı çok daha az bellek kullanır ve verimlidir, bu nedenle gereksiz bellek tüketen eski Cell.Style özelliği Aspose.Cells 7.1.0 sürümü ile kaldırılmıştır.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

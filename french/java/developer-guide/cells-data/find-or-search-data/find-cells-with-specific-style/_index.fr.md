@@ -47,3 +47,4 @@ Voici le fichier de sortie généré par le code suivant. Vous pouvez voir toute
 ![todo:image_alt_text](find-cells-with-specific-style_2.png)
 
 **Figure :** Fichier de sortie avec les cellules trouvées après la recherche par le style **A1**
+{{< app/cells/assistant language="java" >}}

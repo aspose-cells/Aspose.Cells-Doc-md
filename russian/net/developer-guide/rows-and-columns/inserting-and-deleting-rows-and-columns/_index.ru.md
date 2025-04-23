@@ -76,3 +76,4 @@ Aspose.Cells предоставляет класс [**Workbook**](https://refere
 Чтобы удалить столбец из листа в любом месте, вызовите метод [**DeleteColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) коллекции [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). Метод [**DeleteColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) принимает индекс удаляемого столбца.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-DeletingAColumn-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

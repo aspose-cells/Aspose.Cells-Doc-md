@@ -38,3 +38,4 @@ Vous pouvez également copier les données avec la méthode Range.CopyData comme
 - [Copier les hauteurs de ligne de la plage source vers la plage de destination](/cells/fr/net/copy-row-heights-of-source-range-to-destination-range/)
 
 
+{{< app/cells/assistant language="csharp" >}}

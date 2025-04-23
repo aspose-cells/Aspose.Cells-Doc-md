@@ -25,3 +25,4 @@ Existen varias maneras de adquirir el enumerador de celdas como se detalla en [C
 Es posible que una hoja de cálculo dada no tenga celdas pobladas, sin embargo, podría contener formas y objetos como controles, gráficos, imágenes, etc. Si necesitamos comprobar si una hoja de cálculo contiene alguna forma, podemos hacerlo inspeccionando la propiedad [ShapeCollection.Count](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#Count). Cualquier valor positivo indica la presencia de una o más formas en la hoja de cálculo.
 ## **Ejemplo de Programación**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CheckForShapes-1.java" >}}
+{{< app/cells/assistant language="java" >}}

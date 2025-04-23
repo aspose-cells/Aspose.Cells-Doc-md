@@ -7,7 +7,7 @@ url: /ar/java/calculation-of-array-formula-of-data-tables/
 
 {{% alert color="primary" %}} 
 
-يمكنك إنشاء جدول بيانات في Microsoft Excel باستخدام البيانات > تحليل المرجحات > جدول البيانات.... Aspose.Cells الآن يسمح لك بحساب الصيغة المصفوفية لجدول البيانات. يرجى استخدام [Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) كالمعتاد لحساب أي نوع من الصيغ.
+يمكنك إنشاء جدول بيانات في Microsoft Excel باستخدام البيانات > تحليل What-If > جدول البيانات.... الآن تسمح Aspose.Cells بحساب صيغة المصفوفة لجدول البيانات. يرجى استخدام [Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) كالمعتاد لحساب أي نوع من الصيغ.
 
 {{% /alert %}} 
 ## **حساب الصيغة الصفية للجداول البيانات**
@@ -22,3 +22,4 @@ url: /ar/java/calculation-of-array-formula-of-data-tables/
 إليك الكود النموذجي المستخدم لإنشاء [PDF الناتج](5472577.pdf) من [ملف Excel المصدر](5472579.xlsx). يُرجى قراءة التعليقات لمزيد من المعلومات.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculationOfArrayFormula-CalculationOfArrayFormula.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -27,3 +27,4 @@ Dies umfasst die folgenden vielfältigen Funktionen von Aspose.Cells im Vergleic
   - [Arbeitsblatt-Registerfarbe in Aspose.Cells festlegen](/cells/de/net/set-worksheet-tab-color-in-aspose-cells/)
 
 **Hinweis:** Viele weitere Beispiele werden in Kürze verfügbar sein.
+{{< app/cells/assistant language="csharp" >}}

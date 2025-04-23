@@ -18,3 +18,4 @@ url: /ar/net/set-picture-as-background-fill-in-the-chart/
 ## كود C# لتعيين الصورة كتعبئة خلفية في الرسم البياني
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-SetPictureBackGroundFillChart-SetPictureBackGroundFillChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

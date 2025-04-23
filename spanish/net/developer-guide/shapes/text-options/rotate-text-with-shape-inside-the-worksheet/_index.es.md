@@ -18,3 +18,4 @@ El siguiente código de ejemplo carga el [archivo de Excel de muestra](64716896.
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-RotateTextWithShapeInsideWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

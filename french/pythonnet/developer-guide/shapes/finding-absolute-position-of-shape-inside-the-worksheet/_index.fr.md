@@ -3,13 +3,13 @@ title: Trouver la position absolue de la forme dans la feuille de calcul
 type: docs
 weight: 8000
 url: /fr/python-net/finding-absolute-position-of-shape-inside-the-worksheet/
-description: Cet article montre comment trouver la position absolue de la forme à l intérieur de la feuille de calcul via l API Aspose.Cells pour Python via .NET.
-keywords: Bibliothèque Python Excel, Comment trouver la position absolue de la forme à l intérieur de la feuille de calcul en Python.
+description: Cet article montre comment trouver la position absolue d une forme dans la feuille de calcul via l API Aspose.Cells pour Python via .NET.
+keywords: Bibliothèque Excel Python, Comment trouver la position absolue d une forme dans la feuille de calcul en Python.
 ---
 
 {{% alert color="primary" %}}
 
-Parfois, vous devez connaître la position absolue d'une forme dans une feuille de calcul. Aspose.Cells pour Python via .NET fournit les propriétés [**Shape.left_to_corner**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/left_to_corner) et [**Shape.top_to_corner**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/top_to_corner) à cette fin. Ces propriétés renvoient la position absolue de la forme à l'intérieur de la feuille de calcul en pixels.
+Parfois, vous avez besoin de connaître la position absolue d'une forme dans une feuille de calcul. Aspose.Cells pour Python via .NET fournit les propriétés [**Shape.left_to_corner**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/left_to_corner) et [**Shape.top_to_corner**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/top_to_corner) à cet usage. Ces propriétés retournent la position absolue de la forme dans la feuille en pixels.
 
 {{% /alert %}}
 

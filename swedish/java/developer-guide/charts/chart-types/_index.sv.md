@@ -257,3 +257,4 @@ Vattenfall diagrammet stöds i Aspose.Cells.
 
 ### **Anpassade diagramtyper**
 Anpassade diagram tillåter dig att skapa diagram med anpassad formatering som också kan tillämpas på andra diagram. Här har vi bara diskuterat standarddiagrammen. Om du vill veta mer detaljer om anpassade diagram, läs då artikeln [Skapa anpassade diagram](/cells/sv/java/creating-and-customizing-charts/#creatingandcustomizingcharts-usingchartingobjects) som beskriver hur man skapar anpassade diagram.
+{{< app/cells/assistant language="java" >}}

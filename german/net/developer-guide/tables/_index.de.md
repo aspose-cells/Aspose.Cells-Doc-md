@@ -63,3 +63,4 @@ Das folgende Beispiel fügt Beispieldaten zu einem Arbeitsblatt hinzu, fügt ein
 - [Den Kommentar der Tabelle oder des Listenobjekts innerhalb des Arbeitsblatts festlegen](/cells/de/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
 - [Tabellen und Bereiche](/cells/de/net/tables-and-ranges/)
 
+{{< app/cells/assistant language="csharp" >}}

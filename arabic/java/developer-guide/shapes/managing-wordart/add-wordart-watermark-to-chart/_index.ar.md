@@ -30,3 +30,4 @@ url: /ar/java/add-wordart-watermark-to-chart/
 ### كود جافا لإضافة علامة مائية WordArt إلى الرسوم البيانية
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddWordArtWatermarkToChart-AddWordArtWatermarkToChart.java" >}}
+{{< app/cells/assistant language="java" >}}

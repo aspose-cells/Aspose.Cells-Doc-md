@@ -7,7 +7,7 @@ url: /ru/java/merge-files/
 
 ## **Введение**
 
-Aspose.Cells предоставляет различные способы объединения файлов. Для простых файлов с данными, форматированием и формулами можно использовать метод [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) для объединения нескольких книг, а метод [**Worksheet.copy(**)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)) можно использовать для копирования листов в новую книгу. Эти методы легко использовать и эффективны, но если у вас много файлов для объединения, вы можете обнаружить, что они занимают много ресурсов системы. Для избежания этого используйте статический метод CellsHelper.mergeFiles, более эффективный способ объединения нескольких файлов.
+Aspose.Cells предоставляет несколько способов объединения файлов. Для простых файлов с данными, форматированием и формулами можно использовать метод [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine-com.aspose.cells.Workbook-) для объединения нескольких рабочих книг, а для копирования листов в новую книгу — метод [**Worksheet.copy(**)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy-com.aspose.cells.Worksheet-). Эти методы просты в использовании и эффективны, однако при большом количестве файлов для объединения они могут потреблять много системных ресурсов. Чтобы этого избежать, используйте статический метод CellsHelper.mergeFiles — более эффективный способ объединения нескольких файлов.
 
 ## **Объединение файлов с помощью Aspose.Cells**
 
@@ -20,3 +20,4 @@ Aspose.Cells предоставляет различные способы объ
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-MergeFiles-MergeFiles.java" >}}
+{{< app/cells/assistant language="java" >}}

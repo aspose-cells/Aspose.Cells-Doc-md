@@ -7,7 +7,7 @@ url: /sv/java/direct-calculation-of-custom-function-without-writing-it-in-a-work
 
 {{% alert color="primary" %}} 
 
-Den här artikeln förklarar hur du kan direkt beräkna dina anpassade funktioner utan att först skriva dem i ett kalkylblad. Använd [Worksheet.calculateFormula(string formula, CalculationOptions opts)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula\(java.lang.String,%20com.aspose.cells.CalculationOptions\)) metoden för detta ändamål.
+Den här artikeln förklarar hur du kan beräkna dina anpassade funktioner direkt utan att först skriva dem i ett kalkylblad. Använd [Worksheet.calculateFormula(string formula, CalculationOptions opts)](https://reference.aspose.com/cells/java/com/aspose/cells/worksheet#calculateFormula-java.lang.String-com.aspose.cells.CalculationOptions-) för detta ändamål.
 
 {{% /alert %}} 
 ## **Direkt beräkning av anpassad funktion utan att skriva den i en kalkylblad**
@@ -28,3 +28,4 @@ Nedan är konsol utmatningen av ovanstående provkod.
 - [Implementera anpassad beräkningsmotor för att förlänga standardberäkningsmotorn för Aspose.Cells](/cells/sv/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

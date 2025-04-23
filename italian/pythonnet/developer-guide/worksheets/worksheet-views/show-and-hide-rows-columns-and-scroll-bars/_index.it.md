@@ -3,19 +3,19 @@ title: Mostra e Nascondi Righe Colonne e Barre di Scorrimento
 type: docs
 weight: 20
 url: /it/python-net/show-and-hide-rows-columns-and-scroll-bars/
-description: Questo articolo dimostra come visualizzare e nascondere programmaticamente le righe e colonne di un foglio di lavoro di Excel utilizzando l API Aspose.Cells per Python via .NET. La visibilità delle barre di scorrimento può essere regolata e diverse righe e colonne possono essere nascoste.
-keywords: Libreria Excel Python, Mostra righe e colonne, Nascondi righe e colonne in Python, Mostra barra di scorrimento verticale in Python, Mostra barra di scorrimento orizzontale in Python, Nascondi barra di scorrimento verticale in Python, Nascondi barra di scorrimento orizzontale in Python, Mostra e Nascondi Righe Colonne e Barre di Scorrimento.
+description: Questo articolo dimostra come visualizzare e nascondere programmaticamente le righe e le colonne di un foglio di lavoro Excel usando l API Aspose.Cells per Python via .NET. La visibilità delle barre di scorrimento può essere regolata, e diverse righe e colonne possono essere nascoste.
+keywords: Biblioteca Python Excel, mostra righe e colonne in Python, nascondi righe e colonne in Python, mostra la barra di scorrimento verticale, mostra la barra di scorrimento orizzontale, nascondi la barra di scorrimento verticale, nascondi la barra di scorrimento orizzontale, mostra e nascondi righe, colonne e barre di scorrimento.
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells per Python via .NET fornisce modi per controllare la visibilità di Righe, Colonne e Barre di Scorrimento di un foglio di lavoro.
+Aspose.Cells per Python via .NET offre modalità per controllare la visibilità delle righe, delle colonne e delle barre di scorrimento di un foglio di lavoro.
 
 {{% /alert %}}
 
 ## **Mostra e nascondi righe e colonne**
 
-Aspose.Cells per Python via .NET fornisce una classe, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), che rappresenta un file Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) contiene una collezione [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) che rappresenta tutte le celle del foglio di lavoro. La collezione [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) fornisce diversi metodi per gestire righe o colonne in un foglio di lavoro. Alcuni di questi sono discussi di seguito.
+Aspose.Cells per Python via .NET fornisce una classe, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), che rappresenta un file Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) contiene una collezione [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) che permette agli sviluppatori di accedere a ogni foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato dalla classe [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet). La classe [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) contiene una collezione [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells) che rappresenta tutte le celle nel foglio di lavoro. La collezione [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells) fornisce diversi metodi per gestire righe o colonne in un foglio di lavoro. Alcuni di questi sono illustrati di seguito.
 
 ### **Mostra Righe e Colonne**
 
@@ -57,11 +57,11 @@ Le barre di scorrimento vengono utilizzate per navigare nei contenuti di qualsia
 - Barre di scorrimento verticali
 - Barre di scorrimento orizzontali
 
-Microsoft Excel fornisce anche barre di scorrimento orizzontali e verticali in modo che gli utenti possano scorrere il contenuto del foglio di lavoro. Utilizzando Aspose.Cells per Python via .NET, gli sviluppatori possono controllare la visibilità di entrambi i tipi di barre di scorrimento nei file di Excel.
+Microsoft Excel offre anche barre di scorrimento orizzontali e verticali in modo che gli utenti possano scorrere i contenuti del foglio di lavoro. Usando Aspose.Cells per Python via .NET, gli sviluppatori possono controllare la visibilità di entrambi i tipi di barre di scorrimento nei file Excel.
 
 ### **Controllare la visibilità delle barre di scorrimento**
 
-Aspose.Cells per Python via .NET fornisce una classe, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) che rappresenta un file di Excel. La classe [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) fornisce una vasta gamma di proprietà e metodi per la gestione di un file di Excel. Per controllare la visibilità delle barre di scorrimento, utilizzare le proprietà [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) della classe e [**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible). [**WorkbookSettings.is_h_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_h_scroll_bar_visible) e [**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) sono proprietà booleane, il che significa che queste proprietà possono memorizzare solo valori **true** o **false**.
+Aspose.Cells per Python via .NET fornisce una classe, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), che rappresenta un file Excel. La classe [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) offre molte proprietà e metodi per gestire un file Excel. Per controllare la visibilità delle barre di scorrimento, usa le proprietà [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) e [**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) della classe. [**WorkbookSettings.is_h_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_h_scroll_bar_visible) e [**WorkbookSettings.is_v_scroll_bar_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) sono proprietà Booleane, il che significa che queste proprietà possono memorizzare solo valori **true** o **false**.
 
 #### **Rendere visibili le barre di scorrimento**
 

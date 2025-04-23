@@ -3,13 +3,13 @@ title: Kopiera siduppsättning inställningar från kälark till destinationsark
 type: docs
 weight: 80
 url: /sv/python-net/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/
-description: Den här artikeln förklarar hur man använder Aspose.Cells för Python via .NET exempelkoden för att kopiera Sidlayout inställningar från källkalkylbladet till målkalkylbladet programmatiskt.
-keywords: Python Excel bibliotek, Python kopiera sidlayout inställningar, kopiera sidlayout inställningar till målkalkylblad i Python.
+description: Denna artikel förklarar hur man använder exempel kod för Aspose.Cells för Python via .NET för att kopiera sidinställning från ett kälvarsarbetsblad till ett destinationsarbetsblad programmässigt.
+keywords: Python Excel bibliotek, Python kopiera sidinställningar, kopiera sidinställningar till målblad i Python.
 ---
 
 ## **Möjliga användningsscenario**
 
-När du lägger till ett nytt blad i en arbetsbok innehåller det standard *Sidlayout inställningar*. Det kan finnas tillfällen när du behöver överföra inställningarna ([**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)) från ett kalkylblad till ett annat kalkylblad. Det här dokumentet förklarar hur man kopierar Sidlayout inställningar från ett kalkylblad till ett annat med hjälp av Aspose.Cells för Python via .NET APIer.
+När du lägger till ett nytt ark i en arbetsbok innehåller det standard *Sidinställningar*. Det kan finnas situationer när du behöver överföra inställningarna ([**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)) från ett arbetsblad till ett annat. Denna dokument förklarar hur man kopierar sidinställningar från ett arbetsblad till ett annat med Aspose.Cells för Python via .NET API:er.
 
 ## **Kopiera siduppsättning inställningar från källkalkylblad till destinations kalkylblad**
 

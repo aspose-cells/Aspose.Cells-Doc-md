@@ -26,3 +26,4 @@ Metne Üstsimge Efekti Uygulamak İçin C# Kodu
 Metne Altsimge Efekti Uygulamak İçin C# Kodu
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplySuperscriptAndSubscript-SettingSubscriptEffect-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

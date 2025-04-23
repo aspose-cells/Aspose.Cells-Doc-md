@@ -35,3 +35,4 @@ keywords: تطبيق المجاميع الفرعية، تعيين المجامي
 
 ## **مواضيع متقدمة**
 - [تطبيق المجموع الفرعي وتغيير اتجاه الصفوف القابلة للملخص تحت التفصيل](/cells/ar/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+{{< app/cells/assistant language="csharp" >}}

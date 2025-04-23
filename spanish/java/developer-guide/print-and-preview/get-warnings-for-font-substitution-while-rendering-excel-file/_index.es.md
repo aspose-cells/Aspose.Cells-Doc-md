@@ -87,3 +87,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 Si tu hoja de cálculo contiene fórmulas, es mejor llamar al método Workbook.calculateFormula justo antes de renderizar la hoja de cálculo al formato PDF. Al hacerlo, te asegurarás de que los valores dependientes de la fórmula se recalculen y los valores correctos se rendericen en el PDF. 
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

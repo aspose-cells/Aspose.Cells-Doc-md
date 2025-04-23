@@ -16,3 +16,4 @@ Bitte sehen Sie sich den folgenden Beispielcode an. Er lädt die [Beispieldatei]
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Slicers-ChangeSlicerProperties-1.java" >}}
+{{< app/cells/assistant language="java" >}}

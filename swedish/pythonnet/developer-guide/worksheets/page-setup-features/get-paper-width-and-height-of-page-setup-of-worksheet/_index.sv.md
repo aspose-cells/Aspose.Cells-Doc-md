@@ -3,8 +3,8 @@ title: Hämta papperets bredd och höjd för sidbildningsinställningen för ark
 type: docs
 weight: 50
 url: /sv/python-net/get-paper-width-and-height-of-page-setup-of-worksheet/
-description: Du kommer att upptäcka i denna artikel hur man får Excel Arbetsblad Siduppställning Pappersbredd och Pappershöjd med Python kod programmatiskt med Aspose.Cells för Python via .NET API eller bibliotek.
-keywords: Python Excel bibliotek, Python excels siduppställning pappersbredd, excels siduppställning pappershöjd i Python.
+description: Du kommer att upptäcka i denna artikel hur man får pappersbredd och pappershöjd för Excel arkets sidsetup med hjälp av Python kod programmässigt med Aspose.Cells för Python via .NET API er eller bibliotek.
+keywords: Python Excel bibliotek, Python Excel sidsetup pappersbredd, pappershöjd i Python.
 ---
 
 ## **Möjliga användningsscenario**
@@ -13,7 +13,7 @@ Ibland behöver du veta bredd och höjd för pappersstorleken som har ställts i
 
 ## **Hämta pappersbredd och höjd i sidinställningen för kalkylblad**
 
-Följande exempelkod förklarar användningen av [**PageSetup.paper_width**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_width) och [**PageSetup.paper_height**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_height) egenskaper. Den ändrar först pappersstorleken till *A2* och hittar sedan bredden och höjden på papperet, sedan ändrar den det till *A3*, *A4*, *Brev* och hittar bredden och höjden på papperet respektive.
+Följande exempel på kod förklarar användningen av [**PageSetup.paper_width**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_width) och [**PageSetup.paper_height**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_height) egenskaper. Det ändrar först pappersstorleken till *A2* och hittar sedan bredden och höjden på papperet, därefter ändrar det till *A3*, *A4*, *Letter* och hittar respektive bredd och höjd på papperet.
 
 ### **Exempelkod**
 

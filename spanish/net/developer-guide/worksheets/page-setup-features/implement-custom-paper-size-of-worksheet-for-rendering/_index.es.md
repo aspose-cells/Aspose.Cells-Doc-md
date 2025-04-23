@@ -22,3 +22,4 @@ Aspose.Cells le permite implementar el tamaño de papel deseado de la hoja de c�
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ImplementCustomPaperSizeOfWorksheetForRendering.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

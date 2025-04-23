@@ -69,3 +69,4 @@ Laden Sie **Formelberechnungsmaschine** von einer der unten aufgeführten sozial
 Für weitere Details besuchen Sie [Formelberechnungsmaschine](/cells/de/net/formula-calculation-engine/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

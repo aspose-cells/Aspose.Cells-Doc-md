@@ -36,3 +36,4 @@ BoxWhisker
 
 ## **Gelişmiş Konular**
 - [Su Düşen Grafik Oluşturma](/cells/tr/java/creating-waterfall-chart/)
+{{< app/cells/assistant language="java" >}}

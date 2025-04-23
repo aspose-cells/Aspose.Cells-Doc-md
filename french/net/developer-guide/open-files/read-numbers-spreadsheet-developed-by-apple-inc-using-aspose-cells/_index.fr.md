@@ -17,3 +17,4 @@ Le code d'exemple suivant charge la [feuille de calcul de chiffres d'exemple](sa
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ReadNumbersSpreadsheet.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

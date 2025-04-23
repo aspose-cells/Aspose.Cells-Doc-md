@@ -53,3 +53,4 @@ Aspose.Cells пытается автоматически найти шрифты
 - [Как получить предупреждения, когда происходит замена шрифта](/cells/ru/java/get-warnings-for-font-substitution-while-rendering-excel-file/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

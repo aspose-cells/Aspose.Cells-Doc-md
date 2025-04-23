@@ -17,7 +17,7 @@ Aspose.Cells pour Python via NET vous permet de changer le type de cible des lie
 
 {{< /highlight >}}
 
-Comme vous pouvez le voir, l'attribut cible dans le lien HTML ci-dessus est **_self**. Vous pouvez contrôler cet attribut cible en utilisant la propriété [**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/). Cette propriété prend l'énumération [**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype) qui a les valeurs suivantes.
+Comme vous pouvez le voir, l'attribut cible dans le lien HTML ci-dessus est **_self**. Vous pouvez contrôler cet attribut cible en utilisant la propriété [**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/). Cette propriété prend l'énumération [**HtmlLinkTargetType**](https://reference.aspose.com/cells/python-net/aspose.cells/htmllinktargettype) qui a les valeurs suivantes.
 
 - HtmlLinkTargetType.BLANK
 - HtmlLinkTargetType.PARENT

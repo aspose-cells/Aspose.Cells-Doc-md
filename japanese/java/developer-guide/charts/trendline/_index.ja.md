@@ -31,3 +31,4 @@ Aspose.Cellsを使用して、チャートのトレンドラインの方程式�
 Equation Text: y = 8.1333x + 5
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

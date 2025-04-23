@@ -141,3 +141,4 @@ El siguiente ejemplo muestra cómo eliminar comentarios en la columna A1 cargand
 Tenga en cuenta que al eliminar un comentario con Aspose.Cells, el autor no se elimina automáticamente. Si necesita eliminar también el autor, por favor utilice el método RemoveAt de la clase [**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthorcollection) como se muestra en el ejemplo anterior.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

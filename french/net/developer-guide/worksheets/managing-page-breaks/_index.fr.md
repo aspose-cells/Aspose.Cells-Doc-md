@@ -57,3 +57,4 @@ Pour supprimer un saut de page spécifique, appelez les méthodes [**HorizontalP
 ## **Important à savoir**
 
 Lorsque vous définissez les propriétés **FitToPages** (c'est-à-dire [**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) et [**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)) dans les paramètres de mise en page, les paramètres de saut de page sont affectés. Ainsi, si vous imprimez la feuille de calcul, les paramètres de saut de page ne sont pas pris en compte bien qu'ils soient toujours définis.
+{{< app/cells/assistant language="csharp" >}}

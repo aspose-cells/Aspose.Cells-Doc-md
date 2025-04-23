@@ -30,3 +30,4 @@ Aspose.Cells允许您使用[**Cell.Formula**](https://reference.aspose.com/cells
 以下示例演示了如何使用它。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-SettingSharedFormula-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

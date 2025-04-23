@@ -74,3 +74,4 @@ Asposeコンポーネントまたはコンポーネントスイートを購入�
 
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

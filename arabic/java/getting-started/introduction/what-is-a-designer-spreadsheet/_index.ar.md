@@ -36,3 +36,4 @@ url: /ar/java/what-is-a-designer-spreadsheet/
 بالإضافة إلى ذلك، تتيح لك Aspose.Cells إضافة [العلامات الذكية](/cells/ar/java/smart-markers/) إلى أوراق العمل للمصمم. يتم معالجة العلامات الذكية في وقت التشغيل باستخدام طريقة Process للصف [**WorkbookDesigner**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner). يمكن أن يساعدك ذلك في كتابة أقل كود والحصول على نتائج رائعة بعد.
 
 [تعرف على المزيد حول العلامات الذكية](/cells/ar/java/smart-markers/).
+{{< app/cells/assistant language="java" >}}

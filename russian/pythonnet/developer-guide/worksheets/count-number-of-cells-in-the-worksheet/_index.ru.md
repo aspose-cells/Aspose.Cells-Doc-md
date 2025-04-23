@@ -3,7 +3,7 @@ title: Посчитать количество ячеек в листе
 type: docs
 weight: 110
 url: /ru/python-net/count-number-of-cells-in-the-worksheet/
-description: В этой статье вы узнаете, как программно подсчитывать количество ячеек в листе Excel с помощью API Aspose.Cells для Python via .NET.
+description: В этой статье вы узнаете, как программно считать количество ячеек на листе Excel с помощью API Aspose.Cells для Python via .NET.
 keywords: подсчитать количество ячеек листа Excel c#, ячейки листа Excel c#
 ---
 

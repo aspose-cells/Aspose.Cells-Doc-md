@@ -33,3 +33,4 @@ Aşağıdaki kod, bir akıştaki bir resim kullanarak arka plan resmini ayarlar.
 
 - [ODS Dosyalarında Arkaplanla Çalışma](/cells/tr/net/working-with-background-in-ods-files/)
 
+{{< app/cells/assistant language="csharp" >}}

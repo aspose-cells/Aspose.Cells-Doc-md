@@ -24,3 +24,4 @@ Il seguente codice di esempio utilizza il metodo [**Workbook.ContentTypeProperti
 ## Articolo Correlato
 
 - [Aggiunta di proprietà personalizzate visibili all'interno del pannello delle informazioni del documento](/cells/it/net/adding-custom-properties-visible-inside-document-information-panel/)
+{{< app/cells/assistant language="csharp" >}}

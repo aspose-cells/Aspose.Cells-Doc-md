@@ -17,3 +17,4 @@ url: /ar/java/pivot-table-hide-and-sort-data/
 [ملف المصدر](PivotTableHideAndSortSample.xlsx)
 
 [ملف الإخراج](PivotTableHideAndSort_out.xlsx)
+{{< app/cells/assistant language="java" >}}

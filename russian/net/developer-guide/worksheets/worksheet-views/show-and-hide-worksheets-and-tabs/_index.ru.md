@@ -58,3 +58,4 @@ Aspose.Cells предоставляет класс [**Workbook**](https://refere
 ### **Управление Шириной Панели Вкладок**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-ControlTabBarWidth-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

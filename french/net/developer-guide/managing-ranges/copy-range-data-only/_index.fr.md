@@ -24,3 +24,4 @@ Cet exemple montre comment :
 1. Copier les données de la première plage vers cette deuxième plage.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeDataOnly-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

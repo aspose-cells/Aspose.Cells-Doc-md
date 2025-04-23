@@ -19,3 +19,4 @@ Efter att ha kört koden nedan kommer du att se solfjäderdiagrammet som visas n
 Följande exempelkod läser in [provkalkylbladet](sunburst.xlsx) och genererar [utmatningskalkylbladet](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-sunburst-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

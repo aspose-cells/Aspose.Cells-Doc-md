@@ -65,7 +65,7 @@ Le code ci-dessous démontre comment utiliser la classe [**HtmlSaveOptions**](ht
 
 {{% alert color="primary" %}}
 
-Vous pouvez obtenir les mêmes résultats en passant le [**SaveFormat.HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML) à la méthode [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)).
+Vous pouvez obtenir les mêmes résultats en passant le [**SaveFormat.HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML) à la méthode [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-).
 
 {{% /alert %}}
 
@@ -110,7 +110,7 @@ Veuillez noter que vous ne pouvez pas demander à Aspose.Cells for Java de modif
 
 #### **Conversion directe**
 
-Enregistrez un fichier Excel directement au format PDF à l'aide de la méthode [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)), et fournissez le membre d'interface [**SaveFormat.PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF). La conversion directe de cette manière est la méthode de conversion la plus efficace. Elle ne perd pas de données ni de mise en forme, mais conserve le fichier PDF de sortie tel que le fichier Excel d'entrée.
+Enregistrez un fichier Excel directement au format PDF à l'aide de la méthode [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-), et fournissez le membre d'interface [**SaveFormat.PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF). La conversion directe de cette manière est la méthode de conversion la plus efficace. Elle ne perd pas de données ni de mise en forme, mais conserve le fichier PDF de sortie tel que le fichier Excel d'entrée.
 
 Pour spécifier les options de sécurité lors de l'enregistrement au format PDF, utilisez [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions).
 
@@ -134,7 +134,7 @@ Pour convertir des feuilles de calcul en PDF avec Aspose.Cells et Aspose.PDF :
 
 1. Instanciez un objet de la classe [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) en appelant son constructeur vide.
 2. Faites votre travail souhaité sur la feuille de calcul en utilisant l'API Aspose.Cells.
-1. Appeler la méthode [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) pour enregistrer la feuille de calcul :
+1. Appeler la méthode [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) pour enregistrer la feuille de calcul :
    4. Définissez le format de fichier en tant que XML.
    5. Sélectionnez Aspose_Pdf (une valeur prédéfinie) à partir de l'interface FileFormatType. Cela indique à la méthode d'enregistrement de générer une feuille de calcul au format XML compatible avec le schéma Aspose.PDF afin que Aspose.PDF pour Java puisse ensuite générer un document PDF.
 6. Lorsque le fichier XML a été créé, créez un objet de la classe Pdf dans le package aspose.pdf.
@@ -189,3 +189,4 @@ Le tableau ci-dessous répertorie toutes les fonctionnalités entièrement ou pa
 |Configuration de la page|Mise à l'échelle|Oui| |
 |Hauteur de ligne/Largeur de colonne| |Oui| |
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -77,3 +77,4 @@ Aspose.Cells предоставляет класс [**Workbook**](https://refere
 - [Вставка и удаление строк и столбцов в файле Excel](/cells/ru/net/inserting-and-deleting-rows-and-columns/)
 - [Удалить дублирующиеся строки в рабочем листе](/cells/ru/net/remove-duplicate-rows-in-a-worksheet/)
 - [Обновление ссылок в других листах при удалении пустых столбцов и строк на листе](/cells/ru/net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

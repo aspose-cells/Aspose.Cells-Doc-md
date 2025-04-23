@@ -35,3 +35,4 @@ url: /zh/net/missing-features-in-vsto/
   - [使用匿名类型或自定义对象](/cells/zh/net/using-anonymous-types-or-custom-objects/)
   - [使用嵌套对象](/cells/zh/net/using-nested-objects/)
 - [在 Aspose.Cells 中跟踪先例和从属](/cells/zh/net/tracing-precedents-and-dependents-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

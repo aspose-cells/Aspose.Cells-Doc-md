@@ -46,7 +46,7 @@ Im folgenden Beispiel wird eine komplexe Formel auf die erste Zelle der [**Cells
 
 Wir können einige benutzerdefinierte Formeln haben, die wir als Excel-Add-In einfügen möchten. Beim Einstellen der [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula)-Funktion funktionieren integrierte Funktionen gut, jedoch besteht die Notwendigkeit, benutzerdefinierte Funktionen oder Formeln mit den Add-In-Funktionen einzustellen.
 
-Aspose.Cells bietet Funktionen zur Registrierung von Add-In-Funktionen mit [**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction(java.lang.String,%20java.lang.String,%20boolean)). Anschließend, wenn wir [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) = anyFunctionFromAddIn einstellen, enthält die Ausgabedatei von Excel den berechneten Wert aus der Add-In-Funktion.
+Aspose.Cells bietet Funktionen zur Registrierung von Add-In-Funktionen mit [**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction-java.lang.String-java.lang.String-boolean-). Anschließend, wenn wir [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) = anyFunctionFromAddIn einstellen, enthält die Ausgabedatei von Excel den berechneten Wert aus der Add-In-Funktion.
 
 Die folgende XLAM-Datei soll für die Registrierung der Add-In-Funktion im untenstehenden Beispielcode heruntergeladen werden. Ebenso kann die Ausgabedatei "test_udf.xlsx" heruntergeladen werden, um das Ergebnis zu überprüfen.
 
@@ -66,7 +66,7 @@ Array-Formeln sind Formeln, die mit Arrays anstelle einzelner Zahlen als Argumen
 
 Einige Microsoft Excel-Funktionen geben Arrays von Werten zurück. Um mehrere Ergebnisse mit einer Array-Formel zu berechnen, geben Sie das Array in einen Zellenbereich mit derselben Anzahl von Zeilen und Spalten wie die Array-Argumente ein.
 
-Es ist möglich, eine Array-Formel auf eine Zelle anzuwenden, indem die [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)-Klasse die [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int))-Methode aufruft. Die [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int))-Methode nimmt die folgenden Parameter an:
+Es ist möglich, eine Array-Formel auf eine Zelle anzuwenden, indem die [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)-Klasse die [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula-java.lang.String-int-int-)-Methode aufruft. Die [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula-java.lang.String-int-int-)-Methode nimmt die folgenden Parameter an:
 
 - **Array-Formel**, die Array-Formel.
 - **Anzahl der Zeilen**, die Anzahl der Zeilen zum Ausfüllen des Ergebnisses der Array-Formel.
@@ -80,3 +80,4 @@ Wenden Sie eine Referenzformel im *R1C1*-Format auf eine Zelle mit der [**Cell**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingR1C1-1.java" >}}
 
+{{< app/cells/assistant language="java" >}}

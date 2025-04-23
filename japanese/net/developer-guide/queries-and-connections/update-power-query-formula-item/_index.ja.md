@@ -20,3 +20,4 @@ Aspose.Cells APIでは、Power Query Formulaアイテムを更新する機能が
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-UpdatePowerQueryFormulaItem-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

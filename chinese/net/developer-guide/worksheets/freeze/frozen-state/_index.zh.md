@@ -22,3 +22,4 @@ description: 在本文中，您将学习如何使用C#库和.NET API以编程方
 3.获取锁定的行和列。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Is-Worksheet-Frozen.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -3,8 +3,8 @@ title: كيفية تشغيل Aspose.Cells.GridJs في دوكر
 type: docs
 weight: 250
 url: /ar/net/aspose-cells-gridjs/how-to-build-online-excel-editor/
-keywords: GridJs، دوكر
-description: يقدم هذا المقال كيفية تشغيل GridJs في دوكر لإنشاء تطبيق محرر أو عارض لجداول البيانات عبر الإنترنت.
+keywords: GridJs،دوكر
+description: تقدم هذه المقالة شرحًا لكيفية تشغيل GridJs في دوكر لبناء محرر أو عارض إكسل على الإنترنت.
 aliases:
   - /net/aspose-cells-gridjs/docker/
   - /net/aspose-cells-gridjs/run-aspose-cells-gridjs-in-docker/
@@ -17,19 +17,19 @@ aliases:
   - /net/aspose-cells-gridjs/how-to-build-web-excel-viewer-using-gridjs/
 ---
 
-#دليل دوكر
+# دليل دوكر
 
 ## متطلبات قبلية
 
-تأكد من تثبيت Docker على جهازك. يمكنك تنزيل وتثبيت Docker من [الموقع الرسمي لدوكر](https://www.docker.com/get-started).
+تأكد من أن لديك Docker مثبت على جهازك. يمكنك تنزيل وتثبيت Docker من [الموقع الرسمي لـ Docker](https://www.docker.com/get-started).
 
 ## الخطوة 1: إنشاء ملف Dockerfile
 
-إنشاء ملف بإسم `Dockerfile` في مشروعك من خلال هذا [الدليل] (https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/). يجب أن يحتوي ملف `Dockerfile` على تعليمات حول كيفية بناء صورة Docker الخاصة بك.
+أنشئ ملفًا يسمى `Dockerfile` في مجلد مشروعك [الدليل](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/). يجب أن يحتوي `Dockerfile` على تعليمات حول كيفية بناء صورة Docker الخاصة بك.
 
-## الخطوة 2: كتابة ملف Dockerfile لـ GridJs
+## الخطوة 2: كتابة Dockerfile لـ GridJs
 
-فيما يلي مثال لـ [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Dockerfile) لتطبيق GridJs مع تطبيق ASP.NET Core:
+إليك عينة [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Dockerfile) لعرض GridJs مع تطبيق ASP.NET Core:
 
 ```dockerfile
 # Use the official .NET6.0 runtime as a parent image
@@ -65,6 +65,8 @@ WORKDIR /app
 # COPY fonts/* /usr/share/fonts/
 # the basic file path which contains the spread sheet files 
 RUN mkdir -p /app/wb
+# the file path to store the uploaded files
+RUN mkdir -p /app/uploads
 # the cache file path for GridJs
 RUN mkdir -p /app/grid_cache
 # we provide some sample spread sheet files in demo 
@@ -77,36 +79,46 @@ ENTRYPOINT ["dotnet", "gridjs-demo-.net6.dll"]
 ```
 
 ## الخطوة 3: بناء صورة Docker
-قم ببناء صورة Docker: من الطرفية، قم بتنفيذ الأمر التالي لبناء صورة Docker الخاصة بك:
+بناء صورة Docker: من الطرفية، نفذ الأمر التالي لبناء صورة Docker الخاصة بك:
 ```bash
 docker build -t gridjs-demo-net6 .
 ```
-يمكنك استبدال gridjs-demo-net6 بالاسم الذي ترغب في إعطاء صورة Docker الخاصة بك.
+يمكنك استبدال gridjs-demo-net6 باسم الصورة التي تريد تسميتها على Docker.
 
 ## الخطوة 4: تشغيل حاوية Docker
-بمجرد بناء الصورة، يمكنك تشغيل حاوية باستخدام الأمر التالي:
+بمجرد إنشاء الصورة، يمكنك تشغيل حاوية باستخدام الأمر التالي:
+
+```bash
+docker run -d -p 24262:80 -v C:/path/to/license.txt:/app/license --name gridjs-demo-container  gridjs-demo-net6
+```
+
+أو ببساطة تشغيل العرض التوضيحي في وضع التجربة:
+
 
 ```bash
 docker run -d -p 24262:80 --name gridjs-demo-container  gridjs-demo-net6
 ```
+
+
 شرح خيارات أمر تشغيل Docker
--d: تشغيل الحاوية في وضع منفصل (في الخلفية).
--p 24262:80: ربط المنفذ 80 في الحاوية بالمنفذ 24262 على جهاز المضيف.
+-د: تشغيل الحاوية في الوضع المنفصل (في الخلفية).
+-p 24262:80: ربط المنفذ 80 في الحاوية بمنفذ 24262 على الجهاز المضيف.
+-v C:/path/to/license.txt:/app/license: ربط مسار ملف الترخيص على الجهاز المضيف بمسار الملف في الحاوية.
 --name gridjs-demo-container: تعيين اسم للحاوية.
 
 ## الخطوة 5: التحقق من تشغيل الحاوية
-للتحقق مما إذا كانت الحاوية الخاصة بك قيد التشغيل، استخدم الأمر التالي:
+للتحقق من تشغيل الحاوية الخاصة بك، استخدم الأمر التالي:
 
 ```bash
 docker ps
 ```
-سيتم إدراج جميع الحاويات الجارية. يجب أن ترى حاويتك مدرجة جنبًا إلى جنب مع اسمها وحالتها.
+سيقوم هذا الأمر بسرد جميع الحاويات الجارية. يجب أن ترى حاويتك مدرجة مع اسمها وحالتها.
 
-## الخطوة 6: الوصول إلى تطبيق الويب
+## الخطوة 6: الوصول إلى التطبيق الويب
 
 افتح متصفح الويب وانتقل إلى `http://localhost:24262/GridJs2/List`. يجب أن ترى تطبيقك يعمل.
 
-## الأوامر الإضافية
+## أوامر إضافية
 
 ### إيقاف الحاوية
 

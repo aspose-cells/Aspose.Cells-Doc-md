@@ -29,3 +29,4 @@ Aspose.Cells propose les propriétés [**PivotTable.DisplayNullString**](https:/
 ## Articles Connexes
 
 - [Formatage du tableau croisé dynamique](/cells/fr/net/formatting-pivot-table/)
+{{< app/cells/assistant language="csharp" >}}

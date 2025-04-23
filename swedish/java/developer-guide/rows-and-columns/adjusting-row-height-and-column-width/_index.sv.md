@@ -16,7 +16,7 @@ Aspose.Cells tillhandahåller en klass, [Workbook](https://reference.aspose.com/
 
 [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) samlingen tillhandahåller flera metoder för att hantera rader eller kolumner i ett kalkylblad. Några av dessa diskuteras nedan mer i detalj.
 ### **Ange radhöjden**
-Det är möjligt att ställa in höjden på en enskild rad genom att anropa [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-kollektionens [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\)) metod. Metoden [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\)) tar följande parametrar:
+Det är möjligt att ställa in höjden på en enskild rad genom att anropa [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) samlingens [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight-int-double-) metod. [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight-int-double-) tar följande parametrar:
 
 - **Radindex**, index för den rad vars höjd du ändrar.
 - **Radhöjd**, radhöjden som ska tillämpas på raden.
@@ -30,7 +30,7 @@ För att ställa in samma radhöjd för alla rader i en arbetsbok, använd [Cell
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingHeightAllRows-SettingHeightAllRows.java" >}}
 ## **Arbeta med kolumner**
 ### **Inställning av bredden på en kolumn**
-Ställ in bredden på en kolumn genom att anropa [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-kollektionens [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\)) metod. Metoden [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\)) tar följande parametrar:
+Ställ in bredden på en kolumn genom att anropa [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) samlingens [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth-int-double-) metod. [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth-int-double-) tar följande parametrar:
 
 - **Kolumnindex**, index för den kolumn vars bredd du ändrar.
 - **Kolumnbredd**, önskad kolumnbredd.
@@ -44,3 +44,4 @@ För att ställa in samma kolumnbredd för alla kolumner i en arbetsbok, använd
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingWidthOfAllColumns-SettingWidthOfAllColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

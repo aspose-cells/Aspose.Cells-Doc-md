@@ -63,3 +63,4 @@ Aspose.Cells هي مكتبة معالجة وثائق مفيدة جدًا توف�
 
 * [المزيد حول Apache POI](https://poi.apache.org/)
 
+{{< app/cells/assistant language="csharp" >}}

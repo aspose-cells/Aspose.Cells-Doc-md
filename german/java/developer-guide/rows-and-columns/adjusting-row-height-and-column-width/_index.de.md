@@ -16,7 +16,7 @@ Aspose.Cells bietet eine Klasse, [Workbook](https://reference.aspose.com/cells/j
 
 Die [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-Sammlung bietet verschiedene Methoden zur Verwaltung von Zeilen oder Spalten in einer Arbeitsmappe. Einige davon werden unten detaillierter besprochen.
 ### **Einstellen der Zeilenhöhe**
-Es ist möglich, die Höhe einer einzelnen Zeile durch Aufruf der [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-Sammlungsmethode [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\)) festzulegen. Die [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\))-Methode hat die folgenden Parameter:
+Es ist möglich, die Höhe einer einzelnen Zeile durch Aufruf der Methode [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) Sammlung [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight-int-double-) einzustellen. Die Methode [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight-int-double-) akzeptiert die folgenden Parameter:
 
 - **Zeilenindex**, der Index der Zeile, deren Höhe geändert wird.
 - **Zeilenhöhe**, die auf die Zeile anzuwendende Zeilenhöhe.
@@ -30,7 +30,7 @@ Um die gleiche Zeilenhöhe für alle Zeilen in einer Arbeitsmappe festzulegen, v
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingHeightAllRows-SettingHeightAllRows.java" >}}
 ## **Arbeiten mit Spalten**
 ### **Einstellen der Breite einer Spalte**
-Legen Sie die Breite einer Spalte fest, indem Sie die [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-Sammlungsmethode [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\)) aufrufen. Die [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\))-Methode hat die folgenden Parameter:
+Setzen Sie die Breite einer Spalte durch Aufruf der Methode [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) Sammlung [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth-int-double-). Die Methode [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth-int-double-) nimmt die folgenden Parameter:
 
 - **Spaltenindex**, der Index der Spalte, deren Breite geändert wird.
 - **Spaltenbreite**, die gewünschte Spaltenbreite.
@@ -44,3 +44,4 @@ Um die gleiche Spaltenbreite für alle Spalten in einer Arbeitsmappe festzulegen
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingWidthOfAllColumns-SettingWidthOfAllColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

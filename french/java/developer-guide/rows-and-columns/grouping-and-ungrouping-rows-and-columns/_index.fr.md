@@ -18,7 +18,7 @@ Aspose.Cells fournit une classe, [Workbook](https://reference.aspose.com/cells/j
 
 La collection [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) fournit plusieurs méthodes pour gérer les lignes ou colonnes dans une feuille de calcul, dont quelques-unes sont discutées plus en détail ci-dessous.
 ### **Regroupement des lignes et des colonnes**
-Il est possible de regrouper des lignes ou des colonnes en appelant les méthodes [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows\(int,%20int,%20boolean\)) et [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns\(int,%20int,%20boolean\)) de la collection [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Les deux méthodes prennent les paramètres suivants :
+Il est possible de grouper des lignes ou des colonnes en appelant les méthodes [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows-int-int-boolean-) et [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns-int-int-boolean-) de la collection [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Ces deux méthodes prennent les paramètres suivants :
 
 - Indice de la première ligne/colonne, la première ligne ou colonne du groupe.
 - Indice de la dernière ligne/colonne, la dernière ligne ou colonne du groupe.
@@ -51,7 +51,7 @@ Il est possible de contrôler si les colonnes récapitulatives sont affichées �
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowRight-1.java" >}}
 ### **Dégroupement des lignes & des colonnes**
-Dégrouper les lignes ou colonnes regroupées en appelant les méthodes [UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows\(int,%20int\)) et [UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns\(int,%20int\)) de la collection [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Les deux méthodes prennent les mêmes paramètres :
+Dissocier les lignes ou colonnes groupées en appelant les méthodes [UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows-int-int-) et [UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns-int-int-) de la collection [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Ces deux méthodes ont les mêmes paramètres :
 
 - Indice de la première ligne ou colonne, la première ligne/colonne à dissocier.
 - Indice de la dernière ligne ou colonne, la dernière ligne/colonne à dissocier.
@@ -59,3 +59,4 @@ Dégrouper les lignes ou colonnes regroupées en appelant les méthodes [Ungroup
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-UngroupingRowsandColumns-UngroupingRowsandColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -32,3 +32,4 @@ url: /ja/net/create-dynamic-rolling-chart/
 ```
 
 数式の中の数値「-5」を「-10」に変更してみると、動的チャートは最新の10つのデータセットをカウントします。これでAspose.Cellsを使用して動的なローリングチャートを作成しました。
+{{< app/cells/assistant language="csharp" >}}

@@ -31,3 +31,4 @@ Koden nedan utför det faktiska arbetet med att hitta och extrahera OLE-objekt s
 Den här artikeln visar hur man extraherar OLE-objekt från en arbetsbok med hjälp av Aspose.Cells. Förhoppningsvis kommer det att ge dig insikter som gör att du kan använda dessa alternativ i dina egna scenarier.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

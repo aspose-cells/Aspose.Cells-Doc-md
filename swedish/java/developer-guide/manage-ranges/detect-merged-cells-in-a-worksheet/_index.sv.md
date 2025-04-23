@@ -23,7 +23,7 @@ Detta exempel använder en mall för Microsoft Excel-filen kallad **MergeTrial**
 
 ![todo:image_alt_text](detect-merged-cells-in-a-worksheet_1.png)
 
-Aspose.Cells tillhandahåller [**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--)-metoden som används för att hämta alla sammanfogade celler.
+Aspose.Cells erbjuder metoden [**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--) som används för att hämta alla sammanslagna celler.
 
 När koden nedan körs rensar den innehållet i arket och delar upp alla cellområden innan filen sparas igen.
 
@@ -40,3 +40,4 @@ Se följande kodexempel för att se hur du identifierar sammanslagna cellområde
 ## **Relaterade artiklar**
 
 - [Sammanslagning och delning av celler](/cells/sv/java/sammanslagning-och-delsning-av-celler/).
+{{< app/cells/assistant language="java" >}}

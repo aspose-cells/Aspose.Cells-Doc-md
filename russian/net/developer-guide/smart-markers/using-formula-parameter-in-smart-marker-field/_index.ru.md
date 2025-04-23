@@ -12,3 +12,4 @@ url: /ru/net/using-formula-parameter-in-smart-marker-field/
 В следующем образце кода встраивается формула в умный маркер с именем TestFormula, и его исходные данные называются MyDataSource, поэтому поле с параметром формулы выглядит как &=MyDataSource.TestFormula(formula), и после выполнения кода [конечный файл Excel](46465047.xlsx) будет содержать формулы в ячейках с A1 по A5.
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-UsingFormulaParameterInSmartMarkerField.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

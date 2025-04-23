@@ -28,3 +28,4 @@ Aspose.Cells fornisce il metodo [**DataLabels.setShowCellRange()**](https://refe
 Il codice di esempio sottostante accede alle Etichette dati della Serie del grafico e imposta il metodo [**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) su true per selezionare l'opzione **L'etichetta contiene - Valore dalle celle**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ShowCellRangeAsTheDataLabels-ShowCellRangeAsTheDataLabels.java" >}}
+{{< app/cells/assistant language="java" >}}

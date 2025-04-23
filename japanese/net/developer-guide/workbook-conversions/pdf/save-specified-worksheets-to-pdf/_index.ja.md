@@ -28,8 +28,15 @@ url: /ja/net/save-specified-worksheets-to-pdf/
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-MultiSheetsToPdf.cs" >}}
 
+## **ワークシートを並べ替えてPDFに変換**
+
+ソースファイルを変更せずにシートの順序（逆順など）を並び替えてPDFにしたい場合、[**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/)オプションに並び替えたシートのインデックスを渡すことで実現できます。
+
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-ReorderSheetsToPdf.cs" >}}
+
 {{% alert color="primary" %}} 
 
 スプレッドシートに数式が含まれている場合、PDF形式に変換する直前に [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) を呼び出すことが最善です。これにより、数式に依存する値が再計算され、PDFで正しい値がレンダリングされます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

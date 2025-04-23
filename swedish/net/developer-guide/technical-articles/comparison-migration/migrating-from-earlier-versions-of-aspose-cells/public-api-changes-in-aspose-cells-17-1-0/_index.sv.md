@@ -198,3 +198,4 @@ Aspose.Cells 17.1.0 har även exponerat fältet Percentage till enumen DisplayUn
 ## **Borttagen API:er**
 ### **Instans Variabel m_LoadDataFilterOptions Borttagen**
 Denna version har tagit bort instansvariabeln m_LoadDataFilterOptions. Det rekommenderas att istället använda egenskapen LoadFilter.LoadDataFilterOptions.
+{{< app/cells/assistant language="csharp" >}}

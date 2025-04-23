@@ -28,3 +28,4 @@ Följande exempelkod illustrerar hur man anger anpassade avskiljare med Aspose.C
 ### C#-kod för att ange anpassade decimal- och grupptalsavskiljare
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-CustomDecimalAndGroupSeparator-CustomDecimalAndGroupSeparator.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

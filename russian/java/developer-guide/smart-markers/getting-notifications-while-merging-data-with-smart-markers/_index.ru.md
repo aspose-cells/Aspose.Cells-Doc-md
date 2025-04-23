@@ -11,7 +11,7 @@ API Aspose.Cells предоставляет класс WorkbookDesigner для �
 
 {{% /alert %}} 
 ## **Получение уведомлений во время объединения данных с умными маркерами**
-Следующий фрагмент кода демонстрирует использование интерфейса ISmartMarkerCallBack для определения нового класса, который обрабатывает обратный вызов для метода WorkbookDesigner.process.
+Следующий фрагмент кода демонстрирует использование интерфейса [ISmartMarkerCallBack](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack) для определения нового класса, который обрабатывает обратный вызов для метода [WorkbookDesigner.process](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process--)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SmartMarkerCallBack-SmartMarkerCallBack.java" >}}
 
@@ -21,3 +21,4 @@ API Aspose.Cells предоставляет класс WorkbookDesigner для �
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetNotificationsWhileMergingData-GetNotificationsWhileMergingData.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -11,11 +11,11 @@ url: /tr/java/using-custom-xml-parts-in-aspose-cells/
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_1.png)
 
-Aspose.Cells'i kullanarak özel XML parçaları ekleyebilirsiniz, [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)) yöntemi kullanılarak.
+Aspose.Cells kullanarak özel XML parçaları ekleyebilirsiniz; bunun için [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-) yöntemini kullanın.
 
 {{% /alert %}} 
 ## **Aspose.Cells'te Özel XML Parçalarını Kullanma**
-Aşağıdaki örnek kod, [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)) yöntemini kullanarak **Kitap Kataloğu XML**'yi ekler ve adı **Kitapçı**'dır. Bu kodun sonucunu gösteren aşağıdaki resmi inceleyebilirsiniz. Gördüğünüz gibi Kitap Kataloğu XML, bu özelliğin adı olan Kitapçı düğümü içine eklenmiştir.
+Aşağıdaki örnek kod, [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-) yöntemini kullanır ve **Book Catalog Xml** adlı yapıya ekler, adı ise **BookStore**. Bu kodun sonucunu gösteren aşağıdaki görsel, Book Catalog Xml'in bu özelliğin adı olan BookStore düğümünün içine eklendiğini gösterir.
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_2.png)
 
@@ -26,3 +26,4 @@ Aşağıdaki örnek kod, [Workbook.getContentTypeProperties().add()](https://ref
 - [Belge Bilgi Paneli içinde görülebilen Özel Özellikler eklemek](/cells/tr/java/adding-custom-properties-visible-inside-document-information-panel/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -156,3 +156,4 @@ Télécharger le code source pour **Créer des graphiques en utilisant Apache PO
 Pour plus de détails, visitez [Créer des graphiques personnalisés](/cells/fr/java/creating-and-customizing-charts/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

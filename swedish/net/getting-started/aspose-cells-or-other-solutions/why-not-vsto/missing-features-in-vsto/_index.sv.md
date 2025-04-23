@@ -35,3 +35,4 @@ Denna sektion har följande ämnen:
   - [Använda anonyma typer eller anpassade objekt](/cells/sv/net/using-anonymous-types-or-custom-objects/)
   - [Användning av inbäddade objekt](/cells/sv/net/using-nested-objects/)
 - [Sporrning av föregångare och beroende i Aspose.Cells](/cells/sv/net/tracing-precedents-and-dependents-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

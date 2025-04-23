@@ -40,3 +40,4 @@ url: /ar/net/open-text-files-as-workbooks/
 {{< /highlight >}}
 ##**تحميل**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/OpenTextFilesAsWorkbooks.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

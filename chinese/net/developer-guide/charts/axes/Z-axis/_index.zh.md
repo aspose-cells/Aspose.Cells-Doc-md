@@ -15,3 +15,4 @@ url: /zh/net/z-axis/
 ![todo:image_alt_text](excel.png)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ZAxis.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

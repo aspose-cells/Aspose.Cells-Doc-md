@@ -6,3 +6,4 @@ url: /ru/java/charts/
 ---
 
 
+{{< app/cells/assistant language="java" >}}

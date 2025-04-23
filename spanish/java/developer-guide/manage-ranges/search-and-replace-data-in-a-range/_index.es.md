@@ -13,7 +13,7 @@ A veces, necesita buscar y reemplazar datos específicos en un rango, ignorando 
 
 {{% /alert %}}
 
-Aspose.Cells proporciona el método [**FindOptions.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange(com.aspose.cells.CellArea)) para especificar un rango al buscar datos.
+Aspose.Cells proporciona el método [**FindOptions.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange-com.aspose.cells.CellArea-) para especificar un rango al buscar datos.
 
 Supongamos que desea buscar la cadena **"search"** y reemplazarla con **"replace"** en el rango **E3:H6**. En la captura de pantalla a continuación, se puede ver la cadena "search" en varias celdas, pero queremos reemplazarla solo en un rango dado, aquí resaltado en amarillo.
 
@@ -32,3 +32,4 @@ Archivo de salida
 ## Artículos relacionados
 
 - [Buscar o buscar datos](/cells/es/java/find-or-search-data/)
+{{< app/cells/assistant language="java" >}}

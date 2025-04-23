@@ -125,3 +125,4 @@ Laden Sie **Getting Cell Contents** von einer der unten genannten sozialen Codin
 Für weitere Details besuchen Sie [Datenverarbeitungsmerkmale](/cells/de/net/data-handling-features-in-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

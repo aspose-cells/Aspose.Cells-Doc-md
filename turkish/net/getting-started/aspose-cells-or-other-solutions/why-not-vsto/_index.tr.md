@@ -45,3 +45,4 @@ Aspose bileşenleri son derece ölçeklenebilir ve çığır açan kadar hızlı
 - [Çalışma Sayfasını İçe ve Dışa Aktarma](/cells/tr/net/import-and-export-worksheet/)
 - [Çalışma Kitabını Yazdırma ve Önizleme](/cells/tr/net/print-and-preview/)
 - Ve diğerleri.
+{{< app/cells/assistant language="csharp" >}}

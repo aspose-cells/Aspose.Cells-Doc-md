@@ -7,9 +7,9 @@ url: /ar/java/accessing-table-from-cell-and-adding-values-inside-it-using-row-an
 
 {{% alert color="primary" %}}
 
-عادةً ما تضيف القيم داخل الجدول أو كائن القائمة باستخدام الطريقة [**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean)). ولكن في بعض الأحيان، قد تحتاج إلى إضافة القيم داخل الجدول أو كائن القائمة باستخدام إزاحة الصف والعمود.
+عادةً ما تضيف القيم داخل الجدول أو كائن القائمة باستخدام الطريقة [**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue-boolean-). ولكن في بعض الأحيان، قد تحتاج إلى إضافة القيم داخل الجدول أو كائن القائمة باستخدام إزاحة الصف والعمود.
 
-من أجل الوصول إلى جدول أو كائن قائمة من الخلية، استخدم الطريقة [**Cell.getTable()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable--). ولإضافة القيم داخله باستخدام إزاحة الصف والعمود، استخدم الطريقة [**ListObject.putCellValue(rowOffset,columnOffset,value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object)).
+من أجل الوصول إلى جدول أو كائن قائمة من الخلية، استخدم الطريقة [**Cell.getTable()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable--). ولإضافة القيم داخله باستخدام إزاحة الصف والعمود، استخدم الطريقة [**ListObject.putCellValue(rowOffset,columnOffset,value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue-int-int-java.lang.Object-).
 
 {{% /alert %}}
 
@@ -17,7 +17,7 @@ url: /ar/java/accessing-table-from-cell-and-adding-values-inside-it-using-row-an
 
 ### لقطات شاشة تقارن الملفات المصدرية والإخراجية
 
-تُظهر اللقطة الشاشية التالية ملف Excel المصدر المستخدم داخل الكود. يحتوي على جدول فارغ ويبرز الخلية D5 التي تقع داخل الجدول. سنتمكن من الوصول إلى هذا الجدول من الخلية D5 باستخدام الطريقة [**Cell.getTable()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable--) ثم إضافة القيم داخله باستخدام كل من الطريقة [**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean)) و [**ListObject.putCellValue(rowOffset,columnOffset,value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object)).
+تُظهر اللقطة الشاشية التالية ملف Excel المصدر المستخدم داخل الكود. يحتوي على جدول فارغ ويبرز الخلية D5 التي تقع داخل الجدول. سنتمكن من الوصول إلى هذا الجدول من الخلية D5 باستخدام الطريقة [**Cell.getTable()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable--) ثم إضافة القيم داخله باستخدام كل من الطريقة [**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue-boolean-) و [**ListObject.putCellValue(rowOffset,columnOffset,value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue-int-int-java.lang.Object-).
 
 ![todo:image_alt_text](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_1.png)
 
@@ -30,3 +30,4 @@ url: /ar/java/accessing-table-from-cell-and-adding-values-inside-it-using-row-an
 يقوم الكود النموذجي التالي باستخدام ملف Excel المصدر كما هو موضح في اللقطة الشاشية أعلاه ويضيف القيم داخل الجدول ويولد ملف Excel الناتج كما هو موضح أعلاه.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AccessingTablefromCell-AccessingTablefromCell.java" >}}
+{{< app/cells/assistant language="java" >}}

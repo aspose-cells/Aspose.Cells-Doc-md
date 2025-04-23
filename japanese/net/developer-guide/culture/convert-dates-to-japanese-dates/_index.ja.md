@@ -20,3 +20,4 @@ Aspose.CellsはGregorian暦の日付を日本の日付に変換する方法を�
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertDatesToJapaneseDates-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -65,3 +65,4 @@ Laden Sie **Jedes Arbeitsblatt als verschiedene PDF-Datei speichern** von einer 
 Für weitere Details besuchen Sie [Jedes Arbeitsblatt als verschiedene PDF-Datei speichern](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -145,3 +145,4 @@ Le code d'exemple ci-dessous démontre l'utilisation des classes [**JsonUtility*
 ## **Sujets avancés**
 - [Spécifier les champs de formule lors de l'importation de données dans la feuille de calcul](/cells/fr/net/specify-formula-fields-while-importing-data-to-worksheet/)
 - [Décaler la première ligne vers le bas lors de l'insertion de lignes de tableau de données de cellules](/cells/fr/net/shift-first-row-down-when-inserting-cells-data-table-rows/)
+{{< app/cells/assistant language="csharp" >}}

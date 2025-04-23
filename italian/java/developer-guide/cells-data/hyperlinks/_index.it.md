@@ -25,7 +25,7 @@ Aspose.Cells consente ai programmatori di aggiungere collegamenti ipertestuali a
 
 Aspose.Cells fornisce una classe, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) che rappresenta un file Microsoft Excel. La classe [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) contiene una [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) che consente di accedere a ciascun foglio di lavoro nel file di Excel. Un foglio di lavoro è rappresentato dalla classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). La classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) fornisce diversi metodi per aggiungere diversi collegamenti ipertestuali ai file di Excel.
 ## **Aggiunta di un link a un URL**
-La classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) contiene una collezione [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection). Ciascun elemento della collezione [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) rappresenta un [Hyperlink](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink). Aggiungere collegamenti ipertestuali a URL chiamando il metodo [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))della collezione [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Hyperlinks). Il metodo [Add ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\)) prende i seguenti parametri:
+La classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) contiene una collezione di [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection). Ogni elemento nella collezione [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) rappresenta un [Hyperlink](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink). Aggiungi hyperlink a URL chiamando il metodo [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) della collezione [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection). Il metodo [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) richiede i seguenti parametri:
 
 - Nome della cella, il nome della cella a cui verrà aggiunto il collegamento ipertestuale.
 - Numero di righe, il numero di righe in questo intervallo di collegamenti ipertestuali.
@@ -44,7 +44,7 @@ Nell'esempio sopra, viene aggiunto un collegamento ipertestuale a un URL in una 
 
 
 ## **Aggiunta di un link a una cella nello stesso file**
-È possibile aggiungere collegamenti ipertestuali alle celle nello stesso file Excel chiamando il [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) collezione's [Aggiungi ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))metodo. Il [Aggiungi ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))metodo funziona sia per collegamenti interni che esterni. Una versione del metodo sovraccaricato richiede i seguenti parametri:
+È possibile aggiungere hyperlink alle celle nello stesso file Excel chiamando il metodo [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) della collezione [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection). Il metodo [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) funziona sia per hyperlink interni che esterni. Una versione del metodo sovraccarico accetta i seguenti parametri:
 
 - Nome della cella, il nome della cella a cui verrà aggiunto il collegamento ipertestuale.
 - Numero di righe, il numero di righe in questo intervallo di collegamenti ipertestuali.
@@ -58,7 +58,7 @@ Nell'esempio sopra, viene aggiunto un collegamento ipertestuale a un URL in una 
 
 
 ## **Aggiunta di un link a un file esterno**
-È possibile aggiungere collegamenti ipertestuali a file Excel esterni chiamando il [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) collezione's [Aggiungi ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))metodo. Il [Aggiungi ](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))metodo richiede i seguenti parametri:
+È possibile aggiungere hyperlink a file Excel esterni chiamando il metodo [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) della collezione [Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection). Il metodo [Add](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add-int-int-int-int-java.lang.String-) richiede i seguenti parametri:
 
 - Nome della cella, il nome della cella a cui verrà aggiunto il collegamento ipertestuale.
 - Numero di righe, il numero di righe in questo intervallo di collegamenti ipertestuali.
@@ -76,3 +76,4 @@ Nell'esempio sopra, viene aggiunto un collegamento ipertestuale a un URL in una 
 - [Ottieni i collegamenti ipertestuali nell'intervallo](/cells/it/java/get-hyperlinks-in-range/)
 
 
+{{< app/cells/assistant language="java" >}}

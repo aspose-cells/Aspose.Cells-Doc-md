@@ -31,3 +31,4 @@ Le firme dei suddetti metodi sono le seguenti:
 Si prega di controllare l'articolo dettagliato su [Adatta Automaticamente Righe e Colonne](http://aspose.com/docs/display/cellsnet/AutoFit+Rows+and+Columns).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

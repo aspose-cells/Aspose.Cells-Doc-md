@@ -15,3 +15,4 @@ Hay dos consejos que deben seguir los usuarios no ingleses al crear fórmulas co
 
 1. Las fórmulas deben escribirse en inglés. Por ejemplo, utilizar el "=SUM()" en inglés, no el "=SUMME()" en alemán.
 2. Siempre usar una coma (,) para delimitar los parámetros de la función. Para algunas opciones de lenguaje o configuraciones, el delimitador para los parámetros de la función es un punto y coma, pero Aspose.Cells utiliza la coma en estilo inglés. Por ejemplo, utilizar "=IF (C5=0,0,C3/C4)" no "=IF(C5=0;0;C3/C4)".
+{{< app/cells/assistant language="csharp" >}}

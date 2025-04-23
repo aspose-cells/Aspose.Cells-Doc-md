@@ -180,3 +180,4 @@ Console.WriteLine("A2 has a quote prefix: " + s2.QuotePrefix);
 ## **API deprecate**
 ### **Proprietà Obsoleta LoadOptions.ConvertNumericData**
 Aspose.Cells 8.8.0 ha contrassegnato la proprietà LoadOptions.ConvertNumericData come obsoleta. Si prega di utilizzare la corrispondente proprietà delle classi HTMLLoadOptions o TxtLoadOptions.
+{{< app/cells/assistant language="csharp" >}}

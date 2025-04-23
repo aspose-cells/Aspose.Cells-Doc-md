@@ -158,3 +158,4 @@ workbook.Save(output);
 リリース Aspose.Cells for .NET 8.4.2 以降、列挙型の PasteType.All は、Excel の「すべて」機能とは異なる動作となりました。現在、PasteType.All は列の幅も宛先範囲にコピーするようになりました。Excel の「すべて」機能と同じ動作を再現するには、 PasteType.Default を使用してください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

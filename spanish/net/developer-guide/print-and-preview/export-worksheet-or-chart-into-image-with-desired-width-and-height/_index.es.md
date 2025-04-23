@@ -14,3 +14,4 @@ Puede utilizar Aspose.Cells para exportar su hoja de cálculo o gráfico a una i
 El siguiente código exporta la hoja de cálculo a una imagen con tamaño de 400x400.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-WorksheetToImageDesiredSize-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

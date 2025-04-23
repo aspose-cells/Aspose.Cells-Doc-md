@@ -16,3 +16,4 @@ url: /ar/net/disable-exporting-frame-scripts-and-document-properties/
 الشيفرة النموذجية التالية تتيح لك تعطيل تصدير الإطارات النصية وخصائص المستند. بمجرد تحويل دفتر العمل إلى HTML، لن يحتوي الملف الناتج على أي إطارات نصية أو خصائص مستند.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-HtmlExportFrameScripts-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

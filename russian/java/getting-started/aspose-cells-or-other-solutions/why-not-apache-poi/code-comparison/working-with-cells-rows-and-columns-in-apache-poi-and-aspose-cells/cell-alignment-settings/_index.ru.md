@@ -137,3 +137,4 @@ private static void createCell(HSSFWorkbook wb, HSSFRow row, int column, int ali
 Для получения дополнительной информации посетите [Настройка параметров выравнивания](/cells/ru/java/data-formatting/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

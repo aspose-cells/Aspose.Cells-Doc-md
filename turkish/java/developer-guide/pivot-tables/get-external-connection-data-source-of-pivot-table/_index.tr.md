@@ -16,3 +16,4 @@ Aspose.Cells, döndürme tablosunun harici bağlantı veri kaynağını almak i�
 Kod örneğinde kullanılan kaynak dosya, referans için ekte bulunmaktadır.
 
 [Kaynak Dosyası](SamplePivotTableExternalConnection.xlsx)
+{{< app/cells/assistant language="java" >}}

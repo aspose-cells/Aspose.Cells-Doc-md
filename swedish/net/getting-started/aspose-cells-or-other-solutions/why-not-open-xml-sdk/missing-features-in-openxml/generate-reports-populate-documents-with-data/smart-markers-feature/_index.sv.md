@@ -40,3 +40,4 @@ Denna avsnitt inkluderar följande ämnen
 - [Bildmarkörer i Aspose.Cells](/cells/sv/net/image-markers-in-aspose-cells/)
 - [Användning av anonyma typer eller anpassade objekt i Aspose.Cells](/cells/sv/net/using-anonymous-types-or-custom-objects-in-aspose-cells/)
 - [Användning av inbäddade objekt i Aspose.Cells](/cells/sv/net/using-nested-objects-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

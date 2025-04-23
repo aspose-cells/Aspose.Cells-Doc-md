@@ -20,3 +20,4 @@ Potresti trovare utili i seguenti articoli relativi alla conversione da Excel a 
 - [Disabilita i Commenti Rivelati di Basso Livello durante il Salvataggio in HTML](/cells/it/java/disable-downlevel-revealed-comments-while-saving-to-html/)
 - [Esportare le Proprietà del Documento Workbook e del Foglio di Lavoro nella conversione da Excel a HTML](/cells/it/java/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/)
 - [Esportare l'intervallo dell'area di stampa in HTML](/cells/it/java/export-print-area-range-to-html/)
+{{< app/cells/assistant language="java" >}}

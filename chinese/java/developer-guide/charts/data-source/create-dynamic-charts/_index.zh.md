@@ -50,3 +50,4 @@ ListObjects 提供了内置功能，可以根据用户交互对数据进行排�
 1. 将结果保存在磁盘上。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UsingDynamicFormulas-UsingDynamicFormulas.java" >}}
+{{< app/cells/assistant language="java" >}}

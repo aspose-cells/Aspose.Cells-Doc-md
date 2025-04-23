@@ -203,3 +203,4 @@ sw.Close();
 更多详细信息，请访问 [添加超链接以链接数据](/cells/zh/net/adding-hyperlinks-to-link-data-in-aspose-cells/)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

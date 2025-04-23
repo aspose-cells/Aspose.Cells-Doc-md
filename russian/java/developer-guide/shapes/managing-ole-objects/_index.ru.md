@@ -55,3 +55,4 @@ Aspose.Cells поддерживает извлечение объектов не
 - [Автоматическое обновление объекта OLE через Microsoft Excel с помощью Aspose.Cells](/cells/ru/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)
 - [Извлечение объектов OLE из книги](/cells/ru/java/extract-ole-objects-from-workbook/)
 - [Получение или установка идентификатора класса встроенного объекта OLE](/cells/ru/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
+{{< app/cells/assistant language="java" >}}

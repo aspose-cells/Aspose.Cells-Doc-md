@@ -46,7 +46,7 @@ La forma della linea appartiene alla categoria **linee**.
 
 {{% alert color="primary" %}}
 
-[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)
 
 Il metodo restituisce un oggetto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
@@ -80,7 +80,7 @@ La forma della freccia di linea appartiene alla categoria **Linee**. È un caso 
 
 {{% alert color="primary" %}}
 
-[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)
 
 Il metodo restituisce un oggetto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
@@ -114,7 +114,7 @@ La forma del rettangolo appartiene alla categoria **Rettangoli**.
 
 {{% alert color="primary" %}}
 
-[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)
 
 Il metodo restituisce un oggetto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
@@ -148,7 +148,7 @@ La forma del cubo appartiene alla categoria **Forme di base**.
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Il metodo restituisce un oggetto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
@@ -182,7 +182,7 @@ Puoi utilizzare il seguente metodo per inserire una freccia quadrupla di chiamat
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Il metodo restituisce un oggetto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
@@ -216,7 +216,7 @@ Puoi utilizzare il seguente metodo per inserire un segno di moltiplicazione nel 
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Il metodo restituisce un oggetto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
@@ -250,7 +250,7 @@ Puoi utilizzare il seguente metodo per inserire un multidocumento nel foglio di 
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Il metodo restituisce un oggetto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
@@ -284,7 +284,7 @@ La forma della stella a cinque punte appartiene alla categoria **Stelle e Bandie
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Il metodo restituisce un oggetto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
@@ -318,7 +318,7 @@ La forma della nuvola a forma di fumetto appartiene alla categoria **Callout**.
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 Il metodo restituisce un oggetto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
@@ -331,3 +331,4 @@ L'esempio seguente mostra come inserire una nuvola di pensiero in un foglio di l
 Eseguendo il codice precedente, otterrai i seguenti risultati:
 
 ![](thought_bubble_cloud2.png)
+{{< app/cells/assistant language="java" >}}

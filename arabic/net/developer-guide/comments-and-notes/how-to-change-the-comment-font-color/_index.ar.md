@@ -16,3 +16,4 @@ url: /ar/net/how-to-change-the-comment-font-color/
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeCommentFontColor-1.cs" >}}
 
 الملف الناتج (102662195.xlsx) الذي تم إنشاؤه بواسطة الكود أعلاه مرفق للرجوع إليه.
+{{< app/cells/assistant language="csharp" >}}

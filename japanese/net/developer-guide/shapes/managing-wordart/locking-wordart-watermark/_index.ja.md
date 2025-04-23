@@ -14,3 +14,4 @@ Aspose.CellsのAPIを使用すると、WordArtウォーターマークをワー�
 Aspose.CellsのAPIを使用すると、ウォーターマークの特定の側面をロックしてユーザーの操作を制限または完全にブロックすることができます。以下のコードスニペットは、Aspose.Cells for .NET APIの使用例を示し、ウォーターマークの選択、移動、編集、サイズ変更をロックするスプレッドシートをゼロから作成します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-LockingWordartWatermark-LockingWordartWatermark.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

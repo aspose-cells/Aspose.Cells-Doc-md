@@ -4,8 +4,8 @@ linktitle: Congelar paneles
 type: docs
 weight: 190
 url: /es/python-net/how-to-freeze-panes-of-excel-worksheet
-description: En este artículo, aprenderá cómo congelar paneles de hojas de Excel de forma programática utilizando las APIs de Aspose.Cells for Python via .NET.
-keywords: Biblioteca de Python Excel, congelar paneles de Python, congelar ventana en Python.
+description: En este artículo, aprenderás cómo bloquear paneles de hojas de Excel de forma programada usando las API de Aspose.Cells para Python via .NET.
+keywords: Biblioteca de Excel para Python, Python congela paneles, Bloquear ventana en Python.
 ---
 
 ## **Introducción**
@@ -31,8 +31,8 @@ Los paneles congelados te permiten ver tus datos extensos sin necesidad de estar
 
 
 
-## **Cómo congelar paneles con la Biblioteca de Python Excel de Aspose.Cells**
-Es sencillo congelar paneles con Aspose.Cells for Python via .NET. Por favor, utilice el método [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) para congelar los paneles en la celda seleccionada.
+## **Cómo congelar paneles con la Biblioteca de Excel de Aspose.Cells para Python**
+Es simple congelar paneles con Aspose.Cells para Python via .NET. Por favor, usa el método [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) para bloquear paneles en la celda seleccionada.
 1. Construir un libro de trabajo para abrir el archivo o crear un archivo vacío.
 2. Congela paneles con el método Worksheet.FreezePanes().
 3. Guarda el archivo.

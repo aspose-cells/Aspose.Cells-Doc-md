@@ -25,3 +25,4 @@ Der folgende Beispielcode veranschaulicht, wie die Methode [**Workbook.VbaProjec
 - [Ausgabe-Excel-Datei](5115029.xlsm), die vom Beispielcode generiert wurde.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-DigitallySignVbaProjectWithCertificate-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

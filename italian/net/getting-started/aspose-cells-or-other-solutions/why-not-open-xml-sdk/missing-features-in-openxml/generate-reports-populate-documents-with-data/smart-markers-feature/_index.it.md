@@ -40,3 +40,4 @@ Questa sezione include i seguenti argomenti
 - [Marcatori immagine in Aspose.Cells](/cells/it/net/image-markers-in-aspose-cells/)
 - [Utilizzo di tipi anonimi o oggetti personalizzati in Aspose.Cells](/cells/it/net/using-anonymous-types-or-custom-objects-in-aspose-cells/)
 - [Utilizzo di oggetti nidificati in Aspose.Cells](/cells/it/net/using-nested-objects-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

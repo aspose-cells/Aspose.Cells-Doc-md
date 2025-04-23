@@ -21,3 +21,4 @@ Si prega di consultare il codice di esempio seguente. Carica il [file di Excel d
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Timelines-CreateTimelineToPivotTable.java" >}}
 
+{{< app/cells/assistant language="java" >}}

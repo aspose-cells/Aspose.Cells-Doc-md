@@ -18,3 +18,4 @@ url: /ru/net/working-with-worksheets-in-npoi-and-aspose-cells/
 - [Разделить ячейки на листе](/cells/ru/net/split-cells-in-worksheet/)
 - [Работа с замороженными панелями](/cells/ru/net/working-with-freeze-panes/)
 - [Работа с верхними и нижними колонтитулами](/cells/ru/net/working-with-headers-and-footers/)
+{{< app/cells/assistant language="csharp" >}}

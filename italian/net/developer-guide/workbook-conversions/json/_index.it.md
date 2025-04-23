@@ -24,3 +24,4 @@ Nell'esempio di codice seguente viene mostrato come esportare il foglio di lavor
 - [Converti-Excel-in-JSON](/cells/it/net/convert-excel-to-json/)
 - [Convertire JSON in CSV](/cells/it/net/convert-json-to-csv/)
 - [Converti-JSON-in-Excel](/cells/it/net/convert-json-to-excel/)
+{{< app/cells/assistant language="csharp" >}}

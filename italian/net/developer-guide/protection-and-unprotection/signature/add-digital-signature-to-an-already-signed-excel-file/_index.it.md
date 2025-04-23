@@ -26,3 +26,4 @@ Il seguente codice di esempio ha dimostrato come utilizzare il metodo [**Workboo
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AddDigitalSignatureToAnAlreadySignedExcelFile.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

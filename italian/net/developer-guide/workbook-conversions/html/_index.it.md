@@ -52,3 +52,5 @@ L'esempio di codice seguente mostra come salvare un workbook come file MHTML uti
 - [Imposta il carattere predefinito durante la rendering del foglio di calcolo in HTML](/cells/it/net/set-default-font-while-rendering-spreadsheet-to/)
 - [Specifica come attraversare la stringa nell'output HTML utilizzando HtmlCrossType](/cells/it/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
 - [Supporta il layout dei tag DIV durante il caricamento di HTML nell'oggetto foglio di calcolo Excel](/cells/it/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
+{{< app/cells/assistant language="csharp" >}}
+- [Abilita le Proprietà CSS Personalizzate durante il salvataggio in HTML](/cells/it/net/enable-css-custom-properties-while-saving-to-html/)

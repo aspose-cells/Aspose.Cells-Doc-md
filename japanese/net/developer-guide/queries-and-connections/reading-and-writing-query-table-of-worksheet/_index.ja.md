@@ -44,3 +44,4 @@ Preserve Formatting: False
 Aspose.Cellsには、クエリテーブルの結果範囲のアドレスを読み取るオプションがあります。次のコードは、クエリテーブルの結果範囲のアドレスを読み取る機能を示しています。サンプルファイルは[こちら](72417290.xlsx)からダウンロードできます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAddressOfResultRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

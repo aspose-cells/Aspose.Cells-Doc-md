@@ -18,3 +18,4 @@ Il seguente codice di esempio spiega l'uso della proprietà [**LoadOptions.Parsi
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "PivotTables-ParsingPivotCachedRecordsWhileLoadingExcelFile.java" >}}
+{{< app/cells/assistant language="java" >}}

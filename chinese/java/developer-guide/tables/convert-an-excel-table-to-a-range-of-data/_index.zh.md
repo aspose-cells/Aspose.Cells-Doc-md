@@ -42,3 +42,4 @@ Aspose.Cells在通过[**TableToRangeOptions**](https://reference.aspose.com/cell
 以下给出的示例代码演示了[**TableToRangeOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/TableToRangeOptions)类的使用。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Tables-ConvertTableToRangeWithOptions-1.java" >}}
+{{< app/cells/assistant language="java" >}}

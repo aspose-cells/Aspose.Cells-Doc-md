@@ -34,3 +34,4 @@ url: /zh/net/optimizing-memory-usage-while-working-with-big-files-having-large-d
 1. **随机和重复访问单元格**：访问单元格集合最有效的顺序是一行一行地逐个访问单元格，尤其是如果通过[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)、[**RowCollection**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection)和[**Row**](https://reference.aspose.com/cells/net/aspose.cells/row)获得的枚举器来访问行/单元格，则使用[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)将最大化性能。
 1. **插入和删除单元格和行**：请注意，如果大量进行单元格/行的插入/删除操作，与*Normal*模式相比，*MemoryPreference*模式的性能将明显下降。
 1. **操作不同的单元格类型**：如果大部分单元格包含字符串值或公式，那么内存成本将与*Normal*模式相同；但如果有大量的空单元格，或单元格值为数字、布尔值等，[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)选项将提供更好的性能。
+{{< app/cells/assistant language="csharp" >}}

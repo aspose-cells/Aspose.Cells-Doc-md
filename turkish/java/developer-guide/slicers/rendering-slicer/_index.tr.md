@@ -12,3 +12,4 @@ Aşağıdaki örnek kod, mevcut bir dilimleyici içeren örnek Excel dosyasını
 
 ![todo:image_alt_text](rendering-slicer_1)
 ## **Örnek Kod**
+{{< app/cells/assistant language="java" >}}

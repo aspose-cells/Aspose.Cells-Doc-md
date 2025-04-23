@@ -35,3 +35,4 @@ Questa sezione ha i seguenti argomenti:
   - [Utilizzo di Tipi Anonimi o Oggetti Personalizzati](/cells/it/net/using-anonymous-types-or-custom-objects/)
   - [Utilizzo di Oggetti Annidati](/cells/it/net/using-nested-objects/)
 - [Tracciamento dei precedenti e dei dipendenti in Aspose.Cells](/cells/it/net/tracing-precedents-and-dependents-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

@@ -133,3 +133,4 @@ Artık Kullanıcılar, Çalışsayfa tarafından sunulan ShowFormulas özelliği
 Aspose.Cells for Java ile getFilterColumnCollection yöntemi eskimiş olarak işaretlendi. Bunun yerine AutFilter.getFilterColumns yönteminin kullanılması önerilir.
 ## **SeriesCollection.SecondCatergoryData, SeriesCollection.SecondCategoryData ile Değiştirildi**
 Ser SeriesCollection.getSecondCatergoryData yönteminde yazım hatasını düzeltildi. Bundan sonra SeriesCollection.getSecondCategoryData yöntemini kullanabilirsiniz, orijinal method artık eskimiş olarak işaretlendi.
+{{< app/cells/assistant language="java" >}}

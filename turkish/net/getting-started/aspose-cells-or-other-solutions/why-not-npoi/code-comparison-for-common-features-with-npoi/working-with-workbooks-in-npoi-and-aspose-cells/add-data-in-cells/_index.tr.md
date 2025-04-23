@@ -91,3 +91,4 @@ Aşağıda belirtilen herhangi bir sosyal kodlama sitesinden **Hücrelere Veri E
 Daha fazla ayrıntı için [Hücrelere Veri Ekleme](/cells/tr/net/add-data-in-cells/)ne bakın.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

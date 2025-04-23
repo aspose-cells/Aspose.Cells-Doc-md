@@ -23,10 +23,11 @@ Aşağıdaki örnek kod bir çalışma kitabı oluşturur ve ardından sırasıy
 
 {{< /highlight >}}
 
-Ardından veri kaynağını veri ile doldurur ve [WorkbookDesigner.Process()](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process\(\)) yöntemini çağırarak akıllı işaretçi etiketlerini işlemek için kullanır. Kod, bu görüntüleri kullanır: [moon.png](5472549.png) ve [moon2.png](5472548.png) ancak istediğiniz herhangi bir görüntüyü kullanabilirsiniz. Aşağıdaki ekran görüntüsü, bu örnek kodun çıktısını gösterir. Görebileceğiniz gibi, sütun E ve F'deki veriler sütun D'deki verilere göre gruplandırılmıştır.
+Daha sonra veri kaynağı veri ile doldurulur ve akıllı işaretçi etiketlerini işlemek için [WorkbookDesigner.Process()](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process--) yöntemi çağrılır. Kod, bu resimleri kullanır; örneğin [moon.png](5472549.png) ve [moon2.png](5472548.png), ancak herhangi bir resim kullanabilirsiniz. Aşağıdaki ekran görüntüsü bu örnek kodun çıktısını göstermektedir. Görüldüğü gibi, E ve F sütunlarındaki veriler, D sütunundaki verilere göre gruplanmıştır.
 
 ![todo:image_alt_text](using-image-markers-while-grouping-data-in-smart-markers_1.png)
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Technical-Articles-SmartMarkerGroupingImage.java" >}}
+{{< app/cells/assistant language="java" >}}

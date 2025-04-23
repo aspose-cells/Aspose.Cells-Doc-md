@@ -15,3 +15,4 @@ Il y a deux conseils que les utilisateurs non anglophones doivent suivre lors de
 
 1. Les formules doivent être saisies en anglais. Par exemple, utilisez l'anglais "=SUM()" et pas l'allemand "=SUMME()".
 1. Toujours utiliser une virgule (,) pour délimiter les paramètres de fonction. Pour certaines options linguistiques ou paramètres, le délimiteur pour les paramètres de fonction est un point-virgule mais Aspose.Cells utilise le style anglais avec une virgule. Par exemple, utiliser "=SI (C5=0,0,C3/C4)" et non pas "=SI(C5=0;0;C3/C4)"
+{{< app/cells/assistant language="csharp" >}}

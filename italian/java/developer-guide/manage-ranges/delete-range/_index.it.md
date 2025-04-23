@@ -13,7 +13,7 @@ In Excel, puoi selezionare un intervallo, quindi eliminarlo e spostare altri dat
 
 ## **Elimina Intervalli Utilizzando Aspose.Cells**
 
-Aspose.Cells fornisce il metodo [Cells.DeleteRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRange(int,%20int,%20int,%20int,%20int)) per eliminare un intervallo.
+Aspose.Cells offre il metodo [Cells.DeleteRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRange-int-int-int-int-int-) per eliminare un intervallo.
 
 ## **Elimina Intervalli E Sposta Celle a Sinistra**
 
@@ -27,3 +27,4 @@ Elimina un intervallo e sposta le celle in alto come nei seguenti codici con Asp
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Delete-Range-Up.java" >}}
 
+{{< app/cells/assistant language="java" >}}

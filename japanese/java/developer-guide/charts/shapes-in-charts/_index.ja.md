@@ -16,7 +16,7 @@ url: /ja/java/controls-in-charts/
 
 ラベルは、スプレッドシートのコンテンツに関する情報をユーザーに提供する手段を提供します。Aspose.Cellsを使用して、チャートにラベルを追加および操作できます。
 
-クラス [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) は、ラベルコントロールをチャートに追加するための [**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart(int,%20int,%20int,%20int)) メソッドを提供します。以下は、メソッドに使用されるパラメータのリストです:
+クラス [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) は、ラベルコントロールをチャートに追加するための [**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart-int-int-int-int-) メソッドを提供します。以下は、メソッドに使用されるパラメータのリストです:
 
 - **top** - ラベルの上部左隅からの垂直オフセット、チャートエリアの1/4000単位。
 - **left** - ラベルの上部左隅からの水平オフセット、チャートエリアの1/4000単位。
@@ -46,7 +46,7 @@ url: /ja/java/controls-in-charts/
 
 ## **チャートにテキストボックスコントロールを追加**
 
-レポートで重要な情報を強調表示する一つの方法は、テキストボックスを使用することです。たとえば、企業名を表示したり、最高の売上地域を示したりするためにテキストを入力します。 [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) クラス には [**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart(int,%20int,%20int,%20int)) という名前のメソッドがあり、これを使用してチャートにテキストボックスコントロールを追加します。以下は、このメソッドに使用されるパラメータのリストです：
+レポートで重要な情報を強調表示する一つの方法は、テキストボックスを使用することです。たとえば、企業名を表示したり、最高の売上地域を示したりするためにテキストを入力します。 [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) クラス には [**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart-int-int-int-int-) という名前のメソッドがあり、これを使用してチャートにテキストボックスコントロールを追加します。以下は、このメソッドに使用されるパラメータのリストです：
 
 - **top** - テキストボックスの上部左隅からの垂直オフセット、チャートエリアの1/4000単位。
 - **left** – チャートエリアの左上隅からのテキストボックスの垂直オフセット（1/4000ユニット）。
@@ -69,7 +69,7 @@ url: /ja/java/controls-in-charts/
 
 Aspose.Cellsを使用すると、チャートに画像を挿入することができます。たとえば、チャートやその内容を強調したり、意味を追加するために画像を追加したり、ブランドのイメージファイルを挿入することができます。
 
-[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) クラスは、画像オブジェクトをチャートに追加するために使用される[**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart(int,%20int,%20java.io.InputStream,%20int,%20int))メソッドを提供します。以下は、メソッドに使用されるパラメータのリストです。
+[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) クラスは、画像オブジェクトをチャートに追加するために使用される[**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart-int-int-java.io.InputStream-int-int-)メソッドを提供します。以下は、メソッドに使用されるパラメータのリストです。
 
 - **top** – 画像の上部左隅からの垂直オフセット、チャートエリアの1/4000単位で指定します。
 - **left** – 画像の上部左隅からの水平オフセット、チャートエリアの1/4000単位で指定します。
@@ -100,3 +100,4 @@ Aspose.Cellsを使用して、チャートシートにチェックボックス�
 以下のコードスニペットによって生成された[出力ファイル](InsertCheckboxInChartSheet_out.xlsx)を参照のために添付します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-InsertCheckboxInChartSheet-1.java" >}}
+{{< app/cells/assistant language="java" >}}

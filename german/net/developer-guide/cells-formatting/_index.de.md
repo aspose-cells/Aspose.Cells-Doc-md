@@ -111,3 +111,4 @@ Die [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/pr
 - [Nummern-Einstellungen](/cells/de/net/cells-number-settings/)
 - [Stil für Zellen abrufen und festlegen](/cells/de/net/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/)
 
+{{< app/cells/assistant language="csharp" >}}

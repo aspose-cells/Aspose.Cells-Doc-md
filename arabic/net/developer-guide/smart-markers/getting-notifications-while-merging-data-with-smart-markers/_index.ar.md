@@ -24,3 +24,4 @@ url: /ar/net/getting-notifications-while-merging-data-with-smart-markers/
 |![todo:image_alt_text](getting-notifications-while-merging-data-with-smart-markers_1.png)|
 | :- |
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-GetSmartMarkerNotifications-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

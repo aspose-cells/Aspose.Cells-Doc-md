@@ -72,3 +72,4 @@ Aspose.Cells, bir elektronik tablo belgesinde bir hücreyi biçimlendirmek için
 ## Dahili stilleri kullanmak için C# kodu
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingBuiltinStyles-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

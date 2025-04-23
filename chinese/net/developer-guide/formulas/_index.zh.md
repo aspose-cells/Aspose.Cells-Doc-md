@@ -11,7 +11,7 @@ keywords: 如何在C#中计算公式，使用C#管理内置函数，如何在C#�
 
 ## **介绍**
 
-Microsoft Excel的一个引人注目的功能之一是其处理具有公式和函数的数据的能力。Microsoft Excel提供了一组内置函数和公式，帮助用户快速执行复杂的计算。Aspose.Cells还提供了大量内置函数和公式，帮助开发人员轻松计算值。Aspose.Cells还支持插件函数。此外，Aspose.Cells支持在Aspose.Cells中的数组和R1C1公式。
+Microsoft Excel的一个引人注目的功能是其使用公式和函数处理数据的能力。Microsoft Excel提供了一组内置函数和公式，帮助用户快速执行复杂计算。Aspose.Cells还提供了大量内置函数和公式，帮助开发者轻松计算值。Aspose.Cells还支持插件函数。此外，Aspose.Cells支持数组和R1C1公式。
 
 ## **如何使用公式和函数**
 
@@ -88,3 +88,4 @@ Aspose.Cells提供功能来使用[**Worksheets.RegisterAddInFunction()**](https:
 - [指定共享公式的最大行数](/cells/zh/net/specify-maximum-rows-of-shared-formula/)
 - [支持的Excel函数](/cells/zh/net/supported-formula-functions/)
 
+{{< app/cells/assistant language="csharp" >}}

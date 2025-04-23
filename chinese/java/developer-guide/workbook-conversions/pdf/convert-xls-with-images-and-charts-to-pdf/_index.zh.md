@@ -27,3 +27,4 @@ Aspose.Cells支持将包含图像和图表的XLS文件转换为PDF文档。 Aspo
 
 - [将 Excel 文件转换为兼容 PDFA-1a 格式的 PDF](/cells/zh/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [图表渲染](/cells/zh/java/chart-rendering/)
+{{< app/cells/assistant language="java" >}}

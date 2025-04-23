@@ -33,3 +33,4 @@ El siguiente fragmento de código demuestra cómo establecer títulos en gráfic
 
 ## **Temas avanzados**
 - [Leer subtítulo del gráfico desde un archivo ODS](/cells/es/net/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="csharp" >}}

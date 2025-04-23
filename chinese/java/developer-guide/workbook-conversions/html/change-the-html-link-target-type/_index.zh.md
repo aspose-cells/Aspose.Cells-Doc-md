@@ -27,3 +27,4 @@ Aspose.Cells 允许您更改 HTML 链接的目标类型。HTML 链接如下所�
 以下代码说明了 [HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType) 属性的用法。它将链接的目标类型更改为 **blank**。默认情况下为 **parent**。您可以从此链接获取[源 Excel 文件](5472932.xlsx)，但您可以使用包含 HTML 超链接的任何 Excel 文件来运行此代码。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeHTMLLinkTargetType-ChangeHTMLLinkTargetType.java" >}}
+{{< app/cells/assistant language="java" >}}

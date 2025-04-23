@@ -19,3 +19,4 @@ Följande exempel visar hur du klipper och klistrar celler inom en arbetsbok.
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-CutAndPasteCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

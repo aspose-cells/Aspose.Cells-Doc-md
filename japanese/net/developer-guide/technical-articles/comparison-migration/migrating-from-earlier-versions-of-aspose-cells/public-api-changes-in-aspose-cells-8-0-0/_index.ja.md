@@ -135,3 +135,4 @@ FileFormatTypeクラスに、XLSX、DOCX、PPTXなどのOffice Open XMLファイ
 Aspose.Cells for Javaで、FilterColumnCollectionプロパティが廃止されました。AuotFilter.FilterColumnsプロパティを使用することが推奨されています。
 ## **SeriesCollection.SecondCatergoryDataをSeriesCollection.SecondCategoryDataに置き換えました**
 SeriesCollection.SecondCatergoryDataのプロパティ名のタイプミスを修正しました。以降、SeriesCollection.SecondCategoryDataプロパティを使用することができます。元のプロパティSeriesCollection.SecondCatergoryDataは廃止されています。
+{{< app/cells/assistant language="csharp" >}}

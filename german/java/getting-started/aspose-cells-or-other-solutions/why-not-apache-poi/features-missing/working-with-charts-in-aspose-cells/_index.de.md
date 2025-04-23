@@ -10,3 +10,4 @@ url: /de/java/working-with-charts-in-aspose-cells/
 - [Diagrammposition und -größe ändern](/cells/de/java/change-chart-position-and-size/)
 - [Diagramm in Bilder umwandeln mit Aspose.Cells](/cells/de/java/convert-chart-to-images-using-aspose-cells/)
 - [Pivot Diagramme mit Aspose.Cells erstellen](/cells/de/java/create-pivot-charts-using-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

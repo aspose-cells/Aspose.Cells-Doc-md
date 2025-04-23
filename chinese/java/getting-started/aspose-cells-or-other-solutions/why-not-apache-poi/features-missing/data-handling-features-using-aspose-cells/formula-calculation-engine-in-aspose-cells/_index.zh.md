@@ -70,3 +70,4 @@ book.save(dataDir + "AsposeFormulaEngine.xls");
 要了解更多详情，请访问[公式计算引擎](/cells/zh/java/aspose-cells-formula-calculation-engine)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

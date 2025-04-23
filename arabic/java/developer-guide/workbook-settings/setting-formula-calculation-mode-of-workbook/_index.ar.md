@@ -23,7 +23,7 @@ url: /ar/java/setting-formula-calculation-mode-of-workbook/
 يسمح Aspose.Cells أيضًا لك بضبط **وضع حساب الصيغة** باستخدام الخاصية [**FormulaSettings.CalculationMode**](https://reference.aspose.com/cells/java/com.aspose.cells/formulasettings#CalculationMode) . يمكنك تعيينها تعداد [**CalcModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/CalcModeType) الذي يحتوي على واحدة من القيم التالية:
 
 - [**CalcModeType.AUTOMATIC**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC)
-- [**CalcModeType.AUTOMATIC_EXCEPT_TABLE**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC_EXCEPT_TABLE)
+- [**CalcModeType.AUTOMATIC_EXCEPT_TABLE**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC-EXCEPT-TABLE)
 - [**CalcModeType.MANUAL**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#MANUAL)
 
 يقوم الكود النموذجي التالي أولاً بإنشاء دفتر العمل، ثم يقوم بتعيين وضع حساب الصيغ إلى **يدوي** ويحفظ دفتر العمل كملف Excel الناتج على القرص.
@@ -33,3 +33,4 @@ url: /ar/java/setting-formula-calculation-mode-of-workbook/
 ![todo:image_alt_text](setting-formula-calculation-mode-of-workbook_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetFormulaCalculationMode-SetFormulaCalculationMode.java" >}}
+{{< app/cells/assistant language="java" >}}

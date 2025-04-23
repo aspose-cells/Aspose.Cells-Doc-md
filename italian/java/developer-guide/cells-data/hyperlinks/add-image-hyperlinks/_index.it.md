@@ -22,3 +22,4 @@ Quando il codice viene eseguito, salva un file di output con un collegamento ipe
 ![todo:image_alt_text](add-image-hyperlinks_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddImageHyperlinks-AddImageHyperlinks.java" >}}
+{{< app/cells/assistant language="java" >}}

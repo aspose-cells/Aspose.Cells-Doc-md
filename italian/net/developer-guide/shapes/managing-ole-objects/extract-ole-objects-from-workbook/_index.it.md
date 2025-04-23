@@ -45,3 +45,4 @@ Avvia **Visual Studio.Net** e crea un nuova applicazione console. Questo esempio
 Il codice di seguito effettua il lavoro effettivo di individuare ed estrarre oggetti OLE. Gli oggetti OLE (file DOC, XLS e PDF) vengono salvati su disco.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExtractOLEObjects-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -83,3 +83,4 @@ url: /zh/net/microsoft-excel-spreadsheet-management-library/
 ### **支持的平台**
 - 桌面Windows应用程序
 - 企业Web应用程序
+{{< app/cells/assistant language="csharp" >}}

@@ -47,3 +47,4 @@ Si desea agregar o mejorar un ejemplo, lo alentamos a contribuir al proyecto. To
 
 Para contribuir, puedes hacer un fork del repositorio, editar el código fuente y crear una solicitud de extracción. Revisaremos los cambios e incluiremos en el repositorio si son útiles.
 
+{{< app/cells/assistant language="java" >}}

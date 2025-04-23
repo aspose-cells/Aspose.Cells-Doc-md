@@ -272,3 +272,4 @@ opts.IsFontSubstitutionCharGranularity = true;
 يُفضل استخدام طريقة Workbook.CreateStyle لإنشاء وتلاعب بالنمط لمثيل المصنف بدلاً من إنشاء نمط بطريقة StyleCollection.Add. علاوة على ذلك، يمكن استخدام الطريقة Workbook.GetNamedStyle(string) للحصول على نمط مسمى بدلاً من StyleCollection[string].
 ### **طريقة PivotItem.Move قديمة**
 مع إصدار Aspose.Cells 8.3.2، قد قدمت واجهة API تحميل زائد آخر لطريقة PivotItem.Move تقبل المعلمة الصحيحة للعدد والمعلمة البولية لتحريك PivotItem داخل العقد الأصلي.
+{{< app/cells/assistant language="csharp" >}}

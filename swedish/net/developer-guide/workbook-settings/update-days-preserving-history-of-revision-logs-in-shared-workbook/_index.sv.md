@@ -18,3 +18,4 @@ Följande exempelkod skapar en tom arbetsbok, delar den sedan och uppdaterar rev
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-UpdateDaysPreservingHistoryOfRevisionLogsInSharedWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

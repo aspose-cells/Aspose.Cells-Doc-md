@@ -96,3 +96,4 @@ else if (listObject.DataSourceType == Aspose.Cells.Tables.TableDataSourceType.XM
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

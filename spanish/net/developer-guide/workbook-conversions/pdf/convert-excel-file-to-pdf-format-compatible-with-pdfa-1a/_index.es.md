@@ -22,3 +22,4 @@ El siguiente código de muestra explica cómo convertir un archivo de Excel al f
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToPDFA_1a.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

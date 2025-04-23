@@ -68,3 +68,4 @@ Non è possibile specificare nuovamente il percorso dello script aggiungendo le 
 Queste impostazioni potrebbero essere obbligatorie in alcuni casi / scenari se si utilizza il controllo Aspose.Cells.GridWeb in siti Web del File System o estensioni MS Ajax ecc.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

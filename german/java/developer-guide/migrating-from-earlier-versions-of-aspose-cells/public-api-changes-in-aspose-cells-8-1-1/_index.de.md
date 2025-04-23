@@ -34,3 +34,4 @@ Bitte überprüfen Sie den ausführlichen Artikel zu [Erstellen, Manipulieren od
 {{% /alert %}}
 ## **Änderung in Verhalten für CellsException**
 Bei früheren Versionen der Aspose.Cells for Java API warf die API bei Laden einer möglicherweise beschädigten Arbeitsmappe in einer Workbook-Instanz tendenziell eine allgemeine Meldung ohne den Ort des Problems zu nennen. In Version 8.1.1 haben wir dieses Verhalten geändert, sodass die API eine Ausnahme mit einer aussagekräftigen Meldung wirft, die darauf hinweist, wo (welche Zelle) und was (Formelausdruck) die Ausnahme beim Lesen der Vorlagendatei verursacht.
+{{< app/cells/assistant language="java" >}}

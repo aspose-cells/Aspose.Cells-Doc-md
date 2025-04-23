@@ -58,3 +58,4 @@ Aspose.Cells 提供了一组特殊的类，用于创建数据透视表。这些�
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreatePivotTablesPivotCharts-CreatePivotChart-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

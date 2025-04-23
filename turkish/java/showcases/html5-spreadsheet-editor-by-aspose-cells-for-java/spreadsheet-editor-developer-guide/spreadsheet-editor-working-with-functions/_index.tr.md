@@ -38,3 +38,4 @@ Bir işlev veya formül eklemek için:
 1. Bir hücreyi seçmek için tıklayın.
 1. Üst kısımdaki **Fonksiyon Ekle** düğmesine tıklayın.
 1. **Fonksiyon Ekle** iletişim kutusundaki talimatları izleyin.
+{{< app/cells/assistant language="java" >}}

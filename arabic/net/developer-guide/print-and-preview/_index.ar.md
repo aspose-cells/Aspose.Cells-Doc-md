@@ -74,3 +74,4 @@ Worksheet page count: 1
 - [عرض الورقة العمل إلى سياق رسومي](/cells/ar/net/render-worksheet-to-graphic-context/)
 - [تحديد مجموعة خطوط فردية أو خاصة لتقديم الدفتر](/cells/ar/net/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)
 - [تحديد اسم المهمة أو المستند أثناء الطباعة باستخدام Aspose.Cells](/cells/ar/net/specify-job-or-document-name-while-printing-with-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

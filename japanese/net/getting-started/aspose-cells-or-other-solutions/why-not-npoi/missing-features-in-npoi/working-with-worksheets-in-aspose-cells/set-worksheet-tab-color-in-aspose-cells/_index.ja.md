@@ -44,3 +44,4 @@ workbook.Save("AsposeColoredTab_Out.xls");
 詳細については、[セルのワークシートのタブの色の設定](/cells/ja/net/set-worksheet-tab-color/)を参照してください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

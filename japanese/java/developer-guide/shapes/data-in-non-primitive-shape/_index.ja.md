@@ -11,7 +11,7 @@ url: /ja/java/data-in-non-primitive-shape/
 
 ## **非原始の形状**
 
-Aspose.Cellsでは、非プリミティブ形状にはタイプ[**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT_PRIMITIVE)が割り当てられます。[**Shape.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType)メソッドを使用してタイプを確認できます。
+Aspose.Cellsでは、非プリミティブ形状にはタイプ[**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT-PRIMITIVE)が割り当てられます。[**Shape.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType)メソッドを使用してタイプを確認できます。
 
 [**Shape.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths)メソッドを使用して形状データにアクセスします。非プリミティブ形状を構成するすべての接続パスを返します。これらのパスは、各セグメント内の点を含むすべてのセグメントを保持するShapePathのタイプである。
 
@@ -22,3 +22,4 @@ Aspose.Cellsでは、非プリミティブ形状にはタイプ[**AutoShapeType.
 ![todo:image_alt_text](data-in-non-primitive-shape_1.jpg)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-NonPrimitiveShape-1.java" >}}
+{{< app/cells/assistant language="java" >}}

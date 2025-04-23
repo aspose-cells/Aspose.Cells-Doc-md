@@ -27,3 +27,4 @@ Comme vous pouvez le voir, l'attribut cible dans le lien HTML ci-dessus est **_s
 Le code suivant illustre l'utilisation de la propriété [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype). Il change le type de cible du lien en **blank**. Par défaut, c'est le **parent**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeHtmlLinkTarget-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

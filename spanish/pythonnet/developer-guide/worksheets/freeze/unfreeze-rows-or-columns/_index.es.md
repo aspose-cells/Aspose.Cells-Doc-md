@@ -4,8 +4,8 @@ linktitle: Descongelar paneles
 type: docs
 weight: 190
 url: /es/python-net/unfreeze-rows-or-columns-of-excel-worksheet
-description: En este artículo, aprenderás cómo descongelar filas, columnas o paneles de hojas de cálculo de Excel de forma programática utilizando las APIs de Aspose.Cells para Python via .NET.
-keywords: Biblioteca de Excel de Python, Descongelar paneles en Python, Cómo descongelar filas en Python, cómo descongelar columnas en Python, cómo descongelar ventana.
+description: En este artículo, aprenderás cómo desbloquear filas, columnas o paneles de hojas de Excel mediante programación usando las APIs de Aspose.Cells para Python via .NET.
+keywords: Biblioteca de Excel para Python, Desbloquear paneles en Python, Cómo desbloquear filas en Python, Cómo desbloquear columnas en Python, Cómo desbloquear ventana en Python.
 ---
 
 ## **Introducción**
@@ -13,7 +13,7 @@ keywords: Biblioteca de Excel de Python, Descongelar paneles en Python, Cómo de
 En este artículo, aprenderemos cómo deshacer la congelación de filas, columnas y paneles. Si las hojas de cálculo de los archivos de Excel están congeladas, a veces queremos descongelar la hoja de cálculo o ajustar las filas, columnas o paneles congelados.
 
 
-## **Cómo descongelar filas o columnas en Excel**
+## **Cómo desbloquear filas o columnas en Excel**
 
 1. Haz clic en la pestaña Vista > Congelar paneles > Descongelar paneles.
 
@@ -22,8 +22,8 @@ En este artículo, aprenderemos cómo deshacer la congelación de filas, columna
 
 
 
-## **Cómo descongelar filas, columnas o paneles con la Biblioteca de Excel de Python Aspose.Cells para Excel**
-Es simple descongelar paneles con Aspose.Cells para Python via .NET. Por favor, utiliza el método [**Worksheet.un_freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/un_freeze_panes/) para descongelar paneles.
+## **Cómo desbloquear filas, columnas o paneles con Aspose.Cells para Python Biblioteca de Excel**
+Es sencillo desbloquear paneles con Aspose.Cells para Python via .NET. Utiliza el método [**Worksheet.un_freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/un_freeze_panes/) para desbloquear paneles.
 
 1. Construye el libro para abrir el archivo congelado.
 2. Descongela los paneles con el método Worksheet.UnFreezePanes().

@@ -7,7 +7,7 @@ url: /fr/java/export-worksheet-or-chart-into-image-with-desired-width-and-height
 
 {{% alert color="primary" %}}
 
-Vous pouvez utiliser Aspose.Cells pour exporter votre feuille de calcul ou votre graphique en image avec la largeur et la hauteur souhaitées. Il fournit [**ImageOrPrintOptions.setDesiredSize()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#setDesiredSize(int,%20int)) méthode pour définir la largeur et la hauteur de l'image exportée. La largeur et la hauteur sont spécifiées en pixels.
+Vous pouvez utiliser Aspose.Cells pour exporter votre feuille de calcul ou votre graphique en image avec la largeur et la hauteur souhaitées. Il fournit [**ImageOrPrintOptions.setDesiredSize()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#setDesiredSize-int-int-) méthode pour définir la largeur et la hauteur de l'image exportée. La largeur et la hauteur sont spécifiées en pixels.
 
 {{% /alert %}}
 
@@ -22,3 +22,4 @@ Le code suivant exporte la feuille de calcul en une image de taille 400x400.
 - [Rendu du graphique](/cells/fr/java/chart-rendering/)
 - [Conversion de la feuille de calcul dans différents formats d'image](/cells/fr/java/converting-worksheet-to-different-image-formats/)
 - [Exportation du graphique en SVG avec l'attribut viewBox](/cells/fr/java/export-chart-to-svg-with-viewbox-attribute/)
+{{< app/cells/assistant language="java" >}}

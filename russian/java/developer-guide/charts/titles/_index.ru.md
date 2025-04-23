@@ -31,3 +31,4 @@ Aspose.Cells также позволяет управлять заголовка
 
 ## **Продвинутые темы**
 - [Чтение подзаголовка диаграммы из файла ODS](/cells/ru/java/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="java" >}}

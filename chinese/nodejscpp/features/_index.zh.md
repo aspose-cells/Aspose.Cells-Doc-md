@@ -4,15 +4,15 @@ type: docs
 weight: 5
 url: /zh/nodejs-cpp/features/
 keywords: "nodejs, excel, api, features"
-description: "通过C++的Node.js的Aspose.Cells特性。"
+description: "Aspose.Cells for Node.js via C++特性。"
 ---
 
-## **Node.js通过C++的Aspose.Cells特性概述**
-本节提供Aspose.Cells for C++和Node.js通过C++的Aspose.Cells特性的可用性比较。
+## **Aspose.Cells for Node.js via C++ 功能概述**
+本节提供Aspose.Cells for C++与Aspose.Cells for Node.js via C++功能可用性的对比。
 ### **文件格式和转换**
 全球许多客户依靠Aspose.Cells提供的全面文档导入和导出功能。
 
-|**特性**|**描述**|**Aspose.Cells for C++**|**Node.js通过C++的Aspose.Cells**|
+|**功能**|**描述**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- | :- |
 |高质量转换|快速而可靠地在几种流行的文档格式之间转换。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Microsoft Excel工作簿（XLS）|您可以找到的最快和最完整的XLS格式实现。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -26,21 +26,21 @@ description: "通过C++的Node.js的Aspose.Cells特性。"
 ### **呈现和打印**
 Aspose.Cells现在提供高保真度的电子表格页面呈现。
 
-|**特性**|**Aspose.Cells for C++**|**Node.js通过C++的Aspose.Cells**|
+|**功能**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
 |以高保真度分页布局文档，与Microsoft Excel®完全一样（就像Microsoft Excel®会这样做一样）。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |将工作表页面呈现为光栅图像（PNG，JPEG等）。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |将工作表页面呈现为光栅图像（多页TIFF，GIF）。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |将电子表格页面呈现为矢量图像（EMF）。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |指定图像分辨率、质量、压缩和其他选项。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|使用C++打印基础设施来打印电子表格页面。|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|使用C++打印基础设施打印数据表页面。|{{< emoticons/cross >}}|{{< emoticons/cross >}}|
 |在呈现或打印之前更新页码和其他字段。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **电子表格内容特性**
 Aspose.Cells提供一个丰富的对象模型，包括100多个公共类/接口，允许您以编程方式生成、组合、修改、解析或检查加载的电子表格。以下是一些关键特性。
 
-|**特性**|**Aspose.Cells for C++**|**Node.js通过C++的Aspose.Cells**|
+|**功能**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
-|从数组、ArrayList、ResultSet等导入/导出数据。|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|从数组、ArrayList、ResultSet等导入/导出数据。|{{< emoticons/cross >}}|{{< emoticons/cross >}}|
 |添加现有工作表的副本（包括图像、图表、其他对象等所有内容）|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |在工作簿内部或工作簿之间复制或移动工作表|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |插入图像|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -77,7 +77,7 @@ Aspose.Cells提供一个丰富的对象模型，包括100多个公共类/接口�
 ### **电子表格格式设置功能**
 Aspose.Cells 提供对所有电子表格元素格式属性的详细程序化访问。
 
-|**特性**|**Aspose.Cells for C++**|**Node.js通过C++的Aspose.Cells**|
+|**功能**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
 |应用于单元格的所有字符格式，包括字体、颜色、效果、边框和底纹。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |应用到单元格的所有数字格式设置（在 Microsoft Excel 中受支持）。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -91,7 +91,7 @@ Aspose.Cells 提供对所有电子表格元素格式属性的详细程序化访�
 ### **页面设置功能**
 您可以使用 Aspose.Cells 实现工作表的页面设置选项。
 
-|**特性**|**Aspose.Cells for C++**|**Node.js通过C++的Aspose.Cells**|
+|**功能**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
 |调整页面方向、比例、纸张尺寸。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |指定边距和页面居中。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

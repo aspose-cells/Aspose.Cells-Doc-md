@@ -15,7 +15,7 @@ A veces necesitas combinar varias hojas de cálculo en una sola hoja de cálculo
 
 ## **Cómo combinar hojas de cálculo**
 
-El ejemplo a continuación utiliza el método [**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) para copiar todas las hojas de cálculo fuente en una sola hoja dentro de un libro de trabajo de destino.
+El ejemplo a continuación utiliza el método [**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy-com.aspose.cells.Range-) para copiar todas las hojas de cálculo fuente en una sola hoja dentro de un libro de trabajo de destino.
 
 ### **Libro de trabajo fuente**
 
@@ -59,3 +59,4 @@ El siguiente fragmento de código muestra cómo combinar varias hojas de cálcul
 Puede ser útil el artículo [Combinar varios libros de trabajo en un solo libro de trabajo](/cells/es/java/combine-multiple-workbooks-into-a-single-workbook/) para obtener más información.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

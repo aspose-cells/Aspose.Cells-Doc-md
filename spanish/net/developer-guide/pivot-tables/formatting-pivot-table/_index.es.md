@@ -63,3 +63,4 @@ La clase [**PivotFieldCollection**](https://reference.aspose.com/cells/net/aspos
 El ejemplo de código a continuación muestra cómo borrar todos los campos de tabla dinámica en un área de datos.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ClearPivotFields-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

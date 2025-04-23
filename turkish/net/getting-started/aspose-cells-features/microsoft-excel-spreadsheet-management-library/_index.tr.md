@@ -83,3 +83,4 @@ url: /tr/net/microsoft-excel-spreadsheet-management-library/
 ### **Desteklenen Platformlar**
 - Masaüstü Windows Uygulaması
 - Kurumsal Web Uygulaması
+{{< app/cells/assistant language="csharp" >}}

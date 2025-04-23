@@ -16,3 +16,4 @@ Aspose.Cells, VBA kodunun dijital imzasının [**Workbook.VbaProject.IsValidSign
 Aşağıdaki kod, sağlanan bağlantıdan indirebileceğiniz [örnek excel dosyası](5115030.xlsm) kullanarak bu özelliğin kullanımını göstermektedir. Aynı excel dosyasının geçerli bir imzası vardır ancak VBA kodunu değiştirip çalıştırdıktan sonra imzanın geçersiz olduğunu buluruz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-CheckVbaSignatureIsValid-CheckVbaSignatureIsValid.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

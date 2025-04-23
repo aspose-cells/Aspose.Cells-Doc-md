@@ -17,7 +17,7 @@ Se utilizan las siguientes propiedades y clases para implementar esta funcionali
 
 {{% /alert %}} 
 ## **Implementar Motor de Cálculo Personalizado**
-El siguiente código implementa el Motor de Cálculo Personalizado. Implementa la interfaz [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine), que tiene solo un método [calculate(CalculationData data)](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationengine#calculate\(com.aspose.cells.CalculationData\)). Este método se llama para todas tus fórmulas. Dentro de este método, capturamos la función **TODAY** y añadimos un día a la fecha del sistema. Por lo tanto, si la fecha actual es 27/07/2023, el motor personalizado calculará TODAY() como 28/07/2023.
+El siguiente código implementa el Motor de Cálculo Personalizado. Implementa la interfaz [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) que solo tiene un método [calculate(CalculationData data)](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationengine#calculate-com.aspose.cells.CalculationData-). Este método se llama para todas tus fórmulas. Dentro de este método, capturamos la función **TODAY** y sumamos un día a la fecha del sistema. Entonces, si la fecha actual es 27/07/2023, el motor personalizado calculará TODAY() como 28/07/2023.
 
 ### **Ejemplo de Programación**
 
@@ -33,3 +33,4 @@ Por favor revisa la salida de consola del código de muestra anterior, el valor 
 - [Cálculo directo de una función personalizada sin escribirla en una hoja de cálculo](/cells/es/java/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

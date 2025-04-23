@@ -111,3 +111,4 @@ url: /ar/net/cells-formatting/
 - [إعدادات الأرقام](/cells/ar/net/cells-number-settings/)
 - [الحصول على وتعيين النمط للخلايا](/cells/ar/net/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/)
 
+{{< app/cells/assistant language="csharp" >}}

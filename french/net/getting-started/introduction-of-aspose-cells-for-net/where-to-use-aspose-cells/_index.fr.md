@@ -34,3 +34,4 @@ Il revient aux développeurs de décider comment utiliser Aspose.Cells, mais il 
 Nous avons discuté de quelques-uns des scénarios les plus courants d'utilisation d'Aspose.Cells dans un environnement web. Mais Aspose.Cells est tout aussi utile dans les applications basées sur un ordinateur de bureau.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

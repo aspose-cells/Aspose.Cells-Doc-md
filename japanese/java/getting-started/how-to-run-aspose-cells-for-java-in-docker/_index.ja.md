@@ -58,3 +58,4 @@ docker build -t java-app .
 {{< /highlight >}}
 
 上記のコマンドを実行すると、XLSX ワークシートの出力とコマンドラインの結果が得られます。この時点で、Java プログラムは Linux Docker で正常に実行されました。
+{{< app/cells/assistant language="java" >}}

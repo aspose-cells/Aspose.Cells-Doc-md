@@ -53,3 +53,4 @@ Detaylı makaleleri kontrol edin
 - [TrueType font yedekleme gerçekleştiğinde uyarıları nasıl alırsınız](/cells/tr/java/get-warnings-for-font-substitution-while-rendering-excel-file/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

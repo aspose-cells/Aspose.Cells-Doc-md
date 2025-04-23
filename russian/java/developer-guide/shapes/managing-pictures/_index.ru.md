@@ -13,7 +13,7 @@ Aspose.Cells позволяет разработчикам добавлять и
 
 Добавление изображений в электронную таблицу очень просто. Для этого достаточно всего лишь нескольких строк кода.
 
-Просто вызовите метод [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) коллекции [**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) (инкапсулированный в объекте [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)). Метод [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) принимает следующие параметры:
+Просто вызовите метод [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add-int-int-java.lang.String-) коллекции [**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) (инкапсулированный в объекте [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)). Метод [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add-int-int-java.lang.String-) принимает следующие параметры:
 
 - **Индекс верхнего левого ряда**, индекс верхнего левого ряда.
 - **Индекс верхнего левого столбца**, индекс верхнего левого столбца.
@@ -37,3 +37,4 @@ Aspose.Cells позволяет разработчикам добавлять и
 - [Вставить привязанное изображение из веб-адреса](/cells/ru/java/insert-a-linked-picture-from-web-address/)
 - [Вставка изображения на основе ссылки на ячейку](/cells/ru/java/insert-a-picture-based-on-cell-reference/)
 - [Вставка веб-изображения из URL-адреса в лист Excel](/cells/ru/java/insert-web-image-from-a-url-into-an-excel-worksheet/)
+{{< app/cells/assistant language="java" >}}

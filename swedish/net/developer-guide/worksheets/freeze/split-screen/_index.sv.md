@@ -51,3 +51,4 @@ För att ta bort arbetsbladets uppdelning, klicka bara på Split-knappen igen.
 Aspose.Cells för .Net tillhandahåller en [**Worksheet.RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/removesplit/)-metod för att ta bort uppdelningsinställningen.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Remove-Split.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -55,3 +55,4 @@ Aspose.CellsはMOL（原子や結合に関する情報を含む分子データ�
 - [Aspose.Cellsを使用してMicrosoft ExcelでOLEオブジェクトを自動的に更新する](/cells/ja/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)
 - [ワークブックからOLEオブジェクトを抽出](/cells/ja/java/extract-ole-objects-from-workbook/)
 - [埋め込まれたOLEオブジェクトのクラス識別子を取得または設定する](/cells/ja/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
+{{< app/cells/assistant language="java" >}}

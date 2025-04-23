@@ -54,3 +54,4 @@ Aspose.Cellsは、スプレッドシート内の別の場所にワークシー�
 次の例は、ワークブック内でワークシートを別の場所に移動する方法を示しています。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-MoveWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

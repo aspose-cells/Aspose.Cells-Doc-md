@@ -35,3 +35,4 @@ Il seguente snippet di codice dimostra come impostare le opzioni degli assi X e 
 - [Cambia la direzione delle etichette di graduazione](/cells/it/java/change-tick-label-direction/)
 - [Determina quali assi esistono nel grafico.](/cells/it/java/determine-which-axis-exists-in-the-chart/)
 - [Gestire le unità automatiche dell'asse del grafico come Microsoft Excel](/cells/it/java/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
+{{< app/cells/assistant language="java" >}}

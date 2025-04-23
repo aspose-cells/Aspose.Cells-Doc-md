@@ -198,3 +198,4 @@ Aspose.Cells 17.1.0では、DisplayUnitType列挙体にPercentageフィールド
 ## **API が削除されました**
 ### **Instance Variable m_LoadDataFilterOptions が削除されました。**
 このリリースでは，m_LoadDataFilterOptions インスタンス変数が削除されました。LoadFilter.LoadDataFilterOptions プロパティを使用することを推奨します。
+{{< app/cells/assistant language="csharp" >}}

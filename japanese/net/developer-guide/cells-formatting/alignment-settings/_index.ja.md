@@ -123,3 +123,4 @@ Aspose.Cellsは、Microsoft Excelのように複数のセルを1つに結合す�
 - [セルの配置を変更し、既存の書式を保持する](/cells/ja/net/change-cells-alignment-and-keep-existing-formatting/)
 - [改行とテキストの折り返し](/cells/ja/net/line-breaks-and-text-wrapping/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -62,3 +62,4 @@ När den laddar [ursprungliga excel-filen](5115255.xlsx) med en anpassad filter 
 Så här använder du klassen CustomLoadFilter enligt kalkylbladsnamn.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-CustomFilteringPerWorksheet-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

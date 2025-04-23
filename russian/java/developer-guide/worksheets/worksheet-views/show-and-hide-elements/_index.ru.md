@@ -53,7 +53,7 @@ Aspose.Cells предоставляет класс [**Workbook**](https://refere
 
 **Установка VisibilityType**
 
-Вы также можете скрыть листы специальным образом. Эта функция может скрыть лист так, чтобы единственный способ снова сделать его видимым - передать значение [**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY_HIDDEN) в качестве параметра для метода [**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) в коде (здесь следует отметить, что пользователи не могут сделать объект видимым в MS Excel непосредственно, используя его меню). Пользователи также могут использовать метод [**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType), чтобы проверить, помечен ли лист как "Очень скрыт" или нет.
+Вы также можете скрыть листы специальным образом. Эта функция может скрыть лист так, чтобы единственный способ снова сделать его видимым - передать значение [**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY-HIDDEN) в качестве параметра для метода [**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) в коде (здесь следует отметить, что пользователи не могут сделать объект видимым в MS Excel непосредственно, используя его меню). Пользователи также могут использовать метод [**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType), чтобы проверить, помечен ли лист как "Очень скрыт" или нет.
 
 ## **Показать или скрыть вкладки**
 
@@ -224,3 +224,4 @@ Aspose.Cells предоставляет класс, [**Workbook**](https://refer
 - [Добавление границ ячеек для создания таблицы](/cells/ru/java/create-table-by-using-border-lines-for-a-range/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

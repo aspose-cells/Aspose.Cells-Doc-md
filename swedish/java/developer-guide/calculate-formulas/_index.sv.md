@@ -11,9 +11,9 @@ Aspose.Cells har en inbyggd formelberäkningsmotor. Inte bara kan den omberäkna
 
 Aspose.Cells stöder de flesta av de formler eller funktioner som ingår i Microsoft Excel(Läs [en lista över de funktioner som stöds av beräkningsmotorn](/cells/sv/java/supported-formula-functions/)). Dessa funktioner kan användas via API:erna eller designer-kalkylblad. Aspose.Cells stöder en stor uppsättning matematiska, sträng, booleska, datum/tid, statistiska, databas, sök- och referensformler.
 
-Använd [**Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula)-egenskapen eller [**SetFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setFormula(java.lang.String,%20com.aspose.cells.FormulaParseOptions,%20java.lang.Object))-metoderna i [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)-klassen för att lägga till en formel i en cell. När du tillämpar en formel, börja alltid strängen med ett likhetstecken (=) som du gör när du skapar en formel i Microsoft Excel och använd ett kommatecken (,) för att avgränsa funktionsparametrar.
+Använd [**Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula)-egenskapen eller [**SetFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-)-metoderna i [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)-klassen för att lägga till en formel i en cell. När du tillämpar en formel, börja alltid strängen med ett likhetstecken (=) som du gör när du skapar en formel i Microsoft Excel och använd ett kommatecken (,) för att avgränsa funktionsparametrar.
 
-För att beräkna resultaten av formler kan användaren ringa [**CalculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions))-metoden i klassen [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) som bearbetar alla formler som finns inbäddade i en Excel-fil. Eller så kan användaren ringa [**CalculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula(com.aspose.cells.CalculationOptions,%20boolean))-metoden i klassen [**Worsheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) som bearbetar alla formler som finns inbäddade i ett ark. Eller så kan användaren också ringa [**Calculate**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#calculate(com.aspose.cells.CalculationOptions))-metoden i klassen [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) som bearbetar formeln för en cell:
+För att beräkna resultaten av formler kan användaren anropa [**CalculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula-com.aspose.cells.CalculationOptions--) metoden av [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)-klassen som behandlar alla inbäddade formler i en Excel-fil. Eller så kan användaren anropa [**CalculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula-com.aspose.cells.CalculationOptions-boolean-)-metoden av [**Worsheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)-klassen som behandlar alla formler i ett ark. Eller kan också anropa [**Calculate**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#calculate-com.aspose.cells.CalculationOptions-)-metoden av [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)-klassen som behandlar enskilda cellers formler:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-CalculatingFormulas-CalculatingFormulas.java" >}}
 
@@ -31,7 +31,7 @@ Aspose.Cells har en inbyggd formelberäkningsmotor. Förutom att beräkna formle
 
 Ibland behöver du beräkna formelresultat direkt utan att lägga till dem i ett kalkylblad. Värdena för cellerna som används i formeln finns redan i ett kalkylblad och allt du behöver göra är att hitta resultatet av dessa värden baserat på några Microsoft Excel-formler utan att lägga till formeln i ett kalkylblad.
 
-Du kan använda Aspose.Cells' API:er för formelberäkning från [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) till [**calculate**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula(java.lang.String,%20com.aspose.cells.CalculationOptions)) resultaten av sådana formler utan att lägga till dem i kalkylbladet:
+Du kan använda Aspose.Cells' API:er för formelberäkning från [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) till [**calculate**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula-java.lang.String-com.aspose.cells.CalculationOptions-) resultaten av sådana formler utan att lägga till dem i kalkylbladet:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DirectCalculationFormula-DirectCalculationFormula.java" >}}
 
@@ -52,7 +52,7 @@ När det finns massor av formler i arbetsboken och användaren behöver beräkna
 
 {{% alert color="primary" %}}
 
-Som standard är beräkningskedjan inaktiverad. Eftersom skapandet av kedjan också kräver extra tid kan det första gången för att beräkna formler([**Workbook.CalculateFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions))) ta mer CPU-processortid och minne jämfört med att beräkna formler utan kedja. Om användaren inte behöver beräkna formler upprepade gånger bör standardbeteendet(att beräkna formel direkt utan att skapa beräkningskedja) vara det bättre sättet.
+Som standard är beräkningskedjan inaktiverad. Eftersom skapandet av kedjan också tar extra tid, kan den första gången en formel beräknas ([**Workbook.CalculateFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula-com.aspose.cells.CalculationOptions--)) konsumera mer CPU-tid och minne jämfört med att beräkna formler utan kedja. Om användaren inte behöver beräkna formler repetitivt, bör den standardmässiga metoden (att beräkna formel direkt utan att skapa beräkningskedja) vara det bättre alternativet.
 
 {{% /alert %}}
 
@@ -70,3 +70,4 @@ Som standard är beräkningskedjan inaktiverad. Eftersom skapandet av kedjan ock
 - [Returnera en rad med värden med hjälp av AbstractCalculationEngine](/cells/sv/java/returning-a-range-of-values-using-abstractcalculationengine/)
 - [Returnera ett område av värden med hjälp av ICustomFunction](/cells/sv/java/returning-a-range-of-values-using-icustomfunction/)
 - [Använda ICustomFunction-funktionen](/cells/sv/java/using-icustomfunction-feature/)
+{{< app/cells/assistant language="java" >}}

@@ -7,7 +7,7 @@ url: /ru/java/calculation-of-array-formula-of-data-tables/
 
 {{% alert color="primary" %}} 
 
-Вы можете создать таблицу данных в Microsoft Excel с помощью Данные > Анализ по сценариям > Таблица данных.... Aspose.Cells теперь позволяет вычислить массивную формулу таблицы данных. Пожалуйста, используйте [Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) как обычно для вычисления любого типа формул.
+Вы можете создать таблицу данных в Microsoft Excel с помощью Data > Что-Если Анализ > Таблица данных.... Aspose.Cells теперь позволяет вычислять массивную формулу таблицы данных. Пожалуйста, используйте [Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) как обычно для вычисления любых типов формул.
 
 {{% /alert %}} 
 ## **Расчет массивной формулы таблиц данных**
@@ -22,3 +22,4 @@ url: /ru/java/calculation-of-array-formula-of-data-tables/
 Вот образец кода, используемый для генерации [файла PDF](5472577.pdf) из [исходного файла Excel](5472579.xlsx). Пожалуйста, прочитайте комментарии для получения дополнительной информации.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculationOfArrayFormula-CalculationOfArrayFormula.java" >}}
+{{< app/cells/assistant language="java" >}}

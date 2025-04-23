@@ -20,3 +20,4 @@ Der folgende Beispielcode erläutert, wie Aspose.Cells verwendet wird, um ein Di
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-ConvertChartToSvgImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

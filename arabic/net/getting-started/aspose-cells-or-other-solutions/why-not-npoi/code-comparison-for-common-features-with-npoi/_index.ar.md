@@ -11,3 +11,4 @@ url: /ar/net/code-comparison-for-common-features-with-npoi/
 - [العمل مع ميزات التنسيق في NPOI و Aspose.Cells](/cells/ar/net/working-with-formatting-features-in-npoi-and-aspose-cells/)
 - [العمل مع دفاتر العمل في NPOI و Aspose.Cells](/cells/ar/net/working-with-workbooks-in-npoi-and-aspose-cells/)
 - [العمل مع الأوراق في NPOI و Aspose.Cells](/cells/ar/net/working-with-worksheets-in-npoi-and-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

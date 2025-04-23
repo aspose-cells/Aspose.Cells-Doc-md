@@ -33,7 +33,7 @@ Microsoft Excel を使用してワークシートでセルを結合する手順�
 
 ### **Aspose.Cellsの使用**
 
-タスクには [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) クラスに有用なメソッドがいくつかあります。例えば、メソッド [**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) は、セルを特定のセル範囲内の単一のセルに結合します。
+タスクには [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) クラスに有用なメソッドがいくつかあります。例えば、メソッド [**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge-int-int-int-int-) は、セルを特定のセル範囲内の単一のセルに結合します。
 
 以下のコードを実行した後に生成される出力は次のとおりです。
 
@@ -59,7 +59,7 @@ Microsoft Excel を使用してワークシートでセルを結合する手順�
 
 #### **Aspose.Cellsの使用**
 
-[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) クラス には、結合されたセルの参照を使用してセルを元の状態に戻すメソッド [**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge(int,%20int,%20int,%20int)) があります。このメソッドは、結合されたセル範囲内のセルを分割します。
+[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) クラス には、結合されたセルの参照を使用してセルを元の状態に戻すメソッド [**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge-int-int-int-int-) があります。このメソッドは、結合されたセル範囲内のセルを分割します。
 
 #### **コード例**
 
@@ -72,3 +72,4 @@ Microsoft Excel を使用してワークシートでセルを結合する手順�
 - [ワークシート内で結合されたセルを見つけて分割する](/cells/ja/java/detect-merged-cells-in-a-worksheet/)
 - [Range.merge() および Range.unMerge() メソッドを使用してセル範囲の結合と分割](/cells/ja/java/merge-or-unmerge-range-of-cells/)
 
+{{< app/cells/assistant language="java" >}}

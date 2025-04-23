@@ -33,3 +33,4 @@ Aspose.Cells for Java предлагает широкий спектр защи�
 - [Как обнаружить формат файла и проверить, зашифрован ли файл](/cells/ru/java/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
 
 
+{{< app/cells/assistant language="java" >}}

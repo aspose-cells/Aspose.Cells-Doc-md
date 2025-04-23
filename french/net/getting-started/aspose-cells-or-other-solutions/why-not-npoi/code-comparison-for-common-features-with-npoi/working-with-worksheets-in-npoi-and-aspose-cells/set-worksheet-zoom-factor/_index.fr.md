@@ -56,3 +56,4 @@ Téléchargez **Définir un facteur de zoom de la feuille de calcul** à partir 
 Pour plus de détails, visitez [Travailler avec les feuilles de calcul](/cells/fr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

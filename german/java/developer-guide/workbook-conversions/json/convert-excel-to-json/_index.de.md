@@ -15,7 +15,7 @@ Aspose.Cells unterstützt die Umwandlung einer Arbeitsmappe in eine JSON (JavaSc
 
 ## **Wie man eine Excel-Arbeitsmappe in JSON konvertiert**
 
-Es ist nicht nötig, sich zu fragen, wie man eine Excel-Arbeitsmappe in JSON konvertiert, denn die Aspose.Cells Java-Bibliothek hat die beste Lösung. Die Aspose.Cells Java API bietet Unterstützung für die Konvertierung von Tabellenkalkulationen in das JSON-Format. Um die Arbeitsmappe in JSON zu exportieren, geben Sie [**SaveFormat.JSON**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) als zweiten Parameter der [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.lang.String,%20int))-Methode an. Sie können auch die [**JsonSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonSaveOptions)-Klasse verwenden, um zusätzliche Einstellungen für den Export von Tabellenkalkulationen in JSON festzulegen.
+Es ist nicht nötig, sich zu fragen, wie man eine Excel-Arbeitsmappe in JSON konvertiert, denn die Aspose.Cells Java-Bibliothek hat die beste Lösung. Die Aspose.Cells Java API bietet Unterstützung für die Konvertierung von Tabellenkalkulationen in das JSON-Format. Um die Arbeitsmappe in JSON zu exportieren, geben Sie [**SaveFormat.JSON**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) als zweiten Parameter der [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.lang.String-int-)-Methode an. Sie können auch die [**JsonSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonSaveOptions)-Klasse verwenden, um zusätzliche Einstellungen für den Export von Tabellenkalkulationen in JSON festzulegen.
 
 Das folgende Codebeispiel zeigt, wie man eine Excel-Arbeitsmappe in Json exportiert. Bitte sehen Sie sich den Code zur Konvertierung der [Quelldatei](sample.xlsx) in die mit dem Code generierte Json-Datei als Referenz an.
 
@@ -24,3 +24,4 @@ Das folgende Codebeispiel zeigt, wie man eine Excel-Arbeitsmappe in Json exporti
 Das folgende Codebeispiel, das die Klasse JsonSaveOptions verwendet, um zusätzliche Einstellungen festzulegen, zeigt, wie man eine Excel-Arbeitsmappe in Json exportiert. Bitte sehen Sie sich den Code zur Konvertierung der [Quelldatei](sample.xlsx) in die mit dem Code generierte Json-Datei als Referenz an.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Convert-Excel-to-JSON2.java" >}}
+{{< app/cells/assistant language="java" >}}

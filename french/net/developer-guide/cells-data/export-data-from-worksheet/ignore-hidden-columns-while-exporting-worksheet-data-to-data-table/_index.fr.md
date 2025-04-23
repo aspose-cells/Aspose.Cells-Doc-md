@@ -16,3 +16,4 @@ Parfois, vous souhaitez ignorer les colonnes masquées lors de l'exportation des
 Le code d'exemple suivant explique l'utilisation de la propriété [**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns) pour ignorer les colonnes masquées lors de l'exportation de l'ensemble des données de la feuille de calcul vers le tableau de données.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-IgnoreHiddenColumnsDataTable-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

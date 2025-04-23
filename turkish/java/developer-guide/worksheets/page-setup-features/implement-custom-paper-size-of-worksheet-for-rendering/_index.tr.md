@@ -11,7 +11,7 @@ MS Excel'de özel kağıt boyutları oluşturmak için doğrudan bir seçenek bu
 
 ## **Otomatik Olarak Çalışma Sayfası için Özel Kağıt Boyutunun Uygulanması**
 
-Aspose.Cells, çalışma sayfasının istenen kağıt boyutunu [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) yönteminin [**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize(double,%20double)) yöntemini kullanarak uygulamanıza olanak tanır. Aşağıdaki örnek kod, çalışma kitabındaki ilk çalışma sayfası için özel bir kağıt boyutunu belirtmeyi nasıl gösterdiğini açıklar. Ayrıca aşağıdaki kodla oluşturulan [çıkış PDF](45056030.pdf) dosyasına referans olarak bakınız.
+Aspose.Cells, çalışma sayfasının istenen kağıt boyutunu [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) yönteminin [**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize-double-double-) yöntemini kullanarak uygulamanıza olanak tanır. Aşağıdaki örnek kod, çalışma kitabındaki ilk çalışma sayfası için özel bir kağıt boyutunu belirtmeyi nasıl gösterdiğini açıklar. Ayrıca aşağıdaki kodla oluşturulan [çıkış PDF](45056030.pdf) dosyasına referans olarak bakınız.
 
 ## **Ekran Görüntüsü**
 
@@ -20,3 +20,4 @@ Aspose.Cells, çalışma sayfasının istenen kağıt boyutunu [**PageSetup**](h
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-PageSetupFeatures-ImplementCustomPaperSizeOfWorksheetForRendering.java" >}}
+{{< app/cells/assistant language="java" >}}

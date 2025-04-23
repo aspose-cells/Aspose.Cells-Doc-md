@@ -23,15 +23,15 @@ url: /zh/java/copying-rows-and-columns/
 
 ## **复制单行**
 
-Aspose.Cells提供了[copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) 方法，用于[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) 类。 该方法将源行中的所有类型数据（包括公式、值、注释、单元格格式、隐藏单元格、图像和其他绘图对象）复制到目标行。
+Aspose.Cells 提供 [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-) 方法，该方法复制所有类型的数据，包括公式、值、注释、单元格格式、隐藏单元格、图片和其他绘图对象，从源行到目标行。
 
-[copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) 方法需要以下参数：
+ [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-) 方法接受以下参数：
 
 - 源[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)对象,
 - 源行索引, 和
 - 目标行索引.
 
-使用此方法在工作表内或者工作表之间复制行。 [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) 方法的工作方式与Microsoft Excel类似。 例如，您不需要显式设置目标行的高度，该值也会被复制。
+使用此方法可以在工作表内复制一行，或复制到另一工作表。 [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-) 方法的工作方式类似于微软 Excel。例如，你不需要显式设置目标行的高度，该值也会被复制。
 
 以下示例显示如何在工作表中复制一行。它使用一个模板 Microsoft Excel 文件，将第二行（包括数据、格式、注释、图像等）复制并粘贴到同一工作表的第12行。
 
@@ -56,7 +56,7 @@ Aspose.Cells提供了[copyRow](https://reference.aspose.com/cells/java/com.aspos
 
 ## **复制多行**
 
-在使用[**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int))方法时，您还可以将多行复制到新的目的地，并附加一个整数类型的额外参数来指定要复制的源行数。
+在使用[**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-)方法时，您还可以将多行复制到新的目的地，并附加一个整数类型的额外参数来指定要复制的源行数。
 
 以下是包含3行数据的输入电子表格快照，而下面提供的代码片段将所有3行复制到从第7行开始的新位置。
 
@@ -70,15 +70,15 @@ Aspose.Cells提供了[copyRow](https://reference.aspose.com/cells/java/com.aspos
 
 ## **复制单列**
 
-Aspose.Cells提供了[copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\))方法，该方法可将源列中的所有类型数据（包括更新引用的公式和值，注释，单元格格式，隐藏单元格，图像和其他绘图对象）复制到目标列。
+Aspose.Cells 提供 [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn-com.aspose.cells.Cells-int-int-) 方法，该方法复制所有类型的数据，包括公式（带有更新的引用）、值、注释、单元格格式、隐藏单元格、图片和其他绘图对象，从源列到目标列。
 
-[copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\))方法接受以下参数:
+ [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn-com.aspose.cells.Cells-int-int-) 方法接受以下参数：
 
 - 源[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)对象,
 - 源列索引, 和
 - 目标列索引.
 
-使用[copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\))方法在工作表内部或其他工作表之间复制列。
+使用 [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn-com.aspose.cells.Cells-int-int-) 方法可以在工作表内或到另一个工作表中复制列。
 
 该示例将一个工作表中的列复制到另一个工作簿的工作表中。
 
@@ -90,7 +90,7 @@ Aspose.Cells提供了[copyColumn](https://reference.aspose.com/cells/java/com.as
 
 ## **复制多个列**
 
-与 [**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int)) 方法类似，Aspose.Cells API 还提供 [**Cells.copyColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns(com.aspose.cells.Cells,%20int,%20int,%20int)) 方法，用于将多个源列复制到新位置。
+与 [**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-) 方法类似，Aspose.Cells API 还提供 [**Cells.copyColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns-com.aspose.cells.Cells-int-int-int-) 方法，用于将多个源列复制到新位置。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyingMultipleColumns-CopyingMultipleColumns.java" >}}
 
@@ -102,9 +102,10 @@ Aspose.Cells提供了[copyColumn](https://reference.aspose.com/cells/java/com.as
 
 
 ## **使用粘贴选项粘贴行/列**
-Aspose.Cells现在在使用[CopyRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRows\(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.CopyOptions,%20com.aspose.cells.PasteOptions\))和[CopyColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns\(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.PasteOptions\))函数时提供[PasteOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PasteOptions)。它允许设置类似于Excel的适当粘贴选项。
+Aspose.Cells 现在在使用 [CopyRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRows-com.aspose.cells.Cells-int-int-int-com.aspose.cells.CopyOptions-com.aspose.cells.PasteOptions-) 和 [CopyColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns-com.aspose.cells.Cells-int-int-int-com.aspose.cells.PasteOptions-) 功能时提供 [PasteOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PasteOptions)，它允许设置类似于 Excel 的粘贴选项。
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-PastingDataWithPasteOptions.java" >}}
 
+{{< app/cells/assistant language="java" >}}

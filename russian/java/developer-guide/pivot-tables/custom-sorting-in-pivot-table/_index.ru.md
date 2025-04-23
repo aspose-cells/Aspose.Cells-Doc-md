@@ -17,3 +17,4 @@ url: /ru/java/custom-sorting-in-pivot-table/
 [Файл PDF вывода](95584329.pdf)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-PivotTableCustomSort-1.java" >}}
+{{< app/cells/assistant language="java" >}}

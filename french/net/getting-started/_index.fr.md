@@ -45,7 +45,7 @@ Dans cet exemple, j'utilise Ubuntu pour montrer comment commencer à utiliser As
 2. Ouvrez le fichier "AsposeCellsTest.csproj", ajoutez les lignes suivantes pour les références au package Aspose.Cells :
 {{< highlight plain >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="24.7" />
+    <PackageReference Include="Aspose.Cells" Version="25.4" />
   </ItemGroup>
 {{< /highlight >}}
 3. Ouvrez le projet avec VSCode sur Ubuntu :
@@ -103,3 +103,4 @@ L'exemple suivant crée un nouveau classeur à partir de zéro, insère "Hello W
 L'exemple suivant ouvre un fichier de modèle Microsoft Excel existant "Sample.xlsx", insère "Hello World!" dans la cellule A1 de la première feuille de calcul et enregistre en tant que fichier Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -12,3 +12,4 @@ url: /ru/java/working-with-data-in-apache-poi-and-aspose-cells/
 - [Новая строка в ячейках](/cells/ru/java/new-line-in-cells/)
 - [Создание сводных таблиц с использованием Apache POI и Aspose.Cells](/cells/ru/java/create-pivot-tables-using-apache-poi-and-aspose-cells/)
 - [Создание диаграмм с использованием Apache POI и Aspose.Cells](/cells/ru/java/create-charts-using-apache-poi-and-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

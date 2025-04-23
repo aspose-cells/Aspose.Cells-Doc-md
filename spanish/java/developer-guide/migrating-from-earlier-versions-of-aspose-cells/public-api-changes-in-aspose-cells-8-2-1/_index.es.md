@@ -28,3 +28,4 @@ Por favor, consulte el artículo detallado sobre [Verificar que el valor de la c
 {{% /alert %}}
 ## **Se agregó la sobrecarga del método toPrinter(PrinterSettings printerSettings) para la clase WorkbookRender**
 Puede utilizar el método sobrecargado para renderizar el libro de trabajo a una impresora a través de PrinterSettings.
+{{< app/cells/assistant language="java" >}}

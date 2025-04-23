@@ -3,13 +3,16 @@ title: Arbeiten mit GridJs auf der Clientseite
 type: docs
 weight: 250
 url: /de/net/aspose-cells-gridjs/how-to-use-gridjs-client-api/
-keywords: GridJs, benutzerdefinierte, Logo, Einstellung, API
+keywords: GridJs,benutzerdefiniert,Logo,Einstellungen,API,JS API,Client API
 description: Dieser Artikel stellt die Client JavaScript APIs oder Funktionen in GridJs vor.
 aliases:
   - /net/aspose-cells-gridjs/client/
   - /net/aspose-cells-gridjs/work-with-client-api/
   - /net/aspose-cells-gridjs/use-js-api/
   - /net/aspose-cells-gridjs/gridjs-spreadsheet-api/
+  - /net/aspose-cells-gridjs/client-api/
+  - /net/aspose-cells-gridjs/js-api/
+  - /net/aspose-cells-gridjs/javascript-api/
 ---
 
 # Arbeiten mit GridJs auf der Clientseite
@@ -21,26 +24,11 @@ Wir haben GridJs auf der Clientseite basierend auf [x-spreadsheet](https://githu
 ```javascript
 xs = x_spreadsheet(id, options)
     // the parameters are:
-    id:the html node id ,for example :'#gridjs-demo' for the html  <div id="gridjs-demo"></div>
-    options:the load options,
-     // the parameters for options:
-	    updateMode:  currently we only support 'server'
-	    updateUrl:  set the server side  url for update action based on json
-		view: set the view size for the sheet,for example `{width: () => 1000, height: ()=> 500}`
-	    mode: read means readonly spread sheet/edit means we can edit the spread sheet
-            allowSelectTextInTextBoxInReadMode: whether allow select text in TextBox control when in read mode,the default value is false
-	    showToolbar:   means whether to show toolbar
-	    showFileName:  whether to show the filename 
-	    local:         support multiple language for menus ,the locale can be:
-	                        en, cn, es, pt, de, ru, nl, 
-	                   for  English,Chinese,Spanish,Portuguese,German,Russian,Dutch
-			        ar, fr,id,it,ja
-                           for  Arabic,French,Indonesian,Italian,Japanese
-			        ko,th,tr,vi,cht
-                           for  Korean,Thai,Turkey,Vietnamese,Traditional Chinese                  
-	    showContextmenu:   means whether to show contextmenu on right click on a cell
-            loadingGif:  the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
-	for example the below code init a x_spreadsheet object.
+    id: the html node id ,for example :'#gridjs-demo' for the html  <div id="gridjs-demo"></div>
+    options: the load options
+
+
+for example the below code init a gridjs_spreadsheet object.
 	xs = x_spreadsheet('#gridjs-demo', {
 			updateMode:'server',
 			updateUrl:'/GridJs2/UpdateCell',
@@ -50,6 +38,26 @@ xs = x_spreadsheet(id, options)
 			showContextmenu: true
 			})
 ```
+Die Parameter für Laden-Optionen:
+
+| Parameter | Beschreibung | Standardwert | Optional |
+| --- | --- | --- | --- |
+| `allowSelectTextInTextBoxInReadMode` | Ob die Textauswahl in TextBox-Steuerelementen im Lesemodus erlaubt ist.<br>Der Standardwert ist false. | `false` | Ja |
+| `checkSyntax` | Ob die Syntaxprüfung und Rechtschreibkorrektur für die Benutzereingabe für Textinhalte durchgeführt wird.<br>Funktioniert mit setSyntaxCheckUrl.<br>Der Standardwert ist false. | `false` | Ja |
+| `loadingGif` | Die URL des Lade-GIFs beim Laden von Bildern/Shapes.<br>Der Standardwert ist content/img/updating.gif. | `content/img/updating.gif` | Ja |
+| `local` | Legen Sie Lokalisierungsinformationen für Menüs & Symbolleisten fest, die mehrere Sprachen unterstützen.<br>Mögliche Werte sind:<br>- `en, zh, es, pt, de, ru, nl` (für Englisch, Chinesisch, Spanisch, Portugiesisch, Deutsch, Russisch, Niederländisch)<br>- `ar, fr, id, it, ja` (für Arabisch, Französisch, Indonesisch, Italienisch, Japanisch)<br>- `ko, th, tr, vi, cht` (für Koreanisch, Thailändisch, Türkisch, Vietnamesisch, Traditionelles Chinesisch) | `en` | Ja |
+| `mode` | Kann `read` oder `edit` sein; `read` bedeutet eine nur lesbare Tabelle; `edit` bedeutet, dass die Tabelle bearbeitet werden kann. | Keine | Nein |
+| `searchHighlightColor` | Die Hervorhebungsfarbe für den Suchbegriff.<br>Die Farbe muss einen Alpha-Kanal für Transparenz enthalten. | `#dbe71338` | Ja |
+| `showCheckSyntaxButton` | Ob die Schaltflächen für Syntaxprüfung & Rechtschreibkorrektur in der Symbolleiste angezeigt werden.<br>Der Standardwert ist false. | `false` | Ja |
+| `showContextmenu` | Ob das Kontextmenü beim Rechtsklick auf eine Zelle angezeigt wird.<br>Der Standardwert ist true. | `true` | Ja |
+| `showFileName` | Ob der Dateiname angezeigt wird. | `true` | Ja |
+| `showFormulaExplain` | Ob ob Formelerklärungen angezeigt werden, wenn die Maus über die Zelle bewegt wird.<br>Arbeitet zusammen mit setFormulaExplainUrl.<br>Der Standardwert ist falsch. | `falsch` | Ja |
+| `showFormulaTip` | Ob die vorhandene Formel angezeigt wird, wenn die Maus über die Zelle bewegt wird.<br>Der Standardwert ist falsch. | `falsch` | Ja |
+| `showNonEditableSymbolInCell` | Ob ein clientseitiges Nicht-Bearbeitbar-Symbol in der Zelle angezeigt wird.<br>Wenn auf true gesetzt, zeigt die ausgewählte Fläche nach Klick auf das Kontextmenü "Bearbeitung deaktivieren" das Symbol.<br>Der Standardwert ist falsch. | `falsch` | Ja |
+| `showToolbar` | Ob die Leiste angezeigt wird. | `wahr` | Ja |
+| `updateMode` | Unterstützt derzeit nur `server`. | `server` | Nein |
+| `updateUrl` | Legt die serverseitige URL für Update-Aktionen anhand von JSON fest. | Keine | Nein |
+| `view` | Legt die Ansichtgröße für das Blatt fest, z.B. `{width: () => 1000, height: () => 500}`. | `{width: () => dokument.documentElement.clientWidth, height: () => dokument.documentElement.clientHeight}` | Ja |
 
 - Laden mit JSON-Daten
 ```javascript
@@ -78,6 +86,26 @@ xs.setActiveCell(row,col);
 	col: the cell column
 ```
 
+- Für mehrere Instanzen aktiv setzen 
+```javascript
+xs.setActiveForMultipleInstance(isacitve);
+// the parameters are:
+	isacitve: whether need to do edit operation at this xs instanse 
+// when there are more than one GridJs instances in one page, we need to call this method.
+// we only support do edit operation for one instances at a page.
+// for example,if we have two instances: xs1 and xs2 in one html page.
+// if we need to keep edit operation in xs1,
+// we shall call:
+xs1.setActiveForMultipleInstance(true);
+xs2.setActiveForMultipleInstance(false);
+
+// if we need not do any edit operation for both,
+// we shall call:
+xs1.setActiveForMultipleInstance(false);
+xs2.setActiveForMultipleInstance(false);
+
+```
+
 - Informationen für Form/Bilder-Bearbeitung für serverseitige Aktion festlegen
 ```javascript
 xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActionUrl, imageCopyActionUrl, zindex, loadingGif);
@@ -93,7 +121,7 @@ xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActio
             const imageuploadurl1 = "/GridJs2/AddImage";
             const imageuploadurl2 = "/GridJs2/AddImageByURL";
             const imagecopyurl = "/GridJs2/CopyImage";  
-	    const basiczorder = 5678;
+            const basiczorder = 5678;
     xs.setImageInfo(imageurl, imageuploadurl1, imageuploadurl2, imagecopyurl, basiczorder);
 ```
 
@@ -116,6 +144,25 @@ xs.setOleDownloadInfo(oleActionUrl);
     for example: 
             const oleDownloadUrl = "/GridJs2/Ole";
             xs.setOleDownloadInfo(oleDownloadUrl);
+```
+- Informationen für Syntaxprüfung & Rechtschreibkorrektur für serverseitige Aktionen setzen
+```javascript
+xs.setSyntaxCheckUrl(checkUrl);
+// the parameters are:
+	checkUrl: the  syntax checking & spell correction operation action URL in the server side controller
+    for example: 
+            const checkurl = "/GridJs2/CheckSyntax";
+            xs.setSyntaxCheckUrl(checkurl);
+```
+
+- Informationen zur Formelerklärung für serverseitige Aktionen setzen
+```javascript
+xs.setFormulaExplainUrl(formulaExplainUrl);
+// the parameters are:
+	formulaExplainUrl: the  formula explanation  action URL in the server side controller
+    for example: 
+            const formulaExplainUrl = "/GridJs2/FormulaExplain";
+            xs.setFormulaExplainUrl(formulaExplainUrl);
 ```
 
 
@@ -173,7 +220,8 @@ xs.destroy()
 
 -  Sichtbaren Filter für Bild/Form festlegen
 ```javascript
-    // need to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
+xs.setVisibleFilter((sheet,s) =>{})
+    //  to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
 	sheet:the sheet instance
 	s:the image or shape instance
     for example: 
@@ -184,15 +232,37 @@ xs.destroy()
 	//this will make invisible for image/shape in all sheets 
 		xs.setVisibleFilter((sheet,s) => {  return false; })
 	//if all the image/shape is already loaded and you want to change the visible filter at runtime,you can call the below code to trigger a reload for image/shape
-		xs.setActiveSheet(xs.getActiveSheet())
+		xs.reRender()
 ```
 
 -  Ausgewähltes Bild/Form abrufen, falls nichts ausgewählt ist, wird null zurückgegeben
 ```javascript
 xs.sheet.selector.getObj()
 ```
+- HTML-Knoten an einer bestimmten Zellenposition anzeigen oder verbergen
+```javascript
+xs.sheet.showHtmlAtCell(isShow, html, ri, ci, deltaX, deltaY)
 
--  Den auswählbaren Zustand für Bild/Form festlegen 
+    //the parameters are:
+    // - isShow: Boolean value indicating whether to show or hide the HTML content.
+    // - html: The HTML string to be displayed.
+    // - ri: Row index of the target cell.
+    // - ci: Column index of the target cell.
+    // - deltaX: (Optional) Relative X-position adjustment from the top-left corner of the cell.
+    // - deltaY: (Optional) Relative Y-position adjustment from the top-left corner of the cell.
+
+    // Example usage:
+    // Show HTML at cell A1
+    xs.sheet.showHtmlAtCell(true, "<span>html span</span><input length='30' id='myinput'>test</input>", 0, 0);
+
+    // Hide the HTML node
+    xs.sheet.showHtmlAtCell(false);
+
+    // Note: When an HTML node is shown, the default GridJS event handling is disabled to allow interaction with the HTML content.
+    // This means you cannot select any cells or perform edit operations until the HTML node is hidden.
+```
+
+- Den auswählbaren Zustand für Bild/Shape festlegen 
 ```javascript
 const shape=xs.sheet.selector.getObj();
 shape.setControlable(isenable)
@@ -367,8 +437,37 @@ xs.sheet.data.displayRight2Left
             }).on('sheet-loaded', (id,name) => {
                 console.log('sheet load finished:', id, ', name: ',name);
             }).on('cell-edited', (text, ri, ci) => {
+	        //just edit the cell
                 console.log('text:', text, ', ri: ', ri, ', ci:', ci);
+            }).on('cells-updated', (name, cells) => {
+	       //cell value got updated
+                console.log('cells updated for sheet name:', name);
+                cells.forEach((acell, index, array) => {
+                console.log('acell got updated:', acell);
+            })
+            }).on('cells-deleted', (range) => {
+                console.log('cells deleted :', range);
+            }).on('rows-deleted', (ri, n) => {
+                console.log('rows-deleted :', ri, ",size", n);
+
+            }).on('columns-deleted', (ci, n) => {
+                console.log('columns-deleted :', ci, ",size", n);
+
+            }).on('rows-inserted', (ri, n) => {
+                console.log('rows-inserted :', ri, ",size", n);
+
+            }).on('columns-inserted', (ci, n) => {
+                console.log('columns-inserted :', ci, ",size", n);
+
             });
+```
+- Pre-Check-Ereignis
+  Wenn Rückgabewert falsch, wird die Einfüge-/Löschoperation nicht fortgesetzt.
+```javascript
+  xs.checkRowInsert = (ri, size) => { if (ri % 2 == 1) return true; else return false; };
+  xs.checkColumnInsert = (ci, size) => { if (ci % 2 == 1) return true; else return false; };
+  xs.checkRowDelete = (ri, size) => { if (ri % 2 == 1) return true; else return false; };
+  xs.checkColumnDelete = (ci, size) => { if (ci % 2 == 1) return true; else return false; };
 ```
 
 ## Anpassung

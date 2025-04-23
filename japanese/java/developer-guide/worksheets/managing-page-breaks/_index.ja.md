@@ -51,6 +51,7 @@ Aspose.Cellsは、Excelファイルを表す[**Workbook**](https://reference.asp
 
 {{% alert color="primary" %}}
 
-**重要なこと**: ページ設定の**fit to page**プロパティ（すなわち[**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall)と[**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide)）を設定すると、ページの改ページ設定に影響が出ます。 そのため、ワークシートを印刷するときは、改ページ設定は考慮されませんが、ファイルにはまだ存在します。
+**重要な事項**：ページ設定の中の[**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall)および[**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide-)のページに合わせる設定を行うと、ページ区切り設定に影響があります。したがって、ワークシートを印刷する場合でも、ページ区切り設定は考慮されず、存在し続けます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

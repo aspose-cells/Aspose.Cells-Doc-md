@@ -12,3 +12,4 @@ Dieser Abschnitt hat folgende Themen:
 - [Smart Markers-Funktion](/cells/de/net/smart-markers-feature/)
 - [Verwendung anonymer Typen oder benutzerdefinierter Objekte](/cells/de/net/using-anonymous-types-or-custom-objects/)
 - [Verwendung von verschachtelten Objekten](/cells/de/net/using-nested-objects/)
+{{< app/cells/assistant language="csharp" >}}

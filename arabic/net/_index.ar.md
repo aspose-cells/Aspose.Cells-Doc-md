@@ -75,3 +75,4 @@ Aspose.Cells for .NET هو مكتبة فئات برمجية تتيح لمطور�
 			</ul>
 	</div>
 </div>
+{{< app/cells/assistant language="csharp" >}}

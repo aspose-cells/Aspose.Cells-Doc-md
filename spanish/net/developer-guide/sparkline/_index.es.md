@@ -22,3 +22,4 @@ Es sencillo crear un gráfico de chispa con Aspose.Cells con los siguientes ejem
 
 ## **Temas avanzados**
 - [Usar Gráficos de Chispa y Configuración de Formato 3D](/cells/es/net/using-sparklines-and-settings-3d-format/)
+{{< app/cells/assistant language="csharp" >}}

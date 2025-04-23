@@ -4,3 +4,4 @@ type: docs
 weight: 110
 url: /tr/java/fonts/
 ---
+{{< app/cells/assistant language="java" >}}

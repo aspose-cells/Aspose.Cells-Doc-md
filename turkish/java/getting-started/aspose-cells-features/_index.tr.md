@@ -106,3 +106,4 @@ Aspose.Cells for Java tüm elektronik tablo öğelerinin biçimlendirme özellik
 |Baskı alanı, baskı başlıkları belirleyin veya kılavuz çizgileri vs. açın.|Evet|
 
 
+{{< app/cells/assistant language="java" >}}

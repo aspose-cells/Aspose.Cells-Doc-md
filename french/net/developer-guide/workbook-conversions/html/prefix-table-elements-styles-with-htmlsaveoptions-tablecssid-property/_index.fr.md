@@ -34,3 +34,4 @@ Le code d'exemple suivant montre comment utiliser la propriété [**HtmlSaveOpti
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

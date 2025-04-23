@@ -27,3 +27,4 @@ Aspose.Cells 提供以下属性和方法，帮助您实现目标。
 1. 获取单元格上的 [Cell.Row](https://reference.aspose.com/cells/net/aspose.cells/cell/row/) 属性。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-max-index-of-row-and-column.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

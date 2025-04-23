@@ -22,3 +22,4 @@ Aspose.Cells允许您在运行时向电子表格中的图像添加超链接。�
 ![todo:image_alt_text](add-image-hyperlinks_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddImageHyperlinks-AddImageHyperlinks.java" >}}
+{{< app/cells/assistant language="java" >}}

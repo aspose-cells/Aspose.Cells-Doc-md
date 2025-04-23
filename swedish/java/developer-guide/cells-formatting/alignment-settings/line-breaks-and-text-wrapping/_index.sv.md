@@ -24,3 +24,4 @@ Följande provkod visar hur man använder textradering och explicita radbrytning
 Du kan använda '\n' i Java för att infoga explicita radbrytningar i en cell.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UseExplicitLineBreaks-UseExplicitLineBreaks.java" >}}
+{{< app/cells/assistant language="java" >}}

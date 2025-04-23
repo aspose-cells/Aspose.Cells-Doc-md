@@ -44,3 +44,4 @@ url: /ru/net/apply-conditional-formatting-in-worksheets/
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplyConditionalFormatting-ApplyConditionalFormattingFormula-1.cs" >}}
 
 При выполнении вышеуказанного кода условное форматирование применяется к ячейке “B3” в первом листе выходного файла (output.xls). Примененное условное форматирование зависит от формулы, которая вычисляет значение “B3” как сумму B1 и B2.
+{{< app/cells/assistant language="csharp" >}}

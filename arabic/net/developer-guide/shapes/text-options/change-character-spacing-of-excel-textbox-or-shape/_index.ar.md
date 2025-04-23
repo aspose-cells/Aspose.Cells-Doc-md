@@ -14,3 +14,4 @@ url: /ar/net/change-character-spacing-of-excel-textbox-or-shape/
 الكود المصدري التالي يقوم بتغيير تباعد الأحرف لصندوق النص في ملف Excel إلى النقطة 4 ثم يقوم بحفظه على القرص.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeTextBoxOrShapeCharacterSpacing-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

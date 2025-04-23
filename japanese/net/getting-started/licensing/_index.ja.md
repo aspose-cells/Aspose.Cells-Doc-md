@@ -311,3 +311,4 @@ WebアプリケーションのGlobal.asax.csにライセンスコードを配置
 }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

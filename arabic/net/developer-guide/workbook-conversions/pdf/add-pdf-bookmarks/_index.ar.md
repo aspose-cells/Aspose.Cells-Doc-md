@@ -22,3 +22,4 @@ url: /ar/net/add-pdf-bookmarks/
 إذا كان لديك جداول بيانات تحتوي على صيغ، فمن الأفضل استدعاء [**Workbook.CalculateFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula/index) قبل تقديم الجدول البياني إلى تنسيق PDF. سيضمن ذلك أن تكون القيم المعتمدة على الصيغ محدثة ومقدمة بشكل صحيح في ملف PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

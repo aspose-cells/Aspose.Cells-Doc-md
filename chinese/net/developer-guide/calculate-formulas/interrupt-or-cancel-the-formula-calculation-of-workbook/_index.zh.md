@@ -30,3 +30,4 @@ Aspose.Cells 提供了一种通过 [**AbstractCalculationMonitor.Interrupt()**](
 0----7----1----B8
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

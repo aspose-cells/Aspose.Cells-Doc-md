@@ -24,3 +24,4 @@ Der folgende Beispielcode lädt die [Beispieldatei Excel](64716905.xlsx) und gre
 Y Value Type: IsNumeric
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

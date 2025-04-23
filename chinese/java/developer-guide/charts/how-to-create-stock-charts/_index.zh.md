@@ -24,3 +24,4 @@ keywords: 添加股票图表，创建股票图表，生成股票图表。
 以下数据集显示了某股票的每日交易信息。我们将使用这些数据来创建Aspose.Cells中提供的4种股票图表。 
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="java" >}}

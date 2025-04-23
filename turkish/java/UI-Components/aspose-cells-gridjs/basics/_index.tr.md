@@ -22,7 +22,7 @@ Ayrıca Excel dosyalarını PDF, HTML vb. formatlara dışa aktarmayı da sağla
 - Dosyayı önbellekten almak için bir denetleyici işlemi kurun, böylece önbellekteki resim/şekiller zip dosyasını ya da elektronik tablo dosyasını alabiliriz. Bunun için GridCacheForStream.LoadStream API'sini kullanacaktır.
 - Elektronik tabloyu indirmek için bir denetleyici işlemi kurun. GridJsWorkbook.SaveToCacheWithFileName API'sini kullanabilirsiniz.
 
-Aşağıda Aspose.Cells.GridJs'in kullanımını göstermek için temel bir demo bulunmaktadır: https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs
+Aşağıda, Aspose.Cells.GridJs kullanımı gösteren temel bir demo bulunmaktadır: https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs
 
 
 Herhangi bir sorunuz, gereksiniminiz veya yardıma ihtiyacınız varsa lütfen aşağıdaki web sitesine geri bildirimde bulunun: https://forum.aspose.com/c/cells/9

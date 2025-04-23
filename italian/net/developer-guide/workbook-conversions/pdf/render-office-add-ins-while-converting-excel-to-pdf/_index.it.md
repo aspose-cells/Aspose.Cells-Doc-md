@@ -16,3 +16,4 @@ Il seguente codice di esempio salva il [file di Excel di esempio](60489769.xlsx)
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-RenderOfficeAdd_InsWhileConvertingExcelToPdf.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

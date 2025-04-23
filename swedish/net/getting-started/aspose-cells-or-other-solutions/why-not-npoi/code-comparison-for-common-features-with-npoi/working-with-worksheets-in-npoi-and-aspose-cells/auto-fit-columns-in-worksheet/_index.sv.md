@@ -89,3 +89,4 @@ Ladda ner **Justera kolumn** från någon av de nedan nämnda sociala kodningssi
 För mer information, besök [Arbeta med kalkylblad](/cells/sv/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

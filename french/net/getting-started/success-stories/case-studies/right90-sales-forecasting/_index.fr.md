@@ -28,3 +28,4 @@ Nous utilisons les fonctionnalités suivantes d'Aspose.Cells pour créer des feu
 Le composant Aspose.Cells nous a permis de construire et de lire rapidement des classeurs Excel, offrant à nos clients du secteur manufacturier une autre manière facile et intuitive de capturer, mettre à jour et consolider leurs prévisions de ventes avec Right90.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

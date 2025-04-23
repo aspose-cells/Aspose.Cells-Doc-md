@@ -16,3 +16,4 @@ Aspose.Cellsを使用して、セルをXMLマップの要素にリンクでき�
 [output excel file](5115467.xlsx)を開いて、開発者 > ソース ボタンをクリックすると、セルがXMLマップの要素にリンクされ、Microsoft Excelによって強調表示されます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LinkCellsToXmlMapElements-LinkCellsToXmlMapElements.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

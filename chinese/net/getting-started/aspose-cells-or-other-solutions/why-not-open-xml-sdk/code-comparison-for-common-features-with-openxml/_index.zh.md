@@ -20,3 +20,4 @@ url: /zh/net/code-comparison-for-common-features-with-openxml/
 - [从流中打开电子表格文档](/cells/zh/net/open-a-spreadsheet-document-from-a-stream/)
 - [检索电子表格文档中所有命名范围的字典](/cells/zh/net/retrieve-a-dictionary-of-all-named-ranges-in-a-spreadsheet-document/)
 - [检索单元格的值](/cells/zh/net/retrieve-the-values-of-cells/)
+{{< app/cells/assistant language="csharp" >}}

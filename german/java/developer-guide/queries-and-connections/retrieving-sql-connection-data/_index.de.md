@@ -38,3 +38,4 @@ Wenn das ExternalConnection-Objekt SQL-Verbindungsdaten enthält, kann es in ein
 
 
 
+{{< app/cells/assistant language="java" >}}

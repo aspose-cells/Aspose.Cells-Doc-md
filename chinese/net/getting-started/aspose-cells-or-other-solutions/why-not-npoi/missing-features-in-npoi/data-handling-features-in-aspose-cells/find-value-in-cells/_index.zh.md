@@ -49,3 +49,4 @@ Console.WriteLine("Name of the cell containing String: " + cell.Name);
 有关更多详细信息，请访问[查找或搜索数据](/cells/zh/net/find-or-search-data/)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

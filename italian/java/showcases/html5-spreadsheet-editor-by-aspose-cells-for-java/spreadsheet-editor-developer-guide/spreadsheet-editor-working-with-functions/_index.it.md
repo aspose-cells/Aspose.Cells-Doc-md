@@ -38,3 +38,4 @@ Per inserire una funzione o formula:
 1. Fare clic su una cella per selezionarla.
 1. Fare clic sul pulsante **Inserisci Funzione** in alto.
 1. Seguire le istruzioni sulla finestra di dialogo **Inserisci Funzione**.
+{{< app/cells/assistant language="java" >}}

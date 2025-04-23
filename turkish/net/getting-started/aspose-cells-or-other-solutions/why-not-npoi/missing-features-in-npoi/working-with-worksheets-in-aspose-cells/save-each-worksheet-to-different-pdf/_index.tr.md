@@ -65,3 +65,4 @@ Her çalışma sayfasını farklı bir PDF olarak kaydetmeyi indirin herhangi a�
 Daha fazla bilgi için [Her Çalışma Sayfasını Farklı Bir PDF Dosyasına Kaydetme](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/) adresini ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

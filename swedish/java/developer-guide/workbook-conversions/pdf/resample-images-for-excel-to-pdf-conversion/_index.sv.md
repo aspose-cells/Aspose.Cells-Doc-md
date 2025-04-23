@@ -21,10 +21,11 @@ Se följande exempelkod som beskriver hur man utför uppgiften med hjälp av Asp
 
 {{% alert color="primary" %}}
 
-Att använda [**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int))-alternativet minimerar storleken på utmatnings-PDF-filen men det kan påverka bildkvaliteten lite.
+Att använda [**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample-int-int-)-alternativet minimerar storleken på utmatnings-PDF-filen men det kan påverka bildkvaliteten lite.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
 Om ditt kalkylblad innehåller formler, är det bäst att anropa [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) strax innan du renderar kalkylbladet till PDF-format. Genom att göra det säkerställs att formelberoende värden beräknas om och de korrekta värdena renderas i PDF-filen.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

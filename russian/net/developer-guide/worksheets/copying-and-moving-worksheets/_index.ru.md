@@ -54,3 +54,4 @@ Aspose.Cells предоставляет метод [**Aspose.Cells.Worksheet.Mov
 В следующем примере показано, как переместить лист в другое место внутри рабочей книги.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-MoveWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

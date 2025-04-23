@@ -18,3 +18,4 @@ Aşağıdaki örnek kod, bir metin kutusu oluşturur ve içine bazı Japonca met
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

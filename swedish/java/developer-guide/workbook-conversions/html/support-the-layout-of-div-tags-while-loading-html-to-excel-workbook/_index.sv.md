@@ -14,3 +14,4 @@ Normalt ignoreras layouten av div-taggar vid laddning av HTML till ett Excel-arb
 Följande exempelkod illustrerar användningen av [HtmlLoadOptions.SupportDivTag](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#SupportDivTag) egenskap. Vänligen ladda ner [Aspose-logo](5473442.png) som används i indata-HTML och den [utdata excelfil](5473439.xlsx) som genererats av koden.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-SupportthelayoutofDIVtags-1.java" >}}
+{{< app/cells/assistant language="java" >}}

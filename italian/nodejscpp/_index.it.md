@@ -1,32 +1,32 @@
 ---
-title: Aspose.Cells per Node.js tramite C++
+title: Aspose.Cells for Node.js via C++
 type: docs
 weight: 50
 url: /it/nodejs-cpp/
 is_root: true
-description: Aspose.Cells per Node.js tramite C++ supporta i popolari formati di file Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, SpreadsheetML, CSV), OpenOffice (ODS), HTML e JSON e consente l esportazione di file Excel in PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, testo normale e formati di immagine popolari tra cui TIFF, JPG, PNG, BMP e SVG.
-keywords: Aspose.Cells per Node.js tramite C++ crea, ripara, modifica, analizza, unisce, converte JSON Excel XML PDF HTML TSV SQL TXT PNG JPEG e altri formati.
+description: Aspose.Cells for Node.js via C++ supporta i formati di file popolari Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, SpreadsheetML, CSV), OpenOffice (ODS), HTML e JSON e permette di esportare i file Excel in PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, testo semplice e formati di immagine popolari tra cui TIFF, JPG, PNG, BMP e SVG.
+keywords: Aspose.Cells for Node.js via C++ crea, ripara, modifica, analizza, unisce, converte JSON Excel XML PDF HTML TSV SQL TXT PNG JPEG e altri formati.
 ---
 
 {{% alert color="primary" %}}
 
 **![todo:image_alt_text](aspose-cells-for-node-js-via-cpp-home_1)**
 
-**Benvenuto in Aspose.Cells per Node.js tramite C++**
+**Benvenuto in Aspose.Cells for Node.js via C++**
 
-Aspose.Cells per Node.js tramite C++ presenta tutte le utili funzionalità di Aspose.Cells for C++ utilizzando Node.js. Aspose.Cells per Node.js tramite C++ è una libreria di classi che ti consente di eseguire una vasta gamma di attività di elaborazione dei fogli di calcolo. Aspose.Cells per Node.js tramite C++ è un'API scalabile e ricca di funzionalità che offre la conversione dei formati di fogli di calcolo, lo stile delle tabelle fino al livello più dettagliato, la gestione e il rendering dei grafici e il nostro affidabile motore di calcolo delle formule. Aspose.Cells per Node.js tramite C++ supporta XLS, XLSX, ODS, SpreadsheetML, CSV, Tab Delimited, HTML/MHTML, PDF, XPS e altri formati. Con Aspose.Cells per Node.js tramite C++ puoi generare, modificare, convertire e rendere documenti Excel.
+Aspose.Cells for Node.js via C++ presenta tutte le funzioni utili di Aspose.Cells for C++ usando Node.js. Aspose.Cells for Node.js via C++ è una libreria di classi che permette di svolgere un’ampia gamma di attività di elaborazione dei fogli di calcolo. Aspose.Cells for Node.js via C++ è un’API scalabile e ricca di funzionalità che offre conversione di formato dei fogli, stile dei fogli di lavoro fino al livello più granular, gestione e rendering di grafici, e il nostro affidabile Formula Calculation Engine. Aspose.Cells for Node.js via C++ supporta XLS, XLSX, ODS, SpreadsheetML, CSV, delimitato da tabulazione, HTML/MHTML, PDF, XPS e altri formati. Con Aspose.Cells for Node.js via C++ puoi generare, modificare, convertire e visualizzare documenti Excel.
 
 {{% /alert %}}
 
-## **Risorse di Aspose.Cells per Node.js tramite C++**
+## **Risorse Aspose.Cells for Node.js via C++**
 
 Di seguito sono forniti i link a alcune risorse utili che potrebbero essere necessarie per completare i tuoi compiti.
 
-- [Documentazione online Aspose.Cells for C++](/cells/it/cpp/)  (Aspose.Cells per Node.js tramite C++ è derivato da Aspose.Cells for C++. Quindi, puoi utilizzare la stessa documentazione)
-- [Funzionalità di Aspose.Cells per Node.js tramite C++](/cells/it/nodejs-cpp/features/)
-- [Note sulla versione di Aspose.Cells per Node.js tramite C++](https://releases.aspose.com/cells/nodejs-cpp/release-notes/)
-- [Pagina del prodotto Aspose.Cells per Node.js tramite C++](https://products.aspose.com/cells/nodejs-cpp/)
-- [Download Aspose.Cells per Node.js tramite C++](https://downloads.aspose.com/cells/nodejs-cpp/)
-- [Guida di riferimento API Aspose.Cells per Node.js tramite C++](https://reference.aspose.com/cells/nodejs-cpp/)
-- [Forum di supporto gratuito di Aspose.Cells per Node.js tramite C++](https://forum.aspose.com/c/cells/9)
-- [Helpdesk di supporto a pagamento di Aspose.Cells per Node.js tramite C++](https://helpdesk.aspose.com/)
+- [Documentazione Online Aspose.Cells for C++](/cells/it/cpp/) (Aspose.Cells for Node.js tramite C++ è portato da Aspose.Cells for C++. Quindi, puoi usare la stessa documentazione)
+- [Caratteristiche Aspose.Cells for Node.js via C++](/cells/it/nodejs-cpp/features/)
+- [Note di rilascio Aspose.Cells for Node.js via C++](https://releases.aspose.com/cells/nodejs-cpp/release-notes/)
+- [Pagina del prodotto Aspose.Cells for Node.js via C++](https://products.aspose.com/cells/nodejs-cpp/)
+- [Scarica Aspose.Cells for Node.js via C++](https://downloads.aspose.com/cells/nodejs-cpp/)
+- [Guida di riferimento API Aspose.Cells for Node.js via C++](https://reference.aspose.com/cells/nodejs-cpp/)
+- [Forum di supporto gratuito Aspose.Cells for Node.js via C++](https://forum.aspose.com/c/cells/9)
+- [Helpdesk supporto a pagamento Aspose.Cells for Node.js via C++](https://helpdesk.aspose.com/)

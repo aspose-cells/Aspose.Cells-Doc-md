@@ -44,3 +44,4 @@ java.lang.ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProv
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="java" >}}

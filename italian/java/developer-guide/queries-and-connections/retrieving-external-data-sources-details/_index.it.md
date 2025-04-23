@@ -34,3 +34,4 @@ Quando il codice viene eseguito, i dettagli della connessione vengono stampati s
 
 
 
+{{< app/cells/assistant language="java" >}}

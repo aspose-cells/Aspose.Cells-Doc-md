@@ -16,52 +16,63 @@ aliases:
 
 
 # GridJs Sunucu Tarafı ile Çalışmak
-## 0. Config'de doğru klasör yolunu ayarlayın
- **`Config.FileCacheDirectory`** için çalışbook önbellek dosyası.
- **`Config.PictureCacheDirectory`** çalışbook'taki resim dosyaları önbelleği için.
+## 1. startup.cs'de ConfigureServices içine servis ekleyin 
+```C#
+   services.AddScoped<IGridJsService, GridJsService>();
+```
+## 2. Önbellek Dosyalarını Saklamak İçin Yolu Ayarlayın
 
-depolama detayı için lütfen bu [kılavuza](/net/aspose-cells-gridjs/storage/) bakın
+Aşağıdaki yolları seçebilirsiniz:
 
-## 1. GridCacheForStream’i uygulayın
+ Seçenek 1: GridJsOptions'i Startup.cs'de ConfigureServices içinde ayarlayın
+```C#
+   services.Configure<GridJsOptions>(options =>
+	{
+		options.FileCacheDirectory = TestConfig.TempDir;
+	});
+```
+
+ Seçenek 2: Statik Özelliği Doğrudan Ayarlayın
+```C#
+   Config.FileCacheDirectory = TestConfig.TempDir;
+```
+
+ Seçenek 3: GridCacheForStream'i Uygulayarak Kendi Önbellek Saklama Kurallarınızı Tanımlayın
+
 Yerel dosya depolama için burada bir örnek:
 
 {{< gist "aspose-cells-gists" "fb32f5c7a98978432e5e05c50995a4ca" "LocalFileCache.cs" >}}
 
-Sunucu tarafı depolaması için de bir örnek sağlıyoruz.
-Please check: <https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
 
-## 2. Çalışma tablosundan json alın.
+Sunucu tarafı depolama için, bir örnek de sunuyoruz. Lütfen kontrol edin: 
+
+<https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
+
+
+Depolama hakkında daha fazla detay için, lütfen bu [kılavuza](/cells/tr/net/aspose-cells-gridjs/storage/) bakın
+
+
+## 3. Kontrolcü Eylemlerini Uygula
+
+### 1. GridJsControllerBase'yi Uzatan Bir Kontrolcü Oluşturun
+```C#
+public class GridJs2Controller : GridJsControllerBase
+```
+### 2. Eylemde JSON alın
+
+Eyleminizde JSON verisi almak için iki yöntem vardır:
+
+Seçenek 1: GridJsWorkbook kullanma
 ```C#
 GridJsWorkbook wbj = new GridJsWorkbook();
-using (FileStream fs = new FileStream(path, FileMode.Open))
-{
-    wbj.ImportExcelFile(fs,GridJsWorkbook.GetGridLoadFormat(Path.GetExtension(path)));
-}
-String ret =wbj.ExportToJson();
+Workbook wb = new Workbook(fullFilePath); 
+wbj.ImportExcelFile(wb);
+String ret =wbj.ExportToJson(fileName);
 ```
-## 3. Çalışma tablosundan resimleri/şekilleri alın
+Seçenek 2: GridJsControllerBase'de IGridJsService kullanma
 ```C#
-//Gridjs will automatically zip all the images/shapes into a zip stream  and store it in cache using the cache implemention.
-//GridJsWorkbook.CacheImp.SaveStream(zipoutStream, fileid);
-
-//get the fileid in the cache,uid is the unique id for the spreadsheet  instance, sheetid is the sheet index,
-String fileid=(uniqueid + "." + (sheetid + '_batch.zip'))
-
-//get the zip file stream by the fileid
-Stream s=GridJsWorkbook.CacheImp.LoadStream(fileid), mimeType, fileid.Replace('/', '.')
-```
-## 4. Önbellekte çalışma tablosunu güncelle
-```C#
-GridJsWorkbook gwb = new GridJsWorkbook();
-//p is the update json,uid is the unique id for the spreadsheet
-String ret = gwb.UpdateCell(p, uid);
-```
-## 5.  Önbellekte çalışma tablosunu kaydedin
-```C#
-GridJsWorkbook wb = new GridJsWorkbook();
-//p is the update json,uid is the unique id for the spreadsheet
-wb.MergeExcelFileFromJson(uid, p);
-wb.SaveToCacheWithFileName(uid, filename,password);
+ String uid= GridJsWorkbook.GetUidForFile(fileName)
+ StringBuilder ret= _gridJsService.DetailFileJsonWithUid(fullFilePath, uid);
 ```
 
 Detaylı bilgiler için buradaki örneği kontrol edebilirsiniz:

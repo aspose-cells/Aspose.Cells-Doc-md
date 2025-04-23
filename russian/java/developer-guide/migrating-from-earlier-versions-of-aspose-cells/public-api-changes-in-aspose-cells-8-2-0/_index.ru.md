@@ -31,3 +31,4 @@ url: /ru/java/public-api-changes-in-aspose-cells-8-2-0/
 Пожалуйста, проверьте подробную статью о [Автонастройке строк и столбцов](http://aspose.com/docs/display/cellsjava/AutoFit+Rows+and+Columns).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

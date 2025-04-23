@@ -26,3 +26,4 @@ url: /ar/net/check-if-vba-code-is-signed/
 Is VBA Code Project Signed: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

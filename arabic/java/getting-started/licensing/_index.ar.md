@@ -18,7 +18,7 @@ keywords: تطبيق ترخيص جافا من القرص أو التيار. تع
 1. المسار الصريح.
 1. المجلد الذي يحتوي على Aspose.Cells.jar.
 
-استخدم طريقة [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) لترخيص العنصر. غالبًا ما يكون أسهل طريقة لتعيين ترخيص هو وضع ملف الترخيص في نفس مجلد Aspose.Cells.jar وتحديد اسم الملف فقط دون مسار كما هو موضح في المثال التالي:
+استخدم طريقة [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense-java.io.InputStream-) لترخيص المكون. غالبًا ما يكون أسهل طريقة لضبط الترخيص هي وضع ملف الترخيص في نفس مجلد Aspose.Cells.jar وتحديد اسم الملف فقط بدون مسار كما هو موضح في المثال التالي:
 
 ### **كيفية تطبيق ترخيص من القرص**
 
@@ -99,3 +99,4 @@ double amountAfter = Metered.getConsumptionQuantity();
 System.out.println(amountAfter);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

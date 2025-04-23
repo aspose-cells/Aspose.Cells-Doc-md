@@ -62,3 +62,4 @@ Microsoft Excelでは、以下を表示するためのグループ設定を構�
 [**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index)には、ブール値の第三パラメーターを取るオーバーロードがあります。これを**true**に設定すると、グループ化された情報がすべて削除されます。それ以外の場合は、外部グループ化情報のみが削除されます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-UngroupingRowsAndColumns-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

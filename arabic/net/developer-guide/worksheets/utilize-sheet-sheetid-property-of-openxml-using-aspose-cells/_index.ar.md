@@ -28,3 +28,4 @@ keywords: خاصية sheet id لـ openxml c#، sheet id ورقة عمل الإ�
 Sheet or Tab Id: 1297
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

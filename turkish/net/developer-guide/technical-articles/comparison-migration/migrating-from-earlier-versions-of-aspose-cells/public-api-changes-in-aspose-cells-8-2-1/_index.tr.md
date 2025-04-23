@@ -28,3 +28,4 @@ Lütfen daha fazla bilgi için [Hücre Değerinin Veri Doğrulama Kurallarını 
 {{% /alert %}}
 ## **WorkbookRender sınıfı için PrinterSettings ile ToPrinter(PrinterSettings printerSettings) yöntemi aşırı yüklemesi eklendi**
 WorkbookRender sınıfı için aşırı yüklenmiş yöntemi kullanarak çalışma sayfasını Yazıcı üzerine oluşturabilirsiniz.
+{{< app/cells/assistant language="csharp" >}}

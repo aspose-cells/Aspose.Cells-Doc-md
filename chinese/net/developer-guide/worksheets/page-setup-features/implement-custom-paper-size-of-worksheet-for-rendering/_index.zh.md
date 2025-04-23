@@ -22,3 +22,4 @@ Aspose.Cells允许您实现所需的工作表纸张大小。您可以使用[**Cu
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ImplementCustomPaperSizeOfWorksheetForRendering.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

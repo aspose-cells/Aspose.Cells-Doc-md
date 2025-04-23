@@ -63,3 +63,4 @@ L'exemple ci-dessous ajoute des données d'exemple à une feuille de calcul, ajo
 - [Définir le Commentaire d'un Tableau ou Objet Liste à l'intérieur de la Feuille de Calcul](/cells/fr/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
 - [Tables et Plages](/cells/fr/net/tables-and-ranges/)
 
+{{< app/cells/assistant language="csharp" >}}

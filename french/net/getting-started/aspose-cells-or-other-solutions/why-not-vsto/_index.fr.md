@@ -45,3 +45,4 @@ Les composants Aspose sont très évolutifs et ultra-rapides. Ils constituent un
 - [Importer et exporter une feuille de calcul](/cells/fr/net/import-and-export-worksheet/)
 - [Impression et prévisualisation de classeurs](/cells/fr/net/print-and-preview/)
 - Et d'autres.
+{{< app/cells/assistant language="csharp" >}}

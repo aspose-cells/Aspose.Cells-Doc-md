@@ -361,3 +361,4 @@ Basit kullanım senaryosu aşağıda gösterilmektedir.
 ## **Removed APIs**
 ### **Workbook.Decrypt Yöntemi Kaldırıldı**
 Söz konusu özellik bir süre önce eski olarak işaretlendi. Bu sürümde, söz konusu özelliği tamamen halka açık API'den kaldırdı. Aynı hedefe ulaşmak için WorkbookSettings.Password özelliğini null olarak ayarlamak tavsiye edilir.
+{{< app/cells/assistant language="csharp" >}}

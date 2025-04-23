@@ -56,11 +56,11 @@ export LIBRARY_PATH="$LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions
 **System.DllNotFoundException: غير قادر على تحميل مكتبة مشتركة 'libSkiaSharp' أو أحد تبعياتها.** يرجى تثبيت SkiaSharp.
 {{< highlight NET >}}
 brew  install nuget
-nuget install SkiaSharp.NativeAssets.macOS -Version 2.88.3
+nuget install SkiaSharp.NativeAssets.macOS -Version 2.88.6
 {{< /highlight >}}
 بعد التثبيت، يرجى تشغيل الأمر التالي 
 {{< highlight NET >}}
-cp ./SkiaSharp.NativeAssets.macOS.2.88.3/runtimes/osx/native/libSkiaSharp.dylib /usr/local/lib/.
+cp ./SkiaSharp.NativeAssets.macOS.2.88.6/runtimes/osx/native/libSkiaSharp.dylib /usr/local/lib/.
 {{< /highlight >}}
 
 بالطبع، إذا كنت ترغب في ذلك بشكل أبسط، يمكنك أيضًا تنزيل [libSkiaSharp.dylib](libSkiaSharp.dylib) ثم **نسخها** إلى دليل **/usr/local/lib**.

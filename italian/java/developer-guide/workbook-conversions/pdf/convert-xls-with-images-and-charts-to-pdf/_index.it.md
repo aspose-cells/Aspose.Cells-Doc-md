@@ -27,3 +27,4 @@ Se il foglio di calcolo contiene formule, è meglio chiamare il metodo [**Workbo
 
 - [Convertire file Excel in formato PDF compatibile con PDFA-1a](/cells/it/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [Rendering del grafico](/cells/it/java/chart-rendering/)
+{{< app/cells/assistant language="java" >}}

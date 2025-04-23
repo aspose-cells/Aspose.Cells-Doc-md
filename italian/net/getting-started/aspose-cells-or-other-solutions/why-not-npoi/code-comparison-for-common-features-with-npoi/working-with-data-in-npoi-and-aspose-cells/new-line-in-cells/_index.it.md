@@ -77,3 +77,4 @@ Scarica **Nuova riga nelle celle** da uno dei siti di codice sociale menzionati 
 Per ulteriori dettagli, visita [Interruzioni di linea e testo avvolgente](/cells/it/net/line-breaks-and-text-wrapping/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

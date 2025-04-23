@@ -79,3 +79,4 @@ Open XML SDK 是一个类库，提供了一种强类型的处理 OOXML 文档的
 - 将文档转换为 PDF 或 XPS 格式，以便其呈现与 Microsoft Excel 完全一致。
 - 开发 .NET 或 Java 应用程序。
 
+{{< app/cells/assistant language="csharp" >}}

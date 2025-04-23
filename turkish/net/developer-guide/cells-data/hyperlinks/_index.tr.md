@@ -64,3 +64,4 @@ Harici Excel dosyalarına hiperbağlantı eklemek mümkündür, [Hyperlinks](htt
 - [Çalışma Sayfasının Bağlantılarını Düzenleme](/cells/tr/net/editing-hyperlinks-of-worksheet/)
 - [Aralıktaki Bağlantıları Al](/cells/tr/net/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="csharp" >}}

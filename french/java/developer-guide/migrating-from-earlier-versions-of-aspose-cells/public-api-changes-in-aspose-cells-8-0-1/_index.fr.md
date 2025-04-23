@@ -46,3 +46,4 @@ Les paramètres de mémoire ne fonctionneront pas pour la feuille par défaut cr
 Veuillez consulter l'article détaillé sur [Optimiser la mémoire lors du travail avec de grands ensembles de données](/cells/fr/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -18,3 +18,4 @@ Por favor consulta el siguiente código de muestra. Carga el [archivo de Excel d
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-SetMarginsOfCommentOrShapeInsideTheWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -11,6 +11,6 @@ url: /ar/cpp/load-workbook-with-specified-printer-paper-size/
 
 {{% /alert %}}
 
-يوضح الكود عينة التالية استخدام الطريقة [**LoadOptions.SetPaperSize()**](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/setpapersize/). يقوم أولاً بإنشاء دفتر عمل ، ثم يحفظه في تدفق الذاكرة بتنسيق XLSX. ثم يقوم بتحميله بحجم ورق A5 ويحفظه بصيغة PDF. ثم يقوم بتحميله مرة أخرى بحجم ورق A3 ويحفظه مرة أخرى بتنسيق PDF. إذا فتحت ملفات PDF الناتجة وفحصت حجم الورق الخاص بها ، سترى أنها مختلفة. إحداها بحجم A5 والأخرى بحجم A3. يرجى تنزيل [ملف PDF الناتج بحجم A5](PrinterSize-a5_out.pdf) و [ملف PDF الناتج بحجم A3](PrinterSize-a3_out.pdf) الذي تم إنشاؤه بواسطة الكود للرجوع إليه.
+يوضح رمز المثال التالي استخدام طريقة [**LoadOptions.SetPaperSize()**](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/setpapersize/). ينشئ في البداية دفتر عمل، ثم يحفظه في تدفق الذاكرة بتنسيق XLSX. ثم يتم تحميله بحجم ورقة A5 وحفظه بصيغة PDF. ثم يتم تحميله مرة أخرى بحجم ورقة A3 وحفظه مرة أخرى كملف PDF. إذا فتحت ملفات PDF الناتجة وتحقق من حجم الورق، ستجد أنها مختلفة. واحدة بحجم A5 والأخرى بحجم A3. يرجى تحميل [ملف PDF الناتج من A5](PrinterSize-a5_out.pdf) و[ملف PDF الناتج من A3](PrinterSize-a3_out.pdf) الناتج عن الكود كمراجع.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadWorkbookWithPrinterSize-1.cpp" >}}

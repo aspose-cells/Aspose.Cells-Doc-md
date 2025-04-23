@@ -16,3 +16,4 @@ Puede agregar etiquetas personalizadas a los puntos de datos en la serie del gr�
 El siguiente código crea un **Gráfico de dispersión conectado por líneas con marcadores de datos** y luego agrega **etiquetas personalizadas** a los **puntos de datos** en la **serie** del **gráfico**. Cada etiqueta personalizada muestra el **nombre de la serie** y el **nombre del punto**. Puede usar cualquier otro texto en su lugar.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-AddCustomLabelsToDataPoints-AddCustomLabelsToDataPointsInTheSeriesOfChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

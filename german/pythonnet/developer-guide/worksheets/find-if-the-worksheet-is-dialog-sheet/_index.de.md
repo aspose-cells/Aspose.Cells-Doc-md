@@ -3,8 +3,8 @@ title: Feststellen, ob das Arbeitsblatt ein Dialogblatt ist
 type: docs
 weight: 90
 url: /de/python-net/find-if-the-worksheet-is-dialog-sheet/
-description: Dialogblatt ist ein altes Format des Blatts. Dieser Artikel bietet Anweisungen und Beispielcode, um programmgesteuert festzustellen, ob ein Excel Arbeitsblatt ein Dialogblatt ist, das die Aspose.Cells für die Python via .NET Bibliothek verwendet.
-keywords: Python Excel Bibliothek, Python findet Excel Arbeitsblatt Dialogtyp, Arbeitsblatt Dialog in Python.
+description: Dialogblatt ist ein altes Format. Dieser Artikel bietet Anweisungen und Beispielcode, um programmgesteuert zu bestimmen, ob ein Excel Arbeitsblatt ein Dialogblatt ist, unter Verwendung der Aspose.Cells für Python via .NET Bibliothek.
+keywords: Python Excel Bibliothek, Python Dialogtyp für Excel Arbeitsblatt Suchdialog, Arbeitsblatt Dialog in Python.
 ---
 
 ## **Mögliche Verwendungsszenarien**
@@ -13,7 +13,7 @@ Ein Dialogblatt ist ein altes Format eines Arbeitsblatts mit einem Dialogfeld. E
 
 ![todo:image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
 
-Mit der [**Worksheet.type**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/type/)-Eigenschaft von Aspose.Cells für Python via .NET können Sie feststellen, ob das Blatt ein Dialogblatt oder ein anderes Blatttyp ist. Wenn der Enumeratorwert [**SheetType.DIALOG**](https://reference.aspose.com/cells/python-net/aspose.cells/sheettype/) zurückgibt, bedeutet dies, dass Sie es mit einem Dialogblatt zu tun haben.
+Sie können feststellen, ob das Blatt ein Dialogblatt oder ein anderer Blatttyp ist, mit der Eigenschaft [**Worksheet.type**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/type/), die von Aspose.Cells für Python via .NET bereitgestellt wird. Wenn sie den Enumerationswert [**SheetType.DIALOG**](https://reference.aspose.com/cells/python-net/aspose.cells/sheettype/) zurückgibt, bedeutet dies, dass Sie es mit einem Dialogblatt zu tun haben.
 
 ## **Feststellen, ob das Arbeitsblatt ein Dialogblatt ist**
 

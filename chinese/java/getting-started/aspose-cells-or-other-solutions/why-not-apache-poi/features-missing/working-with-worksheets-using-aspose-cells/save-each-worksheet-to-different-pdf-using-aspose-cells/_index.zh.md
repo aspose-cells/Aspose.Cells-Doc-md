@@ -68,3 +68,4 @@ for (int j = 0; j < workbook.getWorksheets().getCount(); j++)
 查看更多详情，请访问[将每个工作表保存为不同的PDF文件](/cells/zh/java/save-each-worksheet-to-a-different-pdf-file)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

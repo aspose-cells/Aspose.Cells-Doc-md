@@ -16,3 +16,4 @@ Aspose.Cellsを使用して、VBAコードのデジタル署名が有効かど�
 提供されたリンクから[サンプルのExcelファイル](5115030.xlsm)をダウンロードし、このプロパティの使用方法を示すコードを実演しています。同じExcelファイルには有効な署名がありますが、VBAコードを変更してワークブックを保存した後、再チェックすると署名が無効になることが分かります。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-CheckVbaSignatureIsValid-CheckVbaSignatureIsValid.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

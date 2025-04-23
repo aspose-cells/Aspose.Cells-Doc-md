@@ -164,3 +164,4 @@ fill.SetOneColorGradient(Color.Red, 0.1, GradientStyleType.Horizontal, 2);
 代わりにShape.Fillプロパティを使用してください。
 ### **非推奨のFontSetting.ShapeFontプロパティ**
 代わりにFontSetting.TextOptionsプロパティを使用してください。
+{{< app/cells/assistant language="csharp" >}}

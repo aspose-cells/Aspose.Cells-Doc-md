@@ -48,3 +48,4 @@ Aspose.Cells позволяет шифровать и защищать паро�
 - [Укажите автора при защите от записи книги](/cells/ru/net/specify-author-while-write-protecting-workbook/)
 - [Проверка пароля зашифрованных файлов](/cells/ru/net/verify-password-of-encrypted-excel-and-ods-files/)
 
+{{< app/cells/assistant language="csharp" >}}

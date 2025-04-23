@@ -75,3 +75,4 @@ Aspose.Cells for .NET поддерживает популярные формат
 			</ul>
 	</div>
 </div>
+{{< app/cells/assistant language="csharp" >}}

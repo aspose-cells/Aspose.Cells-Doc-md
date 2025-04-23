@@ -26,3 +26,4 @@ Aspose.Cells APIを使用すると、ラインチャートを利用してウォ�
 ## 関連記事
 
 - [グラフの作成とカスタマイズ](/cells/ja/java/creating-and-customizing-charts/)
+{{< app/cells/assistant language="java" >}}

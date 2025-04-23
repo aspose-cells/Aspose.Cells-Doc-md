@@ -56,3 +56,4 @@ Bu örnek, zaten bir diziye uygulanmış olan bir stil olan Yüzde'nin bulunduğ
 Değişiklikler otomatik olarak uygulanan aralığa uygulanır.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ModifyExistingStyle-ModifyExistingStyle.java" >}}
+{{< app/cells/assistant language="java" >}}

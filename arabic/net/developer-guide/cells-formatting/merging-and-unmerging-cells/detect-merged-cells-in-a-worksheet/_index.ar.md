@@ -15,6 +15,7 @@ url: /ar/net/detect-merged-cells-in-a-worksheet/
 
 {{% /alert %}}
 
-توفر المكونة الطريقة [**Cells.GetMergedAreas()**](https://reference.aspose.com/cells/net/aspose.cells/cells/getmergedareas/) التي يمكن أن تحصل على جميع الخلايا المدمجة. يعرض الكود المصدري التالي كيفية اكتشاف الخلايا المدمجة في ورقة العمل.
+يوفر المكون metodologia [**Cells.GetMergedAreas()**](https://reference.aspose.com/cells/net/aspose.cells/cells/getmergedareas/) التي يمكنها الحصول على جميع الخلايا المدمجة. يعرض لك نموذج الشفرة التالي كيفية اكتشاف الخلايا المدمجة في ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DetectMergedCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

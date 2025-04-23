@@ -61,3 +61,4 @@ L'exemple suivant montre comment tracer les précédents et les dépendants selo
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-TracingDependenciesInCalculation.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

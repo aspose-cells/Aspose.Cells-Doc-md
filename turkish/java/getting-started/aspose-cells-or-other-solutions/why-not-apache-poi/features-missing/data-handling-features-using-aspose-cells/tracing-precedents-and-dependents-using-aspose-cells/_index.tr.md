@@ -15,3 +15,4 @@ url: /tr/java/tracing-precedents-and-dependents-using-aspose-cells/
 Daha fazla bilgi için [Öncüllerin ve Bağımlılıkların İzlenmesi](/cells/tr/java/oncesler-ve-bagimliliklar) sayfasını ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

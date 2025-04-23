@@ -52,7 +52,7 @@ Definieren Sie dann die Aspose.Cells for Java-API-Abhängigkeit in Ihrer pom.xm
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.7</version>
+            <version>25.4</version>
 
         </dependency>
 
@@ -62,7 +62,7 @@ Definieren Sie dann die Aspose.Cells for Java-API-Abhängigkeit in Ihrer pom.xm
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.7</version>
+            <version>25.4</version>
 
             <classifier>javadoc</classifier>
 
@@ -107,3 +107,4 @@ In der Regel verwendet Aspose.Cells for Java Javas ImageIO zum Laden von Rasterb
 Bitte überprüfen Sie das Folgende, um schnelle technische Unterstützung zu erhalten
 
 [Aspose.Cells - Foren](https://forum.aspose.com/c/cells/9)
+{{< app/cells/assistant language="java" >}}

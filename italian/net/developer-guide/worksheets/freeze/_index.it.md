@@ -40,3 +40,4 @@ I blocchi congelati ti permettono di visualizzare i tuoi dati senza dover tenere
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Pane.cs" >}}
 
 File Excel di esempio allegato (Freeze.xlsx).
+{{< app/cells/assistant language="csharp" >}}

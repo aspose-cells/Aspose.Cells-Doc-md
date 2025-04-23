@@ -7,7 +7,7 @@ url: /ru/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells предоставляет метод [PivotTable.getCellByDisplayName()](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getCellByDisplayName\(java.lang.String\)), который можно использовать для доступа к объекту ячейки по отображаемому имени поля сводной таблицы. Этот метод полезен, когда вы хотите выделить или отформатировать заголовок поля сводной таблицы. В этой статье объясняется, как получить объект ячейки по отображаемому имени поля данных, а затем применить к нему форматирование.
+Aspose.Cells предоставляет метод [PivotTable.getCellByDisplayName()](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getCellByDisplayName-java.lang.String-), который можно использовать для доступа к ячейке по отображаемому имени поля сводной таблицы. Этот метод удобен для выделения или форматирования заголовка поля сводной таблицы. В статье объясняется, как получить объект ячейки по отображаемому имени поля данных и применить к нему форматирование.
 
 {{% /alert %}} 
 ## **Получить объект ячейки по отображаемому имени поля сводной таблицы**
@@ -24,3 +24,4 @@ Aspose.Cells предоставляет метод [PivotTable.getCellByDisplayN
 
 
 
+{{< app/cells/assistant language="java" >}}

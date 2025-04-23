@@ -97,9 +97,7 @@ Um diese Steuerelemente zu verwenden, muss die Maschine für Aspose.Cells.GridDe
 {{% /alert %}} 
 ### **Aspose.Cells.GridDesktop**
 #### **.NET Framework**
-- .NET Framework 2.0
-- .NET Framework 3.0
-- .NET Framework 3.5
+
 - .NET Framework 4.0
 - .NET Framework 4.5
 - .NET Framework 4.5.1
@@ -142,9 +140,6 @@ Um diese Steuerelemente zu verwenden, muss die Maschine für Aspose.Cells.GridDe
 - Microsoft Windows 11
 ### **Aspose.Cells.GridWeb**
 #### **.NET Framework**
-- .NET Framework 2.0
-- .NET Framework 3.0
-- .NET Framework 3.5
 - .NET Framework 4.0
 - .NET Framework 4.5
 - .NET Framework 4.5.1
@@ -157,10 +152,12 @@ Um diese Steuerelemente zu verwenden, muss die Maschine für Aspose.Cells.GridDe
 - .NET Framework 4.8
 - .NET Framework 4.8.1
 ### **.NET Core**
-- .NET 6.0 windows 
+- .NET 6.0 Windows- und Nicht-Windows-Systeme
 - .NET 7.0 windows
+- .NET 8.0 Windows
 #### **Die NuGet-Pakete, auf die von Aspose.Cells.GridWeb für .NET Core verwiesen wird**
-- System.Drawing.Common, 7.0.0.
+- System.Drawing.Common, 7.0.0 (auf Windows-System).
+- SkiaSharp, 2.88.3 (auf Nicht-Windows-Systemen).
 - System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.3.
 #### **Entwicklungswerkzeuge**
@@ -226,3 +223,4 @@ Um diese Steuerelemente zu verwenden, muss die Maschine für Aspose.Cells.GridDe
 - Linux (Ubuntu, openSUSE, CentOS, Debian, Alpine und andere)
 ### **Mac**
 - Mac OS X, macOS High Sierra, usw.
+{{< app/cells/assistant language="csharp" >}}

@@ -45,3 +45,4 @@ Aspose 组件具有高度的可扩展性和闪电般的速度。它们是真正�
 - [导入和导出工作表](/cells/zh/net/import-and-export-worksheet/)
 - [打印和预览工作簿](/cells/zh/net/print-and-preview/)
 - 以及其他。
+{{< app/cells/assistant language="csharp" >}}

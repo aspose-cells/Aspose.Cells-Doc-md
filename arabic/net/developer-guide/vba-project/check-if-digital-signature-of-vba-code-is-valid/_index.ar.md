@@ -16,3 +16,4 @@ url: /ar/net/check-if-digital-signature-of-vba-code-is-valid/
 الكود التالي يوضح استخدام هذه الخاصية باستخدام [ملف الإكسل العيني](5115030.xlsm) الذي يمكنك تنزيله من الرابط المُقدم. يحتوي نفس ملف Excel على توقيع صالح ولكن عند تعديل شيفر آلي VBA وحفظ سجل العمل ثم إعادة التحقق ، نجد أن توقيعه أصبح غير صالح.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-CheckVbaSignatureIsValid-CheckVbaSignatureIsValid.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

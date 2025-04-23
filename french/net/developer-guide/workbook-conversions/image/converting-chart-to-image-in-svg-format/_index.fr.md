@@ -20,3 +20,4 @@ Le code d'exemple suivant explique comment utiliser Aspose.Cells pour convertir 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-ConvertChartToSvgImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

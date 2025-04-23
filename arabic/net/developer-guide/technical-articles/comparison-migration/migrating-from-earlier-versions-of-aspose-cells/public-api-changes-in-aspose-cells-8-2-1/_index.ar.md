@@ -28,3 +28,4 @@ url: /ar/net/public-api-changes-in-aspose-cells-8-2-1/
 {{% /alert %}}
 ## **تمت إضافة تحميل ToPrinter(PrinterSettings printerSettings) الزائد لفئة WorkbookRender**
 يمكنك استخدام الطريقة المكدسة لعرض الدفتر على الطابعة عبر PrinterSettings.
+{{< app/cells/assistant language="csharp" >}}

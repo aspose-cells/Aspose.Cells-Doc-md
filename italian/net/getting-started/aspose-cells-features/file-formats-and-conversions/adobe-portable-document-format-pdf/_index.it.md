@@ -24,3 +24,4 @@ La soluzione Aspose supporta completamente le seguenti funzionalità dei documen
 - Celle unite, interruzioni di pagina, titoli di stampa
 
 Puoi anche consultare la [specifica dettagliata](https://docs.aspose.com/cells/net/convert-excel-workbook-to-pdf/) su come Aspose.Cells converta un documento in PDF.
+{{< app/cells/assistant language="csharp" >}}

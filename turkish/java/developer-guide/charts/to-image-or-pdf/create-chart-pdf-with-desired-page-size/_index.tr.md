@@ -12,3 +12,4 @@ Lütfen [örnek Excel dosyasını](64716912.xlsx) yükleyen, çalışma sayfası
 
 ![todo:image_alt_text](create-chart-pdf-with-desired-page-size_1.png)
 ## **Örnek Kod**
+{{< app/cells/assistant language="java" >}}

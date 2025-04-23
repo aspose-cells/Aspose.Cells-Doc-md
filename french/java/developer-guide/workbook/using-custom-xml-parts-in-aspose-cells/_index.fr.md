@@ -11,11 +11,11 @@ Les pièces de XML personnalisées sont les données XML stockées par différen
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_1.png)
 
-Vous pouvez ajouter des pièces de XML personnalisées en utilisant Aspose.Cells via la méthode [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)).
+Vous pouvez ajouter des parties XML personnalisées à l'aide d'Aspose.Cells via la méthode [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-)
 
 {{% /alert %}} 
 ## **Utilisation de pièces de XML personnalisées dans Aspose.Cells**
-L'exemple de code suivant utilise [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)) méthode et ajoute le **Catalogue de livres Xml** et son nom est **Librairie**. L'image suivante montre le résultat de ce code. Comme vous pouvez le voir, le Catalogue de livres Xml est ajouté à l'intérieur du nœud Librairie qui est le nom de cette propriété.
+Le code suivant utilise la méthode [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-) pour ajouter le **Book Catalog Xml** dont le nom est **BookStore**. L'image suivante montre le résultat de ce code. Comme vous pouvez le voir, le Book Catalog Xml est ajouté à l'intérieur du nœud BookStore, qui est le nom de cette propriété.
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_2.png)
 
@@ -26,3 +26,4 @@ L'exemple de code suivant utilise [Workbook.getContentTypeProperties().add()](ht
 - [Ajout de propriétés personnalisées visibles dans le volet Informations sur le document](/cells/fr/java/adding-custom-properties-visible-inside-document-information-panel/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

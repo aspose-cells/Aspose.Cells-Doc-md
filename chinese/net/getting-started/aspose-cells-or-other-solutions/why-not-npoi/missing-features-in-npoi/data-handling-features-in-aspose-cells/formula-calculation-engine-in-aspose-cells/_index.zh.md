@@ -69,3 +69,4 @@ book.Save("AsposeFormulaEngine.xls");
 要了解更多详细信息，请访问[公式计算引擎](/cells/zh/net/formula-calculation-engine/)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

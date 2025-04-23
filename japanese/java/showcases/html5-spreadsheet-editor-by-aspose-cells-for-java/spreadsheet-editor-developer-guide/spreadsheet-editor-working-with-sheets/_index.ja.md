@@ -173,3 +173,4 @@ Microsoft Excel では単一ファイル内に複数のシートを持つこと�
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

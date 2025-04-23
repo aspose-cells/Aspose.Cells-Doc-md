@@ -23,3 +23,4 @@ url: /ja/net/delete-blank-rows-and-columns-in-a-worksheet/
 ## 空白の列を削除するためのC#コード
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DeleteBlankRowsColumns-DeletingBlankColumns-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

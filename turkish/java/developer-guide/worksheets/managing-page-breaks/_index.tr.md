@@ -51,6 +51,7 @@ Bir çalışma sayfasındaki tüm sayfa kesmelerini temizlemek için, [**Horizon
 
 {{% alert color="primary" %}}
 
-**Bilinmesi Gerekenler**: Sayfa düzeni ayarlarındaki sığdırma özellikleri (yani [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) ve [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide)) ayarlandığında, sayfa kesme ayarları etkilenir, bu nedenle çalışma sayfasını yazdırırsanız, sayfa kesme ayarları dikkate alınmaz, ancak dosyada hala mevcuttur.
+**Bilmeniz gereken önemli**: Sayfa ayarlarında [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) ve [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide-) değil, sayfa bölme ayarlarını etkiler, bu nedenle çalışma sayfasını yazdırırken, sayfa bölme ayarları dikkate alınmaz; dosyada mevcut olsalar da.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -323,3 +323,4 @@ workbook.Save("c:\test\out_My_Book1.xls")
 
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

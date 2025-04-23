@@ -27,3 +27,4 @@ url: /ar/net/hypertext-markup-language-format/
 يرجى الاطلاع على المقالة التوثيقية التالية التي تشرح كيفية تحويل/حفظ سجلات/جداول العمل الخاصة بك إلى تنسيق HTML.
 
 - [تحويل ملفات Excel إلى HTML](/cells/ar/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktohtml)
+{{< app/cells/assistant language="csharp" >}}

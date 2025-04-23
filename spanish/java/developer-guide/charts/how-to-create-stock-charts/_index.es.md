@@ -24,3 +24,4 @@ Los gráficos de cotización son un tipo específico de gráfico utilizado para 
 El siguiente conjunto de datos muestra la información de negociación diaria de una acción. Vamos a utilizar estos datos para crear cada uno de los 4 gráficos de acciones disponibles en Aspose.Cells. 
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="java" >}}

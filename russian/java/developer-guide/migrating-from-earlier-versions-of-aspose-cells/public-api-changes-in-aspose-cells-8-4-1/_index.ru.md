@@ -275,3 +275,4 @@ renderer.toImage(0, "output.svg");
 ## **Устаревшие API**
 ### **Метод Workbook.validateFormula устарел.**
 Используйте свойство Cell.Formula для проверки формулы.
+{{< app/cells/assistant language="java" >}}

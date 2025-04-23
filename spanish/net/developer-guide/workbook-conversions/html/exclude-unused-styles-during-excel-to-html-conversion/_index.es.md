@@ -18,3 +18,4 @@ El siguiente código de muestra crea un libro de trabajo y también crea un esti
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-ExcludeUnusedStylesInExcelToHTML.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

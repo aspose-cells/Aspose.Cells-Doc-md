@@ -14,3 +14,4 @@ Du behöver ofta veta versionsnumret för programmet som skapade ett Microsoft E
 Följande exempelkod visar hur man använder egenskapen [**Workbook.BuiltInDocumentProperties.Version**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/version). Den läser in Excel-filer skapade med Microsoft Excel 2003, 2007, 2010 och 2013 och skriver ut versionsnumret för det program som skapade dessa Excel-dokument.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-GetApplicationVersion-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

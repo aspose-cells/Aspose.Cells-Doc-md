@@ -49,3 +49,4 @@ Aspose.Cells - мощный компонент .NET и Java, который по
 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-rotate-text.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

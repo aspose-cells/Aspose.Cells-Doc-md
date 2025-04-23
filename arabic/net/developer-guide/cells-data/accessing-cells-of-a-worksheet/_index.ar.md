@@ -56,3 +56,4 @@ keywords: الحصول على كائن الخلية، الوصول إلى الخ
 يمكنك الوصول إلى النطاق الأقصى لعرض ورقة العمل باستخدام [**Worksheet.Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange). يوضح الشيفرة البرمجية النموذجية التالية كيفية الوصول إلى الخاصية [**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -100,3 +100,4 @@ Den här artikeln visar hur du ställer in sid-layout och arkutskriftsalternativ
 Aspose.Cells drar nytta av års forskning, design och noggrann justering. Vi välkomnar varmt dina frågor, kommentarer och förslag på [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9). Vi garanti en snabb svar.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

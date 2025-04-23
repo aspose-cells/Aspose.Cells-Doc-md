@@ -24,3 +24,4 @@ Aspose.Cellsはギア型スマートアート形状からテキストを抽出�
 Gear Type Shape Text: Nice Gear Type Shape Text: Good Gear Type Shape Text: Excellent
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

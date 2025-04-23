@@ -16,3 +16,4 @@ Le code d'exemple suivant crée un classeur, remplit sa feuille de calcul avec d
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExportToHTMLWithGridLines-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

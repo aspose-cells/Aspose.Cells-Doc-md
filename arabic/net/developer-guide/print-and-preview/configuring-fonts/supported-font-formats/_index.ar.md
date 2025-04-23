@@ -10,3 +10,4 @@ url: /ar/net/supported-font-formats/
 |**TTF**| TrueType Fonts|
 |**TTC**| TrueType Collection|
 |**OTF**| OpenType Fonts|
+{{< app/cells/assistant language="csharp" >}}

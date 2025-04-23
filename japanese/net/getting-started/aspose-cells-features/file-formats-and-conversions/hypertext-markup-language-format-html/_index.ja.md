@@ -27,3 +27,4 @@ Asposeの解決方法は、次のドキュメント機能への変換を利用�
 次のドキュメンテーション記事を参照し、ワークブック/スプレッドシートをHTML形式に変換/保存する方法を説明しています。
 
 - [ExcelファイルをHTMLに変換する](/cells/ja/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktohtml)
+{{< app/cells/assistant language="csharp" >}}

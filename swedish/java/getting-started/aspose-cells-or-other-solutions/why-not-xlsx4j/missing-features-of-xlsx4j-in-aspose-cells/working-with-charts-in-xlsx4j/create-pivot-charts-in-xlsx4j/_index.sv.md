@@ -57,3 +57,4 @@ workbook.save(dataDir + "Aspose_PivotChart_Out.xls");
 För mer information, besök [Skapa Pivottabeller och Pivotdiagram](/cells/sv/java/skapa-pivottabeller-och-pivotdiagram/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

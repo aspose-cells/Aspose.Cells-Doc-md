@@ -20,3 +20,4 @@ Aspose.Cells prend en charge la conversion de fichiers XLS contenant des images 
 Si la feuille de calcul contient des formules, il est préférable d'appeler la méthode [Workbook.CalculateFormula](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) juste avant de rendre en PDF. Cela garantit que les valeurs dépendantes de la formule sont recalculées et que les valeurs correctes sont rendues dans le PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

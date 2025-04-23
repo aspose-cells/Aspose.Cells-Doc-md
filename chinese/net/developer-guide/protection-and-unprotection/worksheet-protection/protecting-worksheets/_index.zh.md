@@ -104,3 +104,4 @@ Aspose.Cells允许您轻松锁定工作表中的任何列。在这里，我们�
 下面的示例展示了如何允许用户在受保护的工作表中编辑范围。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-EditRangesWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -34,3 +34,4 @@ Comme vous pouvez le constater, **J1000000** est une cellule assez éloignée da
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Example-StopConversionOrLoadingUsingInterruptMonitor.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

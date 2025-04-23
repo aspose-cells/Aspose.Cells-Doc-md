@@ -41,3 +41,4 @@ Alcuni file di Excel si corrompono perché alcuni nomi definiti sono duplicati. 
 
 
 
+{{< app/cells/assistant language="csharp" >}}

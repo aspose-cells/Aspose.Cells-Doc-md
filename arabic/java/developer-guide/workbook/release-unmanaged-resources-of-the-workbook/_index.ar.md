@@ -7,10 +7,11 @@ url: /ar/java/release-unmanaged-resources-of-the-workbook/
 
 {{% alert color="primary" %}} 
 
-توفر Aspose.Cells طريقة [Workbook.dispose()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#dispose\(\)) لإطلاق موارد المصنف العمل غير المُدارة لكائن [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook). تُستخدم النمط المتحرر فقط للكائنات التي تصل إلى الموارد غير المُدارة ، مثل مقابض الملف والأنابيب ومقابض التسجيل ومقابض الانتظار أو المؤشرات على مجموعات ذاكرة غير مُدارة. هذا لأن المجمع الضاغط فعال جدًا في استرداد الكائنات المُدارة غير المستخدمة ، ولكنه غير قادر على استرداد الكائنات غير المُدارة.
+توفر Aspose.Cells طريقة [Workbook.dispose()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#dispose--) لتحرير الموارد غير المُدارة للكائن [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook). يُستخدم نمط التخلص فقط للأشياء التي تصل إلى الموارد غير المُدارة، مثل مقابض الملفات والأنابيب، ومقابض السجل، ومقابض الانتظار أو المؤشرات إلى كتل من الذاكرة غير المُدارة. وذلك لأن جامع القمامة فعال جدًا في استرداد الكائنات المُدارة غير المستخدمة، لكنه غير قادر على استرداد الكائنات غير المُدارة.
 
 {{% /alert %}} 
 ## **إطلاق موارد المصنف العمل غير المُدارة**
-يظهر الكود المثالي التالي كيفية استخدام أسلوب [Workbook.dispose()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#dispose\(\)).
+يعرض الكود النموذجي التالي كيفية استخدام طريقة [Workbook.dispose()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#dispose--)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReleaseUnmanagedResources-ReleaseUnmanagedResources.java" >}}
+{{< app/cells/assistant language="java" >}}

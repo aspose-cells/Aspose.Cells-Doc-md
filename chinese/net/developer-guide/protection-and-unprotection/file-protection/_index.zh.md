@@ -48,3 +48,4 @@ Aspose.Cells允许您使用所需的加密类型对Microsoft Excel文件进行�
 - [在保护工作簿时指定作者](/cells/zh/net/specify-author-while-write-protecting-workbook/)
 - [验证已加密文件的密码](/cells/zh/net/verify-password-of-encrypted-excel-and-ods-files/)
 
+{{< app/cells/assistant language="csharp" >}}

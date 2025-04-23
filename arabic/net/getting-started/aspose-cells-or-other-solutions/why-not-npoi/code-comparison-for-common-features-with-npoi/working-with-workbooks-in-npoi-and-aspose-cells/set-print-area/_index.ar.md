@@ -134,3 +134,4 @@ sw.Close();
 للحصول على مزيد من التفاصيل، قم بزيارة [ضبط خيارات الطباعة](/cells/ar/net/setting-print-options/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -7,7 +7,7 @@ url: /ar/java/direct-calculation-of-custom-function-without-writing-it-in-a-work
 
 {{% alert color="primary" %}} 
 
-يشرح هذا المقال كيف يمكنك حساب الدوال المخصصة بشكل مباشر دون كتابتها أولاً في ورقة عمل. يرجى استخدام طريقة [Worksheet.calculateFormula(string formula, CalculationOptions opts)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula\(java.lang.String,%20com.aspose.cells.CalculationOptions\)) لهذا الغرض.
+يشرح هذا المقال كيف يمكنك حساب دوالك المخصصة مباشرة بدون كتابتها أولاً في ورقة عمل. يرجى استخدام [Worksheet.calculateFormula(string formula, CalculationOptions opts)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula-java.lang.String-com.aspose.cells.CalculationOptions-) لهذا الغرض.
 
 {{% /alert %}} 
 ## **الحساب المباشر للوظيفة المخصصة دون كتابتها في ورقة العمل**
@@ -28,3 +28,4 @@ url: /ar/java/direct-calculation-of-custom-function-without-writing-it-in-a-work
 - [تنفيذ محرك الحساب المخصص لتوسيع محرك الحساب الافتراضي لـ Aspose.Cells](/cells/ar/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

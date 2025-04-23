@@ -38,3 +38,4 @@ url: /ar/net/change-tick-label-direction/
 [ملف المصدر](105480221.xlsx)
 
 [ملف الإخراج](105480223.xlsx)
+{{< app/cells/assistant language="csharp" >}}

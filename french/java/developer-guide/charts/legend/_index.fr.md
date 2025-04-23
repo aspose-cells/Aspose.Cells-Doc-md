@@ -21,3 +21,4 @@ Le code suivant illustre comment gérer la légende :
 
 ## **Sujets avancés**
 - [Définir le texte de l'entrée de la légende du graphique à aucun en utilisant Aspose.Cells](/cells/fr/java/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

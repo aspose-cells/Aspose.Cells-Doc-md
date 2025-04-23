@@ -16,7 +16,7 @@ A veces, necesitas combinar libros de trabajo con diversos contenidos como imág
 
 ## **Combinación de libros de trabajo**
 
-El código de ejemplo combina dos libros de trabajo en un solo libro de trabajo utilizando Aspose.Cells for Java. El código carga los libros de trabajo fuente, usa el método [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) para combinarlos y guarda el libro de trabajo de salida.
+El código de ejemplo combina dos libros de trabajo en un solo libro de trabajo utilizando Aspose.Cells for Java. El código carga los libros de trabajo fuente, usa el método [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine-com.aspose.cells.Workbook-) para combinarlos y guarda el libro de trabajo de salida.
 
 ### **Libros de trabajo de origen**
 
@@ -69,3 +69,4 @@ Puede encontrar útil el artículo [Combinar varias hojas de cálculo en una sol
 - [Combinar varias hojas de cálculo en una sola hoja de cálculo](/cells/es/java/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Fusionar archivos](/cells/es/java/merge-files/)
 
+{{< app/cells/assistant language="java" >}}

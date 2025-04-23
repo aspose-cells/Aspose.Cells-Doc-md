@@ -17,7 +17,7 @@ Aspose.Cells يمتلك محرك حساب قوي يمكنه حساب معظم ص
 
 {{% /alert %}} 
 ## **تنفيذ محرك الحساب المخصص**
-يقوم الكود التالي بتنفيذ محرك الحساب المخصص. ينفذ واجهة [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) التي تحتوي على طريقة واحدة فقط [calculate(CalculationData data)](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationengine#calculate\(com.aspose.cells.CalculationData\)). يتم استدعاء هذه الطريقة لجميع الصيغ الخاصة بك. داخل هذه الطريقة، نقوم بالتقاط وظيفة **TODAY** وإضافة يوم واحد إلى تاريخ النظام. لذا إذا كان التاريخ الحالي هو 27/07/2023، فسوف يقوم المحرك المخصص بحساب TODAY() كـ 28/07/2023.
+يطبق الشفرة التالية محرك الحساب المخصص. ينفذ الواجهة [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) التي تحتوي على طريقة واحدة فقط [calculate(CalculationData data)](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationengine#calculate-com.aspose.cells.CalculationData-). تُستدعى هذه الطريقة ضد جميع صيغك. داخل هذه الطريقة، نلتقط وظيفة **TODAY** ونضيف يومًا واحدًا إلى تاريخ النظام. لذلك إذا كان التاريخ الحالي هو 27/07/2023، فإن المحرك المخصص سيحسب TODAY() على أنها 28/07/2023.
 
 ### **نموذج برمجة**
 
@@ -33,3 +33,4 @@ Aspose.Cells يمتلك محرك حساب قوي يمكنه حساب معظم ص
 - [الحساب المباشر للوظيفة المخصصة دون كتابتها في ورقة العمل](/cells/ar/java/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

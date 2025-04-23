@@ -3,13 +3,13 @@ title: Copia le impostazioni di configurazione pagina dal foglio di lavoro di or
 type: docs
 weight: 80
 url: /it/python-net/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/
-description: Questo articolo spiega come utilizzare il codice di esempio di Aspose.Cells per Python via .NET per copiare le impostazioni di Impostazioni di Pagina dal Foglio di lavoro di origine al Foglio di lavoro di destinazione in modo programmato.
-keywords: Libreria Excel di Python, copia delle impostazioni di Impostazione Pagina, copia delle impostazioni di Impostazione Pagina nel foglio di lavoro di destinazione in Python.
+description: Questo articolo spiega come utilizzare il codice di esempio di Aspose.Cells for Python via .NET per copiare le impostazioni di configurazione della pagina dal foglio di origine al foglio di destinazione programmaticamente.
+keywords: Libreria Excel Python, Python copia impostazioni di configurazione della pagina, copia impostazioni di configurazione della pagina al foglio di lavoro di destinazione in Python.
 ---
 
 ## **Possibili Scenari di Utilizzo**
 
-Quando si aggiunge un nuovo foglio a un libro di lavoro, contiene le impostazioni predefinite di *Impostazione Pagina*. Ci possono essere momenti in cui è necessario trasferire le impostazioni ([**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)) da un foglio di lavoro a un altro foglio di lavoro. Questo documento spiega come copiare le impostazioni di Impostazione Pagina da un foglio di lavoro all'altro utilizzando le API di Aspose.Cells per Python via .NET.
+Quando aggiungi un nuovo foglio a una cartella di lavoro, contiene le impostazioni predefinite di *Page Setup*. Ci potrebbero essere occasioni in cui è necessario trasferire le impostazioni ([**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)) da un foglio di lavoro all'altro. Questo documento spiega come copiare le impostazioni di Page Setup da un foglio all'altro usando le API di Aspose.Cells per Python via .NET.
 
 ## **Copia le impostazioni del layout pagina dal foglio di origine al foglio di destinazione**
 

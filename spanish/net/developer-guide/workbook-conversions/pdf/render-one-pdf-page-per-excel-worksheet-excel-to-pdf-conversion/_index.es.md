@@ -26,3 +26,4 @@ Si la opción [OnePagePerSheet](https://reference.aspose.com/cells/net/aspose.ce
 Si su hoja de cálculo contiene fórmulas, es mejor llamar a [Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) justo antes de renderizar la hoja de cálculo a PDF. Esto garantiza que los valores dependientes de las fórmulas se recalculen y se rendericen los valores correctos en el PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

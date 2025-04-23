@@ -20,3 +20,4 @@ Aspose.Cells también proporciona los métodos [**PivotTable.ShowInCompactForm()
 El siguiente código de ejemplo muestra primero la Tabla Dinámica en **Forma compacta**, luego la muestra en **Forma de esquema** y por último muestra la Tabla Dinámica en **Forma tabular**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-ChangingLayoutOfPivotTable-ChangingLayoutOfPivotTable.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

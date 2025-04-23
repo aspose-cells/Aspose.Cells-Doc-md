@@ -7,7 +7,7 @@ url: /fr/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells fournit la méthode [PivotTable.getCellByDisplayName()](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getCellByDisplayName\(java.lang.String\)) que vous pouvez utiliser pour accéder à l'objet de cellule par le nom d'affichage du champ de tableau croisé dynamique. Cette méthode est utile lorsque vous souhaitez mettre en surbrillance ou formater l'en-tête de votre champ de tableau croisé dynamique. Cet article explique comment récupérer l'objet de cellule par le nom d'affichage du champ de données, puis appliquer un formatage à celui-ci.
+Aspose.Cells fournit la méthode [PivotTable.getCellByDisplayName()](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getCellByDisplayName-java.lang.String-) que vous pouvez utiliser pour accéder à l'objet cellule par le nom d'affichage du champ de pivot. Cette méthode est utile lorsque vous souhaitez mettre en évidence ou formater l'en-tête de votre champ de pivot. Cet article explique comment récupérer l'objet cellule par le nom d'affichage du champ de donnée puis lui appliquer un formatage.
 
 {{% /alert %}} 
 ## **Obtenez l'objet Cellule par DisplayName de PivotField de PivotTable**
@@ -24,3 +24,4 @@ Le code suivant accède au premier tableau croisé dynamique de la feuille de ca
 
 
 
+{{< app/cells/assistant language="java" >}}

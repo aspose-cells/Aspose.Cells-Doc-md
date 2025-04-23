@@ -74,3 +74,4 @@ Téléchargez le formulaire **Convertir le graphique en images** sur l'un des si
 Pour plus de détails, visitez [Convertir le graphique en image](/cells/fr/net/converting-chart-to-image-in-svg-format/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

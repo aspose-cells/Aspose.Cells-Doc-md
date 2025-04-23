@@ -1,0 +1,36 @@
+---
+title: بادئة أنماط عناصر الجدول مع خاصية HtmlSaveOptions.TableCssId
+type: docs
+weight: 110
+url: /ar/python-net/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/
+---
+
+## **سيناريوهات الاستخدام المحتملة**
+
+يتيح Aspose.Cells لك بادئة أنماط عناصر الجدول باستخدام مكان خاصية [**HtmlSaveOptions.table_css_id**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/table_css_id). فرضًا، إذا قمت بتعيين هذه الخاصية باسم مثل **MyTest_TableCssId**، ستجد أنماط عناصر الجدول كما هو موضح أدناه
+
+{{< highlight java >}}
+
+ table#MyTest_TableCssId
+
+#MyTest_TableCssId tr
+
+#MyTest_TableCssId col
+
+#MyTest_TableCssId br
+
+etc.
+
+{{< /highlight >}}
+
+اللقطة الشاشية التالية تظهر تأثير استخدام خاصية [**HtmlSaveOptions.table_css_id**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/table_css_id) على الإخراج الخاص بـ HTML.
+
+![todo:image_alt_text](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
+
+## **بادئة أنماط عناصر الجدول باستخدام خاصية HtmlSaveOptions.TableCssId**
+
+يوضح الكود العينة التالي كيفية الاستفادة من خاصية [**HtmlSaveOptions.table_css_id**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/table_css_id). يرجى التحقق من [إخراج HTML](60489790.zip) الذي تم توليده بواسطة الكود للرجوع إليه.
+
+## **الكود المثالي**
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty.py" >}}

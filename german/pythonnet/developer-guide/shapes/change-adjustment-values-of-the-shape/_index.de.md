@@ -3,13 +3,13 @@ title: Anpassung von Formwerten ändern
 type: docs
 weight: 2000
 url: /de/python-net/change-adjustment-values-of-the-shape/
-description: Dieser Artikel zeigt, wie die Anpassungswerte der Form durch die Aspose.Cells für Python via .NET API geändert werden können.
-keywords: Python Excel Bibliothek, Python Anpassungswerte der Form ändern, Python wie man Anpassungswerte der Form ändert.
+description: Dieser Artikel zeigt, wie man die Anpassungswerte der Shape durch die Aspose.Cells für Python via .NET API ändern kann.
+keywords: Python Excel Bibliothek, Python Shape Änderungswerte ändern, Python wie man Shape Änderungswerte ändert.
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells für Python via .NET bietet die Eigenschaft [**Shape.geometry.shape_adjust_values**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/geometry/shape_adjust_values/), um Änderungen an den Anpassungspunkten mit Formen vorzunehmen. In der Microsoft Excel-Benutzeroberfläche werden Anpassungen als gelbe Diamantknoten angezeigt. Zum Beispiel:
+Aspose.Cells für Python via .NET bietet die Eigenschaft [**Shape.geometry.shape_adjust_values**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/geometry/shape_adjust_values/), um die Anpassungspunkte bei Shapes zu ändern. Im Microsoft Excel UI werden Anpassungen als gelbe Diamantknoten angezeigt. Zum Beispiel:
 
 - Das abgerundete Rechteck hat eine Anpassung, um den Bogen zu ändern
 - Das Dreieck hat eine Anpassung, um die Position des Punktes zu ändern

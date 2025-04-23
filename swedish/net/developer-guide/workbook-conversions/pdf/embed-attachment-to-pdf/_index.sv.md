@@ -1,15 +1,16 @@
 ---
-title: Bädda in bilaga i PDF
+title: Inbädda bilaga till PDF
 type: docs
 weight: 380
 url: /sv/net/embed-attachment-to-pdf/
 
 ---
 
-I Excel kan du sätta in ett OLE-objekt med källdata ([inbäddade-bilagor-exempel.xlsx](inbäddade-bilagor-exempel.xlsx)). Dubbelklicka på OLE-objektet, den inbäddade filen öppnas.
+I Excel kan du infoga ett Ole-objekt med källdata ([embedded-attachments-example.xlsx](embedded-attachments-example.xlsx)). Dubbelklicka på Ole-objektet för att öppna den inbäddade filen.
 
-Generellt sett kommer OLE-objektet vid konvertering till PDF att renderas som en ikon eller en miniatyrbild utan OLE-objektets källdata. Med alternativet [PdfSaveOptions.EmbedAttachments](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/embedattachments/) kan du bädda in OLE-objektets källdata som bilaga i PDF. Du kan dubbelklicka på ikonen eller miniatyrbilden i PDF för att öppna källdokumentet för OLE-objektet.
+Allmänt, vid konvertering till PDF, kommer Ole-objektet att renderas som en ikon eller miniatyrbild utan källdata. Med alternativet [PdfSaveOptions.EmbedAttachments](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/embedattachments/) kan du bädda in Ole-objektets källdata som bilaga i PDF. Dubbelklicka på ikonen eller miniatyrbilden i PDF för att öppna källfilen till Ole-objektet.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-EmbedAttachmentToPdf.cs" >}}
 
-![inbäddad-bilaga.png](inbäddad-bilaga.png)
+![embedded-attachment.png](embedded-attachment.png)
+{{< app/cells/assistant language="csharp" >}}

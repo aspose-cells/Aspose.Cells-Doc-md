@@ -16,3 +16,4 @@ Aspose.Cells, çalışma zamanında yer imleri eklemenizi sağlar. PDF yer imler
 PDF yer işaretlerini nasıl ekleyeceğinizi öğrenmek için aşağıdaki örnek kodlara bakınız. Kod, basit bir çalışma kitabı oluşturur, PDF yer işaretlerini hedef konumlarla belirtir ve PDF dosyasını oluşturur.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddPDFBookmarks-AddPDFBookmarks.java" >}}
+{{< app/cells/assistant language="java" >}}

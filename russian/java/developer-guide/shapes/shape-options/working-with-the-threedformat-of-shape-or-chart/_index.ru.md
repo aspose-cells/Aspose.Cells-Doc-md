@@ -15,3 +15,4 @@ Aspose.Cells предоставляет свойство [Shape.ThreeDFormat](ht
 Приведенный ниже образец кода загружает [исходный файл Excel](5472522.xlsx), обращается к первой форме на первом листе и устанавливает подсвойства свойства [Shape.ThreeDFormat](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ThreeDFormat), а затем сохраняет книгу в [выходной файл Excel](5472521.xlsx).
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithThreeDFormat-WorkingWithThreeDFormat.java" >}}
+{{< app/cells/assistant language="java" >}}

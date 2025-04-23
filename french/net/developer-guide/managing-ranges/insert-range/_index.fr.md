@@ -27,3 +27,4 @@ Insérez une plage et décalez les cellules vers le bas comme les codes suivants
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Insert-Range-Down.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

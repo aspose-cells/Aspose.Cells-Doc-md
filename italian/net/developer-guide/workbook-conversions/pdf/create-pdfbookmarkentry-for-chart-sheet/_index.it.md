@@ -25,3 +25,4 @@ La seguente schermata mostra l'{output PDF](61767757.pdf) generato dal codice di
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Rendering-CreatePdfBookmarkEntryForChartSheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -3,8 +3,8 @@ title: استخدام خيارات التحقق من الأخطاء
 type: docs
 weight: 140
 url: /ar/python-net/use-error-checking-options/
-description: في هذه المقالة، ستجد رمز عيني يستخدم خيارات فحص الأخطاء لورقات العمل في Excel على سبيل المثال، الأرقام المخزنة كنص باستخدام واجهة برمجة تطبيقات Aspose.Cells for Python via .NET.
-keywords: مكتبة Excel Python، تخزين عدد كنص في Excel بواسطة Python، كيفية التعامل مع خيارات فحص الأخطاء في Excel باستخدام Python.
+description: في هذه المقالة، ستجد رمزًا تجريبيًا يستخدم برمجيًا خيارات فحص الأخطاء في أوراق عمل Excel، مثل تخزين الأرقام كنص، باستخدام واجهة برمجة التطبيقات Aspose.Cells لـ Python via .NET.
+keywords: مكتبة Excel بلغة Python، تخزين الرقم كنص في Excel، كيفية التعامل مع فحص أخطاء خيارات Excel في Python.
 ---
 
 {{% alert color="primary" %}}
@@ -19,7 +19,7 @@ keywords: مكتبة Excel Python، تخزين عدد كنص في Excel بواس
 
 يمكن حل الخطأ باستخدام الخيارات، أو تجاهله. تجاهل الخطأ يعني أن هذا الخطأ لن يظهر في عمليات التحقق من الأخطاء في المستقبل.
 
-يوفر Aspose.Cells for Python via .NET ميزات خيارات فحص الأخطاء. تدير فئة [**ErrorCheckOption**](https://reference.aspose.com/cells/python-net/aspose.cells/errorcheckoption) أنواعًا مختلفة من فحوصات الأخطاء، على سبيل المثال، الأرقام المخزنة كنص، أخطاء حساب الصيغ وأخطاء الصحة. استخدم تعداد [**ErrorCheckType**](https://reference.aspose.com/cells/python-net/aspose.cells/errorchecktype) لضبط الفحص الخطأ المرغوب فيه.
+توفر Aspose.Cells لـ Python via .NET ميزات فحص الأخطاء. تُدير فئة [**ErrorCheckOption**](https://reference.aspose.com/cells/python-net/aspose.cells/errorcheckoption) أنواعًا مختلفة من فحوصات الأخطاء، مثل تخزين الأرقام كنص، أخطاء حساب الصيغ، وأخطاء التحقق من الصحة. استخدم تعداد [**ErrorCheckType**](https://reference.aspose.com/cells/python-net/aspose.cells/errorchecktype) لضبط فحص الأخطاء المطلوب.
 
 ## **الأرقام المخزنة كنص**
 
@@ -28,9 +28,9 @@ keywords: مكتبة Excel Python، تخزين عدد كنص في Excel بواس
 يمكنك استخدام خيارات التحقق من الأخطاء لتحويل الأرقام المخزنة كنص إلى أرقام حقيقية بسرعة. في Microsoft Excel 2003:
 
 1. على قائمة **الأدوات**، انقر على **خيارات**.
-1. حدد علامة التبويب فحص الأخطاء. يتم تحديد خيار **العدد المخزن كنص** افتراضيًا.
+1. حدد علامة التبويب فحص الأخطاء. يكون خيار **تخزين الرقم كنص** محددًا مسبقًا.
 1. قم بتعطيله.
 
-يظهر الرمز العيني التالي كيفية تعطيل خيار فحص الأخطاء للأرقام المخزنة كنص لورقة عمل في ملف XLS النموذج باستخدام واجهات مستخدم برمجة تطبيقات Aspose.Cells for Python via .NET.
+يعرض الرمز التالي كيفيقوم بإيقاف خيار فحص الأخطاء الخاص بتخزين الأرقام كنص لورقة عمل في ملف القالب XLS باستخدام واجهات برمجة التطبيقات Aspose.Cells لـ Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ErrorCheckingOptions-1.py" >}}

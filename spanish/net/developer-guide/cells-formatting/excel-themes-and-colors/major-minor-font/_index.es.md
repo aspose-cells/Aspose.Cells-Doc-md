@@ -46,3 +46,4 @@ Tenemos que establecer la configuración regional del sistema antes de cargar el
 El siguiente código de muestra muestra cómo obtener la fuente del tema local.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Local-Theme-Font.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -61,3 +61,4 @@ API Aspose.Cells предоставляет функции для настрой
 
 ## **Продвинутые темы**
 - [Извлечение данных о теме из файла Excel](/cells/ru/java/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="java" >}}

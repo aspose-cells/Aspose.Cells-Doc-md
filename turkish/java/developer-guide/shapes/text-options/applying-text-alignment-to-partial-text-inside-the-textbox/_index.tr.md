@@ -19,3 +19,4 @@ Ayrıca, uygun HTML metni ile metin kutusu şeklindeki bazı metnin hizalamasın
 [kaynak dosyası](SampleTextboxExcel2016.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ApplyPartialTextAlignmentToTextBox.java" >}}
+{{< app/cells/assistant language="java" >}}

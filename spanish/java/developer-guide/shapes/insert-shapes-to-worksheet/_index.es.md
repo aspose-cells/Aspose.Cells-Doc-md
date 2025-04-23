@@ -46,7 +46,7 @@ Puedes utilizar el siguiente método para insertar una línea en la hoja de cál
 
 {{% alert color="primary" %}}
 
-[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)
 
 El método devuelve un objeto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
@@ -80,7 +80,7 @@ Puede utilizar el siguiente método para insertar una flecha de línea en la hoj
 
 {{% alert color="primary" %}}
 
-[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)
 
 El método devuelve un objeto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
@@ -114,7 +114,7 @@ Puedes utilizar el siguiente método para insertar un rectángulo en la hoja de 
 
 {{% alert color="primary" %}}
 
-[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape-int-int-int-int-int-int-int-)
 
 El método devuelve un objeto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
@@ -148,7 +148,7 @@ Puede utilizar el siguiente método para insertar un cubo en la hoja de cálculo
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 El método devuelve un objeto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
@@ -182,7 +182,7 @@ Puede utilizar el siguiente método para insertar una flecha de cuadro de refere
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 El método devuelve un objeto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
@@ -216,7 +216,7 @@ Puede utilizar el siguiente método para insertar un signo de multiplicación en
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 El método devuelve un objeto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
@@ -250,7 +250,7 @@ Puedes usar el siguiente método para insertar un multidocumento en la hoja de c
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 El método devuelve un objeto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
@@ -284,7 +284,7 @@ Puedes usar el siguiente método para insertar una estrella de cinco puntas en l
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 El método devuelve un objeto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
@@ -318,7 +318,7 @@ Puede utilizar el siguiente método para insertar un globo de pensamiento en la 
 
 {{% alert color="primary" %}}
 
-[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape-int-int-int-int-int-int-int-)
 
 El método devuelve un objeto [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
@@ -331,3 +331,4 @@ El siguiente ejemplo muestra cómo insertar un globo de pensamiento en una hoja 
 Ejecute el código anterior, obtendrá los siguientes resultados:
 
 ![](thought_bubble_cloud2.png)
+{{< app/cells/assistant language="java" >}}

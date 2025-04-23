@@ -63,3 +63,4 @@ Eine Beispieldatei zum Testen dieses Features kann über folgenden Link herunter
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "OpenEncryptedExcelFiles.java" >}}
 
 Aspose.Cells unterstützt auch das Öffnen von passwortgeschützten Microsoft Excel 2007, 2010, 2013, 2016, 2019, Office 365-Dateien.
+{{< app/cells/assistant language="java" >}}

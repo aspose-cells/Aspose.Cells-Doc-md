@@ -23,15 +23,15 @@ url: /ja/java/copying-rows-and-columns/
 
 ## **単一行のコピー**
 
-Aspose.Cellsは、[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) クラスの[copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) メソッドを提供しています。このメソッドは、ソース行から宛先行に数式、値、コメント、セルフォーマット、非表示セル、画像、および他の描画オブジェクトを含む、すべての種類のデータをコピーします。
+Aspose.Cellsは、[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)クラスの[copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-) メソッドを提供します。このメソッドは、式、値、コメント、セルの書式設定、非表示セル、画像、その他の描画オブジェクトなど、あらゆるタイプのデータをソース行から宛先行へコピーします。
 
-[copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) メソッドは、次のパラメータを受け取ります:
+[copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-) メソッドは、次のパラメータを取ります：
 
 - ソースの[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) オブジェクト,
 - ソースの行インデックス、および
 - 宛先の行インデックス。
 
-このメソッドを使用して、ワークシート内であるいは他のワークシートに行をコピーすることが可能です。[copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) メソッドは Microsoft Excel と同様に機能します。例えば、宛先行の高さを明示的に設定する必要はありません。その値もコピーされます。
+このメソッドを使って、シート内または別のシートに行をコピーします。[copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-) はMicrosoft Excelと同様に動作します。たとえば、宛先行の高さを明示的に設定する必要はありません、その値もコピーされるからです。
 
 以下の例は、ワークシート内の行をコピーする方法を示しています。テンプレートのMicrosoft Excelファイルを使用し、2番目の行（データ、書式設定、コメント、画像などを含む）を12番目の行に貼り付けます。
 
@@ -56,7 +56,7 @@ Aspose.Cellsは、[Cells](https://reference.aspose.com/cells/java/com.aspose.cel
 
 ## **複数の行のコピー**
 
-追加の整数型のパラメータを指定する[**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int)) メソッドを使用して、新しい宛先に複数の行をコピーすることもできます。
+追加の整数型のパラメータを指定する[**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-) メソッドを使用して、新しい宛先に複数の行をコピーすることもできます。
 
 以下は、3行のデータを含む入力スプレッドシートのスナップショットですが、以下に提供されているコードスニペットは、すべての3行を7行から始まる新しい場所にコピーします。
 
@@ -70,15 +70,15 @@ Aspose.Cellsは、[Cells](https://reference.aspose.com/cells/java/com.aspose.cel
 
 ## **単一列のコピー**
 
-Aspose.Cellsは[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)クラスの[copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) メソッドを提供しており、このメソッドは、更新された参照を含む形式、値、コメント、セル形式、非表示セル、イメージなどの他の描画オブジェクトを含むあらゆる種類のデータを、ソースの列から宛先の列にコピーします。
+Aspose.Cellsは、[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)クラスの[copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn-com.aspose.cells.Cells-int-int-) メソッドを提供します。このメソッドは、式（更新された参照を含む）、値、コメント、セルの書式設定、非表示セル、画像、その他の描画オブジェクトなど、すべてのタイプのデータをソース列から宛先列へコピーします。
 
-[copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) メソッドは以下のパラメータを取ります:
+[copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn-com.aspose.cells.Cells-int-int-) メソッドは、以下のパラメータを取ります：
 
 - ソースの[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) オブジェクト,
 - ソースの列インデックス、および
 - 宛先の列インデックス。
 
-[copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) メソッドを使用して、シート内または別のシートに列をコピーします。
+シート内または他のシートに列をコピーするには、[copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn-com.aspose.cells.Cells-int-int-) メソッドを使用します。
 
 この例では、ワークシートから列をコピーして別のブック内のワークシートに貼り付けます。
 
@@ -90,7 +90,7 @@ Aspose.Cellsは[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/
 
 ## **複数の列をコピー**
 
-[**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int))メソッドと同様に、Aspose.CellsのAPIは新しい位置に複数のソース列をコピーするための[**Cells.copyColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns(com.aspose.cells.Cells,%20int,%20int,%20int))メソッドも提供しています。
+[**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-)メソッドと同様に、Aspose.CellsのAPIは新しい位置に複数のソース列をコピーするための[**Cells.copyColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns-com.aspose.cells.Cells-int-int-int-)メソッドも提供しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyingMultipleColumns-CopyingMultipleColumns.java" >}}
 
@@ -102,9 +102,10 @@ Aspose.Cellsは[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/
 
 
 ## **貼り付けオプションを使用して行/列を貼り付ける**
-Aspose.Cellsは、関数[CopyRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRows\(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.CopyOptions,%20com.aspose.cells.PasteOptions\))と[CopyColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns\(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.PasteOptions\))を使用する際に[PasteOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PasteOptions)を提供します。これにより、Excelと同様の適切な貼り付けオプションを設定できます。
+Aspose.Cellsは、関数 [CopyRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRows-com.aspose.cells.Cells-int-int-int-com.aspose.cells.CopyOptions-com.aspose.cells.PasteOptions-) と [CopyColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns-com.aspose.cells.Cells-int-int-int-com.aspose.cells.PasteOptions-) を使用する際に [PasteOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PasteOptions) を提供します。これにより、Excelと類似した貼り付けオプションを設定可能です。
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-PastingDataWithPasteOptions.java" >}}
 
+{{< app/cells/assistant language="java" >}}

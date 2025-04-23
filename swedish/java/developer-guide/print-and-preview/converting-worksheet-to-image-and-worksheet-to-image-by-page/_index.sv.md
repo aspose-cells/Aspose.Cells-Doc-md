@@ -15,7 +15,7 @@ Ibland kan du behöva presentera kalkylblad som bilder, till exempel för att an
 
 ## **Använda Aspose.Cells för att konvertera kalkylblad till bildfil**
 
-Denna artikel visar hur man använder Aspose.Cells for Java API för att konvertera ett kalkylblad till bild. API:en tillhandahåller flera värdefulla klasser, såsom [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender), och så vidare. Klassen [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) representerar ett kalkylblad för att rendera bilder för kalkylbladet och har en överlagrad [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream))-metod som kan konvertera ett kalkylblad till bildfiler direkt med vilka attribut eller alternativ som helst.
+Denna artikel visar hur man använder Aspose.Cells for Java API för att konvertera ett kalkylblad till bild. API:en tillhandahåller flera värdefulla klasser, såsom [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender), och så vidare. Klassen [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) representerar ett kalkylblad för att rendera bilder för kalkylbladet och har en överlagrad [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage-int-java.io.OutputStream-)-metod som kan konvertera ett kalkylblad till bildfiler direkt med vilka attribut eller alternativ som helst.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ConvertWorksheettoImageFile-1.java" >}}
 
@@ -55,3 +55,4 @@ Denna artikel visar hur man konverterar ett kalkylblad till en bildfil och konve
 
 - [Konvertera Arbetsblad till olika bildformat](/cells/sv/java/converting-worksheet-to-different-image-formats/)
 - [Exportera Arbetsblad eller Diagram till Bild med önskad Bredd och Höjd](/cells/sv/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+{{< app/cells/assistant language="java" >}}

@@ -61,3 +61,4 @@ url: /ar/java/excel-2007-themes-and-colors/
 
 ## **مواضيع متقدمة**
 - [استخراج بيانات الثيم من ملف Excel](/cells/ar/java/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="java" >}}

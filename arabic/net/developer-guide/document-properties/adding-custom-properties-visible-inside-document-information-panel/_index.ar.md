@@ -22,3 +22,4 @@ url: /ar/net/adding-custom-properties-visible-inside-document-information-panel/
 - [استخدام أجزاء XML المخصصة في Aspose.Cells](/cells/ar/net/use-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -24,3 +24,4 @@ Para implementarlo en Microsoft Excel (por ejemplo, Microsoft Excel 2003):
 Consulta el siguiente código de muestra sobre cómo lograr esto usando las API de Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-Implement1904DateSystem-Implement1904DateSystem.java" >}}
+{{< app/cells/assistant language="java" >}}

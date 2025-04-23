@@ -24,3 +24,4 @@ Microsoft Excel'de bir çalışma taşrasındaki sıfır değerlerini gizlemek i
 Lütfen Aspose.Cells kullanarak sıfırları nasıl gizleyeceğinizi gösteren aşağıdaki örnek kodu inceleyin.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-HidingDisplayOfZeroValues-HidingDisplayOfZeroValues.java" >}}
+{{< app/cells/assistant language="java" >}}

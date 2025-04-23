@@ -46,3 +46,4 @@ Il **init** è un metodo **PostConstruct** che viene eseguito subito dopo il com
 Crea istanze di fogli di calcolo e le mantiene in memoria finché sono necessarie.
 ### **CellsService**
 Il **CellsService** gestisce la cache di righe, colonne, celle, formattazione e struttura dei fogli di lavoro.
+{{< app/cells/assistant language="java" >}}

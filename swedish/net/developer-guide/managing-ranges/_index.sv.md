@@ -74,3 +74,4 @@ Kör nu följande exempel, se hur det fungerar i Aspose.Cells:
 - [Flytta cellområde i ett kalkylblad](/cells/sv/net/move-range-of-cells-in-a-worksheet/)
 - [Skapa arbetsbok och arbetsbladsspecifika namngivna områden](/cells/sv/net/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Sök och ersätt data i ett område](/cells/sv/net/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="csharp" >}}

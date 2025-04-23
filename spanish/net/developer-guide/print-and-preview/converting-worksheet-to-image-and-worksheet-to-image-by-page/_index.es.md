@@ -55,3 +55,4 @@ A continuación se muestra el código utilizado por el componente para llevar a 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertingWorksheetToImage-ConvertWorksheetToImageByPage-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

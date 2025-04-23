@@ -8,19 +8,119 @@ url: /it/java/what-s-new-in-aspose-cells-for-java/
 
 Questa pagina descrive le nuove e più interessanti funzionalità di Aspose.Cells introdotte nelle versioni recenti.
 
+## Aspose.Cells for Java 25.4
+* Supporta la specifica del set di fogli da esportare in HTML
+* Supporta ottenere e impostare il colore delle linee di griglia di un foglio di lavoro
+* Supporta l'esportazione di grafici modificabili in file DOCX
+* Supporta la lettura e la scrittura di etichette di sensibilità
+* Supporta l'esportazione di più attributi di stile su Numbers
+* Supporta l'importazione di file modello in formato Markdown
+* Supporta il rilevamento dell'uso di funzioni personalizzate da formule in `Cell` e `Workbook`
+
+## Aspose.Cells for Java 25.3
+* Supporto per ottenere lo stile di visualizzazione di una cella senza ottenere l'oggetto cella
+* Supporto per ottenere il contenuto binario dei font utilizzati nel workbook
+* Supporto per convertire excel in struttura json di workspace
+* Supporta l'esportazione (valore della cella, formattazione, formula e commento) in file Numbers
+* Supporta l'inserimento di stile/formatting inline all'interno degli elementi HTML durante il salvataggio HTML
+* Supporta l'evidenziazione della scheda del foglio selezionato nell'HTML generato
+* Supporta più scorciatoie da tastiera per GridJs
+* Supporta l'incollaggio del contenuto copiato da Excel in più aree target per GridJs
+
+## Aspose.Cells for Java 25.2
+* Supporta l'impostazione di testo ricco per le celle durante il salvataggio con LightCells
+* Supporta la lettura di file in formato DIF
+* Supporta la lettura e la scrittura di file in formato DBF (dBase)
+* Supporto immagine incorporata compatibile con WPS
+* Supporto per impostare l'area di sola lettura in GridJs
+* Supporto per copiare le impostazioni di formato numerico da ms excel a GridJS
+* Potenziamento delle operazioni automatiche in GridJS per comodità dell'utente, come estendere la riga/colonna vuota, scorrimento della pagina, ...
+
+## Aspose.Cells for Java 25.1
+* Supporto per saltare il calcolo nel motore personalizzato dell'utente per formula con array dinamico che utilizza funzione personalizzata
+* Supporto per ottenere l'espressione di riferimento tabella esterna nel motore personalizzato dell'utente
+* Supporto per salvare forme automatiche e forme libere in file ods
+* Supporto per leggere e scrivere le impostazioni dei moduli nella tabella
+* Supporto per il formato 2 sottotabella nella tabella cmap del carattere
+* Semplifica l'importazione di un elenco di dati di righe nelle celle
+* Supporto a più eventi per l'inserimento/cancellazione/aggiornamento di celle in GridJs
+* Supporto alla separazione decimale localizzata per GridJs
+* Supporto per la ricerca nella lista filtri di GridJs
+* Supporto a più istanze in una pagina per GridJs
+
+## Aspose.Cells for Java 24.12
+* Supporto alla notifica delle modifiche delle formule durante l'inserimento/cancellazione di intervalli di celle
+* Supporto alle funzioni lambda di BYROW e BYCOL
+* Supporto per il rendering di LinearGradientBrush, PathGradientBrush, HatchBrush e TextureBrush in pcl
+* Supporto per l'inserimento di stile/formattazione in linea invece di css durante il salvataggio di html
+* Supporto per aggiungere colore del font, colore della cella come chiave di ordinamento dei dati
+* Supporto per aggiornare l'ordine e aggiungere gruppi a PowerQueryFormulas
+* Potenziamenti per i filtri di PivotField come filtri multipli, filtro per tutto il giorno
+* Supporto al aggiornamento del riferimento della formula dopo inserimento/cancellazione di righe/colonne in GridJs
+* Supporto al monitor di aggiornamento per GridJs
+* Supporto all'allineamento centrale tra colonne in GridJs
+
+## Aspose.Cells for Java 24.11
+* Supporto alla conversione da xlsx a pcl
+* Supporto per ottenere la fonte di origine esterna per PivotTable
+* Supporto per ottenere le relazioni tra tabelle nel foglio Excel
+* Supporto per ottenere stringhe formattate delle celle in multi-threading
+* Supporto a "PlaceInCell" immagine per modalità MemoryPreference e calcolo delle formule
+* Supporto all'importazione/esportazione di valori complessi come errori, entità
+* Supporto all'aggiunta di SignatureLine come in Excel
+* Miglioramento per SVG generato per comportarsi nello stesso modo in diversi framework
+* Potenziamento per l'aggiunta di forme libere
+* Supporto per impostare il formato numerico per diversi tipi di dati come data, ora, valuta... per GridJs
+* Supporto per il rendering dei bordi per stile di riga/colonna per GridJs
+* Potenziamento per rendering e modifica di GridJs
+
+## Aspose.Cells for Java 24.10
+* Supporto per ottenere la fonte della tabella pivot dalla connessione esterna corrispondente
+* Supporto per creare tabelle pivot compatte
+* Miglioramento della conversione dell'area pivot in intervallo
+* Supporto per leggere file CHM
+* Supporto per ignorare celle/righe disordinate invece di generare eccezioni durante l'importazione di file modello OOXML
+* Supporto per più opzioni per eliminare righe/colonne vuote
+* Supporto per impostare diversi tipi di formato numerico per GridJs
+* Supporto per caricamento lazy per GridJs
+* Miglioramento della divisione del testo per valori di celle di testo arricchito per GridJs
+
+## Aspose.Cells for Java 24.9
+* Supporto per creare caselle di controllo per le celle e renderle in PDF
+* Supporto per esportare il contenuto delle equazioni in MathML e LaTex
+* Supporto per esportare l'indirizzo della cella durante il salvataggio in HTML
+* Supporto per il parsing dei property bag di feature di xlsx
+* Ottimizzazione per il rilascio delle risorse immagine durante il salvataggio in PDF
+* Supporto per ottenere le formule dell'elemento/ campo calcolato di pivot
+* Miglioramento delle prestazioni nel calcolo del campo pivot raggruppato
+* Supporto per il rilevamento del formato OLE (Object Linking and Embedding)
+* Miglioramento delle formule in GridJs: mostra formule e spiegazioni delle formule, utilizza formule come parametri per la verifica delle impostazioni
+* Supporto per il controllo della sintassi e la correzione ortografica per l'input utente in GridJs
+* Supporto per visualizzare il controllo temporale su dispositivi mobili quando il formato della cella è orario in GridJs
+* Migliorare l'effetto di validazione, modifica e prompt di fallimento di GridJs per dispositivi mobili
+
+## Aspose.Cells for Java 24.8
+* Supporto per le nuove funzioni: VALUETOTEXT, ARRAYTOTEXT
+* Supporto per ordinare le tabelle pivot per elemento del campo pivot
+* Supporto per visitare tutte le celle contenenti immagini "Posta nella cella"
+* Supporto per mantenere le proprietà del documento senza crittografia durante la crittografia del file
+* Supporto per modificare formule con spazi vuoti in GridWeb
+* Supporto per la configurazione di mostrare o nascondere le forme invisibili in GridJs
+* Migliorare le funzionalità di GridJs come impostazioni, modifica delle formule, verifica dell'input
+
 ## Aspose.Cells for Java 24.7
-* Supporto funzione DROP nelle formule
+* Supporto alla funzione DROP nelle formule
 * Migliorare le prestazioni del calcolo delle funzioni LET e MAKEARRAY con parametri complessi
-* Supporto per il contorno dei caratteri stella nel grafico
+* Supporto per il contorno dei caratteri star nei grafici
 * Supporto per rendere un oggetto decorativo
-* Supporto per lo scambio di serie
-* Migliorare la visualizzazione del grafico ad albero TreeMap
-* Supporto per la conversione dell'immagine della cella 'sovrapposta' in 'nella cella'
-* Supporto per caricare di default il font locale Office cloud
-* Supporto per mantenere lo schema json durante l'importazione dei dati json
-* Supporto per esportare in formato file AZW3
-* Supporto per impostare automaticamente l'altezza dopo aver impostato il wrap per la cella in GridJS
-* Supporto per la generazione json utilizzando il metodo stream writer per GridJS
+* Supporto allo scambio di serie
+* Migliorare la visualizzazione del grafico TreeMap
+* Supporto alla conversione dell'immagine di una "cella sovrapposta" in "all'interno della cella"
+* Supporto al caricamento del carattere Office cloud locale per impostazione predefinita
+* Supporto per mantenere lo schema JSON durante l'importazione dei dati JSON
+* Supporto all'esportazione in formato file AZW3
+* Supporto per impostare automaticamente l'altezza dopo aver applicato l'andata a capo alla cella in GridJs
+* Supporto alla generazione di JSON tramite stream writer in GridJs
 
 ## Aspose.Cells for Java 24.6
 * Miglioramenti per il rendering: regolazione della saturazione del colore e della temperatura del colore, duotoni, immagini Webp
@@ -207,3 +307,4 @@ Questa pagina descrive le nuove e più interessanti funzionalità di Aspose.Cell
 * Miglioramento delle prestazioni durante la conversione di Excel in HTML.
 
 
+{{< app/cells/assistant language="java" >}}

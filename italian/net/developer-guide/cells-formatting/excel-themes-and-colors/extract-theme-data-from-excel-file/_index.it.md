@@ -20,3 +20,4 @@ Puoi applicare un tema al tuo foglio di lavoro usando Microsoft Excel tramite il
 Il seguente codice di esempio estrae il nome del Tema applicato al foglio di lavoro di origine e quindi estrae il colore del Tema applicato alla cella A1 e il colore del Tema applicato al bordo inferiore della cella.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ExtractThemeData-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

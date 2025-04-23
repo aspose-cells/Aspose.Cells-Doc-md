@@ -7,7 +7,7 @@ url: /tr/java/track-document-conversion-progress/
 
 ## **Olası Kullanım Senaryoları**
 
-Bazen büyük excel dosyalarını dönüştürmek biraz zaman alabilir. Bu süre içinde, uygulamanızın kullanılabilirliğini artırmak için yalnızca bir yükleme ekranı değil, belge dönüşüm ilerlemesini göstermek isteyebilirsiniz. Aspose.Cells, [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) arabirimini sağlayarak belge dönüşüm sürecini izlemenizi destekler. [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) arabirimi, özel sınıfınızda uygulayabileceğiniz [**PageStartSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs)) ve [**PageEndSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs)) metodları sağlar. Ayrıca *TestPageSavingCallback* özel sınıfında gösterildiği gibi hangi sayfaların işleneceğini kontrol edebilirsiniz.
+Bazen büyük excel dosyalarını dönüştürmek biraz zaman alabilir. Bu süre içinde, uygulamanızın kullanılabilirliğini artırmak için yalnızca bir yükleme ekranı değil, belge dönüşüm ilerlemesini göstermek isteyebilirsiniz. Aspose.Cells, [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) arabirimini sağlayarak belge dönüşüm sürecini izlemenizi destekler. [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) arabirimi, özel sınıfınızda uygulayabileceğiniz [**PageStartSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving-com.aspose.cells.PageStartSavingArgs-) ve [**PageEndSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving-com.aspose.cells.PageEndSavingArgs-) metodları sağlar. Ayrıca *TestPageSavingCallback* özel sınıfında gösterildiği gibi hangi sayfaların işleneceğini kontrol edebilirsiniz.
 
 ## **Belge Dönüşüm İlerlemesini İzle**
 
@@ -45,3 +45,4 @@ Start saving page index 8 of pages 11</br>
 End saving page index 8 of pages 11
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

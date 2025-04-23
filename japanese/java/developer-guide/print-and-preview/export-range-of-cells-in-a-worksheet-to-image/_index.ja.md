@@ -28,3 +28,4 @@ Aspose.Cellsを使用してワークシートのイメージを作成できま�
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ExportRangeofCells-1.java" >}}
 
 この記事 [ワークシートを異なる画像形式に変換](/cells/ja/java/converting-worksheet-to-different-image-formats/) も参考になるでしょう。
+{{< app/cells/assistant language="java" >}}

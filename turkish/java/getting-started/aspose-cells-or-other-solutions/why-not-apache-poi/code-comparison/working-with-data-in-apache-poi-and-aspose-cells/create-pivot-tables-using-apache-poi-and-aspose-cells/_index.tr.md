@@ -201,3 +201,4 @@ Apache POI ve Aspose.Cells Kullanarak **Pivot Tabloları Oluşturma** için kayn
 Daha fazla ayrıntı için [Pivot Tabloları ve Pivot Grafikler Oluşturma](/cells/tr/java/create-pivot-tables-and-pivot-charts/) sayfasını ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

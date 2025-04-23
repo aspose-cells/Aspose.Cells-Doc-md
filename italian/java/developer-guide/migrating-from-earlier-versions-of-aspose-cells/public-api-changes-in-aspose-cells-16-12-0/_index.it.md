@@ -173,3 +173,4 @@ Si consiglia di utilizzare la proprietà DataLabels.BackgroundMode invece.
 Si prega di considerare l'utilizzo della proprietà DisplayUnitLabel.RotationAngle per raggiungere lo stesso obiettivo.
 ### **Metodo Deleted Title.getCharacters**
 Si prega di utilizzare il metodo Title.characters invece.
+{{< app/cells/assistant language="java" >}}

@@ -20,3 +20,4 @@ Microsoft Excelでは、**ツール > 参照設定...**をクリックしてVBA�
 次のサンプルコードは、ブックのVBAプロジェクトに2つのライブラリ参照を追加または登録します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddLibraryReferenceToVbaProject-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

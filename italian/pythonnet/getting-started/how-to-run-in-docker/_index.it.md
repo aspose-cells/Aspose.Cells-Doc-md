@@ -1,5 +1,5 @@
 ---
-title: Come eseguire Aspose.Cells per python via .NET in Docker
+title: Come eseguire Aspose.Cells for Python via .NET in Docker
 type: docs
 description: "Esegui Aspose.Cells in un contenitore Docker per Linux"
 weight: 140
@@ -8,11 +8,11 @@ url: /it/net/how-to-run-aspose-cells-python-via-net-in-docker/
 
 ## Prefazione:
 
-Sempre più utenti stanno utilizzando i vari prodotti della nostra azienda in Docker e si trovano di fronte a vari problemi. Questo articolo introduce brevemente come utilizzare Aspose.Cells per Python via .NET in un ambiente Docker basato su Debian Linux.
+Sempre più utenti usano i vari prodotti della nostra azienda in Docker, incontrando varie problematiche. Questo articolo introduce brevemente come usare Aspose.Cells for Python via .NET in un ambiente Docker basato su Debian Linux.
 
 ## Esempio:
 
-Illustreremo l'uso con un semplice esempio. In questo caso, la funzionalità è molto diretta, basta aprire un file Excel contenente testo giapponese in aspose_test.py. Qui utilizziamo python:3.11 come immagine di base e il relativo Dockerfile è il seguente:
+Mostriamo l’uso con un esempio semplice. In questo caso, la funzionalità è molto diretta, basta aprire un file Excel contenente testo giapponese in aspose_test.py. Qui usiamo python:3.11 come immagine di base, e il Dockerfile corrispondente è il seguente:
 
 {{< highlight plain >}}
 FROM python:3.11 AS base
@@ -28,7 +28,7 @@ RUN pip install -i aspose-cells-python
 CMD ["python", "aspose_test.py"]
 {{< /highlight >}}
 
-Quindi, quando eseguiamo il comando seguente, otteniamo il risultato finale:
+Poi, quando eseguiamo il comando seguente, otteniamo il risultato finale:
 - Costruisci l'immagine Docker
 
 {{< highlight plain >}}
@@ -43,7 +43,7 @@ docker run python_test
 
 - Nota:
 
-Per supportare l'apertura di file Excel contenenti varie lingue, è necessario installare ICU. Considerando che la libreria wrapper di Python via .NET si basa su .NET Core 3.1 e .NET Core 3.1 ha requisiti di versione specifici per ICU, che non dovrebbero superare la versione 70, è necessario installare una versione specifica di ICU.
+Per supportare l'apertura di file Excel contenenti varie lingue, dobbiamo installare ICU. Considerando che l'interfaccia Python via .NET si basa su .NET Core 3.1, e che .NET Core 3.1 ha requisiti specifici di versione per ICU, che non devono superare la versione 70, dobbiamo installare una versione specifica di ICU.
 
 
 ## Vedi Anche

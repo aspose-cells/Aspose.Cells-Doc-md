@@ -7,7 +7,7 @@ url: /tr/java/rich-text-custom-data-label-of-chart-point/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells'i kullanarak grafik noktasının zengin metin özel veri etiketini oluşturabilirsiniz. Aspose.Cells, metin için yazı tipi özelliklerini, rengini, kalın veya normal olarak ayarlanabilecek olan [**FontSetting**](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) nesnesini döndürmek için [**DataLabels.characters()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#characters(int,%20int)) yöntemini sağlamaktadır.
+Aspose.Cells'i kullanarak grafik noktasının zengin metin özel veri etiketini oluşturabilirsiniz. Aspose.Cells, metin için yazı tipi özelliklerini, rengini, kalın veya normal olarak ayarlanabilecek olan [**FontSetting**](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) nesnesini döndürmek için [**DataLabels.characters()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#characters-int-int-) yöntemini sağlamaktadır.
 
 {{% /alert %}}
 
@@ -20,3 +20,4 @@ Aşağıdaki kod, ilk serinin ilk grafik noktasına erişir, metnini ayarlar ve 
 ## İlgili Makaleler
 
 - [Grafiğin Veri Etiketlerinin Şekil Türünü Ayarlama](/cells/tr/java/set-the-shape-type-of-data-labels-of-chart/)
+{{< app/cells/assistant language="java" >}}

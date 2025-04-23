@@ -109,3 +109,4 @@ Daten aus einem Bereich können in [**DataTable**](https://docs.microsoft.com/en
 - [Exportieren Sie sichtbare Zeilendaten aus dem Arbeitsblatt](/cells/de/net/export-visible-rows-data-from-worksheet/)
 - [Ignorieren Sie ausgeblendete Spalten beim Exportieren von Arbeitsblattdaten in die Datenbank](/cells/de/net/ignore-hidden-columns-while-exporting-worksheet-data-to-data-table/)
 - [Benennen Sie doppelte Spalten automatisch um, während Sie Arbeitsblattdaten exportieren](/cells/de/net/rename-duplicate-columns-automatically-while-exporting-worksheet-data/)
+{{< app/cells/assistant language="csharp" >}}

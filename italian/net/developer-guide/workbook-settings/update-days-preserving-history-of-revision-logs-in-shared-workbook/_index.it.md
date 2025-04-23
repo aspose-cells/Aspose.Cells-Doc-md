@@ -18,3 +18,4 @@ Il seguente codice di esempio crea un workbook vuoto, quindi lo condivide e aggi
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-UpdateDaysPreservingHistoryOfRevisionLogsInSharedWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

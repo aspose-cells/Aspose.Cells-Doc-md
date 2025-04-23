@@ -49,7 +49,7 @@ url: /ar/java/import-and-export-data/
 
 #### الاستيراد من ArrayList
 
-لإدخال البيانات من *ArrayList* إلى أوراق العمل ، يتم استدعاء الأسلوب [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean)) في مجموعة [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells). يستغرق الأسلوب [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean)) التالية المعلمات التالية:
+لإدخال البيانات من *ArrayList* إلى أوراق العمل ، يتم استدعاء الأسلوب [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList-java.util.ArrayList-int-int-boolean-) في مجموعة [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells). يستغرق الأسلوب [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList-java.util.ArrayList-int-int-boolean-) التالية المعلمات التالية:
 
 - **الجمعية**, *ArrayList* الذي سيتم توريد محتوياته.
 - **رقم الصف**, رقم الصف الأول لنطاق الخلية من الذي سيتم توريد المحتويات.
@@ -66,7 +66,7 @@ url: /ar/java/import-and-export-data/
 
 #### استيراد البيانات من JSON
 
-توفر Aspose.Cells فئة [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) لمعالجة JSON. تحتوي فئة [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) على طريقة [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions)) لاستيراد البيانات ال JSON. كما توفر Aspose.Cells فئة [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) التي تمثل خيارات تخطيط JSON. الطريقة [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions)) تقبل [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) كمعلمة. توفر الفئة [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) الخصائص التالية.
+توفر Aspose.Cells فئة [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) لمعالجة JSON. تحتوي فئة [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) على طريقة [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData-java.lang.String-com.aspose.cells.Cells-int-int-com.aspose.cells.JsonLayoutOptions-) لاستيراد البيانات ال JSON. كما توفر Aspose.Cells فئة [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) التي تمثل خيارات تخطيط JSON. الطريقة [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData-java.lang.String-com.aspose.cells.Cells-int-int-com.aspose.cells.JsonLayoutOptions-) تقبل [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) كمعلمة. توفر الفئة [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) الخصائص التالية.
 
 - [**ArrayAsTable**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ArrayAsTable): يشير ما إذا كان يجب معالجة الصف في مصفوفة كجدول أم لا.
 - [**ConvertNumericOrDate**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ConvertNumericOrDate): يحصل أو يعين قيمة تشير إلى ما إذا كان يجب تحويل السلسلة في JSON إلى رقم أو تاريخ أم لا.
@@ -89,11 +89,11 @@ url: /ar/java/import-and-export-data/
 
 توفر Aspose.Cells فئة، [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)، التي تمثل ملف Microsoft Excel. تحتوي الفئة [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) على [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) يسمح بالوصول إلى كل ورق عمل في ملف Excel. يُمثل ورق العمل بواسطة الفئة [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). توفر الفئة [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) مجموعة [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells).
 
-يمكن تصدير البيانات بسهولة إلى كائن مصفوفة باستخدام طريقة [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) لـ فئة [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells).
+يمكن تصدير البيانات بسهولة إلى كائن مصفوفة باستخدام طريقة [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray-int-int-int-int-) لـ فئة [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells).
 
 #### الأعمدة الحاوية على بيانات مكتوبة بنوعية محددة
 
-تخزن جداول البيانات بيانات كسلسلة من الصفوف والأعمدة. استخدم الطريقة [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) لتصدير البيانات من ورقة عمل إلى مصفوفة. يأخذ [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) المعلمات التالية لتصدير بيانات ورقة العمل ككائن *مصفوفة*:
+تخزن جداول البيانات بيانات كسلسلة من الصفوف والأعمدة. استخدم الطريقة [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray-int-int-int-int-) لتصدير البيانات من ورقة عمل إلى مصفوفة. يأخذ [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray-int-int-int-int-) المعلمات التالية لتصدير بيانات ورقة العمل ككائن *مصفوفة*:
 
 - رقم الصف، رقم الصف الأول الذي سيتم تصدير البيانات منه.
 - رقم العمود، رقم العمود الأول حيث سيتم تصدير البيانات منه.
@@ -105,3 +105,4 @@ url: /ar/java/import-and-export-data/
 ## **مواضيع متقدمة**
 - [استيراد البيانات من كائن نتائج قاعدة بيانات Microsoft Access إلى ورقة العمل](/cells/ar/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
 - [تحديد حقول الصيغة أثناء استيراد البيانات إلى الورقة العمل](/cells/ar/java/specify-formula-fields-while-importing-data-to-worksheet/)
+{{< app/cells/assistant language="java" >}}

@@ -30,3 +30,4 @@ Otro enfoque es usar una **fórmula compartida**. Con una fórmula compartida, l
 El siguiente ejemplo demuestra cómo usarlo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-SettingSharedFormula-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -105,3 +105,4 @@ Aspose.Cells は、ネイティブの Excel ファイルの作成や読み込み
 
 **ご確認ください:** 
 [Aspose.Cells フォーラム - 推薦文](https://downloads.aspose.com/corporate/success-stories/aspose.cells/)
+{{< app/cells/assistant language="java" >}}

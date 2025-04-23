@@ -43,3 +43,4 @@ Aspose.Cellsは、次の統合機能をサポートするための[**Consolidati
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="java" >}}

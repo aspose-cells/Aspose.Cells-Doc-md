@@ -51,3 +51,4 @@ Elektronik tabloyu bölme ayarını kaldırmak için, sadece Böl düğmesini te
 Aspose.Cells for .Net, bölme ayarını kaldırmak için bir [**Worksheet.RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/removesplit/) yöntemi sağlar.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Remove-Split.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -47,3 +47,4 @@ file:///C:/Temp/OtherSheets/Sheet3.html#RANGE!A1
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithHTMLFormat-ExportedWorkSheetViaIFilePathProvider-ExportedWorkSheetViaIFilePathProvider.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

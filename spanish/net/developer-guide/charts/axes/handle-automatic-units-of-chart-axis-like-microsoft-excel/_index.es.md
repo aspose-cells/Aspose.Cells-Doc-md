@@ -15,3 +15,4 @@ El siguiente código de muestra carga el [archivo de Excel de muestra](61767755.
 ![todo:image_alt_text](handle-automatic-units-of-chart-axis-like-microsoft-excel_1.png)
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Charts-HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

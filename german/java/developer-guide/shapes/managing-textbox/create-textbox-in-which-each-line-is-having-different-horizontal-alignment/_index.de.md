@@ -26,3 +26,4 @@ Der folgende Beispielcode erstellt drei Zeilen und legt die horizontale Ausricht
 
 
 
+{{< app/cells/assistant language="java" >}}

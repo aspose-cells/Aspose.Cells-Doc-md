@@ -46,3 +46,4 @@ WorkbookService は、ビュースコープの JSF バックエンドビーン�
 スプレッドシートのインスタンスを作成し、必要に応じてメモリに保持します。
 ### **CellsService**
 **CellsService** は、行、列、セル、フォーマット、ワークシートの構造のキャッシュを管理します。
+{{< app/cells/assistant language="java" >}}

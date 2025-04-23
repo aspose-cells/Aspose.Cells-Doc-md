@@ -381,3 +381,4 @@ Aspose.Cellsを使用すると、ワークシートに楕円の図形を描画�
 - [Aspose.Cells を使用して ActiveX コントロールを追加する](/cells/ja/net/add-activex-controls-using-aspose-cells/)
 - [ActiveXコントロールを削除](/cells/ja/net/remove-activex-control/)
 - [ActiveX ComboBoxコントロールを更新](/cells/ja/net/update-activex-combobox-control/)
+{{< app/cells/assistant language="csharp" >}}

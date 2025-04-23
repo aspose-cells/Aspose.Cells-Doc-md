@@ -34,3 +34,4 @@ Le code d'exemple suivant crée un classeur vide puis le sauvegarde en tant que 
 	at com.aspose.cells.Workbook.save(Unknown Source)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

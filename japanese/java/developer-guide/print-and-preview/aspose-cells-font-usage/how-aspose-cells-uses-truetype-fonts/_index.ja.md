@@ -53,3 +53,4 @@ Aspose.Cellsは自動的にファイルシステム上のTrueTypeフォントを
 - [フォントの代替が発生した際に警告を取得する方法](/cells/ja/java/get-warnings-for-font-substitution-while-rendering-excel-file/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

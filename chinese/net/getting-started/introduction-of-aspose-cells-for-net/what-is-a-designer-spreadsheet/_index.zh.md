@@ -39,3 +39,4 @@ url: /zh/net/what-is-a-designer-spreadsheet/
 [了解更多有关智能标记的信息](/cells/zh/net/smart-markers/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -34,3 +34,4 @@ Per implementare la crittografia file in Microsoft Excel (ad esempio 2007):
 L'esempio di codice di seguito applica una crittografia robusta a un file e imposta una password.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ApplyingEncryption-ApplyingEncryption.java" >}}
+{{< app/cells/assistant language="java" >}}

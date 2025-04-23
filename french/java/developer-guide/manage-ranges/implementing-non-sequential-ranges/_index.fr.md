@@ -12,3 +12,4 @@ Normalement, les [plages nommées](/cells/fr/java/named-ranges/) sont rectangula
 L'exemple de code ci-dessous montre comment créer une plage nommée non séquentielle avec Aspose.Cells for Java.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ImplementingNonSequentialRanges-ImplementingNonSequentialRanges.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -33,3 +33,4 @@ Det är enkelt att avskydda arbetsbokens struktur med Aspose.Cells API.
 {{% alert color="primary" %}}
 Observera: Ett korrekt lösenord krävs.
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -125,3 +125,4 @@ workbook.Save("output.xlsm");
 
 ### **تمت إضافة خاصية OoxmlSaveOptions.UpdateZoom**
 مع إصدار الإصدار v8.6.0، فقد قامت واجهة برمجة التطبيقات Aspose.Cells for .NET بفتح خاصية OoxmlSaveOptions.UpdateZoom والتي يمكن استخدامها لتحديث خاصية PageSetup.Zoom إذا تم استخدام PageSetup.FitToPagesWide و / أو PageSetup.FitToPagesTall properties للتحكم في تحجيم ورقة البيانات.
+{{< app/cells/assistant language="csharp" >}}

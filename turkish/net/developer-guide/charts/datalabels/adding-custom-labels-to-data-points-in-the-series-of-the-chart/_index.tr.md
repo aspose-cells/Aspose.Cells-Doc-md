@@ -16,3 +16,4 @@ Bir grafik serisinin veri noktalarına özel etiketler ekleyebilirsiniz. Aspose.
 Aşağıdaki kod, **Veri İşaretçileri Olan Çizgiyle Bağlantılı Dağılım Grafiği** oluşturur ve ardından **Özel Etiketler** ekler **Grafik**'in **Serisindeki** **Veri Noktalarına**. Her özel etiket, **Seri Adı** ve **Nokta Adı**'nı gösterir. İstediğiniz takdirde bunun yerine başka metin kullanabilirsiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-AddCustomLabelsToDataPoints-AddCustomLabelsToDataPointsInTheSeriesOfChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

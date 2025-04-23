@@ -47,9 +47,9 @@ Aspose.Cells还允许开发人员设置工作表的缩放因子。
 ### **控制缩放因子**
 Aspose.Cells提供了一个[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类，表示Microsoft Excel文件。[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类包含一个[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)，允许访问Excel文件中的每个工作表。
 
-工作表由[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)类表示。[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)类提供了广泛的属性和方法来管理工作表。要设置工作表的缩放因子，使用[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)类的[setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom)方法。
+工作表由 [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) 类表示。[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) 类提供了广泛的属性和方法用于管理工作表。要设置工作表的缩放比例，使用 [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) 类的 [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) 方法。
 
-下面给出一个完整的示例，演示了如何使用[setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom)方法设置Excel文件中第一个工作表的缩放因子。
+下面提供一个完整示例，演示如何使用 [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) 方法设置Excel文件中第一个工作表的缩放比例。
 
 在下面的截图中，您可以看到Book1.xls文件处于默认视图。
 
@@ -77,14 +77,14 @@ Aspose.Cells 还允许开发人员在运行时将冻结窗格应用于工作表�
 
 Aspose.Cells 提供一个代表 Microsoft Excel 文件的 [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) 类。[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) 类包含一个 [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)，允许访问 Excel 文件中的每个工作表。
 
-工作表由 [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) 类表示。[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) 类提供了一系列属性和方法来管理工作表。要配置冻结窗格，请调用 [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) 类的 [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) 方法。 [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) 方法接受以下参数：
+工作表由 [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) 类表示。[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) 类提供了广泛的属性和方法用于管理工作表。要配置冻结窗格，调用 [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) 类的 [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) 方法。 [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) 方法的参数如下：
 
 - **行**，冻结将从该行开始。
 - **列**，冻结将从该列开始。
 - **冻结行**，顶部窗格中可见的行数。
 - **冻结列**，左侧窗格中可见的列数
 
-下面给出一个完整示例，展示如何使用 [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) 类的 [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) 方法来冻结工作表的行和列（从 C4 开始，由第 4 行和第 3 列表示，其中行和列从 0 开始计数）。第一个工作表的 Excel 文件。
+下面提供一个完整示例，展示如何使用 [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) 类的 [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) 方法冻结Excel文件第一个工作表中从C4开始的行和列（以第4行和第3列表示，索引从0开始）。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FreezePanes-FreezePanes.java" >}}
 
@@ -106,7 +106,7 @@ Aspose.Cells 提供一个代表 Microsoft Excel 文件的 [Workbook](https://ref
 窗格同时工作。如果您在一个窗格中进行更改，则更改将同时显示在另一个窗格中。Aspose.Cells为用户提供了拆分窗格功能。
 ### **应用和移除拆分窗格**
 #### **拆分窗格**
-Aspose.Cells提供了代表Microsoft Excel文件的[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类。 [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类提供了各种属性和方法来管理Excel文件。要实现分割视图，请使用[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)类的[split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\))方法。要删除分割窗格，请使用[removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\))方法。
+Aspose.Cells 提供了一个 [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) 类，用于表示Microsoft Excel 文件。 [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) 类提供了丰富的属性和方法用于管理Excel文件。要实现拆分视图，使用 [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) 类的 [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split--) 方法。要移除拆分窗格，使用 [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--) 方法。
 
 在示例中，我们使用一个简单的模板文件进行加载，然后应用拆分窗格功能到第一个工作表的一个单元格上。然后保存更新后的文件。
 
@@ -122,7 +122,7 @@ Aspose.Cells提供了代表Microsoft Excel文件的[Workbook](https://reference.
 
 ![todo:image_alt_text](worksheet-views_9.png)
 #### **移除窗格**
-开发人员可以使用[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)类的[removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\))方法来移除分割窗格。
+开发者可以使用 [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) 类的 [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--) 方法移除拆分窗格。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovePanes-RemovePanes.java" >}}
 
@@ -133,3 +133,4 @@ Aspose.Cells提供了代表Microsoft Excel文件的[Workbook](https://reference.
 - [显示和隐藏元素](/cells/zh/java/show-and-hide-elements/)
 - [显示工作表中的公式而不是值](/cells/zh/java/show-formulas-instead-of-values-in-a-worksheet/)
 - [使用错误检查选项](/cells/zh/java/use-error-checking-options/)
+{{< app/cells/assistant language="java" >}}

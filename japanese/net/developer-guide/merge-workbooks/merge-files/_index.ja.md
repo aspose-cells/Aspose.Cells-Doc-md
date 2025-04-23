@@ -20,3 +20,4 @@ Aspose.Cellsでは、ファイルを結合するための異なる方法が提�
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-CellsHelperClass-MergeFiles-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

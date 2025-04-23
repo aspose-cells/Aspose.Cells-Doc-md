@@ -16,3 +16,4 @@ keywords: c# إزالة جدول الدوران من ورقة العمل، c# إ
 تحتوي رمز العينة التالي على حذف جدولين للدوران من ورقة العمل. أولاً يقوم بإزالة جدول الدوران باستخدام الطريقة [**Worksheet.PivotTables.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/remove) ثم يزيل جدول الدوران باستخدام الطريقة [**Worksheet.PivotTables.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/removeat)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-RemovePivotTable-RemovePivotTableFromWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

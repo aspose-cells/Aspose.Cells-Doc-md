@@ -31,3 +31,4 @@ url: /zh/java/extract-ole-objects-from-workbook/
 本文演示了如何使用 Aspose.Cells 从工作簿中提取 OLE 对象。希望它能为您提供一些见解，让您能够在自己的场景中使用这些选项。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

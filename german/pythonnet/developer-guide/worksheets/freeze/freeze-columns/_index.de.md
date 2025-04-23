@@ -4,8 +4,8 @@ linktitle: Spalten fixieren
 type: docs
 weight: 190
 url: /de/python-net/how-to-freeze-columns-of-excel-worksheet
-description: In diesem Artikel erfahren Sie, wie Sie linksseitige Spalten von Excel Tabellenblättern programmgesteuert einfrieren können, indem Sie Aspose.Cells für Python via .NET APIs verwenden.
-keywords: Python Excel Bibliothek, Python Einfrieren linker Spalten, Python Einfrieren erster Spalten, Python Spalten sperren.
+description: In diesem Artikel lernst du, wie man die linken Spalten von Excel Arbeitsblättern programmgesteuert mit Aspose.Cells für Python via .NET fixiert.
+keywords: Python Excel Bibliothek, Python Spalten fixieren, Python erste Spalten fixieren, Python Spalten sperren.
 ---
 
 ## **Einführung**
@@ -13,7 +13,7 @@ keywords: Python Excel Bibliothek, Python Einfrieren linker Spalten, Python Einf
 In diesem Artikel erfahren Sie, wie man die linken Spalten fixiert. Wenn Sie eine große Menge an Daten in einer Zeile haben, so dass Sie die linken Spalten beim horizontalen Scrollen des Arbeitsblatts nicht sehen können, können Sie die ersten Spalten fixieren und sperren, damit Sie diesen fixierten Bereich auch sehen können, wenn der Rest der Daten gescrollt wird. Sie können so die Überschriften in den linken Spalten leicht sehen.
 
 
-## **Wie man Spalten in Excel einfriert**
+## **Wie man Spalten in Excel fixiert**
 
 **![Linke Spalte(n) in Excel einfrieren](freeze-columns.png)**
 
@@ -32,8 +32,8 @@ Eingefrorene Spalten ermöglichen es Ihnen, Ihre langen Daten anzuzeigen, ohne d
 
 
 
-## **Wie man Spalten mit Aspose.Cells für Python Excel-Bibliothek einfriert**
-Es ist einfach, die ersten Spalten mit Aspose.Cells für Python via .NET einzufrieren. Verwenden Sie bitte die [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int)-Methode, um die Spalte(n) an der ausgewählten Spalte zu fixieren.
+## **So fixierst du Spalten mit der Python Excel-Bibliothek Aspose.Cells für Python**
+Es ist einfach, die erste(n) Spalte(n) mit Aspose.Cells für Python via .NET zu fixieren. Verwende die [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int)-Methode, um Spalte(n) an der gewünschten Stelle zu fixieren.
 1. Erstellen Sie eine Arbeitsmappe, um die Datei zu öffnen oder eine leere Datei zu erstellen.
 2. Freezen Sie die erste Spalte mit der Methode Worksheet.FreezePanes().
 3. Die Datei speichern.

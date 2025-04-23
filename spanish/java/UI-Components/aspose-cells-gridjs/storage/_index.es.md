@@ -17,9 +17,9 @@ Después de importar un archivo de hoja de cálculo,
 
 GridJs creará un archivo de caché con el uid especificado en la carpeta **`Config.getFileCacheDirectory()`** ,
 
-con el formato de [Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/java/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat") ,
+con el formato de [Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/java/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat"),
 
-GridJs también guardará todas las formas/ímasgenes en un archivo de archivo zip en la carpeta **`Config.getPictureCacheDirectory()`** para mostrar las formas/ímasgenes posteriormente en la interfaz de usuario del cliente.
+GridJs también guarda todas las formas/imágenes en un archivo zip en la carpeta **`Config.getPictureCacheDirectory()`** para su visualización posterior en la interfaz de usuario del cliente.
 
 y después de cada operación de actualización en la interfaz de usuario del cliente,
 
@@ -99,7 +99,7 @@ public class LocalFileCache extends GridCacheForStream {
 ```
 B. Si no establecemos GridJsWorkbook.CacheImp,
 
-GridJs creará y guardará archivos dentro de la carpeta de **`Config.getFileCacheDirectory()`**, que es el directorio de caché predeterminado que podemos configurar.
+GridJs creará y guardará el archivo dentro de la carpeta **`Config.getFileCacheDirectory()`**, que es el directorio de caché predeterminado que podemos establecer.
 
 ### cómo obtener el archivo de resultado actualizado
 #### 1. un uid especificado para el archivo 
@@ -183,7 +183,7 @@ necesitamos realizar una operación de fusión antes de la acción de guardado p
   //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
   wb.saveToCacheWithFileName(uid,filename,password);
 ```         
-#### 3. obtener la URL del archivo desde caché
+#### 3. obtener la url del archivo desde la caché
 por ejemplo: en la acción de descarga, simplemente puedes obtenerlo desde el directorio de caché por uid.
 ```JAVA
 //in controller  

@@ -34,3 +34,4 @@ Desproteger la estructura del libro es fácil con la API de Aspose.Cells.
 {{% alert color="primary" %}}
 Nota: se requiere una contraseña correcta.
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

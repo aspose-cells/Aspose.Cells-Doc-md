@@ -23,3 +23,4 @@ Dieser Abschnitt umfasst die folgenden Themen
 - [Arbeitsblätter zwischen Arbeitsmappen kopieren](/cells/de/net/copy-worksheets-between-workbooks/)
 - [Arbeitsblätter innerhalb einer Arbeitsmappe kopieren](/cells/de/net/copy-worksheets-within-a-workbook/)
 - [Arbeitsblätter innerhalb einer Arbeitsmappe verschieben](/cells/de/net/move-worksheets-within-workbook/)
+{{< app/cells/assistant language="csharp" >}}

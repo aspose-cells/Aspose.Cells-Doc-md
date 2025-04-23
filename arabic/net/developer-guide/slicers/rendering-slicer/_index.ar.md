@@ -13,3 +13,4 @@ url: /ar/net/rendering-slicer/
 ![todo:image_alt_text](rendering-slicer_1)
 ## **الكود المثالي**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-RenderingSlicer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

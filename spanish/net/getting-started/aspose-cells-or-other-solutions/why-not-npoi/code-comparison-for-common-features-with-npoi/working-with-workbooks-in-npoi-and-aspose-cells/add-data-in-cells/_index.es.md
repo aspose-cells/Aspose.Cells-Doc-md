@@ -91,3 +91,4 @@ Descargar **Agregar Datos en Celdas** de cualquiera de los sitios de codificaci√
 Para m√°s detalles, visita [Agregar Datos en Celdas](/cells/es/net/add-data-in-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

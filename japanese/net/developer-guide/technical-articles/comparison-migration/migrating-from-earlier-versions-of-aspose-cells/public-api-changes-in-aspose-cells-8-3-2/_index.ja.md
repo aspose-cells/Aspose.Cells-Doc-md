@@ -272,3 +272,4 @@ opts.IsFontSubstitutionCharGranularity = true;
 WorksheetインスタンスのためのWorkbook.CreateStyleメソッドを使用してスタイルを作成・操作することを推奨します。また、Workbook.GetNamedStyle(string)メソッドを使用して名前付きスタイルを取得することができます。
 ### **非推奨のPivotItem.Move(int count) メソッド**
 Aspose.Cells 8.3.2のリリースに伴い、PivotItem.Moveメソッドには、親ノード内のPivotItemを移動する整数パラメータとブールパラメータを受け取る別のオーバーロードが導入されました。
+{{< app/cells/assistant language="csharp" >}}

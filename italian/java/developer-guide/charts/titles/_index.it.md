@@ -31,3 +31,4 @@ Il seguente frammento di codice dimostra come impostare i titoli per grafici e a
 
 ## **Argomenti avanzati**
 - [Leggi il sottotitolo del grafico dal file ODS](/cells/it/java/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="java" >}}

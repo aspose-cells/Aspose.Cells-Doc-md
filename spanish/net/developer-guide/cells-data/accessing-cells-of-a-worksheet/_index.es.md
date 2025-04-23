@@ -56,3 +56,4 @@ Aspose.Cells permite a los desarrolladores acceder al rango de visualización m�
 Puedes acceder al rango de visualización máximo de una hoja de cálculo usando [**Worksheet.Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange). El siguiente código de ejemplo ilustra cómo acceder a la propiedad [**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

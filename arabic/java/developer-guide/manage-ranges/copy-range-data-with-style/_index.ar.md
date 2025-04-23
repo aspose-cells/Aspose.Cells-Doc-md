@@ -11,7 +11,7 @@ url: /ar/java/copy-range-data-with-style/
 
 {{% /alert %}} 
 ## **نسخ بيانات النطاق بالتنسيق**
-يوفر Aspose.Cells مجموعة من الفصول الدراسية والأساليب للعمل مع النطاقات، على سبيل المثال، createRange()، StyleFlag، applyStyle()، إلخ.
+توفر Aspose.Cells مجموعة من الفئات والطرق للعمل مع النطاقات، على سبيل المثال، [createRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-)، [StyleFlag](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag)، [applyStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-)، وغيرها.
 
 هذا المثال:
 
@@ -25,3 +25,4 @@ url: /ar/java/copy-range-data-with-style/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyRangeDataWithStyle-CopyRangeDataWithStyle.java" >}}
 
+{{< app/cells/assistant language="java" >}}

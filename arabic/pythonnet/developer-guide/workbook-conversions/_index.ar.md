@@ -89,7 +89,7 @@ keywords: تحويل مصنف Excel إلى PDF بلغة Python، تحويل مص
 
 ## **تحويل دفتر العمل إكسل إلى Markdown**
 
-واجهة API Aspose.Cells for Python via .NET تقدم دعمًا لتصدير الجداول الزمنية إلى تنسيق Markdown. لتصدير الورقة العمل النشطة إلى Markdown، قم بتمرير [**SaveFormat.Markdown**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) كالمعامل الثاني لطريقة [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3). يمكنك أيضًا استخدام فئة [**MarkdownSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions) لتحديد إعدادات إضافية لتصدير الورقة العمل إلى Markdown.
+واجهة API Aspose.Cells for Python via .NET تقدم دعمًا لتصدير الجداول الزمنية إلى تنسيق Markdown. لتصدير الورقة العمل النشطة إلى Markdown، قم بتمرير [**SaveFormat.MARKDOWN**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat) كالمعامل الثاني لطريقة [**Workbook.Save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.saveformat). يمكنك أيضًا استخدام فئة [**MarkdownSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/markdownsaveoptions) لتحديد إعدادات إضافية لتصدير الورقة العمل إلى Markdown.
 
 المثال التالي يوضح تصدير ورقة العمل النشطة إلى Markdown باستخدام عضو تعداد [**SaveFormat.MARKDOWN**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/). يرجى الرجوع إلى [ملف Markdown الناتج](md_sample.txt) الذي تم إنشاؤه بواسطة الكود للرجوع إليه.
 

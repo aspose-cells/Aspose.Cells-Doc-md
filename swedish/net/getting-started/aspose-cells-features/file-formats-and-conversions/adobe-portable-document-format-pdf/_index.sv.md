@@ -24,3 +24,4 @@ Aspose-lösningen stöder noggrant följande dokumentfunktioner vid konvertering
 - Sammanfogade celler, Sidbrytningar, Trycktitlar
 
 Du kan också se [detaljerad specifikation](https://docs.aspose.com/cells/net/convert-excel-workbook-to-pdf/) om hur Aspose.Cells konverterar ett dokument till PDF.
+{{< app/cells/assistant language="csharp" >}}

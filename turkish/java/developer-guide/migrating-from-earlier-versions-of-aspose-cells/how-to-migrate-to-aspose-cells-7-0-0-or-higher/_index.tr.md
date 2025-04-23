@@ -42,3 +42,4 @@ Worksheets.size() (Eski) -> WorksheetCollection.getCount() (Yeni), ...,vb.
 
 4) v2.5.4 veya önceki sürümlerde 'is' ile başlayan Boolean özelliklerin getirme yöntemleri değişti. v7.0.0'da bunlar 'get' ile başlıyor:
 örn., PageSetup.isBlackAndWhite() (Eski) -> PageSetup.getBlackAndWhite() (Yeni), ...vb.
+{{< app/cells/assistant language="java" >}}

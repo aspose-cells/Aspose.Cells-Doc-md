@@ -104,3 +104,4 @@ El siguiente ejemplo muestra cómo proteger una columna en la hoja de cálculo. 
 El siguiente ejemplo muestra cómo permitir a los usuarios editar un rango en una hoja de cálculo protegida.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-EditRangesWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

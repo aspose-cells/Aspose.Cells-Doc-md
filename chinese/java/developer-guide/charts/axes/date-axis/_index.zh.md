@@ -22,3 +22,4 @@ url: /zh/java/date-axis/
 
 ## **示例代码**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DateAxis.java" >}}
+{{< app/cells/assistant language="java" >}}

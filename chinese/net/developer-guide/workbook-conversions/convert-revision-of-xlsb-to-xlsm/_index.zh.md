@@ -18,3 +18,4 @@ Aspose.Cells现在支持将XLSB文件中的修订版本完全转换为XLSM文件
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ConvertXLSBToXLSM-ConvertXLSBRevisionToXLSM.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

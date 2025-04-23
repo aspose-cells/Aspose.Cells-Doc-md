@@ -47,3 +47,4 @@ Puede guardar el libro de trabajo completo en una sola imagen TIFF con varias cu
 - [Exportar gráfico a SVG con atributo viewBox](/cells/es/java/export-chart-to-svg-with-viewbox-attribute/)
 - [Exportar hoja de cálculo o gráfico a imagen con ancho y alto deseados](/cells/es/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
 - [Conversión de hoja de cálculo a imagen y hoja de cálculo a imagen por página](/cells/es/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)
+{{< app/cells/assistant language="java" >}}

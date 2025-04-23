@@ -22,3 +22,4 @@ och få låsta rader och kolumner med [**Worksheet.GetFreezedPanes**](https://re
 3. Få de låsta rad och kolumnerna
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Is-Worksheet-Frozen.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

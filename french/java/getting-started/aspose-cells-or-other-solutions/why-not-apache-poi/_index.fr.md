@@ -163,3 +163,4 @@ Cette section comprend les sujets suivants
 ## Voir aussi
 
 * [En savoir plus sur Apache POI](https://poi.apache.org/)
+{{< app/cells/assistant language="java" >}}

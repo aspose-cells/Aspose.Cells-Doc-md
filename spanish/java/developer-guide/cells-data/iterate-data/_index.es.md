@@ -110,3 +110,4 @@ Basándose en los hechos mencionados anteriormente, a continuación se presentan
 1. Se requiere acceso de solo lectura a la colección de celdas, es decir; la necesidad es solo inspeccionar las celdas.
 1. Se deben recorrer un gran número de celdas.
 1. Se deben recorrer solo celdas/filas/columnas inicializadas.
+{{< app/cells/assistant language="java" >}}

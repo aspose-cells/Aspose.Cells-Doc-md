@@ -81,3 +81,4 @@ Aspose.Cells позволяет вставлять флажки на лист д
 
 ## **Продвинутые темы**
 - [Добавить водяной знак WordArt на диаграмму](/cells/ru/net/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="csharp" >}}

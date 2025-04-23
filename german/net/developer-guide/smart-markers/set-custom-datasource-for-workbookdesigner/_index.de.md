@@ -20,3 +20,4 @@ Die Quell- und Ausgabedateien sind als Referenz angehängt.
 [Quelldatei](95584319.xlsx)
 
 [Ausgabedatei](95584320.xlsx)
+{{< app/cells/assistant language="csharp" >}}

@@ -321,3 +321,4 @@ m_workbook.Save("output.xlsx")
 Daha fazla bilgi için lütfen [Kısa Çizgi Grubunun Veri Aralığını ve Konumunu Belirtme](http://aspose.com/docs/display/cellsnet/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group) makalesini kontrol edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

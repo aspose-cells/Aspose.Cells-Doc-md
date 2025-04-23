@@ -125,3 +125,4 @@ for (int index = 0; index <= sheet1.LastRowNum; index++)
 更多详情，请访问[Aspose.Cells数据处理功能](/cells/zh/net/data-handling-features-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

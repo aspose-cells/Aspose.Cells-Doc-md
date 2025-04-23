@@ -14,3 +14,4 @@ Aspose.Cells, *DBNum* özel desen biçimlendirmesini destekler. Örneğin, hü
 Aşağıdaki örnek kod, *DBNum* özel desen biçimlendirmesini belirtmenin nasıl yapıldığını göstermektedir. Daha fazla yardım için lütfen [çıktı PDF](43352082.pdf)'e bakın.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SpecifyingDBNumCustomPatternFormatting.java" >}}
+{{< app/cells/assistant language="java" >}}

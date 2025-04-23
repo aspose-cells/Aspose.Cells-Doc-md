@@ -32,3 +32,4 @@ Hier haben wir *Beispielcode* vorbereitet, um Ihnen zu helfen, Symbole mit [Aspo
 Wenn Sie den obigen Code in Ihrem Projekt ausführen, erhalten Sie die folgenden Ergebnisse:
 
 ![](3.png)
+{{< app/cells/assistant language="java" >}}

@@ -11,8 +11,8 @@ url: /ar/java/change-tick-label-direction/
 
 - [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
 - [**VERTICAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)
-- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)
-- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_270)
+- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90)
+- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-270)
 - [**STACKED**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#STACKED)
 
 صورة تقارن بين الملف الأصلي وملف الإخراج
@@ -25,7 +25,7 @@ url: /ar/java/change-tick-label-direction/
 
 ![todo:image_alt_text](change-tick-label-direction_2.jpg)
 
-مقتطف الكود التالي يغير اتجاه تسمية التيكات من [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90) إلى [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
+مقتطف الكود التالي يغير اتجاه تسمية التيكات من [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90) إلى [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
 
 ### **الكود المثالي**
 
@@ -36,3 +36,4 @@ url: /ar/java/change-tick-label-direction/
 [ملف المصدر](SampleChangeTickLabelDirection.xlsx)
 
 [ملف الإخراج](outputChangeChartDataLableDirection.xlsx)
+{{< app/cells/assistant language="java" >}}

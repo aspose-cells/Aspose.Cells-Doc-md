@@ -21,7 +21,7 @@ Il existe deux types de données à manipuler lors de l'utilisation de graphique
 
 ### **Données du graphique**
 
-Les données de graphique sont les données que nous utilisons comme source de données pour construire nos graphiques. Nous pouvons ajouter une plage de cellules (contenant des données de graphique) en appelant la méthode [**Add**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add(java.lang.Object)) de l'objet [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection).
+Les données de graphique sont les données que nous utilisons comme source de données pour construire nos graphiques. Nous pouvons ajouter une plage de cellules (contenant des données de graphique) en appelant la méthode [**Add**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add-java.lang.Object-) de l'objet [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsData-SettingChartsData.java" >}}
 
@@ -40,3 +40,4 @@ Les données de catégorie sont utilisées pour l'étiquetage des données de gr
 - [Méthode Simple pour Configurer un Graphique en utilisant la méthode setChartDataRange de Chart](/cells/fr/java/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [Trouver le type de valeurs X et Y des points dans la série de graphiques](/cells/fr/java/find-type-of-x-and-y-values-of-points-in-chart-series/)
 - [Définir le code de format des valeurs de la série du graphique](/cells/fr/java/set-the-values-format-code-of-chart-series/)
+{{< app/cells/assistant language="java" >}}

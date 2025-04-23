@@ -10,3 +10,4 @@ url: /zh/net/working-with-data-in-npoi-and-aspose-cells/
 - [获取单元格内容](/cells/zh/net/getting-cell-contents/)
 - [在工作表中插入超链接](/cells/zh/net/insert-hyperlinks-in-worksheet/)
 - [单元格中的换行](/cells/zh/net/new-line-in-cells/)
+{{< app/cells/assistant language="csharp" >}}

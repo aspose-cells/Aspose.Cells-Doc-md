@@ -15,7 +15,7 @@ Manchmal müssen mehrere Arbeitsblätter in einem einzigen Arbeitsblatt zusammen
 
 ## **Wie man Arbeitsblätter kombiniert**
 
-Das untenstehende Beispiel verwendet die Methode [**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)), um alle Quellarbeitsblätter in einem Zieltabellenblatt innerhalb einer Zielarbeitsmappe zu kopieren.
+Das untenstehende Beispiel verwendet die Methode [**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy-com.aspose.cells.Range-), um alle Quellarbeitsblätter in einem Zieltabellenblatt innerhalb einer Zielarbeitsmappe zu kopieren.
 
 ### **Quellarbeitsmappe**
 
@@ -59,3 +59,4 @@ Der folgende Codeausschnitt zeigt, wie mehrere Arbeitsblätter in ein einziges A
 Sie finden den Artikel [Mehrere Arbeitsmappen in eine Arbeitsmappe zusammenführen](/cells/de/java/combine-multiple-workbooks-into-a-single-workbook/) möglicherweise nützlich, um weitere Informationen zu erhalten.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

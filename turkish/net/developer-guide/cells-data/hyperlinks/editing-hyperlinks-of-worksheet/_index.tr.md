@@ -16,3 +16,4 @@ Aspose.Cells, [**Worksheet.Hyperlinks**](https://reference.aspose.com/cells/net/
 Aşağıdaki örnek kod, çalışma sayfasının tüm bağlantılarına erişir ve bunların [**Hyperlink.Address**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/address) özelliğini Aspose web sitesine değiştirir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-EditingHyperlinksOfWorksheet-EditingHyperlinksOfWorksheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

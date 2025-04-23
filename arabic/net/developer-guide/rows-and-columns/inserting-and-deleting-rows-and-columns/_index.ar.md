@@ -76,3 +76,4 @@ keywords: تدير Aspose.Cells C# الصفوف والأعمدة، تقوم بإ
 لحذف عمود من ورقة العمل في أي موقع، اتصل بالطريقة [**DeleteColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) في تجميعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). الطريقة [**DeleteColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) تأخذ مؤشر العمود للحذف.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-DeletingAColumn-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

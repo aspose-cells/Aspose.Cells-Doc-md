@@ -16,3 +16,4 @@ Aspose.Cells, grafikleri olmadan excel dosyanızı yüklemenize izin verir. Bu a
 Aşağıdaki örnek kod, örnek excel dosyasını grafiksiz yükler ve çıktı PDF formatında kaydeder.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-LoadTemplateWithoutCharts.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

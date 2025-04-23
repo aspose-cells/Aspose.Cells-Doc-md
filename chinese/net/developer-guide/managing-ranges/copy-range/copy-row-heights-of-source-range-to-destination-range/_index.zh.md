@@ -14,3 +14,4 @@ url: /zh/net/copy-row-heights-of-source-range-to-destination-range/
 以下示例代码说明了如何使用[**PasteType.RowHeights**](https://reference.aspose.com/cells/net/aspose.cells/pastetype)枚举将源范围的行高复制到目标范围。一旦您在Microsoft Excel中打开由此代码生成的输出excel文件，您将看到目标范围的行高与源范围的行高完全相同。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-GetRowHeights-GetRowHeightsOfSourceRangeToDestinationRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

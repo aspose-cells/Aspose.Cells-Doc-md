@@ -29,3 +29,4 @@ Este ejemplo muestra cómo:
 1. Establecer el borde externo del rango.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Range-set-border.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

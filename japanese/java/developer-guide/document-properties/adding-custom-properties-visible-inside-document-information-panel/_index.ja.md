@@ -9,7 +9,7 @@ url: /ja/java/adding-custom-properties-visible-inside-document-information-panel
 
 Aspose.Cellsを使用すると、ワークブックオブジェクト内に文書情報パネルで表示されるカスタムプロパティを追加できます。Microsoft Excelで文書情報パネルを開くには、ファイル > 情報 > プロパティ > ドキュメントパネルを選択します。
 
-ドキュメント情報パネルに表示されるカスタムプロパティを追加するには、[**Workbook.getContentTypeProperties().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add(java.lang.Object)) メソッドを使用してください
+ドキュメント情報パネルに表示されるカスタムプロパティを追加するには、[**Workbook.getContentTypeProperties().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-) メソッドを使用してください
 
 {{% /alert %}}
 
@@ -26,3 +26,4 @@ Aspose.Cellsを使用すると、ワークブックオブジェクト内に文�
 - [Aspose.Cells でカスタム XML パーツを使用する](/cells/ja/java/using-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -11,7 +11,7 @@ keywords: Java Convertire l indice della cella in nome, Convertire il nome della
 ## **Come ottenere il nome della cella da Indici di Riga e Colonna**
 È possibile trovare il nome di una cella dato l'indice di riga e colonna. Questo articolo spiega come fare.
 
-Aspose.Cells fornisce il metodo [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) che consente agli sviluppatori di ottenere il nome di una cella se forniscono l'indice di riga e colonna.
+Aspose.Cells fornisce il metodo [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName-int-int-) che permette agli sviluppatori di ottenere il nome di una cella se forniscono l’indice di riga e colonna.
 
 {{% alert color="primary" %}} 
 
@@ -19,7 +19,7 @@ Microsoft Excel inizia a contare gli indici di riga e colonna da 1. A differenza
 
 {{% /alert %}} 
 
-Il seguente codice di esempio illustra come utilizzare [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) per accedere al nome della cella dato un indice di riga e colonna noto. Il codice genera l'output seguente.
+Il seguente esempio di codice illustra come usare [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName-int-int-) per accedere al nome di una cella dato un indice di riga e colonna conosciuti. Il codice genera il seguente output.
 
 {{< highlight java >}}
 
@@ -37,7 +37,7 @@ Cell Name at [2, 2]: C3
 ## **Come ottenere gli indici di riga e colonna dal Nome della Cellula**
 È possibile trovare un indice di riga e colonna della cella dal suo nome. Questo articolo spiega come.
 
-Aspose.Cells fornisce il metodo [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) che consente agli sviluppatori di ottenere un indice di riga e colonna dal nome della cella.
+Aspose.Cells fornisce il metodo [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex-java.lang.String-) che consente agli sviluppatori di ottenere un indice di riga e colonna dal nome della cella.
 
 {{% alert color="primary" %}} 
 
@@ -45,7 +45,7 @@ Microsoft Excel inizia a contare gli indici di riga e colonna da 1. A differenza
 
 {{% /alert %}} 
 
-Il seguente codice di esempio illustra come utilizzare [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) per ottenere l'indice di riga e colonna dal nome della cella. Il codice genera l'output seguente.
+Il seguente esempio di codice illustra come usare [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex-java.lang.String-) per ottenere l'indice di riga e colonna dal nome della cella. Il codice genera il seguente output.
 
 {{< highlight java >}}
 
@@ -72,3 +72,4 @@ questo è il primo nome che viene cre
 ` `<> + (adj.Private _ " Private"
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

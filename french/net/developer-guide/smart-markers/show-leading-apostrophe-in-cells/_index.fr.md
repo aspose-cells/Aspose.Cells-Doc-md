@@ -22,3 +22,4 @@ Le code suivant illustre ceci en ajoutant des données avec des marqueurs intell
 La mise en œuvre de la classe *DataObject* est donnée ci-dessous
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AllowLeadingApostrophe-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

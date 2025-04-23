@@ -16,3 +16,4 @@ Följande kodexempel visar användningen av metoden [**GetValidation**](https://
 ### **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-GetCellValidationInODS-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

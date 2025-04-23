@@ -16,3 +16,4 @@ keywords: Экспорт данных видимых столбцов в DataTab
 Приведенный ниже образец кода объясняет использование свойства [**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns) для игнорирования скрытых столбцов при экспорте всего содержимого листа данных в таблицу данных.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-IgnoreHiddenColumnsDataTable-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

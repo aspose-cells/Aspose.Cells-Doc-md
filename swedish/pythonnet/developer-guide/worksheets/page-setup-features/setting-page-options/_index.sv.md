@@ -3,8 +3,8 @@ title: Inställning av sidalternativ
 type: docs
 weight: 10
 url: /sv/python-net/setting-page-options/
-description: I den här artikeln tillhandahålls provkod för att ställa in sidaalternativ för Excel ark med Aspose.Cells för Python via .NET API programmatiskt. Du kommer att kunna ställa in sidorientering, skalningsfaktor, passa till sidor alternativ, pappersstorlek, utskriftskvalitet, första sidnumret.
-keywords: Python Excel Library, ställ in Excel sidorientering med Python, ställ in skalningsfaktor i Excel med Python, ställ in pappersstorlek på Excel ark i Python, Python hur man ställer in sidorientering, Python hur man ställer in skalningsfaktor, Python hur man ställer in alternativ för passande till sidor, Python hur man ställer in pappersstorlek, Python hur man ställer in utskriftskvalitet, Python hur man ställer in första sidnumret.
+description: Denna artikel ger exempel på kod för att ställa in sidalternativ för Excel kalkylblad programmatiskt med Aspose.Cells för Python via .NET API. Du kan ställa in sidorientering, förstoringsfaktor, anpassa sidor, pappersstorlek, utskriftskvalitet och första sidnummer.
+keywords: Python Excel bibliotek, Python ställ in excel sidorientering, ställ in excels skalningsfaktor med Python, ställ in excels pappersstorlek i Python, Python Hur man ställer in sidorientering, Python Hur man ställer in skalningsfaktor, Python Hur man ställer in anpassade sidor, Python Hur man ställer in pappersstorlek, Python Hur man ställer in utskriftskvalitet, Python Hur man ställer in första sidnummer.
 ---
 
 {{% alert color="primary" %}}
@@ -13,44 +13,44 @@ Ibland är det nödvändigt att konfigurera siduppställningsinställningar för
 
 {{% /alert %}}
 
-## **Hur man ställer in sidalternativ**
+## **Hur man anger sidalternativ**
 
-Siduppsättningsalternativ stöds fullt ut i Aspose.Cells för Python via .NET. Den här artikeln förklarar hur man ställer in sidalternativ med Aspose.Cells för Python via .NET och visar kodexempel för inställning:
+Sidinställningar är fullt stödda i Aspose.Cells för Python via .NET. Denna artikel förklarar hur man ställer in sidalternativ med Aspose.Cells för Python via .NET och visar kodexempel för att ställa in:
 
-Aspose.Cells för Python via .NET tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), som representerar en Microsoft Excel-fil. Klassen [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) innehåller en [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets)-samling som tillåter åtkomst till varje kalkylark i Excel-filen. Ett kalkylark representeras av klassen [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet).
+Aspose.Cells för Python via .NET tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), som representerar en Microsoft Excel-fil. [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)-klassen innehåller en [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) samling som ger åtkomst till varje arbetsblad i Excel-filen. Ett arbetsblad representeras av [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) klassen.
 
 [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)-klassen tillhandahåller egenskapen [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) som används för att ställa in sidlayoutalternativen för arbetsbladet. Faktum är att denna [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)-egenskap är ett objekt av [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)-klassen som används för att ställa in olika sidlayoutalternativ för ett utskrivet arbetsblad. [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)-klassen tillhandahåller olika egenskaper som används för att ställa in sidlayoutalternativ. Några av dessa egenskaper diskuteras nedan.
 
-## **Hur man ställer in sidorientering**
+## **Hur man anger sidorientering**
 
 Sidorientering kan ställas in till porträtt- eller landskapsläge genom [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)-klassens [**orientation**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/orientation)-egenskap. [**orientation**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/orientation)-egenskapen accepterar en av de fördefinierade värdena i [**PageOrientationType**](https://reference.aspose.com/cells/python-net/aspose.cells/pageorientationtype)-uppräkningen, listade nedan.
 
 |**Sidorienteringstyper**|**Beskrivning**|
 | :- | :- |
-|LANDSCAPE|Landskapsorientering|
-|PORTRAIT|Stående orientering|
+|LANDSKAP|Landskapsorientering|
+|PORTRÄTT|Porträttorientering|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-PageOrientation-1.py" >}}
 
-## **Hur man ställer in skalningsfaktorn**
+## **Hur man anger skaleringsfaktor**
 
 Det är möjligt att minska eller förstora storleken på en arbetsboksida genom att justera skalningsfaktorn med [**PageSetup.zoom**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/zoom)-egenskapen.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-ScalingFactor-1.py" >}}
 
-## **Hur man ställer in alternativ för passande till sidor**
+## **Hur man sätter in FitToPages-alternativ**
 
 För att anpassa arbetsboks innehåll till ett specifikt antal sidor, använd klassens [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/) och [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/)-egenskaper. Dessa egenskaper används också för att skala arbetsböcker.
 
 {{% alert color="primary" %}}
 
-Du kan antingen välja egenskaperna [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/) och [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/) eller egenskapen [**zoom**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/zoom) men inte båda samtidigt.
+Du kan antingen välja [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/) och [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/) eller egenskapen [**zoom**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/zoom) men inte båda samtidigt.
 
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-FitToPagesOptions-1.py" >}}
 
-## **Hur man ställer in pappersstorlek**
+## **Hur man sätter pappersstorlek**
 
 Ange pappersstorleken som arbetsarken ska skrivas ut på med hjälp av klassens [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) [**paper_size**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_size/)-egenskap. [**paper_size**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_size/)-egenskapen accepterar en av de fördefinierade värdena i [**PaperSizeType**](https://reference.aspose.com/cells/python-net/aspose.cells/papersizetype/)-uppräkningen, som listas nedan.
 
@@ -185,7 +185,7 @@ Ange utskriftskvaliteten för arbetsboken som ska skrivas ut med hjälp av klass
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPrintQuality-1.py" >}}
 
-## **Hur man ställer in första sidnumret**
+## **Hur man sätter första sidnummer**
 
 Starta numreringen av arbetsbokssidorna med hjälp av klassens [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) [**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/)-egenskap. [**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/)-egenskapen ställer in sidnumret för första arbetsbokssidan och följande sidor numreras i stigande ordning.
 

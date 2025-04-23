@@ -45,3 +45,4 @@ Ladda ner **Skriva ut arbetsböcker** från någon av nedan nämnda sociala kodn
 För mer information, besök [Skriva ut arbetsböcker](/cells/sv/net/printing-workbooks/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

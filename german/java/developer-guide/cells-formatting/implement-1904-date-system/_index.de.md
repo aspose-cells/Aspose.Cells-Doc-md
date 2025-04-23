@@ -24,3 +24,4 @@ Um das 1904-Datensystem in Microsoft Excel zu implementieren (zum Beispiel Micro
 Sehen Sie sich den folgenden Beispielcode an, wie Sie dies mit Aspose.Cells-APIs erreichen können.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-Implement1904DateSystem-Implement1904DateSystem.java" >}}
+{{< app/cells/assistant language="java" >}}

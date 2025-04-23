@@ -53,3 +53,4 @@ Aspose.Cells会自动在文件系统中查找TrueType字体。大多数情况下
 - [当发生字体替换时如何获得警告](/cells/zh/java/get-warnings-for-font-substitution-while-rendering-excel-file/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

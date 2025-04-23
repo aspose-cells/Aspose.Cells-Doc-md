@@ -16,3 +16,4 @@ Die [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/S
 Wenn Sie die Blatt-in-Bild-Funktion verwenden, hat das Ausgabebild standardmäßig einen weißen/leeren Bereich, d.h. einen Rand, um sich herum. Sie können dies entfernen. Legen Sie die oberen, linken, unteren und rechten Seiteneinrichtungsmargen für das Quellarbeitsblatt auf 0 fest und spezifizieren Sie entsprechende [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)-Attribute.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-RemoveWhitespaceAroundData-1.java" >}}
+{{< app/cells/assistant language="java" >}}

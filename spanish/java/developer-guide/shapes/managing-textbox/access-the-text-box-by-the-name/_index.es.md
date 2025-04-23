@@ -22,3 +22,4 @@ Aquí está la salida en consola del código de muestra anterior.
  This is MyTextBox
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

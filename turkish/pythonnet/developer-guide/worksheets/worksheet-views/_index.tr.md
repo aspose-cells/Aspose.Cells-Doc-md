@@ -3,8 +3,8 @@ title: Sayfa Görünümleri
 type: docs
 weight: 40
 url: /tr/python-net/worksheet-views/
-description: Bu makale, Aspose.Cells for Python via .NET API sini kullanarak bir Excel çalışma kitabının ve çalışma sayfalarının sayfa sonu önizlemesi ile nasıl etkileşime geçeceğinizi açıklayacaktır. Bölünmüş paneller, donmuş paneller ve yakınlaştırma faktörü ile çalışın. 
-keywords: Python Excel Kütüphanesi, Python Sayfa Sonu Önizleme Nasıl Açılır, Python Normal Görünümü Etkinleştirme, Python Yakınlaştırma Faktörünü Ayarlama, Python Panoları Dondurma, Python Panoları Ayırma, Python Panoları Kaldırma.
+description: Bu makale, Aspose.Cells for Python via .NET API sini kullanarak bir Excel çalışma kitabı ve çalışma sayfalarının sayfa kırma ön izlemesi ile etkileşim kurmayı anlatacaktır. Ayrıca bölünmüş paneller, dondurulmuş paneller ve yakınlaştırma faktörü ile çalışma üzerine de odaklanılacaktır. 
+keywords: Python Excel Kütüphanesi, Sayfa Kırma Önizlemesini nasıl ayarlayacağınızı, Normal Görünüm ü nasıl etkinleştireceğinizi, Yakınlaştırma Faktörünü nasıl ayarlayacağınızı, Panelleri nasıl donduracağınızı, Panelleri nasıl bölüneceğinizi ve Panelleri nasıl kaldıracağınızı anlatan Python ile ilgili bilgiler.
 ---
 
 ## **Sayfa Kesme Önizleme**
@@ -14,11 +14,11 @@ Tüm çalışma sayfaları iki modda görüntülenebilir:
 - Normal görünüm.
 - Sayfa kesme önizlemesi.
 
-Normal görünüm, bir çalışma sayfasının varsayılan görünümüdür. Sayfa aralığı önizlemesi, bir çalışma sayfasını yazdırılacağı gibi görüntüleyen bir düzenleme görünümüdür. Sayfa aralığı önizlemesi, her sayfada hangi verilerin yer alacağını gösterir, böylece yazdırma alanını ve sayfa aralıklarını ayarlayabilirsiniz. Aspose.Cells for Python via .NET geliştiricileri, normal görünümü veya sayfa aralığı önizleme modlarını etkinleştirebilir.
+Normal görünüm, bir çalışma sayfasının varsayılan görünümüdür. Sayfa kırma önizlemesi, bir çalışma sayfasını yazdırılacak gibi gösteren düzenleme görünümüdür. Sayfa kırma önizlemesi, her sayfaya hangi verilerin gideceğini gösterir, böylece yazdırma alanını ve sayfa kırılmalarını ayarlayabilirsiniz. Aspose.Cells for Python via .NET geliştiricileri, normal görünüm veya sayfa kırma önizleme modlarını etkinleştirebilir.
 
 ### **Görünüm Modlarını Kontrol Etme**
 
-Aspose.Cells for Python via .NET, bir Microsoft Excel dosyasını temsil eden bir [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfı sağlar. [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfı, bir Excel dosyasındaki her çalışma sayfasına erişime izin veren bir [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) koleksiyonu içerir.
+Aspose.Cells for Python via .NET, Microsoft Excel dosyasını temsil eden bir [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfı sağlar. [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) koleksiyonu içerir.
 
 Bir çalışma sayfası, [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) sınıfı, çalışma sayfalarını yönetmek için geniş bir özellik ve yöntem yelpazesi sağlar. Normal veya sayfa görünümü önizlemesi modlarını etkinleştirmek için [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) sınıfının [**is_page_break_preview**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_page_break_preview) özelliğini kullanın. [**is_page_break_preview**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_page_break_preview), yalnızca bir **true** ya da **false** değerini depolayabilen bir Boolean özelliğidir.
 
@@ -69,10 +69,10 @@ Aspose.Cells, bir Microsoft Excel dosyasını temsil eden bir sınıfı içeren 
 
 Bir çalışma sayfası, [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) sınıfı, çalışma sayfalarını yönetmek için geniş bir özellik ve yöntem yelpazesi sağlar. Sabit panoları yapılandırmak için, Çalışma Sayfası sınıfının [**freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#int-int-int-int) yöntemini çağırın. [**freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#int-int-int-int) yöntemi aşağıdaki parametreleri alır:
 
-- **satır**, dondurmanın başlayacağı hücrenin satır dizini.
-- **sütun**, dondurmanın başlayacağı hücrenin sütun dizini.
-- **dondurulan_satırlar**, üst penceredeki görünür satır sayısı.
-- **dondurulan_sütunlar**, sol penceredeki görünür sütun sayısı.
+- **satır**, dondurma işleminin başlayacağı satırın dizini.
+- **sütun**, dondurma işleminin başlayacağı sütunun dizini.
+- **dondurulmuş_satırlar**, üst bölgede görünür olan satır sayısı.
+- **dondurulmuş_sütunlar**, sol panelde görünür olan sütun sayısı.
 
 Book1.xls dosyası, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) sınıfının yapılandırıcısını çağırarak açılır ve ilk çalışma sayfasında birkaç satır ve sütun sabitlenir. Değiştirilmiş dosya output.xls olarak kaydedilir.
 

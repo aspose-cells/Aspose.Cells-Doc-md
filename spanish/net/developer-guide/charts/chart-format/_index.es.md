@@ -73,3 +73,4 @@ El siguiente fragmento de código demuestra cómo cambiar el color de las línea
 ## **Temas avanzados**
 - [Establecer el código de formato de valores de la serie del gráfico](/cells/es/net/set-the-values-format-code-of-chart-series/)
 - [Establecer una imagen como relleno de fondo en el gráfico](/cells/es/net/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="csharp" >}}

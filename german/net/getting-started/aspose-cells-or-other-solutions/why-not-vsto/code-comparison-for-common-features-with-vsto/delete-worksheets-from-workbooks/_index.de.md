@@ -26,3 +26,4 @@ Sie können jedes Arbeitsblatt in einer Arbeitsmappe löschen. Verwenden Sie zum
 {{< /highlight >}}
 ## **Herunterladen**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DeleteWorksheetsFromWorkbooks.zip)
+{{< app/cells/assistant language="csharp" >}}

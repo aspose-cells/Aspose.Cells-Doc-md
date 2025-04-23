@@ -190,3 +190,4 @@ Sayfa yönlendirmesi; dikey veya yatay olarak [**PageSetup**](https://reference.
 Çalışma sayfasının numaralandırmasını [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) sınıfının [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) özelliğini kullanarak başlatın. [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) özelliği, ilk çalışma sayfasının sayı numarasını ayarlar ve sonraki sayfalar artan sırayla numaralanır.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetFirstPageNumber-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

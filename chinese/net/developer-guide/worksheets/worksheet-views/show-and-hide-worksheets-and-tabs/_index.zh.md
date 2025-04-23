@@ -58,3 +58,4 @@ Aspose.Cells提供了一个代表Excel文件的类[**Workbook**](https://referen
 ### **控制选项卡栏宽度**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-ControlTabBarWidth-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

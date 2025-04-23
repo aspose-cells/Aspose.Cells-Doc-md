@@ -7,7 +7,7 @@ url: /tr/java/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjectev
 
 ## **Olası Kullanım Senaryoları**
 
-Aspose.Cells, bir [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) soyut sınıf sağlar, bu sınıfın bir [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) yöntemi bulunur. Kullanıcı, [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) uygulayabilir ve Excel'in PDF veya görüntüye render edilirken [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) yöntemini ve [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) ve **Bound**'u alabilir. Aşağıda, [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) yönteminin parametrelerine kısa bir açıklaması bulunmaktadır.
+Aspose.Cells, bir [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) soyut sınıf sağlar, bu sınıfın bir [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw-com.aspose.cells.DrawObject-float-float-float-float-) yöntemi bulunur. Kullanıcı, [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) uygulayabilir ve Excel'in PDF veya görüntüye render edilirken [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw-com.aspose.cells.DrawObject-float-float-float-float-) yöntemini ve [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) ve **Bound**'u alabilir. Aşağıda, [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw-com.aspose.cells.DrawObject-float-float-float-float-) yönteminin parametrelerine kısa bir açıklaması bulunmaktadır.
 
 - drawObject: Render edilirken başlatılacak ve döndürülecek [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
 
@@ -42,3 +42,4 @@ Lütfen aşağıdaki örnek kodu inceleyin. Bu, [örnek Excel dosyasını](64716
 \----------------------
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -24,3 +24,4 @@ Aspose.Cells APIを使用してタスクを実行する方法を説明する以�
 スプレッドシートに数式が含まれている場合、PDF形式に変換する直前に [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) を呼び出すことが最善です。これにより、数式に依存する値が再計算され、PDFで正しい値がレンダリングされます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

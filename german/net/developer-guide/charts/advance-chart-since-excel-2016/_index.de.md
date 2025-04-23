@@ -41,3 +41,4 @@ BoxWhisker
 - [Erstellung eines Wasserfalldiagramms](/cells/de/net/creating-waterfall-chart/)
 - [Erstellung eines TreeMap-Diagramms](/cells/de/net/creating-treemap-chart/)
 - [Erstellung eines Sunburst-Diagramms](/cells/de/net/creating-sunburst-chart/)
+{{< app/cells/assistant language="csharp" >}}

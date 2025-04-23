@@ -84,3 +84,4 @@ Die [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells
 - **Farbe**, die aus der Farb-Aufzählung ausgewählte Linienfarbe.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Borders-AddingBorderstoRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

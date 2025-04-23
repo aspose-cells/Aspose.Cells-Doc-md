@@ -24,3 +24,4 @@ Questo esempio mostra come:
 1. Copiare i dati del primo intervallo in questo secondo intervallo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeDataOnly-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -32,3 +32,4 @@ url: /zh/net/create-dynamic-scrolling-chart/
 ```
 
 您可以尝试将单元格“Sheet1!$H$20”中的数字“10”更改为“15”，动态图表将计算最新的15组数据。现在我们成功地使用Aspose.Cells创建了动态滚动图表。
+{{< app/cells/assistant language="csharp" >}}

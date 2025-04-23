@@ -22,3 +22,4 @@ keywords: قياس عرض قيمة الخلية بوحدة البكسل، قيا
 
 ## **مواضيع متقدمة**
 - [الحصول على عرض النص لقيمة الخلية](/cells/ar/net/get-text-width-of-cell-value/)
+{{< app/cells/assistant language="csharp" >}}

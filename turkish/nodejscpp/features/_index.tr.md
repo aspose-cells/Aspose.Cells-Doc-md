@@ -7,8 +7,8 @@ keywords: "nodejs, excel, api, features"
 description: "Aspose.Cells for Node.js via C++ özellikleri."
 ---
 
-## **Aspose.Cells for Node.js via C++ Özellikler Genel Bakışı**
-Bu bölüm, Aspose.Cells for Node.js via C++ arasındaki özelliklerin kullanılabilirlik karşılaştırmasını içerir ve Aspose.Cells for C++ arasındaki farkları gösterir.
+## **Aspose.Cells for Node.js via C++ Özellikleri Genel Bakış**
+Bu bölüm, Aspose.Cells for C++ ve Aspose.Cells for Node.js via C++ arasındaki özellik erişilebilirliği karşılaştırmasını sağlar.
 ### **Dosya Biçimleri ve Dönüşümler**
 Aspose.Cells tarafından sağlanan kapsamlı belge içe/dışa aktarma özelliklerine dünya çapında birçok müşteri güvenmektedir.
 
@@ -33,14 +33,14 @@ Aspose.Cells artık elektronik tablo sayfalarının yüksek sadakatli şekilde g
 |Çalışma sayfasını raster görüntülere (Çok sayfalı TIFF, GIF) dönüştür.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Elektronik tablo sayfalarını vektör görüntülere (EMF) dönüştür.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Görüntü çözünürlüğünü, kalitesini, sıkıştırmasını ve diğer seçenekleri belirtme.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|C++ yazdırma altyapısını kullanarak elektronik tablo sayfalarını yazdırın.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|C++ baskı altyapısını kullanarak elektronik tablo sayfalarını yazdırın.|{{< emoticons/cross >}}|{{< emoticons/cross >}}|
 |Görüntülemeden veya yazdırmadan önce sayfa numaralarını ve diğer alanları güncelle.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Elektronik Tablo İçeriği Özellikleri**
 Aspose.Cells, size aşağıdaki tabloda verilen bazı önemli özellikleri içeren 100'den fazla genel sınıf/arayüzden oluşan zengin bir nesne modeli sunar.
 
 |**Özellik**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
-|Diziden, ArrayList'ten, ResultSet vb. veri alma/veri aktarma|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Dizi, DiziList, ResultSet vb. verileri içe aktar/dışa aktar.|{{< emoticons/cross >}}|{{< emoticons/cross >}}|
 |Varolan çalışma sayfasının kopyasını ekle (resimler, grafikler, diğer nesneler vb. dahil tüm içeriklerle)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Çalışma kitapları içinde veya arasında çalışma sayfalarını kopyalama veya taşıma|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Resimler ekleme|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

@@ -80,13 +80,13 @@ Som vi tidigare har beskrivit i början av detta ämne kan utvecklare inte lägg
 
 ### **Lägga till anpassade egenskaper**
 
-Aspose.Cells API:er har exponerat [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean))-metoden för [**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection)-klassen för att lägga till anpassade egenskaper i samlingen. [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean))-metoden lägger till egenskapen i Excel-filen och returnerar en referens för den nya dokumentegenskapen som en [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)-objekt.
+Aspose.Cells API:er har exponerat [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add-java.lang.String-boolean-)-metoden för [**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection)-klassen för att lägga till anpassade egenskaper i samlingen. [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add-java.lang.String-boolean-)-metoden lägger till egenskapen i Excel-filen och returnerar en referens för den nya dokumentegenskapen som en [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)-objekt.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AddingCustomProperty.java" >}}
 
 ### **Konfigurera anpassad egenskap "Länk till innehåll"**
 
-För att skapa en anpassad egenskap kopplad till innehållet i ett visst område, ring [**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String))-metoden och ange egenskapens namn och källa. Du kan kontrollera om en egenskap är konfigurerad som kopplad till innehåll genom att använda [**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent)-egenskapen. Dessutom är det också möjligt att få källområdet med hjälp av [**Source**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source)-egenskapen i [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)-klassen.
+För att skapa en anpassad egenskap kopplad till innehållet i ett visst område, ring [**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent-java.lang.String-java.lang.String-)-metoden och ange egenskapens namn och källa. Du kan kontrollera om en egenskap är konfigurerad som kopplad till innehåll genom att använda [**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent)-egenskapen. Dessutom är det också möjligt att få källområdet med hjälp av [**Source**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source)-egenskapen i [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)-klassen.
 
 Vi använder en enkel mall Microsoft Excel-fil i exemplet. Arbetsboken har en definierad namngiven område märkt **MyRange** som hänvisar till en cellvärde.
 
@@ -94,6 +94,7 @@ Vi använder en enkel mall Microsoft Excel-fil i exemplet. Arbetsboken har en de
 
 ### **Ta bort anpassade egenskaper**
 
-För att ta bort anpassade egenskaper med hjälp av Aspose.Cells, ring [**DocumentPropertyCollection.remove**](https://reference.aspose.com/cells/java/com.aspose.cells/documentpropertycollection#remove(java.lang.String))-metoden och ange namnet på dokumentegenskapen som ska tas bort.
+För att ta bort anpassade egenskaper med hjälp av Aspose.Cells, ring [**DocumentPropertyCollection.remove**](https://reference.aspose.com/cells/java/com.aspose.cells/documentpropertycollection#remove-java.lang.String-)-metoden och ange namnet på dokumentegenskapen som ska tas bort.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-RemovingCustomProperty.java" >}}
+{{< app/cells/assistant language="java" >}}

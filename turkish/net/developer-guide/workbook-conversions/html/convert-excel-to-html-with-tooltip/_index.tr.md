@@ -18,3 +18,4 @@ Aşağıdaki kod örneği, [kaynak excel dosyasını](98107416.xlsx) yükler ve 
 Örnek Kod
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToHtmlWithTooltip-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

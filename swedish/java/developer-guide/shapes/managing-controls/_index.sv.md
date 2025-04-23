@@ -16,7 +16,7 @@ Ett sätt att lyfta fram viktig information i en rapport är att använda en tex
 - Metoden [**getTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame) returnerar en [**MsoTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame)-objekt som används för att justera innehållet i textrutan.
 - Metoden [**setPlacement**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement) anger placerings typen.
 - Metoden [**setFont**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Font) anger teckensnitts attributen.
-- Metoden [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink(java.lang.String)) lägger till en hyperlänk för textrutan.
+- Metoden [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink-java.lang.String-) lägger till en hyperlänk för textrutan.
 - Egenskapen [**FillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#FillFormat) returnerar [**MsoFillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoFillFormat)-objekt som används för att ställa in fyllningsformatet för textrutan.
 - Egenskapen [**LineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#LineFormat) returnerar [**MsoLineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoLineFormat)-objekt som vanligtvis används för stil och tjocklek på textrutans linje.
 - Metoden [**setText**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text) anger den inmatade texten för textrutan.
@@ -335,3 +335,4 @@ Följande exempel visar hur man lägger till ovala former i arbetsboken. Exemple
 ## **Fortsatta ämnen**
 - [Lägg till ActiveX-kontroller med hjälp av Aspose.Cells](/cells/sv/java/add-activex-controls-using-aspose-cells/)
 - [Ta bort ActiveX-kontroll](/cells/sv/java/remove-activex-control/)
+{{< app/cells/assistant language="java" >}}

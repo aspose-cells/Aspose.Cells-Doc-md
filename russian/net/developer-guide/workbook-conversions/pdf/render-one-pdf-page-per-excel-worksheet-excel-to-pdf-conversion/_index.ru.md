@@ -26,3 +26,4 @@ url: /ru/net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
 Если ваша электронная таблица содержит формулы, лучше всего вызвать [Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) прямо перед рендерингом электронной таблицы в PDF. Это гарантирует пересчет значений, зависящих от формул, и правильное отображение значений в PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

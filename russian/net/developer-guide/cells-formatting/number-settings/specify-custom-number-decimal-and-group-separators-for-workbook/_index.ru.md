@@ -28,3 +28,4 @@ Aspose.Cells предоставляет свойства [**WorkbookSettings.Num
 ### Образец кода на C#, указывающий пользовательские разделители для десятичных и групповых чисел
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-CustomDecimalAndGroupSeparator-CustomDecimalAndGroupSeparator.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

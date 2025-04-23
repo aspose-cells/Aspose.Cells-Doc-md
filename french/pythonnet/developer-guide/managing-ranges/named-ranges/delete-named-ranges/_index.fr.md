@@ -21,11 +21,74 @@ Pour supprimer une plage nommée dans Excel, suivez les étapes suivantes :
 6. Cliquez sur le bouton "Fermer" pour fermer la boîte de dialogue Gestionnaire de noms.
 7. Enregistrez le classeur pour conserver les modifications.
 
+## **Supprime la plage nommée en utilisant Aspose.Cells pour .Net**
+Avec Aspose.Cells pour .Net, vous pouvez supprimer des plages nommées ou des noms définis via [texte](https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str) dans la liste.
+
+```python
+from aspose.cells import Workbook
+import aspose.cells
+import os
+import pytest
+# The path to the documents directory
+current_dir = os.path.dirname(os.path.abspath(__file__))
+data_dir = os.path.join(current_dir, "data")
+
+# Instantiate a new Workbook
+workbook = Workbook(os.path.join(data_dir, "Book1.xlsx"))
+
+# Get all the worksheets in the book
+worksheets = workbook.worksheets
+
+# Delete a named range by text
+worksheets.names.remove_a_name("NamedRange")
+
+
+# Save the workbook to retain the changes
+workbook.save(os.path.join(data_dir, "Book2.xlsx"))
+```
+
+Remarque : si le nom défini est référencé par des formules, il ne peut pas être supprimé. Nous ne pouvons supprimer que la formule du nom défini.
+
+## **Supprime certaines plages nommées**
+Lorsque nous supprimons un nom défini, nous devons vérifier s'il est référencé par toutes les formules du fichier.
+Afin d'améliorer les performances de suppression des plages nommées, nous pouvons en supprimer certaines ensemble.
+
+```python
+from aspose.cells import Workbook
+import aspose.cells
+import os
+import pytest
+# Instantiate a new Workbook
+workbook = Workbook("testcase/data/Book1.xlsx")
+
+# Get all the worksheets in the book
+worksheets = workbook.worksheets
+
+# Delete some defined names
+worksheets.names.remove_names_by_array(["NamedRange1", "NamedRange2"])
+
+# Save the workbook to retain the changes
+workbook.save("Book2.xlsx")
+```
+
 
 ## **Supprimer les noms définis en double**
 Certains fichiers Excel sont corrompus car certains noms définis sont en double. Nous pouvons donc supprimer ces noms en double pour réparer le fichier.
 
-{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-Delete-duplicate-defined-names.py" >}}
+```python
+from aspose.cells import Workbook
+import aspose.cells
+import os
+import pytest
+# Instantiate a new Workbook
+workbook = Workbook("testcase/data/Book1.xlsx")
 
+# Get all the worksheets in the book
+worksheets = workbook.worksheets
 
+# Delete duplicate defined names
+worksheets.names.remove_duplicate_names()
 
+# Save the workbook to retain the changes
+workbook.save("Book2.xlsx")
+```

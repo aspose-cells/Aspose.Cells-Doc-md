@@ -47,9 +47,9 @@ url: /ar/java/worksheet-views/
 ### **التحكم في عامل التكبير**
 توفر Aspose.Cells فئة [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) التي تمثل ملف Microsoft Excel. تحتوي فئة [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) على [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) التي تسمح بالوصول إلى كل ورق عمل في ملف Excel.
 
-يتم تمثيل ورقة العمل بواسطة فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). توفر فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) مجموعة واسعة من الخصائص والأساليب لإدارة الأوراق العمل. لضبط عامل تكبير ورقة العمل، استخدم أسلوب [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) في فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
+تمثّل ورقة العمل بواسطة فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). توفر فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) مجموعة واسعة من الخصائص والطرق لإدارة أوراق العمل. لضبط عامل التكبير لورقة العمل، استخدم طريقة [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) الخاصة بفئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
-يوجد مثال كامل أدناه يوضح كيفية استخدام أسلوب [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) لضبط عامل التكبير لأول ورقة عمل في ملف Excel.
+يوجد مثال كامل أدناه يظهر كيفية استخدام طريقة [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) لضبط عامل التكبير لأول ورقة عمل في ملف Excel.
 
 في اللقطة الشاشة أدناه، يمكنك رؤية ملف Book1.xls في العرض الافتراضي.
 
@@ -77,14 +77,14 @@ url: /ar/java/worksheet-views/
 
 يوفر Aspose.Cells فئة [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) التي تمثل ملف Microsoft Excel. تحتوي فئة [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) على [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel.
 
-تمثل ورقة العمل بواسطة الفئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). توفر الفئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) مجموعة واسعة من الخصائص والأساليب لإدارة ورق العمل. لتكوين تجميد الرسوم البيانية ، اتصل بأسلوب [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\))  في فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). يأخذ أسلوب [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) البارمترات التالية:
+تمثّل ورقة العمل بواسطة فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). توفر فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) مجموعة واسعة من الخصائص والطرق لإدارة أوراق العمل. لتكوين أقلام التجميد، استدعِ طريقة [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) الخاصة بفئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). تتطلب طريقة [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) المعلمات التالية:
 
 - **الصف**، فهرس الصف للخلية التي سيبدأ منها التجميد.
 - **العمود**، فهرس العمود للخلية التي سيبدأ منها التجميد.
 - **الصفوف المجمدة**، عدد الصفوف المرئية في اللوحة العلوية.
 - **الأعمدة المجمدة**، عدد الأعمدة المرئية في اللوحة اليسرى.
 
-يلي أدناه مثال كامل يوضح كيفية استخدام أسلوب [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\))  في فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) لتجميد الصفوف والأعمدة (ابتداءً من C4 ، الممثلة بالصف الرابع والعمود الثالث، حيث تبدأ الصفوف والأعمدة من مؤشرات 0) من الورقة العمل الأولى لملف Excel.
+يوضح المثال الكامل أدناه كيفية استخدام طريقة [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) من فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) لتجميد الصفوف والأعمدة (ابتداءً من C4، المُمثلة بالصف الرابع والعمود الثالث، حيث تبدأ الصفوف والأعمدة من الفهرس 0) في أول ورقة عمل من ملف Excel.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FreezePanes-FreezePanes.java" >}}
 
@@ -106,7 +106,7 @@ url: /ar/java/worksheet-views/
 الألواح تعمل بشكل متزامن. إذا قمت بإجراء تغيير في أحدها، فإن التغيير يظهر بشكل متزامن في الآخر. توفر Aspose.Cells ميزة تقسيم الألواح للمستخدمين.
 ### **تطبيق وإزالة تقسيم الألواح**
 #### **تقسيم الألواح**
-توفر Aspose.Cells [فئة الدفتر](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) التي تمثل ملف Microsoft Excel. توفر فئة الدفتر مجموعة واسعة من الخصائص والأساليب لإدارة ملفات Excel. لتنفيذ عرض الانقسام، استخدم أسلوب [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\)) لفئة [صفحة العمل](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). لإزالة تقسيم الأقسام، استخدم أسلوب [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\))
+توفر Aspose.Cells فئة [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) التي تمثل ملف مايكروسوفت إكسل. توفر فئة [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) مجموعة واسعة من الخصائص والطرق لإدارة ملفات إكسل. لتنفيذ العروض المقسمة، استعمل طريقة [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split--) من فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). لإزالة أقلام التجميد، استعمل طريقة [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--)
 
 في المثال، نستخدم ملف قالب بسيط يتم تحميله، ثم يتم تطبيق ميزة تقسيم الألواح المحددة على خلية في الورقة البيانات الأولى. يتم حفظ الملف المحدث.
 
@@ -122,7 +122,7 @@ url: /ar/java/worksheet-views/
 
 ![todo:image_alt_text](worksheet-views_9.png)
 #### **إزالة النوافذ**
-يمكن للمطورين إزالة تقسيم الأقسام باستخدام أسلوب [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) لفئة [صفحة العمل](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)
+يمكن للمطورين إزالة أقلام التجميد باستخدام طريقة [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--) من فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovePanes-RemovePanes.java" >}}
 
@@ -133,3 +133,4 @@ url: /ar/java/worksheet-views/
 - [عرض وإخفاء العناصر](/cells/ar/java/show-and-hide-elements/)
 - [عرض الصيغ بدلاً من القيم في صفحة العمل](/cells/ar/java/show-formulas-instead-of-values-in-a-worksheet/)
 - [استخدام خيارات فحص الأخطاء](/cells/ar/java/use-error-checking-options/)
+{{< app/cells/assistant language="java" >}}

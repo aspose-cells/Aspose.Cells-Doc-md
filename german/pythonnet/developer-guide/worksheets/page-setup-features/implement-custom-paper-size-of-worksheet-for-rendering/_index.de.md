@@ -3,17 +3,17 @@ title: Benutzerdefinierte Papiergröße des Arbeitsblatts für die Darstellung i
 type: docs
 weight: 70
 url: /de/python-net/implement-custom-paper-size-of-worksheet-for-rendering/
-description: Dieser Artikel erläutert, wie Sie den Beispielscode Aspose.Cells für Python via .NET verwenden können, um benutzerdefinierte Papiergröße für Ihre gewünschten Arbeitsblätter beim Rendern von Excel Datei in PDF Dateiformat programmgesteuert festzulegen.
-keywords: Python Excel Bibliothek, Python legt benutzerdefinierte Papiergröße beim Rendern von Excel zu PDF fest, Implementieren von benutzerdefinierter Papiergröße des Arbeitsblatts für das Rendern in Python.
+description: Dieser Artikel erklärt, wie man das Aspose.Cells für Python via .NET Beispielcode verwendet, um eine benutzerdefinierte Papiersize für die gewünschten Arbeitsblätter beim Rendern einer Excel Datei in das PDF Format programmgesteuert festzulegen.
+keywords: Python Excel Bibliothek, Python, benutzerdefinierte Papiersize beim Rendern von Excel nach PDF festlegen, Implementierung benutzerdefinierter Arbeitsblatt Papiersize für das Rendering in Python.
 ---
 
 ## **Mögliche Verwendungsszenarien**
 
-Es gibt keine direkte Option zum Erstellen benutzerdefinierter Papiergrößen in MS Excel. Sie können jedoch benutzerdefinierte Papiergröße für Ihre gewünschten Arbeitsblätter festlegen, wenn Sie Excel-Dateien im PDF-Dateiformat renden. Dieses Dokument erläutert, wie Sie die benutzerdefinierte Papiergröße eines Arbeitsblatts unter Verwendung von Aspose.Cells für Python via .NET-APIs festlegen können.
+Es gibt keine direkte Option, um benutzerdefinierte Papiersizes in MS Excel zu erstellen. Sie können jedoch die benutzerdefinierte Papiersize Ihrer gewünschten Arbeitsblätter beim Rendern der Excel-Datei nach PDF programmatisch festlegen. Dieses Dokument erklärt, wie man eine benutzerdefinierte Papiersize eines Arbeitsblatts mit Aspose.Cells für Python via .NET APIs einstellt.
 
 ## **Benutzerdefinierte Papiergröße des Arbeitsblatts für die Darstellung implementieren**
 
-Aspose.Cells für Python via .NET ermöglicht es Ihnen, die gewünschte Papiergröße des Arbeitsblatts zu implementieren. Sie können die Methode [**custom_paper_size**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/custom_paper_size/#float-float) der Klasse [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) verwenden, um eine benutzerdefinierte Seitengröße festzulegen. Der folgende Beispielcode veranschaulicht, wie Sie eine benutzerdefinierte Papiergröße für das erste Arbeitsblatt in der Arbeitsmappe festlegen können. Sehen Sie sich auch das [Ausgabedatei PDF](45056028.pdf) an, das mit dem folgenden Code erstellt wurde, als Referenz an.
+Aspose.Cells für Python via .NET ermöglicht es, die gewünschte Papiersize des Arbeitsblatts zu implementieren. Sie können die [**custom_paper_size**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/custom_paper_size/#float-float) Methode der [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) Klasse verwenden, um eine benutzerdefinierte Seitengröße anzugeben. Der folgende Beispielcode zeigt, wie man eine benutzerdefinierte Papiersize für das erste Arbeitsblatt im Arbeitsbuch festlegt. Bitte sehen Sie auch die [Ausgabepdf](45056028.pdf), die mit dem folgenden Code erstellt wurde, als Referenz.
 
 ## **Screenshot**
 

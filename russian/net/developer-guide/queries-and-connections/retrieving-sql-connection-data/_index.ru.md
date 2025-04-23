@@ -22,3 +22,4 @@ Aspose.Cells предоставляет свойство Workbook.DataConnection
 Если объект ExternalConnection содержит данные о подключении SQL, его можно привести к объекту DBConnection, и его свойства можно использовать для извлечения команды базы данных, типа команды, описания подключения, информации о подключении, учетных данных и так далее.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-RetrievingSQLConnectionData-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

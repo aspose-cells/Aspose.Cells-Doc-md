@@ -11,9 +11,29 @@ aliases:
   - /java/aspose-cells-gridjs/work-with-context-menu/
   - /java/aspose-cells-gridjs/work-with-context-menus/
 ---
+# قوائم السياق المخصصة المدمجة
+لدينا بعض عناصر قائمة السياق المدمجة، على سبيل المثال إدراج/حذف صف/عمود وهكذا.
+على سبيل المثال: لحذف عناصر قوائم السياق "حذف الصف"، "الرابط"، "إخفاء"، افترض أن معرف div الخاص بـ GridJs هو "gridjs-divid"
+```javascript
+   //get context menus parent dom
+   const menus=document.querySelector("#gridjs-divid > div > div.x-spreadsheet-sheet > div.x-spreadsheet-contextmenu");
+   var childs = menus.childNodes;
+   for (var i = childs.length - 1; i >= 0; i--)
+   {  
+     // check the item text
+     if(childs[i].childNodes[0]?.textContent==="Delete row"||childs[i].childNodes[0]?.textContent==="Link"||childs[i].childNodes[0]?.textContent==="Hide")
+       {
+         menus.removeChild(childs[i]);
+       }
+   }
+```
+بعد استدعاء هذه الدالة 
 
-# قوائم السياق المخصصة
-لدينا بعض عناصر قائمة السياق المدمجة ، على سبيل المثال إدراج/حذف صف/عمود وما إلى ذلك
+![قيد التنفيذ: شاشة تخصيص عناصر القائمة المدمجة](gridjs_customize_build_in_context_menu.png)
+
+
+# قوائم السياق المخصصة ذاتياً
+لدينا بعض عناصر قائمة السياق المدمجة، على سبيل المثال إدراج/حذف صف/عمود وهكذا.
 ومع ذلك إذا أراد المستخدم تخصيص عناصر قائمة السياق.
 ندعم تعيين عناصر قائمة السياق في خيارات التحميل.
 على سبيل المثال:

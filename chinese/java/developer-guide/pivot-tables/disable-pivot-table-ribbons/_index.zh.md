@@ -16,3 +16,4 @@ url: /zh/java/disable-pivot-table-ribbons/
 以下代码通过访问工作表中的数据透视表，然后调用[**setEnableWizard**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#EnableWizard)来将此标志设置为**false**，演示了此功能。示例数据透视表文件可以从此[链接](71630876.xlsx)下载。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-DisablePivotTableRibbon-1.java" >}}
+{{< app/cells/assistant language="java" >}}

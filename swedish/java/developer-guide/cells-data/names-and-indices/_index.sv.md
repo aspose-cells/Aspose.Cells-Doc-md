@@ -11,7 +11,7 @@ keywords: Java Konvertera cellindex till namn, Konvertera cellnamn till rad/kolu
 ## **Hur man får cellnamn från rad- och kolumnindex**
 Det är möjligt att hitta ett cells namn med rad- och kolumnindex. Den här artikeln förklarar hur.
 
-Aspose.Cells tillhandahåller metoden [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) som tillåter utvecklare att få namnet på en cell om de tillhandahåller rad- och kolumnindex.
+Aspose.Cells tillhandahåller [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName-int-int-) metoden som låter utvecklare få cellens namn om de anger rad- och kolumnindex.
 
 {{% alert color="primary" %}} 
 
@@ -19,7 +19,7 @@ Microsoft Excel börjar räkna rad- och kolumnindex från 1. Till skillnad från
 
 {{% /alert %}} 
 
-Följande exempelkod illustrerar hur man använder [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) för att komma åt cellens namn vid ett känt rad- och kolumnindex. Koden genererar följande utdata.
+Följande exempel visar hur man använder [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName-int-int-) för att få cellens namn givet ett känt rad- och kolumnindex. Koden ger följande utskrift.
 
 {{< highlight java >}}
 
@@ -37,7 +37,7 @@ Cell Name at [2, 2]: C3
 ## **Hur man får rad- och kolumnindex från cellnamn**
 Det är möjligt att hitta en rad- och kolumnindex för cellen från dess namn. Denna artikel förklarar hur.
 
-Aspose.Cells tillhandahåller metoden [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) som tillåter utvecklare att få rad- och kolumnindex från cellens namn.
+Aspose.Cells tillhandahåller metoden [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex-java.lang.String-) som låter utvecklare få ett rad- och kolumnindex från cellens namn.
 
 {{% alert color="primary" %}} 
 
@@ -45,7 +45,7 @@ Microsoft Excel börjar räkna rad- och kolumnindex från 1. Till skillnad från
 
 {{% /alert %}} 
 
-Följande exempelkod illustrerar hur man använder [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) för att få rad- och kolumnindex från cellens namn. Koden genererar följande utdata.
+Följande exempel visar hur man använder [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex-java.lang.String-) för att få rad- och kolumnindex från cellens namn. Koden genererar följande utskrift.
 
 {{< highlight java >}}
 
@@ -72,3 +72,4 @@ Det här är det första namnet som skapas
 ` `<> + (adj.Private _ " Private"
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

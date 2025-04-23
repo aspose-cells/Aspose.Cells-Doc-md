@@ -69,3 +69,4 @@ Ladda ner **Formelberäkningsmotorn** från någon av nedan nämnda sociala kodn
 För mer information, besök [Formelberäkningsmotor](/cells/sv/net/formula-calculation-engine/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

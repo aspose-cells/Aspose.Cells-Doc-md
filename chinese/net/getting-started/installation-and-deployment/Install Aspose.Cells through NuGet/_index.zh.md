@@ -73,3 +73,4 @@ NuGet是下载和安装Aspose API for .NET 的最简单方式。打开Microsoft 
 - 单击**添加/删除程序**。
 - 选择Aspose.Cells for .NET（版本）。
 - 单击**更改/删除**以移除 Aspose.Cells。
+{{< app/cells/assistant language="csharp" >}}

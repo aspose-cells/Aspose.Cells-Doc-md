@@ -29,3 +29,4 @@ Aspose.Cells支持通过[**AutoFitterOptions.AutoFitMergedCellsType**](https://r
 ## **C# 示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AutoFitRowsMergedCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

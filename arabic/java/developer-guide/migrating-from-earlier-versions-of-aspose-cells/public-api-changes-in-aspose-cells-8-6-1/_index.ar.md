@@ -167,3 +167,4 @@ else
 ## **واجهات برمجة التطبيق القديمة**
 ### **تم تهجير طريقة Workbook.checkWriteProtectedPassword**
 مع إصدار v8.6.1، تم وضع علامة تحذير على طريقة Workbook.checkWriteProtectedPassword. يوصى باستخدام طريقة WorkbookSettings.WriteProtection.validatePassword التي يمكنها قبول قيمة نصية كمعلمة وتعيد قيمة بوليانية إذا كانت كلمة المرور تطابقت مع كلمة المرور المحددة مسبقًا لجدول البيانات.
+{{< app/cells/assistant language="java" >}}

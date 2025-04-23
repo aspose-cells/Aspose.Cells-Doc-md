@@ -34,3 +34,4 @@ chart.toImage(new FileOutputStream(dataDir + "AsposeChartImage_Out.png"), imgOpt
 要了解更多详情，请访问[将图表转换为图像](/java/converting-chart-to-image)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

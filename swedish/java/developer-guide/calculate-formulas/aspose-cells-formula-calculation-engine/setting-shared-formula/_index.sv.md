@@ -23,7 +23,7 @@ Det finns två alternativ för att lägga till formler i de andra cellerna (B3, 
 
 Gör antingen det du gjorde för den första cellen, effektivt sätta formeln för varje cell och uppdatera cellreferensen, (`A3*0.09`, `A4*0.09`, `A5*0.09` och så vidare). Detta kräver uppdatering av cellreferenserna för varje rad. Det kräver också att Aspose.Cells tolkar varje formel individuellt, vilket kan vara tidskrävande för stora kalkylblad och komplexa formler. Det lägger också till extra rader med kod även om loopar kan minska dem något.
 
-Ett annat tillvägagångssätt är att använda en **delad formel**. Med en delad formel uppdateras formlerna automatiskt för cellreferenserna i varje rad så att momsen beräknas korrekt. Metoden [Cell.setSharedFormula](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setSharedFormula\(java.lang.String,%20int,%20int\)) är effektivare än den första metoden.
+Ett annat tillvägagångssätt är att använda en **delad formel**. Med en delad formel uppdateras formlerna automatiskt för cellreferenserna i varje rad så att skatten beräknas korrekt. [Cell.setSharedFormula](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setSharedFormula-java.lang.String-int-int-) är mer effektiv än den första metoden.
 
 Följande exempel visar hur du använder det. Skärmbilden nedan visar utdatafilen.
 
@@ -32,3 +32,4 @@ Följande exempel visar hur du använder det. Skärmbilden nedan visar utdatafil
 ![todo:image_alt_text](setting-shared-formula_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingSharedFormula-SettingSharedFormula.java" >}}
+{{< app/cells/assistant language="java" >}}

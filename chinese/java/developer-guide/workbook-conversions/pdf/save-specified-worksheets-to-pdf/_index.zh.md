@@ -28,8 +28,15 @@ url: /zh/java/save-specified-worksheets-to-pdf/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-MultiSheetsToPdf.java" >}}
 
+## ** 将工作表重新排序为 PDF**
+
+如果您希望在不修改源文件的情况下，将工作表以不同顺序（如逆序）导出为PDF，可以通过传递重新排序的工作表索引到 [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setSheetSet-com.aspose.cells.SheetSet-) 选项实现。
+
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-ReorderSheetsToPdf.java" >}}
+
 {{% alert color="primary" %}} 
 
 如果您的电子表格包含公式，最好在将电子表格呈现为PDF格式之前调用 [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook/#calculateFormula--)。这样做将确保重新计算依赖于公式的值，并在PDF中呈现正确的值。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

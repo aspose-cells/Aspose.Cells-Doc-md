@@ -15,7 +15,7 @@ url: /ru/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/
 
 ## **Использование Aspose.Cells для преобразования листа в файл изображения**
 
-Эта статья показывает, как использовать API Aspose.Cells for Java для преобразования рабочего листа в изображение. API предоставляет несколько ценных классов, таких как [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) и так далее. Класс [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) представляет рабочий лист для отображения изображений рабочего листа и имеет перегруженный метод [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream)), который может преобразовывать рабочий лист в изображения напрямую с установленными атрибутами или параметрами.
+Эта статья показывает, как использовать API Aspose.Cells for Java для преобразования рабочего листа в изображение. API предоставляет несколько ценных классов, таких как [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) и так далее. Класс [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) представляет рабочий лист для отображения изображений рабочего листа и имеет перегруженный метод [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage-int-java.io.OutputStream-), который может преобразовывать рабочий лист в изображения напрямую с установленными атрибутами или параметрами.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ConvertWorksheettoImageFile-1.java" >}}
 
@@ -55,3 +55,4 @@ url: /ru/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/
 
 - [Преобразование листа в различные форматы изображения](/cells/ru/java/converting-worksheet-to-different-image-formats/)
 - [Экспорт листа или диаграммы в изображение с заданными шириной и высотой](/cells/ru/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+{{< app/cells/assistant language="java" >}}

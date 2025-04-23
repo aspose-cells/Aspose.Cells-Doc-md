@@ -40,3 +40,4 @@ Zu diesen umfangreichen Funktionen von Aspose.Cells im Vergleich zu Apache POI S
   - [Tabellenkalkulation in PDF umwandeln mit Aspose.Cells](/cells/de/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
 
 **Hinweis:** Viele weitere Beispiele werden in Kürze verfügbar sein.
+{{< app/cells/assistant language="java" >}}

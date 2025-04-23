@@ -34,3 +34,4 @@ Der folgende Beispielcode erstellt eine leere Arbeitsmappe und speichert sie dan
 	at com.aspose.cells.Workbook.save(Unknown Source)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

@@ -55,3 +55,4 @@ url: /ar/net/merging-and-unmerging-cells/
 
 ## **مواضيع متقدمة**
 - [كشف الخلايا المدمجة في ورقة العمل](/cells/ar/net/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

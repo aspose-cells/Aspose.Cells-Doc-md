@@ -30,3 +30,4 @@ Aspose.Cellsは、[**AbstractCalculationMonitor.Interrupt()**](https://reference
 0----7----1----B8
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

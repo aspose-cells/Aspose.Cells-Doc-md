@@ -23,3 +23,4 @@ Bu seçeneği bulup Microsoft Excel'de ayarlamak için:
 Aspose.Cells, "Boş hücreler için göster" pivot tablo seçeneğini ayarlamak için [**PivotTable.setDisplayNullString()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#DisplayNullString) ve [**PivotTable.setNullString()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#NullString) özelliklerini sağlar.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingPivotTableOption-SettingPivotTableOption.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -31,3 +31,4 @@ url: /ar/java/public-api-changes-in-aspose-cells-8-2-0/
 يرجى التحقق من المقال المفصل على [تكييف الصفوف والأعمدة تلقائيًا](http://aspose.com/docs/display/cellsjava/AutoFit+Rows+and+Columns).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -73,3 +73,4 @@ Veuillez noter ce qui suit :
 - La chaîne "FontDirSet" devrait être le chemin complet vers le dossier contenant les polices requises.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

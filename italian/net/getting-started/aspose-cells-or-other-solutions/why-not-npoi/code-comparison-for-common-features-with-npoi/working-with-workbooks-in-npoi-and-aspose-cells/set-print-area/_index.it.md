@@ -134,3 +134,4 @@ Scarica **Imposta l'Area di Stampa** da uno dei siti di codifica sociale menzion
 Per maggiori dettagli, visita [Impostazione delle opzioni di stampa](/cells/it/net/setting-print-options/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

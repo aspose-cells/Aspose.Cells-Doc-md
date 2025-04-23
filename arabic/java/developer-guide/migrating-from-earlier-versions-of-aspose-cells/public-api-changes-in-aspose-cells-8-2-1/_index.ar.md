@@ -28,3 +28,4 @@ url: /ar/java/public-api-changes-in-aspose-cells-8-2-1/
 {{% /alert %}}
 ## **تمت إضافة فرعية toPrinter(PrinterSettings printerSettings) للطريقة لفئة WorkbookRender**
 يمكنك استخدام الطريقة المكدسة لعرض الدفتر على الطابعة عبر PrinterSettings.
+{{< app/cells/assistant language="java" >}}

@@ -14,3 +14,4 @@ Der folgende Beispielcode erstellt ein Tabelle- oder List-Objekt, bei dem die Fo
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PropagateFormulaInTable-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

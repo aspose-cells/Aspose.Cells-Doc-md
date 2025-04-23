@@ -28,8 +28,9 @@ Följande skärmbild visar databasfilen när den öppnas i Microsoft Access 2016
 
 ![todo:image_alt_text](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_1.png)
 ## **Importera data från Microsoft Access-databas ResultSet-objekt till kalkylarket.**
-Följande provkod kör SQL-frågan från Microsoft Access-databasen och skapar ett ResultSet-objekt. Därefter importeras data från ResultSet-objektet till kalkylarket med hjälp av [Worksheet.getCells().importResultSet()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importResultSet\(java.sql.ResultSet,%20int,%20int,%20boolean\))-metoden. Först används rad- och kolumnindex och sedan används cellnamnet för att importera data till kalkylarket. Slutligen sparas arbetsboken som en [utdata excel-fil](48496713.xlsx). Skärmbilden visar effekten av provkoden på utdata excelfilen för referens.
+Följande exempel exekverar en SQL-fråga från Microsoft Access-databasen och skapar ett ResultSet-objekt. Sedan importerar det data från ResultSet-objektet till kalkbladet med hjälp av [Worksheet.getCells().importResultSet()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importResultSet-java.sql.ResultSet-int-int-boolean-) metod. Första gången använder det rad- och kolumnindex och sedan använder det cellnamnet för att importera data till kalkbladet. Slutligen sparar det arbetsboken som en [Output Excel Fil](48496713.xlsx). Skärmbilden visar effekten av koden på output-Excelfilen för referens.
 
 ![todo:image_alt_text](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_2.png)
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ImportDataFromMicrosoftAccessDatabaseResultSetObjectToWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

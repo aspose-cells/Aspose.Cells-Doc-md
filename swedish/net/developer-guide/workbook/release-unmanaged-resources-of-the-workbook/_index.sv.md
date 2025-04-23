@@ -14,3 +14,4 @@ Aspose.Cells tillhandahåller [**Workbook.Dispose()**](https://reference.aspose.
 [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) objekt implementerar nu *System.IDisposable* gränssnitt som har en enda metod [**Dispose()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/dispose). Du kan antingen direkt anropa [**Workbook.Dispose()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/dispose) metoden eller så kan du använda *Using*-satsen för att automatiskt anropa denna metod.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ReleaseUnmanagedResources-ReleaseUnmanagedResourcesForWorkbooks.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

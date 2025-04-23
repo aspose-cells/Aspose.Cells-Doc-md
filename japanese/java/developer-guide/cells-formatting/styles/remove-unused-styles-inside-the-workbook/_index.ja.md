@@ -7,12 +7,13 @@ url: /ja/java/remove-unused-styles-inside-the-workbook/
 
 {{% alert color="primary" %}} 
 
-Excelファイル内の未使用のスタイルは、ストレージを占有するだけでなく、PDF、HTMLなどの異なる形式での変換時にパフォーマンスの問題を引き起こします。Aspose.Cellsは、[Workbook.removeUnusedStyles()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#removeUnusedStyles\(\))を提供して、ワークブック内の未使用のスタイルをすべて削除します。
+Excelファイル内の未使用のスタイルはスペースをとるだけでなく、PDFやHTMLなどの異なる形式に変換する際にパフォーマンスの問題を引き起こします。Aspose.Cellsは[Workbook.removeUnusedStyles()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#removeUnusedStyles--)を提供しており、ワークブック内の未使用のスタイルをすべて削除できます。
 
 {{% /alert %}} 
 ## **ワークブック内の未使用のスタイルを削除する**
-以下のコードは、[Workbook.removeUnusedStyles()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#removeUnusedStyles\(\))の使用方法を説明しています。コードは、提供されたリンクからダウンロードできる[テンプレートExcelファイル](5473451.xlsx)をロードします。このファイルには **AsposeStyle** という未使用のスタイルが含まれており、コードの実行後にこのスタイルと他の未使用のスタイルがすべて削除されます。詳しい説明については、以下のスクリーンショットを参照してください。
+以下のコードは[Workbook.removeUnusedStyles()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#removeUnusedStyles--)の使用例を示しています。指定されたリンクからダウンロード可能な[テンプレートのExcelファイル](5473451.xlsx)をロードし、未使用のスタイル名**AsposeStyle**を含んでいます。このスタイルと他の未使用スタイルは、コード実行後に削除されます。詳細は次のスクリーンショットをご参照ください。
 
 ![todo:image_alt_text](remove-unused-styles-inside-the-workbook_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RemoveUnusedStyles-RemoveUnusedStyles.java" >}}
+{{< app/cells/assistant language="java" >}}

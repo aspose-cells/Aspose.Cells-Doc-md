@@ -11,3 +11,4 @@ url: /ru/net/managing-charts-and-shapes-in-aspose-cells/
 - [Добавление водяного знака WordArt на лист в Aspose.Cells](/cells/ru/net/add-wordart-watermark-to-worksheet-in-aspose-cells/)
 - [Копирование форм между листами в Aspose.Cells](/cells/ru/net/copy-shapes-between-worksheets-in-aspose-cells/)
 - [Блокировка водяного знака WordArt в Aspose.Cells](/cells/ru/net/locking-wordart-watermark-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

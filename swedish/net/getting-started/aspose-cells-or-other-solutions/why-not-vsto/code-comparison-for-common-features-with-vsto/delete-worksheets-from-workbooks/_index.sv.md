@@ -26,3 +26,4 @@ Du kan ta bort vilket arbetsblad som helst i en arbetsbok. För att ta bort ett 
 {{< /highlight >}}
 ## **Nerladdning**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DeleteWorksheetsFromWorkbooks.zip)
+{{< app/cells/assistant language="csharp" >}}

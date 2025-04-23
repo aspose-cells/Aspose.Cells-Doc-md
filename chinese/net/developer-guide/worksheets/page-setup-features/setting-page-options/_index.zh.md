@@ -190,3 +190,4 @@ Aspose.Cells提供了一个代表Microsoft Excel文件的类[**Workbook**](https
 使用[**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)类的[**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)属性开始工作表页面的编号。[**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)属性设置第一个工作表页面的页码，接下来的页面按升序编号。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetFirstPageNumber-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

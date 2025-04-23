@@ -5,6 +5,7 @@ weight: 2000
 url: /de/net/change-adjustment-values-of-the-shape/
 ---
 
+
 {{% alert color="primary" %}}
 
 Aspose.Cells stellt die Eigenschaft [**Shape.Geometry.ShapeAdjustValues**](https://reference.aspose.com/cells/net/aspose.cells.drawing/geometry/properties/shapeadjustvalues) bereit, um Änderungen an den Anpassungspunkten mit Formen vorzunehmen. In der Microsoft Excel-Benutzeroberfläche werden Anpassungen als gelbe Diamantknoten angezeigt. Zum Beispiel:
@@ -18,6 +19,17 @@ In diesem Artikel wird die Verwendung der Eigenschaft [**Shape.Geometry.ShapeAdj
 
 {{% /alert %}}
 
+## **Änderung der Anpassungswerte**
+
 Im folgenden Codebeispiel wird gezeigt, wie Anpassungswerte der Form geändert werden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ChangeShapesAdjustmentValues-1.cs" >}}
+
+## **So setzen oder ändern Sie den Tip-Punkt eines RoundedRectangularCallout in Excel**
+
+Das folgende Code-Beispiel zeigt, wie man einen abgerundeten Rechteck-Ausrufpunkt in Excel festlegt oder ändert.
+
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Articles-ManageChartsAndShapes-ChangeShapesAdjustmentValues-2.cs" >}}
+
+
+{{< app/cells/assistant language="csharp" >}}

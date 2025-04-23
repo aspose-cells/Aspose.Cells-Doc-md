@@ -18,3 +18,4 @@ url: /ar/java/export-similar-border-style-when-border-style-is-not-supported-by-
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-ExportSimilarBorderStyle.java" >}}
+{{< app/cells/assistant language="java" >}}

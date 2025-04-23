@@ -30,3 +30,4 @@ Aspose.Cellsは、ワークブックスコープとワークシートスコー�
 - [名前付き範囲の書式と変更](/cells/ja/net/format-and-modify-named-ranges/)
 - [外部リンク付きの範囲を取得する](/cells/ja/net/get-range-with-external-links/)
 - [非連続範囲の実装](/cells/ja/net/implementing-non-sequential-ranges/)
+{{< app/cells/assistant language="csharp" >}}

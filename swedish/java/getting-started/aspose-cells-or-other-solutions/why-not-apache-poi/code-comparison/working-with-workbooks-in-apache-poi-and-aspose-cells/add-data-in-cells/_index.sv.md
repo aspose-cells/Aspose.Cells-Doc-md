@@ -97,3 +97,4 @@ fileOut.close();
 För mer information, besök [Lägga till data i celler](/java/adding-data-to-cells).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

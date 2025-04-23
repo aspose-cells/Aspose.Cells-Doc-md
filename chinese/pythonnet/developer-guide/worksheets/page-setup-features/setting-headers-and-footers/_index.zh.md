@@ -3,8 +3,8 @@ title: 设置页眉和页脚
 type: docs
 weight: 30
 url: /zh/python-net/setting-headers-and-footers/
-description: 本文解释了如何通过使用 Aspose.Cells for Python via .NET API，通过设置脚本命令来在 Excel 工作表的页眉和页脚中编程插入图像。
-keywords: Python Excel 库，Python 在 Excel 页眉页脚中插入图像，使用 Python 设置 Excel 页眉页脚脚本命令。
+description: 本文讲解了如何通过使用 Aspose.Cells for Python via .NET API 设置脚本命令，程序化地在Excel工作表的页眉和页脚插入图片。
+keywords: Python Excel 库，Python 在Excel页眉页脚插入图片，使用Python设置Excel页眉页脚脚本命令。
 ---
 
 {{% alert color="primary" %}}
@@ -15,9 +15,9 @@ keywords: Python Excel 库，Python 在 Excel 页眉页脚中插入图像，使�
 
 ## **设置页眉和页脚**
 
-Aspose.Cells for Python via .NET 允许您在运行时向工作表添加页眉和页脚，但我们建议在预先设计的文件中手动设置页眉和页脚，以便打印。 您可以使用 Microsoft Excel 作为 GUI 工具来设置页眉和页脚以节省工作量和开发时间。 Aspose.Cells for Python via .NET 可以导入文件并保存设置。
+Aspose.Cells for Python via .NET 允许你在运行时向工作表添加页眉和页脚，但我们建议在预先设计好的文件中手动设置页眉和页脚以便打印。你可以使用Microsoft Excel作为图形界面工具来设置页眉和页脚，以节省精力和开发时间。Aspose.Cells for Python via .NET可以导入文件并保存设置。
 
-要在运行时添加页眉和页脚，Aspose.Cells for Python via .NET 提供特殊的 API 调用和脚本命令来格式化页眉和页脚。
+为了在运行时添加页眉和页脚，Aspose.Cells for Python via .NET 提供了特殊的API调用和脚本命令来格式化页眉和页脚。
 
 ### **脚本命令**
 
@@ -45,7 +45,7 @@ Aspose.Cells for Python via .NET 允许您在运行时向工作表添加页眉�
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetHeadersAndFooters-1.py" >}}
 
-### **如何在页眉或页脚中插入图像**
+### **如何在页眉或页脚插入图片**
 
 [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) 类还有两个额外的方法，[**set_header_picture**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_header_picture/#int-bytes) 和 [**set_footer_picture**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_footer_picture/#int-bytes)，用于在页眉和页脚中添加图片。这些方法需要以下参数：
 

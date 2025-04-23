@@ -17,3 +17,4 @@ url: /ar/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ReadNumbersSpreadsheet.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

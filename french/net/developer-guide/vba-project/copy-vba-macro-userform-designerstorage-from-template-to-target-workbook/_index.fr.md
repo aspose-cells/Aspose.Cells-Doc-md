@@ -25,3 +25,4 @@ La capture d'écran suivante montre le fichier Excel de sortie et ses contenus q
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProject-CopyVBAMacroUserFormDesignerStorageToWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

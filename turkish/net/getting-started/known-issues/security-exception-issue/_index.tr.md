@@ -11,3 +11,4 @@ Bazı kullanıcılar Aspose.Cells'ı kullanmaya çalışırken "Güvenlik İstis
 Aspose.Cells'in bazı önemli özellikleri sağlamak için **Win32 GDI API'lerini** çağırması gerekebilir. Web sunucusunun katı bir güven seviyesine sahip olması durumunda bu güvenlik istisnası fırlatılabilir.
 ### **Çözüm**
 Lütfen Aspose.Cells.dll'e "Yönetilmeyen derlemelere çağrılara izin ver" seçeneği etkinleştirilmiş bir yeni izin kümesi oluşturmayı deneyin.
+{{< app/cells/assistant language="csharp" >}}

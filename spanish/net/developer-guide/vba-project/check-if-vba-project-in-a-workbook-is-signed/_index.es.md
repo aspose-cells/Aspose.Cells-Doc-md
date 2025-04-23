@@ -16,3 +16,4 @@ Puedes verificar si tu proyecto VBA está firmado o no utilizando Microsoft Exce
 El siguiente código carga el libro de trabajo y verifica si su proyecto VBA está firmado utilizando la propiedad [**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned). La propiedad devolverá **verdadero** si el proyecto está firmado, de lo contrario devolverá **falso**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-CheckVbaProjectSigned-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

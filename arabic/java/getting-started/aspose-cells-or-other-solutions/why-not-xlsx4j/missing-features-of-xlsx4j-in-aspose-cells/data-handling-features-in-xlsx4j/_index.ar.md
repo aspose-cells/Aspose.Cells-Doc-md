@@ -13,3 +13,4 @@ url: /ar/java/data-handling-features-in-xlsx4j/
 - [استيراد البيانات إلى ورق العمل في xlsx4j](/cells/ar/java/import-data-to-worksheets-in-xlsx4j/)
 - [فرز البيانات في xlsx4j](/cells/ar/java/sort-data-in-xlsx4j/)
 - [تتبع الإرث والتبعية في xlsx4j](/cells/ar/java/tracing-precedents-and-dependents-in-xlsx4j/)
+{{< app/cells/assistant language="java" >}}

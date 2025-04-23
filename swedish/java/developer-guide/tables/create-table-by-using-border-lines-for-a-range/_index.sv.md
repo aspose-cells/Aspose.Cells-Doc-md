@@ -9,7 +9,7 @@ keywords: skapa tabell, mängd till tabell, mängd till tabell excel, excel män
 
 {{% alert color="primary" %}}
 
-Ibland vill du skapa en tabell genom att lägga till kantlinjer för en **Mängd**/**CellOmråde** baserad på adressen för de celler du har. Du kan använda metoden [**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean)) för att skapa en mängd celler. Metoden [**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean)) returnerar ett [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)-objekt. Du kan skapa ett [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style)-objekt och ange kante...liner (topp, vänster, botten, höger) alternativ därefter. Senare kan du få cellerna från [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) och tillämpa önskad formatering på cellerna.
+Ibland vill du skapa en tabell genom att lägga till kantlinjer för en **Mängd**/**CellOmråde** baserad på adressen för de celler du har. Du kan använda metoden [**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-) för att skapa en mängd celler. Metoden [**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-) returnerar ett [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)-objekt. Du kan skapa ett [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style)-objekt och ange kante...liner (topp, vänster, botten, höger) alternativ därefter. Senare kan du få cellerna från [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) och tillämpa önskad formatering på cellerna.
 
 {{% /alert %}}
 
@@ -20,3 +20,4 @@ Följande exempel visar hur man skapar en [**Range**](https://reference.aspose.c
 Efter att ovanstående kod har körts kan vi ha den genererade Excel-filen som innehåller den formaterade tabellen; här är skärmdumpen på filen.
 
 ![todo:image_alt_text](create-table-by-using-border-lines-for-a-range_1.png)
+{{< app/cells/assistant language="java" >}}

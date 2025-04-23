@@ -3,8 +3,8 @@ title: 确定工作表的纸张尺寸是否为自动
 type: docs
 weight: 90
 url: /zh/python-net/determine-if-paper-size-of-worksheet-is-automatic/
-description: 本文解释了如何使用Aspose.Cells for Python via .NET的示例代码以程序方式确定工作表的纸张大小是否为自动。
-keywords: Python Excel库，Python确定工作表的纸张尺寸是否自动。
+description: 本文介绍如何使用 Aspose.Cells for Python via .NET 样例代码，程序化判断工作表的纸张大小是否为自动。
+keywords: Python Excel 库，Python 判断工作表的纸张大小是否自动。
 ---
 
 ## **可能的使用场景**

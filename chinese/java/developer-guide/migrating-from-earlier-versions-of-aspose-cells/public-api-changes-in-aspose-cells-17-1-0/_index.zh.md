@@ -189,3 +189,4 @@ Aspose.Cells 17.1.0 还公开了 DisplayUnitType 枚举的 PERCENTAGE 字段。 
 ## **删除了 API**
 ### **删除了实例变量m_LoadDataFilterOptions**
 此版本删除了m_LoadDataFilterOptions实例变量。建议改用LoadFilter.LoadDataFilterOptions属性。
+{{< app/cells/assistant language="java" >}}

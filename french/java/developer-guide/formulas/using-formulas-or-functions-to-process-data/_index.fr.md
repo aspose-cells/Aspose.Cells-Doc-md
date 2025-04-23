@@ -46,7 +46,7 @@ Dans l'exemple ci-dessous, une formule complexe est appliquée à la première c
 
 Nous pouvons avoir quelques formules définies par l'utilisateur que nous voulons inclure en tant qu'addon Excel. Lors de la définition de la fonction [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula), les fonctions intégrées fonctionnent bien, cependant il est nécessaire de définir les fonctions ou formules personnalisées à l'aide des fonctions de l'addon.
 
-Aspose.Cells propose des fonctionnalités pour enregistrer des fonctions de complément à l'aide de [**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction(java.lang.String,%20java.lang.String,%20boolean)). Ensuite, lorsque nous définissons [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) = anyFunctionFromAddIn, le fichier Excel de sortie contient la valeur calculée à partir de la fonction de complément.
+Aspose.Cells propose des fonctionnalités pour enregistrer des fonctions de complément à l'aide de [**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction-java.lang.String-java.lang.String-boolean-). Ensuite, lorsque nous définissons [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) = anyFunctionFromAddIn, le fichier Excel de sortie contient la valeur calculée à partir de la fonction de complément.
 
 Le fichier XLAM suivant doit être téléchargé pour enregistrer la fonction d'addon dans le code d'exemple ci-dessous. De même, le fichier de sortie "test_udf.xlsx" peut être téléchargé pour vérifier la sortie.
 
@@ -66,7 +66,7 @@ Les formules matricielles sont des formules qui fonctionnent avec des matrices, 
 
 Certaines fonctions Microsoft Excel renvoient des tableaux de valeurs. Pour calculer plusieurs résultats avec une formule de tableau, entrez le tableau dans une plage de cellules avec le même nombre de lignes et de colonnes que les arguments du tableau.
 
-Il est possible d'appliquer une formule de tableau à une cellule en appelant la méthode [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) de la classe [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell). La méthode [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) prend les paramètres suivants :
+Il est possible d'appliquer une formule de tableau à une cellule en appelant la méthode [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula-java.lang.String-int-int-) de la classe [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell). La méthode [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula-java.lang.String-int-int-) prend les paramètres suivants :
 
 - **Formule de tableau**, la formule de tableau.
 - **Nombre de lignes**, le nombre de lignes pour remplir le résultat de la formule de tableau.
@@ -80,3 +80,4 @@ Appliquer une formule de style de référence **R1C1** à une cellule avec la pr
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingR1C1-1.java" >}}
 
+{{< app/cells/assistant language="java" >}}

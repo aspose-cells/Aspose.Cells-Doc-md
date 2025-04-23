@@ -74,3 +74,4 @@ Worksheet page count: 1
 - [Rendre la feuille de calcul dans le contexte graphique](/cells/fr/net/render-worksheet-to-graphic-context/)
 - [Spécifier un ensemble de polices individuelles ou privées pour le rendu du classeur](/cells/fr/net/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)
 - [Spécifier le nom du travail ou du document lors de l'impression avec Aspose.Cells](/cells/fr/net/specify-job-or-document-name-while-printing-with-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

@@ -15,3 +15,4 @@ url: /ja/net/export-data-from-document/
 
 - [非型指定データを含む列](/cells/ja/net/columns-containing-non-strongly-typed-data/)
 - [型指定データを含む列](/cells/ja/net/columns-containing-strongly-typed-data/)
+{{< app/cells/assistant language="csharp" >}}

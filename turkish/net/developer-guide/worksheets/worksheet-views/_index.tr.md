@@ -112,3 +112,4 @@ Bölme panolarını [**RemoveSplit**](https://reference.aspose.com/cells/net/asp
 - [Çalışma Sayfasında Değerlerin Yerine Formülleri Gösterme](/cells/tr/net/show-formulas-instead-of-values-in-a-worksheet/)
 - [Hata Kontrol Seçeneklerini Kullan](/cells/tr/net/use-error-checking-options/)
 
+{{< app/cells/assistant language="csharp" >}}

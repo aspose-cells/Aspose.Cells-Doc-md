@@ -60,3 +60,4 @@ Aspose.Cells fornisce il metodo [**Range.Merge()**](https://reference.aspose.com
 Aspose.Cells fornisce il metodo [**NameCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/namecollection/methods/removeat) per cancellare il nome dell'intervallo. Per cancellare il contenuto dell'intervallo, utilizzare il metodo [**Cells.ClearRange()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/clearrange/index). Nell'esempio seguente viene mostrato come rimuovere un intervallo nominato con il suo contenuto.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-RemoveANamedRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

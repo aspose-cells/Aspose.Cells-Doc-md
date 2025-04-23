@@ -15,3 +15,4 @@ Det finns två tips som icke-engelska användare måste följa när de skapar fo
 
 1. Formler måste skrivas in på engelska. Använd till exempel det engelska "=SUM()" inte det tyska "=SUMME()".
 1. Använd alltid ett kommatecken (,) för att avgränsa funktionsparametrar. I vissa språkalternativ eller inställningar är avdelaren för funktionsparametrar ett semikolon, men Aspose.Cells använder det engelska kommatecknet. Använd till exempel "=IF (C5=0,0,C3/C4)" inte "=IF(C5=0;0;C3/C4)"
+{{< app/cells/assistant language="csharp" >}}

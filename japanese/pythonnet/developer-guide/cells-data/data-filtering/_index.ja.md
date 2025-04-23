@@ -32,13 +32,13 @@ Microsoft Excelで自動フィルタ機能を有効にするには：
 
 |**オプション**|**説明**|
 | :- | :- |
-|All|Show all items in the list once.|
-|Custom|Customize filter criteria like contains/not contains|
-|Filter by Color|Filters based on filled color|
-|Date Filters|Filters rows based on different criteria on date|
+|All|リストのすべてのアイテムを一度に表示します。|
+|Custom|含む/含まないなどのフィルター条件をカスタマイズします|
+|Filter by Color|塗りつぶし色に基づくフィルター|
+|Date Filters|日付に基づくさまざまな条件で行をフィルター|
 |Number Filters|比較、平均、トップ10など、数値に関する異なるタイプのフィルタ。
-|Text Filters|Different filters like begins with, ends with, contains etc,|
-|Blanks/Non Blanks|These filters can be implemented through Text Filter Blank|
+|Text Filters|始まり、終わり、含むなどのさまざまなフィルター|
+|Blanks/Non Blanks|これらのフィルターはテキストフィルター空白を通じて実装できます|
 
 Microsoft Excelのユーザーは、これらのオプションを使用してワークシートデータを手動でフィルタリングします。
 

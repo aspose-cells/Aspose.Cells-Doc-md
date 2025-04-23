@@ -89,7 +89,7 @@ Aspose.Cells for Python via .NETは、スプレッドシートをHTML形式に�
 
 ## **ExcelブックをMarkdownに変換する**
 
-Aspose.Cells for Python via .NET APIは、スプレッドシートをMarkdown形式にエクスポートする機能をサポートしています。アクティブなワークシートをMarkdownにエクスポートするには、[**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)メソッドの第2パラメータとして[**SaveFormat.Markdown**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)を渡します。ワークシートをMarkdownにエクスポートするための追加の設定を指定するためには、[**MarkdownSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions)クラスを使用することもできます。
+Aspose.Cells for Python via .NET APIは、スプレッドシートをMarkdown形式にエクスポートする機能をサポートしています。アクティブなワークシートをMarkdownにエクスポートするには、[**Workbook.Save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.saveformat)メソッドの第2パラメータとして[**SaveFormat.MARKDOWN**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat)を渡します。ワークシートをMarkdownにエクスポートするための追加の設定を指定するためには、[**MarkdownSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/markdownsaveoptions)クラスを使用することもできます。
 
 以下のコード例は、[**SaveFormat.MARKDOWN**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)列挙型のメンバーを使用してアクティブなワークシートをMarkdownにエクスポートする方法を示しています。生成されたコードの参照用に、[出力Markdownファイル](md_sample.txt)をご覧ください。
 

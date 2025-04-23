@@ -3,21 +3,21 @@ title: マージンの設定
 type: docs
 weight: 20
 url: /ja/python-net/setting-margins/
-description: この記事では、サンプルコードを使用してExcelワークシートの余白を設定する方法について学びます。Aspose.Cells for Python via .NET APIを使用してページセットアップの余白をページの中央、ヘッダーとフッターの余白をプログラムで設定する方法も学びます。
-keywords: Python Excelライブラリ、ワークシートの余白を中央に設定するPython、Pythonを使用してワークシートのヘッダーとフッターの余白を設定します。
+description: この資料では、サンプルコードを使ってExcelワークシートの余白を設定する方法を学びます。また、Aspose.Cells for Python via .NET APIを使用してページセットアップのページ中央、ヘッダー、フッターマージンをプログラムで設定する方法も解説します。
+keywords: Python Excelライブラリ、PythonでExcelワークシートの余白を中央に設定、Pythonを使用したヘッダーとフッターマージンの設定。
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NETはMicrosoft Excelのページ設定オプションを完全にサポートしています。開発者はワークシートのページ設定設定を構成する必要があり、印刷プロセスを制御するために設定する場合があります。このトピックでは、Aspose.Cells for Python via .NETを使用してページ余白を構成する方法について説明します。
+Aspose.Cells for Python via .NET は、Microsoft Excelのページ設定オプションを完全にサポートしています。開発者は印刷プロセスを制御するためにワークシートのページ設定を構成する必要があります。このトピックでは、Aspose.Cells for Python via .NET を使用したページ余白の設定方法について説明します。
 
 {{% /alert %}}
 
 ## **余白の設定方法**
 
-Aspose.Cells for Python via .NETはExcelファイルを表す[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)クラスには、Excelファイルの各ワークシートにアクセスを許可する[**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets)コレクションが含まれています。ワークシートは[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)クラスで表されます。
+Aspose.Cells for Python via .NET は、Excelファイルを表すクラス [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) を提供します。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) クラスは、Excelファイル内の各ワークシートにアクセスできる [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) コレクションを含みます。ワークシートは [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) クラスで表されます。
 
-[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)クラスはワークシートのページ設定オプションを設定するために使用される[**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup)プロパティを提供します。[**page_setup**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/page_setup)属性は、印刷されたワークシートの異なるページレイアウトオプションを設定するための[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)クラスのオブジェクトです。[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)クラスには、ページ設定オプションを設定するために使用されるさまざまなプロパティやメソッドが提供されています。
+[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet)クラスはワークシートのページ設定オプションを設定するために使用される[**page_setup**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/page_setup/)プロパティを提供します。[**page_setup**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/page_setup)属性は、印刷されたワークシートの異なるページレイアウトオプションを設定するための[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)クラスのオブジェクトです。[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)クラスには、ページ設定オプションを設定するために使用されるさまざまなプロパティやメソッドが提供されています。
 
 ## **ページ余白の設定方法**
 
@@ -30,7 +30,7 @@ Aspose.Cells for Python via .NETはExcelファイルを表す[**Workbook**](http
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetMargins-1.py" >}}
 
-## **ページの中央に対してセンタリングする方法**
+## **ページ上で中央揃えにする方法**
 
 ページ上で何かを水平および垂直に中央揃えすることが可能です。これには、[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) クラスの有用なメンバー、[**center_horizontally**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/center_horizontally/) および [**center_vertically**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/center_vertically/) があります。
 

@@ -11,7 +11,7 @@ Microsoft Excelでブックを作成する際に**開くためのパスワード
 
 ![todo:image_alt_text](check-password-to-modify-using-aspose-cells_1.png)
 
-時々、プログラムで指定されたパスワードが**変更用のパスワード**と一致するかどうかをチェックする必要があります。Aspose.Cellsは、指定された変更用パスワードが正しいかどうかを確認するための[**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword(java.lang.String))メソッドを提供しています。
+時々、プログラムで指定されたパスワードが**変更用のパスワード**と一致するかどうかをチェックする必要があります。Aspose.Cellsは、指定された変更用パスワードが正しいかどうかを確認するための[**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword-java.lang.String-)メソッドを提供しています。
 
 {{% /alert %}}
 
@@ -32,3 +32,4 @@ Is 567 correct Password to modify: false
 Is 5678 correct Password to modify: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

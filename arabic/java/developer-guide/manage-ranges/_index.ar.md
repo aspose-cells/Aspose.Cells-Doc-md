@@ -79,3 +79,4 @@ CurrentRegion هو خاصية تقوم بإرجاع كائن Range يمثل ال
 - [النطاقات المسماة](/cells/ar/java/named-ranges/)
 - [البحث والاستبدال في بيانات النطاق](/cells/ar/java/search-and-replace-data-in-a-range/)
 
+{{< app/cells/assistant language="java" >}}

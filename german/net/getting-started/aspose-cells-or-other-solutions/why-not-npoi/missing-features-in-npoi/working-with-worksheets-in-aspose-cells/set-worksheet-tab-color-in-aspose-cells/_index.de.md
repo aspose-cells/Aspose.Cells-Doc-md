@@ -44,3 +44,4 @@ Laden Sie **Arbeitsblattregisterkarte-Farbe festlegen** von einer der unten gena
 Für weitere Details besuchen Sie [Arbeitsblattregisterkarte-Farbe festlegen](/cells/de/net/set-worksheet-tab-color/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

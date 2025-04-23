@@ -19,8 +19,9 @@ Aspose.Cells consente di crittografare e decrittografare i file ODS. Il file ODS
 
 ## **Crittografia/Decrittografia del file ODS:**
 
-Per crittografare un file ODS, caricare il file e passare la password effettiva a [**WorkbookSettings.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password) prima di salvarlo. Il file ODS crittografato in output può essere aperto solo in OpenOffice. Per decrittografare un file ODS, caricare il file fornendo la password a [**LoadOptions.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#Password). Una volta caricato il file, chiamare la funzione [**Workbook.unprotect()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotect(java.lang.String)) con la password effettiva come argomento e infine passare null a [**Workbook.getWorkbookSettings().setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password).
+Per crittografare un file ODS, caricare il file e passare la password effettiva a [**WorkbookSettings.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password) prima di salvarlo. Il file ODS crittografato in output può essere aperto solo in OpenOffice. Per decrittografare un file ODS, caricare il file fornendo la password a [**LoadOptions.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#Password). Una volta caricato il file, chiamare la funzione [**Workbook.unprotect()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotect-java.lang.String-) con la password effettiva come argomento e infine passare null a [**Workbook.getWorkbookSettings().setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password).
 
 ### **Codice di Esempio:**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-EncryptingODSFiles-EncryptingODSFiles.java" >}}
+{{< app/cells/assistant language="java" >}}

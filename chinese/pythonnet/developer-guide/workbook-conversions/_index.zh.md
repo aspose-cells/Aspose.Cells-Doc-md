@@ -45,7 +45,7 @@ XPS的标记语言是XAML的子集，允许在文档中包含矢量图形元素�
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-XPS.py" >}}
 
 ## **转换Excel为Ods、Sxc和Fods（OpenOffice / LibreOffice Calc）**
-Aspose.Cells for Python via .NET支持将Excel文件转换为Ods、Sxc和Fods文件。下面的代码示例显示了如何将【模板】（book1.xlsx）转换为Ods、Sxc和Fods文件。
+Aspose.Cells for Python via .NET支持将Excel文件转换为Ods、Sxc和Fods文件。下面的代码示例显示了如何将[模板]（book1.xlsx）转换为Ods、Sxc和Fods文件。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-ODS.py" >}}
 
@@ -89,7 +89,7 @@ Aspose.Cells for Python via .NET已为[**HtmlSaveOptions**](https://reference.as
 
 ## **将Excel工作簿转换为Markdown**
 
-Aspose.Cells for Python via .NET API支持将电子表格导出为Markdown格式。要将活动工作表导出为Markdown，请将[**SaveFormat.Markdown**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)作为[**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)方法的第二个参数传递。您还可以使用[**MarkdownSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions)类来指定导出工作表到Markdown的其他设置。
+Aspose.Cells for Python via .NET API支持将电子表格导出为Markdown格式。要将活动工作表导出为Markdown，请将[**SaveFormat.MARKDOWN**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat)作为[**Workbook.Save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.saveformat)方法的第二个参数传递。您还可以使用[**MarkdownSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/markdownsaveoptions)类来指定导出工作表到Markdown的其他设置。
 
 以下代码示例演示了如何通过使用[**SaveFormat.MARKDOWN**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)枚举成员将活动工作表导出为Markdown。请参考由该代码生成的[输出Markdown文件](md_sample.txt)。
 

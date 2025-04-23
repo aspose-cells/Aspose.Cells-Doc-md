@@ -32,3 +32,4 @@ Aspose.Cells for .Net ile bölmeleri çözmek kolaydır. Lütfen [**Worksheet.Un
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Unfreeze-Pane.cs" >}}
 
 Ekli [örnek kaynak Excel dosyası](Frozen.xlsx).
+{{< app/cells/assistant language="csharp" >}}

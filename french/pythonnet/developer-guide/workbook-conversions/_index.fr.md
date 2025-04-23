@@ -89,7 +89,7 @@ Le code ci-dessous montre comment utiliser [**HtmlSaveOptions.image_options**](h
 
 ## **Convertir un classeur Excel en Markdown**
 
-L'API Aspose.Cells pour Python via .NET prend en charge l'exportation de feuilles de calcul au format Markdown. Pour exporter la feuille de calcul active en Markdown, passez [**SaveFormat.Markdown**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) comme deuxième paramètre de la méthode [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3). Vous pouvez également utiliser [**MarkdownSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions) pour spécifier des paramètres supplémentaires pour l'exportation de la feuille de calcul en Markdown.
+L'API Aspose.Cells pour Python via .NET prend en charge l'exportation de feuilles de calcul au format Markdown. Pour exporter la feuille de calcul active en Markdown, passez [**SaveFormat.MARKDOWN**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat) comme deuxième paramètre de la méthode [**Workbook.Save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.saveformat). Vous pouvez également utiliser [**MarkdownSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/markdownsaveoptions) pour spécifier des paramètres supplémentaires pour l'exportation de la feuille de calcul en Markdown.
 
 L'exemple de code suivant montre comment exporter la feuille de calcul active au format Markdown en utilisant l'élément d'énumération [**SaveFormat.MARKDOWN**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/). Veuillez consulter le [fichier Markdown de sortie](md_sample.txt) généré par le code pour référence.
 

@@ -19,7 +19,7 @@ Korunan çalışma sayfaları hassas verileri gizlemez veya korumaz, bu yüzden 
 
 Aspose.Cells, bir Microsoft Excel dosyasını temsil eden [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfını sağlar. Workbook sınıfı, bir Excel dosyasındaki her çalışma sayfasına erişmeyi sağlayan bir WorksheetCollection içerir. Bir çalışma sayfası, [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı tarafından temsil edilir.
 
-Worksheet sınıfı, bir çalışma sayfasına koruma uygulamak için kullanılan [**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect(int)) metodunu sağlar. Protect metodu aşağıdaki parametreleri kabul eder:
+Worksheet sınıfı, bir çalışma sayfasına koruma uygulamak için kullanılan [**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect-int-) metodunu sağlar. Protect metodu aşağıdaki parametreleri kabul eder:
 
 - Koruma Türü, çalışma sayfasına uygulanacak koruma türü. Koruma türü, [**ProtectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ProtectionType) numaralandırması ile uygulanır.
 - Yeni Parola, çalışma sayfasını korumak için kullanılan yeni parola.
@@ -99,7 +99,7 @@ Aşağıdaki örnek, çalışma kitabında birkaç hücreyi nasıl koruyacağın
 
 ### **Çalışma Sayfasında Bir Satırı Koruma**
 
-Aspose.Cells, çalışma tablosundaki herhangi bir satırı kolayca kilitlemenizi sağlar. Burada, çalışma tablosundaki belirli bir satıra stil uygulamak için [**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) sınıfının [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) yöntemini kullanabiliriz. Bu yöntem iki argüman alır: bir [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) nesnesi ve uygulanan biçimlendirmeye ilişkin tüm üyelere sahip olan bir [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) yapısı.
+Aspose.Cells, çalışma tablosundaki herhangi bir satırı kolayca kilitlemenizi sağlar. Burada, çalışma tablosundaki belirli bir satıra stil uygulamak için [**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) sınıfının [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) yöntemini kullanabiliriz. Bu yöntem iki argüman alır: bir [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) nesnesi ve uygulanan biçimlendirmeye ilişkin tüm üyelere sahip olan bir [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) yapısı.
 
 Aşağıdaki örnek, çalışma tablosunda bir satırı korumanın nasıl yapılacağını göstermektedir. İlk olarak, çalışma tablosundaki tüm hücreleri kilidini açar ve ardından ilk satırı kilitler. Son olarak, çalışma tablosunu korur. Bir satır / sütun, bir setCellLocked yöntemi içeren bir Stil API'ye sahiptir. StilFlag yapısını kullanarak satırı / sütunu kilitleyebilir veya kilidini açabilirsiniz.
 
@@ -107,7 +107,7 @@ Aşağıdaki örnek, çalışma tablosunda bir satırı korumanın nasıl yapıl
 
 ### **Çalışma Sayfasında Bir Sütunu Koruma**
 
-Aspose.Cells, çalışma tablosundaki herhangi bir sütunu kolayca kilitlemenizi sağlar. Burada, çalışma tablosundaki belirli bir sütuna stil uygulamak için [**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) sınıfının [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) yöntemini kullanabiliriz. Bu yöntem iki argüman alır: bir [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) nesnesi ve uygulanan biçimlendirmeye ilişkin tüm üyelere sahip olan bir [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) yapısı.
+Aspose.Cells, çalışma tablosundaki herhangi bir sütunu kolayca kilitlemenizi sağlar. Burada, çalışma tablosundaki belirli bir sütuna stil uygulamak için [**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) sınıfının [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) yöntemini kullanabiliriz. Bu yöntem iki argüman alır: bir [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) nesnesi ve uygulanan biçimlendirmeye ilişkin tüm üyelere sahip olan bir [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) yapısı.
 
 Aşağıdaki örnek, çalışma tablosunda bir sütunu korumanın nasıl yapılacağını göstermektedir. İlk olarak, çalışma tablosundaki tüm hücreleri kilidini açar ve ardından ilk sütunu kilitler. Son olarak, çalışma tablosunu korur. Bir satır / sütun, bir set Locked yöntemi içeren bir Stil API'ye sahiptir. StilFlag yapısını kullanarak satırı / sütunu kilitleyebilir veya kilidini açabilirsiniz.
 
@@ -206,3 +206,4 @@ Excel XP'de hücreleri kilitlemek için iletişim kutusu
 Aspose.Cells API'sını kullanarak hücreleri kilitlemek de mümkündür. Her hücrenin bir Style API'si vardır ve bunun içinde hücreleri kilitlemek veya kilidini açmak için setLocked yöntemini içerir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-LockCell-LockCell.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -18,3 +18,4 @@ Aspose.Cells允许您在运行时向电子表格中的图像添加超链接。�
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddImageHyperlinks-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

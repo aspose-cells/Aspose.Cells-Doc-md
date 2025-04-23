@@ -95,3 +95,4 @@ keywords: ضبط منطقة الطباعة في إكسيل بلغة السي #،
 |OverThenDown|يمثل ترتيب الطباعة كيمين ثم أسفل.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPageOrder-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

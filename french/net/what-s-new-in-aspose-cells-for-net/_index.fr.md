@@ -8,19 +8,124 @@ url: /fr/net/what-s-new-in-aspose-cells-for-net/
 
 Cette page décrit les fonctionnalités les plus intéressantes d'Aspose.Cells introduites dans les versions récentes.
 
+## Aspose.Cells for .NET 25.4
+* Prend en charge la spécification du lot de feuilles à exporter en HTML
+* Supporte l’obtention et la définition de la couleur des lignes de grille d’une feuille de calcul
+* Supporte l’exportation de graphiques modifiables en fichiers DOCX
+* Supporte la lecture et l’écriture des étiquettes de sensibilité
+* Supporte l’exportation de plus d’attributs de style vers Numbers
+* Supporte l’importation de fichiers modèle au format Markdown
+* Supporte la détection de l’utilisation de fonctions personnalisées par les formules dans `Cell` et `Workbook`
+
+## Aspose.Cells for .NET 25.3
+* Support pour obtenir le style d’affichage d’une cellule à partir des cellules sans obtenir l’objet cellule
+* Support pour obtenir le contenu binaire des polices utilisées dans le classeur
+* Support pour convertir Excel en JSON de structure de classeur
+* Support pour exporter (valeur de la cellule, mise en forme, formule et commentaire) vers un fichier Numbers
+* Support pour placer le style/mise en forme en ligne à l’intérieur des éléments HTML lors de l’enregistrement en HTML
+* Support pour mettre en surbrillance l’onglet de feuille sélectionné dans le HTML généré
+* Support pour plus de raccourcis clavier pour GridJs
+* Support pour coller le contenu copié d’Excel dans plusieurs zones cibles pour GridJs
+
+## Aspose.Cells for .NET 25.2
+* Fournit des API asynchrones pour les opérations chronophages de chargement, sauvegarde, calcul de formule
+* Support pour définir du texte enrichi dans une cellule lors de l’enregistrement avec LightCells
+* Support pour lire un fichier en dif format
+* Support pour la lecture et l’écriture de fichiers au format dbf (dBase)
+* Supporter l'image intégrée compatible WPS
+* Supporter la définition d'une zone en lecture seule dans GridJs
+* Supporter la copie des paramètres de format numérique depuis MS Excel vers GridJS
+* Amélioration des opérations automatiques dans GridJS pour la commodité de l'utilisateur, telles que l'extension de lignes/colonnes vides, le défilement de la page, ...
+
+## Aspose.Cells for .NET 25.1
+* Support NET9
+* Supporter le saut du calcul dans le moteur personnalisé de l'utilisateur pour la formule de tableau dynamique utilisant une fonction personnalisée
+* Supporter la récupération de l'expression de référence de tableau externe dans le moteur personnalisé de l'utilisateur
+* Supporter l'enregistrement des formes automatiques et libres dans le fichier ods
+* Supporter la lecture et l'écriture des paramètres de formulaire dans le tableau
+* Supporter le sous-tableau Format 2 dans la table cmap de la police
+* Simplifier l'importation d'une liste de données de lignes dans les cellules
+* Mise à niveau de la dépendance pour supprimer les vulnérabilités
+* Supporter plus d'événements pour l'insertion/suppression/mise à jour des cellules dans GridJs
+* Supporter la séparation décimale localisée pour GridJs
+* Supporter la recherche dans la liste de filtres pour GridJs
+* Supporter plusieurs instances sur une page pour GridJs
+
+## Aspose.Cells for .NET 24.12
+* Supporter la notification des changements de formule lors de l'insertion/suppression d'une plage de cellules
+* Supporter les fonctions lambda de BYROW et BYCOL
+* Supporter le rendu de LinearGradientBrush, PathGradientBrush, HatchBrush et TextureBrush en pcl
+* Supporter l'insertion de styles/enregistrements en ligne au lieu de CSS lors de la sauvegarde HTML
+* Supporter l'ajout de la couleur de police, de la couleur de la cellule en tant que clé de tri des données
+* Supporter la mise à jour de l'ordre et l'ajout de groupes dans PowerQueryFormulas
+* Améliorations pour les filtres de PivotField comme plusieurs filtres, filtrer toute la journée
+* Supporter la mise à jour de la référence de formule après l'insertion/suppression de lignes/colonnes dans GridJs
+* Supporter la surveillance des mises à jour pour GridJs
+* Supporter l'alignement centré dans plusieurs colonnes pour GridJs
+
+## Aspose.Cells for .NET 24.11
+* Supporter la conversion XLSX en pcl
+* Support pour obtenir la source d'une source externe pour le Tableau Croisé Dynamique
+* Support pour obtenir les relations de tableaux dans la feuille Excel
+* Support pour obtenir une chaîne formatée des cellules en multi-threads
+* Support "PlaceInCell" pour les images en mode MemoryPreference et le calcul de formule
+* Support pour importer/exporter des valeurs enrichies telles que erreurs, entités
+* Support pour ajouter une ligne de signature comme dans Excel
+* Amélioration du SVG généré pour assurer un comportement cohérent entre différents frameworks
+* Amélioration pour l'ajout de formes libres
+* Support pour définir le format numérique pour différents types de données tels que date, heure, devise... pour GridJs
+* Support pour rendre les bordures pour le style de ligne/de colonne dans GridJs
+* Amélioration du rendu et de l'édition de GridJs
+
+## Aspose.Cells for .NET 24.10
+* Support pour obtenir la source du tableau croisé dynamique à partir de la connexion externe correspondante
+* Support pour créer des tableaux croisés dynamiques compacts
+* Améliorer la conversion de la zone pivot en plage
+* Support pour lire le fichier CHM
+* Support pour ignorer les cellules/lignes non ordonnées au lieu de donner une exception lors de l'importation de fichiers modèles OOXML
+* Support pour plus d'options pour supprimer les lignes/colonnes vides
+* Support pour obtenir ou mettre à jour les infos côté serveur pour GridWeb pour .Net6
+* Support pour définir différents types de formats numériques pour GridJs
+* Support pour le chargement paresseux pour GridJs
+* Améliorer la segmentation du texte pour les valeurs de cellules enrichies dans GridJs
+
+## Aspose.Cells for .NET 24.9
+* Support pour créer une case à cocher dans une cellule et rendre la case à cocher dans le PDF
+* Support pour exporter le contenu des équations vers MathML et LaTeX
+* Support pour exporter l'adresse de la cellule lors de l'enregistrement en HTML
+* Support pour analyser les propriétés des sacs de propriétés des fichiers xlsx
+* Optimisation pour la libération des ressources image lors de l'enregistrement en PDF
+* Support pour obtenir des formules d'éléments/attributs calculés dans le tableau croisé dynamique
+* Amélioration des performances du calcul des champs de tableau croisé dynamique groupés
+* Support pour détecter le format OLE (Object Linking and Embedding)
+* Amélioration des formules dans GridJs : afficher les formules et leur explication, utiliser les formules comme paramètres pour la vérification des paramètres
+* Support pour la vérification syntaxique et la correction orthographique pour la saisie utilisateur dans GridJs
+* Support pour afficher le contrôle du temps pour les appareils mobiles lorsque le format de la cellule est l'heure dans GridJs
+* Améliorer l'effet de la validation de modification et des invites d'échec dans GridJs pour appareils mobiles
+
+## Aspose.Cells for .NET 24.8
+* Support pour les nouvelles fonctions : VALUETOTEXT, ARRAYTOTEXT
+* Support pour GridWeb pour .NET6.0 sur Linux
+* Support pour trier le tableau croisé dynamique par élément du champ de pivot
+* Support pour visiter toutes les cellules contenant des images "Place in Cell"
+* Support pour conserver les propriétés du document sans cryptage lors de l'encryption du fichier
+* Support pour éditer des formules avec espaces vides dans GridWeb
+* Support pour la configuration d'affichage ou de masquage des formes invisibles dans GridJs
+* Amélioration des fonctionnalités de GridJs telles que les réglages, la modification des formules, la vérification de l'entrée
+
 ## Aspose.Cells for .NET 24.7
-* Prise en charge de la fonction DROP dans les formules
+* Support pour la fonction DROP dans les formules
 * Amélioration des performances du calcul des fonctions LET et MAKEARRAY avec des paramètres complexes
-* Prise en charge du contour des caractères d'étoile dans le graphique
+* Support pour le contour des caractères étoile dans les graphiques
 * Support pour rendre un objet décoratif
-* Prise en charge de l'échange de séries
+* Support pour l'échange de séries
 * Amélioration de l'affichage du graphique TreeMap
-* Prise en charge de la conversion de l'image de la cellule "survolée" en "dans la cellule"
-* Prise en charge du chargement par défaut de la police de caractères Office locale sur le cloud
-* Prise en charge de la conservation du schéma JSON lors de l'importation de données JSON
-* Prise en charge de l'exportation vers un fichier au format AZW3
-* Prise en charge du réglage automatique de la hauteur après avoir défini le retour à la ligne pour la cellule de GridJS
-* Prise en charge de la génération JSON en utilisant le mode écrivain en continu pour GridJS
+* Support pour convertir une image de "cellule survolée" en "dans la cellule"
+* Support pour charger la police cloud locale d'Office par défaut
+* Support pour conserver le schéma JSON lors de l'importation de données JSON
+* Support pour exporter vers un fichier au format AZW3
+* Support pour régler automatiquement la hauteur après avoir défini le retour à la ligne de la cellule dans GridJs
+* Support pour la génération JSON via la méthode d'écriture en flux pour GridJs
 
 ## Aspose.Cells for .NET 24.6
 * Améliorations pour le rendu : réglage de la saturation des couleurs et de la température des couleurs, duotones, images Webp

@@ -18,3 +18,4 @@ Aspose.Cells允许您为不同对象（如图表的绘图区域、图表区域�
 ##将图片设置为图表的背景填充的C#代码
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-SetPictureBackGroundFillChart-SetPictureBackGroundFillChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

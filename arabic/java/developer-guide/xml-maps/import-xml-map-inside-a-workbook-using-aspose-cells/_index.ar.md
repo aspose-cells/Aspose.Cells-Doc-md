@@ -7,7 +7,7 @@ url: /ar/java/import-xml-map-inside-a-workbook-using-aspose-cells/
 
 {{% alert color="primary" %}}
 
-تتيح Aspose.Cells لك استيراد Map XML داخل دفتر العمل باستخدام الطريقة [**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml(java.lang.String,%20java.lang.String,%20int,%20int)). يمكنك استيراد Map XML باستخدام Microsoft Excel باستخدام الخطوات التالية
+تتيح Aspose.Cells لك استيراد Map XML داخل دفتر العمل باستخدام الطريقة [**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml-java.lang.String-java.lang.String-int-int-). يمكنك استيراد Map XML باستخدام Microsoft Excel باستخدام الخطوات التالية
 
 - حدد علامة **المطور**
 - انقر فوق **استيراد** في القسم XML واتبع الخطوات المطلوبة.
@@ -24,8 +24,9 @@ url: /ar/java/import-xml-map-inside-a-workbook-using-aspose-cells/
 
 ## **استيراد خريطة XML باستخدام Aspose.Cells**
 
-توضح الشفرة النموذجية التالية كيفية الاستفادة من [**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml(java.lang.String,%20java.lang.String,%20int,%20int)). يقوم بإنشاء [ملف إكسل مخرج](5472502.xlsx) كما هو مُبَيَّن في هذه اللقطة.
+توضح الشفرة النموذجية التالية كيفية الاستفادة من [**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml-java.lang.String-java.lang.String-int-int-). يقوم بإنشاء [ملف إكسل مخرج](5472502.xlsx) كما هو مُبَيَّن في هذه اللقطة.
 
 ![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ImportXMLMap-ImportXMLMap.java" >}}
+{{< app/cells/assistant language="java" >}}

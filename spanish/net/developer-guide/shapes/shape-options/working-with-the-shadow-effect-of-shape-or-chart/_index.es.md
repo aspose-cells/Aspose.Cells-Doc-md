@@ -21,3 +21,4 @@ El siguiente código de ejemplo carga el [archivo de Excel fuente](5115425.xlsx)
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ShadowEffectOfShape-ShadowEffectOfShape.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

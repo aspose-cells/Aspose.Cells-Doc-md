@@ -15,3 +15,4 @@ Der folgende Screenshot zeigt die Benutzeroberfläche von Microsoft Excel zum Ei
 Der folgende Beispielcode lädt die [Quelldatei Excel](5472522.xlsx) und greift auf die erste Form im ersten Arbeitsblatt zu und setzt die Unterattribute der Eigenschaft [Shape.ThreeDFormat](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ThreeDFormat) und speichert dann die Arbeitsmappe in der [Ausgabedatei Excel](5472521.xlsx).
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithThreeDFormat-WorkingWithThreeDFormat.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -33,3 +33,4 @@ El código de muestra a continuación describe cómo crear archivos PDF seguros 
 Si la hoja de cálculo contiene fórmulas, es mejor llamar a [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) justo antes de convertirla a PDF. Esto asegura que se recalculen los valores dependientes de las fórmulas y que los valores correctos se representen en el PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

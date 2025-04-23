@@ -18,3 +18,4 @@ Källfilen som används i den följande kodsnutten bifogas för din referens.
 ## Exempelkod
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-CellsHelper-GetTextWidth-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

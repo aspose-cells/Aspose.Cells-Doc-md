@@ -23,3 +23,4 @@ Aspose.Cells предоставляет [Shape.ShadowEffect](https://reference.a
 Приведенный ниже образец кода загружает [исходный файл Excel](5472531.xlsx), обращается к первой форме на первом листе и устанавливает подсвойства свойства [Shape.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect), а затем сохраняет книгу в [выходной файл Excel](5472530.xlsx).
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithShadowEffect-WorkingWithShadowEffect.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -4,15 +4,15 @@ type: docs
 weight: 5
 url: /ru/nodejs-cpp/features/
 keywords: "nodejs, excel, api, features"
-description: "Возможности Aspose.Cells для Node.js через C++."
+description: "Функции Aspose.Cells for Node.js via C++."
 ---
 
-## **Обзор возможностей Aspose.Cells для Node.js через C++**
-Этот раздел предоставляет сравнение доступности функций между Aspose.Cells for C++ и Aspose.Cells для Node.js через C++.
+## **Обзор возможностей Aspose.Cells for Node.js via C++**
+Этот раздел содержит сравнение доступности функций между Aspose.Cells for C++ и Aspose.Cells for Node.js via C++.
 ### **Форматы файлов и конвертации**
 Многие клиенты по всему миру полагаются на тщательные функции импорта и экспорта документов, предоставляемые Aspose.Cells.
 
-|**Функция**|**Описание**|**Aspose.Cells for C++**|**Aspose.Cells для Node.js через C++|
+|**Функция**|**Описание**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- | :- |
 |Высококачественные конвертации|Быстрые и надежные конвертации между несколькими популярными форматами документов.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Книга Microsoft Excel (XLS)|Самая быстрая и полная реализация формата XLS, которую вы можете найти.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -26,21 +26,21 @@ description: "Возможности Aspose.Cells для Node.js через C++.
 ### **Визуализация и печать**
 Теперь Aspose.Cells обеспечивает высокую точность отображения страниц электронных таблиц.
 
-|**Функция**|**Aspose.Cells for C++**|**Aspose.Cells для Node.js через C++**|
+|**Функция**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
 |Организация документа на страницы с высокой точностью, аналогичной Microsoft Excel® (точно так, как это делает Microsoft Excel®).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Отображение страниц листа в растровые изображения (PNG, JPEG и др.).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Отрисовка страниц листа в растровые изображения (многостраничные TIFF, GIF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Отображение страниц электронных таблиц в векторные изображения (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Укажите разрешение изображения, качество, сжатие и другие параметры.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Печать страниц таблицы с использованием печатной инфраструктуры C++.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Печать страниц таблицы в том числе с помощью инфраструктуры печати C++.|{{< emoticons/cross >}}|{{< emoticons/cross >}}|
 |Обновите номера страниц и другие поля перед рендерингом или печатью.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Особенности содержимого электронных таблиц**
 Aspose.Cells предоставляет богатую объектную модель, состоящую из более чем 100 открытых классов/интерфейсов, позволяющих программно генерировать, объединять, модифицировать, разбирать или иным образом изучать загруженные электронные таблицы. Некоторые ключевые особенности приведены в таблице ниже.
 
-|**Функция**|**Aspose.Cells for C++**|**Aspose.Cells для Node.js через C++**|
+|**Функция**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
-|Импорт/экспорт данных из массива, ArrayList, ResultSet и т. д.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Импорт/экспорт данных из массива, ArrayList, ResultSet и др.|{{< emoticons/cross >}}|{{< emoticons/cross >}}|
 |Добавить копию существующего листа (все содержимое, включая изображения, диаграммы, другие объекты и т. Д.)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Копировать или перемещать листы внутри или между книгами|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Вставить изображения|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -77,7 +77,7 @@ Aspose.Cells предоставляет богатую объектную мод
 ### **Особенности форматирования электронных таблиц**
 Aspose.Cells обеспечивает подробный программный доступ к свойствам форматирования всех элементов электронных таблиц.
 
-|**Функция**|**Aspose.Cells for C++**|**Aspose.Cells для Node.js через C++**|
+|**Функция**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
 |Применить форматирование всех символов в ячейках, включая шрифты, цвета, эффекты, границы и заливку.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Применить все настройки формата чисел (поддерживаемые в Microsoft Excel) для ячеек.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -91,7 +91,7 @@ Aspose.Cells обеспечивает подробный программный 
 ### **Функции настройки страницы**
 Вы можете использовать Aspose.Cells для реализации параметров настройки страниц для листов.
 
-|**Функция**|**Aspose.Cells for C++**|**Aspose.Cells для Node.js через C++**|
+|**Функция**|**Aspose.Cells for C++**|**Aspose.Cells for Node.js via C++**|
 | :- | :- | :- |
 |Настройте ориентацию страницы, масштабирование, размер бумаги.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Укажите поля и центрирование страницы.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

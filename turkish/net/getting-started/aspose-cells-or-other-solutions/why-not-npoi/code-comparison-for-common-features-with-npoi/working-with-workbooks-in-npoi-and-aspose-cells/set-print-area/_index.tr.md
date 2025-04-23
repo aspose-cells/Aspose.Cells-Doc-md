@@ -134,3 +134,4 @@ Herhangi bir sosyal kodlama sitesinden **Set Print Area** formunu indirin:
 Daha fazla bilgi için [Yazdırma Seçeneklerini Ayarlama](/cells/tr/net/setting-print-options/) sayfasını ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

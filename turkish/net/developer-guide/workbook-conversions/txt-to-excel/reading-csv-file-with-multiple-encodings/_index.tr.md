@@ -38,3 +38,4 @@ Aşağıdaki örnek kod, yukarıdaki CSV dosyasını XLSX formatına uygun bir �
 ## İlgili Makaleler
 
 - [CSV Dosyalarını Açma](/cells/tr/net/opening-files-with-different-formats/#opening-csv-files)
+{{< app/cells/assistant language="csharp" >}}

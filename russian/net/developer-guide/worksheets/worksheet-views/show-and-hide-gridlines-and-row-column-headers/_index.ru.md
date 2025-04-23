@@ -57,3 +57,4 @@ Aspose.Cells предоставляет класс [**Workbook**](https://refere
 Также возможно использовать методы [**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) и [**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns) класса [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells), чтобы сделать несколько строк и столбцов видимыми.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

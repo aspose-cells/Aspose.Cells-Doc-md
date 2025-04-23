@@ -3,8 +3,8 @@ title: ضبط رؤوس وأسافل
 type: docs
 weight: 30
 url: /ar/python-net/setting-headers-and-footers/
-description: يشرح هذا المقال كيفية إدراج صورة برمجيًا في رأس وقاع ورقة العمل Excel عن طريق ضبط الرأس والقاع بأوامر النص البرمجي باستخدام واجهة برمجة التطبيقات لـ Aspose.Cells لـ Python via .NET.
-keywords: مكتبة Python Excel ، إدراج صورة Python في رأس أوراق العمل Excel، ضبط أوامر النص البرمجي لرأس وقاع أوراق Excel باستخدام Python.
+description: توضح هذه المقالة كيفية إدراج صورة برمجياً في رأس وتذييل أوراق عمل Excel عن طريق تعيين الرأس والتذييل باستخدام أوامر سكريبت باستخدام API Aspose.Cells for Python via .NET.
+keywords: مكتبة Excel للبايثون، إدراج صورة في رأس أو تذييل Excel باستخدام بايثون، ضبط أوامر السكريبت للرأس والتذييل في Excel باستخدام بايثون.
 ---
 
 {{% alert color="primary" %}}
@@ -15,9 +15,9 @@ keywords: مكتبة Python Excel ، إدراج صورة Python في رأس أو
 
 ## **ضبط رؤساء الصفحات وتذايلها**
 
-Aspose.Cells لـ Python via .NET يتيح لك إضافة رؤوس وأسافل إلى ورقات العمل أثناء التشغيل ولكن نوصي بضبط الرؤوس والأسافل يدويًا في ملف مصمم مسبقًا للطباعة. يمكنك استخدام Microsoft Excel كأداة واجهة المستخدم الرسومية لضبط الرؤوس والأسافل لتوفير الجهد ووقت التطوير. يمكن لـ Aspose.Cells لـ Python via .NET استيراد الملف وحفظ الإعدادات.
+يسمح Aspose.Cells for Python via .NET بإضافة رؤوس وتذييلات إلى أوراق العمل في وقت التشغيل، لكن يُنصح بضبط الرؤوس والتذييلات يدوياً في ملف مصمم مسبقاً للطباعة. يمكنك استخدام Microsoft Excel كأداة واجهة مستخدم لضبط الرؤوس والتذييلات لتوفير الجهد ووقت التطوير. يمكن لـ Aspose.Cells for Python via .NET استيراد الملف وحفظ الإعدادات.
 
-لإضافة رؤوس وأسافل أثناء التشغيل، يوفر Aspose.Cells لـ Python via .NET استدعاءات API مخصصة وأوامر نص برمجي لتنسيق الرؤوس والأسافل.
+لإضافة رؤوس وتذييلات في وقت التشغيل، توفر Aspose.Cells for Python via .NET استدعاءات API خاصة وأوامر سكريبت لتنسيق الرؤوس والتذييلات.
 
 ### **أوامر السكريبت**
 
@@ -36,7 +36,7 @@ Aspose.Cells لـ Python via .NET يتيح لك إضافة رؤوس وأسافل
 |&"\<FontName>, \<FontStyle>"| - يمثل اسم الخط بالنمط. مثال: &"Arial,Bold"
 |&\<FontSize>| - يمثل حجم الخط. على سبيل المثال: “&14abc”. ولكن، إذا تبعت هذه الأمر برقم عادي يتم طباعته في الرأس، يجب أن يتم فصله بحرف مسافة عن حجم الخط. على سبيل المثال: “&14 123”.
 
-### **كيفية تعيين الرؤوس والأسافل**
+### **كيفية تعيين الرؤوس والتذييلات**
 
 يوفر [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) فئتين، [**set_header**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_header/#int-str) و [**set_footer**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_footer/#int-str)، تُستخدم لإضافة رأس وتذيل لورقة عمل. هذه الفئات تأخذ فقط معلمتين:
 
@@ -45,7 +45,7 @@ Aspose.Cells لـ Python via .NET يتيح لك إضافة رؤوس وأسافل
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetHeadersAndFooters-1.py" >}}
 
-### **كيفية إدراج صورة في رأس أو قاع**
+### **كيفية إدراج صورة في رأس أو تذييل**
 
 يوجد في الفئة [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) طريقتان إضافيتان، [**set_header_picture**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_header_picture/#int-bytes) و [**set_footer_picture**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_footer_picture/#int-bytes)، تُستخدم لإضافة الصور إلى الرأس والتذييل. تأخذ هذه الطرق المعاملات التالية:
 

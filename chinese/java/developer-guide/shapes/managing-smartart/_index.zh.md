@@ -4,3 +4,4 @@ type: docs
 weight: 100
 url: /zh/java/managing-smartart/
 ---
+{{< app/cells/assistant language="java" >}}

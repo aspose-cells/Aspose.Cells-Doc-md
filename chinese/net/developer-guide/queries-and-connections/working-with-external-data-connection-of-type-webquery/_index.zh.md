@@ -26,3 +26,4 @@ url: /zh/net/working-with-external-data-connection-of-type-webquery/
 Web Query URL: https://docs.aspose.com/cells/net/
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

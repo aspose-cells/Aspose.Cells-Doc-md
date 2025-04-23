@@ -16,7 +16,7 @@ Manchmal müssen Sie Zeichenobjekte wie Beschriftungen, Textfelder, Bilder usw. 
 
 Labels bieten eine Möglichkeit, Benutzern Informationen über den Inhalt eines Tabellenblatts zu geben. Aspose.Cells ermöglicht es Ihnen, Labels hinzuzufügen und zu manipulieren, sogar in Diagrammen.
 
-Die Klasse [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) bietet eine Methode namens [**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart(int,%20int,%20int,%20int)), die verwendet wird, um eine Label-Steuerung zu einem Diagramm hinzuzufügen. Hier ist eine Liste der für die Methode verwendeten Parameter:
+Die Klasse [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) bietet eine Methode namens [**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart-int-int-int-int-), die verwendet wird, um eine Label-Steuerung zu einem Diagramm hinzuzufügen. Hier ist eine Liste der für die Methode verwendeten Parameter:
 
 - **top** – der vertikale Versatz der Beschriftung von der oberen linken Ecke in Einheiten von 1/4000 des Diagrammbereichs.
 - **left** – der horizontale Versatz der Beschriftung von der oberen linken Ecke in Einheiten von 1/4000 des Diagrammbereichs.
@@ -46,7 +46,7 @@ Hier ist der ursprüngliche Code zum Hinzufügen eines Labels zum Diagramm. Der 
 
 ## **Hinzufügen einer Textfeldsteuerung zum Diagramm**
 
-Eine Möglichkeit, wichtige Informationen in einem Bericht hervorzuheben, besteht darin, einen Textbereich zu verwenden. Geben Sie beispielsweise Text ein, um den Firmennamen hervorzuheben oder das geografische Gebiet mit den höchsten Verkäufen anzuzeigen. Die Klasse [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) stellt eine Methode namens [**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart(int,%20int,%20int,%20int)) zur Verfügung, die verwendet wird, um dem Diagramm eine Textfeldsteuerung hinzuzufügen. Im Folgenden finden Sie die verwendete Parameterliste für die Methode:
+Eine Möglichkeit, wichtige Informationen in einem Bericht hervorzuheben, besteht darin, einen Textbereich zu verwenden. Geben Sie beispielsweise Text ein, um den Firmennamen hervorzuheben oder das geografische Gebiet mit den höchsten Verkäufen anzuzeigen. Die Klasse [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) stellt eine Methode namens [**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart-int-int-int-int-) zur Verfügung, die verwendet wird, um dem Diagramm eine Textfeldsteuerung hinzuzufügen. Im Folgenden finden Sie die verwendete Parameterliste für die Methode:
 
 - **top** – der vertikale Versatz des Textfelds von der oberen linken Ecke in Einheiten von 1/4000 des Diagrammbereichs.
 - **left** – der horizontale Abstand der Textbox von der oberen linken Ecke in Einheiten von 1/4000 des Diagrammbereichs.
@@ -69,7 +69,7 @@ Unten finden Sie den Originalcode, um ein Textfeld zum Diagramm hinzuzufügen. D
 
 Mit Aspose.Cells können Sie Bilder in ein Diagramm einfügen. Fügen Sie beispielsweise ein Bild hinzu, um ein Diagramm oder seine Inhalte zu betonen oder mehr Bedeutung zu verleihen oder fügen Sie eine Markenbild-Datei ein.
 
-Die Klasse [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) stellt eine Methode namens [**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart(int,%20int,%20java.io.InputStream,%20int,%20int)) zur Verfügung, die verwendet wird, um ein Bildobjekt dem Diagramm hinzuzufügen. Im Folgenden finden Sie die verwendete Parameterliste für die Methode:
+Die Klasse [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) stellt eine Methode namens [**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart-int-int-java.io.InputStream-int-int-) zur Verfügung, die verwendet wird, um ein Bildobjekt dem Diagramm hinzuzufügen. Im Folgenden finden Sie die verwendete Parameterliste für die Methode:
 
 - **top** – der vertikale Abstand des Bildes von der oberen linken Ecke in Einheiten von 1/4000 des Diagrammbereichs.
 - **left** – der horizontale Abstand des Bildes von der oberen linken Ecke in Einheiten von 1/4000 des Diagrammbereichs.
@@ -100,3 +100,4 @@ Das folgende Bild zeigt das Diagrammblatt mit der Checkbox in der Ausgabedatei.
 Die [Ausgabedatei](InsertCheckboxInChartSheet_out.xlsx), die durch den folgenden Code-Schnipsel generiert wurde, ist zur Ihrer Referenz angehängt.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-InsertCheckboxInChartSheet-1.java" >}}
+{{< app/cells/assistant language="java" >}}

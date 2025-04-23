@@ -19,7 +19,7 @@ Geschützte Arbeitsblätter verbergen oder schützen keine sensiblen Daten, dahe
 
 Aspose.Cells bietet eine Klasse, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), die eine Microsoft Excel Datei repräsentiert. Die Klasse Workbook enthält eine WorksheetCollection, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Klasse [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) repräsentiert.
 
-Die Klasse Worksheet bietet die Methode [**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect(int)), die zum Anwenden von Schutz auf ein Arbeitsblatt verwendet wird. Die Protect-Methode akzeptiert die folgenden Parameter:
+Die Klasse Worksheet bietet die Methode [**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect-int-), die zum Anwenden von Schutz auf ein Arbeitsblatt verwendet wird. Die Protect-Methode akzeptiert die folgenden Parameter:
 
 - Schutzttyp, der Typ des Schutzes, der auf das Arbeitsblatt angewendet werden soll. Der Schutzttyp wird mithilfe der Enumeration [**ProtectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ProtectionType) angewendet.
 - Neues Passwort, das neue Passwort, das zum Schutz des Arbeitsblatts verwendet wird.
@@ -99,7 +99,7 @@ Das folgende Beispiel zeigt, wie Sie einige Zellen im Arbeitsblatt schützen kö
 
 ### **Schützen Sie eine Zeile im Arbeitsblatt**
 
-Aspose.Cells ermöglicht es Ihnen, jede Zeile im Arbeitsblatt ganz einfach zu sperren. Hier können wir die [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag))-Methode der Klasse [**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) verwenden, um einem bestimmten Zeile im Arbeitsblatt ein Style anzuwenden. Diese Methode nimmt zwei Argumente an: ein [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style)-Objekt und einen [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag)-Struktur, die alle Mitglieder im Zusammenhang mit der angewandten Formatierung enthält.
+Aspose.Cells ermöglicht es Ihnen, jede Zeile im Arbeitsblatt ganz einfach zu sperren. Hier können wir die [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-)-Methode der Klasse [**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) verwenden, um einem bestimmten Zeile im Arbeitsblatt ein Style anzuwenden. Diese Methode nimmt zwei Argumente an: ein [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style)-Objekt und einen [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag)-Struktur, die alle Mitglieder im Zusammenhang mit der angewandten Formatierung enthält.
 
 Das folgende Beispiel zeigt, wie Sie eine Zeile im Arbeitsblatt schützen können. Es entsperrt zuerst alle Zellen im Arbeitsblatt und sperrt dann die erste Zeile. Schließlich schützt es das Arbeitsblatt. Eine Zeile / Spalte verfügt über eine Style-API, die eine Methode setCellLocked enthält. Sie können die Zeile / Spalte mit der StyleFlag-Struktur sperren oder entsperren.
 
@@ -107,7 +107,7 @@ Das folgende Beispiel zeigt, wie Sie eine Zeile im Arbeitsblatt schützen könne
 
 ### **Schützen Sie eine Spalte im Arbeitsblatt**
 
-Aspose.Cells ermöglicht es Ihnen, jede Spalte im Arbeitsblatt einfach zu sperren. Hier können wir die Methode [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) der Klasse [**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) verwenden, um den Stil auf eine bestimmte Spalte im Arbeitsblatt anzuwenden. Diese Methode nimmt zwei Argumente entgegen: ein [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style)-Objekt und ein [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag)-Struktur, die alle Mitglieder im Zusammenhang mit der angewendeten Formatierung enthält.
+Aspose.Cells ermöglicht es Ihnen, jede Spalte im Arbeitsblatt einfach zu sperren. Hier können wir die Methode [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) der Klasse [**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) verwenden, um den Stil auf eine bestimmte Spalte im Arbeitsblatt anzuwenden. Diese Methode nimmt zwei Argumente entgegen: ein [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style)-Objekt und ein [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag)-Struktur, die alle Mitglieder im Zusammenhang mit der angewendeten Formatierung enthält.
 
 Das folgende Beispiel zeigt, wie man eine Spalte im Arbeitsblatt schützt. Es werden zunächst alle Zellen im Arbeitsblatt entsperrt und dann die erste Spalte gesperrt. Schließlich wird das Arbeitsblatt geschützt. Eine Zeile/eine Spalte hat eine Style-API, die die Methode setLocked enthält. Sie können die Zeile/die Spalte mithilfe der Struktur StyleFlag sperren oder entsperren.
 
@@ -206,3 +206,4 @@ Wenn Sie möchten, dass Benutzer das Bearbeiten von Zellen einschränken, müsse
 Es ist auch möglich, Zellen mithilfe der Aspose.Cells API zu sperren. Jede Zelle verfügt über eine Style-API, die wiederum eine Methode setLocked enthält. Verwenden Sie diese, um Zellen zu sperren oder zu entsperren.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-LockCell-LockCell.java" >}}
+{{< app/cells/assistant language="java" >}}

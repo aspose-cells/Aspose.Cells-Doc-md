@@ -16,3 +16,4 @@ Aspose.Cells admite el formato personalizado *DBNum*. Por ejemplo, si el valor d
 El siguiente código de muestra ilustra cómo especificar el formato de patrón personalizado *DBNum*. Consulte su [PDF de salida](43352081.pdf) para obtener más ayuda.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SpecifyingDBNumCustomPatternFormatting.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

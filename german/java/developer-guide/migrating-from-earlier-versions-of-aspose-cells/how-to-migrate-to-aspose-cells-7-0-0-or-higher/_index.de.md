@@ -42,3 +42,4 @@ Worksheets.size() (Alt) -> WorksheetCollection.getCount() (Neu), ...usw.
 
 4) Die Getter-Methoden für boolesche Eigenschaften in v2.5.4 oder früher, deren Namen mit 'is' beginnen, wurden geändert. In v7.0.0 beginnen diese mit "get":
 z. B. PageSetup.isBlackAndWhite() (Alt) -> PageSetup.getBlackAndWhite() (Neu), ...usw.
+{{< app/cells/assistant language="java" >}}

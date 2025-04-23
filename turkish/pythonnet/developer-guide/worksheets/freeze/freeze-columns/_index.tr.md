@@ -4,8 +4,8 @@ linktitle: Sütunları Sabitle
 type: docs
 weight: 190
 url: /tr/python-net/how-to-freeze-columns-of-excel-worksheet
-description: Bu makalede, Aspose.Cells for Python ile Excel Çalışma Sayfalarının sol sütunlarını programatik olarak sabitlemeyi öğreneceksiniz via .NET API ları.
-keywords: Python Excel Kütüphanesi, Python Sol sütunları dondurma, Python İlk sütunları dondurma, Python Sütunları kilitleme.
+description: Bu makalede, Aspose.Cells for Python via .NET API lerini kullanarak Excel Çalışma Sayfalarının sol sütunlarını programlı olarak nasıl donduracağınızı öğreneceksiniz.
+keywords: Python Excel Kütüphanesi, Python Sol Sütunları Dondur, Python İlk Sütunları Dondur, Python Sütunlarını Kilitle.
 ---
 
 ## **Giriş**
@@ -32,8 +32,8 @@ Sütunları Sabitlemek, ilk sütunu izlemek zorunda kalmadan uzun verilerinizi g
 
 
 
-## **Aspose.Cells for Python Excel Kütüphanesi ile Sütunları Nasıl Dondurabilirsiniz**
-İlk sütunu Aspose.Cells for Python ile via .NET ile dondurmak kolaydır. Lütfen seçilen sütunda sütunu dondurmaka için [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) metodu kullanınız.
+## **Aspose.Cells for Python Excel Kütüphanesi ile Sütunları Nasıl Dondurulur**
+Aspose.Cells for Python via .NET kullanarak ilk sütun(ları) dondurmak çok basittir. Seçilen sütunu dondurmak için [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) yöntemini kullanın.
 1. Dosyayı açmak veya boş bir dosya oluşturmak için Workbook'u oluşturun.
 2. Worksheet.FreezePanes() yöntemi ile ilk sütunu dondurun.
 3. Dosyayı kaydedin.

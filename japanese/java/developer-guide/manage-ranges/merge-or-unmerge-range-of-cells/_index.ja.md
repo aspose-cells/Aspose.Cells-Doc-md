@@ -29,3 +29,4 @@ Aspose.Cellsを使用してセルの範囲を結合または分割できます�
 - [セルを結合および分割](/cells/ja/java/merging-and-unmerging-cells/)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

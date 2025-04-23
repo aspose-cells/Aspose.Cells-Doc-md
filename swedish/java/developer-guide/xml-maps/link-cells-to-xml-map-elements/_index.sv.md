@@ -7,7 +7,7 @@ url: /sv/java/link-cells-to-xml-map-elements/
 
 ## **Möjliga användningsscenario**
 
-Du kan länka dina celler till XML-kartelement med hjälp av Aspose.Cells. Använd gärna metoden [**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap(java.lang.String,%20int,%20int,%20java.lang.String)) för detta ändamål.
+Du kan länka dina celler till XML-kartelement med hjälp av Aspose.Cells. Använd gärna metoden [**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap-java.lang.String-int-int-java.lang.String-) för detta ändamål.
 
 ## **Länka celler till XML-kartelement**
 
@@ -20,3 +20,4 @@ Om du öppnar den [utdata Excel-filen](5472517.xlsx) och klickar på knappen *Ut
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LinkCellstoXmlMapElements-LinkCellstoXmlMapElements.java" >}}
+{{< app/cells/assistant language="java" >}}

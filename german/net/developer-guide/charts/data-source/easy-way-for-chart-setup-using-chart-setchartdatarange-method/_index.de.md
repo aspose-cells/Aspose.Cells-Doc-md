@@ -16,3 +16,4 @@ Aspose.Cells bietet jetzt eine Methode zum einfachen Einrichten von Diagrammen. 
 Der folgende Beispielcode erläutert die Verwendung der Methode [**Chart.SetChartDataRange()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange) zum einfachen Einrichten von Diagrammen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ChartSetupUsingSetChartDataRange-EasyWayToChartSetupUsingSetChartDataRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

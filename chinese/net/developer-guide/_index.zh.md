@@ -381,3 +381,4 @@ keywords: Aspose.Cells开发API的使用指南，Aspose.Cells for .NET API的参
 </div>
 {{< /tab >}}
 {{< /tabs >}}
+{{< app/cells/assistant language="csharp" >}}

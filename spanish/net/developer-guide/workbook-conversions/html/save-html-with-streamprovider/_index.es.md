@@ -29,3 +29,4 @@ Aquí está el código para la clase *ExportStreamProvider*, que implementa la i
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithHTMLFormat-ImplementIStreamProvider-ExportStreamProviderClass.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

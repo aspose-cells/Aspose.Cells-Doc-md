@@ -7,3 +7,4 @@ url: /ar/java/data/
 
 
 
+{{< app/cells/assistant language="java" >}}

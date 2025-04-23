@@ -33,3 +33,4 @@ url: /ru/java/disable-compatibility-checker-in-excel/
 Следующий код показывает, как отключить Проверку совместимости с Aspose.Cells for Java.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DisableCompatibilityChecker-DisableCompatibilityChecker.java" >}}
+{{< app/cells/assistant language="java" >}}

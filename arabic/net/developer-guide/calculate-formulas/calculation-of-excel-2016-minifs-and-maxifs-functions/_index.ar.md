@@ -17,3 +17,4 @@ url: /ar/net/calculation-of-excel-2016-minifs-and-maxifs-functions/
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-MINIFSAndMAXIFS-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

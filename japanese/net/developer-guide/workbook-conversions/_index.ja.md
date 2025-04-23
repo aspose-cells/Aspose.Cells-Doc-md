@@ -132,6 +132,22 @@ Aspose.Cells APIは、スプレッドシートをPPTX形式に変換するため
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToPptx-1.cs" >}}
 
+## **ExcelワークブックをEPUBに変換**
+
+Aspose.Cells APIは、スプレッドシートのEPUB形式への変換をサポートしています。ワークブックをEPUBにエクスポートするには、[**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)メソッドの第2引数に[**SaveFormat.Epub**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)を渡します。 また、[**EBookSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/ebooksaveoptions)クラスを使用して、ワークシートのエクスポートに関する追加設定を指定できます。
+
+以下のコード例は、[**SaveFormat.Epub**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)列挙体のメンバーを使用してアクティブなワークシートをEPUBにエクスポートする方法を示しています。
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToEPUB-1.cs" >}}
+
+## **ExcelワークブックをAZW3に変換**
+
+Aspose.Cells APIは、スプレッドシートのAZW3形式への変換をサポートしています。ワークブックをAZW3にエクスポートするには、[**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)メソッドの第2引数に[**SaveFormat.Azw3**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)を渡します。 また、[**EBookSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/ebooksaveoptions)クラスを使用して、ワークシートのエクスポートに関する追加設定を指定できます。
+
+以下のコード例は、[**SaveFormat.Azw3**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)列挙体のメンバーを使用してアクティブなワークシートをAZW3にエクスポートする方法を示しています。
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToAZW3-1.cs" >}}
+
 ## **高度なトピック**
 - [XLSB のリビジョンを XLSM に変換する](/cells/ja/net/convert-revision-of-xlsb-to-xlsm/)
 - [HTML](/cells/ja/net/convert-excel-to-html/)
@@ -142,3 +158,4 @@ Aspose.Cells APIは、スプレッドシートをPPTX形式に変換するため
 - [ExcelをCSV、TSV、およびTxtに変換](/cells/ja/net/convert-excel-to-csv-tsv-and-txt/)
 - [文書変換の進行状況を追跡する](/cells/ja/net/track-document-conversion-progress/)
 - [CSV、TSV、およびTXTをExcelに変換する](/cells/ja/net/convert-csv-tsv-and-txt-to-excel/)
+{{< app/cells/assistant language="csharp" >}}

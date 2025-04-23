@@ -38,3 +38,4 @@ L'exemple suivant crée un nouveau classeur à partir de zéro, écrit Bonjour l
 L'exemple suivant ouvre un fichier modèle Microsoft Excel existant nommé "Sample.xlsx", saisit le texte "Bonjour le monde!" dans la cellule A1 de la première feuille de calcul et enregistre le classeur.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

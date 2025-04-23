@@ -105,3 +105,4 @@ private static void CreateSpreadsheetWorkbook(string filepath)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
 - [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Create%20a%20spreadsheet%20document%20\(Aspose.Cells\).zip/download)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Create%20a%20spreadsheet%20document%20\(Aspose.Cells\).zip)
+{{< app/cells/assistant language="csharp" >}}

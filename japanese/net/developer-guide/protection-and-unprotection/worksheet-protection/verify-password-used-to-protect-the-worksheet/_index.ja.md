@@ -14,3 +14,4 @@ Aspose.Cells の API は [**Protection**](https://reference.aspose.com/cells/net
 [**Protection.VerifyPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/methods/verifypassword) メソッドは、指定されたパスワードが指定されたワークシートを保護するために使用されたパスワードに一致する場合は **true** を返し、指定されたパスワードが一致しない場合は **false** を返します。 次のコード片は、パスワード保護を検出し、パスワードを検証するために [**Protection.VerifyPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/methods/verifypassword) メソッドと [**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword) プロパティを組み合わせて使用します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-VerifyPasswordUsedToProtectWorksheets-VerifyPasswordUsedToProtectWorksheets.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

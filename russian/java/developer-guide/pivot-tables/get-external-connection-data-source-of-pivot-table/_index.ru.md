@@ -16,3 +16,4 @@ Aspose.Cells предоставляет возможность получить 
 Исходный файл, использованный во фрагменте кода, прикреплен для справки.
 
 [Исходный файл](SamplePivotTableExternalConnection.xlsx)
+{{< app/cells/assistant language="java" >}}

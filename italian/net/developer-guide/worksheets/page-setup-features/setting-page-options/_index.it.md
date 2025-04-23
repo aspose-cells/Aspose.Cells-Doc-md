@@ -190,3 +190,4 @@ Imposta la qualità di stampa dei fogli di lavoro con la proprietà [**PrintQual
 Inizia la numerazione delle pagine del foglio di lavoro utilizzando la proprietà [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) della classe [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup). La proprietà [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) imposta il numero di pagina della prima pagina del foglio di lavoro e le pagine successive sono numerate in ordine crescente.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetFirstPageNumber-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

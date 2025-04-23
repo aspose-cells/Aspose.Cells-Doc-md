@@ -16,7 +16,7 @@ Aspose.Cells fornisce una classe, [Workbook](https://reference.aspose.com/cells/
 
 La raccolta [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) fornisce diversi metodi per gestire righe o colonne in un foglio di lavoro. Alcuni di questi verranno discussi più dettagliatamente di seguito.
 ### **Impostazione dell'altezza della riga**
-È possibile impostare l'altezza di una singola riga chiamando il metodo [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\)) della raccolta [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Il metodo [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\)) richiede i seguenti parametri:
+È possibile impostare l'altezza di una singola riga chiamando il metodo [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight-int-double-) della collezione [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Il metodo [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight-int-double-) prende i seguenti parametri:
 
 - **Indice di riga**, l'indice della riga a cui si sta modificando l'altezza.
 - **Altezza della riga**, l'altezza della riga da applicare alla riga.
@@ -30,7 +30,7 @@ Per impostare la stessa altezza di riga per tutte le righe in un foglio di lavor
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingHeightAllRows-SettingHeightAllRows.java" >}}
 ## **Lavorare con colonne**
 ### **Impostazione della larghezza di una colonna**
-Impostare la larghezza di una colonna chiamando il metodo [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\)) della raccolta [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Il metodo [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\)) richiede i seguenti parametri:
+Imposta la larghezza di una colonna chiamando il metodo [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth-int-double-) della collezione [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Il metodo [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth-int-double-) prende i seguenti parametri:
 
 - **Indice di colonna**, l'indice della colonna a cui si sta modificando la larghezza.
 - **Larghezza di colonna**, la larghezza desiderata della colonna.
@@ -44,3 +44,4 @@ Per impostare la stessa larghezza di colonna per tutte le colonne in un foglio d
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingWidthOfAllColumns-SettingWidthOfAllColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -111,3 +111,4 @@ Aspose.Cells предоставляет класс, [**Workbook**](https://refer
 - [Настройки чисел](/cells/ru/net/cells-number-settings/)
 - [Получение и установка стиля ячеек](/cells/ru/net/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -5,5 +5,4 @@ weight: 100
 url: /ja/java/working-with-gridweb-client-side-script/
 ---
 
-## **このセクションに含まれる記事**
 

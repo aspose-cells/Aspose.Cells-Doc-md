@@ -14,3 +14,4 @@ Es posible proteger los libros de trabajo y las hojas de cálculo por separado. 
 Aspose.Cells for .NET 8.7.0 ha expuesto la propiedad [**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword) para detectar si una hoja de cálculo está protegida con contraseña o no. La propiedad [**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword) de tipo booleano retorna **true** si [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) está protegida con contraseña y **false** si no lo está.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CheckIfPasswordProtected-CheckIfPasswordProtected.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

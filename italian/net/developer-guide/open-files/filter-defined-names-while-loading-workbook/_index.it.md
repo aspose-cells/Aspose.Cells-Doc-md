@@ -18,3 +18,4 @@ Il codice di esempio seguente carica il [file Excel di esempio](61767860.xlsx) c
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Workbook-FilterDefinedNamesWhileLoadingWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

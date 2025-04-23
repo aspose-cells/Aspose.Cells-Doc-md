@@ -190,3 +190,4 @@ keywords: تعيين توجيه صفحة اكسل c#، تعيين عامل ال�
 ابدأ ترقيم صفحات ورق العمل باستخدام خاصية الفئة [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) والخاصية [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber). تقوم الخاصية [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) بتعيين رقم الصفحة الأولى في ورق العمل ويتم ترقيم الصفحات التالية بترتيب تصاعدي.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetFirstPageNumber-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

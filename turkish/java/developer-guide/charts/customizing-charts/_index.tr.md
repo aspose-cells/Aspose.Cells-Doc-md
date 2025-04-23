@@ -131,7 +131,7 @@ Aspose.Cells kullanarak bir grafik oluşturmak için:
 
 1. Çalışma sayfası hücrelerine biraz veri ekleyin [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) nesnesinin [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) metodu ile.
    Bu, grafik veri kaynağı olarak kullanılacaktır.
-1. [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) koleksiyonunun [*add*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int)) yöntemini, [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) nesnesine kapsüllenmiş şekilde çağırarak çalışma sayfasına bir grafik ekleyin.
+1. [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) koleksiyonunun [*add*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add-int-int-int-int-int-) metodunu çağırarak çalışma sayfasına bir grafik ekleyin, bu metod [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) nesnesine gömülüdür.
 1. Grafik türünü [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) numaralandırma ile belirtin.
    Örneğin, örnek, grafik türü olarak [**ChartType.PYRAMID**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#PYRAMID) değerini kullanır.
 1. Yeni [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) nesnesine, endeksini geçirerek [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) koleksiyonundan erişin.
@@ -166,7 +166,7 @@ Balon Grafik oluşturmak için, [**ChartType**](https://reference.aspose.com/cel
 
 #### **Veri İşaretçisi ile Çizgi Grafiği**
 
-Bir veri işaretçili çizgi grafiği oluşturmak için, [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) [**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE_WITH_DATA_MARKERS) olarak ayarlanmalı ve ayrıca, arka plan alanı, Seri İşaretçileri, Değerler & XDeğerleri gibi ekstra özellikler buna göre ayarlanmalıdır. Aşağıdaki kodu yürütme işlemi sonucunda, çalışma sayfasına bir veri işaretçili çizgi grafiği eklenir.
+Bir veri işaretçili çizgi grafiği oluşturmak için, [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) [**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE-WITH-DATA-MARKERS) olarak ayarlanmalı ve ayrıca, arka plan alanı, Seri İşaretçileri, Değerler & XDeğerleri gibi ekstra özellikler buna göre ayarlanmalıdır. Aşağıdaki kodu yürütme işlemi sonucunda, çalışma sayfasına bir veri işaretçili çizgi grafiği eklenir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-CreateLineWithDataMarkerChart-1.java" >}}
 
@@ -202,3 +202,4 @@ Desteklenen grafik türlerinin bir listesini görmek için, [Grafik Türleri](/
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="java" >}}

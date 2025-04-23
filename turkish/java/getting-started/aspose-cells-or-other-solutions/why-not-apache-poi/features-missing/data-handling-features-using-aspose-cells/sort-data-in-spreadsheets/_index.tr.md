@@ -75,3 +75,4 @@ sorter.sort(cells, ca);
 Daha fazla bilgi için [Verileri Sıralama](/java/veri-siralama)'na veya [Veri Sıralama](/cells/tr/java/veri-siralama) sayfasını ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

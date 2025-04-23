@@ -28,3 +28,4 @@ url: /zh/java/export-range-of-cells-in-a-worksheet-to-image/
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ExportRangeofCells-1.java" >}}
 
 您可能还会发现文章[将工作表转换为不同的图像格式](/cells/zh/java/converting-worksheet-to-different-image-formats/)有用。
+{{< app/cells/assistant language="java" >}}

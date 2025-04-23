@@ -13,7 +13,7 @@ Parfois, vous avez besoin de rechercher et remplacer des données spécifiques d
 
 {{% /alert %}}
 
-Aspose.Cells fournit la méthode [**FindOptions.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange(com.aspose.cells.CellArea)) pour spécifier une plage lors de la recherche de données.
+Aspose.Cells fournit la méthode [**FindOptions.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange-com.aspose.cells.CellArea-) pour spécifier une plage lors de la recherche de données.
 
 Supposons que vous voulez rechercher la chaîne **"recherche"** et la remplacer par **"remplacer"** dans la plage **E3:H6**. Dans la capture d'écran ci-dessous, la chaîne "rechercher" est visible dans plusieurs cellules, mais nous voulons la remplacer uniquement dans une plage donnée, ici surlignée en jaune.
 
@@ -32,3 +32,4 @@ Après l'exécution du code, le fichier de sortie ressemble à ce qui suit. Tout
 ## Articles Connexes
 
 - [Trouver ou rechercher des données](/cells/fr/java/find-or-search-data/)
+{{< app/cells/assistant language="java" >}}

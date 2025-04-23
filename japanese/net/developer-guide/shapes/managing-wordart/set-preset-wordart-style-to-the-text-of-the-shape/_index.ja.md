@@ -15,3 +15,4 @@ Aspose.Cellsを使用して、テキストの形に事前設定のWordArtスタ�
 ![todo:image_alt_text](set-preset-wordart-style-to-the-text-of-the-shape_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SetPresetWordArtStyle-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

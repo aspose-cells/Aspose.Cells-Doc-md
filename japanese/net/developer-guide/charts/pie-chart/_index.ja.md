@@ -43,3 +43,4 @@ url: /ja/net/creating-pie-chart-with-leader-lines/
 - [グラフのデータ整形](/cells/ja/net/data-formatting-in-charts/)
 - [グラフの外観設定](/cells/ja/net/setting-chart-appearance/)
 
+{{< app/cells/assistant language="csharp" >}}

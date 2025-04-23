@@ -52,3 +52,4 @@ fstream.close();
 更多详情，请访问[从工作表导出数据](/java/exporting-data-from-worksheets)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -25,3 +25,4 @@ Följande skärmbild visar [utdata PDF](61767757.pdf) genererad av exemplet.
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Rendering-CreatePdfBookmarkEntryForChartSheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

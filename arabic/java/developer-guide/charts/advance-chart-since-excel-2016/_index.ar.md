@@ -36,3 +36,4 @@ BoxWhisker
 
 ## **مواضيع متقدمة**
 - [إنشاء رسم بياني Waterfall](/cells/ar/java/creating-waterfall-chart/)
+{{< app/cells/assistant language="java" >}}

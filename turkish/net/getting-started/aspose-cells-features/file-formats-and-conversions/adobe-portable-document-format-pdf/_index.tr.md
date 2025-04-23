@@ -24,3 +24,4 @@ Aspose çözümü, PDF'ye dönüştürüldüğünde aşağıdaki belge özellikl
 - Birleştirilmiş Hücreler, Sayfa Sonları, Yazdırma Başlıkları
 
 Ayrıca, Aspose.Cells'in bir belgeyi PDF'ye nasıl dönüştürdüğü hakkında [detaylı özellikleri](https://docs.aspose.com/cells/net/convert-excel-workbook-to-pdf/) görebilirsiniz.
+{{< app/cells/assistant language="csharp" >}}

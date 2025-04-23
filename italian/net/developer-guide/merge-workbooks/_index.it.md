@@ -56,3 +56,4 @@ Puoi utilizzare qualsiasi cartella di lavoro di origine. Queste immagini sono so
 ## **Argomenti avanzati**
 - [Unisci più fogli di lavoro in un'unica scheda](/cells/it/net/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Unire file](/cells/it/net/merge-files/)
+{{< app/cells/assistant language="csharp" >}}

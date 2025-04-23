@@ -22,3 +22,4 @@ url: /ru/java/upgrade-to-modern-aspose-cells-component/
 1. Класс **ExcelHelper** заменен на класс **CellsHelper**. 
 
 For further reference, please check our featured demos: <https://github.com/aspose-cells/Aspose.Cells-for-Java>
+{{< app/cells/assistant language="java" >}}

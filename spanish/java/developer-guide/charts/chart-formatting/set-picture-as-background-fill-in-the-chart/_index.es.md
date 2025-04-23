@@ -20,3 +20,4 @@ El siguiente gráfico se crea con el código de muestra.
 ## Código Java para establecer una imagen como fondo de relleno en el gráfico
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetPictureAsBackgroundFillInChart-SetPictureAsBackgroundFillInChart.java" >}}
+{{< app/cells/assistant language="java" >}}

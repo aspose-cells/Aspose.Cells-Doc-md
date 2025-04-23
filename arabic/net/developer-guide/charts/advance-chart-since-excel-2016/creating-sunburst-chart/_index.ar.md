@@ -19,3 +19,4 @@ url: /ar/net/creating-sunburst-chart/
 الكود المثالي التالي يحمل [ملف Excel العيني](sunburst.xlsx) ويُولّد [ملف Excel الإخراج](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-sunburst-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

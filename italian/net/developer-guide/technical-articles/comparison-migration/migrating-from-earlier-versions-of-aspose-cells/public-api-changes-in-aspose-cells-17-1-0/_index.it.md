@@ -198,3 +198,4 @@ Aspose.Cells 17.1.0 ha esposto anche il campo Percentage per l'enumerazione Disp
 ## **API rimosse**
 ### **Rimosso la variabile di istanza m_LoadDataFilterOptions**
 Questa versione ha rimosso la variabile di istanza m_LoadDataFilterOptions. Si consiglia di utilizzare invece la proprietà LoadFilter.LoadDataFilterOptions.
+{{< app/cells/assistant language="csharp" >}}

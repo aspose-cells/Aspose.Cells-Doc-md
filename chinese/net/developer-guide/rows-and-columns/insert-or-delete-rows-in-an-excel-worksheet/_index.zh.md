@@ -20,3 +20,4 @@ Aspose.Cells提供了两种插入和删除行的方法：[**Cells.InsertRows**](
 Aspose.Cells的工作方式与Microsoft Excel相同。当添加行或列时，工作表内容向下和向右移动。当删除行或列时，工作表内容向上或向左移动。添加或删除行时，其他工作表和单元格中的引用会得到更新。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertDeleteRows-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

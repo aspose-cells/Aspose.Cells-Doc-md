@@ -12,3 +12,4 @@ url: /zh/net/using-formula-parameter-in-smart-marker-field/
 以下示例代码将公式嵌入名为TestFormula的智能标记字段，其数据源名称为MyDataSource，因此带公式参数的完整字段如 &=MyDataSource.TestFormula(公式)，执行代码后，[最终输出的Excel文件](46465047.xlsx)将在单元格A1到A5中具有公式。
 ## **示例代码**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-UsingFormulaParameterInSmartMarkerField.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

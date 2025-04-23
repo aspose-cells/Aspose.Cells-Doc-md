@@ -22,3 +22,4 @@ PDF/A - это уникальный вариант PDF, созданный дл�
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToPDFA_1a.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

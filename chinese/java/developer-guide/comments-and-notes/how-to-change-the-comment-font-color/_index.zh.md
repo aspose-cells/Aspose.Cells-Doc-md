@@ -16,3 +16,4 @@ Aspose.Cells提供了一个[**Shape.TextBody**](https://reference.aspose.com/cel
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ChangeCommentFontColor-1.java" >}}
 
 上述代码生成的[输出文件](outputChangeCommentFontColor.xlsx)作为参考附件。
+{{< app/cells/assistant language="java" >}}

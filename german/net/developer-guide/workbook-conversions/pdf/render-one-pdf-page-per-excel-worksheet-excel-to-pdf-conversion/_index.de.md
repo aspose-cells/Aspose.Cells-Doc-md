@@ -26,3 +26,4 @@ Wenn die [OnePagePerSheet](https://reference.aspose.com/cells/net/aspose.cells/p
 Wenn Ihre Arbeitsmappe Formeln enthält, ist es am besten, [Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) kurz vor dem Rendern der Arbeitsmappe in PDF aufzurufen. Dadurch wird sichergestellt, dass die formelabhängigen Werte neu berechnet werden und die richtigen Werte im PDF gerendert werden.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

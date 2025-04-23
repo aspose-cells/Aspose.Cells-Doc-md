@@ -4,8 +4,8 @@ linktitle: Blocca riquadri
 type: docs
 weight: 190
 url: /it/python-net/how-to-freeze-panes-of-excel-worksheet
-description: In questo articolo, imparerai come bloccare i riquadri dei fogli di lavoro di Excel in modo programmato utilizzando le API Aspose.Cells per Python via .NET.
-keywords: Libreria Excel Python, blocca i riquadri in Python, Finestra di blocchi in Python.
+description: In questo articolo imparerai come bloccare i riquadri dei fogli di lavoro di Excel automaticamente usando le API di Aspose.Cells per Python via .NET.
+keywords: Libreria Python per Excel, blocco riquadri, blocca finestra in Python.
 ---
 
 ## **Introduzione**
@@ -31,8 +31,8 @@ I blocchi congelati ti permettono di visualizzare i tuoi dati senza dover tenere
 
 
 
-## **Come bloccare i riquadri con la libreria Excel Aspose.Cells per Python**
-È semplice bloccare i riquadri con Aspose.Cells per Python via .NET. Per favore, utilizza il metodo [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) per bloccare i riquadri nella cella selezionata.
+## **Come bloccare i riquadri con Aspose.Cells per Python Libreria Excel**
+ È semplice bloccare i riquadri con Aspose.Cells per Python via .NET. Utilizza il metodo [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) per bloccare i riquadri alla cella selezionata.
 1. Costruire un libro di lavoro per aprire il file o creare un file vuoto.
 2. Blocchi congelati con il metodo Worksheet.FreezePanes().
 3. Salvare il file.

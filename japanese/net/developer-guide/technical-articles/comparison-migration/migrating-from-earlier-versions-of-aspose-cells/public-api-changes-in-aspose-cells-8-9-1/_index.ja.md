@@ -286,3 +286,4 @@ book.CalculateFormula(options);
 フォルダ再帰を false に設定した FontConfigs.SetFontFolders(string[], bool) メソッドを使用してください。
 ### **非推奨の CellsHelper.FontFiles プロパティ**
 代わりに FontConfigs.SetFontSources(FontSourceBase[]) メソッドを使用してください。
+{{< app/cells/assistant language="csharp" >}}

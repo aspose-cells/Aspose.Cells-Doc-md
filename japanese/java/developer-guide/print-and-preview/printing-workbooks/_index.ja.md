@@ -23,22 +23,23 @@ keywords: ワークブックの印刷、ワークシートの印刷、ワーク�
 
 ## Aspose.Cellsを使用したワークブックの印刷
 
-Aspose.Cells for Javaは[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)クラスの[**toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String))メソッドを提供します。[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String))メソッドを使用することで、プリンター名および印刷ジョブ名を指定できます。
+Aspose.Cells for Javaは[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)クラスの[**toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-)メソッドを提供します。[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-)メソッドを使用することで、プリンター名および印刷ジョブ名を指定できます。
 
 ## サンプルコード
 
 ### 選択したワークシートの印刷
 
-[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String))メソッドを使用して選択したワークシートを印刷する使用例を次に示します。
+[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-)メソッドを使用して選択したワークシートを印刷する使用例を次に示します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingSelectedWorksheet-PrintingSelectedWorksheet.java" >}}
 
 ### ワークブック全体の印刷
 
-[**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String))メソッドを使用してワークブック全体を印刷する使用例を次に示します。
+[**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter-java.lang.String-)メソッドを使用してワークブック全体を印刷する使用例を次に示します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingWholeWorkbook-PrintingWholeWorkbook.java" >}}
 
 ## 関連記事
 
 - [Aspose.Cellsを使用して印刷時にジョブまたは文書名を指定する](/cells/ja/java/specify-job-or-document-name-while-printing-with-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

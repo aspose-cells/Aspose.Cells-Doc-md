@@ -40,3 +40,4 @@ Aşağıda, bir grafik oluşturmayı ve Microsoft Excel 2007 3B biçimlendirmesi
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-Applying3DFormat.java" >}}
+{{< app/cells/assistant language="java" >}}

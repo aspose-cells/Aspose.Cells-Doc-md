@@ -18,7 +18,7 @@ Aspose.Cells bietet eine Klasse, [Workbook](https://reference.aspose.com/cells/j
 
 Die [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-Sammlung bietet mehrere Methoden zur Verwaltung von Zeilen oder Spalten in einem Arbeitsblatt, einige davon sind unten genauer erläutert.
 ### **Gruppierung von Zeilen & Spalten**
-Es ist möglich, Zeilen oder Spalten zu gruppieren, indem Sie die Methoden [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows\(int,%20int,%20boolean\)) und [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns\(int,%20int,%20boolean\)) der [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-Sammlung aufrufen. Beide Methoden nehmen die folgenden Parameter an:
+Es ist möglich, Zeilen oder Spalten durch Aufrufen der Methoden [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows-int-int-boolean-) und [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns-int-int-boolean-) der [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) Sammlung zu gruppieren. Beide Methoden nehmen folgende Parameter entgegen:
 
 - Erster Zeilen-/Spaltenindex, die erste Zeile oder Spalte in der Gruppe.
 - Letzter Zeilen-/Spaltenindex, die letzte Zeile oder Spalte in der Gruppe.
@@ -51,7 +51,7 @@ Es ist möglich zu steuern, ob Zusammenfassungsspalten rechts vom Detail angezei
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowRight-1.java" >}}
 ### **Zeilen & Spalten aufheben**
-Gruppierte Zeilen oder Spalten können durch Aufruf der Methoden [UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows\(int,%20int\)) und [UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns\(int,%20int\)) der [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-Sammlung aufgegliedert werden. Beide Methoden nehmen dieselben Parameter an:
+Ungruppieren Sie gruppierte Zeilen oder Spalten durch Aufrufen der [UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows-int-int-) und [UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns-int-int-) Methoden der [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) Sammlung. Beide Methoden verwenden die gleichen Parameter:
 
 - Erster Zeilen- oder Spaltenindex, die erste Zeile/Spalte, die aufgehoben werden soll.
 - Letzter Zeilen- oder Spaltenindex, die letzte Zeile/Spalte, die aufgehoben werden soll.
@@ -59,3 +59,4 @@ Gruppierte Zeilen oder Spalten können durch Aufruf der Methoden [UngroupRows](h
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-UngroupingRowsandColumns-UngroupingRowsandColumns.java" >}}
+{{< app/cells/assistant language="java" >}}

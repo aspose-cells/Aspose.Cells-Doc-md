@@ -16,3 +16,4 @@ Berichterstellung auf Basis von Pivot-Tabellen ist nützlich, aber anfällig fü
 Der folgende Code demonstriert diese Funktion, indem er auf eine Pivot-Tabelle von einem Blatt zugreift und dann den [**setEnableWizard**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#EnableWizard) aufruft, um dieses Flag auf **falsch** zu setzen. Die Beispieldatei der Pivot-Tabelle kann von diesem [Link](71630876.xlsx) heruntergeladen werden.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-DisablePivotTableRibbon-1.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -20,3 +20,4 @@ Aspose.Cells tillhandahåller också [**PivotTable.ShowInCompactForm()**](https:
 Följande exempelkod visar först pivot-tabellen i **kompakt form**, sedan visar den pivot-tabellen i **kontursform** och sist visar den pivot-tabellen i **tabellform**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-ChangingLayoutOfPivotTable-ChangingLayoutOfPivotTable.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

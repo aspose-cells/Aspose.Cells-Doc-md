@@ -11,9 +11,9 @@ Aspose.Cellsには埋め込み数式計算エンジンがあります。デザ�
 
 Aspose.Cellsは、Microsoft Excelの一部である多くの関数や式をサポートしています（[計算エンジンでサポートされている関数のリスト](/cells/ja/java/supported-formula-functions/)）。これらの関数はAPIまたはデザイナースプレッドシートを通じて使用できます。Aspose.Cellsは、数学、文字列、ブール、日付/時刻、統計、データベース、検索、参照関数などの大規模なセットの式をサポートしています。
 
-[**Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula)プロパティまたは[**SetFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setFormula(java.lang.String,%20com.aspose.cells.FormulaParseOptions,%20java.lang.Object))メソッドの[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)クラスを使用して、セルに数式を追加します。数式を適用するときには常に等号（=）で始め、Microsoft Excelで数式を作成するときと同様に関数パラメータを区切るためにコンマ（,）を使用します。
+[**Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula)プロパティまたは[**SetFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-)メソッドの[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)クラスを使用して、セルに数式を追加します。数式を適用するときには常に等号（=）で始め、Microsoft Excelで数式を作成するときと同様に関数パラメータを区切るためにコンマ（,）を使用します。
 
-数式の結果を計算するには、ユーザーはExcelファイルに埋め込まれたすべての数式を処理する[**CalculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions))メソッドを呼び出すか、シートに埋め込まれたすべての数式を処理する[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)メソッドを呼び出すか、またはセルの数式を処理する[**CalculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula(com.aspose.cells.CalculationOptions,%20boolean))メソッドを呼び出すかを選択できます。
+数式の結果を計算するには、ユーザーは[**CalculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula-com.aspose.cells.CalculationOptions--)メソッドを呼び出すことができます。このメソッドはExcelファイルに埋め込まれたすべての数式を処理します。あるいは、[**Worsheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)クラスの[**CalculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula-com.aspose.cells.CalculationOptions-boolean-)メソッドを呼び出してシート内のすべての数式を処理することも可能です。また、[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)クラスの[**Calculate**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#calculate-com.aspose.cells.CalculationOptions-)メソッドを呼び出して、1つのセルの数式を処理することもできます：
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-CalculatingFormulas-CalculatingFormulas.java" >}}
 
@@ -31,7 +31,7 @@ Aspose.Cellsには、埋め込みファイルからインポートされた数�
 
 時々、ワークシートに追加することなく、Microsoft Excelの数式に基づいてワークシート内にすでに存在するセルの値の結果を見つける必要があります。
 
-Aspose.Cellsの数式計算エンジンAPIを使用して、ワークシートに追加せずにそのような数式の結果を[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)から[**calculate**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula(java.lang.String,%20com.aspose.cells.CalculationOptions))まで計算できます。
+Aspose.Cellsの数式計算エンジンAPIを使用して、ワークシートに追加せずにそのような数式の結果を[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)から[**calculate**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula-java.lang.String-com.aspose.cells.CalculationOptions-)まで計算できます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DirectCalculationFormula-DirectCalculationFormula.java" >}}
 
@@ -52,7 +52,7 @@ Result of Sum(A1:A2): 50.0
 
 {{% alert color="primary" %}}
 
-デフォルトでは、計算チェーンは無効になっています。チェーンを作成するには追加の時間が必要なため、数式を計算する最初の回（[**Workbook.CalculateFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions))）は、チェーンを作成せずに数式を計算する場合と比較して、CPU処理時間とメモリをより多く消費する可能性があります。ユーザーが数式を繰り返し計算する必要がない場合は、デフォルトの動作（計算チェーンを作成せずに数式を直接計算する）がより良い方法となります。
+デフォルトでは計算チェーンは無効です。チェーンを作成するには追加の時間が必要なため、初回の数式計算（[**Workbook.CalculateFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula-com.aspose.cells.CalculationOptions--)は、チェーンなしの計算と比較してより多くのCPU処理時間とメモリを消費する可能性があります）。頻繁に数式を計算する必要がない場合、既定の動作（チェーンを作成せずに直接数式を計算すること）が最適です。
 
 {{% /alert %}}
 
@@ -70,3 +70,4 @@ Result of Sum(A1:A2): 50.0
 - [AbstarctCalculationEngineを使用して値の範囲を返す](/cells/ja/java/returning-a-range-of-values-using-abstractcalculationengine/)
 - [ICustomFunctionを使用して値の範囲を返す](/cells/ja/java/returning-a-range-of-values-using-icustomfunction/)
 - [ICustomFunction機能の使用](/cells/ja/java/using-icustomfunction-feature/)
+{{< app/cells/assistant language="java" >}}

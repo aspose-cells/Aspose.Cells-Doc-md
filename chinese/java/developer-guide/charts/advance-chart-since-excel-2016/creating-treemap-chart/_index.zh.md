@@ -19,3 +19,4 @@ url: /zh/java/creating-treemap-chart/
 以下示例代码加载 [样本 Excel 文件](treemap.xlsx) 并生成 [输出 Excel 文件](out.xlsx)。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "create-treemap-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

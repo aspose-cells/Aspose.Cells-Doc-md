@@ -9,3 +9,4 @@ Esta sección tiene los siguientes temas:
 
 - [Convertir hoja de cálculo a archivo de imagen por página](/cells/es/net/converting-worksheet-to-image-file-by-page/)
 - [Convertir hoja de cálculo a imagen en Aspose.Cells](/cells/es/net/converting-worksheet-to-image-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

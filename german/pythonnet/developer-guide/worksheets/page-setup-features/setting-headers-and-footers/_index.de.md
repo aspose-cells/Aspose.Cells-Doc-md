@@ -3,8 +3,8 @@ title: Festlegen von Kopf und Fußzeilen
 type: docs
 weight: 30
 url: /de/python-net/setting-headers-and-footers/
-description: Dieser Artikel erklärt, wie man programmgesteuert ein Bild in den Kopf und Fußzeilen von Excel Arbeitsblättern einfügt, indem man die Kopf und Fußzeile mit Skriptbefehlen mithilfe der Aspose.Cells für Python via .NET API einstellt.
-keywords: Python Excel Bibliothek, Python Bild in Excel Kopf und Fußzeile einfügen, Kopf und Fußzeilen Skriptbefehle mit Python einstellen.
+description: Dieser Artikel erklärt, wie man programmatisch ein Bild in den Kopf und Fußbereich von Excel Arbeitsblättern einfügt, indem man den Kopf und Fußbereich mit Skriptbefehlen unter Verwendung der Aspose.Cells for Python via .NET API setzt.
+keywords: Python Excel Bibliothek, Python Bild in Excel Kopf und Fußzeile einfügen, Skriptbefehle zum Festlegen des Excel Kopf und Fußbereichs mit Python.
 ---
 
 {{% alert color="primary" %}}
@@ -15,9 +15,9 @@ Header und Fußzeilen sind die Zeilen mit Text, die unterhalb des oberen Randes 
 
 ## **Kopf- und Fußzeilen einstellen**
 
-Aspose.Cells für Python via .NET ermöglicht es Ihnen, Kopf- und Fußzeilen zu Arbeitsblättern zur Laufzeit hinzuzufügen, aber wir empfehlen, Kopf- und Fußzeilen manuell in einer vordefinierten Datei für den Druck einzustellen. Sie können Microsoft Excel als GUI-Tool verwenden, um Kopf- und Fußzeilen einzustellen und somit Zeit und Entwicklungsaufwand zu sparen. Aspose.Cells für Python via .NET kann die Datei importieren und die Einstellungen speichern.
+Aspose.Cells for Python via .NET ermöglicht es, Überschriften und Fußzeilen während der Laufzeit zu hinzufügen, aber wir empfehlen, Überschriften und Fußzeilen manuell in einer vordefinierten Datei zum Drucken festzulegen. Sie können Microsoft Excel als GUI-Tool verwenden, um Überschriften und Fußzeilen einzustellen und so Aufwand und Entwicklungszeit zu sparen. Aspose.Cells for Python via .NET kann die Datei importieren und die Einstellungen speichern.
 
-Um Kopf- und Fußzeilen zur Laufzeit hinzuzufügen, bietet Aspose.Cells für Python via .NET spezielle API-Aufrufe und Skriptbefehle zur Formatierung von Kopf- und Fußzeilen.
+Um Überschriften und Fußzeilen zur Laufzeit hinzuzufügen, bietet Aspose.Cells for Python via .NET spezielle API-Aufrufe und Skriptbefehle zum Formatieren von Überschriften und Fußzeilen.
 
 ### **Skriptbefehle**
 
@@ -36,7 +36,7 @@ Skriptbefehle sind besondere Befehle, die es ermöglichen, die Formatierung von 
 |&"\<FontName>, \<FontStyle>"|Stellt Schriftartnamen mit Stil dar. Beispiel: &"Arial,Fett"|
 |&\<FontSize>|Stellt die Schriftgröße dar. Zum Beispiel: “&14abc”. Wenn jedoch dieser Befehl von einer reinen Zahl gefolgt wird, die im Kopf gedruckt werden soll, sollte diese durch ein Leerzeichen von der Schriftgröße getrennt werden. Zum Beispiel: “&14 123”.|
 
-### **Wie man Kopf- und Fußzeilen einstellt**
+### **So setzen Sie Überschriften und Fußzeilen**
 
 Die Klasse [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) stellt zwei Methoden bereit, [**set_header**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_header/#int-str) und [**set_footer**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_footer/#int-str), die zum Hinzufügen von Header und Fußzeilen zu einem Arbeitsblatt verwendet werden. Diese Methoden nehmen nur zwei Parameter:
 
@@ -45,7 +45,7 @@ Die Klasse [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetHeadersAndFooters-1.py" >}}
 
-### **Wie man ein Bild in eine Kopf- oder Fußzeile einfügt**
+### **So fügen Sie ein Bild in eine Kopf- oder Fußzeile ein**
 
 Die Klasse [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) hat zwei zusätzliche Methoden, [**set_header_picture**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_header_picture/#int-bytes) und [**set_footer_picture**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/set_footer_picture/#int-bytes), die zum Hinzufügen von Bildern in den Header und die Fußzeile verwendet werden. Diese Methoden nehmen die Parameter:
 

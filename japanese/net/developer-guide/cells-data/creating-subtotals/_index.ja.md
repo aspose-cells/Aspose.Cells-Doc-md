@@ -35,3 +35,4 @@ Aspose.Cellsは、Microsoft Excelファイルを表す[**Workbook**](https://ref
 
 ## **高度なトピック**
 - [サブトータルの適用と概要の方向を詳細の下に変更](/cells/ja/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+{{< app/cells/assistant language="csharp" >}}

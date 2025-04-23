@@ -42,3 +42,4 @@ Aspose.Cells のAPIでは、スプレッドシートでサブトータルのカ�
 次のコードは、円グラフを含む既存のスプレッドシートを読み込み、上記で作成した**CustomSettings** クラスを使用して画像にレンダリングします。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomTextForLabels-UsingGlobalizationSettings.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

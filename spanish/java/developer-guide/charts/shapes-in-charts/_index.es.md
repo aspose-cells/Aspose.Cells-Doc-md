@@ -16,7 +16,7 @@ A veces es necesario insertar objetos de dibujo como etiquetas, cuadros de texto
 
 Las etiquetas proporcionan un medio para dar información a los usuarios sobre el contenido de la hoja de cálculo. Aspose.Cells le permite agregar y manipular etiquetas incluso en gráficos.
 
-La clase [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) proporciona un método llamado [**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart(int,%20int,%20int,%20int)), utilizado para agregar un control de etiqueta a un gráfico. A continuación se muestra una lista de los parámetros utilizados para el método:
+La clase [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) proporciona un método llamado [**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart-int-int-int-int-), utilizado para agregar un control de etiqueta a un gráfico. A continuación se muestra una lista de los parámetros utilizados para el método:
 
 - **arriba** – el desplazamiento vertical de la etiqueta desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.
 - **izquierda** – el desplazamiento horizontal de la etiqueta desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.
@@ -46,7 +46,7 @@ A continuación se muestra el código original para agregar una etiqueta al grá
 
 ## **Añadiendo un Control de Cuadro de Texto al Gráfico**
 
-Una forma de resaltar información importante en un informe es mediante el uso de un cuadro de texto. Por ejemplo, introducir texto para resaltar el nombre de la empresa o indicar la región geográfica con mayores ventas. La clase [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) proporciona un método llamado [**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart(int,%20int,%20int,%20int)), que se utiliza para añadir un control de cuadro de texto a un gráfico. A continuación se muestra la lista de parámetros utilizados para el método:
+Una forma de resaltar información importante en un informe es mediante el uso de un cuadro de texto. Por ejemplo, introducir texto para resaltar el nombre de la empresa o indicar la región geográfica con mayores ventas. La clase [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) proporciona un método llamado [**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart-int-int-int-int-), que se utiliza para añadir un control de cuadro de texto a un gráfico. A continuación se muestra la lista de parámetros utilizados para el método:
 
 - **arriba** - el desplazamiento vertical del cuadro de texto desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.
 - **left** – el desplazamiento vertical del cuadro de texto desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.
@@ -69,7 +69,7 @@ A continuación se muestra el código original para agregar un cuadro de texto a
 
 Aspose.Cells te permite insertar imágenes en un gráfico. Por ejemplo, agregar una imagen para resaltar o dar más significado a un gráfico o sus contenidos, o insertar un archivo de imagen de marca.
 
-La clase [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) proporciona un método llamado [**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart(int,%20int,%20java.io.InputStream,%20int,%20int)), que se utiliza para añadir un objeto de imagen al gráfico. A continuación se muestra la lista de parámetros utilizados para el método:
+La clase [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) proporciona un método llamado [**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart-int-int-java.io.InputStream-int-int-), que se utiliza para añadir un objeto de imagen al gráfico. A continuación se muestra la lista de parámetros utilizados para el método:
 
 - **arriba** - el desplazamiento vertical de la imagen desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.
 - **izquierda** - el desplazamiento vertical de la imagen desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.
@@ -100,3 +100,4 @@ La siguiente imagen muestra la hoja de gráfico con la casilla de verificación 
 El [archivo de salida](InsertCheckboxInChartSheet_out.xlsx) generado por el siguiente fragmento de código se adjunta para su referencia.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-InsertCheckboxInChartSheet-1.java" >}}
+{{< app/cells/assistant language="java" >}}

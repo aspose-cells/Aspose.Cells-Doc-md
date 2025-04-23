@@ -23,3 +23,4 @@ Nedanstående kodsnutt visar användningen av Aspose.Cells for .NET API för att
 
 - [Skapa diagram](/cells/sv/net/creating-charts/)
 - [Anpassning av diagram](/cells/sv/net/customizing-charts/)
+{{< app/cells/assistant language="csharp" >}}

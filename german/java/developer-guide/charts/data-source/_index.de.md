@@ -21,7 +21,7 @@ Es gibt zwei Arten von Daten, mit denen Sie beim Arbeiten an Diagrammen mit Aspo
 
 ### **Diagrammdaten**
 
-Diagrammdaten sind die Daten, die wir als Datenquelle für unsere Diagramme verwenden. Wir können einen Bereich der Zellen (die Diagrammdaten enthalten) hinzufügen, indem wir die Methode [**Add**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add(java.lang.Object)) des [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)-Objekts aufrufen.
+Diagrammdaten sind die Daten, die wir als Datenquelle für unsere Diagramme verwenden. Wir können einen Bereich der Zellen (die Diagrammdaten enthalten) hinzufügen, indem wir die Methode [**Add**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add-java.lang.Object-) des [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)-Objekts aufrufen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsData-SettingChartsData.java" >}}
 
@@ -40,3 +40,4 @@ Kategoriendaten werden zur Beschriftung von Diagrammdaten verwendet und können 
 - [Einfacher Weg zur Einrichtung von Diagrammen mit der Methode Chart.setChartDataRange](/cells/de/java/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [Typen von X- und Y-Werten von Punkten in Diagrammserien herausfinden](/cells/de/java/find-type-of-x-and-y-values-of-points-in-chart-series/)
 - [Setzen des Werteformatcodes der Diagrammserie](/cells/de/java/set-the-values-format-code-of-chart-series/)
+{{< app/cells/assistant language="java" >}}

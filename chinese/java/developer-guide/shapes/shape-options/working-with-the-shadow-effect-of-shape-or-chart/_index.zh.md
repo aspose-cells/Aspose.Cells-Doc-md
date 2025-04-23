@@ -23,3 +23,4 @@ Aspose.Cells提供[Shape.ShadowEffect](https://reference.aspose.com/cells/java/c
 以下示例代码加载 [源 Excel 文件](5472531.xlsx) 并访问第一个工作表中的第一个形状，设置 [Shape.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect) 的子属性，然后将工作簿保存在 [输出 Excel 文件](5472530.xlsx)中。
 ## **示例代码**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithShadowEffect-WorkingWithShadowEffect.java" >}}
+{{< app/cells/assistant language="java" >}}

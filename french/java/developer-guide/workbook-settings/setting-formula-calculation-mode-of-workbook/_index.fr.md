@@ -23,7 +23,7 @@ Pour définir le mode de calcul des formules dans Microsoft Excel :
 Aspose.Cells vous permet également de définir le **Mode de calcul des formules** en utilisant la propriété [**FormulaSettings.CalculationMode**](https://reference.aspose.com/cells/java/com.aspose.cells/formulasettings#CalculationMode). Vous pouvez lui attribuer l'énumération [**CalcModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/CalcModeType) qui a l'une des valeurs suivantes :
 
 - [**CalcModeType.AUTOMATIC**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC)
-- [**CalcModeType.AUTOMATIC_EXCEPT_TABLE**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC_EXCEPT_TABLE)
+- [**CalcModeType.AUTOMATIC_EXCEPT_TABLE**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC-EXCEPT-TABLE)
 - [**CalcModeType.MANUAL**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#MANUAL)
 
 Le code d'exemple suivant crée d'abord un classeur, puis définit le mode de calcul des formules sur **Manuel** et enregistre le classeur en tant que fichier Excel de sortie sur le disque.
@@ -33,3 +33,4 @@ Le code d'exemple suivant crée d'abord un classeur, puis définit le mode de ca
 ![todo:image_alt_text](setting-formula-calculation-mode-of-workbook_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetFormulaCalculationMode-SetFormulaCalculationMode.java" >}}
+{{< app/cells/assistant language="java" >}}

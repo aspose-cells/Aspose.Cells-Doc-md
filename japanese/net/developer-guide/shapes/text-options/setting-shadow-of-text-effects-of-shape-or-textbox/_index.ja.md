@@ -22,3 +22,4 @@ url: /ja/net/setting-shadow-of-text-effects-of-shape-or-textbox/
 次のコードスニペットは、ShapeまたはTextBoxのテキストエフェクトの影を設定するための[**FontSetting.TextOptions.Shadow.PresetType.PresetType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype)プロパティの使用方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SettingTextEffectsShadowOfShapeOrTextbox-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

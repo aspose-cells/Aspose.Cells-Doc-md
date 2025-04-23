@@ -169,3 +169,4 @@ The following sample code explains the use of the HTML property of the Smart Mar
 サンプルコードと詳細な説明については、この記事を参照してください。
 
 - [スマートマーカーを使用してデータをマージする際の通知の取得](/cells/ja/java/getting-notifications-while-merging-data-with-smart-markers/)
+{{< app/cells/assistant language="java" >}}

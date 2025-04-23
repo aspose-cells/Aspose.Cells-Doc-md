@@ -11,7 +11,7 @@ url: /ja/java/copy-range-data-with-style/
 
 {{% /alert %}} 
 ## **スタイルで範囲データをコピー**
-Aspose.Cellsは、範囲を操作するためのクラスやメソッドを提供しており、たとえば、[createRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\))、[StyleFlag](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag)、[applyStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#applyStyle\(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag\))などがあります。
+Aspose.Cellsは、範囲を操作するためのさまざまなクラスとメソッドを提供します。例として、[createRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-)、[StyleFlag](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag)、[applyStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-)などがあります。
 
 この例:
 
@@ -25,3 +25,4 @@ Aspose.Cellsは、範囲を操作するためのクラスやメソッドを提�
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyRangeDataWithStyle-CopyRangeDataWithStyle.java" >}}
 
+{{< app/cells/assistant language="java" >}}

@@ -26,3 +26,4 @@ Följande kodexempel visar hur man tillämpar över- och understreck på text.
 ### C#-kod för att tillämpa understreck på text
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplySuperscriptAndSubscript-SettingSubscriptEffect-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

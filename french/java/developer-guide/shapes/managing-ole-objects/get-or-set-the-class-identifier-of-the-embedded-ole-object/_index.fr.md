@@ -23,3 +23,4 @@ Il s'agit de la sortie console du code d'exemple ci-dessus lorsqu'il est exécut
  DC020317-E6E2-4A62-B9FA-B3EFE16626F4
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

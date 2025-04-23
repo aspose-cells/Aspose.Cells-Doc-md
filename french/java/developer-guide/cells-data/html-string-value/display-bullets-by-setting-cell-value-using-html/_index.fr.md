@@ -28,3 +28,4 @@ La capture d'écran suivante montre la sortie du code d'exemple ci-dessus.
 ## Articles Connexes
 
 - [Ajouter du texte enrichi HTML à l'intérieur de la cellule](/cells/fr/java/adding-html-rich-text-inside-the-cell/)
+{{< app/cells/assistant language="java" >}}

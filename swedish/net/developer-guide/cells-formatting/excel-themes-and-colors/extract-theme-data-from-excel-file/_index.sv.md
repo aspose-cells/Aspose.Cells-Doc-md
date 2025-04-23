@@ -20,3 +20,4 @@ Du kan tillämpa tema på din arbetsbok med hjälp av Microsoft Excel via komman
 Följande kodexempel extraherar temanamnet som tillämpats på källarbete bok och sedan extraherar det temafärg som tillämpas på cell A1 och temafärg som tillämpas på cellens nedre kant.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ExtractThemeData-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

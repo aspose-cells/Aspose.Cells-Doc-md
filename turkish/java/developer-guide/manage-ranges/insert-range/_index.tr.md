@@ -13,7 +13,7 @@ Excel'de bir aralığı seçebilir, ardından sağa veya aşağıya diğer veril
 
 ## **Aspose.Cells Kullanarak Aralıkları Eklemek**
 
-Aspose.Cells, [Cells.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange(com.aspose.cells.CellArea,%20int)) yöntemini bir menzil eklemek için sağlar.
+Aspose.Cells, [Cells.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange-com.aspose.cells.CellArea-int-) metodunu sağlar ve bu yöntem bir aralık ekler.
 
 ## **Aralıkları Ekleyip Hücreleri Sağa Kaydırmak**
 
@@ -27,3 +27,4 @@ Aspose.Cells ile aşağıdaki kodları kullanarak bir aralık ekleyin ve hücrel
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Insert-Range-Down.java" >}}
 
+{{< app/cells/assistant language="java" >}}

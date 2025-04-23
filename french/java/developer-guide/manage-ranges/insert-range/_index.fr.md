@@ -13,7 +13,7 @@ Dans Excel, vous pouvez sélectionner une plage, puis insérer une plage et dép
 
 ## **Insérer des plages en utilisant Aspose.Cells**
 
-Aspose.Cells fournit la méthode [Cells.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange(com.aspose.cells.CellArea,%20int)) pour insérer une plage.
+Aspose.Cells fournit la méthode [Cells.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange-com.aspose.cells.CellArea-int-) pour insérer une plage.
 
 ## **Insérer des plages et déplacer les cellules vers la droite**
 
@@ -27,3 +27,4 @@ Insérez une plage et décalez les cellules vers le bas comme les codes suivants
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Insert-Range-Down.java" >}}
 
+{{< app/cells/assistant language="java" >}}

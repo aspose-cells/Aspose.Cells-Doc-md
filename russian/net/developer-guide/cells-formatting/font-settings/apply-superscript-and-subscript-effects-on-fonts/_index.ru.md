@@ -26,3 +26,4 @@ Aspose.Cells предоставляет возможность применят�
 ### Код C#, чтобы применить эффект подстрочного текста
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplySuperscriptAndSubscript-SettingSubscriptEffect-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

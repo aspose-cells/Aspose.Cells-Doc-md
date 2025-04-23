@@ -59,7 +59,7 @@ Das folgende Codebeispiel erläutert, wie eine gesamte Arbeitsmappe in Textforma
 
 Beim Ausführen des Codes werden die Daten aller Blätter in der Arbeitsmappe in das TXT-Format konvertiert
 
-Sie können das gleiche Beispiel ändern, um Ihre Datei in CSV zu speichern. Standardmäßig ist [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) ein Komma, geben Sie also keinen Separator an, wenn Sie im CSV-Format speichern. Beachten Sie: Wenn Sie die Evaluierungsversion verwenden und selbst wenn die [**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/) Eigenschaft auf true gesetzt ist, exportiert das Programm trotzdem nur ein Arbeitsblatt.
+Sie können das gleiche Beispiel anpassen, um Ihre Datei als CSV zu speichern. Standardmäßig ist [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) das Komma, also geben Sie keinen Trennzeichen an, wenn Sie im CSV-Format speichern. Bitte beachten Sie: Wenn Sie die Evaluierungsversion verwenden und selbst wenn die Eigenschaft [**TxtSaveOptions.ExportAllSheets**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/exportallsheets/) auf true gesetzt ist, exportiert das Programm weiterhin nur ein Arbeitsblatt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 
@@ -98,3 +98,4 @@ Aspose.Cells unterstützt das Speichern von Dateien als JSON oder XML.
 - [Anpassen des Arbeitsmappe-Komprimierungsgrads](/cells/de/net/adjust-workbook-compression-level/)
 - [Arbeitsmappe im Strict Open XML-Tabellenkalkulationsformat speichern](/cells/de/net/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [Speichern der Datei im Antwortobjekt](/cells/de/net/saving-file-to-response-object/)
+{{< app/cells/assistant language="csharp" >}}

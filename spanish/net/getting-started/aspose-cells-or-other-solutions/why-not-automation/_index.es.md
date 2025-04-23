@@ -74,3 +74,4 @@ Este artículo ha cubierto los puntos clave sobre por qué los componentes de As
 
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

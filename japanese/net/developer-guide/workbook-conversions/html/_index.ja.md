@@ -52,3 +52,5 @@ MHTMLは通常のHTMLと外部リソース（つまり、通常はリンクさ�
 - [スプレッドシートをHTMLにレンダリングする際のデフォルトフォントを設定する](/cells/ja/net/set-default-font-while-rendering-spreadsheet-to/)
 - [出力HTML内の文字列をHtmlCrossTypeを使用してクロスする方法を指定](/cells/ja/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
 - [HTMLをエクセルブックにロードする際にDIVタグのレイアウトをサポート](/cells/ja/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
+{{< app/cells/assistant language="csharp" >}}
+- [次のサンプルコードは、{0} 属性の使用例を示しています。このプロパティがTrueに設定されていない場合の効果もスクリーンショットで示しています。[サンプルExcelファイル](50528260.xlsx)と生成された[出力HTML](50528261.zip)をダウンロードして参照してください。](/cells/ja/net/enable-css-custom-properties-while-saving-to-html/)

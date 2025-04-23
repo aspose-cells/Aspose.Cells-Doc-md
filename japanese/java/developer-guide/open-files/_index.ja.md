@@ -67,7 +67,7 @@ Microsoft Excel 95ファイルを開くには、[**Workbook**](https://reference
 
 ### **Microsoft Excel 97またはそれ以降のバージョンXLSファイルの開閉**
 
-Microsoft Excel XLS 97またはそれ以降のバージョンのXLSファイルを開くには、[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)インスタンスをパスまたはテンプレートファイルのストリームでインスタンス化します。または、[**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)メソッドを使用して[**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)列挙型の[**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003)値を選択します。
+Microsoft Excel XLS 97またはそれ以降のバージョンのXLSファイルを開くには、[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)インスタンスをパスまたはテンプレートファイルのストリームでインスタンス化します。または、[**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)メソッドを使用して[**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)列挙型の[**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL-97-TO-2003)値を選択します。
 
 #### **例**
 
@@ -89,7 +89,7 @@ Aspose.Cellsを使用すると、SpreadsheetML、CSV、タブ区切りファイ�
 
 SpreadsheetMLファイルは、スプレッドシートのすべての情報（書式設定、数式など）を含むスプレッドシートのXML表現です。Microsoft Excel XP以降、Microsoft ExcelにXMLエクスポートオプションが追加され、スプレッドシートをSpreadsheetMLファイルにエクスポートできます。
 
-SpreadsheetMLファイルを開くには、[**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)クラスを使用して[**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)列挙型の[**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET_ML)値を選択します。
+SpreadsheetMLファイルを開くには、[**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)クラスを使用して[**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)列挙型の[**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET-ML)値を選択します。
 
 #### **例**
 
@@ -181,3 +181,4 @@ FODSファイルは、圧縮なしのOpenDocument XML形式で保存されたス
 - [複数のエンコーディングを持つCSVファイルの読み込み](/cells/ja/java/reading-csv-file-with-multiple-encodings/)
 - [時間がかかりすぎる場合はInterruptMonitorを使用して変換または読み込みを停止してください](/cells/ja/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [LightCells APIの使用](/cells/ja/java/using-lightcells-api/)
+{{< app/cells/assistant language="java" >}}

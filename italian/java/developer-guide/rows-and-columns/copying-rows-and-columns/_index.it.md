@@ -23,15 +23,15 @@ Se fai clic su **Incolla** sulla barra degli strumenti **Standard** o premi **CT
 
 ## **Copia di una singola riga**
 
-Aspose.Cells fornisce il metodo [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) della classe [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Questo metodo copia tutti i tipi di dati inclusi formule, valori, commenti, formati di celle, celle nascoste, immagini e altri oggetti grafici dalla riga di origine alla riga di destinazione.
+Aspose.Cells fornisce il metodo [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-) della classe [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Questo metodo copia tutti i tipi di dati inclusi formule, valori, commenti, formati delle celle, celle nascoste, immagini e altri oggetti grafici dalla riga di origine a quella di destinazione.
 
-Il metodo [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) richiede i seguenti parametri:
+Il metodo [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-) prende i seguenti parametri:
 
 - l'oggetto [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) di origine,
 - l'indice della riga di origine e
 - l'indice della riga di destinazione.
 
-Usa questo metodo per copiare una riga all'interno di un foglio, o verso un altro foglio. Il metodo [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) funziona in modo simile a Microsoft Excel. Quindi, ad esempio, non è necessario impostare esplicitamente l'altezza della riga di destinazione, tale valore viene copiato anche.
+Usa questo metodo per copiare una riga all'interno di un foglio, o su un altro foglio. Il metodo [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-) funziona in modo simile a Microsoft Excel. Quindi, ad esempio, non è necessario impostare esplicitamente l'altezza della riga di destinazione, quel valore viene copiato anch'esso.
 
 Nell'esempio seguente viene mostrato come copiare una riga in un foglio di lavoro. Utilizza un file modello di Microsoft Excel e copia la seconda riga (completa di dati, formattazione, commenti, immagini e così via) e la incolla nella dodicesima riga nello stesso foglio di lavoro.
 
@@ -56,7 +56,7 @@ Quando si copiano le righe, è importante notare immagini correlate, grafici o a
 
 ## **Copia di più righe**
 
-È inoltre possibile copiare più righe su una nuova destinazione utilizzando il metodo [**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int)) che richiede un parametro aggiuntivo di tipo integer per specificare il numero di righe di origine da copiare.
+È inoltre possibile copiare più righe su una nuova destinazione utilizzando il metodo [**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-) che richiede un parametro aggiuntivo di tipo integer per specificare il numero di righe di origine da copiare.
 
 Di seguito è presentato uno snapshot del foglio di calcolo di input contenente 3 righe di dati, mentre il frammento di codice fornito di seguito copia tutte e 3 le righe in una nuova posizione a partire dalla 7ª riga.
 
@@ -70,15 +70,15 @@ Ecco la visualizzazione del foglio di calcolo risultante dopo l'esecuzione del f
 
 ## **Copia di una singola colonna**
 
-Aspose.Cells fornisce il metodo [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) della classe [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells), questo metodo copia tutti i tipi di dati, inclusi formule - con riferimenti aggiornati - e valori, commenti, formati delle celle, celle nascoste, immagini ed altri oggetti disegnati dalla colonna di origine a quella di destinazione.
+Aspose.Cells fornisce il metodo [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn-com.aspose.cells.Cells-int-int-) della classe [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells), questo metodo copia tutti i tipi di dati, comprese le formule - con riferimenti aggiornati - e i valori, commenti, formati celle, celle nascoste, immagini e altri oggetti di disegno dalla colonna di origine alla colonna di destinazione.
 
-Il metodo [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) accetta i seguenti parametri:
+Il metodo [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn-com.aspose.cells.Cells-int-int-) richiede i seguenti parametri:
 
 - l'oggetto [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) di origine,
 - l'indice della colonna di origine e
 - l'indice della colonna di destinazione.
 
-Usa il metodo [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) per copiare una colonna all'interno di un foglio, o verso un altro foglio.
+Utilizzare il metodo [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn-com.aspose.cells.Cells-int-int-) per copiare una colonna all’interno di un foglio o in un altro foglio.
 
 Questo esempio copia una colonna da un foglio di lavoro e la incolla in un foglio di lavoro in un altro documento.
 
@@ -90,7 +90,7 @@ Questo esempio copia una colonna da un foglio di lavoro e la incolla in un fogli
 
 ## **Copia di più colonne**
 
-Similmente al metodo [**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int)), le API di Aspose.Cells forniscono anche il metodo [**Cells.copyColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns(com.aspose.cells.Cells,%20int,%20int,%20int)) per copiare più colonne di origine in una nuova posizione.
+Similmente al metodo [**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow-com.aspose.cells.Cells-int-int-), le API di Aspose.Cells forniscono anche il metodo [**Cells.copyColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns-com.aspose.cells.Cells-int-int-int-) per copiare più colonne di origine in una nuova posizione.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyingMultipleColumns-CopyingMultipleColumns.java" >}}
 
@@ -102,9 +102,10 @@ Ecco come si presentano i fogli di calcolo di origine e risultante in Excel.
 
 
 ## **Incollaggio di righe/colonne con opzioni di incolla**
-Aspose.Cells fornisce ora [PasteOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PasteOptions) durante l'utilizzo delle funzioni [CopyRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRows\(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.CopyOptions,%20com.aspose.cells.PasteOptions\)) e [CopyColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns\(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.PasteOptions\)). Consente di impostare opportune opzioni di incolla simili a Excel.
+Aspose.Cells ora fornisce [PasteOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PasteOptions) durante l’uso delle funzioni [CopyRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRows-com.aspose.cells.Cells-int-int-int-com.aspose.cells.CopyOptions-com.aspose.cells.PasteOptions-) e [CopyColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns-com.aspose.cells.Cells-int-int-int-com.aspose.cells.PasteOptions-). Permette di impostare le opzioni di incolla appropriate, simili a Excel.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-PastingDataWithPasteOptions.java" >}}
 
+{{< app/cells/assistant language="java" >}}

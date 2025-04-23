@@ -28,8 +28,15 @@ Se si desidera esportare più fogli desiderati/personalizzati in PDF, è possibi
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-MultiSheetsToPdf.java" >}}
 
+## **Riordina i fogli di lavoro in PDF**
+
+Se vuoi riordinare i fogli (ad esempio in ordine inverso) in un PDF senza modificare il file di origine, puoi farlo passando gli indici dei fogli riordinati all'opzione [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setSheetSet-com.aspose.cells.SheetSet-).
+
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-ReorderSheetsToPdf.java" >}}
+
 {{% alert color="primary" %}} 
 
 Se il foglio di calcolo contiene formule, è meglio chiamare [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook/#calculateFormula--) proprio prima di rendere il foglio di calcolo in formato PDF. In questo modo si garantisce il ricalcolo dei valori dipendenti dalle formule e la visualizzazione dei valori corretti nel PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -67,7 +67,7 @@ Per aprire i file Microsoft Excel 95, istanziare l'istanza [**Workbook**](https:
 
 ### **Apertura di file XLS di Microsoft Excel 97 o versioni successive**
 
-Per aprire file XLS di Microsoft Excel XLS 97 o versioni successive, istanzia l'istanza [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) con il percorso o lo stream del file modello. Oppure utilizza il metodo [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) e seleziona il valore [**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003) nell'enumerazione [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat).
+Per aprire file XLS di Microsoft Excel XLS 97 o versioni successive, istanzia l'istanza [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) con il percorso o lo stream del file modello. Oppure utilizza il metodo [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) e seleziona il valore [**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL-97-TO-2003) nell'enumerazione [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat).
 
 #### **Esempio**
 
@@ -89,7 +89,7 @@ Aspose.Cells consente ai programmatori di aprire file di fogli elettronici con d
 
 I file SpreadsheetML sono le rappresentazioni XML dei fogli elettronici, includendo tutte le informazioni sul foglio elettronico come formattazione, formule, ecc. Dal Microsoft Excel XP, è stata aggiunta un'opzione di esportazione XML a Microsoft Excel che esporta i fogli elettronici in file SpreadsheetML.
 
-Per aprire file SpreadsheetML, utilizza la classe [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) e seleziona il valore [**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET_ML) nell'enumerazione [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat).
+Per aprire file SpreadsheetML, utilizza la classe [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) e seleziona il valore [**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET-ML) nell'enumerazione [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat).
 
 #### **Esempio**
 
@@ -181,3 +181,4 @@ Il file FODS è un foglio elettronico salvato in formato OpenDocument XML senza 
 - [Lettura del file CSV con codifiche multiple](/cells/it/java/reading-csv-file-with-multiple-encodings/)
 - [Interrompere la conversione o il caricamento utilizzando InterruptMonitor quando sta impiegando troppo tempo](/cells/it/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [Utilizzo di API LightCells](/cells/it/java/using-lightcells-api/)
+{{< app/cells/assistant language="java" >}}

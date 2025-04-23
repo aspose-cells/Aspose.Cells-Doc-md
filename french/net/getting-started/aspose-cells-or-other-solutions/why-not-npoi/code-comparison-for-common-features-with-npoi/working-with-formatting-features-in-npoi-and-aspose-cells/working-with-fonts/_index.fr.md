@@ -102,3 +102,4 @@ Téléchargez le formulaire **Travailler avec les polices** à partir de l'un de
 Pour plus de détails, visitez [Fonctionnalités de formatage des données](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

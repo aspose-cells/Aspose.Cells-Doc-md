@@ -288,3 +288,4 @@ book.Save(dir  + "output.xls");
 ## **重命名的API**
 ### **重命名为Workbook.RemoveDigitallySign方法**
 Workbook.RemoveDigitallySign方法已更名为Workbook.RemoveDigitalSignature。
+{{< app/cells/assistant language="csharp" >}}

@@ -12,3 +12,4 @@ url: /ru/net/smart-markers-in-aspose-cells/
 - [Функция умных маркеров](/cells/ru/net/smart-markers-feature/)
 - [Использование анонимных типов или пользовательских объектов](/cells/ru/net/using-anonymous-types-or-custom-objects/)
 - [Использование вложенных объектов](/cells/ru/net/using-nested-objects/)
+{{< app/cells/assistant language="csharp" >}}

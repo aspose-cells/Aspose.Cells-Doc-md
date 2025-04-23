@@ -50,3 +50,4 @@ Al fine di mantenere la dimostrazione semplice da comprendere, creeremo il Workb
 1. Salvare il risultato su disco.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UsingDynamicFormulas-UsingDynamicFormulas.java" >}}
+{{< app/cells/assistant language="java" >}}

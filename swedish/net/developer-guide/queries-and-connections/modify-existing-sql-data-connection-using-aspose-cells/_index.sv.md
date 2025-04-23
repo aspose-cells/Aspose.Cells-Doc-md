@@ -23,3 +23,4 @@ Det följande exempel illustrerar användningen av Aspose.Cells för att ändra 
 - [Utdata-Excel-fil](5112356.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ModifyingExistingDataConnection-ModifyingExistingDataConnection.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

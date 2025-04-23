@@ -35,3 +35,4 @@ Aspose.Cells还允许在运行时管理图表的轴，使用 [Axis](https://refe
 - [更改刻度标签方向](/cells/zh/java/change-tick-label-direction/)
 - [确定图表中存在哪些轴](/cells/zh/java/determine-which-axis-exists-in-the-chart/)
 - [处理Microsoft Excel的图表轴的自动单位](/cells/zh/java/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
+{{< app/cells/assistant language="java" >}}

@@ -13,7 +13,7 @@ url: /ar/java/managing-pictures/
 
 إضافة الصور إلى جدول بيانات سهل للغاية. فإنه يستغرق سوى بضعة أسطر من الشيفرة.
 
-قم ببساطة باستدعاء الطريقة [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) من مجموعة [**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) (مغلفة في كائن [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)). تأخذ الطريقة [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) المعلمات التالية:
+قم ببساطة باستدعاء الطريقة [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add-int-int-java.lang.String-) من مجموعة [**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) (مغلفة في كائن [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)). تأخذ الطريقة [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add-int-int-java.lang.String-) المعلمات التالية:
 
 - **فهرس الصف الأعلى الأيسر**، فهرس الصف الأعلى.
 - **فهرس العمود الأعلى الأيسر**، فهرس العمود الأعلى.
@@ -37,3 +37,4 @@ url: /ar/java/managing-pictures/
 - [إدراج صورة مرتبطة من عنوان ويب](/cells/ar/java/insert-a-linked-picture-from-web-address/)
 - [إدراج صورة بناءً على مرجع الخلية](/cells/ar/java/insert-a-picture-based-on-cell-reference/)
 - [إدراج صورة ويب من عنوان URL في ورقة عمل Excel](/cells/ar/java/insert-web-image-from-a-url-into-an-excel-worksheet/)
+{{< app/cells/assistant language="java" >}}

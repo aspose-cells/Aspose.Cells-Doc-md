@@ -26,3 +26,4 @@ Bu ekran görüntüsü, yeni sürüm tarafından oluşturulan [çıktı HTML'yi]
 Ekran görüntülerinde görebileceğiniz gibi, yeni sürüm sağa hizalanan metni Microsoft Excel gibi doğru bir şekilde sola genişletebilmektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-ExpandTextFromRightToLeftWhileExportingExcelFileToHTML-.java" >}}
+{{< app/cells/assistant language="java" >}}

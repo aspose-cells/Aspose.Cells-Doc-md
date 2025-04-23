@@ -6,3 +6,4 @@ url: /es/net/file-formats-and-conversions/
 ---
 
 
+{{< app/cells/assistant language="csharp" >}}

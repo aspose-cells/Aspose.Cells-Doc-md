@@ -65,7 +65,7 @@ Aşağıdaki kod, ek parametre belirtmeden Microsoft Excel dosyalarını HTML fo
 
 {{% alert color="primary" %}}
 
-Aynı sonuçları elde edebilirsiniz, [**SaveFormat.HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML) ve [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) yöntemine geçirerek.
+Aynı sonuçları elde edebilirsiniz, [**SaveFormat.HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML) ve [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) yöntemine geçirerek.
 
 {{% /alert %}}
 
@@ -110,7 +110,7 @@ Lütfen unutmayın ki Aspose.Cells for Java'ye çıkış Belgerinden bu bilgiler
 
 #### **Doğrudan Dönüşüm**
 
-Bir Excel dosyasını en verimli dönüşüm yöntemi olarak doğrudan PDF'ye [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) yoluyla kaydedin ve [**SaveFormat.PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF) arayüz üyesini sağlayın. Doğrudan dönüşüm, veri veya biçimlendirmeyi kaybetmez, ancak çıktı PDF'sinin girdi Excel dosyasına benzer bir görünüme sahip olmasını sağlar.
+Bir Excel dosyasını en verimli dönüşüm yöntemi olarak doğrudan PDF'ye [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) yoluyla kaydedin ve [**SaveFormat.PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF) arayüz üyesini sağlayın. Doğrudan dönüşüm, veri veya biçimlendirmeyi kaybetmez, ancak çıktı PDF'sinin girdi Excel dosyasına benzer bir görünüme sahip olmasını sağlar.
 
 PDF'ye kaydederken güvenlik seçeneklerini belirtmek için [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) kullanın.
 
@@ -134,7 +134,7 @@ Aspose.Cells ve Aspose.PDF ile elektronik tabloları PDF'ye dönüştürmek içi
 
 1. Boş kurucuyu çağırarak [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) sınıfının nesnesini örnekleyin.
 1. Aspose.Cells API'sini kullanarak elektronik tabloda istediğiniz çalışmayı yapın.
-1. Elektronik tabloyu kaydetmek için [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) yöntemini çağırın:
+1. Elektronik tabloyu kaydetmek için [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) yöntemini çağırın:
    1. Dosya biçimini XML olarak ayarlayın.
    1. FileFormatType arayüzünden önceden tanımlanmış bir değer olan Aspose_Pdf'yi seçin. Bu, kaydetme yöntemini Aspose.PDF Şeması ile uyumlu XML formunda bir elektronik tablo üretmeye yönlendirir, böylece Aspose.PDF for Java sonrasında bir PDF belgesi oluşturabilir.
 1. XML dosyası oluşturulduğunda, aspose.pdf paketindeki Pdf sınıfının bir örneğini oluşturun.
@@ -189,3 +189,4 @@ Aşağıdaki tablo, Aspose.Cells kullanılarak PDF'ye dönüşüm yapılırken t
 |Sayfa Ayarı|Ölçekleme|Evet| |
 |Satır Yüksekliği/Sütun Genişliği| |Evet| |
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -34,3 +34,4 @@ url: /zh/net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/
        at Aspose.Cells.Workbook.Save(String fileName, SaveOptions saveOptions)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

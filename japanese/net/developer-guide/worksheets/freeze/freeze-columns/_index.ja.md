@@ -42,3 +42,4 @@ Aspose.Cells for .Netで最初の列（複数可）を凍結するのは簡単�
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Column.cs" >}}
 
 添付 [サンプルExcelファイル](Freeze.xlsx)。
+{{< app/cells/assistant language="csharp" >}}

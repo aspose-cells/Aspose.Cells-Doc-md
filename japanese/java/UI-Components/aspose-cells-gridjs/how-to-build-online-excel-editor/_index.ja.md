@@ -4,7 +4,7 @@ type: docs
 weight: 250
 url: /ja/java/aspose-cells-gridjs/how-to-build-online-excel-editor/
 keywords: GridJs、docker
-description: この記事では、オンラインのExcelエディタまたはビューアアプリケーションを構築するためにDockerでGridJsを実行する方法について紹介します。
+description: この記事は、オンラインExcelエディタまたはビューアアプリケーションを構築するために、Docker内でGridJsを実行する方法を紹介します。
 aliases:
   - /java/aspose-cells-gridjs/docker/
   - /java/aspose-cells-gridjs/run-aspose-cells-gridjs-in-docker/
@@ -21,41 +21,37 @@ aliases:
 
 ## 前提条件
 
-マシンにDockerがインストールされていることを確認してください。 公式Dockerウェブサイト（https://www.docker.com/get-started）からDockerをダウンロードしてインストールできます。
+お使いのマシンにDockerをインストールしていることを確認してください。Dockerは[公式Dockerウェブサイト](https://www.docker.com/get-started)からダウンロードしてインストールできます。
 
-## ステップ1：Dockerfileを作成する
+## ステップ1：Dockerfileを作成
 
-プロジェクトディレクトリ（https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs）に`Dockerfile`という名前のファイルを作成します。`Dockerfile`には、Dockerイメージをビルドする方法に関する指示が含まれている必要があります。
+あなたのプロジェクト[ディレクトリ](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs)に `Dockerfile` という名前のファイルを作成してください。`Dockerfile` には、Dockerイメージのビルド方法に関する指示を記述します。
 
-## ステップ2: GridJs用のDockerfileを作成する
+## ステップ2: GridJs用のDockerfileを書く
 
-以下は、Javaアプリケーションを使用したGridJsデモ用のサンプル[`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs/Dockerfile)です。
+次の例は、Javaアプリケーションを使用したGridJsデモ用の [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs/Dockerfile) 例です：
 
 ```dockerfile
-# Use the jdk8 image
-FROM eclipse/ubuntu_jdk8
+# Use the maven image to build jar file
+FROM maven:3.8.6-amazoncorretto-17 AS build
 WORKDIR /usr/src/app
 
 
 # copy local Maven files to container
-COPY mvnw .
 COPY .mvn .mvn
 COPY pom.xml .
 COPY src src
 
 # build application with maven
-RUN ./mvnw package -DskipTests
+RUN mvn  package -DskipTests
 
-# Set the user
-USER root
 
-#RUN ls -l *
+# Use the jdk8 image as the basic docker image
+FROM eclipse/ubuntu_jdk8
+WORKDIR /app
+# copy build jar file to target container 
+COPY --from=build /usr/src/app/target/*.jar /app/app.jar
 
-# copy the build output jar to container
-COPY  target/*.jar /app/app.jar
-
-# delete build source to reduce storage usage
-RUN rm -rf target && rm -rf .mvn && rm -rf src
 # web port
 EXPOSE 8080
 # if you want display better like in windows ,you need to install kinds of fonts in /usr/share/fonts/ 
@@ -65,6 +61,8 @@ EXPOSE 8080
 # COPY fonts/* /usr/share/fonts/
 # the basic file path which contains the spread sheet files 
 RUN mkdir -p /app/wb
+# the file path to store the uploaded files
+RUN mkdir -p /app/uploads
 # the cache file path for GridJs
 RUN mkdir -p /app/grid_cache/streamcache
 # we provide some sample spread sheet files in demo 
@@ -74,41 +72,50 @@ COPY wb/*.xlsx /app/wb/
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app/app.jar"]
 ```
 
-## ステップ3: Dockerイメージのビルド
-Dockerイメージをビルドします。ターミナルから、以下のコマンドを実行してDockerイメージをビルドします。
+## ステップ 3: Dockerイメージのビルド
+Dockerイメージのビルド：ターミナルから次のコマンドを実行してDockerイメージを作成します：
 ```bash
 docker build -t gridjs-demo-java .
 ```
-gridjs-demo-javaをお好みのDockerイメージの名前で置き換えることができます。
+`gridjs-demo-java` をあなたが付けたい任意の名前に置き換えることができます。
 
-## ステップ4: Dockerコンテナの実行
-イメージが作成されたら、以下のコマンドを使用してコンテナを実行できます。
+## ステップ 4: Dockerコンテナの実行
+イメージが作成されたら、次のコマンドを使用してコンテナを実行できます：
 
 ```bash
-docker run -d -p 8080:80 --name gridjs-demo-container  gridjs-demo-java
+docker run -d -p 8080:80   -v C:/path/to/license.txt:/app/license --name gridjs-demo-container  gridjs-demo-java
 ```
-Docker Runコマンドオプションの説明
+
+または、デモをトライアルモードで実行するだけです：
+
+
+```bash
+docker run -d -p 8080:80  --name gridjs-demo-container  gridjs-demo-java
+```
+
+Docker実行コマンドオプションの説明
 -d: コンテナをデタッチモード（バックグラウンド）で実行します。
--p 8080:80: コンテナ内のポート80をホストマシンのポート8080にマッピングします。
+-p 8080:80: コンテナの80番ポートをホストマシンの8080番ポートにマッピングします。
+-v C:/path/to/license.txt:/app/license: ホストマシンのライセンスファイルのパスをコンテナ内のファイルパスにマッピングします。
 --name gridjs-demo-container: コンテナに名前を割り当てます。
 
-## ステップ5: コンテナが実行されているか確認する
-コンテナが実行されているかどうかを確認するには、次のコマンドを使用します。
+## ステップ 5: コンテナが実行中か確認する
+コンテナが稼働しているかどうかを確認するには、次のコマンドを使用してください：
 
 ```bash
 docker ps
 ```
-これにはすべての実行中のコンテナがリストされます。 コンテナがその名前とステータスと共にリストされているはずです。
+これにより、すべての実行中のコンテナがリストされます。あなたのコンテナが名前とステータスとともに表示されるはずです。
 
-## ステップ6：Webアプリケーションにアクセス
+## ステップ 6: Webアプリケーションへアクセスする
 
-`http://localhost:8080/gridjsdemo/index`に移動してWebブラウザを開きます。アプリケーションが実行されているのを確認できます。
+Webブラウザを開き、` http://localhost:8080/gridjsdemo/index` にアクセスしてください。アプリケーションが動作しているはずです。
 
-## その他のコマンド
+## 追加コマンド
 
 ### コンテナの停止
 
-実行中のコンテナを停止するには、次のコマンドを使用します:
+実行中のコンテナを停止するには、次のコマンドを使用します：
 
 ```bash
 docker stop gridjs-demo-container

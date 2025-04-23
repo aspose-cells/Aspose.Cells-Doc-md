@@ -173,3 +173,4 @@ url: /ar/java/spreadsheet-editor-working-with-sheets/
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

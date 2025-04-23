@@ -44,3 +44,4 @@ Aspose.Cells for .Netは、ヘッダーとフッターをコマンドリスト�
 以下のコードは、ヘッダーまたはフッターをコマンドリストとして解析し、コマンドを処理する方法を示しています:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Parses-Header-Footer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

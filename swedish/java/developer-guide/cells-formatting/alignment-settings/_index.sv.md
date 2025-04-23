@@ -81,7 +81,7 @@ Ett alternativ till att göra textindrag i en cell är att minska textstorleken 
 
 ### **Sammanfoga celler**
 
-Precis som Microsoft Excel stöder Aspose.Cells sammanfogning av flera celler till en. Aspose.Cells tillhandahåller två metoder för detta ändamål. Ett sätt är att anropa metoden [**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)). Metoden tar följande parametrar för att sammanfoga cellerna:
+Precis som Microsoft Excel stöder Aspose.Cells sammanfogning av flera celler till en. Aspose.Cells tillhandahåller två metoder för detta ändamål. Ett sätt är att anropa metoden [**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge-int-int-int-int-). Metoden tar följande parametrar för att sammanfoga cellerna:
 
 - Första rad: den första raden från vilken sammanfogningen ska börja.
 - Första kolumn: den första kolumnen från vilken sammanfogningen ska börja.
@@ -108,3 +108,4 @@ Läsordningen ställs in med egenskapen [**TextDirection**](https://reference.as
 ## **Fortsatta ämnen**
 - [Ändra cellers justering och behåll befintlig formatering](/cells/sv/java/change-cells-alignment-and-keep-existing-formatting/)
 - [Radbrytningar och textindrag](/cells/sv/java/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="java" >}}

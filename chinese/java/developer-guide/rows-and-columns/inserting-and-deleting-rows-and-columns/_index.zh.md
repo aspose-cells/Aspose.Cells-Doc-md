@@ -22,47 +22,47 @@ Aspose.Cells提供了一个[Workbook](https://reference.aspose.com/cells/java/co
 
 {{% /alert %}} 
 ## **如何插入行**
-通过调用[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)集合的[insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\))方法在任何位置插入一行。[insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\))方法将插入新行的行索引作为第一个参数，需要插入的行数作为第二个参数。
+通过调用 [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows-int-int-) 方法在任意位置插入一行。该方法的第一个参数为插入位置的索引，第二个参数为要插入的行数。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-InsertingARow-InsertingARow.java" >}}
 ## **如何插入多行**
-要在工作表中插入多行，调用[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)集合的[insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\))方法。[insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\))方法接受两个参数：
+要在工作表中插入多行，请调用 [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows-int-int-) 方法。该方法接受两个参数：
 
 - 行索引：新行将插入的行的索引。
 - 行数：需要插入的总行数。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-InsertingMultipleRows-InsertingMultipleRows.java" >}}
 ## **如何插入带有格式的行**
-要插入带有格式选项的行，请使用带有[InsertOptions](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions)参数的[insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int,%20com.aspose.cells.InsertOptions\))重载。设置[InsertOptions](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions)类的[CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/insertoptions#CopyFormatType)属性。 [CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType)枚举有三个成员，如下所列。
+要插入带格式的行，请使用带有 [InsertOptions](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions) 参数的 [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows-int-int-) 重载方法。可以通过设置 [CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions#CopyFormatType) 属性来指定格式复制类型。该枚举有以下三种成员：
 
-- [同上](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_ABOVE): 与上一行的格式相同。
-- [同下](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_BELOW): 与下一行的格式相同。
+- [SAME_AS_ABOVE](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME-AS-ABOVE)： 格式与上方行相同。
+- [SAME_AS_BELOW](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME-AS-BELOW)： 格式与下方行相同。
 - [清除](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#CLEAR): 清除格式。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-InsertingARowWithFormatting-1.java" >}}
 ## **如何删除行**
-要在任何位置删除行，请调用[deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\))方法的[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)集合。 [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\))方法需要两个参数:
+要在任意位置删除一行，调用 [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows-int-int-) 方法。该方法接受两个参数：
 
 - 行索引：要删除行的起始行的索引。
 - 行数：需要删除的总行数。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-DeleteARow-DeleteARow.java" >}}
 ## **如何删除多行**
-要从工作表中删除多行，请调用[deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\))方法的[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)集合。 [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\))方法需要两个参数:
+要删除工作表中的多行，可以调用 [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows-int-int-) 方法。该方法接受两个参数：
 
 - 行索引：要删除行的起始行的索引。
 - 行数：需要删除的总行数。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-DeleteMultipleRows-DeleteMultipleRows.java" >}}
 ## **如何插入一个或多个列**
-开发人员还可以通过调用[insertColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertColumns\(int,%20int\))方法向工作表的任何位置插入列至集合[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)。 [insertColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertColumns\(int,%20int\))方法需要两个参数:
+开发者还可以通过调用 [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertColumns-int-int-) 方法在任意位置插入列。该方法接受两个参数：
 
 - 列索引，需要插入列的索引
 - 列数，需要插入的总列数。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-InsertingAColumn-InsertingAColumn.java" >}}
 ## **如何删除列**
-要在工作表的任何位置删除列，请调用[deleteColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteColumns\(int,%20int,%20boolean\))方法的[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)集合。 [deleteColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteColumns\(int,%20int,%20boolean\))方法需要以下参数:
+要在工作表中删除任意列，调用 [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteColumns-int-int-boolean-) 方法。该方法接受以下参数：
 
 - 列索引：要删除列的起始列的索引。
 - 列数：需要删除的总列数。
@@ -70,3 +70,4 @@ Aspose.Cells提供了一个[Workbook](https://reference.aspose.com/cells/java/co
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-DeleteAColumn-DeleteAColumn.java" >}}
 
+{{< app/cells/assistant language="java" >}}

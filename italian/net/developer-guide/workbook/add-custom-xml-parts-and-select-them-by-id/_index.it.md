@@ -24,3 +24,4 @@ Il seguente codice di esempio aggiunge prima quattro parti XML personalizzate ut
  Found: CustomXmlPart ID Sport
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

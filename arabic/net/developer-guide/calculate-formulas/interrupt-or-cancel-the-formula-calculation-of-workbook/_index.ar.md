@@ -30,3 +30,4 @@ url: /ar/net/interrupt-or-cancel-the-formula-calculation-of-workbook/
 0----7----1----B8
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

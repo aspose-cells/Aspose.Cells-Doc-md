@@ -19,3 +19,4 @@ Aşağıdaki örnek kod, [çıktı Excel dosyasını](PrimaryandSecondaryAxis.xl
 
 ## **Örnek Kod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "primary-and-second-axis.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -41,3 +41,4 @@ Vissa Excel-filer korrumperas eftersom vissa definierade namn är dubletter. Så
 
 
 
+{{< app/cells/assistant language="csharp" >}}

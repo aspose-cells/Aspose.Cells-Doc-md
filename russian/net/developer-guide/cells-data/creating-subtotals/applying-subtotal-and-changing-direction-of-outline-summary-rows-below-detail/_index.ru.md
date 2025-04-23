@@ -42,3 +42,4 @@ keywords: Применить итог, добавить итог, изменит
 Вот пример кода для достижения указанного выше результата.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ApplyingSubtotalChangeSummaryDirection-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -20,3 +20,4 @@ Aspose.Cellsは、画像やチャートを含むXLSファイルをPDFドキュ�
 スプレッドシートに数式が含まれている場合は、PDF にレンダリングする直前に [Workbook.CalculateFormula](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) メソッドを呼び出すことが最適です。これにより、数式に依存する値が再計算され、正しい値が PDF にレンダリングされます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

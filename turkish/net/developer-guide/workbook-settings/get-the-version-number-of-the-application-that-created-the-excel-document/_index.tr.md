@@ -14,3 +14,4 @@ Sıklıkla, bir Microsoft Excel belgesini oluşturan uygulamanın sürüm numara
 Aşağıdaki örnek kod, [**Workbook.BuiltInDocumentProperties.Version**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/version) özelliğinin nasıl kullanılacağını göstermektedir. Microsoft Excel 2003, 2007, 2010 ve 2013 ile oluşturulmuş Excel dosyalarını yükler ve bu Excel belgelerini oluşturan uygulamanın sürüm numarasını yazdırır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-GetApplicationVersion-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

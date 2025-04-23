@@ -286,3 +286,4 @@ FontConfigs.SetFontFolder(string, bool) yönteminin, recursive özelliği false 
 FontConfigs.SetFontFolders(string[], bool) yönteminin, recursive özelliği false olarak klasör kullanımı önerilir.
 ### **Eski CellsHelper.FontFiles Özelliği**
 FontConfigs.SetFontSources(FontSourceBase[]) yöntemi kullanımı önerilir.
+{{< app/cells/assistant language="csharp" >}}

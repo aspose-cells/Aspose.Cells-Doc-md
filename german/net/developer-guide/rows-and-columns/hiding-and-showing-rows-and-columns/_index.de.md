@@ -53,3 +53,4 @@ Entwickler können mehrere Zeilen oder Spalten auf einmal ausblenden, indem sie 
 Es ist auch möglich, die [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)- und [**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows)-Methoden der Klasse [**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns) zu verwenden, um mehrere Zeilen und Spalten sichtbar zu machen.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

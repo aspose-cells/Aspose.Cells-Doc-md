@@ -27,3 +27,4 @@ Infoga ett intervall och skifta celler ned med följande koder med Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Insert-Range-Down.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

@@ -55,3 +55,4 @@ Aspose.Cells supporta l'estrazione di oggetti di tipi non comuni come MOL (file 
 - [Aggiornare automaticamente l'oggetto OLE tramite Microsoft Excel usando Aspose.Cells](/cells/it/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)
 - [Estrarre gli oggetti OLE dal Workbook](/cells/it/java/extract-ole-objects-from-workbook/)
 - [Ottieni o Imposta l'Identificatore di Classe dell'Oggetto OLE Incorporato](/cells/it/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
+{{< app/cells/assistant language="java" >}}

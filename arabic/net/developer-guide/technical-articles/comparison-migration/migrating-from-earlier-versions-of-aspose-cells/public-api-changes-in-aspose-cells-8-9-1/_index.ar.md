@@ -286,3 +286,4 @@ book.CalculateFormula(options);
 استخدام الطريقة FontConfigs.SetFontFolders(string[], bool) مع تكرار المجلد غير صحيح بدلاً من ذلك.
 ### **الواجهات المهجورة خاصية CellsHelper.FontFiles**
 استخدام الطريقة FontConfigs.SetFontSources(FontSourceBase[]) بدلاً من ذلك.
+{{< app/cells/assistant language="csharp" >}}

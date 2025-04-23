@@ -11,7 +11,7 @@ keywords: Wie man Daten und Zeiten verwaltet, das 1900 Datensystem, das 1904 Dat
 Daten und Zeiten werden in Zellen als Zahlen gespeichert. Daher sind die Werte von Zellen, die Daten und Zeiten enthalten, vom numerischen Typ. Eine Zahl, die ein Datum und eine Uhrzeit angibt, besteht aus den Datum (Ganzzahlteil) und Uhrzeit (Bruchteilteil) Komponenten. Die Eigenschaft Cell.DoubleValue gibt diese Zahl zurück.
 
 ## **Wie man Daten und Zeiten in Aspose.Cells anzeigt**
-Um eine Zahl als Datum und Uhrzeit anzuzeigen, wenden Sie das erforderliche Datums- und Uhrzeitformat an eine Zelle über die Eigenschaft [Style.Number](https://reference.aspose.com/cells/net/aspose.cells/style/number/) oder [Style.Custom]() an. Die Eigenschaft CellValue.DateTimeValue gibt das DateTime-Objekt zurück, das das Datum und die Uhrzeit angibt, die durch die in einer Zelle enthaltene Zahl dargestellt werden.
+Um eine Zahl als Datum und Uhrzeit anzuzeigen, wenden Sie das erforderliche Datums- und Zeitformat auf eine Zelle über die Eigenschaften [Style.number](https://reference.aspose.com/cells/python-net/aspose.cells/style/number/) oder [Style.Custom]() an. Die Eigenschaft CellValue.DateTimeValue gibt das DateTime-Objekt zurück, das das Datum und die Uhrzeit angibt, die durch die Zahl in einer Zelle dargestellt werden.
 <br>
 <image src="1.png" width="70%" />
 
@@ -19,7 +19,7 @@ Um eine Zahl als Datum und Uhrzeit anzuzeigen, wenden Sie das erforderliche Datu
 MS-Excel speichert Daten als Zahlen, die als Serienwerte bezeichnet werden. Ein Serienwert ist eine Ganzzahl, die die Anzahl der vergangenen Tage seit dem ersten Tag im Datensystem angibt. Excel unterstützt die folgenden Datensysteme für Serienwerte:
 
 1. Das 1900-Datensystem. Das erste Datum ist der 1. Januar 1900 und sein Serienwert ist 1. Das letzte Datum ist der 31. Dezember 9999 und sein Serienwert beträgt 2.958.465. Dieses Datensystem wird standardmäßig in der Arbeitsmappe verwendet.
-1. Das 1904-Datensystem. Das erste Datum ist der 1. Januar 1904 und sein Serienwert beträgt 0. Das letzte Datum ist der 31. Dezember 9999 und sein Serienwert beträgt 2.957.003. Um dieses Datensystem in der Arbeitsmappe zu verwenden, setzen Sie die Eigenschaft [Workbook.Settings.Date1904](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/date1904/) auf true.
+1. Das 1904-Datumsystem. Das erste Datum ist der 1. Januar 1904, und sein serieller Wert ist 0. Das letzte Datum ist der 31. Dezember 9999, und sein serieller Wert ist 2.957.003. Um dieses Datumsystem im Arbeitsbuch zu verwenden, setzen Sie die Eigenschaft [**Workbook.settings.date1904**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/date1904/) auf wahr.
 
 
 Dieses Beispiel zeigt, dass die in verschiedenen Datensystemen gespeicherten Serienwerte für dasselbe Datum unterschiedlich sind.

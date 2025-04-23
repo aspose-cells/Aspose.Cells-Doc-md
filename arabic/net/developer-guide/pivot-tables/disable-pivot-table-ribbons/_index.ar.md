@@ -16,3 +16,4 @@ url: /ar/net/disable-pivot-table-ribbons/
 يوضح الكود التالي هذه الميزة عن طريق الوصول إلى جدول دوران من ورقة ومن ثم ضبط [**EnableWizard**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/enablewizard) إلى **false**. يمكن تنزيل ملف جدول الدوران المثالي من هذا [الرابط](pivot_table_test.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-DisablePivotTableRibbon.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

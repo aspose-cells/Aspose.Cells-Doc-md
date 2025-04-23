@@ -15,3 +15,4 @@ Följande kodsnutt visar hur man skapar en Union Range genom att använda metode
 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "CreateUnionRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

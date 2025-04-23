@@ -26,3 +26,4 @@ keywords: جافا إنشاء مخطط شلال المياه في Excel، جاف
 ## مقالات ذات صلة
 
 - [إنشاء وتخصيص المخططات](/cells/ar/java/creating-and-customizing-charts/)
+{{< app/cells/assistant language="java" >}}

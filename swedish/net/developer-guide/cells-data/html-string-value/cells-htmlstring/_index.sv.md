@@ -26,3 +26,4 @@ Detta exempel visar hur man:
 Följande skärmbild visar utdata av ovanstående provkod.
 
 ![todo:image_alt_text](htmlstring.png)
+{{< app/cells/assistant language="csharp" >}}

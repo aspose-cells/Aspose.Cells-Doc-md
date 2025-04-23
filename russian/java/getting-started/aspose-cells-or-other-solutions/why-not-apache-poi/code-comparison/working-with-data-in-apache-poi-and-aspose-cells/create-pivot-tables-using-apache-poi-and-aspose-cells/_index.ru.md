@@ -201,3 +201,4 @@ pivotTable.addReportFilter(3);
 Дополнительные сведения см. на странице [Создание сводной таблицы и сводных диаграмм](/cells/ru/java/create-pivot-tables-and-pivot-charts/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

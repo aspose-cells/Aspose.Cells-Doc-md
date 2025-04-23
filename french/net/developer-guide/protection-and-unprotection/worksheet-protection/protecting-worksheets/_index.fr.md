@@ -104,3 +104,4 @@ L'exemple suivant montre comment protéger une colonne dans la feuille de calcul
 L'exemple suivant montre comment autoriser les utilisateurs à modifier une plage dans une feuille de calcul protégée.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-EditRangesWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

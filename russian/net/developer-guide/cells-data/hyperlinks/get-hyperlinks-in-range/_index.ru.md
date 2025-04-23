@@ -12,3 +12,4 @@ keywords: Получить гиперссылки в диапазоне, Пол�
 Класс [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range) предоставляет свойство [**Hyperlinks**](https://reference.aspose.com/cells/net/aspose.cells/range/properties/hyperlinks), которое возвращает все гиперссылки в выбранном диапазоне. Вы также можете удалить гиперссылку, вызвав метод [**Hyperlink.Delete**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/methods/delete).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-GetHyperlinksInRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

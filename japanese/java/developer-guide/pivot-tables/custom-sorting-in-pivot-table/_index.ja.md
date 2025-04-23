@@ -17,3 +17,4 @@ Aspose.Cells APIを使用して、フィールド値でピボットテーブル�
 [出力PDFファイル](95584329.pdf)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-PivotTableCustomSort-1.java" >}}
+{{< app/cells/assistant language="java" >}}

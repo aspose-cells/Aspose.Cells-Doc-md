@@ -16,3 +16,4 @@ Aspose.Cells ermöglicht es Ihnen, Ihre Excel-Datei ohne Diagramme zu laden. Bit
 Der folgende Beispielcode lädt die Beispiels-Excel-Datei ohne Diagramme und speichert sie im Ausgabe-PDF-Format.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-LoadTemplateWithoutCharts.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

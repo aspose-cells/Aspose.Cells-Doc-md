@@ -71,3 +71,4 @@ url: /ru/net/convert-an-excel-chart-to-image/
 1. Динамически преобразуйте диаграмму в изображение. Ниже приведен используемый компонентом код для выполнения этой задачи. Код аналогичен предыдущему:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertExcelChartToImage-ConvertingColumnChartToImage-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

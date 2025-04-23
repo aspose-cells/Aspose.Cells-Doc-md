@@ -14,3 +14,4 @@ url: /zh/java/load-specific-worksheets-in-a-workbook/
 ## **加载工作簿中特定的工作表**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LoadSpecificWorksheetsinWorkbook-LoadSpecificWorksheetsinWorkbook.java" >}}
+{{< app/cells/assistant language="java" >}}

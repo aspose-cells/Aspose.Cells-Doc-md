@@ -38,3 +38,4 @@ Aspose.Cells for Java支持您的业务每天使用的流行电子表格（XLS�
 - [Aspose.Cells for Java API参考指南](https://reference.aspose.com/cells/java)
 - [Aspose.Cells for Java 免费支持论坛](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Java 付费支持帮助台](https://helpdesk.aspose.com/)
+{{< app/cells/assistant language="java" >}}

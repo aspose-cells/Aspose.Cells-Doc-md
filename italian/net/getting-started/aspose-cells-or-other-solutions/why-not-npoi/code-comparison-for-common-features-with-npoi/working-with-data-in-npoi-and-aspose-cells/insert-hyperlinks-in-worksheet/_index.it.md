@@ -203,3 +203,4 @@ Scarica **Inserire Collegamenti IperTestuali nel Foglio di Lavoro** da uno dei s
 Per ulteriori dettagli, visita [Aggiunta Collegamenti IperTestuali per Collegare i Dati](/cells/it/net/aggiunta-collegamenti-ipertestuali-per-collegare-i-dati-in-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

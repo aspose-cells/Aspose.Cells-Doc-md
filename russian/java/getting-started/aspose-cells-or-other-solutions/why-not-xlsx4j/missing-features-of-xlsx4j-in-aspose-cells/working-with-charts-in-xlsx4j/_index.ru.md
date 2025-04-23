@@ -9,3 +9,4 @@ url: /ru/java/working-with-charts-in-xlsx4j/
 - [Преобразование диаграммы в изображение в xlsx4j](/cells/ru/java/convert-chart-to-image-in-xlsx4j/)
 - [Создание диаграмм в xlsx4j](/cells/ru/java/create-charts-in-xlsx4j/)
 - [Создание сводных диаграмм в xlsx4j](/cells/ru/java/create-pivot-charts-in-xlsx4j/)
+{{< app/cells/assistant language="java" >}}

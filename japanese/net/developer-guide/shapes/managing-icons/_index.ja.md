@@ -32,3 +32,4 @@ Excel ファイルに 'アイコン' を追加する必要がある場合は、�
 プロジェクトで上記のコードを実行すると、次の結果が得られます。
 
 ![](3.png)
+{{< app/cells/assistant language="csharp" >}}

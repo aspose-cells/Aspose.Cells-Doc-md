@@ -147,3 +147,4 @@ Wenn Ihre Tabellenkalkulation Formeln enthält, ist es am besten, [**Workbook.Ca
 - [Bestimmte Arbeitsblätter als PDF speichern](/cells/de/net/save-specified-worksheets-to-pdf/)
 - [Sichere PDF-Dokumente](/cells/de/net/secure-pdf-documents/)
 - [Angeben, wie Zeilenumbruch im Ausgabe-PDF und Bild erfolgen soll](/cells/de/net/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="csharp" >}}

@@ -19,3 +19,4 @@ Aşağıdaki kodu çalıştırdıktan sonra, aşağıdaki gibi Ağaç Haritası 
 Aşağıdaki örnek kod [örnek Excel dosyasını](treemap.xlsx) yükler ve [çıktı Excel dosyasını](out.xlsx) oluşturur.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "create-treemap-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

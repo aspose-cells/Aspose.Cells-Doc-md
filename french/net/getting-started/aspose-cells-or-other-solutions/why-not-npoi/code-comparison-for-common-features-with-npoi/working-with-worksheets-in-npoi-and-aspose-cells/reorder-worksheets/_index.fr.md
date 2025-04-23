@@ -71,3 +71,4 @@ Téléchargez **Réorganiser les feuilles de calcul** à partir de l'un des site
 Pour plus de détails, visitez [Travailler avec les feuilles de calcul](/cells/fr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

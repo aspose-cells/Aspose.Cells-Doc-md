@@ -11,7 +11,7 @@ url: /ja/python-java/your-first-aspose-cells-application-hello-world/
 
 {{% /alert %}}
 
-### **Hello Worldアプリケーションの作成**
+## **Hello Worldアプリケーションの作成**
 
 Aspose.Cells APIを使用してHello Worldアプリケーションを作成するには：
 
@@ -26,7 +26,7 @@ Aspose.Cells APIを使用してHello Worldアプリケーションを作成す�
 
 以下の例は上記の手順を示しています。
 
-#### **ワークブックの作成**
+### **ワークブックの作成**
 
 以下の例では、新しいワークブックをゼロから作成し、最初のワークシートのセルA1に"Hello World!"という単語を書き込み、ファイルを保存します。
 
@@ -36,7 +36,7 @@ Aspose.Cells APIを使用してHello Worldアプリケーションを作成す�
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "CreatingHelloWorldFile.py" >}}
 
-#### **既存のファイルを開く**
+### **既存のファイルを開く**
 
 以下の例では、"book1.xls"という既存のMicrosoft Excelテンプレートファイルを開き、最初のワークシートのセルA1に"Hello World!"という単語を書き込んで、ワークブックを新しいファイルとして保存します。
 

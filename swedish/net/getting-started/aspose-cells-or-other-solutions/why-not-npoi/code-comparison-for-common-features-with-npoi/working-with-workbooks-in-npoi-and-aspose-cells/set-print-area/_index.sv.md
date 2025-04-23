@@ -134,3 +134,4 @@ Ladda ner **Ange utskriftsområde** från någon av de nedan nämnda sociala kod
 För mer detaljer, besök [Inställning av utskriftsalternativ](/cells/sv/net/setting-print-options/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

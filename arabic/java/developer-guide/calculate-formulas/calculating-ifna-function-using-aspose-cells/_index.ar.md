@@ -34,3 +34,4 @@ url: /ar/java/calculating-ifna-function-using-aspose-cells/
 Orange
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

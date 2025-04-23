@@ -140,3 +140,4 @@ Denna avsnitt inkluderar följande ämnen
     - [Visa och dölj flikar för arbetsbok i xlsx4j](/cells/sv/java/display-and-hide-tabs-of-workbook-in-xlsx4j/)
     - [Spara varje arbetsblad till olika PDF i xlsx4j](/cells/sv/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
     - [Ange flikfärg för arbetsblad i xlsx4j](/cells/sv/java/set-worksheet-tab-color-in-xlsx4j/)
+{{< app/cells/assistant language="java" >}}

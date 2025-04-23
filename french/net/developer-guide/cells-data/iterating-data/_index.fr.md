@@ -83,3 +83,4 @@ Sur la base des faits mentionnés ci-dessus, voici les scénarios possibles où 
 1. Un accès en lecture seule de la collection de cellules est requis, c'est-à-dire; la nécessité est uniquement d'inspecter les cellules.
 1. Un grand nombre de cellules doit être parcouru.
 1. Seules les cellules/rangées/colonnes initialisées doivent être parcourues.
+{{< app/cells/assistant language="csharp" >}}

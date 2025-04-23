@@ -27,3 +27,4 @@ Bir ODS dosyasını şifrelemek için dosyayı yükleyin ve kaydetmeden önce [*
 ODS dosyasını çözmek için, dosyayı yüklemek için [**LoadOptions.Password**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/password) ile bir parola sağlayın. Dosya yüklendikten sonra, [**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) dizesini null olarak ayarlayın.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-DecryptingODSFiles-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -9,3 +9,4 @@ url: /ar/java/working-with-charts-in-xlsx4j/
 - [تحويل مخطط إلى صورة في xlsx4j](/cells/ar/java/convert-chart-to-image-in-xlsx4j/)
 - [إنشاء مخططات في xlsx4j](/cells/ar/java/create-charts-in-xlsx4j/)
 - [إنشاء مخططات دورية في xlsx4j](/cells/ar/java/create-pivot-charts-in-xlsx4j/)
+{{< app/cells/assistant language="java" >}}

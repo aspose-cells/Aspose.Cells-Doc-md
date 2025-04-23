@@ -90,3 +90,4 @@ Téléchargez le formulaire **Travailler avec les bordures** à partir de l'un d
 Pour plus de détails, visitez [Fonctionnalités de formatage des données](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

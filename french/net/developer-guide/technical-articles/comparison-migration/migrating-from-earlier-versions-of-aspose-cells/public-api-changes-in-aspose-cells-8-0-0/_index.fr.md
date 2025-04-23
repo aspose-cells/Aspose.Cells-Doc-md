@@ -135,3 +135,4 @@ Une nouvelle constante Ooxml a été ajoutée à la classe FileFormatType pour r
 Avec Aspose.Cells for Java, la propriété FilterColumnCollection a été marquée comme obsolète. Il est suggéré d'utiliser la propriété AuotFilter.FilterColumns à la place.
 ## **Remplacé SeriesCollection.SecondCatergoryData par SeriesCollection.SecondCategoryData**
 Nous avons corrigé l'erreur de typographie dans le nom de propriété pour SeriesCollection.SecondCatergoryData. Vous pouvez désormais utiliser la propriété SeriesCollection.SecondCategoryData à partir de maintenant, tandis que la propriété d'origine SeriesCollection.SecondCatergoryData a été marquée comme obsolète.
+{{< app/cells/assistant language="csharp" >}}

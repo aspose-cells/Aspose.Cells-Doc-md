@@ -31,3 +31,4 @@ Per applicare l'ombreggiatura alle colonne alternative, tutto ciò che devi fare
 Il foglio di calcolo risultante, in questo caso, avrà un aspetto simile all'immagine seguente.
 
 ![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)
+{{< app/cells/assistant language="java" >}}

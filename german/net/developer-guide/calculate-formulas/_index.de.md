@@ -74,3 +74,4 @@ Standardmäßig ist die Berechnungskette deaktiviert. Da das Erstellen der Kette
 - [Festlegen des Formelberechnungsmodus des Arbeitsbuchs](/cells/de/net/setting-formula-calculation-mode-of-workbook/)
 - [Verwendung der FormulaText-Funktion in Aspose.Cells](/cells/de/net/using-formulatext-function-in-aspose-cells/)
 - [Verwendung der ICustomFunction-Funktion](/cells/de/net/using-icustomfunction-feature/)
+{{< app/cells/assistant language="csharp" >}}

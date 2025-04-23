@@ -11,11 +11,11 @@ url: /ja/java/using-custom-xml-parts-in-aspose-cells/
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_1.png)
 
-Aspose.Cellsを使用してカスタムXMLパーツを追加することができます。[Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)) メソッドを介して行います。
+Aspose.Cellsを使ってカスタムXMLパーツを追加するには、 [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-) メソッドを使用します。
 
 {{% /alert %}} 
 ## **Aspose.CellsでのカスタムXMLパーツの使用**
-次のサンプルコードは、[Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)) メソッドを使用し、**Book Catalog Xml**を**BookStore**という名前で追加します。次の画像は、このコードの結果を示しています。 Book Catalog XmlがBookStoreノード内に追加されていることがわかります。
+次のサンプルコードは [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add-java.lang.Object-) を使用し、「Book Store」という名前の**Book Catalog Xml**を追加した例です。画像はこのコードの結果を示しており、Book Catalog XmlはBookStoreノード内に追加されています。
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_2.png)
 
@@ -26,3 +26,4 @@ Aspose.Cellsを使用してカスタムXMLパーツを追加することがで�
 - [ドキュメント情報パネルで表示されるカスタムプロパティの追加](/cells/ja/java/adding-custom-properties-visible-inside-document-information-panel/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

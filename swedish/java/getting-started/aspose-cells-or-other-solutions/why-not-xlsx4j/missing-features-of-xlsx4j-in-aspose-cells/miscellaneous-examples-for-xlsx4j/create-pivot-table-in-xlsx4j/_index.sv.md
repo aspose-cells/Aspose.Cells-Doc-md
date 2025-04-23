@@ -168,3 +168,4 @@ workbook.save(dataDir + "AsposePivotTable.xls");
 För mer information, besök [Skapa pivottabeller och pivottabeller](/cells/sv/java/skapa-pivottabeller-och-pivottabeller).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

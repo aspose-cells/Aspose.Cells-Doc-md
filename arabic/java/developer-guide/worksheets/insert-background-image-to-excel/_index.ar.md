@@ -33,3 +33,4 @@ description: "كيفية إدراج صورة خلفية إلى Excel باستخ�
 
 - [العمل مع الخلفية في ملفات ODS](/cells/ar/java/working-with-background-in-ods-files/)
 
+{{< app/cells/assistant language="java" >}}

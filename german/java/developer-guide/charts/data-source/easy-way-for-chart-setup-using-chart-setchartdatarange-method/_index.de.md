@@ -7,10 +7,11 @@ url: /de/java/easy-way-for-chart-setup-using-chart-setchartdatarange-method/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells bietet jetzt die Methode [Chart.setChartDataRange()](https://reference.aspose.com/cells/java/com.aspose.cells/chart#setChartDataRange\(java.lang.String,%20boolean\)) zur einfachen Einrichtung von Diagrammen. Durch die Verwendung dieser Methode ist es nicht mehr erforderlich, die Serien- und Kategorieachsen-Daten separat hinzuzufügen.
+Aspose.Cells bietet jetzt die Methode [Chart.setChartDataRange()](https://reference.aspose.com/cells/java/com.aspose.cells/chart#setChartDataRange-java.lang.String-boolean-) um Diagramme einfach einzurichten. Mit dieser Methode müssen Sie nicht mehr Daten für Serie und Kategorieachsen separat hinzufügen.
 
 {{% /alert %}} 
 ## **Der einfache Weg zur Diagrammeinrichtung mit der Methode Chart.setChartDataRange**
-Der folgende Beispielcode erläutert die Verwendung der Methode [Chart.setChartDataRange()](https://reference.aspose.com/cells/java/com.aspose.cells/chart#setChartDataRange\(java.lang.String,%20boolean\)) zur einfachen Einrichtung des Diagramms.
+Der folgende Beispielcode erklärt die Verwendung der Methode [Chart.setChartDataRange()](https://reference.aspose.com/cells/java/com.aspose.cells/chart#setChartDataRange-java.lang.String-boolean-) um das Diagramm einfach einzurichten.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-EasyWayForChartSetup-EasyWayForChartSetup.java" >}}
+{{< app/cells/assistant language="java" >}}

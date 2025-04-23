@@ -33,7 +33,7 @@ Die folgenden Schritte beschreiben, wie man Zellen im Arbeitsblatt mit Microsoft
 
 ### **Verwendung von Aspose.Cells**
 
-Die Klasse [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) verfügt über einige nützliche Methoden für diese Aufgabe. Zum Beispiel führt die Methode [**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) die Zellen in eine einzige Zelle innerhalb eines festgelegten Bereichs von Zellen zusammen.
+Die Klasse [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) verfügt über einige nützliche Methoden für diese Aufgabe. Zum Beispiel führt die Methode [**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge-int-int-int-int-) die Zellen in eine einzige Zelle innerhalb eines festgelegten Bereichs von Zellen zusammen.
 
 Die folgende Ausgabe wird nach Ausführung des untenstehenden Codes generiert.
 
@@ -59,7 +59,7 @@ Die folgenden Schritte beschreiben, wie Sie zusammengeführte Zellen mit Microso
 
 #### **Verwendung von Aspose.Cells**
 
-Die Klasse [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) verfügt über eine Methode namens [**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge(int,%20int,%20int,%20int)), die Zellen in ihren ursprünglichen Zustand zurückversetzt. Die Methode hebt die Kombination der Zellen basierend auf dem Zellenverweis im Bereich der zusammengeführten Zelle auf.
+Die Klasse [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) verfügt über eine Methode namens [**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge-int-int-int-int-), die Zellen in ihren ursprünglichen Zustand zurückversetzt. Die Methode hebt die Kombination der Zellen basierend auf dem Zellenverweis im Bereich der zusammengeführten Zelle auf.
 
 #### **Codebeispiel**
 
@@ -72,3 +72,4 @@ Das folgende Beispiel zeigt, wie die zusammengeführten Zellen (C6) aufgeteilt w
 - [Auffinden und Aufteilen von zusammengeführten Zellen](/cells/de/java/zusammengeführte-zellen-in-einem-arbeitsblatt-erkennen/).
 - [Kombinieren und Aufteilen eines Zellenbereichs mit den Methoden Range.merge() und Range.unMerge()](/cells/de/java/zusammenführen-oder-aufteilen-eines-zellenbereichs/).
 
+{{< app/cells/assistant language="java" >}}

@@ -17,7 +17,7 @@ Aspose.Cells for Python via NET tillåter dig att ändra HTML-länkens måltyp. 
 
 {{< /highlight >}}
 
-Som du kan se är målattributet i ovanstående HTML-länk **_self**. Du kan kontrollera det här målattributet med hjälp av egenskapen [**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/). Den här egenskapen tar [**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype) uppräkningen som har följande värden.
+Som du kan se är målattributet i ovanstående HTML-länk **_self**. Du kan kontrollera det här målattributet med hjälp av egenskapen [**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/). Den här egenskapen tar [**HtmlLinkTargetType**](https://reference.aspose.com/cells/python-net/aspose.cells/htmllinktargettype) uppräkningen som har följande värden.
 
 - HtmlLinkTargetType.BLANK
 - HtmlLinkTargetType.PARENT

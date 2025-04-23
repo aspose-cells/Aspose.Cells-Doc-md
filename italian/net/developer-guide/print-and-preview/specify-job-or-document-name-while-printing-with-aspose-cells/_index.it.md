@@ -18,3 +18,4 @@ Il codice di esempio carica il file Excel di origine e poi lo invia alla stampan
 ## Codice di esempio
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-SpecifyJobWhilePrinting-SpecifyJobNameWhilePrinting.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

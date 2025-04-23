@@ -13,3 +13,4 @@ El siguiente código de ejemplo carga el [archivo de Excel de ejemplo](SampleSli
 ![todo:image_alt_text](draw-slicer-while-rendering-excel-to-pdf_1.jpg)
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Slicers-ExportSlicerToPDF-1.java" >}}
+{{< app/cells/assistant language="java" >}}

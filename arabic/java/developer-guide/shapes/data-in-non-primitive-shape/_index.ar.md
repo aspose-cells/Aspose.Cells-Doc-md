@@ -11,7 +11,7 @@ url: /ar/java/data-in-non-primitive-shape/
 
 ## **الشكل غير الأساسي**
 
-في Aspose.Cells ، يتم تعيين الأشكال غير الأساسية النوع [**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT_PRIMITIVE). يمكنك التحقق من نوعها باستخدام الطريقة [**Shape.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType).
+في Aspose.Cells ، يتم تعيين الأشكال غير الأساسية النوع [**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT-PRIMITIVE). يمكنك التحقق من نوعها باستخدام الطريقة [**Shape.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType).
 
 الوصول إلى بيانات الشكل باستخدام الطريقة [**Shape.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths). إنها تعيد جميع المسارات المتصلة التي تشكل الشكل غير الأساسي. تكون هذه المسارات من نوع ShapePath التي تحتوي على قائمة بجميع الشرائح التي تحتوي على النقاط في كل شريحة.
 
@@ -22,3 +22,4 @@ url: /ar/java/data-in-non-primitive-shape/
 ![todo:image_alt_text](data-in-non-primitive-shape_1.jpg)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-NonPrimitiveShape-1.java" >}}
+{{< app/cells/assistant language="java" >}}

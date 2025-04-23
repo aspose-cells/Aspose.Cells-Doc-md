@@ -79,3 +79,4 @@ I programmatori possono applicare l'effetto esponente sulla font impostando la p
 - [Applica gli effetti esponente e pedice sulle font](/cells/it/net/apply-superscript-and-subscript-effects-on-fonts/)
 - [Ottieni un elenco di font utilizzati in un foglio di calcolo o di lavoro](/cells/it/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 
+{{< app/cells/assistant language="csharp" >}}

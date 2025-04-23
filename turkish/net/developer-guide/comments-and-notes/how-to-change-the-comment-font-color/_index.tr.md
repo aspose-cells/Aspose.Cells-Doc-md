@@ -16,3 +16,4 @@ Aspose.Cells, yoruma font rengini belirlemek için [**Shape.TextBody**](https://
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeCommentFontColor-1.cs" >}}
 
 Yukarıdaki kod tarafından oluşturulan çıktı dosyası, referansınız için ekte bulunmaktadır.
+{{< app/cells/assistant language="csharp" >}}

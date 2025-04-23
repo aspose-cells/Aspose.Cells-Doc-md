@@ -16,3 +16,4 @@ url: /ru/net/link-cells-to-xml-map-elements/
 Если вы откроете [выходной Excel-файл](5115467.xlsx) и нажмете кнопку Developer > Source, вы увидите, что ячейки связаны с элементами XML-карты, и они также будут выделены Microsoft Excel, как показано на этом изображении.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LinkCellsToXmlMapElements-LinkCellsToXmlMapElements.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

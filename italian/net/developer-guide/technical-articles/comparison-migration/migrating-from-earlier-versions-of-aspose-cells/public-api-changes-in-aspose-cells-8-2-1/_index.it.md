@@ -28,3 +28,4 @@ Si prega di consultare l'articolo dettagliato su [Verifica che il valore della c
 {{% /alert %}}
 ## **Aggiunto sovraccarico del metodo ToPrinter(PrinterSettings printerSettings) per la classe WorkbookRender**
 Puoi utilizzare il metodo sovraccaricato per rendere il workbook alla stampante tramite PrinterSettings.
+{{< app/cells/assistant language="csharp" >}}

@@ -25,3 +25,4 @@ La siguiente captura de pantalla muestra el [PDF de salida](61767757.pdf) genera
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Rendering-CreatePdfBookmarkEntryForChartSheet.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

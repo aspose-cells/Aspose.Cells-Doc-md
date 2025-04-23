@@ -28,3 +28,4 @@ Uygulanan doğrulamanın belirlenmesine ek olarak, belirli bir hücre için veri
 {{% /alert %}}
 ## **WorkbookRender sınıfı için PrinterSettings printerSettings aşırı yüklenmiş yöntemi eklendi**
 WorkbookRender sınıfı için aşırı yüklenmiş yöntemi kullanarak çalışma sayfasını Yazıcı üzerine oluşturabilirsiniz.
+{{< app/cells/assistant language="java" >}}

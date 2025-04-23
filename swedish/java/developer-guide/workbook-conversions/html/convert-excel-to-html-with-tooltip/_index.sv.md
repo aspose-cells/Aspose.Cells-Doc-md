@@ -18,3 +18,4 @@ Följande kodexempel laddar [käll excelfilen](AddTooltipToHtmlSample.xlsx) och 
 ## Exempelkod
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-ConvertExcelFileToHtmlWithTooltip-1.java" >}}
+{{< app/cells/assistant language="java" >}}

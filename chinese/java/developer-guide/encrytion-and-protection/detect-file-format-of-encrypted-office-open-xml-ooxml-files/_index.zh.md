@@ -13,8 +13,9 @@ url: /zh/java/detect-file-format-of-encrypted-office-open-xml-ooxml-files/
 
 
 
-Aspose.Cells提供了一种检测加密的 **Microsoft Open XML** 文件文件格式的方法。要识别文件类型，使用下面代码示例中显示的[FileFormatUtil.detectFileFormat](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#detectFileFormat\(java.lang.String，%20java.lang.String\))方法。
+Aspose.Cells 提供检测加密的 **Microsoft Open XML** 文件格式的方法。要识别文件类型，请使用 [FileFormatUtil.detectFileFormat](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#detectFileFormat-java.lang.String-java.lang.String-) 方法，具体示例如下。
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-DetectFileFormatOfEncryptedFiles-1.java" >}}
+{{< app/cells/assistant language="java" >}}

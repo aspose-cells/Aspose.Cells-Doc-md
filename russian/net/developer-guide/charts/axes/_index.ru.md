@@ -39,3 +39,4 @@ Aspose.Cells также позволяет управлять осями гра�
 - [Обработка автоматических единиц оси диаграммы, как в Microsoft Excel](/cells/ru/net/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
 - [Чтение меток оси после вычисления диаграммы](/cells/ru/net/read-axis-labels-after-calculating-the-chart/)
 - [Как установить ось категорий в графике Excel](/cells/ru/net/how-to-set-category-axis/)
+{{< app/cells/assistant language="csharp" >}}

@@ -20,3 +20,4 @@ Aspose.Cells verwendet den gleichen hochgenauen Seitenlayout- und Rendering-Engi
 ![todo:image_alt_text](xml-paper-specification-xps_2.png)
 
 ![todo:image_alt_text](xml-paper-specification-xps_3.png)
+{{< app/cells/assistant language="java" >}}

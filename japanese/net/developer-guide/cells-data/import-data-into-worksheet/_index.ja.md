@@ -145,3 +145,4 @@ Aspose.Cellsは、JSONを処理するための[**JsonUtility**](https://referenc
 ## **高度なトピック**
 - [ワークシートにデータをインポートする際に式フィールドを指定する](/cells/ja/net/specify-formula-fields-while-importing-data-to-worksheet/)
 - [セルデータテーブル行を挿入するときに、最初の行を下にシフト](/cells/ja/net/shift-first-row-down-when-inserting-cells-data-table-rows/)
+{{< app/cells/assistant language="csharp" >}}

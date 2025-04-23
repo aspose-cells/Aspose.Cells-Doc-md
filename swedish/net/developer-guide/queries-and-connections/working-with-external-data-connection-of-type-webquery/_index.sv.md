@@ -26,3 +26,4 @@ Här är konsolens utdata av den ovanstående koden med denna [exempel excelfile
 Web Query URL: https://docs.aspose.com/cells/net/
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -38,3 +38,4 @@ Das folgende Beispiel erstellt eine neue Arbeitsmappe von Grund auf, schreibt He
 Im folgenden Beispiel wird eine vorhandene Microsoft Excel-Vorlagendatei mit dem Namen "Sample.xlsx" geöffnet, es wird "Hello World!"-Text in die Zelle A1 auf dem ersten Arbeitsblatt eingegeben und die Arbeitsmappe wird gespeichert.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

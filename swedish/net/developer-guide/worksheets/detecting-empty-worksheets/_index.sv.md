@@ -28,3 +28,4 @@ Det är möjligt att ett visst kalkylblad inte har några befolkade celler, men 
 ## **Programmeringsexempel**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-DetectEmptyWorksheets-DetectEmptyWorksheets.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

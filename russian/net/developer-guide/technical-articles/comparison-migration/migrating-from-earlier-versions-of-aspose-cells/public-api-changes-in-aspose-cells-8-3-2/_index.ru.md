@@ -272,3 +272,4 @@ opts.IsFontSubstitutionCharGranularity = true;
 Рекомендуется использовать метод Workbook.CreateStyle для создания и управления стилями для экземпляра Workbook вместо создания стиля с помощью метода StyleCollection.Add. Кроме того, для получения именованного стиля вместо StyleCollection[string] можно использовать метод Workbook.GetNamedStyle(string).
 ### **Устаревший метод PivotItem.Move(int count).**
 С выпуском Aspose.Cells 8.3.2 API было добавлено еще одно перегруженное издание метода PivotItem.Move, который принимает целочисленный параметр для счета и булевый параметр для перемещения элемента сводной таблицы в пределах родительского узла.
+{{< app/cells/assistant language="csharp" >}}

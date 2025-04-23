@@ -28,3 +28,4 @@ El código primero carga el archivo CSV, luego lo importa nuevamente en la celda
 |![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)|
 | :- |
 
+{{< app/cells/assistant language="csharp" >}}

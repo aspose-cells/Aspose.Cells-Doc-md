@@ -33,3 +33,4 @@ Kıvılcım grubu veri aralığını ve konumunu belirterek kıvılcım kopyalam
 Aşağıdaki örnek kod, yukarıdaki ekran görüntüsünde gösterildiği gibi kaynak Excel dosyasını yükler, ardından ilk kıvılcım grubuna erişir ve kıvılcım grubu içindeki veri aralıklarını ve konumlarını ekler. Son olarak, aynı şekilde ekran görüntüsünde gösterildiği gibi çıktı Excel dosyasını diske yazar.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopySparkline-CopySparkline.java" >}}
+{{< app/cells/assistant language="java" >}}

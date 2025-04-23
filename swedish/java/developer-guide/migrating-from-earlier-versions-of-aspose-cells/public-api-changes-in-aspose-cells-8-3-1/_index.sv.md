@@ -187,3 +187,4 @@ workbook.save("output.xlsx");
 Vänligen kontrollera artikeln [Kopiera Sparkline genom att ange dataräckvidd och plats för Sparkline-gruppen](/cells/sv/java/kopiera-sparkline-genom-att-ange-dataräckvidd-och-plats-för-sparkline-gruppen/) för mer information.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

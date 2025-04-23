@@ -33,3 +33,4 @@ Bu durumda elde edilen elektronik tablo aşağıdaki gibi görünecektir.
 
 |![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)|
 | :- |
+{{< app/cells/assistant language="csharp" >}}

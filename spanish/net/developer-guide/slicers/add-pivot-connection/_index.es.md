@@ -19,3 +19,4 @@ El siguiente código de ejemplo carga el [archivo de Excel de ejemplo](add-pivot
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-Adding-Pivot-Connection.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

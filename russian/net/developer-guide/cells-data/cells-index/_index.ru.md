@@ -36,3 +36,4 @@ Aspose.Cells предоставляет следующие свойства и �
 1. Получите индекс строки по имени строки.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-get-index.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

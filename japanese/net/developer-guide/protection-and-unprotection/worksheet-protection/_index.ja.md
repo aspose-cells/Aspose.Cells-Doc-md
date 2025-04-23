@@ -38,3 +38,4 @@ Aspose.Cells APIを使えば、ワークシートの保護の解除は簡単で�
 - [ワークシートの保護](/cells/ja/net/protecting-worksheets/)
 - [ワークシートの保護を解除する](/cells/ja/net/unprotect-a-worksheet/)
 - [ワークシートを保護するために使用されたパスワードの検証](/cells/ja/net/verify-password-used-to-protect-the-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

@@ -20,3 +20,4 @@ url: /ar/java/read-chart-subtitle-from-ods-file/
 Chart Subtitle: Sample Chart Subtitle
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

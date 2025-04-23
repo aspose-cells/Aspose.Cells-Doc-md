@@ -15,3 +15,4 @@ url: /ja/net/import-and-export-worksheet/
   - [ArrayListからのインポート](/cells/ja/net/importing-from-arraylist/)
   - [カスタムオブジェクトからのインポート](/cells/ja/net/importing-from-custom-objects/)
   - [DataTableからのインポート](/cells/ja/net/importing-from-datatable/)
+{{< app/cells/assistant language="csharp" >}}

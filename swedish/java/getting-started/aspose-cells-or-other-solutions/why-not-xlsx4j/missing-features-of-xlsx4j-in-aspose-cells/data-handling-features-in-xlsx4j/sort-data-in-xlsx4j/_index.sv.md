@@ -84,3 +84,4 @@ workbook.save(dataDir + "AsposeSortedData_Out.xls");
 För mer detaljer, besök [Sortera Data](/java/sortera-data) eller [Data Sorting](/cells/sv/java/data-sorting).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

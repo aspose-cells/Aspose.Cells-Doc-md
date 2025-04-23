@@ -33,3 +33,4 @@ Folgende Parameter sind erlaubt:
 - kopierenstil - Kopieren Sie den Basiszellenstil in alle Zellen dieser Spalte.
 
 Die Parameter **noadd** und skip können kombiniert werden, um Daten in abwechselnden Zeilen einzufügen.
+{{< app/cells/assistant language="csharp" >}}

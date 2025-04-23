@@ -121,3 +121,4 @@ Den här artikeln förklarar hur man kopierar och flyttar kalkylblad inom och me
 Aspose.Cells har gynnats av år av forskning, design och noggrann justering. Vi välkomnar dina frågor, kommentarer och förslag på [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9). Vi garanterar ett snabbt svar.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

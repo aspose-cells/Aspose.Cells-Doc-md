@@ -57,3 +57,4 @@ Per rimuovere una specifica interruzione di pagina, chiamare i metodi [**Horizon
 ## **Importante sapere**
 
 Quando si impostano le proprietà **FitToPages** (cioè [**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) e [**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)) nelle impostazioni di impaginazione, le impostazioni delle interruzioni di pagina vengono influenzate, quindi, se si stampa il foglio di lavoro, le impostazioni delle interruzioni di pagina non vengono considerate anche se sono ancora impostate.
+{{< app/cells/assistant language="csharp" >}}

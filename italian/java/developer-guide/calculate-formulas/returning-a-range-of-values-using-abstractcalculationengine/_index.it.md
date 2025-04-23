@@ -22,3 +22,4 @@ Creare una classe con una funzione *CalcolaFunzionePersonalizzata*. Questa clas
 Ora utilizza la funzione sopra nel tuo programma
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ReturningRangeOfValues-1.java" >}}
+{{< app/cells/assistant language="java" >}}

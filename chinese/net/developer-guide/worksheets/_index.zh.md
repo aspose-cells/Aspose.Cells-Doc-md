@@ -87,3 +87,4 @@ Aspose.Cells 提供特定的 API 调用来激活工作表和单元格。例如�
 - [使用 Aspose.Cells 利用 OpenXml 的 Sheet.SheetId 属性](/cells/zh/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [工作表视图](/cells/zh/net/worksheet-views/)
 
+{{< app/cells/assistant language="csharp" >}}

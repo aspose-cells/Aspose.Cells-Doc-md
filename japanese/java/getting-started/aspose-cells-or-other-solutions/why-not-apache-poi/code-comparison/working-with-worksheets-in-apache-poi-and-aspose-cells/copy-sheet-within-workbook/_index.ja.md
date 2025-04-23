@@ -75,3 +75,4 @@ Sheet cloneSheet = wb.cloneSheet(0);
 詳細については、[ワークシートのコピーと移動](/cells/ja/java/copying-and-moving-worksheets)をご覧ください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

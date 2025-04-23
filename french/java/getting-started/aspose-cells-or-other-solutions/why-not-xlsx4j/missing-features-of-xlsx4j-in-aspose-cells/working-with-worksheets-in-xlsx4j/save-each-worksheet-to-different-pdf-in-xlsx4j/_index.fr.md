@@ -69,3 +69,4 @@ for (int j = 0; j < workbook.getWorksheets().getCount(); j++)
 Pour plus de détails, visitez [Enregistrer chaque feuille de calcul dans un fichier PDF différent](/cells/fr/java/enregistrer-chaque-feuille-de-calcul-dans-un-fichier-pdf-different).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

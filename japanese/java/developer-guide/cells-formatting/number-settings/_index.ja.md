@@ -73,7 +73,7 @@ Aspose.Cells は、数値と日付の表示形式を構成するためのいく�
 
 {{% alert color="primary" %}}
 
-[**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom)を使用して数値形式を設定すると、以前に[**Number**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number） を使用して設定された形式は上書きされ、その逆も同様です。
+[**Number**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number)で設定された書式よりも前の書式は上書きされ、逆もまた然りです。
 
 {{% /alert %}}
 
@@ -81,3 +81,4 @@ Aspose.Cells は、数値と日付の表示形式を構成するためのいく�
 - [Style.Customプロパティを設定する際のカスタム数値形式を確認する](/cells/ja/java/check-custom-number-format-when-setting-style-custom-property/)
 - [ブックでのカスタム数値小数点およびグループの区切りの指定](/cells/ja/java/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [DBNumカスタムパターンの書式設定の指定](/cells/ja/java/specifying-dbnum-custom-pattern-formatting/)
+{{< app/cells/assistant language="java" >}}

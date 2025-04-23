@@ -63,3 +63,4 @@ cell.setCellStyle(cs);
 詳細については、[改行とテキストの折り返し](/java/line-breaks-and-text-wrapping) を参照してください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

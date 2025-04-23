@@ -33,3 +33,4 @@ description: 「Aspose.Cells for Java」を使用してExcelに背景画像を�
 
 - [ODSファイルで背景を操作する](/cells/ja/java/working-with-background-in-ods-files/)
 
+{{< app/cells/assistant language="java" >}}

@@ -28,3 +28,4 @@ url: /zh/net/public-api-changes-in-aspose-cells-8-2-1/
 {{% /alert %}}
 ## **为 WorkbookRender 类添加了ToPrinter(PrinterSettings printerSettings)方法的重载**
 您可以使用重载的方法将工作簿呈现到打印机，通过PrinterSettings。
+{{< app/cells/assistant language="csharp" >}}

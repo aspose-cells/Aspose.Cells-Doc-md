@@ -26,3 +26,4 @@ url: /ja/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-SpecifyHtmlCrossTypeInOutputHTML.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

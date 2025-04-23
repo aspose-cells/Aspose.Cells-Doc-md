@@ -50,3 +50,4 @@ Se lanzará una excepción si intenta abrir archivos de Excel que no son nativos
 Existe una gran probabilidad de que el constructor [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) arroje *System.OutOfMemoryException* al cargar hojas de cálculo grandes. Esta excepción sugiere que la memoria disponible es insuficiente para cargar completamente la hoja de cálculo en la memoria, por lo tanto, la hoja de cálculo debe cargarse habilitando las Preferencias de memoria.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

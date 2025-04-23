@@ -65,3 +65,4 @@ for (int j = 0; j < workbook.Worksheets.Count; j++)
 更多详情，请访问[将每个工作表保存为不同的 PDF 文件](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

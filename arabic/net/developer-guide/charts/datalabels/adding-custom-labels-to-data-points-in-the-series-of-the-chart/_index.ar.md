@@ -16,3 +16,4 @@ url: /ar/net/adding-custom-labels-to-data-points-in-the-series-of-the-chart/
 يقوم الكود التالي بإنشاء **رسم بياني مبعثر متصل بخطوط تحمل علامات البيانات** ومن ثم يضيف **تسميات مخصصة** لـ **نقاط البيانات** في **السلسلة** من **الرسم البياني**. تعرض كل تسمية مخصصة **اسم السلسلة** و **اسم النقطة**. يمكنك استخدام أي نص آخر بدلاً من ذلك.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-AddCustomLabelsToDataPoints-AddCustomLabelsToDataPointsInTheSeriesOfChart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

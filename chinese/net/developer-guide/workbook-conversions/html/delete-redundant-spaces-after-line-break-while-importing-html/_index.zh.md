@@ -24,3 +24,4 @@ url: /zh/net/delete-redundant-spaces-after-line-break-while-importing/
 以下示例代码展示了[**HTMLLoadOptions.DeleteRedundantSpaces**](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/deleteredundantspaces)属性的用法。请将其设置为**true**或**false**以获得上面截图中显示的输出。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DeleteRedundantSpacesWhileImportingFromHtml-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

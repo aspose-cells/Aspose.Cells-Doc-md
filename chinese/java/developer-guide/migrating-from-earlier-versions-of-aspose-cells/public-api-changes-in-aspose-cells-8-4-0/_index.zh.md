@@ -270,3 +270,4 @@ workbook.save("output.xlsx");
 请使用getEnumerator方法来迭代所有单元格。
 ### **弃用的DrawObject.Image Property**
 请改用DrawObject.ImageBytes属性获取图像数据。
+{{< app/cells/assistant language="java" >}}

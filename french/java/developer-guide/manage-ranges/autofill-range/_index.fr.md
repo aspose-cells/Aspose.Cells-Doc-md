@@ -18,3 +18,4 @@ L'exemple suivant montre comment effectuer une opération de remplissage automat
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-CSharp-Data-Range-AutoFill.java" >}}
 
+{{< app/cells/assistant language="java" >}}

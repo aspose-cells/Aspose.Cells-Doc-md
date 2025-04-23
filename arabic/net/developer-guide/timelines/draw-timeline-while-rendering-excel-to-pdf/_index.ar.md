@@ -17,3 +17,4 @@ keywords: تحويل الجدول الزمني إلى PDF بدون Office 2013،
 ## **الكود المثالي**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Timelines-DrawTimelinetoPdf.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

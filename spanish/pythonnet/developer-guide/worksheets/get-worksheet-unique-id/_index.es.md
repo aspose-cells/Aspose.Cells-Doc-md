@@ -3,13 +3,13 @@ title: Obtener el identificador único de la hoja de trabajo
 type: docs
 weight: 190
 url: /es/python-net/get-worksheet-unique-id/
-description: Este artículo muestra cómo obtener el identificador único de una hoja de cálculo de Excel utilizando Aspose.Cells para Python via .NET APIs.
-keywords: Biblioteca de Excel de Python, identificador único de hoja de Excel en Python, obtener identificador único de hoja de Excel en Python.
+description: Este artículo muestra cómo obtener el ID único de una hoja de Excel usando las API de Aspose.Cells para Python via .NET.
+keywords: Biblioteca de Excel para Python, ID único de hoja de Excel en Python, Obtener ID único de hoja en Python.
 ---
 
-## **Cómo obtener el identificador único de una hoja de cálculo.**
+## **Cómo obtener el ID único de la hoja**
 
-Aspose.Cells para Python via .NET proporciona la capacidad de obtener el identificador único de una hoja de cálculo utilizando la propiedad [**Worksheet.unique_id**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/unique_id). El siguiente fragmento de código demuestra el uso de la propiedad [**Worksheet.unique_id**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/unique_id) para imprimir el identificador único de una hoja de cálculo. El siguiente fragmento de código utiliza este archivo de Excel de muestra (105480213.xlsx).
+Aspose.Cells para Python via .NET proporciona la capacidad de obtener el ID único de una hoja mediante la propiedad [**Worksheet.unique_id**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/unique_id). El siguiente fragmento de código demuestra cómo usar la propiedad [**Worksheet.unique_id**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/unique_id) para imprimir el ID único de una hoja. El siguiente fragmento de código usa este [archivo de ejemplo de Excel](105480213.xlsx).
 
 ### Código Fuente
 

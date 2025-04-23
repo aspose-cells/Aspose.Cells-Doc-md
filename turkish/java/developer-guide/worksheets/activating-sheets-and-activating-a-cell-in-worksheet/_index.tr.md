@@ -35,3 +35,4 @@ Aşağıdaki örnek, bir çalışma sayfasını etkinleştirmeyi ve içinde etki
 **Değerlendirme** modunda, yani; geçerli bir lisans ayarlanmadan, etkin çalışma sayfası her zaman değerlendirme filigranını içeren sayfa olacaktır. Bu davranış sadece uygulamanın başında lisans ayarlanarak geçersiz kılınabilir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

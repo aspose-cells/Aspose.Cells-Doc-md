@@ -67,7 +67,7 @@ url: /ru/java/opening-files-with-different-formats/
 
 ### **Открытие файлов Microsoft Excel 97 или более поздних версий XLS**
 
-Для открытия файлов XLS Microsoft Excel XLS 97 или более поздних версий, создайте экземпляр [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) с путем или потоком файла-шаблона. Или используйте метод [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) и выберите значение [**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003) в перечислении [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat).
+Для открытия файлов XLS Microsoft Excel XLS 97 или более поздних версий, создайте экземпляр [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) с путем или потоком файла-шаблона. Или используйте метод [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) и выберите значение [**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL-97-TO-2003) в перечислении [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat).
 
 #### **Пример**
 
@@ -89,7 +89,7 @@ Aspose.Cells позволяет разработчикам открывать ф
 
 Файлы SpreadsheetML представляют собой XML-представления ваших электронных таблиц, включая всю информацию о таблице, такую как форматирование, формулы и т. д. С момента появления Microsoft Excel XP была добавлена опция экспорта в формат XML, позволяющая экспортировать электронные таблицы в файлы SpreadsheetML.
 
-Для открытия файлов SpreadsheetML используйте класс [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) и выберите значение [**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET_ML) в перечислении [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat).
+Для открытия файлов SpreadsheetML используйте класс [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) и выберите значение [**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET-ML) в перечислении [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat).
 
 #### **Пример**
 
@@ -181,3 +181,4 @@ StarOffice Calc подобен Microsoft Excel и поддерживает фо�
 - [Чтение файла CSV с различными кодировками](/cells/ru/java/reading-csv-file-with-multiple-encodings/)
 - [Прекратите преобразование или загрузку с использованием объекта InterruptMonitor, если это занимает слишком много времени](/cells/ru/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [Использование API LightCells](/cells/ru/java/using-lightcells-api/)
+{{< app/cells/assistant language="java" >}}

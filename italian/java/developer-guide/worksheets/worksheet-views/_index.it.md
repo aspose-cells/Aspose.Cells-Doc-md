@@ -47,9 +47,9 @@ Anche Aspose.Cells consente agli sviluppatori di impostare il fattore di zoom de
 ### **Controllare il fattore di zoom**
 Aspose.Cells fornisce una classe [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) che rappresenta un file Microsoft Excel. La classe [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) contiene una [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) che consente di accedere a ciascun foglio di lavoro in un file Excel.
 
-Un foglio di lavoro è rappresentato dalla classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). La classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) fornisce una vasta gamma di proprietà e metodi per gestire i fogli di lavoro. Per impostare il fattore di zoom di un foglio di lavoro, utilizzare il metodo [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) della classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
+Una worksheet è rappresentata dalla classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). La classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) fornisce un'ampia gamma di proprietà e metodi per gestire i fogli di lavoro. Per impostare il fattore di zoom di un foglio, usa il metodo [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) della classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
-Di seguito è riportato un esempio completo che dimostra come utilizzare il metodo [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) per impostare il fattore di zoom del primo foglio di lavoro in un file Excel.
+Esempio completo qui sotto che dimostra come usare il metodo [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) per impostare il livello di zoom del primo foglio di lavoro in un file Excel.
 
 Nella schermata sottostante, è possibile vedere il file Book1.xls nella visualizzazione predefinita.
 
@@ -77,14 +77,14 @@ Aspose.Cells consente anche agli sviluppatori di applicare il blocco delle celle
 
 Aspose.Cells fornisce una classe [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) che rappresenta un file Microsoft Excel. La classe [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) contiene una [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) che consente di accedere a ciascun foglio di lavoro in un file Excel.
 
-Un foglio di lavoro è rappresentato dalla classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). La classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) fornisce una vasta gamma di proprietà e metodi per gestire i fogli di lavoro. Per configurare il blocco celle, chiamare il metodo [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) della classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Il metodo [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) richiede i seguenti parametri:
+Una worksheet è rappresentata dalla classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). La classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) fornisce un'ampia gamma di proprietà e metodi per la gestione dei fogli di lavoro. Per configurare le celle fredde, chiamare il metodo [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-). Il metodo [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) accetta i seguenti parametri:
 
 - **Riga**, l'indice di riga della cella da cui inizierà il blocco.
 - **Colonna**, l'indice di colonna della cella da cui inizierà il blocco.
 - **Righe bloccate**, il numero di righe visibili nel riquadro superiore.
 - **Colonne bloccate**, il numero di colonne visibili nel riquadro sinistro.
 
-Di seguito è riportato un esempio completo che mostra come utilizzare il metodo [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) della classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) per bloccare righe e colonne (a partire da C4, rappresentato dalla quarta riga e terza colonna, dove le righe e le colonne partono da indici 0) del primo foglio di lavoro del file Excel.
+Esempio completo qui sotto che mostra come usare il metodo [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) per bloccare righe e colonne (a partire da C4, rappresentato dalla quarta riga e dalla terza colonna, dove le righe e le colonne partono da 0) del primo foglio di Excel.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FreezePanes-FreezePanes.java" >}}
 
@@ -106,7 +106,7 @@ Se hai bisogno di dividere lo schermo per ottenere due visualizzazioni diverse n
 I riquadri funzionano simultaneamente. Se apporti una modifica in uno, la modifica appare contemporaneamente nell'altro. Aspose.Cells fornisce la funzionalità di divisione dei riquadri agli utenti.
 ### **Applicare e rimuovere divisioni dei riquadri**
 #### **Divisione dei riquadri**
-Aspose.Cells fornisce una classe [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) che rappresenta un file di Microsoft Excel. La classe [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) fornisce un'ampia gamma di proprietà e metodi per gestire i file di Excel. Per implementare le visualizzazioni divise, utilizza il metodo [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\)) della classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Per rimuovere le divisioni dei riquadri, utilizza il metodo [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\))
+Aspose.Cells fornisce una classe [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) che rappresenta un file Microsoft Excel. La classe [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) offre un'ampia gamma di proprietà e metodi per la gestione dei file Excel. Per implementare visualizzazioni divise, usa il metodo [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split--) della classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Per rimuovere le celle divise, utilizza il metodo [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--).
 
 Nell'esempio, viene utilizzato un semplice file di modello che viene caricato, poi viene applicata la funzione di divisione dei riquadri su una cella nel primo foglio di lavoro. Il file aggiornato viene salvato.
 
@@ -122,7 +122,7 @@ Dopo aver eseguito il codice sopra, il file generato ha una visualizzazione divi
 
 ![todo:image_alt_text](worksheet-views_9.png)
 #### **Rimozione dei riquadri**
-Gli sviluppatori possono rimuovere i riquadri divisi utilizzando il metodo [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) della classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
+Gli sviluppatori possono rimuovere le celle divise usando il metodo [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovePanes-RemovePanes.java" >}}
 
@@ -133,3 +133,4 @@ Gli sviluppatori possono rimuovere i riquadri divisi utilizzando il metodo [remo
 - [Mostra e nascondi elementi](/cells/it/java/show-and-hide-elements/)
 - [Mostra le formule invece dei valori in un foglio di lavoro](/cells/it/java/show-formulas-instead-of-values-in-a-worksheet/)
 - [Usa le opzioni di controllo degli errori](/cells/it/java/use-error-checking-options/)
+{{< app/cells/assistant language="java" >}}

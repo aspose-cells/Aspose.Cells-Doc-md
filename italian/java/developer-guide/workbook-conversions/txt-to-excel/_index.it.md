@@ -51,3 +51,4 @@ Per aprire file delimitati da tabulazioni, i programmatori dovrebbero utilizzare
 - [Carica o importa file CSV con formule](/cells/it/java/load-or-import-csv-file-with-formulas/)
 - [Taglia righe e colonne vuote iniziali durante l'esportazione di fogli di calcolo nel formato CSV](/cells/it/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
 
+{{< app/cells/assistant language="java" >}}

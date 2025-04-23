@@ -53,3 +53,4 @@ workbook.save(dataDir + "AsposeTotal.xls");
 更多详情，请访问[创建小计](/cells/zh/java/creating-subtotals)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

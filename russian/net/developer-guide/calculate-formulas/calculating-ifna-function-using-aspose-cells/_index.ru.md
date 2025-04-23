@@ -28,3 +28,4 @@ Aspose.Cells поддерживает вычисление функции Excel 
 Orange
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

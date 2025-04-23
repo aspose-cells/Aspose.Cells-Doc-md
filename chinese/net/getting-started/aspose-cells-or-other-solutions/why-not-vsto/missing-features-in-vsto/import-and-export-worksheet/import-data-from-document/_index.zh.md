@@ -29,3 +29,4 @@ Cells集合提供非常有用的方法，可以从不同的数据源中导入数
 - [从ArrayList导入](/cells/zh/net/importing-from-arraylist/)
 - [从自定义对象导入](/cells/zh/net/importing-from-custom-objects/)
 - [从DataTable导入](/cells/zh/net/importing-from-datatable/)
+{{< app/cells/assistant language="csharp" >}}

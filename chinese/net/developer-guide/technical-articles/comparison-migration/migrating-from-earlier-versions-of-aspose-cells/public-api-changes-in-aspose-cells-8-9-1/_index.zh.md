@@ -286,3 +286,4 @@ book.CalculateFormula(options);
 改用 FontConfigs.SetFontFolders(string[], bool) 方法，将 folder recursive 参数设为 false。
 ### **已废弃 CellsHelper.FontFiles 属性**
 改用 FontConfigs.SetFontSources(FontSourceBase[]) 方法。
+{{< app/cells/assistant language="csharp" >}}

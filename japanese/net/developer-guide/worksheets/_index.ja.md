@@ -87,3 +87,4 @@ Aspose.Cellsには、シートとセルをアクティブにするための特�
 - [Aspose.Cellsを使用したOpenXmlのSheet.SheetIdプロパティを利用する](/cells/ja/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [ワークシートビュー](/cells/ja/net/worksheet-views/)
 
+{{< app/cells/assistant language="csharp" >}}

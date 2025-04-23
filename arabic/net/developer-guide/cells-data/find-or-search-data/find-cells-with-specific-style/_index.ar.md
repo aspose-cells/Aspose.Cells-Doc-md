@@ -16,3 +16,4 @@ keywords: البحث عن الخلايا ذات النمط المحدد، الب
 الشفرة في هذا المثال تجد جميع الخلايا التي لها نفس النمط مثل الخلية A1. بعد تنفيذ الشفرة، تحتوي جميع الخلايا التي لها نفس النمط كما في A1 على نص "تم العثور".
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindCellsWithSpecificStyle-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

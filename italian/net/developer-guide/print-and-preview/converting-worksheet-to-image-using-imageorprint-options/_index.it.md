@@ -57,3 +57,4 @@ Un'immagine TIFF può contenere più di una cornice. È possibile salvare l'inte
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingImageOrPrintOptions-UseWorkbookRenderForImageConversion-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

@@ -77,3 +77,4 @@ För att ställa in samma kolumnbredd för alla kolumner i arbetsboken, använd 
 - [Infoga och ta bort rader och kolumner i Excel-fil](/cells/sv/net/inserting-and-deleting-rows-and-columns/)
 - [Ta bort dubblettrader i ett kalkylblad](/cells/sv/net/remove-duplicate-rows-in-a-worksheet/)
 - [Uppdatera referenser i andra arbetsblad samtidigt som tomma kolumner och rader tas bort i ett arbetsblad](/cells/sv/net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

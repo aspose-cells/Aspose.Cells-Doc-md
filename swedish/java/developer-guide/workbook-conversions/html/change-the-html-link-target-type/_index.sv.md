@@ -27,3 +27,4 @@ Som du kan se är målattributet i ovanstående HTML-länk **_self**. Du kan kon
 Följande kod illustrerar användningen av [HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType)-egenskapen. Den ändrar länkens målknapptype till **blank**. Som standard är det **förälder**. Du kan hämta [käll excelfilen](5472932.xlsx) från den här länken, men du kan använda vilken excelfil som helst som innehåller en HTML-hyperlänk inuti den för att köra denna kod.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeHTMLLinkTargetType-ChangeHTMLLinkTargetType.java" >}}
+{{< app/cells/assistant language="java" >}}

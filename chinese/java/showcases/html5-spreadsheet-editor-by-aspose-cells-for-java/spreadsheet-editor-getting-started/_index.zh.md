@@ -192,3 +192,4 @@ HTML5电子表格编辑器是一个开放源项目，允许每个人都有最大
 产品在没有Aspose许可证的情况下可以使用，[但存在一些限制](/cells/zh/java/licensing/)。要解除限制，您可以获取[免费临时许可证](https://purchase.aspose.com/temporary-license)或[购买完整许可证](https://purchase.aspose.com/buy)。
 
 默认情况下，编辑器将尝试从**src/main/resources/com/aspose/spreadsheeteditor**目录中的**Aspose.Total.Java.lic**文件加载许可证文件。只需将许可证文件复制到该目录即可。默认行为可以通过编辑**AsposeLicense**类来更改。
+{{< app/cells/assistant language="java" >}}

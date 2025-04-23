@@ -80,3 +80,4 @@ Aspose.Cells تتيح لك إضافة وإزالة التنسيق الشرطي �
 - [توليد صور شريط بيانات التنسيق الشرطي](/cells/ar/net/generate-conditional-formatting-databars-images/)
 - [الحصول على مجموعات الرموز، أشرطة البيانات أو كائنات مقياس الألوان المستخدمة في التنسيق الشرطي](/cells/ar/net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
 
+{{< app/cells/assistant language="csharp" >}}

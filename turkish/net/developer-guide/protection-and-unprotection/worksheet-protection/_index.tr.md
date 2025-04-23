@@ -38,3 +38,4 @@ Aspose.Cells API ile çalışma sayfasını korumak kolaydır. Eğer çalışma 
 - [Çalışma Sayfalarını Koruma](/cells/tr/net/protecting-worksheets/)
 - [Bir Çalışma Sayfasını Korumayı Kaldırma](/cells/tr/net/unprotect-a-worksheet/)
 - [Çalışma Sayfasını Korumak İçin Kullanılan Şifreyi Doğrulama](/cells/tr/net/verify-password-used-to-protect-the-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

@@ -47,3 +47,4 @@ Aspose.Cells for Java 提供了在工作表中查找具有特定样式的单元�
 ![todo:image_alt_text](find-cells-with-specific-style_2.png)
 
 **图例：** 通过**A1**样式搜索后找到的输出文件中的单元格
+{{< app/cells/assistant language="java" >}}

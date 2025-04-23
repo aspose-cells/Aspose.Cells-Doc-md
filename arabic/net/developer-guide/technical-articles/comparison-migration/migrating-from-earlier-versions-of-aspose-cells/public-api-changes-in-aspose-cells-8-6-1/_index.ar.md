@@ -174,3 +174,4 @@ else
 ## **واجهات برمجة التطبيق القديمة**
 ### **تم تهجير طريقة Workbook.CheckWriteProtectedPassword**
 مع إصدار الإصدار 8.6.1، فقد تم وضع علامة تهجير على طريقة Workbook.CheckWriteProtectedPassword. من المستحسن استخدام طريقة WorkbookSettings.WriteProtection.ValidatePassword التي يمكنها قبول قيمة سلسلة كقيمة معلمة وتُرجع قيمة Boolean إذا كانت كلمة المرور مطابقة لكلمة المرور المحددة لجدول البيانات.
+{{< app/cells/assistant language="csharp" >}}

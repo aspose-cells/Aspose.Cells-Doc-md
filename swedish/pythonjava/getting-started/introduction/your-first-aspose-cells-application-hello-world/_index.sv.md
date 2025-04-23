@@ -11,7 +11,7 @@ Det här nybörjartemat visar hur utvecklare kan skapa en enkel första applikat
 
 {{% /alert %}}
 
-### **Skapa Hello World-applikationen**
+## **Skapa Hello World-applikationen**
 
 För att skapa Hello World-applikationen med Aspose.Cells API:
 
@@ -26,7 +26,7 @@ För att skapa Hello World-applikationen med Aspose.Cells API:
 
 Exemplen nedan visar ovanstående steg.
 
-#### **Skapa en arbetsbok**
+### **Skapa en arbetsbok**
 
 I följande exempel skapas en ny arbetsbok från grunden, skriver orden "Hello World!" i cellen A1 på den första arbetsbladet och sparar filen.
 
@@ -36,7 +36,7 @@ I följande exempel skapas en ny arbetsbok från grunden, skriver orden "Hello W
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "CreatingHelloWorldFile.py" >}}
 
-#### **Öppna en befintlig fil**
+### **Öppna en befintlig fil**
 
 I följande exempel öppnas en befintlig Microsoft Excel-mallfil som kallas **bok1.xls**, skriver orden "Hello World!" i cellen A1 på den första arbetsbladet och sparar arbetsboken som en ny fil.
 

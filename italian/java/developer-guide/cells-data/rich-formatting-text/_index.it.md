@@ -47,3 +47,4 @@ Courier New
 Verdana
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

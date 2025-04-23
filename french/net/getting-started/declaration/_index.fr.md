@@ -72,3 +72,4 @@ workbook.Save(MapPath("~") + @"\dest.xlsx");
 
 
 
+{{< app/cells/assistant language="csharp" >}}

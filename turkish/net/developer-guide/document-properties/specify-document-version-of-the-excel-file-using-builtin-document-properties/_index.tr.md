@@ -18,3 +18,4 @@ Aşağıdaki örnek kod, başlık, yazarlar ve Sürüm numarasını içeren yerl
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "LoadingSavingConvertingAndManaging-SpecifyDocumentVersionOfExcelFile.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

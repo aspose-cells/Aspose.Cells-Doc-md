@@ -24,3 +24,4 @@ url: /ar/net/returning-a-range-of-values-using-abstractcalculationengine/
 الآن استخدم الوظيفة أعلاه في برنامجك
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingAbstractCalculationEngine-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

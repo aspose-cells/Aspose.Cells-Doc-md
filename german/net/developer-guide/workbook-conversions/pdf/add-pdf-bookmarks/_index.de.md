@@ -22,3 +22,4 @@ Bitte sehen Sie sich den folgenden Beispielcode an, um zu erfahren, wie PDF-Lese
 Wenn Ihre Arbeitsmappe Formeln enthält, ist es am besten, [**Workbook.CalculateFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula/index) kurz vor dem Rendern der Arbeitsmappe im PDF-Format aufzurufen. Dadurch wird sichergestellt, dass die formelabhängigen Werte aktualisiert und im PDF-Format korrekt dargestellt werden.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -43,3 +43,4 @@ Aspose.Cells поддерживает извлечение объектов не
 - [Получение или установка идентификатора класса встроенного объекта OLE](/cells/ru/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 - [Вставка файла WAV в качестве объекта OLE](/cells/ru/net/inserting-a-wav-file-as-an-ole-object/)
 
+{{< app/cells/assistant language="csharp" >}}

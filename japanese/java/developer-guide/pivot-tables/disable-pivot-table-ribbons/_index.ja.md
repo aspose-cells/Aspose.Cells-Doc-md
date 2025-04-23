@@ -16,3 +16,4 @@ url: /ja/java/disable-pivot-table-ribbons/
 次のコードは、シートからピボットテーブルを取得し、そのフラグを**false**に設定する[**setEnableWizard**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#EnableWizard)を呼び出すことで、この機能を示しています。サンプルピボットテーブルファイルは、この[リンク](71630876.xlsx)からダウンロードできます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-DisablePivotTableRibbon-1.java" >}}
+{{< app/cells/assistant language="java" >}}

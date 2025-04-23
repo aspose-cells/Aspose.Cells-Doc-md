@@ -174,3 +174,4 @@ Aspose.Cells for Java 8.5.2, ConsolidationFunction.DISTINCT_COUNT alanını Data
 Farklı Sayıda konsolidasyon fonksiyonu yalnızca Microsoft Excel 2013 tarafından desteklenmektedir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

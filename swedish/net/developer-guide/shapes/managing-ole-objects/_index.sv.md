@@ -43,3 +43,4 @@ Aspose.Cells stöder att extrahera objekt av ovanliga typer som MOL (molekylär 
 - [Hämta eller ange klassidentifieraren för det inbäddade OLE-objektet](/cells/sv/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 - [Infoga en WAV-fil som ett Ole-objekt](/cells/sv/net/inserting-a-wav-file-as-an-ole-object/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -25,3 +25,4 @@ Aspose.Cells предоставляет ту же функциональност
 ## **Добавление Именованного Диапазона с Областью Листа**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddNamedRangeWithWorksheetScope-AddNamedRangeWithWorkbookScope.java" >}}
+{{< app/cells/assistant language="java" >}}

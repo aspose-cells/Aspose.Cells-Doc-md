@@ -173,3 +173,4 @@ Wenn der Wert des Dropdown-Selectors geändert wird, wird das Ereignis auf dem S
     }
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

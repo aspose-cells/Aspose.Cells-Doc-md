@@ -25,9 +25,9 @@ Klassen [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Wor
 
 Alla sökmetoder returnerar cellreferenser för alla celler som innehåller det angivna sökvärdet.
 ## **Hitta med en formel**
-Utvecklare kan hitta en angiven formel i kalkylbladet genom att anropa [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-samlingens metod [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)), ställa in [FindOptions.setLookInType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookInType) till [LookInType.FORMULAS](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#FORMULAS) och skicka den som parameter till metoden [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)).
+Utvecklare kan hitta en angiven formel i kalkylbladet genom att anropa [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) samlingens [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells.Cell-) metod, ställa in [FindOptions.setLookInType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookInType) till [LookInType.FORMULAS](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#FORMULAS) och skicka det som parameter till [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells.Cell-) metod.
 
-Vanligtvis tar [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) metoden emot två eller fler parametrar:
+Vanligtvis accepterar [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells.Cell-) metoden två eller fler parametrar:
 
 - Objekt att söka efter: representerar ett objekt som behöver hittas i kalkylbladet.
 - Den föregående cellen: representerar den föregående cellen med samma formel. Denna parameter kan ställas in på null vid sökning från början.
@@ -41,11 +41,11 @@ Vanligtvis tar [find](https://reference.aspose.com/cells/java/com.aspose.cells/c
 ## **Söka efter strängar**
 Det är enkelt och flexibelt att söka efter celler som innehåller en sträng. Det finns olika sätt att söka, till exempel söka efter celler som innehåller strängar som börjar med en specifik tecken eller teckenserie.
 ### **Söka efter strängar som börjar med specifika tecken**
-För att söka efter det första tecknet i en sträng, anropas [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-samlingens metod [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)), ställ in [FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) till [LookAtType.START_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#START_WITH) och skicka den som parameter till [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\))-metoden.
+För att söka efter den första tecknet i en sträng, ring [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) samlingens [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells.Cell-) metod, ställ in [FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) till [LookAtType.START_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#START-WITH) och skicka det som en parameter till [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells.Cell-) metoden.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsWithStringOrNumber-FindingCellsWithStringOrNumber.java" >}}
 ### **Söka efter strängar som slutar med specifika tecken**
-Aspose.Cells kan även hitta strängar som slutar med specifika tecken. För att söka efter de sista tecknen i en sträng, anropas [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-samlingens metod [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)), ställ in [FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) till [LookAtType.END_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#END_WITH) och skicka den som parameter till [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\))-metoden.
+Aspose.Cells kan också hitta strängar som slutar med specifika tecken. För att söka efter de sista tecknen i en sträng, ring [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) samlingens [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells.Cell-) metod, ställ in [FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) till [LookAtType.END_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#END-WITH) och passera det som en parameter till [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find-java.lang.Object-com.aspose.cells.Cell-) metoden.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsEndWithSpecificCharacters-FindingCellsEndWithSpecificCharacters.java" >}}
 ## **Söka med reguljära uttryck: RegEx-funktionen**
@@ -60,3 +60,4 @@ Aspose.Cells tillåter dig att söka med reguljära uttryck.
 ## **Fortsatta ämnen**
 - [Hitta celler med specifikt stil](/cells/sv/java/find-cells-with-specific-style/)
 - [Sök data med originalvärden](/cells/sv/java/search-data-using-original-values/)
+{{< app/cells/assistant language="java" >}}

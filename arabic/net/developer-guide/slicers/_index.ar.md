@@ -36,3 +36,4 @@ description: إدارة القاطعات في ملفات Excel باستخدام 
 - [إزالة قالب التصفية](/cells/ar/net/removing-slicer/)
 - [تقديم المقطع](/cells/ar/net/rendering-slicer/)
 - [تحديث المقسم](/cells/ar/net/updating-slicer/)
+{{< app/cells/assistant language="csharp" >}}

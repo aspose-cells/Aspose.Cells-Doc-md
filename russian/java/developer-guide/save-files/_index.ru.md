@@ -14,7 +14,7 @@ url: /ru/java/saving-excel-files-to-csv-pdf-and-other-formats/
 
 ## **Различные способы сохранения ваших файлов**
 
-Aspose.Cells API предоставляет класс с именем [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), который представляет собой файл Excel и предоставляет все необходимые свойства и методы, которые могут понадобиться разработчикам для работы с их файлами Excel. Класс [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) предоставляет метод [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)), который используется для сохранения файлов Excel. Метод [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) имеет множество вариантов перегрузки, которые используются для сохранения файлов Excel различными способами.
+Aspose.Cells API предоставляет класс с именем [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), который представляет собой файл Excel и предоставляет все необходимые свойства и методы, которые могут понадобиться разработчикам для работы с их файлами Excel. Класс [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) предоставляет метод [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-), который используется для сохранения файлов Excel. Метод [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) имеет множество вариантов перегрузки, которые используются для сохранения файлов Excel различными способами.
 
 Разработчики также могут указать формат файла, в котором должны быть сохранены их файлы. Файлы могут быть сохранены в нескольких форматах, таких как XLS, SpreadsheetML, CSV, разделенные табуляциями, TSV, XPS и многие другие. Эти форматы файлов указываются с использованием перечисления [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat).
 
@@ -30,12 +30,12 @@ Aspose.Cells API предоставляет класс с именем [**Workbo
 |[**XLTM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLTM)|Представляет файл шаблона с поддержкой макросов Excel|
 |[**XLAM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLAM)|Представляет файл Excel XLAM|
 |[**TSV**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TSV)|Представляет файл значений, разделенных табуляцией|
-|[**TAB_DELIMITED**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TAB_DELIMITED)|Представляет файл с текстом, разделенным табуляцией|
+|[**TAB_DELIMITED**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TAB-DELIMITED)|Представляет текстовый файл с разделением табуляцией|
 |[**HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML)|Представляет файл(ы) HTML|
-|[**M_HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#M_HTML)|Представляет файл(ы) MHTML|
+|[**M_HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#M-HTML)|Представляет файл(ы) MHTML|
 |[**ODS**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#ODS)|Представляет файл таблицы OpenDocument|
-|[**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#EXCEL_97_TO_2003)|Представляет файл XLS, который является форматом по умолчанию для ревизий Excel 1997 по 2003 годы|
-|[**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SPREADSHEET_ML)|Представляет файл SpreadSheetML|
+|[**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#EXCEL-97-TO-2003)|Представляет файл XLS, который является стандартным форматом для версий Excel 1997-2003|
+|[**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SPREADSHEET-ML)|Представляет файл SpreadSheetML|
 |[**XLSB**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLSB)|Представляет двоичный файл Excel 2007 XLSB|
 |[**UNKNOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#UNKNOWN)|Представляет нераспознанный формат, не может быть сохранен.|
 |[**PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)|Представляет документ PDF|
@@ -52,7 +52,7 @@ Aspose.Cells API предоставляет класс с именем [**Workbo
 
 ## **Сохранение файла в указанное местоположение**
 
-Если разработчикам нужно сохранить их файлы в каком-либо месте хранения, то они могут просто указать имя файла (с полным путем к хранению) и желаемый формат файла (используя перечисление [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)) при вызове метода [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) объекта [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook).
+Если разработчикам нужно сохранить их файлы в каком-либо месте хранения, то они могут просто указать имя файла (с полным путем к хранению) и желаемый формат файла (используя перечисление [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)) при вызове метода [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) объекта [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook).
 
 **Пример:**
 
@@ -66,7 +66,7 @@ Aspose.Cells API предоставляет класс с именем [**Workbo
 
 При выполнении кода конвертируются данные всех листов книги в формат TXT.
 
-Вы можете изменить тот же пример для сохранения файла в формат CSV. По умолчанию [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) - это запятая, поэтому не указывайте разделитель при сохранении в формат CSV. Обратите внимание: если вы используете оценочную версию и даже если параметр метода [**TxtSaveOptions.setExportAllSheets(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions/#setExportAllSheets-boolean-) установлен в true, программа все равно будет экспортировать только один лист.
+Вы можете изменить тот же пример, чтобы сохранить ваш файл в CSV. По умолчанию, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) — это запятая, поэтому не указывайте разделитель при сохранении в формат CSV. Обратите внимание: если вы используете пробную версию и даже если параметр метода [**TxtSaveOptions.setExportAllSheets(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions/#setExportAllSheets-boolean-) установлен в true, программа по-прежнему будет экспортировать только один лист Excel.
 
 **Пример:**
 
@@ -80,7 +80,7 @@ Aspose.Cells API предоставляет класс с именем [**Workbo
 
 ## **Сохранение файла в поток**
 
-Если разработчикам нужно сохранить их файлы в **поток**, то они должны создать объект **FileOutputStream** и затем сохранить файл в этот **поток**, вызвав метод [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) объекта [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook). Разработчики также могут указать желаемый формат файла (используя перечисление [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)) при вызове метода [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)).
+Если разработчикам нужно сохранить их файлы в **поток**, то они должны создать объект **FileOutputStream** и затем сохранить файл в этот **поток**, вызвав метод [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) объекта [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook). Разработчики также могут указать желаемый формат файла (используя перечисление [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)) при вызове метода [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-).
 
 **Пример:**
 
@@ -116,7 +116,7 @@ Aspose.Cells API предоставляет класс с именем [**Workbo
 
 ## **Преобразование электронной таблицы Excel в Markdown**
 
-API Aspose.Cells поддерживает экспорт электронных таблиц в формат Markdown. Чтобы экспортировать активный лист в формат Markdown, передайте [**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN) вторым параметром метода [**Workbook.Save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.lang.String,%20int)). Вы также можете использовать класс [**MarkdownSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/MarkdownSaveOptions), чтобы указать дополнительные настройки для экспорта листа в Markdown.
+API Aspose.Cells поддерживает экспорт электронных таблиц в формат Markdown. Чтобы экспортировать активный лист в формат Markdown, передайте [**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN) вторым параметром метода [**Workbook.Save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.lang.String-int-). Вы также можете использовать класс [**MarkdownSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/MarkdownSaveOptions), чтобы указать дополнительные настройки для экспорта листа в Markdown.
 
 Приведен пример кода, демонстрирующий экспорт активного листа в формат Markdown с использованием члена перечисления [**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN). Пожалуйста, ознакомьтесь с [выходным файлом Markdown](Book1.txt), сгенерированным кодом для справки.
 
@@ -128,3 +128,4 @@ API Aspose.Cells поддерживает экспорт электронных 
 - [Сохранить книгу в формате Strict Open XML Spreadsheet](/cells/ru/java/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [Отслеживание процесса преобразования Excel в TIFF](/cells/ru/java/track-conversion-progress-of-excel-to-tiff/)
 - [Отслеживание прогресса конвертации документов](/cells/ru/java/track-document-conversion-progress/)
+{{< app/cells/assistant language="java" >}}

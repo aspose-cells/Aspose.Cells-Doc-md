@@ -21,3 +21,4 @@ Veuillez utiliser le lien de téléchargement correspondant à votre version de 
 - [Fichiers de politique de juridiction de force illimitée d'extension de cryptographie Java 6](https://www.oracle.com/java/technologies/jce-6-download.html)
 - [Fichiers de politique de juridiction de force illimitée d'extension de cryptographie Java 7](https://www.oracle.com/java/technologies/jce-7-download.html)
 - [Fichiers de politique de juridiction de force illimitée d'extension de cryptographie Java 8](https://www.oracle.com/java/technologies/javase-jce8-downloads.html)
+{{< app/cells/assistant language="java" >}}

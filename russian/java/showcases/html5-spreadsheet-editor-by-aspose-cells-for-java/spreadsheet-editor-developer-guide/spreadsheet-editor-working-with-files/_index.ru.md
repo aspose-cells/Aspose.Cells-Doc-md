@@ -811,3 +811,4 @@ url: /ru/java/spreadsheet-editor-working-with-files/
 
 
 
+{{< app/cells/assistant language="java" >}}

@@ -58,3 +58,4 @@ keywords: فرز البيانات بترتيب تصاعدي أو تنازلي، 
 ## **مواضيع متقدمة**
 - [فرز البيانات في العمود بقائمة فرز مخصصة](/cells/ar/net/sort-data-in-column-with-custom-sort-list/)
 - [تحديد تحذير الفرز أثناء فرز البيانات](/cells/ar/net/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="csharp" >}}

@@ -25,3 +25,4 @@ ExcelワークブックをJSON形式に変換する方法を疑問に思う必�
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JSON-New2.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

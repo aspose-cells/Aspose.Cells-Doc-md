@@ -73,3 +73,4 @@ Tenga en cuenta lo siguiente:
 - La cadena "FontDirSet" debe ser la ruta completa a la carpeta que contiene las fuentes requeridas.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

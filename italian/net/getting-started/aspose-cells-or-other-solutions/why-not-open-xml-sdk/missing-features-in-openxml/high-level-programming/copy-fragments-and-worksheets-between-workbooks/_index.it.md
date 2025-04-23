@@ -23,3 +23,4 @@ Questa sezione include i seguenti argomenti
 - [Copiare i Fogli di Lavoro tra Cartelle di Lavoro](/cells/it/net/copy-worksheets-between-workbooks/)
 - [Copiare i Fogli di Lavoro all'interno di una Cartella di Lavoro](/cells/it/net/copy-worksheets-within-a-workbook/)
 - [Sposta i fogli di lavoro all'interno del libro di lavoro](/cells/it/net/move-worksheets-within-workbook/)
+{{< app/cells/assistant language="csharp" >}}

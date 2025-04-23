@@ -1,15 +1,16 @@
 ---
-title: ExcelをPDFに変換する際の実線グリッド線のレンダリング
+title: ExcelをPDFに変換時にソリッドグリッドラインをレンダリング
 type: docs
 weight: 390
 url: /ja/net/render-solid-gridline-while-converting-excel-to-pdf/
 
 ---
 
-古いバージョンとの互換性のため、Aspose.CellsはExcelをPDFに変換する際、デフォルトで点線としてグリッド線をレンダリングします。しかし、現代のExcelではグリッド線を実線として描画します。
+古いバージョンとの互換性のため、Aspose.CellsはExcelをPDFに変換する際にデフォルトで点線のグリッドラインとしてレンダリングします。ただし、現代のExcelではグリッドラインは実線として表示されます。
 
-オプション[PdfSaveOptions.GridlineTypes](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/gridlinetype/)を使用すると、Aspose.Cellsはグリッド線を実線として描画することもできます。 
+[PdfSaveOptions.GridlineTypes](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/gridlinetype/)オプションを使用すると、Aspose.Cellsはグリッドラインを実線としてレンダリングすることもできます。 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-SolidGridlineInPdf.cs" >}}
 
 ![solid-gridline.png](solid-gridline.png)
+{{< app/cells/assistant language="csharp" >}}

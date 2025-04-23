@@ -18,3 +18,4 @@ url: /ru/java/specify-maximum-rows-of-shared-formula/
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Formulas-SpecifyMaximumRowsOfSharedFormula.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -16,3 +16,4 @@ keywords: الحصول على التحقق من الخلية، الحصول عل
 ### **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-GetCellValidationInODS-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

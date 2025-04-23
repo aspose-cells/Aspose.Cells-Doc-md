@@ -11,11 +11,11 @@ När en cell innehåller text eller sträng men den är större än cellens bred
 
 - [**TextCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#DEFAULT): Visa som MS Excel, beroende på nästa cell. Om nästa cell är tom kommer strängen att korsa eller bli avhuggen.
 
-- [**TextCrossType. CROSS_KEEP**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_KEEP): Visa strängen som MS Excel exporterar till PDF/Bild
+- [**TextCrossType. CROSS_KEEP**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS-KEEP): Visa strängen som MS Excel exporterar till PDF/Bild
 
-- [**TextCrossType.CROSS_OVERRIDE**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_OVERRIDE): Visa all text genom att korsa andra celler och åsidosätta texten från de korsade cellerna
+- [**TextCrossType.CROSS_OVERRIDE**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS-OVERRIDE): Visa all text genom att korsa andra celler och åsidosätta texten från de korsade cellerna
 
-- [**TextCrossType.STRICT_IN_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#STRICT_IN_CELL): Endast visa strängen inom cellens bredd.
+- [**TextCrossType.STRICT_IN_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#STRICT-IN-CELL): Endast visa strängen inom cellens bredd.
 
 ## **Ange hur du ska korsa strängen i utdata PDF/Bild med hjälp av TextCrossType**
 
@@ -30,3 +30,4 @@ Följande exempelkod laddar den prov Excel-filen och sparar den i PDF/Bildformat
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-RenderUsingTextCrossType-1.java" >}}
+{{< app/cells/assistant language="java" >}}

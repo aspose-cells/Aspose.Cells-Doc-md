@@ -87,3 +87,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 Eğer elektronik tablonuz formüller içeriyorsa, elektronik tabloyu PDF formatına dönüştürmeden hemen önce Workbook.calculateFormula metodunu çağırmak en iyisidir. Bu sayede formül bağımlı değerler tekrar hesaplanacak ve PDF'de doğru değerler görüntülenecektir. 
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

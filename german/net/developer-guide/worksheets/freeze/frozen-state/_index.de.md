@@ -22,3 +22,4 @@ und sperren Sie Zeilen und Spalten mit der [**Worksheet.GetFreezedPanes**](https
 3. Erhalten Sie die gesperrten Zeilen und Spalten
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Is-Worksheet-Frozen.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

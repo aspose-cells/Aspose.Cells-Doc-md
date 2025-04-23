@@ -20,3 +20,4 @@ Der folgende Beispielcode erstellt eine gemeinsame Arbeitsmappe, indem die Eigen
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-CreateSharedWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

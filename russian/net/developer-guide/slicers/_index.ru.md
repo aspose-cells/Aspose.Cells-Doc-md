@@ -36,3 +36,4 @@ description: Управляйте условиями Excel файлов с по�
 - [Удаление срезки](/cells/ru/net/removing-slicer/)
 - [Рендеринг срезки](/cells/ru/net/rendering-slicer/)
 - [Обновление среза](/cells/ru/net/updating-slicer/)
+{{< app/cells/assistant language="csharp" >}}

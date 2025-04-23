@@ -34,3 +34,4 @@ Microsoft Excel（たとえば2007）でファイルの暗号化を実装する�
 以下のコード例では、ファイルに強力な暗号化を適用し、パスワードを設定しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ApplyingEncryption-ApplyingEncryption.java" >}}
+{{< app/cells/assistant language="java" >}}

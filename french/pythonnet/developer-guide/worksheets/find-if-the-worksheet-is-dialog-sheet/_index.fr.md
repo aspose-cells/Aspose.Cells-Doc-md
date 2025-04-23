@@ -3,8 +3,8 @@ title: Vérifier si la feuille de calcul est une feuille de dialogue
 type: docs
 weight: 90
 url: /fr/python-net/find-if-the-worksheet-is-dialog-sheet/
-description: La feuille de dialogue est un ancien format de feuille de calcul. Cet article fournit des instructions et un code d exemple pour déterminer de façon programmatique si une feuille de calcul Excel est une feuille de dialogue en utilisant la bibliothèque Aspose.Cells pour Python via .NET.
-keywords: Bibliothèque Excel Python, trouver le type de feuille de dialogue Excel en Python, feuille de dialogue en Python.
+description: La feuille de dialogue est un ancien format de feuille. Cet article fournit des instructions et un code d exemple pour déterminer de manière programmatique si une feuille Excel est une feuille de dialogue en utilisant la bibliothèque Aspose.Cells pour Python via .NET.
+keywords: Bibliothèque Excel Python, type de dialogue de feuille de calcul Excel dans Python.
 ---
 
 ## **Scénarios d'utilisation possibles**
@@ -13,7 +13,7 @@ La feuille de dialogue est un ancien format de feuille qui contient une boîte d
 
 ![todo:image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
 
-Vous pouvez trouver si la feuille est une feuille de dialogue ou un autre type de feuille avec la propriété [**Worksheet.type**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/type/) fournie par Aspose.Cells pour Python via .NET. Si cela renvoie la valeur d'énumération [**SheetType.DIALOG**](https://reference.aspose.com/cells/python-net/aspose.cells/sheettype/), alors cela signifie que vous traitez avec une feuille de dialogue.
+Vous pouvez déterminer si la feuille est une feuille de dialogue ou un autre type de feuille avec la propriété [**Worksheet.type**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/type/) fournie par Aspose.Cells pour Python via .NET. Si cela renvoie la valeur d'énumération [**SheetType.DIALOG**](https://reference.aspose.com/cells/python-net/aspose.cells/sheettype/), cela signifie que vous traitez avec une feuille de dialogue.
 
 ## **Trouver si la Feuille de calcul est une Feuille de dialogue**
 

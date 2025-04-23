@@ -9,22 +9,22 @@ keywords: PivotChart
 ---
 ## Vad är PivotChart
 
-En pivottabell är en visuell representation av data i en pivot-tabell. Pivotdiagram tillhandahåller en metod för att sammanfatta, analysera, utforska och presentera sammanfattad data. Här är några nyckelfunktioner och aspekter av pivotdiagram:
+Ett pivotdiagram är en visuell representation av datan i en pivottabell. Pivotdiagram ger ett sätt att sammanfatta, analysera, utforska och presentera summerad data. Här är några nyckelfunktioner och aspekter av pivotdiagram:
 
-1. Dynamisk datavisning: Pivotdiagram uppdateras automatiskt för att återspegla ändringar i pivottabellen. Om du lägger till eller tar bort fält i pivottabellen uppdateras pivotdiagrammet därefter.
+1. Datan ändras dynamiskt: Pivotdiagram uppdateras automatiskt för att återspegla ändringar i pivottabellen. Om du lägger till eller tar bort fält i pivottabellen, uppdateras pivotdiagrammet därefter.
 
-1. Interaktivt: Pivotdiagram är interaktiva och tillåter användare att filtrera, sortera och gå djupt in i data. Det gör det enkelt att utforska olika aspekter av datamängden.
+1. Interaktiv: Pivotdiagram är interaktiva, vilket gör att användare kan filtrera, sortera och gräva ner i data. Detta gör det enkelt att utforska olika aspekter av datamängden.
 
-1. Flexibel layout: Användare kan ändra layouten för pivotdiagrammet genom att dra och släppa fält, vilket erbjuder flexibilitet i hur data visualiseras.
+1. Flexibelt Layout: Användare kan ändra layouten på pivotdiagrammet genom att dra och släppa fält, vilket ger flexibilitet i hur data visualiseras.
 
-1. Olika diagramtyper: Pivotdiagram kan skapas med olika diagramtyper som stapeldiagram, linjediagram, cirkeldiagram med mera, beroende på datakaraktären och insikterna du vill få.
+1. Olika Diagramtyper: Pivotdiagram kan skapas med olika diagramtyper som stapeldiagram, linjediagram, pie-diagram och mer, beroende på datans natur och insikterna du vill få.
 
-1. Sammanfattning: Pivotdiagram sammanfattar stora mängder data och kan visa totaler, genomsnitt, räkningar eller annan sammanfattande statistik.
+1. Sammanfattning: Pivotdiagram sammanfattar stora mängder data och kan visa totalsummor, genomsnitt, antal eller andra sammanfattande statistik.
 
-1. Filtrering: De erbjuder filtreringsfunktioner som gör det möjligt att visa endast den data som uppfyller vissa kriterier.
+1. Filtrering: De erbjuder filtreringsmöjligheter, vilket gör att du kan visa endast de data som uppfyller vissa kriterier.
 
 <br>
-Pivotdiagram används vanligtvis inom affärsinformatik och dataanalys för att ge en tydlig och konkret visuell sammanfattning av komplexa datamängder. De är ett kraftfullt verktyg för att fatta data-drivna beslut.
+Pivotdiagram används ofta inom affärsintelligens och dataanalys för att ge en tydlig och koncis visuell sammanfattning av komplexa datamängder. De är ett kraftfullt verktyg för datadrivna beslut.
 
 ## Hur man lägger till en PivotChart med hjälp av Aspose.Cells
 
@@ -50,3 +50,4 @@ För att skapa en PivotChart med Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreatePivotTablesPivotCharts-CreatePivotChart-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

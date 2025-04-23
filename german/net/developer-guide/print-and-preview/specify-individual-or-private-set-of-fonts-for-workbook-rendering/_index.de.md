@@ -18,3 +18,4 @@ Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](67338268.xlsx) mit ih
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Fonts-SpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

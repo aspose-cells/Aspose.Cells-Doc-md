@@ -11,11 +11,11 @@ Cuando una celda contiene texto o cadena pero es más grande que el ancho de la 
 
 - [**TextCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#DEFAULT): Mostrar como en MS Excel, depende de la siguiente celda. Si la siguiente celda está vacía, la cadena se cruzará o se truncará.
 
-- [**TextCrossType. CROSS_KEEP**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_KEEP): Mostrar la cadena como en MS Excel al exportar a PDF/Imagen
+- [**TextCrossType. CROSS_KEEP**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS-KEEP): Mostrar la cadena como en MS Excel al exportar a PDF/Imagen
 
-- [**TextCrossType.CROSS_OVERRIDE**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_OVERRIDE): Mostrar todo el texto cruzando otras celdas y reemplazar el texto de las celdas cruzadas
+- [**TextCrossType.CROSS_OVERRIDE**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS-OVERRIDE): Mostrar todo el texto cruzando otras celdas y reemplazar el texto de las celdas cruzadas
 
-- [**TextCrossType.STRICT_IN_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#STRICT_IN_CELL): Solo mostrar la cadena dentro del ancho de la celda.
+- [**TextCrossType.STRICT_IN_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#STRICT-IN-CELL): Solo mostrar la cadena dentro del ancho de la celda.
 
 ## **Especifica cómo cruzar la cadena en el PDF/Imagen de salida utilizando TextCrossType**
 
@@ -30,3 +30,4 @@ El siguiente código de ejemplo carga el archivo de Excel de ejemplo y lo guarda
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-RenderUsingTextCrossType-1.java" >}}
+{{< app/cells/assistant language="java" >}}

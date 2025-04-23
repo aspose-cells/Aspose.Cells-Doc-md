@@ -47,3 +47,4 @@ Aşağıdaki kod tarafından oluşturulan çıktı dosyası. **A1** hücresiyle 
 ![todo:image_alt_text](find-cells-with-specific-style_2.png)
 
 **Şekil:** **A1** stiline göre arama sonrası bulunan hücrelerin çıktı dosyası
+{{< app/cells/assistant language="java" >}}

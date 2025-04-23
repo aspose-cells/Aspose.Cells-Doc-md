@@ -16,3 +16,4 @@ keywords: تصدير بيانات الأعمدة المرئية إلى جدول 
 يشرح الكود العيني التالي استخدام خصائص [**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns) في تجاهل الأعمدة المخفية أثناء تصدير بيانات ورقة العمل بالكامل إلى جدول البيانات.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-IgnoreHiddenColumnsDataTable-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

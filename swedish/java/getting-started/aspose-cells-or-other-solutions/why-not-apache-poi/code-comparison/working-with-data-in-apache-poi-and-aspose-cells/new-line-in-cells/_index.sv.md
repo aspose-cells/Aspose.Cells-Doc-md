@@ -63,3 +63,4 @@ cell.setCellStyle(cs);
 För mer information, besök [Radbrytningar och textomslag](/java/line-breaks-and-text-wrapping).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

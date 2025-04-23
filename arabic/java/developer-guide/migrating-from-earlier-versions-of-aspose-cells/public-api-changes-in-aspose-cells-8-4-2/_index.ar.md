@@ -161,3 +161,4 @@ workbook.save(output);
 ابتداءً من إصدار Aspose.Cells for Java 8.4.2، يتصرف الحقل التابع للتعداد PasteType.ALL بشكل مختلف عن وظيفة "الكل" في Excel للصق مدى الخلايا. الآن، ينسخ PasteType.ALL أيضًا عرض الأعمدة على نطاق الوجهة عكس وظيفة "الكل" في Excel. لتقليد سلوك "الكل" في Excel، يُرجى استخدام PasteType.DEFAULT.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

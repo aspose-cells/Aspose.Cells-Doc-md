@@ -29,24 +29,24 @@ Här använder vi Aspose.Cells API för att utföra uppgiften.
 
 Aspose.Cells tillhandahåller en klass, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), som representerar en Microsoft Excel-fil. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-klassen innehåller en [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) som möjliggör åtkomst till varje kalkylblad i en Excel-fil. Ett kalkylblad representeras av klassen [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Klassen [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) tillhandahåller en [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-samling.
 
-Det är möjligt att skapa ett namngivet intervall genom att anropa den överbelastade [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\))-metoden i [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-samlingen. En vanlig version av [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\))-metoden tar följande parametrar:
+Det är möjligt att skapa ett namngivet område genom att anropa den överlagrade metoden [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-java.lang.String-java.lang.String-) i [Cells]-samlingen. En typisk version av metoden [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-java.lang.String-java.lang.String-) tar följande parametrar:
 
 - Namn på övre vänstra cell, namnet på den översta vänstra cellen i intervallet.
 - Namnet på den nedre högra cellen, namnet på den längst ner till höger i området.
 
-När [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\))-metoden anropas returnerar den det nyligen skapade namngivna intervallet som en instans av [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range)-klassen.
+När [createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-java.lang.String-java.lang.String-) anropas, returneras det nyss skapade namngivna området som en instans av [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) klassen.
 
 Följande exempel visar hur man skapar ett namngivet intervall av celler som sträcker sig över B4:G14.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-CreateNamedRangeofCells-CreateNamedRangeofCells.java" >}}
 #### **Åtkomst till alla namngivna intervall i ett kalkylblad**
-Anropa [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\))-metoden i [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) för att få alla namngivna intervall i ett kalkylblad. [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\))-metoden returnerar en matris med alla namngivna intervall i [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection).
+Ring [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges--) metod av [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) för att få alla namngivna områden i ett kalkylblad. [getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges--) returnerar en array av alla namngivna områden i [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection).
 
 Följande exempel visar hur man åtkommer alla namngivna områden i en arbetsbok.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AccessAllNamedRanges-AccessAllNamedRanges.java" >}}
 #### **Åtkomst till ett specifikt namngivet område**
-Anropa [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)s- samlingens [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\))-metod för att få ett specifierat intervall efter namn. En vanlig [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\))-metod tar namnet på namngivet intervallet och returnerar det specifierade namngivna intervallet som en instans av [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range)-klassen.
+Ring [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) samlingens [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName-java.lang.String-) metod för att få ett specificerat område efter namn. En typisk [getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName-java.lang.String-) metod tar namnet på det namngivna området och returnerar det specifika namngivna området som ett instans av klassen [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range).
 
 Följande exempel visar hur man får åtkomst till ett specifierat intervall efter dess namn.
 
@@ -76,7 +76,7 @@ Följande exempel visar hur du ställer in en fyllningsfärg (skuggfärg) med te
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FormatRanges1-FormatRanges1.java" >}}
 #### **Formatintervall...Lägga till ramar till ett namngivet intervall**
-Det är möjligt att lägga till ramar till en cellgrupp istället för bara en enskild cell.  [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) objektet tillhandahåller en [setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\)) metod som tar följande parametrar för att lägga till en ram till cellgruppen:
+Det går att lägga till kantlinjer till ett cellområde istället för en enskild cell. [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range)-objektet tillhandahåller en [setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders-int-com.aspose.cells.Color-) metod som tar följande parametrar för att lägga till en kant till cellområdet:
 
 - borderStyle: ramtypen, vald från [CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType)  uppräkning.
 - borderColor: linjens färg för ramen, vald från [Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color) uppräkning.
@@ -90,16 +90,17 @@ Följande utmatning skulle genereras efter att ovanstående kod har körts:
 
 ![todo:image_alt_text](named-ranges_1.png)
 #### **Tillämpa stil på celler i ett intervall**
-Ibland vill du skapa och tillämpa en stil på cellerna i ett [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range). För detta kan du iterera över cellerna i intervallet och använda [Cell.setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) metoden för att tillämpa stilen på cellen.
+Ibland vill du skapa en tillämpa en stil på cellerna i ett [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range). För detta kan du iterera över cellerna i området och använda metoden [Cell.setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle-com.aspose.cells.Style-) för att tillämpa stilen på cellen.
 
 Följande exempel visar hur du tillämpar stilar på celler i ett intervall.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ConvertCellsAddresstoRangeorCellArea-ConvertCellsAddresstoRangeorCellArea.java" >}}
 #### **Ta bort ett namngivet område**
-Aspose.Cells tillhandahåller [NameCollection.RemoveAt()](https://reference.aspose.com/cells/java/com.aspose.cells/namecollection#removeAt\(int\)) metoden för att ta bort namnet på intervallen. För att rensa innehållet i intervallet, använd [Cells.ClearRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#clearRange\(com.aspose.cells.CellArea\)) metoden.
+Aspose.Cells tillhandahåller metoden [NameCollection.RemoveAt()](https://reference.aspose.com/cells/java/com.aspose.cells/namecollection#removeAt-int-) för att ta bort namnet på området. För att rensa innehållet i området, använd [Cells.ClearRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#clearRange-com.aspose.cells.CellArea-) metod.
 Följande exempel visar hur du tar bort ett namngivet intervall med dess innehåll.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-RemoveANamedRange-RemoveANamedRange.java" >}}
 
 
 borderColors 
+{{< app/cells/assistant language="java" >}}

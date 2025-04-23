@@ -18,3 +18,4 @@ Veuillez voir le code suivant, il charge le [fichier Excel d'exemple](67338473.x
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-FormattingSlicer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

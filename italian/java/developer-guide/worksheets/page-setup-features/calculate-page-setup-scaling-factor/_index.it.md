@@ -22,3 +22,4 @@ Ecco l'output della console del codice di esempio sopra.
  0.5079621076583862
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

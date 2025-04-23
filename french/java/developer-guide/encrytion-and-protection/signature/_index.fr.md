@@ -34,3 +34,4 @@ Dans le cas où le mot de passe spécifié ne correspond pas au mot de passe du 
 L'extrait de code suivant montre l'utilisation de l'API Aspose.Cells for Java pour valider la feuille de calcul.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ValidatingSpreadsheets-ValidatingSpreadsheets.java" >}}
+{{< app/cells/assistant language="java" >}}

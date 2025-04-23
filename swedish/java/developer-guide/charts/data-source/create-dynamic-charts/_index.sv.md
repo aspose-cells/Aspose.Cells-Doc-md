@@ -50,3 +50,4 @@ För att hålla demonstrationen enkel att förstå kommer vi att skapa arbetsbok
 1. Spara resultatet på disk.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UsingDynamicFormulas-UsingDynamicFormulas.java" >}}
+{{< app/cells/assistant language="java" >}}

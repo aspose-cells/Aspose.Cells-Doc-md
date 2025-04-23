@@ -14,3 +14,4 @@ Aspose.Cells API'leri sayesinde çalışsayfasındaki kelime sanatı filigranlar
 Aspose.Cells API'leri sayesinde filigranın belirli yönlerini kilitlemek mümkündür, böylece kullanıcı etkileşimi sınırlı veya tamamen engellenmiş olabilir. Aşağıdaki kod örneği, Aspose.Cells for .NET API'nın kullanımını göstererek bir çalışsayfa oluşturarak filigranın seçme, hareket etme, düzenleme ve yeniden boyutlandırmayı kilitler.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-LockingWordartWatermark-LockingWordartWatermark.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

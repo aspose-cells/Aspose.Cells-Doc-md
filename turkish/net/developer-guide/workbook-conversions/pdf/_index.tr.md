@@ -147,3 +147,4 @@ Eğer elektronik tablonuz formüller içeriyorsa, elektronik tabloyu PDF biçimi
 - [Belirtilen Çalışsayfalarını PDF olarak kaydet](/cells/tr/net/save-specified-worksheets-to-pdf/)
 - [Güvenli PDF Belgeleri](/cells/tr/net/secure-pdf-documents/)
 - [Çıktı PDF ve görüntülerde metin geçişini belirle](/cells/tr/net/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="csharp" >}}

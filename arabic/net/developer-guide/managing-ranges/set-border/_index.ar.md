@@ -29,3 +29,4 @@ url: /ar/net/set-range-border/
 1. تعيين الحدود الخارجية للنطاق.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Range-set-border.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

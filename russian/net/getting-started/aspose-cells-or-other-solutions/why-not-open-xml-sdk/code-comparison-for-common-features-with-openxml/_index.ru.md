@@ -20,3 +20,4 @@ url: /ru/net/code-comparison-for-common-features-with-openxml/
 - [Открытие документа электронной таблицы из потока](/cells/ru/net/open-a-spreadsheet-document-from-a-stream/)
 - [Получение словаря всех именованных диапазонов в документе электронной таблицы](/cells/ru/net/retrieve-a-dictionary-of-all-named-ranges-in-a-spreadsheet-document/)
 - [Получение значений ячеек](/cells/ru/net/retrieve-the-values-of-cells/)
+{{< app/cells/assistant language="csharp" >}}

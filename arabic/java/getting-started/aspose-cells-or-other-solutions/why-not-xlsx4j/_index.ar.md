@@ -140,3 +140,4 @@ xlsx4j يمكنها فقط تحليل وحفظ ملفات Microsoft Open XML Exc
     - [عرض وإخفاء علامات التبويب لدفتر العمل في xlsx4j](/cells/ar/java/display-and-hide-tabs-of-workbook-in-xlsx4j/)
     - [حفظ كل ورق عمل في PDF مختلف في xlsx4j](/cells/ar/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
     - [تعيين لون علامة تبويب الورقة في xlsx4j](/cells/ar/java/set-worksheet-tab-color-in-xlsx4j/)
+{{< app/cells/assistant language="java" >}}

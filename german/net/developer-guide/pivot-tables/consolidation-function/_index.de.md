@@ -35,3 +35,4 @@ Der folgende Code wendet die **Durchschnitt**-Konsolidierungsfunktion auf das er
 Die Konsolidierungsfunktion DistinctCount wird nur von Microsoft Excel 2013 unterstützt.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

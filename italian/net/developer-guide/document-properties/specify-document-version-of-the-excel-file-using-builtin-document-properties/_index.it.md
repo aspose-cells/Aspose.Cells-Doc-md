@@ -18,3 +18,4 @@ Il codice di esempio seguente crea un workbook e modifica le proprietà del docu
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "LoadingSavingConvertingAndManaging-SpecifyDocumentVersionOfExcelFile.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

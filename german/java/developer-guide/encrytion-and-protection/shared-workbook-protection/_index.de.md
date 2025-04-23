@@ -8,7 +8,7 @@ url: /de/java/password-protect-or-unprotect-the-shared-workbook/
 
 ## **Mögliche Verwendungsszenarien**
 
-Sie können die freigegebene Arbeitsmappe in Microsoft Excel schützen oder entschützen, wie im folgenden Screenshot gezeigt. Aspose.Cells unterstützt diese Funktion auch mit den Methoden [**Workbook.protectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook(java.lang.String)) und [**Workbook.unprotectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook(java.lang.String)).
+Sie können die freigegebene Arbeitsmappe in Microsoft Excel schützen oder entschützen, wie im folgenden Screenshot gezeigt. Aspose.Cells unterstützt diese Funktion auch mit den Methoden [**Workbook.protectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook-java.lang.String-) und [**Workbook.unprotectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook-java.lang.String-).
 
 ![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_1.png)
 
@@ -21,3 +21,4 @@ Der folgende Beispielcode erstellt eine Arbeitsmappe und schützt sie, während 
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-PasswordProtectOrUnprotectSharedWorkbook.java" >}}
+{{< app/cells/assistant language="java" >}}

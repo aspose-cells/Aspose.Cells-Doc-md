@@ -28,3 +28,4 @@ keywords: 检测空工作表C#，查找空的Excel工作表C#
 ## **编程示例**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-DetectEmptyWorksheets-DetectEmptyWorksheets.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -16,3 +16,4 @@ Le code d'exemple suivant ajoute une série dans le graphique vide qui n'a pas d
 ![todo:image_alt_text](set-the-values-format-code-of-chart-series_1.png)
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SetValuesFormatCodeOfChartSeries.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

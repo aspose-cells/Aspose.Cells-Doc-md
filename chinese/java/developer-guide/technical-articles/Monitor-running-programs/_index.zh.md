@@ -12,3 +12,4 @@ url: /zh/java/Monitor-running-programs/
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-TechnicalArticles-MonitorRunningPrograms.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -16,3 +16,4 @@ Aspose.Cells允许您将VBA数字证书导出到文件或内存流等流中。�
 请参阅以下示例代码，将VBA证书的原始数据保存到文件中。您可以从提供的链接下载使用此代码的[示例excel文件](5115031.xlsm)。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-ExportVBACertificateToFile-ExportVBACertificateToFile.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -16,7 +16,7 @@ Bazen, resimler, grafikler ve veri gibi çeşitli içeriklere sahip çalışma k
 
 ## **Çalışma Kitaplarını Birleştirme**
 
-Örnek kod, Aspose.Cells for Java kullanarak iki çalışma kitabını tek bir çalışma kitabına birleştirir. Kod, kaynak çalışma kitaplarını yükler, bunları birleştirmek için [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) yöntemini kullanır ve çıktı çalışma kitabını kaydeder.
+Örnek kod, Aspose.Cells for Java kullanarak iki çalışma kitabını tek bir çalışma kitabına birleştirir. Kod, kaynak çalışma kitaplarını yükler, bunları birleştirmek için [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine-com.aspose.cells.Workbook-) yöntemini kullanır ve çıktı çalışma kitabını kaydeder.
 
 ### **Kaynak Çalışma Kitapları**
 
@@ -69,3 +69,4 @@ Daha fazla bilgi için [Birden Fazla Çalışma Sayfasını Tek Bir Çalışma S
 - [Birden Fazla Çalışma Sayfasını Tek Bir Çalışma Sayfasına Birleştirme](/cells/tr/java/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Dosyaları Birleştirme](/cells/tr/java/merge-files/)
 
+{{< app/cells/assistant language="java" >}}

@@ -90,3 +90,4 @@ Workbook book = new Workbook(inputFilePath, loadOptions);
 Worksheet.copyConditionalFormattingメソッドの代替として、Cells.copyRowsまたはRange.copyのいずれかを使用することが推奨されています。
 ### **Cells.Endプロパティの廃止**
 Cells.Endプロパティの代わりにCells.LastCellプロパティを使用してください。
+{{< app/cells/assistant language="java" >}}

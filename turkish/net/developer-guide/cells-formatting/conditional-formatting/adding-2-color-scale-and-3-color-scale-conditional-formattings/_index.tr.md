@@ -16,3 +16,4 @@ url: /tr/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/
 Aşağıdaki örnek kod, 2- Renkli ve 3- Renkli Ölçek Koşullu Biçimlendirmeleri ekler. [çıktı excel dosyasını](5115058.xlsx) oluşturur.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageConditionalFormatting-AddColorScales-AddColorScales.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -38,3 +38,4 @@ url: /ar/java/spreadsheet-editor-working-with-functions/
 1. انقر فوق الخلية لتحديدها.
 1. انقر على زر **إدراج وظيفة** في الأعلى.
 1. اتبع التعليمات في حوار **إدراج وظيفة**.
+{{< app/cells/assistant language="java" >}}

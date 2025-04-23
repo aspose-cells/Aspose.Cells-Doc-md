@@ -29,3 +29,4 @@ Vous pouvez également utiliser les APIs suivantes pour obtenir le numéro de ve
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-introduction-CheckVersionNumberOfComponent-CheckVersionNumberOfComponent.java" >}}
 
+{{< app/cells/assistant language="java" >}}

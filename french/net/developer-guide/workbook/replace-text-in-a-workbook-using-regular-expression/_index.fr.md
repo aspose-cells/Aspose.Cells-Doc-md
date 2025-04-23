@@ -12,3 +12,4 @@ L'extrait de code suivant démontre l'utilisation de la propriété [**RegexKey*
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-RegexReplace-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -32,3 +32,4 @@ Esta sección tiene los siguientes temas:
 - [Ordenar datos en hojas de cálculo](/cells/es/net/sort-data-in-worksheets/)
 - [Utilizar funciones de fórmulas para procesar datos en VSTO y Aspose.Cells](/cells/es/net/use-formulas-functions-to-process-data-in-vsto-and-aspose-cells/)
 - [Ajustar texto de celda en VSTO y Aspose.Cells](/cells/es/net/wrapping-cell-text-in-vsto-and-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

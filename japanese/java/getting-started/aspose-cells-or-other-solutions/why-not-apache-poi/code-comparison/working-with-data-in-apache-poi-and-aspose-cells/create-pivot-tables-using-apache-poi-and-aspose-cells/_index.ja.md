@@ -201,3 +201,4 @@ Apache POIおよびAspose.Cellsを使用して**Create Pivot Tables**のソー�
 詳細については、[ピボットテーブルとピボットチャートの作成](/cells/ja/java/create-pivot-tables-and-pivot-charts/) をご覧ください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -22,3 +22,4 @@ ve kilitli satır ve sütunları [**Worksheet.GetFreezedPanes**](https://referen
 3. Kilitli satır ve sütunları alın.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Is-Worksheet-Frozen.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

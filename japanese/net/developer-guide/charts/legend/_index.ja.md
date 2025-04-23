@@ -23,3 +23,4 @@ Aspose.Cellsの [凡例](https://reference.aspose.com/cells/net/aspose.cells.cha
 
 ## **高度なトピック**
 - [Aspose.Cellsを使用して、チャートの凡例エントリの塗りをなしに設定する方法を説明します。](/cells/ja/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

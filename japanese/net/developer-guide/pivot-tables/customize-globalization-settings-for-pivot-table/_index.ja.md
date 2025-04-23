@@ -18,3 +18,4 @@ Aspose.Cellsでは、*Pivot Total、Sub Total、Grand Total、All Items、Multip
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-CustomizePivotTableGlobalSettings-CustomizePivotTableGlobalSettings.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

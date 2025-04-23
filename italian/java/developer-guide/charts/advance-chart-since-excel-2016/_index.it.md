@@ -36,3 +36,4 @@ BoxWhisker
 
 ## **Argomenti avanzati**
 - [Creazione del grafico a cascata](/cells/it/java/creating-waterfall-chart/)
+{{< app/cells/assistant language="java" >}}

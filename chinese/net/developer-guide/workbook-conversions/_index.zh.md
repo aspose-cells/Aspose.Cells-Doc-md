@@ -132,6 +132,22 @@ Aspose.Cells API 支持将电子表格转换为 PPTX 格式。要将工作簿导
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToPptx-1.cs" >}}
 
+## **将 Excel 工作簿转换为 EPUB**
+
+Aspose.Cells API支持将电子表格转换为EPUB格式。要导出工作簿为EPUB，请将[**SaveFormat.Epub**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)作为[**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)方法的第二个参数传递。你也可以使用[**EBookSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/ebooksaveoptions)类来指定导出工作表到EPUB的其他设置。
+
+以下代码示例演示如何使用 [**SaveFormat.Epub**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) 枚举成员将活动工作表导出为 EPUB。
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToEPUB-1.cs" >}}
+
+## **将 Excel 工作簿转换为 AZW3**
+
+Aspose.Cells API支持将电子表格转换为AZW3格式。要导出工作簿为AZW3，请将[**SaveFormat.Azw3**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)作为[**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)方法的第二个参数传递。你也可以使用[**EBookSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/ebooksaveoptions)类来指定导出工作表到AZW3的其他设置。
+
+以下代码示例演示如何利用 [**SaveFormat.Azw3**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) 枚举成员将活动工作表导出为 AZW3。
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToAZW3-1.cs" >}}
+
 ## **高级主题**
 - [将XLSB的修订版转换为XLSM](/cells/zh/net/convert-revision-of-xlsb-to-xlsm/)
 - [HTML](/cells/zh/net/convert-excel-to-html/)
@@ -142,3 +158,4 @@ Aspose.Cells API 支持将电子表格转换为 PPTX 格式。要将工作簿导
 - [将Excel转换为CSV、TSV和Txt](/cells/zh/net/convert-excel-to-csv-tsv-and-txt/)
 - [跟踪文档转换进度](/cells/zh/net/track-document-conversion-progress/)
 - [将CSV、TSV和TXT转换为Excel](/cells/zh/net/convert-csv-tsv-and-txt-to-excel/)
+{{< app/cells/assistant language="csharp" >}}

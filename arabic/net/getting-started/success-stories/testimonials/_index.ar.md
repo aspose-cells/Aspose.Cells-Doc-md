@@ -12,3 +12,4 @@ url: /ar/net/testimonials/
 [الشهادات](https://downloads.aspose.com/corporate/case-studies/aspose.cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

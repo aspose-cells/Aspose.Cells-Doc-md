@@ -40,3 +40,4 @@ Här är jämförande kodexempel för att öppna textfil som arbetsböcker:
 {{< /highlight >}}
 ##**Ladda Ner**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/OpenTextFilesAsWorkbooks.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

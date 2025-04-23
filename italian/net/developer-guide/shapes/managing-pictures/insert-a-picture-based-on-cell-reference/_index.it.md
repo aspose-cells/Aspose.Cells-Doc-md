@@ -18,3 +18,4 @@ Aspose.Cells supporta mostrare i contenuti di una cella del foglio di lavoro in 
 ### Esempio di codice
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertPictureCellReference-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

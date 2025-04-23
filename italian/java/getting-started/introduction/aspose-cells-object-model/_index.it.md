@@ -135,3 +135,4 @@ Ciascun oggetto foglio di lavoro contiene un oggetto SparklineGroupCollection ch
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_15.png)|
 Un oggetto SparklineGroup rappresenta un gruppo di miniature nel foglio di lavoro. Gli sviluppatori possono impostare lo stile del gruppo di miniature e altre proprietà correlate utilizzando l'oggetto SparklineGroup.
+{{< app/cells/assistant language="java" >}}

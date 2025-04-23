@@ -22,3 +22,4 @@ url: /it/net/setting-shadow-of-text-effects-of-shape-or-textbox/
 Il seguente frammento di codice dimostra l'uso della proprietà [**FontSetting.TextOptions.Shadow.PresetType.PresetType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype) per impostare l'ombra degli effetti di testo della forma o della casella di testo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SettingTextEffectsShadowOfShapeOrTextbox-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

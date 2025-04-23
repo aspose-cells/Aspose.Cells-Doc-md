@@ -81,3 +81,4 @@ Aspose.Cells 允许您通过使用 [**MsoDrawingType**](https://reference.aspose
 
 ## **高级主题**
 - [向图表添加艺术字水印](/cells/zh/net/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="csharp" >}}

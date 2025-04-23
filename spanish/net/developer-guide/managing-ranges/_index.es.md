@@ -74,3 +74,4 @@ Ahora por favor ejecuta el siguiente ejemplo, mira cómo funciona en Aspose.Cell
 - [Mover rango de celdas en una hoja de cálculo](/cells/es/net/move-range-of-cells-in-a-worksheet/)
 - [Crear rangos con nombre con ámbito de libro de trabajo y hoja de cálculo](/cells/es/net/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Buscar y reemplazar datos en un rango](/cells/es/net/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="csharp" >}}

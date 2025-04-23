@@ -65,7 +65,7 @@ API Aspose.Cells поддерживает экспорт таблиц в фор�
 
 {{% alert color="primary" %}}
 
-Вы можете достичь тех же результатов, передав [**SaveFormat.HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML) методу [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)).
+Вы можете достичь тех же результатов, передав [**SaveFormat.HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML) методу [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-).
 
 {{% /alert %}}
 
@@ -110,7 +110,7 @@ Aspose.Cells for Java напрямую записывает информацию
 
 #### **Прямое преобразование**
 
-Сохраните файл Excel непосредственно в PDF, используя метод [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)), и предоставьте член интерфейса [**SaveFormat.PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF). Прямое преобразование, таким образом, является наиболее эффективным методом преобразования. Оно не теряет данных или форматирование, но сохраняет PDF-файл выглядящим как исходный файл Excel.
+Сохраните файл Excel непосредственно в PDF, используя метод [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-), и предоставьте член интерфейса [**SaveFormat.PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF). Прямое преобразование, таким образом, является наиболее эффективным методом преобразования. Оно не теряет данных или форматирование, но сохраняет PDF-файл выглядящим как исходный файл Excel.
 
 Чтобы указать параметры безопасности при сохранении в PDF, используйте [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions).
 
@@ -134,7 +134,7 @@ Aspose.Cells for Java напрямую записывает информацию
 
 1. Создайте объект класса [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), вызвав его пустой конструктор.
 1. Выполните необходимую работу с электронной таблицей, используя API Aspose.Cells.
-1. Вызовите метод [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) для сохранения электронной таблицы:
+1. Вызовите метод [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save-java.io.OutputStream-com.aspose.cells.SaveOptions-) для сохранения электронной таблицы:
    1. Установите формат файла в формат XML.
    1. Выберите Aspose_Pdf (предопределенное значение) из интерфейса FileFormatType. Это направит метод сохранения на создание электронной таблицы в XML-форме, совместимой со схемой Aspose.PDF, чтобы затем Aspose.PDF для Java мог создать документ PDF.
 1. Когда XML-файл будет создан, создайте объект класса Pdf в пакете aspose.pdf.
@@ -189,3 +189,4 @@ Aspose.Cells for Java напрямую записывает информацию
 |Настройка страницы|Масштабирование|Да| |
 |Высота строки/Ширина столбца| |Да| |
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

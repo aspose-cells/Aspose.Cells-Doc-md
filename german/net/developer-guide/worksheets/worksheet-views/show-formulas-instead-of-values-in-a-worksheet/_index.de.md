@@ -15,3 +15,4 @@ In Microsoft Excel ist es möglich, Formeln anstelle von berechneten Werten anzu
 Aspose.Cells bietet eine [**Worksheet.ShowFormulas**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/showformulas)-Eigenschaft. Setzen Sie diese auf **true**, um Microsoft Excel anzuweisen, Formeln anzuzeigen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ShowFormulasInsteadOfValues-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

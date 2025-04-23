@@ -3,8 +3,8 @@ title: Ottieni larghezza e altezza della carta della configurazione della pagina
 type: docs
 weight: 50
 url: /it/python-net/get-paper-width-and-height-of-page-setup-of-worksheet/
-description: In questo articolo scoprirai come ottenere larghezza e altezza del foglio Excel utilizzando il codice Python in modo programmato con Aspose.Cells per Python via .NET API o Libreria.
-keywords: Libreria Python Excel, larghezza formato carta setup pagina excel, altezza formato carta setup pagina excel in Python.
+description: In questo articolo imparerai come ottenere la larghezza e l altezza della pagina di imposta del foglio di lavoro di Excel utilizzando codice Python programmaticamente con l API o libreria di Aspose.Cells per Python via .NET.
+keywords: Libreria Excel Python, Python larghezza della pagina di impostazione, altezza della pagina di impostazione in Python.
 ---
 
 ## **Possibili Scenari di Utilizzo**
@@ -13,7 +13,7 @@ A volte è necessario conoscere la larghezza e l'altezza della dimensione della 
 
 ## **Ottenere larghezza e altezza della pagina di configurazione del foglio di lavoro**
 
-Il codice di esempio seguente spiega l'utilizzo delle proprietà [**PageSetup.paper_width**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_width) e [**PageSetup.paper_height**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_height). Prima cambia il formato carta in *A2* e successivamente trova la larghezza e l'altezza del foglio, poi lo cambia in *A3*, *A4*, *Letter* e rispettivamente trova la larghezza e l'altezza del foglio.
+Il seguente esempio di codice spiega l'uso delle proprietà [**PageSetup.paper_width**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_width) e [**PageSetup.paper_height**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/paper_height). Prima cambia la dimensione della carta in *A2* e poi trova la larghezza e l'altezza della carta, successivamente cambia in *A3*, *A4*, *Letter* e trova rispettivamente la larghezza e l'altezza della carta.
 
 ### **Codice di Esempio**
 

@@ -74,3 +74,4 @@ Aşağıda belirtilen herhangi bir sosyal kodlama sitesinden **Grafiği Görünt
 Daha fazla bilgi için [Grafiği SVG Formatında Görüntüye Dönüştürme](/cells/tr/net/converting-chart-to-image-in-svg-format/) sayfasını ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

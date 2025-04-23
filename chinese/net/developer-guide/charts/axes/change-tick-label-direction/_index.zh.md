@@ -38,3 +38,4 @@ Aspose.Cells提供了通过 [**TickLabels.DirectionType**](https://reference.as
 [源文件](105480221.xlsx)
 
 [输出文件](105480223.xlsx)
+{{< app/cells/assistant language="csharp" >}}

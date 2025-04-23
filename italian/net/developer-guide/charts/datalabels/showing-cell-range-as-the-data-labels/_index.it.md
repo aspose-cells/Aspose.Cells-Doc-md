@@ -24,3 +24,4 @@ Per mostrare l'intervallo di celle come etichette dati in Microsoft Excel:
 Il codice di esempio qui sotto accede alle etichette dati di una serie del grafico e imposta la proprietà [**DataLabels.ShowCellRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/showcellrange) su **true** per selezionare l'opzione **L'etichetta contiene - Valore dalle celle**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ShowCellRangeAsDataLabels-ShowCellRangeAsDataLabels.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -40,3 +40,4 @@ Es ist einfach, Fenster mit Aspose.Cells für .Net einzufrieren. Bitte verwenden
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Pane.cs" >}}
 
 Anbei [Beispielquelle Excel-Datei](Freeze.xlsx).
+{{< app/cells/assistant language="csharp" >}}

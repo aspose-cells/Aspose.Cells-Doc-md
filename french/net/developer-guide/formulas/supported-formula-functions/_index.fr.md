@@ -36,6 +36,7 @@ Le moteur de calcul des formules d'Aspose.Cells vous permet de définir, lire et
 |ANCHORARRAY|**Recherche et référence** : Renvoie la plage étendue entière pour le tableau dynamique dans la cellule
 |AND|**Logique** : Renvoie VRAI si tous ses arguments sont VRAI
 |AREAS|**Recherche et référence** : Renvoie le nombre de zones dans une référence
+|ARRAYTOTEXT|**Texte** : Renvoie un tableau de valeurs textuelles à partir d'une plage spécifiée
 |ASC|**Texte** : Convertit les lettres anglaises ou katakanas pleine largeur (double-octet) dans une chaîne de caractères en caractères demi-largeur (octet unique)
 |ASIN|**Mathématiques et trigonométrie** : Renvoie l'arc sinus d'un nombre
 |ASINH|**Mathématiques et trigonométrie**: Renvoie le sinus hyperbolique inverse d'un nombre
@@ -69,6 +70,8 @@ Le moteur de calcul des formules d'Aspose.Cells vous permet de définir, lire et
 |BITOR|**Ingénierie**: Renvoie un 'OU logique' de 2 nombres
 |BITRSHIFT|**Ingénierie**: Renvoie un nombre de valeur décalé vers la droite de shift_amount bits
 |BITXOR|**Ingénierie**: Renvoie un 'OU exclusif' de deux nombres
+|BYCOL|**Logique** : Applique une LAMBDA à chaque colonne et retourne un tableau des résultats
+|BYROW|**Logique** : Applique une LAMBDA à chaque ligne et retourne un tableau des résultats
 
 ###### **C**
 |**Fonction**|**Résumé**|
@@ -148,7 +151,7 @@ Le moteur de calcul des formules d'Aspose.Cells vous permet de définir, lire et
 |DOLLARDE|**Financial**: Convertit un prix en dollars, exprimé en fraction, en un prix en dollars, exprimé en nombre décimal
 |DOLLARFR|**Financial**: Convertit un prix en dollars, exprimé en nombre décimal, en un prix en dollars, exprimé en fraction
 |DPRODUCT|**Database**: Multiplie les valeurs dans un champ particulier des enregistrements correspondant aux critères dans une base de données
-|SUPPRIMER|**Recherche et référence**: Exclut un nombre spécifié de lignes ou de colonnes du début ou de la fin d'un tableau
+|DROP|**Recherche et référence** : Exclut un nombre spécifié de lignes ou de colonnes du début ou de la fin d’un tableau
 |DSTDEV|**Database**: Estime l'écart type sur un échantillon des entrées de base de données sélectionnées
 |DSTDEVP|**Database**: Calcule l'écart type sur l'ensemble de la population des entrées de base de données sélectionnées
 |DSUM|**Database**: Ajoute les nombres dans la colonne de champ des enregistrements dans la base de données qui correspondent aux critères
@@ -515,6 +518,7 @@ Le moteur de calcul des formules d'Aspose.Cells vous permet de définir, lire et
 |**Fonction**|**Résumé**|
 | :- | :- |
 |VALUE|**Texte**: Convertit un argument texte en un nombre
+|VALUETOTEXT|**Texte** : Renvoie du texte à partir de n'importe quelle valeur spécifiée
 |VAR|**Compatibilité**: Estime la variance basée sur un échantillon
 |VAR.P|**Statistique**: Calcule la variance basée sur l'ensemble de la population
 |VAR.S|**Statistique**: Estime la variance basée sur un échantillon
@@ -557,3 +561,4 @@ Le moteur de calcul des formules d'Aspose.Cells vous permet de définir, lire et
 |Z.TEST|**Statistique** : Renvoie la probabilité unilatérale de la valeur de test z
 |ZTEST|**Compatibilité** : Renvoie la probabilité unilatérale de la valeur de test z
 
+{{< app/cells/assistant language="csharp" >}}

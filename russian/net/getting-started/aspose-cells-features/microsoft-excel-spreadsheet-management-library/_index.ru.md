@@ -83,3 +83,4 @@ url: /ru/net/microsoft-excel-spreadsheet-management-library/
 ### **Поддерживаемые платформы**
 - Настольное приложение для Windows
 - Прикладное веб-приложение для предприятия
+{{< app/cells/assistant language="csharp" >}}

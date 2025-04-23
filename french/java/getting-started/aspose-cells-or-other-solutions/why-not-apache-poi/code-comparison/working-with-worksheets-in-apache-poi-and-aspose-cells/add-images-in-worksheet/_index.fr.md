@@ -98,3 +98,4 @@ pict.resize();
 Pour plus de détails, visitez [Ajouter des hyperliens d'image](/java/add-image-hyperlinks).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

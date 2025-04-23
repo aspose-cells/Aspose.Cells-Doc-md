@@ -17,3 +17,4 @@ Aspose.Cellsは、Office 2013、Office 2016、Office 2019、Office 365を使用�
 ### **サンプルコード**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Timelines-RenderingTimeline.java" >}}
 
+{{< app/cells/assistant language="java" >}}

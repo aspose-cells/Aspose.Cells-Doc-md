@@ -11,8 +11,8 @@ Aspose.Cells ger dig möjlighet att ändra diagrammets tickmärke riktning genom
 
 - [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
 - [**VERTICAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)
-- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)
-- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_270)
+- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90)
+- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-270)
 - [**STACKED**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#STACKED)
 
 Följande bild jämför käll- och utdatafilerna
@@ -25,7 +25,7 @@ Följande bild jämför käll- och utdatafilerna
 
 ![todo:image_alt_text](change-tick-label-direction_2.jpg)
 
-Nedanstående kodsnutt ändrar tickmärkesriktningen från [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90) till [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
+Nedanstående kodsnutt ändrar tickmärkesriktningen från [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90) till [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
 
 ### **Exempelkod**
 
@@ -36,3 +36,4 @@ Käll- och utdatafilerna kan laddas ned från följande länkar.
 [Källfil](SampleChangeTickLabelDirection.xlsx)
 
 [Utdatafil](outputChangeChartDataLableDirection.xlsx)
+{{< app/cells/assistant language="java" >}}

@@ -51,3 +51,4 @@ Après l'opération ci-dessus, nous pouvons obtenir une image de graphique de so
 |Nom total de la légende|すべての|Total|
 |Autre nom|その他|Autre|
 |Nom de la série|シリーズ|Série|
+{{< app/cells/assistant language="csharp" >}}

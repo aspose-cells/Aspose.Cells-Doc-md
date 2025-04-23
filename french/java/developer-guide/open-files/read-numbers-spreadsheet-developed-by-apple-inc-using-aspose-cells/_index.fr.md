@@ -17,3 +17,4 @@ Le code d'exemple suivant charge la [Feuille de calcul des chiffres](sampleNumbe
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-ReadNumbersSpreadsheet.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -62,3 +62,4 @@ Microsoft Excel позволяет настроить параметры гру�
 [**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) имеет перегрузку, принимающую третий параметр логического типа. Установка его в **true** удаляет всю группированную информацию. В противном случае удаляется только внешняя информация о группе.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-UngroupingRowsAndColumns-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

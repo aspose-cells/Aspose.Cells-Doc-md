@@ -371,3 +371,4 @@ url: /sv/java/developer-guide/
 </div>
 {{< /tab >}}
 {{< /tabs >}}
+{{< app/cells/assistant language="java" >}}

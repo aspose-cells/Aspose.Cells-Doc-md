@@ -14,3 +14,4 @@ url: /zh/net/password-protect-the-vba-project-of-excel-workbook/
 以下示例代码加载 [示例 Excel 文件](43352067.xlsm)，访问其 VBA 项目并使用密码保护它。最后将其保存为 [输出 Excel 文件](43352068.xlsm)。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProjectPassword-ProtecttheVBAProjectofExcelWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

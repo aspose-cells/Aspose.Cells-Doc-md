@@ -33,3 +33,4 @@ Den följande exempelkoden beskriver hur man skapar säkra PDF-filer med Aspose.
 Om kalkylbladet innehåller formler, är det bäst att anropa [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) strax innan man renderar det till PDF. Detta säkerställer att formelberoende värden beräknas om och de korrekta värdena renderas i PDF-filen.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

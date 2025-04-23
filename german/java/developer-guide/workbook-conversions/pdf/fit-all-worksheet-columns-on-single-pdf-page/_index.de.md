@@ -30,3 +30,4 @@ Der folgende Beispielcode zeigt, wie die Eigenschaft [**PdfSaveOptions.setAllCol
 Wenn Ihre Tabelle Formeln enthält, ist es am besten, die Methode [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) kurz vor dem Rendern der Tabelle im PDF-Format aufzurufen. Dadurch werden die von der Formel abhängigen Werte neu berechnet, und die korrekten Werte werden im PDF gerendert.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -24,3 +24,4 @@ El siguiente código de muestra carga el [archivo Excel de muestra](64716905.xls
 Y Value Type: IsNumeric
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

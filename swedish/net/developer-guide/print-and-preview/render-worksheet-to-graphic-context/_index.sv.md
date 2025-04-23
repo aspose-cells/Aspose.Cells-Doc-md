@@ -17,3 +17,4 @@ Aspose.Cells kan nu rendera arbetsblad till grafiskt sammanhang. Grafiskt samman
 Följande kod illustrerar hur man använder Aspose.Cells för att rendera arbetsblad till grafiskt sammanhang. När du kör koden kommer den att skriva ut hela arbetsbladet och fylla den överblivna tomma platsen med blå färg i grafiskt sammanhang och spara bilden som **OutputImage_out_.png**-fil. Du kan använda vilken käll-Excel-fil som helst för att prova denna kod. Läs också kommentarerna i koden för bättre förståelse.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-RenderWorksheetToGraphicContext-RenderWorksheetToGraphicContext.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

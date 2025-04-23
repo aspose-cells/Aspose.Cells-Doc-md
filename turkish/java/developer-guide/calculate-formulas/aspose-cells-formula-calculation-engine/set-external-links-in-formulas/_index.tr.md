@@ -14,3 +14,4 @@ Bazen, formülde dış dosyalara bağlantı eklemek gerekebilir, bu örneğin bi
 Aşağıdaki örnek kod, formüllerde harici dosyaların nasıl dahil edileceğini gösterir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetExternalLinksInFormulas-SetExternalLinksInFormulas.java" >}}
+{{< app/cells/assistant language="java" >}}

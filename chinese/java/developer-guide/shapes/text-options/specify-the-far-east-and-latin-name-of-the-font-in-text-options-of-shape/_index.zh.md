@@ -18,3 +18,4 @@ url: /zh/java/specify-the-far-east-and-latin-name-of-the-font-in-text-options-of
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.java" >}}
+{{< app/cells/assistant language="java" >}}

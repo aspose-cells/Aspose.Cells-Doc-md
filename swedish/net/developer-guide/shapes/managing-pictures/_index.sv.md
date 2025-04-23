@@ -53,3 +53,4 @@ Lägg till en bild i arbetsbladet genom att ringa [**AddPicture**](https://refer
 - [Infoga en Bild Baserat på Cellreferens](/cells/sv/net/insert-a-picture-based-on-cell-reference/)
 - [Ladda en webbbild från en URL till ett Excel-arbetsblad](/cells/sv/net/load-a-web-image-from-a-url-into-an-excel-worksheet/)
 
+{{< app/cells/assistant language="csharp" >}}

@@ -40,3 +40,4 @@ Aspose.Cells for .Netでウィンドウ枠を簡単に固定できます。選�
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Pane.cs" >}}
 
 添付 [サンプルExcelファイル](Freeze.xlsx)。
+{{< app/cells/assistant language="csharp" >}}

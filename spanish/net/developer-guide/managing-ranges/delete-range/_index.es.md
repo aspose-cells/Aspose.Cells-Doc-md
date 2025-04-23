@@ -27,3 +27,4 @@ Eliminar un rango y desplazar celdas hacia arriba como en los siguientes código
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Delete-Range-up.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

@@ -28,3 +28,4 @@ url: /ar/net/right90-sales-forecasting/
 سمحت مكونات Aspose.Cells لنا ببناء وقراءة ورق العمل Excel بسرعة، مما يمنح عملاء التصنيع لدينا وسيلة أخرى سهلة وبديهية لالتقاط وتحديث وتجميع توقعات مبيعاتهم مع Right90.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

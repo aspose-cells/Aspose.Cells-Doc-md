@@ -73,3 +73,4 @@ url: /ru/net/setting-chart-appearance/
 ## **Продвинутые темы**
 - [Установить код формата значений серии графика](/cells/ru/net/set-the-values-format-code-of-chart-series/)
 - [Установите изображение в качестве фона в диаграмме](/cells/ru/net/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="csharp" >}}

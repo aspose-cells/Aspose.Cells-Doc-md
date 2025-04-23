@@ -62,3 +62,4 @@ Sobald es die [Quell-Excel-Datei](5115255.xlsx) mit einem benutzerdefinierten Fi
 So verwenden Sie die Klasse CustomLoadFilter gemäß der Arbeitsblattnamen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-CustomFilteringPerWorksheet-2.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

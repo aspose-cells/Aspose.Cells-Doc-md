@@ -22,3 +22,4 @@ url: /ja/java/using-formulatext-function-in-aspose-cells/
  =SUM(B1:B10)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

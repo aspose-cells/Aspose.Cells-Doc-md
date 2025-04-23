@@ -1,0 +1,117 @@
+---
+title: Lägg till beräknat fält i pivottabell med C++
+linktitle: Lägg till beräknat fält i pivottabell
+type: docs
+weight: 130
+url: /sv/cpp/add-calculated-field-in-pivot-table/
+description: Hur man lägger till ett beräknat fält i pivottabell med Aspose.Cells for C++.
+keywords: Lägger till ett beräknat fält i pivottabell.
+---
+
+## **Möjliga användningsscenario**
+När du skapar en pivottabell baserad på kända data finner du att datan i den inte är det du vill ha. Den data du vill ha är kombinationen av denna ursprungliga data. Till exempel behöver du lägga till, subtrahera, multiplicera och dividera den ursprungliga datan innan du vill ha datan. Vid den här tiden behöver du bygga ett beräknat fält och ställa in motsvarande formel för beräkning. Utför sedan vissa statistik och andra operationer på det beräknade fältet. 
+
+## **Lägg till beräknat fält i pivottabell i Excel**
+Så här lägger du till ett beräknat fält i en pivot-tabell i Excel, följ dessa steg:
+
+1. Välj pivottabellen som du vill lägga till ett beräknat fält i. 
+2. Gå till fliken Pivottabell analysera på menyfliken.
+3. Klicka på "Fält, artiklar och uppsättningar" och välj sedan "Beräknat fält" i rullgardinsmenyn.
+4. I fältet "Namn" anger du ett namn för det beräknade fältet.
+5. I fältet "Formel" anger du formeln för beräkningen du vill utföra med hjälp av lämpliga PivotTable-fältnamn och matematiska operatorer. 
+<br>
+<img src="1.png" width=80% />
+6. Klicka på "ok" för att skapa det beräknade fältet.
+7. Det nya beräknade fältet kommer att visas i PivotTable Field List under avsnittet Värden.
+8. Dra det beräknade fältet till värdesektionen i PivotTable för att visa de beräknade värdena.
+<br>
+<img src="2.png" width=80% />
+
+## **Lägg till beräknat fält i pivottabell med C++**
+Lägg till beräknat fält i Excel-fil med hjälp av Aspose.Cells. Se följande exempelkod. Efter att ha kört exempelkoden läggs en pivottabell med beräknad inmatning till arbetsbladet.
+1. Ange originaldata och skapa en pivot-tabell. 
+2. Skapa det beräknade fältet enligt det befintliga PivotField i pivot-tabellen.
+3. Lägg till det beräknade fältet i dataområdet. 
+4. Slutligen sparas arbetsboken i [utdata XLSX](ut.xlsx)-format. 
+
+## **Exempelkod**
+```c++
+#include <iostream>
+#include "Aspose.Cells.h"
+using namespace Aspose::Cells;
+
+int main()
+{
+    Aspose::Cells::Startup();
+
+    // Creating a Workbook object
+    Workbook workbook;
+
+    // Obtaining the reference of the newly added worksheet
+    Worksheet ws = workbook.GetWorksheets().Get(0);
+    Cells cells = ws.GetCells();
+
+    // Setting the values to the cells
+    Cell cell = cells.Get("A1");
+    cell.PutValue(u"Fruit");
+
+    cell = cells.Get("B1");
+    cell.PutValue(u"Count");
+
+    cell = cells.Get("C1");
+    cell.PutValue(u"Price");
+
+    cell = cells.Get("A2");
+    cell.PutValue(u"Apple");
+
+    cell = cells.Get("A3");
+    cell.PutValue(u"Mango");
+
+    cell = cells.Get("A4");
+    cell.PutValue(u"Blackberry");
+
+    cell = cells.Get("A5");
+    cell.PutValue(u"Cherry");
+
+    cell = cells.Get("B2");
+    cell.PutValue(5);
+
+    cell = cells.Get("B3");
+    cell.PutValue(3);
+
+    cell = cells.Get("B4");
+    cell.PutValue(6);
+
+    cell = cells.Get("B5");
+    cell.PutValue(4);
+
+    cell = cells.Get("C2");
+    cell.PutValue(5);
+
+    cell = cells.Get("C3");
+    cell.PutValue(20);
+
+    cell = cells.Get("C4");
+    cell.PutValue(30);
+
+    cell = cells.Get("C5");
+    cell.PutValue(60);
+
+    // Adding a PivotTable to the worksheet
+    int32_t i = ws.GetPivotTables().Add(u"=A1:C5", u"D10", u"PivotTable1");
+
+    // Accessing the instance of the newly added PivotTable
+    PivotTable pivotTable = ws.GetPivotTables().Get(i);
+    pivotTable.AddFieldToArea(PivotFieldType::Row, 0);
+
+    // Adding a calculated field to PivotTable and dragging it to data area
+    pivotTable.AddCalculatedField(u"total", u"=Count*Price", true);
+
+    pivotTable.RefreshData();
+    pivotTable.CalculateData();
+
+    workbook.Save(u"out.xlsx");
+
+    Aspose::Cells::Cleanup();
+}
+```

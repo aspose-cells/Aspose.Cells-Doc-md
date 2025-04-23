@@ -20,3 +20,4 @@ Aspose.Cells提供了一个有用的属性，[**HtmlSaveOptions.PresentationPref
 - [在保存为HTML时禁用下级可见的批注](/cells/zh/java/disable-downlevel-revealed-comments-while-saving-to-html/)
 - [在Excel转换为HTML时导出文档工作簿和工作表属性](/cells/zh/java/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/)
 - [将打印区域范围导出为HTML](/cells/zh/java/export-print-area-range-to-html/)
+{{< app/cells/assistant language="java" >}}

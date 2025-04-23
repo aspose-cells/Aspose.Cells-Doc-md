@@ -147,3 +147,4 @@ url: /ar/net/convert-excel-to-pdf/
 - [حفظ ورقات العمل المحددة في ملف PDF](/cells/ar/net/save-specified-worksheets-to-pdf/)
 - [مستندات PDF آمنة](/cells/ar/net/secure-pdf-documents/)
 - [تحديد كيفية عبور السلسلة في ملف PDF والصورة](/cells/ar/net/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="csharp" >}}

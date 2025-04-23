@@ -48,3 +48,4 @@ chart.getChartObject().setY(150);
 Para más detalles, visita [Cambiar la Posición y Tamaño del Gráfico](/cells/es/java/change-chart-position-and-size/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

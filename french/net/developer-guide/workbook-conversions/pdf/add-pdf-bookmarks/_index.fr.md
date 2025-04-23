@@ -22,3 +22,4 @@ Veuillez consulter le code d'exemple suivant pour savoir comment ajouter des sig
 Si votre feuille de calcul contient des formules, il est préférable d'appeler [**Workbook.CalculateFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula/index) juste avant de rendre la feuille de calcul au format PDF. Cela garantira que les valeurs dépendantes des formules sont actualisées et rendues correctement au format PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

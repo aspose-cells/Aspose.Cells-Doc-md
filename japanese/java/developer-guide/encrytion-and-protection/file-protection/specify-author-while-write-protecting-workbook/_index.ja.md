@@ -18,3 +18,4 @@ Aspose.Cells APIを使用して、ブックを書き込み保護する際に著�
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Worksheets-SpecifyAuthorWhileWriteProtectingWorkbook.java" >}}
+{{< app/cells/assistant language="java" >}}

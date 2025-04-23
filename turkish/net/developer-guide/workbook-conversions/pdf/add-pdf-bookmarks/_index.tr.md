@@ -22,3 +22,4 @@ PDF yer işaretlerini nasıl ekleyeceğinizi öğrenmek için aşağıdaki örne
 Eğer elektronik tablonuz formüller içeriyorsa, PDF formatına dönüştürmeden hemen önce [**Workbook.CalculateFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula/index) metodunu çağırmak en iyisidir. Bu, formül bağımlı değerlerin PDF'de doğru bir şekilde yenilenip render edilmesini sağlar.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -75,3 +75,4 @@ sorter.sort(cells, ca);
 [データのソート](/java/sort-data)または[データのソート](/cells/ja/java/data-sorting)の詳細については
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -34,3 +34,4 @@ Si prega di controllare l'output della console del codice di esempio sopra, il v
 [Calcolo diretto della funzione personalizzata senza scriverla in un foglio di calcolo](/cells/it/net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

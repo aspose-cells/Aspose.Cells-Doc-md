@@ -32,3 +32,4 @@ Nel file generato, è possibile operare sulla barra di scorrimento, mentre il gr
 ```
 
 È possibile provare a modificare il numero "10" in "15" nella cella "Foglio1!$H$20", e il grafico dinamico conterà gli ultimi 15 set di dati. Ora abbiamo creato con successo un grafico di scorrimento dinamico utilizzando Aspose.Cells.
+{{< app/cells/assistant language="csharp" >}}

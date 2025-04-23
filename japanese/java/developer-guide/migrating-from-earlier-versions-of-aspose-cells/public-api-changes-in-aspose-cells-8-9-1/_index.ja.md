@@ -256,3 +256,4 @@ book.calculateFormula(options);
 代わりに、FontConfigs.setFontFolders(String[], boolean) メソッドを使用し、再帰を false に設定することを推奨します。
 ### **非推奨の CellsHelper.FontFiles プロパティ**
 代わりに、FontConfigs.setFontSources(FontSourceBase[]) メソッドを使用してください。
+{{< app/cells/assistant language="java" >}}

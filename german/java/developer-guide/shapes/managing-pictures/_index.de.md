@@ -13,7 +13,7 @@ Dieser Artikel erklärt, wie man Bilder hinzufügt und wie man ein Bild einfügt
 
 Das Hinzufügen von Bildern zu einer Tabelle ist sehr einfach. Es dauert nur wenige Zeilen Code.
 
-Rufen Sie einfach die Methode [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) der Sammlung [**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) (die im Objekt [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) gekapselt ist) auf. Die Methode [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) nimmt die folgenden Parameter an:
+Rufen Sie einfach die Methode [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add-int-int-java.lang.String-) der Sammlung [**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) (die im Objekt [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) gekapselt ist) auf. Die Methode [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add-int-int-java.lang.String-) nimmt die folgenden Parameter an:
 
 - **Index der oberen linken Zeile**, der Index der oberen linken Zeile.
 - **Index der oberen linken Spalte**, der Index der oberen linken Spalte.
@@ -37,3 +37,4 @@ Entwickler können die Bilder absolut positionieren, indem sie die Methoden [**s
 - [Verknüpftes Bild aus Webadresse einfügen](/cells/de/java/insert-a-linked-picture-from-web-address/)
 - [Ein Bild basierend auf Zellverweis einfügen](/cells/de/java/insert-a-picture-based-on-cell-reference/)
 - [Ein Webbild von einer URL in ein Excel-Arbeitsblatt einfügen](/cells/de/java/insert-web-image-from-a-url-into-an-excel-worksheet/)
+{{< app/cells/assistant language="java" >}}

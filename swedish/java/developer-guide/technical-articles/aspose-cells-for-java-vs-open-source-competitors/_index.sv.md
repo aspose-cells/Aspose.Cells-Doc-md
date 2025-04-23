@@ -148,3 +148,4 @@ Följande tabell försöker ge en översikt över funktionerna för hur Aspose.C
 |Infoga kontroller i diagram | | |Stöttas |
 |Formelberäkningsmotor | | |Stöttas |
 |Hitta API |Stöttas |Stöttas |Stöttas |
+{{< app/cells/assistant language="java" >}}

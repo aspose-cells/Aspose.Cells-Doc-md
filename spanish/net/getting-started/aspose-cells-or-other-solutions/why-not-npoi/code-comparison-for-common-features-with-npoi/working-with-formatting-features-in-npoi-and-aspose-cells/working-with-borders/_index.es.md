@@ -90,3 +90,4 @@ Descargar **Trabajando con bordes** desde cualquiera de los sitios de codificaci
 Para más detalles, visita [Características de Formato de Datos](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

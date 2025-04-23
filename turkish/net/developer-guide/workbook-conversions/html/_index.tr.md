@@ -52,3 +52,5 @@ Aşağıdaki kod örneği, bir çalışma kitabını C# kullanarak MHTML dosyas�
 - [HTML olarak elektronik tabloyu oluştururken varsayılan yazı tipini ayarlayın](/cells/tr/net/set-default-font-while-rendering-spreadsheet-to/)
 - [Çıkış HTML'sinde dizeyi nasıl geçeceğini HtmlCrossType kullanarak belirtin](/cells/tr/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
 - [HTML'nin Excel elektronik tablosuna yüklenmesi sırasında DIV etiketlerinin düzenini destekle](/cells/tr/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
+{{< app/cells/assistant language="csharp" >}}
+- [ HTML'ye Kaydederken CSS Özel Özelliklerini Etkinleştir](/cells/tr/net/enable-css-custom-properties-while-saving-to-html/)

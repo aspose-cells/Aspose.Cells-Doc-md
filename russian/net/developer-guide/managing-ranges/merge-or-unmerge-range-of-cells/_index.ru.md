@@ -18,3 +18,4 @@ keywords: c# объединение и разъединение ячеек в д
 Приведенный ниже образец кода сначала создает диапазон - A1:D4, затем объединяет ячейки в диапазоне в одну ячейку с помощью метода [**Range.Merge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge). Аналогичным образом вы можете разделять ячейки, создавая диапазон и вызывая метод [**Range.UnMerge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/unmerge).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-MergeUnmergeRangeOfCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

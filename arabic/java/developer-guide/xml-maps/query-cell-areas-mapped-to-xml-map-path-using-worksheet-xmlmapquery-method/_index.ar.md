@@ -7,11 +7,11 @@ url: /ar/java/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquer
 
 ## **سيناريوهات الاستخدام المحتملة**
 
-يمكنك استعلام مجالات الخلية المتوافقة مع مسار map XML باستخدام الـ [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)). إذا كان المسار موجودًا، فسيُعيد قائمة مجالات الخليّة المتعلقة بذلك المسار داخل خريطة XML. تحدد المعلمة الأولى للـ [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)) مسار العنصر XML والمعلمة الثانية تحدد Map XML الذي تريد الاستعلام عنه.
+يمكنك استعلام مجالات الخلية المتوافقة مع مسار map XML باستخدام الـ [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery-java.lang.String-com.aspose.cells.XmlMap-). إذا كان المسار موجودًا، فسيُعيد قائمة مجالات الخليّة المتعلقة بذلك المسار داخل خريطة XML. تحدد المعلمة الأولى للـ [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery-java.lang.String-com.aspose.cells.XmlMap-) مسار العنصر XML والمعلمة الثانية تحدد Map XML الذي تريد الاستعلام عنه.
 
 ## **استعلام عن مجالات الخلية المرتبطة بمسار خريطة XML باستخدام طريقة Worksheet.XmlMapQuery**
 
-تُظهر اللقطة الشاشة التالية عرض Map XML داخل Microsoft Excel في [ملف الإكسل النموذجي](55541818.xlsx) المستخدم في الشفرة. تستعلم الشفرة خريطة XML مرتين وتطبع قائمة مجالات الخلية المعادة من الـ [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)) على واجهة السطر كما هو مُبيَّن أدناه.
+تُظهر اللقطة الشاشة التالية عرض Map XML داخل Microsoft Excel في [ملف الإكسل النموذجي](55541818.xlsx) المستخدم في الشفرة. تستعلم الشفرة خريطة XML مرتين وتطبع قائمة مجالات الخلية المعادة من الـ [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery-java.lang.String-com.aspose.cells.XmlMap-) على واجهة السطر كما هو مُبيَّن أدناه.
 
 ![todo:image_alt_text](query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method_1.png)
 
@@ -50,3 +50,4 @@ Aspose.Cells.CellArea(D1:D8)[0,3,7,3]
 1. [FoodList.xml](FoodList.xml)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-XmlMaps-GetXMLPathFromListObject.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -15,7 +15,7 @@ Bazen birden fazla çalışsayfayı tek bir çalışsayfada birleştirmeniz gere
 
 ## **Çalışma Sayfalarını Birleştirme**
 
-Aşağıdaki örnek, tüm kaynak çalışma sayfalarını bir hedef çalışma kitabının içinde tek bir sayfaya kopyalamak için [**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) yöntemini kullanır.
+Aşağıdaki örnek, tüm kaynak çalışma sayfalarını bir hedef çalışma kitabının içinde tek bir sayfaya kopyalamak için [**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy-com.aspose.cells.Range-) yöntemini kullanır.
 
 ### **Kaynak Çalışma Kitabı**
 
@@ -59,3 +59,4 @@ Aşağıdaki kod örneği, birden fazla çalışsayıyı tek bir çalışsayıya
 Daha fazla bilgi için [Birden Fazla Çalışma Kitabını Tek Bir Çalışma Kitabına Birleştirme](/cells/tr/java/combine-multiple-workbooks-into-a-single-workbook/) makalesi faydalı olabilirsiniz.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

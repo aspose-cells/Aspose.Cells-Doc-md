@@ -1,0 +1,37 @@
+---
+title: 在数据透视表中添加计算字段
+type: docs
+weight: 130
+url: /zh/nodejs-cpp/add-calculated-field-in-pivot-table/
+description: 如何在Aspose.Cells for Node.js via C++中在数据透视表中添加计算字段。
+keywords: Aspose.Cells for Node.js via C++ Excel、Excel Node.js库，使用Node.js Excel库在数据透视表中添加计算字段。
+---
+
+## **可能的使用场景**
+当您基于已知数据创建数据透视表时，您会发现其中的数据不是您想要的。您想要的数据是这些原始数据的组合。例如，您需要在希望获取数据之前对原始数据进行加法、减法、乘法和除法。这时，您需要构建一个计算字段并设置相应的计算公式。然后对计算字段执行一些统计和其他操作。 
+
+## **如何在Excel中的数据透视表中添加计算字段**
+在Excel中的数据透视表中插入计算字段，请按照以下步骤进行：
+
+1. 选择要向其添加计算字段的数据透视表。 
+2. 转到功能区中的数据透视表分析选项卡。
+3. 单击“字段、项和集” ，然后从下拉菜单中选择“计算字段”。
+4. 在“名称”字段中输入计算字段的名称。
+5. 在"公式"字段中，输入要使用适当的数据透视表字段名称和数学运算符进行计算的公式。 
+<br>
+<img src="1.png" width=80% />
+6. 单击"确定"创建计算字段。
+7. 新的计算字段将出现在数据透视表字段列表中的值部分。
+8. 将计算字段拖动到数据透视表的值部分中，以显示计算值。
+<br>
+<img src="2.png" width=80% />
+
+## **如何使用Aspose.Cells for Node.js via C++库在数据透视表中添加计算字段。**
+使用Aspose.Cells for Node.js via C++向Excel文件中添加计算字段。请参见以下示例代码。执行示例代码后，工作表中会添加带有计算字段的数据透视表。
+1. 设置原始数据并创建数据透视表。 
+2. 根据数据透视表中现有的PivotField创建计算字段。
+3. 将计算字段添加到数据区。 
+4. 最后，以[out.xlsx]格式保存工作簿。 
+
+## **示例代码**
+{{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-Add-calculated-field-in-PivotTable.js" >}}

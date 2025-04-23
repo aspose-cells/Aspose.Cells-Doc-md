@@ -361,3 +361,4 @@ Följande är det enkla användningscenariot.
 ## **Borttagen API:er**
 ### **Tog bort Workbook.Decrypt-metoden**
 Den angivna egenskapen markerades som föråldrad för en tid sedan. Denna version har helt tagit bort den från den offentliga API:et. Det rekommenderas att sätta WorkbookSettings.Password egenskapen till null för att uppnå samma mål.
+{{< app/cells/assistant language="csharp" >}}

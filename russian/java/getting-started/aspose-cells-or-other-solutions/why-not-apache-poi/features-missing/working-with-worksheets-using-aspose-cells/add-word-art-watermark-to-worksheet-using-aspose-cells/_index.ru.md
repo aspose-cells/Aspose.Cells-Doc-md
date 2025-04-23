@@ -53,3 +53,4 @@ workbook.save(dataDir + "AsposeWatermark_Out.xls");
 За более подробной информацией посетите [Добавление водяного знака WordArt на лист рабочей книги](/cells/ru/java/add-wordart-watermark-to-worksheet).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -16,3 +16,4 @@ Du kan ange kommentaren för tabellen eller lista objektet i arbetsbladet med hj
 Följande kodexempel laddar [käll-exkelfilen](5115514.xlsx), anger kommentaren för den första tabellen eller listobjektet i arbetsbladet.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-SetCommentOfTableOrListObject-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

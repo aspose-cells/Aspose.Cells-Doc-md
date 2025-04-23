@@ -59,3 +59,4 @@ Aspose.CellsはCSVをJSONに変換することをサポートしています。�
 ]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

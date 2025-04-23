@@ -24,3 +24,4 @@ Ecco l'output della console del codice di esempio sopra.
 This is MyTextBox
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

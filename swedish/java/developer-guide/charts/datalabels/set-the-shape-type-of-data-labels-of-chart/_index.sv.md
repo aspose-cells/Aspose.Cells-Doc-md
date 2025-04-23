@@ -27,10 +27,11 @@ etc.
 
 ## **Ställ in datamärkenas formtyp i diagram**
 
-Följande exempelkod ändrar formtypen på diagrammets datamarkörer till [**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT). Se den [sample Excel file](60489794.xlsx) som används i den här koden och den [output Excel file](60489793.xlsx) som genererats av den. Skärmdumpen visar effekten av koden på den provisoriska Excel-filen.
+Följande exempelkod ändrar formtypen på diagrammets datamarkörer till [**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE-ELLIPSE-CALLOUT). Se den [sample Excel file](60489794.xlsx) som används i den här koden och den [output Excel file](60489793.xlsx) som genererats av den. Skärmdumpen visar effekten av koden på den provisoriska Excel-filen.
 
 ![todo:image_alt_text](set-the-shape-type-of-data-labels-of-chart_1.png)
 
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-SetShapeTypeOfDataLabelsOfChart.java" >}}
+{{< app/cells/assistant language="java" >}}

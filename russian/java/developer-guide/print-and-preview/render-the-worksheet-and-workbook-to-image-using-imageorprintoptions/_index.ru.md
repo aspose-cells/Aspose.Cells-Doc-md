@@ -47,3 +47,4 @@ API предоставляет несколько ценных классов, �
 - [Экспорт диаграммы в SVG с атрибутом viewBox](/cells/ru/java/export-chart-to-svg-with-viewbox-attribute/)
 - [Экспорт листа или диаграммы в изображение с заданными шириной и высотой](/cells/ru/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
 - [Преобразование Рабочего листа в изображение и Рабочего листа в изображение по странице](/cells/ru/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)
+{{< app/cells/assistant language="java" >}}

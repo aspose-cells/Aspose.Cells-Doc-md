@@ -20,3 +20,4 @@ Ekran görüntüsü, [HtmlSaveOptions.DefaultFontName](https://reference.aspose.
 Kod, [Courier New ile üretilen çıktı HTML dosyası](5472568), [Arial ile üretilen çıktı HTML dosyası](5472567) ve [Times New Roman ile üretilen çıktı HTML dosyası](5472565) oluşturur.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToHTML-.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -12,3 +12,4 @@ url: /es/java/working-with-worksheets-in-xlsx4j/
 - [Mostrar y ocultar pestañas del libro de trabajo en xlsx4j](/cells/es/java/display-and-hide-tabs-of-workbook-in-xlsx4j/)
 - [Guardar cada hoja de cálculo en un PDF diferente en xlsx4j](/cells/es/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
 - [Establecer color de pestaña de hoja de cálculo en xlsx4j](/cells/es/java/set-worksheet-tab-color-in-xlsx4j/)
+{{< app/cells/assistant language="java" >}}

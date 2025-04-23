@@ -14,3 +14,4 @@ Le API di Aspose.Cells consentono di aggiungere filigrane WordArt sul foglio di 
 Le API di Aspose.Cells consentono di bloccare certi aspetti della filigrana in modo che l'interazione dell'utente possa essere limitata o completamente bloccata. Il seguente snippet di codice dimostra l'uso dell'API Aspose.Cells for .NET per bloccare la selezione, lo spostamento, la modifica e il ridimensionamento della filigrana creando un foglio di calcolo da zero.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-LockingWordartWatermark-LockingWordartWatermark.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

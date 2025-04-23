@@ -91,3 +91,4 @@ header.setRight(HSSFHeader.font("Stencil-Normal", "Italic") +
 Daha fazla detay için [Başlıkları ve Altlıkları Ayarlama](/java/basliklar-ve-altliklar-ayarlama) sayfasını ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

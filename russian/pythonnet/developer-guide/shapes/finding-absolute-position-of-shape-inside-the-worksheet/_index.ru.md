@@ -3,13 +3,13 @@ title: Нахождение абсолютной позиции формы вн�
 type: docs
 weight: 8000
 url: /ru/python-net/finding-absolute-position-of-shape-inside-the-worksheet/
-description: В этой статье показано, как найти абсолютное положение формы внутри листа через API Aspose.Cells для Python via .NET.
-keywords: Библиотека Python Excel, Как найти абсолютное положение формы внутри листа в Python.
+description: В данной статье показано, как найти абсолютную позицию фигуры внутри рабочего листа через API Aspose.Cells для Python via .NET.
+keywords: Библиотека для Excel на Python, как найти абсолютную позицию фигуры внутри рабочего листа на Python.
 ---
 
 {{% alert color="primary" %}}
 
-Иногда вам нужно узнать абсолютное положение формы на листе. Aspose.Cells для Python via .NET предоставляет свойства [**Shape.left_to_corner**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/left_to_corner) и [**Shape.top_to_corner**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/top_to_corner) для этой цели. Эти свойства возвращают абсолютное положение формы внутри листа в пикселях.
+Иногда необходимо определить абсолютную позицию фигуры на листе. Aspose.Cells для Python via .NET предоставляет свойства [**Shape.left_to_corner**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/left_to_corner) и [**Shape.top_to_corner**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/top_to_corner) для этой цели. Эти свойства возвращают абсолютную позицию фигуры внутри листа в пикселях.
 
 {{% /alert %}}
 

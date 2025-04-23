@@ -43,3 +43,4 @@ Die Konsolidierungsfunktion DistinctCount wird nur von Microsoft Excel 2013 unte
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="java" >}}

@@ -1,0 +1,69 @@
+---
+title: Erweiterte Schutzeinstellungen seit Excel XP
+type: docs
+weight: 30
+url: /de/python-net/advanced-protection-settings-since-excel-xp/
+---
+
+{{% alert color="primary" %}}
+
+Seit der Veröffentlichung von Excel 2002 oder XP hat Microsoft viele erweiterte Schutzeinstellungen hinzugefügt.
+
+{{% /alert %}}
+
+## **Einführung**
+
+Diese Schutzeinstellungen beschränken oder erlauben Benutzern:
+
+- Zeilen oder Spalten löschen.
+- Inhalte, Objekte oder Szenarien bearbeiten.
+- Zellen, Zeilen oder Spalten formatieren.
+- Zeilen, Spalten oder Hyperlinks einfügen.
+- Gesperrte oder ungesperrte Zellen auswählen.
+- Pivot-Tabellen verwenden und vieles mehr.
+
+Aspose.Cells für Python via .NET unterstützt alle erweiterten Schutzoptionen, die von Excel XP oder späteren Versionen angeboten werden.
+
+### **Erweiterte Schutzeinstellungen mit Excel XP und späteren Versionen verwenden**
+
+Um die Schutzeinstellungen in Excel XP anzuzeigen:
+
+1. Wählen Sie im **Extras**-Menü **Schutz** und danach **Arbeitsblatt schützen** aus. Es wird ein Dialogfeld angezeigt.
+
+Um die Schutzeinstellungen in Excel 2016 anzuzeigen
+
+1. Wählen Sie im **Datei**-Menü **Arbeitsmappe schützen** und danach **Aktuelles Blatt schützen** aus.
+1. Wählen Sie **Arbeitsblatt schützen** im **Überprüfen**-Menü aus.
+
+Durch das Befolgen der oben genannten Schritte wird ein Dialogfeld angezeigt, in dem Sie Arbeitsblattfunktionen zulassen oder einschränken oder ein Passwort auf das Arbeitsblatt anwenden können.
+
+### **Erweiterte Schutzoptionen mit Aspose.Cells für Python via .NET**
+
+Aspose.Cells für Python via .NET unterstützt alle erweiterten Schutzoptionen.
+
+Aspose.Cells für Python via .NET bietet die Klasse [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), die eine Microsoft Excel-Datei repräsentiert. Die Klasse [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) enthält eine [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheetcollection)-Sammlung, die Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Klasse [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) dargestellt.
+
+Die Klasse [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) stellt die Eigenschaft [**protection**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/protection) bereit, die verwendet wird, um diese erweiterten Schutzeinstellungen anzuwenden. Die Eigenschaft [**Protection**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/protection) ist tatsächlich ein Objekt der Klasse [**Protection**](https://reference.aspose.com/cells/python-net/aspose.cells/protection), das mehrere boolesche Eigenschaften zur Deaktivierung oder Aktivierung von Einschränkungen umschließt.
+
+Unten finden Sie eine kleine Beispielanwendung. Es öffnet eine Excel-Datei und verwendet die meisten von Excel XP und späteren Versionen unterstützten erweiterten Schutzeinstellungen.
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-AdvancedProtectionSettings-1.py" >}}
+
+{{% alert color="primary" %}}
+
+Bitte rufen Sie die Methode [**protect**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/protect) der Klasse [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) nicht auf, wenn Sie die Eigenschaft [**protection**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/protection) verwenden. Speichern Sie die Datei auch im Excel97To2003- oder Xlsx-Format, da die erweiterten Schutzeinstellungen nur von Excel XP und späteren Versionen unterstützt werden.
+
+{{% /alert %}}
+
+### **Problem mit Zellsperre**
+
+Wenn Sie Benutzer daran hindern möchten, Zellen zu bearbeiten, müssen die Zellen gesperrt werden, bevor irgendwelche Schutzeinstellungen angewendet werden. Andernfalls können die Zellen bearbeitet werden, auch wenn das Arbeitsblatt geschützt ist. In Microsoft Excel XP können Zellen durch den folgenden Dialog gesperrt werden:
+
+|**Dialog zum Sperren von Zellen in Excel XP**|
+| :- |
+|![todo:image_alt_text](advanced-protection-settings-since-excel-xp_1.png)|
+
+Es ist möglich, Zellen ebenfalls mit der Aspose.Cells für Python via .NET API zu sperren. Jede Zelle kann das [**Style**](https://reference.aspose.com/cells/python-net/aspose.cells/style)-Format erhalten, das eine boolesche Eigenschaft [**is_locked**](https://reference.aspose.com/cells/python-net/aspose.cells/style/is_locked) enthält. Setzen Sie die Eigenschaft [**is_locked**](https://reference.aspose.com/cells/python-net/aspose.cells/style/is_locked) auf **true** oder **false**, um die Zelle zu sperren oder zu entsperren.
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-LockCell-1.py" >}}
+

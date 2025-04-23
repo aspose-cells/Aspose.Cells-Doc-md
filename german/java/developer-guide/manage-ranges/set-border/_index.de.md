@@ -29,3 +29,4 @@ Dieses Beispiel zeigt, wie Sie:
 1. Äußeren Rand des Bereichs festlegen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Range-set-border.java" >}}
+{{< app/cells/assistant language="java" >}}

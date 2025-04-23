@@ -26,3 +26,4 @@ Följande exemepelkod laddar [instruktionsexemplar för Excel-fil](51740740.xls
 Sheet or Tab Id: 1297
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

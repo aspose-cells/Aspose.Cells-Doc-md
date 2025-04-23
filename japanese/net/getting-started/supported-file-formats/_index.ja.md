@@ -23,9 +23,10 @@ url: /ja/net/supported-file-formats/
 |[MHTML](https://docs.fileformat.com/web/mhtml/)|MHTMLファイル。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)|ODS（OpenDocumentスプレッドシート）。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |SpreadsheetML|Excel 2003 XMLファイル。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Numbers](https://docs.fileformat.com/spreadsheet/numbers/)|この文書はAppleの"Numbers"アプリケーションによって作成されたもので、これはMac OS XおよびiOSオペレーティングシステムで動作するアプリケーション群であるAppleのiWorkオフィススイートの一部を形成しています。|{{< emoticons/tick >}}||
+|[Numbers](https://docs.fileformat.com/spreadsheet/numbers/)|このドキュメントは、AppleのiWorkオフィススイートの一部である「Numbers」アプリケーションによって作成されました。これは、Mac OS XおよびiOSで動作するアプリケーションのセットです。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[JSON](https://docs.fileformat.com/web/json/)|JavaScript Object Notation。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[DIF](https://docs.fileformat.com/spreadsheet/dif/)|データインターチェンジフォーマット。| |{{< emoticons/tick >}}|
+|[DIF](https://docs.fileformat.com/spreadsheet/dif/)|データ交換フォーマット。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[DBF](https://docs.fileformat.com/database/dbf/)|拡張子.dbfのファイルは、dBASEというデータベース管理システムアプリケーションで使用されるデータベースファイルです。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[PDF](https://docs.fileformat.com/pdf/)|アドビポータブルドキュメントフォーマット。 |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XML Paper Specificationフォーマット。 |{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|スケーラブルベクターグラフィックスフォーマット。 |{{< emoticons/tick >}}|
@@ -45,4 +46,5 @@ url: /ja/net/supported-file-formats/
 |[Epub](https://docs.fileformat.com/ebook/epub/)|.epub拡張子のファイルは、出版社および消費者向けの標準的なデジタル出版形式を提供する電子書籍ファイル形式です。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Xml](https://docs.fileformat.com/web/xml/)|XMLは、HTMLに似ていますが、オブジェクトを定義するためにタグを使用する点が異なります。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Open Document Template Sheet (OTS) ファイル。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW は、Amazon の Kindle デバイス用に開発されたデジタル電子書籍ファイル形式です。AZW3 は Kindle Format 8 (KF8) とも呼ばれます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZWはAmazonが開発したKindleデバイス用のデジタル電子書籍ファイルフォーマットです。AZW3は、またの名をKindle Format 8（KF8）です。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< app/cells/assistant language="csharp" >}}

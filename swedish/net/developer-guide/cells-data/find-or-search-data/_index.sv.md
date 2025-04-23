@@ -65,3 +65,4 @@ Ange [**FindOptions.LookInType**](https://reference.aspose.com/cells/net/aspose.
 - [Hitta celler med specifik stil](/cells/sv/net/find-cells-with-specific-style/)
 - [Ta reda på om cellvärdet börjar med citattecken](/cells/sv/net/find-if-the-cell-value-starts-with-single-quote-mark/)
 - [Sök data med originalvärden](/cells/sv/net/search-data-using-original-values/)
+{{< app/cells/assistant language="csharp" >}}

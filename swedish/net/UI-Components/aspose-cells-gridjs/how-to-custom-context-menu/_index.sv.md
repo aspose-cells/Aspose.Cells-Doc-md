@@ -11,9 +11,29 @@ aliases:
   - /net/aspose-cells-gridjs/work-with-context-menu/
   - /net/aspose-cells-gridjs/work-with-context-menus/
 ---
+# Anpassade inbyggda menyval
+Vi har några inbyggda menyalternativ, till exempel infoga/ta bort rad/kolumn och så vidare.
+Till exempel: att ta bort "Ta bort rad", "Länk", "Dölj"-menyalternativ i kontextmenyer, anta att div-id för GridJs är "gridjs-divid"
+```javascript
+   //get context menus parent dom
+   const menus=document.querySelector("#gridjs-divid > div > div.x-spreadsheet-sheet > div.x-spreadsheet-contextmenu");
+   var childs = menus.childNodes;
+   for (var i = childs.length - 1; i >= 0; i--)
+   {  
+     // check the item text
+     if(childs[i].childNodes[0]?.textContent==="Delete row"||childs[i].childNodes[0]?.textContent==="Link"||childs[i].childNodes[0]?.textContent==="Hide")
+       {
+         menus.removeChild(childs[i]);
+       }
+   }
+```
+Efter att ha anropat denna funktion 
 
-# Anpassade kontextmenyer
-Vi har några inbyggda menyalternativ, till exempel infoga/radera rad/kolumn och så vidare
+![todo: skärm för att anpassa inbyggda menyalternativ](gridjs_customize_build_in_context_menu.png)
+
+
+# Anpassade egendefinierade kontextmenyer
+Vi har några inbyggda menyalternativ, till exempel infoga/ta bort rad/kolumn och så vidare.
 Om användaren vill anpassa menyobjekt
 Vi stöder att ställa in menyobjekt i laddningsalternativ.
 till exempel:

@@ -24,3 +24,4 @@ Le code d'exemple suivant utilise la méthode [**Workbook.ContentTypeProperties.
 ## Article connexe
 
 - [Ajout de propriétés personnalisées visibles dans le volet Informations sur le document](/cells/fr/net/adding-custom-properties-visible-inside-document-information-panel/)
+{{< app/cells/assistant language="csharp" >}}

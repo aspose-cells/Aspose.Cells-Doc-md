@@ -13,7 +13,7 @@ Ibland behöver du söka efter och ersätta specifika data i ett intervall och i
 
 {{% /alert %}}
 
-Aspose.Cells tillhandahåller [**FindOptions.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange(com.aspose.cells.CellArea)) metoden för att ange ett intervall vid sökning efter data.
+Aspose.Cells tillhandahåller [**FindOptions.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange-com.aspose.cells.CellArea-) metoden för att ange ett intervall vid sökning efter data.
 
 Anta att du vill söka efter strängen **"sök"** och ersätta den med **"ersätt"** i intervallet **E3:H6**. I skärmdumpen nedan kan strängen "sök" ses i flera celler men vi vill endast ersätta den i ett givet intervall, här markerat i gult.
 
@@ -32,3 +32,4 @@ Efter att koden har körts ser utdatafilen ut som nedan. Alla "sök" strängar i
 ## Relaterade artiklar
 
 - [Hitta eller Sök Data](/cells/sv/java/find-or-search-data/)
+{{< app/cells/assistant language="java" >}}

@@ -60,3 +60,4 @@ Aspose.Cells bietet die [**Range.Merge()**](https://reference.aspose.com/cells/n
 Aspose.Cells stellt die [**NameCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/namecollection/methods/removeat)-Methode bereit, um den Namen des Bereichs zu löschen. Verwenden Sie die [**Cells.ClearRange()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/clearrange/index)-Methode, um den Inhalt des Bereichs zu löschen. Das folgende Beispiel zeigt, wie ein benannter Bereich mit seinem Inhalt entfernt wird.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-RemoveANamedRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

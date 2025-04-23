@@ -46,3 +46,4 @@ Den ansvarar för att rensa upp alla förvärvade resurser när de inte längre 
 Den skapar instanser av kalkylblad och behåller dem i minnet så länge de behövs.
 ### **CellsService**
 CellsService hanterar cache av rader, kolumner, celler, formatering och struktur av kalkylblad.
+{{< app/cells/assistant language="java" >}}

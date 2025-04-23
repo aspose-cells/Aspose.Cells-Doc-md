@@ -42,3 +42,4 @@ Es ist sehr einfach, eine passwortgeschützte Excel-Datei zu öffnen und mit den
 
 
 
+{{< app/cells/assistant language="java" >}}

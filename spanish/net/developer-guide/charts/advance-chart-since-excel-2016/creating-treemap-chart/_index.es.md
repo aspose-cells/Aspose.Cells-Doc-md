@@ -19,3 +19,4 @@ Después de ejecutar el código a continuación, verá el gráfico TreeMap como 
 El siguiente código de muestra carga el [archivo de Excel de muestra](treemap.xlsx) y genera el [archivo de Excel de salida](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-treemap-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

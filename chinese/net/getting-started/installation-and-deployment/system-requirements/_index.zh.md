@@ -97,9 +97,7 @@ Aspose.Cells 网格套件由三个控件组成：
 {{% /alert %}} 
 ### **Aspose.Cells.GridDesktop**
 #### **.NET Framework**
-- .NET Framework 2.0
-- .NET Framework 3.0
-- .NET Framework 3.5
+
 - .NET Framework 4.0
 - .NET Framework 4.5
 - .NET Framework 4.5.1
@@ -142,9 +140,6 @@ Aspose.Cells 网格套件由三个控件组成：
 - Microsoft Windows 11
 ### **Aspose.Cells.GridWeb**
 #### **.NET Framework**
-- .NET Framework 2.0
-- .NET Framework 3.0
-- .NET Framework 3.5
 - .NET Framework 4.0
 - .NET Framework 4.5
 - .NET Framework 4.5.1
@@ -157,10 +152,12 @@ Aspose.Cells 网格套件由三个控件组成：
 - .NET Framework 4.8
 - .NET Framework 4.8.1
 ### **.NET Core**
-- .NET 6.0 windows 
+- .NET 6.0 Windows 和非 Windows 系统
 - .NET 7.0 windows
+- .NET 8.0 Windows
 #### **Aspose.Cells.GridWeb For .NET Core所引用的NuGet程序包**
-- System.Drawing.Common, 7.0.0.
+- System.Drawing.Common, 7.0.0 (在Windows系统上)。
+- SkiaSharp, 2.88.3 (非Windows系统)
 - System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.3.
 #### **开发工具**
@@ -226,3 +223,4 @@ Aspose.Cells 网格套件由三个控件组成：
 - Linux（Ubuntu、openSUSE、CentOS、Debian、Alpine等）
 ### **Mac**
 - Mac OS X，macOS High Sierra等
+{{< app/cells/assistant language="csharp" >}}

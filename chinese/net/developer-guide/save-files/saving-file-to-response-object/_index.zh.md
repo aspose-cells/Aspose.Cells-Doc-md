@@ -48,3 +48,4 @@ Aspose.Cells可以操作文件。本文解释了可以将文件保存到响应�
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoStream-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

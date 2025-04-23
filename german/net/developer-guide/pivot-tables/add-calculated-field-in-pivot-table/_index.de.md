@@ -35,3 +35,4 @@ Fügen Sie ein berechnetes Feld zu einer Excel-Datei mit Aspose.Cells hinzu. Bit
 
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-Add-calculated-field-in-PivotTable.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

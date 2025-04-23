@@ -22,3 +22,4 @@ url: /ar/java/formatting-smart-markers/
 يستخدم هذا المثال [ملف القالب](template.xlsx) ببعض الوسوم في الخلايا. عند تنفيذ الكود، يقوم Aspose.Cells بإضافة بعض التسميات المخصصة إلى الصفوف الحاصلة لبيانات المجموع.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-SmartMarkers-AddCustomLabels-1.java" >}}
+{{< app/cells/assistant language="java" >}}

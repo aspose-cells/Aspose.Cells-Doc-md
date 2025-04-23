@@ -41,3 +41,4 @@ Aşağıdaki örnek kod, [**Workbook.ImportXml()**](https://reference.aspose.co
 - [Hücreleri XML Haritası Elemanlarına Bağla](/cells/tr/net/link-cells-to-xml-map-elements/)
 - [Worksheet.XmlMapQuery yöntemini kullanarak XML Haritası Yoluna Eşlenmiş Hücre Alanlarını Sorgula](/cells/tr/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 
+{{< app/cells/assistant language="csharp" >}}

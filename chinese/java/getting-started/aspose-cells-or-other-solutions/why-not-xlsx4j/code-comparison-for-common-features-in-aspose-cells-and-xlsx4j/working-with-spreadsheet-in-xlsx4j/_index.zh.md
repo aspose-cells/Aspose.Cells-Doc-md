@@ -13,3 +13,4 @@ url: /zh/java/working-with-spreadsheet-in-xlsx4j/
 - [在 xlsx4j 中调整行列高度](/cells/zh/java/row-column-height-adjustment-in-xlsx4j/)
 
 mithil rayate
+{{< app/cells/assistant language="java" >}}

@@ -20,3 +20,4 @@ Le code d'exemple suivant montre comment charger le classeur avec des paramètre
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LoadWorkbookWithSpecificCultureInfoNumberFormat-LoadWorkbookWithSpecificCultureInfoNumberFormat.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

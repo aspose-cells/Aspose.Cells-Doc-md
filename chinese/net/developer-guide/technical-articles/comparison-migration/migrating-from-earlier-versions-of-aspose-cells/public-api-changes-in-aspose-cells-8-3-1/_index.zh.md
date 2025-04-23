@@ -321,3 +321,4 @@ m_workbook.Save("output.xlsx")
 请查看文章[通过指定Sparkline组的数据范围和位置复制Sparkline](http://aspose.com/docs/display/cellsnet/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group)以获取更多信息。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

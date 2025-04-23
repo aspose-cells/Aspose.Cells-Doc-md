@@ -121,3 +121,4 @@ Cada objeto Worksheet contiene un objeto SparklineGroupCollection que representa
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_15.png)|
 Un objeto SparklineGroup representa un grupo de minigráficos en la hoja de cálculo. Los desarrolladores pueden establecer el estilo del grupo de minigráficos y otras propiedades relacionadas usando el objeto SparklineGroup.
+{{< app/cells/assistant language="csharp" >}}

@@ -16,3 +16,4 @@ Aspose.Cells stöder *DBNum* anpassad pattern formatering. Till exempel, om din 
 Följande exempelkod illustrerar hur man specifierar *DBNum* anpassad pattern formatering. Var god kontrollera [utdata PDF:en](43352081.pdf) för mer hjälp.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SpecifyingDBNumCustomPatternFormatting.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

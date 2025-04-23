@@ -34,3 +34,4 @@ keywords: 在Excel中添加插入图片、颜色和评论背景
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HowToInsertPictureOrImageInComment.java" >}}
 
+{{< app/cells/assistant language="java" >}}

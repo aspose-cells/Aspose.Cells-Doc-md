@@ -55,3 +55,4 @@ Aspose.Cells, MOL (Atomlar ve bağlar hakkında bilgi içeren moleküler veri do
 - [Microsoft Excel kullanarak Aspose.Cells ile Çalışmayan Elemanı Otomatik Yenileme](/cells/tr/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)
 - [Çalışma Kitabından Çalışmayan Elemanları Çıkarma](/cells/tr/java/extract-ole-objects-from-workbook/)
 - [Gömülü Çalışmayan Elemanın Sınıf Tanımlayıcısını Al veya Ayarla](/cells/tr/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
+{{< app/cells/assistant language="java" >}}

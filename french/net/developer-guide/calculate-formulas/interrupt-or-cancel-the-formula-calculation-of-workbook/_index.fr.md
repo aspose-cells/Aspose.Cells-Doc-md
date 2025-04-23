@@ -30,3 +30,4 @@ Le code d'échantillon suivant implémente la méthode [**BeforeCalculate()**](h
 0----7----1----B8
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

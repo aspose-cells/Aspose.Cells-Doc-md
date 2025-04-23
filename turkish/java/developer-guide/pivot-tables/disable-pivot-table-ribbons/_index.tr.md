@@ -16,3 +16,4 @@ Pivot tablo tabanlı raporlar faydalıdır ancak hedef kullanıcıların bu rapo
 Aşağıdaki kod, bir sayfadan pivot tablosuna erişerek ve [**setEnableWizard**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#EnableWizard) çağrarak bu bayrağı **false** olarak ayarlayarak bu özelliği gösterir. Örnek pivot tablo dosyası bu [bağlantıdan](71630876.xlsx) indirilebilir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-DisablePivotTableRibbon-1.java" >}}
+{{< app/cells/assistant language="java" >}}

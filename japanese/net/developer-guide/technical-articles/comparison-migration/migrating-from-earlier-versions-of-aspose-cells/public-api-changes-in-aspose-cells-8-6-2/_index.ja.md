@@ -150,3 +150,4 @@ Aspose.Cells.GridWeb for .NET 8.6.2 で次の 2 つの新しいイベントを�
 
 1. AjaxCallFinished: コントロールの AJAX 更新が完了したときに発生します。（EnableAJAX は true に設定されている必要があります）。
 1. CellModifiedOnAjax: セルがAJAX呼び出しで変更されたときに発生します。
+{{< app/cells/assistant language="csharp" >}}

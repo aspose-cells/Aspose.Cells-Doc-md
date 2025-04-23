@@ -1,0 +1,23 @@
+---
+title: Créer un classeur partagé avec Aspose.Cells
+type: docs
+weight: 40
+url: /fr/python-net/create-shared-workbook-with-aspose-cells/
+---
+
+## **Scénarios d'utilisation possibles**
+
+Microsoft Excel vous permet de partager le classeur comme illustré dans la capture d'écran suivante. Lorsque vous partagez le classeur, plus d'un utilisateur peut modifier le classeur sur le réseau. Aspose.Cells pour Python via .NET vous permet de créer un classeur partagé avec la propriété [**Workbook.settings.shared**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/shared).
+
+![todo:image_alt_text](create-shared-workbook-with-aspose-cells_1.png)
+
+## **Créer un classeur partagé avec Aspose.Cells pour Python via .NET**
+
+Le code d'exemple suivant crée un classeur partagé en définissant la propriété [**Workbook.settings.shared**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/shared) comme **true**. Lorsque vous ouvrirez le [fichier Excel de sortie](55541786.xlsx) dans Microsoft Excel, vous verrez **Partagé** avec le nom du classeur de sortie comme indiqué dans cette capture d'écran.
+
+![todo:image_alt_text](create-shared-workbook-with-aspose-cells_2.png)
+
+## **Code d'exemple**
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Workbook-CreateSharedWorkbook.py" >}}
+

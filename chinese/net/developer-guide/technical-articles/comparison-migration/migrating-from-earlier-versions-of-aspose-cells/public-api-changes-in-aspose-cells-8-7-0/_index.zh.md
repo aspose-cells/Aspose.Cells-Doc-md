@@ -381,3 +381,4 @@ book.Save(outFilePath, pdfSaveOptions);
 ## **删除了 API**
 ### **属性 Workbook.SaveOptions 已移除**
 Workbook.SaveOptions 属性在一段时间前已被标记为过时。此次发布中，它已从公共 API 中完全移除，因此建议使用 Workbook.Save(Stream, SaveOptions) 或 Workbook.Save(string, SaveOptions) 方法作为替代。
+{{< app/cells/assistant language="csharp" >}}

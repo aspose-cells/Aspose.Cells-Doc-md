@@ -18,3 +18,4 @@ url: /ar/net/export-similar-border-style-when-border-style-is-not-supported-by-w
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-ExportSimilarBorderStyle.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

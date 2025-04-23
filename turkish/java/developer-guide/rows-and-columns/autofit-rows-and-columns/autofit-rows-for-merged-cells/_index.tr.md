@@ -25,3 +25,4 @@ Kod çalıştırıldıktan sonra, Aspose.Cells birleştirilmiş hücreler için 
 
 - [Satırları ve Sütunları Otomatik Ayarlama](/cells/tr/java/autofit-rows-and-columns/)
 - [Satır Yüksekliğini ve Sütun Genişliğini Ayarlama](/cells/tr/java/adjusting-row-height-and-column-width/)
+{{< app/cells/assistant language="java" >}}

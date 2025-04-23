@@ -83,3 +83,4 @@ url: /ar/net/microsoft-excel-spreadsheet-management-library/
 ### **المنصات المدعومة**
 - تطبيق سطح المكتب لنظام Windows
 - تطبيق ويب مؤسسي
+{{< app/cells/assistant language="csharp" >}}

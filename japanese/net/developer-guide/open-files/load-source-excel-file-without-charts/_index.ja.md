@@ -16,3 +16,4 @@ Aspose.Cellsでグラフを含まないエクセルファイルをロードす�
 以下のサンプルコードは、グラフを含まないサンプルエクセルファイルを読み込んで出力PDF形式で保存するものです。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-LoadTemplateWithoutCharts.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

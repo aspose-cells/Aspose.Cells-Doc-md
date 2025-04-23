@@ -103,3 +103,4 @@ Aspose.Cells 从多年的研究、设计和精心调整中受益。
 - [刷新和计算包含计算项的数据透视表](/cells/zh/java/refresh-and-calculate-pivot-table-having-calculated-items/)
 - [禁用数据透视表功能区](/cells/zh/java/disable-pivot-table-ribbons/)
 
+{{< app/cells/assistant language="java" >}}

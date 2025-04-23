@@ -27,3 +27,4 @@ keywords: 如何控制选项卡工具栏，操作选项卡工具栏，设置选�
 <br>
 <image src="result.png" width="70%" />
 
+{{< app/cells/assistant language="csharp" >}}

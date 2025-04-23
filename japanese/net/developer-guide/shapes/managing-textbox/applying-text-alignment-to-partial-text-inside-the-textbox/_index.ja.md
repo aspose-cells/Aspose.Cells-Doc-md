@@ -19,3 +19,4 @@ keywords: Excelのワークシートテキストボックスに配置/設定を�
 [ソースファイル](SampleTextboxExcel2016.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "ApplyPartialTextAlignmentToTextBox.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

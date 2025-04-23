@@ -10,3 +10,4 @@ description: Этот раздел сравнивает компоненты Asp
 
 Этот раздел сравнивает компоненты Aspose.Cells и некоторые другие системы.
 
+{{< app/cells/assistant language="csharp" >}}

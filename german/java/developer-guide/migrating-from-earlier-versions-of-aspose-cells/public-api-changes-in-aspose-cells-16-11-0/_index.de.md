@@ -260,3 +260,4 @@ Es wird empfohlen, die PageSetup.PrintDraft-Eigenschaft stattdessen zu verwenden
 Bitte verwenden Sie die AutoFilter.FilterColumns-Eigenschaft, um dasselbe Ziel zu erreichen.
 ### **Gelöschte TickLabels.Rotation-Eigenschaft**
 Bitte verwenden Sie stattdessen die TickLabels.RotationAngle-Eigenschaft.
+{{< app/cells/assistant language="java" >}}

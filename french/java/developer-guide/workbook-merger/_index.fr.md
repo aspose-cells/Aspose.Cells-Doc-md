@@ -16,7 +16,7 @@ Parfois, vous devez combiner des classeurs avec divers contenus comme des images
 
 ## **Combinaison de classeurs**
 
-Le code d'exemple combine deux classeurs en un seul classeur en utilisant Aspose.Cells for Java. Le code charge les classeurs sources, utilise la méthode [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) pour les combiner et enregistre le classeur de sortie.
+Le code d'exemple combine deux classeurs en un seul classeur en utilisant Aspose.Cells for Java. Le code charge les classeurs sources, utilise la méthode [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine-com.aspose.cells.Workbook-) pour les combiner et enregistre le classeur de sortie.
 
 ### **Classeurs source**
 
@@ -69,3 +69,4 @@ Vous pouvez trouver l'article [Combinez plusieurs feuilles de calcul en une seul
 - [Fusionner plusieurs feuilles de calcul en une seule feuille de calcul](/cells/fr/java/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Fusionner des fichiers](/cells/fr/java/merge-files/)
 
+{{< app/cells/assistant language="java" >}}

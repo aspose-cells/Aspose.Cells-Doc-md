@@ -56,3 +56,4 @@ Aspose.Cells 提供 [**Style.update**](https://reference.aspose.com/cells/java/c
 修改将自动应用于应用了样式的范围。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ModifyExistingStyle-ModifyExistingStyle.java" >}}
+{{< app/cells/assistant language="java" >}}

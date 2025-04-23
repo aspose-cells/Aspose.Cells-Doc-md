@@ -24,3 +24,4 @@ L'exemple de code ci-dessous vous montre comment obtenir la validation appliqué
 ## Articles Connexes
 
 - [Validation des données](/cells/fr/net/data-validation/)
+{{< app/cells/assistant language="csharp" >}}

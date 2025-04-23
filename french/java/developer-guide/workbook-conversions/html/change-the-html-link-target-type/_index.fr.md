@@ -27,3 +27,4 @@ Comme vous pouvez le voir, l'attribut cible dans le lien HTML ci-dessus est **_s
 Le code suivant illustre l'utilisation de la propriété [HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType). Il change le type de cible du lien en **blank**. Par défaut, c'est le **parent**. Vous pouvez obtenir le [fichier Excel source](5472932.xlsx) à partir de ce lien, cependant vous pouvez utiliser n'importe quel fichier Excel contenant un hyperlien HTML à l'intérieur pour exécuter ce code.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeHTMLLinkTargetType-ChangeHTMLLinkTargetType.java" >}}
+{{< app/cells/assistant language="java" >}}

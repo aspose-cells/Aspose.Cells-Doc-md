@@ -52,3 +52,4 @@ L'exécution du code d'exemple ci-dessous modifie les données source du tableau
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ChangeSourceData-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

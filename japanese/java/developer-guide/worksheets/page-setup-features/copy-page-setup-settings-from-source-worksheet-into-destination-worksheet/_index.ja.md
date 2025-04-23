@@ -11,7 +11,7 @@ url: /ja/java/copy-page-setup-settings-from-source-worksheet-into-destination-wo
 
 ## **ソースワークシートからページ設定を宛先ワークシートにコピー**
 
-次のサンプルコードは、[**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy(com.aspose.cells.PageSetup,%20com.aspose.cells.CopyOptions)) メソッドを使用して、1つのワークシートから別のワークシートにページ設定をコピーする方法を示しています。次のサンプルコードとそのコンソール出力を参照してください。
+次のサンプルコードは、[**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy-com.aspose.cells.PageSetup-com.aspose.cells.CopyOptions-) メソッドを使用して、1つのワークシートから別のワークシートにページ設定をコピーする方法を示しています。次のサンプルコードとそのコンソール出力を参照してください。
 
 ## **サンプルコード**
 
@@ -30,3 +30,4 @@ After Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 After Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

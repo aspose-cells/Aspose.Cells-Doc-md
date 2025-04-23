@@ -23,22 +23,23 @@ Après avoir terminé la création de votre feuille de calcul, vous voudrez prob
 
 ## Impression des classeurs à l'aide d'Aspose.Cells
 
-Aspose.Cells for Java offre une méthode [**toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) de la classe [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender). En utilisant la méthode [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)), vous pouvez fournir le nom de l'imprimante ainsi que le nom du travail d'impression.
+Aspose.Cells for Java offre une méthode [**toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-) de la classe [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender). En utilisant la méthode [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-), vous pouvez fournir le nom de l'imprimante ainsi que le nom du travail d'impression.
 
 ## Code d'exemple
 
 ### Imprimer la feuille de calcul sélectionnée
 
-L'exemple de code suivant illustre l'utilisation de la méthode [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) pour imprimer votre feuille de calcul sélectionnée.
+L'exemple de code suivant illustre l'utilisation de la méthode [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter-java.lang.String-) pour imprimer votre feuille de calcul sélectionnée.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingSelectedWorksheet-PrintingSelectedWorksheet.java" >}}
 
 ### Imprimer l'ensemble du classeur
 
-Vous pouvez également utiliser la méthode [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String)) pour imprimer l'ensemble du classeur. L'exemple de code suivant illustre l'utilisation de la méthode [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String)) pour imprimer l'ensemble du classeur.
+Vous pouvez également utiliser la méthode [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter-java.lang.String-) pour imprimer l'ensemble du classeur. L'exemple de code suivant illustre l'utilisation de la méthode [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter-java.lang.String-) pour imprimer l'ensemble du classeur.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingWholeWorkbook-PrintingWholeWorkbook.java" >}}
 
 ## Articles Connexes
 
 - [Spécifier le nom du travail ou du document lors de l'impression avec Aspose.Cells](/cells/fr/java/specify-job-or-document-name-while-printing-with-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

@@ -9,7 +9,7 @@ keywords: Office 2013, office 2016, office 2019 ve office 365 olmadan pivot bağ
 
 ## **Olası Kullanım Senaryoları**
 
-Excel'de dilimleyiciyi ve pivot tabloyu ayırmak istiyorsanız, dilimleyiciye sağ tıklayın ve "Rapor Bağlantıları..." öğesini seçin. Seçenek listesinde onay kutusunda işlem yapabilirsiniz. Benzer şekilde, Aspose.Cells API'sını kullanarak dilimleyiciyi ve pivot tabloyu ayırmak için lütfen [**Slicer.removePivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#removePivotConnection(com.aspose.cells.PivotTable)) yöntemini kullanın. Bu, dilimleyiciyi ve pivot tabloyu ayıracaktır.
+Excel'de dilimleyiciyi ve pivot tabloyu ayırmak istiyorsanız, dilimleyiciye sağ tıklayın ve "Rapor Bağlantıları..." öğesini seçin. Seçenek listesinde onay kutusunda işlem yapabilirsiniz. Benzer şekilde, Aspose.Cells API'sını kullanarak dilimleyiciyi ve pivot tabloyu ayırmak için lütfen [**Slicer.removePivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#removePivotConnection-com.aspose.cells.PivotTable-) yöntemini kullanın. Bu, dilimleyiciyi ve pivot tabloyu ayıracaktır.
 
 ## **Süzgeci Kaldırma**
 
@@ -19,3 +19,4 @@ Aşağıdaki örnek kod önceden var olan bir dilimleyici içeren [örnek Excel 
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Slicers-Removing-Pivot-Connection.java" >}}
+{{< app/cells/assistant language="java" >}}

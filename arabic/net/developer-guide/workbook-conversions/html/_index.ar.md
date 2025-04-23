@@ -52,3 +52,5 @@ url: /ar/net/convert-excel-to-html/
 - [تعيين الخط الافتراضي أثناء تقديم جدول بيانات إلى HTML](/cells/ar/net/set-default-font-while-rendering-spreadsheet-to/)
 - [تحديد كيفية تقاطع السلسلة في HTML الناتج باستخدام HtmlCrossType](/cells/ar/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
 - [دعم تخطيط علامات DIV أثناء تحميل HTML إلى دفتر عمل Excel](/cells/ar/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
+{{< app/cells/assistant language="csharp" >}}
+- [تمكين خصائص CSS المخصصة أثناء الحفظ إلى HTML](/cells/ar/net/enable-css-custom-properties-while-saving-to-html/)

@@ -3,15 +3,15 @@ title: ワークシートのコピーと移動
 type: docs
 weight: 10
 url: /ja/python-net/copying-and-moving-worksheets/
-description: この記事には、Aspose.Cells for Python via .NET APIを使用して、Excelのワークブック内やワークブック間でワークシートをプログラムでコピーおよび移動する方法に関するサンプルコードと説明が含まれています。
-keywords: Python Excelライブラリ、Pythonワークシートのコピー、Pythonワークシートの移動、Pythonワークブック間でワークシートをコピーする方法、Pythonワークブック内でワークシートを移動する方法、Pythonワークブック間でワークシートをコピーする方法、Pythonワークブック内でワークシートをコピーする方法。
+description: この記事にはサンプルコードが含まれており、Aspose.Cells for Python via .NET APIを使ってエクセルブック内および複数のエクセルブック間でワークシートをプログラム的にコピー・移動する方法を説明しています。
+keywords: Python Excelライブラリ、Pythonコピーシート、Python移動シート、Pythonワークブック間のシートコピー、Pythonワークブック内のシート移動、Pythonワークブック間のシートコピー、Pythonワークブック内のシートコピー。
 ---
 
 {{% alert color="primary" %}}
 
 時には、共通のフォーマットとデータを持つワークシートの数が必要です。たとえば、四半期予算で作業する場合、同じ列見出し、行見出し、数式を含むシートを持つワークブックを作成したいと思うかもしれません。これを行う方法があります：1つのシートを作成してからコピーすることです。
 
-Aspose.Cells for Python via .NETは、ワークブック内またはワークブック間でワークシートをコピーおよび移動する機能をサポートします。データ、書式設定、表、行列、グラフ、画像などのオブジェクトを含むワークシートは、最高の精度でコピーされます。
+Aspose.Cells for Python via .NETは、ワークブック内または間でシートをコピー・移動することをサポートします。シート、データ、書式設定、テーブル、マトリックス、チャート、画像、その他のオブジェクトを、最大限の精度でコピーします。
 
 {{% /alert %}}
 
@@ -27,9 +27,9 @@ Microsoft Excelでワークブック内またはワークブック間でワー�
 1. **前のシート**ボックスで、移動またはコピーされたシートが挿入される前のシートをクリックします。
 1. 移動ではなくシートをコピーする場合は、**コピーを作成**チェックボックスを選択します。
 
-## **Aspose.Cells for Python Excelライブラリを使用してワークブック内でワークシートをコピーする方法**
+## **Aspose.Cells for Python via .NETを使用してワークブック内でシートをコピーする方法**
 
-Aspose.Cells for Python via .NETは、コレクションにワークシートを追加し、既存のワークシートからデータをコピーするために使用されるオーバーロードされたメソッド[**Aspose.Cells.WorksheetCollection.add_copy()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheetcollection/add_copy/#str)を提供します。このメソッドの1つのバージョンは、ソースワークシートのインデックスをパラメータとして取ります。他のバージョンは、ソースワークシートの名前を取ります。
+Pyhton用Aspose.Cells via .NETは、コレクションにワークシートを追加し、既存のワークシートからデータをコピーするために使用されるオーバーロードされたメソッド[**Aspose.Cells.WorksheetCollection.add_copy()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheetcollection/add_copy/#str)を提供します。 このメソッドの一つのバージョンは、ソースワークシートのインデックスをパラメータとして受け取ります。もう一つのバージョンは、ソースワークシートの名前を受け取ります。
 
 次の例は、ブック内で既存のワークシートをコピーする方法を示しています。
 
@@ -37,7 +37,7 @@ Aspose.Cells for Python via .NETは、コレクションにワークシートを
 
 ## **ワークブック間でワークシートをコピーする方法**
 
-Aspose.Cells for Python via .NETでは、ソースワークシートから別のワークシートにデータと書式をコピーするために使用される[**Aspose.Cells.Worksheet.copy()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/copy/#aspose.cells.Worksheet)メソッドが提供されます。
+Pyhton用Aspose.Cells via .NETは、ソースワークシートから他のワークシートへデータと書式設定をコピーするためのメソッド[**Aspose.Cells.Worksheet.copy()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/copy/#aspose.cells.Worksheet)を提供します。このメソッドは、ソースワークシートのオブジェクトをパラメータとして受け取ります。
 
 次の例は、ワークブックから別のワークブックにワークシートをコピーする方法を示しています。
 
@@ -49,7 +49,7 @@ Aspose.Cells for Python via .NETでは、ソースワークシートから別の
 
 ## **ワークブック内でワークシートを移動する方法**
 
-Aspose.Cells for Python via .NETは、同じスプレッドシート内の別の場所にワークシートを移動するために使用される[**Aspose.Cells.Worksheet.move_to()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/move_to/#int)メソッドを提供します。
+Pyhton用Aspose.Cells via .NETは、同じスプレッドシート内でワークシートを別の場所に移動させるために使用される[**Aspose.Cells.Worksheet.move_to()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/move_to/#int)メソッドを提供します。このメソッドは、ターゲットワークシートのインデックスをパラメータとして受け取ります。
 
 次の例は、ワークブック内でワークシートを別の場所に移動する方法を示しています。
 

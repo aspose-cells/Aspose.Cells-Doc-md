@@ -14,3 +14,4 @@ url: /ru/net/copy-row-heights-of-source-range-to-destination-range/
 В приведенном ниже примере кода объясняется, как использовать перечисление [**PasteType.RowHeights**](https://reference.aspose.com/cells/net/aspose.cells/pastetype) для копирования высот строк исходного диапазона в целевой диапазон. После того, как вы откроете созданный этим кодом выходной файл Excel в Microsoft Excel, вы увидите, что высоты строк в целевом диапазоне точно такие же, как исходного диапазона.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-GetRowHeights-GetRowHeightsOfSourceRangeToDestinationRange.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

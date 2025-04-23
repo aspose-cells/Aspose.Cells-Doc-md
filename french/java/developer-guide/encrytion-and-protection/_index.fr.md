@@ -33,3 +33,4 @@ Protéger l'authenticité du contenu d'un document, vous pouvez ajouter une sign
 - [Comment détecter un format de fichier et vérifier si le fichier est chiffré](/cells/fr/java/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
 
 
+{{< app/cells/assistant language="java" >}}

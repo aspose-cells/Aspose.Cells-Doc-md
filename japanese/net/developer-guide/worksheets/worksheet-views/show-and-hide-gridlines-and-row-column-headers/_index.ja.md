@@ -57,3 +57,4 @@ Aspose.Cellsでは、Microsoft Excelファイルを表す[**Workbook**](https://
 また、[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)クラスの[**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows)メソッドと[**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns)メソッドを使用して、複数の行と列を表示したり非表示にしたりすることも可能です。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -26,3 +26,4 @@ El fragmento de código proporcionado a continuación demuestra el uso de la API
 ## Artículos relacionados
 
 - [Creación y personalización de gráficos](/cells/es/java/creating-and-customizing-charts/)
+{{< app/cells/assistant language="java" >}}

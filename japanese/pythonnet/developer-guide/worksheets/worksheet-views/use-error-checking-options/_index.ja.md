@@ -3,8 +3,8 @@ title: エラーチェックオプションを使用する
 type: docs
 weight: 140
 url: /ja/python-net/use-error-checking-options/
-description: この記事では、Aspose.Cells for Python via .NET APIを使用してExcelワークシートのエラーチェックオプション（たとえば、問題がテキストとして保存された数値）をプログラムで使用するサンプルコードが示されています。
-keywords: Python Excelライブラリー、Excelで数値をテキストとして保存するPython、PythonでエラーチェックのExcelオプションを処理する方法。
+description: この記事では、Aspose.Cells for Python via .NET APIを使用して、Excelワークシートのエラー検出オプション（例：テキストとして保存された数字）をプログラム的に使用するサンプルコードを紹介します。
+keywords: Python Excelライブラリ、Pythonでエラー検出の設定方法、エラー検出をPythonで管理する方法。
 ---
 
 {{% alert color="primary" %}}
@@ -19,7 +19,7 @@ Microsoft Excelでは、ユーザーはエラーチェックのオプション�
 
 エラーはオプションを使用して解決したり、無視することができます。エラーを無視すると、以降のエラーチェックにそのエラーが表示されなくなります。
 
-Aspose.Cells for Python via .NETはエラーチェックのオプション機能を提供します。[**ErrorCheckOption**](https://reference.aspose.com/cells/python-net/aspose.cells/errorcheckoption)クラスは、テキストとして保存された数値、数式計算エラー、および検証エラーなど、さまざまなタイプのエラーチェックを管理します。望ましいエラーチェックを設定するには、[**ErrorCheckType**](https://reference.aspose.com/cells/python-net/aspose.cells/errorchecktype)列挙型を使用します。
+Aspose.Cells for Python via .NETは、エラー検出機能を提供します。[**ErrorCheckOption**](https://reference.aspose.com/cells/python-net/aspose.cells/errorcheckoption)クラスは、テキストとして保存された数字、数式計算エラー、検証エラーなど、さまざまなエラー検出タイプを管理します。[**ErrorCheckType**](https://reference.aspose.com/cells/python-net/aspose.cells/errorchecktype)列挙体を使って必要なエラー検出を設定します。
 
 ## **テキストとして保存された数値**
 
@@ -28,9 +28,9 @@ Aspose.Cells for Python via .NETはエラーチェックのオプション機能
 テキストとして保存された数値を実際の数値に素早く変換するために、エラーチェックオプションを使用できます。Microsoft Excel 2003では:
 
 1. **ツール** メニューで **オプション** をクリックします。
-1. エラーチェックタブを選択します。**テキストとして保存された数値**オプションがデフォルトでチェックされています。
+1. エラー検出タブを選択します。**数字がテキストとして保存**オプションはデフォルトで有効です。
 1. 無効にします。
 
-以下のサンプルコードは、Aspose.Cells for Python via .NET APIを使用して、テンプレートのXLSファイル内のワークシートの数値として保存された数値のエラーチェックオプションを無効にする方法を示しています。
+以下のサンプルコードは、Aspose.Cells for Python via .NET APIを使用して、テンプレートのXLSファイル内のワークシートで「数字をテキストとして保存」のエラー検出を無効にする方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ErrorCheckingOptions-1.py" >}}

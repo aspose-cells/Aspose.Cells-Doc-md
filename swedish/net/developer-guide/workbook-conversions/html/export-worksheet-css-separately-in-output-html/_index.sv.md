@@ -26,3 +26,4 @@ När en arbetsbok med flera blad konverteras till HTML med Aspose.Cells skapas e
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-SetSingleSheetTabNameInHtml-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

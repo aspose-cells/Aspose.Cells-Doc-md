@@ -68,3 +68,4 @@ Sie können den Skriptpfad nicht neu festlegen, indem Sie die folgenden Codezeil
 Diese Einstellungen können in einigen Fällen / Szenarien obligatorisch sein, wenn Sie die Aspose.Cells.GridWeb-Steuerung in Dateisystem-Websites oder MS Ajax-Erweiterungen verwenden.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

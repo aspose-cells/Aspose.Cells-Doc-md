@@ -23,3 +23,4 @@ La capture d'écran suivante montre l'interface Microsoft Excel pour définir l'
 Le code d'exemple suivant charge le [fichier excel source](5472531.xlsx) et accède à la première forme dans la première feuille de calcul, définit les sous-propriétés de la propriété [Shape.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect) puis enregistre le classeur dans le [fichier excel de sortie](5472530.xlsx).
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithShadowEffect-WorkingWithShadowEffect.java" >}}
+{{< app/cells/assistant language="java" >}}

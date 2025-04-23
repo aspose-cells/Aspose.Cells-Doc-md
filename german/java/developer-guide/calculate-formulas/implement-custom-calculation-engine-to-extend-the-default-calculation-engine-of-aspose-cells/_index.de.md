@@ -17,7 +17,7 @@ Die folgenden Eigenschaften und Klassen werden zur Umsetzung dieses Merkmals ver
 
 {{% /alert %}} 
 ## **Benutzerdefinierten Berechnungsmotor implementieren**
-Der folgende Code implementiert den benutzerdefinierten Berechnungsmotor. Er implementiert das Interface [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine), das nur eine Methode [calculate(CalculationData data)](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationengine#calculate\(com.aspose.cells.CalculationData\)) hat. Diese Methode wird für all Ihre Formeln aufgerufen. In dieser Methode erfassen wir die **HEUTE**-Funktion und fügen dem Systemdatum einen Tag hinzu. Wenn das aktuelle Datum beispielsweise der 27/07/2023 ist, berechnet der benutzerdefinierte Motor HEUTE() als 28/07/2023.
+Der folgende Code implementiert die Anpassungsberechnungseinheit. Es implementiert die Schnittstelle [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine), welche nur eine Methode [calculate(CalculationData data)](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationengine#calculate-com.aspose.cells.CalculationData-) hat. Diese Methode wird für alle deine Formeln aufgerufen. Innerhalb dieser Methode erfassen wir die Funktion **TODAY** und addieren einen Tag zum Systemdatum. Wenn das aktuelle Datum also 27.07.2023 ist, berechnet die benutzerdefinierte Engine TODAY() als 28.07.2023.
 
 ### **Programmierbeispiel**
 
@@ -33,3 +33,4 @@ Bitte überprüfen Sie die Konsolenausgabe des obigen Beispielcodes, der Wert (D
 - [Direkte Berechnung einer benutzerdefinierten Funktion ohne Eintragung in ein Arbeitsblatt](/cells/de/java/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

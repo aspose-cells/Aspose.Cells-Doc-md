@@ -20,3 +20,4 @@ url: /ar/net/chart-to-pdf/
 ## **الكود المثالي**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Charts-CreateChartPDFWithDesiredPageSize.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

@@ -11,15 +11,15 @@ keywords: Java でセルインデックスを名前に変換、セル名を行/�
 ## **行と列のインデックスからセル名を取得する方法**
 行と列のインデックスを指定すると、セルの名前を見つけることが可能です。 この記事では、その方法について説明します。
 
-Aspose.Cells は、開発者が行と列のインデックスを指定するとセルの名前を取得できる [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) メソッドを提供しています。
+Aspose.Cellsは、開発者が行と列のインデックスを指定することでセルの名前を取得できる[CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName-int-int-)メソッドを提供します。
 
 {{% alert color="primary" %}} 
 
-Microsoft Excelは行と列のインデックスを1から数えます。Microsoft Excelとは異なり、Aspose.Cellsは行と列のインデックスを0から数えます。
+Microsoft Excelは行と列のインデックスを1からカウントして開始します。Aspose.Cellsはこれに対して、0からカウントします。
 
 {{% /alert %}} 
 
-以下のサンプルコードは、[CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) を使用して既知の行と列のインデックスでセル名にアクセスする方法を示しています。コードは以下の出力を生成します。
+次のサンプルコードは、既知の行と列のインデックスを指定してセルの名前にアクセスするための[CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName-int-int-)の使い方を示しています。このコードは次の出力を生成します。
 
 {{< highlight java >}}
 
@@ -37,15 +37,15 @@ Cell Name at [2, 2]: C3
 ## **セル名から行と列のインデックスを取得する方法**
 セルの名前から行と列のインデックスを見つけることが可能です。 この記事では、その方法について説明します。
 
-Aspose.Cellsは、[CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\))メソッドを提供しており、このメソッドを使用してセルの名前から行インデックスと列インデックスを取得できます。
+Aspose.Cellsは、開発者がセルの名前から行と列のインデックスを取得できる[CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex-java.lang.String-)メソッドを提供します。
 
 {{% alert color="primary" %}} 
 
-Microsoft Excelは行と列のインデックスを1から数えます。Microsoft Excelとは異なり、Aspose.Cellsは行と列のインデックスを0から数えます。
+Microsoft Excelは行と列のインデックスを1からカウントして開始します。Aspose.Cellsはこれに対して、0からカウントします。
 
 {{% /alert %}} 
 
-次のサンプルコードは、[CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\))を使用してセルの名前から行と列のインデックスを取得する方法を示しています。コードは次の出力を生成します。
+次のサンプルコードは、セルの名前から行と列のインデックスを取得するために[CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex-java.lang.String-)を使用する例です。このコードは次の出力を生成します。
 
 {{< highlight java >}}
 
@@ -72,3 +72,4 @@ Column Index of Cell C6: 2
 ` `<> + (adj.Private _ " Private"
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

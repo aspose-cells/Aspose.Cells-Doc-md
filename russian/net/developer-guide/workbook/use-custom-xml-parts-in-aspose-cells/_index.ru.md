@@ -24,3 +24,4 @@ url: /ru/net/use-custom-xml-parts-in-aspose-cells/
 ## Связанная статья
 
 - [Добавление пользовательских свойств, видимых в панели информации о документе](/cells/ru/net/adding-custom-properties-visible-inside-document-information-panel/)
+{{< app/cells/assistant language="csharp" >}}

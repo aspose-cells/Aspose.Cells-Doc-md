@@ -33,3 +33,4 @@ Das folgende Beispiel veranschaulicht die Verwendung von Aspose.Cells, um die SQ
 
 
 
+{{< app/cells/assistant language="java" >}}

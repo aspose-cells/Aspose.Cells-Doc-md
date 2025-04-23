@@ -16,3 +16,4 @@ url: /ja/java/set-the-values-format-code-of-chart-series/
 ![todo:image_alt_text](set-the-values-format-code-of-chart-series_1.png)
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "SetValuesFormatCodeOfChartSeries.java" >}}
+{{< app/cells/assistant language="java" >}}

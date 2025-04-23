@@ -21,3 +21,4 @@ keywords: Экспорт значения HTML строки ячеек в DataTa
  <Font Style="FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #00b0f0;Background-Color: #ffe699;">Crow</Font>
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

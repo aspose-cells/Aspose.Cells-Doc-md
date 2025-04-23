@@ -73,3 +73,4 @@ Laden Sie **Arbeiten mit Fixierfenstern** von einer der unten genannten Social-C
 Für weitere Details besuchen Sie [Arbeiten mit Tabellenblättern](/cells/de/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

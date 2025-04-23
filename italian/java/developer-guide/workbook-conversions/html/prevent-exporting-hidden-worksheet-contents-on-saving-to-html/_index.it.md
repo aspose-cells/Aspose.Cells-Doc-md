@@ -22,3 +22,4 @@ Oltre al controllo se esportare o meno fogli di calcolo nascosti, è possibile a
 - [Esporta commenti durante il salvataggio del file di Excel in HTML](/cells/it/java/export-comments-while-saving-excel-file-to-html/)
 - [Nascondere il Contenuto Sovrapposto con CrossHideRight durante il salvataggio in HTML](/cells/it/java/hiding-overlaid-content-with-crosshideright-while-saving-to-html/)
 - [Esporta uno stile di bordo simile quando lo stile di bordo non è supportato dai browser Web](/cells/it/java/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/)
+{{< app/cells/assistant language="java" >}}

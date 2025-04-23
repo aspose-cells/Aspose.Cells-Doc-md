@@ -112,3 +112,4 @@ Aspose.Cells提供一个类，[**Workbook**](https://reference.aspose.com/cells/
 - [在工作表中显示公式而非数值](/cells/zh/net/show-formulas-instead-of-values-in-a-worksheet/)
 - [使用错误检查选项](/cells/zh/net/use-error-checking-options/)
 
+{{< app/cells/assistant language="csharp" >}}

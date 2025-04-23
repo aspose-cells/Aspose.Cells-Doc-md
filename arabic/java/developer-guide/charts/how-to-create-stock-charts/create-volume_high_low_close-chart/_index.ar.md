@@ -19,3 +19,4 @@ keywords: إضافة رسم بياني للمخزون  ارتفاع  منخفض 
 الكود عينة التالي يقوم بتحميل ملف Excel عينة ويولّد ملف Excel الناتج.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-create-volume-high-low-close-stock-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

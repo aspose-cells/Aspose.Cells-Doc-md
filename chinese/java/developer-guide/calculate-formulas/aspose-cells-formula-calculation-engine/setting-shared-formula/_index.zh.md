@@ -23,7 +23,7 @@ Aspose.Cells允许您使用[Cell.Formula](https://reference.aspose.com/cells/jav
 
 可以采取为第一个单元格所做的操作，有效地为每个单元格设置公式，相应地更新单元引用（`A3*0.09`、`A4*0.09`、`A5*0.09`等）。这需要更新每行的单元引用。它还需要Aspose.Cells逐个解析每个公式，对于大型电子表格和复杂公式来说可能耗时。尽管循环可以压缩额外的代码行，但这也会增加额外的代码行。
 
-另一种方法是使用**共享公式**。使用共享公式可以自动更新每行的单元引用，因此税金将被正确计算。[Cell.setSharedFormula](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setSharedFormula\(java.lang.String,%20int,%20int\)) 方法比第一种方法更高效。
+另一种方法是使用**共享公式**。共享公式会自动为每一行的单元格引用更新公式，确保税额计算正确。比起第一种方法，`Cell.setSharedFormula`方法更高效。
 
 以下示例演示了如何使用它。下面的屏幕截图显示了输出文件。
 
@@ -32,3 +32,4 @@ Aspose.Cells允许您使用[Cell.Formula](https://reference.aspose.com/cells/jav
 ![todo:image_alt_text](setting-shared-formula_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingSharedFormula-SettingSharedFormula.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -22,3 +22,4 @@ Aspose.Cells предоставляет возможность читать по
 Chart Subtitle: Sample Chart Subtitle
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

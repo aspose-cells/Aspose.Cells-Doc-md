@@ -26,3 +26,4 @@ url: /ja/java/create-transparent-image-of-excel-worksheet/
 次のサンプルコードを使用して、Excelワークシートの透明な画像を生成できます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CreateTransparentImage-1.java" >}}
+{{< app/cells/assistant language="java" >}}

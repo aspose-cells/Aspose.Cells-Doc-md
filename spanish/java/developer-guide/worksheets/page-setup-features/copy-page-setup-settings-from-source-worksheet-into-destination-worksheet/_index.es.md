@@ -11,7 +11,7 @@ Cuando agregas una nueva hoja a un libro de trabajo, esta contiene las configura
 
 ## **Copiar Configuraciones de Configuración de Página de la Hoja de Cálculo de Origen en la Hoja de Cálculo de Destino**
 
-El siguiente código de muestra ilustra cómo copiar las configuraciones de la configuración de página desde una hoja de cálculo a otra utilizando el método [**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy(com.aspose.cells.PageSetup,%20com.aspose.cells.CopyOptions)). Por favor, consulta el código de muestra y su salida en consola para referencia.
+El siguiente código de muestra ilustra cómo copiar las configuraciones de la configuración de página desde una hoja de cálculo a otra utilizando el método [**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy-com.aspose.cells.PageSetup-com.aspose.cells.CopyOptions-). Por favor, consulta el código de muestra y su salida en consola para referencia.
 
 ## **Código de muestra**
 
@@ -30,3 +30,4 @@ After Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 After Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

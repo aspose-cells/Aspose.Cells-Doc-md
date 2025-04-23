@@ -19,7 +19,7 @@ url: /ru/java/protect-and-unprotect-worksheet/
 
 Aspose.Cells предоставляет класс [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), который представляет файл Microsoft Excel. Класс Workbook содержит WorksheetCollection, которая позволяет получить доступ к каждому листу в файле Excel. Лист представлен классом [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
-Класс Worksheet предоставляет метод [**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect(int)), который используется для применения защиты к листу. Метод Protect принимает следующие параметры:
+Класс Worksheet предоставляет метод [**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect-int-), который используется для применения защиты к листу. Метод Protect принимает следующие параметры:
 
 - Тип защиты, тип защиты, применяемый к листу. Тип защиты применяется с помощью перечисления [**ProtectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ProtectionType).
 - Новый пароль, новый пароль, используемый для защиты листа.
@@ -99,7 +99,7 @@ Aspose.Cells предоставляет класс [**Workbook**](https://refere
 
 ### **Защита строки на листе**
 
-Aspose.Cells позволяет легко заблокировать любую строку на листе. Здесь мы можем использовать метод [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) класса [**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) для применения стиля к конкретной строке на листе. Этот метод принимает два аргумента: объект [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) и структуру [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag), которая содержит все члены, связанные с примененным форматированием.
+Aspose.Cells позволяет легко заблокировать любую строку на листе. Здесь мы можем использовать метод [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) класса [**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) для применения стиля к конкретной строке на листе. Этот метод принимает два аргумента: объект [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) и структуру [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag), которая содержит все члены, связанные с примененным форматированием.
 
 Приведенный ниже пример показывает, как защитить строку на листе. Сначала разблокируются все ячейки на листе, а затем блокируется первая строка в нем. Наконец, защищается лист. У объекта row / column есть метод Style API, который содержит метод setCellLocked. Вы можете заблокировать или разблокировать строку / столбец, используя структуру StyleFlag.
 
@@ -107,7 +107,7 @@ Aspose.Cells позволяет легко заблокировать любую
 
 ### **Защита столбца на листе**
 
-Aspose.Cells позволяет легко заблокировать любой столбец на листе. Здесь мы можем использовать метод [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) класса [**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) для применения стиля к конкретному столбцу на листе. Этот метод принимает два аргумента: объект [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) и структуру [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag), которая содержит все члены, связанные с примененным форматированием.
+Aspose.Cells позволяет легко заблокировать любой столбец на листе. Здесь мы можем использовать метод [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) класса [**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) для применения стиля к конкретному столбцу на листе. Этот метод принимает два аргумента: объект [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) и структуру [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag), которая содержит все члены, связанные с примененным форматированием.
 
 Приведенный ниже пример показывает, как защитить столбец на листе. Сначала разблокируются все ячейки на листе, а затем блокируется первый столбец в нем. Наконец, защищается лист. У объекта row / column есть метод Style API, который содержит метод set Locked. Вы можете заблокировать или разблокировать строку / столбец, используя структуру StyleFlag.
 
@@ -206,3 +206,4 @@ Aspose.Cells предоставляет класс [**Workbook**](https://refere
 Также можно блокировать ячейки с использованием API Aspose.Cells. У каждой ячейки есть метод Style API, который далее содержит метод setLocked. Используйте его для блокировки или разблокировки ячеек.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-LockCell-LockCell.java" >}}
+{{< app/cells/assistant language="java" >}}

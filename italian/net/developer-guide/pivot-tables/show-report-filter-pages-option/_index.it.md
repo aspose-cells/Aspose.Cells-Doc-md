@@ -19,3 +19,4 @@ Il file di origine e i file di output di esempio possono essere scaricati da qui
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ShowReportFilterPagesOption-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -4,13 +4,13 @@ linktitle: Kopiera former
 type: docs
 weight: 200
 url: /sv/python-net/copy-shapes-between-worksheets/
-description: Denna artikel visar hur du kopierar former mellan arkmallar genom Aspose.Cells för Python API via .NET.
-keywords: Python Excel Library, Kopiera former mellan arkmallar, Python hur man kopierar en bild från ett ark till ett annat, Python hur man kopierar ett diagram från ett ark till ett annat, Python hur man kopierar kontroller och andra ritobjekt från ett ark till ett annat.
+description: Detta artikel visar hur man kopierar former mellan kalkylblad via Aspose.Cells för Python via .NET API.
+keywords: Python Excel bibliotek, Python kopierar Former mellan arbetsblad, Python hur man kopierar en bild från ett arbetsblad till ett annat, Python hur man kopierar en diagram från ett arbetsblad till ett annat, Python hur man kopierar kontroller och andra ritobjekt från ett arbetsblad till ett annat.
 ---
 
 {{% alert color="primary" %}}
 
-Ibland måste du kopiera element på ett kalkylblad, till exempel bilder, diagram och andra ritobjekt, mellan kalkylblad. Aspose.Cells for Python via .NET stöder denna funktion. Diagram, bilder och andra objekt kan kopieras med högsta precision.
+Ibland behöver du kopiera element på ett arbetsblad, till exempel bilder, diagram och andra ritobjekt, mellan arbetsblad. Aspose.Cells för Python via .NET stödjer denna funktion. Diagram, bilder och andra objekt kan kopieras med högsta precision.
 
 Den här artikeln ger en detaljerad förståelse för hur man kopierar former mellan arkmallar.
 

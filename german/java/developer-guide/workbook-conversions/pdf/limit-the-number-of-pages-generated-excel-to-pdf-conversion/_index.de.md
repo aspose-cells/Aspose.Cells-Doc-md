@@ -22,3 +22,4 @@ Das folgende Beispiel zeigt, wie ein Bereich von Seiten (3 und 4) in einer Micro
 Enthält das Arbeitsblatt Formeln, ist es am besten, [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) kurz vor der Umwandlung in das PDF-Format aufzurufen. Dadurch werden formelabhängige Werte neu berechnet und die korrekten Werte in der Ausgabedatei gerendert.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

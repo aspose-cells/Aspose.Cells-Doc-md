@@ -148,3 +148,4 @@ La tabella seguente cerca di fornire una panoramica delle funzionalità su come 
 | Inserire controlli nei grafici | | | Supportato |
 | Motore di calcolo delle formule | | | Supportato |
 | Trova API | Supportato | Supportato | Supportato |
+{{< app/cells/assistant language="java" >}}

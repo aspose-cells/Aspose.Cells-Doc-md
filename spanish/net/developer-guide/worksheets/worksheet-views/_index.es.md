@@ -112,3 +112,4 @@ Eliminar paneles divididos utilizando el método [**RemoveSplit**](https://refer
 - [Mostrar fórmulas en lugar de valores en una hoja de cálculo](/cells/es/net/show-formulas-instead-of-values-in-a-worksheet/)
 - [Utilizar opciones de verificación de errores](/cells/es/net/use-error-checking-options/)
 
+{{< app/cells/assistant language="csharp" >}}

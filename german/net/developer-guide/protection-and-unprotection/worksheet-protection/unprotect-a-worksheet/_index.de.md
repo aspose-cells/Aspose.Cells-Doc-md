@@ -31,3 +31,4 @@ Ein einfach geschütztes Arbeitsblatt ist ein Arbeitsblatt, das nicht mit einem 
 Ein mit einem Passwort geschütztes Arbeitsblatt ist ein Arbeitsblatt, das mit einem Passwort geschützt ist. Solche Arbeitsblätter können entsperrt werden, indem eine überladene Version der Methode [**Unprotect**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/unprotect/methods/1) aufgerufen wird, die das Passwort als Parameter akzeptiert.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Unprotect-UnprotectingPasswordProtectedWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

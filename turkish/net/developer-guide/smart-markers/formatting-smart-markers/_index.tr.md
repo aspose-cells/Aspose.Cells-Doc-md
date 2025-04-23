@@ -22,3 +22,4 @@ Akıllı İmler'in gruplandırma veri özelliği kullanılırken bazen özelleş
 Bu örnek, birkaç imleçli bir [veri dosyası](96927971.xlsx) ve [şablon dosyası](96927972.xlsx) kullanır. Kod çalıştırıldığında, Aspose.Cells gruplanmış veriler için özet satırlara bazı özel etiketler ekler.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-AddCustomLabels-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

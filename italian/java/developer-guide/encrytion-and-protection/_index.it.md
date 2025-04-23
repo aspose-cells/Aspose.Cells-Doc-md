@@ -33,3 +33,4 @@ Proteggere l'autenticità del contenuto di un documento, è possibile aggiungere
 - [Come rilevare un formato di file e verificare se il file è crittografato](/cells/it/java/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
 
 
+{{< app/cells/assistant language="java" >}}

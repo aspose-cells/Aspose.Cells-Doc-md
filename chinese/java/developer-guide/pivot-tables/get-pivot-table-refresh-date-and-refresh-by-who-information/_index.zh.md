@@ -18,3 +18,4 @@ Aspose.Cells现在支持从工作簿中获取刷新日期和刷新者信息。
 **示例代码**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-GetPivotTableRefreshDate-1.java" >}}
+{{< app/cells/assistant language="java" >}}

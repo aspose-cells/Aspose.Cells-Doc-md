@@ -11,7 +11,7 @@ Copy Range Data Only spiega come copiare i dati da un intervallo di celle a un a
 
 {{% /alert %}} 
 ## **Copia intervallo dati con stile.**
-Aspose.Cells fornisce una serie di classi e metodi per lavorare con gli intervalli, ad esempio, creaRange(), StyleFlag, applyStyle(), ecc.
+Aspose.Cells fornisce una gamma di classi e metodi per lavorare con gli intervalli, ad esempio, [createRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange-int-int-boolean-), [StyleFlag](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag), [applyStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-), ecc.
 
 Questo esempio:
 
@@ -25,3 +25,4 @@ Questo esempio:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyRangeDataWithStyle-CopyRangeDataWithStyle.java" >}}
 
+{{< app/cells/assistant language="java" >}}

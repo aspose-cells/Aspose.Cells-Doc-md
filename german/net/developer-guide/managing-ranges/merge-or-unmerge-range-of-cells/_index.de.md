@@ -18,3 +18,4 @@ Sie können Aspose.Cells verwenden, um einen Bereich von Zellen zusammenzuführe
 Der folgende Beispielcode erstellt zunächst einen Bereich - A1:D4 - und fusioniert dann die Zellen im Bereich in eine einzelne Zelle mit der Methode [**Range.Merge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge). Ebenso können Sie Zellen aufteilen, indem Sie einen Bereich erstellen und die Methode [**Range.UnMerge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/unmerge) aufrufen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-MergeUnmergeRangeOfCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

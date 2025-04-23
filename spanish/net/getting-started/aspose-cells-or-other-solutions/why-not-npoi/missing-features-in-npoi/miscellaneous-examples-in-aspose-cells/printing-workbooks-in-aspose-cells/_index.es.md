@@ -45,3 +45,4 @@ Descargue **Impresión de libros de trabajo** desde cualquiera de los sitios de 
 Para más detalles, visite [Impresión de libros de trabajo](/cells/es/net/printing-workbooks/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

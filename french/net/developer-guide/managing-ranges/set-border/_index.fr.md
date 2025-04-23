@@ -29,3 +29,4 @@ Cet exemple montre comment :
 1. Définir la bordure externe de la plage.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Range-set-border.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -231,3 +231,4 @@ url: /ar/java/chart-formatting/
 
 ## **مواضيع متقدمة**
 - [تعيين صورة كحشو خلفية في الرسم البياني](/cells/ar/java/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="java" >}}

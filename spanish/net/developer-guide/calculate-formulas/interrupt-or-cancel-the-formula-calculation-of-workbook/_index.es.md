@@ -30,3 +30,4 @@ El siguiente código de muestra implementa el método [**BeforeCalculate()**](ht
 0----7----1----B8
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

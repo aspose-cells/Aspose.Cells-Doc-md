@@ -3,15 +3,15 @@ title: Supprimer les paramètres d imprimante existants des feuilles de calcul d
 type: docs
 weight: 60
 url: /fr/python-net/remove-existing-printersettings-of-worksheets-in-excel-file/
-description: Dans cet article, vous apprendrez comment supprimer les paramètres d imprimante existants d une feuille de calcul dans le fichier Excel à l aide de l objet de configuration de page de manière programmatique avec un code d exemple en utilisant la bibliothèque Excel Aspose.Cells pour Python.
-keywords: Bibliothèque Python Excel, supprimer les paramètres d imprimante d une feuille de calcul en Python, supprimer les paramètres d imprimante d une feuille de calcul Excel en Python.
+description: Dans cet article, vous apprendrez comment supprimer les paramètres d imprimante existants d une feuille dans un fichier Excel via l objet Page Setup de manière programmatique avec un code d exemple utilisant la bibliothèque Excel Aspose.Cells pour Python.
+keywords: Bibliothèque Excel en Python, supprimer les paramètres d imprimante de la feuille, supprimer les paramètres d imprimante d une feuille Excel en Python.
 ---
 
 ## **Scénarios d'utilisation possibles**
-Parfois, les développeurs veulent empêcher Excel d'inclure les fichiers *.bin* des paramètres d'imprimante dans les fichiers XLSX enregistrés. Les fichiers de paramètres d'imprimante sont situés sous *"[fichier "racine"]\xl\printerSettings".* Ce document explique comment supprimer les paramètres d'imprimante existants en utilisant les API Aspose.Cells pour Python via .NET.
+Parfois, les développeurs veulent empêcher Excel d'inclure les fichiers *.bin* de paramètres d'imprimante dans les fichiers XLSX enregistrés. Les fichiers de paramètres d'imprimante se trouvent sous *“[file "root"]\xl\printerSettings”.* Ce document explique comment supprimer les paramètres d'imprimante existants en utilisant Aspose.Cells pour Python via .NET API.
 
 ## **Supprimer les paramètres d'imprimante existants des feuilles de calcul dans le fichier Excel**
-Aspose.Cells pour Python via .NET vous permet de supprimer les paramètres d'imprimante existants spécifiés pour différentes feuilles dans le fichier Excel. Le code d'exemple suivant illustre comment supprimer les paramètres d'imprimante existants pour toutes les feuilles de calcul du classeur. Veuillez consulter son [fichier Excel d'exemple](45056020.xlsx), [fichier Excel de sortie](45056021.xlsx), la sortie de la console ainsi que la capture d'écran pour une référence.
+Aspose.Cells pour Python via .NET vous permet de supprimer les paramètres d'imprimante existants spécifiés pour différentes feuilles dans le fichier Excel. Le code d'exemple suivant illustre comment supprimer les paramètres d'imprimante pour toutes les feuilles du classeur. Voir le [fichier Excel exemple](45056020.xlsx), [fichier Excel de sortie](45056021.xlsx), la sortie console ainsi qu'une capture d'écran comme référence.
 
 ## **Capture d'écran**
 ![todo:image_alt_text](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)

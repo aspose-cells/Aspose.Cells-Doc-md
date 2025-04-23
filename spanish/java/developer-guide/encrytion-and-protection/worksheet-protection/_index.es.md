@@ -19,7 +19,7 @@ Las hojas de cálculo protegidas no ocultan ni protegen datos sensibles, por lo 
 
 Aspose.Cells proporciona una clase, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), que representa un archivo de Microsoft Excel. La clase Workbook contiene una WorksheetCollection que permite acceder a cada hoja de cálculo en un archivo de Excel. Una hoja de cálculo está representada por la clase [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
-La clase Worksheet proporciona el método [**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect(int)) que se utiliza para aplicar protección a una hoja de cálculo. El método Protect acepta los siguientes parámetros:
+La clase Worksheet proporciona el método [**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect-int-) que se utiliza para aplicar protección a una hoja de cálculo. El método Protect acepta los siguientes parámetros:
 
 - Tipo de Protección, el tipo de protección a aplicar en la hoja de cálculo. El tipo de protección se aplica con la ayuda de la enumeración [**ProtectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ProtectionType).
 - Nueva contraseña, la nueva contraseña utilizada para proteger la hoja de cálculo.
@@ -99,7 +99,7 @@ El siguiente ejemplo muestra cómo proteger algunas celdas en la hoja de cálcul
 
 ### **Proteger una fila en la hoja de cálculo**
 
-Aspose.Cells le permite bloquear fácilmente cualquier fila en la hoja de cálculo. Aquí, podemos utilizar el método [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) de la clase [**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) para aplicar estilo a una fila específica en la hoja de cálculo. Este método toma dos argumentos: un objeto [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) y una estructura [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) que tiene todos los miembros relacionados con el formato aplicado.
+Aspose.Cells le permite bloquear fácilmente cualquier fila en la hoja de cálculo. Aquí, podemos utilizar el método [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) de la clase [**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) para aplicar estilo a una fila específica en la hoja de cálculo. Este método toma dos argumentos: un objeto [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) y una estructura [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) que tiene todos los miembros relacionados con el formato aplicado.
 
 El siguiente ejemplo muestra cómo proteger una fila en la hoja de cálculo. Primero desbloquea todas las celdas de la hoja de cálculo y luego bloquea la primera fila en ella. Finalmente, protege la hoja de cálculo. Una fila/columna tiene una API de estilo que contiene un método setCellLocked. Puede bloquear o desbloquear la fila/columna utilizando la estructura StyleFlag.
 
@@ -107,7 +107,7 @@ El siguiente ejemplo muestra cómo proteger una fila en la hoja de cálculo. Pri
 
 ### **Proteger una columna en la hoja de cálculo**
 
-Aspose.Cells le permite bloquear fácilmente cualquier columna en la hoja de cálculo. Aquí, podemos hacer uso del método [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) de la clase [**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) para aplicar estilo a una columna específica en la hoja de cálculo. Este método toma dos argumentos: un objeto [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) y una estructura [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) que tiene todos los miembros relacionados con el formato aplicado.
+Aspose.Cells le permite bloquear fácilmente cualquier columna en la hoja de cálculo. Aquí, podemos hacer uso del método [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) de la clase [**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) para aplicar estilo a una columna específica en la hoja de cálculo. Este método toma dos argumentos: un objeto [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) y una estructura [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) que tiene todos los miembros relacionados con el formato aplicado.
 
 El siguiente ejemplo muestra cómo proteger una columna en la hoja de cálculo. Primero desbloquea todas las celdas de la hoja de cálculo y luego bloquea la primera columna en ella. Finalmente, protege la hoja de cálculo. Una fila/columna tiene una API de estilo que contiene un método set Locked. Puede bloquear o desbloquear la fila/columna utilizando la estructura StyleFlag.
 
@@ -206,3 +206,4 @@ Si desea restringir a los usuarios de editar celdas, las celdas deben estar bloq
 Es posible bloquear celdas usando la API de Aspose.Cells también. Cada celda tiene una API de estilo que contiene un método setLocked. Úselo para bloquear o desbloquear celdas.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-LockCell-LockCell.java" >}}
+{{< app/cells/assistant language="java" >}}

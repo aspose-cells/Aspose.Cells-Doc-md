@@ -42,3 +42,4 @@ Aspose.Cells提供了一个抽象类 [**DrawObjectEventHandler**](https://refere
 ----------------------
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

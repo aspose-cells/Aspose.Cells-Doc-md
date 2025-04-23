@@ -45,7 +45,7 @@ Aspose.Cells предоставляет класс, [**Workbook**](https://refe
 
 Лист представлен классом [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Класс [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) предоставляет широкий спектр свойств и методов для управления листами. Чтобы создать автофильтр, используйте свойство [**AutoFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter) класса [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Свойство [**AutoFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter) является объектом класса [**AutoFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter), который предоставляет свойство [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#Range) для указания диапазона ячеек, составляющих строку заголовка. Автофильтр применяется к диапазону ячеек, который является строкой заголовка.
 
-В каждом листе вы можете указать только один диапазон фильтра. Это ограничено Microsoft Excel. Для настраиваемой фильтрации данных используйте метод [**AutoFilter.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom(int,%20int,%20java.lang.Object)).
+В каждом листе вы можете указать только один диапазон фильтра. Это ограничено Microsoft Excel. Для настраиваемой фильтрации данных используйте метод [**AutoFilter.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom-int-int-java.lang.Object-).
 
 В приведенном ниже примере мы создали тот же AutoFilter, используя Aspose.Cells, что и создали с помощью Microsoft Excel в предыдущем разделе.
 
@@ -57,7 +57,7 @@ Aspose.Cells предоставляет несколько вариантов п
 
 ##### **Цвет заливки**
 
-Aspose.Cells предоставляет функцию [**addFillColorFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addFillColorFilter(int,%20int,%20com.aspose.cells.CellsColor,%20com.aspose.cells.CellsColor)) для фильтрации данных на основе свойства цвета заливки ячеек. В приведенном ниже примере используется файл шаблона с различными цветами заливки в первом столбце листа для тестирования функции фильтрации по цвету. Для проверки функциональности могут быть загружены следующие файлы.
+Aspose.Cells предоставляет функцию [**addFillColorFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addFillColorFilter-int-int-com.aspose.cells.CellsColor-com.aspose.cells.CellsColor-) для фильтрации данных на основе свойства цвета заливки ячеек. В приведенном ниже примере используется файл шаблона с различными цветами заливки в первом столбце листа для тестирования функции фильтрации по цвету. Для проверки функциональности могут быть загружены следующие файлы.
 
 1. [ColouredCells.xlsx](72417315.xlsx)
 1. [FilteredColouredCells.xlsx](72417316.xlsx)
@@ -66,7 +66,7 @@ Aspose.Cells предоставляет функцию [**addFillColorFilter**](
 
 ##### **Дата**
 
-Можно реализовать различные типы фильтров по дате, например, фильтрация всех строк с датами в январе 2018 года. Приведенный ниже образец кода демонстрирует этот фильтр с использованием функции [**addDateFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addDateFilter(int,%20int,%20int,%20int,%20int,%20int,%20int,%20int)). Для тестирования этой функциональности можно использовать следующие файлы.
+Можно реализовать различные типы фильтров по дате, например, фильтрация всех строк с датами в январе 2018 года. Приведенный ниже образец кода демонстрирует этот фильтр с использованием функции [**addDateFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addDateFilter-int-int-int-int-int-int-int-int-). Для тестирования этой функциональности можно использовать следующие файлы.
 
 1. [Date.xlsx](72417317.xlsx)
 1. [FilteredDate.xlsx](72417318.xlsx)
@@ -75,7 +75,7 @@ Aspose.Cells предоставляет функцию [**addFillColorFilter**](
 
 ##### **Динамическая дата**
 
-Иногда требуются динамические фильтры на основе даты, например, все ячейки с датами в январе независимо от года. В этом случае используется функция [**DynamicFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#dynamicFilter(int,%20int)), как показано в следующем примере кода. Для тестирования этой функциональности можно использовать следующие файлы.
+Иногда требуются динамические фильтры на основе даты, например, все ячейки с датами в январе независимо от года. В этом случае используется функция [**DynamicFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#dynamicFilter-int-int-), как показано в следующем примере кода. Для тестирования этой функциональности можно использовать следующие файлы.
 
 1. [Date.xlsx](72417317.xlsx)
 1. [FilteredDynamicDate.xlsx](72417319.xlsx)
@@ -84,7 +84,7 @@ Aspose.Cells предоставляет функцию [**addFillColorFilter**](
 
 ##### **Число**
 
-Aspose.Cells позволяет применять настраиваемые фильтры, такие как выбор ячеек с числами в заданном диапазоне. Пример ниже демонстрирует использование функции [**custom()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom(int,%20int,%20java.lang.Object)) для фильтрации чисел. Примеры файлов можно загрузить по следующим ссылкам.
+Aspose.Cells позволяет применять настраиваемые фильтры, такие как выбор ячеек с числами в заданном диапазоне. Пример ниже демонстрирует использование функции [**custom()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom-int-int-java.lang.Object-) для фильтрации чисел. Примеры файлов можно загрузить по следующим ссылкам.
 
 1. [Number.xlsx](72417320.xlsx)
 1. [FilteredNumber.xlsx](72417321.xlsx)
@@ -93,7 +93,7 @@ Aspose.Cells позволяет применять настраиваемые ф
 
 ##### **Текст**
 
-Если столбец содержит текст, и требуется выбрать ячейки, содержащие определенный текст, можно использовать функцию [**filter()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#filter(int,%20java.lang.String)). В приведенном ниже примере файл-шаблон содержит список стран, и строка должна быть выбрана в соответствии с определенным именем страны. Приведенный ниже код демонстрирует фильтрацию текста с использованием приведенных ниже образцов файлов.
+Если столбец содержит текст, и требуется выбрать ячейки, содержащие определенный текст, можно использовать функцию [**filter()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#filter-int-java.lang.String-). В приведенном ниже примере файл-шаблон содержит список стран, и строка должна быть выбрана в соответствии с определенным именем страны. Приведенный ниже код демонстрирует фильтрацию текста с использованием приведенных ниже образцов файлов.
 
 1. [Text.xlsx](72417322.xlsx)
 1. [FilteredText.xlsx](72417323.xlsx)
@@ -102,7 +102,7 @@ Aspose.Cells позволяет применять настраиваемые ф
 
 ##### **Пустые**
 
-Если столбец содержит текст так, что некоторые ячейки пусты, и требуется выбрать только те строки, где есть пустые ячейки, можно использовать функцию [**matchBlanks()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchBlanks(int)), как показано ниже. Примеры файлов можно загрузить по следующим ссылкам.
+Если столбец содержит текст так, что некоторые ячейки пусты, и требуется выбрать только те строки, где есть пустые ячейки, можно использовать функцию [**matchBlanks()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchBlanks-int-), как показано ниже. Примеры файлов можно загрузить по следующим ссылкам.
 
 1. [Пустой.xlsx](72417324.xlsx)
 1. [ОтфильтрованныйПустой.xlsx](72417325.xlsx)
@@ -111,7 +111,7 @@ Aspose.Cells позволяет применять настраиваемые ф
 
 ##### **Не пустые**
 
-Когда требуется отфильтровать ячейки, содержащие любой текст, используйте функцию фильтра [**MatchNonBlanks**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchNonBlanks(int)), как показано ниже. Примеры файлов можно загрузить по следующим ссылкам.
+Когда требуется отфильтровать ячейки, содержащие любой текст, используйте функцию фильтра [**MatchNonBlanks**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchNonBlanks-int-), как показано ниже. Примеры файлов можно загрузить по следующим ссылкам.
 
 1. [Пустой.xlsx](72417324.xlsx)
 1. [ОтфильтрованныеНеПустой.xlsx](72417326.xlsx)
@@ -155,3 +155,4 @@ Excel предоставляет пользовательские фильтры
 - [Применение расширенного фильтра Microsoft Excel для отображения записей, удовлетворяющих сложным критериям](/cells/ru/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Получить все скрытые индексы строк после обновления автофильтра](/cells/ru/java/get-all-hidden-rows-indices-after-refreshing-autofilter/)
 
+{{< app/cells/assistant language="java" >}}

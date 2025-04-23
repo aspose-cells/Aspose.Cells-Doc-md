@@ -17,3 +17,4 @@ Aspose.Cells支持使用XAdES签名对工作簿进行签名。为此，API提供
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-XAdESSignatureSupport-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

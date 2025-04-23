@@ -16,3 +16,4 @@ Der folgende Beispielcode erklärt, dass die Zeichenfolgen wie Beispiel und 'Bei
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Technical-Articles-DetectCellValueStartsWithSingleQuote.java" >}}
+{{< app/cells/assistant language="java" >}}

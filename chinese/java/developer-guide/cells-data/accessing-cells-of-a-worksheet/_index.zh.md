@@ -60,3 +60,4 @@ Aspose.Cells允许开发人员访问工作表的最大显示范围。最大显�
 {{< /highlight >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AccessingMaximumDisplayRangeofWorksheet-AccessingMaximumDisplayRangeofWorksheet.java" >}}
+{{< app/cells/assistant language="java" >}}

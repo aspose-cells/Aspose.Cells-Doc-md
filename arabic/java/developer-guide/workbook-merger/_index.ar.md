@@ -16,7 +16,7 @@ keywords: دمج عدة دفاتر عمل في دفتر عمل واحد، دمج
 
 ## **دمج دفاتر العمل**
 
-يقوم الكود المثالي بدمج صفحتي عمل إلى صفحة عمل واحدة باستخدام Aspose.Cells for Java. يقوم الكود بتحميل صفحتي العمل الأصليتين ، ثم يستخدم الأسلوب [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) لدمجهم ثم يحفظ صفحة العمل الناتجة.
+يقوم الكود المثالي بدمج صفحتي عمل إلى صفحة عمل واحدة باستخدام Aspose.Cells for Java. يقوم الكود بتحميل صفحتي العمل الأصليتين ، ثم يستخدم الأسلوب [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine-com.aspose.cells.Workbook-) لدمجهم ثم يحفظ صفحة العمل الناتجة.
 
 ### **السجلات المصدر**
 
@@ -69,3 +69,4 @@ keywords: دمج عدة دفاتر عمل في دفتر عمل واحد، دمج
 - [دمج الأوراق العمل المتعددة في ورقة عمل واحدة](/cells/ar/java/combine-multiple-worksheets-into-a-single-worksheet/)
 - [دمج الملفات](/cells/ar/java/merge-files/)
 
+{{< app/cells/assistant language="java" >}}

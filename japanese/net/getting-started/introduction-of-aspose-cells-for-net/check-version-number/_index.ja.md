@@ -29,3 +29,4 @@ major.minor.hotfix
 APIを介してAspose.Cellsのバージョンを確認するには、[CellsHelper](https://reference.aspose.com/cells/net/aspose.cells/cellshelper)クラスのGetVersion静的メソッドを使用してAspose.Cellsのバージョン番号を取得します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-CheckVersionNumber-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -10,3 +10,4 @@ Bu bölümde şu konular bulunmaktadır:
 - [Kenarları İle Çalışma](/cells/tr/net/working-with-borders/)
 - [Renkler İle Çalışma](/cells/tr/net/working-with-colors/)
 - [Yazı Tipleri İle Çalışma](/cells/tr/net/working-with-fonts/)
+{{< app/cells/assistant language="csharp" >}}

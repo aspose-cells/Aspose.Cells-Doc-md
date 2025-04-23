@@ -7,7 +7,7 @@ url: /it/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells fornisce il metodo [PivotTable.getCellByDisplayName()](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getCellByDisplayName\(java.lang.String\)) che puoi usare per accedere all'oggetto cella tramite il nome visualizzato del campo pivot. Questo metodo è utile quando si desidera evidenziare o formattare l'intestazione del campo pivot. Questo articolo spiega come recuperare l'oggetto cella mediante il nome visualizzato del campo dati e quindi applicare la formattazione ad esso.
+Aspose.Cells fornisce il metodo [PivotTable.getCellByDisplayName()](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getCellByDisplayName-java.lang.String-) che puoi usare per accedere all'oggetto cella tramite il nome visualizzato del campo pivot. Questo metodo è utile quando vuoi evidenziare o formattare l'intestazione del campo pivot. Questo articolo spiega come recuperare l'oggetto cella tramite il nome visualizzato del campo dati e quindi applicare la formattazione.
 
 {{% /alert %}} 
 ## **Ottieni l'oggetto Cell tramite DisplayName di PivotField di PivotTable**
@@ -24,3 +24,4 @@ Il seguente codice accede alla prima tabella pivot del foglio di lavoro e quindi
 
 
 
+{{< app/cells/assistant language="java" >}}

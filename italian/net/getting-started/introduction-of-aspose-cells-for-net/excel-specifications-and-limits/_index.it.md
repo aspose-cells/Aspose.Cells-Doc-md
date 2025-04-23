@@ -191,3 +191,4 @@ Se l'impostazione Consenti modifiche da più utenti contemporaneamente... è att
 |Celle che possono essere evidenziate|32.767
 |Colori utilizzati per identificare le modifiche apportate da diversi utenti quando è attivata l'evidenziazione delle modifiche|32 (ogni utente è identificato da un colore separato; le modifiche apportate dall'utente attuale sono evidenziate in blu navy)
 |Tabelle di Excel nel foglio di lavoro|0 (zero) Nota: Un foglio di lavoro che contiene una o più tabelle di Excel non può avere l'impostazione Abilita modifiche da più utenti... abilitata.
+{{< app/cells/assistant language="csharp" >}}

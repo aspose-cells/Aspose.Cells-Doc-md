@@ -9,7 +9,7 @@ url: /tr/java/applying-subtotal-and-changing-direction-of-outline-summary-rows-b
 
 Bu makale, verilere toplam uygulamanın nasıl yapılacağını ve özet detay altında yönün nasıl değiştirileceğini açıklayacaktır.
 
-Verilere [**Worksheet.Cells.subtotal()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal(com.aspose.cells.CellArea,%20int,%20int,%20int[])) yöntemini kullanarak toplam uygulayabilirsiniz. Aşağıdaki parametreleri alır.
+Verilere [**Worksheet.Cells.subtotal()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal-com.aspose.cells.CellArea-int-int-int[]-) yöntemini kullanarak toplam uygulayabilirsiniz. Aşağıdaki parametreleri alır.
 
 - **CellArea** - Toplam uygulanacak aralık
 - **GroupBy** - Sıfıra dayalı bir tamsayı kaydırmak için alan
@@ -42,3 +42,4 @@ Aşağıdaki ekran görüntüsü, örnek kod tarafından oluşturulan çıktı E
 Yukarıda gösterildiği gibi çıktıyı elde etmek için örnek kod burada bulunmaktadır.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ApplyingSubtotal-1.java" >}}
+{{< app/cells/assistant language="java" >}}

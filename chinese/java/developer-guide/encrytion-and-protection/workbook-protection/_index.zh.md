@@ -33,3 +33,4 @@ description: 使用Java代码锁定和解锁Excel文件的工作簿结构。使�
 {{% alert color="primary" %}}
 注意：需要正确的密码。
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

@@ -39,3 +39,4 @@ worksheet.Cells.ImportArray(names, 0, 0, true);
 workbook.Save("DataImport from Array.xls");
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

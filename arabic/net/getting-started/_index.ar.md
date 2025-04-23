@@ -45,7 +45,7 @@ NuGet هو أسهل طريقة لتنزيل وتثبيت Aspose.Cells for .NET.
 2. افتح ملف "AsposeCellsTest.csproj"، وأضف الأسطر التالية إليه للإشارة إلى حزمة Aspose.Cells:
 {{< highlight plain >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="24.7" />
+    <PackageReference Include="Aspose.Cells" Version="25.4" />
   </ItemGroup>
 {{< /highlight >}}
 3. افتح المشروع باستخدام VSCode على Ubuntu:
@@ -103,3 +103,4 @@ NuGet هو أسهل طريقة لتنزيل وتثبيت Aspose.Cells for .NET.
 يُفتح المثال التالي ملف قالب Microsoft Excel موجود "Sample.xlsx"، يدرج "مرحبا بالعالم!" في الخلية A1 في الصفحة العمل الأولى، ويحفظ كملف Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

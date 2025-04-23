@@ -20,3 +20,4 @@ url: /zh/net/add-a-library-reference-to-vba-project-in-workbook/
 以下示例代码使用[**VbaProject.References.AddRegisteredReference()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaprojectreferencecollection/methods/addregisteredreference)方法向工作簿的VBA项目添加或注册了两个库引用。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddLibraryReferenceToVbaProject-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

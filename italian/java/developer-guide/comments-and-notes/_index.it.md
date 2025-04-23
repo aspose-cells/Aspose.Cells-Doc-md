@@ -48,3 +48,4 @@ Aspose.Cells fornisce anche questa funzionalità. Di seguito è riportato un ese
 - [Come impostare lo sfondo del commento](/cells/it/java/how-to-set-comment-background/)
 - [Commenti in discussione](/cells/it/java/threaded-comments/)
 
+{{< app/cells/assistant language="java" >}}

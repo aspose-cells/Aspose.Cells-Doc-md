@@ -7,7 +7,7 @@ url: /ja/java/create-slicer-to-excel-table/
 
 ## **可能な使用シナリオ**
 
-スライサはデータを素早くフィルタリングするために使用されます。テーブルまたはピボットテーブルの両方のデータをフィルタリングするために使用できます。Microsoft Excelでは、テーブルまたはピボットテーブルを選択し、*挿入＞スライサ*をクリックしてスライサを作成できます。Aspose.Cellsでは、[**Worksheet.Slicers.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/slicercollection#add(com.aspose.cells.ListObject,%20com.aspose.cells.ListColumn,%20int,%20int))メソッドを使用してスライサを作成することができます。
+スライサはデータを素早くフィルタリングするために使用されます。テーブルまたはピボットテーブルの両方のデータをフィルタリングするために使用できます。Microsoft Excelでは、テーブルまたはピボットテーブルを選択し、*挿入＞スライサ*をクリックしてスライサを作成できます。Aspose.Cellsでは、[**Worksheet.Slicers.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/slicercollection#add-com.aspose.cells.ListObject-com.aspose.cells.ListColumn-int-int-)メソッドを使用してスライサを作成することができます。
 
 ## **Excelテーブルにスライサーを作成する**
 
@@ -16,3 +16,4 @@ url: /ja/java/create-slicer-to-excel-table/
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Slicers-CreateSlicerToExcelTable-1.java" >}}
+{{< app/cells/assistant language="java" >}}

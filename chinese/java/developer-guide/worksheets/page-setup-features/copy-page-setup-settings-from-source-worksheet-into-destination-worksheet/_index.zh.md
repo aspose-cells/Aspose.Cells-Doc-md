@@ -11,7 +11,7 @@ url: /zh/java/copy-page-setup-settings-from-source-worksheet-into-destination-wo
 
 ## **将源工作表中的页面设置复制到目标工作表**
 
-以下示例代码说明了如何使用[**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy(com.aspose.cells.PageSetup,%20com.aspose.cells.CopyOptions))方法从一个工作表复制页面设置到另一个工作表。请参考以下示例代码和其控制台输出。
+以下示例代码说明了如何使用[**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy-com.aspose.cells.PageSetup-com.aspose.cells.CopyOptions-)方法从一个工作表复制页面设置到另一个工作表。请参考以下示例代码和其控制台输出。
 
 ## **示例代码**
 
@@ -30,3 +30,4 @@ After Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 After Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

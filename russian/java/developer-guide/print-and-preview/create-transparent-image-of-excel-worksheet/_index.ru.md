@@ -26,3 +26,4 @@ url: /ru/java/create-transparent-image-of-excel-worksheet/
 Вы можете использовать следующий образец кода для создания прозрачного изображения вашего листа Excel.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CreateTransparentImage-1.java" >}}
+{{< app/cells/assistant language="java" >}}

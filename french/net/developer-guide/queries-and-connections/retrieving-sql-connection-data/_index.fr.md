@@ -22,3 +22,4 @@ Aspose.Cells fournit la propriété Workbook.DataConnections pour récupérer le
 Si l'objet ExternalConnection contient des données de connexion SQL, il peut être converti en objet DBConnection et ses propriétés peuvent être utilisées pour récupérer la commande de base de données, le type de commande, la description de la connexion, les informations de connexion, les informations d'identification, etc.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-RetrievingSQLConnectionData-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

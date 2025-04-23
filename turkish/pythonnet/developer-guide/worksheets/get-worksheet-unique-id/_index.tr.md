@@ -3,13 +3,13 @@ title: Çalışma sayfası benzersiz kimliğini alma
 type: docs
 weight: 190
 url: /tr/python-net/get-worksheet-unique-id/
-description: Bu makale, Python via .NET API leri kullanarak Aspose.Cells den Excel çalışma sayfası benzersiz kimliğinin nasıl alınacağını göstermektedir.
-keywords: Python Excel Kütüphanesi, Python benzersiz kimlik excel çalışma sayfası, Python Çalışma sayfası benzersiz kimliği alma.
+description: Bu makale, Aspose.Cells for Python via .NET API lerini kullanarak Excel çalışma sayfasından benzersiz kimliği nasıl alacağınızı gösterir.
+keywords: Python Excel Kütüphanesi, Python benzersiz kimliği excel çalışma sayfası, Python da çalışma sayfası benzersiz kimliği alın.
 ---
 
-## **Çalışma sayfası benzersiz kimliğini nasıl alınır**
+## **Çalışma sayfası benzersiz kimliğini nasıl alırız**
 
-Aspose.Cells for Python via .NET, bir çalışma sayfasının benzersiz kimliğini [**Worksheet.unique_id**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/unique_id) özelliğini kullanarak almayı sağlar. Aşağıdaki kod parçası, bir çalışma sayfasının benzersiz kimliğini yazdırmak için [**Worksheet.unique_id**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/unique_id) özelliğini kullanımını göstermektedir. Bu örnek excel dosyasını [buradan indirebilirsiniz](105480213.xlsx).
+Aspose.Cells for Python via .NET, [**Worksheet.unique_id**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/unique_id) özelliğini kullanarak çalışma sayfasının benzersiz kimliğini alabilme yeteneği sağlar. Aşağıdaki kod parçası, [**Worksheet.unique_id**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/unique_id) özelliğinin kullanımını göstererek çalışma sayfasının benzersiz kimliğini yazdırır. Bu örnek, [örnek excel dosyası](105480213.xlsx) kullanır.
 
 ### Kaynak Kodu
 

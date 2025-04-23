@@ -36,13 +36,13 @@ Aspose.Cells также предоставляет возможность упр
   - Это откроет диалог для ввода комментариев в активной ячейке.
   - ![todo:image_alt_text](threaded-comments_5)
 ### **Добавить ветвистый комментарий с помощью Aspose.Cells**
-Aspose.Cells предоставляет метод [Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment\(java.lang.String,%20java.lang.String,%20com.aspose.cells.ThreadedCommentAuthor\)), чтобы добавить связанные комментарии. Метод [Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment\(java.lang.String,%20java.lang.String,%20com.aspose.cells.ThreadedCommentAuthor\)) принимает следующие три параметра.
+Aspose.Cells предоставляет метод [Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment-java.lang.String-java.lang.String-com.aspose.cells.ThreadedCommentAuthor-) для добавления потоковых комментариев. Метод [Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment-java.lang.String-java.lang.String-com.aspose.cells.ThreadedCommentAuthor-) принимает три параметра.
 
 - Имя ячейки: Имя ячейки, в которую будет вставлен комментарий.
 - Текст комментария: Текст комментария.
 - [ThreadedCommentAuthor](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentAuthor): Автор комментария
 
-Следующий фрагмент кода демонстрирует использование метода [Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment\(java.lang.String,%20java.lang.String,%20com.aspose.cells.ThreadedCommentAuthor\)) для добавления связанного комментария в ячейку A1. Пожалуйста, ознакомьтесь с [сгенерированным выходным файлом Excel ](AddThreadedComments_out.xlsx)для справки.
+Следующий пример кода демонстрирует использование метода [Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments-java.lang.String-) для добавления потокового комментария в ячейку A1. Пожалуйста, посмотрите [выходной файл Excel](AddThreadedComments_out.xlsx), созданный этим кодом, для справки.
 #### **Образец кода**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddThreadedComments-1.java" >}}
 ## **Чтение ветвистых комментариев**
@@ -51,7 +51,7 @@ Aspose.Cells предоставляет метод [Comments.AddThreadedComment
 
 ![todo:image_alt_text](threaded-comments_1.jpg)
 ### **Чтение ветвистых комментариев с использованием Aspose.Cells**
-Aspose.Cells предоставляет метод [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)), чтобы извлечь связанные комментарии для указанного столбца. Метод [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) принимает имя столбца в качестве параметра и возвращает [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Вы можете перебирать [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection), чтобы просмотреть комментарии.
+Aspose.Cells предоставляет метод [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments-java.lang.String-) для получения потоковых комментариев для указанного столбца. Метод [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments-java.lang.String-) принимает название столбца в качестве параметра и возвращает [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Вы можете пройтись по [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection), чтобы просмотреть комментарии.
 
 Следующий пример демонстрирует чтение комментариев из столбца A1, загружая [образец файла Excel](ThreadedCommentsSample.xlsx). Пожалуйста, ознакомьтесь с выводом в консоль, сгенерированным кодом для справки.
 #### **Образец кода**
@@ -67,7 +67,7 @@ Author: Aspose Test
 {{< /highlight >}}
 
 ### **Прочтите дату создания ветвящихся комментариев**
-Aspose.Cells предоставляет метод [Comments.GetThreadedComments] (https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)), чтобы извлекать ветвящиеся комментарии для указанного столбца. Метод [Comments.GetThreadedComments] (https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) принимает имя столбца в качестве параметра и возвращает [ThreadedCommentCollection] (https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Вы можете выполнить итерацию по [ThreadedCommentCollection] (https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection) и использовать свойство [ThreadedComment.CreatedTime] (https://reference.aspose.com/cells/java/com.aspose.cells/threadedcomment#CreatedTime).
+Aspose.Cells предоставляет метод [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments-java.lang.String-) для получения потоковых комментариев для указанного столбца. Метод [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments-java.lang.String-) принимает название столбца и возвращает [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Вы можете пройтись по [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection) и использовать свойство [ThreadedComment.CreatedTime](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcomment#CreatedTime).
 
 В следующем примере показано чтение времени создания ветвящихся комментариев путем загрузки [образцового файла Excel] (ThreadedCommentsSample.xlsx). Пожалуйста, ознакомьтесь с выводом консоли, сгенерированным кодом для справки.
 #### **Образец кода**
@@ -90,7 +90,7 @@ Created Time: 2019-05-15T12:46:23
 
 ![todo:image_alt_text](threaded-comments_7.jpg)
 ### **Редактирование ветвящегося комментария с использованием Aspose.Cells**
-Aspose.Cells предоставляет метод [Comments.GetThreadedComments] (https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)), чтобы извлечь ветвящиеся комментарии для указанного столбца. Метод [Comments.GetThreadedComments] (https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) принимает имя столбца в качестве параметра и возвращает [ThreadedCommentCollection] (https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Вы можете обновить необходимый комментарий в [ThreadedCommentCollection] (https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection) и сохранить книгу.
+Aspose.Cells предоставляет метод [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments-java.lang.String-) для получения потоковых комментариев для указанного столбца. Метод принимает название столбца и возвращает [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Вы можете обновить необходимый комментарий в [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection) и сохранить рабочую книгу.
 
 В следующем примере демонстрируется редактирование первого ветвящегося комментария в ячейке A1 путем загрузки [образцового файла Excel] (ThreadedCommentsSample.xlsx). Пожалуйста, ознакомьтесь с [выходным файлом Excel] (EditThreadedComments.xlsx), сгенерированным кодом, показывающим обновленный комментарий для справки.
 #### **Образец кода**
@@ -101,7 +101,7 @@ Aspose.Cells предоставляет метод [Comments.GetThreadedComments
 
 ![todo:image_alt_text](threaded-comments_8.jpg)
 ### **Удаление ветвящихся комментариев с использованием Aspose.Cells**
-Aspose.Cells предоставляет метод [Comments.RemoveAt] (https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#removeAt\(int\)) для удаления комментариев для указанного столбца. Метод [Comments.RemoveAt] (https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#removeAt\(int\)) принимает имя столбца в качестве параметра и удаляет комментарии в этом столбце. 
+Aspose.Cells предоставляет метод [Comments.RemoveAt](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#removeAt-int-) для удаления комментариев в указанном столбце. Метод принимает название столбца и удаляет комментарии в этом столбце. 
 
 Следующий пример демонстрирует удаление комментариев в столбце A1 путем загрузки [образца файла Excel] (ThreadedCommentsSample.xlsx). Пожалуйста, ознакомьтесь с [выходным файлом Excel] (ThreadedCommentsSample_Out.xlsx), сгенерированным кодом для справки.
 #### **Образец кода**
@@ -109,6 +109,7 @@ Aspose.Cells предоставляет метод [Comments.RemoveAt] (https://
 
 {{% alert color="primary" %}} 
 
-Обратите внимание, что при удалении комментария с помощью Aspose.Cells автор не удаляется автоматически. Если вам нужно также удалить автора, используйте метод [ThreadedCommentAuthorCollection.removeAt] (https://reference.aspose.com/cells/java/com.aspose.cells/threadedcommentauthorcollection#removeAt\(int\)) как показано в приведенном выше примере.
+Обратите внимание, что при удалении комментария с помощью Aspose.Cells автоматически не удаляется автор. Если нужно также удалить автора, используйте метод [ThreadedCommentAuthorCollection.removeAt](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcommentauthorcollection#removeAt-int-) как показано в примере выше.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

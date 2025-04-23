@@ -66,3 +66,4 @@ Aspose.Cells предоставляет класс [**Workbook**](https://refere
 Хранение ячеек также можно осуществить с использованием API Aspose.Cells. Каждая ячейка может получить [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) формат, который содержит логическое свойство, [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked). Установите свойство [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) в **true** или **false** для блокировки или разблокировки ячейки.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

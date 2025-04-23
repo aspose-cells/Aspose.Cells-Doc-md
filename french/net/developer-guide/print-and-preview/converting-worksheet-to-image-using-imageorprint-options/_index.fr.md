@@ -57,3 +57,4 @@ Une image TIFF peut contenir plus d'une trame. Vous pouvez enregistrer l'ensembl
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingImageOrPrintOptions-UseWorkbookRenderForImageConversion-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

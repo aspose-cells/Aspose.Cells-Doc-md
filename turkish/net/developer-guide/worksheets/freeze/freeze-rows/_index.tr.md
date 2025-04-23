@@ -41,3 +41,4 @@ Lütfen seçilen satır(lar) üzerinde dondurma işlemi yapmak için [**Workshee
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Row.cs" >}}
 
 Ekli [örnek kaynak Excel dosyası](../Freeze.xlsx).
+{{< app/cells/assistant language="csharp" >}}

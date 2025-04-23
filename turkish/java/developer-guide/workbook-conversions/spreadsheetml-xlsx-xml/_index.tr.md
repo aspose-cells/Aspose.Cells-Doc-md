@@ -179,3 +179,4 @@ Aşağıdaki örneği düşünün. Bazı hücreler kalın şekilde 'Merhaba Dün
 Bir Office Open XML belgesinde bile basit bir arama ve değiştirme operasyonunu uygulamak zor olabilir.
 
 **Tavsiyemiz:** açık ve standart olmanın basit olmak anlamına gelmediğini unutmayın ve Aspose.Cells kullanın.
+{{< app/cells/assistant language="java" >}}

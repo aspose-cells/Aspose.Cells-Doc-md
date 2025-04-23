@@ -23,3 +23,4 @@ Följande kodsnutt visar hur man hanterar teckenförklaring:
 
 ## **Fortsatta ämnen**
 - [Ställ in texten för diagrammets teckenförklaringspostfyllning till ingen med hjälp av Aspose.Cells](/cells/sv/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

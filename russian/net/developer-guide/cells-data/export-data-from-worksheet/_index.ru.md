@@ -109,3 +109,4 @@ _Шаги кода:_
 - [Экспорт видимых строк данных из рабочего листа](/cells/ru/net/export-visible-rows-data-from-worksheet/)
 - [Игнорировать скрытые столбцы при экспорте данных рабочего листа в таблицу данных](/cells/ru/net/ignore-hidden-columns-while-exporting-worksheet-data-to-data-table/)
 - [Автоматическое переименование дублирующихся столбцов при экспорте данных рабочего листа](/cells/ru/net/rename-duplicate-columns-automatically-while-exporting-worksheet-data/)
+{{< app/cells/assistant language="csharp" >}}

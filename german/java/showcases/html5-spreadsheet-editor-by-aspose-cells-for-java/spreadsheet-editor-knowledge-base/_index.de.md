@@ -36,3 +36,4 @@ Um eine Tabelle in einen eingebetteten Editor zu laden, verwenden Sie den **url*
 </iframe>
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

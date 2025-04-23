@@ -18,9 +18,9 @@ aliases:
 # GridJs Sunucu Tarafı ile Çalışmak
 ## 0. Config'de doğru klasör yolunu ayarlayın
  **`Config.setFileCacheDirectory`** çalışma kitabı önbellek dosyası için (gereklidir).
- **`Config.setPictureCacheDirectory`** çalışma kitabındaki görüntü dosyaları önbelleği için (isteğe bağlı, varsayılan değer _piccache dosya önbellek dizininde).
+ **`Config.setPictureCacheDirectory`**  çalışma kitabındaki resim dosyaları önbelleği için (isteğe bağlı, varsayılan değer _piccache dosya önbellek dizininde).
 
-Depolama ayrıntıları için lütfen bu [rehberi](/java/aspose-cells-gridjs/storage/) kontrol edin
+depolama detayları için lütfen bu [rehbere](/java/aspose-cells-gridjs/storage/) bakın
 
 ## 1. GridCacheForStream’i uygulayın
 Yerel dosya depolama için burada bir örnek:
@@ -72,7 +72,7 @@ public class LocalFileCache extends GridCacheForStream {
 }
 ```
 
-## 2. Elektronik tablo dosyasından yanıt akışına json yazın.
+## 2. Çalışma sayfası dosyasından json yazarak yanıt akışına yaz.
 ```JAVA
             GridJsWorkbook wbj = new GridJsWorkbook();
             try (GZIPOutputStream gzipOutputStream = new GZIPOutputStream(response.getOutputStream())) {

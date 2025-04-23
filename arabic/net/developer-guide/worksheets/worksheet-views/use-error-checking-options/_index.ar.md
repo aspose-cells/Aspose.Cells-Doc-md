@@ -35,3 +35,4 @@ keywords: تخزين الأرقام كنص في Excel باستخدام C#، فح
 يوضح الكود المصدري العينة التالي كيفية تعطيل خيار التحقق من الأخطاء للأرقام المخزنة كنص لورقة العمل في ملف XLS القالب باستخدام واجهات برمجة التطبيقات Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ErrorCheckingOptions-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

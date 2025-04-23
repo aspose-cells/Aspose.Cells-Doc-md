@@ -41,3 +41,4 @@ BoxWhisker
 - [إنشاء رسم بياني Waterfall](/cells/ar/net/creating-waterfall-chart/)
 - [إنشاء رسم بياني TreeMap](/cells/ar/net/creating-treemap-chart/)
 - [إنشاء رسم بياني Sunburst](/cells/ar/net/creating-sunburst-chart/)
+{{< app/cells/assistant language="csharp" >}}

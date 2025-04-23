@@ -28,3 +28,4 @@ Aspose.Cells se comporte de la même manière qu'Excel.
 1. Définit les indicateurs [PageSetup.IsHFDiffOddEven]( https://reference.aspose.com/cells/net/aspose.cells/pagesetup/ishfdiffoddeven/) et [PageSetup.IsHFDiffFirst](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/IsHFDiffFirst/) 
 1. Entrez des en-têtes et pieds de page différents.
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DiffHeaderFooter.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -53,3 +53,4 @@ workbook.Save("AsposeTotal.xls");
 有关更多详细信息，请访问[创建小计](/cells/zh/net/creating-subtotals/)。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

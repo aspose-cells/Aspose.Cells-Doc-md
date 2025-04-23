@@ -34,3 +34,4 @@ Calculated Value: Welcome to Aspose.Cells.
 Aspose.Cells'in Varsayılan Hesaplama Motorunu Genişletmek için Özel Hesaplama Motoru Uygulama
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

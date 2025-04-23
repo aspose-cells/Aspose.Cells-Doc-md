@@ -64,3 +64,4 @@ for(int i = al.size()-1 ; i > -1; i--)
 ワークシートでのマージされたセルの検出についての詳細は、[マージされたセルの検出](/cells/ja/java/detect-merged-cells-in-a-worksheet)をご覧ください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

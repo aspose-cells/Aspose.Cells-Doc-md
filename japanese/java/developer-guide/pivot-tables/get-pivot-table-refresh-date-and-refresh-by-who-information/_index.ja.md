@@ -18,3 +18,4 @@ Aspose.Cellsは今、ワークブックから更新日時と更新者情報を�
 **サンプルコード**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-GetPivotTableRefreshDate-1.java" >}}
+{{< app/cells/assistant language="java" >}}

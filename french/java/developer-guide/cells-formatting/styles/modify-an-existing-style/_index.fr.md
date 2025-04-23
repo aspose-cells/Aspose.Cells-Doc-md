@@ -56,3 +56,4 @@ Cet exemple utilise un fichier Excel de modèle simple dans lequel un style appe
 Les modifications sont automatiquement appliquées à la plage à laquelle le style a été appliqué.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ModifyExistingStyle-ModifyExistingStyle.java" >}}
+{{< app/cells/assistant language="java" >}}

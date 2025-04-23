@@ -134,3 +134,4 @@ private void AddingCellFormula()
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Use.Formulas.Functions.to.Process.Data.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Use%20Formulas%20Functions%20to%20Process%20Data%20\(Aspose.Cells\).zip/download)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Use%20Formulas%20Functions%20to%20Process%20Data%20\(Aspose.Cells\).zip)
+{{< app/cells/assistant language="csharp" >}}

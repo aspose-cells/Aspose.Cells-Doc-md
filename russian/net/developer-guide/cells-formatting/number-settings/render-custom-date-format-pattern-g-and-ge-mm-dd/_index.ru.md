@@ -16,3 +16,4 @@ url: /ru/net/render-custom-date-format-pattern-g-and-ge-mm-dd/
 Приведенный ниже образец кода преобразует [исходный файл Excel](5112361.xlsx), содержащий значения дат с пользовательскими шаблонами формата 'g' и 'ge.mm.dd' в [выходной PDF](5112360.pdf).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-RenderCustomDateFormat-RenderCustomDateFormatPatterngandgemmdd.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

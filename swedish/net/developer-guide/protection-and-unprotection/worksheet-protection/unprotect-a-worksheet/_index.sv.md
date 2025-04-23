@@ -31,3 +31,4 @@ Ett enkelt skyddat kalkylark är ett som inte är skyddat med ett lösenord. Så
 Ett lösenordsskyddat kalkylark är ett som är skyddat med ett lösenord. Sådana kalkylblad kan avskyddas genom att anropa en överlagrad version av [**Unprotect**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/unprotect/methods/1) metoden som tar lösenordet som en parameter.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Unprotect-UnprotectingPasswordProtectedWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

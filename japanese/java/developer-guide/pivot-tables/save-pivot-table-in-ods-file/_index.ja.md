@@ -14,3 +14,4 @@ Aspose.Cellsは、ODSファイルにピボットテーブルを保存する機�
 上記のコードで生成された出力ファイルが添付されています。
 
 [出力ODSファイル](PivotTableSaveInODS_out.ods)
+{{< app/cells/assistant language="java" >}}

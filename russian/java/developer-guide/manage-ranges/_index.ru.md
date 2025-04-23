@@ -79,3 +79,4 @@ CurrentRegion - это свойство, которое возвращает о�
 - [Именованные диапазоны](/cells/ru/java/named-ranges/)
 - [Поиск и замена данных в диапазоне](/cells/ru/java/search-and-replace-data-in-a-range/)
 
+{{< app/cells/assistant language="java" >}}

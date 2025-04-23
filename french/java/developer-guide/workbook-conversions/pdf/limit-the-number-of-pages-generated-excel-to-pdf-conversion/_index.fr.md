@@ -22,3 +22,4 @@ L'exemple suivant montre comment restituer une plage de pages (3 et 4) dans un f
 Si la feuille de calcul contient des formules, il est préférable d'appeler [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) juste avant de la rendre au format PDF. Cela garantit que les valeurs dépendantes des formules sont recalculées et que les valeurs correctes sont rendues dans le fichier de sortie.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

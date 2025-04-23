@@ -11,7 +11,7 @@ Numbers - это приложение для электронных таблиц
 
 ## **Чтение таблицы чисел, разработанной Apple Inc. с использованием Aspose.Cells**
 
-Следующий пример кода загружает [Пример таблицы Numbers](sampleNumbersByAppleInc.numbers) и конвертирует его в [выходной формат PDF](outputNumbersByAppleInc.pdf). Вы должны использовать класс **[LoadOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/)** и указать **[LoadFormat::Numbers](https://reference.aspose.com/cells/cpp/aspose.cells/loadformat/)** в качестве параметра в его конструкторе, чтобы успешно загрузить его. Пожалуйста, скачайте оба файла по указанным ссылкам. Вы можете попробовать этот код с любым файлом Numbers. Пожалуйста, также прочитайте комментарии кода для получения дополнительной помощи.
+Следующий пример кода загружает [Образец таблицы чисел](sampleNumbersByAppleInc.numbers) и конвертирует его в [выходной PDF](outputNumbersByAppleInc.pdf). Для успешной загрузки необходимо использовать класс **[LoadOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/)** и указать **[LoadFormat::Numbers](https://reference.aspose.com/cells/cpp/aspose.cells/loadformat/)** в качестве параметра конструктора. Скачайте оба файла по приведённым ссылкам. Попробуйте этот код с любой таблицей Numbers. Также ознакомьтесь с комментариями в коде для дополнительной помощи.
 
 ## **Образец кода**
 

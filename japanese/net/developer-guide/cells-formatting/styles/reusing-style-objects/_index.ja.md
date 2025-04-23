@@ -26,3 +26,4 @@ url: /ja/net/reusing-style-objects/
 古い Cell.Style プロパティは不要なメモリを多く消費していたため、[**Cell.GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle)/[**Cell.SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) アプローチを使用するとメモリを大幅に削減でき、効率的です。これにより、Aspose.Cells 7.1.0 のリリースに伴い、古い Cell.Style プロパティが削除されました。
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

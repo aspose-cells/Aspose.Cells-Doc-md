@@ -26,3 +26,4 @@ Excel应用程序在图表数据标签中提供 **调整形状以适合文本** 
 执行代码后图表如下所示。
 
 ![todo:image_alt_text](resize-chart-s-data-label-shape-to-fit-text_3.png)
+{{< app/cells/assistant language="java" >}}

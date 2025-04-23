@@ -20,3 +20,4 @@ url: /ja/net/password-protect-or-unprotect-the-shared-workbook/
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-PasswordProtectOrUnprotectSharedWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

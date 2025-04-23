@@ -218,3 +218,4 @@ docker run --mount type=bind,source=C:\Windows\Fonts,target=/Fonts  --mount type
 - [Visual Studio 2019, .NET Core 3.1 SDK](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=netcore31#dependencies)
 - [Linux コンテナに切り替える](https://docs.docker.com/docker-for-windows/#switch-between-windows-and-linux-containers) オプション
 - [.NET Core SDK](https://hub.docker.com/_/microsoft-dotnet-sdk) の追加情報
+{{< app/cells/assistant language="csharp" >}}

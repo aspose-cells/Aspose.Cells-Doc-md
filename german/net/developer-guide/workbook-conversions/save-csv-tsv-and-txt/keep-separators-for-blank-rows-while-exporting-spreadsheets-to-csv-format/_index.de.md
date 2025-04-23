@@ -16,3 +16,4 @@ Der folgende Beispielcode lädt die [Quell-Excel-Datei](84378743.xlsx). Es setzt
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-KeepSeparatorsForBlankRow-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

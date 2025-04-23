@@ -77,3 +77,4 @@ Descargar **Nueva línea en celdas** desde cualquiera de los sitios de codificac
 Para más detalles, visita [Saltos de línea y ajuste de texto](/cells/es/net/line-breaks-and-text-wrapping/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

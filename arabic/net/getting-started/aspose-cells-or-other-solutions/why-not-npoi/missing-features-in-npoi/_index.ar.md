@@ -27,3 +27,4 @@ url: /ar/net/missing-features-in-npoi/
   - [تعيين لون علامة تبويب ورقة العمل في Aspose.Cells](/cells/ar/net/set-worksheet-tab-color-in-aspose-cells/)
 
 **ملاحظة:** ستتوفر العديد من الأمثلة قريباً.
+{{< app/cells/assistant language="csharp" >}}

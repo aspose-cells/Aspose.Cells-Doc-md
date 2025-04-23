@@ -3,8 +3,8 @@ title: Verwenden von Fehlerüberprüfungsoptionen
 type: docs
 weight: 140
 url: /de/python-net/use-error-checking-options/
-description: In diesem Artikel finden Sie Beispielscode, der fehlerüberprüfende Optionen von Excel Arbeitsblättern, z.B. Zahlen als Text gespeichert, programmgesteuert mit der Aspose.Cells für Python via .NET API verwendet.
-keywords: Python Excel Bibliothek, Zahlen als Text in Excel speichern, Umgang mit Fehlerprüfungsoptionen in Python.
+description: In diesem Artikel finden Sie Beispielcode, der programmatisch die Fehlerüberprüfungsoptionen von Excel Arbeitsblättern verwendet, z.B. Zahlen, die als Text gespeichert sind, mithilfe der Aspose.Cells für Python via .NET API.
+keywords: Python Excel Bibliothek, Python speichert Zahlen in Excel als Text, wie man mit Fehlerprüfungsoptionen in Python umgeht.
 ---
 
 {{% alert color="primary" %}}
@@ -19,7 +19,7 @@ Fehler, die bedeuten, dass die Formel kein Ergebnis zurückgeben kann - wie beis
 
 Der Fehler kann mithilfe der Optionen behoben oder ignoriert werden. Das Ignorieren eines Fehlers bedeutet, dass dieser bei weiteren Fehlerprüfungen nicht mehr angezeigt wird.
 
-Aspose.Cells für Python via .NET bietet Funktionen zur Fehlerüberprüfung. Die [**ErrorCheckOption**](https://reference.aspose.com/cells/python-net/aspose.cells/errorcheckoption) Klasse verwaltet verschiedene Arten von Fehlerprüfungen, wie z.B. Zahlen als Text gespeichert, Formelberechnungsfehler und Validierungsfehler. Verwenden Sie die [**ErrorCheckType**](https://reference.aspose.com/cells/python-net/aspose.cells/errorchecktype) Aufzählung, um die gewünschte Fehlerprüfung einzurichten.
+Aspose.Cells für Python via .NET bietet Fehlerüberprüfungs-Optionen. Die [**ErrorCheckOption**](https://reference.aspose.com/cells/python-net/aspose.cells/errorcheckoption) Klasse verwaltet verschiedene Fehlerüberprüfungsarten, z.B. Zahlen, die als Text gespeichert sind, Formelberechnungsfehler und Validierungsfehler. Verwenden Sie die [**ErrorCheckType**](https://reference.aspose.com/cells/python-net/aspose.cells/errorchecktype) Enumeration, um die gewünschte Fehlerüberprüfung einzustellen.
 
 ## **Als Text gespeicherte Zahlen**
 
@@ -28,9 +28,9 @@ Gelegentlich werden Zahlen formatiert und in Zellen als Text gespeichert. Dies k
 Sie können die Fehlerprüfungsoptionen verwenden, um Zahlen, die als Text gespeichert sind, schnell in echte Zahlen umzuwandeln. In Microsoft Excel 2003:
 
 1. Klicken Sie im Menü **Extras** auf **Optionen**.
-1. Wählen Sie den Fehlerüberprüfungs-Tab aus. Die Option **Zahl als Text gespeichert** ist standardmäßig aktiviert.
+1. Wählen Sie die Registerkarte Fehlerüberprüfung. Die Option **Nummer als Text gespeichert** ist standardmäßig aktiviert.
 1. Deaktivieren Sie es.
 
-Der folgende Beispielscode zeigt, wie die Fehlerüberprüfungsoption für Zahlen als Text für ein Arbeitsblatt in der XLS-Vorlagendatei mit den Aspose.Cells für Python via .NET APIs deaktiviert wird.
+Der folgende Beispielcode zeigt, wie die Fehlerüberprüfung für Zahlen, die als Text gespeichert sind, für ein Arbeitsblatt in der Vorlage XLS mithilfe der Aspose.Cells für Python via .NET APIs deaktiviert wird.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ErrorCheckingOptions-1.py" >}}

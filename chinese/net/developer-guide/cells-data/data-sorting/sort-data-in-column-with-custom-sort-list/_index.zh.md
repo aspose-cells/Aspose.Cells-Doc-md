@@ -20,3 +20,4 @@ keywords: 使用自定义排序列表对列中的数据进行排序，使用自�
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SortDataInColumnWithCustomSortList.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

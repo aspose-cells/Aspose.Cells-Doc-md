@@ -39,3 +39,4 @@ Les codes suivants montrent comment rendre la plage d'affichage maximale en html
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Get-Max-Display-Range.cs" >}}
 
 Voici le [fichier excel source](Book1.xlsx).
+{{< app/cells/assistant language="csharp" >}}

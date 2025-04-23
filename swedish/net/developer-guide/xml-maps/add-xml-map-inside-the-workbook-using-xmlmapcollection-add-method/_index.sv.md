@@ -16,3 +16,4 @@ Följande exempelkod lägger till XML-karta inuti arbetsboken med hjälp av [**X
 ![add-xml-map](add-xml-map.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddXmlMapInsideWorkbook-AddXmlMapInsideWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

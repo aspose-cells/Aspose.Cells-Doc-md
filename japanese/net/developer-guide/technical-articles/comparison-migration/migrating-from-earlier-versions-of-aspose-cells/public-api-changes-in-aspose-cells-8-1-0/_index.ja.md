@@ -80,3 +80,4 @@ Console.WriteLine(unformatted);
 {{% /alert %}}
 ## **廃止されたBytes、Characters、CharactersWithSpaces、Lines、Paragraphsプロパティ**
 BuiltInDocumentPropertyCollectionクラスの多くのプロパティがバージョン Aspose.Cells for .NET 8.1.0 から非推奨となりました。これらのプロパティにはBytes、Characters、CharactersWithSpaces、Lines、Paragraphsが含まれています。これらのプロパティはExcelスプレッドシートの保存において利用されないためです。元々これらのプロパティはWord文書やPowerPointプレゼンテーション向けに記述されていました。
+{{< app/cells/assistant language="csharp" >}}

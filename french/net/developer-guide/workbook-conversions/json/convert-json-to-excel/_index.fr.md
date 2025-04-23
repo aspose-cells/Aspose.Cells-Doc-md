@@ -27,3 +27,4 @@ L'exemple de code suivant, qui utilise la classe JsonLoadOptions pour spécifier
 L'exemple de code suivant démontre l'importation d'une chaîne JSON dans un classeur Excel. Vous pouvez également spécifier l'emplacement de la mise en page lors de l'importation du JSON. Veuillez consulter le code pour convertir une chaîne JSON en fichier xlsx générée par le code pour référence.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Convert-JSON-String-to-Excel.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

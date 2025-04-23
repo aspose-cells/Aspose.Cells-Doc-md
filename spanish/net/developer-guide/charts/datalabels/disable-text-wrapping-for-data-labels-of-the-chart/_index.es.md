@@ -18,3 +18,4 @@ Aspose.Cells proporciona una propiedad [**DataLabels.IsTextWrapped**](https://re
 El siguiente ejemplo de código muestra cómo deshabilitar el ajuste de texto para las etiquetas de datos del gráfico.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-DisableTextWrappingForDataLabels-DisableTextWrappingForDataLabels.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

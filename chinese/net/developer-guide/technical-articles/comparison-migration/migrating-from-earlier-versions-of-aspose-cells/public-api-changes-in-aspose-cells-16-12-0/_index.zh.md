@@ -227,3 +227,4 @@ var range = sheets.CreateRange("A1:A2", 0);
 建议使用DataLabels.BackgroundMode属性来替代。
 ### **已删除DisplayUnitLabel.Rotation属性**
 考虑使用DisplayUnitLabel.RotationAngle属性来实现同样的效果。
+{{< app/cells/assistant language="csharp" >}}

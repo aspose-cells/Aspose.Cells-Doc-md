@@ -31,3 +31,4 @@ Se följande exempelkod. Koden ställer först in den ursprungliga datan och ska
 
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "PivotTables-Add-calculated-field-in-PivotTable.java" >}}
+{{< app/cells/assistant language="java" >}}

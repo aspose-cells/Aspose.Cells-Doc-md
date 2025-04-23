@@ -90,3 +90,4 @@ sw.Close();
 لمزيد من التفاصيل، قم بزيارة [ميزات تنسيق البيانات](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

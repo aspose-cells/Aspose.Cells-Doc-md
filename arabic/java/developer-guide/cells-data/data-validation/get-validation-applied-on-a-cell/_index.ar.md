@@ -9,7 +9,7 @@ keywords: تطبيق التحقق من الخلية في Excel باستخدام 
 
 {{% alert color="primary" %}}
 
-يمكنك استخدام واجهة برمجة تطبيقات Aspose.Cells للحصول على التحقق المطبق على أي خلية. توفر Aspose.Cells الطريقة [**Cell.getValidation()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) لهذا الغرض. إذا لم يكن هناك أي تحقق على الخلية، فإنها تُعيد قيمة فارغة. بالمثل، يمكنك استخدام الطريقة [**Worksheet.getValidations().getValidationInCell(int row, int column)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell(int,%20int)) للحصول على التحقق المطبق على خلية عن طريق توفير مؤشرات صف وعمود الخلية.
+يمكنك استخدام واجهة برمجة تطبيقات Aspose.Cells للحصول على التحقق المطبق على أي خلية. توفر Aspose.Cells الطريقة [**Cell.getValidation()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) لهذا الغرض. إذا لم يكن هناك أي تحقق على الخلية، فإنها تُعيد قيمة فارغة. بالمثل، يمكنك استخدام الطريقة [**Worksheet.getValidations().getValidationInCell(int row, int column)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell-int-int-) للحصول على التحقق المطبق على خلية عن طريق توفير مؤشرات صف وعمود الخلية.
 
 {{% /alert %}}
 
@@ -46,3 +46,4 @@ Ignore blank: true
 ## مقالات ذات صلة
 
 - [التحقق من البيانات](/cells/ar/java/data-validation/)
+{{< app/cells/assistant language="java" >}}

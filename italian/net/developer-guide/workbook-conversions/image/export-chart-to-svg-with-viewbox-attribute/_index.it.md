@@ -34,3 +34,4 @@ Se apri l'SVG del grafico in notepad, troverai l'attributo **viewBox** simile a 
 {{< /highlight >}}
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

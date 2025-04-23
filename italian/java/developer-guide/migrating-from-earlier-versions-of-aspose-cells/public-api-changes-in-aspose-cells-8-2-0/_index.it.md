@@ -31,3 +31,4 @@ Le firme dei suddetti metodi sono le seguenti:
 Si prega di controllare l'articolo dettagliato su [Adatta automaticamente righe e colonne](http://aspose.com/docs/display/cellsjava/AutoFit+Rows+and+Columns).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

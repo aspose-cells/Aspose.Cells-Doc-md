@@ -18,3 +18,4 @@ Aspose.Cells تسمح لك بإضافة روابط تشعبية للصور في 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddImageHyperlinks-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

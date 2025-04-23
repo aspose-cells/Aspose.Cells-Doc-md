@@ -14,3 +14,4 @@ url: /ru/net/avoid-exponential-notation-of-large-numbers-while-importing-from/
 В следующем образце кода объясняется использование свойства [**HTMLLoadOptions.KeepPrecision**](https://reference.aspose.com/cells/net/aspose.cells/abstracttextloadoptions/properties/keepprecision). API импортирует число как есть, не преобразуя его в экспоненциальную нотацию.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AvoidExponentialNotationWhileImportingFromHtml-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

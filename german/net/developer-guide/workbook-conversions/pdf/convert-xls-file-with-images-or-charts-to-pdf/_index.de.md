@@ -20,3 +20,4 @@ Aspose.Cells unterstützt die Konvertierung von XLS-Dateien, die Bilder und Diag
 Wenn die Tabelle Formeln enthält, ist es am besten, die Methode [Workbook.CalculateFormula](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) kurz vor der Konvertierung in PDF aufzurufen. Dadurch wird sichergestellt, dass formelabhängige Werte neu berechnet werden und die richtigen Werte im PDF gerendert werden.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

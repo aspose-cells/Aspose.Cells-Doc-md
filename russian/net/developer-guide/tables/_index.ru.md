@@ -63,3 +63,4 @@ Aspose.Cells предоставляет класс [**Workbook**](https://refere
 - [Установите комментарий таблицы или объекта списка внутри листа.](/cells/ru/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
 - [Таблицы и диапазоны](/cells/ru/net/tables-and-ranges/)
 
+{{< app/cells/assistant language="csharp" >}}

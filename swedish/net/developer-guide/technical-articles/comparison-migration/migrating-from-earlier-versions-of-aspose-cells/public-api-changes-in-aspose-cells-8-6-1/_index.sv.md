@@ -174,3 +174,4 @@ Med släppet av v8.6.1 har Aspose.Cells for .NET API:et modifierat returtypen f�
 ## **Obsoletterade API:er**
 ### **Föråldrad Workbook.CheckWriteProtectedPassword-metod**
 Med släppet av v8.6.1 har Workbook.CheckWriteProtectedPassword-metoden markerats som föråldrad. Det rekommenderas att använda WorkbookSettings.WriteProtection.ValidatePassword-metoden som kan acceptera en sträng som parameter och returnerar Boolesk om lösenordet matchar det förinställda lösenordet för kalkylarket.
+{{< app/cells/assistant language="csharp" >}}

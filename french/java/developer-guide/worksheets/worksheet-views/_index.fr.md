@@ -47,9 +47,9 @@ Aspose.Cells permet également aux développeurs de définir le facteur de zoom 
 ### **Contrôler le facteur de zoom**
 Aspose.Cells fournit une classe [Workbook](https://reference.aspose.com/java/cells/com.aspose.cells/workbook) qui représente un fichier Microsoft Excel. La classe [Workbook](https://reference.aspose.com/java/cells/com.aspose.cells/workbook) contient une [WorksheetCollection](https://reference.aspose.com/java/cells/com.aspose.cells/worksheetcollection) qui permet d'accéder à chaque feuille de calcul dans un fichier Excel.
 
-Une feuille de calcul est représentée par la classe [Worksheet](https://reference.aspose.com/java/cells/com.aspose.cells/worksheet). La classe [Worksheet](https://reference.aspose.com/java/cells/com.aspose.cells/worksheet) offre une large gamme de propriétés et de méthodes pour gérer les feuilles de calcul. Pour définir le facteur de zoom d'une feuille de calcul, utilisez la méthode [setZoom](https://reference.aspose.com/java/cells/com.aspose.cells/worksheet#Zoom) de la classe [Worksheet](https://reference.aspose.com/java/cells/com.aspose.cells/worksheet).
+Une feuille de calcul est représentée par la classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). La classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) offre un large éventail de propriétés et de méthodes pour gérer les feuilles de calcul. Pour définir le facteur de zoom d'une feuille, utilisez la méthode [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) de la classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
-Un exemple complet est donné ci-dessous qui montre comment utiliser la méthode [setZoom](https://reference.aspose.com/java/cells/com.aspose.cells/worksheet#Zoom) pour définir le facteur de zoom de la première feuille de calcul dans un fichier Excel.
+Un exemple complet est donné ci-dessous qui montre comment utiliser la méthode [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) pour définir le facteur de zoom de la première feuille de calcul dans un fichier Excel.
 
 Sur la capture d'écran ci-dessous, vous pouvez voir le fichier Book1.xls dans la vue par défaut.
 
@@ -77,14 +77,14 @@ Aspose.Cells permet également aux développeurs d'appliquer des volets figés a
 
 Aspose.Cells fournit une classe [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) qui représente un fichier Microsoft Excel. La classe [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) contient une [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) permettant d'accéder à chaque feuille de calcul dans un fichier Excel.
 
-Une feuille de calcul est représentée par la classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). La classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) fournit un large éventail de propriétés et de méthodes pour gérer les feuilles de calcul. Pour configurer des volets figés, appelez la méthode [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) de la classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). La méthode [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) prend les paramètres suivants :
+Une feuille de calcul est représentée par la classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). La classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) offre une large gamme de propriétés et de méthodes pour gérer les feuilles de calcul. Pour configurer le gel des volets, appelez la méthode [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) de la classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). La méthode [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) prend les paramètres suivants :
 
 - **Ligne**, l'index de la ligne de la cellule à partir de laquelle le gel commencera.
 - **Colonne**, l'index de la colonne de la cellule à partir de laquelle le gel commencera.
 - **Lignes gelées**, le nombre de lignes visibles dans le volet supérieur.
 - **Colonnes gelées**, le nombre de colonnes visibles dans le volet de gauche.
 
-L'exemple complet ci-dessous montre comment utiliser la méthode [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) de la classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) pour figer des lignes et des colonnes (à partir de C4, représenté par la 4e ligne et la 3e colonne, où les lignes et les colonnes commencent à partir d'index 0) de la première feuille de calcul du fichier Excel.
+Un exemple complet est donné ci-dessous qui montre comment utiliser la méthode [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) de la classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) pour geler les lignes et les colonnes (à partir de C4, représenté par la 4ème ligne et la 3ème colonne, où les lignes et les colonnes commencent à partir de 0) de la première feuille du fichier Excel.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FreezePanes-FreezePanes.java" >}}
 
@@ -106,7 +106,7 @@ Si vous avez besoin de diviser l'écran pour obtenir deux vues différentes dans
 Les volets fonctionnent simultanément. Si vous apportez une modification dans l'un, la modification apparaît simultanément dans l'autre. Aspose.Cells fournit la fonctionnalité de diviser les volets aux utilisateurs.
 ### **Application et Suppression des Volets Divisés**
 #### **Division des Volets**
-Aspose.Cells fournit une classe [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) qui représente un fichier Microsoft Excel. La classe [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) offre un large éventail de propriétés et de méthodes pour la gestion des fichiers Excel. Pour implémenter des vues fractionnées, utilisez la méthode [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\)) de la classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Pour supprimer les volets fractionnés, utilisez la méthode [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) .
+Aspose.Cells fournit une classe [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) qui représente un fichier Microsoft Excel. La classe [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) offre une large gamme de propriétés et de méthodes pour gérer les fichiers Excel. Pour implémenter des vues fractionnées, utilisez la méthode [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split--) de la classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Pour supprimer les volets fractionnés, utilisez la méthode [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--).
 
 Dans l'exemple, nous utilisons un fichier de modèle simple qui est chargé, puis la fonctionnalité de volets divisés est appliquée sur une cellule dans la première feuille de calcul. Le fichier mis à jour est enregistré.
 
@@ -122,7 +122,7 @@ Après l'exécution du code ci-dessus, le fichier généré a une vue fractionn�
 
 ![todo:image_alt_text](worksheet-views_9.png)
 #### **Suppression de volets**
-Les développeurs peuvent supprimer les volets fractionnés en utilisant la méthode [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) de la classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
+Les développeurs peuvent supprimer les volets fractionnés en utilisant la méthode [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovePanes-RemovePanes.java" >}}
 
@@ -133,3 +133,4 @@ Les développeurs peuvent supprimer les volets fractionnés en utilisant la mét
 - [Afficher et masquer les éléments](/cells/fr/java/show-and-hide-elements/)
 - [Afficher les formules au lieu des valeurs dans une feuille de calcul](/cells/fr/java/show-formulas-instead-of-values-in-a-worksheet/)
 - [Utiliser les options de vérification des erreurs](/cells/fr/java/use-error-checking-options/)
+{{< app/cells/assistant language="java" >}}

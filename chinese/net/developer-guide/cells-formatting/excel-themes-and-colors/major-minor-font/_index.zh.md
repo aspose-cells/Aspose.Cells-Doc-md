@@ -46,3 +46,4 @@ url: /zh/net/headings-and-body-theme-font/
 以下示例代码展示了如何获取本地主题字体。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Local-Theme-Font.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -27,3 +27,4 @@ Se delavsnittet **Öppna HTML-filer** i denna artikel som förklarar hur man lad
 Se följande dokumentationsartikel som förklarar hur du konverterar/sparar dina arbetsböcker/kalkylblad till HTML-format.
 
 - [Konvertera Excel-filer till HTML](/cells/sv/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktohtml)
+{{< app/cells/assistant language="csharp" >}}

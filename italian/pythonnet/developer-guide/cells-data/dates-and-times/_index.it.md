@@ -11,7 +11,7 @@ keywords: Come gestire date e orari, Il sistema di data 1900, Il sistema di data
 Date e orari sono archiviati nelle celle come numeri. Quindi, i valori delle celle che contengono date e orari sono di tipo numerico. Un numero che specifica una data e un'ora è composto dalle componenti di data (parte intera) e ora (parte frazionaria). La proprietà Cell.DoubleValue restituisce questo numero.
 
 ## **Come visualizzare date e orari in Aspose.Cells**
-Per visualizzare un numero come data e ora, applica il formato di data e ora richiesto a una cella tramite la proprietà [Style.Number](https://reference.aspose.com/cells/net/aspose.cells/style/number/) o [Style.Custom](). La proprietà CellValue.DateTimeValue restituisce l'oggetto DateTime, che specifica la data e l'ora rappresentate dal numero contenuto in una cella.
+Per visualizzare un numero come data e ora, applicare il formato data e ora desiderato a una cella tramite la proprietà [Style.number](https://reference.aspose.com/cells/python-net/aspose.cells/style/number/) o [Style.Custom]() . La proprietà CellValue.DateTimeValue restituisce l'oggetto DateTime, che specifica la data e l'ora rappresentate dal numero contenuto in una cella.
 <br>
 <image src="1.png" width="70%" />
 
@@ -19,7 +19,7 @@ Per visualizzare un numero come data e ora, applica il formato di data e ora ric
 MS-Excel archivia le date come numeri chiamati valori seriali. Un valore seriale è un intero che rappresenta il numero di giorni trascorsi dal primo giorno nel sistema di date. Excel supporta i seguenti sistemi di data per i valori seriali:
 
 1. Il sistema di data 1900. La prima data è il 1 gennaio 1900 e il suo valore seriale è 1. L'ultima data è il 31 dicembre 9999 e il suo valore seriale è 2.958.465. Questo sistema di data è utilizzato nel foglio di lavoro per impostazione predefinita.
-1. Il sistema di data 1904. La prima data è il 1 gennaio 1904 e il suo valore seriale è 0. L'ultima data è il 31 dicembre 9999 e il suo valore seriale è 2.957.003. Per utilizzare questo sistema di data nel foglio di lavoro, impostare la proprietà [Workbook.Settings.Date1904](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/date1904/) su true.
+1. Il sistema di data 1904. La prima data è 1 gennaio 1904 e il suo valore seriale è 0. L'ultima data è 31 dicembre 9999 e il suo valore seriale è 2.957.003. Per usare questo sistema di data nel workbook, impostare la proprietà [**Workbook.settings.date1904**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/date1904/) su true.
 
 
 Questo esempio mostra che i valori seriali archiviati nella stessa data in sistemi di date diversi sono diversi.

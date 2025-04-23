@@ -100,3 +100,4 @@ url: /ja/java/page-setup-and-printing-options/
 Aspose.Cellsは長年にわたる研究、設計、慎重な調整の成果を受けています。ご質問、コメント、提案を心より歓迎いたします。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

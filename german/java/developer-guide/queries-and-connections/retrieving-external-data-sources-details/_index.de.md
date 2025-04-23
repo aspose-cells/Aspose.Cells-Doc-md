@@ -34,3 +34,4 @@ Wenn der Code ausgeführt wird, werden die Verbindungsdaten in der Konsole ausge
 
 
 
+{{< app/cells/assistant language="java" >}}

@@ -16,3 +16,4 @@ El siguiente código de ejemplo carga el [archivo de Excel de origen](84378743.x
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-KeepSeparatorsForBlankRow-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

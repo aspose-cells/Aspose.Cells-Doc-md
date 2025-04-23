@@ -22,3 +22,4 @@ url: /zh/java/formatting-smart-markers/
 此示例使用一个包含少量标记的[模板文件](template.xlsx)。执行代码时，Aspose.Cells会为分组数据的汇总行添加一些自定义标签。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-SmartMarkers-AddCustomLabels-1.java" >}}
+{{< app/cells/assistant language="java" >}}

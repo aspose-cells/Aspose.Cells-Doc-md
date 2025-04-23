@@ -18,3 +18,4 @@ Vous pouvez utiliser Aspose.Cells pour créer une étiquette de données personn
 Le code suivant accède au premier point du graphique de la première série, définit son texte, puis définit la police des dix premiers caractères en définissant sa couleur en rouge et sa graisse à **true**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RichTextCustomDataLabel-RichTextCustomDataLabelOfChartPoint.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

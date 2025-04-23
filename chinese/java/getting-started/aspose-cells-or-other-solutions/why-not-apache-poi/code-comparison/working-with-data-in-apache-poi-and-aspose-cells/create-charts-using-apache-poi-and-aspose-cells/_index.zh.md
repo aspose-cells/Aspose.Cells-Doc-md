@@ -156,3 +156,4 @@ chart.plot(data, bottomAxis, leftAxis);
 欲了解更多详情，请访问[创建自定义图表](/cells/zh/java/creating-and-customizing-charts/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

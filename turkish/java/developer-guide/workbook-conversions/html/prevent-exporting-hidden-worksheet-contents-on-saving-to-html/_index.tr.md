@@ -22,3 +22,4 @@ Gizli çalışma sayfalarını dışa aktarılıp dışa aktarılmayacağını k
 - [Excel Dosyasını HTML'ye Kaydederken Yorumları Dışa Aktar](/cells/tr/java/export-comments-while-saving-excel-file-to-html/)
 - [Web Tarayıcıları tarafından desteklenmeyen Birleşik Stil'in benzerini dışa aktar](/cells/tr/java/hiding-overlaid-content-with-crosshideright-while-saving-to-html/)
 - [CrossHideRight ile Üzerine Binme Content'ini HTML'şe kaydederken Gizle](/cells/tr/java/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/)
+{{< app/cells/assistant language="java" >}}

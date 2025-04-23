@@ -53,3 +53,4 @@ Kontrollera de detaljerade artiklarna på
 - [Hur du får varningar när typsnittsersättning inträffar](/cells/sv/java/get-warnings-for-font-substitution-while-rendering-excel-file/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

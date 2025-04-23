@@ -21,3 +21,4 @@ url: /ar/net/http-compression/
 - حفظ الملف المولد على خادمك وتوفير رابط لمستخدميك.
 
 إذا كنت ترغب في استخدام ضغط HTTP، يرجى دائمًا استخدام الخيار *OpenInExcel* بدلاً من الخيار *OpenInBrowser* عندما تعلم أنك قمت بتمكين ضغط IIS.
+{{< app/cells/assistant language="csharp" >}}

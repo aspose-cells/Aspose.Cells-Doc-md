@@ -53,3 +53,4 @@ Enligt det angivna cellintervallet skapas List-objektet i arbetsbladet av Aspose
 I det exempel som ges nedan har vi skapat samma [**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) med hjälp av Aspose.Cells API som vi skapade med hjälp av Microsoft Excel i avsnittet ovan.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-CreatingListObject-CreatingListObject.java" >}}
+{{< app/cells/assistant language="java" >}}

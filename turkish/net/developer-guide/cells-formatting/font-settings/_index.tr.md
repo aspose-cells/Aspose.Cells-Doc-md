@@ -79,3 +79,4 @@ Geliştiriciler, yazı tipi üzerine üst simge efektini [**IsSuperscript**](htt
 - [Yazı Tipi Üzerine Üst Simge ve Abone Etkileri Uygulama](/cells/tr/net/apply-superscript-and-subscript-effects-on-fonts/)
 - [Bir Elektronik Tablo veya Çalışma Kitabında Kullanılan Yazı Tiplerinin Listesini Alın](/cells/tr/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 
+{{< app/cells/assistant language="csharp" >}}

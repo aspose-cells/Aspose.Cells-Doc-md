@@ -28,3 +28,4 @@ Aşağıdaki örnek kod, [kaynak excel dosyasını](5472520.xlsx) yükler ve ilk
 
 
 
+{{< app/cells/assistant language="java" >}}

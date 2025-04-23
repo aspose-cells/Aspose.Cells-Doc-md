@@ -14,3 +14,4 @@ Aspose.Cells-APIs ermöglichen das Hinzufügen von Wortkunst-Wasserzeichen auf d
 Aspose.Cells-APIs ermöglichen es, bestimmte Aspekte des Wasserzeichens zu sperren, so dass die Benutzerinteraktion eingeschränkt oder vollständig blockiert werden kann. Der folgende Codeauszug zeigt die Verwendung der Aspose.Cells for .NET-API zum Sperren der Auswahl, Bewegung, Bearbeitung und Änderung der Größe des Wasserzeichens durch Erstellen einer Tabelle von Grund auf.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-LockingWordartWatermark-LockingWordartWatermark.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

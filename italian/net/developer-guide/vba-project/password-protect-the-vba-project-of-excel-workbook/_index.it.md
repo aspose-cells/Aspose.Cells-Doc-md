@@ -14,3 +14,4 @@ url: /it/net/password-protect-the-vba-project-of-excel-workbook/
 Il seguente codice di esempio carica il [file Excel di esempio](43352067.xlsm), accede al suo progetto VBA e lo protegge con una password. Infine lo salva come [file Excel di output](43352068.xlsm).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProjectPassword-ProtecttheVBAProjectofExcelWorkbook.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

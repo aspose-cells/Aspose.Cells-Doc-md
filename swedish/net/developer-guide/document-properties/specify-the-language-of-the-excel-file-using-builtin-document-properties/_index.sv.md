@@ -18,3 +18,4 @@ Följande exempelkod skapar en arbetsbok och ändrar dess inbyggda dokumentegens
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DocumentProperties-SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

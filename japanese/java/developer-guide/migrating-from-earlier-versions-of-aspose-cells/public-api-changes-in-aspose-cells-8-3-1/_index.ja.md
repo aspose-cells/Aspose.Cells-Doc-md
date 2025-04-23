@@ -187,3 +187,4 @@ workbook.save("output.xlsx");
 詳細については、[スパークライングループのデータ範囲と場所を指定してコピーする](/cells/ja/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/)をご覧ください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

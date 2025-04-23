@@ -15,7 +15,7 @@ Aspose.Cells允许您从工作簿导出工作表并将其转换为不同的格�
 
 有时保存工作表图片是很有用的。图片可以在线共享，插入到其他文档（例如用Microsoft Word编写的报告或PowerPoint演示文稿）。
 
-Aspose.Cells通过[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)类提供图像导出功能。该类表示将呈现为图像的工作表。[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)类提供了将工作表转换为图像文件的[**toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream))方法。支持BMP、PNG、JPEG、TIFF和EMF格式。
+Aspose.Cells通过[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)类提供图像导出功能。该类表示将呈现为图像的工作表。[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)类提供了将工作表转换为图像文件的[**toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage-int-java.io.OutputStream-)方法。支持BMP、PNG、JPEG、TIFF和EMF格式。
 
 {{% alert color="primary" %}}
 
@@ -58,3 +58,4 @@ SVG代表**可伸缩矢量图形**。SVG是基于XML标准的二维矢量图形�
 - [使用viewBox属性将图表导出为SVG](/cells/zh/java/export-chart-to-svg-with-viewbox-attribute/)
 - [使用所需的宽度和高度将工作表或图表导出为图像](/cells/zh/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
 - [将工作表转为图像以及按页面转为图像](/cells/zh/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)
+{{< app/cells/assistant language="java" >}}

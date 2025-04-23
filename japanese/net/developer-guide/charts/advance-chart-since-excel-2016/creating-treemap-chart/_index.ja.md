@@ -19,3 +19,4 @@ url: /ja/net/creating-treemap-chart/
 下記のサンプルコードは、[サンプルExcelファイル](treemap.xlsx)を読み込み、[出力Excelファイル](out.xlsx)を生成します。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-treemap-chart.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

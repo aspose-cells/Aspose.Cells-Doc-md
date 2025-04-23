@@ -14,3 +14,4 @@ Aspose.Cells API通过引入一些有用的属性和方法来增强[**Protection
 [**Protection.VerifyPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/methods/verifypassword)方法将返回**true**，如果指定的密码与用于保护给定工作表的密码匹配，并且如果指定的密码不匹配，则返回**false**。 下面的代码片段使用[**Protection.VerifyPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/methods/verifypassword)方法与[**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword)属性结合使用，以检测密码保护，并验证密码。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-VerifyPasswordUsedToProtectWorksheets-VerifyPasswordUsedToProtectWorksheets.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

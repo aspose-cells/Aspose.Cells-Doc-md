@@ -7,11 +7,11 @@ url: /it/java/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquer
 
 ## **Possibili Scenari di Utilizzo**
 
-Puoi interrogare le aree delle celle mappate al percorso della mappa XML con Aspose.Cells utilizzando il metodo [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)). Se il percorso esiste, restituirà l'elenco delle aree delle celle relative a quel percorso all'interno della mappa XML. Il primo parametro del metodo [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)) specifica il percorso dell'elemento XML e il secondo parametro specifica la mappa XML che si desidera interrogare.
+Puoi interrogare le aree delle celle mappate al percorso della mappa XML con Aspose.Cells utilizzando il metodo [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery-java.lang.String-com.aspose.cells.XmlMap-). Se il percorso esiste, restituirà l'elenco delle aree delle celle relative a quel percorso all'interno della mappa XML. Il primo parametro del metodo [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery-java.lang.String-com.aspose.cells.XmlMap-) specifica il percorso dell'elemento XML e il secondo parametro specifica la mappa XML che si desidera interrogare.
 
 ## **Interroga le aree delle celle mappate al percorso della mappa XML utilizzando il metodo Worksheet.XmlMapQuery**
 
-La seguente schermata mostra Microsoft Excel visualizzando la mappa XML all'interno del [file Excel di esempio](55541818.xlsx) utilizzato nel codice. Il codice interroga la mappa XML due volte e stampa l'elenco delle aree delle celle restituite dal metodo [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)) sulla console come mostrato di seguito.
+La seguente schermata mostra Microsoft Excel visualizzando la mappa XML all'interno del [file Excel di esempio](55541818.xlsx) utilizzato nel codice. Il codice interroga la mappa XML due volte e stampa l'elenco delle aree delle celle restituite dal metodo [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery-java.lang.String-com.aspose.cells.XmlMap-) sulla console come mostrato di seguito.
 
 ![todo:image_alt_text](query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method_1.png)
 
@@ -50,3 +50,4 @@ I dati XML possono essere importati nei fogli di lavoro. A volte è richiesto un
 1. [FoodList.xml](FoodList.xml)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-XmlMaps-GetXMLPathFromListObject.java" >}}
+{{< app/cells/assistant language="java" >}}

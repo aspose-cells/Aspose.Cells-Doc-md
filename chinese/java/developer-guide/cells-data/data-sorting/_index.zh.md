@@ -62,7 +62,7 @@ Aspose.Cells 提供了用于按升序或降序对数据进行排序的 [**DataSo
 
 ## **以背景颜色排序数据**
 
-Excel提供了根据背景颜色对数据进行排序的功能。使用Aspose.Cells也提供了相同功能，可以使用[**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter)，其中[**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL_COLOR)可以在[**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int))中用于根据背景颜色对数据进行排序。包含[**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int))函数中指定颜色的所有单元格将根据SortOrder设置放置在顶部或底部，并且其余单元格的顺序不会改变。
+Excel提供了根据背景颜色对数据进行排序的功能。使用Aspose.Cells也提供了相同功能，可以使用[**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter)，其中[**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL-COLOR)可以在[**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-)中用于根据背景颜色对数据进行排序。包含[**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-)函数中指定颜色的所有单元格将根据SortOrder设置放置在顶部或底部，并且其余单元格的顺序不会改变。
 
 以下是可以下载以进行此功能测试的样本文件：
 
@@ -78,3 +78,4 @@ Excel提供了根据背景颜色对数据进行排序的功能。使用Aspose.Ce
 - [使用自定义排序列表对列中的数据进行排序](/cells/zh/java/sort-data-in-column-with-custom-sort-list/)
 - [在对数据进行排序时指定排序警告](/cells/zh/java/specifying-sort-warning-while-sorting-data/)
 
+{{< app/cells/assistant language="java" >}}

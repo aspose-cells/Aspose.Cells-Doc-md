@@ -27,3 +27,4 @@ Fügen Sie einen Bereich ein und verschieben Sie Zellen nach unten, wie in den f
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Insert-Range-Down.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

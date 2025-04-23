@@ -31,3 +31,4 @@ Um die Schattierung auf alternative Spalten anzuwenden, müssen Sie lediglich di
 Die resultierende Tabelle sieht in diesem Fall wie das folgende Bild aus.
 
 ![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)
+{{< app/cells/assistant language="java" >}}

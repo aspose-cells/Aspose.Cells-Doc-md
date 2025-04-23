@@ -18,3 +18,4 @@ Aspose.Cells te permite agregar hipervínculos a imágenes en hojas de cálculo 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddImageHyperlinks-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

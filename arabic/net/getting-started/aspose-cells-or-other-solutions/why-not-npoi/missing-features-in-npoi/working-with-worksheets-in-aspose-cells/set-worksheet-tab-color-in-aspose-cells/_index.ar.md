@@ -44,3 +44,4 @@ workbook.Save("AsposeColoredTab_Out.xls");
 لمزيد من التفاصيل، قم بزيارة [تعيين لون علامة تبويب ورق العمل](/cells/ar/net/set-worksheet-tab-color/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

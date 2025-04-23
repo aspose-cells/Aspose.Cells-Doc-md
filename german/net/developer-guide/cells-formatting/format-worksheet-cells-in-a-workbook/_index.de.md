@@ -50,3 +50,4 @@ Im Folgenden sind die Schritte aufgeführt, wie man ein Tabellenblatt erstellt u
 1. Fügen Sie den folgenden Code zum Projekt hinzu:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FormatWorksheetCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

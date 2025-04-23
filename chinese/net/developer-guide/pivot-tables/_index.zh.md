@@ -55,3 +55,4 @@ Aspose.Cells提供了一组特殊的类在[**Aspose.Cells.Pivot**](https://refer
 - [将数据透视表保存为 ODS 文件](/cells/zh/net/save-pivot-table-in-ods-file/)
 - [显示报表筛选页选项](/cells/zh/net/show-report-filter-pages-option/)
 - [在数据透视表的DataField中使用数据显示格式](/cells/zh/net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="csharp" >}}

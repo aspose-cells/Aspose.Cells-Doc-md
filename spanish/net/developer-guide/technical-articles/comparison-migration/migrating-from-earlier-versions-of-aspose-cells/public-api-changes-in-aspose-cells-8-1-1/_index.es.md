@@ -31,3 +31,4 @@ Un escenario es un modelo de supuestos que incluye celdas de entrada variables v
 Consulte el artículo detallado sobre [Cómo crear, manipular o eliminar escenarios de hojas de cálculo](/cells/es/net/create-manipulate-or-remove-scenarios-from-worksheets/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -33,3 +33,4 @@ La seguente schermata mostra il file Excel di output generato dal codice di esem
 Il seguente codice di esempio carica il file Excel sorgente come mostrato nella schermata sopra, quindi accede al primo gruppo di sparkline e aggiunge intervalli di dati e posizioni all'interno del gruppo di sparkline. Infine, scrive il file Excel di output su disco che è anche mostrato nella schermata sopra.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopySparkline-CopySparkline.java" >}}
+{{< app/cells/assistant language="java" >}}

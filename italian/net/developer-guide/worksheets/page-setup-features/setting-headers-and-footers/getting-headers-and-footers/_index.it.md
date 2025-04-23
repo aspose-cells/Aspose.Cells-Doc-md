@@ -44,3 +44,4 @@ Aspose.Cells per .Net fornisce il metodo [**Worksheet.PageSetup.GetCommands**](h
 I seguenti codici mostrano come analizzare l'intestazione o il piè di pagina come elenco di comandi e processarli:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Parses-Header-Footer.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

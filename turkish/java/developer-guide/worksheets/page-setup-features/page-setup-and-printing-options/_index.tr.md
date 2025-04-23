@@ -100,3 +100,4 @@ Bu makale, Aspose.Cells kullanarak sayfa kurulumu ve sayfa yazdırma seçenekler
 Aspose.Cells, yılların araştırma, tasarım ve dikkatli ayarlama çalışmalarının bir sonucu olarak faydalanmaktadır. [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9) adresinden sorularınızı, yorumlarınızı ve önerilerinizi içtenlikle bekliyoruz. Hızlı bir yanıt garantisi vermekteyiz.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

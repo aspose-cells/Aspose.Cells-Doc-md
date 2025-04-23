@@ -69,3 +69,4 @@ Herhangi aşağıdaki sosyal kodlama sitelerinden **Elektronik Tabloyu PDF'ye D�
 Daha fazla ayrıntı için [Formül Hesaplama Motoru](/cells/tr/net/formula-calculation-engine/) ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

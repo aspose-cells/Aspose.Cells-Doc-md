@@ -60,3 +60,4 @@ Aspose.Cellsでは、CSVをJSONに変換する機能がサポートされてい�
 ]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

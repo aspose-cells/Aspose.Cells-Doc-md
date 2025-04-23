@@ -24,3 +24,4 @@ Aspose.Cells предоставляет свойство [Shape.ReflectionEffect
 Следующий пример кода загружает [исходный файл Excel](5472529.xlsx) и обращается к первой форме на первом листе и устанавливает под-свойства [Shape.ReflectionEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Reflection) свойства, а затем сохраняет книгу в [выходной файл Excel](5472539.xlsx).
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithReflectionEffect-WorkingWithReflectionEffect.java" >}}
+{{< app/cells/assistant language="java" >}}

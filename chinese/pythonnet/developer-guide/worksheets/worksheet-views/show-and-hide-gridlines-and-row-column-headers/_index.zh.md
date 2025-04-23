@@ -3,13 +3,13 @@ title: 显示和隐藏网格线以及行列标题
 type: docs
 weight: 30
 url: /zh/python-net/show-and-hide-gridlines-and-row-column-headers/
-description: 本文提供了使用 Aspose.Cells for Python via .NET API 以编程方式隐藏或显示 Excel 工作表的网格线、行和列标题的示例代码。
-keywords: Python Excel库，Python显示和隐藏网格线，如何在Python中显示和隐藏行列标题，如何在Python中显示和隐藏网格线和行列标题。
+description: 本文提供使用Aspose.Cells for Python via .NET API以编程方式隐藏或显示Excel工作表的网格线、行列标题的示例代码。
+keywords: Python Excel库，Python显示和隐藏网格线，如何在Python中显示与隐藏行列标题，如何在Python中显示与隐藏网格线及行列标题。
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET支持隐藏和显示工作表上默认可见的网格线。它还提供了控制工作表上行列标题可见性的功能。
+Aspose.Cells for Python via .NET支持隐藏和显示工作表的网格线（默认可见），同时也提供控制工作表中行列标题可见性的方法。
 
 {{% /alert %}}
 
@@ -19,7 +19,7 @@ Aspose.Cells for Python via .NET支持隐藏和显示工作表上默认可见的
 
 ### **控制网格线的可见性**
 
-Aspose.Cells for Python via .NET提供一个表示Microsoft Excel文件的类[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/)。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/)类包含一个[**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets/)集合，允许开发人员访问Excel文件中的每个工作表。工作表由[**Worksheet**](https://reference.aspose.com/cells/python-et/aspose.cells/worksheet/)类表示。[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/)类提供了广泛的属性和方法来管理工作表。要控制网格线的可见性，请使用[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/)类的[**is_gridlines_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_gridlines_visible/)属性。[**is_gridlines_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_gridlines_visible/)是一个布尔属性，意味着它只能存储true或false值。
+Aspose.Cells for Python via .NET 提供一个类，[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/)，代表Microsoft Excel文件。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/)类包含一个[**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets/)集合，允许开发者访问Excel文件中的每个工作表。工作表由[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/)类表示。[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/)类提供丰富的属性和方法，用于管理工作表。若要控制网格线的显示，请使用[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/)类的[**is_gridlines_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_gridlines_visible/)属性。[**is_gridlines_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_gridlines_visible/)是一个布尔属性，意味着它只能存储**真**或**假**值。
 
 #### **使网格线可见**
 
@@ -35,11 +35,11 @@ Aspose.Cells for Python via .NET提供一个表示Microsoft Excel文件的类[**
 
 ## **显示和隐藏行列标题**
 
-Excel文件中的所有工作表都由排列在行和列中的单元格组成。所有行和列都具有用于标识它们和单独单元格的唯一值。例如，行编号为1、2、3、4等，列按字母顺序排列为A、B、C、D等。行和列的值显示在标题中。使用Aspose.Cells for Python via .NET，开发人员认可以控制这些行和列标题的可见性。
+Excel文件中的所有工作表由单元格组成，单元格按行和列排列。所有行和列具有唯一值，用于标识它们以及单个单元格。例如，行编号为1、2、3、4等，列按字母顺序为A、B、C、D等。行和列的值显示在表头。使用Aspose.Cells for Python via .NET，开发者可以控制这些行列表头的可见性。
 
 ### **控制工作表的可见性**
 
-Aspose.Cells for Python via .NET提供一个表示Microsoft Excel文件的类[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/)。[**Workbook**](https://reference.aspose.com/cells/pytho-net/aspose.cells/workbook/)类包含一个[**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets/)集合，允许开发人员访问Excel文件中的每个工作表。工作表由[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/)类表示。[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/)类提供了广泛的属性和方法来管理工作表。要控制行和列标题的可见性，请使用[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/)类的[**is_row_column_headers_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_row_column_headers_visible/)属性。[**is_row_column_headers_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_row_column_headers_visible/)是一个布尔属性，意味着它只能存储true或false值。
+Aspose.Cells for Python via .NET 提供了一个类，[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/)，代表一个 Microsoft Excel 文件。[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/) 类包含一个 [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets/) 集合，允许开发者访问 Excel 文件中的每个工作表。一个工作表由 [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/) 类表示。[**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/) 类提供了管理工作表的各种属性和方法。要控制行和列标题的可见性，使用 [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/) 类的 [**is_row_column_headers_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_row_column_headers_visible/) 属性。[**is_row_column_headers_visible**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_row_column_headers_visible/) 是一个布尔属性，意味着它只能存储 **true** 或 **false** 的值。
 
 #### **使行/列标头可见**
 

@@ -54,3 +54,4 @@ Aspose.Cells提供了一个方法[**Aspose.Cells.Worksheet.MoveTo()**](https://r
 以下示例显示了如何将工作表移动到工作簿内的另一个位置。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-MoveWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

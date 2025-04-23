@@ -16,3 +16,4 @@ url: /ar/net/replace-text-in-smart-art/
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ReplaceTextInSmartArt-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

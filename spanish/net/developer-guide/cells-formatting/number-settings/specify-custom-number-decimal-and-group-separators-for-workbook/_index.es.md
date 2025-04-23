@@ -28,3 +28,4 @@ El siguiente código de ejemplo ilustra cómo especificar los separadores person
 ### Código C# para especificar separadores de decimal y grupo personalizados
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-CustomDecimalAndGroupSeparator-CustomDecimalAndGroupSeparator.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

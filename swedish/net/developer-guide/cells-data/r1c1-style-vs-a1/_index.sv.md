@@ -56,3 +56,4 @@ A1 referensstil:
 R1C1 referensstil:
 <br>
 <image src="3.png" width="70%" />
+{{< app/cells/assistant language="csharp" >}}

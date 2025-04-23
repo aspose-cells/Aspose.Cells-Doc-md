@@ -70,3 +70,4 @@ book.save(dataDir + "AsposeFormulaEngine.xls");
 Daha fazla bilgi için [Formül Hesaplama Motoru](/cells/tr/java/aspose-cells-formula-calculation-engine) sayfasını ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

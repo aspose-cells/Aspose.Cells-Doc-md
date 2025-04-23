@@ -1,48 +1,48 @@
 ---
-title: Gantt çizelgesi nasıl oluşturulur
-linktitle: Gantt çizelgesi nasıl oluşturulur
+title: Gantt grafiği nasıl oluşturulur?
+linktitle: Gantt grafiği nasıl oluşturulur?
 type: docs
 weight: 72
 url: /tr/net/how-to-create-gantt-chart/
-description: Aspose.Cells for .NET API ile bir Gantt çizelgesi nasıl oluşturulur öğrenin.
-keywords: C# ile bir Gantt çizelgesi oluştur, bir Gantt çizelgesi ekle, bir Gantt çizelgesi ekle
+description: API ile Gantt Çizelgesi Oluşturma Hakkında Aspose.Cells for .NET numaralı API ile öğrenin.
+keywords: C# ile Gantt çizelgesi oluşturma, Gantt çizelgesi ekleme, Gantt çizelgesi ekleme
 ---
 
-## **Gantt çizelgesi nedir**
+## **Gantt grafiği nedir?**
 
-Gantt çizelgesi, bir proje takvimini gösteren bir çubuk çizelgesi türüdür. Bir projenin çeşitli unsurlarının başlangıç ve bitiş tarihlerini gösterir. Her görev veya etkinlik bir çubukla temsil edilir ve uzunluğu süresine karşılık gelir. Gantt çizelgeleri ayrıca görevler arasındaki bağımlılıkları da gösterir, bu sayede proje yöneticileri görevlerin tamamlanması gereken sıralamayı görselleştirebilir. Proje yönetiminde etkili bir şekilde planlama, programlama ve takip etmek için yaygın bir şekilde kullanılır.
+Gantt grafiği, bir proje takvimini anlatan bir tür çubuk grafik türüdür. Bir projenin çeşitli unsurlarının başlangıç ve bitiş tarihlerini gösterir. Her görev veya etkinlik, süresine karşılık gelen bir çubukla temsil edilir. Gantt grafikleri ayrıca görevler arasındaki bağımlılıkları gösterir, böylece proje yöneticileri görevlerin tamamlanması gereken sıralamayı görselleştirebilir. Bunlar, proje yönetiminde projeleri etkin şekilde planlamak, zamanlamak ve izlemek için yaygın olarak kullanılır.
 
-## **Excel'de bir Gantt çizelgesi nasıl oluşturulur**
+## **Excel'de Gantt Grafiği Nasıl Oluşturulur?**
 
-Excel'de bir Gantt çizelgesi oluşturabilirsiniz, şu adımları izleyerek:
-1. Gantt şeması için bazı veriler ekleyin. 
+Excel'de Gantt grafiği oluşturmak için aşağıdaki adımları izleyebilirsiniz:
+1. Gantt grafiği için bazı veri ekleyin. 
 <br>
 <img src="00.png" width=50% />
-1. Verileri seçin ve Ekle'ye gidin -> Grafikler -> Sütun veya Çubuk Grafiği Ekle -> Yığılmış Çubuk Grafiği. Örneğimizde, bu B1:B7 ve ardından Yığın Çubuk grafiği ekleme.
+1. Verileri seçin ve Giriş --> Çizelgeler --> Sütun veya Çubuk Grafiği Ekle --> Katlı Çubuk Çizelgesi seçeneğine gidin. Örneğin, B1:B7 hücrelerini seçin ve sonra **Katlı Çubuk** grafiği ekleyin.
 <br>
 <img src="1.png" width=50% />
 
-1. Şeması seçin, **Veri Seçimi**->**Ekle**, **Seri adı** ve **Seri değerlerini** aşağıdaki gibi ayarlayın.
+1. Grafiği seçin,**Veri Ekle**->**Seri Adı** ve **Seri Değerleri** ayarlarını aşağıdaki gibi yapın.
 <br>
 <img src="2.png" width=50% />
 
-1. Şemayı seçin, **Yatay(Kategori) Eksen Etiketleri**'ni düzenleyin.
+1. Grafiği seçin, **Yatay (Kategori) Eksen Etiketleri** düzenleyin.
 <br>
 <img src="3.png" width=50% />
 
-1. Y Eksenini **Biçim** yapın, **Kategorileri ters sırada seç**.
-1. **Mavi Seriyi** seçin ve **Dolgu->Dolgu Yok** ayarlayın.
-1. X Eksenini **Biçim** yapın, **Minimum ve Maksimum** ayarlayın (1/5/2019:43470,1/30/2019:43494).
+1. **Eksen Biçimlendir** seçeneğiyle Y Ekseni, **Kategorileri ters sırada** seçin.
+1. **Mavi Serisi** seçin ve **Doldur->Doldurma Yok** olarak ayarlayın.
+1. X Eksenini **Biçimlendir**, **Minimum ve Maksimum** ayarlarını yapın (1/5/2019:43470, 1/30/2019:43494).
 <br>
 <img src="4.png" width=50% />
 
-1. Şema için **Veri etiketleri ekle**, şimdi bir gantt şeması elde edersiniz.
+1. Grafikte **Veri Etiketleri Ekle**, artık bir gantt grafiği alacaksınız.
 <br>
 <img src="0.png" width=50% />
 
 
-## **Aspose.Cells'te Gantt Şeması Nasıl Eklenir**
-Lütfen aşağıdaki örnek kodu inceleyin. Bazı örnek veriler içeren [örnek Excel dosyasını](sample.xlsx) yükler. Ardından, başlangıç verilerine dayalı olarak yığın çubuk grafiği oluşturur ve ilgili özellikleri ayarlar. Son olarak, çalışma kitabını [çıktı XLSX formatına](result.xlsx) kaydeder. Aşağıdaki ekran görüntüsü, Aspose.Cells tarafından çıktı Excel dosyasında oluşturulan Gantt grafiğini gösterir.
+## **Aspose.Cells'te Gantt Çizelgesi Nasıl Eklenir**
+Lütfen aşağıdaki örnek kodu inceleyin. Bu kod, bazı örnek veriler içeren [örnek Excel dosyasını](sample.xlsx) yükler. Ardından, başlangıç verilerine dayanarak yığılmış çubuk grafiği oluşturur ve ilgili özellikleri belirler. Son olarak, çalışma kitabını [çıkış XLSX formatında](result.xlsx) kaydeder. Aşağıdaki ekran görüntüsü, Aspose.Cells tarafından oluşturulan Gantt çizelgesini gösterir.
 <br>
 <img src="5.png" width=60% />
 
@@ -50,3 +50,4 @@ Lütfen aşağıdaki örnek kodu inceleyin. Bazı örnek veriler içeren [örnek
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-gantt-chart.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

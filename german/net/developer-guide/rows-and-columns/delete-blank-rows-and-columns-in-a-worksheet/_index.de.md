@@ -23,3 +23,4 @@ Verwenden Sie die folgenden Aspose.Cells-Methoden, um leere Zeilen und Spalten z
 ## C#-Code zum Löschen leerer Spalten
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DeleteBlankRowsColumns-DeletingBlankColumns-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

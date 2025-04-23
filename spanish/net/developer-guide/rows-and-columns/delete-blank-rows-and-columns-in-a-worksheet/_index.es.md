@@ -23,3 +23,4 @@ Use los siguientes métodos de Aspose.Cells para eliminar filas y columnas vací
 ## Código C# para eliminar columnas en blanco
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DeleteBlankRowsColumns-DeletingBlankColumns-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

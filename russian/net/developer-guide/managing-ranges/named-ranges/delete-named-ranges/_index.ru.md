@@ -41,3 +41,4 @@ description: Вы можете узнать, как удалить опреде�
 
 
 
+{{< app/cells/assistant language="csharp" >}}

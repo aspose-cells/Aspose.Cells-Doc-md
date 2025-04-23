@@ -11,8 +11,8 @@ Aspose.Cells提供了通过使用[**TickLabels.DirectionType**](https://referenc
 
 - [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
 - [**VERTICAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)
-- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)
-- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_270)
+- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90)
+- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-270)
 - [**STACKED**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#STACKED)
 
 以下图像比较了源文件和输出文件
@@ -25,7 +25,7 @@ Aspose.Cells提供了通过使用[**TickLabels.DirectionType**](https://referenc
 
 ![todo:image_alt_text](change-tick-label-direction_2.jpg)
 
-以下代码片段将刻度标签方向从[**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)更改为[**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
+以下代码片段将刻度标签方向从[**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE-90)更改为[**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
 
 ### **示例代码**
 
@@ -36,3 +36,4 @@ Aspose.Cells提供了通过使用[**TickLabels.DirectionType**](https://referenc
 [源文件](SampleChangeTickLabelDirection.xlsx)
 
 [输出文件](outputChangeChartDataLableDirection.xlsx)
+{{< app/cells/assistant language="java" >}}

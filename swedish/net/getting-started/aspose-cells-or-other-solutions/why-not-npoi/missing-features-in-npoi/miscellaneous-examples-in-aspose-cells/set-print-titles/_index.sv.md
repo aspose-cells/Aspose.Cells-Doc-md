@@ -41,3 +41,4 @@ Ladda ner **Ange utskriftstitlar** från någon av nedan nämnda sociala kodning
 För mer detaljer, besök [Inställning av utskriftsalternativ](/cells/sv/net/setting-print-options/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

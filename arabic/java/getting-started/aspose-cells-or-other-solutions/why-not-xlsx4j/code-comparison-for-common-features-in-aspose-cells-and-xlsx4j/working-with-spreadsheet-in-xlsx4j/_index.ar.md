@@ -13,3 +13,4 @@ url: /ar/java/working-with-spreadsheet-in-xlsx4j/
 - [ضبط ارتفاع الصف والعمود في xlsx4j](/cells/ar/java/row-column-height-adjustment-in-xlsx4j/)
 
 mithil rayate
+{{< app/cells/assistant language="java" >}}

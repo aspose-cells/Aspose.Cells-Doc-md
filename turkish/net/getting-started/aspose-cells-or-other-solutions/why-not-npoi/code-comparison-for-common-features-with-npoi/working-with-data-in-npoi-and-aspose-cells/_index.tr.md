@@ -10,3 +10,4 @@ Bu bölümde şu konular bulunmaktadır:
 - [Hücre İçeriğini Almak](/cells/tr/net/getting-cell-contents/)
 - [Çalışsayfada Kısayol Bağlantıları Ekleme](/cells/tr/net/insert-hyperlinks-in-worksheet/)
 - [Hücrelerde Yeni Satır](/cells/tr/net/new-line-in-cells/)
+{{< app/cells/assistant language="csharp" >}}

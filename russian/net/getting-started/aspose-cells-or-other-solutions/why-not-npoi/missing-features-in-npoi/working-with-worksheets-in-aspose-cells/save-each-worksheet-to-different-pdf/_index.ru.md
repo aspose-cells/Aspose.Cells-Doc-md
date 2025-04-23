@@ -65,3 +65,4 @@ for (int j = 0; j < workbook.Worksheets.Count; j++)
 Дополнительные сведения см. в разделе [Сохранение каждого листа в отдельный PDF-файл](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

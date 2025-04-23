@@ -3,7 +3,7 @@ title: Contar el número de celdas en la hoja de cálculo
 type: docs
 weight: 110
 url: /es/python-net/count-number-of-cells-in-the-worksheet/
-description: En este artículo, aprenderá cómo contar programáticamente el número de celdas en la hoja de Excel utilizando la API de Aspose.Cells for Python via .NET.
+description: En este artículo, aprenderás cómo contar de forma programática el número de celdas en la hoja de Excel usando la API Aspose.Cells para Python via .NET.
 keywords: contar número de celdas de hoja de cálculo de excel c#, celdas de hoja de cálculo de excel c#
 ---
 

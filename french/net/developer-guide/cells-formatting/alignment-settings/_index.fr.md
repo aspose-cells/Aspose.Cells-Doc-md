@@ -123,3 +123,4 @@ L'ordre de lecture est défini avec la propriété [**TextDirection**](https://r
 - [Modifier l'alignement des cellules et conserver la mise en forme existante](/cells/fr/net/change-cells-alignment-and-keep-existing-formatting/)
 - [Sauts de ligne et retour à la ligne](/cells/fr/net/line-breaks-and-text-wrapping/)
 
+{{< app/cells/assistant language="csharp" >}}

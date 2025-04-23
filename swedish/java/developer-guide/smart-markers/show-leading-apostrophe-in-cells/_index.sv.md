@@ -26,3 +26,4 @@ Följande kodsnutt demonstrerar detta genom att lägga till data med Smart Marke
 Implementeringen av klassen *DataObject* ges nedan
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HelperClasses-DataObject-1.java" >}}
+{{< app/cells/assistant language="java" >}}

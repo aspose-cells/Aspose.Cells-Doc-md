@@ -17,3 +17,4 @@ Hay dos consejos que deben seguir los usuarios no ingleses al crear fórmulas co
    Para algunas opciones o configuraciones de idioma, el delimitador para los parámetros de función es un punto y coma, pero Aspose.Cells usa la coma inglesa. Por ejemplo, use "=IF (C5=0,0,C3/C4)" no "=IF(C5=0;0;C3/C4)" 
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

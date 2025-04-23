@@ -69,3 +69,4 @@ for (int j = 0; j < workbook.getWorksheets().getCount(); j++)
 لمزيد من التفاصيل، قم بزيارة [حفظ كل ورقة عمل في ملف PDF مختلف](/cells/ar/java/save-each-worksheet-to-a-different-pdf-file).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

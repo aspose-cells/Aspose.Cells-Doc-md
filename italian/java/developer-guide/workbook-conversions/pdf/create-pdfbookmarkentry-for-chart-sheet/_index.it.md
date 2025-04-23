@@ -25,3 +25,4 @@ Lo screenshot seguente mostra il [PDF di output](61767771.pdf) generato dal codi
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Rendering-CreatePdfBookmarkEntryForChartSheet.java" >}}
+{{< app/cells/assistant language="java" >}}

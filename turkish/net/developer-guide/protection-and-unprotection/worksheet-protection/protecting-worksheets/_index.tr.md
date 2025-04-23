@@ -104,3 +104,4 @@ Aşağıdaki örnek, çalışma sayfasındaki bir sütunu nasıl koruyacağını
 Aşağıdaki örnek, korunan bir çalışma sayfasında kullanıcılara bir aralığı düzenleme izni vermenin nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-EditRangesWorksheet-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

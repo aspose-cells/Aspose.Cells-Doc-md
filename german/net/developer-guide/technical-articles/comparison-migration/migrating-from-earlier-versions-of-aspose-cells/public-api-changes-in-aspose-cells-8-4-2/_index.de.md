@@ -158,3 +158,4 @@ workbook.Save(output);
 Ab der Veröffentlichung von Aspose.Cells for .NET 8.4.2 verhält sich das Enumerationsfeld PasteType.All im Vergleich zur "Alle"-Funktion von Excel zum Einfügen von Zellenbereichen anders. Jetzt kopiert PasteType.All auch die Spaltenbreiten auf den Zielbereich, im Gegensatz zur "Alle"-Funktion von Excel. Um das Verhalten von Excel "Alle" nachzuahmen, verwenden Sie bitte das PasteType.Default.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

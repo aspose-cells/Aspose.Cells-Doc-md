@@ -55,3 +55,4 @@ L'exemple suivant montre comment diviser les cellules fusionnées (C6). L'exempl
 
 ## **Sujets avancés**
 - [Détecter les cellules fusionnées dans une feuille de calcul](/cells/fr/net/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

@@ -22,3 +22,4 @@ url: /ru/net/adjust-workbook-compression-level/
 В следующем фрагменте кода демонстрируется использование перечисления [**OoxmlCompressionType**](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype) и сравнение времени преобразования для уровней 1, 6 и 9. Также можно сравнить размеры созданных файлов.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AdjustCompressionLevel-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

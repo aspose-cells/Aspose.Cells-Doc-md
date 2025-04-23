@@ -77,3 +77,4 @@ sheet.addMergedRegion(new CellRangeAddress(
 Для получения дополнительной информации посетите [Объединение и разъединение (разбиение) ячеек](/cells/ru/java/merging-and-unmerging-cells).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

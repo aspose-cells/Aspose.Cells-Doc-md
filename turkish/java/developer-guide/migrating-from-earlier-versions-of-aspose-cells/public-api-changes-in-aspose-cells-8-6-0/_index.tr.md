@@ -117,3 +117,4 @@ workbook.save("output.xlsm");
 {{< /highlight >}}
 ### **OoxmlSaveOptions.UpdateZoom Özelliği Eklendi**
 V8.6.0 sürümüyle beraber, Aspose.Cells for Java API'sı OoxmlSaveOptions.UpdateZoom özelliğini ortaya çıkarmıştır; bu özellik, SayfaDüzeni.Zoom'u güncellemek için kullanılabilir eğer SayfaDüzeni.FitToPagesWide ve/veya SayfaDüzeni.FitToPagesTall özellikleri, Çalışsayfa ölçeklendirmesini kontrol etmek üzere kullanılmışsa.
+{{< app/cells/assistant language="java" >}}

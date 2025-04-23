@@ -40,3 +40,4 @@ url: /ja/net/smart-markers-feature-in-aspose-cells/
 - [Aspose.Cellsでの画像マーカー](/cells/ja/net/image-markers-in-aspose-cells/)
 - [Aspose.Cellsでの匿名型またはカスタムオブジェクトの使用](/cells/ja/net/using-anonymous-types-or-custom-objects-in-aspose-cells/)
 - [Aspose.Cellsでのネストされたオブジェクトの使用](/cells/ja/net/using-nested-objects-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

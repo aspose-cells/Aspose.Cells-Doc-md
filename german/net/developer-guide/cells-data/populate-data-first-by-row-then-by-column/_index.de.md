@@ -18,3 +18,4 @@ Das Einsetzen von Daten in die Folge A1, B1, A2, B2 ist schneller als A1, A2, B1
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-PopulateDataEfficiently-PopulateDataFirstByRowThenColumns.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -84,3 +84,4 @@ A continuación se muestra la comparación de código para aplicar estilo a fila
 {{< /highlight >}}
 ## **Descargar**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/ApplyStylesToRanges.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

@@ -19,3 +19,4 @@ url: /zh/java/add-watermark-to-pdf/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-AddImageWatermarkToPdf.java" >}}
 
+{{< app/cells/assistant language="java" >}}

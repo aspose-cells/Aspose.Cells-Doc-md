@@ -21,3 +21,4 @@ I valori possibili per questo elemento sono definiti dal tipo di dato booleano d
 Il seguente codice di esempio imposta le proprietà di documento incorporate estese [ScaleCrop](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#ScaleCrop) e [LinksUpToDate](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#LinksUpToDate) del workbook. Si prega di controllare il [file Excel di output](5472494.xlsx) generato con questo codice, cambiare la sua estensione in .zip ed estrarre i contenuti e visualizzare il file aap.xml come mostrato nello screenshot sopra.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingScaleCropLinksUpToDate-SettingScaleCropLinksUpToDate.java" >}}
+{{< app/cells/assistant language="java" >}}

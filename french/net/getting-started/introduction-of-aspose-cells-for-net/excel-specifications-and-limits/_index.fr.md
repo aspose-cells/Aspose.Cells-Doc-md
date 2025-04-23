@@ -191,3 +191,4 @@ Si le paramètre Autoriser les modifications par plus d'un utilisateur... est ac
 |Cellules pouvant être mises en surbrillance|32 767
 |Couleurs utilisées pour identifier les modifications apportées par différents utilisateurs lorsque la mise en surbrillance des modifications est activée|32 (chaque utilisateur est identifié par une couleur distincte ; les modifications apportées par l'utilisateur actuel sont mises en surbrillance en bleu marine)
 |Tableaux Excel dans le classeur|0 (zéro) Remarque : Un classeur contenant un ou plusieurs tableaux Excel ne peut pas avoir le paramètre Autoriser les modifications par plus d'un utilisateur... activé.
+{{< app/cells/assistant language="csharp" >}}

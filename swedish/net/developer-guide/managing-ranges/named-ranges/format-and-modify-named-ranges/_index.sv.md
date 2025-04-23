@@ -60,3 +60,4 @@ Aspose.Cells tillhandahåller [**Range.Merge()**](https://reference.aspose.com/c
 Aspose.Cells tillhandahåller [**NameCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/namecollection/methods/removeat)-metoden för att radera namnet på området. Använd [**Cells.ClearRange()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/clearrange/index)-metoden för att rensa innehållet i området. Fö...
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-RemoveANamedRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

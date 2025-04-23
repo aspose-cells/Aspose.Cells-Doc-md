@@ -22,3 +22,4 @@ url: /ar/net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
 إذا كان جدول البيانات يحتوي على صيغ، فمن الأفضل استدعاء [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) قبل عرضه إلى صيغة PDF. القيام بذلك يضمن إعادة حساب القيم التي تعتمد على الصيغ، وتقديم القيم الصحيحة في ملف الإخراج.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

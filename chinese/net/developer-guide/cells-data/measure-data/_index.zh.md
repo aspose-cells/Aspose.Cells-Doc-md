@@ -22,3 +22,4 @@ keywords: 测量单元格值的宽度（像素单位），测量单元格值的�
 
 ## **高级主题**
 - [获取单元值的文本宽度](/cells/zh/net/get-text-width-of-cell-value/)
+{{< app/cells/assistant language="csharp" >}}

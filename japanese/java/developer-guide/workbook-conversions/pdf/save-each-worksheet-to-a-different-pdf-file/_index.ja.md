@@ -20,3 +20,4 @@ Aspose.Cellsは、（画像、グラフなどを含む）スプレッドシー�
 スプレッドシートに数式が含まれている場合は、スプレッドシートをPDF形式にレンダリングする直前に[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--)メソッドを呼び出すことが最善です。これにより、数式に依存する値が再計算され、PDFに正しい値がレンダリングされます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

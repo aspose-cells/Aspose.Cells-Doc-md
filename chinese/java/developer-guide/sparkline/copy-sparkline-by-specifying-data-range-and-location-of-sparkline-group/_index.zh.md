@@ -33,3 +33,4 @@ Aspose.Cells提供[**SparklineCollection.add(dataRange, row, column)**](https://
 以下示例代码加载了如上面屏幕截图所示的源Excel文件，然后访问第一个Sparkline组，并在Sparkline组内添加数据范围和位置。最后，将输出Excel文件写入磁盘，也如上面的屏幕截图所示。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopySparkline-CopySparkline.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -10,3 +10,4 @@ url: /ja/net/supported-font-formats/
 TrueTypeフォント||**TTF**|
 TrueTypeコレクション||**TTC**|
 OpenTypeフォント||**OTF**|
+{{< app/cells/assistant language="csharp" >}}

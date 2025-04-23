@@ -62,3 +62,4 @@ För att avgruppera eventuellt grupperade rader eller kolumner, anropa  [**Ungro
 [**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) har en överbelastning som tar en boolesk tredje parameter. Om den ställs in på **true** tar den bort all grupperad information. Annars tas endast yttre gruppinformation bort.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-UngroupingRowsAndColumns-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

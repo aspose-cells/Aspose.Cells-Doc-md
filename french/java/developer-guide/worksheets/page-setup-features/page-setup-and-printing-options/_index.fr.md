@@ -100,3 +100,4 @@ Cet article montre comment définir la mise en page et les options d'impression 
 Aspose.Cells bénéficie de nombreuses années de recherche, de conception et d'optimisation minutieuse. Nous accueillons chaleureusement vos questions, commentaires et suggestions sur le [Forum Aspose.Cells](https://forum.aspose.com/c/cells/9). Nous garantissons une réponse rapide.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

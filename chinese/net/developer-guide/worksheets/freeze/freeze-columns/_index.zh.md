@@ -42,3 +42,4 @@ keywords: 冻结左侧列，冻结第一列，锁定列
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Column.cs" >}}
 
 附上[示例源Excel文件](Freeze.xlsx)。
+{{< app/cells/assistant language="csharp" >}}

@@ -62,7 +62,7 @@ Per ordinare *da sinistra a destra*, utilizza l'attributo [**DataSorter.SortLeft
 
 ## **Ordinamento dati con il colore di sfondo**
 
-Excel fornisce la funzionalità per ordinare i dati in base al colore di sfondo. La stessa funzionalità è fornita utilizzando Aspose.Cells utilizzando [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) dove [**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL_COLOR) può essere utilizzato in [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int)) per ordinare i dati in base al colore di sfondo. Tutte le celle che contengono il colore specificato nella [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int)), funzione vengono posizionate in cima o in fondo in base all'impostazione dell'Ordine di ordinamento e l'ordine delle restanti celle non viene affatto modificato.
+Excel fornisce la funzionalità per ordinare i dati in base al colore di sfondo. La stessa funzionalità è fornita utilizzando Aspose.Cells utilizzando [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) dove [**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL-COLOR) può essere utilizzato in [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-) per ordinare i dati in base al colore di sfondo. Tutte le celle che contengono il colore specificato nella [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-), funzione vengono posizionate in cima o in fondo in base all'impostazione dell'Ordine di ordinamento e l'ordine delle restanti celle non viene affatto modificato.
 
 Di seguito sono riportati i file di esempio che possono essere scaricati per testare questa funzionalità:
 
@@ -78,3 +78,4 @@ Di seguito sono riportati i file di esempio che possono essere scaricati per tes
 - [Ordina dati nella colonna con elenco di ordinamenti personalizzati](/cells/it/java/sort-data-in-column-with-custom-sort-list/)
 - [Specifica dell'avviso di ordinamento durante l'ordinamento dei dati](/cells/it/java/specifying-sort-warning-while-sorting-data/)
 
+{{< app/cells/assistant language="java" >}}

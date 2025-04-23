@@ -135,3 +135,4 @@ Chaque objet FeuilleDeCalcul contient un objet CollectionGroupeMinigraphiques qu
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_15.png)|
 Un objet GroupeMinigraphique représente un groupe de minigraphiques dans la feuille de calcul. Les développeurs peuvent définir le style du groupe de minigraphiques et d'autres propriétés connexes à l'aide de l'objet GroupeMinigraphique.
+{{< app/cells/assistant language="java" >}}

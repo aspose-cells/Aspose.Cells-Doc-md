@@ -18,3 +18,4 @@ Aspose.Cells tillhandahåller en [**DataLabels.IsTextWrapped**](https://referenc
 Nedanstående kodexempel visar hur du inaktiverar textvaggning för dataetiketterna i diagrammet.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-DisableTextWrappingForDataLabels-DisableTextWrappingForDataLabels.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

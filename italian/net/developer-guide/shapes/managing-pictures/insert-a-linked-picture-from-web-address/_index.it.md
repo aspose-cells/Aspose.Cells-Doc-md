@@ -25,3 +25,4 @@ Aspose.Cells for .NET supporta l'aggiunta di un'immagine collegata utilizzando i
 Nell'esempio seguente viene mostrato come aggiungere un'immagine collegata da un indirizzo web a un foglio di lavoro.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertLinkedPicture-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

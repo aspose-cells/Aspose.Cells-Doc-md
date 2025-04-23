@@ -21,3 +21,4 @@ url: /zh/java/find-out-if-vba-project-is-protected/
 IsProtected - After Protecting VBA Project: true
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

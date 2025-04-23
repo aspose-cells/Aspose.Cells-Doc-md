@@ -23,3 +23,4 @@ Aspose.Cells APIs 允许使用线图表创建瀑布图表。API 还允许自定�
 
 - [创建图表](/cells/zh/net/creating-charts/)
 - [自定义图表](/cells/zh/net/customizing-charts/)
+{{< app/cells/assistant language="csharp" >}}

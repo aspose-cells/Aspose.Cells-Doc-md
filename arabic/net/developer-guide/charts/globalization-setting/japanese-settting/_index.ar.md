@@ -51,3 +51,4 @@ alias: [/net/set-japanese-configuration-for-chart/]
 | اسم المجموع الأسطوري | すべての | مجموع |
 | اسم آخر | その他 | آخر |
 | اسم السلسلة | シリーズ | السلسلة |
+{{< app/cells/assistant language="csharp" >}}

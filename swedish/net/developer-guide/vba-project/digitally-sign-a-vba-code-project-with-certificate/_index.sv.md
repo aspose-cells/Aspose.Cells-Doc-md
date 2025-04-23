@@ -25,3 +25,4 @@ Följande exempelkod illustrerar hur man använder [**Workbook.VbaProject.Sign()
 - [Utdatat Excel-fil](5115029.xlsm) genererad av exempelkoden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-DigitallySignVbaProjectWithCertificate-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

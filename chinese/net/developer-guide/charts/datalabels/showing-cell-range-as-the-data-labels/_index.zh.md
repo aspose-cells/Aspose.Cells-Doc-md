@@ -24,3 +24,4 @@ url: /zh/net/showing-cell-range-as-the-data-labels/
 下面的示例代码访问图表系列数据标签，并将 [**DataLabels.ShowCellRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/showcellrange) 属性设置为 **true** 以选择 **标签包含 - 来自单元格的值** 选项。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ShowCellRangeAsDataLabels-ShowCellRangeAsDataLabels.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

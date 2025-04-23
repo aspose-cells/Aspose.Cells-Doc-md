@@ -3,8 +3,8 @@ title: Viste del foglio di lavoro
 type: docs
 weight: 40
 url: /it/python-net/worksheet-views/
-description: Questo articolo descriverà come utilizzare l API Aspose.Cells for Python via .NET per interagire con l anteprima della visualizzazione di pagina di un workbook Excel e dei fogli di lavoro. Lavora con riquadri divisi, riquadri bloccati e fattore di zoom. 
-keywords: Libreria Excel di Python, Come impostare l anteprima della visualizzazione di pagina, Come abilitare la visualizzazione normale, Come impostare il fattore di zoom, Come bloccare i riquadri, Come dividere i riquadri, Come rimuovere i riquadri.
+description: Questo articolo descriverà come usare le API di Aspose.Cells for Python via .NET per interagire in modalità anteprima interruzione di pagina di un file e fogli di lavoro Excel. È possibile lavorare con riquadri divisi, riquadri congelati e fattore di zoom. 
+keywords: Libreria Excel Python, Python come impostare la visualizzazione Interruzione di pagina, Python come abilitare la visualizzazione Normale, Python come impostare il Fattore di zoom, Python come bloccare i riquadri, Python come dividere i riquadri, Python come rimuovere i riquadri.
 ---
 
 ## **Anteprima interruzioni di pagina**
@@ -14,11 +14,11 @@ Tutti i fogli di lavoro possono essere visualizzati in due modalità:
 - Visualizzazione normale.
 - Anteprima interruzioni di pagina.
 
-La vista normale è la visualizzazione predefinita di un foglio di lavoro. Anteprima interruzioni di pagina è una visualizzazione di modifica che visualizza un foglio di lavoro come verrà stampato. L'anteprima interruzioni di pagina mostra quali dati andranno su ciascuna pagina in modo da poter regolare l'area di stampa e le interruzioni di pagina. Utilizzando Aspose.Cells per Python via .NET gli sviluppatori possono abilitare le modalità di visualizzazione normale o anteprima interruzioni di pagina.
+La visualizzazione normale è la visualizzazione predefinita di un foglio di lavoro. La visualizzazione anteprima interruzione di pagina è una modalità di modifica che mostra un foglio di lavoro come verrà stampato. La visualizzazione anteprima interruzione di pagina mostra quali dati andranno in ogni pagina, permettendo di regolare l’area di stampa e le interruzioni di pagina. Con Aspose.Cells for Python via .NET gli sviluppatori possono abilitare le modalità di visualizzazione normale o anteprima interruzione di pagina.
 
 ### **Controllo delle modalità di visualizzazione**
 
-Aspose.Cells per Python via .NET fornisce una classe che rappresenta un file Microsoft Excel. La classe contiene una raccolta che consente l'accesso a ciascun foglio di lavoro in un file Excel.
+Aspose.Cells for Python via .NET fornisce una classe [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) che rappresenta un file Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) contiene una collezione [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets) che consente l’accesso a ogni foglio di lavoro di un file Excel.
 
 Un foglio di lavoro è rappresentato dalla classe [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet). La classe [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) fornisce una vasta gamma di proprietà e metodi per la gestione dei fogli di lavoro. Per abilitare le modalità di visualizzazione normale o anteprima del salto di pagina, usare la proprietà [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) della classe [**is_page_break_preview**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_page_break_preview). [**is_page_break_preview**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/is_page_break_preview) è una proprietà booleana, il che significa che può solo memorizzare un valore **true** o **false**.
 
@@ -69,10 +69,10 @@ Aspose.Cells fornisce una classe [**Workbook**](https://reference.aspose.com/cel
 
 Un foglio di lavoro è rappresentato dalla classe [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet). La classe [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) fornisce una vasta gamma di proprietà e metodi per la gestione dei fogli di lavoro. Per configurare i blocchi riquadri, chiamare il metodo [**freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#int-int-int-int) della classe Foglio di lavoro. Il metodo [**freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#int-int-int-int) accetta i seguenti parametri:
 
-- **riga**, l'indice di riga della cella da cui inizierà il blocco.
-- **colonna**, l'indice di colonna della cella da cui inizierà il blocco.
-- **righe_fisse**, il numero di righe visibili nel riquadro superiore.
-- **colonne_fisse**, il numero di colonne visibili nel riquadro sinistro
+- **riga**, l’indice della riga da cui inizierà il blocco.
+- **colonna**, l’indice della colonna da cui inizierà il blocco.
+- **righe_fisse**, il numero di righe visibili nella parte superiore.
+- **colonne_fisse**, il numero di colonne visibili nel riquadro a sinistra.
 
 Il file book1.xls viene aperto chiamando il costruttore della classe [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) durante listanziazione e alcune righe e colonne vengono bloccate nel primo foglio di lavoro. Il file modificato viene salvato come output.xls.
 

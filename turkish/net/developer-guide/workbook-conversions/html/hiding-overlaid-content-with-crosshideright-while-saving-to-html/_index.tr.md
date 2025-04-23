@@ -18,3 +18,4 @@ Aşağıdaki örnek kod, [örnek Excel dosyasını](64716894.xlsx) yükler ve [*
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-HidingOverlaidContentWithCrossHideRightWhileSavingToHtml.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

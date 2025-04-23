@@ -25,3 +25,4 @@ Efter att koden har körts anpassar Aspose.Cells automatiskt raderna för samman
 
 - [Anpassa rader och kolumner](/cells/sv/java/autofit-rows-and-columns/)
 - [Justera radhöjd och kolumnbredd](/cells/sv/java/adjusting-row-height-and-column-width/)
+{{< app/cells/assistant language="java" >}}

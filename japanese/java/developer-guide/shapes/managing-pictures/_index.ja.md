@@ -13,7 +13,7 @@ Aspose.Cellsを使用すると、開発者は実行時にスプレッドシー�
 
 スプレッドシートに画像を追加するのは非常に簡単です。わずかなコード行しか必要ありません。
 
-単に[**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection)オブジェクトでカプセル化された[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)コレクションの[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String))メソッドを呼び出します。[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String))メソッドは以下のパラメータを取ります:
+単に[**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection)オブジェクトでカプセル化された[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)コレクションの[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add-int-int-java.lang.String-)メソッドを呼び出します。[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add-int-int-java.lang.String-)メソッドは以下のパラメータを取ります:
 
 - **左上の行インデックス**、左上の行のインデックス。
 - **左上の列インデックス**、左上の列のインデックス。
@@ -37,3 +37,4 @@ Aspose.Cellsを使用して画像を以下のように位置付けることが�
 - [Webアドレスからリンクされた画像の挿入](/cells/ja/java/insert-a-linked-picture-from-web-address/)
 - [セル参照に基づいて画像を挿入](/cells/ja/java/insert-a-picture-based-on-cell-reference/)
 - [URLからWeb画像をExcelワークシートに挿入](/cells/ja/java/insert-web-image-from-a-url-into-an-excel-worksheet/)
+{{< app/cells/assistant language="java" >}}

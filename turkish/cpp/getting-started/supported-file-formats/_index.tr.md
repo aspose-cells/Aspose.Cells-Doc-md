@@ -23,9 +23,10 @@ url: /tr/cpp/supported-file-formats/
 |[MHTML](https://docs.fileformat.com/web/mhtml/)|MHTML dosyası.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)|ODS (Açık Belge Eşlemi) elektronik tablosu.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |SpreadsheetML|Excel 2003 XML dosyası.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Numbers](https://docs.fileformat.com/spreadsheet/numbers/)|Belge, Apple'ın "Numbers" uygulaması tarafından oluşturulmuştur ve Apple'ın Mac OS X ve iOS işletim sistemlerinde çalışan uygulamalar seti olan iWork ofis paketinin bir parçasını oluşturur.|{{< emoticons/tick >}}||
+|[Numbers](https://docs.fileformat.com/spreadsheet/numbers/)| Apple'ın Mac OS X ve iOS işletim sistemlerinde çalışan iWork paketinin bir parçası olan "Numbers" uygulamasıyla oluşturulmuş bir belgedir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[JSON](https://docs.fileformat.com/web/json/)|JavaScript Nesne Notasyonu|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[DIF](https://docs.fileformat.com/spreadsheet/dif/)|Veri Değişim Formatı.| |{{< emoticons/tick >}}|
+|[DIF](https://docs.fileformat.com/spreadsheet/dif/)| Veri Değişim Formatı.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[DBF](https://docs.fileformat.com/database/dbf/)|.dbf uzantılı dosya, dBASE adlı bir veritabanı yönetim sistemi uygulaması tarafından kullanılan bir veritabanı dosyasıdır.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[PDF](https://docs.fileformat.com/pdf/)|Adobe Taşınabilir Belge Biçimi.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XML Kağıdı Belirleme Biçimi.| |{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|Ölçeklenebilir Vektör Grafik Biçimi.| |{{< emoticons/tick >}}|
@@ -45,4 +46,4 @@ url: /tr/cpp/supported-file-formats/
 |[Epub](https://docs.fileformat.com/ebook/epub/)|.epub uzantılı dosyalar, yayıncılar ve tüketiciler için standart bir dijital yayın biçimi sağlayan bir e-kitap dosya biçimidir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Xml](https://docs.fileformat.com/web/xml/)|XML, HTML'ye benzer ancak nesneleri tanımlamak için etiketler kullanan Genişletilebilir İşaretleme Dili anlamına gelir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Open Document Template Sheet (OTS) dosya.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW, Amazon'un Kindle cihazları için geliştirdiği dijital bir e-kitap dosya formatıdır. AZW3 aynı zamanda Kindle Format 8 (KF8) olarak da bilinir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW, Amazon tarafından Kindle cihazları için geliştirilmiş dijital kitap dosya biçimidir. AZW3, aynı zamanda Kindle Format 8 (KF8) olarak da bilinir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

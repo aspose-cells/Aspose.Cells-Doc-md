@@ -18,3 +18,4 @@ Aşağıdaki örnek kod bir çalışma kitabı oluşturur ve kullanılmayan adla
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-ExcludeUnusedStylesInExcelToHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -14,3 +14,4 @@ El siguiente código de ejemplo crea una tabla u objeto de lista de tal manera q
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PropagateFormulaInTable-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

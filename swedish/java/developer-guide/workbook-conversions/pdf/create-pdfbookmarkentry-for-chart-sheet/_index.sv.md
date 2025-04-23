@@ -25,3 +25,4 @@ Följande skärmbild visar [utdata-PDF](61767771.pdf) genererad av exempelkode
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Rendering-CreatePdfBookmarkEntryForChartSheet.java" >}}
+{{< app/cells/assistant language="java" >}}

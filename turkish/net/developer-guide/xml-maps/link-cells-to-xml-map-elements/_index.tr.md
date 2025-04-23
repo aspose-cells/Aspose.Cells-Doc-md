@@ -16,3 +16,4 @@ Aşağıdaki örnek kod, XML Haritası içeren [kaynak excel dosyasını](511547
 [Çıktı excel dosyasını](5115467.xlsx) açarsanız ve Geliştirici > Kaynak düğmesine tıklarsanız, hücrelerin XML Haritası öğelerine bağlandığını ve bunların Microsoft Excel tarafından aşağıdaki gibi vurgulandığını göreceksiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LinkCellsToXmlMapElements-LinkCellsToXmlMapElements.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

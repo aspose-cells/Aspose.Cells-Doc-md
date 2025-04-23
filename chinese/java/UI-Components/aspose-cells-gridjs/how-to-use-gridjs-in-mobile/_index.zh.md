@@ -13,13 +13,13 @@ aliases:
 
 您可以在移动设备上顺畅使用GridJs。 
 
-GridJs 客户端 js 可以适应手机屏幕。
+GridJs 客户端 js 可以适应移动屏幕。
 
-运行 [GridJs 演示](https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs "GridJs 演示")
+运行 [GridJs 示例](https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs "GridJs 示例")
 
-演示项目的默认端口是 8080。 
+默认示例项目的端口为 8080。 
 
-在您的移动设备上打开浏览器，并输入网址 http://yourip:8080/gridjsdemo/index 。 
+在您的移动设备上打开浏览器，输入网址 http://yourip:8080/gridjsdemo/index 。 
 
 ![代办事项：移动设备上的屏幕导航](gridjs_edit_on_mobile.png)
 

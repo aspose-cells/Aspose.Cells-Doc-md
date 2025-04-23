@@ -80,13 +80,13 @@ Wie wir zu Beginn dieses Themas bereits beschrieben haben, können Entwickler in
 
 ### **Hinzufügen von benutzerdefinierten Eigenschaften**
 
-Aspose.Cells APIs haben die Methode [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean)) für die Klasse [**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection) freigegeben, um benutzerdefinierte Eigenschaften in die Sammlung hinzuzufügen. Die Methode [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean)) fügt die Eigenschaft der Excel-Datei hinzu und gibt eine Referenz auf die neue Dokumenteigenschaft als [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty) Objekt zurück.
+Aspose.Cells APIs haben die Methode [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add-java.lang.String-boolean-) für die Klasse [**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection) freigegeben, um benutzerdefinierte Eigenschaften in die Sammlung hinzuzufügen. Die Methode [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add-java.lang.String-boolean-) fügt die Eigenschaft der Excel-Datei hinzu und gibt eine Referenz auf die neue Dokumenteigenschaft als [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty) Objekt zurück.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AddingCustomProperty.java" >}}
 
 ### **Konfigurieren der benutzerdefinierten Eigenschaft 'Verknüpfen mit Inhalt'**
 
-Um eine benutzerdefinierte Eigenschaft zu erstellen, die mit dem Inhalt eines bestimmten Bereichs verknüpft ist, rufen Sie die Methode [**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String)) auf und übergeben den Eigenschaftsnamen und die Quelle. Sie können über die Eigenschaft [**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent) überprüfen, ob eine Eigenschaft als mit dem Inhalt verknüpft konfiguriert ist. Außerdem ist es auch möglich, den Quellbereich unter Verwendung der Eigenschaft [**Source**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) der Klasse [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty) zu erhalten.
+Um eine benutzerdefinierte Eigenschaft zu erstellen, die mit dem Inhalt eines bestimmten Bereichs verknüpft ist, rufen Sie die Methode [**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent-java.lang.String-java.lang.String-) auf und übergeben den Eigenschaftsnamen und die Quelle. Sie können über die Eigenschaft [**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent) überprüfen, ob eine Eigenschaft als mit dem Inhalt verknüpft konfiguriert ist. Außerdem ist es auch möglich, den Quellbereich unter Verwendung der Eigenschaft [**Source**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) der Klasse [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty) zu erhalten.
 
 Im Beispiel verwenden wir eine einfache Vorlage einer Microsoft Excel-Datei. Die Arbeitsmappe hat einen definierten benannten Bereich namens **MeinBereich**, der sich auf einen Zellenwert bezieht.
 
@@ -94,6 +94,7 @@ Im Beispiel verwenden wir eine einfache Vorlage einer Microsoft Excel-Datei. Die
 
 ### **Entfernen von benutzerdefinierten Eigenschaften**
 
-Um benutzerdefinierte Eigenschaften mit Aspose.Cells zu entfernen, rufen Sie die Methode [**DocumentPropertyCollection.remove**](https://reference.aspose.com/cells/java/com.aspose.cells/documentpropertycollection#remove(java.lang.String)) auf und übergeben den Namen der zu entfernenden Dokumenteigenschaft.
+Um benutzerdefinierte Eigenschaften mit Aspose.Cells zu entfernen, rufen Sie die Methode [**DocumentPropertyCollection.remove**](https://reference.aspose.com/cells/java/com.aspose.cells/documentpropertycollection#remove-java.lang.String-) auf und übergeben den Namen der zu entfernenden Dokumenteigenschaft.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-RemovingCustomProperty.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -15,3 +15,4 @@ Aspose.Cells позволяет не только импортировать д�
 
 - [Столбцы, содержащие нестрого типизированные данные](/cells/ru/net/columns-containing-non-strongly-typed-data/)
 - [Столбцы, содержащие строго типизированные данные](/cells/ru/net/columns-containing-strongly-typed-data/)
+{{< app/cells/assistant language="csharp" >}}

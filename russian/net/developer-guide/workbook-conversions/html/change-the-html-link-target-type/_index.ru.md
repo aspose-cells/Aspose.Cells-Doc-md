@@ -27,3 +27,4 @@ Aspose.Cells позволяет вам изменять тип целевой с
 Приведенный ниже код иллюстрирует использование свойства [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype). Он изменяет тип целевой ссылки на **blank**. По умолчанию это **parent**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeHtmlLinkTarget-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

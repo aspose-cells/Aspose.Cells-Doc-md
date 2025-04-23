@@ -77,3 +77,4 @@ Aşağıda belirtilen sosyal kodlama sitelerinden herhangi birinden **Hücrelerd
 Daha fazla ayrıntı için [Satır Kesmeleri ve Metin Çevirme](/cells/tr/net/line-breaks-and-text-wrapping/) adresini ziyaret edin.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

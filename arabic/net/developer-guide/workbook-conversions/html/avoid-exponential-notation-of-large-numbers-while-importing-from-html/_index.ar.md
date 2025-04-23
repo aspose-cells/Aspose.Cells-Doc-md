@@ -14,3 +14,4 @@ url: /ar/net/avoid-exponential-notation-of-large-numbers-while-importing-from/
 الشفرة العينية التالية توضح استخدام ال [**HTMLLoadOptions.KeepPrecision**](https://reference.aspose.com/cells/net/aspose.cells/abstracttextloadoptions/properties/keepprecision). ستقوم الواجهة بإستيراد الرقم كما هو دون تحويله إلى علامة علمية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AvoidExponentialNotationWhileImportingFromHtml-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -47,9 +47,9 @@ Aspose.Cells ayrıca geliştiricilere çalışsayfanın yakınlaştırma faktör
 ### **Yakınlaştırma Faktörünü Kontrol Etme**
 Aspose.Cells, bir Microsoft Excel dosyasını temsil eden [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfını sağlar. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı, bir Excel dosyasındaki her çalışsayfaya erişim sağlayan bir [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) içerir.
 
-Bir çalışsayfa, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı tarafından temsil edilir. [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı, çalışsayfaları yönetmek için çeşitli özellikler ve yöntemler sağlar. Bir çalışsayfanın yakınlaştırma faktörünü ayarlamak için [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfının [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) yöntemini kullanın.
+Bir çalışma sayfası, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı ile temsil edilir. [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı, çalışma sayfalarını yönetmek için geniş bir özellik ve yöntem yelpazesi sağlar. Bir çalışma sayfasının yakınlaştırma faktörünü ayarlamak için, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfının [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) yöntemini kullanın.
 
-Aşağıda, bir Excel dosyasındaki ilk çalışsayfanın yakınlaştırma faktörünü ayarlamak için [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) yöntemini nasıl kullanacağınızı gösteren komple bir örnek verilmiştir.
+Aşağıda, Excel dosyasının ilk çalışma sayfasının yakınlaştırma oranını ayarlamak için [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) yönteminin nasıl kullanılacağını gösteren tam bir örnek verilmiştir.
 
 Aşağıdaki ekran görüntüsünde Book1.xls dosyasının varsayılan görünümde olduğunu görebilirsiniz.
 
@@ -77,14 +77,14 @@ Aspose.Cells, geliştiricilere çalışma zamanında çalışma sayfalarına pen
 
 Aspose.Cells, Microsoft Excel dosyasını temsil eden [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfını sağlar. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı, bir Excel dosyasındaki her çalışma sayfasına erişime izin veren [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)'ı içerir.
 
-Çalışma sayfası, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı tarafından temsil edilir. [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı, çalışma sayfalarını yönetmek için geniş bir özellik ve yöntem yelpazesi sağlar. Sabit pencereleri yapılandırmak için, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfının [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) yöntemini çağırın. [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) yöntemi aşağıdaki parametreleri alır:
+Bir çalışma sayfası, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı ile temsil edilir. [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı, çalışma sayfalarını yönetmek için geniş bir özellik ve yöntem yelpazesi sağlar. Dondurma bölmesi yapılandırmak için, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfının [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) metodunu çağırın. [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) yöntemi aşağıdaki parametreleri alır:
 
 - **Satır**, dondurulmanın başlayacağı hücrenin satır indeksi.
 - **Sütun**, dondurulmanın başlayacağı hücrenin sütun indeksi.
 - **Dondurulan satırlar**, üst bölmedeki görünür satır sayısı.
 - **Dondurulan sütunlar**, sol bölmedeki görünür sütun sayısı
 
-Aşağıda, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfının [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) yöntemini kullanarak ilk çalışma sayfasının (satırlar ve sütunlar 0 dizinlerinden başladığından C4'ten temsil edilen, 4. satır ve 3. sütundan başlayarak) satırları ve sütunları nasıl donduracağını gösteren tam bir örnek verilmiştir.
+Aşağıda, Excel dosyasının ilk çalışma sayfasındaki satır ve sütunları (C4'ten başlayarak, 4. satır ve 3. sütun ile temsil edilir, satırlar ve sütunlar 0 indeksinden başlar) dondurmak için [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfının [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes-int-int-int-int-) yönteminin nasıl kullanılacağı gösterilmektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FreezePanes-FreezePanes.java" >}}
 
@@ -106,7 +106,7 @@ Aynı çalışma tablosunda farklı görünümler elde etmek için ekranı bölm
 Pencereler aynı anda çalışır. Birinde değişiklik yaparsanız, değişiklik diğerinde aynı anda görünür. Aspose.Cells, kullanıcılar için bölme bölmeleri özelliği sağlar.
 ### **Bölmelerin Uygulanması ve Kaldırılması**
 #### **Bölmeleri Böleme**
-Aspose.Cells, Microsoft Excel dosyasını temsil eden [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfını sağlar. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı, Excel dosyalarını yönetmek için geniş bir özellik ve yöntem yelpazesi sağlar. Yerleşik görünümler uygulamak için, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfının [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\)) yöntemini kullanın. Pencereleri kaldırmak için [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) yöntemini kullanın.
+Aspose.Cells, Microsoft Excel dosyasını temsil eden bir [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı sağlar. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı, Excel dosyalarını yönetmek için geniş bir özellik ve yöntem yelpazesi sunar. Bölünmüş görünümler uygulamak için, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfının [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split--) yöntemini kullanın. Bölünmüş bölmeleri kaldırmak için, [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--) yöntemini kullanın.
 
 Örnekte, basit bir şablon dosyası kullanılır, ardından ilk çalışma sayfasındaki bir hücreye bölme bölmeleri özelliği uygulanır. Güncellenmiş dosya kaydedilir.
 
@@ -122,7 +122,7 @@ Yukarıdaki kodları çalıştırdıktan sonra, oluşturulan dosyanın bir yerle
 
 ![todo:image_alt_text](worksheet-views_9.png)
 #### **Pencereleri Kaldırma**
-Geliştiriciler, pencereleri kaldırmak için [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfının [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) yöntemini kullanabilir.
+Geliştiriciler, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfının [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit--) yöntemini kullanarak bölünmüş bölmeleri kaldırabilir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovePanes-RemovePanes.java" >}}
 
@@ -133,3 +133,4 @@ Geliştiriciler, pencereleri kaldırmak için [Worksheet](https://reference.aspo
 - [Öğeleri Göster ve Gizle](/cells/tr/java/show-and-hide-elements/)
 - [Bir Çalışma Kitabındaki Değerlerin Yerine Formülleri Göster](/cells/tr/java/show-formulas-instead-of-values-in-a-worksheet/)
 - [Hata Kontrol Seçeneklerini Kullan](/cells/tr/java/use-error-checking-options/)
+{{< app/cells/assistant language="java" >}}

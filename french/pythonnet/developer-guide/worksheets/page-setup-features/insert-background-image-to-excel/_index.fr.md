@@ -4,16 +4,16 @@ type: docs
 weight: 90
 url: /fr/python-net/insert-background-image-to-excel/
 description: Cet article explique comment insérer une image de fond dans Excel en utilisant le code d exemple Aspose.Cells pour Python via .NET.
-keywords: Bibliothèque Python Excel, Comment définir l arrière plan de la feuille, Insérer une image de fond dans Excel en Python.
+keywords: Bibliothèque Excel en Python, comment définir le fond de la feuille, insérer une image de fond dans Excel en Python.
 ---
 
 {{% alert color="primary" %}} 
 
-Vous pouvez rendre une feuille de calcul plus attrayante en ajoutant une image en arrière-plan. Cette fonctionnalité peut être très efficace si vous avez un graphique d'entreprise spécial qui ajoute un soupçon d'arrière-plan sans obscurcir les données sur la feuille. Vous pouvez définir une image d'arrière-plan pour une feuille en utilisant l'API Aspose.Cells pour Python via .NET.
+Vous pouvez rendre une feuille plus attrayante en ajoutant une image comme arrière-plan. Cette fonctionnalité peut être très efficace si vous disposez d'un graphique d'entreprise spécial qui ajoute une touche de fond sans obstruer les données sur la feuille. Vous pouvez définir une image de fond pour une feuille en utilisant l'API Aspose.Cells pour Python via .NET.
 
 {{% /alert %}} 
 
-## **Comment définir l'arrière-plan de la feuille dans Microsoft Excel**
+## **Comment définir le fond de la feuille dans Microsoft Excel**
 
 Pour définir une image d'arrière-plan de la feuille dans Microsoft Excel (par exemple, Microsoft Excel 2019) :
 
@@ -24,7 +24,7 @@ Pour définir une image d'arrière-plan de la feuille dans Microsoft Excel (par 
 
 ![todo:image_alt_text](insert-background-to-excel.jpg)
 
-## **Comment définir l'arrière-plan de la feuille avec la bibliothèque Python Excel Aspose.Cells**
+## **Comment définir le fond de la feuille avec la bibliothèque Excel Aspose.Cells pour Python**
 
 Le code ci-dessous définit une image d'arrière-plan à l'aide d'une image provenant d'un flux.
 

@@ -44,3 +44,4 @@ När ovanstående kod körs, tillämpas villkorlig formatering på cellen ”A1�
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplyConditionalFormatting-ApplyConditionalFormattingFormula-1.cs" >}}
 
 När ovanstående kod körs, tillämpas villkorlig formatering på cellen ”B3” i den första arbetsboken i utdatafilen (output.xls). Den villkorliga formateringen som tillämpas beror på formeln som beräknar värdet av “B3” som summan av B1 & B2.
+{{< app/cells/assistant language="csharp" >}}

@@ -42,3 +42,4 @@ La clase [**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspo
 El siguiente fragmento de código carga una hoja de cálculo existente que contiene un gráfico circular y renderiza el gráfico a una imagen utilizando la clase **Configuración Personalizada** creada anteriormente.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomTextForLabels-UsingGlobalizationSettings.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

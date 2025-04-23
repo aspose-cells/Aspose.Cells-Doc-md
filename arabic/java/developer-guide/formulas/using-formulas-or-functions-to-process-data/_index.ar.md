@@ -46,7 +46,7 @@ url: /ar/java/get-and-set-formula/
 
 يمكن أن يحتوي على بعض الصيغ التي يعرفها المستخدم ونريد تضمينها كإضافة إكسل. عند ضبط [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) تعمل الوظائف المضمنة بشكل جيد ومع ذلك يوجد حاجة لضبط الوظائف أو الصيغ المخصصة باستخدام وظائف الإضافة.
 
-توفر Aspose.Cells ميزات لتسجيل وظائف الوظيفة الإضافية باستخدام [**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction(java.lang.String,%20java.lang.String,%20boolean)). بعد ذلك عندما نقوم بتعيين [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) = anyFunctionFromAddIn ، يحتوي ملف Excel الناتج على القيمة المحسوبة من وظيفة الإضافة.
+توفر Aspose.Cells ميزات لتسجيل وظائف الوظيفة الإضافية باستخدام [**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction-java.lang.String-java.lang.String-boolean-). بعد ذلك عندما نقوم بتعيين [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) = anyFunctionFromAddIn ، يحتوي ملف Excel الناتج على القيمة المحسوبة من وظيفة الإضافة.
 
 سيتم تنزيل ملف XLAM لتسجيل وظيفة الإضافة في رمز العينة أدناه. بالمثل، يمكن تنزيل ملف الإخراج "test_udf.xlsx" للتحقق من الإخراج.
 
@@ -66,7 +66,7 @@ url: /ar/java/get-and-set-formula/
 
 تعيد بعض وظائف Microsoft Excel مصفوفات القيم. لحساب نتائج متعددة باستخدام صيغة مصفوفة، أدخل المصفوفة في نطاق الخلايا بعدد الصفوف والأعمدة نفس معدلات الوسائط المصفوفات.
 
-من الممكن تطبيق صيغة مصفوفة على خلية عن طريق استدعاء طريقة [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) لفئة [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)). تأخذ الطريقة [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) المعلمات التالية:
+من الممكن تطبيق صيغة مصفوفة على خلية عن طريق استدعاء طريقة [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) لفئة [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula-java.lang.String-int-int-). تأخذ الطريقة [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula-java.lang.String-int-int-) المعلمات التالية:
 
 - **صيغة مصفوفة**, صيغة المصفوفة.
 - **عدد الصفوف**, عدد الصفوف لملء نتيجة صيغة المصفوفة.
@@ -80,3 +80,4 @@ url: /ar/java/get-and-set-formula/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingR1C1-1.java" >}}
 
+{{< app/cells/assistant language="java" >}}

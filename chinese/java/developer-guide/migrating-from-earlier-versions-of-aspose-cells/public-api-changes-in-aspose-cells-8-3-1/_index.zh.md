@@ -187,3 +187,4 @@ workbook.save("output.xlsx");
 请查看文章[通过指定折线图组的数据范围和位置复制折线图](/cells/zh/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/)以获取更多信息。
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

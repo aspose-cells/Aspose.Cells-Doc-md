@@ -18,3 +18,4 @@ Der folgende Beispielcode erstellt eine Arbeitsmappe und erstellt auch einen ung
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-ExcludeUnusedStylesInExcelToHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

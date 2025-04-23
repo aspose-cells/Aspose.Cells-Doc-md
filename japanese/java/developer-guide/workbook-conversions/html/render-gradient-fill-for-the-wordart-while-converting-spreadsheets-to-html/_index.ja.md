@@ -13,3 +13,4 @@ url: /ja/java/render-gradient-fill-for-the-wordart-while-converting-spreadsheets
 以下のサンプルコードは、元のエクセルファイルを出力のHTML形式に変換します。元のエクセルファイルには上記のスクリーンショットに示されているようにグラデーションフィルを持つWordArtオブジェクトが含まれています。
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RenderGradientFillHTML-RenderGradientFillHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

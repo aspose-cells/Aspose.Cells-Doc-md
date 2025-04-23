@@ -24,3 +24,4 @@ Aspose.Cells提供了[Shape.ReflectionEffect](https://reference.aspose.com/cells
 以下示例代码加载[源Excel文件](5472529.xlsx)，访问第一个工作表中的第一个形状，并设置[Shape.ReflectionEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Reflection) 属性的子属性，然后将工作簿保存为 [输出Excel文件](5472539.xlsx)。
 ## **示例代码**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithReflectionEffect-WorkingWithReflectionEffect.java" >}}
+{{< app/cells/assistant language="java" >}}

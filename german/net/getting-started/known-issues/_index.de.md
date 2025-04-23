@@ -6,3 +6,4 @@ url: /de/net/known-issues/
 ---
 
 
+{{< app/cells/assistant language="csharp" >}}

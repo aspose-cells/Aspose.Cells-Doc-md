@@ -22,3 +22,4 @@ Si prega di consultare il codice di esempio seguente per scoprire come aggiunger
 Se il foglio di calcolo contiene formule, è meglio chiamare [**Workbook.CalculateFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula/index) poco prima di renderizzare il foglio di calcolo nel formato PDF. Così facendo, si garantisce che i valori dipendenti dalle formule vengano aggiornati e renderizzati correttamente nel PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

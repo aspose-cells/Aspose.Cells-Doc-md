@@ -34,3 +34,4 @@ url: /ja/net/optimizing-memory-usage-while-working-with-big-files-having-large-d
 1. **ランダムで繰り返しセルにアクセス**: セルのコレクションにアクセスする最も効率的なシーケンスは、行ごとに1つずつセルにアクセスし、その後行ごとにアクセスすることです。特に、[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)、[**RowCollection**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection)および[**Row**](https://reference.aspose.com/cells/net/aspose.cells/row)から取得したEnumeratorで行/セルにアクセスする場合、パフォーマンスは[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)で最適化されます。
 1. **セルや行の挿入・削除**: セル/行の挿入/削除が多い場合、*MemoryPreference*モードのパフォーマンス劣化が*Normal*モードと比較して顕著になります。
 1. **異なるセルタイプ間での操作**: ほとんどのセルが文字列値や数式を含む場合、メモリコストは*Normal*モードと同じになりますが、空のセルが多い場合やセルの値が数値、ブール値などの場合、[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting) オプションの方がパフォーマンスが向上します。
+{{< app/cells/assistant language="csharp" >}}

@@ -62,3 +62,4 @@ Gruplanmış herhangi bir satır veya sütunu ayırmak için, [**Cells**](https:
 [**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index), üçüncü bir Boolean parametresi alan bir aşırı yüklemesi vardır. **true** olarak ayarlayarak tüm gruplanmış bilgileri kaldırabilirsiniz. Aksi takdirde, yalnızca dış grup bilgileri kaldırılır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-UngroupingRowsAndColumns-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

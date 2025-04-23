@@ -52,3 +52,5 @@ Kodexemplet nedan visar hur man sparar en arbetsbok som en MHTML-fil med C#:
 - [Ange standardfonten vid rendering av kalkylblad till HTML](/cells/sv/net/set-default-font-while-rendering-spreadsheet-to/)
 - [Ange hur man korsar sträng i utmatnings-HTML med HtmlCrossType](/cells/sv/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
 - [Stödjer layouten för DIV-taggar vid laddning av HTML till excel arbetsbok](/cells/sv/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
+{{< app/cells/assistant language="csharp" >}}
+- [Aktivera CSS Anpassade Egenskaper under sparande till HTML](/cells/sv/net/enable-css-custom-properties-while-saving-to-html/)

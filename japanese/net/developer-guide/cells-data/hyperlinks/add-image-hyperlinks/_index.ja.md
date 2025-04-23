@@ -18,3 +18,4 @@ Aspose.Cellsを使用してスプレッドシートの画像にハイパーリ�
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddImageHyperlinks-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

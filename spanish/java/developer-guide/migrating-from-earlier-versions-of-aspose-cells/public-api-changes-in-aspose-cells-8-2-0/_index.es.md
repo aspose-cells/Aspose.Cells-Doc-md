@@ -31,3 +31,4 @@ Las firmas de los métodos antes mencionados son las siguientes:
 Por favor, consulte el artículo detallado sobre [Ajuste automático de filas y columnas](http://aspose.com/docs/display/cellsjava/AutoFit+Rows+and+Columns).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

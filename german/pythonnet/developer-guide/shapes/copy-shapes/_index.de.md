@@ -4,13 +4,13 @@ linktitle: Formen kopieren
 type: docs
 weight: 200
 url: /de/python-net/copy-shapes-between-worksheets/
-description: Dieser Artikel zeigt, wie Formen zwischen Arbeitsblättern durch die Aspose.Cells für Python via .NET API kopiert werden können.
-keywords: Python Excel Bibliothek, Python Formen zwischen Arbeitsblättern kopieren, Python wie man ein Bild von einem Arbeitsblatt auf ein anderes kopiert, Python wie man ein Diagramm von einem Arbeitsblatt auf ein anderes kopiert, Python wie man Steuerelemente und andere Zeichenobjekte von einem Arbeitsblatt auf ein anderes kopiert.
+description: Dieser Artikel zeigt, wie man Shapes zwischen Arbeitsblättern mit der Aspose.Cells für Python via .NET API kopiert.
+keywords: Python Excel Bibliothek, Python Shape zwischen Arbeitsblättern kopieren, Python wie man ein Bild von einem Arbeitsblatt auf ein anderes kopiert, Python wie man ein Diagramm von einem Arbeitsblatt auf ein anderes kopiert, Python wie man Steuerlemente und andere Zeichnungsobjekte von einem Arbeitsblatt auf ein anderes kopiert.
 ---
 
 {{% alert color="primary" %}}
 
-Manchmal müssen Elemente auf einem Arbeitsblatt, wie z.B. Bilder, Diagramme und andere Zeichenobjekte, zwischen Arbeitsblättern kopiert werden. Aspose.Cells für Python via .NET unterstützt diese Funktion. Diagramme, Bilder und andere Objekte können mit höchster Genauigkeit kopiert werden.
+Manchmal müssen Sie Elemente auf einem Arbeitsblatt kopieren, z.B. Bilder, Diagramme und andere Zeichnungsobjekte zwischen Arbeitsblättern. Aspose.Cells für Python via .NET unterstützt diese Funktion. Diagramme, Bilder und andere Objekte können mit höchster Präzision kopiert werden.
 
 Dieser Artikel vermittelt Ihnen ein umfassendes Verständnis dafür, wie Formen zwischen Arbeitsblättern kopiert werden.
 

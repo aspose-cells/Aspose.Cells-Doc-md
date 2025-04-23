@@ -21,3 +21,4 @@ Aşağıdaki örnek kod, iki döşeme tablosu içeren [örnek Excel dosyasını]
 
 - [Pivot Tablosu Biçimlendirme](/cells/tr/net/formatting-pivot-table/)
 - [Pivot Tablosundaki DataField'ın veri görüntüleme formatları ile çalışma](/cells/tr/net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="csharp" >}}

@@ -161,3 +161,4 @@ workbook.save(output);
 Aspose.Cells for Java 8.4.2'den itibaren, PasteType.ALL numaralandırma alanı, Excel'in "Hepsini" işlevinden farklı olarak, artık sütun genişliklerini hedef aralığa kopyalar. Excel'in "Hepsini" işlevine benzetmek için, lütfen PasteType.DEFAULT kullanın.
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

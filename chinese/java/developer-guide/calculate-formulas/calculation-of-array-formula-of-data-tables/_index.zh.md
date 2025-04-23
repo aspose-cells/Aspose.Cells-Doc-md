@@ -7,7 +7,7 @@ url: /zh/java/calculation-of-array-formula-of-data-tables/
 
 {{% alert color="primary" %}} 
 
-您可以使用数据 > 此后数据 > 数据表...在Microsoft Excel中创建数据表。Aspose.Cells现在允许您计算数据表的数组公式。请使用[Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\))正常计算任何类型的公式。
+您可以在 Microsoft Excel 中使用数据 > 模拟分析 > 数据表创建数据表.... Aspose.Cells 现在允许您计算数据表的数组公式。请正常使用 [Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) 来计算任何类型的公式。
 
 {{% /alert %}} 
 ## **计算数据表的数组公式**
@@ -22,3 +22,4 @@ url: /zh/java/calculation-of-array-formula-of-data-tables/
 这是用于从[源Excel文件](5472579.xlsx)生成[输出PDF](5472577.pdf)的示例代码。有关更多信息，请阅读注释。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculationOfArrayFormula-CalculationOfArrayFormula.java" >}}
+{{< app/cells/assistant language="java" >}}

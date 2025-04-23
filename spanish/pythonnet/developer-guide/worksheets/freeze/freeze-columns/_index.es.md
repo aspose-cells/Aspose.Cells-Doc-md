@@ -4,8 +4,8 @@ linktitle: Congelar Columnas
 type: docs
 weight: 190
 url: /es/python-net/how-to-freeze-columns-of-excel-worksheet
-description: En este artículo, aprenderás cómo congelar las columnas izquierdas de las hojas de cálculo de Excel programáticamente usando Aspose.Cells para las APIs de Python via .NET.
-keywords: Biblioteca de Excel de Python, Congelar columnas izquierdas de Python, Congelar primeras columnas de Python, Bloquear las columnas de Python.
+description: En este artículo, aprenderás cómo congelar programáticamente las columnas de la izquierda de las hojas de cálculo de Excel usando las API de Aspose.Cells para Python via .NET.
+keywords: Biblioteca de Python para Excel, Congelar columnas a la izquierda en Python, Congelar primeras columnas en Python, Bloquear columnas en Python.
 ---
 
 ## **Introducción**
@@ -13,7 +13,7 @@ keywords: Biblioteca de Excel de Python, Congelar columnas izquierdas de Python,
 En este artículo, aprenderemos cómo congelar la(s) columna(s) izquierda(s). Cuando tienes una gran cantidad de datos en una fila, es imposible ver las columnas izquierdas al desplazar horizontalmente la hoja de cálculo. Puedes congelar y bloquear la(s) primera(s) columna(s) para poder ver esa porción congelada incluso al desplazarte por el resto de los datos. Podrás ver fácilmente los encabezados en las columnas izquierdas.
 
 
-## **Cómo Congelar Columnas En Excel**
+## **Cómo congelar columnas en Excel**
 
 **![Congelar columnas izquierdas en Excel](freeze-columns.png)**
 
@@ -32,8 +32,8 @@ Congelar Columnas te permite ver tus datos largos sin necesidad de hacer un segu
 
 
 
-## **Cómo Congelar Columnas con Aspose.Cells para la biblioteca de Excel de Python**
-Es simple congelar la(s) primera(s) columna(s) con Aspose.Cells para Python via .NET. Por favor usa el método [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) para congelar la(s) columna(s) en la columna seleccionada.
+## **Cómo congelar columnas con Aspose.Cells para Python Biblioteca de Excel**
+Es fácil congelar la(s) primera(s) columna(s) con Aspose.Cells para Python via .NET. Usa el método [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) para congelar columna(s) en la columna seleccionada.
 1. Construir un libro de trabajo para abrir el archivo o crear un archivo vacío.
 2. Congelar la primera columna con el método Worksheet.FreezePanes().
 3. Guarda el archivo.

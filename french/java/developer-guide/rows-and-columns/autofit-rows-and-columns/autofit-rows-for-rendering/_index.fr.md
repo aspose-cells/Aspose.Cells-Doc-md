@@ -18,3 +18,4 @@ Si vous voulez empêcher que le texte soit coupé dans le fichier PDF enregistr�
 Maintenant, le texte n'est pas tronqué dans le fichier PDF de sortie.
 
 ![le texte n'est pas tronqué dans le PDF enregistré](text_not_clipped_in_saved_pdf.png)
+{{< app/cells/assistant language="java" >}}

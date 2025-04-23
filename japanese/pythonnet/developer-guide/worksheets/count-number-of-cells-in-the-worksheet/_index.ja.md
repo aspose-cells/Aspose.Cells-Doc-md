@@ -3,7 +3,7 @@ title: ワークシート内のセル数を数える
 type: docs
 weight: 110
 url: /ja/python-net/count-number-of-cells-in-the-worksheet/
-description: Aspose.Cells for Python via .NET APIを使用してExcelワークシート内のセルの数をプログラムで数える方法
+description: この記事では、Aspose.Cells for Python via .NET APIを使用してExcelワークシートのセル数をプログラムでカウントする方法について学びます。
 keywords: C#でExcelワークシートのセル数をカウントする
 ---
 

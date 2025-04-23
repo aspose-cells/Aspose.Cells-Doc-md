@@ -7,7 +7,7 @@ url: /ar/java/sort-data-in-column-with-custom-sort-list/
 
 ## **سيناريوهات الاستخدام المحتملة**
 
-يمكنك فرز البيانات في العمود باستخدام قائمة مخصصة. يمكن القيام بذلك باستخدام [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int,%20java.lang.String) الطريقة. ومع ذلك، تعمل هذه الطريقة فقط إذا كانت العناصر في القائمة المخصصة لا تحتوي على فواصل بينها. إذا كانت تحتوي على فواصل مثل "USA, US", "China, CN" وما إلى ذلك، فيجب عليك استخدام [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int,%20java.lang.String) الطريقة. هنا، الباراميتر الأخير ليس نصا ولكن مصفوفة من السلاسل.
+يمكنك فرز البيانات في العمود باستخدام قائمة مخصصة. يمكن ذلك باستخدام [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-java.lang.String-) . ومع ذلك، تعمل هذه الطريقة فقط إذا لم تحتوي العناصر في القائمة المخصصة على فواصل داخلها. إذا كانت تحتوي على فواصل مثل "USA, US"، "China, CN" إلخ، يجب عليك استخدام [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey-int-int-java.lang.String-) . هنا، المعامل الأخير ليس String بل مصفوفة من Strings.
 
 ## **فرز البيانات في العمود بقائمة فرز مخصصة**
 
@@ -18,3 +18,4 @@ url: /ar/java/sort-data-in-column-with-custom-sort-list/
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-SortDataInColumnWithCustomSortList.java" >}}
+{{< app/cells/assistant language="java" >}}

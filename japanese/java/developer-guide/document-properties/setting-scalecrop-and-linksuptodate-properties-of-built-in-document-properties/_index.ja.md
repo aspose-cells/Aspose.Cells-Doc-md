@@ -21,3 +21,4 @@ url: /ja/java/setting-scalecrop-and-linksuptodate-properties-of-built-in-documen
 次のサンプルコードは、ワークブックの[ScaleCrop](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#ScaleCrop) および[LinksUpToDate](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#LinksUpToDate) 拡張組み込みドキュメントプロパティを設定します。このコードで生成された[output excel file](5472494.xlsx)に拡張子を変更して.zipにし、その内容を抽出し、上記のスクリーンショットと同様にaap.xmlを表示してください。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingScaleCropLinksUpToDate-SettingScaleCropLinksUpToDate.java" >}}
+{{< app/cells/assistant language="java" >}}

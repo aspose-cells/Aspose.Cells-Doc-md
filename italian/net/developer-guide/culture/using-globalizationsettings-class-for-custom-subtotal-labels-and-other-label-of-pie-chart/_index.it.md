@@ -42,3 +42,4 @@ La classe [**GlobalizationSettings**](https://reference.aspose.com/cells/net/asp
 Il seguente snippet carica un foglio di calcolo esistente contenente un grafico a torta e visualizza il grafico come un'immagine utilizzando la classe **CustomSettings** creata in precedenza.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomTextForLabels-UsingGlobalizationSettings.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

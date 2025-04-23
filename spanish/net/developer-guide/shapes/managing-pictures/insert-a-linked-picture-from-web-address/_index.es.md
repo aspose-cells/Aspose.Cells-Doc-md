@@ -25,3 +25,4 @@ Aspose.Cells for .NET admite agregar una imagen vinculada usando el [**ShapeColl
 El siguiente ejemplo muestra cómo agregar una imagen vinculada desde una dirección web a una hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertLinkedPicture-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

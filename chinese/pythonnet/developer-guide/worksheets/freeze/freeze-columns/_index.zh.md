@@ -4,8 +4,8 @@ linktitle: 冻结列
 type: docs
 weight: 190
 url: /zh/python-net/how-to-freeze-columns-of-excel-worksheet
-description: 在本文中，您将学习如何使用Aspose.Cells for Python via .NET API对Excel工作表的左列进行冻结。
-keywords: Python Excel库, Python冻结左列, Python锁定列
+description: 在本文中，您将学习如何使用 Aspose.Cells for Python via .NET API 编程方式冻结 Excel 工作表的左侧列。
+keywords: Python Excel 库，Python 冻结左侧列，Python 冻结第一列，Python 锁定列。
 ---
 
 ## **介绍**
@@ -13,7 +13,7 @@ keywords: Python Excel库, Python冻结左列, Python锁定列
 在本文章中，我们将学习如何冻结左侧列。当您在一行中有大量数据时，当水平滚动工作表时，您无法看到左边的列。您可以冻结和锁定第一列，以便在其余数据被滚动时仍然可以看到该冻结部分。您可以轻松看到左列的标题。
 
 
-## **如何在Excel中冻结列**
+## **如何在 Excel 中冻结列**
 
 **![在Excel中冻结左侧列](freeze-columns.png)**
 
@@ -32,8 +32,8 @@ keywords: Python Excel库, Python冻结左列, Python锁定列
 
 
 
-## **使用Aspose.Cells for Python Excel库冻结列的方法**
-使用Aspose.Cells for Python via .NET，很容易冻结首列。请使用[**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int)方法在所选列上冻结列。
+## **如何使用 Aspose.Cells for Python Excel 库冻结列**
+使用 Aspose.Cells for Python via .NET 简单冻结第一列。请使用 [**Worksheet.freeze_panes**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/freeze_panes/#str-int-int) 方法在所选列冻结列。
 1.构建工作簿以打开文件或创建一个空文件。
 2. 使用Worksheet.FreezePanes()方法冻结第一列。
 3.保存文件。

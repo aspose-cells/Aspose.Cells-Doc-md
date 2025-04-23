@@ -109,3 +109,4 @@ _代码步骤:_
 - [从工作表中导出可见行数据](/cells/zh/net/export-visible-rows-data-from-worksheet/)
 - [在将工作表数据导出到数据表时忽略隐藏的列](/cells/zh/net/ignore-hidden-columns-while-exporting-worksheet-data-to-data-table/)
 - [导出工作表数据时自动重命名重复列](/cells/zh/net/rename-duplicate-columns-automatically-while-exporting-worksheet-data/)
+{{< app/cells/assistant language="csharp" >}}

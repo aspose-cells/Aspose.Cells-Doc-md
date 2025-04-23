@@ -75,3 +75,4 @@ url: /ar/net/page-setup-and-printing-options/
 |![todo:image_alt_text](page-setup-and-printing-options_4.png)|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PageSetupAndPrintingOptions-SettingPrintingOptions-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -33,3 +33,4 @@ url: /es/net/how-to-run-aspose-cells-in-aws-lambda/
 1. Necesitará agregar un nuevo usuario con su cuenta de AWS y usuario IAM, puede importar el archivo "credentials.csv" que obtuvo en el paso anterior. 
 1. Publicación exitosa, obtendrá una dirección de enlace como: `http://testprojectaspose-test.us-west-2.elasticbeanstalk.com/`
    ¡Espere 10 minutos para que el enlace entre en efecto, luego podrá visitarlo!
+{{< app/cells/assistant language="csharp" >}}

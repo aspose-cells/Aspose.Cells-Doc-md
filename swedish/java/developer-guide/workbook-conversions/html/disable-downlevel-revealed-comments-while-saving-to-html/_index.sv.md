@@ -22,3 +22,4 @@ Följande exempelkod visar användningen av egenskapen [**HtmlSaveOptions.Disab
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-DisableDownlevelRevealedCommentsWhileSavingToHTML.java" >}}
+{{< app/cells/assistant language="java" >}}

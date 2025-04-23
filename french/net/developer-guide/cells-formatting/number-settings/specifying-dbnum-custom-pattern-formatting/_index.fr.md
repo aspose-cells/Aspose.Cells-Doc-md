@@ -16,3 +16,4 @@ Aspose.Cells prend en charge le formatage de motif personnalisé *DBNum*. Par ex
 Le code d'exemple suivant illustre comment spécifier le formatage de motif personnalisé *DBNum*. Veuillez consulter son [PDF de sortie](43352081.pdf) pour plus d'aide.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SpecifyingDBNumCustomPatternFormatting.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

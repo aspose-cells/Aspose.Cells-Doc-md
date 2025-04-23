@@ -50,3 +50,4 @@ Di seguito sono riportati i passaggi coinvolti per creare un foglio di calcolo e
 1. Aggiungi il seguente codice al progetto:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FormatWorksheetCells-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

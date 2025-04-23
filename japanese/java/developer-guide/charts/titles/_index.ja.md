@@ -31,3 +31,4 @@ Microsoft Excelを使用して、WYSIWYG環境でチャートや軸のタイト�
 
 ## **高度なトピック**
 - [ODSファイルからチャートサブタイトルを読む](/cells/ja/java/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="java" >}}

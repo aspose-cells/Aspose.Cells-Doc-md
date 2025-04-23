@@ -11,3 +11,4 @@ Denna avsnitt innehåller följande ämnen:
 - [Lägg till WordArt-vattenstämpel i kalkylblad i Aspose.Cells](/cells/sv/net/add-wordart-watermark-to-worksheet-in-aspose-cells/)
 - [Kopiera former mellan kalkylblad i Aspose.Cells](/cells/sv/net/copy-shapes-between-worksheets-in-aspose-cells/)
 - [Låsa WordArt-vattenstämpel i Aspose.Cells](/cells/sv/net/locking-wordart-watermark-in-aspose-cells/)
+{{< app/cells/assistant language="csharp" >}}

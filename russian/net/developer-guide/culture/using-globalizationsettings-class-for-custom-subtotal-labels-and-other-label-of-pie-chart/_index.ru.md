@@ -42,3 +42,4 @@ API Aspose.Cells предоставляет класс [**GlobalizationSettings*
 В следующем фрагменте загружается существующая электронная таблица с круговой диаграммой и отображается диаграмма в виде изображения с использованием созданного выше класса **CustomSettings**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomTextForLabels-UsingGlobalizationSettings.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

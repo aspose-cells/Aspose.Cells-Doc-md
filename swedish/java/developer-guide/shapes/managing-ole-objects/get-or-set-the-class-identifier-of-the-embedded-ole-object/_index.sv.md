@@ -23,3 +23,4 @@ Det här är konsoloutputen från det ovanstående kodexemplet när det körs me
  DC020317-E6E2-4A62-B9FA-B3EFE16626F4
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

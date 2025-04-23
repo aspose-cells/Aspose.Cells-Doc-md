@@ -74,3 +74,4 @@ Führen Sie jetzt bitte das folgende Beispiel aus, sehen Sie, wie es in Aspose.C
 - [Bereich von Zellen in einem Arbeitsblatt verschieben](/cells/de/net/move-range-of-cells-in-a-worksheet/)
 - [Arbeitsbuch- und arbeitsblattübergreifende benannte Bereiche erstellen](/cells/de/net/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Suchen und Ersetzen von Daten in einem Bereich](/cells/de/net/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="csharp" >}}

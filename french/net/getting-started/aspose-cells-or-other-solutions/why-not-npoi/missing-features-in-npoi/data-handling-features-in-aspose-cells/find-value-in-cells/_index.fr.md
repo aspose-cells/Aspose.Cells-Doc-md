@@ -49,3 +49,4 @@ Téléchargez **Trouver une valeur dans les cellules** à partir de l'un des sit
 Pour plus de détails, visitez [Rechercher ou trouver des données](/cells/fr/net/find-or-search-data/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

@@ -60,3 +60,4 @@ Aspose.Cells は範囲内のセルを結合するための [**Range.Merge()**](h
 Aspose.Cells は範囲の名前を消去するための [**NameCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/namecollection/methods/removeat) メソッドを提供しています。範囲の内容をクリアするには、[**Cells.ClearRange()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/clearrange/index) メソッドを使用します。次の例では、名前付き範囲とその内容を削除する方法を示します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-RemoveANamedRange-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

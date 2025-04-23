@@ -22,3 +22,4 @@ url: /ru/net/formatting-smart-markers/
 В этом примере используется [файл данных](96927971.xlsx) и [файл шаблона](96927972.xlsx) с несколькими маркерами в ячейках. При выполнении кода Aspose.Cells добавляет несколько пользовательских меток к строкам итогов для сгруппированных данных.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-AddCustomLabels-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

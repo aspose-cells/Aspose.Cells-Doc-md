@@ -21,12 +21,19 @@ url: /ar/net/apply-advanced-conditional-formatting/
 
 تدعم Aspose.Cells بشكل كامل التنسيق المشروط المقدم من Microsoft Excel 2007 والأحدث في تنسيق XLSX على الخلايا في وقت التشغيل. يوضح هذا المثال تمرينًا لأنواع التنسيق المشروط المتقدمة بما في ذلك مجموعات الرموز، أشرطة البيانات، مقاييس الألوان، فترات الزمن، القاع/القمة وقواعد أخرى بمجموعات مختلفة من السمات.
 
+- [**Adding Color Scale Conditional Formattings**](/cells/ar/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/)
+- [**Adding Above Average Conditional Formattings**](/cells/ar/net/how-to-add-above-average-conditional-formatting/)
+- [**Adding DataBars Conditional Formattings**](/cells/ar/net/how-to-add-databars-conditional-formatting/)
+- [**Adding IonSets Conditional Formattings**](/cells/ar/net/how-to-add-icon-sets-conditional-formatting/)
+- [**Adding Text Conditional Formattings**](/cells/ar/net/how-to-add-text-conditional-formatting/)
+- [**Adding TimePeriods Conditional Formattings**](/cells/ar/net/how-to-add-time-periods-conditional-formatting/)
+- [**Adding Top10 Conditional Formattings**](/cells/ar/net/how-to-add-top10-conditional-formatting/)
 
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConditionalFormatting-1.cs" >}}
 ### **حساب اللون المختار من قبل Microsoft Excel لتنسيق المشروط مع المقياس اللوني**
 تتيح لك Aspose.Cells حساب اللون الذي اختاره Microsoft Excel عند استخدام تنسيق مشروط بمقياس الألوان في ملف قالب. Consulte el código de ejemplo a continuación para aprender cómo calcular el color seleccionado por Microsoft Excel.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ComputeColorChoosenByMSExcel-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

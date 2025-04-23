@@ -16,3 +16,4 @@ Beim Konvertieren einer Arbeitsmappe in HTML exportiert Aspose.Cells Frameskript
 Der folgende Beispielcode ermöglicht es Ihnen, den Export von Rahmen-Skripten und Dokumenteigenschaften zu deaktivieren. Nach der Konvertierung einer Arbeitsmappe in HTML enthält die Ausgabedatei keine Rahmen-Skripte und Dokumenteigenschaften.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-HtmlExportFrameScripts-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

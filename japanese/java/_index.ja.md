@@ -38,3 +38,4 @@ Aspose.Cells for Java は、ビジネスで毎日使用される人気のある�
 - [Aspose.Cells for Java APIリファレンスガイド](https://reference.aspose.com/cells/java)
 - [Aspose.Cells for Java 無償サポートフォーラム](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Java 有償サポートヘルプデスク](https://helpdesk.aspose.com/)
+{{< app/cells/assistant language="java" >}}

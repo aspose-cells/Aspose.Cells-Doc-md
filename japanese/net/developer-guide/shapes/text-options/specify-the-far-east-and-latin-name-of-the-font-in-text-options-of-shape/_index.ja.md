@@ -18,3 +18,4 @@ url: /ja/net/specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

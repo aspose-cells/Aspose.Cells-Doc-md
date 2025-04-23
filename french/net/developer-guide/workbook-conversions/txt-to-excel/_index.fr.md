@@ -59,3 +59,4 @@ Un fichier à valeurs séparées par des tabulations (TSV) contient des données
 - [Charger ou importer un fichier CSV avec des formules](/cells/fr/net/load-or-import-csv-file-with-formulas/)
 - [Lecture d'un fichier CSV avec des encodages multiples](/cells/fr/net/reading-csv-file-with-multiple-encodings/)
 
+{{< app/cells/assistant language="csharp" >}}

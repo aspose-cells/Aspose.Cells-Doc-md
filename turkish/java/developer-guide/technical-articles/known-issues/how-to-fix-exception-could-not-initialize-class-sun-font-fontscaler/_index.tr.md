@@ -49,3 +49,4 @@ Sorunu̇, aşağıdaki JAR dosyasını sınıf yolu içine entegre ederek çözm
 - <http://www.java2s.com/Code/JarDownload/ae/ae-awt.jar.zip>
 
 
+{{< app/cells/assistant language="java" >}}

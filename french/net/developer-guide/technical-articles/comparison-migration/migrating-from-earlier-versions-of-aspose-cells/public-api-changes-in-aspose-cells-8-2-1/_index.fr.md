@@ -28,3 +28,4 @@ Veuillez consulter l'article détaillé sur [Vérifiez si la valeur de la cellul
 {{% /alert %}}
 ## **Ajout de la méthode de surcharge ToPrinter(PrinterSettings) pour la classe WorkbookRender**
 Vous pouvez utiliser la méthode surchargée pour rendre le classeur sur l'imprimante via PrinterSettings.
+{{< app/cells/assistant language="csharp" >}}

@@ -40,3 +40,4 @@ Apache POI SSと比較して、Aspose.Cellsの豊富な機能が含まれてい�
   - [Aspose.Cellsを使用してスプレッドシートをPDFに変換する](/cells/ja/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
 
 **注意:** さらに多くの例が近日公開予定です。
+{{< app/cells/assistant language="java" >}}

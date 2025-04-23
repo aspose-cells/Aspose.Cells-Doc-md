@@ -22,3 +22,4 @@ Några API:er (klasser, strukturer, uppräkningar osv.) har lagts till baserat p
 1. **ExcelHelper**-klassen har ersatts av **CellsHelper**-klassen. 
 
 For further reference, please check our featured demos: <https://github.com/aspose-cells/Aspose.Cells-for-Java>
+{{< app/cells/assistant language="java" >}}

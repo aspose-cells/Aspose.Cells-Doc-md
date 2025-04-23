@@ -26,3 +26,4 @@ Le graphique ressemble comme suit avant d'exécuter le code.
 Le graphique ressemble comme suit après avoir exécuté le code.
 
 ![todo:image_alt_text](resize-chart-s-data-label-shape-to-fit-text_3.png)
+{{< app/cells/assistant language="java" >}}

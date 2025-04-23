@@ -22,3 +22,4 @@ description: この記事では、.NET APIを使用してC#ライブラリでExc
 3. ロックされた行および列を取得します
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Is-Worksheet-Frozen.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

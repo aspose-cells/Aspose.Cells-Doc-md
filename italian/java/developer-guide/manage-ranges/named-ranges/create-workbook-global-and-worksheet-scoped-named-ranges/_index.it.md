@@ -25,3 +25,4 @@ I seguenti esempi di codice mostrano come creare intervalli di nomi con ambito d
 ## **Aggiunta di un intervallo con nome a livello di foglio di lavoro**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddNamedRangeWithWorksheetScope-AddNamedRangeWithWorkbookScope.java" >}}
+{{< app/cells/assistant language="java" >}}

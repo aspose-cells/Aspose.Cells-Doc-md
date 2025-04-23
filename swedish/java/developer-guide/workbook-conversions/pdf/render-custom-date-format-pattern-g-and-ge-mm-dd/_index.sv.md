@@ -14,3 +14,4 @@ Aspose.Cells kan nu rendera det anpassade datumformatmönstret som g, ge.mm.dd o
 Följande provkod konverterar [käll-Excel-filen](95584282.xlsx) som innehåller datumvärden med anpassade formatmönster som g och ge.mm.dd till [utdat-PDF](95584283.pdf).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-RenderCustomDateFormat-1.java" >}}
+{{< app/cells/assistant language="java" >}}

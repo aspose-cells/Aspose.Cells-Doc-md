@@ -21,3 +21,4 @@ Aşağıdaki kod parçası, açıklamanın nasıl yönetileceğini göstermekted
 
 ## **Gelişmiş Konular**
 - [Grafik lejant giriş dolgu metnini hiçbir şeye ayarlayın using Aspose.Cells](/cells/tr/java/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="java" >}}

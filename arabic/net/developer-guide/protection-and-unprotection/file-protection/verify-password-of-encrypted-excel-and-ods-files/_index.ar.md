@@ -17,3 +17,4 @@ description: التحقق من كلمة المرور لملفات إكسل (xlsx
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-VerifyPassword-1.cs" >}}
 
+{{< app/cells/assistant language="csharp" >}}

@@ -131,7 +131,7 @@ Aspose.Cellsを使用してグラフを作成するには：
 
 1. [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)オブジェクトの[**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)メソッドを使用してワークシートセルにデータを追加します。
    これはグラフのデータソースとして使用されます。
-1. [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection)コレクションの[*add*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int))メソッドを呼び出してワークシートにグラフを追加します。
+1. [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection)コレクションの[*add*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add-int-int-int-int-int-)メソッドを呼び出し、[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)オブジェクトにカプセル化されたワークシートにチャートを追加します。
 1. [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)列挙型を使用してチャートのタイプを指定します。
    たとえば、この例ではグラフの種類として[**ChartType.PYRAMID**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#PYRAMID)値を使用します。
 1. インデックスを渡して[**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection)コレクションから新しい[**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)オブジェクトをアクセスします。
@@ -166,7 +166,7 @@ Aspose.Cellsを使用してグラフを作成するには：
 
 #### **データマーカー付きラインチャート**
 
-データマーカー付き折れ線グラフを作成するには、[**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)を[**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE_WITH_DATA_MARKERS)に設定し、背景エリア、シリーズマーカー、値、およびXValuesなどの追加プロパティを適切に設定する必要があります。次のコードを実行すると、以下に示すようにワークシートにデータマーカー付き折れ線グラフが追加されます。
+データマーカー付き折れ線グラフを作成するには、[**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)を[**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE-WITH-DATA-MARKERS)に設定し、背景エリア、シリーズマーカー、値、およびXValuesなどの追加プロパティを適切に設定する必要があります。次のコードを実行すると、以下に示すようにワークシートにデータマーカー付き折れ線グラフが追加されます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-CreateLineWithDataMarkerChart-1.java" >}}
 
@@ -202,3 +202,4 @@ Aspose.Cellsを使用してグラフを作成するには：
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="java" >}}

@@ -41,3 +41,4 @@ BoxWhisker
 - [Création de Graphique en Cascade](/cells/fr/net/creating-waterfall-chart/)
 - [Création de Graphique TreeMap](/cells/fr/net/creating-treemap-chart/)
 - [Création de Graphique Sunburst](/cells/fr/net/creating-sunburst-chart/)
+{{< app/cells/assistant language="csharp" >}}

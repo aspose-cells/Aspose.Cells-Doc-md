@@ -53,3 +53,4 @@ Ajoutez une image à la feuille de calcul en appelant la méthode [**AddPicture*
 - [Insérer une image en fonction de la référence de la cellule](/cells/fr/net/insert-a-picture-based-on-cell-reference/)
 - [Charger une image Web à partir d'une URL dans une feuille de calcul Excel](/cells/fr/net/load-a-web-image-from-a-url-into-an-excel-worksheet/)
 
+{{< app/cells/assistant language="csharp" >}}

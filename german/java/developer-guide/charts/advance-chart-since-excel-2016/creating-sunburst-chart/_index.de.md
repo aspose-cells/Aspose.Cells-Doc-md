@@ -19,3 +19,4 @@ Nach Ausführen des unten stehenden Codes wird das Sonnenstrahlendiagramm wie un
 Der folgende Beispielcode lädt die [Beispieldatei Excel](sunburst.xlsx) und erstellt die [Ausgabedatei Excel](out.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "create-sunburst-chart.java" >}}
+{{< app/cells/assistant language="java" >}}

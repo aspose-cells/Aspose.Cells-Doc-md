@@ -10,11 +10,11 @@ Aspose.Cells APIs haben die Klasse [GlobalizationSettings](https://reference.asp
 ## **Einführung in die GlobalizationSettings-Klasse**
 Die [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) Klasse bietet derzeit die folgenden 3 Methoden, die in einer benutzerdefinierten Klasse überschrieben werden können, um gewünschte Beschriftungen für die Zwischensummen zu erhalten oder benutzerdefinierten Text für die **Andere**-Beschriftung eines Kreisdiagramms zu rendern.
 
-1. [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)): Ruft den Gesamtnamen der Funktion ab.
-1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)): Ruft den Gesamtsummen-Namen der Funktion ab.
-1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)): Ruft den Namen der "Andere"-Beschriftungen für Kreisdiagramme ab.
+1. [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName-int-): Holt den Total-Namen der Funktion.
+1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName-int-): Holt den Gesamttotal-Namen der Funktion.
+1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--): Holt den Namen für "Andere"-Labels bei Kreisdiagrammen.
 ### **Benutzerdefinierte Beschriftungen für Zwischensummen**
-Die [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) Klasse kann verwendet werden, um die Zwischensummen-Beschriftungen anzupassen, indem die Methoden [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)) & [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)) überschrieben werden, wie im Folgenden dargestellt.
+Die Klasse [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) kann verwendet werden, um die Subtotal-Labels durch Überschreiben der Methoden [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName-int-) & [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName-int-) individuell anzupassen.
 
 
 
@@ -33,7 +33,7 @@ Die [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.c
 
 {{% /alert %}} 
 ### **Benutzerdefinierter Text für Andere Beschriftung im Kreisdiagramm**
-Die [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) Klasse bietet die Methode [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)), die nützlich ist, um der "Andere"-Beschriftung von Kreisdiagrammen einen benutzerdefinierten Wert zu geben. Der folgende Code definiert eine benutzerdefinierte Klasse und überschreibt die Methode [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)), um basierend auf der für JVM festgelegten Standardsprache eine benutzerdefinierte Beschriftung zu erhalten.
+Die Klasse [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) bietet die Methode [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--) an, die nützlich ist, um dem "Other"-Label in Kreisdiagrammen einen benutzerdefinierten Wert zu geben. Das folgende Codebeispiel definiert eine benutzerdefinierte Klasse und überschreibt die Methode [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName--), um eine benutzerdefinierte Beschriftung anhand der Standardspracheinstellung für JVM zu erhalten.
 
 
 
@@ -50,3 +50,4 @@ Der folgende Code lädt eine vorhandene Tabellenkalkulation mit einem Kreisdiagr
 Das folgende Bild zeigt das Ergebnis, wenn die Regionaleinstellung des Rechners auf Frankreich gesetzt ist. Wie Sie sehen können, wurde das Label "Other" gemäß der Definition in der Klasse *CustomSettings* in "Autre" übersetzt.
 
 ![todo:image_alt_text](using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart_1.png)
+{{< app/cells/assistant language="java" >}}

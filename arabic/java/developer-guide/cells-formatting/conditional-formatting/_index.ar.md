@@ -58,3 +58,4 @@ url: /ar/java/conditional-formatting/
 - [تطبيق التنسيق الشرطي في الأوراق العمل](/cells/ar/java/apply-conditional-formatting-in-worksheets/)
 - [تطبيق التظليل على الصفوف والأعمدة البديلة باستخدام التنسيق الشرطي](/cells/ar/java/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
 
+{{< app/cells/assistant language="java" >}}

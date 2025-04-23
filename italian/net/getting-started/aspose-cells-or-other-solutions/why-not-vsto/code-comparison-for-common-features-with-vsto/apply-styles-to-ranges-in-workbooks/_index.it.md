@@ -84,3 +84,4 @@ Di seguito è riportato il confronto del codice per applicare stili a righe e co
 {{< /highlight >}}
 ## **Scarica**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/ApplyStylesToRanges.Aspose.Cells.zip)
+{{< app/cells/assistant language="csharp" >}}

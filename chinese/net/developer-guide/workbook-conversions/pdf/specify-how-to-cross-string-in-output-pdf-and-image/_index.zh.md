@@ -30,3 +30,4 @@ url: /zh/net/specify-how-to-cross-string-in-output-pdf-and-image/
 ### 示例代码
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-RenderUsingTextCrossType-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

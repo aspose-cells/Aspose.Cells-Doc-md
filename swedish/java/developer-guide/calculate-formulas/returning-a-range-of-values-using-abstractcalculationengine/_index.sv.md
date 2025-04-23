@@ -22,3 +22,4 @@ Skapa en klass med en funktion *CalculateCustomFunction*. Denna klass förläng
 Använd nu den ovanstående funktionen i ditt program.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ReturningRangeOfValues-1.java" >}}
+{{< app/cells/assistant language="java" >}}

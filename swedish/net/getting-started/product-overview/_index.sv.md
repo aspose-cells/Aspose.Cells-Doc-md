@@ -46,3 +46,4 @@ Om du har problem med Aspose.Cells, följ dessa enkla steg för att se till att 
 - Titta igenom forumen, denna dokumentation och API-referensen innan du rapporterar problemet; kanske har din fråga redan besvarats.
 - Vid rapportering av ett problem, vänligen inkludera det ursprungliga dokumentet och eventuellt ett fragment av din kod som orsakar problemet. Om du behöver bifoga flera filer, komprimera dem till en. Det är säkert att bifoga dina dokument i Aspose Forum när tråden är privat eftersom bara du och Aspose-personal kommer att ha tillgång till de bifogade filerna.
 - Försök att rapportera ett problem per tråd. Om du har ett annat problem, rapportera det i en separat tråd.
+{{< app/cells/assistant language="csharp" >}}

@@ -18,3 +18,4 @@ FÃ¶ljande kod laddar in [prov Excelfil](55541778.xlsx) men den prov Excelfilen Ã
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-IgnoreErrorsWhileRenderingExcelToPdf.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

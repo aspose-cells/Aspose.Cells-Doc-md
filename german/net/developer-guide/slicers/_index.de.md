@@ -36,3 +36,4 @@ Bitte beachten Sie den folgenden Beispielcode. Es lädt die [Beispieldatei Excel
 - [Slicer entfernen](/cells/de/net/removing-slicer/)
 - [Slicer rendern](/cells/de/net/rendering-slicer/)
 - [Slicer aktualisieren](/cells/de/net/updating-slicer/)
+{{< app/cells/assistant language="csharp" >}}

@@ -15,11 +15,11 @@ Puede usar GridJs de manera fluida en dispositivos móviles.
 
 El cliente js de GridJs puede adaptarse a la pantalla móvil.
 
-Ejecute la [demo de GridJs](https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs "demo de GridJs")
+Ejecuta el [demo de GridJs ](https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs "demo de GridJs")
 
-El puerto predeterminado del proyecto de demostración es 8080. 
+El puerto predeterminado del proyecto demo es 8080. 
 
-Abra el navegador en su dispositivo móvil e ingrese la URL http://sudirecciónIP:8080/gridjsdemo/index. 
+Abre el navegador en tu dispositivo móvil e ingresa la url http://tuip:8080/gridjsdemo/index. 
 
 ![todo:la navegación de pantalla en móvil](gridjs_edit_on_mobile.png)
 

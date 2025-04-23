@@ -26,3 +26,4 @@ Aspose.Cells позволяет пользователю проверить, п�
 Is VBA Code Project Signed: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -16,3 +16,4 @@ Microsoft Excelでは、**ツール > デジタル署名...**メニューコマ�
 以下のコードは、ワークブックをロードし、[**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned)プロパティを使用してそのVBAプロジェクトが署名されているかどうかをチェックします。プロパティはプロジェクトが署名されている場合は**true**を返し、それ以外の場合は**false**を返します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-CheckVbaProjectSigned-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

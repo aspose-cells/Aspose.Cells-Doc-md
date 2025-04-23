@@ -28,3 +28,4 @@ Följande provkod konverterar provexelfilen till HTML vilket bara är en normal 
 - [Konvertera Excel-filer till HTML](/cells/sv/java/converting-workbook-to-different-formats/#convertingworkbooktodifferentformats-convertingexcelfilestohtml)
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

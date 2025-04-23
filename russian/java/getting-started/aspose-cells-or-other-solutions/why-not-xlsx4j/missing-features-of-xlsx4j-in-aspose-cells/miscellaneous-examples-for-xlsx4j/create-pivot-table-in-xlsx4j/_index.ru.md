@@ -168,3 +168,4 @@ workbook.save(dataDir + "AsposePivotTable.xls");
 Дополнительные сведения см. в разделе [Создание сводных таблиц и сводных диаграмм](/cells/ru/java/create-pivot-tables-and-pivot-charts).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

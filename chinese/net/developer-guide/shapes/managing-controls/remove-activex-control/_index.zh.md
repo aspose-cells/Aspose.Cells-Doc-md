@@ -12,3 +12,4 @@ Aspose.Cells 提供了从工作簿中移除 ActiveX 控件的功能。为此，A
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RemoveActiveXControl-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

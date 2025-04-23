@@ -16,3 +16,4 @@ El ejemplo de código a continuación muestra cómo crear un rango con nombre no
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ImplementingNonSequencedRanges-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

@@ -288,3 +288,4 @@ book.Save(dir  + "output.xls");
 ## **Переименованные API**
 ### **Переименован метод Workbook.RemoveDigitallySign**
 Метод Workbook.RemoveDigitallySign был переименован в Workbook.RemoveDigitalSignature.
+{{< app/cells/assistant language="csharp" >}}

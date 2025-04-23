@@ -7,7 +7,7 @@ url: /it/java/rich-text-custom-data-label-of-chart-point/
 
 {{% alert color="primary" %}}
 
-Puoi utilizzare Aspose.Cells per creare un'etichetta dati personalizzata con testo ricco del punto del grafico. Aspose.Cells fornisce il metodo [**DataLabels.characters()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#characters(int,%20int)) per restituire l'oggetto [**FontSetting**](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) che può essere utilizzato per impostare le proprietà del carattere del testo come il colore, la grassetto, ecc.
+Puoi utilizzare Aspose.Cells per creare un'etichetta dati personalizzata con testo ricco del punto del grafico. Aspose.Cells fornisce il metodo [**DataLabels.characters()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#characters-int-int-) per restituire l'oggetto [**FontSetting**](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) che può essere utilizzato per impostare le proprietà del carattere del testo come il colore, la grassetto, ecc.
 
 {{% /alert %}}
 
@@ -20,3 +20,4 @@ Il seguente codice accede al primo punto del grafico della prima serie, imposta 
 ## Articoli correlati
 
 - [Imposta il tipo di forma delle etichette dati del grafico](/cells/it/java/set-the-shape-type-of-data-labels-of-chart/)
+{{< app/cells/assistant language="java" >}}

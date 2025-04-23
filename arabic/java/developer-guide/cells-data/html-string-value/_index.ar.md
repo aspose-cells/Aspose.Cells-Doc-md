@@ -28,3 +28,4 @@ Aspose.Cells يدعم تحويل HTML موجه من Microsoft Excel إلى تن�
 - [عرض الرموز باستخدام قيمة الخلية باستخدام HTML](/cells/ar/java/display-bullets-by-setting-cell-value-using/)
 - [الحصول على سلسلة HTML5 من الخلية](/cells/ar/java/get-html5-string-from-cell/)
 
+{{< app/cells/assistant language="java" >}}

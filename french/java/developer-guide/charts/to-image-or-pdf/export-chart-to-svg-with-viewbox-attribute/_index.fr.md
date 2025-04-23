@@ -29,3 +29,4 @@ Si vous ouvrez le SVG du graphique dans le bloc-notes, vous trouverez l'attribut
 
 - [Rendu du graphique](/cells/fr/java/chart-rendering/)
 - [Exporter une feuille de calcul ou un graphique en image avec une largeur et une hauteur souhaitées](/cells/fr/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+{{< app/cells/assistant language="java" >}}

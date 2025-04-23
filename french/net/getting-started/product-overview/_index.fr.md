@@ -46,3 +46,4 @@ Si vous avez un problème avec Aspose.Cells, suivez ces étapes simples pour vou
 - Parcourez les forums, cette documentation et la référence de l'API avant de signaler le problème ; peut-être que votre question a déjà été répondue.
 - Lorsque vous signalez un problème, veuillez inclure le document d'origine et éventuellement un fragment de votre code qui pose problème. Si vous devez joindre plusieurs fichiers, zippez-les en un seul. Il est sûr de joindre vos documents dans Aspose.Forums lorsque le fil de discussion est privé, car seules vous et les membres du personnel d'Aspose auront accès aux fichiers joints.
 - Veuillez essayer de signaler un problème par fil de discussion. Si vous avez un autre problème, signalez-le dans un fil de discussion séparé.
+{{< app/cells/assistant language="csharp" >}}

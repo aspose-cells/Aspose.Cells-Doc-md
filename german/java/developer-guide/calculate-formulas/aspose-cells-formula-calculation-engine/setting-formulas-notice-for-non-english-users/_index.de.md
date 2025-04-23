@@ -17,3 +17,4 @@ Es gibt zwei Tipps, die nicht-englischsprachige Benutzer beim Erstellen von Form
    Bei einigen Sprachoptionen oder Einstellungen wird das Trennzeichen für Funktionsparameter als Semikolon verwendet, aber Aspose.Cells verwendet das englische Komma. Verwenden Sie beispielsweise "=IF (C5=0,0,C3/C4)" und nicht "=IF(C5=0;0;C3/C4)". 
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

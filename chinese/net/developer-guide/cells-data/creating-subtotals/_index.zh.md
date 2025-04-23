@@ -35,3 +35,4 @@ Aspose.Cells提供了一个代表Microsoft Excel文件的类,[**Workbook**](http
 
 ## **高级主题**
 - [应用小计和更改概要行的方向，使之位于详细信息下方](/cells/zh/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+{{< app/cells/assistant language="csharp" >}}

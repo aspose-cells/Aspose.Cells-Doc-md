@@ -37,3 +37,4 @@ Dies umfasst folgende umfangreiche Funktionen von Aspose.Cells im Vergleich zu x
   - [Registerkartenfarbe im Arbeitsblatt in xlsx4j festlegen](/cells/de/java/set-worksheet-tab-color-in-xlsx4j/)
 
 **Hinweis:** Viele weitere Beispiele werden in Kürze verfügbar sein.
+{{< app/cells/assistant language="java" >}}

@@ -16,7 +16,7 @@ url: /ar/java/managing-controls/
 - تقوم الطريقة [**getTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame) بإرجاع كائن [**MsoTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame) المستخدم لتعديل محتويات مربع النص.
 - تقوم الطريقة [**setPlacement**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement) بتحديد نوع الوضع.
 - تقوم الطريقة [**setFont**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Font) بتحديد سمات الخط.
-- الطريقة [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink(java.lang.String)) تضيف ارتباطًا تشعبيًا لصندوق النص.
+- الطريقة [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink-java.lang.String-) تضيف ارتباطًا تشعبيًا لصندوق النص.
 - تُعيد خاصية [**FillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#FillFormat) كائن [**MsoFillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoFillFormat) المستخدم لضبط تنسيق ملء مربع النص.
 - تُعيد الخاصية [**LineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#LineFormat) كائن [**MsoLineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoLineFormat) المستخدم عادة لتنسيق ووزن خط مربع النص.
 - تحدد الطريقة [**setText**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text) النص المدخل لمربع النص.
@@ -335,3 +335,4 @@ url: /ar/java/managing-controls/
 ## **مواضيع متقدمة**
 - [إضافة عناصر تحكم ActiveX باستخدام Aspose.Cells](/cells/ar/java/add-activex-controls-using-aspose-cells/)
 - [إزالة عنصر تحكم ActiveX](/cells/ar/java/remove-activex-control/)
+{{< app/cells/assistant language="java" >}}

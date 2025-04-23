@@ -16,3 +16,4 @@ url: /ru/net/remove-unused-styles-inside-the-workbook/
 ![todo:image_alt_text](remove-unused-styles-inside-the-workbook_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RemoveUnusedStyles-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

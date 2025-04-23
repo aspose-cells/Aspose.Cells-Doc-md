@@ -14,3 +14,4 @@ Microsoft Excel, kullanıcılara ek bilgi eklemek ve verileri vurgulamak için h
 Aspose.Cells, yoruma metin yönü belirlemek için [**Shape.TextDirection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textdirection) özelliği sağlar. Aşağıdaki örnek kod, yorum için metin yönünü belirlemek için [**Shape.TextDirection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textdirection) özelliğinin kullanımını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeTextDirection-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

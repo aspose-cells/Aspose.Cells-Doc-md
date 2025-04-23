@@ -218,3 +218,4 @@ docker run --mount type=bind,source=C:\Windows\Fonts,target=/Fonts  --mount type
 - [Visual Studio 2019, .NET Core 3.1 SDK](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=netcore31#dependencies)
 - Option zum Wechseln zu Linux-Containern
 - Zusätzliche Informationen zum .NET Core SDK
+{{< app/cells/assistant language="csharp" >}}

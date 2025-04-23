@@ -89,7 +89,7 @@ Koden nedan demonstrerar hur man använder [**HtmlSaveOptions.image_options**](h
 
 ## **Konvertera Excel-arbetsbok till Markdown**
 
-Aspose.Cells för Python via .NET API ger stöd för att exportera kalkylblad till Markdown-format. För att exportera det aktiva kalkylbladet till Markdown, skicka [**SaveFormat.Markdown**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) som det andra parametern till [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)-metoden. Du kan även använda [**MarkdownSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions)-klassen för att specificera ytterligare inställningar för att exportera kalkylblad till Markdown.
+Aspose.Cells för Python via .NET API ger stöd för att exportera kalkylblad till Markdown-format. För att exportera det aktiva kalkylbladet till Markdown, skicka [**SaveFormat.MARKDOWN**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat) som det andra parametern till [**Workbook.Save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.saveformat)-metoden. Du kan även använda [**MarkdownSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/markdownsaveoptions)-klassen för att specificera ytterligare inställningar för att exportera kalkylblad till Markdown.
 
 Följande kodexempel visar hur man exporterar det aktiva kalkylbladet till Markdown genom att använda [**SaveFormat.MARKDOWN**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)-uppräkningsmedlemmen. Se även [utdatan Markdown-fil](md_sample.txt) genererad av koden för referens.
 

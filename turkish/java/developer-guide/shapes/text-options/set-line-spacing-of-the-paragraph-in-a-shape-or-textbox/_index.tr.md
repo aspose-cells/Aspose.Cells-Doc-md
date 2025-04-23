@@ -26,3 +26,4 @@ Aşağıdaki örnek kod, bahsedilen özelliklerin kullanımını açıklar. Lüt
 
 
 
+{{< app/cells/assistant language="java" >}}

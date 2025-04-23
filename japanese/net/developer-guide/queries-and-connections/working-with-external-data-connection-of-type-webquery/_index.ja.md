@@ -26,3 +26,4 @@ Workbook.DataConnectionsコレクションを使用して、任意の種類の�
 Web Query URL: https://docs.aspose.com/cells/net/
 
 {{< /highlight >}}
+{{< app/cells/assistant language="csharp" >}}

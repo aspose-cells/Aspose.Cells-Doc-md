@@ -16,3 +16,4 @@ La classe [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.c
 Lorsque vous utilisez la fonction de feuille à image, l'image de sortie a par défaut un espace blanc/vide, c'est-à-dire une bordure, autour d'elle. Vous pouvez supprimer cela. Définissez les marges de mise en page supérieure, gauche, inférieure et droite pour la feuille source à 0 et spécifiez les attributs [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) en conséquence.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-RemoveWhitespaceAroundData-1.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -30,3 +30,4 @@ Il seguente codice di esempio carica il file Excel di esempio e lo salva in form
 ### Codice di esempio
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-RenderUsingTextCrossType-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

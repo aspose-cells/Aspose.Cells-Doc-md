@@ -70,3 +70,4 @@ workbook.Save(FileName);
 ## **Télécharger un exemple en cours d'exécution**
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+{{< app/cells/assistant language="csharp" >}}

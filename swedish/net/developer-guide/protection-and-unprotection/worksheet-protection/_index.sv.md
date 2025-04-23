@@ -38,3 +38,4 @@ Avsökning av arbetsblad är enkel med Aspose.Cells API. Om arbetsbladet är lö
 - [Skydda kalkylblad](/cells/sv/net/protecting-worksheets/)
 - [Avskydda ett kalkylblad](/cells/sv/net/unprotect-a-worksheet/)
 - [Verifiera lösenord som används för att skydda arbetsbladet](/cells/sv/net/verify-password-used-to-protect-the-worksheet/)
+{{< app/cells/assistant language="csharp" >}}

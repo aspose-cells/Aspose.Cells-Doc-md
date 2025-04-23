@@ -106,3 +106,4 @@ Scarica **Aggiungi immagine nel foglio di lavoro** da uno dei siti di codifica s
 Per ulteriori dettagli, visita [Working with Worksheets](/cells/it/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

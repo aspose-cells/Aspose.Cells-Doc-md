@@ -9,7 +9,7 @@ keywords: Ofis 2013, Ofis 2016, Ofis 2019 ve Ofis 365 olmadan pivot bağlantıs�
 
 ## **Olası Kullanım Senaryoları**
 
-Excel'de dilimleyiciyi ve pivot tabloyu ilişkilendirmek istiyorsanız, dilimleyiciye sağ tıklayın ve "Rapor Bağlantıları..." öğesini seçin. Seçenek listesinde onay kutusunu işaretleyebilirsiniz. Benzer şekilde, Aspose.Cells Java API'sını kullanarak dilimleyiciyi ve pivot tabloyu ilişkilendirmek istiyorsanız, [**Slicer.addPivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#addPivotConnection(com.aspose.cells.PivotTable)/) yöntemini kullanın. Bu, dilimleyiciyi ve pivot tabloyu ilişkilendirecektir.
+Excel'de dilimleyiciyi ve pivot tabloyu ilişkilendirmek istiyorsanız, dilimleyiciye sağ tıklayın ve "Rapor Bağlantıları..." öğesini seçin. Seçenek listesinde onay kutusunu işaretleyebilirsiniz. Benzer şekilde, Aspose.Cells Java API'sını kullanarak dilimleyiciyi ve pivot tabloyu ilişkilendirmek istiyorsanız, [**Slicer.addPivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#addPivotConnection-com.aspose.cells.PivotTable-) yöntemini kullanın. Bu, dilimleyiciyi ve pivot tabloyu ilişkilendirecektir.
 
 ## **Dilimleyiciyi ve Pivot Tablosunu İlişkilendir**
 
@@ -19,3 +19,4 @@ Aşağıdaki örnek kod önceden var olan bir dilimleyici içeren [örnek Excel 
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Slicers-Adding-Pivot-Connection.java" >}}
+{{< app/cells/assistant language="java" >}}

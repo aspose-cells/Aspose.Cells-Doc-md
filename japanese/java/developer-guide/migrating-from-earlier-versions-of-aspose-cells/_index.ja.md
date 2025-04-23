@@ -44,3 +44,4 @@ url: /ja/java/migrating-from-earlier-versions-of-aspose-cells/
 - [Aspose.Cells 16.11.0の公開APIの変更](/cells/ja/java/public-api-changes-in-aspose-cells-16-11-0/)
 - [Aspose.Cells 16.12.0の公開APIの変更](/cells/ja/java/public-api-changes-in-aspose-cells-16-12-0/)
 - [Aspose.Cells 17.1.0の公開APIの変更](/cells/ja/java/public-api-changes-in-aspose-cells-17-1-0/)
+{{< app/cells/assistant language="java" >}}

@@ -47,13 +47,13 @@ Aspose.Cellsは、[Cell](https://reference.aspose.com/cells/java/com.aspose.cell
 ### **従属をトレース**
 Aspose.Cellsを使用すると、スプレッドシート内の依存セルを取得できます。Aspose.Cellsは、単純な式に関連するデータを提供するセルだけでなく、名前付き範囲からのデータを提供する複雑な式の依存セルも検索できます。
 
-Aspose.Cellsは、[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)クラスの[GetDependents](https://reference.aspose.com/cells/java/com.aspose.cells/Cell#getDependents(boolean))メソッドを提供しており、これを使用してセルの依存セルを追跡できます。たとえば、Book1.xlsxにはセルB2およびC2に式"=A1+20"および"=A1+30"が含まれています。次の例は、テンプレートファイルBook1.xlsxを使用して、A1セルの依存セルを追跡する方法を示しています。
+Aspose.Cellsは、[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)クラスの[GetDependents](https://reference.aspose.com/cells/java/com.aspose.cells/Cell#getDependents-boolean-)メソッドを提供し、セルの従属セルを追跡します。例として、Book1.xlsxには"=A1+20"と"=A1+30"という式があり、B2とC2セルにあります。以下の例は、テンプレートファイルBook1.xlsxを使用してA1セルの従属セルを追跡する方法を示しています。
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-TracingDependents.java" >}}
 ### **計算チェーンに従って直前および依存セルを追跡する**
-追跡先行および依存関係の上記のAPIは、式自体に従います。これらは、数式の相互依存関係を追跡するための便利な方法を提供します。ワークブックに多数の数式があり、ユーザーがすべてのセルの追跡先行および依存関係を追跡する必要がある場合、パフォーマンスが低下します。そのような状況では、[GetPrecedentsInCalculation](https://reference.aspose.com/cells/java/com.aspose.cells/Cell#getPrecedentsInCalculation--)および[GetDependentsInCalculation](https://reference.aspose.com/cells/java/com.aspose.cells/Cell#getDependentsInCalculation(boolean)/)メソッドを使用することを検討すべきです。これらの2つのメソッドは、計算チェーンに従って依存関係を追跡します。したがってこれらを使用するためには、まず[Workbook.Settings.FormulaSettings.EnableCalculationChain](https://reference.aspose.com/cells/java/com.aspose.cells/FormulaSettings#EnableCalculationChain)で計算チェーンを有効にする必要があります。その後、[Workbook.CalculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions))でワークブックの完全な計算を行う必要があります。その後、追跡先行または依存関係を必要とするすべてのセルのためにこれを行うことができます。
+前述のトレース先と依存先のAPIは、式の式自体に基づいています。これらはユーザーが数式間の相互依存性を追跡するための便利な方法を提供するだけです。ワークブック内に大量の数式があり、すべてのセルについて前提セルや依存セルを追跡する必要がある場合、パフォーマンスが低下します。このような状況では、[GetPrecedentsInCalculation](https://reference.aspose.com/cells/java/com.aspose.cells/Cell#getPrecedentsInCalculation--)および[GetDependentsInCalculation](https://reference.aspose.com/cells/java/com.aspose.cells/Cell#getDependentsInCalculation-boolean-)メソッドの使用を検討してください。これらの2つのメソッドは、計算チェーンに沿って依存関係を追跡します。使用するには、まず[Workbook.Settings.FormulaSettings.EnableCalculationChain](https://reference.aspose.com/cells/java/com.aspose.cells/FormulaSettings#EnableCalculationChain)で計算チェーンを有効にします。次に、[Workbook.CalculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula-com.aspose.cells.CalculationOptions-)を使用してワークブックの完全な計算を行います。その後、必要なすべてのセルについて前提セルまたは従属セルを追跡できます。
 
 一部の数式では、GetPrecedentsとGetPrecedentsInCalculationの結果の先行は異なる場合がありますし、GetDependentsとGetDependentsInCalculationの結果の依存関係も異なる場合があります。たとえば、セルA1の数式が"=IF(TRUE,B2,C3)"である場合、GetPrecedentsはA1の先行としてB2とC3を提供します。したがって、GetDependentsを確認すると、B2とC3の両方が依存関係A1を持っています。しかし、この数式の計算では、計算結果に影響するのは明らかにB2だけです。そのため、GetPrecedentsInCalculationはA1にC3を提供しませんし、GetDependentsInCalculationはC3にA1を提供しません。時には、ユーザーは現在のワークブックのデータに基づいて実際に計算結果に影響するそれらの相互依存関係を追跡する必要がある場合があります。その場合は、GetDependentsInCalculation/GetPrecedentsInCalculationを使用する必要があります。
 
@@ -61,3 +61,4 @@ Aspose.Cellsは、[Cell](https://reference.aspose.com/cells/java/com.aspose.cell
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-TracingDependenciesInCalculation.java" >}}
+{{< app/cells/assistant language="java" >}}

@@ -16,3 +16,4 @@ Aspose.Cellsは、セルの値がシングルクォーテーション記号で�
 以下のサンプルコードは、sampleと 'sampleのような文字列を[**Cell.StringValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue)プロパティで区別できないことを説明します。そのため、それらを区別するには[**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix)プロパティを使用する必要があります。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindIfCellValueStartsWithSingleQuote-FindIfCellValueStartsWithSingleQuote.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

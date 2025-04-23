@@ -47,3 +47,4 @@ Om du vill lägga till eller förbättra ett exempel uppmuntrar vi dig att bidra
 
 För att bidra kan du forka lagringsplatsen, redigera källkoden och skapa en pull-begäran. Vi kommer att granska ändringarna och inkludera dem i lagringsplatsen om de anses vara hjälpsamma.
 
+{{< app/cells/assistant language="java" >}}

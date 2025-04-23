@@ -26,3 +26,4 @@ Exempelkoden nedan visar hur man skapar anpassade diagram. I det här exemplet k
 För närvarande stöder Aspose.Cells endast anpassade diagram som kombinerar pie-, linje-, stapel- och stapelstapeldiagram men fler diagram kommer att stödjas i framtida versioner.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

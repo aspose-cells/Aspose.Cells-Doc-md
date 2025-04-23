@@ -18,3 +18,4 @@ url: /ar/net/disable-text-wrapping-for-data-labels-of-the-chart/
 يظهر النموذج العيني التالي كيفية تعطيل تضمين النص لتسميات البيانات في الرسم البياني.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-DisableTextWrappingForDataLabels-DisableTextWrappingForDataLabels.cs" >}}
+{{< app/cells/assistant language="csharp" >}}

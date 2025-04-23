@@ -36,3 +36,4 @@ Nach Erstellung eines Designer-Arbeitsblatts verwenden Sie Aspose.Cells, um das 
 Zusätzlich ermöglicht Ihnen Aspose.Cells das Hinzufügen von [intelligenten Markern](/cells/de/java/smart-markers/) zum Designer-Arbeitsblatt. Die intelligenten Marker werden zur Laufzeit mithilfe der Methode Process der Klasse [**WorkbookDesigner**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner) verarbeitet. Dies kann Ihnen dabei helfen, weniger Code zu schreiben und dennoch ein großartiges Ergebnis zu erzielen.
 
 [Weitere Informationen zu intelligenten Markern finden Sie hier](/cells/de/java/smart-markers/).
+{{< app/cells/assistant language="java" >}}

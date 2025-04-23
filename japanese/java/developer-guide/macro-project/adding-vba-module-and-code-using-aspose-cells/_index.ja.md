@@ -7,7 +7,7 @@ url: /ja/java/adding-vba-module-and-code-using-aspose-cells/
 
 {{% alert color="primary" %}}
 
-Aspose.Cellsを使用して新しいVBAモジュールとマクロコードを追加できます。 [**Workbook.getVbaProject().getModules().add(**)](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#add(com.aspose.cells.Worksheet)) メソッドを使用して、ブック内に新しいVBAモジュールを追加してください。
+Aspose.Cellsでは、Aspose.Cellsを使用して新しいVBAモジュールとマクロコードを追加できます。ワークブック内に新しいVBAモジュールを追加するには、[**Workbook.getVbaProject().getModules().add(**)](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#add-com.aspose.cells.Worksheet-)メソッドを使用してください。
 
 {{% /alert %}}
 
@@ -30,3 +30,4 @@ End Sub
 VBAモジュールおよびマクロコードを含む出力XLSMファイルを生成するサンプルコードを以下に示します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddVBAModuleAndCode-AddVBAModuleAndCode.java" >}}
+{{< app/cells/assistant language="java" >}}

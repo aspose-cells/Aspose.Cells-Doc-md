@@ -3,8 +3,8 @@ title: Druckoptionen festlegen
 type: docs
 weight: 40
 url: /de/python-net/setting-print-options/
-description: Dieser Artikel zeigt, wie Sie die Druckoptionen des Excel Arbeitsblattseiteneinrichtungsmerkmals programmgesteuert mit der Aspose.Cells für Python via .NET API festlegen können. Sie können den Druckbereich, die Drucktitel und die Seitenausrichtung festlegen.
-keywords: Python Excel Bibliothek, Python legt den Excel Druckbereich fest, Python legt die Excel Drucktitel fest, Python, wie man die Excel Seitenreihenfolge festlegt, Wie man Druckoptionen einstellt, Wie man den Druckbereich festlegt, Wie man Drucktitel festlegt. 
+description: Dieser Artikel zeigt, wie Sie programmgesteuert die Druckoptionen der Seitenlayoutfunktion in Excel mit der Aspose.Cells für Python via .NET API festlegen. Sie können den Druckbereich, Drucktitel und Seitenreihenfolge einstellen.
+keywords: Python Excel Bibliothek, Python Druckbereich in Excel festlegen, Python Drucktitel in Excel festlegen, Python Seitenreihenfolge in Excel festlegen, Python Druckoptionen einstellen, Python Druckbereich festlegen, Python Drucktitel festlegen. 
 ---
 
 {{% alert color="primary" %}}
@@ -13,7 +13,7 @@ Die Seiteneinrichtungseinstellungen von Microsoft Excel bieten mehrere Druckopti
 
 {{% /alert %}}
 
-## **Wie man Druckoptionen einstellt**
+## **Druckoptionen festlegen**
 
 Diese Druckoptionen ermöglichen es Benutzern:
 
@@ -26,9 +26,9 @@ Diese Druckoptionen ermöglichen es Benutzern:
 - Zellenfehler drucken.
 - Seiteneinteilung definieren.
 
-Aspose.Cells für Python via .NET unterstützt alle von Microsoft Excel angebotenen Druckoptionen und Entwickler können diese Optionen für Arbeitsblätter mithilfe der von der Klasse [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) angebotenen Eigenschaften einfach konfigurieren. Wie diese Eigenschaften verwendet werden, wird im Folgenden detaillierter erläutert.
+Aspose.Cells für Python via .NET unterstützt alle Druckoptionen, die von Microsoft Excel angeboten werden, und Entwickler können diese Optionen für Arbeitsblätter einfach konfigurieren, indem sie die Eigenschaften der [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) Klasse verwenden. Wie diese Eigenschaften verwendet werden, wird unten im Detail erläutert.
 
-## **Wie man den Druckbereich festlegt**
+## **Druckbereich festlegen**
 
 Standardmäßig umfasst der Druckbereich alle Bereiche des Arbeitsblatts, die Daten enthalten. Entwickler können einen bestimmten Druckbereich des Arbeitsblatts festlegen.
 
@@ -36,15 +36,15 @@ Verwenden Sie zum Auswählen eines bestimmten Druckbereichs die [**PageSetup**](
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPrintArea-1.py" >}}
 
-## **Wie man Drucktitel festlegt**
+## **Drucktitel festlegen**
 
-Aspose.Cells für Python via .NET ermöglicht es Ihnen, Zeilen- und Spaltenüberschriften auf allen Seiten eines gedruckten Arbeitsblatts zu wiederholen. Verwenden Sie dazu die Eigenschaften [**print_title_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_title_columns/) und [**print_title_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_title_rows) der Klasse [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup).
+Aspose.Cells für Python via .NET ermöglicht es Ihnen, Zeilen- und Spaltenüberschriften so festzulegen, dass sie auf allen Seiten eines gedruckten Arbeitsblatts wiederholt werden. Verwenden Sie dazu die Eigenschaften [**print_title_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_title_columns/) und [**print_title_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_title_rows) der [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) Klasse.
 
 Die zu wiederholenden Zeilen oder Spalten werden durch Übergabe ihrer Zeilen- oder Spaltennummern definiert. Zum Beispiel werden Zeilen als $1:$2 und Spalten als $A:$B definiert.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPrintTitle-1.py" >}}
 
-## **Wie man andere Druckoptionen einstellt**
+## **Weitere Druckoptionen festlegen**
 
 Die [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)-Klasse bietet auch mehrere andere Eigenschaften zur Festlegung allgemeiner Druckoptionen wie folgt:
 
@@ -61,9 +61,9 @@ Die vordefinierten Werte in der [**PrintCommentsType**](https://reference.aspose
 
 |**Druckkommentartypen**|**Beschreibung**|
 | :- | :- |
-|DRUCK_AN_ORT|Gibt an, Kommentare so zu drucken, wie sie auf dem Arbeitsblatt angezeigt werden.|
-|DRUCK_KEINE_KOMMENTARE|Gibt an, keine Kommentare zu drucken.|
-|DRUCK_BLATT_ENDE|Gibt an, Kommentare am Ende des Arbeitsblatts zu drucken.|
+|PRINT_IN_PLACE| Legt fest, Kommentare so zu drucken, wie sie im Arbeitsblatt angezeigt werden.
+|PRINT_NO_COMMENTS| Legt fest, keine Kommentare zu drucken.
+|PRINT_SHEET_END| Legt fest, Kommentare am Ende des Arbeitsblatts zu drucken.
 
 Die vordefinierten Werte der [**PrintErrorsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printerrorstype) Aufzählung sind unten mit ihren Beschreibungen aufgelistet.
 
@@ -71,14 +71,14 @@ Die vordefinierten Werte der [**PrintErrorsType**](https://reference.aspose.com/
 
 |**Druckfehlertypen**|**Beschreibung**|
 | :- | :- |
-|DRUCK_FEHLER_LEER|Gibt an, Fehler nicht zu drucken.|
-|DRUCK_FEHLER_STRICH|Gibt an, Fehler als "--" zu drucken.|
-|DRUCK_FEHLER_ANGEZEIGT|Gibt an, Fehler wie angezeigt zu drucken.|
-|DRUCK_FEHLER_NA|Gibt an, Fehler als "#N/A" zu drucken.|
+|PRINT_ERRORS_BLANK| Legt fest, Fehler nicht zu drucken.
+|PRINT_ERRORS_DASH| Legt fest, Fehler als "--" zu drucken.
+|PRINT_ERRORS_DISPLAYED| Legt fest, Fehler so zu drucken, wie sie angezeigt werden.
+|PRINT_ERRORS_NA| Legt fest, Fehler als "#N/A" zu drucken.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-OtherPrintOptions-1.py" >}}
 
-## **Wie man Seitenreihenfolge einstellt**
+## **Seitenreihenfolge festlegen**
 
 Die [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) Klasse bietet die [**Order**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/order) Eigenschaft, die verwendet wird, um die Reihenfolge mehrerer Seiten Ihres Arbeitsblatts zum Drucken festzulegen. Es gibt zwei Möglichkeiten, die Seiten wie folgt anzuordnen.
 
@@ -91,7 +91,7 @@ Die vordefinierten Werte der [**PrintOrderType**](https://reference.aspose.com/c
 
 |**Druckreihenfolgetypen**|**Beschreibung**|
 | :- | :- |
-|VON_OBEN_NACH_UNTEN|Stellt die Druckreihenfolge als von oben nach unten dar.|
-|VON_LINKS_NACH_RECHTS|Stellt die Druckreihenfolge als von links nach rechts dar.|
+|DOWN_THEN_OVER| Druckreihenfolge: zuerst nach unten, dann nach rechts.
+|OVER_THEN_DOWN| Druckreihenfolge: zuerst nach rechts, dann nach unten.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPageOrder-1.py" >}}

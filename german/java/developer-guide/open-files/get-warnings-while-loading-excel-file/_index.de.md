@@ -11,7 +11,7 @@ Manchmal versucht der Benutzer, die Arbeitsmappe zu laden, die etwas beschädigt
 
 ## **Warnungen beim Laden von Excel-Dateien erhalten**
 
-Der folgende Beispielcode zeigt, wie Sie Warnungen beim Laden einer Excel-Datei erhalten. Der Code lädt die [beispielhafte Excel-Datei](sampleDuplicateDefinedName.xlsx), die beim Laden eine [**DuplicateDefinedName**](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE_DEFINED_NAME) Warnung auslöst. Diese Warnung wird dann von der Methode [**IWarningCallback.Warning()**](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning(com.aspose.cells.WarningInfo)) eingefangen, die die Warnmeldungen in der Konsole ausgibt. Der Code speichert dann die Arbeitsmappe als [Ausgabe-Excel-Datei](outputDuplicateDefinedName.xlsx). Wenn Sie die beispielhafte Excel-Datei in Microsoft Excel öffnen, wird Ihnen diese Warnung ebenfalls angezeigt, wie im Screenshot gezeigt. Bitte überprüfen Sie auch die Konsolenausgabe des unten stehenden Codes für ein besseres Verständnis.
+Der folgende Beispielcode zeigt, wie Sie Warnungen beim Laden einer Excel-Datei erhalten. Der Code lädt die [beispielhafte Excel-Datei](sampleDuplicateDefinedName.xlsx), die beim Laden eine [**DuplicateDefinedName**](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE-DEFINED-NAME) Warnung auslöst. Diese Warnung wird dann von der Methode [**IWarningCallback.Warning()**](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning-com.aspose.cells.WarningInfo-) eingefangen, die die Warnmeldungen in der Konsole ausgibt. Der Code speichert dann die Arbeitsmappe als [Ausgabe-Excel-Datei](outputDuplicateDefinedName.xlsx). Wenn Sie die beispielhafte Excel-Datei in Microsoft Excel öffnen, wird Ihnen diese Warnung ebenfalls angezeigt, wie im Screenshot gezeigt. Bitte überprüfen Sie auch die Konsolenausgabe des unten stehenden Codes für ein besseres Verständnis.
 
 ![todo:image_alt_text](get-warnings-while-loading-excel-file_1.png)
 
@@ -34,3 +34,4 @@ Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:Panel!$B$228
 Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:'Queries '!$D$14:$D$16
 
 {{< /highlight >}}
+{{< app/cells/assistant language="java" >}}

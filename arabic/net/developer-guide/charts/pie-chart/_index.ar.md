@@ -43,3 +43,4 @@ url: /ar/net/creating-pie-chart-with-leader-lines/
 - [تنسيق البيانات في الرسوم البيانية](/cells/ar/net/data-formatting-in-charts/)
 - [ضبط مظهر الرسم البياني](/cells/ar/net/setting-chart-appearance/)
 
+{{< app/cells/assistant language="csharp" >}}

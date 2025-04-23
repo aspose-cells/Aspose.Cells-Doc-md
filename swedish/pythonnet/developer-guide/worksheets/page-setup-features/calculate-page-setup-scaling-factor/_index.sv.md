@@ -3,8 +3,8 @@ title: Beräkna siduppsättningsskalningsfaktorn
 type: docs
 weight: 300
 url: /sv/python-net/calculate-page-setup-scaling-factor/
-description: Den här artikeln ger exempelkod som förklarar hur man använder Aspose.Cells för Python via .NET APIer för att beräkna Sidlayout skalningsfaktor med passar till n sidor breda efter m långa alternativ på Excels kalkylblad programmatiskt.
-keywords: Python Excel bibliotek, Python Passar till n sida bred efter m lång excel, beräkna sidlayout skalningsfaktor i Python.
+description: Denna artikel ger exempel på kod som förklarar hur man använder Aspose.Cells för Python via .NET API er för att beräkna sidinställningens skalingsfaktor med hjälp av Fit to n sidor bredd och m högt alternativ för Excel arbetsblad programmässigt.
+keywords: Python Excel bibliotek, Python passa till n sidor brett och m högt Excel, beräkna sidinställningens skalningsfaktor i Python.
 ---
 
 {{% alert color="primary" %}}

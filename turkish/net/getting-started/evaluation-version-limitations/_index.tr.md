@@ -68,3 +68,4 @@ Aşağıdaki kod satırlarını ekleyerek (örneğin web.config dosyasında) bet
 Bu ayarlar, dosya sistemli web sitelerinde veya MS Ajax uzantıları vb. kullanıyorsanız bazı durumlarda zorunlu olabilir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="csharp" >}}

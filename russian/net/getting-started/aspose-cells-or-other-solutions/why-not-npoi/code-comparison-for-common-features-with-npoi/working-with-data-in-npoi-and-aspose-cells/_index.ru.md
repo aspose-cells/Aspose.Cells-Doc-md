@@ -10,3 +10,4 @@ url: /ru/net/working-with-data-in-npoi-and-aspose-cells/
 - [Получение содержимого ячейки](/cells/ru/net/getting-cell-contents/)
 - [Вставка гиперссылок в рабочем листе](/cells/ru/net/insert-hyperlinks-in-worksheet/)
 - [Новая строка в ячейках](/cells/ru/net/new-line-in-cells/)
+{{< app/cells/assistant language="csharp" >}}

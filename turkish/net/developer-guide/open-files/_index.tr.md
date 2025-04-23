@@ -42,4 +42,5 @@ Aspose.Cells ile Excel dosyalarını açmak, kaydetmek ve yönetmek kolaydır.
 - [Excel'i JSON'a dönüştür](/cells/tr/net/convert-excel-to-json/)
 - [JSON'ı CSV'ye dönüştür](/cells/tr/net/convert-json-to-csv/)
 - [JSON'ı Excel'e dönüştür](/cells/tr/net/convert-json-to-excel/)
-- [Excel'i HTML'ye dönüştür](/cells/tr/net/convert-excel-to-html/)
+- [Excel-İçeriği-HTML-Çevir](/cells/tr/net/convert-excel-to-html/)
+{{< app/cells/assistant language="csharp" >}}

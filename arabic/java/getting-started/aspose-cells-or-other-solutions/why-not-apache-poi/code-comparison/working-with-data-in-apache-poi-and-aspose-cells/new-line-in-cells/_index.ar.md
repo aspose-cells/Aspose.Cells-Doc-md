@@ -63,3 +63,4 @@ cell.setCellStyle(cs);
 لمزيد من التفاصيل، قم بزيارة [كسر السطر وتفاف النص](/java/line-breaks-and-text-wrapping).
 
 {{% /alert %}}
+{{< app/cells/assistant language="java" >}}

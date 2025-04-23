@@ -16,3 +16,4 @@ Aspose.Cells提供了获取数据透视表的外部连接数据源的能力。�
 代码片段中使用的源文件已附上供参考。
 
 [源文件](SamplePivotTableExternalConnection.xlsx)
+{{< app/cells/assistant language="java" >}}

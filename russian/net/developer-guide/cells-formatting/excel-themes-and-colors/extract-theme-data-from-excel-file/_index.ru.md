@@ -20,3 +20,4 @@ Aspose.Cells позволяет пользователям извлекать д
 В следующем образце кода извлекается название темы, примененной к исходной книге, а затем извлекается цвет темы, примененный к ячейке A1, и цвет темы, примененный к нижнему краю ячейки.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ExtractThemeData-1.cs" >}}
+{{< app/cells/assistant language="csharp" >}}
