@@ -20,7 +20,7 @@ url: /zh/reportingservices/supported-file-formats/
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)|将文档保存为ODS（OpenDocument Spreadsheet）。| |{{< emoticons/tick >}}|
 |SpreadsheetML|将文档保存为Excel 2003 XML文件。| {{< emoticons/tick >}}| 
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|将文档保存为XPS文件。| {{< emoticons/tick >}}| 
-|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|代表一个Markdown文档。| |{{< emoticons/tick >}}|
+|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|代表一个Markdown文档。|{{< emoticons/tick >}} |{{< emoticons/tick >}}|
 |[EMF](https://docs.fileformat.com/image/emf/)|将文档保存为EMF文件。| {{< emoticons/tick >}}| 
 |[DIF](https://docs.fileformat.com/spreadsheet/dif/)|将文档保存为DIF文件。| {{< emoticons/tick >}}| 
 |[JPG](https://docs.fileformat.com/image/jpeg/)|将文档保存为JPG文件。| {{< emoticons/tick >}}| 

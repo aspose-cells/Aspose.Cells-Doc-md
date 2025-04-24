@@ -36,7 +36,7 @@ url: /tr/python-java/supported-file-formats/
 |[EMF](https://docs.fileformat.com/image/emf/)|Geliştirilmiş meta dosyası Biçimi| |{{< emoticons/tick >}}|
 |[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG, kayıplı sıkıştırma yöntemi kullanılarak kaydedilen bir görüntü biçimidir.| |{{< emoticons/tick >}}|
 |[GIF](https://docs.fileformat.com/image/gif/)|Grafik Değişim Biçimi| |{{< emoticons/tick >}}|
-|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)| Bir Markdown belgesini temsil eder.| |{{< emoticons/tick >}}|
+|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)| Bir Markdown belgesini temsil eder.| {{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[SXC](https://docs.fileformat.com/spreadsheet/sxc/)|OpenOffice ve StarOffice tarafından kullanılan XML tabanlı bir biçimdir|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|Düz XML olarak depolanan bir Open Document biçimidir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|Microsoft Word belgeleri için bilinen bir biçimdir ve XML ve ikili dosyaların bir kombinasyonudur.||{{< emoticons/tick >}}|

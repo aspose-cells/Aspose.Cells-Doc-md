@@ -36,7 +36,7 @@ url: /sv/python-net/supported-file-formats/
 |[EMF](https://docs.fileformat.com/image/emf/)|Förbättrat metafilformat| |{{< emoticons/tick >}}|
 |[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG är en typ av bildformat som sparas med hjälp av metoden för förlustig komprimering.| |{{< emoticons/tick >}}|
 |[GIF](https://docs.fileformat.com/image/gif/)|Grafiskt utbytesformat| |{{< emoticons/tick >}}|
-|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|Representerar ett markdown-dokument.| |{{< emoticons/tick >}}|
+|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|Representerar ett markdown-dokument.| {{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[SXC](https://docs.fileformat.com/spreadsheet/sxc/)|Ett XML-baserat format som används av OpenOffice och StarOffice|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|Detta är ett Open Document-format som lagras som platt XML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|Ett välkänt format för Microsoft Word-dokument som är en kombination av XML- och binära filer.| |{{< emoticons/tick >}}|

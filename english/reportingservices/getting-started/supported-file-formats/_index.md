@@ -20,7 +20,7 @@ url: /reportingservices/supported-file-formats/
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)|Saves the document in ODS (OpenDocument Spreadsheet).| |{{< emoticons/tick >}}|
 |SpreadsheetML|Saves the document in Excel 2003 XML file.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|Saves the document in XPS file| |{{< emoticons/tick >}}|
-|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|Represents a markdown document.| |{{< emoticons/tick >}}|
+|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|Represents a markdown document.| {{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[EMF](https://docs.fileformat.com/image/emf/)|Saves the document in EMF file| |{{< emoticons/tick >}}|
 |[DIF](https://docs.fileformat.com/spreadsheet/dif/)|Saves the document in DIF file| |{{< emoticons/tick >}}|
 |[JPG](https://docs.fileformat.com/image/jpeg/)|Saves the document in JPG file| |{{< emoticons/tick >}}|

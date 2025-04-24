@@ -36,7 +36,7 @@ url: /ja/python-java/supported-file-formats/
 |[EMF](https://docs.fileformat.com/image/emf/)|拡張メタファイルフォーマット |{{< emoticons/tick >}}|
 |[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEGは、損失圧縮方式を用いて保存される画像形式の一種です。 |{{< emoticons/tick >}}|
 |[GIF](https://docs.fileformat.com/image/gif/)|グラフィカルインターチェンジフォーマット |{{< emoticons/tick >}}|
-|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|マークダウンドキュメントを表します。| |{{< emoticons/tick >}}|
+|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|マークダウンドキュメントを表します。|{{< emoticons/tick >}} |{{< emoticons/tick >}}|
 |[SXC](https://docs.fileformat.com/spreadsheet/sxc/)|OpenOfficeおよびStarOfficeで使用されるXMLベースの形式|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|これはフラットなXMLとして保存されたオープンドキュメント形式です。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|Microsoft Wordドキュメントのよく知られた形式で、XMLとバイナリファイルの組み合わせです。||{{< emoticons/tick >}}|

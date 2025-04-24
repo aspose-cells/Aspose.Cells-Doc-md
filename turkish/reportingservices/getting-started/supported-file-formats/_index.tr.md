@@ -20,7 +20,7 @@ url: /tr/reportingservices/supported-file-formats/
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)| Belgeyi ODS (Açık Belge Elektronik Tablo) biçiminde kaydeder.| |{{< emoticons/tick >}}|
 |SpreadsheetML| Belgeyi Excel 2003 XML dosyasında kaydeder.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)| Belgeyi XPS dosyasında kaydeder| |{{< emoticons/tick >}}|
-|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)| Bir Markdown belgesini temsil eder.| |{{< emoticons/tick >}}|
+|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)| Bir Markdown belgesini temsil eder.|{{< emoticons/tick >}} |{{< emoticons/tick >}}|
 |[EMF](https://docs.fileformat.com/image/emf/)| Belgeyi EMF dosyasında kaydeder| |{{< emoticons/tick >}}|
 |[DIF](https://docs.fileformat.com/spreadsheet/dif/)|Belgeyi DIF dosyasında kaydeder| |{{< emoticons/tick >}}|
 |[JPG](https://docs.fileformat.com/image/jpeg/)|Belgeyi JPG dosyasında kaydeder| |{{< emoticons/tick >}}|

@@ -36,7 +36,7 @@ url: /de/go-cpp/supported-file-formats/
 |[EMF](https://docs.fileformat.com/image/emf/)|Erweitertes Metafile-Format| |{{< emoticons/tick >}}|
 |[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG ist eine Art Bildformat, das unter Verwendung der Methode der verlustbehafteten Kompression gespeichert wird.| |{{< emoticons/tick >}}|
 |[GIF](https://docs.fileformat.com/image/gif/)|Graphical Interchange Format| |{{< emoticons/tick >}}|
-|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|Stellt ein Markdown-Dokument dar.| |{{< emoticons/tick >}}|
+|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|Stellt ein Markdown-Dokument dar.| {{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[SXC](https://docs.fileformat.com/spreadsheet/sxc/)|Ein auf XML basierendes Format, das von OpenOffice und StarOffice verwendet wird|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|Dies ist ein Open Document-Format, das als flaches XML gespeichert wird.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|Ein bekanntes Format für Microsoft Word-Dokumente, das eine Kombination aus XML und Binärdateien ist.||{{< emoticons/tick >}}|
