@@ -39,16 +39,6 @@ Comma Separated Values (CSV) files contain records where the values are separate
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-OpenCSVFile.go" >}}
 
-#### **Opening CSV files and replacing invalid characters**
-
-In Excel, when CSV file with special characters is opened, the characters are automatically replaced. The same is done by Aspose.Cells API which is demonstrated in the code example given below.
-
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-OpenCSVFileAndReplaceInvalidCharacters.go" >}}
-
-Sample source file can be downloaded from the following links for testing this feature.
-
-[InvalidCharacters.csv](InvalidCharacters.csv)
-
 ### **Opening Text Files with Custom Separator**
 
 Text files are used to hold spreadsheet data without formatting. The file is a kind of plain text file that can have some customized delimiters.
