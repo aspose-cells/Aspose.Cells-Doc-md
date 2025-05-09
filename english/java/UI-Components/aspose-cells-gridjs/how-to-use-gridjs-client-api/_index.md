@@ -270,6 +270,37 @@ shape.setControlable(isenable)
       isenable: when set to true,the image or shape can be selectable and movable/resizeable
 ```
 
+
+-  Insert rows
+```javascript
+xs.sheet.insertRows(start, n)
+    // the parameters are:
+	start: start row id 
+	n:how many rows will be inserted
+```
+-  Insert columns 
+```javascript
+xs.sheet.insertColumns(start, n)
+    // the parameters are:
+	start: start column id
+	n:how many columns will be inserted
+```
+-  Delete rows 
+```javascript
+xs.sheet.deleteRows(start, n)
+    // the parameters are:
+	start: start row id 
+	n:how many rows will be deleted
+```
+-  Delete columns 
+```javascript
+xs.sheet.deleteColumns(start, n)
+    // the parameters are:
+	start: start column id 
+	n:how many columns will be deleted
+```
+
+
 -  Get the cell object
 ```javascript
 xs.sheet.data.getCell(ri,ci)
@@ -335,19 +366,6 @@ xs.sheet.data.setFreeze(ri,ci)
 	ci:column index
 ```
 
--  Insert row or columns at  the selected cell  
-```javascript
-xs.sheet.data.insert(type, n)
-    // the parameters are:
-	type: row | column
-	n:the row or column number
-```
--  Delete row or columns at  the selected cell  
-```javascript
-xs.sheet.data.delete(type)
-    // the parameters are:
-	type: row | column
-```
 
 -  Set the width for the column
 ```javascript
