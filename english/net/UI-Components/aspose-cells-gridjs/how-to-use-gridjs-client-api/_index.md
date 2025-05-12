@@ -58,7 +58,8 @@ the parameters for load options:
 | `updateMode` | Currently, only supports `server`. | `server` | No |
 | `updateUrl` | Set the server-side URL for update actions based on JSON. | None | No |
 | `view` | Set the view size for the sheet, e.g., `{width: () => 1000, height: ()=> 500}`. | `{width: () => document.documentElement.clientWidth, height: () => document.documentElement.clientHeight }` | Yes |
-    
+| `token` | Set the authentication token. When the token is not null, the `Authorization: Bearer {token}` header will be automatically added to the request headers. You can use `xs.refreshToken(token)` to set a new token. | None | Yes |    
+
 -  load with json data
 ```javascript
 xs.loadData(data)
