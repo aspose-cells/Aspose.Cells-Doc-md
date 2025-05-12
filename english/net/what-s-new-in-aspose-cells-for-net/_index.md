@@ -16,7 +16,7 @@ This page describes the most interesting new Aspose.Cells features introduced in
 * Enhancement for copying slicers when copying workbook
 * Support token option of API request for GridJs
 * Support Polish menus for GridJs
-* Support Support javascript APIs for inserting/deleting rows/columns for GridJs
+* Support javascript APIs for inserting/deleting rows/columns for GridJs
 
 ## Aspose.Cells for .NET 25.4
 * Support specifying the sheet set to export to HTML
