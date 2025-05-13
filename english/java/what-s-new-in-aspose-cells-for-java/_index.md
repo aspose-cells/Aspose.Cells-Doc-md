@@ -8,14 +8,24 @@ url: /java/what-s-new-in-aspose-cells-for-java/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 25.5
+* Support exporting images for Markdown format
+* Support exporting textbox, conditional formattings to Numbers format
+* Support exporting embedded image and entity data to Docx format
+* Support camera feature of range
+* Enhancement for copying slicers when copying workbook
+* Support token option of API request for GridJs
+* Support Polish menus for GridJs
+* Support javascript APIs for inserting/deleting rows/columns for GridJs
+
 ## Aspose.Cells for Java 25.4
-* Supports specifying the sheet set to export to HTML
-* Supports getting and setting the gridline color of a worksheet
-* Supports exporting editable charts to DOCX files
-* Supports reading and writing sensitivity labels
-* Supports exporting more style attributes to Numbers
-* Supports importing template files in Markdown format
-* Supports detecting whether any custom function is used by formulas in `Cell` and `Workbook`
+* Support specifying the sheet set to export to HTML
+* Support getting and setting the gridline color of a worksheet
+* Support exporting editable charts to DOCX files
+* Support reading and writing sensitivity labels
+* Support exporting more style attributes to Numbers
+* Support importing template files in Markdown format
+* Support detecting whether any custom function is used by formulas in `Cell` and `Workbook`
 
 ## Aspose.Cells for Java 25.3
 * Support to get display style of one cell from cells without getting the cell object
