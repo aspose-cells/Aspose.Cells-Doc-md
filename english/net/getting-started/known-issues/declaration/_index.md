@@ -1,5 +1,5 @@
 ---
-title: Declaration
+title: Trust Permissions on web server
 type: docs
 weight: 30
 url: /net/declaration/
@@ -8,6 +8,8 @@ url: /net/declaration/
 {{% alert color="primary" %}} 
 
 Generally, all Aspose .NET components require Full Trust permissions set. The reason is that Aspose for .NET components need to access registry settings, system files other than virtual directory for certain operations like parsing fonts etc. Moreover, Aspose for .NET components (including Aspose.Cells for .NET) are based on core .NET system classes that also require Full Trust permissions set in many cases.
+<br/>
+Medium Trust has been removed in .NET Core and .NET 5+. Medium Trust is the security mechanism in the era of .NET Framework. Medium Trust has gradually been replaced by more flexible security policies. We suggest that users prioritize upgrading to .NET 5+ and adopting containerized deployment instead of relying on traditional trust levels.
 
 {{% /alert %}} 
 ## **Partial Trust / Medium Trust Challenge**
