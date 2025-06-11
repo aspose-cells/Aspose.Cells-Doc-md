@@ -8,6 +8,11 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 25.6
+* Support embedding fonts for generated pcl file
+* Support exporting hyperlink and print settings when saving Numbers
+* Support option of selecting the sheet reference for pivottable when coping worksheet
+
 ## Aspose.Cells for .NET 25.5
 * Support exporting images for Markdown format
 * Support exporting textbox, conditional formattings to Numbers format
