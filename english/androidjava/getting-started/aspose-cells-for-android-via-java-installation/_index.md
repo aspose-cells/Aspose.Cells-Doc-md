@@ -33,7 +33,7 @@ dependencies {
 
     ...
 
-    compile (group: 'com.aspose', name: 'aspose-cells', version: '20.6', classifier: 'android.via.java')
+    compile (group: 'com.aspose', name: 'aspose-cells', version: '25.6', classifier: 'android.via.java')
 
 }
 
