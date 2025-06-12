@@ -18,19 +18,19 @@ For .netcore31 or before, for compatibility and stability, currently we still us
 - System.Security.Cryptography.Pkcs, 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
-## Run Aspose.Cells for .Net6 on Windows
+## Run Aspose.Cells for .Net6 (or gerter) on Windows
 
-First you can create a .net6 application with VS2022, then you can choose the following installation options:
+First you can create a .net6 (or gerter) application with VS2022, then you can choose the following installation options:
 
 ### Install through nuget
 
 1. Search for Aspose.Cells from NuGet: [Aspose.Cells for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Cells/). 
 You can also install Aspose.Cells from the Nuget package manager in VS2022.
 
-2. "SkiaSharp" or "System.Drawing.Common" will be installed automatically as a dependency of Aspose.Cells 22.10.1 or later for .Net6 platforms, which depends on "Target OS" configuration in your project.
-- Set the "Target OS" to "Windows" for your project, you will use "System.Drawing.Common" as a dependency on your windows system for .Net6 project. In this configuration, the result of the drawing is closer to .netcore31 or before.
+2. "SkiaSharp" or "System.Drawing.Common" will be installed automatically as a dependency of Aspose.Cells 22.10.1 or later for .Net6 (or gerter) platforms, which depends on "Target OS" configuration in your project.
+- Set the "Target OS" to "Windows" for your project, you will use "System.Drawing.Common" as a dependency on your windows system for .Net6 (or gerter) project. In this configuration, the result of the drawing is closer to .netcore31 or before.
 **![Config target OS](TargetOS.png)**
-- Set the "Target OS" to "None" or other options for your project, you will use "SkiaSharp" as a dependency on your windows system for .Net6 project. *Please note the version that uses "SkiaSharp" as a dependency doesn't support printing to printer feature.*
+- Set the "Target OS" to "None" or other options for your project, you will use "SkiaSharp" as a dependency on your windows system for .Net6 (or gerter) project. *Please note the version that uses "SkiaSharp" as a dependency doesn't support printing to printer feature.*
 
 ### Install through msi or DLL
 
@@ -43,15 +43,16 @@ You can also install Aspose.Cells from the Nuget package manager in VS2022.
 - System.Security.Cryptography.Pkcs, 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
-In this way, you will use "System.Drawing.Common" as a dependency on your windows system for .Net6 project. In this configuration, the result of the drawing is closer to .netcore31 or before.
+In this way, you will use "System.Drawing.Common" as a dependency on your windows system for .Net6 (or gerter) project. In this configuration, the result of the drawing is closer to .netcore31 or before.
 
 4. locate the "net6.0" subdirectory, add the Aspose.Cells.dll in it to your .net6 application. Manually add the following nuget packages to your .net6 project:
 - SkiaSharp, 3.116.1.
 - System.Security.Cryptography.Pkcs, 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
-In this way, you will use "SkiaSharp" as a dependency on your windows system for .Net6 project. *Please note the version that uses "SkiaSharp" as a dependency doesn't support printing to printer feature.*
-## Run Aspose.Cells for .Net6 on Linux
+In this way, you will use "SkiaSharp" as a dependency on your windows system for .Net6 (or gerter) project. *Please note the version that uses "SkiaSharp" as a dependency doesn't support printing to printer feature.*
+
+## Run Aspose.Cells for .Net6 (or gerter) on Linux
 
 Refer to the installation method on Windows, you can only select SkiaSharp as a graphics library dependency on Linux system.
 
@@ -66,8 +67,8 @@ OR
 apk update && apk add fontconfig 
 ```
 
-2. Add the nuget package "SkiaSharp.NativeAssets.Linux 3.116.1" to your .net6 project.
-3. Or you can choose to add the nuget packages "SkiaSharp.NativeAssets.Linux.NoDependencies 3.116.1" to your .net6 project, instead of the two steps above.
+2. Add the nuget package "SkiaSharp.NativeAssets.Linux 3.116.1" to your .net6 (or gerter) project.
+3. Or you can choose to add the nuget packages "SkiaSharp.NativeAssets.Linux.NoDependencies 3.116.1" to your .net6 (or gerter) project, instead of the two steps above.
 
 *Please note, the version of the added package "SkiaSharp.NativeAssets.Linux" or "SkiaSharp.NativeAssets.Linux.NoDependencies" should be corresponding to the version of "SkiaSharp" referenced by Aspose.Cells for .NET. The versions of Aspose.Cells for .NET and the corresponding referenced "SKiaSharp" versions are described as following:*
 
@@ -83,7 +84,7 @@ apk update && apk add fontconfig
 
 ### Example Dockerfile for Ubuntu
 
-1. Add the nuget package "SkiaSharp.NativeAssets.Linux 3.116.1" to your .net6 project.
+1. Add the nuget package "SkiaSharp.NativeAssets.Linux 3.116.1" to your .net6 (or gerter) project.
 
 2. Use the following Dockerfile:
 {{< highlight plain >}}
@@ -119,7 +120,7 @@ ENTRYPOINT ["dotnet", "Ubuntu_Docker.dll"]
 
 ### Example Dockerfile for Alpine
 
-1. Add the nuget package "SkiaSharp.NativeAssets.Linux 3.116.1" to your .net6 project.
+1. Add the nuget package "SkiaSharp.NativeAssets.Linux 3.116.1" to your .net6 (or gerter) project.
 
 2. Use the following Dockerfile:
 {{< highlight plain >}}
