@@ -34,3 +34,10 @@ Here's an example code snippet to demonstrate how to export excel data to a pand
 1. Use the pandas library to read JSON data.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-by-json.py" >}}
+
+## **Convert Excel to Pandas DataFrame via CSV file**
+Due to the characteristics of the CSV file format, converting an .xlsx file to a CSV file and then loading it into a Pandas DataFrame is a natural and straightforward process:
+1. Convert a .xlsx to CSV file.
+1. Convert CSV file to Pandas DataFrame .
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-via-CSV.py" >}}
