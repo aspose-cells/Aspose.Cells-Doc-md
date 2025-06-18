@@ -28,6 +28,8 @@ Converting a pandas DataFrame to CSV is a common operation. Using Aspose.Cells f
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-import-pandas-data-via-CSV.py" >}}
 
+![todo:image_alt_text](pandas_chart.png)
+
 ## **Convert Pandas DataFrame to Excel via json data**
 Here's an example code snippet to demonstrate how to import data from a pandas DataFrame to an Excel file using Aspose.Cells for Python via .NET:
 1. Create a sample pandas DataFrame data.
@@ -35,3 +37,9 @@ Here's an example code snippet to demonstrate how to import data from a pandas D
 1. Import JSON data using Aspose.Cells for Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-import-pandas-data-by-json.py" >}}
+
+## **Exporting Multiple Pandas DataFrames to Excel Sheets**
+Sometimes, we may also want to insert multiple DataFrames into different worksheets in an [Excel file](MultiDataFrame.xlsx).The following example demonstrates this process.
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-import-multi-pandas-to-Excel.py" >}}
+

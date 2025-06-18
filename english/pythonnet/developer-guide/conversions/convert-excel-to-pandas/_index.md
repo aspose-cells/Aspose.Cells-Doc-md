@@ -22,7 +22,7 @@ Here's an example code snippet to demonstrate how to export excel data to a pand
 
 ## **Convert an Existing Excel File to Pandas DataFrame**
 Here's an example code snippet to demonstrate how to export excel data to a pandas DataFrame by opening an existing .xlsx file using Aspose.Cells for Python via .NET:
-1. Open a existing Workbook.
+1. Open a existing [Excel file](PandasTest.xlsx).
 1. Convert each row and column cells data into pandas DataFrame.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-by-openning-file.py" >}}
@@ -37,7 +37,7 @@ Here's an example code snippet to demonstrate how to export excel data to a pand
 
 ## **Convert Excel to Pandas DataFrame via CSV file**
 Due to the characteristics of the CSV file format, converting an .xlsx file to a CSV file and then loading it into a Pandas DataFrame is a natural and straightforward process:
-1. Convert a .xlsx to CSV file.
+1. Convert a [existing xlsx](ProductDatatoCSV.xlsx) to CSV file.
 1. Convert CSV file to Pandas DataFrame .
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-via-CSV.py" >}}
