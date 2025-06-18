@@ -13,6 +13,21 @@ Using Aspose.Cells for Python via .NET API, you can convert pandas DataFrame to 
 
 {{% /alert %}}
 
+## **Convert Pandas DataFrame to Excel directly**
+Here's an example code snippet to demonstrate how to import data from a pandas DataFrame to an Excel file using Aspose.Cells for Python via .NET:
+1. Create a sample pandas DataFrame data.
+1. Traverse DataFrame and import data using Aspose.Cells for Python via .NET.
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-import-pandas-data-directly.py" >}}
+
+## **Convert Pandas DataFrame to XLSX via CSV format**
+Converting a pandas DataFrame to CSV is a common operation. Using Aspose.Cells for Python via .NET, we can perform additional processing on the generated CSV file, such as creating charts and saving as an XLSX file. The following code demonstrates this workflow:
+1. Create a sample pandas DataFrame data.
+1. Convert DataFrame to CSV using pandas.
+1. Create charts and save as XLSX with Aspose.Cells for Python via .NET.
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-import-pandas-data-via-CSV.py" >}}
+
 ## **Convert Pandas DataFrame to Excel via json data**
 Here's an example code snippet to demonstrate how to import data from a pandas DataFrame to an Excel file using Aspose.Cells for Python via .NET:
 1. Create a sample pandas DataFrame data.
@@ -20,10 +35,3 @@ Here's an example code snippet to demonstrate how to import data from a pandas D
 1. Import JSON data using Aspose.Cells for Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-import-pandas-data-by-json.py" >}}
-
-## **Convert Pandas DataFrame to Excel directly**
-Here's an example code snippet to demonstrate how to import data from a pandas DataFrame to an Excel file using Aspose.Cells for Python via .NET:
-1. Create a sample pandas DataFrame data.
-1. Traverse DataFrame and import data using Aspose.Cells for Python via .NET.
-
-{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-import-pandas-data-directly.py" >}}
