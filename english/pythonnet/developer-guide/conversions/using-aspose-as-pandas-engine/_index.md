@@ -69,30 +69,43 @@ class AsposeCellsExcelReader:
  
     def parse(self, sheet_name, header=0, **kwargs):
         wb = Workbook(self.filepath)
-        ws = wb.worksheets[sheet_name] if isinstance(sheet_name, int) else wb.worksheets.get(sheet_name)
-        cells = ws.cells
+        worksheet = wb.worksheets[sheet_name] if isinstance(sheet_name, int) else wb.worksheets.get(sheet_name)
+        # Get the Cells collection from the worksheet
+        cells = worksheet.cells
 
-        max_row = cells.max_data_row
-        max_col = cells.max_data_column
+        # Calculate number of columns: max_col - min_col (both are 0-based)
+        col_count = cells.max_data_column - cells.min_data_column
 
-        start_row = header if header is not None else 1
-        # print(start_row)
-        data = []
-        for row_idx in range(start_row, max_row + 1):
-            row = []
-            for col_idx in range(0, max_col + 1):
-                value = cells.get(row_idx, col_idx).string_value
-                row.append(value)
-            data.append(row)
+        # Initialize a list to hold all the row data
+        output_data = []
 
-        # extract column name
+        # Get the index of the first row that contains data
+        first_data_row_Index = cells.min_data_row
+
+        # Iterate through all the rows
+        for row in cells.rows.__iter__():
+            if row is None:
+                continue  # Skip if the row is not initialized
+
+            row_data = []
+            for cell in row.__iter__():
+                row_data.append(cell.value)
+            output_data.append(row_data)
+
+        # Prepare the column names
+        columns = []
         if header is not None:
-            columns = [cells.get(header, col_idx).string_value for col_idx in range(max_col + 1)]
-            data = data[1:]
+            row = cells.rows[first_data_row_Index]
+            for cell in row.__iter__():
+                columns.append(cell.value)
+            # Remove the header row from the data
+            output_data = output_data[1:]
         else:
-            columns = [f"Unnamed: {i}" for i in range(max_col + 1)]
+            # If no header, generate default column names like "Unnamed: 0", "Unnamed: 1", ...
+            columns = [f"Unnamed: {i}" for i in range(col_count + 1)]
 
-        return pd.DataFrame(data, columns=columns)
+        # Convert the data into a pandas DataFrame
+        return pd.DataFrame(output_data, columns=columns)
   
     def close(self):
         pass  # Required by pandas API
