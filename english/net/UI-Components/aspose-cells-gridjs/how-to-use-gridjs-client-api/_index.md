@@ -401,7 +401,7 @@ xs.sheet.setAllColsWidth(width)
 
 -  Get the cell object
 ```javascript
-xs.sheet.getCell(ri,ci)
+xs.sheet.data.getCell(ri,ci)
     // the parameters are:
 	ri:row index 
 	ci:column index
