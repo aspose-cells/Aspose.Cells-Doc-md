@@ -300,15 +300,113 @@ xs.sheet.deleteColumns(start, n)
 	start: start column id 
 	n:how many columns will be deleted
 ```
-
-
--  Get the cell object
+-  Set the freeze pane
 ```javascript
-xs.sheet.data.getCell(ri,ci)
+xs.sheet.freeze(ri,ci)
     // the parameters are:
 	ri:row index 
 	ci:column index
 ```
+- Unfreeze pane
+```javascript
+xs.sheet.freeze(0,0)
+```
+
+- Set editable/readonly range
+```javascript
+xs.sheet.setEditableRange(range,isenable)
+    // the parameters are:
+	range:the cell range ,etc. {sri:0,sci:0,eri:2:eci:2} reprensents range start from cell A1 to C3
+	isenable:when set to true,the range is editable.other wise,the range is readonly.
+```
+
+-  Hide rows 
+```javascript
+xs.sheet.hideRows(sri,eri)
+    // the parameters are:
+	sri:the start row index 
+	eri:the end row index
+```
+
+-  Unhide rows
+```javascript
+xs.sheet.unhideRows(sri,eri)
+    // the parameters are:
+	sri:the start row index 
+	eri:the end row index
+```
+
+-  Hide columns 
+```javascript
+xs.sheet.hideColumns(sci,eci)
+    // the parameters are:
+	sci:the start column index 
+	eci:the end column index
+```
+
+-  Unhide columns
+```javascript
+xs.sheet.unhideColumns(sci,eci)
+    // the parameters are:
+	sci:the start column index 
+	eci:the end column index
+```
+
+
+-  Set the height for the row
+```javascript
+xs.sheet.setRowHeight(ri,height)
+    // the parameters are:
+	ri:row index
+	height:the height for the row
+```
+-  Set the height for the rows
+```javascript
+xs.sheet.setRowsHeight(sri,eri,height)
+    // the parameters are:
+	sri:start row index
+	eri:end row index
+	height:the height for the rows
+```
+
+-  Set the height for all the rows
+```javascript
+xs.sheet.setAllRowsHeight(height)
+    // the parameters are:
+	height:the height for the rows
+```
+
+-  Set the width for the column
+```javascript
+xs.sheet.setColWidth(ci,width)
+    // the parameters are:
+	ci:column index
+	width:the width for the column
+```
+-  Set the width for the columns
+```javascript
+xs.sheet.setColsWidth(sci,eci,width)
+    // the parameters are:
+	sci:the start column index
+	eci:the end column index
+	width:the width for the column
+```
+
+-  Set the width for all the columns
+```javascript
+xs.sheet.setAllColsWidth(width)
+    // the parameters are:
+	width:the width for the columns
+```
+
+-  Get the cell object
+```javascript
+xs.sheet.getCell(ri,ci)
+    // the parameters are:
+	ri:row index 
+	ci:column index
+```
+
 -  Get the cell style
 ```javascript
 xs.sheet.data.getCellStyle(ri,ci)
@@ -358,38 +456,9 @@ xs.sheet.data.unmerge()
 xs.sheet.data.deleteCell(type)
     // the parameters are:
 	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
-```
--  Set the freeze pane
-```javascript
-xs.sheet.data.setFreeze(ri,ci)
-    // the parameters are:
-	ri:row index 
-	ci:column index
-```
+ 
 
 
--  Set the width for the column
-```javascript
-xs.sheet.data.setColWidth(ci,width)
-    // the parameters are:
-	ci:column index
-	width:the width for the column
-```
--  Set the width for the columns
-```javascript
-xs.sheet.data.setColsWidth(sci,eci,width)
-    // the parameters are:
-	sci:the start column index
-	eci:the end column index
-	width:the width for the column
-```
-
--  Set the width for all the columns
-```javascript
-xs.sheet.data.setAllColsWidth(width)
-    // the parameters are:
-	width:the width for the columns
-```
 
 -  Get the width for the column 
 ```javascript
@@ -399,28 +468,6 @@ xs.sheet.data.cols.sumWidth(min,max)
 	max:the end column index,not include
 ```
 
--  Set the height for the row
-```javascript
-xs.sheet.data.setRowHeight(ri,height)
-    // the parameters are:
-	ri:row index
-	height:the height for the row
-```
--  Set the height for the rows
-```javascript
-xs.sheet.data.setRowsHeight(sri,eri,height)
-    // the parameters are:
-	sri:start row index
-	eri:end row index
-	height:the height for the rows
-```
-
--  Set the height for all the rows
-```javascript
-xs.sheet.data.setAllRowsHeight(height)
-    // the parameters are:
-	height:the height for the rows
-```
 
 
 -  Get the height for the row 
