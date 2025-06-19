@@ -35,7 +35,7 @@ git clone https://github.com/pandas-dev/pandas.git
 
 ---
 
-## Step 1: create an isolated environment
+## Step 1: Create an isolated environment
 
 ```bash
 # Set up virtual environment
@@ -132,7 +132,7 @@ _engines: Mapping[str, Any] = {
 
 ---
 
-## Step 4: build and install pandas
+## Step 4: Build and install pandas
 ```bash
 # build and install pandas
 python -m pip install -ve . --no-build-isolation
