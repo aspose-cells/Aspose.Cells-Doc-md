@@ -25,22 +25,26 @@ Aspose.Cells offers:
 
 ## Prerequisites
 
-- [Install a C compiler](https://pandas.pydata.org/docs/dev/development/contributing_environment.html#step-1-install-a-c-compiler), If you have installed Visual Studio 2022 on your Windows system, you can open the **x64 Native Tools Command Prompt for VS 2022** and run the `cl` command to check the version of the C++ compiler.  
-Make sure the compiler version is **19.3x or higher** before proceeding with the following build steps.
+- [Install a C compiler](https://pandas.pydata.org/docs/dev/development/contributing_environment.html#step-1-install-a-c-compiler)
+- Here, we use the Windows platform as an example for explanation.If you have installed Visual Studio 2022 on your Windows system, you can open the **x64 Native Tools Command Prompt for VS 2022** and run the `cl` command to check the version of the C++ compiler. Make sure the compiler version is **19.3x or higher** before proceeding with the following build steps.
 - Make sure that you have [cloned the repository](https://github.com/pandas-dev/pandas.git)
+```bash
+git clone https://github.com/pandas-dev/pandas.git
+```
+- `cd` to the pandas source directory you just created with the clone command
 
 ---
 
-## Step 1: Clone and Set Up Pandas Locally
+## Step 1: create an isolated environment
 
 ```bash
-# Set up Aspsoe cells environment
-pip install aspose-cells-python
 # Set up virtual environment
 python -m venv .venv
 .\.venv\Scripts\activate      # on Windows
 # source .venv/bin/activate  # on Linux/macOS
 
+# Install aspose-cells-python
+pip install aspose-cells-python
 # Install the build dependencies
 python -m pip install -r requirements-dev.txt
 ```
@@ -131,7 +135,7 @@ git clean -xfd
 
 
 ## Step 5: Use the Engine
-
+You can use the following [Excel file](test.xlsx) for testing.
 ```python
 import pandas as pd
 # asposecells
@@ -139,6 +143,8 @@ df = pd.read_excel("test.xlsx", engine="asposecells", sheet_name=0, header=0)
 # print and check DataFrame
 print(df)
 ```
+After running it, you should get a result like this.
+![todo:image_alt_text](result.png)
 
 ---
 
