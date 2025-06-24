@@ -24,7 +24,7 @@ To install and use Aspose.Cells for Node.js via Java from a ZIP archive, follow 
 ### **Linux:**
 - Download and install [Node.js](https://nodejs.org/en/download/).
 - Install Oracle JDK (1.7 or 1.8) for Linux, configure JAVA_HOME environment variable.
-- Install python 2.x
+- Install python 3.x
 - Install [node-java](https://github.com/joeferner/node-java) bridge. You may run below commands @ terminal: 
 
 
@@ -133,7 +133,7 @@ console.log("hello world");
 
 
 
-- Install python 2.x (if it is not installed).
+- Install python 3.x (if it is not installed).
 - Install node-java bridge. You may run below commands @ terminal:
 
 `         `$ mkdir aspose.cells.js.java
