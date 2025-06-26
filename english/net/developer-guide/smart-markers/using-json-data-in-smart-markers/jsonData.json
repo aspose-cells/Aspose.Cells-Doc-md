@@ -1,0 +1,27 @@
+{
+    "number": 10,
+    "test": "test abc",
+    "date": "2011-10-05T14:48:00.000Z",
+    "arrayNumber": [1,2,3,4,5],
+    "arrayWords": ["x1","xy2","yz3","z4"],
+    "arrayOfObjects": [
+      {"valNumber":12,"valString": "aa"},
+      {"valNumber":15,"valString": "bb"},
+      {"valNumber":1,"valString": "cc"},
+      {"valNumber":20,"valString": "dd"}
+
+    ],
+    "nestedArray": [
+      {"valNumber":12,"valString": "xy","nestArr": [{"val": 1,"some": "aa"}]},
+      {"valNumber":15,"valString": "y","nestArr": [{"val": 2,"some": "bb"}]},
+      {"valNumber":1,"valString": "yz","nestArr": [{"some": "cc"}]},
+      {"valNumber":20,"valString": "z","nestArr": [{"some": "dd"}]}
+    ],
+  "Products": [
+    { "ProductID": "A101", "ProductName": "Apples", "Units": 5 },
+    { "ProductID": "A101", "ProductName": "Apples", "Units": 10 },
+    { "ProductID": "B202", "ProductName": "Bananas", "Units": 7 },
+    { "ProductID": "B202", "ProductName": "Bananas", "Units": 3 },
+    { "ProductID": "C303", "ProductName": "Cherries", "Units": 8 }
+  ]
+}
