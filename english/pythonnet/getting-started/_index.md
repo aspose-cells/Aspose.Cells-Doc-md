@@ -73,7 +73,7 @@ In some cases, after installing a new version of **aspose-cells-python**, users 
 This indicates that the previous version was not completely uninstalled, leading to a conflict between the newly installed version and the old one.  
 You can resolve this issue by following the steps below:
 
-1: First, we recommend creating a clean virtual environment to ensure version 25.6 works properly on your Windows machine:
+- First, you can create a clean virtual environment to ensure the latest version works properly on your Windows machine:
 
 ```
 # Set up virtual environment
@@ -84,12 +84,11 @@ pip install aspose-cells-python
 ```
 Then run your program.
 
-2: If you prefer to continue using your original environment, please try the following steps:
+- If you prefer to continue using your original environment, please try the following steps:
 
 ```
 pip uninstall aspose-cells-python
 ```
-
 Make sure the uninstallation is successful. If any errors occur during uninstallation, try running the command multiple times.
 Alternatively, locate your **site-packages** directory, typically something like:
 
