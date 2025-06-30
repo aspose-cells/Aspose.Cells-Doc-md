@@ -65,6 +65,51 @@ cp ./SkiaSharp.NativeAssets.macOS.2.88.6/runtimes/osx/native/libSkiaSharp.dylib 
 
 Of course, if you want it simpler, you can also download [libSkiaSharp.dylib](libSkiaSharp.dylib) and then **copy** it to the **/usr/local/lib** directory.
 
+> ⚠️ **Note:**  
+In some cases, after installing a new version of **aspose-cells-python**, users may encounter an error like the following:
+
+**While initializing the host for the ‘WrpNs_Aspose.WrpNs_Cells.WrpCs_Workbook_xxxxxx (Assembly=WrpInterop.Aspose.Cells)’ type, an error occurred - Method ‘call_000_xxxxxx’ not found**
+
+This indicates that the previous version was not completely uninstalled, leading to a conflict between the newly installed version and the old one.  
+You can resolve this issue by following the steps below:
+
+1: First, we recommend creating a clean virtual environment to ensure version 25.6 works properly on your Windows machine:
+
+```
+# Set up virtual environment
+python -m venv .venv
+.\.venv\Scripts\activate
+# Install aspose-cells-python
+pip install aspose-cells-python
+```
+Then run your program.
+
+2: If you prefer to continue using your original environment, please try the following steps:
+
+```
+pip uninstall aspose-cells-python
+```
+
+Make sure the uninstallation is successful. If any errors occur during uninstallation, try running the command multiple times.
+Alternatively, locate your **site-packages** directory, typically something like:
+
+```
+\Python3x\Lib\site-packages
+```
+
+Then manually delete the following directories (if they exist):
+
+```
+aspose
+aspose_cells*
+```
+
+After that, reinstall the package:
+
+```
+pip install aspose-cells-python
+```
+
 ## **How to Create the Hello World Application using Aspose.Cells for Python via .NET**
 
 - Create a file named **CreatingHelloWorldFile.py** and use the following sample code:
