@@ -20,4 +20,18 @@ With the positional information, the shapes can be placed in the corresponding p
 The output is shown in the following picture, where one shape is placed in the top left corner of the PlotArea and the other shape is placed below the chart title.
 ![todo:image_alt_text](OutputResult.png)
 
+## Unit explanation and conversion
+
+There are three units for the position of object in chart:
+
+1. Units of ratio of the chart area.
+
+2. Units of 1/4000 of the chart area. This is a unit used in older versions of Excel file, and it is not recommended.
+
+3. Units of pixel.
+
+The conversion code of them is shown in the following code: 
+
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "object-position-unit-in-chart.cs" >}}
+
 {{< app/cells/assistant language="csharp" >}}
