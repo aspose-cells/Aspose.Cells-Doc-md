@@ -59,6 +59,7 @@ the parameters for load options:
 | `updateUrl` | Set the server-side URL for update actions based on JSON. | None | No |
 | `view` | Set the view size for the sheet, e.g., `{width: () => 1000, height: ()=> 500}`. | `{width: () => document.documentElement.clientWidth, height: () => document.documentElement.clientHeight }` | Yes |
 | `token` | Set the authentication token. When the token is not null, the `Authorization: Bearer {token}` header will be automatically added to the request headers. You can use `xs.refreshToken(token)` to set a new token. | None | Yes |    
+| `showBottombarStats` | Whether to show the bottom bar statistics.<br>The default value is true. | `true` | Yes |   
 
 -  load with json data
 ```javascript
@@ -174,9 +175,39 @@ ___
 xs.reRender()
 ```
 
--  get active sheet id
+-  Get active sheet id
 ```javascript
 xs.getActiveSheet()
+```
+
+-  Add a new worksheet
+```javascript
+xs.addSheet(name,isactive,tabcolor,fontcolor)
+// the parameters are:
+	name:the sheet name
+	isactive:whether set this sheet as active sheet
+	tabcolor:the background color for the sheet in the tab bottom menu
+	fontcolor:the font color for the sheet name in the tab bottom menu
+   for example:
+    xs.addSheet('hello',true,'#12ee5b','#2c5d3b')
+```
+-  Modify the sheet name
+```javascript
+xs.modifySheetName(oldName,newName)
+// the parameters are:
+	oldName:the sheet name
+	newName:the new desired name
+   for example:
+     xs.modifySheetName('Sheet1','student');
+```
+-  Delete the sheet
+```javascript
+xs.deleteSheet(name)
+// the parameters is:
+	name:the sheet name
+   for example:
+        xs.deleteSheet('Sheet1');
+
 ```
 
 -   Set Zoom level
@@ -398,6 +429,25 @@ xs.sheet.setAllColsWidth(width)
     // the parameters are:
 	width:the width for the columns
 ```
+
+-  Set the comment at the cell
+```javascript
+xs.sheet.setComment(ri,ci,author,note)
+    // the parameters are:
+	ri:row index of the cell
+	ci:column index of the cell
+	author:the author for the comment
+	note:the content for the comment
+```
+
+-  Remove the comment at the cell
+```javascript
+xs.sheet.removeComment(ri,ci)
+    // the parameters are:
+	ri:row index of the cell
+	ci:column index of the cell
+```
+
 
 -  Get the cell object
 ```javascript
