@@ -2,7 +2,7 @@
 title: Excel MCP - AI-Powered Spreadsheet Automation
 linktitle: MCP
 type: docs
-weight: 1
+weight: 30
 url: /nodejs-cpp/mcp/
 keywords: "Excel MCP, Excel AI, AI Excel, Excel Formula MCP, spreadsheets MCP, Excel automation, AI-powered Excel"
 description: "Excel MCP - AI-powered spreadsheet automation server for Excel AI integration, Excel Formula MCP, and comprehensive Excel automation workflows"

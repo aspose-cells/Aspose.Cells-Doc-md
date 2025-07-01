@@ -1,7 +1,7 @@
 ---
 title: Features
 type: docs
-weight: 5
+weight: 10
 url: /nodejs-cpp/features/
 keywords: "nodejs, excel, api, features"
 description: "Aspose.Cells for Node.js via C++ features."
