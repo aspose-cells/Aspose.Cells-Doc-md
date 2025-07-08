@@ -223,6 +223,14 @@ xs.setFileName(name)
 // the parameters is:
 	name:the file name with extension ,for example trip.xlsx
 ```
+-   Set function call before save 
+```javascript
+xs.setBeforeSaveFunction(func)
+// the parameters is:
+	func:This function is called before the save action. If it returns true, the save will proceed; otherwise, the save will not proceed.
+   for example:
+	xs.setBeforeSaveFunction(()=>{console.log('hello before save');return true;});
+```
 
 - Callback function for email sending feature.
 ```javascript
@@ -513,12 +521,20 @@ xs.sheet.data.merge()
 ```javascript
 xs.sheet.data.unmerge()
 ```
--  Delete the selected cell  
+-  Delete the cell content or clear the style at the selected cell  
 ```javascript
 xs.sheet.data.deleteCell(type)
     // the parameters are:
 	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
- 
+```
+
+-  Delete the cell content or clear the style at the desired cell area
+```javascript
+xs.sheet.data.deleteRange(range,type)
+    // the parameters are:
+        range:the cell range ,etc. {sri:0,sci:0,eri:2:eci:2} reprensents range start from cell A1 to C3
+	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
+```
 
 
 
