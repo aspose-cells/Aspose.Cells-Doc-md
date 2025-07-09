@@ -269,6 +269,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |ISNONTEXT|**Information**: Returns TRUE if the value is not text
 |ISNUMBER|**Information**: Returns TRUE if the value is a number
 |ISODD|**Information**: Returns TRUE if the number is odd
+|ISOMITTED|**Information**: Checks whether the value in a LAMBDA is missing and returns TRUE or FALSE
 |ISREF|**Information**: Returns TRUE if the value is a reference
 |ISTEXT|**Information**: Returns TRUE if the value is text
 |ISOWEEKNUM|**Date and time**: Returns the number of the ISO week number of the year for a given date
@@ -477,6 +478,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |T|**Text**: Converts its arguments to text
 |TAN|**Math and trigonometry**: Returns the tangent of a number
 |TANH|**Math and trigonometry**: Returns the hyperbolic tangent of a number
+|TAKE|**Lookup and reference**: Returns a specified number of contiguous rows or columns from the start or end of an array
 |TBILLEQ|**Financial**: Returns the bond-equivalent yield for a Treasury bill
 |TBILLPRICE|**Financial**: Returns the price per $100 face value for a Treasury bill
 |TBILLYIELD|**Financial**: Returns the yield for a Treasury bill
