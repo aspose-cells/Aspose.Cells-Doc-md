@@ -8,6 +8,11 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 25.7
+* Support new functions in formula: TAKE, ISOMITTED
+* Support Variables in Excel template for smart marker
+* Support exporting floating picture to Numbers
+
 ## Aspose.Cells for .NET 25.6
 * Support embedding fonts for generated pcl file
 * Support exporting hyperlink and print settings when saving Numbers
