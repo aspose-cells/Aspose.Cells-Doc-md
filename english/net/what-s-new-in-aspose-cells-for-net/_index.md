@@ -12,6 +12,7 @@ This page describes the most interesting new Aspose.Cells features introduced in
 * Support new functions in formula: TAKE, ISOMITTED
 * Support Variables in Excel template for smart marker
 * Support exporting floating picture to Numbers
+* Support using file cache for large cells dataset to decrease memory cost
 
 ## Aspose.Cells for .NET 25.6
 * Support embedding fonts for generated pcl file
