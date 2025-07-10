@@ -8,6 +8,12 @@ url: /java/what-s-new-in-aspose-cells-for-java/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 25.7
+* Support new functions in formula: TAKE, ISOMITTED
+* Support Variables in Excel template for smart marker
+* Support exporting floating picture to Numbers
+* Support using file cache for large cells dataset to decrease memory cost
+
 ## Aspose.Cells for Java 25.6
 * Support embedding fonts for generated pcl file
 * Support exporting hyperlink and print settings when saving Numbers
