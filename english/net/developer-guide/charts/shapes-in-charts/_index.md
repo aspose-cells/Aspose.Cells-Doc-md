@@ -34,6 +34,14 @@ The following example shows how to add a label to the chart. The example uses a 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-InsertingControlsintoCharts-AddingLabelControl-1.cs" >}}
 
+**Note:** This type of label control is only supported in XLS files. If you want a similar effect in an XLSX file, please use one of the following alternatives:
+
+1. Use the TextBox Control instead, there is a similar alternative to label Control in XLSX files.
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-textbox-control-to-the-chart) for TextBox, XLSX files can support.
+
+2. Add a Worksheet which the sheet type is "SheetType.Chart", and then add Chart and Control on this Sheet.
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-checkbox-in-the-chart) for adding SheetType.Chart.
+
 ## **Adding TextBox Control to the Chart**
 
 One way to highlight important information in a report is to use a text box. For example, enter text to highlight the company name or to indicate the geographic region with the highest sales. The [**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) class provides a method named [**AddTextBoxInChart**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addtextboxinchart), which is used to add a text box control to a chart. Following is the parameters list used for the method:
