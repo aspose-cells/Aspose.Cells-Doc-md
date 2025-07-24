@@ -167,3 +167,5 @@ Json data as follows:
 The example that follows shows how this works.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "SmartMarkers-Using-JSON-Data-Subtotal.java" >}}
+
+{{< app/cells/assistant language="java" >}}

@@ -28,22 +28,12 @@ Pivot charts are commonly used in business intelligence and data analysis to pro
 
 ## How to add a PivotChart using Aspose.Cells
 
-### **Adding a Pivot Table**
-
-To create a pivot table using Aspose.Cells:
-
-1. Add some data to a worksheet cells using a Cell object's PutValue/setValue method. You also use a template file already filled with data. The data will be used as the pivot table's data source.
-1. Add a pivot table to the worksheet by calling the PivotTables collection's add method (encapsulated in the Worksheet object).
-1. Access the new PivotTable object from the PivotTables collection by passing its index. # Use any of the pivot table objects encapsulated in the PivotTable object to manage the table.
-
-Code examples are given below.
-
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreatePivotTablesPivotCharts-CreatePivotTable-1.cs" >}}
-
-### **Adding a Pivot Chart**
-
 To create a PivotChart using Aspose.Cells:
 
+1. Load a [template file](pivotchart_data.xlsx) already filled with data. The data will be used as the pivot table's data source.
+1. Add a pivot table to the worksheet by calling the PivotTables collection's add method (encapsulated in the Worksheet object).
+1. Access the new PivotTable object from the PivotTables collection by passing its index. 
+1. Use any of the pivot table objects encapsulated in the PivotTable object to manage the table.
 1. Add a chart.
 1. Set the PivotSource of the chart to refer to an existing pivot table in the spreadsheet.
 1. Set other attributes.
