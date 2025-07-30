@@ -1,8 +1,9 @@
 ---
-title: Using Json Data in Smart Markers
+title: How to Use Json Data in Smart Markers
 type: docs
 weight: 30
-url: /net/using-json-data-in-smart-markers/
+url: /net/how-to-use-json-data-in-smart-markers/
+alias: [/net/using-json-data-in-smart-markers/]
 ---
 
 ## **Why Using Json Data in Smart Markers**
