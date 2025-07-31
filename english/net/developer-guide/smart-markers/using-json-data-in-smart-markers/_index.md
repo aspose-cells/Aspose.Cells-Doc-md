@@ -1,12 +1,12 @@
 ---
-title: How to Use Json Data in Smart Markers
+title: Smartly Importing JSON into Excel With Smart Markers
 type: docs
 weight: 30
-url: /net/how-to-use-json-data-in-smart-markers/
+url: /net/how-to-import-json-into-excel-with-smart-markers/
 alias: [/net/using-json-data-in-smart-markers/]
 ---
 
-## **Why Using Json Data in Smart Markers**
+## **Why Using Json Data for Smart Markers**
 Why Use JSON Data as Original Data for Smart Markers?
 JSON (JavaScript Object Notation) is a lightweight, human-readable data interchange format that's ideal for structuring hierarchical data. Here’s why it’s well-suited as original data for smart markers (dynamic placeholders that auto-populate spreadsheets, documents, or dashboards):
 

@@ -1,11 +1,11 @@
 ---
-title: How to Use Nested Objects in Smart Markers
+title: Smartly Importing Nested Objects into Excel With Smart Markers
 type: docs
 weight: 30
-url: /net/how-to-use-nested-objects-in-smart-markers/
+url: /net/how-to-import-nested-objects-with-smart-markers/
 ---
 
-## **Why Using Nested Objects in Smart Markers**
+## **Why Using Nested Objects for Smart Markers**
 Smart Markers (in tools like FoxPro, reporting engines, or modern template systems) are placeholders that dynamically inject data into templates. Using nested objects (e.g., <<customer.address.city>>) enhances flexibility, organization, and expressiveness.
 
 1. Hierarchical Data Representation: Real-world data is inherently nested (e.g., an Order contains a Customer, which has an Address). Nested objects mirror this structure, avoiding flattened/artificial fields like customer_city.
@@ -17,7 +17,7 @@ Smart Markers (in tools like FoxPro, reporting engines, or modern template syste
 6. Clearer Template Logic: Markers self-document relationships, <<user.profile.email>> is more intuitive than <<user_email>>. Reduces ambiguity in large templates.
 7. Framework/Tool Support: Modern engines (e.g., Handlebars, React, FoxPro) natively resolve nested paths. Aligns with JSON/APIs where nested data is standard.
 
-## **How to Use Anonymous Types or Custom Objects in Smart Markers**
+## **How to Import Anonymous Types or Custom Objects With Smart Markers**
 Aspose.Cells also supports anonymous types or custom objects in smart markers. The example that follows shows how this works.For importing data from dynamic objects using Smart Markers, visit the following article:
 
 [Importing from dynamic object as data source](/cells/net/import-data-into-worksheet/#importdataintoworksheet-importingfromdynamicobjectasdatasource)
@@ -25,7 +25,7 @@ Aspose.Cells also supports anonymous types or custom objects in smart markers. T
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-UsingAnonymousTypes-1.cs" >}}
 
-## **How to Use Nested Objects in Smart Markers**
+## **How to Import Nested Objects With Smart Markers**
 Aspose.Cells supports nested objects in smart markers, the nested objects should be simple. We use a simple template file. See the designer spreadsheet that contains some nested smart markers.
 
 |**The first worksheet of the SM_NestedObjects.xlsx file showing nested smart markers.**|
@@ -37,7 +37,7 @@ The example that follows shows how this works.
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-UsingNestedObjects-1.cs" >}}
 
 
-## **How to Use Generic List as Nested Object in Smart Markers**
+## **How to Import Generic List as Nested Object With Smart Markers**
 Aspose.Cells now also supports using generic list as a nested object. Please check the screenshot of the output excel file generated with the following code. As you can see in the screenshot a Teacher object contains multiple nested Student objects.
 
 |![todo:image_alt_text](using-smart-markers_8.png)|
@@ -45,7 +45,7 @@ Aspose.Cells now also supports using generic list as a nested object. Please che
 
 {{< gist  "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-SmartMarkers-UsingGenericList-1.cs" >}}
 
-## **How to Use Nested Objects Not Line by Line in Smart Markers**
+## **How to Import Nested Objects Not Line by Line With Smart Markers**
 The current default processing method is to process smartmaker line by line. But sometimes the smart markers of the same data table needs to be processed together, no matter 
 if they are in the same row or not, then you have to specify a named range "_CellsSmartMarkers" and specify  WorkbookDesigner.LineByLine as false before calling the processing.
 

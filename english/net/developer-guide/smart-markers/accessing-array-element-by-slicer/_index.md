@@ -1,11 +1,11 @@
 ---
-title: How to Access Array Element by Slicer in Smart Markers
+title: Smartly Importing Array Element by Slicer into Excel With Smart Markers
 type: docs
 weight: 30
-url: /net/how-to-access-array-element-by-slicer-in-smart-markers/
+url: /net/how-to-import-array-element-by-slicer-with-smart-markers/
 ---
 
-## **Why Accessing Array Element by Slicer in Smart Markers**
+## **Why Accessing Array Element by Slicer**
 In FastReport's Smart Markers, accessing array elements using a slicer (e.g., [array[1..3]]) provides a concise, efficient way to work with subsets of data.
 
 1. Simplified Data Extraction: Manually iterating over large arrays requires loops and complex syntax. Slicers let you extract ranges (subarrays) in one line. Example: [Products[1..5].Name] fetches names of the first 5 products.
@@ -15,7 +15,7 @@ In FastReport's Smart Markers, accessing array elements using a slicer (e.g., [a
 5. Integration with Data Sources: Works with arrays from databases, JSON, or code. Example: Bind Invoice.Items[0..2] to display the first 3 line items.
 6. Slicers in Smart Markers reduce code complexity, improve readability, and optimize data handling for array subsets. Use them when you need quick, range-based access—ideal for pagination, top-N lists, or windowed data views. 
 
-## **How to Access Array Element by Slicer in Smart Markers**
+## **How to Import Array Element by Slicer into Excel With Smart Markers**
 Aspose.Cells supports accessing array element by slicer in smart markers. Please check [template file](ElementBySlicer.xlsx), [json file](ElementBySlicer.json) and the screenshot of the output excel file generated with the following code.
 
 |**The first worksheet of the smartmarker.xlsx file showing smart markers.**|
