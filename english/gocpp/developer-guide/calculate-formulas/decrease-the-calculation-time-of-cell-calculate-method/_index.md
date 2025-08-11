@@ -1,0 +1,31 @@
+---
+title: Decrease the Calculation Time of Cell.Calculate method with Golang via C++
+linktitle: Decrease the Calculation Time of Cell.Calculate
+description: This article introduces how to use Aspose.Cells library to reduce the calculation time of cell calculation methods in Microsoft Excel. By loading an existing Excel file or creating a new one, we can use the methods provided by Aspose.Cells to optimize the cell calculation method and improve its performance. Finally, we save the modified Excel file to disk.
+keywords: Aspose.Cells, Excel, Cell calculation methods, optimization, performance, reduction of calculation time
+type: docs
+weight: 100
+url: /go-cpp/decrease-the-calculation-time-of-cell-calculate-method/
+---
+
+## **Possible Usage Scenarios**
+
+Normally, we recommend users to call [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/go-cpp/workbook/calculateformula/) method once and then get the calculated values of the individual cells. But sometimes, users do not want to calculate the entire workbook. They just want to calculate a single cell. Aspose.Cells provides [**CalculationOptions.GetRecursive()**](https://reference.aspose.com/cells/cpp/aspose.cells/calculationoptions/getrecursive/) property which you can set to **false** and it will decrease the calculation time of individual cells significantly. Because when the recursive property is set to **true**, then all the dependents of cells are recalculated on each call. But when the recursive property is **false**, then dependent cells are calculated only once and are not calculated again on subsequent calls.
+
+## **Decrease the Calculation Time of Cell.Calculate() method**
+
+The following sample code illustrates the usage of [**CalculationOptions.GetRecursive()**](https://reference.aspose.com/cells/go-cpp/calculationoptions/getrecursive/) property. Please execute this code with the given [sample excel file](5113710.xlsx) and check its console output. You will find that setting the recursive property to **false** has decreased the calculation time significantly. Please also read the comments for a better understanding of this property.
+
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-DecreaseTheCalculationTimeOfCellCalculateMethod.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-DecreaseTheCalculationTimeOfCellCalculateMethod-1.go" >}}
+## **Console Output**
+
+This is the console output of the above sample code when executed with the given [sample excel file](5113710.xlsx) on our machine. Please note, your output may differ but the elapsed time after setting the recursive property to **false** will always be less than setting it to **true**.
+
+{{< highlight java >}}
+
+Recursive True: 96 seconds
+
+Recursive False: 42 seconds
+
+{{< /highlight >}}
