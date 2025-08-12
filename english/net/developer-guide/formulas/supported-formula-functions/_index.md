@@ -105,6 +105,8 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |CORREL|**Statistical**: Returns the correlation coefficient between two data sets
 |COS|**Math and trigonometry**: Returns the cosine of a number
 |COSH|**Math and trigonometry**: Returns the hyperbolic cosine of a number
+|COT|**Math and trigonometry**: Returns the hyperbolic cosine of a number
+|COTH|**Math and trigonometry**: Returns the cotangent of an angle
 |COUNT|**Statistical**: Counts how many numbers are in the list of arguments
 |COUNTA|**Statistical**: Counts how many values are in the list of arguments
 |COUNTBLANK|**Statistical**: Counts the number of blank cells within a range
@@ -172,6 +174,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |EVEN|**Math and trigonometry**: Rounds a number up to the nearest even integer
 |EXACT|**Text**: Checks to see if two text values are identical
 |EXP|**Math and trigonometry**: Returns e raised to the power of a given number
+|EXPAND|**Lookup and reference**: Expands or pads an array to specified row and column dimensions
 |EXPONDIST|**Compatibility**: Returns the exponential distribution
 
 ###### **F**
@@ -415,6 +418,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |RANK|**Compatibility**: Returns the rank of a number in a list of numbers
 |RATE|**Financial**: Returns the interest rate per period of an annuity
 |RECEIVED|**Financial**: Returns the amount received at maturity for a fully invested security
+|REDUCE|**Logical**: Reduces an array to an accumulated value by applying a LAMBDA to each value and returning the total value in the accumulator
 |REPLACE|**Text**: Replaces characters within text
 |REPLACEB|**Text**: Replaces characters within text
 |REPT|**Text**: Repeats text a given number of times
