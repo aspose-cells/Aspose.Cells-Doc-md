@@ -8,6 +8,19 @@ url: /java/what-s-new-in-aspose-cells-for-java/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 25.8
+* Support new functions of office 365: EXPAND, REDUCE, COT, COTH
+* Support font variation selectors for saving pdf
+* Support preserving freezed top rows for saving HTML
+* Support variables in formula and "if" parameter for smart marker
+* Support range smart marker to process nested data soruce
+* Support reading base64 encoded images and link reference definitions during Markdown import
+* Support alignment and border options in number format for GridJs
+* Support applying font setting in textbox control in client JS for GridJs
+* Support batch inserting row function in the menu and below the maximum row for GridJs
+* Support automatic text wrapping for GridJs
+* Support collaborative mode for GridJs
+
 ## Aspose.Cells for Java 25.7
 * Support new functions in formula: TAKE, ISOMITTED
 * Support Variables in Excel template for smart marker
