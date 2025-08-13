@@ -47,6 +47,7 @@ the parameters for load options:
 | `loadingGif` | The loading GIF URL when loading images/shapes.<br>The default value is content/img/updating.gif. | `content/img/updating.gif` | Yes |
 | `local` | Set localization info for menus & toolbars, supporting multiple languages.<br>Possible values include:<br>- `en, zh, es, pt, de, ru, nl` (for English, Chinese, Spanish, Portuguese, German, Russian, Dutch)<br>- `ar, fr, id, it, ja` (for Arabic, French, Indonesian, Italian, Japanese)<br>- `ko, th, tr, vi, cht` (for Korean, Thai, Turkey, Vietnamese, Traditional Chinese) | `en` | Yes |
 | `mode` | Can be `read` or `edit`; `read` means a read-only spreadsheet; `edit` means the spreadsheet can be edited. | None | No |
+| `isCollaborative` | Whether to support collaborative mode . | `false` | Yes |
 | `searchHighlightColor` | The highlight background color for the search term.<br>The color must include an alpha channel for transparency. | `#dbe71338` | Yes |
 | `showCheckSyntaxButton` | Whether to show syntax checking & spell correction buttons in the toolbar.<br>The default value is false. | `false` | Yes |
 | `showContextmenu` | Whether to show the context menu on right-click on a cell.<br>The default value is true. | `true` | Yes |
@@ -257,6 +258,18 @@ xs.enableKeyEvent(isenable)
 xs.destroy()
 ```
 
+-  setup the collaborative settings in collaborative mode,make sure setCollaborativeSetting before setUniqueId  
+```javascript
+xs.setCollaborativeSetting(url,wsendpoint,wsapp,wsuser,wstopic)
+    //the parameters are:
+         url: the basic action URL in the server side controller to get history messages ,the default is '/GridJs2/msg'
+	 wsendpoint: the websocket endpoint in the server side , the default is '/ws'
+	 wsapp: the websocket destinations prefixed with "/app", the default is '/app/opr'
+	 wsuser: the websocket for user-specific queues prefixed with "/usr", the default is '/user/queue'
+	 wstopic: the websocket destinations prefixed with "/topic", the default is '/topic/opr'
+
+
+```
 
 -  set visible filter for image/shape
 ```javascript
@@ -284,14 +297,14 @@ xs.sheet.selector.getObj()
 xs.sheet.showHtmlAtCell(isShow, html, ri, ci, deltaX, deltaY)
 
     //the parameters are:
-    // - isShow: Boolean value indicating whether to show or hide the HTML content.
-    // - html: The HTML string to be displayed.
-    // - ri: Row index of the target cell.
-    // - ci: Column index of the target cell.
-    // - deltaX: (Optional) Relative X-position adjustment from the top-left corner of the cell.
-    // - deltaY: (Optional) Relative Y-position adjustment from the top-left corner of the cell.
+      isShow: Boolean value indicating whether to show or hide the HTML content.
+      html: The HTML string to be displayed.
+      ri: Row index of the target cell.
+      ci: Column index of the target cell.
+      deltaX: (Optional) Relative X-position adjustment from the top-left corner of the cell.
+      deltaY: (Optional) Relative Y-position adjustment from the top-left corner of the cell.
 
-    // Example usage:
+    for example: 
     // Show HTML at cell A1
     xs.sheet.showHtmlAtCell(true, "<span>html span</span><input length='30' id='myinput'>test</input>", 0, 0);
 
@@ -634,7 +647,16 @@ xs.sheet.menubar.show()
 ```javascript
 xs.sheet.menubar.hide()
 ```
-
+## APIs for shape object
+-  Change background color for shape object
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 existed,this will set the background color to Yellow 
+     const ashape=xs.sheet.data.shapes[0];
+     ashape.setBackgroundColor('#FFFF00');
+```
  
 ## APIs for TextBox object
 TextBox is a special kind of shape which type property is :"TextBox",
@@ -648,14 +670,15 @@ for (let shape of xs.sheet.data.shapes) {
 }
 ```
 
--  Change background color for textbox object
+-  Apply font settings for textbox object
 ```javascript
-    setBackgroundColor(color)
-    // the parameters are:
-        color: the html color value in hex string value
-    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+    setFont(fontsettings)
+    // the parameter is:
+        fontsettings:   {'name':'Arial', 'size':12, 'bold':true, 'color':'#FFFF00', 'italic':true} ,the properties are 'name', 'size', 'bold', 'color', 'italic',they are all optional.
+    //for example,we assume shape 0 is a textbox object,this will set the font color to Yellow ,and font size to 12pt,and bold the font. 
      const textbox=xs.sheet.data.shapes[0];
-     textbox.setBackgroundColor('#FFFF00');
+     const fontsettings= {'name':'Arial', 'size':12, 'bold':true, 'color':'#FFFF00'}; 
+     textbox.setFont(fontsettings);
 ```
 -  Auto change the background color and text color to get a visual active effect
 ```javascript
