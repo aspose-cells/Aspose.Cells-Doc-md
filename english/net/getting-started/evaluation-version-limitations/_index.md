@@ -37,7 +37,7 @@ This worksheet will always show as the active worksheet. Only in licensed versio
 <br>
 
 ### **3rd Limitation: Plain Text with Evaluation information**
-In the output Plain Text file by Aspose.Cells, an evaluation information would be added at the end of the document.
+In the output Plain Text file by Aspose.Cells, an evaluation information would be added at the end of the document. When saving a file to plain text (such as CSV and TSV formats), only output the content of the first worksheet.
 <br>
 <image src="2.png" width="70%" />
 <br>
