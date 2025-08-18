@@ -8,7 +8,7 @@ description: 本文介绍了 GridWeb。
 ---
 ## GridWeb 基础
 GridWeb 是一个简单易用的 .net/java webcontrol，用于显示和编辑电子表格文件。
-{{% alert color="primary" %}} 
+
 
 使用它很简单且易上手。
 

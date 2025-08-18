@@ -8,7 +8,7 @@ description: Bu makale, GridWeb i tanıtıyor.
 ---
 ## GridWeb Temelleri
 GridWeb, .net/java web kontrolüdür, elektronik tablo dosyasını görüntülemek ve düzenlemek için basit bir kullanıma sahiptir.
-{{% alert color="primary" %}} 
+
 
 Kullanımı kolay ve basittir.
 

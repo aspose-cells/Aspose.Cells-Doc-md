@@ -8,7 +8,6 @@ weight: 40
 url: /zh/cpp/customizing-charts/
 ---
 
-{{% alert color="primary" %}}
 
 ## **创建自定义图表**
 

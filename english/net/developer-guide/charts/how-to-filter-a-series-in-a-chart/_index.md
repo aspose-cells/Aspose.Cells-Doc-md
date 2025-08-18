@@ -7,7 +7,6 @@ weight: 2210
 url: /net/filtering-charts-in-excel/
 ---
 
-{{% alert color="primary" %}}
 
 ## **1. Filtering out series to render a chart**
 

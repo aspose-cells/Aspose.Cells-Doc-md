@@ -7,8 +7,6 @@ description: Este artículo muestra cómo eliminar filas duplicadas en una hoja 
 keywords: Biblioteca de Excel de Python, Eliminar filas duplicadas en una hoja de cálculo de Python, Eliminar filas duplicadas en una hoja de cálculo en Python.
 ---
 
-{{% alert color="primary" %}}
-
 Eliminar filas duplicadas es una de las muchas funciones útiles de Microsoft Excel. Permite a los usuarios eliminar filas duplicadas en una hoja de cálculo, puedes escoger qué columnas deben ser revisadas en busca de información duplicada.
 
 Aspose.Cells para Python via .NET proporciona el método [**Cells.remove_duplicates()**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/remove_duplicates/) para este propósito. También puedes establecer startRow, startColumn, endRow, endColumn para seleccionar columnas.

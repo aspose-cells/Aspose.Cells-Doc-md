@@ -5,7 +5,7 @@ weight: 370
 url: /zh/net/remove-duplicate-rows-in-a-worksheet/
 ---
 
-{{% alert color="primary" %}}
+
 
 删除重复行是Microsoft Excel的众多有用功能之一。它允许用户删除工作表中的重复行，您可以选择应检查重复信息的列。
 

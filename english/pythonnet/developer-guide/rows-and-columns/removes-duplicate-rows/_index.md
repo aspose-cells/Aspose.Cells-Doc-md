@@ -7,7 +7,6 @@ description: This article shows how to Remove duplicate rows in a Worksheet by t
 keywords: Python Excel Library, Python Remove duplicate rows in a Worksheet, Delete duplicate rows in a Worksheet in Python.
 ---
 
-{{% alert color="primary" %}}
 
 Remove duplicate rows is one of Microsoft Excel's many useful features. It allows users to remove duplicate rows in a Worksheet, you can pick which columns should be checked for duplicate information.
 

@@ -8,7 +8,7 @@ description: この記事は GridWeb を紹介します。
 ---
 ## GridWeb の基礎
 GridWeb は、表示およびスプレッドシートファイルの編集に使用するシンプルな .net/java webcontrol です。
-{{% alert color="primary" %}} 
+
 
 使いやすくシンプルです。
 

@@ -7,7 +7,6 @@ weight: 40
 url: /sv/python-net/customizing-charts/
 ---
 
-{{% alert color="primary" %}}
 
 ## **Skapa Anpassade Diagram**
 

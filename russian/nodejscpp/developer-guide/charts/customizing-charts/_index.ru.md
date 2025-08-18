@@ -8,7 +8,6 @@ weight: 40
 url: /ru/nodejs-cpp/customizing-charts/  
 ---  
 
-{{% alert color="primary" %}}  
 
 ## **Создание настраиваемых диаграмм**  
 

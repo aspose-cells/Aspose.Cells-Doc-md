@@ -7,7 +7,6 @@ weight: 40
 url: /net/customizing-charts/
 ---
 
-{{% alert color="primary" %}}
 
 ## **Creating Custom Charts**
 

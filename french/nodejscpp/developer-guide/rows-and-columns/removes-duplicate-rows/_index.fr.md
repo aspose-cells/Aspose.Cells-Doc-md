@@ -7,7 +7,6 @@ url: /fr/nodejs-cpp/remove-duplicate-rows-in-a-worksheet/
 description: Apprenez comment supprimer les lignes en double dans une feuille en utilisant Aspose.Cells for Node.js via C++ et sélectionner des colonnes spécifiques pour la vérification de duplication.
 ---
 
-{{% alert color="primary" %}}
 
 Supprimer les doublons est l'une des nombreuses fonctionnalités utiles de Microsoft Excel. Elle permet aux utilisateurs de supprimer les lignes en double dans une feuille de calcul, et vous pouvez choisir quelles colonnes vérifier pour les doublons.
 

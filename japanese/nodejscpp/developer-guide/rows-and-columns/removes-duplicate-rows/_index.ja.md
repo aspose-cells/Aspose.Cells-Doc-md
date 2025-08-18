@@ -7,7 +7,6 @@ url: /ja/nodejs-cpp/remove-duplicate-rows-in-a-worksheet/
 description: Aspose.Cells for Node.js via C++を使ったワークシートの重複行の削除方法と、特定の列を選択して重複チェックを行う方法を学びます。
 ---
 
-{{% alert color="primary" %}}
 
 重複行の削除は、Microsoft Excelの多くの便利な機能の一つです。これにより、ワークシート内の重複行を削除でき、重複情報を検出する列を選択できます。
 

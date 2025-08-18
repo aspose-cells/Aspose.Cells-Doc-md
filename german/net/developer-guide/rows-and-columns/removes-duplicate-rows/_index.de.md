@@ -5,7 +5,7 @@ weight: 370
 url: /de/net/remove-duplicate-rows-in-a-worksheet/
 ---
 
-{{% alert color="primary" %}}
+
 
 Das Entfernen von doppelten Zeilen ist eine der vielen nützlichen Funktionen von Microsoft Excel. Es ermöglicht Benutzern, doppelte Zeilen in einem Arbeitsblatt zu entfernen und festzulegen, welche Spalten auf doppelte Informationen überprüft werden sollen.
 

@@ -7,7 +7,6 @@ url: /it/nodejs-cpp/remove-duplicate-rows-in-a-worksheet/
 description: Impara come rimuovere righe duplicate in un foglio di lavoro usando Aspose.Cells for Node.js via C++ e selezionare colonne specifiche per i controlli di duplicazione.
 ---
 
-{{% alert color="primary" %}}
 
 Rimuovere righe duplicate è una delle molte funzionalità utili di Microsoft Excel. Consente agli utenti di rimuovere righe duplicate in un Foglio di lavoro, e puoi scegliere quali colonne devono essere controllate per informazioni duplicate.
 

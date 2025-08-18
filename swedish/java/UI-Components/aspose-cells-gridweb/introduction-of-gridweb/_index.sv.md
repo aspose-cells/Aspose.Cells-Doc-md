@@ -6,7 +6,7 @@ url: /sv/java/introduction-of-gridweb/
 ---
 ## **Grundläggande i GridWeb**
 Aspose.Cells.GridWeb är en GUI-baserad webbkontroll som kan bäddas in i JSP-webbsidor eller vilken HTML-sida som helst i java-server. 
-{{% alert color="primary" %}} 
+ 
 
 Det är enkelt och enkelt att använda.
 
@@ -15,7 +15,7 @@ Det hjälper dig att snabbt bygga en online webbredigerare för kalkylbladsfil.
 Det stöder också import och export av alla typer av kalkylbladsformatfiler som är 100% kompatibla med MS Excel-filer.
 
 ## **Aspose.Cells.GridWeb - Demos**
-{{% alert color="primary" %}} 
+ 
 
 För att snabbt komma igång, tillhandahåller vi ett antal kodexempel och demo som visar hur man använder Aspose.Cells.GridWeb API.
 
@@ -133,7 +133,6 @@ GridWeb Demo-sidan visas.
 ![todo:image_alt_text](introduction-of-gridweb_17.png)
 
 
-{{% /alert %}} 
 ## **Webbläsares förmågor och Aspose.Cells.GridWeb**
 Aspose.Cells.GridWeb är en GUI-baserad webbkontroll som kan bäddas in i JSP-webbsidor som andra webbkontroller. Det viktigaste med webbkontrollen är att tillhandahålla stöd för olika webbläsare. Aspose.Cells.GridWeb tillhandahåller stöd för olika webbläsare.
 ### **Jämförelse**

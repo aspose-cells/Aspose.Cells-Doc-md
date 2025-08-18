@@ -7,7 +7,7 @@ url: /zh/nodejs-cpp/remove-duplicate-rows-in-a-worksheet/
 description: 学习如何使用 Aspose.Cells for Node.js via C++ 移除工作表中的重复行，并选择特定列进行重复检测。
 ---
 
-{{% alert color="primary" %}}
+
 
 移除重复行是 Microsoft Excel 的许多实用功能之一。它允许用户删除工作表中的重复行，你可以选择检查哪些列是否存在重复信息。
 

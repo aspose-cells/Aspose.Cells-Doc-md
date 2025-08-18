@@ -7,7 +7,6 @@ weight: 40
 url: /de/net/customizing-charts/
 ---
 
-{{% alert color="primary" %}}
 
 ## **Erstellen von benutzerdefinierten Diagrammen**
 

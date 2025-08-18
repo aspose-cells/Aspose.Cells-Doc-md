@@ -6,7 +6,7 @@ url: /ar/java/introduction-of-gridweb/
 ---
 ## **أساسيات GridWeb**
 Aspose.Cells.GridWeb هو عنصر تحكم ويب قائم على واجهة المستخدم الرسومية يمكن تضمينه في صفحات ويب JSP أو أي صفحة HTML في خادم جافا. 
-{{% alert color="primary" %}} 
+ 
 
 من السهل والبسيط في الاستخدام.
 
@@ -15,7 +15,7 @@ Aspose.Cells.GridWeb هو عنصر تحكم ويب قائم على واجهة ا
 يدعم أيضًا استيراد وتصدير جميع أنواع ملفات جدول البيانات والتي تكون 100% متوافقة مع ملف MS Excel.
 
 ## **Aspose.Cells.GridWeb - العروض**
-{{% alert color="primary" %}} 
+ 
 
 للحصول على بدء سريع، نحن نوفر عددًا من أمثلة الشفرة والعروض التوضيحية التي تظهر كيفية استخدام واجهة برمجة تطبيقات Aspose.Cells.GridWeb.
 
@@ -24,7 +24,7 @@ Aspose.Cells.GridWeb هو عنصر تحكم ويب قائم على واجهة ا
 
 
 ## **كيفية تشغيل أمثلة Aspose.Cells لـ GridWeb Java**
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}  
 
 أمثلة Aspose.Cells لـ GridWeb Java من السهل تشغيلها. كل ما عليك فعله هو نشر **gridwebdemo.war** في خادم الويب الخاص بك. يرجى تنزيل العروض من هذا [الرابط](https://forum.aspose.com/uploads/discourse_instance3/22292).
 
@@ -133,7 +133,7 @@ Aspose.Cells.GridWeb هو عنصر تحكم ويب قائم على واجهة ا
 ![todo:image_alt_text](introduction-of-gridweb_17.png)
 
 
-{{% /alert %}} 
+
 ## **ميزات قدرات المتصفحات و Aspose.Cells.GridWeb**
 Aspose.Cells.GridWeb هو عنصر تحكم ويب قائم على واجهة المستخدم الرسومية يمكن تضمينه في صفحات JSP ويب مثل عناصر التحكم الويب الأخرى. الشيء الأهم حول عنصر التحكم الويب هو توفير الدعم العرضي المتصفحات المتقاطعة. يوفر Aspose.Cells.GridWeb الدعم العرضي المتصفحات المتقاطعة.
 ### **مقارنة**

@@ -8,7 +8,6 @@ weight: 2210
 url: /ar/cpp/filtering-charts-in-excel/
 ---
 
-{{% alert color="primary" %}}
 
 ## **1. تصفية السلاسل لعرض رسم بياني**
 

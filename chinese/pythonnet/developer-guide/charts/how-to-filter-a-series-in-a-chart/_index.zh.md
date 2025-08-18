@@ -7,7 +7,6 @@ weight: 2210
 url: /zh/python-net/filtering-charts-in-excel/
 ---
 
-{{% alert color="primary" %}}
 
 ## **1. 过滤以渲染图表的系列**
 

@@ -7,7 +7,6 @@ url: /es/nodejs-cpp/remove-duplicate-rows-in-a-worksheet/
 description: Aprenda cómo eliminar filas duplicadas en una hoja de cálculo usando Aspose.Cells for Node.js via C++ y seleccionar columnas específicas para verificar duplicados.
 ---
 
-{{% alert color="primary" %}}
 
 Eliminar filas duplicadas es una de las muchas funciones útiles de Microsoft Excel. Permite a los usuarios eliminar filas duplicadas en una hoja de cálculo, y puede escoger qué columnas deben verificarse para información duplicada.
 

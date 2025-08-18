@@ -6,7 +6,7 @@ url: /ja/java/introduction-of-gridweb/
 ---
 ## **GridWebの基本**
 Aspose.Cells.GridWebは、JSPウェブページまたはjavaサーバの任意のhtmlページに埋め込むことができるGUIベースのウェブコントロールです。 
-{{% alert color="primary" %}} 
+ 
 
 使いやすくシンプルです。
 
@@ -15,7 +15,7 @@ Aspose.Cells.GridWebは、JSPウェブページまたはjavaサーバの任意�
 MS Excel ファイルと完全に互換性のあるあらゆるスプレッドシート形式ファイルのインポートとエクスポートもサポートします。
 
 ## **Aspose.Cells.GridWeb - デモ**
-{{% alert color="primary" %}} 
+ 
 
 すばやく始めるために、Aspose.Cells.GridWeb APIの使用方法を示すいくつかのコード例とデモを提供しています。
 
@@ -133,7 +133,7 @@ GridWeb デモページが表示されます。
 ![todo:image_alt_text](introduction-of-gridweb_17.png)
 
 
-{{% /alert %}} 
+
 ## **ブラウザの機能と Aspose.Cells.GridWeb**
 Aspose.Cells.GridWeb は、他の Web コントロールと同様に JSP Web ページに埋め込むことができる GUI ベースの Web コントロールです。Web コントロールの最も重要な点は、クロスブラウザ対応を提供することです。Aspose.Cells.GridWeb は、クロスブラウザ対応を提供します。
 ### **比較**

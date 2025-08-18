@@ -8,7 +8,6 @@ weight: 40
 url: /ja/cpp/customizing-charts/
 ---
 
-{{% alert color="primary" %}}
 
 ## **カスタムチャートの作成**
 

@@ -8,7 +8,7 @@ description: Dieser Artikel stellt GridWeb vor.
 ---
 ## Grundlagen von GridWeb
 GridWeb ist ein einfach zu verwendendes .Net/Java Webcontrol zum Anzeigen und Bearbeiten von Tabellendateien.
-{{% alert color="primary" %}} 
+
 
 Es ist einfach und leicht zu bedienen.
 

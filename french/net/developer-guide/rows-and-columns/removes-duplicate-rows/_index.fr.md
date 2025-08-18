@@ -5,7 +5,7 @@ weight: 370
 url: /fr/net/remove-duplicate-rows-in-a-worksheet/
 ---
 
-{{% alert color="primary" %}}
+
 
 Supprimer les rangées en double est l'une des nombreuses fonctionnalités utiles de Microsoft Excel. Il permet aux utilisateurs de supprimer les rangées en double dans une feuille de calcul, vous pouvez choisir quelles colonnes doivent être vérifiées pour des informations en double.
 

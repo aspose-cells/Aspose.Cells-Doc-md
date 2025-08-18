@@ -5,7 +5,6 @@ weight: 370
 url: /ar/net/remove-duplicate-rows-in-a-worksheet/
 ---
 
-{{% alert color="primary" %}}
 
 إزالة الصفوف المكررة هو واحد من الميزات المفيدة في Microsoft Excel. يسمح للمستخدمين بإزالة الصفوف المكررة في ورقة العمل، يمكنك اختيار أي الأعمدة يجب فحصها لوجود معلومات مكررة.
 

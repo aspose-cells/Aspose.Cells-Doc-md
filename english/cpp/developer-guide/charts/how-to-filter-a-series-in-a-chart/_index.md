@@ -8,7 +8,6 @@ weight: 2210
 url: /cpp/filtering-charts-in-excel/
 ---
 
-{{% alert color="primary" %}}
 
 ## **1. Filtering out series to render a chart**
 

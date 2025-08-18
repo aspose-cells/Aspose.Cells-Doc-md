@@ -7,7 +7,6 @@ url: /tr/nodejs-cpp/remove-duplicate-rows-in-a-worksheet/
 description: Aspose.Cells for Node.js via C++ kullanarak bir çalışma sayfasında yinelenen satırları nasıl kaldıracağınızı ve hangi sütunların yinelenmeye göre kontrol edilmesi gerektiğini öğrenin.
 ---
 
-{{% alert color="primary" %}}
 
 Yinelenen satırları kaldırmak, Microsoft Excel’in birçok kullanışlı özelliklerinden biridir. Bu, kullanıcıların yinelenen satırları kaldırmasına imkan sağlar ve hangi sütunların yinelenen bilgiyi kontrol edeceğini seçebilirsiniz.
 

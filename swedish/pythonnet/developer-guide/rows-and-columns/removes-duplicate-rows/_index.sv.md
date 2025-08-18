@@ -7,7 +7,6 @@ description: Den här artikeln visar hur man tar bort dubblettrader i ett arbets
 keywords: Python Excel bibliotek, ta bort dubblettrader i ett arbetsblad med Python, ta bort dubblettrader i ett arbetsblad i Python.
 ---
 
-{{% alert color="primary" %}}
 
 Ta bort dubblettrader är en av Microsoft Excels många användbara funktioner. Det gör det möjligt för användare att ta bort dubblettrader i ett arbetsblad, du kan välja vilka kolumner som ska kontrolleras för dubbel information.
 

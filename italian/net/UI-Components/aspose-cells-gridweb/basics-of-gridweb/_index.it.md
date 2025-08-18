@@ -8,7 +8,7 @@ description: Questo articolo introduce GridWeb.
 ---
 ## Concetti di base di GridWeb
 GridWeb è un webcontrol .net/java semplice da usare per visualizzare e modificare file di fogli elettronici.
-{{% alert color="primary" %}} 
+
 
 È facile e semplice da usare.
 

@@ -7,7 +7,6 @@ weight: 2210
 url: /de/net/filtering-charts-in-excel/
 ---
 
-{{% alert color="primary" %}}
 
 ## **1. Herausfiltern von Reihen, um ein Diagramm zu rendern**
 

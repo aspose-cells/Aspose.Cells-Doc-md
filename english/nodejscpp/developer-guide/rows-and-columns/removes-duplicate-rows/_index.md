@@ -7,7 +7,6 @@ url: /nodejs-cpp/remove-duplicate-rows-in-a-worksheet/
 description: Learn how to remove duplicate rows in a worksheet using Aspose.Cells for Node.js via C++ and select specific columns for duplication checks.
 ---
 
-{{% alert color="primary" %}}
 
 Remove duplicate rows is one of Microsoft Excel's many useful features. It allows users to remove duplicate rows in a Worksheet, and you can pick which columns should be checked for duplicate information.
 

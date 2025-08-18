@@ -7,7 +7,6 @@ weight: 2210
 url: /sv/net/filtering-charts-in-excel/
 ---
 
-{{% alert color="primary" %}}
 
 ## **1. Filtrera bort serier för att rendera ett diagram**
 

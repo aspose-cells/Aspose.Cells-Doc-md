@@ -19,9 +19,9 @@ Laut der MSDN Library wird das Open XML SDK folgendermaßen definiert: Das Open 
 ## **Was ist Aspose.Cells?**
 Aspose.Cells ist eine Klassenbibliothek, die es Ihrer Anwendung ermöglicht, folgende Tabellenkalkulationsverarbeitungsaufgaben auszuführen: Hochwertige Konvertierungen zwischen allen gängigen Excel-Formaten, einschließlich der Konvertierung nach PDF, HTML, TIFF und Drucken. Programmierung mit einem Arbeitsmappenobjektmodell. Möglichkeit, Dokumente aus Fragmenten, aus einem oder mehreren Dokumenten zu erstellen, während Daten automatisch durch stilistische Formatierung, Diagramme und Grafiken zusammengeführt werden. Hochrangige Funktionen, wie z. B. Import von Daten aus verschiedenen Datenquellen, einschließlich Array, ArrayList, DataTable / ResultSet. Robuste Formelberechnungsmaschine, die fast alle Standard- und erweiterten Microsoft Excel-Funktionen unterstützt.
 
-{{% alert color="primary" %}}
+
 ## **Vergleichen Sie Open XML SDK und Aspose.Cells**
-Die folgende Tabelle vergleicht die Funktionen von Open XML SDK und Aspose.Cells. {{% /alert %}}
+Die folgende Tabelle vergleicht die Funktionen von Open XML SDK und Aspose.Cells. 
 
 |**Funktion oder Funktionskategorie**|**Open XML SDK**|**Aspose.Cells**|
 | :- | :- | :- |

@@ -7,7 +7,6 @@ url: /de/nodejs-cpp/remove-duplicate-rows-in-a-worksheet/
 description: Lernen Sie, wie Sie doppelte Zeilen in einem Arbeitsblatt mit Aspose.Cells for Node.js via C++ entfernen und bestimmte Spalten für Duplikatprüfungen auswählen.
 ---
 
-{{% alert color="primary" %}}
 
 Das Entfernen doppelter Zeilen ist eine der vielen nützlichen Funktionen von Microsoft Excel. Es ermöglicht Benutzern, doppelte Zeilen in einem Arbeitsblatt zu entfernen, und Sie können auswählen, welche Spalten auf doppelte Informationen überprüft werden sollen.
 

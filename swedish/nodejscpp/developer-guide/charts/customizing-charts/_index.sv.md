@@ -8,7 +8,6 @@ weight: 40
 url: /sv/nodejs-cpp/customizing-charts/  
 ---  
 
-{{% alert color="primary" %}}  
 
 ## **Skapa Anpassade Diagram**  
 

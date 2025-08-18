@@ -8,7 +8,7 @@ description: This article introduces  GridWeb.
 ---
 ## Basics of GridWeb
 GridWeb is a simple to use .net/java webcontrol for display and edit spreadsheet file.
-{{% alert color="primary" %}} 
+
 
 It is easy and simple to use.
 

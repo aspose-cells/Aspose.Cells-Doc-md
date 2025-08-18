@@ -7,7 +7,6 @@ weight: 40
 url: /ja/python-net/customizing-charts/
 ---
 
-{{% alert color="primary" %}}
 
 ## **カスタムチャートの作成**
 

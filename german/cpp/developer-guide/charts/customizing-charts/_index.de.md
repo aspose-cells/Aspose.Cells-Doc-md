@@ -8,7 +8,6 @@ weight: 40
 url: /de/cpp/customizing-charts/
 ---
 
-{{% alert color="primary" %}}
 
 ## **Erstellen von benutzerdefinierten Diagrammen**
 

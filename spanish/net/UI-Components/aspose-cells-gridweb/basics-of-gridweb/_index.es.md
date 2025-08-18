@@ -8,7 +8,7 @@ description: Este artículo presenta GridWeb.
 ---
 ## Conceptos básicos de GridWeb
 GridWeb es un control web simple de usar para  mostrar y editar archivos de hojas de cálculo en .net/java.
-{{% alert color="primary" %}} 
+
 
 Es fácil y sencillo de usar.
 

@@ -7,7 +7,6 @@ weight: 40
 url: /ar/python-net/customizing-charts/
 ---
 
-{{% alert color="primary" %}}
 
 ## **إنشاء مخططات مخصصة**
 

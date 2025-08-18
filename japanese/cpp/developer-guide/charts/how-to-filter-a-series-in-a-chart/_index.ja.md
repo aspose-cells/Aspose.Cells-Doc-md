@@ -8,7 +8,6 @@ weight: 2210
 url: /ja/cpp/filtering-charts-in-excel/
 ---
 
-{{% alert color="primary" %}}
 
 ## **1. チャートからシリーズをフィルタリングする**
 

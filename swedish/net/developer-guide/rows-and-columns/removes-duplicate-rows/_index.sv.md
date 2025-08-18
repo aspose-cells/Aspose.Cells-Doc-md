@@ -5,7 +5,6 @@ weight: 370
 url: /sv/net/remove-duplicate-rows-in-a-worksheet/
 ---
 
-{{% alert color="primary" %}}
 
 Ta bort dubblettrader är en av Microsoft Excels många användbara funktioner. Det gör det möjligt för användare att ta bort dubblettrader i ett arbetsblad, du kan välja vilka kolumner som ska kontrolleras för dubbel information.
 

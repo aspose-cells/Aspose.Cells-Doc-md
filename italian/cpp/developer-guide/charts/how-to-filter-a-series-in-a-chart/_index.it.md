@@ -8,7 +8,6 @@ weight: 2210
 url: /it/cpp/filtering-charts-in-excel/
 ---
 
-{{% alert color="primary" %}}
 
 ## **1. Filtrare le serie per visualizzare un grafico**
 

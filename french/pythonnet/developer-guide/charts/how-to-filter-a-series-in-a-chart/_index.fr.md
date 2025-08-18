@@ -7,7 +7,6 @@ weight: 2210
 url: /fr/python-net/filtering-charts-in-excel/
 ---
 
-{{% alert color="primary" %}}
 
 ## **1. Filtrer les séries pour afficher un graphique**
 

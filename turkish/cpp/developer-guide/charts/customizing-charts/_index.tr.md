@@ -8,7 +8,6 @@ weight: 40
 url: /tr/cpp/customizing-charts/
 ---
 
-{{% alert color="primary" %}}
 
 ## **Özel Grafikler Oluşturma**
 

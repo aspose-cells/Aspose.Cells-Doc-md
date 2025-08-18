@@ -7,7 +7,6 @@ url: /ar/nodejs-cpp/remove-duplicate-rows-in-a-worksheet/
 description: تعلم كيفية إزالة الصفوف المكررة في ورقة العمل باستخدام Aspose.Cells for Node.js via C++ واختيار أعمدة محددة لفحص التكرار.
 ---
 
-{{% alert color="primary" %}}
 
 إزالة الصفوف المكررة هي واحدة من الميزات المفيدة في Microsoft Excel. تتيح للمستخدمين إزالة الصفوف المكررة في ورقة العمل، ويمكنك اختيار الأعمدة التي يجب فحصها للتكرار.
 

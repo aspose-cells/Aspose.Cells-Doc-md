@@ -19,9 +19,9 @@ MSDN Kütüphanesine göre, Open XML SDK şu şekilde tanımlanmıştır:Open XM
 ## **Aspose.Cells nedir?**
 Aspose.Cells, uygulamanızın aşağıdaki elektronik tablo işleme görevlerini gerçekleştirmesine olanak tanıyan bir sınıf kitaplığıdır: Tüm popüler Excel formatları arasında yüksek kaliteli dönüşümler, PDF, HTML, TIFF ve yazdırma dahil. Bir çalışma kitabı nesne modeli ile programlama. Bir veya birden çok belgeden belge parçaları oluşturma ve veri, stil analizi, grafikler ve grafiklerle otomatik olarak birleştirme yeteneği. Yüksek seviyeli işlevler, Array, ArrayList, DataTable / ResultSet gibi farklı veri kaynaklarından veri alımı da dahil olmak üzere. Neredeyse tüm standart ve gelişmiş Microsoft Excel İşlevlerini destekleyen güçlü Formül Hesaplama Motoru.
 
-{{% alert color="primary" %}}
+
 ## **Open XML SDK ve Aspose.Cells Karşılaştırması**
-Aşağıdaki tablo, Open XML SDK ve Aspose.Cells özelliklerini karşılaştırmaktadır. {{% /alert %}}
+Aşağıdaki tablo, Open XML SDK ve Aspose.Cells özelliklerini karşılaştırmaktadır.
 
 |**Özellik veya Özellik Kategorisi**|**Open XML SDK**|**Aspose.Cells**|
 | :- | :- | :- |

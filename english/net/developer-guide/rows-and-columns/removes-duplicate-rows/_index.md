@@ -5,7 +5,7 @@ weight: 370
 url: /net/remove-duplicate-rows-in-a-worksheet/
 ---
 
-{{% alert color="primary" %}}
+
 
 Remove duplicate rows is one of Microsoft Excel's many useful features. It allows users to remove duplicate rows in a Worksheet, you can pick which columns should be checked for duplicate information.
 

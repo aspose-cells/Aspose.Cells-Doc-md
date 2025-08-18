@@ -7,7 +7,6 @@ description: この記事では、Aspose.Cells for Python via .NET APIを使用�
 keywords: Python Excelライブラリ、Pythonワークシートでの重複する行の削除、Pythonでのワークシートでの重複する行の削除。
 ---
 
-{{% alert color="primary" %}}
 
 重複する行を削除することは、Microsoft Excelの多くの便利な機能の1つです。 これにより、ワークシート内の重複する行を削除でき、重複する情報がチェックされるべき列を選択できます。
 

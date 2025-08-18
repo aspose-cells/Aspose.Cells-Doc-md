@@ -8,7 +8,6 @@ weight: 40
 url: /cpp/customizing-charts/
 ---
 
-{{% alert color="primary" %}}
 
 ## **Creating Custom Charts**
 

@@ -7,7 +7,6 @@ description: Bu makale, Aspose.Cells for Python via .NET API tarafından bir Ça
 keywords: Python Excel Kütüphanesi, Python da Çalışma Sayfasındaki Yinelemeli Satırları Kaldırma, Python da Çalışma Sayfasındaki Yinelemeli Satırları Silme.
 ---
 
-{{% alert color="primary" %}}
 
 Tekrarlanan satırları kaldırma, Microsoft Excel'in birçok kullanışlı özelliklerinden biridir. Kullanıcılar, Çalışma Sayfası'ndaki tekrarlanan satırları kaldırabilir, hangi sütunların tekrarlanan bilgiler için kontrol edilmesi gerektiğini seçebilirsiniz.
 

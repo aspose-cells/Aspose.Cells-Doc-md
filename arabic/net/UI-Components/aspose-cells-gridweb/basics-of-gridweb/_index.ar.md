@@ -8,7 +8,7 @@ description: يقدم هذا المقال مقدمة عن GridWeb.
 ---
 ## أساسيات GridWeb
 GridWeb هو عنصر تحكم .net/java بسيط لعرض وتحرير ملف جدول بيانات.
-{{% alert color="primary" %}} 
+
 
 من السهل والبسيط في الاستخدام.
 

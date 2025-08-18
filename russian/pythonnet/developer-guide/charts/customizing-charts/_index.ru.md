@@ -7,7 +7,6 @@ weight: 40
 url: /ru/python-net/customizing-charts/
 ---
 
-{{% alert color="primary" %}}
 
 ## **Создание настраиваемых диаграмм**
 

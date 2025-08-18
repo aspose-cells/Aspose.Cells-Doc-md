@@ -5,7 +5,7 @@ weight: 370
 url: /ja/net/remove-duplicate-rows-in-a-worksheet/
 ---
 
-{{% alert color="primary" %}}
+
 
 重複する行を削除することは、Microsoft Excelの多くの便利な機能の1つです。 これにより、ワークシート内の重複する行を削除でき、重複する情報がチェックされるべき列を選択できます。
 

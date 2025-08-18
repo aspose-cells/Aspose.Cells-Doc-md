@@ -7,7 +7,6 @@ weight: 40
 url: /tr/python-net/customizing-charts/
 ---
 
-{{% alert color="primary" %}}
 
 ## **Özel Grafikler Oluşturma**
 

@@ -8,8 +8,6 @@ weight: 40
 url: /it/cpp/customizing-charts/
 ---
 
-{{% alert color="primary" %}}
-
 ## **Creazione di grafici personalizzati**
 
 Finora, quando abbiamo parlato di grafici, abbiamo esaminato grafici standard con le loro impostazioni di formattazione standard. Definiamo solo la fonte dei dati, impostiamo alcune proprietà e il grafico viene creato con le sue impostazioni di formato predefinite. Ma le API di Aspose.Cells supportano anche la creazione di grafici personalizzati che permettono agli sviluppatori di creare grafici con le proprie impostazioni di formato.

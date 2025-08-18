@@ -8,7 +8,6 @@ weight: 40
 url: /ar/nodejs-cpp/customizing-charts/  
 ---  
 
-{{% alert color="primary" %}}  
 
 ## **إنشاء مخططات مخصصة**  
 

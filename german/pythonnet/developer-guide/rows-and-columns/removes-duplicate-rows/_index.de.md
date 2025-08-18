@@ -7,8 +7,6 @@ description: In diesem Artikel wird gezeigt, wie man doppelte Zeilen in einem Ar
 keywords: Python Excel Bibliothek, Python doppelte Zeilen in einem Arbeitsblatt entfernen, Doppelte Zeilen in einem Arbeitsblatt in Python löschen.
 ---
 
-{{% alert color="primary" %}}
-
 Das Entfernen von doppelten Zeilen ist eine der vielen nützlichen Funktionen von Microsoft Excel. Es ermöglicht Benutzern, doppelte Zeilen in einem Arbeitsblatt zu entfernen und festzulegen, welche Spalten auf doppelte Informationen überprüft werden sollen.
 
 Aspose.Cells für Python via .NET bietet die [**Cells.remove_duplicates()**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/remove_duplicates/)-Methode für diesen Zweck. Sie können auch startRow, startColumn, endRow, endColumn festlegen, um Spalten auszuwählen.

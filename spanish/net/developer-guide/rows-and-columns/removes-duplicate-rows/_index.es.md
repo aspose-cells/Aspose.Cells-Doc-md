@@ -5,7 +5,7 @@ weight: 370
 url: /es/net/remove-duplicate-rows-in-a-worksheet/
 ---
 
-{{% alert color="primary" %}}
+
 
 Eliminar filas duplicadas es una de las muchas funciones útiles de Microsoft Excel. Permite a los usuarios eliminar filas duplicadas en una hoja de cálculo, puedes escoger qué columnas deben ser revisadas en busca de información duplicada.
 

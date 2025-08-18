@@ -19,7 +19,7 @@ url: /zh/java/why-not-open-xml-sdk/
 ## **什么是Aspose.Cells?**
 Aspose.Cells是一个类库，允许您的应用程序执行以下电子表格处理任务：高质量转换所有流行的Excel格式，包括转换为PDF、HTML、TIFF和打印。使用工作簿对象模型进行编程。能够根据格式、图表和图形自动合并数据，从一个或多个文档中构建文档片段。高级功能，如从不同数据源（包括数组、ArrayList、DataTable / ResultSet）导入数据。强大的公式计算引擎，支持几乎所有标准和高级的Microsoft Excel函数。
 
-{{% alert color="primary" %}}
+
 ## **比较Open XML SDK和Aspose.Cells**
 下表将比较Open XML SDK和Aspose.Cells的特性。
 

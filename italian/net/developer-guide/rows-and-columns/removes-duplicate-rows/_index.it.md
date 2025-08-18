@@ -5,7 +5,7 @@ weight: 370
 url: /it/net/remove-duplicate-rows-in-a-worksheet/
 ---
 
-{{% alert color="primary" %}}
+
 
 Rimuovere righe duplicate è una delle molte funzionalità utili di Microsoft Excel. Consente agli utenti di rimuovere righe duplicate in un foglio di lavoro, è possibile scegliere quali colonne devono essere controllate per informazioni duplicate.
 

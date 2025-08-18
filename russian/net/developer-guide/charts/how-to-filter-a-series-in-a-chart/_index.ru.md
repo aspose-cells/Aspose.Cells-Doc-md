@@ -7,7 +7,6 @@ weight: 2210
 url: /ru/net/filtering-charts-in-excel/
 ---
 
-{{% alert color="primary" %}}
 
 ## **1. Отфильтровать серии для отображения диаграммы**
 

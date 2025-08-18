@@ -7,7 +7,6 @@ url: /sv/nodejs-cpp/remove-duplicate-rows-in-a-worksheet/
 description: Lär dig hur du tar bort dubblettrader i ett arbetsblad med Aspose.Cells for Node.js via C++ och väljer specifika kolumner för dupliceringskontroller.
 ---
 
-{{% alert color="primary" %}}
 
 Att ta bort dubblettrader är en av Microsoft Excels många användbara funktioner. Det låter användare ta bort dubblettrader i ett arbetsblad, och du kan välja vilka kolumner som ska kontrolleras för duplicerad information.
 

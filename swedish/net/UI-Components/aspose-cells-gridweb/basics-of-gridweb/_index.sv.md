@@ -8,7 +8,7 @@ description: Den här artikeln introducerar GridWeb.
 ---
 ## Grundläggande om GridWeb
 GridWeb är en enkel att använda .net/java-webkontroll för att visa och redigera kalkylblad.
-{{% alert color="primary" %}} 
+
 
 Det är enkelt och enkelt att använda.
 

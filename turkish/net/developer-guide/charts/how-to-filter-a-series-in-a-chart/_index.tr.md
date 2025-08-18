@@ -7,7 +7,6 @@ weight: 2210
 url: /tr/net/filtering-charts-in-excel/
 ---
 
-{{% alert color="primary" %}}
 
 ## **1. Bir grafik oluşturmak için serileri filtreleme**
 

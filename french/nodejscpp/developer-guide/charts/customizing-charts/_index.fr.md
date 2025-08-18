@@ -8,7 +8,6 @@ weight: 40
 url: /fr/nodejs-cpp/customizing-charts/  
 ---  
 
-{{% alert color="primary" %}}  
 
 ## **Création de graphiques personnalisés**  
 

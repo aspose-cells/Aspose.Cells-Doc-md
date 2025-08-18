@@ -8,7 +8,6 @@ weight: 2210
 url: /zh/nodejs-cpp/filtering-charts-in-excel/
 ---
 
-{{% alert color="primary" %}}
 
 ## **1. 过滤以渲染图表的系列**
 

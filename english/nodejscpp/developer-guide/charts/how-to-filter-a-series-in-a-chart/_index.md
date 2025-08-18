@@ -8,7 +8,6 @@ weight: 2210
 url: /nodejs-cpp/filtering-charts-in-excel/
 ---
 
-{{% alert color="primary" %}}
 
 ## **1. Filtering out series to render a chart**
 

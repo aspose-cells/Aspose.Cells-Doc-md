@@ -7,7 +7,6 @@ weight: 40
 url: /ru/net/customizing-charts/
 ---
 
-{{% alert color="primary" %}}
 
 ## **Создание настраиваемых диаграмм**
 

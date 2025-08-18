@@ -7,7 +7,6 @@ weight: 40
 url: /tr/net/customizing-charts/
 ---
 
-{{% alert color="primary" %}}
 
 ## **Özel Grafikler Oluşturma**
 

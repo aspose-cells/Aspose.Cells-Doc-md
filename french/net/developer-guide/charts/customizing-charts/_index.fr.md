@@ -7,7 +7,6 @@ weight: 40
 url: /fr/net/customizing-charts/
 ---
 
-{{% alert color="primary" %}}
 
 ## **Création de graphiques personnalisés**
 

@@ -7,7 +7,7 @@ description: 本文展示了如何使用 Aspose.Cells for Python via .NET API �
 keywords: Python Excel 库，Python 删除工作表中的重复行，Python 删除工作表中的重复行。
 ---
 
-{{% alert color="primary" %}}
+
 
 删除重复行是Microsoft Excel的众多有用功能之一。它允许用户删除工作表中的重复行，您可以选择应检查重复信息的列。
 
