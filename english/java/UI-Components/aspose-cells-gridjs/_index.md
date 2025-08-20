@@ -17,6 +17,7 @@ url: /java/aspose-cells-gridjs/
 - [Working with Custom Calculation Engine](/cells/java/aspose-cells-gridjs/how-to-use-custom-calculation-engine/)
 - [Working with GridJs in Mobile](/cells/java/aspose-cells-gridjs/how-to-use-gridjs-in-mobile/)
 - [Run  GridJs in Docker](/cells/java/aspose-cells-gridjs/how-to-build-online-excel-editor/)
+- [Working with GridJs In Collaborative Mode](/cells/java/aspose-cells-gridjs/how-to-build-collaborative-excel-editor/)
 - [Settings for GridJs](/cells/java/aspose-cells-gridjs/settings/)
 - [Custom Context Menu](/cells/java/aspose-cells-gridjs/how-to-custom-context-menu/)
 - [Syntax Checking & Spell Correction](/cells/java/aspose-cells-gridjs/how-to-do-syntax-checking/)
