@@ -83,12 +83,12 @@ class AsposeCellsExcelReader:
         first_data_row_Index = cells.min_data_row
 
         # Iterate through all the rows
-        for row in cells.rows.__iter__():
+        for row in cells.rows:
             if row is None:
                 continue  # Skip if the row is not initialized
 
             row_data = []
-            for cell in row.__iter__():
+            for cell in row:
                 row_data.append(cell.value)
             output_data.append(row_data)
 
@@ -96,7 +96,7 @@ class AsposeCellsExcelReader:
         columns = []
         if header is not None:
             row = cells.rows[first_data_row_Index]
-            for cell in row.__iter__():
+            for cell in row:
                 columns.append(cell.value)
             # Remove the header row from the data
             output_data = output_data[1:]
