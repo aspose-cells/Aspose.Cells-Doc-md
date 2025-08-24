@@ -25,7 +25,7 @@ Built with WebAssembly to unlock near-native performance directly in the browser
 
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Cells for JavaScript via C++ nline Documentation](/cells/javascript-cpp/)
+- [Aspose.Cells for JavaScript via C++ Online Documentation](/cells/javascript-cpp/)
 - [Download Aspose.Cells for JavaScript via C++](https://releases.aspose.com/cells/javascript-cpp/)
 - [Aspose.Cells for JavaScript via C++ Product Page](https://products.aspose.com/cells/javascript-cpp/)
 - [Aspose.Cells for JavaScript via C++ API Reference Guide](https://reference.aspose.com/cells/javascript-cpp/)

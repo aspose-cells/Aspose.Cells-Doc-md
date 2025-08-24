@@ -34,6 +34,16 @@ If you encounter any problems during the installation process, please refer to h
 
 ## **Hello World Example**
 
+
+
+First, create a project directory and execute the npm command in the directory to download Aspose.Cells for JavaScript via C++
+
+{{< highlight java >}}
+$ npm install aspose.cells.js
+{{< /highlight >}}
+
+Then create an HelloWorldExample.html file in your project directory with the following content
+
 {{< highlight cpp >}}
 
 <!DOCTYPE html>
@@ -43,7 +53,7 @@ If you encounter any problems during the installation process, please refer to h
     <body>
     </body>
 
-    <script src="aspose.cells.js.min.js"></script>
+    <script src="./node_modules/aspose.cells.js/aspose.cells.js.min.js"></script>
     <script type="text/javascript">
         const { Workbook, FileFormatType, SaveFormat } = AsposeCells;
         AsposeCells.onReady().then(() => {
@@ -62,6 +72,17 @@ If you encounter any problems during the installation process, please refer to h
 </html>
 
 {{< /highlight >}}
+
+Run the http server in the project directory
+
+{{< highlight cpp >}}
+
+    python -m http.server 8080
+
+{{< /highlight >}}
+
+Visit http://localhost:8080/HelloWorldExample.html in your browser and click the Download button to download hello-world.xlsx.
+
 
 
 ## **License**
