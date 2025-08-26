@@ -45,7 +45,7 @@ cd Aspose.Cells-for-Java/Examples.GridJs.Collaborative
 
 ## Step 2: Configure Collaborative Mode
 
-Open the `src/main/resources/application.properties` file and adjust the settings:
+Open the [`src/main/resources/application.properties`](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/resources/application.properties) file and adjust the settings:
 
 ```properties
 # Directory containing spreadsheet files
@@ -144,6 +144,8 @@ In server-side config [`/src/main/java/com/aspose/gridjsdemo/filemanagement/File
 ```java
 @Bean
 public GridJsOptions gridJsOptions() {
+    //..... other options
+    //here we shall set true for collaborative mode
     options.setCollaborative(true);
     return options;
 }
@@ -159,7 +161,10 @@ In client-side load options [`/src/main/resources/templates/file/index.html`](ht
 
 ```js
 const option = {
+    //..... other options
+    //here we shall set true for collaborative mode
     isCollaborative: true
+    //..... other options
 };
 ```
 
@@ -254,9 +259,9 @@ Or:
 ```java
 @Bean
     public GridJsOptions gridJsOptions() {
-	//.... other option
+	//.... other options
     	options.setMessageTopic("/topic/opr");
-    	//.... other option
+    	//.... other options
         return options;
     }
 ```
@@ -307,7 +312,7 @@ com.aspose.gridjs.Config.setMessageTopic("/topic_gridjs/opr");
 or
 
 ```java
-@Bean
+    @Bean
     public GridJsOptions gridJsOptions() {
 	//.... other option
     	options.setMessageTopic("/topic_gridjs/opr");
@@ -321,6 +326,8 @@ or
 ```js
 xs.setCollaborativeSetting('/GridJs2/msg','/ws_gridjs','/app_gridjs/opr','/user_gridjs/queue','/topic_gridjs/opr');
 ```
+
+the detail doc for setCollaborativeSetting can be find [here](https://docs.aspose.com/cells/java/aspose-cells-gridjs/how-to-use-gridjs-client-api/)
 
 > ⚠️ Note: By default, the demo configuration works out-of-the-box.  
 Extra configuration is only required if your app customizes WebSocket endpoints.  
