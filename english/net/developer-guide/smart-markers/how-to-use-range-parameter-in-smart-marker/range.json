@@ -1,0 +1,36 @@
+{
+  "Groups": [
+    {
+      "Materials": [
+        { 
+	        "Name": "BBB", 
+	        "DSSection": { "Name": "Item B" } 
+	      },
+        {
+          "Name": "CCC",
+          "DSSection": { "Name": "Item C" }
+        },
+        {
+          "Name": "AAA",
+          "DSSection": { "Name": "Item A" }
+        },        
+        {
+          "Name": "BBB",
+          "DSSection": { "Name": "Item A" }
+        },
+        {
+          "Name": "CCC",
+          "DSSection": { "Name": "Item A" }
+        },
+        {
+          "Name": "BBB",
+          "DSSection": { "Name": "Item A" }
+        },
+        { 
+	        "Name": "AAA", 
+	        "DSSection": { "Name": "Item C" } 
+        }
+      ]
+    }
+  ]
+}
