@@ -694,7 +694,7 @@ for (let shape of xs.sheet.data.shapes) {
 ```
 
 for detail info ,you can check the example here
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs>
 
 
 

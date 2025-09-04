@@ -52,4 +52,4 @@ gwb.save_to_cache_with_file_name(uid, filename,password);
 ```
 
 For detail info ,you can check the example here:
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs_Python_Net>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs>
