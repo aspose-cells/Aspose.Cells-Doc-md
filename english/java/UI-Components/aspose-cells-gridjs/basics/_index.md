@@ -22,7 +22,7 @@ It also allows exporting Excel files to PDF, HTML .etc. Below is the basic proce
 - Set up a controller action to get file in cache,thus we can get the images/shapes zip file or the spreadsheet file in cache.It will use GridCacheForStream.LoadStream API.
 - Set up a controller action to download the spreadsheet.You can use GridJsWorkbook.SaveToCacheWithFileName API.
 
-Belowis a basic demo to show the usage of Aspose.Cells.GridJs : https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs
+Belowis a basic demo to show the usage of Aspose.Cells.GridJs : https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridJs
                                                                 
 
 If you have any questions,requirements or need help, please feedback to the following website https://forum.aspose.com/c/cells/9

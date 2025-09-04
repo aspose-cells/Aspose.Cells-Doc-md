@@ -25,11 +25,11 @@ Ensure you have Docker installed on your machine. You can download and install D
 
 ## Step 1: Create a Dockerfile
 
-Create a file named `Dockerfile` in your project [directory](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs). The `Dockerfile` should contain instructions on how to build your Docker image.
+Create a file named `Dockerfile` in your project [directory](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridJs). The `Dockerfile` should contain instructions on how to build your Docker image.
 
 ## Step 2:Write Dockerfile for GridJs
 
-Here is a sample [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs/Dockerfile) for GridJs demo with java application:
+Here is a sample [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridJs/Dockerfile) for GridJs demo with java application:
 
 ```dockerfile
 # Use the maven image to build jar file

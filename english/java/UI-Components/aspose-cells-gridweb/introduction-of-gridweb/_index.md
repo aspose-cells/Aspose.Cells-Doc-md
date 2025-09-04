@@ -18,7 +18,7 @@ It also support import and export all kinds of spread sheet format files which i
 To get you up and running quickly, we provide a number of code examples and demos that show how to use the Aspose.Cells.GridWeb API.
 
 Please download the demos from the below link:
-[Aspose.Cells.GridWeb Demos](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb)
+[Aspose.Cells.GridWeb Demos](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridWeb)
 
 
 ## **How to run Aspose.Cells for GridWeb Java Demos**

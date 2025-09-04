@@ -198,4 +198,4 @@ for example :in the download action,you can just get it from the cache directory
 ```
 
 For more detail info ,you can check the example here:
-<https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples_GridJs>

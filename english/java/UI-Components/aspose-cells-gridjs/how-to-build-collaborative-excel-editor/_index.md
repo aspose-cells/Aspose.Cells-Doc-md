@@ -34,10 +34,10 @@ Before starting, make sure you have the following installed:
 
 ## Step 1: Clone the Demo Project
 
-Clone the official [Aspose.Cells GridJs demo repository](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs.Collaborative):
+Clone the official [Aspose.Cells GridJs demo repository](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridJs.Collaborative):
 
 ```bash
-git clone https://github.com/aspose-cells/Aspose.Cells-for-Java.git
+git clone https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java.git
 cd Aspose.Cells-for-Java/Examples.GridJs.Collaborative
 ```
 
@@ -45,7 +45,7 @@ cd Aspose.Cells-for-Java/Examples.GridJs.Collaborative
 
 ## Step 2: Configure Collaborative Mode
 
-Open the [`src/main/resources/application.properties`](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/resources/application.properties) file and adjust the settings:
+Open the [`src/main/resources/application.properties`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/resources/application.properties) file and adjust the settings:
 
 ```properties
 # Directory containing spreadsheet files
@@ -107,7 +107,7 @@ Steps:
 
 ## Step 5: Run in Docker (Optional)
 
-If running in Docker, edit line 10 of [`docker-compose.yml`](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Examples.GridJs.Collabrative/docker-compose.yml) to map the license file.  
+If running in Docker, edit line 10 of [`docker-compose.yml`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collabrative/docker-compose.yml) to map the license file.  
 
 For example, if your license file is at `C:/license/aspose.lic`:
 
@@ -133,13 +133,13 @@ Access the app at:
 
 ### 1. Enable Collaborative Mode
 
-In [`/src/main/resources/application.properties`](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/resources/application.properties):
+In [`/src/main/resources/application.properties`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/resources/application.properties):
 
 ```properties
 gridjs.iscollabrative=true
 ```
 
-In server-side config [`/src/main/java/com/aspose/gridjsdemo/filemanagement/FileConfig.java`](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/java/com/aspose/gridjsdemo/filemanagement/FileConfig.java):
+In server-side config [`/src/main/java/com/aspose/gridjsdemo/filemanagement/FileConfig.java`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/java/com/aspose/gridjsdemo/filemanagement/FileConfig.java):
 
 ```java
 @Bean
@@ -157,7 +157,7 @@ Or globally:
 Config.setCollaborative(true);
 ```
 
-In client-side load options [`/src/main/resources/templates/file/index.html`](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/resources/templates/file/index.html):
+In client-side load options [`/src/main/resources/templates/file/index.html`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/resources/templates/file/index.html):
 
 ```js
 const option = {
@@ -176,7 +176,7 @@ The demo uses **Spring Security** for a simple user system.
 
 You must provide a `CoWorkUserProvider` implementation to connect GridJs with your user system:
 
-In server-side config [`/src/main/java/com/aspose/gridjsdemo/filemanagement/FileConfig.java`](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/java/com/aspose/gridjsdemo/filemanagement/FileConfig.java):
+In server-side config [`/src/main/java/com/aspose/gridjsdemo/filemanagement/FileConfig.java`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/java/com/aspose/gridjsdemo/filemanagement/FileConfig.java):
 
 For example: here we defined MyCustomUser to implement all the interfaces in CoWorkUserProvider.
 
@@ -188,7 +188,7 @@ public CoWorkUserProvider currentUserProvider() {
 ```
 
 
-In [`/src/main/java/com/aspose/gridjsdemo/filemanagement/MyCustomUser.java`](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/java/com/aspose/gridjsdemo/filemanagement/MyCustomUser.java):
+In [`/src/main/java/com/aspose/gridjsdemo/filemanagement/MyCustomUser.java`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/java/com/aspose/gridjsdemo/filemanagement/MyCustomUser.java):
 
 ```java
 public class MyCustomUser implements CoWorkUserProvider {
@@ -228,7 +228,7 @@ The demo uses **Spring WebSocket** with STOMP.
 
 Example config:
 
-In [`/src/main/java/com/aspose/gridjsdemo/messages/WebSocketConfig.java`](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/java/com/aspose/gridjsdemo/messages/WebSocketConfig.java):
+In [`/src/main/java/com/aspose/gridjsdemo/messages/WebSocketConfig.java`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/java/com/aspose/gridjsdemo/messages/WebSocketConfig.java):
 
 ```java
 public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
@@ -273,7 +273,7 @@ xs.setCollaborativeSetting('/GridJs2/msg','/ws','/app/opr','/user/queue','/topic
 ```
 
 Here, `/GridJs2/msg` corresponds to the route path defined in  
-[`src/main/java/com/aspose/gridjsdemo/filemanagement/controller/GridJsOprController.java`](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/java/com/aspose/gridjsdemo/filemanagement/controller/GridJsOprController.java):
+[`src/main/java/com/aspose/gridjsdemo/filemanagement/controller/GridJsOprController.java`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/java/com/aspose/gridjsdemo/filemanagement/controller/GridJsOprController.java):
 
 ```java
 @RequestMapping("/GridJs2/msg")
