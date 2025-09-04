@@ -26,7 +26,7 @@ The tutorial is based on the [demo project](https://github.com/aspose-cells/Aspo
 
 In your frontend pages, set the interface language using the `local` option.
 
-In the demo project, you need to modify the [uidload.html](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/uidload.html) file
+In the demo project, you need to modify the [uidload.html](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/uidload.html) file
 
 Here's an example:
 
@@ -48,7 +48,7 @@ const loadNormalContext = (sheet) => {
 
 In the backend code, you need to set the appropriate CultureInfo before processing Excel data.
 
-In the demo project, you need to modify the [Controller](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Controllers/GridJs2Controller.cs) file
+In the demo project, you need to modify the [Controller](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/Controllers/GridJs2Controller.cs) file
 
 ### Controller Configuration Points
 

@@ -13,7 +13,7 @@ description: This article introduce custom validation in GridWeb .
 Aspose.Cells.GridWeb provide kinds of validation than normal defined in cells validation api.
 the normal validation type in cells :<https://docs.aspose.com/cells/net/data-validation/>
 
-the normal validation usage in GridWeb demo: <https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/GridWeb.Net4/CSharp/Miscellaneous/Common/DataValidation.aspx.cs>
+the normal validation usage in GridWeb demo: <https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridWeb/GridWeb.Net4/CSharp/Miscellaneous/Common/DataValidation.aspx.cs>
 
 here we can check GridValidationType: <https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridvalidationtype/>
 

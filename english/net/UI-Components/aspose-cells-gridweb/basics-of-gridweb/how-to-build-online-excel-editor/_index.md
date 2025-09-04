@@ -25,11 +25,11 @@ Ensure you have Docker installed on your machine. You can download and install D
 
 ## Step 1: Create a Dockerfile
 
-Create a file named `Dockerfile` in your project [directory](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/). The `Dockerfile` should contain instructions on how to build your Docker image.
+Create a file named `Dockerfile` in your project [directory](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridWeb/). The `Dockerfile` should contain instructions on how to build your Docker image.
 
 ## Step 2:Write Dockerfile for GridWeb
 
-Here is a sample [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/Dockerfile) for GridWeb demo with ASP.NET Core application:
+Here is a sample [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridWeb/Dockerfile) for GridWeb demo with ASP.NET Core application:
 
 ```dockerfile
 # Use the official .NET6.0 runtime as a parent image
