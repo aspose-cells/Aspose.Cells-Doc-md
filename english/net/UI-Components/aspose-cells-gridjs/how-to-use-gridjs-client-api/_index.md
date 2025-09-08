@@ -61,6 +61,7 @@ the parameters for load options:
 | `view` | Set the view size for the sheet, e.g., `{width: () => 1000, height: ()=> 500}`. | `{width: () => document.documentElement.clientWidth, height: () => document.documentElement.clientHeight }` | Yes |
 | `token` | Set the authentication token. When the token is not null, the `Authorization: Bearer {token}` header will be automatically added to the request headers. You can use `xs.refreshToken(token)` to set a new token. | None | Yes |    
 | `showBottombarStats` | Whether to show the bottom bar statistics.<br>The default value is true. | `true` | Yes |   
+| `showRowAppenderToolbar` | Whether to show the batch row appender toolbar.<br>The default value is true. | `true` | Yes |   
 
 -  load with json data
 ```javascript
