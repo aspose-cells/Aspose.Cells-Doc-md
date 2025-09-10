@@ -544,6 +544,8 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |WEIBULL.DIST|**Statistical**: Returns the Weibull distribution
 |WORKDAY|**Date and time**: Returns the serial number of the date before or after a specified number of workdays
 |WORKDAY.INTL|**Date and time**: Returns the serial number of the date before or after a specified number of workdays using parameters to indicate which and how many days are weekend days
+|WRAPCOLS|**Look and reference**: Wraps the provided row or column of values by columns after a specified number of elements
+|WRAPROWS|**Look and reference**: Wraps the provided row or column of values by rows after a specified number of elements
 
 ###### **X**
 |**Function**|**Summary**|
