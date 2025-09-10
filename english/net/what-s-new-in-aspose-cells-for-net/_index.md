@@ -8,6 +8,16 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 25.9
+* Support WRAPCOLS, WRAPROWS function
+* Support font Variation Selectors while converting to xps
+* Support font Variation Selectors while converting to svg with embedded font
+* Support embedding fonts when converting file to html
+* Support FlatOPC file format
+* Support editable charts and embedded objct (ole object) to pptx file
+* Support Master-Detail worksheet smart markers
+* Support smart marker for repeating worksheet
+
 ## Aspose.Cells for .NET 25.8
 * Support new functions of office 365: EXPAND, REDUCE, COT, COTH
 * Support font variation selectors for saving pdf
