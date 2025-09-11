@@ -97,3 +97,4 @@ Let's start from practical applications and compare the three strongest Python l
 In Pandas, you can use the ExcelWriter object and the to_excel() function to add charts to an Excel file. However, please note that Pandas itself does not support embedding charts directly into Excel files, it can only write data into Excel files. To add a chart, you need to use the openpyxl or xlsxwriter library to manipulate Excel files. Here is an example of using the xlsxwriter library to add a chart to an Excel file.
 <br>
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Why-use-cells-add-chart-pandas.py" >}}
+{{< app/cells/assistant language="python-net" >}}

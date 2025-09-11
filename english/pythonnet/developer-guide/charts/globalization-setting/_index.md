@@ -40,3 +40,4 @@ The following chart elements will render according to your localization settings
 | Other Name                  | Other                             |
 | Series Name                 | Series                            |
 
+{{< app/cells/assistant language="python-net" >}}

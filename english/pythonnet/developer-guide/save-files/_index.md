@@ -93,3 +93,4 @@ Aspose.Cells for Python via .NET supports saving files to JSON or XML.
 - [Adjust workbook compression level](/cells/python-net/adjust-workbook-compression-level/)
 - [Save Workbook to Strict Open XML Spreadsheet Format](/cells/python-net/save-workbook-to-strict-open-xml-spreadsheet-format/)
 
+{{< app/cells/assistant language="python-net" >}}

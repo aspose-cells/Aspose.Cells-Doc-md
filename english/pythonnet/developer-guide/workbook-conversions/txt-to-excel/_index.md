@@ -43,3 +43,4 @@ Tab-separated values (TSV) file contains spreadsheet data but without any format
 - [Load or Import CSV file with Formulas](/cells/python-net/load-or-import-csv-file-with-formulas/)
 - [Reading CSV File with Multiple Encodings](/cells/python-net/reading-csv-file-with-multiple-encodings/)
 
+{{< app/cells/assistant language="python-net" >}}

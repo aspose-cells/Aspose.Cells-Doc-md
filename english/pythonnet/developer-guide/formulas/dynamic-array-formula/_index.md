@@ -135,3 +135,4 @@ Please see the following sample code that loads the [sample Excel file](dynamicA
 The output snapshot:
 <br>
 <image src="4.png" width="70%" />
+{{< app/cells/assistant language="python-net" >}}

@@ -31,3 +31,4 @@ This is the console output of the above sample code.
 Equation Text: y = 8.1333x + 5
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

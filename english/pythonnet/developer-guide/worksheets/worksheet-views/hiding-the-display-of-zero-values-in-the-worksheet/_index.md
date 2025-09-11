@@ -26,3 +26,4 @@ To hide zero values in a worksheet in Microsoft Excel (for example Microsoft Exc
 Please see the following sample code that demonstrates hiding zeros using Aspose.Cells for Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Views-HidingDisplayOfZeroValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

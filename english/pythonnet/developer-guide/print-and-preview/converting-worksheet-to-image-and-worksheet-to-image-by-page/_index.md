@@ -46,3 +46,4 @@ Following is the code used by the component to accomplish the task. It converts 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-ConvertWorksheetToImageByPage-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

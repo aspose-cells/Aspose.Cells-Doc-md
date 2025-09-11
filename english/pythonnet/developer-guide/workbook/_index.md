@@ -8,3 +8,4 @@ description: Learn how to Manage Workbook through the Aspose.Cells for Python vi
 keywords: How to Manage Workbook in C#, Manage Workbook and worksheets using C#, Operate workbook and worksheets in C#. 
 ---
 
+{{< app/cells/assistant language="python-net" >}}

@@ -36,3 +36,4 @@ After creating a designer spreadsheet, use Aspose.Cells to read the designer spr
 Additionally, Aspose.Cells lets you add [smart markers](/cells/python-net/smart-markers/) to the designer spreadsheet. Smart markers are processed at runtime using the WorkbookDesigner class's Process method. This can help you write less code and still get great result.
 
 [Find out more about smart markers](/cells/python-net/smart-markers/).
+{{< app/cells/assistant language="python-net" >}}

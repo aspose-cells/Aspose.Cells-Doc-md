@@ -33,3 +33,4 @@ Aspose.Cells for Python via .NET provides the same functionality as Microsoft Ex
 - [Format and Modify Named Ranges](/cells/python-net/format-and-modify-named-ranges/)
 - [Get Range with External Links](/cells/python-net/get-range-with-external-links/)
 - [Implementing Non-Sequential Ranges](/cells/python-net/implementing-non-sequential-ranges/)
+{{< app/cells/assistant language="python-net" >}}

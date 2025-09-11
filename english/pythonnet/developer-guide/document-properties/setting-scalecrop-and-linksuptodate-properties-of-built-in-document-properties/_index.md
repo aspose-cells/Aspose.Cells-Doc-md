@@ -23,3 +23,4 @@ The following sample code sets the [scale_crop](https://reference.aspose.com/cel
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Document-Properties-SettingScaleCropAndLinksUpToDateProperties.py" >}}
+{{< app/cells/assistant language="python-net" >}}

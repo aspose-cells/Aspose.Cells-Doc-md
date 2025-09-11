@@ -90,3 +90,4 @@ If you use the [**custom**](https://reference.aspose.com/cells/python-net/aspose
 - [Specify Custom Number Decimal and Group Separators for Workbook](/cells/python-net/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [Specifying DBNum Custom Pattern Formatting](/cells/python-net/specifying-dbnum-custom-pattern-formatting/)
 
+{{< app/cells/assistant language="python-net" >}}

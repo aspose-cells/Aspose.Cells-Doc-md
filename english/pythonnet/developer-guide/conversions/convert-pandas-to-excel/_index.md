@@ -43,3 +43,4 @@ Sometimes, we may also want to insert multiple DataFrames into different workshe
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-import-multi-pandas-to-Excel.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

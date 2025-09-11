@@ -76,3 +76,4 @@ Now please run the following example, see how it works in Aspose.Cells for Pytho
 - [Create Workbook and Worksheet Scoped Named Ranges](/cells/python-net/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Search and Replace Data in a Range](/cells/python-net/search-and-replace-data-in-a-range/)
 
+{{< app/cells/assistant language="python-net" >}}

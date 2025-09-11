@@ -39,3 +39,4 @@ See the output [PDF](48496673.pdf) file after setting the [**PdfSaveOptions.d
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

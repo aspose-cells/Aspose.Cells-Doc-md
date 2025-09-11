@@ -18,3 +18,4 @@ Pivot table based reports are useful but prone to error if target users do not h
 Following code demonstrates this feature by accessing a pivot table from a sheet and then setting [**enable_wizard**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/enable_wizard/) to **false**. Sample pivot table file can be downloaded from this [link](pivot_table_test.xlsx).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-DisablePivotTableRibbon.py" >}}
+{{< app/cells/assistant language="python-net" >}}

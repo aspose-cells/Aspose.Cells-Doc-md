@@ -78,3 +78,4 @@ Here's an example code snippet to demonstrate how to import data from a NumPy ar
 The output result:
 <br>
 <img src="ndarray_name.png" width=60% />
+{{< app/cells/assistant language="python-net" >}}

@@ -56,3 +56,4 @@ The following example shows how to split the merged cells (C6). The example uses
 ## **Advance topics**
 - [Detect Merged Cells in a Worksheet](/cells/python-net/detect-merged-cells-in-a-worksheet/)
 
+{{< app/cells/assistant language="python-net" >}}

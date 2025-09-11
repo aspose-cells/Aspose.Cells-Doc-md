@@ -18,3 +18,4 @@ Aspose.Cells for Python via .NET provides the ability to get the external connec
 The source file used in the code snippet is attached for reference.
 
 [Source File](104398862.xlsx)
+{{< app/cells/assistant language="python-net" >}}

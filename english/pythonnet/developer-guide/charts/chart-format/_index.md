@@ -71,3 +71,4 @@ The following code snippet demonstrates how to change the major gridlines' colo
 ## **Advance topics**
 - [Set the Values Format Code of Chart Series](/cells/python-net/set-the-values-format-code-of-chart-series/)
 - [Set Picture as Background Fill in the Chart](/cells/python-net/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="python-net" >}}

@@ -58,3 +58,4 @@ A complete example is given below that shows how to use the [**is_row_column_he
 It is also possible to use the [**unhide_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_rows) and [**unhide_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_columns) methods of the [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) class to make multiple rows and columns visible.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

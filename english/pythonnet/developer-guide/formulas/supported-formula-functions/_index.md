@@ -560,3 +560,4 @@ Aspose.Cells for Python via .NET' Formula Calculation Engine allows you to set, 
 |ZTEST|**Compatibility**: Returns the one-tailed probability-value of a z-test
 
 
+{{< app/cells/assistant language="python-net" >}}

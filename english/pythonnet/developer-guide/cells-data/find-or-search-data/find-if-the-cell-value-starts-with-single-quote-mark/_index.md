@@ -16,3 +16,4 @@ Aspose.Cells for Python via .NET now provides the [**Style.quote_prefix**](https
 The following sample code explains that the strings like sample and 'sample cannot be differentiated with [**Cell.string_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/string_value/) property. Therefore we must use [**Style.quote_prefix**](https://reference.aspose.com/cells/python-net/aspose.cells/style/quote_prefix/) property to distinguish them.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-FindIfCellValueStartsWithSingleQuote.py" >}}
+{{< app/cells/assistant language="python-net" >}}

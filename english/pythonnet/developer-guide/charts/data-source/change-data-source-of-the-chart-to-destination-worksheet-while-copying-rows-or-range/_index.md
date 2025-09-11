@@ -18,3 +18,4 @@ The following sample code explains the usage of [**CopyOptions.refer_to_destinat
 ![todo:image_alt_text](1.png)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ChangeChartDataSource-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

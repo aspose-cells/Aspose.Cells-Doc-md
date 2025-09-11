@@ -17,3 +17,4 @@ The following sample code adds 2-Color and 3-Color Scale Conditional Formattings
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-AddColorScales.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -20,3 +20,4 @@ The following sample code loads the [sample Excel file](64716818.xlsx) and perfo
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-GroupPivotFieldsInPivotTable.py" >}}
+{{< app/cells/assistant language="python-net" >}}

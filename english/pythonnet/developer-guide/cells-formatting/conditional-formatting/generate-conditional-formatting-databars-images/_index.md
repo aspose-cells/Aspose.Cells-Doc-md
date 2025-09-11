@@ -16,3 +16,4 @@ Sometimes, you need to generate images of Conditional Formatting DataBars. You c
 The following sample code generates the DataBar image of cell C1. First, it accesses the format condition object of the cell, and then from that object, it accesses the [**DataBar**](https://reference.aspose.com/cells/python-net/aspose.cells/databar) object and uses its [**to_image()**](https://reference.aspose.com/cells/python-net/aspose.cells/databar/to_image) method to generate the image of the cell. Finally, it saves the image on disk.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-GenerateDatabarImage-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

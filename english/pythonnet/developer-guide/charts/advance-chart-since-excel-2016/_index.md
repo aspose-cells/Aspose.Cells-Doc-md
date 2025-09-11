@@ -44,3 +44,4 @@ BoxWhisker
 - [Creating Waterfall Chart](/cells/python-net/creating-waterfall-chart/)
 - [Creating TreeMap Chart](/cells/python-net/creating-treemap-chart/)
 - [Creating Sunburst Chart](/cells/python-net/creating-sunburst-chart/)
+{{< app/cells/assistant language="python-net" >}}

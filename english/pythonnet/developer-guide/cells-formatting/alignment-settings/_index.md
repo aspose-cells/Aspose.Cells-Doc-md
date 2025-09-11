@@ -124,3 +124,4 @@ The reading order is set with the [**Style**](https://reference.aspose.com/cells
 - [Line Breaks and Text Wrapping](/cells/python-net/line-breaks-and-text-wrapping/)
 
 
+{{< app/cells/assistant language="python-net" >}}

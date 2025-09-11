@@ -308,3 +308,4 @@ class ConditionalFormatting:
         return area
     
 ```
+{{< app/cells/assistant language="python-net" >}}

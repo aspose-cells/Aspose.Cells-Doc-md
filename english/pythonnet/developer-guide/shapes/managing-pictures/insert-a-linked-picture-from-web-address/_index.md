@@ -25,3 +25,4 @@ Aspose.Cells for Python via .NET supports adding a linked image using the [**Sha
 The following example shows how to add linked picture from web address to a worksheet.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Pictures-InsertLinkedPicture-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

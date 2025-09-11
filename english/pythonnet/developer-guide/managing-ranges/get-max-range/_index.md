@@ -40,3 +40,4 @@ The following codes show how to render the max diplay range to html:
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-Get-Max-Display-Range.py" >}}
 
 Here is [source excel file](Book1.xlsx).
+{{< app/cells/assistant language="python-net" >}}

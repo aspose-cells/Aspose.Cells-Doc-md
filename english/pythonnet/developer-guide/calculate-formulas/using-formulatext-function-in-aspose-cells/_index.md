@@ -46,3 +46,4 @@ Here is the console output of the above sample code:
 {{< highlight python >}}
 =SUM(B1:B10)
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

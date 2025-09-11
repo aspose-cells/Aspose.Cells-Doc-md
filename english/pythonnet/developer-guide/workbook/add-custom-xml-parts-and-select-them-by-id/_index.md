@@ -25,3 +25,4 @@ The following sample code first adds four Custom XML Parts using [**Workbook.cu
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="python-net" >}}

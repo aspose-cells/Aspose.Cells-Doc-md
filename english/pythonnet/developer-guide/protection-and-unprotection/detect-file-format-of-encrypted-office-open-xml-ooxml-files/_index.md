@@ -19,3 +19,4 @@ Aspose.Cells for Python via .NET provides a way to detect the file format of enc
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-DetectFileFormatOfEncryptedFiles-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

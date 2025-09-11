@@ -56,3 +56,4 @@ When assigning a range of cells as the data source, the range must go from top l
 - [Save Pivot Table in ODS file](/cells/python-net/save-pivot-table-in-ods-file/)
 - [Show report filter pages option](/cells/python-net/show-report-filter-pages-option/)
 - [Working with data display formats of DataField in Pivot Table](/cells/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

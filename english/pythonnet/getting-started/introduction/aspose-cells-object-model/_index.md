@@ -87,3 +87,4 @@ Each Worksheet object contains a VerticalPageBreakCollection object that represe
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_9.png)|
 A VerticalPageBreak object is used to create a vertical page break in the worksheet.
+{{< app/cells/assistant language="python-net" >}}

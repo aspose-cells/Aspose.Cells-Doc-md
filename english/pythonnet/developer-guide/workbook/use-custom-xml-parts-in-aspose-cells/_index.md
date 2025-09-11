@@ -23,3 +23,4 @@ The following sample code makes use of [**Workbook.content_type_properties.add()
 
 
 
+{{< app/cells/assistant language="python-net" >}}

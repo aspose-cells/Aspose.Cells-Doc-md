@@ -39,3 +39,4 @@ The following code snippet demonstrates how to set the options of X and Y axes 
 - [Handle Automatic Units of Chart Axis like Microsoft Excel](/cells/python-net/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
 - [Read Axis Labels after Calculating the Chart](/cells/python-net/read-axis-labels-after-calculating-the-chart/)
 - [How to Set Category Axis in Excel Chart](/cells/python-net/how-to-set-category-axis/)
+{{< app/cells/assistant language="python-net" >}}

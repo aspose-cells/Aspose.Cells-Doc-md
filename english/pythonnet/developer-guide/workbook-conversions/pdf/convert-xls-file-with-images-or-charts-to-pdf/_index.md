@@ -22,3 +22,4 @@ Aspose.Cells for Python via .NET supports converting XLS files that contain imag
 If the spreadsheet contains formulas, it is best to call the [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) method just before rendering to PDF. Doing so ensures that formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

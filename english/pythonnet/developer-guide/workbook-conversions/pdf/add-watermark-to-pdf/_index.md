@@ -21,3 +21,4 @@ You can add image watermark to pdf just by specifying image bytes of an image. A
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AddImageWatermarkToPdf.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

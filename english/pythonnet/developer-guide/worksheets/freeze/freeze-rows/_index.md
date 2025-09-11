@@ -40,3 +40,4 @@ It's simple to freeze row(s) with Aspose.Cells for Python via .NET. Please use t
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Freeze-Row.py" >}}
 
 Attached [sample source Excel file](../Freeze.xlsx).
+{{< app/cells/assistant language="python-net" >}}

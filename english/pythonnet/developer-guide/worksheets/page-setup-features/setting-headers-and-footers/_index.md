@@ -58,3 +58,4 @@ After executing the code below and opening the file, check the header of the wor
 1. Select the **Header/Footer** tab.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

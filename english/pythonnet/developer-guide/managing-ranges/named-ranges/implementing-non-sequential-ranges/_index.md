@@ -16,3 +16,4 @@ Normally, named ranges are rectangular with cells continuous and adjacent to eac
 The code sample below shows how to create a named non-sequential range with Aspose.Cells for Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-ImplementingNonSequencedRanges-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -79,3 +79,4 @@ If a cell is merged then the AutoFit methods will not be applied, which is the 
 
 ## **Advance topics**
 - [AutoFit Rows for Merged Cells](/cells/python-net/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="python-net" >}}

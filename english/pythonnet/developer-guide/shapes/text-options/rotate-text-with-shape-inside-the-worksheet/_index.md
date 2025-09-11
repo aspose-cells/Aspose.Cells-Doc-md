@@ -18,3 +18,4 @@ The following sample code loads the [sample Excel file](64716896.xlsx) that has 
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-RotateTextWithShapeInsideWorksheet.py" >}}
+{{< app/cells/assistant language="python-net" >}}

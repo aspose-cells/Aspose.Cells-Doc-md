@@ -58,3 +58,4 @@ Click inside your data and use **CTRL + T** or use the Home tab, **Format as Tab
 The following sample code loads the [sample Excel file](TableFilters.xlsx) shows the same featrue using Aspsoe.Cells.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-TableFilters.py" >}}
+{{< app/cells/assistant language="python-net" >}}

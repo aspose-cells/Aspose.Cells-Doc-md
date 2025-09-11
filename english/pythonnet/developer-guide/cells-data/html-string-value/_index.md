@@ -26,3 +26,4 @@ Below code sample shows you how to add HTML rich text inside the cell. Please se
 
 - [Display Bullets by setting Cell Value using HTML](/cells/python-net/display-bullets-by-setting-cell-value-using-html/)
 - [Get HTML5 string from Cell](/cells/python-net/get-html5-string-from-cell/)
+{{< app/cells/assistant language="python-net" >}}

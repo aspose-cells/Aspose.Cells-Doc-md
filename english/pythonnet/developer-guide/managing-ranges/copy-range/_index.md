@@ -40,3 +40,4 @@ Also you can copy the data with [**Range.copy_data**](https://reference.aspose.c
 - [Copy Row Heights of Source Range to Destination Range](/cells/python-net/copy-row-heights-of-source-range-to-destination-range/)
 
 
+{{< app/cells/assistant language="python-net" >}}

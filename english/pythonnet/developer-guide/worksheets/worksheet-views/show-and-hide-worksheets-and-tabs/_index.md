@@ -59,3 +59,4 @@ Below is a complete example that opens an Excel file (book1.xls), hides its tabs
 ### **Controlling the Tab Bar Width**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Display-ControlTabBarWidth-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

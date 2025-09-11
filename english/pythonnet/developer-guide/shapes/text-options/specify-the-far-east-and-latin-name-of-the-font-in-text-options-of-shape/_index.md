@@ -18,3 +18,4 @@ The following sample code creates a text box and adds some Japanese text inside
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.py" >}}
+{{< app/cells/assistant language="python-net" >}}

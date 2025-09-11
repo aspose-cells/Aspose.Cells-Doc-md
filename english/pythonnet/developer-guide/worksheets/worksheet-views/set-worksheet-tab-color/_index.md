@@ -25,3 +25,4 @@ The sample code below shows how to set tab color with Aspose.Cells for Python vi
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Views-SetWorksheetTabColor-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

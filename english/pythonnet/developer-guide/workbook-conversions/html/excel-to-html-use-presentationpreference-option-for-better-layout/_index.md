@@ -16,3 +16,4 @@ Please see the sample code below that demonstrates how to render an HTML file fr
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-UsePresentationPreferenceOption-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -49,3 +49,4 @@ To support opening Excel files containing various languages, we need to install 
 ## See Also
 
 - [Install Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/)
+{{< app/cells/assistant language="python-net" >}}

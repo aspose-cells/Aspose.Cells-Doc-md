@@ -107,3 +107,4 @@ Aspose.Cells for Python via .NET provides [**Range.copy()**](https://reference.a
 The following example shows how to copy a source range of cells to another named range.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-CopyNamedRanges-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

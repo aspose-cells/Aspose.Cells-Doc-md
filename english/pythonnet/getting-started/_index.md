@@ -121,3 +121,4 @@ pip install aspose-cells-python
 - Please visit the [Aspose.Cells for Python via .NET Example](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET) github to view more sample codes.
 
 
+{{< app/cells/assistant language="python-net" >}}

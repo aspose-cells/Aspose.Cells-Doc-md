@@ -18,3 +18,4 @@ The following code snippet demonstrates the use of the [**verify_password**](htt
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-VerifyPassword-1.py" >}}
 
 
+{{< app/cells/assistant language="python-net" >}}

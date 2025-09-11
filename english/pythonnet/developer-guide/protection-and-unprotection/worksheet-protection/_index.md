@@ -39,3 +39,4 @@ Unprotecting worksheet is easy with Aspose.Cells for Python via .NET API. If wor
 - [Unprotect a Worksheet](/cells/python-net/unprotect-a-worksheet/)
 - [Verify Password Used to Protect the Worksheet](/cells/python-net/verify-password-used-to-protect-the-worksheet/)
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

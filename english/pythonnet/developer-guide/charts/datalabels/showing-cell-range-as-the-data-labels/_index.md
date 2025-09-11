@@ -24,3 +24,4 @@ To show the cell range as data labels in Microsoft Excel:
 The sample code below accesses a chart series data labels and sets the [**DataLabels.show_cell_range**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/datalabels/show_cell_range) property to **true** to select the **Label Contains - Value From Cells** option.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ShowCellRangeAsDataLabels.py" >}}
+{{< app/cells/assistant language="python-net" >}}

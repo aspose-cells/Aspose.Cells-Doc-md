@@ -89,3 +89,4 @@ Add an **R1C1** reference style formula to a cell with the [**Cell**](https://re
 - [Supported Excel Functions](/cells/python-net/supported-formula-functions/)
 
 
+{{< app/cells/assistant language="python-net" >}}

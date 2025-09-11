@@ -35,3 +35,4 @@ Protect the authenticity of a document's content, you can add a digital signatur
 - [Encrypting Excel Files](/cells/python-net/encrypting-excel-files/)
 - [How to Detect a File Format and Check if the File is Encrypted](/cells/python-net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
 
+{{< app/cells/assistant language="python-net" >}}

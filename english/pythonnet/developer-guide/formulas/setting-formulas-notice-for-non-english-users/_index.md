@@ -17,3 +17,4 @@ There are two tips that non-English users must follow when creating formulas wit
 1. Formulas must be entered in English. For example, use the English "=SUM()" not the German "=SUMME()".
 1. Always use a comma (,) to delimit function parameters. For some language options or settings, the delimiter for function parameters is a semicolon but Aspose.Cells for Python via .NET uses the English style comma. For example, use "=IF (C5=0,0,C3/C4)" not "=IF(C5=0;0;C3/C4)"
 
+{{< app/cells/assistant language="python-net" >}}

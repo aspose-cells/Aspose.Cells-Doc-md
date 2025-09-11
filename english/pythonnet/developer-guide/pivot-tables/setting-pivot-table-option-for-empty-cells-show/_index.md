@@ -31,3 +31,4 @@ Aspose.Cells for Python via .NET provides the [**PivotTable.display_null_string*
 ## Related Articles
 
 - [Formatting Pivot Table](/cells/net/formatting-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

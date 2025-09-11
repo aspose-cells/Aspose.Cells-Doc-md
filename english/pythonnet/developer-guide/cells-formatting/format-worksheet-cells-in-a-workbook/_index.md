@@ -45,3 +45,4 @@ Below are the steps involved how to create a spreadsheet and format different ce
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-FormatWorksheetCells-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

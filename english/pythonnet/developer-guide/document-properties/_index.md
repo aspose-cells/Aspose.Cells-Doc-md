@@ -73,3 +73,4 @@ Aspose.Cells for Python via .NET APIs have exposed the [**add**](https://referen
 - [Specify Document Version of the Excel File using BuiltIn Document Properties](/cells/python-net/specify-document-version-of-the-excel-file-using-builtin-document-properties/)
 - [Specify the Language of the Excel File using BuiltIn Document Properties](/cells/python-net/specify-the-language-of-the-excel-file-using-builtin-document-properties/)
 
+{{< app/cells/assistant language="python-net" >}}

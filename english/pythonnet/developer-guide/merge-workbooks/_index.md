@@ -57,3 +57,4 @@ You can use any source workbooks. These images are just for illustration purpose
 - [Combine Multiple Worksheets into a Single Worksheet](/cells/python-net/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Merge Files](/cells/python-net/merge-files/)
 
+{{< app/cells/assistant language="python-net" >}}

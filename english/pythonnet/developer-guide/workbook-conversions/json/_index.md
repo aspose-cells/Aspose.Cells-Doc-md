@@ -26,3 +26,4 @@ The following code example demonstrates exporting active worksheet to Json by us
 - [Convert-Excel-to-JSON](/cells/python-net/convert-excel-to-json/)
 - [Convert JSON to CSV](/cells/python-net/convert-json-to-csv/)
 - [Convert-JSON-to-Excel](/cells/python-net/convert-json-to-excel/)
+{{< app/cells/assistant language="python-net" >}}

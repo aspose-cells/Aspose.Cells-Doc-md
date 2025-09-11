@@ -77,3 +77,4 @@ First create a column chart in Microsoft Excel and convert it to an image file, 
 1. Convert the chart to an image dynamically. Following is the code used by the component to accomplish the task. The code is similar to the previous one:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ConvertingColumnChartToImage-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

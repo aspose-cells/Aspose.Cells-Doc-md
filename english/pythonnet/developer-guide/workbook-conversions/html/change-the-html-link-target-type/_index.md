@@ -29,3 +29,4 @@ As you can see the target attribute in the above HTML link is **_self**. You can
 The following code illustrates the usage of [**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/) property. It changes the link target type to **BLANK**. By default, it is the **PARENT**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ChangeHtmlLinkTarget-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

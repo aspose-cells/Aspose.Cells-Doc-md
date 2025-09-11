@@ -40,3 +40,4 @@ It's simple to freeze panes with Aspose.Cells for Python via .NET. Please use th
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Freeze-Pane.py" >}}
 
 Attached [sample source Excel file](Freeze.xlsx).
+{{< app/cells/assistant language="python-net" >}}

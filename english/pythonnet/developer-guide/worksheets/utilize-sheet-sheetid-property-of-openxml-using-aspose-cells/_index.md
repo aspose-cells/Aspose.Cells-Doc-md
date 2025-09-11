@@ -28,3 +28,4 @@ The following sample code loads the [sample Excel file](51740716.xlsx), reads it
 Sheet or Tab Id: 1297
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

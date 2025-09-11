@@ -35,3 +35,4 @@ Unprotecting workbook structure is easy with Aspose.Cells for Python via .NET AP
 Note: a correct password is required.
 {{% /alert %}}
 
+{{< app/cells/assistant language="python-net" >}}

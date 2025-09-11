@@ -36,3 +36,4 @@ Text files contain spreadsheet data without formatting. The file is a kind of pl
 ## **Advance topics**
 - [Keep Separators for Blank Rows while exporting spreadsheets to CSV format](/cells/python-net/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format](/cells/python-net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+{{< app/cells/assistant language="python-net" >}}

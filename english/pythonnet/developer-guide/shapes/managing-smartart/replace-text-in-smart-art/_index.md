@@ -16,3 +16,4 @@ The sample source file can be downloaded from the following link:
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-ReplaceTextInSmartArt-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

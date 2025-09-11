@@ -80,3 +80,4 @@ You can only use thin line styles to the outline border. Diagonal lines are not 
 - [Get Icon Sets, Data Bars or Color Scales Objects used in Conditional Formatting](/cells/python-net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
 
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

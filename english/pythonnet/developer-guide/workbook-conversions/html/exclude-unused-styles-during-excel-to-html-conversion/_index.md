@@ -18,3 +18,4 @@ The following sample code creates a workbook and also creates an unused named st
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ExcludeUnusedStylesInExcelToHTML.py" >}}
+{{< app/cells/assistant language="python-net" >}}

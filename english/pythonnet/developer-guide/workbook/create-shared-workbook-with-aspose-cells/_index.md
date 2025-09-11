@@ -21,3 +21,4 @@ The following sample code creates a shared workbook by setting [**Workbook.setti
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Workbook-CreateSharedWorkbook.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

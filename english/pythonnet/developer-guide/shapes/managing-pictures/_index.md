@@ -53,3 +53,4 @@ Add a picture to the worksheet by calling the [**add_picture**](https://referenc
 - [Insert a Picture Based on Cell Reference](/cells/python-net/insert-a-picture-based-on-cell-reference/)
 - [Load a Web Image from a URL into an Excel Worksheet](/cells/python-net/load-a-web-image-from-a-url-into-an-excel-worksheet/)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -195,3 +195,4 @@ In order to create a line with the data marker chart, [**ChartType**](https://re
 - [Manage Titles of Excel Charts](/cells/python-net/chart-and-axis-titles/)
 - [Chart Rendering](/cells/python-net/chart-rendering/)
 - [Get Equation Text of Chart Trendline](/cells/python-net/get-equation-text-of-chart-trendline/)
+{{< app/cells/assistant language="python-net" >}}

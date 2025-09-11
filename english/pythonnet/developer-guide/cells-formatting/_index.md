@@ -111,3 +111,4 @@ The [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/works
 - [Number Settings](/cells/python-net/cells-number-settings/)
 - [Get and Set Style for cells](/cells/python-net/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -22,3 +22,4 @@ This option can be accessed on the Excel interface by selecting any of the data 
 In order to mimic Excel's feature of resizing data label shapes to fit the text, the Aspose.Cells for Python via .NET APIs have exposed the Boolean type [**DataLabels.is_resize_shape_to_fit_text**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text) property. The following piece of code shows the simple usage scenario of [**DataLabels.is_resize_shape_to_fit_text**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text) property.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ResizeChartDataLabelToFit-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

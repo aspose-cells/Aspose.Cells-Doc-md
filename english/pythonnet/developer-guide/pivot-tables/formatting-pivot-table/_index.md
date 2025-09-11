@@ -65,3 +65,4 @@ The [**PivotFieldCollection**](https://reference.aspose.com/cells/python-net/asp
 The code sample below shows how to clear all the pivot fields in a data area.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ClearPivotFields-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

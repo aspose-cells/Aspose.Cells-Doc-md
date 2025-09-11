@@ -48,3 +48,4 @@ The code example below shows how to save a workbook as an MHTML file using C#:
 - [Set column width to scalable unit like em or percent](/cells/python-net/set-column-width-to-scalable-unit-like-em-or-percent/)
 - [Set Default Font while rendering spreadsheet to HTML](/cells/python-net/set-default-font-while-rendering-spreadsheet-to/)
 - [Specify how to cross string in output HTML using HtmlCrossType](/cells/python-net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
+{{< app/cells/assistant language="python-net" >}}

@@ -21,3 +21,4 @@ The following sample code creates a workbook and protects it while enabling shar
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-PasswordProtectOrUnprotectSharedWorkbook.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

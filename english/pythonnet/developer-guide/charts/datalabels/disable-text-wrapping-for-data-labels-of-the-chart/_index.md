@@ -18,3 +18,4 @@ Aspose.Cells for Python via .NET provides a [**DataLabels.is_text_wrapped**](htt
 The below code sample shows how to disable text wrapping for the data labels of the chart.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-DisableTextWrappingForDataLabels.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -14,3 +14,4 @@ You can set the line space of the paragraph, its space before and space after us
 The following sample code explains the usage of the mentioned properties.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-SetTextboxOrShapeParagraphLineSpacing-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

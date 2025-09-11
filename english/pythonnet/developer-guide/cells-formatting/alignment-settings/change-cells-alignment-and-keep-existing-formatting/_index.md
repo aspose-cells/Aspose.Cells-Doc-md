@@ -21,3 +21,4 @@ The following sample code loads the [sample Excel file](67338585.xlsx), creates 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-ChangeCellsAlignmentAndKeepExistingFormatting.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

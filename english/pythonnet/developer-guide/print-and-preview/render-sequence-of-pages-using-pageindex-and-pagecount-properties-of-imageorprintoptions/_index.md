@@ -21,3 +21,4 @@ The following sample code loads the [sample Excel file](55541781.xlsx) and rende
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-RenderLimitedNoOfSequentialPages-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

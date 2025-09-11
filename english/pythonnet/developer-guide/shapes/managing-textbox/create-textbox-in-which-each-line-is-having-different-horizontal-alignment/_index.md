@@ -14,3 +14,4 @@ You can set the horizontal alignment of your paragraph text using the [**TextPar
 The following sample code creates three lines and sets the horizontal alignment of each of them.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-CreateTextBoxWithDifferentHorizontalAlignment-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

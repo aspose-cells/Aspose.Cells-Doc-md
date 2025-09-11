@@ -64,3 +64,4 @@ The example below adds sample data to a worksheet, adds a [**ListObject**](https
 - [Tables and Ranges](/cells/python-net/tables-and-ranges/)
 
 
+{{< app/cells/assistant language="python-net" >}}

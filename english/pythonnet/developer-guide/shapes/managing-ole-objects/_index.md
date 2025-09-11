@@ -43,3 +43,4 @@ Aspose.Cells for Python via .NET supports extracting objects of uncommon types l
 - [Get or Set the Class Identifier of the Embedded OLE Object](/cells/python-net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 - [Inserting a WAV file as an Ole Object](/cells/python-net/inserting-a-wav-file-as-an-ole-object/)
 
+{{< app/cells/assistant language="python-net" >}}

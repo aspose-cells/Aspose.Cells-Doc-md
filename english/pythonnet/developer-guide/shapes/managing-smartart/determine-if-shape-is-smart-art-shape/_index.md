@@ -26,3 +26,4 @@ The following sample code loads the [sample Excel file](55541792.xlsx) containin
 Is Smart Art Shape: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

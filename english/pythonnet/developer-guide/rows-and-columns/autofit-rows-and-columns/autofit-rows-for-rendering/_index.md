@@ -20,3 +20,4 @@ If you want to prevent text being clipped in the saved PDF file, you can autofit
 Now, the text is not clipped in the output PDF file.
 
 ![text is not clipped in saved pdf](text_not_clipped_in_saved_pdf.png)
+{{< app/cells/assistant language="python-net" >}}

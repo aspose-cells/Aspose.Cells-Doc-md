@@ -33,3 +33,4 @@ The following sample code changes the shape type of data labels of the chart to 
 
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-SetShapeTypeOfDataLabelsOfChart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

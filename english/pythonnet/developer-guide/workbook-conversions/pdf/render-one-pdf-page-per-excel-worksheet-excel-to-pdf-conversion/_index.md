@@ -28,3 +28,4 @@ If the [PdfSaveOptions.one_page_per_sheet](https://reference.aspose.com/cells/py
 If your spreadsheet contains formulas, it is best to call [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) method just before rendering the spreadsheet to PDF. This ensures that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

@@ -113,3 +113,4 @@ Remove split panes using the [**remove_split**](https://reference.aspose.com/cel
 - [Show Formulas Instead of Values in a Worksheet](/cells/python-net/show-formulas-instead-of-values-in-a-worksheet/)
 - [Use Error Checking Options](/cells/python-net/use-error-checking-options/)
 
+{{< app/cells/assistant language="python-net" >}}

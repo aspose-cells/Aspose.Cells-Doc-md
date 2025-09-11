@@ -118,3 +118,4 @@ In case you try to render the non-supported chart types to image or PDF, you may
 
 ## **Advance topics**
 - [Convert Chart to PDF](/cells/python-net/chart-to-pdf/)
+{{< app/cells/assistant language="python-net" >}}

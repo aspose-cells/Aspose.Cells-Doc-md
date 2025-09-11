@@ -75,3 +75,4 @@ The following example shows how to activate a worksheet and make an active cell 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Management-MakeCellActive-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

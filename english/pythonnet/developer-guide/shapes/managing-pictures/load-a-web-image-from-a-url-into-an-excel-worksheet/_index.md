@@ -20,3 +20,4 @@ Aspose.Cells for Python via .NET API provides a simple and easy way to load imag
 There might be cases where you always want the updated image from a URL. To achieve this, you may follow the instructions given in the [Insert a Linked Picture from Web Address](/cells/python-net/insert-a-linked-picture-from-web-address/) article. By following this method, the image is loaded from the URL each time the worksheet is opened.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

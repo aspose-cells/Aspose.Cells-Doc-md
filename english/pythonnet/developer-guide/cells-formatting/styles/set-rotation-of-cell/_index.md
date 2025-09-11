@@ -50,3 +50,4 @@ Please see the following code, it creates a workbook object and set different ro
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-Cells-rotate-text.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

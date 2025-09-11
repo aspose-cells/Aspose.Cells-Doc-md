@@ -18,3 +18,4 @@ Aspose.Cells for Python via .NET supports displaying the contents of a worksheet
 ### Code Example
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Pictures-InsertPictureCellReference-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

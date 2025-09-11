@@ -24,3 +24,4 @@ In the Advance topics, we will show you how to use aspose Cells to create dynami
 - [Create Dynamic Rolling Chart using Aspose Cells](/cells/python-net/create-dynamic-rolling-chart/)
 - [Create Dynamic Scrolling Chart using Aspose Cells](/cells/python-net/create-dynamic-scrolling-chart/)
 - [Create Dynamic Chart with Dropdownlist using Aspose Cells](/cells/python-net/create-dynamic-chart-with-dropdownlist/)
+{{< app/cells/assistant language="python-net" >}}

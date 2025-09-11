@@ -23,3 +23,4 @@ This article will explain the use of [**Shape.geometry.shape_adjust_values**](ht
 The below code sample shows how to change adjustment values of the shape.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-ManageChartsAndShapes-ChangeShapesAdjustmentValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

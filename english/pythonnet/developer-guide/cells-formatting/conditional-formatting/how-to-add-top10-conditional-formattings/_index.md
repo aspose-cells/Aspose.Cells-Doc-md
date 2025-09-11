@@ -141,3 +141,4 @@ class ConditionalFormatting:
 ```
 
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

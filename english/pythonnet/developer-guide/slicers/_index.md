@@ -37,3 +37,4 @@ Please see the following sample code. It loads the [sample Excel file](sampleCre
 - [Removing Slicer](/cells/python-net/removing-slicer/)
 - [Rendering Slicer](/cells/python-net/rendering-slicer/)
 - [Updating Slicer](/cells/python-net/updating-slicer/)
+{{< app/cells/assistant language="python-net" >}}

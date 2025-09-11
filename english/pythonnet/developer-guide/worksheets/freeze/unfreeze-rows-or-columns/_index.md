@@ -32,3 +32,4 @@ It's simple to unfreeze panes with Aspose.Cells for Python via .NET. Please use 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Unfreeze-Pane.py" >}}
 
 Attached [sample source Excel file](Frozen.xlsx).
+{{< app/cells/assistant language="python-net" >}}

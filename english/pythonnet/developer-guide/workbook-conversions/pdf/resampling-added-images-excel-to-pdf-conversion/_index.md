@@ -26,3 +26,4 @@ Using the the [**PdfSaveOptions.set_image_resample**](https://reference.aspose.c
 If your spreadsheet contains formulas, it is best to call [**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

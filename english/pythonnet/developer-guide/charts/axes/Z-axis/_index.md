@@ -17,3 +17,4 @@ Please see the following sample code that create a new Excel file and put values
 
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ZAxis.py" >}}
+{{< app/cells/assistant language="python-net" >}}

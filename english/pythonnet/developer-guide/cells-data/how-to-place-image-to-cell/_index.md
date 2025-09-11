@@ -60,3 +60,4 @@ Insert Picture in Cell using Aspose.Cells for Python via .NET. Please see the fo
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-place-image-in-cell.py" >}}
+{{< app/cells/assistant language="python-net" >}}

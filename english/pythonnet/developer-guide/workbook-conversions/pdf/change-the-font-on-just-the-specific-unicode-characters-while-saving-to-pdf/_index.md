@@ -88,3 +88,4 @@ Use these essential API components:
 {{% alert color="note" %}} 
 **API Difference Note**: In Python.NET, boolean properties use snake_case naming (`is_font_substitution_char_granularity`) instead of PascalCase used in .NET.
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

@@ -86,3 +86,4 @@ This example demonstrates how to format a single cell to display numbers in an a
 Remember, the exact format string might need to be adjusted based on your locale and the specific accounting format requirements you have (e.g., using a different currency symbol, showing more or fewer decimal places, etc.).
 
 
+{{< app/cells/assistant language="python-net" >}}

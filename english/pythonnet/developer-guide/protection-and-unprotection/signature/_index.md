@@ -33,3 +33,4 @@ Please see the following sample code that describes how you can perform the task
 - [Add Signature line to the worksheet](/cells/python-net/add-signature-line/)
 - [Support for XAdES Signature](/cells/python-net/support-for-xades-signature/)
 
+{{< app/cells/assistant language="python-net" >}}

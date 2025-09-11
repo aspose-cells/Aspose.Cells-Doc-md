@@ -22,3 +22,4 @@ Aspose.Cells for Python excel library also provides [**PivotTable.show_in_compac
 The following sample code first shows the Pivot Table in **Compact Form**, then it shows the Pivot Table in **Outline Form** and lastly it shows Pivot Table in **Tabular Form**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ChangingLayoutOfPivotTable.py" >}}
+{{< app/cells/assistant language="python-net" >}}

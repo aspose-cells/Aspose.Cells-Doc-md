@@ -24,3 +24,4 @@ Aspose.Cells for Python via .NET supports converting Excel files to Ods,Sxc and 
 ## **Advance topics**
 - [Save ODS File in ODF 1.1 and 1.2 Specifications](/cells/python-net/save-ods-file-in-odf-1-1-and-1-2-specifications/)
 - [Working with Background in ODS Files](/cells/python-net/working-with-background-in-ods-files/)
+{{< app/cells/assistant language="python-net" >}}

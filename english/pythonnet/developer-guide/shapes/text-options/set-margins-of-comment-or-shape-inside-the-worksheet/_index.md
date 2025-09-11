@@ -18,3 +18,4 @@ Please see the following sample code. It loads the [sample Excel file](61767851.
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-SetMarginsOfCommentOrShapeInsideTheWorksheet.py" >}}
+{{< app/cells/assistant language="python-net" >}}

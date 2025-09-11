@@ -18,3 +18,4 @@ The following sample code loads the [sample Excel file](64716894.xlsx) and saves
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-HidingOverlaidContentWithCrossHideRightWhileSavingToHtml.py" >}}
+{{< app/cells/assistant language="python-net" >}}

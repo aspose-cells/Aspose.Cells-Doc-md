@@ -18,3 +18,4 @@ The following sample code loads the [sample Excel file](67338268.xlsx) with its 
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-SpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.py" >}}
+{{< app/cells/assistant language="python-net" >}}

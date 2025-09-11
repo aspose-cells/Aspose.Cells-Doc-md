@@ -25,3 +25,4 @@ The example code below demonstrates how to create custom charts. In this example
 Currently Aspose.Cells for Python via .NET only supports custom charts that combine pie, line, column, and column stack charts but more charts will be supported in future releases.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

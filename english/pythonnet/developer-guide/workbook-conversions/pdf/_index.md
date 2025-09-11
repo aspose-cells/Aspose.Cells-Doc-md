@@ -143,3 +143,4 @@ If your spreadsheet contains formulas, it is best to call [Workbook.calculate_fo
 - [Save Specified Worksheets to PDF](/cells/python-net/save-specified-worksheets-to-pdf/)
 - [Secure PDF Documents](/cells/python-net/secure-pdf-documents/)
 - [Specify how to cross string in output PDF and image](/cells/python-net/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="python-net" >}}

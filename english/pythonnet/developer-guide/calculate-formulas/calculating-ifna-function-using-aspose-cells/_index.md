@@ -73,3 +73,4 @@ workbook.calculate_formula()
 print(cell_a5.string_value)
 print(cell_a6.string_value)
 ```
+{{< app/cells/assistant language="python-net" >}}

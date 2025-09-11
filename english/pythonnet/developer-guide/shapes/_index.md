@@ -375,3 +375,4 @@ Execute the above code, you will get the following results:
 - [Manage Shape Text Options](/cells/python-net/managing-shape-text-options/)
 - [Web Extensions - Office Add-ins](/cells/python-net/web-extensions-office-add-ins/)
 
+{{< app/cells/assistant language="python-net" >}}

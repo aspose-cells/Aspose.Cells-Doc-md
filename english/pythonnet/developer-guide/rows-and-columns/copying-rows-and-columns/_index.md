@@ -98,3 +98,4 @@ Aspose.Cells now provides [**PasteOptions**](https://reference.aspose.com/cells/
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Copying-PastingRowsColumnsWithPasteOptions-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

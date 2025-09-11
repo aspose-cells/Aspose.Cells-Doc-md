@@ -19,3 +19,4 @@ We will display this data on two types of chart,the first chart is XY (Scatter) 
 ![todo:image_alt_text](compare.png)
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-X-axis-vs-category-axis.py" >}}
+{{< app/cells/assistant language="python-net" >}}

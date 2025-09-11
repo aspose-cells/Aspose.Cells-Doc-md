@@ -34,3 +34,4 @@ The resultant spreadsheet, in this case, will look as follow.
 |![todo:image_alt_text](2.png)|
 | :- |
 
+{{< app/cells/assistant language="python-net" >}}

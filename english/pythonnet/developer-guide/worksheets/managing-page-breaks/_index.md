@@ -46,3 +46,4 @@ In page break preview or print preview modes, you can see how these page breaks 
 ## **Important to know**
 
 When you set **FitToPages** properties (that is [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall) and [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide)) in page setup settings, the page break settings are affected, so, if you print the worksheet, the page break settings are not considered although they are still set.
+{{< app/cells/assistant language="python-net" >}}

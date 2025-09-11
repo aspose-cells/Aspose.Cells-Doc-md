@@ -22,3 +22,4 @@ You can download the [source Excel file](95584291.xlsx) and the [output PDF](9
 ### C# code to refresh the values of linked shapes
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-RefreshValueOfLinkedShapes-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

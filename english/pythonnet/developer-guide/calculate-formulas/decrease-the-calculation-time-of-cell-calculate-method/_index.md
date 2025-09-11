@@ -70,3 +70,4 @@ Typical output when running the optimized code with the sample file shows signif
 Recursive True: 96 seconds
 Recursive False: 42 seconds
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

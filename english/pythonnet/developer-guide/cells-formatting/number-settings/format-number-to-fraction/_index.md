@@ -112,3 +112,4 @@ Here's a code snippet demonstrating these steps:
 
 By following these steps, you can easily format numbers as fractions in Aspose.Cells for Python via .NET. This can be particularly useful for financial, statistical, or educational applications where precise fractional values are necessary.
 
+{{< app/cells/assistant language="python-net" >}}

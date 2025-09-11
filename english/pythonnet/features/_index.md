@@ -64,3 +64,4 @@ This page summarizes Aspose.Cells for Python via .NET features.
 - Create or edit your header and/or footer
 - Set print area, print titles, or turn on gridlines, etc.
 
+{{< app/cells/assistant language="python-net" >}}

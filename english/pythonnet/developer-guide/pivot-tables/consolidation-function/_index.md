@@ -37,3 +37,4 @@ The following code applies **AVERAGE** consolidation function to the first data 
 DISTINCT_COUNT consolidation function is supported by Microsoft Excel 2013 only.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

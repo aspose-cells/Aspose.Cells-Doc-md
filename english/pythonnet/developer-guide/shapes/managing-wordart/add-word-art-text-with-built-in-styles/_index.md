@@ -14,3 +14,4 @@ The following sample code adds Word Art texts with different Built-in Styles. Pl
 ![todo:image_alt_text](add-word-art-text-with-built-in-styles_1.png)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-WordArt-AddWordArtTextWithBuiltinStyle-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

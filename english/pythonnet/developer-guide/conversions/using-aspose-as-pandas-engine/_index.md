@@ -176,3 +176,4 @@ After running it, you should get a result like this.
 - [Aspose.Cells for Python via .NET Docs](https://docs.aspose.com/cells/python-net/)
 - [pandas ](https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html)[`read_excel()`](https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html)[ API](https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -61,3 +61,4 @@ c = cfr1.color_scale_result
 print(c.to_argb())
 print(c.name)
 ```
+{{< app/cells/assistant language="python-net" >}}

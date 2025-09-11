@@ -82,3 +82,4 @@ It's very easy to process the smart markers. What follows is a code snippet in P
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "SmartMarker-SimpleProcess.py" >}}
 
 
+{{< app/cells/assistant language="python-net" >}}

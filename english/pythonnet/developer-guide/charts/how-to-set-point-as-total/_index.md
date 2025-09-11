@@ -80,3 +80,4 @@ Key implementation details:
 - Handle chart type validation
 
 See [ChartPoint documentation](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chartpoint/) for advanced configuration options.
+{{< app/cells/assistant language="python-net" >}}

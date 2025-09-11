@@ -53,3 +53,4 @@ Aspose.Cells provides the [**Range.intersect**](https://reference.aspose.com/cel
 Aspose.Cells provides [**Range.merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/merge/#) method to merge the cells in the range. The following example shows how to merge the individual cells of a named range.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-MergeCellsInNamedRange-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

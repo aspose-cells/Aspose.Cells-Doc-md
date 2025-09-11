@@ -70,3 +70,4 @@ The following example uses a template XLSX file, gets the colors for different t
 ## **Advance topics**
 - [Extract Theme Data from Excel File](/cells/python-net/extract-theme-data-from-excel-file/)
 
+{{< app/cells/assistant language="python-net" >}}

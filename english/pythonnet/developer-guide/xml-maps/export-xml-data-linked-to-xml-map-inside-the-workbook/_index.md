@@ -11,3 +11,4 @@ Please use the [**Workbook.export_xml()**](https://reference.aspose.com/cells/py
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "XmlMaps-ExportXmlMapFromWorkbook.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -14,3 +14,4 @@ Aspose.Cells for Python via .NET APIs allow adding WordArt watermarks on the wor
 Aspose.Cells for Python via .NET APIs allow locking certain aspects of the watermark so that the user interaction could be limited or completely blocked. The following code snippet demonstrates the usage of Aspose.Cells for Python via .NET API to lock selection, movement, editing, and re-sizing of the watermark by creating a spreadsheet from scratch.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-WordArt-LockingWordartWatermark.py" >}}
+{{< app/cells/assistant language="python-net" >}}

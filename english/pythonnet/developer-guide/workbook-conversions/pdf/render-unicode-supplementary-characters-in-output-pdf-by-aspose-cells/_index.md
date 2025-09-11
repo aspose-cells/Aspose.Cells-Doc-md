@@ -29,3 +29,4 @@ The following screenshot shows how Aspose.Cells for Python via .NET rendered the
 You can use this sample code to convert [source excel file](5115563.xlsx) into [output PDF](5115564.pdf).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-RenderUnicodeInOutput.py" >}}
+{{< app/cells/assistant language="python-net" >}}

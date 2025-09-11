@@ -18,3 +18,4 @@ The following sample code adds a series in the empty chart which has no series b
 
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-SetValuesFormatCodeOfChartSeries.py" >}}
+{{< app/cells/assistant language="python-net" >}}

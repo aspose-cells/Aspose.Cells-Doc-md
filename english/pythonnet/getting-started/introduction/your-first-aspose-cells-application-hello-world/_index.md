@@ -41,3 +41,4 @@ The following example creates a new workbook from scratch, writes the words "Hel
 The following example opens an existing Microsoft Excel template file called **book1.xls**, writes the words "Hello World!" in cell A1 in the first worksheet, and saves the workbook as a new file.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpeningExistingFile.py" >}}
+{{< app/cells/assistant language="python-net" >}}

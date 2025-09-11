@@ -17,3 +17,4 @@ Please see the sample code below that demonstrates how to set the desired pixel 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-SetPixelFormatRenderedImage-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

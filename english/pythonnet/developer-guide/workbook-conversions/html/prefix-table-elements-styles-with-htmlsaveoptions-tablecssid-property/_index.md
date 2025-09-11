@@ -34,3 +34,4 @@ The following sample code demonstrates how to make use of [**HtmlSaveOptions.tab
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty.py" >}}
+{{< app/cells/assistant language="python-net" >}}

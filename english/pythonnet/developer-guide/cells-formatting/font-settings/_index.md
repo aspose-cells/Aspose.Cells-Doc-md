@@ -80,3 +80,4 @@ Developers can apply the superscript effect on the font by setting the [**is_sup
 - [Get a List of Fonts used in a Spreadsheet or Workbook](/cells/python-net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 
 
+{{< app/cells/assistant language="python-net" >}}

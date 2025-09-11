@@ -18,3 +18,4 @@ Aspose.Cells for Python via .NET provides the ability to save pivot table in ODS
 The output file generated the above code is attached for your reference.
 
 [Output ODS File](PivotTableSaveInODS_out.ods)
+{{< app/cells/assistant language="python-net" >}}

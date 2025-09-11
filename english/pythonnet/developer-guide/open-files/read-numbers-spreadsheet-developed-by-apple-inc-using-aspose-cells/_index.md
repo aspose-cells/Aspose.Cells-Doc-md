@@ -17,3 +17,4 @@ The following sample code loads the [Sample Numbers Spreadsheet](sampleNumbersBy
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Open-files-ReadNumbersSpreadsheet.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

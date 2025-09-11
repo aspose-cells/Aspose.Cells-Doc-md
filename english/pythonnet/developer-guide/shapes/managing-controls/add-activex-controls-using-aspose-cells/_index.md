@@ -31,3 +31,4 @@ Once, you have added the ActiveX control inside the shape collection, you can th
 The following sample code adds Toggle Button ActiveX Control using Aspose.Cells for Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-AddActiveXControls-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

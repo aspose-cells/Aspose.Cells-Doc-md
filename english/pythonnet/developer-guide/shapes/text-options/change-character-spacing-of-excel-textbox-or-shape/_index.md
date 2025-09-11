@@ -14,3 +14,4 @@ You can change the character spacing of excel textbox or shape using the [**Font
 The following sample code changes the character spacing of the text box in an excel file to point 4 and then saves it on disk.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-ChangeTextBoxOrShapeCharacterSpacing-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

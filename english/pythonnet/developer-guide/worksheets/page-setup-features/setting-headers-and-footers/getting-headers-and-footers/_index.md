@@ -45,3 +45,4 @@ Aspose.Cells for Python via .NET provides [**Worksheet.page_setup.get_commands**
 The following codes how to parse header or footer as command list and process commands:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Parses-Header-Footer.py" >}}
+{{< app/cells/assistant language="python-net" >}}

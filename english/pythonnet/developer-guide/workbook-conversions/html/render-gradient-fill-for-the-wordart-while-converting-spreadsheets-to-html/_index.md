@@ -14,3 +14,4 @@ Before Aspose.Cells 17.1, Aspose.Cells did not render gradient fill of the word 
 The following sample code converts the [source excel file](22774111.xlsx) into [output HTML format](22774109.zip). The source excel file contains a word art object with gradient fill as shown in the above screenshot.
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-RenderGradientFillToHTML.py" >}}
+{{< app/cells/assistant language="python-net" >}}

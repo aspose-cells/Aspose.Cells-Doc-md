@@ -41,3 +41,4 @@ It's simple to freeze first column(s) with Aspose.Cells for Python via .NET. Ple
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Freeze-Column.py" >}}
 
 Attached [sample source Excel file](Freeze.xlsx).
+{{< app/cells/assistant language="python-net" >}}

@@ -41,3 +41,4 @@ wb.save(os.path.join(output_dir, "test_Cs.pdf"), pdf_save_options)
 ```
 
 ![solid-gridline.png](solid-gridline.png)
+{{< app/cells/assistant language="python-net" >}}

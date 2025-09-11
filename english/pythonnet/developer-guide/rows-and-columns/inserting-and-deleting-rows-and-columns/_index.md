@@ -76,3 +76,4 @@ To delete multiple rows from a worksheet, call the [**delete_rows**](https://ref
 To delete a column from the worksheet at any location, call the [**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int) method of the [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells) collection. The [**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int) method takes the index of the column to delete.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-InsertingAndDeleting-DeletingAColumn-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

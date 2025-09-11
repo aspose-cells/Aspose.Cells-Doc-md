@@ -54,3 +54,4 @@ Aspose.Cells for Python via .NET provides a method [**Aspose.Cells.Worksheet.mov
 The following example shows how to move a worksheet to another location within the workbook.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Value-MoveWorksheet-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

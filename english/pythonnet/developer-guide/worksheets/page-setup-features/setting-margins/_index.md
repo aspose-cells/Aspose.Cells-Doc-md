@@ -41,3 +41,4 @@ It is possible to center something on a page horizontally and vertically. For th
 Set header and footer margins with the [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) class members such as [**header_margin**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/header_margin) and [**footer_margin**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/footer_margin).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetMargins-HeaderAndFooterMargins.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -22,3 +22,4 @@ You can set the **Shadow** of **Text Effects** of any Shape or TextBox. Please u
 The following code snippet demonstrates the use of [**FontSetting.text_options.shadow.preset_type**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shadoweffect/preset_type) property to set shadow of text effects of Shape or TextBox.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-SettingTextEffectsShadowOfShapeOrTextbox-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -24,3 +24,4 @@ Below code sample, shows you how to get validation applied on a cell.
 ## Related Articles
 
 - [Data Validation](/cells/python-net/data-validation/)
+{{< app/cells/assistant language="python-net" >}}

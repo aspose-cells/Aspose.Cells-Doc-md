@@ -16,3 +16,4 @@ The following sample code creates a workbook and fills its worksheet with some v
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ExportToHTMLWithGridLines-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

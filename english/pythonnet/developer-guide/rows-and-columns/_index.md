@@ -77,3 +77,4 @@ To set the same column width for all columns in the worksheet, use the [**Cells*
 - [Inserting and Deleting Rows and Columns of Excel file](/cells/python-net/inserting-and-deleting-rows-and-columns/)
 - [Remove duplicate rows in a Worksheet](/cells/python-net/remove-duplicate-rows-in-a-worksheet/)
 - [Update references in other worksheets while deleting blank columns and rows in a worksheet](/cells/python-net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)
+{{< app/cells/assistant language="python-net" >}}

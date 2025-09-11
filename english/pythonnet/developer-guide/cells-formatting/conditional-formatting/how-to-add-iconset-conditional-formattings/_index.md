@@ -244,3 +244,4 @@ class ConditionalFormatting:
         self.get_format_condition("A1:C2", Color.yellow)
     
 ```
+{{< app/cells/assistant language="python-net" >}}

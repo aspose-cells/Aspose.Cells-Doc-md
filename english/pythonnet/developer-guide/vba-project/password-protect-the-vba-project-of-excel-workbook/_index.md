@@ -15,3 +15,4 @@ The following sample code loads the [sample Excel file](43352067.xlsm), accesses
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "VBAProject-ProtecttheVBAProjectofExcelWorkbook.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -135,3 +135,4 @@ class ConditionalFormatting:
         cond.style.pattern = BackgroundType.SOLID
     
 ```
+{{< app/cells/assistant language="python-net" >}}

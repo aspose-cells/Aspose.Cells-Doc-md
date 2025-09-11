@@ -31,3 +31,4 @@ To open a file with data only, use the [**LoadOptions**](https://reference.aspos
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Open-files-OpeningFilewithDataOnly-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

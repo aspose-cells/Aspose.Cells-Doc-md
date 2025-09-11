@@ -60,3 +60,4 @@ The following code sample demonstrates the use of [**ExportRangeToJsonOptions**
 ]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

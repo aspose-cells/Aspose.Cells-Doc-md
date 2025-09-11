@@ -43,3 +43,4 @@ These string numbers have been converted to numbers using [**Cells.convert_strin
 The following sample code illustrates how to convert all string numeric data to actual numbers in all worksheets.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-ConvertStringToNumericValue-ConvertTextNumericDatatoNumber.py" >}}
+{{< app/cells/assistant language="python-net" >}}

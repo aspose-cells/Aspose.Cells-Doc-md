@@ -48,3 +48,4 @@ To format numbers as currency in Aspose.Cells for Python .NET library for workin
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-Numbers-format-currency.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

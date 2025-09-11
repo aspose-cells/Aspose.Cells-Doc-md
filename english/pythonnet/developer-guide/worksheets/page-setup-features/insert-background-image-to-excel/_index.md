@@ -30,3 +30,4 @@ The code below sets a background image using an image from a stream.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetBackgroundPicture-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

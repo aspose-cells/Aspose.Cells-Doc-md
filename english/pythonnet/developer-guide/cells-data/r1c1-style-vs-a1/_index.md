@@ -58,3 +58,4 @@ A1 Reference Style:
 R1C1 Reference Style:
 <br>
 <image src="3.png" width="70%" />
+{{< app/cells/assistant language="python-net" >}}

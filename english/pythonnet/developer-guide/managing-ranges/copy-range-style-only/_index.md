@@ -22,3 +22,4 @@ This example creates a workbook, populates it with data and copies a range's sty
 1. Copy the first range's formatting to the second range.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-CopyRangeStyleOnly-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

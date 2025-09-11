@@ -54,3 +54,4 @@ Aspose.Cells for Python via .NET has been able to convert worksheets to SVG imag
 - [Convert an Excel Chart to Image](/cells/python-net/convert-an-excel-chart-to-image/)
 - [Converting Chart to Image in SVG Format](/cells/python-net/converting-chart-to-image-in-svg-format/)
 - [Export Chart to SVG with viewBox attribute](/cells/python-net/export-chart-to-svg-with-viewbox-attribute/)
+{{< app/cells/assistant language="python-net" >}}

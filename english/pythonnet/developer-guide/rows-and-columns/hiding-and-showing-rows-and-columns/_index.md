@@ -55,3 +55,4 @@ Developers can hide multiple rows or columns at once by calling the [**hide_rows
 It is also possible to use the [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) class' [**unhide_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_rows/) and [**unhide_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_columns/) methods to make multiple rows and columns visible.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

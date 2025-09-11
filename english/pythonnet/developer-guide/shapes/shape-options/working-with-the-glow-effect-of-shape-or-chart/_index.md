@@ -18,3 +18,4 @@ The following sample code loads the [source excel file](5115407.xlsx) and access
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Options-GlowEffectOfShape.py" >}}
+{{< app/cells/assistant language="python-net" >}}
