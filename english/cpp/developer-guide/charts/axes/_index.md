@@ -88,3 +88,4 @@ int main()
 - [Handle Automatic Units of Chart Axis like Microsoft Excel](/cells/cpp/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
 - [Read Axis Labels after Calculating the Chart](/cells/cpp/read-axis-labels-after-calculating-the-chart/)
 - [How to Set Category Axis in Excel Chart](/cells/cpp/how-to-set-category-axis/)
+{{< app/cells/assistant language="cpp" >}}

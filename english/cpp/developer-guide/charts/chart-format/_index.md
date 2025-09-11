@@ -474,3 +474,4 @@ int main()
 ## **Advance topics**
 - [Set the Values Format Code of Chart Series](/cells/cpp/set-the-values-format-code-of-chart-series/)
 - [Set Picture as Background Fill in the Chart](/cells/cpp/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="cpp" >}}

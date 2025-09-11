@@ -23,3 +23,4 @@ The following sample code formats the cell C4 of the worksheet in various ways 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-CellsFormatting-FormatCellOrRangeOfCells-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

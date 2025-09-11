@@ -644,3 +644,4 @@ int main()
 ## **Advance topics**
 - [Apply Advanced Filter of Microsoft Excel to Display Records Meeting Complex Criteria](/cells/cpp/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Get All Hidden Rows Indices after Refreshing AutoFilter](/cells/cpp/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+{{< app/cells/assistant language="cpp" >}}

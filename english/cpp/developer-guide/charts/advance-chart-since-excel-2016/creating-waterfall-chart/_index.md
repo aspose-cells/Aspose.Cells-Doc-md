@@ -106,3 +106,4 @@ int main()
 
 - [Creating Charts](/cells/cpp/creating-charts/)
 - [Customizing Charts](/cells/cpp/customizing-charts/)
+{{< app/cells/assistant language="cpp" >}}

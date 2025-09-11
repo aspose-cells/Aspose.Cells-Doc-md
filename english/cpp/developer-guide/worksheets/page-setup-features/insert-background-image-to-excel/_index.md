@@ -95,3 +95,4 @@ int main()
 ## Related Articles
 
 - [Working with Background in ODS Files](/cells/cpp/working-with-background-in-ods-files/)
+{{< app/cells/assistant language="cpp" >}}

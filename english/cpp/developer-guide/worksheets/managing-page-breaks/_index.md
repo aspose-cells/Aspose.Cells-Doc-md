@@ -23,3 +23,4 @@ Aspose.Cells provides a class [Workbook](https://reference.aspose.com/cells/cpp/
 A worksheet is represented by the [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class. The [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class provides a wide range of methods used to manage a worksheet. To add the page breaks, use the [AddPageBreaks](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/addpagebreaks) method of the [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class.
 ### **Adding Page Breaks**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManagingPageBreaks-AddingPageBreaks-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

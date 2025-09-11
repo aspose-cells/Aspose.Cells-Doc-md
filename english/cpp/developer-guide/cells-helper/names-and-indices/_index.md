@@ -35,3 +35,4 @@ The following sample code illustrates how to use [CellsHelper::CellNameToIndex](
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-GetRowAndColumnFromCellName-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

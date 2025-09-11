@@ -54,3 +54,4 @@ int main()
 Root Element Name Of Xml Map: MiscData
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

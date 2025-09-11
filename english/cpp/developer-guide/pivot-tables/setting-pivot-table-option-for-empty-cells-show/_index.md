@@ -83,3 +83,4 @@ int main()
 ## Related Articles
 
 - [Formatting Pivot Table](/cells/cpp/formatting-pivot-table/)
+{{< app/cells/assistant language="cpp" >}}

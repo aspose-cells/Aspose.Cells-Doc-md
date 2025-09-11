@@ -64,3 +64,4 @@ int main()
 For scenarios requiring always-updated images from a URL, use the method described in [Insert a Linked Picture from Web Address](/cells/cpp/insert-a-linked-picture-from-web-address/). This approach loads the image from the URL each time the worksheet is opened.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

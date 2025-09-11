@@ -213,3 +213,4 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read, and calculate 
 |GESTEP|**Engineering**: Tests whether a number is greater than a threshold value
 |GETPIVOTDATA|**Lookup and reference**: Returns data stored in a PivotTable report
 |GROW
+{{< app/cells/assistant language="cpp" >}}

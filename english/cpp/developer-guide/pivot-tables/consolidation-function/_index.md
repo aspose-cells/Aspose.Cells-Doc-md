@@ -84,3 +84,4 @@ int main()
 DistinctCount consolidation function is supported by Microsoft Excel 2013 only.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

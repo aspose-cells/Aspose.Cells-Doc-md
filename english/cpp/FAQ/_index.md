@@ -16,3 +16,4 @@ Now, encryption and decryption are not supported for Aspose.Cells for C++, so if
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-OpenFile-with-Password.cpp" >}}
 -->
 
+{{< app/cells/assistant language="cpp" >}}

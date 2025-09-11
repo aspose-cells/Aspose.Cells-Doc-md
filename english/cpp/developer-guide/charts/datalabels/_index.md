@@ -83,3 +83,4 @@ int main()
 - [Rich Text Custom Data Label of Chart Point](/cells/cpp/rich-text-custom-data-label-of-chart-point/)
 - [Set the Shape Type of Data Labels of Chart](/cells/cpp/set-the-shape-type-of-data-labels-of-chart/)
 - [Showing Cell Range as the Data Labels](/cells/cpp/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="cpp" >}}

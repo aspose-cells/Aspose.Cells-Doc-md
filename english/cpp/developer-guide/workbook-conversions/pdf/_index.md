@@ -308,3 +308,4 @@ If your spreadsheet contains formulas, it is best to call [**Workbook.CalculateF
 - [Save Specified Worksheets to PDF](/cells/cpp/save-specified-worksheets-to-pdf/)
 - [Secure PDF Documents](/cells/cpp/secure-pdf-documents/)
 - [Specify how to cross string in output PDF and image](/cells/cpp/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="cpp" >}}

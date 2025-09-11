@@ -107,3 +107,4 @@ int main()
 
 ## **Advanced Topics**
 - [Read Chart Subtitle from ODS File](/cells/cpp/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="cpp" >}}

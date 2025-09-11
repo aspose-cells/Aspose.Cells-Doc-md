@@ -79,3 +79,4 @@ int main()
 If the spreadsheet contains formulas, it is best to call [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) just before rendering it to PDF. This ensures that formula-dependent values are recalculated and the correct values are rendered in the PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

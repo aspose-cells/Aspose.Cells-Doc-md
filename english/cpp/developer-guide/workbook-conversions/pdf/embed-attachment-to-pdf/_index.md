@@ -39,3 +39,4 @@ int main()
 ```
 
 ![embedded-attachment.png](embedded-attachment.png)
+{{< app/cells/assistant language="cpp" >}}

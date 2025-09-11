@@ -65,3 +65,4 @@ int main()
 
 ## **Advance topics**
 - [Get Text Width of Cell Value](/cells/cpp/get-text-width-of-cell-value/)
+{{< app/cells/assistant language="cpp" >}}

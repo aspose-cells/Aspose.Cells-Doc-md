@@ -162,3 +162,4 @@ int main()
 
 ## **Advance topics**
 - [Detect Merged Cells in a Worksheet](/cells/cpp/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

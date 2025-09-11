@@ -54,3 +54,4 @@ The source and output Excel files are attached for reference.
 [Source File](96928091.xls)
 
 [Output File](96928092.xls)
+{{< app/cells/assistant language="cpp" >}}

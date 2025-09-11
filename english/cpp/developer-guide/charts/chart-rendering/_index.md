@@ -178,3 +178,4 @@ There are a few chart types that are currently not supported for rendering. Such
 In case you try to render the non-supported chart types to image or PDF, you may end up with 0 sized images or blank PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

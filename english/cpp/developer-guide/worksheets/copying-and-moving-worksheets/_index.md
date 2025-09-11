@@ -30,3 +30,4 @@ Aspose.Cells provides an overloaded method [AddCopy()](https://reference.aspose.
 Aspose.Cells provides a method [MoveTo()](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/moveto/) that is used to move a worksheet to another location in the same spreadsheet. The method takes the target worksheet index as a parameter. The following example shows how to move a worksheet to another location within the workbook.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-CopyingAndMovingWorksheets-MoveWorksheetsWithinWorkbook-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

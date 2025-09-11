@@ -44,3 +44,4 @@ With the **IPdfSaveOptions** class, you can get or set the PDF creation time.
 Please see the following sample code and its [output PDF](67338371.pdf) for your reference.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_SetPDFCreationTime-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -82,3 +82,4 @@ int main() {
 The palette only holds 56 colors. When you add a custom color to the palette, the palette is changed and any element in the file formatted with the previous color is changed. So, when you change the palette, please be very careful. Moreover, this is the limitation in XLS (Excel 97 - 2003) file format only as there is no such limitation for XLSX or other advanced MS Excel (2007/2010 or 2013) file formats.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

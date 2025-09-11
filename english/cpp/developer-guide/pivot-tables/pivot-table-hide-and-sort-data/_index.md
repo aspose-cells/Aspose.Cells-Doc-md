@@ -74,3 +74,4 @@ The source and output Excel files used in the code snippet are attached for refe
 [Source File](96928093.xlsx)
 
 [Output File](96928094.xlsx)
+{{< app/cells/assistant language="cpp" >}}

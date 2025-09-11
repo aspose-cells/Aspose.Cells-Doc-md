@@ -106,3 +106,4 @@ Please check the console output of the above sample code, the value(date time) o
 [Direct calculation of custom function without writing it in a worksheet](/cells/cpp/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

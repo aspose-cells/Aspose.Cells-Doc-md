@@ -80,3 +80,4 @@ The following example creates a new workbook from the scratch, inserts "**Hello 
 The following example opens an existing Microsoft Excel template file, gets a cell and checks the value in the cell A1.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-OpenExistingFile-1-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

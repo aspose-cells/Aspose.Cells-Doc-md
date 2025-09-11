@@ -23,3 +23,4 @@ Below is the console output of the above sample code when executed with the prov
 After refreshing Pivot Table value of cell H8: 6
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

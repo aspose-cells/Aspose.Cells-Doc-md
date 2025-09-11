@@ -154,3 +154,4 @@ int main()
 ```
 
 Here is [source excel file](Book1.xlsx).
+{{< app/cells/assistant language="cpp" >}}

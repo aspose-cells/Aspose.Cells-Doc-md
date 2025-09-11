@@ -24,3 +24,4 @@ We can use Aspose Cells to create Dynamic Chart in Excel files. In the Advance t
 - [Create Dynamic Rolling Chart using Aspose Cells](/cells/cpp/create-dynamic-rolling-chart/) 
 - [Create Dynamic Scrolling Chart using Aspose Cells](/cells/cpp/create-dynamic-scrolling-chart/) 
 - [Create Dynamic Chart with Dropdownlist using Aspose Cells](/cells/cpp/create-dynamic-chart-with-dropdownlist/) 
+{{< app/cells/assistant language="cpp" >}}

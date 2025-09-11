@@ -29,3 +29,4 @@ When comparing or migrating Excel files, you may encounter differences in data, 
 Aspose.Cells for C++ provides comprehensive tools for comparing and migrating Excel files. By leveraging these tools, you can ensure data integrity and streamline the migration process.
 
 For more detailed examples and advanced usage, refer to the [Aspose.Cells for C++ documentation](https://reference.aspose.com/cells/cpp/).
+{{< app/cells/assistant language="cpp" >}}

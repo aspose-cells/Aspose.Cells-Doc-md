@@ -281,3 +281,4 @@ int main()
 
 ## **Advance topics**
 - [Add WordArt Watermark to Chart](/cells/cpp/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="cpp" >}}

@@ -356,3 +356,4 @@ int main()
 - [Adjust workbook compression level](/cells/cpp/adjust-workbook-compression-level/)
 - [Save Workbook to Strict Open XML Spreadsheet Format](/cells/cpp/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [Saving File to Response Object](/cells/cpp/saving-file-to-response-object/)
+{{< app/cells/assistant language="cpp" >}}

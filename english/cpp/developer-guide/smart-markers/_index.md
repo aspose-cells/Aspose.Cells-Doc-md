@@ -7,3 +7,4 @@ url: /cpp/using-smart-markers/
 description: Smartly importing and placing data accoding to the template Excel files with Aspose.Cells library.
 ---
 
+{{< app/cells/assistant language="cpp" >}}

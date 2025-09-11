@@ -78,3 +78,4 @@ int main()
 ## Related Article
 
 - [Adding Custom Properties Visible Inside Document Information Panel](/cells/cpp/adding-custom-properties-visible-inside-document-information-panel/)
+{{< app/cells/assistant language="cpp" >}}

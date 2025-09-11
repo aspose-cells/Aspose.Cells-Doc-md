@@ -21,3 +21,4 @@ The following console output prints the values of [FullText](https://reference.a
 Refers To: =Sheet1!$D$3:$G$6
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

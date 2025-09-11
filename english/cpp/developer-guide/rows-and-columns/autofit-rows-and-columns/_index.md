@@ -236,3 +236,4 @@ If a cell is merged, then the AutoFit methods will not be applied, which is the 
 
 ## **Advance Topics**
 - [AutoFit Rows for Merged Cells](/cells/cpp/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="cpp" >}}

@@ -71,3 +71,4 @@ int main()
 - [Export XML Data linked to XML Map inside the Workbook](/cells/cpp/export-xml-data-linked-to-xml-map-inside-the-workbook/)
 - [Find the Root Element Name of XML Map](/cells/cpp/find-the-root-element-name-of-xml-map/)
 - [Link Cells to XML Map Elements](/cells/cpp/link-cells-to-xml-map-elements/)
+{{< app/cells/assistant language="cpp" >}}

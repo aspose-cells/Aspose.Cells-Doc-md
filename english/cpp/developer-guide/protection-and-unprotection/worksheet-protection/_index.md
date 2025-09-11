@@ -90,3 +90,4 @@ int main()
 - [Protecting Worksheets](/cells/cpp/protecting-worksheets/)
 - [Unprotect a Worksheet](/cells/cpp/unprotect-a-worksheet/)
 - [Verify Password Used to Protect the Worksheet](/cells/cpp/verify-password-used-to-protect-the-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

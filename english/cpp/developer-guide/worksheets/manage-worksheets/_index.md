@@ -34,3 +34,4 @@ The following sample code shows how to access or get any worksheet by specifying
 Removing worksheets by name works well when the name of the worksheet is known. If you don't know the worksheet's name, use an overloaded version of the [RemoveAt](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/removeat) method that takes the sheet index of the worksheet instead of its sheet name.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManageWorksheets-RemovingWorksheetsUsingSheetIndex-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

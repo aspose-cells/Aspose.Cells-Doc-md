@@ -226,3 +226,4 @@ In case you try to render the non-supported chart types to an image or PDF, you 
 
 ## **Advance topics**
 - [Convert Chart to PDF](/cells/cpp/chart-to-pdf/)
+{{< app/cells/assistant language="cpp" >}}

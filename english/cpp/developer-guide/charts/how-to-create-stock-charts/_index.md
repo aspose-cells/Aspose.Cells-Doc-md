@@ -25,3 +25,4 @@ Stock charts are a specific type of chart used to track the changes in the price
 The following dataset shows the daily trading information for a stock. We will use this data to create four types of stock charts: High-Low-Close (HLC) stock chart, Open-High-Low-Close (OHLC) chart, Volume-High-Low-Close (VHLC) stock chart, and Volume-Open-High-Low-Close (VOHLC) stock chart.
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="cpp" >}}

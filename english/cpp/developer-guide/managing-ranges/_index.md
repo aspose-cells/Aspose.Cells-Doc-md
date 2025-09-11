@@ -194,3 +194,4 @@ int main()
 - [Move Range of Cells in a Worksheet](/cells/cpp/move-range-of-cells-in-a-worksheet/)
 - [Create Workbook and Worksheet Scoped Named Ranges](/cells/cpp/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Search and Replace Data in a Range](/cells/cpp/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="cpp" >}}

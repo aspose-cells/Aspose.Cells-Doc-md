@@ -80,3 +80,4 @@ int main()
 Currently, Aspose.Cells only supports custom charts that combine pie, line, column, and column stack charts but more charts will be supported in future releases.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

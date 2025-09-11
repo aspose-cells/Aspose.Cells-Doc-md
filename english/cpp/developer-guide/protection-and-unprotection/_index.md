@@ -31,3 +31,4 @@ Protect and unprotect the shared workbook.
 - [Detect File Format of Encrypted Office Open XML - OOXML Files](/cells/cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Encrypting Excel Files](/cells/cpp/encrypting-excel-files/)
 - [How to Detect a File Format and Check if the File is Encrypted](/cells/cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="cpp" >}}

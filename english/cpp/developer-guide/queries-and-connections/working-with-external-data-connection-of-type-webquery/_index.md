@@ -63,3 +63,4 @@ Here is the console output of the above code with this [sample excel file](51123
 Web Query URL: https://docs.aspose.com/cells/net/
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

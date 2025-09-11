@@ -149,3 +149,4 @@ int main()
 - [Setting Strong Encryption Type](/cells/cpp/setting-strong-encryption-type/)
 - [Specify Author while Write Protecting Workbook](/cells/cpp/specify-author-while-write-protecting-workbook/)
 - [Verify Password of Encrypted Files](/cells/cpp/verify-password-of-encrypted-excel-and-ods-files/)
+{{< app/cells/assistant language="cpp" >}}

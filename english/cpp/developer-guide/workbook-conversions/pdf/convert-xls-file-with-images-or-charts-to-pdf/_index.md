@@ -61,3 +61,4 @@ int main()
 If the spreadsheet contains formulas, it is best to call the [Calculate(CalculationData data)](https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/calculate/) method just before rendering to PDF. Doing so ensures that formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

@@ -102,3 +102,4 @@ int main()
 ## **Advance topics**
 - [Keep Separators for Blank Rows while exporting spreadsheets to CSV format](/cells/cpp/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format](/cells/cpp/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+{{< app/cells/assistant language="cpp" >}}

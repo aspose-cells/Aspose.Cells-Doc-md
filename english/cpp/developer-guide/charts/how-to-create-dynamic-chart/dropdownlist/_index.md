@@ -116,3 +116,4 @@ In the generated file, the chart will dynamically count the data for the selecte
 ```
 
 You can try changing the dropdown list value in cell "Sheet1!$A$10", and you will see the dynamic change of the chart. Now we have created a dynamic chart with dropdownlist using Aspose.Cells successfully.
+{{< app/cells/assistant language="cpp" >}}

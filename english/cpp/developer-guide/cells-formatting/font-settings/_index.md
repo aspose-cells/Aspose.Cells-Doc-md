@@ -415,3 +415,4 @@ int main()
 ## **Advance topics**
 - [Apply Superscript and Subscript Effects on Fonts](/cells/cpp/apply-superscript-and-subscript-effects-on-fonts/)
 - [Get a List of Fonts used in a Spreadsheet or Workbook](/cells/cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
+{{< app/cells/assistant language="cpp" >}}

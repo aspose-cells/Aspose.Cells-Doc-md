@@ -197,3 +197,4 @@ By default, the calculation chain is disabled. Because creating the chain also n
 - [Returning a Range of Values using AbstractCalculationEngine](/cells/cpp/returning-a-range-of-values-using-abstractcalculationengine/)
 - [Setting Formula Calculation Mode of Workbook](/cells/cpp/setting-formula-calculation-mode-of-workbook/)
 - [Using FormulaText function in Aspose.Cells](/cells/cpp/using-formulatext-function-in-aspose-cells/)
+{{< app/cells/assistant language="cpp" >}}

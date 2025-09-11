@@ -36,3 +36,4 @@ A chart is composed of a data series. When creating a custom chart, developers h
 The example code below demonstrates how to create custom charts. In this example, we are going to use a column chart for the first data series and a line chart for the second series. The result is that we add a column chart, combined with a line chart, to the worksheet. Please see the [output Excel file](66519071.xlsx) of the following sample code.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_CustomChart-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

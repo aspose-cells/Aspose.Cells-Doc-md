@@ -143,3 +143,4 @@ In addition to the above-mentioned methods, the Aspose.Cells APIs also provide m
 - [Set Default Font while rendering spreadsheet to images](/cells/cpp/set-default-font-while-rendering-spreadsheet-to-images/)
 - [Set DefaultFont property of PdfSaveOptions and ImageOrPrintOptions to have priority](/cells/cpp/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Supported Font Formats](/cells/cpp/supported-font-formats/)
+{{< app/cells/assistant language="cpp" >}}

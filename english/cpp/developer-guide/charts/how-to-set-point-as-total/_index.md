@@ -65,3 +65,4 @@ You can get the following correct [output file](output.xlsx)
 As shown in the figure below, the four "Total" data points are set correctly, and you can see the difference from the previous chart.
 
 ![todo:image_alt_text](set-as-total2.png)
+{{< app/cells/assistant language="cpp" >}}

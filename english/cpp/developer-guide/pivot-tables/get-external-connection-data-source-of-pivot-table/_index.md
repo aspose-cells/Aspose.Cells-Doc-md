@@ -58,3 +58,4 @@ int main()
 The source file used in the code snippet is attached for reference.
 
 [Source File](104398862.xlsx)
+{{< app/cells/assistant language="cpp" >}}

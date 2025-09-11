@@ -178,3 +178,4 @@ While working on worksheets, users may add different types of data in the cells.
 - [Populate Data First by Row then by Column](/cells/cpp/populate-data-first-by-row-then-by-column/)
 - [Preserve Single Quote Prefix of Cell Value or Range](/cells/cpp/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Access and Update the Portions of Rich Text of Cell](/cells/cpp/access-and-update-the-portions-of-rich-text-of-cell/)
+{{< app/cells/assistant language="cpp" >}}

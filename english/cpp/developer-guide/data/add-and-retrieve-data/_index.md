@@ -45,3 +45,4 @@ The type of data contained in a cell can also be checked by using the [Cell](htt
 You can also use the above pre-defined cell value types to compare with the Type of the data present in each cell.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AddAndRetrieveData-RetrievingDataFromCells-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

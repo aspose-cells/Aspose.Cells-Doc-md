@@ -486,3 +486,4 @@ void SetPrintPageOrder() {
 
     // Set the page order to "Down, then Over"
     PageSetup
+{{< app/cells/assistant language="cpp" >}}

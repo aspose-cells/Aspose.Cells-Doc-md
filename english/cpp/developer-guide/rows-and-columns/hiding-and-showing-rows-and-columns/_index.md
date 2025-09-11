@@ -170,3 +170,4 @@ int main()
 It is also possible to use the [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) class' [**UnhideRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/unhiderows/) and [**UnhideColumns**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/unhidecolumns/) methods to make multiple rows and columns visible.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

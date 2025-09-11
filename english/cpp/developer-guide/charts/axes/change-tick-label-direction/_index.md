@@ -73,3 +73,4 @@ The source and output files can be downloaded from the following links.
 [Source File](105480221.xlsx)
 
 [Output File](105480223.xlsx)
+{{< app/cells/assistant language="cpp" >}}

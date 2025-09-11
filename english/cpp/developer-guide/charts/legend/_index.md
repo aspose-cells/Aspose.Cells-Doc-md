@@ -75,3 +75,4 @@ int main() {
 
 ## **Advanced Topics**
 - [Set text of chart legend entry fill to none using Aspose.Cells](/cells/cpp/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="cpp" >}}

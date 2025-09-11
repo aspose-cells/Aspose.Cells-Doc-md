@@ -32,3 +32,4 @@ To save the desired content to a PDF file using the Aspose.Cells for C++ library
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-SavingFiles-SavingFileToPdf-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

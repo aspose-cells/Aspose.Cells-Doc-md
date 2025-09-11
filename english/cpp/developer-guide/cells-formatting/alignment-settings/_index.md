@@ -494,3 +494,4 @@ int main()
 ## **Advance topics**
 - [Change Cells Alignment and Keep Existing Formatting](/cells/cpp/change-cells-alignment-and-keep-existing-formatting/)
 - [Line Breaks and Text Wrapping](/cells/cpp/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="cpp" >}}

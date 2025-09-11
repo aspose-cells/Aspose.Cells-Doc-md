@@ -65,3 +65,4 @@ int main()
 - [Add Word Art Text with Built-in Styles](/cells/cpp/add-word-art-text-with-built-in-styles/)
 - [Locking WordArt Watermark](/cells/cpp/locking-wordart-watermark/)
 - [Set preset WordArt style to the text of the shape](/cells/cpp/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="cpp" >}}

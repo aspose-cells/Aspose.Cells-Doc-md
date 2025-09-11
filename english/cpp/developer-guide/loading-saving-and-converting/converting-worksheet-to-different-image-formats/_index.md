@@ -42,3 +42,4 @@ The `Aspose.Cells.Rendering.IImageOrPrintOptions` class specifies that the wor
 Please see the following sample code, its [sample Excel file](67338402.xlsx), and the [output SVG Images](67338403.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_SVG-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

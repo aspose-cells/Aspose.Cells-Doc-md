@@ -151,3 +151,4 @@ int main()
 ## **Advance topics**
 - [Sort Data in Column with Custom Sort List](/cells/cpp/sort-data-in-column-with-custom-sort-list/)
 - [Specifying Sort Warning While Sorting Data](/cells/cpp/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="cpp" >}}

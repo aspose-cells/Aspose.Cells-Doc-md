@@ -64,3 +64,4 @@ If your spreadsheet contains formulas, it is best to call [**CalculateFormula**]
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="cpp" >}}

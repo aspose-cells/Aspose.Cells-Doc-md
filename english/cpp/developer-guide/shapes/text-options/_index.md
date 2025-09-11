@@ -95,3 +95,4 @@ void FormatText() {
 
 ## **Conclusion**
 Aspose.Cells for C++ provides a comprehensive set of tools to manage shape text options in Excel files. By using the [**Shape**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/) class, you can easily customize text alignment, orientation, and formatting to meet your specific requirements.
+{{< app/cells/assistant language="cpp" >}}

@@ -40,3 +40,4 @@ Aspose.Cells allows developers to access a worksheet's maximum display range. Th
 You can access a worksheet's maximum display range using [MaxDisplayRange](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getmaxdisplayrange/) method of the [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingMaximumDisplayRangeOfWorksheet-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

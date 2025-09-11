@@ -96,3 +96,4 @@ int main()
 ## **Advance topics**
 - [Combine Multiple Worksheets into a Single Worksheet](/cells/cpp/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Merge Files](/cells/cpp/merge-files/)
+{{< app/cells/assistant language="cpp" >}}
