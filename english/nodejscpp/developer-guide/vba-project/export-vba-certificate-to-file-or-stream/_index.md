@@ -33,3 +33,4 @@ const certBytes = workbook.getVbaProject().getCertRawData();
 // Save Certificate Data into FileStream
 require("fs").writeFileSync(path.join(dataDir, "Cert_out_"), Uint8Array.from(certBytes));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

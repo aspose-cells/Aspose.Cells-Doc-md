@@ -309,3 +309,4 @@ Apply professional **Excel font formatting** with AI-powered automation. Style *
 }
 ```
 **Result**: Uses default black color 
+{{< app/cells/assistant language="nodejs-cpp" >}}

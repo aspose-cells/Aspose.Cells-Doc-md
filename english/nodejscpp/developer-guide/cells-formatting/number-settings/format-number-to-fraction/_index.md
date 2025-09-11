@@ -107,3 +107,4 @@ Here's a code snippet demonstrating these steps:
 - Aspose.Cells supports a wide range of number formats, including decimal, percentage, currency, and more. You can customize the format to meet your specific requirements.
 
 By following these steps, you can easily format numbers as fractions in Aspose.Cells for Node.js via C++. This can be particularly useful for financial, statistical, or educational applications where precise fractional values are necessary.
+{{< app/cells/assistant language="nodejs-cpp" >}}

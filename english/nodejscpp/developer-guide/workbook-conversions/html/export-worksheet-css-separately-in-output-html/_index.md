@@ -82,3 +82,4 @@ options.setExportHiddenWorksheet(true);
 wb.save(path.join(dataDir, "outputSampleSingleSheet.htm"), options);
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

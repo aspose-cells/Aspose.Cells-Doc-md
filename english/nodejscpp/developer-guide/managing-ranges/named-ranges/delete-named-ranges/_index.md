@@ -102,3 +102,4 @@ workbook.save("Book2.xlsx");
 
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

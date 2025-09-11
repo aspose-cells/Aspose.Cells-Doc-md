@@ -106,3 +106,4 @@ shape.setIsLocked(false);
 workbook.save("UnLocked.xlsx", AsposeCells.SaveFormat.Xlsx);
 ```
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

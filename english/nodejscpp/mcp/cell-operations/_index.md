@@ -449,3 +449,4 @@ Perform advanced **Excel cell operations** with AI-powered automation. Merge cel
 }
 ```
 **Result**: Error - source sheet not found 
+{{< app/cells/assistant language="nodejs-cpp" >}}

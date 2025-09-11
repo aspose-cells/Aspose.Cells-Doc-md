@@ -42,3 +42,4 @@ This is the console output of the above sample code when executed with the provi
 Is VBA Project Locked for Viewing: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -36,3 +36,4 @@ The palette only holds 56 colors. When you add a custom color to the palette, th
   
 {{% /alert %}}  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

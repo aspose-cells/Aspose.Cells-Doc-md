@@ -166,3 +166,4 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 - [Insert a Picture Based on Cell Reference](/cells/nodejs-cpp/insert-a-picture-based-on-cell-reference/)
 - [Load a Web Image from a URL into an Excel Worksheet](/cells/nodejs-cpp/load-a-web-image-from-a-url-into-an-excel-worksheet/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

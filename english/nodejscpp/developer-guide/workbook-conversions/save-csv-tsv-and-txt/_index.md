@@ -70,3 +70,4 @@ wb.save(path.join(dataDir, "output.csv"), options);
 ## **Advance topics**
 - [Keep Separators for Blank Rows while exporting spreadsheets to CSV format](/cells/nodejs-cpp/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format](/cells/nodejs-cpp/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

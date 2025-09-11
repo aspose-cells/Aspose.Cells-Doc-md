@@ -81,3 +81,4 @@ workbook.save(filePath);
 - [Read Axis Labels after Calculating the Chart](/cells/nodejs-cpp/read-axis-labels-after-calculating-the-chart/)  
 - [How to Set Category Axis in Excel Chart](/cells/nodejs-cpp/how-to-set-category-axis/)  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

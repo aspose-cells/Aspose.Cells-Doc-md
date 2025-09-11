@@ -37,3 +37,4 @@ options.setAddTooltipText(true);
 workbook.save(path.join(outputDir, "AddTooltipToHtmlSample_out.html"), options);
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

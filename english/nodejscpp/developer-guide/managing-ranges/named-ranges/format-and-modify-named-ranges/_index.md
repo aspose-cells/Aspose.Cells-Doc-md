@@ -414,3 +414,4 @@ worksheets.getNames().removeAt(0);
 // Save the excel file.
 workbook.save(path.join(dataDir, "copyranges.out.xls"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -163,3 +163,4 @@ By default, the calculation chain is disabled. Because creating the chain also n
 - [Returning a Range of Values using AbstractCalculationEngine](/cells/nodejs-cpp/returning-a-range-of-values-using-abstractcalculationengine/)
 - [Setting Formula Calculation Mode of Workbook](/cells/nodejs-cpp/setting-formula-calculation-mode-of-workbook/)
 - [Using FormulaText function in Aspose.Cells](/cells/nodejs-cpp/using-formulatext-function-in-aspose-cells/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

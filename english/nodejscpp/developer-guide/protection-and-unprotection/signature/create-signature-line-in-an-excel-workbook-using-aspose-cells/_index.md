@@ -41,3 +41,4 @@ workbook.getWorksheets().get(0).getShapes().addSignatureLine(1, 1, signatureLine
 workbook.save(path.join(dataDir, "output_out.xlsx"));
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

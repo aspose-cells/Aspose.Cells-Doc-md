@@ -110,3 +110,4 @@ After the above operation, we can get an output chart picture with Chinese Regio
 |Other Name|其他|Other|  
 |Series Name|系列|Series|  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

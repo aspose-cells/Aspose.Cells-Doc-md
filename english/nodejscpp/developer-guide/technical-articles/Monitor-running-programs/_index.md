@@ -33,3 +33,4 @@ monitor.startMonitor(1500); // time limit is 1.5 seconds
 wb.save("result.xlsx");
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

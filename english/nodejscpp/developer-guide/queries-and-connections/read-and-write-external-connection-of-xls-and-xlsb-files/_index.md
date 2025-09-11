@@ -59,3 +59,4 @@ Connection Info: Provider=Microsoft.ACE.OLEDB.12.0;Password="";User ID=Admin;Dat
 
 {{< /highlight >}}  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -41,3 +41,4 @@ You can get the following [Input file](SeriesFiltered.xlsx) and [output file](ou
 
 As shown in the figure below, the first two series which were originally visible, have become invisible in the output file.
 ![todo:image_alt_text](output.png)
+{{< app/cells/assistant language="nodejs-cpp" >}}

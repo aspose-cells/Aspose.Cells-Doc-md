@@ -50,3 +50,4 @@ Please see the following code, it creates a workbook object and sets different r
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Styles-SetRotationOfCell.js" >}}
 
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -57,3 +57,4 @@ workbook.save("PageMarginsExample.xlsx");
 In this document, you have learned how to manipulate page setup features in Excel using Aspose.Cells for Node.js via C++. By effectively using the `PageSetup` class, you can control how your worksheets are printed and displayed, enhancing the overall presentation of information.
 
 ---
+{{< app/cells/assistant language="nodejs-cpp" >}}

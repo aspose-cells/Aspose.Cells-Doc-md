@@ -25,3 +25,4 @@ Below code sample shows you how to get validation applied on a cell.
 ## Related Articles
 
 - [Data Validation](/cells/nodejs-cpp/data-validation/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

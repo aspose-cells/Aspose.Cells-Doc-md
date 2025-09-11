@@ -36,3 +36,4 @@ const render = new AsposeCells.SheetRender(sheet, options);
 render.toImage(0, "output.png");
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

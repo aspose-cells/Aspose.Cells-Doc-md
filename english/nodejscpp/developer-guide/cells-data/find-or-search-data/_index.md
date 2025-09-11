@@ -66,3 +66,4 @@ Specify the [**FindOptions.setLookInType**](https://reference.aspose.com/cells/n
 - [Find if the cell value starts with single quote mark](/cells/nodejs-cpp/find-if-the-cell-value-starts-with-single-quote-mark/)  
 - [Search Data using Original Values](/cells/nodejs-cpp/search-data-using-original-values/)  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

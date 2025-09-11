@@ -95,3 +95,4 @@ range.setOutlineBorders(AsposeCells.CellBorderType.Thin, outerColor);
 
 workbook.save("out.xlsx");
 ```  
+{{< app/cells/assistant language="nodejs-cpp" >}}

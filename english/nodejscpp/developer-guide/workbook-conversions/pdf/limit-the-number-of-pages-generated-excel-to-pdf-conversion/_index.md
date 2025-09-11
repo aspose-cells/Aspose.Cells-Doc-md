@@ -43,3 +43,4 @@ workbook.save(path.join(dataDir, "outPDF1.out.pdf"), options);
 If the spreadsheet contains formulas, it is best to call [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) just before rendering it to PDF. Doing so ensures that formula-dependent values are recalculated, and the correct values are rendered in the output file.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

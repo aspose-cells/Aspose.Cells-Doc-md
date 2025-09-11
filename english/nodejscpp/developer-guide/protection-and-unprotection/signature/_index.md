@@ -64,3 +64,4 @@ for (var dst of digitalSignatures)
 - [Add Signature line to the worksheet](/cells/nodejs-cpp/add-signature-line/)  
 - [Support for XAdES Signature](/cells/nodejs-cpp/support-for-xades-signature/)  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

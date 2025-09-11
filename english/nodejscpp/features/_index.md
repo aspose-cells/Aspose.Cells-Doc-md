@@ -99,3 +99,4 @@ You can use Aspose.Cells to implement page setup options for worksheets.
 |Set print area, print titles, or turn on gridlines etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

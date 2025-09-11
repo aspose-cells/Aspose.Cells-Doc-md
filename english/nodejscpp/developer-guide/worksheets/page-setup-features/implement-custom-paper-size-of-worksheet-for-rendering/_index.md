@@ -48,3 +48,4 @@ b4.putValue("Pdf Page Dimensions: 6.00 x 4.00 in");
 wb.save(path.join(dataDir, "outputCustomPaperSize.pdf"));
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

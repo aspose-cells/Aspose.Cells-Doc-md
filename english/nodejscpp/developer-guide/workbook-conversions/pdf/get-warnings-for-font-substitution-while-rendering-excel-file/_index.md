@@ -74,3 +74,4 @@ If your spreadsheet contains formulas, it is best to call Workbook.calculateForm
 
 {{% /alert %}}  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

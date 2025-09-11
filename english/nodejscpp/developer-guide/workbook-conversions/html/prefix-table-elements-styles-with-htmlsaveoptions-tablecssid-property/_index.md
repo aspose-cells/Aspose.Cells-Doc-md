@@ -63,3 +63,4 @@ opts.setTableCssId("MyTest_TableCssId");
 // Save the workbook in html
 wb.save("outputTableCssId.html", opts);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

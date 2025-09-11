@@ -35,3 +35,4 @@ vbaProject.protect(true, "11");
 workbook.save(path.join(dataDir, "outputPasswordProtectVBAProject.xlsm"));
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

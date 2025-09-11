@@ -55,3 +55,4 @@ workbook.save("sample_out.json", options);
 ```  
 
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

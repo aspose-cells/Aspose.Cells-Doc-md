@@ -94,3 +94,4 @@ workbook.save(path.join(filePath, "res-resave.xlsx"), AsposeCells.SaveFormat.Xls
 ```  
 
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

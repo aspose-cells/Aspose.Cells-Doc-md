@@ -47,3 +47,4 @@ tb.getTextOptions().setFarEastName("KaiTi");
 wb.save("outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", AsposeCells.SaveFormat.Xlsx);
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

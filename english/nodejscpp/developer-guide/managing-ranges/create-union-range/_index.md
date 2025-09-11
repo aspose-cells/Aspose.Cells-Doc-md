@@ -35,3 +35,4 @@ unionRange.setValue("ABCD");
 workbook.save("CreateUnionRange_out.xlsx");
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

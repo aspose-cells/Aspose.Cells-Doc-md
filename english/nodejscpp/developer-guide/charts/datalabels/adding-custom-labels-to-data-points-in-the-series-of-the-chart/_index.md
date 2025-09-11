@@ -75,3 +75,4 @@ pointIndex.getDataLabels().setText("Series 2" + "\n" + "Point " + i);
 workbook.save(path.join(dataDir, "output_out.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

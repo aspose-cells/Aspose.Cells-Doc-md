@@ -38,3 +38,4 @@ There might be cases where you always want the updated image from a URL. To achi
 {{% /alert %}}  
 
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

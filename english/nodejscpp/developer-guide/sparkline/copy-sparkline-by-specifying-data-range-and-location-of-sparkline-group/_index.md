@@ -46,3 +46,4 @@ group.getSparklines().add("Sheet1!D8:O8", 7, 15);
 workbook.save(path.join(dataDir, "output_out.xlsx"));
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

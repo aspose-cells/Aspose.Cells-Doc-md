@@ -59,3 +59,4 @@ If you open the chart's SVG in notepad, you will find the **viewBox** attribute 
 {{< /highlight >}}
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

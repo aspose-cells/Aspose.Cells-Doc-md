@@ -17,3 +17,4 @@ The following sample code loads the [source excel file](5115238.xlsx) which cont
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTable-RefreshAndCalculateItems-1.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

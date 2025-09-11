@@ -185,3 +185,4 @@ If a cell is merged then the autoFit methods will not be applied, which is the s
 ## **Advance topics**  
 - [AutoFit Rows for Merged Cells](/cells/nodejs-cpp/autofit-rows-for-merged-cells/)  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

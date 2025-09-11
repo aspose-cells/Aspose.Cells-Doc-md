@@ -242,3 +242,4 @@ The waterfall chart is supported in Aspose.Cells.
 
 ### **Custom Chart Types**
 Custom charts allow you to create charts with custom formatting that can be applied to other charts also. Here, we've only discussed the standard charts. If you want to know more details about custom charts then please read the Creating Custom Charts article which describes how to create custom charts.
+{{< app/cells/assistant language="nodejs-cpp" >}}

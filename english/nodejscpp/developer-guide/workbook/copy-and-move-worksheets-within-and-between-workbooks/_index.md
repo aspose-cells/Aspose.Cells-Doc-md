@@ -137,3 +137,4 @@ excelWorkbook5.save(path.join(dataDir, "FirstWorkbookWithMove_out.xlsx"));
 // Save the file.
 excelWorkbook6.save(path.join(dataDir, "SecondWorkbookWithMove_out.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

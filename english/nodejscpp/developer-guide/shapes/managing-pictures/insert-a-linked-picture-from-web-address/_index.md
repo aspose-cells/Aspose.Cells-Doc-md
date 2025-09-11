@@ -41,3 +41,4 @@ pic.setWidthInch(2.6);
 workbook.save(path.join(dataDir, "outLinkedPicture.out.xlsx"));
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

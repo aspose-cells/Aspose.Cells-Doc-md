@@ -59,3 +59,4 @@ Following are the sample files which can be downloaded for testing this feature:
 - [Sort Data in Column with Custom Sort List](/cells/nodejs-cpp/sort-data-in-column-with-custom-sort-list/)
 - [Specifying Sort Warning While Sorting Data](/cells/nodejs-cpp/specifying-sort-warning-while-sorting-data/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

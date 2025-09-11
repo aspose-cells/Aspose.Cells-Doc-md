@@ -48,3 +48,4 @@ const outputFilePath = path.join(dataDir, "OutCommentShape.out.xlsx");
 // Save the Excel file
 wb.save(outputFilePath);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -208,3 +208,4 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 - [Remove duplicate rows in a Worksheet](/cells/nodejs-cpp/remove-duplicate-rows-in-a-worksheet/)  
 - [Update references in other worksheets while deleting blank columns and rows in a worksheet](/cells/nodejs-cpp/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

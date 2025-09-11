@@ -51,3 +51,4 @@ Output:
 this is first name which is cre
 
 ` `<> + (adj.Private _ " Private"
+{{< app/cells/assistant language="nodejs-cpp" >}}

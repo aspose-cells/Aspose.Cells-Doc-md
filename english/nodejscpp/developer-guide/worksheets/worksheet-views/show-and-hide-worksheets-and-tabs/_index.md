@@ -125,3 +125,4 @@ workbook.getSettings().setSheetTabBarWidth(800);
 workbook.save(path.join(dataDir, "output.xls"));
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

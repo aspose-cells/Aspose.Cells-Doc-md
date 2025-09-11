@@ -413,3 +413,4 @@ Manage **Excel row and column operations** with AI-powered automation. Insert, d
 }
 ```
 **Result**: Error - height parameter required 
+{{< app/cells/assistant language="nodejs-cpp" >}}

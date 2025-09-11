@@ -29,3 +29,4 @@ Clear filter in Pivot Table using Aspose.Cells for Node.js via C++. Please see t
 
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-Clear-filter-in-PivotTable.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

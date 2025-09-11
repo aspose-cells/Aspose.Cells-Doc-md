@@ -65,3 +65,4 @@ console.log("X: " + pathPoint.getX() + ", Y: " + pathPoint.getY());
 }
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

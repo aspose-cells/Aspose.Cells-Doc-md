@@ -250,3 +250,4 @@ range2.copy(range1);
 workbook.save(path.join(dataDir, "copyranges.out.xls"));
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

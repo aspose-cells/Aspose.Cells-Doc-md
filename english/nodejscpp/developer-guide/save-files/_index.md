@@ -253,3 +253,4 @@ workbook.save(path.join(dataDir, "book1.json"));
 - [Adjust workbook compression level](/cells/nodejs-cpp/adjust-workbook-compression-level/)
 - [Save Workbook to Strict Open XML Spreadsheet Format](/cells/nodejs-cpp/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [Saving File to Response Object](/cells/nodejs-cpp/saving-file-to-response-object/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

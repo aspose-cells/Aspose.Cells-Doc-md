@@ -166,3 +166,4 @@ Excel provides custom filters like filter rows which end with some specific stri
 ## **Advance topics**
 - [Apply Advanced Filter of Microsoft Excel to Display Records Meeting Complex Criteria](/cells/nodejs-cpp/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Get All Hidden Rows Indices after Refreshing AutoFilter](/cells/nodejs-cpp/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

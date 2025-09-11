@@ -48,3 +48,4 @@ dbConn.setConnectionString("Server=myServerAddress;Database=myDataBase;User ID=m
 workbook.save(path.join(dataDir, "output_out.xlsx"));
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

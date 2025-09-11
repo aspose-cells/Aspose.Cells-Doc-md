@@ -151,3 +151,4 @@ const A1C3 = src.getCurrentRegion();
 - [Move Range of Cells in a Worksheet](/cells/nodejs-cpp/move-range-of-cells-in-a-worksheet/)
 - [Create Workbook and Worksheet Scoped Named Ranges](/cells/nodejs-cpp/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Search and Replace Data in a Range](/cells/nodejs-cpp/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

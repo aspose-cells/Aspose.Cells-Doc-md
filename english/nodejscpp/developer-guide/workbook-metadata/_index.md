@@ -39,3 +39,4 @@ console.log(w.getCustomDocumentProperties().get("test"));
 console.log("Press any key to continue...");
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

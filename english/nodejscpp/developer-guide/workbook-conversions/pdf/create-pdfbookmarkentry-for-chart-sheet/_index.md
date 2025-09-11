@@ -77,3 +77,4 @@ opts.setBookmark(ent1);
 workbook.save("outputCreatePdfBookmarkEntryForChartSheet.pdf", opts);
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

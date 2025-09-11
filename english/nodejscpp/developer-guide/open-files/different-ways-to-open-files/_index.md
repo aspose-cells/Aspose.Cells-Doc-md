@@ -141,3 +141,4 @@ There are fair chances that the [**Workbook**](https://reference.aspose.com/cell
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

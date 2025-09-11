@@ -157,3 +157,4 @@ pageSetup.setOrder(AsposeCells.PrintOrderType.OverThenDown);
 workbook.save(path.join(dataDir, "PageSetup_Print_out.xlsx"));
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

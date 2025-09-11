@@ -25,3 +25,4 @@ To apply some formatting to a large range of cells in a worksheet:
 Because the [**Cell.getStyle()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getStyle--) / [**Cell.setStyle(Style)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#setStyle-style-) approach uses a lot less memory, and is efficient, the older Cell.style property which consumed a lot of unnecessary memory was removed with the release of Aspose.Cells 7.1.0.  
 {{% /alert %}}  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

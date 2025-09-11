@@ -85,3 +85,4 @@ workbook.save(path.join(dataDir, "RemoveSpecificPageBreak_out.xls"));
 ## **Important to know**
 
 When you set **fitToPages** properties (that is [**PageSetup.getFitToPagesTall()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesTall--) and [**PageSetup.getFitToPagesWide()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesWide--)) in page setup settings, the page break settings are affected, so, if you print the worksheet, the page break settings are not considered although they are still set.
+{{< app/cells/assistant language="nodejs-cpp" >}}

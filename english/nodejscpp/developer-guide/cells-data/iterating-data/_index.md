@@ -191,3 +191,4 @@ Based on above-mentioned facts, the following are the possible scenarios where e
 1. A large number of cells are to be traversed.  
 1. Only initialized cells/rows/columns to be traversed.  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

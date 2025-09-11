@@ -96,3 +96,4 @@ Please check the console output of the above sample code; the value (date time) 
 [Direct calculation of custom function without writing it in a worksheet](/cells/nodejs-cpp/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

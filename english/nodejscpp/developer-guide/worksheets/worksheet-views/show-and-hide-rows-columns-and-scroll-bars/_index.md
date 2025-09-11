@@ -168,3 +168,4 @@ workbook.getSettings().setIsHScrollBarVisible(false);
 workbook.save(path.join(dataDir, "output.xls"));
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

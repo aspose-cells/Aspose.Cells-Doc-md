@@ -132,3 +132,4 @@ The source and output excel files are attached for reference.
 - [Get Validation Applied on a Cell](/cells/nodejs-cpp/get-validation-applied-on-a-cell/)  
 - [Verify that Cell Value Satisfies Data Validation Rules](/cells/nodejs-cpp/verify-that-cell-value-satisfies-data-validation-rules/)  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

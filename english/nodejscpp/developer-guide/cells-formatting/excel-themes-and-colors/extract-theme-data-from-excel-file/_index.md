@@ -22,3 +22,4 @@ The following sample code extracts the Theme name applied to the source workbook
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-ThemesAndColors-ExtractThemeData.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

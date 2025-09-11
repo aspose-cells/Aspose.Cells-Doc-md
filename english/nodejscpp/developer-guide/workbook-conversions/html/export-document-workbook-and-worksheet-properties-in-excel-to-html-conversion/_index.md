@@ -42,3 +42,4 @@ options.setExportWorksheetProperties(false);
 workbook.save("outputExportDocumentWorkbookAndWorksheetPropertiesInHTML.html", options);
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

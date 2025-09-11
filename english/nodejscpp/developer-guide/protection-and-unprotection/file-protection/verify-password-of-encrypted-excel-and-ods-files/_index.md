@@ -33,3 +33,4 @@ const isPasswordValid = AsposeCells.FileFormatUtil.verifyPassword(fstream, "1234
 console.log("Password is Valid: " + isPasswordValid);
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

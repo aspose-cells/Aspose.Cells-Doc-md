@@ -36,3 +36,4 @@ workbook.replace("\\bKIM\\b", "^^^TIM^^^", replace);
 workbook.save(path.join(outputDir, "RegexReplace_out.xlsx"));
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

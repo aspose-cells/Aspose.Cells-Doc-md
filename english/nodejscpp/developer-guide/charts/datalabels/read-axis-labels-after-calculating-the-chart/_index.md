@@ -69,3 +69,4 @@ Brazil
 England  
 {{< /highlight >}}  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -40,3 +40,4 @@ workbook.save("output.pdf", AsposeCells.SaveFormat.Pdf);
 Now, the text is not clipped in the output PDF file.
 
 ![text is not clipped in saved pdf](text_not_clipped_in_saved_pdf.png)  
+{{< app/cells/assistant language="nodejs-cpp" >}}

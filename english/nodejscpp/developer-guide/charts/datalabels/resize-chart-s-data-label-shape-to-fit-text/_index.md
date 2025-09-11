@@ -55,3 +55,4 @@ chart.calculate();
 workbook.save(path.join(dataDir, "output_out.xlsx"));
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

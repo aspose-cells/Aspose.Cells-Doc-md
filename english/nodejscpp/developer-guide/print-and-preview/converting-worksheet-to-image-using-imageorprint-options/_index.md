@@ -149,3 +149,4 @@ workbookRender.toImage(path.join(outputDir, "outputUseWorkbookRenderForImageConv
 ```  
 
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

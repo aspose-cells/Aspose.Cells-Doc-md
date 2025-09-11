@@ -53,3 +53,4 @@ dstSheet.getCells().get("D4").putValue("Row heights of source range copied to de
 workbook.save(path.join(dataDir, "output_out.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

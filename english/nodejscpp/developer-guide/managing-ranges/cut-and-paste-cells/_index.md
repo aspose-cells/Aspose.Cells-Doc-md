@@ -41,3 +41,4 @@ worksheet.getCells().insertCutCells(cut, 0, 1, AsposeCells.ShiftType.Right);
 workbook.save(path.join(outDir, "CutAndPasteCells.xlsx"));
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

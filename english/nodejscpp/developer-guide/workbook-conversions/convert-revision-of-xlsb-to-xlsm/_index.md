@@ -32,3 +32,4 @@ const workbook = new AsposeCells.Workbook(filePath);
 workbook.save(path.join(dataDir, "output_out.xlsm"), AsposeCells.SaveFormat.Xlsm);
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

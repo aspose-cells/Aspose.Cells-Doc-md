@@ -25,3 +25,4 @@ You can use ‘\n’ in JavaScript to insert explicit line breaks in a cell.
 
 
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

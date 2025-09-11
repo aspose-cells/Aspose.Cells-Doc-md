@@ -45,3 +45,4 @@ let workbookA3 = new AsposeCells.Workbook(ms, opts);
 workbookA3.save(path.join(dataDir, "LoadWorkbookWithPrinterSize-a3_out.pdf"));
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

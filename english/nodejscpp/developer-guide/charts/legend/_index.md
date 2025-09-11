@@ -71,3 +71,4 @@ workbook.save("chart_legend.xlsx");
 
 ## **Advance topics**
 - [Set text of chart legend entry fill to none using Aspose.Cells](/cells/nodejs-cpp/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

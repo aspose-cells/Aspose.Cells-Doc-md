@@ -41,3 +41,4 @@ const range = cells.createRange("A1", "B5");
 range.moveTo(0, 2);
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -48,3 +48,4 @@ pageSetup.setEvenHeader(1, "I am the header of the Even page.");
 pageSetup.setIsHFDiffFirst(true);
 pageSetup.setFirstPageHeader(1, "I am the header of the First page.");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

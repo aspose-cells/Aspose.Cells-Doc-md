@@ -562,3 +562,4 @@ Execute the above code, you will get the following results:
 - [Web Extensions - Office Add-ins](/cells/nodejs-cpp/web-extensions-office-add-ins/)  
 
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

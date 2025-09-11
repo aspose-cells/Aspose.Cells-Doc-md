@@ -61,3 +61,4 @@ table.putCellValue(2, 2, "Offset [2,2]");
 workbook.save(path.join(dataDir, "output_out.xlsx"));
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

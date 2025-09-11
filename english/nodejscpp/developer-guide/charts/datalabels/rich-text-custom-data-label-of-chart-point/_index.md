@@ -46,3 +46,4 @@ fntSetting.getFont().setIsBold(true);
 // Save the workbook
 workbook.save(path.join(dataDir, "output_out.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

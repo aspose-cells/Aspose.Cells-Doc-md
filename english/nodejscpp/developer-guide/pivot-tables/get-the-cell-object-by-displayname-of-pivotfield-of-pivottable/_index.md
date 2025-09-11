@@ -26,3 +26,4 @@ The following code accesses the first pivot table of the worksheet and then get 
 |**Pivot Table - After**|
 | :- |
 |![todo:image_alt_text](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_2.png)|
+{{< app/cells/assistant language="nodejs-cpp" >}}

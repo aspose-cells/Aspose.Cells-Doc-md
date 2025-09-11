@@ -22,3 +22,4 @@ Aspose.Cells for Node.js via C++ library also provides [**PivotTable.showInCompa
 The following sample code first shows the Pivot Table in **Compact Form**, then it shows the Pivot Table in **Outline Form** and lastly it shows Pivot Table in **Tabular Form**.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-ChangingLayoutOfPivotTable.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

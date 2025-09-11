@@ -70,3 +70,4 @@ workbook.getWorksheets().get(0).getListObjects().get(0).convertToRange(options);
 workbook.save(path.join(dataDir, "output.xlsx"));
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

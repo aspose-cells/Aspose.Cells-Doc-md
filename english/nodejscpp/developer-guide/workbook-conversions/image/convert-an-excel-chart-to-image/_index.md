@@ -103,3 +103,4 @@ const chart = workbook.getWorksheets().get(0).getCharts().get(0);
 chart.toImage(path.join(dataDir, "ColumnChart.out.jpeg"), AsposeCells.ImageType.Jpeg);
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

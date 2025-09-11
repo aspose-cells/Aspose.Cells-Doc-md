@@ -178,3 +178,4 @@ description: "Excel Formula MCP - Apply Excel formulas with AI automation, singl
 }
 ```
 **Result**: Formula syntax error
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -92,3 +92,4 @@ If you use the [**setCustom(string)**](https://reference.aspose.com/cells/nodejs
 - [Render Custom Date Format Pattern g and ge mm dd](/cells/nodejs-cpp/render-custom-date-format-pattern-g-and-ge-mm-dd/)  
 - [Specify Custom Number Decimal and Group Separators for Workbook](/cells/nodejs-cpp/specify-custom-number-decimal-and-group-separators-for-workbook/)  
 - [Specifying DBNum Custom Pattern Formatting](/cells/nodejs-cpp/specifying-dbnum-custom-pattern-formatting/)  
+{{< app/cells/assistant language="nodejs-cpp" >}}

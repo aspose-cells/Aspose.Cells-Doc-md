@@ -63,3 +63,4 @@ const sheetRenderer = new AsposeCells.SheetRender(workbook.getWorksheets().get(0
 sheetRenderer.toImage(0, outputDir + "outputCrosssType.png");
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

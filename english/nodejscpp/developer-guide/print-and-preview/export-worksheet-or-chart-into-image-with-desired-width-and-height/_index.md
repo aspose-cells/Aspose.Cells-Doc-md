@@ -41,3 +41,4 @@ const sr = new AsposeCells.SheetRender(worksheet, opts);
 sr.toImage(0, path.join(outputDir, "outputWorksheetToImageDesiredSize.png"));
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

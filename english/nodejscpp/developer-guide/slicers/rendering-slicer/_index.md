@@ -44,3 +44,4 @@ const sr = new AsposeCells.SheetRender(ws, imgOpts);
 sr.toImage(0, "outputRenderingSlicer.png");
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

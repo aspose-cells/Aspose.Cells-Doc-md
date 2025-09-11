@@ -418,3 +418,4 @@ Apply professional **Excel cell formatting** with AI-powered automation. Style *
 }
 ```
 **Result**: Uses General format as fallback 
+{{< app/cells/assistant language="nodejs-cpp" >}}

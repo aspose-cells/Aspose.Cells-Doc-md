@@ -61,3 +61,4 @@ worksheet.getCells().setColumnWidth(0, 40);
 workbook.save(path.join(dataDir, "output_out.xlsx"));
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

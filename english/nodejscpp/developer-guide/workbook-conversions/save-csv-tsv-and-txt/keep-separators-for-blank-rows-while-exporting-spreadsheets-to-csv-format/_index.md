@@ -37,3 +37,4 @@ options.setKeepSeparatorsForBlankRow(true);
 wb.save(path.join(dataDir, "output.csv"), options);
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

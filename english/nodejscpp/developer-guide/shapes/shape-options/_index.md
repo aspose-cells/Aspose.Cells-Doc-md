@@ -9,3 +9,4 @@ keywords: Manage shape options Node.js via C++, Customize shapes in spreadsheets
 ---
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

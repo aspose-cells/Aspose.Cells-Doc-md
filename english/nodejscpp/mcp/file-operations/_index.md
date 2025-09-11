@@ -233,3 +233,4 @@ Manage **Excel files** and **data operations** with AI-powered automation. Creat
 2. Read back specific ranges
 3. Verify data integrity
 4. Handle missing values 
+{{< app/cells/assistant language="nodejs-cpp" >}}

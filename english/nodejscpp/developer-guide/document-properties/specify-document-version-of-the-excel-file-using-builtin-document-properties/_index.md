@@ -46,3 +46,4 @@ bdpc.setDocumentVersion("Aspose.Cells Version - 18.3");
 wb.save(filePath, AsposeCells.SaveFormat.Xlsx);
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

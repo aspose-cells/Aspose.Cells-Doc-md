@@ -49,3 +49,4 @@ opts.setCompliance(AsposeCells.PdfCompliance.PdfA1a);
 wb.save(path.join(outputDir, "outputCompliancePdfA1a.pdf"), opts);
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

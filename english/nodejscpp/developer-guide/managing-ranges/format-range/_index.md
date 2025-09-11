@@ -113,3 +113,4 @@ range2.setStyle(style2);
 workbook.save("output.xlsx");
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -58,3 +58,4 @@ Worksheet page count: 1
 - [Render Worksheet to Graphic Context](/cells/nodejs-cpp/render-worksheet-to-graphic-context/)  
 - [Specify Individual or Private Set of Fonts for Workbook Rendering](/cells/nodejs-cpp/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)   
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

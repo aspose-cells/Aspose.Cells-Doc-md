@@ -85,3 +85,4 @@ Ensure proper testing frameworks are in place. Since Node.js has a different eco
 ## **Conclusion**
 
 Migrating from .NET to Node.js can be simplified by understanding the differences in syntax and structure. With Aspose.Cells for Node.js via C++, you can replicate the functionality of your existing .NET applications while taking advantage of JavaScript's strengths.
+{{< app/cells/assistant language="nodejs-cpp" >}}

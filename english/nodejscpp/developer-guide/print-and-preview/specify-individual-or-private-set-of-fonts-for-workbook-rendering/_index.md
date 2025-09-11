@@ -48,3 +48,4 @@ const wb = new AsposeCells.Workbook(filePath, opts);
 wb.save(outputDir + "outputSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.pdf", AsposeCells.SaveFormat.Pdf);
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

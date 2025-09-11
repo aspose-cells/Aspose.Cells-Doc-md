@@ -44,3 +44,4 @@ This code demonstrates how to create and configure a TextBox within an Excel wor
 Keep in mind that interactions with text boxes may vary based on specific use cases, so refer to the Aspose.Cells for Node.js via C++ documentation for additional methods and properties.
 
 ---
+{{< app/cells/assistant language="nodejs-cpp" >}}

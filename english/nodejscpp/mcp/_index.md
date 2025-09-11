@@ -93,3 +93,4 @@ This **Excel MCP server** provides 15 comprehensive **Excel automation** tools:
 
 For detailed examples and advanced usage, see our comprehensive documentation sections.
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

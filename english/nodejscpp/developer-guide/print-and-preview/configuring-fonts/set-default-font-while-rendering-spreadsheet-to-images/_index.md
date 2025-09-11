@@ -75,3 +75,4 @@ opts.setDefaultFont("Times New Roman");
 sr = new AsposeCells.SheetRender(ws, opts);
 sr.toImage(0, "times_new_roman_out.png");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

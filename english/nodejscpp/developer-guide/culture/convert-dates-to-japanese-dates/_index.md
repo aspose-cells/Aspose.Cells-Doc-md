@@ -35,3 +35,4 @@ const workbook = new AsposeCells.Workbook(path.join(sourceDir, "JapaneseDates.xl
 workbook.save(outputDir + "JapaneseDates.pdf", AsposeCells.SaveFormat.Pdf);
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

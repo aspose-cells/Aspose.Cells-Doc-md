@@ -55,3 +55,4 @@ const sr = new AsposeCells.SheetRender(wb.getWorksheets().get(0), imgOption);
 sr.toImage(0, path.join(outputDir, "outputCreateTransparentImage.png"));
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

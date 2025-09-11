@@ -50,3 +50,4 @@ AsposeCells.JsonUtility.importData(str, cells, 0, 0, importOptions);
 workbook.save(outputDir + "SampleJson_out.csv");
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

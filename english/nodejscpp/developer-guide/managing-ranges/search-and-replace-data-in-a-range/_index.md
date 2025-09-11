@@ -45,3 +45,4 @@ cell.putValue("replace");
 
 workbook.save(path.join(dataDir, "output.out.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

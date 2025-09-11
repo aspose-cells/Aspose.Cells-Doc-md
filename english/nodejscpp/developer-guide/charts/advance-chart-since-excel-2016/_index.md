@@ -70,3 +70,4 @@ BoxWhisker
 - [Creating TreeMap Chart](/cells/nodejs-cpp/creating-treemap-chart/)  
 - [Creating Sunburst Chart](/cells/nodejs-cpp/creating-sunburst-chart/)  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

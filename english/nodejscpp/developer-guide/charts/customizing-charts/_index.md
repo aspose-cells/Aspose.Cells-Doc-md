@@ -66,3 +66,4 @@ Currently, Aspose.Cells only supports custom charts that combine pie, line, colu
 
 {{% /alert %}}  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

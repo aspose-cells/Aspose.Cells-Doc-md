@@ -238,3 +238,4 @@ If your spreadsheet contains formulas, it is best to call [**Workbook.calculateF
 - [Save Specified Worksheets to PDF](/cells/nodejs-cpp/save-specified-worksheets-to-pdf/)
 - [Secure PDF Documents](/cells/nodejs-cpp/secure-pdf-documents/)
 - [Specify how to cross string in output PDF and image](/cells/nodejs-cpp/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

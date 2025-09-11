@@ -20,3 +20,4 @@ The following sample code loads the [sample Excel file](61767747.xlsx) that cont
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-FindAndRefreshNestedOrChildrenPivotTables.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -14,3 +14,4 @@ The [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range) class provi
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Hyperlinks-GetHyperlinksInRange.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

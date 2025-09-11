@@ -65,3 +65,4 @@ const imagedata = AsposeCells.ConditionalFormattingIcon.getIconImageData(icon.ty
 const stream = new Uint8Array(imagedata);
 worksheet.getPictures().add(icon.row, icon.column, stream);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

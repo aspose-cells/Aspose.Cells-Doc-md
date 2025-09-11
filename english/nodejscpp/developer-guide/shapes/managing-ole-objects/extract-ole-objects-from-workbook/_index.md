@@ -102,3 +102,4 @@ fs.writeFileSync(fileName, ole.getObjectData());
 }
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

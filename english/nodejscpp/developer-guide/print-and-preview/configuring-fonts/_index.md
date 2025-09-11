@@ -111,3 +111,4 @@ In addition to the above-mentioned methods, the Aspose.Cells APIs have also prov
 - [Set DefaultFont property of PdfSaveOptions and ImageOrPrintOptions to have priority](/cells/nodejs-cpp/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Supported Font Formats](/cells/nodejs-cpp/supported-font-formats/)
 - [Worksheet to Image - Set Pixel Format for the Rendered Image](/cells/nodejs-cpp/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -16,3 +16,4 @@ The following sample code loads the [sample Excel file](input.xlsx) that conta
 ![todo:image_alt_text](out.png)
 ### **Sample Code**
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Timelines-RenderingTimeline.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

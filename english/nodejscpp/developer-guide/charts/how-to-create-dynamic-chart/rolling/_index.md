@@ -81,3 +81,4 @@ In the generated file, you can continue to add data in columns A and B, while th
 ```
 
 You can try changing the number "-5" to "-10" in the formula, and the dynamic chart will count the latest 10 sets of data. Now we have created a dynamic rolling chart using Aspose.Cells successfully.
+{{< app/cells/assistant language="nodejs-cpp" >}}

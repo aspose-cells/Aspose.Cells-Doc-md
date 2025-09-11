@@ -37,3 +37,4 @@ opts.IgnoreError = true;
 wb.save("outputErrorExcel2Pdf.pdf", opts);
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

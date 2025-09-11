@@ -48,3 +48,4 @@ The following example will show you in detail how to set localized region to ach
 - [How to Set Japanese Region for Chart](/cells/nodejs-cpp/convert-chart-to-image-for-japanese-region/)
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

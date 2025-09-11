@@ -17,3 +17,4 @@ Putting data in the sequence A1, B1, A2, B2 is faster than A1, A2, B1, B2. If th
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-populate-data-first-by-row-then-by-column.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

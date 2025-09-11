@@ -53,3 +53,4 @@ Please see the following sample code that loads the [sample Excel file](sample.x
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-FilterNonBlanks.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

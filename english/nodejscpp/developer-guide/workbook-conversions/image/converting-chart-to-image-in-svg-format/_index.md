@@ -43,3 +43,4 @@ opts.setImageType(AsposeCells.ImageType.Svg);
 chart.toImage(path.join(dataDir, "Image_out.svg"), opts);
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

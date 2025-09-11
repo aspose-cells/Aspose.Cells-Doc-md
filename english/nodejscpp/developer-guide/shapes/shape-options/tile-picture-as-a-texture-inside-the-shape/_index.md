@@ -45,3 +45,4 @@ shape.getFill().getTextureFill().setIsTiling(true);
 workbook.save(path.join(outputDir, "outputTextureFill_IsTiling.xlsx"));
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

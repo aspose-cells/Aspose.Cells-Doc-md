@@ -220,3 +220,4 @@ workbook.save(path.join(dataDir, "output.xls"));
 - [Show Formulas Instead of Values in a Worksheet](/cells/nodejs-cpp/show-formulas-instead-of-values-in-a-worksheet/)
 - [Use Error Checking Options](/cells/nodejs-cpp/use-error-checking-options/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

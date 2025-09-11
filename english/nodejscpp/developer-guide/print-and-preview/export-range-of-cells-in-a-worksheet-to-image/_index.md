@@ -61,3 +61,4 @@ const sr = new AsposeCells.SheetRender(worksheet, options);
 sr.toImage(0, path.join(outputDir, "outputExportRangeOfCellsInWorksheetToImage.jpg"));
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

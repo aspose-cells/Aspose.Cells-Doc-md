@@ -133,3 +133,4 @@ The reading order is set with the [**Style**](https://reference.aspose.com/cells
 - [Change Cells Alignment and Keep Existing Formatting](/cells/nodejs-cpp/change-cells-alignment-and-keep-existing-formatting/)
 - [Line Breaks and Text Wrapping](/cells/nodejs-cpp/line-breaks-and-text-wrapping/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

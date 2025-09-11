@@ -28,3 +28,4 @@ Please see the following sample code. It loads the [sample Excel file](sampleCre
 ### **Sample Code**
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Slicers-CreateSlicerToExcelTable-1.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

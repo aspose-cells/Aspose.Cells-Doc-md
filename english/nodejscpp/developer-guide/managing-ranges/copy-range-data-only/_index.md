@@ -85,3 +85,4 @@ const outputFilePath = path.join(dataDir, "CopyRangeData.out.xlsx");
 workbook.save(outputFilePath);
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

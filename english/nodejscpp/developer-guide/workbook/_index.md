@@ -8,3 +8,4 @@ description: Learn how to manage a workbook through the Aspose.Cells for Node.js
 keywords: How to manage workbook in Node.js via C++, Manage workbook and worksheets using Node.js via C++, Operate workbook and worksheets in Node.js via C++. 
 ---
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

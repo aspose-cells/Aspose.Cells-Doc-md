@@ -50,3 +50,4 @@ item.setSelected(false);
 slicer.refresh();
 wb.save("out.xlsx");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

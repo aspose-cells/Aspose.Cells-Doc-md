@@ -52,3 +52,4 @@ AutoRecover: True
 AutoRecover: False  
 {{< /highlight >}}  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

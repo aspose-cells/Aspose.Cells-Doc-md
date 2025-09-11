@@ -54,3 +54,4 @@ Here is the console output of the above sample code.
 {{< highlight javascript >}}
 This is MyTextBox
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -28,3 +28,4 @@ External Link Data Source After Changing Workbook.AbsolutePath to Local Path: C:
 External Link Data Source After Changing Workbook.AbsolutePath to Remote Path: http://www.aspose.com/WebFiles/ExcelFiles/ExternalAccounts.xlsx
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

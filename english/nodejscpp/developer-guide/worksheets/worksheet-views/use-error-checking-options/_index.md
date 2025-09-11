@@ -60,3 +60,4 @@ const outputFilePath = path.join(dataDir, "out_test.out.xlsx");
 // Save the Excel file
 workbook.save(outputFilePath);
 ```  
+{{< app/cells/assistant language="nodejs-cpp" >}}

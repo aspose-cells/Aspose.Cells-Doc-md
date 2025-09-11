@@ -50,3 +50,4 @@ const outputFilePath = path.join(dataDir, "Output_BK_CompCheck.out.xlsx");
 workbook.save(outputFilePath);
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -42,3 +42,4 @@ workbook.setDigitalSignature(dsCollection);
 workbook.save(outputDir + "XAdESSignatureSupport_out.xlsx");
 ```  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}

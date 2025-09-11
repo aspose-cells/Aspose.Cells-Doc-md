@@ -111,3 +111,4 @@ After the above operation, we can get an output chart picture with Japanese Regi
 |Other Name|その他|Other|  
 |Series Name|シリーズ|Series|  
   
+{{< app/cells/assistant language="nodejs-cpp" >}}
