@@ -1,0 +1,15 @@
+##Code Comparison for common features with OpenXML
+This section includes the following topics
+- [Calculate the sum of a range of cells](https://docs.aspose.com/cells/net/calculate-the-sum-of-a-range-of-cells/)
+- [Create a spreadsheet document](https://docs.aspose.com/cells/net/create-a-spreadsheet-document/)
+- [Delete text from a cell](https://docs.aspose.com/cells/net/delete-text-from-a-cell/)
+- [Get a column heading](https://docs.aspose.com/cells/net/get-a-column-heading/)
+- [Get worksheet information](https://docs.aspose.com/cells/net/get-worksheet-information/)
+- [Insert a chart](https://docs.aspose.com/cells/net/insert-a-chart/)
+- [Insert a new worksheet](https://docs.aspose.com/cells/net/insert-a-new-worksheet/)
+- [Insert text into a cell](https://docs.aspose.com/cells/net/insert-text-into-a-cell/)
+- [Merge two adjacent cells](https://docs.aspose.com/cells/net/merge-two-adjacent-cells/)
+- [Open a spreadsheet document for read-only access](https://docs.aspose.com/cells/net/open-a-spreadsheet-document-for-read-only-access/)
+- [Open a spreadsheet document from a stream](https://docs.aspose.com/cells/net/open-a-spreadsheet-document-from-a-stream/)
+- [Retrieve a dictionary of all named ranges in a spreadsheet document](https://docs.aspose.com/cells/net/retrieve-a-dictionary-of-all-named-ranges-in-a-spreadsheet-document/)
+- [Retrieve the values of cells](https://docs.aspose.com/cells/net/retrieve-the-values-of-cells/)

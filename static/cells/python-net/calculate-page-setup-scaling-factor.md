@@ -1,0 +1,4 @@
+##Calculate Page Setup Scaling Factor
+This article provides sample code explaining how to use Aspose.Cells for Python via .NET APIs to calculate Page Setup scaling factor using Fit to n page(s) wide by m tall option of Excel worksheet programmatically.
+When you set Page Setup Scaling using **Fit to n page(s) wide by m tall** option, Microsoft Excel calculates the Page Setup Scaling Factor. You can calculate the same thing using [**SheetRender.page_scale**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/page_scale) property. This property returns a double value which can be converted to percentage value. For example, if it returns 0.5 then it means scaling factor is 50%.
+The following sample code illustrates how to calculate page setup scaling factor using [**SheetRender.page_scale**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/page_scale) property.

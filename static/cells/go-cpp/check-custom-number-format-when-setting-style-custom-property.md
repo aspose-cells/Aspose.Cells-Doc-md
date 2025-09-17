@@ -1,0 +1,7 @@
+##Check Custom Number Format when Setting Style.Custom Property with Golang via C++
+Aspose.Cells is a C++ library for working with spreadsheet files, which supports checking custom number formats when styling. This article will show you how to use the Aspose.Cells library to check custom number formats to ensure that the styling is correct.
+## **Possible Usage Scenarios**
+If you assign an invalid custom number format to [**Style.GetCustom()**](https://reference.aspose.com/cells/go-cpp/style/getcustom/) property, then Aspose.Cells will not throw any exception. But if you want that Aspose.Cells should check if the assigned custom number format is valid or not, then please set the [**Workbook.GetCheckCustomNumberFormat()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getcheckcustomnumberformat/) property to **true**.
+## **Check Custom Number Format when setting Style.Custom property**
+The following sample code assigns an invalid custom number format to [**Style.GetCustom()**](https://reference.aspose.com/cells/go-cpp/style/getcustom/) property. Since we have already set [**Workbook.GetCheckCustomNumberFormat()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getcheckcustomnumberformat/) property to **true**, therefore it throws an exception, e.g., Invalid number format. Please read the comments inside the code for more help.
+## **Sample Code**

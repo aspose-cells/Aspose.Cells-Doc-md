@@ -1,0 +1,18 @@
+##User Guide
+###### **This section includes the following topics:**
+- [Creating Matrix Report](https://docs.aspose.com/cells/reportingservices/creating-matrix-report/)
+- [Preface](https://docs.aspose.com/cells/reportingservices/preface/)
+- [Aspose.Cells Template and Smart Markers](https://docs.aspose.com/cells/reportingservices/aspose-cells-template-and-smart-markers/)
+- [Aspose.Cells Template and RDL Files](https://docs.aspose.com/cells/reportingservices/aspose-cells-template-and-rdl-files/)
+- [Data Sources and Queries](https://docs.aspose.com/cells/reportingservices/data-sources-and-queries/)
+- [Parameterized Report](https://docs.aspose.com/cells/reportingservices/parameterized-report/)
+- [Creating Tabular Report](https://docs.aspose.com/cells/reportingservices/creating-tabular-report/)
+- [Saving Reports](https://docs.aspose.com/cells/reportingservices/saving-reports/)
+- [Sub Report](https://docs.aspose.com/cells/reportingservices/sub-report/)
+- [Working with PivotTable](https://docs.aspose.com/cells/reportingservices/working-with-pivottable/)
+- [Working with Charts](https://docs.aspose.com/cells/reportingservices/working-with-charts/)
+- [Publishing Report](https://docs.aspose.com/cells/reportingservices/publishing-report/)
+- [Previewing Report](https://docs.aspose.com/cells/reportingservices/previewing-report/)
+- [Configuration](https://docs.aspose.com/cells/reportingservices/configuration/)
+- [Working with Dyn-Hide Form](https://docs.aspose.com/cells/reportingservices/working-with-dyn-hide-form/)
+- [Working with Table Hide Attributes](https://docs.aspose.com/cells/reportingservices/working-with-table-hide-attributes/)

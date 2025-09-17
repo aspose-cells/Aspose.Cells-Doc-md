@@ -1,0 +1,12 @@
+##Setting Shadow of Text Effects of Shape or TextBox
+You can set the **Shadow** of **Text Effects** of any Shape or TextBox. Please use the [Shape.TextBody](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TextBody) property. It presents the setting of the shape's text and returns [FontSettingCollection](https://reference.aspose.com/cells/java/com.aspose.cells/FontSettingCollection). After accessing [FontSetting](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) from it, please set the **Shadow** via [FontSetting.getTextOptions().getShadow().setPresetType()](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#PresetType) property. This property is of type [PresetShadowType](https://reference.aspose.com/cells/java/com.aspose.cells/PresetShadowType) which has several values. Some of these are
+- [OFFSET_DIAGONAL_BOTTOM_RIGHT](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET-DIAGONAL-BOTTOM-RIGHT)
+- [OFFSET_BOTTOM](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET-BOTTOM)
+- [OFFSET_DIAGONAL_TOP_RIGHT](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET-DIAGONAL-TOP-RIGHT)
+- [INSIDE_LEFT](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#INSIDE-LEFT)
+- [INSIDE_CENTER](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#INSIDE-CENTER)
+- [PERSPECTIVE_DIAGONAL_UPPER_LEFT](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#PERSPECTIVE-DIAGONAL-UPPER-LEFT)
+- [PERSPECTIVE_DIAGONAL_UPPER_RIGHT](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#PERSPECTIVE-DIAGONAL-UPPER-RIGHT)
+## **Setting Shadow of Text Effects of Shape or TextBox**
+The following screenshot shows the [output excel file](5473446.xlsx) generated with the following sample code. The screenshot also shows the value of the **Shadow** which has been set as **Offset Bottom**.
+![todo:image_alt_text](setting-shadow-of-text-effects-of-shape-or-textbox_1.png)

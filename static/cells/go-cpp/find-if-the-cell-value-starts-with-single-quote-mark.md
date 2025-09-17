@@ -1,0 +1,4 @@
+##Find if the cell value starts with single quote mark with Golang via C++
+Learn how to find if the cell value starts with a single quote mark through the Aspose.Cells for C++ API.
+Aspose.Cells now provides the [**Style::QuotePrefix**](https://reference.aspose.com/cells/go-cpp/style/getquoteprefix/) property to find if the cell value starts with a single quote mark. Before this property, there was no way to distinguish between strings like sample and 'sample etc.
+The following sample code explains that the strings like sample and 'sample cannot be differentiated with [**Cell::GetStringValue**](https://reference.aspose.com/cells/go-cpp/cell/getstringvalue_cellvalueformatstrategy/) property. Therefore we must use [**Style::QuotePrefix**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getquoteprefix/) property to distinguish them.

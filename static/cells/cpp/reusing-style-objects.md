@@ -1,0 +1,40 @@
+##Reusing Style Objects with C++
+In Aspose.Cells for C++, by creating and using reusable style objects, you can simplify style management and improve code efficiency. Our guide will help you leverage the advantages of reusable style objects and implement them in your application.
+Reusing style objects can save memory and make a program faster.
+To apply some formatting to a large range of cells in a worksheet:
+1. Create a style object.
+1. Specify the attributes.
+1. Apply the style to the cells in the range.
+```cpp
+#include <iostream>
+#include "Aspose.Cells.h"
+using namespace Aspose::Cells;
+int main()
+{
+Aspose::Cells::Startup();
+// Source directory path
+U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
+// Output directory path
+U16String outDir(u"..\\Data\\02_OutputDirectory\\");
+// Create workbook object
+Workbook workbook;
+// Access the first worksheet
+Worksheet worksheet = workbook.GetWorksheets().Get(0);
+// Access cells
+Cell cell1 = worksheet.GetCells().Get(u"A1");
+Cell cell2 = worksheet.GetCells().Get(u"B1");
+// Set the styles of both cells to Times New Roman
+Style styleObject = workbook.CreateStyle();
+styleObject.GetFont().SetColor(Color::Red());
+styleObject.GetFont().SetName(u"Times New Roman");
+cell1.SetStyle(styleObject);
+cell2.SetStyle(styleObject);
+// Put the values inside the cell
+cell1.PutValue(u"Hello World!");
+cell2.PutValue(u"Hello World!!");
+// Save to Pdf without setting PdfSaveOptions.IsFontSubstitutionCharGranularity
+workbook.Save(outDir + u"SampleOutput_out.xlsx");
+Aspose::Cells::Cleanup();
+}
+```
+Because the [**Cell.GetStyle**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getstyle/)/[**Cell.SetStyle**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/setstyle/) approach uses a lot less memory, and is efficient, the older Cell.Style property which consumed a lot of unnecessary memory, was removed with the release of Aspose.Cells 7.1.0.

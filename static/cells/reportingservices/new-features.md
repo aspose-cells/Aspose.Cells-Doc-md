@@ -1,0 +1,15 @@
+##New Features
+**This section includes the following topics:**
+- [Composite Markers](https://docs.aspose.com/cells/reportingservices/composite-markers/)
+- [Sub-reports](https://docs.aspose.com/cells/reportingservices/sub-reports/)
+- [Integrate with Microsoft Report Viewer in Local Mode](https://docs.aspose.com/cells/reportingservices/integrate-with-microsoft-report-viewer-in-local-mode/)
+- [Extended Rendering Extensions Support](https://docs.aspose.com/cells/reportingservices/extended-rendering-extensions-support/)
+- [Support for Microsoft Excel 2007 or 2010 Custom UI](https://docs.aspose.com/cells/reportingservices/support-for-microsoft-excel-2007-or-2010-custom-ui/)
+- [Support for Editable Charts](https://docs.aspose.com/cells/reportingservices/support-for-editable-charts/)
+- [Support for Digital Signatures](https://docs.aspose.com/cells/reportingservices/support-for-digital-signatures/)
+- [Add Matrix in Aspose.Cells for Reporting Services Client](https://docs.aspose.com/cells/reportingservices/add-matrix-in-aspose-cells-for-reporting-services-client/)
+- [Add Hide Function in Aspose.Cells for Reporting Services Client](https://docs.aspose.com/cells/reportingservices/add-hide-function-in-aspose-cells-for-reporting-services-client/)
+- [Aspose.Cells for Reporting Services Report Designer](https://docs.aspose.com/cells/reportingservices/aspose-cells-for-reporting-services-report-designer/)
+- [Add settings for Page Setup in Aspose.Cells for Reporting Services renderer](https://docs.aspose.com/cells/reportingservices/add-settings-for-page-setup-in-aspose-cells-for-reporting-services-renderer/)
+- [Add Group function in Aspose.Cells for Reporting Services Client](https://docs.aspose.com/cells/reportingservices/add-group-function-in-aspose-cells-for-reporting-services-client/)
+- [Add Sorting feature for rendering Table item](https://docs.aspose.com/cells/reportingservices/add-sorting-feature-for-rendering-table-item/)

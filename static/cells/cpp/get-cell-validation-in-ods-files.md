@@ -1,0 +1,34 @@
+##Get Cell Validation in ODS Files with C++
+Learn how to Get Cell Validation in ODS Files using Aspose.Cells for C++.
+## **Get Cell Validation in ODS Files**
+With Aspose.Cells for C++, you can get the validation applied to a cell in ODS files. The API provides the [**GetValidation**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getvalidation/) method of the [**Cell**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) class.
+The following code sample demonstrates using the [**GetValidation**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getvalidation/) method by loading the [source ODS](101089354.ods) file and reading the validation of cell A9.
+### **Sample Code**
+```c++
+#include <iostream>
+#include "Aspose.Cells.h"
+using namespace Aspose::Cells;
+int main()
+{
+Aspose::Cells::Startup();
+// Source directory path
+U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
+// Load source Excel file
+U16String inputFilePath = srcDir + u"SampleBook1.ods";
+Workbook workbook(inputFilePath);
+// Access first worksheet
+WorksheetCollection worksheets = workbook.GetWorksheets();
+Worksheet worksheet = worksheets.Get(0);
+// Access cell A9
+Cells cells = worksheet.GetCells();
+Cell cell = cells.Get(U16String(u"A9"));
+// Check validation existence
+Validation validation = cell.GetValidation();
+if (validation.IsNull() == false)
+{
+std::cout << "Validation type: " << static_cast<int>(validation.GetType()) << std::endl;
+}
+Aspose::Cells::Cleanup();
+return 0;
+}
+```

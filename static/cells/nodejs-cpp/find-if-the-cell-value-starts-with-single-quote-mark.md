@@ -1,0 +1,4 @@
+##Find if the cell value starts with single quote mark
+Learn how to find if the cell value starts with a single quote mark through the Aspose.Cells for Node.js via C++ API.
+Aspose.Cells now provides the [**Style.setQuotePrefix(boolean)**](https://reference.aspose.com/cells/nodejs-cpp/style/#setQuotePrefix-boolean-) method to find if the cell value starts with a single quote mark. Before this property, there was no way to distinguish between strings like sample and 'sample etc.
+The following sample code explains that the strings like sample and 'sample cannot be differentiated with [**Cell.getStringValue()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getStringValue--) method. Therefore we must use [**Style.setQuotePrefix(boolean)**](https://reference.aspose.com/cells/nodejs-cpp/style/#setQuotePrefix-boolean-) method to distinguish them.

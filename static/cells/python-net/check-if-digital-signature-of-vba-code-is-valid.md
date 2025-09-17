@@ -1,0 +1,4 @@
+##Check if Digital Signature of VBA Code is Valid
+Aspose.Cells for Python via .NET allows you to check if the digital signature of the VBA code is valid using the [**Workbook.vba_project.is_valid_signed**](https://reference.aspose.com/cells/python-net/aspose.cells.vba/vbaproject/is_valid_signed) property. It will return **true** if the signature is valid otherwise it will return **false**. The digital signature of the VBA code becomes invalid when you change the VBA code.
+## **Check if Digital Signature of VBA Code is Valid in Python**
+The following code demonstrates the usage of this property using the [sample excel file](5115030.xlsm) which you can download from the provided link. The same excel file has a valid signature but when we modify its VBA code and save the workbook and then recheck, we find its signature has become invalid.

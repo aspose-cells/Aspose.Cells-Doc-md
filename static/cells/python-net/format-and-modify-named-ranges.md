@@ -1,0 +1,20 @@
+##Format and Modify Named Ranges
+This article shows how to Format and Modify Named Ranges by the Aspose.Cells for Python via .NET API.
+## **Format Ranges**
+### **How to Set Background Color and Font Attributes to a Named Range**
+To apply formatting, define a [**Style**](https://reference.aspose.com/cells/python-net/aspose.cells/style) object to specify the style settings and apply it to the [**Range**](https://reference.aspose.com/cells/python-net/aspose.cells/range) object.
+The following example shows how to set the solid fill color (shading color) with font settings to a range.
+### **How to Add Borders to a Named Range**
+It is possible to add borders to a range of cells instead of just a single cell. The [**Range**](https://reference.aspose.com/cells/python-net/aspose.cells/range) object provides a [**set_outline_border**](https://reference.aspose.com/cells/python-net/aspose.cells/range/set_outline_border/#aspose.cells.BorderType-aspose.cells.CellBorderType-aspose.cells.CellsColor) method that takes the following parameters to add a border to the range of cells:
+- Border type, the type of border, selected from the [**BorderType**](https://reference.aspose.com/cells/python-net/aspose.cells/bordertype) enumeration.
+- Line style, the line style, selected from the [**CellBorderType**](https://reference.aspose.com/cells/python-net/aspose.cells/cellbordertype) enumeration.
+- Color, the line color, selected from the Color enumeration.
+The following example shows how to set an outline border to a range.
+## **How to Rename a Named Range**
+Aspose.Cells allows you to rename a named range for your need. You may get the named range and rename it by using [**Name.text**](https://reference.aspose.com/cells/python-net/aspose.cells/name/text) attribute. The following example shows how to rename a named range.
+## **How to Take Union of Ranges**
+Aspose.Cells provides [**Range.union**](https://reference.aspose.com/cells/python-net/aspose.cells/range/union/#aspose.cells.Range) method to take the union for ranges. The following example shows how to take union for ranges.
+## **How to Intersect the Ranges**
+Aspose.Cells provides the [**Range.intersect**](https://reference.aspose.com/cells/python-net/aspose.cells/range/intersect/#aspose.cells.Range) method to intersect two ranges. The method returns a [**Range**](https://reference.aspose.com/cells/python-net/aspose.cells/range) object. To check whether a range intersects another range, use the [**Range.intersect**](https://reference.aspose.com/cells/python-net/aspose.cells/range/intersect/#aspose.cells.Range) method that returns a Boolean value. The following example shows how to intersect the ranges.
+## **How to Merge Cells in the Named Range**
+Aspose.Cells provides [**Range.merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/merge/#) method to merge the cells in the range. The following example shows how to merge the individual cells of a named range.

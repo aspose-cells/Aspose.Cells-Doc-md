@@ -1,0 +1,4 @@
+##Find if the cell value starts with single quote mark
+Learn how to find if the cell value starts with a single quote mark through the Aspose.Cells for .NET API.
+Aspose.Cells now provides the [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) property to find if the cell value starts with a single quote mark. Before this property, there was no way to distinguish between strings like sample and 'sample etc.
+The following sample code explains that the strings like sample and 'sample cannot be differentiated with [**Cell.StringValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue) property. Therefore we must use [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) property to distinguish them.

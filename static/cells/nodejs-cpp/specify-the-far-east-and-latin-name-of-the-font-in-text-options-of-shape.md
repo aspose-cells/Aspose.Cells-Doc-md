@@ -1,0 +1,29 @@
+##Specify the Far East and Latin Name of the Font in Text Options of Shape with Node.js via C++
+Learn how to specify Far East and Latin font names in text options of shapes using Aspose.Cells for Node.js via C++.
+## **Possible Usage Scenarios**
+Sometimes you want to display text in Far East language font e.g. Japanese, Chinese, Thai, etc. Aspose.Cells for Node.js via C++ provides [**TextOptions.getFarEastName()**](https://reference.aspose.com/cells/nodejs-cpp/textoptions/#getFarEastName--) property that can be used to specify the font name of Far East language. Besides, you can also specify the Latin font name using [**TextOptions.getLatinName()**](https://reference.aspose.com/cells/nodejs-cpp/textoptions/#getLatinName--) property.
+## **Specify the Far East and Latin Name of the Font in Text Options of Shape**
+The following sample code creates a text box and adds some Japanese text inside it. It then specifies the Latin and Far East font names of the text and saves the workbook as [output Excel file](67338274.xlsx). The following screenshot shows the Latin and Far East font names of the output text box in Microsoft Excel.
+![todo:image_alt_text](specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape_1.png)
+## **Sample Code**
+```javascript
+const path = require("path");
+const AsposeCells = require("aspose.cells.node");
+// The path to the documents directory.
+const dataDir = path.join(__dirname, "data");
+const filePath = path.join(dataDir, "sample.xlsx");
+// Create empty workbook.
+const wb = new AsposeCells.Workbook();
+// Access first worksheet.
+const ws = wb.getWorksheets().get(0);
+// Add textbox inside the worksheet.
+const idx = ws.getTextBoxes().add(5, 5, 50, 200);
+const tb = ws.getTextBoxes().get(idx);
+// Set the text of the textbox.
+tb.setText("こんにちは世界");
+// Specify the Far East and Latin name of the font.
+tb.getTextOptions().setLatinName("Comic Sans MS");
+tb.getTextOptions().setFarEastName("KaiTi");
+// Save the output Excel file.
+wb.save("outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", AsposeCells.SaveFormat.Xlsx);
+```

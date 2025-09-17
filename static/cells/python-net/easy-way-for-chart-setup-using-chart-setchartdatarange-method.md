@@ -1,0 +1,4 @@
+##Easy way for Chart Setup using Chart.SetChartDataRange method
+Learn how to easily set up charts using the Chart.SetChartDataRange method in Aspose.Cells for Python via .NET. Our guide will show you how to specify the data range for your chart, allowing you to create professional and accurate charts with minimal effort.
+Aspose.Cells for Python via .NET now provides [**Chart.set_chart_data_range()**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/set_chart_data_range) method to set up chart easily. Using this method, you will now not need to add series and category axis data separately.
+The following sample code explains the use [**Chart.set_chart_data_range()**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/set_chart_data_range) method to set up chart easily.

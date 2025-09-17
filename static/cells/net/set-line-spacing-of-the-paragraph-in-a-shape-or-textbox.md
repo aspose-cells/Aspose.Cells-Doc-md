@@ -1,0 +1,3 @@
+##Set Line Spacing of the Paragraph in a Shape or Textbox
+You can set the line space of the paragraph, its space before and space after using the [**TextParagraph.LineSpace**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/linespace), [**TextParagraph.SpaceBefore**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/spacebefore) and [**TextParagraph.SpaceAfter**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/spaceafter) properties of the [**TextParagraph**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph) class.
+The following sample code explains the usage of the mentioned properties.

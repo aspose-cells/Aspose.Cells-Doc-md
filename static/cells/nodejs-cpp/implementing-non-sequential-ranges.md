@@ -1,0 +1,19 @@
+##Implementing Non-Sequential Ranges with Node.js via C++
+Learn how to create named non-sequential ranges with Aspose.Cells for Node.js via C++. Use non-adjacent cell ranges effectively.
+Normally, named ranges are rectangular with cells continuous and adjacent to each other. But sometimes, you may need to use a non-sequential cell range in which cells are not adjacent. Aspose.Cells for Node.js via C++ supports creating a named range with non-adjacent cells.
+The code sample below shows how to create a named non-sequential range with Aspose.Cells for Node.js via C++.
+```javascript
+const path = require("path");
+const AsposeCells = require("aspose.cells.node");
+// The path to the documents directory.
+const dataDir = path.join(__dirname, "data");
+// Instantiating a Workbook object
+const workbook = new AsposeCells.Workbook();
+// Adding a Name for non sequenced range
+const index = workbook.getWorksheets().getNames().add("NonSequencedRange");
+const name = workbook.getWorksheets().getNames().get(index);
+// Creating a non sequence range of cells
+name.setRefersTo("=Sheet1!$A$1:$B$3,Sheet1!$D$5:$E$6");
+// Save the workbook
+workbook.save(path.join(dataDir, "Output.out.xlsx"));
+```
