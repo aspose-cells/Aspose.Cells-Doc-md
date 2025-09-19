@@ -20,7 +20,7 @@ aliases:
 
 This tutorial will guide you through configuring multi-language support in your Aspose.Cells GridJs project. It covers both frontend and backend configurations.
 
-The tutorial is based on the [demo project](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs), please adjust according to the actual situation
+The tutorial is based on the [demo project](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs), please adjust according to the actual situation
 
 ## Frontend Configuration
 

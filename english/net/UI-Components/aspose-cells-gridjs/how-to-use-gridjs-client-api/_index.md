@@ -369,7 +369,7 @@ xs.sheet.freeze(0,0)
 ```javascript
 xs.sheet.setEditableRange(range,isenable)
     // the parameters are:
-	range:the cell range ,etc. {sri:0,sci:0,eri:2:eci:2} reprensents range start from cell A1 to C3
+	range:the cell range ,etc. {sri:0,sci:0,eri:2,eci:2} reprensents range start from cell A1 to C3
 	isenable:when set to true,the range is editable.other wise,the range is readonly.
 ```
 
@@ -518,11 +518,11 @@ xs.sheet.data.setSelectedCellAttr(attributename,value)
 ```javascript
 xs.sheet.data.setRangeAttr(range,attributename,value)
     // the parameters are:
-        range:the cell range ,etc. {sri:0,sci:0,eri:2:eci:2} reprensents range start from cell A1 to C3
+        range:the cell range ,etc. {sri:0,sci:0,eri:2,eci:2} reprensents range start from cell A1 to C3
 	attributename:font-name | font-bold | font-italic | font-size  | format|border|merge|formula |strike|textwrap |underline |align |valign |color|bgcolor|pattern
 	value:the  value for the attribute
    for example:
-        xs.sheet.data.setRangeAttr({sri:0,sci:0,eri:2:eci:2},'bgcolor','#11ee2a');
+        xs.sheet.data.setRangeAttr({sri:0,sci:0,eri:2,eci:2},'bgcolor','#11ee2a');
 ```
 
 
@@ -546,7 +546,7 @@ xs.sheet.data.deleteCell(type)
 ```javascript
 xs.sheet.data.deleteRange(range,type)
     // the parameters are:
-        range:the cell range ,etc. {sri:0,sci:0,eri:2:eci:2} reprensents range start from cell A1 to C3
+        range:the cell range ,etc. {sri:0,sci:0,eri:2,eci:2} reprensents range start from cell A1 to C3
 	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
 
