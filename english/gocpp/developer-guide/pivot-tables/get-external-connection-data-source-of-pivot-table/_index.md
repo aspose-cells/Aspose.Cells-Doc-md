@@ -13,7 +13,7 @@ Aspose.Cells provides the ability to get the external connection data source of 
 
 ## Sample Code
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-GetExternalConnectionDataSourceOfPivotTable.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-GetExternalConnectionDataSourceOfPivotTable.go" >}}
 The source file used in the code snippet is attached for reference.
 
 [Source File](104398862.xlsx)

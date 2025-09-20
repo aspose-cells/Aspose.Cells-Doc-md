@@ -20,4 +20,4 @@ We will display this data on two types of chart, the first chart is XY (Scatter)
 ![todo:image_alt_text](compare.png)
 
 ## **Sample Code**
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-XAxisVsCategoryAxis.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-XAxisVsCategoryAxis.go" >}}

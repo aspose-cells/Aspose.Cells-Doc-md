@@ -79,7 +79,7 @@ Here's a step-by-step guide on how to do it:
 
 First, ensure you have Aspose.Cells for C++ installed in your project. If you haven't installed it yet, you can get it via NuGet Package Manager. Run the following command in the Package Manager Console:
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FormatNumberToScientific.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FormatNumberToScientific.go" >}}
 ### Step 2: Create a New Workbook or Open an Existing One
 
 You can either create a new workbook or open an existing one. 
@@ -99,7 +99,7 @@ After formatting the cells as needed, don't forget to save your workbook. This w
 ### Sample Code
 
 Here's a code snippet demonstrating these steps:
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FormatNumberToScientific-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FormatNumberToScientific-1.go" >}}
 ### Conclusion
 
 By following these steps, you can format numbers to scientific notation in Aspose.Cells for C++. Remember, you can customize the format string (`"0.00E+00"`) as needed to adjust the number of decimal places or other aspects of the scientific notation display.

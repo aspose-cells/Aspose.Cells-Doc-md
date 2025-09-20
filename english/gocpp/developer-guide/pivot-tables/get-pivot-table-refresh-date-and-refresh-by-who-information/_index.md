@@ -19,4 +19,4 @@ Aspose.Cells now supports fetching the refresh date and refresh by who informati
 
 **Sample Code**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-GetPivotTableRefreshDateAndRefreshByWhoInformation.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-GetPivotTableRefreshDateAndRefreshByWhoInformation.go" >}}

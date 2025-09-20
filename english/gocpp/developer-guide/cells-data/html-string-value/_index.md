@@ -20,7 +20,7 @@ Below code sample shows you how to add HTML rich text inside the cell. Please se
 
 ![todo:image_alt_text](adding-html-rich-text-inside-the-cell_1)
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-HtmlStringValue.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-HtmlStringValue.go" >}}
 ## Related Articles
 
 - [Display Bullets by setting Cell Value using HTML](/cells/cpp/display-bullets-by-setting-cell-value-using/)

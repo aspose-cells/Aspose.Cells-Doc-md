@@ -34,7 +34,7 @@ Aspose.Cells provides the `Range` object, which has various utility methods that
 The following sample code explains the usage of the methods and properties as discussed above. Please see the console output of the code given below for reference.
 
 ## **Sample Code**
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange.go" >}}
 ## **Console Output**
 {{< highlight java >}}
 

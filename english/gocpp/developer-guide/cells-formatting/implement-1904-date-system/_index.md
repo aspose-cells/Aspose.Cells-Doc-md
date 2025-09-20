@@ -25,4 +25,4 @@ To implement 1904 date system in Microsoft Excel (for example Microsoft Excel 20
 |![todo:image_alt_text](implement-1904-date-system_1.png)|
 See the following sample code on how to achieve this using Aspose.Cells APIs.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-Implement1904DateSystem.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Implement1904DateSystem.go" >}}

@@ -16,4 +16,4 @@ Aspose.Cells now provides the [**Style::QuotePrefix**](https://reference.aspose.
 
 The following sample code explains that the strings like sample and 'sample cannot be differentiated with [**Cell::GetStringValue**](https://reference.aspose.com/cells/go-cpp/cell/getstringvalue_cellvalueformatstrategy/) property. Therefore we must use [**Style::QuotePrefix**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getquoteprefix/) property to distinguish them.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FindIfTheCellValueStartsWithSingleQuoteMark.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FindIfTheCellValueStartsWithSingleQuoteMark.go" >}}

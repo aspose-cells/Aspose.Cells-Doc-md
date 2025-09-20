@@ -28,4 +28,4 @@ The following sample code illustrates how to specify the Custom Separators using
 
 ### C++ code to specify custom Number Decimal and Group Separators
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-SpecifyCustomNumberDecimalAndGroupSeparatorsForWorkbook.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-SpecifyCustomNumberDecimalAndGroupSeparatorsForWorkbook.go" >}}

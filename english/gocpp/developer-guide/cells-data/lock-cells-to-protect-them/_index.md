@@ -39,7 +39,7 @@ Here's how you can lock cells in Microsoft Excel:
 
 Aspose.Cells is a powerful library for working with Excel files programmatically. To lock cells using Aspose.Cells, you need to follow these steps: load [sample file](sample.xlsx), unlock all cells first (since, by default, all cells are locked but not enforced until the worksheet is protected), then lock the specific cells you want to protect, and finally protect the worksheet to enforce the locking.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-LockCellsToProtectThem.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-LockCellsToProtectThem.go" >}}
 ## **Output Result**
 This code ensures that only the specified cells (A1 and B2 in this example) are locked, and the worksheet is protected to enforce these settings. All other cells in the worksheet remain unlocked and editable.
 

@@ -15,4 +15,4 @@ Aspose.Cells is now able to render the custom date format patterns like g, ge.mm
 
 The following sample code converts the [source excel file](5112361.xlsx) which contains date values with custom format patterns like g and ge.mm.dd into [output PDF](5112360.pdf).
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-RenderCustomDateFormatPatternGAndGeMmDd.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-RenderCustomDateFormatPatternGAndGeMmDd.go" >}}

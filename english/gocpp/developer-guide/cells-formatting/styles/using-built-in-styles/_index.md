@@ -72,4 +72,4 @@ The method [**Workbook.CreateBuiltinStyle**](https://reference.aspose.com/cells/
 
 ## C++ code to use built-in styles
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-UsingBuiltInStyles.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-UsingBuiltInStyles.go" >}}

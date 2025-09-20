@@ -16,7 +16,7 @@ Please see the following sample code that illustrates the usage of this method. 
 
 ### **Programming Sample**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-DirectCalculationOfCustomFunctionWithoutWritingItInAWorksheet.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-DirectCalculationOfCustomFunctionWithoutWritingItInAWorksheet.go" >}}
 ### **Console Output**
 
 Below is the console output of the above sample code.

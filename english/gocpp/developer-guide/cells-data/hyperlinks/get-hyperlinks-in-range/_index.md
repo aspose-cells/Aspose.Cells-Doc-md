@@ -12,4 +12,4 @@ keywords: Get Hyperlinks in Range, Get all the hyperlinks in the selected range,
 
 The [**Range**](https://reference.aspose.com/cells/go-cpp/range/) class provides a [**GetHyperlinks()**](https://reference.aspose.com/cells/go-cpp/range/gethyperlinks/) property which returns all the hyperlinks in the selected range. You may also delete the Hyperlink by calling the [**Hyperlink.Delete**](https://reference.aspose.com/cells/cpp/aspose.cells/hyperlink/delete/) method.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-GetHyperlinksInRange.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-GetHyperlinksInRange.go" >}}

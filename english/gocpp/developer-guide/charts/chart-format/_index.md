@@ -29,21 +29,21 @@ In the example given below, we have applied different formatting settings on dif
 
 The following code snippet demonstrates how to set the chart area.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ChartFormat.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ChartFormat.go" >}}
 ### **Setting Chart Lines**
 Developers can also apply different kinds of styles on the lines or data markers of the [SeriesCollection](https://reference.aspose.com/cells/go-cpp/seriescollection/). The following code snippet demonstrates how to set chart lines using Aspose.Cells API.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ChartFormat-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ChartFormat-1.go" >}}
 ### **Applying Microsoft Excel 2007/2010 Themes to Charts**
 Developers can apply different Microsoft Excel themes/colors to [SeriesCollection](https://reference.aspose.com/cells/go-cpp/seriescollection/) or other chart objects as shown below in the example.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ChartFormat-2.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ChartFormat-2.go" >}}
 ### **Setting the Titles of Charts or Axes**
 You can use Microsoft Excel to set the titles of a chart and its axes in a WYSIWYG environment. Aspose.Cells also allows developers to set the titles of a chart and its axes at runtime. All charts and their axes contain a [Title](https://reference.aspose.com/cells/go-cpp/title/) property that can be used to set their titles as shown below in an example.
 
 The following code snippet demonstrates how to set titles to charts and axes.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ChartFormat-3.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ChartFormat-3.go" >}}
 ### **Working with Major Gridlines**
 It is possible to customize the look of major gridlines. Hide or show gridlines, or define their color and other settings. Below, we show how to hide gridlines and how to change their color.
 
@@ -52,13 +52,13 @@ Developers can control the visibility of major gridlines by setting the [IsVisib
 
 The following code snippet demonstrates how to hide major gridlines. After hiding the major gridlines, a column chart will be added to the worksheet will have not gridlines.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ChartFormat-4.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ChartFormat-4.go" >}}
 #### **Changing Major Gridlines Settings**
 Developers cannot only control the visibility of major gridlines but also other properties including its color etc.
 
 The following code snippet demonstrates how to change the major gridlines' color. After setting the color of the major gridlines, a column chart will be added to the worksheet with modified gridlines.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ChartFormat-5.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ChartFormat-5.go" >}}
 ## **Advance topics**
 - [Set the Values Format Code of Chart Series](/cells/cpp/set-the-values-format-code-of-chart-series/)
 - [Set Picture as Background Fill in the Chart](/cells/cpp/set-picture-as-background-fill-in-the-chart/)

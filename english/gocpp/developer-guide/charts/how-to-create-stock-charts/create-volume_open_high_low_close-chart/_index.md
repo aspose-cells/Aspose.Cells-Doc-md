@@ -19,4 +19,4 @@ The fourth stock chart we will look at is the Volume Open High Low Close chart. 
 ## **Sample Code**
 The following sample code loads the [sample Excel file](Volume-Open-High-Low-Close.xlsx) and generates the [output Excel file](out.xlsx).
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-CreateVolumeOpenHighLowCloseChart.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CreateVolumeOpenHighLowCloseChart.go" >}}

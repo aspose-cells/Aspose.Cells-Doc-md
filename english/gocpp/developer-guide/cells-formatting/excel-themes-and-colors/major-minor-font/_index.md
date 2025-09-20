@@ -34,7 +34,7 @@ With Aspose.Cells for C++, we can check whether the default font is a theme font
 
 The following sample code shows how to manipulate theme font.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-MajorMinorFont.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-MajorMinorFont.go" >}}
 ## **Dynamically Gets Local Theme Font Programmatically**
 Sometimes, our servers and users' machines are not in the same region. How can we obtain the same font that users want for file processing?
 
@@ -42,4 +42,4 @@ We have to set the system regional settings before loading the file with the [**
 
 The following sample code shows how to get the local theme font.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-MajorMinorFont-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-MajorMinorFont-1.go" >}}

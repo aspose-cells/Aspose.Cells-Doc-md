@@ -23,4 +23,4 @@ This example shows how to:
 1. Add data to cells in the first worksheet.
 1. Get Cells [**Range**](https://reference.aspose.com/cells/go-cpp/range/).
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-CellsRange.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CellsRange.go" >}}

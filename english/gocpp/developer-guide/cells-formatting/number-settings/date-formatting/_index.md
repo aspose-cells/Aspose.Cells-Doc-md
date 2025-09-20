@@ -47,4 +47,4 @@ To format a number as a date in Excel, follow these steps:
 
 To format numbers as date in Aspose.Cells for C++ library for working with Excel files, you can apply date formatting to cells programmatically. Here's how you can do it using C++ with Aspose.Cells:
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-DateFormatting.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-DateFormatting.go" >}}

@@ -16,4 +16,4 @@ Aspose.Cells supports the *DBNum* custom pattern formatting. For example, if you
 
 The following sample code illustrates how to specify *DBNum* custom pattern formatting. Please check its [output PDF](43352081.pdf) for more help.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-SpecifyingDbnumCustomPatternFormatting.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-SpecifyingDbnumCustomPatternFormatting.go" >}}

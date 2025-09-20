@@ -16,4 +16,4 @@ Aspose.Cells now provides [**Chart.SetChartDataRange()**](https://reference.aspo
 
 The following sample code explains the use of [**Chart.SetChartDataRange()**](https://reference.aspose.com/cells/go-cpp/chart/setchartdatarange/) method to set up chart easily.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-EasyWayForChartSetupUsingChartSetchartdatarangeMethod.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-EasyWayForChartSetupUsingChartSetchartdatarangeMethod.go" >}}

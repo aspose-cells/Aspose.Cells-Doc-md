@@ -30,7 +30,7 @@ Developers can create a designer spreadsheet that contains conditional formattin
 
 Aspose.Cells allows developers to copy conditional format settings from one cell to another in the worksheet by calling the [**Range.Copy()**](https://reference.aspose.com/cells/go-cpp/range/copy_range_pasteoptions/) method.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ConditionalFormatting.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConditionalFormatting.go" >}}
 ## **Applying Conditional Formatting at Runtime**
 
 Aspose.Cells lets you both add and remove conditional formatting at runtime. The code samples below show how to set conditional formatting:
@@ -45,10 +45,10 @@ After this example comes a number of other smaller examples that show how to app
 
 Microsoft Excel 2007 added more advanced conditional formatting that Aspose.Cells also support. The examples here, illustrate how to use simple formatting, the Microsoft Excel 2007 examples show how to apply more advanced conditional formatting.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ConditionalFormatting-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConditionalFormatting-1.go" >}}
 ### **Set Font**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ConditionalFormatting-2.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConditionalFormatting-2.go" >}}
 {{% alert color="primary" %}}
 
 You can only change font style, text color, underline style, and strikeout style.
@@ -57,7 +57,7 @@ You can only change font style, text color, underline style, and strikeout style
 
 ### **Set Border**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ConditionalFormatting-3.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConditionalFormatting-3.go" >}}
 {{% alert color="primary" %}}
 
 You can only use thin line styles to the outline border. Diagonal lines are not allowed.
@@ -66,7 +66,7 @@ You can only use thin line styles to the outline border. Diagonal lines are not 
 
 ### **Set Pattern**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ConditionalFormatting-4.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConditionalFormatting-4.go" >}}
 ## **Advance topics**
 - [Adding 2-Color Scale and 3-Color Scale Conditional Formattings](/cells/cpp/adding-2-color-scale-and-3-color-scale-conditional-formattings/)
 - [Apply Advanced Conditional Formatting](/cells/cpp/apply-advanced-conditional-formatting/)

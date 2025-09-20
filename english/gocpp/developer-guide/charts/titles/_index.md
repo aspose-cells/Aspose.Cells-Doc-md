@@ -26,6 +26,6 @@ You can use Microsoft Excel to set the titles of a chart and its axes in a WYSIW
 
 The following code snippet demonstrates how to set titles for charts and axes.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-Titles.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Titles.go" >}}
 ## **Advanced Topics**
 - [Read Chart Subtitle from ODS File](/cells/cpp/read-chart-subtitle-from-ods-file/)

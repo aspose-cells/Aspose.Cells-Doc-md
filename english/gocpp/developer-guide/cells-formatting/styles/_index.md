@@ -22,7 +22,7 @@ With the following piece of code, a `Style` object is initiated for each cell wh
 
 **C++**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-Styles.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Styles.go" >}}
 ### **Using SetStyle()**
 The first approach is easy and straightforward, so why did we add the second approach?
 
@@ -32,7 +32,7 @@ When calling the `Cell.SetStyle` method, the `Style` object isn't saved for each
 
 **C++**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-Styles-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Styles-1.go" >}}
 ## **Advanced Topics**
 - [Create Style object using CellsFactory class](/cells/cpp/create-style-object-using-cellsfactory-class/)
 - [Modify an Existing Style](/cells/cpp/modify-an-existing-style/)

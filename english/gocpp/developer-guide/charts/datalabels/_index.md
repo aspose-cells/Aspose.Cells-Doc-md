@@ -24,7 +24,7 @@ It's simple to manage datalabels of the chart with Aspose.Cells [DataLabels](htt
 
 The following code snippet demonstrates how to manage DataLabels:
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-Datalabels.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Datalabels.go" >}}
 ## **Advance Topics**
 - [Adding Custom Labels to Data Points in the Series of the Chart](/cells/cpp/adding-custom-labels-to-data-points-in-the-series-of-the-chart/)
 - [Disable Text Wrapping for Data Labels of the Chart](/cells/cpp/disable-text-wrapping-for-data-labels-of-the-chart/)

@@ -20,4 +20,4 @@ After running the code below, you will see the Combo chart as shown below.
 ## **Sample Code**  
 The following sample code loads the [sample Excel file](combo.xlsx) and generates the [output Excel file](out.xlsx).  
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-HowToCreateComboChart.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-HowToCreateComboChart.go" >}}

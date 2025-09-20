@@ -17,4 +17,4 @@ The following sample code loads the [sample Excel file](61767755.xlsx) and gener
 ![todo:image_alt_text](handle-automatic-units-of-chart-axis-like-microsoft-excel_1.png)
 
 ## **Sample Code**
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.go" >}}

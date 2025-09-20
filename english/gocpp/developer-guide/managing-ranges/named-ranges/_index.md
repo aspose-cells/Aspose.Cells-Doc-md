@@ -20,10 +20,10 @@ Aspose.Cells provides the same functionality as Microsoft Excel for adding workb
 
 ## **Adding a Named Range with Workbook Scoped**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-NamedRanges.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-NamedRanges.go" >}}
 ## **Adding a Named Range with Worksheet Scope**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-NamedRanges-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-NamedRanges-1.go" >}}
 ## **Advance topics**
 - [Create Access and Copy Named Ranges](/cells/cpp/create-access-and-copy-named-ranges/)
 - [Format and Modify Named Ranges](/cells/cpp/format-and-modify-named-ranges/)

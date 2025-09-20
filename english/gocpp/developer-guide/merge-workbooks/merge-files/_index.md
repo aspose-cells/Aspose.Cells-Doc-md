@@ -21,4 +21,4 @@ The [**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/go-cpp/cells
 
 {{% /alert %}}
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-MergeFiles.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-MergeFiles.go" >}}

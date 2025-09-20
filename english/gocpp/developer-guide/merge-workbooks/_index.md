@@ -52,7 +52,7 @@ You can use any source workbooks. These images are just for illustration purpose
 
 ![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-MergeWorkbooks.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-MergeWorkbooks.go" >}}
 ## **Advance topics**
 - [Combine Multiple Worksheets into a Single Worksheet](/cells/cpp/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Merge Files](/cells/cpp/merge-files/)

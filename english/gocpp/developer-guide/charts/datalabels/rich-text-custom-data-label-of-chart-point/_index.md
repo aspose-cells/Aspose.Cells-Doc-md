@@ -17,4 +17,4 @@ You can use Aspose.Cells to create rich text custom data label of the chart poin
 
 The following code accesses the first chart point of the first series, sets its text and then sets the font of the first 10 characters by setting its color to red and boldness to **true**.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-RichTextCustomDataLabelOfChartPoint.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-RichTextCustomDataLabelOfChartPoint.go" >}}

@@ -21,4 +21,4 @@ Aspose.Cells also provides [**PivotTable.ShowInCompactForm()**](https://referenc
 
 The following sample code first shows the Pivot Table in **Compact Form**, then it shows the Pivot Table in **Outline Form**, and lastly, it shows the Pivot Table in **Tabular Form**.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ChangingTheLayoutOfPivotTable.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ChangingTheLayoutOfPivotTable.go" >}}

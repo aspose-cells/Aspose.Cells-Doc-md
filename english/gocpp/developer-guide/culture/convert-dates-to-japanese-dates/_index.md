@@ -17,4 +17,4 @@ Aspose.Cells provides a way to convert Gregorian dates to Japanese dates. During
 
 ![todo:image_alt_text](convert-dates-to-japanese-dates_1.jpg)
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ConvertDatesToJapaneseDates.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertDatesToJapaneseDates.go" >}}

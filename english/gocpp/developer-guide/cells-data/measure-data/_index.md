@@ -18,6 +18,6 @@ Alternatively, you can also [autofit rows and columns of your cell or range of c
 
 The following code explains the use of [**Cell.GetWidthOfValue()**](https://reference.aspose.com/cells/go-cpp/cell/getwidthofvalue/) and [**Cell.GetHeightOfValue()**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getheightofvalue/) methods.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-MeasureData.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-MeasureData.go" >}}
 ## **Advance topics**
 - [Get Text Width of Cell Value](/cells/cpp/get-text-width-of-cell-value/)

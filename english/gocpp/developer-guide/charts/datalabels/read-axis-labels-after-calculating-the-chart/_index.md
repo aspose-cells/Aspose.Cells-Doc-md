@@ -18,7 +18,7 @@ Please see the following sample code that loads the [sample Excel file](ReadAxi
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ReadAxisLabelsAfterCalculatingTheChart.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ReadAxisLabelsAfterCalculatingTheChart.go" >}}
 ## **Console Output**
 
 {{< highlight cpp >}}

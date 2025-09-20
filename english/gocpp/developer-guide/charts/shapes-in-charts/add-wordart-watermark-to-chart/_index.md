@@ -17,4 +17,4 @@ The following example shows how to add a WordArt shape as a watermark for the ch
 
 The following example shows how to add a WordArt shape as a watermark for an existing chart’s plot area.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-AddWordartWatermarkToChart.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-AddWordartWatermarkToChart.go" >}}

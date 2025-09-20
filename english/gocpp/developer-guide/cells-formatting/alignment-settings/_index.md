@@ -57,22 +57,22 @@ You can also apply the justify distributed setting using the [**Style.IsJustifyD
 
 Use the [**Style**](https://reference.aspose.com/cells/go-cpp/style/) object's [**GetHorizontalAlignment()**](https://reference.aspose.com/cells/go-cpp/style/gethorizontalalignment/) property to align the text horizontally.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-AlignmentSettings.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-AlignmentSettings.go" >}}
 #### **Vertical Alignment**
 
 Similar to horizontal alignment, use the [**Style**](https://reference.aspose.com/cells/go-cpp/style/) object's [**GetVerticalAlignment()**](https://reference.aspose.com/cells/go-cpp/style/getverticalalignment/) property to align the text vertically.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-AlignmentSettings-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-AlignmentSettings-1.go" >}}
 #### **Indentation**
 
 It is possible to set the indentation level of the text in a cell with the [**Style**](https://reference.aspose.com/cells/go-cpp/style/) object's [**GetIndentLevel()**](https://reference.aspose.com/cells/go-cpp/style/getindentlevel/) property.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-AlignmentSettings-2.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-AlignmentSettings-2.go" >}}
 #### **Orientation**
 
 Set the orientation (rotation) of the text in a cell with the [**Style**](https://reference.aspose.com/cells/go-cpp/style/) object's [**GetRotationAngle()**](https://reference.aspose.com/cells/go-cpp/style/getrotationangle/) property.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-AlignmentSettings-3.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-AlignmentSettings-3.go" >}}
 #### **Text Control**
 
 The following section discusses how to control text by setting text wrapping, shrink to fit and other formatting options.
@@ -81,12 +81,12 @@ The following section discusses how to control text by setting text wrapping, sh
 
 Wrapping text in a cell makes it easier to read: the height of the cell adjusts to fit all the text, instead of cutting it off or spilling over into adjacent cells. Set text wrapping on or off with the [**Style**](https://reference.aspose.com/cells/go-cpp/style/) object's [**IsTextWrapped**](https://reference.aspose.com/cells/go-cpp/style/istextwrapped/) property.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-AlignmentSettings-4.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-AlignmentSettings-4.go" >}}
 ##### **Shrinking to Fit**
 
 An option to wrapping text in a field is to shrink the text size to fit a cell's dimensions. This is done by setting the [**Style**](https://reference.aspose.com/cells/go-cpp/style/) object's [**IsTextWrapped**](https://reference.aspose.com/cells/go-cpp/style/istextwrapped/) property to **true**.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-AlignmentSettings-5.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-AlignmentSettings-5.go" >}}
 ##### **Merging Cells**
 
 Like Microsoft Excel, Aspose.Cells supports merging several cells into one. Aspose.Cells provides two approaches to this task. One way is to call the [**GetCells()**](https://reference.aspose.com/cells/go-cpp/worksheet/getcells/) collection's [**Merge**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/merge/) method. The [**Merge**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/merge/) method takes the following parameters to merge the cells:
@@ -96,7 +96,7 @@ Like Microsoft Excel, Aspose.Cells supports merging several cells into one. Aspo
 - Number of rows: the number of rows to merge.
 - Number of columns: the number of columns to merge.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-AlignmentSettings-6.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-AlignmentSettings-6.go" >}}
 The other way is to first call the [**GetCells()**](https://reference.aspose.com/cells/go-cpp/worksheet/getcells/) collection's [**CreateRange**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/createrange/) method to create a range of the cells to be merged. The [**CreateRange**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/createrange/) method takes the same set of parameters as that of the [**Merge**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/merge/) method discussed above and returns a [**Range**](https://reference.aspose.com/cells/cpp/aspose.cells/range/) object. The [**Range**](https://reference.aspose.com/cells/cpp/aspose.cells/range/) object also provides a [**Merge**](https://reference.aspose.com/cells/cpp/aspose.cells/range/merge/) method that merges the range specified in the [**Range**](https://reference.aspose.com/cells/cpp/aspose.cells/range/) object.
 
 ##### **Text Direction**
@@ -111,7 +111,7 @@ The reading order is set with the [**Style**](https://reference.aspose.com/cells
 |LeftToRight|Left to right reading order|
 |RightToLeft|Right to left reading order|
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-AlignmentSettings-7.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-AlignmentSettings-7.go" >}}
 ## **Advance topics**
 - [Change Cells Alignment and Keep Existing Formatting](/cells/cpp/change-cells-alignment-and-keep-existing-formatting/)
 - [Line Breaks and Text Wrapping](/cells/cpp/line-breaks-and-text-wrapping/)

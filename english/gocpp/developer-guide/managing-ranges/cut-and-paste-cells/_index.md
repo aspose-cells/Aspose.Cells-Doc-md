@@ -20,4 +20,4 @@ The following example shows how to cut and paste cells within a worksheet.
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-CutAndPasteCells.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CutAndPasteCells.go" >}}

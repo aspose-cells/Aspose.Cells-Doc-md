@@ -24,15 +24,15 @@ To remove a named range from Excel, you can follow these steps:
 ## **Deletes Named Range using Aspose.Cells for C++**
 With Aspose.Cells for C++, you can remove named ranges or defined names by [text](https://reference.aspose.com/cells/go-cpp/namecollection/remove_stringarray/)  or [index](https://reference.aspose.com/cells/cpp/aspose.cells/namecollection/removeat/) in the list.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-DeleteNamedRanges.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-DeleteNamedRanges.go" >}}
 Note: if the defined name is referred by formulas, it could not be removed. We only can remove the formula of the defined name.
 
 ## **Removes Some Named Ranges**
 When we remove a defined name, we have to check whether it is referred by all formulas in the file.
 In order to improve the performance of removing named ranges, we can remove some together.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-DeleteNamedRanges-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-DeleteNamedRanges-1.go" >}}
 ## **Remove Duplicate Defined Names**
 Some Excel files corrupt because some defined names are duplicate. So we can remove these duplicate names to repair the file.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-DeleteNamedRanges-2.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-DeleteNamedRanges-2.go" >}}

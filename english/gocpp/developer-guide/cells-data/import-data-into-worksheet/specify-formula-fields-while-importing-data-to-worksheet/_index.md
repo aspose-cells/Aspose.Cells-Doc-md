@@ -20,4 +20,4 @@ Please see the following sample code that explains how to specify the formula fi
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-SpecifyFormulaFieldsWhileImportingDataToWorksheet.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-SpecifyFormulaFieldsWhileImportingDataToWorksheet.go" >}}

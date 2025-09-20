@@ -38,4 +38,4 @@ This example shows how to:
 1. Get Column index by the name of the column.
 1. Get Row index by the name of the row.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-CellsIndex.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CellsIndex.go" >}}

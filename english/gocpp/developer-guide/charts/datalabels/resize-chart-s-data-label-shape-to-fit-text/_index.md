@@ -21,4 +21,4 @@ This option can be accessed on the Excel interface by selecting any of the data 
 
 In order to mimic Excel's feature of resizing data label shapes to fit the text, the Aspose.Cells APIs have exposed the Boolean type [**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/go-cpp/charttextframe/isresizeshapetofittext/) property. The following piece of code shows the simple usage scenario of [**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/go-cpp/charttextframe/isresizeshapetofittext/) property.  
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ResizeChartSDataLabelShapeToFitText.go" >}}  
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ResizeChartSDataLabelShapeToFitText.go" >}}  

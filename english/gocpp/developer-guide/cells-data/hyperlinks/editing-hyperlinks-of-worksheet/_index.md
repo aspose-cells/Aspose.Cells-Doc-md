@@ -16,4 +16,4 @@ Aspose.Cells allows you to access all the hyperlinks of the worksheet using the 
 
 The following sample code accesses all the hyperlinks of the worksheet and changes their [**GetAddress()**](https://reference.aspose.com/cells/go-cpp/hyperlink/getaddress/) property to the Aspose website.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-EditingHyperlinksOfWorksheet.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-EditingHyperlinksOfWorksheet.go" >}}

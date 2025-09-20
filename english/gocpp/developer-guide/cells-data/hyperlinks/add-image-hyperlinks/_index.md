@@ -16,4 +16,4 @@ Hyperlinks are useful for accessing information on other worksheets, or on websi
 
 Aspose.Cells allows you to add hyperlinks to images in spreadsheets at runtime. It is possible to set and modify the link's screen tip and address. The following sample code illustrates how to add an image hyperlink into a worksheet.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-AddImageHyperlinks.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-AddImageHyperlinks.go" >}}

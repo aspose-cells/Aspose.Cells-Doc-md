@@ -20,4 +20,4 @@ If you want to change the Ribbon XML, you have to parse it with an XML parser or
 
 {{% /alert %}} 
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-CustomizeTheRibbon.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CustomizeTheRibbon.go" >}}

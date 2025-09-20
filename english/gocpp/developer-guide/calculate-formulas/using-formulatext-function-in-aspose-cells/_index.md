@@ -16,7 +16,7 @@ FormulaText is an Excel 2013 and later function. It is not supported by previous
 
 The following sample code shows the usage of FormulaText with Aspose.Cells. The code first writes a formula in cell A1 and then prints the text of the formula using FormulaText in cell A2.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-UsingFormulatextFunctionInAsposeCells.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-UsingFormulatextFunctionInAsposeCells.go" >}}
 ## **Console Output**
 Here is the console output of the above sample code.
 

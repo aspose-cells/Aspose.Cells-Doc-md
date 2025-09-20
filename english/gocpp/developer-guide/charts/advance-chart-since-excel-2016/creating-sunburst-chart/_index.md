@@ -18,4 +18,4 @@ After running the code below, you will see the Sunburst chart as shown below.
 ## **Sample Code**
 The following sample code loads the [sample Excel file](sunburst.xlsx) and generates the [output Excel file](out.xlsx).
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-CreatingSunburstChart.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CreatingSunburstChart.go" >}}

@@ -27,4 +27,4 @@ This example shows how to:
 1. Get iterator and traverse range.
 1. Get [Cell.GetRow()](https://reference.aspose.com/cells/go-cpp/cell/getrow/) attribute on the cell.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-MaxIndexInRowAndColumn.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-MaxIndexInRowAndColumn.go" >}}

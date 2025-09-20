@@ -48,4 +48,4 @@ Please see the following sample code. It loads the [sample Excel file](sample.xl
 
 ### **Sample Code**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-HowToCreateGanttChart.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-HowToCreateGanttChart.go" >}}

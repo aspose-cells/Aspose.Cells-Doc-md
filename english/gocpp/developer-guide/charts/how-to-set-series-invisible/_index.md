@@ -18,7 +18,7 @@ In Excel chart, you can right-click a chart, click "Select Data", and in the pop
 
 We use the following code to set series invisible using Aspose.Cells:
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-HowToSetSeriesInvisible.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-HowToSetSeriesInvisible.go" >}}
 You can get the following [Input file](SeriesFiltered.xlsx) and [output file](output.xlsx).
 
 As shown in the figure below, the first two series which were originally visible, have become invisible in the output file.  

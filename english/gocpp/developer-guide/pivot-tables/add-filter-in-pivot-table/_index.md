@@ -27,7 +27,7 @@ Add filter in Pivot Table in Excel, follow these steps:
 Please see the following sample code. It sets the data and creates a PivotTable based on it. Then add a filter on the row field of the pivot table. Finally, it saves the workbook in [output XLSX](filterout.xlsx) format. After executing the example code, a pivot table with top10 filter is added to the worksheet.
 
 ### **Sample Code**
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-AddFilterInPivotTable.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-AddFilterInPivotTable.go" >}}
 ## **Clear Filter in Pivot Table in Excel**
 Clear filter in Pivot Table in Excel, follow these steps:
 
@@ -48,4 +48,4 @@ Clear filter in Pivot Table using Aspose.Cells. Please see the following sample 
 4. Clear the filter on a specific pivotfield. After executing the code to clear the filter, the filter on the specific pivotfield will be cleared. Please check the [output XLSX](out_delete.xlsx).
 
 ### **Sample Code**
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-AddFilterInPivotTable-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-AddFilterInPivotTable-1.go" >}}

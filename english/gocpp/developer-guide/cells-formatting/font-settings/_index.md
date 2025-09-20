@@ -24,22 +24,22 @@ Aspose.Cells provides the [**Cell**](https://reference.aspose.com/cells/go-cpp/c
 
 Developers can apply any font to text inside a cell by using the [**Style.GetFont()**](https://reference.aspose.com/cells/go-cpp/style/getfont/) object's [GetName()](https://reference.aspose.com/cells/cpp/aspose.cells/font/getname/) property.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FontSettings.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FontSettings.go" >}}
 ### **Setting Font Style to Bold**
 
 Developers can make text bold by setting the [**Style.GetFont()**](https://reference.aspose.com/cells/go-cpp/style/getfont/) object's [**IsBold**](https://reference.aspose.com/cells/cpp/aspose.cells/font/isbold/) property to **true**.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FontSettings-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FontSettings-1.go" >}}
 ### **Setting Font Size**
 
 Set the font size with the [**Style.GetFont()**](https://reference.aspose.com/cells/go-cpp/style/getfont/) object's [**GetSize()**](https://reference.aspose.com/cells/cpp/aspose.cells/font/getsize/) property.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FontSettings-2.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FontSettings-2.go" >}}
 ### **Setting Font Color**
 
 Use the [**Style.GetFont()**](https://reference.aspose.com/cells/go-cpp/style/getfont/) object's [**GetColor()**](https://reference.aspose.com/cells/cpp/aspose.cells/font/getcolor/) property to set the font color. Select any color from the Color enumeration (part of the C++ framework) and assign it to the [**GetColor()**](https://reference.aspose.com/cells/cpp/aspose.cells/font/getcolor/) property.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FontSettings-3.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FontSettings-3.go" >}}
 ### **Setting Font Underline Type**
 
 Use the [**Style.GetFont()**](https://reference.aspose.com/cells/go-cpp/style/getfont/) object's [**GetUnderline()**](https://reference.aspose.com/cells/cpp/aspose.cells/font/getunderline/) property to underline text. Aspose.Cells offers various pre-defined font underline types in the [**FontUnderlineType**](https://reference.aspose.com/cells/cpp/aspose.cells/fontunderlinetype/) enumeration.
@@ -52,22 +52,22 @@ Use the [**Style.GetFont()**](https://reference.aspose.com/cells/go-cpp/style/g
 |None|No underline|
 |Single|A single underline|
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FontSettings-4.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FontSettings-4.go" >}}
 ### **Setting Strikeout Effect**
 
 Apply strikeout by setting the [**Style.GetFont()**](https://reference.aspose.com/cells/go-cpp/style/getfont/) object's [**IsStrikeout**](https://reference.aspose.com/cells/cpp/aspose.cells/font/isstrikeout/) property to **true**.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FontSettings-5.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FontSettings-5.go" >}}
 ### **Setting Subscript Effect**
 
 Apply subscript by setting the [**Style.GetFont()**](https://reference.aspose.com/cells/go-cpp/style/getfont/) object's [**IsSubScript**](https://reference.aspose.com/cells/cpp/aspose.cells/font/issubscript/) property to **true**.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FontSettings-6.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FontSettings-6.go" >}}
 ### **Setting Superscript Effect on Font**
 
 Developers can apply the superscript effect on the font by setting the [**IsSuperscript**](https://reference.aspose.com/cells/go-cpp/font/issuperscript/) property of the [**Style.GetFont()**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getfont/) object to **true**.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FontSettings-7.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FontSettings-7.go" >}}
 ## **Advance topics**
 - [Apply Superscript and Subscript Effects on Fonts](/cells/cpp/apply-superscript-and-subscript-effects-on-fonts/)
 - [Get a List of Fonts used in a Spreadsheet or Workbook](/cells/cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)

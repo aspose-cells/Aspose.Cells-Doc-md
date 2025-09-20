@@ -80,7 +80,7 @@ Here's a basic example of how to apply an accounting number format to a cell in 
 
 4. **Sample Code**: Here's a code snippet demonstrating these steps.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FormatNumberToAccounting.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FormatNumberToAccounting.go" >}}
 This example demonstrates how to format a single cell to display numbers in an accounting format with US dollars. The format string can be adjusted to meet different currency symbols or accounting formats as needed. The key part is the `style.Custom` property, where you specify the custom number format code for accounting.
 
 Remember, the exact format string might need to be adjusted based on your locale and the specific accounting format requirements you have (e.g., using a different currency symbol, showing more or fewer decimal places, etc.).

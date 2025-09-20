@@ -36,4 +36,4 @@ To change the format of a cell using Aspose.Cells, you can use the following met
 In this example, we create an Excel workbook, add some sample data, access the first worksheet, and get two cells("A2" and "B3"). Then, we get the style of the cell, set various formatting options (e.g., font color, bold), and change the format to the cell. Finally, we save the workbook to a new file.
 ![todo:image_alt_text](change-format.png)
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ChangeFormat.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ChangeFormat.go" >}}

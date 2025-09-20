@@ -14,4 +14,4 @@ The following code snippet demonstrates creating a Union Range by using the [Cre
 
 - [Output File](106364952.xlsx)
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-CreateUnionRange.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CreateUnionRange.go" >}}

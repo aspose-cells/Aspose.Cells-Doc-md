@@ -19,4 +19,4 @@ The following sample code creates a workbook and changes its built-in document p
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-SpecifyTheLanguageOfTheExcelFileUsingBuiltinDocumentProperties.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-SpecifyTheLanguageOfTheExcelFileUsingBuiltinDocumentProperties.go" >}}

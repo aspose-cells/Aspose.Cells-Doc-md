@@ -18,4 +18,4 @@ Sample source file and output files can be downloaded from here for testing the 
 
 [Output PDF File](98107430.pdf)
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-CustomSortingInPivotTable.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CustomSortingInPivotTable.go" >}}

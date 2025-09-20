@@ -17,7 +17,7 @@ Sometimes, you want to format pivot table cells. For example, you want to apply 
 
 The following sample code loads the [sample Excel file](pivot_format.xlsx) that contains two pivot tables, and achieves the operation of formatting the entire pivot table and formatting individual cells in the pivot table.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FormatPivotTableCells.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FormatPivotTableCells.go" >}}
 ## Related Articles
 
 - [Formatting Pivot Table](/cells/cpp/formatting-pivot-table/)

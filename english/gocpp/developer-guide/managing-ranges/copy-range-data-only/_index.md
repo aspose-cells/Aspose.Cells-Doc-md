@@ -25,4 +25,4 @@ This example shows how to:
 1. Create another range of cells.
 1. Copy data of the first range to this second range.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-CopyRangeDataOnly.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CopyRangeDataOnly.go" >}}

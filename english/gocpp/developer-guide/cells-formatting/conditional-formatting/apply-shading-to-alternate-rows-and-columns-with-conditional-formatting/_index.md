@@ -22,7 +22,7 @@ This article makes use of Excel's built-in functions such as ROW, COLUMN & MOD. 
 
 Let's start writing some code to accomplish this goal with the help of Aspose.Cells for C++ API.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ApplyShadingToAlternateRowsAndColumnsWithConditionalFormatting.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ApplyShadingToAlternateRowsAndColumnsWithConditionalFormatting.go" >}}
 The following snapshot shows the resultant spreadsheet loaded in Excel application.
 
 |![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_1.png)|

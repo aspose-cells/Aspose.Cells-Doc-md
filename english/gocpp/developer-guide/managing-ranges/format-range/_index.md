@@ -35,4 +35,4 @@ In this example, we create an Excel workbook, add some sample data, access the f
 <br>
 ![todo:image_alt_text](format-range.png)
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FormatRange.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FormatRange.go" >}}

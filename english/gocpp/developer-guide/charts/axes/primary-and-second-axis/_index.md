@@ -18,4 +18,4 @@ Then we add a chart and show the second-axis.
 ![todo:image_alt_text](excel.png)
 
 ## **Sample Code**
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-PrimaryAndSecondAxis.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-PrimaryAndSecondAxis.go" >}}

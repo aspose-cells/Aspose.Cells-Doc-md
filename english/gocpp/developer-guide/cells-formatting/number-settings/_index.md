@@ -69,12 +69,12 @@ Aspose.Cells offers some built-in number formats to configure the display format
 |48|Scientific|##0.0E+00|
 |49|Text|@|
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-NumberSettings.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-NumberSettings.go" >}}
 ### **How to Use Custom Number Formats**
 
 To define your own customized format string for setting the display format, use the [**Style**](https://reference.aspose.com/cells/go-cpp/style/) object's [**Custom**](https://reference.aspose.com/cells/go-cpp/style/getcustom/) property. This approach is not as fast as using pre-set formats but it is more flexible.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-NumberSettings-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-NumberSettings-1.go" >}}
 {{% alert color="primary" %}}
 
 If you use the [**Custom**](https://reference.aspose.com/cells/go-cpp/style/getcustom/) property to set the number format, any previous format set using the [**Number**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getnumber/) property is overridden and vice versa.

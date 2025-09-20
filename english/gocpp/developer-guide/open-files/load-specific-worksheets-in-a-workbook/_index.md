@@ -13,7 +13,7 @@ By default, Aspose.Cells loads the entire spreadsheet into memory. It is possibl
 
 {{% /alert %}}
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-LoadSpecificWorksheetsInAWorkbook.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-LoadSpecificWorksheetsInAWorkbook.go" >}}
 Here is the implementation of the `CustomLoad` class.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-LoadSpecificWorksheetsInAWorkbook-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-LoadSpecificWorksheetsInAWorkbook-1.go" >}}

@@ -40,17 +40,17 @@ While traversing the cells, the collection should not be modified (operations th
 
 The following code example demonstrates the implementation of the IEnumerator interface for a Cells collection.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-IteratingData.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-IteratingData.go" >}}
 ### **Rows Enumerator**
 
 The Rows Enumerator can be accessed while using the [**RowCollection.GetEnumerator**](https://reference.aspose.com/cells/go-cpp/rowcollection/getenumerator/) method. The following code example demonstrates the implementation of the IEnumerator interface for [**RowCollection**](https://reference.aspose.com/cells/cpp/aspose.cells/rowcollection/).
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-IteratingData-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-IteratingData-1.go" >}}
 ### **Columns Get**
 
 The Columns can be accessed while using the [**ColumnCollection.Get**](https://reference.aspose.com/cells/go-cpp/columncollection/get/) method. The following code example demonstrates the implementation of the Get method for [**ColumnCollection**](https://reference.aspose.com/cells/cpp/aspose.cells/columncollection/).
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-IteratingData-2.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-IteratingData-2.go" >}}
 ## **Where to use Enumerators**
 
 In order to discuss the advantages of using enumerators, let's take a real time example.
@@ -61,10 +61,10 @@ An application requirement is to traverse all cells in a given [**Worksheet**](h
 
 ### **Using Display Range**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-IteratingData-3.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-IteratingData-3.go" >}}
 ### **Using MaxDataRow & MaxDataColumn**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-IteratingData-4.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-IteratingData-4.go" >}}
 As you can observe that both of the above-mentioned approaches use more or less similar logic, that is; loop over all cells in the collection to read the cell values. This could be problematic for a number of reasons as discussed below.
 
 1. APIs such as [**GetMaxRow()**](https://reference.aspose.com/cells/go-cpp/cells/getmaxrow/), [**GetMaxDataRow()**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getmaxdatarow/), [**GetMaxColumn()**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getmaxcolumn/), [**GetMaxDataColumn()**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getmaxdatacolumn/) & [**GetMaxDisplayRange()**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getmaxdisplayrange/) require extra time to gather the corresponding statistics. In case the data matrix (rows x columns) is large, using these APIs could impose a performance penalty.

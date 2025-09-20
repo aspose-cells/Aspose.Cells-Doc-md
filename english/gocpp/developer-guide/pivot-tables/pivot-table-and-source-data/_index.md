@@ -52,4 +52,4 @@ Now, you can save this file as your designer template file.
 
 Executing the example code below changes the source data of the pivot table.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-PivotTableAndSourceData.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-PivotTableAndSourceData.go" >}}

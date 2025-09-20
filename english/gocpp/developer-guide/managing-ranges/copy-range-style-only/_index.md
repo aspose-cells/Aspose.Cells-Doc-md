@@ -21,4 +21,4 @@ This example creates a workbook, populates it with data and copies a range's sty
 1. Create a second range of cells.
 1. Copy the first range's formatting to the second range.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-CopyRangeStyleOnly.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CopyRangeStyleOnly.go" >}}

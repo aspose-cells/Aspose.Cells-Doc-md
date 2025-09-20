@@ -32,7 +32,7 @@ The following code snippet changes the tick label direction from Rotate90 to Hor
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ChangeTickLabelDirection.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ChangeTickLabelDirection.go" >}}
 The source and output files can be downloaded from the following links.
 
 [Source File](105480221.xlsx)

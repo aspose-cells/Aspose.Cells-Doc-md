@@ -18,7 +18,7 @@ Use the [**GetFormula**](https://reference.aspose.com/cells/go-cpp/cell/getformu
 
 To calculate the results of formulas, the user may call the [**CalculateFormula**](https://reference.aspose.com/cells/go-cpp/workbook/calculateformula/) method of the [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class, which processes all formulas embedded in an Excel file. Or, the user may call the [**CalculateFormula**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/calculateformula/) method of the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class, which processes all formulas embedded in a sheet. Or, the user may also call the [**Calculate**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/calculate/) method of the [**Cell**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) class, which processes the formula of one Cell:
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-CalculateFormulas.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CalculateFormulas.go" >}}
 ### **Important to Know for Formulas**
 
 {{% alert color="primary" %}}
@@ -35,7 +35,7 @@ Sometimes, you need to calculate formula results directly without adding them in
 
 You can use Aspose.Cells' formula calculation engine APIs for [**Worksheet**](https://reference.aspose.com/cells/go-cpp/worksheet/) to [**calculate**](https://reference.aspose.com/cells/go-cpp/worksheet/calculateformula/) the results of such formulas without adding them to the worksheet:
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-CalculateFormulas-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CalculateFormulas-1.go" >}}
 Above code produces the following output:
 {{< highlight cpp >}}
 Value of A1: 20
@@ -47,7 +47,7 @@ Result of Sum(A1:A2): 50.0
 
 When there are lots of formulas in the workbook and the user needs to calculate them repeatedly with modifying only a small part of them, it may be helpful for performance to enable the formula calculation chain: [**FormulaSettings.GetEnableCalculationChain()**](https://reference.aspose.com/cells/go-cpp/formulasettings/getenablecalculationchain/).
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-CalculateFormulas-2.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CalculateFormulas-2.go" >}}
 ### **Important to Know**
 
 {{% alert color="primary" %}}

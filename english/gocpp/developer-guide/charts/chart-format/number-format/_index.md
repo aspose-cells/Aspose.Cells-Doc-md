@@ -17,4 +17,4 @@ The following sample code adds a series in the empty chart which has no series b
 ![todo:image_alt_text](set-the-values-format-code-of-chart-series_1.png)
 
 ## **Sample Code**
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-NumberFormat.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-NumberFormat.go" >}}

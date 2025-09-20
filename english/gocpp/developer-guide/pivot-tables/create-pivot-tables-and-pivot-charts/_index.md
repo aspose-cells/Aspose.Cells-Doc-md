@@ -48,7 +48,7 @@ To create a pivot table using Aspose.Cells:
 
 Code examples are given below.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-CreatePivotTablesAndPivotCharts.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CreatePivotTablesAndPivotCharts.go" >}}
 ### **Adding a Pivot Chart**
 
 To create a PivotChart using Aspose.Cells:
@@ -57,4 +57,4 @@ To create a PivotChart using Aspose.Cells:
 1. Set the `PivotSource` of the chart to refer to an existing pivot table in the spreadsheet.
 1. Set other attributes.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-CreatePivotTablesAndPivotCharts-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CreatePivotTablesAndPivotCharts-1.go" >}}

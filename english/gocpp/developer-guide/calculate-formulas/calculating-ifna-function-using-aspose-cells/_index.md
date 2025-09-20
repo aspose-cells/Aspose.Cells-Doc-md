@@ -17,7 +17,7 @@ Aspose.Cells supports the calculation of IFNA Excel function. IFNA function retu
 ## **Calculating IFNA function using Aspose.Cells**
 The following sample code illustrates the calculation of IFNA function by Aspose.Cells.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-CalculatingIfnaFunctionUsingAsposeCells.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CalculatingIfnaFunctionUsingAsposeCells.go" >}}
 ## **Console Output**
 Here is the console output of the above sample code.
 

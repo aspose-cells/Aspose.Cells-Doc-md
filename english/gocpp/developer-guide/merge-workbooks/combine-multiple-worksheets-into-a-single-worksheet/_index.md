@@ -15,4 +15,4 @@ Sometimes, you need to combine multiple worksheets into a single worksheet. This
 
 The following code snippet shows you how to combine multiple worksheets into a single worksheet.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-CombineMultipleWorksheetsIntoASingleWorksheet.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CombineMultipleWorksheetsIntoASingleWorksheet.go" >}}

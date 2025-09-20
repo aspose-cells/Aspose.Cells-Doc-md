@@ -21,7 +21,7 @@ The following code accesses the first pivot table of the worksheet and then retr
 | :- |
 |![todo:image_alt_text](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_1.png)|
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-GetTheCellObjectByDisplaynameOfPivotfieldOfPivottable.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-GetTheCellObjectByDisplaynameOfPivotfieldOfPivottable.go" >}}
 |**Pivot Table - After**|
 | :- |
 |![todo:image_alt_text](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_2.png)|

@@ -15,7 +15,7 @@ Sometimes, you want to know the type of X and Y values of chart points in a seri
 The following sample code loads the [sample Excel file](64716905.xlsx) and accesses the first chart inside the first worksheet. It then calls the `Chart::Calculate()` method and finds the type of X and Y values of the first chart point and prints them on the console. Please see the console output shown below for a reference.
 
 ## **Sample Code**
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FindTypeOfXAndYValuesOfPointsInChartSeries.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FindTypeOfXAndYValuesOfPointsInChartSeries.go" >}}
 ## **Console Output**
 
 {{< highlight java >}}

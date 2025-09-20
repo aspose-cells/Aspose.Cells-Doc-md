@@ -16,8 +16,8 @@ Normally, we recommend users to call [**Workbook.CalculateFormula()**](https://r
 
 The following sample code illustrates the usage of [**CalculationOptions.GetRecursive()**](https://reference.aspose.com/cells/go-cpp/calculationoptions/getrecursive/) property. Please execute this code with the given [sample excel file](5113710.xlsx) and check its console output. You will find that setting the recursive property to **false** has decreased the calculation time significantly. Please also read the comments for a better understanding of this property.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-DecreaseTheCalculationTimeOfCellCalculateMethod.go" >}}
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-DecreaseTheCalculationTimeOfCellCalculateMethod-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-DecreaseTheCalculationTimeOfCellCalculateMethod.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-DecreaseTheCalculationTimeOfCellCalculateMethod-1.go" >}}
 ## **Console Output**
 
 This is the console output of the above sample code when executed with the given [sample excel file](5113710.xlsx) on our machine. Please note, your output may differ but the elapsed time after setting the recursive property to **false** will always be less than setting it to **true**.

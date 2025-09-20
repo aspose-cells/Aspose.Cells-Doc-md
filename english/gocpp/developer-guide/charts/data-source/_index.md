@@ -21,12 +21,12 @@ There are two types of data to deal with while working on charts using Aspose.Ce
 
 Chart data is the data that we use as a data source to build our charts. We can add a range of the cells (containing chart data) by calling the [**SeriesCollection**](https://reference.aspose.com/cells/go-cpp/seriescollection/) object's [**Add**](https://reference.aspose.com/cells/go-cpp/seriescollection/add/) method.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-DataSource.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-DataSource.go" >}}
 ### **Category Data**
 
 Category data is used for the labeling of chart data and can be added to [**SeriesCollection**](https://reference.aspose.com/cells/go-cpp/seriescollection/) by using its [**GetCategoryData()**](https://reference.aspose.com/cells/go-cpp/seriescollection/getcategorydata/) property. A complete example is given below to demonstrate the use of chart and category data. After executing the above example code, a column chart will be added to the worksheet as shown below.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-DataSource-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-DataSource-1.go" >}}
 ## **Advance Topics**
 - [Change Data Source of the Chart to Destination Worksheet while Copying Rows or Range](/cells/cpp/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/)
 - [Create Dynamic Charts](/cells/cpp/create-dynamic-charts/)

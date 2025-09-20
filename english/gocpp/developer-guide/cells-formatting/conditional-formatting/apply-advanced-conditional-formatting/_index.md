@@ -26,4 +26,4 @@ Aspose.Cells fully supports the conditional formatting provided by Microsoft Exc
 ### **Compute the Color Chosen by Microsoft Excel for ColorScale Conditional Formatting**
 Aspose.Cells lets you calculate the color selected by Microsoft Excel when ColorScale conditional formatting is used in a template file. See the sample code below to learn how to compute the color selected by Microsoft Excel.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ApplyAdvancedConditionalFormatting.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ApplyAdvancedConditionalFormatting.go" >}}

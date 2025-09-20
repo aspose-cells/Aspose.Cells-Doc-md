@@ -28,7 +28,7 @@ In Excel charts, horizontal and vertical axes are the two most popular axes to u
 
 The following code snippet demonstrates how to set the options of X and Y axes.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-Axes.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Axes.go" >}}
 ## **Advance Topics**
 - [Change Tick Label Direction](/cells/cpp/change-tick-label-direction/)
 - [Determine which Axis exists in the Chart](/cells/cpp/determine-which-axis-exists-in-the-chart/)

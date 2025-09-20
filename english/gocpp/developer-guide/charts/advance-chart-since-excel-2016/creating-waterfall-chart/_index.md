@@ -18,7 +18,7 @@ Aspose.Cells APIs allows to create a waterfall chart with the help of line chart
 
 Below provided code snippet demonstrates the usage of Aspose.Cells for C++ API to create a waterfall chart from scratch.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-CreatingWaterfallChart.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CreatingWaterfallChart.go" >}}
 ## Related Articles
 
 - [Creating Charts](/cells/cpp/creating-charts/)

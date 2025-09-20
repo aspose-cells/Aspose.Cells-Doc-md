@@ -36,7 +36,7 @@ The [**Sort**](https://reference.aspose.com/cells/go-cpp/datasorter/sort_cells_i
 
 This example uses the template file "Book1.xls" created in Microsoft Excel. After executing the code below, data is sorted appropriately.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-DataSorting.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-DataSorting.go" >}}
 {{% alert color="primary" %}}
 
 If you want to sort *LeftToRight*, use the [**DataSorter.GetSortLeftToRight()**](https://reference.aspose.com/cells/go-cpp/datasorter/getsortlefttoright/) attribute.
@@ -53,7 +53,7 @@ Following are the sample files which can be downloaded for testing this feature:
 
 [outputsampleBackGroundFile.xlsx](81920907.xlsx)
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-DataSorting-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-DataSorting-1.go" >}}
 ## **Advance topics**
 - [Sort Data in Column with Custom Sort List](/cells/cpp/sort-data-in-column-with-custom-sort-list/)
 - [Specifying Sort Warning While Sorting Data](/cells/cpp/specifying-sort-warning-while-sorting-data/)

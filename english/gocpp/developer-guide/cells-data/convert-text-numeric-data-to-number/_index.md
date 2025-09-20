@@ -42,4 +42,4 @@ These string numbers have been converted to numbers using [**Cells.ConvertString
 
 The following sample code illustrates how to convert all string numeric data to actual numbers in all worksheets.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ConvertTextNumericDataToNumber.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertTextNumericDataToNumber.go" >}}

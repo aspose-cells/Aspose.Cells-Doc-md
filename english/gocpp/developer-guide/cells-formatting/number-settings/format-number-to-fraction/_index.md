@@ -99,7 +99,7 @@ After applying the fractional format, save the workbook to a file:
 
 Here's a code snippet demonstrating these steps:
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FormatNumberToFraction.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FormatNumberToFraction.go" >}}
 ### Additional Notes
 
 - The `Custom` property of the style object allows you to specify the exact fraction format. For example, `"# ??/???"` can display fractions with up to three digits in the denominator.

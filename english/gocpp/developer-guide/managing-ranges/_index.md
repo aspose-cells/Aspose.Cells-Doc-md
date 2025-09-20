@@ -23,19 +23,19 @@ Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells
 
 When you want to create a rectangular area that extends over A1:C4, you can use the following code:
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ManagingRanges.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ManagingRanges.go" >}}
 ### **Put value into the Cells of the Range**
 
 Say you have a range of cells that extends over A1:C4. The matrix makes 4 * 3 = 12 cells. The individual range cells are arranged sequentially: Range[0,0], Range[0,1], Range[0,2], Range[1,0], Range[1,1], Range[1,2], Range[2,0], Range[2,1], Range[2,2], Range[3,0], Range[3,1], Range[3,2].
 
 The following example shows how to input some values into the cells of the Range.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ManagingRanges-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ManagingRanges-1.go" >}}
 ### **Set style of the Cells of the Range**
 
 The following example shows how to set style of the cells of the Range.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ManagingRanges-2.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ManagingRanges-2.go" >}}
 ### **Get CurrentRegion of the Range**
 
 CurrentRegion is a property that returns a Range object that represents the current region. 
@@ -54,7 +54,7 @@ Please downloaded the following test file, open it in excel, use the mouse box t
 
 Now please run the following example, see how it works in Aspose.Cells:
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ManagingRanges-3.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ManagingRanges-3.go" >}}
 
 ## **Advance topics**
 - [AutoFill range of Excel file](/cells/cpp/autofill-ranges/)

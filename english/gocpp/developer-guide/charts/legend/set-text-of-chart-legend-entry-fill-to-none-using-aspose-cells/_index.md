@@ -20,4 +20,4 @@ The following screenshot highlights the effect of this code on [sample excel fi
 
 ![todo:image_alt_text](set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells_1.png)
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-SetTextOfChartLegendEntryFillToNoneUsingAsposeCells.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-SetTextOfChartLegendEntryFillToNoneUsingAsposeCells.go" >}}

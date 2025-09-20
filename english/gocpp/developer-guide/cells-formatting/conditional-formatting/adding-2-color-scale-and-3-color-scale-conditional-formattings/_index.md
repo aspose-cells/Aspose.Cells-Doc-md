@@ -16,4 +16,4 @@ url: /go-cpp/adding-2-color-scale-and-3-color-scale-conditional-formattings/
 
 The following sample code adds 2-Color and 3-Color Scale Conditional Formattings. It generates the [output excel file](5115058.xlsx).
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-Adding2ColorScaleAnd3ColorScaleConditionalFormattings.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Adding2ColorScaleAnd3ColorScaleConditionalFormattings.go" >}}

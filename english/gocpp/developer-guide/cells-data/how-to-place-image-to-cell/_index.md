@@ -60,4 +60,4 @@ Insert Picture in Cell using Aspose.Cells. Please see the following sample code.
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-HowToPlaceImageToCell.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-HowToPlaceImageToCell.go" >}}

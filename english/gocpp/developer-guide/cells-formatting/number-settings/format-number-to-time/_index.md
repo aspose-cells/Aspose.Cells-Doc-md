@@ -47,8 +47,8 @@ For decimal hours, Excel treats the value as a fraction of a 24-hour day. So, `1
 If you have time represented as text or a number without a decimal (e.g., `130` for 1:30 or `1530` for 15:30), you'll first need to convert it to a time serial number that Excel can recognize before applying a time format.
 
 1. **Assuming your time is in cell A1** and is in the format `hhmm` (e.g., `1530`), you can use the following formula to convert it to a time:
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FormatNumberToTime.go" >}}   For formats without leading zeros (e.g., `130` for 1:30), you might need a slightly adjusted formula to handle the variability in length:
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FormatNumberToTime-1.go" >}}2. After applying the formula, **right-click** the cell with the formula result, select **Format Cells**, go to the **Number** tab, select **Time**, choose your desired format, and click **OK**.
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FormatNumberToTime.go" >}}   For formats without leading zeros (e.g., `130` for 1:30), you might need a slightly adjusted formula to handle the variability in length:
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FormatNumberToTime-1.go" >}}2. After applying the formula, **right-click** the cell with the formula result, select **Format Cells**, go to the **Number** tab, select **Time**, choose your desired format, and click **OK**.
 
 ### Scenario 3: Convert a Number of Seconds to Time Format
 
@@ -100,7 +100,7 @@ You can use different custom formats depending on your needs. Here are a few exa
 ### Sample Code
 
 Here's a code snippet demonstrating these steps:
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FormatNumberToTime-2.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FormatNumberToTime-2.go" >}}
 ### Conclusion
 
 Formatting numbers to time in Aspose.Cells for C++ involves setting a custom number format for the cells where you want to display time. By following the steps outlined above, you can easily apply time formats to cells in your Excel files using Aspose.Cells. Remember, the key is to use the correct custom format string that matches your desired time format.

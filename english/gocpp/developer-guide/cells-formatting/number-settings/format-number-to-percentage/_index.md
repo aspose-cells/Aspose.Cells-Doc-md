@@ -51,7 +51,7 @@ If you're entering a formula or want to convert an existing number to a percenta
 
 For example, if you have a value in cell A1 and you want to display it as a percentage in cell B1, you could use the following formula in B1:
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FormatNumberToPercentage.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FormatNumberToPercentage.go" >}}
 However, note that this method treats the result as text rather than a numeric value formatted as a percentage, which might affect further calculations.
 
 ### Keyboard Shortcut
@@ -69,7 +69,7 @@ Formatting numbers to percentages in Aspose.Cells for C++ is a straightforward p
 
 First, ensure you have Aspose.Cells for C++ installed in your project. If you haven't installed it yet, you can get it via NuGet. Run the following command in the NuGet Package Manager Console:
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FormatNumberToPercentage-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FormatNumberToPercentage-1.go" >}}
 ### Step 2: Create a New Workbook or Open an Existing One
 
 You can either create a new workbook or open an existing one. 
@@ -89,7 +89,7 @@ Finally, save the workbook to a file or stream.
 ### Sample Code
 
 Here's a code snippet demonstrating these steps:
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FormatNumberToPercentage-2.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FormatNumberToPercentage-2.go" >}}
 ### Conclusion
 
 By following these steps, you can easily format numbers to percentages in Aspose.Cells for C++. Aspose.Cells offers a wide range of features for manipulating Excel files, including formatting cells, working with formulas, and much more, making it a powerful tool for C++ developers working with Excel data.

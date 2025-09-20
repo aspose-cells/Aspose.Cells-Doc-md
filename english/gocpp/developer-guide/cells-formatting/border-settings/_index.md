@@ -62,7 +62,7 @@ The border's line style is set by selecting a line style from the [**CellBorderT
 
 Select one of the line styles and then assign it to the [**Border**](https://reference.aspose.com/cells/go-cpp/border/) object's [**GetLineStyle()**](https://reference.aspose.com/cells/go-cpp/border/getlinestyle/) property.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-BorderSettings.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-BorderSettings.go" >}}
 {{% alert color="primary" %}}
 
 You should set both line style and color at the same time. The two diagonal border lines should have the same line style and color.
@@ -84,4 +84,4 @@ The [**CreateRange**](https://reference.aspose.com/cells/go-cpp/cells/createrang
 - **Line Style**, the border line style, selected from the [**CellBorderType**](https://reference.aspose.com/cells/go-cpp/cellbordertype/) enumeration.
 - **Color**, the line color, selected from the Color enumeration.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-BorderSettings-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-BorderSettings-1.go" >}}

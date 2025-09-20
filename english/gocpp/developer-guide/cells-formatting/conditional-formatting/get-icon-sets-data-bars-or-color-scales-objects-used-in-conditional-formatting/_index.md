@@ -16,4 +16,4 @@ Sometimes, you need to retrieve icon sets that are used in the conditional forma
 
 The following code sample shows how to read icon sets that are used for conditional formatting. With Aspose.Cells' simple API, the icon set's image data is saved as an image.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-GetIconSetsDataBarsOrColorScalesObjectsUsedInConditionalFormatting.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-GetIconSetsDataBarsOrColorScalesObjectsUsedInConditionalFormatting.go" >}}

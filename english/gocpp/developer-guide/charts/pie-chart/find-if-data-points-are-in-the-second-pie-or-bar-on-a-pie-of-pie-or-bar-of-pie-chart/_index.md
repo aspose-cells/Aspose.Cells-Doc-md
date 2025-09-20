@@ -16,7 +16,7 @@ Please download the [sample excel file](5115193.xlsx) used in the following samp
 ## **Find if Data Points are in the Second Pie or Bar on a Pie of Pie or Bar of Pie Chart**
 The following sample code shows how to find if data points are in the second pie or bar on a *Pie of Pie* or *Bar of Pie* chart.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FindIfDataPointsAreInTheSecondPieOrBarOnAPieOfPieOrBarOfPieChart.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FindIfDataPointsAreInTheSecondPieOrBarOnAPieOfPieOrBarOfPieChart.go" >}}
 ## **Console Output**
 Please see the following console output generated after the execution of the above sample code with the [sample excel file](5115193.xlsx). If [IsInSecondaryPlot](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chartpoint/isinsecondaryplot/) is **false**, the data point is inside the Pie or if it is **true**, then the data point is inside the Bar.
 

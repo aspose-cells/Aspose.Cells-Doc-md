@@ -18,4 +18,4 @@ The Source file used in the following code snippet is attached for your referenc
 
 ## Sample Code
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-GetTextWidthOfCellValue.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-GetTextWidthOfCellValue.go" >}}

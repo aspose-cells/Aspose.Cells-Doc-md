@@ -18,4 +18,4 @@ Aspose.Cells provides a [**DataLabels.IsTextWrapped**](https://reference.aspose.
 
 The below code sample shows how to disable text wrapping for the data labels of the chart.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-DisableTextWrappingForDataLabelsOfTheChart.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-DisableTextWrappingForDataLabelsOfTheChart.go" >}}

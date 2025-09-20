@@ -24,4 +24,4 @@ After you create a chart in a worksheet, you can set the category axis for it. I
 5. Set the value axis, save the workbook to view the result.
 
 ## **Sample Code**
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-SetCategoryAxis.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-SetCategoryAxis.go" >}}

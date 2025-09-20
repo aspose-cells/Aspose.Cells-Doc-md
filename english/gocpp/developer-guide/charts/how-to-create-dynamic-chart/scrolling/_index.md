@@ -23,9 +23,9 @@ In the next paragraphs, we will show you how to create a Dynamic Scrolling Chart
 ## **Sample Code**
 The following sample code will generate the [Dynamic Scrolling Chart File](DynamicScrollingChart.xlsx).
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-Scrolling.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Scrolling.go" >}}
 ## **Notes**
 In the generated file, you can operate on the scroll bar, while the chart dynamically counts the latest 10 sets of data. This is done using the "OFFSET" formula in the sample code:
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-Scrolling-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Scrolling-1.go" >}}
 You can try changing the number "10" to "15" in cell "Sheet1!$H$20", and the dynamic chart will count the latest 15 sets of data. Now we have created a dynamic scrolling chart using Aspose.Cells successfully.

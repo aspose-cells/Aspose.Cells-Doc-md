@@ -39,7 +39,7 @@ The following examples demonstrate how to use [**Style.Update**](https://referen
 
 This example creates a [**Style**](https://reference.aspose.com/cells/go-cpp/style/) object, applies it to a range of cells and modifies the [**Style**](https://reference.aspose.com/cells/go-cpp/style/) object. The modifications are automatically applied to the cell and the range the style was applied to.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ModifyAnExistingStyle.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ModifyAnExistingStyle.go" >}}
 ### **Modifying an Existing Style**
 
 This example uses a simple template Excel file in which a style called Percent has already been applied to a range. The example:
@@ -50,4 +50,4 @@ This example uses a simple template Excel file in which a style called Percent h
 
 The modifications are automatically applied to the range the style was applied to.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ModifyAnExistingStyle-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ModifyAnExistingStyle-1.go" >}}

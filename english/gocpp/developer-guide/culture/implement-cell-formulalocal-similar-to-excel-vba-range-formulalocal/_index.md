@@ -17,7 +17,7 @@ The following sample code explains how to implement [**GlobalizationSettings.Get
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ImplementCellFormulalocalSimilarToExcelVbaRangeFormulalocal.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ImplementCellFormulalocalSimilarToExcelVbaRangeFormulalocal.go" >}}
 ## **Console Output**
 
 {{< highlight java >}}

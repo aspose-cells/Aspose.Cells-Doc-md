@@ -19,7 +19,7 @@ By using Aspose.Cells, you can use [**PivotOptions**](https://reference.aspose.c
 Sample file and code:  
 [Sample File](Sample.xlsx)
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-PivotOptions.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-PivotOptions.go" >}}
 With the example code above, you can check the result file with the following effect, as shown in the figure:
 
 **![Output](Output.png)**

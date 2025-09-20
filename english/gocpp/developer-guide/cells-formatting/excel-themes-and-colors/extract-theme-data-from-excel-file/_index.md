@@ -20,4 +20,4 @@ You can apply a theme to your workbook using Microsoft Excel via Page Layout > T
 
 The following sample code extracts the theme name applied to the source workbook and then extracts the theme color applied to cell A1 and the theme color applied to the bottom border of the cell.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ExtractThemeDataFromExcelFile.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ExtractThemeDataFromExcelFile.go" >}}

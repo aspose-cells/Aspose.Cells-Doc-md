@@ -33,4 +33,4 @@ The following sample code changes the shape type of data labels of the chart to 
 ![todo:image_alt_text](set-the-shape-type-of-data-labels-of-chart_1.png)
 
 ## **Sample Code**
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-SetTheShapeTypeOfDataLabelsOfChart.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-SetTheShapeTypeOfDataLabelsOfChart.go" >}}

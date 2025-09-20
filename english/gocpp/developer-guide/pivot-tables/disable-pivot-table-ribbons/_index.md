@@ -17,4 +17,4 @@ Pivot table-based reports are useful but prone to error if target users do not h
 
 The following code demonstrates this feature by accessing a pivot table from a sheet and then setting [**GetEnableWizard()**](https://reference.aspose.com/cells/go-cpp/pivottable/getenablewizard/) to **false**. A sample pivot table file can be downloaded from this [link](pivot_table_test.xlsx).
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-DisablePivotTableRibbons.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-DisablePivotTableRibbons.go" >}}

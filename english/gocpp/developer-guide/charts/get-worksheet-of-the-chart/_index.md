@@ -16,7 +16,7 @@ Sometimes, you want to access a worksheet from a chart's reference. Aspose.Cells
 
 The following example shows how to use the [**Chart::GetWorksheet**](https://reference.aspose.com/cells/go-cpp/chart/getworksheet/) method. The code first prints the name of the worksheet, then accesses the first chart on the worksheet. It then prints the worksheet name again, using the [**Chart::GetWorksheet**](https://reference.aspose.com/cells/go-cpp/chart/getworksheet/) method.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-GetWorksheetOfTheChart.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-GetWorksheetOfTheChart.go" >}}
 Below is the console output that the sample code results in. As you can see, it prints the same worksheet name both times.
 
 {{< highlight java >}}

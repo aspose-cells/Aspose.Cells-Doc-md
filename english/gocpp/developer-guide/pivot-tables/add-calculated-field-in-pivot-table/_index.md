@@ -35,4 +35,4 @@ Add calculated field to Excel file using Aspose.Cells. Please see the following 
 4. Finally, it saves the workbook in [output XLSX](out.xlsx) format. 
 
 ## **Sample Code**
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-AddCalculatedFieldInPivotTable.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-AddCalculatedFieldInPivotTable.go" >}}

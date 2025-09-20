@@ -15,4 +15,4 @@ Microsoft Excel 2016 supports MINIFS and MAXIFS functions. These functions are n
 ## **Calculation of Excel 2016 MINIFS and MAXIFS functions**
 The following sample code loads the [sample excel file](5115149.xlsx) and calls the [Workbook.CalculateFormula()](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) method to perform the formula calculation via Aspose.Cells and then saves the results in the [output PDF](5115154.pdf).
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-CalculationOfExcel2016MinifsAndMaxifsFunctions.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CalculationOfExcel2016MinifsAndMaxifsFunctions.go" >}}

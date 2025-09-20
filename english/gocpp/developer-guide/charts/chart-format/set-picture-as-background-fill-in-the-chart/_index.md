@@ -18,4 +18,4 @@ To achieve this, Aspose.Cells provides the [**Chart.GetImageData()**](https://re
 
 ## C++ code to set picture as background fill in the chart
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-SetPictureAsBackgroundFillInTheChart.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-SetPictureAsBackgroundFillInTheChart.go" >}}

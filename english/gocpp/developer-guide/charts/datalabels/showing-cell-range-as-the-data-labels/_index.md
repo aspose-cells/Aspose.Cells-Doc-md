@@ -24,4 +24,4 @@ To show the cell range as data labels in Microsoft Excel:
 
 The sample code below accesses a chart series data labels and sets the [**DataLabels.GetShowCellRange()**](https://reference.aspose.com/cells/go-cpp/datalabels/getshowcellrange/) property to **true** to select the **Label Contains - Value From Cells** option.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ShowingCellRangeAsTheDataLabels.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ShowingCellRangeAsTheDataLabels.go" >}}

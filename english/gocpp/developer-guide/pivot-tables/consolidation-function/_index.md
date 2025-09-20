@@ -30,7 +30,7 @@ Aspose.Cells provides [**ConsolidationFunction**](https://reference.aspose.com/c
 
 The following code applies **Average** consolidation function to the first data field (or value field) and **DistinctCount** consolidation function to the second data field (or value field).
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ConsolidationFunction.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConsolidationFunction.go" >}}
 {{% alert color="primary" %}}
 
 DistinctCount consolidation function is supported by Microsoft Excel 2013 only.

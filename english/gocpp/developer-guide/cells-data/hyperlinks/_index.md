@@ -28,7 +28,7 @@ The [Worksheet](https://reference.aspose.com/cells/go-cpp/worksheet/) class con
 - Number of columns, the number of columns in this hyperlink range.
 - URL, the URL address.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-Hyperlinks.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Hyperlinks.go" >}}
 {{% alert color="primary" %}} 
 
 In the above example, a hyperlink is added to a URL in an empty cell, **A1**. In such cases, if a cell is empty then the URL address is also added to that empty cell as its value. If the cell is not empty and a hyperlink is added, the value of the cell looks like plain text. To make it look like a hyperlink, apply the appropriate formatting settings on that cell.
@@ -43,7 +43,7 @@ It is possible to add hyperlinks to cells in the same Excel file by calling the 
 - Number of columns, the number of columns in this hyperlink range.
 - URL, the address of the target cell.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-Hyperlinks-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Hyperlinks-1.go" >}}
 ## **Adding a Link to an External File**
 It is possible to add hyperlinks to external Excel files by calling the [Hyperlinks](https://reference.aspose.com/cells/go-cpp/hyperlinkcollection/) collection's [Add](https://reference.aspose.com/cells/go-cpp/hyperlinkcollection/add/) method. The [Add](https://reference.aspose.com/cells/go-cpp/hyperlinkcollection/add/) method takes the following parameters:
 
@@ -52,7 +52,7 @@ It is possible to add hyperlinks to external Excel files by calling the [Hyperli
 - Number of columns, the number of columns in this hyperlink range.
 - URL, the address of the target, external Excel file.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-Hyperlinks-2.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Hyperlinks-2.go" >}}
 ## **Advance topics**
 - [Add Image Hyperlinks](/cells/cpp/add-image-hyperlinks/)
 - [Detect Hyperlink Type](/cells/cpp/detect-hyperlink-type/)

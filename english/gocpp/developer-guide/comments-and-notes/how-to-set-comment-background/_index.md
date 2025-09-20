@@ -22,7 +22,7 @@ The following code will guide you on how to use [**Aspose.Cells**](https://produ
 
 Here we have prepared a [sample file](exmaple.xlsx) for you. This file is used to initialize the Workbook object in the code below.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-HowToSetCommentBackground.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-HowToSetCommentBackground.go" >}}
 Execute the above code, and you will get an [output file](result.xlsx).
 
 ## **How to insert picture or image in comment in Excel**
@@ -31,4 +31,4 @@ Microsoft Excel lets users customize the look and feel of spreadsheets to a grea
 
 The sample code below creates an XLSX file from scratch using [**Aspose.Cells**](https://products.aspose.com/cells/go-cpp/) API, and adds a comment with a picture background to cell A1.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-HowToSetCommentBackground-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-HowToSetCommentBackground-1.go" >}}

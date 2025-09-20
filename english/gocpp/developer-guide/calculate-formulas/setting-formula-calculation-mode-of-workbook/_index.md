@@ -29,4 +29,4 @@ Aspose.Cells also allows you to set the **Formula Calculation Mode** using [**Fo
 - CalcModeType::AutomaticExceptTable
 - CalcModeType::Manual
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-SettingFormulaCalculationModeOfWorkbook.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-SettingFormulaCalculationModeOfWorkbook.go" >}}

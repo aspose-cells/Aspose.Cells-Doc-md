@@ -79,7 +79,7 @@ First, ensure that you have Aspose.Cells for C++ added to your project. You can 
 
 If you're using NuGet Package Manager Console, you can install it by running:
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FormatNumberToSpecial.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FormatNumberToSpecial.go" >}}
 ### Step 2: Create a Workbook and Access a Worksheet
 You can either create a new workbook or open an existing one. 
 
@@ -106,7 +106,7 @@ You can create virtually any number format by specifying the format string accor
 ### Sample Code
 
 Here's a code snippet demonstrating these steps:
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-FormatNumberToSpecial-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FormatNumberToSpecial-1.go" >}}
 ### Conclusion
 
 Formatting numbers to special formats in Aspose.Cells for C++ involves setting the custom number format of a cell's style. This allows for a wide range of formatting options, enabling you to display data exactly how you need it. Remember, the key to custom formats is the format string you provide, which dictates how the number will be displayed.

@@ -23,4 +23,4 @@ Sample source and output files can be downloaded from here for testing the sampl
 
 [Output Excel File](101089333.xlsx)
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-WorkingWithDataDisplayFormatsOfDatafieldInPivotTable.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-WorkingWithDataDisplayFormatsOfDatafieldInPivotTable.go" >}}

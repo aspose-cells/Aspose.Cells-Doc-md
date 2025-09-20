@@ -19,7 +19,7 @@ A chart is composed of a data series. Each data series in Aspose.Cells is repres
 
 The example code below demonstrates how to create custom charts. In this example, we are going to use a column chart for the first data series and a line chart for the second series. The result is that we add a column chart, combined with a line chart, to the worksheet.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-CustomizingCharts.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CustomizingCharts.go" >}}
 {{% alert color="primary" %}}
 
 Currently, Aspose.Cells only supports custom charts that combine pie, line, column, and column stack charts but more charts will be supported in future releases.

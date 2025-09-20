@@ -47,4 +47,4 @@ Please see the following code, it creates a workbook object and set different ro
 <br>
 <img src="rotation.png" width=80% />
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-SetRotationOfCell.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-SetRotationOfCell.go" >}}

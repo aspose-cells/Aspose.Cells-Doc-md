@@ -22,7 +22,7 @@ The following code examples show how to apply super and subscript to text.
 
 ### C++ code to Apply Superscript effect on text
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ApplySuperscriptAndSubscriptEffectsOnFonts.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ApplySuperscriptAndSubscriptEffectsOnFonts.go" >}}
 ### C++ code to Apply Subscript effect on text
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ApplySuperscriptAndSubscriptEffectsOnFonts-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ApplySuperscriptAndSubscriptEffectsOnFonts-1.go" >}}

@@ -21,7 +21,7 @@ First step, you need to define a class "ChartChineseSetttings" that inherits fro
 Then, by overriding the related functions, you can set the text of the chart elements in your own language.
 
 Code example:
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ChineseSettting.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ChineseSettting.go" >}}
 Then you can see the effect in the output image, the elements in the chart will be rendered according to your settings.
 
 ## **Conclusion**

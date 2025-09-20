@@ -18,7 +18,7 @@ The following sample code creates a workbook object and adds some text in cell A
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-GetHtml5StringFromCell.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-GetHtml5StringFromCell.go" >}}
 ## **Console Output**
 
 {{< highlight java >}}

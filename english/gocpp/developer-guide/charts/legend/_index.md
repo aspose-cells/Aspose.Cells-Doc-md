@@ -18,6 +18,6 @@ It's simple to manage the legend of a chart with Aspose.Cells [Legend](https://r
 
 The following code snippet demonstrates how to manage the legend:
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-Legend.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Legend.go" >}}
 ## **Advanced Topics**
 - [Set text of chart legend entry fill to none using Aspose.Cells](/cells/cpp/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)

@@ -20,7 +20,7 @@ Similarly, you can use [**Worksheet::Validations::GetValidationInCell**](https:/
 
 Below code sample shows you how to get validation applied on a cell.
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-GetValidationAppliedOnACell.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-GetValidationAppliedOnACell.go" >}}
 ## Related Articles
 
 - [Data Validation](/cells/cpp/data-validation/)

@@ -24,7 +24,7 @@ The following sample code loads the source excel file and retrieves the list of 
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-GetAListOfFontsUsedInASpreadsheetOrWorkbook.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-GetAListOfFontsUsedInASpreadsheetOrWorkbook.go" >}}
 ## **Console Output**
 
 Here is the console output of the above sample code when executed with the given [sample excel file](25395211.xlsx).

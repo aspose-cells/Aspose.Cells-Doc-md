@@ -24,7 +24,7 @@ Attached below is the [sample Excel file](SampleSheet.xlsx) that needs to be mod
 
 We use the following code to get the file set up correctly:
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-HowToSetPointAsTotal.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-HowToSetPointAsTotal.go" >}}
 You can get the following correct [output file](output.xlsx)
 
 As shown in the figure below, the four "Total" data points are set correctly, and you can see the difference from the previous chart.

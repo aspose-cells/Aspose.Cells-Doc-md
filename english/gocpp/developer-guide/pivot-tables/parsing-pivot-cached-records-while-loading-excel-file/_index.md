@@ -19,4 +19,4 @@ The following sample code explains the usage of [**LoadOptions.GetParsingPivotC
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-ParsingPivotCachedRecordsWhileLoadingExcelFile.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ParsingPivotCachedRecordsWhileLoadingExcelFile.go" >}}

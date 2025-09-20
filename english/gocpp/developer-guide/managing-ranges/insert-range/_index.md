@@ -21,9 +21,9 @@ Aspose.Cells provides [Cells.InsertRange](https://reference.aspose.com/cells/go-
 
 Insert a range and shift cells right as the following codes with Aspose.Cells:
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-InsertRange.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-InsertRange.go" >}}
 ## **Insert Ranges And Shift Cells Down**
 
 Insert a range and shift cells down as the following codes with Aspose.Cells:
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-GO-CPP-InsertRange-1.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-InsertRange-1.go" >}}
