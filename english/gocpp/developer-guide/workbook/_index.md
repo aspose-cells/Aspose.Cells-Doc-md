@@ -1,0 +1,59 @@
+---
+title: Manage Workbook with Golang via C++
+linktitle: Workbook
+type: docs
+weight: 60
+url: /go-cpp/managing-workbooks-and-worksheets/
+description: Learn how to Manage Workbook through the Aspose.Cells for C++ APIs.
+keywords: How to Manage Workbook in C++, Manage Workbook and worksheets using C++, Operate workbook and worksheets in C++.
+---
+
+{{% alert color="primary" %}}
+
+Aspose.Cells for C++ provides a powerful and flexible API for managing workbooks and worksheets. This section explains how to create, open, and manipulate workbooks and worksheets programmatically.
+
+{{% /alert %}}
+
+## **Creating a New Workbook**
+To create a new workbook:
+
+1. Create an instance of the [Workbook](https://reference.aspose.com/cells/go-cpp/workbook/) class.
+2. Add worksheets to the workbook using the [WorksheetCollection](https://reference.aspose.com/cells/go-cpp/worksheetcollection/) class.
+3. Save the workbook using the [Save](https://reference.aspose.com/cells/go-cpp/workbook/save_string_saveformat/) method.
+
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Workbook.go" >}}
+## **Opening an Existing Workbook**
+To open an existing workbook:
+
+1. Create an instance of the [Workbook](https://reference.aspose.com/cells/go-cpp/workbook/) class and pass the file path to the constructor.
+2. Access the worksheets using the [WorksheetCollection](https://reference.aspose.com/cells/go-cpp/worksheetcollection/) class.
+3. Modify the workbook as needed.
+4. Save the workbook using the [Save](https://reference.aspose.com/cells/go-cpp/workbook/save_string_saveformat/) method.
+
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Workbook-1.go" >}}
+## **Managing Worksheets**
+Aspose.Cells for C++ provides a wide range of methods for managing worksheets, including adding, removing, and renaming worksheets.
+
+### **Adding a Worksheet**
+To add a new worksheet:
+
+1. Access the [WorksheetCollection](https://reference.aspose.com/cells/go-cpp/worksheetcollection/) class from the workbook.
+2. Use the [Add](https://reference.aspose.com/cells/go-cpp/worksheetcollection/add_sheettype/) method to add a new worksheet.
+
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Workbook-2.go" >}}
+### **Removing a Worksheet**
+To remove a worksheet:
+
+1. Access the [WorksheetCollection](https://reference.aspose.com/cells/go-cpp/worksheetcollection/) class from the workbook.
+2. Use the [RemoveAt](https://reference.aspose.com/cells/go-cpp/worksheetcollection/removeat_string/) method to remove a worksheet by index.
+
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Workbook-3.go" >}}
+### **Renaming a Worksheet**
+To rename a worksheet:
+
+1. Access the [Worksheet](https://reference.aspose.com/cells/go-cpp/worksheet/) class from the workbook.
+2. Use the [SetName](https://reference.aspose.com/cells/go-cpp/worksheet/setname/) method to rename the worksheet.
+
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Workbook-4.go" >}}
+## **Conclusion**
+Aspose.Cells for C++ provides a comprehensive set of tools for managing workbooks and worksheets. Whether you need to create a new workbook, open an existing one, or manipulate worksheets, Aspose.Cells makes it easy to work with Excel files programmatically.
