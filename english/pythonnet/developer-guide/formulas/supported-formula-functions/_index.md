@@ -70,6 +70,8 @@ Aspose.Cells for Python via .NET' Formula Calculation Engine allows you to set, 
 |BITOR|**Engineering**: Returns a bitwise OR of 2 numbers
 |BITRSHIFT|**Engineering**: Returns a value number shifted right by shift_amount bits
 |BITXOR|**Engineering**: Returns a bitwise 'Exclusive Or' of two numbers
+|BYCOL|**Logical**: Applies a LAMBDA to each column and returns an array of the results
+|BYROW|**Logical**: Applies a LAMBDA to each row and returns an array of the results
 
 ###### **C**
 |**Function**|**Summary**|
@@ -103,6 +105,8 @@ Aspose.Cells for Python via .NET' Formula Calculation Engine allows you to set, 
 |CORREL|**Statistical**: Returns the correlation coefficient between two data sets
 |COS|**Math and trigonometry**: Returns the cosine of a number
 |COSH|**Math and trigonometry**: Returns the hyperbolic cosine of a number
+|COT|**Math and trigonometry**: Returns the hyperbolic cosine of a number
+|COTH|**Math and trigonometry**: Returns the cotangent of an angle
 |COUNT|**Statistical**: Counts how many numbers are in the list of arguments
 |COUNTA|**Statistical**: Counts how many values are in the list of arguments
 |COUNTBLANK|**Statistical**: Counts the number of blank cells within a range
@@ -170,6 +174,7 @@ Aspose.Cells for Python via .NET' Formula Calculation Engine allows you to set, 
 |EVEN|**Math and trigonometry**: Rounds a number up to the nearest even integer
 |EXACT|**Text**: Checks to see if two text values are identical
 |EXP|**Math and trigonometry**: Returns e raised to the power of a given number
+|EXPAND|**Lookup and reference**: Expands or pads an array to specified row and column dimensions
 |EXPONDIST|**Compatibility**: Returns the exponential distribution
 
 ###### **F**
@@ -267,6 +272,7 @@ Aspose.Cells for Python via .NET' Formula Calculation Engine allows you to set, 
 |ISNONTEXT|**Information**: Returns TRUE if the value is not text
 |ISNUMBER|**Information**: Returns TRUE if the value is a number
 |ISODD|**Information**: Returns TRUE if the number is odd
+|ISOMITTED|**Information**: Checks whether the value in a LAMBDA is missing and returns TRUE or FALSE
 |ISREF|**Information**: Returns TRUE if the value is a reference
 |ISTEXT|**Information**: Returns TRUE if the value is text
 |ISOWEEKNUM|**Date and time**: Returns the number of the ISO week number of the year for a given date
@@ -412,6 +418,7 @@ Aspose.Cells for Python via .NET' Formula Calculation Engine allows you to set, 
 |RANK|**Compatibility**: Returns the rank of a number in a list of numbers
 |RATE|**Financial**: Returns the interest rate per period of an annuity
 |RECEIVED|**Financial**: Returns the amount received at maturity for a fully invested security
+|REDUCE|**Logical**: Reduces an array to an accumulated value by applying a LAMBDA to each value and returning the total value in the accumulator
 |REPLACE|**Text**: Replaces characters within text
 |REPLACEB|**Text**: Replaces characters within text
 |REPT|**Text**: Repeats text a given number of times
@@ -475,6 +482,7 @@ Aspose.Cells for Python via .NET' Formula Calculation Engine allows you to set, 
 |T|**Text**: Converts its arguments to text
 |TAN|**Math and trigonometry**: Returns the tangent of a number
 |TANH|**Math and trigonometry**: Returns the hyperbolic tangent of a number
+|TAKE|**Lookup and reference**: Returns a specified number of contiguous rows or columns from the start or end of an array
 |TBILLEQ|**Financial**: Returns the bond-equivalent yield for a Treasury bill
 |TBILLPRICE|**Financial**: Returns the price per $100 face value for a Treasury bill
 |TBILLYIELD|**Financial**: Returns the yield for a Treasury bill
@@ -536,13 +544,17 @@ Aspose.Cells for Python via .NET' Formula Calculation Engine allows you to set, 
 |WEIBULL.DIST|**Statistical**: Returns the Weibull distribution
 |WORKDAY|**Date and time**: Returns the serial number of the date before or after a specified number of workdays
 |WORKDAY.INTL|**Date and time**: Returns the serial number of the date before or after a specified number of workdays using parameters to indicate which and how many days are weekend days
+|WRAPCOLS|**Look and reference**: Wraps the provided row or column of values by columns after a specified number of elements
+|WRAPROWS|**Look and reference**: Wraps the provided row or column of values by rows after a specified number of elements
 
 ###### **X**
 |**Function**|**Summary**|
 | :- | :- |
-|XIRR|**Financial**: Returns the internal rate of return for a schedule of cash flows that is not necessarily periodic
+|XIRR|**Financial**: Returns the internal rate of return for a schedule of cash flows that is not necessarily periodic.
 |XLOOKUP|**Lookup and reference**: Searches a range or an array, and returns an item corresponding to the first match it finds. If a match doesn't exist, then XLOOKUP can return the closest (approximate) match. 
-|XNPV|**Financial**: Returns the net present value for a schedule of cash flows that is not necessarily periodic
+|XMATCH|**Lookup and reference**: Returns the relative position of an item in an array or range of cells. 
+|XNPV|**Financial**: Returns the net present value for a schedule of cash flows that is not necessarily periodic.
+|XOR|**Logical**:  Returns a logical exclusive OR of all arguments.
 
 ###### **Y**
 |**Function**|**Summary**|

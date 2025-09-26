@@ -544,13 +544,17 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |WEIBULL.DIST|**Statistical**: Returns the Weibull distribution
 |WORKDAY|**Date and time**: Returns the serial number of the date before or after a specified number of workdays
 |WORKDAY.INTL|**Date and time**: Returns the serial number of the date before or after a specified number of workdays using parameters to indicate which and how many days are weekend days
+|WRAPCOLS|**Look and reference**: Wraps the provided row or column of values by columns after a specified number of elements
+|WRAPROWS|**Look and reference**: Wraps the provided row or column of values by rows after a specified number of elements
 
 ###### **X**
 |**Function**|**Summary**|
 | :- | :- |
-|XIRR|**Financial**: Returns the internal rate of return for a schedule of cash flows that is not necessarily periodic
+|XIRR|**Financial**: Returns the internal rate of return for a schedule of cash flows that is not necessarily periodic.
 |XLOOKUP|**Lookup and reference**: Searches a range or an array, and returns an item corresponding to the first match it finds. If a match doesn't exist, then XLOOKUP can return the closest (approximate) match. 
-|XNPV|**Financial**: Returns the net present value for a schedule of cash flows that is not necessarily periodic
+|XMATCH|**Lookup and reference**: Returns the relative position of an item in an array or range of cells. 
+|XNPV|**Financial**: Returns the net present value for a schedule of cash flows that is not necessarily periodic.
+|XOR|**Logical**:  Returns a logical exclusive OR of all arguments.
 
 ###### **Y**
 |**Function**|**Summary**|
