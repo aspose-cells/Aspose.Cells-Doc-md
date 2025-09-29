@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /cpp/opening-files-with-different-formats/
 
-description: Aspose.Cells for .NET API allows you to open/read different formats like XLSX, HTML, CSV, ODS, TSV, SXC, FODS, etc.
+description: Aspose.Cells for C++ API allows you to open/read different formats like XLSX, HTML, CSV, ODS, TSV, SXC, FODS, etc.
 keywords: open xlsx files, open html files, read fods files, read ods files, read sxc files, open csv files, Tab Delimited, SpreadsheetML, tsv, mhtml
 ---
 

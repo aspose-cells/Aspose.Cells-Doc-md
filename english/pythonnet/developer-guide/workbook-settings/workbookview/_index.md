@@ -19,7 +19,7 @@ When you need to adjust the display of Excel pages, you need to know how to cont
 - [**WorkbookSettings.window_left**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/window_left/)
 - [**WorkbookSettings.window_top**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/window_top/)
 
-## **How to Control Workbook View using Aspose.Cells for .NET**
+## **How to Control Workbook View using Aspose.Cells for Python via .NET**
 This example shows how to:
 
 1. Create a workbook.

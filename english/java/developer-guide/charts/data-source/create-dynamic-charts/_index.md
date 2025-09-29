@@ -17,7 +17,7 @@ This article demonstrates the usage of Aspose.Cells for Java APIs to create dyna
 
 {{% alert color="primary" %}}
 
-Excel tables are referred to as ListObjects in Aspose.Cells' perspective therefore we will use the term "ListObject" instead of "Table" for clarity. Please read in detail on how to [create ListObjects](/cells/java/creating-a-list-object/) with Aspose.Cells for .NET API.
+Excel tables are referred to as ListObjects in Aspose.Cells' perspective therefore we will use the term "ListObject" instead of "Table" for clarity. Please read in detail on how to [create ListObjects](/cells/java/creating-a-list-object/) with Aspose.Cells for Java API.
 
 {{% /alert %}}
 

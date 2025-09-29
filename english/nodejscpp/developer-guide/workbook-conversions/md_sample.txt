@@ -11,4 +11,4 @@
 |65|65|65|65|13|65|9|35|
 |34|22|27|22|32|23|23|32|
 |213|186|224|341|145|276|232|205|
-# Evaluation Only. Created with Aspose.Cells for .NET.Copyright 2003 - 2019 Aspose Pty Ltd.
+# Evaluation Only. Created with Aspose.Cells for Node.js via C++.Copyright 2003 - 2019 Aspose Pty Ltd.

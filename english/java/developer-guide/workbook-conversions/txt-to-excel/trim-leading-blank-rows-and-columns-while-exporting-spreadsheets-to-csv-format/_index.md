@@ -21,7 +21,7 @@ By default, Aspose.Cells does not discard leading blank columns and rows on savi
 
 {{% alert color="primary" %}}
 
-Prior to the release of Aspose.Cells for .NET 20.4, the default value of [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) was **false**. Since the 20.4 release, the default value of [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) is **true.**
+Prior to the release of Aspose.Cells for Java 20.4, the default value of [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) was **false**. Since the 20.4 release, the default value of [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) is **true.**
 
 {{% /alert %}}
 

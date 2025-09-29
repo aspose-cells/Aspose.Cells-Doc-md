@@ -10,7 +10,7 @@ description: This snippet introduces how to encrypt and decrypt excel files, pro
 
 
 {{% alert color="primary" %}}
-Aspose.Cells for .Net offers a wide range of protection and unprotection from file to data level like MS Excel:
+Aspose.Cells for Python via .NET offers a wide range of protection and unprotection from file to data level like MS Excel:
 {{% /alert %}}
 
 

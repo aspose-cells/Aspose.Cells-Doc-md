@@ -33,7 +33,7 @@ If you click **Paste** on the **Standard** toolbar or press **CTRL**+**V** inste
 1. On the Home tab, click the arrow next to **Paste**, and then select **Paste** Special.
 1. Select the **options** you want.
 
-## **How to Copy Rows and Columns Using Aspose.Cells for .NET**
+## **How to Copy Rows and Columns Using Aspose.Cells for Python via .NET**
 
 ## **How to Copy Single Rows**
 

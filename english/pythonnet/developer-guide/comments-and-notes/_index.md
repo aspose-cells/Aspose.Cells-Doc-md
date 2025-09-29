@@ -4,7 +4,7 @@ linktitle: Comments and Notes
 type: docs
 weight: 128
 url: /python-net/comments-and-notes/
-description: Insert and manage comments or notes with Aspose.Cells for .Net.
+description: Insert and manage comments or notes with Aspose.Cells for Python via .NET.
 keywords: insert comments, insert notes
 ---
 

@@ -21,8 +21,8 @@ To remove a named range from Excel, you can follow these steps:
 6. Click on the "Close" button to close the Name Manager dialog box.
 7. Save the workbook to retain the changes.
 
-## **Deletes Named Range using Aspose.Cells for .Net**
-With Aspose.Cells for .Net, you can remove named ranges or defined names by [text](https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str) in the list.
+## **Deletes Named Range using Aspose.Cells for Python via .NET**
+With Aspose.Cells for Python via .NET, you can remove named ranges or defined names by [text](https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str) in the list.
 
 ```python
 from aspose.cells import Workbook
