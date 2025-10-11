@@ -8,6 +8,16 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 25.10
+* Provide option to determine how to output significant digits for numeric values
+* Support to process exported cell with custom ExportTableOptions when ExportAsString is true
+* Support to parse datetime with calendar of Japanese Emperor Reign
+* Support to refresh dynamic array formulas by default when calculating formulas for Workbook
+* Improve compatibility with PdfBox library for the generated pdf file while converting to pdf
+* Support to calculate style for pivot table while rendering pivot table range to image
+* Export advanced charts of Excel 2016 to docx
+* Support to populate comment on a cell using Smart Markers
+
 ## Aspose.Cells for .NET 25.9
 * Support WRAPCOLS, WRAPROWS function
 * Support font Variation Selectors while converting to xps
