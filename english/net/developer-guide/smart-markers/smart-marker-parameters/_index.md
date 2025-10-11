@@ -81,3 +81,126 @@ Cell "C1" contains the formula **= A1*B1**, cell "C2" contains **= A2*B2** and c
 It's very easy to process the smart markers. Following example code shows on how to use dynamic formulas in Smart Markers. We load the [template file](templateDynamicFormulas.xlsx) and create test data, process the markers to fill data into the cells against the marker. 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-DynamicFormulas-1.cs" >}}
+
+## **How to Use Dynamic Formulas and Variables in SmartMarkers**
+Sometimes, you need to use dynamic formulas and variables in SmartMarkers. For dynamic formulas, please add special char (~) as a separator. Aspose.Cells makes it possible to use dynamic formulas and variables in SmartMarkers. Please check [template file](template.xlsx), [json file](employees-data.json) and the screenshot of the output excel file generated with the following code.
+
+|**The first worksheet of the template.xlsx file showing variables.**|
+| :- |
+|![todo:image_alt_text](template_variables.png)|
+
+|**The second worksheet of the template.xlsx file showing smart markers.**|
+| :- |
+|![todo:image_alt_text](template_data.png)|
+
+|**The screenshot of the output excel file.**|
+| :- |
+|![todo:image_alt_text](template_result.png)|
+
+Json data as follows:
+```json data
+{
+  "RootData": {
+    "Directors": [
+      {
+        "FirstName": "director first 1",
+        "id": "director id 1",
+        "LastName": "director last 1",
+        "MiddleName": "director middle 1",
+        "Reportees": [
+          {
+            "City": "aaa city",
+            "Department": "aaa department",
+            "FirstName": "first aaa",
+            "GST": "Yes",
+            "id": "aaa",
+            "ITR": "No",
+            "LastName": "last aaa",
+            "MiddleName": "middle aaa"
+          },
+          {
+            "City": "bbb city",
+            "Department": "bbb department",
+            "FirstName": "first bbb",
+            "GST": "Yes",
+            "id": "bbb",
+            "ITR": "Yes",
+            "LastName": "last bbb",
+            "MiddleName": "middle bbb"
+          },
+          {
+            "City": "ccc city",
+            "Department": "ccc department",
+            "FirstName": "first ccc",
+            "GST": "No",
+            "id": "ccc",
+            "ITR": "No",
+            "LastName": "last ccc",
+            "MiddleName": "middle ccc"
+          },
+          {
+            "City": "ddd city",
+            "Department": "ddd department",
+            "FirstName": "first ddd",
+            "GST": "No",
+            "id": "ddd",
+            "ITR": "No",
+            "LastName": "last ddd",
+            "MiddleName": "middle ddd"
+          },
+          {
+            "City": "eee city",
+            "Department": "eee department",
+            "FirstName": "first eee",
+            "GST": "No",
+            "id": "eee",
+            "ITR": "No",
+            "LastName": "last eee",
+            "MiddleName": "middle eee"
+          }
+        ]
+      },
+      {
+        "FirstName": "director first 2",
+        "id": "director id 2",
+        "LastName": "director last 2",
+        "MiddleName": "director middle 2",
+        "Reportees": [
+          {
+            "City": "eee city",
+            "Department": "eee department",
+            "FirstName": "first eee",
+            "GST": "Yes",
+            "id": "eee",
+            "ITR": "No",
+            "LastName": "last eee",
+            "MiddleName": "middle eee"
+          },
+          {
+            "City": "fff city",
+            "Department": "fff department",
+            "FirstName": "first fff",
+            "GST": "No",
+            "id": "fff",
+            "ITR": "No",
+            "LastName": "last fff",
+            "MiddleName": "middle fff"
+          }
+        ]
+      }
+    ],
+    "DOB": "2025-02-28",
+    "EntityCin": "EntityCin Test",
+    "EntityName": "EntityName Test",
+    "FirstName": "FirstName Test",
+    "LastName": "LastName Test",
+    "MiddleName": "MiddleName Test",
+    "SSN": "11111111",
+	"CtcPerEmployee": 100000,
+	"CountOfEmployees": 132
+  }
+}
+```
+The example that follows shows how this works.
+
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "SmartMarkers-Using-DynamicFormula-And-Variables.cs" >}}
