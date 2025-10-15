@@ -100,9 +100,11 @@ After call this function
 ## customize toolbar hover effect
 
 open browser insepection window ,select the toolbar button,
+
 ![todo:the screen for select insepect toolbar button](gridjs_hover_toolbar_button_inspect.png)
 
 then we can find the related css key for this button is:freeze
+
 ![todo:the screen for find css key for toolbar button](gridjs_hover_toolbar_button_csskey.png)
 
 add the below css rule:
@@ -114,5 +116,6 @@ add the below css rule:
 }
 ```
 the result will be :
+
 ![todo:the screen for hover effect for toolbar button](gridjs_hover_toolbar_button_hover.png)
 
