@@ -64,11 +64,12 @@ console.log("hello world");
 ### **Windows:**
 - Install Oracle JDK8 and configure JAVA_HOME environment variable.
 - Install Node.js and add node.exe to PATH.
+- Install Python and set to PATH.
 - Install node-gyp.
-- Install Windows Build Tools.
-- Install [node-java bridge](https://www.npmjs.com/package/java) and run below commands @ command prompt as an administrator:
+- Install [node-java bridge](https://www.npmjs.com/package/java).
+- Install aspose.cells(OR: Download "Aspose.Cells for Node.js via Java" and extract it to "aspose.cells.js.java/node_modules").
 
-
+Run below commands @ command prompt as an administrator(**Make sure Java, Node.js, Python are configured**):
 
 {{< highlight java >}}
 
@@ -78,13 +79,12 @@ console.log("hello world");
 
 \> npm install -g node-gyp
 
-\> npm install --global --production windows-build-tools
-
 \> npm install java
+
+\> npm install aspose.cells
 
 {{< /highlight >}}
 
-- Download "Aspose.Cells for Node.js via Java" and extract it into "aspose.cells.js.java/node_modules".
 - Create a file named **hello.js** in "aspose.cells.js.java" folder using the following sample code:
 
 {{< highlight java >}}
