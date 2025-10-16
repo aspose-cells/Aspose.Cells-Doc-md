@@ -1,0 +1,29 @@
+{
+	"node": {
+		"Styles1": [
+			{
+				"StyleID": "1style001",
+				"StyleName": "StyleName1",
+				"Quantity": 6,
+				"UnitPrice": 18.45,
+				"MaterialType":"Cotton"
+			}
+		],
+		"Styles2": [
+			{
+				"StyleID": "2style001",
+				"StyleName": "Cotton StyleName2",
+				"Quantity": 6,
+				"UnitPrice": 18.45,
+				"MaterialType":"Cotton"
+			},
+			{
+				"StyleID": "2style002",
+				"StyleName": "Denim StyleName2",
+				"Quantity": 8,
+				"UnitPrice": 58.8,
+				"MaterialType":"Denim"
+			}
+		]
+	}
+}
