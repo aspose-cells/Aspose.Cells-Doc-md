@@ -1,0 +1,457 @@
+/**
+ * Modal Window Custom Style Examples
+ * 
+ * This file demonstrates how to set independent styles for different modal windows.
+ * You can add these styles to your project's CSS file.
+ */
+
+/* ========================================
+   Sort Modal
+   ======================================== */
+.x-spreadsheet-modal-sort {
+    /* Set specific width for sort modal */
+    /* width: 650px !important; */
+}
+
+.x-spreadsheet-modal-sort .x-spreadsheet-modal-header {
+    /* Customize header background color */
+    /* background-color: #4CAF50; */
+    /* color: white; */
+}
+
+.x-spreadsheet-modal-sort .x-spreadsheet-buttons button {
+    /* Customize button styles */
+}
+
+/* ========================================
+   Validation Modal
+   ======================================== */
+.x-spreadsheet-modal-validation {
+    /* Validation modal specific styles */
+}
+
+/* ========================================
+   Search Modal
+   ======================================== */
+.x-spreadsheet-modal-search {
+    /* Search modal specific styles */
+    /* Example: Adjust position */
+    /* top: 100px !important; */
+}
+
+/* Only affects search modal form fields */
+.x-spreadsheet-modal-search .x-spreadsheet-form-fields {
+    /* padding: 15px; */
+    /* background-color: #f5f5f5; */
+}
+
+/* Only affects search modal checkbox area */
+.x-spreadsheet-modal-search .x-spreadsheet-search-checkbox-fields {
+    /* This is the search modal specific checkbox area */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+/* ========================================
+   Download Modal
+   ======================================== */
+.x-spreadsheet-modal-download {
+    /* Download modal specific styles */
+}
+
+/* ========================================
+   Print Modal
+   ======================================== */
+.x-spreadsheet-modal-print {
+    /* Print modal specific styles */
+}
+
+/* ========================================
+   Link Modal
+   ======================================== */
+.x-spreadsheet-modal-link {
+    /* Link modal specific styles */
+}
+
+/* ========================================
+   Email Modal
+   ======================================== */
+.x-spreadsheet-modal-email {
+    /* Email modal specific styles */
+}
+
+/* ========================================
+   Control Modal
+   ======================================== */
+.x-spreadsheet-modal-control {
+    /* Control modal specific styles */
+}
+
+/* ========================================
+   Text Rotate Modal
+   ======================================== */
+.x-spreadsheet-modal-text-rotate {
+    /* Text rotate modal specific styles */
+}
+
+/* ========================================
+   Input Suggest Modal
+   ======================================== */
+.x-spreadsheet-modal-input-suggest {
+    /* Input suggest modal specific styles */
+}
+
+/* ========================================
+   Insert URL Modal
+   ======================================== */
+.x-spreadsheet-modal-insert-url {
+    /* Insert URL modal specific styles */
+}
+
+/* ========================================
+   Data Validation Modal
+   ======================================== */
+.x-spreadsheet-modal-component-data-validation {
+    /* Data validation modal specific styles */
+    /* Note: This is a ModalComponent type modal */
+}
+
+/* ========================================
+   More Number Formats Modal
+   ======================================== */
+.x-spreadsheet-modal-component-more-number-formats {
+    /* More number formats modal specific styles */
+}
+
+/* ========================================
+   Validation Alert Modal
+   ======================================== */
+.x-spreadsheet-modal-component-validation-alert {
+    /* Validation alert modal specific styles */
+}
+
+/* ========================================
+   Insert/Delete Modal
+   ======================================== */
+.x-spreadsheet-modal-component-insert-delete {
+    /* Insert/delete modal specific styles */
+}
+
+/* ========================================
+   Dimmer/Mask Customization
+   ======================================== */
+
+/* Set styles for specific modal's mask layer */
+.x-spreadsheet-modal-component-mask-data-validation {
+    /* Data validation modal mask layer */
+    /* background-color: rgba(0, 0, 0, 0.3); */
+}
+
+.x-spreadsheet-modal-component-mask-more-number-formats {
+    /* More number formats modal mask layer */
+}
+
+/* ========================================
+   Practical Examples
+   ======================================== */
+
+/* Example 1: Add rounded corners and shadow to search modal */
+/*
+.x-spreadsheet-modal-search {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+*/
+
+/* Example 2: Customize sort modal button colors */
+/*
+.x-spreadsheet-modal-sort .x-spreadsheet-buttons button.primary {
+    background-color: #4CAF50;
+}
+
+.x-spreadsheet-modal-sort .x-spreadsheet-buttons button.primary:hover {
+    background-color: #45a049;
+}
+*/
+
+/* Example 3: Adjust data validation modal tab styles */
+/*
+.x-spreadsheet-modal-component-data-validation .x-spreadsheet-modal-component-tab-button {
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.x-spreadsheet-modal-component-data-validation .x-spreadsheet-modal-component-tab-button.active {
+    background-color: #2196F3;
+    color: white;
+}
+*/
+
+/* Example 4: Ensure style isolation - only affects specific modal */
+/*
+.x-spreadsheet-modal-search input[type="text"] {
+    border: 2px solid #2196F3;
+    border-radius: 4px;
+    padding: 8px;
+}
+*/
+
+/* Example 5: Responsive design - adjust modal on small screens */
+/*
+@media (max-width: 768px) {
+    .x-spreadsheet-modal-data-validation {
+        width: 95% !important;
+        max-width: 95% !important;
+    }
+}
+*/
+
+/* ========================================
+   Advanced Examples
+   ======================================== */
+
+/* Example 6: Modern gradient theme */
+/*
+.x-spreadsheet-modal-search {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(102, 126, 234, 0.2);
+    border: none;
+}
+
+.x-spreadsheet-modal-search .x-spreadsheet-modal-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 24px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.x-spreadsheet-modal-search input[type="text"] {
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    transition: all 0.3s ease;
+}
+
+.x-spreadsheet-modal-search input[type="text"]:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    outline: none;
+}
+
+.x-spreadsheet-modal-search .x-spreadsheet-buttons button.primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 8px;
+    padding: 10px 24px;
+    border: none;
+}
+
+.x-spreadsheet-modal-search .x-spreadsheet-buttons button.primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+*/
+
+/* Example 7: Dark mode theme */
+/*
+.x-spreadsheet-modal-print {
+    background: #1f2937;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    border: 1px solid #374151;
+}
+
+.x-spreadsheet-modal-print .x-spreadsheet-modal-header {
+    background: #111827;
+    color: #f9fafb;
+    padding: 20px 24px;
+    border-bottom: 1px solid #374151;
+    font-weight: 600;
+}
+
+.x-spreadsheet-modal-print select,
+.x-spreadsheet-modal-print input {
+    background: #374151;
+    border: 1px solid #4b5563;
+    color: #f9fafb;
+    border-radius: 6px;
+    padding: 10px 12px;
+}
+
+.x-spreadsheet-modal-print .x-spreadsheet-buttons button.primary {
+    background: #3b82f6;
+    color: white;
+    border-radius: 6px;
+}
+*/
+
+/* Example 8: Minimalist clean theme */
+/*
+.x-spreadsheet-modal-download {
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e5e7eb;
+}
+
+.x-spreadsheet-modal-download .x-spreadsheet-modal-header {
+    background: white;
+    color: #1f2937;
+    padding: 20px 24px;
+    border-bottom: 1px solid #e5e7eb;
+    font-weight: 600;
+}
+
+.x-spreadsheet-modal-download input,
+.x-spreadsheet-modal-download select {
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    padding: 10px 12px;
+}
+
+.x-spreadsheet-modal-download input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    outline: none;
+}
+
+.x-spreadsheet-modal-download .x-spreadsheet-buttons button.primary {
+    background: #3b82f6;
+    color: white;
+    border-radius: 6px;
+}
+*/
+
+/* Example 9: Glass morphism effect */
+/*
+.x-spreadsheet-modal-component-data-validation {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.x-spreadsheet-modal-component-data-validation .x-spreadsheet-modal-component-header {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+*/
+
+/* Example 10: Material Design style */
+/*
+.x-spreadsheet-modal-email {
+    border-radius: 4px;
+    box-shadow: 
+        0 11px 15px -7px rgba(0,0,0,.2),
+        0 24px 38px 3px rgba(0,0,0,.14),
+        0 9px 46px 8px rgba(0,0,0,.12);
+}
+
+.x-spreadsheet-modal-email .x-spreadsheet-modal-header {
+    background: #6200ea;
+    color: white;
+    padding: 20px 24px;
+    font-weight: 500;
+    letter-spacing: 0.0125em;
+}
+
+.x-spreadsheet-modal-email .x-spreadsheet-buttons button {
+    text-transform: uppercase;
+    letter-spacing: 0.089em;
+}
+*/
+
+/* ========================================
+   Important Notes
+   ======================================== */
+/*
+1. Use !important sparingly, only when necessary
+2. Maintain style specificity to avoid affecting other modals
+3. Test all modals to ensure styles don't interfere with each other
+4. Consider using CSS variables to centrally manage colors and sizes
+5. Follow your project's design guidelines and style guide
+6. Always ensure style isolation - target specific modals only
+7. Test responsiveness across different screen sizes
+8. Consider accessibility when customizing (focus states, contrast, etc.)
+9. Use transitions for smooth user experience
+10. Document your custom styles for team collaboration
+*/
+
+/* ========================================
+   CSS Variables Example
+   ======================================== */
+/*
+:root {
+    --modal-primary-color: #667eea;
+    --modal-secondary-color: #764ba2;
+    --modal-border-radius: 12px;
+    --modal-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+    --modal-transition: all 0.3s ease;
+}
+
+.x-spreadsheet-modal-search {
+    border-radius: var(--modal-border-radius);
+    box-shadow: var(--modal-shadow);
+}
+
+.x-spreadsheet-modal-search .x-spreadsheet-modal-header {
+    background: linear-gradient(135deg, var(--modal-primary-color) 0%, var(--modal-secondary-color) 100%);
+}
+*/
+
+/* ========================================
+   Animation Examples
+   ======================================== */
+/*
+@keyframes modalSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.x-spreadsheet-modal-search {
+    animation: modalSlideIn 0.3s ease-out;
+}
+
+.x-spreadsheet-modal-search .x-spreadsheet-buttons button {
+    transition: all 0.2s ease;
+}
+
+.x-spreadsheet-modal-search .x-spreadsheet-buttons button:hover {
+    transform: translateY(-2px);
+}
+*/
+
+/* ========================================
+   Custom Scrollbar Example
+   ======================================== */
+/*
+.x-spreadsheet-modal-component-data-validation .x-spreadsheet-modal-component-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.x-spreadsheet-modal-component-data-validation .x-spreadsheet-modal-component-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.x-spreadsheet-modal-component-data-validation .x-spreadsheet-modal-component-content::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 10px;
+}
+*/
+
+/* ========================================
+   For more examples and detailed guide, see:
+   - MODAL_STYLING_GUIDE.md
+   - MODAL_NAME_MODIFICATION.md
+   ======================================== */
