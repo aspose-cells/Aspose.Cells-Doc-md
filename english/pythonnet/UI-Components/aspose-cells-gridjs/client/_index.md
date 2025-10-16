@@ -109,6 +109,19 @@ xs1.setActiveForMultipleInstance(false);
 xs2.setActiveForMultipleInstance(false);
 
 ```
+- set custom toast
+```javascript
+xs.customToast(customToastFunction);
+// the parameter is:
+	customToastFunction: user defined function to toast message,it shall have three parameters :title, content,callback
+	if set to null,it will use the default build-in toast.
+	 
+    for example: 
+            function myCustomToast(title, content, callback) {
+	    //.....
+	    }
+            xs.customToast(myCustomToast);
+```
 
 - set info for shape/images operation for server side action
 ```javascript
