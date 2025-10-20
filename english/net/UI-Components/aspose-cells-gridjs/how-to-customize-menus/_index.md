@@ -18,7 +18,7 @@ however we can write some js function based on the dom structure to achieve it.
 
  
  
-## customize menubar 
+## Customize menubar 
 for example:to keep File menu only,assume the div id of GridJs is "gridjs-divid"
 ```javascript
    //get menubar parent dom
@@ -42,7 +42,7 @@ After call this function
 ![todo:the screen for customize menubar](gridjs_customize_menubar.png)
 
  
-## customize items in menubar 
+## Customize items in menubar 
 for example:to keep "Download As XLSX" menu item in File menu only,assume the div id of GridJs is "gridjs-divid"
 ```javascript
    //get menubar parent dom
@@ -73,7 +73,7 @@ After call this function
 
 ![todo:the screen for customize menubar item](gridjs_customize_menu.png)
 
-## customize toolbar items 
+## Customize toolbar items 
 for example:to keep zoom button only,assume the div id of GridJs is "gridjs-divid"
 ```javascript
    //get toolbar parent dom
@@ -97,7 +97,7 @@ After call this function
 ![todo:the screen for customize toolbar](gridjs_customize_toolbar.png)
 
 
-## customize toolbar hover effect
+## Customize toolbar hover effect
 
 open browser insepection window ,select the toolbar button,
 
@@ -118,4 +118,59 @@ add the below css rule:
 the result will be :
 
 ![todo:the screen for hover effect for toolbar button](gridjs_hover_toolbar_button_hover.png)
+
+
+## Customize Items in Bottom Bar
+
+### Overview
+The bottom bar contains two interactive buttons:
+1. &zwnj;**Add Worksheet Button**&zwnj; (`add` class) - Creates new worksheets
+2. &zwnj;**Select Worksheet Button**&zwnj; (`ellipsis` class) - Manages worksheet selection
+
+### DOM Access
+You can access these elements using:
+```javascript
+// Add Worksheet Button
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+
+// Select Worksheet Button
+const selectButton = document.querySelector('.x-spreadsheet-icon-img.ellipsis');
+
+```
+
+### Customization Examples
+1. Hide Buttons
+To remove a button from the DOM:
+```javascript
+// Hide Add Worksheet Button
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.parentElement.removeChild(addButton);
+
+// Hide Select Worksheet Button
+const selectButton = document.querySelector('.x-spreadsheet-icon-img.ellipsis');
+selectButton.parentElement.removeChild(selectButton);
+
+```
+
+2. Change Icons
+You can replace icons using either external SVG files or inline SVG data.
+```javascript
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.style.backgroundImage = "url('https://example.com/fish-icon.svg')";
+// Adjust size and position
+addButton.style.width = '18px';
+addButton.style.height = '18px';
+addButton.style.left = '0';
+addButton.style.top = '0';
+```
+
+3. Change Button Behavior
+You can modify the click event to customize functionality:
+```javascript
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.addEventListener('click', function() {
+  // Custom action here
+  console.log('Custom add worksheet action');
+});
+```
 
