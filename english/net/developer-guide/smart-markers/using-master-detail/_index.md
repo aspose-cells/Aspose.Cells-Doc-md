@@ -12,12 +12,12 @@ Sometimes, you want to generate dynamic Excel reports, it includes a comprehensi
 ## **Smart Marker Parameters for Master and Details**
 To import master and details data into Excel, you need to use the following smart marker parameters:
 
-| Parameter | Description |
-| --- | --- |
-| `DetailSheet` | Specify the name of the detail worksheet stored in the template file. |
-| `DetailTable` | Specify the table name of the detail worksheet in the template file. |
-| `DetailSheetNewName` | Specify the name of the newly created detail worksheet. |
-| `DetailLink` | Indicate whether to add hyperlinks to the location of the imported data. |
+| Parameter | Description | Acceptable Values(Syntax) | Restrictions | Optionality | Default Behavior | Excel Constraints |
+| --- | --- | --- | --- | --- | --- | --- |
+| `DetailSheet` | Specify the name of the detail worksheet stored in the template file. | String value | Value must be null or the name of worksheet. If null, this is a detail sheet. It should be a simple string value. Variable is not supported. | If omitted, not master or detail sheet. | Normal worksheet, not master or detail sheet. | |
+| `DetailTable` | Specify the table name of the detail worksheet in the template file. | String value | | If omitted, the smart marker in the detail sheet should be similar to master sheet, otherwise we can not find data source. | If omitted, the smart marker in the detail sheet should be similar to master sheet, otherwise we can not find data source. | |
+| `DetailSheetNewName` | Specify the name of the newly created detail worksheet. | Excel formula liked Expression | It should be a valid formula for Excel if we replace Variable ({a.bc}) as simple value. | If omitted, new sheets will be Sheet1, Sheet2... | If omitted, new sheets will be Sheet1, Sheet2... | The name must be a valid name of woksheet. |
+| `DetailLink` | Indicate whether to add hyperlinks to the location of the imported data. | | |If omitted, do not add hyperlinks to the location of the imported data. | If omitted, do not add hyperlinks to the location of the imported data. | |
 
 ## **How to Use Master and Details When Master and Details in One Worksheet**
 Sometimes, you need to import master and details data to excel in SmartMarkers. Aspose.Cells makes it possible to use master and details parameters in SmartMarkers. Please check [template file](MasterDetailInOneSheet.xlsx), [json file](MasterDetailData.json) and the screenshot of the output excel file generated with the following code.
