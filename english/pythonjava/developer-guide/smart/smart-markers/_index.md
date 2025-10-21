@@ -2,7 +2,7 @@
 title: Smartly importing and placing data with Smart markers in Python via java
 linktitle: Smart markers
 type: docs
-weight: 190
+weight: 10
 url: /python-java/using-smart-markers/
 description: Smartly importing and placing data accoding to the template Excel files with Aspose.Cells for Python via java library.
 ---

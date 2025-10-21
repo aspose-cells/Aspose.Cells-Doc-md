@@ -1,7 +1,7 @@
 ---
 title: Shapes
 type: docs
-weight: 20
+weight: 90
 url: /python-java/shapes/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Monitor running programs
 type: docs
-weight: 20
+weight: 10
 url: /python-java/monitor-running-programs/
 ---
 

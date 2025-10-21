@@ -1,7 +1,7 @@
 ---
 title: Slicers
 type: docs
-weight: 40
+weight: 100
 url: /python-java/slicers/
 ---
 
